@@ -42,7 +42,7 @@ For more information see [[Linked Pane]].
 
 **5. Panes can be ==rearranged by dragging==**.
 
-Grab the icon in the upper left corner to arrange them however you need. For detailed information, see [[Working with multiple panes]].
+Grab the icon in the upper left corner to arrange them however you need. For detailed information, see [[Work with multiple panes]].
 
 ---
 
