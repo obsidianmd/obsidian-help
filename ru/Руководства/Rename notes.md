@@ -2,7 +2,7 @@ If you're already editing the note, you can rename it simply by editing the text
 
 ![[Pasted image 6.png]]
 
-If you want to rename a note that you're not editing, go to [[file explorer]], right-click on the note or folder and choose "Rename":
+If you want to rename a note that you're not editing, go to [[File explorer]], right-click on the note or folder and choose "Rename":
 
 ![[Pasted image 7.png]]
 

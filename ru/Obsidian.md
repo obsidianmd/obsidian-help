@@ -43,7 +43,7 @@ The foundation is to be able to view files, edit them, and search them. For the 
 
 On top of that, you can add isolated, independent building blocks to add features to your note-taking:
 
-- If you're taking class notes, [[Audio recorder]] and LaTeX math might be useful;
+- If you're taking class notes, [[Диктофон]] and LaTeX math might be useful;
 
 - If you're taking work notes, [[Slides]] and [[Backlinks]] may come in handy;
 

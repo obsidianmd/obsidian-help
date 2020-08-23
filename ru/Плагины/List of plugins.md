@@ -13,7 +13,7 @@ Here is a list of plugins Obisidan has as of [[v0.6.0]].
 1. [[Word count]]
 1. [[Slides]]
 1. [[Open in default app]]
-1. [[Audio recorder]]
+1. [[Диктофон]]
 1. [[Tag pane]]
 1. [[Command palette]]
 1. [[Custom CSS]]
