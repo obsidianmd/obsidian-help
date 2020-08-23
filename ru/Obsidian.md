@@ -45,9 +45,9 @@ On top of that, you can add isolated, independent building blocks to add feature
 
 - If you're taking class notes, [[Диктофон]] and LaTeX math might be useful;
 
-- If you're taking work notes, [[Slides]] and [[Backlinks]] may come in handy;
+- If you're taking work notes, [[Слайды]] and [[Обратные ссылки]] may come in handy;
 
-- If you're a researcher, [[Graph view]] and [[Word count]] might be essential to your toolkit.
+- If you're a researcher, [[Graph view]] and [[Счетчик слов]] might be essential to your toolkit.
 
 We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
 
