@@ -1,7 +1,5 @@
 # Page Preview
 
-Introduced in [[v0.3.0]], **disabled** by default.
-
 Page preview lets you preview a page when hovering an internal link, without needing to actually navigate to that page.
 
 ![[Pasted image 13.png]]

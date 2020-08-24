@@ -2,7 +2,7 @@ If you have the [[Command palette]] enabled, You can use `Ctrl/Cmd+P` to bring i
 
 Most keyboard shortcuts can be defined for your needs in Settings => Hotkeys. 
 
-The list of default Keyboard shortcuts as of [[v0.5.3]] is:
+The list of default Keyboard shortcuts is:
 
 Function                        |   | Shortcut          
 ------------------------------- | - | ------------------

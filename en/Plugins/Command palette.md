@@ -1,5 +1,4 @@
 # Command Palette 
-Introduced in [[v0.4.0]], **enabled** by default.
 
 The Command Palette is enabled by default, as it is a very useful way to access nearly all the features of Obsidian without having to remember key strokes. Type `Ctrl/Cmd+P` to activate, then simply type in the name of the command. If a command has a hotkey, it will appear in on the right side.
 

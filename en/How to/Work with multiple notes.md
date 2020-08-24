@@ -1,4 +1,4 @@
-Starting in [[v0.5.0]], you can edit and view multiple files in Obsidian.
+You can edit and view multiple files in Obsidian.
 
 To effectively use split view, you only need to know a few things:
 
