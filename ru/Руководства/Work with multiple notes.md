@@ -6,7 +6,7 @@ To effectively use split view, you only need to know a few things:
 
 By default, when you click something, it will open in the active pane. The active pane is marked with highlighted bar under the title, and its title is more visible than the inactive panes.
 
-To open files in new panes, hold down `Ctrl/Cmd` while you click in Preview mode (`shift + ctrl/cmd` in Edit mode). This applies to a number of places, including [[File explorer]], [[Обратные ссылки]] (both links and unlinked mentions), [[Search]] results, and [[Graph view]]. It also applies to buttons; instead of previewing in the current pane, you can `Cmd+click` the preview button to preview in a new pane. When using the Quick Switcher, holding down `Cmd/Ctrl`when hitting `Enter` will open in a new pane. 
+To open files in new panes, hold down `Ctrl/Cmd` while you click in Preview mode (`shift + ctrl/cmd` in Edit mode). This applies to a number of places, including [[Файловый менеджер]], [[Обратные ссылки]] (both links and unlinked mentions), [[Search]] results, and [[Граф]]. It also applies to buttons; instead of previewing in the current pane, you can `Cmd+click` the preview button to preview in a new pane. When using the Quick Switcher, holding down `Cmd/Ctrl`when hitting `Enter` will open in a new pane. 
 
 ---
 
