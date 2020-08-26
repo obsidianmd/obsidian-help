@@ -1,62 +1,63 @@
-## What is Obsidian
+## Qu'est-ce que Obsidian ?
 
-Obsidian is a both a Markdown editor and a knowledge base app.
+Obsidian est à la fois un éditeur Markdown et une application de base de connaissances.
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing densely networked knowledge base.
+Utilisé de la façon la plus simple, vous pouvez éditer et visualiser des fichiers Markdown. Mais sa vraie puissance réside dans sa capacité à gérer une base de connaissances avec de nombreux liens.
 
-How do we start creating a network, you ask? Let's first start making some [[Internal link|internal links]]!
+Comment commencer à créer un réseau de notes vous demandez-vous ? Commençons tout d'abord par créer quelques [[Internal link|liens internes]].
 
-## How we're different
+## En quoi sommes-nous différents ?
 
-==*We want you to own and control your data*==
+==*Nous voulons que vous gardiez la propriété et le contrôle de vos données*==
 
-We believe in plain text for something as important as your knowledge base. You don't want to put your own brain over someone else's neck, do you? Treat your second brain the same way.
+Nous croyons aux notes en format texte brut pour quelque chose d'aussi important que votre base de connaissances. Vous ne voudriez pas confier votre propre cerveau à quelqu'un d'autre n'est-ce pas ? Traitez votre deuxième cerveau de la même façon.
 
-Sync is only a utility to facilitate working on multiple devices, the data will always primarily live on your hard disk.
+La synchronisation est seulement un utilitaire pour vous aider à travailler sur plusieurs terminaux, les données résideront toujours principalement sur votre disque dur.
 
-When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
+Quand le système de fichiers de votre ordinateur remplace le stockage en ligne, vous bénéficiez alors d'options flexibles pour travailler avec vos fichiers : vous pouvez les sauvegarder avec Dropbox, utiliser Git pour gérer les différentes versions ou chiffrer votre disque pour plus de sécurité. Tout ce qui fonctionne avec les fichiers de votre disque dur fonctionnera avec votre base de connaissances Obsidian.
 
-==*Links are first-class citizens*==
+==*Les liens sont des citoyens de première classe*==
 
-Links and connections are crucial to discovering the relations between what we know.
+Les liens et les connexions sont cruciaux pour découvrir les relations entre ce que nous savons.
 
-Obsidian greatly values this, and encourages it with [[Internal link]] and [[Graph view]], among other things.
+Obsidian met les liens à l'honneur et simplifie leur gestion grâce aux [[Internal link|liens internes]] ainsi qu'à la [[Graph view|vue graphique]] entre autres choses.
 
-As John Locke puts it...
+Comme John Locke le dit...
 
-> The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:
-> 1. Combining several simple ideas into one compound one, and thus all complex ideas are made.
-> 2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations.
-> 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.
+> Le fonctionnement où l'esprit commence à exprimer sa puissance à partir d'idées simples repose sur trois choses :
+> 1. combiner plusieurs idées simples en une seule, agrégée
+> 2. regrouper deux idées ensemble, simples ou complexes, de façon à pouvoir les examiner l'une à côté de l'autre sans les mélanger afin de faire émerger de nouvelles idées de cette relation
+> 3. séparer ces idées de toutes les autres qui leur sont liées dans la vraie vie : cela s'appelle l'abstraction et permet d'en dégager des idées générales.
 
  \- John Locke, An Essay Concerning Human Understanding (1690)
  
-Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
+La première composante est fournie par la hiérarchie tandis que la deuxième l'est par les liens. Nous ne savons toujours pas ce qu'implique la composante numéro 3 dans un contexte de prise de notes mais cela pourrait avoir quelque chose à voir avec la programmation ou les macros.
 
-==*Your own toolkit*==
+==*Votre boîte à outils personnelle*==
 
-Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
+La prise de note est vraiment une activité personnelle. Naturellement, il n'y a pas une solution globale unique pour tout le monde.
 
-Instead of providing you with an opinionated and assembled product, [[Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+Au lieu de vous fournir une application formatée et rigide, [[Obsidian]] vous donne une base solide et de nombreux outils fonctionnels pour découvrir et construire votre propre solution.
 
-The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
+Le b-a-ba est de vous permettre de consulter vos fichiers, les éditer et de lancer des recherches. Pour une utilisation basique c'est suffisant.
 
-On top of that, you can add isolated, independent building blocks to add features to your note-taking:
+En plus de cela, vous pouvez ajouter des blocs de construction isolés et indépendants pour rajouter des fonctionnalités à votre prise de notes :
 
-- If you're taking class notes, [[Audio recorder]] and LaTeX math might be useful;
+- si vous prenez des notes en cours, l'[[Audio recorder|enregistreur]] et LaTeX pour les maths peuvent être utiles
 
-- If you're taking work notes, [[Slides]] and [[Backlinks]] may come in handy;
+- si vous prenez des notes au travail, [[Slides|le diaporama]] et [[Backlinks|les liens retours]] peuvent vous aider
 
-- If you're a researcher, [[Graph view]] and [[Word count]] might be essential to your toolkit.
+- si vous faites de la recherche, [[Graph view]|la vue graphique] et [[Word count|le compteur de mots]] peuvent se révéler essentiels à votre trousse à outils.
 
-We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
+Nous ne nous attendons pas à ce que les plugins soient la solution miracle pour résoudre tous les problèmes mais cela nous paraît plus pertinent qu'une approche monolithique, sans toutes les fonctionnalités dont vous n'avez pas besoin et qui risquent d'encombrer l'interface.
 
-We support [[Custom CSS]] and plan to open up a public plugin API after v1.0.0, which will enable even more interface customization and support less common use cases.
+Le programme prend en charge [[Custom CSS|les feuilles de style CSS]] et nous projetons de mettre à disposition une API publique à partir de la version v1.0.0, qui permettra encore bien d'autres personnalisations et répondra aux besoins les plus spécifiques.
 
-## Follow our development
+## Suivez notre développement
 
-Obsidian is in private beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
+Obsidian est en version beta à ce jour. Nous avons [une feuille de route](https://trello.com/b/Psqfqp7I/obsidian-roadmap) que vous pouvez venir découvrir.
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), not much to see there, but feel free to follow. We'll likely start posting after public beta.
+Notre fil Twitter est [@obsdmd](https://twitter.com/obsdmd), il n'y a pas grand chose à consulter mais sentez-vous libres de nous suivre. Nous commencerons probablement à publier après la beta publique.
 
-The Obsidian documentation was written by [@mediapathic](http://mediapathic.net), with a big help from @reggie, as well as the many eyes of the discord and forum community. 
+La documentation Obsidian a été écrite par [@mediapathic](http://mediapathic.net) avec l'aide de @reggie ainsi que beaucoup de relectures des utilisateurs de discord et de la commmunauté du forum.
+La traduction française a été réalisée par Joffrey SCHROEDER et Olivier ANTHONIOZ en août 2020. 
