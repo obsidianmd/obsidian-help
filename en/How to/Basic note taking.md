@@ -1,5 +1,3 @@
-# Getting Started
-
 If you've just opened Obsidian, you'll see two documents here. The one in the left pane is a text file, which you can edit using Markdown syntax. The one in the right pane is a _Preview_ of the same text file if you were to export it as HTML, or as a PDF document. Note that some things look different in Preview, and, most obviously, links are not in brackets. To follow a link, click on it in the Preview pane. You can follow links in the Editor pane as well, by holding down `Ctrl/Cmd` and clicking on the link. If you want to go back to the page you were on before, use the shortcut `Ctrl/Cmd-alt-LeftArrow`
 
 Alternatively, the notes that link to the one you're currently on will be shown in the **Backlinks Panel** on the right (find more about Backlinks [[Backlinks|here.]])

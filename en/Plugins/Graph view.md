@@ -1,5 +1,3 @@
-# Graph View
-
 Shows a graph representation of the [[Internal link|internal links]] between your notes.
 
 Notes with more notes referencing it appear as bigger nodes on the graph.

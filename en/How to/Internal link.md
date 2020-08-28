@@ -1,5 +1,3 @@
-## Internal Links
-
 Internal links are the backbone of your knowledge network.
 
 To create an internal link, simply type `[[`. This will prompt you with the list of notes you can link to. Use `Up arrow` and `Down arrow` to navigate the suggestion list and `Enter` to select the current highlighted link.

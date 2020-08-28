@@ -1,5 +1,3 @@
-# Backlinks 
-
 The backlinks plugin shows how the current note is referenced in other notes.
 
 After enabling it, you'll see the backlink count in the status bar.

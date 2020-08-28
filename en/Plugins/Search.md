@@ -1,6 +1,4 @@
-# Search
-
-![[search.png]]
+![[Search.png]]
 
 Search is a powerful feature, and has the potential to be confusing. In most cases, if you just type what you want to find, it will work. But search has many capabilities for narrowing down to find exactly what you want.
 

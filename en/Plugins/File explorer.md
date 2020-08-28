@@ -1,5 +1,3 @@
-# File Explorer
-
 The File explorer shows [[Accepted file formats|the list of files Obsidian can recognize]] in your vault. You can open notes, [[create notes]] and folders, and [[rename notes]] in it. Right clicking on a note or directory in the File explorer will bring up appropriate options, such as renaming or making a copy. This is also the best way to set your default folder for when you [[Embed files]].
 
 It's one of the crucial plugins that we recommend you to keep enabled.

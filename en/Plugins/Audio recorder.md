@@ -1,5 +1,3 @@
-# Audio Recorder
-
 Audio recorder is a plugin that lets you make a recording without leaving Obsidian. It's useful for class and meeting notes when you can't catch up for some reason, or for recording important discussions so you don't miss any details.
 
 To use, simply click on the microphone icon in the left panel:

@@ -1,5 +1,3 @@
-# Markdown Format Converter
-
 It allows you to convert from other variations of Markdown format and link convention to Obsidian format.
 
 Right now you can convert:

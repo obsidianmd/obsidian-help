@@ -1,5 +1,3 @@
-# Slides
-
 Slides lets you do simple presentations right inside Obsidian.
 
 ### Usage tips
