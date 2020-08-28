@@ -8,4 +8,4 @@ If you want to use subtags, you can use these formats:
 - Underscore: #maintag_subtag
 - Dash: #maintag-subtag
 
-This will allow you to click to search, as per usual, but if you want to find all instances of `maintag` with all subtags, you can still use the [[Search]] to look for `#maintag`. This is useful in cases where you have subcategories of things but you also want to be able to easily find all instances of the higher category.
+This will allow you to click to search, as per usual, but if you want to find all instances of `maintag` with all subtags, you can still use the [[Поиск]] to look for `#maintag`. This is useful in cases where you have subcategories of things but you also want to be able to easily find all instances of the higher category.
