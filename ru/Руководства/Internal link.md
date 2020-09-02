@@ -14,4 +14,4 @@ To make the link display different text than its real note name in Preview, use 
 - To follow a link in a new panel from Preview, click while pressing `Ctrl/Cmd`''
 - To follow a link in the Editor pane, click the link while pressing `Ctrl/Cmd`.
 - To follow a link in a new panel from the Editor, click the link while pressing `Ctrl/Cmd-Shift`''
-- To see a preview of the linked content without leaving the current note, enable the [[Page preview]] plugin and a popup window will be displayed.
+- To see a preview of the linked content without leaving the current note, enable the [[Предпросмотр страницы]] plugin and a popup window will be displayed.

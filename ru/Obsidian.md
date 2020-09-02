@@ -1,62 +1,62 @@
-## What is Obsidian
+## Что такое Obsidian
 
-Obsidian is a both a Markdown editor and a knowledge base app.
+Obsidian это редактор Markdown и приложение для базы знаний.
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing densely networked knowledge base.
+В самом простом примере использования вы можете редактировать и просматривать Markdown файлы. Но истинная мощь кроется в управлении плотно сплетенных связями базах знаний. 
 
-How do we start creating a network, you ask? Let's first start making some [[Internal link|internal links]]!
+Вы спросите как начать создавать связи? Для начала давайте попробуем сделать [[Internal link|внутренние связи]]!
 
-## How we're different
+## Чем мы отличаемся
 
-==*We want you to own and control your data*==
+==*Мы хотим чтобы вы владели и управляли своими данными*==
 
-We believe in plain text for something as important as your knowledge base. You don't want to put your own brain over someone else's neck, do you? Treat your second brain the same way.
+Для чего-то столь важного как ваша база знаний мы верим в простой текст. Вы же не хотели бы чтобы вашу голову носила чужая шея? Вот и ко второму своему мозгу относитесь также.
 
-Sync is only a utility to facilitate working on multiple devices, the data will always primarily live on your hard disk.
+Синхронизация это всего лишь инструмент для поддержки процесса работы на нескольких устройствах, а данные всегда будут жить на вашем диске. 
 
-When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
+Как только файловая система вытесняет облако, у вас появляется множество гибких возможностей для работы с файлами: вы можете делать резервные копии с помощью Dropbox, использовать Git для версионного контроля или зашифровать диск для безопасности. Всё что может сработать для файловой системы, сработает и для базы данных Obsidian.
 
-==*Links are first-class citizens*==
+==*Ссылки - первоклассные граждане*==
 
-Links and connections are crucial to discovering the relations between what we know.
+Ссылки и связи критичны для поиска взаимоотношений между нашими знаниями. 
 
-Obsidian greatly values this, and encourages it with [[Internal link]] and [[Graph view]], among other things.
+Obsidian высоко это ценит и призывает использовать с помощью [[Internal link|внутренних ссылок]] и [[Граф|представления в виде графа]], а также других функциональных возможностей.
 
-As John Locke puts it...
+Как сказал John Locke...
 
-> The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:
-> 1. Combining several simple ideas into one compound one, and thus all complex ideas are made.
-> 2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations.
-> 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.
+> Действия разума, в которых он осуществляет свою власть над простыми идеями, главным образом сводятся к трем:
+> 1. Объединение нескольких простых идей в одну сложную, и таким образом создаются все сложные идеи.
+> 2. Второе - это объединение двух идей, простых или сложных, вместе, и размещение их рядом, чтобы взглянуть на них одновременно, не объединяя их в одно, что позволяет получить все свои представления об взаимосвязях.
+> 3. Третья - это отделение их от всех других идей, которые сопровождают их в реальном существовании: это называется абстракцией, и таким образом создаются все общие идеи.
 
  \- John Locke, An Essay Concerning Human Understanding (1690)
  
-Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
+Иерархия дает нам №1, а построение связей дает нам №2. Мы до сих пор не очень уверены что №3 влечет за собой в контексте создания заметок, но возможно это имеет какое-то отношение к программированию или макросам. 
 
-==*Your own toolkit*==
+==*Ваш инструментарий*==
 
-Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
+Ведение заметок это очень личная форма деятельности. Вполне естественно не существует единого всеобъемлющего унивесального для всех решения.
 
-Instead of providing you with an opinionated and assembled product, [[Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+Вместо  продукта с субхективным представлением, [[Obsidian]] даст вам фундамент и функциональные строительные кирпичи для исследования и построения собственного решения. 
 
-The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
+Фундаментом является возможность смотреть содержимое файлов, редактировать файлы, искать. Этого достаточно для минималиста. 
 
-On top of that, you can add isolated, independent building blocks to add features to your note-taking:
+Поверх этого можно добавлять изолированные, независимые кирпичики расширяя функциональные возможности заметочника:
 
-- If you're taking class notes, [[Диктофон]] and LaTeX math might be useful;
+- Если вы записываете лекции, [[Диктофон]] и LaTeX будут полезны;
 
-- If you're taking work notes, [[Слайды]] and [[Обратные ссылки]] may come in handy;
+- Если вы ведете заметки по работе, [[Слайды]] и [[Обратные ссылки]] mмогут пригодиться;
 
-- If you're a researcher, [[Graph view]] and [[Счетчик слов]] might be essential to your toolkit.
+- Если вы исследователь, [[Граф]] и [[Счетчик слов]] возможно будут ключевыми компонентами вашего инструментария. 
 
-We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
+Мы не предполагаем, что плагины будут серебряной пулей для решения всех проблем, но они опредленно помогабт приблизиться к решению сильнее, чем монолитное приложение и без всех ненужных функций, засоряющих интерфейс. 
 
-We support [[Custom CSS]] and plan to open up a public plugin API after v1.0.0, which will enable even more interface customization and support less common use cases.
+Мы поддерживаем [[Пользовательский CSS]] для создания тем оформления и планируем открыть API для плагинов после выхода v1.0.0, что позволит еще расширить возможности подстройки интерфейса и поддержку менее распространенных сценариев использования. 
 
-## Follow our development
+## Следите за нашей разработкой
 
-Obsidian is in private beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
+Obsidian находится в закрытом бета-тестировании. У нас есть [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) на который можно взглянуть.
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), not much to see there, but feel free to follow. We'll likely start posting after public beta.
+Мы в Twitter  [@obsdmd](https://twitter.com/obsdmd) не очень активны, но вы можете подписаться. Скорее всего мы начнем там писать после открытого бета-тестирования. 
 
-The Obsidian documentation was written by [@mediapathic](http://mediapathic.net), with a big help from @reggie, as well as the many eyes of the discord and forum community. 
+Документация Obsidian была написана [@mediapathic](http://mediapathic.net), с большой помощью от  @reggie, а также многих глаз из discord и форума сообщества. 
