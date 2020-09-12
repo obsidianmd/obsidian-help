@@ -1,6 +1,3 @@
-
-# Working with multiple panes
-
 Each note in Obsidian is displayed in its own pane. These can be split, duplicated, and moved around to create the workspace you need.
 
 Panes can be rearranged by dragging the icon in the top left of the pane. Dropping onto each of the four sides of an existing pane creates a horizontal or vertical split, and dropping in the center swaps positions with the target pane. 

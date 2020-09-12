@@ -22,7 +22,7 @@ If you want a more thorough introduction, including a bit about our philosophy, 
 
 And if you'd like a gentle introduction, or just want to get started but don't know how, head over to [[Basic note taking]].
 
-If you are a [Catalyst supporter](https://obsidian.md/pricing), and want to turn on Insider Builds, see [[Insider Builds]].
+If you are a [Catalyst supporter](https://obsidian.md/pricing), and want to turn on Insider Builds, see [[Insider builds]].
 
 ## Workflows
 

@@ -1,7 +1,3 @@
-# Slides
-
-Introduced in [[v0.0.3]], **disabled** by default.
-
 Slides lets you do simple presentations right inside Obsidian.
 
 ### Usage tips

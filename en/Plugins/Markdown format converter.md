@@ -1,7 +1,3 @@
-# Markdown Format Converter
-
-Introduced in [[v0.5.0]]. **Enabled** by default.
-
 It allows you to convert from other variations of Markdown format and link convention to Obsidian format.
 
 Right now you can convert:

@@ -1,7 +1,3 @@
-# Custom CSS
-
-Introduced in [[v0.3.0]], **disabled** by default.
-
 When enabled, Obsidian will look for a file called `obsidian.css` in your vault root directory, and if it exists, applies it to the app itself.
 
 The Obsidian Community has produced a great number of themes, and some of these are featured in the app. If Custom CSS is enabled, a `Community Themes` option will open in the Settings. Any of these themes can be used by clicking the `Use` button underneath. In the upper right of the Community Themes tab, there is a switch to determine whether to only see themes that are optimized for light or dark mode (whichever mode you are currently in). Turn this off to see all themes. 

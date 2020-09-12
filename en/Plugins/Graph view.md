@@ -1,7 +1,3 @@
-# Graph View
-
-Introduced in [[v0.0.1]], **enabled** by default.
-
 Shows a graph representation of the [[Internal link|internal links]] between your notes.
 
 Notes with more notes referencing it appear as bigger nodes on the graph.
