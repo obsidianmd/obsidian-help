@@ -35,8 +35,8 @@ This is especially important because an improperly encoded "reserved" character 
 Possible parameters:
 
 - `vault` can be either the vault name, or the vault ID.
-	- The vault name is simply the name of the vault folder
-	- The vault ID is the random 16-character code which can be found in the vault switcher. This ID is unique per folder on your computer. Example: `ef6ca3e3b524d22f`.
+	- The vault name is simply the name of the vault folder.
+	- The vault ID is the random 16-character code assigned to the vault. This ID is unique per folder on your computer. Example: `ef6ca3e3b524d22f`. There isn't an easy way to find this ID yet, one will be offered at a later date in the vault switcher. Currently it can be found in `%appdata%/obsidian/obsidian.json` for Windows. For MacOS, replace `%appdata%` with `~/Library/Application Support/`. For Linux, replace `%appdata%` with `~/.config/`.
 - `file` can be either a file name, or a path from the vault root to the specified file.
 	- To resolve the target file, Obsidian uses the same link resolution system as a regular `[[wikilink]]` within the vault.
 	- If the file extension is `md`, the extension can be omitted.
@@ -67,3 +67,10 @@ Examples:
 
 - `obsidian://open?path=D%3A%5CDocuments%5CMy%20vault%5CMy%20note`
 	This will look for any vault that contains the path `D:\Documents\My vault\My note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `D:\Documents\My vault`, then this would be equivalent to `file` parameter set to `My note`.
+
+## Shorthand formats
+
+In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+
+- `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`
+- `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`
