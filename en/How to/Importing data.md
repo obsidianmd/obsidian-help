@@ -18,7 +18,7 @@ Also of note, the makers of nvUltra, another markdown-based note-taking program,
 If you have data in Roam, it's easy to export and play around with it in Obsidian.
 
 > 1. Choose "Export all" in the menu:
-> ![[Fireworks Complaints NYC June 1-14.png]]
+> ![[Pasted image.png]]
 
 > 2. Click the blue "Export all" button:
 > ![[Pasted image 1.png]]
