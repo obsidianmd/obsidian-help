@@ -14,13 +14,26 @@ If not, you can visit it here: https://publish.obsidian.md/help.
 
 Obsidian Publish service lets you create your site directly from inside the Obsidian app, by choosing the notes you want to publish.
 
-Right now, your site comes with a local graph view and table of contents. You can also see a list of all published notes on the left.
-
-When you hover links, you can see a page preview that functions similar to the [[Page preview]] plugin in Obsidian.
-
 To customize your site, you can choose between light and dark mode, and also toggle between readable line length and full page length.
 
-_Note: graph view, table of contents, and page preview can be toggled off as well._
+There are several components which can be turned on or off from the [[Publish|Publish plugin]]. This will reflect on the published site once the cache clears, usually within 5 minutes.
+
+##### Navigation
+
+Turning this on adds a navigation sidebar containing all published pages and the folders that contains them. Viewers will see the current open note highlighted, and can click on another note to navigate.
+
+##### Graph view
+
+Shows a local graph of the page currently open. This uses the same rendering engine as the [[Graph view]] plugin in Obsidian.
+
+##### Table of contents
+
+Shows the table of contents for the page currently open. The list is generated from headings within the page, similar to the [[Outline]] plugin. Viewers navigating the note will see the corresponding heading highlighted when they scroll, and can click on another heading to scroll to it.
+
+##### Hover preview
+
+Allows the viewer to hover links to view their content in a popup box. This works similarly to the [[Page preview]] plugin in Obsidian.
+
 
 ### Coming up
 
@@ -42,4 +55,4 @@ For the pricing of Obsidian Publish, please visit [our pricing page](https://obs
 
 ### Related
 
-For how to use the Publish plugin, see [[Publish]].
+For how to use the Publish plugin, see [[Publish|Publish plugin]].
