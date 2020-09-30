@@ -2,8 +2,6 @@ Hi there! I'm a note in your vault.
 
 At the same time, I'm also just a Markdown file sitting on your hard disk. It's all in plain text, so you don't need to worry about losing me in case [[Obsidian]] disappears one day.
 
-
-
 ## Quick Start
 
 If you're in a hurry, here's some quick places to dive in:
@@ -14,7 +12,7 @@ If you're in a hurry, here's some quick places to dive in:
 - How to use Markdown to [[Format your notes]]
 - How to [[embed files]], or embed other notes
 - [[Keyboard shortcuts]]
-- How to [[Work with multiple notes|open multiple files side by side]]
+- How to [[Working with multiple notes|open multiple files side by side]]
 - Obsidian can be extended with [[List of plugins|plugins]]. Several are available by default, and can be enabled or disabled according to your needs.
 
 

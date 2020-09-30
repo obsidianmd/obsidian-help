@@ -1,5 +1,7 @@
 The Publish plugin lets you publish notes from your vault onto your site, all within Obsidian.
 
+For more information about the Obsidian Publish service, what's included, how it works, and privacy go to the [[Obsidian Publish]] add-on service page.
+
 ### Enable the plugin
 
 First, enable the Publish plugin. After that, you'll see the Publish icon appear in your [[Ribbon]], which looks like a paper plane.

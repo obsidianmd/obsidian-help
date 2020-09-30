@@ -1,8 +1,10 @@
 Obsidian Publish is a paid hosting service for your notes.
 
+For instructions on how to publish your notes from the Obsidian app, see [[Publish|Publish plugin]].
+
 ### Privacy
 
-Rather than publishing your entire vault, you have total control over what to publish, via the [[Publish|Publish plugin]]. ==As for the notes that you choose not the publish, Obsidian Publish has no knowledge of them==.
+Rather than publishing your entire vault, you have total control over what to publish, via the [[Publish|Publish plugin]]. ==As for the notes that you choose **not** to publish, you can remain confident that those notes are completely private and Obsidian Publish has no knowledge of them==.
 
 ### Demo
 
@@ -20,7 +22,7 @@ There are several components which can be turned on or off from the [[Publish|Pu
 
 ##### Navigation
 
-Turning this on adds a navigation sidebar containing all published pages and the folders that contains them. Viewers will see the current open note highlighted, and can click on another note to navigate.
+Turning this on adds a navigation sidebar containing all published pages and the folders that contain them. Viewers will see the current open note highlighted, and can click on another note to navigate.
 
 ##### Graph view
 
@@ -32,7 +34,7 @@ Shows the table of contents for the page currently open. The list is generated f
 
 ##### Hover preview
 
-Allows the viewer to hover links to view their content in a popup box. This works similarly to the [[Page preview]] plugin in Obsidian.
+Allows the viewer to hover over links to view their content in a popup box. This works similarly to the [[Page preview]] plugin in Obsidian.
 
 
 ### Coming up
@@ -44,6 +46,7 @@ Obsidian Publish is still in the early days. These are the things we plan to add
 - Backlink section
 - Tag pane section
 - More built-in themes
+- Search
 
 Please let us know if you have Obsidian Publish related feature requests.
 
