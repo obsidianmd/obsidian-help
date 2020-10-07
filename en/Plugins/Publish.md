@@ -1,43 +1,49 @@
-The Publish plugin lets you publish notes from your vault onto your site, all within Obsidian.
+The Publish plugin lets you publish notes from your vault onto your site, all from within the Obsidian app.
 
-For more information about the Obsidian Publish service, what's included, how it works, and privacy go to the [[Obsidian Publish]] add-on service page.
+For more information about the Obsidian Publish™ service, what's included, how it works, and privacy, see the [[Obsidian Publish]] add-on service.
 
 ### Enable the plugin
 
-First, enable the Publish plugin. After that, you'll see the Publish icon appear in your [[Ribbon]], which looks like a paper plane.
+From within Obsidian > Settings > Plugin, enable the Publish plugin. After that, a Publish icon (which looks like a paper plane) will appear in the [[Ribbon]] pane.
 
 Once enabled, you can also set a hotkey for this option, or use the command palette to access it.
 
 ### Set up your site
 
-When purchasing Obsidian Publish, you'll be asked how many sites to purchase. You can then log in under Settings -> Account, so that the Publish plugin is aware of the number of remote sites you have.
+When purchasing Obsidian Publish, you'll be asked how many sites to purchase. Once you login under Settings > Account, the Publish plugin will display the number of publish sites you've purchased.
 
-If you have available slots, after opening Publish, you'll see an option to set up a site by entering a unique site ID. Your site will be available at `https://publish.obisidian.md/{site-id}`.
+If you have available sites, after opening Publish you'll see an option to set up a site by entering a unique site ID. After publishing, your site will be available at `https://publish.obisidian.md/{site-id}`.
 
 ### Site options
 
-After creating a site, you might want to give it a name, set a theme, and toggle the components (graph view, table of contents, etc.). You can do that by clicking on the gear icon near your site name, once you've created it.
+After creating a site, you have the option to give it a name, set a theme, and toggle various components (e.g. graph view, table of contents, etc.). You can do that by clicking on the gear icon near your site name at the top of the Publish plugin.
 
-### Upload files
+### Select files for publishing
 
-After setting up your site, you can now publish some notes!
+After setting up your site, you can now publish your notes!
 
-With a fresh, empty site, all the notes will appear under the "New" section, meaning they are new to your site.
+With a fresh, empty site, all your notes will appear under the "New" section, meaning they are new to your site.
 
-==Privacy note: at this stage, our Obsidian Publish server has no knowledge of these "New" notes. They are displayed as the Publish plugin compares what's in your vault with what's already on your published site.==
+==Privacy note: prior to your first publish, our Obsidian Publish server has no knowledge of these "New" notes. The Publish plugin compares what's in your vault with what's already on your published site and then displays any such unpublished notes.==
 
-Now, you can choose the files you want to publish, and click on the "Publish" button.
+Now, you may choose which files you want to publish, and then click the "Publish" button.
 
 ### Make changes
 
-As you make changes to notes that you already published, those changes will be automatically selected when you open the Publish plugin dialogue, but you can still uncheck some of them and partially publish your changes.
+As you make changes to notes that have already been published, those changes will be automatically selected when you open the Publish plugin dialog. You may uncheck any files you wish not to publish to your site.
 
 ### Add linked notes
 
-One common thing you might want to do is to select an "entry point" note, and add all the notes linked from there.
+The "Add linked" button allows you to include for publishing any notes in your vault that are referenced (linked to) by any currently selected notes. This is a good way to ensure there are no dead links on your published site.
 
-To do this, first select the entry point note. Then, click on the "Add linked" button on the top right corner of the dialogue. If your entry point note links to 4 more files, all those 4 files will be automatically selected.
+By way of example, let's assume you select Note A for publishing. Supposing Note A has links to Note P, Note Q, and Note R, then if you click the "Add linked" button, Notes P, Q, and R will all be selected for publishing along with the currently selected Note A.
 
-You can click the button multiple times to include everything indirectly linked from the original entry point note. This is a bit risky, as one of the notes might link to something you do not wish to publish, so please review the list of files carefully before hitting "Publish".
+Each time you click the "Add linked" button, the Publish plugin will look for links within every currently selected file to include for publication. Please be sure you review the list of selected files before clicking the "Publish" button.
 
-Using the "Add linked" button is a good way to ensure there are no dead links on your published site, as all the linked notes are added and subsequently published to your site.
+### Delete published notes
+
+You always have the option of removing any notes that have been published to your site. Within the Publish plugin, all published notes will be listed, of which any/all can be selected for removal. Deleting a note from your site **does not** remove the note from your vault, thus giving you the option to re-publish the note again in the future.
+
+### Delete entire site
+
+If you'd like to delete an entire site, click the switch-site (arrows) icon near the top of the Publish plugin. Then click the X button to delete your site. Note: this only removes your public site but does not affect any files in your vault. You can always choose to re-publish your notes. 
