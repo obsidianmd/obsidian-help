@@ -8,25 +8,19 @@ From within Obsidian > Settings > Plugin, enable the Publish plugin. After that,
 
 Once enabled, you can also set a hotkey for this option, or use the command palette to access it.
 
-### Set up your site
+### Set up and Configure your site
 
-When purchasing Obsidian Publish, you'll be asked how many sites to purchase. Once you login under Settings > Account, the Publish plugin will display the number of publish sites you've purchased.
+Within the Publish plugin, you'll see an option to create a site by entering a unique site ID. Once published, your site will be available at `https://publish.obisidian.md/{site-id}`.
 
-If you have available sites, after opening Publish you'll see an option to set up a site by entering a unique site ID. After publishing, your site will be available at `https://publish.obisidian.md/{site-id}`.
-
-### Site options
-
-After creating a site, you have the option to give it a name, set a theme, and toggle various components (e.g. graph view, table of contents, etc.). You can do that by clicking on the gear icon near your site name at the top of the Publish plugin.
+After creating a unique site ID, you'll have the option to give your site a name, select a home page, set a theme, and toggle various components such as graph view, table of contents, etc. You can toggle these options by clicking on the gear icon near your site name at the top of the Publish plugin.
 
 ### Select files for publishing
 
 After setting up your site, you can now publish your notes!
 
-With a fresh, empty site, all your notes will appear under the "New" section, meaning they are new to your site.
+With a fresh, empty site, all your notes will appear under the "New" section, meaning they are new to your site. At this point, you may choose which files you want to publish, and then click the "Publish" button.
 
-==Privacy note: prior to your first publish, our Obsidian Publish server has no knowledge of these "New" notes. The Publish plugin compares what's in your vault with what's already on your published site and then displays any such unpublished notes.==
-
-Now, you may choose which files you want to publish, and then click the "Publish" button.
+==Privacy note: Obsidian Publish has no awareness (nor retention) of any notes you choose not to publish (nor any notes you subsequently remove from your published site).==
 
 ### Make changes
 
