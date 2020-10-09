@@ -4,7 +4,7 @@ For more information about the Obsidian Publish service, what's included, how it
 
 ### Enable the plugin
 
-First, enable the Publish plugin. After that, you'll see the Publish icon appear in your [[Ribbon]], which looks like a paper plane.
+First, enable the Publish plugin. After that, you'll see the Publish icon appear in your ribbon, which looks like a paper plane.
 
 Once enabled, you can also set a hotkey for this option, or use the command palette to access it.
 
