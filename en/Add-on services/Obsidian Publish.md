@@ -4,7 +4,11 @@ For instructions on how to publish your notes from within the Obsidian app, refe
 
 ### Privacy
 
-You have total control over what to publish via the [[Publish|Publish plugin]] - either your entire vault or just selected notes within your vault. ==As for any notes you choose **not** to publish, you can be confident that those notes remain completely private, and Obsidian Publish has no knowledge of them==.
+You have total control over what to publish via the [[Publish|Publish plugin]] - either your entire vault or just selected notes within your vault. As for any notes you choose **not** to publish, you can be confident that those notes remain completely private, and Obsidian Publish has no knowledge of them.
+
+### Backing up
+
+Please note that Obsidian Publish is not to be used as a backup for your content. Make sure you always have a personal backup copy of your site using your preferred backup method. Our efforts on Obsidian Publish will be more focused on functionality, ease of use, and site availability.
 
 ### Demo
 
@@ -53,6 +57,14 @@ Please let us know if you have any Obsidian Publish feature requests by submitti
 ### Pricing
 
 For the pricing of Obsidian Publish, please visit [our pricing page](https://obsidian.md/pricing).
+
+### Technical details
+
+Obsidian Publish uses Cloudflare as the CDN (content delivery network) to distribute your site across the globe for a faster access. This involves caching copies of the files of your site on some of the 200+ data centers to ensure the lowest latency for your readers and the site remain speedy and loads fast even if your viewer lives far away from our primary servers.
+
+However, this does mean that when you change site settings, publish new content, or unpublish content, visitors might not see the latest version for a short while. Currently, our cache is configured to persist for an hour before it has to be "re-validated" to ensure the content hasn't changed.
+
+If you've just published items but you are still seeing an older version, you can typically perform a "hard refresh" by holding the reload button and choosing "Hard reload" in the dropdown menu. Failing that, you can try clearing the browser cache or disabling cache using the developer tools in the network tab.
 
 ---
 
