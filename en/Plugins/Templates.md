@@ -1,16 +1,16 @@
-The Teampltes plugin lets you quickly insert snippets of text into your current note.
+The Templates plugin lets you quickly insert snippets of text into your current note.
 
 ### Set up template folder
 
 Each template snippet is just a normal Markdown note, like everything else in Obsidian.
 
-To destingate template files, put them into a folder, and choose that folder in Settings -> Templates -> "Template folder location" after enabling the pugin.
+To designate template files, put them into a folder, and choose that folder in Settings -> Templates -> "Template folder location" after enabling the plugin
 
 ### Insert a template
 
-After setting up the folder location, using the [[Ribbon icon]] to insert thte template. As always, you can also set a hotkey for this option, or use the command palette to access it.
+After setting up the folder location, using the ribbon icon to insert the template. As always, you can also set a hotkey for this option, or use the command palette to access it.
 
-The template snippet will be inserted in the current caret position, with special text replaced by their acutal value at the time of the insertion (see below).
+The template snippet will be inserted in the current caret position, with special text replaced by their actual value at the time of the insertion (see below).
 
 ### Insert date and time
 
