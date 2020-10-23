@@ -1,11 +1,12 @@
-# Audio Recorder
+# Enregistreur audio
 
-Audio recorder is a plugin that lets you make a recording without leaving Obsidian. It's useful for class and meeting notes when you can't catch up for some reason, or for recording important discussions so you don't miss any details.
+L'enregistreur audio est un plugin qui vous permet de faire un enregistrement sans quitter Obsidian. Il est utile pour les notes de cours et de réunion lorsque vous ne pouvez pas suivre pour une quelconque raison, ou pour enregistrer des discussions importantes afin de ne manquer aucun détail.
 
-To use, simply click on the microphone icon in the left panel:
+Pour l'utiliser, cliquez simplement sur l'icône du microphone dans le panneau de gauche:
 
 ![[Pasted image 8.png]]
 
-The microphone will become colored while it's actively recording.
+Le microphone deviendra coloré pendant l'enregistrement.
 
-Click on it again to finish recording. The audio file is now saved in your [[vault]] and an embed the recording will be added to the end of your current note.
+Cliquez à nouveau dessus pour terminer l'enregistrement. Le fichier audio est maintenant enregistré dans votre [[vault]] et sera intégré à la fin de votre note actuelle.
+
