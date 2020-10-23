@@ -1,8 +1,10 @@
-## Liens internes
-
 Les liens internes sont l'épine dorsale de votre réseau de connaissances.
 
+### Lier vers un fichier
+
 Pour créer un lien interne, tapez simplement `[[`. Cela vous affichera la liste des notes vers lesquelles vous pouvez créer un lien. Utilisez `Flèche vers le haut` et `Flèche vers le bas` pour naviguer dans la liste de suggestions et `Entrée` pour sélectionner le lien actuellement en surbrillance.
+
+### Lier vers un en-tête
 
 Vous pouvez également créer un lien vers des en-têtes spécifiques dans les fichiers. Commencez à taper un lien comme vous le feriez normalement. Lorsque la note que vous recherchez est mise en surbrillance, appuyez sur `#` au lieu de `Entrée` et vous verrez une liste des titres dans ce fichier. Continuez à saisir ou naviguez avec les touches de direction comme précédemment, appuyez sur `#` à nouveau à chaque sous-titre que vous voulez ajouter puis sur `Entrée` pour compléter le lien.
 
