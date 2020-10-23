@@ -4,9 +4,11 @@ Welcome to Obsidian's official help vault! This page contains a quick index to t
 See public hosted version: https://publish.obsidian.md/help
 Contribute to this site: https://github.com/obsidianmd/obsidian-docs/
 
-## About the team
+## Credits
 
-https://obsidian.md/about
+[[Credits|Our credits page]] lists all the amazing people who made Obsidian possible.
+
+To read more about the makers, see the [about page](https://obsidian.md/about) on our official website.
 
 ## Obsidian
 
