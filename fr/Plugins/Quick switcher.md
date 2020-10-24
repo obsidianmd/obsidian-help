@@ -1,10 +1,10 @@
 # Quick Switcher
 
-The Quick switcher lets you jump to other notes without leaving your keyboard. The shortcut to invoke it is `Ctrl/Cmd+O`. Just start typing, and matching filenames will be selected. Use up and down arrows to navigate the results, `Enter` to jump to a result, and  `Esc` to exit the quick switcher. Holding down `Cmd/Ctrl` will cause the note to open in a new pane. 
+Quick Switcher vous permet de passer à d'autres notes sans quitter votre clavier. Le raccourci pour l'invoquer est `Ctrl/Cmd + O`. Commencez simplement à taper et les noms de fichiers correspondants seront sélectionnés. Utilisez les flèches haut et bas pour parcourir les résultats, `Enter` pour accéder à un résultat et `Esc` pour quitter Quick Switcher. Maintenez enfoncée la touche `Cmd/Ctrl` pour ouvrir la note dans un nouveau volet.
 
-If you want to create a new note, typing a unique name will cause the Quick Switcher to create it. If the name is similar enough to an existing note, the Quick Switcher will default to opening the original note. To avoid this, holding down `shift` will force creation of a new note with whatever name is in the Quick Switcher. This can be combined with `Cmd/Ctrl` to create the new note in a new pane. 
+Si vous souhaitez créer une nouvelle note, la saisie d'un nom unique entraînera sa création par Quick Switcher. Si le nom est assez similaire à une note existante, Quick Switcher ouvrira par défaut la note d'origine. Pour éviter cela, maintenir enfoncée `shift` forcera la création d'une nouvelle note avec n'importe quel nom dans le Quick Switcher. Cela peut être combiné avec `Cmd/Ctrl` pour créer la nouvelle note dans un nouveau volet.
 
 ![[Pasted image 11.png]]
 
-Before you enter anything, the top 5 most recently visited notes will be shown, so it's also useful to quickly switch two notes by doing `Ctrl/Cmd+O` → `Down arrow` → `Enter`.
+Avant de saisir quoi que ce soit, les 5 notes les plus récemment visitées seront affichées, il est donc également utile de changer rapidement de deux notes en faisant `Ctrl/Cmd + O` →` Flèche vers le bas` → `Enter`.
 
