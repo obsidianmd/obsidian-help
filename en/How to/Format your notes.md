@@ -1,3 +1,4 @@
+
 Obsidian is a Markdown-based note-taking and knowledge base app. 
 
 We currently support the formats below:
@@ -45,6 +46,12 @@ _You **can** combine them_
 ### Images
 
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+
+#### Resizing images
+
+Example of this above image resized to 100 pixels wide:
+
+![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
 ---
 
