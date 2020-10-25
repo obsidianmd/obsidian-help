@@ -10,4 +10,4 @@ This can be a very powerful way of seeing connections between your notes that yo
 
 If a reference appears in the Unlinked mentions, and you want to link it, hovering over the text will bring up a Link button. Clicking this will automatically surround the highligted text in the referenced note with brackets, making it into an explicit link.
 
-You can also create a separate, dedicated backlinks pane for a note under the More Options menu. This will be a [[Linked pane]] connected to the note, and can be moved around anywhere, as described in [[Work with multiple panes]]. There's also an option to do this in the [[Command palette]].
+You can also create a separate, dedicated backlinks pane for a note under the More Options menu. This will be a [[Linked pane]] connected to the note, and can be moved around anywhere, as described in [[Working with multiple panes]]. There's also an option to do this in the [[Command palette]].

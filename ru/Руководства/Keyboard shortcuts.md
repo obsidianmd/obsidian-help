@@ -1,4 +1,4 @@
-If you have the [[Command palette]] enabled, You can use `Ctrl/Cmd+P` to bring it up, which will show you all currently available commands and their keyboard shortcuts.
+If you have the [[Палитра команд]] enabled, You can use `Ctrl/Cmd+P` to bring it up, which will show you all currently available commands and their keyboard shortcuts.
 
 Most keyboard shortcuts can be defined for your needs in Settings => Hotkeys. 
 

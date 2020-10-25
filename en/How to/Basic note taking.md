@@ -18,6 +18,6 @@ Notice that your new note showed up automatically in the File Explorer to the le
 
 From there, you can make any kind of structure you want. Many people will want to make a `Table of Contents` note for listing major groups of notes. You can also use #tags to create categories (if you click that it will show you every note that contains #tags ). Really, the structure you build should be whatever works for you. We suggest you just start with what feels natural. Obsidian is flexible enough that it should be relatively simple to rearrange things later.
 
-Be aware! The note you just created is in these Help documents, which will be overwritten on new releases. ==If you created anything you care to keep, it should be put into a different vault==. For details on how to do that, see [[Work with multiple vaults]].
+Be aware! The note you just created is in these Help documents, which will be overwritten on new releases. ==If you created anything you care to keep, it should be put into a different vault==. For details on how to do that, see [[Working with multiple vaults]].
 
 If you want an example of a more advanced technique, you might look into the [sample workflows on our forum](https://forum.obsidian.md/t/example-workflows-in-obsidian/1093).
