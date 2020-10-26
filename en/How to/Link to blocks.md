@@ -2,7 +2,7 @@ In Obsidian 0.9.5 or higher, in addition to [[Internal link#Link to headings|lin
 
 ### What is a block
 
-A "block" can a paragraph, a blockquote, or a list item, etc. In general, anything that has empty lines before and after is a block. ^dcf64c
+A "block" can be a paragraph, a blockquote, a list item, etc. In general, anything that has empty lines before and after is a block. ^dcf64c
 
 ### Link to blocks
 
@@ -16,7 +16,7 @@ For example, [[#^dcf64c]] is a link to a block above.
 
 ### Embed or transclude blocks
 
-Similar to [[Embed files|files embeds]], you can simply use `!` in front of the block link to embed it.
+Similar to [[Embed files|files embeds]], you can simply use `!` in front of a block link to embed it.
 
 Here's an example:
 
@@ -34,6 +34,6 @@ Note that only letters, numbers, and dashes are allowed in manual block IDs.
 
 ### Interoperability
 
-Please be aware that block reference is not a Markdown feature, but rather an extension on Obsidian's part. That means these links will not work outside of Obsidian.
+Please be aware that block reference is not part of standard Markdown, but rather Obsidian's specific flavor of Markdown. That means these links will not work outside of Obsidian.
 
 You can still find referenced block by searching for the block ID, although that's a rather manual process. The connection is not lost as long as you have software that can search in a folder.

@@ -30,7 +30,9 @@ This is especially important because an improperly encoded "reserved" character 
 
 ### Available actions
 
-#### `open`
+#### Action `open`
+
+Description: Opens an Obsidian vault, and possibly open a file within that vault.
 
 Possible parameters:
 
@@ -67,6 +69,24 @@ Examples:
 
 - `obsidian://open?path=D%3A%5CDocuments%5CMy%20vault%5CMy%20note`
 	This will look for any vault that contains the path `D:\Documents\My vault\My note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `D:\Documents\My vault`, then this would be equivalent to `file` parameter set to `My note`.
+	
+#### Action `search`
+
+Description: Opens the search pane for a vault, and optionally perform a search query.
+
+Possible parameters:
+
+- `vault` can be either the vault name, or the vault ID. Same as action `open`.
+- `query` (optional) The search query to perform.
+
+Examples:
+
+- `obsidian://search?vault=my%20vault`
+	This opens the vault `my vault`, and opens the search pane.
+
+- `obsidian://search?vault=my%20vault&query=MOC`
+	This opens the vault `my vault`, opens the search pane, and performs a search for `MOC`.
+	
 
 ## Shorthand formats
 
