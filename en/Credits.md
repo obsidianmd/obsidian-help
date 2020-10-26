@@ -23,6 +23,7 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 ### Translators
 
 - canzi-teacher, 蚕子 (Chinese Simplified)
+- mafsi, (Patrick Danilevici) (Română)
 
 ##### Add your name
 
