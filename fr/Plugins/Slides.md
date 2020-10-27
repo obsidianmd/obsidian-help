@@ -1,15 +1,15 @@
-# Slides
+# Diapositives
 
-Slides lets you do simple presentations right inside Obsidian.
+Slides vous permet de faire des présentations simples directement dans Obsidian.
 
-### Usage tips
+### Conseils d'utilisation
 
-1. To separate slides, use newlines and the `---` separator.
+1. Pour séparer les diapositives, utilisez les retours à la ligne et le séparateur `---`.
 
-2. To start a presentation, click this button after opening a note:
+2. Pour démarrer une présentation, cliquez sur ce bouton après avoir ouvert une note:
 
 ![[Pasted image 14.png]]
 
-### Demo
+### Démonstration
 
-Check out the demo document: [[Slides demo]]
+Consultez le document de démonstration: [[Slides demo]]
