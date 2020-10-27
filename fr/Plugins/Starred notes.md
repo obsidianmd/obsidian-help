@@ -1,5 +1,5 @@
-# Starred Notes
+# Notes favorites
 
-Starred notes are a convenient way of keeping important notes close at hand. Enabling the plugin will create a star icon on the left panel, which brings up a list of starred notes. 
+Les notes favorites sont un moyen pratique de garder les notes importantes à portée de main. L'activation du plugin créera une icône en forme d'étoile sur le panneau de gauche, qui affichera une liste de notes favorites. 
 
-To star a file, you have several options. You can do so from a right click in the file explorer, a click on the options menu of an open note, typing in the [[command palette]], or a hotkey that can be set in [[Keyboard shortcuts]].
+Pour marquer un fichier en favori, vous avez plusieurs options. Vous pouvez le faire par un clic droit dans l'explorateur de fichiers, un clic sur le menu d'options d'une note ouverte, en tapant dans la [[Command palette]], ou un raccourci clavier qui peut être défini dans [[Keyboard shortcuts]].
