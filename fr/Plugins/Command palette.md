@@ -1,12 +1,12 @@
-# Command Palette 
+# Palette de commandes
 
-The Command Palette is enabled by default, as it is a very useful way to access nearly all the features of Obsidian without having to remember key strokes. Type `Ctrl/Cmd+P` to activate, then simply type in the name of the command. If a command has a hotkey, it will appear in on the right side.
+La palette de commandes est activée par défaut, car c'est un moyen très utile d'accéder à presque toutes les fonctionnalités d'Obsidian sans avoir à se souvenir des raccourcis clavier. Tapez `Ctrl/Cmd + P` pour l'activer, puis tapez simplement le nom de la commande. Si une commande a un raccourci clavier, il apparaîtra sur le côté droit.
 
-Custom shorcuts can be added to the Command Palette in Settings -> Keymap. Click on the `*` icon to the right of each key listed and type whatever key combination you would like.
+Des raccourcis personnalisés peuvent être ajoutés à la palette de commandes dans Settings -> Keymap. Cliquez sur l'icône `*` à droite de la commande et tapez la combinaison de touches que vous souhaitez assigner.
 
-### Usage tips
+### Conseils d'utilisation
 
-- To see a list of all commands along with their shortcut, don't type anything into the prompt. The arrow keys will move up and down the list, and `Return` will activate the command. 
+- Pour voir une liste de toutes les commandes avec leur raccourci, ne tapez rien dans l'invité. Les touches fléchées servent à se déplacer vers le haut et vers le bas dans la liste, et `Entrer` activera la commande.
 
-- Search in the command palette is fuzzy, so you can type part of the word to get matches. For example, you can use `trm` to search for "Toggle read mode".
+- La recherche dans la palette de commandes est approximative, vous pouvez donc taper une partie du mot pour obtenir des correspondances. Par exemple, vous pouvez utiliser `trm` pour rechercher " Toggle read mode ".
 

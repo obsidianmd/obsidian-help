@@ -1,28 +1,28 @@
-# Search
+# Recherches
 
 ![[search.png]]
 
-Search is a powerful feature, and has the potential to be confusing. In most cases, if you just type what you want to find, it will work. But search has many capabilities for narrowing down to find exactly what you want.
+La recherche est une fonctionnalité puissante et peut prêter à confusion. Dans la plupart des cas, si vous tapez simplement ce que vous voulez trouver, cela fonctionnera. Mais la recherche a de nombreuses fonctionnalités pour se restreindre à trouver exactement ce que vous voulez.
 
-### Complex searches
+### Recherches complexes
 
-When crafting a search query, remember that clicking "Explain Search Term" will give an explanation of what is being searched for, which can be very useful when debugging a complicated search.
+Lorsque vous créez une requête de recherche, n'oubliez pas que cliquer sur "Expliquer le terme de recherche" donnera une explication de ce qui est recherché, ce qui peut être très utile lors du débogage d'une recherche compliquée.
 
-- Words in the search query separated by space will be searched independently in each note. For example `foo bar` will find a note that includes both `foo` and `bar` anywhere in it.
-- `"Quoted strings"` can be used to search multiple consecutive words separated by space, or in other words, a phrase. So, searching for `"foo bar"` with quotes will only find notes that include those words next to each other. You can use backslash `\"` to escape double quotes if you actually want to search for a string that includes quotes. And `\\` will do the same for backslash.
-- Boolean operations can be used. Use `OR` to match one or another. Use `-` to negate a query. The space character is used for boolean "and".
-	- For example: `foo OR bar` will find all notes that contain either of those words, they don't have to be in the same note. `foo -bar` will find all notes that contain `foo`, but not if they also contain `bar`.
-- Parenthesis can be used to group boolean operations. For example `(a OR b) (c OR d)`. This can be useful when crafting complex searches to make sure things happen in the order you want.
-- Regular expressions (regex) can now be used in search. Use forward slash to denote a regular expression. For example: `/[a-z]{3}/`.
-- Several special operators are available. Some operators allow nesting queries using parenthesis, for example: `file:("to be" OR -"2B")`.
-	- `file:` will perform the following subquery on the file name. For example: `file:".jpg"`. If you use Zettelkasten-style UIDs, this can be useful for narrowing a time range, for example `file:"202007"`for files created in July of 2020.
-	- `path:` will perform the following subquery on the file path, absolute from the root. For example: `file:"Daily Notes/2020-07"`.
-	- `match-case:` and `ignore-case:` will override the case sensitive match logic for the following subquery.
+- Les mots de la requête de recherche séparés par un espace seront recherchés indépendamment dans chaque note. Par exemple, `foo bar` trouvera une note qui comprend à la fois` foo` et `bar` n'importe où.
+- Les `"chaînes entre guillemets"` peuvent être utilisées pour rechercher plusieurs mots consécutifs séparés par un espace, ou en d'autres termes, une phrase. Ainsi, la recherche de `"foo bar"` avec des guillemets ne trouvera que les notes qui incluent ces mots les uns à côté des autres. Vous pouvez utiliser la barre oblique inverse `\"` pour échapper les guillemets doubles si vous voulez réellement rechercher une chaîne qui comprend des guillemets. Et `\\` fera de même pour la barre oblique inverse.
+- Des opérations booléennes peuvent être utilisées. Utilisez `OR` pour faire correspondre l'un ou l'autre. Utilisez `-` pour soustraire une requête. Le caractère espace est utilisé pour le booléen "ET".
+	- Par exemple: `foo OR bar` trouvera toutes les notes contenant l'un ou l'autre de ces mots, elles ne doivent pas nécessairement être dans la même note. `foo -bar` trouvera toutes les notes contenant `foo`, mais pas si elles contiennent aussi `bar`.
+- Les parenthèses peuvent être utilisées pour regrouper les opérations booléennes. Par exemple `(a OR b) (c OR d)`. Cela peut être utile lors de la création de recherches complexes pour vous assurer que les choses se passent dans l'ordre souhaité.
+- Les expressions régulières (regex) peuvent désormais être utilisées dans la recherche. Utilisez une barre oblique pour désigner une expression régulière. Par exemple: `/[a-z]{3}/`.
+- Plusieurs opérateurs spéciaux sont disponibles. Certains opérateurs permettent d'imbriquer les requêtes en utilisant des parenthèses, par exemple: `file("to be" OR -"2B")`.
+	- `file:` exécutera la sous-requête suivante sur le nom du fichier. Par exemple: `file:".Jpg"`. Si vous utilisez des UID de style Zettelkasten, cela peut être utile pour réduire une plage de temps, par exemple `file:"202007"` pour les fichiers créés en juillet 2020.
+	- `path:` exécutera la sous-requête suivante sur le chemin du fichier, absolu depuis la racine. Par exemple: `path:"Daily Notes/2020-07"`.
+	- `match-case:` et `ignore-case:` remplaceront la logique de correspondance sensible à la casse pour la sous-requête suivante.
 
-### Search Settings
+### Paramètres de recherche
 
-There are a couple of toggles available while searching:
+Il existe quelques options disponibles lors de la recherche:
 
-- `Collapse results` will toggle between just showing matching note names and showing the lines in which matches appear. These extended results can be toggled for each note by clicking on the folding triangle next to the file name.
-- `Match case` toggle case sensitive matching, but note that it can be overridden on a per-search basis using the `match-case:` and `ignore-case:` operators explained above.
-- `Explain search term` will show you what the search query actually does in plain terms.
+- `Collapse results` basculera entre l'affichage des noms de notes correspondants et l'affichage des lignes dans lesquelles les correspondances apparaissent. Ces résultats étendus peuvent être changés pour chaque note en cliquant sur le triangle de pliage à côté du nom du fichier.
+- `Match case` bascule la correspondance sensible à la casse, mais notez qu'elle peut être remplacée par recherche en utilisant les opérateurs `match-case:` et `ignore-case:` expliqués ci-dessus.
+- `Explain search term` vous montrera ce que fait réellement la requête de recherche en termes simples.

@@ -1,11 +1,11 @@
-# Backlinks 
+# références 
 
-The backlinks plugin shows how the current note is referenced in other notes.
+Le plugin références montre comment la note actuelle est référencée dans d'autres notes.
 
-After enabling it, you'll see the backlink count in the status bar.
+Après l'avoir activé, vous verrez le nombre de références dans la barre d'état.
 
-In the right side bar (if it's expanded), you should also see a panel that shows where the current note gets linked:
+Dans la barre latérale droite (si elle est développée), vous devriez également voir un panneau qui montre où la note actuelle est référencée:
 
 ![[Pasted image 9.png]]
 
-Upon expanding the "Unlinked mentions" section, you can also see where the name of the note gets mentioned, but not explicitly linked (in other words, mentioned without the square brackets).
+En développant la section "Mentions non liées", vous pouvez également voir où le nom de la note est mentionné, mais pas explicitement lié (en d'autres termes, mentionné sans les crochets).

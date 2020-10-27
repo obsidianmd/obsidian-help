@@ -1,3 +1,3 @@
-# Random Note
+# Note aléatoire
 
-Random note does just that, opens a note at random from your Vault. Many people find this useful for surfacing thoughts they had not considered in a long time, or spot checking for things that they may have forgotten to link. 
+Note aléatoire, comme son nom l'indique, ouvre une note au hasard dans votre coffre-fort. Beaucoup de gens trouvent cela utile pour faire réapparaître des idées qu'ils n'avaient pas eu depuis longtemps, ou pour vérifier par hasard des choses qu'ils ont peut-être oublié de relier.

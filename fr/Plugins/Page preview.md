@@ -1,7 +1,7 @@
-# Page Preview
+# Aperçu de page
 
-Page preview lets you preview a page when hovering an internal link, without needing to actually navigate to that page.
+L'aperçu de la page vous permet de prévisualiser une page lorsque vous survolez un lien interne, sans avoir à accéder à cette page.
 
 ![[Pasted image 13.png]]
 
-This works on the preview pane. In the editor, you can hover a link while holding `Ctrl/Cmd`, which will open the preview too.
+Cela fonctionne en mode visualisation. Dans l'éditeur, vous pouvez survoler un lien tout en maintenant `Ctrl/Cmd`, ce qui ouvrira également l'aperçu.

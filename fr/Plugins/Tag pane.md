@@ -1,7 +1,7 @@
-# Tag Pane
+# Volet des balises
 
-Adds a panel on the right that displays all the tags you have, along with their tag count.
+Ajoute un panneau sur la droite qui affiche toutes les balises dont vous disposez, ainsi que leur nombre.
 
-The tags are sorted from mostly frequently used to least frequently used.
+Les balises sont triées du plus fréquemment utilisé au moins fréquemment utilisé.
 
-When clicking on a tag, a search for the tag is activated.
+En cliquant sur une balise, une recherche de la balise est lancée.

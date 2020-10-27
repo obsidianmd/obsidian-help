@@ -1,7 +1,7 @@
-# Open in Default App
+# Ouvrir dans l'application par défaut
 
-Opens the current file with default app on your computer. You can access it at the top right corner of the file top bar:
+Ouvre le fichier actuel avec l'application par défaut sur votre ordinateur. Vous pouvez y accéder dans le coin supérieur droit de la barre supérieure du fichier:
 
 ![[Pasted image 5.png]]
 
-It's useful for editing images or annotating PDFs, among other things.
+C'est utile pour éditer des images ou annoter des PDF, entre autres.

@@ -1,5 +1,5 @@
-# Word Count
+# Nombre de mots
 
-Word count is a simple plugin that shows the word count of your current note in the bottom status bar.
+Le nombre de mots est un simple plugin qui montre le nombre de mots de votre note actuelle dans la barre d'état inférieure.
 
-It works for CJK characters too (Chinese, Japanese, and Korean), in which words are not separately by spaces but rather glued together.
+Cela fonctionne aussi pour les caractères CJK (chinois, japonais et coréen), dans lesquels les mots ne sont pas séparés par des espaces mais plutôt collés ensemble.

@@ -1,16 +1,16 @@
-# Markdown Format Converter
+# Convertisseur de format Markdown
 
-It allows you to convert from other variations of Markdown format and link convention to Obsidian format.
+Il vous permet de convertir d'autres variantes du format Markdown et d'autres conventions de lien vers le format Obsidian.
 
-Right now you can convert:
+Actuellement, vous pouvez convertir:
 
-- Roam #tags to [[tags]]
-- Roam `^^highlight^^` to `==highlight==`
-- Zettelkasten `[[UID]]` links to full links `[[UID File Name]]`
-- Zettelkasten `[[UID]]` links to pretty links `[[UID File Name|File Name]]`, which will show up as just `File Name`
+- Roam - les #tags en [[tags]]
+- Roam - les `^^highlight^^` en  `==highlight==`
+- Zettelkasten - les liens `[[UID]]` en liens complets `[[UID File Name]]`
+- Zettelkasten - les liens `[[UID]]` en liens formatés `[[UID File Name|File Name]]`, qui n'afficherons que `File Name`
 
 ---
 
-### Related
+### En relation
 
-- [[Format your notes]]
+- [[Format your notes | Mettre en forme vos notes]]
