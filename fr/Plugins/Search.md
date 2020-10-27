@@ -1,4 +1,4 @@
-# Search
+# Recherches
 
 ![[search.png]]
 
