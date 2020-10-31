@@ -10,4 +10,4 @@ You have the option to either open an existing folder of markdown files, create 
 
 [[Internal link|Internal Links]] are not shared across Vaults. If you have one Vault inside another Vault, this can get confusing, so we recommend not doing that.
 
-Always remember, a Vault is just a collection of markdown files. You can use whatever file management techniques you would normally to move them around on your file system, and Obsidian will automatically refesh to keep up.
+Always remember, a Vault is just a collection of markdown files. You can use whatever file management techniques you would normally to move them around on your file system, and Obsidian will automatically refresh to keep up.
