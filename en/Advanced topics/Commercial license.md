@@ -1,6 +1,6 @@
 ### About Obsidian commercial license
 
-Obsidian is free for personal use. For commercial (business) use in a company of two (2) or more employees, a commercial license is required. Business use includes any work-related activities such as capturing meeting notes, maintaining team project notes, configuring an organizational wiki, and similar note taking / document management / knowledge management functionality.
+Obsidian is free for personal use. For commercial (business) use in a company of two (2) or more employees, a commercial license is required. Business use includes any work-related activities such as capturing meeting notes, maintaining team project notes, configuring an organizational wiki, and similar note taking, document management, or knowledge management functionality.
 
 To purchase a commercial license, please visit [our pricing page](https://obsidian.md/pricing).
 
@@ -36,7 +36,7 @@ Some examples to help determine if you require a commercial license:
 
 > *Q2. I'm a teacher/professor and I use Obsidian for my teaching/lectures, do I need a commercial license?*
 > \
-> A: Obsidian usage for education-related activities within an .edu organization does not require a commercial license. 
+> A: Obsidian usage for education-related activities within schools and other recognized educational institutions does not require a commercial license. 
 
 > *Q3. I'm a researcher and I use Obsidian for my research, do I need a commercial license?*
 > \
