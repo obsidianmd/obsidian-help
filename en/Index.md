@@ -34,7 +34,7 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 - [[Working with tags]]
 - [[Working with backlinks]]
 - [[Working with multiple notes]]
-- [[Working with multiple panes]]
+- [[Pane layout]]
 - [[Working with multiple vaults]]
 - [[Working with multiple cursors]]
 - [[Using obsidian URI]]

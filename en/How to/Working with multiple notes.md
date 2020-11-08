@@ -28,21 +28,21 @@ Pinned panes will have a highlighted pin icon instead of a grey one.
 
 ---
 
-**4. Use ==linked panes== for previewing**.
+**4. Use ==[[Linked panes]]== for previewing**.
 
-When creating a [[Linked pane]], `Ctrl/Cmd+click` the preview or edit button when a Markdown file is open.
+When creating [[Linked panes]], `Ctrl/Cmd+click` the preview or edit button when a Markdown file is open.
 
 When linked to another pane, the panes' scroll position will be synced, and if you open a file in one pane, the other pane will open the same file.
 
-Linked panes will be marked with a link icon. You can hover the link to see which pane it's linked to, or click the icon to release it, so that they are no longer linked.
+[[Linked panes]] will be marked with a link icon. You can hover the link to see which pane it's linked to, or click the icon to release it, so that they are no longer linked.
 
-For more information see [[Linked pane]].
+For more information see [[Linked panes]].
 
 ![[Pasted image 18.png]]
 
 **5. Panes can be ==rearranged by dragging==**.
 
-Grab the icon in the upper left corner to arrange them however you need. For detailed information, see [[Working with multiple panes]].
+Grab the icon in the upper left corner to arrange them however you need. For detailed information, see [[Pane layout]].
 
 ---
 
