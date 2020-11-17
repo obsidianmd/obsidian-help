@@ -1,0 +1,1 @@
+Nota casuali serve proprio a questo: aprire note a caso dal Vault. Molte persone lo trovano utile per far emergere pensieri che non avevano considerato per molto tempo, o per controllare a campione cose che potrebbero aver dimenticato di collegare.
