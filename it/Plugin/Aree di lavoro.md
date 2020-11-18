@@ -4,7 +4,7 @@ Il plugin Aree di lavoro consente di salvare e caricare "Aree di lavoro". In ogn
 
 ### Salvare un'area di lavoro
 
-Fare clic sull'apposita icona nella barra multifunzione per aprire "Gestione aree di lavoro".
+Fare clic sull'apposita icona nella barra degli strumenti per aprire "Gestione aree di lavoro".
 
 Assegnare un nome all'area corrente e fare clic su "Salva" per farla apparire nella lista.
 

@@ -1,4 +1,4 @@
-I collegamenti interni sono la spina dorsale della rete di conoscenza.
+I collegamenti interni sono la spina dorsale di una rete di conoscenza.
 
 ### Collegamenti a file
 

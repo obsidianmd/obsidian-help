@@ -6,4 +6,4 @@ Per rinominare una nota che non si sta attualmente modificando, andare su [[Espl
 
 ![[Pasted image 7.png]]
 
-Un metodo ancora più veloce consiste nel premere `F2` quando il cursore del mouse si trova su una nota. Questo attiverà automaticamente la funzione di rinomina.
+Un metodo ancora più veloce consiste nel premere `F2` quando il cursore del mouse si trova su una nota. Questo attiverà automaticamente la funzione Rinomina.

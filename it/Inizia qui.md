@@ -1,42 +1,42 @@
-Ciao! Sono una nota del tuo Vault.
+Ciao! Questa è una nota del Vault.
 
-Allo stesso tempo, sono anche un file Markdown che si trova sul tuo disco rigido. È tutto testo semplice, quindi non devi preoccuparti di perdermi nel caso [[Obsidian]] dovesse un giorno scomparire.
+Allo stesso tempo, è anche un file Markdown sul disco rigido. È tutto scritto in testo semplice, quindi, non c'è da preoccuparsi di perderla se un giorno [[Obsidian]] scomparisse.
 
 ## Avvio rapido
 
-Se hai fretta, ecco alcuni posti veloci in cui tuffarti:
+Ecco alcuni posti veloci da esplorare:
 
-- Il [[Riquadro comandi]] contiene la maggior parte dei comandi necessari per lavorare con Obsidian. Basta premere `Ctrl/Cmd-P` e iniziare a digitare.
+- [[Riquadro comandi]] contiene la maggior parte dei comandi necessari per lavorare con Obsidian. Basta premere `Ctrl/Cmd-P` e iniziare a digitare.
 - Come [[Creare note|creare nuove note]].
 - Come creare [[Collegamenti interni|collegamenti interni]].
-- Come usare Markdown per [[Formattare le tue note]].
+- Come usare Markdown per [[formattare le note]].
 - Come [[incorporare file]], o incorporare altre note.
 - [[Tasti di scelta rapida]].
 - Come [[Lavorare con più note|aprire più file fianco a fianco]].
-- Obsidian può essere "esteso" coi [[Elenco dei plugin|plugin]]. Molti di questi sono già integrati e possono essere abilitati o disabilitati in base alle proprie esigenze.
+- Obsidian può essere "esteso" con i [[Elenco dei plugin|plugin]]. Molti di questi sono già integrati e possono essere abilitati o disabilitati in base alle proprie esigenze.
 
-Se vuoi un'introduzione più approfondita, inclusa qualche informazione sulla nostra filosofia, dai un'occhiata a [[Obsidian]].
+Per un'introduzione più approfondita, compresa qualche informazione sulla nostra filosofia, dare un'occhiata a [[Obsidian]].
 
-E se preferisci un'introduzione gentile, o vuoi soltanto iniziare ma non sai come, vai su [[Basi per prendere appunti]].
+Per un'introduzione gentile o capire come iniziare, vedere [[Basi per prendere appunti]].
 
-Se sei un [supporter Catalyst](https://obsidian.md/pricing) e vuoi attivare le versioni Insider, vedi [[Versioni Insider]].
+Per attivare le versioni Insider dedicate agli [utenti Catalyst](https://obsidian.md/pricing), vedere [[Versioni Insider]].
 
 ## Flussi di lavoro
 
-Obsidian è uno strumento che può essere utilizzato in molti modi, da semplice elenco di note fino a un sistema di gestione della conoscenza molto potente. Ti suggeriamo di iniziare seguendo il tuo ritmo, adattando Obsidian alle tue necessità.
+Obsidian è uno strumento che può essere utilizzato in molti modi, da semplice elenco di note fino a un sistema di gestione della conoscenza molto potente. Suggeriamo di iniziare seguendo il proprio ritmo, adattando Obsidian alle proprie necessità.
 
 Ecco alcuni modi per iniziare:
 
-Se vuoi iniziare a prendere appunti, dai un'occhiata a [[Basi per prendere appunti]]
+Per iniziare a prendere appunti, dare un'occhiata a [[Basi per prendere appunti]].
 
-Se già possiedi una raccolta di note in formato markdown, puoi subito sceglierle per il tuo Vault. Sposta il mouse in basso a sinistra vicino al pulsante «Impostazioni», clicca sull'icona della cassaforte, scegli "Vault" => "Apri" e seleziona la cartella in cui si trovano le tue note.
+Se già si possiede una raccolta di note in formato Markdown, è possibile subito sceglierle per un vault. Fare clic sull'icona della cassaforte nella barra degli strumenti in basso a sinistra e scegliere "Apri un altro vault -> Apri" per selezionare la cartella delle note.
 
-Se hai appunti su ==Roam Research==, ==Notion,== o altri sistemi,  [[Importazione dei dati|ecco come fare per importarli]].
+Se si possiedono appunti su ==Roam Research==, ==Notion== o altri sistemi, [[Importazione dei dati|ecco come importarli]].
 
-Se desideri saperne di più su Obsidian, puoi [[Obsidian|leggere la nostra storia]].
+Per saperne di più su Obsidian, leggere [[Obsidian|la nostra storia]].
 
-A proposito, sentiti libero di modificare questi documenti della guida, ma ogni volta che fai clic su «Apri un altro Vault» => «Aiuto», i dati verranno sovrascritti. Quindi, non metterci dentro nulla che vuoi conservare.
+A proposito, i documenti di questa guida possono essere modificati liberamente, ma ogni volta che si farà clic su "Apri un altro vault -> Aiuto", tutti i dati verranno sovrascritti. Quindi, consigliamo di non metterci dentro nulla che si desidera conservare.
 
-## Ho delle domande.
+## Ho delle domande
 
-Allora dovresti unirti alla nostra [community!](https://obsidian.md/community). Abbiamo un server Discord e un forum attivi, e la nostra community è generalmente molto amichevole.
+Allora dovresti unirti alla nostra [community!](https://obsidian.md/community). Abbiamo un server Discord e un forum attivi, e la nostra comunità è generalmente molto amichevole.

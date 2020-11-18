@@ -1,6 +1,6 @@
 In Obsidian, la maggior parte dei tasti di scelta rapida sono personalizzabili.
 
-Abbiamo impostato i tasti di scelta rapida predefiniti solo per i comandi più utilizzati, ma se si usa spesso un certo comando, è possibile risparmiare un sacco di tempo associandolo a una combinazione di tasti personalizzata.
+Abbiamo definito tasti di scelta rapida predefiniti solo per i comandi più utilizzati, ma se si usa spesso un certo comando, è possibile risparmiare un sacco di tempo associandolo a una combinazione di tasti personalizzata.
 
 Per visualizzare l'elenco dei tasti di scelta rapida predefiniti, [[Tasti di scelta rapida|clicca qui]].
 

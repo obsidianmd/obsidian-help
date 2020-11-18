@@ -6,7 +6,7 @@ I Plugin possono essere gestiti dal menu "Impostazioni" cliccando sull'icona in 
 
 - [[Esplora risorse]]
 - [[Riferimenti]]
-- [[Vista a grafo]]
+- [[Vista grafo]]
 - [[Selezione rapida]]
 - [[Ricerca]]
 - [[Anteprima pagina]]

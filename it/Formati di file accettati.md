@@ -6,4 +6,4 @@ In questo momento, Obsidian riconosce i seguenti formati di file:
 4. File video: `mp4`, `webm`, `ogv`;
 5. File PDF: `pdf`.
 
-Tutti, tranne i PDF, possono essere [[incorporare file|incorporati]].
+Tutti questi, tranne i PDF, possono essere [[Incorporare file|incorporati]].

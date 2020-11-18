@@ -1,7 +1,7 @@
 Le note possono essere create in vari modi a seconda del flusso di lavoro:
 
 1. **Prima le note**. Nuove note possono essere create usando [[Esplora risorse]]. La scorciatoia da tastiera è `Ctrl/Cmd+N`. Oppure, se il plugin [[Riquadro comandi]] è abilitato (impostazione predefinita), è possibile `Ctrl/Cmd-P` per aprirlo, digitare "'nuova", selezionare il comando **Crea nuova nota** e premere `Invio`.
-2. **Prima i collegamenti**. Per creare note liberamente è possibile usare i [[Collegamenti interni]] per creare collegamenti a note con qualsiasi titolo (non è necessario che esistano al momento della creazione del collegamento). Per scrivere all'interno della nota, cliccare sul nome del collegamento. Il file della nota a cui il collegamento si riferisce verrà automaticamente creato all'interno del Vault.
+2. **Prima i collegamenti**. Per creare note liberamente è possibile usare i [[Collegamenti interni]] per creare collegamenti a note con qualsiasi titolo (non è necessario che esistano al momento della creazione del collegamento). Per scrivere all'interno della nota, cliccare sul nome del collegamento. Il file della nota a cui il collegamento si riferisce verrà automaticamente creato all'interno del vault.
 
 ![[Pasted image 3.png]]
 

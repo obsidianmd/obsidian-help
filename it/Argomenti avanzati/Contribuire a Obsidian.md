@@ -1,6 +1,6 @@
 Grazie per il tuo interesse nel contribuire a Obsidian!
 
-Ci sono tre modi principali in cui puoi aiutarci:
+Ci sono tre modi principali in cui aiutarci:
 
 ### 1. Contributo finanziario
 
@@ -16,7 +16,7 @@ Se sei interessato a una soluzione di sincronizzazione con crittografia end-to-e
 
 #### Catalyst
 
-Se non hai bisogno di nulla di cui sopra, puoi supportare lo sviluppatore ottenendo una [[licenza Catalyst]] che ti garantisce l'accesso alle [[Versioni Insider]]].
+Se non hai bisogno di nulla di cui sopra, puoi supportare lo sviluppatore ottenendo una [[Licenza Catalyst]] che ti garantisce l'accesso alle [[Versioni Insider]]].
 
 #### Obsidian Unlimited
 

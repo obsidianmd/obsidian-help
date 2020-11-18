@@ -340,4 +340,4 @@ sequenceDiagram
 
 ## Note degli sviluppatori
 
-CI sforziamo di fornire il massimo delle funzionalità senza interrompere la compatibilità di alcun formato esistente, per questo utilizziamo una combinazione un poco meno ortodossa di sintassi markdown. Per la maggior parte si tratta di CommonMark, con l'aggiunta di alcune funzionalità da GitHub Flavored Markdown (GFM), il supporto a LaTeX e una sintassi d'incorporamento personalizzata. Ulteriori informazioni su [[Formati di file accettati]].
+CI sforziamo di fornire il massimo delle funzionalità senza interrompere la compatibilità di alcun formato esistente, per questo utilizziamo una combinazione un poco meno ortodossa di sintassi Markdown. Per la maggior parte si tratta di CommonMark, con l'aggiunta di alcune funzionalità da GitHub Flavored Markdown (GFM), il supporto a LaTeX e una sintassi d'incorporamento personalizzata. Ulteriori informazioni su [[Formati di file accettati]].

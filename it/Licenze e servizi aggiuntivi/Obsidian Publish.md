@@ -10,7 +10,7 @@ Con il [[Publish|plugin Publish]] è possibile avere il totale controllo su cosa
 
 Obsidian Publish non deve essere utilizzato come strumento di backup per i contenuti. Assicurarsi di avere sempre una copia di backup personale del sito utilizzando il metodo di backup preferito. I nostri sforzi su Obsidian Publish si concentreranno maggiormente sulle funzionalità, la facilità d'uso e la disponibilità del sito.
 
-### Demo
+### Dimostrazione
 
 Ci sono buone probabilità che tu stia già visualizzando questo articolo sul nostro sito ufficiale pubblicato con Obsidian Publish.
 
@@ -26,11 +26,11 @@ Ci sono diversi componenti che possono essere attivati o disattivati dal [[Publi
 
 ##### Navigazione
 
-Abilitando questa opzione viene aggiunta una barra laterale di navigazione che mostra tutte le pagine pubblicate e le cartelle che le contengono. I visitatori vedranno la nota corrente evidenziata e potranno fare clic su qualsiasi altra nota per esplorarla.
+Abilitando questa opzione verrà aggiunta una barra laterale di navigazione che mostrerà tutte le pagine pubblicate e le cartelle che le contengono. I visitatori vedranno la nota corrente evidenziata e potranno fare clic su qualsiasi altra nota per esplorarla.
 
-##### Vista a grafo
+##### Vista grafo
 
-Mostra il grafo locale della pagina attualmente aperta. Utilizza lo stesso motore di rendering utilizzato dal plugin [[Vista a grafo]] in Obsidian.
+Mostra il grafo locale della pagina attualmente aperta. Utilizza lo stesso motore di rendering utilizzato dal plugin [[Vista grafo]] in Obsidian.
 
 ##### Indice
 
@@ -63,7 +63,7 @@ Obsidian Publish utilizza Cloudflare come CDN (rete di distribuzione dei contenu
 
 Tuttavia, ciò significa che quando le impostazioni cambiano e le pagine vengono pubblicate o cancellate, i visitatori potrebbero non visualizzare subito l'ultima versione disponibile per un breve periodo. Al momento, la nostra cache è configurata per essere conservata un'ora prima di essere "riconvalidata" per eventuali cambiamenti.
 
-Se sono appena stati pubblicati contenuti ma viene mostrata ancora una vecchia versione del sito, è possibile fare un "aggiornamento forzato" tenendo premuto il pulsante Ricarica del browser e scegliendo "ricaricamento manuale" nel menu a discesa. Oppure, si può provare a svuotare la cache del browser o a disabilitare la cache utilizzando la scheda Network negli Strumenti per sviluppatori.
+Se sono appena stati pubblicati contenuti ma viene mostrata ancora una vecchia versione del sito, è possibile fare un "aggiornamento forzato" tenendo premuto il pulsante Ricarica del browser e scegliendo "Ricaricamento manuale" nel menu a discesa. Oppure, si può provare a svuotare la cache del browser o a disabilitare la cache utilizzando la scheda Network negli Strumenti per sviluppatori.
 
 ---
 

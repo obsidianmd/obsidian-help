@@ -34,7 +34,7 @@ Poiché il grafo viene mostrato usando `<canvas>` e WebGL, non è possibile mani
 .graph-view.color-fill-unresolved
 ```
 
-\* "dipendente dal tema" significa che potrebbe essere necessario aggiungere `.theme-dark` o `.theme-light` a seconda del tema. Vedere [[Vista a grafo#CSS personalizzati#Predefiniti]].
+\* "dipendente dal tema" significa che potrebbe essere necessario aggiungere `.theme-dark` o `.theme-light` a seconda del tema. Vedere [[Vista grafo#CSS personalizzati#Predefiniti]].
 
 #### Sono supportate le seguenti regole CSS:
 

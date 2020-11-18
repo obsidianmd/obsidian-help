@@ -8,7 +8,7 @@ Per definire file come modelli, inserirli in una cartella e impostare quella car
 
 ### Inserire modelli
 
-Dopo aver impostato la posizione della cartella, utilizzare l'apposita icona della barra multifunzione per inserire un modello. Come sempre, è possibile impostare un tasto di scelta rapida per questa opzione o utilizzare il Riquadro comandi per accedervi.
+Dopo aver impostato la posizione della cartella, utilizzare l'apposita icona della barra degli strumenti per inserire un modello. Come sempre, è possibile impostare un tasto di scelta rapida per questa opzione o utilizzare il Riquadro comandi per accedervi.
 
 Il frammento di modello verrà inserito nella posizione corrente del cursore, il testo speciale verrà sostituito dai valori correnti al momento dell'inserimento (vedi sotto).
 

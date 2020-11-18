@@ -1,6 +1,6 @@
 ### Modalità di base
 
-Obsidian viene fornito con due "Modalità di base", chiaro e scuro. Scuro è l'impostazione predefinita. Abbiamo usato la parola "modalità" piuttosto che "tema" perché la modalità di base è la fondazione sulla quale poggia ogni altro tema personalizzato.
+Obsidian viene fornito con due "Modalità di base", Tema chiaro e Tema scuro. Scuro è l'impostazione predefinita. Abbiamo usato la parola "modalità" piuttosto che "tema" perché la modalità di base è il fondamento su quale poggia ogni altro tema personalizzato.
 
 Puoi modificare la Modalità di base in Impostazioni -> Aspetto.
 
@@ -10,4 +10,4 @@ Puoi modificare la Modalità di base in Impostazioni -> Aspetto.
 
 Come ottimo punto di partenza, una volta abilitati i CSS personalizzati, ci sono molti temi della comunità forniti dalla nostra straordinaria community tra cui puoi scegliere facilmente.
 
-Una volta scelto un tema della comunità, puoi anche aggiungervi dei ritocchi modificando il file `obsidian.css`.
+Dopo aver scelto un tema della comunità, è possibile ritoccarlo modificando il file `obsidian.css` nella cartella principale del vault.

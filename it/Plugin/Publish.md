@@ -4,7 +4,7 @@ Per ulteriori informazioni sul servizio Obsidian Publish™, cosa è incluso, co
 
 ### Abilitare il plugin
 
-In Obsidian, aprire Impostazioni > Plugin e abilitare il plugin Publish. L'icona di Publish (che assomiglia a un aeroplano di carta) apparirà sulla barra multifunzione.
+In Obsidian, aprire Impostazioni > Plugin e abilitare il plugin Publish. L'icona di Publish (che assomiglia a un aeroplano di carta) apparirà sulla barra degli strumenti.
 
 Per richiamare lo strumento è possibile impostare un tasto di scelta rapida oppure eseguire l'apposito comando dal Riquadro comandi.
 
@@ -12,7 +12,7 @@ Per richiamare lo strumento è possibile impostare un tasto di scelta rapida opp
 
 Nel plugin Publish è visibile un'opzione per creare un sito a partire da un ID univoco. Dopo la pubblicazione, il sito sarà disponibile all'indirizzo `https://publish.obisidian.md/{id-sito}`.
 
-Dopo aver creato l'ID univoco, sarà possibile assegnare un nome al sito, selezionare una home page, impostare un tema e attivare/disattivare vari componenti come la Vista a grafo, l'Indice, ecc. Per attivare queste opzioni, fare clic sull'icona a forma di ingranaggio accanto al nome del sito nella parte superiore del plugin Publish.
+Dopo aver creato l'ID univoco, sarà possibile assegnare un nome al sito, selezionare una home page, impostare un tema e attivare/disattivare vari componenti come la Vista grafo, l'Indice, ecc. Per attivare queste opzioni, fare clic sull'icona a forma di ingranaggio accanto al nome del sito nella parte superiore del plugin Publish.
 
 ### Selezionare file per la pubblicazione
 

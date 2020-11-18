@@ -6,9 +6,9 @@ La finestra in cui viene aperto un file è chiamata anche "pannello". Si possono
 
 #### Apertura dei collegamenti
 
-Generalmente, è possibile fare clic su un collegamento tenendo premuto Ctrl (su Windows e Linux) o Cmd (su macOS) per aprirlo in un nuovo pannello. Ciò è valido anche quando si clicca sui file in [[Esplora risorse]], sui risultati della [[Ricerca]], sui [[Riferimenti]], sulla [[Vista a grafo]], ecc.
+Generalmente, è possibile fare clic su un collegamento tenendo premuto `Ctrl` (su Windows e Linux) o `Cmd` (su macOS) per aprirlo in un nuovo pannello. Ciò è valido anche quando si clicca sui file in [[Esplora risorse]], sui risultati della [[Ricerca]], sui [[Riferimenti]], sul [[Vista grafo|Grafo]], ecc.
 
-L'unica eccezione degna di nota è l'editor. Poiché nell'editor il singolo clic attiva la modalità di modifica del collegamento, per aprirlo è necessario usare `Ctrl/Cmd+Clic`. Per aprire il collegamento in un nuovo pannello, tenere premuto Shift insieme a  Ctrl/Cmd.
+L'unica eccezione degna di nota è l'editor. Poiché nell'editor il singolo clic attiva la modalità di modifica del collegamento, per aprirlo è necessario usare `Ctrl/Cmd+Clic`. Per aprire il collegamento in un nuovo pannello, tenere premuto `Shift` insieme a  `Ctrl/Cmd`.
 
 #### Dividere il pannello corrente
 
@@ -20,7 +20,7 @@ Nel menu "Altre opzioni", sono anche presenti opzioni per aprire nuovi pannelli 
 
 ### Riorganizzare i pannelli
 
-Per spostare un pannello, trascinare semplicemente l'icona del pannello nell'angolo superiore sinistro del pannello. Durante il trascinamento, apparirà un indicatore visivo per mostrare dove può essere posizionato quel pannello. Rilasciandolo su uno dei quattro lati di un pannello esistente, si attiverà la divisione orizzontale o verticale. Rilasciandolo al centro di un altro pannello, la posizione dei due pannelli verrà scambiata.
+Per spostare un pannello, trascinare l'icona del pannello nell'angolo superiore sinistro del pannello. Durante il trascinamento, apparirà un indicatore visivo per mostrare dove può essere posizionato quel pannello. Rilasciandolo su uno dei quattro lati di un pannello esistente, si attiverà la divisione orizzontale o verticale. Rilasciandolo al centro di un altro pannello, la posizione dei due pannelli verrà scambiata.
 
 È possibile trascinare un pannello su una delle due barre laterali. Le barre laterali funzionano in modo leggermente diverso, per ulteriori informazioni consultare la sezione [[Disposizione dei pannelli#Pannelli nella barra laterale]] qui sotto.
 
@@ -30,7 +30,7 @@ Esistono alcune differenze tra i pannelli presenti nelle barre laterali.
 
 #### I pannelli laterali condividono lo spazio con le schede
 
-Quando si rilascia un pannello sulla barra laterale, verrà creata una nuova scheda sotto quella sezione della barra laterale. È possibile accedere a diversi pannelli nella stessa sezione della barra laterale facendo clic sulla relativa icona della scheda.
+Quando si rilascia un pannello sulla barra laterale, viene creata una nuova scheda sotto quella sezione della barra laterale. È possibile accedere a diversi pannelli nella stessa sezione della barra laterale facendo clic sulla relativa icona della scheda.
 
 #### I pannelli laterali non hanno i titoli visibili
 
