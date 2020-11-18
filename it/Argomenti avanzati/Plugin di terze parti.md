@@ -6,9 +6,9 @@ Al momento, l'API dei plugin è in versione alfa. Ciò significa che, nelle vers
 
 Per istruzioni sulla creazione di nuovi plugin, vedere [il nostro plug-in di esempio](https://github.com/obsidianmd/obsidian-sample-plugin).
 
-Per la documentazione sull'API, controllare il [nostra repo API dei plug-in](https://github.com/obsidianmd/obsidian-api).
+Per la documentazione sull'API, controllare il [nostro repo API dei plug-in](https://github.com/obsidianmd/obsidian-api).
 
-Dopo aver creato un plugin, è possibile aggiungerlo al marketplace dei plugin della comunità inviando un Pull Request nella [nostra repo delle pubblicazioni](https://github.com/obsidianmd/obsidian-releases). Fare riferimento al plugin di esempio per capire come fare a pubblicare aggiornamenti per un plugin.
+Dopo aver creato un plugin, è possibile aggiungerlo al marketplace dei plugin della comunità inviando un Pull Request nel [nostro repo delle pubblicazioni](https://github.com/obsidianmd/obsidian-releases). Fare riferimento al plugin di esempio per capire come fare a pubblicare aggiornamenti per un plugin.
 
 ### Per gli utenti
 
@@ -16,17 +16,17 @@ Dopo aver creato un plugin, è possibile aggiungerlo al marketplace dei plugin d
 
 Per impostazione predefinita, Obsidian ha la Modalità sicura attivata per proteggere l'utente da potenziali danni. In Modalità sicura, non verrà eseguito alcun plugin di terze parti.
 
-I plugin di terze parti possono accedere ai file sul computer, connettersi a internet e persino installare programmi aggiuntivi. Per saperne di più sulla sicurezza dei plugin, [[Plugin di terze parti#Sicurezza del plugin|leggi qui]].
+I plugin di terze parti possono accedere ai file sul computer, connettersi a internet e persino installare programmi aggiuntivi. Per saperne di più sulla sicurezza dei plugin, [[Plugin di terze parti#Sicurezza del plugin|leggere qui]].
 
 Per installare plugin di terze parti, è necessario disattivare la modalità sicura in Impostazioni -> Plugin di terze parti -> Modalità sicura.
 
-#### Scoprire e installare i plugin della community
+#### Scoprire e installare i plugin della comunità
 
-Dopo aver disabilitato la modalità provvisoria, è possibile trovare i plugin di terze parti creati dalla comunità in Impostazioni -> Plugin di terze parti -> Plugin della community -> Sfoglia.
+Dopo aver disabilitato la modalità provvisoria, è possibile trovare i plugin di terze parti creati dalla comunità in Impostazioni -> Plugin di terze parti -> Plugin della comunità -> Sfoglia.
 
-In questa pagina, è possibile sfogliare i plugin in base alla loro popolarità o cercare plugin specifici. Per vedere i dettagli o le istruzioni dell'autore del plugin, fare clic su "Installa".
+In questa pagina, è possibile esplorare i plugin in base alla loro popolarità o cercare plugin specifici. Per vedere i dettagli o le istruzioni dell'autore del plugin, fare clic su "Installa".
 
-Dopo l'installazione, i plugin devono essere abilitati per avere effetto. È possibile trovarli in Impostazioni -> plugin di terze parti. Possono essere abilitati o disinstallati da lì.
+Dopo l'installazione, i plugin devono essere abilitati per avere effetto. È possibile trovarli in Impostazioni -> Plugin di terze parti. Possono essere abilitati o disinstallati da lì.
 
 ### Sicurezza del plugin
 

@@ -14,7 +14,7 @@ Noi crediamo che il testo semplice sia il modo migliore per gestire qualcosa di 
 
 La sincronizzazione è solo un'attività per facilitare il lavoro su più dispositivi, ma i dati saranno sempre disponibili principalmente in locale sul disco rigido.
 
-Quando il file system sostituisce il cloud, ci sono a disposizione opzioni più flessibili per lavorare con i file: si può eseguire il backup con Dropbox, utilizzare Git per fare il versioning, o crittografare il disco per maggiore sicurezza. Qualsiasi cosa funzioni sul file system funzionerà anche con la base di conoscenza in Obsidian.
+Quando il file system sostituisce il cloud, sono disponibili opzioni più flessibili per lavorare con i file: si può eseguire il backup con Dropbox, utilizzare Git per fare il versioning, o crittografare il disco per maggiore sicurezza. Qualsiasi cosa funzioni sul file system funzionerà anche con la base di conoscenza in Obsidian.
 
 ==*I collegamenti sono cittadini di prima classe*==
 

@@ -20,12 +20,12 @@ Se si possiedono dati su Roam, è facile esportarli per gestirli in Obsidian:
 > 1. In Roam, scegliere "Export all" dal menu:
 > ![[Pasted image.png]]
 
-> 2. Cliccare il bottone blu "Export all":
+> 2. Fare clic sul bottone blu "Export all":
 > ![[Pasted image 1.png]]
 
 > 3. Estrarre il contenuto del file "Roam-Export-xxxxxxxxxxxxx.zip" in una cartella.
 
-> 4. In Obsidian, cliccare sul pulsante della cassaforte in basso a sinistra "Apri un altro vault -> Apri cartella come vault" e infine su "Apri".
+> 4. In Obsidian, fare clic sul pulsante della cassaforte in basso a sinistra "Apri un altro vault -> Apri cartella come vault" e infine su "Apri".
 > Scegliere la cartella dove sono appena stati estratti i dati di Roam.
 
 > 5. Utilizzare lo strumento [[Importazione Markdown]] per convertire il formato Markdown di Roam Research nel formato di Obsidian.

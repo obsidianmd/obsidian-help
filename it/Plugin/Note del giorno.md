@@ -4,4 +4,4 @@ Per impostare il formato della data o la cartella predefinita in cui creare le n
 
 È inoltre possibile definire un file modello per le note del giorno. Quando viene creata una nuova nota del giorno, il modello viene copiato nella cartella delle note del giorno, dunque, si tratta di un buon posto in cui inserire tag e collegamenti usati quotidianamente.
 
-Per creare una nuova nota del giorno, cliccare sull'icona del calendario nella barra di sinistra, oppure usare il [[Riquadro comandi]]. È anche possibile definire un [[Tasti di scelta rapida|tasto di scelta rapida]].
+Per creare una nuova nota del giorno, fare clic sull'icona del calendario nella barra di sinistra, oppure usare il [[Riquadro comandi]]. È anche possibile definire un [[Tasti di scelta rapida|tasto di scelta rapida]].

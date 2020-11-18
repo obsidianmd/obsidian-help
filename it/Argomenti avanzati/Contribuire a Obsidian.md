@@ -1,6 +1,6 @@
 Grazie per il tuo interesse nel contribuire a Obsidian!
 
-Ci sono tre modi principali in cui aiutarci:
+Ci sono tre modi principali per aiutarci:
 
 ### 1. Contributo finanziario
 

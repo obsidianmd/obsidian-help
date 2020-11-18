@@ -2,7 +2,7 @@ In Obsidian 0.9.5 e versioni successive, oltre a poter [[Collegamenti interni#Co
 
 ### Cos'è un blocco?
 
-Un "blocco" può essere un paragrafo, una citazione, un elenco, ecc. In generale, tutti gli elementi che hanno una riga vuota prima e una dopo, possono considerarsi blocchi. ^dcf64c
+Un "blocco" può essere un paragrafo, una citazione, un elenco, ecc. In generale, tutti gli elementi che hanno una riga vuota prima e una dopo, possono essere considerati blocchi. ^dcf64c
 
 ### Collegamenti a blocchi
 

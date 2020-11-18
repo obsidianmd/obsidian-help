@@ -40,4 +40,4 @@ Tutte le note pubblicate possono essere cancellate in qualsiasi momento. Nel plu
 
 ### Eliminare l'intero sito
 
-Per eliminare un intero sito, fare clic sull'icona "Cambia sito" (frecce) nella parte superiore del plugin Publish e poi cliccare sul pulsante X. Questa operazione cancellerà il sito pubblico ma non influirà sui file nel vault. Le note potranno essere ripubblicate in qualsiasi momento.
+Per eliminare un intero sito, fare clic sull'icona "Cambia sito" (frecce) nella parte superiore del plugin Publish e poi fare clic sul pulsante X. Questa operazione cancellerà il sito pubblico ma non influirà sui file nel vault. Le note potranno essere ripubblicate in qualsiasi momento.

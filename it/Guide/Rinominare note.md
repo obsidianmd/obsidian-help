@@ -2,7 +2,7 @@ Mentre si modifica una nota, è possibile rinominarla cambiando il testo nel tit
 
 ![[Pasted image 6.png]]
 
-Per rinominare una nota che non si sta attualmente modificando, andare su [[Esplora risorse]], cliccare con il tasto destro su una nota o una cartella e scegliere "Rinomina":
+Per rinominare una nota che non si sta attualmente modificando, andare su [[Esplora risorse]], fare clic con il tasto destro su una nota o una cartella e scegliere "Rinomina":
 
 ![[Pasted image 7.png]]
 

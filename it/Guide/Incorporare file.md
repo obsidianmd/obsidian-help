@@ -8,7 +8,7 @@ Usando la stessa sintassi, è anche possibile incorporare le note:
 
 ![[Formati di file accettati]]
 
-Quando si trascina e rilascia un'immagine, questa verrà copiata nella cartella degli allegati predefinita. L'immagine viene conservata come un normale file ed è sempre possibile accedervi tramite il file system. Per personalizzare la cartella predefinita in cui salvare le immagini, fare clic con il pulsante destro del mouse su una cartella in Esplora risorse e cliccare su "Imposta come cartella allegati" dal menu di scelta rapida.
+Quando si trascina e rilascia un'immagine, questa verrà copiata nella cartella degli allegati predefinita. L'immagine viene conservata come un normale file ed è sempre possibile accedervi tramite il file system. Per personalizzare la cartella predefinita in cui salvare le immagini, fare clic con il pulsante destro del mouse su una cartella in Esplora risorse e fare clic su "Imposta come cartella allegati" dal menu di scelta rapida.
 
 ---
 
