@@ -40,17 +40,26 @@ Displays a table of contents for the page currently open. The list is generated 
 
 When hovering over links, their content is displayed within a popup box. This works similarly to the [[Page preview]] plugin in Obsidian.
 
+##### Backlinks
+
+Displays a section at the end of each page called "Linked to this page", containing backlinks from other pages. If there are no backlinks, the section will not be displayed.
+
+##### Custom CSS
+
+To customize the styling of your site, you can upload either `obsidian.css` or `publish.css`. These files must be stored in the root folder of your site. You can also upload both so you can use your existing `obsidian.css` and add some extra tweaks for publish in `publish.css`.
+
+##### Favicon
+
+To change the favicon of your site, you can upload `png` icons of any size in the format of `favicon-32.png` or `favicon-32x32.png`. You can also upload the file `favicon.ico`. These files can be stored in any folder. The current recommendation (as of 2020) is to provide sizes `32×32`, `128x128`, `152×152`, `167x167`, `180x180`, `192x192`, and `196x196`.
 
 ### Coming up
 
 Obsidian Publish is still in its early days. Here are some features we plan to add:
 
 - Custom domain support
-- Custom CSS support
-- Backlinks section
+- Search
 - Tag pane section
 - More built-in themes
-- Search
 
 Please let us know if you have any Obsidian Publish feature requests by submitting a [forum request here](https://forum.obsidian.md/).
 
