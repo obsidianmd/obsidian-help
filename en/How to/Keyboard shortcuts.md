@@ -1,8 +1,8 @@
 If you have the [[Command palette]] enabled, You can use `Ctrl/Cmd+P` to bring it up, which will show you all currently available commands and their keyboard shortcuts.
 
-Most keyboard shortcuts can be defined for your needs in Settings => Hotkeys. 
+Most keyboard shortcuts can be customized for your needs in Settings => Hotkeys. 
 
-The list of default Keyboard shortcuts is:
+The default keyboard shortcuts are listed below. 
 
 Function                        |   | Shortcut          
 ------------------------------- | - | ------------------
