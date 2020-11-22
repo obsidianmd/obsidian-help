@@ -1,0 +1,1 @@
+Il plugin Struttura mostra l'elenco di tutte le intestazioni della nota corrente e consente di passare a un'altra sezione facendo clic su una delle intestazioni.
