@@ -24,7 +24,7 @@ This can be done through the "Settings" button on the bottom left.
 
 ## Foster knowledge network
 
-- [[Internal link|Internal links]]
+- [[内部リンク|Internal links]]
 - Link auto-complete
 - See backlinks to and unlinked mentions of current note
 - Graph view

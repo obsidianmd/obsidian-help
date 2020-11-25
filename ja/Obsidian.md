@@ -1,62 +1,64 @@
-## What is Obsidian
+## Obsidianとは何ですか?
 
-Obsidian is a both a Markdown editor and a knowledge base app.
+Obsidianはマークダウンエディタであると同時にナレッジベースアプリでもあります。
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing densely networked knowledge base.
+最も基本的な使い方としてはマークダウンファイルの編集とプレビューを行うことが可能です。しかしその真の力は密にネットワーク化されたナレッジベースを管理することによって発揮されます。
 
-How do we start creating a network, you ask? Let's first start making some [[Internal link|internal links]]!
+ではどのようにネットワークを作り始めればよいでしょうか。まずは[[内部リンク|内部リンク]]を作成することから始めてみましょう。
+	
 
-## How we're different
+## 他のソフトウェアとどのように異なりますか?
 
-==*We want you to own and control your data*==
+==*私たちは、あなたのデータはあなた自身が所持し管理することを望んでいます*==
 
-We believe in plain text for something as important as your knowledge base. You don't want to put your own brain over someone else's neck, do you? Treat your second brain the same way.
+私たちはプレーンテキストがナレッジベースと同じくらい重要なものであると信じています。自分の脳を他人の首にのせたくはないはずです。あなたの第二の脳も同様に扱ってください。
 
-Sync is only a utility to facilitate working on multiple devices, the data will always primarily live on your hard disk.
+同期は複数のデバイスでの作業に役立つ便利な機能ですが、あなたのデータはまず第一に、常にあなたの所有するハードディスク上にあるべきだと考えています。
 
-When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
+ファイルシステムをクラウドに置き換ると、ファイル管理についての柔軟な選択肢を手に入れることができます。Dropboxでファイルをバックアップしたり、Gitを使ったバージョン管理やセキュリティのためにディスクを暗号化したりすることが可能です。また、ファイルシステム上で動作するものはどのようなものであれ、Obsidianでのナレッジベース上でも動作することができます。
 
-==*Links are first-class citizens*==
+==*リンクは第一級オブジェクトです*==
 
-Links and connections are crucial to discovering the relations between what we know.
+リンクやコネクションは知識間の関係性を発見するのにきわめて重要です。
 
-Obsidian greatly values this, and encourages it with [[Internal link]] and [[Graph view]], among other things.
+Obsidianはこのことに非常に価値を置いており、特に[[内部リンク|内部リンク]]と[[グラフビュー|グラフビュー]]の使用を推奨しています。
+	
+John Lockeは次のように言っています。
 
-As John Locke puts it...
-
-> The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:
-> 1. Combining several simple ideas into one compound one, and thus all complex ideas are made.
-> 2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations.
-> 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.
+>精神は単純な観念に対して力を行使するものであり、その精神の働きは主に次の三つである。
+> 1. 複数の単純な観念をひとつの複合化された観念へと結合し、それによってすべての複雑な観念が作られる。
+> 2. 第二に、単純であろうと複雑であろうと、一つに統合することなく二つの観念を共においておき、それらを一度に見ることができるようにすれば、精神は諸関係についてのすべての観念を得る。
+> 3. 第三に、現実の存在についてそれらに付随する他のすべての観念から分離すること。これはいわゆる抽象化とよばれ、こうして全ての一般的な観念ができあがる。
 
  \- John Locke, An Essay Concerning Human Understanding (1690)
- 
-Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
 
-==*Your own toolkit*==
+ヒエラルキーは一番目の働きを与え、リンキングは二番目の働きを私たちに与えます。三番目がノートテイキングの文脈でどんなことを意味するのかはまだ不確かですが、プログラミングやマクロと関係があるのかもしれません。
 
-Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
+==*あなた自身のツールキットです*==
 
-Instead of providing you with an opinionated and assembled product, [[Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+ノートテイキングはきわめて個人的な活動です。当然ながらすべての人にとっての万能な解決策となるようなものは存在しません。
 
-The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
+ [[Obsidian]]は、要望集約型のソフトウェアとなるのではなく、あなた自身の解決策を発見し作り上げるための土台と多数の機能要素を提供します。
 
-On top of that, you can add isolated, independent building blocks to add features to your note-taking:
+その土台となるものはファイルの閲覧機能と編集機能、そして検索機能です。ミニマリストとってはそれだけで十分です。
 
-- If you're taking class notes, [[Audio recorder]] and LaTeX math might be useful;
+それに加えて、あなたのノートテイキングに次のような独立した機能要素を別個で追加することができます。
 
-- If you're taking work notes, [[Slides]] and [[Backlinks]] may come in handy;
+- あなたが授業ノートをとっているならば、[[オーディオレコーダー]]とLaTex mathが役立つかもしれません。
 
-- If you're a researcher, [[Graph view]] and [[Word count]] might be essential to your toolkit.
+- あなたが業務用のノートをとっているならば、[[スライド]]と[[バックリンク]]が役に立つかもしれません。
 
-We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
+- あなたが研究者なら、[[グラフビュー]]と[[ワードカウント]]がツールキットとしてきわめて重要かもしれません。
 
-We support [[Custom CSS]] and plan to open up a public plugin API after v1.0.0, which will enable even more interface customization and support less common use cases.
+プラグインがあらゆる問題を解決するための特効薬になるとは考えていません。しかしモノリシックソリューションと比較して、プラグインがあればインターフェースを散らかすような機能を付属させることなく、私たちひとりひとりの解決策へと近づくことができるでしょう。
 
-## Follow our development
+Obsidianでは[[カスタムCSS|カスタムCSS]]をサポートしており、v1.0.0のリリース後にはプラグインAPIの公開を予定しています。プラグインAPIはユーザーにより多くのインターフェースのカスタマイズを可能にし、あまり一般的ではないユースケースをサポートします。
+	
 
-現在、Obsidianはプライベートベータです。開発に関する[ロードマップ](https://trello.com/b/Psqfqp7I/obsidian-roadmap)はこちらからチェックできます。
+## 開発をフォローしてください
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), not much to see there, but feel free to follow. We'll likely start posting after public beta.
+現在、Obsidianはプライベートベータ版です。開発に関する[ロードマップ](https://trello.com/b/Psqfqp7I/obsidian-roadmap)はこちらからチェックできます。
 
-The Obsidian documentation was written by [@mediapathic](http://mediapathic.net), with a big help from @reggie, as well as the many eyes of the discord and forum community. 
+私たちのツイッターのハンドルネームは[@obsdmd](https://twitter.com/obsdmd)です。まだあまり多くの情報はありませんがお気軽にフォローしてください。パブリックベータが終わり次第、発信を始めていく予定です。
+
+Obsidianのドキュメントは、@reggieの多大な助けとDiscordとフォーラムコミュニティの多くの人々の力を借りて[@mediapathic](http://mediapathic.net)によって作成されました。
