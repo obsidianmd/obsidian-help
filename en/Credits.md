@@ -27,6 +27,12 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 - mafsi, (Patrick Danilevici) (Română)
 - VKondakoff, Валерий Кондаков (Russian)
 
+
+### Builds
+
+- jstone for maintaining our builds on flathub
+- adamgibbins and ran-dall for maintaining our builds on homebrew
+
 ##### Add your name
 
 If you're a translator, please make a pull request to add "Your Name (contributed language)" to the section above. Please keep the list of names alphabetical, thanks!

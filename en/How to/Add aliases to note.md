@@ -22,7 +22,7 @@ In the future, we'll consider more user-friendly ways to manage aliases than man
 
 ### Link with aliases
 
-Once you've set aliases for a file, you can write `[[alises]]` to link to the original page. A redirect icon will show up in the auto-complete list like so:
+Once you've set aliases for a file, you can write `[[alias]]` to link to the original page. A redirect icon will show up in the auto-complete list like so:
 
 ![[Insert alises.png]]
 
