@@ -4,6 +4,6 @@ Per contribuire, è disponibile un'opzione in fondo alla [pagina dell'account Ob
 
 Un ringraziamento speciale agli utenti VIP che hanno proposto questa "funzione" per poter supportare ancora di più Obsidian.
 
-==Contribuire a Obsidian Unlimited non aggiunge funzionalità o benefici==. Per questo motivo, consigliamo di acquisire prima una [[Licenza Catalyst]], così da poter accedere alle [[Versioni Insider]] e ottenere fantastici badge nella nostra comunità.
+==Contribuire a Obsidian Unlimited non aggiunge funzionalità o benefici==. Per questo motivo, consigliamo di acquisire prima una [[Licenza Catalyst]] per poter accedere alle [[Versioni Insider]] e ottenere fantastici badge nella nostra comunità.
 
 Nota: l'importo minimo è $5 (in modo tale che le commissioni pagate abbiano senso).
