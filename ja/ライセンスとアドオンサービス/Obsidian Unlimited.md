@@ -1,9 +1,9 @@
-Obsidian Unlimited is a way to contribute a custom amount to Obsidian develop as you wish. You can also contribute multiple times at any time.
+Obsidian Unlimitedは好きな金額分だけObsidianの開発に寄付する方法です。好きなときに複数回、寄付することもできます。
 
-You can find this option at the bottom of the page in [your Obsidian account page](https://obsidian.md/account) after logging in.
+[Obsidianのアカウントページ](https://obsidian.md/account)にてログイン後に、ページ下部分からこのオプションを見つけることができます。
 
-Special thanks to the VIPs who proposed this "feature" to support Obsidian even more.
+Obsidianを更にサポートするためにこのオプションを提案していただいたVIPの方々に殊に感謝します。
 
-==Contributing to Obsidian Unlimited does not let you give any additional features or benefits.== For this reason, we recommend upgrading to [[Catalyst license]] first, if you're looking to access [[Insider builds]] or get cool badges in our community.
+==Obsidian Unlimitedへの寄付は、追加の機能や特典を提供するものではありません。==この理由から、[[インサイダービルド]]へのアクセスやコミュニティでのクールなバッジの獲得をお望みの場合には、まず[[カタリストライセンス]]にアップグレードすることをおすすめしています。
 
-Note: we've set the minimal amount to $5 (so that processing fees would make sense).
+ノート: 私たちは(手数料が理にかなったものとなるように)最少額として5$を設定しています。
