@@ -90,5 +90,5 @@ obsidian://action?param1=value&param2=value
 
 上記のフォーマットに加えて、保管庫とファイルを開くのに二つの｢短縮｣されたフォーマットが利用可能です。
 
-- `obsidian://vault/my vault/my note`は `obsidian://open?vault=my%20vault&file=my%20note`に等しいです。
-- `obsidian:///absolute/path/to/my note`は`obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`に等しいです。
+- `obsidian://vault/my vault/my note`は `obsidian://open?vault=my%20vault&file=my%20note`に相当します。
+- `obsidian:///absolute/path/to/my note`は`obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`に相当します。
