@@ -2,10 +2,14 @@ Ci sono alcune differenze di funzionamento tra i vari sistemi di PKM (Personal K
 
 Sul nostro Forum c'è un [post che contiene alcuni metodi sviluppati da altre persone](https://forum.obsidian.md/t/meta-post-migration-workflows/768). Al momento include:
 
-  * [Migrazione da Apple Note a Obsidian](https://forum.obsidian.md/t/migrate-from-apple-notes-to-obsidian/732)
-  * [Migrazione da TiddlyWiki 5 a Obsidian](https://forum.obsidian.md/t/migrate-from-tiddlywiki-5-to-obsidian/731)
-  * [Importazione da Notion](https://forum.obsidian.md/t/import-from-notion/636)
-  * [Importazione da Evernote](https://forum.obsidian.md/t/import-from-evernote/108)
+- [Importazione da Notion](https://forum.obsidian.md/t/import-from-notion/636)
+- [Importazione da Notion (automatizzata)](https://forum.obsidian.md/t/notion-2-obsidian-migration-instructions/2728)
+- [Importazione da Evernote](https://forum.obsidian.md/t/import-from-evernote/108)
+- [Importazione da OneNote](https://forum.obsidian.md/t/new-tool-for-migration-from-onenote-updated-and-improved-version/3055)
+- [Importazione da Apple Notes](https://forum.obsidian.md/t/migrate-from-apple-notes-to-obsidian/732)
+- [Importazione da Bear](https://forum.obsidian.md/t/import-from-bear-app/2284)
+- [Importazione da Zkn3](https://forum.obsidian.md/t/migrating-from-zkn3-to-obsidian-without-losing-your-tags-and-internal-links-documentation/7457)
+- [Importazione da TiddlyWiki 5](https://forum.obsidian.md/t/migrate-from-tiddlywiki-5-to-obsidian/731)
 
 Se il sistema usato non si trova nell'elenco, controllare il post del forum. Nel tempo trascorso dalla scrittura del documento, qualcuno potrebbe avere risolto il problema.
 
@@ -31,6 +35,10 @@ Se si possiedono dati su Roam, è facile esportarli per gestirli in Obsidian:
 > 5. Utilizzare lo strumento [[Importazione Markdown]] per convertire il formato Markdown di Roam Research nel formato di Obsidian.
 > Può convertire `#tag` in `[[collegamenti]]` di Obsidian.
 > Può anche convertire il testo `^^evidenziato^^` in `==evidenziato==`
+
+### Da Bear
+
+Se si sta importando da Bear, il plugin [[Importazione Markdown]] ha un'opzione per convertire `::highlight::` in `==highlight==`.
 
 ### Utilizzare Zettelkasten
 

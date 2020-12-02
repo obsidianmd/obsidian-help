@@ -28,6 +28,11 @@ I nomi non sono elencati in base al peso del loro contributo, ma in ordine alfab
 - mafsi, (Patrick Danilevici) (Română)
 - VKondakoff, Валерий Кондаков (Russian)
 
+### Build
+
+- jstone per il mantenimento delle build su flathub
+- adamgibbins e ran-dall per il mantenimento delle build su homebrew
+
 ##### Aggiungi il tuo nome
 
 Se sei un traduttore, puoi inviare un Pull Request e aggiungere "Tuo nome (lingua a cui hai contribuito)" nella sezione che vedi qui sopra. Ti preghiamo di mantenere l'elenco dei nomi in ordine alfabetico, grazie!

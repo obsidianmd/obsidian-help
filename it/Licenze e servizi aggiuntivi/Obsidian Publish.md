@@ -40,16 +40,26 @@ Mostra l'indice dei contenuti della pagina attualmente aperta. L'elenco viene ge
 
 Quando si passa con il mouse sui collegamenti, il loro contenuto viene visualizzato all'interno di una finestra popup. Funziona il modo simile al plugin [[Anteprima pagina]] in Obsidian.
 
+##### Riferimenti
+
+Mostra una sezione denominata "Collegati a questa pagina" alla fine di ogni pagina, che contiene i riferimenti che provengono da altre pagine. Quando non ci sono riferimenti, la sezione non viene visualizzata.
+
+##### CSS Personalizzati
+
+Per personalizzare lo stile del sito è possibile caricare un file `obsidian.css` o `publish.css`. Questi file devono essere archiviati nella cartella principale del sito. Possono essere anche creati entrambi in modo da poter usare il file `obsidian.css` esistente e aggiungere alcune modifiche extra per la pubblicazione in `publish.css`.
+
+##### Favicon
+
+Per cambiare la favicon del sito è possibile caricare icone `png` di qualsiasi dimensione usando il formato `favicon-32.png` o `favicon-32x32.png`. Può anche essere caricato un file `favicon.ico`. Questi file possono essere archiviati in qualsiasi cartella. Al momento (anno 2020) raccomandiamo di fornire le seguenti dimensioni: `32×32`, `128x128`, `152×152`, `167x167`, `180x180`, `192x192`, e `196x196`.
+
 ### In arrivo
 
 Obsidian Publish è ancora agli inizi. Ecco alcune funzionalità che intendiamo aggiungere:
 
 - Supporto a domini personalizzati
-- Supporto a CSS personalizzati
-- Sezione dei Riferimenti
+- Ricerca
 - Sezione relativa ai tag
 - Altri temi incorporati
-- Ricerca
 
 Per richiedere funzionalità aggiuntive per Obsidian Publish, inviare una [richiesta nel forum](https://forum.obsidian.md/).
 
