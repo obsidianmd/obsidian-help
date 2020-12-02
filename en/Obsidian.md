@@ -57,6 +57,6 @@ We support [[Custom CSS]] and plan to open up a public plugin API after v1.0.0, 
 
 Obsidian is in private beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), not much to see there, but feel free to follow. We'll likely start posting after public beta.
+Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
 
-The Obsidian documentation was written by [@mediapathic](http://mediapathic.net), with a big help from @reggie, as well as the many eyes of the discord and forum community. 
+The Obsidian documentation was written by [@mediapathic](http://mediapathic.net), with a big help from @reggie, as well as the many eyes of the Discord and forum community. 
