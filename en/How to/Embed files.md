@@ -23,3 +23,12 @@ The syntax is inspired by Markdown's image syntax. We had two observations:
 To combine these two things, we can come up with a third pattern:`![[My page]]` should be equivalent to `![My page](My page)` , which by the image convention, if the title is the same as the link, should display it.
 
 There are other implementations out there, for example Roam Research uses `{{embed: ((NODE_ID))}}`. We have also considered using the `((Page name))` syntax too, but we feel like `![[Page name]]` is more consistent, more familiar, and leaves more room so that the other symbols to have their own meanings.
+
+#### Resize images
+You can resize images using the following syntax:
+
+For markdown images, use ![AltText|100x100](https://url/to/image.png)
+
+For embeds, use ![[image.png|100x100]]
+
+To have the image scale according to its aspect ratio, omit the height ![[image.png|100]]
