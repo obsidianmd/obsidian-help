@@ -27,7 +27,7 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
 - VKondakoff, Валерий Кондаков (Russian)
-
+- yo-goto, ぱだわん (Japanese)
 
 ### Builds
 
