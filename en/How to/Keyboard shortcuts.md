@@ -36,10 +36,11 @@ Open settings                   |   | `Ctrl/Cmd ,`
 
 **Editing**
 
-Function             |   | Shortcut    
--------------------- | - | ------------
-Bold Selected Text   |   | `Ctrl/Cmd-B` 
-Italic Selected Text |   | `Ctrl/Cmd-I`
-Insert External link |   | `Ctrl/Cmd-K`
-Indent               |   | `Ctrl/Cmd-]`
-Unindent             |   | `Ctrl/Cmd-[`
+Function                        |   | Shortcut    
+------------------------------- | - | ------------
+Bold Selected Text              |   | `Ctrl/Cmd-B` 
+Italic Selected Text            |   | `Ctrl/Cmd-I`
+Insert External link            |   | `Ctrl/Cmd-K`
+Indent                          |   | `Ctrl/Cmd-]`
+Unindent                        |   | `Ctrl/Cmd-[`
+Jump into selected backlink     |   | `Alt+Enter`
