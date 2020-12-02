@@ -31,4 +31,4 @@ For markdown images, use `![AltText|100x100](https://url/to/image.png)`
 
 For embeds, use `![[image.png|100x100]]`
 
-To have the image scale according to its aspect ratio, omit the height !`[[image.png|100]]`
+To have the image scale according to its aspect ratio, omit the height `![[image.png|100]]`
