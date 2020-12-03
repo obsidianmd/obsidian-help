@@ -43,4 +43,4 @@ Italic Selected Text            |   | `Ctrl/Cmd-I`
 Insert External link            |   | `Ctrl/Cmd-K`
 Indent                          |   | `Ctrl/Cmd-]`
 Unindent                        |   | `Ctrl/Cmd-[`
-Jump into selected backlink     |   | `Alt+Enter`
+Jump into selected backlink     |   | `Alt/Opt-Enter`
