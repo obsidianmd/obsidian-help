@@ -57,6 +57,6 @@ Obsidianでは[[カスタムCSS]]をサポートしており、v1.0.0のリリ�
 
 現在、Obsidianはプライベートベータ版です。開発に関する[ロードマップ](https://trello.com/b/Psqfqp7I/obsidian-roadmap)はこちらからチェックできます。
 
-私たちのツイッターのハンドルネームは[@obsdmd](https://twitter.com/obsdmd)です。まだあまり多くの情報はありませんがお気軽にフォローしてください。パブリックベータが終了次第、発信を始めていく予定です。
+私たちのツイッターのハンドルネームは[@obsdmd](https://twitter.com/obsdmd)です。お気軽にフォローしてください。ツイッターでは主にプロダクトのアップデートに関するツイートを行っています。
 
 Obsidianのドキュメントは、@reggieの多大な助けとDiscordとフォーラムコミュニティの多くの人々の力を借りて[@mediapathic](http://mediapathic.net)によって作成されました。
