@@ -24,9 +24,11 @@ I nomi non sono elencati in base al peso del loro contributo, ma in ordine alfab
 
 - Andrea Brandi (Italian)
 - canzi-teacher, 蚕子 (Chinese Simplified)
+- k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
 - VKondakoff, Валерий Кондаков (Russian)
+- yo-goto, ぱだわん (Japanese)
 
 ### Build
 
