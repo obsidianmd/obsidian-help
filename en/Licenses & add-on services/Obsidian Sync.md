@@ -46,9 +46,9 @@ You can also choose to turn off the "Custom end-to-end password" option to leave
 
 ### Check sync status
 
-After connecting to a remote vault, you can check the current sync status in the bottom status bar. You can hover the status icon to read more about what's going on.
+After connecting to a remote vault, you can check the current sync status in the bottom status bar. You can hover over the status icon to read more about what's going on.
 
-Click on the status icon will open up sync settings as a shortcut.
+Clicking on the status icon will open up sync settings as a shortcut.
 
 ### Version history
 
@@ -76,7 +76,7 @@ Excluded folders will be ignored when both uploading and download changes.
 
 #### File types
 
-You can toggle sync for images, audio, video, and PDF files under Setting -> Sync -> Selective sync.
+You can toggle sync for images, audio, video, and PDF files under Settings -> Sync -> Selective sync.
 
 ### FAQ
 
@@ -84,7 +84,7 @@ You can toggle sync for images, audio, video, and PDF files under Setting -> Syn
 
 End-to-end encryption means the data is encrypted from the moment it leaves your device, and can only be decrypted using your encryption key once it's back on one of your devices.
 
-We do not have the capability of reading your data, nor does any potential eavesdroppers, such as your internet service provider.
+We do not have the capability of reading your data, nor do any potential eavesdroppers, such as your internet service provider.
 
 In the rare case of a complete server breach, your data will remain encrypted, and nobody will have the ability to decrypt your files without knowing your password.
 
@@ -94,7 +94,7 @@ Each account with Obsidian Sync can have up to 5 remote vaults.
 
 ##### How long are version history kept?
 
-Version history is kept for up to one year before we clean it up.
+Version histories are kept for up to one year before we clean it up.
 
 ##### How large can each remote vault be?
 
@@ -112,7 +112,7 @@ As long as you renew within one month, there should be no impact on your usage.
 
 ##### Can I use Obsidian Sync as a backup solution?
 
-Obsidian Sync is designed as a convenience data synchronization service, rather than a backup service.
+Obsidian Sync is designed as a data synchronization service, rather than a backup service.
 
 With version history, it does provide some backup features, however we still recommend having additional backup measures.
 
