@@ -22,6 +22,7 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 
 ### Translators
 
+- Andrea Brandi (Italian)
 - canzi-teacher, 蚕子 (Chinese Simplified)
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
