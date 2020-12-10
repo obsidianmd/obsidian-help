@@ -1,136 +1,135 @@
-Obsidian Sync™ is a paid service to sync notes between vaults on various devices.
+Obsidian Sync™は様々なデバイスの保管庫間でノートを同期することができる有料サービスです。
 
-### How Obsidian Sync works
+### Obsidian Syncの仕組み
 
-Obsidian Sync is fairly simple: once you hook up local vaults from multiple devices to the same remote vault, changes will be automatically synced between these local vaults, except for files and folders you instruct Obsidian to ignore.
+Obsidian Syncは非常に簡単です。複数のデバイスから同一のリモート保管庫へと接続すると、Obsidianに除外するように設定したファイルやフォルダを除いて、あらゆる変更は各デバイスのローカル保管庫の間で自動的に同期されます。
 
-### Features
+### 機能
 
-Currently, Obsidian Sync features:
+現在、Obsidian Syncでは次の機能を提供しています。
 
-- End-to-end encryption
-- Version history integrated into Obsidian
-- View deleted files
-- Selective sync
-	- Exclude certain folders
-	- Toggle syncing for images, audio, video, and PDF files
-- Switch between multiple remote vaults
+- エンドツーエンド暗号化
+- Obsidianに統合されたバージョン履歴
+- 削除したファイルの確認
+- 選択的な同期
+	- 特定のフォルダを除外
+	- 画像、音声、動画、PDFファイルの同期切り替え
+- 複数のリモート保管庫の切り替え
 
-In the future, we'll improve Obsidian Sync with:
+将来的に、Obsidian Syncでは次の機能の提供を予定しています。
 
-- Vault sharing
-- Sync `.obsidian` configurations if desired (to sync plugins and themes)
+- 保管庫のシェア
+-`.obsidian`に関する設定の選択的な同期(プラグインとテーマの同期)
 
+### Obsidian Syncプラグインの有効化
 
-### Enable Obsidian Sync plugin
+Obsidian v0.9.21より新しいバージョンでは、｢設定｣→｢コアプラグイン｣から｢同期｣のプラグインをオンにすることでObsidian Syncを有効化できます。
 
-In Obsidian v0.9.21 or higher, you can enable Obsidian Sync by enabling the "Sync" plugin under Settings -> Core plugins.
+###  リモート保管庫のセットアップ
 
-### Setting up remote vaults
+同期を開始するには、まずは暗号化されたデータを保存するためのリモート保管庫を作成する必要があります。
 
-To start syncing, first you need to create a remote vault that stores your encrypted data.
+リモート保管庫を作成するには、｢設定｣→｢同期｣→｢リモート保管庫の選択｣→｢選択｣→｢新しく保管庫を作成｣を行ってください。
 
-To do that, go to Setting -> Sync -> Pick remote vault -> Choose -> Create new vault.
+リモート保管庫を作成したら、隣にある｢接続｣ボタンをクリックすれば保管庫をすぐに接続することが可能です。
 
-After creating it, you can immediately connect to the vault by clicking on the "Connect" button next to it.
+接続後、すぐに同期を開始するか、除外するフォルダの設定を行うかを選択できます。
 
-You can choose to either start syncing immediately after connecting, or choose folders to ignore.
+##### 暗号化パスワードの設定
 
-##### Set encryption password 
+デフォルトでは、保管庫用に暗号化パスワードを設定する必要があります。このパスワードはユーザーデータの暗号化と復号化に利用されるため極めて重要です。
 
-By default, you need to set an encryption password for your vault. This password is used to encrypt and decrypt your data and is extremely important.
+暗号化された保管庫の同期をセットアップする際にはパスワードの入力が毎回要求されます。==パスワードを忘れたり無くしてしまった場合には、ユーザーデータは暗号化され使用することができない状態のままとなります。その場合、こちら側からパスワードや暗号化されたデータの復元を行うことができません。==ローカルファイルはこれに関して影響を受けることはありません、
 
-You'll be asked for the password any time you setup sync with an encrypted vault. ==If you forget or lose the password, your data will remain encrypted and unusable forever. We are unable to recover your password or any encrypted data for you.== Your local files are not affected.
+｢カスタムエンドツーエンドパスワード｣オプションをオフにすることで、暗号キーの管理を私たちに任せることも可能です。これにより、依然として高いセキュリティーを保ちつつ、パスワードを覚える必要なく快適に利用することが可能となります。
 
-You can also choose to turn off the "Custom end-to-end password" option to leave managing the encryption key to us. This is still fairly secure and provides the convenience of not having to remember a password.
+### 同期ステータスの確認
 
-### Check sync status
+リモート保管庫の接続後に、現在の同期ステータスを下のステータスバーから確認することができます。ステータスアイコンにカーソルを合わせることで、現在のステータスの詳細を見ることができます。
 
-After connecting to a remote vault, you can check the current sync status in the bottom status bar. You can hover over the status icon to read more about what's going on.
+ステータスアイコンをクリックするとショートカットとして同期設定が開きます。
 
-Clicking on the status icon will open up sync settings as a shortcut.
+### バージョン履歴
 
-### Version history
+ノートを編集する際に、約10秒ごとにバージョンが保存されます。==バージョン履歴はノートに関してのみ利用可能であり、アタッチメントについては利用できません。==
 
-As you edit your notes, versions are saved approximately every 10 seconds. ==Version history is only available for notes, not attachments.==
+ファイルエクスプローラのペインでファイルを右クリックするとバージョン履歴を見ることができます。このオプションはオプションメニューからも利用することができます。
 
-You can right click a file in the file explorer pane to see its version history. This option is also available in the more options menu.
+バージョン履歴画面の左列からバージョンを選択した後は、｢復元｣ボタンをクリックすることでファイルを復元できます。
 
-After selecting a version in the left column in the version history screen, you can restore the file to this version by clicking on the "Restore" button.
+### ファイルの削除
 
-### Deleted files
+ファイルの削除後、｢設定｣→｢同期｣→｢ファイルの削除｣→｢閲覧｣から削除したファイルを閲覧できます。
 
-After you delete a file, you can view it in Setting -> Sync -> Deleted files -> View.
+削除したファイルをクリックするとバージョン履歴が開きます。そこからファイルを前のバージョンに復元するか選択することができます。
 
-Clicking on a deleted file will open its version history. You can then choose to restore the file back to a previous version.
+### 選択的同期
 
-### Selective sync
+フォルダやファイルの種類によってファイルを選択的に同期することができます。==選択的同期は将来の変更にのみ適用されます。すでにアップロードされているファイルに関しては除外するように選択したとしても削除されません。同期プロセスを開始する前に必ず設定してください。==
 
-You can selectively sync files by folder or file type. ==Selective sync only applies to future changes. Any files that have already been uploaded will not be deleted even if you choose to ignore them. Please be sure to configure it before starting the sync process.==
+##### フォルダの除外
 
-##### Exclude folders
+｢設定｣→｢除外フォルダ｣からフォルダのチェックを外すことで、それらのフォルダを同期しないように管理することができます。
 
-You can uncheck folders in Settings -> Sync -> Excluded folders -> Manage to prevent them from getting synced.
+除外フォルダは変更のアップロードとダウンロードの両方において無視されます。
 
-Excluded folders will be ignored when both uploading and download changes.
+#### ファイルの種類
 
-#### File types
-
-You can toggle sync for images, audio, video, and PDF files under Settings -> Sync -> Selective sync.
+｢設定｣→｢同期｣→｢選択的同期｣から画像ファイル、音声ファイル、動画ファイル、PDFファイルの同期を行うか選択することができます。
 
 ### FAQ
 
-##### What is end-to-end encryption?
+##### エンドツーエンド暗号化とは何ですか?
 
-End-to-end encryption means the data is encrypted from the moment it leaves your device, and can only be decrypted using your encryption key once it's back on one of your devices.
+エンドツーエンド暗号化とは、データがユーザーが利用しているデバイスから離れた瞬間から暗号化され、同期しているデバイスの一つに戻ってきた際に暗号キーによってのみ復号化されるということを意味します。
 
-We do not have the capability of reading your data, nor do any potential eavesdroppers, such as your internet service provider.
+私たちがユーザーのデータを読み取る能力を持たず、ユーザーが利用しているインターネットサービスプロバイダーのような潜在的な盗聴者も同様にデータを読み取ることはできません。
 
-In the rare case of a complete server breach, your data will remain encrypted, and nobody will have the ability to decrypt your files without knowing your password.
+稀ではありますが、サーバーで完全に障害が起きた場合にはデータは暗号化されたままの状態となり、パスワード無しではファイルを復号化することはできなくなります。
 
-##### How many remote vaults can I have?
+##### リモート保管庫はいくつ持つことができますか?
 
-Each account with Obsidian Sync can have up to 5 remote vaults.
+Obsidian Syncでは各アカウントごとに最大で5つのリモート保管庫を持つことができます。
 
-##### How long are version history kept?
+##### バージョン履歴はどのくらいの間保持されますか?
 
-Version histories are kept for up to one year before we clean it up.
+バージョン履歴に関しては、こちらがクリーンアップする前に最大1年間保持されます。
 
-##### How large can each remote vault be?
+##### 各リモート保管庫はどのくらいの大きさにできますか?
 
-At the moment, each remote vault can have up to 4 GB of data, including version history.
+現在、各リモート保管庫につき最大4GBまでのデータを保存することが可能です(バージョン履歴を含む)。
 
-##### Is my data encrypted on my hard disk?
+##### ハードディスク上においてもデータは暗号化されますか?
 
-No, your data is still in plain text on your hard disk. If you wish to encrypt it from people who use your computer, you should look for a disk encryption solution.
+いいえ、ユーザーのデータは依然としてハードディスク上のプレーンテキストのままとなります。他にコンピューターを使用する人がおり暗号化したいような場合には、ディスク暗号化のソリューションを探す必要があります。
 
-##### How long is my data kept after my subscription expires?
+##### サブスクリプションの有効期限が切れた後でどのくらい期間データは保持されますか?
 
-Data in your remote vaults, including version history, is kept for one month for you, after your subscription expires.
+リモート保管庫内のバージョン履歴を含むユーザーのデータはサブスクリプションの有効期限が切れた後から1ヶ月間は保持されます。
 
-As long as you renew within one month, there should be no impact on your usage.
+1ヶ月以内にサブスクリプションを更新する限り、利用に関する影響はありません。
 
-##### Can I use Obsidian Sync as a backup solution?
+##### Obsidian Syncをバックアップのソリューションとして利用することはできますか?
 
-Obsidian Sync is designed as a data synchronization service, rather than a backup service.
+Obsidian Syncはバックアップサービスというよりはむしろデータの同期サービスとしてデザインされています。
 
-With version history, it does provide some backup features, however we still recommend having additional backup measures.
+バージョン履歴の共にいくつかのバックアップ機能を提供していますが、依然として追加のバックアップ方法を利用することを推奨しています。
 
-Obsidian Sync is currently in beta testing, so we strongly recommend having backups, in case of software bugs and glitches.
+Obsidian Syncは現在ベータテストの状態にあるので、ソフトウェアのバグや誤作動に備えてバックアップを行っておくことを強く推奨しています。
 
-##### Should I pick my own encryption password?
+##### 暗号化のパスワードは自分自身で選ぶ必要がありますか?
 
-Pick your password if you require the highest level of security and privacy. This guarantees that anyone who doesn't know your password will never be able to read your notes.
+最も強いセキュリティレベルとプラバシーが必要な場合には、パスワードを自身で決める必要があります。これにより、パスワードを知らない人間がユーザーのデータを読み取ることが決してできないように保証することができます。
 
-Letting us manage your encryption key is more convenient, and you do not risk forgetting or losing your password.
+暗号キーの管理を私たちに任せる場合には、より便利となり、パスワードを忘れてしまったり紛失するリスクをなくすことができます。
 
-Your local vault is not affected by this option. If you properly backup your local vault, this may not be a problem for you.
+ローカル保管庫に関してはこのオプションは影響しません。ローカル保管庫を適切にバックアップする場合には問題とならないかもしれません。
 
-##### Is the end-to-end encryption strong?
+##### エンドツーエンド暗号化は強固ですか?
 
-We use industry-standard AES-256 to encrypt your data. AES-256 is a military-grade encryption specification that is widely used in online banking.
+Obsidian Syncではデータ暗号化のために業界標準のAES-256を使用しています。AES-256はオンラインバンキングで広く利用されている軍用グレードの暗号化仕様です。
 
-Here are the technical details for those interested:
+興味のある方のために技術的詳細をメモしました。
 
-- Key derivation function used: scrypt with salt
-- Encryption algorithm used: AES-256 using GCM
+- 使用されている鍵導出関数 : scrypt with salt
+- 使用されている暗号化アルゴリズム: AES-256 using GCM
