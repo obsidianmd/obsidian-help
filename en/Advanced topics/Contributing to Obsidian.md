@@ -42,7 +42,7 @@ If you know another language (preferably natively), you can help with translatin
 
 #### Translating the docs
 
-We're in the middle of reorganizing and stabilizing the documentation you're reading right now, once it's in a good shape, you can also help translate it, so that people who doesn't know English can also easily learn to use Obsidian.
+We're in the middle of reorganizing and stabilizing the documentation you're reading right now. Once it's in a good shape, you can also help translate it, so that people who don't know English can also easily learn to use Obsidian.
 
 #### Found a typo?
 
