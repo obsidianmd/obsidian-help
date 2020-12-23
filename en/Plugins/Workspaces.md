@@ -7,7 +7,7 @@ The Workspaces plugin lets you save and load "workspaces". Each workspace includ
 
 Either click on the workspace icon in the ribbon to open "Manage workspaces".
 
-Give the current layout a new, click on "Save", and it will appear in the list below.
+Give the current layout a new name, click on "Save", and it will appear in the list below.
 
 ### Load a workspace
 
