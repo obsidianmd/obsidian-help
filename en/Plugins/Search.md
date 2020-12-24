@@ -14,7 +14,7 @@ When crafting a search query, remember that clicking "Explain Search Term" will 
 - Regular expressions (regex) can now be used in search. Use forward slash to denote a regular expression. For example: `/[a-z]{3}/`.
 - Several special operators are available. Some operators allow nesting queries using parenthesis, for example: `file:("to be" OR -"2B")`.
 	- `file:` will perform the following subquery on the file name. For example: `file:".jpg"`. If you use Zettelkasten-style UIDs, this can be useful for narrowing a time range, for example `file:"202007"`for files created in July of 2020.
-	- `path:` will perform the following subquery on the file path, absolute from the root. For example: `file:"Daily Notes/2020-07"`.
+	- `path:` will perform the following subquery on the file path, absolute from the root. For example: `path:"Daily Notes/2020-07"`.
 	- `match-case:` and `ignore-case:` will override the case sensitive match logic for the following subquery.
 
 ### Search Settings
