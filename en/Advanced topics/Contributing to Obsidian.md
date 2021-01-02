@@ -38,7 +38,7 @@ If you're a JavaScript/TypeScript programmer, you can write [[Third-party plugin
 
 #### Translating the interface
 
-If you know another language (preferably natively), you can help with translating the Obsidian interface into your language. You an do that by submitting a pull request in [our translation GitHub repository](https://github.com/obsidianmd/obsidian-translations) to get it into the next version of the app.
+If you know another language (preferably natively), you can help with translating the Obsidian interface into your language. You can do that by submitting a pull request in [our translation GitHub repository](https://github.com/obsidianmd/obsidian-translations) to get it into the next version of the app.
 
 #### Translating the docs
 
