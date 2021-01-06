@@ -12,7 +12,7 @@ If you'd like to use Obsidian for work activities, try to let your work get you 
 
 If you'd like to make a website from your notes, consider getting [[Obsidian Publish]] if the price works for you.
 
-If you're interested in an end-to-end encryption syncing solution, we'll also be rolling out our Obsidian Sync soon, stay tuned!
+If you're interested in an end-to-end encryption syncing solution, we also offer [[Obsidian Sync]]. In addition to end-to-end encryption, Obsidian Sync also comes with version history.
 
 #### Catalyst
 
