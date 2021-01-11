@@ -35,6 +35,12 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 - jstone for maintaining our builds on flathub
 - adamgibbins and ran-dall for maintaining our builds on homebrew
 
+### Documentation
+
+The first version of the help vault was written by Silver. Later part of it was written by [@mediapathic](http://mediapathic.net), with a big help from Reggie. We also got corrections from the many pairs of eyes in the Discord and forum community.
+
+We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/).
+
 ##### Add your name
 
 If you're a translator, please make a pull request to add "Your Name (contributed language)" to the section above. Please keep the list of names alphabetical, thanks!
