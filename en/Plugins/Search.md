@@ -34,3 +34,19 @@ There are a couple of toggles available while searching:
 - `Collapse results` will toggle between just showing matching note names and showing the lines in which matches appear. These extended results can be toggled for each note by clicking on the folding triangle next to the file name.
 - `Show more context` will expand the display of the matches to show more text around the match.
 - `Change sort order` sorts the results by various orders, similar to how files are sorted in the [[File explorer]]
+
+### Embed search results
+
+You can embed search results in a note.
+
+For example, if you write:
+
+<pre><code>```query
+embed OR search
+```</code></pre>
+
+You should see this embedded search view (note: it doesn't work on [[Obsidian Publish]] as of 2020/01/18):
+
+```query
+embed OR search
+```
