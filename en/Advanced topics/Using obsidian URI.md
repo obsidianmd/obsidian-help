@@ -26,6 +26,7 @@ obsidian://action?param1=value&param2=value
 ==Important==
 
 Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+
 This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding)
 
 ### Available actions

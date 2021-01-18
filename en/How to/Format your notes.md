@@ -123,6 +123,10 @@ Example of this above image resized to 100 pixels wide:
 
 ### Links
 
+#### External links
+
+Markdown style links can be used to refer to either external objects, such as web pages, or an internal page or image.
+
 ```md
 http://obsidian.md - automatic!
 [Obsidian](http://obsidian.md)
@@ -131,7 +135,43 @@ http://obsidian.md - automatic!
 http://obsidian.md - automatic!
 [Obsidian](http://obsidian.md)
 
-Markdown style links can be used to refer to either external objects, such as web pages, or an internal page or image. If there are spaces in the url, they can be escaped by either using `%20` as a space, such as [Export options](Pasted%20image), or by enclosing the target in `<>`, such as [Slides Demo](<Slides Demo>).
+#### Obsidian URI links
+
+[[Using obsidian URI|Obsidian URI]] links can be used to open notes in Obsidian either from another Obsidian vault or another program.
+
+For example, you can link to a file in a vault like so (please note the [[Using obsidian URI#Encoding|required encoding]]):
+
+```md
+[Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
+```
+
+[Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
+
+You can link to a note by its vault name and file name instead of path as well:
+
+```md
+[Link to note](obsidian://open?vault=MainVault&file=MyNote.md)
+```
+
+[Link to note](obsidian://open?vault=MainVault&file=MyNote.md)
+
+#### Escaping
+
+If there are spaces in the url, they can be escaped by either using `%20` as a space, such as:
+
+```md
+[Export options](Pasted%20image)
+```
+
+[Export options](Pasted%20image)
+
+Or you can enclose the target in `<>`, such as:
+
+```md
+[Slides Demo](<Slides Demo>)
+```
+
+[Slides Demo](<Slides Demo>)
 
 ---
 
