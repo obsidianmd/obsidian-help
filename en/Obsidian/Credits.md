@@ -11,6 +11,7 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 - argentum<span class='flair mod-pop'>Team Little Silvers</span><span class='flair mod-pop'>Linux master</span><span class='flair mod-pop'>Zotero master</span>
 - cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
 - death_au ([website](https://about.me/death.au))<span class='flair mod-pop'>the Magician</span><span class='flair mod-pop' style='background-color:#F1C40F;color:#000;'>Team Gold</span>
+- Eleanor ([Eleanor Konik](https://eleanorkonik.com))
 - mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 - nickmilo ([Nick Milo](https://publish.obsidian.md/lyt-kit/_START+HERE))<span class='flair mod-pop'>Mappy McMapster</span>
 - Reggie<span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
