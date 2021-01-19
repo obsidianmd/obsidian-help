@@ -32,7 +32,7 @@ If you want to just start taking notes, check out [[Basic note taking]]
 
 If you already have a collection of notes in markdown format, just choose them for your Vault. Go to the Settings gear in the lower left, choose "Vault," and select the directory your notes are in.
 
-If you have notes from ==Roam Research==, ==Notion,== or other systems,  [[Importing data|here's how to import them]].
+If you have notes from Roam Research, Notion, or other systems, [[Importing data|here's how to import them]].
 
 If you'd like to know more about Obsidian, you can [[Obsidian|read about our story]].
 
