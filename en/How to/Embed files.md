@@ -4,6 +4,8 @@ You can embed attachment files like images or audio in your notes. Use the `![[f
 
 ![[Excerpt from Mother of All Demos (1968).ogg]]
 
+You can embed a PDF file in your notes with the same syntax. Additionally, you can write `![[My File.pdf#page=number]]` to open to that specific page of the PDF directly.
+
 You can embed a note also, with the same syntax:
 
 ![[Accepted file formats]]
