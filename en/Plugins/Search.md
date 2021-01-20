@@ -2,7 +2,59 @@
 
 Search is a powerful feature, and has the potential to be confusing. In most cases, if you just type what you want to find, it will work. But search has many capabilities for narrowing down to find exactly what you want.
 
-### Complex searches
+## Quick tips
+
+### Start searching
+
+You can invoke search by pressing `Ctrl-Shift-F` or `Cmd-Shift-F`. You can also customize this hotkey in Settings -> Hotkeys. When search is invoked, focus will be automatically put in the search bar so you can start typing your query right away.
+
+### Search selected text
+
+After you select text, you can search for it by simply invoking search like above.
+
+## Search history
+
+Obsidian will remember your most recently used search queries.
+
+These queries will be presented to you when your search query is empty. You can click on any one of them to search for it again, allowing you to easily re-run previous queries.
+
+To clear search history, simply click on the "X" button.
+
+## Search Settings
+
+There are a couple of toggles available while searching:
+
+- `Match case` toggle case sensitive matching, but note that it can be overridden on a per-search basis using the `match-case:` and `ignore-case:` operators explained above.
+- `Explain search term` will show you what the search query actually does in plain terms.
+- `Collapse results` will toggle between just showing matching note names and showing the lines in which matches appear. These extended results can be toggled for each note by clicking on the folding triangle next to the file name.
+- `Show more context` will expand the display of the matches to show more text around the match.
+- `Change sort order` sorts the results by various orders, similar to how files are sorted in the [[File explorer]].
+
+## Copy search results
+
+To quickly and easily take your search results to a list, use the "copy search result" option.
+
+You can customize whether you want to show paths, which link style to use (wikilink or Markdown link), and how you want your list to appear.
+
+## Embed search results
+
+You can embed search results in a note.
+
+For example, if you write:
+
+<pre><code>```query
+embed OR search
+```</code></pre>
+
+You should see this embedded search view (note: it doesn't work on [[Obsidian Publish]] as of 2020/01/18):
+
+```query
+embed OR search
+```
+
+## Search syntax
+
+### Combing sub-queries
 
 When crafting a search query, remember that clicking "Explain Search Term" will give an explanation of what is being searched for, which can be very useful when debugging a complicated search.
 
@@ -24,35 +76,3 @@ Several special operators are available. Some operators allow nesting queries us
 - `line:(...)` will perform the subquery on a line-by-line basis, rather than a file-by-file basis. For example, if you search for `foo bar`, this could match a file that has `foo` in the first paragraph and `bar` in the last paragraph. Searching for `line:(foo bar)` will only match if `foo` and `bar` are on the same line.
 - `block:(...)` will perform the subquery on a block-by-block basis, where each block defined as a markdown block, typically separated by empty lines. This is expensive computationally as it requires parsing each file, which means this is likely slower than other modes.
 - `section:(...)` will perform the subquery on a section-by-section basis, where each section is the text between two headings, including the first heading.
-
-### Search Settings
-
-There are a couple of toggles available while searching:
-
-- `Match case` toggle case sensitive matching, but note that it can be overridden on a per-search basis using the `match-case:` and `ignore-case:` operators explained above.
-- `Explain search term` will show you what the search query actually does in plain terms.
-- `Collapse results` will toggle between just showing matching note names and showing the lines in which matches appear. These extended results can be toggled for each note by clicking on the folding triangle next to the file name.
-- `Show more context` will expand the display of the matches to show more text around the match.
-- `Change sort order` sorts the results by various orders, similar to how files are sorted in the [[File explorer]]
-
-### Copy search results
-
-To quickly and easily take your search results to a list, use the "copy search result" option.
-
-You can customize whether you want to show paths, which link style to use (wikilink or Markdown link), and how you want your list to appear.
-
-### Embed search results
-
-You can embed search results in a note.
-
-For example, if you write:
-
-<pre><code>```query
-embed OR search
-```</code></pre>
-
-You should see this embedded search view (note: it doesn't work on [[Obsidian Publish]] as of 2020/01/18):
-
-```query
-embed OR search
-```
