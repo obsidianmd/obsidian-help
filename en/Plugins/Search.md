@@ -41,7 +41,6 @@ To quickly and easily take your search results to a list, use the "copy search r
 
 You can customize whether you want to show paths, which link style to use (wikilink or Markdown link), and how you want your list to appear.
 
-
 ### Embed search results
 
 You can embed search results in a note.
