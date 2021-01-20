@@ -35,6 +35,13 @@ There are a couple of toggles available while searching:
 - `Show more context` will expand the display of the matches to show more text around the match.
 - `Change sort order` sorts the results by various orders, similar to how files are sorted in the [[File explorer]]
 
+### Copy search results
+
+To quickly and easily take your search results to a list, use the "copy search result" option.
+
+You can customize whether you want to show paths, which link style to use (wikilink or Markdown link), and how you want your list to appear.
+
+
 ### Embed search results
 
 You can embed search results in a note.
