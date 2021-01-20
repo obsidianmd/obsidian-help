@@ -62,7 +62,7 @@ To change the favicon of your site, you can upload `png` icons of any size in th
 
 ### Custom domain
 
-You can setup a custom domain or subdomain for your Obsidian Publish site. Currently, we don't yet have a way to provision SSL certificate on your behalf, so you need to resort to either an SSL enabled server of you own, or to setup your site on CloudFlare, which provides SSL for free.
+You can setup a custom domain or subdomain for your Obsidian Publish site. Currently, we don't yet have a way to provision SSL certificate on your behalf, so you need to resort to either an SSL-enabled server of your own, or to setup your site on CloudFlare, which provides SSL for free.
 
 You can also setup Obsidian Publish as a sub-URL of a site you own. For example, `https://my-site.com/my-notes/`. To achieve this, you must host your own server and proxy all requests to our server at `https://publish.obsidian.md/`.
 
