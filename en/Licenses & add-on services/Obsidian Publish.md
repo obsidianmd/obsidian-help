@@ -95,6 +95,19 @@ RewriteEngine  on
 RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/$1"  [P]
 ```
 
+If you're using Netlify, you can set it up as:
+```
+[[redirects]]
+  from = "https://my-domain.com/my-notes/*"
+  to = "https://publish.obsidian.md/serve?url=my-domain.com/my-notes/:splat"
+  status = 200
+  force = true
+```
+
+#### Custom domain post-setup issues
+
+Once you setup your custom domain, if you've visited your site from your previous `https://publish.obsidian.md/slug` link, you may have to clear your browser cache for certain things (like fonts, graphs, or password access) to work properly. This is due to the cross-domain security restrictions that are imposed by modern browsers. The good news is that readers of your site should never run into issue this if you only let visitors use your custom domain.
+
 ### Coming up
 
 Obsidian Publish is still in its early days. Here are some features we plan to add:
