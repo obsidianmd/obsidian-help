@@ -30,6 +30,7 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 - mafsi, (Patrick Danilevici) (Română)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
+- Daniel Mathiot (French)
 
 ### Builds
 
