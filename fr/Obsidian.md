@@ -60,4 +60,6 @@ Obsidian est en version beta à ce jour. Nous avons [une feuille de route](https
 Notre fil Twitter est [@obsdmd](https://twitter.com/obsdmd), il n'y a pas grand chose à consulter mais sentez-vous libres de nous suivre. Nous commencerons probablement à publier après la beta publique.
 
 La documentation Obsidian a été écrite par [@mediapathic](http://mediapathic.net) avec l'aide de @reggie ainsi que beaucoup de relectures des utilisateurs de discord et de la commmunauté du forum.
-La traduction française a été réalisée par Joffrey SCHROEDER et Olivier ANTHONIOZ en août 2020. 
+La traduction française a été réalisée par:
+- Joffrey SCHROEDER et Olivier ANTHONIOZ en août 2020. 
+- Daniel MATHIOT en janvier 2020. 
