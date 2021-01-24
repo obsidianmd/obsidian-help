@@ -51,12 +51,10 @@ On top of that, you can add isolated, independent building blocks to add feature
 
 We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
 
-We support [[Custom CSS]] and plan to open up a public plugin API after v1.0.0, which will enable even more interface customization and support less common use cases.
+We support [[Customizing CSS|custom CSS]] and have a [[Third-party plugins|beta plugin API]], which will enable even more interface customization and support less common use cases.
 
 ## Follow our development
 
-Obsidian is in private beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
+Obsidian is in public beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
 
 Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
-
-The Obsidian documentation was written by [@mediapathic](http://mediapathic.net), with a big help from @reggie, as well as the many eyes of the Discord and forum community. 

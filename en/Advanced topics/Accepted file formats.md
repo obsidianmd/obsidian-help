@@ -6,4 +6,4 @@ Obsidian recognizes the following file formats right now:
 4. Video files: `mp4`, `webm`, `ogv`;
 5. PDF files: `pdf`.
 
-Everything except for PDFs can be [[Embed files|embedded]].
+All these types of files can be [[Embed files|embedded]] in a note.

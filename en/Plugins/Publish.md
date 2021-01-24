@@ -26,6 +26,46 @@ With a fresh, empty site, all your notes will appear under the "New" section, me
 
 As you make changes to notes that have already been published, those changes will be automatically selected when you open the Publish plugin dialog. You may uncheck any files you wish not to publish to your site.
 
+### Change site options
+
+You can change various site options by clicking on the gear icon near your site name when in the "Publish changes" dialogue.
+
+#### Metadata
+
+In this section, you can set site name, home page file (the file visitors see when they land on your site), and manage custom domain (please see [[Obsidian Publish#Custom domain|this guide]] to set up your custom domain).
+
+#### Appearance
+
+Here you can change the theme between light and dark.
+
+If you want more customization, you can look into setting up [[Obsidian Publish#Custom CSS|custom CSS]] and [[Obsidian Publish#Favicon|favicon]].
+
+#### Reading experience
+
+In this section, you can:
+
+- Enable a special mode called "sliding windows" that looks like [Andy Matuschak's notes](https://notes.andymatuschak.org/);
+- Enable page preview on hover like when using [[Page preview]] plugin in the app;
+- Configure whether you want readable line length and strict line breaks.
+
+#### Components
+
+Your site comes with a few components that you can toggle on or off. These include:
+
+- File explorer (default on)
+- Local graph (default on)
+- Outline (default off)
+- Backlink at the bottom (default off)
+- Search bar (default off, requires file explorer)
+
+#### Security
+
+Here you can set passwords to protect your site. Once set, all visitors need to enter one of the passwords to enter your site.
+
+Multiple passwords facilitate sharing with multiple groups. When you no longer wish to share with one group of visitors, you can simply delete that password. Each password can be named for your convenience as well.
+
+As of 2021/01/20, all notes on your site are protected by the same set of passwords.
+
 ### Add linked notes
 
 The "Add linked" button allows you to include for publishing any notes in your vault that are referenced (linked to) by any currently selected notes. This is a good way to ensure there are no dead links on your published site.
