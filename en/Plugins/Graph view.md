@@ -15,9 +15,9 @@ Notes with more notes referencing it appear as bigger nodes on the graph.
 - To pan around, drag the background or use the keyboard arrow keys.
 - Hold `Shift` while navigating with the keyboard to speed things up.
 
-### [[Custom CSS]]
+### Custom CSS
 
-Since the graph is rendered using `<canvas>` and WebGL, CSS is unable to affect things like nodes and links. To customize graph view, we have provided a way to convert CSS colors into WebGL commands.
+Since the graph is rendered using `<canvas>` and WebGL, [[Customizing CSS|CSS]] is unable to affect things like nodes and links. To customize graph view, we have provided a way to convert CSS colors into WebGL commands.
 
 #### The following CSS classes are supported:
 
