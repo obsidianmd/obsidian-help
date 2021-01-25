@@ -18,7 +18,6 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 - [[Audio recorder]]
 - [[Tag pane]]
 - [[Command palette]]
-- [[Custom CSS]]
 - [[Daily notes]]
 - [[Zettelkasten prefixer]]
 - [[Markdown format converter]]
