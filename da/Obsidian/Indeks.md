@@ -1,36 +1,36 @@
-## About this site
-Welcome to Obsidian's official help vault! This page contains a quick index to the things that you may be interested in.
+## Om dette sted
+Velkommen til Obisidians officielle hjælpeboks. Denne side indeholder et kort indeks til de ting du måske kan være interesseret i.
 
-See public hosted version: https://publish.obsidian.md/help
+Se den officielle version på internettet her: https://publish.obsidian.md/help
 
-If you found mistakes or missing information, you can contribute to this site here: https://github.com/obsidianmd/obsidian-docs/
+Hvis du finder fejl eller manglende information, kan du bidrage med feedback her: https://github.com/obsidianmd/obsidian-docs/
 
-## Credits
+## Tak til
 
-[[Tak til|Our credits page]] lists all the amazing people who made Obsidian possible.
+Vores [[Tak til|'Tak til' side]] lister alle de fantastiske mennesker, som har gjort Obsidian mulig.
 
-To read more about the makers, see the [about page](https://obsidian.md/about) on our official website.
+For at læse mere om udviklerne, se [about](https://obsidian.md/about) siden vores officielle hjemmeside.
 
 ## Obsidian
 
-### About the app
+### Om applikationen
 
-- See [[Obsidian|our philosophy for the app]].
+- Læs [[Obsidian|vores filosofi omkring applikationen]].
 
-### Getting started
+### Kom godt i gang
 
-- Looking for some functionality? Try the  [[Kommandopalette]], which contains all available actions you need to work with Obsidian. Just press `Ctrl/Cmd-P` and start typing.
-- Learn our flavor of Markdown with [[Formater dine noter|how to format your notes]].
-- Check out some tips on [[Oprette noter|creating new notes]].
-- Check out some tips on [[Intern link|creating internal links]].
-- Learn how to [[Indlejer filer|embed other notes or attachments]].
-- See the [[Tastaturgenveje|default keyboard shortcuts]].
+- Søger du information om funktionalitet? Læs om [[Kommandopalette|kommandopaletten]], som indeholder alle tilgængelige funktioner, som du kan anvende med Obsidian. Tryk  `Ctrl/Cmd-P` og begynd på at skrive.
+- Lær vores udgave af Markdown, så du kan [[Formater dine noter|formatere dine noter]].
+- Få nogle tips til at [[Oprette noter|oprette nye noter]].
+- Få nogle tips til at [[Intern link|oprette interne links]].
+- Lær at [[Indlejer filer|indlejre andre noter eller vedhæftninger]].
+- Se standard [[Tastaturgenveje|tastaturgenveje]].
 
-### Official plugins
+### Officielle plug-ins
 
 ![[Plug-in liste#Current list of official plugins]]
 
-### Advanced guides
+### Avancerede guider
 
 - [[Arbejde med tags]]
 - [[Arbejde med backlinks]]

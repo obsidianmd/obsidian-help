@@ -1,28 +1,28 @@
-## What is Obsidian
+## Hvad er Obsidian
 
-Obsidian is a both a Markdown editor and a knowledge base app.
+Obsidian er både en Markdown editor og en videnbase applikation.
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing densely networked knowledge base.
+Brugt på den mest basale måde, kan du redigere og forhåndsvise Markdown filer. Men den 
 
-How do we start creating a network, you ask? Let's first start making some [[Intern link|internal links]]!
+Hvordan starter vi med at skabe et netværk, kan du måske tænke? Lad os først oprette nogle [[Intern link|interne links]]!
 
-## How we're different
+## Hvordan vi adskiller os fra andre
 
-==*We want you to own and control your data*==
+==*Vi vil have dig til at eje og kontrollere dine egne data*==
 
-We believe in plain text for something as important as your knowledge base. You don't want to put your own brain over someone else's neck, do you? Treat your second brain the same way.
+Vi tror på, at almindelig tekst er noget, som er meget vigtigt for din videnbase. Du ønsker vel ikke at sætte din egen hjerne over i en andens hoved. Behandl din anden hjerne på samme måde.
 
-Sync is only a utility to facilitate working on multiple devices, the data will always primarily live on your hard disk.
+Sync er kun en tilføjelsesservice som faciliterer, at du kan arbejde på flere enheder, men dine data vil altid primært ligge på din harddisk.
 
-When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
+Når filsystemet erstatter skyen, får du fleksible måder at arbejde med dine filer på: Du kan lave backup med Dropbox, benytte Git til versionering, eller kryptere din disk. Hvad der virker i dit filsystem, vil virke i din Obsidian videnbase.
 
-==*Links are first-class citizens*==
+==*Links er førsteklasses borgere*==
 
-Links and connections are crucial to discovering the relations between what we know.
+Links og forbindelser er afgørende for at opdage relationerne mellem det, vi ved.
 
-Obsidian greatly values this, and encourages it with [[Intern link]] and [[Grafvisning]], among other things.
+Obsidian har fokus på det og opfordrer til den type brug med blandt andet [[Intern link|interne links]] og [[Grafvisning]].
 
-As John Locke puts it...
+Som John Locke udtrykker det...
 
 > The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:
 > 1. Combining several simple ideas into one compound one, and thus all complex ideas are made.
@@ -31,30 +31,28 @@ As John Locke puts it...
 
  \- John Locke, An Essay Concerning Human Understanding (1690)
  
-Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
+Hierarki give os nr. 1 og linking giver os nr. 2. Vi er ikke sikre på hvad nr. 3 dækker over i forbindelse med notetagning, men det kan måske have noget, at gøre med programmering eller makroer.
 
-==*Your own toolkit*==
+==*Din egen værktøjskasse*==
 
-Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
+At tage noter er en meget personlig aktivitet. Naturligvis er der ingen enkelt altomfattende løsning for alle.
 
-Instead of providing you with an opinionated and assembled product, [[Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+I stedet for at stille dig et samlet produkt med en bestemt opfattelse af notetagning til rådighed, giver [[Obsidian]] dig et fundament og talrige funktionelle byggeklodser til rådighed, som du kan udforske og derved bygge din egen løsning.
 
-The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
+Fundamentet er at have mulighed for at vise filer, redigere dem og søge i dem. For den minimalistiske person er det nok.
 
-On top of that, you can add isolated, independent building blocks to add features to your note-taking:
+Udover det kan du tilføje isolerede uafhængige bygeklodser som tilføjer funktioner til din notetagning:
 
-- If you're taking class notes, [[Lyd optager]] and LaTeX math might be useful;
+- Hvis du tager noter i klassen kan [[Lyd optager|lydoptagelser]] og LaTeX math måske være brugbart;
+- Hvis du tager noter på arbejde kan [[Slides]] og [[Tilbagelinks]] måske være praktiske;
+- Hvis du er forsker kan [[Grafvisning]] og [[Ordtæller]] måske være en nødvendighed i din værktøjskasse.
 
-- If you're taking work notes, [[Slides]] and [[Tilbagelinks]] may come in handy;
+Vi forventer ikke at plug-ins er løsningen til at løse alle problemer, men det får os tættere på, end en monolitisk løsning med en masse funktioner, som du ikke behøver og som gør det uoverskueligt i brug.
 
-- If you're a researcher, [[Grafvisning]] and [[Ordtæller]] might be essential to your toolkit.
+Vi understøtter [[Tilpas med CSS|brugerdefineret CSS]] og har et [[Fællesskabsplug-ins|beta plugin API]], som tillader endnu flere tilpasninger af brugerfladen og support for andre mindre anvendte funktioner.
 
-We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
+## Følg vores udvikling
 
-We support [[Tilpas med CSS|custom CSS]] and have a [[Fællesskabsplug-ins|beta plugin API]], which will enable even more interface customization and support less common use cases.
+Obsidian er i offentlig beta lige nu. Vi har en [projektplan](https://trello.com/b/Psqfqp7I/obsidian-roadmap), som du kan tjekke ud.
 
-## Follow our development
-
-Obsidian is in public beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
-
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
+Vores Twitter brugernavn er [@obsdmd](https://twitter.com/obsdmd). Du er velkommen til at følge os. Vi tweeter mest om produktopdateringer.

@@ -1,11 +1,11 @@
-Names are not listed by amount of contribution, but alphabetically (or at least we try!).
+Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver i det mindste på det!).
 
-### Dev team
+### Udviklingsteamet
 
 - Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
 - Silver (Erica Xu)<span class='flair mod-pop'>Team Little Silvers</span>
 
-### Moderators
+### Moderatorer
 
 - anthonyg ([Anthony Gold](https://www.anthonypgold.com/))<span class='flair mod-pop' style='background-color:#F1C40F;color:#000;'>Team Gold</span><span class='flair mod-pop'>Think Tank</span>
 - argentum<span class='flair mod-pop'>Team Little Silvers</span><span class='flair mod-pop'>Linux master</span><span class='flair mod-pop'>Zotero master</span>
@@ -21,31 +21,31 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 - WhiteNoise<span class='flair mod-pop'>Think Tank</span><span class='flair mod-pop'>Zotero master</span><span class='flair mod-pop'>Bug report exterminator</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span><span class='flair mod-pop'>Easily triggered</span><span class='flair mod-pop'>Good and pure</span><span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
 
-### Translators
+### Oversættere
 
 - Andrea Brandi (Italian)
 - canzi-teacher, 蚕子 (Chinese Simplified)
+- Daniel Mathiot (French)
 - Henrik Falk (Dansk)
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
-- Daniel Mathiot (French)
 
 ### Builds
 
-- jstone for maintaining our builds on flathub
-- adamgibbins and ran-dall for maintaining our builds on homebrew
+- jstone for at vedligeholde vores builds på flathub
+- adamgibbins ogran-dall for at vedligeholde vores builds på homebrew
 
-### Documentation
+### Dokumentation
 
-The first version of the help vault was written by Silver. Later part of it was written by [@mediapathic](http://mediapathic.net), with a big help from Reggie. We also got corrections from the many pairs of eyes in the Discord and forum community.
+Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser er skrevet af [@mediapathic](http://mediapathic.net), med stor hjælp fra Reggie. Vi har også fået rettelser fra dem mange øjne på Discord og i forumfællesskabet.
 
-We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/).
+Vi accepterer nu "pull requests" af hjælpeboksen in [vores dokumentations repository](https://github.com/obsidianmd/obsidian-docs/).
 
-##### Add your name
+##### Tilføj dit navn
 
-If you're a translator, please make a pull request to add "Your Name (contributed language)" to the section above. Please keep the list of names alphabetical, thanks!
+Hvis du er oversætte, så lav en "pull request" og tilføj "Dit navn (navnet på det sproget)" til sektionen ovenfor. Prøv at holde navnelisten alfabetisk, tak!
 
-If your name is not in English and can't be alphabetically listed, use this format: `your-github-username, [your name in your language] (Language name)`.
+Hvis dit navn ikke er på engelsk eller kan listes alfabetisk, så benyt formatet: `dit-github-brugernavn, [Dit navn p ådit sprog] (Navn på sprog)`.
