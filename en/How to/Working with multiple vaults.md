@@ -11,3 +11,9 @@ You have the option to either open an existing folder of markdown files, create 
 [[Internal link|Internal Links]] are not shared across Vaults. If you have one Vault inside another Vault, this can get confusing, so we recommend not doing that.
 
 Always remember, a Vault is just a collection of markdown files. You can use whatever file management techniques you would normally to move them around on your file system, and Obsidian will automatically refresh to keep up.
+
+### Transfer settings between vaults
+
+All settings, themes, and plugins are stored in the `.obsidian` folder under your vault. If you copy this folder from one vault to another, all the settings will be transferred as well. You may need to restart Obsidian for all of the settings to take effect.
+
+This folder is hidden in some operating systems. Notably, you can use `Cmd-Shift-Period` to show hidden files on macOS in order to reveal the `.obsidian` folder.
