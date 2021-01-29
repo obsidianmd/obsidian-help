@@ -3,9 +3,9 @@
 目前为止，你可以进行以下转换：
 
 - Roam 的 #标签 转换为 Obsidian 的 [[标签]]
-- Roam 的`^^高亮^^` 转换为 Obsidian 的 `==高亮==`
+- Roam 的 `^^高亮^^` 转换为 Obsidian 的 `==高亮==`
 - Zettelkasten 的 `[[UID]]` 链接转换为完整的链接 `[[UID 文件名]]`
-- Zettelkasten 的`[[UID]]` 链接转换为更易阅读的 `[[UID 文件名|文件名]]`链接，这种链接在 Obsidian 中会直接显示为 `文件名`
+- Zettelkasten 的 `[[UID]]` 链接转换为更易阅读的 `[[UID 文件名|文件名]]` 链接，这种链接在 Obsidian 中会直接显示为 `文件名`
 
 ---
 
