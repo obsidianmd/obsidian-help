@@ -8,8 +8,6 @@ You can embed attachment files like images or audio in your notes. Use the `![[f
 
 You can embed a PDF file in your notes with the same syntax. Additionally, you can write `![[My File.pdf#page=number]]` to open to that specific page of the PDF directly.
 
-If you drag and drop an image it will be copied to your default attachment directory. The image is there as a normal file and can still be accessed through the file system. You can define the directory that images will be saved to by right clicking on it in the File explorer, and finding that option on the context menu. 
-
 ### Embed notes
 
 You can embed a note also, with the same syntax:
