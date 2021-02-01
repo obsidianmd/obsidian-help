@@ -1,53 +1,53 @@
-You can edit and view multiple files in Obsidian.
+Du kan redigere og vise flere filer på en gang i Obsidian.
 
-To effectively use split view, you only need to know a few things:
+For effektivt at anvende opdelt skærmbillede skal du kun vide nogle få ting:
 
-##### 1. ==Use Ctrl/Cmd key== when you want to open things in a new pane.
 
-By default, when you click something, it will open in the active pane. The active pane is marked with highlighted bar under the title, and its title is more visible than the inactive panes.
+##### 1. ==Brug Ctrl/Cmd tasten== når du vil åbne ting i et nyt panel.
 
-To open files in new panes, hold down `Ctrl/Cmd` while you click in Preview mode (`Shift + Ctrl/Cmd` in Edit mode). This applies to a number of places, including [[Stifinder]], [[Tilbagelinks]] (both links and unlinked mentions), [[Søg]] results, and [[Grafvisning]]. It also applies to buttons; instead of previewing in the current pane, you can `Cmd+click` the preview button to preview in a new pane. When using the Quick Switcher, holding down `Cmd/Ctrl`when hitting `Enter` will open in a new pane. 
+Når du klikker på noget vil det åbne som standard i det aktive panel. Det aktive panel er markeret med en fremhævet bjælke under panelets titel og titlen er mere synlig end i de inaktive paneler.
+
+For at åbne filer i nye paneler skal du holde `Ctrl/Cmd` nede mens du klikker i forhåndsvisningstilstand (`Shift + Ctrl/Cmd` i redigeringstilstand).  Det gælder flere steder, inklusiv [[Stifinder]], [[Tilbagelinks]] (både links og ikke-linkede nævnelser), [[Søg|Søgeresulater]], og [[Grafvisning]]. Det gælder også knapper; i stedet for at forhåndsvise i det nuværende panel, kan du trykke `Cmd+click`på knappen for at forhåndsvise i et nyt panel. Når du benytter hurtigskifteren vil der blive åbnet et nyt panel, hvis du holder `Cmd/Ctrl` nede og trykker `Enter`.
 
 ---
 
-##### 2. You can also create new panes by ==splitting==.
+##### 2. Du kan også oprette ny paneler ved at ==splitte==.
 
-To create other layouts, you can split the current pane in half either horizontally or vertically. Do this with the menu at the top right of the pane, use the command palette, or set a [[Tastaturgenveje]].
+For at oprette andre layouts kan du splitte det nuværende panel i to, enten vandret eller lodret. For at gøre dette skal du enten benytte menuen øverst til højre på panelet, benytte komanndopaletten eller oprette en [[Tastaturgenveje|Tastaturgenvej]].
 
 ![[Pasted image 16.png]]
 
 ---
 
-##### 3. If you want a sticky pane that does not get replaced even when it's active, ==pin it==.
+##### 3. Hvis du vil have et fastgjort panel som ikke bliver erstattet, når det er aktivt, så ==fastgør det==.
 
-This is great if you're working on something and want to use the other panes as temporary reference panes. Pin it to make sure it never gets replaced.
+Dette er godt, hvis du arbejder på et eller andet og vil benytte de andre paneler som midlertidige referencepaneler. Fastgør panelet for at sikre, at det ikke bliver erstattet.
 
 ![[Pasted image 17.png]]
 
-Pinned panes will have a highlighted pin icon instead of a grey one.
+Fastgjorte paneler vil have et fremhævet nåle icon i stedet for et, der er grået ud.
 
 ---
 
-##### 4. Use ==[[Linked panes]]== for previewing.
+##### 4. Benyt ==sammenkædede paneler== for at forhåndsvise.
 
-When creating [[Linked panes]], `Ctrl/Cmd+click` the preview or edit button when a Markdown file is open.
+Når du opretter [[Sammenkædede paneler]], tryk `Ctrl/Cmd+click`  og derefter på forhåndvis eller rediger knappen, når en markdownfil er åben.
 
-When linked to another pane, the panes' scroll position will be synced, and if you open a file in one pane, the other pane will open the same file.
+Når et panel er linket til et andet, så vil positionen i indholdet blive synkroniseret, og hvis du åbner en fil i et panel vil det andet panel åbne den samme fil.
 
-[[Linked panes]] will be marked with a link icon. You can hover the link to see which pane it's linked to, or click the icon to release it, so that they are no longer linked.
+[[Sammenkædede paneler]] markeres med et link icon. Du kan flytte musemarkøren over linket og se hvilket panel, som det er linket til, eller klikke på iconet for at frigøre det, så panelet ikke længere er linket.
 
-For more information see [[Linked panes]].
+Se mere information her: [[Sammenkædede paneler]].
 
 ![[Pasted image 18.png]]
 
-##### 5. Panes can be ==rearranged by dragging==.
+##### 5. Paneler kan  ==omarrangeres ved at trække dem rundt==.
 
-Grab the icon in the upper left corner to arrange them however you need. For detailed information, see [[Rude layout]].
+Grib iconet i øverste venstre hjørne for at flytte panelet derhen, hvor du vil have det. Det gøres ved, at du fører musemarkøren op i øverste hjørne, så der dukker en hånd op. Tryk og hold venstre musetast nede indtil du har fundet det sted du vil flytte panelet til. Se mere detaljeret information her: [[Panel layout]].
 
 ---
 
-Useful tips:
+Nyttige tips:
 
-1. You can resize the panes however you want, by dragging the resize handle that's between each pane.
-
-2. Your file layout, including their sizes, will be remembered when you close the app, so don't worry about having to set them up every time you open the app!
+1. Du kan tilpasse størrelsen af panelerne som du ønsker ved at trække i tilpasningshåndtaget, som er mellem hver panel.
+2. Dit fillayout, inklusiv størrelserne vil blive husket, når du lukker applikationen, så du behøver ikke bekymre dig om at skulle sætte dem op, hver gang du åbner applikationen!

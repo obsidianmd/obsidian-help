@@ -33,9 +33,10 @@ For at læse mere om udviklerne, se [about](https://obsidian.md/about) siden vor
 ### Avancerede guider
 
 - [[Arbejde med tags]]
-- [[Arbejde med backlinks]]
+- [[Arbejde med tilbagelinks]]
 - [[Arbejde med flere noter]]
-- [[Rude layout]]
+- [[Panel layout]]
 - [[Arbejde med flere bokse]]
 - [[Arbejde med flere markører]]
 - [[Brug af obsidian URI]]
+

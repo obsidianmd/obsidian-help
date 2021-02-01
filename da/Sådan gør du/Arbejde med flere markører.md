@@ -1,3 +1,3 @@
-If you hold down `Alt` (`option` on mac) and click, you can create multiple cursors. This can be useful when modifying a lot of lines in the same way, for example putting `-` at the beginning of multiple lines to turn them into a list, or appending `[[` to a series of links you've copied from elsewhere. 
+Hvis du holder  `Alt` (`option` på mac) nede og klikker, kan du lave flere markører. Dette kan være brugbart, hvis du skal ændre mange linjer på den samme måde, f.eks. at putte `-` i begyndelsen af flere linjer for at gøre dem ti len liste, eller vedhæfte `[[`  til en serie links, som du har kopieret et andet sted fra.
 
-To cancel multiple cursors, either click somewhere in the note (without a modifier key), or hit escape. 
+For at annullere flere markører kan du klikke et andet sted i noten (uden en ændringstast ) eller tryk på escape knappen.

@@ -1,19 +1,19 @@
-Each collection of notes in Obsidian is known as a Vault. A Vault consists of a folder, and any sub-folders within it. Right now, you're looking at the `Obsidian Help` Vault, which is just a folder of files included with Obsidian.
+Hver samling af noter i Obsidian er kendt om en Boks. En Boks består af en mappe, og alle undermapper i den. Lige nu kigger du på `Obsidian Hjælp` Boksen, som bare er en mappe med filer inkluderet i Obsidian.
 
-You can open another Vault anywhere on your computer, and it will retain its own individual [[Plug-in liste|Plugins]] and [[Tilføj brugerdefinerede temaer|custom styling]]. This is useful, for example, if you have one Vault where you keep notes but a different one in which you do long-form writing.
+Du kan åbne en anden Boks hvor somhelst å"din computer, og den vil beholde sin egne individuelle [[Plug-in liste]] og [[Tilføj brugerdefinerede temaer|brugerdefinerede temaer]]. Det er brugbart, hvis du f.eks. har en Boks, hvor du gemmer noter og en anden, hvor du skriver længere tekster.
 
-A new or existing Vault can be opened from the button just above the Settings gear.
+En ny eller eksisterende Boks kan åbnes via tryk på knappen lige over Instillingsknappen.
 
 ![[Vault picker.png]]
 
-You have the option to either open an existing folder of markdown files, create a new vault (which essentially just creates a new folder that you will put markdown files into), or opening a special vault containing these help files. The Help Vault is stored in a special Obsidian directory (see [[Hvordan Obsidian gemmer data]]), but aside from that, it's a directory of files just like any other.
+Du har mulighed for at åbne en eksterende mappe med markdown filer, oprette en ny boks (som egentlig bare opretter en ny mappe, hvor du kan gemme markdown filer i), eller åbne en speciel boks, som indeholder denne her hjælp. Hjælpe Boksen er gemt i en specielt Obsidian mappe (Se: [[Hvordan Obsidian gemmer data]]), men udover det, så er det en mappe ligesom alle andre mapper.
 
-[[Intern link|Internal Links]] are not shared across Vaults. If you have one Vault inside another Vault, this can get confusing, so we recommend not doing that.
+[[Intern link|Interne links]] er ikke delt på tværs af Bokse. Hvis du har en Boks inden i en anden Boks, kan det blive forvirrende, så det anbefaler vi ikke.
 
-Always remember, a Vault is just a collection of markdown files. You can use whatever file management techniques you would normally to move them around on your file system, and Obsidian will automatically refresh to keep up.
+Husk altid, at en Boks bare er en samling af markdown filer. Du kan benytte enhver filhåndteringsteknik, som du normalt ville gøre for at flytte filer rundt i dit filsystem, og Obsidian vil automatisk være opdateret, så du kan fortsætte dit arbejde.
 
-### Transfer settings between vaults
+### Flytning af indstillinger mellem bokse
 
-All settings, themes, and plugins are stored in the `.obsidian` folder under your vault. If you copy this folder from one vault to another, all the settings will be transferred as well. You may need to restart Obsidian for all of the settings to take effect.
+Alle indstillinger, temaer og plug-ins er gem i `.obsidian` mappen i din boks. Hvis du kopiere denne mappe fra en boks til en anden, vil alle indstillinger også blive overført. Du bliver nødt til at genstarte Obsidian for at alle indstillinger tager effekt.
 
-This folder is hidden in some operating systems. Notably, you can use `Cmd-Shift-Period` to show hidden files on macOS in order to reveal the `.obsidian` folder.
+Denne mappe er skjult på nogle operativ systemer. På macOS kan du benytte `Cmd-Shift-Period` for at vise skjulte filer, så du kan se `.obsidian` mappen.
