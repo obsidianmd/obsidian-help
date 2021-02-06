@@ -1,14 +1,14 @@
-### Copy and paste
+### Kopier og indsæt
 
-When you see something useful online, you can simply select the text, copy, and pate in Obsidian. Obsidian will try to convert it into proper Markdown so that it fits right in.
+Når du ser noget brugbart på internettet kan du bare vælge teksten og kopiere det og indsætte det i Obsidian. Obsidian vil prøve at konvertere det til korrekt Markdown, så det ser ordentlig ud.
 
-If you only wish to copy the text without the formatting, please use `Ctrl-Shift-V` on Windows and Linux and `Cmd-Shift-V` on macOS to do so.
+Hvis du kun vil kopiere teksten uden formattering, så benyt `Ctrl-Shift-V` på Linux og Windows og `Cmd-Shift-V` på macOS.
 
-### Use a clipper extension
+### Benyt en klipper udvidelse
 
-Because Obsidian accepts any Markdown file, you can clip entire web pages by clipping to Markdown files and downloading them into your vault.
+Da Obsidian accepterer enhver Markdown fil, kan du klippe hele wesider ved at klippe den til Markdown filer og downloade dem til din boks.
 
-death_au's "MarkDownload" browser extension works well for this purpose. You can get it for:
+death_au's "MarkDownload" browser udvidelsen virker fint til dette formål. Du kan hente den til:
 
 - [Google Chrome](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi)
 - [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/markdownload/)

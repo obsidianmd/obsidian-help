@@ -1,4 +1,4 @@
-Shows a graph representation of the [[Intern link|internal links]] between your notes.
+Shows a graph representation of the [[Interne links|internal links]] between your notes.
 
 Notes with more notes referencing it appear as bigger nodes on the graph.
 

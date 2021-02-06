@@ -6,7 +6,7 @@ When clicking on a tag, a search for the tag is activated. To ==toggle a tag== i
 
 The tags are sorted from mostly frequently used to least frequently used. You can change the sort order to alphabetical or reverse it.
 
-### Nested tags
+### Indlejrede tags
 
 If you write your tags like `#inbox/to-read` and `#inbox/processing`, you can enable "show nested tags" to view them as a tree instead of a flat list.
 

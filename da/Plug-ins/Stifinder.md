@@ -1,4 +1,4 @@
-The File explorer shows [[Accepterede filformater|the list of files Obsidian can recognize]] in your vault. You can open notes, [[Oprette noter]] and folders, and [[Omdøbe noter]] in it. Right clicking on a note or directory in the File explorer will bring up appropriate options, such as renaming or making a copy. This is also the best way to set your default folder for when you [[Indlejer filer]].
+The File explorer shows [[Accepterede filformater|the list of files Obsidian can recognize]] in your vault. You can open notes, [[Oprette noter]] and folders, and [[Omdøbe noter]] in it. Right clicking on a note or directory in the File explorer will bring up appropriate options, such as renaming or making a copy. This is also the best way to set your default folder for when you [[Indlejre filer]].
 
 It's one of the crucial plugins that we recommend you to keep enabled.
 

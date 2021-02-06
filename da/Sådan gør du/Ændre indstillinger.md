@@ -1,4 +1,4 @@
-The settings can be found by clicking the gear in the bottom left corner, or by hitting `Ctrl/Cmd-,`. Most of them are fairly self-explanatory, but here are some notes that might be helpful.
+Indstillingerne kan findes ved at klikke på tandhjulsikonet i nederste venstre hjørne, eller ved at trykke `Ctrl/Cmd-,`. De fleste indstillinger er rimelig selvforklarende, men der er nogle beskrivelser, som kan være til hjælp.
 
-- Most of the settings are toggle switches. If there are more details to a setting, it may have a gear next to the switch for additional settings. For example, the gear next to Spell Check reveals the custom dictionary, so you can remove words you may have accidentally added.
-- Enabling plugins will cause their settings to appear in the list of tabs. For example, if you have the Daily Note plugin enabled, a setting tab will appear that allows you to further configure it.
+- De fleste indstillinger har slå til/fra-knapper. Hvis der er flere detaljer til en indstilling, har mange et tandhjulsikon ved siden af til yderligere indstillinger. F.eks. er der et sådant ved siden af stavekontrol til/fra-knappen, som viser den brugerdefinerede ordbog, så du kan fjerne ord, du ved en fejl har tilføjet. (Note: Virker ikke i nuværende version af Obsidian)
+- Når plug-ins aktiveres vil deres indstillinger, hvis de har det, blive vist som en fane i indstillingerne nederst under "PLUG-IN INDSTILLINGER". F.eks. hvis du har "Daily Note" aktiveret vil der være en indstillingsfane, hvor du kan konfigurere plug-in'et.

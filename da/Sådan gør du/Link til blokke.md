@@ -1,39 +1,40 @@
-In Obsidian 0.9.5 or higher, in addition to [[Intern link#Link to headings|linking to headings]], you can also link to blocks.
+I Obsidian version 0.9.5 eller nyere kan du også linke til blokke udover at [[Interne links#Links til overskrifter|linke til overskrifter]].
 
-### What is a block
+### Hvad er en blok
 
-A "block" can be a paragraph, a blockquote, a list item, etc. In general, anything that has empty lines before and after is a block. ^dcf64c
+En "blok" kan være et afsnit, blokcitater, en liste osv. Generelt er alt, som har tomme linjer før og efter en blok. ^dcf64c
 
-### Link to blocks
+### Link til blokke
 
-To link to a block in a specific file, first type `[[filename` to bring up a list of matched files. After selecting a file, type `^` and continue typing to search for blocks to link to.
+For at linke til en blok i en specifik fil, tast først  `[[filnavn` for at få en liste med matchende filer. Efter at have valgt en fil, tast `^`  og fortsæt med at taste for at finde den blok du vil linke til.
 
-Once you hit enter, a link to that block will be generated for you, in the format similar to `[[filename#^dcf64c]]`, where `dcf64c` is the block ID that was just generated for you.
+Når du trykker enter, vil der blive genereret et link i et format magen til `[[filnavn#^dcf64c]]`, hvor `dcf64c`  er det blok ID, som er genereret til dig.
 
-If you're not sure which file the block is in, another method is to type `[[^^` and search for blocks in all files. This will search through all the blocks in your vault, so expect a bit of delay if your vault is large.
+Hvis du ikke ved hvilken fil, blokken er i, er en anden metode at taste `[[^^`  og søge efter blokke i alle filer. Dette vi lsøge gennem alle dine blokke i din boks, så forvent en smule forsinkelse, hvis din boks indeholder mange noter. ^368d4a
 
-For example, [[Link til blokke#^dcf64c]] is a link to a block above.
+For eksempel [[Link til blokke#^368d4a]] er et link til blokken ovenfor.
 
-### Embed or transclude blocks
+### Indlejre blokke
 
-Similar to [[Indlejer filer|files embeds]], you can simply use `!` in front of a block link to embed it.
+På samme måde som at [[Indlejre filer|indlejre filer]] kan du benytte `!` foran et bloklink for at indlejre en blok.
 
-Here's an example:
+Her er et eksempel:
 
 ![[Link til blokke#^dcf64c]]
 
-### Manual block IDs
+### Manuelle blok ID'er
 
-If you want human readable block IDs, you can manually put `^your-id` after a block. Make sure there's at least one space if you're putting the ID at end of a line.
+Hvis du vil have læsbare blok ID'er, kan du manuelt tilføje `^dit-id` efter en blok.
+Sørg for at der er mindst et mellemrum, hvis du tilføjer ID'et i slutningen af linjen.
 
-To refer to complex blocks like tables, put the block ID on its own after the block, and make sure there is an empty line both before and after the block ID.
+For at referere til komplekste blokke, som f.eks. tabeller, så tilføj blok ID'et efter blokken og sørg for at der er en tom linje før og efter blok ID'et.
 
-After you add the block ID manually, when you refer to that block, `your-id` will be used instead of a randomly generated block ID.
+Efter du har tilføjet dit blok ID manuelt, vil `dit-id` blive benyttet i stedet for et tilfældigt genereret ID, når du refererer til denne blok.
 
-Note that only letters, numbers, and dashes are allowed in manual block IDs.
+Bemærk at kun bogstaver, tal og bindestreger er tilladte i manuelle block ID'er.
 
-### Interoperability
+### Interoperabilitet
 
-Please be aware that block reference is not part of standard Markdown, but rather Obsidian's specific flavor of Markdown. That means these links will not work outside of Obsidian.
+Vær opmærksom på, at blok referencer er ikke en del af standard Markdown syntaks, men en speciel Obsidian udgave af Markdown. Det betyder at disse links ikke vi lvirke udenfor Obsidian.
 
-You can still find referenced block by searching for the block ID, although that's a rather manual process. The connection is not lost as long as you have software that can search in a folder.
+Du kan stadig finde refererede blokke ved at søge på blok ID'et, men det er en ret manuel proces. Forbindelsen bliver ikke afbrudt så længe du har software, der kan søge i en mappe på din computer.

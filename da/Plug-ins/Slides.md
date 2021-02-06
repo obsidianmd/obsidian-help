@@ -10,4 +10,4 @@ Slides lets you do simple presentations right inside Obsidian.
 
 ### Demo
 
-Check out the demo document: [[Slides demo]]
+Check out the demo document: [[Slide demo]]

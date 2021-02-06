@@ -1,37 +1,37 @@
-When you want to add custom styles to your vault, there are two main ways to do this:
+Hvis du vil tilføje brugerdefinerede typografier eller temaer til din boks, er der to måder at gøre det på:
 
-## Vault styles
+## Boks typografier
 
-### Themes
+### Temaer
 
-Themes allow you to toggle the appearance of your vault with a dropdown menu once they have been added to your vault's theme directory.
+Temaer tillader dig at skifte udseendet af din boks via en rullemenu, når de er tilføjet til din temamappe i din boks.
 
-This configuration can be found in `Settings` > `Appearance` > `Themes` section of your vault settings.
+Denne konfiguration kan findes i sektionen "Indstillinger -> Udseende -> Temaer" i dine boks indstillinger.
 
-### Create a custom theme
+### Oprette et brugerdefineret tema
 
-If you are creating your own theme, you can do this by:
+Hvis du vil oprette dit eget tema, kan du gøre det sådan:
 
-1. Creating your custom theme CSS file in the themes directory `YOUR_VAULT/.obsidian/themes/YOUR_CUSTOM_THEME.css`
-2. Enabling it in the theme dropdown under `Settings` > `Appearance` > `Themes`
+1. Opret din tema CSS fil i boksens tema mappe `DIN_BOKS/.obsidian/themes/DIT_BRUGERDEFINEREDE_TEMA.css`
+2. Aktiver dit tema i rullemenuen i sektionen "Indstillinger -> Udseende -> Temaer" i dine boks indstillinger.
 
-For more information on how to customize styles of the graph, you can find more information in [[Grafvisning]].
+Ønsker du mere information om at tilpasse grafens udseende, så kan du finde den her: [[Grafvisning]].
 
-### Use 'obsidian.css'
+### Benyt 'obsidian.css'
 
-> This is currently marked as a legacy setting.
+> Dette er for nuværende markeret som en ældre indstilling
 
-This configuration can be found in `Settings` > `Appearance` > `Apply custom CSS` as a toggle in your vault settings.
+Denne konfiguration kan findes i dine boksindstillinger under "Indstillinger -> Udseende -> Anvend brugerdefineret CSS" og kan aktiveres eller deaktiveres .
 
-## Obsidian Publish styles
+## Obsidian Publish typografier
 
-At this time, [[Obsidian Publish]] is unable to automatically detect the vault's configured [[Tilføj brugerdefinerede temaer#Themes|theme]] and publish the respective styles. 
+På nuværende tidspunkt er [[Obsidian Publish]] ikke i stand til automatisk at detektere din boks konfigurerede [[Tilføj brugerdefinerede temaer#Temaer|temaer]] og publicerede de respektive typer.
 
-A workaround for this limitation is to:
+En løsning for denne begræsning er:
 
-1. Go into `YOUR_VAULT/.obsidian/themes/CURRENT_THEME_FOLDER`;
-2. Copy the primary CSS file `CURRENT_THEME.css` in the folder;
-3. Paste it in the root directory of your vault (`YOUR_VAULT`);
-4. Rename the CSS file as `publish.css`;
-5. In the publish plugin, upload the `publish.css` file;
-6. If your CSS doesn't take effect in a few minutes, try refreshing the browser cache as the stale CSS might have been cached.
+1. Gå ind i `DIN_BOKS/.obsidian/themes/NUVÆRENDE_TEMA_MAPPE`;
+2. Kopier den primære CSS `NUVÆRENDE_TEMA.css` fil i mappen; 
+3. Indsæt filen i din boks rodmappe (`DIN_BOKS`);
+4. Omdøb CCS filen til  `publish.css`;
+5. Upload `publish.css` filen med Obsidian Publish;
+6. Hvis dit CSS ikke tager effekt i løbet af et par minutter, så prøv at opfriske din browsers cache, da den forældede CSS kan være cachet.

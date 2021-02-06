@@ -1,39 +1,38 @@
 ---
 aliases: alias, aliases
 ---
+Nogle gange har du møske brug for at referere til den samme fil ved hjælp af flere navne i forskelige kontekster. Disse alternative navne kaldes "aliasser".
 
-Sometimes, you might want to refer to the same file with multiple names in different contexts. These alternative names are what we call "aliases".
+F.eks. vil du gerne referere til din partner med deres fulde navn, fornavn eller kaldenavn. Eller du vil refererer til "kunstig intelligens" med forkortelsen "AI". Hvis du benytter flere sprog, vil du måsker gerne referere til det samme koncept med dets navn på samme sprig, som resten af noten er i.
 
-For example, you might want to refer to your partner by their full name, first name, or a nickname. Or you might want to refer to "artificial intelligence" by its abbreviation "AI". If you know multiple languages, you may want to refer to the same concept with their name in the same language that the rest of the note is written in.
+### Sæt aliasser
 
-### Set aliases
-
-Starting in 0.9.16, you're able to specify the "aliases" property in a note's [[YAML markdown metadata]] like so:
+Begyndende med Obsidian v0.9.16 er det muligt at specificere "alias" egenskaben i en notes [[YAML markdown metadata]] på denne måde:
 
 ```
 ---
-aliases: [AI, Artificial Intelligence]
+aliases: [AI, Kunstig intelligens]
 ---
 ```
 
-Please note that this section must be placed at the very top of a note to take effect.
+Bemærk at denne sektion skal placeres helt i begyndelsen af en note for at det tager effekt.
 
-In the future, we'll consider more user-friendly ways to manage aliases than manually writing them in front matter.
+I fremtiden overvejer vi mere brugervenlige måder a håndtere aliasser en ved at skrive dem manuelt i begyndelsen af noten.
 
-### Link with aliases
+### Link med aliasser
 
-Once you've set aliases for a file, you can write `[[alias]]` to link to the original page. A redirect icon will show up in the auto-complete list like so:
+Når du har sat et alias for en fil kan du skrive `[[alias]]` for at linke til den originale note. Et redirigeringsikon dukker op i den automatiske liste med forslag sådan:
 
 ![[Insert alises.png]]
 
-An internal link with display text will get inserted like so: `[[Add aliases to note|alias]]`.
+Et internt link med visningstekst bliver indsat sådan: `[[Tilføj aliasser til note|alias]]`.
 
-Note: the link to alias is **NOT** inserted as `[[alias]]` for interoperability, so that other software can recognize it as well.
+Bemærk: Linket til alias er **IKKE** indsat som `[[alias]]` for interkompabilitet, så andet markdown software også kan genkende det.
 
-### Find unlinked mentions
+### Find ulinkede nævnelser
 
-After you've set aliases for a note, you can find unlinked mentions by both its name and its aliases.
+Efter at du har sat en notes alias kan du finde ulinkede nævnelser med både dets navn og dets alias.
 
-For example, after setting "AI" as an alias for "Artificial intelligence", you'll see mentions of "AI" in other files in the [[Tilbagelinks]] section.
+F.eks. efter at du har sat "AI" som en alias for "Kunstig intelligens" vil du se nævnelser af "AI" i andre filer i [[Tilbagelinks]] sektionen.
 
-If you decide to link this mention, a link with display text set to the alias will be created for you. Following the example above, `AI` will become `[[Artificial intelligence|AI]]` once you click on the "Link" button.
+Hvis du beslutter dig for at linke til denne nævnelse, vil der blive oprettet et link, hvor teksten er sat til det alias. Følger vi eksemplet i forrige afsnit, så vil `AI` blive til `[[Kunstig intelligens|AI]]` , når du klikker på "Link" knappen.

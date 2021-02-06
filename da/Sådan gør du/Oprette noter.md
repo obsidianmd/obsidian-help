@@ -1,23 +1,22 @@
-Notes are created in a few ways, depending on your workflow:
+Noter kan oprettes på forskellige måder afhængig af dit workflow:
 
-1. **Note-first approach**. If you need to create a note, you can do so in [[Stifinder]]. The keyboard shortcut is `Ctrl/Cmd+N`. Also, if you have the [[Kommandopalette]] plugin enabled (it's on by default), press `Ctrl/Cmd-p` and type ‘new’, then select **********
- 
-1. **Link-first approach**. If you like to freely create notes, just use an [[Intern link]] to link to any note name (it doesn't need to exist at the time of creating the link). To write in the newly created note, simply click on the link name. It will be automatically created in your Vault and ready to type!
+1. **Note-først tilgangen**. Hvis du har behov for at oprette en note kan du gøre det i [[Stifinder|stifinderen]]. Tastaturgenvejen er   `Ctrl/Cmd+N`. Hvis du har [[Kommandopalette|kommandopaletten]] aktiveret (Det er den som standard), så tryk `Ctrl/Cmd-p` og skriv ‘new’, og vælg kommandoen: "Opret ny note".
+2. **Link-først tilgangen**. Hvis du kan lide frit at oprette noter, mens du skriver, så brug et [[Interne links|internt link]] til at linke til et hvilket som helst note navn (det behøver ikke eksistere på det tidspunkt hvor linket oprettes). For at skrive i den nye note, som du lige har oprettet, klik på link navnet. Så oprettes noten automatisk i din boks og du er klar til at skrive!
 
 ![[Pasted image 3.png]]
 
-After creating it, the note title will appear in the internal link auto-completion, so you don't need to type out the note name every time. When you type `[[` a popup will come up showing all the notes in your vault. Just type until you see the one you want, and hit `Return` or click on it, and the name will be automatically filled in.
+Når noten er oprettet vil notens titel optræde i den interne links automatiske udfyldnings funktion, så du ikke behøver, at skrive hele notens navn hver gang. Når du skriver `[[` vil der dukke et popup vindue op med navnene på alle dine noter i din boks. Begynd at skrive titlen og når den dukker op, så tryk `Enter` eller klik med musen på titlen, så det er den, som er valgt.
 
-If you already have folders set up in [[Stifinder]], you can right-click on a folder to create notes inside it:
+Hvis du allerede har oprettet mapper i din boks ved hjælp af [[Stifinder|stifinderen]], så kan du højreklikke på en mappe og oprette en note i den valgte mappe:
 
 ![[Pasted image 4.png]]
 
-There are also buttons at the top of the file explorer for creating new notes or folders. 
+Der er også knapper i toppen af stifinderen hvor du kan oprette nye noter eller mapper.
 
-Obsidian automatically saves your note two seconds after you stop typing, or if you close a pane. You can also manually save at any time by typing `Ctrl/Cmd-S`
+Obsidian gemmer automatisk din note to sekunder efter, at du er stoppet med at skrive i den, eller når du lukker et panel. Du kan også ti lenhver tid manuelt gemme ved at taste `Ctrl/Cmd-S`.
 
 ---
 
-### Related:
+### Relateret:
 
 - [[Omdøbe noter]]

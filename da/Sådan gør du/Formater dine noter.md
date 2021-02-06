@@ -1,107 +1,107 @@
+Obsidian er en Markdown baseret notetagnings- og videnbaseapplikation.
 
-Obsidian is a Markdown-based note-taking and knowledge base app. 
-
-We currently support the formats below:
-
----
-
-### Internal linking
-
-```md
-Link to a page: [[Internal link]].
-```
-
-Link to a page: [[Intern link]].
+Vi supporterer for nuværende følgende formatering:
 
 ---
 
-### Embeds
-
-Embed another file (read more about [[Indlejer filer]]). Here's an embedded section:
+### Intern linking
 
 ```md
-![[Obsidian#What is Obsidian]]
+Link til side: [[Internt link]].
 ```
 
-![[Obsidian#What is Obsidian]]
+Link til side: [[Interne links]].
 
 ---
 
-### Headers
+### Indlejringer
+
+Indlejr en anden fil (Læs mere om at [[Indlejre filer]]). Her er en indlejret sektion:
+
 
 ```md
-# This is a heading 1
-## This is a heading 2
-### This is a heading 3 
-#### This is a heading 4
-##### This is a heading 5
-###### This is a heading 6
+![[Obsidian#Hvad er Obsidian]]
 ```
 
-# This is a heading 1
-## This is a heading 2
-### This is a heading 3 
-#### This is a heading 4
-##### This is a heading 5
-###### This is a heading 6
+![[Obsidian#Hvad er Obsidian]]
 
 ---
 
-### Emphasis
+### Overskrifter
 
 ```md
-*This text will be italic*
-_This will also be italic_
+# Dette er overskrift niveau 1
+## Dette er overskrift niveau 2
+### Dette er overskrift niveau 3 
+#### Dette er overskrift niveau 4
+##### Dette er overskrift niveau 5
+###### Dette er overskrift niveau 6
 ```
 
-*This text will be italic*
-_This will also be italic_
-
-```md
-**This text will be bold**
-__This will also be bold__
-```
-
-**This text will be bold**
-__This will also be bold__
-
-```md
-_You **can** combine them_
-```
-
-_You **can** combine them_
+# Dette er overskrift niveau  1
+## Dette er overskrift niveau  2
+### Dette er overskrift niveau  3 
+#### Dette er overskrift niveau  4
+##### Dette er overskrift niveau  5
+###### Dette er overskrift niveau  6
 
 ---
 
-### Lists
+### Fremhævning
 
 ```md
-- Item 1
-- Item 2
-  - Item 2a
-  - Item 2b
-
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+*Denne tekst vil stå med kursiv skrift*
+_Denne tekst vil også stå med kursiv skrift_
 ```
 
-- Item 1
-- Item 2
-  - Item 2a
-  - Item 2b
+*Denne tekst vil stå med kursiv skrift*
+_Denne tekst vil også stå med kursiv skrift_
 
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+```md
+**Denne tekst vil stå med fed skrift**
+__Denne tekst vil også stå med fed skrift__
+```
+
+**Denne tekst vil stå med fed skrift**
+__Denne tekst vil også stå med fed skrift__
+
+```md
+_Du **kan** kombinere dem_
+```
+
+_Du **kan** kombinere dem_
+
+---
+
+### Lister
+
+```md
+- Element 1
+- Element 2
+  - Element 2a
+  - Element 2b
+
+1. Element 1
+1. Element 2
+1. Element 3
+   1. Element 3a
+   1. Element 3b
+```
+
+- Element 1
+- Element 2
+  - Element 2a
+  - Element 2b
+
+1. Element 1
+1. Element 2
+1. Element 3
+   1. Element 3a
+   1. Element 3b
 
 --- 
 
-### Images
+### billeder
 
 ```md
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
@@ -109,9 +109,9 @@ _You **can** combine them_
 
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
-#### Resizing images
+#### Tilpas billedstørrelsen
 
-Example of this above image resized to 100 pixels wide:
+Her er et eksempel p ovenstående billede ændret til 100 pixel bred.
 
 ```md
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
@@ -123,59 +123,59 @@ Example of this above image resized to 100 pixels wide:
 
 ### Links
 
-#### External links
+#### Eksterne links
 
-Markdown style links can be used to refer to either external objects, such as web pages, or an internal page or image.
+Du kan anvende Markdown links til at referere alle slags eksterne objekter, så som websider, eller en intern side eller et billede.
 
 ```md
-http://obsidian.md - automatic!
-[Obsidian](http://obsidian.md)
+https://obsidian.md - automatisk!
+[Obsidian](https://obsidian.md)
 ```
 
-http://obsidian.md - automatic!
-[Obsidian](http://obsidian.md)
+https://obsidian.md - automatic!
+[Obsidian](https://obsidian.md)
 
 #### Obsidian URI links
 
-[[Brug af obsidian URI|Obsidian URI]] links can be used to open notes in Obsidian either from another Obsidian vault or another program.
+[[Brug af obsidian URI|Obsidian URI]] links kan benyttes til at åbne noter i Obsidian fra en anden obsidian boks eller et andet program.
 
-For example, you can link to a file in a vault like so (please note the [[Brug af obsidian URI#Encoding|required encoding]]):
-
-```md
-[Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
-```
-
-[Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
-
-You can link to a note by its vault name and file name instead of path as well:
+Du kan f.eks. lave et link til en fil i en boks sådan (Bemærk at [[Brug af obsidian URI#Encoding|en speciel kodning ]] er påkrævet):
 
 ```md
-[Link to note](obsidian://open?vault=MainVault&file=MyNote.md)
+[Link til note](obsidian://open?path=D:%2Fsti%2Ftil%2Ffil.md)
 ```
 
-[Link to note](obsidian://open?vault=MainVault&file=MyNote.md)
+[Link til note](obsidian://open?path=D:%2Fsti%2Ftil%2Ffil.md)
 
-#### Escaping
-
-If there are spaces in the url, they can be escaped by either using `%20` as a space, such as:
+Du kan også linke til en note ved at benytte boksnavnet og filnavnet i stedet for stien:
 
 ```md
-[Export options](Pasted%20image)
+[Link til note](obsidian://open?vault=MinBoks&file=MinNote.md)
 ```
 
-[Export options](Pasted%20image)
+[Link til note](obsidian://open?vault=MinBoks&file=MinNote.md)
 
-Or you can enclose the target in `<>`, such as:
+#### Mellemrums erstatning
+
+Hvis der er mellemrum i en url, kan de erstattes ved enten at benytte `%20` som et mellemrum, som f.eks.:
 
 ```md
-[Slides Demo](<Slides Demo>)
+[Eksport indstillinger](Indsat%20billede)
 ```
 
-[Slides demo](Slides%20demo.md Demo>)
+[Eksport indstillinger](Indsat%20billede)
+
+Eller du kan omslutte url'en med `<>`, som f.eks.:
+
+```md
+[Slide Demo](<Slide Demo>)
+```
+
+[Slide demo](Slide%20demo.md Demo>)
 
 ---
 
-### Blockquotes
+### Blokcitater
 
 ```md
 > Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
@@ -189,20 +189,18 @@ Or you can enclose the target in `<>`, such as:
 
 ---
 
-### Inline code
+### Inline-kode
 
 ```md
-Text inside `backticks` on a line will be formatted like code.
+Tekst omsluttet af `accent grave` på en linje vil blive formatteret som kode.
 ```
 
-Text inside `backticks` on a line will be formatted like code. 
-
+Tekst omsluttet af `accent grave` på en linje vil blive formatteret som kode.
 
 ---
 
-### Code blocks
-
-Syntax highlight is supported with the language specified after the first set of backticks. We use prismjs for syntax highlighting, a list of supported languages can be found [at their site](https://prismjs.com/#supported-languages)
+### Kodeblokke
+Syntaks fremhævning for programmeringskode i et bestemt sprog er understøttet ved at angive det efter første sæt af accent graves. Vi benytter __prismjs__ til syntaktsfremhævning og en liste af understøttede programmeringssprog kan findes [på deres webside](https://prismjs.com/#supported-languages)
 
 <pre><code>```js
 function fancyAlert(arg) {
@@ -222,130 +220,132 @@ function fancyAlert(arg) {
     
 	
 ```md
-    Text indented with a tab is formatted like this, and will also look like a code block in preview. 
+	Tekst, der er indrykket med tabulator lige som her, vil også blive vist som en kodeblok i forhåndsvisning.
 ```
 
-    Text indented with a tab is formatted like this, and will also look like a code block in preview. 
+	Tekst, der er indrykket med tabulator lige som her, vil også blive vist som en kodeblok i forhåndsvisning.
     
 ---
 
-### Task list
+
+### Opgaveliste
 
 ```md
-- [x] #tags, [links](), **formatting** supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-- [ ] tasks can be clicked in Preview to be checked off
+- [x] #tags, [links](), og **formatering** er understøttet
+- [x] der kræves listesyntaks (enhver uordnet eller ordnet liste er understøttet)
+- [x] dette er et færdig opgavepunkt
+- [ ] dette er et ufærdig opgavepunkt
+- [ ] man kan skifte status på opgavepunkter i forhåndsvisning
 ```
 
-- [x] #tags, [links](), **formatting** supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-- [ ] tasks can be clicked in Preview to be checked off
+- [x] #tags, [links](), og **formatering** er understøttet
+- [x] der kræves listesyntaks (enhver uordnet eller ordnet liste er understøttet)
+- [x] dette er et færdig opgavepunkt
+- [ ] dette er et ufærdig opgavepunkt
+- [ ] man kan skifte status på opgavepunkter i forhåndsvisning
 
 ---
 
-### Tables
+### Tabeller
 
-You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
+Du kan oprette tabeller ved at samle en liste af ord og opdele dem med bindestreger `-` (for den første række), og så separere hver kolonne med en lodret streg `|`:
+
 
 ```md
-First Header | Second Header
+Første Overskrift | Anden Overskrift
 ------------ | ------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Indhold i celle 1 | Indhold i celle 2
+Indhold i den første kolonne | Indhold i den anden kolonne
 ```
 
-First Header | Second Header
+Første Overskrift | Anden Overskrift
 ------------ | ------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Indhold i celle 1 | Indhold i celle 2
+Indhold i den første kolonne | Indhold i den anden kolonne
 
 ---
 
 ```md
-Tables can be justified with a colon | Another example with a long title
+Tabeller kan justeres med et kolon | Et andet eksempel med en lang titel
 :----------------|-------------:
-because of the `:` | these will be justified
+På grund af `:` | vil rækken blive justeret
 
-If you put links in tables, they will work, but if you use Piped Links, the pipe must be escaped with a `\` to prevent it being read as a table element.
 ```
 
-Tables can be justified with a colon | Another example with a long title
+Tabeller kan justeres med et kolon | Et andet eksempel med en lang titel
 :----------------|-------------:
-because of the `:` | these will be justified
+På grund af `:` | vil rækken blive justeret
 
-If you put links in tables, they will work, but if you use Piped Links, the pipe must be escaped with a `\` to prevent it being read as a table element.
+Du kan anvende links i tabeller, men hvis du benytter lodret streg `|` i links skal den foranstilles med `\` for at forhindre, at den bliver læst som et tabelelement.
 
 ```md
-First Header | Second Header
+Første overskrift | Anden overskrift
 ------------ | ------------
-[[Format your notes\|Formatting]]	|  [[Keyboard shortcuts\|hotkeys]]
+[[Arbejde med tags\|Tilladte tegn]]	|  [[Arbejde med flere bokse\|Flytning af indstillinger mellem bokse]]
 ```
 
-First Header | Second Header
+Første overskrift | Anden overskrift
 ------------ | ------------
-[[Formater dine noter\|Formatting]]	|  [[Tastaturgenveje\|hotkeys]]	
+[[Arbejde med tags\|Tilladte tegn]]	|  [[Arbejde med flere bokse\|Flytning af indstillinger mellem bokse]]
 
 ---
 
-### Strikethrough
+### Gennemstreget
 
 ```md
-Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
+Alle ord som er omsluttet af to tilder (som ~~dette~~) vil blive vist gennemstreget.
 ```
 
-Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
+Alle ord som er omsluttet af to tilder (som ~~dette~~) vil blive vist gennemstreget.
 
 ---
 
-### Highlighting
+### Fremhævning
 
 ```md
-Use two equal signs to ==highlight text==.
+Benyt to lighedstegn for at ==fremhæve tekst==.
 ```
 
-Use two equal signs to ==highlight text==.
+Benyt to lighedstegn for at ==fremhæve tekst==.
 
 ---
 
-### Footnotes
+### Fodnoter
 
 ```md
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+Her er en simpel fodnote,[^1] og her er en længere en.[^langnote] 
 
-[^1]: meaningful!
+[^1]: meningsfuld!
 
-[^bignote]: Here's one with multiple paragraphs and code.
+[^langnote]: Her er en fodnote med flere afsnit og kode.
 
-    Indent paragraphs to include them in the footnote.
+    Indryk afsnit for at inkludere dem i fodnoten.
 
-    `{ my code }`
+    `{ min kode }`
 
-    Add as many paragraphs as you like.
+    Tilføj så mange afsnit, som du har lyst til.
 ```
 
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+Her er en simpel fodnote,[^1] og her er en længere en.[^langnote] 
 
-[^1]: meaningful!
+[^1]: meningsfuld!
 
-[^bignote]: Here's one with multiple paragraphs and code.
+[^langnote]: Her er en fodnote med flere afsnit og kode.
 
-    Indent paragraphs to include them in the footnote.
+    Indryk afsnit for at inkludere dem i fodnoten.
 
-    `{ my code }`
+    `{ min kode }`
 
-    Add as many paragraphs as you like.
+    Tilføj så mange afsnit, som du har lyst til.
+	
 	
 ```md
-You can also use inline footnotes. ^[notice that the carat goes outside of the brackets on this one.]
+Du kan også benytte inline fodnoter. ^[bemærk at cirkumfleks tegnet står udenfor de firkantede paranteser.]
 ```
 
-You can also use inline footnotes. ^[notice that the carat goes outside of the brackets on this one.]
+Du kan også benytte inline fodnoter. ^[bemærk at cirkumfleks tegnet står udenfor de firkantede paranteser.]
 
-### Math
+### Matematik
 
 ```md
 $$\begin{vmatrix}a & b\\
@@ -357,28 +357,26 @@ $$\begin{vmatrix}a & b\\
 c & d
 \end{vmatrix}=ad-bc$$
 
-You can also do inline math like $e^{2i\pi} = 1$ .
+Du kan også lave inline matematik som: $e^{2i\pi} = 1$ .
 
-### Diagram
-
-Obsidian uses [Mermaid](https://mermaid-js.github.io/) to render diagrams and charts. Mermaid also provides [a helpful live editor](https://mermaid-js.github.io/mermaid-live-editor).
+### Diagrammer
+Obsidian benytter [Mermaid](https://mermaid-js.github.io/) til at gengive diagrammer og grafer. Mermaid har udbyder også [en hjælpsom live editor](https://mermaid-js.github.io/mermaid-live-editor).
 
 <pre><code>```mermaid
 sequenceDiagram
-    Alice->>+John: Hello John, how are you?
-    Alice->>+John: John, can you hear me?
-    John-->>-Alice: Hi Alice, I can hear you!
-    John-->>-Alice: I feel great!
+    Alice->>+John: Hej John, hvordan går det?
+    Alice->>+John: John, kan du høre  mig?
+    John-->>-Alice: Hej Alice, jeg kan høre dig!
+    John-->>-Alice: Det er godt!
 ```</code></pre>
 
 ```mermaid
 sequenceDiagram
-    Alice->>+John: Hello John, how are you?
-    Alice->>+John: John, can you hear me?
-    John-->>-Alice: Hi Alice, I can hear you!
-    John-->>-Alice: I feel great!
+    Alice->>+John: Hej John, hvordan går det?
+    Alice->>+John: John, kan du høre  mig?
+    John-->>-Alice: Hej Alice, jeg kan høre dig!
+    John-->>-Alice: Det er godt!
 ```
 
-## Developer notes
-
-We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some latex support, and our chosen embed syntax, which you can read more about at [[Accepterede filformater]].
+## Udvikler noter
+Vi stræber efter den bedste kompabilitet uden at bryde eksisterende formater, derfor benytter vi en lidt uortodoks kombination af forskellige markdown formater. Det er stort set "CommonMark" med nogle funktionalitetstilføjelser fra "GitHub Flavored Markdown" (GFM), noget latex support, og vores egen indlejringssyntax, som du kan læse mere om under [[Accepterede filformater]].

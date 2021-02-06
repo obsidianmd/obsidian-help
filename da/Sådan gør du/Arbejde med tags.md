@@ -1,22 +1,21 @@
-Tags are a very useful way of grouping multiple notes so they are easy to find. A tag is essentially a clickable search through your entire Vault for a term. For example, clicking on #tags will bring up a search with all notes that contain that tag. Most people use them for broad categories of things, like a class you might be taking notes in or a type of idea. Some Zettelkasten practitioners like to use them as "entry points" for thinking about connected ideas. But ultimately, they are flexible enough that you can use them in any way you would like.
+Tags er en meget brugbar måde at gruppere mange noter, så de er nemme at finde. Et tag er i det væsentlige en klikbar måde at søge gennem hele din Box efter et nøgleord. Hvis du f.eks. klikker på #tags, så vil det åbne en søgning med alle noter, der indeholder det tag. De fleste mennesker benytter tags til at kategorisere ting, f.eks. den klasse du tager noter i eller typen af idé. De personer, som benytter Zettelkasten kan lide at benytte dem som en slags "indgange" til tanker om forbundne idéer. Men ultimativt, så er de fleksible nok til, at du kan bruge dem på lige den måde, som du kunne tænke dig.
 
-### Tag pane
+### Tag panelet
+Hvis du har [[Tag panel]] plug-innet aktiveret, kan du se en liste af alle tags, som er benyttet på tværs af alle dine noter, sorteret efter frekvens. Klikker du på en af dem, så aktiveres søgning på denne.
 
-If you have the \[\[Tag pane\]\] plugin enabled, you will see a list of all tags that are used across all of your notes, sorted by frequency. Clicking on any of those will activate that search.
+Dette gør dig i stand til at udføre præcise søgninger på et tag. Når du f.eks. klikker som du plejer, men vil finde alle tilfælde af `maintag` med alle undertags, så kan du stadig benytte [[Søg]] for at søge efter `#maintag`. Det er brugbart i de tilfælde hvor du har underkategorier af noget, men hvor du også gerne nemt vil kunne finde alle tilfælde af den højere kategori.
 
-This will allow you to search exact matches of a tag. For example, when clicking , as per usual, but if you want to find all instances of \`maintag\` with all subtags, you can still use the \[\[Search\]\] to look for \`#maintag\`. This is useful in cases where you have subcategories of things but you also want to be able to easily find all instances of the higher category.
+### Tilladte tegn
 
-### Allowed characters
+Mellemrum er ikke tilladt i tags. Så hvis du vil have flere ord i et tag, kan du benytte disse formater:
 
-Spaces are not allowed in tags. So, if you want to have multiple words in a tag, you can use these formats:
+- Hvert ord med stort uden mellemrum: #TwoWords
+- Understreg: #two\_words
+- Streg: #two-words
 
-- CamelCase: #TwoWords
-- Underscore: #two\_words
-- Dash: #two-words
+De eneste symboler, der er tilladt er:
 
-The only symbols allowed are:
+1. `_` (understreg) og `-` (streg) for at separere ord;
+2. `/` (skråstreg) for [[Tag panel#Indlejrede tags]].
 
-1. \`\_\` (underscore) and \`-\` (dash) to separate words;
-2. \`/\` (forward slash) for \[\[Tag pane#Nested tags|nested tags\]\].
-
-Numbers are allowed in the tag, ==as long as the tag is not purely numeric==. For example, #1984 does not form a valid tag, but #y1984 is valid.
+Numre er tilladt i et tag, ==så længe tagget ikke består kun af tal==. Tagget #1984 danner f.eks. ikke et gyldigt tag, men #y1984 er gyldig.

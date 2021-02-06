@@ -2,7 +2,7 @@ Insider builds are experimental versions of Obsidian that are released to Cataly
 
 Please note that insider builds are less stable than public versions, so if you prefer a smoother version, you don't have to enable it.
 
-### How to enable insider build
+### Sådan aktiveres insider builds
 
 If you are a [[Catalyst licens|Catalyst supporter]], you have access to Insider Builds before the general public. To access these, go to Settings => Account, and log in with the password you used on the Obsidian site. Then go to Settings => About, and turn on Insider Builds there.
 

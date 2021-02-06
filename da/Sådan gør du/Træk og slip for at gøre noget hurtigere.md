@@ -1,20 +1,20 @@
-In Obsidian, drag and drop is used in plenty situations to speed things up.
+Du kan benytte træk og slip i mange situationer i Obsidian for at øge tempoet.
 
-Other than [[Arbejde med flere noter#5 Panes can be rearranged by dragging|dragging panes]], you can also drag files to perform many tasks.
+Udover at [[Arbejde med flere noter#5 Paneler kan omarrangeres ved at trække dem rundt|trække paneler]] kan du også trække filer for at udføre mane opgaver.
 
-You can drag files from:
+Du kan trække filer fra:
 
 - [[Stifinder]]
 - [[Favoritter]]
-- [[Søg]] results
+- [[Søg|Søge]] resultater
 - [[Tilbagelinks]]
-- Links in a note
-- Files in your system explorer
+- Links i en note
+- Filer i din system stifinder
 
-After dragging them, you can drop them into places for various purposes:
+Efter at have trukket i dem, kan du slippe dem steder til forskellige formål:
 
-- Onto a note to insert link at cursor position
-- Onto pane header to open file in that pane
-- [[Stifinder]] to move the file into a folder
-- [[Favoritter]] to star the file
-- An external text editor program to insert Obsidian URI to the file
+- På en note for at oprette et link på markørpositionen
+- På en panel overskrift for at åbne filen i det panel
+- I [[Stifinder|stifinderen]] for at flytte en note ind i en mappe
+- I [[Favoritter]] for at markere filen som favorit
+- Til en ekstern tekst editor for at indsætte em insert Obsidian URI ti lfilen

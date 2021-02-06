@@ -16,7 +16,7 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 - [[Slides]]
 - [[Åben i standard app]]
 - [[Lyd optager]]
-- [[Tag rude]]
+- [[Tag panel]]
 - [[Kommandopalette]]
 - [[Daglige noter]]
 - [[Zettelkasten præfikser]]

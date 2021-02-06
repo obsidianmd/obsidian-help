@@ -1,46 +1,46 @@
-If you have the [[Kommandopalette]] enabled, You can use `Ctrl/Cmd+P` to bring it up, which will show you all currently available commands and their keyboard shortcuts.
+Hvis du har [[Kommandopalette|kommandopaletten]] aktiveret kan du taste `Ctrl/Cmd+P` for at aktivere den, og den viser alle nuværende tilgængelige kommandoer og deres tastaturgenveje.
 
-Most keyboard shortcuts can be customized for your needs in Settings => Hotkeys. 
+De fleste tastaturgenveje kan tilpasses efter dit behov i Instillinger -> Genvejstaster.
 
-The default keyboard shortcuts are listed below. 
+Her er listen af standard tastaturgenveje:
 
-Function                        |   | Shortcut          
+Funktion                        |   | Genvejstast          
 ------------------------------- | - | ------------------
-Editor: save file               |   | `Ctrl/Cmd+S`      
-Create new note                 |   | `Ctrl/Cmd+N`      
-Open command palette            |   | `Ctrl/Cmd+P`      
-Open quick switcher             |   | `Ctrl/Cmd+O`      
-Search in all files             |   | `Ctrl/Cmd+Shift+F`
-Open graph view                 |   | `Ctrl/Cmd+G`      
-Star current file               |   | Blank             
-Unstar current file             |   | Blank             
-Audio recorder: start recording |   | Blank             
-Audio recorder: stop recording  |   | Blank             
-Open Markdown converter         |   | Blank             
-Open today's note               |   | Blank             
-Create new Zettelkasten note    |   | Blank             
-Open random note                |   | Blank             
-Navigate back                   |   | `Ctrl/Cmd-Alt+Left arrow`  
-Navigate forward                |   | `Ctrl/Cmd-Alt+Right arrow`  
-Open vault location             |   | Blank             
-Use dark mode                   |   | Blank             
-Use light mode                  |   | Blank             
-Search current file             |   | `Ctrl/Cmd-F`      
-Toggle edit/preview mode        |   | `Ctrl/Cmd E`      
-Delete current file             |   | Blank             
-Split vertical                  |   | Blank             
-Split horizontal                |   | Blank             
-Close active pane               |   | Blank             
-Close all other panes           |   | Blank             
-Open settings                   |   | `Ctrl/Cmd ,`      
+Editor: Gem nuværende fil       |   | `Ctrl/Cmd+S`     
+Opret ny fil	                |   | `Ctrl/Cmd+N`      
+Åben kommandopalette            |   | `Ctrl/Cmd+P`      
+Åben hurtigskifter              |   | `Ctrl/Cmd+O`      
+Søg i alle filer                |   | `Ctrl/Cmd+Shift+F`
+Åben grafvisning                |   | `Ctrl/Cmd+G`      
+Tilføj til favoritter           |   | Ingen aktiv genvej             
+Fjern fra favoritter            |   | Ingen aktiv genvej             
+Lydoptager: Start lydoptagelse  |   | Ingen aktiv genvej             
+Lydoptager: Stop lydoptagelse   |   | Ingen aktiv genvej             
+Åben import af Markdown filer   |   | Ingen aktiv genvej             
+Åben dagens note                |   | Ingen aktiv genvej             
+Opret en ny Zettelkasten note   |   | Ingen aktiv genvej             
+Åben tilfældig note             |   | Ingen aktiv genvej             
+Naviger tilbage                 |   | `Ctrl/Cmd-Alt+Left arrow`  
+Naviger frem                    |   | `Ctrl/Cmd-Alt+Right arrow`  
+Åben boks mappe                 |   | Ingen aktiv genvej             
+Benyt mørk tilstand             |   | Ingen aktiv genvej             
+Benyt lys tilstand              |   | Ingen aktiv genvej             
+Søg i nuværende fil             |   | `Ctrl/Cmd-F`      
+Skift mellem redigering- og forhåndsvisningstilstand        |   | `Ctrl/Cmd E`      
+Slet nuværende fil              |   | Ingen aktiv genvej             
+Split lodret                    |   | Ingen aktiv genvej             
+Split vandret                   |   | Ingen aktiv genvej             
+Luk aktive panel                |   | Ingen aktiv genvej             
+Luk alle andre paneler          |   | Ingen aktiv genvej             
+Åben indstillinger              |   | `Ctrl/Cmd ,`      
 
-**Editing**
+**Redigering**
 
-Function                        |   | Shortcut    
+Funktion                        |   | Genvejstast    
 ------------------------------- | - | ------------
-Bold Selected Text              |   | `Ctrl/Cmd-B` 
-Italic Selected Text            |   | `Ctrl/Cmd-I`
-Insert External link            |   | `Ctrl/Cmd-K`
-Indent                          |   | `Ctrl/Cmd-]`
-Unindent                        |   | `Ctrl/Cmd-[`
-Jump into selected backlink     |   | `Alt/Opt-Enter`
+Gør valgt tekst fed             |   | `Ctrl/Cmd-B` 
+Gør valgt tekst kursiv          |   | `Ctrl/Cmd-I`
+Indsæt eksternt link            |   | `Ctrl/Cmd-K`
+Indryk                          |   | `Ctrl/Cmd-]`
+Fjern indrykning                |   | `Ctrl/Cmd-[`
+Hop til valgte tilbagelink      |   | `Alt/Opt-Enter`
