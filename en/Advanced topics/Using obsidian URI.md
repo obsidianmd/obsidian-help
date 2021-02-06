@@ -2,7 +2,7 @@ Obsidian supports a custom URI protocol `obsidian://` which can be used to trigg
 
 ## Installing Obsidian URI
 
-To make sure your operating system redirect `obsidian://` URIs to the Obsidian app, there may be additional steps you need to perform.
+To make sure your operating system redirects `obsidian://` URIs to the Obsidian app, there may be additional steps you need to perform.
 
 - On Windows, running the app once should be sufficient. This will register for the `obsidian://` custom protocol handler in the Windows registry.
 - On MacOS, running the app once should be sufficient, however, your app **must** be installer version 0.8.12 or later.
