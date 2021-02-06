@@ -22,7 +22,7 @@ In order to install third-party plugins, you need to turn off Safe Mode in Setti
 
 #### Discover and install community plugins
 
-After disabling Safe Mode, you can find third-party plugins created by the community in Settings -> Third-party plugin -> Community plugins -> Browse.
+After disabling Safe Mode, you can find third-party plugins created by the community in Settings -> Community plugins -> Community plugins -> Browse.
 
 On this page, you can browse plugins by popularity, or search for specific plugins. Click on a plugin to see details and instruction from the plugin author. In the details page, you can click "Install" to install a plugin.
 
