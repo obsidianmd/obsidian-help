@@ -10,4 +10,8 @@ The fastest way to see the hotkey set for a command is to find the command in [[
 
 ### Setting hotkeys
 
-To add a hotkey, remove a hotkey, or restore hotkeys to default, go to Settings -> Hotkeys. Note that you can also filter the list, as the list of commands is quite long.
+To add a hotkey, remove a hotkey, or restore hotkeys to default:
+1. Go to Settings -> Hotkeys.
+2. Click on the `*` icon to the right of each hotkey listed and type whatever key combination you would like.
+
+Note that you can also filter the list, as the list of commands is quite long.
