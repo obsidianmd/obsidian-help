@@ -71,6 +71,7 @@ Several special operators are available. Some operators allow nesting queries us
 
 - `file:` will perform the following subquery on the file name. For example: `file:".jpg"`. If you use Zettelkasten-style UIDs, this can be useful for narrowing a time range, for example `file:"202007"`for files created in July of 2020.
 - `path:` will perform the following subquery on the file path, absolute from the root. For example: `path:"Daily Notes/2020-07"`.
+- `content:` will perform the following subquery on the file content. For example: `content:"happy cat"`.
 - `match-case:` and `ignore-case:` will override the case sensitive match logic for the following subquery.
 - `tag:` will search for your specified tag within a file, for example `tag:#work`. This is faster and more accurate than searching for the tag in plaintext `#work`, as it uses the cached information and ignores text in code blocks and sections that aren't markdown text.
 - `line:(...)` will perform the subquery on a line-by-line basis, rather than a file-by-file basis. For example, if you search for `foo bar`, this could match a file that has `foo` in the first paragraph and `bar` in the last paragraph. Searching for `line:(foo bar)` will only match if `foo` and `bar` are on the same line.
