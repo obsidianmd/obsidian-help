@@ -22,4 +22,4 @@ multiple:
 ---
 ```
 
-As of 0.9.17, [[Add aliases to note|alias]] uses front matter. We'll gradually make it more accessible by plugin developers and more user friendly.
+As of 0.9.17, [[Add aliases to notes|alias]] uses front matter. We'll gradually make it more accessible by plugin developers and more user friendly.
