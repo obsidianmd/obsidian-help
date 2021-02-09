@@ -88,6 +88,24 @@ Examples:
 - `obsidian://search?vault=my%20vault&query=MOC`
 	This opens the vault `my vault`, opens the search pane, and performs a search for `MOC`.
 	
+#### Action `new`
+
+Description: Creates a new note in the vault, optionally with some content.
+
+Possible parameters:
+
+- `vault` can be either the vault name, or the vault ID. Same as action `open`.
+- `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
+- `path` a vault absolute path, including the name. Only takes effect if `name` is not specified.
+- `content` (optional) the contents of the note.
+- `silent` (optional) set this if you don't want to open the new note.
+
+Examples:
+
+- `obsidian://new?vault=my%20vault&name=my%20note`
+	This opens the vault `my vault`, and creates a new note called `my note`.
+- `obsidian://new?vault=my%20vault&path=path%2Fto%2Fmy%20note`
+	This opens the vault `my vault`, and creates a new note at `path/to/my note`.
 
 ## Shorthand formats
 
