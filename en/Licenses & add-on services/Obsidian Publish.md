@@ -87,6 +87,7 @@ For example, in NGINX, you can set it up as:
 location /my-notes {
   rewrite ^/my-notes/(.*) /serve?url=my-domain.com/my-notes/$1 break;
   proxy_pass https://publish.obsidian.md/;
+  proxy_ssl_server_name on;
 }
 ```
 
