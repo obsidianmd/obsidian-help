@@ -106,6 +106,14 @@ Examples:
 	This opens the vault `my vault`, and creates a new note called `my note`.
 - `obsidian://new?vault=my%20vault&path=path%2Fto%2Fmy%20note`
 	This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+	
+#### Action `hook-get-address`
+
+Description: Endpoint for use with [Hook](https://hookproductivity.com/). Copies a markdown link of the current focused note to the clipboard, as an `obsidian://open` URL. Use: `obsidian://hook-get-address`
+
+Possible parameters:
+
+- `vault` (optional) can be either the vault name, or the vault ID. If not provided, the current or last focused vault will be used.
 
 ## Shorthand formats
 
