@@ -1,6 +1,6 @@
 ### Copy and paste
 
-When you see something useful online, you can simply select the text, copy, and pate in Obsidian. Obsidian will try to convert it into proper Markdown so that it fits right in.
+When you see something useful online, you can simply select the text, copy, and paste in Obsidian. Obsidian will try to convert it into proper Markdown so that it fits right in.
 
 If you only wish to copy the text without the formatting, please use `Ctrl-Shift-V` on Windows and Linux and `Cmd-Shift-V` on macOS to do so.
 
