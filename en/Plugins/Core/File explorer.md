@@ -1,8 +1,8 @@
-File explorer shows [[Accepted file formats|the list of files Obsidian can recognize]] in your vault.
+**File explorer** shows [[Accepted file formats|the list of files Obsidian can recognize]] in your vault.
 
 Here, you can [[Pane layout#Open links in File explorer Search Backlinks Graph view etc|open notes]], [[create notes]] and folders, and [[rename notes]].
 
-Right clicking on a note or directory in the File explorer will bring up other appropriate commands, such as "Copy obsidian url" or "Make a copy". E.g. The "Set as attachment folder" command allows you to set your default folder for when you [[embed files]].
+Right clicking on a note or directory in the File explorer will bring up other appropriate commands, such as "*Copy obsidian url*" or "*Make a copy*". E.g. The "*Set as attachment folder*" command allows you to set your default folder for when you [[embed files]].
 
 It's one of the crucial plugins that we recommend you to keep enabled.
 
