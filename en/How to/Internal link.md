@@ -2,7 +2,7 @@ Internal links are the backbone of your knowledge network.
 
 ### Link to files
 
-To create an internal link, simply type `[[`. This will prompt you with the list of notes you can link to. Use `Up arrow` and `Down arrow` to navigate the suggestion list and `Enter` to select the current highlighted link.
+To create an internal link, simply type `[[`. This will prompt you with the list of notes you can link to. Use up and down arrow keys to navigate the suggestion list and `Enter` to select the current highlighted link.
 
 ### Link to headings
 
@@ -16,4 +16,4 @@ To make the link display different text than its real note name in Preview, use 
 - To follow a link in a new panel from Preview, click while pressing `Ctrl/Cmd`''
 - To follow a link in the Editor pane, click the link while pressing `Ctrl/Cmd`.
 - To follow a link in a new panel from the Editor, click the link while pressing `Ctrl/Cmd-Shift`''
-- To see a preview of the linked content without leaving the current note, enable the [[page preview]] plugin and a popup window will be displayed.
+- To see a preview of the linked content without leaving the current note, enable the [[Page preview]] plugin and a popup window will be displayed.
