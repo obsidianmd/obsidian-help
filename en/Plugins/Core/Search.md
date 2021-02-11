@@ -1,16 +1,16 @@
-![[Search.png]]
-
-Search is a powerful feature, and has the potential to be confusing. In most cases, if you just type what you want to find, it will work. But search has many capabilities for narrowing down to find exactly what you want.
+**Search** is a powerful feature, and has the potential to be confusing. In most cases, if you just type what you want to find, it will work. But search has many capabilities for narrowing down and finding exactly what you want.
 
 ## Quick tips
 
-### Start searching
+### Search command
 
-You can invoke search by pressing `Ctrl-Shift-F` or `Cmd-Shift-F`. You can also customize this hotkey in Settings -> Hotkeys. When search is invoked, focus will be automatically put in the search bar so you can start typing your query right away.
+You can invoke search by pressing `Cmd/Ctrl + Shift - F`. You can also customize this hotkey in `Settings` -> `Hotkeys`.
+
+When search is invoked, the search bar will be focused automatically so you can start typing your query right away.
 
 ### Search selected text
 
-After you select text, you can search for it by simply invoking search like above.
+When you select text, you can quickly search for it by invoking the search command like above.
 
 ## Search history
 
@@ -24,11 +24,11 @@ To clear search history, simply click on the "X" button.
 
 There are a couple of toggles available while searching:
 
-- `Match case` toggle case sensitive matching, but note that it can be overridden on a per-search basis using the `match-case:` and `ignore-case:` operators explained above.
+- `Match case` will toggle case sensitive matching, but note that it can be overridden on a per-search basis by pre-fixing `match-case:` or `ignore-case:` before your query.
 - `Explain search term` will show you what the search query actually does in plain terms.
-- `Collapse results` will toggle between just showing matching note names and showing the lines in which matches appear. These extended results can be toggled for each note by clicking on the folding triangle next to the file name.
-- `Show more context` will expand the display of the matches to show more text around the match.
-- `Change sort order` sorts the results by various orders, similar to how files are sorted in the [[File explorer]].
+- `Collapse results`, when enabled, will show note names as headings and its context collapsed within. When disabled, it will show names and context.
+- `Show more context` will give more context to matches.
+- `Change sort order` sorts the results by File name, last Modified time, or Created time.
 
 ## Copy search results
 
