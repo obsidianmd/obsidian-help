@@ -1,16 +1,18 @@
-The Publish plugin lets you publish notes from your vault onto your site, all from within the Obsidian app.
+The **Publish** plugin lets you publish notes from your vault onto your site, all from within the Obsidian app.
 
 For more information about the Obsidian Publish™ service, what's included, how it works, and privacy, see the [[Obsidian Publish]] add-on service.
 
 ### Enable the plugin
 
-From within Obsidian > Settings > Plugin, enable the Publish plugin. After that, a Publish icon (which looks like a paper plane) will appear in the ribbon pane.
+1. Navigate to `Settings` -> `Core plugins` -> `Publish`
+2. Click the button on the right to enable plugin.
+3. Check that a **Publish**  icon <svg viewBox="0 0 100 100" width="16" height="16" class="paper-plane"><path fill="currentColor" stroke="currentColor" d="M97.8,0c-0.3,0-0.5,0.1-0.7,0.2l-96,52c-0.7,0.4-1.1,1.1-1,1.9c0.1,0.8,0.6,1.5,1.4,1.7l27.2,8.9l-2.6,27 c-0.1,0.9,0.4,1.7,1.2,2.1c0.8,0.4,1.8,0.1,2.3-0.6l17.2-19.4l25.9,25.6c0.5,0.5,1.2,0.7,1.9,0.5c0.7-0.2,1.2-0.7,1.4-1.4l24-96 c0.2-0.6,0-1.3-0.4-1.8C99.1,0.2,98.5-0.1,97.8,0z M94.9,5.9L72.9,94.1L49.2,70.7l34.4-47.6c0.8-0.8,0.7-2.1-0.1-2.8 s-2.1-0.7-2.8,0.1L30.4,61.2L7,53.6L94.9,5.9z M71.6,33L45.3,69.4c-0.1,0.1-0.1,0.2-0.2,0.2L45,69.8c0,0.1-0.1,0.1-0.1,0.2 L30.6,86.1l2.1-21.6L71.6,33z"></path></svg> is now available in the left menu panel. 
 
 Once enabled, you can also set a hotkey for this option, or use the command palette to access it.
 
 ### Set up and Configure your site
 
-Within the Publish plugin, you'll see an option to create a site by entering a unique site ID. Once published, your site will be available at `https://publish.obisidian.md/{site-id}`.
+Within the **Publish** plugin, you'll see an option to create a site by entering a unique site ID. Once published, your site will be available at `https://publish.obisidian.md/{site-id}`.
 
 After creating a unique site ID, you'll have the option to give your site a name, select a home page, set a theme, and toggle various components such as graph view, table of contents, etc. You can toggle these options by clicking on the gear icon near your site name at the top of the Publish plugin.
 
