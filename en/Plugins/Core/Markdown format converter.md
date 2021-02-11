@@ -1,11 +1,11 @@
-It allows you to convert from other variations of Markdown format and link convention to Obsidian format.
+**Markdown format convert** allows you to convert from other variations of Markdown format and link convention to Obsidian format.
 
-Right now you can convert:
+Right now, you can convert:
 
 - Roam #tags to [[tags]]
 - Roam `^^highlight^^` to `==highlight==`
 - Zettelkasten `[[UID]]` links to full links `[[UID File Name]]`
-- Zettelkasten `[[UID]]` links to pretty links `[[UID File Name|File Name]]`, which will show up as just `File Name`
+- Zettelkasten `[[UID]]` links to pretty links `[[UID File Name|File Name]]`, which will show up in preview mode as just `File Name`
 
 ---
 
