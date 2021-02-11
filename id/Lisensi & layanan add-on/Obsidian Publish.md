@@ -34,11 +34,11 @@ Adds a search bar to the navigation pane (requires navigation to be enabled). Th
 
 ##### Graph view
 
-Displays a local graph of the page currently open. This uses the same rendering engine as the [[Graph view]] plugin in Obsidian.
+Displays a local graph of the page currently open. This uses the same rendering engine as the [[Tampilan grafik]] plugin in Obsidian.
 
 ##### Table of contents
 
-Displays a table of contents for the page currently open. The list is generated from headings within the page, similar to the [[Outline]] plugin. Viewers navigating the note will see the corresponding heading highlighted as they scroll, and can click on another heading to immediately navigate to it.
+Displays a table of contents for the page currently open. The list is generated from headings within the page, similar to the [[Kerangka]] plugin. Viewers navigating the note will see the corresponding heading highlighted as they scroll, and can click on another heading to immediately navigate to it.
 
 ##### Backlinks
 
@@ -50,7 +50,7 @@ When the reader clicks on a tag, they can see a list of other pages that include
 
 ##### Hover preview
 
-When hovering over links, their content is displayed within a popup box. This works similarly to the [[Page preview]] plugin in Obsidian.
+When hovering over links, their content is displayed within a popup box. This works similarly to the [[Pratinjau halaman]] plugin in Obsidian.
 
 ##### Custom CSS
 
@@ -80,14 +80,12 @@ Once you are done with configuring CloudFlare, you can head to your site options
 
 If you wish to host your own web server and setup your own SSL encryption, you can choose this option. If you are already hosting a website under your domain or subdomain, you can also use this option and setup your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
 
-Simply proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=my-domain.com/my-subpath/...` and configure the site options in Obsidian to the same URL path.
+Simply proxy all requests under that URL path to `https://publish.obsidian.md` and configure the site options in Obsidian to the same URL path.
 
 For example, in NGINX, you can set it up as:
 ```nginx
-location /my-notes {
-  rewrite ^/my-notes/(.*) /serve?url=my-domain.com/my-notes/$1 break;
-  proxy_pass https://publish.obsidian.md/;
-  proxy_ssl_server_name on;
+location /my-notes/ {
+    proxy_pass https://publish.obsidian.md/;
 }
 ```
 
