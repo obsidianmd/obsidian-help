@@ -1,8 +1,8 @@
-Daily Notes will create a new note that is automatically named with the current date. If it already exists, it will open that note. This is a useful way to create a daily log, todo list, or a list of links to notes that you have created on a specific day.  
+Daglige noter opretter en ny note, der automatisk bliver navngivet efter den nuværende dag. hvis noten allerede findes, vil de åbne den note. Dette er en nyttig måde at oprette en daglig journal på, todo liste eller en liste af links til noter, som du har lavet på en specifik dag.
 
-The date format and default folder for Daily Notes can be set in Settings => Plugins, by clicking the gear next to the name.  The default date format is "YYYY-MM-DD" (ISO format). This format means that a list of daily notes, listed in alphabetical order, will also be in chronological order. 
+Datoformatet og standardmappen til de daglige noter kan sættes i "Instillinger -> Plugins -> Daglige noter". Standard datoformatet er "YYYY-MM-DD" (ISO format). Det betyder at listen af noter udover at blive listet i alfabetisk rækkefølge også bliver listet kronologisk.
 
-You can also define a template file for daily notes. This file will be copied into your Daily note when it's created, so it's a good place to put tags or links you use every day.
+Du kan også definere en skabelon fil for dine daglige noter. Denne skabelon vi lblive benyttet, når den daglige note bliver oprettet, så det er et godt sted at sætte tags eller links, som du benytter hver dag.
 
-You can create a Daily Note either by clicking on the calendar icon in the left panel, or with the [[Kommandopalette]]. You can also set a hotkey in [[Tastaturgenveje]].
+Du kan oprette en daglig note enten ved at klikke på kalender ikonet i venstre menubjælpe eller med [[Kommandopalette|kommandopaletten]]. Du kan også tildele genvejstaster i [[Tastaturgenveje]].
 

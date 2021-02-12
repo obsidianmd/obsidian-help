@@ -1,83 +1,84 @@
-The Publish plugin lets you publish notes from your vault onto your site, all from within the Obsidian app.
+Publish Plug-in'et giver dig mulighed for at publicere noter fra din boks til dit websted inde fra Obsidian applikationen.
 
-For more information about the Obsidian Publish™ service, what's included, how it works, and privacy, see the [[Obsidian Publish]] add-on service.
+For mere information om Obsidian Publish™ servicen og hvad der er inkluderet, hvordan den fungerer, og privatliv, så se i [[Obsidian Publish]] tilføjelsesservicen.
 
-### Enable the plugin
+### Aktivering af plugin
 
-From within Obsidian > Settings > Plugin, enable the Publish plugin. After that, a Publish icon (which looks like a paper plane) will appear in the ribbon pane.
+Du aktiverer Publish plug-in'et under "Instillinger -> Kerne plug-ins". Derefter vil du kunne se et Publish ikon (som ligner et papirfly)i vendtre menubjælke.
 
-Once enabled, you can also set a hotkey for this option, or use the command palette to access it.
+Når det er aktiveret kan du også oprette en genvejstast eller benytte kommandopaletten for at tilgå den.
 
-### Set up and Configure your site
+### Opsætning og konfiguration af dit websted
 
-Within the Publish plugin, you'll see an option to create a site by entering a unique site ID. Once published, your site will be available at `https://publish.obisidian.md/{site-id}`.
+I plug-in'et kan du en indstilling, hvor du kan oprette et websted ved at indtaste et unik websteds ID. Når du har publiceret vil dit websted være tilgængelig her:
+`https://publish.obisidian.md/{websteds-id}`.
 
-After creating a unique site ID, you'll have the option to give your site a name, select a home page, set a theme, and toggle various components such as graph view, table of contents, etc. You can toggle these options by clicking on the gear icon near your site name at the top of the Publish plugin.
+Efter at der er oprettet et unikt websteds ID får du mulighed for at give dit websted et navn, vælge en hjemmeside, sætte et tema og slå forskellige komponenter til og fra, såsom grafvisning, indholdsfortegnelse osv. Du kan ændre disse indstillinger ved at klikke på tandhjulsikonet ved dit webstedsnavn i toppen af Publish plug-in'et.
 
-### Select files for publishing
+### Vælg filer til publicering
 
-After setting up your site, you can now publish your notes!
+Efter du har sat dit websted op, kan du nu publicere dine noter!
 
-With a fresh, empty site, all your notes will appear under the "New" section, meaning they are new to your site. At this point, you may choose which files you want to publish, and then click the "Publish" button.
+Med et nyt tomt websted vil alle dine noter optræde under "New" sektionen, hvilket betyder at de bliver nye på dit websted. På dette tidspunkt kan du vælge hvilke filer du vil publicere, og derefter kan du klikke på "Udgiv" knappen.
 
-==Privacy note: Obsidian Publish has no awareness (nor retention) of any notes you choose not to publish (nor any notes you subsequently remove from your published site).==
+==Privat note: Obsidian Publish har ingen viden om (eller opbevarer) nogle noter, som du vælger ikke at publicere (eller andre noter du efterfølgende fjerner fra dit publicerede websted).==
 
-### Make changes
+### Udfør ændringer
 
-As you make changes to notes that have already been published, those changes will be automatically selected when you open the Publish plugin dialog. You may uncheck any files you wish not to publish to your site.
+Hvis du ændrer i noter, som allerede er publiceret, vil disse blive automatisk valgt, når du åbner Publish dialogen. Du kan afmarkere de noter, du ikke ønsker at publicere til dit websted.
 
-### Change site options
+### Ændre websted indstilinger
 
-You can change various site options by clicking on the gear icon near your site name when in the "Publish changes" dialogue.
+Du kan ændre forskellige websted indstillinger ved ta klikke på yandhjulsikonet ved dit webstedsnavn, når "Udgiv ændringer" dialogen er åben.
 
 #### Metadata
 
-In this section, you can set site name, home page file (the file visitors see when they land on your site), and manage custom domain (please see [[Obsidian Publish#Custom domain|this guide]] to set up your custom domain).
+I denne sektion kan du sætte webstedsnavnet, hjemmeside filen (Den note, som besøgende skal se, når ankommer til dit websted), og håndtere brugerdefinerede domæner (Læs [[Obsidian Publish#Brugerdefineret domæne|denne guide]] for at opsætte et brugerdefineret domæne).
 
-#### Appearance
+#### Udseende
 
-Here you can change the theme between light and dark.
+Her kan du ændre temaet mellem lyst og mørkt.
 
-If you want more customization, you can look into setting up [[Obsidian Publish#Custom CSS|custom CSS]] and [[Obsidian Publish#Favicon|favicon]].
+Hvis du ønsker mere tilpasning, kan du læse om [[Obsidian Publish#Brugerdefineret CSS|brugerdefineret CSS her]] og  om [[Obsidian Publish#Favicon|favicon her]].
 
-#### Reading experience
+#### Læse oplevelse
 
-In this section, you can:
+I denne sektion kan du:
 
-- Enable a special mode called "sliding windows" that looks like [Andy Matuschak's notes](https://notes.andymatuschak.org/);
-- Enable page preview on hover like when using [[Forhåndsvisning af side]] plugin in the app;
-- Configure whether you want readable line length and strict line breaks.
+- Aktivere en speciel tilstand kaldet "sliding vinduer" som ligner [Andy Matuschak's noter](https://notes.andymatuschak.org/);
+- Aktivere noteforhåndsvisning, når musemarkøren flyttes over et link, på samme måde som [[Forhåndsvisning af note]] plug-in'et virker i Obsidian;
+- Konfigurere om du vil have læsbar linjelængde og strenge linjeskift.
 
-#### Components
+#### Komponenter
 
-Your site comes with a few components that you can toggle on or off. These include:
+Dit websted kan indeholde nogle få komponenter, som du kan aktivere eller deaktivere. Disse inkluderer:
 
-- File explorer (default on)
-- Local graph (default on)
-- Outline (default off)
-- Backlink at the bottom (default off)
-- Search bar (default off, requires file explorer)
+- Stifinder (Som standard sat til)
+- Lokal graf (Som standard sat til)
+- Indholdsfortegnelse (Som standard slået fra)
+- Tilbagelinks i bunden (Som standard slået fra)
+- Søgebar (Som standard slået fra. Kræver stifinder)
 
-#### Security
+#### Sikkerhed
 
-Here you can set passwords to protect your site. Once set, all visitors need to enter one of the passwords to enter your site.
+Her kan du angive kodeord for at beskytte dit websted. Når det er sat, skal alle besøgende på dit websted angive et af kodeordene for at få adgang til dit websted.
 
-Multiple passwords facilitate sharing with multiple groups. When you no longer wish to share with one group of visitors, you can simply delete that password. Each password can be named for your convenience as well.
+Flere kodeord gør dig i stand til at dele med flere grupper af besøgende. Når du ikke længere ønsker at dele med en bestemt gruppe besøgende, kan du bare slette kodeordet. Hver kodeord kan navngives som du passer dig.
 
-As of 2021/01/20, all notes on your site are protected by the same set of passwords.
+Efter 20. januar 2021 er alle noter på dit websted beskyttet af det samme sæt kodeord.
 
-### Add linked notes
+### Tilføj linkede noter
 
-The "Add linked" button allows you to include for publishing any notes in your vault that are referenced (linked to) by any currently selected notes. This is a good way to ensure there are no dead links on your published site.
+"Tilføj linkede" knappen tillader dig at inkludere alle de noter i din boks, som der er refereret til i alle de nuværende valgte noter. Dette er en god måde at sikre, at der ikke er nogle døde links på dit websted.
 
-By way of example, let's assume you select Note A for publishing. Supposing Note A has links to Note P, Note Q, and Note R, then if you click the "Add linked" button, Notes P, Q, and R will all be selected for publishing along with the currently selected Note A.
+Lad os f.eks. forestille os, at du har valgt at udgive Note A. Hvis Note A har links til Note P, Note Q og Note R, så vil disse noter også blive valgt, når du klikker på "Tilføj linkede".
 
-Each time you click the "Add linked" button, the Publish plugin will look for links within every currently selected file to include for publication. Please be sure you review the list of selected files before clicking the "Publish" button.
+Hver gang du klikker på "Tilføj linkede" knappen vil Publish plug-in'et lede efter links i alle nuværende valgte filer for at inkludere dem i udgivelsen. Tjek listen af valgte filer igennem, før du trykker på "Udgiv" knappen, for at være helt sikker på, at det er dem du vil udgive.
 
-### Delete published notes
+### Slette publicerede noter
 
-You always have the option of removing any notes that have been published to your site. Within the Publish plugin, all published notes will be listed, of which any/all can be selected for removal. Deleting a note from your site **does not** remove the note from your vault, thus giving you the option to re-publish the note again in the future.
+Du har altid mulighed for at fjerne noter, som du har udgivet på dit websted. I Publish plug-in'et kan du se en liste af alle udgivne noter, og de kan alle vælges til fjernelse fra dit websted. Når du sletter en note fra dit websted, så **slettes noten ikke** fra din Obsidian boks, hvilket giver dig mulighed for at genudgive noten på et senere tidspunkt.
 
-### Delete entire site
+### Slette hele webstedet
 
-If you'd like to delete an entire site, click the switch-site (arrows) icon near the top of the Publish plugin. Then click the X button to delete your site. Note: this only removes your public site but does not affect any files in your vault. You can always choose to re-publish your notes. 
+Hvis du ønsker at slettet et helt websted, så klik på "skift websted ikonet (Pile)" i toppen af Publish plug-in'et. Klilk derefter på X knappen for at slette dit websted. Bemærk:  Det fjerner kun dit offentlige websted. Det har ingen effekt på dine filer i din Obsidian boks. Du kan altid senere genudgive dine noter, hvis du ønsker det.

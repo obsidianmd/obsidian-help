@@ -1,10 +1,9 @@
-The Command Palette is enabled by default, as it is a very useful way to access nearly all the features of Obsidian without having to remember key strokes. Type `Ctrl/Cmd+P` to activate, then simply type in the name of the command. If a command has a hotkey, it will appear in on the right side.
+Kommandopaletten er aktiveret som standard, da det er en meget nyttig måde at tilgå næsten alle funktioner i Obsidian uden at skulle huske deres genvejstaster. Tryk `Ctrl/Cmd+P` for at aktivere den, og begyndt at skrive navnet på kommandoen. Hvis kommandoen har en genvejstast vil den stå til højre for kommandoen.
 
-Custom shorcuts can be added to the Command Palette in Settings -> Keymap. Click on the `*` icon to the right of each key listed and type whatever key combination you would like.
+Brugerdefinerede genvejstaster kan tilføjes til kommandopaletten i "Instillinger -> Genvejstaster". Klik på `*` iconet til højre for hver kommando og tast den tastaturkombination, som du ønsker.
 
-### Usage tips
+### Tips til brug
 
-- To see a list of all commands along with their shortcut, don't type anything into the prompt. The arrow keys will move up and down the list, and `Return` will activate the command. 
-
-- Search in the command palette is fuzzy, so you can type part of the word to get matches. For example, you can use `trm` to search for "Toggle read mode".
+- For at se listen af alle kommandoer sammen med deres genvejstaster behøver du ikke skrive kommandoens fulde navn. Du kan benytte filetasterne og vælge mellem de viste kommandoer i listen, og trykke `Enter` for at aktivere kommandoen.
+- En søgning i kommandopaletten er en fuzzy søgning, så du kan nøjes med at taste dele af kommendoen du søger efter, for at finde den. F.eks. kan du skrive "ski" for at finde "Skift mellem redigerings- og forhåndsvisningstilstand".
 

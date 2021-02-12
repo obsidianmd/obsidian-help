@@ -1,9 +1,10 @@
-The backlinks plugin shows how the current note is referenced in other notes.
+Tlilbagelinks plug-in'et viser dig, hvordan din nuværende note er refereret i andre noter.
 
-After enabling it, you'll see the backlink count in the status bar.
+Når funktionen er aktiveret kan du se antallet af tilbagelinks i statusbaren nederst.
 
-In the right side bar (if it's expanded), you should also see a panel that shows where the current note gets linked:
+I højre sidepanel (Hvis det er udvidet) kan du også se et panel, der viser hvor den nuværende note er linket fra:
 
 ![[Pasted image 9.png]]
 
-Upon expanding the "Unlinked mentions" section, you can also see where the name of the note gets mentioned, but not explicitly linked (in other words, mentioned without the square brackets).
+Hvis du udvider de "Ikke-llinkede nævnelser" kan du ogsp se hvor navnet af noten bliver nævnt, men ikke eksplicit linket til (Med andre ord, de steder hvor noter er nævnt uden firkantede paranteser).
+

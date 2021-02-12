@@ -1,14 +1,14 @@
-It allows you to convert from other variations of Markdown format and link convention to Obsidian format.
+Dette plug-in tillader dig at konvertere fra andre variationer af Markdown format og link konventioner til Obsidian format.
 
-Right now you can convert:
+Lige nu kan du konvertere:
 
-- Roam #tags to [[tags]]
-- Roam `^^highlight^^` to `==highlight==`
-- Zettelkasten `[[UID]]` links to full links `[[UID File Name]]`
-- Zettelkasten `[[UID]]` links to pretty links `[[UID File Name|File Name]]`, which will show up as just `File Name`
+- Roam #tags til [[tags]]
+- Roam `^^fremhævning^^` til `==fremhævning==`
+- Zettelkasten `[[UID]]` links til fulde links `[[UID Fil Navn]]`
+- Zettelkasten `[[UID]]` links til pæne links `[[UID Fil Navn|Fil Navn]]`, som kun vil blive vist som  `Fil Navn`
 
 ---
 
-### Related
+### Relateret
 
 - [[Formater dine noter]]

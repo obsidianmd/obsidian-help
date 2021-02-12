@@ -1,3 +1,4 @@
-Adds a new button to the left pane, which can be used to create a new file and prefix it for you using the current time. This can be beneficial if you are a follower of the Zettelkasten UID-in-filename method.
+Tilføjer en ny knap til venstre menubjælke, som gør det nemt at oprette en ny note og give det et præfix, hvor tidspunktet indgår. Det er gavnligt hvis du anvender Zettelkasten UID-i-filnavn metoden.
 
-The default format is 12-digit timestamp, e.g. "202001010000".
+Standardformatet er et 12-tals tidsstempel, f.eks. "202001010000".
+

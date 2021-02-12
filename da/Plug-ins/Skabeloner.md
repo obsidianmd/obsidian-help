@@ -1,33 +1,35 @@
-The Templates plugin lets you quickly insert snippets of text into your current note.
+Skabelon plug-in'et giver dig mulighed for hurtigt at indsætte tekststykker i din nuværende note.
 
-### Set up template folder
+### Opsætning af skabelon mappe
+Hver skabelon tekststykke er lige som en normal Markdown note, ligesom alle andre noter i Obsidian.
 
-Each template snippet is just a normal Markdown note, like everything else in Obsidian.
+For at anvende teksbidder som skabeloner, skal de ligge i en mappe, og den skal angives i "Indstillinger -> Skabeloner -> Placering af skabelonmappe" efter at plug-in'et er aktiveret.
 
-To designate template files, put them into a folder, and choose that folder in Settings -> Templates -> "Template folder location" after enabling the plugin
+### Indsætte en skabelon
 
-### Insert a template
+Når du har angivet en skabelonmappe kan du benytte "Indsæt skabelon" ikonet fra venstre menubjælke for at indsætte skabeloner. Som altid, kan du også angive en genvejstast til denne funktion, eller benytte kommandopaletten for at få adgang til funktionen.
 
-After setting up the folder location, using the ribbon icon to insert the template. As always, you can also set a hotkey for this option, or use the command palette to access it.
+Skabelon tekststykket vil blive indsat på markørens position i noten, og speciel tekst vil blive erstattet af deres faktiske indhold på det tidspunkt, hvor tekststykket indsættes (Se forneden).
 
-The template snippet will be inserted in the current caret position, with special text replaced by their actual value at the time of the insertion (see below).
+### Indsæt dato og tid
+I indstillingerne for skabelon plug-in'et kan du også angive et datoformat og et tidsformat.
 
-### Insert date and time
+Når disse er sat, kan `{{date}}` og `{{time}}` anvendes i skabelon filerne og de erstattes af den nuværende dato og tidspunkt afhængig af det format, du har defineret in indstillingerne.
 
-In the plugin settings of Template, you can also set a date format and a time format.
+For en omfattende dokumentation af mulig formateringssyntax, [så se her](https://momentjs.com/docs/#/displaying/format/).
 
-After setting these formats, `{{date}}` and `{{time}}` in the template files will be replaced by the formatting current time.
+_Tip: Hvis du har brug for to forskelllige formaterede tidsformater i en skabelon, så kan du bare anvende `{{time}}` som den anden `{{date}}`, eller `{{date}}` som den anden `{{time}}`._
 
-For formatting syntax documentation, [please see here](https://momentjs.com/docs/#/displaying/format/).
+_Dansk tip: Hvis du vil anvende en fuld dansk dato som: "12. februar 2021", så benyt `{{date}}` = "DD. MMMM YYYY" _
 
-_Tip: if you want to have two date formats or two time formats, you can use the other `{{time}}` as the second `{{date}}`, or `{{date}}` as the second `{{time}}`._
+_Dansk tip: Hvis du vil anvende dansk tid som: "14:23", så benyt `{{time}}` = "HH:mm" _
 
-### One-off date formats
+### Engangs dato formattering
 
-In addition to `{{date}}` and `{{time}}`, which will work in all template files, you can also write `{{date:YYYY-MM-DD}}` to insert a date with a certain format just once. This will override the `{{date}}` format. Anything after `:` will be considered part of the date format.
+Udover `{{date}}` og `{{time}}`, som virker i alle skabelonfiler, kan du også skrive `{{date:YYYY-MM-DD}}` for at indsætte en dato med et specifikt datoformat. Dette tilsidesætter `{{date}}` formateringen, som er angivet i instillingerne. Alt efter `:` betragtes som del af datoformatet.
 
-`{{time:HH:mm}}` works similarly.
+`{{time:HH:mm}}` virker på samme måde.
 
-### Using custom date formats elsewhere
+### Benyttelse af brugerdefineret dato formater andre steder
 
-Currently, dates like `{{date:YYYY-MM-DD}}` and `{{time:HH:mm}}` also work in the template file of the [[Daglige noter]] and [[Zettelkasten præfikser]] plugins. However, `{{date}}` and `{{time}}` do not work yet.
+I øjeblikket virker datoformater som `{{date:YYYY-MM-DD}}` og `{time:HH:mm}}` også i skabelonfiler for [[Daglige noter]] og [[Zettelkasten præfikser]] plug-in'erne. Mens `{{date}}` og `{{time}}` virker ikke endnu.

@@ -50,9 +50,9 @@ When the reader clicks on a tag, they can see a list of other pages that include
 
 ##### Hover preview
 
-When hovering over links, their content is displayed within a popup box. This works similarly to the [[Forhåndsvisning af side]] plugin in Obsidian.
+When hovering over links, their content is displayed within a popup box. This works similarly to the [[Forhåndsvisning af note]] plugin in Obsidian.
 
-##### Custom CSS
+##### Brugerdefineret CSS
 
 To customize the styling of your site, you can upload either `obsidian.css` or `publish.css`. These files must be stored in the root folder of your site. You can also upload both so you can use your existing `obsidian.css` and add some extra tweaks for publish in `publish.css`.
 
@@ -60,7 +60,7 @@ To customize the styling of your site, you can upload either `obsidian.css` or `
 
 To change the favicon of your site, you can upload `png` icons of any size in the format of `favicon-32.png` or `favicon-32x32.png`. You can also upload the file `favicon.ico`. These files can be stored in any folder. The current recommendation (as of 2020) is to provide sizes `32×32`, `128x128`, `152×152`, `167x167`, `180x180`, `192x192`, and `196x196`.
 
-### Custom domain
+### Brugerdefineret domæne
 
 You can setup a custom domain or subdomain for your Obsidian Publish site. Currently, we don't yet have a way to provision SSL certificate on your behalf, so you need to resort to either an SSL-enabled server of your own, or to setup your site on CloudFlare, which provides SSL for free.
 
@@ -80,12 +80,13 @@ Once you are done with configuring CloudFlare, you can head to your site options
 
 If you wish to host your own web server and setup your own SSL encryption, you can choose this option. If you are already hosting a website under your domain or subdomain, you can also use this option and setup your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
 
-Simply proxy all requests under that URL path to `https://publish.obsidian.md` and configure the site options in Obsidian to the same URL path.
+Simply proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=my-domain.com/my-subpath/...` and configure the site options in Obsidian to the same URL path.
 
 For example, in NGINX, you can set it up as:
 ```nginx
-location /my-notes/ {
-    proxy_pass https://publish.obsidian.md/;
+location /my-notes {
+  rewrite ^/my-notes/(.*) /serve?url=my-domain.com/my-notes/$1 break;
+  proxy_pass https://publish.obsidian.md/;
 }
 ```
 

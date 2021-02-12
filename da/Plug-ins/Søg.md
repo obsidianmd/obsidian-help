@@ -1,78 +1,82 @@
 ![[Search.png]]
 
-Search is a powerful feature, and has the potential to be confusing. In most cases, if you just type what you want to find, it will work. But search has many capabilities for narrowing down to find exactly what you want.
+"Søg" plug-in'et er en stærk funktion, og kan også være forvirrende.
+I de fleste tilfælde virker det, hvis du bare skriver det du søger efter.
+Men "Søg" har mange muligheder for at indsnævre søgningen for at finde præcis det, du ønsker.
 
-## Quick tips
+## Hurtige tip
 
-### Start searching
+### Start søgning
 
-You can invoke search by pressing `Ctrl-Shift-F` or `Cmd-Shift-F`. You can also customize this hotkey in Settings -> Hotkeys. When search is invoked, focus will be automatically put in the search bar so you can start typing your query right away.
+Du kan aktivere søgning ved at trykke `Ctrl-Shift-F` eller `Cmd-Shift-F`. Du kan også ændre denne genvejstast i "Indstillinger -> Genvejstaster". Når en søgning er aktiveret vil fokus automatisk blive sat til søgebaren, så du kan begynde at taste din forespørgsel med det samme.
 
-### Search selected text
+### Søge for markeret tekst
 
-After you select text, you can search for it by simply invoking search like above.
+Når du har markeret noge tekst, kan du søge efter det ved at aktivere søgning som ovenfor.
 
-## Search history
+## Søgehistorik
 
-Obsidian will remember your most recently used search queries.
+Obsidian husker dine sidste anvendte søgeforespørgsler.
 
-These queries will be presented to you when your search query is empty. You can click on any one of them to search for it again, allowing you to easily re-run previous queries.
+Disse forespørgsler vil blive vist, når din søgeforespørgsel er tom. Du kan klikke på en af dem for at søge med den forespørgsel igen, hvilket gør dig i stand til hurtigt at benytte tidligere forespørgsler.
 
-To clear search history, simply click on the "X" button.
+For at slette søgehistorikken, så klik på "X" knappen i søgeindtastningsfeltet.
 
-## Search Settings
+## Søgeindstillinger
 
-There are a couple of toggles available while searching:
+Der er en række funktioner til rådighed for at søge:
 
-- `Match case` toggle case sensitive matching, but note that it can be overridden on a per-search basis using the `match-case:` and `ignore-case:` operators explained above.
-- `Explain search term` will show you what the search query actually does in plain terms.
-- `Collapse results` will toggle between just showing matching note names and showing the lines in which matches appear. These extended results can be toggled for each note by clicking on the folding triangle next to the file name.
-- `Show more context` will expand the display of the matches to show more text around the match.
-- `Change sort order` sorts the results by various orders, similar to how files are sorted in the [[Stifinder]].
+- `Forskel på små og store bogstaver` aktiver matching eller ignorering af forskel på store og små bogstaver. Bemærk at dette kan tilsidesættes for en søgning ved at anvende `match-case:` og `ignore-case:` operatorene, der er forklaret i afsnittet [[Søg#Søgeoperatorer]]
+- `Forklar søgeord` viser dig hvad søgeforespørgslen faktisk gør i almindelig tekst
+- `Sammenfold resultater` skifter mellem at vise kun note navne for rasultater og vise de linjer i noterne hvor de optræder. Disse udvidede resultater kan udfoldes og sammenfoldes for hver note ved at klikke på trekantsikonet ved siden af filnavnet.
+- `Vis mere kontekst` udvider med mere tekst omkring selve det matchede.
+- `Skift sorteringsrækkefølge` sorterer resultaterne på forskellige måder, ligesom filer kan sorteres i [[Stifinder|stifinderen]].
 
-## Copy search results
+## Kopier søgeresultater
 
-To quickly and easily take your search results to a list, use the "copy search result" option.
+For hurtigt og nemt at kunne gemme dine søgeresultater et sted som en liste, f.eks. i en note, kan du benytte "Kopier søgeresultater" funktionen.
 
-You can customize whether you want to show paths, which link style to use (wikilink or Markdown link), and how you want your list to appear.
+Du kan tilpasse om du vil se stier, hvilken link type du vil anvende (wikilink eller Markdown link), og hvordan du vil have listen til at vise sig.
 
-## Embed search results
+## indlejrede søgeresultater
 
-You can embed search results in a note.
+Du kan indlejre søgeresultater i en note.
 
-For example, if you write:
+Hvis du f.eks. skriver:
 
 <pre><code>```query
-embed OR search
+indlejr OR søg
 ```</code></pre>
 
-You should see this embedded search view (note: it doesn't work on [[Obsidian Publish]] as of 2020/01/18):
+vil du se denne indlejrede søging: (note: Dette virker ikke i [[Obsidian Publish]] efter 18. januar 2020):
 
 ```query
-embed OR search
+indlejr OR søg
 ```
 
-## Search syntax
+## Ssøgesyntaks
 
-### Combing sub-queries
+### Kombinere del-forespørgsler
 
-When crafting a search query, remember that clicking "Explain Search Term" will give an explanation of what is being searched for, which can be very useful when debugging a complicated search.
+Når du skal skrive en søgeforspørgsel, så husk, at hvis du klikker på "Forklar søgeord" får du en forklaring på hvad der søges efter, hvilket kan være meget anvendeligt, hvis du leder efter fejl i en kompliceret søging.
 
-- Words in the search query separated by space will be searched independently in each note. For example `foo bar` will find a note that includes both `foo` and `bar` anywhere in it.
-- `"Quoted strings"` can be used to search multiple consecutive words separated by space, or in other words, a phrase. So, searching for `"foo bar"` with quotes will only find notes that include those words next to each other. You can use backslash `\"` to escape double quotes if you actually want to search for a string that includes quotes. And `\\` will do the same for backslash.
-- Boolean operations can be used. Use `OR` to match one or another. Use `-` to negate a query. The space character is used for boolean "and".
-	- For example: `foo OR bar` will find all notes that contain either of those words, they don't have to be in the same note. `foo -bar` will find all notes that contain `foo`, but not if they also contain `bar`.
-- Parenthesis can be used to group boolean operations. For example `(a OR b) (c OR d)`. This can be useful when crafting complex searches to make sure things happen in the order you want.
-- Regular expressions (regex) can now be used in search. Use forward slash to denote a regular expression. For example: `/[a-z]{3}/`.
+- Ord der er delt med mellemrum i søgeforespørgsler, vil blive individuelt søgt efter i hver note. F.eks. vil `foo bar` finde en note, som indeholder både `foo` og `bar` et eller andet sted i noten.
+- `"Citater i anførselstegn"` kan benyttes til at søge efter flere sammenhængende ord delt med mellemrum, eller i andre ord, eller udtryk. Så, en søgning efter `"foo bar"` med anførselstegn vi lkun finde noter som inkluderer disse ord ved siden af hinanden. Du kan benytte omvendt skråstreg og anførselstegn `\"` hvis du faktisk ønsker at søge på anførselstegn. Og `\\` vil søge på omvendt skråstreg.
+- Du kan benytte boolske operatorer. Benyt `OR` som "ELLER"-operator. Benyt `-` for negation. Et mellemrum mellem to søgeord svarer til en "OG"-operator.
+	- `foo OR bar` vil finde alle noter som indeholder et af ordene. De behøver ikke være i samme note.
+	- `foo -bar` vil finde alle de noter, som indeholder `foo`, men ikke hvis de også indeholder `bar`.
+-Der kan benyttes paranteser til at gruppere boolske operatorer, f.eks. `(a OR b) (c OR d)`. Det er brugbart, når der skal laves komplekse søgninger, hvor du vil sikre dig at forespørgslen sker i den rækkefølge du ønsker.
+- Du kan også anvende regulære søgeudtryk (regex) i søgninger. Benyt skråstreg som start på et regulært søgeudtryk, f.eks. `/[a-z]{3}/`.
 
-### Search operators
+### Søgeoperatorer
 
-Several special operators are available. Some operators allow nesting queries using parenthesis, for example: `file:("to be" OR -"2B")`.
+Der er flere specielle søgeoperatorer til rådighed. Nogle operatorer tillader indlejrede forespørgsler ved at benytte paranteser, f.eks. `file:("at være" OR -"2B")`.
 
-- `file:` will perform the following subquery on the file name. For example: `file:".jpg"`. If you use Zettelkasten-style UIDs, this can be useful for narrowing a time range, for example `file:"202007"`for files created in July of 2020.
-- `path:` will perform the following subquery on the file path, absolute from the root. For example: `path:"Daily Notes/2020-07"`.
-- `match-case:` and `ignore-case:` will override the case sensitive match logic for the following subquery.
-- `tag:` will search for your specified tag within a file, for example `tag:#work`. This is faster and more accurate than searching for the tag in plaintext `#work`, as it uses the cached information and ignores text in code blocks and sections that aren't markdown text.
-- `line:(...)` will perform the subquery on a line-by-line basis, rather than a file-by-file basis. For example, if you search for `foo bar`, this could match a file that has `foo` in the first paragraph and `bar` in the last paragraph. Searching for `line:(foo bar)` will only match if `foo` and `bar` are on the same line.
-- `block:(...)` will perform the subquery on a block-by-block basis, where each block defined as a markdown block, typically separated by empty lines. This is expensive computationally as it requires parsing each file, which means this is likely slower than other modes.
-- `section:(...)` will perform the subquery on a section-by-section basis, where each section is the text between two headings, including the first heading.
+- `file:`  vil udføre en underforespørgsel på filnavnet. F.eks. `file:".jpg"`. Hvis du benytter Zettelkasten-type UID'er kan det være anvendelligt, hvis du vi lbegrænse søgninger til tidsperioder, f.eks. vil `file:"202007"`finde filer oprettet i juli 2020.
+- `path:` vil udføre en underforespørgsel på mappestien, sbosult fra roden. F.eks. `path:"Daglige noter/2020-07"`.
+- `content:`  vil udføre en underforespørgsel på fil indholdet. F.eks. `content:"den glade kat"`.
+- `match-case:` og `ignore-case:` vil tilsidesætte store og små bogstaver i søgelogikken for den følgende underforespørgsel.
+- `tag:`  vil søge efter det specificerede tag i en fil, f.eks. `tag:#arbejde`. Det er hurtigere og mere præcist end at søge efter tagget i klar tekst `#arbejde`, da det benytter den cascede information og ignorerer tekst i kodeblokke og sektioner som ikke er markdowntekst.
+- `line:(...)`  vil udøfre en underforespørgsel på en linje-på-linje basis i stedet for en fil-på-fil basis. Hvis du f.eks. søger på `foo bar`, kunne det matche en fil der har `foo` i det første afsnit og `bar` i det sidste afsnit. Søgning på `line:(foo bar)` vil kun matche hvis `foo` og `bar` er på den samme linje.
+- `block:(...)`  vil udføre en underforespørgsel på en blok-på-blok basis, hvor hver blok er defineret som en markdown blok, som typisk er delt aftomme linjer. Dette er en tung operation, da den kræver at hver fil bliver analyseret, hvilket betyder at denne søgemåde sandsynligvis er langsommere end andre typer søgninger.
+- `section:(...)` vil udføre en underforespørgsel på en sektion-på-sektion basis, hvor hver sektion er teksten mellem to overskrifter, inklusiv den første overskrift.

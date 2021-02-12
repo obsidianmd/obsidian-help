@@ -15,4 +15,4 @@ Hvis du ønsker en anden tekst vist i forhåndsvisning i stedet for notens navn,
 - For at følge et link i et nyt panel, når du er i forhåndsvisning, så klik på linket med musen mens du holder `Ctrl/Cmd` nede.
 - For at følge et link i redigeringstilstad, klik på linket med musen, mens du holder `Ctrl/Cmd` nede.
 - For at følge et link i et nyt panel fra redigeringstilstand, så klik på linket med musen, mens du holder `Ctrl/Cmd-Shift` nede.
-- For at se en forhåndsvisning af indholdet fra et link uden at forlade den nuværende note, skal du have aktiveret det interne plugin [[Forhåndsvisning af side]] og et popup vindue med indholdet vil blive vist.
+- For at se en forhåndsvisning af indholdet fra et link uden at forlade den nuværende note, skal du have aktiveret det interne plugin [[Forhåndsvisning af note]] og et popup vindue med indholdet vil blive vist.

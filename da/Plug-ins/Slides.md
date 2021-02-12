@@ -1,13 +1,13 @@
-Slides lets you do simple presentations right inside Obsidian.
+Slides plug-in'et giver dig mulighed for at lave simple præsentationer inden i Obsidian.
 
-### Usage tips
+### Tips til brug
 
-1. To separate slides, use newlines and the `---` separator.
+1. For at adskille slides, benyt linjeskift og `---`.
+2. For at starte en præsentation klik på denne knap efter at du har åbnet en note:
 
-2. To start a presentation, click this button after opening a note:
 
 ![[Pasted image 14.png]]
 
-### Demo
+### Demonstartion
 
-Check out the demo document: [[Slide demo]]
+Se en demonstration af slides her: [[Slide demo]]

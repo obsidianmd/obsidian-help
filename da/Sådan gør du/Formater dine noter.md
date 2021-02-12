@@ -359,6 +359,28 @@ c & d
 
 Du kan også lave inline matematik som: $e^{2i\pi} = 1$ .
 
+### Kommentarer
+
+Benyt `%%` for at omslutte kommentarer, som vil blive læst som Markdown, men vil ikke blive vist i forhåndsvisning.up in the preview.
+
+```md
+Her er nogle indlejrede kommentarer: %%Du kan ikke se denne tekst%% (Kan ikke ses i forhåndsvisning)
+
+Her er en blok kommentar:
+%%
+Den kan spænde over
+flere linjer
+%%
+```
+
+Her er nogle indlejrede kommentarer: %%Du kan ikke se denne tekst%% (Kan ikke ses i forhåndsvisning)
+
+Her er en blok kommentar: (Kan heller ikke ses i forhåndsvisning)
+%%
+Den kan spænde over
+flere linjer
+%%
+
 ### Diagrammer
 Obsidian benytter [Mermaid](https://mermaid-js.github.io/) til at gengive diagrammer og grafer. Mermaid har udbyder også [en hjælpsom live editor](https://mermaid-js.github.io/mermaid-live-editor).
 

@@ -1,30 +1,29 @@
-Shows a graph representation of the [[Interne links|internal links]] between your notes.
+Viser en grafrepræsentation af de [[Interne links|interne links]] mellem dine noter.
 
-Notes with more notes referencing it appear as bigger nodes on the graph.
+Noter, som har flest noter referende til sig, vil optræde som større knudpunkter på grafen.
 
 ![[Pasted image 10.png]]
 
-### Visualization tips
+### Visualiserings tips
 
-- You can hover each node to highlight its connections, fading everything else.
-- You can drag nodes around to rearrange the graph. This may be helpful if some nodes are overlaying others.
+- Du kan føre musemarkøren over hver knudepunkt for at fremhæve dets forbindelser, og andre vil blive udtonet.
+- Du kan trække knudepunkter rundt for at omarrangere grafen. Det kan være praktisk hvis nogle knudepunkter overlapper andre.
 
-### Navigation tips
+### Navigations tips
 
-- To zoom, you can use mouse wheel scroll, as well as the `+` and `-` keys.
-- To pan around, drag the background or use the keyboard arrow keys.
-- Hold `Shift` while navigating with the keyboard to speed things up.
+- For at zoome grafen kan du benytte musens hjul, såvel som `+` og `-` tasterne.
+- For at panorere rundt på grafen, så træk baggrunden med musen eller benyt tastaturets piletaster.
+- Hvis du holder `Shift` inde, når du navigere via tastaturet, så øges hastigheden.
 
-### Custom CSS
+### Brugerdefineret CSS
+Da grafen er gengivet ved hjælp af `<canvas>` og WebGL, vil [[Tilpas med CSS|CSS]] ikke kunne ændre på knudepunkter og links. For at tilpasse grafvisningen har vi stillet en måde til rådighed, så CSS farver kan konverteres til WebGK kommandoer.
 
-Since the graph is rendered using `<canvas>` and WebGL, [[Tilpas med CSS|CSS]] is unable to affect things like nodes and links. To customize graph view, we have provided a way to convert CSS colors into WebGL commands.
-
-#### The following CSS classes are supported:
+#### Følgende CSS klasser er understøttet:
 
 ```
 .graph-view.color-fill
-.graph-view.color-fill-tag (theme-dependent)
-.graph-view.color-fill-attachment (theme-dependent)
+.graph-view.color-fill-tag (tema-afhængigt)
+.graph-view.color-fill-attachment (tema-afhængigt)
 .graph-view.color-arrow
 .graph-view.color-circle
 .graph-view.color-line
@@ -34,25 +33,24 @@ Since the graph is rendered using `<canvas>` and WebGL, [[Tilpas med CSS|CSS]] i
 .graph-view.color-fill-unresolved
 ```
 
-\* theme-dependent means you may have to add `.theme-dark` or `.theme-light` to style it for different themes. See [[Grafvisning#Custom CSS#Defaults]] for explanation.
+\* tema-afhængigt betyder at du muligvis bliver nødt til at tilføje `.theme-dark` eller `.theme-light` for at tilpasse dem til forskellige temaer. Se [[Grafvisning#Brugerdefineret CSS#Standard]] for en forklaring.
 
-#### The following CSS rules are supported:
+#### De følgende CSS regler er understøttet:
 
 ```css
  .graph-view.color-class {
-	/* Supports all CSS color directives, like #HEX, rgb and rgba */
+	/* Understøtter alle CSS farve direktiver, såsom #HEX, rgb and rgba */
 	color:   #FFF;
 	color:   #FFFFFF;
 	color:   rgb(0, 0, 0);
 	color:   rgba(0, 0, 0, 1);
-	/* Opacity (similar to rgba) will make the color transparent */
+	/* Gennemsigtighed (Ligesom rgba) vil gøre farven transparent */
 	opacity: 0.5;
 }
 ```
 
-#### Defaults:
-
-These CSS rules are the ones Obsidian use by default. You may override any of them using an identical or [more specific](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) CSS rule. This applies especially to `.color-fill-tag` and `.color-fill-attachment` As a last resort, add `!important` to the end of your rule.
+#### Standard:
+Disse CSS regler er dem, som Obsidian benytter som standard. Du kan overstyre dem alle ved at benyte en identisk eller en [mere specifik](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) CSS regel. Dette gælder især for `.color-fill-tag` og `.color-fill-attachment`. Som en sidste mulighed, tilføj `!important` i slutningen af din regel.
 
 ```css
 .graph-view.color-fill,

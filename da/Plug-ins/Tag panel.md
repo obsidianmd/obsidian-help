@@ -1,23 +1,23 @@
-Adds a panel on the right that displays all the tags you have, along with their tag count.
+Dette plug-in tilføjer et panel til højre, der viser alle de tags du benytter samt antallet af forekomster.
 
-When clicking on a tag, a search for the tag is activated. To ==toggle a tag== in search, Ctrl-click it instead.
+Når du klikker på et tag, vil en søging på det tag blive aktiveret. For at ==skifte et tag== i søgningen, så benyt Ctrl-kllik.
 
-### Sorting
+### Sortering
 
-The tags are sorted from mostly frequently used to least frequently used. You can change the sort order to alphabetical or reverse it.
+Tags er sorteret efter frekvens, dvs. fra anvendt flest gange til anvendt færrest gange. Du kan ændre sorteringsrækkefølgen til alfabetisk eller vende rækkefølgen om.
 
 ### Indlejrede tags
 
-If you write your tags like `#inbox/to-read` and `#inbox/processing`, you can enable "show nested tags" to view them as a tree instead of a flat list.
+Hvis du skriver tags, som `#inbox/skal-læses` and `#inbox/arbejder-på-den`, så kan du slå funktionen "Vis indlejrede tags" til for at vise dem som et træ i stedet for en flad liste.
 
-Under the default flat view, the tag pane will look like:
+I standard visning ser tag panelet sådan ud:
 
 ```
 - inbox/to-read
 - inbox/processing
 ```
 
-Under the nested tag view, the tag pane will look like:
+Når "Vis indlejrede tags" er slået til, ser tag panelet sådan ud:
 
 ```
 - inbox

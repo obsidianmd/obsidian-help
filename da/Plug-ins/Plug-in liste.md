@@ -1,8 +1,8 @@
-One of the most powerful aspects of Obsidian is the ability to add new functionality via plugins. It comes with several already, and many more are in development.
+En af de mest kraftfulde aspekter ved Obsidian er dens evne til at kunne tilføje ny funktionalitet ved hjælp af plug-ins. Obsidian kommer præinstalleret med mange, og mange flere er under udvikling.
 
-You can also build your own Obsidian plugin. See [[Fællesskabsplug-ins]].
+Du kan også udvikle dine egne Obsidian plug-ins. Se [[Fællesskabsplug-ins]].
 
-Plugins can be managed through the "Settings" button on the bottom left. Some of them have settings of their own that can be configured by clicking on the gear that appears next to each plugin when it is activated. 
+Plug-ins kan håndteres via "Indstillinger" knappen nederst til venstre. Nogle af dem har deres egne indstillinger, so kan konfigureres ved at kllikke på tandhjulsikonet som vises til højre for hver plugin, når det er aktiveret.
 
 ### Liste over nuværende officielle plug-ins
 
@@ -11,7 +11,7 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 - [[Grafvisning]]
 - [[Hurtigskifter]]
 - [[Søg]]
-- [[Forhåndsvisning af side]]
+- [[Forhåndsvisning af note]]
 - [[Ordtæller]]
 - [[Slides]]
 - [[Åben i standard app]]

@@ -1,13 +1,14 @@
-The File explorer shows [[Accepterede filformater|the list of files Obsidian can recognize]] in your vault. You can open notes, [[Oprette noter]] and folders, and [[Omdøbe noter]] in it. Right clicking on a note or directory in the File explorer will bring up appropriate options, such as renaming or making a copy. This is also the best way to set your default folder for when you [[Indlejre filer]].
+Stifinderen viser [[Accepterede filformater|en liste af filer, som Obsidian kan genkende]] i din boks. Du kan åbne noter, [[Oprette noter]] og mapper, og [[Omdøbe noter]] i den. Ved at højreklikke med musen på en note eller en mappe i stifinderen dukker der en dialog op med mulige funktioner, såsom at omdøbe eller kopiere.
+Dette er også den hurtigste måde, at angive en mappe som vedhæftningsmappe, når du vil [[Indlejre filer]].
 
-It's one of the crucial plugins that we recommend you to keep enabled.
+Dette er et ret afgørende plugin, så vi anbefaler, at du altid har det aktiveret.
 
-### Usage tips
+### Tips til brug
 
-1. If the list of files is cluttering the interface though, you can close it:
+1. Hvis listen af filer forstyrrer, så kan du skjule stifinderen:
 
 ![[Pasted image 15.png]]
 
-2. You can drag and drop to put one file into another folder.
+2. Du kan trække og slippe filer fra en mappe til en anden.
 
-3. You can use the sort icon at the top to sort files by file name or last modified time.
+3. Du kan benytte sorteringsikonet i toppen for a sortere filerne efter filnavn eller sidste modificerede tidspunkt.

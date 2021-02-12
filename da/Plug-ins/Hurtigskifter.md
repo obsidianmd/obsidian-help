@@ -1,8 +1,7 @@
-The Quick switcher lets you jump to other notes without leaving your keyboard. The shortcut to invoke it is `Ctrl/Cmd+O`. Just start typing, and matching filenames will be selected. Use up and down arrows to navigate the results, `Enter` to jump to a result, and  `Esc` to exit the quick switcher. Holding down `Cmd/Ctrl` will cause the note to open in a new pane. 
+Hurtigskifteren lader dig hoppe til andre noter ved hjælp af tastaturet.Genvejstasten er `Ctrl/Cmd+O`. Start med at skrive, og matchende filname blive vist. Brug pil op og ned for at navigere i resultaterne,  `Enter` for at joppe til et resultat, og  `Esc` for at afslutte hurtigskifteren. Hvis du holder `Cmd/Ctrl` nede vil det få noten til at åbne i et nyt panel.
 
-If you want to create a new note, typing a unique name will cause the Quick Switcher to create it. If the name is similar enough to an existing note, the Quick Switcher will default to opening the original note. To avoid this, holding down `shift` will force creation of a new note with whatever name is in the Quick Switcher. This can be combined with `Cmd/Ctrl` to create the new note in a new pane. 
+Hvis du vil oprette en ny note, vil hurtigskifteren oprette den, hvis du skriver et unikt navn. Hvis navnet ligner et eksisterende navn meget vi lhurtigskifteren åbne den originale note som standard. For at undgå dette, kan du holde `shift` nede, hvilket vil tvinge Obsidian til at oprette en ny note med det navn, du har givet den. Dette kan kombineres med `Cmd/Ctrl` for at oprette en ny note i et nyt panel.
 
 ![[Pasted image 11.png]]
 
-Before you enter anything, the top 5 most recently visited notes will be shown, so it's also useful to quickly switch two notes by doing `Ctrl/Cmd+O` → `Down arrow` → `Enter`.
-
+Før du skriver noget, vil de 5 mest nygelige åbnede noter blive vist, så det er også muligt at skifte mellem to noter ved at taste `Ctrl/Cmd+O` → `Down arrow` → `Enter`.

@@ -7,7 +7,7 @@ For effektivt at anvende opdelt skærmbillede skal du kun vide nogle få ting:
 
 Når du klikker på noget vil det åbne som standard i det aktive panel. Det aktive panel er markeret med en fremhævet bjælke under panelets titel og titlen er mere synlig end i de inaktive paneler.
 
-For at åbne filer i nye paneler skal du holde `Ctrl/Cmd` nede mens du klikker i forhåndsvisningstilstand (`Shift + Ctrl/Cmd` i redigeringstilstand).  Det gælder flere steder, inklusiv [[Stifinder]], [[Tilbagelinks]] (både links og ikke-linkede nævnelser), [[Søg|Søgeresulater]], og [[Grafvisning]]. Det gælder også knapper; i stedet for at forhåndsvise i det nuværende panel, kan du trykke `Cmd+click`på knappen for at forhåndsvise i et nyt panel. Når du benytter hurtigskifteren vil der blive åbnet et nyt panel, hvis du holder `Cmd/Ctrl` nede og trykker `Enter`.
+For at åbne filer i nye paneler skal du holde `Ctrl/Cmd` nede mens du klikker i forhåndsvisningstilstand (`Shift + Ctrl/Cmd` i redigeringstilstand).  Det gælder flere steder, inklusiv [[Stifinder]], [[Tilbagelinks]] (både links og ikke-linkede nævnelser), [[Søg|Søgeresultater]], og [[Grafvisning]]. Det gælder også knapper; i stedet for at forhåndsvise i det nuværende panel, kan du trykke `Cmd+click`på knappen for at forhåndsvise i et nyt panel. Når du benytter hurtigskifteren vil der blive åbnet et nyt panel, hvis du holder `Cmd/Ctrl` nede og trykker `Enter`.
 
 ---
 

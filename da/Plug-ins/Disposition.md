@@ -1,1 +1,1 @@
-The outline plugin shows the list of headings for the current note, and allows you to navigate to another section by clicking on a heading.
+Dispositionsplug-in'et viser listen af overskrifter for den aktive note, og tillader dig at navigere til en anden sektion ved at klikke på en overskrift.

@@ -8,7 +8,7 @@ hvis du vil opdatere til den seneste insider build, så læs: [[Insider builds#S
 
 ### Nuværende version vs installerede version
 
-Hvis du ser nærmer efter i "Indstillinger -> Om" kan du finde den nuværende version og installationsversionen.
+Hvis du ser nærmere efter i "Indstillinger -> Om" kan du finde den nuværende version og installationsversionen.
 
 Den nuværende version er din nuværende Obsidian version. Dette er versionen af applikationen, som kører på softwaremotoren (som er Electron). Den vil stige i versionsnummer, når du automatisk opdaterer, men installationsversionen vil ikke stige. Din installationsversion vil kun stige, hvis du foretager en geninstallation af Obsidian med en nyere version.
 

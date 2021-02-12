@@ -1,19 +1,16 @@
-
-The Workspaces plugin lets you save and load "workspaces". Each workspace includes pane layout, sidebar state (expanded or collapsed), and file open states.
+Arbejdsområde plug-in'et lader dig gemme og indlæse "arbejdsområder". Hver arbejdsområde inkluderer panel layouts, sidebjælpe tilstand (Udvidet eller sammenfoldet), og åbne filer.
 
 ![[Pasted image 19.png]]
 
-### Save a workspace
+### Gem et arbejdsområde
 
-Either click on the workspace icon in the ribbon to open "Manage workspaces".
+Klik på arbejdsområdeikonet i venstre menubjælke for at åbne "Administrer arbejdsområder".
 
-Give the current layout a new name, click on "Save", and it will appear in the list below.
+Giv det nuværende layout et nyt navn, klik på "Gem" og det vil blive tilføjet til listen af arbejdsområder nedenunder.
 
-### Load a workspace
+### Indlæs et arbejdsområde
 
-To load or restore a workspace, either open "Manage workspaces" and click on the "Load" button next to the workspace you wish to load, or use the "Load workspaces" command to bring up a command-palette-like interface to search and choose workspaces.
+For at indlæse eller genskabe et arbejdsområde, kan du enten åbne "Administrer arbejdsområder" og klikke på "Indlæs" knappen til højre for det arbejdsområde du vil indlæse, eller benytte "Indlæs arbejdsområde" kommandoen, der åbner en kommando palette lignende dialog, hvor du kan søge og vælge arbejdsområde.
 
-
-### Commands
-
-This plugin has two commands that you can access through [[Kommandopalette]]: manage workspaces and load workspaces. You can also define hotkeys for them.
+### Kommandoer
+Dette plug-in har to kommandoer, som du kan tilgå gennem [[Kommandopalette|kommandopaletten]]: Administrer arbejdsområder og indlæs arbejdsområder. Du kan også definere genvejstaster til dem.

@@ -1,3 +1,3 @@
-Word count is a simple plugin that shows the word count of your current note in the bottom status bar.
+Ordtæller er et simpelt plug-in, der viser din antallet af ord for din aktive åbne note i bunden af statusbaren.
 
-It works for CJK characters too (Chinese, Japanese, and Korean), in which words are not separately by spaces but rather glued together.
+Den virker også for CJK tegn (Kinesisk, japansk og koreansk), hvor ord ikke er separeret med mellemrum, men mere er limet sammen.

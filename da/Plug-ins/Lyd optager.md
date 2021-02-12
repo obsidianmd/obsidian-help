@@ -1,9 +1,9 @@
-Audio recorder is a plugin that lets you make a recording without leaving Obsidian. It's useful for class and meeting notes when you can't catch up for some reason, or for recording important discussions so you don't miss any details.
+Lydoptageren er et plug-in, som går dig i stand til at optage lyd uden at forlade Obsidian. Det er nyttigt i skoleklassen og til mødenotater, når du ikke har tid til at skrive af en eller anden grund, eller for at optage vigtige diskussioner, så du får alle detaljer med.
 
-To use, simply click on the microphone icon in the left panel:
+For at benytte lydoptageren, så klik på mikrofon ikonet i venstre menubjælke.
 
 ![[Pasted image 8.png]]
 
-The microphone will become colored while it's actively recording.
+Mikrofonen bliver farvet, når den aktivt optager lyd.
 
-Click on it again to finish recording. The audio file is now saved in your [[vault]] and an embed the recording will be added to the end of your current note.
+Klik på den igen for at afslutte optagelse. Lydfilen er ny gemt i din Boks og en indlejring af optagelsen vi lblive tilføjet i slutningen af din aktive åbne note.

@@ -1,3 +1,3 @@
-Random note does just that, opens a note at random from your Vault. Many people find this useful for surfacing thoughts they had not considered in a long time, or spot checking for things that they may have forgotten to link.
+Tilfældig note plug-in'et gør præcist som sit navn. Den åbner en tilfældig note fra din Boks. Mange mennesker finder den funktion nyttig til at udforske tanker, som de ikke havde tænkt på i lang tid, eller til at tjekke rundt omkring at et link ikke er blevet glemt.
 
-After you enable the Random Note plugin, you can create a [[Brugerdefinerede genvejstaster|custom hotkey]] that opens a note at random.
+Efter at plug-in'et er aktiveret kan du oprette en [[Brugerdefinerede genvejstaster|brugerdefineret genvejstast]] som åbner en tilfældig note.
