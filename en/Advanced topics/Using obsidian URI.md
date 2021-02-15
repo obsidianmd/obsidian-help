@@ -96,7 +96,8 @@ Possible parameters:
 
 - `vault` can be either the vault name, or the vault ID. Same as action `open`.
 - `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
-- `path` a vault absolute path, including the name. Only takes effect if `name` is not specified.
+- `file` a vault absolute path, including the name. Will override `name` if specified.
+- `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
 - `content` (optional) the contents of the note.
 - `silent` (optional) set this if you don't want to open the new note.
 
