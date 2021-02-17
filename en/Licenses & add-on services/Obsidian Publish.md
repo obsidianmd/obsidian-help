@@ -80,19 +80,20 @@ Once you are done with configuring CloudFlare, you can head to your site options
 
 If you wish to host your own web server and setup your own SSL encryption, you can choose this option. If you are already hosting a website under your domain or subdomain, you can also use this option and setup your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
 
-Simply proxy all requests under that URL path to `https://publish.obsidian.md` and configure the site options in Obsidian to the same URL path.
+Simply proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=my-domain.com/my-subpath/...` and configure the site options in Obsidian to the same URL path.
 
 For example, in NGINX, you can set it up as:
 ```nginx
-location /my-notes/ {
-    proxy_pass https://publish.obsidian.md/;
+location /my-notes {
+  proxy_pass https://publish.obsidian.md/serve?url=my-domain.com/my-notes/;
+  proxy_ssl_server_name on;
 }
 ```
 
 In Apache `.htaccess`, you can set it up as:
 ```htaccess
 RewriteEngine  on
-RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/$1"  [P]
+RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=my-domain.com/my-notes/$1"  [L,P]
 ```
 
 If you're using Netlify, you can set it up as:

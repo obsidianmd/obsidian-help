@@ -6,7 +6,7 @@ YAML front matter is how file-level metadata lives in Obsidian.
 
 Front matter 是由纯文本构成的、放置于文件开头的属性信息。这是将元数据放入 Markdown 文件中的好方法。
 
-Front matter 在开头和结尾处都有三个`-`。==它需要放置在文件开头才能被识别。==
+Front matter 在开头和结尾处都有三个 `-`。==它需要放置在文件开头才能被识别。==
 
 示例：
 
