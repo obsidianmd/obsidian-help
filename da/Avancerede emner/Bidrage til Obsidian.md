@@ -1,49 +1,51 @@
-Thanks for the interest in contributing to Obsidian!
+Tak for din interesse for at bidrage til Obsidian!
 
-There are three major ways you can contribute:
+Der er tre store måder du kan bidrage:
 
-### 1. Financial contribution
+### 1. Økonomiske bidrag
 
-#### Commercial license
+#### En kommerciel licens
 
-If you'd like to use Obsidian for work activities, try to let your work get you a [[Kommerciel licens|commercial license]].
+Hvis du vil benytte Obsidian til arbejdsrelaterede opgave, så prøv at få dit arbejde til at købe en [[Kommerciel licens|kommerciel licens]].
 
-#### Add-on services
+#### Tilføjelsesservices
 
-If you'd like to make a website from your notes, consider getting [[Obsidian Publish]] if the price works for you.
+Hvis du vil lavet et websted ud fra dine noter, så overvej at få [[Obsidian Publish]], hvis du kan betale prisen.
 
-If you're interested in an end-to-end encryption syncing solution, we also offer [[Obsidian Sync]]. In addition to end-to-end encryption, Obsidian Sync also comes with version history.
+Hhis du er interesseret i en slut-til-slut kryptering synkroniseringsløsning, har vi også [[Obsidian Sync]]. Ud over slut-til-slut kryptering kommer Obsidian Sync også med versionshistorik.
 
 #### Catalyst
 
-If you don't need any of the above, you can get a [[Catalyst licens]] to support our developer, which also gives you access to [[Insider builds]].
+Hvis du ikke har brug for nogle af ovenstående, kan du købe en [[Catalyst licens]] for at støtte udviklingen af Obsidian, hvilket også giver dig adgang til [[Insider builds]].
 
 #### Obsidian Unlimited
 
-For those very passionate about the project, there's also the Obsidian Unlimited option, which lets you pay as much as you want to support development and help us stay independent. We recommend going for this option after you've purchased the VIP tier of [[Catalyst licens]] so that you can enjoy the benefits.
+For dem, som er meget passioneret omkring projektet, er det også muligt at købe Obsidian Unlimited, som lader dig betale så meget, som du vil til at støtte udviklingen pg hjælpe os forblive uafhængige. Vi anbefaler, at du først går efter denne mulighed efter du har købt VIP graden af [[Catalyst licens|Catalyst licensen]], så du kan nyde godt af disse fordele.
 
-### 2. Extending Obsidian
+### 2.Udvide Obsidian
 
-#### CSS themes
+#### CSS temaer
 
-If you're proficient in CSS, another way is to contribute a theme, so that people who don't know CSS can enjoy your work. If you decide to do so, feel free to share it on the #css-themes channel on Discord, or in the Share & Showcase category on our forum.
+Hvis du er dygtig til CSS kan en anden måde at bidrage på være at udvikle et tema, så folk uden CSS erfaring kan nye dit arbejde. Hvis du vælger at gøre dette, så kan du dele det på vores #css-themes kanal på Discord, eller i "Share & Showcase" kategorien på vores forum.
 
-If you'd like to add your theme to the community theme list, let us know! (Or we might reach out to you first!)
+Hvis du kunne tænke dig at få dit tema på fællesskabs temalisten i Obsidian, så fortæl os det! (Eller vi tager måske fat i dag først!)
 
-#### Plugins
+#### Plug-ins
 
-If you're a JavaScript/TypeScript programmer, you can write [[Fællesskabsplug-ins]] for Obsidian, now that our plugin API is in alpha.
+Hvis du er en JavaScript/TypeScript programmør, kan du skrive [[Fællesskabsplug-ins]] til Obsidian, nu hvor vores plug-in API er i alfa version.
 
-### 3. Translation and proofreading
+### 3. Oversætte og korrekturlæse
 
 #### Translating the interface
 
-If you know another language (preferably natively), you can help with translating the Obsidian interface into your language. You can do that by submitting a pull request in [our translation GitHub repository](https://github.com/obsidianmd/obsidian-translations) to get it into the next version of the app.
+Hvis du har kendskab til et andet sprog (helst som indfødt) kan du hjæpe til med at oversætte Obsidian til dit sprog. Du kan gøre dette ved at anmode om et "pull request" i [vores oversættelsesprojekt på GitHub](https://github.com/obsidianmd/obsidian-translations) for at få fat i den næste version af applikationen.
 
-#### Translating the docs
+#### Oversætte dokkumentationen
 
-We're in the middle of reorganizing and stabilizing the documentation you're reading right now. Once it's in a good shape, you can also help translate it, so that people who don't know English can also easily learn to use Obsidian.
+Vi er ved at reorganisere og stabilisere den dokumentation, som du læser lige nu. Når den er ved at være klar, kan du også hjælpe med at oversætte den, så folk, der ikke kan engelsk også nemt kan lære at bruge Obsidian.
 
-#### Found a typo?
+#### Har du fundet en fejl?
 
-If you found a typo or a grammar mistake in these documentation, feel free to submit a pull request in [our documentation repository](https://github.com/obsidianmd/obsidian-docs).
+Hvis du finder tastefejl eller grammatiske fejl i denne dokumentation, så kan du nemmest anmelde fejlen i #translations kanalen på vores DIscord server, eller du kan oprette en "issue" eller et "pull request" i [vores oversættelsesprojekt på GitHub](https://github.com/obsidianmd/obsidian-translations).
+
+Hvis du bedre kan formulere dig på dansk, så er der nu også en [dansk](https://discord.com/channels/686053708261228577/810233026566815795) tekstkanal på vores Discord server.

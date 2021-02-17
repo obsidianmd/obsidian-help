@@ -29,10 +29,10 @@ Et internt link med visningstekst bliver indsat sådan: `[[Tilføj aliasser til 
 
 Bemærk: Linket til alias er **IKKE** indsat som `[[alias]]` for interkompabilitet, så andet markdown software også kan genkende det.
 
-### Find ulinkede nævnelser
+### Find ulinkede omtaler
 
-Efter at du har sat en notes alias kan du finde ulinkede nævnelser med både dets navn og dets alias.
+Efter at du har sat en notes alias kan du finde ulinkede omtaler med både dets navn og dets alias.
 
-F.eks. efter at du har sat "AI" som en alias for "Kunstig intelligens" vil du se nævnelser af "AI" i andre filer i [[Tilbagelinks]] sektionen.
+F.eks. efter at du har sat "AI" som en alias for "Kunstig intelligens" vil du se omtaler af "AI" i andre filer i [[Tilbagelinks]] sektionen.
 
-Hvis du beslutter dig for at linke til denne nævnelse, vil der blive oprettet et link, hvor teksten er sat til det alias. Følger vi eksemplet i forrige afsnit, så vil `AI` blive til `[[Kunstig intelligens|AI]]` , når du klikker på "Link" knappen.
+Hvis du beslutter dig for at linke til denne omtale, vil der blive oprettet et link, hvor teksten er sat til det alias. Følger vi eksemplet i forrige afsnit, så vil `AI` blive til `[[Kunstig intelligens|AI]]` , når du klikker på "Link" knappen.

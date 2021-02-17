@@ -25,7 +25,8 @@ Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver 
 
 - Andrea Brandi (Italian)
 - canzi-teacher, 蚕子 (Chinese Simplified)
-- Daniel Mathiot (French)
+- Daniel MATHIOT en janvier 2021.
+- Joffrey SCHROEDER et Olivier ANTHONIOZ en août 2020.
 - Henrik Falk (Dansk)
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)

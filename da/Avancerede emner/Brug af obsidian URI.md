@@ -1,124 +1,123 @@
-Obsidian supports a custom URI protocol `obsidian://` which can be used to trigger various actions within the app. This is commonly used on MacOS for cross-app workflows.
+Obsidian undersøtter en brugerdefineret URI protokol `obsidian://` som kan benyttes til at udløse forskellige handlinger i applikationen. Dette er almindeligt på MacOS, så applikationer kan snakke sammen..
 
-## Installing Obsidian URI
+## Installere Obsidian URI
 
-To make sure your operating system redirect `obsidian://` URIs to the Obsidian app, there may be additional steps you need to perform.
+For at være sikker på at dit operativsystem redirigerer `obsidian://` URIer til Obsidian applikationen skal du muligvis foretage noget yderligere.
 
-- On Windows, running the app once should be sufficient. This will register for the `obsidian://` custom protocol handler in the Windows registry.
-- On MacOS, running the app once should be sufficient, however, your app **must** be installer version 0.8.12 or later.
-- On Linux, there's a much more involved process:
-	- First, ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
-	- Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-	- If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
+- På Windows bør det være nok at køre applikationen en gang. Dette vil registrere `obsidian://` som brugerdefineret protokol i Windows registreringsdataabsen.
+- På MacOS bør det være nok at køre applikationen en gang, men din installeringsversion **skal** være nyere end 0.8.12
+- På Linux skal du gøre følgende:
+	- Først skal du oprette en `obsidian.desktop` fil.  [Se her for detaljer på Gnome](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
+	- Sørg for at din desktop fil specificerer `Exec` feltet som `Exec=navnpåkørbarfil %u`. `%u` benyttes til at overføre `obsidian://` URIer til applikationen.
+	- Hvis du benytter AppImage skal du udpakke AppImage filen med `Obsidian-x.y.z.AppImage --appimage-extract`. Derefter skal `Exec` direktivet i din `obsidian.desktop` fil pege på den udpakkede kørbare applikation.
+		
+	
+## Benytte Obsidian URIer
 
-## Using Obsidian URIs
-
-Obsidian URIs are typically in this format:
+Obsidian URIer er typisk i dette format:
 
 ```
-obsidian://action?param1=value&param2=value
+obsidian://action?parameter1=værdi&parameter2=værdi
 ```
 
-- The `action` is usually the action that you would like to perform.
+- `action` er den handling, som du vil udføre.
 
-### Encoding
+### Kodning
 
-==Important==
+==Vigtigt==
 
-Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+Vær sikker på at dine værdier er korrekt URI kodet. F.eks. skal tegnet skråstreg `/` kodes som `%2F` og tegnet mellemrum skal kodes som `%20`.
 
-This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding)
+Det er især vigtigt fordi et forkert kodet "reserveret" tegn kan ødelægge fortolkningen af URIen. [Se her for flere detaljer](https://en.wikipedia.org/wiki/Percent-encoding)
 
-### Available actions
+### Tilgængelige handlinger
 
-#### Action `open`
+#### Handling `open`
 
-Description: Opens an Obsidian vault, and possibly open a file within that vault.
+Beskrivelse: Åbner en Obsidian boks, og muligvis en fil i boksen.
 
-Possible parameters:
+Mulige parametre:
+- `vault` kan enten være boksnavnet, eller boks ID'et.
+	- Boksnavnet er navnet på de mappe, som indeholder boksen.
+	- Boks ID'et er en tilfældigt 16-cifret tegnkode, som hver boks er tildelt. Dette ID er unikt for hevr mappe på din computer. F.eks. `ef6ca3e3b524d22f`. Der er endnu ikke en nem måde at finde dette ID på, men et vil blive tilbudt senere i boks skifteren. LIge nu kan det findes i `%appdata%/obsidian/obsidian.json` på Windows. På MacOS, erstat `%appdata%` med `~/Library/Application Support/`. På Linux, erstat `%appdata%` med `~/.config/`.
+- `file`  kan være enten et filnavn eller en sti fra boksens rod til den specificerede fil.
+	- For at afgøre hvilken fil, som skal åbnes, benytter Obsidian den samme måde at fortolke links på som ved almindelige `[[wikilink]]` inde i en boks.
+	- Hvis filtypen er `md` kan endelsen `.md` udelades.
+- `path` er en absolut filsystemssti til en fil.
+	- Brug af denne parameter vil tilsidesætte både `vault` og `file`.
+	- Dette vil få Obsidian til at søge efter den boks, som indeholder den specificerede sti.
+	- Derefter vil resten af stien erstatte `file` parameteren.
 
-- `vault` can be either the vault name, or the vault ID.
-	- The vault name is simply the name of the vault folder.
-	- The vault ID is the random 16-character code assigned to the vault. This ID is unique per folder on your computer. Example: `ef6ca3e3b524d22f`. There isn't an easy way to find this ID yet, one will be offered at a later date in the vault switcher. Currently it can be found in `%appdata%/obsidian/obsidian.json` for Windows. For MacOS, replace `%appdata%` with `~/Library/Application Support/`. For Linux, replace `%appdata%` with `~/.config/`.
-- `file` can be either a file name, or a path from the vault root to the specified file.
-	- To resolve the target file, Obsidian uses the same link resolution system as a regular `[[wikilink]]` within the vault.
-	- If the file extension is `md`, the extension can be omitted.
-- `path` an absolute file system path to a file.
-	- Using this parameter will override both `vault` and `file`.
-	- This will cause the app to search for the most specific vault which contains the specified file path.
-	- Then the rest of the path replaces the `file` parameter.
+Eksempler:
 
-Examples:
-
-- `obsidian://open?vault=my%20vault`
-	This opens the vault `my vault`. If the vault is already open, focus on the window.
+- `obsidian://open?vault=min%20boks`
+	Dette åbner boksen `min boks`. Hvis boksen allerede er åben, så får applikationen fokus.
 
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-	This opens the vault identified by the ID `ef6ca3e3b524d22f`.
+	Dette åbner boksen identificeret med ID `ef6ca3e3b524d22f`.
 
-- `obsidian://open?vault=my%20vault&file=my%20note`
-	This opens the note `my note` in the vault `my vault`, assuming `my note` exists and the file is `my note.md`.
-
-- `obsidian://open?vault=my%20vault&file=my%20note.md`
-	This also opens the note `my note` in the vault `my vault`.
-
-- `obsidian://open?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-	This opens the note located at `path/to/my note` in the vault `my vault`.
-
-- `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-	This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
-
-- `obsidian://open?path=D%3A%5CDocuments%5CMy%20vault%5CMy%20note`
-	This will look for any vault that contains the path `D:\Documents\My vault\My note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `D:\Documents\My vault`, then this would be equivalent to `file` parameter set to `My note`.
+- `obsidian://open?vault=min%20boks&file=min%20note`
+	Dette åbner noten `min note` i boksen `min boks` forudsat at `min note` eksisterer og at filnavnet er `min note.md`.
 	
-#### Action `search`
+- `obsidian://open?vault=min%20boks&file=min%20note.md`
+	Dette åbner også noten `min note` i boksen `min boks`.
+	
+- `obsidian://open?vault=min%20boks&file=sti%2Ftil%2Fmin%20note`
+	Dette åbner noten lokaliseret i `sti/til/min note` i boksen `min boks`. 
 
-Description: Opens the search pane for a vault, and optionally perform a search query.
+- `obsidian://open?path=%2Fhome%2Fuser%2Fmin%20boks%2Fsti%2Ftil%2Fmin%20note`
+	Dette vil søge efter enhver boks efter stien `/home/user/min boks/sti/til/min note`. Derefter vil resten af stien blive overført til `file` parameteren. Hvis f.eks. en boks eksisterer på stien `/home/user/min boks`, så vil det svare til at `file` parameteren bliver sat til `sti/til/min note`.
 
-Possible parameters:
+- `obsidian://open?path=D%3A%5CDokumenter%5CMin%20boks%5CMin%20note`
+	Dette vil søge efter enhver boks der indeholder stien `D:\Dokumenter\Min boks\Min note`. Derefter vil resten af stien overføres til `file` parameteren. Hvis f.eks. boksen eksisterer i `D:\Dokumenter\Min boks`, så svarer det til at `file` parameteren bliver sat til `Min note`.
+	
+#### Handling `search`
 
-- `vault` can be either the vault name, or the vault ID. Same as action `open`.
-- `query` (optional) The search query to perform.
+Beskrivelse: Åbner søge panelet for en boks og evt. udfører en søgeforespørgsel, hvis du har angivet det.
 
-Examples:
+Mulige parametre:
+- `vault` kan enten være boksnavnet, eller boks ID'et. Samme handling som `open`.
+- `query` (Valgfrit) Den søgeforesprøgsel, som skal udføres.
 
-- `obsidian://search?vault=my%20vault`
-	This opens the vault `my vault`, and opens the search pane.
+Eksempler:
 
-- `obsidian://search?vault=my%20vault&query=MOC`
-	This opens the vault `my vault`, opens the search pane, and performs a search for `MOC`.
+- `obsidian://search?vault=min%20boks`
+	Dette åbner boksen `min boks`, og åbner søgepanelet.
+	
+- `obsidian://search?vault=min%20boks&query=MOC`
+	Dette åbner boksen `min boks`, åbner søgepanelet, og udfører en søgning efter `MOC`.
 
-#### Action `new`
+#### Handling `new`
 
-Description: Creates a new note in the vault, optionally with some content.
+Beskrivelse: Opretter en ny note i boksen, evt. med noget indhold, hvis du har angivet det.
 
-Possible parameters:
+Mulige parametre:
+- `vault` kan enten være boksnavnet, eller boks ID'et. Samme handling som `open`.
+- `name` filnavnet på noten, som skal oprettes. Hvis det er specificeret, vil placeringen blive baseret på dine "Standard placering for nye noter" indstillinger.
+- `file` er en absolut sti inklusiv navnet. Denne parameter vil tilsidesætte `name`, hvis den er specificeret.
+- `path` er en global absolut sti. Fungerer på samme måde som `path` parameteren i `open` handlingen, og den tilsidesætter både `vault` og `file` parameterne.
+- `content` (Valgfrit) indholdet af noten.
+- `silent` (Valgfrit) kan angives, hvis du ikke ønsker at åbne den nye note.
 
-- `vault` can be either the vault name, or the vault ID. Same as action `open`.
-- `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
-- `path` a vault absolute path, including the name. Only takes effect if `name` is not specified.
-- `content` (optional) the contents of the note.
-- `silent` (optional) set this if you don't want to open the new note.
+Eksempler:
 
-Examples:
-
-- `obsidian://new?vault=my%20vault&name=my%20note`
-	This opens the vault `my vault`, and creates a new note called `my note`.
-- `obsidian://new?vault=my%20vault&path=path%2Fto%2Fmy%20note`
-	This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+- `obsidian://new?vault=min%20boks&name=min%20note`
+	Dette åbner boksen `min boks`, og opretter en ny note med navnet`min note`.
+- `obsidian://new?vault=min%20boks&path=sti%2Ftil%2Fmin%20note`
+	Dette åbner boksen `min boks`, og opretter en ny note på stien `sti/til/min note`.
 	
 	
-#### Action `hook-get-address`
+#### Handling `hook-get-address`
 
-Description: Endpoint for use with [Hook](https://hookproductivity.com/). Copies a markdown link of the current focused note to the clipboard, as an `obsidian://open` URL. Use: `obsidian://hook-get-address`
+Beskrivelse: Slutpunkt til brug med [Hook](https://hookproductivity.com/).  Kopierer et markdonlink af den nuværende note i fokus til udklipsholderen, som en `obsidian://open` URL. Benyt: `obsidian://hook-get-address`
 
-Possible parameters:
+Mulige parametre:
 
-- `vault` (optional) can be either the vault name, or the vault ID. If not provided, the current or last focused vault will be used.
+- `vault` (Valgfrit) kan enten være navnet på boksen eller boks ID'et. Hvis det ikke angives vil den nuværende eller sidste boks med fokus blive benyttet.
 
-## Shorthand formats
+## Korte formater
 
-In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+Ud over formaterne beskrevet foroven er der to andre "korte" formater tilgængelige til at åbne bokse og filer:
 
-- `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`
-- `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`
+- `obsidian://vault/min boks/min note` svarer til `obsidian://open?vault=min%20boks&file=min%20note`
+- `obsidian:///absolut/sti/til/min note` svarer til`obsidian://open?path=%2Fabsolut%2Fsti%2Ftil%2Fmin%20note`

@@ -1,13 +1,12 @@
-Insider builds are experimental versions of Obsidian that are released to Catalyst license owners, on an opt-in basis.
+Insider builds er eksperimentelle versioner af Obsidian som udgives til Catalyst licens ejere, som et valgfrit gode.
 
-Please note that insider builds are less stable than public versions, so if you prefer a smoother version, you don't have to enable it.
+Bemærk at insider builds er mindre stabile end offentlige versioner, så hvis du foretrækker en mere poleret version, så behøver du ikke aktivere installation af dem.
 
 ### Sådan aktiveres insider builds
 
-If you are a [[Catalyst licens|Catalyst supporter]], you have access to Insider Builds before the general public. To access these, go to Settings => Account, and log in with the password you used on the Obsidian site. Then go to Settings => About, and turn on Insider Builds there.
+Hvis du er en [[Catalyst licens]] ejer, har du adgang til insider builds før de bliver offentlige. For at få tilgang til dem, så gå til "Indstillinger -> Konto" og log på med det kodeord du benyttede på Obsidians hjemmeside. Derefter skal du gå til "Indstillinger -> Om" og aktivere insider builds der.
 
 ![[Insider.png]]
 
-### Report issues
-
-If you're on our Discord server, you can go to the #insider-build channel to report issues. If you're filing a bug report on the forum, be sure to note the version you're using, so that we can improve it before rolling it out to everyone.
+### Rappoter problemer
+Hvis du er på vores Discord server, kan du gå til #insider-build kanalen for at rapportere problemer. Hvis du opretter en fejlrapport på vores forum, så husk at skrive, hvilken version af Obsidian du benytter, så vi kan forbedre den inden vi offentliggører den.

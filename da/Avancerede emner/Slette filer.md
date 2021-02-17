@@ -1,7 +1,7 @@
-Obsidian has several options for dealing with deleted files, depending on your needs.
+Obsidian har flere muligheder for at håndtere slettede filer afhængig af dine behov.
 
-- By default, deleted files are sent to your system trash. Here you can use whatever means your system has for recovering files you've accidentally deleted. 
-- Deleted files can be sent to a special `.trash` directory in your Vault. This can be useful if you want the ability to recover your Vault files separate from your system trash. 
-- You can also set obsidian to just delete files without possibility of recovery. 
+- Som standard sendes slettede filer til din system papirkurv. Her kan du benytte alle de muligheder, som dit system stiller til rådighed for at genoprette filer, som du ved en fejl har slettet.
+- Slettede filer kan sendes til en speciel `.trash` mappe i din Boks. Dette er nyttigt, hvis du vil have muligheden for at genoprette dine Boks filer uafhængigt af din system papirkurv.
+- Du kan også sætte Obsidian til at slette filer helt uden mulighed for a genoprette dem.
 
-These options can be found in Settings => File.
+Disse muligheder kan du finde i "Indstillinger -> Filer & Links"

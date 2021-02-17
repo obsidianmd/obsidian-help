@@ -1,9 +1,10 @@
-Obsidian recognizes the following file formats right now:
+Obsidian genkender følgende filformater på nuværende tidspunkt:
 
-1. Markdown files: `md`;
-2. Image files: `png`, `jpg`, `jpeg`, `gif`, `bmp`, `svg`, `tiff`;
-3. Audio files: `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`;
-4. Video files: `mp4`, `webm`, `ogv`;
-5. PDF files: `pdf`.
+1. Markdown filer: `md`;
+2. Billed filer: `png`, `jpg`, `jpeg`, `gif`, `bmp`, `svg`, `tiff`;
+3. Lyd filer: `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`;
+4. Video filer: `mp4`, `webm`, `ogv`;
+5. PDF filer: `pdf`.
 
-All these types of files can be [[Indlejre filer|embedded]] in a note.
+Alle disse filtyper kan [[Indlejre filer|indlejres]] i en note.
+

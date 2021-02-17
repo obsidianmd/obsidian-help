@@ -1,41 +1,41 @@
-Obsidian allows developers to write third-party plugins to extend Obsidian's functionality.
+Obsidian tillader udviklere at skrive tredjeparts plug-ins til at udvide Obsidian's funktionalitet.
 
-Right now, the plugin API is in alpha status. This means any part of the API could introduce breaking changes in a future release.
+Lige nu, er plug-in API'et i en alfa status. Det betyder at dele af API'et ikke er stabilt og kan blive ændret i fremtidige versioner.
 
-### For developers
+### For udviklere
 
-For instructions on creating new plugins, see [our sample plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
+Instruktioner til at udvikle nye plug-ins kan fås ved at studere [vores eksempel plug-in](https://github.com/obsidianmd/obsidian-sample-plugin).
 
-For documentation on the API, check out [our plugin API repo](https://github.com/obsidianmd/obsidian-api).
+Dokumentationen af API'et kan læses ved at tjekke [vores plug-in API repository på GitHub](https://github.com/obsidianmd/obsidian-api).
 
-After you created your plugin, you can add it to our community plugin marketplace by creating a pull request in [our releases repo](https://github.com/obsidianmd/obsidian-releases). Refer to the sample plugin on how to release updates for your plugin.
+Når du har udviklet dit plug-in, kan du tilføje det vores fællesskabs plug-in markedsplads ved at oprette et "pull request" i [vores release repository på GitHub](https://github.com/obsidianmd/obsidian-releases). Læs information i vores eksemple plug-in om, hvordan du frigiver opdateringer til dit plug-in.
 
-### For users
+### For brugere
 
-#### Safe Mode
+#### Sikker tilstand
 
-By default, Obsidian has Safe Mode turned on to protect you from potential harm. Under Safe Mode, no third-party plugin will run.
+Obsidia har som standard "Sikker tilstand" aktiveret for at beskytte dig mod potentiel skade fra tredjepartskode. I "Sikker tilstand" vil ingen tredjepartsplug-ins kunne anvendes.
 
-Please be aware that third-party plugins can access files on your computer, connect the internet, and even install additional programs. To read more about plugin security, [[Fællesskabsplug-ins#Plugin security|see here]].
+Bemærk at tredjeparts plug-ins kan tilgå filer på din computer, forbinde til internettet, og endda installere yderligere programmer. Du kan læse mere om plug-in sikkerhed [[Fællesskabsplug-ins#Plugin sikkerhed|her]].
 
-In order to install third-party plugins, you need to turn off Safe Mode in Settings -> Third-party plugin -> Safe Mode.
+For at kunne installere tredjeparts plug-ins skabt af fællesskabet skal du deaktivere "Sikker tilstand" i "Indstillinger -> Tredjeparts plug-ins -> Sikker tilstand".
 
-#### Discover and install community plugins
+#### Opdage og installere fællesskabs plug-ins
 
-After disabling Safe Mode, you can find third-party plugins created by the community in Settings -> Third-party plugin -> Community plugins -> Browse.
+Når "Sikker tilstand" er deaktiveret kan du finde tredjeparts plug-ins skabt af fællesskabet i "Indstillinger -> Tredjeparts plug-ins -> Gennemse".
 
-On this page, you can browse plugins by popularity, or search for specific plugins. Click on a plugin to see details and instruction from the plugin author. In the details page, you can click "Install" to install a plugin.
+På denne side kan du gennemse plug-ins ud fra popularitet, eller søge efter specifikke plug-ins. klik på et plug-in for at se dets detaljer og instruktioner fra udvikleren. På detaljesiden kan du klikke på "Installer" for at installere et plug-in.
 
-After installing, you can then find the installed plugins under Settings -> Third-party plugin. They need to be enabled in order to take effect. You can also uninstall them there.
+Efter installering af et plug-in kan du finde det under "Indstillinger -> Tredjeparts plug-ins". Det skal aktiveres for at fungere. Du kan også afinstallere et plugin her.
 
-### Plugin security
+### Plugin sikkerhed
 
-Thanks for trusting Obsidian with your data! It means a lot to us, and we take security very seriously. That includes third-party plugins too.
+Tak fordi du har tillid til at lade Obsidian håndtere dine data! Det betyder meget for os og vi tager sikkerhed meget seriøst. Det inkluderer også tredjeparts plug-ins.
 
-Due to technical reasons with our platform, we're unable to restrict plugins to a specific permission or access level. Since we offer Obsidian for free, currently we're unable to manually review each plugin.
+Grundet tekniske årsager med vores platform, kan vi ikke begrænse plug-ins til at have bestemte tilladelser eller adgangsniveauer. Da vi tilbyder Obsidian gratis, kan vi ikke på nuværende tidspunkt manuelt gennemteste hvert plug-in.
 
-The good news is that Obsidian has an amazing and passionate community, so we rely on community trust to ensure security of third-party plugins.
+Den gode nyhed er, at Obsidian har et fantastisk og passioneret fællesskab, så vi stoler på, at fællesskabet sikrer sikkerheden for tredjeparts plug-ins.
 
-In general, you should be able to trust most of the popular plugins from the community. We require all community third-party plugins to be open sourced on GitHub. **If you're working with sensitive data, we recommend you to inspect the plugin code before installing it, so that your security needs are met.** You can find a link to the plugin repository on the plugin detail page.
+Du burde generelt kunne stole på de fleste populære plug-ins fra vores fællesskab. Vi kræver, at alle fællesskabs tredjeparts plug-ins er open source og ligger offentligt på GitHub. **Hvis du arbejder med sensitive data, anbefaler vi at du inspicerer sourcekoden til et plugin før du installerer det, så du kan sikre dig, at dine sikkerhedsbehov bliver opfyldt**. Du kan finde et link til et plug-ins sourcekode på GitHub på dets detaljeside.
 
-If you find any security flaws with third-party plugins, contact the plugin author by adding an issue on GitHub. If you believe the plugin is malicious, contact us to get the plugin investigated and removed.
+Hvis du finder sikkerhedsbrister i tredjeparts plug-ins, så kontakt plug-in udvikleren på GitHub. hvis du mener at et plug-in er skadeligt eller ondsindet, så kontakt os, så vi kan undersøge plug-in'et og fjerne det, hvis det er.

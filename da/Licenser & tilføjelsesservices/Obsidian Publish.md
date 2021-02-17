@@ -85,15 +85,14 @@ Simply proxy all requests under that URL path to `https://publish.obsidian.md/se
 For example, in NGINX, you can set it up as:
 ```nginx
 location /my-notes {
-  rewrite ^/my-notes/(.*) /serve?url=my-domain.com/my-notes/$1 break;
-  proxy_pass https://publish.obsidian.md/;
+	proxy_pass https://publish.obsidian.md/serve?url=my-domain.com/my-notes/;
 }
 ```
 
 In Apache `.htaccess`, you can set it up as:
 ```htaccess
 RewriteEngine  on
-RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/$1"  [P]
+RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=my-domain.com/my-notes/$1"  [L,P]
 ```
 
 If you're using Netlify, you can set it up as:

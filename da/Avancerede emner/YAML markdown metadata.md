@@ -1,25 +1,26 @@
 ---
-aliases: front matter
+aliases: metadata
 ---
 
-YAML front matter is how file-level metadata lives in Obsidian.
+Obsidian anvender YAML front matter metadata som metadata på filniveau.
 
-Front matter is essentially a section of plain text attributes placed at the very top of the file. Front matter was popularized by static generators like Jekyll, Hugo, and Gatsby. It's one of the most popular ways to put metadata in a Markdown file.
+Front matter er essentielt en sektion af rene tekstattributter placeret helt i toppen af en fil. Front matter blev populære af statiske HTML generatorer såsom Jekyll, Hugo, and Gatsby. Det er en af de mest populære måder, at have metadata i en Markdown fil.
 
-Front matter is a YAML block with **triple dashes** both before and after. ==It also needs to be placed at the very top of the file.==
+Front matter er en YAML sektion med **tredobbelte bindestreger** både før og efter.
+==Denne sektion skal placeres helt i toppen af filen.==
 
-For example:
+Som eksempel:
 
 ```
 ---
-key: value
-key2: value2
-multiple: [one, two, three]
-multiple:
-- one
-- two
-- three
+nøgle: værdi
+nøgle2: værdi2
+mange: [en, to, tre]
+mange:
+- en
+- to
+- tre
 ---
 ```
 
-As of 0.9.17, [[Tilføj aliasser til note|alias]] uses front matter. We'll gradually make it more accessible by plugin developers and more user friendly.
+Efter version 0.9.17 benyttes front matter til [[Tilføj aliasser til note|aliasser]] . Vi vil efterhånden gøre funktionaliteten mere tilgængelig for udviklere og mere brugevenlig.
