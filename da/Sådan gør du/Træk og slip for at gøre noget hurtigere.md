@@ -1,6 +1,6 @@
 Du kan benytte træk og slip i mange situationer i Obsidian for at øge tempoet.
 
-Udover at [[Arbejde med flere noter#5 Paneler kan omarrangeres ved at trække dem rundt|trække paneler]] kan du også trække filer for at udføre mane opgaver.
+Udover at [[Arbejde med flere noter#5 Paneler kan omarrangeres ved at trække dem rundt|trække paneler]] kan du også trække filer for at udføre mange opgaver.
 
 Du kan trække filer fra:
 

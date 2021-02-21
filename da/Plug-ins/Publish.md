@@ -57,7 +57,7 @@ Dit websted kan indeholde nogle få komponenter, som du kan aktivere eller deakt
 - Lokal graf (Som standard sat til)
 - Indholdsfortegnelse (Som standard slået fra)
 - Tilbagelinks i bunden (Som standard slået fra)
-- Søgebar (Som standard slået fra. Kræver stifinder)
+- Søgebjælke (Som standard slået fra. Kræver stifinder)
 
 #### Sikkerhed
 

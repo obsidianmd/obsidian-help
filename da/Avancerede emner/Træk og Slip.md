@@ -9,7 +9,7 @@ Der er mange måder at trække og slippe ting i Obsidian, så det bliver en mere
 
 ### Slip steder
 
-- Du kan slippe en fil på et panel for at åbne filen i det. Hold `Alt` inde for at slippe et eller andet sted i panelet.
+- Du kan slippe en fil på en panel titel for at åbne filen i det. Hold `Alt` inde på Linux/Windows eller `Shift` på MacOS for at slippe et eller andet sted i panelet.
 - Du kan slippe en fil på en mappe i stifinderen for at flytte filen derhen.
 - Du kan slippe en fil ind i et redigeringspanel for at indsætte et link. Det genererede link følger dine indstillinger, såsom relative stier, eller benytter markdown links.
 - Du kan slippe en fil på favoritpanelet for at gøre filen til en favorit.
