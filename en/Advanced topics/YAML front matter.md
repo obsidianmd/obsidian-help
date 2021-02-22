@@ -23,3 +23,5 @@ multiple:
 ```
 
 As of 0.9.17, [[Add aliases to note|alias]] uses front matter. We'll gradually make it more accessible by plugin developers and more user friendly.
+
+Currently three keys are natively supported: `tags`, `aliases` and `cssClass`.
