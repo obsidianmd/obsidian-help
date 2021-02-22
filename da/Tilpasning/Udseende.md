@@ -1,17 +1,17 @@
-### Base mode
+### Standard tilstand
 
-Obsidian comes with two "Base Modes", light and dark. Dark is the default. We call it a "mode" rather than a "theme" because the base mode is the foundation that a custom theme works on top of.
+Obsidian kommer med to "Standard tilstande", lys og mørk. Mørk er standard. Vi kalder det en "tilstand" og ikke et "tema" fordi standard tilstanden er det grundlag, som brugerdefinerede temaer bygger på.
 
-You can change your base mode in Settings -> Appearance.
+Du kan ændre din standard tilstand i "Indstillinger -> Udseende".
 
-### Custom theme
+### Brugerdefineret tema
 
-As a great starting point, once you enable custom CSS, there are lots of community themes contributed by our amazing community that you can easily choose from.
+Hvis du aktiverer brugerdefineret CSS, vi lder som udgangspunkt være en lang række fællesskabs temaer til rådighed, som er udviklet af vores fantastiske fælleskab, som du nemt kan vælge fra.
 
-Once you choose a community theme, you can still add your own tweaks to it by modifying the `obsidian.css` file.
+Når du har valgt et fællesskabstema kan du stadig tilføje dine egne forbedringer ved at modficere `obsidian.css` filen.
 
-### Translucency
+### Gennemsigtighed
 
-You can make the window translucent by enabling this option in the settings appearance tab. Currently this option is only available for Windows and macOS.
+Du kan gøre applikationsvinduet gennemsigtigt ved at aktivere denne funktion i "Indstillinger -> Udseende". På nuværende tidspunkt er denne funktion kun tilgængelig på Windows og macOS.
 
-There is a known issue under Windows where dragging the window is extremely slow when translucency is enabled. This is due to a Windows bug. A Github issue tracking the status of a fix can be found here: https://github.com/riverar/sample-win32-acrylicblur/issues/2
+Der er et kendt problem i Windows, at applikationsvinduet kan være utrolig langsom at trække i, hvis gennemsigtighed er aktiveret. Dette er en fejl i Windows. Der er oprettet et Github "issue", som følger status på en eventuelt løsning på problemet: https://github.com/riverar/sample-win32-acrylicblur/issues/2

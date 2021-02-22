@@ -1,52 +1,52 @@
-One of the things that makes Obsidian different from other note-taking apps is how easy it is to open multiple files in your preferred configuration.
+En af de ting som adskiller Obsidian fra andre notetagningsapplikationer er hvor nem det er at åbne flere filer i din foretrukne konfiguration.
 
-The window a file gets opened in is what we call a "pane". You can have as many panes as you like.
+Det vindue som en fil åbnes i, er det vi kalder et "panel". Du kan have lige så mange paneler, som du har brug for.
 
-### Open new panes
+### Åbne nye paneler
 
-#### Open links
+#### Åbne links
 
-In general, you can click a link to a file while holding Ctrl (on Windows and Linux) or Cmd (on macOS) to open it in a new pane. This includes clicking on files in [[Stifinder]], [[Søg]] results, [[Tilbagelinks]], [[Grafvisning]], etc.
+Generelt kan du klikke på et link til en fil og holde Ctrl (på Linux og Windows) eller Cmd (på macOS) inde for at åbne den i et nyt panel. Det gælder, når du klikker i [[Stifinder|stifinderen]], [[Søg|søgeresultater]], [[Tilbagelinks]], [[Grafvisning]], osv.
 
-The only notable exception is in the editor. Because in the editor, a single click edits the link text rather than following it, `Ctrl/Cmd-Click` is used to follow the link. Therefore, you'll need to hold Shift in addition to Ctrl/Cmd in order to open the link in a new pane.
+Den eneste undtagelse er i redigeringstilstand. Fordi her vil et klik sætte tekstmarkøren i linket for at redigere det og ikke følge det. Så i stedet skal du holde `Ctrl/Cmd-Click` nede og så klikke for at følge linket. Hvis du holder `Shift` tasten nede samtidig med `Ctrl/Cmd-Click` vil linket blive åbnet i et nyt panel.
 
-#### Split current pane
+#### Dele nuværende panel
 
-You can also use the "More options" menu option of a pane to select "Split vertically" or "Split horizontally" to open two copies of that file.
+Du kan også benytte "Flere muligheder" menuen i panelet og vælge "Split lodret" eller "Split vandret" for at åbne en kopi af filen.
 
-#### Open linked views
+#### Åben linkede visninger
 
-Some options in the "More options" menu will also open a new pane that's linked to the current pane, such as "Open backlinks" and "Open local graph".
+Nogle funktioner i "Flere muligheder" menuen kan også åbne et nyt panel, som er linket til det nuværende panel, f.eks. "Åben tilbagelinks" og "Åben lokal graf".
 
-### Rearrange panes
+### Omarrangere paneler
 
-To move a pane, simply drag the pane icon in the top left corner of the pane. As you drag it around, a visual indicator will appear to show where the pane will be placed. Dropping onto each of the four sides of an existing pane creates a horizontal or vertical split, and dropping in the center swaps positions with the target pane. 
+For at flytte et panel, kan du trække i panelikonet i øverste venstre hjørne af panelet. Mens du trækker panelet rundt, vil du kunne se en visuel indikation af, hvor panelet kan placeres. Slipper du på en af de fire sider på et eksisterende panel vil du oprette et vandret eller lodret split, og slipper du i midten af et panel vil indholdet bytte plads.
 
-You can also drag panes into the two sidebars. Panes in the sidebar work a bit differently, for more please see the [[Panel layout#Panes in the sidebar]] section below.
+Du kan også trække paneler ud i de to sidebjælker. Paneler i sidebjælkerne fungerer lidt anderledes, og du kan lære mere i sektionen [[Panel layout#Paneler i sidebjælken]] nedenunder.
 
-### Panes in the sidebar
+### Paneler i sidebjælken
 
-There are some differences with panes that live in the sidebars.
+Der er nogle forskelle med paneler, der ligger i sidebjælkerne og almindelige paneler.
 
-#### Sidebar panes can share space with tabs
+#### Sidebjælkepaneler kan dele plads med faner
 
-When your drop a pane onto a sidebar pane, a new tab will be created under that sidebar section. Different panes in the same sidebar section can be accessed by clicking on its tab icon.
+Når du slipper et panel øverst på en sidebjælpe vil der blive oprettet en fane i sidebjælken. Du kan få tilgang til de forskellige paneler i sidebjælken ved at klikke på dets faneikon.
 
-#### Sidebar panes do not show titles
+#### Titler vises ikke på sidebjælkepaneler
 
-This reduces clutter, but also means it's best to keep one or two important files like a scratch pad or the daily note for quick access, rather than having a dozen files open.
+Dette er for at undgå en rodet sidebjælke. Så det er bedre kun at benytte den til en eller to vigtige dokumenter, som f.eks. en kladdeblok eller daglig note, som du kan komme til hurtigt, i stedet for en masse åbne filer.
 
-To see the title of a file that's in the sidebar, hover over its tab icon.
+For at se filens titel kan du føre musemarkøren hen over faneikonet.
 
-#### Sidebar can be easily collapsed
+#### Sidebjælker kan nemt skjules
 
-If there are panes that you only need to look at from time to time, having them in the sidebar makes it really easy to toggle them with a hotkey or command.
+Hvis der er noter, du kun har brug for at se på en gang imellem, så er det nemt at have dem i sidebjælken. Så kan du se og skjule dem hurtigt med en genvejstast eller kommando.
 
-#### Toggle editor and preview in sidebar
+#### Skift mellem redigeringstilstand og forhåndsvisning i sidebjælken
 
-The hotkey to toggle between editor and preview only works in the main workspace. In the sidebar, you'll need to right click on the tab icon and select "Preview" or "Edit" to toggle between two modes.
+Genvejstasten for at skifte mellem redigeringstilstand og forhåndsvisning virker kun i hovedarbejdsområdet. I en sidebjælke skal du højreklikke på faneikonet og vælge "Forhåndsvis" eller "Rediger" for at skifte mellem de to tilstande.
 
-### Save and load pane layouts
+### Gemme og indlæse panel layouts
 
-The [[Arbejdsområder]] plugin makes it easy to come back to a particular pane layout. Give it a try!
+Plug-in'et [[Arbejdsområder]] gør det nemt at komme tilbage til et bestemt layout. Prøv det!
 

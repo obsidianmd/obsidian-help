@@ -1,13 +1,13 @@
-Most hotkeys are customizable in Obsidian.
+De fleste genvejstaster i Obsidian kan tilpasses.
 
-We only defined default hotkeys for the most commonly used commands, but if you frequently use a command, it would save you lots of time if you add a hotkey for it.
+Vi har kun defineret standard genvejstaster til de mest anvendte kommandoer, men hvis du ofte bruger en bestemt kommando, så vil det spare dig tid, hvis du tilføjer en genvejstast til den.
 
-For a list of default hotkeys, [[Tastaturgenveje|see here]].
+Du kan se en liste med standard genvejstaster [[Tastaturgenveje|her]].
 
-### Viewing hotkeys
+### Vise genvejstaster
 
-The fastest way to see the hotkey set for a command is to find the command in [[Kommandopalette]]. If there's a hotkey listed for that command, it's set.
+Den hurtigste måde, at se hvilken genvejstast en kommando har, er at finde kommandoen i [[Kommandopalette|kommandopaletten]]. Hvis der er en genvejstast vist for denne kommando, så er den sat.
 
-### Setting hotkeys
+### Tilføje genvejstaster
 
-To add a hotkey, remove a hotkey, or restore hotkeys to default, go to Settings - Hotkeys. Note that you can also filter the list, as the list of commands is quite long.
+For at tilføje en genvejstast, fjerne en genvejstast, eller gendanne til standard genvejstasterne skal du gå til "Indstillinger -> Genvejstaster". Bemærk at du også kan filtrere listen, da listen er temmelig lang.

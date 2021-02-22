@@ -1,39 +1,40 @@
-## Obsidian slides demo
+## Obsidian slides demonstration
 
-To view slides, you'll need to enable the "Slides" plugin.
-This can be done through the "Settings" button on the bottom left.
+For at vise slides skal du aktivere "Slides" plugin'et.
+Dette kan gøres via "Indstillinger -> Kerne plug-ins" inederste venstre hjørne.
 
----
-
-## Obsidian goals
-
-- Longevity
-- Foster network
-- Personalized
 
 ---
 
-## Longevity
+## Mål med Obsidian
 
-- Local files on your hard disk
-- Plain text, no proprietary format
-- Markdown for maximum portability
-  - the most popular plain text format that can be edited in other apps
-
----
-
-## Foster knowledge network
-
-- [[Interne links|Internal links]]
-- Link auto-complete
-- See backlinks to and unlinked mentions of current note
-- Graph view
+- Levetid
+- Skabe vidennetwork
+- Personaliseret
 
 ---
 
-## Personalized
+## Levetid
 
-- We don't believe in a single, opinionated solution would work for everyone
-- Obsidian is plugin-based
-    - Enable or disable them based on your workflow
-    - Looking to allow third-party plugins to be developed after v1.0.0
+- Lokale filer på din harddisk
+- Klar tekst, intet proprietært format
+- Markdown format for maksimum portabilitet
+  - det mest poulære tekst format som kan redigeres i andre applikationer
+
+---
+
+## Skabe vidennetværk
+
+- [[Interne links|Interne links]]
+- Link auto-udfyldning
+- Se tilbagelinks og ikke-linkede omtaler af nuværende note
+- Grafvisning
+
+---
+
+## Personaliseret
+
+- Vi tror ikke på, at en enkelt alt-i-en løsning fungerer for alle
+- Obsidian er plug-in baseret
+    - Aktiver ller deaktiver dem baseret på din personlige arbejdsgang
+    - Vil tillade udvikling af tredjeparts plug-ins fra v1.0.0

@@ -2,7 +2,7 @@ Hvis du allerede redigerer på noten, kan du omdøbe den nemt ved at redigere te
 
 ![[Pasted image 6.png]]
 
-hvis du vil omdøbe en note som du ikke er ved at redigere, så gå til [[Stifinder|stifinderen]], højreklik p ånoten og vælg "Omdøb":
+Hvis du vil omdøbe en note som du ikke er ved at redigere, så gå til [[Stifinder|stifinderen]], højreklik på noten og vælg "Omdøb":
 
 ![[Pasted image 7.png]]
 

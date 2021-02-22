@@ -1,7 +1,6 @@
-Panes can be linked together. This has two main effects:
+Paneler kan sammenkædes. Det har to konsekvenser:
 
-- By default, when opening a new [[Forhåndsvis og Rediger tilstande|preview pane]] from an editing pane, the new pane is linked to the old one. This means that any changes you make in the editor will show up in the preview in real time. It also means that scrolling one will scroll the other.
+- Som standard vil et nyt panel blive sammenkædet til det gamle, hvis du åbner et nyt [[Forhåndsvis og Rediger tilstande|forhåndsvisningspanel]] fra et panel i redigeringstilstand. Det betyder at alle de ændringer du laver i redigeringspanelet vil blive vist øjblikkeligt i forhåndsvisningpanelet . Det gælder også hvis du ruller op eller ned i noten, så vil den anden også rulle med.
+- Når der oprettes et nyt [[Arbejde med tilbagelinks|tilbagelinkspanel]] fra en note, vil det være sammenkædet til den note. Det betyder at tilbagelinks altid bliver vist for noten i det panel. Det er nyttigt hvis du vil refererere til et sæt tilbagelinks, men vil lade det almindelige tilbagelinkspanel ændre dynamisk til de andre noter, du arbejder på.
 
-- When a new [[Arbejde med tilbagelinks|Backlink Pane]] is created from a note, it will be linked to that note. This means that backlinks will always be shown for the note that is in that pane. This is useful if you want to reference a set of backlinks but let the regular backlink panel change with whatever other note you are working on.
-
-Linked panes will be marked with a link icon. You can hover the link to see which pane it's linked to, or click the icon to release it, so that they are no longer linked. This will not close the previously-linked pane.
+Sammenkædede paneler bliver markeret med et linkikon. Du kan føre musemarkøren over linkikonet for at se hvilket panel, det er sammenkædet til, eller klikke på ikonet for at bryde sammenkædningen, så de ikke længere er sammenkædet. Dette vil ikke lukke tidligere sammenkædede paneler.
