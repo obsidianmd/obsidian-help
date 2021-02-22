@@ -46,4 +46,4 @@ If you wish to hide the tasks in your notes so that you see them only in edit mo
 
 The lower the number after `#TODO`, the higher it will appear in the list. The lowest number is `0` and you can also use numbers like this: `0.01`.
 
-When you move around the cards in imdone, they get automatically updated in Obsidian. If you edit them in Obsidian, the changes are automatically reflected in imdone.
+When you move around or edit the cards in imdone, they get automatically updated in Obsidian. If you edit them in Obsidian, the changes are automatically reflected in imdone.
