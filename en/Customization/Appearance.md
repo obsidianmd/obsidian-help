@@ -8,7 +8,7 @@ You can change your base mode in Settings -> Appearance.
 
 As a great starting point, once you enable custom CSS, there are lots of community themes contributed by our amazing community that you can easily choose from.
 
-Once you choose a community theme, you can still add your own tweaks to it by modifying the `obsidian.css` file.
+Once you choose a community theme, you can still add your own tweaks to it by modifying the `obsidian.css` file. (*Note that you may need to create the `obsidian.css` file in your project directory*)
 
 ### Translucency
 
