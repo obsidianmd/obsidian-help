@@ -17,15 +17,9 @@ If you are creating your own theme, you can do this by:
 
 For more information on how to customize styles of the graph, you can find more information in [[Graph view]].
 
-### Use 'obsidian.css'
-
-> This is currently marked as a legacy setting.
-
-This configuration can be found in `Settings` > `Appearance` > `Apply custom CSS` as a toggle in your vault settings.
-
 ### Use Themes and/or CSS snippets
 
-You can find this configuration below the legacy option. You can choose a community theme or set the theme you developed yourself. If you set a community theme, it will be automatically placed in the correct folder. If you develop your own theme, you have to put it in the shown folder location yourself. 
+You can find this configuration under Appearance in the settings. You can choose a community theme or set the theme you developed yourself. If you set a community theme, it will be automatically placed in the correct folder. If you develop your own theme, you have to put it in the shown folder location yourself.
 
 CSS snippets are supposed to be small pieces of CSS for small changes you want to make/things you want to add. These snippets have to be placed in the shown directory.
 
