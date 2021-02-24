@@ -56,6 +56,9 @@ For at tilpasse dit websteds udseende kan du overføre enten  `obsidian.css` ell
 ##### Favicon
 For at ændre dit websteds favicon kan du overføre `png` ikoner i hvilken som helst størrelse i følgende navneformat: `favicon-32.png` eller `favicon-32x32.png`. Du kan også overføre filen `favicon.ico`. Disse filer kan lægges i alle mapper. Vi anbefalder (i 2020) at anvende en af disse størrelser: `32×32`, `128x128`, `152×152`, `167x167`, `180x180`, `192x192`, og `196x196`.
 
+##### Forhindre søgemaskine indeksering
+Denne mulighed tilføjer et meta noindex tag til alle dine sider, så søgemaskiner som Google ikke indekserer dit websted. Bemærk at søgemaskiner ikke er i stand til at indeksere dit websted, hvis det er kodeordsbeskyttet.
+
 ### Brugerdefineret domæne
 Du kan opsætte et eget domæne eller subdomæne til dit Obsidian Publish websted. På nuværende tidspunkt har vi ikke en måde vi kan udstede et SSL certifikat på dine vegne, så du skal enten ty til at lave din egen SSL aktiverede webserver, eller opsætte dit websted på CloudFlare, som tilbyder gratis SSL.
 
