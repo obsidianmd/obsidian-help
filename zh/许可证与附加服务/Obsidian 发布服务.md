@@ -84,12 +84,14 @@ Obsidian 发布服务作为内置功能可以让你选用库中的笔记来直�
 
 如果你希望托管自己的 web 服务器并设置自己的 SSL 加密，则可以选择此选项。如果你已经托管一个网站在你的域或子域，你也可以通过使用这个选项让你的网站以特定的 URL 路径加载你通过 Obsidian 发布的网站。 
 
-要做到这点，只需简单地将所有该 URL 路径下的请求代理到 `https://publish.obsidian.md`，并在 Obsidian 的网站设置中配置相同的 URL 路径。
+要做到这点，只需简单地将所有该 URL 路径下的请求代理到 `https://publish.obsidian.md/serve?url=my-domain.com/my-subpath/...`，并在 Obsidian 的网站设置中配置相同的 URL 路径。
 
 比如，在 NGINX 中，你可以如下设置：
 ```nginx
-location /my-notes/ {
-    proxy_pass https://publish.obsidian.md/;
+location /my-notes {
+	proxy_pass https://publish.obsidian.md/;	  rewrite ^/my-notes/(.*) /serve?url=my-domain.com/my-notes/$1 break;
+	proxy_pass https://publish.obsidian.md/;
+  	proxy_ssl_server_name on;
 }
 ```
 
