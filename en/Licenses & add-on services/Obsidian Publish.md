@@ -60,6 +60,10 @@ To customize the styling of your site, you can upload either `obsidian.css` or `
 
 To change the favicon of your site, you can upload `png` icons of any size in the format of `favicon-32.png` or `favicon-32x32.png`. You can also upload the file `favicon.ico`. These files can be stored in any folder. The current recommendation (as of 2020) is to provide sizes `32×32`, `128x128`, `152×152`, `167x167`, `180x180`, `192x192`, and `196x196`.
 
+##### Disallow search engine indexing
+
+This option adds a meta noindex tag to all your pages so search engines like Google does not index your site. Note that search engines won't be able to index your site anyway if it's password protected.
+
 ### Custom domain
 
 You can setup a custom domain or subdomain for your Obsidian Publish site. Currently, we don't yet have a way to provision SSL certificate on your behalf, so you need to resort to either an SSL-enabled server of your own, or to setup your site on CloudFlare, which provides SSL for free.
@@ -80,19 +84,20 @@ Once you are done with configuring CloudFlare, you can head to your site options
 
 If you wish to host your own web server and setup your own SSL encryption, you can choose this option. If you are already hosting a website under your domain or subdomain, you can also use this option and setup your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
 
-Simply proxy all requests under that URL path to `https://publish.obsidian.md` and configure the site options in Obsidian to the same URL path.
+Simply proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=my-domain.com/my-subpath/...` and configure the site options in Obsidian to the same URL path.
 
 For example, in NGINX, you can set it up as:
 ```nginx
-location /my-notes/ {
-    proxy_pass https://publish.obsidian.md/;
+location /my-notes {
+  proxy_pass https://publish.obsidian.md/serve?url=my-domain.com/my-notes/;
+  proxy_ssl_server_name on;
 }
 ```
 
 In Apache `.htaccess`, you can set it up as:
 ```htaccess
 RewriteEngine  on
-RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/$1"  [P]
+RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=my-domain.com/my-notes/$1"  [L,P]
 ```
 
 If you're using Netlify, you can set it up as:
@@ -112,10 +117,10 @@ Once you setup your custom domain, if you've visited your site from your previou
 
 Obsidian Publish is still in its early days. Here are some features we plan to add:
 
-- Full custom domain support (with SSL certificate provisioning)
-- Full text search
-- Various integrations, such as Disqus, Discourse, etc
-- More built-in themes
+- Full custom domain support (with SSL certificate provisioning).
+- Full text search.
+- Various integrations, such as Disqus, Discourse, etc.
+- More built-in themes.
 
 Please let us know if you have any Obsidian Publish feature requests by submitting a [forum request here](https://forum.obsidian.md/).
 
