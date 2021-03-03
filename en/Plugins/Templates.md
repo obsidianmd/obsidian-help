@@ -12,6 +12,10 @@ After setting up the folder location, using the ribbon icon to insert the templa
 
 The template snippet will be inserted in the current caret position, with special text replaced by their actual value at the time of the insertion (see below).
 
+### Insert title
+
+If you want to insert the title of a note, you can set it in a template with `{{title}}`.
+
 ### Insert date and time
 
 In the plugin settings of Template, you can also set a date format and a time format.
