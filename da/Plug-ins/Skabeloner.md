@@ -11,6 +11,9 @@ Når du har angivet en skabelonmappe kan du benytte "Indsæt skabelon" ikonet fr
 
 Skabelon tekststykket vil blive indsat på markørens position i noten, og speciel tekst vil blive erstattet af deres faktiske indhold på det tidspunkt, hvor tekststykket indsættes (Se forneden).
 
+### Indsæt titel
+Hvis du vil indsætte notens titel, kan du gøre det i skabelonen med `{{title}}`.
+
 ### Indsæt dato og tid
 I indstillingerne for skabelon plug-in'et kan du også angive et datoformat og et tidsformat.
 

@@ -50,8 +50,7 @@ Når en besøgende klikker på et tag kan de se en liste med andre sider, som og
 Når du fører musemarkøren over links vil indholdet blive vist i et popup vindue. Dette fungerer på samme måde som [[Forhåndsvisning af note]] plug-in'et i Obsidian.
 
 ##### Brugerdefineret CSS
-For at tilpasse dit websteds udseende kan du overføre enten  `obsidian.css` eller `publish.css` til dit websted. Disse filer skal ligge i rodmappen på dit websted. Du kan også overføre begge filer, så du kan benytte din foretrukne 
-`obsidian.css` og tilføje nogle ekstra justeringer i `publish.css`.
+For at tilpasse dit websteds udseende kan du overføre `publish.css` til dit websted. Denne fil skal ligge i rodmappen på dit websted. Du kan benytte dit eksisterende tema og tilføje nogle ekstra justeringer i `publish.css`.
 
 ##### Favicon
 For at ændre dit websteds favicon kan du overføre `png` ikoner i hvilken som helst størrelse i følgende navneformat: `favicon-32.png` eller `favicon-32x32.png`. Du kan også overføre filen `favicon.ico`. Disse filer kan lægges i alle mapper. Vi anbefalder (i 2020) at anvende en af disse størrelser: `32×32`, `128x128`, `152×152`, `167x167`, `180x180`, `192x192`, og `196x196`.
