@@ -14,12 +14,14 @@ For example:
 ---
 key: value
 key2: value2
-multiple: [one, two, three]
-multiple:
-- one
-- two
-- three
+key3: [one, two, three]
+key4:
+- four
+- five
+- six
 ---
 ```
 
 As of 0.9.17, [[Add aliases to note|alias]] uses front matter. We'll gradually make it more accessible by plugin developers and more user friendly.
+
+Currently three keys are natively supported: `tags`, `aliases` and `cssclass`.

@@ -54,7 +54,7 @@ When hovering over links, their content is displayed within a popup box. This wo
 
 ##### Custom CSS
 
-To customize the styling of your site, you can upload either `obsidian.css` or `publish.css`. These files must be stored in the root folder of your site. You can also upload both so you can use your existing `obsidian.css` and add some extra tweaks for publish in `publish.css`.
+To customize the styling of your site, you can upload a `publish.css`. This file must be stored in the root folder of your site. You can use your existing theme and add some extra tweaks for publish in `publish.css`.
 
 ##### Favicon
 
