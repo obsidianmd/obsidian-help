@@ -89,6 +89,31 @@ obsidian://action?param1=value&param2=value
 - `obsidian://search?vault=my%20vault&query=MOC`
 	这将打开名为 `my vault` 的库，然后打开该库的查询面板，并搜索 `MOC`。
 	
+#### `new` 动作
+
+描述：在库中创建一篇新笔记，并为笔记写入一些内容（可选）。
+
+可能用到的参数：
+
+- `vault` 既可以是库名称，也可以是库 ID，这和 `open` 动作里一样。
+- `name` 用于指定创建的笔记名称。新笔记的存放位置受设置中 `新建笔记的存放位置` 选项控制。
+- `file` 通过基于库的绝对路径来创建笔记。这将覆盖 `name` 的设置。
+- `path` 通过全局的绝对路径来创建笔记，这和 `open` 动作中的一样。该参数将覆盖 `vault` 和 `file` 的设置。
+- `content` 指定新笔记中的内容，该参数非必须。
+- `silent` 如果你不想打开新笔记，则设置此参数。
+
+示例：
+
+-`obsidian://new?vault=my%20vault&name=my%20note\` 这将打开名为 `my vault` 的库，并创建一篇名为 `my note` 的新笔记。
+-`obsidian://new?vault=my%20vault&path=path%2Fto%2Fmy%20note` 这将打开名为 `my vault` 的库，并在 `path/to/my note` 路径下创建一篇名为 `my note` 的新笔记。
+
+#### `hook-get-address` 动作
+
+描述：与 [Hook](https://hookproductivity.com/) 配合使用的动作，即复制当前笔记的 URI 到剪贴板，即点击该 URI 后自动生成一个 `open` 当前笔记的 URI 并复制到剪贴板。使用方式： `obsidian://hook-get-address`。
+
+可能用到的参数：
+
+- `vault` 用于指定库，可以是库名称也可以是库 ID。此参数非必须。如果不指定此参数，动作将指向当前或上次打开的库。
 
 ## 简写形式
 
