@@ -359,6 +359,8 @@ c & d
 
 Du kan også lave inline matematik som: $e^{2i\pi} = 1$ .
 
+Obsidian benytter [Mathjax](http://docs.mathjax.org/en/latest/basic/mathjax.html). Du kan se hvilke pakker, som er understøttet i Mathjax [her](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+
 ### Kommentarer
 
 Benyt `%%` for at omslutte kommentarer, som vil blive læst som Markdown, men vil ikke blive vist i forhåndsvisning.up in the preview.
@@ -399,6 +401,35 @@ sequenceDiagram
     John-->>-Alice: Hej Alice, jeg kan høre dig!
     John-->>-Alice: Det er godt!
 ```
+
+Obsidian understøtter links til noter i Mermaid:
+<pre><code>```mermaid
+graph TD
+
+Biologi --> Kemi
+
+class Biologi,Kemi internal-link;
+```</code></pre>
+
+En nemmere måde at gøre dette på, er følgende: ^376b9d
+<pre><code>```mermaid
+graph TD
+
+A[Biologi]
+B[Kemi]
+
+A --> B
+
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+```</code></pre>
+
+På den måde vil alle notenavne (i hvert fald indtil `Z[note navn]`) blive automatisk tildelt klassen `internal-link`, når du bruger dette kodestykke.
+
+Hvis du benytter specielle tegn i dine notenavne, skal de omkranses af citationstegn.
+`"⨳ specielt tegn"`
+
+Det ser ud på samme måde som når du benytter den [[Format your notes#^376b9d|anden måde]]:
+`A["⨳ specielt tegn"]`
 
 ## Udvikler noter
 Vi stræber efter den bedste kompabilitet uden at bryde eksisterende formater, derfor benytter vi en lidt uortodoks kombination af forskellige markdown formater. Det er stort set "CommonMark" med nogle funktionalitetstilføjelser fra "GitHub Flavored Markdown" (GFM), noget latex support, og vores egen indlejringssyntax, som du kan læse mere om under [[Accepterede filformater]].

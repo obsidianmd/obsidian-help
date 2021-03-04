@@ -15,12 +15,14 @@ Som eksempel:
 ---
 nøgle: værdi
 nøgle2: værdi2
-mange: [en, to, tre]
-mange:
-- en
-- to
-- tre
+nøgle3: [en, to, tre]
+nøgle4:
+- fire
+- fem
+- seks
 ---
 ```
 
 Efter version 0.9.17 benyttes front matter til [[Tilføj aliasser til note|aliasser]] . Vi vil efterhånden gøre funktionaliteten mere tilgængelig for udviklere og mere brugevenlig.
+
+På nuværende tidspunkt er følgende nøgler understøttet i Obsidian: `tags`, `aliases` og `cssClass`.

@@ -17,11 +17,13 @@ Hvis du vil oprette dit eget tema, kan du gøre det sådan:
 
 Ønsker du mere information om at tilpasse grafens udseende, så kan du finde den her: [[Grafvisning]].
 
-### Benyt 'obsidian.css'
+### Benyt teamer og/eller CSS kodestykker
 
-> Dette er for nuværende markeret som en ældre indstilling
+Du kan finde denne konfiguration under "Udseende" i indstillingerne. Du kan vælge et fællesskabs tema eller angive et tema, som du selv har udviklet. Hvis du vælger et fællesskabstema, vil det blive placeret automatisk i den rigtige mappe. Hvis du udvikler dit eget tema, skal du selv lægge det i den angivne mappe destination.
 
-Denne konfiguration kan findes i dine boksindstillinger under "Indstillinger -> Udseende -> Anvend brugerdefineret CSS" og kan aktiveres eller deaktiveres .
+CCS kodestykker er til små stykker CSS kode til små ændringer eller til små tilføjelser du ønsker. De kodestykker skal placeres i den angivne mappe.
+
+Du kan gå til de respektive mapper ved at klikke på mappeknapperne. Hvis mappen ikke er oprette endnu, vil den blive det. Hvis dit CSS kodestykke eller tema ikke bliver anvendt efter du har lagt dem der, kan du klikke på knappen ved siden af mappeikonet for at genopfriske listen.
 
 ## Obsidian Publish typografier
 

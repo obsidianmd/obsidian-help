@@ -1,14 +1,16 @@
-### Standard tilstand
+### Base tema
 
-Obsidian kommer med to "Standard tilstande", lys og mørk. Mørk er standard. Vi kalder det en "tilstand" og ikke et "tema" fordi standard tilstanden er det grundlag, som brugerdefinerede temaer bygger på.
+Obsidian kommer med to standard temaer, lys og mørk.
+
+Denne indstilling sætter standard farve skemaet, som dit tema vil benytte til at vise sin lyse eller mørke version.
 
 Du kan ændre din standard tilstand i "Indstillinger -> Udseende".
 
 ### Brugerdefineret tema
 
-Hvis du aktiverer brugerdefineret CSS, vi lder som udgangspunkt være en lang række fællesskabs temaer til rådighed, som er udviklet af vores fantastiske fælleskab, som du nemt kan vælge fra.
+Der er en lang række fællesskabs temaer til rådighed, som er udviklet af vores fantastiske fælleskab, som du nemt kan vælge fra.
 
-Når du har valgt et fællesskabstema kan du stadig tilføje dine egne forbedringer ved at modficere `obsidian.css` filen.
+Du kan nemt justere temaet ved at tilføje [[Tilføj brugerdefinerede temaer#Benyt teamer og eller CSS kodestykker|CSS kodestykker]].
 
 ### Gennemsigtighed
 
