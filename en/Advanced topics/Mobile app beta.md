@@ -22,7 +22,7 @@ Any folder in the vaults home directory will be considered a vault. If you copy 
 
 ### iOS
 
-Due to iOS security sandboxing, if you choose to create non-iCloud vault, it will be accessible by any other apps. Only built-in [[Obsidian Sync]] can access them.
+Due to iOS security sandboxing, if you choose to create non-iCloud vault, it won't be accessible by any other apps. Only the built-in [[Obsidian Sync]] can access them.
 
 An alternative is to put vaults on your [[#iCloud|iCloud Drive]]. iCloud comes with 5 GB of free storage and is natively supported by Apple.
 
