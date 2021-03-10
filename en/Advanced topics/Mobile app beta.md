@@ -32,7 +32,7 @@ As with Obsidian desktop, we provide our built-in paid [[Obsidian Sync]] service
 
 ### Android
 
-There are apps on the Play Store that lets you sync a folder on your phone with other devices, for example [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync&hl=en&gl=US).
+There are apps on the Play Store that let you sync a folder on your phone with other devices, for example [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync&hl=en&gl=US).
 
 However, we haven't tested these solutions. If you have success or experience with any of them, please let us know so we can supply the information on this page.
 
@@ -42,4 +42,4 @@ Our iOS app supports both [[Obsidian Sync]] and iCloud.
 
 #### iCloud
 
-When creating a vault, you can choose an existing vault on your iCloud Drive, or create a new one in your iCloud Drive. This lets you opening this vault from iCloud Drive on other devices.
+When creating a vault, you can choose an existing vault on your iCloud Drive, or create a new one there. This lets you open this vault from iCloud Drive on other devices.
