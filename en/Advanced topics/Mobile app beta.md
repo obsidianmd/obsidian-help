@@ -4,7 +4,11 @@ As of 2021/03/09, the mobile apps are in VIP-only closed beta. As it gets more s
 
 ## Getting started
 
-To access the beta, please [join our Discord](https://discord.gg/veuWUTm) and if you don't have your Catalyst badge yet, reach out to Silver on our server with your email address. Once you get your badge, you can access the beta as well as provide feedback in the #mobile channel.
+The mobile beta is currently only available to holders of the [VIP Catalyst license](https://obsidian.md/pricing).
+
+If you already have a VIP Catalyst license, [join our Discord](https://discord.gg/veuWUTm).  If you don't have your badge yet, reach out to Silver with the email address your license is associated with.
+
+Once you get your badge, you can access the beta as well as provide feedback in the #mobile channel.
 
 ## How do I provide feedback?
 
