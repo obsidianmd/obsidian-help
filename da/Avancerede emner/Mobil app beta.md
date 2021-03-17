@@ -3,7 +3,11 @@ Fra den 9. marts 2021 er Obsidian mobil apps i en lukket beta for VIPs. Efterhå
 
 ## Kom godt i gang
 
-For at få adgang til betaen, skal du [tilslutte dig vores Discord server](https://discord.gg/veuWUTm) og hvis du ikke har fået dit Calayst badge endnu, så skriv til Silver på serveren og angiv din email adresse. Når du har fået dit badge kan du tilgå betaen og give feedback i #mobile kanalen.
+Mobil beta programmet er kun tilgængeligt for ejere af [VIP Catalyst licensen](https://obsidian.md/pricing).
+
+Hvis du allerede har en VIP Catalyst licens, [så find mere information på vores Discord server](https://discord.gg/veuWUTm). Hvis du ikke har fået dit Calayst badge endnu, så skriv til Silver på Discord serveren og angiv din email adresse, som du benytter til Obsidian.
+
+Når du har fået dit badge kan du tilgå betaen og give feedback i #mobile kanalen.
 
 ## Hvordan giver jeg feedback?
 Den nuværende grupper af betatestere har adgang til #mobile kanalen på Discord såvel som den nye "Mobile" kategori på vores forum.
