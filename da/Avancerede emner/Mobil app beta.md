@@ -41,3 +41,11 @@ Vores iOS app understøtter både [[Obsidian Sync]] og iCloud.
 
 #### iCloud
 Når du opretter en boks, kan du vælge en eksisterende boks på dit iCloud drev, eller oprette et nyt på dit iCloud drev. Det gør dig i stand til, at kunne åbne boksen fra et iCloud drev på en anden enhed.
+
+#### Teknisk note om tredjeparts synkronisering, "Working copy", og andre lagersteder på iOS
+
+I øjeblikket understøtter Obsidian ikke "Working Copy" eller andre lignende apps, der eksponerer et virtuelt filsystem gennem "FileProvider". Det skyldes en begrænsning i iOS's sandkasse teknonlogi  og API.
+
+iOS's fildelings model på tværs af apps er designet til, at en app kan åbne, låse og arbejde med en fil af gangen. Det ser ikke ud til at modellen er designet ttil at en app kan arbejde samtidig med en hel mappe, der recursivt overvåger alle dens undermapper. For simple markdown editorer er det ikke et problem, men Obsidian er meget mere end det. Tilbagelinks, tags, stifinder, automatisk færdiggørelse af links, live indlejrede noter, hurtigskifter osv. arbejder alle på et helt hierarki af filer, så Obsidian vil blive ekstremt ramt af fejl, når den arbejde på en sådan mappe.
+
+Hvis du er en erfaren iOS udvikler, som ved hvordan man rekursivt overvåger en mappe fået fra `UIDocumentPickerViewController`, så hører vi gerne fra dig.
