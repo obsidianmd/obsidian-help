@@ -47,3 +47,11 @@ Our iOS app supports both [[Obsidian Sync]] and iCloud.
 #### iCloud
 
 When creating a vault, you can choose an existing vault on your iCloud Drive, or create a new one there. This lets you open this vault from iCloud Drive on other devices.
+
+#### Technical note on third party sync, Working Copy, and other storage locations on iOS.
+
+Currently Obsidian does not support Working Copy, or other similar apps that exposes a virtual file system through FileProvider. This is due to a technical limitation in iOS's sandboxing and API.
+
+iOS's cross-app file sharing model is well designed for an app to open, lock, and work with a single file at a time. It does not seem to be designed for an app to work simultaneously with an entire folder, recursively monitoring all of its subfolders. This means that for simple markdown editors, it's no problem, but Obsidian is so much more. Backlinks, tags, the file explorer, link auto-completion, live embedded notes, quick switcher, etc, all works off the entire hierarchy of files, so Obsidian will be extremely buggy when working with such a folder.
+
+If you're an experienced iOS developer who knows how to properly recursively monitor a folder obtained from `UIDocumentPickerViewController`, feel free to reach out.
