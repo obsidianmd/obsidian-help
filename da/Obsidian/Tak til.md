@@ -12,7 +12,7 @@ Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver 
 - cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
 - death_au ([website](https://about.me/death.au))<span class='flair mod-pop'>the Magician</span><span class='flair mod-pop' style='background-color:#F1C40F;color:#000;'>Team Gold</span>
 - Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
-- koala<span class='flair mod-pop'>Not a dev but I break things</span><span class='flair mod-pop'>Extreme Bug Finder</span>
+- koala<span class='flair mod-pop'>Extreme Bug Finder</span>
 - liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span><span class='flair mod-pop'>Plugin API Master</span><span class='flair mod-pop'>Volcano Veteran</span>
 - mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 - nickmilo ([Nick Milo](https://publish.obsidian.md/lyt-kit/_START+HERE))<span class='flair mod-pop'>Mappy McMapster</span>
