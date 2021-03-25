@@ -5,7 +5,7 @@ Fra den 9. marts 2021 er Obsidian mobil apps i en lukket beta for VIPs. Efterhå
 
 Mobil beta programmet er kun tilgængeligt for ejere af [VIP Catalyst licensen](https://obsidian.md/pricing).
 
-Hvis du allerede har en VIP Catalyst licens, [så find mere information på vores Discord server](https://discord.gg/veuWUTm). Hvis du ikke har fået dit Calayst badge endnu, så skriv til Silver på Discord serveren og angiv din email adresse, som du benytter til Obsidian.
+Hvis du allerede har en VIP Catalyst licens, [så find mere information på vores Discord server](https://discord.gg/veuWUTm). Hvis du ikke har fået dit Calayst badge endnu, [[Catalyst licens#Hvordan får jeg mine skinnende badges efter at jeg har opgraderet|kan du få det inde i dine kontoindstillinger]].
 
 Når du har fået dit badge kan du tilgå betaen og give feedback i #mobile kanalen.
 
@@ -17,9 +17,9 @@ For at holde styr på fejlrapporter og feature ønsker, så skriv dem i vores fo
 ## Hvor bliver mine bokse gemt?
 
 ### Android
-På Android er alle bokse placeret i Obsidian hjemmemappen  \`Documents/Obsidian\`. \`Documents\` mappen er typisk gemt på et SD kort eller i "Emulated storage".
+På Android er alle bokse placeret i Obsidian hjemmemappen `Documents/Obsidian`. `Documents` mappen er typisk gemt på et SD kort eller i "Emulated storage".
 
-Enhver mappe i \`Documents/Obsidian\` vil blive betragtet som en boks. Hvis du kopierer en mappe ind i Obsidian hjemmemappen vil den blive åbnet som en boks i Obsidian.
+Enhver mappe i `Documents/Obsidian` vil blive betragtet som en boks. Hvis du kopierer en mappe ind i Obsidian hjemmemappen vil den blive åbnet som en boks i Obsidian.
 
 ### iOS
 
