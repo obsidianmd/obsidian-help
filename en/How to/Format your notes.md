@@ -123,6 +123,10 @@ Example of this above image resized to 100 pixels wide:
 
 ### Links
 
+#### External links
+
+Markdown style links can be used to refer to either external objects, such as web pages, or an internal page or image.
+
 ```md
 http://obsidian.md - automatic!
 [Obsidian](http://obsidian.md)
@@ -131,7 +135,43 @@ http://obsidian.md - automatic!
 http://obsidian.md - automatic!
 [Obsidian](http://obsidian.md)
 
-Markdown style links can be used to refer to either external objects, such as web pages, or an internal page or image. If there are spaces in the url, they can be escaped by either using `%20` as a space, such as [Export options](Pasted%20image), or by enclosing the target in `<>`, such as [Slides Demo](<Slides Demo>).
+#### Obsidian URI links
+
+[[Using obsidian URI|Obsidian URI]] links can be used to open notes in Obsidian either from another Obsidian vault or another program.
+
+For example, you can link to a file in a vault like so (please note the [[Using obsidian URI#Encoding|required encoding]]):
+
+```md
+[Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
+```
+
+[Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
+
+You can link to a note by its vault name and file name instead of path as well:
+
+```md
+[Link to note](obsidian://open?vault=MainVault&file=MyNote.md)
+```
+
+[Link to note](obsidian://open?vault=MainVault&file=MyNote.md)
+
+#### Escaping
+
+If there are spaces in the url, they can be escaped by either using `%20` as a space, such as:
+
+```md
+[Export options](Pasted%20image)
+```
+
+[Export options](Pasted%20image)
+
+Or you can enclose the target in `<>`, such as:
+
+```md
+[Slides Demo](<Slides Demo>)
+```
+
+[Slides Demo](<Slides Demo>)
 
 ---
 
@@ -319,6 +359,30 @@ c & d
 
 You can also do inline math like $e^{2i\pi} = 1$ .
 
+Obsidian uses [Mathjax](http://docs.mathjax.org/en/latest/basic/mathjax.html). You can check which packages are supported in Mathjax [here](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+
+### Comments
+
+Use `%%` to enclose comments, which will be parsed as Markdown, but will not show up in the preview.
+
+```md
+Here is some inline comments: %%You can't see this text%% (Can't see it)
+
+Here is a block comment:
+%%
+It can span
+multiple lines
+%%
+```
+
+Here is some inline comments: %%You can't see this text%% (can't see it in preview)
+
+Here is a block comment: (can't see it in preview either)
+%%
+It can span
+multiple lines
+%%
+
 ### Diagram
 
 Obsidian uses [Mermaid](https://mermaid-js.github.io/) to render diagrams and charts. Mermaid also provides [a helpful live editor](https://mermaid-js.github.io/mermaid-live-editor).
@@ -338,6 +402,34 @@ sequenceDiagram
     John-->>-Alice: Hi Alice, I can hear you!
     John-->>-Alice: I feel great!
 ```
+
+Obsidian supports linking to notes in Mermaid:
+<pre><code>```mermaid
+graph TD
+
+Biology --> Chemistry
+
+class Biology,Chemistry internal-link;
+```</code></pre>
+
+An easier way to do it is the following: ^376b9d
+<pre><code>```mermaid
+graph TD
+
+A[Biology]
+B[Chemistry]
+
+A --> B
+
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+```</code></pre>
+
+This way, all the note names (at least until `Z[note name]`) are all automatically assigned the class `internal-link` when you use this snippet.
+
+If you use special characters in your note names, you need to put the note name in double quotes.
+`"⨳ special character"`
+It looks like this if you follow the [[Format your notes#^376b9d|second option]]:
+`A["⨳ special character"]`
 
 ## Developer notes
 
