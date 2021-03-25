@@ -20,13 +20,17 @@ Congratulations! After upgrading, you will find two buttons in the "Catalyst" se
 
 #### Discord badge
 
-Clicking on "Get Discord badge" will take you to Discord for authentication and then add badge for you. ==Please make sure you're in [our Discord server](https://discord.gg/veuWUTm) first.== If you don't have a Discord account, you'll also need to create one.
+==Please make sure to join [our Discord server](https://discord.gg/veuWUTm) first.==
+
+In [your account page](https://obsidian.md/account), click on "Get Discord badge", which will authenticate with Discord and add the badge for you automatically.
 
 #### Forum badge
 
-Clicking on "Get forum badge" will add badge to your forum account. 
+==Please make sure you've registered an account at [our forum](https://forum.obsidian.md) with the same email address.==
 
-==Please make sure your forum email is the same as your account email.== If they don't match, the badge can't be added. In that case, please change your email in the forum to be consistent with your account email.
+In [your account page](https://obsidian.md/account), click on "Get forum badge" , which will add the badge to your forum account.
+
+If your forum email doesn't match your account email, the badge can't be added. In that case, please change your email in the forum to be consistent with your account email.
 
 Please note that your forum badge is not a "badge" in the forum system, but a shiny gold tag right next to your name in all of your posts.
 
