@@ -131,5 +131,5 @@ Obsidian Syncではデータ暗号化のために業界標準のAES-256を使用
 
 興味のある方のために技術的詳細をメモしました。
 
-- 使用されている鍵導出関数 : scrypt with salt
+- 使用されている鍵導出関数: scrypt with salt
 - 使用されている暗号化アルゴリズム: AES-256 using GCM
