@@ -60,9 +60,17 @@ To customize the styling of your site, you can upload a `publish.css`. This file
 
 To change the favicon of your site, you can upload `png` icons of any size in the format of `favicon-32.png` or `favicon-32x32.png`. You can also upload the file `favicon.ico`. These files can be stored in any folder. The current recommendation (as of 2020) is to provide sizes `32×32`, `128x128`, `152×152`, `167x167`, `180x180`, `192x192`, and `196x196`.
 
+##### Custom JS
+
+If you wish to execute your own JavaScript code to change the visitor experience, or add various integrations like Discus!, Discourse, etc. you can do so by uploading `publish.js` inside the root of your vault. Note that these scripts will only run for visitors to your custom domain.
+
 ##### Disallow search engine indexing
 
 This option adds a meta noindex tag to all your pages so search engines like Google does not index your site. Note that search engines won't be able to index your site anyway if it's password protected.
+
+##### Google Analytics
+
+If you wish to setup Google Analytics for your site, first make sure your local laws and regulations allows. Then, you just need to put the tracking code, in the form of `UA-XXXXX-Y` into the text box and your site will automatically track page views. Note that Google Analytics is only available to visitors from your custom domain.
 
 ### Custom domain
 
@@ -115,13 +123,16 @@ If you're using Netlify, you can set it up as:
 
 Once you setup your custom domain, if you've visited your site from your previous `https://publish.obsidian.md/slug` link, you may have to clear your browser cache for certain things (like fonts, graphs, or password access) to work properly. This is due to the cross-domain security restrictions that are imposed by modern browsers. The good news is that readers of your site should never run into issue this if you only let visitors use your custom domain.
 
+#### Redirect old site to custom domain
+
+If you'd like to redirect your visitors from the old `publish.obsidian.md` site to your new custom domain, there is an option you can enable in the custom domain settings page which will do just that.
+
 ### Coming up
 
 Obsidian Publish is still in its early days. Here are some features we plan to add:
 
 - Full custom domain support (with SSL certificate provisioning).
 - Full text search.
-- Various integrations, such as Disqus, Discourse, etc.
 - More built-in themes.
 
 Please let us know if you have any Obsidian Publish feature requests by submitting a [forum request here](https://forum.obsidian.md/).
