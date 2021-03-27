@@ -20,12 +20,17 @@ Tillykke! Efter du har opgraderet kan du finde to knapper i "Catalyst" sektionen
 
 #### Discord badge
 
-Hvis du klikker på "Få Discord badge" vil du blive ført til Discord for at blive godkendt og du får derefter tilføjet dit badge. ==Du skal være medlem af [vores Discord server](https://discord.gg/veuWUTm) før det virker.== Hvis du ikke har en Discord konto, skal du også have oprettet en først.
+==Du skal være tilmeldt [vores Discord server](https://discord.gg/veuWUTm) først.==
+
+På din [konto side](https://obsidian.md/account) på Obsidians hjemmeside skal du klikke på "Få Discord badge", hvilket vil godkende dig på Discord og tilføje dit badge automatisk.
 
 #### Forum badge
-Hvis du klikker på "Få Forum bagde" vil du få tilføjet et badge til din forum konto.
 
-==Din forum konto email skal være den samme som din Obsidian konto email.== Hvis de ikke er ens, kan badget ikke tilføjes. Hvis det er tilfældet, så skift din forum email, så den er den samme, som din Obsidian konto email.
+==Du skal have registreret en konto på [vores forum](https://forum.obsidian.md) med den samme email, som din Obsidian konto.==
+
+På din [konto side](https://obsidian.md/account) på Obsidians hjemmeside skal du klikke på "Få Forum badge", hvilket vil tilføje dit badge til din forum konto.
+
+Hvis din email ikke er den samme som din Obsidian konto email, vil dit badge ikke kunne tilføjes. Hvis det er tilfældet, så skift din email på forummet, så det er det samme som til din Obsidian konto.
 
 Bemærk at dit forum badge ikke er et "badge" i forum systemet, men et skinnende guld tag ved siden af dit navn i alle dine indlæg.
 
