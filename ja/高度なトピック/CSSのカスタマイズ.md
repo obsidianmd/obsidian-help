@@ -4,7 +4,7 @@
 
 ### CSSに不慣れな方
 
-CSSに不慣れな場合には、コミュニティ上にCSSに慣れるためのクリックガイドがまとめられています:
+CSSに不慣れな場合には、コミュニティ上にCSSに慣れるためのクリックガイドがまとめられているのでご利用ください:
 
 > [Getting Comfortable with CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
 
