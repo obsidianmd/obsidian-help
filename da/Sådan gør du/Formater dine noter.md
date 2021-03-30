@@ -111,7 +111,7 @@ _Du **kan** kombinere dem_
 
 #### Tilpas billedstørrelsen
 
-Her er et eksempel p ovenstående billede ændret til 100 pixel bred.
+Her er et eksempel på ovenstående billede ændret til 100 pixel bred.
 
 ```md
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
