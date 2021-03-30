@@ -1,4 +1,4 @@
-Obsidian Unlimitedは好きな金額分だけObsidianの開発に寄付する方法です。好きなときに複数回、寄付することもできます。
+Obsidian Unlimitedは好きな金額分だけObsidianの開発に寄付する方法です。好きなときに複数回、寄付することも可能です。
 
 [Obsidianのアカウントページ](https://obsidian.md/account)にてログイン後に、ページ下部分からこのオプションを見つけることができます。
 
