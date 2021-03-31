@@ -24,17 +24,17 @@ Hvis du er en [Catalyst supporter](https://obsidian.md/pricing), og vil slå ins
 ## Arbejdsgange
 Obsidian er et værktøj, som kan bruges på mange måder, fra en simpel liste af noter til et kraftfuldt knowledge management system. Vi foreslår, at du begynder i dit eget tempo, og gør Obsidian til det værktøj, du har behov for.
 
-Her er en række måder, at komme i gang på:
+Her er en række måder at komme i gang på:
 
 Hvis du bare vil i gang med at tage noter, så læs: [[Grundlæggende notetagning]]
 
 Hvis du allerede har en samling noter i markdown format, så kan du bruge dem til din boks. Gå til Indstillingshjulet nederst til venstre, Vælg "Boks", og vælg den mappe dine noter ligger i.
 
-hvis du har noter fra Roam Research, Notion, eller andre systemer, så kan du [[Importer data|se her, hvordan du importerer dem]].
+Hvis du har noter fra Roam Research, Notion, eller andre systemer, så kan du [[Importer data|se her, hvordan du importerer dem]].
 
 Hvis du gerne vil vide mere om Obsidian, kan du [[Obsidian|læse vores historie]].
 
 Du kan forresten redigere i denne hjælpedokumentation, men det bliver overskrevet, næste gang du går ind i hjælpen. Så skriv ikke noget her, som du vil gemme.
 
-## Jeg har spørgsmål
+## Hvad hvis jeg har spørgsmål?
 Så bør du tilslutte dig vores [fællesskab!](https://obsidian.md/community). Vi har en aktiv Discord server og et forum, og fælleskabet er generelt meget hjælpsomt.
