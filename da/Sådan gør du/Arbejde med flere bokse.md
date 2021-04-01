@@ -1,6 +1,6 @@
 Hver samling af noter i Obsidian er kendt om en Boks. En Boks består af en mappe, og alle undermapper i den. Lige nu kigger du på `Obsidian Hjælp` Boksen, som bare er en mappe med filer inkluderet i Obsidian.
 
-Du kan åbne en anden Boks hvor somhelst å"din computer, og den vil beholde sin egne individuelle [[Plug-in liste]] og [[Tilføj brugerdefinerede temaer|brugerdefinerede temaer]]. Det er brugbart, hvis du f.eks. har en Boks, hvor du gemmer noter og en anden, hvor du skriver længere tekster.
+Du kan åbne en anden Boks hvor som helst på din computer, og den vil beholde sin egne individuelle [[Plug-in liste]] og [[Tilføj brugerdefinerede temaer|brugerdefinerede temaer]]. Det er brugbart, hvis du f.eks. har en Boks, hvor du gemmer noter og en anden, hvor du skriver længere tekster.
 
 En ny eller eksisterende Boks kan åbnes via tryk på knappen lige over Instillingsknappen.
 
