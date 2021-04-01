@@ -1,8 +1,10 @@
 Vi tror på, at [[Obsidian#Hvordan vi adskiller os fra andre|dine data altid skal ejes af dig og være under din kontrol]]. Dine noter er gemt i markdown format, som er et åbent format baseret på almindelige tekst filer, og derfor vil være læsbare i fremtiden på en hvilken somhelst computer, der kan håndtere tekstfiler. Du kan frit redigere noter i anden software, selv når de er åbne i Obsidian.
 
+### Data pr. boks
 Der er dog noget data, som er nødvendig for at Obsidian kan fungere, som ikke er markdown. Obsidian opretter en mappe kaldet `.obsidian` og indholdet der er ikke gemt i markdown. Mappen indeholder din konfiguration, inklusiv genvejstaster og hvilke plug-ins, som er aktiveret. Enhver mappe som begynder med `.` er usynlige som standard på de fleste operativsystemer, så du vil sandsynligvis ikke se til at den er der. Hvis du sletter denne mappe, så vil den data ikke forsvinde, men du vil miste din brugerdefinerede indstillinger. Mappen `.obsidian` vil blive oprettet igen, hvis du åbner boksen igen i Obsidian.
 Hvis du benytter `git`, er det nok bedst at sætte `.obsidian/workspace` filen til `ignore`, da den fil gemmer dine paneler og åbende filer, men vi har ikke observeret nogle problemer med at inkludere den.
 
+### System mappen
 Obsidian gemmer også noget information i system mappen. Den er forskellilg afhængig af dit operativsystem;
 - på Linux er det enten `$XDG_CONFIG_HOME/Obsidian/` eller `~/.config/Obsidian/`
 - på Mac er det `/Users/yourusername/Library/Application Support/obsidian`
