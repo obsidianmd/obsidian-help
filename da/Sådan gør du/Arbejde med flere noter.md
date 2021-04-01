@@ -2,7 +2,6 @@ Du kan redigere og vise flere filer på en gang i Obsidian.
 
 For effektivt at anvende opdelt skærmbillede skal du kun vide nogle få ting:
 
-
 ##### 1. ==Brug Ctrl/Cmd tasten== når du vil åbne ting i et nyt panel.
 
 Når du klikker på noget vil det åbne som standard i det aktive panel. Det aktive panel er markeret med en fremhævet bjælke under panelets titel og titlen er mere synlig end i de inaktive paneler.

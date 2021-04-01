@@ -8,7 +8,7 @@ Du kan indlejre vedhæftede filer som f.eks. billeder eller lyd i dine noter. Be
 
 Du kan indlejre en PDF fil i dine noter med den samme syntaks. Du kan yderligere skrive`![[Min Fil.pdf#page=sidenummer]]` for at åbne indlejringen direkte på den specifikke side i PDF filen.
 
-Hvis du trækker og slipper et billede ind i en note vil filen blive kopieret til standard mappen, hvor vedhæftninger gemmes. Billedet vil ligge der, som en helt normal fil og kan stadig tilgås gennem filsystemet. Du kan definere den mappe hvor vedhæftninger automatisk bliver placeret i under Indstillinger -> Filer & Links.
+Hvis du trækker og slipper et billede ind i en note vil filen blive kopieret til standard mappen, hvor vedhæftninger gemmes. Billedet vil ligge der, som en helt normal fil og kan stadig tilgås gennem filsystemet. Du kan definere den mappe hvor vedhæftninger automatisk bliver placeret i under "Indstillinger -> Filer & Links".
 
 ### Indlejre noter
 
