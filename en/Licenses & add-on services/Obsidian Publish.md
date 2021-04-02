@@ -90,6 +90,13 @@ Once you are done with configuring CloudFlare, you can head to your site options
 
 Troubleshooting: If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare to `Flexible` instead of `Full`.
 
+If you wish to configure both `my-site.com` and `www.my-site.com` to Obsidian Publish, you will need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) as follows:
+- URL match: `www.my-site.com/*`
+- Foward URL - 301 Permanent Redirect
+- Redirect URL: `https://my-site.com/$1`
+
+Once you create the page rule, you should also create a CNAME record for `www.my-site.com` just like you created for `my-site.com`
+
 #### Proxy/redirect setup
 
 If you wish to host your own web server and setup your own SSL encryption, you can choose this option. If you are already hosting a website under your domain or subdomain, you can also use this option and setup your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
