@@ -89,6 +89,13 @@ CloudFlareの設定が終了したら、Obsidianにてサイトオプション�
 
 トラブルシューティング: カスタムドメインのセットアッがリダイレクトループに陥った場合、CloudFlareの暗号化モードが `Full` ではなく `Flexible` になっている可能性があります。
 
+Obsidian Publishに対して `my-site.com` と `www.my-site.com` の両方を設定したい場合には、以下の通りに[ページルール](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules)を作成する必要があります。
+- URL match: `www.my-site.com/*`
+- Foward URL - 301 Permanent Redirect
+- Redirect URL: `https://my-site.com/$1`
+
+ページルールを作成したら、`my-site.com` 用に作成したのと同じように `www.my-site.com` 用にもCNAMEレコードを作成する必要があります。
+
 #### プロキシ/リダイレクトのセットアップ
 
 ユーザー自身のウェブサーバーをホストし、独自のSSL暗号化をセットアップしたい場合には、このオプションを選択してください。すでに所有しているドメインやサブドメイン下でウェブサイトをホストしている場合には、サイト全体をホストする代わりに特定のURLパス下でObsidian Publishによるサイトをロードするためにこのオプションを利用し、ウェブサイトをセットアップしてください。
