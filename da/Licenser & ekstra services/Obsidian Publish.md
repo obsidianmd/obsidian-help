@@ -79,6 +79,16 @@ Du skal kun tilføje en CNAME record til dit domæne eller underdomæne med vær
 
 Når du har konfigureret CloudFlare kan du fortsætte opsætningen af dine webstedindstillinger i Obsidian, og sætte URL'en til dit domæne eller underdomæne. Dette giver vores server tilladelse til at associere domænet til dit websted.
 
+Fejlfinding: Hvis din domæne opsætning ender i en redirigeringsløkke, er det højst sandsynligvis fordi krypteringstilstanden i CloudFlare er sat til `Flexible` i stedet for `Full`.
+
+Hvis du vil konfigurere både `mit-websted.com` og `www.mit-websted.com` til Obsidian Publish, skal du lave en [sideregel](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) som følgende:
+
+- URL match: `www.mit-websted.com/*`
+- Foward URL - 301 Permanent Redirect
+- Redirect URL: `https://mit-websted.com/$1`
+
+Når du har oprettet sidereglen bør du også oprette en CNAME record for `www.mit-websted.com` ligesom du oprettede en for `mit-websted.com`
+
 #### Proxy- og redirigeringsopsætning
 Hvis du selv ønsker at have din egen webserver og opsætte din egen SSL kryptering kan du vælge den mulighed. Hvis du allerede har et websted på dit domæne eller underdomæne, kan du også benytte denne mulighed og opsætte dit websted til at tilgå dit Obsidian Publish websted fra en specifik URL, i stedet for at kun benytte domænenavnet.
 
