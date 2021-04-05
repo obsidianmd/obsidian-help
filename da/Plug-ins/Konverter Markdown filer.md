@@ -4,6 +4,7 @@ Lige nu kan du konvertere:
 
 - Roam #tags til [[tags]]
 - Roam `^^fremhævning^^` til `==fremhævning==`
+- Bear `::highlight::` to `==highlight==`.
 - Zettelkasten `[[UID]]` links til fulde links `[[UID Fil Navn]]`
 - Zettelkasten `[[UID]]` links til pæne links `[[UID Fil Navn|Fil Navn]]`, som kun vil blive vist som  `Fil Navn`
 

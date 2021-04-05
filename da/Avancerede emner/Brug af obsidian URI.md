@@ -1,4 +1,6 @@
-Obsidian undersøtter en brugerdefineret URI protokol `obsidian://` som kan benyttes til at udløse forskellige handlinger i applikationen. Dette er almindeligt på MacOS, så applikationer kan snakke sammen..
+Obsidian undersøtter en brugerdefineret URI protokol `obsidian://` som kan benyttes til at udløse forskellige handlinger i applikationen. Dette er almindeligt på MacOS og mobil apps, så applikationer kan automatiseres og snakke sammen.
+
+Hvis du har Obsidian installeret, så vil dette link åbne appen på din enhed: [Klik her](obsidian://open)
 
 ## Installere Obsidian URI
 
