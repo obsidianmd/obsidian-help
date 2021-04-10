@@ -1,82 +1,82 @@
 # Obsidian for Android
 
-The Android app is currently in [[Mobile app beta|closed beta]], and is available as a signed APK.
+Android版アプリは現在[[ベータ版モバイルアプリ|クローズベータ]]であり、署名付きAPKとして利用可能です。
 
-## How do I sync my data?
+## データはどのようにして同期できますか？
 
-Obsidian for Android stores all vaults in the public documents folder on your device locally. You may choose to use [[Obsidian Sync]] to synchronize your files, or use any third party sync provider that can choose to sync with the public documents folder.
+Android版Obsidianではデバイス上のパブリックドキュメントフォルダ内に存在するすべての保管庫をローカルに保存しています。ファイルを同期するために[[Obsidian Sync]]を利用するか、パブリックドキュメントフォルダと同期することが可能な他のサードパーティ同期サービス提供者を利用するかを選択することができます。
 
-### Obsidian Sync
+### Obsidian Syncによる同期
 
-As with Obsidian desktop, we provide our built-in paid [[Obsidian Sync]] service.
+デスクトップ版Obsidianと同様に、モバイル版でもビルトインの[[Obsidian Sync]]による有料同期サービスを提供しています。
 
-To setup a synced vault through Obsidian Sync, first create a new empty local vault. Once the empty vault is open, open the left sidebar, tap the settings button, and setup Obsidian Sync just like you did on Desktop:
+Obsidian Syncを介して同期される保管庫のセットアップを行うには、まず空のローカル保管庫を新規作成してください。空の保管庫を開いたら左のサイドバーを展開し、設定ボタンをクリックしてください。デスクトップ版で行ったように次の手順でObsidian Syncの設定を行ってください。
 
-1. Login to your Obsidian account in the Account tab.
-2. Enable the Sync core plugin.
-3. Choose the remote vault to sync with.
-4. Keep the app open until all your files have synced over.
+1. アカウントタブからObsidianのアカウントにログイン
+2. 同期のコアプラグインを有効化
+3. 同期するリモート保管庫を選択
+4. 全ファイルが同期完了するまでアプリを開いたままの状態にする
 
-To view the sync status of Obsidian Sync, swipe to pull out the right drawer, and you should see the status indicator just like it shows on the desktop app. Tap on it to get more information, such as viewing the sync log to debug any issues.
+Obsidian Syncの同期ステータスを閲覧するためには、スワイプして右のドロワーを引き出すことで、デスクトップ版と同様に同期ステータスのインディケータを閲覧できます。デバッグを行うため同期ログ等の詳細情報を得たい場合には、インディケータをタップしてください。
 
-Note: If you use Obsidian Sync along with a third party sync service, please make sure to exclude `.obsidian/sync.json` in your third party sync to avoid breaking Obsidian Sync. This file is used to keep track of the state of synchronization for the local device, and might cause issues when it's accidentally synchronized.
+ノート: サードパーティの同期サービスと一緒にObsidian Syncを利用している場合には、Obsidan Syncで支障が起きないようサードパーティの同期サービスから`.obsidian/sync.json`の同期を除外するようにしてください。このファイルはローカルデバイスの同期ステータスを追跡するために使用されており、予期せず同期されてしまった場合には問題を引き起こす可能性があります。
 
-### Third party sync
+### サードパーティの同期サービスによる同期
 
-You can also use your preferred sync solution to keep the local folder on your phone in sync with other devices.
+端末内部のローカルフォルダを他のデバイスと同期させるために好きな同期方法を使用することができます。
 
-There are apps on the Play Store that let you sync a folder on your phone with other devices, for example [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) or [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
+携帯端末と他のデバイス間でのフォルダ同期を行うためのアプリをPlayストア上で見つけることができます。例えば、[Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync)や[FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)などのアプリがあります。
 
-However, we haven't tested these solutions. If you have success or experience with any of them, please let us know so we can supply the information on this page.
+しかしながら、これらの同期方法が確実に同期できるかどうかのテストは行っていません。これらのアプリにて同期に成功したり利用経験がある場合には、このページに追記できるように情報をお知らせください。
 
-## Where are my vaults stored?
+## 保管庫はどこに保存されますか？
 
-On Android, the Obsidian home folder is stored in the public documents folder under `Documents/Obsidian`. The public `Documents` folder is typically stored in SD card or emulated storage.
+AndroidではObsidianのホームフォルダは`Documents/Obsidian`の下にあるパブリックドキュメントフォルダに保存されています。パブリックの`Documents`フォルダは通常、SDカードもしくはエミュレートされたストレージに保存されています。
 
-Any folder in this home folder will be considered a vault. If you sync or copy a vault folder into this directory, it can be recognized when you open Obsidian.
+このホームフォルダ内のいかなるフォルダも保管庫として認識されます。このディレクトリ内に保管庫を同期またはコピーする場合には、Obsidianを開いた際に認識可能となります。
 
 # Obsidian for iOS
 
-The iOS app is currently in [[Mobile app beta|closed beta]], and is available through TestFlight.
+iOS版アプリは現在[[Obsidianモバイル|クローズベータ]]であり、TestFlightにて利用可能です。
 
-## How do I sync my data?
+## データはどのようにして同期できますか？
 
-Obsidian for iOS can store your vault either in iCloud, or locally. The two current tested and recommended sync solutions are iCloud and Obsidian Sync.
+iOS版ObsidianではiCloudかローカルに保管庫を保存できます。テストが実施された上で現在推奨している同期方法はiCloudとObsidian Syncの2つです。
 
-Any third party sync providers that can provide background-sync for a specific folder on your device should be able to work as well, but we are not aware of any. This is due to the limitations of the highly complex mechanism of cross-app file sharing in iOS, unlike Android which provides a public folder that all apps can access. Because of this, most third party sync providers don't have a proper implementation for background sync on iOS.
+デバイス上の特定フォルダをバックグラウンドで同期が可能であるサードパーティの同期サービスプロバイダであれば、2つの同期方法と同様に上手く機能するはずですが、あらゆるサービスが実際に機能するかどうかについては認識していません。これはiOSアプリ間でのファイル共有が高度に複雑な仕組みとなっており、その制約があるためです。すべてのアプリがアクセス可能なパブリックフォルダを提供しているAndroidの場合とは異なります。このため、多くのサードパーティの同期サービスプロバイダはiOSでのバックグラウンド同期に関する適正な実装を行っていません。
 
-### Obsidian Sync
+### Obsidian Syncによる同期
 
-You can follow the same steps as Android's sync as shown below, making sure that you create a non-iCloud folder if you don't wish to store a copy of your vault in iCloud:
+下に示したように、Androidでの同期と同様のステップに従うことで同期できます。iCloudにおける保管庫のコピーを保存したくない場合には、iCloud以外の場所にフォルダを作成するようにしてください。
 
-![[#Obsidian for Android#Obsidian Sync]]
+![[#Obsidian for Android#Obsidian Syncによる同期]]
 
-### iCloud Drive Sync
+### iCloud Driveによる同期
 
-To setup a synced vault through iCloud Drive, you must first install and open the Obsidian iOS app. This will create an app folder called "Obsidian" under your iCloud Drive, with a logo of the Obsidian app. Note that this folder is considered to be a special folder by iCloud and is different than a folder you manually create insider your iCloud Drive.
+iCloud Driveを介した同期のセットアップを行うには、まずはObsidianのiOSアプリをインストールする必要があります。これによってiCloud Driveの下に"Obsidian"という名前のフォルダがObsidianのアプリロゴとともに作成されます。このフォルダはiCloudから特殊フォルダとして認識されるため、iCloud Drive内部に手動で作成する場合のフォルダとは異なることに注意してください。
 
-Next, on your computer, move your vault folder into `iCloud Drive/Obsidian/`. Doing so will allow Obsidian to read the special app folder in your iCloud Drive.
+次に、コンピュータ上で保管庫のフォルダを`iCloud Drive/Obsidian/`に移動させてください。これによってObsidianがiClodu Drive内の特殊アプリフォルダを読み込みできるようになります。
 
-Let iCloud sync the entire vault folder, then on your mobile device, open the Obsidian app. You should now see the vault that you just put in, along with a cloud icon indicating it's stored in iCloud.
+保管庫フォルダ全体をiCloudで同期させたらモバイルデバイス上でObsidianのアプリを開いてください。iCloudで保存されていることを示すクラウドアイコンと共に移動させた保管庫の閲覧が可能になります。
 
-The first time you open that vault, Obsidian might freeze for a while because iCloud is downloading all the files in the background. Eventually once iCloud finish syncing everything over to the phone the app should work smoothly. This may require you to restart the app a few times though.
+初めて保管庫を開いた際には、iCloudがバックグラウンドですべてのファイルをダウンロードするためにObsidianがしばらくの間フリーズしているように見えるかもしれません。iCloudが一旦すべての同期を完了すれば、アプリはスムーズに動作するはずです。うまく行かない場合には何度かアプリを再起動する必要があるかもしれません。
 
-## Where are my vaults stored?
+## 保管庫はどこに保存されますか？
 
-If you choose to store your vault in iCloud, then it is stored in a container in your iCloud Drive account, under an app folder named "Obsidian", which should have an icon of our logo.
+iCloudで保管庫の保存を行う場合には、保管庫のデータは"Obsidian"という名前のアプリケーションフォルダの直下にあるiCloud Driveアカウント内コンテナに保存されることになります。アプリケーションフォルダはObsidianのロゴアイコンで表示されています。
 
-If you chose not to use iCloud, then your vault will be stored in the sandboxed file system of the Obsidian app. In v0.0.13 the local vault is only accessible by Obsidian. In the upcoming release, it will be exposed through Files, so you can access it from other apps on your device.
+iCloudでの同期を行わない場合には、保管庫はObsidianアプリのサンドボックスファイルシステムに保存されます。v0.0.13ではローカル保管庫はObsidianを介したアクセスのみが可能です。将来的なリリースでは、デバイス上の他のアプリからアクセスできるようにFilesアプリを介しての表示が可能になる予定です。
 
-Currently Obsidian does not directly support Working Copy, or other similar apps that exposes a virtual file system through FileProvider yet. We will be attempting this in the future as an improvement.
+現在、ObsidianはWorking CopyやFileProviderを介して仮想ファイルシステムを提供する他の類似アプリに対しての直接的なサポートは行っていません。
 
-# Third party sync support
+# サードパーティの同期サービスへのサポート
 
-Many users asks why Obsidian for Mobile doesn't support their preferred sync solution. Here's a brief explanation on the current state of mobile sync support.
+モバイル版Obsidianではなぜ他の同期方法をサポートしていないのかと多くのユーザーから質問されますが、現在のモバイル同期サポートの状況に対する簡単な説明をここに記載しておきます。
 
-The thing about Obsidian that's different from other apps like 1Writer and iA Writer is that Obsidian works on top of a vault rather than a single note. Many of the core Obsidian functionality depend on the whole vault and all the files inside, such as the link auto-complete, image embedding, tag pane, backlinks, and all the cross-note functionality.
+Obsidianが1WriterやiA Writerといった他のアプリと異なる部分の一つとしては、単一のノートというよりはむしろ保管庫のトップで機能するということが挙げられます。オートコンプリートや、画像埋め込み、タグペイン、バックリンク、そしてすべてのノート間機能などのObsidianが有するコア機能の多くは、保管庫全体とその内部に存在するすべてのファイルに依存しているからです。
 
-In contrast, most Markdown editing apps simply "open" a single note, let the user perform edits, then save the note back. Because of this, the OS and third party sync providers typically only provide an API for accessing/working with a single file, but not so much for working with a vault (folder of files with potentially subfolders).
+対照的に、多くのマークダウン編集アプリは単純に単一のノートを｢開き｣、ユーザーに編集させ、ノートをバックグラウンドで保存するような仕組みになっています。これによって、OSとサードパーティの同期サービスプロバイダは通常、保管庫(サブフォルダを持ちうるフォルダやファイル郡)を扱うというよりはむしろ、単一ファイルに対してのアクセスや作業のためのAPIを提供するのみとなっています。
 
-For sync, a regular markdown editor app can simply implement the basic "download file when you open a selected file" and "upload the file back when you press save". Obsidian has to download the whole vault to be useful, and keep track of all the modified files (like for example, when you perform a file rename, we might update a bunch of other files for links that has changed due to the rename). On top of that, we need a way to monitor for changes through the sync solution to be able to update our internal caches when files change, to provide accurate links.
+標準的なマークダウンエディタのアプリでは、同期のために｢選択したファイルを開いた際にファイルをダウンロード｣と｢保存を行った際にファイルをアップロードして戻す｣という基本機能を実装しているのみとなっています。Obsidianでは利便性と共に、変更があった全ファイル(例えば、ファイルのリネームを実行した際には、他のファイルに存在するリンク名が変更されるためにそれら一連のファイルを更新するなどの可能性があります)に対しての追跡を維持するため、保管庫全体をダウンロードする必要があります。その上で、同期ソリューションを介して変更を監視し、ファイル変更の際には内部キャッシュを更新して正確なリンクを提供する方法が必要となってきます。
 
-Keeping all that in sync with a third party sync provider would be quite tedious - and this is actually part of the reason why most sync providers don't make a proper sync client for mobile and you have to use a third party app (like DropSync or FolderSync) to do it. Unfortunately, such apps don't exist on iOS because of app sandboxing.
+それらすべてをサードパーティの同期サービスプロバイダが維持するというのは、かなり大変です。多くの同期サービスプロバイダがモバイル用に適切な同期クライアントを開発せず、ユーザーがサードパーティのアプリ(DropSyncやFolderSyncなど)を使用せざる負えないという事実があるのは、実際にこれが部分的な理由となっています。残念ながら、iOSではそのようなアプリはサンドボックスがあるために存在しえないのです。
