@@ -28,6 +28,8 @@ In Obsidian v0.9.21 or higher, you can enable Obsidian Sync by enabling the "Syn
 
 ### Setting up remote vaults
 
+Warning: We do not recommend using third party sync services to sync the same vault with Obsidian Sync. [[#Third party sync|More about this later]].
+
 To start syncing, first you need to create a remote vault that stores your encrypted data.
 
 To do that, go to Setting -> Sync -> Pick remote vault -> Choose -> Create new vault.
@@ -77,6 +79,17 @@ Excluded folders will be ignored when both uploading and download changes.
 #### File types
 
 You can toggle sync for images, audio, video, and PDF files under Settings -> Sync -> Selective sync.
+
+
+### Third party sync
+
+If you are using Obsidian Sync, we do not recommend using third party sync services like Dropbox, Google Drive, OneDrive, or iCloud to sync the same vault between the same devices using Obsidian Sync. Doing so may cause conflicts, duplicate files, or in the worst case, could lead to corrupted files.
+
+If you do setup Obsidian Sync and a third party sync service to sync a vault between two devices, then the following will happen:
+- If Obsidian Sync "wins" the race and syncs your file first, then your third party sync service will generate a "conflicted copy".
+- If your third party sync service "wins" the race and syncs your file first, then Obsidian Sync will attempt to merge the two slightly different versions, often causing the last few characters you just typed to be rolled back.
+
+If you wish to maintain a backup of your vault using a third party sync service, you can still do so by setting up your sync provider on your primary single device, but not on your secondary devices. This will ensure that your third party sync service does not "race" with Obsidian Sync.
 
 ### FAQ
 

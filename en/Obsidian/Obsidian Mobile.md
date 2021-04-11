@@ -47,7 +47,7 @@ Any third party sync providers that can provide background-sync for a specific f
 
 ### Obsidian Sync
 
-You can follow the same steps as Android's sync as shown below, making sure that you create a non-iCloud folder if you don't wish to store a copy of your vault in iCloud:
+You can follow the same steps as Android's sync as shown below, making sure that you create a non-iCloud folder as we do not recommend using both Obsidian Sync and iCloud Sync concurrently, which has been reported to cause data loss due to race conditions.
 
 ![[#Obsidian for Android#Obsidian Sync]]
 

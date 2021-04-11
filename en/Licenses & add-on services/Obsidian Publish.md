@@ -72,6 +72,10 @@ This option adds a meta noindex tag to all your pages so search engines like Goo
 
 If you wish to setup Google Analytics for your site, first make sure your local laws and regulations allows. Then, you just need to put the tracking code, in the form of `UA-XXXXX-Y` into the text box and your site will automatically track page views. Note that Google Analytics is only available to visitors from your custom domain.
 
+When testing Google Analytics, please make sure to disable any ad-blocking browser extensions like uBlock Origin which blocks Google Analytics scripts from running.
+
+Also, Obsidian Publish isn't directly compatible with Google Tag Manager at the moment - you can set it up using custom javascript if you wish to use Google Tag Manager instead of Google Analytics.
+
 ### Custom domain
 
 You can setup a custom domain or subdomain for your Obsidian Publish site. Currently, we don't yet have a way to provision SSL certificate on your behalf, so you need to resort to either an SSL-enabled server of your own, or to setup your site on CloudFlare, which provides SSL for free.
@@ -157,6 +161,16 @@ Obsidian Publish uses Cloudflare as the CDN (content delivery network) to distri
 However, this does mean that when you change site settings, publish new content, or unpublish content, visitors might not see the latest version for a short while. Currently, our cache is configured to persist for an hour before it has to be "re-validated" to ensure the content hasn't changed.
 
 If you've just published items but you are still seeing an older version, you can typically perform a "hard refresh" by holding the reload button and choosing "Hard reload" in the dropdown menu. Failing that, you can try clearing the browser cache or disabling cache using the developer tools in the network tab.
+
+#### Hosting media files
+
+While Obsidian Publish allows you to upload video clips, it is not optimized for video delivery. As such, your visitors may find that the videos on your site may not deliver a great experience.
+
+We recommend using a proper video hosting service like YouTube or Vimeo to host your videos for Obsidian Publish. The advantages of using a proper video hosting site includes:
+- Automatic re-encoding ensures that your videos can be played on all mobile devices regardless of what encoding format you used in your original file.
+- Dynamic quality adjustment based on bandwidth availability and ensures that videos can be played smoothly without constantly pausing for "buffering".
+- High efficiency video compression to ensure that visitors don't blow through their data cap when viewing your site.
+- Global CDN allowing your videos to be loaded fast regardless of where your visitor is located in the world.
 
 ---
 
