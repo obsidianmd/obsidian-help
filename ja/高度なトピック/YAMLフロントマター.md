@@ -14,12 +14,14 @@ YAMLフロントマターはObsidianにおける5つのレベルのメタデー�
 ---
 key: value
 key2: value2
-multiple: [one, two, three]
-multiple:
-- one
-- two
-- three
+key3: [one, two, three]
+key4:
+- four
+- five
+- six
 ---
 ```
 
 バージョン0.9.17時点において、[[ノートにエイリアスを追加する|エイリアス]]はフロントマターを利用します。これについては、よりプラグインデベロッパーからのアクセスを容易に、よりユーザーフレンドリーになるよう開発していく予定です。
+
+現在、3つのキーがネイティブサポートの対象です: `tags`、`aliases` と `cssclass`。

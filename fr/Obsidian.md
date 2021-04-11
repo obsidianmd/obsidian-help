@@ -30,7 +30,7 @@ Comme John Locke le dit...
 > 3. séparer ces idées de toutes les autres qui leur sont liées dans la vraie vie : cela s'appelle l'abstraction et permet d'en dégager des idées générales.
 
  \- John Locke, An Essay Concerning Human Understanding (1690)
- 
+
 La première composante est fournie par la hiérarchie tandis que la deuxième l'est par les liens. Nous ne savons toujours pas ce qu'implique la composante numéro 3 dans un contexte de prise de notes mais cela pourrait avoir quelque chose à voir avec la programmation ou les macros.
 
 ==*Votre boîte à outils personnelle*==
@@ -61,5 +61,5 @@ Notre fil Twitter est [@obsdmd](https://twitter.com/obsdmd), il n'y a pas grand 
 
 La documentation Obsidian a été écrite par [@mediapathic](http://mediapathic.net) avec l'aide de @reggie ainsi que beaucoup de relectures des utilisateurs de discord et de la commmunauté du forum.
 La traduction française a été réalisée par:
-- Joffrey SCHROEDER et Olivier ANTHONIOZ en août 2020. 
-- Daniel MATHIOT en janvier 2020. 
+- Daniel MATHIOT en janvier 2021.
+- Joffrey SCHROEDER et Olivier ANTHONIOZ en août 2020.

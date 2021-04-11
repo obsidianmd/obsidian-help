@@ -54,52 +54,80 @@ When hovering over links, their content is displayed within a popup box. This wo
 
 ##### Custom CSS
 
-To customize the styling of your site, you can upload either `obsidian.css` or `publish.css`. These files must be stored in the root folder of your site. You can also upload both so you can use your existing `obsidian.css` and add some extra tweaks for publish in `publish.css`.
+To customize the styling of your site, you can upload a `publish.css`. This file must be stored in the root folder of your site. You can use your existing theme and add some extra tweaks for publish in `publish.css`.
 
 ##### Favicon
 
 To change the favicon of your site, you can upload `png` icons of any size in the format of `favicon-32.png` or `favicon-32x32.png`. You can also upload the file `favicon.ico`. These files can be stored in any folder. The current recommendation (as of 2020) is to provide sizes `32×32`, `128x128`, `152×152`, `167x167`, `180x180`, `192x192`, and `196x196`.
 
+##### Custom JS
+
+If you wish to execute your own JavaScript code to change the visitor experience, or add various integrations like Discus!, Discourse, etc. you can do so by uploading `publish.js` inside the root of your vault. Note that these scripts will only run for visitors to your custom domain.
+
+##### Disallow search engine indexing
+
+This option adds a meta noindex tag to all your pages so search engines like Google does not index your site. Note that search engines won't be able to index your site anyway if it's password protected.
+
+##### Google Analytics
+
+If you wish to setup Google Analytics for your site, first make sure your local laws and regulations allows. Then, you just need to put the tracking code, in the form of `UA-XXXXX-Y` into the text box and your site will automatically track page views. Note that Google Analytics is only available to visitors from your custom domain.
+
+When testing Google Analytics, please make sure to disable any ad-blocking browser extensions like uBlock Origin which blocks Google Analytics scripts from running.
+
+Also, Obsidian Publish isn't directly compatible with Google Tag Manager at the moment - you can set it up using custom javascript if you wish to use Google Tag Manager instead of Google Analytics.
+
 ### Custom domain
 
 You can setup a custom domain or subdomain for your Obsidian Publish site. Currently, we don't yet have a way to provision SSL certificate on your behalf, so you need to resort to either an SSL-enabled server of your own, or to setup your site on CloudFlare, which provides SSL for free.
 
-You can also setup Obsidian Publish as a sub-URL of a site you own. For example, `https://my-site.com/my-notes/`. To achieve this, you must host your own server and proxy all requests to our server at `https://publish.obsidian.md/`.
+You can also setup Obsidian Publish as a sub-URL of a site you own. For example, `https://mysite.com/my-notes/`. To achieve this, you must host your own server and proxy all requests to our server at `https://publish.obsidian.md/`.
 
 Continue reading for setup details.
 
 #### CloudFlare setup
 
-The easiest way to setup a custom domain or subdomain is by making an account with CloudFlare and letting CloudFlare manage your domain. This allows you to add SSL to your site for free, as well as ensure your site is fast wherever in the world it's accessed from.
+The easiest way to setup a custom domain or subdomain is by making an account with [CloudFlare](https://cloudflare.com) and letting CloudFlare manage your domain. This allows you to add SSL to your site for free, as well as ensure your site is fast wherever in the world it's accessed from. Typically users will host their Obsidian Publish content on a root domain (e.g. mysite.com) or an immediate subdomain (e.g. notes.mysite.com). These instructions work for both cases.
 
-You'll only need to add a CNAME record to your domain or subdomain, with the value being `publish-main.obsidian.md`. Then, head to the SSL/TLS configuration and set the SSL/TLS encryption mode to `Full`. This will configure the SSL/TLS certificate automatically.
+1. Open Cloudflare to the domain you wish to add Publish to (e.g. mysite.com, even if you want a subdomain like notes.mysite.com).
+2. Go to DNS and click Add Record. Select CNAME, and in 'name' enter the domain or subdomain you wish (e.g. notes.mysite.com). In 'target', enter the value `publish-main.obsidian.md`. Do not include your personal sub-URL in this value, as Obsidian Publish handles this from your configuration. 
+3. Go to SSL/TLS and set the SSL/TLS encryption mode to `Full`. This will configure the SSL/TLS certificate automatically.
 
 Once you are done with configuring CloudFlare, you can head to your site options in Obsidian, and set the URL to your domain or subdomain. This allows our server to associate the domain to your site.
+
+Troubleshooting: If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare to `Flexible` instead of `Full`.
+
+If you wish to configure both `mysite.com` and `www.mysite.com` to Obsidian Publish, you will need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) as follows:
+- URL match: `www.mysite.com/*`
+- Foward URL - 301 Permanent Redirect
+- Redirect URL: `https://mysite.com/$1`
+
+Once you create the page rule, you should also create a CNAME record for `www.mysite.com` just like you created for `mysite.com`
 
 #### Proxy/redirect setup
 
 If you wish to host your own web server and setup your own SSL encryption, you can choose this option. If you are already hosting a website under your domain or subdomain, you can also use this option and setup your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
 
-Simply proxy all requests under that URL path to `https://publish.obsidian.md` and configure the site options in Obsidian to the same URL path.
+Simply proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=mysite.com/my-subpath/...` and configure the site options in Obsidian to the same URL path.
 
 For example, in NGINX, you can set it up as:
 ```nginx
-location /my-notes/ {
-    proxy_pass https://publish.obsidian.md/;
+location /my-notes {
+  proxy_pass https://publish.obsidian.md/serve?url=mysite.com/my-notes/;
+  proxy_ssl_server_name on;
 }
 ```
 
 In Apache `.htaccess`, you can set it up as:
 ```htaccess
 RewriteEngine  on
-RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/$1"  [P]
+RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.com/my-notes/$1"  [L,P]
 ```
 
 If you're using Netlify, you can set it up as:
 ```
 [[redirects]]
-  from = "https://my-domain.com/my-notes/*"
-  to = "https://publish.obsidian.md/serve?url=my-domain.com/my-notes/:splat"
+  from = "https://mysite.com/my-notes/*"
+  to = "https://publish.obsidian.md/serve?url=mysite.com/my-notes/:splat"
   status = 200
   force = true
 ```
@@ -108,14 +136,17 @@ If you're using Netlify, you can set it up as:
 
 Once you setup your custom domain, if you've visited your site from your previous `https://publish.obsidian.md/slug` link, you may have to clear your browser cache for certain things (like fonts, graphs, or password access) to work properly. This is due to the cross-domain security restrictions that are imposed by modern browsers. The good news is that readers of your site should never run into issue this if you only let visitors use your custom domain.
 
+#### Redirect old site to custom domain
+
+If you'd like to redirect your visitors from the old `publish.obsidian.md` site to your new custom domain, there is an option you can enable in the custom domain settings page which will do just that.
+
 ### Coming up
 
 Obsidian Publish is still in its early days. Here are some features we plan to add:
 
-- Full custom domain support (with SSL certificate provisioning)
-- Full text search
-- Various integrations, such as Disqus, Discourse, etc
-- More built-in themes
+- Full custom domain support (with SSL certificate provisioning).
+- Full text search.
+- More built-in themes.
 
 Please let us know if you have any Obsidian Publish feature requests by submitting a [forum request here](https://forum.obsidian.md/).
 
@@ -130,6 +161,16 @@ Obsidian Publish uses Cloudflare as the CDN (content delivery network) to distri
 However, this does mean that when you change site settings, publish new content, or unpublish content, visitors might not see the latest version for a short while. Currently, our cache is configured to persist for an hour before it has to be "re-validated" to ensure the content hasn't changed.
 
 If you've just published items but you are still seeing an older version, you can typically perform a "hard refresh" by holding the reload button and choosing "Hard reload" in the dropdown menu. Failing that, you can try clearing the browser cache or disabling cache using the developer tools in the network tab.
+
+#### Hosting media files
+
+While Obsidian Publish allows you to upload video clips, it is not optimized for video delivery. As such, your visitors may find that the videos on your site may not deliver a great experience.
+
+We recommend using a proper video hosting service like YouTube or Vimeo to host your videos for Obsidian Publish. The advantages of using a proper video hosting site includes:
+- Automatic re-encoding ensures that your videos can be played on all mobile devices regardless of what encoding format you used in your original file.
+- Dynamic quality adjustment based on bandwidth availability and ensures that videos can be played smoothly without constantly pausing for "buffering".
+- High efficiency video compression to ensure that visitors don't blow through their data cap when viewing your site.
+- Global CDN allowing your videos to be loaded fast regardless of where your visitor is located in the world.
 
 ---
 
