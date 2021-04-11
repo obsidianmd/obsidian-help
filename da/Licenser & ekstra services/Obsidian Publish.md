@@ -67,52 +67,54 @@ Hvis du vil integrere Google Analytics på dit websted, skal du først sikre dig
 ### Brugerdefineret domæne
 Du kan opsætte et eget domæne eller subdomæne til dit Obsidian Publish websted. På nuværende tidspunkt har vi ikke en måde vi kan udstede et SSL certifikat på dine vegne, så du skal enten ty til at lave din egen SSL aktiverede webserver, eller opsætte dit websted på CloudFlare, som tilbyder gratis SSL.
 
-Du kan også opsætte Obsidian Publish som et underdomæne på din egen webserver. F.eks. `https://mit-domæne.com/mine-noter/`. For at gøre det skal du opsætte din egen webserver og viderestille alle anmodninger til vores server på `https://publish.obsidian.md/`.
+Du kan også opsætte Obsidian Publish som et underdomæne på din egen webserver. F.eks. `https://mitdomæne.com/mine-noter/`. For at gøre det skal du opsætte din egen webserver og viderestille alle anmodninger til vores server på `https://publish.obsidian.md/`.
 
 Læs videre for en detaljeret opsætning.
 
 #### CloudFlare opsætning
 
-Den nemmeste måde at opsætte dit eget domæne eller underdomæne er ved at oprette en konto hos CloudFlare og lade CloudFlare håndtere dit domæne. Dette tillader dig at aktivere SSL på dit websted gratis, og sikre, at dit websted er hurtigt uanset hvor i verden det tilgås fra.
+Den nemmeste måde at opsætte dit eget domæne eller underdomæne er ved at oprette en konto hos [CloudFlare](https://cloudflare.com) og lade CloudFlare håndtere dit domæne. Dette tillader dig at aktivere SSL på dit websted gratis, og sikre, at dit websted er hurtigt uanset hvor i verden det tilgås fra. Typisk vil brugere hoste deres Obsidian Publish indhold på et roddomæne (f.eks. mitwebsted.com) eller på et subdomæne (f.eks. noter.mitwebsted.com). Disse instruktioner gælder for begge tilfælde.
 
-Du skal kun tilføje en CNAME record til dit domæne eller underdomæne med værdien `publish-main.obsidian.md`. Går derefter til SSL/TLS konfigurationen og sæt SSL/TLS krypteringstilstand til `Full`. Det vil automatisk konfigurere SSL/TLS certifikatet.
+1. Åben Cloudflare på det domæne du ønsker at tilføje Publish til (f.eks. mitwebsted.com, selvom du vil benytte et subdomæne som f.eks. noter.mitwebsted.com).
+2. Gå til DNS og klik på "Add Record" . Vælg CNAME, og i 'name' skriver du det domæne eller underdomæne, som du ønsker (f.eks. noter.mitwebsted.com). I 'target' skriver du værdien `publish-main.obsidian.md`. Du skal ikke inkludere din personlige under-URL her, da Obsidian Publish håndterer dette udfra din konfiguration.
+3. Gå til SSL/TLS og sæt SSL/TLS krypteringstilstand til `Full`. Dette vil konfigurere SSL/TLS certifikatet automatisk.
 
 Når du har konfigureret CloudFlare kan du fortsætte opsætningen af dine webstedindstillinger i Obsidian, og sætte URL'en til dit domæne eller underdomæne. Dette giver vores server tilladelse til at associere domænet til dit websted.
 
 Fejlfinding: Hvis din domæne opsætning ender i en redirigeringsløkke, er det højst sandsynligvis fordi krypteringstilstanden i CloudFlare er sat til `Flexible` i stedet for `Full`.
 
-Hvis du vil konfigurere både `mit-websted.com` og `www.mit-websted.com` til Obsidian Publish, skal du lave en [sideregel](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) som følgende:
+Hvis du vil konfigurere både `mitwebsted.com` og `www.mitwebsted.com` til Obsidian Publish, skal du lave en [sideregel](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) som følgende:
 
-- URL match: `www.mit-websted.com/*`
+- URL match: `www.mitwebsted.com/*`
 - Foward URL - 301 Permanent Redirect
-- Redirect URL: `https://mit-websted.com/$1`
+- Redirect URL: `https://mitwebsted.com/$1`
 
-Når du har oprettet sidereglen bør du også oprette en CNAME record for `www.mit-websted.com` ligesom du oprettede en for `mit-websted.com`
+Når du har oprettet sidereglen bør du også oprette en CNAME record for `www.mitwebsted.com` ligesom du oprettede en for `mitwebsted.com`
 
 #### Proxy- og redirigeringsopsætning
 Hvis du selv ønsker at have din egen webserver og opsætte din egen SSL kryptering kan du vælge den mulighed. Hvis du allerede har et websted på dit domæne eller underdomæne, kan du også benytte denne mulighed og opsætte dit websted til at tilgå dit Obsidian Publish websted fra en specifik URL, i stedet for at kun benytte domænenavnet.
 
 Du skal viderestille alle anmodninger fra den URL til
-`https://publish.obsidian.md/serve?url=mit-domæne.com/min-sti/...` og konfigurere webstedsindstillingerne i Obsidian til at pege på den samme sti.
+`https://publish.obsidian.md/serve?url=mitwebsted.com/min-sti/...` og konfigurere webstedsindstillingerne i Obsidian til at pege på den samme sti.
 
 F.eks. kan du sætte følgende op på NGINX:
 ```nginx
 location /mine-noter {
-	proxy_pass https://publish.obsidian.md/serve?url=mit-domæne.com/mine-noter/;
+	proxy_pass https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/;
 }
 ```
 
 I Apache's konfiguraionsfil `.htaccess`, kan du opsætte den sådan:
 ```htaccess
 RewriteEngine  on
-RewriteRule    "^mine-noter/(.*)$"  "https://publish.obsidian.md/serve?url=mit-domæne.com/mine-noter/$1"  [L,P]
+RewriteRule    "^mine-noter/(.*)$"  "https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/$1"  [L,P]
 ```
 
 Hvis du anvender Netlify, kan du opsætte den sådan:
 ```
 [[redirects]]
-  from = "https://mit-domæne.com/mine-noter/*"
-  to = "https://publish.obsidian.md/serve?url=mit-domæne.com/mine-noter/:splat"
+  from = "https://mitwebsted.com/mine-noter/*"
+  to = "https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/:splat"
   status = 200
   force = true
 ```

@@ -11,4 +11,4 @@ Dette er et ret afgørende plugin, så vi anbefaler, at du altid har det aktiver
 
 2. Du kan trække og slippe filer fra en mappe til en anden.
 
-3. Du kan benytte sorteringsikonet i toppen for a sortere filerne efter filnavn eller sidste modificerede tidspunkt.
+3. Du kan benytte sorteringsikonet i toppen for at sortere filerne efter filnavn eller sidste modificerede tidspunkt.
