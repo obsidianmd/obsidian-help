@@ -64,6 +64,10 @@ Denne mulighed tilføjer et meta noindex tag til alle dine sider, så søgemaski
 ##### Google Analytics
 Hvis du vil integrere Google Analytics på dit websted, skal du først sikre dig at dine lokale love og regulativer tillader det. Derefter behøver du kun skrive sporingskoden, på formen `UA-XXXXX-Y` i tekstfeltet, og dit websted vil derefter automatisk spore sidevisninger. Bemærk at Google Analytics kun er tilgængeligt for besøgende, hvis du benytter dit eget domæne.
 
+Når du tester Google Analytics skal du huske at deaktivere enhver adblokker browser udvidelse, f.eks. "uBlock Origin", som hindrer Google Analytics i at fungere.
+
+Derudover er Obsidian Publish ikke direkte kompatibel med Google Tag Manager i øjeblikket - du kan opsætte funktionen med din egen javascript, hvis du vil anvende Google Tag Manager i stedet for Google Analytics.
+
 ### Brugerdefineret domæne
 Du kan opsætte et eget domæne eller subdomæne til dit Obsidian Publish websted. På nuværende tidspunkt har vi ikke en måde vi kan udstede et SSL certifikat på dine vegne, så du skal enten ty til at lave din egen SSL aktiverede webserver, eller opsætte dit websted på CloudFlare, som tilbyder gratis SSL.
 
@@ -144,6 +148,17 @@ Obsidian Publish benytter CludFlase som CDN (content delivery network) til at di
 Men, det betyder også, at når du ændrer webstedsindstillinger, udgiver nyt indhold, eller fjerner udgivet indhold, kan besøgende ikke altid se den seneste version i en kort periode. På nuværende tidspunkt er vores cache konfigureret til at være konstant i en time før den bliver valideret igen for ændringer.
 
 Hvis du udgiver noget og du stadig ser en ældre version, så kan du typisk foretage en "tvunget opfriskning" ved at holde genindlæs knappen inde og vælge "Hard reload" i rullemenuen. Hvis du ikke virker kan du prøve at slette din browser cache eller deaktivere cache ved at benytte udviklerværktøjerne på netværksfanen.
+
+#### Hosting af medie filer
+
+Selvom Obsidian Publish tillader dig at uploade videofilm, er den ikke optimeret til videostreaming. Derfor vil dine besøgende nok opleve, at de videoer du har lagt på dit websted ikke er en fornøjelse at se.
+
+Vi anbefaler, at du benytter en rigtig video hosting service som Youtube eller Vimeo til at hoste dine videoer for Obsidian Publish. Fordelene ved at benytte en rigtig video hosting udbyder inkluderer:
+
+- Automatisk genkodning sikrer at dine videoer kan spilles på alle  mobilenheder uanset hvilket kodningsformat du brugte i din originale fil.
+- Dynamiske kvalitetsjusteringer baseret på tilgængelig båndbredde og sikrer at videoer kan afspilles uden pauser, hvor afpilleren tvinges til at  hente data.
+- Højeffekiv videokomprimering sikrer at besøgende ikke overskrider eventuelle data download begrænsninger på din enhed.
+- Global CDN tillader dine videoer at blive loaded hurtigt uanset hvor dine besøgende er i verden.
 
 ---
 
