@@ -30,7 +30,7 @@ Enabling this option adds a navigation sidebar displaying all published pages an
 
 ##### Search bar
 
-Adds a search bar to the navigation pane (requires navigation to be enabled). This bar can be used to search for pages and headings within pages. It does not currently search through the full text content of the site.
+Adds a search bar to page. This bar can be used to search for pages, aliases, and headings within pages. It does not currently search through the full text content of the site.
 
 ##### Graph view
 
