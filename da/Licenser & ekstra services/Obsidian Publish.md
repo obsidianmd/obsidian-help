@@ -27,7 +27,7 @@ Aktiveres denne indstilling så tilføjes en sidebjælke på dit wenbsted, der v
 
 ##### Søgebjælke
 
-Tilføjer en søgebjælke til navigationspanelet (Kræver at indstillingen "navigation" er aktiveret). Denne bjælke kan benyttes til at søge efter sider og overskrifter på sider. Den undersøtter på nuværende tidspunkt ikke fuldtekst søgning i indholdet på dit websted.
+Tilføjer en søgebjælke til siden. Denne bjælke kan benyttes til at søge efter sider, aliases og overskrifter på sider. Den undersøtter på nuværende tidspunkt ikke fuldtekst søgning i hele indholdet på dit websted.
 
 ##### Grafvisning
 
