@@ -6,5 +6,5 @@ I højre sidepanel (Hvis det er udvidet) kan du også se et panel, der viser hvo
 
 ![[Pasted image 9.png]]
 
-Hvis du udvider de "Ikke-linkede omtaler" kan du ogsp se hvor navnet af noten bliver nævnt, men ikke eksplicit linket til (Med andre ord, de steder hvor noter er nævnt uden firkantede paranteser).
+Hvis du udvider de "Ikke-linkede omtaler" kan du også se hvor navnet af noten bliver nævnt, men ikke eksplicit linket til (Med andre ord, de steder hvor noter er nævnt uden firkantede paranteser).
 

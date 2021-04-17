@@ -13,7 +13,7 @@ Hvis du allerede har oprettet mapper i din boks ved hjælp af [[Stifinder|stifin
 
 Der er også knapper i toppen af stifinderen hvor du kan oprette nye noter eller mapper.
 
-Obsidian gemmer automatisk din note to sekunder efter, at du er stoppet med at skrive i den, eller når du lukker et panel. Du kan også ti lenhver tid manuelt gemme ved at taste `Ctrl/Cmd-S`.
+Obsidian gemmer automatisk din note to sekunder efter, at du er stoppet med at skrive i den, eller når du lukker et panel. Du kan også til enhver tid manuelt gemme ved at taste `Ctrl/Cmd-S`.
 
 ---
 

@@ -39,7 +39,7 @@ Obsidian til iOS kan gemme din boks enten i iCloud eller lokalt. De to testede o
 Enhver tredjeparts synkroniseringsudbyder der kan tilbyde baggrundssynkronisering af en bestemt mappe på din enhed skulle også virke, men vi har ikke kendskab til nogen. Det skyldes begrænsningerne i den meget komplekse fildelingsfunktion mellem apps i iOS, til forskel fra Android, som stiller en offentlig mappe til rådighed, som alle apps kan benytte. På grund af dette, har de fleste tredjeparts  synkroniseringsudbydere ikke en ordentlig implementering af baggrundssynkronisering på iOS.
 
 ### Obsidian Sync
-Du kan følge de samme trin som for synkronisering på Android som ses herunder, og husk at oprette en ikke-iCloud mappe, hvis du ikke ønsker at gemme en kopi af dine boks i iCloud: 
+Du kan følge de samme trin som for synkronisering på Android som ses herunder, og husk at oprette en ikke-iCloud mappe,  da vi ikke anbefaler at du benytter både Obsidian Sync og iCloud samtidig, hvilket nogle brugere har rapporteret giver datatab.
 
 ![[#Obsidian til Android#Obsidian Sync]]
 

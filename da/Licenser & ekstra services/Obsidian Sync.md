@@ -25,6 +25,7 @@ I fremtiden forbedrer vi Obsidian Sync med:
 I Obsidian v0.9.21 eller nyere kan du aktivere Obsidian Sync ved at aktivere "Synkroniser" plug-in'et i "Indstillinger -> Kerne plug-ins".
 
 ### Opsætte eksterne bokse
+Advarsel: Vi anbefaler ikke at du benytter tredjeparts synkroniserings services med den samme boks som med Obsidian Sync. [[#Tredjeparts synkronisering|Mere om det senere]].
 
 For at begynde synkronisering skal du først oprette en ekstern boks, som gemmer dine krypterede data.
 
@@ -74,6 +75,15 @@ Udelukkede mapper vil blive ignoreret af synkroniseringen begge veje.
 #### Fil typer
 
 Du kan vælge og fravælge synkronisering af billeder, lyd, video og PDF filer i "Indstillinger -> Synkroniser -> Selektiv synkronisering".
+
+### Tredjeparts synkronisering
+Hvis du benytter Obsidian Sync, anbefaler vi ikke at du benytter tredjeparts synkroniseringsservices som Dropbox, Google Drive, OneDrive, eller iCloud til at synkronisere den samme boks mellem enheder, hvor du også benytter Obsidian Sync. Hvis du gør det, kan det skabe konflikter, duplikerede filer, eller i værste fald kan det lede til ødelagte filer.
+
+Hvis du sætter Obsidian Sync og en tredjeparts synkroniseringsservice til at syknronisere en boks mellem to enheder samtidig kan det følgende ske:
+- Hvis Obsidian Sync "vinder" løbet og synkroniserer din fil først, vil din tredieparts synkroniseringsservice generere en "konfliktende kopi".
+- Hvis din tredjeparts synkroniseringsservice "vinder" løbet og synkroniserer din fil først, vil Obsidian Sync forsøge at flette de meget ens versioner, hvilket ofte leder til, at de sidste tegn du har skrevet bliver rullet tilbage.
+
+Hvis du vil opretholde en backup af din boks ved hjælp af en tredjeparts synkroniseringsservice, kan du stadig gøre dette ved at sætte den til at synkronisere boksen på din primære enhed, men ikke på dine sekundære enheder. Dette vil sikre at din tredjeparts synkroniseringsservice ikke konfliker med Obsidian Sync.
 
 ### Ofte stillede spørgsmål
 

@@ -6,10 +6,10 @@ Filgenoprettelse er som standard aktiveret, fordi det er for sent at aktivere de
 
 ### Snapshots
 
-Så længe dette plugin er aktiveret bliver der taget fulde snapshots af det du arbejder på og det bliver gemt med bestemte intervaller (Du kan konfigurere intervallet).
+Så længe dette plugin er aktiveret bliver der taget fulde snapshots af det du arbejder på og det bliver gemt med bestemte intervaller (du kan konfigurere intervallet).
 Snapshops bliver slettet efter et bestemt stykke tid.
 
-Denne proces er automatisk. Som standard bliver der lavet snapshots hver 5 mint, og de bliver gemt i 7 dage.
+Denne proces er automatisk. Som standard bliver der lavet snapshots hver 5 min, og de bliver gemt i 7 dage.
 
 ### Genoprettelse
 
