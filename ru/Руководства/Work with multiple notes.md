@@ -12,7 +12,7 @@ To open files in new panes, hold down `Ctrl/Cmd` while you click in Preview mode
 
 **2. You can also create new panes by ==splitting==**.
 
-To create other layouts, you can split the current pane in half either horizontally or vertically. Do this with the menu at the top right of the pane, use the command palette, or set a [[Keyboard shortcuts]].
+To create other layouts, you can split the current pane in half either horizontally or vertically. Do this with the menu at the top right of the pane, use the command palette, or set a [[Горячие клавиши]].
 
 ![[Pasted image 16.png]]
 
