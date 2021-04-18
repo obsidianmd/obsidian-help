@@ -86,10 +86,10 @@ Continue reading for setup details.
 
 #### CloudFlare setup
 
-The easiest way to setup a custom domain or subdomain is by making an account with [CloudFlare](https://cloudflare.com) and letting CloudFlare manage your domain. This allows you to add SSL to your site for free, as well as ensure your site is fast wherever in the world it's accessed from. Typically users will host their Obsidian Publish content on a root domain (e.g. mysite.com) or an immediate subdomain (e.g. notes.mysite.com). These instructions work for both cases.
+The easiest way to setup a custom domain or subdomain is by making an account with [CloudFlare](https://cloudflare.com) and letting CloudFlare manage your domain. This allows you to add SSL to your site for free, as well as ensure your site is fast wherever in the world it's accessed from. Typically users will host their Obsidian Publish content on a root domain (e.g. `mysite.com`) or an immediate subdomain (e.g. `notes.mysite.com`). These instructions work for both cases.
 
-1. Open Cloudflare to the domain you wish to add Publish to (e.g. mysite.com, even if you want a subdomain like notes.mysite.com).
-2. Go to DNS and click Add Record. Select CNAME, and in 'name' enter the domain or subdomain you wish (e.g. notes.mysite.com). In 'target', enter the value `publish-main.obsidian.md`. Do not include your personal sub-URL in this value, as Obsidian Publish handles this from your configuration. 
+1. Open Cloudflare to the domain you wish to add Publish to (e.g. `mysite.com`, even if you want a subdomain like `notes.mysite.com`).
+2. Go to DNS and click Add Record. Select CNAME, and in 'name' enter the domain or subdomain you wish (e.g. `notes.mysite.com`). In 'target', enter the value `publish-main.obsidian.md`. Do not include your personal sub-URL in this value, as Obsidian Publish handles this from your configuration. 
 3. Go to SSL/TLS and set the SSL/TLS encryption mode to `Full`. This will configure the SSL/TLS certificate automatically.
 
 Once you are done with configuring CloudFlare, you can head to your site options in Obsidian, and set the URL to your domain or subdomain. This allows our server to associate the domain to your site.
@@ -131,6 +131,8 @@ If you're using Netlify, you can set it up as:
   status = 200
   force = true
 ```
+
+Alternatively, if your proxy service does not allow query paths, you can use `https://publish.obsidian.md/` with a custom header `x-obsidian-custom-domain` set to your site url `mysite.com/my-subpath`.
 
 #### Custom domain post-setup issues
 
