@@ -48,7 +48,7 @@ Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser e
 
 Vi accepterer nu "pull requests" af hjælpeboksen in [vores dokumentations repository](https://github.com/obsidianmd/obsidian-docs/).
 
-Denne version er opdateret: 11. april 2021
+Denne version er opdateret: 18. april 2021
 
 ##### Tilføj dit navn
 
