@@ -8,6 +8,6 @@ CSSに不慣れな場合には、コミュニティ上でCSSに慣れるため�
 
 > [Getting Comfortable with CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
 
-Klaasによって自由にミックスして使える一般的なCSSスニペットのインデックスが纏められています。
+Klaasによって自由にミックスして使える一般的なCSSスニペットのインデックスがまとめられています。
 
 > [Obsidian CSS Snippets (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)
