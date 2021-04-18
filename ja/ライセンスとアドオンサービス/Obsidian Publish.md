@@ -1,4 +1,4 @@
-Obsidian Publish™ はノートをホスティングして公開する有料のサービスです。
+Obsidian Publish™はノートをホスティングしてウェブサイト上に公開する有料のサービスです。
 
 Obsidianのアプリケーション内からノートを公開する方法についての説明は[[パブリッシュ|パブリッシュプラグイン]]を参照してください。
 
@@ -30,7 +30,7 @@ Obsidian Publishサービスでは公開したいノートを選択して、Obsi
 
 ##### 検索バー
 
-ナビゲーションペインには検索バーが追加可能です(ナビゲーションを有効化している必要があります)。このバーはベージ検索とページ内における見出し検索に利用できます。サイト内でのテキストコンテンツ全体を通しての検索は現在できません。
+ページには検索バーが追加可能です。この検索バーはページとエイリアスの検索、更にページ内における見出し検索に利用できます。現在、サイト内のテキストコンテンツ全体を通しての検索はできません。
 
 ##### グラフビュー
 
@@ -72,40 +72,47 @@ Obsidian Publishサービスでは公開したいノートを選択して、Obsi
 
 サイトにGoogleアナリティクスを設定したい場合には、まずは地域の法律と制限によって許可されていることを確認してください。その次に、`UA-XXXXX-Y` の形でテキストボックスにトラッキングコードを配置してください。これで自動的にページビューがトラックされます。Googleアナリティクスはカスタムドメインからの訪問者のみが利用できることに注意してください。
 
+Googleアナリティクスのテストを行う場合には、uBlock OriginなどのGoogleアナリティクススクリプトの実行を阻止するアドブロックのブラウザ拡張機能を無効化していることを確認してください。
+
+現在、Obsidian PublishはGoogleタグマネジャーと直接的な互換性はありません。Googleアナリティクスの代わりにGoogleタグマネジャーを使用したい場合にはカスタムJavaScriptを設定してください。
+
 ### カスタムドメイン
 
 Obsidian Publishによって作成されたサイトにカスタムドメインやサブドメインが設定可能です。現在、ユーザーの代わりにSSL証明書のプロビジョニングを行う方法をいまだ確立していないため、従って独自のSSL対応サーバーに頼るか、もしくはSSLを無料提供しているCloudFlareにてサイトをセットアップする必要があります。
 
-Obsidian Publishを既存のサイトのサブURLとしてセットアップすることも可能です。例えば、`https://my-site.com/my-notes/`。これを実現するには、独自サーバーをユーザーがホストし、すべてのリクエストを私達のサーバー `https://publish.obsidian.md/` に対してプロキシする必要があります。
+Obsidian Publishを既存のサイトのサブURLとしてセットアップすることも可能です。例えば、`https://mysite.com/my-notes/`。これを実現するには、独自サーバーをユーザーがホストし、すべてのリクエストを私達のサーバー `https://publish.obsidian.md/` に対してプロキシする必要があります。
 
 セットアップの詳細は次に進んでください。
+
 #### CloudFlareのセットアップ
 
-カスタムドメインやサブドメインの最も簡単な設定方法は、CloudFlareにてアカウント作成を行い、CloudFlareにドメイン管理を任せることです。これによってサイトに対して無料でSSLを追加でき、世界中のあらゆる場所からのアクセスを高速に保つことができます。
+カスタムドメインやサブドメインの最も簡単な設定方法は、[CloudFlare](https://cloudflare.com)にてアカウント作成を行い、CloudFlareにドメイン管理を任せることです。これによってサイトに対して無料でSSLを追加でき、世界中のあらゆる場所からのアクセスを高速に保つことができます。通常、ユーザーはObsidian Publishのコンテンツをルートドメイン(例: `mysite.com`)や、 続くサブドメイン(例: `notes.mysite.com)`などでホストします。次のマニュアルは両方のケースでうまくいきます。
 
-CNAMEレコードを独自ドメインかサブドメインに追加する必要があります。値は `publish-main.obsidian.md` になります。次に、SSL/TLSの構成に進み、SSL/TLS暗号化モードを `Full` に設定してください。これによって自動的にSSL/TLS証明書を設定します。
+1. Publishを追加したいドメインに対してCloudflareを開いてください(例: `mysite.com`、`notes.mysite.com` のようなサブドメインを追加したい場合でも)。
+2. DNSへと進み｢レコードの追加(Add Record)｣をクリックしてください。｢タイプ(Type)｣でCNAMEを選択し、｢名前(name)｣の項目に追加したいドメインかサブドメイン(例: n`otes.mysite.com`)を入力してください。｢ターゲット(target)｣に対して、値 `publish-main.obsidian.md` を入力してください。入力の際に、この値に個人のsub-URLを含めないようにしてください。Obsidian Publishはこれを設定から処理します。
+3. SSL/TLSへと進み、SSL/TLS暗号化モードを`Full`に設定してください。これによってSSL/TLS証明書が自動的に構成されます。
 
 CloudFlareの設定が終了したら、Obsidianにてサイトオプションに進み、URLを独自ドメインかサブドメインに設定してください。これによって私達のサーバーがドメインをサイトに対して関連付けることができます。
 
 トラブルシューティング: カスタムドメインのセットアッがリダイレクトループに陥った場合、CloudFlareの暗号化モードが `Full` ではなく `Flexible` になっている可能性があります。
 
-Obsidian Publishに対して `my-site.com` と `www.my-site.com` の両方を設定したい場合には、以下の通りに[ページルール](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules)を作成する必要があります。
-- URL match: `www.my-site.com/*`
+Obsidian Publishに対して `mysite.com` と `www.mysite.com` の両方を設定したい場合には、以下の通りに[ページルール](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules)を作成する必要があります。
+- URL match: `www.mysite.com/*`
 - Foward URL - 301 Permanent Redirect
-- Redirect URL: `https://my-site.com/$1`
+- Redirect URL: `https://mysite.com/$1`
 
-ページルールを作成したら、`my-site.com` 用に作成したのと同じように `www.my-site.com` 用にもCNAMEレコードを作成する必要があります。
+ページルールを作成したら、`mysite.com` 用に作成したのと同じように `www.mysite.com` 用にもCNAMEレコードを作成する必要があります。
 
 #### プロキシ/リダイレクトのセットアップ
 
 ユーザー自身のウェブサーバーをホストし、独自のSSL暗号化をセットアップしたい場合には、このオプションを選択してください。すでに所有しているドメインやサブドメイン下でウェブサイトをホストしている場合には、サイト全体をホストする代わりに特定のURLパス下でObsidian Publishによるサイトをロードするためにこのオプションを利用し、ウェブサイトをセットアップしてください。
 
-そのURLパスの元にあるすべてのリクエストを`https://publish.obsidian.md/serve?url=my-domain.com/my-subpath/...` に対してプロキシし、Obsidianにて同一のURLパスに対してサイトオプションの設定を行ってください。
+そのURLパスの元にあるすべてのリクエストを`https://publish.obsidian.md/serve?url=mysite.com/my-subpath/...` に対してプロキシし、Obsidianにて同一のURLパスに対してサイトオプションの設定を行ってください。
 
 例えば、NGINXでは、次のようにセットアップできます。
 ```nginx
 location /my-notes {
-  proxy_pass https://publish.obsidian.md/serve?url=my-domain.com/my-notes/;
+  proxy_pass https://publish.obsidian.md/serve?url=mysite.com/my-notes/;
   proxy_ssl_server_name on;
 }
 ```
@@ -113,17 +120,19 @@ location /my-notes {
 Apache `.htaccess` では、次のようにセットアップできます。
 ```htaccess
 RewriteEngine  on
-RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=my-domain.com/my-notes/$1"  [L,P]
+RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.com/my-notes/$1"  [L,P]
 ```
 
 Netlifyを利用している場合には、次のようにセットアップできます。
 ```
 [[redirects]]
-  from = "https://my-domain.com/my-notes/*"
-  to = "https://publish.obsidian.md/serve?url=my-domain.com/my-notes/:splat"
+  from = "https://mysite.com/my-notes/*"
+  to = "https://publish.obsidian.md/serve?url=mysite.com/my-notes/:splat"
   status = 200
   force = true
 ```
+
+プロキシサービスがクエリパスを許可していない場合には、代わりにカスタムヘッダー `x-obsidian-custom-domain` をサイトURL `mysite.com/my-subpath` に設定して `https://publish.obsidian.md/` を利用できます。
 
 #### カスタムドメインのセットアップ後の問題
 
@@ -154,6 +163,16 @@ Obsidian Publishは世界中からの高速なアクセスを実現してサイ�
 しかしながら、上記のことはサイトの設定変更やコンテンツの新規公開や非公開などを行った際に、閲覧者がしばらくの間サイトの最新版を見ることができないということを意味しません。現在、私たちのキャッシュは、内容が変更されていないことを確認するため、｢再有効｣が必要になる前の一時間の間は保持されるよう構成されています。
 
 公開した直後のアイテムについて、依然として古いバージョンのものが見える場合には、通常はリロードボタンを押してハードリフレッシュを実行し、ドロップダウンメニューからハードリロードを選択してください。うまくいかない場合は、利用しているブラウザのキャッシュを削除してみるか、ネットワークタブのデベロッパーツールを利用してキャッシュを無効化してみてください。
+
+#### メディアファイルのホスティング
+
+Obsidian Publishはビデオクリップのアップロードを許可している一方で、映像の配信そのものには最適化されていません。これによって、サイト訪問者にとっての映像体験の品質が低く感じられる可能性があります。
+
+Obsidian Publish用に映像コンテンツをホストする場合には、YoutubeやVimeoなどの適切な映像ホスティングサービスの利用を推奨しています。適切な映像ホスティングサイトを利用する利点には以下のものが含まれます。
+- 自動的な再エンコーディングによって、オリジナルファイルで使用しているエンコーディングフォーマットに関わらず、すべてのモバイルデバイス上で映像が再生されることを保証します。
+- バンド幅に基づいた動的な品質調整によって、**バッファリング**のために常に停止することなくスムーズに映像が再生されることを保証します。
+- 高効率な映像圧縮によって、訪問者がサイト閲覧時にデータ上限を越さないように保証します。
+- グローバルCDNによって、訪問者が世界中のどこにいるとしても映像の高速ロードを可能にします。
 
 ---
 
