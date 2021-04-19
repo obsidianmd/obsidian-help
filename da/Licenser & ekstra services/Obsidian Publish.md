@@ -77,10 +77,10 @@ Læs videre for en detaljeret opsætning.
 
 #### CloudFlare opsætning
 
-Den nemmeste måde at opsætte dit eget domæne eller underdomæne er ved at oprette en konto hos [CloudFlare](https://cloudflare.com) og lade CloudFlare håndtere dit domæne. Dette tillader dig at aktivere SSL på dit websted gratis, og sikre, at dit websted er hurtigt uanset hvor i verden det tilgås fra. Typisk vil brugere hoste deres Obsidian Publish indhold på et roddomæne (f.eks. mitwebsted.com) eller på et subdomæne (f.eks. noter.mitwebsted.com). Disse instruktioner gælder for begge tilfælde.
+Den nemmeste måde at opsætte dit eget domæne eller underdomæne er ved at oprette en konto hos [CloudFlare](https://cloudflare.com) og lade CloudFlare håndtere dit domæne. Dette tillader dig at aktivere SSL på dit websted gratis, og sikre, at dit websted er hurtigt uanset hvor i verden det tilgås fra. Typisk vil brugere hoste deres Obsidian Publish indhold på et roddomæne (f.eks. `mitwebsted.com`) eller på et subdomæne (f.eks. `noter.mitwebsted.com`). Disse instruktioner gælder for begge tilfælde.
 
-1. Åben Cloudflare på det domæne du ønsker at tilføje Publish til (f.eks. mitwebsted.com, selvom du vil benytte et subdomæne som f.eks. noter.mitwebsted.com).
-2. Gå til DNS og klik på "Add Record" . Vælg CNAME, og i 'name' skriver du det domæne eller underdomæne, som du ønsker (f.eks. noter.mitwebsted.com). I 'target' skriver du værdien `publish-main.obsidian.md`. Du skal ikke inkludere din personlige under-URL her, da Obsidian Publish håndterer dette udfra din konfiguration.
+1. Åben Cloudflare på det domæne du ønsker at tilføje Publish til (f.eks. `mitwebsted.com`, selvom du vil benytte et subdomæne som f.eks. `noter.mitwebsted.com`).
+2. Gå til DNS og klik på "Add Record" . Vælg CNAME, og i 'name' skriver du det domæne eller underdomæne, som du ønsker (f.eks. `noter.mitwebsted.com`). I 'target' skriver du værdien `publish-main.obsidian.md`. Du skal ikke inkludere din personlige under-URL her, da Obsidian Publish håndterer dette udfra din konfiguration.
 3. Gå til SSL/TLS og sæt SSL/TLS krypteringstilstand til `Full`. Dette vil konfigurere SSL/TLS certifikatet automatisk.
 
 Når du har konfigureret CloudFlare kan du fortsætte opsætningen af dine webstedindstillinger i Obsidian, og sætte URL'en til dit domæne eller underdomæne. Dette giver vores server tilladelse til at associere domænet til dit websted.
@@ -122,6 +122,8 @@ Hvis du anvender Netlify, kan du opsætte den sådan:
   status = 200
   force = true
 ```
+
+Alternativt kan du benytte `https://publish.obsidian.md/` med en brugerdefineret header `x-obsidian-custom-domain` sat til din webstedsurl `mitwebsted.com/min-undermappe`, hvis din proxy service ikke tillader brugerdefinerede headers.
 
 #### Brugerdefineret domæne problemer efter opsætning
 Når du har opsat dit eget domæne, og du tidligere har besøgt dit websted fra et link f.eks. `https://publish.obsidian.md/slug`, så er det muligt, at du skal slette din browsercache for bestemte ting (som fonte, grafer eller kodeordsadgang) for at det virker korrekt. Det skyldes sikkerhedsrestriktioner på tværs af domæner, som mange nyere browsere pålægger. Den gode nyhed er, at besøgende på dit websted aldrig bør løbe ind i det problem, hvis du kun lader dine besøgende benytte dit eget domæne.
