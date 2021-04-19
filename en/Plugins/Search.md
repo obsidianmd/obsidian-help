@@ -75,8 +75,8 @@ Several special operators are available. Some operators allow nesting queries us
 - `match-case:(...)` and `ignore-case(...):` will override the case sensitive match logic for the following subquery.
 - `tag:` will search for your specified tag within a file, for example `tag:#work`. This is faster and more accurate than searching for the tag in plaintext `#work`, as it uses the cached information and ignores text in code blocks and sections that aren't markdown text.
 - `line:(...)` will perform the subquery on a line-by-line basis, rather than a file-by-file basis. For example, if you search for `foo bar`, this could match a file that has `foo` in the first paragraph and `bar` in the last paragraph. Searching for `line:(foo bar)` will only match if `foo` and `bar` are on the same line.
-- `block:(...)` will perform the subquery on a block-by-block basis, where each block defined as a markdown block, typically separated by empty lines. This is expensive computationally as it requires parsing each file, which means this is likely slower than other modes.
+- `block:(...)` will perform the subquery on a block-by-block basis, where each block defined as a markdown block, typically separated by empty lines or list items. This is expensive computationally as it requires parsing each file, which means this is likely slower than other modes.
 - `section:(...)` will perform the subquery on a section-by-section basis, where each section is the text between two headings, including the first heading.
-- `task:(...)` will perform the subquery only on [[Format your notes#Task list|tasks]] and on a block-by-block basis. Use task:"" to match all tasks.
-- `task-todo:(...)` will perform the subquery only on uncompleted [[Format your notes#Task list|tasks]] and on a block-by-block basis. Use task-todo:"" to match all uncompleted tasks.
-- `task-done:(...)` will perform the subquery only on completed [[Format your notes#Task list|tasks]] and on a block-by-block basis. Use task-done:"" to match all completed tasks.
+- `task:(...)` will perform the subquery only on each [[Format your notes#Task list|task]] and on a block-by-block basis. Use `task:""` to match all tasks.
+- `task-todo:(...)` will perform the subquery only on each *uncompleted* [[Format your notes#Task list|task]] and on a block-by-block basis. Use `task-todo:""` to match all uncompleted tasks.
+- `task-done:(...)` will perform the subquery only on each *completed* [[Format your notes#Task list|task]] and on a block-by-block basis. Use `task-done:""` to match all completed tasks.
