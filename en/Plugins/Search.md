@@ -54,7 +54,7 @@ embed OR search
 
 ## Search syntax
 
-### Combing sub-queries
+### Combining sub-queries
 
 When crafting a search query, remember that clicking "Explain Search Term" will give an explanation of what is being searched for, which can be very useful when debugging a complicated search.
 
