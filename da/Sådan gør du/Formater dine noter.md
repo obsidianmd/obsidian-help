@@ -240,7 +240,8 @@ function fancyAlert(arg) {
 
 - [x] #tags, [links](), og **formatering** er understøttet
 - [x] der kræves listesyntaks (enhver uordnet eller ordnet liste er understøttet)
-- [x] dette er et færdig opgavepunkt
+- [x] dette er et færdigt opgavepunkt
+- [?] dette er også et færdigt opgavepunkt (virker med alle tegn)
 - [ ] dette er et ufærdig opgavepunkt
 - [ ] man kan skifte status på opgavepunkter i forhåndsvisning
 
