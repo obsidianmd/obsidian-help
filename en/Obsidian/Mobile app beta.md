@@ -1,14 +1,14 @@
 ## Beta status
 
-As of 2021/03/26, the mobile apps are in only closed beta. It is currently available to Obsidian Catalyst license holders for the `VIP` and `Supporter` tiers only.
+As of 2021/04/26, the mobile apps are in only closed beta. It is currently available to all Obsidian Catalyst license holders.
 
-In a few weeks, once the app is more stable, we will roll out to Catalyst Insiders, and then later to everyone else.
+In a few weeks, once the app is more stable, we will roll out to the general public.
 
 ## Getting access
 
-The mobile beta is currently only available to holders of the [VIP/Supporter Catalyst license](https://obsidian.md/pricing).
+The mobile beta is currently only available to holders of the [Catalyst license](https://obsidian.md/pricing).
 
-If you already have a VIP/Supporter Catalyst license, [join our Discord](https://discord.gg/veuWUTm).  If you don't have your badge yet, [[Catalyst license#Discord badge|you can get it in your Account page]].
+If you already have a Catalyst license, [join our Discord](https://discord.gg/veuWUTm).  If you don't have your badge yet, [[Catalyst license#Discord badge|you can get it in your Account page]].
 
 Once you get your badge, you can access the beta as well as provide feedback in the #mobile channel. To find the instructions for installing the mobile apps, check the pinned messages in the #mobile channel.
 

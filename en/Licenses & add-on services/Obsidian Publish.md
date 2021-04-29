@@ -118,6 +118,7 @@ location /my-notes {
 ```
 
 In Apache `.htaccess`, you can set it up as:
+(Note: mod_rewrite must be enabled, and you may also need to configure [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache))
 ```htaccess
 RewriteEngine  on
 RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.com/my-notes/$1"  [L,P]

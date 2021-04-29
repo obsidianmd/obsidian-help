@@ -61,13 +61,17 @@ Let iCloud sync the entire vault folder, then on your mobile device, open the Ob
 
 The first time you open that vault, Obsidian might freeze for a while because iCloud is downloading all the files in the background. Eventually once iCloud finish syncing everything over to the phone the app should work smoothly. This may require you to restart the app a few times though.
 
+### Working Copy
+
+You can alternatively setup Working Copy to use Git to sync your vault on iOS. To do this, you should create an empty local vault on your device first, then you can "Setup Folder Sync" and select a local vault inside the Obsidian app. Then, you can manually commit & push.
+
 ## Where are my vaults stored?
 
 If you choose to store your vault in iCloud, then it is stored in a container in your iCloud Drive account, under an app folder named "Obsidian", which should have an icon of our logo.
 
-If you chose not to use iCloud, then your vault will be stored in the sandboxed file system of the Obsidian app. In v0.0.13 the local vault is only accessible by Obsidian. In the upcoming release, it will be exposed through Files, so you can access it from other apps on your device.
+If you chose not to use iCloud, then your vault will be stored in the sandboxed file system of the Obsidian app. As of v0.0.14 the local vault is now accessible from any other apps that supports picking a folder form the file system. As such, apps like Working Copy can be used to sync with Obsidian's local vaults.
 
-Currently Obsidian does not directly support Working Copy, or other similar apps that exposes a virtual file system through FileProvider yet. We will be attempting this in the future as an improvement.
+Currently Obsidian does not directly support third party sync providers that exposes a virtual file system through FileProvider yet. We will be attempting this in the future as an improvement.
 
 # Third party sync support
 
