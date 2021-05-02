@@ -1,6 +1,10 @@
 We believe [[Obsidian#How we're different|your data is always yours to own and control]]. Your notes are stored in markdown, which is an open format based on plain text files, and so should be readable in the future by any computer that can deal with text files. You can freely edit notes in other software, even while having them open in Obsidian.
 
+### Per vault data
+
 There is, however, some data that is needed by the software that is not stored in markdown. Obsidian creates a directory called `.obsidian` in the root of any vault you create. This contains your configuration, including custom hotkeys and which plugins are enabled. Any directory starting with a `.` is invisible on most systems, so you will probably never see it unless you try. If you delete this directory, none of your data will be gone, but you will lose your custom settings. It will be recreated when you open that vault in Obsidian again. If you are using `git`, it's probably best to `ignore` the `.obsidian/workspace` file, because the this file stores your panes and opened files, but we haven't observed any other issues with including it.
+
+### System directory
 
 Obsidian also stores some information in the system directory. This is different per Operating System; on Mac it's `/Users/yourusername/Library/Application Support/obsidian`, on Windows `%APPDATA%\Obsidian\`, and `$XDG_CONFIG_HOME/Obsidian/` or `~/.config/Obsidian/` on Linux. As a result, we recommend against creating a vault in this directory.
 
