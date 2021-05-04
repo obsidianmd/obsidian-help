@@ -34,6 +34,7 @@ Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver 
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
+- taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
 
@@ -48,7 +49,7 @@ Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser e
 
 Vi accepterer nu "pull requests" af hjælpeboksen in [vores dokumentations repository](https://github.com/obsidianmd/obsidian-docs/).
 
-Denne version er opdateret: 20. april 2021
+Denne version er opdateret: 4. maj 2021
 
 ##### Tilføj dit navn
 

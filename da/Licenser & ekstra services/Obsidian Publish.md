@@ -109,6 +109,7 @@ location /mine-noter {
 ```
 
 I Apache's konfiguraionsfil `.htaccess`, kan du opsætte den sådan:
+(Note: "mod_rewrite" skal også været sat til, og du skal muligvis også konfigurere [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache))
 ```htaccess
 RewriteEngine  on
 RewriteRule    "^mine-noter/(.*)$"  "https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/$1"  [L,P]
