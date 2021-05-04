@@ -52,13 +52,16 @@ Lad iCloud synkronisere hele boks mappen. Når det er gjort, skal du åbne Obsid
 
 Første gang du åbner denne boks, vil Obsidian måske fryse et lille stykke tid fordi iCloud downloader alle filerne i baggrunden. Når ICloud er færdig med synkronisere alt over på mobilen skulle appen fungere uden problemer. Det kan dog kræve at du genstarter appen et par gange for den er klar.
 
+### Working Copy
+Du kan alternativt opsætte en Working Copy til at benytte Git for at synkronisere din boks på iOS. For at benytte den metode, skal du oprette en tom lokal boks på din enhed først. Derefter kan du "Setup Folder Sync" og vælge en lokal boks i Obsidian applikationen. Derefter kan du manuelt udføre commit og push.
+
 ## Hvor bliver mine bokse gemt?
 Hvis du vælger at gemme din boks i iCloud, så er den gemt i en container på din iCloud drev konto under en app mappe kaldet "Obsidian", og mappen har et icon med Obsidians logo.
 
-Hvis du ikke vælger at anvende iCloud, så vil din boks blive gemt i sandboks filsystemet, som Obsidian har til rådighed. I v0.0.13 vil den lokale boks kun kunne tilgås af Obsidian. I kommende udgaver vil boksen blive synlig gennem "Filer", så du kan tilgå den fra andre apps på din enhed.
+Hvis du ikke vælger at anvende iCloud, så vil din boks blive gemt i sandboks filsystemet, som Obsidian har til rådighed. Fra og med v0.0.14 vil den lokale boks nu kunne tilgås fra alle andre apps, som understøtter  at kunne vælge en mappe fra filsystemet. Derved kan apps som Working Copy benyttes til at synkronisere med Obsidians lokale boks.
 
-I øjeblikket understøtter Obsidian ikke "Working Copy" eller andre lignende apps, der eksponerer et virtuelt filsystem gennem "FileProvider".
-Vi vi forsøge at understøtte "Working Copy" på et tidspunkt som en forbedring.
+I øjeblikket understøtter Obsidian ikke tredjeparts synkroniserings udbydere, der eksponerer et virtuelt filsystem gennem "FileProvider".
+Vi vi forsøge at understøtte dette på et tidspunkt som en forbedring.
 
 # Tredjeparts synkroniseringssupport
 Mange brugere spørger os, hvorfor Obsidian til mobil ikke understøtter deres foretrukne synkroniseringsløsning. Her er en kort forklaring på den nuværende status af synkroniseringssupport for mobil apps.
