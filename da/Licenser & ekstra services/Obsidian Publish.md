@@ -4,7 +4,7 @@ Læs [[Publish|Publish plug-in]] siden for instruktioner i, hvordan du udgiver d
 
 ### Privatliv
 
-Du har fuldstændig kontrol over hvad du publicerer via [[Publish|Publish plug-in'et]] - enten hele din boks eller kun udvalgte noter i din boks. Du kan være sikker på, at alle de noter, du vælger **ikke** at udgive, forbliver private, og Obsidan Publish har ingen information om dem.
+Du har fuldstændig kontrol over hvad du publicerer via [[Publish|Publish plug-in'et]] - enten hele din boks eller kun udvalgte noter i din boks. Du kan være sikker på, at alle de noter, du vælger **ikke** at udgive, forbliver private, og Obsidian Publish har ingen information om dem.
 
 ### Backup
 
