@@ -45,11 +45,11 @@ Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver 
 
 ### Dokumentation
 
-Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser er skrevet af [@mediapathic](http://mediapathic.net), med stor hjælp fra Reggie. Vi har også fået rettelser fra dem mange øjne på Discord og i forumfællesskabet.
+Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser er skrevet af [@mediapathic](http://mediapathic.net), med stor hjælp fra Reggie. Vi har også fået rettelser fra de mange øjne på Discord og i forumfællesskabet.
 
-Vi accepterer nu "pull requests" af hjælpeboksen in [vores dokumentations repository](https://github.com/obsidianmd/obsidian-docs/).
+Vi accepterer nu "pull requests" af hjælpeboksen i [vores dokumentations GIT repository](https://github.com/obsidianmd/obsidian-docs/).
 
-Denne version er opdateret: 4. maj 2021
+Denne version er opdateret: 12. maj 2021
 
 ##### Tilføj dit navn
 
