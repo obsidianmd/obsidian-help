@@ -1,6 +1,6 @@
 ## Beta status
 
-As of 2021/04/26, the mobile apps are in only closed beta. It is currently available to all Obsidian Catalyst license holders.
+As of 2021/04/26, the mobile apps are in closed beta. It is currently available to all Obsidian Catalyst license holders.
 
 In a few weeks, once the app is more stable, we will roll out to the general public.
 
