@@ -1,9 +1,9 @@
-Obsidian recognizes the following file formats right now:
+Obsidian mengenali format-format fail berikut setakat ini:
 
-1. Markdown files: `md`;
-2. Image files: `png`, `jpg`, `jpeg`, `gif`, `bmp`, `svg`;
-3. Audio files: `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`;
-4. Video files: `mp4`, `webm`, `ogv`;
-5. PDF files: `pdf`.
+1. Fail-fail Markdown: `md`;
+2. Fail-fail Imej: `png`, `jpg`, `jpeg`, `gif`, `bmp`, `svg`;
+3. Fail-fail Audio: `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`;
+4. Fail-fail Video: `mp4`, `webm`, `ogv`;
+5. Fail-fail PDF: `pdf`.
 
-All these types of files can be [[Embed files|embedded]] in a note.
+Semua format-format fail ini boleh di-[[Embed files|embedded]] dalam sebuah nota.
