@@ -8,7 +8,7 @@ Custom shorcuts can be added to the Command Palette in Settings -> Keymap. Click
 
 You can set a few pinned commands that will appear at top of the command palette. This lets you choose them without typing anything. It's a good place to put your most frequently used commands.
 
-You can add pinned commands by entering the name in the "New pinned command" field. After you pick a command and hit `Enter`, the command will be added to the list above. You can reorder the list or delete existing pinned commands in the list.
+Pinned commands are managed on the Command palette options screen under Plugin Options. You can add pinned commands by entering the name in the "New pinned command" field. After you pick a command and hit `Enter`, the command will be added to the list above. You can reorder the list or delete existing pinned commands in the list.
 
 ### Usage tips
 
