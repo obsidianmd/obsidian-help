@@ -31,6 +31,7 @@ Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver 
 - Daniel MATHIOT en janvier 2021.
 - Joffrey SCHROEDER et Olivier ANTHONIOZ en août 2020.
 - Henrik Falk (Dansk)
+- Jxhnny Ut8h (Russian)
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
@@ -49,7 +50,7 @@ Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser e
 
 Vi accepterer nu "pull requests" af hjælpeboksen i [vores dokumentations GIT repository](https://github.com/obsidianmd/obsidian-docs/).
 
-Denne version er opdateret: 12. maj 2021
+Denne version er opdateret: 19. maj 2021
 
 ##### Tilføj dit navn
 

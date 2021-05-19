@@ -7,6 +7,7 @@ Brugerdefinerede genvejstaster kan tilføjes til kommandopaletten i "Instillinge
 #### Fastgjorte kommandoer
 Du kan fastgøre nogle få kommandoer, som vises øverst i kommandopaletten. Du kan vælge dem uden at skulle taste noget. Det er et godt sted at placere dine mest brugte kommandoer.
 
+Fastgjorte kommandoer administreres på "Kommandopalette" indstillingsskærmen under "Plug-in indstillinger".
 Du kan tilføje fastgjorte kommandoer ved at skrive navnet i "Ny fastgjort kommando" feltet. Efter du har valgt en kommando og trykket `Enter`, vil kommandoen blive tilføjet til listen ovenover. Du kan flytte kommandoer rundt i listen eller slette eksisterende kommandoer.
 
 ### Tips til brug
