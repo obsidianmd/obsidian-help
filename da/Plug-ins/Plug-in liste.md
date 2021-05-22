@@ -26,4 +26,5 @@ Plug-ins kan håndteres via "Indstillinger" knappen nederst til venstre. Nogle a
 - [[Skabeloner]]
 - [[Disposition]]
 - [[Publish]]
+- [[Obsidian Sync]]
 - [[Filgenoprettelse]]
