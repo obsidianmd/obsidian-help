@@ -66,7 +66,7 @@ Når du skal skrive en søgeforspørgsel, så husk, at hvis du klikker på "Fork
 	- `foo OR bar` vil finde alle noter som indeholder et af ordene. De behøver ikke være i samme note.
 	- `foo -bar` vil finde alle de noter, som indeholder `foo`, men ikke hvis de også indeholder `bar`.
 -Der kan benyttes paranteser til at gruppere boolske operatorer, f.eks. `((a OR b) (c OR d))`. Det er brugbart, når der skal laves komplekse søgninger, hvor du vil sikre dig at forespørgslen sker i den rækkefølge du ønsker.
-- Du kan også anvende regulære søgeudtryk (regex) i søgninger. Benyt skråstreg som start på et regulært søgeudtryk, f.eks. `/[a-z]{3}/`.
+- Du kan også anvende regulære søgeudtryk (regex) i søgninger. Benyt skråstreg som start på et regulært søgeudtryk, f.eks. `/[a-z]{3}/`. Obsidian accepterer de regulære udtryk, som JavaScript understøtter. Du kan lære mere om dem [her](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular\_Expressions).
 
 ### Søgeoperatorer
 
