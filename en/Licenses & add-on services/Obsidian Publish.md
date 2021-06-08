@@ -107,7 +107,7 @@ Once you create the page rule, you should also create a CNAME record for `www.my
 
 If you wish to host your own web server and setup your own SSL encryption, you can choose this option. If you are already hosting a website under your domain or subdomain, you can also use this option and setup your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
 
-Simply proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=mysite.com/my-subpath/...` and configure the site options in Obsidian to the same URL path.
+Simply proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=mysite.com/my-notes/...` and **configure the site options in Obsidian to the same URL path** by setting **Custom URL** to `mysite.com/my-notes`.
 
 For example, in NGINX, you can set it up as:
 ```nginx
