@@ -5,6 +5,16 @@ Se den officielle version på internettet her: https://publish.obsidian.md/help
 
 Hvis du finder fejl eller manglende information, kan du bidrage med feedback her: https://github.com/obsidianmd/obsidian-docs/
 
+## Andre sprog
+
+Denne hjælp er også tilgængelig på følgende andre sprog:
+
+- [Egelsk](https://help.obsidian.md/Index)
+- [Italiano](https://publish.obsidian.md/help-it)
+- [日本語](https://publish.obsidian.md/help-ja)
+- [中文](https://publish.obsidian.md/help-zh)
+
+
 ## Tak til
 
 Vores [[Tak til|'Tak til' side]] lister alle de fantastiske mennesker, som har gjort Obsidian mulig.
@@ -40,11 +50,3 @@ For at læse mere om udviklerne, se [about](https://obsidian.md/about) siden vor
 - [[Arbejde med flere markører]]
 - [[Brug af obsidian URI]]
 
-### Andre sprog
-
-Denne hjælp er også tilgængelig på følgende sprog:
-
-- [Dansk](https://publish.obsidian.md/help-da)
-- [Italiano](https://publish.obsidian.md/help-it)
-- [中文](https://publish.obsidian.md/help-zh)
-- [日本語](https://publish.obsidian.md/help-ja)
