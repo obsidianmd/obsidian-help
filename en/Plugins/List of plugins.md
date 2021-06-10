@@ -1,4 +1,4 @@
-One of the most powerful aspects of Obsidian is the ability to add new functionality via plugins. It comes with several already, and many more are in development.
+One of the most powerful aspects of [[Obsidian]] is the ability to add new functionality via plugins. It comes with several already, and many more are in development.
 
 You can also build your own Obsidian plugin. See [[Third-party plugins]].
 
@@ -11,6 +11,7 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 1. [[Graph view]]
 1. [[Quick switcher]]
 1. [[Search]]
+1. [[Outgoing links]]
 1. [[Page preview]]
 1. [[Word count]]
 1. [[Slides]]

@@ -13,6 +13,7 @@ This help site is also available in other languages:
 - [中文](https://publish.obsidian.md/help-zh)
 - [日本語](https://publish.obsidian.md/help-ja)
 - [Dansk](https://publish.obsidian.md/help-da)
+- [Русский](https://publish.obsidian.md/help-ru)
 
 ## Credits
 
@@ -48,12 +49,3 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 - [[Working with multiple vaults]]
 - [[Working with multiple cursors]]
 - [[Using obsidian URI]]
-
-### Other languages
-
-This published help site is also available in:
-
-- [Dansk](https://publish.obsidian.md/help-da)
-- [Italiano](https://publish.obsidian.md/help-it)
-- [中文](https://publish.obsidian.md/help-zh)
-- [日本語](https://publish.obsidian.md/help-ja)
