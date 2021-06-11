@@ -9,10 +9,11 @@ Hvis du finder fejl eller manglende information, kan du bidrage med feedback her
 
 Denne hjælp er også tilgængelig på følgende andre sprog:
 
-- [Egelsk](https://help.obsidian.md/Index)
+- [Engelsk](https://help.obsidian.md/Index)
 - [Italiano](https://publish.obsidian.md/help-it)
 - [日本語](https://publish.obsidian.md/help-ja)
 - [中文](https://publish.obsidian.md/help-zh)
+- [Русский](https://publish.obsidian.md/help-ru)
 
 
 ## Tak til
