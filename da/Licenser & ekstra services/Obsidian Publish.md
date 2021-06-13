@@ -99,23 +99,24 @@ Når du har oprettet sidereglen bør du også oprette en CNAME record for `www.m
 Hvis du selv ønsker at have din egen webserver og opsætte din egen SSL kryptering kan du vælge den mulighed. Hvis du allerede har et websted på dit domæne eller underdomæne, kan du også benytte denne mulighed og opsætte dit websted til at tilgå dit Obsidian Publish websted fra en specifik URL, i stedet for at kun benytte domænenavnet.
 
 Du skal viderestille alle anmodninger fra den URL til
-`https://publish.obsidian.md/serve?url=mitwebsted.com/min-sti/...` og konfigurere webstedsindstillingerne i Obsidian til at pege på den samme sti.
+`https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/...` og **konfigurere webstedsindstillingerne i Obsidian til at pege på den samme sti** ved at sætte **Brugerdefineret URL** til `mitwebsted.com/mine-noter`.
 
-F.eks. kan du sætte følgende op på NGINX:
+##### NGINX
 ```nginx
 location /mine-noter {
 	proxy_pass https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/;
 }
 ```
 
-I Apache's konfiguraionsfil `.htaccess`, kan du opsætte den sådan:
-(Note: "mod_rewrite" skal også været sat til, og du skal muligvis også konfigurere [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache))
+##### Apache
+Tilføj følgende til `.htaccess`
 ```htaccess
 RewriteEngine  on
 RewriteRule    "^mine-noter/(.*)$"  "https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/$1"  [L,P]
 ```
+(Note: "mod_rewrite" skal også været sat til, og du skal muligvis også konfigurere [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache))
 
-Hvis du anvender Netlify, kan du opsætte den sådan:
+##### Netlify
 ```
 [[redirects]]
   from = "https://mitwebsted.com/mine-noter/*"
@@ -124,6 +125,40 @@ Hvis du anvender Netlify, kan du opsætte den sådan:
   force = true
 ```
 
+##### Vercel
+Du skal [konfigurere rewrites](https://vercel.com/docs/configuration#project/rewrites) i `vercel.json`.
+
+```json
+
+{
+
+...
+
+"rewrites": [
+
+{
+
+"source": "/mine-noter/",
+
+"destination": "https://publish.obsidian.md/serve?url=mit-websted.com/mine-noter"
+
+},
+
+{
+
+"source": "/mine-noter/:path*",
+
+"destination": "https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/:path*"
+
+}
+
+]
+
+}
+
+```
+
+##### Supported HTTP X-Headers
 Alternativt kan du benytte `https://publish.obsidian.md/` med en brugerdefineret header `x-obsidian-custom-domain` sat til din webstedsurl `mitwebsted.com/min-undermappe`, hvis din proxy service ikke tillader brugerdefinerede headers.
 
 #### Brugerdefineret domæne problemer efter opsætning
