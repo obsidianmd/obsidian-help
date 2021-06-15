@@ -1,10 +1,10 @@
 ### Hvordan automatisk opdatering fungerer
-Obsidian tjekker ofr opdateringer hver 12 time. Når en opdatering er tilgængelig vil en genstart af Obsidian automatisk starte den nyeste version.
+Obsidian tjekker for opdateringer hver 12 time. Når en opdatering er tilgængelig vil en genstart af Obsidian automatisk starte den nyeste version.
 
 Du kan tjekke din nuværende version, "Tjek for opdateringer" i Indstillinger -> Om. Du kan også slå "automatisk opdateringer" fra der.
 
 ### Insider build
-hvis du vil opdatere til den seneste insider build, så læs: [[Insider builds#Sådan aktiveres insider builds]] for at få information om hvordan du aktiverer funktionen.
+Hvis du vil opdatere til den seneste insider build, så læs: [[Insider builds#Sådan aktiveres insider builds]] for at få information om hvordan du aktiverer funktionen.
 
 ### Nuværende version vs installerede version
 

@@ -31,9 +31,11 @@ Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver 
 - Daniel MATHIOT en janvier 2021.
 - Joffrey SCHROEDER et Olivier ANTHONIOZ en août 2020.
 - Henrik Falk (Dansk)
+- Jxhnny Ut8h (Russian)
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
+- taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
 
@@ -44,11 +46,11 @@ Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver 
 
 ### Dokumentation
 
-Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser er skrevet af [@mediapathic](http://mediapathic.net), med stor hjælp fra Reggie. Vi har også fået rettelser fra dem mange øjne på Discord og i forumfællesskabet.
+Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser er skrevet af [@mediapathic](http://mediapathic.net), med stor hjælp fra Reggie. Vi har også fået rettelser fra de mange øjne på Discord og i forumfællesskabet.
 
-Vi accepterer nu "pull requests" af hjælpeboksen in [vores dokumentations repository](https://github.com/obsidianmd/obsidian-docs/).
+Vi accepterer nu "pull requests" af hjælpeboksen i [vores dokumentations GIT repository](https://github.com/obsidianmd/obsidian-docs/).
 
-Denne version er opdateret: 20. april 2021
+Denne version er opdateret: 4. juni 2021
 
 ##### Tilføj dit navn
 

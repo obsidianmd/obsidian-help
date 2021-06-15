@@ -1,4 +1,4 @@
-One of the most powerful aspects of Obsidian is the ability to add new functionality via plugins. It comes with several already, and many more are in development.
+One of the most powerful aspects of [[Obsidian]] is the ability to add new functionality via plugins. It comes with several already, and many more are in development.
 
 You can also build your own Obsidian plugin. See [[Third-party plugins]].
 
@@ -6,23 +6,26 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 
 ### Current list of official plugins
 
-- [[File explorer]]
-- [[Backlinks]]
-- [[Graph view]]
-- [[Quick switcher]]
-- [[Search]]
-- [[Page preview]]
-- [[Word count]]
-- [[Slides]]
-- [[Open in default app]]
-- [[Audio recorder]]
-- [[Tag pane]]
-- [[Command palette]]
-- [[Daily notes]]
-- [[Zettelkasten prefixer]]
-- [[Markdown format converter]]
-- [[Random note]]
-- [[Starred notes]]
-- [[Templates]]
-- [[Outline]]
-- [[Publish]]
+1. [[File explorer]]
+1. [[Backlinks]]
+1. [[Graph view]]
+1. [[Quick switcher]]
+1. [[Search]]
+1. [[Outgoing links]]
+1. [[Page preview]]
+1. [[Word count]]
+1. [[Slides]]
+1. [[Open in default app]]
+1. [[Audio recorder]]
+1. [[Tag pane]]
+1. [[Command palette]]
+1. [[Daily notes]]
+1. [[Zettelkasten prefixer]]
+1. [[Markdown format converter]]
+1. [[Random note]]
+1. [[Starred notes]]
+1. [[Templates]]
+1. [[Outline]]
+1. [[Publish]]
+1. [[Obsidian Sync|Sync]]
+1. [[File recovery]]

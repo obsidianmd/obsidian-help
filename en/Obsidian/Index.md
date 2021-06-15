@@ -5,6 +5,16 @@ See public hosted version: https://publish.obsidian.md/help
 
 If you found mistakes or missing information, you can contribute to this site here: https://github.com/obsidianmd/obsidian-docs/
 
+## Other languages
+
+This help site is also available in other languages:
+
+- [Italiano](https://publish.obsidian.md/help-it)
+- [中文](https://publish.obsidian.md/help-zh)
+- [日本語](https://publish.obsidian.md/help-ja)
+- [Dansk](https://publish.obsidian.md/help-da)
+- [Русский](https://publish.obsidian.md/help-ru)
+
 ## Credits
 
 [[Credits|Our credits page]] lists all the amazing people who made Obsidian possible.
@@ -39,12 +49,3 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 - [[Working with multiple vaults]]
 - [[Working with multiple cursors]]
 - [[Using obsidian URI]]
-
-### Other languages
-
-This published help site is also available in:
-
-- [Dansk](https://publish.obsidian.md/help-da)
-- [Italiano](https://publish.obsidian.md/help-it)
-- [中文](https://publish.obsidian.md/help-zh)
-- [日本語](https://publish.obsidian.md/help-ja)

@@ -66,9 +66,21 @@ Obsidian 发布服务作为内置功能可以让你选用库中的笔记来直�
 
 这些图标文件可以存放在库中的任何位置。当前（2020年）推荐的图标大小为 `32×32`，`128x128`，`152×152`，`167x167`，`180x180`，`192x192`，以及 `196x196`。
 
+##### 自定义 JS
+
+如果你希望执行自己编写的 JavaScript 代码以提升访客的浏览体验，或是为自己的网站增加一些功能（如 Discus!、Discourese等），你可以创建一个 `publish.js` 文件并将其放至于库的根目录后将其上传。需要注意的是，这些脚本仅对于你网站的访客生效。
+
 ##### 禁止搜索引擎索引
 
 这个选项会为你所有页面添加 meta noindex 设置，从而使得 Google 这样的搜索引擎无法索引你的网站。如果你的网站设置了密码保护，搜索引擎无论如何也无法索引你的网站。
+
+##### Google Analytics
+
+如果你希望为你的网站启用 Google Analytics，请先确保当地法律法规允许你这么做。然后，你需要将诸如`UA-XXXXX-Y` 的追踪代码填入相应的文本框中，随后你的网站就会被自动追踪访问情况。注意，Google Analytics 仅对从你自定义域名来的流量有效。
+
+测试 Google Analytics 的时候，请先关闭浏览器上的去广告扩展（比如 uBlock Origin等），这些扩展会影响 Google Analytics 的代码运行。
+
+另外，发布服务目前还不能直接与 Google Tag Manage 兼容——如果你想使用 Google Tag Manage 而不是 Google Analytics，你可以使用自定义 javascript 设置它。
 
 ### 自定义域名
 
@@ -78,7 +90,7 @@ Obsidian 发布服务作为内置功能可以让你选用库中的笔记来直�
 
 #### CloudFlare 设置
 
-设置自定义域名或子域名的最简单方法就是使用 CloudFlare，并让 CloudFlare 管理你的域名。这样你就可以免费向你的网站添加 SSL，同时确保你的网站在世界任何地方都能被快速访问。
+设置自定义域名或子域名的最简单方法就是使用 [CloudFlare](https://cloudflare.com)，并让 CloudFlare 管理你的域名。这样你就可以免费向你的网站添加 SSL，同时确保你的网站在世界任何地方都能被快速访问。
 
 你只需要添加一个 CNAME 记录到你的域或子域，将值设置为 `publish-main.obsidian.md`。然后，转到 SSL/TLS 配置，并将 SSL/TLS 加密模式设置为 `Full`。这将自动配置 SSL/TLS 证书。
 
@@ -99,6 +111,8 @@ location /my-notes {
 ```
 
 在 Apache 的 `.htaccess`，你可以如下设置：
+
+（注意：mod_rewrite 必须开启，并且你需要配置 [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache))
 
 ```htaccess
 RewriteEngine  on
@@ -125,7 +139,6 @@ RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=my-doma
 
 - 完整的自定义域名支持（提供 SSL 证书）
 - 全文检索
-- 整合各种第三方服务，比如 Disqus、Discourse 等
 - 更多内置主题
 
 如果你对发布服务有任何建议或意见，请通过在[论坛](https://forum.obsidian.md/)发帖让我们知道。
