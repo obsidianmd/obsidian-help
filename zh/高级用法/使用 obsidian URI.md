@@ -1,5 +1,7 @@
 Obsidian 支持自定义的URI协议 `Obsidian://`，这个协议可以用来触发Obsidian 内部的各种动作。自定义 URI 协议通常用于 MacOS 中的跨应用程序工作流。
 
+如果你已经安装了 Obsidian，下面这个命令将在当前设备上打开 Obidian：[点击此处](obsidian://open)
+
 ## 安装 Obsidian URI
 
 为了让你的操作系统将 `obsidian://` URI 重定向到 Obsidian，你可能需要执行一些额外的步骤。

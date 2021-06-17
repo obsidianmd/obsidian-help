@@ -63,7 +63,7 @@ When crafting a search query, remember that clicking "Explain Search Term" will 
 - Boolean operations can be used. Use `OR` to match one or another. Use `-` to negate a query. The space character is used for boolean "and".
 	- For example: `foo OR bar` will find all notes that contain either of those words, they don't have to be in the same note. `foo -bar` will find all notes that contain `foo`, but not if they also contain `bar`.
 - Parenthesis can be used to group boolean operations. For example `((a OR b) (c OR d))`. This can be useful when crafting complex searches to make sure things happen in the order you want.
-- Regular expressions (regex) can now be used in search. Use forward slash to denote a regular expression. For example: `/[a-z]{3}/`.
+- Regular expressions (regex) can now be used in search. Use forward slash to denote a regular expression. For example: `/[a-z]{3}/`. Obsidian accepts the JavaScript flavor regular expressions. You can learn more about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
 ### Search operators
 
