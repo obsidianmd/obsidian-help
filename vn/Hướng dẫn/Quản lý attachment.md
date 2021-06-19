@@ -1,24 +1,24 @@
-## Add an attachment
+## Thêm attachment
 
-There are several ways to include attachments in your notes:
+Có một số cách để đưa attachment vào ghi chú của bạn:
 
-1. Copy and paste;
-2. Drag and drop;
-3. Download or copy file to vault folder.
+1. Sao chép và dán;
+2. Kéo và thả;
+3. Tải xuống hoặc sao chép file vào thư mục vault.
 
-After being added, these attachment files are just normal files and can still be accessed through your file system. 
+Sau khi được thêm vào, các attachment này chỉ là file bình thường và vẫn có thể được truy cập thông qua hệ thống file của bạn. 
 
-Please note that only [[Accepted file formats]] are handled.
+Lưu ý rằng chỉ [[Định dạng file được chấp nhận]] mới được xử lý.
 
-### Copy and paste
+### Sao chép và dán
 
-Pasting a local file from your system explorer or your clipboard will put the file into your vault.
+Dán một file cục bộ từ explorer hệ thống hoặc khay nhớ tạm thời sẽ đưa file vào vault.
 
-This is very handy when combined with screenshot tools.
+Điều này rất tiện dụng khi kết hợp với các công cụ chụp ảnh màn hình.
 
-### Drag and drop
+### Kéo và thả
 
-If you drag and drop a file from your file explorer, it will be copied to your vault as well.
+Nếu bạn kéo và thả một file từ file explorer, it will be copied to your vault as well.
 
 ### Download or copy to vault folder
 
