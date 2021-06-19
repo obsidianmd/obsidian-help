@@ -20,30 +20,30 @@ Dán một file cục bộ từ explorer hệ thống hoặc khay nhớ tạm th
 
 Nếu bạn kéo và thả một file từ file explorer, it will be copied to your vault as well.
 
-### Download or copy to vault folder
+### Tải xuống hoặc sao chép vào thư mục vault
 
-This can work well when paired with [[Capture information#Use a clipper extension|clipper extensions]].
+Điều này có thể hoạt động tốt khi được ghép nối với [[Nắm bắt thông tin#Sử dụng extension clipper|extension clipper]].
 
-You can also download images from your browser into your vault folder directly for later reference.
+Bạn cũng có thể tải trực tiếp hình ảnh từ trình duyệt của mình vào thư mục vault để tham khảo sau này.
 
-## Change default attachment location
+## Thay đổi vị trí attachment mặc định
 
-By default, new attachments will be dropped in the root of your vault. You can fine tune this setting in Settings -> Files & Links -> "Default location for new attachments".
+Theo mặc định, các attachment mới sẽ bị xóa trong thư mục gốc của vault. Bạn có thể chỉnh cài đặt này trong Settings -> Files & Links -> "Default location for new attachments".
 
-### Choose a folder
+### Chọn thư mục
 
-You can choose a fixed folder to always place your attachments in. To do this, choose "In the folder specified below", and choose a folder in your vault in the new field that appears.
+Bạn có thể chọn một thư mục cố định để đặt các attachment. Để thực hiện việc này, hãy chọn "In the folder specified below" và chọn một thư mục trong vault trong trường mới bổ sung.
 
-Alternatively, you can right click on a folder in [[File explorer]] and choose "Set as attachment folder".
+Ngoài ra, bạn có thể nhấp chuột phải vào một thư mục trong [[File explorer]] và chọn "Set as attachment folder".
 
-### Same folder as current file
+### Cùng một thư mục với file hiện tại
 
-Sometimes, you may want the attachment files to always be in the same folder as the note you're working on. In this case, choose "Same folder as current file".
+Đôi khi, bạn có thể muốn các file attachment luôn nằm trong cùng một thư mục với ghi chú mà bạn đang làm việc. Trong trường hợp này, hãy chọn "Same folder as current file".
 
-### Under the current folder
+### Trong thư mục hiện tại
 
-You can also choose to save attachments to a folder underneath the folder that the current file is in.
+Bạn cũng có thể chọn lưu attachment vào một thư mục con của thư mục chứa file hiện đang mở.
 
-To do this, choose the "Subfolder under current folder" option, and write the name of the subfolder in the field that appears. For example, if you write `assets`, and your note is in `VAULT/folder/path/`, the attachments will be added to `VAULT/folder/path/assets` when you're working on this note.
+Để thực hiện việc này, hãy chọn tùy chọn "Subfolder under current folder" và viết tên của thư mục con trong trường bổ sung. Ví dụ: nếu bạn viết `assets` và ghi chú của bạn nằm trong `VAULT/folder/path/`, các attachment sẽ được thêm vào `VAULT/folder/path/assets` khi bạn đang làm việc với ghi chú này.
 
-You don't need to create the subfolder beforehand; if it doesn't exist, Obsidian will create it for you.
+Bạn không cần tạo trước thư mục con; nếu nó không tồn tại, Obsidian sẽ tạo nó.
