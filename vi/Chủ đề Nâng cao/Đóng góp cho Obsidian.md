@@ -89,7 +89,7 @@ If you know another language (preferably natively), you can help with translatin
 
 #### Chuyển ngữ các Thông tin trong Ứng dụng
 
-Nếu bạn biết một ngôn ngữ khác (ngôn ngữ mẹ đẻ), bạn có thể giúp chúng tôi chuyển ngữ giao diện Obsidian sang ngôn ngữ của bạn. Bạn có thể làm điều đó bằng cách gửi yêu cầu kéo (Pull request) trong [obsidianmd/obsidian-translations](https://github.com/obsidianmd/obsidian-translations) để đưa nó vào phiên bản tiếp theo của ứng dụng.
+Nếu bạn biết một ngôn ngữ khác (ngôn ngữ mẹ đẻ), bạn có thể giúp chúng tôi chuyển ngữ giao diện Obsidian sang ngôn ngữ của bạn. Bạn có thể làm điều đó bằng cách gửi yêu cầu kéo (Pull request) trong [kho chứa Github của chúng tôi](https://github.com/obsidianmd/obsidian-translations) để đưa nó vào phiên bản tiếp theo của ứng dụng.
 
 <!--
 #### Translating the docs
@@ -109,4 +109,4 @@ If you found a typo or a grammar mistake in these documentation, feel free to su
 
 #### Tìm thấy lỗi?
 
-Nếu bạn tìm thấy lỗi chính tả hoặc lỗi ngữ pháp trong tài liệu này, vui lòng gửi một yêu cầu kéo (Pull request) về [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
+Nếu bạn tìm thấy lỗi chính tả hoặc lỗi ngữ pháp trong tài liệu này, vui lòng gửi một yêu cầu kéo (Pull request) về [kho chứa Github của chúng tôi](https://github.com/obsidianmd/obsidian-docs).
