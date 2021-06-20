@@ -45,7 +45,7 @@ Nếu bạn muốn biết thêm về các nhà lập trình, vui lòng tham kh�
 - [[Làm việc với tag]]
 - [[Làm việc với backlink]]
 - [[Làm việc với nhiều ghi chú]]
-- [[Pane layout]]
+- [[Bố cục ngăn]]
 - [[Làm việc với nhiều vault]]
 - [[Làm việc với nhiều con trỏ]]
 - [[Sử dụng obsidian URI]]
