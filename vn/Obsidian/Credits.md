@@ -1,11 +1,11 @@
-Names are not listed by amount of contribution, but alphabetically (or at least we try!).
+Tên được liệt kê theo thứ tự bảng chữ cái thay vì đóng góp.
 
-### Dev team
+### Nhóm lập trình
 
 - Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
 - Silver (Erica Xu)<span class='flair mod-pop'>Team Little Silvers</span>
 
-### Moderators
+### Người điều hành
 
 - anthonyg ([Anthony Gold](https://www.anthonypgold.com/))<span class='flair mod-pop' style='background-color:#F1C40F;color:#000;'>Team Gold</span><span class='flair mod-pop'>Think Tank</span>
 - argentum<span class='flair mod-pop'>Team Little Silvers</span><span class='flair mod-pop'>Linux master</span><span class='flair mod-pop'>Zotero master</span>
@@ -24,9 +24,10 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 - WhiteNoise<span class='flair mod-pop'>Think Tank</span><span class='flair mod-pop'>Zotero master</span><span class='flair mod-pop'>Bug report exterminator</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span><span class='flair mod-pop'>Easily triggered</span><span class='flair mod-pop'>Good and pure</span><span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
 
-### Translators
+### Người dịch
 
 - Andrea Brandi (Italian)
+- bongudth (Vietnam)
 - canzi-teacher, 蚕子 (Chinese Simplified)
 - Daniel Mathiot (French)
 - Henrik Falk (Danish)
@@ -40,17 +41,17 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 
 ### Builds
 
-- jstone for maintaining our builds on flathub
-- adamgibbins and ran-dall for maintaining our builds on homebrew
+- jstone để duy trì các bản dựng của chúng tôi trên flathub
+- adamgibbins và ran-dall để duy trì các bản dựng của chúng tôi trên homebrew
 
-### Documentation
+### Tài liệu
 
-The first version of the help vault was written by Silver. Later part of it was written by [@mediapathic](http://mediapathic.net), with a big help from Reggie. We also got corrections from the many pairs of eyes in the Discord and forum community.
+Phiên bản đầu tiên của help vault được viết bởi Silver. Phần sau của nó được viết bởi [@mediapathic](http://mediapathic.net), với sự trợ giúp đắc lực từ Reggie. Chúng tôi cũng nhận được sự chỉnh sửa từ nhiều người trong cộng đồng Discord và forum.
 
-We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/).
+Hiện chúng tôi chấp nhận các pull requests tới help vault trong [docs repo](https://github.com/obsidianmd/obsidian-docs/).
 
-##### Add your name
+##### Thêm tên của bạn
 
-If you're a translator, please make a pull request to add "Your Name (contributed language)" to the section above. Please keep the list of names alphabetical, thanks!
+Nếu bạn là người dịch, vui lòng thực hiện một pull request để thêm "Tên của bạn (ngôn ngữ đóng góp)" vào phần trên. Vui lòng giữ danh sách tên theo thứ tự bảng chữ cái, cảm ơn!
 
-If your name is not in English and can't be alphabetically listed, use this format: `your-github-username, [your name in your language] (Language name)`.
+Nếu tên của bạn không phải bằng tiếng Anh và không thể được liệt kê theo thứ tự bảng chữ cái, hãy sử dụng định dạng sau: `your-github-username, [tên của bạn bằng ngôn ngữ của bạn] (tên ngôn ngữ)`.

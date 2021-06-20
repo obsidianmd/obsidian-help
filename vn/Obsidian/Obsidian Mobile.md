@@ -1,86 +1,86 @@
-# Obsidian for Android
+# Obsidian dành cho Android
 
-The Android app is currently in [[Mobile app beta|closed beta]], and is available as a signed APK.
+Ứng dụng Android hiện ở [[Mobile app beta|closed beta]] và có sẵn dưới dạng APK đã ký.
 
-## How do I sync my data?
+## Làm cách nào để đồng bộ hóa dữ liệu của tôi?
 
-Obsidian for Android stores all vaults in the public documents folder on your device locally. You may choose to use [[Obsidian Sync]] to synchronize your files, or use any third party sync provider that can choose to sync with the public documents folder.
-
-### Obsidian Sync
-
-As with Obsidian desktop, we provide our built-in paid [[Obsidian Sync]] service.
-
-To setup a synced vault through Obsidian Sync, first create a new empty local vault. Once the empty vault is open, open the left sidebar, tap the settings button, and setup Obsidian Sync just like you did on Desktop:
-
-1. Login to your Obsidian account in the Account tab.
-2. Enable the Sync core plugin.
-3. Choose the remote vault to sync with.
-4. Keep the app open until all your files have synced over.
-
-To view the sync status of Obsidian Sync, swipe to pull out the right drawer, and you should see the status indicator just like it shows on the desktop app. Tap on it to get more information, such as viewing the sync log to debug any issues.
-
-Note: If you use Obsidian Sync along with a third party sync service, please make sure to exclude `.obsidian/sync.json` in your third party sync to avoid breaking Obsidian Sync. This file is used to keep track of the state of synchronization for the local device, and might cause issues when it's accidentally synchronized.
-
-### Third party sync
-
-You can also use your preferred sync solution to keep the local folder on your phone in sync with other devices.
-
-There are apps on the Play Store that let you sync a folder on your phone with other devices, for example [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) or [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
-
-However, we haven't tested these solutions. If you have success or experience with any of them, please let us know so we can supply the information on this page.
-
-## Where are my vaults stored?
-
-On Android, the Obsidian home folder is stored in the public documents folder under `Documents/Obsidian`. The public `Documents` folder is typically stored in SD card or emulated storage.
-
-Any folder in this home folder will be considered a vault. If you sync or copy a vault folder into this directory, it can be recognized when you open Obsidian.
-
-# Obsidian for iOS
-
-The iOS app is currently in [[Mobile app beta|closed beta]], and is available through TestFlight.
-
-## How do I sync my data?
-
-Obsidian for iOS can store your vault either in iCloud, or locally. The two current tested and recommended sync solutions are iCloud and Obsidian Sync.
-
-Any third party sync providers that can provide background-sync for a specific folder on your device should be able to work as well, but we are not aware of any. This is due to the limitations of the highly complex mechanism of cross-app file sharing in iOS, unlike Android which provides a public folder that all apps can access. Because of this, most third party sync providers don't have a proper implementation for background sync on iOS.
+Obsidian cho Android lưu trữ cục bộ tất cả các vault trong thư mục tài liệu công khai trên thiết bị của bạn. Bạn có thể chọn sử dụng [[Obsidian Sync]] để đồng bộ hóa các file của mình hoặc sử dụng bất kỳ nhà cung cấp đồng bộ hóa bên thứ ba nào có thể chọn đồng bộ hóa với thư mục tài liệu công cộng.
 
 ### Obsidian Sync
 
-You can follow the same steps as Android's sync as shown below, making sure that you create a non-iCloud folder as we do not recommend using both Obsidian Sync and iCloud Sync concurrently, which has been reported to cause data loss due to race conditions.
+Cũng như với máy tính để bàn Obsidian, chúng tôi cung cấp dịch vụ [[Obsidian Sync]] trả phí được tích hợp sẵn của mình.
 
-![[#Obsidian for Android#Obsidian Sync]]
+Để thiết lập một vault được đồng bộ hóa thông qua Obsidian Sync, trước tiên hãy tạo một vault cục bộ trống mới. Sau khi vault trống được mở, hãy mở thanh bên trái, nhấn vào nút cài đặt và thiết lập Obsidian Sync giống như bạn đã làm trên Máy tính để bàn:
 
-### iCloud Drive Sync
+1. Đăng nhập vào tài khoản Obsidian của bạn trong tab Account.
+2. Kích hoạt plugin Sync core.
+3. Chọn vault từ xa để đồng bộ hóa.
+4. Giữ ứng dụng mở cho đến khi tất cả các file của bạn đã được đồng bộ hóa.
 
-To setup a synced vault through iCloud Drive, you must first install and open the Obsidian iOS app. This will create an app folder called "Obsidian" under your iCloud Drive, with a logo of the Obsidian app. Note that this folder is considered to be a special folder by iCloud and is different than a folder you manually create insider your iCloud Drive.
+Để xem trạng thái đồng bộ của Obsidian Sync, hãy vuốt để kéo ngăn bên phải ra và bạn sẽ thấy trạng thái giống như nó hiển thị trên ứng dụng dành cho máy tính để bàn. Nhấn vào nó để biết thêm thông tin, chẳng hạn như xem nhật ký đồng bộ hóa để gỡ lỗi bất kỳ sự cố nào.
 
-Next, on your computer, move your vault folder into `iCloud Drive/Obsidian/`. Doing so will allow Obsidian to read the special app folder in your iCloud Drive.
+Lưu ý: Nếu bạn sử dụng Obsidian Sync cùng với dịch vụ đồng bộ hóa của bên thứ ba, hãy đảm bảo loại trừ `.obsidian/sync.json` trong đồng bộ hóa bên thứ ba của bạn để tránh phá vỡ Obsidian Sync. File này được sử dụng để theo dõi trạng thái đồng bộ hóa cho thiết bị cục bộ và có thể gây ra sự cố khi vô tình đồng bộ hóa.
 
-Let iCloud sync the entire vault folder, then on your mobile device, open the Obsidian app. You should now see the vault that you just put in, along with a cloud icon indicating it's stored in iCloud.
+### Đồng bộ hóa bên thứ ba
 
-The first time you open that vault, Obsidian might freeze for a while because iCloud is downloading all the files in the background. Eventually once iCloud finish syncing everything over to the phone the app should work smoothly. This may require you to restart the app a few times though.
+Bạn cũng có thể sử dụng giải pháp đồng bộ hóa ưa thích của mình để giữ cho thư mục cục bộ trên điện thoại của bạn được đồng bộ hóa với các thiết bị khác.
 
-### Working Copy
+Có những ứng dụng trên Play Store cho phép bạn đồng bộ hóa thư mục trên điện thoại của mình với các thiết bị khác, chẳng hạn như [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) hoặc [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
 
-You can alternatively setup Working Copy to use Git to sync your vault on iOS. To do this, you should create an empty local vault on your device first, then you can "Setup Folder Sync" and select a local vault inside the Obsidian app. Then, you can manually commit & push.
+Tuy nhiên, chúng tôi chưa thử nghiệm các giải pháp này. Nếu bạn thành công hoặc có kinh nghiệm với bất kỳ điều nào trong số họ, vui lòng cho chúng tôi biết để chúng tôi có thể cung cấp thông tin trên trang này.
 
-## Where are my vaults stored?
+## Vault của tôi được lưu trữ ở đâu?
 
-If you choose to store your vault in iCloud, then it is stored in a container in your iCloud Drive account, under an app folder named "Obsidian", which should have an icon of our logo.
+Trên Android, thư mục Obsidian được lưu trữ trong thư mục tài liệu công khai trong `Documents/Obsidian`. Thư mục `Documents` thường được lưu trữ trong thẻ SD hoặc bộ nhớ giả lập.
 
-If you chose not to use iCloud, then your vault will be stored in the sandboxed file system of the Obsidian app. As of v0.0.14 the local vault is now accessible from any other apps that supports picking a folder form the file system. As such, apps like Working Copy can be used to sync with Obsidian's local vaults.
+Bất kỳ thư mục nào trong thư mục chính này sẽ được coi là một vault. Nếu bạn đồng bộ hoặc sao chép một thư mục vault vào thư mục này, nó có thể được nhận ra khi bạn mở Obsidian.
 
-Currently Obsidian does not directly support third party sync providers that exposes a virtual file system through FileProvider yet. We will be attempting this in the future as an improvement.
+# Obsidian dành cho iOS
 
-# Third party sync support
+Ứng dụng iOS hiện ở [[Mobile app beta|closed beta]] và có sẵn thông qua TestFlight.
 
-Many users asks why Obsidian for Mobile doesn't support their preferred sync solution. Here's a brief explanation on the current state of mobile sync support.
+## Làm cách nào để đồng bộ hóa dữ liệu của tôi?
 
-The thing about Obsidian that's different from other apps like 1Writer and iA Writer is that Obsidian works on top of a vault rather than a single note. Many of the core Obsidian functionality depend on the whole vault and all the files inside, such as the link auto-complete, image embedding, tag pane, backlinks, and all the cross-note functionality.
+Obsidian cho iOS có thể lưu trữ vault của bạn trong iCloud hoặc cục bộ. Hai giải pháp đồng bộ được thử nghiệm và đề xuất hiện tại là iCloud và Obsidian Sync.
 
-In contrast, most Markdown editing apps simply "open" a single note, let the user perform edits, then save the note back. Because of this, the OS and third party sync providers typically only provide an API for accessing/working with a single file, but not so much for working with a vault (folder of files with potentially subfolders).
+Bất kỳ nhà cung cấp đồng bộ hóa bên thứ ba nào cung cấp đồng bộ hóa cho một thư mục cụ thể trên thiết bị của bạn cũng có thể hoạt động, nhưng chúng tôi không biết về bất kỳ điều gì. Điều này là do hạn chế của cơ chế chia sẻ file nhiều ứng dụng phức tạp trong iOS, không giống như Android cung cấp một thư mục chung mà tất cả các ứng dụng đều có thể truy cập. Do đó, hầu hết các nhà cung cấp đồng bộ hóa bên thứ ba không có cách triển khai phù hợp cho đồng bộ hóa nền trên iOS.
 
-For sync, a regular markdown editor app can simply implement the basic "download file when you open a selected file" and "upload the file back when you press save". Obsidian has to download the whole vault to be useful, and keep track of all the modified files (like for example, when you perform a file rename, we might update a bunch of other files for links that has changed due to the rename). On top of that, we need a way to monitor for changes through the sync solution to be able to update our internal caches when files change, to provide accurate links.
+### Obsidian Sync
 
-Keeping all that in sync with a third party sync provider would be quite tedious - and this is actually part of the reason why most sync providers don't make a proper sync client for mobile and you have to use a third party app (like DropSync or FolderSync) to do it. Unfortunately, such apps don't exist on iOS because of app sandboxing.
+Bạn có thể làm theo các bước tương tự như đồng bộ hóa của Android như hình dưới đây, đảm bảo rằng bạn tạo một thư mục không phải iCloud vì chúng tôi không khuyên bạn nên sử dụng đồng thời cả Obsidian Sync và iCloud Sync vì đã được báo cáo là gây mất dữ liệu.
+
+![[#Obsidian dành cho Android#Obsidian Sync]]
+
+### Đồng bộ hóa iCloud Drive
+
+Để thiết lập một vault được đồng bộ hóa thông qua iCloud Drive, trước tiên bạn phải cài đặt và mở ứng dụng Obsidian iOS. Thao tác này sẽ tạo một thư mục ứng dụng có tên "Obsidian" trong iCloud Drive của bạn, với biểu tượng của ứng dụng Obsidian. Lưu ý rằng thư mục này được iCloud coi là một thư mục đặc biệt và khác với thư mục bạn tạo thủ công trong iCloud Drive của mình.
+
+Tiếp theo, trên máy tính của bạn, hãy di chuyển thư mục vault của bạn vào `iCloud Drive/Obsidian/`. Làm như vậy sẽ cho phép Obsidian đọc thư mục ứng dụng đặc biệt trong iCloud Drive của bạn.
+
+Để iCloud đồng bộ hóa toàn bộ thư mục vault, hãy mở ứng dụng Obsidian trên thiết bị di động của bạn. Bạn sẽ thấy vault mà bạn vừa đặt vào, cùng với biểu tượng đám mây cho biết nó được lưu trữ trong iCloud.
+
+Lần đầu tiên bạn mở vault đó, Obsidian có thể bị đóng băng một lúc vì iCloud đang tải xuống tất cả các file. Cuối cùng khi iCloud hoàn tất đồng bộ hóa mọi thứ với điện thoại, ứng dụng sẽ hoạt động trơn tru. Tuy nhiên, có thể yêu cầu bạn khởi động lại ứng dụng một vài lần.
+
+### Bản sao làm việc
+
+Ngoài ra, bạn có thể thiết lập Bản sao làm việc sử dụng Git để đồng bộ hóa vault của mình trên iOS. Để thực hiện việc này, trước tiên bạn nên tạo một vault cục bộ trống trên thiết bị của mình, sau đó bạn có thể "Setup Folder Sync" (Thiết lập đồng bộ hóa thư mục) và chọn một vault cục bộ bên trong ứng dụng Obsidian. Sau đó, bạn commit và push theo cách thủ công.
+
+## Vault của tôi được lưu trữ ở đâu?
+
+Nếu bạn chọn lưu trữ vault của mình trong iCloud, thì nó sẽ được lưu trữ trong một vùng chứa trong tài khoản iCloud Drive của bạn, trong một thư mục ứng dụng có tên "Obsidian", thư mục này sẽ có biểu tượng của biểu tượng của chúng tôi.
+
+Nếu bạn chọn không sử dụng iCloud, thì vault của bạn sẽ được lưu trữ trong hệ thống file sandbox của ứng dụng Obsidian. Kể từ v0.0.14, vault cục bộ hiện có thể truy cập được từ bất kỳ ứng dụng nào khác hỗ trợ chọn một thư mục tạo thành hệ thống file. Do đó, các ứng dụng như Bản sao làm việc có thể được sử dụng để đồng bộ hóa với các vault cục bộ của Obsidian.
+
+Hiện tại, Obsidian chưa hỗ trợ trực tiếp các nhà cung cấp đồng bộ hóa bên thứ ba có thể làm lộ hệ thống file ảo thông qua FileProvider. Chúng tôi sẽ cố gắng cải tiến điều này trong tương lai.
+
+# Hỗ trợ đồng bộ hóa của bên thứ ba
+
+Nhiều người dùng hỏi tại sao Obsidian dành cho Mobile không hỗ trợ giải pháp đồng bộ hóa ưa thích của họ. Dưới đây là giải thích ngắn gọn về trạng thái hiện tại của hỗ trợ đồng bộ hóa trên thiết bị di động.
+
+Điều khác biệt về Obsidian so với các ứng dụng khác như 1Writer và iA Writer là Obsidian hoạt động hiệu quả với một vault chứ không phải là một ghi chú đơn giản. Nhiều chức năng cốt lõi của Obsidian phụ thuộc vào toàn bộ vault và tất cả các file bên trong, chẳng hạn như liên kết tự động hoàn thành, nhúng hình ảnh, ngăn tag, liên kết ngược và tất cả chức năng ghi chú chéo.
+
+Ngược lại, hầu hết các ứng dụng chỉnh sửa Markdown chỉ đơn giản là "mở" một ghi chú duy nhất, để người dùng thực hiện chỉnh sửa, sau đó lưu lại ghi chú đó. Do đó, các nhà cung cấp đồng bộ hệ điều hành và bên thứ ba thường chỉ cung cấp một API để truy cập/làm việc với một file duy nhất, nhưng không nhiều để làm việc với vault (thư mục file có các thư mục con).
+
+Để đồng bộ hóa, ứng dụng chỉnh sửa markdown thông thường có thể chỉ cần triển khai cơ bản "file tải xuống khi bạn mở file đã chọn" và "tải file lên trở lại khi bạn nhấn lưu". Obsidian phải tải xuống toàn bộ vault để hữu ích và theo dõi tất cả các file đã sửa đổi (chẳng hạn như khi bạn thực hiện đổi tên file, chúng tôi có thể cập nhật một loạt file khác cho các liên kết đã thay đổi do đổi tên). Trên hết, chúng tôi cần một cách để theo dõi các thay đổi thông qua giải pháp đồng bộ hóa để có thể cập nhật bộ nhớ đệm nội bộ của mình khi các file thay đổi, nhằm cung cấp các liên kết chính xác.
+
+Giữ tất cả những thứ đó đồng bộ với nhà cung cấp đồng bộ hóa bên thứ ba sẽ khá tẻ nhạt - và đây thực sự là một phần lý do tại sao hầu hết các nhà cung cấp đồng bộ hóa không tạo ứng dụng khách đồng bộ hóa phù hợp cho thiết bị di động và bạn phải sử dụng ứng dụng của bên thứ ba (như DropSync hoặc FolderSync) để thực hiện. Thật không may, các ứng dụng như vậy không tồn tại trên iOS do hộp cát ứng dụng.

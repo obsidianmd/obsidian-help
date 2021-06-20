@@ -1,60 +1,60 @@
-## What is Obsidian
+## Obsidian là gì
 
-Obsidian is a both a Markdown editor and a knowledge base app.
+Obsidian vừa là một trình soạn thảo Markdown vừa là một ứng dụng kiến ​​thức cơ bản.
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing densely networked knowledge base.
+Cách sử dụng cơ bản nhất là chỉnh sửa và xem trước các file Markdown. Nhưng sức mạnh thực sự của nó nằm ở việc quản lý cơ sở tri thức được nối mạng chặt chẽ.
 
-How do we start creating a network, you ask? Let's first start making some [[Internal link|internal links]]!
+Làm thế nào để chúng ta bắt đầu tạo một mạng lưới? Trước tiên, hãy bắt đầu tạo một số [[Liên kết nội bộ]]!
 
-## How we're different
+## Chúng khác biệt như thế nào
 
-==*We want you to own and control your data*==
+==*Chúng tôi muốn bạn sở hữu và kiểm soát dữ liệu của mình*==
 
-We believe in plain text for something as important as your knowledge base. You don't want to put your own brain over someone else's neck, do you? Treat your second brain the same way.
+Chúng tôi tin rằng văn bản thuần cũng quan trọng như nền tảng kiến ​​thức của bạn. Bạn không muốn đặt bộ não của mình lên cổ người khác, phải không? Hãy đối xử tốt với bộ não thứ hai của bạn.
 
-Sync is only a utility to facilitate working on multiple devices, the data will always primarily live on your hard disk.
+Sync chỉ là một tiện ích để tạo điều kiện làm việc trên nhiều thiết bị, dữ liệu sẽ luôn chủ yếu nằm trên đĩa cứng của bạn.
 
-When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
+Khi hệ thống file thay thế đám mây, bạn sẽ có các tùy chọn linh hoạt để làm việc với file của mình: bạn có thể sao lưu chúng bằng Dropbox, sử dụng Git để tạo phiên bản hoặc mã hóa đĩa của bạn để bảo mật. Bất cứ điều gì hoạt động trên hệ thống file của bạn sẽ hoạt động trên cơ sở kiến ​​thức Obsidian.
 
-==*Links are first-class citizens*==
+==*Liên kết là citizen class đầu tiên*==
 
-Links and connections are crucial to discovering the relations between what we know.
+Liên kết và kết nối là rất quan trọng để khám phá mối quan hệ giữa những gì chúng ta biết.
 
-Obsidian greatly values this, and encourages it with [[Internal link]] and [[Graph view]], among other things.
+Obsidian đánh giá rất cao điều này và đặc biệt khuyến nghị sử dụng [[Liên kết nội bộ]] và [[Chế độ xem đồ họa]].
 
-As John Locke puts it...
+Như John Locke đã nói...
 
-> The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:
-> 1. Combining several simple ideas into one compound one, and thus all complex ideas are made.
-> 2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations.
-> 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.
+> Trí óc tập luyện sức mạnh chống lại những ý tưởng đơn giản, và công việc của tinh thần chủ yếu là ba điều sau đây.
+> 1. Kết hợp nhiều ý tưởng đơn giản thành một ý tưởng phức tạp, từ đó tạo ra tất cả các ý tưởng phức tạp.
+> 2. Thứ hai, nếu hai ý tưởng, dù đơn giản hay phức tạp, được ghép lại với nhau mà không được tích hợp thành một và chúng có thể được nhìn thấy cùng một lúc, thì tâm trí hướng về các mối quan hệ.
+> 3. Thứ ba, tách biệt khỏi tất cả những ý tưởng khác đi kèm với chúng về sự tồn tại của thực tại. Đây là cái gọi là trừu tượng, và do đó tất cả các ý tưởng chung được hình thành.
 
- \- John Locke, An Essay Concerning Human Understanding (1690)
+ \- John Locke, Một bài luận về sự hiểu biết của con người (1690)
  
-Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
+Hệ thống phân cấp cho chúng ta điều đầu tiên và liên kết cho chúng ta điều thứ hai. Vẫn chưa rõ điều thứ ba có nghĩa là gì trong bối cảnh ghi chú, nhưng nó có thể liên quan đến lập trình và macro.
 
-==*Your own toolkit*==
+==*Bộ công cụ của riêng bạn*==
 
-Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
+Ghi chép là một hoạt động mang tính cá nhân cao. Đương nhiên, không có giải pháp toàn diện duy nhất cho tất cả mọi người.
 
-Instead of providing you with an opinionated and assembled product, [[Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+Thay vì cung cấp cho bạn một sản phẩm được lắp ráp và cố định, [[Obsidian]] cung cấp cho bạn nền tảng và nhiều khối xây dựng chức năng để khám phá và xây dựng giải pháp của riêng bạn.
 
-The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
+Nền tảng là có thể xem, chỉnh sửa và tìm kiếm file. Đối với những người tối giản, vậy là đủ.
 
-On top of that, you can add isolated, independent building blocks to add features to your note-taking:
+Trên hết, bạn có thể thêm các khối xây dựng biệt lập, độc lập để thêm các tính năng vào ghi chú của mình:
 
-- If you're taking class notes, [[Audio recorder]] and LaTeX math might be useful;
+- Nếu bạn đang ghi chú trong class, [[Audio recorder]] và toán học LaTeX có thể hữu ích;
 
-- If you're taking work notes, [[Slides]] and [[Backlinks]] may come in handy;
+- Nếu bạn đang ghi chú trong công việc, [[Slides]] và [[Backlinks]] có thể hữu ích;
 
-- If you're a researcher, [[Graph view]] and [[Word count]] might be essential to your toolkit.
+- Nếu bạn là một nhà nghiên cứu, [[Chế độ đồ họa]] và [[Số từ]] có thể cần thiết cho bộ công cụ của bạn.
 
-We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
+Chúng tôi không mong đợi các plugin là viên đạn bạc để giải quyết tất cả các vấn đề, nhưng nó đưa chúng tôi đến gần hơn một giải pháp nguyên khối, không có tất cả các tính năng mà bạn không cần làm lộn xộn giao diện.
 
-We support [[Customizing CSS|custom CSS]] and have a [[Third-party plugins|beta plugin API]], which will enable even more interface customization and support less common use cases.
+Chúng tôi hỗ trợ [[Tùy chỉnh CSS]] và có [[Plugin bên thứ ba|beta plugin API]], sẽ cho phép tùy chỉnh giao diện nhiều hơn và hỗ trợ các trường hợp sử dụng ít phổ biến hơn.
 
-## Follow our development
+## Theo dõi sự phát triển của chúng tôi
 
-Obsidian is in public beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
+Obsidian hiện đang ở giai đoạn thử nghiệm công khai. Chúng tôi có một [lộ trình](https://trello.com/b/Psqfqp7I/obsidian-roadmap) mà bạn có thể xem qua.
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
+Twitter của chúng tôi là [@obsdmd](https://twitter.com/obsdmd). Hãy theo dõi chúng tôi. Trên Twitter, chúng tôi chủ yếu tweet về các bản cập nhật sản phẩm.

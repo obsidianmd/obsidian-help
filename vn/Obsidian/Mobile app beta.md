@@ -1,40 +1,40 @@
-## Beta status
+## Trạng thái Beta
 
-As of 2021/04/26, the mobile apps are in closed beta. It is currently available to all Obsidian Catalyst license holders.
+Kể từ ngày 26/04/2021, ứng dụng dành cho thiết bị di động có sẵn trong phiên bản beta kín. Nó hiện có sẵn cho tất cả chủ sở hữu giấy phép Catalyst.
 
-In a few weeks, once the app is more stable, we will roll out to the general public.
+Chúng tôi dự định ra mắt bản phát hành công khai ngay sau khi ứng dụng đã ổn định được vài tuần.
 
-## Getting access
+## Nhận quyền truy cập
 
-The mobile beta is currently only available to holders of the [Catalyst license](https://obsidian.md/pricing).
+Hiện tại, phiên bản beta của ứng dụng dành cho thiết bị di động chỉ có sẵn cho người có [Giấy phép Catalyst](https://obsidian.md/pricing).
 
-To keep feedback and releases centralized as we don't have the capacity to debug and collect feedback via email, we ask Catalyst users who would like to beta test the mobile app to go through the following steps:
+Để lưu giữ phản hồi và bản phát hành ở một nơi, chúng tôi không gỡ lỗi hoặc thu thập phản hồi qua email và đối với những người dùng Catalyst muốn tham gia thử nghiệm beta của ứng dụng dành cho thiết bị di động, hãy làm theo các bước bên dưới để tham gia thử nghiệm beta của mình:
 
-### Step 1: join our Discord
-First of all, please [join our Discord](https://discord.gg/veuWUTm).  
+### Bước 1: tham gia Discord
+Trước hết, hãy [tham gia Discord](https://discord.gg/veuWUTm).  
 
-### Step 2: claim your Catalyst badge to access mobile channel
+### Bước 2: nhận huy hiệu Catalyst và truy cập kênh di động
 
-If you don't have your badge yet, [[Catalyst license#Discord badge|you can get it in your Account page]].
+Nếu bạn chưa có huy hiệu, [[Giấy phép Catalyst#Huy hiệu Discord|Bạn có thể nhận huy hiệu trên trang Account]].
 
-### Step 3: get the app via TestFlight (iOS) or APK (Android)
+### Bước 3: tải ứng dựng qua TestFlight (iOS) hoặc APK (Android)
 
-Once you get your badge, you should be able to see the #mobile channel along with regular channels like #general and #publish.
+Sau khi nhận được huy hiệu, bạn sẽ có thể duyệt qua kênh #mobile như cách bạn duyệt kênh thông thường, chẳng hạn như #general và #publish.
 
-To find the instructions for installing the mobile apps, go to #mobile, and open pinned messages.
+Truy cập kênh #mobile và mở tin nhắn đã ghim để tìm hiểu cách cài đặt ứng dụng dành cho thiết bị di động.
 
-On Discord web and desktop, you can open pinned messages of a channel by clicking on the pushpin icon near the search bar at the top. On Discord mobile, you'll need to swipe left to reveal the right sidebar and tap on the pushpin icon at the top.
+Trong phiên bản web và máy tính để bàn của Discord, bạn có thể mở tin nhắn đã ghim bằng cách nhấp vào biểu tượng đinh bấm gần thanh tìm kiếm ở trên cùng. Trên Discord Mobile, bạn cần phải vuốt sang trái để hiển thị thanh bên phải và sau đó nhấn vào biểu tượng ngón tay cái ở trên cùng.
 
-For the iOS app, look for the TestFlight link. Make sure to open the link on your iPhone or iPad, rather than on your computer. For the Android app, install the APK from the latest pinned messages if there are several of them.
+Xem liên kết TestFlight cho ứng dụng iOS. Đảm bảo mở liên kết trên iPhone hoặc iPad của bạn, không phải từ máy tính của bạn. Đối với ứng dụng Android, nếu bạn có nhiều APK, vui lòng cài đặt APK từ tin nhắn đã ghim.
 
-## How do I provide feedback?
+## Làm cách nào để đưa ra phản hồi?
 
-Before reporting an issue or submitting a feature request, please visit [the list of known issues on our forum](https://forum.obsidian.md/t/list-of-known-issues/14286) to see what's already known and on the roadmap.
+Trước khi báo cáo sự cố hoặc gửi yêu cầu tính năng, vui lòng truy cập [danh sách các sự cố đã biết trên forum](https://forum.obsidian.md/t/list-of-known-issues/14286) để xem những gì đã biết và trên lộ trình.
 
-The current group being rolled out can access the #mobile channel on Discord as well as the new Mobile category on the forum, given you've obtained the badges for your Catalyst tier.
+Nhóm hiện tại đang được triển khai có thể truy cập kênh #mobile trên Discord cũng như danh mục Mobile mới trên forum, vì bạn đã nhận được huy hiệu cho cấp Catalyst của mình.
 
-To keep track of bug reports and feature requests, please direct them to the forum as usual. Thank you for trying out our beta!
+Để theo dõi các báo cáo lỗi và yêu cầu tính năng, vui lòng chuyển hướng chúng đến forum như bình thường. Cảm ơn bạn đã dùng thử bản beta của chúng tôi!
 
-## Documentation
+## Tài liệu
 
-For more details on how to use Obsidian for Mobile, including guides for setting up sync, see [[Obsidian Mobile]].
+Để biết thêm chi tiết về cách sử dụng Obsidian cho Mobile, bao gồm cả hướng dẫn thiết lập đồng bộ hóa, hãy xem [[Obsidian Mobile]].

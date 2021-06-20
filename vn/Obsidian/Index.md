@@ -1,13 +1,13 @@
-## About this site
-Welcome to Obsidian's official help vault! This page contains a quick index to the things that you may be interested in.
+## Giới thiệu về trang web
+Chào mừng bạn đến với kho tài liệu chính thức của Obsidian! Trang này chứa một chỉ mục nhanh về những thứ mà bạn có thể quan tâm.
 
-See public hosted version: https://publish.obsidian.md/help
+Xem phiên bản đã phát hành: https://publish.obsidian.md/help
 
-If you found mistakes or missing information, you can contribute to this site here: https://github.com/obsidianmd/obsidian-docs/
+Nếu bạn thấy sai sót hoặc thiếu thông tin, bạn có thể đóng góp cho trang web này tại đây: https://github.com/obsidianmd/obsidian-docs/
 
-## Other languages
+## Những ngôn ngữ khác
 
-This help site is also available in other languages:
+Tài liệu này cũng được dịch sang các ngôn ngữ khác:
 
 - [Italiano](https://publish.obsidian.md/help-it)
 - [中文](https://publish.obsidian.md/help-zh)
@@ -17,35 +17,35 @@ This help site is also available in other languages:
 
 ## Credits
 
-[[Credits|Our credits page]] lists all the amazing people who made Obsidian possible.
+[[Credits|Trang Credit]] liệt kê tất cả những thành viên tuyệt vời đã làm nên Obsidian hoàn chỉnh.
 
-To read more about the makers, see the [about page](https://obsidian.md/about) on our official website.
+Nếu bạn muốn biết thêm về các nhà lập trình, vui lòng tham khảo [trang About](https://obsidian.md/about) trên trang web chính thức.
 
 ## Obsidian
 
-### About the app
+### Giới thiệu về ứng dụng
 
-- See [[Obsidian|our philosophy for the app]].
+- Xem [[Obsidian|triết lý của chúng tôi về ứng dụng]].
 
-### Getting started
+### Bắt đầu
 
-- Looking for some functionality? Try the  [[command palette]], which contains all available actions you need to work with Obsidian. Just press `Ctrl/Cmd-P` and start typing.
-- Learn our flavor of Markdown with [[Format your notes|how to format your notes]].
-- Check out some tips on [[Create notes|creating new notes]].
-- Check out some tips on [[Internal link|creating internal links]].
-- Learn how to [[Embed files|embed other notes or attachments]].
-- See the [[Keyboard shortcuts|default keyboard shortcuts]].
+- Tìm kiếm một số chức năng? Hãy thử [[bảng lệnh]], chứa tất cả các hành động có sẵn mà bạn cần để làm việc với Obsidian. Chỉ cần nhấn `Ctrl/Cmd-P` và bắt đầu nhập.
+- Tìm hiểu Markdown của chúng tôi với [[Định dạng ghi chú]].
+- Xem một số mẹo về [[Tạo ghi chú mới]].
+- Xem một số mẹo về [[Liên kết nội bộ]].
+- Tìm hiểu cách [[nhúng file|nhúng ghi chú hoặc các attachment khác]].
+- Xem [[Phím tắt|phím tắt mặc định]].
 
-### Official plugins
+### Plugin chính thức
 
-![[List of plugins#Current list of official plugins]]
+![[Danh sách plugin#Danh sách các plugin chính thức hiện tại]]
 
-### Advanced guides
+### Hướng dẫn nâng cao
 
-- [[Working with tags]]
-- [[Working with backlinks]]
-- [[Working with multiple notes]]
+- [[Làm việc với tag]]
+- [[Làm việc với backlink]]
+- [[Làm việc với nhiều ghi chú]]
 - [[Pane layout]]
-- [[Working with multiple vaults]]
-- [[Working with multiple cursors]]
-- [[Using obsidian URI]]
+- [[Làm việc với nhiều vault]]
+- [[Làm việc với nhiều con trỏ]]
+- [[Sử dụng obsidian URI]]
