@@ -18,4 +18,4 @@ Obsidian hiện có thể nhận dạng được những định dạng tệp sa
 4. Tệp Video: `mp4`, `webm`, `ogv`;
 5. Tệp PDF: `pdf`.
 
-Tất cả những tệp này có thể là [[Embed files|embedded]] trong một ghi chú.
+Tất cả những tệp này có thể [[Nhúng tệp|đã nhúng]] trong một ghi chú.
