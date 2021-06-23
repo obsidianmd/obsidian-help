@@ -21,7 +21,7 @@ Nếu bạn muốn bắt đầu nhưng không biết làm thế nào, vui lòng 
 
 Và cuối cùng, nếu bạn là một [Người Ủng hộ Catalyst](https://obsidian.md/pricing) và muốn trải nghiệm Bản dựng Nội bộ, mời bạn xem qua ghi chú [[Bản dựng Nội bộ]].
 
-## Quy trình làm việc
+## Obsidian có thể làm được gì?
 
 Obsidian là một công cụ mà bạn có thể sử dụng theo nhiều cách, từ một danh sách ghi chú đơn giản đến một hệ thống Quản trị Tri thức mạnh mẽ.
 Chúng tôi khuyến khích bạn nên bắt đầu với góc nhìn của riêng bạn và xây dựng nó thành công cụ hữu ích mà bạn hình dung.
