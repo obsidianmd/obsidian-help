@@ -107,9 +107,10 @@ Obsidian Publishに対して `mysite.com` と `www.mysite.com` の両方を設�
 
 ユーザー自身のウェブサーバーをホストし、独自のSSL暗号化をセットアップしたい場合には、このオプションを選択してください。すでに所有しているドメインやサブドメイン下でウェブサイトをホストしている場合には、サイト全体をホストする代わりに特定のURLパス下でObsidian Publishによるサイトをロードするためにこのオプションを利用し、ウェブサイトをセットアップしてください。
 
-そのURLパスの元にあるすべてのリクエストを`https://publish.obsidian.md/serve?url=mysite.com/my-subpath/...` に対してプロキシし、Obsidianにて同一のURLパスに対してサイトオプションの設定を行ってください。
+そのURLパスの元にあるすべてのリクエストを`https://publish.obsidian.md/serve?url=mysite.com/my-notes/...` に対してプロキシを行い、`mysite.com/my-notes` に対する**カスタムURL**を設定することで、**Obsidianにて同一のURLパスに対してサイトオプションの設定を行ってください**。
 
-例えば、NGINXでは、次のようにセットアップできます。
+##### NGINX
+
 ```nginx
 location /my-notes {
   proxy_pass https://publish.obsidian.md/serve?url=mysite.com/my-notes/;
@@ -117,14 +118,19 @@ location /my-notes {
 }
 ```
 
-Apache `.htaccess` では、次のようにセットアップできます。
-(ノート: mod_rewriteは有効化されている必要があります。また、[SSLプロキシーエンジン](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache)の設定が必要な場合があります。)
+##### Apache
+
+`.htaccess` に以下のコードを追加してください。
+
 ```htaccess
 RewriteEngine  on
 RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.com/my-notes/$1"  [L,P]
 ```
 
-Netlifyを利用している場合には、次のようにセットアップできます。
+ノート: mod_rewriteは有効化されている必要があります。また、[SSLプロキシーエンジン](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache)の設定が必要な場合があります。
+
+##### Netlify
+
 ```
 [[redirects]]
   from = "https://mysite.com/my-notes/*"
@@ -132,6 +138,29 @@ Netlifyを利用している場合には、次のようにセットアップで�
   status = 200
   force = true
 ```
+
+##### Vercel
+
+`vercel.json` に[rewritesを設定してください](https://vercel.com/docs/configuration#project/rewrites)
+
+```json
+{
+  ...
+
+  "rewrites": [
+    {
+      "source": "/my-notes/",
+      "destination": "https://publish.obsidian.md/serve?url=mysite.com/my-notes"
+    },
+    {
+      "source": "/my-notes/:path*",
+      "destination": "https://publish.obsidian.md/serve?url=mysite.com/my-notes/:path*"
+    }
+  ]
+}
+```
+
+##### サポートされているHTTP Xヘッダー
 
 プロキシサービスがクエリパスを許可していない場合には、代わりにカスタムヘッダー `x-obsidian-custom-domain` をサイトURL `mysite.com/my-subpath` に設定して `https://publish.obsidian.md/` を利用できます。
 
