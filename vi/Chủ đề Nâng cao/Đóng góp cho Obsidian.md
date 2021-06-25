@@ -28,7 +28,7 @@ Nếu bạn là lập trình viên JavaScript/TypeScript, bạn có thể viết
 
 ### 3. Chuyển ngữ và Hiệu đính
 #### Chuyển ngữ các Thông tin trong Ứng dụng
-Nếu bạn biết một ngôn ngữ khác (ngôn ngữ mẹ đẻ), bạn có thể giúp chúng tôi chuyển ngữ giao diện Obsidian sang ngôn ngữ của bạn. Bạn có thể làm điều đó bằng cách gửi yêu cầu kéo (Pull request) trong [kho chứa Github của chúng tôi](https://github.com/obsidianmd/obsidian-translations) để đưa nó vào phiên bản tiếp theo của ứng dụng.
+Nếu bạn biết một ngôn ngữ khác (ngôn ngữ mẹ đẻ), bạn có thể giúp chúng tôi chuyển ngữ giao diện Obsidian sang ngôn ngữ của bạn. Bạn có thể làm điều đó bằng cách gửi yêu cầu kéo (Pull request) trong [kho chứa Github của chúng tôi](https://github.com/obsidianmd/obsidian-translations) để đưa nó vào phiên bản tiếp theo của ứng dụng.  
 
 #### Chuyển ngữ Tài liệu
 Chúng tôi đang trong quá trình chuẩn hóa tài liệu bạn đang đọc. Khi quá trình này xong, bạn có thể chuyển ngữ để những người không biết tiếng Anh cũng có thể dễ dàng học cách sử dụng Obsidian.
