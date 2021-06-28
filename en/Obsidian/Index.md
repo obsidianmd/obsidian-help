@@ -14,6 +14,7 @@ This help site is also available in other languages:
 - [日本語](https://publish.obsidian.md/help-ja)
 - [Dansk](https://publish.obsidian.md/help-da)
 - [Русский](https://publish.obsidian.md/help-ru)
+- [Tiếng Việt](https://publish.obsidian.md/help-vi)
 
 ## Credits
 
