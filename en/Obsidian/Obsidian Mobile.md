@@ -14,8 +14,9 @@ To setup a synced vault through Obsidian Sync, first create a new empty local va
 
 1. Login to your Obsidian account in the Account tab.
 2. Enable the Sync core plugin.
-3. Choose the remote vault to sync with.
-4. Keep the app open until all your files have synced over.
+3. Open settings, and choose the "Sync" tab under "Plugin options".
+4. Choose the remote vault to sync with.
+5. Keep the app open until all your files have synced over.
 
 To view the sync status of Obsidian Sync, swipe to pull out the right drawer, and you should see the status indicator just like it shows on the desktop app. Tap on it to get more information, such as viewing the sync log to debug any issues.
 
