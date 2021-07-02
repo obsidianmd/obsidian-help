@@ -102,6 +102,7 @@ Du skal viderestille alle anmodninger fra den URL til
 `https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/...` og **konfigurere webstedsindstillingerne i Obsidian til at pege på den samme sti** ved at sætte **Brugerdefineret URL** til `mitwebsted.com/mine-noter`.
 
 ##### NGINX
+
 ```nginx
 location /mine-noter {
 	proxy_pass https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/;
@@ -109,11 +110,14 @@ location /mine-noter {
 ```
 
 ##### Apache
+
 Tilføj følgende til `.htaccess`
+
 ```htaccess
 RewriteEngine  on
 RewriteRule    "^mine-noter/(.*)$"  "https://publish.obsidian.md/serve?url=mitwebsted.com/mine-noter/$1"  [L,P]
 ```
+
 (Note: "mod_rewrite" skal også været sat til, og du skal muligvis også konfigurere [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache))
 
 ##### Netlify
@@ -126,13 +130,15 @@ RewriteRule    "^mine-noter/(.*)$"  "https://publish.obsidian.md/serve?url=mitwe
 ```
 
 ##### Vercel
+
 Du skal [konfigurere rewrites](https://vercel.com/docs/configuration#project/rewrites) i `vercel.json`.
+
 
 ```json
 
 {
 
-...
+
 
 "rewrites": [
 
@@ -159,6 +165,7 @@ Du skal [konfigurere rewrites](https://vercel.com/docs/configuration#project/rew
 ```
 
 ##### Supported HTTP X-Headers
+
 Alternativt kan du benytte `https://publish.obsidian.md/` med en brugerdefineret header `x-obsidian-custom-domain` sat til din webstedsurl `mitwebsted.com/min-undermappe`, hvis din proxy service ikke tillader brugerdefinerede headers.
 
 #### Brugerdefineret domæne problemer efter opsætning

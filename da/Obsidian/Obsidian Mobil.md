@@ -11,8 +11,9 @@ For at opsætte en synkroniseret boks gennem Obsidian Sync skal du først oprett
 
 1. Log på din Obsidian konto på Konto siden.
 2. Aktiver "Synkroniser" under "Kerne plug-ins".
-3. Vælg den eksterne boks, der skal synkroniseres med.
-4. Hold din app åben indtil alle dine filer er synkroniseret over på mobilen.
+3. Åben indstillinger, og vælg "Synkroniser" fanen under "Plugin indstillinger".
+4. Vælg den eksterne boks, som du vil synkronisere med.
+5. Hold din app åben indtil alle dine filer er blevet synkroniseret.
 
 For at se synkroniseringsstatus i Obsidian Sync, så swipe den rigtige skuffe ud, og du vil kunne se en status indikator på samme måde som på PC versionen. Tryk på indikatoren for at få mere information, f.eks. for at se synkroniseringsloggen, hvis du har brug for at fejlfinde eventuelle problemer.
 
