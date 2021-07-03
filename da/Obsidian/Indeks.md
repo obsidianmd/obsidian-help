@@ -14,7 +14,7 @@ Denne hjælp er også tilgængelig på følgende andre sprog:
 - [日本語](https://publish.obsidian.md/help-ja)
 - [中文](https://publish.obsidian.md/help-zh)
 - [Русский](https://publish.obsidian.md/help-ru)
-
+- [Tiếng Việt](https://publish.obsidian.md/help-vi)
 
 ## Tak til
 
