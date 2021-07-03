@@ -4,7 +4,7 @@ When clicking on a tag, a search for the tag is activated. To ==toggle a tag== i
 
 ### Sorting
 
-The tags are sorted from mostly frequently used to least frequently used. You can change the sort order to alphabetical or reverse it.
+The tags are sorted from most frequently used to least frequently used. You can change the sort order to alphabetical or reverse it.
 
 ### Nested tags
 
