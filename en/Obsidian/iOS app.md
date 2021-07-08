@@ -2,11 +2,11 @@ The iOS app is currently in [[Mobile app beta|closed beta]], and is available th
 
 ## Where are my vaults stored?
 
-If you choose to store your vault in iCloud, then it is stored in a container in your iCloud Drive account, under an app folder named "Obsidian", which should have an icon of our logo.
+If you choose, you can store your vaults in iCloud Drive. These vaults can be found in your iCloud Drive folder, under an app container named "Obsidian" that shows the Obsidian logo.
 
-If you chose not to use iCloud, then your vault will be stored in the sandboxed file system of the Obsidian app. As of v0.0.14 the local vault is now accessible from any other apps that supports picking a folder form the file system. As such, apps like Working Copy can be used to sync with Obsidian's local vaults.
+If you choose not to use iCloud for a vault, then it will be stored in the sandboxed file system of the Obsidian app. As of v0.0.14, the local vault is accessible from any other apps that support picking a folder from the file system. As such, apps like Working Copy can be used to sync with Obsidian's local vaults.
 
-Currently Obsidian does not directly support third party sync providers that exposes a virtual file system through FileProvider yet. We will be attempting this in the future as an improvement.
+Currently Obsidian does not support third party sync providers that expose a virtual file system through FileProvider. We will be attempting this in the future as an improvement.
 
 ## Sync
 
