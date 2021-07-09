@@ -1,7 +1,7 @@
 ## Beta status
-Fra den 26. april 2021 er Obsidian mobil apps i en lukket beta. Den er for nuværende tilgængelig for alle brugere med en Obsidian Catalyst licens.
+Obsidian mobil apps i en lukket beta. Den er for nuværende tilgængelig for alle brugere med en Obsidian Catalyst licens.
 
-Om nogle få uger, så snart appen er mere stabil, vil vi udrulle den til alle andre.
+Så snart appen er mere stabil, vil vi udrulle den til alle andre.
 
 ## Kom godt i gang
 

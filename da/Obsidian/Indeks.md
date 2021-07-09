@@ -7,8 +7,9 @@ Hvis du finder fejl eller manglende information, kan du bidrage med feedback her
 
 ## Andre sprog
 
-Denne hjælp er også tilgængelig på følgende andre sprog:
+Denne hjælp er tilgængelig på følgende sprog:
 
+- [Dansk](https://publish.obsidian.md/help-da)
 - [Engelsk](https://help.obsidian.md/Index)
 - [Italiano](https://publish.obsidian.md/help-it)
 - [日本語](https://publish.obsidian.md/help-ja)
@@ -39,7 +40,7 @@ For at læse mere om udviklerne, se [about](https://obsidian.md/about) siden vor
 
 ### Officielle plug-ins
 
-![[Plug-in liste#Current list of official plugins]]
+![[Plug-in liste#Liste over nuværende officielle plug-ins]]
 
 ### Avancerede guider
 
