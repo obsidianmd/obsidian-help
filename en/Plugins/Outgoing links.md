@@ -10,7 +10,7 @@ Each type will have its own icon for you to distinguish them; links to files tha
 
 Underneath the title, you can also see the folder path of each file.
 
-### Unlined mentions
+### Unlinked mentions
 
 If any text in the current note matches the name or [[Add aliases to note|alias]] of another note in your vault, you can see the context, highlighted match, and a button to Link it under "Unlinked mentions".
 
