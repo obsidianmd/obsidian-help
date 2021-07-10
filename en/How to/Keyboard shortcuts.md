@@ -5,8 +5,8 @@ Most keyboard shortcuts can be customized for your needs in Settings => Hotkeys.
 The default keyboard shortcuts are listed below. 
 
 Function                                            |   | Shortcut
-----------------------------------------------------| - |---------------------------
-Save current file                           |   | `Ctrl/Cmd+S`
+--------------------------------------------------- | - | --------------------------
+Save current file                                   |   | `Ctrl/Cmd+S`
 Create new note                                     |   | `Ctrl/Cmd+N`
 Command palette: Open command palette               |   | `Ctrl/Cmd+P`
 Quick switcher: Open quick switcher                 |   | `Ctrl/Cmd+O`
@@ -36,7 +36,7 @@ Open settings                                       |   | `Ctrl/Cmd ,`
 **Editing**
 
 Function                    |   | Shortcut
-----------------------------| - |----------------
+--------------------------- | - | ---------------
 Bold Selected Text          |   | `Ctrl/Cmd-B`
 Italic Selected Text        |   | `Ctrl/Cmd-I`
 Insert External link        |   | `Ctrl/Cmd-K`
