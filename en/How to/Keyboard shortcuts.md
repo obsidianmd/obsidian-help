@@ -6,7 +6,7 @@ The default keyboard shortcuts are listed below.
 
 Function                                            |   | Shortcut
 ----------------------------------------------------| - |---------------------------
-Editor: Save current file                           |   | `Ctrl/Cmd+S`
+Save current file                           |   | `Ctrl/Cmd+S`
 Create new note                                     |   | `Ctrl/Cmd+N`
 Command palette: Open command palette               |   | `Ctrl/Cmd+P`
 Quick switcher: Open quick switcher                 |   | `Ctrl/Cmd+O`
