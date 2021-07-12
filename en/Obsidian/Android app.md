@@ -1,4 +1,4 @@
-The Android app is currently in [[Mobile app beta|closed beta]], and is available as a signed APK.
+The Android app is now publicly available, and a link to the Play store listing can be found at https://obsidian.md/mobile
 
 ## Sync
 
@@ -28,7 +28,7 @@ There are apps on the Play Store that let you sync a folder on your phone with o
 
 ## Storage Permission
 
-When starting Obsidian, you may notice that it prompts for permission to access your device's documents and media. This is because we request full access rights to your device's external storage.
+When starting Obsidian, you may notice that it prompts for permission to access your device's documents and media.
 
 In an ideal world, we'd prefer to only ask for access rights to the vault folders you choose. However, Android's privacy-friendly file permission API (also known as "scoped storage") has a few restrictions that makes it impossible for Obsidian to function properly.
 

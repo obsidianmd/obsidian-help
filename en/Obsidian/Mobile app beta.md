@@ -1,16 +1,19 @@
-## Beta status
+## Public release
 
-The mobile apps are in closed beta. It is currently available to all Obsidian Catalyst license holders.
+The mobile apps are now officially publicly available. You can find the download links for the public versions at https://obsidian.md/mobile
 
-Once the app is more stable, we will roll out to the general public.
+## Documentation
 
-## Getting access
+For more details on how to use Obsidian for Mobile, including guides for setting up sync, see [[Obsidian Mobile]].
 
-The mobile beta is currently only available to holders of the [Catalyst license](https://obsidian.md/pricing).
+## Insider builds
 
-To keep feedback and releases centralized as we don't have the capacity to debug and collect feedback via email, we ask Catalyst users who would like to beta test the mobile app to go through the following steps:
+If you're a holder of the [[Catalyst license]], you may wish to join our insider builds for mobile.
+
+To keep feedback and releases centralized as we don't have the capacity to debug and collect feedback via email, we ask Catalyst users who would like to beta test to go through the following steps:
 
 ### Step 1: join our Discord
+
 First of all, please [join our Discord](https://discord.gg/veuWUTm).  
 
 ### Step 2: claim your Catalyst badge to access mobile channel
@@ -19,9 +22,9 @@ If you don't have your badge yet, [[Catalyst license#Discord badge|you can get i
 
 ### Step 3: get the app via TestFlight (iOS) or APK (Android)
 
-Once you get your badge, you should be able to see the #mobile channel along with regular channels like #general and #publish.
+Once you get your badge, you should be able to see the `#insider-build-mobile` channel along with regular channels like `#general` and `#publish`.
 
-To find the instructions for installing the mobile apps, go to #mobile, and open pinned messages.
+To find the instructions for installing the mobile apps, go to `#insider-build-mobile`, and open pinned messages.
 
 On Discord web and desktop, you can open pinned messages of a channel by clicking on the pushpin icon near the search bar at the top. On Discord mobile, you'll need to swipe left to reveal the right sidebar and tap on the pushpin icon at the top.
 
@@ -31,10 +34,6 @@ For the iOS app, look for the TestFlight link. Make sure to open the link on you
 
 Before reporting an issue or submitting a feature request, please visit [the list of known issues on our forum](https://forum.obsidian.md/t/list-of-known-issues/14286) to see what's already known and on the roadmap.
 
-The current group being rolled out can access the #mobile channel on Discord as well as the new Mobile category on the forum, given you've obtained the badges for your Catalyst tier.
+The current group being rolled out can access the #insider-build-mobile channel on Discord as well as the new Mobile category on the forum.
 
 To keep track of bug reports and feature requests, please direct them to the forum as usual. Thank you for trying out our beta!
-
-## Documentation
-
-For more details on how to use Obsidian for Mobile, including guides for setting up sync, see [[Obsidian Mobile]].

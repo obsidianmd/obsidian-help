@@ -1,18 +1,19 @@
-The iOS app is currently in [[Mobile app beta|closed beta]], and is available through TestFlight.
+The iOS app is now publicly available, and a link to the app store listing can be found at https://obsidian.md/mobile
 
 ## Where are my vaults stored?
 
-If you choose, you can store your vaults in iCloud Drive. These vaults can be found in your iCloud Drive folder, under an app container named "Obsidian" that shows the Obsidian logo.
+If you choose, you can store your vaults in iCloud Drive. These vaults can be found in your iCloud Drive folder, under an app folder named "Obsidian" that shows the Obsidian logo.
 
-If you choose not to use iCloud for a vault, then it will be stored in the sandboxed file system of the Obsidian app. As of v0.0.14, the local vault is accessible from any other apps that support picking a folder from the file system. As such, apps like Working Copy can be used to sync with Obsidian's local vaults.
+If you choose not to use iCloud for a vault, then it will be stored in the sandboxed file system of the Obsidian app. The local vaults are accessible from any other apps that support picking a folder from the file system. As such, apps like Working Copy can be used to sync with Obsidian's local vaults.
 
-Currently Obsidian does not support third party sync providers that expose a virtual file system through FileProvider. We will be attempting this in the future as an improvement.
+Be aware that if you choose to store your vault locally, they will be automatically deleted by iOS when you uninstall Obsidian's app.
 
 ## Sync
 
 The two current officially supported sync solutions are iCloud and Obsidian Sync.
+Working Copy (git) is another alternative that has been tested to work with Obsidian on iOS.
 
-Currently, there is no known support for the following sync services on iOS:
+Currently, there is **no** known support for the following sync services on iOS yet:
 - Dropbox
 - Google Drive
 - OneDrive
@@ -21,6 +22,8 @@ Currently, there is no known support for the following sync services on iOS:
 If you find out a way to sync using these services on iOS with Obsidian, we would be glad if you can join our Discord server and teach us how to set it up.
 
 In theory, any third party sync providers that can provide background-sync for a specific folder on your device should be able to work, but we are not aware of any other than Working Copy. This is due to the limitations of the highly complex mechanism of cross-app file sharing in iOS, unlike Android which allows easy cross-app file sharing. Because of this, most third party sync providers don't have a proper implementation for background sync on iOS.
+
+Currently Obsidian does not support third party sync providers that expose a virtual file system through FileProvider. We will be attempting this in the future as an improvement.
 
 ### Obsidian Sync
 
@@ -58,9 +61,7 @@ Keeping all that in sync with a third party sync provider would be quite tedious
 
 ### iCloud folder on macOS
 
-On macOS, when syncing with iCloud, Finder will not allow you to drag & drop files into Obsidian's iCloud folder. This is a macOS bug we're working with Apple to fix. You'll also find that some desktop apps will not let you save files directly into Obsidian's iCloud folder.
-
-As a workaround, you can use copy & paste instead of drag & drop, or alternatively use `mv` from the command line to move the file.
+If you find yourself unable to drag & drop things into the iCloud folder in Finder on macOS, please download the latest Obsidian Desktop release from https://obsidian.md as it contains a fix for this issue. Once it's installed, running the app should automatically cause iCloud to update the folder permissions. If this does not work right away, you may need to restart your machine.
 
 ### Paste menu sometimes not appearing
 
