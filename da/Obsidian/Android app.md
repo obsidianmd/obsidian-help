@@ -1,4 +1,4 @@
-Android appen er i øjeblikket i [[Mobil app beta|lukket beta]] og er tilgængelig som en signeret APK.
+Android appen er offentlig tilgængelig, og et link til Obsidian i Play butikken kan findes her https://obsidian.md/mobile
 
 ## Hvordan synkroniserer jeg mine data?
 Obsidian til Android gemmer alle bokse lokalt i den offentlige dokumentmappe på din enhed. Du kan vælge at benytte [[Obsidian Sync]] til at synkronisere dine filer, eller brug enhver anden tredjeparts udbyder, hvor du har mulighed for at synkronisere med den offentlige dokumentmappe.
@@ -24,7 +24,7 @@ Du kan også benytte din egen foretrukne synkroniseringsløsning for at holde de
 Der er flere apps i Play butikken, som kan synkronisere en mappe på din mobil med andre enheder, f.eks. [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync&hl=en&gl=US) eller [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
 
 ## Adgang til lager
-Når du starter Obsidian har du måske lagt mærke til, at den spørger om tilladelse til at tilgå din enheds filer og medier. Det er fordi vi beder om de fulde adgangsrettigheder til din enheds eksterne lager.
+Når du starter Obsidian har du måske lagt mærke til, at den spørger om tilladelse til at tilgå din enheds filer og medier.
 
 I den ideelle verden ville vi foretrække kun at bede om adgang til de boksmapper, som du vælger. Men, Andorids privat-venlige filtillladelses API (også kaldet "scoped storage") har nogle få restriktioner som gør det umuligt for Obsidian til at fungere ordentlig, hvis ikke vi har fuld adgang.
    

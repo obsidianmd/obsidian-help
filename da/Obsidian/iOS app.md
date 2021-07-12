@@ -1,17 +1,17 @@
-iOS appen er i øjeblikket i [[Mobil app beta|lukket beta]], og er tilgængelig gennem TestFlight.
+iOS appen er nu offentlig tilgængelig og et link til app store kan findes her: https://obsidian.md/mobile
 
 ## Hvor bliver mine bokse gemt?
-Hvis du vælger det, kan du gemme din bokse på dit iCloud drev. Disse bokse kan i din iCloud mappe under en app container kaldet "Obsidian", der har et icon med Obsidians logo.
+Hvis du vælger det, kan du gemme din bokse på dit iCloud drev. Disse bokse kan i din iCloud mappe under en app mappe kaldet "Obsidian", der har et icon med Obsidians logo.
 
-Hvis du ikke vælger at anvende iCloud til en boks, så vil den blive gemt i sandboks filsystemet, som Obsidian har til rådighed. Fra og med v0.0.14, vil den lokale boks nu kunne tilgås fra alle andre apps, som understøtter at kunne vælge en mappe fra filsystemet. Derved kan apps som Working Copy benyttes til at synkronisere med Obsidians lokale bokse.
+Hvis du ikke vælger at anvende iCloud til en boks, så vil den blive gemt i sandboks filsystemet, som Obsidian har til rådighed. De lokale bokse kan nu kunne tilgås fra alle andre apps, som understøtter at kunne vælge en mappe fra filsystemet. Derved kan apps som Working Copy benyttes til at synkronisere med Obsidians lokale bokse.
 
-I øjeblikket understøtter Obsidian ikke tredjeparts synkroniserings udbydere, der eksponerer et virtuelt filsystem gennem "FileProvider".
-Vi vi forsøge at understøtte dette på et tidspunkt som en forbedring.
+Bemærk at hvis du vælger at gemme din boks lokalt, så vil den blive slettet automatisk af iOS, hvis du afinstallerer Obsidian app'en.
 
 ## Synkronisering
 De to nuværende officielle supporterede synkroniseringsløsninger er iCloud og Obsidian Sync.
+Working Copy (git) er et andet alternativ, som er blevet testet og virker med Obsidian på iOS.
 
-På nuværende tidspunkt er der ingen kendt support for de følgende synkroniseringsservices på iOS:
+På nuværende tidspunkt er der **ingen** kendt support for de følgende synkroniseringsservices på iOS:
 - Dropbox
 - Google Drive
 - OneDrive
@@ -20,6 +20,8 @@ På nuværende tidspunkt er der ingen kendt support for de følgende synkroniser
 Hvis du finder ud af en måde at synkronisere Obsidian ved brug af en af disse services på iOS, vil vi blive meget glad hvis du kan tilmelde dig vores Discord server og lære os, hvordan det kan opsættes.
   
 I teorien kan enhver tredjeparts synkroniseringsudbyder der kan tilbyde baggrundssynkronisering af en bestemt mappe på din enhed skulle også virke, men vi har ikke kendskab til nogen andre end "Working Copy". Det skyldes begrænsningerne i den meget komplekse fildelingsfunktion mellem apps i iOS, til forskel fra Android, som stiller en offentlig mappe til rådighed, som alle apps kan benytte. På grund af dette, har de fleste tredjeparts  synkroniseringsudbydere ikke en ordentlig implementering af baggrundssynkronisering på iOS.
+
+På nuværende tidspunkt understøtter Obsidian ikke tredjeparts synkroniseringsudbydere, der skaber et virtuelt fil system gennem FileProvider. Vi vil foresøge at kunne dette i fremtiden som en forbedring.
 
 ### Obsidian Sync
 Du kan følge de samme trin som for synkronisering på Android som ses herunder, og husk at oprette en ikke-iCloud mappe,  da vi ikke anbefaler at du benytter både Obsidian Sync og iCloud samtidig, hvilket nogle brugere har rapporteret giver datatab.
@@ -55,6 +57,8 @@ Hvis Obsidian skal synkronisere al dette med en tredjeparts synkroniseringsudbyd
 Når man på macOS synkroniserer med iCloud, vil "Finder" ikke tillade dig at trække og slippe filer ind i Obsidians iClod mappe. Det er en macOS fejl, som vi arbejder med Apple om at rette. Du kan også opleve at nogle applikationer ikke vil lade dig gemme filer direkte i Obsidians iCloud mappe.
 
 Som en midlertidig løsning kan du benytte kopier og indsæt i stedet for træk og slip, eller alternativr benytte `mv` fra en kommandolinje for at flytte filen.
+
+Hvis du oplever at du ikke kan trække og slippe filer ind i iCloud mappen i FInder på macOS, så hent venligst den nyeste udgave af Obsidian Desktop fra https://obsidian.md da den indeholder et fix for det problem. Når den er installeret og startet første gang skulle den automatisk får iCloud til at opdatere mappetilladelser. Hvis det ikke virker med det samme skal du prøve at genstarte din computer.
 
 ### Indsæt menu vises ikke nogle gange
 Nogle brugere er løbet ind i det problem, at når de trykker på markøren, så vises indsæt menuen ikke.
