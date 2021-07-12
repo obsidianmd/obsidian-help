@@ -10,6 +10,13 @@ Be aware that if you choose to store your vault locally, they will be automatica
 
 ## Sync
 
+### Quick start
+
+If you already have a vault on your desktop, here's the two ways to sync your vault to mobile and access it:
+
+![[#iCloud Drive Sync]]
+![[Android app#Obsidian Sync]]
+
 The two current officially supported sync solutions are iCloud and Obsidian Sync.
 Working Copy (git) is another alternative that has been tested to work with Obsidian on iOS.
 
@@ -33,11 +40,14 @@ You can follow the same steps as Android's sync as shown below, making sure that
 
 ### iCloud Drive Sync
 
-To setup a synced vault through iCloud Drive, you must first install and open the Obsidian iOS app. This will automatically create an app folder called "Obsidian" under your iCloud Drive, with a logo of the Obsidian app. Note that this folder is considered to be a special folder by iCloud and is different than a folder you manually create insider your iCloud Drive.
+To setup a synced vault through iCloud Drive:
 
-Next, on your computer, move your vault folder into `iCloud Drive/Obsidian/`. Doing so will allow Obsidian to read the special app folder in your iCloud Drive.
-
-Let iCloud sync the entire vault folder, then on your mobile device, open the Obsidian app. You should now see the vault that you just put in, along with a cloud icon indicating it's stored in iCloud.
+1. Start the app and choose "Create a new vault";
+2. Name it the same as your desktop vault to make [[Using obsidian URI|inter-vault URIs]] work;
+3. Wait for iCloud to sync this empty folder to your desktop;
+4. Copy and paste everything under your vault to this empty folder, this will now be your synced folder location;
+5. On desktop, using the "Open another vault" option, point to the new vault location in iCloud;
+6. Wait for iCloud to sync everything to your mobile device.
 
 The first time you open that vault, Obsidian might freeze for a while because iCloud is downloading all the files in the background. Eventually once iCloud finish syncing everything over to the phone the app should work smoothly. This may require you to restart the app a few times though.
 

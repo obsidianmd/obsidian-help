@@ -8,7 +8,9 @@ On Android, you may choose to use [[Obsidian Sync]] to synchronize your files, o
 
 As with Obsidian desktop, we provide our built-in paid [[Obsidian Sync]] service.
 
-To setup a synced vault through Obsidian Sync, first create a new empty local vault. You should name it Once the empty vault is open, open the left sidebar, tap the settings button, and setup Obsidian Sync just like you did on Desktop:
+To setup a synced vault through Obsidian Sync, first create a new empty local vault. You should name it the same as your desktop app to make [[Using obsidian URI|inter-vault URIs]] work.
+
+Once the empty vault is open, open the left sidebar, tap the settings button, and setup Obsidian Sync just like you did on Desktop:
 
 1. Login to your Obsidian account in the Account tab.
 2. Enable the Sync core plugin.
@@ -17,8 +19,6 @@ To setup a synced vault through Obsidian Sync, first create a new empty local va
 5. Keep the app open until all your files have synced over.
 
 To view the sync status of Obsidian Sync, swipe to pull out the right drawer, and you should see the status indicator just like it shows on the desktop app. Tap on it to get more information, such as viewing the sync log to debug any issues.
-
-Note: If you use Obsidian Sync along with a third party sync service, please make sure to exclude `.obsidian/sync.json` in your third party sync to avoid breaking Obsidian Sync. This file is used to keep track of the state of synchronization for the local device, and might cause issues when it's accidentally synchronized.
 
 ### Third party sync
 
