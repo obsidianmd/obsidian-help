@@ -8,6 +8,14 @@ Hvis du ikke vælger at anvende iCloud til en boks, så vil den blive gemt i san
 Bemærk at hvis du vælger at gemme din boks lokalt, så vil den blive slettet automatisk af iOS, hvis du afinstallerer Obsidian app'en.
 
 ## Synkronisering
+
+### Hurtig start
+Hvis du allerede har en boks i din desktop applikation, så er her to måder du kan synkronisere dine bokse til en mobilenhed og få adgang i dem: 
+
+![[#iCloud synkronisering]]
+
+![[Android app#Obsidian Sync]]
+
 De to nuværende officielle supporterede synkroniseringsløsninger er iCloud og Obsidian Sync.
 Working Copy (git) er et andet alternativ, som er blevet testet og virker med Obsidian på iOS.
 
@@ -29,17 +37,19 @@ Du kan følge de samme trin som for synkronisering på Android som ses herunder,
 ![[Android app#Obsidian Sync]]
 
 ### iCloud synkronisering
-For at opsætte en synkroniseret boks gennem iCloud skal du først installere og åbne Obsidian iOS appen. Dette vil oprette en app mappe kaldet Obsidian, med Obsidian app logoet, på dit iCloud drev. Bemærk at denne mappe bliver betragtet som en speciel mappe af iCloud og den er anderledes end en mappe du manuelt opretter på dit iCloud drev.
+Sådan sætter du en synkroniseret boks op på et iCloud drev:
 
-Derefter skal du på din computer flytte din boks ind `iCloud Drive/Obsidian/`. Ved at gøre dette giver du Obsidian tilladelse til at læse den specielle app mappe på dit iCloud drev.
+1. Start mobil appen og vælg: "Opret ny boks";
+2. Giv den samme navn som din boks i din desktop applikation for at få [[Brug af obsidian URI|URIs]] til at fungere;
+3. Vent på at iCloud synkroniserer denne tomme mappe til din desktop applikation;
+4. Kopier og indsæt alt fra din boks til denne nye mappe, som nu vil blive din synkroniserede mappe;
+5. I desktop applikationen skal du benytte "Åben en anden boks" og vælge på den nye boks lokation på dit iCloud drev;
+6. Vent på at iCloud får synkroniseret hele boksen over på din mobil enhed.
 
-Lad iCloud synkronisere hele boks mappen. Når det er gjort, skal du åbne Obsidian appen på din iOS enhed. Du skulle nu kunne se boksen med et skyikon, der indikerer at den er gemt i iCloud.
-
-Første gang du åbner denne boks, vil Obsidian måske fryse et lille stykke tid fordi iCloud downloader alle filerne i baggrunden. Når ICloud er færdig med synkronisere alt over på mobilen skulle appen fungere uden problemer. Det kan dog kræve at du genstarter appen et par gange for den er klar.
+Første gang du åbner denne boks, vil Obsidian måske fryse et lille stykke tid fordi iCloud downloader alle filerne i baggrunden. Når ICloud er færdig med synkronisere alt over på mobilen skulle appen fungere uden problemer. Det kan dog kræve at du genstarter appen et par gange før den er klar.
 
 ### Working Copy
 Du kan alternativt opsætte en Working Copy til at benytte Git for at synkronisere din boks på iOS. For at benytte den metode, skal du oprette en tom lokal boks på din enhed først. Derefter kan du "Setup Folder Sync" og vælge en lokal boks i Obsidian applikationen. Derefter kan du manuelt udføre commit og push.
-
 
 # Tredjeparts synkroniseringssupport
 Mange brugere spørger os, hvorfor Obsidian til mobil ikke understøtter deres foretrukne synkroniseringsløsning. Her er en kort forklaring på den nuværende status af synkroniseringssupport for mobil apps.

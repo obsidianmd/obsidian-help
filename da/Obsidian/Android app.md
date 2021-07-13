@@ -6,17 +6,16 @@ Obsidian til Android gemmer alle bokse lokalt i den offentlige dokumentmappe på
 ### Obsidian Sync
 Som med Obsidian applikationen tilbyder vi en indbygget betalt [[Obsidian Sync]] service.
 
-For at opsætte en synkroniseret boks gennem Obsidian Sync skal du først oprette en nu lokal tom boks. Når den tomme boks er åbnet, åben den venstre sidebjælke, tryk på knappen til indstillinger, og opsæt Obsidian Sync på samme måde som på PC versionen:
+For at opsætte en synkroniseret boks gennem Obsidian Sync skal du først oprette en ny lokal tom boks. Du skal give den samme navn som boksen på din desktop applikation for at få [[Brug af obsidian URI| URIs]] til at virke.
 
-1. Log på din Obsidian konto på Konto siden.
-2. Aktiver "Synkroniser" under "Kerne plug-ins".
-3. Åben indstillinger, og vælg "Synkroniser" fanen under "Plugin indstillinger".
-4. Vælg den eksterne boks, som du vil synkronisere med.
-5. Hold din app åben indtil alle dine filer er blevet synkroniseret.
+Når den tomme boks er åbnet, åben den venstre sidebjælke, tryk på knappen til indstillinger, og opsæt Obsidian Sync på samme måde som på PC versionen:
+ 1. Log på din Obsidian konto på Konto siden.
+ 2. Aktiver "Synkroniser" under "Kerne plug-ins".
+ 3. Åben indstillinger, og vælg "Synkroniser" fanen under "Plugin indstillinger".
+ 4. Vælg den eksterne boks, som du vil synkronisere med.
+ 5. Hold din app åben indtil alle dine filer er blevet synkroniseret.
 
 For at se synkroniseringsstatus i Obsidian Sync, så swipe den rigtige skuffe ud, og du vil kunne se en status indikator på samme måde som på PC versionen. Tryk på indikatoren for at få mere information, f.eks. for at se synkroniseringsloggen, hvis du har brug for at fejlfinde eventuelle problemer.
-
-Note: Hvis du benytter Obsidian Sync sammen med andre tredjeparts synkroniseringsservices, så sørg for at ekskludere `.obsidian/sync.json` i din tredjeparts synkronisering for at forhindre at ødelægge Obsidian Sync funktionaliteten. Denne fil benyttes til at holde øje med synkroniseringstilstanden for den lokale enhed, og det kan skabe problemer hvis den ved en fejl bliver synkroniseret.
 
 ### Tredjeparts synkronisering
 Du kan også benytte din egen foretrukne synkroniseringsløsning for at holde den lokale mappe på din mobil synkroniseret med andre enheder.
