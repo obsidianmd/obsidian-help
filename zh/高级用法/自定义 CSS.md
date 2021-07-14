@@ -11,4 +11,4 @@
 
 Klaas 还提供了一个常用 CSS 代码片段索引，你可以将这些片段随意组合，搭配出自己的 CSS：
 
-> [Obsidian CSS 代码段 (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)
+> [Obsidian CSS 代码片段 (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)
