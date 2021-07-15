@@ -16,7 +16,7 @@ After you created your plugin, you can add it to our community plugin marketplac
 
 By default, Obsidian has Safe Mode turned on to protect you from potential harm. Under Safe Mode, no third-party plugin will run.
 
-Please be aware that third-party plugins can access files on your computer, connect the internet, and even install additional programs. To read more about plugin security, [[#Plugin security|see here]].
+Please be aware that third-party plugins can access files on your computer, connect to the internet, and even install additional programs. To read more about plugin security, [[#Plugin security|see here]].
 
 In order to install third-party plugins, you need to turn off Safe Mode in Settings -> Third-party plugin -> Safe Mode.
 
