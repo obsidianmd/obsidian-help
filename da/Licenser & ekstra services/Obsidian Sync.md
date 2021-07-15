@@ -9,20 +9,19 @@ I øjeblikket har Obsidian Sync følgende funktioner:
 
 - Slut-til-slut kryptering
 - Versionshistorik integreret i Obsidian
-- Vis slettede filer
+- Vis og genopret slettede filer
+- Synkroniser indstillinger, temaer, CSS kodestykker, plug-ins, og plug-in indstillinger.
 - Selektiv synkronisering
 	- Fravælg bestemte mapper
-	- Vælge og fravælge synkronisering af billeder, lyd, video og PDF filer
+	- Vælge og fravælge synkronisering af billeder, lyd, video, PDF filer og usupporterede filer
 - Skifte mellem flere eksterne bokse
 
 I fremtiden forbedrer vi Obsidian Sync med:
-
 - Deling af bokse
-- Synkronisere `.obsidian` konfigurationer, hvis det ønskes (for at synkronisere plug-ins og temaer)
 
 ### Aktivere Obsidian Sync plug-in'et
 
-I Obsidian v0.9.21 eller nyere kan du aktivere Obsidian Sync ved at aktivere "Synkroniser" plug-in'et i "Indstillinger -> Kerne plug-ins".
+Du kan aktivere Obsidian Sync ved at aktivere "Synkroniser" plug-in'et i "Indstillinger -> Kerne plug-ins".
 
 ### Opsætte eksterne bokse
 Advarsel: Vi anbefaler ikke at du benytter tredjeparts synkroniserings services med den samme boks som med Obsidian Sync. [[#Tredjeparts synkronisering|Mere om det senere]].
@@ -74,8 +73,29 @@ Udelukkede mapper vil blive ignoreret af synkroniseringen begge veje.
 
 #### Fil typer
 
-Du kan vælge og fravælge synkronisering af billeder, lyd, video og PDF filer i "Indstillinger -> Synkroniser -> Selektiv synkronisering".
+Du kan vælge og fravælge synkronisering af billeder, lyd, video, PDF filer og usupporterede filer i "Indstillinger -> Synkroniser -> Selektiv synkronisering".
 
+### Synkroniseringsindstillinger
+Udover dine noter og vedhæftninger tilbyder Obsidian Sync muligheder for at slå synkronisering af følgende filer til og fra:
+
+- Indstillinger for Obsidian applikationen inklusiv editor indstillinger, filer og links indstillinger etc.
+- Indstillinger for udseende, inklusiv mørk tilstand, valgte temaer og aktive CSS kodestykker
+- Temaer og CSS kodestykker som er blevet hentet
+- Genvejstaster
+- De kerne plug'ins, der er aktiveret
+- Kerne plug-in indstillinger
+- De fællesskabs plugins, der er aktiveret
+- Hentede/Installerede fællesskabs plug-ins, og deres indstillinger
+
+Du kan vælge at synkronisere de filer med din eksterne boks, som bedst passer din brug af Obsidian.
+
+Husk at Obsidian ikke aktiverer dine indstillinger før du har genstartet applikationen, eller genindlæser boksen. Det er normalt ikke et problem på en mobil da den ofte bliver genstartet, men du kan bemærke at indstillinger du har sat på en desktop enhed "synkroniseres" til en anden enhed, men ikke får effekt før næste genstart.
+
+Obsidian Sync respekterer dine indstillinger, hvis du har valgt at benytte en anden mappe end `.obsidian`. Du kan udnytte det til at oprette forskellige profiler i din eksterne boks for at synkronisere dine indstillinger. Et godt eksempel er, at du så kan benytte forskellige profiler på mobil enheder og dekstop enheder.
+
+#### Versionshistorik af indstilinger
+Hvis noget går galt og du mister nogle af dine indstillinger så kan du altid gå tilbage til en fungerende indstillingsfil gennem "Vis versionshistorik" sektionen i Obsidian Sync.
+  
 ### Tredjeparts synkronisering
 Hvis du benytter Obsidian Sync, anbefaler vi ikke at du benytter tredjeparts synkroniseringsservices som Dropbox, Google Drive, OneDrive, eller iCloud til at synkronisere den samme boks mellem enheder, hvor du også benytter Obsidian Sync. Hvis du gør det, kan det skabe konflikter, duplikerede filer, eller i værste fald kan det lede til ødelagte filer.
 
