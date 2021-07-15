@@ -10,7 +10,7 @@ Mỗi loại sẽ có biểu tượng riêng để bạn phân biệt; liên k�
 
 Bên dưới tiêu đề, bạn cũng có thể thấy đường dẫn thư mục của mỗi file.
 
-### Unlined mentions
+### Unlinked mentions
 
 Nếu bất kỳ văn bản nào trong ghi chú hiện tại khớp với tên hoặc [[Thêm alias vào ghi chú|alias]] của một ghi chú khác trong vault, bạn có thể xem ngữ cảnh, kết quả phù hợp được đánh dấu và nút để liên kết nội dung đó trong "Unlinked mentions".
 
