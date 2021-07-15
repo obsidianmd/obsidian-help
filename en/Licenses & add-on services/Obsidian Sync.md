@@ -8,23 +8,23 @@ Obsidian Sync is fairly simple: once you hook up local vaults from multiple devi
 
 Currently, Obsidian Sync features:
 
-- End-to-end encryption
-- Version history integrated into Obsidian
-- View deleted files
-- Selective sync
-	- Exclude certain folders
-	- Toggle syncing for images, audio, video, and PDF files
-- Switch between multiple remote vaults
+- End-to-end encryption.
+- Version history integrated into Obsidian.
+- View & restore deleted files.
+- Synchronize settings, themes, CSS snippets, plugins, and plugin settings.
+- Selective sync.
+	- Exclude certain folders.
+	- Toggle syncing for images, audio, video, PDF, and unsupported files.
+- Switch between multiple remote vaults.
 
 In the future, we'll improve Obsidian Sync with:
 
 - Vault sharing
-- Sync `.obsidian` configurations if desired (to sync plugins and themes)
 
 
 ### Enable Obsidian Sync plugin
 
-In Obsidian v0.9.21 or higher, you can enable Obsidian Sync by enabling the "Sync" plugin under Settings -> Core plugins.
+You can enable Obsidian Sync by enabling the "Sync" plugin under Settings -> Core plugins.
 
 ### Setting up remote vaults
 
@@ -78,8 +78,29 @@ Excluded folders will be ignored when both uploading and download changes.
 
 #### File types
 
-You can toggle sync for images, audio, video, and PDF files under Settings -> Sync -> Selective sync.
+You can toggle sync for images, audio, video, PDFs, and unsupported files under Settings -> Sync -> Selective sync.
 
+### Synchronizing settings
+
+In addition to your notes and attachments, Obsidian Sync offers individual toggles to synchronize these files:
+- The main app settings, including editor settings, files & links settings, etc.
+- Appearance settings, including dark mode, selected theme, and enabled snippets.
+- Themes and snippets that has been downloaded.
+- Hotkeys.
+- Which core plugins are enabled.
+- Core plugin settings.
+- Which community plugins are enabled.
+- Downloaded/installed community plugins, and their settings.
+
+You can choose which ones to synchronize with your remote vault to best suite your use case of Obsidian.
+
+Keep in mind that Obsidian does not apply your settings until you restart the application, or reload the vault. This normally isn't a problem on mobile since the app restarts often, but you may notice that settings you set on one desktop device is "synced" to another device, but doesn't take effect until the next restart.
+
+Sync will respect your selection of the settings folder override in case you've set it to a folder other than `.obsidian`. You can take advantage of this to create different profiles in your remote vault to sync your settings. A common use case, for example, is to use a different profile for mobile devices vs desktop devices.
+
+#### Settings version history
+
+If something goes wrong, and you lost some of your settings, you can always revert the affected settings file through the "Settings version history" section in Sync.
 
 ### Third party sync
 
