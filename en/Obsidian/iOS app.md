@@ -40,7 +40,12 @@ You can follow the same steps as Android's sync as shown below, making sure that
 
 ### iCloud Drive Sync
 
-To setup a synced vault through iCloud Drive:
+To setup a **new** synced vault through iCloud Drive:
+
+1. Start the iOS app and choose "Create a new vault";
+2. On desktop, using the "Open another vault" option, point to the new vault location in iCloud.
+
+To setup an **existing** vault to be synced through iCloud Drive:
 
 1. Start the app and choose "Create a new vault";
 2. Name it the same as your desktop vault to make [[Using obsidian URI|inter-vault URIs]] work;
@@ -49,7 +54,7 @@ To setup a synced vault through iCloud Drive:
 5. On desktop, using the "Open another vault" option, point to the new vault location in iCloud;
 6. Wait for iCloud to sync everything to your mobile device.
 
-The first time you open that vault, Obsidian might freeze for a while because iCloud is downloading all the files in the background. Eventually once iCloud finish syncing everything over to the phone the app should work smoothly. This may require you to restart the app a few times though.
+The first time you open the existing vault, Obsidian might freeze for a while because iCloud is downloading all the files in the background. Eventually once iCloud finish syncing everything over to the phone the app should work smoothly. This may require you to restart the app a few times though.
 
 ### Working Copy
 
