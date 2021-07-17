@@ -1,4 +1,4 @@
-Android版アプリは現在パブリックリリースとして公式に利用可能です。 https://obsidian.md/mobile からPlayストアのリンクにアクセスできます。
+Android版アプリは現在一般に公開されており、 https://obsidian.md/mobile からPlayストアのリンクにアクセスできます。
 
 ## 同期
 
