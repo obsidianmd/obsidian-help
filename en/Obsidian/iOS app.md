@@ -54,8 +54,6 @@ To setup an **existing** vault to be synced through iCloud Drive:
 5. On desktop, using the "Open another vault" option, point to the new vault location in iCloud;
 6. Wait for iCloud to sync everything to your mobile device.
 
-The first time you open the existing vault, Obsidian might freeze for a while because iCloud is downloading all the files in the background. Eventually once iCloud finish syncing everything over to the phone the app should work smoothly. This may require you to restart the app a few times though.
-
 ### Working Copy
 
 You can alternatively setup Working Copy to use Git to sync your vault on iOS. To do this, you should create an empty local vault on your device first, then you can "Setup Folder Sync" and select a local vault inside the Obsidian app. Then, you can manually commit & push.
