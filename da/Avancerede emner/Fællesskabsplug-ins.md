@@ -38,4 +38,4 @@ Den gode nyhed er, at Obsidian har et fantastisk og passioneret fællesskab, så
 
 Du burde generelt kunne stole på de fleste populære plug-ins fra vores fællesskab. Vi kræver, at alle fællesskabs tredjeparts plug-ins er open source og ligger offentligt på GitHub. **Hvis du arbejder med sensitive data, anbefaler vi at du inspicerer sourcekoden til et plugin før du installerer det, så du kan sikre dig, at dine sikkerhedsbehov bliver opfyldt**. Du kan finde et link til et plug-ins sourcekode på GitHub på dets detaljeside.
 
-Hvis du finder sikkerhedsbrister i tredjeparts plug-ins, så kontakt plug-in udvikleren på GitHub. hvis du mener at et plug-in er skadeligt eller ondsindet, så kontakt os, så vi kan undersøge plug-in'et og fjerne det, hvis det er.
+Hvis du finder sikkerhedsbrister i tredjeparts plug-ins, så kontakt plug-in udvikleren på GitHub. Hvis du mener at et plug-in er skadeligt eller ondsindet, så kontakt os, så vi kan undersøge plug-in'et og fjerne det, hvis det er.
