@@ -1,5 +1,11 @@
 The Android app is now publicly available, and a link to the Play store listing can be found at https://obsidian.md/mobile
 
+## Where are my vaults stored?
+
+On Android, the Obsidian home folder is stored in the public documents folder under `Documents/Obsidian`. The public `Documents` folder is typically stored in SD card or emulated storage.
+
+Any folder in this home folder will be considered a vault. If you sync or copy a vault folder into this directory, it can be recognized when you open Obsidian.
+
 ## Sync
 
 On Android, you may choose to use [[Obsidian Sync]] to synchronize your files, or use any third party sync provider that can perform sync in the background.
