@@ -170,7 +170,7 @@ Obsidian 同步服务的工作原理非常简单：当你将多个本地库连�
 - Key derivation function used: scrypt with salt
 - Encryption algorithm used: AES-256 using GCM
 
-##### `vault limit exceeded`错误是什么意思？
+##### `vault limit exceeded` 错误是什么意思？
 
 每个远程库的最大容量为 4gb。当你的库超过这个大小时，Obsidian 就会提示这个错误。需要注意的是，库中的附件以及版本历史一样会占用库容量。所以，即便库中笔记少于 4gb，远程库也还是有超限的可能。
 
