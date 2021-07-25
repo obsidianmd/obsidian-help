@@ -2,7 +2,7 @@ Hej! Jeg er en note i din boks.
 
 På den samme tid, så er jeg bare en markdown fil, der ligger på din harddisk. Det hele er i ren tekst, så du behøver ikke bekymre dig om at miste mig, hvis [[Obsidian]] skulle forsvinde en dag.
 
-## Hurtig start
+## Kom hurtig i gang
 
 Hvis du skal skynde dig, så er her nogle hurtige steder, du kan dykke ned i:
 

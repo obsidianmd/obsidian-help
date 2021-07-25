@@ -8,7 +8,7 @@ For more details on how to use Obsidian for Mobile, including guides for setting
 
 ## Insider builds
 
-If you're a holder of the [[Catalyst license]], you may wish to join our insider builds for mobile.
+If you're a holder of the [[Catalyst license]], you may wish to join our [[Insider builds|insider builds]] for mobile.
 
 To keep feedback and releases centralized as we don't have the capacity to debug and collect feedback via email, we ask Catalyst users who would like to beta test to go through the following steps:
 
@@ -16,7 +16,7 @@ To keep feedback and releases centralized as we don't have the capacity to debug
 
 First of all, please [join our Discord](https://discord.gg/veuWUTm).  
 
-### Step 2: claim your Catalyst badge to access mobile channel
+### Step 2: claim your Catalyst badge to access \#insider-build-mobile channel
 
 If you don't have your badge yet, [[Catalyst license#Discord badge|you can get it in your Account page]].
 
@@ -34,6 +34,6 @@ For the iOS app, look for the TestFlight link. Make sure to open the link on you
 
 Before reporting an issue or submitting a feature request, please visit [the list of known issues on our forum](https://forum.obsidian.md/t/list-of-known-issues/14286) to see what's already known and on the roadmap.
 
-The current group being rolled out can access the #insider-build-mobile channel on Discord as well as the new Mobile category on the forum.
+The current group being rolled out can access the `#insider-build-mobile` channel on Discord as well as the new Mobile category on the forum.
 
 To keep track of bug reports and feature requests, please direct them to the forum as usual. Thank you for trying out our beta!

@@ -126,7 +126,7 @@ In the rare case of a complete server breach, your data will remain encrypted, a
 
 Each account with Obsidian Sync can have up to 5 remote vaults.
 
-##### How long are version history kept?
+##### How long is version history kept?
 
 Version histories are kept for up to one year before we clean it up.
 
@@ -168,3 +168,9 @@ Here are the technical details for those interested:
 
 - Key derivation function used: scrypt with salt
 - Encryption algorithm used: AES-256 using GCM
+
+##### What does the `vault limit exceeded` error mean?
+
+Each vault using Obsidian Sync has a maximum size of 4gb. This error indicates your vault has exceeded that limit in size. Don't forget: attachments and version history contributes to the maximum, so you may exceed your 4gb limit even if your vault's actual size is less than 4gb. 
+
+If you see this error, Obsidian can help you identify and purge large files from the Vault. Go to the Obsidian Sync settings in Preferences → Sync and look for the "Vault size over limit" options. 
