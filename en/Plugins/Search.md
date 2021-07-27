@@ -67,7 +67,7 @@ When crafting a search query, remember that clicking "Explain Search Term" will 
 
 ### Search operators
 
-Several special operators are available. Some operators allow nesting queries using parenthesis, for example: `file:("to be" OR -"2B")`.
+Several special operators are available. Some operators allow nesting queries using parenthesis, for example: `file:("to be" OR -"2B")`. You can use `-` to exclude specific results from search, for example: `foo -tag:#bar`.
 
 - `file:(...)` will perform the following subquery on the file name. For example: `file:.jpg`. If you use Zettelkasten-style UIDs, this can be useful for narrowing a time range, for example `file:202007`for files created in July of 2020.
 - `path:(...)` will perform the following subquery on the file path, absolute from the root. For example: `path:"Daily Notes/2020-07"`.
