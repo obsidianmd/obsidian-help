@@ -1,13 +1,13 @@
-Slides lets you do simple presentations right inside Obsidian.
+Slides 讓您可以在 Obsidian 中做簡報。
 
-### Usage tips
+### 使用方式
 
-1. To separate slides, use newlines and the `---` separator.
+1. 若要分隔投影片，請使用換行及 `---` 分隔線。
 
-2. To start a presentation, click this button after opening a note:
+2. 若要開始簡報，請開啟筆記並點擊此按鈕：
 
 ![[Pasted image 14.png]]
 
 ### Demo
 
-Check out the demo document: [[Slides demo]]
+查看 Demo：[[Slides demo]]

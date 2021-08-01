@@ -29,6 +29,7 @@
 
 - Andrea Brandi (Italian)
 - canzi-teacher, 蚕子 (Chinese Simplified)
+- SiderealArt (Chinese Traditional)
 - Daniel Mathiot (French)
 - Henrik Falk (Danish)
 - JxhnnyUt8h (Russian)

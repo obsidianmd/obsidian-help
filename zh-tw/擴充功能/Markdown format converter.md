@@ -1,15 +1,15 @@
-It allows you to convert from other variations of Markdown format and link convention to Obsidian format.
+Markdown 格式轉換工具能夠幫助您將其他的 Markdown 格式轉換成 Obsidian 格式。
 
-Right now you can convert:
+目前您能夠轉換：
 
-- Roam #tags to [[tags]]
-- Roam `^^highlight^^` to `==highlight==`
-- Bear `::highlight::` to `==highlight==`.
-- Zettelkasten `[[UID]]` links to full links `[[UID File Name]]`
-- Zettelkasten `[[UID]]` links to pretty links `[[UID File Name|File Name]]`, which will show up as just `File Name`
+- Roam #tags 至 [[tags]]
+- Roam `^^highlight^^` 至 `==highlight==`
+- Bear `::highlight::` 至 `==highlight==`.
+- Zettelkasten `[[UID]]` 連結至 full links `[[UID 檔名]]`
+- Zettelkasten `[[UID]]` 連結至 pretty links `[[UID 檔名|檔名]]`，將顯示為 `檔名`
 
 ---
 
-### Related
+### 相關文章
 
-- [[Format your notes]]
+- [[調整您的筆記格式]]
