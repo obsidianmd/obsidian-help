@@ -6,7 +6,7 @@ If you choose, you can store your vaults in iCloud Drive. These vaults can be fo
 
 If you choose not to use iCloud for a vault, then it will be stored in the sandboxed file system of the Obsidian app. The local vaults are accessible from any other apps that support picking a folder from the file system. As such, apps like Working Copy can be used to sync with Obsidian's local vaults.
 
-Be aware that if you choose to store your vault locally, they will be automatically deleted by iOS when you uninstall Obsidian's app.
+==Be aware that if you choose to store your vault locally, they will be automatically deleted by iOS when you uninstall Obsidian's app.==
 
 ## Sync
 
@@ -14,8 +14,8 @@ Be aware that if you choose to store your vault locally, they will be automatica
 
 If you already have a vault on your desktop, here's the two ways to sync your vault to mobile and access it:
 
-![[#iCloud Drive Sync]]
-![[Android app#Obsidian Sync]]
+- [[#iCloud Drive Sync]]
+- [[#Obsidian Sync]]
 
 The two current officially supported sync solutions are iCloud and Obsidian Sync.
 Working Copy (git) is another alternative that has been tested to work with Obsidian on iOS.
@@ -34,7 +34,7 @@ Currently Obsidian does not support third party sync providers that expose a vir
 
 ### Obsidian Sync
 
-You can follow the same steps as Android's sync as shown below, making sure that you create a non-iCloud folder as we do not recommend using both Obsidian Sync and iCloud Sync concurrently, which has been reported to cause data loss due to race conditions.
+You can follow the same steps as Android's sync as shown below, making sure that you create a non-iCloud folder as we do not recommend using both Obsidian Sync and iCloud Sync concurrently, which has been reported to cause data loss due to [[Obsidian Sync#Third party sync|race conditions]].
 
 ![[Android app#Obsidian Sync]]
 
@@ -53,8 +53,6 @@ To setup an **existing** vault to be synced through iCloud Drive:
 4. Copy and paste everything under your vault to this empty folder, this will now be your synced folder location;
 5. On desktop, using the "Open another vault" option, point to the new vault location in iCloud;
 6. Wait for iCloud to sync everything to your mobile device.
-
-The first time you open the existing vault, Obsidian might freeze for a while because iCloud is downloading all the files in the background. Eventually once iCloud finish syncing everything over to the phone the app should work smoothly. This may require you to restart the app a few times though.
 
 ### Working Copy
 
