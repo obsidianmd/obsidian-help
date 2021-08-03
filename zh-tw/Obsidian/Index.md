@@ -1,4 +1,5 @@
-## About this site
+## 關於此頁
+
 Welcome to Obsidian's official help vault! This page contains a quick index to the things that you may be interested in.
 
 See public hosted version: https://publish.obsidian.md/help
@@ -24,9 +25,9 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 
 ## Obsidian
 
-### About the app
+### 關於我們
 
-- See [[Obsidian|our philosophy for the app]].
+- 請見 [[Obsidian|我們的理念]]。
 
 ### Getting started
 

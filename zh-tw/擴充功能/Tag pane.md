@@ -2,9 +2,9 @@ Adds a panel on the right that displays all the tags you have, along with their 
 
 When clicking on a tag, a search for the tag is activated. To ==toggle a tag== in search, Ctrl-click it instead.
 
-### Sorting
+### 排列
 
-The tags are sorted from most frequently used to least frequently used. You can change the sort order to alphabetical or reverse it.
+標籤將以使用次數多寡排列，您可以將排列順序變更為字母排序，或是反向。
 
 ### Nested tags
 

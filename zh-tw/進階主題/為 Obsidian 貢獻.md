@@ -36,14 +36,14 @@ If you're a JavaScript/TypeScript programmer, you can write [[Third-party plugin
 
 ### 3. Translation and proofreading
 
-#### Translating the interface
+#### 翻譯界面
 
 If you know another language (preferably natively), you can help with translating the Obsidian interface into your language. You can do that by submitting a pull request in [our translation GitHub repository](https://github.com/obsidianmd/obsidian-translations) to get it into the next version of the app.
 
-#### Translating the docs
+#### 翻譯文檔
 
-We're in the middle of reorganizing and stabilizing the documentation you're reading right now. Once it's in a good shape, you can also help translate it, so that people who don't know English can also easily learn to use Obsidian.
+我們正在整理並統一您現在正在閱讀的文檔。一旦完成，您也可以幫助我們翻譯，讓那些不熟英文的人也能很容易地學習使用 Obsidian。
 
-#### Found a typo?
+#### 找到錯字？
 
 If you found a typo or a grammar mistake in these documentation, feel free to submit a pull request in [our documentation repository](https://github.com/obsidianmd/obsidian-docs).
