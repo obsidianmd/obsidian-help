@@ -2,15 +2,15 @@ Obsidian Publish™ is a paid hosting service for your notes.
 
 For instructions on how to publish your notes from within the Obsidian app, refer to the [[Publish|Publish plugin]].
 
-### Privacy
+### 隱私
 
 You have total control over what to publish via the [[Publish|Publish plugin]] - either your entire vault or just selected notes within your vault. As for any notes you choose **not** to publish, you can be confident that those notes remain completely private, and Obsidian Publish has no knowledge of them.
 
-### Backing up
+### 備份
 
 Please note that Obsidian Publish is not to be used as a backup for your content. Make sure you always have a personal backup copy of your site using your preferred backup method. Our efforts on Obsidian Publish will be more focused on functionality, ease of use, and site availability.
 
-### Demo
+### 展示
 
 There's a good chance that you're already viewing this article on our official site powered by Obsidian Publish.
 
@@ -28,7 +28,7 @@ There are several components which can be turned on or off from the [[Publish|Pu
 
 Enabling this option adds a navigation sidebar displaying all published pages and the folders that contain them. Viewers will see the current open note highlighted, and can click on any other note to navigate.
 
-##### Search bar
+##### 搜尋欄
 
 Adds a search bar to page. This bar can be used to search for pages, aliases, and headings within pages. It does not currently search through the full text content of the site.
 
@@ -36,7 +36,7 @@ Adds a search bar to page. This bar can be used to search for pages, aliases, an
 
 Displays a local graph of the page currently open. This uses the same rendering engine as the [[Graph view]] plugin in Obsidian.
 
-##### Table of contents
+##### 目錄
 
 Displays a table of contents for the page currently open. The list is generated from headings within the page, similar to the [[Outline]] plugin. Viewers navigating the note will see the corresponding heading highlighted as they scroll, and can click on another heading to immediately navigate to it.
 
@@ -44,7 +44,7 @@ Displays a table of contents for the page currently open. The list is generated 
 
 Displays a section at the end of each page called "Linked to this page", containing backlinks from other pages. If there are no backlinks, the section will not be displayed.
 
-##### Tags
+##### 標籤
 
 When the reader clicks on a tag, they can see a list of other pages that includes the same tag.
 

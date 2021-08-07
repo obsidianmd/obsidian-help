@@ -8,7 +8,7 @@ If you choose not to use iCloud for a vault, then it will be stored in the sandb
 
 ==Be aware that if you choose to store your vault locally, they will be automatically deleted by iOS when you uninstall Obsidian's app.==
 
-## Sync
+## 同步
 
 ### Quick start
 
@@ -22,7 +22,7 @@ Working Copy (git) is another alternative that has been tested to work with Obsi
 
 Currently, there is **no** known support for the following sync services on iOS yet:
 - Dropbox
-- Google Drive
+- Google 雲端硬碟
 - OneDrive
 - Syncthing
 
@@ -70,7 +70,7 @@ For sync, a regular markdown editor app can simply implement the basic "download
 
 Keeping all that in sync with a third party sync provider would be quite tedious - and this is actually part of the reason why most sync providers don't make a proper sync client for mobile and you have to use a third party app (like DropSync or FolderSync) to do it. Unfortunately, such apps don't exist on iOS because of app sandboxing.
 
-## Known issues
+## 已知問題
 
 ### iCloud folder on macOS
 

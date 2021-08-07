@@ -57,4 +57,4 @@ We support [[Customizing CSS|custom CSS]] and have a [[Third-party plugins|beta 
 
 Obsidian is in public beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
+我們的 Twitter 帳號是 [@obsdmd](https://twitter.com/obsdmd)，歡迎追蹤。我們時常傳送關於 Obsidian 更新的推文。

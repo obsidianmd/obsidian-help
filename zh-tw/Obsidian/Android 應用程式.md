@@ -6,7 +6,7 @@ On Android, the Obsidian home folder is stored in the public documents folder un
 
 Any folder in this home folder will be considered a vault. If you sync or copy a vault folder into this directory, it can be recognized when you open Obsidian.
 
-## Sync
+## 同步
 
 On Android, you may choose to use [[Obsidian Sync]] to synchronize your files, or use any third party sync provider that can perform sync in the background.
 

@@ -6,39 +6,39 @@ There are three major ways you can contribute:
 
 #### Commercial license
 
-If you'd like to use Obsidian for work activities, try to let your work get you a [[Commercial license|commercial license]].
+If you'd like to use Obsidian for work activities，try to let your work get you a [[Commercial license|commercial license]].
 
-#### Add-on services
+#### 附加功能服務
 
-If you'd like to make a website from your notes, consider getting [[Obsidian Publish]] if the price works for you.
+If you'd like to make a website from your notes，consider getting [[Obsidian Publish]] if the price works for you.
 
-If you're interested in an end-to-end encryption syncing solution, we also offer [[Obsidian Sync]]. In addition to end-to-end encryption, Obsidian Sync also comes with version history.
+If you're interested in an end-to-end encryption syncing solution，we also offer [[Obsidian Sync]]. In addition to end-to-end encryption，Obsidian Sync also comes with version history.
 
 #### Catalyst
 
-If you don't need any of the above, you can get a [[Catalyst license]] to support our developer, which also gives you access to [[Insider builds]].
+If you don't need any of the above，you can get a [[Catalyst license]] to support our developer，which also gives you access to [[Insider builds]].
 
 #### Obsidian Unlimited
 
-For those very passionate about the project, there's also the Obsidian Unlimited option, which lets you pay as much as you want to support development and help us stay independent. We recommend going for this option after you've purchased the VIP tier of [[Catalyst license]] so that you can enjoy the benefits.
+For those very passionate about the project，there's also the Obsidian Unlimited option，which lets you pay as much as you want to support development and help us stay independent. We recommend going for this option after you've purchased the VIP tier of [[Catalyst license]] so that you can enjoy the benefits.
 
 ### 2. Extending Obsidian
 
-#### CSS themes
+#### CSS 主題
 
-If you're proficient in CSS, another way is to contribute a theme, so that people who don't know CSS can enjoy your work. If you decide to do so, feel free to share it on the #css-themes channel on Discord, or in the Share & Showcase category on our forum.
+如果您精通 CSS，another way is to contribute a theme，so that people who don't know CSS can enjoy your work. If you decide to do so，歡迎在我們的 Discord 伺服器中的 #css-themes 頻道，或是論壇的 Share & Showcase 分類中分享。
 
-If you'd like to add your theme to the community theme list, let us know! (Or we might reach out to you first!)
+If you'd like to add your theme to the community theme list，let us know! (Or we might reach out to you first!)
 
-#### Plugins
+#### 擴充功能
 
-If you're a JavaScript/TypeScript programmer, you can write [[Third-party plugins]] for Obsidian, now that our plugin API is in alpha.
+如果您會使用 JavaScript 或是 TypeScript，您可以為 Obsidian 開發 [[第三方擴充功能]]，我們的擴充功能 API 已經進入 alpha 階段了。
 
-### 3. Translation and proofreading
+### 3. 翻譯和校對
 
 #### 翻譯界面
 
-If you know another language (preferably natively), you can help with translating the Obsidian interface into your language. You can do that by submitting a pull request in [our translation GitHub repository](https://github.com/obsidianmd/obsidian-translations) to get it into the next version of the app.
+如果您熟悉其他語言 (母語人士優先)，you can help with translating the Obsidian interface into your language. You can do that by submitting a pull request in [our translation GitHub repository](https://github.com/obsidianmd/obsidian-translations) to get it into the next version of the app.
 
 #### 翻譯文檔
 
@@ -46,4 +46,4 @@ If you know another language (preferably natively), you can help with translatin
 
 #### 找到錯字？
 
-If you found a typo or a grammar mistake in these documentation, feel free to submit a pull request in [our documentation repository](https://github.com/obsidianmd/obsidian-docs).
+如果您在這些文檔中找到了錯字或是有更通順的翻譯，歡迎向我們的[文檔儲存庫](https://github.com/obsidianmd/obsidian-docs)提交 Pull Request。

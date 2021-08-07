@@ -28,7 +28,7 @@ You can enable Obsidian Sync by enabling the "Sync" plugin under Settings -> Cor
 
 ### Setting up remote vaults
 
-Warning: We do not recommend using third party sync services to sync the same vault with Obsidian Sync。 [[#Third party sync|More about this later]]。
+警告：We do not recommend using third party sync services to sync the same vault with Obsidian Sync。 [[#Third party sync|More about this later]]。
 
 To start syncing, first you need to create a remote vault that stores your encrypted data。
 
