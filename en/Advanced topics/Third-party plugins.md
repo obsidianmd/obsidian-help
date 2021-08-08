@@ -30,12 +30,12 @@ After installing, you can then find the installed plugins under Settings -> Thir
 
 ### Plugin security
 
-Thanks for trusting Obsidian with your data! It means a lot to us, and we take security very seriously. That includes third-party plugins too.
+Thanks for trusting Obsidian with your data! It means a lot to us, and we take security very seriously. This includes third-party plugins that are accessible through Obsidian as a community plugin.
 
-Due to technical reasons with our platform, we're unable to restrict plugins to a specific permission or access level. Since we offer Obsidian for free, currently we're unable to manually review each plugin.
+We conduct a code review for the initial release of all community plugins for performance, but cannot guarantee the security of third-party plugins. Since we offer Obsidian for free, we are unable to manually review each plugin update after initial release.
 
-The good news is that Obsidian has an amazing and passionate community, so we rely on community trust to ensure security of third-party plugins.
+In general, you should be able to trust popular plugins from the community. Obsidian has an amazing and passionate community, and we rely on community trust and review to ensure the security of third-party plugins.
 
-In general, you should be able to trust most of the popular plugins from the community. We require all community third-party plugins to be open sourced on GitHub. **If you're working with sensitive data, we recommend you to inspect the plugin code before installing it, so that your security needs are met.** You can find a link to the plugin repository on the plugin detail page.
+We require all community third-party plugins to be open sourced on GitHub. **If you're working with sensitive data, we recommend you to inspect the plugin code before installing it, so that your security needs are met.** You can find a link to the plugin repository on the plugin detail page.
 
-If you find any security flaws with third-party plugins, contact the plugin author by adding an issue on GitHub. If you believe the plugin is malicious, contact us to get the plugin investigated and removed.
+If you find any security flaws with third-party plugins, let us know on Discord and contact the plugin author by adding an issue on their GitHub repo. If you believe the plugin is malicious, contact us directly to investigate and remove the plugin.
