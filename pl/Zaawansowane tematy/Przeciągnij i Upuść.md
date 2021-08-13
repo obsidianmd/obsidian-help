@@ -1,29 +1,29 @@
-There are many ways to drag and drop things around Obsidian to make the experience smoother:
+Istnieje wiele sposobów na przeciąganie i upuszczanie elementów w Obsidianie, aby uczynić użytkowanie bardziej płynnym:
 
-### Drag panes
+### Przeciąganie paneli
 
-See [[Pracowanie z wieloma notatkami#5 Panes can be rearranged by dragging|dragging panes]]
+Zobacz [[Pracowanie z wieloma notatkami#5 Panes can be rearranged by dragging|dragging panes]].
 
-### Drag sources
+### Przeciąganie źródeł
 
-- You can drag a file, or multiple files from the [[Przeglądarka plików]].
-- You can drag a file from a [[Szukaj]] result.
-- You can drag a file from [[Linki zwrotne]] or unlinked references.
-- You can drag a file from the [[Notatki oznaczone gwiazdką]].
-- You can drag a file from a link inside the note, in preview mode.
+- Możesz przeciągnąć plik, lub wiele plików z [[Przeglądarka plików|przeglądarki plików]].
+- Możesz przeciągnąć plik z wyniku [[Szukaj|wyszukiwania]].
+- Możesz przeciągnąć plik z [[Linki zwrotne|linków zwrotnych]] lub niezlinkowanych odnośników.
+- Możesz przeciągnąć plik z [[Notatki oznaczone gwiazdką|notatek oznaczonych gwiazdką]].
+- Możesz przeciągnąć plik z linku wewnątrz notatki, w trybie podglądu.
 
-### Drop destinations
+### Upuszczanie miejsc docelowych
 
-- You can drop a file on a pane header to open the file there. Hold `Alt` (or `Shift` on MacOS) to drop anywhere on the pane.
-- You can drop a file on a folder in the [[Przeglądarka plików]] to move the file there.
-- You can drop a file into an editor to insert it as a link. The generated link also follows your preferences, such as relative paths, or using markdown links.
-- You can drop a file on the [[Notatki oznaczone gwiazdką]] to star it.
+- Możesz upuścić plik na nagłówek okna, aby go tam otworzyć. Przytrzymaj `Alt` (lub `Shift` na MacOS), aby upuścić plik w dowolnym miejscu na panelu.
+- Możesz upuścić plik na folderze w [[Przeglądarka plików|przeglądarce plików]] aby go tam przenieść.
+- Możesz upuścić plik do edytora, aby wstawić go jako link. Wygenerowany link jest również zgodny z Twoimi preferencjami, takimi jak ścieżki względne, czy używanie linków markdown.
+- Możesz upuścić plik na [[Notatki oznaczone gwiazdką]], aby oznaczyć go gwiazdką.
 
-### Dragging from outside Obsidian
+### Przeciąganie spoza Obsidiana
 
-- You can drag any HTML content from the browser into Obsidian to automatically convert them into Markdown
-- You can drag and drop any files from your native file explorer to have Obsidian import (make a copy of) those files in your vault's attachment folder and insert them as internal links. Hold `Ctrl` to create `file:///` absolute links to those files instead of importing a copy.
+- Możesz przeciągnąć dowolną treść HTML z przeglądarki do Obsidiana, by automatycznie przekonwertować ją na Markdown
+- Możesz przeciągnąć i upuścić dowolne pliki z eksploratora plików, aby Obsidian zaimportował (zrobił kopię) tych plików w folderze załączników skarbca i wstawił je jako wewnętrzne linki. Przytrzymaj `Ctrl`, aby utworzyć `file:///` bezwzględne linki do tych plików zamiast importować kopię.
 
-### Dropping files outside Obsidian
+### Upuszczanie plików poza Obsidianem
 
-- This will create an `obsidian://` URL in the external application for the Obsidian note that you dragged.
+- Spowoduje to utworzenie adresu URL `obsidian://` w zewnętrznej aplikacji dla notatki Obsidiana, którą przeciągnąłeś.
