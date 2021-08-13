@@ -32,7 +32,7 @@ Warning: We do not recommend using third party sync services to sync the same va
 
 To start syncing, first you need to create a remote vault that stores your encrypted data.
 
-To do that, go to Setting -> Sync -> Pick remote vault -> Choose -> Create new vault.
+To do that, go to Setting => Sync => Pick remote vault => Choose => Create new vault.
 
 After creating it, you can immediately connect to the vault by clicking on the "Connect" button next to it.
 
@@ -62,7 +62,7 @@ After selecting a version in the left column in the version history screen, you 
 
 ### Deleted files
 
-After you delete a file, you can view it in Setting -> Sync -> Deleted files -> View.
+After you delete a file, you can view it in Setting => Sync => Deleted files => View.
 
 Clicking on a deleted file will open its version history. You can then choose to restore the file back to a previous version.
 

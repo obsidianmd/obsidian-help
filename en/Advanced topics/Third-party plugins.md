@@ -18,15 +18,15 @@ By default, Obsidian has Safe Mode turned on to protect you from potential harm.
 
 Please be aware that third-party plugins can access files on your computer, connect to the internet, and even install additional programs. To read more about plugin security, [[#Plugin security|see here]].
 
-In order to install third-party plugins, you need to turn off Safe Mode in Settings -> Community plugins -> Safe mode.
+In order to install third-party plugins, you need to turn off Safe Mode in Settings => Community plugins => Safe mode.
 
 #### Discover and install community plugins
 
-After disabling Safe Mode, you can find third-party plugins created by the community in Settings -> Community plugins -> Browse.
+After disabling Safe Mode, you can find third-party plugins created by the community in Settings => Community plugins => Browse.
 
 On this page, you can browse plugins by popularity, or search for specific plugins. Click on a plugin to see details and instruction from the plugin author. In the details page, you can click "Install" to install a plugin.
 
-After installing, you can then find the installed plugins under Settings -> Community plugins. They need to be enabled in order to take effect. You can also uninstall them there.
+After installing, you can then find the installed plugins under Settings => Community plugins. They need to be enabled in order to take effect. You can also uninstall them there.
 
 ### Plugin security
 
