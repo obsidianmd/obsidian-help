@@ -2,26 +2,26 @@
 aliases: front matter
 ---
 
-YAML front matter is how file-level metadata lives in Obsidian.
+YAML front matter to sposób w jaki metadane na poziomie pliku żyją w Obsidianie.
 
-Front matter is essentially a section of plain text attributes placed at the very top of the file. Front matter was popularized by static generators like Jekyll, Hugo, and Gatsby. It's one of the most popular ways to put metadata in a Markdown file.
+Front matter jest zasadniczo sekcją atrybutów zwykłego tekstu umieszczoną na samej górze pliku. Front matter został spopularyzowany przez statyczne generatory takie jak Jekyll, Hugo i Gatsby. Jest to jeden z najpopularniejszych sposobów na umieszczenie metadanych w pliku Markdown.
 
-Front matter is a YAML block with **triple dashes** both before and after. ==It also needs to be placed at the very top of the file.==
+Front matter to blok YAML z **potrójnymi myślnikami** przed i po. ==Musi być także umieszczony na samej górze pliku.==
 
-For example:
+Na przykład:
 
 ```
 ---
-key: value
-key2: value2
-key3: [one, two, three]
-key4:
-- four
-- five
-- six
+klucz: wartość
+klucz2: wartość2
+klucz3: [jeden, dwa, trzy]
+klucz4:
+- cztery
+- pięć
+- sześć
 ---
 ```
 
-As of 0.9.17, [[Dodawanie aliasów do notatek|alias]] uses front matter. We'll gradually make it more accessible by plugin developers and more user friendly.
+Od wersji 0.9.17, [[Dodawanie aliasów do notatek|alias]] używa front matter. Stopniowo będziemy czynić front matter bardziej przystępnym dla twórców pluginów i bardziej przyjaznym dla użytkownika.
 
-Currently three keys are natively supported: `tags`, `aliases` and `cssclass`.
+Obecnie natywnie obsługiwane są trzy klucze: `tags` (tagi), `aliases` (aliasy) oraz `cssclass` (klasa CSS).
