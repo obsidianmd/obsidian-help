@@ -1,49 +1,49 @@
-Thanks for the interest in contributing to Obsidian!
+Dziękujemy za zainteresowanie kontrybucją do Obsidiana!
 
-There are three major ways you can contribute:
+Istnieją trzy główne sposoby, w jakie możesz wnieść swój wkład:
 
-### 1. Financial contribution
+### 1. Wkład finansowy
 
-#### Commercial license
+#### Licencja komercyjna
 
-If you'd like to use Obsidian for work activities, try to let your work get you a [[Licencja komercyjna|commercial license]].
+Jeśli chciałbyś używać Obsidiana do pracy, spróbuj poprosić o udzielenie [[Licencja komercyjna|licencji komercyjnej]].
 
-#### Add-on services
+#### Usługi dodatkowe
 
-If you'd like to make a website from your notes, consider getting [[Obsidian Publish]] if the price works for you.
+Jeśli chciałbyś zrobić stronę internetową ze swoich notatek, rozważ zakup [[Obsidian Publish]], jeśli cena ci odpowiada.
 
-If you're interested in an end-to-end encryption syncing solution, we also offer [[Obsidian Sync]]. In addition to end-to-end encryption, Obsidian Sync also comes with version history.
+Jeśli jesteś zainteresowany rozwiązaniem synchronizacji z szyfrowaniem end-to-end, oferujemy również [[Obsidian Sync]]. Oprócz szyfrowania end-to-end, Obsidian Sync posiada również historię wersji.
 
 #### Catalyst
 
-If you don't need any of the above, you can get a [[Licencja Catalyst]] to support our developer, which also gives you access to [[Kompilacja Insider]].
+Jeśli nie potrzebujesz żadnej z powyższych opcji, możesz uzyskać [[Licencja Catalyst|licencję Catalyst]], aby wesprzeć naszego dewelopera, która daje również dostęp do [[Kompilacja Insider|kompilacji Insider]].
 
 #### Obsidian Unlimited
 
-For those very passionate about the project, there's also the Obsidian Unlimited option, which lets you pay as much as you want to support development and help us stay independent. We recommend going for this option after you've purchased the VIP tier of [[Licencja Catalyst]] so that you can enjoy the benefits.
+Dla tych, którzy bardzo pasjonują się projektem, jest też opcja ''Obsidian Unlimited'', która pozwala płacić tyle, ile chcesz, aby wspierać rozwój i pomóc nam pozostać niezależnymi. Zalecamy skorzystanie z tej opcji po zakupie poziomu VIP [[Licencja Catalyst|licencji Catalyst]], abyś mógł cieszyć się korzyściami.
 
-### 2. Extending Obsidian
+### 2. Rozszerzanie Obsidiana
 
-#### CSS themes
+#### Tematy CSS
 
-If you're proficient in CSS, another way is to contribute a theme, so that people who don't know CSS can enjoy your work. If you decide to do so, feel free to share it on the #css-themes channel on Discord, or in the Share & Showcase category on our forum.
+Jeśli jesteś biegły w CSS, innym sposobem jest stworzenie motywu, tak aby ludzie, którzy nie znają CSS mogli cieszyć się Twoją pracą. Jeśli się na to zdecydujesz, podziel się nim na kanale #css-themes na Discordzie, lub w kategorii Share & Showcase na naszym forum.
 
-If you'd like to add your theme to the community theme list, let us know! (Or we might reach out to you first!)
+Jeśli chciałbyś dodać swój motyw do listy motywów społeczności, daj nam znać! (Albo może my dotrzemy do Ciebie pierwsi!)
 
-#### Plugins
+#### Wtyczki
 
-If you're a JavaScript/TypeScript programmer, you can write [[Wtyczki społeczności]] for Obsidian, now that our plugin API is in alpha.
+Jeśli jesteś programistą JavaScript/TypeScript, możesz napisać [[Wtyczki społeczności|wtyczkę]] do Obsidiana, nasze API wtyczek jest w fazie alfa.
 
-### 3. Translation and proofreading
+### 3. Tłumaczenie i korekta
 
-#### Translating the interface
+#### Tłumaczenie interfejsu
 
-If you know another language (preferably natively), you can help with translating the Obsidian interface into your language. You can do that by submitting a pull request in [our translation GitHub repository](https://github.com/obsidianmd/obsidian-translations) to get it into the next version of the app.
+Jeśli znasz inny język (najlepiej natywnie), możesz pomóc w tłumaczeniu interfejsu Obsidiana na swój język. Możesz to zrobić przez wysłanie pull requesta w [naszym repozytorium tłumaczeń na GitHubie](https://github.com/obsidianmd/obsidian-translations), aby włączyć go do następnej wersji aplikacji.
 
-#### Translating the docs
+#### Tłumaczenie dokumentów
 
-We're in the middle of reorganizing and stabilizing the documentation you're reading right now. Once it's in a good shape, you can also help translate it, so that people who don't know English can also easily learn to use Obsidian.
+Jesteśmy w trakcie reorganizacji i stabilizacji dokumentacji, którą właśnie czytasz. Kiedy będzie już w dobrym stanie, możesz również pomóc w jej tłumaczeniu, aby ludzie, którzy nie znają angielskiego mogli również łatwo nauczyć się obsługi Obsidiana.
 
-#### Found a typo?
+#### Znalazłeś literówkę?
 
-If you found a typo or a grammar mistake in these documentation, feel free to submit a pull request in [our documentation repository](https://github.com/obsidianmd/obsidian-docs).
+Jeśli znalazłeś literówkę lub błąd gramatyczny w tej dokumentacji, wyślij pull request w [naszym repozytorium dokumentacji](https://github.com/obsidianmd/obsidian-docs).
