@@ -1,7 +1,7 @@
-Obsidian has several options for dealing with deleted files, depending on your needs.
+Obsidian posiada kilka opcji radzenia sobie z usuniętymi plikami, w zależności od Twoich potrzeb.
 
-- By default, deleted files are sent to your system trash. Here you can use whatever means your system has for recovering files you've accidentally deleted. 
-- Deleted files can be sent to a special `.trash` directory in your Vault. This can be useful if you want the ability to recover your Vault files separate from your system trash. 
-- You can also set obsidian to just delete files without possibility of recovery. 
+- Domyślnie, usunięte pliki są wysyłane do systemowego kosza. Tutaj możesz użyć wszelkich środków, jakie posiada Twój system do odzyskiwania plików, które przypadkowo usunąłeś. 
+- Usunięte pliki mogą być wysłane do specjalnego katalogu `.trash` w Twoim sejfie. Może to być przydatne, jeśli chcesz mieć możliwość odzyskiwania plików z sejfu oddzielnie od systemowego kosza. 
+- Możesz również ustawić Obsidiana tak, by po prostu usuwał pliki bez możliwości ich odzyskania. 
 
-These options can be found in Settings => File.
+Opcje te można znaleźć w Ustawienia => Pliki i Linki.
