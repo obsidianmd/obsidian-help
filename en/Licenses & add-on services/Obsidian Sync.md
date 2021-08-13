@@ -24,7 +24,7 @@ In the future, we'll improve Obsidian Sync with:
 
 ### Enable Obsidian Sync plugin
 
-You can enable Obsidian Sync by enabling the "Sync" plugin under Settings -> Core plugins.
+You can enable Obsidian Sync by enabling the "Sync" plugin under Settings => Core plugins.
 
 ### Setting up remote vaults
 
@@ -72,13 +72,13 @@ You can selectively sync files by folder or file type. ==Selective sync only app
 
 ##### Exclude folders
 
-You can uncheck folders in Settings -> Sync -> Excluded folders -> Manage to prevent them from getting synced.
+You can uncheck folders in Settings => Sync => Excluded folders => Manage to prevent them from getting synced.
 
 Excluded folders will be ignored when both uploading and download changes.
 
 #### File types
 
-You can toggle sync for images, audio, video, PDFs, and unsupported files under Settings -> Sync -> Selective sync.
+You can toggle sync for images, audio, video, PDFs, and unsupported files under Settings => Sync => Selective sync.
 
 ### Synchronizing settings
 
@@ -173,4 +173,4 @@ Here are the technical details for those interested:
 
 Each vault using Obsidian Sync has a maximum size of 4gb. This error indicates your vault has exceeded that limit in size. Don't forget: attachments and version history contributes to the maximum, so you may exceed your 4gb limit even if your vault's actual size is less than 4gb. 
 
-If you see this error, Obsidian can help you identify and purge large files from the Vault. Go to the Obsidian Sync settings in Preferences → Sync and look for the "Vault size over limit" options. 
+If you see this error, Obsidian can help you identify and purge large files from the Vault. Go to the Obsidian Sync settings in Preferences => Sync and look for the "Vault size over limit" options. 

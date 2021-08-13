@@ -28,7 +28,7 @@ You can also download images from your browser into your vault folder directly f
 
 ## Change default attachment location
 
-By default, new attachments will be dropped in the root of your vault. You can fine tune this setting in Settings -> Files & Links -> "Default location for new attachments".
+By default, new attachments will be dropped in the root of your vault. You can fine tune this setting in Settings => Files & Links -> "Default location for new attachments".
 
 ### Choose a folder
 
