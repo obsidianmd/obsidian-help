@@ -1,41 +1,41 @@
-Obsidian allows developers to write third-party plugins to extend Obsidian's functionality.
+Obsidian pozwala deweloperom na pisanie wtyczek społeczności, które rozszerzają funkcjonalność Obsidiana.
 
-Right now, the plugin API is in alpha status. This means any part of the API could introduce breaking changes in a future release.
+W tej chwili API wtyczek jest w fazie alpha. Oznacza to, że każda część API może wprowadzić psujące zmiany w przyszłym wydaniu.
 
-### For developers
+### Dla deweloperów
 
-For instructions on creating new plugins, see [our sample plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
+Instrukcje tworzenia nowych wtyczek znajdziesz w [naszej przykładowej wtyczce](https://github.com/obsidianmd/obsidian-sample-plugin).
 
-For documentation on the API, check out [our plugin API repo](https://github.com/obsidianmd/obsidian-api).
+Aby uzyskać dokumentację dla API, sprawdź [nasze repozytorium API wtyczek](https://github.com/obsidianmd/obsidian-api).
 
-After you created your plugin, you can add it to our community plugin marketplace by creating a pull request in [our releases repo](https://github.com/obsidianmd/obsidian-releases). Refer to the sample plugin on how to release updates for your plugin.
+Po utworzeniu wtyczki możesz dodać ją do naszego społecznościowego rynku wtyczek, tworząc pull request w [naszym repozytorium wydań](https://github.com/obsidianmd/obsidian-releases). Odnieś się do przykładowej wtyczki, aby dowiedzieć się, jak wydawać aktualizacje dla swojej wtyczki.
 
-### For users
+### Dla użytkowników
 
-#### Safe Mode
+#### Tryb Bezpieczny
 
-By default, Obsidian has Safe Mode turned on to protect you from potential harm. Under Safe Mode, no third-party plugin will run.
+Domyślnie Obsidian ma włączony tryb bezpieczny, aby chronić Cię przed potencjalnymi szkodami. W trybie bezpiecznym nie będą uruchamiane żadne wtyczki społeczności.
 
-Please be aware that third-party plugins can access files on your computer, connect to the internet, and even install additional programs. To read more about plugin security, [[#Plugin security|see here]].
+Pamiętaj, że wtyczki społeczności mogą uzyskiwać dostęp do plików na Twoim komputerze, łączyć się z internetem, a nawet instalować dodatkowe programy. Aby przeczytać więcej o bezpieczeństwie wtyczek, [[#Bezpieczeństwo wtyczek|spójrz tutaj]].
 
-In order to install third-party plugins, you need to turn off Safe Mode in Settings -> Third-party plugin -> Safe Mode.
+Aby zainstalować wtyczki społeczności, musisz wyłączyć tryb bezpieczny w Ustawienia -> Wtyczki społeczności -> Tryb bezpieczny.
 
-#### Discover and install community plugins
+#### Odkryj i zainstaluj wtyczki społecznościowe
 
-After disabling Safe Mode, you can find third-party plugins created by the community in Settings -> Third-party plugin -> Community plugins -> Browse.
+Po wyłączeniu trybu bezpiecznego, możesz znaleźć wtyczki utworzone przez społeczność w Ustawienia -> Wtyczki społeczności -> Przeglądaj.
 
-On this page, you can browse plugins by popularity, or search for specific plugins. Click on a plugin to see details and instruction from the plugin author. In the details page, you can click "Install" to install a plugin.
+Na tej stronie możesz przeglądać wtyczki według popularności lub wyszukiwać określone wtyczki. Kliknij na wtyczkę, aby zobaczyć szczegóły i instrukcje od autora wtyczki. Na stronie szczegółów, możesz kliknąć "Zainstaluj", aby zainstalować wtyczkę.
 
-After installing, you can then find the installed plugins under Settings -> Third-party plugin. They need to be enabled in order to take effect. You can also uninstall them there.
+Po zainstalowaniu, możesz znaleźć zainstalowane wtyczki w Ustawienia -> Wtyczki społeczności. Muszą one być włączone, aby działały. Można je tam również odinstalować.
 
-### Plugin security
+### Bezpieczeństwo wtyczek
 
-Thanks for trusting Obsidian with your data! It means a lot to us, and we take security very seriously. That includes third-party plugins too.
+Dziękujemy za powierzenie Obsidianowi swoich danych! To wiele dla nas znaczy i bardzo poważnie podchodzimy do kwestii bezpieczeństwa. Dotyczy to również wtyczek innych firm.
 
-Due to technical reasons with our platform, we're unable to restrict plugins to a specific permission or access level. Since we offer Obsidian for free, currently we're unable to manually review each plugin.
+Z przyczyn technicznych naszej platformy, nie jesteśmy w stanie ograniczyć wtyczek do określonego poziomu uprawnień lub dostępu. Ponieważ oferujemy Obsidiana za darmo, obecnie nie jesteśmy w stanie ręcznie sprawdzać każdej wtyczki.
 
-The good news is that Obsidian has an amazing and passionate community, so we rely on community trust to ensure security of third-party plugins.
+Dobrą wiadomością jest to, że Obsidian ma niesamowitą i pełną pasji społeczność, więc polegamy na zaufaniu społeczności, aby zapewnić bezpieczeństwo wtyczek innych firm.
 
-In general, you should be able to trust most of the popular plugins from the community. We require all community third-party plugins to be open sourced on GitHub. **If you're working with sensitive data, we recommend you to inspect the plugin code before installing it, so that your security needs are met.** You can find a link to the plugin repository on the plugin detail page.
+Ogólnie rzecz biorąc, powinieneś być w stanie zaufać większości popularnych wtyczek ze społeczności. Wymagamy, aby wszystkie wtyczki innych firm były otwarte na GitHubie. **Jeśli pracujesz z poufnymi danymi, zalecamy sprawdzenie kodu wtyczki przed jej zainstalowaniem, aby Twoje potrzeby bezpieczeństwa zostały spełnione.** Możesz znaleźć link do repozytorium wtyczek na stronie szczegółów wtyczki.
 
-If you find any security flaws with third-party plugins, contact the plugin author by adding an issue on GitHub. If you believe the plugin is malicious, contact us to get the plugin investigated and removed.
+Jeśli znajdziesz jakiekolwiek błędy w zabezpieczeniach wtyczek społeczności, skontaktuj się z autorem wtyczki, tworząc Issue na GitHubie. Jeśli uważasz, że wtyczka jest złośliwa, skontaktuj się z nami, aby wtyczka została sprawdzona i usunięta.
