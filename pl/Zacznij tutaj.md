@@ -1,43 +1,43 @@
-Hi there! I'm a note in your vault.
+Cześć! Jestem notatką w Twoim sejfie.
 
-At the same time, I'm also just a Markdown file sitting on your hard disk. It's all in plain text, so you don't need to worry about losing me in case [[Obsidian]] disappears one day.
+Jednocześnie jestem też po prostu plikiem Markdown, który leży na Twoim dysku. Wszystko jest zapisane zwykłym tekstem, więc nie musisz się martwić, że mnie zgubisz, gdyby [[Obsidian]] pewnego dnia zniknął.
 
-## Quick Start
+## Szybki start
 
-If you're in a hurry, here's some quick places to dive in:
+Jeśli się spieszysz, oto kilka szybkich miejsc, na które możesz rzucić okiem:
 
-- The [[Paleta poleceń]] contains most of the commands you need to work with Obsidian. Just press `Ctrl/Cmd-P` and start typing.
-- How to [[Tworzenie notatek|create new notes]].
-- How to create [[Link wewnętrzny|internal links]]
-- How to use Markdown to [[Formatowanie Twoich notatek]]
-- How to [[Wstawianie plików]], or embed other notes
+- [[Paleta poleceń]] zawiera większość komend, których potrzebujesz do pracy z Obsidianem. Wystarczy wcisnąć `Ctrl/Cmd-P` i zacząć pisać.
+- Jak [[notatek|tworzyć nowe notatki]].
+- Jak tworzyć [[Link wewnętrzny|linki wewnętrzne]]
+- Jak używać Markdown do [[Formatowanie Twoich notatek|formatowania Twoich notatek]]
+- Jak [[Wstawianie plików|wstawiać pliki]], lub wstawiać inne notatki
 - [[Skróty klawiszowe]]
-- How to [[Pracowanie z wieloma notatkami|open multiple files side by side]]
-- Obsidian can be extended with [[Lista wtyczek|plugins]]. Several are available by default, and can be enabled or disabled according to your needs.
+- Jak [[Pracowanie z wieloma notatkami|jednocześnie otworzyć wiele plików obok siebie]]
+- Obsidian może zostać rozszerzony dzięki [[Lista wtyczek|wtyczkom]]. Kilka z nich jest dostępnych domyślnie, można je włączać lub wyłączać w zależności od potrzeb.
 
 
-If you want a more thorough introduction, including a bit about our philosophy, check out [[Obsidian]].
+Jeśli chcesz bardziej szczegółowego wprowadzenia, w tym trochę o naszej filozofii, sprawdź [[Obsidian]].
 
-And if you'd like a gentle introduction, or just want to get started but don't know how, head over to [[Podstawowe tworzenie notatek]].
+A jeśli chciałbyś łagodnego wprowadzenia, lub po prostu chcesz zacząć, ale nie wiesz jak, odwiedź [[Podstawowe tworzenie notatek]].
 
-If you are a [Catalyst supporter](https://obsidian.md/pricing), and want to turn on Insider Builds, see [[Kompilacja Insider]].
+Jeśli jesteś [wspierającym Catalyst](https://obsidian.md/pricing) i chcesz włączyć Kompilacje Insider, zobacz [[Kompilacja Insider]].
 
-## Workflows
+## Sposób pracy
 
-Obsidian is a tool that can be used in many ways, from a simple list of notes to a very powerful knowledge management system. We suggest you start at your own pace, and build it into the tool you need.
+Obsidian jest narzędziem, które może być używane na wiele sposobów, od prostej listy notatek do bardzo potężnego systemu zarządzania wiedzą. Sugerujemy, abyś zaczął w swoim własnym tempie i zbudował narzędzie, którego potrzebujesz.
 
-Here are a few ways to get started:
+Oto kilka sposobów na rozpoczęcie pracy:
 
-If you want to just start taking notes, check out [[Podstawowe tworzenie notatek]]
+Jeśli chcesz po prostu zacząć robić notatki, sprawdź [[Podstawowe tworzenie notatek]]
 
-If you already have a collection of notes in markdown format, just choose them for your Vault. Go to the Settings gear in the lower left, choose "Vault," and select the directory your notes are in.
+Jeśli masz już kolekcję notatek w formacie markdown, po prostu włóż je do swojego sejfu. Wejdź w Sejf po lewej stronie i wskaż katalog, w którym znajdują się twoje notatki.
 
-If you have notes from Roam Research, Notion, or other systems, [[Importowanie danych|here's how to import them]].
+Jeśli masz notatki z Roam Research, Notion lub innych systemów, [[Importowanie danych|tutaj dowiesz się, jak je zaimportować]].
 
-If you'd like to know more about Obsidian, you can [[Obsidian|read about our story]].
+Jeśli chciałbyś dowiedzieć się więcej o Obsidianie, możesz [[Obsidian|przeczytać o naszej historii]].
 
-By the way, you can feel free to edit these help docs, but when you click Settings => Help => Read Help again, they will be overwritten. So, don't put anything in them you want to keep.
+Przy okazji, możesz swobodnie edytować te instrukcję, ale kiedy otworzysz instrukcję ponownie, zmiany zostaną nadpisane. Więc nie umieszczaj w nich niczego, co chciałbyś zachować.
 
-## I have questions.
+## Mam pytania.
 
-Then you should join our [community!](https://obsidian.md/community). We have active Discord and Forums, and the community is generally quite helpful.
+W takim razie powinieneś dołączyć do naszej [społeczności!](https://obsidian.md/community). Mamy aktywnego Discorda i Forum, a społeczność jest generalnie bardzo pomocna.
