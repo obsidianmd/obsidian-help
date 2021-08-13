@@ -1,9 +1,9 @@
-Obsidian recognizes the following file formats right now:
+Obsidian rozpoznaje obecnie następujące formaty plików:
 
-1. Markdown files: `md`;
-2. Image files: `png`, `jpg`, `jpeg`, `gif`, `bmp`, `svg`;
-3. Audio files: `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`;
-4. Video files: `mp4`, `webm`, `ogv`;
-5. PDF files: `pdf`.
+    1. Pliki Markdown: `md`;
+    2. Pliki obrazów: `png`, `jpg`, `jpeg`, `gif`, `bmp`, `svg`;
+    3. Pliki dźwiękowe: `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`;
+    4. Pliki wideo: `mp4`, `webm`, `ogv`;
+    5. Pliki PDF: `pdf`.
 
-All these types of files can be [[Wstawianie plików|embedded]] in a note.
+    Wszystkie te typy plików mogą być [[Wstawianie plików|wstawione]] w notatce.
