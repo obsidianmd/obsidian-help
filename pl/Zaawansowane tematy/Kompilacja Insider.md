@@ -1,13 +1,13 @@
-Insider builds are experimental versions of Obsidian that are released to Catalyst license owners, on an opt-in basis.
+Kompilacje Insider to eksperymentalne wersje Obsidiana, które są udostępniane posiadaczom licencji Catalyst, wyrażającym taką chęć.
 
-Please note that insider builds are less stable than public versions, so if you prefer a smoother version, you don't have to enable it.
+Proszę zauważyć, że Kompilacje Insider są mniej stabilne niż wersje publiczne, więc jeśli wolisz bardziej płynną wersję, nie musisz jej włączać.
 
-### How to enable insider build
+### Jak włączyć kompilację insider
 
-If you are a [[Licencja Catalyst|Catalyst supporter]], you have access to Insider Builds before the general public. To access these, go to Settings => Account, and log in with the password you used on the Obsidian site. Then go to Settings => About, and turn on Insider Builds there.
+Jeśli jesteś użytkownikiem [[Licencja Catalyst|licencji Catalyst]], masz dostęp do Kompilacji Insider przed wersją publiczną. Aby uzyskać do niej dostęp, wejdź w Ustawienia => Konto i zaloguj się hasłem, którego użyłeś na stronie Obsidiana. Następnie przejdź do Ustawienia => O programie i tam włącz Kompilacje Insider.
 
 ![[Insider.png]]
 
-### Report issues
+### Zgłaszanie problemów
 
-If you're on our Discord server, you can go to the #insider-build channel to report issues. If you're filing a bug report on the forum, be sure to note the version you're using, so that we can improve it before rolling it out to everyone.
+Jeśli jesteś na naszym serwerze Discord, możesz wejść na kanał #insider-build, aby zgłaszać problemy. Jeśli zgłaszasz błąd na forum, pamiętaj, aby podać wersję, której używasz, abyśmy mogli ją poprawić przed udostępnieniem jej wszystkim.
