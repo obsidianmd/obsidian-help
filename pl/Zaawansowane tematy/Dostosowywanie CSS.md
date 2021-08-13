@@ -1,13 +1,13 @@
-If you are building or modifying your own css, you can open the developer tools by using `Ctrl+Shift+I` on Windows/Linux or `Cmd+Opt+I` on macOS to get information on the elements you want to customize. 
+Jeśli budujesz lub modyfikujesz swoje własne css, możesz otworzyć narzędzia deweloperskie używając `Ctrl+Shift+I` w Windowsie/Linuxie lub `Cmd+Opt+I` w macOS, aby uzyskać informacje o elementach, które chcesz dostosować. 
 
-Changes to themes and snippets will be detected automatically and reapplied. You do not need to restart the app.
+Zmiany w motywach i snippetach zostaną wykryte automatycznie i zastosowane ponownie. Nie ma potrzeby ponownego uruchamiania aplikacji.
 
-### New to CSS
+### Nowość w CSS
 
-If you're new to CSS, our community has put together a quick guide to get comfortable with CSS:
+Jeśli jesteś początkującym użytkownikiem CSS, nasza społeczność przygotowała szybki przewodnik, który pomoże Ci się z nim zapoznać:
 
 > [Getting Comfortable with CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
 
-Klaas also put together a helpful index of common CSS snippets that you can feel free to mix and match:
+Klaas stworzył także pomocny indeks popularnych snippetów CSS, które możesz dowolnie mieszać i dopasowywać:
 
 > [Obsidian CSS Snippets (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)
