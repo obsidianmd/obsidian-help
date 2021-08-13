@@ -1,126 +1,126 @@
-Obsidian supports a custom URI protocol `obsidian://` which can be used to trigger various actions within the app. This is commonly used on MacOS and mobile apps for automation and cross-app workflows.
+Obsidian obsługuje niestandardowy protokół URI `obsidian://`, który może być używany do wyzwalania różnych akcji w aplikacji. Jest to powszechnie stosowane w systemie MacOS i aplikacjach mobilnych do automatyzacji i przepływu pracy między aplikacjami.
 
-If you have Obsidian installed, this link will open the app on your device: [Click here](obsidian://open)
+Jeśli masz zainstalowanego Obsidiana, ten link otworzy aplikację na Twoim urządzeniu: [Kliknij tutaj](obsidian://open)
 
-## Installing Obsidian URI
+## Instalowanie Obsidian URI
 
-To make sure your operating system redirect `obsidian://` URIs to the Obsidian app, there may be additional steps you need to perform.
+Aby upewnić się, że twój system operacyjny przekierowuje `obsidian://` URI do aplikacji Obsidian, mogą być dodatkowe kroki, które musisz wykonać.
 
-- On Windows, running the app once should be sufficient. This will register for the `obsidian://` custom protocol handler in the Windows registry.
-- On MacOS, running the app once should be sufficient, however, your app **must** be installer version 0.8.12 or later.
-- On Linux, there's a much more involved process:
-	- First, ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
-	- Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-	- If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
+- W systemie Windows, jednokrotne uruchomienie aplikacji powinno wystarczyć. Spowoduje to zarejestrowanie w rejestrze Windows niestandardowego handlera protokołu `obsidian://`.
+- Na MacOS, jednokrotne uruchomienie aplikacji powinno być wystarczające, jednak Twoja aplikacja **musi** posiadać instalator w wersji 0.8.12 lub nowszej.
+- Na Linuksie proces jest znacznie bardziej skomplikowany:
+	- Po pierwsze, upewnij się, że utworzyłeś plik `obsidian.desktop`. [Spójrz tutaj po szczegóły](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
+	- Upewnij się, że twój plik pulpitu określa pole `Exec` jako `Exec=executable %u`. The `%u` jest używane do przekazywania `obsidian://` URIs do aplikacji.
+	- Jeśli używasz instalatora AppImage, być może będziesz musiał rozpakować go używając `Obsidian-x.y.z.AppImage --appimage-extract`. Następnie upewnij się, że dyrektywa `Exec` wskazuje na rozpakowany plik wykonywalny.
 
-## Using Obsidian URIs
+## Używanie URI Obsidiana
 
-Obsidian URIs are typically in this format:
+URI Obsidiana są zazwyczaj w tym formacie:
 
 ```
 obsidian://action?param1=value&param2=value
 ```
 
-- The `action` is usually the action that you would like to perform.
+- Parametr `action` jest zazwyczaj akcją, którą chciałbyś wykonać.
 
-### Encoding
+### Kodowanie
 
-==Important==
+==Ważne==
 
-Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+Upewnij się, że twoje wartości są poprawnie zakodowane URI. Na przykład, znaki ukośnika `/` muszą być zakodowane jako `%2F`, a znaki spacji muszą być zakodowane jako `%20`.
 
-This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding)
+Jest to szczególnie ważne, ponieważ nieprawidłowo zakodowany "zarezerwowany" znak może złamać interpretację URI. [Zobacz tutaj po szczegóły](https://en.wikipedia.org/wiki/Percent-encoding)
 
-### Available actions
+### Dostępne akcje
 
-#### Action `open`
+#### Akcja `open`
 
-Description: Opens an Obsidian vault, and possibly open a file within that vault.
+Opis: Otwiera sejf Obsidiana, i ewentualnie plik w tym sejfie.
 
-Possible parameters:
+Możliwe parametry:
 
-- `vault` can be either the vault name, or the vault ID.
-	- The vault name is simply the name of the vault folder.
-	- The vault ID is the random 16-character code assigned to the vault. This ID is unique per folder on your computer. Example: `ef6ca3e3b524d22f`. There isn't an easy way to find this ID yet, one will be offered at a later date in the vault switcher. Currently it can be found in `%appdata%/obsidian/obsidian.json` for Windows. For MacOS, replace `%appdata%` with `~/Library/Application Support/`. For Linux, replace `%appdata%` with `~/.config/`.
-- `file` can be either a file name, or a path from the vault root to the specified file.
-	- To resolve the target file, Obsidian uses the same link resolution system as a regular `[[wikilink]]` within the vault.
-	- If the file extension is `md`, the extension can be omitted.
-- `path` an absolute file system path to a file.
-	- Using this parameter will override both `vault` and `file`.
-	- This will cause the app to search for the most specific vault which contains the specified file path.
-	- Then the rest of the path replaces the `file` parameter.
+- `vault` może być albo nazwą sejfu, albo identyfikatorem sejfu.
+	- Nazwa sejfu to po prostu nazwa folderu sejfu.
+	- ID sejfu to losowy 16-znakowy kod przypisany do sejfu. To ID jest unikalne dla każdego folderu na Twoim komputerze. Przykład: `ef6ca3e3b524d22f`. Nie ma jeszcze łatwego sposobu na znalezienie tego ID, będzie on oferowany w przyszłości w oknie zmiany sejfów. Obecnie można go znaleźć w `%appdata%/obsidian/obsidian.json` w Windowsie. Dla MacOS, zamień `%appdata%` na `~/Library/Application Support/`. Dla Linuksa, zastąp `%appdata%` przez `~/.config/`.
+- `file` może być albo nazwą pliku, albo ścieżką od katalogu głównego sejfu do określonego pliku.
+	- Aby rozwiązać problem z plikiem docelowym, Obsidian używa tego samego systemu rozwiązywania linków, co zwykły `[[wikilink]]` wewnątrz sejfu.
+	- Jeśli rozszerzenie pliku to `md`, rozszerzenie może zostać pominięte.
+- `path` bezwzględna ścieżka do pliku w systemie plików.
+	- Użycie tego parametru nadpisze zarówno `vault` jak i `file`.
+	- Spowoduje to, że aplikacja będzie szukała najbardziej specyficznego sejfu, który zawiera podaną ścieżkę do pliku.
+	- Następnie pozostała część ścieżki zastąpi parametr `file`.
 
-Examples:
+Przykłady:
 
-- `obsidian://open?vault=my%20vault`
-	This opens the vault `my vault`. If the vault is already open, focus on the window.
+- `obsidian://open?vault=my%20vault`.
+	To otwiera sejf `my vault`. Jeśli sejf jest już otwarty, zmienia skupienie na okno.
 
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-	This opens the vault identified by the ID `ef6ca3e3b524d22f`.
+	To otwiera sejf identyfikowany przez ID `ef6ca3e3b524d22f`.
 
-- `obsidian://open?vault=my%20vault&file=my%20note`
-	This opens the note `my note` in the vault `my vault`, assuming `my note` exists and the file is `my note.md`.
+- `obsidian://open?vault=my%20vault&file=my%20note`.
+	To otwiera notatkę `my note` w sejfie `my vault`, zakładając, że `my note` istnieje, a plik to `my note.md`.
 
 - `obsidian://open?vault=my%20vault&file=my%20note.md`
-	This also opens the note `my note` in the vault `my vault`.
+	To również otwiera notatkę `my note` w sejfie `my vault`.
 
-- `obsidian://open?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-	This opens the note located at `path/to/my note` in the vault `my vault`.
+- `obsidian://open?vault=my%20vault&file=path%2Fto%2Fmy%20note`.
+	To otwiera notatkę znajdującą się pod adresem `path/to/my note` w sejfie `my vault`.
 
-- `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-	This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
+- `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`.
+	Spowoduje to wyszukanie każdego sejfu, który zawiera ścieżkę `/home/user/my vault/path/to/my note`. Następnie pozostała część ścieżki jest przekazywana do parametru `file`. Na przykład, jeśli sejf istnieje pod adresem `/home/user/my vault`, to byłoby to równoważne parametrowi `file` ustawionemu na `path/to/my note`.
 
-- `obsidian://open?path=D%3A%5CDocuments%5CMy%20vault%5CMy%20note`
-	This will look for any vault that contains the path `D:\Documents\My vault\My note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `D:\Documents\My vault`, then this would be equivalent to `file` parameter set to `My note`.
+- `obsidian://open?path=D%3A%5CDocuments%5CMy%20vault%5CMy%20note`.
+	Spowoduje to wyszukanie każdego sejfu, który zawiera ścieżkę `D:\Documents\My vault\My note`. Następnie, reszta ścieżki jest przekazywana do parametru `file`. Na przykład, jeśli sejf istnieje pod adresem `D:\Documents\My vault`, to będzie to równoważne parametrowi `file` ustawionemu na `My note`.
 	
-#### Action `search`
+#### Akcja `search`
 
-Description: Opens the search pane for a vault, and optionally perform a search query.
+Opis: Otwiera okno wyszukiwania dla sejfu i opcjonalnie wykonuje zapytanie.
 
-Possible parameters:
+Możliwe parametry:
 
-- `vault` can be either the vault name, or the vault ID. Same as action `open`.
-- `query` (optional) The search query to perform.
+- `vault` może być albo nazwą albo identyfikatorem sejfu. To samo, co akcja `open`.
+- `query` (opcjonalne) Zapytanie do wykonania.
 
-Examples:
+Przykłady:
 
-- `obsidian://search?vault=my%20vault`
-	This opens the vault `my vault`, and opens the search pane.
+- `obsidian://search?vault=my%20vault`.
+	To otwiera sejf `my vault`, i otwiera okno wyszukiwania.
 
-- `obsidian://search?vault=my%20vault&query=MOC`
-	This opens the vault `my vault`, opens the search pane, and performs a search for `MOC`.
+- `obsidian://search?vault=my%20vault&query=MOC`.
+	Otwiera to sejf `my vault`, otwiera okienko wyszukiwania i wykonuje wyszukiwanie dla `MOC`.
 	
-#### Action `new`
+#### Akcja `new`
 
-Description: Creates a new note in the vault, optionally with some content.
+Opis: Tworzy nową notatkę w sejfie, opcjonalnie z jakąś zawartością.
 
-Possible parameters:
+Możliwe parametry:
 
-- `vault` can be either the vault name, or the vault ID. Same as action `open`.
-- `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
-- `file` a vault absolute path, including the name. Will override `name` if specified.
-- `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
-- `content` (optional) the contents of the note.
-- `silent` (optional) set this if you don't want to open the new note.
+- `vault` może być albo nazwą sejfu, albo identyfikatorem sejfu. To samo co akcja `open`.
+- Nazwa` nazwa pliku, który ma być utworzony. Jeśli to jest określone, lokalizacja pliku zostanie wybrana na podstawie twoich preferencji "Domyślna lokalizacja dla nowych notatek".
+- `file` ścieżka bezwzględna do sejfu, zawierająca nazwę. Zastąpi `name` jeśli jest określone.
+- `path` globalnie bezwzględna ścieżka. Działa podobnie do opcji `path` w akcji `open`, która nadpisuje zarówno `vault` jak i `file`.
+- `content` (opcjonalne) zawartość notatki.
+- `silent` (opcjonalne) ustaw to, jeśli nie chcesz otwierać nowej notatki.
 
-Examples:
+Przykłady:
 
-- `obsidian://new?vault=my%20vault&name=my%20note`
-	This opens the vault `my vault`, and creates a new note called `my note`.
-- `obsidian://new?vault=my%20vault&path=path%2Fto%2Fmy%20note`
-	This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+- `obsidian://new?vault=my%20vault&name=my%20note`.
+	To otwiera sejf `my vault`, i tworzy nową notatkę o nazwie `my note`.
+- `obsidian://new?vault=my%20vault&path=path%2Fto%2Fmy%20note`.
+	To otwiera sejf `my vault`, i tworzy nową notatkę na `path/to/my note`.
 	
-#### Action `hook-get-address`
+#### Akcja `hook-get-address`
 
-Description: Endpoint for use with [Hook](https://hookproductivity.com/). Copies a markdown link of the current focused note to the clipboard, as an `obsidian://open` URL. Use: `obsidian://hook-get-address`
+Opis: Punkt końcowy do użycia z [Hook](https://hookproductivity.com/). Kopiuje do schowka link markdown do aktualnie używanej notatki, jako URL `obsidian://open`. Użycie: `obsidian://hook-get-address`.
 
-Possible parameters:
+Możliwe parametry:
 
-- `vault` (optional) can be either the vault name, or the vault ID. If not provided, the current or last focused vault will be used.
+- `vault` (opcjonalny) może być albo nazwą sejfu, albo identyfikatorem sejfu. Jeśli nie zostanie podany, użyty zostanie bieżący lub ostatnio użyty sejf.
 
-## Shorthand formats
+## Formaty skrócone
 
-In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+Oprócz powyższych formatów, istnieją jeszcze dwa skrócone formaty otwierania sejfów i plików:
 
-- `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`
-- `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`
+- `obsidian://vault/my vault/my note` jest odpowiednikiem `obsidian://open?vault=my%20vault&file=my%20note`.
+- `obsidian:///absolute/path/to/my note` jest równoważne z `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
