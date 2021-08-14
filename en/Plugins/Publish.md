@@ -28,7 +28,7 @@ As of 0.12.12, you can use YAML to flag notes to be published. (You can read mor
 
 If you set `publish: true`, then new files will be automatically selected the next time you publish changes.
 
-If you set `publish: false`, then the file will not be visble when publishing changes, and will not show up in new/changed files. If this file had been previously published, you will see an option to delete it isntead.
+If you set `publish: false`, then the file will not be visble when publishing changes, and will not show up in new/changed files. If this file had been previously published, you will see an option to delete it instead.
 
 If you do not use YAML to flag publish files, the default behaviour is to automatically select changed files, but not new files.
 
