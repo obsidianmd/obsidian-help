@@ -1,27 +1,26 @@
-Adds a panel on the right that displays all the tags you have, along with their tag count.
+Dodaje panel po prawej stronie, który wyświetla wszystkie posiadane tagi wraz z ich liczbą.
 
-When clicking on a tag, a search for the tag is activated. To ==toggle a tag== in search, Ctrl-click it instead.
+Po kliknięciu na tag, zostanie uruchomione wyszukiwanie dla tego tagu. Aby ==wyłączyć tag== w wyszukiwaniu, kliknij na niego z wciśniętym klawiszem Ctrl.
 
-### Sorting
+### Sortowanie
 
-The tags are sorted from most frequently used to least frequently used. You can change the sort order to alphabetical or reverse it.
+Tagi są posortowane od najczęściej do najrzadziej używanych. Można zmienić kolejność sortowania na alfabetyczną lub odwrócić ją.
 
-### Nested tags
+### Tagi zagnieżdżone
 
-If you write your tags like `#inbox/to-read` and `#inbox/processing`, you can enable "show nested tags" to view them as a tree instead of a flat list.
+W wypadku gdy piszesz tagi w taki sposób: `#inbox/to-read` i `#inbox/processing`, możesz włączyć opcję "pokaż zagnieżdżone tagi", aby wyświetlić je jako drzewo zamiast płaskiej listy.
 
-Under the default flat view, the tag pane will look like:
+W domyślnym widoku płaskim, panel tagów będzie wyglądał tak:
 
 ```
 - inbox/to-read
 - inbox/processing
 ```
 
-Under the nested tag view, the tag pane will look like:
+W zagnieżdżonym widoku tagów, panel tagów będzie wyglądał tak:
 
 ```
-- inbox
+- skrzynka odbiorcza
 	- to-read
-	- processing
+	- przetwarzanie
 ```
-
