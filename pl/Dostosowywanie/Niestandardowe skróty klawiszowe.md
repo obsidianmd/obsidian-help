@@ -1,13 +1,13 @@
-Most hotkeys are customizable in Obsidian.
+Większość skrótów klawiszowych w Obsidianie można dostosować do własnych potrzeb.
 
-We only defined default hotkeys for the most commonly used commands, but if you frequently use a command, it would save you lots of time if you add a hotkey for it.
+Zdefiniowaliśmy tylko domyślne skróty klawiszowe dla najczęściej używanych poleceń, ale jeśli często używasz jakiegoś polecenia zaoszczędzisz mnóstwo czasu, jeśli dodasz dla niej skrót klawiszowy.
 
-For a list of default hotkeys, [[Skróty klawiszowe|see here]].
+Listę domyślnych skrótów klawiszowych znajdziesz [[Skróty klawiszowe|tutaj]].
 
-### Viewing hotkeys
+### Przeglądanie skrótów klawiszowych
 
-The fastest way to see the hotkey set for a command is to find the command in [[Paleta poleceń]]. If there's a hotkey listed for that command, it's set.
+Najszybszym sposobem na zobaczenie ustawionego skróta klawiszowego dla danej komendy jest znalezienie jej w [[Paleta poleceń|palecie poleceń]]. Jeśli jest tam wymieniony skrót klawiszowy dla tej komendy, to znaczy, że jest on ustawiony.
 
-### Setting hotkeys
+### Ustawianie skrótów klawiszowych
 
-To add a hotkey, remove a hotkey, or restore hotkeys to default, go to Settings - Hotkeys. Note that you can also filter the list, as the list of commands is quite long.
+Aby dodać, usunąc lub przywrócić domyślne ustawienia skróta klawiszowego, przejdź do Ustawień - Skróty klawiszowe. Zauważ, że możesz również filtrować listę, ponieważ lista komend jest dość długa.
