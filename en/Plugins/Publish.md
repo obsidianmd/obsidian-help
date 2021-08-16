@@ -22,6 +22,16 @@ With a fresh, empty site, all your notes will appear under the "New" section, me
 
 ==Privacy note: Obsidian Publish has no awareness (nor retention) of any notes you choose not to publish (nor any notes you subsequently remove from your published site).==
 
+#### YAML support for Publish
+
+As of 0.12.12, you can use YAML to flag notes to be published. (You can read more about YAML in Obsidian [[YAML front matter|here]].)
+
+If you set `publish: true`, then new files will be automatically selected the next time you publish changes.
+
+If you set `publish: false`, then the file will not be visble when publishing changes, and will not show up in new/changed files. If this file had been previously published, you will see an option to delete it instead.
+
+If you do not use YAML to flag publish files, the default behaviour is to automatically select changed files, but not new files.
+
 ### Make changes
 
 As you make changes to notes that have already been published, those changes will be automatically selected when you open the Publish plugin dialog. You may uncheck any files you wish not to publish to your site.
