@@ -1,15 +1,15 @@
-### Base theme
+### Motyw podstawowy
 
-Obsidian comes with two base themes, light and dark. This option sets the default color scheme your theme will use to either display its light or dark mode version.
+Obsidian posiada dwa podstawowe motywy, jasny i ciemny. Ta opcja ustawia domyślny schemat kolorów, którego motyw będzie używał do wyświetlania swojej jasnej lub ciemnej wersji.
 
-### Custom theme
+### Własny motyw
 
-There are lots of community themes contributed by our amazing community that you can easily choose from.
+Istnieje wiele motywów społecznościowych stworzonych przez naszą niesamowitą społeczność, z których możesz łatwo wybrać.
 
-You can easily tweak it by adding [[Dodawanie stylów niestandardowych#Use Themes and or CSS snippets|CSS snippets]].
+Możesz go łatwo dostosować poprzez dodanie [[Dodawanie stylów niestandardowych#Użyj motywów i/lub arkuszy CSS|Snippetów CSS]].
 
-### Translucency
+### Półprzezroczystość
 
-You can make the window translucent by enabling this option in the settings appearance tab. Currently this option is only available for Windows and macOS.
+Możesz sprawić, że okno będzie półprzezroczyste włączając tę opcję w zakładce wygląd w ustawieniach. Obecnie ta opcja jest dostępna tylko dla Windows i macOS.
 
-There is a known issue under Windows where dragging the window is extremely slow when translucency is enabled. This is due to a Windows bug. A Github issue tracking the status of a fix can be found here: https://github.com/riverar/sample-win32-acrylicblur/issues/2
+Znany jest problem pod Windows, gdzie przeciąganie okna jest bardzo powolne, gdy półprzezroczystość jest włączona. Wynika to z błędu systemu Windows. Problem na GitHubie śledzący status poprawki można znaleźć tutaj: https://github.com/riverar/sample-win32-acrylicblur/issues/2
