@@ -1,39 +1,39 @@
-When you want to add custom styles to your vault, there are two main ways to do this:
+Jeśli chcesz dodać własne style do swojego sejfu, możesz to zrobić na dwa sposoby:
 
-## Vault styles
+## Style sejfu
 
-### Themes
+### Motywy
 
-Themes allow you to toggle the appearance of your vault with a dropdown menu once they have been added to your vault's theme directory.
+Motywy pozwalają Ci przełączać wygląd Twojego sejfu za pomocą rozwijanego menu, gdy tylko zostaną dodane do katalogu motywów sejfu.
 
-This configuration can be found in `Settings` > `Appearance` > `Themes` section of your vault settings.
+Ta konfiguracja może być znaleziona w sekcji `Ustawienia` > `Wygląd` > `Motywy` w ustawieniach sejfu.
 
-### Create a custom theme
+### Tworzenie własnego motywu
 
-If you are creating your own theme, you can do this by:
+Jeśli tworzysz swój własny motyw, możesz to zrobić przez:
 
-1. Creating your custom theme CSS file in the themes directory `YOUR_VAULT/.obsidian/themes/YOUR_CUSTOM_THEME.css`
-2. Enabling it in the theme dropdown under `Settings` > `Appearance` > `Themes`
+1. Tworząc plik CSS własnego motywu w katalogu themes `TWÓJ_SEJF/.obsidian/themes/TWOJ_STYL_NIESTANDARDOWY.css`.
+2. Włączenie go w menu rozwijanym motywu w zakładce `Ustawienia` > `Wygląd` > `Motywy`.
 
-For more information on how to customize styles of the graph, you can find more information in [[Widok grafu]].
+Więcej informacji o tym, jak dostosować style widoku grafu, można znaleźć w [[Widok grafu]].
 
-### Use Themes and/or CSS snippets
+### Użyj motywów i/lub arkuszy CSS
 
-You can find this configuration under Appearance in the settings. You can choose a community theme or set the theme you developed yourself. If you set a community theme, it will be automatically placed in the correct folder. If you develop your own theme, you have to put it in the shown folder location yourself.
+Możesz znaleźć tą konfigurację w zakładce `Wygląd` w ustawieniach. Możesz wybrać motyw społeczności lub ustawić motyw, który sam stworzyłeś. Jeśli ustawisz motyw społeczności, zostanie on automatycznie umieszczony w odpowiednim folderze. Jeśli stworzysz własny motyw, musisz sam umieścić go we wskazanej lokalizacji folderu.
 
-CSS snippets are supposed to be small pieces of CSS for small changes you want to make/things you want to add. These snippets have to be placed in the shown directory.
+Snippety CSS powinny być małymi fragmentami CSS dla małych zmian, które chcesz wprowadzić/rzeczy, które chcesz dodać. Te snippety muszą być umieszczone w pokazanym katalogu.
 
-You can go to the respective directories by clicking on the folder buttons. If the folder isn't created yet, it will be. In case your snippets or theme don't show up after you've put them there, you can click the button next to the folder icon to refresh the list.
+Możesz przejść do odpowiednich katalogów klikając na przyciski folderów. Jeśli folder nie jest jeszcze utworzony, zostanie utworzony. W przypadku, gdy po umieszczeniu snippetów lub motywu nie pojawią się one na liście, możesz kliknąć przycisk obok ikony folderu, aby odświeżyć listę.
 
-## Obsidian Publish styles
+## Style Obsidian Publish
 
-At this time, [[Obsidian Publish]] is unable to automatically detect the vault's configured [[Dodawanie stylów niestandardowych#Themes|theme]] and publish the respective styles. 
+W tym momencie [[Obsidian Publish]] nie jest w stanie automatycznie wykryć skonfigurowanych [[Dodawanie stylów niestandardowych#Motywy|Motywów]] i opublikować odpowiednich stylów. 
 
-A workaround for this limitation is to:
+Obejściem dla tego ograniczenia jest:
 
-1. Go into `YOUR_VAULT/.obsidian/themes/CURRENT_THEME_FOLDER`;
-2. Copy the primary CSS file `CURRENT_THEME.css` in the folder;
-3. Paste it in the root directory of your vault (`YOUR_VAULT`);
-4. Rename the CSS file as `publish.css`;
-5. In the publish plugin, upload the `publish.css` file;
-6. If your CSS doesn't take effect in a few minutes, try refreshing the browser cache as the stale CSS might have been cached.
+1. Wejdź do `TWÓJ_SEJF/.obsidian/themes/AKTUALNY_FOLDER_MOTYWU`;
+2. Skopiuj główny plik CSS `AKTUALNY_MOTYW.css` znajdujący się w tym folderze;
+3. Wklej go do głównego katalogu swojego sejfu (`TWÓJ_SEJF`);
+4. Zmień nazwę pliku CSS na `publish.css`;
+5. W pluginie publish, załaduj plik `publish.css`;
+6. Jeśli twój CSS nie zacznie działać w ciągu kilku minut, spróbuj odświeżyć pamięć podręczną przeglądarki, ponieważ stara wersja arkusza CSS mogła zostać zbuforowana.
