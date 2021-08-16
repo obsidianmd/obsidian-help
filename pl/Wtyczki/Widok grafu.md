@@ -1,25 +1,25 @@
-Shows a graph representation of the [[Link wewnętrzny|internal links]] between your notes.
+Pokazuje graficzną reprezentację [[Link wewnętrzny|połączenia wewnętrzne]] pomiędzy Twoimi notatkami.
 
-Notes with more notes referencing it appear as bigger nodes on the graph.
+Notatki z większą ilością odnośników do nich pojawiają się jako większe wierzchołki na wykresie.
 
-![[Pasted image 10.png]]
+![[Wklejony obrazek 10.png]]
 
-### Visualization tips
+### Wskazówki dotyczące wizualizacji
 
-- You can hover each node to highlight its connections, fading everything else.
-- You can drag nodes around to rearrange the graph. This may be helpful if some nodes are overlaying others.
+- Możesz najechać kursorem na każdy wierzchołek, aby podświetlić jego połączenia, a wszystkie inne wierzchołki wygasić.
+- Możesz przeciągać wierzchołki, aby zmienić układ wykresu. Może to być pomocne, jeśli niektóre wierzchołki nakładają się na inne.
 
-### Navigation tips
+### Wskazówki dotyczące nawigacji
 
-- To zoom, you can use mouse wheel scroll, as well as the `+` and `-` keys.
-- To pan around, drag the background or use the keyboard arrow keys.
-- Hold `Shift` while navigating with the keyboard to speed things up.
+- Do powiększania można użyć kółka myszy, a także klawiszy `+` i `-`.
+- Aby przesuwać wokół, przeciągnij tło lub użyj klawiszy strzałek na klawiaturze.
+- Przytrzymaj `Shift` podczas nawigacji za pomocą klawiatury, aby przyspieszyć działanie.
 
-### Custom CSS
+### Własny CSS
 
-Since the graph is rendered using `<canvas>` and WebGL, [[Dostosowywanie CSS|CSS]] is unable to affect things like nodes and links. To customize graph view, we have provided a way to convert CSS colors into WebGL commands.
+Ponieważ wykres jest renderowany przy użyciu `<canvas>` i WebGL, [[Dostosowywanie CSS|CSS]] nie jest w stanie wpłynąć na takie rzeczy jak wierzchołki i linki. Aby dostosować widok wykresu, udostępniliśmy sposób na konwersję kolorów CSS na komendy WebGL.
 
-#### The following CSS classes are supported:
+#### Obsługiwane są następujące klasy CSS:
 
 ```
 .graph-view.color-fill
@@ -34,25 +34,25 @@ Since the graph is rendered using `<canvas>` and WebGL, [[Dostosowywanie CSS|CSS
 .graph-view.color-fill-unresolved
 ```
 
-\* theme-dependent means you may have to add `.theme-dark` or `.theme-light` to style it for different themes. See [[#Custom CSS#Defaults]] for explanation.
+\* theme-dependent (ang. zależny od motywu) oznacza, że musisz dodać `.theme-dark` lub `.theme-light` jeśli chcesz ostylować go do różnych wariantów. Zobacz [[#Własny CSS#Domyślne]] aby uzyskać wyjaśnienie.
 
-#### The following CSS rules are supported:
+#### Obsługiwane są następujące reguły CSS:
 
 ```css
  .graph-view.color-class {
-	/* Supports all CSS color directives, like #HEX, rgb and rgba */
+	/* Obsługuje wszystkie dyrektywy kolorów CSS, takie jak #HEX, rgb i rgba */
 	color:   #FFF;
 	color:   #FFFFFF;
 	color:   rgb(0, 0, 0);
 	color:   rgba(0, 0, 0, 1);
-	/* Opacity (similar to rgba) will make the color transparent */
+	/* Krycie (podobne do rgba) sprawi, że kolor będzie przezroczysty */
 	opacity: 0.5;
 }
 ```
 
-#### Defaults:
+#### Domyślne
 
-These CSS rules are the ones Obsidian use by default. You may override any of them using an identical or [more specific](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) CSS rule. This applies especially to `.color-fill-tag` and `.color-fill-attachment` As a last resort, add `!important` to the end of your rule.
+Te reguły CSS są tymi, których Obsidian używa domyślnie. Możesz zastąpić każdą z nich używając identycznej lub [bardziej szczegółowej](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) reguły CSS. Dotyczy to zwłaszcza `.color-fill-tag` i `.color-fill-attachment` W ostateczności, dodaj `!important` na końcu swojej reguły.
 
 ```css
 .graph-view.color-fill,
