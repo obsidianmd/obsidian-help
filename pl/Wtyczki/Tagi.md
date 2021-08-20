@@ -20,7 +20,7 @@ W domyślnym widoku płaskim, panel tagów będzie wyglądał tak:
 W zagnieżdżonym widoku tagów, panel tagów będzie wyglądał tak:
 
 ```
-- skrzynka odbiorcza
+- inbox
 	- to-read
-	- przetwarzanie
+	- processing
 ```
