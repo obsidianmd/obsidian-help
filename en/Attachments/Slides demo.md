@@ -1,7 +1,7 @@
 ## Obsidian slides demo
 
 To view slides, you'll need to enable the "Slides" plugin.
-This can be done through the "Settings" button on the bottom left.
+This can be done through the Settings => Core plugins.
 
 ---
 
