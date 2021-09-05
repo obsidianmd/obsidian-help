@@ -1,4 +1,4 @@
-iOS版アプリは現在一般に公開されており、 https://obsidian.md/mobile からAppストアのリンクにアクセスできます。
+iOS版アプリが公開されました。 https://obsidian.md/mobile からAppストアのリンクにアクセスできます。
 
 ## 保管庫はどこに保存されますか？
 
