@@ -2,7 +2,7 @@
 
 [[Catalyst license]] purchases and Obsidian Unlimited donations are to support Obsidian's development. ==They are not refundable.==
 
-Although they might give you exclusive early access to insider builds or feature betas (such as mobile app or other major features), we do not sell them as a product.
+Although they might give you exclusive early access to insider builds or feature betas, we do not sell them as a product.
 
 We cannot provide refunds for Catalyst purchases. Thanks for your understanding!
 

@@ -32,7 +32,7 @@ If you'd like to add your theme to the community theme list, let us know! (Or we
 
 #### Plugins
 
-If you're a JavaScript/TypeScript programmer, you can write [[Third-party plugins]] for Obsidian, now that our plugin API is in alpha.
+If you're a JavaScript/TypeScript programmer, you can write [[Community plugins]] for Obsidian, now that our plugin API is in alpha.
 
 ### 3. Translation and proofreading
 
