@@ -87,7 +87,7 @@ In addition to your notes and attachments, Obsidian Sync offers individual toggl
 - Appearance settings, including dark mode, selected theme, and enabled snippets.
 - Themes and snippets that has been downloaded.
 - Hotkeys.
-- Which core plugins are enabled.
+- Which [[Core plugins]] are enabled.
 - Core plugin settings.
 - Which community plugins are enabled.
 - Downloaded/installed community plugins, and their settings.

@@ -10,7 +10,7 @@ Once enabled, you can also set a hotkey for this option, or use the command pale
 
 ### Set up and Configure your site
 
-Within the Publish plugin, you'll see an option to create a site by entering a unique site ID. Once published, your site will be available at `https://publish.obisidian.md/{site-id}`.
+Within the Publish plugin, you'll see an option to create a site by entering a unique site ID. Once published, your site will be available at `https://publish.obsidian.md/{site-id}`.
 
 After creating a unique site ID, you'll have the option to give your site a name, select a home page, set a theme, and toggle various components such as graph view, table of contents, etc. You can toggle these options by clicking on the gear icon near your site name at the top of the Publish plugin.
 
@@ -28,9 +28,9 @@ As of 0.12.12, you can use YAML to flag notes to be published. (You can read mor
 
 If you set `publish: true`, then new files will be automatically selected the next time you publish changes.
 
-If you set `publish: false`, then the file will not be visble when publishing changes, and will not show up in new/changed files. If this file had been previously published, you will see an option to delete it instead.
+If you set `publish: false`, then the file will not be visible when publishing changes, and will not show up in new/changed files. If this file had been previously published, you will see an option to delete it instead.
 
-If you do not use YAML to flag publish files, the default behaviour is to automatically select changed files, but not new files.
+If you do not use YAML to flag publish files, the default behavior is to automatically select changed files, but not new files.
 
 ### Make changes
 
