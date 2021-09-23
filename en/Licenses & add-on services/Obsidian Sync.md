@@ -87,7 +87,7 @@ In addition to your notes and attachments, Obsidian Sync offers individual toggl
 - Appearance settings, including dark mode, selected theme, and enabled snippets.
 - Themes and snippets that has been downloaded.
 - Hotkeys.
-- Which core plugins are enabled.
+- Which [[Core plugins]] are enabled.
 - Core plugin settings.
 - Which community plugins are enabled.
 - Downloaded/installed community plugins, and their settings.
@@ -132,7 +132,7 @@ Version histories are kept for up to one year before we clean it up.
 
 ##### How large can each remote vault be?
 
-At the moment, each remote vault can have up to 4 GB of data, including version history.
+At the moment, each remote vault can have up to 10 GB of data, including version history.
 
 ##### Is my data encrypted on my hard disk?
 
@@ -171,6 +171,6 @@ Here are the technical details for those interested:
 
 ##### What does the `vault limit exceeded` error mean?
 
-Each vault using Obsidian Sync has a maximum size of 4gb. This error indicates your vault has exceeded that limit in size. Don't forget: attachments and version history contributes to the maximum, so you may exceed your 4gb limit even if your vault's actual size is less than 4gb. 
+Each vault using Obsidian Sync has a maximum size of 10 GB. This error indicates your vault has exceeded that limit in size. Don't forget: attachments and version history contributes to the maximum, so you may exceed your 10 GB limit even if your vault's actual size is less than 10 GB. 
 
 If you see this error, Obsidian can help you identify and purge large files from the Vault. Go to the Obsidian Sync settings in Preferences => Sync and look for the "Vault size over limit" options. 

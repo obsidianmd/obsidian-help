@@ -289,7 +289,7 @@ First Header | Second Header
 
 First Header | Second Header
 ------------ | ------------
-[[Format your notes\|Formatting]]	|  [[Keyboard shortcuts\|hotkeys]]	
+[[Format your notes\|Formatting]]	|  [[Use hotkeys\|hotkeys]]	
 
 ---
 

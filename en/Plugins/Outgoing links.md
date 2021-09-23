@@ -10,8 +10,12 @@ Each type will have its own icon for you to distinguish them; links to files tha
 
 Underneath the title, you can also see the folder path of each file.
 
+Given the complexity parsing the contents of codeblocks, links in codeblocks will not display in this section.
+
 ### Unlinked mentions
 
 If any text in the current note matches the name or [[Add aliases to note|alias]] of another note in your vault, you can see the context, highlighted match, and a button to Link it under "Unlinked mentions".
 
 When you hover over the button, it will show the full path of the file if it's not in the vault root. If you have multiple files of the same name, this can help you distinguish them.
+
+Possible mentions in codeblocks are displayed under "Unlinked mentions". Clicking them will insert the link syntax as expected, but given the complexity parsing the contexts of codeblocks, they will not appear under "Links".
