@@ -11,9 +11,9 @@ If you're in a hurry, here's some quick places to dive in:
 - How to create [[Internal link|internal links]]
 - How to use Markdown to [[Format your notes]]
 - How to [[embed files]], or embed other notes
-- [[Keyboard shortcuts]]
+- [[Use hotkeys]]
 - How to [[Working with multiple notes|open multiple files side by side]]
-- Obsidian can be extended with [[List of plugins|plugins]]. Several are available by default, and can be enabled or disabled according to your needs.
+- Obsidian can be extended with [[Core plugins|plugins]]. Several are available by default, and can be enabled or disabled according to your needs.
 
 
 If you want a more thorough introduction, including a bit about our philosophy, check out [[Obsidian]].

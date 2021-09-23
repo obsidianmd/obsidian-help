@@ -4,7 +4,7 @@
 2. 在论坛和 Discord 上享受特殊的用户徽章。
 3. 来自开发者的感谢💜！毕竟这将支持 Obsidian 的开发。
 
-Catalyst 个人许可证有三个等级：25美元（insider）、50美元（supporter）以及100美元（VIP）。每个等级都能让你使用[[内部版本]]。
+Catalyst 个人许可证有三个等级：25 美元（insider）、50 美元（supporter）以及 100 美元（VIP）。每个等级都能让你使用[[内部版本]]。
 
 需要注意的是，Catalyst 个人许可证是可选的，==它不会带来任何额外的软件功能（内部版本后续会公开发布）==。
 
@@ -20,7 +20,7 @@ Catalyst 个人许可证有三个等级：25美元（insider）、50美元（sup
 
 #### Discord 徽章
 
-==要获得 Discord 徽章，请确认你加入了我们的[Discord](https://discord.gg/veuWUTm) 。==
+==要获得 Discord 徽章，请确认你加入了我们的 [Discord](https://discord.gg/veuWUTm) 。==
 
 然后，你只需要在[你的用户页面](https://obsidian.md/account)，点击 “Get Discord badge”（获得 Discord 徽章）即可。随后，系统就会自动为你添加 Discord 徽章。
 
