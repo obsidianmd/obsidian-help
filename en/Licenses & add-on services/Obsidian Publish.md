@@ -70,7 +70,7 @@ This option adds a meta noindex tag to all your pages so search engines like Goo
 
 ##### Google Analytics
 
-If you wish to setup Google Analytics for your site, first make sure your local laws and regulations allows. Then, you just need to put the tracking code, in the form of `UA-XXXXX-Y` into the text box and your site will automatically track page views. Note that Google Analytics is only available to visitors from your custom domain.
+If you wish to setup Google Analytics for your site, first make sure your local laws and regulations allows. Then, you just need to put the tracking code, in the form of `UA-XXXXX-Y` into the text box and your site will automatically track page views. Make sure to create a Universal Analytics (UA) property, not the new Google Analytics 4 property. Note that Google Analytics is only available to visitors from your custom domain.
 
 When testing Google Analytics, please make sure to disable any ad-blocking browser extensions like uBlock Origin which blocks Google Analytics scripts from running.
 
