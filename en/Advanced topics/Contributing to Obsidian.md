@@ -46,4 +46,4 @@ We're in the middle of reorganizing and stabilizing the documentation you're rea
 
 #### Found a typo?
 
-If you found a typo or a grammar mistake in these documentation, feel free to submit a pull request in [our documentation repository](https://github.com/obsidianmd/obsidian-docs).
+If you found a typo or a grammar mistake in the documentation, feel free to submit a pull request in [our documentation repository](https://github.com/obsidianmd/obsidian-docs).
