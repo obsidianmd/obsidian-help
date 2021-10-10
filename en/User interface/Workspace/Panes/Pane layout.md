@@ -1,4 +1,4 @@
-One of the things that makes Obsidian different from other note-taking apps is how easy it is to open multiple files in your preferred configuration.
+One of the things that makes [[Obsidian]] different from other note-taking apps is how easy it is to open multiple files in your preferred configuration.
 
 The window a file gets opened in is what we call a "pane". You can have as many panes as you like.
 
@@ -22,11 +22,11 @@ Some options in the "More options" menu will also open a new pane that's linked 
 
 To move a pane, simply drag the pane icon in the top left corner of the pane. As you drag it around, a visual indicator will appear to show where the pane will be placed. Dropping onto each of the four sides of an existing pane creates a horizontal or vertical split, and dropping in the center swaps positions with the target pane. 
 
-You can also drag panes into the two sidebars. Panes in the sidebar work a bit differently, for more please see the [[Pane layout#Panes in the sidebar]] section below.
+You can also drag panes into the two sidebars. Panes in the sidebar work a bit differently, for more please see the [[#Panes in the sidebar]] section below.
 
 ### Panes in the sidebar
 
-There are some differences with panes that live in the sidebars.
+There are some differences with panes that live in the [[Sidebar|sidebars]].
 
 #### Sidebar panes can share space with tabs
 

@@ -24,7 +24,7 @@ In the future, we'll improve Obsidian Sync with:
 
 ### Enable Obsidian Sync plugin
 
-You can enable Obsidian Sync by enabling the "Sync" plugin under Settings -> Core plugins.
+You can enable Obsidian Sync by enabling the "Sync" plugin under Settings => Core plugins.
 
 ### Setting up remote vaults
 
@@ -32,7 +32,7 @@ Warning: We do not recommend using third party sync services to sync the same va
 
 To start syncing, first you need to create a remote vault that stores your encrypted data.
 
-To do that, go to Setting -> Sync -> Pick remote vault -> Choose -> Create new vault.
+To do that, go to Setting => Sync => Pick remote vault => Choose => Create new vault.
 
 After creating it, you can immediately connect to the vault by clicking on the "Connect" button next to it.
 
@@ -62,7 +62,7 @@ After selecting a version in the left column in the version history screen, you 
 
 ### Deleted files
 
-After you delete a file, you can view it in Setting -> Sync -> Deleted files -> View.
+After you delete a file, you can view it in Setting => Sync => Deleted files => View.
 
 Clicking on a deleted file will open its version history. You can then choose to restore the file back to a previous version.
 
@@ -72,13 +72,13 @@ You can selectively sync files by folder or file type. ==Selective sync only app
 
 ##### Exclude folders
 
-You can uncheck folders in Settings -> Sync -> Excluded folders -> Manage to prevent them from getting synced.
+You can uncheck folders in Settings => Sync => Excluded folders => Manage to prevent them from getting synced.
 
 Excluded folders will be ignored when both uploading and download changes.
 
 #### File types
 
-You can toggle sync for images, audio, video, PDFs, and unsupported files under Settings -> Sync -> Selective sync.
+You can toggle sync for images, audio, video, PDFs, and unsupported files under Settings => Sync => Selective sync.
 
 ### Synchronizing settings
 
@@ -87,7 +87,7 @@ In addition to your notes and attachments, Obsidian Sync offers individual toggl
 - Appearance settings, including dark mode, selected theme, and enabled snippets.
 - Themes and snippets that has been downloaded.
 - Hotkeys.
-- Which core plugins are enabled.
+- Which [[Core plugins]] are enabled.
 - Core plugin settings.
 - Which community plugins are enabled.
 - Downloaded/installed community plugins, and their settings.
@@ -132,7 +132,7 @@ Version histories are kept for up to one year before we clean it up.
 
 ##### How large can each remote vault be?
 
-At the moment, each remote vault can have up to 4 GB of data, including version history.
+At the moment, each remote vault can have up to 10 GB of data, including version history.
 
 ##### Is my data encrypted on my hard disk?
 
@@ -171,6 +171,6 @@ Here are the technical details for those interested:
 
 ##### What does the `vault limit exceeded` error mean?
 
-Each vault using Obsidian Sync has a maximum size of 4gb. This error indicates your vault has exceeded that limit in size. Don't forget: attachments and version history contributes to the maximum, so you may exceed your 4gb limit even if your vault's actual size is less than 4gb. 
+Each vault using Obsidian Sync has a maximum size of 10 GB. This error indicates your vault has exceeded that limit in size. Don't forget: attachments and version history contributes to the maximum, so you may exceed your 10 GB limit even if your vault's actual size is less than 10 GB. 
 
-If you see this error, Obsidian can help you identify and purge large files from the Vault. Go to the Obsidian Sync settings in Preferences → Sync and look for the "Vault size over limit" options. 
+If you see this error, Obsidian can help you identify and purge large files from the Vault. Go to the Obsidian Sync settings in Preferences => Sync and look for the "Vault size over limit" options. 
