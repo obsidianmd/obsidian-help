@@ -23,6 +23,7 @@ Since the graph is rendered using `<canvas>` and WebGL, [[Customizing CSS|CSS]] 
 
 ```
 .graph-view.color-fill
+.graph-view.color-fill-focused (use transparent to disable)
 .graph-view.color-fill-tag (theme-dependent)
 .graph-view.color-fill-attachment (theme-dependent)
 .graph-view.color-arrow
