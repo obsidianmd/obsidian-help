@@ -98,7 +98,7 @@ Typically users will host their Obsidian Publish content on a root domain (e.g. 
 
 Once you are done with configuring CloudFlare, you can head to your site options in Obsidian, and set the URL to your domain or subdomain. This allows our server to associate the domain to your site.
 
-Troubleshooting: If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare to `Flexible` instead of `Full`.
+Troubleshooting: If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare has been set to `Flexible` instead of `Full`.
 
 If you wish to configure both `mysite.com` and `www.mysite.com` to Obsidian Publish, you will need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) as follows:
 - URL match: `www.mysite.com/*`
