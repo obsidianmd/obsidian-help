@@ -70,7 +70,7 @@ This option adds a meta noindex tag to all your pages so search engines like Goo
 
 ##### Google Analytics
 
-If you wish to setup Google Analytics for your site, first make sure your local laws and regulations allows. Then, you just need to put the tracking code, in the form of `UA-XXXXX-Y` into the text box and your site will automatically track page views. Note that Google Analytics is only available to visitors from your custom domain.
+If you wish to setup Google Analytics for your site, first make sure your local laws and regulations allows. Then, you just need to put the tracking code, in the form of `UA-XXXXX-Y` into the text box and your site will automatically track page views. Make sure to create a Universal Analytics (UA) property, not the new Google Analytics 4 property. Note that Google Analytics is only available to visitors from your custom domain.
 
 When testing Google Analytics, please make sure to disable any ad-blocking browser extensions like uBlock Origin which blocks Google Analytics scripts from running.
 
@@ -86,7 +86,11 @@ Continue reading for setup details.
 
 #### CloudFlare setup
 
-The easiest way to setup a custom domain or subdomain is by making an account with [CloudFlare](https://cloudflare.com) and letting CloudFlare manage your domain. This allows you to add SSL to your site for free, as well as ensure your site is fast wherever in the world it's accessed from. Typically users will host their Obsidian Publish content on a root domain (e.g. `mysite.com`) or an immediate subdomain (e.g. `notes.mysite.com`). These instructions work for both cases.
+The easiest way to setup a custom domain or subdomain is by making an account with [CloudFlare](https://cloudflare.com) and letting CloudFlare manage your domain's DNS.
+
+When migrating to CloudFlare, you will automatically keep all your current existing DNS setup, including your subdomains, email service, and hosting services. Using CloudFlare can speed up your websites, as well as add SSL to your sites for free.
+
+Typically users will host their Obsidian Publish content on a root domain (e.g. `mysite.com`) or an immediate subdomain (e.g. `notes.mysite.com`). These instructions work for both cases.
 
 1. Open Cloudflare to the domain you wish to add Publish to (e.g. `mysite.com`, even if you want a subdomain like `notes.mysite.com`).
 2. Go to DNS and click Add Record. Select CNAME, and in 'name' enter the domain or subdomain you wish (e.g. `notes.mysite.com`). In 'target', enter the value `publish-main.obsidian.md`. Do not include your personal sub-URL in this value, as Obsidian Publish handles this from your configuration. 
@@ -94,7 +98,7 @@ The easiest way to setup a custom domain or subdomain is by making an account wi
 
 Once you are done with configuring CloudFlare, you can head to your site options in Obsidian, and set the URL to your domain or subdomain. This allows our server to associate the domain to your site.
 
-Troubleshooting: If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare to `Flexible` instead of `Full`.
+Troubleshooting: If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare has been set to `Flexible` instead of `Full`.
 
 If you wish to configure both `mysite.com` and `www.mysite.com` to Obsidian Publish, you will need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) as follows:
 - URL match: `www.mysite.com/*`

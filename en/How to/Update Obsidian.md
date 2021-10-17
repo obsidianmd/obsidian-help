@@ -8,7 +8,7 @@ You can check your current version, check for updates in Settings => About. You 
 
 If you're looking to update to the latest insider build, please refer to [[Insider builds#How to enable insider build|this guide]] on how to turn it on.
 
-### Current version vs installed version
+### Current version vs installer version
 
 If you look closely in Settings => About, you can find your current version and your installer version.
 
