@@ -21,3 +21,14 @@ The only symbols allowed are:
 2. `/` (forward slash) for [[Tag pane#Nested tags|nested tags]].
 
 Numbers are allowed in the tag, ==as long as the tag is not purely numeric==. For example, #1984 isn't a valid tag, but #y1984 is a valid one.
+
+### Set tags
+Just type `#` followed by tag name like `#tag1` 
+You can also add tags in the notes [[YAML front matter]] like so
+```
+---
+tags:
+  - tag1
+  - tag2
+---
+```
