@@ -138,6 +138,24 @@ At the moment, each remote vault can have up to 10 GB of data, including version
 
 No, your data is still in plain text on your hard disk. If you wish to encrypt it from people who use your computer, you should look for a disk encryption solution.
 
+##### Is my data synchronized in the background?
+
+No, files are only synchronized when Obsidian is running, and with the vault open, and there is an internet connection.
+
+##### How does Obsidian Sync deal with conflicting changes?
+
+A conflict is when a file is changed in two places, between syncs, and Sync needs to decide what to do with the two sets of changes.
+
+For example:
+- you edit a file on a mobile device without an internet connection.
+- then you make different edits to the same file on a desktop machine, and those changes get uploaded by Obsidian Sync
+- later you return to the vault on the mobile device and have an internet connection
+- now Obsidian downloads changes and finds this file has been changed in different places, and has to resolve the conflicts.
+
+When Sync downloads a new version of a file, and finds that there are conflicts, the changes are merged with Google's diff-match-patch algorithm.
+
+This normally works well, although sometimes it does sometime just add one version of the file to the other.
+
 ##### How long is my data kept after my subscription expires?
 
 Data in your remote vaults, including version history, is kept for one month for you, after your subscription expires.
