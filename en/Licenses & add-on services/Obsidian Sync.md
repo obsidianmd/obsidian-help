@@ -60,6 +60,22 @@ You can right click a file in the file explorer pane to see its version history.
 
 After selecting a version in the left column in the version history screen, you can restore the file to this version by clicking on the "Restore" button.
 
+### Conflicted files
+
+A conflict is when a file is changed in two places, between syncs, and Sync needs to decide what to do with the two sets of changes.
+
+For example:
+- you edit a file on a mobile device without an internet connection.
+- then you make different edits to the same file on a desktop machine, and those changes get uploaded by Obsidian Sync
+- later you return to the vault on the mobile device and have an internet connection
+- now Obsidian downloads changes and finds this file has been changed in different places, and has to resolve the conflicts.
+
+When Sync downloads a new version of a file, and finds that there are conflicts with the local copy, the changes are merged with Google's diff-match-patch algorithm.
+
+This normally works well, although sometimes it does sometime just add one version of the file to the other.
+
+Note that unless you search the sync log for `Merging conflicted file`, there is no visible notification if a conflict has happened, and how it was resolved.
+
 ### Deleted files
 
 After you delete a file, you can view it in Setting => Sync => Deleted files => View.
@@ -141,22 +157,6 @@ No, your data is still in plain text on your hard disk. If you wish to encrypt i
 ##### Is my data synchronized in the background?
 
 No, files are only synchronized when Obsidian is running, and with the vault open, and there is an internet connection.
-
-##### How does Obsidian Sync deal with conflicting changes?
-
-A conflict is when a file is changed in two places, between syncs, and Sync needs to decide what to do with the two sets of changes.
-
-For example:
-- you edit a file on a mobile device without an internet connection.
-- then you make different edits to the same file on a desktop machine, and those changes get uploaded by Obsidian Sync
-- later you return to the vault on the mobile device and have an internet connection
-- now Obsidian downloads changes and finds this file has been changed in different places, and has to resolve the conflicts.
-
-When Sync downloads a new version of a file, and finds that there are conflicts, the changes are merged with Google's diff-match-patch algorithm.
-
-This normally works well, although sometimes it does sometime just add one version of the file to the other.
-
-Note that unless you search the sync log for `Merging conflicted file`, there is no visible notification if a conflict has happened, and how it was resolved
 
 ##### How long is my data kept after my subscription expires?
 
