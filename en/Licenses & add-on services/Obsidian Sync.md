@@ -156,6 +156,8 @@ When Sync downloads a new version of a file, and finds that there are conflicts,
 
 This normally works well, although sometimes it does sometime just add one version of the file to the other.
 
+Note that unless you search the sync log for `Merging conflicted file`, there is no visible notification if a conflict has happened, and how it was resolved
+
 ##### How long is my data kept after my subscription expires?
 
 Data in your remote vaults, including version history, is kept for one month for you, after your subscription expires.
