@@ -10,6 +10,6 @@ If there is any issue with a transaction, please reach out to support@obsidian.m
 
 ## All other services
 
-For all other services and licenses, including [[Commercial license]], [[Obsidian Publish]], and [[Obsidian Sync]], you can request a full refund within 3 days of purchase with no questions asked. Please reach out to support@obsidian.md or on Discord.
+For all other services and licenses, including [[Commercial license]], [[Obsidian Publish]], and [[Introduction to Obsidian Sync|Obsidian Sync]], you can request a full refund within 3 days of purchase with no questions asked. Please reach out to support@obsidian.md or on Discord.
 
 Beyond 3 days, if you need a refund due to exceptional circumstances, feel free to reach out to us too.

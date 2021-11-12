@@ -8,11 +8,11 @@ Any folder in this home folder will be considered a vault. If you sync or copy a
 
 ## Sync
 
-On Android, you may choose to use [[Obsidian Sync]] to synchronize your files, or use any third party sync provider that can perform sync in the background.
+On Android, you may choose to use [[Introduction to Obsidian Sync|Obsidian Sync]] to synchronize your files, or use any third party sync provider that can perform sync in the background.
 
 ### Obsidian Sync
 
-As with Obsidian desktop, we provide our built-in paid [[Obsidian Sync]] service.
+As with Obsidian desktop, we provide our built-in paid [[Introduction to Obsidian Sync|Obsidian Sync]] service.
 
 To setup a synced vault through Obsidian Sync, first create a new empty local vault. You should name it the same as your desktop app to make [[Using obsidian URI|inter-vault URIs]] work.
 

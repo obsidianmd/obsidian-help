@@ -10,9 +10,9 @@ If you'd like to use Obsidian for work activities, try to let your work get you 
 
 #### Add-on services
 
-If you'd like to make a website from your notes, consider getting [[Obsidian Publish]] if the price works for you.
+If you'd like to make a website from your notes, consider getting [[Introduction to Obsidian Sync|Obsidian Sync]] if the price works for you.
 
-If you're interested in an end-to-end encryption syncing solution, we also offer [[Obsidian Sync]]. In addition to end-to-end encryption, Obsidian Sync also comes with version history.
+If you're interested in an end-to-end encryption syncing solution, we also offer [[Introduction to Obsidian Sync|Obsidian Sync]]. In addition to end-to-end encryption, Obsidian Sync also comes with version history.
 
 #### Catalyst
 
