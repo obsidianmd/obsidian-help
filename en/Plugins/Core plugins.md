@@ -30,4 +30,4 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 1. [[Workspaces]]
 1. [[File recovery]]
 1. [[Publish]]
-1. [[Obsidian Sync|Sync]]
+1. [[Introduction to Obsidian Sync|Sync]]
