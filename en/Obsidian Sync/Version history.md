@@ -11,8 +11,8 @@ Older versions of your notes for up to a year.
 
 ## View version history of a deleted note
 
-1. Open **Preferences**.
-2. In the side bar, under **Plugin options**, click **Sync**.
+1. Open **Settings**.
+2. In the sidebar, under **Plugin options**, click **Sync**.
 3. Next to **Deleted files**, click **View**.
 4. Click the note you want to view the version history for.
 
@@ -25,8 +25,8 @@ Older versions of your notes for up to a year.
 
 ## Restore a deleted note
 
-1. Open **Preferences**.
-2. In the side bar, under **Plugin options**, click **Sync**.
+1. Open **Settings**.
+2. In the sidebar, under **Plugin options**, click **Sync**.
 3. Next to **Deleted files**, click **View**.
 4. Click the note you want to restore.
 5. In the list of versions to the left, select the version you want to restore.

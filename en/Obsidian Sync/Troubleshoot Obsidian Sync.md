@@ -8,5 +8,5 @@ Since attachments and version history contributes to the total size of your vaul
 
 To identify and purge large files from the vault:
 
-1. Open **Preferences** -> **Sync**.
+1. Open **Settings** -> **Sync**.
 2. Explore the options under **Vault size over limit** for how you can reduce the size of your vault.
