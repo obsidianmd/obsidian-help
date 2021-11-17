@@ -2,7 +2,9 @@ Daily Notes will create a new note that is automatically named with the current 
 
 The date format and default folder for Daily Notes can be set in Settings => Plugins, by clicking the gear next to the name.  The default date format is "YYYY-MM-DD" (ISO format). This format means that a list of daily notes, listed in alphabetical order, will also be in chronological order. 
 
-You can also define a template file for daily notes. This file will be copied into your Daily note when it's created, so it's a good place to put tags or links you use every day.
+You can create a Daily Note either by clicking on the calendar icon in the left panel, or with the [[Command palette]]. You can also set a hotkey in [[Use hotkeys]].
 
-You can create a Daily Note either by clicking on the calendar icon in the left panel, or with the [[Command palette]]. You can also set a hotkey in [[Keyboard shortcuts]].
+### Templates
+You can define a [[Templates|template file]] for daily notes. This file will be copied into your daily note when it's created, so it's a good place to put tags or links you use every day.
 
+For the daily notes plugin, `{{date}}` and `{{time}}` do not work. Please use `{{date:YYYY-MM-DD}}` and `{{time:HH:mm}}` in your template.

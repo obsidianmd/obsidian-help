@@ -4,13 +4,13 @@ For more information about the Obsidian Publish™ service, what's included, how
 
 ### Enable the plugin
 
-From within Obsidian > Settings > Plugin, enable the Publish plugin. After that, a Publish icon (which looks like a paper plane) will appear in the ribbon pane.
+From within Obsidian => Settings => Plugin, enable the Publish plugin. After that, a Publish icon (which looks like a paper plane) will appear in the ribbon pane.
 
 Once enabled, you can also set a hotkey for this option, or use the command palette to access it.
 
 ### Set up and Configure your site
 
-Within the Publish plugin, you'll see an option to create a site by entering a unique site ID. Once published, your site will be available at `https://publish.obisidian.md/{site-id}`.
+Within the Publish plugin, you'll see an option to create a site by entering a unique site ID. Once published, your site will be available at `https://publish.obsidian.md/{site-id}`.
 
 After creating a unique site ID, you'll have the option to give your site a name, select a home page, set a theme, and toggle various components such as graph view, table of contents, etc. You can toggle these options by clicking on the gear icon near your site name at the top of the Publish plugin.
 
@@ -21,6 +21,16 @@ After setting up your site, you can now publish your notes!
 With a fresh, empty site, all your notes will appear under the "New" section, meaning they are new to your site. At this point, you may choose which files you want to publish, and then click the "Publish" button.
 
 ==Privacy note: Obsidian Publish has no awareness (nor retention) of any notes you choose not to publish (nor any notes you subsequently remove from your published site).==
+
+#### YAML support for Publish
+
+As of 0.12.12, you can use YAML to flag notes to be published. (You can read more about YAML in Obsidian [[YAML front matter|here]].)
+
+If you set `publish: true`, then new files will be automatically selected the next time you publish changes.
+
+If you set `publish: false`, then the file will not be visible when publishing changes, and will not show up in new/changed files. If this file had been previously published, you will see an option to delete it instead.
+
+If you do not use YAML to flag publish files, the default behavior is to automatically select changed files, but not new files.
 
 ### Make changes
 

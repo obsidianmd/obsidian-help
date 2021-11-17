@@ -14,6 +14,7 @@ This help site is also available in other languages:
 - [日本語](https://publish.obsidian.md/help-ja)
 - [Dansk](https://publish.obsidian.md/help-da)
 - [Русский](https://publish.obsidian.md/help-ru)
+- [Tiếng Việt](https://publish.obsidian.md/help-vi)
 
 ## Credits
 
@@ -34,11 +35,11 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 - Check out some tips on [[Create notes|creating new notes]].
 - Check out some tips on [[Internal link|creating internal links]].
 - Learn how to [[Embed files|embed other notes or attachments]].
-- See the [[Keyboard shortcuts|default keyboard shortcuts]].
+- See the [[Use hotkeys|default keyboard shortcuts]].
 
 ### Official plugins
 
-![[List of plugins#Current list of official plugins]]
+![[Core plugins#Current list of official plugins]]
 
 ### Advanced guides
 

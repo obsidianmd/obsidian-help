@@ -12,7 +12,7 @@ If you'd like to use Obsidian for work activities, try to let your work get you 
 
 If you'd like to make a website from your notes, consider getting [[Obsidian Publish]] if the price works for you.
 
-If you're interested in an end-to-end encryption syncing solution, we also offer [[Obsidian Sync]]. In addition to end-to-end encryption, Obsidian Sync also comes with version history.
+If you're interested in an end-to-end encryption syncing solution, we also offer [[Introduction to Obsidian Sync|Obsidian Sync]]. In addition to end-to-end encryption, Obsidian Sync also comes with version history.
 
 #### Catalyst
 
@@ -32,7 +32,7 @@ If you'd like to add your theme to the community theme list, let us know! (Or we
 
 #### Plugins
 
-If you're a JavaScript/TypeScript programmer, you can write [[Third-party plugins]] for Obsidian, now that our plugin API is in alpha.
+If you're a JavaScript/TypeScript programmer, you can write [[Community plugins]] for Obsidian, now that our plugin API is in alpha.
 
 ### 3. Translation and proofreading
 
@@ -46,4 +46,4 @@ We're in the middle of reorganizing and stabilizing the documentation you're rea
 
 #### Found a typo?
 
-If you found a typo or a grammar mistake in these documentation, feel free to submit a pull request in [our documentation repository](https://github.com/obsidianmd/obsidian-docs).
+If you found a typo or a grammar mistake in the documentation, feel free to submit a pull request in [our documentation repository](https://github.com/obsidianmd/obsidian-docs).

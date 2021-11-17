@@ -1,4 +1,4 @@
-Obsidian 支持自定义的URI协议 `Obsidian://`，这个协议可以用来触发Obsidian 内部的各种动作。自定义 URI 协议通常用于 MacOS 中的跨应用程序工作流。
+Obsidian 支持自定义的 URI 协议 `Obsidian://`，这个协议可以用来触发 Obsidian 内部的各种动作。自定义 URI 协议通常用于 MacOS 中的跨应用程序工作流。
 
 如果你已经安装了 Obsidian，下面这个命令将在当前设备上打开 Obidian：[点击此处](obsidian://open)
 
@@ -6,7 +6,7 @@ Obsidian 支持自定义的URI协议 `Obsidian://`，这个协议可以用来触
 
 为了让你的操作系统将 `obsidian://` URI 重定向到 Obsidian，你可能需要执行一些额外的步骤。
 
-- 对于Windows，运行一次 Obsidian 就足够了。因为这会在 Windows 注册表中注册 `obsidian://` 自定义协议处理程序。
+- 对于 Windows，运行一次 Obsidian 就足够了。因为这会在 Windows 注册表中注册 `obsidian://` 自定义协议处理程序。
 - 对于 MacOS，运行一次 Obsidian 也足够了。但需要注意的是，Obsidian 版本必须为 0.8.12 或更高。
 - 对于 Linux，则需要更多的步骤：
 		- 首先，确保你创建了一个 `obsidian.desktop` 文件。[你可以在此获得更多相关信息](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
@@ -32,7 +32,7 @@ obsidian://action?param1=value&param2=value
 
 ### 可使用的动作
 
-####  `open`动作
+#### `open` 动作
 
 动作描述：在 Obsidian 中打开一个库，甚至打开库内的某个文件。
 
@@ -40,7 +40,7 @@ obsidian://action?param1=value&param2=value
 
 - `vault` 既可以使用库名称，也可以使用库 ID。
 	- 库名称就是库文件夹的名称。
-	- 库 ID 是每个库独有的、随机编码的16位字符串。比如：`ef6ca3e3b524d22f`。目前没有简单的方法来找到这些 ID，我们日后会开发相关的功能。目前库 ID 可以在以下路径找到：
+	- 库 ID 是每个库独有的、随机编码的 16 位字符串。比如：`ef6ca3e3b524d22f`。目前没有简单的方法来找到这些 ID，我们日后会开发相关的功能。目前库 ID 可以在以下路径找到：
 		- 对于 Windows，路径为 `%appdata%/obsidian/obsidian.json`
 		- 对于 MacOS，则把 `%appdata%` 替换为 `~/Library/Application Support/`
 		- 对于 Linux，把 `%appdata%` 替换为 `~/.config/`。
@@ -74,7 +74,7 @@ obsidian://action?param1=value&param2=value
 - `obsidian://open?path=D%3A%5CDocuments%5CMy%20vault%5CMy%20note`
 	这将让 Obsidian 寻找包含路径 `D:\Documents\My vault\My note` 的库。随后，路径参数的剩余部分将传递给 `file` 参数。这就好比在一个路径为 `D:\Documents\My vault` 的库中将 `file` 参数设置为 `My note` 一样。
 	
-#### `search`动作
+#### `search` 动作
 
 描述：打开 Obsidian 中某个库的查询面板，然后执行搜索（是否执行搜索是可选的）。
 
