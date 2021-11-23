@@ -9,5 +9,5 @@ The top ones are added by plugins, both [[Core plugins|core plugins]] and [[comm
 The bottom three actions are Obsidian system actions to:
 
 1. Open another vault;
-2. Get help (opens [[help vault]] on the [[desktop app]] and opens [[online help]] in the [[Obsidian Mobile|mobile app]]);
+2. Get help (opens [[help vault]] on the [[desktop app]] and opens [[online help]] in the mobile app);
 3. Open settings.
