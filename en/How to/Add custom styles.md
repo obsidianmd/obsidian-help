@@ -24,16 +24,3 @@ You can find this configuration in `Settings` => `Appearance`. You can choose a 
 CSS snippets are supposed to be small pieces of CSS for small changes you want to make/things you want to add. These snippets have to be placed in the shown directory.
 
 You can go to the respective directories by clicking on the folder buttons. If the folder isn't created yet, it will be. In case your snippets or theme don't show up after you've put them there, you can click the button next to the folder icon to refresh the list.
-
-## Obsidian Publish styles
-
-At this time, [[Obsidian Publish]] is unable to automatically detect the vault's configured [[Add custom styles#Themes|theme]] and publish the respective styles. 
-
-A workaround for this limitation is to:
-
-1. Go into `YOUR_VAULT/.obsidian/themes/CURRENT_THEME_FOLDER`;
-2. Copy the primary CSS file `CURRENT_THEME.css` in the folder;
-3. Paste it in the root directory of your vault (`YOUR_VAULT`);
-4. Rename the CSS file as `publish.css`;
-5. In the publish plugin, upload the `publish.css` file;
-6. If your CSS doesn't take effect in a few minutes, try refreshing the browser cache as the stale CSS might have been cached.
