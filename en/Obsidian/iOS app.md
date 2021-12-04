@@ -34,7 +34,7 @@ Currently Obsidian does not support third party sync providers that expose a vir
 
 ### Obsidian Sync
 
-You can follow the same steps as Android's sync as shown below, making sure that you create a non-iCloud folder as we do not recommend using both Obsidian Sync and iCloud Sync concurrently, which has been reported to cause data loss due to [[Obsidian Sync#Third party sync|race conditions]].
+You can follow the same steps as Android's sync as shown below, making sure that you create a non-iCloud folder as we do not recommend using both Obsidian Sync and iCloud Sync concurrently, which has been reported to cause data loss due to [[Obsidian Sync and third-party services|race conditions]].
 
 ![[Android app#Obsidian Sync]]
 

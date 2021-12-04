@@ -1,5 +1,11 @@
 安卓端 app 现已公开，下载方式可见[我们的网站](https://obsidian.md/mobile)。
 
+## 数据存储位置
+
+在安卓手机上，Obsidian 的库保存在文档（Document）文件夹下的 Obsidian 文件夹中。文档文件夹通常储存在 SD 卡或 emulated storage 路径下。
+
+Obsidian 文件夹中的任何子文件夹都会被视为一个库。当你粘贴一个文件夹到该目录下，再次打开 Obsidian 时就会在库列表中看到该文件夹。
+
 
 ## 同步
 
