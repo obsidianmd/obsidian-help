@@ -91,7 +91,9 @@ Obsidian works differently from other Markdown editors on iOS. Editors such as 1
 
 In contrast, many features in Obsidian need access to your entire vault. For example if you rename a file, then Obsidian needs to update all files in the vault that links to that file.
 
-Since there's no support in iOS for accessing many files at once, rather than one at a time, supporting other sync services becomes a major challenge. Although we'll continue to evaluate available options, they're limited at the moment.
+Implementing a system to read, modify, and monitor an entire folder structure comprising of possibly thousand of notes outside of the supported locations is challenging. We hope to address this limitation in the future.
+
+If you're a developer, you can build a plugin that uses the Web APIs for each individual sync service.
 
 ### Where are my vaults stored?
 
