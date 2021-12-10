@@ -9,7 +9,7 @@ To make sure your operating system redirect `obsidian://` URIs to the Obsidian a
 - On Windows, running the app once should be sufficient. This will register for the `obsidian://` custom protocol handler in the Windows registry.
 - On MacOS, running the app once should be sufficient, however, your app **must** be installer version 0.8.12 or later.
 - On Linux, there's a much more involved process:
-	- First, ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
+	- First, ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files)
 	- Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
 	- If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
 
