@@ -46,7 +46,7 @@ For example, if you write:
 embed OR search
 ```</code></pre>
 
-You should see this embedded search view (note: it doesn't work on [[Obsidian Publish]] as of 2020/01/18):
+You should see this embedded search view (note: it doesn't work on [[Introduction to Obsidian Publish|Obsidian Publish]] as of 2020/01/18):
 
 ```query
 embed OR search

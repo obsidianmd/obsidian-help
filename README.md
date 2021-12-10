@@ -1,3 +1,7 @@
+### ⚠ _As of Nov 30, 2021, the docs are currently going through massive changes, so we do not recommend starting or updating your translations at the moment._
+
+---
+
 To contribute: Open a vault in the `/en/` folder (or your language of choice once translations are available).
 
 Image attachments: Please use `.png` and compress the image using a compression tool like https://compresspng.com/ in order to keep the whole package small.

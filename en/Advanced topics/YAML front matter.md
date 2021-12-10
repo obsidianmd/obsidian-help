@@ -26,6 +26,6 @@ As of 0.12.12, there are four keys natively supported:
 - `tags` ([[Working with tags|more information]])
 - `aliases` ([[Add aliases to note|more information]])
 - `cssclass`
-- `publish`([[Publish#YAML support for Publish|more information]])
+- `publish`([[Publish and unpublish notes#Automatically select notes to publish]] and [[Publish and unpublish notes#Ignore notes]])
 
 As Obsidian continues to develop, we will gradually make it more accessible by plugin developers, and make it more user friendly.
