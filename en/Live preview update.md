@@ -14,13 +14,13 @@ We understand that this change is not for everyone. You have a few options below
 
 **If you**: like to hide formatting and see the images and embeds right in the editor, we suggest you try the new Live Preview.
 
-**What to do**: go to Settings -> Editor -> General, and set "Default editing mode" to "Live Preview". Existing panes will retain its mode, please use thee "Toggle source/live preview mode" on existing panes or close them.
+**What to do**: go to Settings -> Editor -> General, and set "Default editing mode" to "Live Preview". Existing panes will retain its mode, please use the "Toggle source/live preview mode" on existing panes or close them.
 
 #### 2. I like my Markdown
 
 **If you**: like to continue seeing Markdown and would also like an updated editor engine, you can use the the new Source View.
 
-**What to do**: go to Settings -> Editor -> General, and set "Default editing mode" to "Source View", and make sure "Legacy Editor" is *turned off*. Existing panes will retain its mode, please use thee "Toggle source/live preview mode" on existing panes or close them.
+**What to do**: go to Settings -> Editor -> General, and set "Default editing mode" to "Source View", and make sure "Legacy Editor" is *turned off*. Existing panes will retain its mode, please use the "Toggle source/live preview mode" on existing panes or close them.
 
 **Pros**: There are some new features like spellchecker and text substitution on macOS. Vim mode is also supported.
 
