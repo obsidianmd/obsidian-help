@@ -16,6 +16,7 @@ This is what your editing experience used to look like:
 And here's the same note using Live Preview:
 
 ![[Live Preview.gif]]
+
 Live Preview gives you an improved editing experience that lets you see how your Markdown note will look like, without having to switch between Edit and Preview.
 
 To enable Live Preview for an existing vault:
