@@ -1,61 +1,59 @@
-Live Preview is introduced to help you preview what you're writing on the go, as well as hide Markdown formatting.
+Obsidian 13 introduces a brand new editor engine that comes with several enhancements to your editing experience:
 
-See Live Preview in action:
+- Live Preview
+- Spellchecker
+- Text substitution
+- Vim mode
 
-![[Live Preview.gif]]
+In this post, we'll take a closer look at one of the biggest improvements in the latest release: _Live Preview_.
 
-Source view of the same file:
+Live Preview is a new editor mode that lets you preview your notes in the same view that you're writing them in. Live Preview delivers a cleaner writing experience by only displaying Markdown syntax for the selected line. Let's see how it looks like!
+
+This is what your editing experience used to look like:
 
 ![[Source view.png]]
 
-### The options
+And here's the same note using Live Preview:
 
-We understand that this change is not for everyone. You have a few options below (you can change your mind anytime!):
+![[Live Preview.gif]]
+Live Preview gives you an improved editing experience that lets you see how your Markdown note will look like, without having to switch between Edit and Preview.
 
-#### 1. Hide formatting
-
-**If you**: like to hide formatting and see the images and embeds right in the editor, we suggest you try the new Live Preview.
-
-**What to do**:
+To enable Live Preview for an existing vault:
 
 1. Open **Settings**.
-2. In the sidebar, click **Editor** if it's not already open.
-3. Under **General**, turn off **Use legacy editor** if it's not off already. After turning it off, click on the **Relaunch** button for it to take effect.
+2. In the sidebar, click **Editor**.
+3. Under **General**, disable **Legacy Editor**. 
+4. Click on the **Relaunch** button for the change to take effect.
 4. After Obsidian restarts, open **Settings**.
 5. In the sidebar, click **Editor**.
 6. Under **General**, set **Default editing mode** to **Live Preview**.
-7. All newly opened panes will use Live Preview at this point. If you already have some panes open, they will show **Source View**. To change this, in the **More options** menu of the pane, select **Toggle Live Preview/Source View**. Alternatively, you can open [[Command palette]] and search for the **Toggle Live Preview/Source View** command.
 
-#### 2. I like seeing Markdown
+When you open a new pane, it'll use Live Preview by default. If you already have some panes open, they'll be in _Source mode_.
 
-**If you**: like to continue seeing Markdown and would also like an updated editor engine, you can use the the new Source View.
+## Edit notes using Live Preview or Source mode
 
-**What to do**:
+We think you're going to love Live Preview. But if you want to keep your current editing experience, we've got you covered. You can keep editing your notes the same way as before by switching to the new Source mode.
 
-1. Open **Settings**.
-2. In the sidebar, click **Editor** if it's not already open.
-3. Under **General**, turn off **Use legacy editor** if it's not off already. After turning it off, click on the **Relaunch** button for it to take effect.
+To toggle between Live Preview and Source mode:
 
-**Pros**: There are some new features like spellchecker and text substitution on macOS. Vim mode is also supported.
+1. In the upper right corner of the pane, click **More options** (the three dots).
+2. Select **Toggle source/live preview mode**.
 
-**Cons**: Some community plugins might not be fully compatible yet; Vim mode is experimental.
+You can also toggle the editing view by opening the [[Command palette]] and searching for the **Toggle source/live preview mode** command.
 
-#### 3. I've been using Obsidian and I like the way things are (this is the default)
+Live Preview and Source mode are two ways to edit your Markdown notes in Obsidian. Try them out to see which one you prefer!
 
-**If you**: find that the new editor breaks the plugins, themes, and snippets you currently, we suggest you use the Legacy Editor with Source View.
-
-**What to do**:
-
-1. Open **Settings**.
-2. In the sidebar, click **Editor** if it's not already open.
-3. Under **General**, turn on **Use legacy editor** if it's not on already. After turning it on, click on the **Relaunch** button for it to take effect.
-
-**Pros**: everything stays the same! If you're not in the mood for any change in your usage at the moment, this is the safest option.
-
-**Cons**: you might miss out on some sweet features described above, but you can switch to option 1 or 2 any time.
-
-### Terminology change overview
-
-[[Credits#^a4b3a2|Argentum]] has made this handy chart if you want an overview of the terminology changes brought by this editor update.
+If you want to know how the terminology changes with the new features, here's a handy chart by [[Credits#^a4b3a2|Argentum]]:
 
 ![[Editor update chart.png]]
+
+## Wait, I'm not ready to switch!
+
+Some plugins and themes may not be fully compatible with the new editor. If your favorite plugin doesn't yet support the new editor, you can switch back to the old one by enabling the Legacy editor.
+
+1. Open **Settings**.
+2. In the sidebar, click **Editor**.
+3. Under **General**, enable **Legacy Editor**.
+4. Click on the **Relaunch** button for the change to take effect.
+
+Use the legacy editor if you're not ready to upgrade to the new editor. You'll miss out some sweet features, but know that you can switch to the new editor at any time.
