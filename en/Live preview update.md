@@ -1,13 +1,6 @@
-Obsidian 13 introduces a brand new editor engine that comes with several enhancements to your editing experience:
+Obsidian 13 introduces a brand new editor engine that comes with several enhancements to your editing experience. In this post, we'll take a closer look at one of the biggest improvements in the latest release: _Live Preview_.
 
-- Live Preview
-- Spellchecker
-- Text substitution
-- Vim mode
-
-In this post, we'll take a closer look at one of the biggest improvements in the latest release: _Live Preview_.
-
-Live Preview is a new editor mode that lets you preview your notes in the same view that you're writing them in. Live Preview delivers a cleaner writing experience by only displaying Markdown syntax for the selected line. Let's see how it looks like!
+Live Preview is a new editor mode that lets you preview your notes in the same view that you're writing them in. Live Preview delivers a cleaner writing experience by only displaying Markdown syntax around the cursor. Let's see an example!
 
 This is what your editing experience used to look like:
 
@@ -23,11 +16,11 @@ To enable Live Preview for an existing vault:
 
 1. Open **Settings**.
 2. In the sidebar, click **Editor**.
-3. Under **General**, disable **Legacy Editor**. 
+3. Under **General**, disable **Legacy Editor**.
 4. Click on the **Relaunch** button for the change to take effect.
-4. After Obsidian restarts, open **Settings**.
-5. In the sidebar, click **Editor**.
-6. Under **General**, set **Default editing mode** to **Live Preview**.
+5. After Obsidian restarts, open **Settings**.
+6. In the sidebar, click **Editor**.
+7. Under **General**, set **Default editing mode** to **Live Preview**.
 
 When you open a new pane, it'll use Live Preview by default. If you already have some panes open, they'll be in _Source mode_.
 
@@ -40,7 +33,7 @@ To toggle between Live Preview and Source mode:
 1. In the upper right corner of the pane, click **More options** (the three dots).
 2. Select **Toggle source/live preview mode**.
 
-You can also toggle the editing view by opening the [[Command palette]] and searching for the **Toggle source/live preview mode** command.
+You can also toggle the editing view by opening the Command palette and searching for the **Toggle source/live preview mode command**, or change it permanently by setting **Default editing mode** to Source mode.
 
 Live Preview and Source mode are two ways to edit your Markdown notes in Obsidian. Try them out to see which one you prefer!
 
