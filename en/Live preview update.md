@@ -1,4 +1,4 @@
-Obsidian 13 introduces a brand new editor engine that comes with several enhancements to your editing experience. In this post, we'll take a closer look at one of the biggest improvements in the latest release: _Live Preview_.
+Obsidian 0.13 introduces a brand new editor engine that comes with several enhancements to your editing experience. In this post, we'll take a closer look at one of the biggest improvements in the latest release: _Live Preview_.
 
 Live Preview is a new editor mode that lets you preview your notes in the same view that you're writing them in. Live Preview delivers a cleaner writing experience by only displaying Markdown syntax around the cursor. Let's see an example!
 
