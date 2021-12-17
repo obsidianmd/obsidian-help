@@ -60,12 +60,12 @@ If you use Linux, you can install Obsidian in several ways. Follow the instructi
 
 ## Install Obsidian on Android
 
-1. Find Obsidian on the [Play Store](https://play.google.com/store/apps/details?id=md.obsidian)
+1. Find Obsidian on the [Play Store](https://play.google.com/store/apps/details?id=md.obsidian).
 2. Tap **Install** to download the app.
 3. Open Obsidian the same way you would open any other app.
 
 ## Install Obsidian on iPhone and iPad
 
-1. Find Obsidian on the [App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)
+1. Find Obsidian on the [App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
 2. Tap **Get** to download the app.
 3. Open Obsidian the same way you would open any other app.
