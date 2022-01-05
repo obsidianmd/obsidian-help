@@ -437,4 +437,4 @@ It looks like this if you follow the [[Format your notes#^376b9d|second option]]
 
 We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
 
-We intentionally do not support parsing markdown syntax within HTML blocks and blank lines in HTML blocks. This is the result of an optimization to handle very large files and to support synchronization between editing and reading mode.
+We intentionally do not support parsing markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support synchronization between editing and reading mode.
