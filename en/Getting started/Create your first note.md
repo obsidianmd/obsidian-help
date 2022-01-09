@@ -22,13 +22,6 @@ Obsidian also supports [Markdown](https://en.wikipedia.org/wiki/Markdown)—a ma
 
 2. In your note, select the text "knowledge base" and press Ctrl+B (or Cmd+B on macOS) to make it bold.
 
+By default, Obsidian only displays the Markdown syntax for the text under the text cursor. If you move your cursor, the syntax disappears and instead you see the formatted text.
+
 To learn more about how to format your notes using Markdown, refer to [[Format your notes]].
-
-## Read and edit your note
-
-If you want to focus on reading, and you find the Markdown syntax distracting, you can toggle between the Reading and Editing views.
-
-1. In the top right corner of your note, click the the glasses icon to switch to the Reading view.
-2. Click the icon again (now a pen icon) to switch to the Editing view.
-
-By default, notes use the Editing view when you first open them. You can change the default view to use when you open a new note, by setting the **Default new pane view** under **Settings** -> **Editor**.
