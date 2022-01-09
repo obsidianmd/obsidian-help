@@ -25,3 +25,7 @@ Obsidian also supports [Markdown](https://en.wikipedia.org/wiki/Markdown)—a ma
 By default, Obsidian only displays the Markdown syntax for the text under the text cursor. If you move your cursor, the syntax disappears and instead you see the formatted text.
 
 To learn more about how to format your notes using Markdown, refer to [[Format your notes]].
+
+## Learn more
+
+Learn how to [[Link notes|link notes]] to create a network of connected thoughts.
