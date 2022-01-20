@@ -1,9 +1,15 @@
-Audio recorder is a plugin that lets you make a recording without leaving Obsidian. It's useful for class and meeting notes when you can't catch up for some reason, or for recording important discussions so you don't miss any details.
+Record and save audio recordings directly into an Obsidian note. With the Audio recorder plugin, you can record details from a lecture, meeting, or other important situations where you can't type fast enough.
 
-To use, simply click on the microphone icon in the left panel:
 
-![[Pasted image 8.png]]
 
-The microphone will become colored while it's actively recording.
+> **Note:** Before you get started, make sure that your computer has a microphone configured and ready to use.
 
-Click on it again to finish recording. The audio file is now saved in your [[vault]] and an embed the recording will be added to the end of your current note.
+## Record audio in a note
+
+1. Create a new note or open an existing note.
+1. In the ribbon, click **Start/stop recording** (microphone icon) to start recording. The recording starts as soon as the icon changes color.
+1. Click the icon again to stop the recording and add it to your note.
+
+Obsidian saves the recorded audio file to your vault and [[Embed files|embeds]] it at the end of the active note.
+
+> **Note:** Audio recordings remain in your vault even after you remove them from your note. If you want to remove the recording from your computer, you can use the [[File explorer]] to delete the file.
