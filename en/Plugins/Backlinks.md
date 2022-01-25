@@ -25,7 +25,9 @@ The backlinks pane have the following options:
 - **Collapse results** toggles whether to expand each note to display the mentions in it.
 - **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
 - **Change sort order** determines how to sort the mentions.
-- **Show search filter** toggles a text field that lets you filter the mentions.
+- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search query, refer to [[Search]].
+
+> **Tip:** If you want to see backlinks for multiple notes at the same time, you can enable **Backlink in document** under plugin options, to display backlinks in the same pane as your note.
 
 ## View backlinks for a note
 
