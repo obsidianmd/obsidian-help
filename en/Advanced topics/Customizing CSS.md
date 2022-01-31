@@ -1,4 +1,4 @@
-If you are building or modifying your own css, you can open the developer tools by using `Ctrl+Shift+I` on Windows/Linux or `Cmd+Opt+I` on macOS to get information on the elements you want to customize. 
+If you are building or modifying your own CSS, you can open the developer tools by using `Ctrl+Shift+I` on Windows/Linux or `Cmd+Opt+I` on macOS to get information on the elements you want to customize. 
 
 Changes to themes and snippets will be detected automatically and reapplied. You do not need to restart the app.
 
