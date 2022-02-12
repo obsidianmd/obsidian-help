@@ -271,8 +271,6 @@ Content in the first column | Content in the second column
 Tables can be justified with a colon | Another example with a long title
 :----------------|-------------:
 because of the `:` | these will be justified
-
-If you put links in tables, they will work, but if you use Piped Links, the pipe must be escaped with a `\` to prevent it being read as a table element.
 ```
 
 Tables can be justified with a colon | Another example with a long title
