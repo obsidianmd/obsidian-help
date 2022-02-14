@@ -40,6 +40,4 @@ For the iOS app, look for the TestFlight link. Make sure to open the link on you
 
 Before reporting an issue or submitting a feature request, please visit [the list of known issues on our forum](https://forum.obsidian.md/t/list-of-known-issues/14286) to see what's already known and on the roadmap.
 
-The current group being rolled out can access the `#insider-mobile` channel on Discord as well as the new Mobile category on the forum.
-
 To keep track of bug reports and feature requests, please direct them to the forum as usual. Thank you for trying out our beta!
