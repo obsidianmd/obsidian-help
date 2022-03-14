@@ -394,6 +394,22 @@ It can span
 multiple lines
 %%
 
+## Callouts
+
+Use the following syntax to denote a callout block: `> [!INFO]`.
+
+Learn more about callouts [[Use callouts|here]].
+
+```markdown
+> [!INFO]
+> Here's a callout block.
+> It supports **markdown** and [[Internal link|wikilinks]].
+```
+
+> [!INFO]
+> Here's a callout block.
+> It supports **markdown** and [[Internal link|wikilinks]].
+
 ### Diagram
 
 Obsidian uses [Mermaid](https://mermaid-js.github.io/) to render diagrams and charts. Mermaid also provides [a helpful live editor](https://mermaid-js.github.io/mermaid-live-editor).

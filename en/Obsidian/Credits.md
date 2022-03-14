@@ -25,6 +25,18 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 - WhiteNoise<span class='flair mod-pop'>Think Tank</span><span class='flair mod-pop'>Zotero master</span><span class='flair mod-pop'>Bug report exterminator</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span><span class='flair mod-pop'>Easily triggered</span><span class='flair mod-pop'>Good and pure</span><span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
 
+### Plugin inspirations
+
+Credits to these plugin developers for pioneering functionality that were adapted into Obsidian:
+- pjeby for improvements to hotkeys and settings
+- javalent for admonitions plugin
+- NothingIsLost for several CodeMirror 6 improvements
+
+### Builds
+
+- jstone for maintaining our builds on flathub
+- adamgibbins and ran-dall for maintaining our builds on homebrew
+
 ### Translators
 
 - Andrea Brandi (Italian)
@@ -39,14 +51,11 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
 
-### Builds
-
-- jstone for maintaining our builds on flathub
-- adamgibbins and ran-dall for maintaining our builds on homebrew
-
 ### Documentation
 
 The first version of the help vault was written by Silver. Later part of it was written by [@mediapathic](http://mediapathic.net), with a big help from Reggie. We also got corrections from the many pairs of eyes in the Discord and forum community.
+
+The docs are currently maintained by [Marcus Olsson](https://marcus.se.net/).
 
 We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/).
 
