@@ -1,6 +1,6 @@
 As of v0.14.0, Obsidian supports callout blocks, sometimes called "admonitions". Callout blocks are written as a blockquote, inspired by the "alert" syntax from Microsoft Docs.
 
-Callouts are also be supported natively on [[Introduction to Obsidian Sync|Obsidian Publish]].
+Callouts are also be supported natively on [[Introduction to Obsidian Publish|Obsidian Publish]].
 
 > [!NOTE]
 > For compatibility reasons, if you're also using the Admonitions plugin, you should update it to at least v8.0.0 to avoid problems with the new callout system.
