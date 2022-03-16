@@ -1,13 +1,62 @@
-The File explorer shows [[Accepted file formats|the list of files Obsidian can recognize]] in your vault. You can open notes, [[create notes]] and folders, and [[rename notes]] in it. Right clicking on a note or directory in the File explorer will bring up appropriate options, such as renaming or making a copy. This is also the best way to set your default folder for when you [[Embed files]].
+The File explorer lets you manage files and folders inside your vault. You can browse notes and other [[accepted file formats]] in your vault and perform many common file operations:
 
-It's one of the crucial plugins that we recommend you to keep enabled.
+- Create, delete, and rename files and folders.
+- Move files and folders with drag and drop.
+- Use the context menu to access all available operations.
 
-### Usage tips
+> **Tip:** You can drag a file from the File explorer into your note to create a link to it, or drag a file into a folder in the File explorer to copy it.
 
-1. If the list of files is cluttering the interface though, you can close it:
+## Create a new note
 
-![[Pasted image 15.png]]
+To create a new note in the default location for new notes:
 
-2. You can drag and drop to put one file into another folder.
+1. Click **New note** (document icon) at the top of the File explorer.
+2. Type the name of the note, and then press Enter.
 
-3. You can use the sort icon at the top to sort files by file name or last modified time.
+> **Tip:** You can change the default location for new notes under **Settings** -> **Files and links** -> **Default location for new notes**.
+
+To create a new note in a specific folder:
+
+1. Right-click the folder and then click **New note**.
+2. Type the name of the note, and then press Enter.
+
+To learn about other ways to create a note, refer to [[Create notes]].
+
+## Create a new folder
+
+To create a new folder the root of your vault:
+
+1. Click **New folder** (folder icon) at the top of the File explorer.
+2. Type the name of the folder, and then press Enter.
+
+To create a subfolder:
+
+1. Right-click the folder you want to create the subfolder in, and then click **New folder**.
+2. Type the name of the folder, and then press Enter.
+
+## Delete a file or folder
+
+1. Right-click the file you want to delete, and then click **Delete**.
+2. If prompted to confirm that you want to delete the file, click **Delete**.
+
+For more information, refer to [[Deleting files]].
+
+## Rename a file or folder
+
+1. Right-click the file you want to rename, and then click **Rename**.
+2. Type the new name, and the press Enter.
+
+When you rename a file, Obsidian automatically updates all the links to that file. For more information, refer to [[Rename notes]].
+
+## Move a file or folder
+
+To move a file or folder, you can use drag-and-drop or the context menu.
+
+**Drag and drop:**
+
+- Drag a file or folder to the folder you want to move it to.
+
+**Context menu:**
+
+1. Right-click a file, and then select **Move file to...**.
+2. Search for the name of the folder you want to move the file to, and then select it from the list.

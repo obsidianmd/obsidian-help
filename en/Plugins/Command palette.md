@@ -1,18 +1,30 @@
-The Command Palette is enabled by default, as it is a very useful way to access nearly all the features of Obsidian without having to remember key strokes. Type `Ctrl/Cmd+P` to activate, then simply type in the name of the command. If a command has a hotkey, it will appear in on the right side.
+Obsidian gives you access to many of the commands in Obsidian directly from your keyboard. The Command palette lets you run any command from the same interactive window. You can also explore the all available commands and their respective keyboard shortcuts.
 
-Custom shorcuts can be added to the Command Palette in Settings => Hotkeys. Click on the `*` icon to the right of each key listed and type whatever key combination you would like.
+To run a command from the Command palette:
 
-### Settings
+1. Press Ctrl+P (or Cmd+P on macOS) to open the Command palette.
+2. Type the name of the command you want to run.
+3. Navigate to the command using the arrow keys.
+4. Press Enter.
 
-#### Pinned commands
+> **Tip:** The Command palette supports _fuzzy matching_, which lets you search commands even if you don't know their exact names. For example, type "scf" to find the "**S**ave **c**urrent **f**ile" command.
 
-You can set a few pinned commands that will appear at top of the command palette. This lets you choose them without typing anything. It's a good place to put your most frequently used commands.
+## Pinned commands
 
-Pinned commands are managed on the Command palette options screen under Plugin Options. You can add pinned commands by entering the name in the "New pinned command" field. After you pick a command and hit `Enter`, the command will be added to the list above. You can reorder the list or delete existing pinned commands in the list.
+You can pin frequently used commands at the top of the Command palette to quickly access them without having to type their name.
 
-### Usage tips
+> **Tip:** If you want to quickly run frequently used commands, you can also [[Custom hotkeys#Setting hotkeys|set hotkeys]] for them.
 
-- To see a list of all commands along with their shortcut, don't type anything into the prompt. The arrow keys will move up and down the list, and `Return` will activate the command. 
+### Pin a command
 
-- Search in the command palette is fuzzy, so you can type part of the word to get matches. For example, you can use `trm` to search for "Toggle read mode".
+1. Open **Settings**.
+2. In the sidebar, click **Command palette** under **Plugin options**.
+3. Next to **New pinned command**, click **Select a command**.
+4. Select the command you want to pin from the list.
+5. Press Enter.
 
+### Unpin a command
+
+1. Open **Settings**.
+2. In the sidebar, click **Command palette** under **Plugin options**.
+3. Under **Pinned commands**, click the cross icon next to the command you want to unpin.

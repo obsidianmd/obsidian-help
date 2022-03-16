@@ -1,9 +1,36 @@
-The backlinks plugin shows how the current note is referenced in other notes.
+With the Backlinks plugin, you can see all the _backlinks_ for the active note.
 
-After enabling it, you'll see the backlink count in the status bar.
+A backlink for a note is a link from another note to that note. In the following example, the "Three laws of motion" note contains a link to the "Isaac Newton" note. The corresponding backlink would link from "Isaac Newton" back to "Three laws of motion".
 
-In the right side bar (if it's expanded), you should also see a panel that shows where the current note gets linked:
+```mermaid
+flowchart LR
+  laws((Three laws of motion))
+  newton((Isaac Newton))
 
-![[Pasted image 9.png]]
+  laws --link--> newton
+  newton --backlink--> laws
+```
 
-Upon expanding the "Unlinked mentions" section, you can also see where the name of the note gets mentioned, but not explicitly linked (in other words, mentioned without the square brackets).
+Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet!
+
+## The backlinks pane
+
+You can see all the backlinks for the active note from the _backlinks pane_. The backlinks pane has two collapsible sections: **Linked mentions** and **Unlinked mentions**.
+
+- **Linked mentions** are backlinks to the notes that contain an internal link to the active note.
+- **Unlinked mentions** are backlinks to any unlinked occurrence of the name of the active note.
+
+The backlinks pane have the following options:
+
+- **Collapse results** toggles whether to expand each note to display the mentions in it.
+- **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
+- **Change sort order** determines how to sort the mentions.
+- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search query, refer to [[Search]].
+
+> **Tip:** If you want to see backlinks for multiple notes at the same time, you can enable **Backlink in document** under plugin options, to display backlinks in the same pane as your note.
+
+## View backlinks for a note
+
+To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right side bar.
+
+> **Note:** If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks pane** command.

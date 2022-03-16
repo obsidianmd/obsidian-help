@@ -271,8 +271,6 @@ Content in the first column | Content in the second column
 Tables can be justified with a colon | Another example with a long title
 :----------------|-------------:
 because of the `:` | these will be justified
-
-If you put links in tables, they will work, but if you use Piped Links, the pipe must be escaped with a `\` to prevent it being read as a table element.
 ```
 
 Tables can be justified with a colon | Another example with a long title
@@ -310,6 +308,17 @@ Use two equal signs to ==highlight text==.
 ```
 
 Use two equal signs to ==highlight text==.
+
+---
+
+### Horizontal Bar
+
+```md
+Use three stars ***, minuses ---, or underscores ___ in a new line to produce an horizontal bar.
+
+```
+
+***
 
 ---
 
@@ -385,6 +394,22 @@ It can span
 multiple lines
 %%
 
+## Callouts
+
+Use the following syntax to denote a callout block: `> [!INFO]`.
+
+Learn more about callouts [[Use callouts|here]].
+
+```markdown
+> [!INFO]
+> Here's a callout block.
+> It supports **markdown** and [[Internal link|wikilinks]].
+```
+
+> [!INFO]
+> Here's a callout block.
+> It supports **markdown** and [[Internal link|wikilinks]].
+
 ### Diagram
 
 Obsidian uses [Mermaid](https://mermaid-js.github.io/) to render diagrams and charts. Mermaid also provides [a helpful live editor](https://mermaid-js.github.io/mermaid-live-editor).
@@ -435,4 +460,6 @@ It looks like this if you follow the [[Format your notes#^376b9d|second option]]
 
 ## Developer notes
 
-We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some latex support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
+We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
+
+We intentionally do not support parsing markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support synchronization between editing and reading mode.

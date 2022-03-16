@@ -1,42 +1,26 @@
-File recovery is a core plugin to help you recover your data in case of all kind of accidents - user error, power outage, or misbehaving plugins and scripts.
+File recovery helps you recover your work in the case of unintentional data loss, by regularly saving snapshots of your notes.
 
-File recovery is default to enabled, because it's too late to enable when you've already lost data.
+To avoid taking up too much space, Obsidian keeps snapshots for a certain number of days before deleting them.
 
-## How it works
+> **Note:** By default, snapshots are saved a minimum of 5 minutes from each other, and kept for 7 days. You can configure both intervals under **Settings** -> **File recovery**.
 
-### Snapshots
+Snapshots are kept in the [[How Obsidian stores data#System directory|system directory]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
 
-As long as this plugin is enabled, full snapshots of what you're working on get saved at fixed intervals (you can configure this interval). Snapshots get deleted after a fixed amount of retention time.
+## Recover a snapshot
 
-This process is automatic. By default, snapshots are made every 5 minutes, and snapshots are kept for 7 days.
+1. Open **Settings**.
+2. In the sidebar, click **File recovery** under **Plugin options**.
+3. Next to **Snapshots**, click **View**.
+4. In the top-right text box, search for the file you want to recover, and then press Enter.
+5. Select the snapshot you want to recover.
+6. Click **Copy to clipboard** to copy the snapshot.
+7. Paste the snapshot in the original note, or in a new note if you want to compare them.
 
-### Recovering
+## Clear snapshot history
 
-In case of data loss, here's how you can find saved snapshots:
+**Caution:** Clearing the snapshot history irreversibly deletes all snapshots in your vault.
 
-1. Open settings;
-2. Open the "File recovery" tab under "Plugin options";
-3. Click on the "View" button in "Snapshots" section;
-4. In the search bar on the left, enter the name of file you want to recover. If the file name does not show it, it means no snapshots were saved for that file;
-5. After selecting a file in the dropdown, a list of snapshots will appear on the left. Select the one you want to recover;
-6. The content of that snapshot will show up on the right. You can click "Copy to clipboard" to copy the whole thing, or cherry-pick some of the content.
-
-## Options
-
-### Snapshot interval
-
-Minimal number of minutes between two snapshots. Default is 5 minutes.
-
-### History length
-
-Number of days to keep snapshots around for. Default is 7 days.
-
-### Clear history
-
-You also have the option to wipe all history. ==Please be careful as this action is irreversible.==
-
-## Data storage
-
-The file recovery data is stored in [[How Obsidian stores data#System directory|system directory]] in case of vault malfunctioning.
-
-Please note that vaults are identified by their absolute path. If you've moved vault, you will need to move it back to its previous position in order to restore the snapshots while the vault was there.
+1. Open **Settings**.
+2. In the sidebar, click **File recovery** under **Plugin options**.
+3. Next to **Clear history**, click **Clear**.
+4. Confirm that you want to delete all snapshots, by clicking **Clear**.

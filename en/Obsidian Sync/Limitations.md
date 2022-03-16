@@ -12,6 +12,10 @@ We keep version histories for up to one year before we clean it up.
 
 At the moment, each remote vault can have up to 10 GB of data, including version history.
 
+## How large can each file be?
+
+At the moment, each file can be up to 100 MB.
+
 ## How long do you keep my data after my subscription expires?
 
 We keep data in your remote vaults, including version history, for one month after your subscription expires.
