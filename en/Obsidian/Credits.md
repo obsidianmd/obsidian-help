@@ -28,9 +28,10 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 ### Plugin inspirations
 
 Credits to these plugin developers for pioneering functionality that were adapted into Obsidian:
-- pjeby for improvements to hotkeys and settings
-- javalent for admonitions plugin
+- pjeby for the Hotkey Helper plugin
+- javalent for the Admonition plugin
 - NothingIsLost for several CodeMirror 6 improvements
+- mgmeyers for the Indentation Guides plugin
 
 ### Builds
 
