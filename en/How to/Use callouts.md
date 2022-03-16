@@ -54,6 +54,11 @@ Additionally, you can create a folding callout by adding `+` (default expanded) 
 > Yes! In a foldable callout, the contents are hidden until it is expanded.
 ```
 
+Will show up as:
+
+> [!FAQ]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden until it is expanded.
+
 ### Customizations
 
 Snippets and plugins can define custom callouts, too, or overwrite the default options. Callout types and icons are defined in CSS, where the color is an `r, g, b` tuple and the icon is the icon ID from any internally supported icon (like `lucide-info`). Alternatively, you can specify an SVG icon as a string.
@@ -62,6 +67,6 @@ Snippets and plugins can define custom callouts, too, or overwrite the default o
 .callout[data-callout="my-callout-type"] {
     --callout-color: 0, 0, 0;
     --callout-icon: icon-id;
-    --callout-icon: '<svg>...custom svg...</svg>;
+    --callout-icon: '<svg>...custom svg...</svg>';
 }
 ```
