@@ -10,7 +10,7 @@ If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're a
 
 ## Learn more
 
-- If you a new Obsidian Publish user, learn how to [[Set up Obsidian Publish]].
+- If you're a new Obsidian Publish user, learn how to [[Set up Obsidian Publish]].
 - If you have more than one site, learn how to [[Manage sites]].
 - If you want to customize how your site looks, refer to [[Customize your site]].
 - If you want to know how we keep your notes safe, refer to [[Security and privacy]].
