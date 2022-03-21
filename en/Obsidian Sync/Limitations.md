@@ -21,3 +21,7 @@ At the moment, each file can be up to 100 MB.
 We keep data in your remote vaults, including version history, for one month after your subscription expires.
 
 As long as you renew within one month, there should be no impact on your usage.
+
+## What operating systems does Obsidian Sync support?
+
+Obsidian Sync supports every platform that Obsidian can run on. Currently that means Windows, macOS, Linux, Android and iOS.
