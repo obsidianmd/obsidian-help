@@ -1,4 +1,4 @@
-We believe [[Obsidian#How we're different|your data is always yours to own and control]]. Your notes are stored in markdown, which is an open format based on plain text files, and so should be readable in the future by any computer that can deal with text files. You can freely edit notes in other software, even while having them open in Obsidian.
+We believe your data is always yours to own and control. Your notes are stored in markdown, which is an open format based on plain text files, and so should be readable in the future by any computer that can deal with text files. You can freely edit notes in other software, even while having them open in Obsidian.
 
 ### Per vault data
 

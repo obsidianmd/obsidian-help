@@ -46,4 +46,4 @@ Another way to navigate between your notes is by using a visual representation o
 
 ## Learn more
 
-Understanding how your notes are connected becomes increasingly more difficult as your vault grows. Learn how to use the [[graph view]] to gain deeper insights from your knowledge base.
+Understanding how your notes are connected becomes increasingly more difficult as your vault grows. Learn how to use the graph view to gain deeper insights from your knowledge base.
