@@ -2,7 +2,7 @@ Hi, welcome to Obsidian!
 
 ---
 
-## Get started with Obsidian
+## I’m interested in Obsidian
 
 First of all, tell me a little bit about what's your experience with note-taking apps like?
 
