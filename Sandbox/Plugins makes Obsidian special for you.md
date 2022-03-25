@@ -13,3 +13,9 @@ Plugins not just gives Obsidian modularity, but also extensibility. Extensibilit
 Unfortunately, you’d need to know some coding to know how to do that. But foruntately, Obsidian has a community plugin store that lets you install these community plugins with one click.
 
 A big shoutout to plugins developers who are generously sharing their own gems with the community!
+
+---
+
+If you’re convinced Obsidian is worth a try for you, it’s time to get started:
+
+→ [[Get started with Obsidian]]

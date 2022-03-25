@@ -6,10 +6,11 @@ Hi, welcome to Obsidian!
 
 First of all, tell me a little bit about what's your experience with note-taking apps like?
 
-- I have no prior experience with note-taking apps -> [[No prior experience|Go here]]
-- I have used note-taking apps like Evernote and OneNote -> [[Frrom standard note-taking|Go here]]
-- I have used block-based outliners like WorkFlowy and Roam Research -> [[From block-based note-taking|Go here]]
-- I have used plain-text based apps like Org Mode, Typora, and nvALT -> [[From plain-text note-taking|Go here]]
+-> [[No prior experience|I have no prior experience]]
+
+-> [[Frrom standard note-taking|I’ve used note-taking apps like Evernote and OneNote]]
+
+-> [[From plain-text note-taking|I have used plain-text based apps like Org Mode, Typora, and nvALT]]
 
 ---
 

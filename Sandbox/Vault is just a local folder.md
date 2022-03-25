@@ -5,7 +5,7 @@ In Obsidian, a vault is a plain folder on your computer. By plain, I mean it's j
 > [!SUMMARY] The Point™
 > The point is that you own this folder just like the other folder of camping photos that you created yourself.
 > 
-> It’s a supposed to be good thing because you get both data ownership and privacy this way. Just keep in mind [[#^0f681f|with great power comes great responsiblity]].
+> It’s a supposed to be good thing because you get both **data ownership and privacy** this way. Just keep in mind [[#^0f681f|with great power comes great responsiblity]].
 
 No need to worry about loading your content from our servers. You know, servers can get hacked or be offline or be slow when you need it most.
 
@@ -15,3 +15,9 @@ Finally, please understand that with great power comes great responsibility. Now
 
 > [!Note]- A word on moving your vault folder
 > Technically you can freely move your vault folder around just like how you move any other folder. But if you do, Obsidian will be confused, so make sure to open it again at the new location with Obsidian after you moved it.
+
+---
+
+If you’re convinced Obsidian is worth a try for you, it’s time to get started:
+
+→ [[Get started with Obsidian]]

@@ -1,7 +1,15 @@
-Wonderful!
+There are plenty of note-taking apps out there, so congratulations on finding Obsidian! You may have heard that Obsidian is really hard to use, but we assure you 
 
-You can get started with Obsidian in 3 basic steps:
+There’s no silver bullet solution that works perfectly for everyone. Obsidian works best if you care about what we care about.
 
-1. Set up a nice place for yourself → [[Create a vault]]
-2. Jot down some notes → [[Create your first note]]
-3. Let your ideas mingle → [[Link notes]]
+Do you have any of the following concerns below?
+
+→ [[Vault is just a local folder|I don’t want my notes to been seen by others]]
+
+→ [[Vault is just a local folder|I don’t want my notes to be inaccessible someday]]
+
+→ [[Plugins makes Obsidian special for you|I have special needs that most note-taking apps might not meet]]
+
+→ [[Get started with Obsidian|Just let me get started already]]
+
+
