@@ -1,33 +1,37 @@
-The Templates plugin lets you quickly insert snippets of text into your current note.
+Plugin Template memberikan pada Anda cuplikan cepat dari teks menuju ke catatan terkini Anda.
 
-### Set up template folder
+### Mengatur folder template
 
-Each template snippet is just a normal Markdown note, like everything else in Obsidian.
+Setiap cuplikan template hanyalah catatan Markdown biasa, seperti halnya yang lain pada Obsidian.
 
-To designate template files, put them into a folder, and choose that folder in Settings -> Templates -> "Template folder location" after enabling the plugin
+Untuk mengatur berkas template, buat sebuah folder, dan pilih folder tersebut di Pengaturan => Template => "Lokasi folder template" setelah mengaktifkan plugin.
 
-### Insert a template
+### Memasukkan template
 
-After setting up the folder location, using the ribbon icon to insert the template. As always, you can also set a hotkey for this option, or use the command palette to access it.
+Setelah mengatur lokasi folder, gunakan ikon ribbon utnuk memasukkan template. Seperti biasa, Anda dapat pula menggunakan pintasan untuk opsi ini, atau menggunakan palet perintah untuk mengaksesnya.
 
-The template snippet will be inserted in the current caret position, with special text replaced by their actual value at the time of the insertion (see below).
+Cuplikan template akan dimasukkan pada posisi caret terkini, dengan teks khusus digantikan oleh nilai sebenarnya pada saat memasukannya (lihat di bawah).
 
-### Insert date and time
+### Memasukkan judul
 
-In the plugin settings of Template, you can also set a date format and a time format.
+Jika Anda ingin memasukkan judul dari catatan, Anda dapat mengaturnya di template dengan `{{title}}`.
 
-After setting these formats, `{{date}}` and `{{time}}` in the template files will be replaced by the formatting current time.
+### Memasukkan waktu dan tanggal
 
-For formatting syntax documentation, [please see here](https://momentjs.com/docs/#/displaying/format/).
+Pada pengaturan Template, Anda dapat pula mengatur format waktu dan format tanggal.
 
-_Tip: if you want to have two date formats or two time formats, you can use the other `{{time}}` as the second `{{date}}`, or `{{date}}` as the second `{{time}}`._
+Setelah mengatur format tersebut, `{{date}}` dan `{{time}}` pada berkas template akan digantikan dengan waktu terkini yang diformat.
 
-### One-off date formats
+Untuk dokumentasi sintaks pemformatan, [harap lihat di sini](https://momentjs.com/docs/#/displaying/format/).
 
-In addition to `{{date}}` and `{{time}}`, which will work in all template files, you can also write `{{date:YYYY-MM-DD}}` to insert a date with a certain format just once. This will override the `{{date}}` format. Anything after `:` will be considered part of the date format.
+_Saran: jika Anda ingin memiliki dua format waktu atau dua format tanggal, Anda tapat menggunakan `{{time}}` lain sebagai `{{date}}` kedua, atau `{{date}}` sebagai `{{time}}` kedua._
 
-`{{time:HH:mm}}` works similarly.
+### Format tanggal sekali pakai
 
-### Using custom date formats elsewhere
+Sebagai tambahan untuk `{{date}}` dan `{{time}}`, yang mana bekerja pada sebuah berkas template, Anda dapat pula menuliskan `{{date:YYYY-MM-DD}}` untuk memasukkan tanggal dengan format tertentu hanya sekali. Ini akan menimpa format `{{date}}`. Apa pun setelah `:` akan dianggap sebagai bagian dari format tanggal.
 
-Currently, dates like `{{date:YYYY-MM-DD}}` and `{{time:HH:mm}}` also work in the template file of the [[Catatan harian]] and [[Awalan Zettelkasten]] plugins. However, `{{date}}` and `{{time}}` do not work yet.
+`{{time:HH:mm}}` juga bekerja dengan serupa.
+
+### Menggunakan format tanggal kustom di mana pun
+
+Saat ini, penanggalan seperti `{{date:YYYY-MM-DD}}` dan `{{time:HH:mm}}` juga bekerja pada berkas template dari plugin [[Catatan harian]] dan [[Awalan Zettelkasten]]. Namun, `{{date}}` dan `{{time}}` tidak bekerja.

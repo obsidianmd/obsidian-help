@@ -1,27 +1,27 @@
-Adds a panel on the right that displays all the tags you have, along with their tag count.
+Menambahkan panel di sebelah kanan yang menampilkan semua tag yang Anda miliki, bersamaan dengan penghitung tagnya.
 
-When clicking on a tag, a search for the tag is activated. To ==toggle a tag== in search, Ctrl-click it instead.
+Saat menekan pada tag, pencaraian untuk tag telah diaktifkan. Untuk ==mengaktifkan== pada penelusuran, gunakan Ctrl-klik.
 
-### Sorting
+### Menyusun
 
-The tags are sorted from mostly frequently used to least frequently used. You can change the sort order to alphabetical or reverse it.
+Tag akan disusun berdasarkan paling sering digunakan hingga yang paling jarang. Anda dapat mengganti urutan susunan menjadi berdasarkan abjad atau membaliknya.
 
 ### Tag bersarang
 
-If you write your tags like `#inbox/to-read` and `#inbox/processing`, you can enable "show nested tags" to view them as a tree instead of a flat list.
+Jika Anda menuliskan tag Anda seperti `#kotak-masuk/untuk-dibaca` dan `#kotak-masuk/diproses`, Anda dapat mengaktifkan "tampilkan tag bersarang" untuk menampilkannya sebagai pohon bukan sebagai daftar datar.
 
-Under the default flat view, the tag pane will look like:
-
-```
-- inbox/to-read
-- inbox/processing
-```
-
-Under the nested tag view, the tag pane will look like:
+Pada tampilan datar bawaan, panel tag akan terlihat seperti:
 
 ```
-- inbox
-	- to-read
-	- processing
+- kotak-masuk/untuk-dibaca
+- kotak-masuk/diproses
+```
+
+Pada tampilan tag bersarang, panel tag akan terlihat seperti:
+
+```
+- kotak masuk
+	- untuk-dibaca
+	- diproses
 ```
 

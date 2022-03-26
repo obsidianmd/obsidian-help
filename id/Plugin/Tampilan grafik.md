@@ -1,30 +1,31 @@
-Shows a graph representation of the [[Link internal|internal links]] between your notes.
+Tampilkan representasi grafik dari [[tautan internal]] di antara catatan Anda.
 
-Notes with more notes referencing it appear as bigger nodes on the graph.
+Catatan dengan banyak catatan yang mereferensikannya akan muncul dengan titik yang lebih besar pada grafik.
 
 ![[Pasted image 10.png]]
 
-### Visualization tips
+### Saran visualisasi
 
-- You can hover each node to highlight its connections, fading everything else.
-- You can drag nodes around to rearrange the graph. This may be helpful if some nodes are overlaying others.
+- Anda dapat mengarahkan kursor pada setiap titik untuk menyorot koneksinya, dan memudarkan yang lain.
+- Anda dapat menyeret titik untuk menyusun ulang grafik. Ini mungkin berguna jika beberapat titik saling bertumpuk satu sama lain.
 
-### Navigation tips
+### Saran bernavigasi
 
-- To zoom, you can use mouse wheel scroll, as well as the `+` and `-` keys.
-- To pan around, drag the background or use the keyboard arrow keys.
-- Hold `Shift` while navigating with the keyboard to speed things up.
+- Untuk memperbesar, Anda dapat menggunakan roda gulir tetikus, serta tombol `+` dan `-`.
+- Untuk menggeser, seret latar belakang atau menggunakan tombol panah di keyboard.
+- Tahan tombol `Shift` saat bernavigasi dengan keyboard untuk mempercepat.
 
-### Custom CSS
+### CSS kustom
 
-Since the graph is rendered using `<canvas>` and WebGL, [[Kustomisasi CSS|CSS]] is unable to affect things like nodes and links. To customize graph view, we have provided a way to convert CSS colors into WebGL commands.
+Dikarenakan grafik dirender menggunakan `<canvas>` dan WebGL, [[Kustomisasi CSS|CSS]] tidak dapat mempengaruhi beberapa hal seperti titik dan tautan. Untuk mengubah tampilan grafik. kami menyediakan cara untuk mengubah warna CSS menjadi perintah WebGL.
 
-#### The following CSS classes are supported:
+#### Kelas CSS berikut telah didukung:
 
-```
+```css
 .graph-view.color-fill
-.graph-view.color-fill-tag (theme-dependent)
-.graph-view.color-fill-attachment (theme-dependent)
+.graph-view.color-fill-focused (gunakan transparent untuk mematikan)
+.graph-view.color-fill-tag (tergantung tema)
+.graph-view.color-fill-attachment (tergantung tema)
 .graph-view.color-arrow
 .graph-view.color-circle
 .graph-view.color-line
@@ -34,25 +35,25 @@ Since the graph is rendered using `<canvas>` and WebGL, [[Kustomisasi CSS|CSS]] 
 .graph-view.color-fill-unresolved
 ```
 
-\* theme-dependent means you may have to add `.theme-dark` or `.theme-light` to style it for different themes. See [[Tampilan grafik#Custom CSS#Defaults]] for explanation.
+\* tergantung tema maksudnya Anda mungkin menambahkan `.theme-dark` atau `.theme-light` untuk mengubah gaya pada tema yang berbeda. Lihat [[#CSS kustom#Bawaan]] untuk penjelasanya.
 
-#### The following CSS rules are supported:
+#### Aturan CSS berikut telah didukung:
 
 ```css
  .graph-view.color-class {
-	/* Supports all CSS color directives, like #HEX, rgb and rgba */
+	/* Mendukung semua warna direktif CSS, seperti #HEX, rgb dan rgba */
 	color:   #FFF;
 	color:   #FFFFFF;
 	color:   rgb(0, 0, 0);
 	color:   rgba(0, 0, 0, 1);
-	/* Opacity (similar to rgba) will make the color transparent */
+	/* Opacity (serupa dengan rgba) akan membuat warna menjadi transparan */
 	opacity: 0.5;
 }
 ```
 
-#### Defaults:
+#### Bawaan:
 
-These CSS rules are the ones Obsidian use by default. You may override any of them using an identical or [more specific](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) CSS rule. This applies especially to `.color-fill-tag` and `.color-fill-attachment` As a last resort, add `!important` to the end of your rule.
+Aturan CSS berikut merupakan yang Obsidian gunakan secara bawaan. Anda mungkin menimpa aturan CSS apa pun yang serupa atau [yang lebih spesifik](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity). Ini diterapkan khususnya pada `.color-fill-tag` dan `.color-fill-attachment` Sebagai upaya terakhir, tambahkan `!important` di akhir aturan Anda.
 
 ```css
 .graph-view.color-fill,
@@ -65,6 +66,6 @@ These CSS rules are the ones Obsidian use by default. You may override any of th
 .graph-view.color-line,
 .graph-view.color-text,
 .graph-view.color-fill-highlight,
-.graph-view.color-line-highlight,
+.graphview.color-line-highlight,
 .graph-view.color-fill-unresolved {}
 ```

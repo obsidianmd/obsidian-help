@@ -1,19 +1,19 @@
-Each collection of notes in Obsidian is known as a Vault. A Vault consists of a folder, and any sub-folders within it. Right now, you're looking at the `Obsidian Help` Vault, which is just a folder of files included with Obsidian.
+Setiap koleksi dari catatan di Obsidian dikenal dengan nama Vault. Setiap Vaultnya terdiri atas folder, dan semua subfolder di dalamnya. Saat ini, Anda melihat pada Vault `Bantuan Obsidian`, yang mana merupakan folder dari kumpulan berkas-berkas yang termasuk di Obsidian.
 
-You can open another Vault anywhere on your computer, and it will retain its own individual [[Daftar plugin|Plugins]] and [[Add custom styles|custom styling]]. This is useful, for example, if you have one Vault where you keep notes but a different one in which you do long-form writing.
+Anda dapat membuka Vault lain di mana pun di komputer Anda, dan ia akan menyimpan [[Plugin inti|plugin]] dan [[Menambah gaya kustom|gaya kustom]]nya tersendiri. Ini akan sangat berguna, misalnya, jika Anda memiliki sebuah Vault sebagai penyimpanan catatan dan yang lainnya sebagai tempat anda menulis artikel.
 
-A new or existing Vault can be opened from the button just above the Settings gear.
+Vault baru ataupun yang sudah tersedia dapat dibuka melalui tombol yang terletak di atas gerigi Pengaturan.
 
 ![[Vault picker.png]]
 
-You have the option to either open an existing folder of markdown files, create a new vault (which essentially just creates a new folder that you will put markdown files into), or opening a special vault containing these help files. The Help Vault is stored in a special Obsidian directory (see [[How Obsidian stores data]]), but aside from that, it's a directory of files just like any other.
+Anda memiliki opsi untuk membuka folder dari berkas-berkas markdown, membuat vault baru (sebenarnya hanya membuat folder baru sebagai wadah Anda menempatkan berkas-berkas markdown), ataupun membuka vault khusus yang berisikan berkas-berkas bantuan. Vault Bantuan disimpan pada direktori khusus dari Obsidian (lihat [[Bagaimana Obsidian menyimpan data]]), di samping dari itu, ia hanyalah direktori dari berkas-berkas seperti halnya yang lain.
 
-[[Link internal|Internal Links]] are not shared across Vaults. If you have one Vault inside another Vault, this can get confusing, so we recommend not doing that.
+[[Tautan internal]] tidak dibagikan antar Vault. Jika Anda memiliki satu Vault di dalam Vault yang lainnya, ini akan menjadi membingungkan, sehingga kami tidak menyarankan Anda melakukan hal itu.
 
-Always remember, a Vault is just a collection of markdown files. You can use whatever file management techniques you would normally to move them around on your file system, and Obsidian will automatically refresh to keep up.
+Selalu diingat, Vault hanyalah sebuah koleksi dari berkas-berkas markdown. Anda dapat menggunakan teknik pengelolaan berkas apa pun yang Anda biasa gunakan untuk memindahkannya di sistem berkas Anda, dan Obsidian akan secara otomatis memuat ulang mereka.
 
-### Transfer settings between vaults
+### Berbagi pengaturan antar vault
 
-All settings, themes, and plugins are stored in the `.obsidian` folder under your vault. If you copy this folder from one vault to another, all the settings will be transferred as well. You may need to restart Obsidian for all of the settings to take effect.
+Semua pengaturan, tema, dan plugin disimpan pada folder `.obsidian` di vault Anda. Jika Anda menyalin folder ini dari satu vault ke yang lainnya, semua pengaturan akan dibagikan pula. Anda mungkin perlu memuat ulang Obsidian untuk mendapatkan perubahannya.
 
-This folder is hidden in some operating systems. Notably, you can use `Cmd-Shift-Period` to show hidden files on macOS in order to reveal the `.obsidian` folder.
+Folder ini tersembunyi di beberapa sistem operasi. Umumnya, Anda dapat menggunakan `Cmd-Shift-Titik` untuk menampilkan berkas tersembunyi di macOS untuk menampilkan folder `.obsidian`.

@@ -1,8 +1,31 @@
-Daily Notes will create a new note that is automatically named with the current date. If it already exists, it will open that note. This is a useful way to create a daily log, todo list, or a list of links to notes that you have created on a specific day.  
+Catatan harian membuka catatan berdasasrkan tanggal hari ini, atau membuatnya jika tidak tersedia. Gunakan catatan harian untuk membuat jurnal, daftar kegiatan, atau catatan harian untuh perihal yang Anda temukan seharian ini.
 
-The date format and default folder for Daily Notes can be set in Settings => Plugins, by clicking the gear next to the name.  The default date format is "YYYY-MM-DD" (ISO format). This format means that a list of daily notes, listed in alphabetical order, will also be in chronological order. 
+Untuk membuka catatan harian hari ini, antara:
 
-You can also define a template file for daily notes. This file will be copied into your Daily note when it's created, so it's a good place to put tags or links you use every day.
+- Mengklik **Buka catatan hari ini** (ikon kalender dengan tanda centang) pada [[ribbon]].
+- Jalankan **Buka catatan hari ini** melalui [[Palet Perintah]].
+- [[Pintasan kustom#Mengatur pintasan|Gunakan pintasan]] untuk perintah **Buka catatan hari ini**.
 
-You can create a Daily Note either by clicking on the calendar icon in the left panel, or with the [[Palet perintah]]. You can also set a hotkey in [[Pintasan keyboard]].
+Secara bawaan, Obsidian membuat catatan kosong yang dinamai sesuai dengan tanggal hari ini dengan format YYYY-MM-DD.
 
+> **Saran:** Jika Anda lebih menyukai memisahkan catatan harian Anda di folder terpisah, Anda dapat mengatur **Lokasi berkas baru** pada opsi plugin untuk mengubah di mana Obsidian membuat catatan harian baru.
+
+## Membuat catatan harian berdasarkan template
+
+Jika catatan harian Anda memiliki struktur yang sama, Anda dapat menggunakan [[template]] untuk menambahkan pendefinisian awal konten untuk catatan harian Anda ketika Anda membuatnya.
+
+1. Buat catatan baru dengan nama "Template Harian" dengan teks berikut (atau apa pun yang sesuai dengan keinginan Anda!):
+
+   ```md
+   # {{date:YYYY-MM-DD}}
+
+   ## Tugas
+
+   - [ ]
+   ```
+
+2. Buka **Pengaturan**.
+3. Pada bilah alat, klik **Catatan harian** pada **Opsi plugin**.
+4. Pada kotak teks di sebelah **Lokasi berkas template**, pilih catatan "Template Harian".
+
+Obsidian akan menggunakan template tersebut ketika Anda membuat catatan harian baru selanjutnya.
