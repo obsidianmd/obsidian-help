@@ -10,7 +10,7 @@ First of all, tell me a little bit about what's your experience with note-taking
 
 -> [[Frrom standard note-taking|I’ve used note-taking apps like Evernote and OneNote]]
 
--> [[From plain-text note-taking|I have used plain-text based apps like Org Mode, Typora, and nvALT]]
+-> [[From plain-text note-taking|I have used plain-text based apps]]
 
 ---
 
