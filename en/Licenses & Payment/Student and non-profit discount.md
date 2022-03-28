@@ -20,17 +20,17 @@ A week before your discount expires, you will get an email reminder to renew it.
 
 ### FAQ
 
-> [!FAQ] How long does the application process take?
+> [!FAQ]- How long does the application process take?
 > If your application is not approved instantly after verifying your email, our team will review it. It will take up to 3 business days.
 > 
 > You don’t need to constantly check the account page for updates. We’ll send an email when you’re approved. Thanks for the patience and understanding!
 
-> [!FAQ] Do these discounts work with early bird pricing?
+> [!FAQ]- Do these discounts work with early bird pricing?
 > Thanks for being an early bird! None of these discounts stack with the early bird pricing, as early bird is likely the highest discount we’ll ever give out.
 > 
 > If you’re already an early bird, there’s generally not point in applying for discounts. But keep in mind that early bird pricing is sperate for Sync and Publish.
 
-> [!FAQ] Who’s eligible?
+> [!FAQ]- Who’s eligible?
 > If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount.
 > 
 > If you run or work at a non-profit organization, you generally qualify for non-profit discount.
