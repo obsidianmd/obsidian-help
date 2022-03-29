@@ -28,7 +28,7 @@ A week before your discount expires, you will get an email reminder to renew it.
 > [!FAQ]- Do these discounts work with early bird pricing?
 > Thanks for being an early bird! None of these discounts stack with the early bird pricing, as early bird is likely the highest discount we’ll ever give out.
 > 
-> If you’re already an early bird, there’s generally not point in applying for discounts. But keep in mind that early bird pricing is sperate for Sync and Publish.
+> If you’re already an early bird, there’s generally no point in applying for discounts. But keep in mind that early bird pricing is separate for Sync and Publish, so if you missed early bird pricing for one of them, you may still want to apply for a discount.
 
 > [!FAQ]- Who’s eligible?
 > If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount.
