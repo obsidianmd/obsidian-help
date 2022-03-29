@@ -34,3 +34,8 @@ A week before your discount expires, you will get an email reminder to renew it.
 > If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount.
 > 
 > If you run or work at a non-profit organization, you generally qualify for non-profit discount.
+
+> [!FAQ]- What if my educational or non-profit organization does not provide an email address?
+> In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to support@obsidian.md. Be sure to include your Obsidian account email address too.
+> 
+> Our team will review your application and get back to you. Thanks for your patience and understanding!
