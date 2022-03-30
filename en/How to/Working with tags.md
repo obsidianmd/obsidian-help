@@ -1,5 +1,18 @@
 Tags are a very useful way of grouping multiple notes so they are easy to find. A tag is essentially a clickable search through your entire Vault for a term. For example, clicking on #tags will bring up a search with all notes that contain that tag. Most people use them for broad categories of things, like a class you might be taking notes in or a type of idea. Some Zettelkasten practitioners like to use them as "entry points" for thinking about connected ideas. But ultimately, they are flexible enough that you can use them in any way you would like.
 
+### Add tags
+
+Just type `#` followed by tag name like `#tag1` 
+You can also add tags in the notes [[YAML front matter]] like so:
+
+```
+---
+tags:
+  - tag1
+  - tag2
+---
+```
+
 ### Tag pane
 
 If you have the [[Tag pane]] plugin enabled, you will see a list of all tags that are used across all of your notes, sorted by frequency. Clicking on any of those will activate that search.
@@ -21,14 +34,3 @@ The only symbols allowed are:
 2. `/` (forward slash) for [[Tag pane#Nested tags|nested tags]].
 
 Numbers are allowed in the tag, ==as long as the tag is not purely numeric==. For example, #1984 isn't a valid tag, but #y1984 is a valid one.
-
-### Set tags
-Just type `#` followed by tag name like `#tag1` 
-You can also add tags in the notes [[YAML front matter]] like so
-```
----
-tags:
-  - tag1
-  - tag2
----
-```
