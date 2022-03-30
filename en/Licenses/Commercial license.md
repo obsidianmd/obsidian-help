@@ -13,6 +13,6 @@ You don't need a Commercial license if you work in any of the following settings
 - Non-profit organizations
 - Freelancing or companies with a single person
 
-To purchase a commercial license, visit the [pricing page](https://obsidian.md/pricing). You can evaluate Obsidian for commercial use for 14 days.
+You can evaluate Obsidian for commercial use for 14 days. To purchase a commercial license, visit the [pricing page](https://obsidian.md/pricing).
 
 For bulk discounts, contact support@obsidian.md.
