@@ -1,17 +1,19 @@
-## Obsidian Catalyst and Unlimited
+We offer full refunds within 7 days of purchase with no questions asked for the following services and licenses:
 
-[[Catalyst license]] purchases and Obsidian Unlimited donations are to support Obsidian's development. ==They are not refundable.==
+- [[Introduction to Obsidian Publish|Obsidian Publish]]
+- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Commercial license]]
 
-Although they might give you exclusive early access to insider builds or feature betas, we do not sell them as a product.
 
-We cannot provide refunds for Catalyst purchases. Thanks for your understanding!
+> [!Warning] No refunds for Catalyst and donations
+> [[Catalyst license|Catalyst licenses]] and [[Obsidian Unlimited (donation)]] are **not** refundable. While they give you a number of benefits, they're intended to support the Obsidian development and aren't sold as products.
 
-If there is any issue with a transaction, please reach out to support@obsidian.md or on Discord.
+> [!Note] Talk to a human
+> If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, contact support@obsidian.md.
 
-## All other services
+## Request a refund
 
-For all other services and licenses, including [[Commercial license]], [[Introduction to Obsidian Publish|Obsidian Publish]], and [[Introduction to Obsidian Sync|Obsidian Sync]], you can request a full refund within 7 days of purchase with no questions asked.
-
-We do not provide pro-rated refunds once the refund window has passed.
-
-To request a refund, log into your account [on our Account page](https://obsidian.md/account), and use the **Invoices & Refunds** option. If a payment is refundable, a link to request refund will appear. You can simply click the link to get your refund.
+1. Log into your account [on our Account page](https://obsidian.md/account).
+2. Under **Payment & billing** > **Invoices & refunds**, click **View**.
+3. Next to the payments you want a refund for, if you’re qualified for a refund, you’ll see a link to **Get refund**. Click on the click.
+4. Your service will be removed and any auto-renewals will be cancelled as well. If you confirm to proceed, click **Request refund**

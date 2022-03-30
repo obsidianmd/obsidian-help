@@ -1,47 +1,53 @@
-Obsidian is free for personal use. A Catalyst license is an optional license that provides the following benefits:
+While Obsidian is free of charge for personal use, you can support the Obsidian development by purchasing a _Catalyst_ license.
 
-1. It gives you early access to the latest, cutting edge versions of the app;
-2. Provides you cool badges on our community Discord server and forum; and
-3. It helps support the development of Obsidian (thank you 💜!)
+While the Catalyst license doesn't grant you any additional features inside the app itself, you'll receive exclusive benefits, such as:
 
-There are three tiers of the Catalyst license: Insider ($25), Supporter ($50), and VIP ($100) - each of which gives you [[Insider builds|access to insider builds]].
+- Early access to [[#Enable Insider builds|Insider builds]].
+- Access to exclusive [[#Join our Insider channels|Insider channels]].
+- Cool and unique [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
 
-Please note that Catalyst is optional and ==does not give you any additional app features==.
+> [!Note] Commercial use
+> If you use Obsidian for work, you may need to obtain a [[Commercial license]].
 
-To upgrade to Catalyst, please visit [our pricing page](https://obsidian.md/pricing).
+## Catalyst tiers
 
-If you use Obsidian for work-related activities, you may need a [[Commercial license|commercial license]].
+The Catalyst license consists of three tiers: *Insider*, *Supporter*, and *VIP*.
 
-## FAQ
+| Benefits                                | Insider | Supporter |   VIP    |
+|-----------------------------------------|:-------:|:---------:|:--------:|
+| Early access to Insider builds          |    ✓    |     ✓     |    ✓     |
+| Access to exclusive development channel |    ✓    |     ✓     |    ✓     |
+| Insider community badge                 |    ✓    |           |          |
+| Supporter community badge               |         |     ✓     |          |
+| VIP community badge                     |         |           |    ✓     |
+| **Pricing**                             | **$25** |  **$50**  | **$100** |
 
-### How do I get my shiny badges after I upgrade?
+_Prices are in USD._
 
-Congratulations! After upgrading, you will find two buttons in the "Catalyst" section in your Account page.
+## Access Catalyst benefits
 
-#### Discord badge
+Once you've purchased a Catalyst license, you can access a range of benefits. Learn how to enable them here.
 
-==Please make sure to join [our Discord server](https://discord.gg/veuWUTm) first.==
+### Get your forum badge
 
-In [your account page](https://obsidian.md/account), click on "Get Discord badge", which will authenticate with Discord and add the badge for you automatically.
+**Note:** To connect your Obsidian account and your forum account, you need to use the same email address for both accounts.
 
-#### Forum badge
+1. If you haven't already, join our [forum](https://forum.obsidian.md/).
+2. Browse to your [Obsidian account page](https://obsidian.md/account).
+3. Under **Your license** -> **Obsidian Catalyst**, click **Get forum badge**.
 
-==Please make sure you've registered an account at [our forum](https://forum.obsidian.md) with the same email address.==
+### Get your Discord badge
 
-In [your account page](https://obsidian.md/account), click on "Get forum badge" , which will add the badge to your forum account.
+1. If you haven't already, join our [Discord server](https://discord.gg/veuWUTm).
+2. Browse to your [Obsidian account page](https://obsidian.md/account).
+3. Under **Your license** -> **Obsidian Catalyst**, click **Get Discord badge**.
 
-If your forum email doesn't match your account email, the badge can't be added. In that case, please change your email in the forum to be consistent with your account email.
+### Join our Insider channels
 
-Please note that your forum badge is not a "badge" in the forum system, but a shiny gold tag right next to your name in all of your posts.
+Insiders can chat with the Obsidian team and other Insiders in our exclusive Discord channels.
 
-### What do I get when I pay for Catalyst?
+You automatically join the Insider channels after you [[#Get your Discord badge]].
 
-You get access to our [[Insider builds]]. On top of that, if you get Supporter or VIP tier, you can access an exclusive Discord channel to hang out with the developers.
+### Enable Insider builds
 
-When we do closed beta for a big new feature (such as mobile apps or a Typora-like WYSIWYM mode), we will roll out the beta to VIPs, Supporters, Insiders, and then everyone else, fixing issues along the way.
-
-### What payment methods do you accept?
-
-Our website accepts credit cards and some debit cards. This method is the quickest and easiest.
-
-If you need to pay via PayPal or Wechat, it's also possible. Please find the instructions by logging in on our website and select the "Catalyst" option.
+Please see [[Insider builds]].

@@ -12,4 +12,4 @@ We understand that you might not be interested in any of our paid products right
 
 - If you only use Obsidian for personal purposes, consider getting a [[Catalyst license]].
 
-- If you already have a Catalyst license and you still want to donate to Obsidian, you can also contribute to [[Obsidian Unlimited]].
+- If you already have a Catalyst license and you still want to donate to Obsidian, you can also contribute to [[Obsidian Unlimited (donation)]].
