@@ -72,8 +72,6 @@ For example:
 
 When Sync downloads a new version of a file, and finds that there are conflicts with the local copy, the changes are merged with Google's diff-match-patch algorithm.
 
-This normally works well, although sometimes it does sometime just add one version of the file to the other.
-
 Note that unless you search the sync log for `Merging conflicted file`, there is no visible notification if a conflict has happened, and how it was resolved.
 
 ### Deleted files
