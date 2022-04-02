@@ -1,4 +1,15 @@
-Laman ini beriskan masalah unum yang mungkin Anda temukan, dan maksud di dalamnya.
+Laman ini beriskan masalah unum yang mungkin Anda temukan, dan cara mengatasinya.
+
+## Perubahan dari
+
+Sebuah konflik terjadi ketika Anda membuat perubahan ke berkas yang sama pada dua atau lebih perangkat di antara sinkronisasi. Misalnya, pada
+
+Konflik biasanya lebih sering terjadi jika anda bekerja secara luring, dikarenakan terdapat perubahan yang banyak serta jangka waktu yang lama di antara sinkronisasi dan hal tersebut lebih berpotensi menghasilkan konflik.
+
+Ketika Sinkronisasi mengunduh versi baru dari berkas, dan menemukan konflik dengan versi lokal, perubahan akan digabungkan dengan algoritma Google's diff-match-patch.
+
+> [!tip]
+> Untuk menemukan konflik yang telah terjadi, Anda dapat mencari "Menggabungkan berkas terkonflik" pada **Pengaturan** → **Sinkronisasi** → **Aktivitas sinkronisasi** → **Tampilkan**.
 
 ## Apa maksud dari kesalahan `vault limit exceeded`?
 

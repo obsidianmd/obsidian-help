@@ -13,7 +13,7 @@ Pada panduan ini, anda akan mengaktifkan  [[Berkenalan dengan Obsidian Sync|Obsi
 4. Pada **Kata sandi**, masukkan kata sandi Anda.
 5. Klik **Masuk**.
 
-## Langkah 2: Aktifkan Obsidian Sync
+## Langkah 2: Mengaktifkan Obsidian Sync
 
 1. Buka **Pengaturan**.
 2. Pada bilah sisi, klik **Plugin inti**.

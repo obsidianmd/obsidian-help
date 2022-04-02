@@ -26,6 +26,6 @@ Sejal 0.12.12, terdapat empat kunci yang didukung decara bawaan:
 - `tags` ([[Bekerja dengan tag|informasi lebih lanjut]])
 - `aliases` ([[Menambah alias ke catatan|informasi lebih lanjut]])
 - `cssclass`
-- `publish`([[Mempublikasi dan membatalkan publikasi catatan#Memilih catatan untuk dipublikasikan secara otomatis]] dan [[Mempublikasi dan membatalkan publikasi catatan#Mengecualikan catatan]])
+- `publish` ([[Mempublikasi dan membatalkan publikasi catatan#Memilih catatan untuk dipublikasikan secara otomatis]] dan [[Mempublikasi dan membatalkan publikasi catatan#Mengecualikan catatan]])
 
 Seiring Obsidian yangterus berkembang, kami secara bertahap akan membuatnya lebih mudah diakses oleh pengembang plugin, dan membuatnya lebih ramah pengguna.

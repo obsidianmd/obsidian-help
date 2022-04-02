@@ -14,7 +14,7 @@ Jika Anda berada di server Discord kami, Anda dapat pergi ke channel #insider-bu
 
 ## Versi insider seluler
 
-Jika Anda memiliki [[Lisensi Catalyst]], Anda mungkin ingin bergabung dengan [[Versi insider]] untuk seluler kami.
+Jika Anda memiliki [[Lisensi Catalyst]], Anda mungkin ingin bergabung dengan [[Versi Insider]] untuk seluler kami.
 
 Untuk membiarkan umpan balik dan rilisan terpusan dikarenakan kami tidak memiliki kapasitas men-debug dan mengumpulkan umpan balik melalui surel, kami meminta pengguna Catalyst yang ingin menguji versi beta dengan mengikuti langkah-langkah berikut:
 

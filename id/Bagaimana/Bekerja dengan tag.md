@@ -1,5 +1,18 @@
 Tag merupakan cara yang sangat berguna untuk mengelompokkan catatan sehingga mudah untuk ditemukan. Sebuah tag pada dasarnya merupakan penelusuran yang dapat diklik melalui seluruh Vault Anda untus sebuah istilah. Misalnya, menekan #tag akan menampilkan penelusuran dengan semua catatan yang mengandung tag tersebut. Kebanyakan orang akan menggunakannya untuk menjelaskan kategori dari sesuatu, seperti kelas yang mungkin memerlukan catatan atau sekumpulan ide. Beberapa praktisi Zettelkasten suka menggunakannya sebagai "poin awal" untuk berpikir mengenai keterhubungan ide. Teatapi pada akhirnya, mereka cukup fleksibel untuk Anda gunakan bagaimanapun cara yang Anda sukai.
 
+### Menambah tag
+
+Cukup mengetikkan `#` dan diikuti dengan nama tag seperti `#tag1`
+Anda dapat pula menambahkan tag pada [[YAML front matter]] catatan seperti:
+
+```
+---
+tags:
+- tag1
+- tag2
+---
+```
+
 ### Panel tag
 
 Jika anda memiliki plugin [[Panel tag]] yang aktif, Anda dapat melihat daftar tag yang digunakan di seluruh catatan, diurutkan berdasarka frekuensi penggunaan. Menekan pada salah satunya akan menjalankan penelusuran.

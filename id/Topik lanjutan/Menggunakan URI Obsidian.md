@@ -72,7 +72,7 @@ Contoh:
 
 - `obsidian://open?path=D%3A%5CDocuments%5CVault%20saya%5CCatatan%20saya`
 	Ini akan melihat untuk vault apa pun yang mengandung alur `D:\Documents\Vault saya\Catatan saya`. Lalu, keseluruhan alur akan meloloskan parameter `file`. Misalnya, jika vault tersedia pada `D:\Documents\My vault`, lalu ini akan serupa dengan parameter `file` yang diatur ke `Catatan saya`.
-	
+
 #### Aksi `search`
 
 Deskripsi: Membuka panel penelusuran untuk vault, dan secara opsional menjalankan kueri penelusuran.
@@ -102,6 +102,9 @@ Parameter yang dimungkinkan:
 - `path` alur absolut secara global. Bekerja serupa dengan opsi `path` pada aksi `open`, yang mana akan menimpa  `vault` dan `file`.
 - `content` (opsional) isi dari catatan
 - `silent` (opsional) atur ini jika Anda tidak ingin membuka catatan baru
+- `append` (opsional) menggabungkan ke berkas yang tersedia jika ada.
+- `overwrite` (opsional) menimpa berkas yang tersedia jika ada, tetapi hanya jika `append` tidak diatur.
+- `x-success` (opsional) lihat [[#x-callback-url]].
 
 Contoh:
 
@@ -112,11 +115,33 @@ Contoh:
 	
 #### Aksi `hook-get-address`
 
-Deskripsi: Endpoint untuk digunakan dengan [Hook](https://hookproductivity.com/). Menyalin tautan markdown dari catatan yang difokuskan sekarang ke papan klip, sebagai Tautan `obsidian://open`. Gunakan: `obsidian://hook-get-address`
+Deskripsi: Endpoint untuk digunakan dengan [Hook](https://hookproductivity.com/). Gunakan: `obsidian://hook-get-address`
+
+Jika `x-success` didefinisikan, API ini akan menggunakannya sebagai x-callback-url. Selain dari itu, ia akan menyalin tautan markdown dari catatan yang sedang difokuskan sekarang ke papan klip, sebagai Tautan `obsidian://open`.
 
 Parameter yang dimungkinkan:
 
 - `vault` (opsional) dapat menggunakan nama vault, atau ID vault. Jika tidak diberikan, vault terkini atau terakhir difokuskan akan digunakan.
+- `x-success` (opsional) lihat [[#x-callback-url]].
+- `x-error` (opsional) lihat [[#x-callback-url]].
+
+## x-callback-url
+
+Tersedia sejak v0.14.3.
+
+Beberapa endpoint akan menerima parameter `x-success` dan `x-error` dari x-callback-url. Ketika tersedia, Obsidian akan memberikan hal-hal berikut ke callback `x-success`:
+
+- `name` nama dari berkas, tanpa ekstensi berkas.
+- `url` Tautan `obsidian://` untuk berkas ini.
+- `file` (hanya desktop) Tautan `file://` untuk berkas ini.
+
+Misalnya, jika kami menerima
+
+`obsidian://.....x-success=myapp://x-callback-url`
+
+Kemungkinan responnya
+
+`myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
 
 ## Format singkat
 

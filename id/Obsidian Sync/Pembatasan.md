@@ -21,3 +21,11 @@ Pada saat ini, setiap berkasnya dapat mencapai 100 MB.
 Kami menyimpan data vault remote Anda, termasuk riwayat versi, hingga satu bulan setelah status langganan Anda kadaluarsa.
 
 Selama Anda memperbaruinya selama satu bulan, tidak akan berdampak pada penggunaan Anda.
+
+## Apakah data saya akan tersinkronisasi di latar belakang?
+
+Tidak, berkas hanya akan tersinkronsisasi pada saat Obsidian berjalan.
+
+## Sistem operasi apa saja yang mendukung Obsidian Sync?
+
+Obsidian Sync mendukung setiap platform yang dapat menjalankan Obsidian Obsidian. Yang berarti saat ini Windows, macOS, Linux, Android dan iOS.

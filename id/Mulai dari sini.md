@@ -20,7 +20,7 @@ Jika Anda ingin pengenalan lebih dalam, termasuk sedikit tentang filosofi kami, 
 
 Dan jika Anda suka pengenalan yang ramah, atau hanya ingin memulai tetapi tidak tahu bagaimana melakukannya, pergilah ke [[Dasar mencatat]].
 
-Jika Anda seorang [Catalyst supporter](https://obsidian.md/pricing), dan ingin mengaktifkan versi Insider, lihat [[Versi insider]].
+Jika Anda seorang [Catalyst supporter](https://obsidian.md/pricing), dan ingin mengaktifkan versi Insider, lihat [[Versi Insider]].
 
 ## Alur Kerja
 

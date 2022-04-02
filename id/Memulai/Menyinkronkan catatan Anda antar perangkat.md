@@ -36,6 +36,8 @@ Untuk menyinkrokan catatan Anda ke iPhone ataupun iPad Anda, kami sepenuhnya men
 
 Obsidian dapat menggunakan iCloud Drive sebagai sistem berkas lokal.
 
+ Ketika menggunakan iCloud Drive di macOS, pastikan memperbarui versi pemasang aplikasi desktop Anda ke v0.13.0 atau yang lebih baru.
+
 #### Membuat vault baru di iCloud Drive
 
 Untuk membuat vault baru di iCloud Drive pada iPhone atau iPad Anda:

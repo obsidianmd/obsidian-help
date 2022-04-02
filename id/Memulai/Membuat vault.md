@@ -2,12 +2,16 @@ Vault merupakan folder pada sistem berkas lokal Anda di mana Obsidian menyimpan 
 
 Saat pertama kali membuka Obsidian, Anda akan ditawarkan untuk menambahkan vault baru dari [[Pengalih vault]].
 
+## Membuat vault kosong
+
 Untuk membuat vault kosong baru dari pengalih vault:
 
 1. Di bagian kanan dari **Buat vault baru**, klik **Buat**.
 2. Pada **Nama vault**, masukkan nama dari vault Anda.
 3. Klik **Jelajahi** untuk memilih di mana vault baru Anda akan dibuat.
 4. Klik **Buat**.
+
+## Membuka folder yang tersedia
 
 Jika Anda telah memiliki folder yang ingin digunakan sebagai vault Anda:
 

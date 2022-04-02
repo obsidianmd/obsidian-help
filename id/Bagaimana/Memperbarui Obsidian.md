@@ -6,7 +6,7 @@ Anda dapat memeriksa versi terkini Anda, periksa pembaruan di Pengaturan => Tent
 
 ### Versi insider
 
-Jika Anda ingin mendapatkan pembaruan ke versi insider terbaru, harap lihat [[Versi insider#Bagaimana mengaktifkan versi insider|panduan ini]] untuk bagaimana cara mengaktifkannya.
+Jika Anda ingin mendapatkan pembaruan ke versi insider terbaru, harap lihat [[Versi Insider#Bagaimana mengaktifkan versi insider|panduan ini]] untuk bagaimana cara mengaktifkannya.
 
 ### Versi terkini vs versi pemasang
 

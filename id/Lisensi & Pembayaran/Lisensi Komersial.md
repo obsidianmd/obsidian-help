@@ -1,8 +1,23 @@
-### Mengenai lisensi komersial Obsidian
+Jika Anda menggunakan Obsidian untuk kebutuhan komersial pada perusahaan dengan dua (2) ataul lebih karyawan, Anda perlu untuk membayar Lisensi Komersial.
+ 
+Kebutuhan komersial termasuk, tetapi tidak terbatas pada, aktifitas terkait pekerjaan seperti:
 
-Obsidian itu gratis untuk penggunaan pribadi. Untuk penggunaan komersial (bisnis) pada perusahaan dengan dua (2) atau lebih karyawan, dibutuhkan lisensi komersial. Penggunaan bisnis termasuk segala aktifitas yang berkaitan dengan pekerjaan seperti menangkap catatan pertemuan, catatan pemeliharaan projek tim, penyusunan wiki organisasi, dan pembuatan catatan serupa, pengelolaan dokumen, ataupun fungsi pengelolaan pengetahuan.
+- Catatan pertemuan
+- Catatan projek untuk tim
+- Wiki Organisasi
 
-Untuk memperoleh lisensi komersial, harap kunjungi [laman harga kami](https://obsidian.md/pricing).
+Anda tidak memerlukan Lisensi komersial jika Anda bekerja pada keadaan berikut:
+
+- Sekolah dan institusi terkait pendidikan
+- Riset non-komersial
+- Organisasi nirlaba
+- Pekerja lepas atau perusahaaan dengan satu orang
+
+Anda dapat mengevaluasi Obsidian untuk kebutuhan komersial selama 14 hari. Anda tidak perlu membayar ketika Anda mengevaluasi.
+
+Untuk membayar lisensi komersial, kunjungi [laman harga](https://obsidian.md/pricing).
+
+Untuk diskon massal, hubungi support@obsidian.md.
 
 ### Yang sering ditanyakan
 

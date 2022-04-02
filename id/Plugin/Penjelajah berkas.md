@@ -55,6 +55,7 @@ Untuk memindahkan berkas atau folder, Anda dapat menggunakan seret-dan-jatuhkan 
 **Seret dan jatuhkan:**
 
 - Seret berkas atau folder ke folder tujuan.
+- Dengan `Alt`-`Klik` (Windows/Linux) atau `Opt`-`Klik` (MacOS) Anda dapat memilih banyak berkas dan menyeretnya ke folder lain. Jika mereka berada dalam satu baris, Anda dapat menggunakan `Shift`-`Click`.
 
 **Menu konteks:**
 
