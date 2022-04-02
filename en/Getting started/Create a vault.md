@@ -2,12 +2,16 @@ A vault is a folder on your local file system where Obsidian stores your notes. 
 
 The first time you open Obsidian, you'll be asked to add a new vault from the [[Vault switcher]].
 
+## Create empty vault
+
 To create a new empty vault from the vault switcher:
 
 1. To the right of **Create new vault**, click **Create**.
 2. In **Vault name**, enter the name of your vault.
 3. Click **Browse** to select where your new vault will be created.
 4. Click **Create**.
+
+## Open existing folder
 
 If you already have a folder that you want to use as your vault:
 

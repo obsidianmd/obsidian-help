@@ -1,7 +1,7 @@
 Embed another file (read more about [[Embeds]]). Here's an embedded section:
 
 ```md
-![[Format your notes#Horizontal Bar]]
+![[Plugins makes Obsidian special for you]]
 ```
 
-![[Format your notes#Horizontal Bar]]
+![[Plugins make Obsidian special for you]]

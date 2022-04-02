@@ -1,4 +1,16 @@
-This page lists common errors that you might encounter, and what they mean.
+This page lists common issues that you might encounter, and how to address them.
+
+## Changes from 
+
+A conflict happens when you make changes to the same file on two or more devices between syncs. For example, when 
+
+Conflicts usually happen more frequently if you work offline, since there are more changes and a longer period of time between syncs and thus more potential conflicts.
+
+When Sync downloads a new version of a file, and finds that there are conflicts with the local version, the changes are merged with Google's diff-match-patch algorithm.
+
+> [!tip]
+> To find when conflicts have happened, you can search for "Merging conflicted file" in **Settings** → **Sync** → **Sync activity** → **View**.
+
 
 ## What does the `vault limit exceeded` error mean?
 

@@ -8,6 +8,6 @@ Do you have any of the following concerns below?
 
 → [[Vault is just a local folder|I don’t want my notes to be inaccessible someday]]
 
-→ [[Plugins makes Obsidian special for you|I feel like the previous note-taking apps I used didn’t suit me well]]
+→ [[Plugins make Obsidian special for you|I feel like the previous note-taking apps I used didn’t suit me well]]
 
 → [[Get started with Obsidian|Just let me get started already]]
