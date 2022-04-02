@@ -4,9 +4,9 @@ Obsidian memeriksa pembaruan setiap 12 jam. Ketika pembaruan tersedia, memulai u
 
 Anda dapat memeriksa versi terkini Anda, periksa pembaruan di Pengaturan => Tentang. Anda dapat pula mematikan "pembaruan otomatis" di sana.
 
-### Versi insider
+### Versi Insider
 
-Jika Anda ingin mendapatkan pembaruan ke versi insider terbaru, harap lihat [[Versi Insider#Bagaimana mengaktifkan versi insider|panduan ini]] untuk bagaimana cara mengaktifkannya.
+Jika Anda ingin mendapatkan pembaruan ke versi Insider terbaru, harap lihat [[Versi Insider#Bagaimana mengaktifkan versi Insider|panduan ini]] untuk bagaimana cara mengaktifkannya.
 
 ### Versi terkini vs versi pemasang
 

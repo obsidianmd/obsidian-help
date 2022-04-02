@@ -1,8 +1,8 @@
-Versi insider merupakan versi percobaan dari Obsidian yang dirilis untuk pemilik lisensi Catalyst, sebagai keikutsertaan.
+Versi Insider merupakan versi percobaan dari Obsidian yang dirilis untuk pemilik lisensi Catalyst, sebagai keikutsertaan.
 
-Harap dicatat versi insider lebih tidak stabil jika dibandingkan dengan versi publik, jadi jika Anda lebih menyukai versi yang mulus, Anda tidak perlu mengaktifkannya.
+Harap dicatat versi Insider lebih tidak stabil jika dibandingkan dengan versi publik, jadi jika Anda lebih menyukai versi yang mulus, Anda tidak perlu mengaktifkannya.
 
-### Bagaimana mengaktifkan versi insider
+### Bagaimana mengaktifkan versi Insider
 
 Jika Anda seorang [[Lisensi Catalyst|Catalyst supporter]], Anda memiliki akses ke Versi Insider sebelum pengguna publik. Untuk mengaksesnya, pergi ke Pengaturan => Akun, dan masuk dengan kata sandi yang Anda gunakan pada situs Obsidian. Kemudian pergi ke Pengaturan => Tentang, dan aktifkan Versi Insider di sana.
 
@@ -12,7 +12,7 @@ Jika Anda seorang [[Lisensi Catalyst|Catalyst supporter]], Anda memiliki akses k
 
 Jika Anda berada di server Discord kami, Anda dapat pergi ke channel #insider-build untuk melaporkan masalah. Jika anda mengisi pelaporan masalah di forum, pastikan untuk menuliskan versi yang Anda gunakan, sehingga kami dapat meningkatkannya sebelum merilisnya ke semua orang.
 
-## Versi insider seluler
+## Versi Insider seluler
 
 Jika Anda memiliki [[Lisensi Catalyst]], Anda mungkin ingin bergabung dengan [[Versi Insider]] untuk seluler kami.
 

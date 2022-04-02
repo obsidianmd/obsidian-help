@@ -1,4 +1,4 @@
-Meskipun Obsidian itu gratis untuk penggunaan pribadi, tetapi Anda dapat mendukung pengembangan Obsidian dengan membeli lisensi _Catalyst_.
+Meskipun Obsidian itu gratis untuk penggunaan pribadi, tetapi Anda dapat mendukung pengembangan Obsidian dengan membayar lisensi _Catalyst_.
 
 Meskipun lisensi Catalyst tidak memberikan kepada Anda fitur tambahan apa pun di dalam aplikasi itu sendiri, Anda akan mendapatkan keuntungan khusus, seperti:
 

@@ -6,7 +6,7 @@ Salah satu cara terbaik untuk mendukung tim ialah melalui satu atau lebih produk
 
 - Jika Anda ingin mempublikasikan catatan Anda ke dunia, pertimbangkan untuk berlangganan [[Berkenalan dengan Obsidian Publish|Obsidian Publish]].
 
-- Jika Anda menggunakan Obsidian untuk pekerjaan, kami meminta Anda untuk membeli [[Lisensi Komersial]].
+- Jika Anda menggunakan Obsidian untuk pekerjaan, kami meminta Anda untuk membayar [[Lisensi Komersial]].
 
 Kami paham saat ini Anda mungkin tidak tertarik dengan produk berbayar kami, meskipun kami ingin tahu bagaimana kami dapat mengubahnya! Jika Anda tetap ingin mendukung Obsidian, pertimbangkan opsi berikut:
 

@@ -33,7 +33,7 @@ Tidak, organisasi nirlaba mungkin menggunakan Obsidian tanpa lisensi komersial.
 
 Untuk permasalahan diskon massal, harap hubungi kami di support@obsidian.md.
 
-##### Bagaimana saya menanyakan ke perusahaan untuk membeli lisensi untuk saya dan tim saya?
+##### Bagaimana saya menanyakan ke perusahaan untuk membayar lisensi untuk saya dan tim saya?
 
 Mintalah bagian IT untuk menghubungi support@obsidian.md jika mereka memiliki pertanyaan atau membutuhkan dokumen khusus.
 
