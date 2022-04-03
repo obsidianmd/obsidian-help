@@ -1,14 +1,14 @@
 ## Contoh slide Obsidian
 
 Untuk menampilkan slide, Anda perlu mengaktifkan plugin "Slide".
-Ini dapat dilakikan melalui tombol "Pengaturan" pada bagian bawah kiri.
+Ini dapat dilakukan melalui tombol "Pengaturan" => Plugin inti.
 
 ---
 
 ## Tujuan Obsidian
 
 - Berumur panjang
-- Jaringan terawat
+- Jaringan terbangun
 - Personalisasi
 
 ---
@@ -22,18 +22,18 @@ Ini dapat dilakikan melalui tombol "Pengaturan" pada bagian bawah kiri.
 
 ---
 
-## Merawat jaringan pengetahuan
+## Membangun jaringan pengetahuan
 
 - [[Tautan internal]]
 - Penyelesaian tautan otomatis
-- Melihat backlink ke dan sebutan yang belum tertaut dari catatan terkini
+- Melihat tujuan backlink dan sebutan yang belum tertaut dari catatan terkini
 - Tampilan grafik
 
 ---
 
 ## Personalisasi
 
-- Kami tidak mempercayai solusi tunggal, opsional dapat bekerja untuk semua orang
+- Kami tidak mempercayai solusi tunggal, yang keras kepala dapat bekerja untuk semua orang
 - Obsidian berbasiskan plugin
     - Aktifkan dan matikan mereka berdasarkan alur kerja Anda
     - Memperbolehkan plugin pihak ketiga akan dikembangkan setelah versi 1.0.0
