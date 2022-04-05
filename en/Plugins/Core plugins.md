@@ -18,6 +18,8 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 1. [[Templates]]
 1. [[Note composer]]
 1. [[Command palette]]
+1. [[Slash commands]]
+1. Editor Status
 1. [[Starred notes]]
 1. [[Markdown format converter]]
 1. [[Zettelkasten prefixer]]
