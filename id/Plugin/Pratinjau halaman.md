@@ -1,5 +1,5 @@
-Page preview lets you preview a page when hovering an internal link, without needing to actually navigate to that page.
+Pratinjau halaman meninjaukan sebuah halaman ketika mengarahkan kursor pada tautan internal, tanpa perlu bernavigasi ke laman tersebut.
 
 ![[Pasted image 13.png]]
 
-This works on the preview pane. In the editor, you can hover a link while holding `Ctrl/Cmd`, which will open the preview too.
+Ini akan bekerja pada panel pratinjau. Pada pengubah, Anda dapat mengarahkan kursor pada tautan ketika menahan tombol `Ctrl/Cmd`, yang mana juga akan membuka pratinjau.

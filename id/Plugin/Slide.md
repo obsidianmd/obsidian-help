@@ -1,13 +1,13 @@
-Slides lets you do simple presentations right inside Obsidian.
+Slide memberikan Anda presentasi sederhana di dalam Obsidian.
 
-### Usage tips
+### Saran penggunaan
 
-1. To separate slides, use newlines and the `---` separator.
+1. Untuk memisahkan antar slide, gunakan baris baru dan pemisah `---`.
 
-2. To start a presentation, click this button after opening a note:
+2. Untuk memulai presentasi, klik tombol berikut setelah membuka catatan:
 
 ![[Pasted image 14.png]]
 
-### Demo
+### Contoh
 
-Check out the demo document: [[Slides demo]]
+Lihat contoh dokumen: [[Contoh slide]]

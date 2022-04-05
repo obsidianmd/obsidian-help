@@ -1,14 +1,15 @@
-It allows you to convert from other variations of Markdown format and link convention to Obsidian format.
+Ini mempersilakan Anda untuk mengonversikan beragam format Markdown dan tautan lain menjadi format Obsidian.
 
-Right now you can convert:
+Sekarang ini Anda dapat mengonversikan:
 
-- Roam #tags to [[tags]]
-- Roam `^^highlight^^` to `==highlight==`
-- Zettelkasten `[[UID]]` links to full links `[[UID File Name]]`
-- Zettelkasten `[[UID]]` links to pretty links `[[UID File Name|File Name]]`, which will show up as just `File Name`
+- #tag Roam ke [[tag]]
+- `^^sorotan^^`Roam ke `==sorotan==`
+- `::sorotan::` Bear ke `==sorotan==`.
+- Tautan `[[UID]]` Zettelkasten ke tautan penuh `[[UID Nama Berkas]]`
+- Tautan `[[UID]]` Zettelkasten ke tautan indah `[[UID Nama Berkas|Nama Berkas]]`, yang mana akan ditampilkan sebagai `Nama Berkas`
 
 ---
 
-### Related
+### Terkait
 
-- [[Format catatan Anda]]
+- [[Memformat catatan Anda]]

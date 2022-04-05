@@ -1,41 +1,52 @@
-## About this site
-Welcome to Obsidian's official help vault! This page contains a quick index to the things that you may be interested in.
+## Mengenai situs ini
+Selamat datang ke vault bantuan resmi Obsidian! Laman ini mengandung pengindeksan cepat menuju hal-hal yang mungkin menarik bagi Anda.
 
-See public hosted version: https://publish.obsidian.md/help
+Lihat versi terhosting secara publik: https://publish.obsidian.md/help
 
-If you found mistakes or missing information, you can contribute to this site here: https://github.com/obsidianmd/obsidian-docs/
+Jika Anda menemukan informasi yang salah atau kurang, Anda dapat berkontribusi ke situs ini di: https://github.com/obsidianmd/obsidian-docs/
 
-## Credits
+## Bahasa Lain
 
-[[Credits|Our credits page]] lists all the amazing people who made Obsidian possible.
+Laman bantuan ini juga tersedia dengan bahasa lain:
 
-To read more about the makers, see the [about page](https://obsidian.md/about) on our official website.
+- [Italiano](https://publish.obsidian.md/help-it)
+- [中文](https://publish.obsidian.md/help-zh)
+- [日本語](https://publish.obsidian.md/help-ja)
+- [Dansk](https://publish.obsidian.md/help-da)
+- [Русский](https://publish.obsidian.md/help-ru)
+- [Tiếng Việt](https://publish.obsidian.md/help-vi)
+
+## Kredit
+
+[[Kredit|Laman kredit kami]] berisikan daftar orang-orang yang luar biasa yang membuat Obsidian menjadi nyata.
+
+Untuk lebih lanjut mengenai pembuat aplikasi, lihat [laman tentang](https://obsidian.md/about) pada situs web resmi kami.
 
 ## Obsidian
 
-### About the app
+### Tentang aplikasi
 
-- See [[Obsidian|our philosophy for the app]].
+- Lihat [[Obsidian|filosofi kami mengenai aplikasi]].
 
-### Getting started
+### Memulai
 
-- Looking for some functionality? Try the  [[Palet perintah]], which contains all available actions you need to work with Obsidian. Just press `Ctrl/Cmd-P` and start typing.
-- Learn our flavor of Markdown with [[Format catatan Anda|how to format your notes]].
-- Check out some tips on [[Membuat catatan|creating new notes]].
-- Check out some tips on [[Link internal|creating internal links]].
-- Learn how to [[Semat file|embed other notes or attachments]].
-- See the [[Pintasan keyboard|default keyboard shortcuts]].
+- Mencari beberapa fungsi? Cobalah [[Palet perintah]], yang mana mengandung semua aksi yang tersedia untuk membantu Anda bekerja dengan Obsidian. Cukup menekan `Ctrl/Cmd-P` dan mulai mengetik.
+- Pelajari Markdown khusus kami dengan [[Memformat catatan Anda|bagaimana memformat catatan Anda]].
+- Periksa beberapa saran pada [[Membuat catatan|membuat catatan baru]].
+- Periksa beberapa saran pada [[Tautan internal|membuat tautan internal]].
+- Pelajari bagaimana [[Menyematkan berkas|menyematkan catatan atau lampiran lain]].
+- Lihat [[Menggunakan pintasan|pintasan keyboard bawaan]].
 
-### Official plugins
+### Plugin resmi
 
-![[Daftar plugin#Current list of official plugins]]
+![[Plugin inti#Daftar plugin resmi yang ada]]
 
-### Advanced guides
+### Petunjuk lanjutan
 
-- [[Working with tags]]
-- [[Working with backlinks]]
+- [[Bekerja dengan tag]]
+- [[Bekerja dengan backlink]]
 - [[Bekerja dengan beberapa catatan]]
 - [[Tata letak panel]]
 - [[Bekerja dengan beberapa vault]]
-- [[Working with multiple cursors]]
+- [[Bekerja dengan kursor ganda]]
 - [[Menggunakan URI Obsidian]]

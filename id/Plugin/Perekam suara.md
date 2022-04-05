@@ -1,9 +1,13 @@
-Audio recorder is a plugin that lets you make a recording without leaving Obsidian. It's useful for class and meeting notes when you can't catch up for some reason, or for recording important discussions so you don't miss any details.
+Rekam dan simpan rekaman suara langsung melalui catatan Obsidian. Dengan plugin perekam suara, Anda dapat merekam rincian dari perkuliahan, pertemuan, atau situasi penting lainnya yang mana Anda tidak dapat mengetik dengan cepat.
 
-To use, simply click on the microphone icon in the left panel:
+> **Catatan:** Sebelum Anda memulai, pastikan komputer Anda memiliki mikrofon yang telah diatur dan siap untuk digunakan.
 
-![[Pasted image 8.png]]
+## Merekam suara pada catatan
 
-The microphone will become colored while it's actively recording.
+1. Buat catatan baru atau buka catatan yang telah ada.
+1. Pada ribbon, klik **Mulai/hentikan perekaman** (ikon mikrofon) untuk mulai merekam. Perekaman akan dimulai pada saat ikon berubah warna.
+1. Klik kembali pada ikon untuk menghentikan perekaman dan menambahkannya pada catatan Anda.
 
-Click on it again to finish recording. The audio file is now saved in your [[vault]] and an embed the recording will be added to the end of your current note.
+Obsidian menyimpan berkas perekaman suara ke vault Anda dan [[Menyematkan berkas|menyematkannya]] pada ujung dari catatan yang sedang aktif.
+
+> **Catatan:** Rekaman suara tetap ada pada vault Anda bahkan saat Anda menghapusnya dari catatan Anda. Jika Anda ingin menghapus rekaman dari komputer Anda, Anda dapat menggunakan [[Penjelajah berkas]] untuk menghapus berkas.

@@ -1,54 +1,53 @@
-Anda dapat edit dan pratinjau beberapa file sekaligus di Obsidian.
+Anda dapat mengubah dan melakukan pratinjau beberapa berkas sekaligus di Obsidian.
 
-Untuk efektif menggunakan bagi tampilan, Anda hanya perlu tahu beberapa hal:
+Untuk penggunaan tampilan pisah secara efektif, Anda hanya perlu tahu beberapa hal berikut:
 
-##### 1. ==Gunakan Tombol Ctrl/Cmd== ketika Anda ingin membuka sesuatu di panel baru.
+##### 1. ==Gunakan tombol Ctrl/Cmd== ketika Anda ingin membuka sesuatu di panel baru.
 
-Secara default, ketika Anda klik sesuatu, ia akan terbuka di panel aktif. Panel aktif ditandai dengan bilah yang tersorot di bawah nama file, dan namanya lebih terang dibandingkan panel yang tidak aktif.
+Secara bawaan, ketika Anda menekan sesuatu, panel aktif akan terbuka. Panel aktif ditandai dengan bilah yang tersorot di bawah nama berkas, dan namanya lebih terang dibandingkan panel yang sedang tidak aktif.
 
-Untuk membuka file di panel baru, tekan `Ctrl/Cmd` ketika Anda klik di mode Pratinjau (`Shift + Ctrl/Cmd` di mode Edit). Ini berlaku di beberapa tempat, termasuk [[File explorer]], [[Backlink]] (baik link dan link yang tidak tersebut), hasil [[Pencarian]], dan [[Tampilan grafik]]. Ia juga berlaku ke tombol, alih-alih pratinjau pada panel yang sama, Anda dapat `Cmd+click` tombol pratinjau untuk pratinjau di panel baru. Ketika menggunakan Pengalihan Cepat, tahan `Cmd+click` ketika menekan `Enter` akan membukan di panel baru.
+Untuk membuka berkas di panel baru, tekan `Ctrl/Cmd` ketika Anda klik di mode Pratinjau (`Shift + Ctrl/Cmd` di mode Ubah). Ini berlaku di beberapa tempat, termasuk [[Penjelajah berkas]], [[Backlink]] (baik sebutan yang tertaut maupun yang tidak terhubung), hasil [[Penelusuran]], dan [[Tampilan grafik]]. Serta berlaku pula ke tombol, alih-alih pratinjau pada panel yang sama, Anda dapat menekan `Cmd+klik` tombol pratinjau untuk melakukan pratinjau di panel baru. Ketika menggunakan Peralih Cepat, tahan `Cmd+klik` ketika menekan `Enter` akan membukanya di panel baru.
 
 ---
 
 ##### 2. Anda juga dapat membuat panel baru dengan ==membaginya==.
 
-Untuk membuat layout, Anda dapat membagi panel aktif menjadi sebagian secara horizontal atau vertikal. Lakukan ini dengan menu pada atas kanan panel, atau menggunakan palet perintah, atau dengan [[Pintasan keyboard]].
+Untuk membuat tata letak lain, Anda dapat membagi panel aktif menjadi dua secara horizontal atau vertikal. Lakukan ini melalui menu di bagian atas kanan panel, atau menggunakan palet perintah, atau dengan [[Menggunakan pintasan]].
 
 ![[Pasted image 16.png]]
 
 ---
 
-##### 3. Jika Anda ingin panel persisten yang tidak dapat diganti meski ia aktif, ==beri pin==.
+##### 3. Jika Anda ingin panel tetap yang tidak dapat diganti meskipun aktif, ==sematkan==.
 
-Ini luar biasa jika Anda bekerja dengan sesuatu dan ingin menggunakan panel lain sebagai panel referen. Pin panel kerja Anda untuk memastikan ia tidak akan pernah digantikan.
+Ini akan luar biasa jika Anda bekerja dengan sesuatu dan ingin menggunakan panel lain sebagai panel referensi. Sematkan panel kerja Anda untuk memastikannya tidak terganti.
 
 ![[Pasted image 17.png]]
 
-Panel yang terpin akan memiliki ikon pin yang tersorot alih-alih berwarna abu-abu.
+Panel yang tersemat akan memiliki ikon sematan yang tersorot alih-alih berwarna abu-abu.
 
 ---
 
-##### 4. Gunakan ==Panel terhubung== untuk pratinjau.
+##### 4. Gunakan ==Panel terhubung== untuk melakukan pratinjau.
 
-Ketika membuat [[Panel terhubung]], `Ctrl/Cmd+click` tombol pratinjau atau edit ketika file Markdown buka.
+Ketika membuat [[panel tertaut]], `Ctrl/Cmd+klik` tombol pratinjau atau ubah ketika berkas Markdown terbuka.
 
-Ketika terhubung ke panel lain, 
-When linked to another pane, posisi gulir panel akan tersinkron, dan jika Anda buka file di salah satu panel, panel lain akan membuka file yang sama.
+Saat menautkan ke panel lain, posisi gulir panel akan tersinkronisasi, dan jika Anda membuka berkas di salah satu panel, panel lain akan membuka berkas yang sama.
 
-[[Panel terhubung]] akan ditandai dengan ikon penghubung. Anda juga dapat menaruh kursor ke ikon untuk melihat panel mana yang terhubung, atau klik ikon untuk melepas, sehingga mereka tidak lagi terhubung. 
+[[Panel tertaut]] akan ditandai dengan ikon tautan. Anda juga dapat mengarahkan kursor ke ikon untuk melihat panel mana yang terhubung, atau menekan ikon untuk melepas, sehingga tidak lagi tertaut.
 
-Untuk informasi lebih lanjut lihat [[Panel terhubung]].
+Untuk informasi lebih lanjut lihat [[Panel tertaut]].
 
 ![[Pasted image 18.png]]
 
-##### 5. Panel dapat ==ditata dengan diseret==.
+##### 5. Panel dapat ==ditata dengan cara diseret==.
 
-Klik ikon pada ujung kiri atas panel untuk menata mereka sesuai Anda butuhkan. Untuk informasi detilnya, lihat [[Tata letak panel]].
+Klik ikon pada ujung kiri atas panel untuk menata mereka sesuai kebutuhan Anda. Untuk informasi lebih rincinya, lihat [[Tata letak panel]].
 
 ---
 
-Tips berguna:
+Saran yang berguna:
 
-1. Anda dapat mengubah ukuran panel sesuka Anda, dengan menyeret handel pengubah ukuran yang terdapat diantara tiap panel.
+1. Anda dapat mengubah ukuran panel sesuka Anda, dengan menyeret gagang pengubah ukuran yang terdapat di antara setiap panel.
 
-2. Tata letak file Anda, termasuk ukurannya, akan diingat ketika Anda menutup aplikasi, jadi tidak perlu khawatir harus perlu menyetel mereka setiap saat Anda membuka aplikasi!
+2. Tata letak berkas Anda, termasuk ukurannya, akan diingat ketika Anda menutup aplikasi, jadi tidak perlu khawatir harus perlu mengatur mereka setiap kali Anda membuka aplikasi!

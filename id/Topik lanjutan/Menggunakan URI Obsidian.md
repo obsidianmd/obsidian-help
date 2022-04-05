@@ -1,97 +1,151 @@
-Obsidian supports a custom URI protocol `obsidian://` which can be used to trigger various actions within the app. This is commonly used on MacOS for cross-app workflows.
+Obsidian mendukung protokol URI kustom `obsidian://` yang mana dapat digunakan untuk memicu beragam aksi pada aplikasi. Ini umumnya digunakan pada MacOS dan aplikasi seluler untuk otomatisaasi dan alur kerja antar aplikasi.
 
-## Installing Obsidian URI
+Jika Anda memiliki Obsidian terpasang, tautan berikut akan membuka aplikasi pada perangkat Anda: [Klik di sini](obsidian://open)
 
-To make sure your operating system redirect `obsidian://` URIs to the Obsidian app, there may be additional steps you need to perform.
+## Memasang URI Obsidian
 
-- On Windows, running the app once should be sufficient. This will register for the `obsidian://` custom protocol handler in the Windows registry.
-- On MacOS, running the app once should be sufficient, however, your app **must** be installer version 0.8.12 or later.
-- On Linux, there's a much more involved process:
-	- First, ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
-	- Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-	- If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
+Untuk memastikan sistem operasi Anda mengalihkan URI `obsidian://` ke aplikasi Obsidian, terdapat beberapa langkah tambahan yang perlu Anda lakukan.
 
-## Using Obsidian URIs
+- Pada Windows, cukup sekali menjalankan aplikasi. Ini akan mendaftarkan penanganan protokol kustom `obsidian://` pada Windows registry.
+- Pada MacOS, cukup sekali menjalankan aplikasi, tetapi, aplikasi Anda **harus** terpasang pada versi 0.8.12 atau yang lebih baru.
+- Pada Linux, terdapat proses yang lebih panjang:
+	- Pertama, pastikan Anda membuat berkas `obsidian.desktop`. [Lihat di sini untuk lebih rincinya](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files)
+	- Pastikan berkas desktop Anda menspesifikasikan bagian `Exec` dengan `Exec=executable %u`. Bagian`%u` digunakan untuk meloloskan URI `obsidian://` URI menuju aplikasi.
+	- Jika Anda menggunakan pemasang AppImage, Anda mungkin akan melakukan unpack menggunakan `Obsidian-x.y.z.AppImage --appimage-extract`. Lalu pastikan poin direktif `Exec` merujuk pada executable yang ter-unpack tadi.
 
-Obsidian URIs are typically in this format:
+## Menggunakan URI Obsidian
+
+URI Obsidian biasanya ditulis dengan format berikut:
 
 ```
-obsidian://action?param1=value&param2=value
+obsidian://aksi?param1=nilai&param2=nilai
 ```
 
-- The `action` is usually the action that you would like to perform.
+- Pada `aksi` biasanya merupakan aksi yang ingin Anda jalankan.
 
-### Pengodean
+### Enkode
 
-==Important==
+==Penting==
 
-Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+Pastikan nilai Anda merupakan URI yang ter-enkode dengan benar. Misalnya, karakter garis miring `/` harus ter-enkode sebagai `%2F` dan karakter spasi harus di-enkode dengan `%20`.
 
-This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding)
+Ini sangat penting khususnya karena karena karakter "disimpan" yang di-enkodekan secara benar mungkin merusak interpretasi dari URI. [Lihat ini untuk lebih rincinya](https://en.wikipedia.org/wiki/Percent-encoding)
 
-### Available actions
+### Aksi yang tersedia
 
-#### Action `open`
+#### Aksi `open`
 
-Description: Opens an Obsidian vault, and possibly open a file within that vault.
+Deskripsi: Membuka vault Obsidian, dan memungkinkan untuk membuka berkas pada vault tersebut.
 
-Possible parameters:
+Parameter yang dimungkinkan:
 
-- `vault` can be either the vault name, or the vault ID.
-	- The vault name is simply the name of the vault folder.
-	- The vault ID is the random 16-character code assigned to the vault. This ID is unique per folder on your computer. Example: `ef6ca3e3b524d22f`. There isn't an easy way to find this ID yet, one will be offered at a later date in the vault switcher. Currently it can be found in `%appdata%/obsidian/obsidian.json` for Windows. For MacOS, replace `%appdata%` with `~/Library/Application Support/`. For Linux, replace `%appdata%` with `~/.config/`.
-- `file` can be either a file name, or a path from the vault root to the specified file.
-	- To resolve the target file, Obsidian uses the same link resolution system as a regular `[[wikilink]]` within the vault.
-	- If the file extension is `md`, the extension can be omitted.
-- `path` an absolute file system path to a file.
-	- Using this parameter will override both `vault` and `file`.
-	- This will cause the app to search for the most specific vault which contains the specified file path.
-	- Then the rest of the path replaces the `file` parameter.
+- `vault` dapat menggunakan nama vault, atau ID vault.
+	- Nama vault merupakan nama folder dari vault tersebut.
+	- ID vault merupakan kode 16 karakter acak yang diberikan pada vault. ID ini berbeda pada setiap folder pada komputer Anda. Misalnya: `ef6ca3e3b524d22f`. Belum ada cara yang mudah untuk menemukan ID ini, salah satu yang diberikan di kemudian hari pada pengalih vault. Sekarang ini dapat ditemukan pada `%appdata%/obsidian/obsidian.json` untuk Windows. Untuk MacOS, ubah `%appdata%` dengan `~/Library/Application Support/`. Untuk Linux, ubah `%appdata%` dengan `~/.config/`.
+- `file` merupakan nama berkas, atau alur dari akar vault ke berkas yang spesifik.
+	- Untuk memutuskan berkas target, Obsidian menggunakan tautan resolusi sistem yang sama dengan `[[wikilink]]` biasa di dalam vault.
+	- Jika ekstensi berkas merupakan `md`, ekstensi tersebut dapat dihilangkan.
+- `path` merupakan alur absolut sistem berkas menuju berkas
+	- Menggunakan parameter ini akan menimpa baik `vault` serta `file`.
+	- Ini akan membuat aplikasi menelusuri vault secara spesifik yang mengandung alur berkas spesifik.
+	- Keseluruhan alur mengganti parameter `file`.
 
-Examples:
+Contoh:
 
-- `obsidian://open?vault=my%20vault`
-	This opens the vault `my vault`. If the vault is already open, focus on the window.
+- `obsidian://open?vault=vault%20saya`
+	Ini akan membuka vault `vault saya`. Jika vault telah terbuka, akan memfokuskan jendela.
 
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-	This opens the vault identified by the ID `ef6ca3e3b524d22f`.
+	Ini akan membuka vault teridentifikasi dengan ID `ef6ca3e3b524d22f`.
 
-- `obsidian://open?vault=my%20vault&file=my%20note`
-	This opens the note `my note` in the vault `my vault`, assuming `my note` exists and the file is `my note.md`.
+- `obsidian://open?vault=vault%20saya&file=catatan%20saya`
+	Ini akan membuka catatan `catatan saya` pada vault `vault saya`, diasumsikan bahwa `catatan saya` tersedia dan berkasnya ialah `catatan saya.md`.
 
-- `obsidian://open?vault=my%20vault&file=my%20note.md`
-	This also opens the note `my note` in the vault `my vault`.
+- `obsidian://open?vault=vault%20saya&file=catatan%20saya.md`
+	Ini juga akan membuka catatan `catatan saya` pada vault `vault saya`.
 
-- `obsidian://open?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-	This opens the note located at `path/to/my note` in the vault `my vault`.
+- `obsidian://open?vault=vault%20saya&file=alur%2Fke%2Fcatatan%20saya`
+	Ini akan membuka catatan yang brelokasi pada `alur/ke/catatan saya` pada vault `vault saya`.
 
-- `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-	This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
+- `obsidian://open?path=%2Fhome%2Fuser%20vault%2Fsaya%2Falur%2Fke%2Fcatatan%20saya`
+	Ini akan melihat untuk vault apa pun yang mengandung alur `/home/user/vault saya/alur/ke/catatan saya`. Lalu, keseluruhan alur akan meloloskan parameter `file`. Misalnya, jika vault tersedia pada `/home/user/vault saya`, lalu ini akan serupa dengan parameter `file` yang diatur ke `alur/ke/catatan saya`.
 
-- `obsidian://open?path=D%3A%5CDocuments%5CMy%20vault%5CMy%20note`
-	This will look for any vault that contains the path `D:\Documents\My vault\My note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `D:\Documents\My vault`, then this would be equivalent to `file` parameter set to `My note`.
+- `obsidian://open?path=D%3A%5CDocuments%5CVault%20saya%5CCatatan%20saya`
+	Ini akan melihat untuk vault apa pun yang mengandung alur `D:\Documents\Vault saya\Catatan saya`. Lalu, keseluruhan alur akan meloloskan parameter `file`. Misalnya, jika vault tersedia pada `D:\Documents\My vault`, lalu ini akan serupa dengan parameter `file` yang diatur ke `Catatan saya`.
+
+#### Aksi `search`
+
+Deskripsi: Membuka panel penelusuran untuk vault, dan secara opsional menjalankan kueri penelusuran.
+
+Parameter yang dimungkinkan:
+
+- `vault` dapat menggunakan nama vault, atau ID vault. Sama seperti `open`.
+- `query` (opsional) kueri penelusuran untuk dijalankan.
+
+Contoh:
+
+- `obsidian://search?vault=vault%20saya`
+	Ini akan membuka vault `vault saya`, dan membuka panel penelusuran.
+
+- `obsidian://search?vault=vault%20saya&query=MOC`
+	Ini akan membuka vault `vault saya`, membuka panel penelusuran, dan menjalankan penelusuran untuk `MOC`.
 	
-#### Action `search`
+#### Aksi `new`
 
-Description: Opens the search pane for a vault, and optionally perform a search query.
+Deskripsi: Membuat catatan baru pada vault, secara opsional dengan beberapa konten.
 
-Possible parameters:
+Parameter yang dimungkinkan:
 
-- `vault` can be either the vault name, or the vault ID. Same as action `open`.
-- `query` (optional) The search query to perform.
+- `vault` dapat menggunakan nama vault, atau ID vault. Sama seperti `open`.
+- `name` nama berkas yang akan dibuat. Jika ini diisi, lokasi berkas akan dipilih berdasarkan pengaturan "Lokasi bawaan untuk catatan baru" Anda.
+- `file` alur absolut dari vault, termasuk nama. Akan menimpa `name` jika diisi.
+- `path` alur absolut secara global. Bekerja serupa dengan opsi `path` pada aksi `open`, yang mana akan menimpa  `vault` dan `file`.
+- `content` (opsional) isi dari catatan
+- `silent` (opsional) atur ini jika Anda tidak ingin membuka catatan baru
+- `append` (opsional) menggabungkan ke berkas yang tersedia jika ada.
+- `overwrite` (opsional) menimpa berkas yang tersedia jika ada, tetapi hanya jika `append` tidak diatur.
+- `x-success` (opsional) lihat [[#x-callback-url]].
 
-Examples:
+Contoh:
 
-- `obsidian://search?vault=my%20vault`
-	This opens the vault `my vault`, and opens the search pane.
-
-- `obsidian://search?vault=my%20vault&query=MOC`
-	This opens the vault `my vault`, opens the search pane, and performs a search for `MOC`.
+- `obsidian://new?vault=vault%20saya&name=catatan%20saya`
+	Ini akan membuka `vault saya`, dan membuat catatan baru dengan nama `catatan saya`.
+- `obsidian://new?vault=vault%20saya&path=alur%2Fke%2Fcatatan%20saya`
+	Ini akan membuka `vault saya`, dan membuat catatan baru di `alur/ke/catatan saya`.
 	
+#### Aksi `hook-get-address`
 
-## Shorthand formats
+Deskripsi: Endpoint untuk digunakan dengan [Hook](https://hookproductivity.com/). Gunakan: `obsidian://hook-get-address`
 
-In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+Jika `x-success` didefinisikan, API ini akan menggunakannya sebagai x-callback-url. Selain dari itu, ia akan menyalin tautan markdown dari catatan yang sedang difokuskan sekarang ke papan klip, sebagai Tautan `obsidian://open`.
 
-- `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`
-- `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`
+Parameter yang dimungkinkan:
+
+- `vault` (opsional) dapat menggunakan nama vault, atau ID vault. Jika tidak diberikan, vault terkini atau terakhir difokuskan akan digunakan.
+- `x-success` (opsional) lihat [[#x-callback-url]].
+- `x-error` (opsional) lihat [[#x-callback-url]].
+
+## x-callback-url
+
+Tersedia sejak v0.14.3.
+
+Beberapa endpoint akan menerima parameter `x-success` dan `x-error` dari x-callback-url. Ketika tersedia, Obsidian akan memberikan hal-hal berikut ke callback `x-success`:
+
+- `name` nama dari berkas, tanpa ekstensi berkas.
+- `url` Tautan `obsidian://` untuk berkas ini.
+- `file` (hanya desktop) Tautan `file://` untuk berkas ini.
+
+Misalnya, jika kami menerima
+
+`obsidian://.....x-success=myapp://x-callback-url`
+
+Kemungkinan responnya
+
+`myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
+
+## Format singkat
+
+Sebagai tambahan untuk format di atas, terdapat dua format "penyingkat" tambahan yang tersedia untuk membuka vault dan berkas:
+
+- `obsidian://vault/vault saya/catatan saya` setara dengan `obsidian://open?vault=vault%20saya&file=catatan%20saya`
+- `obsidian:///alur/absolut/ke/catatan saya` setara dengan `obsidian://open?path=%2Falur%2Fabsolut%2Fke%2Fcatatan%20saya`
