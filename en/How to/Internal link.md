@@ -1,4 +1,4 @@
-Internal links are the backbone of your knowledge network.
+Internal links (also known as Wikilinks) are the backbone of your knowledge network.
 
 ### Link to files
 
