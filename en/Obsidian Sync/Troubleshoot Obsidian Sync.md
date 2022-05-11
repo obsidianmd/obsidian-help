@@ -1,8 +1,8 @@
 This page lists common issues that you might encounter, and how to address them.
 
-## Changes from 
+## Conflict resolution
 
-A conflict happens when you make changes to the same file on two or more devices between syncs. For example, when 
+A conflict happens when you make changes to the same file on two or more devices between syncs. For example, you might have changed a file on your computer, and before that change is uploaded, you also change the same file on your phone.
 
 Conflicts usually happen more frequently if you work offline, since there are more changes and a longer period of time between syncs and thus more potential conflicts.
 
