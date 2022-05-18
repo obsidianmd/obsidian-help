@@ -24,6 +24,9 @@ The Catalyst license consists of three tiers: *Insider*, *Supporter*, and *VIP*.
 
 _Prices are in USD._
 
+> [!info] Upgrading tiers
+> When you already own a Catalyst license, you can upgrade to a higher Catalyst tier by paying the price difference between your current and the new tier.
+
 ## Access Catalyst benefits
 
 Once you've purchased a Catalyst license, you can access a range of benefits. Learn how to enable them here.
