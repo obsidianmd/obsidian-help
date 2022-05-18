@@ -1,71 +1,74 @@
-Shows a graph representation of the [[Internal link|internal links]] between your notes.
+The Graph view lets you visualize the relationships between the notes in your vault.
 
-Notes with more notes referencing it appear as bigger nodes on the graph.
+To open the Graph view, click **Open graph view** in the [[ribbon]].
+
+- Circles represent notes, or _nodes_. 
+- Lines represents [[Internal link|internal links]] between two nodes.
+
+The more nodes that reference a given node, the bigger it gets.
+
+To interact with notes in the graph:
+
+- Hover over each circle to highlight that note's connections.
+- Click a note in the graph to open that note.
+- Right-click a note to open a context menu with the actions available for that note.
+
+To navigate around the graph:
+
+- Zoom in and out using the scroll wheel on your mouse, or using the `+` and `-` keys.
+- Move the graph around by dragging it with your mouse cursor, or using the arrow keys.
+
+You can hold Shift while using the keyboard to speed up the movements.
+
+## Settings
+
+To open the graph settings, click the cog icon in the top-left corner of the graph view.
+
+Click **Restore default settings** in the top-right corner of the settings box to reset any changes you make.
+
+### Filters
+
+This section controls what nodes to show in the graph.
+
+- **Search files** lets you filter notes based on a search query. To learn about how you can write more advanced search queries, refer to [[Search]].
+- **Tags** toggles whether to show tags in the graph.
+- **Attachments** toggles whether to show attachments in the graph.
+- **Existing files only** toggles whether to show notes that exists in your vault. Since a note doesn't need to exist to link to it, this can help reduce limit your graph to notes that you actually have in your vault.
+- **Orphans** toggles whether to show notes without any links.
+
+### Groups
+
+Create groups of notes to distinguish them from each other using color. 
+
+To create a new group:
+
+1. Click **New group**.
+2. In the search box, type a search query for the notes you want to add to the group.
+3. Click the colored circle to give the group a color.
+
+To learn about how you can write more advanced search queries, refer to [[Search]].
+
+### Display
+
+This section controls how to visualize nodes and links in the graph.
+
+- **Arrows** toggles whether to show the direction of each link.
+- **Text fade threshold** controls the text transparency for the name of each note.
+- **Node size** controls the size of the circle representing each note.
+- **Link thickness** controls the line width for each link.
+- **Animate** starts a [[#Start a timelapse animation|timelapse animation]].
+
+### Forces
+
+This section controls the forces that act on each node in the graph.
+
+- **Center force** controls how compact the graph is. A higher value creates a more circular graph.
+- **Repel force** controls how much a node pushes other nodes away from it.
+- **Link force** controls the pull on each link. If the link was a rubber band, the link force controls how tight or loose the band is.
+- **Link distance** controls the length of the lines between each note.
+
+## Start a timelapse animation
+
+Notes and attachments appear in chronological order based on their creation time. 
 
 ![[Pasted image 10.png]]
-
-### Visualization tips
-
-- You can hover each node to highlight its connections, fading everything else.
-- You can drag nodes around to rearrange the graph. This may be helpful if some nodes are overlaying others.
-
-### Navigation tips
-
-- To zoom, you can use mouse wheel scroll, as well as the `+` and `-` keys.
-- To pan around, drag the background or use the keyboard arrow keys.
-- Hold `Shift` while navigating with the keyboard to speed things up.
-
-### Custom CSS
-
-Since the graph is rendered using `<canvas>` and WebGL, [[Customizing CSS|CSS]] is unable to affect things like nodes and links. To customize graph view, we have provided a way to convert CSS colors into WebGL commands.
-
-#### The following CSS classes are supported:
-
-```
-.graph-view.color-fill
-.graph-view.color-fill-focused (use transparent to disable)
-.graph-view.color-fill-tag (theme-dependent)
-.graph-view.color-fill-attachment (theme-dependent)
-.graph-view.color-arrow
-.graph-view.color-circle
-.graph-view.color-line
-.graph-view.color-text
-.graph-view.color-fill-highlight
-.graph-view.color-line-highlight
-.graph-view.color-fill-unresolved
-```
-
-\* theme-dependent means you may have to add `.theme-dark` or `.theme-light` to style it for different themes. See [[#Custom CSS#Defaults]] for explanation.
-
-#### The following CSS rules are supported:
-
-```css
- .graph-view.color-class {
-	/* Supports all CSS color directives, like #HEX, rgb and rgba */
-	color:   #FFF;
-	color:   #FFFFFF;
-	color:   rgb(0, 0, 0);
-	color:   rgba(0, 0, 0, 1);
-	/* Opacity (similar to rgba) will make the color transparent */
-	opacity: 0.5;
-}
-```
-
-#### Defaults:
-
-These CSS rules are the ones Obsidian use by default. You may override any of them using an identical or [more specific](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) CSS rule. This applies especially to `.color-fill-tag` and `.color-fill-attachment` As a last resort, add `!important` to the end of your rule.
-
-```css
-.graph-view.color-fill,
-.theme-dark .graph-view.color-fill-tag,
-.theme-light .graph-view.color-fill-tag,
-.theme-dark .graph-view.color-fill-attachment,
-.theme-light .graph-view.color-fill-attachment,
-.graph-view.color-arrow,
-.graph-view.color-circle,
-.graph-view.color-line,
-.graph-view.color-text,
-.graph-view.color-fill-highlight,
-.graph-view.color-line-highlight,
-.graph-view.color-fill-unresolved {}
-```

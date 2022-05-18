@@ -1,1 +1,1 @@
-The outline plugin shows the list of headings for the current note, and allows you to navigate to another section by clicking on a heading.
+Plugin kerangka menampilkan daftar judul dari catatan terkini, dan mempersilakan Anda untuk bernavigasi menuju bagian lain dengan menekan pada judul.

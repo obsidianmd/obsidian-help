@@ -1,10 +1,30 @@
-Palet Perintah diaktifkan secara default, sebagai cara yang sangat berguna untuk mengakses hampir semua fitur Obsidian tanpa harus mengingat pintasan. Cukup tekan `Ctrl/Cmd+P` untuk aktifkan, lalu ketik nama perintah. Jika perintah punya pintasan, ia akan tampil di sisi kanan.
+Obsidian memberikan Anda akses ke banyak perintah di Obsidian secara langsung melalui keyboard Anda. Palet perintah memungkinkan Anda menjalankan perintah apa pun melalui jendela interaktif yang sama. Anda dapat menjelajahi semua perintah yang tersedia dan pintasan keyboardnya.
 
-Pintasan kustom dapat ditambahkan ke Palet Perintah di Pengaturan -> Pintasan. Klik pada ikon `*`  di sisi kanan dari setiap perintah dan ketik kombinasi tombol yang Anda suka.
+Untuk menjalankan perintah melalui Palet perintah:
 
-### Tips penggunaan
+1. Tekan Ctrl+P (atau Cmd+P pada macOS) untuk membuka Palet perintah.
+2. Ketikkan nama perintah yang ingin Anda jalankan.
+3. Navigasikan ke perintah menggunakan tombol panah.
+4. Tekan Enter.
 
-- Untuk melihat daftar perintah beserta dengan pintasannya, jangan ketik apapun dalam kolom. Tombol panah akan menggerakan daftar ke atas dan bawah serta `Enter` akan aktifkan perintah.
+> **Saran:** Palet perintah mendukung _pencocokkan fuzzy_, yang mana memungkinkan Anda mencari perintah bahkan tanpa mengetahui nama sebenarnya. Misalnya, dengan mengetikkan "sbt" untuk menemukan perintah "**S**impan **b**erkas **t**erkini".
 
-- Bentuk pencarian dalam palet perintah adalah samar (fuzzy), jadi Anda dapat ketik bagian dari kata untuk dapatkan kecocokan. Contohnya, Anda bisa ketik `umd` untuk mencari "Ubah mode edit/pratinjau"
+## Perintah tersemat
 
+Anda dapat menyematkan perintah yang sering digunakan pada bagian atas dari Palet perintah untuk mengaksesnya dengan cepat tanpa mengetikkan namanya.
+
+> **Saran:** Jika Anda ingin menjalankan perintah yang sering digunakan dengan cepat, Anda dapat pula [[Pintasan kustom#Mengatur pintasan|mengatur pintasannya]].
+
+### Menyematkan perintah
+
+1. Buka **Pengaturan**.
+2. Pada bilah sisi, klik **Palet perintah** pada **Opsi plugin**.
+3. Di sebelah **Perintah tersemat baru**, klik **Pilih perintah**.
+4. Pilih perintah yang ingin Anda sematkan dari daftar.
+5. Tekah Enter.
+
+### Membatalkan sematan perintah
+
+1. Buka **Pengaturan**.
+2. Pada bilah sisi, klik **Palet perintah** pada **Opsi plugin**.
+3. Pada **Perintah tersemat**, klik ikon silang di sebelah perintah yang ingin Anda batalkan penyematannya.

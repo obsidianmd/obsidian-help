@@ -2,24 +2,30 @@
 aliases: front matter
 ---
 
-YAML front matter is how file-level metadata lives in Obsidian.
+YAML, dikenal pula sebagai front matter, yang didesain sebagai metadata setingkat berkas yang dapat dibaca oleh manusia *dan* Obsidian.
 
-Front matter is essentially a section of plain text attributes placed at the very top of the file. Front matter was popularized by static generators like Jekyll, Hugo, and Gatsby. It's one of the most popular ways to put metadata in a Markdown file.
+Bagian front matter merupakan atribut teks polos yang dimulai pada baris pertama dari berkas. Ini merupakan cara yang paling populer untuk menambahkan metadata pada berkas Markdown, dan telah dipopulerkan oleh pembuat stasi seperti Jekyll, Hugo, dan Gatsby.
 
-Front matter is a YAML block with **triple dashes** both before and after. ==It also needs to be placed at the very top of the file.==
+Bloh YAML memerlukan **tiga garis datar** pada bagian awal dan akhir untuk terbaca oleh Obsidian (dan aplikasi lain). ==Ini juga diperlukan untuk ditempatkan di bagian paling atas dari berkas.==
 
-For example:
+Contoh:
 
 ```
 ---
-key: value
-key2: value2
-multiple: [one, two, three]
-multiple:
-- one
-- two
-- three
+kunci: nilai
+kunci2: nilai2
+kunci3: [satu, dua, tiga]
+kunci4:
+- empat
+- lima
+- enam
 ---
 ```
 
-As of 0.9.17, [[Add aliases to note|alias]] uses front matter. We'll gradually make it more accessible by plugin developers and more user friendly.
+Sejal 0.12.12, terdapat empat kunci yang didukung decara bawaan:
+- `tags` ([[Bekerja dengan tag|informasi lebih lanjut]])
+- `aliases` ([[Menambah alias ke catatan|informasi lebih lanjut]])
+- `cssclass`
+- `publish` ([[Mempublikasi dan membatalkan publikasi catatan#Memilih catatan untuk dipublikasikan secara otomatis]] dan [[Mempublikasi dan membatalkan publikasi catatan#Mengecualikan catatan]])
+
+Seiring Obsidian yangterus berkembang, kami secara bertahap akan membuatnya lebih mudah diakses oleh pengembang plugin, dan membuatnya lebih ramah pengguna.

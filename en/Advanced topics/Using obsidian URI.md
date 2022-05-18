@@ -9,7 +9,7 @@ To make sure your operating system redirect `obsidian://` URIs to the Obsidian a
 - On Windows, running the app once should be sufficient. This will register for the `obsidian://` custom protocol handler in the Windows registry.
 - On MacOS, running the app once should be sufficient, however, your app **must** be installer version 0.8.12 or later.
 - On Linux, there's a much more involved process:
-	- First, ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
+	- First, ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files)
 	- Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
 	- If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
 
@@ -72,7 +72,7 @@ Examples:
 
 - `obsidian://open?path=D%3A%5CDocuments%5CMy%20vault%5CMy%20note`
 	This will look for any vault that contains the path `D:\Documents\My vault\My note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `D:\Documents\My vault`, then this would be equivalent to `file` parameter set to `My note`.
-	
+
 #### Action `search`
 
 Description: Opens the search pane for a vault, and optionally perform a search query.
@@ -102,6 +102,9 @@ Possible parameters:
 - `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
 - `content` (optional) the contents of the note.
 - `silent` (optional) set this if you don't want to open the new note.
+- `append` (optional) append to an existing file if one exists.
+- `overwrite` (optional) overwrite an existing file if one exists, but only if `append` is not set.
+- `x-success` (optional) see [[#x-callback-url]].
 
 Examples:
 
@@ -112,11 +115,29 @@ Examples:
 	
 #### Action `hook-get-address`
 
-Description: Endpoint for use with [Hook](https://hookproductivity.com/). Copies a markdown link of the current focused note to the clipboard, as an `obsidian://open` URL. Use: `obsidian://hook-get-address`
+Description: Endpoint for use with [Hook](https://hookproductivity.com/). Use: `obsidian://hook-get-address`
+
+If `x-success` is defined, this API will use it as the x-callback-url. Otherwise, it will copy a markdown link of the current focused note to the clipboard, as an `obsidian://open` URL.
 
 Possible parameters:
 
 - `vault` (optional) can be either the vault name, or the vault ID. If not provided, the current or last focused vault will be used.
+- `x-success` (optional) see [[#x-callback-url]].
+- `x-error` (optional) see [[#x-callback-url]].
+
+## x-callback-url
+
+Available since v0.14.3.
+
+Some endpoints will accept the x-callback-url parameters `x-success` and `x-error`. When it is provided, Obsidian will provide the following to the `x-success` callback:
+- `name` the name of the file, without the file extension.
+- `url` the `obsidian://` URI for this file.
+- `file` (desktop only) the `file://` URL for this file.
+
+For example, if we receive
+`obsidian://.....x-success=myapp://x-callback-url`
+The response could be
+`myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
 
 ## Shorthand formats
 

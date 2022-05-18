@@ -1,13 +1,13 @@
-If you are building or modifying your own css, you can open the developer tools by using `Ctrl+Shift+I` on Windows/Linux or `Cmd+Opt+I` on macOS to get information on the elements you want to customize. 
+Jika Anda membangun atau mengubah CSS Anda sendiri, Anda dapat membuka alat pengembang dengan menggunakan `Ctrl+Shift+I` pada Windows/Linux atau `Cmd+Opt+I` pada macOS untuk mendapatkan informasi pada elemen yang Anda ingin ubah.
 
-Changes to themes and snippets will be detected automatically and reapplied. You do not need to restart the app.
+Mengubah tema dan cuplikan akan terdeteksi secara otomatis dan diterapkan ulang. Anda tidak perlu memuat ulang aplikasi.
 
-### New to CSS
+### Baru mengenal CSS
 
-If you're new to CSS, our community has put together a quick guide to get comfortable with CSS:
+Jika Anda baru mengenal CSS, komunitas telah membuat panduan singkat untuk membiasakan diri dengan CSS:
 
 > [Getting Comfortable with CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
 
-Klaas also put together a helpful index of common CSS snippets that you can feel free to mix and match:
+Klaas juga menyusun indeks dari cuplikan CSS umum yang mana anda dapat anda kombinasikan dengan bebas:
 
 > [Obsidian CSS Snippets (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)

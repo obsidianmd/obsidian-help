@@ -1,5 +1,3 @@
-# Select files and settings to sync
-
 Any files or settings that have been synced to your [[Local and remote vaults|remote vault]] count towards your [[Limitations#How large can each remote vault be|storage space]]. By default, [[Introduction to Obsidian Sync|Obsidian Sync]] ignores larger files such as audio, video, and PDFs.
 
 **Notes:**

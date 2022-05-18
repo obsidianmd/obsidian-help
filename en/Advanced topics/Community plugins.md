@@ -36,6 +36,6 @@ Due to technical reasons with our platform, we're unable to restrict plugins to 
 
 The good news is that Obsidian has an amazing and passionate community, so we rely on community trust to ensure security of community plugins.
 
-In general, you should be able to trust most of the popular plugins from the community. We require all community community plugins to be open sourced on GitHub. **If you're working with sensitive data, we recommend you to inspect the plugin code before installing it, so that your security needs are met.** You can find a link to the plugin repository on the plugin detail page.
+In general, you should be able to trust most of the popular plugins from the community. **If you're working with sensitive data, we recommend you to inspect the plugin code before installing it, so that your security needs are met.** You can find a link to the plugin repository on the plugin detail page.
 
 If you find any security flaws with community plugins, contact the plugin author by adding an issue on GitHub. If you believe the plugin is malicious, contact us to get the plugin investigated and removed.

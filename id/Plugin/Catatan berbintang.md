@@ -1,5 +1,5 @@
-Starred notes are a convenient way of keeping important notes close at hand. Enabling the plugin will create a star icon on the left panel, which brings up a list of starred notes. 
+Catatan berbintang merupakan cara yang cocok untuk membiarkan catatan yang penting untuk tetap mudah dijangkau. Mengaktifkan plugin ini akan membuat ikon bintang pada sebelah kiri panel, yang mana memberikan daftar dari catatan yang berbintang.
 
-To star a file, you have several options. You can do so from a right click in the file explorer, a click on the options menu of an open note, typing in the [[Palet perintah]], or a hotkey that can be set in [[Pintasan keyboard]].
+Untuk membintangi berkas, Anda memiliki beberapa opsi. Anda dapat melakukannya dengan mengklik kanan pada penjelajah berkas, mengklik pada opsi menu dari catatan yang terbuka, mengetikkan pada [[Palet perintah]], atau sebuah pintasan yang dapat diatur pada [[Menggunakan pintasan]].
 
-Starred files and searches can be reordered by dragging them around.
+Berkas-berkas dan penelusuran yang berbintang dapat disusun dengan cara menggesernya.
