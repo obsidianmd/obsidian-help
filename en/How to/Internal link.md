@@ -17,3 +17,9 @@ To make the link display different text than its real note name in Preview, use 
 - To follow a link in the Editor pane, click the link while pressing `Ctrl/Cmd`.
 - To follow a link in a new panel from the Editor, click the link while pressing `Ctrl/Cmd-Shift`.
 - To see a preview of the linked content without leaving the current note, enable the [[page preview]] plugin and a popup window will be displayed.
+
+### Link formats
+
+Internal links could be written in two formats:
+- `Wikilink` in the following format: `[[My Link]]`;
+- `Markdown style links` in the following format: `[My Link](../Some%20Other%Folder/My%20Link.md)`. It is similar to [[Format your notes#External links]] but it uses URLs relative to the current note.
