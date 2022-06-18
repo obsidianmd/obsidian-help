@@ -9,7 +9,7 @@ Older versions of your notes for up to a year.
 1. In the **File explorer**, right-click the note you want to restore.
 2. Click **View Sync version history**.
 
-## View version history of a deleted note
+## View version history of a deleted or renamed note
 
 1. Open **Settings**.
 2. In the sidebar, under **Plugin options**, click **Sync**.
