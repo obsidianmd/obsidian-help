@@ -1,4 +1,4 @@
-In this guide, you'll enable create a local vault on another device to sync with your remote vault. This will keep the local vaults on all your devices in sync.
+In this guide, you'll create a local vault on another device to sync with your remote vault. This will keep the local vaults on all your devices in sync.
 
 ## Prerequisites
 
