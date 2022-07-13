@@ -55,7 +55,7 @@ For bulk discounts, contact support@obsidian.md.
 > Obsidian usage for education-related activities within schools and other recognized educational institutions does not require a commercial license. 
 
 > [!FAQ]- Q11: I'm an academic researcher and I use Obsidian for my research work. Do I need a commercial license?
-> f your research involves producing a commercial product (e.g., if your research contributes to revenue-generating commercial activities), you need a commercial license for your usage. If your research does not contribute to a commercial product, or if your research has not yet led to commercial activities, you do not need a license.
+> If your research involves producing a commercial product (e.g., if your research contributes to revenue-generating commercial activities), you need a commercial license for your usage. If your research does not contribute to a commercial product, or if your research has not yet led to commercial activities, you do not need a license.
 
 > [!FAQ]- Q12: I use Obsidian during work for things like writing down team processes and taking notes for team meetings, do I need a commercial license?
 > If you are a single-person company, then you do not require a commercial license. Otherwise, if you have more than one person in the company, then you would require a commercial license.
