@@ -10,7 +10,6 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 1. [[Backlinks]]
 1. [[Command palette]]
 1. [[Daily notes]]
-1. Editor Status
 1. [[File explorer]]
 1. [[File recovery]]
 1. [[Graph view]]
