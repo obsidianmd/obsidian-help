@@ -1,3 +1,8 @@
+---
+aliases:
+- Zettelkasten prefixer
+---
+
 Adds a new button to the left pane, which can be used to create a new file and prefix it for you using the current time. 
 This is beneficial for followers of the Zettelkasten UID-in-filename method as it helps users create new notes with a **vault-wise unique time-based prefix**.
 

@@ -22,7 +22,7 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 1. Editor Status
 1. [[Starred notes]]
 1. [[Markdown format converter]]
-1. [[Zettelkasten prefixer]]
+1. [[Unique Note Creator]]
 1. [[Random note]]
 1. [[Outline]]
 1. [[Word count]]
