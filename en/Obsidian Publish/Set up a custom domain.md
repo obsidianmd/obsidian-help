@@ -99,6 +99,20 @@ In `vercel.json`, [configure rewrites](https://vercel.com/docs/configuration#pro
 }
 ```
 
+### Caddy
+
+```
+mysite.com {
+	encode zstd gzip
+	handle /my-notes* {
+		reverse_proxy https://publish.obsidian.md {
+			header_up Host {upstream_hostport}
+		}
+		rewrite * /serve?url=mysite.com{path}
+	}
+}
+```
+
 ### Supported HTTP X-Headers
 
 If your proxy service doesn't allow query paths, you can use `https://publish.obsidian.md/` with a custom header `x-obsidian-custom-domain` set to your site URL `mysite.com/my-subpath`.
