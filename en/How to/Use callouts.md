@@ -20,13 +20,14 @@ It will show up like this:
 
 ### Types
 
-By default, there are 12 distinct callout types, each with several aliases. Each type comes with a different background color and icon.
+By default, there are 13 distinct callout types, each with several aliases. Each type comes with a different background color and icon.
 
 To use these default styles, replace `INFO` in the examples with any of these types. Any unrecognized type will default to the "note" type, unless they are [[#Customizations|customized]]. The type identifier is case insensitive.
 
 - note
 - abstract, summary, tldr
-- info, todo
+- info
+- todo
 - tip, hint, important
 - success, check, done
 - question, help, faq
