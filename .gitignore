@@ -9,3 +9,5 @@ Thumbs.db
 
 .obsidian
 *.css
+
+.idea/
