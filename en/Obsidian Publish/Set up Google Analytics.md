@@ -7,7 +7,6 @@
 
 To use Google Analytics for Obsidian, you need:
 
-- A Universal Analytics (UA) property (not the new Google Analytics 4 property).
 - A [[Set up a custom domain|custom domain]] for your Obsidian Publish site.
 
 ### Set up Google Analytics
