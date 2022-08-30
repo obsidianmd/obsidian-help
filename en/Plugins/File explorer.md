@@ -4,7 +4,8 @@ The File explorer lets you manage files and folders inside your vault. You can b
 - Move files and folders with drag and drop.
 - Use the context menu to access all available operations.
 
-> **Tip:** You can drag a file from the File explorer into your note to create a link to it, or drag a file into a folder in the File explorer to copy it.
+> [!tip]
+> You can drag a file from the File explorer into your note to create a link to it, or drag a file into a folder in the File explorer to copy it.
 
 ## Create a new note
 
@@ -13,7 +14,8 @@ To create a new note in the default location for new notes:
 1. Click **New note** (document icon) at the top of the File explorer.
 2. Type the name of the note, and then press Enter.
 
-> **Tip:** You can change the default location for new notes under **Settings** -> **Files and links** -> **Default location for new notes**.
+> [!tip]
+> You can change the default location for new notes under **Settings** -> **Files and links** -> **Default location for new notes**.
 
 To create a new note in a specific folder:
 
