@@ -27,10 +27,12 @@ The backlinks pane have the following options:
 - **Change sort order** determines how to sort the mentions.
 - **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search query, refer to [[Search]].
 
-> **Tip:** If you want to see backlinks for multiple notes at the same time, you can enable **Backlink in document** under plugin options, to display backlinks in the same pane as your note.
+> [!tip]
+> If you want to see backlinks for multiple notes at the same time, you can enable **Backlink in document** under plugin options, to display backlinks in the same pane as your note.
 
 ## View backlinks for a note
 
 To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right side bar.
 
-> **Note:** If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks pane** command.
+> [!note]
+> If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks pane** command.
