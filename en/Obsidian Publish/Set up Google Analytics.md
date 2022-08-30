@@ -14,8 +14,8 @@ To use Google Analytics for Obsidian, you need:
 To enable Google Analytics for your Obsidian Publish site:
 
 1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-4. In **Google Analytics tracking code**, enter your tracking code.
+1. In the **Publish changes** dialog, click **Change site options** (cog icon).
+1. In **Google Analytics tracking code**, enter your tracking code.
 
 ## Troubleshooting
 
