@@ -4,6 +4,9 @@ alias: [Obsidian Sync]
 
 Obsidian Sync is a cloud-based service that lets you store your notes on Obsidian's servers and synchronize them across your devices.
 
+> [!important]
+> If you're using Obsidian Sync together with other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, refer to [[Obsidian Sync and third-party services]] to avoid sync conflicts.
+
 Learn more about Obsidian Sync:
 
 - If you a new Obsidian Sync user, learn how to [[set up Obsidian Sync]].
