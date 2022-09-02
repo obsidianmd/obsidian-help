@@ -13,7 +13,7 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 1. [[File explorer]]
 1. [[File recovery]]
 1. [[Graph view]]
-1. [[Markdown format converter]]
+1. [[Format converter]]
 1. [[Note composer]]
 1. [[Open in default app]]
 1. [[Outgoing links]]

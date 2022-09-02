@@ -21,7 +21,7 @@ Les plugins peuvent être gérés via le bouton "Settings" en bas à gauche. Cer
 - [[Custom CSS]]
 - [[Daily notes]]
 - [[Zettelkasten prefixer]]
-- [[Markdown format converter]]
+- [[fr/Plugins/Markdown format converter]]
 - [[Random note]]
 - [[Starred notes]]
 - [[en/Plugins/Templates]]
