@@ -15,7 +15,6 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 1. [[Graph view]]
 1. [[Markdown format converter]]
 1. [[Note composer]]
-1. [[Open in default app]]
 1. [[Outgoing links]]
 1. [[Outline]]
 1. [[Page preview]]
