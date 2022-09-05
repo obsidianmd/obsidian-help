@@ -1,42 +1,70 @@
-The Note composer plugin allows you to easily merge two note or extract part of a note into its own note.
+Note composer lets you merge two notes or extract part of a note into a new note.
 
-## Merge
+## Merge notes
 
-When working with the file, you can choose "Merge entire file with..." in the More Options menu.
+Merging notes adds a note to another and removes the first one. Note composer updates all links to reference the merged note.
 
-Alternatively, you can open [[Command palette]] and invoke the command "Note composer: Merge current file with another file...".
+When you select the note to merge into, you can choose between the following methods:
 
-This will bring up a menu to choose a file to merge into. Once you confirm the merge, all links to the current note will be updated to the merged file.
+- **Enter**: Adds the source note at the _end_ to the destination note.
+- **Shift+Enter**: Adds the source note at the _start_ of the destination note.
+- **Ctrl+Enter** (or **Cmd+Enter** on macOS): Creates a new note with the content of the source note.
 
-The current note will be merged to the bottom by default; you can use `Shift-Enter` instead of `Enter` to merge it to the top.
+To merge the active note with another note in your vault:
 
-## Extract
+**File explorer**
 
-When selecting text, you can either right click on it, select "Extract current selection", or use the [[Command palette]] to find the "Note composer: Extract current selection..." command.
+1. In the File explorer, right-click the note you want to merge.
+1. Click **Merge entire file with...**.
+1. Select the note you want to merge into.
+1. Click **Merge** to confirm.
 
-Similar to merging, this will bring up a menu to choose a file to extract into. If no result can be found, a new note will be created. If you want to create a new note instead of using the first result, press `Ctrl-Enter` (or `Cmd-Enter` on macOS).
+**Command palette**
 
-## Options
+1. Open the [[Command palette]].
+1. Select **Note composer: Merge current file with another file...**.
+1. Select the note you want to merge into.
+1. Click **Merge** to confirm.
 
-Note Composer has a few helpful plugin options.
+> [!tip]
+> By default, Note composer asks you to confirm when merging notes. If you disable the confirmation, and you merge a note by mistake, you can still recover it with the [[File recovery]] plugin.
 
-### Text after moving
+## Extract note
 
-After you extract a piece of text, it's often a good idea to leave a link to the new file. By default, a link is created. But you can also change this option to have an embed created for you, or insert nothing at all.
+When you select the note to extract the selection into, you can choose between the following methods:
 
-### Template file
+- **Enter**: Adds the selected text at the _end_ to the destination note.
+- **Shift+Enter**: Adds the selected text at the _start_ of the destination note.
+- **Ctrl+Enter** (or **Cmd+Enter** on macOS): Creates a new note with the selected text.
 
-When merging or extracting, instead of just sending over the content, you can also apply a template file to it.
+To extract text into a new note:
 
-This template file can contain the following variables:
+**Editor**
 
-- `{{content}}`: this is where the content will be placed. If you do not include this variable, the content will automatically be placed at the bottom of the template.
-- `{{fromTitle}}`: the name of the note where the new note comes from.
-- `{{newTitle}}`: the title of the new file. Convenient if you prefer to have a heading at the top of the file that's the same as the file name.
-- `{{date:FORMAT}}`: you can add multiple dates with your custom format. For example, you can do `{{date:YYYY-MM-DD}}` and it will resolve to the date or time when the note gets created.
+1. While in the **Editing view**, select the text you want to extract.
+1. Right-click the selected text.
+1. Click **Extract current selection...**.
+1. Select the note you want to extract into.
 
-### Confirm file merge
+**Command palette**
 
-Merging files will delete the file and is destructive, so by default we ask for your confirmation. If you prefer, you can choose to skip this confirmation.
+1. While in the **Editing view**, select the text you want to extract.
+1. Open the [[Command palette]].
+1. Select **Note composer: Extract current selection...**.
+1. Select the note you want to extract into.
 
-In case you accidentally merged something and want to get it back, consider using the [[File recovery]] plugin to recover it.
+> [!tip]
+> By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Embed files|embed]] the destination note, or to leave nothing behind.
+
+## Template file
+
+By configuring a template, you can customize the content before you add it to the new note. To use a template, enter a **Template file location** in the plugin settings.
+
+The template can contain the following variables:
+
+| Variable | Description |
+|-|-|
+| `{{content}}` | The content to merge, or the extracted text selection. If you don't include this variable, Note composer adds the content at the bottom of the template. |
+| `{{fromTitle}}` | Name of the source note. |
+| `{{newTitle}}` | Name of the destination note. For example, to add the file name as a heading at the top of the file. |
+| `{{date:FORMAT}}` | Creation date of the new note. For example, `{{date:YYYY-MM-DD}}`. |
