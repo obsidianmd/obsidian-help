@@ -38,7 +38,7 @@ Embed another file (read more about [[Embed files]]). Here's an embedded section
 ###### This is a heading 6
 ```
 
-%% These headings are using HTML to not clutter the Outline/Table of contents %%
+%% These headings use HTML to avoid cluttering the Outline/Table of contents %%
 <h1>This is a heading 1</h1>
 <h2>This is a heading 2</h2>
 <h3>This is a heading 3</h3> 
