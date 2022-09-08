@@ -211,7 +211,7 @@ You can link to a note by its vault name and file name instead of path as well:
 
 #### Escaping
 
-If there are spaces in the URL, they can be escaped by either using `%20` as a space, such as:
+If the URL contains spaces, you can escape them by replacing them with `%20`.
 
 ```md
 [Export options](Pasted%20image)
