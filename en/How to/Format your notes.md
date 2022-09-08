@@ -128,7 +128,7 @@ _You **can** combine them_
 
 ---
 
-If there is at least one blank line in between list items, the list will be considered as a loose list.
+Create a _loose list_ by adding a blank line between any two list items.
 
 ```md
 - Item 1
@@ -260,7 +260,8 @@ You can add syntax highlighting to a code block by adding a language code after 
 
 Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
 
-Please note that [[Live preview update|Live Preview mode]] does not use the same library and as a result will not render code blocks in the same way as _Reading mode_.
+> [!note]
+> [[Live preview update|Live Preview mode]] doesn't support PrismJS and may render syntax highlighting differently.
 
 ~~~md
 ```js
@@ -313,7 +314,7 @@ function fancyAlert(arg) {
 
 ### Tables
 
-You can create tables by assembling a list of words and dividing the header from the content with dashes `-`, (press the minus key on your keyboard to get this symbol), and then separating each column with a pipe `|`:
+You can create tables by assembling a list of words and dividing the header from the content with hyphens, `-`, and then separating each column with a pipe `|`:
 
 ```md
 |First Header | Second Header|
@@ -327,7 +328,7 @@ You can create tables by assembling a list of words and dividing the header from
 |Content from cell 1 | Content from cell 2|
 |Content in the first column | Content in the second column|
 
-You can optionally omit the pipes at the start and end of a line:
+The vertical bars at the start and end of a line are optional.
 
 ```md
 First Header | Second Header
@@ -336,7 +337,7 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 ```
 
-This will result in the same table as the one above.
+This results in the same table as the one above.
 
 ---
 
@@ -452,9 +453,9 @@ You can also do inline math like $e^{2i\pi} = 1$ .
 You can also do inline math like $e^{2i\pi} = 1$ .
 
 To render math from LaTeX notion Obsidian uses [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html).
-You can learn about the syntax [here](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-If you are already comfortable with LaTeX you can check which packages are supported in MathJax [here](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
 
 ---
 
@@ -463,7 +464,7 @@ If you are already comfortable with LaTeX you can check which packages are suppo
 Use `%%` to enclose comments, which will be parsed as Markdown, but will not show up in the preview.
 
 ```md
-Here is some inline comments: %%You can't see this text%% (Can't see it in reading mode)
+Here is some inline comments: %%You can't see this text%% (Can't see it in Reading mode)
 
 Here is a block comment:
 %%
@@ -472,9 +473,9 @@ multiple lines
 %%
 ```
 
-Here is some inline comments: %%You can't see this text%% (can't see it in reading mode)
+Here is some inline comments: %%You can't see this text%% (can't see it in Reading mode)
 
-Here is a block comment: (can't see it in reading mode either)
+Here is a block comment: (can't see it in Reading mode either)
 %%
 It can span
 multiple lines

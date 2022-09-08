@@ -10,7 +10,7 @@ Use the following syntax to denote a callout block: `> [!INFO]`.
 ```markdown
 > [!INFO]
 > Here's a callout block.
-> It supports support **markdown**, [[Internal link|wikilinks]] and [[Embed files|embeds]]!
+> It supports **markdown**, [[Internal link|wikilinks]], and [[Embed files|embeds]]!
 > ![[og-image.png]]
 ```
 
@@ -23,7 +23,7 @@ It will show up like this:
 
 ### Types
 
-By default, there are 13 distinct callout types, each with several aliases. Each type comes with a different background color and icon.
+By default, Obsidian supports several callout types and aliases. Each type comes with a different background color and icon.
 
 To use these default styles, replace `INFO` in the examples with any of these types. Any unrecognized type will default to the "note" type, unless they are [[#Customizations|customized]]. The type identifier is case insensitive.
 
