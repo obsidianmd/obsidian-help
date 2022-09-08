@@ -48,7 +48,7 @@ Embed another file (read more about [[Embed files]]). Here's an embedded section
 
 ---
 
-There is also this alternative heading syntax.
+You can also use the alternative syntax for Heading 1 and Heading 2.
 ```md
 Heading 1
 ===
