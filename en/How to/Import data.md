@@ -32,14 +32,14 @@ If you have data in Roam, it's easy to export and play around with it in Obsidia
 > 4. Click on the vault icon (the tooltip should say "Open another vault") on the bottom left corner in the app, and select "Open folder as vault".
 > Pick the folder you just unzipped to.
 
-> 5. Use our [[vi/Plugin/Markdown format converter]] to convert Roam Research's Markdown format into Obsidian's format.
+> 5. Use our [[Format converter]] to convert Roam Research's Markdown format into Obsidian's format.
 > It can be used turn `#tag` into Obsidian `[[links]]`.
 > It can also convert `^^highlight^^` into `==highlight==`.
 
 
 ### From Bear
 
-If you're importing from Bear, the [[vi/Plugin/Markdown format converter]] plugin has an option to convert `::highlight::` to `==highlight==`.
+If you're importing from Bear, the [[Format converter]] plugin has an option to convert `::highlight::` to `==highlight==`.
 
 ### Using Zettelkasten
 
@@ -47,6 +47,6 @@ If you've been using the Zettelkasten method to structure your notes, here's som
 
 Links in Obsidian require a full match to the note name. This means that `[[202001010000]]` will not properly link to `[[202001010000 My Note]]`.
 
-In order to fix that, you can use our [[vi/Plugin/Markdown format converter]] to convert your Zettelkasten links into either `[[202001010000 My Note]]` or `[[202001010000 My Note|My Note]]`.
+In order to fix that, you can use our [[Format converter]] to convert your Zettelkasten links into either `[[202001010000 My Note]]` or `[[202001010000 My Note|My Note]]`.
 
 You might also be interested in the [[Unique Note Creator]] plugin.

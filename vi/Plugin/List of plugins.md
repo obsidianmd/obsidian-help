@@ -21,7 +21,7 @@ Các plugin có thể được quản lý thông qua nút "Settings" ở phía d
 1. [[Command palette]]
 1. [[Daily notes]]
 1. [[Zettelkasten prefixer]]
-1. [[vi/Plugin/Markdown format converter]]
+1. [[Format converter]]
 1. [[Random note]]
 1. [[Starred notes]]
 1. [[Templates]]
