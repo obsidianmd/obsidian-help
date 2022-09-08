@@ -256,7 +256,9 @@ Text inside `backticks` on a line will be formatted like code.
 
 #### Code blocks
 
-Syntax highlight is supported with the language specified after the first set of backticks. We use Prism for syntax highlighting, a list of supported languages can be found [at their site](https://prismjs.com/#supported-languages).
+You can add syntax highlighting to a code block by adding a language code after the first set of backticks.
+
+Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
 
 Please note that [[Live preview update|Live Preview mode]] does not use the same library and as a result will not render code blocks in the same way as _Reading mode_.
 
