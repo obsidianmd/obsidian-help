@@ -1,5 +1,6 @@
-Page preview lets you preview a page when hovering an internal link, without needing to actually navigate to that page.
+Page preview lets you preview a page when you hover the cursor over an internal link, without needing to navigate to that page.
 
-![[Pasted image 13.png]]
+To preview a page while in Editing view, press Ctrl (or Cmd on macOS) while hovering the cursor over the link.
 
-This works on the preview pane. In the editor, you can hover a link while holding `Ctrl/Cmd`, which will open the preview too.
+> [!tip]
+> Page preview even works inside the preview window.
