@@ -3,4 +3,4 @@ Page preview lets you preview a page when you hover the cursor over an internal 
 To preview a page while in Editing view, press Ctrl (or Cmd on macOS) while hovering the cursor over the link.
 
 > [!tip]
-> Page preview even works inside the preview window.
+> In the plugin settings, you can configure Page preview to only open the preview automatically, or only when you press Ctrl (or Cmd on macOS).
