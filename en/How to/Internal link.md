@@ -22,4 +22,4 @@ To make the link display different text than its real note name in Preview, use 
 
 Internal links could be written in two formats:
 - `Wikilink` in the following format: `[[My Link]]`;
-- `Markdown style links` in the following format: `[My Link](../Some%20Other%Folder/My%20Link.md)`. It is similar to [[Format your notes#External links]] but it uses URLs relative to the current note.
+- `Markdown-style links` in the following format: `[My Link](My%20Link.md)`. 
