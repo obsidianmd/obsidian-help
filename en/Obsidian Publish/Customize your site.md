@@ -12,6 +12,7 @@ You can customize your site by [[Publish and unpublish notes#Publish notes|publi
 
 - Since Obsidian doesn't support CSS or JavaScript files, you need to use another application to create and edit them.
 - By default, `publish.css` and `publish.js` don't appear in the file explorer, but you can still publish them from the **Publish changes** dialog.
+- To use custom JavaScript with `publish.js`, you need to [[Set up a custom domain]].
 
 For favicons, Obsidian Publish supports the following naming conventions, where `32` is the icon dimensions in pixels:
 

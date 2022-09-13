@@ -8,7 +8,8 @@ To open today's daily note, either:
 
 By default, Obsidian creates a new empty note named after today's date in the YYYY-MM-DD format.
 
-> **Tip:** If you prefer to have your daily notes in a separate folder, you can set the **New file location** under plugin options to change where Obsidian creates new daily notes.
+> [!tip]
+> If you prefer to have your daily notes in a separate folder, you can set the **New file location** under plugin options to change where Obsidian creates new daily notes.
 
 ## Create a daily note from template
 

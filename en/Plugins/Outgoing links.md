@@ -1,21 +1,15 @@
-The Outgoing Links plugin shows the links from the current note at a glance, as well as potential links to be made. If you're familiar with the [[Backlinks]] plugin, you can think of outgoing links as the opposite direction of backlinks.
+The Outgoing links plugin shows the links from the active note at a glance, as well as potential links to be made. It's similar to the [[Backlinks]] plugin, which instead shows you _incoming_ links to the active note.
 
-After enabling the plugin, you should see a new pane in the right sidebar, which contains two sections: "Links" and "Unlinked mentions".
+The Outgoing links pane (link with right arrow icon) is available in the right sidebar and contains the following sections:
 
-### Links
+- **Links** lists all links in the active note. Click a link to open the linked note.
+- **Unlinked mentions** lists any text in the active note that matches the name or [[Add aliases to note|alias]] of another note in your vault. Unlinked mentions helps you discover links you aren't aware of yet.
 
-The Links sections show links to other files, headings, and blocks. Clicking on a link will take you to that file.
+To create a link from an unlinked mention, click the button with the note's name.
 
-Each type will have its own icon for you to distinguish them; links to files that are not created yet have special icons.
+> [!tip]
+> Unlinked mentions can refer to different notes with the same name. To show the full path of the note, hover over the button with the note's name.
 
-Underneath the title, you can also see the folder path of each file.
+> [!note] Code blocks
+> While you can create a link from an unlinked mention inside a code block, due to the nature of code blocks, links don't show up under the Links section.
 
-Given the complexity parsing the contents of codeblocks, links in codeblocks will not display in this section.
-
-### Unlinked mentions
-
-If any text in the current note matches the name or [[Add aliases to note|alias]] of another note in your vault, you can see the context, highlighted match, and a button to Link it under "Unlinked mentions".
-
-When you hover over the button, it will show the full path of the file if it's not in the vault root. If you have multiple files of the same name, this can help you distinguish them.
-
-Possible mentions in codeblocks are displayed under "Unlinked mentions". Clicking them will insert the link syntax as expected, but given the complexity parsing the contexts of codeblocks, they will not appear under "Links".

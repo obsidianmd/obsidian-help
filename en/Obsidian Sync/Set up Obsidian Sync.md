@@ -23,7 +23,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 
 1. Open **Settings**.
 2. In the sidebar, click **Sync**.
-3. Next to **Pick remote vault**, click **Choose**.
+3. Next to **Remote vault**, click **Choose**.
 4. Click **Create new vault**.
 5. In **Vault name**, enter the name of the remote vault.
 6. In **Encryption password**, enter the password for your vault. This creates an end-to-end encrypted vault. For more information, refer to [[Security and privacy]].
