@@ -202,8 +202,9 @@ Snippets and plugins can define custom callouts, too, or overwrite the default o
 
 ### Developer Notes
 
-The syntax has been chosen because:
-- it gracefully falls back to blockquotes in unsuported markdown renderers
-- it parses all markdown, including links, embeds, etc.
-- [[Internal link|Internal link's]] are recognized and will show up in [[Backlinks]], [[Outgoing links]] and [[Graph view]]
+We choose the syntax because:
+
+- it falls back to blockquotes in unsupported markdown renderers
+- it parses all Markdown, including links, embeds, etc.
+- it recognizes [[Internal link|Internal link's]] and will shows up in [[Backlinks]], [[Outgoing links]], and [[Graph view]]
 - the spellchecker can spellcheck it.
