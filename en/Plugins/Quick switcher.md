@@ -1,8 +1,15 @@
-The Quick switcher lets you jump to other notes without leaving your keyboard. The shortcut to invoke it is `Ctrl/Cmd+O`. Just start typing, and matching filenames will be selected. Use up and down arrows to navigate the results, `Enter` to jump to a result, and  `Esc` to exit the quick switcher. Holding down `Cmd/Ctrl` will cause the note to open in a new pane. 
+The Quick switcher lets you search and open notes using only your keyboard. 
 
-If you want to create a new note, typing a unique name will cause the Quick Switcher to create it. If the name is similar enough to an existing note, the Quick Switcher will default to opening the original note. To avoid this, holding down `shift` will force creation of a new note with whatever name is in the Quick Switcher. This can be combined with `Cmd/Ctrl` to create the new note in a new pane. 
+To open a note using the Quick switcher:
 
-![[Pasted image 11.png]]
+1. Press Ctrl+O (or Cmd+O on macOS) to open the Quick switcher.
+1. Type to search for a note by name or alias.
+1. Navigate to the note using the arrow keys.
+1. Press Enter to open the selected note.
 
-Before you enter anything, the top 5 most recently visited notes will be shown, so it's also useful to quickly switch two notes by doing `Ctrl/Cmd+O` → `Down arrow` → `Enter`.
+If the text doesn't match any notes, you can press Enter to create a note with that name. Even if the text matches one or more similar notes, you can still create a note with the exact name by pressing Shift+Enter.
 
+You can open the selected note in a new pane by pressing Ctrl+Enter (or Cmd+Enter on macOS).
+
+> [!tip] Toggle between two notes
+> If the search term is empty, the Quick switcher shows the most recent notes. Toggle between two notes by opening the Quick switcher, pressing the Down arrow, and then pressing Enter.
