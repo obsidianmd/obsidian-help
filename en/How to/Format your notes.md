@@ -11,6 +11,7 @@ We currently support the formats below:
 Link to a page: [[Internal link]].
 ```
 
+
 Link to a page: [[Internal link]].
 
 ---
@@ -22,7 +23,6 @@ Embed another file (read more about [[Embed files]]). Here's an embedded section
 ```md
 ![[Obsidian#What is Obsidian]]
 ```
-
 ![[Obsidian#What is Obsidian]]
 
 ---
@@ -38,12 +38,29 @@ Embed another file (read more about [[Embed files]]). Here's an embedded section
 ###### This is a heading 6
 ```
 
-# This is a heading 1
-## This is a heading 2
-### This is a heading 3 
-#### This is a heading 4
-##### This is a heading 5
-###### This is a heading 6
+%% These headings use HTML to avoid cluttering the Outline/Table of contents %%
+<h1>This is a heading 1</h1>
+<h2>This is a heading 2</h2>
+<h3>This is a heading 3</h3> 
+<h4>This is a heading 4</h4>
+<h5>This is a heading 5</h5>
+<h6>This is a heading 6</h6>
+
+---
+
+You can also use the alternative syntax for Heading 1 and Heading 2.
+```md
+Heading 1
+===
+
+Heading 2
+---
+```
+
+
+<h1>Heading 1</h1>
+
+<h2>Heading 2</h2>
 
 ---
 
@@ -51,18 +68,22 @@ Embed another file (read more about [[Embed files]]). Here's an embedded section
 
 ```md
 *This text will be italic*
+
 _This will also be italic_
 ```
 
 *This text will be italic*
+
 _This will also be italic_
 
 ```md
 **This text will be bold**
+
 __This will also be bold__
 ```
 
 **This text will be bold**
+
 __This will also be bold__
 
 ```md
@@ -75,17 +96,13 @@ _You **can** combine them_
 
 ### Lists
 
+#### Unnumbered lists
+
 ```md
 - Item 1
 - Item 2
   - Item 2a
   - Item 2b
-
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
 ```
 
 - Item 1
@@ -93,13 +110,40 @@ _You **can** combine them_
   - Item 2a
   - Item 2b
 
+#### Numbered Lists
+
+```md
 1. Item 1
 1. Item 2
 1. Item 3
    1. Item 3a
    1. Item 3b
+```
 
---- 
+1. Item 1
+1. Item 2
+1. Item 3
+	1. Item 3a
+	1. Item 3b
+
+---
+
+Create a _loose list_ by adding a blank line between any two list items.
+
+```md
+- Item 1
+
+- Item 2
+- Item 3
+```
+
+Will look like this:
+- Item 1
+
+- Item 2
+- Item 3
+
+---
 
 ### Images
 
@@ -108,6 +152,12 @@ _You **can** combine them_
 ```
 
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+
+```md
+![[og-image.png]]
+```
+
+![[og-image.png]]
 
 #### Resizing images
 
@@ -118,6 +168,13 @@ Example of this above image resized to 100 pixels wide:
 ```
 
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+
+or for local images
+```md
+![[og-image.png|200]]
+```
+
+![[og-image.png|200]]
 
 ---
 
@@ -131,9 +188,6 @@ Markdown style links can be used to refer to either external objects, such as we
 http://obsidian.md - automatic!
 [Obsidian](http://obsidian.md)
 ```
-
-http://obsidian.md - automatic!
-[Obsidian](http://obsidian.md)
 
 #### Obsidian URI links
 
@@ -157,7 +211,7 @@ You can link to a note by its vault name and file name instead of path as well:
 
 #### Escaping
 
-If there are spaces in the url, they can be escaped by either using `%20` as a space, such as:
+If the URL contains spaces, you can escape them by replacing them with `%20`.
 
 ```md
 [Export options](Pasted%20image)
@@ -189,7 +243,9 @@ Or you can enclose the target in `<>`, such as:
 
 ---
 
-### Inline code
+### Code
+
+#### Inline code
 
 ```md
 Text inside `backticks` on a line will be formatted like code.
@@ -198,19 +254,25 @@ Text inside `backticks` on a line will be formatted like code.
 Text inside `backticks` on a line will be formatted like code. 
 
 
----
+#### Code blocks
 
-### Code blocks
+You can add syntax highlighting to a code block by adding a language code after the first set of backticks.
 
-Syntax highlight is supported with the language specified after the first set of backticks. We use prismjs for syntax highlighting, a list of supported languages can be found [at their site](https://prismjs.com/#supported-languages)
+Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
 
-<pre><code>```js
+> [!note]
+> [[Live preview update|Live Preview mode]] doesn't support PrismJS and may render syntax highlighting differently.
+
+~~~md
+```js
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
-```</code></pre>
+```
+~~~
+
 
 ```js
 function fancyAlert(arg) {
@@ -219,14 +281,15 @@ function fancyAlert(arg) {
   }
 }
 ```
-    
-	
+
+---
+
 ```md
     Text indented with a tab is formatted like this, and will also look like a code block in preview. 
 ```
 
     Text indented with a tab is formatted like this, and will also look like a code block in preview. 
-    
+
 ---
 
 ### Task list
@@ -251,7 +314,21 @@ function fancyAlert(arg) {
 
 ### Tables
 
-You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
+You can create tables by assembling a list of words and dividing the header from the content with hyphens, `-`, and then separating each column with a pipe `|`:
+
+```md
+|First Header | Second Header|
+|------------ | -----‐------|
+|Content from cell 1 | Content from cell 2|
+|Content in the first column | Content in the second column|
+```
+
+|First Header | Second Header|
+|------------ | ------------|
+|Content from cell 1 | Content from cell 2|
+|Content in the first column | Content in the second column|
+
+The vertical bars at the start and end of a line are optional.
 
 ```md
 First Header | Second Header
@@ -260,24 +337,21 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 ```
 
-First Header | Second Header
------------- | ------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+This results in the same table as the one above.
 
 ---
 
 ```md
-Tables can be justified with a colon | Another example with a long title
-:----------------|-------------:
-because of the `:` | these will be justified
+Tables can be justified with a colon | Another example with a long title | And another long title as a example
+:----------------|-------------:|:-------------:
+because of the `:` | these will be justified |this is centered
 ```
 
-Tables can be justified with a colon | Another example with a long title
-:----------------|-------------:
-because of the `:` | these will be justified
+Tables can be justified with a colon | Another example with a long title | And another long title as a example
+:----------------|-------------:|:-------------:
+because of the `:` | these will be justified |this is centered
 
-If you put links in tables, they will work, but if you use Piped Links, the pipe must be escaped with a `\` to prevent it being read as a table element.
+If you put links in tables, they will work, but if you use [[Add aliases to note|aliases]], the pipe must be escaped with a `\` to prevent it being read as a table element.
 
 ```md
 First Header | Second Header
@@ -313,10 +387,8 @@ Use two equal signs to ==highlight text==.
 
 ### Horizontal Bar
 
-```md
 Use three stars ***, hyphens ---, or underscores ___ in a new line to produce an horizontal bar.
 
-```
 
 ***
 
@@ -349,12 +421,16 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     `{ my code }`
 
     Add as many paragraphs as you like.
-	
+
+---
+
 ```md
-You can also use inline footnotes. ^[notice that the carat goes outside of the brackets on this one.]
+You can also use inline footnotes. ^[notice that the caret goes outside of the brackets on this one.]
 ```
 
-You can also use inline footnotes. ^[notice that the carat goes outside of the brackets on this one.]
+You can also use inline footnotes. ^[notice that the caret goes outside of the brackets on this one.]
+
+---
 
 ### Math
 
@@ -368,16 +444,27 @@ $$\begin{vmatrix}a & b\\
 c & d
 \end{vmatrix}=ad-bc$$
 
+---
+
+```md
+You can also do inline math like $e^{2i\pi} = 1$ .
+```
+
 You can also do inline math like $e^{2i\pi} = 1$ .
 
-Obsidian uses [Mathjax](http://docs.mathjax.org/en/latest/basic/mathjax.html). You can check which packages are supported in Mathjax [here](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+To render math from LaTeX notation Obsidian uses [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html).
+For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+
+For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+
+---
 
 ### Comments
 
 Use `%%` to enclose comments, which will be parsed as Markdown, but will not show up in the preview.
 
 ```md
-Here is some inline comments: %%You can't see this text%% (Can't see it)
+Here is some inline comments: %%You can't see this text%% (Can't see it in Reading mode)
 
 Here is a block comment:
 %%
@@ -386,15 +473,17 @@ multiple lines
 %%
 ```
 
-Here is some inline comments: %%You can't see this text%% (can't see it in preview)
+Here is some inline comments: %%You can't see this text%% (can't see it in Reading mode)
 
-Here is a block comment: (can't see it in preview either)
+Here is a block comment: (can't see it in Reading mode either)
 %%
 It can span
 multiple lines
 %%
 
-## Callouts
+---
+
+### Callouts
 
 Use the following syntax to denote a callout block: `> [!INFO]`.
 
@@ -410,17 +499,31 @@ Learn more about callouts [[Use callouts|here]].
 > Here's a callout block.
 > It supports **markdown** and [[Internal link|wikilinks]].
 
+---
+
 ### Diagram
 
 Obsidian uses [Mermaid](https://mermaid-js.github.io/) to render diagrams and charts. Mermaid also provides [a helpful live editor](https://mermaid-js.github.io/mermaid-live-editor).
+Mermaid provides the following diagram types:
+- Flowchart
+- Sequence diagram
+- Class Diagram
+- State Diagram
+- Entity Relationship Diagram
+- User Journey
+- Gantt
+- Pie Chart
+- Requirement Diagram
 
-<pre><code>```mermaid
+````md
+```mermaid
 sequenceDiagram
     Alice->>+John: Hello John, how are you?
     Alice->>+John: John, can you hear me?
     John-->>-Alice: Hi Alice, I can hear you!
     John-->>-Alice: I feel great!
-```</code></pre>
+```
+````
 
 ```mermaid
 sequenceDiagram
@@ -430,17 +533,44 @@ sequenceDiagram
     John-->>-Alice: I feel great!
 ```
 
-Obsidian supports linking to notes in Mermaid:
-<pre><code>```mermaid
+````md
+```mermaid
+graph TD
+
+Biology --> Chemistry
+```
+````
+
+```mermaid
+graph TD
+
+Biology --> Chemistry
+```
+
+
+Obsidian supports linking to notes in Mermaid,
+these links will not show up on [[Graph view]].
+````md
+```mermaid
 graph TD
 
 Biology --> Chemistry
 
 class Biology,Chemistry internal-link;
-```</code></pre>
+```
+````
+
+```mermaid
+graph TD
+
+Biology --> Chemistry
+
+class Biology,Chemistry internal-link;
+```
 
 An easier way to do it is the following: ^376b9d
-<pre><code>```mermaid
+````md
+```mermaid
 graph TD
 
 A[Biology]
@@ -449,7 +579,8 @@ B[Chemistry]
 A --> B
 
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
-```</code></pre>
+```
+````
 
 This way, all the note names (at least until `Z[note name]`) are all automatically assigned the class `internal-link` when you use this snippet.
 
@@ -457,6 +588,8 @@ If you use special characters in your note names, you need to put the note name 
 `"⨳ special character"`
 It looks like this if you follow the [[Format your notes#^376b9d|second option]]:
 `A["⨳ special character"]`
+
+---
 
 ## Developer notes
 
