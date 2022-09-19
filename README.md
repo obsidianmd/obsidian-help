@@ -36,15 +36,15 @@ Once the language you're working on is complete, open an issue to let us know. T
 
 ### Staying up-to-update
 
-Once the documentation get translated into a language, the English documentation will still occasionally get updated to include new features and to be more comprehensive.
+Once the documentation gets translated into a language, the English documentation will still occasionally get updated to include new features and to be more comprehensive.
 
 There's no simple way to stay up-to-update, but in general you can browse your language folder to check out when it's last updated, and compare that with the English documentation.
 
 If it's only a few versions behind, you can look at those changes individually, translate them, and fit them into the documentation of your language.
 
-If your language is months behind, we recommend opening the English documentation and the documentation of your language side by side in two vaults with Obsidian, and go through each article carefully.
+If your language is months behind, we recommend opening the English documentation and the documentation of your language side by side in two vaults with Obsidian, and going through each article carefully.
 
-### Adding yourself to credit
+### Adding yourself to credits
 
 Thanks for contributing to Obsidian's documentation! To feature yourself on our [[Credits]] page, simply create a pull request to the `/en/Obsidian/Credits` file. You can update the `YOUR LANGUAGE/Obsidian/Credits` file as well.
 
