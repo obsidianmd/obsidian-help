@@ -6,7 +6,7 @@ Hi, welcome to Obsidian!
 
 First of all, tell me a little bit about what's your experience with note-taking apps like?
 
--> [[No prior experience|I have no prior experience]]
+-> [[No prior experience|I have no prior experience]] testing
 
 -> [[From standard note-taking|I’ve used note-taking apps like Evernote and OneNote]]
 

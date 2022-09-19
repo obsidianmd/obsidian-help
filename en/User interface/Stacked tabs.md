@@ -1,4 +1,4 @@
-> [!info] Insider-build only
+> [!info]- Insider-build only
 > **Stacked tabs** were introduced in v0.16.2 and are currently only available for users with an Insider license.
 
 
