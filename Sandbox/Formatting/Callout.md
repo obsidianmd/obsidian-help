@@ -1,6 +1,6 @@
 As of v0.14.0, Obsidian supports callout blocks, sometimes called "admonitions". Callout blocks are written as a blockquote, inspired by the "alert" syntax from Microsoft Docs.
 
-Callouts are also be supported natively on Obsidian Publish.
+Callouts are also supported natively on Obsidian Publish.
 
 > [!NOTE]
 > For compatibility reasons, if you're also using the Admonitions plugin, you should update it to at least v8.0.0 to avoid problems with the new callout system.
@@ -61,7 +61,7 @@ Will show up as:
 
 ### Customizations
 
-Snippets and plugins can define custom callouts, too, or overwrite the default options. Callout types and icons are defined in CSS, where the color is an `r, g, b` tuple and the icon is the icon ID from any internally supported icon (like `lucide-info`). Alternatively, you can specify an SVG icon as a string.
+Snippets and plugins can define custom callouts too, or overwrite the default options. Callout types and icons are defined in CSS, where the color is an `r, g, b` tuple and the icon is the icon ID from any internally supported icon (like `lucide-info`). Alternatively, you can specify an SVG icon as a string.
 
 ```CSS
 .callout[data-callout="my-callout-type"] {
