@@ -4,8 +4,8 @@ Notes in Obsidian are stored as plain text files, which makes them incredibly po
 
 To create a new note:
 
-1. Press Ctrl+N (or Cmd+N on macOS) on your keyboard.
-2. Type "Obsidian" as the name of your note and press Enter.
+1. Press `Ctrl+N` (or `Cmd+N` on macOS) on your keyboard.
+2. Type "Obsidian" as the name of your note and press `Enter`.
 3. Copy and paste the following text into your note:
 
 > Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
@@ -18,9 +18,9 @@ Obsidian also supports [Markdown](https://en.wikipedia.org/wiki/Markdown)—a ma
 
    > \# A second brain, for you, forever.
 
-   The hashtag (#) turns a row of text into a heading.
+   The hashtag (`#`) turns a row of text into a heading.
 
-2. In your note, select the text "knowledge base" and press Ctrl+B (or Cmd+B on macOS) to make it bold.
+2. In your note, select the text "knowledge base" and press `Ctrl+B` (or `Cmd+B` on macOS) to make it bold.
 
 To learn more about how to format your notes using Markdown, refer to [[Format your notes]].
 

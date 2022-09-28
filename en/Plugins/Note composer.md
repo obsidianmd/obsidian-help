@@ -6,9 +6,9 @@ Merging notes adds a note to another and removes the first one. Note composer up
 
 When you select the note to merge into, you can choose between the following methods:
 
-- **Enter**: Adds the source note at the _end_ to the destination note.
-- **Shift+Enter**: Adds the source note at the _start_ of the destination note.
-- **Ctrl+Enter** (or **Cmd+Enter** on macOS): Creates a new note with the content of the source note.
+- `Enter`: Adds the source note at the _end_ to the destination note.
+- `Shift+Enter`: Adds the source note at the _start_ of the destination note.
+- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the content of the source note.
 
 To merge the active note with another note in your vault:
 
@@ -33,9 +33,9 @@ To merge the active note with another note in your vault:
 
 When you select the note to extract the selection into, you can choose between the following methods:
 
-- **Enter**: Adds the selected text at the _end_ to the destination note.
-- **Shift+Enter**: Adds the selected text at the _start_ of the destination note.
-- **Ctrl+Enter** (or **Cmd+Enter** on macOS): Creates a new note with the selected text.
+- `Enter`: Adds the selected text at the _end_ to the destination note.
+- `Shift+Enter`: Adds the selected text at the _start_ of the destination note.
+- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the selected text.
 
 To extract text into a new note:
 
@@ -62,9 +62,9 @@ By configuring a template, you can customize the content before you add it to th
 
 The template can contain the following variables:
 
-| Variable | Description |
-|-|-|
-| `{{content}}` | The content to merge, or the extracted text selection. If you don't include this variable, Note composer adds the content at the bottom of the template. |
-| `{{fromTitle}}` | Name of the source note. |
-| `{{newTitle}}` | Name of the destination note. For example, to add the file name as a heading at the top of the file. |
-| `{{date:FORMAT}}` | Creation date of the new note. For example, `{{date:YYYY-MM-DD}}`. |
+| Variable          | Description                                                                                                                                              |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `{{content}}`     | The content to merge, or the extracted text selection. If you don't include this variable, Note composer adds the content at the bottom of the template. |
+| `{{fromTitle}}`   | Name of the source note.                                                                                                                                 |
+| `{{newTitle}}`    | Name of the destination note. For example, to add the file name as a heading at the top of the file.                                                     |
+| `{{date:FORMAT}}` | Creation date of the new note. For example, `{{date:YYYY-MM-DD}}`.                                                                                       |

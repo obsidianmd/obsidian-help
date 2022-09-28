@@ -1,6 +1,6 @@
 The Search plugin helps you find files in your vault.
 
-By default, you can find Search in the left sidebar (magnifying glass icon). You can also open Search by pressing Ctrl+Shift+F (or Cmd+Shift+F on macOS).
+By default, you can find Search in the left sidebar (magnifying glass icon). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).
 
 - **Search selected text**: If you select text in the editor and open Search with the keyboard shortcut, Search shows you the search results for the selected text.
 - **Search recent search terms**: Open Search with an empty search term to list recent search terms. Click any of them to use the search term again.
