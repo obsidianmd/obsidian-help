@@ -15,7 +15,7 @@ tags:
 
 ### Tag pane
 
-If you have the [[Tag pane]] plugin enabled, you will see a list of all tags that are used across all of your notes, sorted by frequency. Clicking on any of those will activate that search.
+If you have the [[Tags]] plugin enabled, you will see a list of all tags that are used across all of your notes, sorted by frequency. Clicking on any of those will activate that search.
 
 This will allow you to search exact matches of a tag. For example, when clicking , as per usual, but if you want to find all instances of `maintag` with all subtags, you can still use the [[Search]] to look for `#maintag`. This is useful in cases where you have subcategories of things but you also want to be able to easily find all instances of the higher category.
 
@@ -31,6 +31,6 @@ Spaces are not allowed in tags. So, to differentiate two or more words in a tag,
 The only symbols allowed are:
 
 1. `_` (underscore) and `-` (dash) to separate words;
-2. `/` (forward slash) for [[Tag pane#Nested tags|nested tags]].
+2. `/` (forward slash) for [[Tags#Nested tags|nested tags]].
 
 Numbers are allowed in the tag, ==as long as the tag is not purely numeric==. For example, #1984 isn't a valid tag, but #y1984 is a valid one.
