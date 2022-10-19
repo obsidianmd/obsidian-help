@@ -4,7 +4,7 @@ Obsidian checks for new updates regularly. When a new update is available, Obsid
 
 Open **Settings** ->  **About**.
 
-You can find the current Obsidian version and installer version in the top-left corner.
+You can find the current Obsidian version and installer version in the top left corner.
 
 To apply any available updates, click **Relaunch**.
 
