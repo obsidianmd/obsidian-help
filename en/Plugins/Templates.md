@@ -34,4 +34,4 @@ In addition to `{{date}}` and `{{time}}`, which will work in all template files,
 
 ### Using custom date formats elsewhere
 
-Currently, dates like `{{date:YYYY-MM-DD}}` and `{{time:HH:mm}}` also work in the template file of the [[Daily notes]] and [[Unique Note Creator]] plugins. However, `{{date}}` and `{{time}}` do not work yet.
+Currently, dates like `{{date:YYYY-MM-DD}}` and `{{time:HH:mm}}` also work in the template file of the [[Daily notes]] and [[Unique note creator]] plugins. However, `{{date}}` and `{{time}}` do not work yet.
