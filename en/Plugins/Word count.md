@@ -1,3 +1,3 @@
-Word count is a simple plugin that shows the word count of your current note in the bottom status bar.
+Word count displays the number of words and characters of the active note. You can find the word count in the bottom right status bar.
 
-It works for CJK characters too (Chinese, Japanese, and Korean), in which words are not separately by spaces but rather glued together.
+Word count even supports CJK languages (Chinese, Japanese, and Korean), which don't use spaces to separate words.
