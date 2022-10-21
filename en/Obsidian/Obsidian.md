@@ -55,6 +55,6 @@ We support [[Customizing CSS|custom CSS]] and have a [[Community plugins|beta pl
 
 ## Follow our development
 
-Obsidian is in public beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
+Obsidian is stable and public available. We still have grand plans to continue making Obsidian the best and most refined thought-processing app for decades to come. On the [roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) you can see where we are headed.
 
 Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
