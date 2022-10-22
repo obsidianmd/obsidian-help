@@ -1,43 +1,41 @@
-Insider builds are experimental versions of Obsidian that are released to Catalyst license owners, on an opt-in basis.
+Get early access to upcoming releases by enabling _Insider builds_.
 
-Please note that insider builds are less stable than public versions, so if you prefer a smoother version, you don't have to enable it.
+Insider builds are only available to users with a [[Catalyst license]].
 
-### How to enable insider build
+> [!warning]
+> Insider builds are development builds and may be unstable. Don't enable Insider builds if you prefer a more reliable experience.
 
-If you are a [[Catalyst license|Catalyst supporter]], you have access to Insider Builds before the general public. To access these, go to Settings => Account, and log in with the password you used on the Obsidian site. Then go to Settings => About, and turn on Insider Builds there.
+## Enable Insider builds for desktop
 
-![[Insider.png]]
+To receive new Insider builds as soon as they're available, follow these steps:
 
-### Report issues
+1. Open **Settings**.
+1. In the sidebar, select **About**.
+1. Under **App**, enable **Receive insider builds**.
 
-If you're on our Discord server, you can go to the #insider-build channel to report issues. If you're filing a bug report on the forum, be sure to note the version you're using, so that we can improve it before rolling it out to everyone.
+## Install Insider builds on mobile devices
 
-## Mobile insider builds
+To find instructions on how to install Insider builds on your mobile device, follow these steps:
 
-If you're a holder of the [[Catalyst license]], you may wish to join our [[Insider builds|insider builds]] for mobile.
+1. Join the [Obsidian Discord server](https://discord.gg/veuWUTm).
+1. [[Catalyst license#Get your Discord badge|Get your Discord badge]] to access insider channels.
+1. Open Discord.
+1. In the `#insider-mobile` channel, open **Pinned Messages**.
+	- On desktop, select the pushpin icon in the upper-right corner.
+	- On mobile, swipe left and select **Pins**.
+1. Under **Pinned Messages**, select the installation link for your device:
+	- If you're using iOS, open the TestFlight link on your iPhone or iPad.
+	- If you're using Android, download and install the APK file.
 
-To keep feedback and releases centralized as we don't have the capacity to debug and collect feedback via email, we ask Catalyst users who would like to beta test to go through the following steps:
+## Report issues and other feedback
 
-### Step 1: join our Discord
+If you discover an issue in an Insider build, consider reporting it to the Obsidian team.
 
-First of all, please [join our Discord](https://discord.gg/veuWUTm).  
+Before you report an issue, refer to the [List of known issues and planned improvements](https://forum.obsidian.md/t/list-of-known-issues-and-planned-improvements/14286) to see if someone has already reported it.
 
-### Step 2: claim your Catalyst badge to access \#insider-build-mobile channel
+To report an issue, please use one of the following channels:
 
-If you don't have your badge yet, [[Catalyst license#Discord badge|you can get it in your Account page]].
+- On Discord, report the issue in the `#insider-build` channel.
+- In the forum, create a new topic under [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
 
-### Step 3: get the app via TestFlight (iOS) or APK (Android)
-
-Once you get your badge, you should be able to see the `#insider-mobile` channel along with regular channels like `#general` and `#publish`.
-
-To find the instructions for installing the mobile apps, go to `#insider-mobile`, and open pinned messages.
-
-On Discord web and desktop, you can open pinned messages of a channel by clicking on the pushpin icon near the search bar at the top. On Discord mobile, you'll need to swipe left to reveal the right sidebar and tap on the pushpin icon at the top.
-
-For the iOS app, look for the TestFlight link. Make sure to open the link on your iPhone or iPad, rather than on your computer. For the Android app, install the APK from the latest pinned messages if there are several of them.
-
-### How do I provide feedback?
-
-Before reporting an issue or submitting a feature request, please visit [the list of known issues on our forum](https://forum.obsidian.md/t/list-of-known-issues/14286) to see what's already known and on the roadmap.
-
-To keep track of bug reports and feature requests, please direct them to the forum as usual. Thank you for trying out our beta!
+When you report an issue, include the build version and the OS you're running it on. You can find the build version under **Settings > About > App > Current version**.
