@@ -1,14 +1,13 @@
-Slash commands allow the user to invoke any of Obsidian's commands while writing in the editor, simply by inserting a `/` character. 
+Slash commands allow you to perform commands from inside the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
 
-After inserting a `/` character, the editor will present the user with a searchable list of available commands. Continue writing e.g., the name of a command to search the list. 
+To run a command using Slash commands:
 
-To run a command via slash commands:
-1. While writing in the editor, insert a `/` character.
-2. Start typing the name of the command you want to run to search the list of available commands.
-3. Navigate to the command using the arrow keys.
-4. Press enter.
+1. In the editor, type a forward slash (`/`).
+1. Enter the name of the command you want to run to search the list of available commands.
+1. Navigate to the command using the arrow keys.
+1. Press Enter.
 
-To exit the slash command search without invoking a command, hit `esc` or insert a `space`.
+To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
 
 > [!TIP] Fuzzy matching
-> Like the [[Command palette]], searching for a slash command supports fuzzy matching, which lets you search commands even if you don't know their exact names. For example, type "scf" to find the "Save current file" command.
+> Like the [[Command palette]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.
