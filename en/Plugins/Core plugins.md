@@ -24,7 +24,7 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 1. [[Search]]
 1. [[Slash commands]]
 1. [[Slides]]
-1. [[Starred notes]]
+1. [[Starred]]
 1. [[Introduction to Obsidian Sync|Sync]]
 1. [[Tag pane]]
 1. [[Templates]]

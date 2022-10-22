@@ -9,7 +9,7 @@ See [[Working with multiple notes#5 Panes can be rearranged by dragging|dragging
 - You can drag a file, or multiple files from the [[file explorer]].
 - You can drag a file from a [[search]] result.
 - You can drag a file from [[backlinks]] or unlinked references.
-- You can drag a file from the [[starred notes]].
+- You can drag a file from the [[Starred]].
 - You can drag a file from a link inside the note, in preview mode.
 
 ### Drop destinations
@@ -17,7 +17,7 @@ See [[Working with multiple notes#5 Panes can be rearranged by dragging|dragging
 - You can drop a file on a pane header to open the file there. Hold `Alt` (or `Shift` on MacOS) to drop anywhere on the pane.
 - You can drop a file on a folder in the [[file explorer]] to move the file there.
 - You can drop a file into an editor to insert it as a link. The generated link also follows your preferences, such as relative paths, or using markdown links.
-- You can drop a file on the [[starred notes]] to star it.
+- You can drop a file on the [[Starred]] to star it.
 
 ### Dragging from outside Obsidian
 
