@@ -49,4 +49,4 @@ Links in Obsidian require a full match to the note name. This means that `[[2020
 
 In order to fix that, you can use our [[Format converter]] to convert your Zettelkasten links into either `[[202001010000 My Note]]` or `[[202001010000 My Note|My Note]]`.
 
-You might also be interested in the [[Unique Note Creator]] plugin.
+You might also be interested in the [[Unique note creator]] plugin.
