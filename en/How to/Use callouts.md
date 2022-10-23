@@ -206,5 +206,5 @@ We choose the syntax because:
 
 - it falls back to blockquotes in unsupported markdown renderers
 - it parses all Markdown, including links, embeds, etc.
-- it recognizes [[Internal link|Internal links]], will show up in [[Backlinks]], [[Outgoing links]], and [[Graph view]]
+- it recognizes [[Internal link|Internal links]], and shows up in [[Backlinks]], [[Outgoing links]], and [[Graph view]]
 - the spellchecker can spellcheck it.
