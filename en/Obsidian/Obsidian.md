@@ -55,6 +55,6 @@ We support [[Customizing CSS|custom CSS]] and have a [[Community plugins|beta pl
 
 ## Follow our development
 
-Obsidian is stable and public available. We still have grand plans to continue making Obsidian the best and most refined thought-processing app for decades to come. On the [roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) you can see where we are headed.
+Curious how we continue to make Obsidian the best and most refined tool for thought-processing? Check out our [roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) to see what we're working on.
 
 Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
