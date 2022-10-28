@@ -1,8 +1,8 @@
 ## What is Obsidian
 
-Obsidian is a both a Markdown editor and a knowledge base app.
+Obsidian is both a Markdown editor and a knowledge base app.
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing densely networked knowledge base.
+Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing a densely networked knowledge base.
 
 How do we start creating a network, you ask? Let's first start making some [[Internal link|internal links]]!
 
