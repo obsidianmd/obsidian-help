@@ -8,7 +8,7 @@ To designate template files, put them into a folder, and choose that folder in S
 
 ### Insert a template
 
-After setting up the folder location, using the ribbon icon to insert the template. As always, you can also set a hotkey for this option, or use the command palette to access it.
+After setting up the folder location, use the ribbon icon to insert the template. As always, you can also set a hotkey for this option, or use the command palette to access it.
 
 The template snippet will be inserted in the current caret position, with special text replaced by their actual value at the time of the insertion (see below).
 
