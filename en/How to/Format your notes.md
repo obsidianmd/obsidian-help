@@ -318,7 +318,7 @@ You can create tables by assembling a list of words and dividing the header from
 
 ```md
 |First Header | Second Header|
-|------------ | -----‐------|
+|------------ | ------------|
 |Content from cell 1 | Content from cell 2|
 |Content in the first column | Content in the second column|
 ```
