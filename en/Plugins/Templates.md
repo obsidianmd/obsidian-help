@@ -1,37 +1,36 @@
-The Templates plugin lets you quickly insert snippets of text into your current note.
+You can use Templates to insert pre-defined snippets of text into your active note.
 
-### Set up template folder
+## Set your template folder
 
-Each template snippet is just a normal Markdown note, like everything else in Obsidian.
+1. At the bottom left, click **Settings** (cog icon).
+1. Under **Core plugins > Templates > Template folder location**, enter the folder containing your templates.
 
-To designate template files, put them into a folder, and choose that folder in Settings => Templates => "Template folder location" after enabling the plugin
+## Insert a template into the active note
 
-### Insert a template
+**Important:**  To insert a template, you need to first [[#Set your template folder]].
 
-After setting up the folder location, use the ribbon icon to insert the template. As always, you can also set a hotkey for this option, or use the command palette to access it.
+1. In the ribbon, click **Insert template**.
+1. Select the template to insert at the cursor position in the active note.
 
-The template snippet will be inserted in the current caret position, with special text replaced by their actual value at the time of the insertion (see below).
+If your template folder contains only one note, Templates inserts it directly into the active note.
 
-### Insert title
+## Template variables
 
-If you want to insert the title of a note, you can set it in a template with `{{title}}`.
+You can add dynamic information to your templates, using _template variables_. When you insert a template containing a template variable, Templates replaces it with its corresponding value.
 
-### Insert date and time
+| Variable    | Description                                     |
+|-------------|-------------------------------------------------|
+| `{{title}}` | Title of the active note.                       |
+| `{{date}}`  | Today's date. **Default format:** `YYYY-MM-DD`. |
+| `{{time}}`  | Current time. **Default format:** `HH:mm`.      |
 
-In the plugin settings of Template, you can also set a date format and a time format.
+Both `{{date}}` and `{{time}}` allow you to change the default format using a _format string_.
 
-After setting these formats, `{{date}}` and `{{time}}` in the template files will be replaced by the formatting current time.
+To set a format string, add a colon (`:`) followed by a string of [Moment.js format tokens](https://momentjs.com/docs/#/displaying/format/), for example `{{date:YYYY-MM-DD}}`.
 
-For formatting syntax documentation, [please see here](https://momentjs.com/docs/#/displaying/format/).
+You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
 
-_Tip: if you want to have two date formats or two time formats, you can use the other `{{time}}` as the second `{{date}}`, or `{{date}}` as the second `{{time}}`._
+You can change the default date and time formats under **Settings > Templates > Date format** and **Settings > Templates > Time format**.
 
-### One-off date formats
-
-In addition to `{{date}}` and `{{time}}`, which will work in all template files, you can also write `{{date:YYYY-MM-DD}}` to insert a date with a certain format just once. This will override the `{{date}}` format. Anything after `:` will be considered part of the date format.
-
-`{{time:HH:mm}}` works similarly.
-
-### Using custom date formats elsewhere
-
-Currently, dates like `{{date:YYYY-MM-DD}}` and `{{time:HH:mm}}` also work in the template file of the [[Daily notes]] and [[Unique note creator]] plugins. However, `{{date}}` and `{{time}}` do not work yet.
+> [!tip]
+> You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
