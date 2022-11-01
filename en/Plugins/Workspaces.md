@@ -1,19 +1,49 @@
+The Workspaces plugin lets you manage and switch between different application layouts depending on your task, for example journaling, reading, or writing.
 
-The Workspaces plugin lets you save and load "workspaces". Each workspace includes pane layout, sidebar state (expanded or collapsed), and file open states.
+A workspace contains information about open files and panes, and the width and visibility of each sidebar.
 
-![[Pasted image 19.png]]
+## Save a workspace
 
-### Save a workspace
+**Ribbon:**
 
-Either click on the workspace icon in the ribbon to open "Manage workspaces".
+1. In the ribbon, click **Manage workspace layouts** (layout icon).
+1. Enter a name for the workspace.
+1. Select **Save**.
 
-Give the current layout a new name, click on "Save", and it will appear in the list below.
+**Command palette:**
 
-### Load a workspace
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+1. Search for the **Manage workspace layouts** command.
+1. Press `Enter` with the command selected.
+1. Enter a name for the workspace.
+1. Select **Save**.
 
-To load or restore a workspace, either open "Manage workspaces" and click on the "Load" button next to the workspace you wish to load, or use the "Load workspaces" command to bring up a command-palette-like interface to search and choose workspaces.
+To update an existing workspace, save the workspace with the same name as the workspace you want to update.
 
+## Load a workspace
 
-### Commands
+**Ribbon:**
 
-This plugin has two commands that you can access through [[Command palette]]: manage workspaces and load workspaces. You can also define hotkeys for them.
+1. In the ribbon, click **Manage workspace layouts** (layout icon).
+1. Next to the workspace you want to load, select **Load**.
+
+**Command palette:**
+
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+1. Search for the **Manage workspace layouts** command.
+1. Press `Enter` with the command selected.
+1. Select the workspace to load.
+
+## Delete a workspace
+
+**Ribbon:**
+
+1. In the ribbon, click **Manage workspace layouts** (layout icon).
+1. Next to the workspace you want to delete, select **Delete layout** (cross icon).
+
+**Command palette:**
+
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+1. Search for the **Manage workspace layouts** command.
+1. Press `Enter` with the command selected.
+1. Next to the workspace you want to delete, select **Delete layout** (cross icon).
