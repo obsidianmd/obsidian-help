@@ -1,11 +1,11 @@
 In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for your vault and synchronize it with a [[Local and remote vaults|remote vault]].
 
-## Prerequisites
+### Prerequisites
 
 - An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
 - An active Obsidian Sync subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
 
-## Step 1: Log in with your Obsidian account
+### Log in with your Obsidian account
 
 1. Open **Settings**.
 1. In the sidebar, click **About**.
@@ -14,13 +14,13 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 1. In **Password**, enter your password.
 1. Click **Login**.
 
-## Step 2: Enable Obsidian Sync
+### Enable Obsidian Sync
 
 1. Open **Settings**.
 1. In the sidebar, click **Core plugins**.
 1. Enable **Sync**.
 
-## Step 3: Create a new remote vault
+### Create a new remote vault
 
 1. Open **Settings**.
 1. In the sidebar, click **Sync**.
@@ -30,7 +30,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 1. In **Encryption password**, enter the password for your vault. This creates an end-to-end encrypted vault. For more information, refer to [[Security and privacy]].
 1. Click **Create**.
 
-## Step 4: Connect to a remote vault
+### Connect to a remote vault
 
 1. Next to your newly created vault, click **Connect**.
 1. In **Encryption password**, enter the password you configured for the vault.
