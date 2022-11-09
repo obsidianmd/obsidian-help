@@ -30,11 +30,11 @@ If this is the first time you open Obsidian on the device, follow these steps:
 
 This section explains how to sync an existing local vault with a remote vault.
 
-![[Set up Obsidian Sync#Step 1 Log in with your Obsidian account]]
+![[Set up Obsidian Sync#Log in with your Obsidian account]]
 
-![[Set up Obsidian Sync#Step 2 Enable Obsidian Sync]]
+![[Set up Obsidian Sync#Enable Obsidian Sync]]
 
-### Step 3: Connect to a remote vault
+### Connect to a remote vault
 
 1. Open **Settings**.
 1. In the sidebar, click **Sync**.
