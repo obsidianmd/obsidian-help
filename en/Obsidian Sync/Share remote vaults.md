@@ -2,7 +2,7 @@ Learn how to share a remote vault with another user.
 
 Collaborators need an active Obsidian Sync subscription to access a shared vault. Joining a shared remote vault doesn't count towards your [[Limitations#How many remote vaults can I have?|vault limit]].
 
-Collaborators receive the same permissions as the vault owner. Fine-grained permissions are not supported.
+Except for adding new collaborators, collaborators receive the same permissions as the vault owner. Fine-grained permissions are not supported.
 
 If the remote vault is [[Obsidian Sync/Security and privacy|end-to-end encrypted]], collaborators need to enter the encryption password when they set up the vault.
 
