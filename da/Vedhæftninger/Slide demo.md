@@ -1,7 +1,7 @@
 ## Obsidian slides demonstration
 
 For at vise slides skal du aktivere "Slides" plugin'et.
-Dette kan gøres via "Indstillinger -> Kerne plug-ins" inederste venstre hjørne.
+Dette kan gøres via "Indstillinger -> Kerne plug-ins" i nederste venstre hjørne.
 
 
 ---
@@ -9,7 +9,7 @@ Dette kan gøres via "Indstillinger -> Kerne plug-ins" inederste venstre hjørne
 ## Mål med Obsidian
 
 - Levetid
-- Skabe vidennetwork
+- Skabe vidensnetwærk
 - Personaliseret
 
 ---
@@ -23,7 +23,7 @@ Dette kan gøres via "Indstillinger -> Kerne plug-ins" inederste venstre hjørne
 
 ---
 
-## Skabe vidennetværk
+## Skabe vidensnetværk
 
 - [[Interne links|Interne links]]
 - Link auto-udfyldning
@@ -36,5 +36,5 @@ Dette kan gøres via "Indstillinger -> Kerne plug-ins" inederste venstre hjørne
 
 - Vi tror ikke på, at en enkelt alt-i-en løsning fungerer for alle
 - Obsidian er plug-in baseret
-    - Aktiver ller deaktiver dem baseret på din personlige arbejdsgang
+    - Aktiver eller deaktiver dem baseret på din personlige arbejdsgang
     - Vil tillade udvikling af tredjeparts plug-ins fra v1.0.0
