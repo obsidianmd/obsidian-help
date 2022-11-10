@@ -466,7 +466,7 @@ Use `%%` to enclose comments, which will be parsed as Markdown, but will not sho
 ```md
 Here is some inline comments: %%You can't see this text%% (Can't see it in Reading mode)
 
-Here is a block comment:
+Here is a block comment: (can't see it in Reading mode either)
 %%
 It can span
 multiple lines
