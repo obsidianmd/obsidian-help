@@ -5,7 +5,7 @@ Learn how you can extend Obsidian with more features by building your own plugin
 The easiest way to get started with Obsidian plugin development is by using the [Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
 
 1. Clone the sample plugin.
-   
+
    ```bash
    git clone https://github.com/obsidianmd/obsidian-sample-plugin.git
    mv obsidian-sample-plugin your-plugin-id
@@ -37,7 +37,7 @@ The easiest way to get started with Obsidian plugin development is by using the 
    ```bash
    mkdir $YOUR_VAULT_PATH/.obsidian/plugins/your-plugin-id
    mv main.js styles.css manifest.json $VAULT_PATH/.obsidian/plugins/your-plugin-id
-```
+   ```
 
 1. Restart Obsidian.
 

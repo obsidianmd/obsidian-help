@@ -2,7 +2,7 @@ Learn how to modify aspects of the Obsidian appearance without needing to [[Buil
 
 CSS is a language to describe how to present a HTML document. By adding CSS snippets, you can redefine parts of the Obsidian user interface, such as the size and color of headings.
 
-Obsidian looks for CSS snippets inside the vault configuration folder. 
+Obsidian looks for CSS snippets inside the vault configuration folder.
 
 To add a CSS snippet, follow these steps:
 
@@ -15,9 +15,9 @@ Obsidian detects changes to CSS snippets automatically and applies them when you
 
 > [!tip] Example: Change text color
 > For example, create a file called `snippet.css` with the following content to change the text color to red:
-> 
 >
-> 
+>
+>
 > ```css
 > body {
 >   --text-normal: red;

@@ -39,8 +39,8 @@ To update an individual plugin:
 
 1. Open **Settings**.
 1. In the side menu, select **Community plugins**.
-2. Under **Installed plugins**, select **Uninstall** (cross icon).
-3. Select **Uninstall** again to confirm.
+1. Under **Installed plugins**, select **Uninstall** (cross icon).
+1. Select **Uninstall** again to confirm.
 
 ## Learn more
 
