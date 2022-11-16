@@ -9,7 +9,7 @@ Obsidian Sync is a cloud-based service that lets you store your notes on Obsidia
 
 Learn more about Obsidian Sync:
 
-- If you a new Obsidian Sync user, learn how to [[set up Obsidian Sync]].
+- If you are a new Obsidian Sync user, learn how to [[set up Obsidian Sync]].
 - If you want to configure what to sync, refer to [[Select files and settings to sync]].
 - If you already have Obsidian Sync enabled on a device, learn how to [[Set up Obsidian Sync on another device]].
 - If you want to know how to view or restore previous versions of a note, refer to [[Version history]].
