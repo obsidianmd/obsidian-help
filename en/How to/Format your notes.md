@@ -363,6 +363,18 @@ First Header | Second Header
 ------------ | ------------
 [[Format your notes\|Formatting]]	|  [[Use hotkeys\|hotkeys]]	
 
+If you want to resize images in tables, the pipe must be escaped with a `\` as well:
+
+```md
+Image | Description
+----- | -----------
+![[og-image.png\|200]] | Obsidian
+```
+
+Image | Description
+----- | -----------
+![[og-image.png\|200]] | Obsidian
+
 ---
 
 ### Strikethrough
