@@ -21,7 +21,7 @@ Check out the complete [Obsidian documentation](https://help.obsidian.md/) onlin
 
 ## What is this place?
 
-This is a sandbox vault in which you can test various functionality of Obsidian. 
+This is a sandbox vault in which you can test various functionalities of Obsidian. 
 
 > [!Warning]
 > Your changes will not be saved, so please don't take actual notes in this vault.
