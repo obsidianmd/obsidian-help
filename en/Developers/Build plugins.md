@@ -4,6 +4,9 @@ Learn how you can extend Obsidian with more features by building your own plugin
 
 The easiest way to get started with Obsidian plugin development is by using the [Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
 
+> [!danger] Before you start
+> Don't develop plugins in your main vault. When you develop a plugin, one mistake can lead to unintentional modifications to your vault. You also risk permanently deleting your vault.
+
 1. Clone the sample plugin.
 
    ```bash
@@ -12,7 +15,7 @@ The easiest way to get started with Obsidian plugin development is by using the 
    cd your-plugin-id
    ```
 
-1. Install dependencies.
+1. Install dependencies using NPM or Yarn.
 
    ```bash
    # Using NPM
@@ -45,6 +48,7 @@ For more help on building plugins for Obsidian, check out the following resource
 
 - For API reference documentation, refer to the [Obsidian API](https://github.com/obsidianmd/obsidian-api).
 - For a more in-depth guide on how to get started with plugin development, check out the [Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs) by [Marcus Olsson](https://marcus.se.net).
+- For a video walkthrough on plugin development, check out our YouTube playlist on how to [Build you first Obsidian plugin](https://www.youtube.com/playlist?list=PLIDCb22ZUTBnMCbJa-st4PD5T3Olep078).
 
 ## Submit your plugin
 

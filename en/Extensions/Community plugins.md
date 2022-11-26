@@ -21,7 +21,7 @@ Either select **Enable** directly after installing it, or enable it from the lis
 
 ## Update plugins
 
-Community plugins don't update automatically. You can either update all plugins at once, or update individual plugins.
+For security purposes, community plugins don't update automatically. You can either update all plugins at once, or update individual plugins.
 
 To update all your plugins:
 
