@@ -6,7 +6,7 @@ The window title, which is the text at the very center of the title bar, indicat
 
 ### Navigation
 
-At the left end of the title bar, there are two arrow buttons that let you go back and forward. Because how common they are used, we recommend using the hotkeys instead.
+At the left end of the title bar, there are two arrow buttons that let you go back and forward. Since this feature is used so often, we recommend using the hotkeys instead.
 
 ### Window management
 
