@@ -30,13 +30,13 @@ There are some differences with panes that live in the [[Sidebar|sidebars]].
 
 #### Sidebar panes can share space with tabs
 
-When your drop a pane onto a sidebar pane, a new tab will be created under that sidebar section. Different panes in the same sidebar section can be accessed by clicking on its tab icon.
+When you drop a pane onto a sidebar pane, a new tab will be created under that sidebar section. Different panes in the same sidebar section can be accessed by clicking on its tab icon.
 
 #### Sidebar panes do not show titles
 
 This reduces clutter, but also means it's best to keep one or two important files like a scratch pad or the daily note for quick access, rather than having a dozen files open.
 
-To see the title of a file that's in the sidebar, hover over its tab icon.
+To see the title of a file in the sidebar, hover over its tab icon.
 
 #### Sidebar can be easily collapsed
 
