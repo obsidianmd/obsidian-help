@@ -71,10 +71,12 @@ You can also add media from the canvas context menu:
 
 ### Add cards from web pages
 
-Select a URL and drag it into the canvas to embed it in a card.
+To embed a web page in your canvas:
 
 1. Right-click the canvas and then select **Add web page**.
 1. Enter the URL to the web page and then select **Save**.
+
+You can also select a URL in your browser and then drag it into the canvas to embed it in a card.
 
 To open the web page in your browser, press `Ctrl` (or `Cmd` on macOS) and select the card label. Or, right-click the card and select **Open in browser**.
 
