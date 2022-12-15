@@ -363,7 +363,7 @@ First Header | Second Header
 ------------ | ------------
 [[Format your notes\|Formatting]]	|  [[Use hotkeys\|hotkeys]]	
 
-If you want to resize images in tables, the pipe must be escaped with a `\` as well:
+If you want to resize images in tables, you need to escape the pipe with a `\`:
 
 ```md
 Image | Description
