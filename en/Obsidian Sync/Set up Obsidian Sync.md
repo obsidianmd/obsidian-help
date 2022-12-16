@@ -27,7 +27,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 1. Next to **Remote vault**, click **Choose**.
 1. Click **Create new vault**.
 1. In **Vault name**, enter the name of the remote vault.
-1. In **Encryption password**, enter the password for your vault. This creates an end-to-end encrypted vault. For more information, refer to [[Security and privacy]].
+1. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
 1. Click **Create**.
 
 ### Connect to a remote vault
