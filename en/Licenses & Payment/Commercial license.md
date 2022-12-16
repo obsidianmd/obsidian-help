@@ -51,7 +51,7 @@ For bulk discounts, contact support@obsidian.md.
 > [!FAQ]- Q9: I'm a freelancer/writer/blogger, do I need a commercial license?
 > Unless you hire at least one additional person, you do not need a commercial license.
 
-> [!FAQ]- Q10: I'm a teacher/professor or I work at a school and I use Obsidian for my teaching/lectures, do I need a commercial license?
+> [!FAQ]- Q10: I'm a teacher/professor, or I work at a school, and I use Obsidian for my teaching/lectures. Do I need a commercial license?
 > Obsidian usage for education-related activities within schools and other recognized educational institutions does not require a commercial license. 
 
 > [!FAQ]- Q11: I'm an academic researcher and I use Obsidian for my research work. Do I need a commercial license?
