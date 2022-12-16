@@ -11,13 +11,13 @@ When Sync downloads a new version of a file, and finds that there are conflicts 
 > [!tip]
 > To find when conflicts have happened, you can search for "Merging conflicted file" in **Settings** → **Sync** → **Sync activity** → **View**.
 
+# Obsidian Sync deleted a note I just created on two devices
 
-## Obsidian Sync deleted a note I just created in two devices!?!
-Generally, Obsidian merges the content of notes in different devices.
+Generally, Obsidian Sync tries to [[#Conflict resolution|resolve conflicts]] between devices by merging the content of the conflicting notes.
 
-There is one exception. Assume a note is present in device A and synchronized to the remote vault. You then create the same note in device B. If the creation time in device B is within 3 minutes of the last syncronization time of device B, the version of device A wins (there's no merge). A copy of what was in device B originally is kept within file recovery plugin data.
+Unfortunately, merging conflicting notes can cause issues for users who open automatically generated daily notes on startup. To address this, Obsidian Sync adds an exception for when two notes were created on separate devices within a few minutes from each other.
 
-This special case was introduced to support people who open daily notes at startup with automatically generated templates.
+In this case, Obsidian Sync keeps the first note without merging the second one. You can still recover the second note using [[File recovery]].
 
 ## What does the `vault limit exceeded` error mean?
 
