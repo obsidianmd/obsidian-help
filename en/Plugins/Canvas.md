@@ -32,7 +32,7 @@ You can drag files into your canvas from Obsidian or from other applications. Fo
 
 ### Add text cards
 
-You can add text-only cards that don't reference a file.
+You can add text-only cards that don't reference a file. You can use Markdown, links, and code blocks just like in a note.
 
 To add a new text card to your canvas:
 
@@ -44,6 +44,9 @@ To convert a text card to a file:
 
 1. Right-click the text card and then select **Convert to file...**.
 1. Enter the note name and then select **Save**.
+
+> [!note]
+> Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
 
 ### Add cards from notes
 
@@ -57,6 +60,8 @@ You can also add notes from the canvas context menu:
 1. Right-click the canvas and then select **Add note from vault**.
 1. Select the note you want to add.
 
+Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+
 ### Add cards from media
 
 To add media from your vault to your canvas:
@@ -68,6 +73,8 @@ You can also add media from the canvas context menu:
 
 1. Right-click the canvas and then select **Add media from vault**.
 1. Select the media file you want to add.
+
+Or, you can add them to the canvas by dragging the file from the [[File explorer]].
 
 ### Add cards from web pages
 
@@ -130,7 +137,11 @@ Selecting a card moves it to the front.
 
 ### Resize a card
 
-Drag any of a card's edges to resize it. You can press `Space` while resizing to disable snapping.
+Drag any of a card's edges to resize it.
+
+You can press `Space` while resizing to disable snapping.
+
+To maintain the aspect ratio while resizing, press `Shift` while resizing.
 
 ## Connecting cards
 
