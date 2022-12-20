@@ -63,7 +63,7 @@ If your name is not in English and can't be alphabetically listed, use this form
 
 ### Third party acknowledgements
 
-Obsidian logo is adapt from:
+Obsidian logo is adapted from:
 
 [Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
 By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
@@ -126,6 +126,10 @@ Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 #### Prism
 MIT LICENSE
 Copyright (c) 2012 Lea Verou
+
+#### rbush
+MIT License
+Copyright (c) 2016 Vladimir Agafonkin
 
 #### remark
 The MIT License
