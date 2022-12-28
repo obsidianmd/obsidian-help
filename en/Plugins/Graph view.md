@@ -2,8 +2,8 @@ The Graph view lets you visualize the relationships between the notes in your va
 
 To open the Graph view, click **Open graph view** in the [[ribbon]].
 
-- Circles represent notes, or _nodes_. 
-- Lines represents [[Internal link|internal links]] between two nodes.
+- Circles represent notes, or _nodes_.
+- Lines represents [[Internal links]] between two nodes.
 
 The more nodes that reference a given node, the bigger it gets.
 
@@ -38,7 +38,7 @@ This section controls what nodes to show in the graph.
 
 ### Groups
 
-Create groups of notes to distinguish them from each other using color. 
+Create groups of notes to distinguish them from each other using color.
 
 To create a new group:
 
@@ -69,6 +69,6 @@ This section controls the forces that act on each node in the graph.
 
 ## Start a timelapse animation
 
-Notes and attachments appear in chronological order based on their creation time. 
+Notes and attachments appear in chronological order based on their creation time.
 
 ![[Pasted image 10.png]]

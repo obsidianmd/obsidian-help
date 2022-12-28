@@ -33,7 +33,7 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 - Looking for some functionality? Try the  [[command palette]], which contains all available actions you need to work with Obsidian. Just press `Ctrl/Cmd-P` and start typing.
 - Learn our flavor of Markdown with [[Format your notes|how to format your notes]].
 - Check out some tips on [[Create notes|creating new notes]].
-- Check out some tips on [[Internal link|creating internal links]].
+- Check out some tips on [[Internal links|creating internal links]].
 - Learn how to [[Embed files|embed other notes or attachments]].
 - See the [[Use hotkeys|default keyboard shortcuts]].
 

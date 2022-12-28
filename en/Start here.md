@@ -8,7 +8,7 @@ If you're in a hurry, here's some quick places to dive in:
 
 - The [[Command palette]] contains most of the commands you need to work with Obsidian. Just press `Ctrl/Cmd-P` and start typing.
 - How to [[Create notes|create new notes]].
-- How to create [[Internal link|internal links]]
+- How to create [[Internal links]]
 - How to use Markdown to [[Format your notes]]
 - How to [[embed files]], or embed other notes
 - [[Use hotkeys]]
