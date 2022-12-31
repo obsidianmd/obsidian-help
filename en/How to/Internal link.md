@@ -8,7 +8,7 @@ To create an internal link, simply type `[[`. This will prompt you with the list
 
 You can also link to specific headers in files. Start typing a link like you would normally. When the note you want is highlighted, press `#` instead of `Enter` and you'll see a list of headings in that file. Continue typing or navigate with arrow keys as before, press `#`again at each subheading you want to add, and `Enter` to complete the link. 
 
-To make the link display different text than its real note name in Preview, use the vertical pipe (`Shift+|`) For example: [[Internal link|Custom Link Name in Preview!]] This can be combined with linking to headers, as in [[Folding#By way of example|Example of Folding]].
+To make the link display different text than its real note name in Preview, use the vertical pipe (`Shift+|`) For example: `[[Internal link|Custom Link Name in Preview!]]` will link to the note "Internal Link" with the link text "Custom Link Name in Preview!". This can be combined with linking to headers, as in [[Folding#By way of example|Example of Folding]].
 
 ### Following Links
 
