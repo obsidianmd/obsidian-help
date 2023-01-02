@@ -44,7 +44,6 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 ### Advanced guides
 
 - [[Working with tags]]
-- [[Working with backlinks]]
 - [[Working with multiple notes]]
 - [[Pane layout]]
 - [[Working with multiple vaults]]
