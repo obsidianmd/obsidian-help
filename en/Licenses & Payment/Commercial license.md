@@ -58,7 +58,7 @@ For bulk discounts, contact support@obsidian.md.
 > If your research involves producing a commercial product (e.g., if your research contributes to revenue-generating commercial activities), you need a commercial license for your usage. If your research does not contribute to a commercial product, or if your research has not yet led to commercial activities, you do not need a license.
 
 > [!FAQ]- Q12: I work for a Government or an arms-length governmental agency. Do I need a commercial license?
-> Yes, you need a commercial license. From our EULA, if you use OBSIDIAN for commercial use, you must obtain a commercial license. Commercial use is defined as using OBSIDIAN for work-related activities in a company with two (2) or more employees. (The EULA's revenue-generating clause exempts non-profit organizations.)
+> Yes, you need a commercial license. From our EULA, if you use Obsidian for commercial use, you must obtain a commercial license. Commercial use is defined as using Obsidian for "work-related activities in a company with two (2) or more employees". The EULA's revenue-generating clause exempts non-profit organizations.
 
 > [!FAQ]- Q13: I use Obsidian during work for things like writing down team processes and taking notes for team meetings. Do I need a commercial license?
 > If you are a single-person company, then you do not require a commercial license. Otherwise, if you have more than one person in the company, then you would require a commercial license.
