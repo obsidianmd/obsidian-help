@@ -1,5 +1,5 @@
 
-Obsidian is a Markdown-based note-taking and knowledge base app. 
+Obsidian is a Markdown-based note-taking and knowledge base app.
 
 We currently support the formats below:
 
@@ -8,11 +8,11 @@ We currently support the formats below:
 ### Internal linking
 
 ```md
-Link to a page: [[Internal link]].
+Link to a page: [[Internal links]].
 ```
 
 
-Link to a page: [[Internal link]].
+Link to a page: [[Internal links]].
 
 ---
 
@@ -32,7 +32,7 @@ Embed another file (read more about [[Embed files]]). Here's an embedded section
 ```md
 # This is a heading 1
 ## This is a heading 2
-### This is a heading 3 
+### This is a heading 3
 #### This is a heading 4
 ##### This is a heading 5
 ###### This is a heading 6
@@ -41,7 +41,7 @@ Embed another file (read more about [[Embed files]]). Here's an embedded section
 %% These headings use HTML to avoid cluttering the Outline/Table of contents %%
 <h1>This is a heading 1</h1>
 <h2>This is a heading 2</h2>
-<h3>This is a heading 3</h3> 
+<h3>This is a heading 3</h3>
 <h4>This is a heading 4</h4>
 <h5>This is a heading 5</h5>
 <h6>This is a heading 6</h6>
@@ -251,7 +251,7 @@ Or you can enclose the target in `<>`, such as:
 Text inside `backticks` on a line will be formatted like code.
 ```
 
-Text inside `backticks` on a line will be formatted like code. 
+Text inside `backticks` on a line will be formatted like code.
 
 
 #### Code blocks
@@ -285,10 +285,10 @@ function fancyAlert(arg) {
 ---
 
 ```md
-    Text indented with a tab is formatted like this, and will also look like a code block in preview. 
+    Text indented with a tab is formatted like this, and will also look like a code block in preview.
 ```
 
-    Text indented with a tab is formatted like this, and will also look like a code block in preview. 
+    Text indented with a tab is formatted like this, and will also look like a code block in preview.
 
 ---
 
@@ -351,7 +351,7 @@ Tables can be justified with a colon | Another example with a long title | And a
 :----------------|-------------:|:-------------:
 because of the `:` | these will be justified |this is centered
 
-If you put links in tables, they will work, but if you use [[Add aliases to note|aliases]], the pipe must be escaped with a `\` to prevent it being read as a table element.
+If you put links in tables, they will work, but if you use [[Aliases|aliases]], the pipe must be escaped with a `\` to prevent it being read as a table element.
 
 ```md
 First Header | Second Header
@@ -361,7 +361,7 @@ First Header | Second Header
 
 First Header | Second Header
 ------------ | ------------
-[[Format your notes\|Formatting]]	|  [[Use hotkeys\|hotkeys]]	
+[[Format your notes\|Formatting]]	|  [[Use hotkeys\|hotkeys]]
 
 If you want to resize images in tables, you need to escape the pipe with a `\`:
 
@@ -504,12 +504,12 @@ Learn more about callouts [[Use callouts|here]].
 ```markdown
 > [!INFO]
 > Here's a callout block.
-> It supports **markdown** and [[Internal link|wikilinks]].
+> It supports **markdown** and [[Internal links|wikilinks]].
 ```
 
 > [!INFO]
 > Here's a callout block.
-> It supports **markdown** and [[Internal link|wikilinks]].
+> It supports **markdown** and [[Internal links|wikilinks]].
 
 ---
 

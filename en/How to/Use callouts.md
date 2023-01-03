@@ -10,7 +10,7 @@ Use the following syntax to denote a callout block: `> [!INFO]`.
 ```markdown
 > [!INFO]
 > Here's a callout block.
-> It supports **markdown**, [[Internal link|wikilinks]], and [[Embed files|embeds]]!
+> It supports **Markdown**, [[Internal link|Wikilinks]], and [[Embed files|embeds]]!
 > ![[og-image.png]]
 ```
 
@@ -18,7 +18,7 @@ It will show up like this:
 
 > [!INFO]
 > Here's a callout block.
-> It supports **markdown**, [[Internal link|wikilinks]] and [[Embed files|embeds]]!
+> It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embed files|embeds]]!
 > ![[og-image.png]]
 
 ### Types
@@ -206,5 +206,5 @@ We choose the syntax because:
 
 - it falls back to blockquotes in unsupported markdown renderers
 - it parses all Markdown, including links, embeds, etc.
-- it recognizes [[Internal link|Internal links]], and shows up in [[Backlinks]], [[Outgoing links]], and [[Graph view]]
+- it recognizes [[Internal links]], and shows up in [[Backlinks]], [[Outgoing links]], and [[Graph view]]
 - the spellchecker can spellcheck it.

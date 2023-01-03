@@ -24,7 +24,7 @@ key4:
 
 As of 0.12.12, there are four keys natively supported:
 - `tags` ([[Working with tags|more information]])
-- `aliases` ([[Add aliases to note|more information]])
+- `aliases` ([[Aliases|more information]])
 - `cssclass`
 - `publish` ([[Publish and unpublish notes#Automatically select notes to publish]] and [[Publish and unpublish notes#Ignore notes]])
 

@@ -4,7 +4,7 @@ Obsidian is both a Markdown editor and a knowledge base app.
 
 Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing a densely networked knowledge base.
 
-How do we start creating a network, you ask? Let's first start making some [[Internal link|internal links]]!
+How do we start creating a network, you ask? Let's first start making some [[Internal links]]!
 
 ## How we're different
 
@@ -20,7 +20,7 @@ When the file system replaces the cloud, you get flexible options to work with y
 
 Links and connections are crucial to discovering the relations between what we know.
 
-Obsidian greatly values this, and encourages it with [[Internal link]] and [[Graph view]], among other things.
+Obsidian greatly values this, and encourages it with [[Internal links]] and [[Graph view]], among other things.
 
 As John Locke puts it...
 
@@ -30,7 +30,7 @@ As John Locke puts it...
 > 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.
 
  \- John Locke, An Essay Concerning Human Understanding (1690)
- 
+
 Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
 
 ==*Your own toolkit*==
