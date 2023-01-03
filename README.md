@@ -1,4 +1,4 @@
-### ⚠ _As of Nov 30, 2021, the docs are currently going through massive changes, so we do not recommend starting or updating your translations at the moment._
+### ⚠ _As of January 2023, the docs are still going through changes, but you can safely start translating all documentation under Core Plugins (including Canvas)._
 
 ---
 
