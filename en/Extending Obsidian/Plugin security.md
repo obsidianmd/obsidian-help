@@ -25,9 +25,9 @@ Installed plugins remain in your vault even if you turn on Restricted mode, but 
 
 Due to technical reasons, Obsidian is unable to reliably restrict plugins to specific permissions or access levels. As a result, consider the following examples of what community plugins can do:
 
--   Community plugins can access files on your computer.
--   Community plugins can connect to internet.
--   Community plugins can install additional programs.
+- Community plugins can access files on your computer.
+- Community plugins can connect to internet.
+- Community plugins can install additional programs.
 
 ## Plugin review process
 
@@ -35,6 +35,6 @@ Community plugins undergo an initial review when they are submitted to the plugi
 
 Instead, we rely on the help of the community to identify and report issues with plugins.
 
--   If you find any security flaws with a community plugin, create an issue on the plugin repository on GitHub.
--   If you suspect that a community plugin is malicious, report it by sending an email to support@obsidian.md, or by sending a DM to our moderators.
+- If you find any security flaws with a community plugin, create an issue on the plugin repository on GitHub.
+- If you suspect that a community plugin is malicious, report it by sending an email to support@obsidian.md, or by sending a DM to our moderators.
 
