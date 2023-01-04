@@ -1,4 +1,4 @@
-Learn how you can extend Obsidian with more features by building your own plugins and sharing them with the community on the [[Marketplace]].
+Learn how you can extend Obsidian with more features by building your own plugins and sharing them with the community.
 
 ## Quickstart
 
@@ -52,7 +52,7 @@ For more help on building plugins for Obsidian, check out the following resource
 
 ## Submit your plugin
 
-When you're ready, you can share your plugin with the Obsidian community by submitting it to the [[Marketplace]].
+When you're ready, you can share your plugin with the Obsidian community by submitting it.
 
 For an in-depth guide on how to submit your plugin, refer to [How to add your plugin to the community plugin list](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+plugin+to+the+community+plugin+list) on the Obsidian Hub.
 

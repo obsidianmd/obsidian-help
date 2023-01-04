@@ -6,7 +6,7 @@ For more resources on how to build your own themes, check out the following reso
 
 ## Submit your theme
 
-When you're ready, you can share your theme with the Obsidian community by submitting it to the [[Marketplace]].
+When you're ready, you can share your theme with the Obsidian community by submitting it.
 
 For an in-depth guide on how to submit your plugin, refer to [How to add your theme to the community theme store](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+theme+to+the+community+theme+store) on the Obsidian Hub.
 

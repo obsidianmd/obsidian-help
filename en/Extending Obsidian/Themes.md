@@ -1,5 +1,11 @@
 Learn how to change the look and feel of Obsidian using themes built by the community.
 
+## Browse themes
+
+1. Open **Settings**.
+1. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode]].
+1. Select **Browse** to list all available community plugins.
+
 ## Install a new theme
 
 1. Open **Settings**.
