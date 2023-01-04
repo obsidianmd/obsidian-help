@@ -12,7 +12,7 @@ You can embed a PDF file in your notes with the same syntax. Additionally, you c
 
 You can embed a note also, with the same syntax:
 
-![[Accepted file formats]]
+`![[Accepted file formats]]`
 
 ### iframe
 
