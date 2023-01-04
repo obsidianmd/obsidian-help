@@ -18,7 +18,7 @@ Link to a page: [[Internal links]].
 
 ### Embeds
 
-Embed another file (read more about [[Embed files]]). Here's an embedded section:
+Embed another file (read more about [[Embedding files]]):
 
 ```md
 ![[Obsidian#What is Obsidian]]

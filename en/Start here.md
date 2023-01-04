@@ -10,7 +10,7 @@ If you're in a hurry, here's some quick places to dive in:
 - How to [[Create notes|create new notes]].
 - How to create [[Internal links]]
 - How to use Markdown to [[Format your notes]]
-- How to [[embed files]], or embed other notes
+- How to [[Embedding files|embed files]] or other notes
 - [[Use hotkeys]]
 - How to [[Working with multiple notes|open multiple files side by side]]
 - Obsidian can be extended with [[Core plugins|plugins]]. Several are available by default, and can be enabled or disabled according to your needs.

@@ -18,7 +18,7 @@ It will show up like this:
 
 > [!INFO]
 > Here's a callout block.
-> It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embed files|embeds]]!
+> It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embedding files|embeds]]!
 > ![[og-image.png]]
 
 ### Types
