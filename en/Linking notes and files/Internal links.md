@@ -2,7 +2,7 @@
 aliases: Internal link, Link to blocks
 ---
 
-Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge.
+Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge. ^b15695
 
 Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under **Settings** > **Files & Links** > **Automatically update internal links**.
 
