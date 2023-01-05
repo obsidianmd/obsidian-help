@@ -30,7 +30,7 @@ We strongly discourage these behaviors. Please don’t do them. These behaviors 
 
 Over the years of running our community, we’ve noticed some behaviors that positively contribute to the community.
 
-If you’re looking to improve your communication skills as well as becoming a better community citizen, you can:
+If you’re looking to improve your communication skills as well as becoming a better community citizen, consider doing the following:
 
 - **Try before asking**: before asking for help, please first try searching the help docs and Discord/forum history to see if the question has already been asked. Help others help you, by sharing what you've already tried.
 - **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Do not judge others for their choices.
