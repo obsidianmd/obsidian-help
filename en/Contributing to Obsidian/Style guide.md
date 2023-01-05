@@ -26,6 +26,7 @@ This page lists any deviances from the Google style guide, or terminology worth 
 - Prefer "note name" over "note title".
 - Prefer "active note" over "current note".
 - Prefer "folder" over "directory".
+- Prefer "file type" over "file format", unless specifically referring to the data format of the file content.
 
 When moving between notes, use "open" if the destination is hidden, and "switch" if both source and destination notes are open in separate splits.
 
