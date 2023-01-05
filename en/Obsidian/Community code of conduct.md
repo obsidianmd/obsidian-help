@@ -32,7 +32,7 @@ Over the years of running our community, we’ve noticed some behaviors that pos
 
 If you’re looking to improve your communication skills as well as becoming a better community citizen, you can:
 
-- **Try before asking**: if you’re asking for help, please first try searching the help docs and Discord/forum history to see if the question has always been asked. When asking the question, sharing what you have tried but doesn’t work would help others help you.
+- **Try before asking**: before asking for help, please first try searching the help docs and Discord/forum history to see if the question has already been asked. Help others help you, by sharing what you've already tried.
 - **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Do not judge others for their choices.
 - **Step away when needed**: the community is a place for us to grow together, not a debate competitions. There are no arguments that you have to win. If a discussion turns into an argument and escalates, try your best to step away and be the bigger person.
 
