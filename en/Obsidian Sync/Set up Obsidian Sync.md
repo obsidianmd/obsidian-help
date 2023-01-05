@@ -36,3 +36,8 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 1. In **Encryption password**, enter the password you configured for the vault.
 1. Click **Unlock vault**.
 1. Click **Start syncing**.
+
+> [!note] Sync settings and other file types
+> By default, Sync only syncs notes and images. For information how to sync other file types, refer to [[Select files and settings to sync#Select file types to sync|Select file types to sync]].
+>
+> If you want to sync vault configuration, such as settings for [[Core plugins]], [[Custom hotkeys]], or [[Community plugins]], learn how to [[Select files and settings to sync#Sync vault configuration|Sync vault configuration]].

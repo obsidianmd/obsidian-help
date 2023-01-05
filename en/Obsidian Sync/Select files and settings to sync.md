@@ -5,7 +5,7 @@ Any files or settings that have been synced to your [[Local and remote vaults|re
 - Synced files remain in your remote vault even if you exclude them later on. If possible, configure the files and settings you want to sync before you start syncing your vault.
 - Settings are only synced during start-up. If you change what settings to sync, you need to restart Obsidian on your other devices for the new changes to take effect.
 
-## Select settings to sync
+## Sync vault configuration
 
 1. Open **Settings** -> **Sync**.
 2. Under **Vault configuration sync**, enable the settings you want to sync.
