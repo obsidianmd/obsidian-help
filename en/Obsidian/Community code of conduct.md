@@ -2,23 +2,39 @@
 
 These are the behaviors we do not tolerate.
 
-### Major offenses
+### Serious offenses
+
+Once verified, these offenses will result in an immediate ban from our community.
 
 - **Harassment**: including offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, or religion, as well as sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, inappropriate physical contact, and unwelcome sexual or romantic attention.
 - **Threats**: threatening someone physically or verbally. For example, threatening to publicize sensitive information about someone’s personal life.
 
-### Minor offenses and other behaviors
+### Other offenses
+
+Once verified, these offenses will result in a warning. On second offence, an immediate ban will be issued.
 
 - **Blatant -isms**: saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation are not code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
 - **Belligerence**: deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
-- **Being especially unpleasant**: for example, if we’ve received reports from multiple members of annoying or rude behavior.
+- **Being especially unpleasant**: for example, if we’ve received reports from multiple members of annoying or rude behavior. ^432ea1
 
-#### Other behaviors
+### Other behaviors
+
+We strongly discourage these behaviors. Please don’t do them. These behaviors do not result in a ban or warning, but they will greatly increase one’s chance of [[#^432ea1|being especially unpleasant]].
 
 - **Sea-lioning**: continuously pursuing an agenda by questioning and provoking other members. Individual provocations and questions are often perfectly acceptable, but in the case of sea-lioning, they accumulate to unhealthy levels, creating a hostile and negative conversation.
 - **"Feed me"**: asking others to solve problems for you without putting in any effort yourself. This is particularly egregious when the problem-solving is non-trivial and yet the user begs for someone else to do the work for them.
 - **Campaigning**: continuously making the same requests. This applies to both feature requests and to requests for help. Do not post the same question in multiple places in short timeframes, and do not ask developers for the same features or bug fixes repeatedly.
 - **Parasitism**: self-promoting of yours or others' initiatives without contributing to the community otherwise. We encourage self-promotion (it is awesome to see what Obsidian users are up to) but will not tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
+
+## Encouraged behaviors
+
+Over the years of running our community, we’ve noticed some behaviors that positively contribute to the community.
+
+If you’re looking to improve your communication skills as well as becoming a better community citizen, you can:
+
+- **Try before asking**: if you’re asking for help, please first try searching the help docs and Discord/forum history to see if the question has always been asked. When asking the question, sharing what you have tried but doesn’t work would help others help you.
+- **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Do not judge others for their choices.
+- **Step away when needed**: the community is a place for us to grow together, not a debate competitions. There are no arguments that you have to win. If a discussion turns into an argument and escalates, try your best to step away and be the bigger person.
 
 ## Motivation
 
@@ -52,9 +68,9 @@ Please flag the relevant conversation with a reason, and our moderator team will
 > A verified major offense results in an immediate ban.
 > A verified minor offense results in a warning; after that a second verified violation results in a ban.
 
-If our moderator team witnesses or receives a report about a [[#major offense]], we will contact the offender to have a conversation with them and verify what has happened, and they will be removed from our community.
+If our moderator team witnesses or receives a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened, and they will be removed from our community.
 
-If our moderator team witnesses or receives a report about a [[#minor offense]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from our community.
+If our moderator team witnesses or receives a report about [[#other offenses]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from our community.
 
 ## Credits
 
