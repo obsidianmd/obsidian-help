@@ -16,6 +16,9 @@ Once verified, the following offenses will result in a warning. On second offens
 - **Blatant -isms**: saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation are not code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
 - **Belligerence**: deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
 - **Being especially unpleasant**: for example, if we’ve received reports from multiple members of annoying or rude behavior. ^432ea1
+- **Asking for attention from the team for non-emergencies**: this includes pinging or messaging developers and moderators for questions, bug reports, and feature requests. As much as we want to help everyone, we have a sizable community, and we want to reserve our attention for the most critical matters. You can ping or direct message us for things like:
+	- Plugin security related issues
+	- To report violations of the community code of conduct
 
 ### Other behaviors
 
@@ -34,7 +37,7 @@ If you’re looking to improve your communication skills as well as becoming a b
 
 - **Try before asking**: before asking for help, please first try searching the help docs and Discord/forum history to see if the question has already been asked. Help others help you, by sharing what you've already tried.
 - **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Do not judge others for their choices.
-- **Step away when needed**: the community is a place for us to grow together, not a debate competition. There are no arguments that you have to win. If a discussion escalates into an argument, try your best to step away and be the bigger person.
+- **Step away when needed**: the community is a place for us to grow together, not a debate competition. If a discussion escalates into an argument, try your best to step away and be the bigger person.
 
 ## Motivation
 
@@ -68,7 +71,7 @@ Please flag the relevant conversation with a reason, and our moderator team will
 > A verified major offense results in an immediate ban.
 > A verified minor offense results in a warning; after that a second verified violation results in a ban.
 
-If our moderator team witnesses or receives a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened, and they will be removed from our community.
+If our moderator team witnesses or receives a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened. If verified, they will be removed from our community.
 
 If our moderator team witnesses or receives a report about [[#other offenses]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from our community.
 
