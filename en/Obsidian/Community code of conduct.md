@@ -16,9 +16,7 @@ Once verified, the following offenses will result in a warning. On second offens
 - **Blatant -isms**: saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation are not code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
 - **Belligerence**: deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
 - **Being especially unpleasant**: for example, if we’ve received reports from multiple members of annoying or rude behavior. ^432ea1
-- **Asking for attention from the team for non-emergencies**: this includes pinging or messaging developers and moderators for questions, bug reports, and feature requests. As much as we want to help everyone, we have a sizable community, and we want to reserve our attention for the most critical matters. You can ping or direct message us for things like:
-	- Plugin security related issues
-	- To report violations of the community code of conduct
+- **Asking for the attention of members of the Obsidian team**: this includes unsolicited tagging, "pinging", or direct messaging developers and moderators for questions, bug reports, and feature requests. As much as we want to help everyone, we have a sizeable community, and the team's attention must be reserved for critical matters. You can ping or direct message members of the team for things like security-related issues or to report violations of the community code of conduct. Otherwise, please post about the issue in an appropriate channel on the forum or the Discord server.
 
 ### Other behaviors
 
