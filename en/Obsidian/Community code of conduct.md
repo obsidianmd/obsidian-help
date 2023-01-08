@@ -11,7 +11,7 @@ Once verified, these offenses will result in an immediate ban from our community
 
 ### Other offenses
 
-Once verified, these offenses will result in a warning. On second offence, an immediate ban will be issued.
+Once verified, the following offenses will result in a warning. On second offense, an immediate ban will be issued.
 
 - **Blatant -isms**: saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation are not code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
 - **Belligerence**: deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
