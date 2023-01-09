@@ -20,7 +20,7 @@ Once verified, the following offenses will result in a warning. On second offens
 
 ### Other behaviors
 
-We strongly discourage these behaviors. Please don’t do them. These behaviors do not result in a ban or warning, but they will greatly increase one’s chance of [[#^432ea1|being especially unpleasant]].
+While the following behaviors do not result in a ban or warning, we strongly discourage that you engage in them. They will greatly increase the risk of [[#^432ea1|being especially unpleasant]].
 
 - **Sea-lioning**: continuously pursuing an agenda by questioning and provoking other members. Individual provocations and questions are often perfectly acceptable, but in the case of sea-lioning, they accumulate to unhealthy levels, creating a hostile and negative conversation.
 - **"Feed me"**: asking others to solve problems for you without putting in any effort yourself. This is particularly egregious when the problem-solving is non-trivial and yet the user begs for someone else to do the work for them.
