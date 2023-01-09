@@ -4,14 +4,14 @@ These are the behaviors we don’t tolerate.
 
 ### Serious offenses
 
-Once verified, these offenses will result in an immediate ban from the official Obsidian community channels.
+Users who commit these offences will be immediately banned from the official Obsidian community channels.
 
 - **Harassment**: including offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, or religion, as well as sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, inappropriate physical contact, and unwelcome sexual or romantic attention.
 - **Threats**: threatening someone physically or verbally. For example, threatening to publicize sensitive information about someone’s personal life.
 
 ### Other offenses
 
-Once verified, the following offenses will result in a warning. On second offense, an immediate ban will be issued.
+Users who commit these offences will be sent a warning. Repeated offences will result in the user being banned from the official Obsidian community channels.
 
 - **Blatant -isms**: saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation are not code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
 - **Belligerence**: deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
