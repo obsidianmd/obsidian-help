@@ -1,13 +1,19 @@
 Names are not listed by amount of contribution, but alphabetically (or at least we try!).
 
-### Dev team
+### Team
 
-- joethei ([Johannes Theiner](https://joethei.xyz/))
-- liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span><span class='flair mod-pop'>Plugin API Master</span><span class='flair mod-pop'>Volcano Veteran</span>
-- kepano ([Stephan Ango](https://stephanango.com/))
+#### Development
+
 - Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
+- liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span><span class='flair mod-pop'>Plugin API Master</span><span class='flair mod-pop'>Volcano Veteran</span>
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
+- joethei ([Johannes Theiner](https://joethei.xyz/))
+
+#### Product & Operations
+
 - Silver (Erica Xu)<span class='flair mod-pop'>Team Little Silvers</span>
+- kepano ([Stephan Ango](https://stephanango.com/))
+- ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))
 
 ### Moderators
 
