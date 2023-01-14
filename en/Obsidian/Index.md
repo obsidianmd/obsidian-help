@@ -47,5 +47,5 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 - [[Working with multiple notes]]
 - [[Pane layout]]
 - [[Working with multiple vaults]]
-- [[Working with multiple cursors]]
+- [[Multiple cursors]]
 - [[Using obsidian URI]]
