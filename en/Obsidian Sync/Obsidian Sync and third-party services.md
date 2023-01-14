@@ -6,4 +6,4 @@ If you set up the same third-party service on multiple devices, such as your pho
 
 To back up your vault using a third-party service, configure the service so that backups are only made from your primary device. For example, if you do most of your writing on your laptop, that's where you should configure your backups. 
 
-We suggest using dedicated backup services that do not automatically save new data to your local device. 
+We recommend using a dedicated backup service that doesn't automatically update data on your local device from your backup.
