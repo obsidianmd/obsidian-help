@@ -2,7 +2,11 @@ Learn how you can get help and support resources when using Obsidian or any of o
 
 ## Contact Obsidian support
 
-For questions and other support related to our paid services, such as [[Introduction to Obsidian Publish|Obsidian Publish]] and [[Introduction to Obsidian Sync|Obsidian Sync]], you can [email the Obsidian team](mailto:support@obsidian.md).
+If you have question of need help with any of the following, you can [email the Obsidian team](mailto:support@obsidian.md) for support:
+
+- Account and billing support
+- Support related to our paid services, such as [[Introduction to Obsidian Publish|Obsidian Publish]] and [[Introduction to Obsidian Sync|Obsidian Sync]]
+- Support for users with [[Catalyst license]] or [[Commercial license]]
 
 ## Questions and advice
 
