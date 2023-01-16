@@ -12,6 +12,8 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes.
 | Paste without formatting | `Ctrl+Shift+V` |
 | Undo | `Ctrl+Z` |
 | Redo | `Ctrl+Shift+Z` |
+| Copy paragraph | `Ctrl+C` (with no selected text) |
+| Cut paragraph | `Ctrl+X` (with no selected text) |
 
 ### Text editing
 
@@ -68,6 +70,8 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes.
 | Paste without formatting | `Cmd+Shift+V` |
 | Undo | `Cmd+Z` |
 | Redo | `Cmd+Shift+Z` |
+| Copy paragraph | `Cmd+C` (with no selected text) |
+| Cut paragraph | `Cmd+X` (with no selected text) |
 
 ### Text editing
 
