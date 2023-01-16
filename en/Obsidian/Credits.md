@@ -30,7 +30,7 @@ Names are not listed by amount of contribution, but alphabetically (or at least 
 
 ### Plugin inspirations
 
-Credits to these ( plugin developers ) for pioneering functionality that were adapted into Obsidian:
+Credits to these plugin developers for pioneering functionality that were adapted into Obsidian:
 
 - pjeby for the Hotkey Helper plugin
 - javalent for the Admonition plugin
