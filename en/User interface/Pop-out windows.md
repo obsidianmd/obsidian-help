@@ -1,4 +1,4 @@
-Learn how to open files in separate _pop-out_ windows. 
+Learn how to open files in separate _pop-out_ windows.
 
 Each pop-out window is associated with a vault window. If you close a vault window, all its pop-out windows close as well.
 
@@ -34,6 +34,3 @@ In the [[Command palette]], select **Move current tab in new window**.
 **Tab:**
 
 Drag the tab to a tab group in the destination window.
-
-
-
