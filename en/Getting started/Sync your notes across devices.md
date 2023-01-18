@@ -2,6 +2,8 @@ Syncing means keeping your notes up to date across your devices, such as your la
 
 The easiest way to sync your notes between your devices is to use [[Introduction to Obsidian Sync|Obsidian Sync]]. If you already have an Obsidian Sync subscription, see how to [[Set up Obsidian Sync]].
 
+Note that using multiple syncing services at the same time (e.g., Obsidian Sync _and_ Dropbox) may cause data loss, corruption, and other issues. [[Obsidian Sync and third-party services||Find out more about using Obsidian Sync with other services here.]]
+
 If you don't want to use Obsidian Sync, this page lists alternative methods for syncing your vaults with multiple devices.
 
 ## Sync notes across multiple desktops
