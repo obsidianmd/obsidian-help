@@ -10,3 +10,32 @@ If you set up the same third-party service on multiple devices, such as your pho
 > Some cloud storage services, such as OneDrive, allow you to only download files when you use them and later remove them locally to free up space. Since the files are no longer available locally, Obsidian Sync believes they have been deleted and removes them from your remote vault.
 >
 > To use Obsidian Sync together with Files On-Demand and similar features, make sure to configure the service to always keep the files on the device.
+
+# Removing your vault from a third-party sync service
+If you are using Obsidian Sync and realize that you've set up your vault in a folder synced by a third-party service (such as Dropbox, OneDrive, or iCloud Drive), you can use the following steps to move the vault to a safer location.
+
+## Desktop (macOS/Windows/Linux)
+First, try the "Move vault" feature in the [[Vault switcher]]. 
+1. Open the vault switcher (in the default theme, this is represented by a vault icon in the bottom-left of the window).
+2. Select the three dots next to the vault you wish to move. 
+3. Choose a new location for the vault on your file system.
+
+If that doesn't work (e.g., you're moving across drives), do the following. (This might look like a lot of steps, but it's really just "move your vault folder, then open it in Obsidian as a 'new' vault.")
+  
+1. Make backups. (E.g., copy your vault folder somewhere else that you won't be touching throughout the rest of this operation.)  
+2. Quit Obsidian.  
+3. Cut and paste (or move, e.g., via drag and drop) your vault folder from the old location to your newly-selected vault location (Reminder: do not put it in a folder that is being synced by any other services.)
+4. Check and make sure it has all your stuff, otherwise go back to (3).  
+5. Relaunch Obsidian.  
+6. Open the Vault Picker, and click "Open folder as vault"  
+7. Navigate to your vault's new location and choose your vault folder.  
+8. Check and make sure it looks the same. You might have to re-enable community plugins (Settings → Community Plugins → Turn restricted mode off.)  
+9. Re-set up Sync.
+
+### iOS
+1. Make a backup of your vault somewhere (just in case).
+2. On your Obsidian device, create a new, temporary vault, and make sure "Save in iCloud Drive" is not enabled. (This is to make sure the app container folder we'll use in the next step exists. You'll delete this fake vault in a moment.)
+3. Force quit the Obsidian app on all iOS devices and quit the app on any desktops. (This is to prevent Sync from doing anything while we move our files.)
+4. On your iOS device, go into the Files app, navigate to iCloud Drive → Obsidian, and long-press on your vault's folder. Select Move, and navigate to On My iPhone → Obsidian. (You should see the fake vault you created in step 2 here.) Press "Copy."
+5. Once the copying is finished: still in the Files app, navigate back to iCloud Drive → Obsidian. Delete your vault folder there.
+6. Open the Obsidian app. You should be presented with the vault picker and your vault should now have a vault icon instead of a cloud, indicating it is no longer on iCloud Drive.
