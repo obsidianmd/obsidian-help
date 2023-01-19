@@ -40,5 +40,6 @@ If that doesn't work (e.g., you're moving across drives), do the following. (Thi
 5. Under **iCloud Drive** → **Obsidian**, long-press on the vault folder and then select **Move**.
 6. Navigate to **On My iPhone** → **Obsidian**. Make sure that you can see the vault you created earlier.
 7. Press **Copy**.
-5. Once the copying is finished: still in the Files app, navigate back to iCloud Drive → Obsidian. Delete your vault folder there.
+5. After the vault has been copied, navigate back to **iCloud Drive** → **Obsidian**. 
+6. Delete your vault folder.
 The next time you open Obsidian and the Vault switcher, your vault now has a vault icon instead of a cloud, indicating it's no longer on iCloud Drive.
