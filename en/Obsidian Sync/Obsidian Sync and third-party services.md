@@ -16,7 +16,7 @@ If you're using Obsidian Sync and realize that you've set up your vault in a fol
 
 ## Desktop (macOS/Windows/Linux)
 First, try the "Move vault" feature in the [[Vault switcher]]. 
-1. Open the vault switcher (in the default theme, this is represented by a vault icon in the bottom-left of the window).
+1. In the bottom-left corner, select **Open another vault** (vault icon).
 2. Select the three dots next to the vault you wish to move. 
 3. Choose a new location for the vault on your file system.
 
