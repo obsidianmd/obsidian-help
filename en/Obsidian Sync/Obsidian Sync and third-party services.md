@@ -34,7 +34,7 @@ If that doesn't work (e.g., you're moving across drives), do the following. (Thi
 
 ### iOS
 1. Make a backup of your vault somewhere (just in case).
-2. On your Obsidian device, create a new, temporary vault, and make sure "Save in iCloud Drive" is not enabled. (This is to make sure the app container folder we'll use in the next step exists. You'll delete this fake vault in a moment.)
+2. On your device, create a new vault and disable **Save in iCloud Drive**.
 3. Force quit the Obsidian app on all iOS devices and quit the app on any desktops. (This is to prevent Sync from doing anything while we move our files.)
 4. On your iOS device, go into the Files app, navigate to iCloud Drive → Obsidian, and long-press on your vault's folder. Select Move, and navigate to On My iPhone → Obsidian. (You should see the fake vault you created in step 2 here.) Press "Copy."
 5. Once the copying is finished: still in the Files app, navigate back to iCloud Drive → Obsidian. Delete your vault folder there.
