@@ -12,7 +12,7 @@ If you set up the same third-party service on multiple devices, such as your pho
 > To use Obsidian Sync together with Files On-Demand and similar features, make sure to configure the service to always keep the files on the device.
 
 ## Remove your vault from a third-party sync service
-If you are using Obsidian Sync and realize that you've set up your vault in a folder synced by a third-party service (such as Dropbox, OneDrive, or iCloud Drive), you can use the following steps to move the vault to a safer location.
+If you're using Obsidian Sync and realize that you've set up your vault in a folder synced by a third-party service, you can use the following steps to move the vault to a safer location.
 
 ## Desktop (macOS/Windows/Linux)
 First, try the "Move vault" feature in the [[Vault switcher]]. 
