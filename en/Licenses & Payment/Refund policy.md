@@ -9,7 +9,7 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 > [[Catalyst license|Catalyst licenses]] and [[Obsidian Unlimited (donation)]] are **not** refundable. While they give you a number of benefits, they're intended to support the Obsidian development and aren't sold as products.
 
 > [!Note] Talk to a human
-> If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, contact support@obsidian.md.
+> If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, [[Help & Support#Contact Obsidian support|contact Obsidian support]].
 
 ## Request a refund
 
