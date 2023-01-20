@@ -8,7 +8,6 @@ At base, Obsidian is a tool for working with a bunch of Markdown files that are 
 
 Let's say you want to write a note about your favorite band. Just type the name of the note surrounded by two square brackets, like `[[My Favorite Band]]`
 
-Try it here (make sure you're typing in the Editor pane):
 
 You'll notice that the text and the brackets turn blue. That means it's a link now. Click on that link in the Preview (or `Cmd-click` in the Editor), and you'll see a blank note. Write whatever you want there, and when you're done, come back here with `Cmd-alt-left`, or by clicking the name of this note ([[Basic note taking]]) in the **Backlinks** to the right. To learn more about navigating links, see [[Internal links]].
 
