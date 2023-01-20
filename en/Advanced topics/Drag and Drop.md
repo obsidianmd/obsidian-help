@@ -22,7 +22,7 @@ See [[Working with multiple notes#5 Panes can be rearranged by dragging|dragging
 ### Dragging from outside Obsidian
 
 - You can drag any HTML content from the browser into Obsidian to automatically convert them into Markdown
-- You can drag and drop any files from your native file explorer to have Obsidian import (make a copy of) those files in your vault's attachment folder and insert them as internal links. Hold `Ctrl` on Windows/Linux or `Alt` on macOS to create `file:///` absolute links to those files instead of importing a copy.
+- You can drag and drop any files from your native file explorer to have Obsidian import (make a copy of) those files in your vault's attachment folder and insert them as internal links. Hold `Ctrl` on Windows/Linux or `Option` on macOS to create `file:///` absolute links to those files instead of importing a copy.
 
 ### Dropping files outside Obsidian
 
