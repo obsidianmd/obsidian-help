@@ -129,7 +129,7 @@ Possible parameters:
 
 Available since v0.14.3.
 
-Some endpoints will accept the x-callback-url parameters `x-success` and `x-error`. When it is provided, Obsidian will provide the following to the `x-success` callback:
+Some endpoints will accept the x-callback-url parameters `x-success` and `x-error`. When it's provided, Obsidian will provide the following to the `x-success` callback:
 
 - `name` the name of the file, without the file extension.
 - `url` the `obsidian://` URI for this file.

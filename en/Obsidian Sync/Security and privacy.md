@@ -28,7 +28,7 @@ Here are the technical details:
 
 ## What happens if I forget my encryption password?
 
-If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it is forever lost.
+If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it's forever lost.
 
 Your data, however, are usually safely stored locally on each of your devices.
 

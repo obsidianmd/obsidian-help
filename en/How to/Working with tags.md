@@ -1,4 +1,4 @@
-Tags are a very useful way of grouping multiple notes so they are easy to find. A tag is essentially a clickable search through your entire vault for a term. For example, clicking on #tags will bring up a search with all notes that contain that tag. Most people use them for broad categories of things, like a class you might be taking notes in or a type of idea. Some Zettelkasten practitioners like to use them as "entry points" for thinking about connected ideas. But ultimately, they are flexible enough that you can use them in any way you would like.
+Tags are a very useful way of grouping multiple notes so they're easy to find. A tag is essentially a clickable search through your entire vault for a term. For example, clicking on #tags will bring up a search with all notes that contain that tag. Most people use them for broad categories of things, like a class you might be taking notes in or a type of idea. Some Zettelkasten practitioners like to use them as "entry points" for thinking about connected ideas. But ultimately, they're flexible enough that you can use them in any way you would like.
 
 ### Add tags
 

@@ -115,6 +115,6 @@ Since Obsidian stores notes in a local folder on your Android device, you can al
 **Note:** Obsidian creates an Obsidian folder in the shared Documents folder. Any folder under `Documents/Obsidian` is considered an Obsidian vault.
 
 > [!important] Dealing with on-demand cloud storage
-> Some cloud storage services, such as OneDrive, allow you to only download files when you use them and later remove them locally to free up space. Since the files are no longer available locally, Obsidian Sync believes they have been deleted and removes them from your remote vault.
+> Some cloud storage services, such as OneDrive, allow you to only download files when you use them and later remove them locally to free up space. Since the files are no longer available locally, Obsidian Sync believes they've been deleted and removes them from your remote vault.
 >
 > To use Obsidian Sync together with Files On-Demand and similar features, make sure to configure the service to always keep the files on the device.

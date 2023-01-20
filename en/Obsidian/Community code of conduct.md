@@ -24,8 +24,8 @@ While the following behaviors don’t result in a ban or warning, we strongly di
 
 - **Sea-lioning**: continuously pursuing an agenda by questioning and provoking other members. Individual provocations and questions are often perfectly acceptable, but in the case of sea-lioning, they accumulate to unhealthy levels, creating a hostile and negative conversation.
 - **"Feed me"**: asking others to solve problems for you without putting in any effort yourself. This is particularly egregious when the problem-solving is non-trivial and yet the user begs for someone else to do the work for them.
-- **Campaigning**: continuously making the same requests. This applies to both feature requests and to requests for help. Don’t post the same question in multiple places in short timeframes, and don’t ask developers for the same features or bug fixes repeatedly.
-- **Parasitism**: self-promoting of yours or others' initiatives without contributing to the community otherwise. We encourage self-promotion (it is awesome to see what Obsidian users are up to) but won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
+- **Campaigning**: continuously making the same requests. This applies to both feature requests and to requests for help. Don’t post the same question in multiple places in short time frames, and don’t ask developers for the same features or bug fixes repeatedly.
+- **Parasitism**: self-promoting of yours or others' initiatives without contributing to the community otherwise. We encourage self-promotion (it's awesome to see what Obsidian users are up to) but won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
 
 ## Encouraged behaviors
 

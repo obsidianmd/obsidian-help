@@ -34,7 +34,7 @@ When creating [[Linked pane|linked panes]], `Ctrl/Cmd+click` the preview or edit
 
 When linked to another pane, the panes' scroll position will be synced, and if you open a file in one pane, the other pane will open the same file.
 
-[[Linked pane|Linked panes]] will be marked with a link icon. You can hover the link to see which pane it's linked to, or click the icon to release it so that they are no longer linked.
+[[Linked pane|Linked panes]] will be marked with a link icon. You can hover the link to see which pane it's linked to, or click the icon to release it so that they're no longer linked.
 
 For more information, see [[Linked pane|linked panes]].
 

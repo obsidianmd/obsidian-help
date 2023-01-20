@@ -57,7 +57,7 @@ To move a file or folder, you can use drag-and-drop or the context menu.
 **Drag and drop:**
 
 - Drag a file or folder to the folder you want to move it to.
-- With `Alt-Click` (Windows/Linux) or `Opt-Click` (macOS) you can select multiple individual files and drag them to another folder. If they are all in a row, you can use `Shift-Click` for it.
+- With `Alt-Click` (Windows/Linux) or `Opt-Click` (macOS) you can select multiple individual files and drag them to another folder. If they're all in a row, you can use `Shift-Click` for it.
 
 **Context menu:**
 

@@ -4,7 +4,7 @@ When you want to add custom styles to your vault, there are two main ways to do 
 
 ### Themes
 
-Themes allow you to toggle the appearance of your vault with a dropdown menu once they have been added to your vault's theme folder.
+Themes allow you to toggle the appearance of your vault with a dropdown menu once they've been added to your vault's theme folder.
 
 This configuration can be found in `Settings` => `Appearance` => `Themes` section of your vault settings.
 

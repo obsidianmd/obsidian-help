@@ -25,7 +25,7 @@ It will show up like this:
 
 By default, Obsidian supports several callout types and aliases. Each type comes with a different background color and icon.
 
-To use these default styles, replace `INFO` in the examples with any of these types. Any unrecognized type will default to the "note" type, unless they are [[#Customizations|customized]]. The type identifier is case insensitive.
+To use these default styles, replace `INFO` in the examples with any of these types. Any unrecognized type will default to the "note" type, unless they're [[#Customizations|customized]]. The type identifier is case insensitive.
 
 > [!note]
 > ```md
@@ -161,13 +161,13 @@ Additionally, you can create a folding callout by adding `+` (default expanded) 
 
 ```markdown
 > [!FAQ]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden until it is expanded.
+> Yes! In a foldable callout, the contents are hidden until it's expanded.
 ```
 
 Will show up as:
 
 > [!FAQ]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden until it is expanded.
+> Yes! In a foldable callout, the contents are hidden until it's expanded.
 
 ### Nesting
 

@@ -31,7 +31,7 @@ Due to technical reasons, Obsidian is unable to reliably restrict plugins to spe
 
 ## Plugin review process
 
-Community plugins undergo an initial review when they are submitted to the plugin store. The Obsidian team is still small and unable to manually review every new release of community plugins.
+Community plugins undergo an initial review when they're submitted to the plugin store. The Obsidian team is still small and unable to manually review every new release of community plugins.
 
 Instead, we rely on the help of the community to identify and report issues with plugins.
 
