@@ -30,7 +30,7 @@ Here are a few ways to get started:
 
 If you want to just start taking notes, check out [[Basic note taking]]
 
-If you already have a collection of notes in markdown format, just choose them for your Vault. Choose "Vault" in the lower left and select the directory your notes are in.
+If you already have a collection of notes in markdown format, just choose them for your Vault. Choose "Vault" in the lower left and select the folder your notes are in.
 
 If you have notes from Roam Research, Notion, or other systems, [[Import data|here's how to import them]].
 
