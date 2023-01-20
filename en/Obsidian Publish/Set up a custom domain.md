@@ -8,7 +8,7 @@ The easiest way to set up a custom domain or subdomain is to create a [CloudFlar
 
 When you migrate to CloudFlare, you automatically keep all your existing DNS setup, including your subdomains, email service, and hosting services. Using CloudFlare can speed up your websites and add SSL to your sites for free.
 
-Typically, users host their Obsidian Publish content on a root domain (e.g. `mysite.com`) or an immediate subdomain (e.g. `notes.mysite.com`).
+Typically, users host their Obsidian Publish content on a root domain (`mysite.com`) or an immediate subdomain (`notes.mysite.com`).
 
 **CloudFlare:**
 
