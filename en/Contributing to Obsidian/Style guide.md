@@ -100,3 +100,53 @@ When referring to a character on the keyboard by name, add the character between
 
 - Add a hyphen in front of the word.
 - Add a `-` in front of the word.
+
+## Markdown
+
+Use newlines between Markdown blocks:
+
+**Recommended:**
+
+```md
+# Heading 1
+
+This is a section.
+
+1. First item
+2. Second item
+3. Third item
+```
+
+**Not recommended**
+
+```md
+# Heading 1
+This is a section.
+1. First item
+2. Second item
+3. Third item
+```
+
+Use lazy numbering for list with more than three items:
+
+**Recommended**
+
+```md
+1. First item
+1. Second item
+1. Third item
+1. Fourth item
+1. Fifth item
+1. Sixth item
+```
+
+**Not recommended**
+
+```md
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+5. Fifth item
+6. Sixth item
+```
