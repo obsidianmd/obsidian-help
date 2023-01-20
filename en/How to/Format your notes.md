@@ -191,9 +191,9 @@ http://obsidian.md - automatic!
 
 #### Obsidian URI links
 
-[[Using obsidian URI|Obsidian URI]] links can be used to open notes in Obsidian either from another Obsidian vault or another program.
+[[Using Obsidian URI|Obsidian URI]] links can be used to open notes in Obsidian either from another Obsidian vault or another program.
 
-For example, you can link to a file in a vault like so (please note the [[Using obsidian URI#Encoding|required encoding]]):
+For example, you can link to a file in a vault like so (please note the [[Using Obsidian URI#Encoding|required encoding]]):
 
 ```md
 [Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
