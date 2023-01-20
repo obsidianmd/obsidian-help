@@ -12,7 +12,7 @@ To star a note:
 
 **Options menu:**
 
-- Click **More options** in in the top-right corner of a note, and then click **Star**.
+- Click **More options** in the upper-right corner of a note, and then click **Star**.
 
 **Command palette:**
 

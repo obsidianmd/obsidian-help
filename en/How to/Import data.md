@@ -29,13 +29,12 @@ If you have data in Roam, it's easy to export and play around with it in Obsidia
 
 > 3. Unzip the "Roam-Export-xxxxxxxxxxxxx.zip" into a folder.
 
-> 4. Click on the vault icon (the tooltip should say "Open another vault") on the bottom left corner in the app, and select "Open folder as vault".
+> 4. Click on the vault icon (the tooltip should say "Open another vault") in the bottom-left corner in the app, and select "Open folder as vault".
 > Pick the folder you just unzipped to.
 
 > 5. Use our [[Format converter]] to convert Roam Research's Markdown format into Obsidian's format.
 > It can be used turn `#tag` into Obsidian `[[links]]`.
 > It can also convert `^^highlight^^` into `==highlight==`.
-
 
 ### From Bear
 
