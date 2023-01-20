@@ -127,7 +127,7 @@ This is a section.
 3. Third item
 ```
 
-Use lazy numbering for list with more than three items:
+Use lazy numbering for lists with more than three items:
 
 **Recommended**
 
