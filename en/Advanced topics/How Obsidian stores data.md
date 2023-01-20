@@ -8,7 +8,7 @@ There is, however, some data that is needed by the software that isn't stored in
 
 Obsidian also stores some information in the system directory. This is different per Operating System; on Mac it's `/Users/yourusername/Library/Application Support/obsidian`, on Windows `%APPDATA%\Obsidian\`, and `$XDG_CONFIG_HOME/Obsidian/` or `~/.config/Obsidian/` on Linux. As a result, we recommend against creating a vault in this directory.
 
-Aside from that, though, you can create a Vault anywhere your operating system will allow. Obsidian files sync fine with Dropbox, iCloud, OneDrive, git, and every other syncing service we've tried thus far.
+Aside from that, though, you can create a vault anywhere your operating system will allow. Obsidian files sync fine with Dropbox, iCloud, OneDrive, git, and every other syncing service we've tried thus far.
 
 ### Symbolic Links
 
