@@ -25,8 +25,8 @@ If your daily notes have the same structure, you can use a [[Templates|template]
    - [ ]
    ```
 
-2. Open **Settings**.
-3. In the sidebar, click **Daily notes** under **Plugin options**.
-4. In the text box next to **Template file location**, select the "Daily template" note.
+1. Open **Settings**.
+1. In the sidebar, click **Daily notes** under **Plugin options**.
+1. In the text box next to **Template file location**, select the "Daily template" note.
 
 Obsidian uses the template the next time you create a new daily note.

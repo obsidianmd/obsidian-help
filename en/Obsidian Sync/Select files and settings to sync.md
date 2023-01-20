@@ -20,9 +20,9 @@ Any files or settings that have been synced to your [[Local and remote vaults|re
 By default, Obsidian syncs all files and folders in your vault. If you don't want Obsidian to sync a certain folder, you can exclude it.
 
 1. Open **Settings** -> **Sync**.
-2. Under **Selective sync**, next to **Excluded folders**, click **Manage**.
-3. Click the checkbox to the left of folder you want to exclude.
-4. Click **Done**.
+1. Under **Selective sync**, next to **Excluded folders**, click **Manage**.
+1. Click the checkbox to the left of folder you want to exclude.
+1. Click **Done**.
 
 ## Create a settings profile
 

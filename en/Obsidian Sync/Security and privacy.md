@@ -35,8 +35,8 @@ Your data, however, are usually safely stored locally on each of your devices.
 To continue using Obsidian Sync, we suggest doing a full re-setup to be able to add new devices to your Sync system:
 
 1. Make a full vault backup on your primary device, just in case something goes wrong. This can be as simple as making a copy of the vault folder, or creating a zip file from the vault.
-2. Disconnect the remote vault in each of your devices. This can be done by going to Settings > Sync > Pick remote vault > (x) Disconnect.
-3. Create a new remote vault on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the vault limit)
-4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
-5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
-6. Now all your devices should be connected to the new remote vault.
+1. Disconnect the remote vault in each of your devices. This can be done by going to Settings > Sync > Pick remote vault > (x) Disconnect.
+1. Create a new remote vault on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the vault limit)
+1. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
+1. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
+1. Now all your devices should be connected to the new remote vault.

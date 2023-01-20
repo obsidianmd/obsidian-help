@@ -5,7 +5,7 @@ Although using Obsidian for personal use is completely free of charge, you can g
 In Obsidian, you don’t gift a particular product, but rather Obsidian Credit that can be used towards anything. It’s like an Obsidian gift card.
 
 1. If you don’t have any [[Obsidian Credit]] already, first you need to [[Obsidian Credit#Add credit|add some credit]].
-2. [On the Account page](https://obsidian.md/account), under **Payment & billing** > **Obsidian Credit**, click **Gift**.
-3. Follow the instructions to either get a redeem link to send yourself, or have us send an anonymized email to the recipient.
-4. Click **Send gift** to complete the gifting.
-5. After you send out a gift, you can view it under **Payment & billing** > **Gift history**. You can see the status of each gift, and cancel the ones that haven’t been redeemed yet.
+1. [On the Account page](https://obsidian.md/account), under **Payment & billing** > **Obsidian Credit**, click **Gift**.
+1. Follow the instructions to either get a redeem link to send yourself, or have us send an anonymized email to the recipient.
+1. Click **Send gift** to complete the gifting.
+1. After you send out a gift, you can view it under **Payment & billing** > **Gift history**. You can see the status of each gift, and cancel the ones that haven’t been redeemed yet.

@@ -14,6 +14,6 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 ## Request a refund
 
 1. Log into your account [on our Account page](https://obsidian.md/account).
-2. Under **Payment & billing** > **Invoices & refunds**, click **View**.
-3. Next to the payments you want a refund for, if you’re qualified for a refund, you’ll see a link to **Get refund**. Click on the click.
-4. Your service will be removed and any auto-renewals will be cancelled as well. If you confirm to proceed, click **Request refund**.
+1. Under **Payment & billing** > **Invoices & refunds**, click **View**.
+1. Next to the payments you want a refund for, if you’re qualified for a refund, you’ll see a link to **Get refund**. Click on the click.
+1. Your service will be removed and any auto-renewals will be cancelled as well. If you confirm to proceed, click **Request refund**.

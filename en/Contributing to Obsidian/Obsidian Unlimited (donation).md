@@ -8,8 +8,8 @@ Obsidian Unlimited lets you donate money to support the Obsidian development.
 To donate using Obsidian Unlimited:
 
 1. Browse to your [account page](https://obsidian.md/account).
-2. Under **Obsidian Unlimited**, click **Pay**.
-3. In **Amount (USD)**, enter the amount to want to donate.
-4. Enter your credit card details.
-5. Click **Pay**.
-6. Follow the instructions from your bank.
+1. Under **Obsidian Unlimited**, click **Pay**.
+1. In **Amount (USD)**, enter the amount to want to donate.
+1. Enter your credit card details.
+1. Click **Pay**.
+1. Follow the instructions from your bank.
