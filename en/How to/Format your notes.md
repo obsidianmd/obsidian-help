@@ -11,7 +11,6 @@ We currently support the formats below:
 Link to a page: [[Internal links]].
 ```
 
-
 Link to a page: [[Internal links]].
 
 ---
@@ -23,6 +22,7 @@ Embed another file (read more about [[Embedding files]]):
 ```md
 ![[Obsidian#What is Obsidian]]
 ```
+
 ![[Obsidian#What is Obsidian]]
 
 ---
@@ -49,6 +49,7 @@ Embed another file (read more about [[Embedding files]]):
 ---
 
 You can also use the alternative syntax for Heading 1 and Heading 2.
+
 ```md
 Heading 1
 ===
@@ -56,7 +57,6 @@ Heading 1
 Heading 2
 ---
 ```
-
 
 <h1>Heading 1</h1>
 
@@ -123,8 +123,8 @@ _You **can** combine them_
 1. Item 1
 1. Item 2
 1. Item 3
-	1. Item 3a
-	1. Item 3b
+   1. Item 3a
+   1. Item 3b
 
 ---
 
@@ -138,6 +138,7 @@ Create a _loose list_ by adding a blank line between any two list items.
 ```
 
 Will look like this:
+
 - Item 1
 
 - Item 2
@@ -170,6 +171,7 @@ Example of this above image resized to 100 pixels wide:
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
 or for local images
+
 ```md
 ![[og-image.png|200]]
 ```
@@ -252,7 +254,6 @@ Text inside `backticks` on a line will be formatted like code.
 ```
 
 Text inside `backticks` on a line will be formatted like code.
-
 
 #### Code blocks
 
@@ -401,7 +402,6 @@ Use two equal signs to ==highlight text==.
 
 Use three stars ***, hyphens ---, or underscores ___ in a new line to produce an horizontal bar.
 
-
 ***
 
 ---
@@ -517,6 +517,7 @@ Learn more about callouts [[Use callouts|here]].
 
 Obsidian uses [Mermaid](https://mermaid-js.github.io/) to render diagrams and charts. Mermaid also provides [a helpful live editor](https://mermaid-js.github.io/mermaid-live-editor).
 Mermaid provides the following diagram types:
+
 - Flowchart
 - Sequence diagram
 - Class Diagram
@@ -559,7 +560,6 @@ graph TD
 Biology --> Chemistry
 ```
 
-
 Obsidian supports linking to notes in Mermaid, these links won't show up on [[Graph view]].
 
 ````md
@@ -581,6 +581,7 @@ class Biology,Chemistry internal-link;
 ```
 
 An easier way to do it is the following: ^376b9d
+
 ````md
 ```mermaid
 graph TD

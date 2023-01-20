@@ -11,6 +11,7 @@ When starting Obsidian, you may notice that it prompts for permission to access 
 In an ideal world, we'd prefer to only ask for access rights to the vault folders you choose. However, Android's privacy-friendly file permission API (also known as "scoped storage") has a few restrictions that makes it impossible for Obsidian to function properly.
 
 The two biggest roadblocks are:
+
 - Scoped storage performs many extra permission checks for every single file access, causing significant performance degradation when opening and using Obsidian.
 - Scoped storage doesn't provide a way to watch for external changes, which is critical when using Obsidian with a third-party syncing tool.
 

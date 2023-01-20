@@ -32,21 +32,20 @@ While Twitter doesn't have an official way to embed tweets using iframe, you can
 
 ```html
 <iframe
-	border="0"
-	frameborder="0"
-	height="763"
-	width="550"
-	src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
+  border="0"
+  frameborder="0"
+  height="763"
+  width="550"
+  src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
 >
 </iframe>
 ```
 
 <iframe
-	border="0"
-	frameborder="0"
-	height="763"
-	width="550"
-	src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
+  border="0"
+  frameborder="0"
+  height="763"
+  width="550"
+  src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
 >
 </iframe>
-

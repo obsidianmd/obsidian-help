@@ -79,7 +79,6 @@ Aliases: `hint`, `important`
 
 Aliases: `check`, `done`
 
-
 ---
 
 > [!question]-
@@ -170,7 +169,6 @@ Will show up as:
 > [!FAQ]- Are callouts foldable?
 > Yes! In a foldable callout, the contents are hidden until it is expanded.
 
-
 ### Nesting
 
 You can also nest callouts multiple layers deep.
@@ -186,7 +184,6 @@ Will result in:
 > [!question] Can callouts be nested?
 > > [!todo] Yes!, they can.
 > > > [!example]  You can even use multiple layers of nesting.
-
 
 ### Customizations
 

@@ -10,4 +10,3 @@ Learn how to [[Embedding files|embed files]] in your notes.
 
 > [!note]
 > Support for audio and video formats depends on the codecs available on your device.
-

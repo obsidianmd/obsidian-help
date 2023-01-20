@@ -21,11 +21,11 @@ To find instructions on how to install Insider builds on your mobile device, fol
 1. [[Catalyst license#Get your Discord badge|Get your Discord badge]] to access insider channels.
 1. Open Discord.
 1. In the `#insider-mobile` channel, open **Pinned Messages**.
-	- On desktop, select the pushpin icon in the upper-right corner.
-	- On mobile, swipe left and select **Pins**.
+   - On desktop, select the pushpin icon in the upper-right corner.
+   - On mobile, swipe left and select **Pins**.
 1. Under **Pinned Messages**, select the installation link for your device:
-	- If you're using iOS, open the TestFlight link on your iPhone or iPad.
-	- If you're using Android, download and install the APK file.
+   - If you're using iOS, open the TestFlight link on your iPhone or iPad.
+   - If you're using Android, download and install the APK file.
 
 ## Report issues and other feedback
 

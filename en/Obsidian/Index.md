@@ -1,4 +1,5 @@
 ## About this site
+
 Welcome to Obsidian's official help vault! This page contains a quick index to the things that you may be interested in.
 
 See public hosted version: https://publish.obsidian.md/help

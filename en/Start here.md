@@ -15,7 +15,6 @@ If you're in a hurry, here's some quick places to dive in:
 - How to [[Working with multiple notes|open multiple files side by side]]
 - Obsidian can be extended with [[Core plugins|plugins]]. Several are available by default, and can be enabled or disabled according to your needs.
 
-
 If you want a more thorough introduction, including a bit about our philosophy, check out [[Obsidian]].
 
 And if you'd like a gentle introduction, or just want to get started but don't know how, head over to [[Basic note taking]].
@@ -38,6 +37,6 @@ If you'd like to know more about Obsidian, you can [[Obsidian|read about our sto
 
 By the way, you can feel free to edit these help docs, but when you open it again, they will be overwritten. So, don't put anything in them you want to keep.
 
-## I have questions.
+## I have questions
 
 Then you should join our [community!](https://obsidian.md/community). We have active Discord and Forums, and the community is generally quite helpful.

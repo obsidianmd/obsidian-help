@@ -1,4 +1,4 @@
-Folding text is an extremely powerful tool for outlining or writing, in order to focus on what you're working on. 
+Folding text is an extremely powerful tool for outlining or writing, in order to focus on what you're working on.
 
 To use folding, go to Settings (the gear icon on the left) => Editor and turn on `Fold indent` and `Fold heading`.
 
@@ -11,5 +11,3 @@ Obsidian has the ability to fold both markdown headers and indented lists. Note 
    1. Another subcategory
       1. An example of an item
       1. A different, equally important item.
-
-

@@ -32,7 +32,7 @@ Or, you can also add multiple aliases using a YAML array:
 
 ```md
 ---
-aliases: 
+aliases:
   - Doggo
   - Woofer
   - Yapper
@@ -55,7 +55,7 @@ Obsidian creates the link with the alias as its custom display text, for example
 
 ## Find unlinked mentions for an alias
 
-By using [[Backlinks]], you can find unlinked mentions of aliases. 
+By using [[Backlinks]], you can find unlinked mentions of aliases.
 
 For example, after setting "AI" as an alias for "Artificial intelligence", you can see mentions of "AI" in other notes.
 

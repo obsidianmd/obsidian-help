@@ -18,6 +18,6 @@ Obsidian automatically saves your note two seconds after you stop typing, or if 
 
 ---
 
-### Related:
+### Related
 
 - [[Rename notes]]
