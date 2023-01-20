@@ -6,7 +6,7 @@ Notes are created in a few ways, depending on your workflow:
 
 ![[Pasted image 3.png]]
 
-After creating it, the note title will appear in the internal link auto-completion, so you don't need to type out the note name every time. When you type `[[` a popup will come up showing all the notes in your vault. Just type until you see the one you want, and hit `Return` or click on it, and the name will be automatically filled in.
+After creating it, the note title appears in the internal link auto-completion, so you don't need to type out the note name every time. When you type `[[` a pop-up shows all the notes in your vault. Just type until you see the one you want, and hit `Return` or click on it, and the name will be automatically filled in.
 
 If you already have folders set up in [[File explorer]], you can right-click on a folder to create notes inside it:
 

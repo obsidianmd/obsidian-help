@@ -1,6 +1,6 @@
 ### Base theme
 
-Obsidian comes with two base themes, light and dark. This option sets the default color scheme your theme will use to either display its light or dark mode version.
+Obsidian comes with two base themes, light and dark. This option sets the default color scheme your theme uses to either display its light or dark mode version.
 
 ### Custom theme
 

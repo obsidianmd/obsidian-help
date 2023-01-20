@@ -606,6 +606,6 @@ It looks like this if you follow the [[Format your notes#^376b9d|second option]]
 
 ## Developer notes
 
-We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
+We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of Markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
 
-We intentionally don't support parsing markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support syncing between editing and reading mode.
+We intentionally don't support parsing Markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support syncing between editing and reading mode.

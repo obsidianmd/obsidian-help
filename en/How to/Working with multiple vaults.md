@@ -6,11 +6,11 @@ A new or existing vault can be opened from the button just above the Settings ge
 
 ![[Vault picker.png]]
 
-You have the option to either open an existing folder of markdown files, create a new vault (which essentially just creates a new folder that you will put markdown files into), or opening a special vault containing these help files. The Help vault is stored in a special Obsidian folder (see [[How Obsidian stores data]]), but aside from that, it's a folder of files just like any other.
+You have the option to either open an existing folder of Markdown files, create a new vault (which essentially just creates a new folder that you will put Markdown files into), or opening a special vault containing these help files. The Help vault is stored in a special Obsidian folder (see [[How Obsidian stores data]]), but aside from that, it's a folder of files just like any other.
 
 [[Internal links]] aren't shared across Vaults. If you have one vault inside another vault, this can get confusing, so we recommend not doing that.
 
-Always remember, a vault is just a collection of markdown files. You can use whatever file management techniques you would normally to move them around on your file system, and Obsidian will automatically refresh to keep up.
+Always remember, a vault is just a collection of Markdown files. You can use whatever file management techniques you would normally to move them around on your file system, and Obsidian will automatically refresh to keep up.
 
 ### Transfer settings between vaults
 

@@ -117,7 +117,7 @@ Examples:
 
 Description: Endpoint for use with [Hook](https://hookproductivity.com/). Use: `obsidian://hook-get-address`
 
-If `x-success` is defined, this API will use it as the x-callback-url. Otherwise, it will copy a markdown link of the current focused note to the clipboard, as an `obsidian://open` URL.
+If `x-success` is defined, this API will use it as the x-callback-url. Otherwise, it will copy a Markdown link of the current focused note to the clipboard, as an `obsidian://open` URL.
 
 Possible parameters:
 

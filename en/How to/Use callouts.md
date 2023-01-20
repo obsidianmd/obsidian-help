@@ -201,7 +201,7 @@ Snippets and plugins can define custom callouts, too, or overwrite the default o
 
 We choose the syntax because:
 
-- it falls back to blockquotes in unsupported markdown renderers
+- it falls back to blockquotes in unsupported Markdown renderers
 - it parses all Markdown, including links, embeds, etc.
 - it recognizes [[Internal links]], and shows up in [[Backlinks]], [[Outgoing links]], and [[Graph view]]
 - the spellchecker can spellcheck it.
