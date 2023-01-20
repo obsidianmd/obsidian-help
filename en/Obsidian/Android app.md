@@ -12,6 +12,6 @@ In an ideal world, we'd prefer to only ask for access rights to the vault folder
 
 The two biggest roadblocks are:
 - Scoped storage performs many extra permission checks for every single file access, causing significant performance degradation when opening and using Obsidian.
-- Scoped storage does not provide a way to watch for external changes, which is critical when using Obsidian with a third-party syncing tool.
+- Scoped storage doesn't provide a way to watch for external changes, which is critical when using Obsidian with a third-party syncing tool.
 
 Google specifically gives instructions for developers of this kind of apps a special permission. Obsidian belongs to two categories in the list of exceptions: "document management apps", and "on-device file search". [Read more about it here.](https://developer.android.com/training/data-storage/manage-all-files)

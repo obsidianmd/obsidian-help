@@ -25,7 +25,7 @@ To sync your notes to your iPhone or iPad, we officially support the following o
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 - [[#iCloud Drive]]
 
-**Note:** The following services are not supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
+**Note:** The following services aren't supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
 
 - Dropbox
 - Google Drive

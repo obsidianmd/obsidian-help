@@ -473,7 +473,7 @@ For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List
 
 ### Comments
 
-Use `%%` to enclose comments, which will be parsed as Markdown, but will not show up in the preview.
+Use `%%` to enclose comments, which will be parsed as Markdown, but won't show up in the preview.
 
 ```md
 Here is some inline comments: %%You can't see this text%% (Can't see it in Reading mode)
@@ -560,8 +560,8 @@ Biology --> Chemistry
 ```
 
 
-Obsidian supports linking to notes in Mermaid,
-these links will not show up on [[Graph view]].
+Obsidian supports linking to notes in Mermaid, these links won't show up on [[Graph view]].
+
 ````md
 ```mermaid
 graph TD
@@ -607,4 +607,4 @@ It looks like this if you follow the [[Format your notes#^376b9d|second option]]
 
 We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
 
-We intentionally do not support parsing markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support syncing between editing and reading mode.
+We intentionally don't support parsing markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support syncing between editing and reading mode.

@@ -21,7 +21,7 @@ This will allow you to search exact matches of a tag. For example, when clicking
 
 ### Allowed characters
 
-Spaces are not allowed in tags. So, to differentiate two or more words in a tag, you can use these case styles/formats:
+Spaces aren't allowed in tags. So, to differentiate two or more words in a tag, you can use these case styles/formats:
 
 - camelCase: #twoWords
 - PascalCase: #TwoWords
@@ -33,4 +33,4 @@ The only symbols allowed are:
 1. `_` (underscore) and `-` (dash) to separate words;
 2. `/` (forward slash) for [[Tags#Nested tags|nested tags]].
 
-Numbers are allowed in the tag, ==as long as the tag is not purely numeric==. For example, #1984 isn't a valid tag, but #y1984 is a valid one.
+Numbers are allowed in the tag, ==as long as the tag isn't purely numeric==. For example, #1984 isn't a valid tag, but #y1984 is a valid one.

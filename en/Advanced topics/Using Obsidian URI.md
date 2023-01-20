@@ -89,7 +89,7 @@ Examples:
 
 - `obsidian://search?vault=my%20vault&query=MOC`
 	This opens the vault `my vault`, opens the search pane, and performs a search for `MOC`.
-	
+
 #### Action `new`
 
 Description: Creates a new note in the vault, optionally with some content.
@@ -103,16 +103,16 @@ Possible parameters:
 - `content` (optional) the contents of the note.
 - `silent` (optional) set this if you don't want to open the new note.
 - `append` (optional) append to an existing file if one exists.
-- `overwrite` (optional) overwrite an existing file if one exists, but only if `append` is not set.
+- `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
 - `x-success` (optional) see [[#x-callback-url]].
 
 Examples:
 
 - `obsidian://new?vault=my%20vault&name=my%20note`
-	This opens the vault `my vault`, and creates a new note called `my note`.
+  This opens the vault `my vault`, and creates a new note called `my note`.
 - `obsidian://new?vault=my%20vault&path=path%2Fto%2Fmy%20note`
-	This opens the vault `my vault`, and creates a new note at `path/to/my note`.
-	
+  This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+
 #### Action `hook-get-address`
 
 Description: Endpoint for use with [Hook](https://hookproductivity.com/). Use: `obsidian://hook-get-address`
@@ -130,6 +130,7 @@ Possible parameters:
 Available since v0.14.3.
 
 Some endpoints will accept the x-callback-url parameters `x-success` and `x-error`. When it is provided, Obsidian will provide the following to the `x-success` callback:
+
 - `name` the name of the file, without the file extension.
 - `url` the `obsidian://` URI for this file.
 - `file` (desktop only) the `file://` URL for this file.

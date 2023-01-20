@@ -18,7 +18,7 @@ To create other layouts, you can split the current pane in half either horizonta
 
 ---
 
-##### 3. If you want a sticky pane that does not get replaced even when it's active, ==pin it==.
+##### 3. If you want a sticky pane that doesn't get replaced even when it's active, ==pin it==.
 
 This is great if you're working on something and want to use the other panes as temporary reference panes. Pin it to make sure it never gets replaced.
 
