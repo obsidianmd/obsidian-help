@@ -50,7 +50,7 @@ To create a new vault in iCloud Drive on your iPhone or iPad:
 Obsidian has created a new folder inside your iCloud Drive. To open the iCloud Drive folder as a vault on your computer:
 
 1. Open **Obsidian** on your computer.
-1. In the the vault switcher, to the right of **Open folder as vault**, click **Open**.
+1. In the vault switcher, to the right of **Open folder as vault**, click **Open**.
 1. Navigate to **iCloud Drive** -> **Obsidian**.
 1. Select the folder with the name of the vault you want to sync with.
 

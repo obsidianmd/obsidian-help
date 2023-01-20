@@ -1,4 +1,4 @@
-Obsidian supports a custom URI protocol `obsidian://` which can be used to trigger various actions within the app. This is commonly used on MacOS and mobile apps for automation and cross-app workflows.
+Obsidian supports a custom URI protocol `obsidian://` which can be used to trigger various actions within the app. This is commonly used on macOS and mobile apps for automation and cross-app workflows.
 
 If you have Obsidian installed, this link will open the app on your device: [Click here](obsidian://open)
 
@@ -7,7 +7,7 @@ If you have Obsidian installed, this link will open the app on your device: [Cli
 To make sure your operating system redirect `obsidian://` URIs to the Obsidian app, there may be additional steps you need to perform.
 
 - On Windows, running the app once should be sufficient. This will register for the `obsidian://` custom protocol handler in the Windows registry.
-- On MacOS, running the app once should be sufficient, however, your app **must** be installer version 0.8.12 or later.
+- On macOS, running the app once should be sufficient, however, your app **must** be installer version 0.8.12 or later.
 - On Linux, there's a much more involved process:
   - First, ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files)
   - Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
@@ -41,7 +41,7 @@ Possible parameters:
 
 - `vault` can be either the vault name, or the vault ID.
   - The vault name is simply the name of the vault folder.
-  - The vault ID is the random 16-character code assigned to the vault. This ID is unique per folder on your computer. Example: `ef6ca3e3b524d22f`. There isn't an easy way to find this ID yet, one will be offered at a later date in the vault switcher. Currently it can be found in `%appdata%/obsidian/obsidian.json` for Windows. For MacOS, replace `%appdata%` with `~/Library/Application Support/`. For Linux, replace `%appdata%` with `~/.config/`.
+  - The vault ID is the random 16-character code assigned to the vault. This ID is unique per folder on your computer. Example: `ef6ca3e3b524d22f`. There isn't an easy way to find this ID yet, one will be offered at a later date in the vault switcher. Currently it can be found in `%appdata%/obsidian/obsidian.json` for Windows. For macOS, replace `%appdata%` with `~/Library/Application Support/`. For Linux, replace `%appdata%` with `~/.config/`.
 - `file` can be either a file name, or a path from the vault root to the specified file.
   - To resolve the target file, Obsidian uses the same link resolution system as a regular `[[wikilink]]` within the vault.
   - If the file extension is `md`, the extension can be omitted.

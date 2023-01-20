@@ -22,7 +22,7 @@ Typically, users host their Obsidian Publish content on a root domain (`mysite.c
 **Note:** To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
 
 - URL match: `www.mysite.com/*`
-- Foward URL - 301 Permanent Redirect
+- Forward URL - 301 Permanent Redirect
 - Redirect URL: `https://mysite.com/$1`
 
 Once you create the page rule, you should also create a CNAME record for `www.mysite.com` just like you created for `mysite.com`
