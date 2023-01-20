@@ -33,7 +33,7 @@ The backlinks pane have the following options:
 
 ## View backlinks for a note
 
-To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right side bar.
+To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right sidebar.
 
 > [!note]
 > If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks pane** command.

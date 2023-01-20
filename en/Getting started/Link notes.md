@@ -35,7 +35,7 @@ As you've seen in the previous steps, you can click a link while pressing `Ctrl`
 Another way to navigate the between notes is through _backlinks_. A backlink lets you navigate in the opposite direction of an existing link.
 
 1. Open the "Isaac Newton" note.
-1. In the right side bar, click the **Backlinks** tab.
+1. In the right sidebar, click the **Backlinks** tab.
 1. Under **Linked mentions**, click the mention in "Three laws of motion" to go to that note.
 
 Another way to navigate between your notes is by using a visual representation of how your notes are connected.
