@@ -56,7 +56,7 @@ This section controls how to visualize nodes and links in the graph.
 - **Text fade threshold** controls the text transparency for the name of each note.
 - **Node size** controls the size of the circle representing each note.
 - **Link thickness** controls the line width for each link.
-- **Animate** starts a [[#Start a timelapse animation|timelapse animation]].
+- **Animate** starts a [[#Start a time-lapse animation|time-lapse animation]].
 
 ### Forces
 
@@ -67,7 +67,7 @@ This section controls the forces that act on each node in the graph.
 - **Link force** controls the pull on each link. If the link was a rubber band, the link force controls how tight or loose the band is.
 - **Link distance** controls the length of the lines between each note.
 
-## Start a timelapse animation
+## Start a time-lapse animation
 
 Notes and attachments appear in chronological order based on their creation time.
 

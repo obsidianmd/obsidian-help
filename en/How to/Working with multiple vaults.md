@@ -1,4 +1,4 @@
-Each collection of notes in Obsidian is known as a *vault*. A vault consists of a folder, and any sub-folders within it. Right now, you're looking at the `Obsidian Help` vault, which is just a folder of files included with Obsidian.
+Each collection of notes in Obsidian is known as a *vault*. A vault consists of a folder, and any subfolders within it. Right now, you're looking at the `Obsidian Help` vault, which is just a folder of files included with Obsidian.
 
 You can open another vault anywhere on your computer, and it will retain its own individual [[Core plugins|Plugins]] and [[Add custom styles|custom styling]]. This is useful, for example, if you have one vault where you keep notes but a different one in which you do long-form writing.
 

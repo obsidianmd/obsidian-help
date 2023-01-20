@@ -29,7 +29,7 @@ To open a link in a new tab, press `Ctrl` (or `Cmd` on macOS) and select the lin
 
 ## Organize your tabs and windows
 
-Every tab belongs to a _tab group_. You can drag and drop tabs to rearrange them within a tab group, move them to a different tab group, or create a new tab group. On desktop, you can drag tabs out of their window to open them in a separate _popout window_.
+Every tab belongs to a _tab group_. You can drag and drop tabs to rearrange them within a tab group, move them to a different tab group, or create a new tab group. On desktop, you can drag tabs out of their window to open them in a separate [[Pop-out windows|pop-out window]].
 
 Tabs in sidebars only show the icon. Hover over the icon to show a tooltip with the tab title.
 

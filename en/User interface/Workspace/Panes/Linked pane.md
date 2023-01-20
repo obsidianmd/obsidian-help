@@ -4,4 +4,4 @@ Panes can be linked together. This has two main effects:
 
 - When a new [[Backlinks#Open a linked backlinks pane|Backlink Pane]] is created from a note, it will be linked to that note. This means that [[backlinks]] will always be shown for the note that is in that pane. This is useful if you want to reference a set of [[backlinks]] but let the regular backlink panel change with whatever other note you are working on.
 
-Linked panes will be marked with a link icon. You can hover the link to see which pane it's linked to, or click the icon to release it, so that they are no longer linked. This won't close the previously-linked pane.
+Linked panes will be marked with a link icon. You can hover the link to see which pane it's linked to, or click the icon to release it, so that they are no longer linked. This won't close the previously linked pane.

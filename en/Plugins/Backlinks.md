@@ -15,7 +15,7 @@ flowchart LR
   newton --backlink--> laws
 ```
 
-Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet!
+Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet.
 
 ## The backlinks pane
 

@@ -4,7 +4,7 @@ Obsidian has two sidebars on both left and right. The left sidebar includes the 
 
 If a sidebar is collapsed, you can open it by clicking on the Arrow icon to expand it.
 
-This commonly happens when you enable a plugin but can't find it anywhere. Chances are the new pane created by the plugin is hidden in one of the sidebars, so be sure to check there!
+This commonly happens when you enable a plugin but can't find it anywhere. Chances are the new pane created by the plugin is hidden in one of the sidebars, so be sure to check there.
 
 ## Tabs
 

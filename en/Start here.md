@@ -39,4 +39,4 @@ By the way, you can feel free to edit these help docs, but when you open it agai
 
 ## I have questions
 
-Then you should join our [community!](https://obsidian.md/community). We have active Discord and Forums, and the community is generally quite helpful.
+Then you should join our [community](https://obsidian.md/community). We have active Discord and Forums, and the community is generally quite helpful.
