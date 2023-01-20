@@ -30,7 +30,7 @@ Pinned panes will have a highlighted pin icon instead of a grey one.
 
 ##### 4. Use ==linked panes== for previewing.
 
-When creating [[Linked pane|linked panes]], `Ctrl/Cmd+click` the preview or edit button when a Markdown file is open.
+When creating [[Linked pane|linked panes]], `Ctrl/Cmd+click` the preview or edit button when a note is open.
 
 When linked to another pane, the panes' scroll position will be synced, and if you open a file in one pane, the other pane will open the same file.
 
