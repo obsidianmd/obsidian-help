@@ -7,9 +7,9 @@ The first time you open Obsidian, you'll be asked to add a new vault from the [[
 To create a new empty vault from the vault switcher:
 
 1. To the right of **Create new vault**, click **Create**.
-1. In **Vault name**, enter the name of your vault.
-1. Click **Browse** to select where your new vault will be created.
-1. Click **Create**.
+2. In **Vault name**, enter the name of your vault.
+3. Click **Browse** to select where your new vault will be created.
+4. Click **Create**.
 
 ## Open existing folder
 

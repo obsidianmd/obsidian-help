@@ -43,16 +43,16 @@ When using iCloud Drive on macOS, be sure to update your desktop app's installer
 To create a new vault in iCloud Drive on your iPhone or iPad:
 
 1. Tap **Create new vault**.
-1. In **Vault name**, enter the name of your vault.
-1. Enable **Store in iCloud**.
-1. Tap **Create**.
+2. In **Vault name**, enter the name of your vault.
+3. Enable **Store in iCloud**.
+4. Tap **Create**.
 
 Obsidian has created a new folder inside your iCloud Drive. To open the iCloud Drive folder as a vault on your computer:
 
 1. Open **Obsidian** on your computer.
-1. In the vault switcher, to the right of **Open folder as vault**, click **Open**.
-1. Navigate to **iCloud Drive** -> **Obsidian**.
-1. Select the folder with the name of the vault you want to sync with.
+2. In the vault switcher, to the right of **Open folder as vault**, click **Open**.
+3. Navigate to **iCloud Drive** -> **Obsidian**.
+4. Select the folder with the name of the vault you want to sync with.
 
 #### Sync an existing vault with iCloud Drive
 
@@ -61,9 +61,9 @@ To sync an existing vault using iCloud, you need to create an empty vault in iCl
 To create a new empty vault in iCloud Drive:
 
 1. Tap **Create new vault**.
-1. In **Vault name**, enter the same name as the vault you want to sync with.
-1. Enable **Store in iCloud**.
-1. Tap **Create**.
+2. In **Vault name**, enter the same name as the vault you want to sync with.
+3. Enable **Store in iCloud**.
+4. Tap **Create**.
 
 To move your notes to the new vault in your iCloud Drive:
 

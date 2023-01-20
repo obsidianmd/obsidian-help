@@ -101,7 +101,7 @@ For note tabs, you can use the following plugins as linked views:
 To open a linked view for a note tab:
 
 1. Select **More options** (three dots icon) in the upper right corner of the note.
-1. Under **Open linked view**, select the linked view you want to open.
+2. Under **Open linked view**, select the linked view you want to open.
 
 ## Learn more
 

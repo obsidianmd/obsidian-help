@@ -3,17 +3,17 @@ This page lists all supported ways to download and install Obsidian.
 ## Install Obsidian on Windows
 
 1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-1. Under **Windows**, click **64-bit installer** to download the installation file.
-1. Open the installation file and follow the instructions.
-1. Open Obsidian the same way you would open any other application.
+2. Under **Windows**, click **64-bit installer** to download the installation file.
+3. Open the installation file and follow the instructions.
+4. Open Obsidian the same way you would open any other application.
 
 ## Install Obsidian on macOS
 
 1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-1. Under **macOS**, click **Universal DMG (Intel and M1)** to download the installation file.
-1. Open the installation file.
-1. In the window that opens, drag Obsidian to the Applications folder.
-1. Open Obsidian the same way you would open any other application.
+2. Under **macOS**, click **Universal DMG (Intel and M1)** to download the installation file.
+3. Open the installation file.
+4. In the window that opens, drag Obsidian to the Applications folder.
+5. Open Obsidian the same way you would open any other application.
 
 ## Install Obsidian on Linux
 
@@ -22,22 +22,22 @@ If you use Linux, you can install Obsidian in several ways. Follow the instructi
 ### Install Obsidian using Snap
 
 1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-1. Under **Linux**, click **Snap** to download the installation file.
-1. Open a terminal and navigate to the folder where you downloaded the installation file.
-1. In the terminal, run the following command to install the Snap package: (the `--dangerous` flag is required because Canonical, the company who created Snap, didn't review our package, the `--classic` flag allows Obsidian to access outside of the sandbox, where your notes are stored)
+2. Under **Linux**, click **Snap** to download the installation file.
+3. Open a terminal and navigate to the folder where you downloaded the installation file.
+4. In the terminal, run the following command to install the Snap package: (the `--dangerous` flag is required because Canonical, the company who created Snap, didn't review our package, the `--classic` flag allows Obsidian to access outside of the sandbox, where your notes are stored)
 
    ```bash
    snap install obsidian_<version>_<arch>.snap --dangerous --classic
    ```
 
-1. Open Obsidian the same way you would open any other application.
+5. Open Obsidian the same way you would open any other application.
 
 ### Install Obsidian using AppImage
 
 1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-1. Under **Linux**, click **AppImage** to download the installation file.
-1. Open a terminal and navigate to the folder where you downloaded the installation file.
-1. In the terminal, run the following command to open Obsidian:
+2. Under **Linux**, click **AppImage** to download the installation file.
+3. Open a terminal and navigate to the folder where you downloaded the installation file.
+4. In the terminal, run the following command to open Obsidian:
 
    ```bash
    chmod u+x Obsidian-<version>.AppImage

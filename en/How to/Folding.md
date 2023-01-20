@@ -8,6 +8,6 @@ Obsidian has the ability to fold both Markdown headers and indented lists. Note 
 
 1. Categories of things
    1. A subcategory
-   1. Another subcategory
+   2. Another subcategory
       1. An example of an item
-      1. A different, equally important item.
+      2. A different, equally important item.

@@ -6,8 +6,8 @@ Record and save audio recordings directly into an Obsidian note. With the Audio 
 ## Record audio in a note
 
 1. Create a new note or open an existing note.
-1. In the ribbon, click **Start/stop recording** (microphone icon) to start recording. The recording starts as soon as the icon changes color.
-1. Click the icon again to stop the recording and add it to your note.
+2. In the ribbon, click **Start/stop recording** (microphone icon) to start recording. The recording starts as soon as the icon changes color.
+3. Click the icon again to stop the recording and add it to your note.
 
 Obsidian saves the recorded audio file to your vault and [[Embedding files|embeds]] it at the end of the active note.
 

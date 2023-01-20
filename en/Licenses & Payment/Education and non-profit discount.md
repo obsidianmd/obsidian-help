@@ -7,12 +7,12 @@ Obsidian currently offers two types of discounts: education and non-profit. They
 ### How to apply
 
 1. Go to [your account page](https://obsidian.md/account).
-1. Under **Payment & billing**, find the **Discount** section, and click on the **"Apply"** link.
-1. Select a discount type depending on your situation, fill out your **educational or organization email** (not your account email).
-1. Click **Send application**.
-1. In your school or organization email inbox, you should get an email from us to verify your email address. Click on the link to verify.
-1. You might get instantly approved for the discount. If not, our team will try to review your application within 3 business days.
-1. You’ll get an email when your discount gets approved.
+2. Under **Payment & billing**, find the **Discount** section, and click on the **"Apply"** link.
+3. Select a discount type depending on your situation, fill out your **educational or organization email** (not your account email).
+4. Click **Send application**.
+5. In your school or organization email inbox, you should get an email from us to verify your email address. Click on the link to verify.
+6. You might get instantly approved for the discount. If not, our team will try to review your application within 3 business days.
+7. You’ll get an email when your discount gets approved.
 
 Congratulations! Now you’ll see the discount when you try to purchase Obsidian Sync or Publish.
 

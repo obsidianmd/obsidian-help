@@ -10,18 +10,18 @@ Snapshots are kept in the [[How Obsidian stores data#System directory|system dir
 ## Recover a snapshot
 
 1. Open **Settings**.
-1. In the sidebar, click **File recovery** under **Plugin options**.
-1. Next to **Snapshots**, click **View**.
-1. In the upper-right text box, search for the file you want to recover, and then press Enter.
-1. Select the snapshot you want to recover.
-1. Click **Copy to clipboard** to copy the snapshot.
-1. Paste the snapshot in the original note, or in a new note if you want to compare them.
+2. In the sidebar, click **File recovery** under **Plugin options**.
+3. Next to **Snapshots**, click **View**.
+4. In the upper-right text box, search for the file you want to recover, and then press Enter.
+5. Select the snapshot you want to recover.
+6. Click **Copy to clipboard** to copy the snapshot.
+7. Paste the snapshot in the original note, or in a new note if you want to compare them.
 
 ## Clear snapshot history
 
 **Caution:** Clearing the snapshot history irreversibly deletes all snapshots in your vault.
 
 1. Open **Settings**.
-1. In the sidebar, click **File recovery** under **Plugin options**.
-1. Next to **Clear history**, click **Clear**.
-1. Confirm that you want to delete all snapshots, by clicking **Clear**.
+2. In the sidebar, click **File recovery** under **Plugin options**.
+3. Next to **Clear history**, click **Clear**.
+4. Confirm that you want to delete all snapshots, by clicking **Clear**.

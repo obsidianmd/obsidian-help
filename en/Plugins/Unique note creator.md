@@ -3,7 +3,7 @@ aliases:
 - Zettelkasten prefixer
 ---
 
-Unique note creator lets you create notes with time-based names, also known as Zettelkasten notes. 
+Unique note creator lets you create notes with time-based names, also known as Zettelkasten notes.
 
 For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note creator creates a note with `202401010945` as its name. If a note with the same name exists, the new note uses the next available timestamp.
 
@@ -16,8 +16,8 @@ For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note cre
 **Command palette:**
 
 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-1. Search for the **Create new unique note** command.
-1. Press `Enter` with the command selected.
+2. Search for the **Create new unique note** command.
+3. Press `Enter` with the command selected.
 
 ## Create unique notes from a template
 

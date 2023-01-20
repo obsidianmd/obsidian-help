@@ -15,12 +15,12 @@ Live Preview gives you an improved editing experience that lets you see how your
 To enable Live Preview for an existing vault:
 
 1. Open **Settings**.
-1. In the sidebar, click **Editor**.
-1. Under **General**, disable **Legacy Editor**.
-1. Click on the **Relaunch** button for the change to take effect.
-1. After Obsidian restarts, open **Settings**.
-1. In the sidebar, click **Editor**.
-1. Under **General**, set **Default editing mode** to **Live Preview**.
+2. In the sidebar, click **Editor**.
+3. Under **General**, disable **Legacy Editor**.
+4. Click on the **Relaunch** button for the change to take effect.
+5. After Obsidian restarts, open **Settings**.
+6. In the sidebar, click **Editor**.
+7. Under **General**, set **Default editing mode** to **Live Preview**.
 
 When you open a new pane, it'll use Live Preview by default. If you already have some panes open, they'll be in _Source mode_.
 
@@ -46,8 +46,8 @@ If you want to know how the terminology changes with the new features, here's a 
 Some plugins and themes may not be fully compatible with the new editor. If your favorite plugin doesn't yet support the new editor, you can switch back to the old one by enabling the Legacy editor.
 
 1. Open **Settings**.
-1. In the sidebar, click **Editor**.
-1. Under **General**, enable **Legacy Editor**.
-1. Click on the **Relaunch** button for the change to take effect.
+2. In the sidebar, click **Editor**.
+3. Under **General**, enable **Legacy Editor**.
+4. Click on the **Relaunch** button for the change to take effect.
 
 Use the legacy editor if you're not ready to upgrade to the new editor. You'll miss out some sweet features, but know that you can switch to the new editor at any time.

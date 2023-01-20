@@ -126,27 +126,3 @@ This is a section.
 2. Second item
 3. Third item
 ```
-
-Use lazy numbering for lists with more than three items:
-
-**Recommended**
-
-```md
-1. First item
-1. Second item
-1. Third item
-1. Fourth item
-1. Fifth item
-1. Sixth item
-```
-
-**Not recommended**
-
-```md
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-5. Fifth item
-6. Sixth item
-```

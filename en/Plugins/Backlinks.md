@@ -45,7 +45,7 @@ The backlinks pane lists backlinks for the active note and updates when you swit
 To open a linked backlinks pane:
 
 1. Open the [[Command palette]].
-1. Select **Backlinks: Open backlinks for the current note**.
+2. Select **Backlinks: Open backlinks for the current note**.
 
 A separate tab opens next to your active note. The tab shows a link icon to let you know it's linked to a note.
 

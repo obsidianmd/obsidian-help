@@ -35,12 +35,12 @@ We recommend that you provide one or more of the following dimensions:
 To use one of the community themes for your site:
 
 1. Open your vault in the default file explorer for your OS.
-1. Go to the vault settings folder (default: `.obsidian`).
-1. Open the `themes` folder.
-1. Copy the CSS file for the theme you want to use for your site.
-1. Paste the file into the root folder of your vault.
-1. Rename the CSS file to `publish.css`.
-1. [[Publish and unpublish notes#Publish notes|Publish]] `publish.css`.
+2. Go to the vault settings folder (default: `.obsidian`).
+3. Open the `themes` folder.
+4. Copy the CSS file for the theme you want to use for your site.
+5. Paste the file into the root folder of your vault.
+6. Rename the CSS file to `publish.css`.
+7. [[Publish and unpublish notes#Publish notes|Publish]] `publish.css`.
 
 **Notes:**
 
