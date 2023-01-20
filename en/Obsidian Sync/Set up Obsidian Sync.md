@@ -1,4 +1,4 @@
-In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for your vault and synchronize it with a [[Local and remote vaults|remote vault]].
+In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for your vault and sync it with a [[Local and remote vaults|remote vault]].
 
 ### Prerequisites
 

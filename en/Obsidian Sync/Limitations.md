@@ -22,9 +22,9 @@ We keep data in your remote vaults, including version history, for one month aft
 
 As long as you renew within one month, there should be no impact on your usage.
 
-## Is my data being synchronized in the background?
+## Is my data being synced in the background?
 
-No, files are only synchronized when Obsidian is running.
+No, files are only synced when Obsidian is running.
 
 ## What operating systems does Obsidian Sync support?
 
