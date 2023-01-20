@@ -2,7 +2,7 @@ We believe [[Obsidian#How we're different|your data is always yours to own and c
 
 ### Per vault data
 
-There is, however, some data that is needed by the software that isn't stored in markdown. Obsidian creates a folder called `.obsidian` in the root of any vault you create. This contains your configuration, including custom hotkeys and which plugins are enabled. Any folder starting with a `.` is invisible on most systems, so you will probably never see it unless you try. If you delete this folder, none of your data will be gone, but you will lose your custom settings. It will be recreated when you open that vault in Obsidian again. If you are using `git`, it's probably best to `ignore` the `.obsidian/workspace` file, because this file stores your panes and opened files, but we haven't observed any other issues with including it.
+There's, however, some data that is needed by the software that isn't stored in markdown. Obsidian creates a folder called `.obsidian` in the root of any vault you create. This contains your configuration, including custom hotkeys and which plugins are enabled. Any folder starting with a `.` is invisible on most systems, so you will probably never see it unless you try. If you delete this folder, none of your data will be gone, but you will lose your custom settings. It will be recreated when you open that vault in Obsidian again. If you are using `git`, it's probably best to `ignore` the `.obsidian/workspace` file, because this file stores your panes and opened files, but we haven't observed any other issues with including it.
 
 ### System directory
 
