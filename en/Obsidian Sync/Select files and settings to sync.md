@@ -3,7 +3,7 @@ Any files or settings that have been synced to your [[Local and remote vaults|re
 **Notes:**
 
 - Synced files remain in your remote vault even if you exclude them later on. If possible, configure the files and settings you want to sync before you start syncing your vault.
-- If you sync any vault settings, changes will only be updated during start-up. After changing a setting on one device, you will need to restart Obsidian on your other devices for the new changes to take effect. (For example, if you change your Daily Notes' path in the Daily Notes plugin, then create a new daily note on another device without restarting Obsidian, it will use your previous path.)
+- Obsidian only applies vault settings during start-up. If you change a setting on one device, you need to restart Obsidian on your other devices for the new changes to take effect. For example, if you change the path of your daily notes in the [[Daily Notes]] plugin, you need to restart Obsidian on your other devices to use the new path.
 - ==Sync doesn't sync Sync's settings.== This allows users to configure Sync differently on each device according to their needs. This means, however, that you must configure custom Sync settings on each device.
 
 ## Sync vault configuration
