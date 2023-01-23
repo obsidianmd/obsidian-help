@@ -26,6 +26,10 @@ Here are the technical details:
 - Key derivation function used: scrypt with salt
 - Encryption algorithm used: AES-256 using GCM
 
+## Where are Obsidian Sync's servers hosted?
+
+We use DigitalOcean data centers located in the US.
+
 ## What happens if I forget my encryption password?
 
 If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it's forever lost.
