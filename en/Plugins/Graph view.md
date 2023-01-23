@@ -72,3 +72,9 @@ This section controls the forces that act on each node in the graph.
 Notes and attachments appear in chronological order based on their creation time.
 
 ![[Pasted image 10.png]]
+
+## Local Graph
+
+To open a local Graph view, use the **Open local graph** command. While the Graph view shows all notes in your vault, a local Graph view shows you notes connected to the active note.
+
+The local Graph view can use all of the [[#Settings]] available to the global Graph view. Additionally, you can change the depth of the local graph. Each level of depth will show notes connected to the notes revealed at the previous depth. To control local Graph depth, use the slider at the top of the local graph Settings panel.
