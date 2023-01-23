@@ -1,4 +1,4 @@
-There are a few differences between the way various PKM and note taking systems work that mean moving between them can be a little complicated. For the most part, if whatever you're using can be converted to markdown, it will work fairly well within Obsidian. But some things, like tags and links, can be tricky.
+There are a few differences between the way various PKM and note taking systems work that mean moving between them can be a little complicated. For the most part, if whatever you're using can be converted to Markdown, it will work fairly well within Obsidian. But some things, like tags and links, can be tricky.
 
 On our Forum there is a [post collecting methods that other people have developed](https://forum.obsidian.md/t/meta-post-migration-workflows/768). Right now, it includes:
 
@@ -13,7 +13,7 @@ On our Forum there is a [post collecting methods that other people have develope
 
 But if you don't see your system on this list, check out the forum post, someone may have solved your issue since this document was written.
 
-Also of note, the makers of nvUltra, another markdown-based note-taking program, have a list on their website of [ways to export to nvUltra](https://nvultra.com/help/importing). In a lot of cases, these will be the same, or at least a helpful place to start.
+Also of note, the makers of nvUltra, another Markdown-based note-taking program, have a list on their website of [ways to export to nvUltra](https://nvultra.com/help/importing). In a lot of cases, these will be the same, or at least a helpful place to start.
 
 ## Built-in tools
 
@@ -29,13 +29,12 @@ If you have data in Roam, it's easy to export and play around with it in Obsidia
 
 > 3. Unzip the "Roam-Export-xxxxxxxxxxxxx.zip" into a folder.
 
-> 4. Click on the vault icon (the tooltip should say "Open another vault") on the bottom left corner in the app, and select "Open folder as vault".
+> 4. Click on the vault icon (the tooltip should say "Open another vault") in the bottom-left corner in the app, and select "Open folder as vault".
 > Pick the folder you just unzipped to.
 
 > 5. Use our [[Format converter]] to convert Roam Research's Markdown format into Obsidian's format.
 > It can be used turn `#tag` into Obsidian `[[links]]`.
 > It can also convert `^^highlight^^` into `==highlight==`.
-
 
 ### From Bear
 
@@ -45,7 +44,7 @@ If you're importing from Bear, the [[Format converter]] plugin has an option to 
 
 If you've been using the Zettelkasten method to structure your notes, here's something you might want to know:
 
-Links in Obsidian require a full match to the note name. This means that `[[202001010000]]` will not properly link to `[[202001010000 My Note]]`.
+Links in Obsidian require a full match to the note name. This means that `[[202001010000]]` won't properly link to `[[202001010000 My Note]]`.
 
 In order to fix that, you can use our [[Format converter]] to convert your Zettelkasten links into either `[[202001010000 My Note]]` or `[[202001010000 My Note|My Note]]`.
 

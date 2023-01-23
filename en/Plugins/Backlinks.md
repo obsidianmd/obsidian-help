@@ -15,7 +15,7 @@ flowchart LR
   newton --backlink--> laws
 ```
 
-Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet!
+Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet.
 
 ## The backlinks pane
 
@@ -33,7 +33,7 @@ The backlinks pane have the following options:
 
 ## View backlinks for a note
 
-To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right side bar.
+To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right sidebar.
 
 > [!note]
 > If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks pane** command.
@@ -45,7 +45,7 @@ The backlinks pane lists backlinks for the active note and updates when you swit
 To open a linked backlinks pane:
 
 1. Open the [[Command palette]].
-1. Select **Backlinks: Open backlinks for the current note**.
+2. Select **Backlinks: Open backlinks for the current note**.
 
 A separate tab opens next to your active note. The tab shows a link icon to let you know it's linked to a note.
 

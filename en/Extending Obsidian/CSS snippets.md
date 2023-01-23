@@ -7,9 +7,9 @@ Obsidian looks for CSS snippets inside the vault configuration folder.
 To add a CSS snippet, follow these steps:
 
 1. Open **Settings**.
-1. Under **Appearance > CSS snippets**, select **Open snippets folder** (folder icon).
-1. In the snippets folder, create a CSS file that contains your snippet.
-1. In Obsidian, under **Appearance > CSS snippets**, select **Reload snippets** (refresh icon) to see the snippet in the list.
+2. Under **Appearance > CSS snippets**, select **Open snippets folder** (folder icon).
+3. In the snippets folder, create a CSS file that contains your snippet.
+4. In Obsidian, under **Appearance > CSS snippets**, select **Reload snippets** (refresh icon) to see the snippet in the list.
 
 Obsidian detects changes to CSS snippets automatically and applies them when you save your snippet. You don't need to restart Obsidian for changes to take effect.
 

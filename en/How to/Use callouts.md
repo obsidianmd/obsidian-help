@@ -25,7 +25,7 @@ It will show up like this:
 
 By default, Obsidian supports several callout types and aliases. Each type comes with a different background color and icon.
 
-To use these default styles, replace `INFO` in the examples with any of these types. Any unrecognized type will default to the "note" type, unless they are [[#Customizations|customized]]. The type identifier is case insensitive.
+To use these default styles, replace `INFO` in the examples with any of these types. Any unrecognized type will default to the "note" type, unless they're [[#Customizations|customized]]. The type identifier is case insensitive.
 
 > [!note]
 > ```md
@@ -78,7 +78,6 @@ Aliases: `hint`, `important`
 > ```
 
 Aliases: `check`, `done`
-
 
 ---
 
@@ -162,14 +161,13 @@ Additionally, you can create a folding callout by adding `+` (default expanded) 
 
 ```markdown
 > [!FAQ]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden until it is expanded.
+> Yes! In a foldable callout, the contents are hidden until it's expanded.
 ```
 
 Will show up as:
 
 > [!FAQ]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden until it is expanded.
-
+> Yes! In a foldable callout, the contents are hidden until it's expanded.
 
 ### Nesting
 
@@ -187,7 +185,6 @@ Will result in:
 > > [!todo] Yes!, they can.
 > > > [!example]  You can even use multiple layers of nesting.
 
-
 ### Customizations
 
 Snippets and plugins can define custom callouts, too, or overwrite the default options. Callout types and icons are defined in CSS, where the color is an `r, g, b` tuple and the icon is the icon ID from any internally supported icon (like `lucide-info`). Alternatively, you can specify an SVG icon as a string.
@@ -204,7 +201,7 @@ Snippets and plugins can define custom callouts, too, or overwrite the default o
 
 We choose the syntax because:
 
-- it falls back to blockquotes in unsupported markdown renderers
+- it falls back to blockquotes in unsupported Markdown renderers
 - it parses all Markdown, including links, embeds, etc.
 - it recognizes [[Internal links]], and shows up in [[Backlinks]], [[Outgoing links]], and [[Graph view]]
 - the spellchecker can spellcheck it.

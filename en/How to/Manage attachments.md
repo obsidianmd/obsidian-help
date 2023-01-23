@@ -6,7 +6,7 @@ There are several ways to include attachments in your notes:
 2. Drag and drop;
 3. Download or copy file to vault folder.
 
-After being added, these attachment files are just normal files and can still be accessed through your file system. 
+After being added, these attachment files are just normal files and can still be accessed through your file system.
 
 Please note that only [[Accepted file formats]] are handled.
 

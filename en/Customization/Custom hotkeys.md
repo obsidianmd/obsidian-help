@@ -12,5 +12,6 @@ The fastest way to see the hotkey set for a command is to find the command in [[
 
 To add a hotkey, remove a hotkey, or restore hotkeys to default, go to Settings => Hotkeys. You can also filter the list, as the list of commands is quite long.
 
-**Note for non-US users:** Even if the hotkey you type does not match on screen with what you would expect to see (given your keyboard layout), it will work fine following the actual buttons you pressed (as long as you don’t change layout).
+**Note for non-US users:** Even if the hotkey you type doesn't match on screen with what you would expect to see (given your keyboard layout), it will work fine following the actual buttons you pressed (as long as you don’t change layout).
+
 The hotkey that appears on screen is the one that you would have to perform if you were using a US keyboard.

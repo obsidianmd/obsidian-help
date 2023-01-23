@@ -9,8 +9,7 @@ Obsidian Credit will be applied before any payment is due, and it will also be a
 3. Enter the amount of Obsidian Credit you want to buy. The amount is in US dollars.
 4. Proceed to pay for the credit with any of the supported payment methods.
 
-
 > [!Note] Sales tax
 > Any applicable sales tax will be charged when you actually buy something, not when you buy Obsidian Credit.
-> 
+>
 > If you plan to cover auto-renewals with your credit, please take this into account.

@@ -1,4 +1,5 @@
 ## About this site
+
 Welcome to Obsidian's official help vault! This page contains a quick index to the things that you may be interested in.
 
 See public hosted version: https://publish.obsidian.md/help
@@ -47,5 +48,5 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 - [[Working with multiple notes]]
 - [[Pane layout]]
 - [[Working with multiple vaults]]
-- [[Working with multiple cursors]]
-- [[Using obsidian URI]]
+- [[Multiple cursors]]
+- [[Using Obsidian URI]]

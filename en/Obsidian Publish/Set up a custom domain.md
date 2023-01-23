@@ -8,7 +8,7 @@ The easiest way to set up a custom domain or subdomain is to create a [CloudFlar
 
 When you migrate to CloudFlare, you automatically keep all your existing DNS setup, including your subdomains, email service, and hosting services. Using CloudFlare can speed up your websites and add SSL to your sites for free.
 
-Typically, users host their Obsidian Publish content on a root domain (e.g. `mysite.com`) or an immediate subdomain (e.g. `notes.mysite.com`).
+Typically, users host their Obsidian Publish content on a root domain (`mysite.com`) or an immediate subdomain (`notes.mysite.com`).
 
 **CloudFlare:**
 
@@ -22,7 +22,7 @@ Typically, users host their Obsidian Publish content on a root domain (e.g. `mys
 **Note:** To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
 
 - URL match: `www.mysite.com/*`
-- Foward URL - 301 Permanent Redirect
+- Forward URL - 301 Permanent Redirect
 - Redirect URL: `https://mysite.com/$1`
 
 Once you create the page rule, you should also create a CNAME record for `www.mysite.com` just like you created for `mysite.com`

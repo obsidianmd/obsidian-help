@@ -6,8 +6,8 @@ Learn how to extend Obsidian with plugins built by the community. Use plugins to
 ## Browse community plugins
 
 1. Open **Settings**.
-1. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode]].
-1. Select **Browse** to list all available community plugins.
+2. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode]].
+3. Select **Browse** to list all available community plugins.
 
 Use the text box to filter plugins based on their name, author, and description.
 
@@ -18,10 +18,10 @@ You can also browse available plugins in your browser, by heading to [obsidian.m
 To install a community plugin, you first need to turn off [[#Restricted mode]].
 
 1. Open **Settings**.
-1. In the side menu, select **Community plugins**.
-1. Select **Browse** to explore available community plugins.
-1. Select the plugin you want to install.
-1. Select **Install**.
+2. In the side menu, select **Community plugins**.
+3. Select **Browse** to explore available community plugins.
+4. Select the plugin you want to install.
+5. Select **Install**.
 
 To use an installed plugin, you need to enable it.
 
@@ -36,21 +36,21 @@ For security purposes, community plugins don't update automatically. You can eit
 To update all your plugins:
 
 1. Open **Settings**.
-1. Under **Community plugins > Current plugins**, select **Check for updates**.
-1. If updates are available, select **Update all**.
+2. Under **Community plugins > Current plugins**, select **Check for updates**.
+3. If updates are available, select **Update all**.
 
 To update an individual plugin:
 
 1. Open **Settings**.
-1. Under **Community plugins > Current plugins**, select **Check for updates**.
-1. Under **Installed plugins**, select **Update** next to the plugin you want to update.
+2. Under **Community plugins > Current plugins**, select **Check for updates**.
+3. Under **Installed plugins**, select **Update** next to the plugin you want to update.
 
 ## Uninstall a community plugin
 
 1. Open **Settings**.
-1. In the side menu, select **Community plugins**.
-1. Under **Installed plugins**, select **Uninstall** (cross icon).
-1. Select **Uninstall** again to confirm.
+2. In the side menu, select **Community plugins**.
+3. Under **Installed plugins**, select **Uninstall** (cross icon).
+4. Select **Uninstall** again to confirm.
 
 ## Learn more
 

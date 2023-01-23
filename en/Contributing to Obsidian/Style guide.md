@@ -13,6 +13,16 @@ This page lists any deviances from the Google style guide, or terminology worth 
 - Prefer "search term" over "search query".
 - Prefer "heading" over "header" when referring to a text that introduces a section.
 
+### Product names
+
+Obsidian product names start with "Obsidian", for example "Obsidian Publish" and "Obsidian Sync".
+
+If a paragraph becomes overly repetitive, you can use the short form in subsequent references.
+
+For example:
+
+_To allow device-specific configuration, Obsidian Sync doesn't sync its own settings. You need to configure Sync for each of your devices._
+
 ### UI and interactions
 
 - Prefer "select" over "tap" or "click".
@@ -32,7 +42,7 @@ When moving between notes, use "open" if the destination is hidden, and "switch"
 
 ## Reference documentation for settings
 
-When possible, any settings should be documented within Obsidian using a descriptive text. Avoid document a specific setting in Obsidian Help unless:
+When possible, any settings should be documented within Obsidian using a descriptive text. Avoid documenting a specific setting in Obsidian Help unless:
 
 - It requires more in-depth knowledge on how and when to use it.
 - It's commonly misused or asked about.
@@ -90,3 +100,29 @@ When referring to a character on the keyboard by name, add the character between
 
 - Add a hyphen in front of the word.
 - Add a `-` in front of the word.
+
+## Markdown
+
+Use newlines between Markdown blocks:
+
+**Recommended:**
+
+```md
+# Heading 1
+
+This is a section.
+
+1. First item
+2. Second item
+3. Third item
+```
+
+**Not recommended**
+
+```md
+# Heading 1
+This is a section.
+1. First item
+2. Second item
+3. Third item
+```
