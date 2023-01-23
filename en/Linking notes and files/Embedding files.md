@@ -67,4 +67,3 @@ You can also open a specific page in the PDF, by adding `#page=N` to the link de
 ```md
 ![[Document.pdf#page=3]]
 ```
-

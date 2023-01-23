@@ -22,9 +22,9 @@ You can hold Shift while using the keyboard to speed up the movements.
 
 ## Settings
 
-To open the graph settings, click the cog icon in the top-left corner of the graph view.
+To open the graph settings, click the cog icon in the upper-left corner of the graph view.
 
-Click **Restore default settings** in the top-right corner of the settings box to reset any changes you make.
+Click **Restore default settings** in the upper-right corner of the settings box to reset any changes you make.
 
 ### Filters
 
@@ -56,7 +56,7 @@ This section controls how to visualize nodes and links in the graph.
 - **Text fade threshold** controls the text transparency for the name of each note.
 - **Node size** controls the size of the circle representing each note.
 - **Link thickness** controls the line width for each link.
-- **Animate** starts a [[#Start a timelapse animation|timelapse animation]].
+- **Animate** starts a [[#Start a time-lapse animation|time-lapse animation]].
 
 ### Forces
 
@@ -67,7 +67,7 @@ This section controls the forces that act on each node in the graph.
 - **Link force** controls the pull on each link. If the link was a rubber band, the link force controls how tight or loose the band is.
 - **Link distance** controls the length of the lines between each note.
 
-## Start a timelapse animation
+## Start a time-lapse animation
 
 Notes and attachments appear in chronological order based on their creation time.
 

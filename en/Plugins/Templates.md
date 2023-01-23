@@ -2,15 +2,15 @@ You can use Templates to insert pre-defined snippets of text into your active no
 
 ## Set your template folder
 
-1. At the bottom left, click **Settings** (cog icon).
-1. Under **Core plugins > Templates > Template folder location**, enter the folder containing your templates.
+1. In the bottom-left corner, click **Settings** (cog icon).
+2. Under **Core plugins > Templates > Template folder location**, enter the folder containing your templates.
 
 ## Insert a template into the active note
 
 **Important:**  To insert a template, you need to first [[#Set your template folder]].
 
 1. In the ribbon, click **Insert template**.
-1. Select the template to insert at the cursor position in the active note.
+2. Select the template to insert at the cursor position in the active note.
 
 If your template folder contains only one note, Templates inserts it directly into the active note.
 

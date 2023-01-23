@@ -1,4 +1,4 @@
-Names are not listed by amount of contribution, but alphabetically (or at least we try!).
+Names aren't listed by amount of contribution, but alphabetically (or at least we try!).
 
 ### Team
 
@@ -69,7 +69,7 @@ We now accept pull requests to the help vault in [our docs repo](https://github.
 
 If you're a translator, please make a pull request to add "Your Name (contributed language)" to the section above. Please keep the list of names alphabetical, thanks!
 
-If your name is not in English and can't be alphabetically listed, use this format: `your-github-username, [your name in your language] (Language name)`.
+If your name isn't in English and can't be alphabetically listed, use this format: `your-github-username, [your name in your language] (Language name)`.
 
 ### Third party acknowledgements
 

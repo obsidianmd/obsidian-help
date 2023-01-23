@@ -26,7 +26,7 @@ This can be done through the Settings => Core plugins.
 
 - [[Internal links]]
 - Link auto-complete
-- See backlinks to and unlinked mentions of current note
+- See backlinks to and unlinked mentions of active note
 - Graph view
 
 ---
@@ -35,5 +35,5 @@ This can be done through the Settings => Core plugins.
 
 - We don't believe in a single, opinionated solution would work for everyone
 - Obsidian is plugin-based
-    - Enable or disable them based on your workflow
-    - Looking to allow third-party plugins to be developed after v1.0.0
+  - Enable or disable them based on your workflow
+  - Looking to allow third-party plugins to be developed after v1.0.0

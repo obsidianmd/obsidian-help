@@ -16,15 +16,15 @@ You need to have [[set up Obsidian Sync]] on at least one device and have create
 If this is the first time you open Obsidian on the device, follow these steps:
 
 1. Open Obsidian.
-1. In the vault switcher window, select **Sign in** next to **Open vault from Obsidian Sync**.
-1. In **Email**, enter your email.
-1. In **Password**, enter your password.
-1. Select **Sign in**.
-1. Select **Connect** for the vault you want to set up.
-1. Enter a local name for the vault, or leave to use the same name as the remote vault.
-1. Select **Browse** and select the folder on your device where you want to sync the vault.
-1. Select **Create**.
-1. Select **Start syncing** to sync your local vault with the remote vault.
+2. In the vault switcher window, select **Sign in** next to **Open vault from Obsidian Sync**.
+3. In **Email**, enter your email.
+4. In **Password**, enter your password.
+5. Select **Sign in**.
+6. Select **Connect** for the vault you want to set up.
+7. Enter a local name for the vault, or leave to use the same name as the remote vault.
+8. Select **Browse** and select the folder on your device where you want to sync the vault.
+9. Select **Create**.
+10. Select **Start syncing** to sync your local vault with the remote vault.
 
 ## Sync an existing local vault
 
@@ -37,10 +37,10 @@ This section explains how to sync an existing local vault with a remote vault.
 ### Connect to a remote vault
 
 1. Open **Settings**.
-1. In the sidebar, click **Sync**.
-1. Next to **Pick remote vault**, click **Choose**.
-1. Click **Connect** next to the remote vault you want to connect to. If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding.
-1. In **Encryption password**, enter the password for your vault, if you have one.
+2. In the sidebar, click **Sync**.
+3. Next to **Pick remote vault**, click **Choose**.
+4. Click **Connect** next to the remote vault you want to connect to. If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding.
+5. In **Encryption password**, enter the password for your vault, if you have one.
 
 ## Next steps
 

@@ -11,7 +11,6 @@ We currently support the formats below:
 Link to a page: [[Internal links]].
 ```
 
-
 Link to a page: [[Internal links]].
 
 ---
@@ -23,6 +22,7 @@ Embed another file (read more about [[Embedding files]]):
 ```md
 ![[Obsidian#What is Obsidian]]
 ```
+
 ![[Obsidian#What is Obsidian]]
 
 ---
@@ -49,6 +49,7 @@ Embed another file (read more about [[Embedding files]]):
 ---
 
 You can also use the alternative syntax for Heading 1 and Heading 2.
+
 ```md
 Heading 1
 ===
@@ -56,7 +57,6 @@ Heading 1
 Heading 2
 ---
 ```
-
 
 <h1>Heading 1</h1>
 
@@ -114,17 +114,17 @@ _You **can** combine them_
 
 ```md
 1. Item 1
-1. Item 2
-1. Item 3
+2. Item 2
+3. Item 3
    1. Item 3a
-   1. Item 3b
+   2. Item 3b
 ```
 
 1. Item 1
-1. Item 2
-1. Item 3
-	1. Item 3a
-	1. Item 3b
+2. Item 2
+3. Item 3
+   1. Item 3a
+   2. Item 3b
 
 ---
 
@@ -138,6 +138,7 @@ Create a _loose list_ by adding a blank line between any two list items.
 ```
 
 Will look like this:
+
 - Item 1
 
 - Item 2
@@ -170,6 +171,7 @@ Example of this above image resized to 100 pixels wide:
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
 or for local images
+
 ```md
 ![[og-image.png|200]]
 ```
@@ -191,9 +193,9 @@ http://obsidian.md - automatic!
 
 #### Obsidian URI links
 
-[[Using obsidian URI|Obsidian URI]] links can be used to open notes in Obsidian either from another Obsidian vault or another program.
+[[Using Obsidian URI|Obsidian URI]] links can be used to open notes in Obsidian either from another Obsidian vault or another program.
 
-For example, you can link to a file in a vault like so (please note the [[Using obsidian URI#Encoding|required encoding]]):
+For example, you can link to a file in a vault like so (please note the [[Using Obsidian URI#Encoding|required encoding]]):
 
 ```md
 [Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
@@ -252,7 +254,6 @@ Text inside `backticks` on a line will be formatted like code.
 ```
 
 Text inside `backticks` on a line will be formatted like code.
-
 
 #### Code blocks
 
@@ -377,7 +378,7 @@ Image | Description
 
 ---
 
-### Strikethrough
+### Strike-through
 
 ```md
 Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
@@ -400,7 +401,6 @@ Use two equal signs to ==highlight text==.
 ### Horizontal Bar
 
 Use three stars ***, hyphens ---, or underscores ___ in a new line to produce an horizontal bar.
-
 
 ***
 
@@ -473,7 +473,7 @@ For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List
 
 ### Comments
 
-Use `%%` to enclose comments, which will be parsed as Markdown, but will not show up in the preview.
+Use `%%` to enclose comments, which will be parsed as Markdown, but won't show up in the preview.
 
 ```md
 Here is some inline comments: %%You can't see this text%% (Can't see it in Reading mode)
@@ -517,6 +517,7 @@ Learn more about callouts [[Use callouts|here]].
 
 Obsidian uses [Mermaid](https://mermaid-js.github.io/) to render diagrams and charts. Mermaid also provides [a helpful live editor](https://mermaid-js.github.io/mermaid-live-editor).
 Mermaid provides the following diagram types:
+
 - Flowchart
 - Sequence diagram
 - Class Diagram
@@ -559,9 +560,8 @@ graph TD
 Biology --> Chemistry
 ```
 
+Obsidian supports linking to notes in Mermaid, these links won't show up on [[Graph view]].
 
-Obsidian supports linking to notes in Mermaid,
-these links will not show up on [[Graph view]].
 ````md
 ```mermaid
 graph TD
@@ -581,6 +581,7 @@ class Biology,Chemistry internal-link;
 ```
 
 An easier way to do it is the following: ^376b9d
+
 ````md
 ```mermaid
 graph TD
@@ -605,6 +606,6 @@ It looks like this if you follow the [[Format your notes#^376b9d|second option]]
 
 ## Developer notes
 
-We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
+We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of Markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
 
-We intentionally do not support parsing markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support synchronization between editing and reading mode.
+We intentionally don't support parsing Markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support syncing between editing and reading mode.

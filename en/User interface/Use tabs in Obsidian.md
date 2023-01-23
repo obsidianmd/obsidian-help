@@ -1,5 +1,5 @@
 ---
-alias: 
+alias:
 - Stacked tabs
 - Linked pane
 - Pane layout
@@ -29,19 +29,19 @@ To open a link in a new tab, press `Ctrl` (or `Cmd` on macOS) and select the lin
 
 ## Organize your tabs and windows
 
-Every tab belongs to a _tab group_. You can drag and drop tabs to rearrange them within a tab group, move them to a different tab group, or create a new tab group. On desktop, you can drag tabs out of their window to open them in a separate _popout window_.
+Every tab belongs to a _tab group_. You can drag and drop tabs to rearrange them within a tab group, move them to a different tab group, or create a new tab group. On desktop, you can drag tabs out of their window to open them in a separate [[Pop-out windows|pop-out window]].
 
 Tabs in sidebars only show the icon. Hover over the icon to show a tooltip with the tab title.
 
 ### Arrange tabs
 
-To change the order of your tabs, drag the tab along the tabs in the tab group. 
+To change the order of your tabs, drag the tab along the tabs in the tab group.
 
 As you drag a tab, _drop zones_—areas onto which you can move the tab—become highlighted. The drop zone determines where to insert the tab. Some tabs can only be in of the sidebars.
 
 ### Split a tab group
 
-Right-click a tab and select **Split right** or **Split down** to create a new tab group with that tab. 
+Right-click a tab and select **Split right** or **Split down** to create a new tab group with that tab.
 
 You can also split a tab group by dragging a tab to the bottom of another tab.
 
@@ -71,7 +71,7 @@ Select a tab to switch to it. Or, use a keyboard shortcut:
 
 - Press `Ctrl+Tab` to switch to the next tab.
 - Press `Ctrl+Shift+Tab` to switch to the previous tab.
-- Press `Ctrl+1` to switch to the first tab on the left. 
+- Press `Ctrl+1` to switch to the first tab on the left.
 - Press `Ctrl` together with any number from `2` to `8` to switch to that tab.
 - Press `Ctrl+9` to open the last tab on the right regardless of how many tabs you have.
 
@@ -101,7 +101,7 @@ For note tabs, you can use the following plugins as linked views:
 To open a linked view for a note tab:
 
 1. Select **More options** (three dots icon) in the upper right corner of the note.
-1. Under **Open linked view**, select the linked view you want to open.
+2. Under **Open linked view**, select the linked view you want to open.
 
 ## Learn more
 

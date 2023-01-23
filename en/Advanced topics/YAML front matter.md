@@ -23,6 +23,7 @@ key4:
 ```
 
 As of 0.12.12, there are four keys natively supported:
+
 - `tags` ([[Working with tags|more information]])
 - `aliases` ([[Aliases|more information]])
 - `cssclass`
