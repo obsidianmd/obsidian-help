@@ -8,7 +8,7 @@ Use aliases for things like acronyms, nicknames, or to refer to a note in a diff
 
 ## Add an alias to a note
 
-To add an alias for a note, add an `alias`, or `aliases`, property in the note [[YAML front matter|front matter]]:
+To add an alias for a note, add an `alias`, or `aliases`, property in the note [[Front matter|front matter]]:
 
 ```md
 ---

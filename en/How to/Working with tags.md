@@ -2,7 +2,7 @@ Tags are a very useful way of grouping multiple notes so they're easy to find. A
 
 ### Add tags
 
-Just type `#` followed by tag name like `#tag1`. You can also add tags in the notes [[YAML front matter]] like so:
+Just type `#` followed by tag name like `#tag1`. You can also add tags in the notes [[Front matter]] like so:
 
 ```
 ---
