@@ -1,32 +1,81 @@
 ---
-aliases: front matter
+aliases:
+  - front matter
+  - YAML front matter
 ---
 
-YAML, also known as front matter, is designed to be file-level metadata that is readable by humans *and* Obsidian.
+Front matter lets you add metadata to your note.
 
-Front matter is a section of plain text attributes that starts at the first line of the file. It is one of the most popular ways to add metadata in a Markdown file, and has been popularized by static generators such as Jekyll, Hugo, and Gatsby.
+Front matter is a block that sits at the first line of your note, and starts and ends with triple dashes. Anything between two lines of triple hyphens (`---`) is metadata.
 
-A YAML block needs **triple dashes** at the start and end to be read by Obsidian (and other apps). ==It also needs to be placed at the very top of the file.==
+For example, the following note contains front matter with two variables, `tag` and `publish`:
 
-For example:
+```yaml
+---
+tag: journal
+publish: false
+---
 
+# Daily note
+
+Today I learned about front matter.
 ```
+
+> [!tip]
+> By default, front matter is only visible in the [[Read and edit modes|editing view]].
+>
+> To display front matter in reading view:
+>
+> 1. Open **Settings**.
+> 2. Under **Editor**, enable **Show frontmatter**.
+
+## Configure front matter
+
+[YAML](https://yaml.org/) is a widely used configuration format that's readable by both humans and machines.
+
+```yaml
 ---
 key: value
-key2: value2
-key3: [one, two, three]
-key4:
-- four
-- five
-- six
 ---
 ```
 
-As of 0.12.12, there are four keys natively supported:
+While the order of each variable doesn't matter, each variable name must be unique. For example, you can't have more than one `tag` variable.
 
-- `tags` ([[Working with tags|more information]])
-- `aliases` ([[Aliases|more information]])
-- `cssclass`
-- `publish` ([[Publish and unpublish notes#Automatically select notes to publish]] and [[Publish and unpublish notes#Ignore notes]])
+Values can be text, numbers, true or false, or even collections of values (arrays).
 
-As Obsidian continues to develop, we will gradually make it more accessible by plugin developers, and make it more user friendly.
+```yaml
+---
+title: A New Hope
+year: 1977
+favorite: true
+cast:
+  - Mark Hamill
+  - Harrison Ford
+  - Carrie Fisher
+---
+```
+
+> [!tip] JSON front matter
+> While we recommend using YAML in your front matter, Obsidian also supports JSON front matter:
+>
+> ```md
+> ---
+> {
+>   "tag": "journal",
+>   "publish": false
+> }
+> ---
+> ```
+
+## Predefined variables
+
+Obsidian is aware of a set of predefined variables:
+
+| Variable | Description |
+|-|-|
+| `tag` | See [[Working with tags]]. |
+| `tags` | Alias for `tag`. |
+| `alias` | See [[Aliases]]. |
+| `aliases` | Alias for `alias`. |
+| `publish` | Used by [[Introduction to Obsidian Publish\|Obsidian Publish]] to [[Publish and unpublish notes#Automatically select notes to publish\|automatically select notes to publish]]. |
+| `cssclass` | Allows you to style individual notes using [[CSS snippets]]. |
