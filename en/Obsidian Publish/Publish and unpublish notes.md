@@ -33,10 +33,10 @@ Review the updated selection to make sure it doesn't include any notes that you'
 
 ## Automatically select notes to publish
 
-To automatically select a note to be published, set `publish: true` in the [[Front matter]] for the note.
+To automatically select a note to be published, set `publish: true` in the [[Metadata]] for the note.
 
 ## Ignore notes
 
-To ignore a note in Obsidian Publish, set `publish: false` in the [[Front matter]] for the note.
+To ignore a note in Obsidian Publish, set `publish: false` in the [[Metadata]] for the note.
 
 The note no longer shows up in the list of notes to publish.
