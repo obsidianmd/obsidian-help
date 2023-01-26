@@ -26,6 +26,7 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes.
 | Delete the next word | `Ctrl+Delete` |
 | Delete to the beginning of the current line | `Ctrl+Backspace` |
 | Delete to the end of the current line | `Ctrl+Delete` |
+| Delete the current line | `Ctrl+Shift+K` (with no selected text) |
 
 ### Text navigation
 
@@ -47,6 +48,7 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes.
 
 | Action | Shortcut |
 |-|-|
+| Simplify selection | `Escape` |
 | Select all | `Ctrl+A` |
 | Extend selection one character | `Shift+Left/right arrow` |
 | Extend selection to the beginning of the previous word | `Ctrl+Shift+Left arrow` |
@@ -84,6 +86,7 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes.
 | Delete the next word | `Option+Delete` |
 | Delete to the beginning of the current line | `Cmd+Backspace` |
 | Delete to the end of the current line | `Cmd+Delete` |
+| Delete the current line | `Cmd+Shift+K` (with no selected text) |
 
 ### Text navigation
 
@@ -105,6 +108,7 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes.
 
 | Action | Shortcut |
 |-|-|
+| Simplify selection | `Escape` |
 | Select all | `Cmd+A` |
 | Extend selection one character | `Shift+Left/right arrow` |
 | Extend selection to the beginning of the previous word | `Option+Shift+Left arrow` |
