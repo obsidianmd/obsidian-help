@@ -11,7 +11,7 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes.
 | Paste | `Ctrl+V` |
 | Paste without formatting | `Ctrl+Shift+V` |
 | Undo | `Ctrl+Z` |
-| Redo | `Ctrl+Shift+Z` |
+| Redo | `Ctrl+Shift+Z` or `Ctrl+Y` |
 | Copy paragraph | `Ctrl+C` (with no selected text) |
 | Cut paragraph | `Ctrl+X` (with no selected text) |
 
