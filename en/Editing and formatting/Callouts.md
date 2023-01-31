@@ -82,12 +82,12 @@ To define a custom callout, create the following CSS block:
 
 The value of the `data-callout` attribute is the type identifier you want to use, for example `[!custom-question-type]`.
 
-- `--callout-color` defines the background color using numbers (0-255) for red, green, and blue.
+- `--callout-color` defines the background color using numbers (0–255) for red, green, and blue.
 - `--callout-icon` can be an icon ID from [lucide.dev](https://lucide.dev), or an SVG element.
 
 > [!tip] SVG icons
 > Instead of using a Lucide icon, you can also use a SVG element as the callout icon.
-> 
+>
 > ```css
 > --callout-icon: '<svg>...custom svg...</svg>';
 > ```
