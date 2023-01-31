@@ -497,17 +497,17 @@ multiple lines
 
 ### Callouts
 
-Use the following syntax to denote a callout block: `> [!INFO]`.
+Use the following syntax to denote a callout block: `> [!info]`.
 
-Learn more about callouts [[Use callouts|here]].
+For more information, refer to [[Callouts]].
 
 ```markdown
-> [!INFO]
+> [!info]
 > Here's a callout block.
 > It supports **markdown** and [[Internal links|wikilinks]].
 ```
 
-> [!INFO]
+> [!info]
 > Here's a callout block.
 > It supports **markdown** and [[Internal links|wikilinks]].
 
