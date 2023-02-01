@@ -75,7 +75,7 @@ Obsidian comes with of a set of predefined keys:
 
 | Key | Description |
 |-|-|
-| `tag` | See [[Working with tags]]. |
+| `tag` | See [[Editing and formatting/Tags\|Tags]]. |
 | `tags` | Alias for `tag`. |
 | `alias` | See [[Aliases]]. |
 | `aliases` | Alias for `alias`. |
