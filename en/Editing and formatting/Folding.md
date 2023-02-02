@@ -10,7 +10,7 @@ To toggle all sections at the same time, use the following commands:
 - To expand all sections, open the [[Command palette]], and then select **Unfold all headings and lists**.
 
 > [!tip]
-> If you prefer to fold using your keyboard, you can assign hotkeys to the **Fold less** and **Fold more** commands.
+> If you prefer to fold using your keyboard, you can assign [[Use hotkeys|hotkeys]] to the **Fold less** and **Fold more** commands.
 >
 > - **Fold less** unfolds the section at the text cursor.
 > - **Fold more** folds the previous section closest to the text cursor.
