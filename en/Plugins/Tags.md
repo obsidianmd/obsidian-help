@@ -13,3 +13,5 @@ The Tags pane have the following options:
 - **Change sort order** determines whether to sort the tags by **Tag name** or **Frequency**.
 - **Show nested tags** toggles whether to display nested tags as a tree or as a flat list.
 - **Expand all** and **Collapse all** expands and collapses the nested tags hierarchy.
+
+You can choose to expand or collapse each nested level separately by clicking the arrow next to it.
