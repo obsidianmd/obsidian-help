@@ -13,4 +13,4 @@ To toggle all sections at the same time, use the following commands:
 > If you prefer to fold using your keyboard, you can assign [[Use hotkeys|hotkeys]] to the **Fold less** and **Fold more** commands.
 >
 > - **Fold less** unfolds the section at the text cursor.
-> - **Fold more** folds the previous section closest to the text cursor.
+> - **Fold more** folds the section or list that contains the text cursor.
