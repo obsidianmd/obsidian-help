@@ -26,7 +26,7 @@ Plugins can be managed through the "Settings" button on the bottom left. Some of
 - [[Slides]]
 - [[Starred]]
 - [[Introduction to Obsidian Sync|Sync]]
-- [[Tags]]
+- [[Plugins/Tags]]
 - [[Templates]]
 - [[Unique note creator]]
 - [[Word count]]
