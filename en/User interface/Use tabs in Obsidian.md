@@ -14,13 +14,6 @@ At the top of the application window, next to the last tab on the right, select 
 - **Windows and Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
 
-## Open a new tab in a new tab group
-
-To open a tab in a new tab group, use the following keyboard shortcuts:
-
-- **Windows and Linux:** `Ctrl+Shift+t`
-- **macOS:** `Cmd+Shift+t`
-
 ## Open a link
 
 Select a link in Obsidian to open it in the active tab.
