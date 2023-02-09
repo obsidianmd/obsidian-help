@@ -1,0 +1,92 @@
+---
+The Obsidian documentation uses the [Google developer documentation style guide](https://developers.google.com/style). For any topics not covered by the Google style guide, use the [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/).
+
+This page lists any deviances from the Google style guide, or terminology worth highlighting.
+
+> [!tip] Contribute
+> Most of the documentation existed before this style guide did. If you find any violations of this style guide, please [create an issue](https://github.com/obsidianmd/obsidian-docs/issues/new) or submit a pull request to [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
+
+## Terminology
+
+- Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
+- Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
+- Prefer "sync" or "syncing" over "synchronize" or "synchronizing".
+- Prefer "search term" over "search query".
+- Prefer "heading" over "header" when referring to a text that introduces a section.
+
+### UI and interactions
+
+- Prefer "select" over "tap" or "click".
+- Prefer "sidebar" over "side bar".
+- Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
+
+### Notes, files, and folders
+
+- Use "note" when referring to a Markdown file in the vault.
+- Use "file" when referring to other file extensions than Markdown.
+- Prefer "note name" over "note title".
+- Prefer "active note" over "current note".
+- Prefer "folder" over "directory".
+
+When moving between notes, use "open" if the destination is hidden, and "switch" if both source and destination notes are open in separate splits.
+
+## Reference documentation for settings
+
+When possible, any settings should be documented within Obsidian using a descriptive text. Avoid document a specific setting in Obsidian Help unless:
+
+- It requires more in-depth knowledge on how and when to use it.
+- It's commonly misused or asked about.
+- It _drastically_ changes the user experience.
+
+Consider using a tip callout if you want to draw attention to a specific setting.
+
+## Directional terms
+
+Hyphenate directional terms when using them as adjectives. Avoid hyphenation when direction is used as a noun.
+
+**Recommended:**
+
+- Select **Settings** in the bottom-left corner.
+- Select **Settings** in the bottom left.
+
+**Not recommended:**
+
+- Select **Settings** in the bottom left corner.
+- Select **Settings** in the bottom-left.
+
+Prefer "upper-left" and "upper-right" over "top-left" and "top-right".
+
+Don't indicate a direction when referring to settings. The location of the settings control depends on the device.
+
+**Recommended:**
+
+- Next to **Pick remote vault**, click **Choose**.
+
+**Not recommended:**
+
+- To the right of **Pick remote vault**, click **Choose**.
+
+## Examples
+
+Prefer realistic examples over nonsense terms.
+
+**Recommended:**
+
+- `task:(call OR schedule)`
+
+**Not recommended:**
+
+- `task:(foo OR bar)`
+
+## Key names
+
+When referring to a character on the keyboard by name, add the character between parentheses right after the name:
+
+**Recommended:**
+
+- Add a hyphen (-) in front of the word.
+
+**Not recommended:**
+
+- Add a hyphen in front of the word.
+- Add a `-` in front of the word.

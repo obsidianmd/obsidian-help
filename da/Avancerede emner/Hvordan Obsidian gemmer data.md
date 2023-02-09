@@ -5,7 +5,7 @@ Der er dog noget data, som er nødvendig for at Obsidian kan fungere, som ikke e
 Hvis du benytter `git`, er det nok bedst at sætte `.obsidian/workspace` filen til `ignore`, da den fil gemmer dine paneler og åbende filer, men vi har ikke observeret nogle problemer med at inkludere den.
 
 ### System mappen
-Obsidian gemmer også noget information i system mappen. Den er forskellilg afhængig af dit operativsystem;
+Obsidian gemmer også noget information i system mappen. Den er forskellig afhængig af dit operativsystem;
 - på Linux er det enten `$XDG_CONFIG_HOME/Obsidian/` eller `~/.config/Obsidian/`
 - på Mac er det `/Users/yourusername/Library/Application Support/obsidian`
 - på Windows er det `%APPDATA%\Obsidian\`

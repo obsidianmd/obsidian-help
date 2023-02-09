@@ -1,12 +1,11 @@
 ---
 aliases: metadata
 ---
+YAML, også kendt som front matter, er designet til at være metadata på filniveau, som kan læses af mennesker *og* Obsidian.
 
-Obsidian anvender YAML front matter metadata som metadata på filniveau.
+Front matter er en sektion af rene tekstattributter placeret helt i toppen af en fil. Front matter blev populære af statiske HTML generatorer såsom Jekyll, Hugo, and Gatsby. Det er en af de mest populære måder, at have metadata i en Markdown fil.
 
-Front matter er essentielt en sektion af rene tekstattributter placeret helt i toppen af en fil. Front matter blev populære af statiske HTML generatorer såsom Jekyll, Hugo, and Gatsby. Det er en af de mest populære måder, at have metadata i en Markdown fil.
-
-Front matter er en YAML sektion med **tredobbelte bindestreger** både før og efter.
+Front matter er en YAML sektion med **tripple bindestreger** både før og efter.
 ==Denne sektion skal placeres helt i toppen af filen.==
 
 Som eksempel:
@@ -23,6 +22,10 @@ nøgle4:
 ---
 ```
 
-Efter version 0.9.17 benyttes front matter til [[Tilføj aliasser til note|aliasser]] . Vi vil efterhånden gøre funktionaliteten mere tilgængelig for udviklere og mere brugevenlig.
+Fra version 0.12.12 er følgende fire nøgler understøttet af Obsidian:
+- `tags` ([[Arbejde med tags|Mere information]])
+- `aliases` 
+- `cssclass`
+- `publish` 
 
-På nuværende tidspunkt er følgende nøgler understøttet i Obsidian: `tags`, `aliases` og `cssClass`.
+Efterhånden som Obsidian udvikles vil mere funktionalitet blive tilgængelig for udviklere og blive mere brugevenlig.

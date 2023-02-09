@@ -19,7 +19,7 @@ Hvis du vil have en mere udførlig introduktion, inklusiv en smule om vores filo
 
 Og hvis du vil have en blid introduktion, eller bare vil i gang, men ikke ved hvordan, så begynd med den [[Grundlæggende notetagning|grundlæggende notetagning]].
 
-Hvis du er en [Catalyst supporter](https://obsidian.md/pricing), og vil slå insider builds til, så læs [[Insider builds]].
+Hvis du er en [Catalyst supporter](https://obsidian.md/pricing), og vil slå insider builds til, så læs [[Insider versioner]].
 
 ## Arbejdsgange
 Obsidian er et værktøj, som kan bruges på mange måder, fra en simpel liste af noter til et kraftfuldt knowledge management system. Vi foreslår, at du begynder i dit eget tempo, og gør Obsidian til det værktøj, du har behov for.

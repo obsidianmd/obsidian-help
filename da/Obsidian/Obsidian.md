@@ -49,7 +49,7 @@ Udover det kan du tilføje isolerede uafhængige bygeklodser som tilføjer funkt
 
 Vi forventer ikke at plug-ins er løsningen til at løse alle problemer, men det får os tættere på, end en monolitisk løsning med en masse funktioner, som du ikke behøver og som gør det uoverskueligt i brug.
 
-Vi understøtter [[Tilpas med CSS|brugerdefineret CSS]] og har et [[Fællesskabsplug-ins|beta plugin API]], som tillader endnu flere tilpasninger af brugerfladen og support for andre mindre anvendte funktioner.
+Vi understøtter [[Tilpas med CSS|brugerdefineret CSS]] og har et [[Fællesskabsplugins|beta plugin API]], som tillader endnu flere tilpasninger af brugerfladen og support for andre mindre anvendte funktioner.
 
 ## Følg vores udvikling
 

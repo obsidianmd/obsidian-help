@@ -1,3 +1,49 @@
+Du kan benytte skabeloner til at indsætte foruddefineredet tekst ind i din aktive note.
+
+## Indstil din skabelonmappe
+
+1. Klik på **indstillinger** (tandhjulsikonet) nederst i båndmenuen til venstre
+2. Under **Kerne plugins -> Skabeloner -> Placering af skabelonmappe** angiver du den mappe, som skal indeholde dine skabeloner
+
+## Indsæt en skabelon i den aktive note
+
+**Vigtigt:** For at indsætte en skabelon skal du først [[#Indstil din skabelonmappe|indstille din skabelonmappe]].
+
+
+
+
+---
+
+**Important:**  To insert a template, you need to first [[#Set your template folder]].
+
+1. In the ribbon, click **Insert template**.
+1. Select the template to insert at the cursor position in the active note.
+
+If your template folder contains only one note, Templates inserts it directly into the active note.
+
+## Template variables
+
+You can add dynamic information to your templates, using _template variables_. When you insert a template containing a template variable, Templates replaces it with its corresponding value.
+
+| Variable    | Description                                     |
+|-------------|-------------------------------------------------|
+| `{{title}}` | Title of the active note.                       |
+| `{{date}}`  | Today's date. **Default format:** `YYYY-MM-DD`. |
+| `{{time}}`  | Current time. **Default format:** `HH:mm`.      |
+
+Both `{{date}}` and `{{time}}` allow you to change the default format using a _format string_.
+
+To set a format string, add a colon (`:`) followed by a string of [Moment.js format tokens](https://momentjs.com/docs/#/displaying/format/), for example `{{date:YYYY-MM-DD}}`.
+
+You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
+
+You can change the default date and time formats under **Settings > Templates > Date format** and **Settings > Templates > Time format**.
+
+> [!tip]
+> You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
+
+
+---
 Skabelon plug-in'et giver dig mulighed for hurtigt at indsætte tekststykker i din nuværende note.
 
 ### Opsætning af skabelon mappe

@@ -1,3 +1,5 @@
+Denne artikel er forældet og er her kun for at forhindre at ødelægge links i dokumentationen. Få mere at vide om mobil versionen her: [[Synkroniser dine noter på tværs af enheder]].
+
 Android appen er offentlig tilgængelig, og et link til Obsidian i Play butikken kan findes her https://obsidian.md/mobile
 
 ## Hvordan synkroniserer jeg mine data?
