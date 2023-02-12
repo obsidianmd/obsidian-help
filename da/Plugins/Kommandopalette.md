@@ -20,7 +20,7 @@ Du kan fastgøre ofte benyttede kommandoer til toppen af kommandopaletten, så d
 ### Fastgør en kommando
 
 1. Åben **Indstillinger**
-2. Vælg **Komandopalette** i sidepanelet under **Kerneplugins**
+2. Vælg **Komandopalette** i sidepanelet under **Kerne plugins**
 3. Til højre for **Ny fastgjort kommando** klikker du på tekstfeltet **Tast en kommando...**
 4. Vælg den kommando du vil fastgøre fra listen af kommendoer
 5. Tryk `Retur`
@@ -28,5 +28,5 @@ Du kan fastgøre ofte benyttede kommandoer til toppen af kommandopaletten, så d
 ### Frigør en kommando
 
 1. Åben **Indstillinger***
-2. Vælg **Komandopalette** i sidepanelet under **Kerneplugins**
+2. Vælg **Komandopalette** i sidepanelet under **Kerne plugins**
 3. Under **Fastgjorte kommandoer** klikker du på ikonet med et kryds til højre for den kommando du vil frigøre

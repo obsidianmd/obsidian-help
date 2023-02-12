@@ -1,3 +1,3 @@
-Tilfældig note plug-in'et gør præcist som sit navn. Den åbner en tilfældig note fra din Boks. Mange mennesker finder den funktion nyttig til at udforske tanker, som de ikke havde tænkt på i lang tid, eller til at tjekke rundt omkring at et link ikke er blevet glemt.
+Dette plugin åbner en tilfældig note i din boks. Genopdag noter og få nye indsigter, eller lav links til nyligt tilføjede noter.
 
-Efter at plug-in'et er aktiveret kan du oprette en [[Brugerdefinerede genvejstaster|brugerdefineret genvejstast]] som åbner en tilfældig note.
+For at åbne en tilfældig note skal du klikke på **Åben tilfældig note** (terning ikonet) i [[Båndmenu|båndmenuen]].

@@ -26,7 +26,7 @@ Hvis dine noter skal have den samme struktur kan du anvende [[Skabeloner|skabelo
    ```
    
 2. Open **Indstillinger**
-3. Klik på **Daglige noter** i sidepanelet under **Kerneplugins**
+3. Klik på **Daglige noter** i sidepanelet under **Kerne plugins**
 4. Angiv **Daglig note skabelon** i tekstfeltet til højre for **"Placering af nye noter"**
 
 Obsidian vil derefter benytte denne skabelon næste gang du opretter en ny daglig note.

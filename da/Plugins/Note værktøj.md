@@ -7,8 +7,8 @@ Når du fletter to noter tilføjes den første note til den anden og den første
 Når du vælger en note, som du vi lflette ind i, kan du vælge mellem følgende metoder:
 
 - `Retur`: Tilføjer kildenoten til _slutningen_ af destinationsnoten
-- `Shift+Enter`: Tilføjer kildenoten til _starten_ af destinationsnoten
-- `Ctrl+Enter` (eller `Cmd+Enter` på macOS): Opretter en ny note med indholdet af kildenoten
+- `Shift+Retur`: Tilføjer kildenoten til _starten_ af destinationsnoten
+- `Ctrl+Retur` (eller `Cmd+Retur` på macOS): Opretter en ny note med indholdet af kildenoten
 
 For at flette den aktive note med en anden note i din boks skal du:
 
@@ -33,8 +33,8 @@ I **Kommandopaletten**
 Når du vælger den note, som du vil udtrække en markeret tekst til, kan du vælge mellem følgende metoder:
 
 - `Retur`: Tilføjer kildenoten til _slutningen_ af destinationsnoten
-- `Shift+Enter`: Tilføjer kildenoten til _starten_ af destinationsnoten
-- `Ctrl+Enter` (eller `Cmd+Enter` på macOS): Opretter en ny note med indholdet af kildenoten
+- `Shift+Retur`: Tilføjer kildenoten til _starten_ af destinationsnoten
+- `Ctrl+Retur` (eller `Cmd+Retur` på macOS): Opretter en ny note med indholdet af kildenoten
 
 For at udtrække en teksten til en ny note skal du:
 

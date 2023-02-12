@@ -1,16 +1,14 @@
-Udgående links plug-in'et viser udgående links fra den nuværende note, såvel som potentielle links, som ikke er oprettet. Hvis du bekendt med [[Tilbagelinks]] plug-in'et, så kan du betragte udgående links, som det modsatte af tilbagelinks.
+Dette plugin viser en oversigt over links, der udgår fra den aktive note, såvel som potentielle links, som kan laves. Det fungerer på samme måde som [[Tilbagelinks]] pluginnet, som til forskel viser dig _inkommende_ links til den aktive note.
 
-Når du har aktiveret dette plug-in vil du kunne se et nyt panel i den højre sidebjælke, som indeholder to sektioner: "Links" og "Ikke-linkede omtaler".
+Udgående links panelet (link med højre pil ikon) er tilgængeligt i den højre sidebar og indeholder følgende sektioner:
 
-### Links
-Links sektionen viser nu links til andre filer, overskrifter og blokke. Klikker du på et link vil du blive ført til filen.
+- **Links** alle links i en liste for den aktive note. Klik på et link i listen og den linkede note vil blive åbnet
+- **Ikke-linkede omtaler** alister al tekst i den aktive note, som matcher et navn på en anden note eller et [[Tilføj aliasser til note|alias]] for en anden note i din boks. Ikke-linkede omtaler hjælper dig til at opdage sammenhænge mellem noter, du ikke var klar over endnu
 
-Hver type har sit eget ikon, så du kan skelne mellem dem; Links til filer, som ikke er oprettet endnu, vil have et specielt ikon.
+For at oprette et link fra en ikke-linket omtale klikker du på den knap med notens navn.
 
-Under titlen kan du også se stien til mappen for hver fil.
+> [!tip]
+> Ikke-linkede omtaler kan referere til forskellige noter med det samme navn. For at vise en notes fulde sti kan du føre musenmarkøren over knappen med notens navn.
 
-### Ikke-linkede omtaler
-
-Hvis noget tekst i den nuværende note matcher navnet eller et [[Tilføj aliasser til note|alias]] på en anden note i din boks, kan du se indholdet, den fremhævede match, og en knap til at linkede til den i "Ikke-linkede omtaler".
-
-Når du fører musemarkøren over knappen vi lden vise filens fulde sti, hvis den ikke ligger i boksens rod. Det kan være en hjælp til at skelne mellem filer med det samme navn.
+> [!note] Kodeblokke
+> Selvom du kan oprette et link fra en ikke-linket omtale indeni en kodeblok, så vil disse links ikke blive vist i links sektionen pga. den måde kodeblokke fungerer på.

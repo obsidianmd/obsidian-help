@@ -1,6 +1,6 @@
 En af de mest kraftfulde aspekter ved [[Obsidian]] er dens evne til at kunne tilføje ny funktionalitet ved hjælp af plugins. Obsidian kommer præinstalleret med mange, og mange flere er under udvikling.
 
-Du kan også udvikle dine egne Obsidian plugins. Se [[Fællesskabsplugins]].
+Du kan også udvikle dine egne Obsidian plugins. Se [[Tredjeparts plugins]].
 
 Plugins kan håndteres via "Indstillinger" knappen nederst til venstre. Nogle af dem har deres egne indstillinger, som kan konfigureres ved at klikke på tandhjulsikonet som vises til højre for hver plugin, når det er aktiveret.
 
@@ -27,8 +27,8 @@ Plugins kan håndteres via "Indstillinger" knappen nederst til venstre. Nogle af
 - [[Slides]]
 - [[Stifinder]]
 - [[Søg]]
-- [[Tag panel]]
+- [[Tags]]
 - [[Tilbagelinks]]
 - [[Tilfældig note]]
 - [[Udgående links]]
-- [[Zettelkasten præfikser]]
+- [[Unik note opretter]]

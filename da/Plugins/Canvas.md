@@ -1,243 +1,234 @@
+Canvas er et værktøj til siduel notetagning. Placer dine noter og andre ressourcer på et uendeligt canvas og forbind dem med linjer.
 
+Visuel notetagning tillader dig at benytte visuelle aspekter, såsom størrelse og position til at give dine noter mening. Forbind noter med linjer og gruppér relaterede noter, så du bedre kan forstå sammenhænget mellem dem.
 
----
-Canvas is a tool for visual note-taking. Lay out notes and other resources on an infinite canvas and connect them with lines.
+> [!info] Kun i Obsidian desktop versionen
+> Canvas er kun tilgængelig for desktopversionen af Obsidian.
 
-Visual note-taking allows you to use visual aspects, such as size and position, to make sense of your notes. Connect notes with lines and group related notes together to better understand the relationship between them.
+## Opret et nyt canvas
 
-> [!info] Only for Obsidian desktop
-> Canvas is only available in Obsidian for desktop.
+For at anvende Canvas skal du først oprette en fil, der kan indeholde dit canvas. Du kan oprette et nyt canvas på en af følgende måder:
 
-## Create a new canvas
+**Via båndmenuen:**
 
-To start using Canvas, you first need to create a file to hold your canvas. You can create a new canvas using the following methods.
+- Vælg **Opret nyt canvas** i venstre båndmenu (Ikonet med 4 firkanter) for at oprette et nyt canvas i samme mappe som den aktive fil
 
-**Ribbon:**
+**Via kommandopaletten:**
 
-- In the ribbon on the left, select **Create new canvas** (four rectangles icon) to create a canvas in the same folder as the active file.
+1. Åben [[Kommandopalette|kommandopaletten]]
+2. Vælg **Canvas: Opret nyt canvas** for at oprette et nyt canvas i samme mappe som den aktive fil
 
-**Command palette:**
+**Via stifinderen:**
 
-1. Open the [[Command palette]].
-1. Select **Canvas: Create new canvas** to create a canvas in the same folder as the active file.
+- Højreklik på den mappe, som du vil oprette et nyt canvas i [[Stifinder|stifinderen]]
+- Vælg **Nyt canvas**
 
-**File explorer:**
+> [!note] .canvas fil endelse
+> Obsidian gemmer konfigurationen for hvert canvas i en speciel JSON formatteret fil med endelsen `.canvas`.
 
-- In the [[File explorer]], right-click the folder you want to create the canvas in.
-- Select **New canvas**.
+## Tilføj kort
 
-> [!note]  The .canvas file extension
-> Obsidian stores the configuration for each canvas in a custom JSON format in a file with the `.canvas` extension.
+Du kan trække filer ind på dit canvas fra Obsidian eller en anden applikation, f.eks. Markdownfiler, billeder, lyd, PDF dokumenter, eller endda filtyper, som Obsidian ikke genkender.
 
-## Adding cards
+### Tilføj tekstkort
 
-You can drag files into your canvas from Obsidian or from other applications. For example, Markdown files, images, audio, PDFs, or even unrecognized file types.
+Du kan tilføje tekstkort som ikke refererer til en fil. Du kan benytte Markdown, links, og kodeblokke på sammen måde, som i en note.
 
-### Add text cards
+For at tilføje et nyt tekstkort til dit canvas skal du:
 
-You can add text-only cards that don't reference a file. You can use Markdown, links, and code blocks just like in a note.
+- Vælge eller trække et tomt filikon ned i bunden af et canvas
 
-To add a new text card to your canvas:
+Du kan også tilføje tekstkort ved at dobbeltklikke på et canvas ved at:
 
-- Select or drag the blank file icon at the bottom of the canvas.
-
-You can also add text cards by double-clicking on the canvas.
-
-To convert a text card to a file:
-
-1. Right-click the text card and then select **Convert to file...**.
-1. Enter the note name and then select **Save**.
+1. Højreklikke på tekstkortet og vælge **Konverter til fil...**
+2. Skrive navnet på noten og vælg **Gem**
 
 > [!note]
-> Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
+> Tekstkort optræder ikke i [[Tilbagelinks|tilbagelinks]]. For at få dem til at optræde der skal du konvertere kortet til en fil.
 
-### Add cards from notes
+### Tilføj kort fra noter
 
-To add a note from your vault to your canvas:
+For at tilføje noter fra din boks til dit canvas skal du:
 
-1. Select or drag the document icon at the bottom of the canvas.
-1. Select the note you want to add.
+1. Vælge eller trække dokumentikonet til bunden af canvasset
+2. Vælge den note du vil tilføje
 
-You can also add notes from the canvas context menu:
+Du kan også tilføje noter fra popupmenuen i et canvas ved at højreklikke på det:
 
-1. Right-click the canvas and then select **Add note from vault**.
-1. Select the note you want to add.
+1. Højreklik på canvasset og vælg **Tilføj note fra boksen**
+2. Vælg den note, du vil tilføje
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+Eller du kan tilføje dem til et canvas ved at trække filen fra [[Stifinder|stifinderen]].
 
-### Add cards from media
+## Tilføj kort fra et medie
 
-To add media from your vault to your canvas:
+For at tilføje et medie fra din boks til dit canvas skal du:
 
-1. Select or drag the image file icon at the bottom of the canvas.
-1. Select the media file you want to add.
+1. Vælge eller trække billedfil ikonet til bunden af canvasset
+2. Vælge den mediefile, du vil tilføje
 
-You can also add media from the canvas context menu:
+Du kan også tilføje noter fra popupmenuen i et canvas ved at højreklikke på det:
 
-1. Right-click the canvas and then select **Add media from vault**.
-1. Select the media file you want to add.
+1. Højreklik på canvasset og vælg **Tilføj medie fra boksen**
+2. Vælg den mediefil, du vil tilføje
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+Eller du kan tilføje dem til et canvas ved at trække filen fra [[Stifinder|stifinderen]].
 
-### Add cards from web pages
+### Tilføj kort fra websider
 
-To embed a web page in your canvas:
+For at indlejre en webside på dit canvas skal du:
 
-1. Right-click the canvas and then select **Add web page**.
-1. Enter the URL to the web page and then select **Save**.
+1. Højreklikke på canvasset og vælg **Tilføj webside**
+2. Skrive websidens URL og vælg **Gem**
 
-You can also select a URL in your browser and then drag it into the canvas to embed it in a card.
+Du kan også vælge en URL i din browser og trække den in på et canvas for at indlejre det i et kort.
 
-To open the web page in your browser, press `Ctrl` (or `Cmd` on macOS) and select the card label. Or, right-click the card and select **Open in browser**.
+For at åbne websiden i din browser kan du trykke `Ctrl` (eller `Cmd` på macOS) og vælge kortets titel. Eller du kan højreklikke på kortet og vælge **Åben i browser**.
 
-### Add cards from folders
+### Tilføj kort fra mapper
 
-Drag a folder from the file explorer to add all files in that folder to the canvas.
+Træk en mappe fra stifinderen ind på canvasset for at tilføje alle filer.
 
-### Edit a card
+### Rediger et kort
 
-Double-click on a text or note card to start editing it. Click outside the card to stop editing it. You can also press `Escape` to stop editing a card.
+Dobbeltklik på en tekst eller et notekort for at starte redigering af det. Klik udenfor kortet for at afslutte redigeringen. Du kan også trykke på `Esc` tasten for at stoppe redigering af kortet.
 
-You can also edit a card by right-clicking it and selecting **Edit**.
+Du kan også redigere et kort ved at højreklikke på det og vælge **Rediger**.
 
-### Delete a card
+### Slet et kort
 
-Remove selected cards by right-clicking any of them, and then selecting **Delete**. Or, press `Backspace` (or `Delete` or macOS).
+Det kan fjerne valgte kort fra et canvas ved at højreklikke på dem og så vælge **Slet**. Eller du kan trykke `Tilbage` tasten (eller `Del` på macOS).
 
-You can also select **Remove** (trash icon) in the selection controls above your selection.
+Du kan også vælge **Fjern** (Skraldespandsikonet) i popupmenuen over de valgte kort.
 
-### Swap cards
+### Byt kort
 
-You can swap a note or media card for another card of the same type.
+Du kan udskifte et notekort eller et medikort med et andet kort af sammen type.
 
-To swap a note card:
+For at bytte et notekort:
 
-1. Right-click the card you want to replace.
-1. Select **Swap file**.
-1. Select the note you want to replace with.
+1. Højreklik på det kort, som du vil erstatte
+2. Vælg **Byt fil...**
+3. Vælg den note, som du vil erstatte den med
 
-## Selecting cards
+## Vælge kort
 
-Select cards in the canvas by clicking on them. You can select multiple cards by dragging a selection around them.
+Vælg et kort på et canvas ved at klikke på det. Du kan vælge flere kort ved at markere et område rundt om dem med musemarkøren.
 
-You can also add and remove cards from an existing selection by pressing `Shift` and selecting them.
+Du kan også tilføje og fjerne kort fra et valg ved at trykke `Skift` og tryke på dem med musemarkøren.
 
-Press `Ctrl+a` (or `Cmd+a` on macOS) to select all cards in the canvas.
+Tryk `Ctrl+a` (eller `Cmd+a` på macOS) for at vælge alle kortene på et canvas.
 
-To scroll the content of a card, you first need to select it.
+For at flytte indholdet af et kort, skal du først vælge det.
 
-### Arrange cards
+### Omarrangere kort
 
-Drag a selected card to move it.
+Træk et valgt kort for at flytte det rundt på et canvas.
 
-Press `Alt` (or `Option` on macOS) and drag to duplicate the selection.
+Tryk `Alt` (eller `Option` på macOS) og træk for at  dublikere de valgte kort.
 
-You can press `Shift` while dragging to only move in one direction.
+Du kan trykke `Skift` mens du trækker nogle kort for kun at flytte i en retning.
 
-Press `Space` while moving a selection to disable snapping.
+Tryk `Mellemrum` mens du trækker for at forhindre fastgøring i gitter.
 
-Selecting a card moves it to the front.
+Når et kort vælges flyttes det i front.
 
-### Resize a card
+### Tilpas størrelsen på et kort
 
-Drag any of a card's edges to resize it.
+Træk i et af kortets kanter for at tilpasse kortets størrelse.
 
-You can press `Space` while resizing to disable snapping.
+Du kan trykke på `Mellemrum` mens du tilpasser størrelsen for at forhindre fastgøring til gitter.
 
-To maintain the aspect ratio while resizing, press `Shift` while resizing.
+For at opretholde højde-bredde-forholdet skal du trykke `Skift` mens du tilpasser størrelsen.
 
-## Connecting cards
+## Forbind kort
 
-Draw lines between cards to create relationships between them. Use colors and labels to describe how they relate to each other.
+Tegn linjer mellem korten for at skabe relationer mellem dem. Brug farver og mærkater for at beskrive hvordan kortene relaterer sig til hinanden.
 
-### Connect two cards
+### Forbind to kort
 
-To connect two cards with a directed line:
+For at forbinde to kort med en retningsstreg:
 
-1. Hover the cursor over one of the edges of a card until you see a filled circle.
-1. Drag the circle to the edge of a different card to connect them.
+1. Før musemarkøren over en af kanterne på et kort indtil du ser en udfyldt cirkel
+2. Træk cirklen over til kanten af et andet kort for at forbinde dem
 
 > [!tip]
-> If you drag the line without connecting it to another card, you can then add the card you want to connect it to.
+> Hvis du trækker en linje uden at forbinde det til et andet kort, kan du efterfølgende tilføje det kort, som du vil forbinde det til.
 
-### Disconnect two cards
+### Fjern forbindelsen mellem to kort
 
-To remove the connection between two cards:
+For at fjerne forbindelsen mellem to kort skal du:
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-1. Drag one of the circles from the card without connecting it to another.
+1. Føre musemarkøren over en forbindelseslinje indtil du kan se to små cirkler på linjen
+2. Træk en af cirklerne væk uden at forbinde den til et andet kort
 
-You can also disconnect two cards by right-clicking the line between them, and then selecting **Remove**. Or, by selecting the line and then pressing `Backspace` (or `Delete` on macOS).
+Du kan også fjerne forbindelsen mellem to kort med at højreklikke på linjen mellem dem og derefter vælge **Fjern** i popup menuen. Eller ved at vælge linjen og trykke på `Tilbage` tasten (eller `Del` på macOS).
 
-### Connect a card to a different card
+### Forbind et kort til et andet kort end det nuværende forbundne kort
 
-To move one of the ends of a connection line:
+For at flytte en af forbindelserne til et kort skal du:
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-1. Drag the circle over the end you want to reconnect, to another card.
+1. Føre musemarkøren over en forbindelseslinje indtil du kan se to små cirkler på linjen
+2. Træk en af cirklerne væk uden at forbinde den til et andet kort
 
-### Navigate a connection
+### Naviger en forbindelse
 
-If two connected cards are far apart, you can navigate to the source or the target of the connection by right-clicking the line and then select **Go to target** or **Go to source**.
+Hvis to kort er meget langt fra hinanden kan du navigere til kildenoten eller destinationsnoten ved at højreklikke på linjen og vælge **Gå til destination** eller **Gå til kilde**.
 
-### Add a label to a connection
+### Tilføj en mærkat til en forbindelse
 
-You can add a label to a line to describe the relationship between two cards.
+Du kan tilføje en mærkat til en linje for at beskrive relationen mellem to kort.
 
-To label a connection:
+For at give en forbindelse en mærkat skal du:
 
-1. Double-click the line.
-1. Enter the label and then press `Escape` or click anywhere on the canvas.
+1. Dobbeltklikke på linjen
+2. Skrive mærkatens navn og trykke `Esc` eller klikke et andet sted på canvasset
 
-You can also label a connection by selecting it and then selecting **Edit label** from the selection controls.
+Du kan også give en forbindelse en mærkat ved ta vælge den og **Rediger mærkat** fra popupmenuen.
 
-To edit a connection label, double-click on the line, or right-click the line and then select **Edit label**.
+### Skift farve på et kort eller en forbindelse
 
-### Change the color of a card or connection
+1. Vælg de kort eller forbindelser, som du vil give en farve
+2. Vælg **Sæt farve** (Palette ikonet) i popupmenuen
+3. Vælg en farve
 
-1. Select the cards or connections you want to color.
-1. In the selection controls, select **Set color** (palette icon).
-2. Select a color.
+## Gruppering af kort
 
-## Grouping cards
+For at oprette en tom gruppe:
 
-### Group selected cards
+- Højreklik på canvasset og vælg **Opret gruppe**
 
-To create an empty group:
+For at gruppere relaterede kort:
 
-- Right-click the canvas and then select **Create group**.
+1. Vælg kortene
+2. Højreklik på en af de valgte kort og vælg **Opret gruppe**
 
-To group related cards:
+**Omdøb gruppe:** Dobbeltklik på gruppens navn ("Rediger mærkat") og tryk `Retur` for at gemme.
 
-1. Select the cards.
-1. Right-click any of the selected cards and then select **Create group**.
+## Navigering på canvasset
 
-**Rename group:** Double-click the name of the group to edit it, and then press `Enter` to save.
+Efterhånden som du tilføjer flere kort til dit canvas har du måske brug for at lære at navigere rundt, så du kan se dele af det. Lær, hvordan du panorerer og zoomer så du nemt kan navigere rundt på canvasset.
 
-## Navigating the canvas
+### Panorer canvasset
 
-As you start adding more cards to your canvas, you want to understand how you can navigate the canvas to look at a part of it. Learn how to pan and zoom to move across the canvas with ease.
+For at flytte canvasset vandret eller lodret, også kaldet _panorering_, kan du benytte følgende metoder:
 
-### Pan the canvas
+- Tryk `Mellemrum` og træk canvasset
+- Træk canvasset ved brug af midterste museknap
+- Rulle musen for at panorere lodret, og tryk `Skift`mens du ruller for at panorere vandret
 
-To move the canvas vertically and horizontally, also known as _panning_, you can use any of the following approaches:
+### Zoom canvasset
 
-- Press `Space` and drag the canvas.
-- Drag the canvas using the middle-mouse button.
-- Scroll the mouse to pan vertically, and press `Shift` while scrolling to pan horizontally.
+For at zoome canvasset skal du trykke `Mellemrum`  or `Ctrl` (eller `Cmd` på macOS) og rulle med musens hjul. Eller vælge **Zoom ind** (Plus ikonet) og **Zoom ud** (Minus ikonet) i øverste højre hjørne af canvasset.
 
-### Zoom the canvas
+#### Zoom til at passe
 
-To zoom the canvas, press `Space`  or `Ctrl` (or `Cmd` on macOS) and scroll using the mouse wheel. Or, select **Zoom in** (plus sign) and **Zoom out** (minus sign) from the zoom controls in the upper-right corner.
+Vælg **Zoom til at passe** (Det stiblede firkantikon) for at zoome canvasset så alle elementer kan ses på en gang. Eller benyt genvejstasten `Shift+1`.
 
-#### Zoom to fit
+#### Zoom til valg
 
-To zoom the canvas so that every item is visible, select **Zoom to fit** (dashed square icon). Or, use the keyboard shortcut, `Shift+1`.
+Højreklik på et valgt kort og vælg **Zoom til valg** for at zoome canvasset, så alle de valgte elementer kan ses. Eller benyt genvejstasten `Shift+2`.
 
-#### Zoom to selection
+#### Nulstil zoom
 
-To zoom the canvas so that all selected items are visible, right-click a selected card and then select **Zoom to selection**. Or, use a keyboard shortcut by pressing `Shift+2`.
-
-#### Reset zoom
-
-To change the zoom level back to the default, select **Reset zoom** in the zoom controls in the upper-right corner.
+Vælg **Nulstil zoom** i øverste højre hjørne af canvasset for at ændre zoom niveauet tilbage til standard størrelsen.

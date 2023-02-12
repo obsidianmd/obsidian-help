@@ -7,7 +7,7 @@ Hvis du ikke ønsker at benytte Obsidian Sync kan du læse om alternative metode
 
 ## Synkroniser dine noter mellem flere desktop computere
 
-Hvis du ikke anvender Obsidian på dine mobil enheder, så kan du benytte enhver tredjepartssynkronerings service, der kan synkronisere til en cloud løsning.
+Hvis du ikke anvender Obsidian på dine mobil enheder, så kan du benytte enhver tredjeparts synkronerings service, der kan synkronisere til en cloud løsning.
 
 Du kan f.eks. anvende en af disse følgende services:
 - Dropbox
@@ -93,7 +93,7 @@ Obsidian arbejder anderledes end andre Markdown editorer på iOS. Editorer som f
 
 Til forskel fra disse kræver mange funktioner i Obsidian at der er adgang til hele boksen på en gang. F.eks. hvis du omdøber en note, så vil Obsidian opdatere alle andre noter i boksen, som linker til denne note.
 
-Udvikling af et system som skal kunne læse, modificere og monitorere en hel mappestruktur, der måske indeholder tusinde noter, udenfor de understøttede lokationer er udfordrende. Vi håber at kunne addressere denne begræsning engang i fremtiden.
+Udvikling af et system som skal kunne læse, modificere og monitorere en hel mappestruktur, der måske indeholder tusinde noter, udenfor de understøttede placeringer er udfordrende. Vi håber at kunne addressere denne begræsning engang i fremtiden.
 
 Hvis du er udvikler kan du bygge et plugin, der benytter Web API'erne for hver individuel synkroniseringsservice.
 

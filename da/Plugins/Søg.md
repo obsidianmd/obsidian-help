@@ -1,85 +1,98 @@
-![[Search.png]]
+Du kan benytte søge pluginnet til at finde filer i din boks.
 
-"Søg" plug-in'et er en stærk funktion, og kan også være forvirrende.
-I de fleste tilfælde virker det, hvis du bare skriver det du søger efter.
-Men "Søg" har mange muligheder for at indsnævre søgningen for at finde præcis det, du ønsker.
+Som standard kan du finde **Søg** i venstre sidepanel (Forstørrelsesikonet). Du kan også åbne **Søg** ved at trykke `Ctrl+Skift+F` (eller `Cmd+Skift+F` på macOS).
 
-## Hurtige tip
+- **Søg i den markerede tekst:** Hvis du markerer noget tekst i editoren og åbner **Søg** med genvejtasten, så vil der kun blive vist søgeresultater for den markerede tekst
+- **Søg med senest benyttede søgeterm:** Hvis du åbner **Søg** uden et søgeterm vil der blive vist en liste af de senest benyttede søgetermer. Klik på en af dem for at anvende søgetermet igen.
 
-### Start søgning
+## Søgetermer
 
-Du kan aktivere søgning ved at trykke `Ctrl-Shift-F` eller `Cmd-Shift-F`. Du kan også ændre denne genvejstast i "Indstillinger -> Genvejstaster". Når en søgning er aktiveret vil fokus automatisk blive sat til søgebaren, så du kan begynde at taste din forespørgsel med det samme.
+Et søgeterm er ord eller fraser, som du skriver i søgefeltet. Du kan lære at skrive effektive søgetermer, så du hurtigt kan finde det du søger efter selv i store bokse.
+Der vil blive søgt efter et match i hver fil for hvert ord i en søgeterm. For at søge efter en eksakt frase, skal du omslutte søgeordene med citationstegn, f.eks. `"star wars"`.  Hvis du skal søge efter en eksakt frase, der indeholder citationstegn, så kan du benytte baglæns skråstreger (`\`) før hver citationstegn, f.eks. `"de sagde \"hej\" til hinanden"`.
 
-### Søge for markeret tekst
+Du kan kontrollere om en søgning skal finde filer der indeholder _alle_ ord i din søgefrase eller blot _nogle_ af dem:
 
-Når du har markeret noge tekst, kan du søge efter det ved at aktivere søgning som ovenfor.
+- `møde arbejde` returnerer filer, der indeholder både `møde` og `arbejde`
+- `møde OR arbejde` returnerer filer, der indeholder enten `møde` eller `arbejde`
 
-## Søgehistorik
+Du kan endda kombinere de måder i den samme søgefrase:
 
-Obsidian husker dine sidste anvendte søgeforespørgsler.
+- `møde arbejde OR sammenkomst personlig` returnere filer, der indholder ord med møder på arbejde og personlige sammenkomster
 
-Disse forespørgsler vil blive vist, når din søgeforespørgsel er tom. Du kan klikke på en af dem for at søge med den forespørgsel igen, hvilket gør dig i stand til hurtigt at benytte tidligere forespørgsler.
+Du kan benytte parenteser til at kontrollere hver udtryks prioritet:
 
-For at slette søgehistorikken, så klik på "X" knappen i søgeindtastningsfeltet.
+- `møde (arbejde OR sammenkomst) personlig` returnerer filer, der indholder `møde`, `personlig` og  enten `arbejde` eller `sammenkomst`
 
-## Søgeindstillinger
+For at udelukke et ord fra søgeresultater kan du tilføje en bindestreg (`-`) foran det:
 
-Der er en række funktioner til rådighed for at søge:
+- `møde -arbejde` returnerer filer, som indholder `møde`, men ikke `arbejde`
 
-- `Forskel på små og store bogstaver` aktiver matching eller ignorering af forskel på store og små bogstaver. Bemærk at dette kan tilsidesættes for en søgning ved at anvende `match-case:` og `ignore-case:` operatorene, der er forklaret i afsnittet [[Søg#Søgeoperatorer]]
-- `Forklar søgeord` viser dig hvad søgeforespørgslen faktisk gør i almindelig tekst
-- `Sammenfold resultater` skifter mellem at vise kun note navne for rasultater og vise de linjer i noterne hvor de optræder. Disse udvidede resultater kan udfoldes og sammenfoldes for hver note ved at klikke på trekantsikonet ved siden af filnavnet.
-- `Vis mere kontekst` udvider med mere tekst omkring selve det matchede.
-- `Skift sorteringsrækkefølge` sorterer resultaterne på forskellige måder, ligesom filer kan sorteres i [[Stifinder|stifinderen]].
+> [!tip] Forklar søgeterm
+> Hvis du har brug for at fejlfinde en kompleks søgeterm, kan du få en forklaring ved at klikke på **Forklar søgeterm** (Ikonet med et spørgsmålstegn indeni en cirkel) nederst på søgepanelet
 
-## Kopier søgeresultater
+## Søgeoperatorer
 
-For hurtigt og nemt at kunne gemme dine søgeresultater et sted som en liste, f.eks. i en note, kan du benytte "Kopier søgeresultater" funktionen.
+Du kan anvende søgeoperatorer til at filtrere din søgning og derved foretage en mere præcis søgning.
 
-Du kan tilpasse om du vil se stier, hvilken link type du vil anvende (wikilink eller Markdown link), og hvordan du vil have listen til at vise sig.
+Nogle operatorer tillader dig endda at indlejre søgetermer i parenteser, f.eks. `task:(opkald OR email)`
 
-## indlejrede søgeresultater
+| Søgeoperator | Beskrivelse                                                                                                                                                                                                          |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `file:`         | Søg efter tekst i filnavnet.<p/>Eksempel: `file:.jpg` or `file:202209`.                                                                                                                                                     |
+| `path:`         | Søg efter tekst i filstien.<p/>Eksempel: `path:"Daglige noter/2022-07"`.                                                                                                                                                    |
+| `content:`      | Søg efter tekst i filindholdet.<p/>Eksempel: `content:"glad kat"`.                                                                                                                                                        |
+| `match-case:`   | Match store og små bogstaver.<p/>Eksempel: `match-case:GladKat`.                                                                                                                                                             |
+| `ignore-case:`  | Ignorer store og små bogstaver.<p/>Eksempel: `ignore-case:ikea`.                                                                                                                                                              |
+| `tag:`          | Søg efter tag i filer.<p/>Eksempel: `tag:#arbejde`.<p/>**Note**: Da `tag:` ignorerer en match i kodeblokke og i ikke-markdown indhold, er det ofte hurtigere og mere præcist end en fuldtekst søgning efter `#arbejde`.     |
+| `line:`         | Søg efter tekst på samme linje.<p/>Eksempel: `line:(blandet mel)`.                                                                                                                                                       |
+| `block:`        | Søg efter tekst i samme blok.<p/>Eksempel: `block:(hund kat)`.<p/>**Note**: Da `block:` kræver at der søges i Markdown indhold i hver eneste fil i boksen, kan det resultere i en søgning som tager længere tid. |
+| `section:`      | Søg efter tekst i samme sektion (Tekst mellem to overskrifter).<p/>Eksempel: `section:(hund kat)`.                                                                                                                         |
+| `task:`         | Søg efter tekst i en opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste|opgave]].<p/>Eksempel: `task:opkald`.                                                                                                          |
+| `task-todo:`    | Søg efter tekst i en uafsluttet opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste]].<p/>Eksempel: `task-todo:opkald`.                                                                                      |
+| `task-done:`    | Søg efter tekst i en afsluttet opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste]].<p/>Eksempel: `task-done:opkald`.                                                                                         |
 
-Du kan indlejre søgeresultater i en note.
 
-Hvis du f.eks. skriver:
+## Brug af regulære udtryk i søgetermer
+
+Et regulært udtryk er et sæt af tegn, som beskriver et tekstmønster. For at anvende regulære udtryk i dine søgetermer skal du omkranse udtrykket med slash (`/`).
+
+- `/\d{4}-\d{2}-\d{2}/` matcher en ISO 8601 dato, f.eks., 2022-01-01.
+
+Du kan endda kombinere regulære udtryk med søge operatorer;
+
+- `path:/\d{4}-\d{2}-\d{2}/` søger efter filer med en dato i den angivne filsti
+
+Du kan få mere information om [regulære udtryk her](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+> [!note]
+> Regulære udtryk findes i flere forskelige udgaver, som kan set ret forskellige ud. Obsidian benytter JavaScript udgaven af regulære udtryk.
+
+## Konfiguration af søgeindstillinger
+
+Du kan konfigurere **Søg** i indstillingerne i toppen af søgepanelet (Med standard temaet):
+
+| Setting                 | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| **Forskel på store og små bogstaver**          | Skifter mellem søgning med eller uden forskel på store og små bogstaver.                                            |
+| **Forklar søgeterm** | Opdeler søgetermerne og forklarer dem i almindelig tekst.                 |
+| **Sammenfold resultater**    | Skifter mellem at vise filer med søgeindhold eller kun filnavne.                                 |
+| **Vis mere kontekst**   | Udfolder søgereultater, så der ses mere tekst omrking søgeresultaterne.               |
+| **Skift sorteringsrækkefølge**   | Skifter sorteringsrækkefølge for søgeresultaterne.                                     |
+| **Kopier søgeresultater** | Konverterer og kopierer søgeresultaterne som en Markdownliste, hvor du også kan få links indlejret. |
+
+## Indlejr søgeresultater i en note
+
+For at indlejre søgeresultater i en note skal du tilføje en `query` kodeblok:
 
 <pre><code>```query
-indlejr OR søg
+indlejer OR søg
 ```</code></pre>
 
-vil du se denne indlejrede søging: (note: Dette virker ikke i [[Obsidian Publish]] efter 18. januar 2020):
+F.eks.
+
+> [!note]
+> [[Introduction to Obsidian Publish|Obsidian Publish]] inderstøtter ikke indlejrede søgeresultater. For at se et eksempel skal du åbne Obsidian hjælpen lokalt i Obsidian.
 
 ```query
 indlejr OR søg
 ```
-
-## Søgesyntaks
-
-### Kombinere del-forespørgsler
-
-Når du skal skrive en søgeforspørgsel, så husk, at hvis du klikker på "Forklar søgeord" får du en forklaring på hvad der søges efter, hvilket kan være meget anvendeligt, hvis du leder efter fejl i en kompliceret søging.
-
-- Ord der er delt med mellemrum i søgeforespørgsler, vil blive individuelt søgt efter i hver note. F.eks. vil `foo bar` finde en note, som indeholder både `foo` og `bar` et eller andet sted i noten.
-- `"Citater i anførselstegn"` kan benyttes til at søge efter flere sammenhængende ord delt med mellemrum, eller i andre ord, eller udtryk. Så, en søgning efter `"foo bar"` med anførselstegn vil kun finde noter som inkluderer disse ord ved siden af hinanden. Du kan benytte omvendt skråstreg og anførselstegn `\"` hvis du faktisk ønsker at søge på anførselstegn. Og `\\` vil søge på omvendt skråstreg.
-- Du kan benytte boolske operatorer. Benyt `OR` som "ELLER"-operator. Benyt `-` for negation. Et mellemrum mellem to søgeord svarer til en "OG"-operator.
-	- `foo OR bar` vil finde alle noter som indeholder et af ordene. De behøver ikke være i samme note.
-	- `foo -bar` vil finde alle de noter, som indeholder `foo`, men ikke hvis de også indeholder `bar`.
--Der kan benyttes paranteser til at gruppere boolske operatorer, f.eks. `((a OR b) (c OR d))`. Det er brugbart, når der skal laves komplekse søgninger, hvor du vil sikre dig at forespørgslen sker i den rækkefølge du ønsker.
-- Du kan også anvende regulære søgeudtryk (regex) i søgninger. Benyt skråstreg som start på et regulært søgeudtryk, f.eks. `/[a-z]{3}/`. Obsidian accepterer de regulære udtryk, som JavaScript understøtter. Du kan lære mere om dem [her](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular\_Expressions).
-
-### Søgeoperatorer
-
-Der er flere specielle søgeoperatorer til rådighed. Nogle operatorer tillader indlejrede forespørgsler ved at benytte paranteser, f.eks. `file:("at være" OR -"2B")`.
-
-- `file:(...)`  vil udføre en underforespørgsel på filnavnet. F.eks. `file:".jpg"`. Hvis du benytter Zettelkasten-type UID'er kan det være anvendelligt, hvis du vi lbegrænse søgninger til tidsperioder, f.eks. vil `file:"202007"`finde filer oprettet i juli 2020.
-- `path:(...)` vil udføre en underforespørgsel på mappestien, sbosult fra roden. F.eks. `path:"Daglige noter/2020-07"`.
-- `content:(...)`  vil udføre en underforespørgsel på fil indholdet. F.eks. `content:"den glade kat"`.
-- `match-case:(...)` og `ignore-case:(...)` vil tilsidesætte store og små bogstaver i søgelogikken for den følgende underforespørgsel.
-- `tag:`  vil søge efter det specificerede tag i en fil, f.eks. `tag:#arbejde`. Det er hurtigere og mere præcist end at søge efter tagget i klar tekst `#arbejde`, da det benytter den cascede information og ignorerer tekst i kodeblokke og sektioner som ikke er markdowntekst.
-- `line:(...)`  vil udføre en underforespørgsel på en linje-på-linje basis i stedet for en fil-på-fil basis. Hvis du f.eks. søger på `foo bar`, kunne det matche en fil der har `foo` i det første afsnit og `bar` i det sidste afsnit. Søgning på `line:(foo bar)` vil kun matche hvis `foo` og `bar` er på den samme linje.
-- `block:(...)`  vil udføre en underforespørgsel på en blok-på-blok basis, hvor hver blok er defineret som en markdown blok, som typisk er delt af tomme linjer eller listepunkter. Dette er en tung operation, da den kræver at hver fil bliver analyseret, hvilket betyder at denne søgemåde sandsynligvis er langsommere end andre typer søgninger.
-- `section:(...)` vil udføre en underforespørgsel på en sektion-på-sektion basis, hvor hver sektion er teksten mellem to overskrifter, inklusiv den første overskrift.
-- `task:(...)` vil udføre en underforespørgsel på hver [[Formater dine noter#Opgaveliste|opgave]] og det sker på en sektion-på-sektion basis. Benyt task:"" for at matche alle opgaver.
-- `task-todo:(...)` vil udføre en underforespørgsel på hver [[Formater dine noter#Opgaveliste|opgave]], som ikke er færdige og det sker på en sektion-på-sektion basis. Benyt task-todo:"" for at matche alle ikke-færdige opgaver.
-- `task-done:(...)` vil udføre en underforespørgsel på hver [[Formater dine noter#Opgaveliste|opgave]], som er færdige og det sker på en sektion-på-sektion basis. Benyt task-done:"" for at matche alle færdige opgaver.

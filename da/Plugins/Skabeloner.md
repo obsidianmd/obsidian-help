@@ -9,76 +9,28 @@ Du kan benytte skabeloner til at indsætte foruddefineredet tekst ind i din akti
 
 **Vigtigt:** For at indsætte en skabelon skal du først [[#Indstil din skabelonmappe|indstille din skabelonmappe]].
 
+1. I venstre båndmenu skal du vælge **Indsæt skabelon**
+2. Vælg den skabelon, som du vil indsætte på makørpositionen i den aktive note
 
+Hvis din skabelonmappe kun indeholder en noteskabelon, vil denne blive indsat med det samme i den aktive note.
 
+## Skabelon variabler
 
----
-
-**Important:**  To insert a template, you need to first [[#Set your template folder]].
-
-1. In the ribbon, click **Insert template**.
-1. Select the template to insert at the cursor position in the active note.
-
-If your template folder contains only one note, Templates inserts it directly into the active note.
-
-## Template variables
-
-You can add dynamic information to your templates, using _template variables_. When you insert a template containing a template variable, Templates replaces it with its corresponding value.
+Du kan tilføje dynamisk information til dine skabeloner ved at benytte _skabelonvarialer_. Når du indsætter en skabelon, der indeholder en skabelon variabel, vil dette plugin erstatte variablen med dens korresponderende værdi.
 
 | Variable    | Description                                     |
 |-------------|-------------------------------------------------|
-| `{{title}}` | Title of the active note.                       |
-| `{{date}}`  | Today's date. **Default format:** `YYYY-MM-DD`. |
-| `{{time}}`  | Current time. **Default format:** `HH:mm`.      |
+| `{{title}}` | Titlen på den aktive note.                       |
+| `{{date}}`  | Datoen i dag. **Standard format:** `YYYY-MM-DD`. |
+| `{{time}}`  | Det nuværende tidspunkt. **Standard format:** `HH:mm`.      |
 
-Both `{{date}}` and `{{time}}` allow you to change the default format using a _format string_.
+Både `{{date}}` og `{{time}}` variablerne tillader dig at kunne ændre standard formatet ved at angive en _formatteringssyntaks_.
 
-To set a format string, add a colon (`:`) followed by a string of [Moment.js format tokens](https://momentjs.com/docs/#/displaying/format/), for example `{{date:YYYY-MM-DD}}`.
+For at angive en formattering skal du tilføje et kolon efterfulgt af en tekst [formatteret i Moment.js formatet](https://momentjs.com/docs/#/displaying/format/), f.eks. `{{date:YYYY-MM-DD}}`.
 
-You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
+Du kan anvende `{{date}}` og `{{time}}` med formattering uafhængigt af hinanden, f.eks. `{{time:YYYY-MM-DD}}`.
 
-You can change the default date and time formats under **Settings > Templates > Date format** and **Settings > Templates > Time format**.
+Du kan ændre standard dato- og tidsformaterne under **Indstillinger -> Skabeloner -> Datoformat** og **Indstillinger -> Skabeloner -> Tidsformat**.
 
 > [!tip]
-> You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
-
-
----
-Skabelon plug-in'et giver dig mulighed for hurtigt at indsætte tekststykker i din nuværende note.
-
-### Opsætning af skabelon mappe
-Hver skabelon tekststykke er lige som en normal Markdown note, ligesom alle andre noter i Obsidian.
-
-For at anvende teksbidder som skabeloner, skal de ligge i en mappe, og den skal angives i "Indstillinger -> Skabeloner -> Placering af skabelonmappe" efter at plug-in'et er aktiveret.
-
-### Indsætte en skabelon
-
-Når du har angivet en skabelonmappe kan du benytte "Indsæt skabelon" ikonet fra venstre menubjælke for at indsætte skabeloner. Som altid, kan du også angive en genvejstast til denne funktion, eller benytte kommandopaletten for at få adgang til funktionen.
-
-Skabelon tekststykket vil blive indsat på markørens position i noten, og speciel tekst vil blive erstattet af deres faktiske indhold på det tidspunkt, hvor tekststykket indsættes (Se forneden).
-
-### Indsæt titel
-Hvis du vil indsætte notens titel, kan du gøre det i skabelonen med `{{title}}`.
-
-### Indsæt dato og tid
-I indstillingerne for skabelon plug-in'et kan du også angive et datoformat og et tidsformat.
-
-Når disse er sat, kan `{{date}}` og `{{time}}` anvendes i skabelon filerne og de erstattes af den nuværende dato og tidspunkt afhængig af det format, du har defineret in indstillingerne.
-
-For en omfattende dokumentation af mulig formateringssyntax, [så se her](https://momentjs.com/docs/#/displaying/format/).
-
-_Tip: Hvis du har brug for to forskelllige formaterede tidsformater i en skabelon, så kan du bare anvende `{{time}}` som den anden `{{date}}`, eller `{{date}}` som den anden `{{time}}`._
-
-_Dansk tip: Hvis du vil anvende en fuld dansk dato som: "12. februar 2021", så benyt `{{date}}` = "DD. MMMM YYYY" _
-
-_Dansk tip: Hvis du vil anvende dansk tid som: "14:23", så benyt `{{time}}` = "HH:mm" _
-
-### Engangs dato formattering
-
-Udover `{{date}}` og `{{time}}`, som virker i alle skabelonfiler, kan du også skrive `{{date:YYYY-MM-DD}}` for at indsætte en dato med et specifikt datoformat. Dette tilsidesætter `{{date}}` formateringen, som er angivet i instillingerne. Alt efter `:` betragtes som del af datoformatet.
-
-`{{time:HH:mm}}` virker på samme måde.
-
-### Benyttelse af brugerdefineret dato formater andre steder
-
-I øjeblikket virker datoformater som `{{date:YYYY-MM-DD}}` og `{time:HH:mm}}` også i skabelonfiler for [[Daglige noter]] og [[Zettelkasten præfikser]] plug-in'erne. Mens `{{date}}` og `{{time}}` virker ikke endnu.
+> Du kan også benytte `{{date}}` og `{{time}}` skabelon variable i de to plugins [[Daglige noter]] og [[Unik note opretter]].

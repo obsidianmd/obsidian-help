@@ -1,4 +1,4 @@
-Filgenoprettelse er et kerneplugin som kan hjælpe dig med at genoprette dine data i tilfælde af uforsætlig datatab ved at tage øjebliksbilleder af dine noter.
+Filgenoprettelse er et kerne plugin som kan hjælpe dig med at genoprette dine data i tilfælde af uforsætlig datatab ved at tage øjebliksbilleder af dine noter.
 
 For at ikke at det skal tage for meget lagerplads gemmer Obsidian kun øjebliksbilleder i et bestemt antal dage før den sletter de ældste.
 
@@ -11,7 +11,7 @@ Bemærk at bokse identificeres med deres absolutte sti. Hvis du har flyttet en b
 ## Genopret et øjebliksbillede
 
 1. Åben **Indstillinger**
-2. Åben **Filgenoprettelse** sidepanelet under **Kerneplugins**
+2. Åben **Filgenoprettelse** sidepanelet under **Kerne plugins**
 3. Klik **Vis** til højre for **Øjebliksbilleder** 
 4. I den øverste tekstboks kan du søge efter den note du vil genoprette og derefter trykke `Retur`
 5. Vælg det øjebliksbillede du vil genoprette
@@ -23,6 +23,6 @@ Bemærk at bokse identificeres med deres absolutte sti. Hvis du har flyttet en b
 **Advarsel:** Vær forsigtig med dette, da handlingen er irreversibel
 
 1. Åben **Indstillinger**
-2. Åben **Filgenoprettelse** sidepanelet under **Kerneplugins**
+2. Åben **Filgenoprettelse** sidepanelet under **Kerne plugins**
 3. Klik på **Ryd** til højre for **Ryd historik**
 4. Klik på **Ryd** for at bekræfte at du vil slette alle øjebliksbilleder

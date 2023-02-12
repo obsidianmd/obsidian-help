@@ -49,7 +49,7 @@ Sådan sætter du en **eksisterende** synkroniseret boks op på et iCloud drev:
 2. Giv den samme navn som din boks i din desktop applikation for at få [[Brug af obsidian URI|URIs]] til at fungere;
 3. Vent på at iCloud synkroniserer denne tomme mappe til din desktop applikation;
 4. Kopier og indsæt alt fra din boks til denne nye mappe, som nu vil blive din synkroniserede mappe;
-5. I desktop applikationen skal du benytte "Åben en anden boks" og vælge på den nye boks lokation på dit iCloud drev;
+5. I desktop applikationen skal du benytte "Åben en anden boks" og vælge på den nye boks placering på dit iCloud drev;
 6. Vent på at iCloud får synkroniseret hele boksen over på din mobil enhed.
 
 ### Working Copy

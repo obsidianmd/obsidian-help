@@ -48,5 +48,5 @@ Links i Obsidian kræver en fuld match til navnet på noten. Dette betyder at `[
 
 For at løse det, kan du benytte vores [[Konverter Markdown filer]] plugin til at konvertere dine Zettelkasten links til enten `[[202001010000 Min Note]]` or `[[202001010000 Min Note|Min Note]]`.
 
-Du vil måske også være interesseret i vores [[Zettelkasten præfikser]] plugin.
+Du vil måske også være interesseret i vores [[Unik note opretter]] plugin.
 
