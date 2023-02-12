@@ -1,18 +1,15 @@
+Med Obsidian Unlimited kan du donere penge, så du kan støtte udviklingen af Obsidian.
 
+- Du kan donere et hvilket som helst beløb over $5 USD (for at dække omkostninger)
+- Du kan bidrage lige så mange gange du ønsker det
 
----
-Obsidian Unlimited lets you donate money to support the Obsidian development.
+==Donationer via Obsidian Unlimited giver dig ingen yderligere funktioner i Obsidian eller andre fordele.== Vi anbefaler, at du køber en [[Catalyst licens]] før du donerer til Obsidian Unlimited.
 
-- You can donate any amount, with a minimum of $5 USD (to cover processing fees).
-- You can contribute as many times you want.
+Sådan donerer du via Obsidian Unlimited:
 
-==Obsidian Unlimited donations don't grant you any additional features or benefits.== We highly recommend that you purchase a [[Catalyst license]] before you donate to Obsidian Unlimited.
-
-To donate using Obsidian Unlimited:
-
-1. Browse to your [account page](https://obsidian.md/account).
-2. Under **Obsidian Unlimited**, click **Pay**.
-3. In **Amount (USD)**, enter the amount to want to donate.
-4. Enter your credit card details.
-5. Click **Pay**.
-6. Follow the instructions from your bank.
+1. Gå til din [konto side](https://obsidian.md/account)
+2. Klik **Pay** under **Obsidian Unlimited**
+3. Angiv det beløb i US dollars under **Amount (USD)**, som du vil donere
+4. Angiv dine kreditkort oplysninger
+5. Klik **Pay**
+6. Følg intruktionerne fra din bank (MitID)

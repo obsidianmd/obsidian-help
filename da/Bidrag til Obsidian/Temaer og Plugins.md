@@ -1,12 +1,9 @@
+Hvis du har programmeringserfaring kan du forbedre og udvide oplevelsen af Obsidian for alle andre i fællesskabet.
 
+- Hvis du kender til CSS kan du udvikle dit eget Obsidian tema. Du kan læse mere om at udvikle temaer her: [Obsidian Hub for Theme Designers](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Theme+Designers).
 
----
-If you know your way around a code editor, you can improve and extend the Obsidian experience for the rest of the community.
+- hvis du har kendskab til TypeScript eller JavaScript kan du udvikle et plugin til at give Obsidian nye funktioner. Du kan læse mere om at udvikle plugins her: [Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs/).
 
-- If you know CSS, you can create your own theme for Obsidian. For more information about how to create themes, refer to the [Obsidian Hub for Theme Designers](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Theme+Designers).
+Du kan dele dine kreationer i `#appearance` og `#plugin-dev` kanalerne på vores Discord server, eller i "Share & Showcase" kategorien på vores internet forum.
 
-- If you know TypeScript or JavaScript, you can build a plugin to extend Obsidian with new features. For more information about building plugins for Obsidian, refer to the [Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs/).
-
-Share what you've built in the `#appearance` and `#plugin-dev` channels on our Discord server, or in the Share & Showcase category on our forum.
-
-When you're ready, [submit your plugin or theme](https://github.com/obsidianmd/obsidian-releases#submit-your-plugin-or-theme) to the official directory so that users can install your creations directly from Obsidian.
+Når du er klar, kan du [indsende dit tema eller plugin](https://github.com/obsidianmd/obsidian-releases#submit-your-plugin-or-theme) til det officielle katalog, så andre brugere kan installere dine kreationer direkte inden fra Obsidian.

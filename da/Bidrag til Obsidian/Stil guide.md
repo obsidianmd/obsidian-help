@@ -1,92 +1,94 @@
----
-The Obsidian documentation uses the [Google developer documentation style guide](https://developers.google.com/style). For any topics not covered by the Google style guide, use the [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/).
+> [!warning] Fra dansk oversætter
+>Denne side er primært henvendt til brugere, der ønsker at opdatere den engelske referencedokumentation eller udvikler tredjeparts plugins på engelsk! Har du rettelser til den danske udgave, så kontakt nuværende oversætter eller lav et "pull request" på GitHub.
 
-This page lists any deviances from the Google style guide, or terminology worth highlighting.
+Obsidian dokumentationen anvender: [Google developer documentation style guide](https://developers.google.com/style). Hvis emnet ikke er dækket af denne guide, så benyt: [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/).
 
-> [!tip] Contribute
-> Most of the documentation existed before this style guide did. If you find any violations of this style guide, please [create an issue](https://github.com/obsidianmd/obsidian-docs/issues/new) or submit a pull request to [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
+Denne side gennemgår eventuelle afvigelser fra Google Stil guiden, eller terminologi, som er værd at fremhæve.
 
-## Terminology
+> [!tip] Bidrag
+> Det meste dokumentation fandtes før denne stil guide. Hvis du finder brud denne stil guide, så [opret en issue på GitHub](https://github.com/obsidianmd/obsidian-docs/issues/new) eller lav et "pull request" i [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
 
-- Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
-- Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
-- Prefer "sync" or "syncing" over "synchronize" or "synchronizing".
-- Prefer "search term" over "search query".
-- Prefer "heading" over "header" when referring to a text that introduces a section.
+## Terminologi
 
-### UI and interactions
+- Foretræk "keyboard shortcut" i stedet for "hotkey". Benyt "Hotkey", når det refererer til en bestemt funktion
+- Foretræk "the Obsidian app" på mobil, og "the Obsidian application" på desktop
+- Foretræk "sync" eller "syncing" i stedet for "synchronize" or "synchronizing".
+- Foretræk "search term" i stedet for "search query".
+- Foretræk "heading" i stedet for "header", når der refereres toæ en tekst, der introducerer en sektion tekst
 
-- Prefer "select" over "tap" or "click".
-- Prefer "sidebar" over "side bar".
-- Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
+### UI (Brugergrænseflade) og interaktioner
 
-### Notes, files, and folders
+- Foretræk "select" i stedet for "tap" eller "click".
+- Foretræk "sidebar" i stedet for "side bar".
+- Foretræk "perform" i stedet for "invoke" og "execute", når der refereres til kommandoer eller aktioner
 
-- Use "note" when referring to a Markdown file in the vault.
-- Use "file" when referring to other file extensions than Markdown.
-- Prefer "note name" over "note title".
-- Prefer "active note" over "current note".
-- Prefer "folder" over "directory".
+### Noter, filer og mapper
 
-When moving between notes, use "open" if the destination is hidden, and "switch" if both source and destination notes are open in separate splits.
+- Benyt "note", når der refereres til en Markdown fil i boksen
+- Benyt "file", når der refereres til en anden fil type end Markdown
+- Benyt "note name" i stedet for "note title"
+- Benyt "active note" i stedet for "current note"
+- Benyt "folder" i stedet for "directory"
 
-## Reference documentation for settings
+Når der skiftes mellem noter, så benyt "open" hvis destinationen er skjult, og "switch" hvis både kilde- og destinations noterne er åbne samtidig.
 
-When possible, any settings should be documented within Obsidian using a descriptive text. Avoid document a specific setting in Obsidian Help unless:
+## Reference dokumentation for indstillinger
 
-- It requires more in-depth knowledge on how and when to use it.
-- It's commonly misused or asked about.
-- It _drastically_ changes the user experience.
+Alle indstillinger i Obsidian bør dokumenteres ved brug af beskrivende tekst, når det er muligt. Undgå at dokumentere en specifik indstilling i Obsidian hjælpen medmindre:
 
-Consider using a tip callout if you want to draw attention to a specific setting.
+- Det kræver en mere dyb viden om hvordan og hvornår den anvendes
+- Den ofte bliver brugt forkert eller spurgt til
+- Den _drastisk_ ændrer brugeroplevelsen
 
-## Directional terms
+Overvej at benytte en "tip boble", hvis du ønsker at henlede opmærksomheden på en specifik indstilling.
 
-Hyphenate directional terms when using them as adjectives. Avoid hyphenation when direction is used as a noun.
+## Retningsbestemmelser
 
-**Recommended:**
+Sæt bindeled på retningsbestemte udtryk, når du bruger dem som adjektiver. Undgå orddeling, når retning bruges som substantiv.
+
+**Anbefalet:**
 
 - Select **Settings** in the bottom-left corner.
 - Select **Settings** in the bottom left.
 
-**Not recommended:**
+**Ikke anbefalet:**
 
 - Select **Settings** in the bottom left corner.
 - Select **Settings** in the bottom-left.
 
-Prefer "upper-left" and "upper-right" over "top-left" and "top-right".
+Foretræk "upper-left" og "upper-right" i stedet for "top-left" og "top-right".
 
-Don't indicate a direction when referring to settings. The location of the settings control depends on the device.
+Angiv ikke en retning, når der refereres til indstillinger. Indstillingerne kan befinde sig forskellige steder afhængig af enheden.
 
-**Recommended:**
+**Anbefalet:**
 
 - Next to **Pick remote vault**, click **Choose**.
 
-**Not recommended:**
+**Ikke anbefalet:**
 
 - To the right of **Pick remote vault**, click **Choose**.
 
-## Examples
+## Eksempler
 
-Prefer realistic examples over nonsense terms.
+Foretræk realistiske eksempler i stedet for nonsens udtryk.
 
-**Recommended:**
+**Anbefalet:**
 
-- `task:(call OR schedule)`
+- `task:(opkald OR skema)`
 
-**Not recommended:**
+**Ikke anbefalet:**
 
 - `task:(foo OR bar)`
 
-## Key names
+## Tastatur navne
 
-When referring to a character on the keyboard by name, add the character between parentheses right after the name:
+Når der refereres til et tegn på tastaturet med navn, så tilføj tegnet i parentes lige efter navnet:
 
-**Recommended:**
+**Anbefalet:**
 
-- Add a hyphen (-) in front of the word.
+- Add a hyphen (-) in front of the word. På dansk: Tilføj en bindestreg (-) foran ordet
 
-**Not recommended:**
+**Ikke anbefalet:**
 
-- Add a hyphen in front of the word.
-- Add a `-` in front of the word.
+- Add a hyphen in front of the word. På dansk: Tilføj en bindestreg foran ordet
+- Add a `-` in front of the word. På dansk: Tilføj et `-` foran ordet
