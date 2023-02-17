@@ -1,3 +1,8 @@
+---
+aliases:
+- Use callouts
+---
+
 Use callouts to include additional content without breaking the flow of your notes.
 
 To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]].
