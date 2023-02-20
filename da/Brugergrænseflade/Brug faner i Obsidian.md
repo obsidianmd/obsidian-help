@@ -1,13 +1,13 @@
-
-
-
 ---
 alias: 
-- Stacked tabs
-- Linked pane
-- Pane layout
+- Stabel faner
+- Linkede paneler
+- Panel layout
 ---
 
+
+
+---
 You can open as many tabs as you want in Obsidian. You can also arrange tabs to create custom layouts that persist until the next time you open the application.
 
 ## Open a new tab

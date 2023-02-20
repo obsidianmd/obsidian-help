@@ -3,7 +3,7 @@ Grafvisning lader dig visualisere sammenhænget mellem dine noter i din boks.
 For at åbne grafvisning skal du klikke på **Åben grafvisning** i [[Båndmenu|båndmenuen]].
 
 - Cirkler repræsenterer noter eller _noder_
-- Linjer repræsenterer [[Interne links|interne links]] mellem to noder
+- Linjer repræsenterer [[Sådan gør du/Interne links|interne links]] mellem to noder
 
 Jo flere noder, der refererer til en give node, jo større vises den.
 

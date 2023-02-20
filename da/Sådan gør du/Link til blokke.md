@@ -1,4 +1,4 @@
-I Obsidian version 0.9.5 eller nyere kan du også linke til blokke udover at [[Interne links#Links til overskrifter|linke til overskrifter]].
+I Obsidian version 0.9.5 eller nyere kan du også linke til blokke udover at [[Sådan gør du/Interne links#Links til overskrifter|linke til overskrifter]].
 
 ### Hvad er en blok
 

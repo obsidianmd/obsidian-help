@@ -8,7 +8,7 @@ Hvis du skal skynde dig, så er her nogle hurtige steder, du kan dykke ned i:
 
 - [[Kommandopalette|Kommandopaletten]] indeholder de fleste kommandoer, som du har brug for, når du arbejder med Obsidian. bare tryk `Ctrl/Cmd-P` og begynd at skrive.
 - Sådan [[Oprette noter|opretter du noter]]
-- Sådan laver du [[Interne links|interne links]]
+- Sådan laver du [[Sådan gør du/Interne links|interne links]]
 - Sådan benytter du markdown til at [[Formater dine noter|formatere dine noter]]
 - Sådan [[Indlejre filer|indlejrer du filer]], eller indlejrer andre noter
 - [[Tastaturgenveje]]

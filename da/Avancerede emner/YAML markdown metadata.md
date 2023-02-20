@@ -1,5 +1,5 @@
 ---
-aliases: metadata
+aliases: frontmatter
 ---
 YAML, også kendt som front matter, er designet til at være metadata på filniveau, som kan læses af mennesker *og* Obsidian.
 

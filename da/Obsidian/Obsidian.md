@@ -4,7 +4,7 @@ Obsidian er både en Markdown editor og en videnbase applikation.
 
 Brugt på den mest basale måde, kan du redigere og forhåndsvise Markdown filer. Men den 
 
-Hvordan starter vi med at skabe et netværk, kan du måske tænke? Lad os først oprette nogle [[Interne links|interne links]]!
+Hvordan starter vi med at skabe et netværk, kan du måske tænke? Lad os først oprette nogle [[Sådan gør du/Interne links|interne links]]!
 
 ## Hvordan vi adskiller os fra andre
 
@@ -20,7 +20,7 @@ Når filsystemet erstatter skyen, får du fleksible måder at arbejde med dine f
 
 Links og forbindelser er afgørende for at opdage relationerne mellem det, vi ved.
 
-Obsidian har fokus på det og opfordrer til den type brug med blandt andet [[Interne links|interne links]] og [[Grafvisning]].
+Obsidian har fokus på det og opfordrer til den type brug med blandt andet [[Sådan gør du/Interne links|interne links]] og [[Grafvisning]].
 
 Som John Locke udtrykker det...
 
