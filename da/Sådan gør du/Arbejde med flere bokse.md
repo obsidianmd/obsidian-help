@@ -8,7 +8,7 @@ En ny eller eksisterende Boks kan åbnes via tryk på knappen lige over Instilli
 
 Du har mulighed for at åbne en eksterende mappe med markdown filer, oprette en ny boks (som egentlig bare opretter en ny mappe, hvor du kan gemme markdown filer i), eller åbne en speciel boks, som indeholder denne her hjælp. Hjælpe Boksen er gemt i en specielt Obsidian mappe (Se: [[Hvordan Obsidian gemmer data]]), men udover det, så er det en mappe ligesom alle andre mapper.
 
-[[Interne links|Interne links]] er ikke delt på tværs af Bokse. Hvis du har en Boks inden i en anden Boks, kan det blive forvirrende, så det anbefaler vi ikke.
+[[Sådan gør du/Interne links|Interne links]] er ikke delt på tværs af Bokse. Hvis du har en Boks inden i en anden Boks, kan det blive forvirrende, så det anbefaler vi ikke.
 
 Husk altid, at en Boks bare er en samling af markdown filer. Du kan benytte enhver filhåndteringsteknik, som du normalt ville gøre for at flytte filer rundt i dit filsystem, og Obsidian vil automatisk være opdateret, så du kan fortsætte dit arbejde.
 

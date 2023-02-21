@@ -34,21 +34,18 @@ For at læse mere om udviklerne, se [about](https://obsidian.md/about) siden vor
 - Søger du information om funktionalitet? Læs om [[Kommandopalette|kommandopaletten]], som indeholder alle tilgængelige funktioner, som du kan anvende med Obsidian. Tryk  `Ctrl/Cmd-P` og begynd på at skrive.
 - Lær vores udgave af Markdown, så du kan [[Formater dine noter|formatere dine noter]].
 - Få nogle tips til at [[Oprette noter|oprette nye noter]].
-- Få nogle tips til at [[Interne links|oprette interne links]].
+- Få nogle tips til at [[Sådan gør du/Interne links|oprette interne links]].
 - Lær at [[Indlejre filer|indlejre andre noter eller vedhæftninger]].
 - Se standard [[Tastaturgenveje|tastaturgenveje]].
 
 ### Officielle plug-ins
 
-![[Plug-in liste#Liste over nuværende officielle plug-ins]]
+![[Kerne plugins#Liste over nuværende officielle plugins]]
 
 ### Avancerede guider
 
-- [[Arbejde med tags]]
-- [[Arbejde med tilbagelinks]]
 - [[Arbejde med flere noter]]
 - [[Panel layout]]
 - [[Arbejde med flere bokse]]
-- [[Arbejde med flere markører]]
 - [[Brug af obsidian URI]]
 

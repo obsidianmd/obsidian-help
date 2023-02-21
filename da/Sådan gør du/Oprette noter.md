@@ -1,7 +1,7 @@
 Noter kan oprettes på forskellige måder afhængig af dit workflow:
 
 1. **Note-først tilgangen**. Hvis du har behov for at oprette en note kan du gøre det i [[Stifinder|stifinderen]]. Tastaturgenvejen er   `Ctrl/Cmd+N`. Hvis du har [[Kommandopalette|kommandopaletten]] aktiveret (Det er den som standard), så tryk `Ctrl/Cmd-p` og skriv ‘new’, og vælg kommandoen: "Opret ny note".
-2. **Link-først tilgangen**. Hvis du kan lide frit at oprette noter, mens du skriver, så brug et [[Interne links|internt link]] til at linke til et hvilket som helst note navn (det behøver ikke eksistere på det tidspunkt hvor linket oprettes). For at skrive i den nye note, som du lige har oprettet, klik på link navnet. Så oprettes noten automatisk i din boks og du er klar til at skrive!
+2. **Link-først tilgangen**. Hvis du kan lide frit at oprette noter, mens du skriver, så brug et [[Sådan gør du/Interne links|internt link]] til at linke til et hvilket som helst note navn (det behøver ikke eksistere på det tidspunkt hvor linket oprettes). For at skrive i den nye note, som du lige har oprettet, klik på link navnet. Så oprettes noten automatisk i din boks og du er klar til at skrive!
 
 ![[Pasted image 3.png]]
 

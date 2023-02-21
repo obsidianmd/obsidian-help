@@ -25,7 +25,7 @@ Dette kan gøres via "Indstillinger -> Kerne plug-ins" i nederste venstre hjørn
 
 ## Skabe vidensnetværk
 
-- [[Interne links|Interne links]]
+- [[Sådan gør du/Interne links|Interne links]]
 - Link auto-udfyldning
 - Se tilbagelinks og ikke-linkede omtaler af nuværende note
 - Grafvisning

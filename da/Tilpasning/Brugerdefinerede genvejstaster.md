@@ -11,3 +11,5 @@ Den hurtigste måde, at se hvilken genvejstast en kommando har, er at finde komm
 ### Tilføje genvejstaster
 
 For at tilføje en genvejstast, fjerne en genvejstast, eller gendanne til standard genvejstasterne skal du gå til "Indstillinger -> Genvejstaster". Bemærk at du også kan filtrere listen, da listen er temmelig lang.
+
+**Note til Ikke-US brugere:** Selv hvis den genvejstast du vælger ikke passer med den du viste på skærmen vil det stadig virke. Det skyldes at den viste genvejstast på skærmen internt benytter et US tastatur layout.
