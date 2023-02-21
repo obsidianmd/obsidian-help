@@ -1,3 +1,8 @@
+---
+aliases:
+- Licenses & Payment/Refund policy
+---
+
 We offer full refunds within 7 days of purchase with no questions asked for the following services and licenses:
 
 - [[Introduction to Obsidian Publish|Obsidian Publish]]

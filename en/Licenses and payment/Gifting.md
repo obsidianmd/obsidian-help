@@ -1,3 +1,8 @@
+---
+aliases:
+- Licenses & Payment/Gifting
+---
+
 Although using Obsidian for personal use is completely free of charge, you can give the gift of Obsidian to someone to help them get an add-on service like [[Introduction to Obsidian Sync|Obsidian Sync]], or to get a [[Commercial license]] so they can use Obsidian for work.
 
 ## Give gift credits

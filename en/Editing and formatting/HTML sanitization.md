@@ -1,3 +1,8 @@
+---
+aliases:
+- Advanced topics/HTML sanitization
+---
+
 Obsidian supports HTML to allow you to display your notes the way you want, or even [[Embedding web pages|embed web pages]]. But allowing HTML inside your notes comes with risks. To prevent malicious code from doing harm, Obsidian _sanitizes_ any HTML in your notes.
 
 The Obsidian team takes security seriously, and as a result, some HTML elements or features may not be available.

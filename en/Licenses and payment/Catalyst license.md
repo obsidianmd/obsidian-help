@@ -1,3 +1,8 @@
+---
+aliases:
+- Licenses & Payment/Catalyst license
+---
+
 While Obsidian is free of charge for personal use, you can support the Obsidian development by purchasing a _Catalyst_ license.
 
 While the Catalyst license doesn't grant you any additional features inside the app itself, you'll receive exclusive benefits, such as:

@@ -1,6 +1,6 @@
 ---
 aliases:
-- Use callouts
+- How to/Use callouts
 ---
 
 Use callouts to include additional content without breaking the flow of your notes.
