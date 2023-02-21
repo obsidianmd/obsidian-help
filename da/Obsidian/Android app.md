@@ -1,28 +1,8 @@
 Denne artikel er forældet og er her kun for at forhindre at ødelægge links i dokumentationen. Få mere at vide om mobil versionen her: [[Synkroniser dine noter på tværs af enheder]].
 
-Android appen er offentlig tilgængelig, og et link til Obsidian i Play butikken kan findes her https://obsidian.md/mobile
+## Synkronisering
 
-## Hvordan synkroniserer jeg mine data?
-Obsidian til Android gemmer alle bokse lokalt i den offentlige dokumentmappe på din enhed. Du kan vælge at benytte [[Obsidian Sync]] til at synkronisere dine filer, eller brug enhver anden tredjeparts udbyder, hvor du har mulighed for at synkronisere med den offentlige dokumentmappe.
-
-### Obsidian Sync
-Som med Obsidian applikationen tilbyder vi en indbygget betalt [[Obsidian Sync]] service.
-
-For at opsætte en synkroniseret boks gennem Obsidian Sync skal du først oprette en ny lokal tom boks. Du skal give den samme navn som boksen på din desktop applikation for at få [[Brug af obsidian URI| URIs]] til at virke.
-
-Når den tomme boks er åbnet, åben den venstre sidebjælke, tryk på knappen til indstillinger, og opsæt Obsidian Sync på samme måde som på PC versionen:
- 1. Log på din Obsidian konto på Konto siden.
- 2. Aktiver "Synkroniser" under "Kerne plug-ins".
- 3. Åben indstillinger, og vælg "Synkroniser" fanen under "Plugin indstillinger".
- 4. Vælg den eksterne boks, som du vil synkronisere med.
- 5. Hold din app åben indtil alle dine filer er blevet synkroniseret.
-
-For at se synkroniseringsstatus i Obsidian Sync, så swipe den rigtige skuffe ud, og du vil kunne se en status indikator på samme måde som på PC versionen. Tryk på indikatoren for at få mere information, f.eks. for at se synkroniseringsloggen, hvis du har brug for at fejlfinde eventuelle problemer.
-
-### Tredjeparts synkronisering
-Du kan også benytte din egen foretrukne synkroniseringsløsning for at holde den lokale mappe på din mobil synkroniseret med andre enheder.
-
-Der er flere apps i Play butikken, som kan synkronisere en mappe på din mobil med andre enheder, f.eks. [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync&hl=en&gl=US) eller [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
+Du kan finde information om synkronisering af din boks på Android her: [[Synkroniser dine noter på tværs af enheder#Synkronisering af noter på Android enheder|Synkronisering af noter på Android enheder]].
 
 ## Adgang til lager
 Når du starter Obsidian har du måske lagt mærke til, at den spørger om tilladelse til at tilgå din enheds filer og medier.

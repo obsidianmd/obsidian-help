@@ -33,7 +33,7 @@ Efter du har tilføjet dit blok ID manuelt, vil `dit-id` blive benyttet i stedet
 
 Bemærk at kun bogstaver, tal og bindestreger er tilladte i manuelle block ID'er.
 
-### Interoperabilitet
+### Kompabilitet
 
 Vær opmærksom på, at blok referencer er ikke en del af standard Markdown syntaks, men en speciel Obsidian udgave af Markdown. Det betyder at disse links ikke vi lvirke udenfor Obsidian.
 

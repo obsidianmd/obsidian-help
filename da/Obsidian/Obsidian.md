@@ -4,7 +4,7 @@ Obsidian er både en Markdown editor og en videnbase applikation.
 
 Brugt på den mest basale måde, kan du redigere og forhåndsvise Markdown filer. Men den 
 
-Hvordan starter vi med at skabe et netværk, kan du måske tænke? Lad os først oprette nogle [[Sådan gør du/Interne links|interne links]]!
+Hvordan starter vi med at skabe et netværk, kan du måske tænke? Lad os først oprette nogle [[Link noter og filer/Interne links|Interne links]]!
 
 ## Hvordan vi adskiller os fra andre
 
@@ -49,7 +49,7 @@ Udover det kan du tilføje isolerede uafhængige bygeklodser som tilføjer funkt
 
 Vi forventer ikke at plug-ins er løsningen til at løse alle problemer, men det får os tættere på, end en monolitisk løsning med en masse funktioner, som du ikke behøver og som gør det uoverskueligt i brug.
 
-Vi understøtter [[Tilpas med CSS|brugerdefineret CSS]] og har et [[Tredjeparts plugins|beta plugin API]], som tillader endnu flere tilpasninger af brugerfladen og support for andre mindre anvendte funktioner.
+Vi understøtter [[Tilpas med CSS|brugerdefineret CSS]] og har et [[Fællesskabs plugins|beta plugin API]], som tillader endnu flere tilpasninger af brugerfladen og support for andre mindre anvendte funktioner.
 
 ## Følg vores udvikling
 

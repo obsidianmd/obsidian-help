@@ -1,6 +1,5 @@
-
-
-
+> [!note]
+> Er under oversættelse til dansk!
 ---
 alias: [Obsidian Sync]
 ---

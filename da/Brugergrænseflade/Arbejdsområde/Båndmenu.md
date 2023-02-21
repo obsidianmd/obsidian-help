@@ -4,7 +4,7 @@ Båndmenuen er det lodrette område helt til venstre i Obsdian og anvendes til a
 
 Hver handling er vist som et ikon i båndmenuen. Føres musemarkøren hen over et ikon vil et værktøjstip blive vist; Et klik eller tryk vil aktivere handlingen.
 
-De øverste handlinger bliver tilføjet af plugins, både [[Kerne plugins]] og [[Tredjeparts plugins]].
+De øverste handlinger bliver tilføjet af plugins, både [[Kerne plugins]] og [[Fællesskabs plugins]].
 
 De nederste tre handlinger er Obsidians systemhandlinger til at:
 

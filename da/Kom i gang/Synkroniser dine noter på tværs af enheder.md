@@ -1,4 +1,3 @@
-
 Synkronisering betyder, at du holder dine noter opdateret på tværs af dine enheder på din desktop computer og din mobil.
 
 Den nemmeste måde at synkronisere dine noter mellem enheder på er at benytte [[Introduktion til Obsidian Sync|Obsidian Sync]]. Hvis du allerede har et Obsidian Sync abonnement, så her her hvordan du kan [[Opsætning af Obsidian Sync|opsætte Obsidian Sync]].
@@ -103,7 +102,7 @@ Hvis du ikke vælger at benytte iCloud drevet, når du opretter din boks, gemmer
 
 **Advarsel:** Alle noter, som er gemt i det lokale filsystem vil blive slettet af iOS, hvis du afinstallerer Obsidian. Sørg for at have en backup af dine noter hvis du vælger at afinstallere Obsidian.
 
-## Synkroniserring af noter på Android enheder
+## Synkronisering af noter på Android enheder
 
 Den nemmeste måde at synkronisere dine noter på din Android enhed er ved at benytte [[Introduktion til Obsidian Sync|Obsidian Sync]].
 

@@ -1,6 +1,4 @@
 
+Obsidians brugergrænseflade er oversat til adskellige sprog af [[Tak til#Oversættere|vores fantastiske oversættere]]. Du kan ændre sproget for brugergrænsefladen enten i **Indstillingher** -> **Om** eller i [[Boksskifter|boksskifteren]].
 
----
-The interface of Obsidian has been translated to various languages by [[Credits#Translators|our amazing volunteer translators]]. You can change the interface language either in Settings → About or in the [[Vault switcher]].
-
-Don’t see your language in the list or seeing untranslated bits? Consider [[Translations|help us translate Obsidian into your language]].
+Hvis du ikke kan finde dit sprog i listen eller finder dele af brugergrænsefladen, som ikke er oversat, så overvej at [[Oversættelser|hjælpe os med at oversætte Obsidian til dit sprog]].

@@ -40,15 +40,12 @@ For at læse mere om udviklerne, se [about](https://obsidian.md/about) siden vor
 
 ### Officielle plug-ins
 
-![[Plug-in liste#Liste over nuværende officielle plug-ins]]
+![[Kerne plugins#Liste over nuværende officielle plugins]]
 
 ### Avancerede guider
 
-- [[Arbejde med tags]]
-- [[Arbejde med tilbagelinks]]
 - [[Arbejde med flere noter]]
 - [[Panel layout]]
 - [[Arbejde med flere bokse]]
-- [[Arbejde med flere markører]]
 - [[Brug af obsidian URI]]
 

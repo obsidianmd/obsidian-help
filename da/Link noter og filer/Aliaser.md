@@ -2,65 +2,61 @@
 aliases: alias, aliaser, Tilføj alias til note
 ---
 
+Hvis du vil referere til en fil under et andet navn, så overvej at tilføje _aliaser_ til noten. Et alias er et alternativt navn for en note.
 
+Brug aliaser til akronymer (Forkortelser), øgenavne, eller til at referere til en not på et andet sprog.
 
----
+## Tilføj et alias til en note
 
-If you want to reference a file using different names, consider adding _aliases_ to the note. An alias is an alternative name for a note.
-
-Use aliases for things like acronyms, nicknames, or to refer to a note in a different language.
-
-## Add an alias to a note
-
-To add an alias for a note, add an `alias`, or `aliases`, property in the note [[YAML front matter|front matter]]:
+Du tilføjer et alias til en note ved at tilføje et `alias`, eller `aliases` metatag i en notes [[YAML markdown metadata]] sektion:
 
 ```md
 ---
-alias: Doggo
+alias: Fido
 ---
 
-# Dog
+# Hund
 ```
 
-You can add multiple aliases using commas:
+Du kan tilføje flere aliaser ved at separere hvert alias med et komma:
 
 ```md
 ---
-aliases: Doggo, Woofer, Yapper
+aliases: Fido, Hvalp, Dog
 ---
 
-# Dog
+# Hund
 ```
 
-Or, you can also add multiple aliases using a YAML array:
+Eller, du kan også tilføje flere aliaser ved at benytte en YAML liste:
 
 ```md
 ---
 aliases: 
-  - Doggo
-  - Woofer
-  - Yapper
+  - Fido
+  - Hvalp
+  - Dog
 ---
 
-# Dog
+# Hund
 ```
 
-## Link to a note using an alias
+## Sådan benyttes et alias til at linke til en note
 
-To link to a note using an alias:
+Du kan linke til en note ved at bruge et alias ved at:
 
-1. Start typing the alias in an [[Internal links|internal link]]. Any alias shows up in the list of suggestions, with a curved arrow icon next to it.
-2. Press `Enter` to select the alias.
+1. Starte med at skrive et alias i et [[Link noter og filer/Interne links|internet link]]. Alle aliaser i listen af forslag har et bøjet-pil ikon ved siden af
+2. Trykke `Retur` for at vælge aliaset
 
-Obsidian creates the link with the alias as its custom display text, for example `[[Artificial Intelligence|AI]]`.
+Obsidian opretter linket med aliaset som dets visningstekst, f.eks. `[[Kunstig intelligens|AI]]`.
 
 > [!note]
-> Rather than just using the alias as the link destination (`[[AI]]`), Obsidian uses the `[[Artificial Intelligence|AI]]` link format to ensure interoperability with other applications using the Wikilink format.
+> Obsidian benytter link formatet `[[Kunstig intelligens|AI]]` i stedet for at benytte aliasets navn som destination for at sikre kompabilitet med applikationer, sombenytter Wikilink formatet.
 
-## Find unlinked mentions for an alias
+## Find ikke-linkede omtaler for et alias
 
-By using [[Backlinks]], you can find unlinked mentions of aliases. 
+Du kan benytte [[Tilbagelinks|tilbagelinks]] til at finde ikke-linkede omtaler af aliaser.
 
-For example, after setting "AI" as an alias for "Artificial intelligence", you can see mentions of "AI" in other notes.
+Hvis du f.eks. benytter "AI" som et alias for "Kunstig inteligens" kan du se linkede omtaler af "AI" i andre noter.
 
-If you link an unlinked mention to an alias, Obsidian turns the mention into an [[Internal links|internal link]] with the alias as its display text.
+Hvis du linker en ikke-linket omtale  til et alias vil Obsidian ændre omtalen til et [[Link noter og filer/Interne links|Internt link]] med aliaset som visningstekst.

@@ -5,107 +5,104 @@ alias:
 - Panel layout
 ---
 
+Du kan åbne lige så mange faner, som du har brug for i Obsidian. Du kan også lave dine egne layouts ved at arrangere fanerne, og dine layouts vil blive husket næste gang du åbner Obsidian.
 
+## Åben en ny fane
 
----
-You can open as many tabs as you want in Obsidian. You can also arrange tabs to create custom layouts that persist until the next time you open the application.
+Vælg **Ny fane** (Plus ikonet) i toppen af applikationsvinduet til højre for den sidste fane. Eller du kan benytte genvejstasten:
 
-## Open a new tab
-
-At the top of the application window, next to the last tab on the right, select **New tab** (plus icon). Or, use a keyboard shortcut:
-
-- **Windows and Linux:** `Ctrl+t`
+- **Windows og Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
 
-## Open a new tab in a new tab group
+## Åben en ny fane i en ny fanegruppe
 
-To open a tab in a new tab group, use the following keyboard shortcuts:
+For at åbne en fane i en ny fanegruppe kan du benytte genvejstasten:
 
-- **Windows and Linux:** `Ctrl+Shift+t`
+- **Windows og Linux:** `Ctrl+Shift+t`
 - **macOS:** `Cmd+Shift+t`
 
-## Open a link
+## Open et link
 
-Select a link in Obsidian to open it in the active tab.
+Vælg et link i Obsidian for at kunne åbne det i den aktive fane.
 
-To open a link in a new tab, press `Ctrl` (or `Cmd` on macOS) and select the link.
+Tryk `Ctrl` (eller `Cmd` pån macOS) og vælg linket for at åbne et link i en ny fane
 
-## Organize your tabs and windows
+## Organiser dine faner og vinduer
 
-Every tab belongs to a _tab group_. You can drag and drop tabs to rearrange them within a tab group, move them to a different tab group, or create a new tab group. On desktop, you can drag tabs out of their window to open them in a separate _popout window_.
+Alle faner tilhører en _fanegruppe_. Du kan omarrangere faner i en fanegruppe ved at trække og slippe dem, flyte faner til en anden fanegruppe, eller oprette en ny fanegruppe. Du kan trække faner ud af deres vindue på desktop versionen af Obsidian for at åbne dem i et separat _popup vindue_.
 
-Tabs in sidebars only show the icon. Hover over the icon to show a tooltip with the tab title.
+Faner i sidepanelet bliver kun vist med et ikon. Før musemarkøren over ikonet for at vise et værktøjstip, der viser fanetitlen.
 
-### Arrange tabs
+## Arranger faner
 
-To change the order of your tabs, drag the tab along the tabs in the tab group. 
+Træk en fane langs de åbne fane ri fanegruppen for at ændre rækkefølgen af dine faner.
 
-As you drag a tab, _drop zones_—areas onto which you can move the tab—become highlighted. The drop zone determines where to insert the tab. Some tabs can only be in of the sidebars.
+Mens du trækker, vil _slip områder_, hvor du kan flytte en fane hen til, blive fremhævet. Slip området viser, hvor det er muligt at indsætte fanen. Nogle faner kan kun fæstnes i et af sidepanelerne.
 
-### Split a tab group
+### Split en fanegruppe
 
-Right-click a tab and select **Split right** or **Split down** to create a new tab group with that tab. 
+Vælg **Split til højre** eller **Split ned** for at oprette en ny fanegruppe med fanen.
 
-You can also split a tab group by dragging a tab to the bottom of another tab.
+Du kan også splitte en fanegruppe ved at trække fanen til bunden af en anden fane.
 
-### Move tab to a new window
+### Flyt en fane til et nyt vindue
 
-**Drag and drop:**
+**Med træk og slip:**
 
-- Select and drag the tab outside of the application window to open it in a new window.
+- Vælg og træk fanen ud af applikationsvinduet for at åben den i et nyt vindue
 
-**Command palette:**
+**Via kommandopaletten:**
 
-- Open the Command Palette, and select **Move current tab to new window**.
+- Åben kommandopaletten og vælg **Flyt nuværende fane til et nyt vindue** 
 
-### Move a tab to a different window
+### Flyt en fane til et andet vindue
 
-To move a tab to another existing window, drag the tab to the window you want to move it to.
+Du kan flytte en fane et et andet vindue ved at trække fanen over på destinationsvinduet.
 
-### Pin a tab
+### Fastgør en fane
 
-To pin a tab, right-click the tab and select **Pin**. Links in a pinned tab always open in a separate tab.
+Højreklik på en fane og vælg **Fastgør** fra popupmenuen for at fastgøre en fane. Links i et fastgjort vindue åbner altid i en separat fane.
 
-To unpin a pinned tab, right-click the tab and select **Unpin**.
+Højreklik på en fane og vælg **Frigør** fra popupmenuen for at frigøre en fane. 
 
-## Switch to a different tab
+## Skift til en anden fane
 
-Select a tab to switch to it. Or, use a keyboard shortcut:
+Vælg en fane ved at klikke med musen på den. Eller benyt en af følgende genvejstaster:
 
-- Press `Ctrl+Tab` to switch to the next tab.
-- Press `Ctrl+Shift+Tab` to switch to the previous tab.
-- Press `Ctrl+1` to switch to the first tab on the left. 
-- Press `Ctrl` together with any number from `2` to `8` to switch to that tab.
-- Press `Ctrl+9` to open the last tab on the right regardless of how many tabs you have.
+- Tryk `Ctrl+Tab` for at skifte til næste fane
+- Tryk `Ctrl+Shift+Tab` for at skifte til forrige fane
+- Tryk `Ctrl+1` for at skifte til den første fane til venstre 
+- Tryk `Ctrl` og et af følgende tal fra `2` til `8` for at skifte til den fane i rækken af åbne faner
+- Tryk `Ctrl+9` for at åbne den sidste fane til højre uanset hvor mane faner du har åbne
 
-To open and switch to a recently closed tab, press `Ctrl+Shift+t` (or `Cmd+Shift+t` on macOS).
+Tryk `Ctrl+Shift+t` (eller `Cmd+Shift+t` på macOS) for at åbne og skifte fokus til den sidst lukkede fane.
 
-## Stack tab groups
+## Grupper faner
 
-You can stack tabs to slide them over other tabs in the same tab group.
+Du kan gruppere faner ved at flytte dem over på andre faner i den samme fanegruppe.
 
-To stack notes, select the down arrow at the upper right corner of the tab group, and then select **Stack notes**.
+Du kan gruppere faner ved at vælge "pil nedad" ikonet i øverste højre hjørne af en fanegruppe og derefter vælge **Grupper noter**.
 
 ![tab-stacks](https://user-images.githubusercontent.com/693981/188205363-0f24b2a5-3706-4a8c-b38b-7a66baa68ce6.gif)
 
-> [!note] Matushak mode
-> Tab stacks are based on [Andy Matushak's sliding notes](https://notes.andymatuschak.org/).
+> [!note] Matushak tilstand
+> Fanegruppering er baseret på [Andy Matushak's sliding notes](https://notes.andymatuschak.org/).
 
-## Linked views
+## Linkede visninger
 
-_Linked views_ are tabs that reference a different tab. When the content of the referenced tab changes, the linked view changes as well.
+_Linkede visninger_ er faner, der refererer til andre faner. Når indholdet af den refererede fane ændres, vil den linkede fane også ændre sig.
 
-For note tabs, you can use the following plugins as linked views:
+For noter i en fane kan du benytte følgende plugins som linkede visninger:
 
-- [[Graph view]] (local)
-- [[Backlinks]]
-- [[Outline]]
+- [[Grafvisning]] (lokalt)
+- [[Tilbagelinks]]
+- [[Disposition]]
 
-To open a linked view for a note tab:
+For at åbne en note i en fane som en linket visning, skal du:
 
-1. Select **More options** (three dots icon) in the upper right corner of the note.
-1. Under **Open linked view**, select the linked view you want to open.
+1. Højreklikke på en fanes titel
+2. Klikke på **Åben linket visning** i popupmenuen og vælge den visning du ønsker at åbne
 
-## Learn more
+## Lær mere
 
-- You can save and restore window layouts using the [[Workspaces]] plugin.
+- Du kan benytte [[Arbejdsområde]] pluginnet til at gemme og gendanne vindue layouts

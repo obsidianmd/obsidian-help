@@ -1,4 +1,4 @@
-Obsidian tillader udviklere at skrive tredjeparts plugins til at udvide Obsidian's funktionalitet.
+Obsidian tillader udviklere at skrive fællesskabs plugins til at udvide Obsidian's funktionalitet.
 
 Lige nu, er plugin API'et i en alfa status. Det betyder at dele af API'et ikke er stabilt og kan blive ændret i fremtidige versioner.
 
@@ -16,7 +16,7 @@ Når du har udviklet dit plugin, kan du tilføje det vores fællesskabsplugin ma
 
 Obsidia har som standard "Begrænset tilstand" aktiveret for at beskytte dig mod potentiel skade fra tredjeparts kode. I "Begrænset tilstand" vil ingen tredjeparts plugins kunne anvendes.
 
-Bemærk at tredjeparts plugins kan tilgå filer på din computer, forbinde til internettet, og endda installere yderligere programmer. Du kan læse mere om plugin sikkerhed [[Tredjeparts plugins#Plugin sikkerhed|her]].
+Bemærk at tredjeparts plugins kan tilgå filer på din computer, forbinde til internettet, og endda installere yderligere programmer. Du kan læse mere om plugin sikkerhed [[Fællesskabs plugins#Plugin sikkerhed|her]].
 
 For at kunne installere tredjeparts plugins skabt af fællesskabet skal du deaktivere "Begrænset tilstand" i "Indstillinger -> Tredjeparts plugins -> Begrænset tilstand".
 

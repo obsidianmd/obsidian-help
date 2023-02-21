@@ -2,94 +2,87 @@
 aliases: Internt link, Link til blokke
 ---
 
+Her kan du lære, hvordan du kan linke til noter, vedhæftninger, og andre filer i dine noter ved at benytte _interne links_. Ved at linke noter kan du danne et netværk af viden.
 
+Obsidian kan automatisk opdatere interne links i din boks, når du omdøber en fil. Hvis du vil spørges hver gang, kan du deaktivere automatisk linkning under **Indstillinger** -> **Filer & links** -> **Opdater automatisk interne links**.
 
----
+## Understøttede formater for interne links
 
-Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge.
+Obsidian understøtter følgende link formater:
 
-Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under **Settings** > **Files & Links** > **Automatically update internal links**.
+-   Wikilink: `[[De tre bevægelseslove]]`
+-   Markdown: `[De tre bevægelseslove](De%20%tre%20%bevægelseslove.md)`
 
-## Supported formats for internal links
-
-Obsidian supports the following link formats:
-
--   Wikilink: `[[Three laws of motion]]`
--   Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
-
-The examples above are equivalent—they appear the same way in the editor, and links to the same note.
+De to måder kan anvendes - De vil se ud på samme måde i visningstilstand og linke til den samme note.
 
 > [!note]
-> When using the Markdown format, make sure to [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the link destination. For example, blank spaces become `%20`.
+> Når du benytter Markdown formatet, så skal du sikre dig at [URL kode](https://en.wikipedia.org/wiki/Percent-encoding) linket til destinationen, så f.eks. mellemrums tegn erstattes med `%20`.
 
-By default, due to its more compact format, Obsidian generates links using the Wikilink format. If interoperability is important to you, you can disable Wikilinks and use Markdown links instead.
+Obsidian genererer links i Wikilink formatet som standard, da det er et mere kompakt format. Hvis kompabilitet er vigtigt for dig, altså at links skal kunne fungere med andre applikationer, kan du deaktivere Wikilinks og benytte Markdownlinks i stedet.
 
-To use the Markdown format:
+Sådan benytter du Markdown formatet:
 
-1. Open **Settings**.
-2. Under **Files & Links**, disable **Use \[\[Wikilink\]\]**.
+1. Åben **Indsillinger**
+2. Deaktiver **Benyt \[\[Wikilink\]\]** under **Filer og links**
 
-Even if you disable the Wikilink format, you can still autocomplete links by typing two square brackets `[[`. When you select one of the suggested files, Obsidian instead generates a Markdown link.
+Selvom du deaktiverer Wikilink formatetkan du stadig benytte autofuldførelse af links ved at skrive to firkantede parenteser `[[`. Når du vælger en af de foreslåede filer, vil Obsidian i stedet generere et Markdown link.
 
-## Link to a file
+## Link til en fil
 
-To create a link while in Editing view, use either of the following ways:
+Du kan oprette et link i redigeringstilstand på en af følgende måder:
 
--   Type `[[` in the editor and then select the file you want to create a link to.
--   Select text in the editor and then type `[[`.
--   Open the [[Command palette]] and then select **Add internal link**.
+- Skrive `[[` i editoren og vælg den fil, du vil lave et link til
+- Vælge noget tekst i editoren og derefter skrive `[[`
+- Åbne [[Kommandopalette|kommandopaletten]] og derefter søge og vælge **Tilføj iternt link**
 
-While you can link to any of the [[accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
+Du kan linke til alle [[Accepterede filformater|accepterede filformater]]; dog skal alle links til andre filformater end Markdown filer (altså Obsidian noter) have inkluderet filtypenavnet, f.eks. `[[Figur 1.png]]`.
 
-## Link to a heading in a note
+## Link til en overskrift i en note
 
-You can link to specific headings in notes, also known as _anchor links_.
+Du kan linke til en specifik overskrift i en note, hvilket kaldes et _anker link_.
 
-To link to a heading, add a hashtag (`#`) at the end of the link destination, followed by the heading text.
+Tilføj et hashtag (`#`) i slutningen af linkdestinationen efterfulgt af overskriftens navn, for at linke til en specifik overskrift
 
-For example, `[[Three laws of motion#Second law]]`.
+F.eks. `[[De tre bevægelseslove#Anden lov]]`.
 
-You can add multiple hashtags for each subheading.
+Du kan tilføje flere hastags for at hver underoverskrift.
 
-For example, `[[My note#Heading 1#Heading 2]]`.
+F.eks. `[[Min note#Overskrift 1#Overskrift 2]]`.
 
-## Link to a block in a note
+## Link til en blok i en note
 
-A block is a unit of text in your note, for example a paragraph, block quote, or even a list item.
+En blok er en tekstenhed i din note, f.eks. et afsnit, et blok citat, eller en liste.
 
-You can link to a block by adding `#^` at the end of your link destination followed by a unique block identifier, for example, `[[2023-01-01#^37066d]]`.
+Du linker til en blok ved at tilføje `#^` i slutningen af link destinationen efterfulgt af en unik blokidentifikator, f.eks.  `[[2023-01-01#^37066d]]`.
 
-Fortunately, you don't need to know the identifier. When you type the caret (`^`), you can select the block from a list of suggestions to insert the right identifier.
+Heldigvis behøver du ikke at kende blokidentifikatoren. Når du skriver tegnet (`^`) kan du vælge den ønskede blok fra en liste af forslag, så du kan indsætte den korrekte identifikator.
 
-You can also create human-readable block identifiers by adding ` ^quote-of-the-day` at the end of a block. Note the blank space before the caret. Now you can instead link to the block by typing `[[2023-01-01#^quote-of-the-day]]`.
+Du kan selv oprette læsbare blok identifikatorer ved at tilføje f.eks.  ` ^dagens-citat` i slutningen af en blok. Bemærk det ene mellemrum før `^`. Derefter kan du indsætte et link til denne blok ved at skrive: `[[2023-01-01#^dagens-citat]]`.
 
-Block identifiers can only consist of letters, numbers, and dashes.
+Blok identifikatorer må kun indeholde bogstaver, tag og bindestreg (Og altså ikke mellemrum).
 
-> [!warning] Interoperability
-> Block references are specific to Obsidian and not part of the standard Markdown format. Links containing block references won't work outside of Obsidian.
+> [!warning] Kompabilitet
+> Blok referencer er en Obsidian specifik feature og er ikke en del af Markdown standardformatet. Det betyder, at links der indeholder blok referencer ikke vil virke udenfor Obsidian.
 
-## Change the link display text
+## Skift visningstekst for et link
 
-You can change the text used to display a link. This can be useful when you want to work a link into a sentence without using the name of the file.
+Du kan ændre teksten, som benyttes til at vise linket. Det er brugbart, når du vil indsætte et link i en sætning uden at anvende navnet på destinationsfilen.
 
 **Wikilink format:**
 
-You can use the vertical bar (`|`) to change the text used to display a link.
+Skriv en lodret streg  (`|`) for at ændre teksten, der anvendes til at vise et link.
 
-For example, `[[Internal links|custom display text]]` appears as [[Internal links|custom display text]].
+F.eks.  vil `[[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]]` vises som [[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]].
 
 **Markdown format:**
 
-Enter the display text between the square brackets (`[]`).
+Skriv den ønskede visningstekst mellem to firkantede paranteser (`[]`).
 
-For example, `[custom display text](Internal%20links.md)` appears as [custom display text](Internal%20links.md).
+F.eks. vi l`[brugerdefineret linktekst](Interne%20links.md)` vises som [brugerdefineret linktekst](Interne%20links.md).
 
-## Preview a linked file
+## Forhåndsvis en linket fil
 
 > [!note]
-> To preview linked files, you first need to enable [[Page preview]].
+> For at kunne forhåndsvise linkede filer skal du først aktivere: [[Forhåndsvisning af note]].
 
-To preview a linked file, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
-
-
-
+For at forhåndsvise en linket fil skal du trykke `Ctrl` (eller `Cmd` på macOS) mens du fører musemarkøren over linket. Et popup vindue indeholdende forhåndsvisningen bliver vist ved siden af musemarkøren.
