@@ -17,10 +17,10 @@ If you are creating your own theme, you can do this by:
 
 For more information on how to customize styles of the graph, you can find more information in [[Graph view]].
 
-### Use Themes and/or CSS snippets
+### Use themes and/or CSS snippets
 
 You can find this configuration in `Settings` => `Appearance`. You can choose a community theme or set the theme you developed yourself. If you set a community theme, it will be automatically placed in the correct folder. If you develop your own theme, you have to put it in the shown folder location yourself.
 
-CSS snippets are supposed to be small pieces of CSS for small changes you want to make/things you want to add. These snippets have to be placed in the shown folder.
+CSS snippets are intended for small visual changes you want to make to the default theme, or community theme. These snippets have to be placed in the `/.obsidian/snippets` folder.
 
-You can go to the respective directories by clicking on the folder buttons. If the folder isn't created yet, it will be. In case your snippets or theme don't show up after you've put them there, you can click the button next to the folder icon to refresh the list.
+You can open the theme or snippet folder by clicking on the folder buttons in the Appearance settings. If the folder isn't created yet, it will be. In case your snippets or theme don't show up after you've put them there, you can click the button next to the folder icon to refresh the list.
