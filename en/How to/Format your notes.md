@@ -27,7 +27,7 @@ Embed another file (read more about [[Embedding files]]):
 
 ---
 
-### Headers
+### Headings
 
 ```md
 # This is a heading 1

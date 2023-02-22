@@ -17,7 +17,7 @@ You can evaluate Obsidian for commercial use for 14 days. You don't need to pay 
 
 To purchase a commercial license, visit the [pricing page](https://obsidian.md/pricing).
 
-For bulk discounts, [[Help & Support#Contact Obsidian support|contact Obsidian support]].
+For bulk discounts, [[Help and support|contact Obsidian support]].
 
 ### FAQ
 
