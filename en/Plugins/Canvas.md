@@ -2,9 +2,6 @@ Canvas is a tool for visual note-taking. Lay out notes and other resources on an
 
 Visual note-taking allows you to use visual aspects, such as size and position, to make sense of your notes. Connect notes with lines and group related notes together to better understand the relationship between them.
 
-> [!info] Only for Obsidian desktop
-> Canvas is only available in Obsidian for desktop.
-
 ## Create a new canvas
 
 To start using Canvas, you first need to create a file to hold your canvas. You can create a new canvas using the following methods.
