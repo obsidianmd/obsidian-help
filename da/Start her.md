@@ -8,12 +8,12 @@ Hvis du skal skynde dig, så er her nogle hurtige steder, du kan dykke ned i:
 
 - [[Kommandopalette|Kommandopaletten]] indeholder de fleste kommandoer, som du har brug for, når du arbejder med Obsidian. bare tryk `Ctrl/Cmd-P` og begynd at skrive.
 - Sådan [[Oprette noter|opretter du noter]]
-- Sådan laver du [[Sådan gør du/Interne links|interne links]]
+- Sådan laver du [[Link noter og filer/Interne links|interne links]]
 - Sådan benytter du markdown til at [[Formater dine noter|formatere dine noter]]
 - Sådan [[Indlejre filer|indlejrer du filer]], eller indlejrer andre noter
 - [[Tastaturgenveje]]
 - Sådan [[Arbejde med flere noter|åbner du flere noter ved siden af hinanden]]
-- Obsidian kan udvides med [[Plug-in liste|plug-ins]]. Flere er tilgængelige som standard, og kan aktiveres eller deaktiveres afhængig af dine behov.
+- Obsidian kan udvides med [[Kerne plugins|plug-ins]]. Flere er tilgængelige som standard, og kan aktiveres eller deaktiveres afhængig af dine behov.
 
 Hvis du vil have en mere udførlig introduktion, inklusiv en smule om vores filosofi, så læs her om [[Obsidian]].
 

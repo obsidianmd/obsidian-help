@@ -1,41 +1,38 @@
+I denne guide kan du læse om, hvordan du aktiverer [[Introduktion til Obsidian Sync|Obsidian Sync]] for din boks, så den bliver synkroniseret med en [[Lokal- og fjernbokse|fjernboks]].
 
+### Forudsætninger
 
----
-In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for your vault and synchronize it with a [[Local and remote vaults|remote vault]].
+- En Obsidian konto. Hvis ikke du har en, så [opret en](https://obsidian.md/account#mode=signup)
+- Et aktivt Obsidian Sync abonnement. hvis du ikke har et, så kan du oprette et på din [kontoside](https://obsidian.md/account)
 
-### Prerequisites
+## Log ind med din Obsidian konto
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Sync subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
+1. Åben **Indstillinger**
+2. Klik på **Om** i sidepanelet
+3. Klik på **Log ind** under **Konto -> Din Konto**
+4. Skriv din **Email**
+5. Skriv dit **Kodeord**
+6. Klik på **Log ind**
 
-### Log in with your Obsidian account
+### Aktiver Obsidian Sync
 
-1. Open **Settings**.
-1. In the sidebar, click **About**.
-1. Under **Account > Your Account**, click **Log in**.
-1. In **Email**, enter your email.
-1. In **Password**, enter your password.
-1. Click **Login**.
+1. Åben **Indstillinger**
+2. Klik på **Kerne plugins** i sidepanelet
+3. Aktiver **Sync**
 
-### Enable Obsidian Sync
+## Opret en ny fjernboks
 
-1. Open **Settings**.
-1. In the sidebar, click **Core plugins**.
-1. Enable **Sync**.
+1. Åben **Indstillinger**
+2. Klik på **Sync** i sidepanelet
+3. Klik på **Vælg** ved siden af **Fjernboks**
+4. Klik på **Opret ny boks**
+5. Skriv navnet på fjernboksen i tekstfeltet ved **Navn på boks**
+6. Skriv kodeordet i tekstfeltet ved **Kodeord til kryptering**. Dette opretter en slutpunkt-til-slutpunkt (end-to-end) krypteret boks. Kodeordet til boksen bør ikke være det samme som kodeordet til din Obsidian konto, og kan være forskelligt for hver boks. Læs guiden: [[Obsidian Sync/Sikkerhed og privatliv|Sikkerhed og privatliv]] for at få mere information
+7. Klik **Opret**
 
-### Create a new remote vault
+## Forbind din lokale boks til en fjernboks
 
-1. Open **Settings**.
-1. In the sidebar, click **Sync**.
-1. Next to **Remote vault**, click **Choose**.
-1. Click **Create new vault**.
-1. In **Vault name**, enter the name of the remote vault.
-1. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
-1. Click **Create**.
-
-### Connect to a remote vault
-
-1. Next to your newly created vault, click **Connect**.
-1. In **Encryption password**, enter the password you configured for the vault.
-1. Click **Unlock vault**.
-1. Click **Start syncing**.
+1. Ved siden af din nyligt oprettede boks skal du klikke på **Forbind**
+2. Skriv det kodeord, du konfigurerede boksen med, i tekstfeltet ved siden af **Kodeord**
+3. Klik på **Lås boks op**
+4. Klik på **Start synkronisering**
