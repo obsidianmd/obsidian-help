@@ -36,5 +36,5 @@ Community plugins undergo an initial review when they're submitted to the plugin
 Instead, we rely on the help of the community to identify and report issues with plugins.
 
 - If you find any security flaws with a community plugin, create an issue on the plugin repository on GitHub.
-- If you suspect that a community plugin is malicious, report it to [[Help & Support#Contact Obsidian support|Obsidian support]], or by sending a DM to our moderators.
+- If you suspect that a community plugin is malicious, report it to [[Help and support#Contact Obsidian support|Obsidian support]], or by sending a DM to our moderators.
 
