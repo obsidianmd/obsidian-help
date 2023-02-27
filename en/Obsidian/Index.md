@@ -2,9 +2,9 @@
 
 Welcome to Obsidian's official help vault! This page contains a quick index to the things that you may be interested in.
 
-See public hosted version: https://publish.obsidian.md/help
+To read a public hosted version, go to https://publish.obsidian.md/help
 
-If you found mistakes or missing information, you can contribute to this site here: https://github.com/obsidianmd/obsidian-docs/
+If you find any mistakes or missing information, you can contribute fixes to the site at https://github.com/obsidianmd/obsidian-docs/
 
 ## Other languages
 
