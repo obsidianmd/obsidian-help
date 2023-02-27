@@ -16,7 +16,7 @@ The Catalyst license consists of three tiers: *Insider*, *Supporter*, and *VIP*.
 | Benefits                                                                              | Insider | Supporter |   VIP    |
 |---------------------------------------------------------------------------------------|:-------:|:---------:|:--------:|
 | Early access to Insider builds                                                        |    ✓    |     ✓     |    ✓     |
-| Access to exclusive development channels, `#insider-desktop` and `insider-mobile` |    ✓    |     ✓     |    ✓     |
+| Access to exclusive development channels, `#insider-desktop` and `#insider-mobile` |    ✓    |     ✓     |    ✓     |
 | Access to exclusive lounge channel, `#vip-lounge`                                 |         |     ✓     |    ✓     |
 | Insider community badge                                                               |    ✓    |           |          |
 | Supporter community badge                                                             |         |     ✓     |          |
