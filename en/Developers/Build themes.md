@@ -18,5 +18,5 @@ Share what you've built in the `#appearance` channel on our Discord server, or i
 
 If you get stuck, or if you're looking for feedback, [join the community](https://obsidian.md/community).
 
-- `#appearance`, `#appearance-dev`, and `#theme-dev` channels on Discord.
+- `#appearance`, and `#theme-dev` channels on Discord.
 - [Developers & API](https://forum.obsidian.md/c/developers-api/14) and [Share & showcase](https://forum.obsidian.md/c/share-showcase/9) on the forum.
