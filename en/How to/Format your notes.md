@@ -357,12 +357,12 @@ If you put links in tables, they will work, but if you use [[Aliases|aliases]], 
 ```md
 First Header | Second Header
 ------------ | ------------
-[[Format your notes\|Formatting]]	|  [[Keyboard shortcuts\|hotkeys]]
+[[Format your notes\|Formatting]]	|  [[Custom hotkeys\|hotkeys]]
 ```
 
 First Header | Second Header
 ------------ | ------------
-[[Format your notes\|Formatting]]	|  [[Use hotkeys\|hotkeys]]
+[[Format your notes\|Formatting]]	|  [[Custom hotkeys\|hotkeys]]
 
 If you want to resize images in tables, you need to escape the pipe with a `\`:
 

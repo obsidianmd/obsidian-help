@@ -36,7 +36,6 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 - Check out some tips on [[Create notes|creating new notes]].
 - Check out some tips on [[Internal links|creating internal links]].
 - Learn how to [[Embedding files|embed other notes or attachments]].
-- See the [[Use hotkeys|default keyboard shortcuts]].
 
 ### Official plugins
 
