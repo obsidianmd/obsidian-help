@@ -1,21 +1,21 @@
 Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver i det mindste på det!).
 
-### Teamet
+## Teamet
 
-#### Udvikling
+### Udvikling
 
 - Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
 - liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span><span class='flair mod-pop'>Plugin API Master</span><span class='flair mod-pop'>Volcano Veteran</span>
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
 - joethei ([Johannes Theiner](https://joethei.xyz/))
 
-#### Produktion og drift
+### Produktion og drift
 
 - Silver (Erica Xu)<span class='flair mod-pop'>Team Little Silvers</span>
 - kepano ([Stephan Ango](https://stephanango.com/))
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))
 
-### Moderatorer
+## Moderatorer
 
 - argentum<span class='flair mod-pop'>Team Little Silvers</span><span class='flair mod-pop'>Linux master</span><span class='flair mod-pop'>Zotero master</span> ^a4b3a2
 - cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
@@ -37,12 +37,12 @@ Vi krediterer følgende plugin udviklere for deres banebrydende funktioner som e
 - NothingIsLost for flere CodeMirror 6 forbedringer
 - mgmeyers for "Indentation Guides" pluginnet
 
-### Builds
+## Builds
 
 - jstone for at vedligeholde vores builds på flathub
 - adamgibbins ogran-dall for at vedligeholde vores builds på homebrew
 
-### Oversættere
+## Oversættere
 
 - Andrea Brandi (Italian)
 - canzi-teacher, 蚕子 (Chinese Simplified)
@@ -57,7 +57,7 @@ Vi krediterer følgende plugin udviklere for deres banebrydende funktioner som e
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
 
-### Dokumentation
+## Dokumentation
 
 Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser er skrevet af [@mediapathic](http://mediapathic.net), med stor hjælp fra Reggie. Vi har også fået rettelser fra de mange øjne på Discord og i forumfællesskabet.
 
@@ -67,13 +67,13 @@ Vi accepterer nu "pull requests" af hjælpeboksen i [vores dokumentations GIT re
 
 Denne danske version er opdateret: 27. februar 2023
 
-#### Tilføj dit navn
+### Tilføj dit navn
 
 Hvis du er oversætte, så lav en "pull request" og tilføj "Dit navn (navnet på det sproget)" til sektionen ovenfor. Prøv at holde navnelisten alfabetisk, tak!
 
 Hvis dit navn ikke er på engelsk eller kan listes alfabetisk, så benyt formatet: `dit-github-brugernavn, [Dit navn p ådit sprog] (Navn på sprog)`.
 
-### Tredjeparts krediteringer
+## Tredjeparts krediteringer
 
 Obsidian logoet er tilpaset ud fra:
 
@@ -83,107 +83,107 @@ License: Attribution 3.0 Unported (CC BY 3.0)
 
 Obsidian benytter nedenstående open source biblioteker (i alfabetisk rækkefølge):
 
-#### Capacitor
+### Capacitor
 
 MIT License
 Copyright (c) 2017-present Drifty Co.
 
-#### CodeMirror
+### CodeMirror
 
 MIT License
 Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@adrianheine.de>, and others
 
-#### DOMPurify
+### DOMPurify
 
 https://github.com/cure53/DOMPurify
 Licensed under the Mozilla Public License version 2.0
 http://mozilla.org/MPL/2.0/
 
-#### Electron
+### Electron
 
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
 
-#### i18next
+### i18next
 
 The MIT License (MIT)
 Copyright (c) 2022 i18next
 
-#### Lezer
+### Lezer
 
 MIT License
 Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
-#### Lucide
+### Lucide
 
 ISC License
 Copyright (c) 2020, Lucide Contributors
 
-#### MathJax
+### MathJax
 
 Apache License 2.0
 
-#### Mermaid
+### Mermaid
 
 The MIT License (MIT)
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
-#### Moment.js
+### Moment.js
 
 MIT License
 Copyright (c) JS Foundation and other contributors
 
-#### nspell
+### nspell
 
 The MIT License
 Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>
 
-#### pdf.js
+### pdf.js
 
 Apache License 2.0
 
-#### PixiJS
+### PixiJS
 
 The MIT License
 Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
-#### Prism
+### Prism
 
 MIT LICENSE
 Copyright (c) 2012 Lea Verou
 
-#### rbush
+### rbush
 
 MIT License
 Copyright (c) 2016 Vladimir Agafonkin
 
-#### remark
+### remark
 
 The MIT License
 Copyright (c) 2014-2020 Titus Wormer <tituswormer@gmail.com>
 Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
 
-#### reveal.js
+### reveal.js
 
 The MIT License
 Copyright (C) 2011-2022 Hakim El Hattab, http://hakim.se, and reveal.js contributors
 
-#### scrypt
+### scrypt
 
 Apache License 2.0
 
-#### Turndown
+### Turndown
 
 MIT License
 Copyright (c) 2017 Dom Christie
 
-#### Webpack
+### Webpack
 
 MIT License
 Copyright JS Foundation and other contributors
 
-#### YAML
+### YAML
 
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>

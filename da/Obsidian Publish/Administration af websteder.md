@@ -1,44 +1,40 @@
-> [!note]
-> Er under oversættelse til dansk!
+Denne side forklarer, hvordan du administrerer [[Introduktion til Obsidian Publish|Obsidian Publish]] websteder.
 
----
-This page explains how to manage [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+Et websted er en samling noter, som er hostet af Obsidian Publish og sjort tilgængelig på internettet, enten gennem en Obsidian Puiblish adresse eller et [[Opsætning på eget domæne±eget domæne]].
 
-A site is a collection of notes that's hosted by Obsidian Publish and available online, either through a Obsidian Publish address or a [[Set up a custom domain|custom domain]].
+## Opret et nyt websted
 
-## Create a new site
+**Note:** Antallet af websteder, du kan have på samme tid, er bestemt af dit Obsidian Publish abonnement. Undersøg først om dit abonnement tillader det, før du opretter et nyt websted.
 
-**Note:** The number of sites that you can have at the same time is determined by your Obsidian Publish subscription. Before you create a new site, make sure that your subscription allows it.
+1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
+2. Klik på **Skift websted** (pile ikonet), hvis du allerede har et eksisterende websted
+3. Skriv den sti, som du ønsker for dit websted, i **Rediger websteds ID**. F.eks. vil et websted med ID `mit-fantastiske-websted` blive gjort tilgængeligt på `publish.obsidian.md/mit-fantastiske-websted`
+4. Klik **Opret**
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. If you already have an existing site, click **Switch site** (arrows icon).
-3. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from publish.obsidian.md/my-amazing-site.
-4. Click **Create**.
+## Slet et eksisterende websted
 
-## Delete an existing site
+**Note:** Noter forbliver i din boks selv efter, at du har slettet et websted.
 
-**Note:** Notes remain in your vault even after you delete a site.
+1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
+2. Klik på **Skift websted** (pile ikonet)
+3. Klik på **Slet websted** (kryds ikonet) ved siden af det websted, som du vil slette
+4. Klik på **Slet** for at godkende sletningen
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. Click **Switch site** (arrows icon).
-3. Click **Delete site** (cross icon) to the right of the site you want to delete.
-4. Click **Delete** to confirm.
+## Skift mellem websteder
 
-## Switch between sites
+1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
+2. Klik på **Skift websted** (pile ikonet)
+3. Klik på **Vælg** for at skifte til det valgte websted
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. Click **Switch site** (arrows icon).
-3. Click **Choose** to the right of the site you want to switch to.
+## Skift ID for et websted
 
-## Change the site ID
+1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
+2. Klik på **Skift websted** (pile ikonet)
+3. Klik på **Rediger websteds ID** (blyants ikonet) ved siden af det websted, hvor du vil ændre ID'et for
+4. I **Websteds ID** skriver du det nye ID for dit websted
+5. Klik på **Skift**
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. Click **Switch site** (arrows icon).
-3. Click **Edit site ID** (pen icon) to the right of the site you want to edit.
-4. In **Site ID**, enter the new ID for your site.
-5. Click **Change**.
+## Vis indstillinger for et websted
 
-## View site options
-
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
+1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
+2. Klik på **Websteds indstillinger** (tandhjuls ikonet) i **Udgiv ændringer** dialogen

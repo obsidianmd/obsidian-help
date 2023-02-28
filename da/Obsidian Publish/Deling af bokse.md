@@ -1,6 +1,7 @@
 > [!note]
 > Er under oversættelse til dansk!
 
+
 ---
 Learn how to collaborate on your [[Introduction to Obsidian Publish|Obsidian Publish]] site with other Obsidian users. By adding your friends and colleagues as collaborators, they can publish changes to your site.
 

@@ -4,7 +4,7 @@ Denne artikel er forældet og er her kun for at forhindre at ødelægge links i 
 
 Du kan finde information om synkronisering af din boks på Android her: [[Synkroniser dine noter på tværs af enheder#Synkronisering af noter på Android enheder|Synkronisering af noter på Android enheder]].
 
-## Adgang til lager
+## Adgangsrettigheder
 Når du starter Obsidian har du måske lagt mærke til, at den spørger om tilladelse til at tilgå din enheds filer og medier.
 
 I den ideelle verden ville vi foretrække kun at bede om adgang til de boksmapper, som du vælger. Men, Andorids privat-venlige filtillladelses API (også kaldet "scoped storage") har nogle få restriktioner som gør det umuligt for Obsidian til at fungere ordentlig, hvis ikke vi har fuld adgang.
