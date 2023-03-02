@@ -1,6 +1,6 @@
 Panes can be linked together. This has two main effects:
 
-- By default, when opening a new [[Read and edit modes|reading pane]] from an editing pane, the new pane is linked to the old one. This means that any changes you make in the editor will show up in the reading pane in real time. It also means that scrolling one will scroll the other.
+- By default, when opening a new [[Editing and previewing Markdown#Editor views|reading view]] from an editing view, the new pane is linked to the old one. This means that any changes you make in the editor will show up in the reading pane in real time. It also means that scrolling one will scroll the other.
 
 - When a new [[Backlinks#Open a linked backlinks pane|Backlink Pane]] is created from a note, it will be linked to that note. This means that [[backlinks]] will always be shown for the note that is in that pane. This is useful if you want to reference a set of [[backlinks]] but let the regular backlink panel change with whatever other note you are working on.
 
