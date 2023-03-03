@@ -1,3 +1,8 @@
+---
+aliases:
+- Licenses & Payment/Commercial license
+---
+
 If you're using Obsidian for commercial use in a company of two (2) or more employees, you need to purchase a Commercial license.
 
 Commercial use includes, but isn't limited to, work-related activities such as:

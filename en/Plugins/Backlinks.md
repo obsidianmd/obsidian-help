@@ -1,5 +1,6 @@
 ---
-alias: Working with backlinks
+aliases: 
+- How to/Working with backlinks
 ---
 
 With the Backlinks plugin, you can see all the _backlinks_ for the active note.
