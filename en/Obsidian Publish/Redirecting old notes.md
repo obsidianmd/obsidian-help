@@ -21,3 +21,15 @@ alias: Guides/Making friends
 
 > [!important]
 > Make sure that you include the full path to the old note in the alias. While using only the note name as an alias works in your local vault, Publish needs the full path to the note to be able to redirect to it.
+
+You can redirect multiple notes by adding an alias for each.
+
+```md
+---
+aliases: 
+  - Guides/Making friends
+  - Developing friendships
+---
+
+# How to make friends
+```
