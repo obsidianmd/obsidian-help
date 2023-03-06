@@ -1,6 +1,12 @@
+---
+alias: How to/Format your notes
+---
+
+Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Advanced formatting syntax]].
+
 ## Headings
 
-To create a heading, add up to six `#` symbols before you heading text. The number of `#` symbols determines the size of the heading.
+To create a heading, add up to six `#` symbols before your heading text. The number of `#` symbols determines the size of the heading.
 
 ```md
 # This is a heading 1
@@ -29,7 +35,6 @@ To create a heading, add up to six `#` symbols before you heading text. The numb
 | Highlight | `== ==` |  `==Highlighted text==` | ==Highlighted text== |
 | Bold and nested italic | `** **` and `_ _`  | `**Bold text and _nested italic_ text**` | **Bold text and _nested italic_ text** |
 | Bold and italic | `*** ***` or `___ ___` |  `***Bold and italic text***` | ***Bold and italic text*** |
-
 
 ## Quotes
 
@@ -160,28 +165,42 @@ If you only specify the width, the image scales according to its original aspect
 You can create an unordered list by adding a `-`, `*`, or `+` before the text.
 
 ```md
-- Siberian husky
-- German shephard
-- Pomeranian
+- First list item
+- Second list item
+- Third list item
 ```
 
-- Siberian husky
-- German shephard
-- Pomeranian
+- First list item
+- Second list item
+- Third list item
 
 To create an ordered list, start each line with a number followed by a `.` symbol.
 
 ```md
-1. Siberian husky
-2. German shephard
-3. Pomeranian
+1. First list item
+2. Second list item
+3. Third list item
 ```
 
-1. Siberian husky
-2. German shephard
-3. Pomeranian
+1. First list item
+2. Second list item
+3. Third list item
 
-### Nested lists
+You can create a nested list by indenting one of more list items.
+
+```md
+1. First list item
+   1. Ordered nested list item
+2. Second list item
+   - Unordered nested list item
+```
+
+1. First list item
+   1. Ordered nested list item
+2. Second list item
+   - Unordered nested list item
+
+You can press `Tab` or `Shift+Tab` to indent or unindent one of more selected list items.
 
 ### Task lists
 
@@ -195,7 +214,9 @@ To create a task list, start each list item with a hyphen and space followed by 
 - [x] This is a completed task.
 - [ ] This is an incomplete task.
 
-> [!tip] 
+You can toggle a task in Reading view by selecting the checkbox.
+
+> [!tip]
 > You can use any character inside the brackets to mark it as complete.
 >
 > ```md
@@ -207,9 +228,50 @@ To create a task list, start each list item with a hyphen and space followed by 
 > - [x] Milk
 > - [?] Eggs
 > - [-] Eggs
- 
+
+## Horizontal bar
+
+You can use `***`, `---`, or `___` on its own line to add a horizontal bar.
+
+---
 
 ## Footnotes
 
-## Ignore Markdown formatting
+You can add footnotes[^footnote] to your notes using the following syntax:
 
+[^footnote]: This is a footnote.
+
+```md
+This is a simple footnote[^1].
+
+[^1]: This is the referenced text.
+[^2]: Add 2 spaces at the start of each new line.
+  This lets you write footnotes that span multiple lines.
+[^note]: Named footnotes still appears as numbers, but can make it easier to identify and link references.
+```
+
+You can also inline footnotes in a sentence. Note that the caret goes outside the brackets.
+
+```md
+You can also use inline footnotes. ^[This is an inline footnote.]
+```
+
+## Comments
+
+You can add comments by wrapping text with `%%`. Comments are only visible in Editing view.
+
+```md
+This is an %%inline%% comment.
+
+%%
+This is a block comment.
+
+Block comments can span multiple lines.
+%%
+```
+
+## Learn more
+
+To learn more advanced formatting syntax, such as tables, diagrams, and math expressions, refer to [[Advanced formatting syntax]].
+
+To learn more about how Obsidian parses Markdown, refer to [[Obsidian Flavored Markdown]].

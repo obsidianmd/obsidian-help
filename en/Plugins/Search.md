@@ -48,9 +48,9 @@ Some operators even allow you to add a nested search term within parentheses, fo
 | `line:`         | Find matches on the same line.<p/>Example: `line:(mix flour)`.                                                                                                                                                       |
 | `block:`        | Find matches in the same block.<p/>Example: `block:(dog cat)`.<p/>**Note**: Since `block:` requires Search to parse the Markdown content in every file, it can cause your search term to take longer time to finish. |
 | `section:`      | Find matches in the same section (text between two headings).<p/>Example: `section:(dog cat)`.                                                                                                                         |
-| `task:`         | Find matches in a [[Format your notes#Task list\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                          |
-| `task-todo:`    | Find matches in an *uncompleted* [[Format your notes#Task list\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                      |
-| `task-done:`    | Find matches in a *completed* [[Format your notes#Task list\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
+| `task:`         | Find matches in a [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                          |
+| `task-todo:`    | Find matches in an *uncompleted* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                      |
+| `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
 
 ## Use regular expressions in search terms
 

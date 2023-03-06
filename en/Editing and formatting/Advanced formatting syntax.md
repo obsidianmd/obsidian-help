@@ -1,81 +1,74 @@
+Learn how to add advanced formatting syntax to your notes.
+
 ## Tables
 
-You can create tables by assembling a list of words and dividing the header from the content with hyphens, `-`, and then separating each column with a pipe `|`:
+You can create table using vertical bars (`|`) and hyphens (`-`). Vertical bars separate columns, and hyphens define the column header.
 
 ```md
-|First Header | Second Header|
-|------------ | ------------|
-|Content from cell 1 | Content from cell 2|
-|Content in the first column | Content in the second column|
+| First name | Last name |
+| ---------- | --------- |
+| Max        | Planck    |
+| Marie      | Curie     |
 ```
 
-|First Header | Second Header|
-|------------ | ------------|
-|Content from cell 1 | Content from cell 2|
-|Content in the first column | Content in the second column|
+| First name | Last name |
+| ---------- | --------- |
+| Max        | Planck    |
+| Marie      | Curie     |
 
-The vertical bars at the start and end of a line are optional.
+The vertical bars or either side of the table are optional.
+
+Cells don't need to be perfectly aligned with the columns. Each header row must have at least two hyphens.
 
 ```md
-First Header | Second Header
------------- | ------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+First name | Last name
+-- | --
+Max | Planck
+Marie | Curie
 ```
 
-This results in the same table as the one above.
+### Format content within a table
 
----
+You can use [[basic formatting syntax]] to style content within a table.
+
+First column | Second column
+-- | --
+[[Internal links]] | Link to a file _within_ your **vault**.
+[[Embedding files]] | ![[og-image.png\|200]]
+
+> [!note] Vertical bars in tables
+> If you want to use [[aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
+>
+> ```md
+> First column | Second column
+> -- | --
+> [[Basic formatting syntax\|Markdown syntax]] | ![[og-image.png\|200]]
+> ```
+>
+> First column | Second column
+> -- | --
+> [[Basic formatting syntax\|Markdown syntax]] | ![[og-image.png\|200]]
+
+You can align text to the left, right, or center of a column by adding colons (`:`) to the header row.
 
 ```md
-Tables can be justified with a colon | Another example with a long title | And another long title as a example
-:----------------|-------------:|:-------------:
-because of the `:` | these will be justified |this is centered
+Left-aligned text | Center-aligned text | Right-aligned text
+:-- | :--: | --:
+Content | Content | Content
 ```
 
-Tables can be justified with a colon | Another example with a long title | And another long title as a example
-:----------------|-------------:|:-------------:
-because of the `:` | these will be justified |this is centered
-
-If you put links in tables, they will work, but if you use [[Aliases|aliases]], the pipe must be escaped with a `\` to prevent it being read as a table element.
-
-```md
-First Header | Second Header
------------- | ------------
-[[Format your notes\|Formatting]]	|  [[Keyboard shortcuts\|hotkeys]]
-```
-
-First Header | Second Header
------------- | ------------
-[[Format your notes\|Formatting]]	|  [[Use hotkeys\|hotkeys]]
-
-If you want to resize images in tables, you need to escape the pipe with a `\`:
-
-```md
-Image | Description
------ | -----------
-![[og-image.png\|200]] | Obsidian
-```
-
-Image | Description
------ | -----------
-![[og-image.png\|200]] | Obsidian
-
+Left-aligned text | Center-aligned text | Right-aligned text
+:-- | :--: | --:
+Content | Content | Content
 
 ## Diagram
 
-Obsidian uses [Mermaid](https://mermaid-js.github.io/) to render diagrams and charts. Mermaid also provides [a helpful live editor](https://mermaid-js.github.io/mermaid-live-editor).
-Mermaid provides the following diagram types:
+You can add diagrams and charts to your notes, using [Mermaid](https://mermaid-js.github.io/). Mermaid supports a range of diagrams, such as [flow charts](https://mermaid.js.org/syntax/flowchart.html), [sequence diagrams](https://mermaid.js.org/syntax/sequenceDiagram.html), and [timelines](https://mermaid.js.org/syntax/timeline.html).
 
-- Flowchart
-- Sequence diagram
-- Class Diagram
-- State Diagram
-- Entity Relationship Diagram
-- User Journey
-- Gantt
-- Pie Chart
-- Requirement Diagram
+> [!tip]
+> You can also try Mermaid's [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) to help you build diagrams before you include them in your notes.
+
+To add a Mermaid diagram, create a `mermaid` [[Basic formatting syntax#Code blocks|code block]].
 
 ````md
 ```mermaid
@@ -109,7 +102,9 @@ graph TD
 Biology --> Chemistry
 ```
 
-Obsidian supports linking to notes in Mermaid, these links won't show up on [[Graph view]].
+### Linking files in a diagram
+
+You can create [[internal links]] in your diagrams by attaching the `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes) to your nodes.
 
 ````md
 ```mermaid
@@ -129,7 +124,10 @@ Biology --> Chemistry
 class Biology,Chemistry internal-link;
 ```
 
-An easier way to do it is the following: ^376b9d
+> [!note]
+> Internal links from diagrams don't show up in the [[Graph view]].
+
+If you have many nodes in your diagrams, you can use the following snippet.
 
 ````md
 ```mermaid
@@ -144,35 +142,47 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 ````
 
-This way, all the note names (at least until `Z[note name]`) are all automatically assigned the class `internal-link` when you use this snippet.
+This way, each letter node becomes an internal link, with the [node text](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) as the link text.
 
-If you use special characters in your note names, you need to put the note name in double quotes.
-`"⨳ special character"`
-It looks like this if you follow the [[Format your notes#^376b9d|second option]]:
-`A["⨳ special character"]`
+> [!note]
+> If you use special characters in your note names, you need to put the note name in double quotes.
+>
+> ```
+> class "⨳ special character" internal-link
+> ```
+>
+> Or, `A["⨳ special character"]`.
 
+For more information about creating diagrams, refer to the [official Mermaid docs](https://mermaid.js.org/intro/).
 
 ## Math
 
-```md
-$$\begin{vmatrix}a & b\\
-c & d
-\end{vmatrix}=ad-bc$$
-```
+You can add math expressions to your notes using [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) and the LaTeX notation.
 
-$$\begin{vmatrix}a & b\\
-c & d
-\end{vmatrix}=ad-bc$$
-
----
+To add a MathJax expression to your note, surround it with double dollar signs (`$$`).
 
 ```md
-You can also do inline math like $e^{2i\pi} = 1$ .
+$$
+\begin{vmatrix}a & b\\
+c & d
+\end{vmatrix}=ad-bc
+$$
 ```
 
-You can also do inline math like $e^{2i\pi} = 1$ .
+$$
+\begin{vmatrix}a & b\\
+c & d
+\end{vmatrix}=ad-bc
+$$
 
-To render math from LaTeX notation Obsidian uses [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html).
+You can also inline math expressions by wrapping it in `$` symbols.
+
+```md
+This is an inline math expression $e^{2i\pi} = 1$.
+```
+
+This is an inline math expression $e^{2i\pi} = 1$.
+
 For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
 For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
