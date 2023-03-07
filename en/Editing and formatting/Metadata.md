@@ -1,7 +1,7 @@
 ---
 aliases:
   - front matter
-  - YAML front matter
+  - Advanced topics/YAML front matter
 ---
 
 While most of the text in a note is meant to be read by a human, _metadata_ is text that's meant to be easily readable by a program, for example a [[Community plugins|community plugin]] or Obsidian itself.

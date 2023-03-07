@@ -1,5 +1,7 @@
 ---
-alias: "Student and non-profit discount"
+aliases: 
+- Student and non-profit discount
+- Licenses & Payment/Education and non-profit discount
 ---
 
 Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services, including [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]].
@@ -40,7 +42,7 @@ A week before your discount expires, you will get an email reminder to renew it.
 > If you run or work at a non-profit organization, you generally qualify for non-profit discount.
 
 > [!FAQ]- Q4. What if my educational or non-profit organization doesn't provide an email address?
-> In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Help & Support#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too.
+> In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Help and support#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too.
 >
 > Our team will review your application and get back to you. Thanks for your patience and understanding!
 

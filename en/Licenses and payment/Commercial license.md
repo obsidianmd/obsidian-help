@@ -1,3 +1,8 @@
+---
+aliases:
+- Licenses & Payment/Commercial license
+---
+
 If you're using Obsidian for commercial use in a company of two (2) or more employees, you need to purchase a Commercial license.
 
 Commercial use includes, but isn't limited to, work-related activities such as:
@@ -40,10 +45,10 @@ For bulk discounts, [[Help and support|contact Obsidian support]].
 > No, registered non-profit organizations may use Obsidian without a commercial license.
 
 > [!FAQ]- Q6. Are there bulk discounts?
-> For bulk discount inquiry, please [[Help & Support#Contact Obsidian support|contact Obsidian support]].
+> For bulk discount inquiry, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
 
 > [!FAQ]- Q7. How can I ask my company to purchase licenses for me or my team?
-> Ask your IT department to [[Help & Support#Contact Obsidian support|contact Obsidian support]] if they have questions or require any specific paperwork.
+> Ask your IT department to [[Help and support#Contact Obsidian support|contact Obsidian support]] if they have questions or require any specific paperwork.
 
 > [!FAQ]- Q8. Do I need a commercial license?
 > From our EULA, if you use Obsidian for commercial use, you must obtain a commercial license. Commercial use is defined as using Obsidian for work-related activities in a company with two (2) or more employees.
@@ -70,4 +75,4 @@ For bulk discounts, [[Help and support|contact Obsidian support]].
 > If your notes contain content directly related to work projects or processes for a greater-than-one-person company, then you require a commercial license.
 
 > [!FAQ]- Q16: I’m still not sure if I need a commercial license. What should I do?
-> If you still have questions regarding the commercial license requirements, [[Help & Support#Contact Obsidian support|contact Obsidian support]] and describe your situation in detail.
+> If you still have questions regarding the commercial license requirements, [[Help and support#Contact Obsidian support|contact Obsidian support]] and describe your situation in detail.

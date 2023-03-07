@@ -1,5 +1,8 @@
 ---
-aliases: alias, aliases, Add aliases to note
+aliases: 
+- alias
+- aliases
+- How to/Add aliases to note
 ---
 
 If you want to reference a file using different names, consider adding _aliases_ to the note. An alias is an alternative name for a note.

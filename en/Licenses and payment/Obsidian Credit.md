@@ -1,3 +1,8 @@
+---
+aliases:
+- Licenses & Payment/Obsidian Credit
+---
+
 Obsidian Credit is a type of prepaid credit. It can be bought in advance and applied towards purchases of all things Obsidian has to offer.
 
 Obsidian Credit will be applied before any payment is due, and it will also be applied at auto-renewals.

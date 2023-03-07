@@ -1,5 +1,6 @@
 ---
-alias: Embed files
+aliases: 
+- How to/Embed files
 ---
 
 Learn how you can embed other notes and media into your notes. By embedding files in your notes, you can reuse content across your vault.
