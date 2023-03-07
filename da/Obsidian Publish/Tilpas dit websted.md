@@ -1,30 +1,26 @@
-> [!note]
-> Er under oversættelse til dansk!
+Denne side forklarer, hvordan du kan tilpasse udseendet og oplevelsen af dit [[Introduktion til Obsidian Publish|Obsidian Publish]] websted.
 
----
-This page explains how you can customize how your [[Introduction to Obsidian Publish|Obsidian Publish]] site looks and feels.
+## Statiske aktiver
 
-## Static assets
+Du kan tilpasse dit websted ved at [[Publicer og håndter udgivelser af noter#Udgiv noter|udgive]] følgende typer filer på dit websted:
 
-You can customize your site by [[Publish and unpublish notes#Publish notes|publishing]] the following files to your site:
+- `publish.css` for at tilføje brugerdefineret CSS
+- `publish.js` for at tilføje brugerdefineret JavaScript
+- `favicon-32x32.png` for at sætte webstedets favicon
 
-- `publish.css` to add custom CSS
-- `publish.js` to add custom JavaScript
-- `favicon-32x32.png` to set the favicon
+**Noter:**
 
-**Notes:**
+- Da Obsidian ikke undersøtter CSS eller Javscript filer, har du brug for et andet program for at oprette og redigere dem
+- Som standard vil `publish.css` og `publish.js` ikke blive vist i stifinderen, men du kan stadig udgive dem fra **Udgiv ændringer** dialogen
+- Du bliver nødt til at opsætte dit [[Opsætning på eget domæne|eget domæne]], hvis du vil anvende brugerdefineret JavaScript med `publish.js`
 
-- Since Obsidian doesn't support CSS or JavaScript files, you need to use another application to create and edit them.
-- By default, `publish.css` and `publish.js` don't appear in the file explorer, but you can still publish them from the **Publish changes** dialog.
-- To use custom JavaScript with `publish.js`, you need to [[Set up a custom domain]].
-
-For favicons, Obsidian Publish supports the following naming conventions, where `32` is the icon dimensions in pixels:
+Obsidian Publish understøtter de følgende navnekonventioner for favicons, hvor `32` er ikon størrelsen i pixels:
 
 - `favicon-32.png`
 - `favicon-32x32.png`
 - `favicon.ico`
 
-We recommend that you provide one or more of the following dimensions:
+Vi anbefaler, at du anvender en af de følgende størrelser:
 
 - `favicon-32x32.png`
 - `favicon-128x128.png`
@@ -34,25 +30,25 @@ We recommend that you provide one or more of the following dimensions:
 - `favicon-192x192.png`
 - `favicon-196x196.png`
 
-## Use a community theme
+## Brug af fællesskabstema
 
-To use one of the community themes for your site:
+Sådan anvender du et fællesskabstema på dit websted:
 
-1. Open your vault in the default file explorer for your OS.
-2. Go to the vault settings folder (default: `.obsidian`).
-3. Open the `themes` folder.
-4. Copy the CSS file for the theme you want to use for your site.
-5. Paste the file into the root folder of your vault.
-6. Rename the CSS file to `publish.css`.
-7. [[Publish and unpublish notes#Publish notes|Publish]] `publish.css`.
+1. Åben din boks med dit operativsystems stifinder
+2. Gå til dine mappe med indstillinger for din boks (standard: `.obsidian`)
+3. Åben mappen `themes`
+4. Kopier CSS filen for det tema, som du ønsker for dit websted
+5. Indsæt filen i din boks rodmappe
+6. Omdøb CSS filen til `publish.css`
+7. [[Publicer og håndter udgivelser af noter#Udgiv noter|Udgiv]] `publish.css`
 
-**Notes:**
+**Noter:**
 
-- If the style doesn't change within a few minutes, you may need to refresh your browser cache.
-- You can switch between light and dark mode in the [[Manage sites#View site options|site options]].
+- Hvis dit websted stil ikke ændrer sig inden for nogle minutter, kan det være nødvendigt at du opfrisker din browser cache
+- Du kan skifte mellem lyst og mørt tema i [[Administration af websteder#Vis indstillinger for et websted|websteds indstillingerne]]
 
-## Enable UI features
+## Aktiver brugergrænseflade funktioner
 
-You can toggle several UI features for your site, such as the graph view or a table of contents.
+Du kan skifte mellem flere forskellige brugergrænseflade funktioner, såom grafvisning, eller indholdsfortegnelse.
 
-Browse the available UI features under the **Reading experience** and **Components** sections in the [[Manage sites#View site options|site options]]
+Du kan se de forskellige mulige brugergrænseflade funktioner under sektionerne **Læseoplevelse** og **Komponenter** i [[Administration af websteder#Vis indstillinger for et websted|websteds indstillingerne]].

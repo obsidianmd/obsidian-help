@@ -1,47 +1,45 @@
-> [!note]
-> Er under oversættelse til dansk!
+I denne guide kan du lære, hvordan du aktiverer [[Introduktion til Obsidian Publish|Obsidian Publish]] for din boks, opretter et websted og udgiver dine noter på det.
 
----
-In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
+## Forudsætninger
 
-## Prerequisites
+- En Obsidian konto. Hvis du ikke har en, så kan du [oprette en her](https://obsidian.md/account#mode=signup)
+- Et aktivt Obsidian Publish abonnement. Hvis du ikke har et, kan du oprette et abonnement på din [kontoside](https://obsidian.md/account)
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Publish subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
+## Trin 1: Log ind med din Obsidian konto
 
-## Step 1: Log in with your Obsidian account
+1. Åben **Indstillinger**
+2. Klik på **Om** i båndmenuen i venstre sidepanel
+3. Klik på **Log ind** under **Konto** -> **Din konto**
+4. Skriv din email i tekstfeltet ved siden af **Email**
+5. Skriv dit kodeord i tekstfeltet ved siden af **Kodeord**
+6. Klik på **Log ind**
 
-1. Open **Settings**.
-2. In the sidebar, click **About**.
-3. Under **Account > Your Account**, click **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Click **Login**.
+## Trin 2: Aktiver Obsidian Publish
 
-## Step 2: Enable Obsidian Publish
+1. Åben **Indstillinger**
+2. Klik på **Kerne plugins** i venstre sidebar
+3. Aktiver **Publish**
 
-1. Open **Settings**.
-2. In the sidebar, click **Core plugins**.
-3. Enable **Publish**.
+## Trin 3: Opret et nyt websted
 
-## Step 3: Create a new site
+1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
+2. Angiv stiten (URL'en) til dit websted under **Websteds ID**. F.eks. vil et websted med ID `mit-fantastiske-websted` blive tilgængeligt på internetadressen `publish.obsidian.md/mit-fantastiske-websted`
+3. Klik **Opret**
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from publish.obsidian.md/my-amazing-site.
-3. Click **Create**.
+## Trin 4: Angiv et navn til webstedet
 
-## Step 4: Set a site name
+1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
+2. Klik på **Websteds indstillinger** (tandhjuls ikonet) i **Udgiv ændringer** dialogen
+3. Skriv navnet på dit websted i tekstfektet ved siden ad **Webstedsnavn** under **Metadata**
+4. Klik på **Gem websteds indstillinger**
 
-1. In the **Publish changes** dialog, click **Change site options** (cog icon).
-2. In **Site name**, under **Metadata**, enter the name of your site.
-3. Click **Save site settings**.
+## Step 5: Vælg noter til udgivelse
 
-## Step 5: Select notes to publish
+1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
+2. Klik på **Nye** for at se alle de noter, som du ikke har udgivet endnu
+3. Vælg de noter, som du vil udgive
+4. Klik på **Udgiv*
 
-1. In the **Publish changes** dialog, click **NEW** to see all the notes you haven't published yet.
-2. Select the notes you want to publish.
-3. Click **Publish**.
+De noter, du valgte, vil nu være tilgængelig på dit websted. For mere information om udgivelse af note, læs [[Publicer og håndter udgivelser af noter]].
 
-The notes you selected are now available on your site. For more information, refer to [[Publish and unpublish notes]].
-
-You've configured a Obsidian Publish site and published your first notes. Head over to the site address you configured earlier in this guide, and start sharing it with your readers.
+Du har nu konfigureret et Obsidian Publish websted, og udgivet dine første noter. Besøg dit nye websted, på den internetadresse du konfigurerede tidligere i denne guide, i en browser, og del adressen med dine læsere.

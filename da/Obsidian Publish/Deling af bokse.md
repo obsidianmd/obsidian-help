@@ -1,50 +1,45 @@
-> [!note]
-> Er under oversættelse til dansk!
+Lær hvordan du kan samarbejde om dit [[Introduktion til Obsidian Publish|Obsidian Publish]] websted med andre Obsidina brugere. Ved at tilføje dine venner og kollegaer som samrbejdspartnere, kan de udgive ændringer på dit websted.
 
-
----
-Learn how to collaborate on your [[Introduction to Obsidian Publish|Obsidian Publish]] site with other Obsidian users. By adding your friends and colleagues as collaborators, they can publish changes to your site.
-
-Only the site owner needs an active subscription for Obsidian Publish. Collaborators only need an [Obsidian account](https://obsidian.md/account).
+Kun ejeren af webstedet har brug for et aktivt abonnement på Obsidian Publish. Samrbejdspartnere har kun brug for en [Obsidian konto](https://obsidian.md/account).
 
 > [!warning]
-> Before you publish changes to a shared site, make sure to [[#Syncing changes between collaborators|sync changes from other collaborators]]. Otherwise, you risk overwriting changes from other collaborators.
+> Vær sikker på, at du har [[#Synkroniser ændringer mellem samarbejdspartnere|synlroniseret alle ændringer fra andre samarbejdspartnere]], før du udgiver ændringer på et delt websted. Ellers risikerer du at overskrive ændringer fra andre samarbejdspartnere.
 
-## Add a collaborator to a site
+## Tilføj en samarbejdspartner til et websted
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. Next to **Site collaboration**, select **Manage**.
-4. In **Invite user**, enter the email of the collaborator.
-5. Select **Add**.
+1. Klik på **Udgiv ændringer** (papir flyver ikonet) i båndmenuen i venstre sidepanel
+2. Klik på **Websteds indstillinger** (tandhjuls ikonet) i **Udgiv ændringer** dialogen
+3. Klik på **Administrer** ved siden af **Webstedssamarbejde**
+4. Skriv email på den nye samarbejdsparter i **Inviter bruger**
+5. Klik på **Tilføj**
 
-## Remove a collaborator from a site
+## Fjern en samarbejdspartner fra et websted
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. Next to **Site collaboration**, select **Manage**.
-4. Next to the collaborator you want to remove, select **Remove user** (cross icon).
+1. Klik på **Udgiv ændringer** (papir flyver ikonet) i båndmenuen i venstre sidepanel
+2. Klik på **Websteds indstillinger** (tandhjuls ikonet) i **Udgiv ændringer** dialogen
+3. Klik på **Administrer** ved siden af **Webstedssamarbejde**
+4. Klik på **Fjern bruger** (kryds ikonet) ved siden af den samarbejdspartner, du vil fjerne
 
-## Syncing changes between collaborators
+## Synkroniser ændringer mellem samarbejdspartnere
 
-Obsidian Publish doesn't sync published changes between local vaults automatically. Instead, collaborators need to manually sync changes from other collaborators.
+Obsidian Publish synkroniserer ikke automatisk udgivne ændringer mellem lokale bokse. Samarbejdspartnere bliver nødt til at synkronisere ændringer fra andre samarbejdspartnere manuelt.
 
-To update a local note with changes from the live site:
+Sådan opdaterer du en lokal note med ændringer fra et publiceret websted:
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. Right-click the change you want to sync, and then select **Use live version**. **This will overwrite the note in your local vault.**
+1. Klik på **Udgiv ændringer** (papir flyver ikonet) i båndmenuen i venstre sidepanel
+2. Højreklik på den ændring du vil synkronisere, og vælg derefter **Benyt live version**. **Dette vil overskrive noten i din lokale boks.**
 
 > [!tip]
-> We recommend that you use another tool to sync changes between vaults, such as [[Obsidian Sync]] or [git](https://git-scm.com/).
+> Vi anbefaler, at du anvender et andet værktøj til at synkronisere ændringer mellem bokse, f.eks. [[Introduktion til Obsidian Sync|Obsidian Sync|Obsidian Sync]] eller [git](https://git-scm.com/).
 
-## Permissions
+## Tilladelser
 
-The following table lists the available site permissions for owners and collaborators:
+Nedenstående tabel viser de tilgængelige tilladelser for ejere og samarbejdspartnere:
 
-| Action                             | Collaborator | Owner |
+| Aktion                             | Samarbejdspartner | Ejer |
 |------------------------------------|:------------:|:-----:|
-| Publish new pages                  | ✓            | ✓     |
-| Publish changes to published pages | ✓            | ✓     |
-| Unpublish pages                    | ✓            | ✓     |
-| Configure site options             |              | ✓     |
-| Manage permissions                 |              | ✓     |
+| Udgiv nye sider                  | ✓            | ✓     |
+| Udgiv ændringer for udgivne sider | ✓            | ✓     |
+| Fjerne udgivne sider                    | ✓            | ✓     |
+| Konfigurere websteds indstillinger             |              | ✓     |
+| Administrere tilladelser                 |              | ✓     |

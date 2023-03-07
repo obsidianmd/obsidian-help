@@ -1,21 +1,19 @@
-> [!note]
-> Er under oversættelse til dansk!
-
 ---
 alias: [Obsidian Publish]
 ---
 
-Obsidian Publish is a cloud-based service where you can publish your notes to the world.
+Oblisian Publis er en cloudbaseret service, hvor du kan udgive dine noter på internettet.
 
-Select the notes you want to share with the world, press "Publish", and we'll post it to publish.obsidian.md/your-site.
+Vælg de noter, som du vil dele med verden, og rk "Udgiv", og vi udgive det til 
+`publish.obsidian.md/dit-websted`.
 
-If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're already looking at a site that uses Obsidian Publish. You can see the vault on [GitHub](https://github.com/obsidianmd/obsidian-docs).
+Hvis du læser denne side på [publish.obsidian.md/help-da](https://publish.obsidian.md/help-da), så ser du allerede et websted, som benytter Obsidian Publish. Du kan se boksen på [GitHub](https://github.com/obsidianmd/obsidian-docs/tree/master/da).
 
-## Learn more
+## Lær mere
 
-- If you're a new Obsidian Publish user, learn how to [[Set up Obsidian Publish]].
-- If you have more than one site, learn how to [[Manage sites]].
-- If you want to share your site with other collaborators, refer to [[Collaborating]].
-- If you want to customize how your site looks, refer to [[Customize your site]].
-- If you want to know how we keep your notes safe, refer to [[Security and privacy]].
-- If you want to use your own domain, refer to [[Set up a custom domain|custom domain]].
+- Lær at opsætte [[Opsætning af Obsidian Publish|Obsidian Publish]], hvis du er en ny Obsidian Publish bruger
+- Lær at [[Administration af websteder|administrere websteder]], hvis du har mere end et websted
+- Lær om [[Deling af bokse|samarbejde med flere brugere]], hvis du vil dele dit websted med andre samarbejdspartnere
+- Lær om at [[Tilpas dit websted|tilpasse dit websted]], hvis du vil tilpasse måden, dit websted skal se ud på
+- Lær om  [[Obsidian Publish/Sikkerhed og privatliv|sikkerhed og privatliv]], hvis du vil vide, hvordan vi holder dine noter sikre
+- Lær om at [[Opsætning på eget domæne|opsætte Obsidian Sync]]  på dit eget domæne, hvis du vil anvende et sådant

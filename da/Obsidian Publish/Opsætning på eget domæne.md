@@ -1,90 +1,86 @@
-> [!note]
-> Er under oversættelse til dansk!
+Du kan opsætte dit eget domæne eller underdomæne for dit [[Introduktion til Obsidian Publish|Obsidian Publish]] websted.
 
----
-You can set up a custom domain or subdomain for your [[Introduction to Obsidian Publish|Obsidian Publish]] site.
+Vi har endnu ikke en mulighed for at anskaffe SSL certifikater på dine vegne. Hvis du ønsker at aktivere HTTPS for dit eget domæne, skal du enten bruge din egen proxy eller oprette et websted på CloudFlare.
 
-We don't yet have a way to provision SSL certificate on your behalf. If you want to enable HTTPS for a custom domain, you either need to use your own proxy or create a site on CloudFlare.
+## Opsætning ved hjælp af CloudFlare
 
-## Set up using CloudFlare
+Den nemmeste måde at opsætte dit eget domæne eller underdomæne er at oprette en [CloudFlare](https://cloudflare.com) og lade CloudFlare håndtere dit domænes DNS.
 
-The easiest way to set up a custom domain or subdomain is to create a [CloudFlare](https://cloudflare.com) account and let CloudFlare manage your domain's DNS.
+Når du migrerer til CLoudFlare, vil du automatisk beholde alle dine eksisterende DNS opsætninger, inklusiv underdomæner, email services og hosting services, Ved at benytte CloudFlare kan du øge hastigheden på dit websted og tilføje SSL på dine websteder gratis.
 
-When you migrate to CloudFlare, you automatically keep all your existing DNS setup, including your subdomains, email service, and hosting services. Using CloudFlare can speed up your websites and add SSL to your sites for free.
+Obsidian Publish brugere opsætter typisk deres indhold på et rod domæne (`mitwebsted.dk`) eller på et umiddelbart underdomæne (`noter.mitwebsted.dk`).
 
-Typically, users host their Obsidian Publish content on a root domain (`mysite.com`) or an immediate subdomain (`notes.mysite.com`).
+**VloudFlare:**
 
-**CloudFlare:**
+1. Åben ClouFlare p ådet domæne, som du vil tilføje til Obsidian Publish, såsom `mitwebsted.dk` uanset, om du vil have et underdomæne som `noter.mitwebsted.dk`
+2. Gå til **DNS** og klik på **Add Record**
+3. Vælg **CNAME**
+4. I **name** skriver du dit domæne eller underdomæne, f.eks. `noter.mitwebsted.dk`
+5. Skriv `publish-main.obsidian.md`i **target**. Du skal ikke skrive din personlige under URL her. Obsidian Publish håndterer dette fra din konfiguration
+6. Gå til **SSL/TLS** og sæt SSL/TLS krypteringstilstanden til "Full" for at konfigurere SSL/TLS certifikatet automatisk
 
-1. Open Cloudflare to the domain you wish to add Publish to, such as `mysite.com`, even if you want a subdomain like `notes.mysite.com`.
-2. Go to **DNS** and click **Add Record**.
-3. Select **CNAME**
-4. In **name**, enter your domain or subdomain, for example `notes.mysite.com`.
-5. In **target**, enter `publish-main.obsidian.md`. Don't include your personal sub-URL in this value. Obsidian Publish handles this from your configuration.
-6. Go to **SSL/TLS** and set the SSL/TLS encryption mode to "Full" to configure the SSL/TLS certificate automatically.
+**Note:** For både at redirrigere `mitwebsted.dk` og `noter.mitwebsted.dk` til Obsidian Publish har du brug for at oprette en [side regel](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) med følgende indstillinger:
 
-**Note:** To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
-
-- URL match: `www.mysite.com/*`
+- URL match: `www.mitwebsted.dk/*`
 - Forward URL - 301 Permanent Redirect
-- Redirect URL: `https://mysite.com/$1`
+- Redirect URL: `https://mitwebsted.dk/$1`
 
-Once you create the page rule, you should also create a CNAME record for `www.mysite.com` just like you created for `mysite.com`
+Når du har oprettet side reglen, kan du derefter oprette en CNAME record for `www.mitwebsted.dk` som du gjorde for `mitwebsted.dk`.
 
 **Obsidian:**
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. Next to **Custom domain**, click **Configure**.
-4. In **Custom URL**, enter the URL to your domain or subdomain.
+1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
+2. Klik på **Websteds indstillinger** (tandhjuls ikonet) i **Udgiv ændringer** dialogen
+3. Klik på **Konfigurer** ved siden af **Brugerdefineret domæne**
+4. Skriv URL'en til dit domæne eller underdomæne i tekstfeltet ved siden af **Brugerdefineret URL**
 
-**Note:**: If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare has been set to "Flexible" instead of "Full".
+**Note:** Hvis din brugerdefinerede domæneopsætning ender i et redirrigerings loop, skyldes det højst sandsynligvis at krypteringstilstanden i CloudFlare er sat til "Flexible" i stedet for "Full".
 
-## Set up using a proxy
+## Opsætning ved brug af en proxy
 
-If you want to host your own web server and set up your own SSL encryption, you can choose this option.
+Hvis du vil hoste din egen webserver og opsæte din egen SSL kryptering, kan du også gøre dette.
 
-If you are already hosting a website under your domain or subdomain, you can also use this option and set up your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
+Hvis du allerede hoster et websted på dit eget domæne eller underdomæne, kan du også benytte denne mulighed, og opsætte dit websted. hvor Obsidian Publish håndterer dit websted med en specifik URL, i stedet for at hoste et helt websted.
 
-Proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=mysite.com/my-notes/...` and **configure the site options in Obsidian to the same URL path** by setting **Custom URL** to `mysite.com/my-notes`.
+Proxy alle anmodninger under denne URL sti til `https://publish.obsidian.md/serve?url=mitwebsted.dk/mine-noter/...` og **konfigurer webstedsindstillingerne  i Obsidian til den samme URL** ved at opsætte **Brugerdefineret domæne** til `mitwebsted.dk/mine-noter`.
 
-You can also set up Obsidian Publish as a sub-URL of a site you own. For example, `https://mysite.com/my-notes/`. To achieve this, you must host your own server and proxy all requests to our server at `https://publish.obsidian.md/`.
+Du kan også opsætte Obsidian Publish på et af dine underdomæner. F.eks. `https://mitwebsted.dk/my-notes/`. Du skal hoste din egen server og proxy alle requests til vores server på `https://publish.obsidian.md/` for at kunne gøre dette.
 
 ### NGINX
 
-In your NGINX configuration, add the following:
+Tilføj følgende til din NGINX konfiguration:
 
 ```nginx
-location /my-notes {
-  proxy_pass https://publish.obsidian.md/serve?url=mysite.com/my-notes/;
+location /mine-noter {
+  proxy_pass https://publish.obsidian.md/serve?url=mitwebsted.dk/mine-noter/;
   proxy_ssl_server_name on;
 }
 ```
 
 ### Apache
 
-In `.htaccess`, add the following:
+Tilføj følgende til `.htaccess`:
 
 ```htaccess
 RewriteEngine  on
-RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.com/my-notes/$1"  [L,P]
+RewriteRule    "^mine-noter/(.*)$"  "https://publish.obsidian.md/serve?url=mitwebsted.dk/mine-noter/$1"  [L,P]
 ```
 
-**Note:** `mod_rewrite` must be enabled, and you may also need to configure [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache)
+**Note:**  `mod_rewrite` skal være aktiveret, og det kan også være nødvendigt at konfigurere [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache).
 
 ### Netlify
 
 ```
 [[redirects]]
-  from = "https://mysite.com/my-notes/*"
-  to = "https://publish.obsidian.md/serve?url=mysite.com/my-notes/:splat"
+  from = "https://mitwebsted.dk/mine-noter/*"
+  to = "https://publish.obsidian.md/serve?url=mitwebsted.dk/mine-noter/:splat"
   status = 200
   force = true
 ```
 
 ### Vercel
 
-In `vercel.json`, [configure rewrites](https://vercel.com/docs/configuration#project/rewrites):
+[Konfigurer rewrite](https://vercel.com/docs/configuration#project/rewrites) i `vercel.json`:
 
 ```json
 {
@@ -92,12 +88,12 @@ In `vercel.json`, [configure rewrites](https://vercel.com/docs/configuration#pro
 
   "rewrites": [
     {
-      "source": "/my-notes/",
-      "destination": "https://publish.obsidian.md/serve?url=mysite.com/my-notes"
+      "source": "/mine-noter/",
+      "destination": "https://publish.obsidian.md/serve?url=mitwebsted.dk/mine-noter"
     },
     {
-      "source": "/my-notes/:path*",
-      "destination": "https://publish.obsidian.md/serve?url=mysite.com/my-notes/:path*"
+      "source": "/mine-noter/:path*",
+      "destination": "https://publish.obsidian.md/serve?url=mitwebsted.dk/mine-noter/:path*"
     }
   ]
 }
@@ -106,25 +102,25 @@ In `vercel.json`, [configure rewrites](https://vercel.com/docs/configuration#pro
 ### Caddy
 
 ```
-mysite.com {
+mitwebsted.dk {
 	encode zstd gzip
-	handle /my-notes* {
+	handle /mine-noter* {
 		reverse_proxy https://publish.obsidian.md {
 			header_up Host {upstream_hostport}
 		}
-		rewrite * /serve?url=mysite.com{path}
+		rewrite * /serve?url=mitwebsted.dk{path}
 	}
 }
 ```
 
-### Supported HTTP X-Headers
+### Understøttede HTTP X-Headers
 
-If your proxy service doesn't allow query paths, you can use `https://publish.obsidian.md/` with a custom header `x-obsidian-custom-domain` set to your site URL `mysite.com/my-subpath`.
+Hvis din proxy service ikke understøtter "query paths" kan du benytte `https://publish.obsidian.md/` med en brugerdefineret header `x-obsidian-custom-domain` sat til dit webseds URL `mitwebsted.dk/mine-noter`.
 
-## Redirect old site to custom domain
+## Redirigering af et gammelt websted til eget domæne
 
-If you want to redirect your visitors from the old `publish.obsidian.md` site to your new custom domain, enable the **Redirect to your custom domain** option when configuring your custom domain.
+Hvis du ønsker, at redirrigere din besøgende fra det gamle `publish.obsidian.md` websted til dit eget nye websted, skal du aktivere **Omdiriger til dit eget domæne**, når du konfigurerer dit eget domæne.
 
-## Troubleshoot
+## Fejlsøgning
 
-Once you set up your custom domain, if you've visited your site from your previous `https://publish.obsidian.md/slug` link, you may have to clear your browser cache for certain things (like fonts, graphs, or password access) to work properly. This is due to the cross-domain security restrictions that are imposed by modern browsers. The good news is that readers of your site should never run into issue this if you only let visitors use your custom domain.
+Når du har sat dit eget domæne op, og hvis dine besøgende har besøgt til websted fra den gamle internetadresse `https://publish.obsidian.md/slug`, kan det være nødvendigt at rydde din browser cache (såsom fonte, grafer, eller kodeord) for at kunne fungere ordentligt. Det skyldes sikkerhedsrestriktioner på tværs af domæner i moderne browsere. Den gode nyhed er, at dine besøgende ikke vil løbe ind i det problem, hvis du kun anvender dit weget domæne.

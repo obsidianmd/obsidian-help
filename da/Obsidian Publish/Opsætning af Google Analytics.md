@@ -1,28 +1,21 @@
-> [!note]
-> Er under oversættelse til dansk!
-
----
-[Google Analytics](https://analytics.google.com) is a service that allows you to track traffic on your website. This page explains how to enable Google Analytics for your [[Introduction to Obsidian Publish|Obsidian Publish]] site.
+[Google Analytics](https://analytics.google.com) er en service, der gør dig i stand til at spore og analysere trafikken på dit websted. Denne side forklarer, hvordan du kan aktivere Google Analytics på dit [[Introduktion til Obsidian Publish|Obsidian Publish]] websted.
 
 > [!important]
-> Before you enable Google Analytics, make sure that your local laws and regulations allow you to track your visitors.
+> Vær sikker på, at dine lokale love og regulativer tillader dig at spore trafikken på dit websted, før du aktiverer Google analytics.
 
-## Prerequisites
+## Forudsætninger
 
-To use Google Analytics for Obsidian, you need:
+For at benytte Google analytics, har du brug for:
 
-- A [[Set up a custom domain|custom domain]] for your Obsidian Publish site.
+- Dit [[Opsætning på eget domæne|eget domæne]] til dit Obsidian Publish websted
 
-### Set up Google Analytics
+### Opsætning af Google Analytics
 
-To enable Google Analytics for your Obsidian Publish site:
+1. Klik på **Udgiv ændringer** (papir flyver ikonet) i båndmenuen i venstre sidepanel
+2. Klik på **Websteds indstillinger** (tandhjuls ikonet) i **Udgiv ændringer** dialogen
+3. Skriv din **Google Analytics sporingskode** i tekstfeltet
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. In **Google Analytics tracking code**, enter your tracking code.
+## Fejlsøgning
 
-## Troubleshooting
-
-- To verify that your site uses Google Analytics, disable any ad-blocking browser extensions, such as uBlock Origin, that may block the tracking script from running.
-
-- To use Google Tag Manager instead of Google Analytics, use custom JavaScript to add your own scripts.
+- For at verfificere, at dit websted benytter Google Analytics, kan du prøve at fjerne alle ad-blokkere, f.eks. "uBlock Origin", som kan blokere sproringsscripts, så de ikke kan køre
+- Anvend brugerdefineret JavScript for at anvende Google Tag Manager i stedet for Google Analytics

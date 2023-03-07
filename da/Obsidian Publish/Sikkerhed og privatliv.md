@@ -1,28 +1,23 @@
-> [!note]
-> Er under oversættelse til dansk!
+Du vælger selv hvilke noter, som du vil udgive med [[Introduktion til Obsidian Publish|Obsidian Publish]]. Resten af dine noter forbliver sikre i din boks.
 
----
-You choose which notes you want to publish to [[Introduction to Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
+Kun noter, du vælger at udgive, sendes til Obsidians servere, og alle noter, du fjerner fra udgivelse, vil vblive fjernet fra webstedet.
 
-Only the notes you choose to publish are sent to Obsidian's servers, and any notes you unpublish are removed.
+## Tilføj et kodeord til dit websted
 
-## Add a site password
+**Advarsel:** Hvis du tilføjer et kodeord til dit websted, er dit websted ikke længere offentligt tilgængeligt. Besøgende vil i stedet blive spurgt til et kodeord, som du skal angive for at få adgang til dit websted.
 
-**Caution:** If you add a site password, your site is no longer publicly available. Instead, readers see a password prompt when they access your site.
+1. Klik på **Udgiv ændringer** (papir flyver ikonet) i båndmenuen i venstre sidepanel
+2. Klik på **Skift websteds indstillinger** (tandhjuls ikonet) i **Udgiv ændringer** dialogen
+3. Klik på **Administrer** ved siden af **Kodeord** under **Andre webstedsindstillinger**
+4. Klik på **Nyt kodeord**
+5. I tekstfektet ved siden af **Kodeord** skriver du et kodeord for dit websted
+6. (Valgfrit) Skriv et kaldenavn for kodeordet i tekstfeltet ved siden af **Kaldenavn (valgfrit)**, f.eks. navnet på den person, som du vil give adgang til
+7. Klik på **Tilføj dette kodeord**
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-4. Click **New password**.
-5. In **Password**, enter a password for your site.
-6. (Optional) In **Nickname**, enter a nickname for the password, for example the person you want to give site access to.
-7. Click **Add this password**.
+## Fjern et kodeord fra dit websted
 
-## Remove a site password
+**Advarsel:** Hvis du fjerner det sidste kodeord, vil dit websted blive offentligt tilgængeligt, så alle kan få adgang til det.
 
-**Caution:** If you remove the last password, your site becomes publicly available and anyone can access it.
-
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-5. Click the cross icon next to the password you want to delete.
+1. Klik på **Skift websteds indstillinger** (tandhjuls ikonet) i **Udgiv ændringer** dialogen
+2. Klik på **Administrer** ved siden af **Kodeord** under **Andre webstedsindstillinger**
+3. Klik på kryds ikonet ved siden af det kodeord, som du vil slette
