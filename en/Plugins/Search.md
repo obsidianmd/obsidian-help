@@ -7,7 +7,7 @@ By default, you can find Search in the left sidebar (magnifying glass icon). You
 
 ## Search terms
 
-A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults.
+A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults. By default, the search is performed only over all markdown notes and canvases (both their filenames and their content).
 
 Each word in the search term is matched independently within each file. To search for an exact phrase, surround it with quotes, for example `"star wars"`. To search for quoted text within an exact phrase, you can _escape_ the quotes by adding a backslash (`\`) in front of the quote, for example `"they said \"hello\" to each other"`.
 
@@ -39,8 +39,8 @@ Some operators even allow you to add a nested search term within parentheses, fo
 
 | Search operator | Description                                                                                                                                                                                                          |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `file:`         | Find text in filename.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                     |
-| `path:`         | Find text in file path.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                    |
+| `file:`         | Find text in filename. All files in the vault are considered.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                     |
+| `path:`         | Find text in file path. All files in the vault are considered.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                    |
 | `content:`      | Find text in file content.<p/>Example: `content:"happy cat"`.                                                                                                                                                        |
 | `match-case:`   | Case-sensitive match.<p/>Example: `match-case:HappyCat`.                                                                                                                                                             |
 | `ignore-case:`  | Case-insensitive match.<p/>Example: `ignore-case:ikea`.                                                                                                                                                              |
