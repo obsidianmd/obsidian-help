@@ -8,7 +8,7 @@ Hvordan starter vi med at skabe et netværk, kan du måske tænke? Lad os først
 
 ## Hvordan vi adskiller os fra andre
 
-==*Vi vil have dig til at eje og kontrollere dine egne data*==
+### Du ejer og kontrollerer dine data
 
 Vi tror på, at almindelig tekst er noget, som er meget vigtigt for din videnbase. Du ønsker vel ikke at sætte din egen hjerne over i en andens hoved. Behandl din anden hjerne på samme måde.
 
@@ -16,7 +16,7 @@ Sync er kun en tilføjelsesservice som faciliterer, at du kan arbejde på flere 
 
 Når filsystemet erstatter skyen, får du fleksible måder at arbejde med dine filer på: Du kan lave backup med Dropbox, benytte Git til versionering, eller kryptere din disk. Hvad der virker i dit filsystem, vil virke i din Obsidian videnbase.
 
-==*Links er førsteklasses borgere*==
+### Links er førsteklasses borgere
 
 Links og forbindelser er afgørende for at opdage relationerne mellem det, vi ved.
 
@@ -33,7 +33,7 @@ Som John Locke udtrykker det...
  
 Hierarki give os nr. 1 og linking giver os nr. 2. Vi er ikke sikre på hvad nr. 3 dækker over i forbindelse med notetagning, men det kan måske have noget, at gøre med programmering eller makroer.
 
-==*Din egen værktøjskasse*==
+### Din egen værktøjskasse
 
 At tage noter er en meget personlig aktivitet. Naturligvis er der ingen enkelt altomfattende løsning for alle.
 

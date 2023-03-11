@@ -2,9 +2,6 @@ Canvas er et værktøj til siduel notetagning. Placer dine noter og andre ressou
 
 Visuel notetagning tillader dig at benytte visuelle aspekter, såsom størrelse og position til at give dine noter mening. Forbind noter med linjer og gruppér relaterede noter, så du bedre kan forstå sammenhænget mellem dem.
 
-> [!info] Kun i Obsidian desktop versionen
-> Canvas er kun tilgængelig for desktopversionen af Obsidian.
-
 ## Opret et nyt canvas
 
 For at anvende Canvas skal du først oprette en fil, der kan indeholde dit canvas. Du kan oprette et nyt canvas på en af følgende måder:
