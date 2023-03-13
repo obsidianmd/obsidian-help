@@ -7,7 +7,7 @@ For at oprette et internt link skriver du bare `[[`. Der dukker en dialog op med
 ### Links til overskrifter
 Du kan også linke til specifikke overskrifter i filer. Start med at skrive et link, som du normalt vil gøre. Når den note du vi llinke til er fremhævet, så tast `#` i stedet for `Enter` og du vil få vist en liste af overskrifter i filen. Fortsæt med at skrive eller naviger, med piletasterne som før nævnt, og tryk `#` igen for hver underoverskrift du navigere ned i, og tryk `Enter` for at fuldføre linket.
 
-Hvis du ønsker en anden tekst vist i forhåndsvisning i stedet for notens navn, så benyt lodret streg (`|`). F.eks. [[Interne links|Brugerdefineret navn i forhåndsvisning!]] Dette kan kombineres med linking til overskrifter, som i dette eksempel: [[Sammenfoldning#Som et eksempel|Eksempel på sammenfoldning]].
+Hvis du ønsker en anden tekst vist i forhåndsvisning i stedet for notens navn, så benyt lodret streg (`|`). F.eks. [[Sådan gør du/Interne links|Brugerdefineret navn i forhåndsvisning!]] Dette kan kombineres med linking til overskrifter, som i dette eksempel: [[Sammenfoldning#Som et eksempel|Eksempel på sammenfoldning]].
 
 ### At følge links
 - For at følge et link i forhåndsvisning, så klik på linket med musen.

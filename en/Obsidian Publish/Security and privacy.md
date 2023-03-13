@@ -21,4 +21,4 @@ Only the notes you choose to publish are sent to Obsidian's servers, and any not
 1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
 2. In the **Publish changes** dialog, click **Change site options** (cog icon).
 3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-4. Click the cross icon next to the password you want to delete.
+5. Click the cross icon next to the password you want to delete.

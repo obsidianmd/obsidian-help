@@ -12,12 +12,12 @@ To star a note:
 
 **Options menu:**
 
-- Click **More options** in in the top-right corner of a note, and then click **Star**.
+- Click **More options** in the upper-right corner of a note, and then click **Star**.
 
 **Command palette:**
 
 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-1. Search for the **Star/unstar current file** command.
-1. Press `Enter` with the command selected to toggle the active note.
+2. Search for the **Star/unstar current file** command.
+3. Press `Enter` with the command selected to toggle the active note.
 
 To unstar a file, use the same steps as when starring a note. The option instead shows **Unstar**.

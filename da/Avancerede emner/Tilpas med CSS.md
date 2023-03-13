@@ -1,7 +1,7 @@
 Hvis du skriver eller modficerer din egen CSS, kan du åbne udviklerværktøjerne ved hjælp af `Ctrl+Shift+I` på Linux/Windows eller `Cmd+Opt+I` on macOS, for at få information om de elementer, du gerne vil tilpasse.
 
 Ændringer i temaer og CSS kodestykker vil blive detekteret automatisk og genaktiveret.
-Du behøver ikke genstarte Obsidian.
+Du behøver ikke at genstarte Obsidian.
 
 ### Ny indenfor CSS?
 

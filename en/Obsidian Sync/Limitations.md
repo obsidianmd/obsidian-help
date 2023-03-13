@@ -6,7 +6,7 @@ Each account with Obsidian Sync can have up to 5 remote vaults.
 
 ## How long do you keep the version history?
 
-We keep version histories of markdown files for up to one year before we clean it up. Attachments are kept for two weeks.
+We keep version histories of Markdown files for up to one year before we clean it up. Attachments are kept for two weeks.
 
 ## How large can each remote vault be?
 
@@ -22,9 +22,9 @@ We keep data in your remote vaults, including version history, for one month aft
 
 As long as you renew within one month, there should be no impact on your usage.
 
-## Is my data being synchronized in the background?
+## Is my data being synced in the background?
 
-No, files are only synchronized when Obsidian is running.
+No, files are only synced when Obsidian is running.
 
 ## What operating systems does Obsidian Sync support?
 

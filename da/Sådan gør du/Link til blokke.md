@@ -1,4 +1,4 @@
-I Obsidian version 0.9.5 eller nyere kan du også linke til blokke udover at [[Interne links#Links til overskrifter|linke til overskrifter]].
+I Obsidian version 0.9.5 eller nyere kan du også linke til blokke udover at [[Sådan gør du/Interne links#Links til overskrifter|linke til overskrifter]].
 
 ### Hvad er en blok
 
@@ -33,7 +33,7 @@ Efter du har tilføjet dit blok ID manuelt, vil `dit-id` blive benyttet i stedet
 
 Bemærk at kun bogstaver, tal og bindestreger er tilladte i manuelle block ID'er.
 
-### Interoperabilitet
+### Kompabilitet
 
 Vær opmærksom på, at blok referencer er ikke en del af standard Markdown syntaks, men en speciel Obsidian udgave af Markdown. Det betyder at disse links ikke vi lvirke udenfor Obsidian.
 

@@ -22,9 +22,9 @@ You can hold Shift while using the keyboard to speed up the movements.
 
 ## Settings
 
-To open the graph settings, click the cog icon in the top-left corner of the graph view.
+To open the graph settings, click the cog icon in the upper-left corner of the graph view.
 
-Click **Restore default settings** in the top-right corner of the settings box to reset any changes you make.
+Click **Restore default settings** in the upper-right corner of the settings box to reset any changes you make.
 
 ### Filters
 
@@ -56,7 +56,7 @@ This section controls how to visualize nodes and links in the graph.
 - **Text fade threshold** controls the text transparency for the name of each note.
 - **Node size** controls the size of the circle representing each note.
 - **Link thickness** controls the line width for each link.
-- **Animate** starts a [[#Start a timelapse animation|timelapse animation]].
+- **Animate** starts a [[#Start a time-lapse animation|time-lapse animation]].
 
 ### Forces
 
@@ -67,8 +67,14 @@ This section controls the forces that act on each node in the graph.
 - **Link force** controls the pull on each link. If the link was a rubber band, the link force controls how tight or loose the band is.
 - **Link distance** controls the length of the lines between each note.
 
-## Start a timelapse animation
+## Start a time-lapse animation
 
 Notes and attachments appear in chronological order based on their creation time.
 
 ![[Pasted image 10.png]]
+
+## Local Graph
+
+To open a local Graph view, use the **Open local graph** command. While the Graph view shows all notes in your vault, a local Graph view shows you notes connected to the active note.
+
+The local Graph view can use all of the [[#Settings]] available to the global Graph view. Additionally, you can change the depth of the local graph. Each level of depth will show notes connected to the notes revealed at the previous depth. To control local Graph depth, use the slider at the top of the local graph Settings panel.

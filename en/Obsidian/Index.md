@@ -1,9 +1,10 @@
 ## About this site
+
 Welcome to Obsidian's official help vault! This page contains a quick index to the things that you may be interested in.
 
-See public hosted version: https://publish.obsidian.md/help
+To read a public hosted version, go to https://publish.obsidian.md/help
 
-If you found mistakes or missing information, you can contribute to this site here: https://github.com/obsidianmd/obsidian-docs/
+If you find any mistakes or missing information, you can contribute fixes to the site at https://github.com/obsidianmd/obsidian-docs/
 
 ## Other languages
 
@@ -34,7 +35,7 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 - Learn our flavor of Markdown with [[Format your notes|how to format your notes]].
 - Check out some tips on [[Create notes|creating new notes]].
 - Check out some tips on [[Internal links|creating internal links]].
-- Learn how to [[Embed files|embed other notes or attachments]].
+- Learn how to [[Embedding files|embed other notes or attachments]].
 - See the [[Use hotkeys|default keyboard shortcuts]].
 
 ### Official plugins
@@ -43,9 +44,7 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 
 ### Advanced guides
 
-- [[Working with tags]]
 - [[Working with multiple notes]]
 - [[Pane layout]]
 - [[Working with multiple vaults]]
-- [[Working with multiple cursors]]
-- [[Using obsidian URI]]
+- [[Using Obsidian URI]]

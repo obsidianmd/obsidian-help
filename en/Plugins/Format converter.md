@@ -6,8 +6,8 @@ Format converter lets you convert Markdown from other applications to Obsidian f
 To convert all notes in your vault:
 
 1. In the ribbon, click **Open format converter** (ones and zeros icon).
-1. Enable the formats you want to convert.
-1. Click **Start conversion**.
+2. Enable the formats you want to convert.
+3. Click **Start conversion**.
 
 For more information, refer to [[Format your notes]].
 

@@ -4,7 +4,7 @@ The ribbon is a space for common commands that occupies the vertical space at th
 
 Each action is presented by an icon in the ribbon. Hovering them will present a tooltip; clicking or tapping them will activate the action.
 
-The top ones are added by plugins, both [[Core plugins|core plugins]] and [[community plugins]].
+The top ones are added by plugins, both [[Core plugins|core plugins]] and [[Community plugins]].
 
 The bottom three actions are Obsidian system actions to:
 

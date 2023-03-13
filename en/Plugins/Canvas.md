@@ -2,9 +2,6 @@ Canvas is a tool for visual note-taking. Lay out notes and other resources on an
 
 Visual note-taking allows you to use visual aspects, such as size and position, to make sense of your notes. Connect notes with lines and group related notes together to better understand the relationship between them.
 
-> [!info] Only for Obsidian desktop
-> Canvas is only available in Obsidian for desktop.
-
 ## Create a new canvas
 
 To start using Canvas, you first need to create a file to hold your canvas. You can create a new canvas using the following methods.
@@ -16,7 +13,7 @@ To start using Canvas, you first need to create a file to hold your canvas. You 
 **Command palette:**
 
 1. Open the [[Command palette]].
-1. Select **Canvas: Create new canvas** to create a canvas in the same folder as the active file.
+2. Select **Canvas: Create new canvas** to create a canvas in the same folder as the active file.
 
 **File explorer:**
 
@@ -43,7 +40,7 @@ You can also add text cards by double-clicking on the canvas.
 To convert a text card to a file:
 
 1. Right-click the text card and then select **Convert to file...**.
-1. Enter the note name and then select **Save**.
+2. Enter the note name and then select **Save**.
 
 > [!note]
 > Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
@@ -53,12 +50,12 @@ To convert a text card to a file:
 To add a note from your vault to your canvas:
 
 1. Select or drag the document icon at the bottom of the canvas.
-1. Select the note you want to add.
+2. Select the note you want to add.
 
 You can also add notes from the canvas context menu:
 
 1. Right-click the canvas and then select **Add note from vault**.
-1. Select the note you want to add.
+2. Select the note you want to add.
 
 Or, you can add them to the canvas by dragging the file from the [[File explorer]].
 
@@ -67,12 +64,12 @@ Or, you can add them to the canvas by dragging the file from the [[File explorer
 To add media from your vault to your canvas:
 
 1. Select or drag the image file icon at the bottom of the canvas.
-1. Select the media file you want to add.
+2. Select the media file you want to add.
 
 You can also add media from the canvas context menu:
 
 1. Right-click the canvas and then select **Add media from vault**.
-1. Select the media file you want to add.
+2. Select the media file you want to add.
 
 Or, you can add them to the canvas by dragging the file from the [[File explorer]].
 
@@ -81,7 +78,7 @@ Or, you can add them to the canvas by dragging the file from the [[File explorer
 To embed a web page in your canvas:
 
 1. Right-click the canvas and then select **Add web page**.
-1. Enter the URL to the web page and then select **Save**.
+2. Enter the URL to the web page and then select **Save**.
 
 You can also select a URL in your browser and then drag it into the canvas to embed it in a card.
 
@@ -110,8 +107,8 @@ You can swap a note or media card for another card of the same type.
 To swap a note card:
 
 1. Right-click the card you want to replace.
-1. Select **Swap file**.
-1. Select the note you want to replace with.
+2. Select **Swap file**.
+3. Select the note you want to replace with.
 
 ## Selecting cards
 
@@ -152,7 +149,7 @@ Draw lines between cards to create relationships between them. Use colors and la
 To connect two cards with a directed line:
 
 1. Hover the cursor over one of the edges of a card until you see a filled circle.
-1. Drag the circle to the edge of a different card to connect them.
+2. Drag the circle to the edge of a different card to connect them.
 
 > [!tip]
 > If you drag the line without connecting it to another card, you can then add the card you want to connect it to.
@@ -162,7 +159,7 @@ To connect two cards with a directed line:
 To remove the connection between two cards:
 
 1. Hover the cursor over a connection line until two small circles appear on the line.
-1. Drag one of the circles from the card without connecting it to another.
+2. Drag one of the circles from the card without connecting it to another.
 
 You can also disconnect two cards by right-clicking the line between them, and then selecting **Remove**. Or, by selecting the line and then pressing `Backspace` (or `Delete` on macOS).
 
@@ -171,7 +168,7 @@ You can also disconnect two cards by right-clicking the line between them, and t
 To move one of the ends of a connection line:
 
 1. Hover the cursor over a connection line until two small circles appear on the line.
-1. Drag the circle over the end you want to reconnect, to another card.
+2. Drag the circle over the end you want to reconnect, to another card.
 
 ### Navigate a connection
 
@@ -184,7 +181,7 @@ You can add a label to a line to describe the relationship between two cards.
 To label a connection:
 
 1. Double-click the line.
-1. Enter the label and then press `Escape` or click anywhere on the canvas.
+2. Enter the label and then press `Escape` or click anywhere on the canvas.
 
 You can also label a connection by selecting it and then selecting **Edit label** from the selection controls.
 
@@ -193,8 +190,8 @@ To edit a connection label, double-click on the line, or right-click the line an
 ### Change the color of a card or connection
 
 1. Select the cards or connections you want to color.
-1. In the selection controls, select **Set color** (palette icon).
-2. Select a color.
+2. In the selection controls, select **Set color** (palette icon).
+3. Select a color.
 
 ## Grouping cards
 
@@ -207,7 +204,7 @@ To create an empty group:
 To group related cards:
 
 1. Select the cards.
-1. Right-click any of the selected cards and then select **Create group**.
+2. Right-click any of the selected cards and then select **Create group**.
 
 **Rename group:** Double-click the name of the group to edit it, and then press `Enter` to save.
 

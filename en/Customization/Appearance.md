@@ -1,6 +1,6 @@
 ### Base theme
 
-Obsidian comes with two base themes, light and dark. This option sets the default color scheme your theme will use to either display its light or dark mode version.
+Obsidian comes with two base themes, light and dark. This option sets the default color scheme your theme uses to either display its light or dark mode version.
 
 ### Custom theme
 
@@ -12,4 +12,4 @@ You can easily tweak it by adding [[Add custom styles#Use Themes and or CSS snip
 
 You can make the window translucent by enabling this option in the settings appearance tab. Currently this option is only available for Windows and macOS.
 
-There is a known issue under Windows where dragging the window is extremely slow when translucency is enabled. This is due to a Windows bug. A Github issue tracking the status of a fix can be found here: https://github.com/riverar/sample-win32-acrylicblur/issues/2
+There's a known issue under Windows where dragging the window is extremely slow when translucency is enabled. This is due to a Windows bug. A GitHub issue tracking the status of a fix can be found here: https://github.com/riverar/sample-win32-acrylicblur/issues/2

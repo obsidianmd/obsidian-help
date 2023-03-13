@@ -14,7 +14,7 @@ To navigate between slides, click the left and right arrows in the bottom-right 
 
 You can also advance to the next slide by pressing Spacebar.
 
-To stop the presentation, press `Escape` or click the cross in the top-right corner of the presentation.
+To stop the presentation, press `Escape` or click the cross in the upper-right corner of the presentation.
 
 > [!tip]
 > Try the [[Slides demo]] to see Slides in action.

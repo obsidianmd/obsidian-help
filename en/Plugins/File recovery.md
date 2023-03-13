@@ -12,7 +12,7 @@ Snapshots are kept in the [[How Obsidian stores data#System directory|system dir
 1. Open **Settings**.
 2. In the sidebar, click **File recovery** under **Plugin options**.
 3. Next to **Snapshots**, click **View**.
-4. In the top-right text box, search for the file you want to recover, and then press Enter.
+4. In the upper-right text box, search for the file you want to recover, and then press Enter.
 5. Select the snapshot you want to recover.
 6. Click **Copy to clipboard** to copy the snapshot.
 7. Paste the snapshot in the original note, or in a new note if you want to compare them.
