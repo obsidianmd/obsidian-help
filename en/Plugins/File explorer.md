@@ -46,7 +46,7 @@ For more information, refer to [[Deleting files]].
 ## Rename a file or folder
 
 1. Right-click the file you want to rename, and then click **Rename**.
-2. Type the new name, and the press Enter.
+2. Type the new name, and then press Enter.
 
 When you rename a file, Obsidian automatically updates all the links to that file. For more information, refer to [[Rename notes]].
 
