@@ -1,3 +1,7 @@
+---
+alias: How to/Update Obsidian
+---
+
 Obsidian checks for new updates regularly. When a new update is available, Obsidian applies it when you restart the application.
 
 ## Check for an update and the current version
