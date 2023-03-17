@@ -22,7 +22,7 @@ Today I learned about front matter.
 ```
 
 > [!tip]
-> By default, metadata is only visible in the [[Read and edit modes|editing view]].
+> By default, metadata is only visible in the [[Editing and previewing Markdown#Editor views|editing view]].
 >
 > To display metadata in reading view:
 >
