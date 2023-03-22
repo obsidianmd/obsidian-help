@@ -41,7 +41,7 @@ Obsidian can use iCloud Drive as a local file system.
 When using iCloud Drive on macOS, be sure to update your desktop app's installer version to v0.13.0 or newer.
 
 > [!note]
-> Don't exceed your iCloud storage limit. The syncing might stop. 
+> Don't exceed your iCloud storage limit. The syncing might stop.
 
 #### Create a new vault in iCloud Drive
 
@@ -56,7 +56,7 @@ Obsidian has created a new folder inside your iCloud Drive. To open the iCloud D
 
 1. Open **Obsidian** on your computer.
 2. In the vault switcher, to the right of **Open folder as vault**, click **Open**.
-3. Navigate to **iCloud Drive** -> **Obsidian**.
+3. Navigate to **iCloud Drive** → **Obsidian**.
 4. Select the folder with the name of the vault you want to sync with.
 
 #### Sync an existing vault with iCloud Drive

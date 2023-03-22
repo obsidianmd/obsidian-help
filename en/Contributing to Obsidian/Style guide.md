@@ -29,6 +29,8 @@ _To allow device-specific configuration, Obsidian Sync doesn't sync its own sett
 - Prefer "sidebar" over "side bar".
 - Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
 
+When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**Settings** → **Community plugins**".
+
 ### Notes, files, and folders
 
 - Use "note" when referring to a Markdown file in the vault.
