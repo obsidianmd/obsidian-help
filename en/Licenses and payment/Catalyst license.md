@@ -43,13 +43,13 @@ Once you've purchased a Catalyst license, you can access a range of benefits. Le
 
 1. If you haven't already, join our [forum](https://forum.obsidian.md/).
 2. Browse to your [Obsidian account page](https://obsidian.md/account).
-3. Under **Your license** → **Obsidian Catalyst**, click **Get forum badge**.
+3. Under **Your license → Obsidian Catalyst**, click **Get forum badge**.
 
 ### Get your Discord badge
 
 1. If you haven't already, join our [Discord server](https://discord.gg/veuWUTm).
 2. Browse to your [Obsidian account page](https://obsidian.md/account).
-3. Under **Your license** → **Obsidian Catalyst**, click **Get Discord badge**.
+3. Under **Your license → Obsidian Catalyst**, click **Get Discord badge**.
 
 ### Join our Insider channels
 

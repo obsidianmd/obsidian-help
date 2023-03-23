@@ -56,7 +56,7 @@ Obsidian has created a new folder inside your iCloud Drive. To open the iCloud D
 
 1. Open **Obsidian** on your computer.
 2. In the vault switcher, to the right of **Open folder as vault**, click **Open**.
-3. Navigate to **iCloud Drive** → **Obsidian**.
+3. Navigate to **iCloud Drive → Obsidian**.
 4. Select the folder with the name of the vault you want to sync with.
 
 #### Sync an existing vault with iCloud Drive
