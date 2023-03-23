@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 - Student and non-profit discount
 - Licenses & Payment/Education and non-profit discount
 ---
@@ -20,7 +20,7 @@ Congratulations! Now you’ll see the discount when you try to purchase Obsidian
 
 ### How to renew
 
-Once you have an active discount, you can see how it will expire under **Payment & billing** → **Discount** on [your account page](https://obsidian.md/account).
+Once you have an active discount, you can see how it will expire under **Payment & billing → Discount** on [your account page](https://obsidian.md/account).
 
 A week before your discount expires, you will get an email reminder to renew it. You can follow the same steps in "[[#How to apply]]" to renew the discount, if you still qualify for it.
 

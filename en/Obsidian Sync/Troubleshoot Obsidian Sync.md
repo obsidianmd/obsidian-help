@@ -9,7 +9,7 @@ Conflicts usually happen more frequently if you work offline, since there are mo
 When Sync downloads a new version of a file, and finds that there are conflicts with the local version, the changes are merged with Google's diff-match-patch algorithm.
 
 > [!tip]
-> To find when conflicts have happened, you can search for "Merging conflicted file" in **Settings** → **Sync** → **Sync activity** → **View**.
+> To find when conflicts have happened, you can search for "Merging conflicted file" in **Settings → Sync → Sync activity → View**.
 
 # Obsidian Sync deleted a note I just created on two devices
 
@@ -27,5 +27,5 @@ Since attachments and version history contributes to the total size of your vaul
 
 To identify and purge large files from the vault:
 
-1. Open **Settings** -> **Sync**.
+1. Open **Settings → Sync**.
 2. Explore the options under **Vault size over limit** for how you can reduce the size of your vault.

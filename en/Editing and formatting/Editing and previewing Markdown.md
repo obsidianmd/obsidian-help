@@ -15,9 +15,9 @@ You can switch between the _editing view_ and _reading view_, depending on wheth
 To switch between views, select the view switcher (open book icon or pencil icon) in the upper-right corner of the editor, or press `Ctrl+E` (or `Cmd+E` on macOS) in the editor.
 
 > [!note]
-> You need to enable **Settings** -> **Appearance** -> **Show tab title bar** to see the icon for switching views.
+> You need to enable **Settings → Appearance → Show tab title bar** to see the icon for switching views.
 
-You can change the default editor view under **Settings** -> **Editor** -> **Default view for new tabs**.
+You can change the default editor view under **Settings → Editor → Default view for new tabs**.
 
 > [!tip] Side-by-side preview
 > To open a note in both editing and reading view side-by-side, press `Ctrl` (or `Cmd` on macOS) and select the view switcher (open book icon or pencil icon) in the upper-right corner of the editor.
@@ -26,7 +26,7 @@ You can change the default editor view under **Settings** -> **Editor** -> **Def
 
 In Editing view, you can edit your notes using one of two modes, _Live Preview_ or _Source mode_.
 
-You can change the default editor mode under **Settings** -> **Editor** -> **Default editing mode**.
+You can change the default editor mode under **Settings → Editor → Default editing mode**.
 
 ### Live Preview
 
