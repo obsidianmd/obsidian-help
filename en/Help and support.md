@@ -1,13 +1,5 @@
 Learn how you can get help and support resources when using Obsidian or any of our paid services.
 
-## Contact Obsidian support
-
-If you have question of need help with any of the following, you can [email the Obsidian team](mailto:support@obsidian.md) for support:
-
-- Account and billing support.
-- Support related to our paid services, such as [[Introduction to Obsidian Publish|Obsidian Publish]] and [[Introduction to Obsidian Sync|Obsidian Sync]].
-- Support regarding licenses, such as [[Catalyst license]] or [[Commercial license]].
-
 ## Questions and advice
 
 If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
@@ -23,6 +15,10 @@ If you have a question about how to use Obsidian, or want to get to know other O
 If you want to suggest a feature in Obsidian, head over to [Feature requests](https://forum.obsidian.md/c/feature-requests/8).
 
 If you want to report a bug, head over to [Bug reports](https://forum.obsidian.md/c/bug-reports/7). Bug reports are moved to the [Bug graveyard](https://forum.obsidian.md/c/bug-graveyard/12) once they're resolved.
+
+## Contact Obsidian support
+
+Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
 
 ## Report a security issue
 
