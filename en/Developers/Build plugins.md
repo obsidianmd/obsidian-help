@@ -48,7 +48,7 @@ For more help on building plugins for Obsidian, check out the following resource
 
 - For API reference documentation, refer to the [Obsidian API](https://github.com/obsidianmd/obsidian-api).
 - For a more in-depth guide on how to get started with plugin development, check out the [Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs) by [Marcus Olsson](https://marcus.se.net).
-- For a video walkthrough on plugin development, check out our YouTube playlist on how to [Build you first Obsidian plugin](https://www.youtube.com/playlist?list=PLIDCb22ZUTBnMCbJa-st4PD5T3Olep078).
+- For a video walkthrough on plugin development, check out our YouTube playlist on how to [Build your first Obsidian plugin](https://www.youtube.com/playlist?list=PLIDCb22ZUTBnMCbJa-st4PD5T3Olep078).
 
 ## Submit your plugin
 
