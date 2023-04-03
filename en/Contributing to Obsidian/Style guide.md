@@ -12,6 +12,7 @@ This page lists any deviances from the Google style guide, or terminology worth 
 - Prefer "sync" or "syncing" over "synchronize" or "synchronizing".
 - Prefer "search term" over "search query".
 - Prefer "heading" over "header" when referring to a text that introduces a section.
+- Prefer "maximum" over "max" and "minimum" over "min".
 
 ### Product names
 
@@ -117,7 +118,7 @@ This is a section.
 3. Third item
 ```
 
-**Not recommended**
+**Not recommended:**
 
 ```md
 # Heading 1
