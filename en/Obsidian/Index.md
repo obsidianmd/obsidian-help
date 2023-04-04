@@ -39,11 +39,11 @@ To read more about the makers, see the [about page](https://obsidian.md/about) o
 
 ### Official plugins
 
-![[Core plugins#Current list of official plugins]]
+![[Core plugins#Current list of core plugins]]
 
 ### Advanced guides
 
 - [[Working with multiple notes]]
-- [[Pane layout]]
+- [[Use tabs in Obsidian]]
 - [[Working with multiple vaults]]
 - [[Using Obsidian URI]]
