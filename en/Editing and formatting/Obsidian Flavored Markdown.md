@@ -2,6 +2,13 @@ Obsidian strives for maximum capability without breaking any existing formats. A
 
 Obsidian mainly uses [CommonMark](https://commonmark.org/), with some functionality from [GitHub Flavored Markdown](https://github.github.com/gfm/) and LaTeX.
 
-In addition, Obsidian adds syntax for [[Internal links]] (`[[ ]]`) and for [[Embedding files]] (`![[ ]]`) syntax.
+In addition, Obsidian adds the following syntax:
 
-To be able to handle huge files, and to support syncing between editor views, Obsidian doesn't support Markdown syntax or blank lines within HTML blocks.
+Syntax | Description
+-|-
+`[[ ]]` | [[Internal links]]
+`![[ ]]` | [[Embedding files]]
+`%%` | [[Basic formatting syntax#Comments\|Comments]]
+`> [!note]` | [[Callouts]]
+
+Obsidian doesn't support Markdown syntax or blank lines within HTML blocks.
