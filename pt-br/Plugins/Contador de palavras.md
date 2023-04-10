@@ -1,3 +1,3 @@
-Word count displays the number of words and characters of the active note. You can find the word count in the bottom right status bar.
+O contador de palavras mostra o número de palavras e caracteres na nota que está ativa. Você pode encontrar o contador de palavras na parte inferior, na barra de status.
 
-Word count even supports CJK languages (Chinese, Japanese, and Korean), which don't use spaces to separate words.
+O contador de palavras também tem suporte para linguas CJK (Chinês, Japonês e Coreano), os quais não usam espaços para separar palavras.
