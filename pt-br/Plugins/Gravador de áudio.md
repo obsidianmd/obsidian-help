@@ -1,4 +1,4 @@
-Grave e salveáudio diretamente em uma nota do Obsidian. Com o plugin Gravador de áudio, você pode gravar detalhes de uma palestra, reunião, ou outra situação importante onde você não pode digitar rápido o suficiente.
+Grave e salve áudio diretamente em uma nota do Obsidian. Com o plugin Gravador de áudio, você pode gravar detalhes de uma palestra, reunião, ou outra situação importante onde você não pode digitar rápido o suficiente.
 
 > [!observação]
 > Antes de você começar, garanta que seu computador tem um microfone configurado e pronto para uso.
