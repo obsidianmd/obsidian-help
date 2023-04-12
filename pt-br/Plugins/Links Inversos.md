@@ -3,60 +3,60 @@ aliases:
 - How to/Working with backlinks
 ---
 
-With the Backlinks plugin, you can see all the _backlinks_ for the active note.
+Com o plugin de links inversos você pode ver todos os links inversos da nota ativa.
 
-A backlink for a note is a link from another note to that note. In the following example, the "Three laws of motion" note contains a link to the "Isaac Newton" note. The corresponding backlink would link from "Isaac Newton" back to "Three laws of motion".
+Um link inverso de uma nota é um link de outra nota para a nota em questão. No exemplo a seguinte, a nota "As três leis do movimento" contém um link para a nota "Isaac Newton". O correspondente link inverso é de "Isaac Newton" de volta para "As três leis do movimento".
 
 ```mermaid
 flowchart LR
-  laws((Three laws of motion))
+  laws((As três leis do movimento))
   newton((Isaac Newton))
 
   laws --link--> newton
-  newton --backlink--> laws
+  newton --Link inverso--> laws
 ```
 
-Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet.
+Os links inversos podem ser usado para encontrar notas que referenciam a nota que você está escrevendo. Imagine se você pudesse listar os links inversos de qualquer website na internet.
 
-## The backlinks pane
+## O painel de links inversos
 
-You can see all the backlinks for the active note from the _backlinks pane_. The backlinks pane has two collapsible sections: **Linked mentions** and **Unlinked mentions**.
+Você pode ver todos os links inversos da nota ativa no painel de links inversos. O painel de links inversos tem suas seções dobráveis: **Menções vinculadas** e **Menções não vinculadas**.
 
-- **Linked mentions** are backlinks to the notes that contain an internal link to the active note.
-- **Unlinked mentions** are backlinks to any unlinked occurrence of the name of the active note.
+- **Menções vinculadas** são links inversos para as notas que contém um link interno para a nota ativa.
+- **Menções não vinculadas** são links inversos para qualquer ocorrência não vinculada no nome da nota que está ativa.
 
-The backlinks pane have the following options:
+O painél de links inversos tem as seguintes opções:
 
-- **Collapse results** toggles whether to expand each note to display the mentions in it.
-- **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
-- **Change sort order** determines how to sort the mentions.
-- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search query, refer to [[Procurar]].
+- **Esconder resultados** alterna para expandir ou esconder cada nota e mostrar as referências que estão nela.
+- **Mostrar o contexto** alterna para ocultar ou mostrar o conteúdo completo do parágrafo que contém a referência.
+- **Mudar ordenação** determina a ordem como as referências serão mostradas.
+- **Mostrar filtro de busca** alterna um campo de texto que permite você filtrar as referências. Para mais informações sobre como construir uma consulta, veja como [[Procurar]].
 
-## View backlinks for a note
+## Ver links inversos para uma nota
 
-To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right sidebar.
+Para ver os links inversos para a nota ativa, clique na aba de **Links inversos** (icone de link com seta) na barra lateral da direita.
 
-> [!note]
-> If you can't see the Backlinks tab, you can make it visible by opening the [[en/Plugins/Command palette]] and running the **Backlinks: Show backlinks pane** command.
+> [!observação]
+> Se você não estiver vendo a aba de links inversos, você pode torná-la visível abrindo a[[pt-br/Plugins/Paleta de comandos]] e executando o comando **Backlinks: Mostrar o painel de backlinks**.
 
-## Open a linked backlinks pane
+## Abrir painel de links inversos vinculados
 
-The backlinks pane lists backlinks for the active note and updates when you switch to a different note. If you want to see the backlinks for a specific note, regardless of whether it's active or note, you can open a _linked_ backlinks pane.
+O painel de links inversos lista os links inversos na nota que está ativa e atualiza quando alternado para outra nota. Se você quer ver os links inversos de uma nota específica, independente se é a nota ativa ou não, você pode abrir painel dos links inversos.
 
-To open a linked backlinks pane:
+Para abrir o painel de links inversos:
 
-1. Open the [[en/Plugins/Command palette]].
-2. Select **Backlinks: Open backlinks for the current note**.
+1. Abra a [[pt-br/Plugins/Paleta de comandos]].
+2. selecione **Backlinks: Abrir links inversos para o arquivo atual**.
 
-A separate tab opens next to your active note. The tab shows a link icon to let you know it's linked to a note.
+Uma nova aba abre ao lado da sua nota que está ativa. A aba mostra um icone de link para representar que está vinculada com a nota ativa.
 
-## Show backlinks in a note
+## Mostrar links inversos na nota
 
-Instead of showing the backlinks in a separate tab, you can show the backlinks at the bottom of your note.
+Ao invés de mostrar os links inversos em uma aba separada, você pode mostrar os links inversos no final da sua nota.
 
-To show backlinks in a note:
+Para mostrar os links inversos na nota:
 
-1. Open the [[en/Plugins/Command palette]].
-2. Select **Backlinks: Toggle backlinks in document**.
+1. Abra a [[pt-br/Plugins/Paleta de comandos]].
+2. Selecione **Backlinks: Alternar links inversos no documento**.
 
-Or, enable **Backlink in document** under the Backlinks plugin options to automatically toggle backlinks when you open a new note.
+Ou, habilite o **Links inversos no documento** nas opções do plugin de links inversos para mostrar automaticamente os links inversos quando você abre uma nota.
