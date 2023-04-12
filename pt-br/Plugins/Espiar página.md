@@ -1,8 +1,8 @@
-Page preview lets you preview a page when you hover the cursor over an internal link, without needing to navigate to that page.
+A função de espiar página permite que você visualize o conteúdo interno da página quando você passa o mouse sobre um link interno, sem ter que navegar até a página.
 
-In addition to editor, you can preview notes in several other parts of Obsidian, such as [[pt-br/Plugins/Explorador de arquivos]], [[Procurar]], and [[pt-br/Plugins/Links Inversos]].
+Além do editor, você pode visualizar as notas em várias outras partes do Obsidian, como no [[Explorador de arquivos]], [[Procurar]] e [[Links Inversos]].
 
-To preview a page while in Editing view, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link.
+Para espiar a página enquanto estiver no modo de edição, pressione `Ctrl` (ou `Cmd` no macOS) enquanto passa o mouse sobre o link.
 
-> [!tip]
-> In the plugin settings, you can configure Page preview to only open the preview automatically, or only when you press `Ctrl` (or `Cmd` on macOS).
+> [!dica]
+> Nas configurações de plugin, você pode configurar a função de Espiar página para abrir automaticamente ou somente quando pressionado `Ctrl` (ou `Cmd` no macOS).
