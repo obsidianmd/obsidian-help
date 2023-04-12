@@ -1,65 +1,66 @@
-The File explorer lets you manage files and folders inside your vault. You can browse notes and other [[accepted file formats]] in your vault and perform many common file operations:
+O explorador de arquivos permite que você gerencie arquivos e pastas dentro do seu cofre. Você pode navegar entre notas e outros [[Accepted file formats|formatos de arquivos aceitos]] no seu cofre e executar diversas operações comuns entre os arquivos.
 
-- Create, delete, and rename files and folders.
-- Move files and folders with drag and drop.
-- Use the context menu to access all available operations.
+- Criar, excluir e renomear arquivos e pastas.
+- Mover arquivos e pastas arrastando e soltando.
+- Use o menu de contexto para acessar todas as opções disponíveis.
 
-> [!tip]
-> You can drag a file from the File explorer into your note to create a link to it, or drag a file into a folder in the File explorer to copy it.
+> [!dica]
+> Você pode arrastar um arquivo do seu explorador de arquivo diretamente para a sua nota para criar um link, ou arrastar um arquivo para uma pasta do explorador de arquivo para copiá-lo.
 
-## Create a new note
+## Criar uma nova nota
 
-To create a new note in the default location for new notes:
+Para criar uma nova nota no local padrão das novas notas:
 
-1. Click **New note** (document icon) at the top of the File explorer.
-2. Type the name of the note, and then press Enter.
+1. Clique **Nova nota** (icone de documento) no topo do explorador de arquivos.
+3. Digite o nome da nota e então pressione Enter.
 
-> [!tip]
-> You can change the default location for new notes under **Settings → Files and links → Default location for new notes**.
+> [!dica]
+> Você pode mudar a localização padrão de novas notas no menu **Configurações → Arquivos e links → Local padrão para novas notas**.
 
-To create a new note in a specific folder:
+Para criar uma nova nota em uma pasta específica:
 
-1. Right-click the folder and then click **New note**.
-2. Type the name of the note, and then press Enter.
+1. Clique com o direito na pasta e então clique em **Nova nota**.
+3. Digite o nome da nota e então pressione Enter.
 
-To learn about other ways to create a note, refer to [[Create notes]].
+Para saber mais sobre como criar uma nota, veja [[Create notes|Criar notas]].
 
-## Create a new folder
+## Criar uma nova pasta
 
-To create a new folder the root of your vault:
+Para criar um pasta na raiz do seu cofre:
 
-1. Click **New folder** (folder icon) at the top of the File explorer.
-2. Type the name of the folder, and then press Enter.
+1. Clique **Nova pasta** no topo do seu explorador de arquivos.
+3. Digite o nome da pasta e então pressione Enter.
 
-To create a subfolder:
+Para criar uma subpasta:
 
-1. Right-click the folder you want to create the subfolder in, and then click **New folder**.
-2. Type the name of the folder, and then press Enter.
+1. Clique com o direito na pasta que você deseja criar uma subpasta e então clique **Nova Pasta**.
+3. Digite o nome da pasta e então pressione Enter.
 
-## Delete a file or folder
+## Excluir arquivo ou pasta
 
-1. Right-click the file you want to delete, and then click **Delete**.
-2. If prompted to confirm that you want to delete the file, click **Delete**.
+1. Clique com o direito no arquivo que você deseja excluir e então clique **Deletar**.
+3. Se abrir uma janela para você confirmar que deseja deletar, clique **Excluir**.
 
-For more information, refer to [[Deleting files]].
+Para mais informações, veja [[Deleting files|Excluir arquivos]].
 
-## Rename a file or folder
+## Renomeio arquivo ou pasta
 
 1. Right-click the file you want to rename, and then click **Rename**.
-2. Type the new name, and the press Enter.
+2. Clique com o direito no arquivo que você deseja renomear e então clique **Renomear**.
+3. Digite o novo nome e pressione Enter.
 
-When you rename a file, Obsidian automatically updates all the links to that file. For more information, refer to [[Rename notes]].
+Quando você renomeia um arquivo, o Obsidian automaticamente atualiza todos os links que referenciam aquele arquivo. Para mais informações, veja, [[Rename notes|Renomear Notas]].
 
-## Move a file or folder
+## Mover arquivo ou pasta
 
-To move a file or folder, you can use drag-and-drop or the context menu.
+Para mover um arquivo ou pasta você pode arrastar e soltar ou usar o menu de contexto.
 
-**Drag and drop:**
+**Arrastar e soltar:**
 
-- Drag a file or folder to the folder you want to move it to.
-- With `Alt-Click` (Windows/Linux) or `Opt-Click` (macOS) you can select multiple individual files and drag them to another folder. If they're all in a row, you can use `Shift-Click` for it.
+- Arraste um arquivo ou pasta para a pasta de destino.
+- Com as teclas `Alt-Click` (Windows/Linux) ou `Opt-Click` (macOS) você pode selecionar vários arquivos individuais e arrastá-los para outra pasta. Se os arquivos estão todos em sequência, você pode usar `Shift-click` para selecioná-los.
 
-**Context menu:**
+**Menu de contexto:**
 
-1. Right-click a file, and then select **Move file to...**.
-2. Search for the name of the folder you want to move the file to, and then select it from the list.
+1. Clique com o direito no arquivo e então selecione **Mover arquivo para...**.
+3. Procure pelo nome da pasta que você desejar mover o arquivo e então selecione a pasta na lista apresentada.
