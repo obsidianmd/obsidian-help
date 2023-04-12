@@ -1,23 +1,23 @@
-Find files easier by starring them. You can find your starred files by clicking the **Starred** (star icon) tab in the left sidebar, or by running **Show starred notes** from the [[en/Plugins/Command palette]].
+Favorite os arquivos para facilitar a procura. Você pode encontrar seus arquivos favoritos clicando em **Favoritos** (icone de estrela) no topo da barra lateral, ou executando o comando **Mostrar painel de favoritos** na [[pt-br/Plugins/Paleta de comandos]]. 
 
-Click the name of a file in the **Starred** pane to open it.
+Clique no nome do arquivo no painel de **Favoritos** para abrir o arquivo.
 
-You can reorder starred files in the **Starred** pane by clicking and dragging them.
+Você pode reordenar seus arquivos favoritos no painel de **Favoritos** arrastando-os.
 
-To star a note:
+Para favoritar uma nota:
 
-**File explorer:**
+**Explorador de arquivos:**
 
-- Right-click a file in [[pt-br/Plugins/Explorador de arquivos]] and click **Star**.
+- Clique com o direito no arquivo no [[Explorador de arquivos]] e clique em **Favoritar*.
 
-**Options menu:**
+**Menu de opções:**
 
-- Click **More options** in the upper-right corner of a note, and then click **Star**.
+- CLique **Mais opções** no canto superior direito da nota e então clique **Favoritar**.
 
-**Command palette:**
+**Paleta de comandos:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[en/Plugins/Command palette]].
-2. Search for the **Star/unstar current file** command.
-3. Press `Enter` with the command selected to toggle the active note.
+1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[pt-br/Plugins/Paleta de comandos]].
+3. Procure pelo comando **Favorita/Desfavorita o arquivo atual**.
+4. Pressione `Enter` com o comando selecionado para favoritar/desfavoritar o arquivo atual.
 
-To unstar a file, use the same steps as when starring a note. The option instead shows **Unstar**.
+Para desfavoritar um arquivo, use os mesmos passos usados para favoritar uma nota. A opção agora aparecerá como **Desfavoritar**.
