@@ -1,32 +1,32 @@
-Daily notes opens a note based on today's date, or creates it if it doesn't exist. Use daily notes to create journals, to-do lists, or daily logs for things you discovered during the day.
+O plugin de notas diárias abre uma nota baseada da data de hoje, ou cria uma caso não exista. Utilize notas diárias para criar *journals*, lista de tarefas, ou registros diários para coisas que você descobrir ao longo do dia.
 
-To open today's daily note, either:
+Você pode abrir as notas diárias com os seguintes procedimentos:
 
-- Click **Open today's daily note** (calendar with checkmark icon) in the [[en/User interface/Workspace/Ribbon|ribbon]].
-- Run **Open today's daily note** from the [[en/Plugins/Command palette]].
-- [[Custom hotkeys#Setting hotkeys|Use a hotkey]] for the **Open today's daily note** command.
+- Clique **Abrir nota de hoje** (icone do calendário) na fita.
+- Execute o comando **Abrir nota de hoje** na [[pt-br/Plugins/Paleta de comandos]].
+- [[Custom hotkeys#Setting hotkeys|Use a hotkey]] para o comando de **Abrir nota de hoje**.
 
-By default, Obsidian creates a new empty note named after today's date in the YYYY-MM-DD format.
+Por padrão, o Obsidian cria uma nova nota com a data de hoje como nome, no formato YYYY-MM-DD.
 
-> [!tip]
-> If you prefer to have your daily notes in a separate folder, you can set the **New file location** under plugin options to change where Obsidian creates new daily notes.
+> [!dica]
+> Se você preferir ter suas notas diárias em uma pasta separada, você pode configurar a opção **Local para novos arquivos** do plugin para mudar o local onde o Obsidian cria as novas notas.
 
-## Create a daily note from template
+## Criar uma nota diária a partir de um modelo
 
-If your daily notes have the same structure, you can use a [[en/Plugins/Templates|template]] to add pre-defined content to your daily notes when you create them.
+Se sua nota diária tiver a mesma estrutura, você pode usar um [[Modelos|modelo]] para adicionar conteúdo pré-definido na sua nota diária quando você criá-la.
 
-1. Create a new note named "Daily template" with the following text (or whatever makes sense to you!):
+1. Crie uma nova nota chamada "Modelo diário" com os seguintes textos (ou qualquer coisa que faça sentido para você!):
 
    ```md
-   # {{date:YYYY-MM-DD}}
+   # {{data:YYYY-MM-DD}}
 
-   ## Tasks
+   ## Tarefas
 
    - [ ]
    ```
 
-2. Open **Settings**.
-3. In the sidebar, click **Daily notes** under **Plugin options**.
-4. In the text box next to **Template file location**, select the "Daily template" note.
+2. Abra **Configurações**.
+3. Na barra lateral, clique em **Notas diárias** na seção de **Plugins Nativos**.
+4. Na caixa de texto ao lado de **Local do arquivo modelo**, selecione a nota "Modelo diário".
 
-Obsidian uses the template the next time you create a new daily note.
+O Obsidian utilizará o modelo na próxima vez que você criar uma nota diária.
