@@ -1,3 +1,3 @@
-The Random note plugin opens a random note within your vault. Rediscover notes to add new insights, or link to recently added notes.
+O plugin de nota aleatória abre uma nota aleatório de dentro do seu cofre. Redescubra notas para adicionar *insights*, ou para criar link com notas recém criadas.
 
-To open a random note, click **Open random note** (die icon) in the [[en/User interface/Workspace/Ribbon]].
+Para abrir uma nota aleatória, clique **Abrir nota aleatória** (icone do dado) em [[en/User interface/Workspace/Ribbon]].
