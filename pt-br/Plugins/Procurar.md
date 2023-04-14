@@ -1,97 +1,97 @@
-The Search plugin helps you find files in your vault.
+O plugin **Procurar** ajuda você a encontrar arquivos no seu cofre.
 
-By default, you can find Search in the left sidebar (magnifying glass icon). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).
+Por padrão, você pode encontrar o Procurar na barra lateral (Icone da lupa). Você também abrir a função Procurar pressionando `Ctrl+Shift+F` (ou `Cmd+Shift+F` no macOS).
 
-- **Search selected text**: If you select text in the editor and open Search with the keyboard shortcut, Search shows you the search results for the selected text.
-- **Search recent search terms**: Open Search with an empty search term to list recent search terms. Click any of them to use the search term again.
+- **Procurar texto selecionado:** Se você selecionar o texto no editor e abrir o comando Procurar através do atalho do teclado, a função Procurar apresentará os resultados da pesquisa para o texto selecionado.
+- **Procurar por termos recentes:** Abra a função Procurar com um termo de pesquisa vazio para listar todos os termos de pesquisa recentes. Clique em qualquer um deles para pesquisar o termo novamente.
 
-## Search terms
+## Procurar termos
 
-A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults.
+O termo de pesquisa é uma palavra ou frase que você informa no campo de pesquisa. Aprender como escrever termos de forma efetiva pode ajudá-lo a encontrar mais rapidamente aquilo que você está procurando, até mesmo em grandes cofres.
 
-Each word in the search term is matched independently within each file. To search for an exact phrase, surround it with quotes, for example `"star wars"`. To search for quoted text within an exact phrase, you can _escape_ the quotes by adding a backslash (`\`) in front of the quote, for example `"they said \"hello\" to each other"`.
+Cada palavra no termo de pesquisa possui uma correspondência independente em cada arquivo. Para pesquisar por uma frase exata, evolva o termo pesquisado com aspas duplas, por exemplo `"start wars"`. Para procurar por textos entre aspas duplas dentro de frases, você pode escapar as aspas adicionando uma barra invertida (`\`) na frente das aspas, por exemplo `"Eles falaram \"olá\" um para o outro"`.
 
-You can control whether to return files that contain _all_ the words in your search term, or _any_ of the words:
+Você pode controler se o resultado deve retornar arquivos que contém todas as correspondências das palavras ou a correspondência de alguma palavra.
 
-- `meeting work` returns files that contain both `meeting` and `work`.
-- `meeting OR work` returns files that contain either `meeting` or `work`.
+- `trabalho remoto` retornará arquivos que correspondem com `trabalho` e `remoto`.
+- `trabalho OR remoto` retornará arquivo que correspondem com `trabalho` ou `remoto`.
 
-You can even combine the two in the same search term.
+Você também pode combinar as duas formas no mesmo termo de pesquisa.
 
-- `meeting work OR meetup personal` returns files for work meetings and personal meetups.
+- `trabalho remoto OR trabalho digital` retornará arquivos para "trabalho remoto" e "trabalho digital".
 
-You can use parentheses to control the priority of each expression.
+Você pode usar parênteses para controlar a prioridade de cada expressão.
 
-- `meeting (work OR meetup) personal` returns files that contain `meeting`, `personal`, and either `work` or `meetup`.
+- `trabalho (remoto OR acesso) digital` retornará arquivos que contém `trabalho`, `digital` e `remoto` ou `acesso`.
 
-To exclude a word from the search results, add a hyphen (`-`) in front of it:
+Para excluir uma palavra do resultado da pesquisa, adicione um hífen (`-`) na frente da palavra:
 
-- `meeting -work` returns files that contain `meeting` but not `work`.
+- `trabalho -remoto` retornará arquivos que contém a palavra `trabalho`, mas não `remoto`.
 
-> [!tip] Explain search term
-> If you need to troubleshoot a complex search term, you can click **Explain search term** in the Search pane for an explanation of your search term.
+> [!dica] Explicar termos de pesquisa
+> Se você precisa resolver um problema de um termo de pesquisa complexo, você pode clicar em **Explicar termos de pesquisa** no painel de pesquisa para obter uma explicação sobre o seu termo de pesquisa.
 
-## Search operators
+## Operadores de pesquisa
 
-Search operators enable more fine-grained search queries to filter your results even more.
+Operadores de pesquisa permite que você refine suas suas pesquisa e filtre ainda mais os resultados.
 
-Some operators even allow you to add a nested search term within parentheses, for example: `task:(call OR email)`.
+Alguns operadores também permitem que você aninhe o termo de pesquisa entre parênteses, por exemplo: `tarefa: (ligar OR email)`.
 
-| Search operator | Description                                                                                                                                                                                                          |
+| Operador de pesquisa | Descrição                                                                                                                                                          |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `file:`         | Find text in filename.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                     |
-| `path:`         | Find text in file path.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                    |
-| `content:`      | Find text in file content.<p/>Example: `content:"happy cat"`.                                                                                                                                                        |
-| `match-case:`   | Case-sensitive match.<p/>Example: `match-case:HappyCat`.                                                                                                                                                             |
-| `ignore-case:`  | Case-insensitive match.<p/>Example: `ignore-case:ikea`.                                                                                                                                                              |
-| `tag:`          | Find tag in file.<p/>Example: `tag:#work`.<p/>**Note**: Since `tag:` ignores matches in code blocks and in non-Markdown content, it's often faster and more accurate than a normal full-text search for `#work`.     |
-| `line:`         | Find matches on the same line.<p/>Example: `line:(mix flour)`.                                                                                                                                                       |
-| `block:`        | Find matches in the same block.<p/>Example: `block:(dog cat)`.<p/>**Note**: Since `block:` requires Search to parse the Markdown content in every file, it can cause your search term to take longer time to finish. |
-| `section:`      | Find matches in the same section (text between two headings).<p/>Example: `section:(dog cat)`.                                                                                                                         |
-| `task:`         | Find matches in a [[en/How to/Format your notes#Task list\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                          |
-| `task-todo:`    | Find matches in an *uncompleted* [[en/How to/Format your notes#Task list\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                      |
-| `task-done:`    | Find matches in a *completed* [[en/How to/Format your notes#Task list\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
+| `file:`         | Procura o texto no nome do arquivo.<p/>Exemplo: `file:.jpg` ou `file:202209`.                                                                                                                                                     |
+| `path:`         | Procura o texto no caminho do arquivo.<p/>Exemplo: `path:"Notas diárias/2022-07"`.                                                                                                                                                    |
+| `content:`      | Procura o text no conteúdo do arquivo.<p/>Exemplo: `content:"Gato feliz"`.                                                                                                                                                        |
+| `match-case:`   | Correspondência considerando maiúsculas e minúsculas.<p/>Exemplo: `match-case:GatoFeliz`.                                                                                                                                                             |
+| `ignore-case:`  | Correspondência sem considerar maiúsculas e minúsculas.<p/>Exemplo: `ignore-case:ikea`.                                                                                                                                                              |
+| `tag:`          | Procurar etiqueta em arquivo.<p/>Exemplo: `tag:#trabalho`.<p/>Observação: Uma vez que `tag:` ignora a correspondência em blocos de código e em conteúdos que não são do tipo markdown, é normalmente mais rápido e mais preciso do que uma procura pelo texto `#trabalho`.     |
+| `line:`         | Procurar correspondências na mesma linha.<p/>Exemplo: `line:(misturar farinha)`.                                                                                                                                                       |
+| `block:`        | Procurar correspondências no mesmo bloco.<p/>Exemplo: `block:(cachorro gato)`.<p/>Observação: Uma vez que `block:` obriga que a pesquisa analise o conteúdo markdown de cada arquivo, normalmente leva um tempo maior para ser finalizado. |
+| `section:`      | Procura correspondências na mesma seção (texto entre dois cabeçalhos).<p/>Exemplo: `section:(cachorro gato)`.                                                                                                                         |
+| `task:`         | Encontra correspondência em uma tarefa bloco a bloco.<p/>Exemplo: `task:ligar`.                                                                                                          |
+| `task-todo:`    | Encontra correspondência em uma tarefa *incompleta* bloco a bloco.<p/>Exemplo: `task-todo:ligar`.                                                                                      |
+| `task-done:`    | Encontra correspondência em uma tarefa *finalizada* bloco a bloco.<p/>Exemplo: `task-done:ligar`.                                                                                         |
 
-## Use regular expressions in search terms
+## Use expressões regulares nos termos de pesquisa
 
-A regular expression is a set of characters that describe a text pattern. To use regular expressions in your search term, surround the expression with forward slashes (`/`).
+Uma expressão regular é um conjunto de caracteres que descrever um padrão de texto. Para utilizar expressões regulares no seu termo de pesquisa, envolva a expressão com barras (`/`).
 
-- `/\d{4}-\d{2}-\d{2}/` matches an ISO 8601 date, such as 2022-01-01.
+- `/\d{4}-\d{2}-\d{2}/` corresponde com uma data do tipo ISO 8601, como 2022-01-01.
 
-You can even combine regular expressions with search operators:
+Você pode também combinar expressões regulares com operadores de pesquisa:
 
-- `path:/\d{4}-\d{2}-\d{2}/` returns files with a date in the file path.
+- `path:/\d{4}-\d{2}-\d{2}/` retorna arquivos com o data no caminho do arquivo.
 
-For more information on how to write regular expressions, refer to [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+Para mais informações sobre como escrever expressões regulares, veja [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
-> [!note]
-> Regular expressions come in different flavors that may look different from each other. Obsidian uses JavaScript-flavored regular expressions.
+> [!observação]
+> Expressões regulares possuem diferentes "sabores" que podem parecer diferentes entre si. O Obsidian utilizar o "sabor" Javascript para expressões regulares.
 
-## Configure search settings
+## Configurar opções de pesquisa
 
-To configure Search, use the settings at the top of the Search pane:
+Para configurar a pesquisa, utilize as opções no topo do painel de pesquisa:
 
-| Setting                 | Description                                                                 |
+| Opção                 | Descrição                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
-| **Match case**          | Toggles case-sensitive matching.                                            |
-| **Explain search term** | Breaks down the search terms and explains it in plain text.                 |
-| **Collapse results**    | Toggles whether to show the search context.                                 |
-| **Show more context**   | Expands the search result to show more text around the match.               |
-| **Change sort order**   | Change the order of the search results.                                     |
-| **Copy search results** | Convert and copy the search results as a Markdown list with optional links. |
+| **Correspondência**          | Altera entre a correspondência entre maiúsculas e minúsculas.                                            |
+| **Explicar termos de pesquisa** | Quebra o termo de pesquisa em partes e explica em forma de texto.                 |
+| **Esconder resultados**    | Alterna entre mostra e ocultar o conteúdo da pesquisa.                                 |
+| **Mostrar o conteúdo**   | Expande o resultado da pesquisa para mostrar mais texto ao redor da correspondência.               |
+| **Mudar ordenação**   | Mudar a ordem dos resultados encontrados.                                     |
+| **Copiar resultados da pesquisa** | Converte e copia o resultado da pesquisa como uma lista do tipo Markdown com links opcionais. |
 
-## Embed search results in a note
+## Incorporar o resultado da pesquisa em uma nota
 
-To embed search results in a note, add a `query` codeblock:
+Para incorporar o resultado da pesquisa em uma nota, adicione o bloco de código de `query`:
 
 <pre><code>```query
 embed OR search
 ```</code></pre>
 
-For example:
+Por exemplo:
 
-> [!note]
-> [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded search results. To see the example, open Obsidian Help locally inside Obsidian.
+> [!observação]
+> [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]]  não suporta incorporar resultados de pesquisa. Para ver o exemplo, abra a ajuda do Obsidian localmente dentro do Obsidian.
 
 ```query
 embed OR search
