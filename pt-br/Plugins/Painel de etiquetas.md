@@ -2,16 +2,16 @@
 alias: [Tag pane]
 ---
 
-Tags lists all tags within your vault along with how many notes that contain them.
+O painel de etiquetas lista todas as etiquetas do seu cofre junto com o total de notas que contém essas etiquetas.
 
-Click a tag to search for it using [[Procurar]].
+Clique em uma equiqueta para procurando usando [[Procurar]].
 
-To toggle a tag in the search query, click the tag while pressing `Ctrl` (or `Cmd` on macOS).
+Para alternar a etiqueta na pesquisa, clique na nova etiqueta enquanto pressiona `Ctrl` (ou `Cmd` no macOS).
 
-The Tags pane have the following options:
+O painel de etiquetas possui as seguintes opções:
 
-- **Change sort order** determines whether to sort the tags by **Tag name** or **Frequency**.
-- **Show nested tags** toggles whether to display nested tags as a tree or as a flat list.
-- **Expand all** and **Collapse all** expands and collapses the nested tags hierarchy.
+- **Mudar a ordenação** determina se as etiquetas serão classificadas pelo **Nome da etiqueta** ou pela **Frequência**.
+- **Mostrar etiquetas aninhadas** alterna entre a apresetação das etiquetas em forma de lista ou de árvore.
+- **Expandir tudo** e **Recolher tudo** expande e recolhe as hierarquia das etiquetas aninhadas.
 
-You can choose to expand or collapse each nested level separately by clicking the arrow next to it.
+Você pode escolher entre expandir ou recolher individualmente cada nível das etiquetas aninhadas somente clicando na seta ao lado do nome da etiqueta.
