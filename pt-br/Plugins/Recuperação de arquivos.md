@@ -1,27 +1,27 @@
-File recovery helps you recover your work in the case of unintentional data loss, by regularly saving snapshots of your notes.
+A recuperação de arquivos permite que você recupere seu trabalho caso ele seja perdido acidentalmente, através de _snapshots_ salvos regularmente.
 
-To avoid taking up too much space, Obsidian keeps snapshots for a certain number of days before deleting them.
+Para não ocupar muito espaço, o Obsidian mantém os snapshots por um certo número de dias antes de excluí-los.
 
-> [!note]
-> By default, snapshots are saved a minimum of 5 minutes from each other, and kept for 7 days. You can configure both intervals under **Settings → File recovery**.
+> [!observação]
+> Por padrão, os snapshots ficam salvos em um intervalo de 5 minutos entre um e outro, e ficam armazenados por 7 dias. Você pode configurar os intervalos em **Configurações → Recuperação de arquivos**.
 
-Snapshots are kept in the [[How Obsidian stores data#System directory|system directory]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
+Os snapshots são mantidos no [[How Obsidian stores data#System directory|system directory]], fora do cofre, para contabilizar perda de dados relacionadas ao cofre. Isso significa que os snapshots são armazenados com o caminho absoluto da nota. Se você moveu seu cofre recentemente, você deve mover ele de volta ao local onde ele estava quando os snapshots foram criados.
 
-## Recover a snapshot
+## Recuperar um snapshot
 
-1. Open **Settings**.
-2. In the sidebar, click **File recovery** under **Plugin options**.
-3. Next to **Snapshots**, click **View**.
-4. In the upper-right text box, search for the file you want to recover, and then press Enter.
-5. Select the snapshot you want to recover.
-6. Click **Copy to clipboard** to copy the snapshot.
-7. Paste the snapshot in the original note, or in a new note if you want to compare them.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Recuperação de arquivos** nas opções dos **Plugins nativos**.
+3. Ao lado de **Versões** clique em **Abrir**.
+4. No canto superior esquerdo, procure pelo arquivo que você deseja recuperar, e então pressione `Enter`.
+5. Selecione o snapshot que você deseja recuperar.
+6. Clique em **Copiar para área de transferência** para copiar o snapshot.
+7. Cole o snapshot na nota original ou em uma nova nota se você quer comparar as duas.
 
-## Clear snapshot history
+## Limpar o histórico de snapshots
 
-**Caution:** Clearing the snapshot history irreversibly deletes all snapshots in your vault.
+**Cuidado:** A limpeza do histórico de snapshots exclui todo o histórico de snapshots do seu cofre de forma irreversível.
 
-1. Open **Settings**.
-2. In the sidebar, click **File recovery** under **Plugin options**.
-3. Next to **Clear history**, click **Clear**.
-4. Confirm that you want to delete all snapshots, by clicking **Clear**.
+1. Abra **Configurações**.
+2. Na aba lateral clique em **Recuperação de arquivos** na seção de **Plugins nativos**.
+3. Próximo a **Remover história**, clique em **Deletar**.
+4. Confirme que você deseja excluir todos os snapshots clicando em **Deletar**.
