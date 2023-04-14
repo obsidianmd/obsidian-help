@@ -1,5 +1,5 @@
-The Outline plugin lists the headings in the active note.
+O plugin de sumário lista todos os cabeçalhos da nota ativa.
 
-To navigate to that section in the note, click on the heading in the outline.
+Para navegar para determinada seção na nota, clique no cabeçalho mostrado no sumário.
 
-To rearrange sections in the note, click and drag the heading within the outline.
+Para reorganizar seções na nota, clique ou arraste o cabeçalho dentro do sumário.
