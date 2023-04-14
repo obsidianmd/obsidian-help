@@ -3,14 +3,14 @@ Você pode usar modelos para inserir trechos pré-definidos de texto na sua nota
 ## Definir a pasta de modelos
 
 1. No canto inferior esquerdo clique em **Configurações** (icone de engrenagem).
-3. Em **Plugins nativos > Modelos > Localização da Pasta de Modelos**, insira a pasta que contém os seus modelos.
+2. Em **Plugins nativos > Modelos > Localização da Pasta de Modelos**, insira a pasta que contém os seus modelos.
 
 ## Insira o modelo na nota ativa
 
 **Importante:** Para inserir um modelo, você precisa primeiro [[#Definir a pasta de modelos]].
 
 1. Na fita, clique em **Inserir modelo**.
-3. Selecione o modelo para inserir na posição do cursor na nota ativa.
+2. Selecione o modelo para inserir na posição do cursor na nota ativa.
 
 Se sua pasta de modelso contém apenas uma nota, a função inserir modelo vai inserir diretamente na nota ativa.
 

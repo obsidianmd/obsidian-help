@@ -15,16 +15,16 @@ Para fundir a nota ativa com outra nota do seu cofre:
 **Explorador de arquivos**
 
 1. No explorador de arquivos, clique com o direito na nota que você deseja mesclar.
-3. Clique **Mesclar o arquivo todo com...**
-5. Selecione a nota que você deseja mesclar.
-6. Clique **Mesclar** para confirmar.
+2. Clique **Mesclar o arquivo todo com...**
+3. Selecione a nota que você deseja mesclar.
+4. Clique **Mesclar** para confirmar.
 
 **Paleta de comandos**
 
 1. Abra a [[pt-br/Plugins/Paleta de comandos]].
 2. Selecione **Mesclar o arquivo atual com outro arquivo...**.
 3. Selecione a nota que você deseja mesclar.
-6. Clique **Mesclar** para confirmar.
+4. Clique **Mesclar** para confirmar.
 
 > [!dica]
 > Por padrão, o compositor de notas solicitará confirmação antes de mesclar as notas. Se você desabilitar o modo de confirmação, e você mesclar uma nota acidentalmente, você pode recuperá-la com o plugin [[Recuperação de arquivos]].
@@ -42,17 +42,17 @@ Para extrair o texto em uma nova nota:
 **Editor**
 
 1. Enquanto estiver no modo de **Visualização de edição**, selecione o texto que você deseja extrair.
-3. Clique com o direito no texto selecionado.
-5. Clique **Extrair seleção atual...**.
-7. Selecione a nota de destino.
+2. Clique com o direito no texto selecionado.
+3. Clique **Extrair seleção atual...**.
+4. Selecione a nota de destino.
 
 **Paleta de comandos**
 
 1. Enquanto estiver no modo de **Visualização de edição**, selecione o texto que você deseja extrair.
-3. Abra a [[pt-br/Plugins/Paleta de comandos]].
-4. Select **Note composer: Extract current selection...**.
-5. Selecione **Compositor de notas: Extrair seleção atual...**.
-6. Selecione a nota de destino.
+2. Abra a [[pt-br/Plugins/Paleta de comandos]].
+3. Select **Note composer: Extract current selection...**.
+4. Selecione **Compositor de notas: Extrair seleção atual...**.
+5. Selecione a nota de destino.
 
 > [!dica]
 > Por padrão o compositor de notas substituir o texto extraido com o link da nota de destino. nas configurações, você pode configurar para [[en/Linking notes and files/Embedding files|incorporar]] a nota de destino ou deixar sem nada de referência.

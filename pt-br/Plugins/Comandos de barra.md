@@ -4,8 +4,8 @@ Para executar um comando usando o comando de barra:
 
 1. No editor, digite a barra normal (/).
 2. Digite o nome do comando que você deseja executar e procure-o na lista de comandos disponíveis.
-4. Navegue até o comando usando as setas.
-6. Pressione Enter.
+3. Navegue até o comando usando as setas.
+4. Pressione Enter.
 
 To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
 Para sair do modo de busca de comandos de barra sem execurar nenhum comando, pressione a tecla `Esc` ou `Espaço`.

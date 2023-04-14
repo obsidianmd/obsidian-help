@@ -7,7 +7,7 @@ Grave e salve áudio diretamente em uma nota do Obsidian. Com o plugin Gravador 
 
 1. Crie uma nota ou abra uma nota existente.
 2. Na faixa, clique em **Começar/parar gravação de áudio** (icone de microfone) para iniciar a gravação. A gravaçar irá começar no momento em que o icone mudar de cor.
-4. Clique no icone novamente para parar a gravação e adicionar ela em sua nota.
+3. Clique no icone novamente para parar a gravação e adicionar ela em sua nota.
 
 O Obsidian salva o arquivo de gravação de áudio em seu cofre e [[en/Linking notes and files/Embedding files|incorpora]] ele no final na nota que está ativa.
 

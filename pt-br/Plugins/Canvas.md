@@ -50,12 +50,12 @@ Para converter um cartão de texto em um arquivo:
 Para adicione uma nota do seu cofre no canvas:
 
 1. Selecione ou arraste o icone de documento que está na parte inferior do canvas.
-3. Selecione a nota que você deseja adicionar.
+2. Selecione a nota que você deseja adicionar.
 
 Você também pode adicionar notas do menu de contexto do canvas:
 
 1. Clique com o direito no canvas e selecione **Adicionar nota do cofre**.
-3. Selecione a nota que você deseja adicionar.
+2. Selecione a nota que você deseja adicionar.
 
 Ou, você pode adicionar simplesmente arrastando o arquivo do [[pt-br/Plugins/Explorador de arquivos]] para o canvas.
 
@@ -64,12 +64,12 @@ Ou, você pode adicionar simplesmente arrastando o arquivo do [[pt-br/Plugins/Ex
 Para adicionar arquivos de mídia do seu cofre para o canvas:
 
 1. Selecione ou arraste o ícone de arquivo de imagem que está na parte inferior do canvas.
-3. Selecione o arquivo de mídia que você deseja adicionar.
+2. Selecione o arquivo de mídia que você deseja adicionar.
 
 Você também pode adicionar mídia pelo menu de contexto do canvas:
 
 1. Clique com o direito no canvas e elecione **Adicionar mídia do cofre**.
-3. Selecione o arquivo de mídia que você deseja adicionar.
+2. Selecione o arquivo de mídia que você deseja adicionar.
 
 Ou, você pode adicionar simplesmente arrastando o arquivo do [[pt-br/Plugins/Explorador de arquivos]] para o canvas.
 
@@ -78,7 +78,7 @@ Ou, você pode adicionar simplesmente arrastando o arquivo do [[pt-br/Plugins/Ex
 Para incorporar uma página web no canvas:
 
 1. Clique com o direito no canvas e selecione a opção **Adicionar página web**.
-3. Insira a URL da página web e selecione **Salvar**.
+2. Insira a URL da página web e selecione **Salvar**.
 
 Você também pode selecionar a URL no seu navegador e então arrastar ela diretamente para o canvas para incorporar a página em um cartão.
 
@@ -107,8 +107,8 @@ Você pode trocar um cartão de nota ou mídia por outro cartão do mesmo tipo.
 Para trocar um cartão de nota:
 
 1. Clique com o direito no cartão de nota que você deseja trocar.
-3. Selecione **Trocar arquivo**.
-5. Selecione a nota que você deseja trocar.
+2. Selecione **Trocar arquivo**.
+3. Selecione a nota que você deseja trocar.
 
 ## Selecionando cartões
 
@@ -151,7 +151,7 @@ Desenhe linhas entre cartões para criar relacionamento entre eles. Use cores e 
 Para conectar dois cartões com uma linha direta:
 
 1. Passe o mouse sobre uma das bordas do cartão até você ver um circulo preenchido.
-3. Arraste o circulo para a borda de outro cartão para conectá-los.
+2. Arraste o circulo para a borda de outro cartão para conectá-los.
 
 > [!dica]
 > Se você arrastar a linha sem conectá-la a outro cartão, você pode adicionar o cartão que você deseja conectar.
@@ -161,7 +161,7 @@ Para conectar dois cartões com uma linha direta:
 Para remover a conexão entre dois cartões:
 
 1. Passe o mouse sobre a conexão até aparecer dois pequenos circulos na linha.
-3. Arraste um dos circulos de um cartão sem conectá-lo a outro cartão.
+2. Arraste um dos circulos de um cartão sem conectá-lo a outro cartão.
 
 Você também pode desconectar dois cartões clicando com o botão direito na linha entre ele e, então, selecionando **Remover**. Ou, selecionar a linha e pressionando `Backspace` (ou `Delete` on macOS).
 
@@ -170,7 +170,7 @@ Você também pode desconectar dois cartões clicando com o botão direito na li
 Para mover uma das extremidades de uma linha de conexão:
 
 1. Passe o cursor sobre a linha de conexão até aparecer dois pequenos circulos na linha.
-3. Arraste o circulo da extremidade que você deseja conectar até  o cartão.
+2. Arraste o circulo da extremidade que você deseja conectar até  o cartão.
 
 ### Navegar em uma conexão
 
@@ -192,8 +192,8 @@ Para editar o rótulo de conexão, clique duas vezes na linha, ou cilque com o d
 ### Mude a cor de conexão ou de um cartão
 
 1. Selecione os cartões ou conexões você deseja mudar a cor.
-3. Na seleção de controles, selecione **Definir Cor**;
-5. Selecione uma cor.
+2. Na seleção de controles, selecione **Definir Cor**;
+3. Selecione uma cor.
 
 ## Agrupando cartões
 

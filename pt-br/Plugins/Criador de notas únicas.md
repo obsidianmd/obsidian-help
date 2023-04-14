@@ -16,8 +16,8 @@ Por exemplo, se você criar uma nota às 09:45 no dia 01 de janeiro de 2024, o c
 **Paleta de comandos:**
 
 1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[pt-br/Plugins/Paleta de comandos]].
-3. Procure polo comando **Criar nova nota única**.
-4. Pressione `Enter` com o comando selecionado.
+2. Procure polo comando **Criar nova nota única**.
+3. Pressione `Enter` com o comando selecionado.
 
 ## Criar notas únicas a partir de um modelo
 

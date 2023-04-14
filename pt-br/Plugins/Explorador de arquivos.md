@@ -12,7 +12,7 @@ O explorador de arquivos permite que você gerencie arquivos e pastas dentro do 
 Para criar uma nova nota no local padrão das novas notas:
 
 1. Clique **Nova nota** (icone de documento) no topo do explorador de arquivos.
-3. Digite o nome da nota e então pressione Enter.
+2. Digite o nome da nota e então pressione Enter.
 
 > [!dica]
 > Você pode mudar a localização padrão de novas notas no menu **Configurações → Arquivos e links → Local padrão para novas notas**.
@@ -20,7 +20,7 @@ Para criar uma nova nota no local padrão das novas notas:
 Para criar uma nova nota em uma pasta específica:
 
 1. Clique com o direito na pasta e então clique em **Nova nota**.
-3. Digite o nome da nota e então pressione Enter.
+2. Digite o nome da nota e então pressione Enter.
 
 Para saber mais sobre como criar uma nota, veja [[Create notes|Criar notas]].
 
@@ -29,17 +29,17 @@ Para saber mais sobre como criar uma nota, veja [[Create notes|Criar notas]].
 Para criar um pasta na raiz do seu cofre:
 
 1. Clique **Nova pasta** no topo do seu explorador de arquivos.
-3. Digite o nome da pasta e então pressione Enter.
+2. Digite o nome da pasta e então pressione Enter.
 
 Para criar uma subpasta:
 
 1. Clique com o direito na pasta que você deseja criar uma subpasta e então clique **Nova Pasta**.
-3. Digite o nome da pasta e então pressione Enter.
+2. Digite o nome da pasta e então pressione Enter.
 
 ## Excluir arquivo ou pasta
 
 1. Clique com o direito no arquivo que você deseja excluir e então clique **Deletar**.
-3. Se abrir uma janela para você confirmar que deseja deletar, clique **Excluir**.
+2. Se abrir uma janela para você confirmar que deseja deletar, clique **Excluir**.
 
 Para mais informações, veja [[Deleting files|Excluir arquivos]].
 
@@ -63,4 +63,4 @@ Para mover um arquivo ou pasta você pode arrastar e soltar ou usar o menu de co
 **Menu de contexto:**
 
 1. Clique com o direito no arquivo e então selecione **Mover arquivo para...**.
-3. Procure pelo nome da pasta que você desejar mover o arquivo e então selecione a pasta na lista apresentada.
+2. Procure pelo nome da pasta que você desejar mover o arquivo e então selecione a pasta na lista apresentada.

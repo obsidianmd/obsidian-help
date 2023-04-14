@@ -17,7 +17,7 @@ Para favoritar uma nota:
 **Paleta de comandos:**
 
 1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[pt-br/Plugins/Paleta de comandos]].
-3. Procure pelo comando **Favorita/Desfavorita o arquivo atual**.
-4. Pressione `Enter` com o comando selecionado para favoritar/desfavoritar o arquivo atual.
+2. Procure pelo comando **Favorita/Desfavorita o arquivo atual**.
+3. Pressione `Enter` com o comando selecionado para favoritar/desfavoritar o arquivo atual.
 
 Para desfavoritar um arquivo, use os mesmos passos usados para favoritar uma nota. A opção agora aparecerá como **Desfavoritar**.
