@@ -1,40 +1,41 @@
-Slides lets you create presentations from your notes. To start a presentation:
+O plugin Slides permite que você crie uma apresentação a partir de suas notas. Para iniciar uma apresentação:
 
-**File menu:**
+**Menu do arquivo:**
 
-- Right-click the tab of a note and click **Start presentation**.
+- Cllique com o direito na aba da nota e então clique em **Começar apresentação**.
 
-**Command palette:**
+**Paleta de comandos:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[en/Plugins/Command palette]].
-2. Search for the **Start presentation** command.
-3. Press `Enter` with the command selected to start a presentation using the active note.
+1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[pt-br/Plugins/Paleta de comandos]].
+2. Procure pelo comando **Começar apresentação**.
+3. Pressione `Enter` com o comando selecionado para iniciar a apresentação usando a nota ativa.
 
-To navigate between slides, click the left and right arrows in the bottom-right corner, or press the left and right arrow keys on your keyboard.
+Para navegar entre slides, clique nas setas para esquerda e direita no canto inferior direito, ou pressione as setas esquerta e direita no teclado.
 
-You can also advance to the next slide by pressing Spacebar.
+Você também pode avançar para o próximo slide pressionando a barra de espaço.
 
-To stop the presentation, press `Escape` or click the cross in the upper-right corner of the presentation.
+Para parar a apresentação, pressione `Escape` ou clique no icone "X" no canto superior direito da apresentação.
 
-> [!tip]
-> Try the [[Slides demo]] to see Slides in action.
+> [!dica]
+> Teste o [[Slides demo]] para ver os slides em ação.
 
-You can use any valid Markdown file as a presentation. To separate slides, enter `---` at the start of a line surrounded by newlines.
+
+Você pode usar qualquer arquivo de Markdown válido como apresentação. Para separar os slides, digite `----` no início de uma linha entre novas linhas.
 
 ```md
-# Presentations using Slides
+# Apresentação usando slides
 
-A demo on how to build presentations using Slides.
+Essa é uma demonstração de como construir uma apresentação usando slides.
 
 ---
 
-## Formatting
+## Formatando
 
-You can use regular Markdown formatting, like *emphasised* and **bold** text.
+Você pode usar formação regular de Markdown, como texto com *Ênfase* ou em **negrito**.
 
 ---
 
 ## Slides
 
-Use `---` to separate slides.
+Use `---` para separar slides.
 ```
