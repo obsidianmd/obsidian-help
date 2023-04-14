@@ -3,9 +3,9 @@ O Obsidian fornece acesso a vários comandos do Obsidian diretamente do seu tecl
 Para executar um comando a partir da paleta de comandos:
 
 1. Pressione `Ctrl+p` (ou `Cmd+p` no macOS) para abrir a paleta de comandos.
-3. Digite o nome do comando que você deseja executar.
-5. Navegue até o comando usando as setas do teclado.
-7. Pressione `Enter`.
+2. Digite o nome do comando que você deseja executar.
+3. Navegue até o comando usando as setas do teclado.
+4. Pressione `Enter`.
 
 > [!dica]
 > A paleta de comandos suporta a _correspondência difusa_, o que permite que você execute comandos mesmo se não souber exatamente qual é o nome do comando. Por exemplo, digite "saa" para encontrar o comando "Salvar o arquivo atual".
