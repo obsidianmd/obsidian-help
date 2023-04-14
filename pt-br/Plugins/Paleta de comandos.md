@@ -28,6 +28,5 @@ Você pode fixar um comando frequentemente no topo da paleta de comandos para ac
 ### Desafixar um comando
 
 1. Abra **Configurações**.
-2. In the sidebar, click **Command palette** under **Plugin options**.
-3. Na barra lateral, clique na **Paleta de comandos** na seção de opções dos **Plugins nativos**.
-4. Em **Comandos salvos**, clique no icone de "X" para excluir o comando salvo.
+2. Na barra lateral, clique na **Paleta de comandos** na seção de opções dos **Plugins nativos**.
+3. Em **Comandos salvos**, clique no icone de "X" para excluir o comando salvo.
