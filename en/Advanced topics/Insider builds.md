@@ -39,3 +39,18 @@ To report an issue, please use one of the following channels:
 - In the forum, create a new topic under [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
 
 When you report an issue, include the build version and the OS you're running it on. You can find the build version under **Settings > About > App > Current version**.
+
+## Go back to public builds on desktop
+
+To go back to using the public (non-Insider) builds on desktop:
+
+1. Disable Insider builds
+    1. Open **Settings**.
+    2. In the sidebar, select **About**.
+    3. Under **App**, disable **Receive insider builds**.
+2. Close Obsidian.
+3. Delete the file named `x.xx.xx.asar` (where the `x`s stand for numbers):
+   - Windows: `%APPDATA%\obsidian\obsidian-0.xx.xx.asar`
+   - Mac: `~/Library/Application Support/obsidian/obsidian-0.xx.xx.asar`
+   - Linux: `~/.config/obsidian/obsidian-0.xx.xx.asar`
+4. Restart Obsidian.
