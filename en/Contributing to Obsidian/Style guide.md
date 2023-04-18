@@ -129,3 +129,11 @@ This is a section.
 2. Second item
 3. Third item
 ```
+
+## Images
+
+Use "**width** x **height** pixels" for describing image or screen dimensions.
+
+**Example:**
+
+Recommended image dimensions: 1920 x 1080 pixels.
