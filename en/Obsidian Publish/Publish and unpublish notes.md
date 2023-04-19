@@ -40,3 +40,29 @@ To automatically select a note to be published, set `publish: true` in the [[Met
 To ignore a note in Obsidian Publish, set `publish: false` in the [[Metadata]] for the note.
 
 The note no longer shows up in the list of notes to publish.
+
+## Permalinks
+
+You can rename the URL to your notes, using _permalinks_.
+
+For example, you can turn this:
+
+```
+https://publish.obsidian.md/username/Company/About+us
+```
+
+Into this:
+
+```
+https://publish.obsidian.md/username/about
+```
+
+To create a permalink for a note, add the `permalink` property to your [[Metadata]].
+
+```yaml
+---
+permalink: about
+---
+```
+
+If someone visits a note using the original URL, they'll be automatically redirected to the permalink.

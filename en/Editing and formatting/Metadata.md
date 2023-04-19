@@ -79,5 +79,16 @@ Obsidian comes with of a set of predefined keys:
 | `tags` | Alias for `tag`. |
 | `alias` | See [[Aliases]]. |
 | `aliases` | Alias for `alias`. |
-| `publish` | Used by [[Introduction to Obsidian Publish\|Obsidian Publish]] to [[Publish and unpublish notes#Automatically select notes to publish\|automatically select notes to publish]]. |
 | `cssclass` | Allows you to style individual notes using [[CSS snippets]]. |
+
+### Metadata for Obsidian Publish
+
+The following metadata keys are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
+
+| Key | Description |
+|-|-|
+| `publish` | See [[Publish and unpublish notes#Automatically select notes to publish]]. |
+| `permalink` | See [[Publish and unpublish notes#Permalinks]]. |
+| `description` | See [[Social media link previews#Description]]. |
+| `image` | See [[Social media link previews#Image]]. |
+| `cover` | See [[Social media link previews#Image]]. |
