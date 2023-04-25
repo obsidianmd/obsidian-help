@@ -9,7 +9,7 @@ To convert all notes in your vault:
 2. Enable the formats you want to convert.
 3. Click **Start conversion**.
 
-For more information, refer to [[Format your notes]].
+For more information, refer to [[Basic formatting syntax]].
 
 ## Supported formats
 

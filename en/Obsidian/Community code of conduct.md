@@ -16,7 +16,7 @@ Users who commit these offences will be sent a warning. Repeated offences will r
 - **Blatant -isms**: saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation aren't code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
 - **Belligerence**: deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
 - **Being especially unpleasant**: for example, if we’ve received reports from multiple members of annoying or rude behavior. ^432ea1
-- **Asking for the attention of members of the Obsidian team**: this includes unsolicited tagging, "pinging", or direct messaging developers and moderators for questions, bug reports, and feature requests. As much as we want to help everyone, we have a sizeable community, and the team's attention must be reserved for critical matters. You can ping or direct message members of the team for things like security-related issues or to report violations of the community code of conduct. Otherwise, please post about the issue in an appropriate channel on the forum or the Discord server.
+- **Asking for the attention of members of the Obsidian team or our moderators**: this includes unsolicited tagging, "pinging", or direct messaging Obsidian team staff and moderators for questions, bug reports, and feature requests. As much as we want to help everyone, we have a sizeable community, and the team's attention must be reserved for critical matters. You can ping or direct message members of the team for things like security-related issues or to report violations of the community code of conduct. Otherwise, please post about the issue in an appropriate channel on the forum or the Discord server.
 
 ### Other behaviors
 
@@ -49,7 +49,7 @@ As the community grows, we can't rely on all members to be nice, although the va
 
 ## Please report violations
 
-The code of conduct is enforced by our moderator team, but we can't monitor every single interaction in the official Obsidian community channels. This is why we rely on our members to help us improve the official Obsidian community channels by reporting violations of our code of conduct.
+The code of conduct is enforced by our moderators, but we can't monitor every single interaction in the official Obsidian community channels. This is why we rely on our members to help us improve the official Obsidian community channels by reporting violations of our code of conduct.
 
 Even if you're not the victim, you can still report violations as a witness.
 
@@ -61,7 +61,7 @@ In \#bots-land-mute-me channel, or any other channel, type `!report @offenderNam
 
 ### Report on the forum
 
-Please flag the relevant conversation with a reason, and our moderator team will investigate.
+Please flag the relevant conversation with a reason, and our moderators will investigate.
 
 ## Enforcement
 
@@ -69,9 +69,9 @@ Please flag the relevant conversation with a reason, and our moderator team will
 > A verified major offense results in an immediate ban.
 > A verified minor offense results in a warning; after that a second verified violation results in a ban.
 
-If our moderator team witnesses or receives a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened. If verified, they will be removed from the official Obsidian community channels.
+If our moderators witness or receive a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened. If verified, they will be removed from the official Obsidian community channels.
 
-If our moderator team witnesses or receives a report about [[#other offenses]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from the official Obsidian community channels.
+If our moderators witness or receive a report about [[#other offenses]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from the official Obsidian community channels.
 
 ## Credits
 

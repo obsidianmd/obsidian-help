@@ -7,7 +7,10 @@ By default, you can find Search in the left sidebar (magnifying glass icon). You
 
 ## Search terms
 
-A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults.
+A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults. Obsidian only searches the contents of notes and canvases.
+
+> [!tip] Searching paths and filenames
+> By default, you can only search the paths and filenames of notes and canvases. To search for a path or filename of any file in the vault, use the `path` or `file` operator.
 
 Each word in the search term is matched independently within each file. To search for an exact phrase, surround it with quotes, for example `"star wars"`. To search for quoted text within an exact phrase, you can _escape_ the quotes by adding a backslash (`\`) in front of the quote, for example `"they said \"hello\" to each other"`.
 
@@ -39,8 +42,8 @@ Some operators even allow you to add a nested search term within parentheses, fo
 
 | Search operator | Description                                                                                                                                                                                                          |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `file:`         | Find text in filename.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                     |
-| `path:`         | Find text in file path.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                    |
+| `file:`         | Find text in filename. Matches any file in the vault.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                     |
+| `path:`         | Find text in file path. Matches any file in the vault.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                    |
 | `content:`      | Find text in file content.<p/>Example: `content:"happy cat"`.                                                                                                                                                        |
 | `match-case:`   | Case-sensitive match.<p/>Example: `match-case:HappyCat`.                                                                                                                                                             |
 | `ignore-case:`  | Case-insensitive match.<p/>Example: `ignore-case:ikea`.                                                                                                                                                              |
@@ -48,9 +51,9 @@ Some operators even allow you to add a nested search term within parentheses, fo
 | `line:`         | Find matches on the same line.<p/>Example: `line:(mix flour)`.                                                                                                                                                       |
 | `block:`        | Find matches in the same block.<p/>Example: `block:(dog cat)`.<p/>**Note**: Since `block:` requires Search to parse the Markdown content in every file, it can cause your search term to take longer time to finish. |
 | `section:`      | Find matches in the same section (text between two headings).<p/>Example: `section:(dog cat)`.                                                                                                                         |
-| `task:`         | Find matches in a [[Format your notes#Task list\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                          |
-| `task-todo:`    | Find matches in an *uncompleted* [[Format your notes#Task list\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                      |
-| `task-done:`    | Find matches in a *completed* [[Format your notes#Task list\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
+| `task:`         | Find matches in a [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                          |
+| `task-todo:`    | Find matches in an *uncompleted* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                      |
+| `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
 
 ## Use regular expressions in search terms
 

@@ -27,7 +27,7 @@ For bulk discounts, [[Help and support|contact Obsidian support]].
 ### FAQ
 
 > [!FAQ]- Q1. How do I activate my commercial license?
-> You can activate your commercial license under **Setting** → **About** → **Commercial license**.
+> You can activate your commercial license under **Setting → About → Commercial license**.
 
 > [!FAQ]- Q2. Can I try Obsidian for commercial use before paying?
 > Yes. You may evaluate Obsidian for commercial use for 14 days.
