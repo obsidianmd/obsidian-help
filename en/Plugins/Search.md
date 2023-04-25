@@ -7,7 +7,10 @@ By default, you can find Search in the left sidebar (magnifying glass icon). You
 
 ## Search terms
 
-A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults. By default, Obsidian only searches notes and canvases, including their filenames.
+A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults. Obsidian only searches the contents of notes and canvases.
+
+> [!tip] Searching paths and filenames
+> By default, you can only search the paths and filenames of notes and canvases. To search for a path or filename of any file in the vault, use the `path` or `file` operator.
 
 Each word in the search term is matched independently within each file. To search for an exact phrase, surround it with quotes, for example `"star wars"`. To search for quoted text within an exact phrase, you can _escape_ the quotes by adding a backslash (`\`) in front of the quote, for example `"they said \"hello\" to each other"`.
 
@@ -39,8 +42,8 @@ Some operators even allow you to add a nested search term within parentheses, fo
 
 | Search operator | Description                                                                                                                                                                                                          |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `file:`         | Find text in filename. All files in the vault are considered.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                     |
-| `path:`         | Find text in file path. All files in the vault are considered.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                    |
+| `file:`         | Find text in filename. Matches any file in the vault.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                     |
+| `path:`         | Find text in file path. Matches any file in the vault.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                    |
 | `content:`      | Find text in file content.<p/>Example: `content:"happy cat"`.                                                                                                                                                        |
 | `match-case:`   | Case-sensitive match.<p/>Example: `match-case:HappyCat`.                                                                                                                                                             |
 | `ignore-case:`  | Case-insensitive match.<p/>Example: `ignore-case:ikea`.                                                                                                                                                              |
