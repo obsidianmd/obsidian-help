@@ -32,10 +32,10 @@ If that doesn't work (e.g., you're moving across drives), do the following. (Thi
 3. Cut and paste (or move, e.g., via drag and drop) your vault folder from the old location to your newly-selected vault location (Reminder: do not put it in a folder that is being synced by any other services.)
 4. Check and make sure it has all your stuff, otherwise go back to (3).  
 5. Relaunch Obsidian.  
-6. Open the Vault Picker, and click "Open folder as vault"  
+6. Open the Vault switcher, and then select **Open folder as vault**.
 7. Navigate to your vault's new location and choose your vault folder.  
-8. Check and make sure it looks the same. You might have to re-enable community plugins (Settings → Community Plugins → Turn restricted mode off.)  
-9. Re-set up Sync.
+8. Check and make sure the vault looks the same. You might have to re-enable community plugins under **Settings → Community Plugins → Turn restricted mode off**.)  
+9. Set up Obsidian Sync again.
 
 ### iOS
 
