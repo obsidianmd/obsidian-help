@@ -15,7 +15,7 @@ The easiest way to get started with Obsidian plugin development is by using the 
    cd your-plugin-id
    ```
 
-1. Install dependencies using NPM or Yarn.
+2. Install dependencies using NPM or Yarn.
 
    ```bash
    # Using NPM
@@ -25,7 +25,7 @@ The easiest way to get started with Obsidian plugin development is by using the 
    yarn install
    ```
 
-1. Rebuild plugin whenever you edit the code.
+3. Rebuild plugin whenever you edit the code.
 
    ```bash
    # Using NPM
@@ -35,20 +35,20 @@ The easiest way to get started with Obsidian plugin development is by using the 
    yarn run dev
    ```
 
-1. Install the plugin to your vault.
+4. Install the plugin to your vault.
 
    ```bash
    mkdir $YOUR_VAULT_PATH/.obsidian/plugins/your-plugin-id
    mv main.js styles.css manifest.json $VAULT_PATH/.obsidian/plugins/your-plugin-id
    ```
 
-1. Restart Obsidian.
+5. Restart Obsidian.
 
 For more help on building plugins for Obsidian, check out the following resources:
 
 - For API reference documentation, refer to the [Obsidian API](https://github.com/obsidianmd/obsidian-api).
 - For a more in-depth guide on how to get started with plugin development, check out the [Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs) by [Marcus Olsson](https://marcus.se.net).
-- For a video walkthrough on plugin development, check out our YouTube playlist on how to [Build you first Obsidian plugin](https://www.youtube.com/playlist?list=PLIDCb22ZUTBnMCbJa-st4PD5T3Olep078).
+- For a video walkthrough on plugin development, check out our YouTube playlist on how to [Build your first Obsidian plugin](https://www.youtube.com/playlist?list=PLIDCb22ZUTBnMCbJa-st4PD5T3Olep078).
 
 ## Submit your plugin
 

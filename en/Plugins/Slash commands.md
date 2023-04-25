@@ -3,9 +3,9 @@ Slash commands allow you to perform commands from inside the editor by typing a 
 To run a command using Slash commands:
 
 1. In the editor, type a forward slash (`/`).
-1. Enter the name of the command you want to run to search the list of available commands.
-1. Navigate to the command using the arrow keys.
-1. Press Enter.
+2. Enter the name of the command you want to run to search the list of available commands.
+3. Navigate to the command using the arrow keys.
+4. Press Enter.
 
 To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
 

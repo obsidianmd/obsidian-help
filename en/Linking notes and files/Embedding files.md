@@ -1,5 +1,6 @@
 ---
-alias: Embed files
+aliases: 
+- How to/Embed files
 ---
 
 Learn how you can embed other notes and media into your notes. By embedding files in your notes, you can reuse content across your vault.
@@ -67,4 +68,3 @@ You can also open a specific page in the PDF, by adding `#page=N` to the link de
 ```md
 ![[Document.pdf#page=3]]
 ```
-

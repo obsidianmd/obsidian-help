@@ -4,7 +4,7 @@ Obsidian has two sidebars on both left and right. The left sidebar includes the 
 
 If a sidebar is collapsed, you can open it by clicking on the Arrow icon to expand it.
 
-This commonly happens when you enable a plugin but cannot find it anywhere. Chances are the new pane created by the plugin is hidden in one of the sidebars, so be sure to check there!
+This commonly happens when you enable a plugin but can't find it anywhere. Chances are the new pane created by the plugin is hidden in one of the sidebars, so be sure to check there.
 
 ## Tabs
 
@@ -16,7 +16,7 @@ In each pane, you can only see one tab at any given moment. Some actions will au
 
 ### Close tabs
 
-Some tabs can be closed via the right click menu, but some cannot. If you don’t want to see a tab that cannot be closed, consider disabling the relevant plugin or collapsing the sidebar by clicking on the Arrow icon.
+Some tabs can be closed via the right click menu, but some can't. If you don’t want to see a tab that can't be closed, consider disabling the relevant plugin or collapsing the sidebar by clicking on the Arrow icon.
 
 ### Rearrange tabs
 

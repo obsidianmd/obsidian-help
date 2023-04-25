@@ -4,11 +4,11 @@ Obsidian er både en Markdown editor og en videnbase applikation.
 
 Brugt på den mest basale måde, kan du redigere og forhåndsvise Markdown filer. Men den 
 
-Hvordan starter vi med at skabe et netværk, kan du måske tænke? Lad os først oprette nogle [[Interne links|interne links]]!
+Hvordan starter vi med at skabe et netværk, kan du måske tænke? Lad os først oprette nogle [[Link noter og filer/Interne links|Interne links]]!
 
 ## Hvordan vi adskiller os fra andre
 
-==*Vi vil have dig til at eje og kontrollere dine egne data*==
+### Du ejer og kontrollerer dine data
 
 Vi tror på, at almindelig tekst er noget, som er meget vigtigt for din videnbase. Du ønsker vel ikke at sætte din egen hjerne over i en andens hoved. Behandl din anden hjerne på samme måde.
 
@@ -16,11 +16,11 @@ Sync er kun en tilføjelsesservice som faciliterer, at du kan arbejde på flere 
 
 Når filsystemet erstatter skyen, får du fleksible måder at arbejde med dine filer på: Du kan lave backup med Dropbox, benytte Git til versionering, eller kryptere din disk. Hvad der virker i dit filsystem, vil virke i din Obsidian videnbase.
 
-==*Links er førsteklasses borgere*==
+### Links er førsteklasses borgere
 
 Links og forbindelser er afgørende for at opdage relationerne mellem det, vi ved.
 
-Obsidian har fokus på det og opfordrer til den type brug med blandt andet [[Interne links|interne links]] og [[Grafvisning]].
+Obsidian har fokus på det og opfordrer til den type brug med blandt andet [[Sådan gør du/Interne links|interne links]] og [[Grafvisning]].
 
 Som John Locke udtrykker det...
 
@@ -33,7 +33,7 @@ Som John Locke udtrykker det...
  
 Hierarki give os nr. 1 og linking giver os nr. 2. Vi er ikke sikre på hvad nr. 3 dækker over i forbindelse med notetagning, men det kan måske have noget, at gøre med programmering eller makroer.
 
-==*Din egen værktøjskasse*==
+### Din egen værktøjskasse
 
 At tage noter er en meget personlig aktivitet. Naturligvis er der ingen enkelt altomfattende løsning for alle.
 
@@ -49,7 +49,7 @@ Udover det kan du tilføje isolerede uafhængige bygeklodser som tilføjer funkt
 
 Vi forventer ikke at plug-ins er løsningen til at løse alle problemer, men det får os tættere på, end en monolitisk løsning med en masse funktioner, som du ikke behøver og som gør det uoverskueligt i brug.
 
-Vi understøtter [[Tilpas med CSS|brugerdefineret CSS]] og har et [[Fællesskabsplug-ins|beta plugin API]], som tillader endnu flere tilpasninger af brugerfladen og support for andre mindre anvendte funktioner.
+Vi understøtter [[Tilpas med CSS|brugerdefineret CSS]] og har et [[Fællesskabs plugins|beta plugin API]], som tillader endnu flere tilpasninger af brugerfladen og support for andre mindre anvendte funktioner.
 
 ## Følg vores udvikling
 

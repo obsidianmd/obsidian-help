@@ -12,7 +12,7 @@ On the left side of the vault switcher, you can see all the vaults you have acce
 
 Clicking on a vault in this list will open that vault. The cross icon lets you delete the vault from this list.
 
-> Note: deleting a vault from this list **will not delete the vault folder from your device**. It will be “forgotten” and removed from the list.
+> Note: deleting a vault from this list **won't delete the vault folder from your device**. It will be “forgotten” and removed from the list.
 
 ## Create new vaults
 

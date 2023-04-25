@@ -12,6 +12,7 @@ This page lists any deviances from the Google style guide, or terminology worth 
 - Prefer "sync" or "syncing" over "synchronize" or "synchronizing".
 - Prefer "search term" over "search query".
 - Prefer "heading" over "header" when referring to a text that introduces a section.
+- Prefer "maximum" over "max" and "minimum" over "min".
 
 ### Product names
 
@@ -28,6 +29,8 @@ _To allow device-specific configuration, Obsidian Sync doesn't sync its own sett
 - Prefer "select" over "tap" or "click".
 - Prefer "sidebar" over "side bar".
 - Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
+
+When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**Settings → Community plugins**".
 
 ### Notes, files, and folders
 
@@ -100,3 +103,37 @@ When referring to a character on the keyboard by name, add the character between
 
 - Add a hyphen in front of the word.
 - Add a `-` in front of the word.
+
+## Markdown
+
+Use newlines between Markdown blocks:
+
+**Recommended:**
+
+```md
+# Heading 1
+
+This is a section.
+
+1. First item
+2. Second item
+3. Third item
+```
+
+**Not recommended:**
+
+```md
+# Heading 1
+This is a section.
+1. First item
+2. Second item
+3. Third item
+```
+
+## Images
+
+Use "**width** x **height** pixels" for describing image or screen dimensions.
+
+**Example:**
+
+Recommended image dimensions: 1920 x 1080 pixels.

@@ -10,7 +10,7 @@ Vi supporterer for nuværende følgende formatering:
 Link til side: [[Internt link]].
 ```
 
-Link til side: [[Interne links]].
+Link til side: [[Sådan gør du/Interne links]].
 
 ---
 

@@ -7,7 +7,7 @@ When you create a new remote vault, you have two options:
 
 If you forget or lose your custom encryption password, your data remains encrypted and unusable forever. We're not able to recover your password, or any encrypted data for you.
 
-Your choice only affects your remote vault. Obsidian does not encrypt your local vault.
+Your choice only affects your remote vault. Obsidian doesn't encrypt your local vault.
 
 ## What does end-to-end encryption mean?
 
@@ -28,14 +28,15 @@ Here are the technical details:
 
 ## What happens if I forget my encryption password?
 
-If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password is not saved anywhere, it is forever lost.
+If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it's forever lost.
 
 Your data, however, are usually safely stored locally on each of your devices.
 
 To continue using Obsidian Sync, we suggest doing a full re-setup to be able to add new devices to your Sync system:
+
 1. Make a full vault backup on your primary device, just in case something goes wrong. This can be as simple as making a copy of the vault folder, or creating a zip file from the vault.
 2. Disconnect the remote vault in each of your devices. This can be done by going to Settings > Sync > Pick remote vault > (x) Disconnect.
 3. Create a new remote vault on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the vault limit)
-4. Wait for your primary device to synchronize. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
+4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
 6. Now all your devices should be connected to the new remote vault.

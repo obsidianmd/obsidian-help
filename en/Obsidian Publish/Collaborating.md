@@ -8,17 +8,17 @@ Only the site owner needs an active subscription for Obsidian Publish. Collabora
 ## Add a collaborator to a site
 
 1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-1. In the **Publish changes** dialog, click **Change site options** (cog icon).
-1. Next to **Site collaboration**, select **Manage**.
-1. In **Invite user**, enter the email of the collaborator.
-1. Select **Add**.
+2. In the **Publish changes** dialog, click **Change site options** (cog icon).
+3. Next to **Site collaboration**, select **Manage**.
+4. In **Invite user**, enter the email of the collaborator.
+5. Select **Add**.
 
 ## Remove a collaborator from a site
 
 1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-1. In the **Publish changes** dialog, click **Change site options** (cog icon).
-1. Next to **Site collaboration**, select **Manage**.
-1. Next to the collaborator you want to remove, select **Remove user** (cross icon).
+2. In the **Publish changes** dialog, click **Change site options** (cog icon).
+3. Next to **Site collaboration**, select **Manage**.
+4. Next to the collaborator you want to remove, select **Remove user** (cross icon).
 
 ## Syncing changes between collaborators
 
@@ -27,7 +27,7 @@ Obsidian Publish doesn't sync published changes between local vaults automatical
 To update a local note with changes from the live site:
 
 1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-1. Right-click the change you want to sync, and then select **Use live version**. **This will overwrite the note in your local vault.**
+2. Right-click the change you want to sync, and then select **Use live version**. **This will overwrite the note in your local vault.**
 
 > [!tip]
 > We recommend that you use another tool to sync changes between vaults, such as [[Obsidian Sync]] or [git](https://git-scm.com/).

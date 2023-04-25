@@ -2,6 +2,8 @@ Syncing means keeping your notes up to date across your devices, such as your la
 
 The easiest way to sync your notes between your devices is to use [[Introduction to Obsidian Sync|Obsidian Sync]]. If you already have an Obsidian Sync subscription, see how to [[Set up Obsidian Sync]].
 
+Note that using multiple syncing services at the same time (e.g., Obsidian Sync _and_ Dropbox) may cause data loss, corruption, and other issues. [[Obsidian Sync and third-party services||Find out more about using Obsidian Sync with other services here.]]
+
 If you don't want to use Obsidian Sync, this page lists alternative methods for syncing your vaults with multiple devices.
 
 ## Sync notes across multiple desktops
@@ -25,7 +27,7 @@ To sync your notes to your iPhone or iPad, we officially support the following o
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 - [[#iCloud Drive]]
 
-**Note:** The following services are not supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
+**Note:** The following services aren't supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
 
 - Dropbox
 - Google Drive
@@ -37,6 +39,9 @@ To sync your notes to your iPhone or iPad, we officially support the following o
 Obsidian can use iCloud Drive as a local file system.
 
 When using iCloud Drive on macOS, be sure to update your desktop app's installer version to v0.13.0 or newer.
+
+> [!note]
+> Don't exceed your iCloud storage limit. The syncing might stop.
 
 #### Create a new vault in iCloud Drive
 
@@ -50,8 +55,8 @@ To create a new vault in iCloud Drive on your iPhone or iPad:
 Obsidian has created a new folder inside your iCloud Drive. To open the iCloud Drive folder as a vault on your computer:
 
 1. Open **Obsidian** on your computer.
-2. In the the vault switcher, to the right of **Open folder as vault**, click **Open**.
-3. Navigate to **iCloud Drive** -> **Obsidian**.
+2. In the vault switcher, to the right of **Open folder as vault**, click **Open**.
+3. Navigate to **iCloud Drive → Obsidian**.
 4. Select the folder with the name of the vault you want to sync with.
 
 #### Sync an existing vault with iCloud Drive
@@ -115,6 +120,6 @@ Since Obsidian stores notes in a local folder on your Android device, you can al
 **Note:** Obsidian creates an Obsidian folder in the shared Documents folder. Any folder under `Documents/Obsidian` is considered an Obsidian vault.
 
 > [!important] Dealing with on-demand cloud storage
-> Some cloud storage services, such as OneDrive, allow you to only download files when you use them and later remove them locally to free up space. Since the files are no longer available locally, Obsidian Sync believes they have been deleted and removes them from your remote vault.
+> Some cloud storage services, such as OneDrive, allow you to only download files when you use them and later remove them locally to free up space. Since the files are no longer available locally, Obsidian Sync believes they've been deleted and removes them from your remote vault.
 >
 > To use Obsidian Sync together with Files On-Demand and similar features, make sure to configure the service to always keep the files on the device.

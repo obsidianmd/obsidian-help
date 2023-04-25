@@ -10,7 +10,7 @@ Lad os sige, at du vil skrive en note om dit favorit musikband. Du skriver bare 
 
 Prøv det her (Vær sikker på at du skriver i redigeringspanelet):
 
-Bemærk at teksten og de firkantede paranteser bliver blå. Det betyder, at det er et link nu. Klik på linket i forhåndsvisningspanelet (eller `Cmd-klik` i editoren), og du vil nu se en tom note. Skriv hvad der passer dig og når du er færdig, kom tilbage til denne her note med `Cmd-alt-venstre`, eller ved at klikke på navnet på denne note ([[Grundlæggende notetagning]]) i **tilbagelinkspanelet** til højre. For at lære mere om, at navigere via links, se [[Interne links]].
+Bemærk at teksten og de firkantede paranteser bliver blå. Det betyder, at det er et link nu. Klik på linket i forhåndsvisningspanelet (eller `Cmd-klik` i editoren), og du vil nu se en tom note. Skriv hvad der passer dig og når du er færdig, kom tilbage til denne her note med `Cmd-alt-venstre`, eller ved at klikke på navnet på denne note ([[Grundlæggende notetagning]]) i **tilbagelinkspanelet** til højre. For at lære mere om, at navigere via links, se [[Sådan gør du/Interne links]].
 
 ---
 

@@ -14,10 +14,4 @@ The Tags pane have the following options:
 - **Show nested tags** toggles whether to display nested tags as a tree or as a flat list.
 - **Expand all** and **Collapse all** expands and collapses the nested tags hierarchy.
 
-### Nested tags
-
-Nested tags define tag hierarchies that makes it easier to find and filter related tags.
-
-Create nested tags by using forward slashes (`/`) in the tag name, for example  `#inbox/to-read` and `#inbox/processing`.
-
-To toggle nested tags, click **Show nested tags** (hierarchical folders icon). You can choose to expand or collapse each nested level separately by clicking the arrow next to it.
+You can choose to expand or collapse each nested level separately by clicking the arrow next to it.
