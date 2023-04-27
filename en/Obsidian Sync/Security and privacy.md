@@ -43,4 +43,4 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 
 ## Where do you host the servers for Obsidian Sync?
 
-We use DigitalOcean's data centers, located in the US.
+We use DigitalOcean's data centers, which are located in the US.
