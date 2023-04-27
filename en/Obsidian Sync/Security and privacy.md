@@ -26,10 +26,6 @@ Here are the technical details:
 - Key derivation function used: scrypt with salt
 - Encryption algorithm used: AES-256 using GCM
 
-## Where are Obsidian Sync's servers hosted?
-
-We use DigitalOcean data centers located in the US.
-
 ## What happens if I forget my encryption password?
 
 If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it's forever lost.
@@ -44,3 +40,7 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
 6. Now all your devices should be connected to the new remote vault.
+
+## Where do you host the servers for Obsidian Sync?
+
+We use DigitalOcean's data centers, located in the US.
