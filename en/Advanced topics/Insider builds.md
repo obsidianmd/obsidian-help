@@ -49,7 +49,7 @@ To change back to using public (non-Insider) builds on desktop:
     2. In the sidebar, select **About**.
     3. Under **App**, disable **Receive insider builds**.
 2. Close Obsidian.
-3. Delete the file named `x.xx.xx.asar` (where the `x`s stand for numbers):
+3. Delete the `obsidian-VERSION.asar` file, where `VERSION` is the Obsidian version.
    - Windows: `%APPDATA%\obsidian\obsidian-0.xx.xx.asar`
    - Mac: `~/Library/Application Support/obsidian/obsidian-0.xx.xx.asar`
    - Linux: `~/.config/obsidian/obsidian-0.xx.xx.asar`
