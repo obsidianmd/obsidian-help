@@ -52,5 +52,5 @@ To change back to using public (non-Insider) builds on desktop:
 3. Delete the `obsidian-VERSION.asar` file, where `VERSION` is the Obsidian version.
    - Windows: `%APPDATA%\obsidian\obsidian-VERSION.asar`
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
-   - Linux: `~/.config/obsidian/obsidian-0.xx.xx.asar`
+   - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Restart Obsidian.
