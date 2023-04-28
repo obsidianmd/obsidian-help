@@ -40,7 +40,7 @@ To report an issue, please use one of the following channels:
 
 When you report an issue, include the build version and the OS you're running it on. You can find the build version under **Settings > About > App > Current version**.
 
-## Go back to public builds on desktop
+## Change back to public builds on desktop
 
 To go back to using the public (non-Insider) builds on desktop:
 
