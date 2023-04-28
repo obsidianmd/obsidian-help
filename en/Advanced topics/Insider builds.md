@@ -44,7 +44,7 @@ When you report an issue, include the build version and the OS you're running it
 
 To change back to using public (non-Insider) builds on desktop:
 
-1. Disable Insider builds
+1. Disable Insider builds.
     1. Open **Settings**.
     2. In the sidebar, select **About**.
     3. Under **App**, disable **Receive insider builds**.
