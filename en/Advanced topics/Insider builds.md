@@ -42,7 +42,7 @@ When you report an issue, include the build version and the OS you're running it
 
 ## Change back to public builds on desktop
 
-To go back to using the public (non-Insider) builds on desktop:
+To change back to using public (non-Insider) builds on desktop:
 
 1. Disable Insider builds
     1. Open **Settings**.
