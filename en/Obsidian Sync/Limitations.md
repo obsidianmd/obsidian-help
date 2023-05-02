@@ -18,11 +18,9 @@ At the moment, each file can be up to 100 MB.
 
 ## How long do you keep my data after my subscription expires?
 
-We keep data in your remote vaults, including version history, for one month after your subscription expires.
-Your local vaults, stored on your devices, will not be impacted.
+We keep data in your remote vaults, including version history, for one month after your subscription expires. Your local vaults, stored on your devices, will not be affected.
 
-As long as you renew within one month, there should be no impact on your usage.
-In case you didn't, and you find your remote vaults no longer existing, you can easily [[Set up Obsidian Sync|create a new remote vault and re-connect your local vault]].
+As long as you renew within one month, there should be no impact on your usage. In case you don't and your remote vaults no longer exist, you can easily [[Set up Obsidian Sync|create a new remote vault and re-connect your local vault]] again.
 
 ## Is my data being synced in the background?
 
