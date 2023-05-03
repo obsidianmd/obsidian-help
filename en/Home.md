@@ -1,3 +1,9 @@
+---
+aliases:
+  - Start here
+  - Obsidian/Index
+---
+
 Welcome to the official Obsidian documentation, where you can find tips and guides on how to use [Obsidian](https://obsidian.md).
 
 You can browse the documentation in any of the following languages:
