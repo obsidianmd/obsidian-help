@@ -26,6 +26,7 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 - rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair mod-pop'>Forum master</span>
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair mod-pop'>That funny guy</span> <span class='flair mod-pop'>Apple Fanboy</span> <span class='flair mod-pop'>Forum master</span>
 - WhiteNoise<span class='flair mod-pop'>Think Tank</span> <span class='flair mod-pop'>Zotero master</span> <span class='flair mod-pop'>Bug report exterminator</span>
+- CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair mod-pop'>embedded-search ambassador</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
 
 ## Plugin inspirations
