@@ -14,7 +14,7 @@ You can reorder bookmarks by selecting and dragging them.
 
 ## Add a bookmark
 
-To bookma rk a note:
+To bookmark a note:
 
 **Bookmarks tab**:
 
