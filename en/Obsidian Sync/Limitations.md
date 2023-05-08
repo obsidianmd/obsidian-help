@@ -20,7 +20,7 @@ At the moment, each file can be up to 100 MB.
 
 We keep data in your remote vaults, including version history, for one month after your subscription expires. Any local vaults on your devices are unaffected.
 
-As long as you renew within one month, there should be no impact on your usage. In case you don't and your remote vaults no longer exist, you can easily [[Set up Obsidian Sync|create a new remote vault and re-connect your local vault]] again.
+As long as you renew within one month, there should be no impact on your usage. If you renew after a month, when your remote vaults have been removed, you can [[Set up Obsidian Sync|create a new remote vault re-connect your local vault]].
 
 ## Is my data being synced in the background?
 
