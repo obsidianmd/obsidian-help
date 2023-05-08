@@ -27,9 +27,13 @@ You can use parentheses to control the priority of each expression.
 
 - `meeting (work OR meetup) personal` returns files that contain `meeting`, `personal`, and either `work` or `meetup`.
 
-To exclude a word from the search results, add a hyphen (`-`) in front of it:
+To exclude a word from the search results, add a hyphen (`-`) in front of it.:
 
 - `meeting -work` returns files that contain `meeting` but not `work`.
+
+The technical term for excluding words is to "negate" or "negation". You can negate any expression or any group of expressions using parentheses.
+
+- `meeting -(work OR meetup)` returns files that contain `meeting` but do not contain `work` or `meetup`.
 
 > [!tip] Explain search term
 > If you need to troubleshoot a complex search term, you can click **Explain search term** in the Search pane for an explanation of your search term.
@@ -53,7 +57,7 @@ Some operators even allow you to add a nested search term within parentheses, fo
 | `section:`      | Find matches in the same section (text between two headings).<p/>Example: `section:(dog cat)`.                                                                                                                         |
 | `task:`         | Find matches in a [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                          |
 | `task-todo:`    | Find matches in an *uncompleted* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                      |
-| `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
+| `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.       | `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
 
 ## Use regular expressions in search terms
 
