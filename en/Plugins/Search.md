@@ -31,6 +31,10 @@ To exclude a word from the search results, add a hyphen (`-`) in front of it:
 
 - `meeting -work` returns files that contain `meeting` but not `work`.
 
+The technical term for excluding words is to "negate" or "negation". You can negate any expression or any group of expressions using parentheses.
+
+- `meeting -(work OR meetup)` returns files that contain `meeting` but do not contain `work` or `meetup`.
+
 > [!tip] Explain search term
 > If you need to troubleshoot a complex search term, you can click **Explain search term** in the Search pane for an explanation of your search term.
 
