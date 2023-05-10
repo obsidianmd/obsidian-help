@@ -21,7 +21,7 @@ The path can be an absolute path from the root of your vault:
 
 ```yaml
 ---
-cover: Attachments/Cover.png
+cover: "Attachments/Cover image.png"
 ---
 ```
 
@@ -29,7 +29,7 @@ Or, an external URL:
 
 ```yaml
 ---
-image: https://example.com/image.png
+image: "https://example.com/cover%20image.png"
 ---
 ```
 
