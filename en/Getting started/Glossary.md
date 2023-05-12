@@ -47,7 +47,7 @@ A **view** displays information, for example the [[Search|Search view]].
 
 ## tab
 
-A **tab** contains a [[#view]]. Tabs can be repositioned within the [[#main area]] and the [[#sidebar|sidebars]].See also [[Use tabs in Obsidian]].
+A **tab** contains a [[#view]]. Tabs can be repositioned within the [[#main area]] and the [[#sidebar|sidebars]]. See also [[Use tabs in Obsidian]].
 
 ## tab group
 
@@ -63,11 +63,11 @@ An area that contains supporting [[#view|views]] organized as [[#tab|tabs]]. A s
 
 ## ribbon
 
-The **ribbon** a vertical area that's located at the far left of the Obsidian app. The ribbon contains icons for frequently-used actions.
+The **ribbon** a vertical area that's located on the far left of the Obsidian app. The ribbon contains icons for frequently used actions.
 
 ## status bar
 
-The **status bar** is located at the bottom-right corner of the Obsidian app and displays at-a-glance statistics and statuses.
+The **status bar** is located in the bottom-right corner of the Obsidian app and displays at-a-glance statistics and statuses.
 
 ## command
 
