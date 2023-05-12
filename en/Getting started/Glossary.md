@@ -10,7 +10,7 @@ A **note** is a Markdown file inside a [[#vault]].
 
 ## link
 
-A **link** references another note, file, or document. An [[Internal links\|internal link]] references a file inside a vault. An [[Basic formatting syntax#External links\|external link]] references a document outside the vault.
+A **link** references another note, file, or document. An [[Internal links|internal link]] references a file inside a vault. An [[Basic formatting syntax#External links|external link]] references a document outside the vault.
 
 ## metadata
 
@@ -25,7 +25,7 @@ An **alias** is a type of [[#metadata]] that defines alternative names for a [[#
 A **plugin** extends Obsidian with additional features.
 
 - [[Core plugins]] are written by the Obsidian team and included by default.
-- [[Community plugins]] are written by third-party plugin developers and needs to be [[Community plugins#Install a community plugin\|installed]] before you can use them. 
+- [[Community plugins]] are written by third-party plugin developers and needs to be [[Community plugins#Install a community plugin|installed]] before you can use them.
 
 You can [build your own plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
@@ -35,15 +35,15 @@ A **theme** changes the appearance of the Obsidian app using [CSS](https://devel
 
 ## snippet
 
-A **snippet**, or [[CSS snippets|CSS snippet]], changes the appearance of Obsidian, just like a [[#theme]]. Unlike themes, you can apply multiple snippets at the same time. 
+A **snippet**, or [[CSS snippets|CSS snippet]], changes the appearance of Obsidian, just like a [[#theme]]. Unlike themes, you can apply multiple snippets at the same time.
 
 ## view
 
-A **view** displays information, for example the [[Search|Search view]]. 
+A **view** displays information, for example the [[Search|Search view]].
 
 ## tab
 
-A **tab** contains a [[#view]]. Tabs can be repositioned within the [[#main area]] and the [[#sidebar|sidebars]].See also [[Use tabs in Obsidian]]. 
+A **tab** contains a [[#view]]. Tabs can be repositioned within the [[#main area]] and the [[#sidebar|sidebars]].See also [[Use tabs in Obsidian]].
 
 ## tab group
 
@@ -91,6 +91,6 @@ A **graph** is a visualization that highlights connections between [[#note|notes
 
 ## pop-out window
 
-By default, all notes within a vault opens in the same app window. A **pop-out window** lets you open notes from the same vault in separate windows, for example to display on a second screen. 
+By default, all notes within a vault opens in the same app window. A **pop-out window** lets you open notes from the same vault in separate windows, for example to display on a second screen.
 
 See also [[Pop-out windows]].
