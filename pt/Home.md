@@ -26,7 +26,7 @@ Se você é novo no Obsidian, aprenda o básico sobre como fazer anotações com
 1. [[Baixe e instale o Obsidian]]
 2. [[Crie um cofre]]
 3. [[Crie sua primeira nota]]
-4. [[Conecte notas]]
+4. [[Vincular notas]]
 
 A partir daqui, você pode criar sua própria experiência personalizada habilitando recursos adicionais por meio de _plugins_. Explore os [[Plugins essenciais]] fornecidos com o Obsidian ou qualquer um dos [[Plugins da comunidade]].
 

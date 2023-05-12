@@ -26,4 +26,4 @@ Para saber mais sobre como formatar suas anotações usando o Markdown, consulte
 
 ## Saber mais
 
-Aprenda a [[Conectar notas|vincular notas]] para criar uma rede de pensamentos conectados.
+Aprenda a [[Vincular notas|vincular notas]] para criar uma rede de pensamentos conectados.

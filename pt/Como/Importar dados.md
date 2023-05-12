@@ -22,10 +22,10 @@ Também digno de nota, os fabricantes do nvUltra, outro programa de anotações 
 Se você tiver dados no Roam, é fácil exportá-los e brincar com eles no Obsidian.
 
 > 1. Escolha "Exportar tudo" no menu:
-> ![[Imagem colada.png]]
+> ![[Pasted image.png]]
 
 > 2. Clique no botão azul "Exportar tudo":
-> ![[Imagem colada 1.png]]
+> ![[Pasted image 1.png]]
 
 > 3. Descompacte o arquivo "Roam-Export-xxxxxxxxxxxxx.zip" em uma pasta.
 

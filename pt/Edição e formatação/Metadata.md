@@ -12,8 +12,8 @@ Por exemplo, a nota a seguir contém dois metadados, `tag` e `publish`:
 
 ```yaml
 ---
-etiqueta: diário
-publicar: falso
+tag: diário
+publish: false
 ---
 
 # Nota diária
@@ -37,7 +37,7 @@ As chaves são separadas de seus valores por dois pontos seguidos por um espaço
 
 ```yaml
 ---
-valor chave
+chave: valor
 ---
 ```
 
@@ -47,17 +47,17 @@ Os valores podem ser texto, números, verdadeiro ou falso, ou até mesmo coleç�
 
 ```yaml
 ---
-Título: Uma Nova Esperança
+titulo: Uma Nova Esperança
 ano: 1977
-favorito: verdadeiro
+favorito: true
 elenco:
-   -Mark Hamil
+   - Mark Hamil
    - Harrison Ford
    - Carrie Fischer
 ---
 ```
 
-> [!dica] metadados JSON
+> [!tip] metadados JSON
 > Embora recomendemos o uso de YAML para definir metadados, você também pode definir metadados usando [JSON](https://www.json.org/):
 >
 > ```md
@@ -75,8 +75,8 @@ Obsidian vem com um conjunto de chaves predefinidas:
 
 | Chave | Descrição |
 |-|-|
-| `marca` | Ver [[Editar e formatar/Tags\|Tags]]. |
-| `marcas` | Alias para `tag`. |
+| `tag` | Ver [[Tags]]. |
+| `tags` | Alias para `tag`. |
 | `alias` | Veja [[Apelidos]]. |
 | `aliases` | Alias para `alias`. |
 | `cssclass` | Permite estilizar notas individuais usando [[Trechos de CSS]]. |

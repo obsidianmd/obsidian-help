@@ -19,6 +19,6 @@ Se você já tiver uma pasta que deseja usar como seu cofre:
 2. No navegador de arquivos, selecione a pasta que deseja usar como seu cofre.
 3. Clique em **Abrir**.
 
-Se você quiser saber mais sobre como os cofres funcionam, saiba como [[Como a Obsidian armazena dados]].
+Se você quiser saber mais sobre como os cofres funcionam, saiba como [[Como o Obsidian armazena dados]].
 
 Agora que você configurou seu cofre, está pronto para [[Crie sua primeira nota]].

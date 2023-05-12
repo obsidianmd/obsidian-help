@@ -9,38 +9,38 @@ A maneira mais fácil de começar a desenvolver o plug-in Obsidian é usando o [
 
 1. Clone o plug-in de amostra.
 
-    ```bash
-    git clone https://github.com/obsidianmd/obsidian-sample-plugin.git
-    mv obsidian-sample-plugin your-plugin-id
-    cd seu-plugin-id
-    ```
+```bash
+git clone https://github.com/obsidianmd/obsidian-sample-plugin.git
+mv obsidian-sample-plugin your-plugin-id
+cd seu-plugin-id
+```
 
 2. Instale dependências usando NPM ou Yarn.
 
-    ```bash
-    # Usando NPM
-    npm instalar
+```bash
+# Usando NPM
+npm instalar
 
-    # Usando Fios
-    instalação de fio
-    ```
+# Usando Fios
+instalação de fio
+```
 
 3. Recrie o plug-in sempre que editar o código.
 
-    ```bash
-    # Usando NPM
-    npm run dev
+```bash
+# Usando NPM
+npm run dev
 
-    # Usando Fios
-    desenvolvedor de corrida de fios
-    ```
+# Usando Fios
+desenvolvedor de corrida de fios
+```
 
 4. Instale o plug-in em seu cofre.
 
-    ```bash
-    mkdir $YOUR_VAULT_PATH/.obsidian/plugins/seu-plugin-id
-    mv main.js styles.css manifest.json $VAULT_PATH/.obsidian/plugins/your-plugin-id
-    ```
+```bash
+mkdir $YOUR_VAULT_PATH/.obsidian/plugins/seu-plugin-id
+mv main.js styles.css manifest.json $VAULT_PATH/.obsidian/plugins/your-plugin-id
+```
 
 5. Reinicie o Obsidian.
 

@@ -5,7 +5,7 @@ To avoid taking up too much space, Obsidian keeps snapshots for a certain number
 > [!note]
 > By default, snapshots are saved a minimum of 5 minutes from each other, and kept for 7 days. You can configure both intervals under **Settings → File recovery**.
 
-Snapshots are kept in the [[Como a Obsidian armazena dados#System directory|system directory]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
+Snapshots are kept in the [[Como o Obsidian armazena dados#System directory|system directory]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
 
 ## Recover a snapshot
 

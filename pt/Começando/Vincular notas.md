@@ -6,17 +6,17 @@ Nesta etapa, você criará duas notas e as vinculará usando a \[\[sintaxe de co
 
 1. [[Crie sua primeira nota|Criar uma nota]] com o nome "Três leis do movimento":
 
-    > As leis do movimento são três leis declaradas por Isaac Newton, que descrevem a relação entre o movimento de um objeto e as forças que atuam sobre ele.
+   > As leis do movimento são três leis declaradas por Isaac Newton, que descrevem a relação entre o movimento de um objeto e as forças que atuam sobre ele.
 
 2. Crie outra nota com o nome "Lei da Inércia" com o seguinte texto:
 
-    > A Lei da Inércia é uma das
+   > A Lei da Inércia é uma das
 
 3. No final da frase, pressione o colchete esquerdo (`[`) duas vezes no teclado.
 4. Digite "três" para encontrar a primeira nota que você criou.
 5. Pressione `Enter` para criar um link para a nota realçada.
 
-    > A Lei da Inércia é uma das \[\[Três leis do movimento\]\]
+   > A Lei da Inércia é uma das \[\[Três leis do movimento\]\]
 
 Abra a nota "Três leis do movimento" clicando no link enquanto pressiona `Ctrl` (ou `Cmd` no macOS).
 
@@ -46,4 +46,4 @@ Outra maneira de navegar entre suas anotações é usar uma representação visu
 
 ## Saber mais
 
-Entender como suas notas estão conectadas torna-se cada vez mais difícil à medida que seu cofre cresce. Aprenda a usar a [[visualização de gráfico]] para obter insights mais profundos de sua base de conhecimento.
+Entender como suas notas estão conectadas torna-se cada vez mais difícil à medida que seu cofre cresce. Aprenda a usar a [[Graph view]] para obter insights mais profundos de sua base de conhecimento.

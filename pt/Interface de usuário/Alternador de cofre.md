@@ -1,23 +1,22 @@
-Vault switcher lets you switch between existing vaults and create new vaults.
+O alternador de cofre permite alternar entre os cofres existentes e criar novos cofres.
 
-## Open vault switcher
+## Alternador de cofre aberto
 
-To open the vault switcher, click on the vault icon at the bottom group of the [[Ribbon]] actions. The tooltip text should say “Open another vault”.
+Para abrir o alternador de cofre, clique no ícone do cofre no grupo inferior das ações [[Ribbon]]. O texto da dica de ferramenta deve dizer "Abrir outro cofre".
 
-You can see the [[#current vault list]] and [[#create new vaults]] here. Because this is the first screen new users see, it also displays the name of the program and the current version, along with a dropdown to switch [[Idioma da interface]].
+Você pode ver [[#lista de cofres atuais]] e [[#criar novos cofres]] aqui. Como esta é a primeira tela que os novos usuários veem, ela também exibe o nome do programa e a versão atual, juntamente com um menu suspenso para alternar [[Idioma da interface]].
 
-## Current vault list
+## Lista de cofres atual
 
-On the left side of the vault switcher, you can see all the vaults you have accessed before on this device. For each vault, you can see the name of that vault (which is the name of the vault folder), and the path to that folder.
+No lado esquerdo do alternador de cofre, você pode ver todos os cofres que acessou anteriormente neste dispositivo. Para cada cofre, você pode ver o nome desse cofre (que é o nome da pasta do cofre) e o caminho para essa pasta.
 
-Clicking on a vault in this list will open that vault. The cross icon lets you delete the vault from this list.
+Clicar em um cofre nesta lista abrirá esse cofre. O ícone de cruz permite excluir o cofre desta lista.
 
-> Note: deleting a vault from this list **won't delete the vault folder from your device**. It will be “forgotten” and removed from the list.
+> Observação: excluir um cofre desta lista **não excluirá a pasta do cofre do seu dispositivo**. Ele será “esquecido” e removido da lista.
 
-## Create new vaults
+## Criar novos cofres
 
-Vaults can be created in two ways:
+Os cofres podem ser criados de duas maneiras:
 
-1. Choose “Create new vault” and enter the name of the vault along with where it will be stored. Essentially Obsidian creates an empty folder in that location and opens it as a vault for you;
-2. Choose “Open folder as vault” and select a folder on your device. This is the recommended method if you already have a backup or exported folder of Markdown files.
-
+1. Escolha “Criar novo cofre” e insira o nome do cofre junto com o local onde ele será armazenado. Essencialmente, o Obsidian cria uma pasta vazia nesse local e a abre como um cofre para você;
+2. Escolha “Abrir pasta como cofre” e selecione uma pasta em seu dispositivo. Este é o método recomendado se você já tiver uma pasta de backup ou exportada de arquivos Markdown.

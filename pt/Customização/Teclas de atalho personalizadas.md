@@ -8,7 +8,7 @@ Definimos apenas teclas de atalho padrão para os comandos mais usados, mas se v
 
 ### Visualizando teclas de atalho
 
-A maneira mais rápida de ver a tecla de atalho definida para um comando é encontrar o comando em [[Paleta de comandos]]. Se houver uma tecla de atalho listada para esse comando, ela está definida.
+A maneira mais rápida de ver a tecla de atalho definida para um comando é encontrar o comando em [[Command palette]]. Se houver uma tecla de atalho listada para esse comando, ela está definida.
 
 ### Configurando teclas de atalho
 

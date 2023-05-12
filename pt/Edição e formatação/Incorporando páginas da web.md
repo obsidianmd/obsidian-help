@@ -14,7 +14,7 @@ Para incorporar uma página da Web, adicione o seguinte em sua nota e substitua 
 > Alguns sites não permitem que você os incorpore. Em vez disso, eles podem fornecer URLs destinados a incorporá-los. Se o site não oferecer suporte à incorporação, tente pesquisar o nome do site seguido de "embed iframe". Por exemplo, "youtube incorporar iframe".
 
 > [!tip] Dica
-> Se estiver usando [[Canvas]], você pode incorporar uma página da web em um cartão. Para obter mais informações, consulte [[Tela#Adicionar cartões de páginas da web]].
+> Se estiver usando [[Canvas]], você pode incorporar uma página da web em um cartão. Para obter mais informações, consulte [[Canvas#Add cards from web pages]].
 
 ## Incorpore um vídeo do YouTube
 

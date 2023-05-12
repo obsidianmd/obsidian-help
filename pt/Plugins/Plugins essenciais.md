@@ -1,33 +1,33 @@
-One of the most powerful aspects of [[Obsidian]] is the ability to add new functionality via plugins. It comes with several already, and many more are in development.
+Um dos aspectos mais poderosos do [[Obsidian]] é a capacidade de adicionar novas funcionalidades por meio de plug-ins. Já vem com vários, e muitos mais estão em desenvolvimento.
 
-You can also build your own Obsidian plugin. See [[Plugins da comunidade]].
+Você também pode criar seu próprio plug-in Obsidian. Veja [[Plugins da comunidade]].
 
-Plugins can be managed through the "Settings" button on the bottom left. Some of them have settings of their own that can be configured by clicking on the gear that appears next to each plugin when it's activated.
+Os plug-ins podem ser gerenciados por meio do botão "Configurações" no canto inferior esquerdo. Alguns deles possuem configurações próprias que podem ser configuradas clicando na engrenagem que aparece ao lado de cada plugin quando ele é ativado.
 
-### Current list of core plugins
+### Lista atual de plug-ins principais
 
-- [[Audio recorder]]
+- [[Gravador de áudio]]
 - [[Backlinks]]
-- [[Command palette]]
-- [[Daily notes]]
-- [[File explorer]]
-- [[File recovery]]
-- [[Graph view]]
-- [[Format converter]]
-- [[Note composer]]
-- [[Outgoing links]]
-- [[Outline]]
-- [[Page preview]]
+- [[Paleta de comandos]]
+- [[Notas diárias]]
+- [[Explorador de arquivos]]
+- [[Recuperação de arquivos]]
+- [[Visualização do gráfico]]
+- [[Conversor de formato]]
+- [[Compositor de notas]]
+- [[Links de saída]]
+- [[Contorno]]
+- [[Visualização da página]]
 - [[Introdução ao Obsidian Publish|Publish]]
-- [[Quick switcher]]
-- [[Random note]]
-- [[Search]]
-- [[Slash commands]]
+- [[Troca rápida]]
+- [[Nota aleatória]]
+- [[Procurar]]
+- [[Comandos de barra]]
 - [[Slides]]
-- [[Bookmarks]]
+- [[Favoritos]]
 - [[Introdução ao Obsidian Sync|Sync]]
 - [[Plugins/Tags]]
-- [[Templates]]
-- [[Unique note creator]]
-- [[Word count]]
-- [[Workspaces]]
+- [[Modelos]]
+- [[Criador de nota única]]
+- [[Contagem de palavras]]
+- [[Espaços de trabalho]]

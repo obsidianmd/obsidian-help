@@ -1,13 +1,13 @@
-The ribbon is a space for common commands that occupies the vertical space at the very left of the interface. It’s part of the left [[Sidebar]] and is always visible, even if the left sidebar is closed.
+A ribbon é um espaço para comandos comuns que ocupa o espaço vertical bem à esquerda da interface. Faz parte da [[Sidebar]] esquerda e está sempre visível, mesmo que a barra lateral esquerda esteja fechada.
 
-## Actions
+## Ações
 
-Each action is presented by an icon in the ribbon. Hovering them will present a tooltip; clicking or tapping them will activate the action.
+Cada ação é apresentada por um ícone na faixa de opções. Passar o mouse sobre eles apresentará uma dica de ferramenta; clicar ou tocar neles ativará a ação.
 
-The top ones are added by plugins, both [[Plugins essenciais|core plugins]] and [[Plugins da comunidade]].
+Os principais são adicionados por plugins, tanto [[Plugins essenciais|core plugins]] como [[Plugins da comunidade]].
 
-The bottom three actions are Obsidian system actions to:
+As três ações inferiores são ações do sistema Obsidian para:
 
-1. Open another vault;
-2. Get help (opens [[help vault]] on the [[desktop app]] and opens [[online help]] in the mobile app);
-3. Open settings.
+1. Abra outro cofre;
+2. Obtenha ajuda (abre [[cofre de ajuda]] no [[aplicativo para desktop]] e abre [[ajuda online]] no aplicativo móvel);
+3. Abra as configurações.

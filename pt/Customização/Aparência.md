@@ -6,7 +6,7 @@ Obsidian vem com dois temas básicos, claro e escuro. Esta opção define o esqu
 
 Há muitos temas de comunidade contribuídos por nossa incrível comunidade que você pode escolher facilmente.
 
-Você pode ajustá-lo facilmente adicionando [[Adicionar estilos personalizados#Use Themes and or CSS snippets|CSS snippets]].
+Você pode ajustá-lo facilmente adicionando [[Adicionar estilos personalizados#Use temas e/ou trechos de CSS|trechos de CSS]].
 
 ### Translucidez
 
