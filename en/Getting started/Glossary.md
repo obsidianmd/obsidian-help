@@ -14,7 +14,11 @@ A **link** references another note, file, or document. An [[Internal links|inter
 
 ## metadata
 
-[[Metadata]] describes user-defined properties at the top of a note, such as due dates or the author of the note. Metadata can be defined using [YAML](https://yaml.org/) or [JSON](https://www.json.org/) format.
+[[Metadata]] defines additional information about a note, such as a due date or author.
+
+## frontmatter
+
+Frontmatter is a way to define [[#metadata]] for your note by adding [YAML](https://yaml.org/) or [JSON](https://www.json.org/) at the top of the note. See also [[Metadata#Metadata format]].
 
 ## alias
 
