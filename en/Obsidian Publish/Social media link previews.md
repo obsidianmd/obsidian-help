@@ -17,19 +17,19 @@ description: An introduction to our solar system.
 
 You can use a custom image for the link preview, by adding `image` or `cover` with a path to the image.
 
-The path can be a relative path within your vault:
+The path can be an absolute path from the root of your vault:
 
 ```yaml
 ---
-cover: Attachments/Cover.png
+cover: "Attachments/Cover image.png"
 ---
 ```
 
-Or, an absolute URL:
+Or, an external URL:
 
 ```yaml
 ---
-image: https://example.com/image.png
+image: "https://example.com/cover%20image.png"
 ---
 ```
 
