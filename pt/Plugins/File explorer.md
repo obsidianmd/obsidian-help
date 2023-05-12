@@ -1,4 +1,4 @@
-The File explorer lets you manage files and folders inside your vault. You can browse notes and other [[accepted file formats]] in your vault and perform many common file operations:
+The File explorer lets you manage files and folders inside your vault. You can browse notes and other [[Formatos de arquivos aceitos]] in your vault and perform many common file operations:
 
 - Create, delete, and rename files and folders.
 - Move files and folders with drag and drop.
@@ -22,7 +22,7 @@ To create a new note in a specific folder:
 1. Right-click the folder and then click **New note**.
 2. Type the name of the note, and then press Enter.
 
-To learn about other ways to create a note, refer to [[Create notes]].
+To learn about other ways to create a note, refer to [[Crie notas]].
 
 ## Create a new folder
 
@@ -41,14 +41,14 @@ To create a subfolder:
 1. Right-click the file you want to delete, and then click **Delete**.
 2. If prompted to confirm that you want to delete the file, click **Delete**.
 
-For more information, refer to [[Deleting files]].
+For more information, refer to [[Excluindo arquivos]].
 
 ## Rename a file or folder
 
 1. Right-click the file you want to rename, and then click **Rename**.
 2. Type the new name, and the press Enter.
 
-When you rename a file, Obsidian automatically updates all the links to that file. For more information, refer to [[Rename notes]].
+When you rename a file, Obsidian automatically updates all the links to that file. For more information, refer to [[Renomear notas]].
 
 ## Move a file or folder
 

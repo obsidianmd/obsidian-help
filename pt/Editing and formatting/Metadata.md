@@ -22,7 +22,7 @@ Today I learned about front matter.
 ```
 
 > [!tip]
-> By default, metadata is only visible in the [[Editing and previewing Markdown#Editor views|editing view]].
+> By default, metadata is only visible in the [[Editando e visualizando Markdown#Editor views|editing view]].
 >
 > To display metadata in reading view:
 >
@@ -77,18 +77,18 @@ Obsidian comes with of a set of predefined keys:
 |-|-|
 | `tag` | See [[Editing and formatting/Tags\|Tags]]. |
 | `tags` | Alias for `tag`. |
-| `alias` | See [[Aliases]]. |
+| `alias` | See [[Apelidos]]. |
 | `aliases` | Alias for `alias`. |
 | `cssclass` | Allows you to style individual notes using [[Trechos de CSS]]. |
 
 ### Metadata for Obsidian Publish
 
-The following metadata keys are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following metadata keys are used by [[Introdução ao Obsidian Publish|Obsidian Publish]]:
 
 | Key | Description |
 |-|-|
-| `publish` | See [[Publish and unpublish notes#Automatically select notes to publish]]. |
-| `permalink` | See [[Publish and unpublish notes#Permalinks]]. |
-| `description` | See [[Social media link previews#Description]]. |
-| `image` | See [[Social media link previews#Image]]. |
-| `cover` | See [[Social media link previews#Image]]. |
+| `publish` | See [[Publicar e cancelar a publicação de notas#Automatically select notes to publish]]. |
+| `permalink` | See [[Publicar e cancelar a publicação de notas#Permalinks]]. |
+| `description` | See [[Visualizações de links de mídia social#Description]]. |
+| `image` | See [[Visualizações de links de mídia social#Image]]. |
+| `cover` | See [[Visualizações de links de mídia social#Image]]. |

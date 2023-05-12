@@ -6,9 +6,9 @@ In addition, Obsidian adds the following syntax:
 
 Syntax | Description
 -|-
-`[[ ]]` | [[Internal links]]
-`![[ ]]` | [[Embedding files]]
-`%%` | [[Basic formatting syntax#Comments\|Comments]]
-`> [!note]` | [[Callouts]]
+`[[ ]]` | [[Links internos]]
+`![[ ]]` | [[Incorporando arquivos]]
+`%%` | [[Sintaxe de formatação básica#Comments|Comments]]
+`> [!note]` | [[Textos explicativos]]
 
 Obsidian doesn't support Markdown syntax or blank lines within HTML blocks.

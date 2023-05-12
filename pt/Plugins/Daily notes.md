@@ -4,7 +4,7 @@ To open today's daily note, either:
 
 - Click **Open today's daily note** (calendar with checkmark icon) in the [[Ribbon|ribbon]].
 - Run **Open today's daily note** from the [[Command palette]].
-- [[Custom hotkeys#Setting hotkeys|Use a hotkey]] for the **Open today's daily note** command.
+- [[Teclas de atalho personalizadas#Setting hotkeys|Use a hotkey]] for the **Open today's daily note** command.
 
 By default, Obsidian creates a new empty note named after today's date in the YYYY-MM-DD format.
 

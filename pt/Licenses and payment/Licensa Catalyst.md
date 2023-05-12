@@ -12,7 +12,7 @@ While the Catalyst license doesn't grant you any additional features inside the 
 - Cool and unique [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
 
 > [!Note] Commercial use
-> If you use Obsidian for work, you may need to obtain a [[Commercial license]].
+> If you use Obsidian for work, you may need to obtain a [[Licença comercial]].
 
 ## Catalyst tiers
 
@@ -59,4 +59,4 @@ You automatically join the Insider channels after you [[#Get your Discord badge]
 
 ### Enable Insider builds
 
-Please see [[Insider builds]].
+Please see [[Compilações internas]].

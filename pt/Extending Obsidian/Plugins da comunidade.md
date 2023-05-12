@@ -1,12 +1,12 @@
 Learn how to extend Obsidian with plugins built by the community. Use plugins to adapt Obsidian to fit your specific needs, such as support for additional file formats or integrating with a third-party service.
 
 > [!warning]
-> Community plugins run third-party code on your behalf that could potentially do harm. To learn more about what the Obsidian team does to prevent harmful plugins, refer to [[Plugin security]].
+> Community plugins run third-party code on your behalf that could potentially do harm. To learn more about what the Obsidian team does to prevent harmful plugins, refer to [[Segurança de plugin]].
 
 ## Browse community plugins
 
 1. Open **Settings**.
-2. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode]].
+2. Select **Turn on community plugins**. For more information, refer to [[Segurança de plugin#Restricted mode]].
 3. Select **Browse** to list all available community plugins.
 
 Use the text box to filter plugins based on their name, author, and description.
@@ -54,4 +54,4 @@ To update an individual plugin:
 
 ## Learn more
 
-Ready to build your own community plugin? Learn how to [[Build plugins]].
+Ready to build your own community plugin? Learn how to [[Construir plugins]].

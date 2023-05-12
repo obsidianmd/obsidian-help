@@ -34,8 +34,8 @@ Personalize a aparência do Obsidian com [[Temas]] e [[Trechos de CSS]].
 
 Saiba mais sobre nossos produtos:
 
-- [[Introduction to Obsidian Publish|Obsidian Publish]] para publicar suas notas online.
-- [[Introduction to Obsidian Sync|Obsidian Sync]] para sincronizar suas anotações entre dispositivos.
+- [[Introdução ao Obsidian Publish|Obsidian Publish]] para publicar suas notas online.
+- [[Introdução ao Obsidian Sync|Obsidian Sync]] para sincronizar suas anotações entre dispositivos.
 
 ## Contribua
 

@@ -15,7 +15,7 @@ To run a command from the Command palette:
 You can pin frequently used commands at the top of the Command palette to quickly access them without having to type their name.
 
 > [!tip]
-> If you want to quickly run frequently used commands, you can also [[Custom hotkeys#Setting hotkeys|set hotkeys]] for them.
+> If you want to quickly run frequently used commands, you can also [[Teclas de atalho personalizadas#Setting hotkeys|set hotkeys]] for them.
 
 ### Pin a command
 

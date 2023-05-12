@@ -3,7 +3,7 @@ The Graph view lets you visualize the relationships between the notes in your va
 To open the Graph view, click **Open graph view** in the [[ribbon]].
 
 - Circles represent notes, or _nodes_.
-- Lines represents [[Internal links]] between two nodes.
+- Lines represents [[Links internos]] between two nodes.
 
 The more nodes that reference a given node, the bigger it gets.
 
