@@ -9,7 +9,7 @@ Tags são palavras-chave ou tópicos que ajudam você a encontrar rapidamente as
 
 Para criar uma tag, insira um símbolo de hashtag (#) no editor, seguido de uma palavra-chave. Por exemplo, `#reunião`.
 
-Você também pode adicionar a tag ao [[metadata]]:
+Você também pode adicionar a tag ao [[Metadata]]:
 
 ```yaml
 ---
