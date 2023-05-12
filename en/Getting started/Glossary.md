@@ -87,7 +87,7 @@ A **tag** is a word that starts with a hashtag (#), for example `#book`. Tags ar
 
 ## hotkey
 
-A **hotkey** is a keyboard shortcut for a [[#command]].
+A **hotkey** is a keyboard shortcut for a [[#command]]. See also [[Custom hotkeys]] and [[Custom hotkeys|How to/Use hotkeys]].
 
 ## graph
 
