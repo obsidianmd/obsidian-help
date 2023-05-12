@@ -1,24 +1,24 @@
-You choose which notes you want to publish to [[Introdução ao Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
+Você escolhe quais notas deseja publicar em [[Introdução ao Obsidian Publish|Obsidian Publish]]. O restante de suas anotações fica seguro em seu cofre.
 
-Only the notes you choose to publish are sent to Obsidian's servers, and any notes you unpublish are removed.
+Apenas as notas que você decidir publicar são enviadas para os servidores da Obsidian, e todas as notas que você cancelar a publicação serão removidas.
 
-## Add a site password
+## Adicione uma senha do site
 
-**Caution:** If you add a site password, your site is no longer publicly available. Instead, readers see a password prompt when they access your site.
+**Cuidado:** se você adicionar uma senha de site, seu site não estará mais disponível publicamente. Em vez disso, os leitores veem um prompt de senha quando acessam seu site.
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-4. Click **New password**.
-5. In **Password**, enter a password for your site.
-6. (Optional) In **Nickname**, enter a nickname for the password, for example the person you want to give site access to.
-7. Click **Add this password**.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **Alterar opções do site** (ícone de engrenagem).
+3. Em **Outras configurações do site**, ao lado de **Senhas**, clique em **Gerenciar**.
+4. Clique em **Nova senha**.
+5. Em **Senha**, digite uma senha para seu site.
+6. (Opcional) Em **Apelido**, insira um apelido para a senha, por exemplo, a pessoa a quem você deseja conceder acesso ao site.
+7. Clique em **Adicionar esta senha**.
 
-## Remove a site password
+## Remova a senha de um site
 
-**Caution:** If you remove the last password, your site becomes publicly available and anyone can access it.
+**Cuidado:** se você remover a última senha, seu site ficará disponível publicamente e qualquer pessoa poderá acessá-lo.
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-5. Click the cross icon next to the password you want to delete.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **Alterar opções do site** (ícone de engrenagem).
+3. Em **Outras configurações do site**, ao lado de **Senhas**, clique em **Gerenciar**.
+5. Clique no ícone de cruz ao lado da senha que deseja excluir.

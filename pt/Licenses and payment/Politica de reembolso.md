@@ -1,24 +1,24 @@
 ---
 aliases:
-- Licenses & Payment/Refund policy
+- Política de licenças e pagamento/reembolso
 ---
 
-We offer full refunds within 7 days of purchase with no questions asked for the following services and licenses:
+Oferecemos reembolso total no prazo de 7 dias após a compra, sem perguntas, para os seguintes serviços e licenças:
 
 - [[Introdução ao Obsidian Publish|Obsidian Publish]]
 - [[Introdução ao Obsidian Sync|Obsidian Sync]]
 - [[Licença comercial]]
 
-> [!Warning] No refunds for Catalyst, Obsidian Credit, or donations
-> [[Licensa Catalyst|Catalyst licenses]] and [[Obsidian Unlimited (doação)]] are **not** refundable. While they give you a number of benefits, they're intended to support the Obsidian development and aren't sold as products.
-> Similarly, we do not offer refunds for Obsidian Credit, as credit can be transferred to another account and we cannot track these transfers. Sorry for the inconvenience.
+> [!Warning] Não há reembolso para Catalyst, Obsidian Credit ou doações
+> [[Licensa Catalyst|Catalyst licenses]] e [[Obsidian Unlimited (doação)]] **não** são reembolsáveis. Embora ofereçam vários benefícios, eles se destinam a apoiar o desenvolvimento do Obsidian e não são vendidos como produtos.
+> Da mesma forma, não oferecemos reembolso de Obsidian Credit, pois o crédito pode ser transferido para outra conta e não podemos rastrear essas transferências. Desculpe pela inconveniência.
 
-> [!Note] Talk to a human
-> If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, [[Ajuda e suporte#Contact Obsidian support|contact Obsidian support]].
+> [!Nota] Fale com um humano
+> Se você tiver algum problema com uma transação ou precisar de um reembolso após 7 dias após a compra devido a circunstâncias excepcionais, [[Ajuda e suporte#Contact Obsidian support|contact Obsidian support]].
 
-## Request a refund
+## Peça um reembolso
 
-1. Log into your account [on our Account page](https://obsidian.md/account).
-2. Under **Payment & billing** > **Invoices & refunds**, click **View**.
-3. Next to the payments you want a refund for, if you’re qualified for a refund, you’ll see a link to **Get refund**. Click on the click.
-4. Your service will be removed and any auto-renewals will be cancelled as well. If you confirm to proceed, click **Request refund**.
+1. Faça login na sua conta [em nossa página Conta](https://obsidian.md/account).
+2. Em **Pagamento e cobrança** > **Faturas e reembolsos**, clique em **Visualizar**.
+3. Ao lado dos pagamentos para os quais você deseja um reembolso, se estiver qualificado para um reembolso, você verá um link para **Obter reembolso**. Clique no clique.
+4. Seu serviço será removido e todas as renovações automáticas também serão canceladas. Se você confirmar para prosseguir, clique em **Solicitar reembolso**.

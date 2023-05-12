@@ -1,23 +1,23 @@
-Notes are created in a few ways, depending on your workflow:
+As notas são criadas de algumas maneiras, dependendo do seu fluxo de trabalho:
 
-- **Note-first approach**. If you need to create a note, you can do so in [[File explorer]]. The keyboard shortcut is `Ctrl/Cmd+N`. Also, if you have the [[Command palette]] plugin enabled (it's on by default), press `Ctrl/Cmd-p` and type ‘new’, then select **********
+- **Abordagem de nota primeiro**. Se precisar criar uma nota, você pode fazê-lo em [[File explorer]]. O atalho de teclado é `Ctrl/Cmd+N`. Além disso, se você tiver o plug-in [[Paleta de comandos]] ativado (é ativado por padrão), pressione `Ctrl/Cmd-p` e digite 'novo' e selecione **********
 
-- **Link-first approach**. If you like to freely create notes, just use an [[Links internos|internal link]] to link to any note name (it doesn't need to exist at the time of creating the link). To write in the newly created note, simply click on the link name. It will be automatically created in your vault and ready to type!
+- **Abordagem link-first**. Se você gosta de criar notas livremente, basta usar um [[Links internos|link interno]] para vincular a qualquer nome de nota (não precisa existir no momento da criação do link). Para escrever na nota recém-criada, basta clicar no nome do link. Ele será criado automaticamente em seu cofre e pronto para digitar!
 
-![[Pasted image 3.png]]
+![[Imagem colada 3.png]]
 
-After creating it, the note title appears in the internal link auto-completion, so you don't need to type out the note name every time. When you type `[[` a pop-up shows all the notes in your vault. Just type until you see the one you want, and hit `Return` or click on it, and the name will be automatically filled in.
+Depois de criá-lo, o título da nota aparece no preenchimento automático do link interno, para que você não precise digitar o nome da nota todas as vezes. Quando você digita `[[`, um pop-up mostra todas as notas em seu cofre. Basta digitar até ver o que deseja e clicar em 'Return' ou clicar nele, e o nome será preenchido automaticamente.
 
-If you already have folders set up in [[File explorer]], you can right-click on a folder to create notes inside it:
+Se você já tiver pastas configuradas no [[File explorer]], você pode clicar com o botão direito em uma pasta para criar notas dentro dela:
 
-![[Pasted image 4.png]]
+![[Imagem colada 4.png]]
 
-There are also buttons at the top of the file explorer for creating new notes or folders.
+Também existem botões na parte superior do explorador de arquivos para criar novas notas ou pastas.
 
-Obsidian automatically saves your note two seconds after you stop typing, or if you close a pane. You can also manually save at any time by typing `Ctrl/Cmd-S`
+O Obsidian salva automaticamente sua nota dois segundos depois que você para de digitar ou se fecha um painel. Você também pode salvar manualmente a qualquer momento digitando `Ctrl/Cmd-S`
 
 ---
 
-### Related
+### Relacionado
 
 - [[Renomear notas]]

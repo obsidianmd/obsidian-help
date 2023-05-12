@@ -1,35 +1,35 @@
-Any files or settings that have been synced to your [[Cofres locais e remotos|remote vault]] count towards your [[Limitações#How large can each remote vault be|storage space]]. By default, [[Introdução ao Obsidian Sync|Obsidian Sync]] ignores larger files such as audio, video, and PDFs.
+Quaisquer arquivos ou configurações que tenham sido sincronizados com seu [[Cofres locais e remotos|remoto vault]] contam para seu [[Limitações#How large can each remote vault be|espaço de armazenamento]]. Por padrão, [[Introdução ao Obsidian Sync|Obsidian Sync]] ignora arquivos maiores, como áudio, vídeo e PDFs.
 
-**Notes:**
+**Notas:**
 
-- Synced files remain in your remote vault even if you exclude them later on. If possible, configure the files and settings you want to sync before you start syncing your vault.
-- Obsidian only applies vault settings during start-up. If you change a setting on one device, you need to restart Obsidian on your other devices for the new changes to take effect. For example, if you change the path of your daily notes in the [[Daily Notes]] plugin, you need to restart Obsidian on your other devices to use the new path.
-- ==Sync doesn't sync Sync's settings.== This allows users to configure Sync differently on each device according to their needs. This means, however, that you must configure custom Sync settings on each device.
+- Os arquivos sincronizados permanecem em seu cofre remoto, mesmo que você os exclua posteriormente. Se possível, defina os arquivos e as configurações que deseja sincronizar antes de começar a sincronizar seu cofre.
+- O Obsidian só aplica as configurações do Vault durante a inicialização. Se você alterar uma configuração em um dispositivo, será necessário reiniciar o Obsidian nos outros dispositivos para que as novas alterações entrem em vigor. Por exemplo, se você alterar o caminho de suas anotações diárias no plug-in [[Daily Notes]], será necessário reiniciar o Obsidian em seus outros dispositivos para usar o novo caminho.
+- ==O Sync não sincroniza as configurações do Sync.== Isso permite que os usuários configurem o Sync de forma diferente em cada dispositivo de acordo com suas necessidades. Isso significa, no entanto, que você deve definir configurações de sincronização personalizadas em cada dispositivo.
 
-## Sync vault configuration
+## Configuração do cofre de sincronização
 
-1. Open **Settings → Sync**.
-2. Under **Vault configuration sync**, enable the settings you want to sync.
+1. Abra **Configurações → Sincronizar**.
+2. Em **Sincronização de configuração do cofre**, ative as configurações que deseja sincronizar.
 
-## Select file types to sync
+## Selecione os tipos de arquivo para sincronizar
 
-1. Open **Settings → Sync**.
-2. Under **Selective sync**, enable the file types you want to sync.
+1. Abra **Configurações → Sincronizar**.
+2. Em **Sincronização seletiva**, ative os tipos de arquivo que deseja sincronizar.
 
-## Exclude folder from being synced
+## Excluir pasta de ser sincronizada
 
-By default, Obsidian syncs all files and folders in your vault. If you don't want Obsidian to sync a certain folder, you can exclude it.
+Por padrão, o Obsidian sincroniza todos os arquivos e pastas em seu cofre. Se você não deseja que o Obsidian sincronize uma determinada pasta, você pode excluí-la.
 
-1. Open **Settings → Sync**.
-2. Under **Selective sync**, next to **Excluded folders**, click **Manage**.
-3. Click the checkbox to the left of folder you want to exclude.
-4. Click **Done**.
+1. Abra **Configurações → Sincronizar**.
+2. Em **Sincronização seletiva**, ao lado de **Pastas excluídas**, clique em **Gerenciar**.
+3. Clique na caixa de seleção à esquerda da pasta que deseja excluir.
+4. Clique em **Concluído**.
 
-## Create a settings profile
+## Crie um perfil de configurações
 
-Obsidian Sync can sync multiple settings folders to the same remote vault. You can use this to create different profiles, for example one for mobile devices and another for your laptop.
+O Obsidian Sync pode sincronizar várias pastas de configurações para o mesmo cofre remoto. Você pode usar isso para criar perfis diferentes, por exemplo, um para dispositivos móveis e outro para seu laptop.
 
-To set your settings folder:
+Para definir sua pasta de configurações:
 
-1. Open **Settings → About**.
-2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-mobile`.
+1. Abra **Configurações → Sobre**.
+2. Em **Override config folder**, digite o nome do seu perfil, começando com um ponto (`.`). Por exemplo, `.obsidian-mobile`.

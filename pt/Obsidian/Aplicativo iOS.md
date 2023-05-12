@@ -1,5 +1,5 @@
-This help article is legacy and only serves as a bridge to avoid breaking links. For information on the mobile app, please see [[Sincronize suas anotações entre dispositivos]].
+Este artigo de ajuda é legado e serve apenas como uma ponte para evitar a quebra de links. Para informações sobre o aplicativo móvel, consulte [[Sincronize suas anotações entre dispositivos]].
 
-## Sync
+## Sincronizar
 
-For information on syncing on the iOS app, please see [[Sincronize suas anotações entre dispositivos#Sync your notes on iPhone and iPad|Sync your notes on iPhone and iPad]].
+Para informações sobre sincronização no aplicativo iOS, consulte [[Sincronizar suas anotações entre dispositivos#Sincronizar suas anotações no iPhone e iPad|Sincronizar suas anotações no iPhone e iPad]].

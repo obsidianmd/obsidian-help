@@ -1,19 +1,19 @@
 ---
-alias: How to/Use hotkeys
+alias: Como/Usar teclas de atalho
 ---
 
-Most hotkeys are customizable in Obsidian.
+A maioria das teclas de atalho são personalizáveis no Obsidian.
 
-We only defined default hotkeys for the most commonly used commands, but if you frequently use a command, it would save you lots of time if you add a hotkey for it.
+Definimos apenas teclas de atalho padrão para os comandos mais usados, mas se você usa um comando com frequência, economizaria muito tempo se adicionasse uma tecla de atalho para ele.
 
-### Viewing hotkeys
+### Visualizando teclas de atalho
 
-The fastest way to see the hotkey set for a command is to find the command in [[Command palette]]. If there's a hotkey listed for that command, it's set.
+A maneira mais rápida de ver a tecla de atalho definida para um comando é encontrar o comando em [[Paleta de comandos]]. Se houver uma tecla de atalho listada para esse comando, ela está definida.
 
-### Setting hotkeys
+### Configurando teclas de atalho
 
-To add a hotkey, remove a hotkey, or restore hotkeys to default, go to Settings => Hotkeys. You can also filter the list, as the list of commands is quite long.
+Para adicionar uma tecla de atalho, remover uma tecla de atalho ou restaurar as teclas de atalho para o padrão, vá para Configurações => Teclas de atalho. Você também pode filtrar a lista, pois a lista de comandos é bastante longa.
 
-**Note for non-US users:** Even if the hotkey you type doesn't match on screen with what you would expect to see (given your keyboard layout), it will work fine following the actual buttons you pressed (as long as you don’t change layout).
+**Observação para usuários fora dos EUA:** Mesmo se a tecla de atalho digitada não corresponder na tela ao que você esperaria ver (devido ao layout do teclado), ela funcionará bem seguindo os botões reais que você pressionou (contanto que já que você não muda o layout).
 
-The hotkey that appears on screen is the one that you would have to perform if you were using a US keyboard.
+A tecla de atalho que aparece na tela é aquela que você teria que executar se estivesse usando um teclado americano.

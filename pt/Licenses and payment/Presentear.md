@@ -1,16 +1,16 @@
 ---
 aliases:
-- Licenses & Payment/Gifting
+- Licenças e Pagamento/Presente
 ---
 
-Although using Obsidian for personal use is completely free of charge, you can give the gift of Obsidian to someone to help them get an add-on service like [[Introdução ao Obsidian Sync|Obsidian Sync]], or to get a [[Licença comercial]] so they can use Obsidian for work.
+Embora o uso do Obsidian para uso pessoal seja totalmente gratuito, você pode presentear alguém com o Obsidian para ajudá-lo a obter um serviço complementar como [[Introdução ao Obsidian Sync|Obsidian Sync]], ou para obter uma [[Licença comercial]] para que possam usar Obsidian para o trabalho.
 
-## Give gift credits
+## Dê créditos de presente
 
-In Obsidian, you don’t gift a particular product, but rather Obsidian Credit that can be used towards anything. It’s like an Obsidian gift card.
+No Obsidian, você não oferece um produto específico, mas sim Obsidian Credit que pode ser usado para qualquer coisa. É como um vale-presente da Obsidian.
 
-1. If you don’t have any [[Obsidian Credit]] already, first you need to [[Obsidian Credit#Add credit|add some credit]].
-2. [On the Account page](https://obsidian.md/account), under **Payment & billing** > **Obsidian Credit**, click **Gift**.
-3. Follow the instructions to either get a redeem link to send yourself, or have us send an anonymized email to the recipient.
-4. Click **Send gift** to complete the gifting.
-5. After you send out a gift, you can view it under **Payment & billing** > **Gift history**. You can see the status of each gift, and cancel the ones that haven’t been redeemed yet.
+1. Se você ainda não tem nenhum [[Crédito Obsidian]], primeiro você precisa [[Crédito Obsidian#Adicionar crédito|adicionar algum crédito]].
+2. [Na página Conta](https://obsidian.md/account), em **Pagamento e cobrança** > **Crédito Obsidian**, clique em **Presente**.
+3. Siga as instruções para obter um link de resgate para enviar a você mesmo ou envie um e-mail anônimo para o destinatário.
+4. Clique em **Enviar presente** para concluir o presente.
+5. Depois de enviar um presente, você pode visualizá-lo em **Pagamento e cobrança** > **Histórico de presentes**. Você pode ver o status de cada presente e cancelar aqueles que ainda não foram resgatados.

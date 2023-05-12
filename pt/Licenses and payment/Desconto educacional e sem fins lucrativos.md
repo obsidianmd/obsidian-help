@@ -1,54 +1,54 @@
 ---
 aliases:
-- Student and non-profit discount
-- Licenses & Payment/Education and non-profit discount
+- Desconto para estudantes e sem fins lucrativos
+- Licenças e pagamento/educação e desconto sem fins lucrativos
 ---
 
-Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services, including [[Introdução ao Obsidian Sync|Obsidian Sync]] and [[Introdução ao Obsidian Publish|Obsidian Publish]].
+Atualmente, a Obsidian oferece dois tipos de descontos: educacional e sem fins lucrativos. Ambos oferecem 40% de desconto em nossos serviços complementares, incluindo [[Introdução ao Obsidian Sync|Obsidian Sync]] e [[Introdução ao Obsidian Publish|Obsidian Publish]].
 
-### How to apply
+### Como aplicar
 
-1. Go to [your account page](https://obsidian.md/account).
-2. Under **Payment & billing**, find the **Discount** section, and click on the **"Apply"** link.
-3. Select a discount type depending on your situation, fill out your **educational or organization email** (not your account email).
-4. Click **Send application**.
-5. In your school or organization email inbox, you should get an email from us to verify your email address. Click on the link to verify.
-6. You might get instantly approved for the discount. If not, our team will try to review your application within 3 business days.
-7. You’ll get an email when your discount gets approved.
+1. Vá para [página da sua conta](https://obsidian.md/account).
+2. Em **Pagamento e cobrança**, localize a seção **Desconto** e clique no link **"Aplicar"**.
+3. Selecione um tipo de desconto dependendo da sua situação, preencha seu **e-mail educacional ou da organização** (não o e-mail da sua conta).
+4. Clique em **Enviar aplicativo**.
+5. Na caixa de entrada de e-mail da sua escola ou organização, você deve receber um e-mail nosso para verificar seu endereço de e-mail. Clique no link para verificar.
+6. Você pode ser aprovado instantaneamente para o desconto. Caso contrário, nossa equipe tentará revisar sua inscrição em até 3 dias úteis.
+7. Você receberá um e-mail quando seu desconto for aprovado.
 
-Congratulations! Now you’ll see the discount when you try to purchase Obsidian Sync or Publish.
+Parabéns! Agora você verá o desconto ao tentar comprar Obsidian Sync ou Publish.
 
-### How to renew
+### Como renovar
 
-Once you have an active discount, you can see how it will expire under **Payment & billing → Discount** on [your account page](https://obsidian.md/account).
+Depois de ter um desconto ativo, você pode ver como ele expirará em **Pagamento e cobrança → Desconto** na [página da sua conta](https://obsidian.md/account).
 
-A week before your discount expires, you will get an email reminder to renew it. You can follow the same steps in "[[#How to apply]]" to renew the discount, if you still qualify for it.
+Uma semana antes de seu desconto expirar, você receberá um lembrete por e-mail para renová-lo. Você pode seguir os mesmos passos em "[[#Como se inscrever]]" para renovar o desconto, se ainda se qualificar para ele.
 
-### FAQ
+### PERGUNTAS FREQUENTES
 
-> [!FAQ]- Q1. How long does the application process take?
-> If your application isn't approved instantly after verifying your email, our team will review it. It will take up to 3 business days.
+> [!FAQ]- Q1. Quanto tempo demora o processo de inscrição?
+> Se sua inscrição não for aprovada instantaneamente após a verificação de seu e-mail, nossa equipe irá analisá-la. Levará até 3 dias úteis.
 >
-> You don’t need to constantly check the account page for updates. We’ll send an email when you’re approved. Thanks for the patience and understanding!
+> Você não precisa verificar constantemente a página da conta para atualizações. Enviaremos um e-mail quando você for aprovado. Obrigado pela paciência e compreensão!
 
-> [!FAQ]- Q2. Do these discounts work with early bird pricing?
-> Thanks for being an early bird! None of these discounts stack with the early bird pricing, as early bird is likely the highest discount we’ll ever give out.
+> [!FAQ]- Q2. Esses descontos funcionam com os preços iniciais?
+> Obrigado por ser um madrugador! Nenhum desses descontos se acumula com o preço do madrugador, já que o madrugador é provavelmente o desconto mais alto que daremos.
 >
-> If you’re already an early bird, there’s generally no point in applying for discounts. But keep in mind that early bird pricing is separate for Sync and Publish, so if you missed early bird pricing for one of them, you may still want to apply for a discount.
+> Se você já é um madrugador, geralmente não faz sentido solicitar descontos. Mas lembre-se de que o preço antecipado é separado para Sincronizar e Publicar, portanto, se você perdeu o preço antecipado para um deles, ainda pode solicitar um desconto.
 
-> [!FAQ]- Q3. Who’s eligible?
-> If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount.
+> [!FAQ]- Q3. Quem é elegível?
+> Se você for aluno ou membro do corpo docente de uma organização educacional, como uma universidade ou escola secundária, geralmente se qualifica para o desconto educacional.
 >
-> If you run or work at a non-profit organization, you generally qualify for non-profit discount.
+> Se você dirige ou trabalha em uma organização sem fins lucrativos, geralmente se qualifica para o desconto sem fins lucrativos.
 
-> [!FAQ]- Q4. What if my educational or non-profit organization doesn't provide an email address?
-> In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Ajuda e suporte#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too.
+> [!FAQ]- Q4. E se minha organização educacional ou sem fins lucrativos não fornecer um endereço de e-mail?
+> Nesse caso, você pode enviar outras formas de verificação, como carteira de estudante, histórico escolar ou carteira de funcionário para o [[Ajuda e suporte#Contact Obsidian support|Obsidian support]]. Certifique-se de incluir o endereço de e-mail da sua conta Obsidian também.
 >
-> Our team will review your application and get back to you. Thanks for your patience and understanding!
+> Nossa equipe analisará sua inscrição e entrará em contato com você. Obrigado pela sua paciência e compreensão!
 
-> [!FAQ]- Q5. I qualify for a discount, but I already paid. Can I get a refund?
-> We understand that some people have purchased Sync or Publish without discounts either because discounts were not offered back then, or that you didn't know about the discount.
+> [!FAQ]- Q5. Eu me qualifico para um desconto, mas já paguei. Posso obter um reembolso?
+> Entendemos que algumas pessoas compraram o Sync ou o Publish sem descontos porque os descontos não eram oferecidos naquela época ou porque você não sabia sobre o desconto.
 >
-> Unfortunately, we don't offer refunds in cases like this. Sorry! Thanks for your understanding.
+> Infelizmente, não oferecemos reembolso em casos como este. Desculpe! Obrigado pela sua compreensão.
 >
-> The good news is that future renewals will automatically have the discount applied, as long as you have a valid discount.
+> A boa notícia é que as futuras renovações terão o desconto aplicado automaticamente, desde que você tenha um desconto válido.

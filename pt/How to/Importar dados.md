@@ -1,51 +1,51 @@
-There are a few differences between the way various PKM and note taking systems work that mean moving between them can be a little complicated. For the most part, if whatever you're using can be converted to Markdown, it will work fairly well within Obsidian. But some things, like tags and links, can be tricky.
+Existem algumas diferenças entre a forma como vários PKM e sistemas de anotações funcionam, o que significa que mover-se entre eles pode ser um pouco complicado. Na maioria das vezes, se o que você estiver usando puder ser convertido em Markdown, funcionará razoavelmente bem no Obsidian. Mas algumas coisas, como tags e links, podem ser complicadas.
 
-On our Forum there is a [post collecting methods that other people have developed](https://forum.obsidian.md/t/meta-post-migration-workflows/768). Right now, it includes:
+Em nosso Fórum há um [post coleta de métodos que outras pessoas desenvolveram](https://forum.obsidian.md/t/meta-post-migration-workflows/768). No momento, inclui:
 
-- [Import from Notion](https://forum.obsidian.md/t/import-from-notion/636)
-- [Import from Notion (automated)](https://forum.obsidian.md/t/notion-2-obsidian-migration-instructions/2728)
-- [Import from Evernote](https://forum.obsidian.md/t/import-from-evernote/108)
-- [Import from OneNote](https://forum.obsidian.md/t/new-tool-for-migration-from-onenote-updated-and-improved-version/3055)
-- [Import from Apple Notes](https://forum.obsidian.md/t/migrate-from-apple-notes-to-obsidian/732)
-- [Import from Bear](https://forum.obsidian.md/t/import-from-bear-app/2284)
-- [Import from Zkn3](https://forum.obsidian.md/t/migrating-from-zkn3-to-obsidian-without-losing-your-tags-and-internal-links-documentation/7457)
-- [Import from TiddlyWiki 5](https://forum.obsidian.md/t/migrate-from-tiddlywiki-5-to-obsidian/731)
+- [Importar do Notion](https://forum.obsidian.md/t/import-from-notion/636)
+- [Importar do Notion (automatizado)](https://forum.obsidian.md/t/notion-2-obsidian-migration-instructions/2728)
+- [Importar do Evernote](https://forum.obsidian.md/t/import-from-evernote/108)
+- [Importar do OneNote](https://forum.obsidian.md/t/new-tool-for-migration-from-onenote-updated-and-improved-version/3055)
+- [Importar do Apple Notes](https://forum.obsidian.md/t/migrate-from-apple-notes-to-obsidian/732)
+- [Importar do Bear](https://forum.obsidian.md/t/import-from-bear-app/2284)
+- [Importar de Zkn3](https://forum.obsidian.md/t/migrating-from-zkn3-to-obsidian-without-losing-your-tags-and-internal-links-documentation/7457)
+- [Importar do TiddlyWiki 5](https://forum.obsidian.md/t/migrate-from-tiddlywiki-5-to-obsidian/731)
 
-But if you don't see your system on this list, check out the forum post, someone may have solved your issue since this document was written.
+Mas se você não encontrar seu sistema nesta lista, confira a postagem no fórum, alguém pode ter resolvido seu problema desde que este documento foi escrito.
 
-Also of note, the makers of nvUltra, another Markdown-based note-taking program, have a list on their website of [ways to export to nvUltra](https://nvultra.com/help/importing). In a lot of cases, these will be the same, or at least a helpful place to start.
+Também digno de nota, os fabricantes do nvUltra, outro programa de anotações baseado em Markdown, têm uma lista em seu site de [maneiras de exportar para nvUltra](https://nvultra.com/help/importing). Em muitos casos, eles serão os mesmos ou, pelo menos, um ponto de partida útil.
 
-## Built-in tools
+## Ferramentas integradas
 
-### From Roam Research
+### Da pesquisa de roaming
 
-If you have data in Roam, it's easy to export and play around with it in Obsidian.
+Se você tiver dados no Roam, é fácil exportá-los e brincar com eles no Obsidian.
 
-> 1. Choose "Export all" in the menu:
-> ![[Pasted image.png]]
+> 1. Escolha "Exportar tudo" no menu:
+> ![[Imagem colada.png]]
 
-> 2. Click the blue "Export all" button:
-> ![[Pasted image 1.png]]
+> 2. Clique no botão azul "Exportar tudo":
+> ![[Imagem colada 1.png]]
 
-> 3. Unzip the "Roam-Export-xxxxxxxxxxxxx.zip" into a folder.
+> 3. Descompacte o arquivo "Roam-Export-xxxxxxxxxxxxx.zip" em uma pasta.
 
-> 4. Click on the vault icon (the tooltip should say "Open another vault") in the bottom-left corner in the app, and select "Open folder as vault".
-> Pick the folder you just unzipped to.
+> 4. Clique no ícone do cofre (a dica de ferramenta deve dizer "Abrir outro cofre") no canto inferior esquerdo do aplicativo e selecione "Abrir pasta como cofre".
+> Escolha a pasta que você acabou de descompactar.
 
-> 5. Use our [[Format converter]] to convert Roam Research's Markdown format into Obsidian's format.
-> It can be used turn `#tag` into Obsidian `[[links]]`.
-> It can also convert `^^highlight^^` into `==highlight==`.
+> 5. Use nosso [[Conversor de formato]] para converter o formato Markdown da Roam Research para o formato da Obsidian.
+> Pode ser usado para transformar `#tag` em Obsidian `[[links]]`.
+> Ele também pode converter `^^highlight^^` em `==highlight==`.
 
-### From Bear
+### Do Urso
 
-If you're importing from Bear, the [[Format converter]] plugin has an option to convert `::highlight::` to `==highlight==`.
+Se você estiver importando do Bear, o plug-in [[Format converter]] tem a opção de converter `::highlight::` em `==highlight==`.
 
-### Using Zettelkasten
+### Usando Zettelkasten
 
-If you've been using the Zettelkasten method to structure your notes, here's something you might want to know:
+Se você estiver usando o método Zettelkasten para estruturar suas notas, aqui está algo que você pode querer saber:
 
-Links in Obsidian require a full match to the note name. This means that `[[202001010000]]` won't properly link to `[[202001010000 My Note]]`.
+Links em Obsidian requerem uma correspondência completa com o nome da nota. Isso significa que `[[202001010000]]` não será vinculado corretamente a `[[202001010000 My Note]]`.
 
-In order to fix that, you can use our [[Format converter]] to convert your Zettelkasten links into either `[[202001010000 My Note]]` or `[[202001010000 My Note|My Note]]`.
+Para corrigir isso, você pode usar nosso [[conversor de formato]] para converter seus links Zettelkasten em `[[202001010000 My Note]]` ou `[[202001010000 My Note|My Note]]`.
 
-You might also be interested in the [[Unique note creator]] plugin.
+Você também pode estar interessado no plug-in [[Criador de nota exclusivo]].

@@ -1,28 +1,28 @@
-There are many ways to drag and drop things around Obsidian to make the experience smoother:
+Existem muitas maneiras de arrastar e soltar coisas no Obsidian para tornar a experiência mais suave:
 
-### Drag panes
+### Arrastar painéis
 
-See [[Trabalhar com várias notas#5 Panes can be rearranged by dragging|dragging panes]]
+Consulte [[Trabalhar com várias notas#5 Painéis podem ser reorganizados arrastando|arrastando painéis]]
 
-### Drag sources
+### Arraste as fontes
 
-- You can drag a file, or multiple files from the [[file explorer]].
-- You can drag a file from a [[search]] result.
-- You can drag a file from [[backlinks]] or unlinked references.
-- You can drag a file from a link inside the note, in preview mode.
+- Você pode arrastar um arquivo ou vários arquivos do [[File explorer]].
+- Você pode arrastar um arquivo de um resultado [[search]].
+- Você pode arrastar um arquivo de [[backlinks]] ou referências desvinculadas.
+- Você pode arrastar um arquivo de um link dentro da nota, no modo de visualização.
 
-### Drop destinations
+### Destinos de queda
 
-- You can drop a file on a pane header to open the file there. Hold `Alt` (or `Shift` on macOS) to drop anywhere on the pane.
-- You can drop a file on a folder in the [[file explorer]] to move the file there.
-- You can drop a file into an editor to insert it as a link. The generated link also follows your preferences, such as relative paths, or using Markdown links.
-- You can drop a file on the [[Bookmarks]] tab to bookmark it.
+- Você pode soltar um arquivo em um cabeçalho de painel para abrir o arquivo lá. Segure `Alt` (ou `Shift` no macOS) para soltar em qualquer lugar no painel.
+- Você pode soltar um arquivo em uma pasta no [[File explorer]] para mover o arquivo para lá.
+- Você pode soltar um arquivo em um editor para inseri-lo como um link. O link gerado também segue suas preferências, como caminhos relativos ou usando links Markdown.
+- Você pode soltar um arquivo na guia [[Bookmarks]] para marcá-lo.
 
-### Dragging from outside Obsidian
+### Arrastando de fora da Obsidian
 
-- You can drag any HTML content from the browser into Obsidian to automatically convert them into Markdown
-- You can drag and drop any files from your native file explorer to have Obsidian import (make a copy of) those files in your vault's attachment folder and insert them as internal links. Hold `Ctrl` on Windows/Linux or `Option` on macOS to create `file:///` absolute links to those files instead of importing a copy.
+- Você pode arrastar qualquer conteúdo HTML do navegador para o Obsidian para convertê-lo automaticamente em Markdown
+- Você pode arrastar e soltar qualquer arquivo do seu explorador de arquivos nativo para que o Obsidian importe (faça uma cópia) esses arquivos na pasta de anexos do seu cofre e insira-os como links internos. Segure `Ctrl` no Windows/Linux ou `Option` no macOS para criar links absolutos `file:///` para esses arquivos em vez de importar uma cópia.
 
-### Dropping files outside Obsidian
+### Soltando arquivos fora do Obsidian
 
-- This creates an `obsidian://` URL in the external application for the Obsidian note that you dragged.
+- Isso cria uma URL `obsidian://` no aplicativo externo para a nota Obsidian que você arrastou.

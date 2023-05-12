@@ -1,46 +1,46 @@
-You can edit and view multiple files in Obsidian.
+Você pode editar e visualizar vários arquivos no Obsidian.
 
-To effectively use split view, you only need to know a few things:
+Para usar efetivamente a exibição dividida, você só precisa saber algumas coisas:
 
-### 1. Use Ctrl/Cmd key when you want to open things in a new pane
+### 1. Use a tecla Ctrl/Cmd quando quiser abrir itens em um novo painel
 
-By default, when you click something, it will open in the active pane. The active pane is marked with a highlighted bar under the title, and its title is more visible than the inactive panes.
+Por padrão, quando você clica em algo, ele é aberto no painel ativo. O painel ativo é marcado com uma barra destacada sob o título e seu título é mais visível do que os painéis inativos.
 
-To open files in new panes, hold down `Ctrl/Cmd` while you click in Preview mode (`Shift + Ctrl/Cmd` in Edit mode). This applies to a number of places, including [[file explorer]], [[backlinks]] (both links and unlinked mentions), [[search]] results, and [[graph view]]. It also applies to buttons; instead of previewing in the current pane, you can `Cmd+click` the preview button to preview in a new pane. When using the Quick Switcher, holding down `Cmd/Ctrl`when hitting `Enter` will open in a new pane.
+Para abrir arquivos em novos painéis, mantenha pressionada a tecla `Ctrl/Cmd` enquanto clica no modo de visualização (`Shift + Ctrl/Cmd` no modo de edição). Isso se aplica a vários locais, incluindo [[explorador de arquivos]], [[backlinks]] (ambos links e menções não vinculadas), resultados de [[pesquisa]] e [[visualização de gráfico]]. Também se aplica a botões; em vez de visualizar no painel atual, você pode 'Cmd + clicar' no botão de visualização para visualizar em um novo painel. Ao usar o Quick Switcher, manter pressionado `Cmd/Ctrl` ao pressionar `Enter` abrirá em um novo painel.
 
-### 2. You can also create new panes by splitting
+### 2. Você também pode criar novos painéis dividindo
 
-To create other layouts, you can split the current pane in half either horizontally or vertically. Do this with the menu at the top right of the pane, use the command palette, or [[Teclas de atalho personalizadas#Setting hotkeys|set a hotkey]].
+Para criar outros layouts, você pode dividir o painel atual ao meio na horizontal ou na vertical. Faça isso com o menu no canto superior direito do painel, use a paleta de comandos ou [[Teclas de atalho personalizadas#Definir teclas de atalho|definir uma tecla de atalho]].
 
-![[Pasted image 16.png]]
+![[Imagem colada 16.png]]
 
-### 3. If you want a sticky pane that doesn't get replaced even when it's active, pin it
+### 3. Se você quiser um painel fixo que não seja substituído mesmo quando estiver ativo, fixe-o
 
-This is great if you're working on something and want to use the other panes as temporary reference panes. Pin it to make sure it never gets replaced.
+Isso é ótimo se você estiver trabalhando em algo e quiser usar os outros painéis como painéis de referência temporários. Fixe-o para garantir que nunca seja substituído.
 
-![[Pasted image 17.png]]
+![[Imagem colada 17.png]]
 
-Pinned panes will have a highlighted pin icon instead of a grey one.
+Os painéis fixados terão um ícone de alfinete realçado em vez de cinza.
 
-### 4. Use linked panes for previewing
+### 4. Use painéis vinculados para visualização
 
-When creating [[Linked pane|linked panes]], `Ctrl/Cmd+click` the preview or edit button when a note is open.
+Ao criar [[Painel vinculado|painéis vinculados]], `Ctrl/Cmd+clique` no botão de visualização ou edição quando uma nota estiver aberta.
 
-When linked to another pane, the panes' scroll position will be synced, and if you open a file in one pane, the other pane will open the same file.
+Quando vinculado a outro painel, a posição de rolagem dos painéis será sincronizada e, se você abrir um arquivo em um painel, o outro painel abrirá o mesmo arquivo.
 
-[[Linked pane|Linked panes]] will be marked with a link icon. You can hover the link to see which pane it's linked to, or click the icon to release it so that they're no longer linked.
+[[Painel vinculado|Painéis vinculados]] será marcado com um ícone de link. Você pode passar o mouse sobre o link para ver a qual painel ele está vinculado ou clicar no ícone para liberá-lo para que eles não estejam mais vinculados.
 
-For more information, see [[Linked pane|linked panes]].
+Para obter mais informações, consulte [[Painel vinculado|painéis vinculados]].
 
-![[Pasted image 18.png]]
+![[Imagem colada 18.png]]
 
-### 5. Panes can be rearranged by dragging
+### 5. Os painéis podem ser reorganizados arrastando
 
-Grab the icon in the upper-left corner to arrange them however you need. For detailed information, see [[Pane layout]].
+Pegue o ícone no canto superior esquerdo para organizá-los como quiser. Para obter informações detalhadas, consulte [[Layout do painel]].
 
 ---
 
-### Useful tips
+### Dicas úteis
 
-1. You can resize the panes however you want, by dragging the resize handle that's between each pane.
-2. Your file layout, including their sizes, will be remembered when you close the app, so don't worry about having to set them up every time you open the app!
+1. Você pode redimensionar os painéis como quiser, arrastando a alça de redimensionamento entre cada painel.
+2. O layout do seu arquivo, incluindo seus tamanhos, será lembrado quando você fechar o aplicativo, então não se preocupe em ter que configurá-los toda vez que abrir o aplicativo!

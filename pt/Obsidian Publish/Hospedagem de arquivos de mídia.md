@@ -1,3 +1,3 @@
-[[Introdução ao Obsidian Publish|Obsidian Publish]] lets you host notes and other media types, such as images and video clips, up to 4 GB per site.
+[[Introdução ao Obsidian Publish|Obsidian Publish]] permite hospedar notas e outros tipos de mídia, como imagens e videoclipes, até 4 GB por site.
 
-Note that Obsidian Publish isn't optimized for streaming video. To improve the experience for your visitors, we recommend that you instead use a video hosting service, such as YouTube or Vimeo.
+Observe que o Obsidian Publish não é otimizado para streaming de vídeo. Para melhorar a experiência de seus visitantes, recomendamos que você use um serviço de hospedagem de vídeo, como YouTube ou Vimeo.

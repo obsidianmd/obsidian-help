@@ -1,46 +1,46 @@
-For your safety, [[Introdução ao Obsidian Sync|Obsidian Sync]] encrypts your [[Cofres locais e remotos|remote vault]] and all communication with Obsidian's servers. Before anyone can access your remote vault, they first need to decrypt it with an _encryption password_.
+Para sua segurança, [[Introdução ao Obsidian Sync|Obsidian Sync]] criptografa seu [[Cofres locais e remotos|remote vault]] e toda a comunicação com os servidores da Obsidian. Antes que alguém possa acessar seu cofre remoto, primeiro eles precisam descriptografá-lo com uma _senha de criptografia_.
 
-When you create a new remote vault, you have two options:
+Ao criar um novo cofre remoto, você tem duas opções:
 
-- **End-to-end encryption:** Obsidian encrypts the vault on your device with a custom encryption key before it's sent to Obsidian's servers. This guarantees that no one—not even the Obsidian team—can access your notes.
-- **Managed encryption:** If you don't want to have to remember another password, you can let Obsidian manage the encryption password for you. While we store your encryption password on our servers, we only use it to offer a more convenient way to manage your vaults. Obsidian will never access your vault without your explicit consent.
+- **Criptografia de ponta a ponta:** a Obsidian criptografa o cofre em seu dispositivo com uma chave de criptografia personalizada antes de ser enviada aos servidores da Obsidian. Isso garante que ninguém, nem mesmo a equipe da Obsidian, possa acessar suas anotações.
+- **Criptografia gerenciada:** Se você não quiser se lembrar de outra senha, pode deixar a Obsidian gerenciar a senha de criptografia para você. Embora armazenemos sua senha de criptografia em nossos servidores, nós a usamos apenas para oferecer uma maneira mais conveniente de gerenciar seus cofres. A Obsidian nunca acessará seu cofre sem o seu consentimento explícito.
 
-If you forget or lose your custom encryption password, your data remains encrypted and unusable forever. We're not able to recover your password, or any encrypted data for you.
+Se você esquecer ou perder sua senha de criptografia personalizada, seus dados permanecerão criptografados e inutilizáveis para sempre. Não podemos recuperar sua senha ou quaisquer dados criptografados para você.
 
-Your choice only affects your remote vault. Obsidian doesn't encrypt your local vault.
+Sua escolha afeta apenas seu cofre remoto. Obsidian não criptografa seu cofre local.
 
-## What does end-to-end encryption mean?
+## O que significa criptografia de ponta a ponta?
 
-End-to-end encryption means that the data is encrypted from the moment it leaves your device, and can only be decrypted using your encryption key once it's back on one of your devices.
+Criptografia de ponta a ponta significa que os dados são criptografados a partir do momento em que saem do seu dispositivo e só podem ser descriptografados usando sua chave de criptografia quando estiverem de volta em um de seus dispositivos.
 
-We can't read your data. Neither can any potential eavesdroppers, such as your internet service provider.
+Não podemos ler seus dados. Nem qualquer espião em potencial, como seu provedor de serviços de Internet.
 
-In the rare case of a complete server breach, your data remains encrypted—no one can decrypt your files without knowing your password.
+No caso raro de uma violação completa do servidor, seus dados permanecem criptografados - ninguém pode descriptografar seus arquivos sem saber sua senha.
 
-## What encryption do you use?
+## Qual criptografia você usa?
 
-We use industry-standard AES-256 to encrypt your data. AES-256 is a military-grade encryption specification that's widely used in for example online banking.
+Usamos AES-256 padrão do setor para criptografar seus dados. AES-256 é uma especificação de criptografia de nível militar amplamente usada, por exemplo, em serviços bancários online.
 
-Here are the technical details:
+Aqui estão os detalhes técnicos:
 
-- Key derivation function used: scrypt with salt
-- Encryption algorithm used: AES-256 using GCM
+- Função de derivação de chave usada: scrypt com salt
+- Algoritmo de criptografia usado: AES-256 usando GCM
 
-## What happens if I forget my encryption password?
+## O que acontece se eu esquecer minha senha de criptografia?
 
-If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it's forever lost.
+Se você perder ou esquecer a senha de criptografia, não poderá conectar cofres adicionais ao seu cofre remoto. Como a senha de criptografia não é salva em nenhum lugar, ela é perdida para sempre.
 
-Your data, however, are usually safely stored locally on each of your devices.
+Seus dados, no entanto, geralmente são armazenados com segurança localmente em cada um de seus dispositivos.
 
-To continue using Obsidian Sync, we suggest doing a full re-setup to be able to add new devices to your Sync system:
+Para continuar usando o Obsidian Sync, sugerimos fazer uma reconfiguração completa para poder adicionar novos dispositivos ao seu sistema Sync:
 
-1. Make a full vault backup on your primary device, just in case something goes wrong. This can be as simple as making a copy of the vault folder, or creating a zip file from the vault.
-2. Disconnect the remote vault in each of your devices. This can be done by going to Settings > Sync > Pick remote vault > (x) Disconnect.
-3. Create a new remote vault on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the vault limit)
-4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
-5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
-6. Now all your devices should be connected to the new remote vault.
+1. Faça um backup completo do cofre em seu dispositivo principal, caso algo dê errado. Isso pode ser tão simples quanto fazer uma cópia da pasta do vault ou criar um arquivo zip a partir do vault.
+2. Desconecte o cofre remoto em cada um de seus dispositivos. Isso pode ser feito em Configurações > Sincronizar > Escolher cofre remoto > (x) Desconectar.
+3. Crie um novo cofre remoto em seu dispositivo principal na mesma página Configurações. Opcionalmente, você pode excluir o cofre remoto anterior, pois não possui a senha para ele. (Você pode ter que excluir o cofre remoto anterior se estiver no limite do cofre)
+4. Aguarde a sincronização do seu dispositivo principal. Observe o indicador de sincronização na parte inferior direita da tela até que ele exiba uma marca de seleção verde.
+5. Conecte cada um de seus dispositivos ao mesmo cofre remoto recém-criado. Ao conectar, você verá um aviso sobre a fusão do cofre, isso é esperado e você pode prosseguir. Aguarde até que cada dispositivo seja totalmente sincronizado antes de passar para o próximo. Isso reduz as chances de problemas.
+6. Agora todos os seus dispositivos devem estar conectados ao novo cofre remoto.
 
-## Where do you host the servers for Obsidian Sync?
+## Onde você hospeda os servidores para o Obsidian Sync?
 
-We use DigitalOcean's data centers, which are located in the US.
+Usamos data centers da DigitalOcean, que estão localizados nos EUA.

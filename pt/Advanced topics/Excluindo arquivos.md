@@ -1,7 +1,7 @@
-Obsidian has several options for dealing with deleted files, depending on your needs.
+Obsidian tem várias opções para lidar com arquivos excluídos, dependendo de suas necessidades.
 
-- By default, deleted files are sent to your system trash. Here you can use whatever means your system has for recovering files you've accidentally deleted.
-- Deleted files can be sent to a special `.trash` folder in your vault. This can be useful if you want the ability to recover your vault files separate from your system trash.
-- You can also set Obsidian to just delete files without possibility of recovery.
+- Por padrão, os arquivos excluídos são enviados para a lixeira do sistema. Aqui você pode usar qualquer meio que seu sistema tenha para recuperar arquivos que você excluiu acidentalmente.
+- Os arquivos excluídos podem ser enviados para uma pasta especial `.trash` em seu cofre. Isso pode ser útil se você deseja recuperar os arquivos do cofre separados da lixeira do sistema.
+- Você também pode definir o Obsidian para apenas excluir arquivos sem possibilidade de recuperação.
 
-These options can be found in Settings → Files & Links.
+Essas opções podem ser encontradas em Configurações → Arquivos e links.

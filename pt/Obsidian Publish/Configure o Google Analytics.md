@@ -1,24 +1,24 @@
-[Google Analytics](https://analytics.google.com) is a service that allows you to track traffic on your website. This page explains how to enable Google Analytics for your [[Introdução ao Obsidian Publish|Obsidian Publish]] site.
+[Google Analytics](https://analytics.google.com) é um serviço que permite rastrear o tráfego em seu site. Esta página explica como habilitar o Google Analytics para o seu site [[Introdução ao Obsidian Publish|Obsidian Publish]].
 
-> [!important]
-> Before you enable Google Analytics, make sure that your local laws and regulations allow you to track your visitors.
+> [!importante]
+> Antes de ativar o Google Analytics, certifique-se de que as leis e regulamentos locais permitem que você rastreie seus visitantes.
 
-## Prerequisites
+## Pré-requisitos
 
-To use Google Analytics for Obsidian, you need:
+Para usar o Google Analytics para Obsidian, você precisa:
 
-- A [[Configurar um domínio personalizado|custom domain]] for your Obsidian Publish site.
+- Um [[Configurar um domínio personalizado|custom domain]] para o seu site Obsidian Publish.
 
-### Set up Google Analytics
+### Configure o Google Analytics
 
-To enable Google Analytics for your Obsidian Publish site:
+Para habilitar o Google Analytics para o seu site da Obsidian Publish:
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. In **Google Analytics tracking code**, enter your tracking code.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **Alterar opções do site** (ícone de engrenagem).
+3. Em **Código de rastreamento do Google Analytics**, insira seu código de rastreamento.
 
-## Troubleshooting
+## Solução de problemas
 
-- To verify that your site uses Google Analytics, disable any ad-blocking browser extensions, such as uBlock Origin, that may block the tracking script from running.
+- Para verificar se seu site usa o Google Analytics, desative todas as extensões de navegador de bloqueio de anúncios, como uBlock Origin, que podem bloquear a execução do script de rastreamento.
 
-- To use Google Tag Manager instead of Google Analytics, use custom JavaScript to add your own scripts.
+- Para usar o Gerenciador de tags do Google em vez do Google Analytics, use JavaScript personalizado para adicionar seus próprios scripts.

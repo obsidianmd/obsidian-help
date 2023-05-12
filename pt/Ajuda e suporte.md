@@ -1,34 +1,34 @@
-Learn how you can get help and support resources when using Obsidian or any of our paid services.
+Saiba como obter ajuda e recursos de suporte ao usar o Obsidian ou qualquer um de nossos serviços pagos.
 
-## Questions and advice
+## Dúvidas e conselhos
 
-If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
+Se você tiver alguma dúvida sobre como usar o Obsidian ou quiser conhecer outros usuários do Obsidian, entre em um de nossos canais da comunidade:
 
-- [Join our Discord server](https://discord.gg/obsidianmd)
-- [Visit the forum](https://forum.obsidian.md/)
+- [Junte-se ao nosso servidor Discord](https://discord.gg/obsidianmd)
+- [Visite o fórum](https://forum.obsidian.md/)
 
-## Report bugs and request features
+## Relatar bugs e solicitar recursos
 
-> [!important]
-> Before you request a new feature or report a bug, please look through the other posts to make sure someone else hasn't already submitted it.
+> [!importante]
+> Antes de solicitar um novo recurso ou relatar um bug, verifique as outras postagens para garantir que alguém já não o tenha enviado.
 
-If you want to suggest a feature in Obsidian, head over to [Feature requests](https://forum.obsidian.md/c/feature-requests/8).
+Se você quiser sugerir um recurso no Obsidian, acesse [Solicitações de recursos](https://forum.obsidian.md/c/feature-requests/8).
 
-If you want to report a bug, head over to [Bug reports](https://forum.obsidian.md/c/bug-reports/7). Bug reports are moved to the [Bug graveyard](https://forum.obsidian.md/c/bug-graveyard/12) once they're resolved.
+Se você quiser relatar um bug, acesse [Relatórios de bug](https://forum.obsidian.md/c/bug-reports/7). Os relatórios de bugs são movidos para o [cemitério de bugs](https://forum.obsidian.md/c/bug-graveyard/12) assim que são resolvidos.
 
-## Contact Obsidian support
+## Entre em contato com o suporte da Obsidian
 
-Obsidian offers email support only for inquiries about [[Licença comercial|commercial licenses]], your account, payment, and add-on services ([[Introdução ao Obsidian Sync|Obsidian Sync]] and [[Introdução ao Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
+A Obsidian oferece suporte por e-mail apenas para consultas sobre [[Licença comercial|licenças comerciais]], sua conta, pagamento e serviços complementares ([[Introdução ao Obsidian Sync|Obsidian Sync]] e [[Introdução ao Obsidian Publish|Obsidian Publish ]]). Se precisar de ajuda com qualquer um desses tópicos, [envie um e-mail para a equipe da Obsidian](mailto:support@obsidian.md).
 
-## Report a security issue
+## Informar um problema de segurança
 
-If you've discovered a security issue in Obsidian, or if you suspect that a plugin is malicious, please [email the Obsidian team](mailto:support@obsidian.md).
+Se você descobriu um problema de segurança no Obsidian, ou se suspeitar que um plug-in é malicioso, [envie um e-mail para a equipe do Obsidian](mailto:support@obsidian.md).
 
-## Report a Code of Conduct violation
+## Denuncie uma violação do Código de Conduta
 
-Regardless of if you're the victim or a witness of a violation of our [[Código de conduta da comunidade]], you can report the incident to the moderator team.
+Independentemente de você ser vítima ou testemunha de uma violação do nosso [[Código de conduta da comunidade]], você pode relatar o incidente à equipe de moderadores.
 
-Report the incident on one of the following community channels:
+Relate o incidente em um dos seguintes canais da comunidade:
 
 - [[Código de conduta da comunidade#Report on Discord|Report on Discord]]
-- [[Código de conduta da comunidade#Report on the forum|Report on the forum]]
+- [[Código de conduta da comunidade#Relatório no fórum|Relatório no fórum]]

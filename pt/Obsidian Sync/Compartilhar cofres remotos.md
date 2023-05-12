@@ -1,28 +1,28 @@
-Learn how to share a remote vault with another user.
+Saiba como compartilhar um cofre remoto com outro usuário.
 
-Collaborators need an active Obsidian Sync subscription to access a shared vault. Joining a shared remote vault doesn't count towards your [[Limitações#How many remote vaults can I have?|vault limit]].
+Os colaboradores precisam de uma assinatura ativa do Obsidian Sync para acessar um cofre compartilhado. Entrar em um cofre remoto compartilhado não conta para o seu [[Limitações#Quantos cofres remotos posso ter?|limite de cofre]].
 
-Except for adding new collaborators, collaborators receive the same permissions as the vault owner. Fine-grained permissions aren't supported.
+Exceto para adicionar novos colaboradores, os colaboradores recebem as mesmas permissões que o proprietário do cofre. Permissões refinadas não são suportadas.
 
-If the remote vault is [[Obsidian Sync/Segurança e privacidade|end-to-end encrypted]], collaborators need to enter the encryption password when they set up the vault.
+Se o cofre remoto for [[Obsidian Sync/Segurança e privacidade|criptografado de ponta a ponta]], os colaboradores precisam inserir a senha de criptografia ao configurar o cofre.
 
-> [!warning]
-> Avoid working on the same note at the same time as it may lead to changes being lost during the sync process.
+> [!aviso]
+> Evite trabalhar na mesma nota ao mesmo tempo, pois isso pode levar à perda de alterações durante o processo de sincronização.
 
-## Share a remote vault with another user
+## Compartilhe um cofre remoto com outro usuário
 
-To invite a user to share a remote vault:
+Para convidar um usuário para compartilhar um cofre remoto:
 
-1. Open **Settings**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the remote vault you want to share, select **Manage sharing** (two persons icon).
-5. In **Invite user**, enter the email of the user you want to invite.
-6. Select **Add**.
+1. Abra **Configurações**.
+2. No menu lateral, selecione **Sincronizar**.
+3. Ao lado de **Cofre remoto**, selecione **Gerenciar**.
+4. Ao lado do cofre remoto que deseja compartilhar, selecione **Gerenciar compartilhamento** (ícone de duas pessoas).
+5. Em **Convidar usuário**, insira o e-mail do usuário que deseja convidar.
+6. Selecione **Adicionar**.
 
-## Stop sharing a remote vault
+## Pare de compartilhar um cofre remoto
 
-1. Open **Settings**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the user you want to remove access from, select **Remove user** (cross icon).
+1. Abra **Configurações**.
+2. No menu lateral, selecione **Sincronizar**.
+3. Ao lado de **Cofre remoto**, selecione **Gerenciar**.
+4. Ao lado do usuário do qual deseja remover o acesso, selecione **Remover usuário** (ícone de cruz).

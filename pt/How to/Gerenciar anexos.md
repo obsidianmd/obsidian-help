@@ -1,49 +1,49 @@
-## Add an attachment
+## Adicionar um anexo
 
-There are several ways to include attachments in your notes:
+Existem várias maneiras de incluir anexos em suas notas:
 
-1. Copy and paste;
-2. Drag and drop;
-3. Download or copy file to vault folder.
+1. Copie e cole;
+2. Arraste e solte;
+3. Baixe ou copie o arquivo para a pasta do vault.
 
-After being added, these attachment files are just normal files and can still be accessed through your file system.
+Depois de adicionados, esses arquivos anexos são apenas arquivos normais e ainda podem ser acessados por meio do sistema de arquivos.
 
-Please note that only [[Formatos de arquivos aceitos]] are handled.
+Observe que apenas [[Formatos de arquivos aceitos]] são tratados.
 
-### Copy and paste
+### Copiar e colar
 
-Pasting a local file from your system explorer or your clipboard will put the file into your vault.
+Colar um arquivo local do explorador do sistema ou da área de transferência colocará o arquivo no cofre.
 
-This is very handy when combined with screenshot tools.
+Isso é muito útil quando combinado com ferramentas de captura de tela.
 
-### Drag and drop
+### Arraste e solte
 
-If you drag and drop a file from your file explorer, it will be copied to your vault as well.
+Se você arrastar e soltar um arquivo do seu explorador de arquivos, ele também será copiado para o seu cofre.
 
-### Download or copy to vault folder
+### Baixe ou copie para a pasta do cofre
 
-This can work well when paired with [[Capturar informações#Use a clipper extension|clipper extensions]].
+Isso pode funcionar bem quando combinado com [[Capturar informações#Usar uma extensão clipper|extensões clipper]].
 
-You can also download images from your browser into your vault folder directly for later reference.
+Você também pode baixar imagens do seu navegador diretamente para a pasta do cofre para referência posterior.
 
-## Change default attachment location
+## Altere o local padrão do anexo
 
-By default, new attachments will be dropped in the root of your vault. You can fine tune this setting in Settings => Files & Links => "Default location for new attachments".
+Por padrão, novos anexos serão descartados na raiz do seu cofre. Você pode ajustar essa configuração em Configurações => Arquivos e links => "Localização padrão para novos anexos".
 
-### Choose a folder
+### Escolha uma pasta
 
-You can choose a fixed folder to always place your attachments in. To do this, choose "In the folder specified below", and choose a folder in your vault in the new field that appears.
+Você pode escolher uma pasta fixa para sempre colocar seus anexos. Para fazer isso, escolha "Na pasta especificada abaixo" e escolha uma pasta em seu cofre no novo campo que aparece.
 
-Alternatively, you can right click on a folder in [[File explorer]] and choose "Set as attachment folder".
+Como alternativa, você pode clicar com o botão direito do mouse em uma pasta no [[Explorador de arquivos]] e escolher "Definir como pasta de anexos".
 
-### Same folder as current file
+### Mesma pasta do arquivo atual
 
-Sometimes, you may want the attachment files to always be in the same folder as the note you're working on. In this case, choose "Same folder as current file".
+Às vezes, você pode querer que os arquivos anexos estejam sempre na mesma pasta da nota em que está trabalhando. Nesse caso, escolha "Mesma pasta do arquivo atual".
 
-### Under the current folder
+### Na pasta atual
 
-You can also choose to save attachments to a folder underneath the folder that the current file is in.
+Você também pode optar por salvar anexos em uma pasta abaixo da pasta em que o arquivo atual está.
 
-To do this, choose the "Subfolder under current folder" option, and write the name of the subfolder in the field that appears. For example, if you write `assets`, and your note is in `VAULT/folder/path/`, the attachments will be added to `VAULT/folder/path/assets` when you're working on this note.
+Para fazer isso, escolha a opção "Subpasta na pasta atual" e escreva o nome da subpasta no campo que aparece. Por exemplo, se você escrever `assets` e sua nota estiver em `VAULT/folder/path/`, os anexos serão adicionados a `VAULT/folder/path/assets` quando você estiver trabalhando nesta nota.
 
-You don't need to create the subfolder beforehand; if it doesn't exist, Obsidian will create it for you.
+Você não precisa criar a subpasta de antemão; se não existir, a Obsidian o criará para você.

@@ -1,188 +1,188 @@
-Learn how to add advanced formatting syntax to your notes.
+Saiba como adicionar sintaxe de formatação avançada às suas notas.
 
-## Tables
+## Tabelas
 
-You can create table using vertical bars (`|`) and hyphens (`-`). Vertical bars separate columns, and hyphens define the column header.
-
-```md
-| First name | Last name |
-| ---------- | --------- |
-| Max        | Planck    |
-| Marie      | Curie     |
-```
-
-| First name | Last name |
-| ---------- | --------- |
-| Max        | Planck    |
-| Marie      | Curie     |
-
-The vertical bars or either side of the table are optional.
-
-Cells don't need to be perfectly aligned with the columns. Each header row must have at least two hyphens.
+Você pode criar tabelas usando barras verticais (`|`) e hífens (`-`). As barras verticais separam as colunas e os hífens definem o cabeçalho da coluna.
 
 ```md
-First name | Last name
--- | --
-Max | Planck
-Marie | Curie
+| Primeiro nome | Sobrenome |
+| ---------- | ---------- |
+| máx | Plano |
+| Maria | curie |
 ```
 
-### Format content within a table
+| Primeiro nome | Sobrenome |
+| ---------- | ---------- |
+| máx | Plano |
+| Maria | curie |
 
-You can use [[Sintaxe de formatação básica]] to style content within a table.
+As barras verticais ou qualquer um dos lados da mesa são opcionais.
 
-First column | Second column
+As células não precisam estar perfeitamente alinhadas com as colunas. Cada linha de cabeçalho deve ter pelo menos dois hífens.
+
+```md
+Primeiro nome | Sobrenome
 -- | --
-[[Links internos]] | Link to a file _within_ your **vault**.
+máx | Planck
+Maria | curie
+```
+
+### Formatar conteúdo dentro de uma tabela
+
+Você pode usar [[Sintaxe de formatação básica]] para estilizar o conteúdo dentro de uma tabela.
+
+Primeira coluna | Segunda coluna
+-- | --
+[[Links internos]] | Link para um arquivo _dentro_ do seu **cofre**.
 [[Incorporando arquivos]] | ![[og-image.png\|200]]
 
-> [!note] Vertical bars in tables
-> If you want to use [[Apelidos]], or to [[Sintaxe de formatação básica#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
+> [!note] Barras verticais em tabelas
+> Se você quiser usar [[Apelidos]], ou [[Sintaxe de formatação básica#External images|resize an image]] em sua tabela, você precisa adicionar um `\` antes da barra vertical.
 >
 > ```md
-> First column | Second column
+> Primeira coluna | Segunda coluna
 > -- | --
-> [[Basic formatting syntax\|Markdown syntax]] | ![[og-image.png\|200]]
+> [[Sintaxe de formatação básica\|Sintaxe de Markdown]] | ![[og-image.png\|200]]
 > ```
 >
-> First column | Second column
+> Primeira coluna | Segunda coluna
 > -- | --
-> [[Sintaxe de formatação básica|Markdown syntax]] | ![[og-image.png\|200]]
+> [[Sintaxe de formatação básica|Sintaxe Markdown]] | ![[og-image.png\|200]]
 
-You can align text to the left, right, or center of a column by adding colons (`:`) to the header row.
+Você pode alinhar o texto à esquerda, à direita ou ao centro de uma coluna adicionando dois pontos (`:`) à linha do cabeçalho.
 
 ```md
-Left-aligned text | Center-aligned text | Right-aligned text
+Texto alinhado à esquerda | Texto alinhado ao centro | Texto alinhado à direita
 :-- | :--: | --:
-Content | Content | Content
+Conteúdo | Conteúdo | Contente
 ```
 
-Left-aligned text | Center-aligned text | Right-aligned text
+Texto alinhado à esquerda | Texto alinhado ao centro | Texto alinhado à direita
 :-- | :--: | --:
-Content | Content | Content
+Conteúdo | Conteúdo | Contente
 
-## Diagram
+## Diagrama
 
-You can add diagrams and charts to your notes, using [Mermaid](https://mermaid-js.github.io/). Mermaid supports a range of diagrams, such as [flow charts](https://mermaid.js.org/syntax/flowchart.html), [sequence diagrams](https://mermaid.js.org/syntax/sequenceDiagram.html), and [timelines](https://mermaid.js.org/syntax/timeline.html).
+Você pode adicionar diagramas e gráficos às suas anotações, usando [Mermaid](https://mermaid-js.github.io/). O Mermaid suporta uma variedade de diagramas, como [fluxogramas](https://mermaid.js.org/syntax/flowchart.html), [diagramas de sequência](https://mermaid.js.org/syntax/sequenceDiagram. html) e [linhas do tempo](https://mermaid.js.org/syntax/timeline.html).
 
-> [!tip]
-> You can also try Mermaid's [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) to help you build diagrams before you include them in your notes.
+> [!dica]
+> Você também pode experimentar o [Live Editor] da Mermaid (https://mermaid-js.github.io/mermaid-live-editor) para ajudá-lo a criar diagramas antes de incluí-los em suas anotações.
 
-To add a Mermaid diagram, create a `mermaid` [[Sintaxe de formatação básica#Code blocks|code block]].
+Para adicionar um diagrama de sereia, crie uma `sereia` [[Sintaxe de formatação básica#Code blocks|code block]].
 
 ````md
-```mermaid
-sequenceDiagram
-    Alice->>+John: Hello John, how are you?
-    Alice->>+John: John, can you hear me?
-    John-->>-Alice: Hi Alice, I can hear you!
-    John-->>-Alice: I feel great!
+```sereia
+diagrama de sequência
+     Alice->>+John: Olá John, tudo bem?
+     Alice->>+John: John, você pode me ouvir?
+     John->>-Alice: Oi Alice, estou te ouvindo!
+     John-->>-Alice: Eu me sinto ótimo!
 ```
 ````
 
-```mermaid
-sequenceDiagram
-    Alice->>+John: Hello John, how are you?
-    Alice->>+John: John, can you hear me?
-    John-->>-Alice: Hi Alice, I can hear you!
-    John-->>-Alice: I feel great!
+```sereia
+diagrama de sequência
+     Alice->>+John: Olá John, tudo bem?
+     Alice->>+John: John, você pode me ouvir?
+     John->>-Alice: Oi Alice, estou te ouvindo!
+     John-->>-Alice: Eu me sinto ótimo!
 ```
 
 ````md
-```mermaid
-graph TD
+```sereia
+gráfico TD
 
-Biology --> Chemistry
+Biologia --> Química
 ```
 ````
 
-```mermaid
-graph TD
+```sereia
+gráfico TD
 
-Biology --> Chemistry
+Biologia --> Química
 ```
 
-### Linking files in a diagram
+### Vinculando arquivos em um diagrama
 
-You can create [[Links internos]] in your diagrams by attaching the `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes) to your nodes.
+Você pode criar [[Links internos]] em seus diagramas anexando a [classe](https://mermaid.js.org/syntax/flowchart.html#classes) `internal-link` aos seus nós.
 
 ````md
-```mermaid
-graph TD
+```sereia
+gráfico TD
 
-Biology --> Chemistry
+Biologia --> Química
 
-class Biology,Chemistry internal-link;
+classe Biologia, Química link interno;
 ```
 ````
 
-```mermaid
-graph TD
+```sereia
+gráfico TD
 
-Biology --> Chemistry
+Biologia --> Química
 
-class Biology,Chemistry internal-link;
+classe Biologia, Química link interno;
 ```
 
-> [!note]
-> Internal links from diagrams don't show up in the [[Graph view]].
+> [!nota]
+> Os links internos dos diagramas não aparecem na [[Visualização do gráfico]].
 
-If you have many nodes in your diagrams, you can use the following snippet.
+Se você tiver muitos nós em seus diagramas, poderá usar o trecho a seguir.
 
 ````md
-```mermaid
-graph TD
+```sereia
+gráfico TD
 
-A[Biology]
-B[Chemistry]
+A[Biologia]
+B[Química]
 
 A --> B
 
-class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+classe A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y ,Z link interno;
 ```
 ````
 
-This way, each letter node becomes an internal link, with the [node text](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) as the link text.
+Dessa forma, cada nó de letra se torna um link interno, com o [texto do nó](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) como o texto do link.
 
-> [!note]
-> If you use special characters in your note names, you need to put the note name in double quotes.
+> [!nota]
+> Se você usar caracteres especiais em seus nomes de nota, você precisa colocar o nome da nota entre aspas duplas.
 >
 > ```
-> class "⨳ special character" internal-link
+> class "⨳ caractere especial" link interno
 > ```
 >
-> Or, `A["⨳ special character"]`.
+> Ou, `A["⨳ caractere especial"]`.
 
-For more information about creating diagrams, refer to the [official Mermaid docs](https://mermaid.js.org/intro/).
+Para obter mais informações sobre como criar diagramas, consulte os [documentos oficiais da Mermaid](https://mermaid.js.org/intro/).
 
-## Math
+## Matemática
 
-You can add math expressions to your notes using [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) and the LaTeX notation.
+Você pode adicionar expressões matemáticas às suas anotações usando [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) e a notação LaTeX.
 
-To add a MathJax expression to your note, surround it with double dollar signs (`$$`).
+Para adicionar uma expressão MathJax à sua nota, coloque-a entre cifrões duplos (`$$`).
 
 ```md
 $$
 \begin{vmatrix}a & b\\
-c & d
+cd
 \end{vmatrix}=ad-bc
 $$
 ```
 
 $$
 \begin{vmatrix}a & b\\
-c & d
+cd
 \end{vmatrix}=ad-bc
 $$
 
-You can also inline math expressions by wrapping it in `$` symbols.
+Você também pode incorporar expressões matemáticas envolvendo-as em símbolos `$`.
 
 ```md
-This is an inline math expression $e^{2i\pi} = 1$.
+Esta é uma expressão matemática em linha $e^{2i\pi} = 1$.
 ```
 
-This is an inline math expression $e^{2i\pi} = 1$.
+Esta é uma expressão matemática em linha $e^{2i\pi} = 1$.
 
-For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+Para obter mais informações sobre a sintaxe, consulte [Tutorial básico e referência rápida do MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+Para obter uma lista de pacotes MathJax suportados, consulte [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).

@@ -1,139 +1,139 @@
-The Obsidian documentation uses the [Google developer documentation style guide](https://developers.google.com/style). For any topics not covered by the Google style guide, use the [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/).
+A documentação da Obsidian usa o [guia de estilo da documentação do desenvolvedor do Google](https://developers.google.com/style). Para quaisquer tópicos não cobertos pelo guia de estilo do Google, use o [Guia de estilo da Microsoft](https://learn.microsoft.com/en-us/style-guide/).
 
-This page lists any deviances from the Google style guide, or terminology worth highlighting.
+Esta página lista todos os desvios do guia de estilo do Google ou terminologia que vale a pena destacar.
 
-> [!tip] Contribute
-> Most of the documentation existed before this style guide did. If you find any violations of this style guide, please [create an issue](https://github.com/obsidianmd/obsidian-docs/issues/new) or submit a pull request to [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
+> [!tip] Contribua
+> A maior parte da documentação existia antes deste guia de estilo. Se você encontrar alguma violação deste guia de estilo, [crie um problema](https://github.com/obsidianmd/obsidian-docs/issues/new) ou envie uma solicitação pull para [obsidianmd/obsidian-docs](https ://github.com/obsidianmd/obsidian-docs).
 
-## Terminology
+## Terminologia
 
-- Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
-- Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
-- Prefer "sync" or "syncing" over "synchronize" or "synchronizing".
-- Prefer "search term" over "search query".
-- Prefer "heading" over "header" when referring to a text that introduces a section.
-- Prefer "maximum" over "max" and "minimum" over "min".
+- Prefira "atalho de teclado" em vez de "tecla de atalho". Use a tecla de atalho ao se referir ao recurso específico.
+- Prefira "o aplicativo Obsidian" no celular e "o aplicativo Obsidian" no computador.
+- Prefira "sincronizar" ou "sincronizar" em vez de "sincronizar" ou "sincronizar".
+- Prefira "termo de pesquisa" em vez de "consulta de pesquisa".
+- Prefira "heading" a "header" quando se referir a um texto que introduz uma seção.
+- Prefira "máximo" a "máximo" e "mínimo" a "min".
 
-### Product names
+### Nomes de produtos
 
-Obsidian product names start with "Obsidian", for example "Obsidian Publish" and "Obsidian Sync".
+Os nomes dos produtos Obsidian começam com "Obsidian", por exemplo "Obsidian Publish" e "Obsidian Sync".
 
-If a paragraph becomes overly repetitive, you can use the short form in subsequent references.
+Se um parágrafo se tornar excessivamente repetitivo, você pode usar a forma abreviada nas referências subsequentes.
 
-For example:
+Por exemplo:
 
-_To allow device-specific configuration, Obsidian Sync doesn't sync its own settings. You need to configure Sync for each of your devices._
+_Para permitir a configuração específica do dispositivo, o Obsidian Sync não sincroniza suas próprias configurações. Você precisa configurar o Sync para cada um dos seus dispositivos._
 
-### UI and interactions
+### IU e interações
 
-- Prefer "select" over "tap" or "click".
-- Prefer "sidebar" over "side bar".
-- Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
+- Prefira "selecionar" a "tocar" ou "clicar".
+- Prefira "barra lateral" em vez de "barra lateral".
+- Prefira "executar" a "invocar" e "executar" ao se referir a comandos ou ações.
 
-When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**Settings → Community plugins**".
+Ao se referir a várias interações de interface do usuário em uma sequência, use o símbolo → (U+2192). Por exemplo, "**Configurações → Plug-ins da comunidade**".
 
-### Notes, files, and folders
+### Notas, arquivos e pastas
 
-- Use "note" when referring to a Markdown file in the vault.
-- Use "file" when referring to other file extensions than Markdown.
-- Prefer "note name" over "note title".
-- Prefer "active note" over "current note".
-- Prefer "folder" over "directory".
-- Prefer "file type" over "file format", unless specifically referring to the data format of the file content.
+- Use "nota" ao se referir a um arquivo Markdown no cofre.
+- Use "arquivo" ao se referir a outras extensões de arquivo além do Markdown.
+- Prefira "nome da nota" em vez de "título da nota".
+- Prefira "nota ativa" em vez de "nota atual".
+- Prefira "pasta" em vez de "diretório".
+- Prefira "tipo de arquivo" em vez de "formato de arquivo", a menos que se refira especificamente ao formato de dados do conteúdo do arquivo.
 
-When moving between notes, use "open" if the destination is hidden, and "switch" if both source and destination notes are open in separate splits.
+Ao mover entre as notas, use "abrir" se o destino estiver oculto e "alternar" se as notas de origem e destino estiverem abertas em divisões separadas.
 
-## Reference documentation for settings
+## Documentação de referência para configurações
 
-When possible, any settings should be documented within Obsidian using a descriptive text. Avoid documenting a specific setting in Obsidian Help unless:
+Sempre que possível, todas as configurações devem ser documentadas no Obsidian usando um texto descritivo. Evite documentar uma configuração específica na Ajuda do Obsidian, a menos que:
 
-- It requires more in-depth knowledge on how and when to use it.
-- It's commonly misused or asked about.
-- It _drastically_ changes the user experience.
+- Requer um conhecimento mais aprofundado sobre como e quando usá-lo.
+- É comumente mal utilizado ou questionado.
+- Muda _drasticamente_ a experiência do usuário.
 
-Consider using a tip callout if you want to draw attention to a specific setting.
+Considere usar uma legenda de dica se quiser chamar a atenção para uma configuração específica.
 
-## Directional terms
+## Termos direcionais
 
-Hyphenate directional terms when using them as adjectives. Avoid hyphenation when direction is used as a noun.
+Hifenize os termos direcionais ao usá-los como adjetivos. Evite a hifenização quando a direção for usada como um substantivo.
 
-**Recommended:**
+**Recomendado:**
 
-- Select **Settings** in the bottom-left corner.
-- Select **Settings** in the bottom left.
+- Selecione **Configurações** no canto inferior esquerdo.
+- Selecione **Configurações** no canto inferior esquerdo.
 
-**Not recommended:**
+**Não recomendado:**
 
-- Select **Settings** in the bottom left corner.
-- Select **Settings** in the bottom-left.
+- Selecione **Configurações** no canto inferior esquerdo.
+- Selecione **Configurações** no canto inferior esquerdo.
 
-Prefer "upper-left" and "upper-right" over "top-left" and "top-right".
+Prefira "superior esquerdo" e "superior direito" em vez de "superior esquerdo" e "superior direito".
 
-Don't indicate a direction when referring to settings. The location of the settings control depends on the device.
+Não indique uma direção ao se referir às configurações. A localização do controle de configurações depende do dispositivo.
 
-**Recommended:**
+**Recomendado:**
 
-- Next to **Pick remote vault**, click **Choose**.
+- Ao lado de **Escolher cofre remoto**, clique em **Escolher**.
 
-**Not recommended:**
+**Não recomendado:**
 
-- To the right of **Pick remote vault**, click **Choose**.
+- À direita de **Escolher cofre remoto**, clique em **Escolher**.
 
-## Examples
+## Exemplos
 
-Prefer realistic examples over nonsense terms.
+Prefira exemplos realistas a termos sem sentido.
 
-**Recommended:**
+**Recomendado:**
 
-- `task:(call OR schedule)`
+- `tarefa:(chamada OU agendamento)`
 
-**Not recommended:**
+**Não recomendado:**
 
-- `task:(foo OR bar)`
+- `tarefa:(foo OR bar)`
 
-## Key names
+## Nomes das chaves
 
-When referring to a character on the keyboard by name, add the character between parentheses right after the name:
+Ao se referir a um caractere no teclado pelo nome, adicione o caractere entre parênteses logo após o nome:
 
-**Recommended:**
+**Recomendado:**
 
-- Add a hyphen (-) in front of the word.
+- Adicione um hífen (-) antes da palavra.
 
-**Not recommended:**
+**Não recomendado:**
 
-- Add a hyphen in front of the word.
-- Add a `-` in front of the word.
+- Adicione um hífen antes da palavra.
+- Adicione um `-` na frente da palavra.
 
-## Markdown
+## Remarcação
 
-Use newlines between Markdown blocks:
+Use novas linhas entre os blocos Markdown:
 
-**Recommended:**
-
-```md
-# Heading 1
-
-This is a section.
-
-1. First item
-2. Second item
-3. Third item
-```
-
-**Not recommended:**
+**Recomendado:**
 
 ```md
-# Heading 1
-This is a section.
-1. First item
-2. Second item
-3. Third item
+# Cabeçallho 1
+
+Esta é uma seção.
+
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
 ```
 
-## Images
+**Não recomendado:**
 
-Use "**width** x **height** pixels" for describing image or screen dimensions.
+```md
+# Cabeçallho 1
+Esta é uma seção.
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
+```
 
-**Example:**
+## Imagens
 
-Recommended image dimensions: 1920 x 1080 pixels.
+Use "**largura** x **altura** pixels" para descrever as dimensões da imagem ou da tela.
+
+**Exemplo:**
+
+Dimensões de imagem recomendadas: 1920 x 1080 pixels.

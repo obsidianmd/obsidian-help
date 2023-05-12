@@ -1,49 +1,49 @@
-While Obsidian is great for taking notes, the true power of Obsidian lies in being able to link your notes together. By understanding how one piece of information relates to another, you can improve your ability to remember them and to form deeper insights. In this guide, you'll learn how to create and navigate links in Obsidian.
+Embora o Obsidian seja ótimo para fazer anotações, o verdadeiro poder do Obsidian está em poder vincular suas anotações. Ao entender como uma informação se relaciona com outra, você pode melhorar sua capacidade de lembrá-la e formar percepções mais profundas. Neste guia, você aprenderá como criar e navegar por links no Obsidian.
 
-## Step 1: Create a link
+## Etapa 1: criar um link
 
-In this step, you'll create two notes and link them together using the \[\[double bracket syntax\]\].
+Nesta etapa, você criará duas notas e as vinculará usando a \[\[sintaxe de colchetes duplos\]\].
 
-1. [[Crie sua primeira nota|Create a note]] with the name "Three laws of motion":
+1. [[Crie sua primeira nota|Criar uma nota]] com o nome "Três leis do movimento":
 
-   > The laws of motion are three laws stated by Isaac Newton, that describe the relationship between the motion of an object, and the forces acting on it.
+    > As leis do movimento são três leis declaradas por Isaac Newton, que descrevem a relação entre o movimento de um objeto e as forças que atuam sobre ele.
 
-2. Create another note with the name "Law of Inertia" with the following text:
+2. Crie outra nota com o nome "Lei da Inércia" com o seguinte texto:
 
-   > The Law of Inertia is one of the
+    > A Lei da Inércia é uma das
 
-3. At the end of the sentence, press the left square bracket (`[`) twice on your keyboard.
-4. Type "three" to find the first note you created.
-5. Press `Enter` to create a link to the highlighted note.
+3. No final da frase, pressione o colchete esquerdo (`[`) duas vezes no teclado.
+4. Digite "três" para encontrar a primeira nota que você criou.
+5. Pressione `Enter` para criar um link para a nota realçada.
 
-   > The Law of Inertia is one of the \[\[Three laws of motion\]\]
+    > A Lei da Inércia é uma das \[\[Três leis do movimento\]\]
 
-Open the "Three laws of motion" note by clicking on the link while pressing `Ctrl` (or `Cmd` on macOS).
+Abra a nota "Três leis do movimento" clicando no link enquanto pressiona `Ctrl` (ou `Cmd` no macOS).
 
-## Step 2: Create a link to a non-existing note
+## Passo 2: Crie um link para uma nota inexistente
 
-You can create links to notes that don't exist yet, for when you want to dive into a topic at a later time.
+Você pode criar links para notas que ainda não existem, para quando quiser aprofundar um tópico posteriormente.
 
-1. In your "Three laws of motion" note, select the text "Isaac Newton".
-2. Press the left square bracket (`[`) twice on your keyboard to create a link. The second link has a more muted color to indicate that the note doesn't exist yet.
-3. Create the note by clicking on the link while pressing `Ctrl` (or `Cmd` on macOS).
+1. Em sua nota "Três leis do movimento", selecione o texto "Isaac Newton".
+2. Pressione o colchete esquerdo (`[`) duas vezes em seu teclado para criar um link. O segundo link tem uma cor mais suave para indicar que a nota ainda não existe.
+3. Crie a nota clicando no link enquanto pressiona `Ctrl` (ou `Cmd` no macOS).
 
-## Step 3: Navigate between notes
+## Passo 3: Navegue entre as notas
 
-As you've seen in the previous steps, you can click a link while pressing `Ctrl` (or `Cmd` on macOS) to go to the linked note.
+Como você viu nas etapas anteriores, você pode clicar em um link enquanto pressiona `Ctrl` (ou `Cmd` no macOS) para ir para a nota vinculada.
 
-Another way to navigate the between notes is through _backlinks_. A backlink lets you navigate in the opposite direction of an existing link.
+Outra maneira de navegar entre as notas é por meio de _backlinks_. Um backlink permite que você navegue na direção oposta de um link existente.
 
-1. Open the "Isaac Newton" note.
-2. In the right sidebar, click the **Backlinks** tab.
-3. Under **Linked mentions**, click the mention in "Three laws of motion" to go to that note.
+1. Abra a nota "Isaac Newton".
+2. Na barra lateral direita, clique na guia **Backlinks**.
+3. Em **Menções vinculadas**, clique na menção em "Três leis do movimento" para ir para essa nota.
 
-Another way to navigate between your notes is by using a visual representation of how your notes are connected.
+Outra maneira de navegar entre suas anotações é usar uma representação visual de como suas anotações estão conectadas.
 
-1. In the upper-right corner of the note, click **More options** (three dots).
-2. Select **Open local graph**.
-3. Click any of the nodes in the graph to navigate to that note.
+1. No canto superior direito da nota, clique em **Mais opções** (três pontos).
+2. Selecione **Abrir gráfico local**.
+3. Clique em qualquer um dos nós do gráfico para navegar até essa nota.
 
-## Learn more
+## Saber mais
 
-Understanding how your notes are connected becomes increasingly more difficult as your vault grows. Learn how to use the [[graph view]] to gain deeper insights from your knowledge base.
+Entender como suas notas estão conectadas torna-se cada vez mais difícil à medida que seu cofre cresce. Aprenda a usar a [[visualização de gráfico]] para obter insights mais profundos de sua base de conhecimento.

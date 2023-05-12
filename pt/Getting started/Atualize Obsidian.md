@@ -1,24 +1,24 @@
 ---
-alias: How to/Update Obsidian
+alias: Como/Atualizar Obsidian
 ---
 
-Obsidian checks for new updates regularly. When a new update is available, Obsidian applies it when you restart the application.
+A Obsidian verifica regularmente se há novas atualizações. Quando uma nova atualização está disponível, o Obsidian a aplica quando você reinicia o aplicativo.
 
-## Check for an update and the current version
+## Verifique se há uma atualização e a versão atual
 
-Open **Settings → About**.
+Abra **Configurações → Sobre**.
 
-You can find the current Obsidian version and installer version in the upper-left corner.
+Você pode encontrar a versão atual do Obsidian e a versão do instalador no canto superior esquerdo.
 
-To apply any available updates, click **Relaunch**.
+Para aplicar as atualizações disponíveis, clique em **Reiniciar**.
 
-## Disable automatic updates
+## Desativar atualizações automáticas
 
-If you prefer to update Obsidian manually, you can disable automatic updates.
+Se preferir atualizar o Obsidian manualmente, você pode desabilitar as atualizações automáticas.
 
-1. Open **Settings → About**.
-2. Disable **Automatic updates**.
+1. Abra **Configurações → Sobre**.
+2. Desative **Atualizações automáticas**.
 
-## Troubleshooting
+## Solução de problemas
 
-Some features may depend on a more recent installer version. If you experience issues with a recently added feature, consider [[Baixe e instale o Obsidian|reinstalling Obsidian]] to update the installer version.
+Alguns recursos podem depender de uma versão mais recente do instalador. Se você tiver problemas com um recurso adicionado recentemente, considere [[Baixe e instale o Obsidian|reinstalando o Obsidian]] para atualizar a versão do instalador.

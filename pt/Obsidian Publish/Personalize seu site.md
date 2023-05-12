@@ -1,26 +1,26 @@
-This page explains how you can customize how your [[Introdução ao Obsidian Publish|Obsidian Publish]] site looks and feels.
+Esta página explica como você pode personalizar a aparência do seu site [[Introdução ao Obsidian Publish|Obsidian Publish]].
 
-## Static assets
+## Ativos estáticos
 
-You can customize your site by [[Publicar e cancelar a publicação de notas#Publish notes|publishing]] the following files to your site:
+Você pode personalizar seu site [[Publicar e cancelar a publicação de notas#Publish notes|publishing]] os seguintes arquivos em seu site:
 
-- `publish.css` to add custom CSS
-- `publish.js` to add custom JavaScript
-- `favicon-32x32.png` to set the favicon
+- `publish.css` para adicionar CSS personalizado
+- `publish.js` para adicionar JavaScript personalizado
+- `favicon-32x32.png` para definir o favicon
 
-**Notes:**
+**Notas:**
 
-- Since Obsidian doesn't support CSS or JavaScript files, you need to use another application to create and edit them.
-- By default, `publish.css` and `publish.js` don't appear in the file explorer, but you can still publish them from the **Publish changes** dialog.
-- To use custom JavaScript with `publish.js`, you need to [[Configurar um domínio personalizado]].
+- Como o Obsidian não suporta arquivos CSS ou JavaScript, você precisa usar outro aplicativo para criá-los e editá-los.
+- Por padrão, `publish.css` e `publish.js` não aparecem no explorador de arquivos, mas você ainda pode publicá-los na caixa de diálogo **Publicar alterações**.
+- Para usar JavaScript customizado com `publish.js`, você precisa [[Configurar um domínio personalizado]].
 
-For favicons, Obsidian Publish supports the following naming conventions, where `32` is the icon dimensions in pixels:
+Para favicons, o Obsidian Publish suporta as seguintes convenções de nomenclatura, onde `32` são as dimensões do ícone em pixels:
 
 - `favicon-32.png`
 - `favicon-32x32.png`
 - `favicon.ico`
 
-We recommend that you provide one or more of the following dimensions:
+Recomendamos que você forneça uma ou mais das seguintes dimensões:
 
 - `favicon-32x32.png`
 - `favicon-128x128.png`
@@ -30,25 +30,25 @@ We recommend that you provide one or more of the following dimensions:
 - `favicon-192x192.png`
 - `favicon-196x196.png`
 
-## Use a community theme
+## Use um tema da comunidade
 
-To use one of the community themes for your site:
+Para usar um dos temas da comunidade em seu site:
 
-1. Open your vault in the default file explorer for your OS.
-2. Go to the vault settings folder (default: `.obsidian`).
-3. Open the `themes` folder.
-4. Copy the CSS file for the theme you want to use for your site.
-5. Paste the file into the root folder of your vault.
-6. Rename the CSS file to `publish.css`.
+1. Abra seu cofre no explorador de arquivos padrão para seu sistema operacional.
+2. Vá para a pasta de configurações do Vault (padrão: `.obsidian`).
+3. Abra a pasta `themes`.
+4. Copie o arquivo CSS do tema que deseja usar em seu site.
+5. Cole o arquivo na pasta raiz do seu cofre.
+6. Renomeie o arquivo CSS para `publish.css`.
 7. [[Publicar e cancelar a publicação de notas#Publish notes|Publish]] `publish.css`.
 
-**Notes:**
+**Notas:**
 
-- If the style doesn't change within a few minutes, you may need to refresh your browser cache.
-- You can switch between light and dark mode in the [[Gerenciar sites#View site options|site options]].
+- Se o estilo não mudar em alguns minutos, pode ser necessário atualizar o cache do navegador.
+- Você pode alternar entre o modo claro e escuro nas [[Gerenciar sites#Ver opções do site|opções do site]].
 
-## Enable UI features
+## Ativar recursos da interface do usuário
 
-You can toggle several UI features for your site, such as the graph view or a table of contents.
+Você pode alternar vários recursos de interface do usuário para seu site, como a exibição de gráfico ou um sumário.
 
-Browse the available UI features under the **Reading experience** and **Components** sections in the [[Gerenciar sites#View site options|site options]]
+Navegue pelos recursos de IU disponíveis nas seções **Experiência de leitura** e **Componentes** em [[Gerenciar sites#Exibir opções do site|opções do site]]

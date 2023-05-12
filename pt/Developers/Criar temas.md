@@ -1,22 +1,22 @@
-Learn how to customize the appearance of the Obsidian interface by building your own theme.
+Aprenda a personalizar a aparência da interface do Obsidian criando seu próprio tema.
 
-For more resources on how to build your own themes, check out the following resources:
+Para obter mais recursos sobre como criar seus próprios temas, confira os seguintes recursos:
 
-- [for Theme Designers](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Theme+Designers)
+- [para designers de tema](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Theme+Designers)
 
-## Submit your theme
+## Envie seu tema
 
-When you're ready, you can share your theme with the Obsidian community by submitting it.
+Quando estiver pronto, você pode compartilhar seu tema com a comunidade Obsidian enviando-o.
 
-For an in-depth guide on how to submit your plugin, refer to [How to add your theme to the community theme store](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+theme+to+the+community+theme+store) on the Obsidian Hub.
+Para obter um guia detalhado sobre como enviar seu plug-in, consulte [How to add your theme to the community theme store](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows% 2C+%26+Cursos/Guias/Como+adicionar+seu+tema+à+loja+comunitária+de+temas) no Obsidian Hub.
 
-## Share your theme with the community
+## Compartilhe seu tema com a comunidade
 
-Share what you've built in the `#appearance` channel on our Discord server, or in the Share & Showcase category on our forum.
+Compartilhe o que você construiu no canal `#appearance` em nosso servidor Discord, ou na categoria Share & Showcase em nosso fórum.
 
-## Community and support
+## Comunidade e suporte
 
-If you get stuck, or if you're looking for feedback, [join the community](https://obsidian.md/community).
+Se você tiver dúvidas ou estiver procurando por feedback, [participe da comunidade](https://obsidian.md/community).
 
-- `#appearance`, and `#theme-dev` channels on Discord.
-- [Developers & API](https://forum.obsidian.md/c/developers-api/14) and [Share & showcase](https://forum.obsidian.md/c/share-showcase/9) on the forum.
+- Canais `#appearance` e `#theme-dev` no Discord.
+- [Desenvolvedores e API](https://forum.obsidian.md/c/developers-api/14) e [Compartilhar e mostrar](https://forum.obsidian.md/c/share-showcase/9) no fórum.

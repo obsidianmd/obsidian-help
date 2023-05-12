@@ -1,26 +1,26 @@
-When you want to add custom styles to your vault, there are two main ways to do this:
+Quando você deseja adicionar estilos personalizados ao seu cofre, há duas maneiras principais de fazer isso:
 
-## Vault styles
+## Estilos de cofre
 
-### Themes
+### Temas
 
-Themes allow you to toggle the appearance of your vault with a dropdown menu once they've been added to your vault's theme folder.
+Os temas permitem que você alterne a aparência do seu cofre com um menu suspenso depois de adicionados à pasta de temas do seu cofre.
 
-This configuration can be found in `Settings` => `Appearance` => `Themes` section of your vault settings.
+Esta configuração pode ser encontrada na seção `Settings` => `Appearance` => `Themes` das configurações do seu cofre.
 
-### Create a custom theme
+### Crie um tema personalizado
 
-If you are creating your own theme, you can do this by:
+Se você estiver criando seu próprio tema, poderá fazer isso:
 
-1. Creating your custom theme CSS file in the themes folder `YOUR_VAULT/.obsidian/themes/YOUR_CUSTOM_THEME.css`
-2. Enabling it in the theme dropdown under `Settings` => `Appearance` => `Themes`
+1. Criando seu arquivo CSS de tema personalizado na pasta de temas `YOUR_VAULT/.obsidian/themes/YOUR_CUSTOM_THEME.css`
+2. Ative-o no menu suspenso de temas em `Configurações` => `Aparência` => `Temas`
 
-For more information on how to customize styles of the graph, you can find more information in [[Graph view]].
+Para obter mais informações sobre como personalizar os estilos do gráfico, você pode encontrar mais informações em [[Graph view]].
 
-### Use themes and/or CSS snippets
+### Use temas e/ou trechos de CSS
 
-You can find this configuration in `Settings` => `Appearance`. You can choose a community theme or set the theme you developed yourself. If you set a community theme, it will be automatically placed in the correct folder. If you develop your own theme, you have to put it in the shown folder location yourself.
+Você pode encontrar esta configuração em `Settings` => `Appearance`. Você pode escolher um tema da comunidade ou definir o tema que você mesmo desenvolveu. Se você definir um tema de comunidade, ele será colocado automaticamente na pasta correta. Se você desenvolver seu próprio tema, deverá colocá-lo no local da pasta mostrada.
 
-CSS snippets are intended for small visual changes you want to make to the default theme, or community theme. These snippets have to be placed in the `/.obsidian/snippets` folder.
+Os trechos de CSS destinam-se a pequenas alterações visuais que você deseja fazer no tema padrão ou no tema da comunidade. Esses snippets devem ser colocados na pasta `/.obsidian/snippets`.
 
-You can open the theme or snippet folder by clicking on the folder buttons in the Appearance settings. If the folder isn't created yet, it will be. In case your snippets or theme don't show up after you've put them there, you can click the button next to the folder icon to refresh the list.
+Você pode abrir a pasta do tema ou do trecho clicando nos botões da pasta nas configurações de Aparência. Se a pasta ainda não foi criada, ela será. Caso seus snippets ou tema não apareçam depois de colocá-los lá, você pode clicar no botão ao lado do ícone da pasta para atualizar a lista.

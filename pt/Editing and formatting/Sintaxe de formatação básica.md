@@ -1,147 +1,147 @@
 ---
-alias: How to/Format your notes
+alias: Como/formatar suas notas
 ---
 
-Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Sintaxe de formatação avançada]].
+Aprenda como aplicar a formatação básica às suas notas, usando [Markdown](https://daringfireball.net/projects/markdown/). Para sintaxe de formatação mais avançada, consulte [[Sintaxe de formatação avançada]].
 
-## Headings
+## Títulos
 
-To create a heading, add up to six `#` symbols before your heading text. The number of `#` symbols determines the size of the heading.
+Para criar um título, adicione até seis símbolos `#` antes do texto do título. O número de símbolos `#` determina o tamanho do título.
 
 ```md
-# This is a heading 1
-## This is a heading 2
-### This is a heading 3
-#### This is a heading 4
-##### This is a heading 5
-###### This is a heading 6
+# Este é um cabeçalho 1
+## Este é um título 2
+### Este é um título 3
+#### Este é um título 4
+##### Este é um título 5
+###### Este é um título 6
 ```
 
-%% These headings use HTML to avoid cluttering the Outline/Table of contents %%
-<h1>This is a heading 1</h1>
-<h2>This is a heading 2</h2>
-<h3>This is a heading 3</h3>
-<h4>This is a heading 4</h4>
-<h5>This is a heading 5</h5>
-<h6>This is a heading 6</h6>
+%% Estes cabeçalhos usam HTML para evitar confusão no Esboço/Índice %%
+<h1>Este é um título 1</h1>
+<h2>Este é um título 2</h2>
+<h3>Este é um título 3</h3>
+<h4>Este é um título 4</h4>
+<h5>Este é um título 5</h5>
+<h6>Este é um título 6</h6>
 
-## Styling text
+## Texto de estilo
 
-| Style | Syntax | Example | Output |
+| Estilo | Sintaxe | Exemplo | Saída |
 |-|-|-|-|
-| Bold | `** **` or `__ __` | `**Bold text**` | **Bold text** |
-| Italic | `* *` or `_ _`  | `*Italic text*` | *Italic text* |
-| Strikethrough | `~~ ~~` |  `~~Striked out text~~` | ~~Striked out text~~ |
-| Highlight | `== ==` |  `==Highlighted text==` | ==Highlighted text== |
-| Bold and nested italic | `** **` and `_ _`  | `**Bold text and _nested italic_ text**` | **Bold text and _nested italic_ text** |
-| Bold and italic | `*** ***` or `___ ___` |  `***Bold and italic text***` | ***Bold and italic text*** |
+| Negrito | `** **` ou `__ __` | `**Texto em negrito**` | **Texto em negrito** |
+| Itálico | `* *` ou `_ _` | `*Texto em itálico*` | *Texto em itálico* |
+| Tachado | `~~ ~~` | `~~Texto riscado~~` | ~~Texto riscado~~ |
+| Destaque | `== ==` | `==Texto realçado==` | ==Texto destacado== |
+| Negrito e itálico aninhado | `** **` e `_ _` | `**Texto em negrito e _texto em itálico_ aninhado_**` | **Texto em negrito e _texto em itálico aninhado_** |
+| Negrito e itálico | `*** ***` ou `___ ___` | `***Texto em negrito e itálico***` | ***Texto em negrito e itálico*** |
 
-## Quotes
+## Citações
 
-You can quote text by adding a `>` symbols before the text.
+Você pode citar o texto adicionando símbolos `>` antes do texto.
 
 ```md
-> Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
+> Os seres humanos enfrentam problemas cada vez mais complexos e urgentes, e sua eficácia em lidar com esses problemas é uma questão crítica para a estabilidade e progresso contínuo da sociedade.
 
 \- Doug Engelbart, 1961
 ```
 
-> Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
+> Os seres humanos enfrentam problemas cada vez mais complexos e urgentes, e sua eficácia em lidar com esses problemas é uma questão crítica para a estabilidade e progresso contínuo da sociedade.
 
 \- Doug Engelbart, 1961
 
-> [!tip]
-> You can turn your quote into a [[Textos explicativos|callout]] by adding `[!info]` as the first line in a quote.
+> [!dica]
+> Você pode transformar sua citação em um [[Textos explicativos|chamada]] adicionando `[!info]` como a primeira linha de uma citação.
 
-## Code
+## Código
 
-You can format code both inline within a sentence, or in its own block.
+Você pode formatar o código em linha dentro de uma frase ou em seu próprio bloco.
 
-### Inline code
+### Código embutido
 
-You can format code within a sentence using single backticks.
+Você pode formatar o código dentro de uma frase usando acentos graves simples.
 
 ```md
-Text inside `backticks` on a line will be formatted like code.
+O texto dentro de `backticks` em uma linha será formatado como código.
 ```
 
-Text inside `backticks` on a line will be formatted like code.
+O texto dentro de `backticks` em uma linha será formatado como código.
 
-### Code blocks
+### Blocos de código
 
-To format a block of code, surround the code with triple backticks.
+Para formatar um bloco de código, coloque o código entre crases triplos.
 
 ~~~
 ```
-cd ~/Desktop
+cd ~/área de trabalho
 ```
 ~~~
 
 ```md
-cd ~/Desktop
+cd ~/área de trabalho
 ```
 
-You can add syntax highlighting to a code block, by adding a language code after the first set of backticks.
+Você pode adicionar realce de sintaxe a um bloco de código, adicionando um código de idioma após o primeiro conjunto de acentos graves.
 
 ~~~md
 ```js
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
+função fantasiaAlert(arg) {
+   if(arg) {
+     $.facebox({div:'#foo'})
+   }
 }
 ```
 ~~~
 
 ```js
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
+função fantasiaAlert(arg) {
+   if(arg) {
+     $.facebox({div:'#foo'})
+   }
 }
 ```
 
-Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
+Obsidian usa Prism para destaque de sintaxe. Para obter mais informações, consulte [Idiomas suportados](https://prismjs.com/#supported-languages).
 
-> [!note]
-> [[Atualização de visualização ao vivo|Live Preview mode]] doesn't support PrismJS and may render syntax highlighting differently.
+> [!nota]
+> [[Atualização de visualização ao vivo|Modo Live Preview]] não suporta PrismJS e pode renderizar realce de sintaxe de forma diferente.
 
-## External links
+## Links externos
 
-If you want to link to an external URL, you can create an inline link by surrounding the link text in brackets (`[ ]`), and then the URL in parentheses (`( )`).
-
-```md
-[Obsidian Help](https://help.obsidian.md)
-```
-
-[Obsidian Help](https://help.obsidian.md)
-
-> [!tip]
-> If you want to link to a file inside your vault, consider using an [[Links internos|internal link]] instead.
-
-You can also create external links to files in other vaults, by linking to an [[Usando Obsidian URI|Obsidian URI]].
+Se você deseja vincular a um URL externo, pode criar um link embutido colocando o texto do link entre colchetes (`[ ]`) e, em seguida, o URL entre parênteses (`( )`).
 
 ```md
-[Note](obsidian://open?vault=MainVault&file=Note.md)
+[Ajuda Obsidian](https://help.obsidian.md)
 ```
 
-### Escape blank spaces in links
+[Ajuda Obsidian](https://help.obsidian.md)
 
-If your URL contains blank spaces, you need to escape them by replacing them with `%20`.
+> [!dica]
+> Se você quiser criar um link para um arquivo dentro do seu cofre, considere usar um [[Links internos|link interno]].
+
+Você também pode criar links externos para arquivos em outros cofres, vinculando a um [[Usando Obsidian URI|Obsidian URI]].
 
 ```md
-[My Note](obsidian://open?vault=MainVault&file=My%20Note.md)
+[Nota](obsidian://open?vault=MainVault&file=Note.md)
 ```
 
-You can also escape the URL by wrapping it with angled brackets (`< >`).
+### Fuja de espaços em branco nos links
+
+Se sua URL contiver espaços em branco, você precisará escapá-los substituindo-os por `%20`.
 
 ```md
-[My Note](<obsidian://open?vault=MainVault&file=My Note.md>)
+[Minha Nota](obsidian://open?vault=MainVault&file=My%20Note.md)
 ```
 
-## External images
+Você também pode escapar da URL envolvendo-a com colchetes angulares (`< >`).
 
-You can add images with external URLs, by adding a `!` symbol before an [[#External links|external link]].
+```md
+[Minha nota](<obsidian://open?vault=MainVault&file=Minha nota.md>)
+```
+
+## Imagens externas
+
+Você pode adicionar imagens com URLs externas, adicionando um símbolo `!` antes de um [[#Links externos|link externo]].
 
 ```md
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
@@ -149,143 +149,27 @@ You can add images with external URLs, by adding a `!` symbol before an [[#Exter
 
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
-You can change the image dimensions, by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
+Você pode alterar as dimensões da imagem adicionando `|640x480` ao destino do link, onde 640 é a largura e 480 é a altura.
 
 ```md
 ![Engelbart|100x145](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-If you only specify the width, the image scales according to its original aspect ratio. For example, `![[Engelbart.jpg|100]]`.
+Se você especificar apenas a largura, a imagem será dimensionada de acordo com sua proporção original. Por exemplo, `![[Engelbart.jpg|100]]`.
 
-> [!tip]
-> If you want to add an image from inside your vault, you can also [[Incorporando arquivos#Embed an image in a note|embed an image in a note]].
+> [!dica]
+> Se quiser adicionar uma imagem de dentro do seu cofre, você também pode [[Incorporando arquivos#Embed an image in a note|incorporar uma imagem em uma nota]].
 
-## Lists
+## Listas
 
-You can create an unordered list by adding a `-`, `*`, or `+` before the text.
-
-```md
-- First list item
-- Second list item
-- Third list item
-```
-
-- First list item
-- Second list item
-- Third list item
-
-To create an ordered list, start each line with a number followed by a `.` symbol.
+Você pode criar uma lista não ordenada adicionando `-`, `*` ou `+` antes do texto.
 
 ```md
-1. First list item
-2. Second list item
-3. Third list item
+- Primeiro item da lista
+- Segundo item da lista
+- Terceiro item da lista
 ```
 
-1. First list item
-2. Second list item
-3. Third list item
-
-You can create a nested list by indenting one of more list items.
-
-```md
-1. First list item
-   1. Ordered nested list item
-2. Second list item
-   - Unordered nested list item
-```
-
-1. First list item
-   1. Ordered nested list item
-2. Second list item
-   - Unordered nested list item
-
-You can press `Tab` or `Shift+Tab` to indent or unindent one of more selected list items.
-
-### Task lists
-
-To create a task list, start each list item with a hyphen and space followed by `[ ]`.
-
-```md
-- [x] This is a completed task.
-- [ ] This is an incomplete task.
-```
-
-- [x] This is a completed task.
-- [ ] This is an incomplete task.
-
-You can toggle a task in Reading view by selecting the checkbox.
-
-> [!tip]
-> You can use any character inside the brackets to mark it as complete.
->
-> ```md
-> - [x] Milk
-> - [?] Eggs
-> - [-] Eggs
-> ```
->
-> - [x] Milk
-> - [?] Eggs
-> - [-] Eggs
-
-## Horizontal bar
-
-You can use three or more stars `***`, hypens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.
-
-```md
-***
-****
-* * *
----
-----
-- - -
-___
-____
-_ _ _
-```
-
-***
-
----
-
-## Footnotes
-
-You can add footnotes[^footnote] to your notes using the following syntax:
-
-[^footnote]: This is a footnote.
-
-```md
-This is a simple footnote[^1].
-
-[^1]: This is the referenced text.
-[^2]: Add 2 spaces at the start of each new line.
-  This lets you write footnotes that span multiple lines.
-[^note]: Named footnotes still appears as numbers, but can make it easier to identify and link references.
-```
-
-You can also inline footnotes in a sentence. Note that the caret goes outside the brackets.
-
-```md
-You can also use inline footnotes. ^[This is an inline footnote.]
-```
-
-## Comments
-
-You can add comments by wrapping text with `%%`. Comments are only visible in Editing view.
-
-```md
-This is an %%inline%% comment.
-
-%%
-This is a block comment.
-
-Block comments can span multiple lines.
-%%
-```
-
-## Learn more
-
-To learn more advanced formatting syntax, such as tables, diagrams, and math expressions, refer to [[Sintaxe de formatação avançada]].
-
-To learn more about how Obsidian parses Markdown, refer to [[Obsidian Flavored Markdown]].
+- Primeiro item da lista
+- Segundo item da lista
+- Terceiro listá-lo

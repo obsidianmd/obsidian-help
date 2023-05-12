@@ -1,62 +1,62 @@
 ---
 aliases:
-- Licenses & Payment/Catalyst license
+- Licenças e pagamento/licença de catalisador
 ---
 
-While Obsidian is free of charge for personal use, you can support the Obsidian development by purchasing a _Catalyst_ license.
+Embora o Obsidian seja gratuito para uso pessoal, você pode oferecer suporte ao desenvolvimento do Obsidian adquirindo uma licença _Catalyst_.
 
-While the Catalyst license doesn't grant you any additional features inside the app itself, you'll receive exclusive benefits, such as:
+Embora a licença do Catalyst não conceda nenhum recurso adicional dentro do próprio aplicativo, você receberá benefícios exclusivos, como:
 
-- Early access to [[#Enable Insider builds|Insider builds]].
-- Access to exclusive [[#Join our Insider channels|Insider channels]].
-- Cool and unique [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
+- Acesso antecipado a [[#Enable Insider builds|Insider builds]].
+- Acesso a [[#Join our Insider channels|Insider channels]] exclusivos.
+- Legal e exclusivo [[#Get your forum badge|forum badges]] e [[#Get your Discord badge|Discord badges]].
 
-> [!Note] Commercial use
-> If you use Obsidian for work, you may need to obtain a [[Licença comercial]].
+> [!Nota] Uso comercial
+> Se você usa Obsidian para trabalho, pode ser necessário obter uma [[Licença comercial]].
 
-## Catalyst tiers
+## Níveis de catalisador
 
-The Catalyst license consists of three tiers: *Insider*, *Supporter*, and *VIP*.
+A licença do Catalyst consiste em três níveis: *Insider*, *Supporter* e *VIP*.
 
-| Benefits                                                                              | Insider | Supporter |   VIP    |
-|---------------------------------------------------------------------------------------|:-------:|:---------:|:--------:|
-| Early access to Insider builds                                                        |    ✓    |     ✓     |    ✓     |
-| Access to exclusive development channels, `#insider-desktop` and `#insider-mobile` |    ✓    |     ✓     |    ✓     |
-| Access to exclusive lounge channel, `#vip-lounge`                                 |         |     ✓     |    ✓     |
-| Insider community badge                                                               |    ✓    |           |          |
-| Supporter community badge                                                             |         |     ✓     |          |
-| VIP community badge                                                                   |         |           |    ✓     |
-| **Pricing**                                                                           | **$25** |  **$50**  | **$100** |
+| Benefícios | Informante | Apoiador | VIP |
+|------------------------------------------------- --------------------------------------|:-------:|: ----------:|:--------:|
+| Acesso antecipado às compilações do Insider | ✓ | ✓ | ✓ |
+| Acesso a canais de desenvolvimento exclusivos, `#insider-desktop` e `#insider-mobile` | ✓ | ✓ | ✓ |
+| Acesso ao canal lounge exclusivo, `#vip-lounge` | | ✓ | ✓ |
+| Emblema da comunidade Insider | ✓ | | |
+| Distintivo da comunidade de torcedor | | ✓ | |
+| Emblema da comunidade VIP | | | ✓ |
+| **Preços** | **$25** | **$50** | **$100** |
 
-_Prices are in USD._
+_Os preços estão em USD._
 
-> [!info] Upgrading tiers
-> When you already own a Catalyst license, you can upgrade to a higher Catalyst tier by paying the price difference between your current and the new tier.
+> [!info] Atualizando camadas
+> Quando você já possui uma licença do Catalyst, pode atualizar para um nível mais alto do Catalyst pagando a diferença de preço entre o nível atual e o novo.
 
-## Access Catalyst benefits
+## Benefícios do Access Catalyst
 
-Once you've purchased a Catalyst license, you can access a range of benefits. Learn how to enable them here.
+Depois de adquirir uma licença do Catalyst, você pode acessar uma série de benefícios. Saiba como ativá-los aqui.
 
-### Get your forum badge
+### Obtenha seu emblema do fórum
 
-**Note:** To connect your Obsidian account and your forum account, you need to use the same email address for both accounts.
+**Observação:** Para conectar sua conta Obsidian e sua conta do fórum, você precisa usar o mesmo endereço de e-mail para ambas as contas.
 
-1. If you haven't already, join our [forum](https://forum.obsidian.md/).
-2. Browse to your [Obsidian account page](https://obsidian.md/account).
-3. Under **Your license → Obsidian Catalyst**, click **Get forum badge**.
+1. Se ainda não o fez, participe do nosso [fórum](https://forum.obsidian.md/).
+2. Navegue até a [página da sua conta Obsidian](https://obsidian.md/account).
+3. Em **Your license → Obsidian Catalyst**, clique em **Get forum badge**.
 
-### Get your Discord badge
+### Obtenha seu distintivo do Discord
 
-1. If you haven't already, join our [Discord server](https://discord.gg/veuWUTm).
-2. Browse to your [Obsidian account page](https://obsidian.md/account).
-3. Under **Your license → Obsidian Catalyst**, click **Get Discord badge**.
+1. Se ainda não o fez, junte-se ao nosso [servidor Discord](https://discord.gg/veuWUTm).
+2. Navegue até a [página da sua conta Obsidian](https://obsidian.md/account).
+3. Em **Your license → Obsidian Catalyst**, clique em **Get Discord badge**.
 
-### Join our Insider channels
+### Junte-se aos nossos canais Insider
 
-Insiders can chat with the Obsidian team and other Insiders in our exclusive Discord channels.
+Os Insiders podem conversar com a equipe Obsidian e outros Insiders em nossos canais exclusivos do Discord.
 
-You automatically join the Insider channels after you [[#Get your Discord badge]].
+Você ingressa automaticamente nos canais do Insider depois de [[#Get your Discord badge]].
 
-### Enable Insider builds
+### Habilitar compilações do Insider
 
-Please see [[Compilações internas]].
+Consulte [[Compilações internas]].

@@ -1,71 +1,71 @@
 ---
-aliases: 
-- How to/Working with tags
+aliases:
+- Como/Trabalhar com tags
 ---
 
-Tags are keywords or topics that help you quickly find the notes you want.
+Tags são palavras-chave ou tópicos que ajudam você a encontrar rapidamente as notas que deseja.
 
-## Add a tag to a note
+## Adicione uma etiqueta a uma nota
 
-To create a tag, enter a hashtag symbol (#) in the editor, followed by a keyword. For example, `#meeting`.
+Para criar uma tag, insira um símbolo de hashtag (#) no editor, seguido de uma palavra-chave. Por exemplo, `#reunião`.
 
-You can also add the tag to the [[metadata]]:
+Você também pode adicionar a tag ao [[metadata]]:
 
 ```yaml
 ---
-tag: meeting
+etiqueta: reunião
 ---
 ```
 
-Or, add several tags:
+Ou adicione várias tags:
 
 ```yaml
 ---
-tags:
-  - recipe
-  - cooking
+Tag:
+   - receita
+   - culinária
 ---
 ```
 
-You can also add multiple tags on a single line by separating them using commas:
+Você também pode adicionar várias tags em uma única linha, separando-as com vírgulas:
 
 ```yaml
 ---
-tags: recipe, cooking
+tags: receita, cozinhar
 ---
 ```
 
-## Find notes using tags
+## Encontre notas usando tags
 
-To find notes using the [[Search]] plugin, use the `tag` [[Search#Search operators|search operator]] in your search term, for example `tag:#meeting`.
+Para encontrar notas usando o plug-in [[Search]], use a tag `[[Search#Search operator|search operator]] em seu termo de pesquisa, por exemplo `tag:#meeting`.
 
-You can also search for tags by clicking on them in your notes.
+Você também pode pesquisar tags clicando nelas em suas anotações.
 
-To find notes using the [[Plugins/Tags|Tags]] plugin, select **Tags: Show tags** in the [[Command palette]], and then select the tag you want to search for.
+Para encontrar notas usando o plug-in [[Plugins/Tags|Tags]], selecione **Tags: Show tags** na [[Paleta de comandos]] e selecione a tag que deseja pesquisar.
 
-## Nested tags
+## Tags aninhadas
 
-Nested tags define tag hierarchies that make it easier to find and filter related tags.
+Tags aninhadas definem hierarquias de tags que facilitam a localização e filtragem de tags relacionadas.
 
-Create nested tags by using forward slashes (`/`) in the tag name, for example  `#inbox/to-read` and `#inbox/processing`.
+Crie tags aninhadas usando barras (`/`) no nome da tag, por exemplo `#inbox/to-read` e `#inbox/processing`.
 
-Both the [[Search]] and [[Plugins/Tags|Tags]] plugins support nested tags.
+Ambos os plugins [[Search]] e [[Plugins/Tags|Tags]] suportam tags aninhadas.
 
-## Tag format
+## Formato da etiqueta
 
-You can use any of the following characters in your tags:
+Você pode usar qualquer um dos seguintes caracteres em suas tags:
 
-- Alphabetical letters
-- Numbers
-- Underscore (`_`)
-- Hyphen (`-`)
-- Forward slash (`/`) for [[#Nested tags]]
+- Letras alfabéticas
+- Números
+- Sublinhado (`_`)
+- Hífen (`-`)
+- Barra (`/`) para [[#Tags aninhadas]]
 
-Tags must contain at least one non-numerical character. For example, #1984 isn't a valid tag, but #y1984 is.
+As tags devem conter pelo menos um caractere não numérico. Por exemplo, #1984 não é uma tag válida, mas #y1984 é.
 
-Tags can't contain blank spaces. To separate two or more words, you can instead use the following formats:
+As tags não podem conter espaços em branco. Para separar duas ou mais palavras, você pode usar os seguintes formatos:
 
-- #camelCase
-- #PascalCase
+- #CamelCase
+- #PascalCase See More
 - #snake_case
 - #kebab-case

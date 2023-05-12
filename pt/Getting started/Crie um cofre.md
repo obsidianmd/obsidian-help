@@ -1,24 +1,24 @@
-A vault is a folder on your local file system where Obsidian stores your notes. You can keep all your notes in one vault, or create several vaults for each of your different projects.
+Um cofre é uma pasta em seu sistema de arquivos local onde o Obsidian armazena suas anotações. Você pode manter todas as suas anotações em um cofre ou criar vários cofres para cada um de seus diferentes projetos.
 
-The first time you open Obsidian, you'll be asked to add a new vault from the [[Alternador de cofre]].
+Na primeira vez que abrir o Obsidian, você será solicitado a adicionar um novo cofre do [[Alternador de cofre]].
 
-## Create empty vault
+## Criar cofre vazio
 
-To create a new empty vault from the vault switcher:
+Para criar um novo cofre vazio no alternador de cofre:
 
-1. To the right of **Create new vault**, click **Create**.
-2. In **Vault name**, enter the name of your vault.
-3. Click **Browse** to select where your new vault will be created.
-4. Click **Create**.
+1. À direita de **Create new vault**, clique em **Create**.
+2. Em **Nome do cofre**, digite o nome do seu cofre.
+3. Clique em **Procurar** para selecionar onde seu novo cofre será criado.
+4. Clique em **Criar**.
 
-## Open existing folder
+## Abra a pasta existente
 
-If you already have a folder that you want to use as your vault:
+Se você já tiver uma pasta que deseja usar como seu cofre:
 
-1. To the right of **Open folder as vault**, click **Open**.
-2. In the file browser, select the folder you want to use as your vault.
-3. Click **Open**.
+1. À direita de **Abrir pasta como cofre**, clique em **Abrir**.
+2. No navegador de arquivos, selecione a pasta que deseja usar como seu cofre.
+3. Clique em **Abrir**.
 
-If you want to know more about how vaults work, learn how [[Como a Obsidian armazena dados]].
+Se você quiser saber mais sobre como os cofres funcionam, saiba como [[Como a Obsidian armazena dados]].
 
-Now that you've set up your vault, you're ready to [[Crie sua primeira nota]].
+Agora que você configurou seu cofre, está pronto para [[Crie sua primeira nota]].

@@ -1,125 +1,125 @@
-Syncing means keeping your notes up to date across your devices, such as your laptop and phone.
+Sincronizar significa manter suas anotações atualizadas em todos os seus dispositivos, como laptop e telefone.
 
-The easiest way to sync your notes between your devices is to use [[Introdução ao Obsidian Sync|Obsidian Sync]]. If you already have an Obsidian Sync subscription, see how to [[Configurar Obsidian Sync]].
+A maneira mais fácil de sincronizar suas notas entre seus dispositivos é usar [[Introdução ao Obsidian Sync|Obsidian Sync]]. Se você já possui uma assinatura do Obsidian Sync, veja como [[Configurar o Obsidian Sync]].
 
-Note that using multiple syncing services at the same time (e.g., Obsidian Sync _and_ Dropbox) may cause data loss, corruption, and other issues. [[Obsidian Sync e serviços de terceiros||Find out more about using Obsidian Sync with other services here.]]
+Observe que o uso de vários serviços de sincronização ao mesmo tempo (por exemplo, Obsidian Sync _and_ Dropbox) pode causar perda de dados, corrupção e outros problemas. [[Obsidian Sync e serviços de terceiros||Saiba mais sobre como usar o Obsidian Sync com outros serviços aqui.]]
 
-If you don't want to use Obsidian Sync, this page lists alternative methods for syncing your vaults with multiple devices.
+Se você não quiser usar o Obsidian Sync, esta página lista métodos alternativos para sincronizar seus cofres com vários dispositivos.
 
-## Sync notes across multiple desktops
+## Sincronize notas em vários desktops
 
-If you don't use Obsidian on your mobile devices, you can use any third-party service that syncs a local folder to a cloud storage.
+Se você não usa o Obsidian em seus dispositivos móveis, pode usar qualquer serviço de terceiros que sincronize uma pasta local com um armazenamento em nuvem.
 
-For example, you can use any of the following services:
+Por exemplo, você pode usar qualquer um dos seguintes serviços:
 
 - Dropbox
 - Google Drive
-- iCloud Drive
-- OneDrive
-- Syncthing
+- iCloudDrive
+-OneDrive
+- Sincronizar
 
-To sync your notes, follow the instructions for the service you're using to sync a folder on your local file system. Then open the folder as an existing vault on all your desktop devices.
+Para sincronizar suas notas, siga as instruções do serviço que você está usando para sincronizar uma pasta em seu sistema de arquivos local. Em seguida, abra a pasta como um cofre existente em todos os seus dispositivos de desktop.
 
-## Sync your notes on iPhone and iPad
+## Sincronize suas notas no iPhone e iPad
 
-To sync your notes to your iPhone or iPad, we officially support the following options:
+Para sincronizar suas anotações com seu iPhone ou iPad, oferecemos suporte oficial às seguintes opções:
 
 - [[Introdução ao Obsidian Sync|Obsidian Sync]]
 - [[#iCloud Drive]]
 
-**Note:** The following services aren't supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
+**Observação:** os seguintes serviços não são compatíveis. Se você descobrir uma maneira de sincronizar suas anotações em seu dispositivo iOS usando qualquer um desses serviços, informe-nos em nossos canais da comunidade.
 
 - Dropbox
 - Google Drive
-- OneDrive
-- Syncthing
+-OneDrive
+- Sincronizar
 
 ### iCloud Drive
 
-Obsidian can use iCloud Drive as a local file system.
+O Obsidian pode usar o iCloud Drive como um sistema de arquivos local.
 
-When using iCloud Drive on macOS, be sure to update your desktop app's installer version to v0.13.0 or newer.
+Ao usar o iCloud Drive no macOS, certifique-se de atualizar a versão do instalador do aplicativo de desktop para v0.13.0 ou mais recente.
 
-> [!note]
-> Don't exceed your iCloud storage limit. The syncing might stop.
+> [!nota]
+> Não exceda o limite de armazenamento do iCloud. A sincronização pode parar.
 
-#### Create a new vault in iCloud Drive
+#### Crie um novo cofre no iCloud Drive
 
-To create a new vault in iCloud Drive on your iPhone or iPad:
+Para criar um novo cofre no iCloud Drive em seu iPhone ou iPad:
 
-1. Tap **Create new vault**.
-2. In **Vault name**, enter the name of your vault.
-3. Enable **Store in iCloud**.
-4. Tap **Create**.
+1. Toque em **Criar novo cofre**.
+2. Em **Nome do cofre**, digite o nome do seu cofre.
+3. Ative **Armazenar no iCloud**.
+4. Toque em **Criar**.
 
-Obsidian has created a new folder inside your iCloud Drive. To open the iCloud Drive folder as a vault on your computer:
+Obsidian criou uma nova pasta dentro do seu iCloud Drive. Para abrir a pasta do iCloud Drive como um cofre em seu computador:
 
-1. Open **Obsidian** on your computer.
-2. In the vault switcher, to the right of **Open folder as vault**, click **Open**.
-3. Navigate to **iCloud Drive → Obsidian**.
-4. Select the folder with the name of the vault you want to sync with.
+1. Abra **Obsidian** no seu computador.
+2. No seletor de cofre, à direita de **Abrir pasta como cofre**, clique em **Abrir**.
+3. Navegue até **iCloud Drive → Obsidian**.
+4. Selecione a pasta com o nome do cofre com o qual deseja sincronizar.
 
-#### Sync an existing vault with iCloud Drive
+#### Sincronize um cofre existente com o iCloud Drive
 
-To sync an existing vault using iCloud, you need to create an empty vault in iCloud Drive and then move your notes on your other device to the empty vault.
+Para sincronizar um cofre existente usando o iCloud, você precisa criar um cofre vazio no iCloud Drive e mover suas anotações em outro dispositivo para o cofre vazio.
 
-To create a new empty vault in iCloud Drive:
+Para criar um novo cofre vazio no iCloud Drive:
 
-1. Tap **Create new vault**.
-2. In **Vault name**, enter the same name as the vault you want to sync with.
-3. Enable **Store in iCloud**.
-4. Tap **Create**.
+1. Toque em **Criar novo cofre**.
+2. Em **Nome do cofre**, insira o mesmo nome do cofre com o qual deseja sincronizar.
+3. Ative **Armazenar no iCloud**.
+4. Toque em **Criar**.
 
-To move your notes to the new vault in your iCloud Drive:
+Para mover suas notas para o novo cofre em seu iCloud Drive:
 
-1. On your computer, open the **iCloud Drive** folder.
-2. Open the **Obsidian** folder. It might take a few minutes to appear.
-3. Move the files in your existing vault to the folder with the name of your vault.
+1. Em seu computador, abra a pasta **iCloud Drive**.
+2. Abra a pasta **Obsidian**. Pode demorar alguns minutos para aparecer.
+3. Mova os arquivos do seu cofre existente para a pasta com o nome do seu cofre.
 
-iCloud syncs the files to your mobile device. Depending on the size of your vault, this might take a few minutes.
+O iCloud sincroniza os arquivos com seu dispositivo móvel. Dependendo do tamanho do seu cofre, isso pode levar alguns minutos.
 
-### Working Copy
+### Cópia de trabalho
 
-If you store your notes in a [Git](https://git-scm.com/) repository, you may want to look at [Working Copy](https://apps.apple.com/us/app/working-copy-git-client/id896694807)—a Git client for your iOS.
+Se você armazenar suas anotações em um repositório [Git](https://git-scm.com/), talvez queira consultar [Cópia de trabalho](https://apps.apple.com/us/app/working -copy-git-client/id896694807) — um cliente Git para seu iOS.
 
-To sync using Working Copy:
+Para sincronizar usando a cópia de trabalho:
 
-1. Create an empty vault on your iPhone or iPad.
-2. Use the **Setup Folder Sync** action and select your empty vault.
-3. Commit and push any changes to your vault using the Working Copy app.
+1. Crie um cofre vazio em seu iPhone ou iPad.
+2. Use a ação **Configurar sincronização de pasta** e selecione seu cofre vazio.
+3. Confirme e envie quaisquer alterações para seu cofre usando o aplicativo Working Copy.
 
-**Note:** While we don't officially support this method, several of our users have reported that they've successfully used Working Copy to sync their notes.
+**Observação:** Embora não suportemos oficialmente esse método, vários de nossos usuários relataram que usaram a cópia de trabalho com sucesso para sincronizar suas anotações.
 
-### Why can't I sync using X?
+### Por que não consigo sincronizar usando o X?
 
-We understand that many of you use other services for syncing files and you'd prefer to use it for syncing your notes as well.
+Entendemos que muitos de vocês usam outros serviços para sincronizar arquivos e preferem usá-los para sincronizar suas notas também.
 
-Obsidian works differently from other Markdown editors on iOS. Editors such as 1Writer and iA Writer access one note at a time, which lets them use built-in support for documents.
+O Obsidian funciona de maneira diferente de outros editores Markdown no iOS. Editores como 1Writer e iA Writer acessam uma nota por vez, o que lhes permite usar o suporte integrado para documentos.
 
-In contrast, many features in Obsidian need access to your entire vault. For example if you rename a file, then Obsidian needs to update all files in the vault that links to that file.
+Por outro lado, muitos recursos do Obsidian precisam acessar todo o seu cofre. Por exemplo, se você renomear um arquivo, o Obsidian precisa atualizar todos os arquivos no cofre vinculados a esse arquivo.
 
-Implementing a system to read, modify, and monitor an entire folder structure comprising of possibly thousand of notes outside of the supported locations is challenging. We hope to address this limitation in the future.
+A implementação de um sistema para ler, modificar e monitorar toda uma estrutura de pastas composta por possivelmente milhares de notas fora dos locais suportados é um desafio. Esperamos resolver essa limitação no futuro.
 
-If you're a developer, you can build a plugin that uses the Web APIs for each individual sync service.
+Se você for um desenvolvedor, poderá criar um plug-in que use as APIs da Web para cada serviço de sincronização individual.
 
-### Where are my vaults stored?
+### Onde meus cofres são armazenados?
 
-If you choose not to use iCloud Drive when you create your vault, Obsidian stores it in a local file system for the Obsidian app. Other apps, such as [[#Working Copy]], can access your vault by selecting the vault from the file system.
+Se você optar por não usar o iCloud Drive ao criar seu cofre, o Obsidian o armazenará em um sistema de arquivos local para o aplicativo Obsidian. Outros aplicativos, como [[#Working Copy]], podem acessar seu cofre selecionando-o no sistema de arquivos.
 
-**Caution:** Any notes stored in the local file system are deleted by iOS when you uninstall the app. Make sure to back up your notes before you uninstall the Obsidian app.
+**Cuidado:** todas as notas armazenadas no sistema de arquivos local são excluídas pelo iOS quando você desinstala o aplicativo. Certifique-se de fazer backup de suas anotações antes de desinstalar o aplicativo Obsidian.
 
-## Sync notes on Android
+## Sincronizar notas no Android
 
-The easiest way to sync your notes on your Android device is using [[Introdução ao Obsidian Sync|Obsidian Sync]].
+A maneira mais fácil de sincronizar suas notas em seu dispositivo Android é usando [[Introdução ao Obsidian Sync|Obsidian Sync]].
 
-Since Obsidian stores notes in a local folder on your Android device, you can also use any app that let you sync a folder, such as:
+Como o Obsidian armazena anotações em uma pasta local no seu dispositivo Android, você também pode usar qualquer aplicativo que permita sincronizar uma pasta, como:
 
 - [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync)
 - [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)
 
-**Note:** Obsidian creates an Obsidian folder in the shared Documents folder. Any folder under `Documents/Obsidian` is considered an Obsidian vault.
+**Observação:** Obsidian cria uma pasta Obsidian na pasta Documentos compartilhada. Qualquer pasta em `Documents/Obsidian` é considerada um cofre Obsidian.
 
-> [!important] Dealing with on-demand cloud storage
-> Some cloud storage services, such as OneDrive, allow you to only download files when you use them and later remove them locally to free up space. Since the files are no longer available locally, Obsidian Sync believes they've been deleted and removes them from your remote vault.
+> [!importante] Lidando com armazenamento em nuvem sob demanda
+> Alguns serviços de armazenamento em nuvem, como o OneDrive, permitem que você baixe arquivos apenas quando os usar e depois os remova localmente para liberar espaço. Como os arquivos não estão mais disponíveis localmente, o Obsidian Sync acredita que eles foram excluídos e os remove do seu cofre remoto.
 >
-> To use Obsidian Sync together with Files On-Demand and similar features, make sure to configure the service to always keep the files on the device.
+> Para usar o Obsidian Sync junto com arquivos sob demanda e recursos semelhantes, certifique-se de configurar o serviço para sempre manter os arquivos no dispositivo.

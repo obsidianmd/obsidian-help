@@ -1,12 +1,12 @@
-Obsidian recognizes the following file formats:
+Obsidian reconhece os seguintes formatos de arquivo:
 
-1. Markdown files: `md`
-2. Image files: `png`, `webp`, `jpg`, `jpeg`, `gif`, `bmp`, `svg`
-3. Audio files: `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`
-4. Video files: `mp4`, `webm`, `ogv`, `mov`, `mkv`
-5. PDF files: `pdf`
+1. Arquivos Markdown: `md`
+2. Arquivos de imagem: `png`, `webp`, `jpg`, `jpeg`, `gif`, `bmp`, `svg`
+3. Arquivos de áudio: `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`
+4. Arquivos de vídeo: `mp4`, `webm`, `ogv`, `mov`, `mkv`
+5. Arquivos PDF: `pdf`
 
-Learn how to [[Incorporando arquivos|embed files]] in your notes.
+Aprenda como [[Incorporando arquivos|embedar arquivos]] em suas notas.
 
-> [!note]
-> Support for audio and video formats depends on the codecs available on your device.
+> [!nota]
+> O suporte para formatos de áudio e vídeo depende dos codecs disponíveis em seu dispositivo.

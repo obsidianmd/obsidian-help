@@ -1,78 +1,78 @@
-## The rules
+## As regras
 
-These are the behaviors we don’t tolerate.
+Esses são os comportamentos que não toleramos.
 
-### Serious offenses
+### Ofensas graves
 
-Users who commit these offences will be immediately banned from the official Obsidian community channels.
+Os usuários que cometerem essas ofensas serão imediatamente banidos dos canais oficiais da comunidade Obsidian.
 
-- **Harassment**: including offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, or religion, as well as sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, inappropriate physical contact, and unwelcome sexual or romantic attention.
-- **Threats**: threatening someone physically or verbally. For example, threatening to publicize sensitive information about someone’s personal life.
+- **Assédio**: incluindo comentários verbais ofensivos relacionados a gênero, orientação sexual, deficiência, aparência física, tamanho do corpo, raça ou religião, bem como imagens sexuais em espaços públicos, intimidação deliberada, perseguição, perseguição, assédio fotográfico ou gravação, contato físico inapropriado e atenção sexual ou romântica indesejada.
+- **Ameaças**: ameaçar alguém física ou verbalmente. Por exemplo, ameaçar divulgar informações confidenciais sobre a vida pessoal de alguém.
 
-### Other offenses
+### Outras ofensas
 
-Users who commit these offences will be sent a warning. Repeated offences will result in the user being banned from the official Obsidian community channels.
+Os usuários que cometerem essas ofensas receberão um aviso. Ofensas repetidas resultarão no banimento do usuário dos canais oficiais da comunidade Obsidian.
 
-- **Blatant -isms**: saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation aren't code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
-- **Belligerence**: deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
-- **Being especially unpleasant**: for example, if we’ve received reports from multiple members of annoying or rude behavior. ^432ea1
-- **Asking for the attention of members of the Obsidian team or our moderators**: this includes unsolicited tagging, "pinging", or direct messaging Obsidian team staff and moderators for questions, bug reports, and feature requests. As much as we want to help everyone, we have a sizeable community, and the team's attention must be reserved for critical matters. You can ping or direct message members of the team for things like security-related issues or to report violations of the community code of conduct. Otherwise, please post about the issue in an appropriate channel on the forum or the Discord server.
+- **Blatant -isms**: dizer coisas que são explicitamente racistas, sexistas, homofóbicas, etc. Por exemplo, argumentar que algumas pessoas são menos inteligentes por causa de seu gênero, raça ou religião. Pequenos erros cometidos na conversa não são violações do código de conduta. No entanto, repetir algo depois de ter sido apontado para você, ou antagonizar ou discutir com alguém que apontou seu sutil -ismo é considerado uma ofensa menor.
+- **Beligerância**: tentar deliberadamente fazer os outros se sentirem mal, xingar, destacar os outros para escárnio ou exclusão. Por exemplo, dizer a alguém que ele não é um programador de verdade ou que não pertence a ele.
+- **Ser especialmente desagradável**: por exemplo, se recebemos denúncias de vários membros sobre comportamento irritante ou rude. ^432ea1
+- **Pedir a atenção dos membros da equipe Obsidian ou de nossos moderadores**: isso inclui marcação não solicitada, "ping" ou mensagens diretas à equipe e moderadores da equipe Obsidian para perguntas, relatórios de bugs e solicitações de recursos. Por mais que queiramos ajudar a todos, temos uma comunidade considerável, e a atenção da equipe deve ser reservada para assuntos críticos. Você pode fazer ping ou enviar mensagens diretas aos membros da equipe para questões como questões relacionadas à segurança ou para relatar violações do código de conduta da comunidade. Caso contrário, poste sobre o problema em um canal apropriado no fórum ou no servidor Discord.
 
-### Other behaviors
+### Outros comportamentos
 
-While the following behaviors don’t result in a ban or warning, we strongly discourage you from engaging in them. They will greatly increase the risk of [[#^432ea1|being especially unpleasant]].
+Embora os comportamentos a seguir não resultem em banimento ou advertência, desencorajamos você a se envolver neles. Eles aumentarão muito o risco de [[#^432ea1|serem especialmente desagradáveis]].
 
-- **Sea-lioning**: continuously pursuing an agenda by questioning and provoking other members. Individual provocations and questions are often perfectly acceptable, but in the case of sea-lioning, they accumulate to unhealthy levels, creating a hostile and negative conversation.
-- **"Feed me"**: asking others to solve problems for you without putting in any effort yourself. This is particularly egregious when the problem-solving is non-trivial and yet the user begs for someone else to do the work for them.
-- **Campaigning**: continuously making the same requests. This applies to both feature requests and to requests for help. Don’t post the same question in multiple places in short time frames, and don’t ask developers for the same features or bug fixes repeatedly.
-- **Parasitism**: self-promoting of yours or others' initiatives without contributing to the community otherwise. We encourage self-promotion (it's awesome to see what Obsidian users are up to) but won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
+- **Sea-lioning**: seguindo continuamente uma agenda questionando e provocando outros membros. As provocações e perguntas individuais costumam ser perfeitamente aceitáveis, mas, no caso dos leões-marinhos, elas se acumulam a níveis insalubres, criando uma conversa hostil e negativa.
+- **"Feed me"**: pedir aos outros que resolvam problemas para você sem se esforçar. Isso é particularmente flagrante quando a solução de problemas não é trivial e, ainda assim, o usuário implora para que outra pessoa faça o trabalho por ele.
+- **Campanha**: fazer continuamente as mesmas solicitações. Isso se aplica a solicitações de recursos e solicitações de ajuda. Não poste a mesma pergunta em vários lugares em curtos períodos de tempo e não peça aos desenvolvedores os mesmos recursos ou correções de bugs repetidamente.
+- **Parasitismo**: autopromoção de iniciativas suas ou de outros sem contribuir de outra forma para a comunidade. Incentivamos a autopromoção (é incrível ver o que os usuários do Obsidian estão fazendo), mas não toleramos usuários cujo único objetivo na comunidade seja postar links ou solicitações para iniciativas fora da comunidade.
 
-## Encouraged behaviors
+## Comportamentos encorajados
 
-Over the years of running the official Obsidian community channels, we’ve noticed some behaviors that positively contribute to the community.
+Ao longo dos anos administrando os canais oficiais da comunidade Obsidian, notamos alguns comportamentos que contribuem positivamente para a comunidade.
 
-If you’re looking to improve your communication skills as well as becoming a better community citizen, consider doing the following:
+Se você deseja melhorar suas habilidades de comunicação e se tornar um cidadão comunitário melhor, considere fazer o seguinte:
 
-- **Try before asking**: before asking for help, please first try searching the help docs and Discord/forum history to see if the question has already been asked. Help others help you, by sharing what you've already tried.
-- **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Don’t judge others for their choices.
-- **Step away when heated**: the community is a place for us to grow together, not a debate competition. If a discussion escalates into an argument, try your best to step away and leave the conversation.
+- **Tente antes de perguntar**: antes de pedir ajuda, primeiro tente pesquisar os documentos de ajuda e o histórico do Discord/fórum para ver se a pergunta já foi feita. Ajude os outros a ajudá-lo, compartilhando o que você já tentou.
+- **Mantenha a mente aberta**: devido à personalização do Obsidian, algumas pessoas podem ter uma configuração ou fluxo de trabalho completamente diferente do seu. Não julgue os outros por suas escolhas.
+- **Afaste-se quando aquecido**: a comunidade é um lugar para crescermos juntos, não uma competição de debates. Se uma discussão se transformar em uma discussão, faça o possível para se afastar e sair da conversa.
 
-## Motivation
+## Motivação
 
-We at Obsidian want to create the best community for knowledge management. We want everyone to be able to seek help, help others, and share their experience, without fear or embarrassment.
+Nós da Obsidian queremos criar a melhor comunidade para gestão do conhecimento. Queremos que todos possam buscar ajuda, ajudar os outros e compartilhar suas experiências, sem medo ou constrangimento.
 
-In order to get there, all of our members are expected to be nice to each other in all interactions, whether it's on our Discord server or on our forum.
+Para chegar lá, espera-se que todos os nossos membros sejam gentis uns com os outros em todas as interações, seja em nosso servidor Discord ou em nosso fórum.
 
-"Be nice" is a vague instruction, though. To make sure we're on the same page what's nice and what's not, we've adopted the code of conduct above.
+"Seja legal" é uma instrução vaga, no entanto. Para garantir que estamos na mesma página sobre o que é bom e o que não é, adotamos o código de conduta acima.
 
-As the community grows, we can't rely on all members to be nice, although the vast majority of our members show exceptional respect towards each other. Adopting a more formal code of conduct — and enforcing it — helps maintain a vital and healthy community.
+À medida que a comunidade cresce, não podemos confiar que todos os membros sejam gentis, embora a grande maioria de nossos membros demonstre um respeito excepcional uns pelos outros. Adotar um código de conduta mais formal – e aplicá-lo – ajuda a manter uma comunidade vital e saudável.
 
-## Please report violations
+## Por favor, denuncie violações
 
-The code of conduct is enforced by our moderators, but we can't monitor every single interaction in the official Obsidian community channels. This is why we rely on our members to help us improve the official Obsidian community channels by reporting violations of our code of conduct.
+O código de conduta é aplicado por nossos moderadores, mas não podemos monitorar todas as interações nos canais oficiais da comunidade Obsidian. É por isso que contamos com nossos membros para nos ajudar a melhorar os canais oficiais da comunidade Obsidian, denunciando violações de nosso código de conduta.
 
-Even if you're not the victim, you can still report violations as a witness.
+Mesmo que você não seja a vítima, você ainda pode denunciar as violações como testemunha.
 
-We'll keep the identity of the reporter as confidential as we can.
+Manteremos a identidade do repórter o mais confidencial possível.
 
-### Report on Discord
+### Relatório sobre discórdia
 
-In \#bots-land-mute-me channel, or any other channel, type `!report @offenderName Please write your reason here`. Your message will disappear immediately, and a report will be sent to our moderator only channel.
+No canal \#bots-land-mute-me ou em qualquer outro canal, digite `!report @offenderName Por favor, escreva seu motivo aqui`. Sua mensagem desaparecerá imediatamente e um relatório será enviado ao nosso canal exclusivo para moderadores.
 
-### Report on the forum
+### Reportar no fórum
 
-Please flag the relevant conversation with a reason, and our moderators will investigate.
+Sinalize a conversa relevante com um motivo e nossos moderadores investigarão.
 
-## Enforcement
+## Aplicação
 
-> [!abstract] Summary
-> A verified major offense results in an immediate ban.
-> A verified minor offense results in a warning; after that a second verified violation results in a ban.
+> [!resumo] Resumo
+> Uma ofensa grave verificada resulta em banimento imediato.
+> Uma infração menor verificada resulta em advertência; depois disso, uma segunda violação verificada resulta em banimento.
 
-If our moderators witness or receive a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened. If verified, they will be removed from the official Obsidian community channels.
+Se nossos moderadores testemunharem ou receberem uma denúncia sobre [[#ofensas graves]], entraremos em contato com o ofensor para conversar com ele e verificar o que aconteceu. Se verificados, eles serão removidos dos canais oficiais da comunidade Obsidian.
 
-If our moderators witness or receive a report about [[#other offenses]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from the official Obsidian community channels.
+Se nossos moderadores testemunharem ou receberem um relatório sobre [[#outras ofensas]], entraremos em contato com o membro envolvido para explicar por que seu comportamento foi inaceitável e avisá-lo de que uma segunda violação do código de conduta resultará em nossa remoção do oficial Canais da comunidade Obsidian.
 
-## Credits
+## Créditos
 
-Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https://www.recurse.com/code-of-conduct).
+Nosso Código de Conduta é fortemente baseado no [Código de Conduta do Recurse Center](https://www.recurse.com/code-of-conduct).

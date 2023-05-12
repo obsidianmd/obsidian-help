@@ -1,68 +1,68 @@
-This page explains how to manage your published notes.
+Esta página explica como gerenciar suas notas publicadas.
 
-## Publish notes
+## Publicar notas
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **NEW** to see all the notes you haven't published yet.
-3. Select the notes you want to publish.
-4. Click **Publish**.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **NOVO** para ver todas as notas que você ainda não publicou.
+3. Selecione as notas que deseja publicar.
+4. Clique em **Publicar**.
 
-## Unpublish notes
+## Cancelar publicação de notas
 
-Notes remain in your local vault even after you unpublish them.
+As anotações permanecem em seu cofre local mesmo depois que você cancela a publicação.
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **UNCHANGED** to see all your published notes.
-3. Select the notes you want to unpublish.
-4. Click **Publish**.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **INALTERADO** para ver todas as suas notas publicadas.
+3. Selecione as notas que deseja cancelar a publicação.
+4. Clique em **Publicar**.
 
-## Update a published note
+## Atualizar uma nota publicada
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **CHANGED** to see all the notes that have been changed since the last time they were published.
-3. Select the notes you want to update.
-4. Click **Publish**.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **ALTERADO** para ver todas as notas que foram alteradas desde a última vez que foram publicadas.
+3. Selecione as notas que deseja atualizar.
+4. Clique em **Publicar**.
 
-## Publish linked notes
+## Publicar notas vinculadas
 
-Publishing notes that have links to other notes results in broken links unless you publish the linked notes as well. Obsidian Publish can help you by selecting notes that are linked from the notes that are already selected.
+A publicação de notas com links para outras notas resulta em links quebrados, a menos que você também publique as notas vinculadas. Obsidian Publish pode ajudá-lo selecionando notas que estão vinculadas às notas que já estão selecionadas.
 
-To select all linked notes, click **Add linked** in the **Publish changes** dialog.
+Para selecionar todas as notas vinculadas, clique em **Adicionar vinculadas** na caixa de diálogo **Publicar alterações**.
 
-Review the updated selection to make sure it doesn't include any notes that you're not ready to publish yet.
+Revise a seleção atualizada para garantir que ela não inclua nenhuma nota que você ainda não esteja pronto para publicar.
 
-## Automatically select notes to publish
+## Selecionar notas automaticamente para publicar
 
-To automatically select a note to be published, set `publish: true` in the [[Metadata]] for the note.
+Para selecionar automaticamente uma nota a ser publicada, defina `publish: true` em [[Metadata]] para a nota.
 
-## Ignore notes
+## Ignorar notas
 
-To ignore a note in Obsidian Publish, set `publish: false` in the [[Metadata]] for the note.
+Para ignorar uma nota no Obsidian Publish, defina `publish: false` no [[Metadata]] para a nota.
 
-The note no longer shows up in the list of notes to publish.
+A nota não aparece mais na lista de notas a serem publicadas.
 
-## Permalinks
+## Links permanentes
 
-You can rename the URL to your notes, using _permalinks_.
+Você pode renomear o URL de suas anotações usando _permalinks_.
 
-For example, you can turn this:
+Por exemplo, você pode transformar isso:
 
 ```
 https://publish.obsidian.md/username/Company/About+us
 ```
 
-Into this:
+Nisso:
 
 ```
 https://publish.obsidian.md/username/about
 ```
 
-To create a permalink for a note, add the `permalink` property to your [[Metadata]].
+Para criar um permalink para uma nota, adicione a propriedade `permalink` ao seu [[Metadata]].
 
 ```yaml
 ---
-permalink: about
+link permanente: sobre
 ---
 ```
 
-If someone visits a note using the original URL, they'll be automatically redirected to the permalink.
+Se alguém visitar uma nota usando o URL original, será redirecionado automaticamente para o permalink.

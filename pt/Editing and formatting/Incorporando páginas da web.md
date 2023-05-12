@@ -1,28 +1,28 @@
 ---
-alias: How to/Embedding web pages
+alias: Como/Incorporar páginas da web
 ---
 
-Learn how to use the [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) HTML element to embed web pages in your notes.
+Aprenda a usar o elemento HTML [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) para incorporar páginas da Web em suas anotações.
 
-To embed a web page, add the following in your note and replace the placeholder text with the URL of the web page you want to embed:
+Para incorporar uma página da Web, adicione o seguinte em sua nota e substitua o texto do espaço reservado pelo URL da página da Web que deseja incorporar:
 
 ```html
-<iframe src="INSERT YOUR URL HERE"></iframe>
+<iframe src="INSIRA SEU URL AQUI"></iframe>
 ```
 
-> [!note]
-> Some websites don't allow you to embed them. Instead, they may provide URLs that are meant for embedding them. If the website doesn't support embedding, try searching for the name of the website followed by "embed iframe". For example, "youtube embed iframe".
+> [!note] Nota
+> Alguns sites não permitem que você os incorpore. Em vez disso, eles podem fornecer URLs destinados a incorporá-los. Se o site não oferecer suporte à incorporação, tente pesquisar o nome do site seguido de "embed iframe". Por exemplo, "youtube incorporar iframe".
 
-> [!tip]
-> If you're using [[Canvas]], you can embed a web page in a card. For more information, refer to [[Canvas#Add cards from web pages]].
+> [!tip] Dica
+> Se estiver usando [[Canvas]], você pode incorporar uma página da web em um cartão. Para obter mais informações, consulte [[Tela#Adicionar cartões de páginas da web]].
 
-## Embed a YouTube video
+## Incorpore um vídeo do YouTube
 
-YouTube doesn't allow you to embed a video using the regular URL. Instead, use `https://www.youtube.com/embed/VIDEO_ID`.
+O YouTube não permite que você incorpore um vídeo usando o URL normal. Em vez disso, use `https://www.youtube.com/embed/VIDEO_ID`.
 
-You can find the video ID by browsing to the video and looking in the address bar in your browser. The video ID is the text that comes after `?v=`.
+Você pode encontrar o ID do vídeo navegando até o vídeo e procurando na barra de endereço do seu navegador. O ID do vídeo é o texto que vem depois de `?v=`.
 
-For example, to embed the video at `https://www.youtube.com/watch?v=NnTvZWp5Q7o`, add the following to your note:
+Por exemplo, para incorporar o vídeo em `https://www.youtube.com/watch?v=NnTvZWp5Q7o`, adicione o seguinte à sua nota:
 
 ```html
 <iframe src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
@@ -30,26 +30,26 @@ For example, to embed the video at `https://www.youtube.com/watch?v=NnTvZWp5Q7o`
 
 <iframe src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
 
-## Embed a tweet
+## Incorporar um tweet
 
-While Twitter doesn't have an official way to embed tweets using iframe, you can use services like [TwitFrame](https://twitframe.com/) to generate an embeddable URL. For more information, refer to TwitFrame's own documentation.
+Embora o Twitter não tenha uma maneira oficial de incorporar tweets usando iframe, você pode usar serviços como [TwitFrame](https://twitframe.com/) para gerar um URL incorporável. Para mais informações, consulte a própria documentação do TwitFrame.
 
 ```html
 <iframe
-  border="0"
-  frameborder="0"
-  height="763"
-  width="550"
-  src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
+   borda="0"
+   frameborder="0"
+   altura="763"
+   largura="550"
+   src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
 >
 </iframe>
 ```
 
 <iframe
-  border="0"
-  frameborder="0"
-  height="763"
-  width="550"
-  src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
+   borda="0"
+   frameborder="0"
+   altura="763"
+   largura="550"
+   src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
 >
 </iframe>

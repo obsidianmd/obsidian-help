@@ -1,121 +1,121 @@
 ---
 aliases:
-- How to/Use callouts
+- Como/Usar frases de destaque
 ---
 
-Use callouts to include additional content without breaking the flow of your notes.
+Use chamadas para incluir conteúdo adicional sem interromper o fluxo de suas anotações.
 
-To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]].
+Para criar um texto explicativo, adicione `[!info]` à primeira linha de uma citação em bloco, onde `info` é o _identificador de tipo_. O identificador de tipo determina a aparência e a aparência do texto explicativo. Para ver todos os tipos disponíveis, consulte [[#Tipos suportados]].
 
-```markdown
+```remarcação
 > [!info]
-> Here's a callout block.
-> It supports **Markdown**, [[Internal link|Wikilinks]], and [[Embed files|embeds]]!
+> Aqui está um bloco de texto explicativo.
+> Suporta **Markdown**, [[Internal link|Wikilinks]], e [[Embed files|embeds]]!
 > ![[og-image.png]]
 ```
 
 > [!info]
-> Here's a callout block.
-> It supports **Markdown**, [[Links internos|Wikilinks]] and [[Incorporando arquivos|embeds]]!
+> Aqui está um bloco de texto explicativo.
+> Suporta **Markdown**, [[Links internos|Wikilinks]] e [[Incorporando arquivos|embeds]]!
 > ![[og-image.png]]
 
-Callouts are also supported natively on [[Introdução ao Obsidian Publish|Obsidian Publish]].
+Callouts também são suportados nativamente em [[Introdução ao Obsidian Publish|Obsidian Publish]].
 
-> [!note]
-> If you're also using the Admonitions plugin, you should update it to at least version 8.0.0 to avoid problems with the new callout feature.
+> [!nota]
+> Se você também estiver usando o plug-in Admonitions, atualize-o para pelo menos a versão 8.0.0 para evitar problemas com o novo recurso de chamada.
 
-### Change the title
+### Mude o título
 
-By default, the title of the callout is its type identifier in title case. You can change it by adding text after the type identifier:
+Por padrão, o título da chamada é seu identificador de tipo em maiúsculas e minúsculas. Você pode alterá-lo adicionando texto após o identificador de tipo:
 
-```markdown
-> [!tip] Callouts can have custom titles
-> Like this one.
+```remarcação
+> [!dica] As frases de destaque podem ter títulos personalizados
+> Como este.
 ```
 
-> [!tip] Callouts can have custom titles
-> Like this one.
+> [!dica] As frases de destaque podem ter títulos personalizados
+> Como este.
 
-You can even omit the body to create title-only callouts:
+Você pode até mesmo omitir o corpo para criar chamadas somente de título:
 
-```markdown
-> [!tip] Title-only callout
+```remarcação
+> [!dica] Texto explicativo apenas do título
 ```
 
-> [!tip] Title-only callout
+> [!dica] Texto explicativo apenas do título
 
-### Foldable callouts
+### Chamadas dobráveis
 
-You can make a callout foldable by adding a plus (+) or a minus (-) directly after the type identifier.
+Você pode tornar uma legenda dobrável adicionando um sinal de mais (+) ou menos (-) logo após o identificador de tipo.
 
-A plus sign expands the callout by default, and a minus sign collapses it instead.
+Um sinal de mais expande o texto explicativo por padrão e um sinal de menos o reduz.
 
-```markdown
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
+```remarcação
+> [!faq]- Os textos explicativos são dobráveis?
+> Sim! Em uma legenda dobrável, o conteúdo fica oculto quando a legenda é recolhida.
 ```
 
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when collapsed.
+> [!faq]- Os textos explicativos são dobráveis?
+> Sim! Em uma legenda dobrável, o conteúdo fica oculto quando recolhido.
 
-### Nested callouts
+### Chamadas aninhadas
 
-You can nest callouts in multiple levels.
+Você pode aninhar chamadas em vários níveis.
 
-```markdown
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
+```remarcação
+> [!question] As frases de destaque podem ser aninhadas?
+> > [!todo] Sim!, podem.
+> > > [!exemplo] Você pode até usar várias camadas de aninhamento.
 ```
 
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
+> [!question] As frases de destaque podem ser aninhadas?
+> > [!todo] Sim!, podem.
+> > > [!exemplo] Você pode até usar várias camadas de aninhamento.
 
-### Customize callouts
+### Personalizar frases de destaque
 
-[[Trechos de CSS]] and [[Plugins da comunidade]] can define custom callouts, or even overwrite the default configuration.
+[[Trechos de CSS]] e [[Plugins da comunidade]] podem definir textos explicativos personalizados ou até sobrescrever a configuração padrão.
 
-To define a custom callout, create the following CSS block:
+Para definir uma chamada personalizada, crie o seguinte bloco CSS:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
-    --callout-icon: lucide-alert-circle;
+     --cor da legenda: 0, 0, 0;
+     --ícone de chamada: lúcido-alerta-círculo;
 }
 ```
 
-The value of the `data-callout` attribute is the type identifier you want to use, for example `[!custom-question-type]`.
+O valor do atributo `data-callout` é o identificador de tipo que você deseja usar, por exemplo `[!custom-question-type]`.
 
-- `--callout-color` defines the background color using numbers (0–255) for red, green, and blue.
-- `--callout-icon` can be an icon ID from [lucide.dev](https://lucide.dev), or an SVG element.
+- `--callout-color` define a cor de fundo usando números (0–255) para vermelho, verde e azul.
+- `--callout-icon` pode ser um ID de ícone de [lucide.dev](https://lucide.dev) ou um elemento SVG.
 
-> [!tip] SVG icons
-> Instead of using a Lucide icon, you can also use a SVG element as the callout icon.
+> [!dica] Ícones SVG
+> Em vez de usar um ícone do Lucide, você também pode usar um elemento SVG como ícone de texto explicativo.
 >
 > ```css
-> --callout-icon: '<svg>...custom svg...</svg>';
+> --callout-icon: '<svg>...svg personalizado...</svg>';
 > ```
 
-### Supported types
+### Tipos suportados
 
-You can use several callout types and aliases. Each type comes with a different background color and icon.
+Você pode usar vários tipos de callout e aliases. Cada tipo vem com uma cor de fundo e um ícone diferentes.
 
-To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`.
+Para usar esses estilos padrão, substitua `info` nos exemplos por qualquer um desses tipos, como `[!tip]` ou `[!warning]`.
 
-Unless you [[#Customize callouts]], any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
+A menos que você [[#Customize callouts]], qualquer tipo não suportado assume como padrão o tipo `note`. O identificador de tipo não diferencia maiúsculas de minúsculas.
 
-> [!note]
+> [!nota]
 > ```md
-> > [!note]
+> > [!nota]
 > > Lorem ipsum dolor sit amet
 > ```
 
 ---
 
-> [!abstract]
+> [!resumo]
 > ```md
-> > [!abstract]
+> > [!resumo]
 > > Lorem ipsum dolor sit amet
 > ```
 
@@ -139,19 +139,19 @@ Aliases: `summary`, `tldr`
 
 ---
 
-> [!tip]-
+> [!dica]-
 > ```md
-> > [!tip]
+> > [!dica]
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `hint`, `important`
+Aliases: `dica`, `importante`
 
 ---
 
-> [!success]-
+> [!sucesso]-
 > ```md
-> > [!success]
+> > [!sucesso]
 > > Lorem ipsum dolor sit amet
 > ```
 
@@ -159,57 +159,57 @@ Aliases: `check`, `done`
 
 ---
 
-> [!question]-
+> [!pergunta]-
 > ```md
-> > [!question]
+> > [!pergunta]
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `help`, `faq`
+Aliases: `ajuda`, `faq`
 
 ---
 
-> [!warning]-
->  ```md
-> > [!warning]
+> [!aviso]-
+> ```md
+> > [!aviso]
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `caution`, `attention`
+Aliases: `cuidado`, `atenção`
 
 ---
 
-> [!failure]-
+> [!falha]-
 > ```md
-> > [!failure]
+> > [!falha]
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `fail`, `missing`
+Aliases: `falha`, `falta`
 
 ---
 
-> [!danger]-
+> [!perigo]-
 > ```md
-> > [!danger]
+> > [!perigo]
 > > Lorem ipsum dolor sit amet
 > ```
 
-Alias: `error`
+Alias: `erro`
 
 ---
 
 > [!bug]-
 > ```md
-> > [!bug]
+> > [!erro]
 > > Lorem ipsum dolor sit amet
 > ```
 
 ---
 
-> [!example]-
+> [!exemplo]-
 > ```md
-> > [!example]
+> > [!exemplo]
 > > Lorem ipsum dolor sit amet
 > ```
 
@@ -217,7 +217,7 @@ Alias: `error`
 
 > [!quote]-
 > ```md
-> > [!quote]
+> > [!citação]
 > > Lorem ipsum dolor sit amet
 > ```
 

@@ -1,42 +1,42 @@
-Learn how to change the look and feel of Obsidian using themes built by the community.
+Saiba como alterar a aparência do Obsidian usando temas criados pela comunidade.
 
-## Browse themes
+## Procurar temas
 
-1. Open **Settings**.
-2. Select **Turn on community plugins**. For more information, refer to [[Segurança de plugin#Restricted mode]].
-3. Select **Browse** to list all available community plugins.
+1. Abra **Configurações**.
+2. Selecione **Ativar plug-ins da comunidade**. Para mais informações, consulte [[Segurança de plugin#Restricted mode]].
+3. Selecione **Browse** para listar todos os plug-ins de comunidade disponíveis.
 
-## Install a new theme
+## Instale um novo tema
 
-1. Open **Settings**.
-2. Under **Appearance > Themes**, select **Manage**.
-3. Select the theme you want to use, and then select **Install and use**.
+1. Abra **Configurações**.
+2. Em **Aparência > Temas**, selecione **Gerenciar**.
+3. Selecione o tema que deseja usar e selecione **Instalar e usar**.
 
-Obsidian installs the theme and immediately applies it. To revert back to the default theme, select **Stop using this theme**.
+Obsidian instala o tema e o aplica imediatamente. Para voltar ao tema padrão, selecione **Parar de usar este tema**.
 
-## Update themes
+## Atualizar temas
 
-Themes don't update automatically. You can either update all themes at once, or update individual themes.
+Os temas não são atualizados automaticamente. Você pode atualizar todos os temas de uma vez ou atualizar temas individuais.
 
-To update all your themes:
+Para atualizar todos os seus temas:
 
-1. Open **Settings**.
-2. Under **Appearance > Current community themes**, select **Check for updates**.
-3. If updates are available, select **Update all**.
+1. Abra **Configurações**.
+2. Em **Aparência > Temas atuais da comunidade**, selecione **Verificar atualizações**.
+3. Se houver atualizações disponíveis, selecione **Atualizar tudo**.
 
-To update an individual theme:
+Para atualizar um tema individual:
 
-1. Open **Settings**.
-2. Under **Appearance > Themes**, select **Manage**.
-3. Select the theme you want to update, and then select **Check for updates**.
-4. If an update is available, select **Update**.
+1. Abra **Configurações**.
+2. Em **Aparência > Temas**, selecione **Gerenciar**.
+3. Selecione o tema que deseja atualizar e selecione **Verificar atualizações**.
+4. Se uma atualização estiver disponível, selecione **Atualizar**.
 
-## Uninstall an existing theme
+## Desinstalar um tema existente
 
-1. Open **Settings**.
-2. Under **Appearance > Themes**, select **Manage**.
-3. Select the theme you want to use, and then select **Uninstall**.
+1. Abra **Configurações**.
+2. Em **Aparência > Temas**, selecione **Gerenciar**.
+3. Selecione o tema que deseja usar e selecione **Desinstalar**.
 
-## Learn more
+## Saber mais
 
-Ready to build your own theme? Learn how to [[Criar temas]] or create [[Trechos de CSS]].
+Pronto para criar seu próprio tema? Aprenda a [[Criar temas]] ou crie [[Trechos de CSS]].

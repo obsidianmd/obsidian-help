@@ -1,40 +1,40 @@
-This page explains how to manage [[Introdução ao Obsidian Publish|Obsidian Publish]] sites.
+Esta página explica como gerenciar sites [[Introdução ao Obsidian Publish|Obsidian Publish]].
 
-A site is a collection of notes that's hosted by Obsidian Publish and available online, either through a Obsidian Publish address or a [[Configurar um domínio personalizado|custom domain]].
+Um site é uma coleção de notas hospedadas pela Obsidian Publish e disponíveis online, seja através de um endereço da Obsidian Publish ou de um [[Configurar um domínio personalizado|domínio personalizado]].
 
-## Create a new site
+## Crie um novo site
 
-**Note:** The number of sites that you can have at the same time is determined by your Obsidian Publish subscription. Before you create a new site, make sure that your subscription allows it.
+**Observação:** O número de sites que você pode ter ao mesmo tempo é determinado por sua assinatura do Obsidian Publish. Antes de criar um novo site, verifique se sua assinatura permite.
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. If you already have an existing site, click **Switch site** (arrows icon).
-3. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from publish.obsidian.md/my-amazing-site.
-4. Click **Create**.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Se você já tiver um site existente, clique em **Mudar site** (ícone de setas).
+3. Em **Site ID**, digite o caminho que deseja para o seu site. Por exemplo, um site com o ID `my-amazing-site` está disponível em publish.obsidian.md/my-amazing-site.
+4. Clique em **Criar**.
 
-## Delete an existing site
+## Excluir um site existente
 
-**Note:** Notes remain in your vault even after you delete a site.
+**Observação:** as notas permanecem no seu cofre mesmo depois que você exclui um site.
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. Click **Switch site** (arrows icon).
-3. Click **Delete site** (cross icon) to the right of the site you want to delete.
-4. Click **Delete** to confirm.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Clique em **Alternar site** (ícone de setas).
+3. Clique em **Excluir site** (ícone de cruz) à direita do site que deseja excluir.
+4. Clique em **Excluir** para confirmar.
 
-## Switch between sites
+## Alternar entre sites
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. Click **Switch site** (arrows icon).
-3. Click **Choose** to the right of the site you want to switch to.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Clique em **Alternar site** (ícone de setas).
+3. Clique em **Escolher** à direita do site para o qual deseja alternar.
 
-## Change the site ID
+## Altere o ID do site
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. Click **Switch site** (arrows icon).
-3. Click **Edit site ID** (pen icon) to the right of the site you want to edit.
-4. In **Site ID**, enter the new ID for your site.
-5. Click **Change**.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Clique em **Alternar site** (ícone de setas).
+3. Clique em **Editar ID do site** (ícone de caneta) à direita do site que deseja editar.
+4. Em **Site ID**, digite o novo ID do seu site.
+5. Clique em **Alterar**.
 
-## View site options
+## Veja as opções do site
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **Alterar opções do site** (ícone de engrenagem).

@@ -1,78 +1,78 @@
 ---
 aliases:
-- Licenses & Payment/Commercial license
+- Licenças e pagamento/licença comercial
 ---
 
-If you're using Obsidian for commercial use in a company of two (2) or more employees, you need to purchase a Commercial license.
+Se você estiver usando o Obsidian para uso comercial em uma empresa de dois (2) ou mais funcionários, precisará adquirir uma licença comercial.
 
-Commercial use includes, but isn't limited to, work-related activities such as:
+O uso comercial inclui, mas não está limitado a, atividades relacionadas ao trabalho, como:
 
-- Meeting notes
-- Project notes for teams
-- Organizational wikis
+- Notas da reunião
+- Notas de projeto para equipes
+-Wiki Organizacional
 
-You don't need a Commercial license if you work in any of the following settings:
+Você não precisa de uma licença comercial se trabalhar em qualquer uma das seguintes configurações:
 
-- Schools and recognized educational institutions
-- Non-commercial research
-- Non-profit organizations
-- Freelancing or companies with a single person
+- Escolas e instituições de ensino reconhecidas
+- Pesquisa não comercial
+- Organizações sem fins lucrativos
+- Freelancing ou empresas com uma única pessoa
 
-You can evaluate Obsidian for commercial use for 14 days. You don't need to pay when you’re evaluating.
+Você pode avaliar o Obsidian para uso comercial por 14 dias. Você não precisa pagar quando estiver avaliando.
 
-To purchase a commercial license, visit the [pricing page](https://obsidian.md/pricing).
+Para adquirir uma licença comercial, visite a [página de preços](https://obsidian.md/pricing).
 
-For bulk discounts, [[Ajuda e suporte|contact Obsidian support]].
+Para descontos em massa, [[Ajuda e suporte|entre em contato com o suporte da Obsidian]].
 
-### FAQ
+### PERGUNTAS FREQUENTES
 
-> [!FAQ]- Q1. How do I activate my commercial license?
-> You can activate your commercial license under **Setting → About → Commercial license**.
+> [!FAQ]- Q1. Como faço para ativar minha licença comercial?
+> Você pode ativar sua licença comercial em **Configuração → Sobre → Licença comercial**.
 
-> [!FAQ]- Q2. Can I try Obsidian for commercial use before paying?
-> Yes. You may evaluate Obsidian for commercial use for 14 days.
+> [!FAQ]- Q2. Posso experimentar o Obsidian para uso comercial antes de pagar?
+> Sim. Você pode avaliar o Obsidian para uso comercial por 14 dias.
 >
-> You don't need to pay before evaluating.
+> Não precisa pagar antes de avaliar.
 
-> [!FAQ]- Q3. Can I buy a license for myself, or do I have to ask my company to buy it for me?
-> Yes, you can buy a license for yourself; just put your name in the company field. You can use such a license to work for any company.
+> [!FAQ]- Q3. Posso comprar uma licença para mim ou tenho que pedir à minha empresa para comprá-la para mim?
+> Sim, você pode comprar uma licença para você; basta colocar seu nome no campo empresa. Você pode usar essa licença para trabalhar para qualquer empresa.
 
-> [!FAQ]- Q4. I work at the IT department and need to purchase commercial licenses for our employees. What should I do?
-> You only need to sign up for one admin account and buy one Obsidian commercial license with seats equal to the number of employees who will use Obsidian in your company.
-> After purchasing the license, you’ll be given a license key which you can send to the employees to activate their license (see Q1 on how to activate). There’s no need for each employee to have an Obsidian account.
+> [!FAQ]- Q4. Trabalho no departamento de TI e preciso comprar licenças comerciais para nossos funcionários. O que devo fazer?
+> Você só precisa se inscrever para uma conta de administrador e comprar uma licença comercial da Obsidian com assentos iguais ao número de funcionários que usarão a Obsidian em sua empresa.
+> Depois de adquirir a licença, você receberá uma chave de licença que poderá enviar aos funcionários para ativar sua licença (consulte o primeiro trimestre sobre como ativar). Não há necessidade de cada funcionário ter uma conta Obsidian.
 
-> [!FAQ]- Q5. Do non-profit organizations require a commercial license?
-> No, registered non-profit organizations may use Obsidian without a commercial license.
+> [!FAQ]- Q5. As organizações sem fins lucrativos exigem uma licença comercial?
+> Não, organizações sem fins lucrativos registradas podem usar o Obsidian sem uma licença comercial.
 
-> [!FAQ]- Q6. Are there bulk discounts?
-> For bulk discount inquiry, please [[Ajuda e suporte#Contact Obsidian support|contact Obsidian support]].
+> [!FAQ]- Q6. Há descontos em massa?
+> Para consulta de desconto em massa, por favor [[Ajuda e suporte#Contact Obsidian support|contact Obsidian support]].
 
-> [!FAQ]- Q7. How can I ask my company to purchase licenses for me or my team?
-> Ask your IT department to [[Ajuda e suporte#Contact Obsidian support|contact Obsidian support]] if they have questions or require any specific paperwork.
+> [!FAQ]- Q7. Como posso solicitar que minha empresa compre licenças para mim ou para minha equipe?
+> Peça ao seu departamento de TI para [[Ajuda e suporte#Contact Obsidian support|contact Obsidian support]] caso tenham dúvidas ou necessitem de alguma documentação específica.
 
-> [!FAQ]- Q8. Do I need a commercial license?
-> From our EULA, if you use Obsidian for commercial use, you must obtain a commercial license. Commercial use is defined as using Obsidian for work-related activities in a company with two (2) or more employees.
+> [!FAQ]- Q8. Preciso de uma licença comercial?
+> De nosso EULA, se você usar o Obsidian para uso comercial, deverá obter uma licença comercial. O uso comercial é definido como o uso do Obsidian para atividades relacionadas ao trabalho em uma empresa com dois (2) ou mais funcionários.
 
-> [!FAQ]- Q9: I'm a writer/blogger, do I need a commercial license?
-> If your writing is for-profit—for example you write on a blog that generates revenue via ads or sponsorships—and your business employs two or more people, then yes, you need a commercial license.
+> [!FAQ]- Q9: Sou um escritor/blogueiro, preciso de uma licença comercial?
+> Se a sua escrita tem fins lucrativos - por exemplo, você escreve em um blog que gera receita por meio de anúncios ou patrocínios - e sua empresa emprega duas ou mais pessoas, então sim, você precisa de uma licença comercial.
 
-> [!FAQ]- Q10: I'm a solo freelancer/consultant, but my work indirectly contributes to "revenue-generating, work-related activities in a company that has two or more people". Do I need a commercial license?
-> No, as long as you remain the sole employee of your freelance/consulting business, you don't need a commercial license.
+> [!FAQ]- Q10: Sou freelancer/consultor solo, mas meu trabalho contribui indiretamente para "gerar receita, atividades relacionadas ao trabalho em uma empresa que tem duas ou mais pessoas". Preciso de uma licença comercial?
+> Não, desde que você seja o único funcionário do seu negócio freelance/consultoria, você não precisa de uma licença comercial.
 
-> [!FAQ]- Q11: I'm a teacher/professor, or I work at a school, and I use Obsidian for my teaching/lectures. Do I need a commercial license?
-> Obsidian usage for education-related activities within schools and other recognized educational institutions doesn't require a commercial license.
+> [!FAQ]- Q11: Sou professor/professor, ou trabalho em uma escola, e uso Obsidian para minhas aulas/palestras. Preciso de uma licença comercial?
+> O uso de obsidiana para atividades relacionadas à educação em escolas e outras instituições educacionais reconhecidas não requer uma licença comercial.
 
-> [!FAQ]- Q12: I'm an academic researcher and I use Obsidian for my research work. Do I need a commercial license?
-> If your research involves producing a commercial product—for example if your research contributes to revenue-generating commercial activities—you need a commercial license for your usage. If your research doesn't contribute to a commercial product, or if your research has not yet led to commercial activities, you don't need a license.
+> [!FAQ]- Q12: Sou um pesquisador acadêmico e uso Obsidian para meu trabalho de pesquisa. Preciso de uma licença comercial?
+> Se sua pesquisa envolve a produção de um produto comercial – por exemplo, se sua pesquisa contribui para atividades comerciais geradoras de receita – você precisa de uma licença comercial para seu uso. Se sua pesquisa não contribui para um produto comercial ou se sua pesquisa ainda não levou a atividades comerciais, você não precisa de uma licença.
 
-> [!FAQ]- Q13: I work for a government or an arm's length body or agency. Do I need a commercial license?
-> Yes, you need a commercial license. From our EULA, if you use Obsidian for commercial use, you must obtain a commercial license. Commercial use is defined as using Obsidian for "work-related activities in a company with two (2) or more employees". The EULA's revenue-generating clause exempts non-profit organizations.
+> [!FAQ]- Q13: Trabalho para um governo ou órgão ou agência independente. Preciso de uma licença comercial?
+> Sim, você precisa de uma licença comercial. De nosso EULA, se você usar o Obsidian para uso comercial, deverá obter uma licença comercial. O uso comercial é definido como o uso de Obsidian para "atividades relacionadas ao trabalho em uma empresa com dois (2) ou mais funcionários". A cláusula de geração de receita do EULA isenta as organizações sem fins lucrativos.
 
-> [!FAQ]- Q14: I use Obsidian during work for things like writing down team processes and taking notes for team meetings. Do I need a commercial license?
-> If you are a single-person company, then you don't require a commercial license. Otherwise, if you have more than one person in the company, then you would require a commercial license.
+> [!FAQ]- Q14: Eu uso Obsidian durante o trabalho para coisas como escrever processos de equipe e fazer anotações para reuniões de equipe. Preciso de uma licença comercial?
+> Se você é uma empresa individual, não precisa de uma licença comercial. Caso contrário, se você tiver mais de uma pessoa na empresa, precisará de uma licença comercial.
 
-> [!FAQ]- Q15: I use Obsidian to store all of my knowledge, both personal and professional, because it's difficult to separate them. Do I need a commercial license?
-> If your notes contain content directly related to work projects or processes for a greater-than-one-person company, then you require a commercial license.
+> [!FAQ]- Q15: Utilizo o Obsidian para armazenar todos os meus conhecimentos, tanto pessoais como profissionais, pois é difícil separá-los. Preciso de uma licença comercial?
+> Se suas anotações tiverem conteúdo diretamente relacionado a projetos ou processos de trabalho para uma empresa de mais de uma pessoa, você precisará de uma licença comercial.
 
-> [!FAQ]- Q16: I’m still not sure if I need a commercial license. What should I do?
-> If you still have questions regarding the commercial license requirements, [[Ajuda e suporte#Contact Obsidian support|contact Obsidian support]] and describe your situation in detail.
+> [!FAQ]- Q16: Ainda não tenho certeza se preciso de uma licença comercial. O que devo fazer?
+> Se você ainda tiver dúvidas sobre os requisitos da licença comercial, [[Ajuda e suporte#Contact Obsidian support|contact Obsidian support]] e descreva sua situação em detalhes.

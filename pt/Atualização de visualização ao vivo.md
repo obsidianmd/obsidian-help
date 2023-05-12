@@ -1,53 +1,53 @@
-Obsidian 0.13 introduces a brand new editor engine that comes with several enhancements to your editing experience. In this post, we'll take a closer look at one of the biggest improvements in the latest release: _Live Preview_.
+O Obsidian 0.13 apresenta um novo mecanismo de edição que vem com vários aprimoramentos para sua experiência de edição. Nesta postagem, veremos mais de perto uma das maiores melhorias na versão mais recente: _Live Preview_.
 
-Live Preview is a new editor mode that lets you preview your notes in the same view that you're writing them in. Live Preview delivers a cleaner writing experience by only displaying Markdown syntax around the cursor. Let's see an example!
+A visualização ao vivo é um novo modo de editor que permite visualizar suas anotações na mesma visualização em que você as está escrevendo. A visualização ao vivo oferece uma experiência de escrita mais limpa, exibindo apenas a sintaxe Markdown ao redor do cursor. Vejamos um exemplo!
 
-This is what your editing experience used to look like:
+É assim que sua experiência de edição costumava ser:
 
-![[Source view.png]]
+![[Visualização da fonte.png]]
 
-And here's the same note using Live Preview:
+E aqui está a mesma nota usando o Live Preview:
 
-![[Live Preview.gif]]
+![[Visualização ao vivo.gif]]
 
-Live Preview gives you an improved editing experience that lets you see how your Markdown note will look like, without having to switch between Edit and Preview.
+A visualização ao vivo oferece uma experiência de edição aprimorada que permite ver como será a aparência da sua nota Markdown, sem ter que alternar entre Editar e Visualizar.
 
-To enable Live Preview for an existing vault:
+Para habilitar a visualização ao vivo para um cofre existente:
 
-1. Open **Settings**.
-2. In the sidebar, click **Editor**.
-3. Under **General**, disable **Legacy Editor**.
-4. Click on the **Relaunch** button for the change to take effect.
-5. After Obsidian restarts, open **Settings**.
-6. In the sidebar, click **Editor**.
-7. Under **General**, set **Default editing mode** to **Live Preview**.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Editor**.
+3. Em **Geral**, desative o **Editor legado**.
+4. Clique no botão **Reiniciar** para que a alteração entre em vigor.
+5. Depois que o Obsidian reiniciar, abra **Configurações**.
+6. Na barra lateral, clique em **Editor**.
+7. Em **Geral**, defina **Modo de edição padrão** como **Visualização ao vivo**.
 
-When you open a new pane, it'll use Live Preview by default. If you already have some panes open, they'll be in _Source mode_.
+Quando você abre um novo painel, ele usa o Live Preview por padrão. Se você já tiver alguns painéis abertos, eles estarão no modo _Source_.
 
-## Edit notes using Live Preview or Source mode
+## Edite notas usando o modo Live Preview ou Source
 
-We think you're going to love Live Preview. But if you want to keep your current editing experience, we've got you covered. You can keep editing your notes the same way as before by switching to the new Source mode.
+Achamos que você vai adorar o Live Preview. Mas se você quiser manter sua experiência de edição atual, nós o cobrimos. Você pode continuar editando suas anotações da mesma forma que antes, alternando para o novo modo Source.
 
-To toggle between Live Preview and Source mode:
+Para alternar entre o modo Visualização ao vivo e Fonte:
 
-1. In the upper right corner of the pane, click **More options** (the three dots).
-2. Select **Toggle source/live preview mode**.
+1. No canto superior direito do painel, clique em **Mais opções** (os três pontos).
+2. Selecione **Alternar fonte/modo de visualização ao vivo**.
 
-You can also toggle the editing view by opening the Command palette and searching for the **Toggle source/live preview mode command**, or change it permanently by setting **Default editing mode** to Source mode.
+Você também pode alternar a exibição de edição abrindo a paleta de comandos e procurando o comando **Alternar fonte/modo de visualização ao vivo** ou alterá-lo permanentemente definindo o **Modo de edição padrão** como Modo de origem.
 
-Live Preview and Source mode are two ways to edit your Markdown notes in Obsidian. Try them out to see which one you prefer!
+O modo Live Preview e Source são duas maneiras de editar suas notas Markdown no Obsidian. Experimente-os para ver qual você prefere!
 
-If you want to know how the terminology changes with the new features, here's a handy chart by [[Créditos#^a4b3a2|Argentum]]:
+Se você quiser saber como a terminologia muda com os novos recursos, aqui está um gráfico útil de [[Créditos#^a4b3a2|Argentum]]:
 
 ![[Editor update chart.png]]
 
-## Wait, I'm not ready to switch!
+## Espere, não estou pronto para trocar!
 
-Some plugins and themes may not be fully compatible with the new editor. If your favorite plugin doesn't yet support the new editor, you can switch back to the old one by enabling the Legacy editor.
+Alguns plugins e temas podem não ser totalmente compatíveis com o novo editor. Se o seu plug-in favorito ainda não oferece suporte ao novo editor, você pode voltar para o antigo ativando o editor legado.
 
-1. Open **Settings**.
-2. In the sidebar, click **Editor**.
-3. Under **General**, enable **Legacy Editor**.
-4. Click on the **Relaunch** button for the change to take effect.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Editor**.
+3. Em **Geral**, habilite **Editor legado**.
+4. Clique no botão **Reiniciar** para que a alteração entre em vigor.
 
-Use the legacy editor if you're not ready to upgrade to the new editor. You'll miss out some sweet features, but know that you can switch to the new editor at any time.
+Use o editor herdado se não estiver pronto para atualizar para o novo editor. Você perderá alguns recursos interessantes, mas saiba que pode mudar para o novo editor a qualquer momento.

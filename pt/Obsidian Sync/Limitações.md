@@ -1,31 +1,31 @@
-This page lists some of the common questions related to quotas and limitations for [[Introdução ao Obsidian Sync|Obsidian Sync]].
+Esta página lista algumas das perguntas mais comuns relacionadas a cotas e limitações para [[Introdução ao Obsidian Sync|Obsidian Sync]].
 
-## How many remote vaults can I have?
+## Quantos cofres remotos posso ter?
 
-Each account with Obsidian Sync can have up to 5 remote vaults.
+Cada conta com Obsidian Sync pode ter até 5 cofres remotos.
 
-## How long do you keep the version history?
+## Por quanto tempo você mantém o histórico de versões?
 
-We keep version histories of Markdown files for up to one year before we clean it up. Attachments are kept for two weeks.
+Mantemos os históricos de versão dos arquivos Markdown por até um ano antes de limpá-los. Os anexos são mantidos por duas semanas.
 
-## How large can each remote vault be?
+## Qual o tamanho de cada cofre remoto?
 
-At the moment, each remote vault can have up to 10 GB of data, including version history.
+No momento, cada cofre remoto pode ter até 10 GB de dados, incluindo histórico de versões.
 
-## How large can each file be?
+## Qual o tamanho de cada arquivo?
 
-At the moment, each file can be up to 100 MB.
+No momento, cada arquivo pode ter até 100 MB.
 
-## How long do you keep my data after my subscription expires?
+## Por quanto tempo você mantém meus dados depois que minha assinatura expirar?
 
-We keep data in your remote vaults, including version history, for one month after your subscription expires. Any local vaults on your devices are unaffected.
+Mantemos os dados em seus cofres remotos, incluindo o histórico de versões, por um mês após o vencimento da sua assinatura. Quaisquer cofres locais em seus dispositivos não são afetados.
 
-As long as you renew within one month, there should be no impact on your usage. If you renew after a month, when your remote vaults have been removed, you can [[Configurar Obsidian Sync|create a new remote vault re-connect your local vault]].
+Contanto que você renove dentro de um mês, não deve haver impacto no seu uso. Se você renovar após um mês, quando seus cofres remotos tiverem sido removidos, você pode [[Configurar Obsidian Sync|criar um novo cofre remoto e reconectar seu cofre local]].
 
-## Is my data being synced in the background?
+## Meus dados estão sendo sincronizados em segundo plano?
 
-No, files are only synced when Obsidian is running.
+Não, os arquivos são sincronizados apenas quando o Obsidian está em execução.
 
-## What operating systems does Obsidian Sync support?
+## Quais sistemas operacionais o Obsidian Sync suporta?
 
-Obsidian Sync supports every platform that Obsidian can run on. Currently that means Windows, macOS, Linux, Android and iOS.
+O Obsidian Sync suporta todas as plataformas nas quais o Obsidian pode ser executado. Atualmente, isso significa Windows, macOS, Linux, Android e iOS.

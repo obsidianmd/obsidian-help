@@ -1,29 +1,29 @@
-Notes in Obsidian are stored as plain text files, which makes them incredibly portable. By writing your notes in plain text, they'll outlive any app—even Obsidian itself. If you plan to keep your notes for a long time, this is great news!
+As anotações no Obsidian são armazenadas como arquivos de texto simples, o que as torna incrivelmente portáteis. Ao escrever suas anotações em texto simples, elas sobreviverão a qualquer aplicativo, até mesmo ao próprio Obsidian. Se você pretende manter suas anotações por muito tempo, esta é uma ótima notícia!
 
-## Create a new note
+## Criar uma nova nota
 
-To create a new note:
+Para criar uma nova nota:
 
-1. Press `Ctrl+N` (or `Cmd+N` on macOS) on your keyboard.
-2. Type "Obsidian" as the name of your note and press `Enter`.
-3. Copy and paste the following text into your note:
+1. Pressione `Ctrl+N` (ou `Cmd+N` no macOS) em seu teclado.
+2. Digite "Obsidian" como o nome de sua nota e pressione `Enter`.
+3. Copie e cole o seguinte texto em sua nota:
 
-> Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
+> Obsidian é uma poderosa base de conhecimento sobre uma pasta local de arquivos Markdown de texto simples.
 
-## Format your note
+## Formate sua nota
 
-Obsidian also supports [Markdown](https://en.wikipedia.org/wiki/Markdown)—a markup language for adding formatting to plain text files.
+Obsidian também suporta [Markdown](https://en.wikipedia.org/wiki/Markdown)—uma linguagem de marcação para adicionar formatação a arquivos de texto simples.
 
-1. Copy and paste the following text at the top of the Obsidian note:
+1. Copie e cole o seguinte texto na parte superior da nota Obsidian:
 
-   > \# A second brain, for you, forever.
+    > \# Um segundo cérebro, para você, para sempre.
 
-   The hashtag (`#`) turns a row of text into a heading.
+    A hashtag (`#`) transforma uma linha de texto em um cabeçalho.
 
-2. In your note, select the text "knowledge base" and press `Ctrl+B` (or `Cmd+B` on macOS) to make it bold.
+2. Em sua nota, selecione o texto "base de conhecimento" e pressione `Ctrl+B` (ou `Cmd+B` no macOS) para torná-lo em negrito.
 
-To learn more about how to format your notes using Markdown, refer to [[Sintaxe de formatação básica]].
+Para saber mais sobre como formatar suas anotações usando o Markdown, consulte [[Sintaxe de formatação básica]].
 
-## Learn more
+## Saber mais
 
-Learn how to [[Conecte notas|link notes]] to create a network of connected thoughts.
+Aprenda a [[Conectar notas|vincular notas]] para criar uma rede de pensamentos conectados.

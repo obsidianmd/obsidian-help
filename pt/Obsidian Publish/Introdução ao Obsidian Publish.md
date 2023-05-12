@@ -1,18 +1,18 @@
 ---
-alias: [Obsidian Publish]
+alias: [Publicação Obsidian]
 ---
 
-Obsidian Publish is a cloud-based service where you can publish your notes to the world.
+Obsidian Publish é um serviço baseado em nuvem onde você pode publicar suas anotações para o mundo.
 
-Select the notes you want to share with the world, press "Publish", and we'll post it to publish.obsidian.md/your-site.
+Selecione as notas que deseja compartilhar com o mundo, pressione "Publicar" e nós as postaremos em publish.obsidian.md/your-site.
 
-If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're already looking at a site that uses Obsidian Publish. You can see the vault on [GitHub](https://github.com/obsidianmd/obsidian-docs).
+Se você está lendo isso em [help.obsidian.md](https://help.obsidian.md), você já está olhando para um site que usa o Obsidian Publish. Você pode ver o cofre no [GitHub](https://github.com/obsidianmd/obsidian-docs).
 
-## Learn more
+## Saber mais
 
-- If you're a new Obsidian Publish user, learn how to [[Configure a Publicação Obsidian]].
-- If you have more than one site, learn how to [[Gerenciar sites]].
-- If you want to share your site with other collaborators, refer to [[Colaborando]].
-- If you want to customize how your site looks, refer to [[Personalize seu site]].
-- If you want to know how we keep your notes safe, refer to [[Obsidian Publish/Segurança e privacidade]].
-- If you want to use your own domain, refer to [[Configurar um domínio personalizado|custom domain]].
+- Se você é um novo usuário do Obsidian Publish, saiba como [[Configurar uma Publicação Obsidian]].
+- Se você tem mais de um site, saiba como [[Gerenciar sites]].
+- Caso queira compartilhar seu site com outros colaboradores, consulte [[Colaborando]].
+- Se você deseja personalizar a aparência do seu site, consulte [[Personalizar seu site]].
+- Se quiser saber como mantemos suas anotações seguras, consulte [[Obsidian Publish/Segurança e privacidade]].
+- Caso pretenda utilizar um domínio próprio, consulte [[Configurar um domínio personalizado|domínio personalizado]].

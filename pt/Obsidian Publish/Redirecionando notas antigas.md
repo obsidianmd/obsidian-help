@@ -1,35 +1,68 @@
-Renaming and removing notes is a natural part of maintaining a living vault. While Obsidian automatically updates links when you move a note within your local vault, other websites may still link to your old notes on your published [[Introdução ao Obsidian Publish|Obsidian Publish]] site. In this article, you'll learn how to redirect readers from one note to another.
+Esta página explica como gerenciar suas notas publicadas.
 
-Imagine you want to move a note from one folder to another:
+## Publicar notas
 
-- **Guides**
-  - ~~Making friends.md~~ (removed)
-- **Tutorials**
-  - *How to make friends.md* (added)
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **NOVO** para ver todas as notas que você ainda não publicou.
+3. Selecione as notas que deseja publicar.
+4. Clique em **Publicar**.
 
-After you move the note, Obsidian automatically updates all links within the vault. However, if you publish the change to your Publish site, any links to `/Guides/Making+friends` will result in a 404.
+## Cancelar publicação de notas
 
-To redirect readers from `/Guides/Making+friends` to `/Tutorials/How+to+make+friends`, you need to add an [[Apelidos|alias]] in `How to make friends.md`, the note you want to redirect to.
+As anotações permanecem em seu cofre local mesmo depois que você cancela a publicação.
 
-```md
----
-alias: Guides/Making friends
----
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **INALTERADO** para ver todas as suas notas publicadas.
+3. Selecione as notas que deseja cancelar a publicação.
+4. Clique em **Publicar**.
 
-# How to make friends
+## Atualizar uma nota publicada
+
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Na caixa de diálogo **Publicar alterações**, clique em **ALTERADO** para ver todas as notas que foram alteradas desde a última vez que foram publicadas.
+3. Selecione as notas que deseja atualizar.
+4. Clique em **Publicar**.
+
+## Publicar notas vinculadas
+
+A publicação de notas com links para outras notas resulta em links quebrados, a menos que você também publique as notas vinculadas. Obsidian Publish pode ajudá-lo selecionando notas que estão vinculadas às notas que já estão selecionadas.
+
+Para selecionar todas as notas vinculadas, clique em **Adicionar vinculadas** na caixa de diálogo **Publicar alterações**.
+
+Revise a seleção atualizada para garantir que ela não inclua nenhuma nota que você ainda não esteja pronto para publicar.
+
+## Selecionar notas automaticamente para publicar
+
+Para selecionar automaticamente uma nota a ser publicada, defina `publish: true` em [[Metadata]] para a nota.
+
+## Ignorar notas
+
+Para ignorar uma nota no Obsidian Publish, defina `publish: false` no [[Metadata]] para a nota.
+
+A nota não aparece mais na lista de notas a serem publicadas.
+
+## Links permanentes
+
+Você pode renomear o URL de suas anotações usando _permalinks_.
+
+Por exemplo, você pode transformar isso:
+
+```
+https://publish.obsidian.md/username/Company/About+us
 ```
 
-> [!important]
-> Make sure that you include the full path to the old note in the alias. While using only the note name as an alias works in your local vault, Publish needs the full path to the note to be able to redirect to it.
+Nisso:
 
-You can redirect multiple notes by adding an alias for each.
-
-```md
----
-aliases: 
-  - Guides/Making friends
-  - Developing friendships
----
-
-# How to make friends
 ```
+https://publish.obsidian.md/username/about
+```
+
+Para criar um permalink para uma nota, adicione a propriedade `permalink` ao seu [[Metadata]].
+
+```yaml
+---
+link permanente: sobre
+---
+```
+
+Se alguém visitar uma nota usando o URL original, será redirecionado automaticamente para o permalink.

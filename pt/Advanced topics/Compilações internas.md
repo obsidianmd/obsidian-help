@@ -1,41 +1,41 @@
-Get early access to upcoming releases by enabling _Insider builds_.
+Obtenha acesso antecipado aos próximos lançamentos habilitando _Insider builds_.
 
-Insider builds are only available to users with a [[Licensa Catalyst]].
+As compilações Insider estão disponíveis apenas para usuários com um [[Licensa Catalyst]].
 
 > [!warning]
-> Insider builds are development builds and may be unstable. Don't enable Insider builds if you prefer a more reliable experience.
+> Compilações internas são compilações de desenvolvimento e podem ser instáveis. Não ative compilações do Insider se preferir uma experiência mais confiável.
 
-## Enable Insider builds for desktop
+## Habilitar compilações do Insider para desktop
 
-To receive new Insider builds as soon as they're available, follow these steps:
+Para receber novas compilações do Insider assim que estiverem disponíveis, siga estas etapas:
 
-1. Open **Settings**.
-2. In the sidebar, select **About**.
-3. Under **App**, enable **Receive insider builds**.
+1. Abra **Configurações**.
+2. Na barra lateral, selecione **Sobre**.
+3. Em **App**, habilite **Receive insider builds**.
 
-## Install Insider builds on mobile devices
+## Instalar compilações do Insider em dispositivos móveis
 
-To find instructions on how to install Insider builds on your mobile device, follow these steps:
+Para encontrar instruções sobre como instalar builds do Insider em seu dispositivo móvel, siga estas etapas:
 
-1. Join the [Obsidian Discord server](https://discord.gg/veuWUTm).
-2. [[Licensa Catalyst#Get your Discord badge|Get your Discord badge]] to access insider channels.
-3. Open Discord.
-4. In the `#insider-mobile` channel, open **Pinned Messages**.
-   - On desktop, select the pushpin icon in the upper-right corner.
-   - On mobile, swipe left and select **Pins**.
-5. Under **Pinned Messages**, select the installation link for your device:
-   - If you're using iOS, open the TestFlight link on your iPhone or iPad.
-   - If you're using Android, download and install the APK file.
+1. Junte-se ao [servidor Obsidian Discord](https://discord.gg/veuWUTm).
+2. [[Licensa Catalyst#Get your Discord badge|Get your Discord badge]] para acessar os canais internos.
+3. Abra o Discord.
+4. No canal `#insider-mobile`, abra **Mensagens fixadas**.
+    - Na área de trabalho, selecione o ícone de alfinete no canto superior direito.
+    - No celular, deslize para a esquerda e selecione **Pins**.
+5. Em **Mensagens fixadas**, selecione o link de instalação para o seu dispositivo:
+    - Se estiver usando iOS, abra o link TestFlight em seu iPhone ou iPad.
+    - Se estiver usando Android, baixe e instale o arquivo APK.
 
-## Report issues and other feedback
+## Relatar problemas e outros comentários
 
-If you discover an issue in an Insider build, consider reporting it to the Obsidian team.
+Se você descobrir um problema em uma compilação do Insider, considere relatá-lo à equipe da Obsidian.
 
-Before you report an issue, refer to the [List of known issues and planned improvements](https://forum.obsidian.md/t/list-of-known-issues-and-planned-improvements/14286) to see if someone has already reported it.
+Antes de relatar um problema, consulte a [Lista de problemas conhecidos e melhorias planejadas](https://forum.obsidian.md/t/list-of-known-issues-and-planned-improvements/14286) para ver se alguém já denunciou.
 
-To report an issue, please use one of the following channels:
+Para relatar um problema, use um dos seguintes canais:
 
-- On Discord, report the issue in the `#insider-build` channel.
-- In the forum, create a new topic under [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
+- No Discord, reporte o problema no canal `#insider-build`.
+- No fórum, crie um novo tópico em [Relatórios de bugs](https://forum.obsidian.md/c/bug-reports/7).
 
-When you report an issue, include the build version and the OS you're running it on. You can find the build version under **Settings > About > App > Current version**.
+Ao relatar um problema, inclua a versão de compilação e o sistema operacional em que está sendo executado. Você pode encontrar a versão de compilação em **Configurações > Sobre > Aplicativo > Versão atual**.

@@ -1,10 +1,10 @@
 ---
 aliases:
-- Advanced topics/HTML sanitization
+- Tópicos avançados/higienização HTML
 ---
 
-Obsidian supports HTML to allow you to display your notes the way you want, or even [[Incorporando páginas da web|embed web pages]]. But allowing HTML inside your notes comes with risks. To prevent malicious code from doing harm, Obsidian _sanitizes_ any HTML in your notes.
+O Obsidian suporta HTML para permitir que você exiba suas anotações da maneira que desejar, ou mesmo [[Incorporando páginas da web|incorpore páginas da web]]. Mas permitir HTML dentro de suas anotações traz riscos. Para evitar que códigos maliciosos causem danos, o Obsidian _limpa_ qualquer HTML em suas anotações.
 
-The Obsidian team takes security seriously, and as a result, some HTML elements or features may not be available.
+A equipe da Obsidian leva a segurança muito a sério e, como resultado, alguns elementos ou recursos HTML podem não estar disponíveis.
 
-For example, the `<script>` element normally lets you run JavaScript whenever it loads. If Obsidian didn't sanitize HTML, an attacker could convince you to paste a text containing JavaScript that extracts sensitive information from your computer and sends it back to them.
+Por exemplo, o elemento `<script>` normalmente permite executar o JavaScript sempre que ele é carregado. Se o Obsidian não limpasse o HTML, um invasor poderia convencê-lo a colar um texto contendo JavaScript que extrai informações confidenciais do seu computador e as envia de volta para eles.

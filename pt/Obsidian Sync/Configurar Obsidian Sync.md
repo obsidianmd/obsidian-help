@@ -1,46 +1,46 @@
-In this guide, you'll enable [[Introdução ao Obsidian Sync|Obsidian Sync]] for your vault.
+Neste guia, você habilitará [[Introdução ao Obsidian Sync|Obsidian Sync]] para seu vault.
 
-> [!NOTE] Remote vaults and local vaults
-> In this guide, you'll create a new [[Cofres locais e remotos|remote vault]] and connect it to an existing local vault. You don't need to create a new local vault to use Obsidian Sync.
+> [!NOTE] Cofres remotos e locais
+> Neste guia, você criará um novo [[Cofres locais e remotos|cofre remoto]] e o conectará a um cofre local existente. Você não precisa criar um novo cofre local para usar o Obsidian Sync.
 
-### Prerequisites
+### Pré-requisitos
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Sync subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
+- Uma conta de obsidiana. Se você não tiver um, [inscreva-se agora](https://obsidian.md/account#mode=signup).
+- Uma assinatura ativa do Obsidian Sync. Se você não tiver um, inscreva-se na [página da conta](https://obsidian.md/account).
 
-### Log in with your Obsidian account
+### Faça login com sua conta Obsidian
 
-1. Open **Settings**.
-2. In the sidebar, click **About**.
-3. Under **Account > Your Account**, click **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Click **Login**.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Sobre**.
+3. Em **Conta > Sua conta**, clique em **Fazer login**.
+4. Em **E-mail**, digite seu e-mail.
+5. Em **Senha**, digite sua senha.
+6. Clique em **Login**.
 
-### Enable Obsidian Sync
+### Habilitar Sincronização Obsidiana
 
-1. Open **Settings**.
-2. In the sidebar, click **Core plugins**.
-3. Enable **Sync**.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Plugins principais**.
+3. Ative **Sincronizar**.
 
-### Create a new remote vault
+### Crie um novo cofre remoto
 
-1. Open **Settings**.
-2. In the sidebar, click **Sync**.
-3. Next to **Remote vault**, click **Choose**.
-4. Click **Create new vault**.
-5. In **Vault name**, enter the name of the remote vault.
-6. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Obsidian Sync/Segurança e privacidade]].
-7. Click **Create**.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Sincronizar**.
+3. Ao lado de **Cofre remoto**, clique em **Escolher**.
+4. Clique em **Criar novo cofre**.
+5. Em **Nome do cofre**, insira o nome do cofre remoto.
+6. Em **Senha de criptografia**, escolha uma senha para seu cofre. Isso cria um cofre criptografado de ponta a ponta. A senha do cofre é separada da sua conta Obsidian e pode ser diferente para cada um dos seus cofres. Para mais informações, consulte [[Obsidian Sync/Segurança e privacidade]].
+7. Clique em **Criar**.
 
-### Connect to a remote vault
+### Conecte-se a um cofre remoto
 
-1. Next to your newly created vault, click **Connect**.
-2. In **Encryption password**, enter the password you configured for the vault.
-3. Click **Unlock vault**.
-4. Click **Start syncing**.
+1. Ao lado do cofre recém-criado, clique em **Conectar**.
+2. Em **Senha de criptografia**, insira a senha que você configurou para o cofre.
+3. Clique em **Desbloquear cofre**.
+4. Clique em **Iniciar sincronização**.
 
-> [!note] Sync settings and other file types
-> By default, Sync only syncs notes and images. For information how to sync other file types, refer to [[Selecione arquivos e configurações para sincronizar#Select file types to sync|Select file types to sync]].
+> [!note] Configurações de sincronização e outros tipos de arquivo
+> Por padrão, Sincronizar apenas sincroniza notas e imagens. Para informações sobre como sincronizar outros tipos de arquivos, consulte [[Selecione arquivos e configurações para sincronizar#Selecione tipos de arquivos para sincronizar|Selecione tipos de arquivos para sincronizar]].
 >
-> If you want to sync vault configuration, such as settings for [[Plugins essenciais]], [[Teclas de atalho personalizadas]], or [[Plugins da comunidade]], learn how to [[Selecione arquivos e configurações para sincronizar#Sync vault configuration|Sync vault configuration]].
+> Se você deseja sincronizar a configuração do cofre, como configurações para [[Plugins essenciais]], [[Teclas de atalho personalizado]] ou [[Plugins da comunidade]], aprenda como [[Selecione arquivos e configurações para sincronizar# Configuração do cofre de sincronização|Configuração do cofre de sincronização]].

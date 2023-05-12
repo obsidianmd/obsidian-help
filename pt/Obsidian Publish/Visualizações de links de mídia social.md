@@ -1,39 +1,39 @@
-Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Metadata]], you can customize how your notes appear in the preview.
+Muitas redes sociais exibem uma visualização avançada do seu site quando um usuário compartilha um link para ele. Usando [[Metadata]], você pode personalizar como suas notas aparecem na visualização.
 
-## Description
+## Descrição
 
-Obsidian automatically generates a description based on the note content, but you can provide your own using `description`.
-
-```yaml
----
-description: An introduction to our solar system.
----
-```
-
-> [!note] Meta tags
-> `description` overrides the auto-generated description in `<meta name="description" content="...">` and the equivalents for `og:description` and `twitter:description`.
-
-## Image
-
-You can use a custom image for the link preview, by adding `image` or `cover` with a path to the image.
-
-The path can be an absolute path from the root of your vault:
+Obsidian gera automaticamente uma descrição com base no conteúdo da nota, mas você pode fornecer sua própria descrição usando `description`.
 
 ```yaml
 ---
-cover: "Attachments/Cover image.png"
+descrição: Uma introdução ao nosso sistema solar.
 ---
 ```
 
-Or, an external URL:
+> [!nota] Meta tags
+> `description` substitui a descrição gerada automaticamente em `<meta name="description" content="...">` e os equivalentes para `og:description` e `twitter:description`.
+
+## Imagem
+
+Você pode usar uma imagem personalizada para a visualização do link, adicionando `image` ou `cover` com um caminho para a imagem.
+
+O caminho pode ser um caminho absoluto da raiz do seu cofre:
 
 ```yaml
 ---
-image: "https://example.com/cover%20image.png"
+capa: "Anexos/imagem da capa.png"
 ---
 ```
 
-`image` and `cover` are identical. Only use one of them.
+Ou, um URL externo:
 
-> [!note] Meta tags
-> `image` and `cover` overrides the auto-generated image in `<meta property="og:image" content="...">`.
+```yaml
+---
+imagem: "https://example.com/cover%20image.png"
+---
+```
+
+`image` e `cover` são idênticos. Use apenas um deles.
+
+> [!nota] Meta tags
+> `image` e `cover` substitui a imagem gerada automaticamente em `<meta property="og:image" content="...">`.

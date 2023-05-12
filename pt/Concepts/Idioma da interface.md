@@ -1,3 +1,3 @@
-The interface of Obsidian has been translated to various languages by [[Créditos#Translators|our amazing volunteer translators]]. You can change the interface language either in Settings → About or in the [[Alternador de cofre]].
+A interface do Obsidian foi traduzida para vários idiomas por [[Créditos#Translators|nossos incríveis tradutores voluntários]]. Você pode alterar o idioma da interface em Configurações → Sobre ou no [[Alternador de cofre]].
 
-Don’t see your language in the list or seeing untranslated bits? Consider [[Traduções|help us translate Obsidian into your language]].
+Não vê seu idioma na lista ou vê trechos não traduzidos? Considere [[Traduções|ajude-nos a traduzir Obsidian para o seu idioma]].

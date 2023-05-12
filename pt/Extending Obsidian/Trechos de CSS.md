@@ -1,30 +1,30 @@
-Learn how to modify aspects of the Obsidian appearance without needing to [[Criar temas|develop a theme]].
+Aprenda a modificar aspectos da aparência da Obsidiana sem precisar [[Criar temas|desenvolver um tema]].
 
-CSS is a language to describe how to present a HTML document. By adding CSS snippets, you can redefine parts of the Obsidian user interface, such as the size and color of headings.
+CSS é uma linguagem para descrever como apresentar um documento HTML. Ao adicionar trechos de CSS, você pode redefinir partes da interface do usuário do Obsidian, como o tamanho e a cor dos cabeçalhos.
 
-Obsidian looks for CSS snippets inside the vault configuration folder.
+O Obsidian procura trechos de CSS dentro da pasta de configuração do vault.
 
-To add a CSS snippet, follow these steps:
+Para adicionar um trecho de CSS, siga estas etapas:
 
-1. Open **Settings**.
-2. Under **Appearance > CSS snippets**, select **Open snippets folder** (folder icon).
-3. In the snippets folder, create a CSS file that contains your snippet.
-4. In Obsidian, under **Appearance > CSS snippets**, select **Reload snippets** (refresh icon) to see the snippet in the list.
+1. Abra **Configurações**.
+2. Em **Aparência > Trechos CSS**, selecione **Abrir pasta de trechos** (ícone de pasta).
+3. Na pasta snippets, crie um arquivo CSS que contenha seu snippet.
+4. No Obsidian, em **Appearance > CSS snippets**, selecione **Reload snippets** (ícone de atualização) para ver o snippet na lista.
 
-Obsidian detects changes to CSS snippets automatically and applies them when you save your snippet. You don't need to restart Obsidian for changes to take effect.
+O Obsidian detecta alterações nos snippets CSS automaticamente e as aplica quando você salva seu snippet. Você não precisa reiniciar o Obsidian para que as alterações entrem em vigor.
 
-> [!tip] Example: Change text color
-> For example, create a file called `snippet.css` with the following content to change the text color to red:
+> [!dica] Exemplo: Alterar a cor do texto
+> Por exemplo, crie um arquivo chamado `snippet.css` com o seguinte conteúdo para alterar a cor do texto para vermelho:
 >
 >
 >
 > ```css
-> body {
->   --text-normal: red;
+> corpo {
+> --texto-normal: vermelho;
 > }
 > ```
 
-## Learn more
+## Saber mais
 
-- If you're new to CSS, refer to [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
-- If you want more tips on styling Obsidian, refer to [[Criar temas]].
+- Se você é novo em CSS, consulte [Aprenda a estilizar HTML usando CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) da Mozilla.
+- Se você quiser mais dicas sobre como estilizar Obsidian, consulte [[Criar temas]].

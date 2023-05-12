@@ -1,19 +1,19 @@
-Each collection of notes in Obsidian is known as a *vault*. A vault consists of a folder, and any subfolders within it. Right now, you're looking at the `Obsidian Help` vault, which is just a folder of files included with Obsidian.
+Cada coleção de notas em Obsidian é conhecida como *cofre*. Um cofre consiste em uma pasta e quaisquer subpastas dentro dela. Neste momento, você está olhando para o cofre `Obsidian Help`, que é apenas uma pasta de arquivos incluídos no Obsidian.
 
-You can open another vault anywhere on your computer, and it will retain its own individual [[Plugins essenciais|Plugins]] and [[Adicionar estilos personalizados|custom styling]]. This is useful, for example, if you have one vault where you keep notes but a different one in which you do long-form writing.
+Você pode abrir outro cofre em qualquer lugar do seu computador, e ele manterá seus próprios [[Plugins essenciais|Plugins]] e [[Adicionar estilos personalizados|custom styling]]. Isso é útil, por exemplo, se você tiver um cofre onde guarda notas, mas outro diferente no qual você escreve em formatos longos.
 
-A new or existing vault can be opened from the button just above the Settings gear.
+Um cofre novo ou existente pode ser aberto a partir do botão logo acima da engrenagem Configurações.
 
 ![[Vault picker.png]]
 
-You have the option to either open an existing folder of Markdown files, create a new vault (which essentially just creates a new folder that you will put Markdown files into), or opening a special vault containing these help files. The Help vault is stored in a special Obsidian folder (see [[Como a Obsidian armazena dados]]), but aside from that, it's a folder of files just like any other.
+Você tem a opção de abrir uma pasta existente de arquivos Markdown, criar um novo cofre (que basicamente cria uma nova pasta na qual você colocará os arquivos Markdown) ou abrir um cofre especial contendo esses arquivos de ajuda. O cofre da Ajuda é armazenado em uma pasta especial do Obsidian (veja [[Como o Obsidian armazena dados]]), mas fora isso, é uma pasta de arquivos como qualquer outra.
 
-[[Links internos]] aren't shared across Vaults. If you have one vault inside another vault, this can get confusing, so we recommend not doing that.
+[[Links internos]] não são compartilhados entre Vaults. Se você tiver um cofre dentro de outro cofre, isso pode ficar confuso, então recomendamos não fazer isso.
 
-Always remember, a vault is just a collection of Markdown files. You can use whatever file management techniques you would normally to move them around on your file system, and Obsidian will automatically refresh to keep up.
+Lembre-se sempre de que um cofre é apenas uma coleção de arquivos Markdown. Você pode usar quaisquer técnicas de gerenciamento de arquivos que normalmente usaria para movê-los em seu sistema de arquivos, e o Obsidian será atualizado automaticamente para acompanhar.
 
-### Transfer settings between vaults
+### Transferir configurações entre cofres
 
-All settings, themes, and plugins are stored in the `.obsidian` folder under your vault. If you copy this folder from one vault to another, all the settings will be transferred as well. You may need to restart Obsidian for all of the settings to take effect.
+Todas as configurações, temas e plugins são armazenados na pasta `.obsidian` em seu cofre. Se você copiar esta pasta de um cofre para outro, todas as configurações também serão transferidas. Pode ser necessário reiniciar o Obsidian para que todas as configurações entrem em vigor.
 
-This folder is hidden in some operating systems. Notably, you can use `Cmd-Shift-Period` to show hidden files on macOS in order to reveal the `.obsidian` folder.
+Esta pasta está oculta em alguns sistemas operacionais. Notavelmente, você pode usar `Cmd-Shift-Period` para mostrar arquivos ocultos no macOS para revelar a pasta `.obsidian`.

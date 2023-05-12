@@ -1,20 +1,20 @@
 ---
 aliases:
-- Licenses & Payment/Obsidian Credit
+- Licenças e pagamento/crédito de obsidiana
 ---
 
-Obsidian Credit is a type of prepaid credit. It can be bought in advance and applied towards purchases of all things Obsidian has to offer.
+Obsidian Credit é um tipo de crédito pré-pago. Ele pode ser comprado com antecedência e aplicado na compra de todas as coisas que a Obsidian tem a oferecer.
 
-Obsidian Credit will be applied before any payment is due, and it will also be applied at auto-renewals.
+O Obsidian Credit será aplicado antes do vencimento de qualquer pagamento e também será aplicado nas renovações automáticas.
 
-## Add credit
+## Adicionar crédito
 
-1. Log into your account [on our Account page](https://obsidian.md/account).
-2. Under **Payment & billing** > **Obsidian Credit**, click **Add**.
-3. Enter the amount of Obsidian Credit you want to buy. The amount is in US dollars.
-4. Proceed to pay for the credit with any of the supported payment methods.
+1. Faça login na sua conta [em nossa página Conta](https://obsidian.md/account).
+2. Em **Pagamento e cobrança** > **Crédito Obsidian**, clique em **Adicionar**.
+3. Digite a quantidade de Obsidian Credit que deseja comprar. O valor é em dólares americanos.
+4. Proceda ao pagamento do crédito com qualquer um dos métodos de pagamento suportados.
 
-> [!Note] Sales tax
-> Any applicable sales tax will be charged when you actually buy something, not when you buy Obsidian Credit.
+> [!Nota] Imposto sobre vendas
+> Qualquer imposto sobre vendas aplicável será cobrado quando você realmente comprar algo, não quando comprar Obsidian Credit.
 >
-> If you plan to cover auto-renewals with your credit, please take this into account.
+> Se você planeja cobrir as renovações automáticas com seu crédito, leve isso em consideração.

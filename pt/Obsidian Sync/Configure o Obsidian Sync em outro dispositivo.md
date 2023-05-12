@@ -1,49 +1,49 @@
 ---
-alias: Add another device
+alias: Adicionar outro dispositivo
 ---
 
-In this guide, you'll create a local vault on another device to sync with your remote vault. This keeps the local vaults on all your devices in sync.
+Neste guia, você criará um cofre local em outro dispositivo para sincronizar com seu cofre remoto. Isso mantém os cofres locais em todos os seus dispositivos sincronizados.
 
-> [!tip] Obsidian URIs
-> If you want Obsidian URIs to work across devices, make sure to give your local vaults the same name on all devices.
+> [!dica] URIs de obsidiana
+> Se você deseja que os URIs do Obsidian funcionem em todos os dispositivos, certifique-se de dar aos cofres locais o mesmo nome em todos os dispositivos.
 
-## Prerequisites
+## Pré-requisitos
 
-You need to have [[Configurar Obsidian Sync]] on at least one device and have created a remote vault on Obsidian Sync.
+Você precisa ter [[Configurar Obsidian Sync]] em pelo menos um dispositivo e ter criado um cofre remoto no Obsidian Sync.
 
-## Sync a remote vault on a fresh installation
+## Sincronize um cofre remoto em uma nova instalação
 
-If this is the first time you open Obsidian on the device, follow these steps:
+Se esta for a primeira vez que você abre o Obsidian no dispositivo, siga estas etapas:
 
-1. Open Obsidian.
-2. In the vault switcher window, select **Sign in** next to **Open vault from Obsidian Sync**.
-3. In **Email**, enter your email.
-4. In **Password**, enter your password.
-5. Select **Sign in**.
-6. Select **Connect** for the vault you want to set up.
-7. Enter a local name for the vault, or leave to use the same name as the remote vault.
-8. Select **Browse** and select the folder on your device where you want to sync the vault.
-9. Select **Create**.
-10. Select **Start syncing** to sync your local vault with the remote vault.
+1. Abra o Obsidian.
+2. Na janela do alternador de cofre, selecione **Fazer login** ao lado de **Abrir cofre do Obsidian Sync**.
+3. Em **E-mail**, digite seu e-mail.
+4. Em **Senha**, digite sua senha.
+5. Selecione **Entrar**.
+6. Selecione **Conectar** para o cofre que deseja configurar.
+7. Insira um nome local para o cofre ou use o mesmo nome do cofre remoto.
+8. Selecione **Procurar** e selecione a pasta em seu dispositivo onde deseja sincronizar o cofre.
+9. Selecione **Criar**.
+10. Selecione **Iniciar sincronização** para sincronizar seu cofre local com o cofre remoto.
 
-## Sync an existing local vault
+## Sincronize um cofre local existente
 
-This section explains how to sync an existing local vault with a remote vault.
+Esta seção explica como sincronizar um cofre local existente com um cofre remoto.
 
-![[Configurar Obsidian Sync#Log in with your Obsidian account]]
+![[Configurar Obsidian Sync#Faça login com sua conta Obsidian]]
 
 ![[Configurar Obsidian Sync#Enable Obsidian Sync]]
 
-### Connect to a remote vault
+### Conecte-se a um cofre remoto
 
-1. Open **Settings**.
-2. In the sidebar, click **Sync**.
-3. Next to **Pick remote vault**, click **Choose**.
-4. Click **Connect** next to the remote vault you want to connect to. If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding.
-5. In **Encryption password**, enter the password for your vault, if you have one.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Sincronizar**.
+3. Ao lado de **Escolher cofre remoto**, clique em **Escolher**.
+4. Clique em **Conectar** ao lado do cofre remoto ao qual deseja se conectar. Se o cofre do seu dispositivo já contiver algumas notas (não recomendado), você será avisado de que essas notas serão mescladas antes de prosseguir.
+5. Em **Senha de criptografia**, digite a senha do seu cofre, se você tiver uma.
 
-## Next steps
+## Próximos passos
 
-Obsidian Sync displays a green checkmark in the bottom-right corner when it has finished syncing the vaults.
+O Obsidian Sync exibe uma marca de seleção verde no canto inferior direito quando termina de sincronizar os cofres.
 
-If you don't want to sync the entire vault to your device, refer to [[Selecione arquivos e configurações para sincronizar]].
+Se você não deseja sincronizar todo o vault com seu dispositivo, consulte [[Selecione arquivos e configurações para sincronizar]].

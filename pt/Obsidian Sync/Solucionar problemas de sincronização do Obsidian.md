@@ -1,29 +1,29 @@
-This page lists common issues that you might encounter, and how to address them.
+Esta página lista problemas comuns que você pode encontrar e como resolvê-los.
 
-## Conflict resolution
+## Resolução de conflitos
 
-A conflict happens when you make changes to the same file on two or more devices between syncs. For example, you might have changed a file on your computer, and before that change is uploaded, you also change the same file on your phone.
+Um conflito ocorre quando você faz alterações no mesmo arquivo em dois ou mais dispositivos entre as sincronizações. Por exemplo, você pode ter alterado um arquivo em seu computador e, antes que essa alteração seja carregada, você também altera o mesmo arquivo em seu telefone.
 
-Conflicts usually happen more frequently if you work offline, since there are more changes and a longer period of time between syncs and thus more potential conflicts.
+Os conflitos geralmente acontecem com mais frequência se você trabalha offline, pois há mais alterações e um período de tempo maior entre as sincronizações e, portanto, mais conflitos em potencial.
 
-When Sync downloads a new version of a file, and finds that there are conflicts with the local version, the changes are merged with Google's diff-match-patch algorithm.
+Quando o Sync baixa uma nova versão de um arquivo e descobre que há conflitos com a versão local, as alterações são mescladas com o algoritmo diff-match-patch do Google.
 
-> [!tip]
-> To find when conflicts have happened, you can search for "Merging conflicted file" in **Settings → Sync → Sync activity → View**.
+> [!dica]
+> Para descobrir quando ocorreram conflitos, você pode procurar por "Mesclar arquivo com conflito" em **Configurações → Sincronizar → Sincronizar atividade → Exibir**.
 
-# Obsidian Sync deleted a note I just created on two devices
+# Obsidian Sync excluiu uma nota que acabei de criar em dois dispositivos
 
-Generally, Obsidian Sync tries to [[#Conflict resolution|resolve conflicts]] between devices by merging the content of the conflicting notes. Unfortunately, merging conflicting notes can cause issues for users who automatically generate notes on startup, for example using Daily notes.
+Geralmente, o Obsidian Sync tenta [[#Resolução de conflitos|resolver conflitos]] entre dispositivos mesclando o conteúdo das notas conflitantes. Infelizmente, mesclar notas conflitantes pode causar problemas para usuários que geram notas automaticamente na inicialização, por exemplo, usando notas diárias.
 
-If a note was created locally on a device less than a couple of minutes before Sync downloads a remote version of that note, then Sync keeps the remote version without attempting to merge the two. You can still recover the local version using [[File recovery]].
+Se uma nota foi criada localmente em um dispositivo menos de alguns minutos antes do Sync baixar uma versão remota dessa nota, o Sync mantém a versão remota sem tentar mesclar as duas. Você ainda pode recuperar a versão local usando [[Recuperação de arquivos]].
 
-## What does the `vault limit exceeded` error mean?
+## O que significa o erro `limite de cofre excedido`?
 
-Your vault exceeds the [[Limitações#How large can each remote vault be|maximum size of 10 GB]].
+Seu cofre excede o [[Limitações#Qual o tamanho de cada cofre remoto|tamanho máximo de 10 GB]].
 
-Since attachments and version history contributes to the total size of your vault, your vault can exceed the maximum size even if the actual size of your vault is less than the limit.
+Como os anexos e o histórico de versões contribuem para o tamanho total do cofre, ele pode exceder o tamanho máximo, mesmo que o tamanho real do cofre seja menor que o limite.
 
-To identify and purge large files from the vault:
+Para identificar e limpar arquivos grandes do cofre:
 
-1. Open **Settings → Sync**.
-2. Explore the options under **Vault size over limit** for how you can reduce the size of your vault.
+1. Abra **Configurações → Sincronizar**.
+2. Explore as opções em **Tamanho do cofre acima do limite** para saber como reduzir o tamanho do seu cofre.

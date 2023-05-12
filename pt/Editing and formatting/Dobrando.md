@@ -1,16 +1,16 @@
-Learn how to get a better overview of large notes by using _folding_ to hide parts of the note. Folding is useful when creating outlines for your notes and when you want to focus on what you're working on at the moment.
+Saiba como obter uma visão geral melhor de notas grandes usando _dobrar_ para ocultar partes da nota. Dobrar é útil ao criar contornos para suas anotações e quando você deseja se concentrar no que está trabalhando no momento.
 
-You can fold headings and indented lists by hovering the mouse cursor over the section you want to fold, and then selecting the arrow on the left. Folded sections show an arrow regardless of if you hover it or not.
+Você pode dobrar títulos e listas recuadas passando o cursor do mouse sobre a seção que deseja dobrar e selecionando a seta à esquerda. As seções dobradas mostram uma seta independentemente de você passar o mouse sobre ela ou não.
 
-Folding is turned on by default. To turn off folding, open **Settings** → **Editor**, and then turn off **Fold indent** or **Fold heading**, depending on your needs.
+A dobragem é ativada por padrão. Para desativar a dobra, abra **Configurações** → **Editor** e desative **Recuo da dobra** ou **Título da dobra**, dependendo de suas necessidades.
 
-To toggle all sections at the same time, use the following commands:
+Para alternar todas as seções ao mesmo tempo, use os seguintes comandos:
 
-- To collapse all sections, open the [[Command palette]], and then select **Fold all headings and lists**.
-- To expand all sections, open the [[Command palette]], and then select **Unfold all headings and lists**.
+- Para recolher todas as seções, abra a [[Command palette]] e selecione **Dobrar todos os cabeçalhos e listas**.
+- Para expandir todas as seções, abra a [[Command palette]] e selecione **Desdobrar todos os cabeçalhos e listas**.
 
 > [!tip]
-> If you prefer to fold using your keyboard, you can assign [[Teclas de atalho personalizadas|hotkeys]] to the **Fold less** and **Fold more** commands.
+> Se preferir dobrar com o teclado, pode atribuir [[Teclas de atalho personalizadas|hotkeys]] aos comandos **Dobrar menos** e **Dobrar mais**.
 >
-> - **Fold less** unfolds the section at the text cursor.
-> - **Fold more** folds the section or list that contains the text cursor.
+> - **Fold less** desdobra a seção no cursor de texto.
+> - **Dobrar mais** dobra a seção ou lista que contém o cursor de texto.

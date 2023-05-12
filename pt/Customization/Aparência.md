@@ -1,15 +1,15 @@
-### Base theme
+### Tema base
 
-Obsidian comes with two base themes, light and dark. This option sets the default color scheme your theme uses to either display its light or dark mode version.
+Obsidian vem com dois temas básicos, claro e escuro. Esta opção define o esquema de cores padrão que seu tema usa para exibir sua versão em modo claro ou escuro.
 
-### Custom theme
+### Tema personalizado
 
-There are lots of community themes contributed by our amazing community that you can easily choose from.
+Há muitos temas de comunidade contribuídos por nossa incrível comunidade que você pode escolher facilmente.
 
-You can easily tweak it by adding [[Adicionar estilos personalizados#Use Themes and or CSS snippets|CSS snippets]].
+Você pode ajustá-lo facilmente adicionando [[Adicionar estilos personalizados#Use Themes and or CSS snippets|CSS snippets]].
 
-### Translucency
+### Translucidez
 
-You can make the window translucent by enabling this option in the settings appearance tab. Currently this option is only available for Windows and macOS.
+Você pode tornar a janela translúcida ativando esta opção na guia de configurações de aparência. Atualmente esta opção está disponível apenas para Windows e macOS.
 
-There's a known issue under Windows where dragging the window is extremely slow when translucency is enabled. This is due to a Windows bug. A GitHub issue tracking the status of a fix can be found here: https://github.com/riverar/sample-win32-acrylicblur/issues/2
+Há um problema conhecido no Windows em que arrastar a janela é extremamente lento quando a translucidez está ativada. Isso ocorre devido a um bug do Windows. Um problema do GitHub rastreando o status de uma correção pode ser encontrado aqui: https://github.com/riverar/sample-win32-acrylicblur/issues/2

@@ -2,17 +2,17 @@
 alias: [Obsidian Sync]
 ---
 
-Obsidian Sync is a cloud-based service that lets you store your notes on Obsidian's servers and sync them across your devices.
+Obsidian Sync é um serviço baseado em nuvem que permite armazenar suas anotações nos servidores da Obsidian e sincronizá-las em seus dispositivos.
 
-> [!important]
-> If you're using Obsidian Sync together with other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, refer to [[Obsidian Sync e serviços de terceiros]] to avoid sync conflicts.
+> [!importante]
+> Se você estiver usando o Obsidian Sync junto com outros provedores de armazenamento em nuvem, como Dropbox, Google Drive ou OneDrive, consulte [[Obsidian Sync e serviços de terceiros]] para evitar conflitos de sincronização.
 
-Learn more about Obsidian Sync:
+Saiba mais sobre o Obsidian Sync:
 
-- If you're a new Obsidian Sync user, learn how to [[Configurar Obsidian Sync]].
-- If you want to configure what to sync, refer to [[Selecione arquivos e configurações para sincronizar]].
-- If you already have Obsidian Sync enabled on a device, learn how to [[Configure o Obsidian Sync em outro dispositivo]].
-- If you want to know how to view or restore previous versions of a note, refer to [[Histórico da versão]].
-- If you want to know how we keep your notes safe, refer to [[Obsidian Sync/Segurança e privacidade]].
-- If you want to use a third-party service to back up your vault, refer to [[Obsidian Sync e serviços de terceiros]].
-- If you're having an issue with Obsidian Sync, refer to [[Solucionar problemas de sincronização do Obsidian]].
+- Se você é um novo usuário do Obsidian Sync, aprenda como [[Configurar Obsidian Sync]].
+- Se quiser configurar o que sincronizar, consulte [[Selecione arquivos e configurações para sincronizar]].
+- Se você já tem o Obsidian Sync habilitado em um dispositivo, saiba como [[Configurar o Obsidian Sync em outro dispositivo]].
+- Se quiser saber como visualizar ou restaurar versões anteriores de uma nota, consulte [[Histórico da versão]].
+- Se quiser saber como mantemos suas notas seguras, consulte [[Obsidian Sync/Segurança e privacidade]].
+- Se você deseja usar um serviço de terceiros para fazer backup de seu cofre, consulte [[Obsidian Sync e serviços de terceiros]].
+- Se estiver tendo problemas com o Obsidian Sync, consulte [[Solucionar problemas de sincronização do Obsidian]].

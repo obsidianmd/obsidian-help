@@ -1,44 +1,44 @@
 ---
-alias: How to/Read and edit modes
+alias: Como/Modos de leitura e edição
 ---
 
-Obsidian lets you customize how to edit and preview notes with Markdown syntax using _editor views_ and _editor modes_.
+O Obsidian permite que você personalize como editar e visualizar notas com a sintaxe Markdown usando _visualizações do editor_ e _modos do editor_.
 
-Markdown is a markup language that uses special syntax to format text that's mainly useful when editing your notes. Less so when reading them. Instead, Obsidian can show them in a way that's more suitable for reading.
+Markdown é uma linguagem de marcação que usa sintaxe especial para formatar texto que é útil principalmente ao editar suas anotações. Menos ainda ao lê-los. Em vez disso, o Obsidian pode mostrá-los de uma maneira mais adequada para leitura.
 
-Editor views and modes lets you customize how Markdown syntax appears when you're editing and reading notes.
+As visualizações e os modos do editor permitem que você personalize como a sintaxe Markdown aparece quando você está editando e lendo notas.
 
-## Editor views
+## Visualizações do editor
 
-You can switch between the _editing view_ and _reading view_, depending on whether you intend to make changes to the note.
+Você pode alternar entre a _visualização de edição_ e a _visualização de leitura_, dependendo se pretende fazer alterações na nota.
 
-To switch between views, select the view switcher (open book icon or pencil icon) in the upper-right corner of the editor, or press `Ctrl+E` (or `Cmd+E` on macOS) in the editor.
+Para alternar entre visualizações, selecione o alternador de visualização (ícone de livro aberto ou ícone de lápis) no canto superior direito do editor ou pressione `Ctrl+E` (ou `Cmd+E` no macOS) no editor.
 
-> [!note]
-> You need to enable **Settings → Appearance → Show tab title bar** to see the icon for switching views.
+> [!note] Dica
+> Você precisa habilitar **Configurações → Aparência → Mostrar barra de título da guia** para ver o ícone para alternar visualizações.
 
-You can change the default editor view under **Settings → Editor → Default view for new tabs**.
+Você pode alterar a visualização padrão do editor em **Configurações → Editor → Visualização padrão para novas abas**.
 
-> [!tip] Side-by-side preview
-> To open a note in both editing and reading view side-by-side, press `Ctrl` (or `Cmd` on macOS) and select the view switcher (open book icon or pencil icon) in the upper-right corner of the editor.
+> [!tip] Visualização lado a lado
+> Para abrir uma nota na visualização de edição e leitura lado a lado, pressione `Ctrl` (ou `Cmd` no macOS) e selecione o alternador de visualização (ícone de livro aberto ou ícone de lápis) no canto superior direito da editor.
 
-## Editor modes
+## Modos do editor
 
-In Editing view, you can edit your notes using one of two modes, _Live Preview_ or _Source mode_.
+Na visualização de edição, você pode editar suas anotações usando um dos dois modos, _Visualização ao vivo_ ou _Modo de origem_.
 
-You can change the default editor mode under **Settings → Editor → Default editing mode**.
+Você pode alterar o modo de edição padrão em **Configurações → Editor → Modo de edição padrão**.
 
-### Live Preview
+### Visualização ao vivo
 
-Live Preview is a smart editor mode that previews Markdown-formatted text while you're editing.
+A visualização ao vivo é um modo de editor inteligente que visualiza o texto formatado em Markdown enquanto você está editando.
 
-You can reveal the syntax for any Markdown-formatted text by moving the text cursor to it.
+Você pode revelar a sintaxe de qualquer texto formatado em Markdown movendo o cursor de texto para ele.
 
-> [!tip]
-> Since Live Preview lets you see the formatted in the editing view, it often removes the need to switch between editor views.
+> [!note] Dica
+> Como a visualização ao vivo permite que você veja o formato na visualização de edição, geralmente elimina a necessidade de alternar entre as visualizações do editor.
 
-### Source mode
+### Modo de origem
 
-Source mode displays the Markdown syntax for the entire note.
+O modo Source exibe a sintaxe Markdown para toda a nota.
 
-Use Source mode if you prefer to see the plain text representation of the note.
+Use o modo Fonte se preferir ver a representação em texto simples da nota.

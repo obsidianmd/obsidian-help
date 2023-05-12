@@ -1,90 +1,90 @@
 ---
-aliases: 
-- How to/Internal link
-- How to/Link to blocks
+aliases:
+- Como fazer/Link interno
+- Como fazer/Link para blocos
 ---
 
-Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge. ^b15695
+Aprenda como criar links para notas, anexos e outros arquivos de suas notas, usando _links internos_. Ao vincular notas, você pode criar uma rede de conhecimento. ^b15695
 
-Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under **Settings** > **Files & Links** > **Automatically update internal links**.
+O Obsidian pode atualizar automaticamente os links internos em seu cofre quando você renomeia um arquivo. Se você quiser ser avisado, pode desativá-lo em **Configurações** > **Arquivos e links** > **Atualizar links internos automaticamente**.
 
-## Supported formats for internal links
+## Formatos suportados para links internos
 
-Obsidian supports the following link formats:
+Obsidian suporta os seguintes formatos de link:
 
-- Wikilink: `[[Three laws of motion]]`
-- Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
+- Wikilink: `[[Três leis do movimento]]`
+- Remarcação: `[Três leis do movimento](Três%20leis%20of%20movimento.md)`
 
-The examples above are equivalent—they appear the same way in the editor, and links to the same note.
+Os exemplos acima são equivalentes - eles aparecem da mesma forma no editor e têm links para a mesma nota.
 
-> [!note]
-> When using the Markdown format, make sure to [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the link destination. For example, blank spaces become `%20`.
+> [!nota]
+> Ao usar o formato Markdown, certifique-se de [codificar URL](https://en.wikipedia.org/wiki/Percent-encoding) o destino do link. Por exemplo, os espaços em branco se tornam `%20`.
 
-By default, due to its more compact format, Obsidian generates links using the Wikilink format. If interoperability is important to you, you can disable Wikilinks and use Markdown links instead.
+Por padrão, devido ao seu formato mais compacto, o Obsidian gera links usando o formato Wikilink. Se a interoperabilidade for importante para você, você pode desativar os Wikilinks e usar os links Markdown.
 
-To use the Markdown format:
+Para usar o formato Markdown:
 
-1. Open **Settings**.
-2. Under **Files & Links**, disable **Use \[\[Wikilink\]\]**.
+1. Abra **Configurações**.
+2. Em **Arquivos e links**, desative **Usar \[\[Wikilink\]\]**.
 
-Even if you disable the Wikilink format, you can still autocomplete links by typing two square brackets `[[`. When you select one of the suggested files, Obsidian instead generates a Markdown link.
+Mesmo se você desabilitar o formato Wikilink, você ainda pode completar automaticamente os links digitando dois colchetes `[[`. Quando você seleciona um dos arquivos sugeridos, o Obsidian gera um link Markdown.
 
-## Link to a file
+## Link para um arquivo
 
-To create a link while in Editing view, use either of the following ways:
+Para criar um link no modo de exibição de edição, use uma das seguintes maneiras:
 
-- Type `[[` in the editor and then select the file you want to create a link to.
-- Select text in the editor and then type `[[`.
-- Open the [[Command palette]] and then select **Add internal link**.
+- Digite `[[` no editor e selecione o arquivo para o qual deseja criar um link.
+- Selecione o texto no editor e digite `[[`.
+- Abra a [[paleta de comandos]] e selecione **Adicionar link interno**.
 
-While you can link to any of the [[Formatos de arquivos aceitos]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
+Embora você possa vincular a qualquer um dos [[Formatos de arquivos aceitos]], os links para formatos de arquivo diferentes do Markdown precisam incluir uma extensão de arquivo, como `[[Figura 1.png]]`.
 
-## Link to a heading in a note
+## Link para um título em uma nota
 
-You can link to specific headings in notes, also known as _anchor links_.
+Você pode criar links para cabeçalhos específicos em notas, também conhecidos como _links âncora_.
 
-To link to a heading, add a hashtag (`#`) at the end of the link destination, followed by the heading text.
+Para vincular a um cabeçalho, adicione uma hashtag (`#`) no final do destino do link, seguida do texto do cabeçalho.
 
-For example, `[[Three laws of motion#Second law]]`.
+Por exemplo, `[[Três leis do movimento#Segunda lei]]`.
 
-You can add multiple hashtags for each subheading.
+Você pode adicionar várias hashtags para cada subtítulo.
 
-For example, `[[My note#Heading 1#Heading 2]]`.
+Por exemplo, `[[Minha nota#Título 1#Título 2]]`.
 
-## Link to a block in a note
+## Link para um bloco em uma nota
 
-A block is a unit of text in your note, for example a paragraph, block quote, or even a list item.
+Um bloco é uma unidade de texto em sua nota, por exemplo, um parágrafo, citação em bloco ou até mesmo um item de lista.
 
-You can link to a block by adding `#^` at the end of your link destination followed by a unique block identifier, for example, `[[2023-01-01#^37066d]]`.
+Você pode vincular a um bloco adicionando `#^` no final do destino do link, seguido por um identificador de bloco exclusivo, por exemplo, `[[2023-01-01#^37066d]]`.
 
-Fortunately, you don't need to know the identifier. When you type the caret (`^`), you can select the block from a list of suggestions to insert the right identifier.
+Felizmente, você não precisa saber o identificador. Ao digitar o cursor (`^`), você pode selecionar o bloco de uma lista de sugestões para inserir o identificador correto.
 
-You can also create human-readable block identifiers by adding ` ^quote-of-the-day` at the end of a block. Note the blank space before the caret. Now you can instead link to the block by typing `[[2023-01-01#^quote-of-the-day]]`.
+Você também pode criar identificadores de bloco legíveis por humanos adicionando ` ^quote-of-the-day` no final de um bloco. Observe o espaço em branco antes do cursor. Agora você pode criar um link para o bloco digitando `[[2023-01-01#^quote-of-the-day]]`.
 
-Block identifiers can only consist of letters, numbers, and dashes.
+Os identificadores de bloco podem consistir apenas em letras, números e hífens.
 
-> [!warning] Interoperability
-> Block references are specific to Obsidian and not part of the standard Markdown format. Links containing block references won't work outside of Obsidian.
+> [!aviso] Interoperabilidade
+> As referências de bloco são específicas para Obsidian e não fazem parte do formato Markdown padrão. Links contendo referências de bloco não funcionarão fora do Obsidian.
 
-## Change the link display text
+## Altere o texto de exibição do link
 
-You can change the text used to display a link. This can be useful when you want to work a link into a sentence without using the name of the file.
+Você pode alterar o texto usado para exibir um link. Isso pode ser útil quando você deseja inserir um link em uma frase sem usar o nome do arquivo.
 
-**Wikilink format:**
+**Formato Wikilink:**
 
-You can use the vertical bar (`|`) to change the text used to display a link.
+Você pode usar a barra vertical (`|`) para alterar o texto usado para exibir um link.
 
-For example, `[[Internal links|custom display text]]` appears as [[Links internos|custom display text]].
+Por exemplo, `[[Links internos|texto de exibição personalizado]]` aparece como [[Links internos|texto de exibição personalizado]].
 
-**Markdown format:**
+**Formato de marcação:**
 
-Enter the display text between the square brackets (`[]`).
+Digite o texto de exibição entre os colchetes (`[]`).
 
-For example, `[custom display text](Internal%20links.md)` appears as [custom display text](Links%20internos.md).
+Por exemplo, `[texto de exibição personalizado](Internal%20links.md)` aparece como [texto de exibição personalizado](Links%20internos.md).
 
-## Preview a linked file
+## Visualizar um arquivo vinculado
 
-> [!note]
-> To preview linked files, you first need to enable [[Page preview]].
+> [!nota]
+> Para visualizar arquivos vinculados, primeiro você precisa habilitar [[Page preview]].
 
-To preview a linked file, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
+Para visualizar um arquivo vinculado, pressione `Ctrl` (ou `Cmd` no macOS) enquanto passa o cursor sobre o link. Uma visualização do conteúdo do arquivo aparece ao lado do cursor.

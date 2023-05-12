@@ -1,40 +1,39 @@
-The Obsidian team takes security seriously. This page explains the risks involved when installing community plugins, and what the Obsidian team does to address them.
+A equipe da Obsidian leva a segurança muito a sério. Esta página explica os riscos envolvidos na instalação de plug-ins da comunidade e o que a equipe da Obsidian faz para resolvê-los.
 
-> [!tip]
-> If you're working with sensitive data and wish to install a community plugin, we recommend that you perform an independent security audit before using it.
+> [!dica]
+> Se você estiver trabalhando com dados confidenciais e desejar instalar um plug-in da comunidade, recomendamos que faça uma auditoria de segurança independente antes de usá-lo.
 
-## Restricted mode
+## Modo restrito
 
-By default, Obsidian runs in Restricted Mode to prevent third-party code execution. Only disable Restricted mode if you trust the authors of the plugins that you install.
+Por padrão, o Obsidian é executado no modo restrito para impedir a execução de código de terceiros. Desative o modo restrito apenas se você confiar nos autores dos plug-ins que instalar.
 
-To turn off Restricted mode:
+Para desativar o modo restrito:
 
-1. Open **Settings**.
-2. In the side menu, select **Community plugins**.
-3. Select **Turn on community plugins**.
+1. Abra **Configurações**.
+2. No menu lateral, selecione **Plugins da comunidade**.
+3. Selecione **Ativar plug-ins da comunidade**.
 
-To turn on Restricted mode:
+Para ativar o modo restrito:
 
-1. Open **Settings**.
-2. In the side menu, select **Community plugins**.
-3. Next to **Restricted mode**, select **Turn on**.
+1. Abra **Configurações**.
+2. No menu lateral, selecione **Plugins da comunidade**.
+3. Ao lado de **Modo restrito**, selecione **Ativar**.
 
-Installed plugins remain in your vault even if you turn on Restricted mode, but are ignored by Obsidian.
+Os plug-ins instalados permanecem em seu cofre mesmo se você ativar o modo restrito, mas são ignorados pelo Obsidian.
 
-## Plugin capabilities
+## Recursos do plug-in
 
-Due to technical reasons, Obsidian is unable to reliably restrict plugins to specific permissions or access levels. As a result, consider the following examples of what community plugins can do:
+Devido a razões técnicas, a Obsidian não consegue restringir plug-ins de forma confiável a permissões ou níveis de acesso específicos. Como resultado, considere os seguintes exemplos do que os plugins da comunidade podem fazer:
 
-- Community plugins can access files on your computer.
-- Community plugins can connect to internet.
-- Community plugins can install additional programs.
+- Os plug-ins da comunidade podem acessar arquivos em seu computador.
+- Os plug-ins da comunidade podem se conectar à Internet.
+- Os plug-ins da comunidade podem instalar programas adicionais.
 
-## Plugin review process
+## Processo de revisão do plug-in
 
-Community plugins undergo an initial review when they're submitted to the plugin store. The Obsidian team is still small and unable to manually review every new release of community plugins.
+Os plug-ins da comunidade passam por uma revisão inicial quando são enviados à loja de plug-ins. A equipe da Obsidian ainda é pequena e incapaz de revisar manualmente cada nova versão dos plugins da comunidade.
 
-Instead, we rely on the help of the community to identify and report issues with plugins.
+Em vez disso, contamos com a ajuda da comunidade para identificar e relatar problemas com plugins.
 
-- If you find any security flaws with a community plugin, create an issue on the plugin repository on GitHub.
-- If you suspect that a community plugin is malicious, report it to [[Ajuda e suporte#Contact Obsidian support|Obsidian support]], or by sending a DM to our moderators.
-
+- Se você encontrar alguma falha de segurança em um plug-in da comunidade, crie um problema no repositório de plug-ins no GitHub.
+- Se você suspeitar que um plugin da comunidade é malicioso, denuncie para [[Ajuda e suporte#Contact Obsidian support|Obsidian support]], ou enviando um DM para nossos moderadores.

@@ -1,43 +1,43 @@
-In this guide, you'll enable [[Introdução ao Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
+Neste guia, você habilitará [[Introdução ao Obsidian Publish|Obsidian Publish]] para seu cofre, criará um site e publicará suas anotações nele.
 
-## Prerequisites
+## Pré-requisitos
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Publish subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
+- Uma conta de obsidiana. Se você não tiver um, [inscreva-se agora](https://obsidian.md/account#mode=signup).
+- Uma assinatura ativa da Obsidian Publish. Se você não tiver um, inscreva-se na [página da conta](https://obsidian.md/account).
 
-## Step 1: Log in with your Obsidian account
+## Etapa 1: faça login com sua conta Obsidian
 
-1. Open **Settings**.
-2. In the sidebar, click **About**.
-3. Under **Account > Your Account**, click **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Click **Login**.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Sobre**.
+3. Em **Conta > Sua conta**, clique em **Fazer login**.
+4. Em **E-mail**, digite seu e-mail.
+5. Em **Senha**, digite sua senha.
+6. Clique em **Login**.
 
-## Step 2: Enable Obsidian Publish
+## Passo 2: Habilitar Publicação Obsidian
 
-1. Open **Settings**.
-2. In the sidebar, click **Core plugins**.
-3. Enable **Publish**.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Plugins principais**.
+3. Ative **Publicar**.
 
-## Step 3: Create a new site
+## Passo 3: Crie um novo site
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from publish.obsidian.md/my-amazing-site.
-3. Click **Create**.
+1. Na faixa de opções, à esquerda da janela do aplicativo, clique em **Publicar alterações** (ícone de avião de papel).
+2. Em **Site ID**, digite o caminho que deseja para o seu site. Por exemplo, um site com o ID `my-amazing-site` está disponível em publish.obsidian.md/my-amazing-site.
+3. Clique em **Criar**.
 
-## Step 4: Set a site name
+## Passo 4: Defina um nome de site
 
-1. In the **Publish changes** dialog, click **Change site options** (cog icon).
-2. In **Site name**, under **Metadata**, enter the name of your site.
-3. Click **Save site settings**.
+1. Na caixa de diálogo **Publicar alterações**, clique em **Alterar opções do site** (ícone de engrenagem).
+2. Em **Nome do site**, em **Metadados**, digite o nome do seu site.
+3. Clique em **Salvar configurações do site**.
 
-## Step 5: Select notes to publish
+## Etapa 5: selecione as notas para publicar
 
-1. In the **Publish changes** dialog, click **NEW** to see all the notes you haven't published yet.
-2. Select the notes you want to publish.
-3. Click **Publish**.
+1. Na caixa de diálogo **Publicar alterações**, clique em **NOVO** para ver todas as notas que você ainda não publicou.
+2. Selecione as notas que deseja publicar.
+3. Clique em **Publicar**.
 
-The notes you selected are now available on your site. For more information, refer to [[Publicar e cancelar a publicação de notas]].
+As notas que você selecionou agora estão disponíveis em seu site. Para mais informações, consulte [[Publicar e cancelar a publicação de notas]].
 
-You've configured a Obsidian Publish site and published your first notes. Head over to the site address you configured earlier in this guide, and start sharing it with your readers.
+Você configurou um site Obsidian Publish e publicou suas primeiras notas. Acesse o endereço do site que você configurou anteriormente neste guia e comece a compartilhá-lo com seus leitores.
