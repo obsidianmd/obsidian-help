@@ -15,7 +15,7 @@ For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note cre
 
 **Command palette:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
 2. Search for the **Create new unique note** command.
 3. Press `Enter` with the command selected.
 
@@ -27,4 +27,4 @@ By default, new unique notes are empty. To use another file as a template:
 - In the sidebar, click **Core plugins > Unique note creator**.
 - In **Template file location**, enter the file you want to use as template.
 
-For more information about how to write templates, refer to [[Templates]].
+For more information about how to write templates, refer to [[Modelos]].

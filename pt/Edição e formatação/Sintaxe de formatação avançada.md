@@ -125,7 +125,7 @@ classe Biologia, Química link interno;
 ```
 
 > [!nota]
-> Os links internos dos diagramas não aparecem na [[Visualização do gráfico]].
+> Os links internos dos diagramas não aparecem na [[Visualização de gráfico]].
 
 Se você tiver muitos nós em seus diagramas, poderá usar o trecho a seguir.
 

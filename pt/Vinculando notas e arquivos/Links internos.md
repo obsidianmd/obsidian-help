@@ -85,6 +85,6 @@ Por exemplo, `[texto de exibição personalizado](Internal%20links.md)` aparece 
 ## Visualizar um arquivo vinculado
 
 > [!nota]
-> Para visualizar arquivos vinculados, primeiro você precisa habilitar [[Page preview]].
+> Para visualizar arquivos vinculados, primeiro você precisa habilitar [[Visualização da página]].
 
 Para visualizar um arquivo vinculado, pressione `Ctrl` (ou `Cmd` no macOS) enquanto passa o cursor sobre o link. Uma visualização do conteúdo do arquivo aparece ao lado do cursor.

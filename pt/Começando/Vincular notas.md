@@ -46,4 +46,4 @@ Outra maneira de navegar entre suas anotações é usar uma representação visu
 
 ## Saber mais
 
-Entender como suas notas estão conectadas torna-se cada vez mais difícil à medida que seu cofre cresce. Aprenda a usar a [[Graph view]] para obter insights mais profundos de sua base de conhecimento.
+Entender como suas notas estão conectadas torna-se cada vez mais difícil à medida que seu cofre cresce. Aprenda a usar a [[Visualização de gráfico]] para obter insights mais profundos de sua base de conhecimento.

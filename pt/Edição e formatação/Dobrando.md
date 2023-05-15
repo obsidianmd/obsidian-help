@@ -6,8 +6,8 @@ A dobragem é ativada por padrão. Para desativar a dobra, abra **Configuraçõe
 
 Para alternar todas as seções ao mesmo tempo, use os seguintes comandos:
 
-- Para recolher todas as seções, abra a [[Command palette]] e selecione **Dobrar todos os cabeçalhos e listas**.
-- Para expandir todas as seções, abra a [[Command palette]] e selecione **Desdobrar todos os cabeçalhos e listas**.
+- Para recolher todas as seções, abra a [[Paleta de comandos]] e selecione **Dobrar todos os cabeçalhos e listas**.
+- Para expandir todas as seções, abra a [[Paleta de comandos]] e selecione **Desdobrar todos os cabeçalhos e listas**.
 
 > [!tip]
 > Se preferir dobrar com o teclado, pode atribuir [[Teclas de atalho personalizadas|hotkeys]] aos comandos **Dobrar menos** e **Dobrar mais**.

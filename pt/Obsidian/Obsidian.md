@@ -20,7 +20,7 @@ Quando o sistema de arquivos substitui a nuvem, você obtém opções flexíveis
 
 Links e conexões são cruciais para descobrir as relações entre o que sabemos.
 
-A Obsidian valoriza muito isso, e o incentiva com [[Links internos]] e [[Graph view]], entre outras coisas.
+A Obsidian valoriza muito isso, e o incentiva com [[Links internos]] e [[Visualização de gráfico]], entre outras coisas.
 
 Como diz John Locke...
 
@@ -46,7 +46,7 @@ Além disso, você pode adicionar blocos de construção isolados e independente
 
 - Se você estiver fazendo anotações de aula, [[Gravador de áudio]] e matemática LaTeX podem ser úteis;
 - Se você estiver fazendo anotações de trabalho, [[Slides]] e [[Backlinks]] podem ser úteis;
-- Se você for um pesquisador, [[Graph view]] e [[Word count]] podem ser essenciais para o seu kit de ferramentas.
+- Se você for um pesquisador, [[Visualização de gráfico]] e [[Contador de palavras]] podem ser essenciais para o seu kit de ferramentas.
 
 Não esperamos que os plug-ins sejam a bala de prata para resolver todos os problemas, mas nos aproximam mais do que uma solução monolítica, sem todos os recursos de que você não precisa bagunçando a interface.
 

@@ -8,11 +8,11 @@ You can only move files between windows that are associated with the same vault.
 
 **File explorer:**
 
-In the [[File explorer]], right-click a note, and then select **Open in new window**.
+In the [[Explorador de arquivos]], right-click a note, and then select **Open in new window**.
 
 **Command palette:**
 
-In the [[Command palette]], select **Open current tab in new window**.
+In the [[Paleta de comandos]], select **Open current tab in new window**.
 
 **Tab:**
 
@@ -25,11 +25,11 @@ Right-click a tab, and then select **Move to new window**. Or, in the upper-righ
 
 **File explorer:**
 
-In the [[File explorer]], drag the file to a tab group in the destination window.
+In the [[Explorador de arquivos]], drag the file to a tab group in the destination window.
 
 **Command palette:**
 
-In the [[Command palette]], select **Move current tab in new window**.
+In the [[Paleta de comandos]], select **Move current tab in new window**.
 
 **Tab:**
 

@@ -10,4 +10,4 @@ To run a command using Slash commands:
 To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
 
 > [!TIP] Fuzzy matching
-> Like the [[Command palette]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.
+> Like the [[Paleta de comandos]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.

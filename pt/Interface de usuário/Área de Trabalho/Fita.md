@@ -1,4 +1,4 @@
-A ribbon é um espaço para comandos comuns que ocupa o espaço vertical bem à esquerda da interface. Faz parte da [[Sidebar]] esquerda e está sempre visível, mesmo que a barra lateral esquerda esteja fechada.
+A fita é um espaço para comandos comuns que ocupa o espaço vertical bem à esquerda da interface. Faz parte da [[Barra Lateral]] esquerda e está sempre visível, mesmo que a barra lateral esquerda esteja fechada.
 
 ## Ações
 

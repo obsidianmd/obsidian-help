@@ -1,4 +1,4 @@
-Panes can be linked together. This has two main effects:
+traPanes can be linked together. This has two main effects:
 
 - By default, when opening a new [[Editando e visualizando Markdown#Editor views|reading view]] from an editing view, the new pane is linked to the old one. This means that any changes you make in the editor will show up in the reading pane in real time. It also means that scrolling one will scroll the other.
 

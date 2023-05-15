@@ -33,4 +33,4 @@ You can use `{{date}}` and `{{time}}` interchangeably with format strings, for e
 You can change the default date and time formats under **Settings > Templates > Date format** and **Settings > Templates > Time format**.
 
 > [!tip]
-> You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
+> You can also use the `{{date}}` and `{{time}}` template variables in the [[Notas diárias]] and [[Criador de notas únicas]] plugins.

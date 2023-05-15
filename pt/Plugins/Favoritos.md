@@ -22,7 +22,7 @@ You can bookmark items and organize them into _bookmark groups_ to find them eas
 > [!todo]- Show bookmarks
 > You can find your bookmarked items by clicking **Bookmarks** (bookmark icon) in the left sidebar.
 >
-> Or, open the Bookmarks tab by running **Bookmarks: Show bookmarks** from the [[Command palette]].
+> Or, open the Bookmarks tab by running **Bookmarks: Show bookmarks** from the [[Paleta de comandos]].
 
 ## Add a bookmark
 
@@ -38,11 +38,11 @@ When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instea
 >
 > **File explorer**:
 >
-> - Right-click a file in [[File explorer]] and click **Bookmark**.
+> - Right-click a file in [[Explorador de arquivos]] and click **Bookmark**.
 >
 > **Command palette**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
 > 2. Search for the **Bookmark** command.
 > 3. Press `Enter` with the command selected to add a bookmark.
 
@@ -50,13 +50,13 @@ When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instea
 >
 > **File explorer**:
 >
-> - Right-click a folder in [[File explorer]] and click **Bookmark**.
+> - Right-click a folder in [[Explorador de arquivos]] and click **Bookmark**.
 
 > [!todo]- Bookmark a search term
 >
 > **Search**:
 >
-> 1. Enter a [[Search#Search terms|search term]].
+> 1. Enter a [[Busca#Search terms|search term]].
 > 2. Under the search field, select the three dots icon next to the number of results.
 > 3. Select **Bookmark**.
 
@@ -70,14 +70,14 @@ When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instea
 >
 > **Command palette**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
 > 2. Select the **Bookmark heading under cursor** command.
 
 > [!todo]- Bookmark a block
 >
 > **Command palette**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
 > 2. Select the **Bookmark block under cursor** command.
 
 ## Remove a bookmark

@@ -37,7 +37,7 @@ tags: receita, cozinhar
 
 ## Encontre notas usando tags
 
-Para encontrar notas usando o plug-in [[Search]], use a tag `[[Search#Search operator|search operator]] em seu termo de pesquisa, por exemplo `tag:#meeting`.
+Para encontrar notas usando o plug-in [[Busca]], use a tag `[[Search#Search operator|search operator]] em seu termo de pesquisa, por exemplo `tag:#meeting`.
 
 Você também pode pesquisar tags clicando nelas em suas anotações.
 
@@ -49,7 +49,7 @@ Tags aninhadas definem hierarquias de tags que facilitam a localização e filtr
 
 Crie tags aninhadas usando barras (`/`) no nome da tag, por exemplo `#inbox/to-read` e `#inbox/processing`.
 
-Ambos os plugins [[Search]] e [[Plugins/Tags|Tags]] suportam tags aninhadas.
+Ambos os plugins [[Busca]] e [[Plugins/Tags|Tags]] suportam tags aninhadas.
 
 ## Formato da etiqueta
 

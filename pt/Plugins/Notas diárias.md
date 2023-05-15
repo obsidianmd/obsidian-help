@@ -2,8 +2,8 @@ Daily notes opens a note based on today's date, or creates it if it doesn't exis
 
 To open today's daily note, either:
 
-- Click **Open today's daily note** (calendar with checkmark icon) in the [[Ribbon|ribbon]].
-- Run **Open today's daily note** from the [[Command palette]].
+- Click **Open today's daily note** (calendar with checkmark icon) in the [[Fita|ribbon]].
+- Run **Open today's daily note** from the [[Paleta de comandos]].
 - [[Teclas de atalho personalizadas#Setting hotkeys|Use a hotkey]] for the **Open today's daily note** command.
 
 By default, Obsidian creates a new empty note named after today's date in the YYYY-MM-DD format.
@@ -13,7 +13,7 @@ By default, Obsidian creates a new empty note named after today's date in the YY
 
 ## Create a daily note from template
 
-If your daily notes have the same structure, you can use a [[Templates|template]] to add pre-defined content to your daily notes when you create them.
+If your daily notes have the same structure, you can use a [[Modelos|template]] to add pre-defined content to your daily notes when you create them.
 
 1. Create a new note named "Daily template" with the following text (or whatever makes sense to you!):
 

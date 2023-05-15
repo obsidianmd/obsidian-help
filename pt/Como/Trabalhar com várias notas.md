@@ -6,7 +6,7 @@ Para usar efetivamente a exibição dividida, você só precisa saber algumas co
 
 Por padrão, quando você clica em algo, ele é aberto no painel ativo. O painel ativo é marcado com uma barra destacada sob o título e seu título é mais visível do que os painéis inativos.
 
-Para abrir arquivos em novos painéis, mantenha pressionada a tecla `Ctrl/Cmd` enquanto clica no modo de visualização (`Shift + Ctrl/Cmd` no modo de edição). Isso se aplica a vários locais, incluindo [[File explorer]], [[backlinks]] (ambos links e menções não vinculadas), resultados de [[Search]] e [[Graph view]]. Também se aplica a botões; em vez de visualizar no painel atual, você pode 'Cmd + clicar' no botão de visualização para visualizar em um novo painel. Ao usar o Quick Switcher, manter pressionado `Cmd/Ctrl` ao pressionar `Enter` abrirá em um novo painel.
+Para abrir arquivos em novos painéis, mantenha pressionada a tecla `Ctrl/Cmd` enquanto clica no modo de visualização (`Shift + Ctrl/Cmd` no modo de edição). Isso se aplica a vários locais, incluindo [[Explorador de arquivos]], [[backlinks]] (ambos links e menções não vinculadas), resultados de [[Busca]] e [[Visualização de gráfico]]. Também se aplica a botões; em vez de visualizar no painel atual, você pode 'Cmd + clicar' no botão de visualização para visualizar em um novo painel. Ao usar o Quick Switcher, manter pressionado `Cmd/Ctrl` ao pressionar `Enter` abrirá em um novo painel.
 
 ### 2. Você também pode criar novos painéis dividindo
 

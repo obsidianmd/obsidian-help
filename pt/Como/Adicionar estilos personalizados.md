@@ -15,7 +15,7 @@ Se você estiver criando seu próprio tema, poderá fazer isso:
 1. Criando seu arquivo CSS de tema personalizado na pasta de temas `YOUR_VAULT/.obsidian/themes/YOUR_CUSTOM_THEME.css`
 2. Ative-o no menu suspenso de temas em `Configurações` => `Aparência` => `Temas`
 
-Para obter mais informações sobre como personalizar os estilos do gráfico, você pode encontrar mais informações em [[Graph view]].
+Para obter mais informações sobre como personalizar os estilos do gráfico, você pode encontrar mais informações em [[Visualização de gráfico]].
 
 ### Use temas e/ou trechos de CSS
 

@@ -38,7 +38,7 @@ Se você tiver dados no Roam, é fácil exportá-los e brincar com eles no Obsid
 
 ### Do Urso
 
-Se você estiver importando do Bear, o plug-in [[Format converter]] tem a opção de converter `::highlight::` em `==highlight==`.
+Se você estiver importando do Bear, o plug-in [[Conversor de formatos]] tem a opção de converter `::highlight::` em `==highlight==`.
 
 ### Usando Zettelkasten
 

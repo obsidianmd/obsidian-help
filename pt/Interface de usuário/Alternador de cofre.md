@@ -2,7 +2,7 @@ O alternador de cofre permite alternar entre os cofres existentes e criar novos 
 
 ## Alternador de cofre aberto
 
-Para abrir o alternador de cofre, clique no ícone do cofre no grupo inferior das ações [[Ribbon]]. O texto da dica de ferramenta deve dizer "Abrir outro cofre".
+Para abrir o alternador de cofre, clique no ícone do cofre no grupo inferior das ações [[Fita]]. O texto da dica de ferramenta deve dizer "Abrir outro cofre".
 
 Você pode ver [[#lista de cofres atuais]] e [[#criar novos cofres]] aqui. Como esta é a primeira tela que os novos usuários veem, ela também exibe o nome do programa e a versão atual, juntamente com um menu suspenso para alternar [[Idioma da interface]].
 

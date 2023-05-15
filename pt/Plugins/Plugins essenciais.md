@@ -12,7 +12,7 @@ Os plug-ins podem ser gerenciados por meio do botão "Configurações" no canto 
 - [[Notas diárias]]
 - [[Explorador de arquivos]]
 - [[Recuperação de arquivos]]
-- [[Visualização do gráfico]]
+- [[Visualização de gráfico]]
 - [[Conversor de formato]]
 - [[Compositor de notas]]
 - [[Links de saída]]

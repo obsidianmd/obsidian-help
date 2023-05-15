@@ -1,11 +1,11 @@
 ---
 aliases: 
-- How to/Working with backlinks
+- Como/Trabalhar com backlinks
 ---
 
-With the Backlinks plugin, you can see all the _backlinks_ for the active note.
+Com o plugin Backlinks, você pode ver todos os _backlinks_ da nota ativa.
 
-A backlink for a note is a link from another note to that note. In the following example, the "Three laws of motion" note contains a link to the "Isaac Newton" note. The corresponding backlink would link from "Isaac Newton" back to "Three laws of motion".
+Um backlink para uma nota é um link de outra nota para essa nota. No exemplo a seguir, a nota "Três leis do movimento" contém um link para a nota "Isaac Newton". O backlink correspondente seria um link de "Isaac Newton" de volta para "Três leis do movimento".
 
 ```mermaid
 flowchart LR
@@ -16,47 +16,47 @@ flowchart LR
   newton --backlink--> laws
 ```
 
-Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet.
+Backlinks podem ser úteis para encontrar notas que fazem referência à nota que você está escrevendo. Imagine se você pudesse listar os backlinks de qualquer site na internet.
 
-## The backlinks pane
+## O painel de backlinks
 
-You can see all the backlinks for the active note from the _backlinks pane_. The backlinks pane has two collapsible sections: **Linked mentions** and **Unlinked mentions**.
+Você pode ver todos os backlinks da nota ativa no painel _backlinks_. O painel de backlinks tem duas seções recolhíveis: **Menções vinculadas** e **Menções não vinculadas**.
 
-- **Linked mentions** are backlinks to the notes that contain an internal link to the active note.
-- **Unlinked mentions** are backlinks to any unlinked occurrence of the name of the active note.
+- **Menções vinculadas** são backlinks para as notas que contêm um link interno para a nota ativa.
+- **Menções não vinculadas** são backlinks para qualquer ocorrência não vinculada do nome da nota ativa.
 
-The backlinks pane have the following options:
+O painel de backlinks tem as seguintes opções:
 
-- **Collapse results** toggles whether to expand each note to display the mentions in it.
-- **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
-- **Change sort order** determines how to sort the mentions.
-- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search query, refer to [[Search]].
+- **Recolher resultados** alterna entre expandir cada nota para exibir as menções nela.
+- **Mostrar mais contexto** alterna entre truncar ou exibir o parágrafo completo que contém a menção.
+- **Alterar ordem de classificação** determina como classificar as menções.
+- **Mostrar filtro de pesquisa** alterna um campo de texto que permite filtrar as menções. Para obter mais informações sobre como criar uma consulta de pesquisa, consulte [[Busca]].
 
-## View backlinks for a note
+## Ver backlinks para uma nota
 
-To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right sidebar.
+Para visualizar os backlinks da nota ativa, clique na guia **Backlinks** (link e ícone de seta) na barra lateral direita.
 
-> [!note]
-> If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks pane** command.
+> [!note] Nota
+> Se você não consegue ver a guia Backlinks, pode torná-la visível abrindo a [[Paleta de comandos]] e executando o comando **Backlinks: Mostrar painel de backlinks**.
 
-## Open a linked backlinks pane
+## Abra um painel de backlinks vinculados
 
-The backlinks pane lists backlinks for the active note and updates when you switch to a different note. If you want to see the backlinks for a specific note, regardless of whether it's active or note, you can open a _linked_ backlinks pane.
+O painel de backlinks lista backlinks para a nota ativa e atualiza quando você alterna para uma nota diferente. Se você quiser ver os backlinks para uma nota específica, independentemente de estar ativa ou nota, você pode abrir um painel de backlinks _linked_.
 
-To open a linked backlinks pane:
+Para abrir um painel de backlinks vinculados:
 
-1. Open the [[Command palette]].
-2. Select **Backlinks: Open backlinks for the current note**.
+1. Abra a [[Paleta de comandos]].
+2. Selecione **Backlinks: Abrir backlinks para a nota atual**.
 
-A separate tab opens next to your active note. The tab shows a link icon to let you know it's linked to a note.
+Uma guia separada é aberta ao lado de sua nota ativa. A guia mostra um ícone de link para que você saiba que está vinculado a uma nota.
 
-## Show backlinks in a note
+## Mostrar backlinks em uma nota
 
-Instead of showing the backlinks in a separate tab, you can show the backlinks at the bottom of your note.
+Em vez de mostrar os backlinks em uma guia separada, você pode mostrar os backlinks na parte inferior da sua nota.
 
-To show backlinks in a note:
+Para mostrar backlinks em uma nota:
 
-1. Open the [[Command palette]].
-2. Select **Backlinks: Toggle backlinks in document**.
+1. Abra a [[Paleta de comandos]].
+2. Selecione **Backlinks: Alternar backlinks no documento**.
 
-Or, enable **Backlink in document** under the Backlinks plugin options to automatically toggle backlinks when you open a new note.
+Ou ative **Backlink no documento** nas opções do plug-in de backlinks para alternar automaticamente os backlinks ao abrir uma nova nota.

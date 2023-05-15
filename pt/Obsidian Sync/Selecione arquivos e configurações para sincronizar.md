@@ -3,7 +3,7 @@ Quaisquer arquivos ou configurações que tenham sido sincronizados com seu [[Co
 **Notas:**
 
 - Os arquivos sincronizados permanecem em seu cofre remoto, mesmo que você os exclua posteriormente. Se possível, defina os arquivos e as configurações que deseja sincronizar antes de começar a sincronizar seu cofre.
-- O Obsidian só aplica as configurações do Vault durante a inicialização. Se você alterar uma configuração em um dispositivo, será necessário reiniciar o Obsidian nos outros dispositivos para que as novas alterações entrem em vigor. Por exemplo, se você alterar o caminho de suas anotações diárias no plug-in [[Daily Notes]], será necessário reiniciar o Obsidian em seus outros dispositivos para usar o novo caminho.
+- O Obsidian só aplica as configurações do Vault durante a inicialização. Se você alterar uma configuração em um dispositivo, será necessário reiniciar o Obsidian nos outros dispositivos para que as novas alterações entrem em vigor. Por exemplo, se você alterar o caminho de suas anotações diárias no plug-in [[Notas diárias]], será necessário reiniciar o Obsidian em seus outros dispositivos para usar o novo caminho.
 - ==O Sync não sincroniza as configurações do Sync.== Isso permite que os usuários configurem o Sync de forma diferente em cada dispositivo de acordo com suas necessidades. Isso significa, no entanto, que você deve definir configurações de sincronização personalizadas em cada dispositivo.
 
 ## Configuração do cofre de sincronização

@@ -4,7 +4,7 @@ alias: [Tag pane]
 
 Tags lists all tags within your vault along with how many notes that contain them.
 
-Click a tag to search for it using [[Search]].
+Click a tag to search for it using [[Busca]].
 
 To toggle a tag in the search query, click the tag while pressing `Ctrl` (or `Cmd` on macOS).
 
