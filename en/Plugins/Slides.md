@@ -16,9 +16,6 @@ You can also advance to the next slide by pressing Spacebar.
 
 To stop the presentation, press `Escape` or click the cross in the upper-right corner of the presentation.
 
-> [!tip]
-> Try the [[Slides demo]] to see Slides in action.
-
 You can use any valid Markdown file as a presentation. To separate slides, enter `---` at the start of a line surrounded by newlines.
 
 ```md
