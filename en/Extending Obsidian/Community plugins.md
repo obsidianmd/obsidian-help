@@ -54,4 +54,4 @@ To update an individual plugin:
 
 ## Learn more
 
-Ready to build your own community plugin? Learn how to [[Build plugins]].
+Ready to build your own community plugin? Learn how to [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
