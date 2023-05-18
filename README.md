@@ -26,8 +26,8 @@ To contribute to Obsidian Help docs:
 
 You can contribute in several ways:
 
--   **Fix typos and mistakes**: If you want to fix a typo or other small modifications, you can submit a pull request. For smaller edits, you can use the GitHub web interface instead of cloning the repository.
--   **Add missing or outdated content**: If you want to contribute missing or outdated content, please [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new) before you start working on it.
+- **Fix typos and mistakes**: If you want to fix a typo or other small modifications, you can submit a pull request. For smaller edits, you can use the GitHub web interface instead of cloning the repository.
+- **Add missing or outdated content**: If you want to contribute missing or outdated content, please [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new) before you start working on it.
 
 Any contributions to the English docs must follow our [Style guide](https://help.obsidian.md/Contributing+to+Obsidian/Style+guide).
 
@@ -61,23 +61,23 @@ The Obsidian Help docs have grown considerably over the years. We're working on 
 
 The docs under the following folders have been updated to the new organization and style guide. If you're working on a translation, these are safe to work on (except for minor updates).
 
--   [x] Contributing to Obsidian
--   [x] Developers
--   [x] Editing and formatting
--   [x] Extending Obsidian
--   [x] Getting started
--   [x] Licenses and payment
--   [x] Obsidian Publish
--   [x] Obsidian Sync
--   [x] Plugins
+- [x] Contributing to Obsidian
+- [x] Developers
+- [x] Editing and formatting
+- [x] Extending Obsidian
+- [x] Getting started
+- [x] Licenses and payment
+- [x] Obsidian Publish
+- [x] Obsidian Sync
+- [x] Plugins
 
 The docs in the following folders have yet to be updated, and may change considerably in the future. Any work done on these docs has a high risk of becoming outdated.
 
--   [ ] Advanced topics
--   [ ] Concepts
--   [ ] Customization
--   [ ] How to
--   [ ] User interface
+- [ ] Advanced topics
+- [ ] Concepts
+- [ ] Customization
+- [ ] How to
+- [ ] User interface
 
 ## Credits
 
@@ -85,6 +85,6 @@ To be featured on the [Credits](https://help.obsidian.md/Obsidian/Credits) page,
 
 ## Additional resource
 
--   [Style guide](https://help.obsidian.md/Contributing+to+Obsidian/Style+guide)
--   [Translations](https://help.obsidian.md/Contributing+to+Obsidian/Translations)
+- [Style guide](https://help.obsidian.md/Contributing+to+Obsidian/Style+guide)
+- [Translations](https://help.obsidian.md/Contributing+to+Obsidian/Translations)
 
