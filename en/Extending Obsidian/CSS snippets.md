@@ -1,4 +1,4 @@
-Learn how to modify aspects of the Obsidian appearance without needing to [[Build themes|develop a theme]].
+Learn how to modify aspects of the Obsidian appearance without needing to [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 
 CSS is a language to describe how to present a HTML document. By adding CSS snippets, you can redefine parts of the Obsidian user interface, such as the size and color of headings.
 
@@ -27,4 +27,4 @@ Obsidian detects changes to CSS snippets automatically and applies them when you
 ## Learn more
 
 - If you're new to CSS, refer to [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
-- If you want more tips on styling Obsidian, refer to [[Build themes]].
+- If you want more tips on styling Obsidian, refer to [About styling](https://docs.obsidian.md/Reference/CSS+variables/About+styling).
