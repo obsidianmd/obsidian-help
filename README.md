@@ -4,17 +4,17 @@ This repository contains the source for the [Obsidian Help docs](https://help.ob
 
 The docs for each language are stand-alone vaults with a corresponding [Obsidian Publish](https://help.obsidian.md/Obsidian+Publish/Introduction+to+Obsidian+Publish) site.
 
-| Language | URL |
-|-|-|
-| `en` | https://help.obsidian.md/ |
-| `da` | https://publish.obsidian.md/help-da/ |
-| `es` | https://publish.obsidian.md/help-es/ |
-| `fr` | https://publish.obsidian.md/help-es/ |
-| `it` | https://publish.obsidian.md/help-it/ |
-| `ja` | https://publish.obsidian.md/help-ja/ |
-| `ru` | https://publish.obsidian.md/help-ru/ |
-| `vi` | https://publish.obsidian.md/help-vi/ |
-| `zh` | https://publish.obsidian.md/help-zh/ |
+| Language | URL                                     |
+| -------- | --------------------------------------- |
+| `en`     | https://help.obsidian.md/               |
+| `da`     | https://publish.obsidian.md/help-da/    |
+| `es`     | https://publish.obsidian.md/help-es/    |
+| `it`     | https://publish.obsidian.md/help-it/    |
+| `ja`     | https://publish.obsidian.md/help-ja/    |
+| `pt-br`  | https://publish.obsidian.md/help-pt-br/ |
+| `ru`     | https://publish.obsidian.md/help-ru/    |
+| `vi`     | https://publish.obsidian.md/help-vi/    |
+| `zh`     | https://publish.obsidian.md/help-zh/    |
 
 ## Contribute
 
@@ -87,3 +87,4 @@ To be featured on the [Credits](https://help.obsidian.md/Obsidian/Credits) page,
 
 - [Style guide](https://help.obsidian.md/Contributing+to+Obsidian/Style+guide)
 - [Translations](https://help.obsidian.md/Contributing+to+Obsidian/Translations)
+
