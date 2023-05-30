@@ -24,6 +24,10 @@ Frontmatter is a way to define [[#metadata]] for your note by adding [YAML](http
 
 An **alias** is a type of [[#metadata]] that defines alternative names for a [[#note]].
 
+## attachment
+
+An **attachment** is an [[Accepted file formats|accepted file format]] that was created outside of the vault and added later.
+
 ## plugin
 
 A **plugin** extends Obsidian with additional features.
