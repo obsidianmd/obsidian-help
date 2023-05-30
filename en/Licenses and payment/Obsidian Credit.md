@@ -10,7 +10,7 @@ Obsidian Credit will be applied before any payment is due, and it will also be a
 ## Add credit
 
 1. Log into your account [on our Account page](https://obsidian.md/account).
-2. Under **Payment & billing** > **Obsidian Credit**, click **Add**.
+2. Under **Payment & billing → Obsidian Credit**, click **Add**.
 3. Enter the amount of Obsidian Credit you want to buy. The amount is in US dollars.
 4. Proceed to pay for the credit with any of the supported payment methods.
 
