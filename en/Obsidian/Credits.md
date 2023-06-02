@@ -74,12 +74,6 @@ If your name isn't in English and can't be alphabetically listed, use this forma
 
 ## Third party acknowledgements
 
-Obsidian logo is adapted from:
-
-[Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
-By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
-License: Attribution 3.0 Unported (CC BY 3.0)
-
 Obsidian uses the open source libraries below (in alphabetical order):
 
 ### Capacitor
@@ -185,3 +179,11 @@ Copyright JS Foundation and other contributors
 
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>
+
+## Old Logo
+
+The Obsidian logo used before v1.3.5 was adapted from:
+
+[Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
+By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
+License: Attribution 3.0 Unported (CC BY 3.0)
