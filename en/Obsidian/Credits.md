@@ -180,7 +180,7 @@ Copyright JS Foundation and other contributors
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>
 
-## Old Logo
+## Previous logo
 
 The Obsidian logo used before v1.3.5 was adapted from:
 
