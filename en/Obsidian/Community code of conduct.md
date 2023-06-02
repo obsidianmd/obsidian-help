@@ -6,26 +6,57 @@ These are the behaviors we don’t tolerate.
 
 Users who commit these offences will be immediately banned from the official Obsidian community channels.
 
-- **Harassment**: including offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, or religion, as well as sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, inappropriate physical contact, and unwelcome sexual or romantic attention.
-- **Threats**: threatening someone physically or verbally. For example, threatening to publicize sensitive information about someone’s personal life.
+#### Harassment
+
+Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, or religion, as well as sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, inappropriate physical contact, and unwelcome sexual or romantic attention.
+
+#### Threats
+
+We don’t tolerate any threats, physically or verbally. For example, threatening to publicize sensitive information about someone’s personal life.
 
 ### Other offenses
 
 Users who commit these offences will be sent a warning. Repeated offences will result in the user being banned from the official Obsidian community channels.
 
-- **Blatant -isms**: saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation aren't code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
-- **Belligerence**: deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
-- **Being especially unpleasant**: for example, if we’ve received reports from multiple members of annoying or rude behavior. ^432ea1
-- **Asking for the attention of members of the Obsidian team or our moderators**: this includes unsolicited tagging, "pinging", or direct messaging Obsidian team staff and moderators for questions, bug reports, and feature requests. As much as we want to help everyone, we have a sizeable community, and the team's attention must be reserved for critical matters. You can ping or direct message members of the team for things like security-related issues or to report violations of the community code of conduct. Otherwise, please post about the issue in an appropriate channel on the forum or the Discord server.
+#### Blatant -isms
+
+This includes saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation aren't code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
+
+#### Belligerence
+
+Belligerence is deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
+
+#### Being especially unpleasant
+
+For example, if we’ve received reports from multiple members of annoying or rude behavior.
+
+#### Unsolicited messages to team or moderators
+
+This includes unsolicited tagging, "pinging", or direct messaging Obsidian team staff and moderators for questions, bug reports, and feature requests. As much as we want to help everyone, we have a sizeable community, and the team's attention must be reserved for critical matters. You can ping or direct message members of the team for things like security-related issues or to report violations of the community code of conduct. Otherwise, please post about the issue in an appropriate channel on the forum or the Discord server.
 
 ### Other behaviors
 
-While the following behaviors don’t result in a ban or warning, we strongly discourage you from engaging in them. They will greatly increase the risk of [[#^432ea1|being especially unpleasant]].
+While the following behaviors don’t result in a ban or warning, we strongly discourage you from engaging in them. They will greatly increase the risk of [[#being especially unpleasant]].
 
-- **Sea-lioning**: continuously pursuing an agenda by questioning and provoking other members. Individual provocations and questions are often perfectly acceptable, but in the case of sea-lioning, they accumulate to unhealthy levels, creating a hostile and negative conversation.
-- **"Feed me"**: asking others to solve problems for you without putting in any effort yourself. This is particularly egregious when the problem-solving is non-trivial and yet the user begs for someone else to do the work for them.
-- **Campaigning**: continuously making the same requests. This applies to both feature requests and to requests for help. Don’t post the same question in multiple places in short time frames, and don’t ask developers for the same features or bug fixes repeatedly.
-- **Parasitism**: self-promoting of yours or others' initiatives without contributing to the community otherwise. We encourage self-promotion (it's awesome to see what Obsidian users are up to) but won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
+#### Sea-lioning
+
+[Sea-lioning](https://en.wikipedia.org/wiki/Sealioning) means continuously pursuing an agenda by questioning and provoking other members. Individual provocations and questions are often perfectly acceptable, but in the case of sea-lioning, they accumulate to unhealthy levels, creating a hostile and negative conversation.
+
+#### "Feed me"
+
+"Feed me" means asking others to solve problems for you without putting in any effort yourself. This is particularly egregious when the problem-solving is non-trivial and yet the user begs for someone else to do the work for them.
+
+#### Campaigning
+
+Campaigning is continuously making the same requests. This applies to both feature requests and to requests for help. Don’t post the same question in multiple places in short time frames, and don’t ask developers for the same features or bug fixes repeatedly.
+
+#### Parasitism
+
+Parasitism is self-promoting of yours or others' initiatives without contributing to the community otherwise. We encourage self-promotion (it's awesome to see what Obsidian users are up to) but won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
+
+#### Spamming
+
+Do not directly message any of our community member without asking for consent first. It’s okay to ask publicly if you have a question.
 
 ## Encouraged behaviors
 
