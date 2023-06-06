@@ -68,3 +68,20 @@ You can also open a specific page in the PDF, by adding `#page=N` to the link de
 ```md
 ![[Document.pdf#page=3]]
 ```
+## Embed a list in a note
+
+To embed a list present in your `source_list.md` file, add the block id to your list:
+
+```md
+
+- list item 1
+- list item 2
+
+^my-list-id
+```
+
+Now in the note where you wish to embed the above list:
+
+```md
+![[source_list#^my-list-id]]
+```
