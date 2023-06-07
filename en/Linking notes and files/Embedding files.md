@@ -70,7 +70,7 @@ You can also open a specific page in the PDF, by adding `#page=N` to the link de
 ```
 ## Embed a list in a note
 
-To embed a list present in your `source_list.md` file, add the block id to your list:
+To embed a list from a different note, first add a [[Internal links#Link to a block in a note|block identifier]] to your list:
 
 ```md
 
@@ -80,8 +80,8 @@ To embed a list present in your `source_list.md` file, add the block id to your 
 ^my-list-id
 ```
 
-Now in the note where you wish to embed the above list:
+Then link to the list using the block identifier:
 
 ```md
-![[source_list#^my-list-id]]
+![[My note#^my-list-id]]
 ```
