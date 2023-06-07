@@ -1,13 +1,15 @@
-One of the most powerful aspects of [[Obsidian]] is the ability to add new functionality via plugins. It comes with several already, and many more are in development.
+This page lists the core plugins that comes installed with Obsidian. Core plugins are officially built and supported by the Obsidian team. 
 
-You can also build your own Obsidian plugin. See [[Community plugins]].
+Some core plugins are disabled by default. You can enable them under **Settings → Core plugins**.
 
-Plugins can be managed through the "Settings" button on the bottom left. Some of them have settings of their own that can be configured by clicking on the gear that appears next to each plugin when it's activated.
+> [!tip] Community plugins
+> If you can't find the plugin you're looking here, check out some of the [[Community plugins|plugins built by the community]]. You can also [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) yourself.
 
-### Current list of core plugins
+### All core plugins
 
 - [[Audio recorder]]
 - [[Backlinks]]
+- [[Bookmarks]]
 - [[Command palette]]
 - [[Daily notes]]
 - [[File explorer]]

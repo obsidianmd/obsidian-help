@@ -18,38 +18,20 @@ To embed a web page, add the following in your note and replace the placeholder 
 
 ## Embed a YouTube video
 
-YouTube doesn't allow you to embed a video using the regular URL. Instead, use `https://www.youtube.com/embed/VIDEO_ID`.
+To embed a YouTube video, use the same Markdown syntax as [[Basic formatting syntax#External images|external images]]:
 
-You can find the video ID by browsing to the video and looking in the address bar in your browser. The video ID is the text that comes after `?v=`.
-
-For example, to embed the video at `https://www.youtube.com/watch?v=NnTvZWp5Q7o`, add the following to your note:
-
-```html
-<iframe src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
+```md
+![](https://www.youtube.com/watch?v=NnTvZWp5Q7o)
 ```
 
-<iframe src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
+![](https://www.youtube.com/watch?v=NnTvZWp5Q7o)
 
 ## Embed a tweet
 
-While Twitter doesn't have an official way to embed tweets using iframe, you can use services like [TwitFrame](https://twitframe.com/) to generate an embeddable URL. For more information, refer to TwitFrame's own documentation.
+To embed a tweet, use the same Markdown syntax as [[Basic formatting syntax#External images|external images]]:
 
-```html
-<iframe
-  border="0"
-  frameborder="0"
-  height="763"
-  width="550"
-  src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
->
-</iframe>
+```md
+![](https://twitter.com/obsdmd/status/1580548874246443010)
 ```
 
-<iframe
-  border="0"
-  frameborder="0"
-  height="763"
-  width="550"
-  src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fobsdmd%2Fstatus%2F1580548874246443010"
->
-</iframe>
+![](https://twitter.com/obsdmd/status/1580548874246443010)

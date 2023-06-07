@@ -8,12 +8,14 @@ Welcome to the official Obsidian documentation, where you can find tips and guid
 
 You can browse the documentation in any of the following languages:
 
-- [Italiano](https://publish.obsidian.md/help-it)
-- [中文](https://publish.obsidian.md/help-zh)
-- [日本語](https://publish.obsidian.md/help-ja)
 - [Dansk](https://publish.obsidian.md/help-da)
+- [Español](https://publish.obsidian.md/help-es)
+- [Italiano](https://publish.obsidian.md/help-it)
+- [日本語](https://publish.obsidian.md/help-ja)
+- [Português](https://publish.obsidian.md/help-pt-br)
 - [Русский](https://publish.obsidian.md/help-ru)
 - [Tiếng Việt](https://publish.obsidian.md/help-vi)
+- [中文](https://publish.obsidian.md/help-zh)
 
 > [!tip] The Obsidian team
 > To learn more about the people behind Obsidian, head over to our [about page](https://obsidian.md/about).

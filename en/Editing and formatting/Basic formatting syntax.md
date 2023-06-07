@@ -4,6 +4,37 @@ alias: How to/Format your notes
 
 Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Advanced formatting syntax]].
 
+## Paragraphs
+
+To create paragraphs, use a blank line to separate one or more lines of text.
+
+```
+This is a paragraph.
+
+This is another paragraph.
+```
+
+> [!note] Multiple blank spaces
+> Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Editing and previewing Markdown#Editor views|Reading view]] and on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+> 
+> ```md
+> Multiple          adjacent          spaces
+> 
+> 
+> 
+> and multiple newlines between paragraphs.
+> ```
+> 
+> > Multiple          adjacent          spaces
+> > 
+> > 
+> > 
+> > and multiple newlines between paragraphs.
+> 
+> If you want to add multiple spaces, you can add `&nbsp;` (blank space) and `<br>` (newline) to your note.
+
+
+
 ## Headings
 
 To create a heading, add up to six `#` symbols before your heading text. The number of `#` symbols determines the size of the heading.
@@ -79,6 +110,12 @@ cd ~/Desktop
 
 ```md
 cd ~/Desktop
+```
+
+You can also create a code block by indenting the text using `Tab` or 4 blank spaces.
+
+```md
+    cd ~/Desktop
 ```
 
 You can add syntax highlighting to a code block, by adding a language code after the first set of backticks.

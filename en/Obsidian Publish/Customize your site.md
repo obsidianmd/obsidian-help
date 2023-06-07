@@ -47,6 +47,9 @@ To use one of the community themes for your site:
 - If the style doesn't change within a few minutes, you may need to refresh your browser cache.
 - You can switch between light and dark mode in the [[Manage sites#View site options|site options]].
 
+> [!tip] Developing themes
+> Can't find the theme for you? Learn how to [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme) yourself.
+
 ## Enable UI features
 
 You can toggle several UI features for your site, such as the graph view or a table of contents.

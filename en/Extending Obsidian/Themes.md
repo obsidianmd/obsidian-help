@@ -1,3 +1,7 @@
+---
+alias: How to/Add custom styles
+---
+
 Learn how to change the look and feel of Obsidian using themes built by the community.
 
 ## Browse themes
@@ -39,4 +43,4 @@ To update an individual theme:
 
 ## Learn more
 
-Ready to build your own theme? Learn how to [[Build themes]] or create [[CSS snippets]].
+Ready to build your own theme? Learn how to [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) or create [[CSS snippets]].
