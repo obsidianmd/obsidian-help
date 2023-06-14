@@ -1,3 +1,7 @@
+---
+alias: How to/Create notes
+---
+
 Notes in Obsidian are stored as plain text files, which makes them incredibly portable. By writing your notes in plain text, they'll outlive any app—even Obsidian itself. If you plan to keep your notes for a long time, this is great news!
 
 ## Create a new note

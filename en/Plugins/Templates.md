@@ -3,7 +3,7 @@ You can use Templates to insert pre-defined snippets of text into your active no
 ## Set your template folder
 
 1. In the bottom-left corner, click **Settings** (cog icon).
-2. Under **Core plugins > Templates > Template folder location**, enter the folder containing your templates.
+2. Under **Core plugins → Templates → Template folder location**, enter the folder containing your templates.
 
 ## Insert a template into the active note
 
@@ -30,7 +30,7 @@ To set a format string, add a colon (`:`) followed by a string of [Moment.js for
 
 You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
 
-You can change the default date and time formats under **Settings > Templates > Date format** and **Settings > Templates > Time format**.
+You can change the default date and time formats under **Settings → Templates → Date format** and **Settings → Templates → Time format**.
 
 > [!tip]
 > You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.

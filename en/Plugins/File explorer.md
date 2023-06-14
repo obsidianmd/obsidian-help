@@ -22,8 +22,6 @@ To create a new note in a specific folder:
 1. Right-click the folder and then click **New note**.
 2. Type the name of the note, and then press Enter.
 
-To learn about other ways to create a note, refer to [[Create notes]].
-
 ## Create a new folder
 
 To create a new folder the root of your vault:
