@@ -1,5 +1,7 @@
 ---
-alias: How to/Import data
+aliases: 
+- How to/Import data
+- How to/Capture information
 ---
 
 If you're moving to Obsidian from a different note-taking app, you may want to import your existing notes into your Obsidian vault.
@@ -62,7 +64,7 @@ You can also use the [[Unique note creator]] to create Zettelkasten notes in Obs
 
 ## Import notes from other apps
 
-Our amazing community have written guides on how to import notes from many different note-taking apps and tools.
+Our amazing community has written guides on how to import notes from many different note-taking apps and tools.
 
 - [Import from Notion](https://forum.obsidian.md/t/import-from-notion/636)
 - [Import from Notion (automated)](https://forum.obsidian.md/t/notion-2-obsidian-migration-instructions/2728)
@@ -75,3 +77,16 @@ Our amazing community have written guides on how to import notes from many diffe
 
 > [!tip]
 > The makers of [nvUltra](https://nvultra.com/) list different ways to import your notes into nvUltra. In many cases, these steps will be the same for Obsidian, or at least a good place to start.
+
+## Import from browser
+
+You can use any browser extension that copies web pages as Markdown.
+
+For example, [MarkDownload](https://github.com/deathau/markdownload) by [death_au](https://github.com/deathau) is available for all major browsers:
+
+- [Google Chrome](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi)
+- [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/markdownload/)
+- [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/markdownload-markdown-w/hajanaajapkhaabfcofdjgjnlgkdkknm)
+
+> [!tip] Import selected text from a web page
+> You can also select and copy content on a web page, and then paste it into your notes as Markdown. To paste the selection without Markdown formatting, use `Ctrl+Shift+V` (or `Cmd+Shift+V` on macOS).

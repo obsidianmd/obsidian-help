@@ -15,11 +15,11 @@ You can add attachments to your vault in multiple ways. Only [[Accepted file for
 > If you drag a file from your file system into an open editor, Obsidian copies the file to the default attachment location and [[Embedding files|embeds]] it in the note.
 
  > [!todo]- Download attachments to vault folder
- > You can download an attachment directly to your vault, for example if you're using [[Capture information#Use a clipper extension|clipper extensions]] or other apps that saves files to directly to your file system.
+ > You can download an attachment directly to your vault, for example if you  [[Import notes#Import from browser|import from your browser]], or from other apps that saves files to directly to your file system.
 
 ## Change default attachment location
 
-By default, attachments are added to the root of your vault. 
+By default, attachments are added to the root of your vault.
 
 You can change the default attachment location under **Settings → Files & Links → Default location for new attachments**.
 
