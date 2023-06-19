@@ -2,6 +2,10 @@
 	text-align: left;
 	margin-bottom: 24px;
 }
+.site-header-logo {
+	display: flex;
+	align-items: center;
+}
 .site-header-logo img,
 .site-body-left-column-site-logo img {
 	height: 25px;
