@@ -19,7 +19,7 @@ If you're using Obsidian Sync and realize that you've set up your vault in a fol
 
 ## Desktop
 
-### Option 1: Move your vault using the Vault switcher
+### Option 1: Move your vault using the vault switcher
 
 1. In the bottom-left corner, select **Open another vault** (vault icon).
 2. Next to the vault you want to move, select **More options** (three dots icon). 
@@ -32,10 +32,11 @@ If you're using Obsidian Sync and realize that you've set up your vault in a fol
 3. Cut and paste (or move using drag and drop) your vault folder from the old location to your newly-selected vault location Don't put it in a folder that is being synced by another service.
 4. Make sure your backup folder contains your vault.  
 5. Relaunch Obsidian.  
-6. Open the Vault switcher, and then select **Open folder as vault**.
-7. Navigate to your vault's new location and choose your vault folder.  
-8. Check and make sure the vault looks the same. You might have to re-enable community plugins under **Settings → Community Plugins → Turn restricted mode off**.)  
-9. Set up Obsidian Sync again.
+6. At the bottom left, select **Open another vault** (vault icon).
+7. Select **Open folder as vault**.
+8. Navigate to your vault's new location and choose your vault folder.  
+9. Check and make sure the vault looks the same. You might have to re-enable community plugins under **Settings → Community Plugins → Turn restricted mode off**.)  
+10. Set up Obsidian Sync again.
 
 ### iOS
 
@@ -49,4 +50,4 @@ If you're using Obsidian Sync and realize that you've set up your vault in a fol
 5. After the vault has been copied, navigate back to **iCloud Drive → Obsidian**. 
 6. Delete your vault folder.
 
-The next time you open Obsidian and the Vault switcher, your vault now has a vault icon instead of a cloud, indicating it's no longer on iCloud Drive.
+The next time you open Obsidian, your vault now has a vault icon instead of a cloud, indicating it's no longer on iCloud Drive.

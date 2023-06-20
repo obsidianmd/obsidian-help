@@ -16,7 +16,7 @@ You need to have [[set up Obsidian Sync]] on at least one device and have create
 If this is the first time you open Obsidian on the device, follow these steps:
 
 1. Open Obsidian.
-2. In the vault switcher window, select **Sign in** next to **Open vault from Obsidian Sync**.
+2. Select **Sign in** next to **Open vault from Obsidian Sync**.
 3. In **Email**, enter your email.
 4. In **Password**, enter your password.
 5. Select **Sign in**.
