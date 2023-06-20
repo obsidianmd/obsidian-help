@@ -24,8 +24,6 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes.
 | Delete the next character | `Delete` |
 | Delete the previous word | `Ctrl+Backspace` |
 | Delete the next word | `Ctrl+Delete` |
-| Delete to the beginning of the current line | `Ctrl+Backspace` |
-| Delete to the end of the current line | `Ctrl+Delete` |
 | Delete the current line | `Ctrl+Shift+K` (with no selected text) |
 
 ### Text navigation
