@@ -5,7 +5,7 @@ At the moment, we only support configuring custom domains using the following me
 - [[#Set up using CloudFlare]] using [Full (strict) mode](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full-strict/).
 - [[#Set up using a proxy]]
 
-We don't yet have a way to provision SSL certificate on your behalf. 
+We don't yet have a way to provision SSL certificate on your behalf.
 
 ## Set up using CloudFlare
 
@@ -31,16 +31,16 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 > -   URL match: `www.mysite.com/*`
 > -   Forward URL - 301 Permanent Redirect
 > -   Redirect URL: `https://mysite.com/$1`
-> 
+>
 > After you've created the page rule, create a CNAME record for `www.mysite.com` just like you did for `mysite.com`.
 
 **Obsidian:**
 
 1. Open Obsidian on your computer.
-1. In the [[Ribbon]] at the left, click **Publish changes** (paper plane icon).
-2. Under **Publish changes**, select **Change site options** (cog icon).
-3. Next to **Custom domain**, select **Configure**.
-4. In **Custom URL**, enter the URL to your domain or subdomain.
+2. In the [[Ribbon]] at the left, click **Publish changes** (paper plane icon).
+3. Under **Publish changes**, select **Change site options** (cog icon).
+4. Next to **Custom domain**, select **Configure**.
+5. In **Custom URL**, enter the URL to your domain or subdomain.
 
 > [!note]
 > If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare has been set to "Flexible" instead of "Full".
@@ -134,4 +134,3 @@ If you want to redirect your visitors from the old `publish.obsidian.md` site to
 ## Troubleshoot
 
 Once you set up your custom domain, if you've visited your site from your previous `https://publish.obsidian.md/slug` link, you may have to clear your browser cache for certain things (like fonts, graphs, or password access) to work properly. This is due to the cross-domain security restrictions that are imposed by modern browsers. The good news is that readers of your site should never run into issue this if you only let visitors use your custom domain.
-
