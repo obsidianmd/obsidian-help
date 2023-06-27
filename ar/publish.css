@@ -95,3 +95,34 @@ pre {
 	}
 }
 
+.markdown-rendered th {
+  text-align: right;
+}
+
+.markdown-preview-view .task-list-item-checkbox {
+  margin: 0 0 0 0.6em;
+}
+
+.external-link {
+  background-position: center left;
+  padding: 0 0 0 16px;
+}
+
+a.footnote-backref.footnote-link {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
+.markdown-rendered blockquote {
+  border-left: 0;
+  border-right: var(--blockquote-border-thickness) solid
+    var(--blockquote-border-color) !important;
+  padding: 0 var(--size-4-6) 0 0;
+}
+
+.callout {
+  padding: var(--size-4-3) var(--size-4-6) var(--size-4-3) var(--size-4-3);
+}
+.callout-fold.is-collapsed .svg-icon {
+  transform: rotate(90deg);
+}
