@@ -14,7 +14,7 @@ The easiest way to set up a custom domain or subdomain is to create a [CloudFlar
 The following steps use CloudFlare to configure a custom domain for your Obsidian Publish site, either using a root domain (`mysite.com`) or an subdomain (`notes.mysite.com`).
 
 > [!warning]
-> Obsidian Publish only supports custom domains through CloudFlare. Using the following the instructions with any other providers will likely not work.
+> CloudFlare is the only officially supported provider for setting up custom domains. Using the following the instructions with any other providers will likely not work.
 
 **CloudFlare:**
 
