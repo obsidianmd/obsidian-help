@@ -28,6 +28,8 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 > [!note]
 > To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Single Redirect Rule](https://developers.cloudflare.com/rules/url-forwarding/single-redirects/examples/#redirect-all-requests-to-a-different-hostname) with the following settings:
 >
+> -   Name the redirect something helpful, such as `WWW redirect`
+> -   Select `Custom filter expression`
 > -   `When incoming requests match...` values:
 >     - Field: `Hostname`
 >     - Operator: `Equals`
