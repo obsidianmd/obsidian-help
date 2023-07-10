@@ -2,7 +2,7 @@ You can set up a custom domain or subdomain for your [[Introduction to Obsidian 
 
 At the moment, we only support configuring custom domains using the following methods:
 
-- [[#Set up using CloudFlare]] using [Full (strict) mode](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full-strict/).
+- [[#Set up using CloudFlare]] using [Full mode](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/).
 - [[#Set up using a proxy]]
 
 We don't yet have a way to provision SSL certificate on your behalf.
@@ -28,9 +28,9 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 > [!note]
 > To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
 >
-> -   URL match: `www.mysite.com/*`
-> -   Forward URL - 301 Permanent Redirect
-> -   Redirect URL: `https://mysite.com/$1`
+> - URL match: `www.mysite.com/*`
+> - Forward URL - 301 Permanent Redirect
+> - Redirect URL: `https://mysite.com/$1`
 >
 > After you've created the page rule, create a CNAME record for `www.mysite.com` just like you did for `mysite.com`.
 
@@ -80,7 +80,7 @@ RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.
 
 ### Netlify
 
-```
+```plain
 [[redirects]]
   from = "https://mysite.com/my-notes/*"
   to = "https://publish.obsidian.md/serve?url=mysite.com/my-notes/:splat"
@@ -111,15 +111,15 @@ In `vercel.json`, [configure rewrites](https://vercel.com/docs/configuration#pro
 
 ### Caddy
 
-```
+```plain
 mysite.com {
-	encode zstd gzip
-	handle /my-notes* {
-		reverse_proxy https://publish.obsidian.md {
-			header_up Host {upstream_hostport}
-		}
-		rewrite * /serve?url=mysite.com{path}
-	}
+  encode zstd gzip
+  handle /my-notes* {
+    reverse_proxy https://publish.obsidian.md {
+      header_up Host {upstream_hostport}
+    }
+    rewrite * /serve?url=mysite.com{path}
+  }
 }
 ```
 
