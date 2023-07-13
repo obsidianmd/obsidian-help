@@ -23,7 +23,8 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 3. Select **CNAME**.
 4. In **name**, enter your domain or subdomain, for example `notes.mysite.com`.
 5. In **target**, enter `publish-main.obsidian.md`. Don't include your personal sub-URL in this value. Obsidian Publish handles this from your configuration.
-6. Go to **SSL/TLS** and set the SSL/TLS encryption mode to "Full" to configure the SSL/TLS certificate automatically.
+6. Make sure that **proxy status** is enabled (it should be enabled by default).
+7. Go to **SSL/TLS** and set the SSL/TLS encryption mode to "Full" to configure the SSL/TLS certificate automatically.
 
 > [!note]
 > To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
