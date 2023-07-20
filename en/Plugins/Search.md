@@ -27,7 +27,7 @@ You can use parentheses to control the priority of each expression.
 
 - `meeting (work OR meetup) personal` returns files that contain `meeting`, `personal`, and either `work` or `meetup`.
 
-To exclude or _negate_ a word from the search results, add a hyphen (`-`) in front of it:
+To exclude, or _negate_, a word from the search results, add a hyphen (`-`) in front of it:
 
 - `meeting -work` returns files that contain `meeting` but not `work`.
 
