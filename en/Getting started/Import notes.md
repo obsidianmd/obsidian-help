@@ -21,7 +21,7 @@ Some note-taking apps, [[Obsidian Flavored Markdown|including Obsidian]], extend
    ![[Pasted image 1.png]]
 3. Unzip the archive into a folder.
 4. Open Obsidian. If you already have a vault open, run the **Open another vault** command from the [[Command palette]].
-5. In the [[Vault switcher]], select **Open folder as vault**, and then select the folder where you unzipped the notes.
+5. [[Manage vaults#Create vault from an existing folder|Create vault from an existing folder]], using the folder where you unzipped the notes.
 
 You've created a vault with the exported notes from Roam Research. Unfortunately, Roam Research formats notes differently than Obsidian. To convert the notes to the Obsidian format, use the [[Format converter]].
 

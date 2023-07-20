@@ -37,7 +37,7 @@ To create a link while in Editing view, use either of the following ways:
 - Select text in the editor and then type `[[`.
 - Open the [[Command palette]] and then select **Add internal link**.
 
-While you can link to any of the [[accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
+While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
 
 ## Link to a heading in a note
 
