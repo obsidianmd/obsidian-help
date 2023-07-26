@@ -52,9 +52,11 @@ Campaigning is continuously making the same requests. This applies to both featu
 
 #### Excessive self promotion
 
-We encourage self-promotion (it's awesome to see what Obsidian users are up to) but won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
+We encourage sharing what you made: blog posts, videos, and guides. It's awesome to see what Obsidian users are up to. As a content creator, it’s inevitable that you will link to your own creations.
 
-As a content creator, it’s inevitable that you may need to link to your own creations. In cases like this, a good rule of thumb is to ask yourself: would I still send the same link if it weren’t written by yourself? If the answer is yes, it probably isn’t excessive self promotion.
+**Exclusive** self promotion is the promoting and linking of your or others' content and initiatives without contributing to the community otherwise. We won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community. Depending on the case, links may be removed, or warnings given.
+
+**Excessive** self promotion is a judgement call. Please be respectful of the community and prioritize active community participation before linking. We reserve the right to remove links we think breach this guideline.
 
 #### Spamming
 
