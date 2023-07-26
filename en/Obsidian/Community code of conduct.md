@@ -50,9 +50,11 @@ While the following behaviors don’t result in a ban or warning, we strongly di
 
 Campaigning is continuously making the same requests. This applies to both feature requests and to requests for help. Don’t post the same question in multiple places in short time frames, and don’t ask developers for the same features or bug fixes repeatedly.
 
-#### Parasitism
+#### Excessive self promotion
 
-Parasitism is self-promoting of yours or others' initiatives without contributing to the community otherwise. We encourage self-promotion (it's awesome to see what Obsidian users are up to) but won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
+We encourage self-promotion (it's awesome to see what Obsidian users are up to) but won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
+
+As a content creator, it’s inevitable that you may need to link to your own creations. In cases like this, a good rule of thumb is to ask yourself: would I still send the same link if it weren’t written by yourself? If the answer is yes, it probably isn’t excessive self promotion.
 
 #### Spamming
 
