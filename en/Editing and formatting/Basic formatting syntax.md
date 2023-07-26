@@ -98,6 +98,8 @@ Text inside `backticks` on a line will be formatted like code.
 
 Text inside `backticks` on a line will be formatted like code.
 
+If you want to put backticks in a inline code block, surround it with double backticks like so: inline ``code with a backtick ` inside``.
+
 ### Code blocks
 
 To format a block of code, surround the code with triple backticks.
