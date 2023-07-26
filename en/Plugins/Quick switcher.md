@@ -1,8 +1,15 @@
 The Quick switcher lets you search and open notes using only your keyboard.
 
-To open a note using the Quick switcher:
+## Open Quick switcher
 
-1. Press `Ctrl+O` (or `Cmd+O` on macOS) to open the Quick switcher.
+There are several ways to open Quick Switcher, when it’s enabled:
+- Press `Ctrl+O` (or `Cmd+O` on macOS) to open the Quick switcher;
+- In the ribbon, click **Open Quick switcher** (magnifying glass on document icon);
+- On mobile, when you’re not editing a note, tap the plus icon at bottom center of the app.
+
+## Open a note with Quick switcher
+
+1. [[#Open Quick switcher]].
 2. Type to search for a note by name or alias.
 3. Navigate to the note using the arrow keys.
 4. Press `Enter` to open the selected note.
