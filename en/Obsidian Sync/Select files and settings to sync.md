@@ -6,10 +6,15 @@ Any files or settings that have been synced to your [[Local and remote vaults|re
 - Obsidian only applies vault settings during start-up. If you change a setting on one device, you need to restart Obsidian on your other devices for the new changes to take effect. For example, if you change the path of your daily notes in the [[Daily Notes]] plugin, you need to restart Obsidian on your other devices to use the new path.
 - ==Sync doesn't sync Sync's settings.== This allows users to configure Sync differently on each device according to their needs. This means, however, that you must configure custom Sync settings on each device.
 
-## Sync vault configuration
+## Sync vault
 
-1. Open **Settings → Sync**.
+1. On your primary device, open **Settings** → **Sync**.
 2. Under **Vault configuration sync**, enable the settings you want to sync.
+3. Wait for the settings to sync to your remote vault.
+4. On your secondary devices, open **Settings** -> **Sync**.
+5. Under **Vault configuration sync**, enable the settings you want to sync.
+6. Wait for the changes to download from your remote vault.
+7. Reload the app so that your synced settings take effect.
 
 ## Select file types to sync
 
