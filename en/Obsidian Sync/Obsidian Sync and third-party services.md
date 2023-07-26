@@ -25,7 +25,7 @@ We recommend using a dedicated backup service that doesn't automatically update 
 > > 5. If your vault doesn't open immediately, you may have to use the vault picker's "Open folder as vault" feature, then navigate to your vault's new location and open it.  
 >   
 > > [!INFO]- Move your vault out of iCloud Drive on iOS
-> > 1. Make a backup of your vault somewhere (just in case).  
+> > 1. Back up your vault.
 > > 2. On your Obsidian device, create a new, temporary vault, and make sure "Save in iCloud Drive" is **not** enabled. (This is to make sure the app container folder we'll use in the next step exists. You'll delete this fake vault in a moment.)  
 > > 3. Force quit the Obsidian app on all iOS devices and quit the app on any desktops. (This is to prevent Sync from doing anything while we move our files.)  
 > > 4. On your iOS device, go into the Files app, navigate to iCloud Drive → Obsidian, and long-press on your vault's folder. Select Move, and navigate to On My iPhone → Obsidian. (You should see the fake vault you created in step 2 here.) Press "Copy."  
