@@ -22,7 +22,7 @@ We recommend using a dedicated backup service that doesn't automatically update 
 > > 2. Navigate to iCloud Drive → Obsidian in Finder  
 > > 3. Drag the vault folder to a different folder that doesn't sync with iCloud.
 > > 4. Open the Obsidian app.  
-> > 5. If your vault doesn't open immediately, you may have to use the vault picker's "Open folder as vault" feature, then navigate to your vault's new location and open it.  
+> > 5. In the vault switcher, select **Open folder as vault** and select the folder that contains your vault.
 >   
 > > [!INFO]- Move your vault out of iCloud Drive on iOS
 > > 1. Back up your vault.
