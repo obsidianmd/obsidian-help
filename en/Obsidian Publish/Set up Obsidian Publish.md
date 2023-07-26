@@ -9,7 +9,7 @@ In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish
 
 1. Open **Settings**.
 2. In the sidebar, click **About**.
-3. Under **Account > Your Account**, click **Log in**.
+3. Under **Account → Your Account**, click **Log in**.
 4. In **Email**, enter your email.
 5. In **Password**, enter your password.
 6. Click **Login**.

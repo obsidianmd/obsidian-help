@@ -1,53 +1,92 @@
-### ⚠ _As of January 2023, the docs are still going through changes, but you can safely start translating all documentation under Core Plugins (including Canvas)._
+# Obsidian Help
 
----
+This repository contains the source for the [Obsidian Help docs](https://help.obsidian.md/), along with the translations for each supported language.
 
-To contribute: Open a vault in the `/en/` folder (or your language of choice once translations are available).
+⚠ Please do not open issues about Obsidian bug reports or feature requests here. Your issue will be closed and you'll be redirected to the forum.
 
-Image attachments: Please use `.png` and compress the image using a compression tool like https://compresspng.com/ in order to keep the whole package small.
+The docs for each language are stand-alone vaults with a corresponding [Obsidian Publish](https://help.obsidian.md/Obsidian+Publish/Introduction+to+Obsidian+Publish) site.
 
-## Typos and mistakes
+| Language | URL                                     |
+| -------- | --------------------------------------- |
+| `en`     | https://help.obsidian.md/               |
+| `da`     | https://publish.obsidian.md/help-da/    |
+| `es`     | https://publish.obsidian.md/help-es/    |
+| `it`     | https://publish.obsidian.md/help-it/    |
+| `ja`     | https://publish.obsidian.md/help-ja/    |
+| `pt-br`  | https://publish.obsidian.md/help-pt-br/ |
+| `ru`     | https://publish.obsidian.md/help-ru/    |
+| `vi`     | https://publish.obsidian.md/help-vi/    |
+| `zh`     | https://publish.obsidian.md/help-zh/    |
 
-For correcting typos and other small mistakes, you can directly submit a pull request.
+## Contribute
 
-Note that you don't have to clone your fork onto your hard disk to make the edits; you can do everything on GitHub's web UI. Simply open a file in your own forked repository and click on the pencil icon to start editing. After that, [submit a pull request](https://guides.github.com/activities/forking/).
+To contribute to Obsidian Help docs:
 
-## Missing or outdated content
+1. Fork the [obsidian-help](https://github.com/obsidianmd/obsidian-help) repository.
+2. In the Obsidian vault switcher, select **Open folder as vault**.
+3. Select the subfolder for the translation you want to contribute to, for example `/en/`. Don't open the root folder as a vault, as this may lead to links being updated incorrectly.
 
-We recommend opening an issue with us if you find missing or outdated content.
+You can contribute in several ways:
 
-If you'd like to try your hand at contributing the article, we appreciate it too! Please follow the same instructions under "Typos and mistakes" to submit a pull request.
+- **Fix typos and mistakes**: If you want to fix a typo or other small modifications, you can submit a pull request. For smaller edits, you can use the GitHub web interface instead of cloning the repository.
+- **Add missing or outdated content**: If you want to contribute missing or outdated content, please [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new) before you start working on it.
 
-Please try to be consistent with the style of the existing documentation when adding new articles. Notably, when writing a title or a heading, do not capitalize the second or subsequent words, unless it is a proper name.
+Any contributions to the English docs must follow our [Style guide](https://help.obsidian.md/Contributing+to+Obsidian/Style+guide).
 
-## Translating
+## Translations
 
-### Translate existing languages
+### Adding a new translation
 
-To contributing to an existing language, clone the entire forked repository onto your hard disk, and open that folder as a vault with Obsidian and proceed to translate. For example, if you're translating Italian, open the `/it/` folder.
+If you want to add a new translation, either [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new) or [open a discussion](https://github.com/obsidianmd/obsidian-help/discussions/categories/translations) to let us you know that you want to start working on it.
 
-### Add your language
+To add a new translation, copy the entire `en` folder and rename it to the corresponding [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code in lowercase.
 
-If the language you're trying to contribute does not exist, simply copy the entire English docs (everything under `/en/`) and start translating.
+Each translation should follow the English docs (en) as closely as possible.
 
-### Make completed languages available in app
+### Staying up-to-date
 
-Once the language you're working on is complete, open an issue to let us know. That way we can include it in the Obsidian app, so that users who set their Obsidian language to that language can see the translated documentation instead of English documentation.
+As we add more features and continue to improve the English docs, translations will eventually become out-of-date.
 
-### Staying up-to-update
+To see all changes to the English docs since the last update to the translation, run the following in your terminal:
 
-Once the documentation gets translated into a language, the English documentation will still occasionally get updated to include new features and to be more comprehensive.
+```bash
+git diff <COMMIT_SHA> HEAD -- en/
+```
 
-There's no simple way to stay up-to-update, but in general you can browse your language folder to check out when it's last updated, and compare that with the English documentation.
+Replace `<COMMIT_SHA>` with the commit containing the latest changes for the translation.
 
-If it's only a few versions behind, you can look at those changes individually, translate them, and fit them into the documentation of your language.
+> **Note**: If a translation falls too far behind the English version, we may eventually remove it.
 
-If your language is months behind, we recommend opening the English documentation and the documentation of your language side by side in two vaults with Obsidian, and going through each article carefully.
+## Roadmap
 
-### Adding yourself to credits
+The Obsidian Help docs have grown considerably over the years. We're working on reorganizing some of the content to make things easier to find and understand.
 
-Thanks for contributing to Obsidian's documentation! To feature yourself on our [[Credits]] page, simply create a pull request to the `/en/Obsidian/Credits` file. You can update the `YOUR LANGUAGE/Obsidian/Credits` file as well.
+The docs under the following folders have been updated to the new organization and style guide. If you're working on a translation, these are safe to work on (except for minor updates).
 
-## Handling image attachments
+- [x] Contributing to Obsidian
+- [x] Developers
+- [x] Editing and formatting
+- [x] Extending Obsidian
+- [x] Getting started
+- [x] Licenses and payment
+- [x] Obsidian Publish
+- [x] Obsidian Sync
+- [x] Plugins
 
-Please use `.png` extensions and compress the image using a compression tool like [Compress PNG](https://compresspng.com/) in order to keep the whole package small.
+The docs in the following folders have yet to be updated, and may change considerably in the future. Any work done on these docs has a high risk of becoming outdated.
+
+- [ ] Advanced topics
+- [ ] Concepts
+- [ ] Customization
+- [ ] How to
+- [ ] User interface
+
+## Credits
+
+To be featured on the [Credits](https://help.obsidian.md/Obsidian/Credits) page, add yourself to the [Credits](https://github.com/obsidianmd/obsidian-help/blob/master/en/Obsidian/Credits.md) file and to the corresponding translation.
+
+## Additional resource
+
+- [Style guide](https://help.obsidian.md/Contributing+to+Obsidian/Style+guide)
+- [Translations](https://help.obsidian.md/Contributing+to+Obsidian/Translations)
+

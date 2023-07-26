@@ -26,6 +26,7 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 - rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair mod-pop'>Forum master</span>
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair mod-pop'>That funny guy</span> <span class='flair mod-pop'>Apple Fanboy</span> <span class='flair mod-pop'>Forum master</span>
 - WhiteNoise<span class='flair mod-pop'>Think Tank</span> <span class='flair mod-pop'>Zotero master</span> <span class='flair mod-pop'>Bug report exterminator</span>
+- CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair mod-pop'>embedded-search ambassador</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
 
 ## Plugin inspirations
@@ -72,12 +73,6 @@ If you're a translator, please make a pull request to add "Your Name (contribute
 If your name isn't in English and can't be alphabetically listed, use this format: `your-github-username, [your name in your language] (Language name)`.
 
 ## Third party acknowledgements
-
-Obsidian logo is adapted from:
-
-[Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
-By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
-License: Attribution 3.0 Unported (CC BY 3.0)
 
 Obsidian uses the open source libraries below (in alphabetical order):
 
@@ -184,3 +179,11 @@ Copyright JS Foundation and other contributors
 
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>
+
+## Previous logo
+
+The Obsidian logo used before v1.3.5 was adapted from:
+
+[Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
+By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
+License: Attribution 3.0 Unported (CC BY 3.0)

@@ -1,3 +1,7 @@
+---
+alias: How to/Create notes
+---
+
 Notes in Obsidian are stored as plain text files, which makes them incredibly portable. By writing your notes in plain text, they'll outlive any app—even Obsidian itself. If you plan to keep your notes for a long time, this is great news!
 
 ## Create a new note
@@ -22,7 +26,7 @@ Obsidian also supports [Markdown](https://en.wikipedia.org/wiki/Markdown)—a ma
 
 2. In your note, select the text "knowledge base" and press `Ctrl+B` (or `Cmd+B` on macOS) to make it bold.
 
-To learn more about how to format your notes using Markdown, refer to [[Format your notes]].
+To learn more about how to format your notes using Markdown, refer to [[Basic formatting syntax]].
 
 ## Learn more
 

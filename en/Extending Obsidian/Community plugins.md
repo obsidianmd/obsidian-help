@@ -27,7 +27,7 @@ To use an installed plugin, you need to enable it.
 
 ## Enable a community plugin
 
-Either select **Enable** directly after installing it, or enable it from the list of Community plugins under **Settings > Community plugins > Installed plugins**.
+Either select **Enable** directly after installing it, or enable it from the list of Community plugins under **Settings → Community plugins → Installed plugins**.
 
 ## Update plugins
 
@@ -36,13 +36,13 @@ For security purposes, community plugins don't update automatically. You can eit
 To update all your plugins:
 
 1. Open **Settings**.
-2. Under **Community plugins > Current plugins**, select **Check for updates**.
+2. Under **Community plugins → Current plugins**, select **Check for updates**.
 3. If updates are available, select **Update all**.
 
 To update an individual plugin:
 
 1. Open **Settings**.
-2. Under **Community plugins > Current plugins**, select **Check for updates**.
+2. Under **Community plugins → Current plugins**, select **Check for updates**.
 3. Under **Installed plugins**, select **Update** next to the plugin you want to update.
 
 ## Uninstall a community plugin
@@ -54,4 +54,4 @@ To update an individual plugin:
 
 ## Learn more
 
-Ready to build your own community plugin? Learn how to [[Build plugins]].
+Ready to build your own community plugin? Learn how to [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).

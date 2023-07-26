@@ -54,6 +54,6 @@ We support [[CSS snippets]], [[Themes]], and [[Community plugins]], which enable
 
 ## Follow our development
 
-Curious how we continue to make Obsidian the best and most refined tool for thought-processing? Check out our [roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) to see what we're working on.
+Curious how we continue to make Obsidian the best and most refined tool for thought-processing? Check out our [roadmap](https://obsidian.md/roadmap/) to see what we're working on.
 
 Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.

@@ -1,3 +1,8 @@
+---
+aliases: 
+- How to/Working with tags
+---
+
 Tags are keywords or topics that help you quickly find the notes you want.
 
 ## Add a tag to a note

@@ -1,20 +1,18 @@
-> [!note]
-> Er under oversættelse til dansk!
 ---
 alias: [Obsidian Sync]
 ---
 
-Obsidian Sync is a cloud-based service that lets you store your notes on Obsidian's servers and synchronize them across your devices.
+Obsidian Sync er en cloudbaseret service, der giver dig mulighed for at gemme dine noter på Obsidians servere og synkronisere dem på tværs af dine enheder.
 
 > [!important]
-> If you're using Obsidian Sync together with other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, refer to [[Obsidian Sync and third-party services]] to avoid sync conflicts.
+> Hvis du anvender Obsidian Sync sammen med andre cloud løsninger, såsom Dropbox, Google Drive eller OneDrive, så læs [[Obsidian Sync og tredjeparts services]] for at undgå synkroniseringskonflikter.
 
-Learn more about Obsidian Sync:
+Lær mere om Obsidian Sync her:
 
-- If you're a new Obsidian Sync user, learn how to [[set up Obsidian Sync]].
-- If you want to configure what to sync, refer to [[Select files and settings to sync]].
-- If you already have Obsidian Sync enabled on a device, learn how to [[Set up Obsidian Sync on another device]].
-- If you want to know how to view or restore previous versions of a note, refer to [[Version history]].
-- If you want to know how we keep your notes safe, refer to [[Security and privacy]].
-- If you want to use a third-party service to back up your vault, refer to [[Obsidian Sync and third-party services]].
-- If you're having an issue with Obsidian Sync, refer to [[Troubleshoot Obsidian Sync]].
+- Lær at [[Opsætning af Obsidian Sync|opsætte Obsidian Sync]], hvis du er en ny Obsidian Sync bruger
+- Læs om at [[Vælge filer og indstillinger til Sync|vælge filer og se indtillinger til Obsidian Sync]], hvis du vil konfigurere, hvad som skal synkroniseres
+- Hvis du allerede har Obsidian Sync aktiveret på en enhed, så lær hvordan du kan [[Opsætning af Obsidian Sync på en anden enhed|opsætte Obsidian Sync på en anden enhed]]
+- Du kan læse mere om [[Versionshistorik|versionshistorik]], hvis du vil lære om, hvordan du kan se og gendanne tidligere versioner af en note
+- Du kan læse om [[Obsidian Sync/Sikkerhed og privatliv|sikkerhed og privatliv]], hvis du vil vide, hvordan vi holder dine noter sikre
+- Læs om [[Obsidian Sync og tredjeparts services]], hvis du overvejer at anvende tredjeparts services til at tage backup af din boks
+- Læs [[Fejlsøg Obsidian Sync]], hvis du har et problem med Obsidian Sync

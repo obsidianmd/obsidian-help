@@ -1,10 +1,12 @@
 ---
-aliases: Internal link, Link to blocks
+aliases:
+- How to/Internal link
+- How to/Link to blocks
 ---
 
 Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge. ^b15695
 
-Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under **Settings** > **Files & Links** > **Automatically update internal links**.
+Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under **Settings → Files & Links → Automatically update internal links**.
 
 ## Supported formats for internal links
 
@@ -35,7 +37,7 @@ To create a link while in Editing view, use either of the following ways:
 - Select text in the editor and then type `[[`.
 - Open the [[Command palette]] and then select **Add internal link**.
 
-While you can link to any of the [[accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
+While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
 
 ## Link to a heading in a note
 
@@ -57,7 +59,13 @@ You can link to a block by adding `#^` at the end of your link destination follo
 
 Fortunately, you don't need to know the identifier. When you type the caret (`^`), you can select the block from a list of suggestions to insert the right identifier.
 
-You can also create human-readable block identifiers by adding ` ^quote-of-the-day` at the end of a block. Note the blank space before the caret. Now you can instead link to the block by typing `[[2023-01-01#^quote-of-the-day]]`.
+You can also create human-readable block identifiers by adding a blank space followed by the identifier, for example `^quote-of-the-day`, at the end of a block:
+
+```md
+"You do not rise to the level of your goals. You fall to the level of your systems." by James Clear ^quote-of-the-day
+```
+
+Now you can instead link to the block by typing `[[2023-01-01#^quote-of-the-day]]`.
 
 Block identifiers can only consist of letters, numbers, and dashes.
 

@@ -1,7 +1,7 @@
 ## Om dette sted
 Velkommen til Obisidians officielle hjælpeboks. Denne side indeholder et kort indeks til de ting du måske kan være interesseret i.
 
-Se den officielle version på internettet her: https://publish.obsidian.md/help
+Du kan læse den officielle version på internettet her: https://publish.obsidian.md/help
 
 Hvis du finder fejl eller manglende information, kan du bidrage med feedback her: https://github.com/obsidianmd/obsidian-docs/
 

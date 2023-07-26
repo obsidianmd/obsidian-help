@@ -1,48 +1,58 @@
 You can set up a custom domain or subdomain for your [[Introduction to Obsidian Publish|Obsidian Publish]] site.
 
-We don't yet have a way to provision SSL certificate on your behalf. If you want to enable HTTPS for a custom domain, you either need to use your own proxy or create a site on CloudFlare.
+At the moment, we only support configuring custom domains using the following methods:
+
+- [[#Set up using CloudFlare]] using [Full mode](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/).
+- [[#Set up using a proxy]]
+
+We don't yet have a way to provision SSL certificate on your behalf.
 
 ## Set up using CloudFlare
 
 The easiest way to set up a custom domain or subdomain is to create a [CloudFlare](https://cloudflare.com) account and let CloudFlare manage your domain's DNS.
 
-When you migrate to CloudFlare, you automatically keep all your existing DNS setup, including your subdomains, email service, and hosting services. Using CloudFlare can speed up your websites and add SSL to your sites for free.
+The following steps use CloudFlare to configure a custom domain for your Obsidian Publish site, either using a root domain (`mysite.com`) or an subdomain (`notes.mysite.com`).
 
-Typically, users host their Obsidian Publish content on a root domain (`mysite.com`) or an immediate subdomain (`notes.mysite.com`).
+> [!warning]
+> CloudFlare is the only officially supported provider for setting up custom domains. Using the following the instructions with any other providers will likely not work.
 
 **CloudFlare:**
 
-1. Open Cloudflare to the domain you wish to add Publish to, such as `mysite.com`, even if you want a subdomain like `notes.mysite.com`.
+1. Open Cloudflare to the domain where you want to host your Publish site, such as `mysite.com`, even if you want a subdomain like `notes.mysite.com`.
 2. Go to **DNS** and click **Add Record**.
-3. Select **CNAME**
+3. Select **CNAME**.
 4. In **name**, enter your domain or subdomain, for example `notes.mysite.com`.
 5. In **target**, enter `publish-main.obsidian.md`. Don't include your personal sub-URL in this value. Obsidian Publish handles this from your configuration.
-6. Go to **SSL/TLS** and set the SSL/TLS encryption mode to "Full" to configure the SSL/TLS certificate automatically.
+6. Make sure that **proxy status** is enabled. It should be enabled by default.
+7. Go to **SSL/TLS** and set the SSL/TLS encryption mode to "Full" to configure the SSL/TLS certificate automatically.
 
-**Note:** To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
-
-- URL match: `www.mysite.com/*`
-- Forward URL - 301 Permanent Redirect
-- Redirect URL: `https://mysite.com/$1`
-
-Once you create the page rule, you should also create a CNAME record for `www.mysite.com` just like you created for `mysite.com`
+> [!note]
+> To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
+>
+> - URL match: `www.mysite.com/*`
+> - Forward URL - 301 Permanent Redirect
+> - Redirect URL: `https://mysite.com/$1`
+>
+> After you've created the page rule, create a CNAME record for `www.mysite.com` just like you did for `mysite.com`.
 
 **Obsidian:**
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
-3. Next to **Custom domain**, click **Configure**.
-4. In **Custom URL**, enter the URL to your domain or subdomain.
+1. Open Obsidian on your computer.
+2. In the [[Ribbon]] at the left, click **Publish changes** (paper plane icon).
+3. Under **Publish changes**, select **Change site options** (cog icon).
+4. Next to **Custom domain**, select **Configure**.
+5. In **Custom URL**, enter the URL to your domain or subdomain.
 
-**Note:**: If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare has been set to "Flexible" instead of "Full".
+> [!note]
+> If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare has been set to "Flexible" instead of "Full".
 
 ## Set up using a proxy
 
-If you want to host your own web server and set up your own SSL encryption, you can choose this option.
+You can also set up SSL/TLS for your custom domain by using your own web server.
 
 If you are already hosting a website under your domain or subdomain, you can also use this option and set up your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
 
-Proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=mysite.com/my-notes/...` and **configure the site options in Obsidian to the same URL path** by setting **Custom URL** to `mysite.com/my-notes`.
+Proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=mysite.com/my-notes/...` and configure the site options in Obsidian to the same URL path, by setting **Custom URL** to `mysite.com/my-notes`.
 
 You can also set up Obsidian Publish as a sub-URL of a site you own. For example, `https://mysite.com/my-notes/`. To achieve this, you must host your own server and proxy all requests to our server at `https://publish.obsidian.md/`.
 
@@ -66,11 +76,12 @@ RewriteEngine  on
 RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.com/my-notes/$1"  [L,P]
 ```
 
-**Note:** `mod_rewrite` must be enabled, and you may also need to configure [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache)
+> [!note]
+> `mod_rewrite` must be enabled, and you may also need to configure [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache)
 
 ### Netlify
 
-```
+```plain
 [[redirects]]
   from = "https://mysite.com/my-notes/*"
   to = "https://publish.obsidian.md/serve?url=mysite.com/my-notes/:splat"
@@ -101,15 +112,15 @@ In `vercel.json`, [configure rewrites](https://vercel.com/docs/configuration#pro
 
 ### Caddy
 
-```
+```plain
 mysite.com {
-	encode zstd gzip
-	handle /my-notes* {
-		reverse_proxy https://publish.obsidian.md {
-			header_up Host {upstream_hostport}
-		}
-		rewrite * /serve?url=mysite.com{path}
-	}
+  encode zstd gzip
+  handle /my-notes* {
+    reverse_proxy https://publish.obsidian.md {
+      header_up Host {upstream_hostport}
+    }
+    rewrite * /serve?url=mysite.com{path}
+  }
 }
 ```
 
