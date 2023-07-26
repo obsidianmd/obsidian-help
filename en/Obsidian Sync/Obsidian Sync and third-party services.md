@@ -20,7 +20,7 @@ We recommend using a dedicated backup service that doesn't automatically update 
 > > If you want to move your vault across different drives:
 > > 1. Quit the Obsidian app.  
 > > 2. Navigate to iCloud Drive → Obsidian in Finder  
-> > 3. Drag the vault folder to another non-cloud-sync'd location on your file system.  
+> > 3. Drag the vault folder to a different folder that doesn't sync with iCloud.
 > > 4. Open the Obsidian app.  
 > > 5. If your vault doesn't open immediately, you may have to use the vault picker's "Open folder as vault" feature, then navigate to your vault's new location and open it.  
 >   
