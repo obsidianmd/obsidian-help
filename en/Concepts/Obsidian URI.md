@@ -1,3 +1,7 @@
+---
+alias: Using Obsidian URI
+---
+
 Obsidian supports a custom URI protocol `obsidian://` which can be used to trigger various actions within the app. This is commonly used on macOS and mobile apps for automation and cross-app workflows.
 
 If you have Obsidian installed, this link will open the app on your device: [Click here](obsidian://open)

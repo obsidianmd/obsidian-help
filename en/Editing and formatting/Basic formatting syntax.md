@@ -158,7 +158,7 @@ If you want to link to an external URL, you can create an inline link by surroun
 > [!tip]
 > If you want to link to a file inside your vault, consider using an [[Internal links|internal link]] instead.
 
-You can also create external links to files in other vaults, by linking to an [[Using Obsidian URI|Obsidian URI]].
+You can also create external links to files in other vaults, by linking to an [[Obsidian URI|Obsidian URI]].
 
 ```md
 [Note](obsidian://open?vault=MainVault&file=Note.md)

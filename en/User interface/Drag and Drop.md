@@ -1,8 +1,8 @@
 There are many ways to drag and drop things around Obsidian to make the experience smoother:
 
-### Drag panes
+### Drag tabs
 
-See [[Working with multiple notes#5 Panes can be rearranged by dragging|dragging panes]]
+See [[Use tabs in Obsidian#Arrange tabs|Arrange tabs]].
 
 ### Drag sources
 
