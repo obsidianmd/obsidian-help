@@ -20,6 +20,15 @@ Select a link in Obsidian to open it in the active tab.
 
 To open a link in a new tab, press `Ctrl` (or `Cmd` on macOS) and select the link.
 
+The following are all the modifier keys you can use to open links in various ways:
+
+|Action|MacOS|Windows/Linux|
+|---|---|---|
+|**Navigate**|_None_|_None_|
+|**New Tab**|`⌘` (+ `Shift` in Source Mode)|`Ctrl` (+ `Shift` in Source Mode)|
+|**New Tab Group**|`⌘` `⌥`| `Ctrl` `Alt`|
+|**New Window**|`⌘` `⌥` `Shift`|`Ctrl` `Alt` `Shift`|
+
 ## Organize your tabs and windows
 
 Every tab belongs to a _tab group_. You can drag and drop tabs to rearrange them within a tab group, move them to a different tab group, or create a new tab group. On desktop, you can drag tabs out of their window to open them in a separate [[Pop-out windows|pop-out window]].
