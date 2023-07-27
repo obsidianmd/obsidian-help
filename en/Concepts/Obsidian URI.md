@@ -79,7 +79,7 @@ Examples:
 
 #### Action `search`
 
-Description: Opens the search pane for a vault, and optionally perform a search query.
+Description: Opens [[Search]] in the specified vault, and optionally perform a search query.
 
 Possible parameters:
 
@@ -89,10 +89,10 @@ Possible parameters:
 Examples:
 
 - `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens the search pane.
+  This opens the vault `my vault`, and opens [[Search]].
 
 - `obsidian://search?vault=my%20vault&query=MOC`
-  This opens the vault `my vault`, opens the search pane, and performs a search for `MOC`.
+  This opens the vault `my vault`, opens [[Search]], and performs a search for `MOC`.
 
 #### Action `new`
 

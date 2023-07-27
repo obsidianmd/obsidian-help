@@ -8,7 +8,7 @@ Click a tag to search for it using [[Search]].
 
 To toggle a tag in the search query, click the tag while pressing `Ctrl` (or `Cmd` on macOS).
 
-The Tags pane have the following options:
+The plugin provides the following options:
 
 - **Change sort order** determines whether to sort the tags by **Tag name** or **Frequency**.
 - **Show nested tags** toggles whether to display nested tags as a tree or as a flat list.

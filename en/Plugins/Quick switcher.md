@@ -16,7 +16,7 @@ There are several ways to open Quick Switcher, when it’s enabled:
 
 If the text doesn't match any notes, you can press `Enter` to create a note with that name. Even if the text matches one or more similar notes, you can still create a note with the exact name by pressing `Shift+Enter`.
 
-You can open the selected note in a new pane by pressing `Ctrl+Enter` (or `Cmd+Enter` on macOS).
+You can open the selected note in a new tab by pressing `Ctrl+Enter` (or `Cmd+Enter` on macOS).
 
 > [!tip] Toggle between two notes
 > If the search term is empty, the Quick switcher shows the most recent notes. Toggle between two notes by opening the Quick switcher, pressing the `Down` arrow, and then pressing `Enter`.

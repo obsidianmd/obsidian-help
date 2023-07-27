@@ -18,14 +18,14 @@ flowchart LR
 
 Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet.
 
-## The backlinks pane
+## Show backlinks
 
-You can see all the backlinks for the active note from the _backlinks pane_. The backlinks pane has two collapsible sections: **Linked mentions** and **Unlinked mentions**.
+The Backlinks plugin displays the backlinks for the active tabs. There are two collapsible sections: **Linked mentions** and **Unlinked mentions**.
 
 - **Linked mentions** are backlinks to the notes that contain an internal link to the active note.
 - **Unlinked mentions** are backlinks to any unlinked occurrence of the name of the active note.
 
-The backlinks pane have the following options:
+It provides the following options:
 
 - **Collapse results** toggles whether to expand each note to display the mentions in it.
 - **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
@@ -37,13 +37,13 @@ The backlinks pane have the following options:
 To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right sidebar.
 
 > [!note]
-> If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks pane** command.
+> If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks** command.
 
-## Open a linked backlinks pane
+## See backlinks of a specific note
 
-The backlinks pane lists backlinks for the active note and updates when you switch to a different note. If you want to see the backlinks for a specific note, regardless of whether it's active or note, you can open a _linked_ backlinks pane.
+The backlinks tab lists backlinks for the active note and updates when you switch to a different note. If you want to see the backlinks for a specific note, regardless of whether it's active or note, you can open a _linked_ backlinks tab.
 
-To open a linked backlinks pane:
+To open a linked backlinks tab:
 
 1. Open the [[Command palette]].
 2. Select **Backlinks: Open backlinks for the current note**.

@@ -4,11 +4,11 @@ Obsidian has two sidebars on both left and right. The left sidebar includes the 
 
 If a sidebar is collapsed, you can open it by clicking on the Arrow icon to expand it.
 
-This commonly happens when you enable a plugin but can't find it anywhere. Chances are the new pane created by the plugin is hidden in one of the sidebars, so be sure to check there.
+This commonly happens when you enable a plugin but can't find it anywhere. Chances are the new tab created by the plugin is hidden in one of the sidebars, so be sure to check there.
 
 ## Tabs
 
-By default, plugins will only create new tabs instead of new [[#Panes]].
+By default, plugins will only create new tabs instead of new [[#Tab groups]].
 
 You can switch between tabs by clicking on the icon. A tooltip will also appear to help you identify tabs.
 
@@ -20,18 +20,18 @@ Some tabs can be closed via the right click menu, but some can't. If you don’t
 
 ### Rearrange tabs
 
-As of July 2021, there’s no way to rearrange the tabs. If you’d find this handy, echo your voice in [this feature request](https://forum.obsidian.md/t/reorder-tabs-of-panels-in-left-sidebar/9812).
+You can drag and drop the tab icons to rearrange them within a group of tabs.
 
-## Panes
+## Tab groups
 
-You can have multiple panes in the sidebar.
+You can have multiple tab groups in the sidebar.
 
-### Create panes
+### Create tab groups
 
-To get a new pane, drag the icon of a tab above or below a current pane. The highlighted area will indicate where the new pane will be created.
+To get a new tab group, drag the icon of a tab above or below a current tab group. The highlighted area will indicate where the new tab group will be created.
 
-### Close panes
+### Close tab groups
 
-To close a pane, you can [[#Close tabs|close all tabs in it]], or drag all tabs in it by their icons and drop them into an existing pane.
+To close a tab group, you can [[#Close tabs|close all tabs in it]], or drag all tabs in it by their icons and drop them into existing tab groups.
 
-When only the tab area of a pane is highlighted, the tab being dragged will be dropped into that pane to merge with other tabs in that pane.
+When only the tab area of a tab group is highlighted, the tab being dragged will be dropped into that tab group to merge with other tabs in that group.

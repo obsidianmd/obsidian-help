@@ -40,7 +40,7 @@ You can exclude a combination of expressions using parentheses:
 - `meeting -(work meetup)` returns files that contain `meeting` but not _both_ `work` and `meetup`.
 
 > [!tip] Explain search term
-> If you need to troubleshoot a complex search term, you can click **Explain search term** in the Search pane for an explanation of your search term.
+> If you need to troubleshoot a complex search term, you can click **Explain search term** in Search for an explanation of your search term.
 
 ## Search operators
 
@@ -80,7 +80,7 @@ For more information on how to write regular expressions, refer to [Regular expr
 
 ## Configure search settings
 
-To configure Search, use the settings at the top of the Search pane:
+To configure Search, use the settings at the top of the Search tab:
 
 | Setting                 | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|

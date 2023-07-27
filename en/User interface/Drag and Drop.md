@@ -13,7 +13,7 @@ See [[Use tabs in Obsidian#Arrange tabs|Arrange tabs]].
 
 ### Drop destinations
 
-- You can drop a file on a pane header to open the file there. Hold `Alt` (or `Shift` on macOS) to drop anywhere on the pane.
+- You can drop a file on a tab header to open the file there. Hold `Alt` (or `Shift` on macOS) to drop anywhere in the tab.
 - You can drop a file on a folder in the [[file explorer]] to move the file there.
 - You can drop a file into an editor to insert it as a link. The generated link also follows your preferences, such as relative paths, or using Markdown links.
 - You can drop a file on the [[Bookmarks]] tab to bookmark it.
