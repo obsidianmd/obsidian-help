@@ -37,8 +37,6 @@ Any contributions to the English docs must follow our [Style guide](https://help
 
 ### Adding a new translation
 
-If you want to add a new translation, either [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new) or [open a discussion](https://github.com/obsidianmd/obsidian-help/discussions/categories/translations) to let us you know that you want to start working on it.
-
 To add a new translation, copy the entire `en` folder and rename it to the corresponding [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code in lowercase.
 
 Each translation should follow the English docs (en) as closely as possible.
