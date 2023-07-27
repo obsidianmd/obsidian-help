@@ -47,6 +47,12 @@ Right-click a tab and select **Split right** or **Split down** to create a new t
 
 You can also split a tab group by dragging a tab to the bottom of another tab.
 
+### Resize a tab group
+
+To resize a tab group, hover the cursor over an edge of the tab group. The edge becomes highlighted when it can be dragged to resize.
+
+You can resize sidebars similarly to make more space for the tab groups in the middle.
+
 ### Move tab to a new window
 
 **Drag and drop:**
