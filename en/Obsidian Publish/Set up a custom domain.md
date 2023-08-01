@@ -11,10 +11,10 @@ We don't yet have a way to provision SSL certificate on your behalf.
 
 The easiest way to set up a custom domain or subdomain is to create a [CloudFlare](https://cloudflare.com) account and let CloudFlare manage your domain's DNS.
 
-The following steps use CloudFlare to configure a custom domain for your Obsidian Publish site, either using a root domain (`mysite.com`) or an subdomain (`notes.mysite.com`).
+The following steps use CloudFlare to configure a custom domain for your Obsidian Publish site, either using a root domain (`mysite.com`) or a subdomain (`notes.mysite.com`).
 
 > [!warning]
-> CloudFlare is the only officially supported provider for setting up custom domains. Using the following the instructions with any other providers will likely not work.
+> CloudFlare is the only officially supported provider for setting up custom domains. Using the following instructions with any other providers will likely not work.
 
 **CloudFlare:**
 
