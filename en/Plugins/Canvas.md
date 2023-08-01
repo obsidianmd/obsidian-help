@@ -235,3 +235,9 @@ To zoom the canvas so that all selected items are visible, right-click a selecte
 #### Reset zoom
 
 To change the zoom level back to the default, select **Reset zoom** in the zoom controls in the upper-right corner.
+
+## Advanced tips
+
+We have made some quick videos to demonstrate some advanced use cases of Canvas.
+
+You can [check out all 72 tips here](https://obsidian.md/canvas#protips). Please note that the tip videos are only visible on desktop.
