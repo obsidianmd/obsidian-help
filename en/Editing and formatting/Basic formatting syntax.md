@@ -309,6 +309,9 @@ You can also inline footnotes in a sentence. Note that the caret goes outside th
 You can also use inline footnotes. ^[This is an inline footnote.]
 ```
 
+> [!note]
+> Inline footnotes only work in reading view, not in Live Preview.
+
 ## Comments
 
 You can add comments by wrapping text with `%%`. Comments are only visible in Editing view.
