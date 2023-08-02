@@ -85,3 +85,7 @@ Then link to the list using the block identifier:
 ```md
 ![[My note#^my-list-id]]
 ```
+
+## Embed search results 
+
+![[Search#Embed search results in a note]]

@@ -63,7 +63,34 @@ Some operators even allow you to add a nested search term within parentheses, fo
 | `task-todo:`    | Find matches in an *uncompleted* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                      |
 | `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
 
-## Use regular expressions in search terms
+## Change case sensitivity
+
+By default, search terms are not case sensitive. If you want to search for the exact case of your search term, click **Match case** ("Aa" icon) inside the search bar.
+
+This setting can be toggled. If **Match case** icon is highlighted, that means you’re currently doing a case sensitive search.
+
+## Change result sort order
+
+1. Enter a [[#Search terms|search term]].
+2. Under the search field, click on the dropdown on the right.
+3. Select the sort order you want. Default is "File name (A to Z)".
+
+The following options are available:
+
+- File name (A to Z)
+- File name (Z to A)
+- Modified time (new to old)
+- Modified time (old to new)
+- Created time (new to old)
+- Created time (old to new)
+
+## Copy search results
+
+1. Enter a [[#Search terms|search term]].
+2. Under the search field, select the three dots icon next to the number of results.
+3. Select **Copy search results**.
+
+## Use regular expressions
 
 A regular expression is a set of characters that describe a text pattern. To use regular expressions in your search term, surround the expression with forward slashes (`/`).
 
@@ -80,20 +107,17 @@ For more information on how to write regular expressions, refer to [Regular expr
 
 ## Configure search settings
 
-To configure Search, use the settings at the top of the Search tab:
+To configure Search, click on **Search settings** (three rows of switches icon) on the right side of the search bar to see the toggles.
 
 | Setting                 | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
-| **Match case**          | Toggles case-sensitive matching.                                            |
 | **Explain search term** | Breaks down the search terms and explains it in plain text.                 |
 | **Collapse results**    | Toggles whether to show the search context.                                 |
 | **Show more context**   | Expands the search result to show more text around the match.               |
-| **Change sort order**   | Change the order of the search results.                                     |
-| **Copy search results** | Convert and copy the search results as a Markdown list with optional links. |
 
 ## Embed search results in a note
 
-To embed search results in a note, add a `query` codeblock:
+To embed search results in a note, add a `query` code block:
 
 <pre><code>```query
 embed OR search
