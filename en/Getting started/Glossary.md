@@ -12,17 +12,17 @@ A **note** is a Markdown file inside a [[#vault]].
 
 A **link** references another note, file, or document. An [[Internal links|internal link]] references a file inside a vault. An [[Basic formatting syntax#External links|external link]] references a document outside the vault.
 
-## metadata
+## property
 
-[[Metadata]] defines additional information about a note, such as a due date or author.
+[[Properties]] defines additional information about a note, such as a due date or author.
 
 ## frontmatter
 
-Frontmatter is a way to define [[#metadata]] for your note by adding [YAML](https://yaml.org/) or [JSON](https://www.json.org/) at the top of the note. See also [[Metadata#Metadata format]].
+Frontmatter is a way to define [[#property]] for your note by adding [YAML](https://yaml.org/) or [JSON](https://www.json.org/) at the top of the note. See also [[Properties#Property format|Property format]].
 
 ## alias
 
-An **alias** is a type of [[#metadata]] that defines alternative names for a [[#note]].
+An **alias** is a type of [[#property]] that defines alternative names for a [[#note]].
 
 ## attachment
 

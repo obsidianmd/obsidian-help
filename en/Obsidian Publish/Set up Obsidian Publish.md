@@ -29,7 +29,7 @@ In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish
 ## Step 4: Set a site name
 
 1. In the **Publish changes** dialog, click **Change site options** (cog icon).
-2. In **Site name**, under **Metadata**, enter the name of your site.
+2. In **Site name**, under **General**, enter the name of your site.
 3. Click **Save site settings**.
 
 ## Step 5: Select notes to publish

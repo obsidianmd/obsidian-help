@@ -2,13 +2,13 @@
 aliases:
   - front matter
   - Advanced topics/YAML front matter
+  - metadata
 ---
+While most of the text in a note is meant to be read by a human, _property_ is text that's meant to be easily readable by a program, for example a [[Community plugins|community plugin]] or Obsidian itself.
 
-While most of the text in a note is meant to be read by a human, _metadata_ is text that's meant to be easily readable by a program, for example a [[Community plugins|community plugin]] or Obsidian itself.
+You can add properties to your notes by adding a block on the first line of your note. The block must start and end with three hyphens (`---`).
 
-You can add metadata to your notes by adding a block on the first line of your note. The block must start and end with three hyphens (`---`).
-
-For example, the following note contains two pieces of metadata, `tag` and `publish`:
+For example, the following note contains two pieces of properties, `tag` and `publish`:
 
 ```yaml
 ---
@@ -22,16 +22,16 @@ Today I learned about front matter.
 ```
 
 > [!tip]
-> By default, metadata is only visible in the [[Editing and previewing Markdown#Editor views|editing view]].
+> By default, properties are only visible in the [[Editing and previewing Markdown#Editor views|editing view]].
 >
-> To display metadata in reading view:
+> To display properties in reading view:
 >
 > 1. Open **Settings**.
 > 2. Under **Editor**, enable **Show frontmatter**.
 
-## Metadata format
+## Property format
 
-[YAML](https://yaml.org/) is a widely used configuration format that's readable by both humans and machines. Each piece of metadata consists of a _key_ and a corresponding _value_.
+[YAML](https://yaml.org/) is a widely used configuration format that's readable by both humans and machines. Each property consists of a _key_ and a corresponding _value_.
 
 Keys are separated from their values by a colon followed by a space:
 
@@ -57,8 +57,8 @@ cast:
 ---
 ```
 
-> [!tip] JSON metadata
-> While we recommend using YAML to define metadata, you can also define metadata using [JSON](https://www.json.org/):
+> [!tip] JSON properties
+> While we recommend using YAML to define properties, you can also define properties using [JSON](https://www.json.org/):
 >
 > ```md
 > ---
@@ -69,7 +69,7 @@ cast:
 > ---
 > ```
 
-## Predefined metadata
+## Predefined properties
 
 Obsidian comes with of a set of predefined keys:
 
@@ -81,9 +81,9 @@ Obsidian comes with of a set of predefined keys:
 | `aliases` | Alias for `alias`. |
 | `cssclass` | Allows you to style individual notes using [[CSS snippets]]. |
 
-### Metadata for Obsidian Publish
+### Properties for Obsidian Publish
 
-The following metadata keys are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following properties keys are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
 
 | Key | Description |
 |-|-|
