@@ -13,6 +13,29 @@ We recommend using a dedicated backup service that doesn't automatically update 
 >
 > To use Obsidian Sync together with Files On-Demand and similar features, make sure to configure the service to always keep the files on the device.
 
+> [!QUESTION]- How do I move my vault out of iCloud Drive?
+> > [!INFO]- Move your vault out of iCloud Drive on macOS
+> > - Open the [[Vault Switcher]], right-click on the vault or tap the three dots, and select "Move vault."  
+>   > 
+> > If you want to move your vault across different drives:
+> > 1. Quit the Obsidian app.  
+> > 2. Navigate to iCloud Drive → Obsidian in Finder  
+> > 3. Drag the vault folder to a different folder that doesn't sync with iCloud.
+> > 4. Open the Obsidian app.  
+> > 5. In the vault switcher, select **Open folder as vault** and select the folder that contains your vault.
+>   
+> > [!INFO]- Move your vault out of iCloud Drive on iOS
+> > 1. Back up your vault.
+> > 2. Create a new vault with **Save in iCloud Drive** disabled. This makes sure the app container folder exists. You'll delete this vault when you're done.
+> > 3. Force quit the Obsidian app on all devices to prevent Sync from modifying your vault while you move your files.
+> > 4. Open the Files app on your iOS device and navigate to iCloud Drive → Obsidian.
+> > 5. Press and hold your vault's folder, and then select **Move**. 
+> > 6. Navigate to **On My iPhone** → **Obsidian**, and then press **Copy**.
+> > 7. Once the vault has been copied, while still in the Files app, navigate back to **iCloud Drive** → **Obsidian**, and then delete your vault folder there.  
+> > 8. Open the Obsidian app. 
+
+In the vault switcher, your vault now has a vault icon instead of a cloud to indicate it's no longer synced to iCloud Drive. 
+
 ## Remove your vault from a third-party sync service
 
 If you're using Obsidian Sync and realize that you've set up your vault in a folder synced by a third-party service, you can use the following steps to move the vault to a safer location.
