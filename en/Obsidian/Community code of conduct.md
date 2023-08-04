@@ -94,7 +94,7 @@ We'll keep the identity of the reporter as confidential as we can.
 
 ### Report on Discord
 
-In \#bots-land-mute-me channel, or any other channel, type `!report @offenderName Please write your reason here`. Your message will disappear immediately, and a report will be sent to our moderator only channel.
+In \#bots-land-mute-me channel, or any other channel, type `/moderation report @offenderName Please write your reason here`. Your message will disappear immediately, and a report will be sent to our moderator only channel.
 
 ### Report on the forum
 
