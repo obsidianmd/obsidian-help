@@ -4,7 +4,7 @@ aliases:
   - Advanced topics/YAML front matter
   - metadata
 ---
-While most of the text in a note is meant to be read by a human, _property_ is text that's meant to be easily readable by a program, for example a [[Community plugins|community plugin]] or Obsidian itself.
+While most of the text in a note is meant to be read by a human, _properties_ are text that's meant to be easily readable by a program, for example a [[Community plugins|community plugin]] or Obsidian itself.
 
 You can add properties to your notes by adding a block on the first line of your note. The block must start and end with three hyphens (`---`).
 
@@ -75,11 +75,12 @@ Obsidian comes with of a set of predefined keys:
 
 | Key | Description |
 |-|-|
-| `tag` | See [[Editing and formatting/Tags\|Tags]]. |
-| `tags` | Alias for `tag`. |
-| `alias` | See [[Aliases]]. |
-| `aliases` | Alias for `alias`. |
-| `cssclass` | Allows you to style individual notes using [[CSS snippets]]. |
+| `tag` | Deprecated alias for `tags`. |
+| `tags` | See [[Editing and formatting/Tags\|Tags]]. |
+| `alias` | Deprecated alias for `aliases`. |
+| `aliases` | See [[Aliases]]. |
+| `cssclass` | Deprecated alias for `cssclasses`. |
+| `cssclasses` | Allows you to style individual notes using [[CSS snippets]]. |
 
 ### Properties for Obsidian Publish
 
