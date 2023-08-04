@@ -49,3 +49,27 @@ Quick Action defaults to open [[Command palette]].
 6. Close the setting page.
 
 Now, when you pull down from the top, the new Quick Action will be invoked.
+
+## Navigation bar
+
+The navigation bar on mobile helps you navigate the app. The navigation bar shows up when you’re not editing the app.
+
+With the **Toggle keyboard** toolbar option, you can close the mobile toolbar and switch to the navigation bar instead.
+
+### Go back or forward
+
+On the navigation bar, the first two options helps you go back (back arrow icon) or forward (forward arrow icon). If one of the options is not available, the icon is greyed out.
+
+### Create or find note
+
+The middle plus in circle icon lets you create a new note or switch to an existing note. This is equivalent to opening [[Quick switcher]].
+
+### Tab management
+
+The second icon to the right shows you how many tabs are currently open. The icon looks like a number in a box.
+
+When you tap it, you’ll be able to switch to any open tab. You can also a new tab.
+
+### Ribbon actions
+
+The mobile app has no [[Ribbon]]. Instead, the ribbon actions will be available when you tap **Open menu** (three bars icon), the last option on the navigation bar.
