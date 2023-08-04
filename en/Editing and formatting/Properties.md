@@ -75,12 +75,19 @@ Obsidian comes with of a set of predefined keys:
 
 | Key | Description |
 |-|-|
-| `tag` | Deprecated alias for `tags`. |
 | `tags` | See [[Editing and formatting/Tags\|Tags]]. |
-| `alias` | Deprecated alias for `aliases`. |
 | `aliases` | See [[Aliases]]. |
-| `cssclass` | Deprecated alias for `cssclasses`. |
 | `cssclasses` | Allows you to style individual notes using [[CSS snippets]]. |
+
+### Deprecated properties
+
+These keys are deprecated in 1.4. Please do not use them any more:
+
+| Key | Description |
+|-|-|
+| `tag` | Deprecated alias for `tags`. |
+| `alias` | Deprecated alias for `aliases`. |
+| `cssclass` | Deprecated alias for `cssclasses`. |
 
 ### Properties for Obsidian Publish
 
