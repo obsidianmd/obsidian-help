@@ -1,11 +1,13 @@
 ---
 permalink: evernote
 ---
-Obsidian allows you to easily migrate your notes from Evernote using the official [[Importer|Importer plugin]].
+Obsidian allows you to easily migrate your notes from Evernote using the [[Importer|Importer plugin]].
 
 ## Export your data from Evernote
 
-Obsidian uses Evernote's export format `.enex` files. You can find Evernote's instructions for exporting your data [on Evenote's website](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). This method allows you to export entire notebooks in the desktop client.
+Obsidian uses Evernote's export format `.enex` files.
+
+You can find Evernote's instructions for exporting your data [on Evenote's website](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). This method allows you to export entire notebooks in the desktop client.
 
 1. Go to the Notebooks screen
 2. Click on **More actions** (`•••` icon) and choose **Export Notebook...**

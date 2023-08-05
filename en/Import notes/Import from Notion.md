@@ -1,7 +1,7 @@
 ---
 permalink: notion
 ---
-Obsidian allows you to easily migrate your notes from Notion using the official [[Importer|Importer plugin]].
+Obsidian allows you to easily migrate your notes from Notion using the [[Importer|Importer plugin]].
 
 ## Export your data from Notion
 

@@ -1,7 +1,7 @@
 ---
 permalink: bear
 ---
-Obsidian allows you to easily migrate your notes from Bear using the official [[Importer|Importer plugin]].
+Obsidian allows you to easily migrate your notes from Bear using the [[Importer|Importer plugin]].
 
 ## Export your data from Bear
 
