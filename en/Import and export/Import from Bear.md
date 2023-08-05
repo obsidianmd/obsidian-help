@@ -17,7 +17,7 @@ Obsidian uses Bear's backup format `.bear2bk` files. You can find Bear's instruc
 
 ## Import your Bear data into Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer)
+You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **Settings**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).

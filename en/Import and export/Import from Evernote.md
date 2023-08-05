@@ -14,7 +14,7 @@ Obsidian uses Evernote's export format `.enex` files. You can find Evernote's in
 
 ## Import your Evernote data into Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer)
+You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **Settings**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).

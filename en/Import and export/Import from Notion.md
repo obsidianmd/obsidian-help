@@ -16,7 +16,7 @@ Obsidian uses Notion's HTML export format. You can find Notions's instructions o
 
 ## Import your Notion data into Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer)
+You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **Settings**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).

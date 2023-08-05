@@ -13,7 +13,7 @@ The easiest way to import your notes is to export them as Markdown-formatted tex
 ## Import notes from other apps and file formats
 
 - [[Import HTML files|HTML files]]
-	- Learn how to import from generic HTML files
+- [[Import Markdown files|Markdown files]]
 - <span class="apple-notes"></span> [[Import from Apple Notes|Apple Notes]]
 - [[Import from Bear|Bear]]
 - [[Import from Evernote|Evernote]]

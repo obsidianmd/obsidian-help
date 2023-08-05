@@ -1,8 +1,6 @@
 ---
 permalink: import-zettelkasten
 ---
-## Import Zettelkasten notes
-
 If you've been using the Zettelkasten method to name and link your notes, you may need to convert links from `[[UID]]` to `[[UID My note title]]`.
 
 For example, if you have a note with the name `202301011230 My note title` and link to it from another note using only the UID, `[[202301011230]]`. Since Obsidian uses the full name of the note to resolve internal links, links like these will break.

@@ -7,13 +7,13 @@ If you are importing notes from a specific app, you may want to first review the
 
 ## Import HTML data into Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer)
+You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **Settings**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.
 5. Under **File format** choose **HTML (.html).**
-6. Select the location of your Evernote backup file.
+6. Select the location of your HTML files or folders.
 7. Click **Import** and wait until import is complete.
 8. You're done!

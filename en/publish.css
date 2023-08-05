@@ -27,6 +27,7 @@
 
 .grid-list div > ul {
     --link-color: var(--text-normal);
+    --link-unresolved-color: var(--text-muted);
     --link-decoration: none;
     --link-decoration-hover: none;
     --link-external-color: var(--text-normal);
