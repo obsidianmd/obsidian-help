@@ -2,9 +2,11 @@
 aliases:
   - Start here
   - Obsidian/Index
+cssclasses:
+  - grid-list
 ---
 
-Welcome to the official Obsidian documentation, where you can find tips and guides on how to use [Obsidian](https://obsidian.md).
+Welcome to the official Obsidian documentation, where you can find tips and guides on how to use [Obsidian](https://obsidian.md), the private and flexible note‑taking app that adapts to the way you think.
 
 You can browse the documentation in any of the following languages:
 
@@ -18,8 +20,7 @@ You can browse the documentation in any of the following languages:
 - [中文](https://publish.obsidian.md/help-zh)
 - [Phéasa Khmêr](https://publish.obsidian.md/help-km)
 
-> [!tip] The Obsidian team
-> To learn more about the people behind Obsidian, head over to our [about page](https://obsidian.md/about).
+
 
 ## Getting started
 
@@ -34,10 +35,12 @@ From here, you can build your own custom experience by enabling additional featu
 
 Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 
-Learn more about our products:
+Learn more about our services:
 
-- [[Introduction to Obsidian Publish|Obsidian Publish]] for publishing your notes.
-- [[Introduction to Obsidian Sync|Obsidian Sync]] for syncing your notes across devices.
+- [[Introduction to Obsidian Publish|Obsidian Publish]]
+	- For publishing your notes.
+- [[Introduction to Obsidian Sync|Obsidian Sync]]
+	- For syncing your notes across devices.
 
 ## Contribute
 
