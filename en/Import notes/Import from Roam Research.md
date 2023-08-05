@@ -5,9 +5,11 @@ Obsidian allows you to easily migrate your notes from Roam Research.
 
 ## Export your data from Roam Research
 
-1. In Roam Research, select the three dots in the upper-right corner, and then select **Export All**.
+1. In Roam Research, click on **More actions** (`•••` icon) in the upper-right corner, and then select **Export All**.
+   
    ![[Pasted image.png]]
 2. In **Export Format**, select "Markdown", and then select **Export All** to download an archive with your notes.
+   
    ![[Pasted image 1.png]]
 3. Unzip the archive into a folder.
 4. Open Obsidian. If you already have a vault open, run the **Open another vault** command from the [[Command palette]].

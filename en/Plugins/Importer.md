@@ -1,3 +1,3 @@
-The Importer plugin helps you [[Import notes|migrate]] to Obsidian from various other apps such as [[Import from Evernote|Evernote]], [[Import from Bear|Bear]], [[Import from Roam Research|Roam Research]], [[Import from Google Keep|Google Keep]], [[Import from Microsoft OneNote|Microsoft OneNote]], etc.
+Importer helps you [[Import notes|migrate to Obsidian]] from various apps such as [[Import from Evernote|Evernote]], [[Import from Bear|Bear]], [[Import from Roam Research|Roam Research]], [[Import from Google Keep|Google Keep]], [[Import from Microsoft OneNote|Microsoft OneNote]], [[Import from Apple Notes|Apple Notes]], and more.
 
-Importer is an official plugin made by the Obsidian team, with community contributions to our open source code. You can [install Importer](obsidian://show-plugin?id=obsidian-importer) via the [[Community plugins]].
+Importer is an official plugin made by the Obsidian team, with community contributions to our open source code. You can [install Importer](obsidian://show-plugin?id=obsidian-importer) via [[Community plugins]].
