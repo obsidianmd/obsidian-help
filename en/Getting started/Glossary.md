@@ -38,7 +38,7 @@ The **main area** is the central area of the Obsidian app, where you primarily e
 
 ## Markdown
 
-[Markdown](https://daringfireball.net/projects/markdown/) is a markup language for formatting text. See also [[Basic formatting syntax]].
+Markdown is a markup language for formatting text and the primary file format used for notes in Obsidian, `.md` files. See also [[Basic formatting syntax]].
 
 ## note
 
@@ -61,7 +61,7 @@ See also [[Pop-out windows]].
 
 ## property
 
-[[Properties]] defines additional information about a note, such as a due date or author.
+[[Properties|Properties]] define additional information about a note, such as a due date or author.
 
 ## ribbon
 
