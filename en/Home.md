@@ -3,7 +3,7 @@ aliases:
   - Start here
   - Obsidian/Index
 cssclasses:
-  - grid-list
+  - list-cards
 ---
 
 Welcome to the official Obsidian documentation, where you can find tips and guides on how to use [Obsidian](https://obsidian.md).

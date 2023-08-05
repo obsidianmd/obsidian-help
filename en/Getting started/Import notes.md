@@ -3,7 +3,7 @@ aliases:
   - How to/Import data
   - How to/Capture information
 cssclasses:
-  - grid-list
+  - list-cards
 ---
 Apps come and go, but your data should last. Obsidian uses non-proprietary plain text Markdown files stored locally on your device. You have total control over your data, which means you can use Obsidian offline and switch to another app easily if you ever need to.
 

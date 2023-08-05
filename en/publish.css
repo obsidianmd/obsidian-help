@@ -25,7 +25,7 @@
 	display: none;
 }
 
-.grid-list div > ul {
+.list-cards div > ul {
     --link-color: var(--text-normal);
     --link-unresolved-color: var(--text-muted);
     --link-decoration: none;
@@ -38,25 +38,25 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     padding:0;
 }
-.grid-list div > ul > li {
+.list-cards div > ul > li {
     display: block;
     border-radius: var(--radius-s);
     border: 1px solid var(--color-base-25);
 }
-.grid-list div ul > li a {
+.list-cards div ul > li a {
     display: block;
     padding: 16px;
     font-weight: var(--font-semibold);
     background: none;
 }
-.grid-list div ul > li:hover {
+.list-cards div ul > li:hover {
     border-color: var(--color-base-35);
 }
 
-.theme-dark .grid-list div ul > li {
+.theme-dark .list-cards div ul > li {
     background-color: var(--background-secondary);
 }
-.grid-list div ul ul {
+.list-cards div ul ul {
     display: block;
     width: 100%;
     color: var(--text-muted);
@@ -64,7 +64,7 @@
     margin-top: -8px;
     padding: 0 16px 16px;
 }
-.grid-list div ul ul > li {
+.list-cards div ul ul > li {
     display: block;
 }
 
