@@ -9,9 +9,9 @@ Obsidian uses Evernote's export format `.enex` files.
 
 You can find Evernote's instructions for exporting your data [on Evenote's website](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). This method allows you to export entire notebooks in the desktop client.
 
-1. Go to the Notebooks screen
-2. Click on **More actions** (`•••` icon) and choose **Export Notebook...**
-3. Select **ENEX** as the file format
+1. Go to the Notebooks screen.
+2. Click on **More actions** (`•••` icon) and choose **Export Notebook...**.
+3. Select **ENEX** as the file format.
 3. Choose a location for your exported `.enex` file.
 
 ## Import your Evernote data into Obsidian
