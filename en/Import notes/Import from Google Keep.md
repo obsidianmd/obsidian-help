@@ -6,7 +6,7 @@ Obsidian allows you to easily migrate your notes from Google Keep using the [[Im
 ## Export your data from Google Keep
 
 1. Go to [Google Takeout](https://takeout.google.com/settings/takeout) and log into your Google account.
-2. Click **Deselect all** in the top right corner
+2. Click **Deselect all** in the top right corner.
 3. Scroll down and select **Keep** from the list. 
 4. Scroll down to the bottom of the page and click **Next step**.
 5. On the next screen, click the **Create export** button.
