@@ -30,7 +30,7 @@ A **hotkey** is a keyboard shortcut for a [[#command]]. See also [[Custom hotkey
 
 ## link
 
-A **link** references another note, file, or document. An [[Internal links|internal link]] references a file inside a vault. An [[Basic formatting syntax#External links|external link]] references a document outside the vault.
+A **link** references another note or file. An [[Internal links|internal link]] points to a file located in the current vault. An [[Basic formatting syntax#External links|external link]] points to a location outside the vault, typically a web page.
 
 ## main area
 
