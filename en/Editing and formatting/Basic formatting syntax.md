@@ -98,6 +98,8 @@ Text inside `backticks` on a line will be formatted like code.
 
 Text inside `backticks` on a line will be formatted like code.
 
+If you want to put backticks in a inline code block, surround it with double backticks like so: inline ``code with a backtick ` inside``.
+
 ### Code blocks
 
 To format a block of code, surround the code with triple backticks.
@@ -156,7 +158,7 @@ If you want to link to an external URL, you can create an inline link by surroun
 > [!tip]
 > If you want to link to a file inside your vault, consider using an [[Internal links|internal link]] instead.
 
-You can also create external links to files in other vaults, by linking to an [[Using Obsidian URI|Obsidian URI]].
+You can also create external links to files in other vaults, by linking to an [[Obsidian URI|Obsidian URI]].
 
 ```md
 [Note](obsidian://open?vault=MainVault&file=Note.md)
@@ -306,6 +308,9 @@ You can also inline footnotes in a sentence. Note that the caret goes outside th
 ```md
 You can also use inline footnotes. ^[This is an inline footnote.]
 ```
+
+> [!note]
+> Inline footnotes only work in reading view, not in Live Preview.
 
 ## Comments
 

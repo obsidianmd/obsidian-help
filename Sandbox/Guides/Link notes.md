@@ -41,8 +41,9 @@ Another way to navigate the between notes is through _backlinks_. A backlink let
 Another way to navigate between your notes is by using a visual representation of how your notes are connected.
 
 1. In the top-right corner of the note, click **More options** (three dots).
-1. Select **Open local graph**.
-1. Click any of the nodes in the graph to navigate to that note.
+2. Hover over **Open linked view**
+3. Select **Open local graph**.
+4. Click any of the nodes in the graph to navigate to that note.
 
 ## Learn more
 

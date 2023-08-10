@@ -1,4 +1,4 @@
-Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Metadata]], you can customize how your notes appear in the preview.
+Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Properties]], you can customize how your notes appear in the preview.
 
 ## Description
 

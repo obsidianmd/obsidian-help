@@ -50,9 +50,15 @@ While the following behaviors don’t result in a ban or warning, we strongly di
 
 Campaigning is continuously making the same requests. This applies to both feature requests and to requests for help. Don’t post the same question in multiple places in short time frames, and don’t ask developers for the same features or bug fixes repeatedly.
 
-#### Parasitism
+#### Excessive self promotion
 
-Parasitism is self-promoting of yours or others' initiatives without contributing to the community otherwise. We encourage self-promotion (it's awesome to see what Obsidian users are up to) but won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community.
+We encourage sharing what you made, for example guides, videos, utilities, and tools. It's awesome to see what Obsidian users are up to. As a content creator, it’s inevitable that you will link to your own creations.
+
+**Exclusive** self promotion is the promoting and linking of your or others' content and initiatives without contributing to the community otherwise. We won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community. Depending on the case, links may be removed, or warnings given.
+
+**Excessive** self promotion is a judgement call. Please be respectful of the community and prioritize active community participation before linking. We reserve the right to remove links we think breach this guideline.
+
+Note that linking to paid content made by oneself will be scrutinized even closely, as the likelihood of conflict of interest is highest with this type of content.
 
 #### Spamming
 
@@ -88,7 +94,7 @@ We'll keep the identity of the reporter as confidential as we can.
 
 ### Report on Discord
 
-In \#bots-land-mute-me channel, or any other channel, type `!report @offenderName Please write your reason here`. Your message will disappear immediately, and a report will be sent to our moderator only channel.
+In \#bots-land-mute-me channel, or any other channel, type `/moderation report @offenderName Please write your reason here`. Your message will disappear immediately, and a report will be sent to our moderator only channel.
 
 ### Report on the forum
 

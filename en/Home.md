@@ -2,6 +2,8 @@
 aliases:
   - Start here
   - Obsidian/Index
+cssclasses:
+  - list-cards
 ---
 
 Welcome to the official Obsidian documentation, where you can find tips and guides on how to use [Obsidian](https://obsidian.md).
@@ -16,9 +18,9 @@ You can browse the documentation in any of the following languages:
 - [Русский](https://publish.obsidian.md/help-ru)
 - [Tiếng Việt](https://publish.obsidian.md/help-vi)
 - [中文](https://publish.obsidian.md/help-zh)
+- [Phéasa Khmêr](https://publish.obsidian.md/help-km)
 
-> [!tip] The Obsidian team
-> To learn more about the people behind Obsidian, head over to our [about page](https://obsidian.md/about).
+
 
 ## Getting started
 
@@ -29,14 +31,16 @@ If you're new to Obsidian, learn the basics of note-taking with Obsidian using o
 3. [[Create your first note]]
 4. [[Link notes]]
 
-From here, you can build your own custom experience by enabling additional features through _plugins_. Explore the [[Core plugins]] that ships with Obsidian, or any of our [[Community plugins]].
+From here, you can build your own custom experience by enabling additional features through _plugins_. Explore the [[Core plugins]] that ship with Obsidian, or any of our [[Community plugins]].
 
 Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 
-Learn more about our products:
+Learn more about our services:
 
-- [[Introduction to Obsidian Publish|Obsidian Publish]] for publishing your notes.
-- [[Introduction to Obsidian Sync|Obsidian Sync]] for syncing your notes across devices.
+- [[Introduction to Obsidian Publish|Obsidian Publish]]
+	- For publishing your notes.
+- [[Introduction to Obsidian Sync|Obsidian Sync]]
+	- For syncing your notes across devices.
 
 ## Contribute
 

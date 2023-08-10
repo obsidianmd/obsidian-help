@@ -2,6 +2,8 @@
 
 This repository contains the source for the [Obsidian Help docs](https://help.obsidian.md/), along with the translations for each supported language.
 
+⚠ Please do not open issues about Obsidian bug reports or feature requests here. Your issue will be closed and you'll be redirected to the forum.
+
 The docs for each language are stand-alone vaults with a corresponding [Obsidian Publish](https://help.obsidian.md/Obsidian+Publish/Introduction+to+Obsidian+Publish) site.
 
 | Language | URL                                     |
@@ -34,8 +36,6 @@ Any contributions to the English docs must follow our [Style guide](https://help
 ## Translations
 
 ### Adding a new translation
-
-If you want to add a new translation, either [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new) or [open a discussion](https://github.com/obsidianmd/obsidian-help/discussions/categories/translations) to let us you know that you want to start working on it.
 
 To add a new translation, copy the entire `en` folder and rename it to the corresponding [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code in lowercase.
 
