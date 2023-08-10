@@ -1,5 +1,5 @@
 ---
-permalink: onenote
+permalink: import/onenote
 ---
 
 ## Export your data from OneNote

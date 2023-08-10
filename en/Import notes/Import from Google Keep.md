@@ -1,5 +1,5 @@
 ---
-permalink: google-keep
+permalink: import/google-keep
 ---
 Obsidian allows you to easily migrate your notes from Google Keep using the [[Importer|Importer plugin]].
 

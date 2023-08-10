@@ -1,5 +1,5 @@
 ---
-permalink: evernote
+permalink: import/evernote
 ---
 Obsidian allows you to easily migrate your notes from Evernote using the [[Importer|Importer plugin]].
 

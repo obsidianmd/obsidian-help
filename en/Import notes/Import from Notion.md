@@ -1,5 +1,5 @@
 ---
-permalink: notion
+permalink: import/notion
 ---
 Obsidian allows you to easily migrate your notes from Notion using the [[Importer|Importer plugin]].
 
