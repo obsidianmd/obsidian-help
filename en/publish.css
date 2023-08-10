@@ -24,8 +24,53 @@
 .site-body-left-column-site-name {
 	display: none;
 }
+
+.list-cards div > ul {
+    --link-color: var(--text-normal);
+    --link-unresolved-color: var(--text-muted);
+    --link-decoration: none;
+    --link-decoration-hover: none;
+    --link-external-color: var(--text-normal);
+    --link-external-decoration: none;
+    --link-external-decoration-hover: none;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding:0;
+}
+.list-cards div > ul > li {
+    display: block;
+    border-radius: var(--radius-s);
+    border: 1px solid var(--color-base-25);
+}
+.list-cards div ul > li a {
+    display: block;
+    padding: 16px;
+    font-weight: var(--font-semibold);
+    background: none;
+}
+.list-cards div ul > li:hover {
+    border-color: var(--color-base-35);
+}
+
+.theme-dark .list-cards div ul > li {
+    background-color: var(--background-secondary);
+}
+.list-cards div ul ul {
+    display: block;
+    width: 100%;
+    color: var(--text-muted);
+    font-size: var(--font-smaller);
+    margin-top: -8px;
+    padding: 0 16px 16px;
+}
+.list-cards div ul ul > li {
+    display: block;
+}
+
 @media screen and (max-width: 750px) {
 	.site-header-text {
 		display: none;
 	}
 }
+
