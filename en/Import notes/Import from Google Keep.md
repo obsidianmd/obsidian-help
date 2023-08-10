@@ -24,3 +24,9 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 6. Select the location of your `.zip` file.
 7. Click **Import** and wait until import is complete.
 8. You're done!
+
+### Supported features
+
+- All checklists will import as top-level items because Google Keep doesn't export indentation information.
+- Reminders and user assignments on notes will not be imported because these features are not supported by Obsidian.
+- All other information should import as a combination of content and tags.

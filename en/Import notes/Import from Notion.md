@@ -11,6 +11,7 @@ Obsidian uses Notion's HTML export format. You can find Notions's instructions o
 2. Select **Settings** in the sidebar of that window.
 3. Scroll down and click the **Export all workspace content** button.
 4. Under **Export format** select **HTML**.
+5. You will receive a `.zip` file via email or directly in the browser.
 
 ![[notion-export.png]]
 
@@ -22,10 +23,8 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** select **Notion (.html)**
-6. Choose the folder(s) of Notion notes you want to import. 
-	1. Select the unzipped folder(s), not anything inside of them.
-	2. **Note:** *It's recommended to import all your Notion at once so internal links can be reconciled correctly!*
-7. Select a folder for the import — your Notion pages and databases will be nested inside this folder.
+5. Under **File format** select **Notion (.zip)**
+6. Choose the `.zip` file with Notion files you want to import. *It's recommended to import all your Notion at once so internal links can be reconciled correctly.*
+7. Optionally, select a folder for the import Your Notion pages and databases will be nested inside this folder.
 8. Click **Import** and wait until import is complete
 9. You're done!
