@@ -17,3 +17,8 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 6. Select the location of your HTML files or folders.
 7. Click **Import** and wait until import is complete.
 8. You're done!
+
+### Import settings
+
+- **Attachment size limit**: Skip importing attachments larger than the specified size.
+- **Minimum image size**: Skip importing images smaller than the specified size in either dimension. Can be used to skip icons and logos.
