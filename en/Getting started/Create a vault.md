@@ -16,9 +16,9 @@ To create a new empty vault:
 If you already have a folder that you want to use as your vault:
 
 1. To the right of **Open folder as vault**, click **Open**.
-2. In the file browser, select the folder you want to use as your vault.
+2. In your file browser, select the folder you want to use as your vault.
 3. Click **Open**.
 
-If you want to know more about how vaults work, learn how [[How Obsidian stores data]].
+If you want to know more about how vaults work, learn [[How Obsidian stores data|how Obsidian stores data]].
 
-Now that you've set up your vault, you're ready to [[Create your first note]].
+Now that you've set up your vault, you're ready to [[Create your first note|create your first note]].

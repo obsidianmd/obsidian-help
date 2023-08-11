@@ -22,4 +22,4 @@ You can rearrange the order of ribbon actions by dragging and dropping the icons
 
 To hide certain actions, you can right click on empty space on the ribbon and uncheck certain actions to hide them.
 
-Ribbon layout will be remembered across sessions. It will get synchronized to other devices and mobile app if app settings, specifically the `workspace.json` file, is synchronized.
+Ribbon layout will be remembered across sessions. It will get synced to other devices and mobile app if app settings, specifically the `workspace.json` file, is synced.

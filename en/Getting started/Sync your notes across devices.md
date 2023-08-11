@@ -96,7 +96,7 @@ We understand that many of you use other services for syncing files and you'd pr
 
 Obsidian works differently from other Markdown editors on iOS. Editors such as 1Writer and iA Writer access one note at a time, which lets them use built-in support for documents.
 
-In contrast, many features in Obsidian need access to your entire vault. For example if you rename a file, then Obsidian needs to update all files in the vault that links to that file.
+In contrast, many features in Obsidian need access to your entire vault. For example, if you rename a file, then Obsidian needs to update all files in the vault that links to that file.
 
 Implementing a system to read, modify, and monitor an entire folder structure comprising of possibly thousand of notes outside of the supported locations is challenging. We hope to address this limitation in the future.
 
