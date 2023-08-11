@@ -1,5 +1,5 @@
 ---
-permalink: import-zettelkasten
+permalink: import/zettelkasten
 ---
 If you've been using the Zettelkasten method to name and link your notes, you may need to convert links from `[[UID]]` to `[[UID My note title]]`.
 

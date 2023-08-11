@@ -30,6 +30,7 @@ If you're new to Obsidian, learn the basics of note-taking with Obsidian using o
 2. [[Create a vault]]
 3. [[Create your first note]]
 4. [[Link notes]]
+5. [[Import notes]]
 
 From here, you can build your own custom experience by enabling additional features through _plugins_. Explore the [[Core plugins]] that ship with Obsidian, or any of our [[Community plugins]].
 

@@ -1,5 +1,5 @@
 ---
-permalink: roam
+permalink: import/roam
 ---
 Obsidian allows you to easily migrate your notes from Roam Research.
 

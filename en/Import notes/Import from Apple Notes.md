@@ -1,5 +1,5 @@
 ---
-permalink: apple-notes
+permalink: import/apple-notes
 ---
 Obsidian allows you to easily migrate your notes from Apple Notes using the [[Importer|Importer plugin]].
 

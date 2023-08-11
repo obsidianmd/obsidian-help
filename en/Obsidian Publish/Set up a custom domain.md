@@ -64,6 +64,7 @@ In your NGINX configuration, add the following:
 location /my-notes {
   proxy_pass https://publish.obsidian.md/serve?url=mysite.com/my-notes/;
   proxy_ssl_server_name on;
+  proxy_set_header Host publish.obsidian.md;
 }
 ```
 

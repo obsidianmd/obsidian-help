@@ -1,5 +1,5 @@
 ---
-permalink: bear
+permalink: import/bear
 ---
 Obsidian allows you to easily migrate your notes from Bear using the [[Importer|Importer plugin]].
 
