@@ -27,8 +27,10 @@ Don't see your app? You can request it or contribute to the [open-source reposit
 
 Additional guides have been shared by our community that may help you migrate to Obsidian: 
 
-- [Day One](https://forum.obsidian.md/t/dayone-to-obsidian-script/13387)
-- [Diaro](https://forum.obsidian.md/t/meta-migration-workflows/15252/46)
+- [Craft](https://github.com/obsidianmd/obsidian-importer/issues/27)
+- [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
+- [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
+- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)
 - [TheBrain](https://forum.obsidian.md/t/export-thebrain-to-obsidian-a-small-script/6641)
