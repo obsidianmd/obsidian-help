@@ -1,6 +1,8 @@
 ---
 aliases:
-- Licenses & Payment/Refund policy
+  - Licenses & Payment/Refund policy
+  - Cancel my subscription
+  - Cancel subscription
 ---
 
 We offer full refunds within 7 days of purchase with no questions asked for the following services and licenses:
