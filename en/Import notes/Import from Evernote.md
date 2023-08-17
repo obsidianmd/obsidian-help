@@ -26,3 +26,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 6. Select the location of your Evernote backup file.
 7. Click **Import** and wait until import is complete.
 8. You're done!
+
+### Import settings
+
+For more advanced import options from Evernote you can also try [importing via Yarle](https://github.com/akosbalasko/yarle).
