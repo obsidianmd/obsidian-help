@@ -16,6 +16,10 @@ At the moment, each remote vault can have up to 10 GB of data, including version
 
 At the moment, each file can be up to 100 MB.
 
+## With how many people I can share a remote vault?
+
+At the moment, you can share a remote vault with up to 10 persons.
+
 ## How long do you keep my data after my subscription expires?
 
 We keep data in your remote vaults, including version history, for one month after your subscription expires. Any local vaults on your devices are unaffected.
