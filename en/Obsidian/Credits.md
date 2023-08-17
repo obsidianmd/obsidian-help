@@ -8,6 +8,7 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 - liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span> <span class='flair mod-pop'>Plugin API Master</span> <span class='flair mod-pop'>Volcano Veteran</span>
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
 - joethei ([Johannes Theiner](https://joethei.xyz/))
+- tgrosinger ([Tony Grosinger](https://grosinger.net))
 
 ### Product & Operations
 
