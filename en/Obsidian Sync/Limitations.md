@@ -16,9 +16,9 @@ At the moment, each remote vault can have up to 10 GB of data, including version
 
 At the moment, each file can be up to 100 MB.
 
-## With how many people I can share a remote vault?
+## What's the maximum number of people I can share a remote vault with?
 
-At the moment, you can share a remote vault with up to 10 persons.
+At the moment, you can share a remote vault with up to 10 people.
 
 ## How long do you keep my data after my subscription expires?
 
