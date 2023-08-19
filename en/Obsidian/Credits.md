@@ -49,6 +49,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - Andrea Brandi (Italian)
 - canzi-teacher, 蚕子 (Chinese Simplified)
 - Daniel Mathiot (French)
+- Haitham Mohamed (Arabic)
 - Henrik Falk (Danish)
 - JxhnnyUt8h (Russian)
 - k-andzhanovskii, Константин Анджановский (Russian)

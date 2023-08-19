@@ -139,3 +139,4 @@ obsidian://action?param1=value&param2=value
 
 - `obsidian://vault/my vault/my note` مكافئ لـ `obsidian://open?vault=my%20vault&file=my%20note`
 - `obsidian:///absolute/path/to/my note` مكافئ لـ `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`
+
