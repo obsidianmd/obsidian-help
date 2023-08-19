@@ -18,15 +18,15 @@ Obsidia har som standard "Begrænset tilstand" aktiveret for at beskytte dig mod
 
 Bemærk at tredjeparts plugins kan tilgå filer på din computer, forbinde til internettet, og endda installere yderligere programmer. Du kan læse mere om plugin sikkerhed [[Fællesskabs plugins#Plugin sikkerhed|her]].
 
-For at kunne installere tredjeparts plugins skabt af fællesskabet skal du deaktivere "Begrænset tilstand" i "Indstillinger -> Tredjeparts plugins -> Begrænset tilstand".
+For at kunne installere tredjeparts plugins skabt af fællesskabet skal du deaktivere "Begrænset tilstand" i "Indstillinger → Tredjeparts plugins → Begrænset tilstand".
 
 #### Opdage og installere fællesskabsplugins
 
-Når "Begrænset tilstand" er deaktiveret kan du finde tredjepartplugins skabt af fællesskabet i "Indstillinger -> Tredjeparts plugins -> Gennemse".
+Når "Begrænset tilstand" er deaktiveret kan du finde tredjepartplugins skabt af fællesskabet i "Indstillinger → Tredjeparts plugins → Gennemse".
 
 På denne side kan du gennemse plugins ud fra popularitet, eller søge efter specifikke plugins. klik på et plugin for at se dets detaljer og instruktioner fra udvikleren. På detaljesiden kan du klikke på "Installer" for at installere et plugin.
 
-Efter installering af et plugin kan du finde det under "Indstillinger -> Tredjeparts plugins". Det skal aktiveres for at fungere. Du kan også afinstallere et plugin her.
+Efter installering af et plugin kan du finde det under "Indstillinger → Tredjeparts plugins". Det skal aktiveres for at fungere. Du kan også afinstallere et plugin her.
 
 ### Plugin sikkerhed
 

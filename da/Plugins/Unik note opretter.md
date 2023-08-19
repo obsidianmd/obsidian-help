@@ -24,7 +24,7 @@ F.eks. hvis du opretter en note kl. 9:45 den 1. januar 2024 vil dette plugin opr
 Nye noter er som standard tomme. Du kan benytte en anden fil som skabelon ved at:
 
 1. Åbne **Indstillinger**
-2. Klikke på **Kerne plugins -> Unik note opretter**
+2. Klikke på **Kerne plugins → Unik note opretter**
 3. Under **Placering af skabelon** angiver du den fil, som du vil benytte som skabelon
 
 Få mere information om [[Skabeloner|skabeloner her]].

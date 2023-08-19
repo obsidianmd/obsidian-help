@@ -28,7 +28,7 @@ Bạn cũng có thể tải trực tiếp hình ảnh từ trình duyệt của 
 
 ## Thay đổi vị trí attachment mặc định
 
-Theo mặc định, các attachment mới sẽ bị xóa trong thư mục gốc của vault. Bạn có thể chỉnh cài đặt này trong Settings -> Files & Links -> "Default location for new attachments".
+Theo mặc định, các attachment mới sẽ bị xóa trong thư mục gốc của vault. Bạn có thể chỉnh cài đặt này trong Settings → Files & Links → "Default location for new attachments".
 
 ### Chọn thư mục
 

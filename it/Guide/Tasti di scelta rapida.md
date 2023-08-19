@@ -1,6 +1,6 @@
 Quando il [[Riquadro comandi]] è abilitato, è possibile utilizzare `Ctrl/Cmd+P` per aprirlo. Verranno mostrati tutti i comandi attualmente disponibili e i relativi tasti di scelta rapida.
 
-La maggior parte delle scorciatoie da tastiera possono essere personalizzate in base alle proprie esigenze in Impostazioni -> Tasti di scelta rapida.
+La maggior parte delle scorciatoie da tastiera possono essere personalizzate in base alle proprie esigenze in Impostazioni → Tasti di scelta rapida.
 
 L'elenco delle scorciatoie da tastiera predefinite è:
 

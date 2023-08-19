@@ -29,13 +29,13 @@ Ecco alcuni modi per iniziare:
 
 Per iniziare a prendere appunti, dare un'occhiata a [[Basi per prendere appunti]].
 
-Se già si possiede una raccolta di note in formato Markdown, è possibile subito sceglierle per un vault. Fare clic sull'icona della cassaforte nella barra degli strumenti in basso a sinistra e scegliere "Apri un altro vault -> Apri" per selezionare la cartella delle note.
+Se già si possiede una raccolta di note in formato Markdown, è possibile subito sceglierle per un vault. Fare clic sull'icona della cassaforte nella barra degli strumenti in basso a sinistra e scegliere "Apri un altro vault → Apri" per selezionare la cartella delle note.
 
 Se si possiedono appunti su ==Roam Research==, ==Notion== o altri sistemi, [[Importazione dei dati|ecco come importarli]].
 
 Per saperne di più su Obsidian, leggere [[Obsidian|la nostra storia]].
 
-A proposito, i documenti di questa guida possono essere modificati liberamente, ma ogni volta che si farà clic su "Apri un altro vault -> Aiuto", tutti i dati verranno sovrascritti. Quindi, consigliamo di non metterci dentro nulla che si desidera conservare.
+A proposito, i documenti di questa guida possono essere modificati liberamente, ma ogni volta che si farà clic su "Apri un altro vault → Aiuto", tutti i dati verranno sovrascritti. Quindi, consigliamo di non metterci dentro nulla che si desidera conservare.
 
 ## Ho delle domande
 

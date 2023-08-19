@@ -21,14 +21,14 @@ I fremtiden forbedrer vi Obsidian Sync med:
 
 ### Aktivere Obsidian Sync plug-in'et
 
-Du kan aktivere Obsidian Sync ved at aktivere "Synkroniser" plug-in'et i "Indstillinger -> Kerne plug-ins".
+Du kan aktivere Obsidian Sync ved at aktivere "Synkroniser" plug-in'et i "Indstillinger → Kerne plug-ins".
 
 ### Opsætte eksterne bokse
 Advarsel: Vi anbefaler ikke at du benytter tredjeparts synkroniserings services med den samme boks som med Obsidian Sync. [[#Tredjeparts synkronisering|Mere om det senere]].
 
 For at begynde synkronisering skal du først oprette en ekstern boks, som gemmer dine krypterede data.
 
-Du gør dette ved at gå til "Indstillinger -> Synkroniser -> Vælg ekstern boks -> Vælg -> Opret ny ekstern boks"
+Du gør dette ved at gå til "Indstillinger → Synkroniser → Vælg ekstern boks → Vælg → Opret ny ekstern boks"
 
 Når boksen er oprettet kan du med det samme forbinde dig til boksen ved at klikke på "Forbind" knappen ved siden af.
 
@@ -58,7 +58,7 @@ Når du har valgt en version i den venstre kolonne på versionshistorikskærmen,
 
 ### Slettede filer
 
-Når du har slettet en fil kan du se den i "Indstillinger -> Synkroniser -> Slettede filer".
+Når du har slettet en fil kan du se den i "Indstillinger → Synkroniser → Slettede filer".
 
 Klikker du på en slettet fil vil dens versionshistorik blive åbnet. Du kan nu vælge at gendanne filen til en tidligere version.
 
@@ -67,13 +67,13 @@ Klikker du på en slettet fil vil dens versionshistorik blive åbnet. Du kan nu 
 Du kan foretage selektive synkroniseringer af filer efter mappe eller filtype. ==Selektiv synkronisering gælder kun for fremtidige ændringer. Filer, der allerede er lagt i den eksterne boks vil ikke blive slettet selv hvis du vælger at ignorere dem. Så sørg for at konfigurere dette inden du starter synkroniseringsprocessen.==
 
 ##### Fravælge mapper
-Du kan fravælge mapper i "Indstillinger -> Synkroniser -> Udelukkede mapper -> Administrer", så de ikke bliver synkroniseret.
+Du kan fravælge mapper i "Indstillinger → Synkroniser → Udelukkede mapper → Administrer", så de ikke bliver synkroniseret.
 
 Udelukkede mapper vil blive ignoreret af synkroniseringen begge veje.
 
 #### Fil typer
 
-Du kan vælge og fravælge synkronisering af billeder, lyd, video, PDF filer og usupporterede filer i "Indstillinger -> Synkroniser -> Selektiv synkronisering".
+Du kan vælge og fravælge synkronisering af billeder, lyd, video, PDF filer og usupporterede filer i "Indstillinger → Synkroniser → Selektiv synkronisering".
 
 ### Synkroniseringsindstillinger
 Udover dine noter og vedhæftninger tilbyder Obsidian Sync muligheder for at slå synkronisering af følgende filer til og fra:

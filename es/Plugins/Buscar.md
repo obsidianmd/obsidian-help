@@ -6,7 +6,7 @@ La búsqueda es una función poderosa y tiene el potencial de ser confusa. En la
 
 ### Empezar a buscar
 
-Puede invocar la búsqueda presionando `Ctrl + Shift + F` o` Cmd + Shift + F`. También puede personalizar esta tecla de acceso rápido en Configuración -> Teclas de acceso rápido. Cuando se invoca la búsqueda, el foco se colocará automáticamente en la barra de búsqueda para que pueda comenzar a escribir su consulta de inmediato.
+Puede invocar la búsqueda presionando `Ctrl + Shift + F` o` Cmd + Shift + F`. También puede personalizar esta tecla de acceso rápido en Configuración → Teclas de acceso rápido. Cuando se invoca la búsqueda, el foco se colocará automáticamente en la barra de búsqueda para que pueda comenzar a escribir su consulta de inmediato.
 
 ### Buscar texto seleccionado
 

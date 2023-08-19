@@ -4,5 +4,5 @@ Obsidian memiliki beberapa opsi untuk menangani berkas yang dihapus, tergantung 
 - Berkas terhapus dapat dikirim ke direktori spesial `.trash` pada vault Anda. Ini dapat sangat berguna jika Anda ingin memiliki kemampuan untuk memulihkan berkas Vault Anda secara terpisah dari tempat sampah sistem Anda. 
 - Anda juga dapat mengatur Obsidian untuk hanya menghapus berkas tanpa memungkinkan untuk dipulihkan.
 
-Opsi tersebut dapat ditemukan di Pengaturan -> Berkas & Tautan.
+Opsi tersebut dapat ditemukan di Pengaturan → Berkas & Tautan.
 

@@ -13,7 +13,7 @@ Untuk membuat catatan baru pada lokasi bawaan untuk catatan baru:
 1. Klik **Catatan baru** (ikon dokumen) pada bagian atas dari Penjelajah berkas.
 2. Ketikkan nama catatan, dan tekan Enter.
 
-> **Saran:** Anda dapat mengubah lokasi bawaan untuk catatan baru di **Pengaturan** -> **Berkas & Tautan** -> **Lokasi bawaan untuk catatan baru**.
+> **Saran:** Anda dapat mengubah lokasi bawaan untuk catatan baru di **Pengaturan** → **Berkas & Tautan** → **Lokasi bawaan untuk catatan baru**.
 
 Untuk membuat catatan baru pada folder yang spesifik:
 

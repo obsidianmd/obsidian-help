@@ -8,19 +8,19 @@ Alle filer eller indstillinger, som er synkroniseret til din [[Lokal- og fjernbo
 
 ## Synkronisering af boks indstillinger
 
-1. Åben **Indstillinger** -> **Sync**
+1. Åben **Indstillinger** → **Sync**
 2. Aktivér de indstillinger, du ønsker, under **Boks konfigurations synkronisering**
 
 ## Vælg de filtyper, du vil synkronisere
 
-1. Åben **Indstillinger** -> **Sync**
+1. Åben **Indstillinger** → **Sync**
 2. Aktivér de indstillinger, du ønsker, under **Selektiv synkronisering**
 
 ## Udeluk mapper fra at synkronisering
 
 Obsidian synkroniserer som standard alle filer og mapper i din boks. Hvis du ikke ønsker, at Obsidian skal synkronisere en bestemt mappe, kan du udelukke den.
 
-1. Åben **Indstillinger** -> **Sync**
+1. Åben **Indstillinger** → **Sync**
 2. I sektionen **Selektiv synkronisering** vælger du **Administrer** ud for **Udelukkede mapper**
 3. Klik på afkrydsningsfeltet ud for den mappe, som du vil udelukke
 4. Klik **Færdig**
@@ -31,5 +31,5 @@ Obsidian Sync kan synkronisere flere sæt af indstillinger med udelukkede mapper
 
 For at oprette en profil:
 
-1. Åben **Indstillinger** -> **Om**
+1. Åben **Indstillinger** → **Om**
 2. Under indstillingen **Tilsidesæt konfiguratyionsmappe** skriver du navnet på den ønskede profil, som skal starte med et punktum (`.`). For example, `.obsidian-mobil`.

@@ -1,6 +1,6 @@
 Command Palette được bật theo mặc định, vì đây là một cách rất hữu ích để truy cập gần như tất cả các tính năng của Obsidian mà không cần phải nhớ các nét phím. Gõ `Ctrl/Cmd+P` để kích hoạt, sau đó chỉ cần nhập tên của lệnh. Nếu một lệnh có hotkey, nó sẽ xuất hiện ở phía bên phải.
 
-Các phím tắt tùy chỉnh có thể được thêm vào Bảng lệnh trong Settings -> Keymap. Nhấp vào biểu tượng `*` ở bên phải của mỗi phím được liệt kê và nhập bất kỳ tổ hợp phím nào bạn muốn.
+Các phím tắt tùy chỉnh có thể được thêm vào Bảng lệnh trong Settings → Keymap. Nhấp vào biểu tượng `*` ở bên phải của mỗi phím được liệt kê và nhập bất kỳ tổ hợp phím nào bạn muốn.
 
 ### Cài đặt
 

@@ -11,7 +11,7 @@ Any files or settings that have been synced to your [[Local and remote vaults|re
 1. On your primary device, open **Settings** → **Sync**.
 2. Under **Vault configuration sync**, enable the settings you want to sync.
 3. Wait for the settings to sync to your remote vault.
-4. On your secondary devices, open **Settings** -> **Sync**.
+4. On your secondary devices, open **Settings** → **Sync**.
 5. Under **Vault configuration sync**, enable the settings you want to sync.
 6. Wait for the changes to download from your remote vault.
 7. Reload the app so that your synced settings take effect.

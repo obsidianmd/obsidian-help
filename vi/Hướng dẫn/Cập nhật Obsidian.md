@@ -2,7 +2,7 @@
 
 Obsidian kiểm tra bản cập nhật cứ sau 12 giờ. Sau khi có bản cập nhật, việc khởi động lại ứng dụng sẽ tự động đưa bạn đến phiên bản mới nhất.
 
-Bạn có thể kiểm tra phiên bản hiện tại của mình, kiểm tra các bản cập nhật trong Settings -> About. Bạn cũng có thể tắt "automatic updates" ở đó.
+Bạn có thể kiểm tra phiên bản hiện tại của mình, kiểm tra các bản cập nhật trong Settings → About. Bạn cũng có thể tắt "automatic updates" ở đó.
 
 ### Bản dựng nội bộ
 
@@ -10,7 +10,7 @@ Nếu bạn đang muốn cập nhật lên bản dựng nội bộ mới nhất,
 
 ### Phiên bản hiện tại và phiên bản đã cài đặt
 
-Bạn có thể kiểm tra phiên bản hiện tại và phiên bản cài đặt trong Settings -> About.
+Bạn có thể kiểm tra phiên bản hiện tại và phiên bản cài đặt trong Settings → About.
 
 Phiên bản hiện tại là phiên bản Obsidian mà bạn hiện đang sử dụng. Đây là phiên bản của ứng dụng chạy trên động cơ (Electron). Số phiên bản sẽ tăng trong quá trình cập nhật tự động, nhưng phiên bản trình cài đặt sẽ không được cập nhật. Số phiên bản trình cài đặt chỉ tăng khi bạn cài đặt Obsidian bằng trình cài đặt mới.
 

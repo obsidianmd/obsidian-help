@@ -10,4 +10,4 @@ Il modo più veloce per visualizzare la combinazione di tasti assegnata a un com
 
 ### Impostazione dei tasti di scelta rapida
 
-Per aggiungere tasti di scelta rapida, rimuoverli o ripristinare le impostazioni predefinite, fare clic su Impostazioni -> Tasti di scelta rapida. Poiché l'elenco dei comandi disponibili è piuttosto lungo, è possibile usare un filtro di ricerca.
+Per aggiungere tasti di scelta rapida, rimuoverli o ripristinare le impostazioni predefinite, fare clic su Impostazioni → Tasti di scelta rapida. Poiché l'elenco dei comandi disponibili è piuttosto lungo, è possibile usare un filtro di ricerca.

@@ -18,15 +18,15 @@ Theo mặc định, Obsidian đã bật Chế độ an toàn để bảo vệ b�
 
 Xin lưu ý rằng các plugin của bên thứ ba có thể truy cập các file trên máy tính của bạn, kết nối internet và thậm chí cài đặt các chương trình bổ sung. Để đọc thêm về bảo mật plugin, hãy [[#Bảo mật Plugin|xem tại đây]].
 
-Để cài đặt plugin của bên thứ ba, bạn cần tắt Chế độ an toàn trong Settings -> Third-party plugin -> Safe Mode.
+Để cài đặt plugin của bên thứ ba, bạn cần tắt Chế độ an toàn trong Settings → Third-party plugin → Safe Mode.
 
 #### Khám phá và cài đặt các plugin cộng đồng
 
-Sau khi tắt Chế độ an toàn, bạn có thể tìm thấy các plugin của bên thứ ba do cộng đồng tạo trong Settings -> Third-party plugin -> Community plugins -> Browse.
+Sau khi tắt Chế độ an toàn, bạn có thể tìm thấy các plugin của bên thứ ba do cộng đồng tạo trong Settings → Third-party plugin → Community plugins → Browse.
 
 Trên trang này, bạn có thể duyệt các plugin theo mức độ phổ biến hoặc tìm kiếm các plugin cụ thể. Nhấp vào một plugin để xem chi tiết và hướng dẫn từ tác giả plugin. Trong trang chi tiết, bạn có thể nhấp vào "Install" để cài đặt một plugin.
 
-Sau khi cài đặt, bạn có thể tìm thấy các plugin đã cài đặt trong Settings -> Third-party plugin. Bạn cần kích hoạt nó để sử dụng nó. Bạn cũng có thể gỡ cài đặt nó ở đó.
+Sau khi cài đặt, bạn có thể tìm thấy các plugin đã cài đặt trong Settings → Third-party plugin. Bạn cần kích hoạt nó để sử dụng nó. Bạn cũng có thể gỡ cài đặt nó ở đó.
 
 ### Bảo mật Plugin
 

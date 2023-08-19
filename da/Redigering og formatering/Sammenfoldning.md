@@ -2,7 +2,7 @@ Lær hvordan du kan få et bedre overblik for større noter ved at anvende _samm
 
 Du kan sammenfolde overskrifter og indrykkede lister ved at føre musemarkøren over den sektion, som du vil sammenfolde, og derefter klikke på pile ikonet til venstre. Sammenfoldede sektioer viser et pile ikon uanset om du fører musemarkøren over eller ej.
 
-Sammenfoldning er som standard aktiveret. For at deaktivere sammenfoldning skal du åbne **Indstillinger** -> **Editor**, og derefter deaktivere **Fold overskrift** eller **Fold indrykning**, afhængig af dit behov.
+Sammenfoldning er som standard aktiveret. For at deaktivere sammenfoldning skal du åbne **Indstillinger** → **Editor**, og derefter deaktivere **Fold overskrift** eller **Fold indrykning**, afhængig af dit behov.
 
 For at ændre alle sektioner i en note på samme tid kan du:
 

@@ -9,7 +9,7 @@ I denne guide kan du lære, hvordan du aktiverer [[Introduktion til Obsidian Pub
 
 1. Åben **Indstillinger**
 2. Klik på **Om** i båndmenuen i venstre sidepanel
-3. Klik på **Log ind** under **Konto** -> **Din konto**
+3. Klik på **Log ind** under **Konto** → **Din konto**
 4. Skriv din email i tekstfeltet ved siden af **Email**
 5. Skriv dit kodeord i tekstfeltet ved siden af **Kodeord**
 6. Klik på **Log ind**

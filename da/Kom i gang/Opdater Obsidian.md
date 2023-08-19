@@ -2,7 +2,7 @@ Obsdidian tjekker regelmæssigt for nye opdateringer. Når en ny opdatering er t
 
 ## Tjek for en opdatering og se den nuværende version
 
-Åben "Indstillinger -> Om".
+Åben "Indstillinger → Om".
 
 Du kan finde oplysninger om den nuværende Obsidian version og installerversionen i øverste venstre hjørne.
 
@@ -12,7 +12,7 @@ For at anvende en tilgængelig opdatering, så tryk på "Genstart".
 
 Hvis du foretrækker at opdatere Obsidian manuelt, så kan du deaktivere automatiske opdateringer.
 
-1. Åben "Indstillinger -> Om"
+1. Åben "Indstillinger → Om"
 2. Deaktiver "Automatisk opdatering"
 
 ## Fejlfinding

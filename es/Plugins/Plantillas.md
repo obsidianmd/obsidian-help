@@ -4,7 +4,7 @@ El complemento Plantillas le permite insertar rápidamente fragmentos de texto e
 
 Cada fragmento de plantilla es solo una nota de Markdown normal, como todo lo demás en Obsidian.
 
-Para designar archivos de plantilla, colóquelos en una carpeta y elija esa carpeta en Configuración -> Plantillas -> "Ubicación de la carpeta de plantilla" después de habilitar el complemento
+Para designar archivos de plantilla, colóquelos en una carpeta y elija esa carpeta en Configuración → Plantillas → "Ubicación de la carpeta de plantilla" después de habilitar el complemento
 
 ### Insertar una plantilla
 
