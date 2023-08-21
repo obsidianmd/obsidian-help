@@ -18,15 +18,15 @@ Per impostazione predefinita, Obsidian ha la Modalità sicura attivata per prote
 
 I plugin di terze parti possono accedere ai file sul computer, connettersi a internet e persino installare programmi aggiuntivi. Per saperne di più sulla sicurezza dei plugin, [[Plugin di terze parti#Sicurezza del plugin|leggere qui]].
 
-Per installare plugin di terze parti, è necessario disattivare la modalità sicura in Impostazioni -> Plugin di terze parti -> Modalità sicura.
+Per installare plugin di terze parti, è necessario disattivare la modalità sicura in Impostazioni → Plugin di terze parti → Modalità sicura.
 
 #### Scoprire e installare i plugin della comunità
 
-Dopo aver disabilitato la modalità provvisoria, è possibile trovare i plugin di terze parti creati dalla comunità in Impostazioni -> Plugin di terze parti -> Plugin della comunità -> Sfoglia.
+Dopo aver disabilitato la modalità provvisoria, è possibile trovare i plugin di terze parti creati dalla comunità in Impostazioni → Plugin di terze parti → Plugin della comunità → Sfoglia.
 
 In questa pagina, è possibile esplorare i plugin in base alla loro popolarità o cercare plugin specifici. Per vedere i dettagli o le istruzioni dell'autore del plugin, fare clic su "Installa".
 
-Dopo l'installazione, i plugin devono essere abilitati per avere effetto. È possibile trovarli in Impostazioni -> Plugin di terze parti. Possono essere abilitati o disinstallati da lì.
+Dopo l'installazione, i plugin devono essere abilitati per avere effetto. È possibile trovarli in Impostazioni → Plugin di terze parti. Possono essere abilitati o disinstallati da lì.
 
 ### Sicurezza del plugin
 

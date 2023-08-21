@@ -28,7 +28,7 @@ También puede descargar imágenes desde su navegador a la carpeta de su bóveda
 
 ## Cambiar la ubicación predeterminada del archivo adjunto
 
-De forma predeterminada, los nuevos archivos adjuntos se colocarán en la raíz de su bóveda. Puede ajustar esta configuración en Configuración -> Archivos y enlaces -> "Ubicación predeterminada para nuevos archivos adjuntos".
+De forma predeterminada, los nuevos archivos adjuntos se colocarán en la raíz de su bóveda. Puede ajustar esta configuración en Configuración → Archivos y enlaces → "Ubicación predeterminada para nuevos archivos adjuntos".
 
 ### Elige una carpeta
 

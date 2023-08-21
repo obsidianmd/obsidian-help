@@ -2,7 +2,7 @@
 
 La palette de commandes est activée par défaut, car c'est un moyen très utile d'accéder à presque toutes les fonctionnalités d'Obsidian sans avoir à se souvenir des raccourcis clavier. Tapez `Ctrl/Cmd + P` pour l'activer, puis tapez simplement le nom de la commande. Si une commande a un raccourci clavier, il apparaîtra sur le côté droit.
 
-Des raccourcis personnalisés peuvent être ajoutés à la palette de commandes dans Settings -> Keymap. Cliquez sur l'icône `*` à droite de la commande et tapez la combinaison de touches que vous souhaitez assigner.
+Des raccourcis personnalisés peuvent être ajoutés à la palette de commandes dans Settings → Keymap. Cliquez sur l'icône `*` à droite de la commande et tapez la combinaison de touches que vous souhaitez assigner.
 
 ### Conseils d'utilisation
 

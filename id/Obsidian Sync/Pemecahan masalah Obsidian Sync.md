@@ -19,5 +19,5 @@ Dikarenakan lampiran dan riwayat versi berkontribusi pada ukuran total dari vaul
 
 Untuk mengidentifikasi dan membersihkan berkas-berkas besar dari vault:
 
-1. Buka **Pengaturan** -> **Sinkronisasi**.
+1. Buka **Pengaturan** → **Sinkronisasi**.
 2. Jelajai opsi-opsi pada **Ukuran vault melebihi batas** untuk bagaimana Anda mengurangi ukuran dari vault Anda.

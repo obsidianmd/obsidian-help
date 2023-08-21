@@ -3,7 +3,7 @@ Du kan benytte skabeloner til at indsætte foruddefineredet tekst ind i din akti
 ## Indstil din skabelonmappe
 
 1. Klik på **indstillinger** (tandhjulsikonet) nederst i båndmenuen til venstre
-2. Under **Kerne plugins -> Skabeloner -> Placering af skabelonmappe** angiver du den mappe, som skal indeholde dine skabeloner
+2. Under **Kerne plugins → Skabeloner → Placering af skabelonmappe** angiver du den mappe, som skal indeholde dine skabeloner
 
 ## Indsæt en skabelon i den aktive note
 
@@ -30,7 +30,7 @@ For at angive en formattering skal du tilføje et kolon efterfulgt af en tekst [
 
 Du kan anvende `{{date}}` og `{{time}}` med formattering uafhængigt af hinanden, f.eks. `{{time:YYYY-MM-DD}}`.
 
-Du kan ændre standard dato- og tidsformaterne under **Indstillinger -> Skabeloner -> Datoformat** og **Indstillinger -> Skabeloner -> Tidsformat**.
+Du kan ændre standard dato- og tidsformaterne under **Indstillinger → Skabeloner → Datoformat** og **Indstillinger → Skabeloner → Tidsformat**.
 
 > [!tip]
 > Du kan også benytte `{{date}}` og `{{time}}` skabelon variable i de to plugins [[Daglige noter]] og [[Unik note opretter]].

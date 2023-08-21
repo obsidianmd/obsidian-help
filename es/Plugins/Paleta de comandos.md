@@ -1,6 +1,6 @@
 La paleta de comandos está habilitada de forma predeterminada, ya que es una forma muy útil de acceder a casi todas las funciones de Obsidian sin tener que recordar las pulsaciones de teclas. Escriba `Ctrl / Cmd + P` para activar, luego simplemente escriba el nombre del comando. Si un comando tiene una tecla de acceso rápido, aparecerá en el lado derecho.
 
-Se pueden agregar atajos personalizados a la paleta de comandos en Configuración -> Mapa de teclas. Haga clic en el icono `*` a la derecha de cada tecla de la lista y escriba la combinación de teclas que desee.
+Se pueden agregar atajos personalizados a la paleta de comandos en Configuración → Mapa de teclas. Haga clic en el icono `*` a la derecha de cada tecla de la lista y escriba la combinación de teclas que desee.
 
 ### Ajustes
 

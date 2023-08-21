@@ -4,7 +4,7 @@ The Templates plugin lets you quickly insert snippets of text into your current 
 
 Each template snippet is just a normal Markdown note, like everything else in Obsidian.
 
-To designate template files, put them into a folder, and choose that folder in Settings -> Templates -> "Template folder location" after enabling the plugin
+To designate template files, put them into a folder, and choose that folder in Settings → Templates → "Template folder location" after enabling the plugin
 
 ### Insert a template
 

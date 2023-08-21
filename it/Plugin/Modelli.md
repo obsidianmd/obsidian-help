@@ -4,7 +4,7 @@ Il plugin Modelli consente di inserire rapidamente frammenti di testo nella nota
 
 I modelli sono semplicemente note in formato Markdown, come tutto il resto in Obsidian.
 
-Per definire file come modelli, inserirli in una cartella e impostare quella cartella in Impostazioni -> Modelli -> "Posizione cartella dei modelli" dopo aver abilitato il plugin.
+Per definire file come modelli, inserirli in una cartella e impostare quella cartella in Impostazioni → Modelli → "Posizione cartella dei modelli" dopo aver abilitato il plugin.
 
 ### Inserire modelli
 

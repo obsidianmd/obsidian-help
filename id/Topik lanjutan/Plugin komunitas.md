@@ -18,15 +18,15 @@ Secara bawaan, Obsidian mengaktifkan Mode Aman untuk melindungi Anda dari potens
 
 Harap perhatikan bahwa plugin komunitas dapat mengakses berkas dari komputer Anda, menghubungkan ke internet, dan bahkan memasang program tambahan. Sebagai bacaan lebih mengenai keamanan plugin, [[#Keamanan plugin|lihat di sini]].
 
-Untuk memasang plugin komunitas, Anda perlu mematikan Mose Aman di Pengaturan -> Plugin komunitas -> Mode Aman.
+Untuk memasang plugin komunitas, Anda perlu mematikan Mose Aman di Pengaturan → Plugin komunitas → Mode Aman.
 
 #### Menemukan dan memasang plugin komunitas
 
-Setelah mematikan Mode Aman, Anda dapat menemukan plugin komunitas yang dibuat oleh komunitas di Pengaturan -> Plugin komunitas -> Plugin komunitas -> Telusuri.
+Setelah mematikan Mode Aman, Anda dapat menemukan plugin komunitas yang dibuat oleh komunitas di Pengaturan → Plugin komunitas → Plugin komunitas → Telusuri.
 
 Pada laman ini, Anda dapat menjelajahi plugin berdasarkan popularitas, atau menelusuri plugin secara spesifik. Klik pada plugin untuk melihat rincian dan instruksi dari pemilik plugin. Pada laman rincian, Anda dapat menekan "Pasang" untuk memasang plugin.
 
-Setelah terpasang, Anda dapat menemukannya plugin terpasang pada Pengaturan -> Plugin komunitas. Mereka perlu diaktifkan untuk mendapatkan perubahan. Anda juga dapat menghapusnya di sana.
+Setelah terpasang, Anda dapat menemukannya plugin terpasang pada Pengaturan → Plugin komunitas. Mereka perlu diaktifkan untuk mendapatkan perubahan. Anda juga dapat menghapusnya di sana.
 
 ### Keamanan plugin
 

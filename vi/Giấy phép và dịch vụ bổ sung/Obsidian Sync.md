@@ -24,7 +24,7 @@ Trong tương lai, chúng tôi sẽ cải thiện Obsidian Sync với:
 
 ### Bật plugin Obsidian Sync
 
-Trong Obsidian v0.9.21 trở lên, bạn có thể bật Obsidian Sync bằng cách bật plugin "Sync" trong Settings -> Core plugins.
+Trong Obsidian v0.9.21 trở lên, bạn có thể bật Obsidian Sync bằng cách bật plugin "Sync" trong Settings → Core plugins.
 
 ### Thiết lập vault từ xa
 
@@ -32,7 +32,7 @@ Cảnh báo: Chúng tôi khuyên bạn không nên sử dụng các dịch vụ 
 
 Để bắt đầu đồng bộ hóa, trước tiên bạn cần tạo một vault từ xa để lưu trữ dữ liệu được mã hóa của bạn.
 
-Để làm điều đó, hãy vào Setting -> Sync -> Pick remote vault -> Choose -> Create new vault.
+Để làm điều đó, hãy vào Setting → Sync → Pick remote vault → Choose → Create new vault.
 
 Sau khi tạo nó, bạn có thể kết nối ngay với vault bằng cách nhấp vào nút "Connect" bên cạnh nó.
 
@@ -62,7 +62,7 @@ Sau khi chọn phiên bản ở cột bên trái trong màn hình lịch sử ph
 
 ### File đã xóa
 
-Sau khi xáo file, bạn có thể xem file đó trong Setting -> Sync -> Deleted files -> View.
+Sau khi xáo file, bạn có thể xem file đó trong Setting → Sync → Deleted files → View.
 
 Nhấp vào một file đã xóa sẽ mở lịch sử phiên bản của nó. Sau đó, bạn có thể chọn khôi phục file về phiên bản trước.
 
@@ -72,13 +72,13 @@ Bạn có thể đồng bộ hóa các file một cách chọn lọc theo thư m
 
 ##### Bỏ chọn các thư mục
 
-Bạn có thể bỏ chọn các thư mục trong Settings -> Sync -> Excluded folders -> Manage để ngăn chúng được đồng bộ hóa.
+Bạn có thể bỏ chọn các thư mục trong Settings → Sync → Excluded folders → Manage để ngăn chúng được đồng bộ hóa.
 
 Các thư mục bị bỏ chọn sẽ bị bỏ qua khi cả tải lên và tải xuống đều thay đổi.
 
 #### Loại file
 
-Bạn có thể chuyển đổi đồng bộ hóa cho các file hình ảnh, âm thanh, video và PDF trong Settings -> Sync -> Selective sync.
+Bạn có thể chuyển đổi đồng bộ hóa cho các file hình ảnh, âm thanh, video và PDF trong Settings → Sync → Selective sync.
 
 
 ### Đồng bộ hóa bên thứ ba

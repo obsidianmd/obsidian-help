@@ -42,7 +42,7 @@ En anden måde at navigere mellem noter er gennem _tilbagelinks_. Et tilbagelink
 En anden måde at navigere mellem dine noter er ved at benytte den visuelle repræsentation af hvordan dine noter er forbundet.
 
 1. I øverste højre hjørne på noten klikker du på **Flere muligheder** (De tre prikker lodret)
-2. Vælg "Åben linket visning" -> "Åben lokal graf"
+2. Vælg "Åben linket visning" → "Åben lokal graf"
 3. Klik på en af noderne i grafen for at navigere til denne note
 
 ## Lær mere

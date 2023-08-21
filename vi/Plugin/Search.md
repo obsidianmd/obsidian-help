@@ -6,7 +6,7 @@ Search là một tính năng mạnh mẽ và có khả năng gây nhầm lẫn. 
 
 ### Bắt đầu tìm kiếm
 
-Bạn có thể gọi tìm kiếm bằng cách nhấn `Ctrl-Shift-F` hoặc `Cmd-Shift-F`. Bạn cũng có thể tùy chỉnh hotkey này trong Settings -> Hotkeys. Khi tìm kiếm được gọi, tiêu điểm sẽ tự động được đưa vào thanh tìm kiếm để bạn có thể bắt đầu nhập truy vấn của mình ngay lập tức.
+Bạn có thể gọi tìm kiếm bằng cách nhấn `Ctrl-Shift-F` hoặc `Cmd-Shift-F`. Bạn cũng có thể tùy chỉnh hotkey này trong Settings → Hotkeys. Khi tìm kiếm được gọi, tiêu điểm sẽ tự động được đưa vào thanh tìm kiếm để bạn có thể bắt đầu nhập truy vấn của mình ngay lập tức.
 
 ### Tìm kiếm văn bản đã chọn
 

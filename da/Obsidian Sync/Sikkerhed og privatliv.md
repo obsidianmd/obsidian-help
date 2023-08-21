@@ -35,7 +35,7 @@ Dine data er som regel sikkert gemt lokalt på hver enhed.
 For fortsat at anvende Obsidian Sync, foreslår vi at du foretager en fuld genopsætning, så du igen kan tilføje nye enheder til dit synkroniserede system:
 
 1. Foretag en fuld backup af din boks på din primære enhed i tilfælde af, at et eller andet går galt. Det kan være noget så simpelt, som at lave en nackup af boks mappen, eller at lave en zip fil af boksen
-2. Afkoble forbindelsen til fjernboksen på alle de forbundne enheder. Dette kan gøres ved at gå til **Indstillinger -> Sync -> Fjernboks** og klikke på knappen **Afbryd**
+2. Afkoble forbindelsen til fjernboksen på alle de forbundne enheder. Dette kan gøres ved at gå til **Indstillinger → Sync → Fjernboks** og klikke på knappen **Afbryd**
 3. Opret en ny fjernboks på din primære enhed fra samme sted i instaillingerne. Du kan også slette den forrige fjernboks, da du jo alligevel ikke har kodeordet. (Hvis du har nået boksen maksimale størrelse, kan du blive nådt til at slette den)
 4. Vent på at din primære enhed er synkroniseret færdig. Hold øje med synkroniseirngsindikatoren i statusbaren indtil den viser et grønt flueben ikon
 5. Forbind hver enhed igen til den samme nyoprettede fjernboks. Når Sync opretter forbindelse, vil du se en advarsel om, at den vil flette boksene. Det er normalt, og du kan lade Sync fortsætte. Vent på at hver enhed er fuldt sykroniseret før du går videre til den næste. De reducerer chancen for problemer

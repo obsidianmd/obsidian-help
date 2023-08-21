@@ -36,4 +36,4 @@ For at rappotere et problem, så benyt en af følgende metoder:
 - På Discord skal du rapportere problemet i `#insider-build` kanalen
 - I Obsidian forummet skal du oprette et nyt emne i [Bug reports](https://forum.obsidian.md/c/bug-reports/7)
 
-Når du rapporterer et problem, så inkluder information om build versionen og det operativsystem du benyttede. Du kan finde build versionen under **Indstillinger -> Om -> Applikation -> Nuværende version**
+Når du rapporterer et problem, så inkluder information om build versionen og det operativsystem du benyttede. Du kan finde build versionen under **Indstillinger → Om → Applikation → Nuværende version**

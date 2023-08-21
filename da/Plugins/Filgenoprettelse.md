@@ -3,7 +3,7 @@ Filgenoprettelse er et kerne plugin som kan hjælpe dig med at genoprette dine d
 For at ikke at det skal tage for meget lagerplads gemmer Obsidian kun øjebliksbilleder i et bestemt antal dage før den sletter de ældste.
 
 > [!note]
->  Som standard bliver der lavet øjebliksbilleder mindst hver 5 minut, og de bliver gemt i 7 dage. Du kan konfigurere begge intervaller under **Indstillinger** -> **Filgenoprettelse**.
+>  Som standard bliver der lavet øjebliksbilleder mindst hver 5 minut, og de bliver gemt i 7 dage. Du kan konfigurere begge intervaller under **Indstillinger** → **Filgenoprettelse**.
 
 Filgenoprettelses data er gemt i [[Hvordan Obsidian gemmer data#System mappen]] i tilfælde af, at der er fejl eller problemer med boksen.
 Bemærk at bokse identificeres med deres absolutte sti. Hvis du har flyttet en boks fornyligt, bliver du nødt til at flytte den tilbage til dens tidligere position, for at genoprette snapshots fra dengang, hvor den lå der.

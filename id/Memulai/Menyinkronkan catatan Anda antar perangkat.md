@@ -51,7 +51,7 @@ Obsidian membuat folder baru di dalam iCloud Drive Anda. Untuk membuka folder iC
 
 1. Buka **Obsidian** di komputer Anda.
 2. Pada peralih vault, pada bagian kanan dari **Buka folder sebagai vault**, klik **Buka**.
-3. Arahkan menuju **iCloud Drive** -> **Obsidian**.
+3. Arahkan menuju **iCloud Drive** → **Obsidian**.
 4. Pilih folder dengan nama vault yang Anda ingin sinkronkan.
 
 #### Menyinkronkan vault yang tersedia dengan iCloud Drive
