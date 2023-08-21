@@ -19,7 +19,7 @@
 }
 .theme-light .site-header-logo,
 .theme-light .site-body-left-column-site-logo {
-	filter: invert(1);
+	filter: invert(1) hue-rotate(180deg);
 }
 .site-body-left-column-site-name {
 	display: none;
