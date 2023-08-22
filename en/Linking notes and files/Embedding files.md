@@ -68,6 +68,13 @@ You can also open a specific page in the PDF, by adding `#page=N` to the link de
 ```md
 ![[Document.pdf#page=3]]
 ```
+
+You can specify the height of the embedded PDF viewer, by adding `#height=400` to the link destination, where 400 is the height in pixel:
+
+```md
+![[Document.pdf#height=400]]
+```
+
 ## Embed a list in a note
 
 To embed a list from a different note, first add a [[Internal links#Link to a block in a note|block identifier]] to your list:
