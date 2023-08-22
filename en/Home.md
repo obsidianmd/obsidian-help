@@ -19,6 +19,7 @@ You can browse the documentation in any of the following languages:
 - [Tiếng Việt](https://publish.obsidian.md/help-vi)
 - [中文](https://publish.obsidian.md/help-zh)
 - [Phéasa Khmêr](https://publish.obsidian.md/help-km)
+- [العربية](https://publish.obsidian.md/help-ar)
 
 
 
