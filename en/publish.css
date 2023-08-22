@@ -10,13 +10,6 @@
 .site-body-left-column-site-logo img {
 	height: 25px;
 }
-.site-body-left-column-site-logo {
-	transition: opacity 0.15s ease-in-out;
-}
-.site-body-left-column-site-logo:hover {
-	opacity: 0.65;
-	transition: opacity 0.15s ease-in-out;
-}
 .theme-light .site-header-logo,
 .theme-light .site-body-left-column-site-logo {
 	filter: invert(1) hue-rotate(180deg);
