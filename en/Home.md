@@ -10,7 +10,6 @@ Welcome to the official Obsidian documentation, where you can find tips and guid
 
 You can browse the documentation in any of the following languages:
 
-- [العربية](https://publish.obsidian.md/help-ar)
 - [Dansk](https://publish.obsidian.md/help-da)
 - [Español](https://publish.obsidian.md/help-es)
 - [Italiano](https://publish.obsidian.md/help-it)
@@ -20,6 +19,7 @@ You can browse the documentation in any of the following languages:
 - [Tiếng Việt](https://publish.obsidian.md/help-vi)
 - [中文](https://publish.obsidian.md/help-zh)
 - [Phéasa Khmêr](https://publish.obsidian.md/help-km)
+- [العربية](https://publish.obsidian.md/help-ar)
 
 
 
