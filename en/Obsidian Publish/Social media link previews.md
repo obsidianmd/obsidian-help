@@ -1,5 +1,8 @@
 Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Properties]], you can customize how your notes appear in the preview.
 
+> [!warning]
+> The tags overridden in this section are **only** visible by web crawlers. Regular web browsers are served the unmodified page for performance.
+
 ## Description
 
 Obsidian automatically generates a description based on the note content, but you can provide your own using `description`.
