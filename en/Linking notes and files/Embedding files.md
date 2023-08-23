@@ -69,7 +69,7 @@ You can also open a specific page in the PDF, by adding `#page=N` to the link de
 ![[Document.pdf#page=3]]
 ```
 
-You can specify the height of the embedded PDF viewer, by adding `#height=400` to the link destination, where 400 is the height in pixel:
+You can also specify the height in pixels for the embedded PDF viewer, by adding `#height=[number]` to the link. For example:
 
 ```md
 ![[Document.pdf#height=400]]
