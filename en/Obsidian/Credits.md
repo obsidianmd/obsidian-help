@@ -59,6 +59,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
+- Zachary Shirmohammadli (Persian)
 
 ## Documentation
 
