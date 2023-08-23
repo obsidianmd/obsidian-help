@@ -4,7 +4,7 @@ aliases:
 - អាជ្ញាប័ណ្ណ & ការទិញ/ការបញ្ចុះតម្លៃផ្នែកអប់រំ និង non-profit
 ---
 
-Obsidian ឥឡូវនេះមានការបញ្ចុះ ២​ ប្រភេទ: ការសិក្សា និង non-profit ។ ពួកវាបញ្ចុះតម្លៃឲ្យ 40% នៃសេវាកម្មបន្ថែមរួមមាន [[Introduction to Obsidian Sync|Obsidian Sync]] និង [[Introduction to Obsidian Publish|Obsidian Publish]] ។
+Obsidian ឥឡូវនេះមានការបញ្ចុះ ២​ ប្រភេទ: ការសិក្សា និង non-profit ។ ពួកវាបញ្ចុះតម្លៃឲ្យ 40% នៃសេវាកម្មបន្ថែមរួមមាន [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] និង [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] ។
 
 ### របៀបស្នើសុំ
 

@@ -17,7 +17,7 @@ Tài liệu này cũng được dịch sang các ngôn ngữ khác:
 
 ## Credits
 
-[[Credits|Trang Credit]] liệt kê tất cả những thành viên tuyệt vời đã làm nên Obsidian hoàn chỉnh.
+[[vi/Obsidian/Credits|Trang Credit]] liệt kê tất cả những thành viên tuyệt vời đã làm nên Obsidian hoàn chỉnh.
 
 Nếu bạn muốn biết thêm về các nhà lập trình, vui lòng tham khảo [trang About](https://obsidian.md/about) trên trang web chính thức.
 

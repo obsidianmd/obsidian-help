@@ -91,7 +91,7 @@ indlejer OR søg
 F.eks.
 
 > [!note]
-> [[Introduction to Obsidian Publish|Obsidian Publish]] inderstøtter ikke indlejrede søgeresultater. For at se et eksempel skal du åbne Obsidian hjælpen lokalt i Obsidian.
+> [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] inderstøtter ikke indlejrede søgeresultater. For at se et eksempel skal du åbne Obsidian hjælpen lokalt i Obsidian.
 
 ```query
 indlejr OR søg

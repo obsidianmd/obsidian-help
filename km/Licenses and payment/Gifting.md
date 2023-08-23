@@ -3,7 +3,7 @@ aliases:
 - អាជ្ញាប័ណ្ណ & ការទិញ/ការឲ្យកាដូ
 ---
 
-ទោះបីជាប្រើ Obsidian សម្រាប់ការប្រើផ្ទាល់គឺ free, អ្នកឲ្យកាដូ Obsidian ទៅនរណាម្នាក់ឲ្យគេមានសេវាកម្មបន្ថែមដូចជា [[Introduction to Obsidian Sync|Obsidian Sync]] ឬ យក [[អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម]] ដើម្បីការងារ ។
+ទោះបីជាប្រើ Obsidian សម្រាប់ការប្រើផ្ទាល់គឺ free, អ្នកឲ្យកាដូ Obsidian ទៅនរណាម្នាក់ឲ្យគេមានសេវាកម្មបន្ថែមដូចជា [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] ឬ យក [[អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម]] ដើម្បីការងារ ។
 
 ## ឲ្យកាដូ credits
 

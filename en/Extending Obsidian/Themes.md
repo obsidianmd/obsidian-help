@@ -43,4 +43,4 @@ To update an individual theme:
 
 ## Learn more
 
-Ready to build your own theme? Learn how to [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) or create [[CSS snippets]].
+Ready to build your own theme? Learn how to [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) or create [[en/Extending Obsidian/CSS snippets]].

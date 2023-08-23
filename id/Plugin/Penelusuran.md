@@ -46,7 +46,7 @@ Misalnya, jika Anda menuliskan:
 sematan OR penelusuran
 ```</code></pre>
 
-Anda dapat melihat tampilan pencarian tersemat berikut (catatan: tidak akan bekerja pada [[Introduction to Obsidian Publish|Obsidian Publish]] sejak 2020/01/18):
+Anda dapat melihat tampilan pencarian tersemat berikut (catatan: tidak akan bekerja pada [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] sejak 2020/01/18):
 
 ```query
 sematan OR penelusuran

@@ -50,7 +50,7 @@ On top of that, you can add isolated, independent building blocks to add feature
 
 យើងមិនរំពឹងថាកម្មវិធីជំនួយជា​​ដំណោះស្រាយវេទមន្តដើម្បីដោះស្រាយបញ្ហាទាំងអស់នោះទេ ប៉ុន្តែវាធ្វើឱ្យយើងខិតជិតជាងដំណោះស្រាយ monolith ដោយគ្មានលក្ខណៈពិសេសទាំងអស់ដែលអ្នកមិនត្រូវការការពង្រាយចំណុចប្រទាក់។
 
-យើងដំណើរការជាមួយ [[CSS snippets]], [[Themes]], និង [[កម្មវិធីជំនួយសហគមន៍]], which enable even more interface customization and support less common use cases.
+យើងដំណើរការជាមួយ [[en/Extending Obsidian/CSS snippets]], [[en/Extending Obsidian/Themes]], និង [[កម្មវិធីជំនួយសហគមន៍]], which enable even more interface customization and support less common use cases.
 
 ## តាមដានការអភិវឌ្ឍន៍របស់យើង
 

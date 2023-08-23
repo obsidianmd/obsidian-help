@@ -77,7 +77,7 @@ Obsidian comes with of a set of predefined keys:
 |-|-|
 | `tags` | See [[Editing and formatting/Tags\|Tags]]. |
 | `aliases` | See [[Aliases]]. |
-| `cssclasses` | Allows you to style individual notes using [[CSS snippets]]. |
+| `cssclasses` | Allows you to style individual notes using [[en/Extending Obsidian/CSS snippets]]. |
 
 ### Deprecated properties
 
@@ -91,7 +91,7 @@ These keys are deprecated in 1.4. Please do not use them any more:
 
 ### Properties for Obsidian Publish
 
-The following properties keys are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following properties keys are used by [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]]:
 
 | Key | Description |
 |-|-|

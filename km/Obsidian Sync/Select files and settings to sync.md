@@ -1,4 +1,4 @@
-ឯកសារ ឬការកំណត់ណាមួយដែលត្រូវបានធ្វើសមកាលកម្មទៅ [[Local and remote vaults|remote vault]] របស់អ្នកនឹងរាប់បញ្ញូលក្នុង [[Limitations#តើឯកសារនីមួយៗអាចមានទំហំប៉ុនណា?|storage space]]​ របស់អ្នក។ តាមធម្មតា [[Introduction to Obsidian Sync|Obsidian Sync]] មិនអើពើនឹងឯកសារធំៗដូចជា អូឌីយ៉ូ វីដេអូ និង PDF ។
+ឯកសារ ឬការកំណត់ណាមួយដែលត្រូវបានធ្វើសមកាលកម្មទៅ [[Local and remote vaults|remote vault]] របស់អ្នកនឹងរាប់បញ្ញូលក្នុង [[Limitations#តើឯកសារនីមួយៗអាចមានទំហំប៉ុនណា?|storage space]]​ របស់អ្នក។ តាមធម្មតា [[km/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] មិនអើពើនឹងឯកសារធំៗដូចជា អូឌីយ៉ូ វីដេអូ និង PDF ។
 
 **ចំណាំ:**
 

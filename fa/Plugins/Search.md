@@ -102,7 +102,7 @@ embed OR search
 For example:
 
 > [!note]
-> [[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded search results. To see the example, open Obsidian Help locally inside Obsidian.
+> [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded search results. To see the example, open Obsidian Help locally inside Obsidian.
 
 ```query
 embed OR search

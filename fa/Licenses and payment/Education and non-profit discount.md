@@ -4,7 +4,7 @@ aliases:
 - Licenses & Payment/Education and non-profit discount
 ---
 
-Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services, including [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]].
+Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services, including [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] and [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]].
 
 ### How to apply
 

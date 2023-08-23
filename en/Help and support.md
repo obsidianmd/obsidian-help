@@ -18,7 +18,7 @@ If you want to report a bug, head over to [Bug reports](https://forum.obsidian.m
 
 ## Contact Obsidian support
 
-Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
+Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] and [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
 
 ## Report a security issue
 

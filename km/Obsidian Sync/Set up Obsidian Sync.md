@@ -1,4 +1,4 @@
-ចូលប្រើដោយប្រើគណនី Obsidian របស់អ្នកនៅក្នុងការណែនាំនេះ អ្នកនឹងបើកដំណើរការ [[Introduction to Obsidian Sync|Obsidian Sync]] សម្រាប់ Vault របស់អ្នក។
+ចូលប្រើដោយប្រើគណនី Obsidian របស់អ្នកនៅក្នុងការណែនាំនេះ អ្នកនឹងបើកដំណើរការ [[km/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] សម្រាប់ Vault របស់អ្នក។
 
 > [!NOTE] Remote vaults and local vaults
 > នៅក្នុងការណែនាំនេះ អ្នកនឹងបង្កើត [[Local and remote vaults|remote vault]] ថ្មីនិងភ្ជាប់វាទៅនឹង local vault ដែលមានស្រាប់។ អ្នកមិនចាំបាច់បង្កើត​​ local vault ថ្មីដើម្បីប្រើ Obsidian Sync ទេ។
@@ -43,4 +43,4 @@
 > [!note] Sync settings and other file types
 > តាមធម្មតា Sync ធ្វើសមកាលកម្មកំណត់ចំណាំ និងរូបភាពតែប៉ុណ្ណោះ។ សម្រាប់ព័ត៌មានអំពីរបៀបធ្វើសមកាលកម្មប្រភេទឯកសារផ្សេងទៀត សូមមើល [[Select files and settings to sync#ជ្រើសរើសប្រភេទឯកសារដើម្បីធ្វើសមកាលកម្ម|Select file types to sync]]។
 >
-> ប្រសិនបើអ្នកចង់ធ្វើសមកាលកម្មសម្រាប់ការកំណត់រចនាសម្ព័ន្ធ vault ដូចជាការកំណត់សម្រាប់ [[Core plugins]], [[Custom hotkeys]], ឬ [[កម្មវិធីជំនួយសហគមន៍]], អាចរៀនរបៀប [[Select files and settings to sync#ធ្វើសមកាលកម្មការកំណត់រចនាសម្ព័ន្ធ Vault|Sync vault configuration]]។
+> ប្រសិនបើអ្នកចង់ធ្វើសមកាលកម្មសម្រាប់ការកំណត់រចនាសម្ព័ន្ធ vault ដូចជាការកំណត់សម្រាប់ [[en/Plugins/Core plugins]], [[Custom hotkeys]], ឬ [[កម្មវិធីជំនួយសហគមន៍]], អាចរៀនរបៀប [[Select files and settings to sync#ធ្វើសមកាលកម្មការកំណត់រចនាសម្ព័ន្ធ Vault|Sync vault configuration]]។

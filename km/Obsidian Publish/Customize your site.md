@@ -1,4 +1,4 @@
-ទំព័រនេះពន្យល់ពីរបៀបដែលអ្នកអាចប្តូររូបរាងគេហទំព័រ [[Introduction to Obsidian Publish|Obsidian Publish]] របស់អ្នក។
+ទំព័រនេះពន្យល់ពីរបៀបដែលអ្នកអាចប្តូររូបរាងគេហទំព័រ [[km/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] របស់អ្នក។
 
 ## Static assets
 

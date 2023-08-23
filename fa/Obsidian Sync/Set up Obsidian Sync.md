@@ -1,4 +1,4 @@
-In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for your vault.
+In this guide, you'll enable [[مقدمه ای بر ابسیدین سینک|Obsidian Sync]] for your vault.
 
 > [!NOTE] Remote vaults and local vaults
 > In this guide, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new local vault to use Obsidian Sync.
@@ -43,4 +43,4 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 > [!note] Sync settings and other file types
 > By default, Sync only syncs notes and images. For information how to sync other file types, refer to [[Select files and settings to sync#Select file types to sync|Select file types to sync]].
 >
-> If you want to sync vault configuration, such as settings for [[Core plugins]], [[Custom hotkeys]], or [[Community plugins]], learn how to [[Select files and settings to sync#Sync vault configuration|Sync vault configuration]].
+> If you want to sync vault configuration, such as settings for [[en/Plugins/Core plugins]], [[Custom hotkeys]], or [[Community plugins]], learn how to [[Select files and settings to sync#Sync vault configuration|Sync vault configuration]].

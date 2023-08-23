@@ -1,6 +1,6 @@
 Syncing means keeping your notes up to date across your devices, such as your laptop and phone.
 
-The easiest way to sync your notes between your devices is to use [[Introduction to Obsidian Sync|Obsidian Sync]]. If you already have an Obsidian Sync subscription, see how to [[Set up Obsidian Sync]].
+The easiest way to sync your notes between your devices is to use [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]]. If you already have an Obsidian Sync subscription, see how to [[Set up Obsidian Sync]].
 
 Note that using multiple syncing services at the same time (e.g., Obsidian Sync _and_ Dropbox) may cause data loss, corruption, and other issues. [[Obsidian Sync and third-party services||Find out more about using Obsidian Sync with other services here.]]
 
@@ -24,7 +24,7 @@ To sync your notes, follow the instructions for the service you're using to sync
 
 To sync your notes to your iPhone or iPad, we officially support the following options:
 
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]]
 - [[#iCloud Drive]]
 
 **Note:** The following services aren't supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
@@ -110,7 +110,7 @@ If you choose not to use iCloud Drive when you create your vault, Obsidian store
 
 ## Sync notes on Android
 
-The easiest way to sync your notes on your Android device is using [[Introduction to Obsidian Sync|Obsidian Sync]].
+The easiest way to sync your notes on your Android device is using [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]].
 
 Since Obsidian stores notes in a local folder on your Android device, you can also use any app that let you sync a folder, such as:
 

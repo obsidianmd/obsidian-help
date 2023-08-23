@@ -1,4 +1,4 @@
-You choose which notes you want to publish to [[Introduction to Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
+You choose which notes you want to publish to [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
 
 Only the notes you choose to publish are sent to Obsidian's servers, and any notes you unpublish are removed.
 

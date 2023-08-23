@@ -1,4 +1,4 @@
-This page explains how you can customize how your [[Introduction to Obsidian Publish|Obsidian Publish]] site looks and feels.
+This page explains how you can customize how your [[مقدمه ای بر ابسیدین پابلیش|Obsidian Publish]] site looks and feels.
 
 ## Static assets
 

@@ -39,7 +39,7 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Show the table of contents for the active note.
 - [[Page preview]]
 	- Preview the contents of a note by hovering over links.
-- [[Introduction to Obsidian Publish|Publish]]
+- [[en/Obsidian Publish/Introduction to Obsidian Publish|Publish]]
 	- Host your notes as a website, wiki or documentation.
 - [[Quick switcher]]
 	- Search, create and open notes from your keyboard.
@@ -51,7 +51,7 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Perform commands inside the editor using the `/` key.
 - [[Slides]]
 	- Create a presentation from your notes.
-- [[Introduction to Obsidian Sync|Sync]]
+- [[en/Obsidian Sync/Introduction to Obsidian Sync|Sync]]
 	- Sync your notes across devices.
 - [[Plugins/Tags|Tags]]
 	- List all the tags in your vault.

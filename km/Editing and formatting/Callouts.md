@@ -19,7 +19,7 @@ aliases:
 > វាអាចប្រើជាមួយ **Markdown** [[Internal links|Wikilinks]] និង [[បង្កប់ឯកសារ|បង្កប់]]!
 > ![[og-image.png]]
 
-Callouts ក៏អាចប្រើបាននៅក្នុង [[Introduction to Obsidian Publish|Obsidian Publish]] ។
+Callouts ក៏អាចប្រើបាននៅក្នុង [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] ។
 
 > [!note]
 > បើអ្នកប្រើកម្មវិធីជំនួយ Admonitions អ្នកត្រូវដំឡើងឲ្យវាដល់ version 8.0.0 ដើម្បីជៀសវាងបញ្ហាជាមួយ​ callout ថ្មី ។
@@ -74,7 +74,7 @@ Callouts ក៏អាចប្រើបាននៅក្នុង [[Introductio
 
 ### Customize callouts
 
-[[CSS snippets]] និង [[កម្មវិធីជំនួយសហគមន៍]] អាចកំណត់ callouts ឬ សរសេរពីលើ configuration ចាស់ ។
+[[en/Extending Obsidian/CSS snippets]] និង [[កម្មវិធីជំនួយសហគមន៍]] អាចកំណត់ callouts ឬ សរសេរពីលើ configuration ចាស់ ។
 
 ដើម្បីកំណត់ callout, បង្កើតប្លុក CSS ខាងក្រោម:
 

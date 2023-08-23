@@ -1,4 +1,4 @@
-[Google Analytics](https://analytics.google.com) គឺជាសេវាកម្មដែលអនុញ្ញាតឱ្យអ្នកតាមដានចរាចរណ៍នៅលើគេហទំព័ររបស់អ្នក។ ទំព័រនេះពន្យល់ពីរបៀបបើកដំណើរការ Google Analytics សម្រាប់គេហទំព័រ [[Introduction to Obsidian Publish|Obsidian Publish]] របស់អ្នក។
+[Google Analytics](https://analytics.google.com) គឺជាសេវាកម្មដែលអនុញ្ញាតឱ្យអ្នកតាមដានចរាចរណ៍នៅលើគេហទំព័ររបស់អ្នក។ ទំព័រនេះពន្យល់ពីរបៀបបើកដំណើរការ Google Analytics សម្រាប់គេហទំព័រ [[km/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] របស់អ្នក។
 
 > [!important]
 > មុនពេលអ្នកបើកដំណើរការ Google Analytics សូមប្រាកដថាច្បាប់ និងបទប្បញ្ញត្តិក្នុងតំបន់របស់អ្នកអនុញ្ញាតឱ្យអ្នកតាមដានអ្នកទស្សនារបស់អ្នក។
