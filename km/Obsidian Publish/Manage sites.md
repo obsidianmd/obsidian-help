@@ -1,4 +1,4 @@
-ទំព័រនេះពន្យល់ពីរបៀបគ្រប់គ្រងគេហទំព័រ [[Introduction to Obsidian Publish|Obsidian Publish]]​។
+ទំព័រនេះពន្យល់ពីរបៀបគ្រប់គ្រងគេហទំព័រ [[km/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]]​។
 
 គេហទំព័រគឺជាបណ្តុំនៃកំណត់ត្រាដែលរៀបចំដោយ Obsidian Publish ហើយមាននៅលើអ៊ីនធឺណិត ទាំងតាមរយៈអាសយដ្ឋាន Obsidian Publish ឬ [[Set up a custom domain|custom domain]]។
 

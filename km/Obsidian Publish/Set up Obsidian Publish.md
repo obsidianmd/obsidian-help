@@ -1,4 +1,4 @@
-នៅក្នុងការណែនាំនេះ អ្នកនឹងបើកដំណើរការ [[Introduction to Obsidian Publish|Obsidian Publish]] សម្រាប់ Vault របស់អ្នក បង្កើតគេហទំព័រមួយ ហើយបោះផ្សាយកំណត់ត្រារបស់អ្នកទៅវា។
+នៅក្នុងការណែនាំនេះ អ្នកនឹងបើកដំណើរការ [[km/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] សម្រាប់ Vault របស់អ្នក បង្កើតគេហទំព័រមួយ ហើយបោះផ្សាយកំណត់ត្រារបស់អ្នកទៅវា។
 
 ## តម្រូវការជាមុន
 

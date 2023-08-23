@@ -1,4 +1,4 @@
-ដើម្បីសុវត្ថិភាពរបស់អ្នក [[Introduction to Obsidian Sync|Obsidian Sync]] អ៊ិនគ្រីប(Encrypt) [[Local and remote vaults|remote vault]]​ អ្នក និងការទំនាក់ទំនងទាំងអស់ជាមួយម៉ាស៊ីនមេរបស់ Obsidian ។ មុននឹងអ្នកណាម្នាក់អាចចូលប្រើ​ Remote Vault របស់អ្នកបាន ដំបូងពួកគេត្រូវឌិគ្រីប(Decrypt) វាដោយប្រើលេខសម្ងាត់ _encryption password_។
+ដើម្បីសុវត្ថិភាពរបស់អ្នក [[km/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] អ៊ិនគ្រីប(Encrypt) [[Local and remote vaults|remote vault]]​ អ្នក និងការទំនាក់ទំនងទាំងអស់ជាមួយម៉ាស៊ីនមេរបស់ Obsidian ។ មុននឹងអ្នកណាម្នាក់អាចចូលប្រើ​ Remote Vault របស់អ្នកបាន ដំបូងពួកគេត្រូវឌិគ្រីប(Decrypt) វាដោយប្រើលេខសម្ងាត់ _encryption password_។
 
 នៅពេលអ្នកបង្កើត Remote Vault ថ្មី អ្នកមានជម្រើសពីរ៖
 

@@ -26,4 +26,4 @@ To learn more about how to format your notes using Markdown, refer to [[Format y
 
 ## Learn more
 
-Learn how to [[Link notes|link notes]] to create a network of connected thoughts.
+Learn how to [[Sandbox/Guides/Link notes|link notes]] to create a network of connected thoughts.

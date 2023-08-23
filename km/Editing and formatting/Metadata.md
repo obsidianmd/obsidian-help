@@ -79,11 +79,11 @@ Obsidian មានសំណុំពាក្យគន្លឹះមួយច�
 | `tags` | តំណាងឲ្យ `tag` ។ |
 | `alias` | មើល [[Aliases]] ។ |
 | `aliases` | តំណាងឲ្យ `alias` ។ |
-| `cssclass` | ឲ្យអ្នករចនាកំណត់ត្រាមួយៗដោយប្រើ [[CSS snippets]] ។ |
+| `cssclass` | ឲ្យអ្នករចនាកំណត់ត្រាមួយៗដោយប្រើ [[en/Extending Obsidian/CSS snippets]] ។ |
 
 ### Metadata សម្រាប់ Obsidian Publish
 
-ពាក្យគន្លឹះ metadata ខាងក្រោមត្រូវបានប្រើដោយ [[Introduction to Obsidian Publish|Obsidian Publish]]:
+ពាក្យគន្លឹះ metadata ខាងក្រោមត្រូវបានប្រើដោយ [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]]:
 
 | ពាក្យគន្លឹះ | ពិពណ៌នា |
 |-|-|

@@ -8,7 +8,7 @@ While Obsidian is great for taking notes, the true power of Obsidian lies in bei
 
 In this step, you'll create two notes and link them together using the \[\[double bracket syntax\]\].
 
-1. [[Create your first note|Create a note]] with the name "Three laws of motion":
+1. [[en/Getting started/Create your first note|Create a note]] with the name "Three laws of motion":
 
    > The laws of motion are three laws stated by Isaac Newton, that describe the relationship between the motion of an object, and the forces acting on it.
 

@@ -1,4 +1,4 @@
-អ្នកអាចរៀបចំដែន(Domain) ផ្ទាល់ខ្លួន ឬដែនរង(Subdomain) សម្រាប់គេហទំព័រ [[Introduction to Obsidian Publish|Obsidian Publish]] របស់អ្នក។
+អ្នកអាចរៀបចំដែន(Domain) ផ្ទាល់ខ្លួន ឬដែនរង(Subdomain) សម្រាប់គេហទំព័រ [[km/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] របស់អ្នក។
 
 យើងមិនទាន់មានវិធីផ្តល់វិញ្ញាបនបត្រ SSL ជំនួសអ្នកទេ។ ប្រសិនបើអ្នកចង់បើក HTTPS សម្រាប់ដែន(Domain) ផ្ទាល់ខ្លួន អ្នកត្រូវប្រើប្រូកស៊ី(Proxy) ផ្ទាល់ខ្លួនរបស់អ្នក ឬបង្កើតគេហទំព័រនៅលើ CloudFlare។
 

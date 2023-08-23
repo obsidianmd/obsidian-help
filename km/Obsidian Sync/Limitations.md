@@ -1,4 +1,4 @@
-ទំព័រនេះរាយបញ្ជីសំណួរទូទៅមួយចំនួនទាក់ទងនឹងកូតា និងដែនកំណត់សម្រាប់ [[Introduction to Obsidian Sync|Obsidian Sync]]។
+ទំព័រនេះរាយបញ្ជីសំណួរទូទៅមួយចំនួនទាក់ទងនឹងកូតា និងដែនកំណត់សម្រាប់ [[km/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]]។
 
 ## តើខ្ញុំអាចមាន Vault ដែលមិនផ្ទុកនៅម៉ាសុីនផ្ទាល់(Remote Vault)ប៉ុន្មាន?
 

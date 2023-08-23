@@ -79,11 +79,11 @@ Obsidian comes with of a set of predefined keys:
 | `tags` | Alias for `tag`. |
 | `alias` | See [[Aliases]]. |
 | `aliases` | Alias for `alias`. |
-| `cssclass` | Allows you to style individual notes using [[CSS snippets]]. |
+| `cssclass` | Allows you to style individual notes using [[en/Extending Obsidian/CSS snippets]]. |
 
 ### Metadata for Obsidian Publish
 
-The following metadata keys are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following metadata keys are used by [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]]:
 
 | Key | Description |
 |-|-|

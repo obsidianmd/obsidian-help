@@ -32,7 +32,7 @@ An **attachment** is an [[Accepted file formats|accepted file format]] that was 
 
 A **plugin** extends Obsidian with additional features.
 
-- [[Core plugins]] are written by the Obsidian team and included by default.
+- [[en/Plugins/Core plugins]] are written by the Obsidian team and included by default.
 - [[Community plugins]] are written by third-party plugin developers and needs to be [[Community plugins#Install a community plugin|installed]] before you can use them.
 
 You can [build your own plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
@@ -43,7 +43,7 @@ A **theme** changes the appearance of the Obsidian app using [CSS](https://devel
 
 ## snippet
 
-A **snippet**, or [[CSS snippets|CSS snippet]], changes the appearance of Obsidian, just like a [[#theme]]. Unlike themes, you can apply multiple snippets at the same time.
+A **snippet**, or [[en/Extending Obsidian/CSS snippets|CSS snippet]], changes the appearance of Obsidian, just like a [[#theme]]. Unlike themes, you can apply multiple snippets at the same time.
 
 ## view
 

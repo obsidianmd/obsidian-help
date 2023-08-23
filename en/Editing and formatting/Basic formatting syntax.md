@@ -15,7 +15,7 @@ This is another paragraph.
 ```
 
 > [!note] Multiple blank spaces
-> Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Editing and previewing Markdown#Editor views|Reading view]] and on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+> Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Editing and previewing Markdown#Editor views|Reading view]] and on [[en/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] sites.
 > 
 > ```md
 > Multiple          adjacent          spaces

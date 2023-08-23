@@ -1,4 +1,4 @@
-[[Introduction to Obsidian Sync|Obsidian Sync]] keeps a history of all the changes made to your notes. Sync regularly checks for new changes to your notes and creates a new version.
+[[مقدمه ای بر ابسیدین سینک|Obsidian Sync]] keeps a history of all the changes made to your notes. Sync regularly checks for new changes to your notes and creates a new version.
 
 If you accidentally delete a note, or you want to go back to a previous version of your note, you can restore a note from the version history.
 

@@ -1,4 +1,4 @@
-ស្វែងយល់ពីរបៀបធ្វើការសហការគ្នានៅលើគេហទំព័រ [[Introduction to Obsidian Publish|Obsidian Publish]] របស់អ្នកជាមួយអ្នកប្រើប្រាស់ Obsidian ផ្សេងទៀត។ ដោយបន្ថែមមិត្តភ័ក្តិ និងសហការីរបស់អ្នកជាដៃគូរសហការ ពួកគេអាចបោះផ្សាយការផ្លាស់ប្តូរទៅកាន់គេហទំព័ររបស់អ្នក។
+ស្វែងយល់ពីរបៀបធ្វើការសហការគ្នានៅលើគេហទំព័រ [[km/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]] របស់អ្នកជាមួយអ្នកប្រើប្រាស់ Obsidian ផ្សេងទៀត។ ដោយបន្ថែមមិត្តភ័ក្តិ និងសហការីរបស់អ្នកជាដៃគូរសហការ ពួកគេអាចបោះផ្សាយការផ្លាស់ប្តូរទៅកាន់គេហទំព័ររបស់អ្នក។
 
 មានតែម្ចាស់គេហទំព័រប៉ុណ្ណោះដែលត្រូវការការជាវសកម្ម(Active Subscription) សម្រាប់ Obsidian Publish។ ដៃគូរសហការគ្រាន់តែត្រូវការ [Obsidian account](https://obsidian.md/account)​ ប៉ុណ្ណោះ។
 
@@ -30,7 +30,7 @@ Obsidian Publish មិនធ្វើសមកាលកម្មការលើ
 2. ចុច​ Mouse ស្ដាំលើការផ្លាស់ប្តូរដែលអ្នកចង់ធ្វើសមកាលកម្ម ហើយបន្ទាប់មកជ្រើសរើស **Use live version**។ **វានឹងសរសេរលុបលើកំណត់ត្រានៅក្នុង​ local vault របស់អ្នក។**
 
 > [!tip]
-> យើងណែនាំអ្នកឱ្យប្រើឧបករណ៍ផ្សេងទៀតដើម្បីធ្វើសមកាលកម្មការផ្លាស់ប្តូររវាង vault ដូចជា [[Introduction to Obsidian Sync|Obsidian Sync]]​​ ឬ [git](https://git-scm.com/)។
+> យើងណែនាំអ្នកឱ្យប្រើឧបករណ៍ផ្សេងទៀតដើម្បីធ្វើសមកាលកម្មការផ្លាស់ប្តូររវាង vault ដូចជា [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]]​​ ឬ [git](https://git-scm.com/)។
 
 ## ការអនុញ្ញាត
 

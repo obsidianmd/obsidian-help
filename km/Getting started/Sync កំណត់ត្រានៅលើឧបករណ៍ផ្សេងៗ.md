@@ -1,6 +1,6 @@
 Syncing មានន័យថាធ្វើឲ្យកំណត់ត្រារបស់អ្នក up to date នៅលើឧបករណ៍ទាំងអស់របស់អ្នក​ ដូចជា laptop និង ទូរស័ព្ទ ។
 
-ផ្លូវងាយស្រួលបំផុតក្នុងការ sync កំណត់ត្រារបស់អ្នករវាងឧបករណ៍របស់អ្នកគឺប្រើ [[Introduction to Obsidian Sync|Obsidian Sync]] ។ បើអ្នកបានជាវ Obsidian Sync រួច សូមមើលពីរបៀប [[Set up Obsidian Sync]] ។
+ផ្លូវងាយស្រួលបំផុតក្នុងការ sync កំណត់ត្រារបស់អ្នករវាងឧបករណ៍របស់អ្នកគឺប្រើ [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] ។ បើអ្នកបានជាវ Obsidian Sync រួច សូមមើលពីរបៀប [[Set up Obsidian Sync]] ។
 
 ចាំថាបើប្រើសេវាកម្ម syncing ច្រើនក្នុងរយៈពេលតែមួយ (ឧទាហរណ៍ Obsidian Sync _និង_ Dropbox) អាចធ្វើឲ្យបាត់បង់ទិន្នន័យ ខូច ឬ បញ្ហាផ្សេងទៀត ។ [[Obsidian Sync and third-party services||ស្វែងយល់បន្ថែមពីរបៀបប្រើ Obsidian Sync ជាមួយសេវាកម្មផ្សេងទៀត ។]]
 
@@ -24,7 +24,7 @@ Syncing មានន័យថាធ្វើឲ្យកំណត់ត្រា
 
 ដើម្បី sync កំណត់ត្រារបស់អ្នកនៅលើ iPhone ឬ iPad ពួកយើងគាំទ្រជម្រើសខាងក្រោមជាផ្លូវការ:
 
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]]
 - [[#iCloud Drive]]
 
 **ចំណាំ:** សេវាកម្មខាងក្រោមមិនអាចប្រើបានទេ ។​ បើអ្នករកឃើញវិធីទៅ sync កំណត់ត្រារបស់អ្នកនៅលើឧបករណ៍ iOS ដោយប្រើសេវាក្មខាងក្រោម សូមប្រាប់ពួកយើងនៅ channel សហគមន៍របស់យើង ។
@@ -110,7 +110,7 @@ Obsidian ធ្វើការខុសគ្នាពីកម្មវិធ�
 
 ## Sync កំណត់ត្រានៅលើ Android
 
-វិធីងាយស្រួលបំផុតដើម្បី sync កំណត់ត្រារបស់អ្នកលើ ឧបករណ៍ Android របស់អ្នកដោយប្រើ [[Introduction to Obsidian Sync|Obsidian Sync]] ។
+វិធីងាយស្រួលបំផុតដើម្បី sync កំណត់ត្រារបស់អ្នកលើ ឧបករណ៍ Android របស់អ្នកដោយប្រើ [[en/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] ។
 
 ដោយសារ Obsidian ស្តុកទុកកំណត់ត្រានៅក្នុង local folder នៅលើឧបករណ៍ Android របស់អ្នក អ្នកអាចប្រើកម្មវិធីណាមួយដែលអនុញ្ញាតឱ្យអ្នក sync ថតដូចជា៖
 

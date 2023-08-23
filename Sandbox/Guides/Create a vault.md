@@ -15,4 +15,4 @@ If you already have a folder that you want to use as your vault:
 2. In the file browser, select the folder you want to use as your vault.
 3. Click **Open**.
 
-Now that you've set up your vault, you're ready to [[Create your first note]].
+Now that you've set up your vault, you're ready to [[Sandbox/Guides/Create your first note]].

@@ -20,7 +20,7 @@
 
 ## ទាក់ទងជំនួយ Obsidian 
 
-Obsidian ផ្តល់ការគាំទ្រតាមអ៊ីមែលសម្រាប់តែការសាកសួរអំពី [[អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម|អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម]], គណនី, ការទូទាត់ និងសេវាកម្មបន្ថែមរបស់អ្នក។ ([[Introduction to Obsidian Sync|Obsidian Sync]] និង [[Introduction to Obsidian Publish|Obsidian Publish]]) ។
+Obsidian ផ្តល់ការគាំទ្រតាមអ៊ីមែលសម្រាប់តែការសាកសួរអំពី [[អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម|អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម]], គណនី, ការទូទាត់ និងសេវាកម្មបន្ថែមរបស់អ្នក។ ([[km/Obsidian Sync/Introduction to Obsidian Sync|Obsidian Sync]] និង [[km/Obsidian Publish/Introduction to Obsidian Publish|Obsidian Publish]]) ។
 ប្រសិនបើអ្នកត្រូវការជំនួយជាមួយប្រធានបទណាមួយនោះ, [email the Obsidian team](mailto:support@obsidian.md).
 
 ## រាយការណ៍ពីបញ្ហាសុវត្ថិភាព
