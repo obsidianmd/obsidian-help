@@ -15,7 +15,7 @@ This is another paragraph.
 ```
 
 > [!note] Multiple blank spaces
-> Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Editing and previewing Markdown#Editor views|Reading view]] and on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+> Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Editing and previewing Markdown#Editor views|Reading view]] and on [[مقدمه ای بر ابسیدین پابلیش|Obsidian Publish]] sites.
 > 
 > ```md
 > Multiple          adjacent          spaces
@@ -143,7 +143,7 @@ function fancyAlert(arg) {
 Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
 
 > [!note]
-> [[Live preview update|Live Preview mode]] doesn't support PrismJS and may render syntax highlighting differently.
+> [[به روز رسانی نمایش زنده|Live Preview mode]] doesn't support PrismJS and may render syntax highlighting differently.
 
 ## External links
 

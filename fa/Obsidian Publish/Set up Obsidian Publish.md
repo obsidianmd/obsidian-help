@@ -1,4 +1,4 @@
-In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
+In this guide, you'll enable [[مقدمه ای بر ابسیدین پابلیش|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
 
 ## Prerequisites
 

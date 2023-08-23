@@ -37,7 +37,7 @@ You can also toggle the editing view by opening the Command palette and searchin
 
 Live Preview and Source mode are two ways to edit your Markdown notes in Obsidian. Try them out to see which one you prefer!
 
-If you want to know how the terminology changes with the new features, here's a handy chart by [[Credits#^a4b3a2|Argentum]]:
+If you want to know how the terminology changes with the new features, here's a handy chart by [[اعتبارات#^a4b3a2|Argentum]]:
 
 ![[Editor update chart.png]]
 
