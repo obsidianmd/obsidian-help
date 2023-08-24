@@ -4,7 +4,7 @@ aliases:
   - Advanced topics/YAML front matter
 ---
 
-While most of the text in a note is meant to be read by a human, _metadata_ is text that's meant to be easily readable by a program, for example a [[Community plugins|community plugin]] or Obsidian itself.
+While most of the text in a note is meant to be read by a human, _metadata_ is text that's meant to be easily readable by a program, for example a [[افزونه های انجمن|community plugin]] or Obsidian itself.
 
 You can add metadata to your notes by adding a block on the first line of your note. The block must start and end with three hyphens (`---`).
 
@@ -79,11 +79,11 @@ Obsidian comes with of a set of predefined keys:
 | `tags` | Alias for `tag`. |
 | `alias` | See [[Aliases]]. |
 | `aliases` | Alias for `alias`. |
-| `cssclass` | Allows you to style individual notes using [[CSS snippets]]. |
+| `cssclass` | Allows you to style individual notes using [[تکه کد های CSS]]. |
 
 ### Metadata for Obsidian Publish
 
-The following metadata keys are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following metadata keys are used by [[مقدمه ای بر ابسیدین پابلیش|Obsidian Publish]]:
 
 | Key | Description |
 |-|-|

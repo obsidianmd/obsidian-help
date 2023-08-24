@@ -1,4 +1,4 @@
-You can set up a custom domain or subdomain for your [[Introduction to Obsidian Publish|Obsidian Publish]] site.
+You can set up a custom domain or subdomain for your [[مقدمه ای بر ابسیدین پابلیش|Obsidian Publish]] site.
 
 At the moment, we only support configuring custom domains using the following methods:
 

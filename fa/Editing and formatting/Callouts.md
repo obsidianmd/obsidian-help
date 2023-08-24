@@ -19,7 +19,7 @@ To create a callout, add `[!info]` to the first line of a blockquote, where `inf
 > It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embedding files|embeds]]!
 > ![[og-image.png]]
 
-Callouts are also supported natively on [[Introduction to Obsidian Publish|Obsidian Publish]].
+Callouts are also supported natively on [[مقدمه ای بر ابسیدین پابلیش|Obsidian Publish]].
 
 > [!note]
 > If you're also using the Admonitions plugin, you should update it to at least version 8.0.0 to avoid problems with the new callout feature.
@@ -74,7 +74,7 @@ You can nest callouts in multiple levels.
 
 ### Customize callouts
 
-[[CSS snippets]] and [[Community plugins]] can define custom callouts, or even overwrite the default configuration.
+[[تکه کد های CSS]] and [[افزونه های انجمن]] can define custom callouts, or even overwrite the default configuration.
 
 To define a custom callout, create the following CSS block:
 
