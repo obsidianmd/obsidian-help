@@ -36,7 +36,7 @@ You can create links to notes that don't exist yet, for when you want to dive in
 
 As you've seen in the previous steps, you can click a link while pressing `Ctrl` (or `Cmd` on macOS) to go to the linked note.
 
-Another way to navigate the between notes is through _backlinks_. A backlink lets you navigate in the opposite direction of an existing link.
+Another way to navigate between notes is through _backlinks_. A backlink lets you navigate in the opposite direction of an existing link.
 
 1. Open the "Isaac Newton" note.
 2. In the right sidebar, click the **Backlinks** tab.
