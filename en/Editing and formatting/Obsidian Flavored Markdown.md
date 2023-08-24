@@ -8,8 +8,8 @@ Syntax | Description
 -|-
 `[[Link]]` | [[Internal links]]
 `![[Link]]` | [[Embedding files]]
-`![[Link#^id]]` | [[Internal links\|Block references]]
-`^id` | [[Internal links\|Defining a block]]
+`![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]
+`^id` | [[Internal links#Link to a block in a note\|Defining a block]]
 `%%Text%%` | [[Basic formatting syntax#Comments\|Comments]]
 `~~Text~~`| [[Basic formatting syntax#Styling text\|Strikethroughs]]
 `==Text==`| [[Basic formatting syntax#Styling text\|Highlights]]
