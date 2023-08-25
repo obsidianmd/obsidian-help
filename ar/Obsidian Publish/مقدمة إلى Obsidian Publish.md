@@ -1,5 +1,5 @@
 ---
-permalink: obsidian-obsidian-publish/introduction-to-obsidian-publish
+permalink: obsidian-publish/introduction-to-obsidian-publish
 ---
 
 Obsidian Publish هي خدمة مستندة على السحابة حيث يمكنك نشر ملاحظاتك للعالم.

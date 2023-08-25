@@ -2,6 +2,11 @@ html {
 	direction: rtl;
 }
 
+body {
+	--link-decoration: initial;
+	--link-external-decoration: initial;
+}
+
 pre {
 	direction: ltr;
 }
@@ -264,12 +269,6 @@ a.footnote-backref.footnote-link {
 .site-body-left-column-site-logo {
 	text-align: right;
 	margin-bottom: 24px;
-	transition: opacity 0.15s ease-in-out;
-}
-
-.site-body-left-column-site-logo:hover {
-	opacity: 0.65;
-	transition: opacity 0.15s ease-in-out;
 }
 
 .site-header-logo img,
@@ -278,7 +277,7 @@ a.footnote-backref.footnote-link {
 }
 .theme-light .site-header-logo,
 .theme-light .site-body-left-column-site-logo {
-	filter: invert(1);
+	filter: invert(1) hue-rotate(180deg);
 }
 
 @media screen and (max-width: 750px) {
