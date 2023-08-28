@@ -1,5 +1,5 @@
 ---
-permalink: obsidian/obsidian
+permalink: obsidian
 ---
 
 ## ما هو Obsidian

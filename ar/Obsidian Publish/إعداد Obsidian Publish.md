@@ -1,5 +1,5 @@
 ---
-permalink: obsidian-obsidian-publish/set-up-obsidian-publish
+permalink: obsidian-publish/set-up-obsidian-publish
 ---
 
 في هذا الدليل، ستقوم بتمكين [[مقدمة إلى Obsidian Publish|Obsidian Publish]] للقبو، إنشاء موقع، ونشر ملاحظاتك عليه.

@@ -1,5 +1,5 @@
 ---
-permalink: obsidian-obsidian-publish/set-up-google-analytics
+permalink: obsidian-publish/set-up-google-analytics
 ---
 
 [إحصاءات Google](https://analytics.google.com/) هي خدمة تتيح لك تتبع عدد الزيارات على موقع الويب. تشرح هذه الصفحة كيفية تمكين إحصاءات Google لموقعك في [[مقدمة إلى Obsidian Publish|Obsidian Publish]].

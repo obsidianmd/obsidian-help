@@ -1,7 +1,7 @@
 ---
-aliases:
-  - استخدام Obsidian URI
 permalink: concepts/obsidian-uri
+aliases:
+  - استخدام عناوين Obsidian URI
 ---
 
 عناوين Obsidian URI هي بروتوكولًا مخصصًا مدعومًا بواسطة Obsidian يتيح لك تشغيل إجراءات متعددة، مثل فتح ملاحظة أو إنشاء ملاحظة.
@@ -21,7 +21,7 @@ obsidian://action?param1=value&param2=value
 >
 > هذا مهم للغاية لأن حرف "محجوز" الذي لم يتم ترميزه بشكل صحيح قد يؤدي إلى تعطيل تفسير عنوان URI. [راجع هنا للتفاصيل](https://en.wikipedia.org/wiki/Percent-encoding).
 
-## تسجيل Obsidian URI
+## تسجيل عناوين Obsidian URI
 
 في Windows و macOS، يجب أن يكون تشغيل التطبيق مرة واحدة كافيًا لتسجيل بروتوكول عناوين Obsidian URI على جهاز الكمبيوتر.
 
@@ -80,7 +80,7 @@ obsidian://action?param1=value&param2=value
 
 ## إنشاء ملاحظة
 
-هذه النقطة نهاية عنوان Obsidian URI تنشئ ملاحظة جديدة في القبو، مع محتوى اختياري.
+هذه نقطة نهاية عنوان Obsidian URI تنشئ ملاحظة جديدة في القبو، مع محتوى اختياري.
 
 ### أمثلة
 
