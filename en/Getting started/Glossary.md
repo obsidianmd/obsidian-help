@@ -49,7 +49,7 @@ A **note** is a Markdown file inside a [[#vault]].
 A **plugin** extends Obsidian with additional features.
 
 - [[Core plugins]] are written by the Obsidian team and included by default.
-- [[Community plugins]] are written by third-party plugin developers and needs to be [[Community plugins#Install a community plugin|installed]] before you can use them.
+- [[Community plugins]] are written by third-party plugin developers and need to be [[Community plugins#Install a community plugin|installed]] before you can use them.
 
 You can [build your own plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
@@ -65,7 +65,7 @@ See also [[Pop-out windows]].
 
 ## ribbon
 
-The **ribbon** a vertical area that's located on the far left of the Obsidian app. The ribbon contains icons for frequently used actions.
+The **ribbon** is a vertical area that's located on the far left of the Obsidian app. The ribbon contains icons for frequently used actions.
 
 ## sidebar
 
