@@ -31,9 +31,9 @@ Due to technical reasons, Obsidian is unable to reliably restrict plugins to spe
 
 ## Plugin review process
 
-Community plugins undergo an initial review when they're submitted to the plugin store. The Obsidian team is still small and unable to manually review every new release of community plugins.
+Community plugins undergo an initial review when they're submitted to the plugin store. All plugins must adhere to [Obsidian Developer Policies](https://docs.obsidian.md/Developer+policies).
 
-Instead, we rely on the help of the community to identify and report issues with plugins.
+The Obsidian team is small and unable to manually review every new release of community plugins. Instead, we rely on the help of the community to identify and report issues with plugins.
 
 - If you find any security flaws with a community plugin, create an issue on the plugin repository on GitHub.
 - If you suspect that a community plugin is malicious, report it to [[Help and support#Contact Obsidian support|Obsidian support]], or by sending a DM to our moderators.
