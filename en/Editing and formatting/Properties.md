@@ -71,7 +71,7 @@ cast:
 
 ## Predefined properties
 
-Obsidian comes with of a set of predefined keys:
+Obsidian comes with a set of predefined keys:
 
 | Key | Description |
 |-|-|
