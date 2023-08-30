@@ -4,7 +4,10 @@ aliases:
   - Obsidian/Index
 cssclasses:
   - list-cards
+  - hide-title
 ---
+# Obsidian Help
+
 Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
 
 You can also browse this site the following languages:
