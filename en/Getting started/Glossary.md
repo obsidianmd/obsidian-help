@@ -18,7 +18,7 @@ A **command** is an action that can be performed either by selecting it from the
 
 ## frontmatter
 
-Frontmatter is a way to define [[#property]] for your note by adding [YAML](https://yaml.org/) or [JSON](https://www.json.org/) at the top of the note. See also [[Properties#Property format|Property format]].
+Frontmatter is a way to define [[#property|properties]] by adding [YAML](https://yaml.org/) or [JSON](https://www.json.org/) at the top of the note. See also [[Properties#Property format|Property format]].
 
 ## graph
 

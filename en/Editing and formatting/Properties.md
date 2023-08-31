@@ -3,8 +3,9 @@ aliases:
   - front matter
   - Advanced topics/YAML front matter
   - metadata
+  - property
 ---
-Properties contain information about a note. 
+Properties help your organize information about a note.
 
 ## Basic usage
 
@@ -13,7 +14,7 @@ There are several ways to add a property to a note:
 - Use the [[Command palette|command]] **Add file property**.
 - Use the `Cmd/Ctrl+;` hotkey.
 - Choose **Add file property** from the **More actions** menu (three dots icon) or right-clicking the tab.
-- Typing `---` at the very beginning of a file.
+- Type `---` at the very beginning of a file.
 
 Once you add a property, a row will appear at the top of the file with two inputs: the property _name_ and the property _value_.
 
@@ -36,9 +37,35 @@ Obsidian provides the following property types:
 
 Once a property type is assigned to a property, all properties with that name are assumed to have the same property type.
 
-## Search properties
+## Advanced uses
+
+### Internal links
+
+You can add [[Internal links]] to **Text** and **List** type properties using the `[[Link]]` syntax.
+
+### Search properties
 
 Properties have their own [[Search|search syntax]] that you can use alongside other search terms and operators. [[Search#Search properties|See search syntax for properties]].
+
+### Templates
+
+You can add properties to [[Templates]]. When you insert a template into the active note, your note will automatically inherit all the properties from the template. Obsidian will also merge any properties that exist in your note with properties in the template.
+
+### Display modes
+
+You can change how properties are displayed in your note by going to  **Settings → Editor → Properties in document**. The options are:
+
+- **Visible** (default) — displays properties at the top of the note, if there are any.
+- **Hidden** — hides properties, can still be displayed in the sidebar via [[Properties view]].
+- **Source** — displays properties in plain text YAML format.
+
+### Not supported
+
+A few features are not supported in Obsidian:
+
+- **Nested properties** — to view nested properties we recommend using the Source display
+- **Bulk editing properties** — this can be achieved community-made tools such as Python scripts
+- **Markdown in properties** — this is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
 
 ## Hotkeys
 
