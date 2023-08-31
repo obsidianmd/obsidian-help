@@ -5,7 +5,7 @@ aliases:
   - metadata
   - property
 ---
-Properties help your organize information about a note. Adding properties to a note helps you track structured data such as text, links, dates and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
+Properties help you organize information about a note. Adding properties to a note helps you track structured data such as text, links, dates and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
 
 ## Basic usage
 
