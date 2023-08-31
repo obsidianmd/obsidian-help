@@ -128,7 +128,7 @@ name: value
 ---
 ```
 
-While the order of each name-value pair doesn't matter, each name must be unique within a note. For example, you can't have more than one `tag` property.
+While the order of each name-value pair doesn't matter, each name must be unique within a note. For example, you can't have more than one `tags` property.
 
 Values can be text, numbers, true or false, or even collections of values (arrays).
 
@@ -150,7 +150,7 @@ cast:
 > ```md
 > ---
 > {
->   "tag": "journal",
+>   "tags": "journal",
 >   "publish": false
 > }
 > ---
