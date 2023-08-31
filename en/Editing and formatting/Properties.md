@@ -7,7 +7,7 @@ aliases:
 ---
 Properties help you organize information about a note. Adding properties to a note helps you track structured data such as text, links, dates and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
 
-## Basic usage
+## Add properties to a note
 
 There are several ways to add a property to a note:
 
@@ -49,7 +49,7 @@ Properties have their own [[Search|search syntax]] that you can use alongside ot
 
 ### Templates
 
-You can add properties to [[Templates]]. When you insert a template into the active note, your note will automatically add all the properties from the template. Obsidian will also merge any properties that exist in your note with properties in the template.
+You can add properties to [[Templates]]. When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template.
 
 ### Display modes
 
@@ -156,9 +156,9 @@ cast:
 > ---
 > ```
 
-## Predefined properties
+## Default properties
 
-Obsidian comes with a set of predefined properties:
+Obsidian comes with a set of default properties:
 
 | Property | Description |
 |-|-|
