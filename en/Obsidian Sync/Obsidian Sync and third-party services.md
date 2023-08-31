@@ -15,7 +15,7 @@ We recommend using a dedicated backup service that doesn't automatically update 
 
 > [!QUESTION]- How do I move my vault out of iCloud Drive?
 > > [!INFO]- Move your vault out of iCloud Drive on macOS
-> > - Open the [[Vault Switcher]], right-click on the vault or tap the three dots, and select "Move vault."  
+> > - Open the [[Manage vaults|Vault switcher]], right-click on the vault or tap the three dots, and select "Move vault."  
 >   > 
 > > If you want to move your vault across different drives:
 > > 1. Quit the Obsidian app.  
