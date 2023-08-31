@@ -5,14 +5,14 @@ aliases:
   - metadata
   - property
 ---
-Properties help your organize information about a note.
+Properties help your organize information about a note. Adding properties to a note helps you track structured data such as text, links, dates and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
 
 ## Basic usage
 
 There are several ways to add a property to a note:
 
-- Use the [[Command palette|command]] **Add file property**.
-- Use the `Cmd/Ctrl+;` hotkey.
+- Use the **Add file property** [[Command palette|command]].
+- Use the **`Cmd/Ctrl+;`** [[Custom hotkeys|hotkey]].
 - Choose **Add file property** from the **More actions** menu (three dots icon) or right-clicking the tab.
 - Type `---` at the very beginning of a file.
 
@@ -22,11 +22,11 @@ For the name, you can choose anything you like. Note that Obsidian provides seve
 
 Once you choose the property name you can give it a value.
 
-## Property types
+### Property types
 
-In addition to a name and value, properties also have a type. A _property type_ describes the kind of values can be stored.
+In addition to a name and value, properties also have a type. A _property type_ describes the kind of values can be stored. To change the type of a property click the property's icon or use the **Edit file property** command.
 
-Obsidian provides the following property types:
+Obsidian supports the following property types:
 
 - **Text**
 - **List**
@@ -39,9 +39,9 @@ Once a property type is assigned to a property, all properties with that name ar
 
 ## Advanced uses
 
-### Internal links
+### Links
 
-You can add [[Internal links]] to **Text** and **List** type properties using the `[[Link]]` syntax.
+**Text** and **List** type properties can contain URLs and [[Internal links]] using the `[[Link]]` syntax.
 
 ### Search properties
 
@@ -49,7 +49,7 @@ Properties have their own [[Search|search syntax]] that you can use alongside ot
 
 ### Templates
 
-You can add properties to [[Templates]]. When you insert a template into the active note, your note will automatically inherit all the properties from the template. Obsidian will also merge any properties that exist in your note with properties in the template.
+You can add properties to [[Templates]]. When you insert a template into the active note, your note will automatically add all the properties from the template. Obsidian will also merge any properties that exist in your note with properties in the template.
 
 ### Display modes
 
@@ -115,7 +115,6 @@ When a property is focused
 |Focus value (Cursor at end)|`A`|
 |Focus value (Cursor at beginning)|`i`|
 |Create new property|`o`|
-
 
 ## Property format
 
