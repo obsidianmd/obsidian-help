@@ -5,7 +5,7 @@ The Properties view plugin adds two sidebar views that you can use to manage [[P
 
 ## All properties view
 
-The "All properties" view you can:
+With the "All properties" view you can:
 
 - Sort properties by name or by frequency (total number of uses in your vault)
 - Click a property to open [[Search]] view with the [[Search#Search properties|property search]] syntax pre-filled 
