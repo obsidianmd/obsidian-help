@@ -3,35 +3,122 @@ aliases:
   - front matter
   - Advanced topics/YAML front matter
   - metadata
+  - property
 ---
-While most of the text in a note is meant to be read by a human, _properties_ are text that's meant to be easily readable by a program, for example a [[Community plugins|community plugin]] or Obsidian itself.
+Properties help your organize information about a note. Adding properties to a note helps you track structured data such as text, links, dates and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
 
-You can add properties to your notes by adding a block on the first line of your note. The block must start and end with three hyphens (`---`).
+## Basic usage
 
-For example, the following note contains two pieces of properties, `tag` and `publish`:
+There are several ways to add a property to a note:
 
-```yaml
----
-tag: journal
-publish: false
----
+- Use the **Add file property** [[Command palette|command]].
+- Use the **`Cmd/Ctrl+;`** [[Custom hotkeys|hotkey]].
+- Choose **Add file property** from the **More actions** menu (three dots icon) or right-clicking the tab.
+- Type `---` at the very beginning of a file.
 
-# Daily note
+Once you add a property, a row will appear at the top of the file with two inputs: the property _name_ and the property _value_.
 
-Today I learned about front matter.
-```
+For the name, you can choose anything you like. Note that Obsidian provides several default properties: `tags`, `cssclasses`, and `aliases`.
 
-> [!tip]
-> By default, properties are only visible in the [[Editing and previewing Markdown#Editor views|editing view]].
->
-> To display properties in reading view:
->
-> 1. Open **Settings**.
-> 2. Under **Editor**, enable **Show frontmatter**.
+Once you choose the property name you can give it a value.
+
+### Property types
+
+In addition to a name and value, properties also have a type. A _property type_ describes the kind of values can be stored. To change the type of a property click the property's icon or use the **Edit file property** command.
+
+Obsidian supports the following property types:
+
+- **Text**
+- **List**
+- **Number**
+- **Checkbox**
+- **Date**
+- **Date & time**
+
+Once a property type is assigned to a property, all properties with that name are assumed to have the same property type.
+
+## Advanced uses
+
+### Links
+
+**Text** and **List** type properties can contain URLs and [[Internal links]] using the `[[Link]]` syntax.
+
+### Search properties
+
+Properties have their own [[Search|search syntax]] that you can use alongside other search terms and operators. [[Search#Search properties|See search syntax for properties]].
+
+### Templates
+
+You can add properties to [[Templates]]. When you insert a template into the active note, your note will automatically add all the properties from the template. Obsidian will also merge any properties that exist in your note with properties in the template.
+
+### Display modes
+
+You can change how properties are displayed in your note by going to  **Settings → Editor → Properties in document**. The options are:
+
+- **Visible** (default) — displays properties at the top of the note, if there are any.
+- **Hidden** — hides properties, can still be displayed in the sidebar via [[Properties view]].
+- **Source** — displays properties in plain text YAML format.
+
+### Not supported
+
+A few features are not supported in Obsidian:
+
+- **Nested properties** — to view nested properties we recommend using the Source display
+- **Bulk editing properties** — this can be achieved community-made tools such as Python scripts
+- **Markdown in properties** — this is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
+
+## Hotkeys
+
+### Add a property
+
+|   |   |
+|---|---|
+|Add new property|`Cmd + ;`|
+
+### Navigate between properties
+
+When a property is focused 
+
+|   |   |
+|---|---|
+|Focus next property|`Down arrow` or `Tab`|
+|Focus previous property|`Up arrow` or `Shift+Tab`|
+|Jump to editor|`Alt+Down arrow`|
+
+### Select properties
+
+|   |   |
+|---|---|
+|Extend selection upwards|`Shift+Up arrow`|
+|Extend selection downwards|`Shift+Down arrow`|
+|Select all|`Cmd+A`|
+
+### Edit properties
+
+|   |   |
+|---|---|
+|Edit property name|`Left arrow`|
+|Edit property value|`Right arrow`|
+|Focus property|`Escape`|
+|Delete property|`Cmd+Backspace`<br><br>if any properties are selected, it will delete the selection instead.|
+|Undo|`Cmd+Z`|
+|Redo|`Cmd+Shift+Z`|
+
+### Vim (advanced)
+
+|   |   |
+|---|---|
+|Move down|`j`|
+|Move up|`k`|
+|Focus key|`h`|
+|Focus value|`l`|
+|Focus value (Cursor at end)|`A`|
+|Focus value (Cursor at beginning)|`i`|
+|Create new property|`o`|
 
 ## Property format
 
-[YAML](https://yaml.org/) is a widely used configuration format that's readable by both humans and machines. Each property consists of a _key_ and a corresponding _value_.
+Properties are stored in [YAML](https://yaml.org/)  format at the top of the file. YAML is a widely used format that's readable by both humans and machines. Each property consists of a _key_ and a corresponding _value_.
 
 Keys are separated from their values by a colon followed by a space:
 

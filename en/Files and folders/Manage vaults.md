@@ -1,9 +1,9 @@
 ---
 aliases:
-- User interface/Vault switcher
-- How to/Working with multiple vaults
+  - User interface/Vault switcher
+  - How to/Working with multiple vaults
+  - Vault switcher
 ---
-
 You can manage your vaults using _vault switcher_. The vault switcher opens by default the first time you open Obsidian.
 
 To open the vault switcher from an existing vault, select **Open another vault** (vault icon) at the bottom of the [[ribbon]]. Or, select **Open another vault** from the [[command palette]].

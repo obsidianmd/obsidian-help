@@ -39,6 +39,8 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Show the table of contents for the active note.
 - [[Page preview]]
 	- Preview the contents of a note by hovering over links.
+- [[Properties view]]
+	- List all the properties in your vault, and see properties for the active note.
 - [[Introduction to Obsidian Publish|Publish]]
 	- Host your notes as a website, wiki or documentation.
 - [[Quick switcher]]
