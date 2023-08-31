@@ -71,7 +71,7 @@ A few features are not supported in Obsidian:
 
 ### Add a property
 
-|   |   |
+| Action | Hotkey |
 |---|---|
 |Add new property|`Cmd + ;`|
 
@@ -79,7 +79,7 @@ A few features are not supported in Obsidian:
 
 When a property is focused 
 
-|   |   |
+| Action | Hotkey |
 |---|---|
 |Focus next property|`Down arrow` or `Tab`|
 |Focus previous property|`Up arrow` or `Shift+Tab`|
@@ -87,7 +87,7 @@ When a property is focused
 
 ### Select properties
 
-|   |   |
+| Action | Hotkey |
 |---|---|
 |Extend selection upwards|`Shift+Up arrow`|
 |Extend selection downwards|`Shift+Down arrow`|
@@ -95,7 +95,7 @@ When a property is focused
 
 ### Edit properties
 
-|   |   |
+| Action | Hotkey |
 |---|---|
 |Edit property name|`Left arrow`|
 |Edit property value|`Right arrow`|
@@ -106,7 +106,7 @@ When a property is focused
 
 ### Vim (advanced)
 
-|   |   |
+| Action | Hotkey |
 |---|---|
 |Move down|`j`|
 |Move up|`k`|
