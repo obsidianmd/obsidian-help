@@ -11,27 +11,7 @@ Use aliases for things like acronyms, nicknames, or to refer to a note in a diff
 
 ## Add an alias to a note
 
-To add an alias for a note, add `aliases` property in the note [[Properties]]:
-
-```md
----
-alias: Doggo
----
-
-# Dog
-```
-
-You can add multiple aliases using commas:
-
-```md
----
-aliases: Doggo, Woofer, Yapper
----
-
-# Dog
-```
-
-Or, you can also add multiple aliases using a YAML array:
+To add an alias for a note, add `aliases` property in the note [[Properties]]. Aliases should always be formatted as a list in YAML.
 
 ```md
 ---
