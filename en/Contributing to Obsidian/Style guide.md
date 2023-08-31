@@ -81,7 +81,7 @@ Don't indicate a direction when referring to settings. The location of the setti
 
 ## Sentence case
 
-Prefer *sentence case* over *title case* for headings, buttons, and titles. When referencing UI elements always match the case of the text the UI.
+Prefer *sentence case* over *title case* for headings, buttons, and titles. When referencing UI elements always match the case of the text in the UI.
 
 **Recommended:**
 
