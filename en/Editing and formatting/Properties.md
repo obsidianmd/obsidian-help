@@ -118,17 +118,17 @@ When a property is focused
 
 ## Property format
 
-Properties are stored in [YAML](https://yaml.org/)  format at the top of the file. YAML is a widely used format that's readable by both humans and machines. Each property consists of a _key_ and a corresponding _value_.
+Properties are stored in [YAML](https://yaml.org/)  format at the top of the file. YAML is a widely used format that's readable by both humans and machines.
 
-Keys are separated from their values by a colon followed by a space:
+Property names are separated from their values by a colon followed by a space:
 
 ```yaml
 ---
-key: value
+name: value
 ---
 ```
 
-While the order of each key-value pair doesn't matter, each key must be unique within a note. For example, you can't have more than one `tag` key.
+While the order of each name-value pair doesn't matter, each name must be unique within a note. For example, you can't have more than one `tag` property.
 
 Values can be text, numbers, true or false, or even collections of values (arrays).
 
@@ -158,9 +158,9 @@ cast:
 
 ## Predefined properties
 
-Obsidian comes with a set of predefined keys:
+Obsidian comes with a set of predefined properties:
 
-| Key | Description |
+| Property | Description |
 |-|-|
 | `tags` | See [[Editing and formatting/Tags\|Tags]]. |
 | `aliases` | See [[Aliases]]. |
@@ -168,9 +168,9 @@ Obsidian comes with a set of predefined keys:
 
 ### Deprecated properties
 
-These keys are deprecated in 1.4. Please do not use them any more:
+These properties are deprecated in 1.4. Please do not use them any more:
 
-| Key | Description |
+| Property | Description |
 |-|-|
 | `tag` | Deprecated alias for `tags`. |
 | `alias` | Deprecated alias for `aliases`. |
@@ -178,9 +178,9 @@ These keys are deprecated in 1.4. Please do not use them any more:
 
 ### Properties for Obsidian Publish
 
-The following properties keys are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following properties are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
 
-| Key | Description |
+| Property | Description |
 |-|-|
 | `publish` | See [[Publish and unpublish notes#Automatically select notes to publish]]. |
 | `permalink` | See [[Publish and unpublish notes#Permalinks]]. |
