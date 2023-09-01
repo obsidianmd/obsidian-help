@@ -2,7 +2,7 @@
 permalink: obsidian-sync/introduction-to-obsidian-sync
 ---
 
-Obsidian Sync هو خدمة قائمة على السحابة تتيح لك تخزين ملاحظاتك على خوادم Obsidian ومزامنتها عبر أجهزتك.
+[Obsidian Sync](https://obsidian.md/sync) هي خدمة قائمة على السحابة تتيح لك تخزين ملاحظاتك على خوادم Obsidian ومزامنتها عبر أجهزتك.
 
 > [!هام]
 > إذا كنت تستخدم Obsidian Sync جنبًا إلى جنب مع مقدمي خدمات تخزين سحابي آخرين مثل Dropbox أو Google Drive أو OneDrive، راجع [[Obsidian Sync والخدمات الخارجية]] لتجنب تعارضات المزامنة.
