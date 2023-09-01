@@ -155,6 +155,8 @@ cast:
 > }
 > ---
 > ```
+>
+> Note that the JSON block will be read, interpreted, and saved as YAML.
 
 ## Default properties
 
