@@ -98,7 +98,7 @@ Text inside `backticks` on a line will be formatted like code.
 
 Text inside `backticks` on a line will be formatted like code.
 
-If you want to put backticks in a inline code block, surround it with double backticks like so: inline ``code with a backtick ` inside``.
+If you want to put backticks in an inline code block, surround it with double backticks like so: inline ``code with a backtick ` inside``.
 
 ### Code blocks
 
@@ -225,7 +225,7 @@ To create an ordered list, start each line with a number followed by a `.` symbo
 2. Second list item
 3. Third list item
 
-You can create a nested list by indenting one of more list items.
+You can create a nested list by indenting one or more list items.
 
 ```md
 1. First list item
@@ -239,7 +239,7 @@ You can create a nested list by indenting one of more list items.
 2. Second list item
    - Unordered nested list item
 
-You can press `Tab` or `Shift+Tab` to indent or unindent one of more selected list items.
+You can press `Tab` or `Shift+Tab` to indent or unindent one or more selected list items.
 
 ### Task lists
 
@@ -270,7 +270,7 @@ You can toggle a task in Reading view by selecting the checkbox.
 
 ## Horizontal bar
 
-You can use three or more stars `***`, hypens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.
+You can use three or more stars `***`, hyphens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.
 
 ```md
 ***
@@ -300,7 +300,7 @@ This is a simple footnote[^1].
 [^1]: This is the referenced text.
 [^2]: Add 2 spaces at the start of each new line.
   This lets you write footnotes that span multiple lines.
-[^note]: Named footnotes still appears as numbers, but can make it easier to identify and link references.
+[^note]: Named footnotes still appear as numbers, but can make it easier to identify and link references.
 ```
 
 You can also inline footnotes in a sentence. Note that the caret goes outside the brackets.

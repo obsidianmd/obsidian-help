@@ -13,7 +13,7 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 ### Product & Operations
 
 - Silver (Erica Xu)<span class='flair mod-pop'>Team Little Silvers</span>
-- kepano ([Stephan Ango](https://stephanango.com/))
+- kepano ([Steph Ango](https://stephanango.com/))
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))
 
 ## Moderators

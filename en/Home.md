@@ -4,11 +4,13 @@ aliases:
   - Obsidian/Index
 cssclasses:
   - list-cards
+  - hide-title
 ---
+# Obsidian Help
 
-Welcome to the official Obsidian documentation, where you can find tips and guides on how to use [Obsidian](https://obsidian.md).
+Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
 
-You can browse the documentation in any of the following languages:
+You can also browse this site the following languages:
 
 - [Dansk](https://publish.obsidian.md/help-da)
 - [Español](https://publish.obsidian.md/help-es)
@@ -37,17 +39,17 @@ From here, you can build your own custom experience by enabling additional featu
 
 Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 
-Learn more about our services:
+## Add-on services
 
-- [[Introduction to Obsidian Publish|Obsidian Publish]]
-	- For publishing your notes.
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
-	- For syncing your notes across devices.
+	- A safe and secure way to synchronize your notes across any device and OS.
+- [[Introduction to Obsidian Publish|Obsidian Publish]]
+	- Publish your notes as a wiki, knowledge base, documentation, or digital garden.
 
 ## Contribute
 
-If you find any mistakes or missing information, you can contribute fixes to the site at https://github.com/obsidianmd/obsidian-docs/
+If you find any mistakes or missing information on this site, you can contribute improvements and translations via [the GitHub repo](https://github.com/obsidianmd/obsidian-docs/).
 
-If you want to support Obsidian financially, consider getting a [[Catalyst license]].
+If you want to support Obsidian financially, consider a [[Catalyst license]], which offers early access to beta versions of Obsidian.
 
-Check out [[Credits]] to get to know all the amazing people who made Obsidian possible.
+See the [[Credits]] to get to know all the amazing people who made Obsidian possible.

@@ -1,7 +1,6 @@
 ---
 alias: How to/Use hotkeys
 ---
-
 Most hotkeys are customizable in Obsidian.
 
 We only defined default hotkeys for the most commonly used commands, but if you frequently use a command, it would save you lots of time if you add a hotkey for it.

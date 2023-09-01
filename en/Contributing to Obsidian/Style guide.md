@@ -79,6 +79,19 @@ Don't indicate a direction when referring to settings. The location of the setti
 
 - To the right of **Pick remote vault**, click **Choose**.
 
+## Sentence case
+
+Prefer *sentence case* over *title case* for headings, buttons, and titles. When referencing UI elements always match the case of the text in the UI.
+
+**Recommended:**
+
+- How Obsidian stores data
+
+**Not recommended:**
+
+- How Obsidian Stores Data
+
+
 ## Examples
 
 Prefer realistic examples over nonsense terms.

@@ -9,29 +9,13 @@ Tags are keywords or topics that help you quickly find the notes you want.
 
 To create a tag, enter a hashtag symbol (#) in the editor, followed by a keyword. For example, `#meeting`.
 
-You can also add the tag to the [[Properties]]:
-
-```yaml
----
-tag: meeting
----
-```
-
-Or, add several tags:
+You can also add tags using the `tags` [[Properties|property]]. Tags in YAML should always be formatted as a list:
 
 ```yaml
 ---
 tags:
   - recipe
   - cooking
----
-```
-
-You can also add multiple tags on a single line by separating them using commas:
-
-```yaml
----
-tags: recipe, cooking
 ---
 ```
 

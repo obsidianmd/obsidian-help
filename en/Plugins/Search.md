@@ -63,6 +63,23 @@ Some operators even allow you to add a nested search term within parentheses, fo
 | `task-todo:`    | Find matches in an *uncompleted* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                      |
 | `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
 
+## Search properties
+
+You can use data stored in [[Properties]] in your search terms.
+
+Use brackets around a property name `[property]` to return files with that property:
+
+- `[aliases]` returns files that contain the `aliases` property
+  
+Use brackets and a colon `[property:value]` to return files with that property and value:
+
+- `[aliases:Name]` returns files where the `aliases` property value is `Name`
+- `[completed:true]` returns files where the `completed` property value is `true`
+
+Both property and value allow sub-queries, such as parentheses for grouping, the `OR` operator, double-quotes for exact matching, and regex.
+
+- Example: `[status:Draft OR Published]` to find returns files where the `status` property value is `Draft` or `Publishd`
+
 ## Change case sensitivity
 
 By default, search terms are not case sensitive. If you want to search for the exact case of your search term, click **Match case** ("Aa" icon) inside the search bar.

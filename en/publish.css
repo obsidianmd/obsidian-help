@@ -1,3 +1,8 @@
+.theme-dark {
+	--color-base-00:#151515;
+	--color-base-20:#222222;
+}
+
 .site-body-left-column-site-logo {
 	text-align: left;
 	margin-bottom: 24px;
@@ -18,23 +23,39 @@
 	display: none;
 }
 
+.hide-title .page-header {
+	display:none;
+}
+.hide-title.markdown-preview-view div:nth-child(4) h1 {
+	margin-top: 0.25em;
+	font-variant: var(--page-title-variant);
+	letter-spacing: -0.015em;
+	line-height: var(--page-title-line-height);
+	font-size: var(--page-title-size);
+	color: var(--page-title-color);
+	font-weight: var(--page-title-weight);
+	font-style: var(--page-title-style);
+	font-family: var(--page-title-font);
+	border: none;
+}
+
 .list-cards div > ul {
-    --link-color: var(--text-normal);
-    --link-unresolved-color: var(--text-muted);
-    --link-decoration: none;
-    --link-decoration-hover: none;
-    --link-external-color: var(--text-normal);
-    --link-external-decoration: none;
-    --link-external-decoration-hover: none;
-    display: grid;
-    gap: 8px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    padding:0;
+	--link-color: var(--text-normal);
+	--link-unresolved-color: var(--text-muted);
+	--link-decoration: none;
+	--link-decoration-hover: none;
+	--link-external-color: var(--text-normal);
+	--link-external-decoration: none;
+	--link-external-decoration-hover: none;
+	display: grid;
+	gap: 8px;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	padding:0;
 }
 .list-cards div > ul > li {
-    display: flex;
-    border-radius: var(--radius-s);
-    border: 1px solid var(--color-base-25);
+	display: flex;
+	border-radius: var(--radius-s);
+	border: 1px solid var(--color-base-25);
 }
 .list-cards div > ul > li:has(ul) {
 	flex-direction: column;
@@ -44,27 +65,27 @@
 }
 .list-cards div ul > li a {
 	flex-grow: 1;
-    padding: 16px;
-    font-weight: var(--font-semibold);
-    background: none;
+	padding: 16px;
+	font-weight: var(--font-semibold);
+	background: none;
 }
 .list-cards div ul > li:hover {
-    border-color: var(--color-base-35);
+	border-color: var(--color-base-35);
 }
 
 .theme-dark .list-cards div ul > li {
-    background-color: var(--background-secondary);
+	background-color: var(--background-secondary);
 }
 .list-cards div ul ul {
-    display: block;
-    width: 100%;
-    color: var(--text-muted);
-    font-size: var(--font-smaller);
-    margin-top: -8px;
-    padding: 0 16px 16px;
+	display: block;
+	width: 100%;
+	color: var(--text-muted);
+	font-size: var(--font-smaller);
+	margin-top: -8px;
+	padding: 0 16px 16px;
 }
 .list-cards div ul ul > li {
-    display: block;
+	display: block;
 }
 
 /* App icons */

@@ -1,6 +1,6 @@
 Learn how to modify aspects of the Obsidian appearance without needing to [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 
-CSS is a language to describe how to present a HTML document. By adding CSS snippets, you can redefine parts of the Obsidian user interface, such as the size and color of headings.
+CSS is a language to describe how to present a HTML document. By adding CSS snippets, you can redefine parts of the Obsidian user interface, such as the size and color of headings. Obsidian includes [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) that you can use to easily customize parts of the interface.
 
 Obsidian looks for CSS snippets inside the vault configuration folder.
 
