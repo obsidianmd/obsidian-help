@@ -77,13 +77,14 @@ To unpin a pinned tab, right-click the tab and select **Unpin**.
 
 Select a tab to switch to it. Or, use a keyboard shortcut:
 
-- Press `Ctrl+Tab` to switch to the next tab.
-- Press `Ctrl+Shift+Tab` to switch to the previous tab.
-- Press `Ctrl+1` to switch to the first tab on the left.
-- Press `Ctrl` together with any number from `2` to `8` to switch to that tab.
-- Press `Ctrl+9` to open the last tab on the right regardless of how many tabs you have.
-
-To open and switch to a recently closed tab, press `Ctrl+Shift+t` (or `Cmd+Shift+t` on macOS).
+| Switch To                 | MacOS            | Windows/Linux        |
+|---------------------------|------------------|----------------------|
+| **Next tab**              | `⌃`+`⇥`         | `Ctrl`+`Tab`         |
+| **Previous tab**          | `⌃`+`⇧`+`⇥`    | `Ctrl`+`Shift`+`Tab` |
+| **First tab on the left** | `⌘`+`1`          | `Ctrl`+`1`           |
+| **2nd to 8th tab**        | `⌘`+`2`..`8`     | `Ctrl`+`2`..`8`      |
+| **Last tab on the right** | `⌘`+`9`          | `Ctrl`+`9`           |
+| **Recently closed tab**   | `⌘`+`⇧`+`t`     | `Ctrl`+`Shift`+`t`   |
 
 ## Stack tab groups
 
