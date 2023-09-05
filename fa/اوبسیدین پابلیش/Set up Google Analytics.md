@@ -7,7 +7,7 @@
 
 To use Google Analytics for Obsidian, you need:
 
-- A [[Set up a custom domain|custom domain]] for your Obsidian Publish site.
+- A [[راه‌اندازیِ دامنه‌ی دلخواه|custom domain]] for your Obsidian Publish site.
 
 ### Set up Google Analytics
 

@@ -7,7 +7,7 @@ In this guide, you'll create a local vault on another device to sync with your r
 > [!tip] Obsidian URIs
 > If you want Obsidian URIs to work across devices, make sure to give your local vaults the same name on all devices.
 
-## Prerequisites
+## پیش‌نیازها
 
 You need to have [[راه‌اندازیِ اوبسیدین سینک]] on at least one device and have created a remote vault on Obsidian Sync.
 
@@ -42,7 +42,7 @@ This section explains how to sync an existing local vault with a remote vault.
 4. Click **Connect** next to the remote vault you want to connect to. If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding.
 5. In **Encryption password**, enter the password for your vault, if you have one.
 
-## Next steps
+## گام‌های بعدی
 
 Obsidian Sync displays a green checkmark in the bottom-right corner when it has finished syncing the vaults.
 
