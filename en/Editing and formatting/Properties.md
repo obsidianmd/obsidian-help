@@ -63,8 +63,8 @@ You can change how properties are displayed in your note by going to  **Settings
 
 A few features are not supported in Obsidian:
 
-- **Nested properties** — to view nested properties we recommend using the Source display
-- **Bulk editing properties** — this can be achieved community-made tools such as Python scripts
+- **Nested properties** — to view nested properties we recommend using the Source display.
+- **Bulk editing properties** — this can be achieved community-made tools such as Python scripts.
 - **Markdown in properties** — this is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
 
 ## Hotkeys
