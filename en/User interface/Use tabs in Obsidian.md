@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
 - Stacked tabs
 - Linked pane
 - Pane layout

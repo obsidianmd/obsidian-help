@@ -1,5 +1,5 @@
 ---
-alias: [Tag pane]
+aliases: [Tag pane]
 ---
 
 Tags lists all tags within your vault along with how many notes that contain them.

@@ -1,5 +1,5 @@
 ---
-alias: Advanced topics/How Obsidian stores data
+aliases: Advanced topics/How Obsidian stores data
 ---
 
 Obsidian stores your notes as [[Basic formatting syntax|Markdown-formatted]] plain text files in a _vault_. A vault is a folder on your local file system, including any subfolders.
