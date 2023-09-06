@@ -1,15 +1,15 @@
 [Google Analytics](https://analytics.google.com) is a service that allows you to track traffic on your website. This page explains how to enable Google Analytics for your [[مقدمه‌ای بر اوبسیدین پابلیش|Obsidian Publish]] site.
 
-> [!important]
+> [!important] مهم
 > Before you enable Google Analytics, make sure that your local laws and regulations allow you to track your visitors.
 
-## Prerequisites
+## پیش‌نیازها
 
 To use Google Analytics for Obsidian, you need:
 
 - A [[راه‌اندازیِ دامنه‌ی دلخواه|custom domain]] for your Obsidian Publish site.
 
-### Set up Google Analytics
+### راه‌اندازیِ Google Analytics
 
 To enable Google Analytics for your Obsidian Publish site:
 
@@ -17,7 +17,7 @@ To enable Google Analytics for your Obsidian Publish site:
 2. In the **Publish changes** dialog, click **Change site options** (cog icon).
 3. In **Google Analytics tracking code**, enter your tracking code.
 
-## Troubleshooting
+## عیب‌یابی
 
 - To verify that your site uses Google Analytics, disable any ad-blocking browser extensions, such as uBlock Origin, that may block the tracking script from running.
 
