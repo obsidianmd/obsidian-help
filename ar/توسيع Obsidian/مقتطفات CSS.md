@@ -4,7 +4,7 @@ permalink: extending-obsidian/css-snippets
 
 تعلم كيفية تعديل ملامح مظهر Obsidian بدون الحاجة إلى [بناء سمة](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 
-CSS هي لغة تصف كيفية عرض مستند HTML.من خلال إضافة مقتطفات CSS، يمكنك إعادة تعريف أجزاء من واجهة مستخدم Obsidian، مثل حجم ولون العناوين.
+CSS هي لغة تصف كيفية عرض مستند HTML.من خلال إضافة مقتطفات CSS، يمكنك إعادة تعريف أجزاء من واجهة مستخدم Obsidian، مثل حجم ولون العناوين. يتضمن Obsidian [متغيرات CSS](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) يمكنك استخدامها لتخصيص أجزاء من واجهة المستخدم بسهولة.
 
 يبحث Obsidian عن مقتطفات CSS داخل مجلد تكوين القبو.
 
