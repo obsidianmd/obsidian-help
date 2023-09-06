@@ -12,7 +12,7 @@ In the meantime, you can [Convert OneNote to Markdown](https://github.com/theohb
 
 You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
-Depending on the tool you used, the export may be in Markdown format or HTML format. Follow the instructions based on the file format you exported to: 
+Depending on the tool you used, the export may be in Markdown format or HTML format. Follow the instructions below based on the file format you exported to: 
 
 - [[Import HTML files]]
 - [[Import Markdown files]]
