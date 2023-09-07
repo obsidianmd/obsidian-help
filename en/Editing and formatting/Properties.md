@@ -13,18 +13,18 @@ There are several ways to add a property to a note:
 
 - Use the **Add file property** [[Command palette|command]].
 - Use the **`Cmd/Ctrl+;`** [[Custom hotkeys|hotkey]].
-- Choose **Add file property** from the **More actions** menu (three dots icon) or right-clicking the tab.
+- Choose **Add file property** from the **More actions** menu (brought up by the three dots icon or by right-clicking the tab).
 - Type `---` at the very beginning of a file.
 
 Once you add a property, a row will appear at the top of the file with two inputs: the property _name_ and the property _value_.
 
 For the name, you can choose anything you like. Note that Obsidian provides several default properties: `tags`, `cssclasses`, and `aliases`.
 
-Once you choose the property name you can give it a value.
+Once you choose the property name, you can give it a value.
 
 ### Property types
 
-In addition to a name and value, properties also have a type. A _property type_ describes the kind of values can be stored. To change the type of a property click the property's icon or use the **Edit file property** command.
+In addition to a name and value, properties also have a type. A _property type_ describes the kind of values can be stored. To change the type of a property, click the property's icon or use the **Edit file property** command.
 
 Obsidian supports the following property types:
 
@@ -64,7 +64,7 @@ You can change how properties are displayed in your note by going to  **Settings
 A few features are not supported in Obsidian:
 
 - **Nested properties** — to view nested properties we recommend using the Source display.
-- **Bulk editing properties** — this can be achieved community-made tools such as Python scripts.
+- **Bulk editing properties** — this can be achieved with community-made tools such as Python scripts.
 - **Markdown in properties** — this is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
 
 ## Hotkeys
@@ -144,19 +144,43 @@ cast:
 ---
 ```
 
-> [!tip] JSON properties
-> While we recommend using YAML to define properties, you can also define properties using [JSON](https://www.json.org/):
->
-> ```md
-> ---
-> {
->   "tags": "journal",
->   "publish": false
-> }
-> ---
-> ```
->
-> Note that the JSON block will be read, interpreted, and saved as YAML.
+Internal links in **Text** and **List** type properties must be surrounded with quotes. Obsidian will automatically add these if you manually enter internal links into properties, but be careful to add them when using templating plugins.
+
+```yaml
+---
+link: "[[Link]]" 
+linklist: 
+  - "[[Link]]" 
+  - "[[Link2]]"
+---
+```
+
+**Date** and **Date & Time** type properties follow your OS's default date and time format. Change it to what you prefer here: 
+
+> [!info]- Windows OS
+> **Settings → Time & Language → Language & Region → Regional Format → Change Formats**
+> 
+> ![[Windows OS DateTime.png]]
+
+> [!info]- Mac OS
+> **System Preferences → Language and Region → Date format**
+> 
+> ![[Mac OS DateTime.png|450]]
+
+### JSON Properties
+
+While we recommend using YAML to define properties, you can also define properties using [JSON](https://www.json.org/):
+
+```json
+---
+{
+  "tags": "journal",
+  "publish": false
+}
+---
+```
+
+Note that the JSON block will be read, interpreted, and saved as YAML.
 
 ## Default properties
 
@@ -170,7 +194,7 @@ Obsidian comes with a set of default properties:
 
 ### Deprecated properties
 
-These properties are deprecated in 1.4. Please do not use them any more:
+These properties are deprecated in 1.4. Please do not use them anymore:
 
 | Property | Description |
 |-|-|
