@@ -155,9 +155,9 @@ linklist:
 ---
 ```
 
-**Date** and **Date & Time** type properties follow your OS's default date and time format. Change it to what you prefer here: 
+**Date** and **Date & time** type properties follow your OS's default date and time format. Change it to what you prefer here: 
 
-> [!info]- Windows OS
+> [!info]- Windows
 > **Settings → Time & Language → Language & Region → Regional Format → Change Formats**
 > 
 > ![[Windows OS DateTime.png]]
