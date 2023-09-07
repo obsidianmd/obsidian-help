@@ -1,5 +1,5 @@
 ---
-alias: How to/Embedding web pages
+aliases: How to/Embedding web pages
 ---
 
 Learn how to use the [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) HTML element to embed web pages in your notes.

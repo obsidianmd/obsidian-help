@@ -1,3 +1,7 @@
+---
+aliases:
+  - Advanced Markdown
+---
 Learn how to add advanced formatting syntax to your notes.
 
 ## Tables
