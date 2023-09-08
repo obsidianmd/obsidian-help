@@ -155,7 +155,16 @@ linklist:
 ---
 ```
 
-**Date** and **Date & time** type properties follow your OS's default date and time format. Change it to what you prefer here: 
+**Date** and **Date & time** type properties are stored in the following format:
+
+```yaml
+---
+date: 2020-08-21
+time: 2023-08-21T10:30:00
+---
+```
+
+The date picker follows your operating system's default date and time format. You can change it in your system preferences: 
 
 > [!info]- Windows
 > **Settings → Time & Language → Language & Region → Regional Format → Change Formats**
