@@ -2,7 +2,7 @@
 permalink: import/roam
 ---
 
-يتيح لك Obsidian نقل ملاحظاتك بسهولة من Roam Research باستخدام مكوّن [[المستورد]] الإضافي.
+يتيح لك Obsidian ترحيل ملاحظاتك بسهولة من Roam Research باستخدام مكوّن [[المستورد]] الإضافي.
 
 ## تصدير بياناتك من Roam Research
 
