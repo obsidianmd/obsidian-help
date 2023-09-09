@@ -25,24 +25,24 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 
 ## Troubleshooting
 
-We try to make the importing experience as smooth as possible, but sometimes, you may hit some issues. This section will help you with the most common issues.
+### No sections or notebooks appear
 
-### No sections or Notebooks appear
-First, make sure that the Notebooks you're trying to import are synced to OneDrive and visible in OneNote Web. They must be owned by you (shared Notebooks written by others are unsupported).
+Make sure that the notebooks you're trying to import are synced to OneDrive and visible in OneNote Web. They must be owned by you (shared notebooks written by others are unsupported).
 
-If a specific section is missing, make sure it's not a locked section – those are invisible without removing the lock first.
+If a specific section is missing, make sure it's not a locked section — those are invisible without removing the lock first.
 
 ### Imported notes are empty or missing content
-This issue may appear on some rarely used notebooks.
 
-1. Open **[OneNote Web](https://onenote.com/notebooks)** in your browser.
+This issue may occur on notebooks that you rarely use. To solve the issue follow these steps:
+
+1. Open [OneNote Web](https://onenote.com/notebooks) in your browser.
 2. **Right click** on the Notebooks which are missing content.
-3. Select **"Export Notebook"** from the menu.
+3. Select **Export Notebook** from the menu.
 4. **Unzip** the file you've just downloaded into a folder.
-5. Upload your OneNote notebooks **[here](https://www.onenote.com/notebooks/exportimport?toImport=true)**.
-6. Reopen **Obsidian Importer** and try importing again
+5. Upload your OneNote notebooks [here](https://www.onenote.com/notebooks/exportimport?toImport=true).
+6. Open **Obsidian Importer** and try importing again
 
-If you've followed these tips and your issue remains unresolved, it's possible that there is a temporary problem with Microsoft servers. In such cases, please wait a few minutes and try again. If the issue persists even after some time has passed, please open an **issue in the [Obsidian Importer GitHub repository](https://github.com/obsidianmd/obsidian-importer/issues)**.
+If you've followed these tips and your issue remains unresolved, it's possible that there is a temporary problem with Microsoft servers. If that's the case, wait a few minutes and try again. If the problem persists, please open an issue on the [Obsidian Importer GitHub repository](https://github.com/obsidianmd/obsidian-importer/issues).
 
 ## Privacy
 
