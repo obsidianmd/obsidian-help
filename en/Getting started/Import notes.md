@@ -33,5 +33,7 @@ Additional guides have been shared by our community that may help you migrate to
 - [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)
-- [TheBrain](https://forum.obsidian.md/t/export-thebrain-to-obsidian-a-small-script/6641)
+- [TheBrain](https://github.com/obsidianmd/obsidian-importer/issues/97)
+- [Ulysses](https://github.com/obsidianmd/obsidian-importer/issues/18)
+- [Zim](https://github.com/obsidianmd/obsidian-importer/issues/39)
 - [zkn3](https://forum.obsidian.md/t/migrating-from-zkn3-to-obsidian-without-losing-your-tags-and-internal-links-documentation/7457)
