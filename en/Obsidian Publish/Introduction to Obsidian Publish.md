@@ -6,7 +6,7 @@ aliases: [Obsidian Publish]
 
 Select the notes you want to share with the world, press **Publish**, and we'll host it at `publish.obsidian.md/your-site`
 
-If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're already looking at a site that uses Obsidian Publish. You can see the vault on [GitHub](https://github.com/obsidianmd/obsidian-docs).
+If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're already looking at a site that uses Obsidian Publish! You can see the vault on [GitHub](https://github.com/obsidianmd/obsidian-docs).
 
 ## Learn more
 
