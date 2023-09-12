@@ -4,7 +4,7 @@ A site is a collection of notes that's hosted by Obsidian Publish and available 
 
 ## Create a new site
 
-**Note:** The number of sites that you can have at the same time is determined by your Obsidian Publish subscription. Before you create a new site, make sure that your subscription allows it.
+> [!note] The number of sites that you can have at the same time is determined by your Obsidian Publish subscription. Before you create a new site, make sure that your subscription allows it.
 
 1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
 2. If you already have an existing site, click **Switch site** (arrows icon).
@@ -13,7 +13,7 @@ A site is a collection of notes that's hosted by Obsidian Publish and available 
 
 ## Delete an existing site
 
-**Note:** Notes remain in your vault even after you delete a site.
+> [!note] Notes remain in your vault even after you delete a site.
 
 1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
 2. Click **Switch site** (arrows icon).
@@ -88,5 +88,3 @@ A site is a collection of notes that's hosted by Obsidian Publish and available 
 | ------------------------------ | ------ | ------------------------------------------------------ |
 | Passwords                      | Button | [[Obsidian Publish/Security and privacy#Add a site password\|Set a password]] to restrict access to your entire site. |
 | Google Analytics tracking code | Input  | **Custom Domain Url Only**. Place your Google Analytics site tracking code here.                                                       |
-
-> [!info] 
