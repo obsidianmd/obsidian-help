@@ -4,7 +4,7 @@ Only the notes you choose to publish are sent to Obsidian's servers, and any not
 
 ## Add a site password
 
-**Caution:** If you add a site password, your site is no longer publicly available. Instead, readers see a password prompt when they access your site.
+**Caution:** If you add a site password, your site is no longer publicly available. Instead, readers see a password prompt when they access your site. Notes cannot be password protected individually.
 
 1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
 2. In the **Publish changes** dialog, click **Change site options** (cog icon).

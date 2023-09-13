@@ -1,5 +1,5 @@
 ---
-alias: How to/Use hotkeys
+aliases: How to/Use hotkeys
 ---
 Most hotkeys are customizable in Obsidian.
 

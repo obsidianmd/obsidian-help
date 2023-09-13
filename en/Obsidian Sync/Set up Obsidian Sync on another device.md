@@ -1,5 +1,5 @@
 ---
-alias: Add another device
+aliases: Add another device
 ---
 
 In this guide, you'll create a local vault on another device to sync with your remote vault. This keeps the local vaults on all your devices in sync.

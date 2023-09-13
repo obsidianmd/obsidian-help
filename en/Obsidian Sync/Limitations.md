@@ -26,6 +26,10 @@ We keep data in your remote vaults, including version history, for one month aft
 
 As long as you renew within one month, there should be no impact on your usage. If you renew after a month, when your remote vaults have been removed, you can [[Set up Obsidian Sync|create a new remote vault re-connect your local vault]].
 
+### Do you keep my data if I refund my subscription service?
+
+No. The data is deleted immediately. 
+
 ## Is my data being synced in the background?
 
 No, files are only synced when Obsidian is running.

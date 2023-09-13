@@ -1,5 +1,5 @@
 ---
-alias: Using Obsidian URI
+aliases: Using Obsidian URI
 ---
 Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note.
 
