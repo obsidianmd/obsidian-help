@@ -1,3 +1,8 @@
+---
+aliases:
+  - Access control for Obsidian Publish
+  - Security/privacy for Obsidian Publish
+---
 You choose which notes you want to publish to [[Introduction to Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
 
 Only the notes you choose to publish are sent to Obsidian's servers, and any notes you unpublish are removed.
@@ -22,3 +27,14 @@ Only the notes you choose to publish are sent to Obsidian's servers, and any not
 2. In the **Publish changes** dialog, click **Change site options** (cog icon).
 3. Under **Other site settings**, next to **Passwords**, click **Manage**.
 5. Click the cross icon next to the password you want to delete.
+
+## Managing access to Obsidian Publish on your network
+
+To regulate access to Obsidian Publish on your network, you need to manage the following domains:
+
+- Frontend: `publish.obsidian.md`
+- Backend: `publish-main.obsidian.md`
+
+Additionally, the backend services employ the following subdomains: `publish-xx.obsidian.md`, where `xx` is a number ranging from `1 - 100`.
+
+> [!tip] If your firewall system supports it, we recommend whitelisting `publish-*.obsidian.md` to accommodate our continuous expansion of subdomains.
