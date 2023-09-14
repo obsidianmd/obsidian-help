@@ -1,5 +1,5 @@
 ---
-alias: How to/Read and edit modes
+aliases: How to/Read and edit modes
 ---
 
 Obsidian lets you customize how to edit and preview notes with Markdown syntax using _editor views_ and _editor modes_.

@@ -1,5 +1,5 @@
 ---
-alias: How to/Update Obsidian
+aliases: How to/Update Obsidian
 ---
 
 Obsidian checks for new updates regularly. When a new update is available, Obsidian applies it when you restart the application.

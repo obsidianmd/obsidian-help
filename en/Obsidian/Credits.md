@@ -65,7 +65,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 
 The first version of the help vault was written by Silver. Later part of it was written by [@mediapathic](http://mediapathic.net), with a big help from Reggie. We also got corrections from the many pairs of eyes in the Discord and forum community.
 
-The docs are currently maintained by [Marcus Olsson](https://marcus.se.net/).
+The docs was maintained by [Marcus Olsson](https://marcus.se.net/) for a while. Currently it’s maintained by the Obsidian team.
 
 We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/).
 

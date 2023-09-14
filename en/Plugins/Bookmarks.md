@@ -1,5 +1,5 @@
 ---
-alias: Plugins/Starred
+aliases: Plugins/Starred
 ---
 
 Bookmarks let you quickly access items that you use often. A bookmark is a "shortcut" that immediately takes you the bookmarked item.

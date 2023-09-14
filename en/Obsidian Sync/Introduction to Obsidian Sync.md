@@ -1,5 +1,5 @@
 ---
-alias: [Obsidian Sync]
+aliases: [Obsidian Sync]
 ---
 
 [Obsidian Sync](https://obsidian.md/sync) is a cloud-based service that lets you store your notes on Obsidian's servers and sync them across your devices.
