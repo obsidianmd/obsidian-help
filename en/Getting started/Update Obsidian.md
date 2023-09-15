@@ -25,7 +25,7 @@ If you prefer to update Obsidian manually, you can disable automatic updates.
 
 ## Installer updates
 
-Occasionally, our release notes will indicate that a manual installer update is required, and include a link to our website. These updates address the scaffolding of Obsidian, and cannot be handled within the automatic update process. 
+Occasionally, Obsidian [release notes](https://obsidian.md/changelog/) will indicate that a manual installer update is required, and include a link to our website. These updates address the scaffolding of Obsidian, and cannot be handled within the automatic update process. 
 
 > [!tip] 
 > You **do not** need to uninstall Obsidian to update the installer version.
