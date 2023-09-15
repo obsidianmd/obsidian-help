@@ -16,7 +16,7 @@ permalink: obsidian-sync/set-up-obsidian-sync
 
 1. افتح **Settings**.
 2. في الشريط الجانبي، انقر **About**.
-3. ضمن **Account > Your Account**، انقر **Log in**.
+3. ضمن **Account → Your Account**، انقر **Log in**.
 4. في **Email**، أدخل بريدك الإلكتروني.
 5. في **Password**، أدخل كلمة المرور الخاص بك.
 6. انقر **Login**.

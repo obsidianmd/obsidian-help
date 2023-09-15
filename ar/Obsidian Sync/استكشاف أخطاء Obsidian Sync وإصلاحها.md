@@ -13,7 +13,7 @@ permalink: obsidian-sync/troubleshoot-obsidian-sync
 عندما يقوم Sync بتنزيل نسخة جديدة من ملف، ويجد أن هناك نزاعات مع النسخة المحلية، يتم دمج التغييرات باستخدام خوارزمية diff-match-patch التابعة لـ Google.
 
 > [!تلميح]
-> للبحث عن النزاعات التي حدثت، يمكنك البحث عن "Merging conflicted file" في **Settings > Sync > Sync activity > View**.
+> للبحث عن النزاعات التي حدثت، يمكنك البحث عن "Merging conflicted file" في **Settings → Sync → Sync activity → View**.
 
 # حذف Obsidian Sync ملاحظة أنشأتها للتو على جهازين
 
@@ -29,5 +29,5 @@ permalink: obsidian-sync/troubleshoot-obsidian-sync
 
 لتحديد وتطهير الملفات الكبيرة من القبو:
 
-1. افتح **Settings > Sync**.
+1. افتح **Settings → Sync**.
 2. استكشف الخيارات ضمن **Vault size over limit** لكيفية تقليل حجم القبو.

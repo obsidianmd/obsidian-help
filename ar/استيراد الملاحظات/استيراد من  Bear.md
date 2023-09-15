@@ -10,7 +10,7 @@ permalink: import/bear
 
 1. افتح Bear.
 2. أنشئ نسخة احتياطية
-   1. على <span dir="ltr">macOS</span>: **File** > **Backup notes**
+   1. على <span dir="ltr">macOS</span>: **File** → **Backup notes**
    2. على iOS: انقر فوق قائمة المزيد (⋮) في أعلى الشريط الجانبي وحدد **Backup all notes**.
 3. اختر موقعًا لملف النسخ الاحتياطي.
 4. انقر على **Export notes**.

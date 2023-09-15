@@ -9,7 +9,7 @@ permalink: licenses-and-payment/obsidian-credit
 ## إضافة رصيد
 
 1. تسجيل الدخول إلى حسابك على [صفحة الحساب الخاصة بنا](https://obsidian.md/account).
-2. ضمن **Payment & billing** > **Obsidian Credit**، انقر **Add**.
+2. ضمن **Payment & billing** → **Obsidian Credit**، انقر **Add**.
 3. أدخل مبلغ رصيد Obsidian الذي تريد شرائه. المبلغ بالدولار الأمريكي.
 4. تابع للدفع بأي من وسائل الدفع المدعومة.
 

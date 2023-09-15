@@ -8,7 +8,7 @@ permalink: getting-started/update-obsidian
 
 ## التحقق من توفر تحديث والإصدار الحالي
 
-افتح **Settings > About**.
+افتح **Settings → About**.
 
 يمكنك العثور على إصدار Obsidian الحالي وإصدار المثبت في الزاوية اليسرى العلوية.
 
@@ -18,7 +18,7 @@ permalink: getting-started/update-obsidian
 
 إذا كنت تفضل تحديث Obsidian يدوياً، يمكنك تعطيل التحديثات التلقائية.
 
-1. افتح **Settings > About**.
+1. افتح **Settings → About**.
 2. قم بتعطيل **Automatic updates**.
 
 ## استكشاف الأخطاء وإصلاحها
