@@ -2,7 +2,7 @@
 permalink: import/evernote
 ---
 
-يتيح لك Obsidian ترحيل ملاحظاتك من Evernote بسهولة باستخدام مكوّن [[المستورد]] الإضافي.
+يتيح لك Obsidian ترحيل ملاحظاتك بسهولة من Evernote باستخدام مكوّن [[المستورد]] الإضافي.
 
 ## قم بتصدير بياناتك من Evernote
 
@@ -15,7 +15,7 @@ permalink: import/evernote
 3. حدد **ENEX** كتنسيق للملف.
 4. اختر موقعًا لملف `.enex` الذي تم تصدير.
 
-## استورد بيانات Evernote إلى Obsidian
+## استورد بياناتك من Evernote إلى Obsidian
 
 ستحتاج إلى مكوّن [[المستورد]] الإضافي الرسمي لـ Obsidian، والذي يمكنك [تثبيته من هنا](obsidian://show-plugin?id=obsidian-importer).
 
