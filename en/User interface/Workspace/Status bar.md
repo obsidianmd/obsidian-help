@@ -1,4 +1,4 @@
-The status bar shows handy information. That include helpful information about the current file, the current vault, or the current status like time and date.
+The status bar shows handy information. That includes helpful information about the current file, the current vault, or the current status like time and date.
 
 Status items are added both by [[Core plugins|core plugins]] and [[Community plugins]].
 
