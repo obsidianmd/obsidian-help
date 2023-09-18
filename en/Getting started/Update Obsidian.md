@@ -1,5 +1,7 @@
 ---
-aliases: How to/Update Obsidian
+aliases:
+  - How to/Update Obsidian
+  - Installer version update
 ---
 
 Obsidian checks for new updates regularly. When a new update is available, Obsidian applies it when you restart the application.
@@ -10,6 +12,8 @@ Open **Settings → About**.
 
 You can find the current Obsidian version and installer version in the upper-left corner.
 
+![[application-installer-current-version.png]]
+
 To apply any available updates, click **Relaunch**.
 
 ## Disable automatic updates
@@ -18,6 +22,29 @@ If you prefer to update Obsidian manually, you can disable automatic updates.
 
 1. Open **Settings → About**.
 2. Disable **Automatic updates**.
+
+## Installer updates
+
+Occasionally, Obsidian [release notes](https://obsidian.md/changelog/) will indicate that a manual installer update is required, and include a link to our website. These updates address the scaffolding of Obsidian, and cannot be handled within the automatic update process. 
+
+> [!tip] 
+> You **do not** need to uninstall Obsidian to update the installer version.
+
+To update Obsidian when an installer update is required:
+
+1. Navigate to [https://obsidian.md/download](https://obsidian.md/download "https://obsidian.md/download").
+2. Download the installer onto your system.
+	1. If Obsidian is open, completely close it.
+3. Run the installation process as directed in [[Download and install Obsidian]].
+
+Your installer update is now complete. You may now re-open Obsidian.
+
+> [!Question]- Q1. A plugin author or theme developer is asking me to update my installer, but the Obsidian team has not. Why?
+> This is very common when we have internal library updates within the installer that do not need a minimum application version update, which would force everyone to update. 
+> 
+> For example, if you were using a PDF annotation plugin, and we updated the `pdf.js` library within Obsidian, the plugin author would want to take advantage of updates of that library. 
+>
+> Similarly, updated CSS capability would prompt a theme developer to require an installer update, so you can have the benefit of some new options that allow more styling features. 
 
 ## Troubleshooting
 

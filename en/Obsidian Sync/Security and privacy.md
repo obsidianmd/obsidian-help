@@ -1,3 +1,9 @@
+---
+aliases:
+  - Security/privacy for Obsidian Sync
+  - Access control for Obsidian Sync
+---
+
 For your safety, [[Introduction to Obsidian Sync|Obsidian Sync]] encrypts your [[Local and remote vaults|remote vault]] and all communication with Obsidian's servers. Before anyone can access your remote vault, they first need to decrypt it with an _encryption password_.
 
 When you create a new remote vault, you have two options:
@@ -44,3 +50,13 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 ## Where do you host the servers for Obsidian Sync?
 
 We use DigitalOcean's data centers, which are located in the US.
+
+## Managing access to Obsidian Sync on your network
+
+To regulate access to Obsidian Sync on your network, you need to manage the following domains:
+
+`sync-xx.obsidian.md`
+
+The `xx` in this case represents a number ranging from `1 - 100`.
+
+> [!tip] If your firewall system supports it, we recommend whitelisting `sync-*.obsidian.md` to account for the continuous growth in subdomain numbers.
