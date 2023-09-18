@@ -78,7 +78,7 @@ Use brackets and a colon `[property:value]` to return files with that property a
 
 Both property and value allow sub-queries, such as parentheses for grouping, the `OR` operator, double-quotes for exact matching, and regex.
 
-- Example: `[status:Draft OR Published]` to find returns files where the `status` property value is `Draft` or `Publishd`
+- Example: `[status:Draft OR Published]` to find returns files where the `status` property value is `Draft` or `Published`
 
 ## Change case sensitivity
 

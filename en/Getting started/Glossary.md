@@ -97,7 +97,7 @@ A **theme** changes the appearance of the Obsidian app using [CSS](https://devel
 
 ## vault
 
-A **vault** is a folder on your file system with contains [[#note|notes]] and an `.obsidian` folder with Obsidian-specific configuration. See also [[How Obsidian stores data]].
+A **vault** is a folder on your file system which contains [[#note|notes]] and an `.obsidian` folder with Obsidian-specific configuration. See also [[How Obsidian stores data]].
 
 ## view
 
