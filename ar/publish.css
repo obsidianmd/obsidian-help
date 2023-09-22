@@ -3,17 +3,41 @@ html {
 }
 
 body {
+	--embed-border-left: none;
+	--embed-border-right: 2px solid var(--interactive-accent);
+	--embed-padding: 0 var(--size-4-6) 0 0;
+
 	--link-decoration: initial;
 	--link-external-decoration: initial;
 }
 
-pre {
+pre,
+.ltr .page-header,
+.ltr h1,
+.ltr h2,
+.ltr h3,
+.ltr h4,
+.ltr p,
+.ltr ul,
+.ltr ol,
+.ltr .callout {
 	direction: ltr;
+}
+
+pre[class*="language-md"] code {
+	direction: rtl;
+	text-align: right;
 }
 
 .theme-dark {
 	--color-base-00: #151515;
 	--color-base-20: #222222;
+}
+
+.markdown-embed-link,
+.file-embed-link {
+	left: 4px;
+	right: initial;
 }
 
 .site-body-left-column {
@@ -126,7 +150,7 @@ pre {
 	margin: 0 0 0 0.6em;
 }
 
-.external-link {
+.external-link:not(.ltr .external-link) {
 	background-position: center left;
 	padding: 0 0 0 16px;
 }
@@ -143,14 +167,14 @@ a.footnote-backref.footnote-link {
 	padding: 0 var(--size-4-6) 0 0;
 }
 
-.callout {
+.callout:not(.ltr .callout) {
 	padding: var(--size-4-3) var(--size-4-6) var(--size-4-3) var(--size-4-3);
 }
-.callout-fold.is-collapsed .svg-icon {
+.callout-fold.is-collapsed .svg-icon:not(.ltr .svg-icon) {
 	transform: rotate(90deg);
 }
 
-.callout-fold {
+.callout-fold:not(.ltr .callout-fold) {
 	padding-right: 0;
 	padding-left: var(--size-4-2);
 }
@@ -269,6 +293,10 @@ a.footnote-backref.footnote-link {
 .site-header-logo img {
 	margin-right: initial;
 	margin-left: 10px;
+}
+
+img {
+	border-radius: var(--radius-s);
 }
 
 .site-body-left-column-site-logo {
@@ -475,15 +503,18 @@ a.footnote-backref.footnote-link {
 	filter: invert(1);
 }
 
-/* Extras */
-pre code.language-rtl {
-	direction: rtl;
-	text-align: right;
-}
-pre code.language-align-right {
-	text-align: right;
+/* Dynamic direction */
+.dyn-dir p {
+	text-align: start;
+	unicode-bidi: plaintext;
 }
 
+/* Arabic callouts */
+.callout[data-callout="ملخص"],
+.callout[data-callout="الخلاصة"] {
+	--callout-color: var(--callout-summary);
+	--callout-icon: lucide-clipboard-list;
+}
 .callout[data-callout="هام"] {
 	--callout-color: var(--callout-important);
 	--callout-icon: lucide-flame;
@@ -492,13 +523,26 @@ pre code.language-align-right {
 	--callout-color: var(--callout-tip);
 	--callout-icon: lucide-flame;
 }
+.callout[data-callout="نجاح"] {
+	--callout-color: var(--callout-success);
+	--callout-icon: lucide-check;
+}
 .callout[data-callout="تحذير"] {
 	--callout-color: var(--callout-warning);
 	--callout-icon: lucide-alert-triangle;
 }
+.callout[data-callout="فشل"] {
+	--callout-color: var(--callout-fail);
+	--callout-icon: lucide-x;
+}
 .callout[data-callout="معلومة"] {
 	--callout-color: var(--callout-info);
 	--callout-icon: lucide-info;
+}
+.ltr .callout[data-callout="معلومة"] {
+	direction: rtl !important;
+	padding-right: var(--size-4-6);
+	padding-left: var(--size-4-3);
 }
 .callout[data-callout="مهام"] {
 	--callout-color: var(--callout-todo);
@@ -512,7 +556,15 @@ pre code.language-align-right {
 	--callout-color: var(--callout-error);
 	--callout-icon: lucide-zap;
 }
-.callout[data-callout="ملخص"] {
-	--callout-color: var(--callout-summary);
-	--callout-icon: lucide-clipboard-list;
+.callout[data-callout="خلل"] {
+	--callout-color: var(--callout-bug);
+	--callout-icon: lucide-bug;
+}
+.callout[data-callout="مثال"] {
+	--callout-color: var(--callout-example);
+	--callout-icon: lucide-list;
+}
+.callout[data-callout="اقتباس"] {
+	--callout-color: var(--callout-quote);
+	--callout-icon: quote-glyph;
 }

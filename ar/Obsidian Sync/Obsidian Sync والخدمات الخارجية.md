@@ -26,7 +26,7 @@ permalink: obsidian-sync/obsidian-sync-and-third-party-services
 > > إذا كنت ترغب في نقل القبو بين محركات أقراص مختلفة:
 > >
 > > 1. أغلق تطبيق Obsidian.
-> > 2. انتقل إلى iCloud Drive > Obsidian في Finder.
+> > 2. انتقل إلى **iCloud Drive → Obsidian** في Finder.
 > > 3. اسحب مجلد القبو إلى مجلد آخر لا يتم مزامنته مع iCloud.
 > > 4. افتح تطبيق Obsidian.
 > > 5. في محول القبو، حدد **Open folder as vault** وحدد المجلد الذي يحتوي على القبو.
@@ -36,10 +36,10 @@ permalink: obsidian-sync/obsidian-sync-and-third-party-services
 > > 1. أنشئ نسخة احتياطية من القبو.
 > > 2. أنشئ قبوًا جديدًا مع تعطيل **Save in iCloud Drive**. هذا يضمن وجود مجلد حاوية التطبيق. ستقوم بحذف هذا القبو عندما تنتهي.
 > > 3. قم بإغلاق تطبيق Obsidian على جميع الأجهزة لمنع Sync من تعديل القبو أثناء نقل الملفات.
-> > 4. افتح تطبيق Files على جهاز iOS وانتقل إلى iCloud Drive > Obsidian.
-> > 5. اضغط باستمر على مجلد القبو، ثم حدد **Move**.
-> > 6. انتقل إلى **On My iPhone** > **Obsidian**، ثم اضغط **Copy**.
-> > 7. بمجرد نسخ القبو، في حين لا يزال في تطبيق Files، انتقل مرة أخرى إلى **iCloud Drive** > **Obsidian**، ثم احذف مجلد القبو هناك.
+> > 4. افتح تطبيق Files على جهاز iOS وانتقل إلى **iCloud Drive → Obsidian**.
+> > 5. اضغط باستمرار على مجلد القبو، ثم حدد **Move**.
+> > 6. انتقل إلى **iCloud Drive → Obsidian**، ثم اضغط **Copy**.
+> > 7. بمجرد نسخ القبو، في حين لا يزال في تطبيق Files، انتقل مرة أخرى إلى **iCloud Drive → Obsidian**، ثم احذف مجلد القبو هناك.
 > > 8. افتح تطبيق Obsidian.
 
 في محول القبو، يحتوي القبو الآن على أيقونة قبو بدلاً من سحابة للإشارة إلى أنه لم يعد متزامنًا مع iCloud Drive.
@@ -66,7 +66,7 @@ permalink: obsidian-sync/obsidian-sync-and-third-party-services
 6. في الزاوية السفلى اليسرى، حدد **Open another vault** (أيقونة قبو).
 7. حدد **Open folder as vault**.
 8. انتقل إلى موقع القبو الجديد واختر مجلد القبو.
-9. تحقق وتأكد من أن القبو يبدو نفسه. قد تحتاج إلى إعادة تمكين مكوّنات إضافية مجتمعية ضمن **Settings > Community Plugins > Turn restricted mode off**.
+9. تحقق وتأكد من أن القبو يبدو نفسه. قد تحتاج إلى إعادة تمكين مكوّنات إضافية مجتمعية ضمن **Settings → Community Plugins → Turn restricted mode off**.
 10. قم بإعداد Obsidian Sync مرة أخرى.
 
 ### iOS
@@ -75,10 +75,10 @@ permalink: obsidian-sync/obsidian-sync-and-third-party-services
 2. على جهازك، قم بإنشاء قبو جديد وقم بتعطيل **Save in iCloud Drive**.
 3. قم بإجبار إغلاق تطبيق Obsidian على جميع أجهزتك لمنع Sync من أداء أي عمليات أثناء نقل الملفات.
 4. على جهاز iOS الخاص بك، افتح تطبيق Files.
-5. ضمن **iCloud Drive > Obsidian**, قم بالضغط لفترة طويلة على مجلد القبو، ثم حدد **Move**.
-6. انتقل إلى **On My iPhone > Obsidian**. تأكد من رؤية القبو الذي قمت بإنشائه مسبقًا.
+5. ضمن **iCloud Drive → Obsidian**, قم بالضغط لفترة طويلة على مجلد القبو، ثم حدد **Move**.
+6. انتقل إلى **On My iPhone → Obsidian**. تأكد من رؤية القبو الذي قمت بإنشائه مسبقًا.
 7. اضغط **Copy**.
-8. بمجرد نسخ القبو، انتقل مرة أخرى إلى **iCloud Drive > Obsidian**.
+8. بمجرد نسخ القبو، انتقل مرة أخرى إلى **iCloud Drive → Obsidian**.
 9. احذف مجلد القبو.
 
 في المرة القادمة التي تفتح فيها Obsidian، يكون القبو الآن لديه أيقونة قبو بدلاً من سحابة، مما يشير إلى أنه لم يعد في iCloud Drive.

@@ -9,6 +9,7 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 | Language | URL                                     |
 | -------- | --------------------------------------- |
 | `en`     | https://help.obsidian.md/               |
+| `ar`     | https://publish.obsidian.md/help-ar/    |
 | `da`     | https://publish.obsidian.md/help-da/    |
 | `es`     | https://publish.obsidian.md/help-es/    |
 | `it`     | https://publish.obsidian.md/help-it/    |
