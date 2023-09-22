@@ -87,6 +87,7 @@ Copyright (c) 2017-present Drifty Co.
 
 ### CodeMirror
 
+Version `6.0.0`
 MIT License
 Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@adrianheine.de>, and others
 
@@ -97,6 +98,7 @@ Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2
 
 ### Electron
 
+Version `25.8.1`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -113,8 +115,9 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
+Version `0.268.0`
 ISC License
-Copyright (c) 2020, Lucide Contributors
+Copyright (c) 2020, Lucide Contributors ^lucide
 
 ### MathJax
 
@@ -127,6 +130,7 @@ Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
+Version `2.29.4`
 MIT License
 Copyright (c) JS Foundation and other contributors
 
@@ -141,6 +145,7 @@ Apache License 2.0
 
 ### PixiJS
 
+Version `7.2.4`
 MIT License
 Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
