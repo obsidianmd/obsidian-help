@@ -115,7 +115,7 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
-Version `0.114.0`
+Version `0.268.0`
 ISC License
 Copyright (c) 2020, Lucide Contributors ^lucide
 
