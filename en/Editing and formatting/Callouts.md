@@ -88,7 +88,11 @@ To define a custom callout, create the following CSS block:
 The value of the `data-callout` attribute is the type identifier you want to use, for example `[!custom-question-type]`.
 
 - `--callout-color` defines the background color using numbers (0–255) for red, green, and blue.
-- `--callout-icon` can be an icon ID from [lucide.dev](https://lucide.dev), or an SVG element.
+- `--callout-icon` can be an icon ID from [lucide.dev](https://lucide.dev), or an SVG element. 
+
+> [!warning] Note about lucide icon versions
+> Obsidian updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.
+> ![[Credits#^lucide]]
 
 > [!tip] SVG icons
 > Instead of using a Lucide icon, you can also use a SVG element as the callout icon.
