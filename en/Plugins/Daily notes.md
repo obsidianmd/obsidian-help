@@ -10,6 +10,8 @@ By default, Obsidian creates a new empty note named after today's date in the YY
 
 > [!tip]
 > If you prefer to have your daily notes in a separate folder, you can set the **New file location** under plugin options to change where Obsidian creates new daily notes.
+> For example you can use the format **[Journal]/YYYY/MMMM/YYYY-MMM-DD** to sort your journal notes by year and month in a custom folder called Journal.
+> To learn more about date formatting check out [momentJS-formatting](https://momentjs.com/docs/#/displaying/format/)
 
 ## Create a daily note from template
 
