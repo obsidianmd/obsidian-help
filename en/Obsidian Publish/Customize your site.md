@@ -31,8 +31,6 @@ We recommend that you provide one or more of the following dimensions:
 - `favicon-192x192.png`
 - `favicon-196x196.png`
 
-You have flexibility in placing favicons anywhere within the vault, as long as they are published to your site.
-
 ## Use a community theme
 
 To use one of the community themes for your site:

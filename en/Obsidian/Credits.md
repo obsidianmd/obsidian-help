@@ -87,7 +87,7 @@ Copyright (c) 2017-present Drifty Co.
 
 ### CodeMirror
 
-Version `6.0.0`
+Vim Version `6.0.0`
 MIT License
 Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@adrianheine.de>, and others
 
@@ -125,6 +125,7 @@ Apache License 2.0
 
 ### Mermaid
 
+Version `10.2.3`
 MIT License
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
@@ -133,19 +134,12 @@ Copyright (c) 2014 - 2022 Knut Sveidqvist
 Version `2.29.4`
 MIT License
 Copyright (c) JS Foundation and other contributors
-
-### nspell
-
-MIT License
-Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>
-
 ### pdf.js
 
 Apache License 2.0
 
 ### PixiJS
 
-Version `7.2.4`
 MIT License
 Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
@@ -167,6 +161,7 @@ Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
 
 ### reveal.js
 
+Version `4.3.1`
 The MIT License
 Copyright (C) 2011-2022 Hakim El Hattab, http://hakim.se, and reveal.js contributors
 
