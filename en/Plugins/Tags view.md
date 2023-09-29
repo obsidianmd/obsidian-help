@@ -2,7 +2,7 @@
 aliases: [Tag pane]
 ---
 
-Tags lists all tags within your vault along with how many notes that contain them.
+Tags view lists all tags within your vault along with how many notes that contain them.
 
 Click a tag to search for it using [[Search]].
 
