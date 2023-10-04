@@ -196,7 +196,11 @@ You can change the image dimensions, by adding `|640x480` to the link destinatio
 ![Engelbart|100x145](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-If you only specify the width, the image scales according to its original aspect ratio. For example, `![[Engelbart.jpg|100]]`.
+If you only specify the width, the image scales according to its original aspect ratio. For example:
+
+```md
+![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+```
 
 > [!tip]
 > If you want to add an image from inside your vault, you can also [[Embedding files#Embed an image in a note|embed an image in a note]].
