@@ -1,3 +1,7 @@
+---
+aliases:
+  - Obsidian Style Guide
+---
 The Obsidian documentation uses the [Google developer documentation style guide](https://developers.google.com/style). For any topics not covered by the Google style guide, use the [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/).
 
 This page lists any deviances from the Google style guide, or terminology worth highlighting.
@@ -5,7 +9,7 @@ This page lists any deviances from the Google style guide, or terminology worth 
 > [!tip] Contribute
 > Most of the documentation existed before this style guide did. If you find any violations of this style guide, please [create an issue](https://github.com/obsidianmd/obsidian-docs/issues/new) or submit a pull request to [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
 
-## Terminology
+## Terminology and grammar
 
 - Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
 - Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
@@ -24,7 +28,7 @@ For example:
 
 _To allow device-specific configuration, Obsidian Sync doesn't sync its own settings. You need to configure Sync for each of your devices._
 
-### UI and interactions
+### Ui and interactions
 
 - Prefer "select" over "tap" or "click".
 - Prefer "sidebar" over "side bar".
@@ -43,7 +47,7 @@ When referring to multiple UI interactions in a sequence, use the → (U+2192) s
 
 When moving between notes, use "open" if the destination is hidden, and "switch" if both source and destination notes are open in separate splits.
 
-## Reference documentation for settings
+### Reference documentation for settings
 
 When possible, any settings should be documented within Obsidian using a descriptive text. Avoid documenting a specific setting in Obsidian Help unless:
 
@@ -53,7 +57,7 @@ When possible, any settings should be documented within Obsidian using a descrip
 
 Consider using a tip callout if you want to draw attention to a specific setting.
 
-## Directional terms
+### Directional terms
 
 Hyphenate directional terms when using them as adjectives. Avoid hyphenation when direction is used as a noun.
 
@@ -79,7 +83,7 @@ Don't indicate a direction when referring to settings. The location of the setti
 
 - To the right of **Pick remote vault**, click **Choose**.
 
-## Sentence case
+### Sentence case
 
 Prefer *sentence case* over *title case* for headings, buttons, and titles. When referencing UI elements always match the case of the text in the UI.
 
@@ -92,7 +96,7 @@ Prefer *sentence case* over *title case* for headings, buttons, and titles. When
 - How Obsidian Stores Data
 
 
-## Examples
+### Examples
 
 Prefer realistic examples over nonsense terms.
 
@@ -104,7 +108,7 @@ Prefer realistic examples over nonsense terms.
 
 - `task:(foo OR bar)`
 
-## Key names
+### Key names
 
 When referring to a character on the keyboard by name, add the character between parentheses right after the name:
 
@@ -117,7 +121,7 @@ When referring to a character on the keyboard by name, add the character between
 - Add a hyphen in front of the word.
 - Add a `-` in front of the word.
 
-## Markdown
+### Markdown
 
 Use newlines between Markdown blocks:
 
@@ -143,10 +147,66 @@ This is a section.
 3. Third item
 ```
 
-## Images
+### Images
 
 Use "**width** x **height** pixels" for describing image or screen dimensions.
 
 **Example:**
 
 Recommended image dimensions: 1920 x 1080 pixels.
+
+## Icons and images
+
+Include images when they make it easier to explain things that are hard to describe with words, or when you need to show important parts of the Obsidian application. You can save images in the `Attachments` folder.
+
+Here are the guidelines for images:
+
+- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embedding files#Embed an image in a note|embedding an image in a note]].
+- The image should make the text it accompanies easier to understand.
+
+> [!example]
+> Once enabled, the [[Word count]] plugin will create a new entry on your bottom statusbar.
+> 
+> ![[Style-guide-zoomed-example.png|300]]
+
+- For pop-up windows or modals, the image should show the entire Obsidian application window.
+
+![[Style-guide-modal-example.png|500]]
+
+- Images should be in either `.png` or `.svg` format.
+- Optimize images to make them take up less storage space.
+
+> [!success]- Tools for optimizing images
+> Here are a some recommended programs for reducing the size of your images.
+> - **Windows:** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
+> - **macOS:** [ImageOptim](https://imageoptim.com/)
+> - **Linux/Unix** [Trimage](https://trimage.org)
+> 
+> We recommend an optimization rate of 65-75%.
+
+### Lucide icons
+
+[Lucide](https://lucide.dev/icons/) icons can be used alongside detailed elements to provide a visual representation of a feature.
+
+**Example:** In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg|icon]] to create a canvas in the same folder as the active file.
+
+**Guidelines for Lucide Icons**
+
+- Store icons in the `Attachments/icons` folder.
+- Add the prefix `lucide-` before the Lucide icon name.
+
+**Example:** The icon for creating a new canvas should be named `lucide-layout-dashboard`.
+
+- Use the SVG version of the icons available.
+- Icons should be `18` pixels in width, `18` pixels in height, and have a stroke width of `1.5`. You can adjust these settings in the SVG data.
+
+> [!info]- Adjusting size and stroke in an SVG
+> ```html
+> <svg xmlns="http://www.w3.org/2000/svg" width="WIDTH" height="HEIGHT" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="STROKE-WIDTH" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+>```
+
+- Utilize the `icon` alias to tweak the spacing around the icon so that it aligns neatly with the text in the vicinity.
+
+**Example**: `![[image.svg|icon]]`
+
+Remember to optimize icons in the same way you optimize images.
