@@ -28,7 +28,7 @@ For example:
 
 _To allow device-specific configuration, Obsidian Sync doesn't sync its own settings. You need to configure Sync for each of your devices._
 
-### Ui and interactions
+### UI and interactions
 
 - Prefer "select" over "tap" or "click".
 - Prefer "sidebar" over "side bar".
