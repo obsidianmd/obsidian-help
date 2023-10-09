@@ -1,5 +1,7 @@
 ---
-aliases: [Tag pane]
+aliases: 
+  - [Tag pane]
+  - Plugins/Tags
 ---
 
 Tags view lists all tags within your vault along with how many notes that contain them.
