@@ -54,7 +54,7 @@ For example, `[[My note#Heading 1#Heading 2]]`.
 > [!tip]- Heading links across the vault
 > You can search for headers to link to from across your vault using the `[[##header]]` syntax. 
 > 
-> ![[linking-to-a-header-with-double-hashtags.png|600]]
+> ![[linking-to-a-header-with-double-hashtags.png]]
 
 ## Link to a block in a note
 
