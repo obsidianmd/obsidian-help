@@ -51,6 +51,11 @@ You can add multiple hashtags for each subheading.
 
 For example, `[[My note#Heading 1#Heading 2]]`.
 
+> [!tip]- Heading links across the vault
+> You can search for headers to link to from across your vault using the `[[##header]]` syntax. 
+> 
+> ![[linking-to-a-header-with-double-hashtags.png|600]]
+
 ## Link to a block in a note
 
 A block is a unit of text in your note, for example a paragraph, block quote, or even a list item.
@@ -68,6 +73,10 @@ You can also create human-readable block identifiers by adding a blank space fol
 Now you can instead link to the block by typing `[[2023-01-01#^quote-of-the-day]]`.
 
 Block identifiers can only consist of letters, numbers, and dashes.
+
+> [!tip]- Block links across the vault
+> You can search for blocks to link to from across your vault using the `[[^^block]]` syntax. However, more items qualify as blocks in comparison to [[#Link to a heading in a note|heading links]] so this list will be much longer in comparison.
+> ![[link-to-a-double-block.png]]
 
 > [!warning] Interoperability
 > Block references are specific to Obsidian and not part of the standard Markdown format. Links containing block references won't work outside of Obsidian.
