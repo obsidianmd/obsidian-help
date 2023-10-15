@@ -13,6 +13,7 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 | `es`     | https://publish.obsidian.md/help-es/    |
 | `it`     | https://publish.obsidian.md/help-it/    |
 | `ja`     | https://publish.obsidian.md/help-ja/    |
+| `ko`     | https://publish.obsidian.md/help-ko/    |
 | `pt-br`  | https://publish.obsidian.md/help-pt-br/ |
 | `ru`     | https://publish.obsidian.md/help-ru/    |
 | `vi`     | https://publish.obsidian.md/help-vi/    |
