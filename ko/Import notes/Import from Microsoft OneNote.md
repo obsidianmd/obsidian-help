@@ -11,7 +11,7 @@ Obsidian을 사용하면 Microsoft OneNote에서 노트를 쉽게 마이그레�
 1. **설정(Settings)** 을 엽니다.
 2. **커뮤니티 플러그인**으로 이동하고 [Importer를 설치](obsidian://show-plugin?id=obsidian-importer)합니다.
 3. Importer 플러그인을 활성화합니다.
-4. 명령 팔레트나 리본 아이콘을 사용하여 **Importer** 플러그인을 엽니다.
+4. 명령어 팔레트나 리본 아이콘을 사용하여 **Importer** 플러그인을 엽니다.
 5. **파일 형식**에서 **Microsoft OneNote**를 선택합니다.
 6. **로그인**을 클릭하여 Microsoft 계정에 대한 자격 증명을 입력할 수 있는 Microsoft 로그인 페이지가 있는 웹 브라우저를 엽니다. Microsoft 로그인 프로세스에 대한 자세한 정보는 아래에서 확인할 수 있습니다.
 7. Obsidian이 OneNote 노트북을 볼 수 있는 권한을 부여하기 위해 **수락**을 클릭합니다.

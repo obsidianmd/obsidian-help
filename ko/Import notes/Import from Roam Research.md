@@ -17,7 +17,7 @@ Obsidian을 사용하면 [[Importer|Importer 플러그인]]을 사용하여 Roam
 1. **설정**을 엽니다.
 2. **커뮤니티 플러그인**으로 이동하고 [Importer를 설치](obsidian://show-plugin?id=obsidian-importer)합니다.
 3. Importer 플러그인을 활성화합니다.
-4. 명령 팔레트나 리본 아이콘을 사용하여 **Importer** 플러그인을 엽니다.
+4. 명령어 팔레트나 리본 아이콘을 사용하여 **Importer** 플러그인을 엽니다.
 5. **파일 형식**에서 **Roam Research (.json)**을 선택합니다.
 6. `.json` 파일의 위치를 선택합니다.
 7. **출력 폴더**에서 파일을 가져올 위치를 선택합니다.

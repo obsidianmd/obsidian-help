@@ -7,7 +7,7 @@ aliases: How to/Use hotkeys
 
 ### Viewing hotkeys
 
-[[command palette|명령 팔레트]]에서 명령을 찾아서 해당 명령에 대한 설정된 단축키를 빠르게 확인하는 방법입니다. 해당 명령에 대한 단축키가 목록에 나와 있으면 설정된 것입니다.
+[[command palette|명령어 팔레트]]에서 명령을 찾아서 해당 명령에 대한 설정된 단축키를 빠르게 확인하는 방법입니다. 해당 명령에 대한 단축키가 목록에 나와 있으면 설정된 것입니다.
 
 ### Setting hotkeys
 
