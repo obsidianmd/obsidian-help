@@ -2,7 +2,7 @@
 aliases: Advanced topics/How Obsidian stores data
 ---
 
-Obsidian은 노트를 [[보관소 formatting syntax|Markdown-formatted ]]으로 서식 지정된 일반 텍스트 파일로 _보관소_라고 하는 로컬 파일 시스템의 폴더에 저장합니다. '보관소'는 로컬 파일 시스템의 폴더로서 하위 폴더를 포함합니다.
+Obsidian은 노트를 [[Basic formatting syntax|Markdown-formatted ]]으로 서식 지정된 일반 텍스트 파일로 _보관소_라고 하는 로컬 파일 시스템의 폴더에 저장합니다. '보관소'는 로컬 파일 시스템의 폴더로서 하위 폴더를 포함합니다.
 
 노트는 일반 텍스트 파일이므로 다른 텍스트 편집기와 파일 관리자를 사용하여 노트를 편집하고 관리할 수 있습니다. Obsidian은 외부 변경 사항을 반영하기 위해 '보관소'를 자동으로 새로 고칩니다.
 
