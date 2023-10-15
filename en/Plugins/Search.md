@@ -74,7 +74,6 @@ Use brackets around a property name `[property]` to return files with that prope
 Use brackets and a colon `[property:value]` to return files with that property and value:
 
 - `[aliases:Name]` returns files where the `aliases` property value is `Name`
-- `[completed:true]` returns files where the `completed` property value is `true`
 
 Both property and value allow sub-queries, such as parentheses for grouping, the `OR` operator, double-quotes for exact matching, and regex.
 

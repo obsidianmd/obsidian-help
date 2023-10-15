@@ -55,7 +55,7 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Create a presentation from your notes.
 - [[Introduction to Obsidian Sync|Sync]]
 	- Sync your notes across devices.
-- [[Plugins/Tags|Tags]]
+- [[Tags view|Tags view]]
 	- List all the tags in your vault.
 - [[Templates]]
 	- Insert pre-defined content into your notes.

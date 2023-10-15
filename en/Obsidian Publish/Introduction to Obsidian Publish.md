@@ -2,7 +2,7 @@
 aliases: [Obsidian Publish]
 ---
 
-[Obsidian Publish](https://obsidian.md/publish) is a cloud-based hosting service where you that lets you publish your notes as a wiki, knowledge base, documentation, or digital garden.
+[Obsidian Publish](https://obsidian.md/publish) is a cloud-based hosting service that lets you publish your notes as a wiki, knowledge base, documentation, or digital garden.
 
 Select the notes you want to share with the world, press **Publish**, and we'll host it at `publish.obsidian.md/your-site`
 
