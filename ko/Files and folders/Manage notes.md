@@ -1,0 +1,41 @@
+---
+aliases:
+- Advanced topics/Deleting files
+- How to/Rename notes
+---
+파일 및 폴더를 관리하는 여러 가지 방법이 있으며, [[custom hotkeys|사용자 지정 단축키]], [[Command palette|명령]], 또는 [[File explorer|파일 탐색기]]를 사용할 수 있습니다.
+
+## Create a new note
+
+새 파일을 만들려면 다음 단계를 따르세요:
+
+1. `Ctrl+N` (또는 macOS의 `Cmd+N`)을 누릅니다.
+2. 노트 이름을 입력하고 `Enter`를 눌러 노트 편집을 시작합니다.
+
+또는 [[File explorer#Create a new note|파일 탐색기]]를 사용하거나 [[Command palette]]에서 **새 노트 생성**를 선택하여 노트를 만들 수도 있습니다.
+
+## Rename a note
+
+활성화된 노트의 이름을 바꾸려면 다음 단계를 따르세요:
+
+1. 편집기 상단의 노트 이름을 선택하거나 (`F2`를 누릅니다).
+2. 새 이름을 입력하고 `Enter`를 누릅니다.
+
+파일 이름을 변경하면 Obsidian은 해당 파일로의 모든 링크를 자동으로 업데이트합니다.
+
+[[File explorer#Rename a file or folder|파일 탐색기]]를 사용하여 파일 또는 폴더의 이름을 열지 않고도 이름을 변경할 수도 있습니다.
+
+## Delete a note
+
+노트를 삭제하려면 활성화된 노트의 오른쪽 상단에서 **더보기 옵션 → 파일 삭제**(More options -> Delete file)를 선택합니다.
+
+또는 [[Command palette]]에서 **현재 파일 삭제**(Delete current file)를 선택합니다.
+
+[[File explorer#Delete a file or folder|파일 탐색기]]를 사용하여 노트나 폴더를 삭제할 수도 있습니다.
+
+
+> [!note] 파일을 삭제한 후에는 어떻게 되나요?
+> 삭제된 파일의 처리 방법을 변경하려면 **설정 → 파일 및 링크**(Settings → Files & Links) 아래에서 다음 옵션 중 하나를 선택하세요:
+> - **시스템 휴지통**: 기본적으로 삭제된 파일은 운영 체제의 시스템 휴지통에 저장됩니다. 파일을 복원하려면 기호에 따른 파일 관리자를 사용하세요.
+> - **Obsidian 휴지통**: 삭제된 파일을 vault 내 `.trash` 폴더로 보낼 수 있습니다.
+> - **영구 삭제**: 파일은 복원할 수 있는 방법 없이 즉시 삭제됩니다.

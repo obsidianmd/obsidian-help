@@ -1,0 +1,53 @@
+---
+aliases: How to/Basic note taking
+---
+
+Obsidian은 노트 작성에 좋은 도구이지만, Obsidian의 진정한 힘은 노트를 서로 연결할 수 있는 능력에 있습니다. 정보 하나가 다른 정보와 어떻게 관련되는지 이해함으로써 해당 정보를 기억하고 더 깊은 통찰력을 얻을 수 있습니다. 이 가이드에서는 Obsidian에서 링크를 생성하고 탐색하는 방법을 배우게 됩니다.
+
+## Step 1: Create a link
+
+이 단계에서는 두 개의 노트를 생성하고 \[\[이중 괄호 구문\]\]을 사용하여 이들을 서로 연결할 것입니다.
+
+1. [[Create your first note|Create a note]]의 이름을 "Three laws of motion"으로 설정 하고 다음 텍스트를 추가하세요.
+
+   > The laws of motion are three laws stated by Isaac Newton, that describe the relationship between the motion of an object, and the forces acting on it.
+
+2. "Law of Inertia"라는 이름의 다른 노트를 만들고 다음 텍스트를 추가하세요:
+
+   > The Law of Inertia is one of the.
+
+3. 문장 끝에 키보드에서 왼쪽 대괄호 (`[`)를 두 번 누르세요.
+4. "three"를 입력하여 첫 번째로 생성한 노트를 찾으세요.
+5. `Enter` 키를 눌러 강조된 노트에 링크를 생성하세요.
+
+   > The Law of Inertia is one of the \[\[Three laws of motion\]\]
+
+`Ctrl` (또는 macOS에서는 `Cmd`)를 누른 채로 링크를 클릭하여 "Three laws of motion" 노트를 열어보세요.
+
+## Step 2: Create a link to a non-existing note
+
+나중에 특정 주제에 대해 더 자세히 알아보고 싶을 때, 아직 존재하지 않는 노트에 대한 링크를 생성할 수 있습니다.
+
+1. "Three laws of motion" 노트에서 "Isaac Newton" 텍스트를 선택하세요.
+2. 키보드에서 왼쪽 대괄호 (`[`)를 두 번 눌러 링크를 생성하세요. 두 번째 링크는 노트가 아직 존재하지 않음을 나타내기 위해 더 어두운 색으로 표시됩니다.
+3. `Ctrl` (또는 macOS에서는 `Cmd`)를 누른 채로 링크를 클릭하여 노트를 생성하세요.
+
+## Step 3: Navigate between notes
+
+이전 단계에서 보았듯이, 링크를 클릭하면서 `Ctrl` (또는 macOS에서는 `Cmd`)를 누르면 해당 링크된 노트로 이동할 수 있습니다.
+
+노트 간의 탐색을 위한 또 다른 방법은 _역링크(backlink)_를 통한 것입니다. 역링크는 이미 존재하는 링크의 반대 방향으로 탐색할 수 있게 해줍니다.
+
+1. "Isaac Newton" 노트를 열어보세요.
+2. 오른쪽 사이드바에서 **역링크** 탭을 클릭하세요.
+3. **연결된 언급** 아래에서 "Three laws of motion"에 대한 언급을 클릭하여 해당 노트로 이동하세요.
+
+노트 간의 탐색을 위한 또 다른 방법은 노트가 어떻게 연결되어 있는지를 시각적으로 표시하는 것입니다.
+
+1. 노트의 오른쪽 상단에 있는 **More options** (세 개의 점)을 클릭하세요.
+2. **로컬 그래프 열기(Open local graph)**를 선택하세요.
+3. 그래프에서 노드 중 하나를 클릭하여 해당 노트로 이동하세요.
+
+## Learn more
+
+노트가 늘어날수록 노트 간의 연결을 이해하는 것이 점점 어려워집니다. [[Graph view]]를 사용하여 지식 베이스에서 더 깊은 통찰력을 얻는 방법을 배우세요.
