@@ -9,7 +9,7 @@ aliases: [Obsidian Sync]
 
 Learn more about Obsidian Sync:
 
-- If you're a new Obsidian Sync user, learn how to [[set up Obsidian Sync]].
+- If you're a new Obsidian Sync user, learn how to [[Set up Obsidian Sync]].
 - If you want to configure what to sync, refer to [[Select files and settings to sync]].
 - If you already have Obsidian Sync enabled on a device, learn how to [[Set up Obsidian Sync on another device]].
 - If you want to know how to view or restore previous versions of a note, refer to [[Version history]].
