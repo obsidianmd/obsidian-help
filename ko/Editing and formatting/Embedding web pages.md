@@ -16,7 +16,7 @@ aliases:
 > 일부 웹 사이트는 포함을 허용하지 않을 수 있습니다. 대신 포함에 맞게 제공되는 URL을 제공할 수 있습니다. 웹 사이트에서 포함을 지원하지 않는 경우, 웹 사이트 이름 뒤에 "embed iframe"과 같이 검색해 보세요. 예를 들어 "youtube embed iframe"와 같이 검색할 수 있습니다.
 
 > [!tip]
-> [[Canvas]]을 사용하는 경우 카드에 웹 페이지를 포함시킬 수 있습니다. 자세한 내용은 [[Canvas#Add cards from web pages]]를 참조하세요.
+> [[Canvas|캔버스]]을 사용하는 경우 카드에 웹 페이지를 포함시킬 수 있습니다. 자세한 내용은 [[Canvas#Add cards from web pages|캔버스에 웹 페이지 추가]]를 참조하세요.
 
 
 ## Embed a YouTube video

@@ -6,11 +6,11 @@
 
 ## attachment
 
-**첨부 파일**은 볼트 외부에서 생성되고 나중에 추가된 [[Accepted file formats]]입니다.
+**첨부 파일**은 보관소 외부에서 생성되고 나중에 추가된 [[Accepted file formats|혀용되는 파일 형식]]입니다.
 
 ## command
 
-**명령**은 [[Command palette]]에서 선택하거나 [[#hotkey]]로 할 수 있는 작업입니다.
+**명령**은 [[Command palette|명령어 팔레트]]에서 선택하거나 [[#hotkey|단축기]]로 할 수 있는 작업입니다.
 
 ## embed
 
@@ -30,7 +30,7 @@
 
 ## link
 
-**링크**는 다른 노트 또는 파일을 참조합니다. [[Internal links|Internal link]]는 현재 볼트 내에 있는 파일을 가리킵니다. [[Basic formatting syntax#External links|external link]]는 주로 웹 페이지와 같은 볼트 외부 위치를 가리킵니다.
+**링크**는 다른 노트 또는 파일을 참조합니다. [[Internal links|Internal link]]는 현재 보관소 내에 있는 파일을 가리킵니다. [[Basic formatting syntax#External links|external link]]는 주로 웹 페이지와 같은 보관소 외부 위치를 가리킵니다.
 
 ## main area
 
@@ -55,7 +55,7 @@
 
 ## pop-out window
 
-기본적으로 같은 볼트 내의 모든 노트는 동일한 앱 창에서 열립니다. **팝업 창**은 동일한 볼트의 노트를 별도 창에서 열 수 있게 합니다. 예를 들어 두 번째 화면에 표시하기 위해 사용할 수 있습니다. [[pop-out windows]]도 참고하십시오.
+기본적으로 같은 보관소 내의 모든 노트는 동일한 앱 창에서 열립니다. **팝업 창**은 동일한 보관소의 노트를 별도 창에서 열 수 있게 합니다. 예를 들어 두 번째 화면에 표시하기 위해 사용할 수 있습니다. [[pop-out windows]]도 참고하십시오.
 
 ## property
 
@@ -95,7 +95,7 @@
 
 ## vault
 
-**볼트**(저장소)는 Obsidian 특정 구성을 가진 파일 시스템 내의 폴더로, [[#note|notes]]와 `.obsidian` 폴더를 포함합니다. [[How Obsidian stores data]]도 참고하십시오.
+**보관소**(저장소)는 Obsidian 특정 구성을 가진 파일 시스템 내의 폴더로, [[#note|notes]]와 `.obsidian` 폴더를 포함합니다. [[How Obsidian stores data]]도 참고하십시오.
 
 ## view
 

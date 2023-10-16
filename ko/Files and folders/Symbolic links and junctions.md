@@ -1,7 +1,7 @@
 Obsidian에서는 [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link) (symlink)와 [junctions](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions)을 사용하여 보트 외부나 [[How Obsidian stores data#Global settings|system folder]]에 파일을 저장하는 데 사용할 수 있습니다.
 
 > [!danger] 본인 책임 하에 사용하세요
-> 심볼릭 링크와 점크션을 사용하는 것을 강력히 권장하지 않습니다. 이러한 기술을 사용하여 보트에서 파일을 관리하는 경우, 데이터 손실, 훼손 또는 Obsidian 충돌이 발생할 수 있습니다. 보트 및 설정의 정기적인 백업을 수행하는 것이 중요합니다.
+> 심볼릭 링크와 점크션을 사용하는 것을 강력히 권장하지 않습니다. 이러한 기술을 사용하여 보트에서 파일을 관리하는 경우, 데이터 손실, 훼손 또는 Obsidian 충돌이 발생할 수 있습니다. 보관소 및 설정의 정기적인 백업을 수행하는 것이 중요합니다.
 
 다음은 고려해야 할 몇 가지 알려진 제한 사항 또는 문제입니다:
 

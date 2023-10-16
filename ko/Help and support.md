@@ -24,7 +24,7 @@ Obsidian은 [[Commercial license|상업 라이센스]], 계정, 결제 및 애�
 
 버그를 발견하거나 Obsidian 지원에서 도움이 필요한 경우 Obsidian 애플리케이션의 디버그 정보를 제공하는 것이 도움이 됩니다. 다음은 그 정보를 얻는 방법입니다:
 
-1. [[Command palette]]를 엽니다.
+1. [[Command palette|명령어 팔레트]]를 엽니다.
 2. **Show debug info**를 입력합니다.
 3. 강조 표시된 **Show debug info** 옵션을 선택합니다.
 4. **Copy to clipboard** 버튼을 클릭합니다.

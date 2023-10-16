@@ -1,4 +1,4 @@
-[[Introduction to Obsidian Sync|Obsidian Sync]]는 노트를 여러 장치 간에 동기화하는 서비스입니다. [[Version history|노트 복원]]과 같은 유용한 기능을 제공하지만 보관소 백업용으로 설계되지 않았습니다.
+[[Introduction to Obsidian Sync|Obsidian Sync]]는 노트를 여러 장치 간에 동기화하는 서비스입니다. [[Version history|버전 기록]]과 같은 유용한 기능을 제공하지만 보관소 백업용으로 설계되지 않았습니다.
 
 보관소를 정기적으로 백업하는 것을 권장하지만 **Obsidian Sync와 함께 제3자 동기화 서비스를 사용하면 데이터 손상 또는 데이터 손실이 발생할 수 있음을 인식해야 합니다**.
 
@@ -15,7 +15,7 @@
 
 > [!QUESTION]- 보관소를 iCloud Drive에서 이동하는 방법은 무엇인가요?
 > > [!INFO]- macOS의 iCloud Drive에서 보관소 이동
-> > - [[Manage vaults|보관소 스위처]]를 열고, 볼트를 마우스 오른쪽 버튼으로 클릭하거나 세 개의 점을 탭하고 "보관소 이동"을 선택하세요. 
+> > - [[Manage vaults|보관소 스위처]]를 열고, 보관소를 마우스 오른쪽 버튼으로 클릭하거나 세 개의 점을 탭하고 "보관소 이동"을 선택하세요. 
 >   > 
 > > 다른 드라이브로 보관소를 이동하려면:
 > > 1. Obsidian 앱을 종료하세요. 

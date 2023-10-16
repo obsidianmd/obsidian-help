@@ -3,7 +3,7 @@ aliases:
 - Advanced topics/Deleting files
 - How to/Rename notes
 ---
-파일 및 폴더를 관리하는 여러 가지 방법이 있으며, [[custom hotkeys|사용자 지정 단축키]], [[Command palette|명령]], 또는 [[File explorer|파일 탐색기]]를 사용할 수 있습니다.
+파일 및 폴더를 관리하는 여러 가지 방법이 있으며, [[custom hotkeys|사용자 지정 단축키]], [[Command palette|명령어 팔레트]], 또는 [[File explorer|파일 탐색기]]를 사용할 수 있습니다.
 
 ## Create a new note
 
@@ -12,7 +12,7 @@ aliases:
 1. `Ctrl+N` (또는 macOS의 `Cmd+N`)을 누릅니다.
 2. 노트 이름을 입력하고 `Enter`를 눌러 노트 편집을 시작합니다.
 
-또는 [[File explorer#Create a new note|파일 탐색기]]를 사용하거나 [[Command palette]]에서 **새 노트 생성**를 선택하여 노트를 만들 수도 있습니다.
+또는 [[File explorer#Create a new note|파일 탐색기]]를 사용하거나 [[Command palette|명령어 팔레트]]에서 **새 노트 생성**를 선택하여 노트를 만들 수도 있습니다.
 
 ## Rename a note
 
@@ -29,7 +29,7 @@ aliases:
 
 노트를 삭제하려면 활성화된 노트의 오른쪽 상단에서 **더보기 옵션 → 파일 삭제**(More options -> Delete file)를 선택합니다.
 
-또는 [[Command palette]]에서 **현재 파일 삭제**(Delete current file)를 선택합니다.
+또는 [[Command palette|명령어 팔레트]]에서 **현재 파일 삭제**(Delete current file)를 선택합니다.
 
 [[File explorer#Delete a file or folder|파일 탐색기]]를 사용하여 노트나 폴더를 삭제할 수도 있습니다.
 

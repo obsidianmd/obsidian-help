@@ -2,66 +2,66 @@
 cssclasses:
   - list-cards
 ---
-이 페이지에는 Obsidian과 함께 설치되는 핵심 플러그인 목록이 나열되어 있습니다. 핵심 플러그인은 Obsidian 팀에서 공식적으로 개발하고 지원하는 플러그인입니다.
+이 페이지에는 Obsidian과 함께 설치되는 코어 플러그인 목록이 나열되어 있습니다. 코어 플러그인은 Obsidian 팀에서 공식적으로 개발하고 지원하는 플러그인입니다.
 
-일부 핵심 플러그인은 기본적으로 비활성화되어 있습니다. 이러한 플러그인은 **설정 → 핵심 플러그인**(Settings -> Core plugins)에서 활성화할 수 있습니다.
+일부 코어 플러그인은 기본적으로 비활성화되어 있습니다. 이러한 플러그인은 **설정 → 코어 플러그인**(Settings -> Core plugins)에서 활성화할 수 있습니다.
 
-> [!tip] Community plugins
+> [!tip] 커뮤니티 플러그인(Community plugins)
 > 여기서 찾을 수 없는 원하는 플러그인을 찾을 경우,  [[Community plugins|plugins built by the community]] 중 일부를 확인해보세요. 또한 [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin)를 통해 직접 플러그인을 개발할 수도 있습니다.
 
 ### All core plugins
 
-- [[Audio recorder]]
+- [[Audio recorder|오디오 녹음기]]
 	- 노트에 직접 오디오 녹음을 기록하고 저장합니다.
-- [[Backlinks]]
+- [[Backlinks|백링크]]
 	- 노트의 모든 링크 및 연결되지 않은 언급을 볼 수 있습니다.
 - [[Bookmarks]]
 	- 노트, 제목, 검색 및 기타 항목에 대한 링크를 저장합니다.
-- [[Command palette]]
+- [[Command palette|명령어 팔레트]]
 	- 키보드로부터 빠르게 명령에 접근합니다.
-- [[Daily notes]]
+- [[Daily notes|데일리 노트]]
 	- 현재 날짜를 기반으로 노트를 생성하고 엽니다.
-- [[File explorer]]
+- [[File explorer|파일 탐색기]]
 	- 보관소 내부의 파일과 폴더를 탐색합니다.
-- [[File recovery]]
+- [[File recovery|파일 복구]]
 	-  정기적인 스냅샷에서 작업을 복구합니다.
-- [[Format converter]]
+- [[Format converter|마크다운 형식 가져오기]]
 	- 다른 앱의 Markdown을 Obsidian 형식으로 변환합니다.
-- [[Graph view]]
+- [[Graph view|그래프 뷰]]
 	- 보관소 내 노트 간의 관계를 시각화합니다.
 - [[Importer]]
 	- 다양한 앱 및 형식에서 Obsidian으로 파일을 변환합니다.
-- [[Note composer]]
+- [[Note composer|노트 작성기]]
 	- 두 개의 노트를 병합하거나 하나를 두 개로 분할합니다.
-- [[Outgoing links]]
+- [[Outgoing links|나가는 링크]]
 	- 활성 노트의 모든 링크를 표시합니다.
-- [[Outline]]
+- [[Outline|개요]]
 	- 활성 노트의 목차를 표시합니다.
-- [[Page preview]]
+- [[Page preview|페이지 미리보기]]
 	- 링크 위에 마우스를 올려 노트 내용을 미리 볼 수 있습니다.
 - [[Properties view]]
 	- 보관고의 모든 프로퍼티를 나열하고 활성 노트의 프로퍼티를 볼 수 있습니다.
-- [[Introduction to Obsidian Publish|Publish]]
+- [[Introduction to Obsidian Publish|출판]]
 	- 노트를 웹 사이트, 위키 또는 문서로 호스팅합니다.
-- [[Quick switcher]]
+- [[Quick switcher|퀵 스위처]]
 	- 키보드로 검색, 노트 생성 및 열기를 수행합니다.
-- [[Random note]]
+- [[Random note|랜덤 노트]]
 	- 보관소 내의 임의의 노트를 엽니다.
-- [[Search]]
+- [[Search|검색]]
 	- 보관소에서 파일을 찾습니다.
-- [[Slash commands]]
+- [[Slash commands|슬레시 명령어]]
 	- `/` 키를 사용하여 편집기 내에서 명령을 실행합니다.
-- [[Slides]]
+- [[Slides|슬라이드]]
 	- 노트에서 프레젠테이션을 만듭니다.
-- [[Introduction to Obsidian Sync|Sync]]
+- [[Introduction to Obsidian Sync|동기화]]
 	- 디바이스 간에 노트를 동기화합니다.
-- [[Tags view|Tags view]]
+- [[Tags view|태크 창]]
 	- 보관고의 모든 태그를 나열합니다.
-- [[Templates]]
+- [[Templates|탬플릿]]
 	- 미리 정의된 콘텐츠를 노트에 삽입합니다.
-- [[Unique note creator]]
+- [[Unique note creator|유니크 노트 생성자]]
 	- 시간 코드화된 제목을 사용하여 고유한 노트를 생성합니다.
-- [[Word count]]
+- [[Word count|단어 개수]]
 	- 단어와 문자 수를 표시합니다.
-- [[Workspaces]]
+- [[Workspaces|작업 공간]]
 	- 레이아웃을 저장하고 그 사이를 전환합니다.

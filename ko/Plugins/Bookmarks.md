@@ -41,7 +41,7 @@ aliases: Plugins/Starred
 >
 > **Command palette**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette|명령어 팔레트]].
 > 2. Search for the **Bookmark** command.
 > 3. Press `Enter` with the command selected to add a bookmark.
 

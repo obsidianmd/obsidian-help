@@ -2,7 +2,7 @@
 aliases:
   - Advanced Markdown
 ---
-고급 포맷팅 구문을 노트에 추가하는 방법을 배우세요.
+고급 서식 구문을 노트에 추가하는 방법을 배우세요.
 
 ## Tables
 
@@ -33,7 +33,7 @@ Marie | Curie
 
 ### Format content within a table
 
-표 내용에 포맷팅을 적용하려면 [[Basic formatting syntax]]을 사용할 수 있습니다.
+표 내용에 포맷팅을 적용하려면 [[Basic formatting syntax|기본 서식 구문]]을 사용할 수 있습니다.
 
 First column | Second column
 -- | --
@@ -108,7 +108,7 @@ Biology --> Chemistry
 
 ### Linking files in a diagram
 
-노트에서 [[Internal links]]를 다이어그램에 만들려면 노드에 `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes)를 추가하세요.
+노트에서 [[Internal links|내부 링크]]를 다이어그램에 만들려면 노드에 `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes)를 추가하세요.
 
 ````md
 ```mermaid
@@ -129,7 +129,7 @@ class Biology,Chemistry internal-link;
 ```
 
 > [!note]
-> 다이어그램에서의 내부 링크는 [[Graph view]]에 표시되지 않습니다.
+> 다이어그램에서의 내부 링크는 [[Graph view\|그래프 뷰]]에 표시되지 않습니다.
 
 다이어그램에 많은 노드가 있는 경우 다음 스니펫을 사용할 수 있습니다.
 

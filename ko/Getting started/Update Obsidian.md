@@ -8,13 +8,13 @@ Obsidian은 정기적으로 새 업데이트를 확인합니다. 새 업데이�
 
 ## Check for an update and the current version
 
-**설정 → 정보**(Settings -> About)를 엽니다.
+**설정 → Obsidian 정보**(Settings -> About)를 엽니다.
 
 현재 Obsidian 버전과 설치 프로그램 버전을 왼쪽 상단에서 확인할 수 있습니다.
 
 ![[application-installer-current-version.png]]
 
-사용 가능한 업데이트를 적용하려면 **다시 시작**(Relaunch)을 클릭합니다.
+사용 가능한 업데이트를 적용하려면 **재부팅**(Relaunch)을 클릭합니다.
 
 ## Disable automatic updates
 

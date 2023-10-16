@@ -14,7 +14,7 @@
 - OneDrive
 - Syncthing
 
-노트를 동기화하려면 사용하는 서비스에 대한 지침을 따라 로컬 파일 시스템을 클라우드에 동기화하고, 그런 다음 모든 데스크탑 장치에서 기존 보관고를 열도록 하십시오.
+노트를 동기화하려면 사용하는 서비스에 대한 지침을 따라 로컬 파일 시스템을 클라우드에 동기화하고, 그런 다음 모든 데스크탑 장치에서 기존 보관소를 열도록 하십시오.
 
 ## Sync your notes on iPhone and iPad
 
@@ -41,27 +41,27 @@ macOS에서 iCloud Drive를 사용할 때, 데스크탑 앱의 설치 버전을 
 
 #### Create a new vault in iCloud Drive
 
-iPhone 또는 iPad에서 iCloud Drive에 새로운 보관고를 만들려면 다음 단계를 수행하십시오:
+iPhone 또는 iPad에서 iCloud Drive에 새로운 보관소를 만들려면 다음 단계를 수행하십시오:
 
-1. **새로운 보관고 생성**(Create new vault) 를 탭합니다.
+1. **새로운 보관소 생성**(Create new vault) 를 탭합니다.
 2. **보관소 이름**(Vault name)에 보관소 이름을 입력합니다.
 3. **iCloud에 저장**을 활성화합니다.
 4. **생성**(Create)를 탭합니다.
 
-Obsidian은 iCloud Drive 내부에 새로운 폴더를 만들었습니다. 컴퓨터에서 iCloud Drive 폴더를 기존 보관고로 열려면 다음을 수행하십시오:
+Obsidian은 iCloud Drive 내부에 새로운 폴더를 만들었습니다. 컴퓨터에서 iCloud Drive 폴더를 기존 보관소로 열려면 다음을 수행하십시오:
 
 1. 컴퓨터에서 **Obsidian**을 엽니다.
 2. **보관소로 폴더 열기**(Open folder as vault)의 오른쪽에서 **열기**를 선택합니다.
 3. **iCloud Drive → Obsidian**로 이동합니다.
-4. 동기화하려는 보관고 이름과 동일한 폴더를 선택합니다.
+4. 동기화하려는 보관소 이름과 동일한 폴더를 선택합니다.
 
 #### Sync an existing vault with iCloud Drive
 
-기존 보관고를 iCloud를 사용하여 동기화하려면 iCloud Drive에서 빈 보관고를 만들고 그 빈 보관고로 다른 장치의 노트를 이동해야 합니다.
+기존 보관소를 iCloud를 사용하여 동기화하려면 iCloud Drive에서 빈 보관소를 만들고 그 빈 보관소로 다른 장치의 노트를 이동해야 합니다.
 
-iCloud Drive에서 새로운 빈 보관고를 만들려면 다음을 수행하십시오:
+iCloud Drive에서 새로운 빈 보관소를 만들려면 다음을 수행하십시오:
 
-1. **새로운 보관고 생성**(Create new vault)를 탭합니다.
+1. **새로운 보관소 생성**(Create new vault)를 탭합니다.
 2. **보관소 이름**에 동기화하려는 보관소 이름을 입력합니다.
 3. **iCloud에 저장**을 활성화합니다.
 4. **생성**를 탭합니다.
@@ -70,9 +70,9 @@ iCloud Drive에서 새로운 빈 보관고를 만들려면 다음을 수행하�
 
 1. 컴퓨터에서 **iCloud Drive** 폴더를 엽니다.
 2. **Obsidian** 폴더를 엽니다. 나타나기까지 몇 분이 걸릴 수 있습니다.
-3. 기존 보관고의 파일을 보관고 이름으로 선택한 폴더로 이동합니다.
+3. 기존 보관소의 파일을 보관소 이름으로 선택한 폴더로 이동합니다.
 
-iCloud는 파일을 모바일 장치로 동기화합니다. 보관고의 크기에 따라 몇 분이 걸릴 수 있습니다.
+iCloud는 파일을 모바일 장치로 동기화합니다. 보관소의 크기에 따라 몇 분이 걸릴 수 있습니다.
 
 ### Working Copy
 
@@ -100,7 +100,7 @@ Obsidian은 iOS에서 다른 Markdown 편집기와는 다르게 작동합니다.
 
 ### Where are my vaults stored?
 
-보관고를 만들 때 iCloud Drive를 사용하지 않을 경우 Obsidian은 Obsidian 앱의 로컬 파일 시스템에 저장합니다. 다른 앱인 [[#Working Copy]]과 같은 앱은 파일 시스템에서 보관고를 선택하여 액세스할 수 있습니다.
+보관소를 만들 때 iCloud Drive를 사용하지 않을 경우 Obsidian은 Obsidian 앱의 로컬 파일 시스템에 저장합니다. 다른 앱인 [[#Working Copy]]과 같은 앱은 파일 시스템에서 보관소를 선택하여 액세스할 수 있습니다.
 
 **주의:** 로컬 파일 시스템에 저장된 노트는 Obsidian 앱을 삭제할 때 iOS에서 삭제됩니다. 앱을 삭제하기 전에 노트를 백업해야 합니다.
 
