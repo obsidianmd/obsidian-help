@@ -19,7 +19,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 
 ## Alternate export methods
 
-Apple does not provide a native option to export your notes. However several third-party tools exist. One option is [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) by Chintan Ghate. Please be aware that not all file types are supported when using alternate export methods.
+Apple does not provide a native option to export your notes. However several third-party tools exist such as [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) by Chintan Ghate. Please be aware that most tools are limited in what data they will export from Apple Notes and might not provide the most compatible output data. These tools work best if your Apple Notes are primarily text-only, and have few attachments or special features such as drawings and scans.
 
 Depending on the tool you used, the export may be in Markdown format or HTML format. Follow instructions based on the file format you exported to: 
 
