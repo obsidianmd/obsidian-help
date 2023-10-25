@@ -25,6 +25,14 @@ The Obsidian Importer plugin supports virtually all Apple Notes content types. T
 > [!Warning]
 > Password-protected notes are encrypted by Apple, so must be unlocked before importing them. Any locked notes will be skipped.
 
+### Scans
+
+Apple stores scans in a variety of formats depending on how they were created. To preseve the original data, this means they'll be exported differently.
+
+* Scans created or viewed on older versions of macOS or iOS will be exported as a series of uncropped images.
+* Scans created or viewed on newer versions of macOS or iOS will usually be exported as cropped images.
+* Scans that have been edited using the features introduced in iOS 17 will usually be exported as PDFs.
+
 ## Alternate export methods
 
 Apple does not provide a native option to export your notes. However several third-party tools exist such as [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) by Chintan Ghate. Please be aware that most tools are limited in what data they will export from Apple Notes and might not provide the most compatible output data. These tools work best if your Apple Notes are primarily text-only, and have few attachments or special features such as drawings and scans.
