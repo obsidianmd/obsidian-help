@@ -4,7 +4,7 @@ On mobile, Obsidian only has a left sidebar, which is [[#Open hidden sidebars|co
 
 ## Open hidden sidebars
 
-If a sidebar is collapsed, you can open it by clicking on the Arrow icon to expand it.
+If a sidebar is collapsed, you can open it by clicking the left expand ( ![[obsidian-side-bar-left.svg|icon]] ) or right expand ( ![[obsidian-side-bar-right.svg|icon]] ) to reveal it.
 
 ## Tabs
 

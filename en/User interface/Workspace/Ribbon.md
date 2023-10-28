@@ -12,9 +12,9 @@ The top set of icons consists of actions added by various plugins, including bot
 
 The bottom three icons in the ribbon correspond to essential Obsidian system actions:
 
-1. Open another vault (![[obsidian-vault-switcher.svg|icon]]).
-2. Access **help** (![[lucide-help-circle.svg|icon]]).
-3. Open **settings** (![[lucide-cog.svg|icon]]).
+1. Open another vault ( ![[obsidian-vault-switcher.svg|icon]] ).
+2. Access **help** ( ![[lucide-help-circle.svg|icon]] ).
+3. Open **settings** ( ![[lucide-cog.svg|icon]] ).
 
 In the mobile version, the ribbon can serve as a quick access action, which can be configured by following the instructions in the [[#Mobile|mobile section]] on customizing the ribbon.
 
@@ -33,7 +33,7 @@ On the desktop version, you can customize the ribbon as follows:
 
 In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the visibility status of the ribbon menu. To access these customizations, follow these steps:
 
-1. Open Obsidian's **settings**.
+1. Open Obsidian's **settings** ( ![[lucide-cog.svg|icon]] ).
 2. Navigate to the **appearance** section.
 3. Scroll down to the **advanced** options.
 4. Click the **Manage** button under the **Ribbon menu** item.

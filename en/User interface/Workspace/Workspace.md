@@ -13,6 +13,6 @@ In the desktop version of Obsidian, the workspace includes these components:
 
 In the mobile version of Obsidian, the workspace includes these components:
 
-- [[Sidebar]] (located on the left sidebar, hidden)
+- [[Sidebar]] (located on the left sidebar, collapsed)
 - [[Status bar]]
     - [[Ribbon|Ribbon menu]]
