@@ -10,7 +10,7 @@ cssclasses:
 
 Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
 
-You can also browse this site the following languages:
+You can also browse this site in the following languages:
 
 - [Dansk](https://publish.obsidian.md/help-da)
 - [Español](https://publish.obsidian.md/help-es)

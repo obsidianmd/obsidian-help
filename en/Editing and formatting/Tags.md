@@ -25,7 +25,7 @@ To find notes using the [[Search]] plugin, use the `tag` [[Search#Search operato
 
 You can also search for tags by clicking on them in your notes.
 
-To find notes using the [[Plugins/Tags|Tags]] plugin, select **Tags: Show tags** in the [[Command palette]], and then select the tag you want to search for.
+To find notes using the [[Tags view|Tags view]] plugin, select **Tags: Show tags** in the [[Command palette]], and then select the tag you want to search for.
 
 ## Nested tags
 
@@ -33,7 +33,7 @@ Nested tags define tag hierarchies that make it easier to find and filter relate
 
 Create nested tags by using forward slashes (`/`) in the tag name, for example  `#inbox/to-read` and `#inbox/processing`.
 
-Both the [[Search]] and [[Plugins/Tags|Tags]] plugins support nested tags.
+Both the [[Search]] and [[Tags view|Tags view]] plugins support nested tags.
 
 ## Tag format
 
