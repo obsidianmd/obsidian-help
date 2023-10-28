@@ -53,8 +53,8 @@ For example, `[[My note#Heading 1#Heading 2]]`.
 
 > [!tip]- Heading links across the vault
 > You can search for headers to link to from across your vault using the `[[##header]]` syntax. 
-> 
-> ![[linking-to-a-header-with-double-hashtags.png]]
+> ![[internal-links-header.png]]
+
 
 ## Link to a block in a note
 
@@ -76,7 +76,7 @@ Block identifiers can only consist of letters, numbers, and dashes.
 
 > [!tip]- Block links across the vault
 > You can search for blocks to link to from across your vault using the `[[^^block]]` syntax. However, more items qualify as blocks in comparison to [[#Link to a heading in a note|heading links]] so this list will be much longer in comparison.
-> ![[link-to-a-double-block.png]]
+> ![[link-block-heading.png]]
 
 > [!warning] Interoperability
 > Block references are specific to Obsidian and not part of the standard Markdown format. Links containing block references won't work outside of Obsidian.

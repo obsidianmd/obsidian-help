@@ -7,6 +7,12 @@ img {
 	border-radius: 4px;
 }
 
+img[alt*="icon"] {
+	vertical-align: text-bottom;
+	margin-left: -0.1em;
+	margin-right: -0.1em;
+}
+
 .site-body-left-column-site-logo {
 	text-align: left;
 	margin-bottom: 24px;
@@ -157,4 +163,3 @@ img {
 		display: none;
 	}
 }
-

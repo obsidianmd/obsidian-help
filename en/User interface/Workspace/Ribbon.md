@@ -2,7 +2,7 @@ The ribbon is a space for common commands.
 
 On desktop, it occupies the vertical space at the very left of the interface. It’s part of the left [[Sidebar]] and is always visible, even if the left sidebar is closed.
 
-On mobile, when you’re not editing a note, you can access the ribbon by tapping the **Menu option** (three vertical bar icon) at the bottom right corner of the app.
+On mobile, when you’re not editing a note, you can access the ribbon by tapping the **Menu option** (![[lucide-menu.svg|icon]]) at the bottom right corner of the app.
 
 ## Actions
 
