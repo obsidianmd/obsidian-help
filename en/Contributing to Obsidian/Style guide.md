@@ -161,22 +161,25 @@ Include images when they make it easier to explain things that are hard to descr
 
 Here are the guidelines for images:
 
+- Use the `> [!screenshot]` callout when practical to hide larger images.
+	- In most cases, this callout should default to collapsed.
 - If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embedding files#Embed an image in a note|embedding an image in a note]].
 - The image should make the text it accompanies easier to understand.
 
-> [!example]
+> [!screenshot]- Screenshot: An example of word count on the statusbar
 > Once enabled, the [[Word count]] plugin will create a new entry on your bottom statusbar.
 > 
 > ![[Style-guide-zoomed-example.png|300]]
 
 - For pop-up windows or modals, the image should show the entire Obsidian application window.
 
-![[Style-guide-modal-example.png|500]]
+> [!screenshot]- Screenshot: An example of a pop-up in Obsidian
+> ![[Style-guide-modal-example.png|500]]
 
 - Images should be in either `.png` or `.svg` format.
 - Optimize images to make them take up less storage space.
 
-> [!success]- Tools for optimizing images
+> [!success] Tools for optimizing images
 > Here are a some recommended programs for reducing the size of your images.
 > - **Windows:** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
 > - **macOS:** [ImageOptim](https://imageoptim.com/)
