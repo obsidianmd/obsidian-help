@@ -117,7 +117,7 @@ Unless you [[#Customize callouts]], any unsupported type defaults to the `note` 
 
 ---
 
-> [!abstract]
+> [!abstract]-
 > ```md
 > > [!abstract]
 > > Lorem ipsum dolor sit amet
