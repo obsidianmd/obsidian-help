@@ -1,4 +1,3 @@
-
 ## Desktop
 
 In the desktop version of Obsidian, the workspace includes these components:

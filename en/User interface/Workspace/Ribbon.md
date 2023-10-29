@@ -14,7 +14,7 @@ The bottom three icons in the ribbon correspond to essential Obsidian system act
 
 1. Open another vault ( ![[obsidian-vault-switcher.svg|icon]] ).
 2. Access **help** ( ![[lucide-help-circle.svg|icon]] ).
-3. Open **settings** ( ![[lucide-cog.svg|icon]] ).
+3. Open **settings** ( ![[lucide-settings.svg|icon]] ).
 
 In the mobile version, the ribbon can serve as a quick access action, which can be configured by following the instructions in the [[#Mobile|mobile section]] on customizing the ribbon.
 
@@ -49,9 +49,9 @@ By default, the quick access option is set to "Open ribbon menu" on a *short pre
 
 #### Rearrange and visibility
 
-To change the order of items in the ribbon menu, press and hold the **drag-and-drop** (![[lucide-menu.svg|icon]]) button and move the selected item up or down.
+To change the order of items in the ribbon menu, press and hold the **drag-and-drop** ( ![[lucide-menu.svg|icon]] ) button and move the selected item up or down.
 
-You can show or hide items in the ribbon menu using the red **remove** (![[lucide-minus-circle.svg|icon]]) or green **add** (![[lucide-plus-circle.svg|icon]]) buttons to toggle their visibility.
+You can show or hide items in the ribbon menu using the red **remove** ( ![[lucide-minus-circle.svg|icon]] ) or green **add** ( ![[lucide-plus-circle.svg|icon]] ) buttons to toggle their visibility.
 
 > [!screenshot]- Screenshot: Ribbon menu adjustments
 > ![[ribbon-rearrange-visibility.jpeg]]
