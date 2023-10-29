@@ -158,6 +158,12 @@ img[alt*="icon"] {
 	filter: invert(1);
 }
 
+
+.callout[data-callout="screenshot"] {
+	--callout-icon: lucide-image;
+	--callout-color: var(--callout-example);
+}
+
 @media screen and (max-width: 750px) {
 	.site-header-text {
 		display: none;
