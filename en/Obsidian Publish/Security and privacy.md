@@ -33,9 +33,9 @@ For improved access control on your publish site, apply a site password. Visitor
 ## Data collection
 ### Visitor data
 
-By default, Obsidian Publish **does not** collect visitor data, store cookies, or process personal information. 
+By default, Obsidian Publish **does not** collect visitor data, store cookies, or process personal information. However you can implement analytics or log other user data by [[Customize your site|customizing your site]].
 
-If you wish to implement analytics or log other user data, as the site owner, you are responsible for complying with GDPR and privacy regulations in your region. This includes creating your own notification banner, which can be implemented using `publish.js`, and adding a privacy policy page to your site.
+As the site owner, you are responsible for complying with GDPR and privacy regulations in your region. This includes creating your own notification banner, which can be implemented using publish.js, and adding a privacy policy page to your site.
 
 ## Access
 ### Managing access to Obsidian Publish on your network
