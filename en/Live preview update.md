@@ -4,7 +4,7 @@ Live Preview is a new editor mode that lets you preview your notes in the same v
 
 This is what your editing experience used to look like:
 
-![[Source view.png]]
+![[Source view.png#interface]]
 
 And here's the same note using Live Preview:
 

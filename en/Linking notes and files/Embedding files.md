@@ -33,7 +33,7 @@ To embed an image:
 ![[Engelbart.jpg]]
 ```
 
-![[Engelbart.jpg]]
+![[Engelbart.jpg#outline]]
 
 You can change the image dimensions, by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
 
@@ -43,7 +43,7 @@ You can change the image dimensions, by adding `|640x480` to the link destinatio
 
 If you only specify the width, the image scales according to its original aspect ratio. For example, `![[Engelbart.jpg|100]]`.
 
-![[Engelbart.jpg|100]]
+![[Engelbart.jpg#outline|100]]
 
 ## Embed an audio file in a note
 

@@ -47,7 +47,7 @@ Once you've opened the developer console:
 5. Save the log file to your device.
 6. Attach the log file to your bug report or Obsidian support email.
 
-![[help-support-console-menu.png|600]]
+![[help-support-console-menu.png#interface|600]]
 
 > [!warning] Mobile devices/tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) to automatically generate the console log data in a markdown note.
 

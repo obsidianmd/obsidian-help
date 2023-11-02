@@ -8,7 +8,7 @@ To start using Canvas, you first need to create a file to hold your canvas. You 
 
 **Ribbon:**
 
-- In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg|icon]] to create a canvas in the same folder as the active file.
+- In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
 
 **Command palette:**
 
