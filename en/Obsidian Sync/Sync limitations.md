@@ -3,7 +3,7 @@ aliases:
   - Limitations
 ---
 
-This page lists some of the common questions related to quotas and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
+This page lists some of the common questions related to questions and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
 
 ## General
 
@@ -34,9 +34,11 @@ At the moment, you can share a remote vault with up to 10 people.
 ## Data retention
  
 These are commonly asked questions on Obsidian's data retention. For more in depth answers, see [[Obsidian Sync/Security and privacy|Security and privacy]].
+
 ### How long do you keep the version history?
 
 We keep [[Version history|version histories]] of Markdown files for up to one year before we clean it up. Attachments are kept for two weeks.
+
 ### How long do you keep my data after my subscription expires?
 
 We keep data in your remote vaults, including version history, for one month after your subscription expires. Any local vaults on your devices are unaffected.
