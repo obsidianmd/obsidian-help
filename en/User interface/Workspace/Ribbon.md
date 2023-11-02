@@ -2,7 +2,7 @@ The ribbon functions as a space for common commands within Obsidian.
 
 On desktop, it's located in the left sidebar and remains visible even when the left sidebar is closed. 
 
-On mobile, you can access the ribbon by tapping the **Menu option** (![[lucide-menu.svg|icon]]) at the bottom right corner of the app when you're not editing a note.
+On mobile, you can access the ribbon by tapping the **Menu option** (![[lucide-menu.svg#icon]]) at the bottom right corner of the app when you're not editing a note.
 
 ## Actions
 
@@ -12,9 +12,9 @@ The top set of icons consists of actions added by various plugins, including bot
 
 The bottom three icons in the ribbon correspond to essential Obsidian system actions:
 
-1. Open another vault ( ![[obsidian-vault-switcher.svg|icon]] ).
-2. Access **help** ( ![[lucide-help-circle.svg|icon]] ).
-3. Open **settings** ( ![[lucide-settings.svg|icon]] ).
+1. Open another vault ( ![[obsidian-vault-switcher.svg#icon]] ).
+2. Access **help** ( ![[lucide-help-circle.svg#icon]] ).
+3. Open **settings** ( ![[lucide-settings.svg#icon]] ).
 
 In the mobile version, the ribbon can serve as a quick access action, which can be configured by following the instructions in the [[#Mobile|mobile section]] on customizing the ribbon.
 
@@ -33,7 +33,7 @@ On the desktop version, you can customize the ribbon as follows:
 
 In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the visibility status of the ribbon menu. To access these customizations, follow these steps:
 
-1. Open Obsidian's **settings** ( ![[lucide-cog.svg|icon]] ).
+1. Open Obsidian's **settings** ( ![[lucide-cog.svg#icon]] ).
 2. Navigate to the **appearance** section.
 3. Scroll down to the **advanced** options.
 4. Click the **Manage** button under the **Ribbon menu** item.
@@ -49,10 +49,8 @@ By default, the quick access option is set to "Open ribbon menu" on a *short pre
 
 #### Rearrange and visibility
 
-To change the order of items in the ribbon menu, press and hold the **drag-and-drop** ( ![[lucide-menu.svg|icon]] ) button and move the selected item up or down.
+To change the order of items in the ribbon menu, press and hold the **drag-and-drop** ( ![[lucide-menu.svg#icon]] ) button and move the selected item up or down.
 
-You can show or hide items in the ribbon menu using the red **remove** ( ![[lucide-minus-circle.svg|icon]] ) or green **add** ( ![[lucide-plus-circle.svg|icon]] ) buttons to toggle their visibility.
-
-> [!screenshot]- Screenshot: Ribbon menu adjustments
-> ![[ribbon-rearrange-visibility.jpeg]]
-
+You can show or hide items in the ribbon menu using the red **remove** ( ![[lucide-minus-circle.svg#icon]] ) or green **add** ( ![[lucide-plus-circle.svg#icon]] ) buttons to toggle their visibility.
+ 
+ ![[ribbon-rearrange-visibility.jpeg#interface]]

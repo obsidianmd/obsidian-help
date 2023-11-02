@@ -1,4 +1,4 @@
-Any files or settings that have been synced to your [[Local and remote vaults|remote vault]] count towards your [[Limitations#How large can each remote vault be|storage space]]. By default, [[Introduction to Obsidian Sync|Obsidian Sync]] ignores larger files such as audio, video, and PDFs.
+Any files or settings that have been synced to your [[Local and remote vaults|remote vault]] count towards your [[Sync limitations#How large can each remote vault be|storage space]]. By default, [[Introduction to Obsidian Sync|Obsidian Sync]] ignores larger files such as audio, video, and PDFs.
 
 **Notes:**
 
@@ -32,9 +32,10 @@ By default, Obsidian syncs all files and folders in your vault. If you don't wan
 
 ## Create a settings profile
 
-Obsidian Sync can sync multiple settings folders to the same remote vault. You can use this to create different profiles, for example one for mobile devices and another for your laptop.
+Obsidian Sync can sync multiple [[Config folders|config folders]] to the same remote vault. You can use this to create different profiles, for example one for mobile devices and another for your laptop.
 
 To set your settings folder:
 
 1. Open **Settings → About**.
 2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-mobile`.
+3. Relaunch Obsidian to have the changes take effect. 

@@ -157,46 +157,31 @@ Recommended image dimensions: 1920 x 1080 pixels.
 
 ## Icons and images
 
-Include images when they make it easier to explain things that are hard to describe with words, or when you need to show important parts of the Obsidian application. You can save images in the `Attachments` folder.
+Include icons and images when they make it easier to explain things that are hard to describe with words, or when you need to show important parts of the Obsidian application. You can save images in the `Attachments` folder.
 
-Here are the guidelines for images:
-
-- Use the `> [!screenshot]` callout when practical to hide larger images.
-	- In most cases, this callout should default to collapsed.
-- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embedding files#Embed an image in a note|embedding an image in a note]].
 - The image should make the text it accompanies easier to understand.
 
-> [!screenshot]- Screenshot: An example of word count on the statusbar
-> Once enabled, the [[Word count]] plugin will create a new entry on your bottom statusbar.
-> 
-> ![[Style-guide-zoomed-example.png|300]]
-
-- For pop-up windows or modals, the image should show the entire Obsidian application window.
-
-> [!screenshot]- Screenshot: An example of a pop-up in Obsidian
-> ![[Style-guide-modal-example.png|500]]
+ **Example**: Once enabled, the [[Word count]] plugin will create a new entry on your bottom statusbar.
+ 
+![[Style-guide-zoomed-example.png#interface|300]]
 
 - Images should be in either `.png` or `.svg` format.
-- Optimize images to make them take up less storage space.
+- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embedding files#Embed an image in a note|embedding an image in a note]].
+- In rare cases, you may want to place especially large or complex images in a [[Callouts#Foldable callouts|folded callout]]. 
+- For pop-up windows or modals, the image should show the entire Obsidian application window.
+ ![[Style-guide-modal-example.png#interface]]
 
-> [!success] Tools for optimizing images
-> Here are a some recommended programs for reducing the size of your images.
-> - **Windows:** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
-> - **macOS:** [ImageOptim](https://imageoptim.com/)
-> - **Linux/Unix** [Trimage](https://trimage.org)
-> 
-> We recommend an optimization rate of 65-75%.
+### Icons
 
-### Lucide icons
+[Lucide](https://lucide.dev/icons/) and custom Obsidian icons can be used alongside detailed elements to provide a visual representation of a feature.
 
-[Lucide](https://lucide.dev/icons/) icons can be used alongside detailed elements to provide a visual representation of a feature.
+**Example:** In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
 
-**Example:** In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg|icon]] to create a canvas in the same folder as the active file.
-
-**Guidelines for Lucide Icons**
+**Guidelines for icons**
 
 - Store icons in the `Attachments/icons` folder.
 - Add the prefix `lucide-` before the Lucide icon name.
+- Add the prefix `obsidian-` before the Obsidian icon name.
 
 **Example:** The icon for creating a new canvas should be named `lucide-layout-dashboard`.
 
@@ -208,8 +193,62 @@ Here are the guidelines for images:
 > <svg xmlns="http://www.w3.org/2000/svg" width="WIDTH" height="HEIGHT" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="STROKE-WIDTH" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
 >```
 
-- Utilize the `icon` alias to tweak the spacing around the icon so that it aligns neatly with the text in the vicinity.
+- Utilize the `icon` anchor in embedded images, to tweak the spacing around the icon so that it aligns neatly with the text in the vicinity.
+- Icons should be surrounded by parenthesis. ( ![[lucide-cog.svg#icon]] )
 
-**Example**: `![[image.svg|icon]]`
+**Example**: `( ![[lucide-cog.svg#icon]] )`
 
-Remember to optimize icons in the same way you optimize images.
+### Image anchor tags
+
+Image anchors tags are available to add decorative changes to the embedded images. 
+
+> [!warning] Live preview warning
+> The icon anchor tags will not display correctly in **Live preview.** Use **Reading view** to confirm the anchor tag has been applied. 
+
+**Icon**
+
+`![[lucide-menu.svg#icon]]`
+
+The icon anchor tag ensures correct vertical alignment for icons used to indicate interface elements.
+
+The first menu icon uses the anchor tag ![[lucide-menu.svg#icon]], while the second menu icon ![[lucide-menu.svg]] does not.
+
+
+**Interface**
+
+`![[Vault picker.png#interface]]`
+
+The interface anchor tag adds a decorative box shadow around the image. In the first image, the interface anchor tag is applied.
+![[Vault picker.png#interface]]
+In contrast, the second image does not have the interface anchor applied.
+
+![[Vault picker.png]]
+
+**Outline**
+
+`![[Backlinks.png#outline]]`
+
+The outline anchor tag adds a subtle border around the image. In the first image, the outline anchor tag is applied. 
+
+> [!tip] Observe the lower left of the image to see the difference.
+
+![[Backlinks.png#outline]]
+
+The second image lacks the outline anchor tag.
+
+![[Backlinks.png]]
+
+### Optimization
+
+Images slow the loading time of the page, and take valuable [[Introduction to Obsidian Publish|Publish]] storage space. Optimizing images allows a reduction in file size, but maintains the visual integrity of the image. 
+
+Both images and icons should be optimized.
+
+
+> [!success] Tools for optimizing images
+> Here are a some recommended programs for reducing the size of your images.
+> - **Windows:** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
+> - **macOS:** [ImageOptim](https://imageoptim.com/)
+> - **Linux/Unix** [Trimage](https://trimage.org)
+> 
+> We recommend an optimization rate of 65-75%.

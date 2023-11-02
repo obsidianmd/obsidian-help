@@ -28,6 +28,12 @@ Only the notes you choose to publish are sent to Obsidian's servers, and any not
 3. Under **Other site settings**, next to **Passwords**, click **Manage**.
 5. Click the cross-icon next to the password you want to delete.
 
+## Publish and visitor data
+
+By default Obsidian Publish does not collect any visitor data. No cookies are stored, and no personal data is processed. 
+
+If you are looking to implement analytics or logging other user data, you as the site owner are responsible for GDPR and other privacy compliance within your locale, i.e. creating your own banner which you can implement via publish.js and adding your own privacy policy page.
+
 ## Managing access to Obsidian Publish on your network
 
 To regulate access to Obsidian Publish on your network, you need to manage the following domains:
@@ -38,3 +44,4 @@ To regulate access to Obsidian Publish on your network, you need to manage the f
 Additionally, the backend services employ the following subdomains: `publish-xx.obsidian.md`, where `xx` is a number ranging from `1 - 100`.
 
 > [!tip] If your firewall system supports it, we recommend whitelisting `publish-*.obsidian.md` to accommodate our continuous expansion of subdomains.
+

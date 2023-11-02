@@ -6,7 +6,7 @@ Obsidian stores your notes as [[Basic formatting syntax|Markdown-formatted]] pla
 
 Because notes are plain text files, you can use other text editors and file managers to edit and manage notes. Obsidian automatically refreshes your vault to keep up with any external changes.
 
-You can create a vault anywhere your operating system allows. Obsidian syncs with Dropbox, iCloud, OneDrive, Git, and many other third-party services.
+You can create a vault anywhere your operating system allows. Obsidian syncs with [[Introduction to Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git, and many other third-party services.
 
 You can open multiple folders as individual vaults, for example to separate notes for work and personal use.
 

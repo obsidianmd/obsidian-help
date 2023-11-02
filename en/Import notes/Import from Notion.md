@@ -13,7 +13,7 @@ Obsidian uses Notion's HTML export format. You can find Notions's instructions o
 4. Under **Export format** select **HTML**.
 5. You will receive a `.zip` file via email or directly in the browser.
 
-![[notion-export.png]]
+![[notion-export.png#interface]]
 
 ## Import your Notion data into Obsidian
 

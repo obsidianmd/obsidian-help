@@ -71,7 +71,7 @@ This section controls the forces that act on each node in the graph.
 
 Notes and attachments appear in chronological order based on their creation time.
 
-![[Pasted image 10.png]]
+![[obsidian-graph-view.png#interface]]
 
 ## Local Graph
 

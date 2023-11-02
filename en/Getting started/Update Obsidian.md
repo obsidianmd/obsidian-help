@@ -12,7 +12,7 @@ Open **Settings → About**.
 
 You can find the current Obsidian version and installer version in the upper-left corner.
 
-![[application-installer-current-version.png]]
+![[application-installer-current-version.png#interface]]
 
 To apply any available updates, click **Relaunch**.
 
