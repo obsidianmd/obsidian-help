@@ -1,5 +1,4 @@
-Learn how you can get help and support resources when using Obsidian or any of our paid services.
-
+Find support resources, report security or community violations, and learn how to contribute to Obsidian.
 ## Questions and advice
 
 If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
@@ -51,15 +50,26 @@ Once you've opened the developer console:
 
 > [!warning] Mobile devices/tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) to automatically generate the console log data in a markdown note.
 
+
 ## Report a security issue
 
 If you've discovered a security issue in Obsidian, or if you suspect that a plugin is malicious, please [email the Obsidian team](mailto:support@obsidian.md).
 
 ## Report a Code of Conduct violation
 
-Regardless of if you're the victim or a witness of a violation of our [[Community code of conduct]], you can report the incident to the moderator team.
+Whether you're a victim or witness of a violation of our [[Community code of conduct]], you can report the incident to our moderator team
 
 Report the incident on one of the following community channels:
 
 - [[Community code of conduct#Report on Discord|Report on Discord]]
 - [[Community code of conduct#Report on the forum|Report on the forum]]
+
+## Contributing to Obsidian
+
+Interested in applying some skills and free time to Obsidian? Here is where we could really use your assistance:
+
+- Help your fellow Obsidian users out by answering questions on our [discord server](https://discord.gg/obsidianmd), our [forum](https://forum.obsidian.md/), or the [ObsidianMD](https://old.reddit.com/r/ObsidianMD/) reddit.
+- [[Developers]], we could really use your help on expanding our [Obsidian Developer Documentation](https://github.com/obsidianmd/obsidian-developer-docs). 
+- Do you know any written language besides English? Consider assisting with our [[Translations]] into other languages.
+- Is there something in these help docs that are out of date, or confusing? Grab the [[Style guide]] and submit an [issue and pull request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+- If able, you can [[Financial contributions|financially contribute]] by utilizing one of our paid addons. 
