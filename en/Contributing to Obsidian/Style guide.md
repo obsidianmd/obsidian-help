@@ -77,11 +77,11 @@ Don't indicate a direction when referring to settings. The location of the setti
 
 **Recommended:**
 
-- Next to **Pick remote vault**, click **Choose**.
+- Next to **Pick remote vault**, select **Choose**.
 
 **Not recommended:**
 
-- To the right of **Pick remote vault**, click **Choose**.
+- To the right of **Pick remote vault**, select **Choose**.
 
 ### Sentence case
 
