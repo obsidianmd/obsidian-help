@@ -1,6 +1,7 @@
 ---
 aliases:
   - Limitations
+  - Sync limitations
 ---
 
 This page lists some of the common questions related to questions and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
@@ -11,17 +12,21 @@ This page lists some of the common questions related to questions and limitation
 
 Obsidian Sync supports every platform that Obsidian can run on. Currently that means Windows, macOS, Linux, Android and iOS.
 
+### How much storage do I have?
+
+You have 50 GB of account storage to use for your remote vaults. This storage limit includes [[Version history|version history]].
+
 ### How many remote vaults can I have?
 
-Each account with Obsidian Sync can have up to 5 remote vaults.
+Each account with Obsidian Sync can have up to 10 remote vaults.
 
 ### How large can each remote vault be?
 
-At the moment, each remote vault can have up to 10 GB of data, including [[Version history|version history]].
+You can allocate your storage any way you want across all your vaults. 
 
 ### How large can each file be?
 
-At the moment, each file can be up to 100 MB.
+At the moment, each file can be up to 200 MB.
 
 ### Is my data being synced in the background?
 

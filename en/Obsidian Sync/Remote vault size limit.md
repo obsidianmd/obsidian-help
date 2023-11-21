@@ -1,4 +1,4 @@
-Each remote vault can have up to 10 GB of data, including [[version history]] and [[attachments]].
+Each Obsidian Sync account can have up to 50 GB of data, including [[version history]] and [[attachments]]. When you reach the maximum size of your account limit, Sync will cease syncing files, and you will be prompted to prune your remote vault(s).
 
 ## Identify and delete large files
 
