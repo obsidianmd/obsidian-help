@@ -8,7 +8,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 - An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
 - An active Obsidian Sync subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
 
-## Log in with your obsidian account
+## Log in with your Obsidian account
 
 1. Open **Settings**.
 2. In the sidebar, click **About**.
@@ -17,7 +17,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 5. In **Password**, enter your password.
 6. Click **Login**.
 
-## Enable obsidian sync
+## Enable Obsidian Sync
 
 1. Open **Settings**.
 2. In the sidebar, click **Core plugins**.
@@ -36,13 +36,15 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 
 ### Regional sync servers
 
-Starting from [Obsidian release 1.5](https://obsidian.md/changelog/2023-11-20-desktop-v1.5.0/), users will have the option to select the location for hosting their remote vault. 
+As of [Obsidian release 1.5](https://obsidian.md/changelog/2023-11-20-desktop-v1.5.0/), users can now choose the hosting location for their remote vault. 
+
+For users not yet on release 1.5 or a later version, the assignment of their remote vault location will be handled automatically. 
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
-![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
+After selecting a location, it's crucial to be aware that the data center **cannot** be changed afterward. If you wish to relocate your data, the process involves [[#Create a new remote vault|creating a new remote vault]] and specifying the desired hosting location during the setup.
 
-Once a location is chosen, it is important to note that the data center **cannot** be changed thereafter. To relocate your data, you will need to [Create a new remote vault](app://obsidian.md/index.html#Create%20a%20new%20remote%20vault) specifying the desired hosting location.
+![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 
 ## Connect to a remote vault
 
