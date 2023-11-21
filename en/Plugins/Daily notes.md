@@ -36,3 +36,10 @@ If your daily notes have the same structure, you can use a [[Templates|template]
 4. In the text box next to **Template file location**, select the "Daily template" note.
 
 Obsidian uses the template the next time you create a new daily note.
+
+## Daily notes and properties
+
+When the Daily notes plugin is activated and a date property is present within any note, Obsidian will automatically attempt to generate a link to the daily note for that specific day. For instance, if a note titled `example.md` includes a date property like `2023-01-01`, this date will transform into a clickable link in the [[Editing and previewing Markdown#Live Preview|live preview]] section.
+
+![[daily-notes-and-date-properties.png#interface|300]]
+^daily-notes-date
