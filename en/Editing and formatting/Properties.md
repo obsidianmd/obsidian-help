@@ -176,6 +176,7 @@ The date picker follows your operating system's default date and time format. Yo
 > 
 > ![[Mac-OS-DateTime.png|450]]
 
+With the [[Daily notes]] plugin enabled, the date property will additionally function as an internal link to the corresponding daily note for that date.
 ### JSON Properties
 
 While we recommend using YAML to define properties, you can also define properties using [JSON](https://www.json.org/):
