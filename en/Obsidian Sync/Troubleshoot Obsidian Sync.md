@@ -20,7 +20,7 @@ If a note was created locally on a device less than a couple of minutes before S
 
 ## What does the `vault limit exceeded` error mean?
 
-Your vault exceeds the [[Sync limitations#How large can each remote vault be|maximum size of 10 GB]]. See [[Remote vault size limit]].
+Your account exceeds the [[Sync limitations#How large can each remote vault be|maximum size of 50 GB]]. See [[Remote vault size limit]].
 
 Since attachments and version history contributes to the total size of your vault, your vault can exceed the maximum size even if the actual size of your vault is less than the limit.
 
