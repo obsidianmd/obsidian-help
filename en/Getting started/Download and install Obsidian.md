@@ -7,6 +7,9 @@ This page lists all supported ways to download and install Obsidian.
 3. Open the installation file and follow the instructions.
 4. Open Obsidian the same way you would open any other application.
 
+> [!tip] System installer available
+> For those who require a system installer for Windows, you can find the `-allusers.exe` download on the [Releases](https://github.com/obsidianmd/obsidian-releases/releases) page.
+
 ## Install Obsidian on macOS
 
 1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
