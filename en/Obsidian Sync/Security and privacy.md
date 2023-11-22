@@ -11,7 +11,7 @@ For your safety, [[Introduction to Obsidian Sync|Obsidian Sync]] encrypts your [
 When you create a new remote vault, you have two options:
 
 - **End-to-end encryption:** Obsidian encrypts the vault on your device with a custom encryption key before it's sent to Obsidian's servers. This guarantees that no one—not even the Obsidian team—can access your notes.
-- **Managed encryption:** If you don't want to have to remember another password, you can let Obsidian manage the encryption password for you. While we store your encryption password on our servers, we only use it to offer a more convenient way to manage your vaults. Obsidian will never access your vault without your explicit consent.
+- **Managed encryption:** If you don't want to have to remember another password, you can let Obsidian manage the encryption password for you. While we store your encryption password on our servers, we only use it to offer a more convenient way to manage your vaults.
 
 If you forget or lose your custom encryption password, your data remains encrypted and unusable forever. We're not able to recover your password, or any encrypted data for you.
 
@@ -52,7 +52,7 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provide geo-regional remote vault hosting options in the following locations:
 
 > [!info] Sync geo-regions
-> **Automatic**: When "automatic" is selected, European and African IP addresses will be routed to the Frankfurt data center, while IP addresses from Asia, Oceania, and the Americas will be directed to the San Francisco data center.. 
+> **Automatic**: Your data center is chosen based off your IP location.
 > **North America**: San Francisco, USA 
 > **Europe**: Frankfurt, Germany
 ^sync-geo-regions
