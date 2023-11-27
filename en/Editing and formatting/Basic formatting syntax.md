@@ -16,7 +16,7 @@ This is a paragraph.
 This is another paragraph.
 ```
 
-> [!note] Multiple blank spaces
+> [!note]- Multiple blank spaces
 > Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Editing and previewing Markdown#Editor views|Reading view]] and on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
 > 
 > ```md
@@ -34,8 +34,6 @@ This is another paragraph.
 > > and multiple newlines between paragraphs.
 > 
 > If you want to add multiple spaces, you can add `&nbsp;` (blank space) and `<br>` (newline) to your note.
-
-
 
 ## Headings
 
@@ -58,7 +56,9 @@ To create a heading, add up to six `#` symbols before your heading text. The num
 <h5>This is a heading 5</h5>
 <h6>This is a heading 6</h6>
 
-## Styling text
+## Bold, italics, highlights
+
+Text formatting can also be applied using [[Keyboard shortcuts for editing]].
 
 | Style | Syntax | Example | Output |
 |-|-|-|-|
@@ -69,83 +69,12 @@ To create a heading, add up to six `#` symbols before your heading text. The num
 | Bold and nested italic | `** **` and `_ _`  | `**Bold text and _nested italic_ text**` | **Bold text and _nested italic_ text** |
 | Bold and italic | `*** ***` or `___ ___` |  `***Bold and italic text***` | ***Bold and italic text*** |
 
-## Quotes
+## Internal links
 
-You can quote text by adding a `>` symbols before the text.
+Obsidian supports two formats for [[internal links]] between notes:
 
-```md
-> Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
-
-\- Doug Engelbart, 1961
-```
-
-> Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
-
-\- Doug Engelbart, 1961
-
-> [!tip]
-> You can turn your quote into a [[Callouts|callout]] by adding `[!info]` as the first line in a quote.
-
-## Code
-
-You can format code both inline within a sentence, or in its own block.
-
-### Inline code
-
-You can format code within a sentence using single backticks.
-
-```md
-Text inside `backticks` on a line will be formatted like code.
-```
-
-Text inside `backticks` on a line will be formatted like code.
-
-If you want to put backticks in an inline code block, surround it with double backticks like so: inline ``code with a backtick ` inside``.
-
-### Code blocks
-
-To format a block of code, surround the code with triple backticks.
-
-~~~
-```
-cd ~/Desktop
-```
-~~~
-
-```md
-cd ~/Desktop
-```
-
-You can also create a code block by indenting the text using `Tab` or 4 blank spaces.
-
-```md
-    cd ~/Desktop
-```
-
-You can add syntax highlighting to a code block, by adding a language code after the first set of backticks.
-
-~~~md
-```js
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-~~~
-
-```js
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-
-Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
-
-> [!note]
-> [[Live preview update|Live Preview mode]] doesn't support PrismJS and may render syntax highlighting differently.
+- Wikilink: `[[Three laws of motion]]`
+- Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
 ## External links
 
@@ -156,9 +85,6 @@ If you want to link to an external URL, you can create an inline link by surroun
 ```
 
 [Obsidian Help](https://help.obsidian.md)
-
-> [!tip]
-> If you want to link to a file inside your vault, consider using an [[Internal links|internal link]] instead.
 
 You can also create external links to files in other vaults, by linking to an [[Obsidian URI|Obsidian URI]].
 
@@ -204,6 +130,23 @@ If you only specify the width, the image scales according to its original aspect
 
 > [!tip]
 > If you want to add an image from inside your vault, you can also [[Embedding files#Embed an image in a note|embed an image in a note]].
+
+## Quotes
+
+You can quote text by adding a `>` symbols before the text.
+
+```md
+> Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
+
+\- Doug Engelbart, 1961
+```
+
+> Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
+
+\- Doug Engelbart, 1961
+
+> [!tip]
+> You can turn your quote into a [[Callouts|callout]] by adding `[!info]` as the first line in a quote.
 
 ## Lists
 
@@ -291,7 +234,7 @@ Similarly, you can create a nested task list by indenting one or more list items
 	- [ ] Subtask 1
 
 Use `Tab` or `Shift+Tab` to indent or unindent one or more selected list items for easy organization.
-## Horizontal bar
+## Horizontal rule
 
 You can use three or more stars `***`, hyphens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.
 
@@ -309,7 +252,66 @@ _ _ _
 
 ***
 
----
+## Code
+
+You can format code both inline within a sentence, or in its own block.
+
+### Inline code
+
+You can format code within a sentence using single backticks.
+
+```md
+Text inside `backticks` on a line will be formatted like code.
+```
+
+Text inside `backticks` on a line will be formatted like code.
+
+If you want to put backticks in an inline code block, surround it with double backticks like so: inline ``code with a backtick ` inside``.
+
+### Code blocks
+
+To format a block of code, surround the code with triple backticks.
+
+~~~
+```
+cd ~/Desktop
+```
+~~~
+
+```md
+cd ~/Desktop
+```
+
+You can also create a code block by indenting the text using `Tab` or 4 blank spaces.
+
+```md
+    cd ~/Desktop
+```
+
+You can add syntax highlighting to a code block, by adding a language code after the first set of backticks.
+
+~~~md
+```js
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+~~~
+
+```js
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
+
+> [!note]
+> [[Live preview update|Live Preview mode]] doesn't support PrismJS and may render syntax highlighting differently.
 
 ## Footnotes
 
