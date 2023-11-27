@@ -22,7 +22,7 @@ Obsidian also supports [Markdown](https://en.wikipedia.org/wiki/Markdown)—a ma
 
    > \# A second brain, for you, forever.
 
-   The hashtag (`#`) turns a row of text into a heading.
+   The hash symbol (`#`) turns a row of text into a heading.
 
 2. In your note, select the text "knowledge base" and press `Ctrl+B` (or `Cmd+B` on macOS) to make it bold.
 

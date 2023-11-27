@@ -43,11 +43,11 @@ While you can link to any of the [[Accepted file formats]], links to file format
 
 You can link to specific headings in notes, also known as _anchor links_.
 
-To link to a heading, add a hashtag (`#`) at the end of the link destination, followed by the heading text.
+To link to a heading, add a hash (`#`) at the end of the link destination, followed by the heading text.
 
 For example, `[[Three laws of motion#Second law]]`.
 
-You can add multiple hashtags for each subheading.
+You can add multiple hash symbols for each subheading.
 
 For example, `[[My note#Heading 1#Heading 2]]`.
 

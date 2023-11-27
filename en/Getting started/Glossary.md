@@ -91,7 +91,7 @@ A **tab group** is a collection of [[#tab|tabs]] in the [[#main area]]. Tabs in 
 
 ## Tag
 
-A **tag** is a word that starts with a hashtag (#), for example `#book`. Tags are primarily used to find related [[#note|notes]].
+A **tag** is a word that starts with a hash (`#`), for example `#book`. Tags are primarily used to find related [[#note|notes]].
 
 ## Theme
 
