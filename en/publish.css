@@ -94,11 +94,11 @@ img[src$="#icon"] {
     border: 1px solid var(--color-base-25);
 }
 
-.list-cards div > ul > li:has(ul) {
+.list-cards div > ul.has-list-bullet > li {
     flex-direction: column;
 }
 
-.list-cards div > ul > li:has(ul) a {
+.list-cards div > ul.has-list-bullet > li a {
     flex-grow: 0;
 }
 
