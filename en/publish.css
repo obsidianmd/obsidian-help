@@ -74,6 +74,10 @@ img[src$="#icon"] {
     border: none;
 }
 
+.list-cards {
+	--list-cards-template: repeat(2, minmax(0, 1fr));
+}
+
 .list-cards div > ul {
     --link-color: var(--text-normal);
     --link-unresolved-color: var(--text-muted);
@@ -84,7 +88,7 @@ img[src$="#icon"] {
     --link-external-decoration-hover: none;
     display: grid;
     gap: 8px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: var(--list-cards-template);
     padding: 0;
 }
 
@@ -209,4 +213,7 @@ img[src$="#icon"] {
     .site-header-text {
         display: none;
     }
+    .list-cards.list-cards-mobile-full {
+		--list-cards-template: repeat(1, minmax(0, 1fr));
+	}
 }
