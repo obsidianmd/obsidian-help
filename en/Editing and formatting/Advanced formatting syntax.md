@@ -20,7 +20,7 @@ You can create table using vertical bars (`|`) and hyphens (`-`). Vertical bars 
 | Max        | Planck    |
 | Marie      | Curie     |
 
-The vertical bars or either side of the table are optional.
+The vertical bars on either side of the table are optional.
 
 Cells don't need to be perfectly aligned with the columns. Each header row must have at least two hyphens.
 
