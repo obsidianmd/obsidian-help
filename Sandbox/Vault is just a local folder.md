@@ -9,7 +9,7 @@ In Obsidian, a vault is a plain folder on your computer. By plain, we mean it's 
 
 No need to worry about loading your content from our servers. You know, servers can get hacked or be offline or be slow when you need it most.
 
-No need to worry about exporting or converting if you move way from Obsidian either. The vault is just a folder that sits here—Obsidian is not going to delete any of your vault folders just because you uninstall Obsidian.
+No need to worry about exporting or converting if you move away from Obsidian either. The vault is just a folder that sits there—Obsidian is not going to delete any of your vault folders just because you uninstall Obsidian.
 
 Finally, please understand that with great power comes great responsibility. Now that you’re in charge of your data, it’s also your job to back it up and keep it safe. ^0f681f
 
