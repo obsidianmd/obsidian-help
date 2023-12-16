@@ -13,3 +13,7 @@ You can easily tweak it by adding [[CSS snippets]].
 You can make the window translucent by enabling this option in the settings appearance tab. Currently this option is only available for Windows and macOS.
 
 There's a known issue under Windows where dragging the window is extremely slow when translucency is enabled. This is due to a Windows bug. A GitHub issue tracking the status of a fix can be found here: https://github.com/riverar/sample-win32-acrylicblur/issues/2
+
+### Custom App Icons
+
+Personalize your Obsidian experience by adding a custom app icon. Head to the **appearance** settings in Obsidian, and locate the **Custom app icon** option within the **advanced** section.
