@@ -16,4 +16,4 @@ There's a known issue under Windows where dragging the window is extremely slow 
 
 ### Custom App Icons
 
-You can have a custom app icon for obsidian. This option can be found in the appearance settings.
+Personalize your Obsidian experience by adding a custom app icon. Head to the **appearance** settings in Obsidian, and locate the **Custom app icon** option within the **advanced** section.
