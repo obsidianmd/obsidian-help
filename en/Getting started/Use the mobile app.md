@@ -73,3 +73,7 @@ When you tap it, you’ll be able to switch to any open tab. You can also a new 
 ### Ribbon actions
 
 The mobile app has no [[Ribbon]]. Instead, the ribbon actions will be available when you tap **Open menu** (three bars icon), the last option on the navigation bar.
+
+### Right sidebar
+
+The right sidebar can be accessed by swiping left either while editing the active note or in the Reading view by holding the triple-dot icon in the upper-right corner.
