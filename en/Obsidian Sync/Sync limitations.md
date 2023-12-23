@@ -14,7 +14,7 @@ Obsidian Sync supports every platform that Obsidian can run on. Currently that m
 
 ### How much storage do I have?
 
-You have 50 GB of account storage to use for your remote vaults. This storage limit includes [[Version history|version history]].
+The storage limit will depend upon which Obsidian Sync plan you are subscribed to. This storage limit includes [[Version history|version history]].
 
 ### How many remote vaults can I have?
 
@@ -27,6 +27,12 @@ You can allocate your storage any way you want across all your vaults.
 ### How large can each file be?
 
 At the moment, each file can be up to 200 MB.
+
+### What type of data will sync?
+
+By default your obsidian notes, images, and your [[Config folders|config folders]] will sync. 
+
+You can add additional syncing options of PDF's, audio files, video files, and other files when you [[select files and settings to sync]].
 
 ### Is my data being synced in the background?
 
