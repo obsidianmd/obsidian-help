@@ -13,7 +13,7 @@ We recommend using a dedicated backup service that doesn't automatically update 
 >
 > To use Obsidian Sync together with Files On-Demand and similar features, make sure to configure the service to always keep the files on the device.
 
-In the vault switcher, your vault now has a vault icon instead of a cloud to indicate it's no longer synced to iCloud Drive. 
+In the vault switcher, your vault now has a vault icon instead of a cloud, to indicate it's no longer synced to iCloud Drive. 
 
 ## Remove your vault from a third-party sync service
 

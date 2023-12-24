@@ -47,13 +47,19 @@ After selecting a location, it's crucial to be aware that the data center **cann
 
 ## Connect to a remote vault
 
-1. Next to your newly created vault, click **Connect**.
-2. In **Encryption password**, enter the password you configured for the vault.
+> [!danger] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? Please read [[Obsidian Sync and third-party services]] first before proceeding.
+
+
+1. Next to your newly created vault, select **Connect**.
+2. In **Encryption password**, enter the password you configured for the vault if you opted into [[Obsidian Sync/Security and privacy#What does end-to-end encryption mean?|end-to-end encryption]].
 3. Select **Unlock vault**.
-4. It is highly recommended that you do not start syncing yet. Instead, proceed to [[Select files and settings to sync#Initially adjusting your Sync settings|syncing your vault settings for the first time]].
+4. It is highly recommended that you <u>do not</u> start syncing yet. Instead, proceed to [[Select files and settings to sync#Initially adjusting your Sync settings|syncing your vault settings for the first time]].
 5. If you wish to start syncing right away, select **Start Syncing**.
+
 
 > [!note] Sync settings and other file types
 > By default, Sync only syncs notes and images. For information how to sync other file types, refer to [[Select files and settings to sync#Select file types to sync|Select file types to sync]].
 >
 > If you want to sync vault configuration, such as settings for [[Core plugins]], [[Custom hotkeys]], or [[Community plugins]], learn how to [[Select files and settings to sync#Sync vault configuration|Sync vault configuration]].
+
+
