@@ -16,7 +16,7 @@ There's a known issue under Windows where dragging the window is extremely slow 
 
 ### Custom App Icons
 
-	Enhance your Obsidian experience with a custom app icon tailored to your preferences. If you're unsure where to begin, explore Obsidian's default icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/).
+Enhance your Obsidian experience with a custom app icon tailored to your preferences. If you're unsure where to begin, explore Obsidian's default icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/).
 
 Obsidian conveniently accepts `.icns`, `.ico`, `.png`, and `.svg` files, providing flexibility for users to utilize their preferred custom app icon formats.
 
