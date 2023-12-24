@@ -13,7 +13,7 @@ When editing a note, you will notice a row of icons at the bottom of the app. Th
 
 ### Customize mobile toolbar
 
-In the mobile toolbar, tap **Configure mobile toolbar** ( ![[lucide-wrench.svg#icon]] ) to open the interface to customize it.
+In the mobile toolbar, tap **Configure mobile toolbar** ( ![[lucide-wrench.svg#icon]] )  to open the interface to customize it.
 
 Alternatively, you can do it in Settings.
 
@@ -73,3 +73,7 @@ When you tap it, you’ll be able to switch to any open tab. You can also a new 
 ### Ribbon actions
 
 The mobile app has no [[Ribbon]]. Instead, the ribbon actions will be available when you tap **Open menu** ( ![[lucide-menu.svg#icon]] ), the last option on the navigation bar.
+
+### Right sidebar
+
+The right sidebar can be accessed by swiping left either while editing the active note or in the Reading view by holding the triple-dot icon in the upper-right corner.
