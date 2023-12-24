@@ -16,7 +16,7 @@ To invite a user to share a remote vault:
 1. Open **Settings**.
 2. In the side menu, select **Sync**.
 3. Next to **Remote vault**, select **Manage**.
-4. Next to the remote vault you want to share, select **Manage sharing** (two persons icon).
+4. Next to the remote vault you want to share, select **Manage sharing** ( ![[lucide-users.svg#icon]] ).
 5. In **Invite user**, enter the email of the user you want to invite.
 6. Select **Add**.
 
@@ -25,4 +25,4 @@ To invite a user to share a remote vault:
 1. Open **Settings**.
 2. In the side menu, select **Sync**.
 3. Next to **Remote vault**, select **Manage**.
-4. Next to the user you want to remove access from, select **Remove user** (cross icon).
+4. Next to the user you want to remove access from, select **Remove user** ( ![[lucide-x.svg#icon]] ).

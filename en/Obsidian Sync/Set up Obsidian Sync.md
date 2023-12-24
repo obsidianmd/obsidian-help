@@ -1,6 +1,6 @@
 In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for your vault.
 
-> [!NOTE] Remote vaults and local vaults
+> [!hint] Remote vaults and local vaults
 > In this guide, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new local vault to use Obsidian Sync.
 
 ## Prerequisites
@@ -11,23 +11,22 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 ## Log in with your Obsidian account
 
 1. Open **Settings**.
-2. In the sidebar, click **About**.
+2. In the sidebar, select **General**.
 3. Under **Account → Your Account**, click **Log in**.
 4. In **Email**, enter your email.
 5. In **Password**, enter your password.
-6. Click **Login**.
-
+6. Select **Login**.
 ## Enable Obsidian Sync
 
 1. Open **Settings**.
-2. In the sidebar, click **Core plugins**.
+2. In the sidebar, select **Core plugins**.
 3. Enable **Sync**.
 
 ## Create a new remote vault
 
 1. Open **Settings**.
-2. In the sidebar, click **Sync**.
-3. Next to **Remote vault**, click **Choose**.
+2. In the sidebar, select **Sync**.
+3. Next to **Remote vault**, select **Choose**.
 4. Click **Create new vault**.
 5. In **Vault name**, enter the name of the remote vault.
 6. In **Region**, choose your server [[#Regional sync servers|region]] for your remote vault. 
@@ -50,8 +49,9 @@ After selecting a location, it's crucial to be aware that the data center **cann
 
 1. Next to your newly created vault, click **Connect**.
 2. In **Encryption password**, enter the password you configured for the vault.
-3. Click **Unlock vault**.
-4. Click **Start syncing**.
+3. Select **Unlock vault**.
+4. It is highly recommended that you do not start syncing yet. Instead, proceed to [[Select files and settings to sync#Initially adjusting your Sync settings|syncing your vault settings for the first time]].
+5. If you wish to start syncing right away, select **Start Syncing**.
 
 > [!note] Sync settings and other file types
 > By default, Sync only syncs notes and images. For information how to sync other file types, refer to [[Select files and settings to sync#Select file types to sync|Select file types to sync]].
