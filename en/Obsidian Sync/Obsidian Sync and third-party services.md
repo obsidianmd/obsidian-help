@@ -43,7 +43,7 @@ If you're using Obsidian Sync and realize that you've set up your vault in a fol
 
 ## Mobile
 
-On Android, the majority of distributions will install directly to the filesystem, and the steps to relocate the vault are identical to those outlined in [[#Option 1 Move your vault using the vault switcher]].
+On Android, the majority of distributions will install directly to the filesystem, and the steps to relocate the vault are identical to those outlined in [[#Option 1 Move your vault using the vault switcher|move your vault using the vault switcher]].
 
 ### iOS
 
