@@ -94,8 +94,6 @@ Prefer *sentence case* over *title case* for headings, buttons, and titles. When
 **Not recommended:**
 
 - How Obsidian Stores Data
-
-
 ### Examples
 
 Prefer realistic examples over nonsense terms.
