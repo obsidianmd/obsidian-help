@@ -12,7 +12,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 
 1. Open **Settings**.
 2. In the sidebar, select **General**.
-3. Under **Account → Your Account**, click **Log in**.
+3. Under **Account → Your Account**, select **Log in**.
 4. In **Email**, enter your email.
 5. In **Password**, enter your password.
 6. Select **Login**.
@@ -54,7 +54,7 @@ After selecting a location, it's crucial to be aware that the data center **cann
 2. In **Encryption password**, enter the password you configured for the vault if you opted into [[Obsidian Sync/Security and privacy#What does end-to-end encryption mean?|end-to-end encryption]].
 3. Select **Unlock vault**.
 4. It is highly recommended that you <u>do not</u> start syncing yet. Instead, proceed to [[Select files and settings to sync#Initially adjusting your Sync settings|syncing your vault settings for the first time]].
-5. If you wish to start syncing right away, select **Start Syncing**.
+	1. If you wish to start syncing right away, select **Start Syncing**.
 
 
 > [!note] Sync settings and other file types
