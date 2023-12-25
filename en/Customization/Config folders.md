@@ -9,7 +9,7 @@ By default, Obsidian's vault configuration folder is `.obsidian`. If using a syn
 
 To set your config folder:
 
-1. Open **Settings → General**.
+1. Open **Settings → Files and Links**.
 2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-awesome`.
 3. Relaunch Obsidian to have the changes take effect. 
 
