@@ -8,7 +8,7 @@ A conflict happens when you make changes to the same file on two or more devices
 
 Conflicts usually happen more frequently if you work offline, since there are more changes and a longer period of time between syncs and thus more potential conflicts.
 
-When Sync downloads a new version of a file, and finds that there are conflicts with the local version, the changes are merged with Google's diff-match-patch algorithm.
+When Sync downloads a new version of a file, and finds that there are conflicts with the local version, the changes are merged with Google's [diff-match-patch](https://github.com/google/diff-match-patch) algorithm.
 
 > [!help] To find when conflicts have happened, you can search for "Merging conflicted file" in **Settings → Sync → Sync activity → View**.
 
@@ -33,10 +33,10 @@ To identify and purge large files from the vault:
 
 `{"res":"err","msg":"Vault not found."}`
 
-This error appears in one of the following instances:  
+This error may occur in the following scenarios:
 
-1. The vault has been deleted from another device for one reason or another.
-2. The sync subscription was inactive for more than 30 days, which resulted in the remote vault being purged.
-3. The subscription was cancelled and then re-purchased, which would have also purged the remote vault.
+1. The vault has been deleted from another device for any reason.
+2. The sync subscription was inactive for over 30 days, leading to the removal of the remote vault.
+3. The subscription was canceled or refunded, resulting in the purging of the remote vault.
 
-In all cases, you will need to disconnect from the remote vault and set up a new one with the data on your device.
+In each case, it is necessary to disconnect from the remote vault and establish a new connection, ensuring the data on your device is retained.

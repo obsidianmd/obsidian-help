@@ -85,7 +85,7 @@ Block identifiers can only consist of letters, numbers, and dashes.
 
 ## Change the link display text
 
-You can change the text used to display a link. This can be useful when you want to work a link into a sentence without using the name of the file.
+By default, Obsidian will show the link text, or the [[Aliases|alias]] if you opt to [[Aliases#Link to a note using an alias|link to an alias]]. You have the option to modify the text used for displaying a link. This feature comes in handy when you prefer to incorporate a link into a sentence without explicitly using the file name.
 
 **Wikilink format:**
 
@@ -98,6 +98,7 @@ For example, `[[Internal links|custom display text]]` appears as [[Internal link
 Enter the display text between the square brackets (`[]`).
 
 For example, `[custom display text](Internal%20links.md)` appears as [custom display text](Internal%20links.md).
+
 
 ## Preview a linked file
 

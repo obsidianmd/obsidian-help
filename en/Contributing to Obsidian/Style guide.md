@@ -94,8 +94,6 @@ Prefer *sentence case* over *title case* for headings, buttons, and titles. When
 **Not recommended:**
 
 - How Obsidian Stores Data
-
-
 ### Examples
 
 Prefer realistic examples over nonsense terms.
@@ -175,7 +173,7 @@ Include icons and images when they make it easier to explain things that are har
 
 [Lucide](https://lucide.dev/icons/) and custom Obsidian icons can be used alongside detailed elements to provide a visual representation of a feature.
 
-**Example:** In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
+**Example:** In the ribbon on the left, select **Create new canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) to create a canvas in the same folder as the active file.
 
 **Guidelines for icons**
 
@@ -211,7 +209,7 @@ Image anchors tags are available to add decorative changes to the embedded image
 
 The icon anchor tag ensures correct vertical alignment for icons used to indicate interface elements.
 
-The first menu icon uses the anchor tag ![[lucide-menu.svg#icon]], while the second menu icon ![[lucide-menu.svg]] does not.
+The first menu icon uses the anchor tag ( ![[lucide-menu.svg#icon]] ), while the second menu icon ( ![[lucide-menu.svg]] ) does not.
 
 
 **Interface**

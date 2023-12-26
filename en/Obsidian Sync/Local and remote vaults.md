@@ -1,3 +1,9 @@
+---
+aliases:
+  - Local vaults
+  - remote vaults
+---
+
 Obsidian stores your notes in a _local_ vault on your computer. If you want to access your notes from other devices, you need to share your local vault with those devices.
 
 [[Introduction to Obsidian Sync|Obsidian Sync]] makes this easier by letting you sync your local vault with a _remote_ vault that lives on Obsidian's servers.

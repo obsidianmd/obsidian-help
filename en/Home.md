@@ -46,6 +46,18 @@ Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
 	- Publish your notes as a wiki, knowledge base, documentation, or digital garden.
 
+
+## Latest updates
+
+> [!todo] Update for version 1.5 
+> The documentation has been revised for the 1.5 desktop release, incorporating changes to the [[Interface language|interface language]]. 
+> 
+> Pre-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **About**
+> Post-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **General**.
+> 
+> Mobile users are advised to continue referring to the "**About**" section in their settings until the next mobile release.
+
+
 ## Contribute
 
 If you find any mistakes or missing information on this site, you can contribute improvements and translations via [the GitHub repo](https://github.com/obsidianmd/obsidian-docs/).
@@ -53,3 +65,4 @@ If you find any mistakes or missing information on this site, you can contribute
 If you want to support Obsidian financially, consider a [[Catalyst license]], which offers early access to beta versions of Obsidian.
 
 See the [[Credits]] to get to know all the amazing people who made Obsidian possible.
+

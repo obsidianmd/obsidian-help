@@ -16,4 +16,31 @@ There's a known issue under Windows where dragging the window is extremely slow 
 
 ### Custom App Icons
 
-Personalize your Obsidian experience by adding a custom app icon. Head to the **appearance** settings in Obsidian, and locate the **Custom app icon** option within the **advanced** section.
+Enhance your Obsidian experience with a custom app icon tailored to your preferences. If you're unsure where to begin, explore Obsidian's default icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/).
+
+Obsidian conveniently accepts `.icns`, `.ico`, `.png`, and `.svg` files, providing flexibility for users to utilize their preferred custom app icon formats.
+
+### Changing the Custom App Icon
+
+To change the Custom App icon, you will need to:
+
+1. Go to **Settings**.
+2. Select **Appearance** on the left.
+3. Scroll down to the **Advanced** section.
+4. On the right side of the settings menu, click on **Choose** next to the custom app icon.
+5. Pick your desired icon from your filesystem.
+6. Click **Relaunch**.
+7. After Obsidian restarts, your new icon should appear in the taskbar on desktop and on your screen on mobile.
+
+> [!tip] Custom App Icon on Windows taskbar 
+> For certain Windows operating systems, an extra step may be needed to adjust the Custom App icon in the taskbar.
+> 
+> Follow these steps:
+> - Right-click the Obsidian icon on your taskbar or Desktop Shortcut.
+> - Right-click the name Obsidian (skip this step for the desktop icon).
+> - Choose **Properties**.
+> - Click **Change Icon**.
+> - Locate the icon on your file system.
+> - Click **OK**.
+> 
+> Afterward, you have the option to either restart `explorer.exe` within the task manager or restart your computer to apply the changes you made.
