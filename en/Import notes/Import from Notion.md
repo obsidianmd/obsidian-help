@@ -9,9 +9,11 @@ Obsidian uses Notion's HTML export format. You can find Notions's instructions o
 
 1. Go to **Settings & members** at the top of your left-hand sidebar.
 2. Select **Settings** in the sidebar of that window.
-3. Scroll down and click the **Export all workspace content** button.
+3. Scroll down and select the **Export all workspace content** button.
 4. Under **Export format** select **HTML**.
-5. You will receive a `.zip` file via email or directly in the browser.
+5. Enable **Include subpages**
+6. Enable **Create folders for subpages**
+7. You will receive a `.zip` file via email or directly in the browser.
 
 ![[notion-export.png#interface]]
 
@@ -25,6 +27,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 4. Open the **Importer** plugin using the command palette or ribbon icon.
 5. Under **File format** select **Notion (.zip)**
 6. Choose the `.zip` file with Notion files you want to import. *It's recommended to import all your Notion at once so internal links can be reconciled correctly.*
-7. Optionally, select a folder for the import Your Notion pages and databases will be nested inside this folder.
-8. Click **Import** and wait until import is complete
-9. You're done!
+7. _Optionally_, select a folder for the import Your Notion pages and databases will be nested inside this folder.
+8. Enable **Save parent pages in subfolders** to keep the Notion structure. *Note that in Notion you can write content in Folders, this is not possible in Obsidian and these pages will be added as a subpage under the folder.*
+9. Select **Import** and wait until import is complete
+10. You're done!
