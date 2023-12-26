@@ -19,7 +19,7 @@ This allows users to configure Sync differently on each device according to thei
 ## Initially adjusting your Sync settings
 
 
-> [!help] This set of instructions is intended for users who wish to modify their [[Set up Obsidian Sync on another device|sync settings on an additional device]] or a remote vault after [[Set up Obsidian Sync#Connect to a remote vault|establishing a connection to a remote vault]].
+> [!help] This set of instructions is intended for users who wish to modify their [[Set up Obsidian Sync on another device|sync settings on an additional device]] or a new vault after [[Set up Obsidian Sync#Connect to a remote vault|establishing a connection to a remote vault]].
 
 1. If you haven't already, close (x) or dismiss the pop-up window prompting you to **Exclude Folders** and **Start Syncing**.
 2. On your primary device, navigate to **Settings** → **Sync**.
