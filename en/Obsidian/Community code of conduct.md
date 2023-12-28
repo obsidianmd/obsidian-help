@@ -14,13 +14,13 @@ Harassment includes offensive verbal comments related to gender, sexual orientat
 
 We don’t tolerate any threats, physically or verbally. For example, threatening to publicize sensitive information about someone’s personal life.
 
-### Other offenses
-
-Users who commit these offences will be sent a warning. Repeated offences will result in the user being banned from the official Obsidian community channels.
-
 #### Blatant -isms
 
 This includes saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation aren't code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
+
+### Other offenses
+
+Users who commit these offences will be sent a warning. Repeated offences will result in the user being banned from the official Obsidian community channels.
 
 #### Belligerence
 
@@ -103,8 +103,8 @@ Please flag the relevant conversation with a reason, and our moderators will inv
 ## Enforcement
 
 > [!abstract] Summary
-> A verified major offense results in an immediate ban.
-> A verified minor offense results in a warning; after that a second verified violation results in a ban.
+> A verified serious offense results in an immediate ban.
+> A verified other offense results in a warning; after that a second verified violation results in a ban.
 
 If our moderators witness or receive a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened. If verified, they will be removed from the official Obsidian community channels.
 
@@ -113,3 +113,7 @@ If our moderators witness or receive a report about [[#other offenses]], we will
 ## Credits
 
 Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https://www.recurse.com/code-of-conduct).
+
+## Changelog
+
+- 2023-10-28: Moved blatant -isms from "Other offenses" to "Serious offenses", meaning they’re now bannable on first offense.

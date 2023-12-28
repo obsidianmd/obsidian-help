@@ -8,11 +8,11 @@ Obsidian checks for new updates regularly. When a new update is available, Obsid
 
 ## Check for an update and the current version
 
-Open **Settings → About**.
+Open **Settings → General**.
 
 You can find the current Obsidian version and installer version in the upper-left corner.
 
-![[application-installer-current-version.png]]
+![[application-installer-current-version.png#interface]]
 
 To apply any available updates, click **Relaunch**.
 
@@ -20,7 +20,7 @@ To apply any available updates, click **Relaunch**.
 
 If you prefer to update Obsidian manually, you can disable automatic updates.
 
-1. Open **Settings → About**.
+1. Open **Settings → General**.
 2. Disable **Automatic updates**.
 
 ## Installer updates

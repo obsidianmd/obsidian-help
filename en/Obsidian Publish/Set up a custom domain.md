@@ -126,6 +126,33 @@ mysite.com {
 }
 ```
 
+### Traefik
+
+This minimal configuration excerpt redirects `mysite.com` to Obsidian publish.
+See the [Traefik documentation](https://doc.traefik.io/traefik/routing/overview/)
+for a complete example.
+
+```yaml
+http:
+  routers:
+    mysite:
+      rule: Host(`mysite.com`)
+      service: obsidian-publish
+      middlewares:
+        - "publish-headers"
+  services:
+    obsidian-publish:
+      loadBalancer:
+        servers:
+          - url: https://publish.obsidian.md
+  middlewares:
+    publish-headers:
+      headers:
+        customRequestHeaders:
+          Host: "publish.obsidian.md"
+          x-obsidian-custom-domain: "mysite.com"
+```
+
 ### Supported HTTP X-Headers
 
 If your proxy service doesn't allow query paths, you can use `https://publish.obsidian.md/` with a custom header `x-obsidian-custom-domain` set to your site URL `mysite.com/my-subpath`.

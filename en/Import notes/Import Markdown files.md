@@ -6,7 +6,7 @@ Obsidian uses Markdown `.md` files as the primary format for notes. This makes i
 There are several ways to add Markdown files to your Obsidian vault:
 
 1. Drag and drop files or folders into the [[File explorer]] window
-2. Use you system file browser (e.g. Windows Explorer or Finder on macOS), and move your files directly into the Obsidian vault folder.
+2. Use your system file browser (e.g. Windows Explorer or Finder on macOS), and move your files directly into the Obsidian vault folder.
 
 ### Converting from other flavors of Markdown
 

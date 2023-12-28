@@ -7,7 +7,7 @@ Tags are keywords or topics that help you quickly find the notes you want.
 
 ## Add a tag to a note
 
-To create a tag, enter a hashtag symbol (#) in the editor, followed by a keyword. For example, `#meeting`.
+To create a tag, enter a hash symbol (`#`) in the editor, followed by a keyword. For example, `#meeting`.
 
 You can also add tags using the `tags` [[Properties|property]]. Tags in YAML should always be formatted as a list:
 

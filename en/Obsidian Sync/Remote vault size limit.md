@@ -1,14 +1,17 @@
-Each remote vault can have up to 10 GB of data, including [[version history]] and [[attachments]].
+Each Obsidian Sync account will have a remote vault size limit, including [[version history]] and [[attachments]]. This limit is determined by your Obsidian Sync plan.
+
+When you reach the maximum size of your account limit, Sync will cease syncing files, and you will be prompted to prune your remote vault(s).
 
 ## Identify and delete large files
 
 To identify and delete large files from the vault:
 
 1. Open **Settings → Sync**.
-2. Select **View largest files** next to **Vault size over limit**. If you don’t see **Vault size over limit**, it means you haven’t hit the size limit yet.
+2. Select **View largest files** next to **Vault size over limit**. 
+	1. If you don’t see **Vault size over limit**, it means ==you haven’t hit the size limit== yet.
 3. Close the **View largest files** modal.
 4. Delete some of the large files you no longer need.
-5. Wait a little bit.
+5. Wait for Obsidian sync to finish the task. This can take a while.
 6. Open **Settings → Sync**.
 7. Select **Prune** next to **Vault size over limit**. This will remove the deleted files from the remote vault to free up space.
 

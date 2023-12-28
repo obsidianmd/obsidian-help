@@ -6,15 +6,14 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 
 - Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
 - liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span> <span class='flair mod-pop'>Plugin API Master</span> <span class='flair mod-pop'>Volcano Veteran</span>
-- joethei ([Johannes Theiner](https://joethei.xyz/))
+- joethei ([Johannes Theiner](https://joethei.xyz/)) <span class='flair mod-pop'>Plugin API Master</span>
 - tgrosinger ([Tony Grosinger](https://grosinger.net))
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
 
 ### Product & Operations
 
-- Silver (Erica Xu)<span class='flair mod-pop'>Team Little Silvers</span>
+- Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
 - kepano ([Steph Ango](https://stephanango.com/))
-- ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))
 - Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Support Dragon</span>
 
 ## Moderators

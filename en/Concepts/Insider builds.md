@@ -10,7 +10,7 @@ Insider builds are only available to users with a [[Catalyst license]].
 To receive new Insider builds as soon as they're available, follow these steps:
 
 1. Open **Settings**.
-2. In the sidebar, select **About**.
+2. In the sidebar, select **General**.
 3. Under **App**, enable **Receive insider builds**.
 
 ## Install Insider builds on mobile devices
@@ -20,7 +20,7 @@ To find instructions on how to install Insider builds on your mobile device, fol
 1. Join the [Obsidian Discord server](https://discord.gg/veuWUTm).
 2. [[Catalyst license#Get your Discord badge|Get your Discord badge]] to access insider channels.
 3. Open Discord.
-4. In the `#insider-mobile` channel, open **Pinned Messages**.
+4. In the `#insider-mobile-release` channel, open **Pinned Messages**.
    - On desktop, select the pushpin icon in the upper-right corner.
    - On mobile, swipe left and select **Pins**.
 5. Under **Pinned Messages**, select the installation link for your device:
@@ -35,7 +35,7 @@ Before you report an issue, refer to the [List of known issues and planned impro
 
 To report an issue, please use one of the following channels:
 
-- On Discord, report the issue in the `#insider-build` channel.
+- On Discord, report the issue in the respective `#insider-release` channel.
 - In the forum, create a new topic under [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
 
 When you report an issue, include the build version and the OS you're running it on. You can find the build version under **Settings → About → App → Current version**.
@@ -46,7 +46,7 @@ To change back to using public (non-Insider) builds on desktop:
 
 1. Disable Insider builds.
    1. Open **Settings**.
-   2. In the sidebar, select **About**.
+   2. In the sidebar, select **General**.
    3. Under **App**, disable **Receive insider builds**.
 2. Close Obsidian.
 3. Delete the `obsidian-VERSION.asar` file, where `VERSION` is the Obsidian version.
@@ -54,3 +54,13 @@ To change back to using public (non-Insider) builds on desktop:
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Restart Obsidian.
+
+## Change back to public builds on desktop
+
+To change back to using public (non-Insider) builds on mobile:
+
+1. Backup your vault data
+2. Uninstall Obsidian
+3. Reinstall Obsidian either from the Play Store or Apple App store
+4. Restore your vault data from your backups
+5. Open Obsidian

@@ -37,7 +37,7 @@ This section explains how to sync an existing local vault with a remote vault.
 ### Connect to a remote vault
 
 1. Open **Settings**.
-2. In the sidebar, click **Sync**.
+2. In the sidebar, select **Sync**.
 3. Next to **Pick remote vault**, click **Choose**.
 4. Click **Connect** next to the remote vault you want to connect to. If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding.
 5. In **Encryption password**, enter the password for your vault, if you have one.

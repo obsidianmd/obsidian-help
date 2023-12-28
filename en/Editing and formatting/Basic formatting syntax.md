@@ -16,7 +16,7 @@ This is a paragraph.
 This is another paragraph.
 ```
 
-> [!note] Multiple blank spaces
+> [!note]- Multiple blank spaces
 > Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Editing and previewing Markdown#Editor views|Reading view]] and on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
 > 
 > ```md
@@ -34,8 +34,6 @@ This is another paragraph.
 > > and multiple newlines between paragraphs.
 > 
 > If you want to add multiple spaces, you can add `&nbsp;` (blank space) and `<br>` (newline) to your note.
-
-
 
 ## Headings
 
@@ -58,7 +56,9 @@ To create a heading, add up to six `#` symbols before your heading text. The num
 <h5>This is a heading 5</h5>
 <h6>This is a heading 6</h6>
 
-## Styling text
+## Bold, italics, highlights
+
+Text formatting can also be applied using [[Keyboard shortcuts for editing]].
 
 | Style | Syntax | Example | Output |
 |-|-|-|-|
@@ -68,6 +68,68 @@ To create a heading, add up to six `#` symbols before your heading text. The num
 | Highlight | `== ==` |  `==Highlighted text==` | ==Highlighted text== |
 | Bold and nested italic | `** **` and `_ _`  | `**Bold text and _nested italic_ text**` | **Bold text and _nested italic_ text** |
 | Bold and italic | `*** ***` or `___ ___` |  `***Bold and italic text***` | ***Bold and italic text*** |
+
+## Internal links
+
+Obsidian supports two formats for [[internal links]] between notes:
+
+- Wikilink: `[[Three laws of motion]]`
+- Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
+
+## External links
+
+If you want to link to an external URL, you can create an inline link by surrounding the link text in brackets (`[ ]`), and then the URL in parentheses (`( )`).
+
+```md
+[Obsidian Help](https://help.obsidian.md)
+```
+
+[Obsidian Help](https://help.obsidian.md)
+
+You can also create external links to files in other vaults, by linking to an [[Obsidian URI|Obsidian URI]].
+
+```md
+[Note](obsidian://open?vault=MainVault&file=Note.md)
+```
+
+### Escape blank spaces in links
+
+If your URL contains blank spaces, you need to escape them by replacing them with `%20`.
+
+```md
+[My Note](obsidian://open?vault=MainVault&file=My%20Note.md)
+```
+
+You can also escape the URL by wrapping it with angled brackets (`< >`).
+
+```md
+[My Note](<obsidian://open?vault=MainVault&file=My Note.md>)
+```
+
+## External images
+
+You can add images with external URLs, by adding a `!` symbol before an [[#External links|external link]].
+
+```md
+![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+```
+
+![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+
+You can change the image dimensions, by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
+
+```md
+![Engelbart|100x145](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+```
+
+If you only specify the width, the image scales according to its original aspect ratio. For example:
+
+```md
+![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+```
+
+> [!tip]
+> If you want to add an image from inside your vault, you can also [[Embedding files#Embed an image in a note|embed an image in a note]].
 
 ## Quotes
 
@@ -85,6 +147,110 @@ You can quote text by adding a `>` symbols before the text.
 
 > [!tip]
 > You can turn your quote into a [[Callouts|callout]] by adding `[!info]` as the first line in a quote.
+
+## Lists
+
+You can create an unordered list by adding a `-`, `*`, or `+` before the text.
+
+```md
+- First list item
+- Second list item
+- Third list item
+```
+
+- First list item
+- Second list item
+- Third list item
+
+To create an ordered list, start each line with a number followed by a `.` symbol.
+
+```md
+1. First list item
+2. Second list item
+3. Third list item
+```
+
+1. First list item
+2. Second list item
+3. Third list item
+
+### Task lists
+
+To create a task list, start each list item with a hyphen and space followed by `[ ]`.
+
+```md
+- [x] This is a completed task.
+- [ ] This is an incomplete task.
+```
+
+- [x] This is a completed task.
+- [ ] This is an incomplete task.
+
+You can toggle a task in Reading view by selecting the checkbox.
+
+> [!tip]
+> You can use any character inside the brackets to mark it as complete.
+>
+> ```md
+> - [x] Milk
+> - [?] Eggs
+> - [-] Eggs
+> ```
+>
+> - [x] Milk
+> - [?] Eggs
+> - [-] Eggs
+
+### Nesting lists
+
+All list types can be nested in Obsidian.
+
+To create a nested list, indent one or more list items:
+
+```md
+1. First list item
+   1. Ordered nested list item
+2. Second list item
+   - Unordered nested list item
+```
+
+1. First list item
+   1. Ordered nested list item
+2. Second list item
+   - Unordered nested list item
+
+Similarly, you can create a nested task list by indenting one or more list items:
+
+```md
+- [ ] Task item 1
+	- [ ] Subtask 1
+- [ ] Task item 2
+	- [ ] Subtask 1
+```
+
+- [ ] Task item 1
+	- [ ] Subtask 1
+- [ ] Task item 2
+	- [ ] Subtask 1
+
+Use `Tab` or `Shift+Tab` to indent or unindent one or more selected list items for easy organization.
+## Horizontal rule
+
+You can use three or more stars `***`, hyphens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.
+
+```md
+***
+****
+* * *
+---
+----
+- - -
+___
+____
+_ _ _
+```
+
+***
 
 ## Code
 
@@ -146,149 +312,6 @@ Obsidian uses Prism for syntax highlighting. For more information, refer to [Sup
 
 > [!note]
 > [[Live preview update|Live Preview mode]] doesn't support PrismJS and may render syntax highlighting differently.
-
-## External links
-
-If you want to link to an external URL, you can create an inline link by surrounding the link text in brackets (`[ ]`), and then the URL in parentheses (`( )`).
-
-```md
-[Obsidian Help](https://help.obsidian.md)
-```
-
-[Obsidian Help](https://help.obsidian.md)
-
-> [!tip]
-> If you want to link to a file inside your vault, consider using an [[Internal links|internal link]] instead.
-
-You can also create external links to files in other vaults, by linking to an [[Obsidian URI|Obsidian URI]].
-
-```md
-[Note](obsidian://open?vault=MainVault&file=Note.md)
-```
-
-### Escape blank spaces in links
-
-If your URL contains blank spaces, you need to escape them by replacing them with `%20`.
-
-```md
-[My Note](obsidian://open?vault=MainVault&file=My%20Note.md)
-```
-
-You can also escape the URL by wrapping it with angled brackets (`< >`).
-
-```md
-[My Note](<obsidian://open?vault=MainVault&file=My Note.md>)
-```
-
-## External images
-
-You can add images with external URLs, by adding a `!` symbol before an [[#External links|external link]].
-
-```md
-![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
-```
-
-![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
-
-You can change the image dimensions, by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
-
-```md
-![Engelbart|100x145](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
-```
-
-If you only specify the width, the image scales according to its original aspect ratio. For example, `![[Engelbart.jpg|100]]`.
-
-> [!tip]
-> If you want to add an image from inside your vault, you can also [[Embedding files#Embed an image in a note|embed an image in a note]].
-
-## Lists
-
-You can create an unordered list by adding a `-`, `*`, or `+` before the text.
-
-```md
-- First list item
-- Second list item
-- Third list item
-```
-
-- First list item
-- Second list item
-- Third list item
-
-To create an ordered list, start each line with a number followed by a `.` symbol.
-
-```md
-1. First list item
-2. Second list item
-3. Third list item
-```
-
-1. First list item
-2. Second list item
-3. Third list item
-
-You can create a nested list by indenting one or more list items.
-
-```md
-1. First list item
-   1. Ordered nested list item
-2. Second list item
-   - Unordered nested list item
-```
-
-1. First list item
-   1. Ordered nested list item
-2. Second list item
-   - Unordered nested list item
-
-You can press `Tab` or `Shift+Tab` to indent or unindent one or more selected list items.
-
-### Task lists
-
-To create a task list, start each list item with a hyphen and space followed by `[ ]`.
-
-```md
-- [x] This is a completed task.
-- [ ] This is an incomplete task.
-```
-
-- [x] This is a completed task.
-- [ ] This is an incomplete task.
-
-You can toggle a task in Reading view by selecting the checkbox.
-
-> [!tip]
-> You can use any character inside the brackets to mark it as complete.
->
-> ```md
-> - [x] Milk
-> - [?] Eggs
-> - [-] Eggs
-> ```
->
-> - [x] Milk
-> - [?] Eggs
-> - [-] Eggs
-
-## Horizontal bar
-
-You can use three or more stars `***`, hyphens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.
-
-```md
-***
-****
-* * *
----
-----
-- - -
-___
-____
-_ _ _
-```
-
-***
-
----
 
 ## Footnotes
 

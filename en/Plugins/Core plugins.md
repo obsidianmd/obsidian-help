@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - list-cards
+  - list-cards-mobile-full
 ---
 This page lists the core plugins that comes installed with Obsidian. Core plugins are officially built and supported by the Obsidian team. 
 

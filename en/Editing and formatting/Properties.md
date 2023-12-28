@@ -169,13 +169,16 @@ The date picker follows your operating system's default date and time format. Yo
 > [!info]- Windows
 > **Settings → Time & Language → Language & Region → Regional Format → Change Formats**
 > 
-> ![[Windows OS DateTime.png]]
+> ![[Windows-OS-DateTime.png#interface]]
 
 > [!info]- Mac OS
 > **System Preferences → Language and Region → Date format**
 > 
-> ![[Mac OS DateTime.png|450]]
+> ![[Mac-OS-DateTime.png|450]]
 
+With the [[Daily notes]] plugin enabled, the date property will additionally function as an internal link to the corresponding daily note for that date.
+
+![[Daily notes#^daily-notes-date]]
 ### JSON Properties
 
 While we recommend using YAML to define properties, you can also define properties using [JSON](https://www.json.org/):
@@ -217,8 +220,8 @@ The following properties are used by [[Introduction to Obsidian Publish|Obsidian
 
 | Property | Description |
 |-|-|
-| `publish` | See [[Publish and unpublish notes#Automatically select notes to publish]]. |
-| `permalink` | See [[Publish and unpublish notes#Permalinks]]. |
-| `description` | See [[Social media link previews#Description]]. |
-| `image` | See [[Social media link previews#Image]]. |
-| `cover` | See [[Social media link previews#Image]]. |
+| `publish` | See [[Publish and unpublish notes#Automatically select notes to publish\|Automatically select notes to publish]]. |
+| `permalink` | See [[Publish and unpublish notes#Permalinks\|Permalinks]]. |
+| `description` | See [[Social media link previews#Description\|Description]]. |
+| `image` | See [[Social media link previews#Image\|Image]]. |
+| `cover` | See [[Social media link previews#Image\|Image]]. |

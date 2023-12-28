@@ -73,6 +73,13 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes.
 | Copy paragraph | `Cmd+C` (with no selected text) |
 | Cut paragraph | `Cmd+X` (with no selected text) |
 
+### Text formatting
+
+| Action | Shortcut |
+| ---- | ---- |
+| Bold text | `Cmd+B` |
+| Italic text | `Cmd+I` |
+
 ### Text editing
 
 | Action | Shortcut |

@@ -43,13 +43,19 @@ While you can link to any of the [[Accepted file formats]], links to file format
 
 You can link to specific headings in notes, also known as _anchor links_.
 
-To link to a heading, add a hashtag (`#`) at the end of the link destination, followed by the heading text.
+To link to a heading, add a hash (`#`) at the end of the link destination, followed by the heading text.
 
 For example, `[[Three laws of motion#Second law]]`.
 
-You can add multiple hashtags for each subheading.
+You can add multiple hash symbols for each subheading.
 
 For example, `[[My note#Heading 1#Heading 2]]`.
+
+> [!tip]- Heading links across the vault
+> You can search for headers to link to from across your vault using the `[[##header]]` syntax. 
+> 
+> ![[internal-links-header.png#interface]]
+
 
 ## Link to a block in a note
 
@@ -69,12 +75,17 @@ Now you can instead link to the block by typing `[[2023-01-01#^quote-of-the-day]
 
 Block identifiers can only consist of letters, numbers, and dashes.
 
+> [!tip]- Block links across the vault
+> You can search for blocks to link to from across your vault using the `[[^^block]]` syntax. However, more items qualify as blocks in comparison to [[#Link to a heading in a note|heading links]] so this list will be much longer in comparison.
+> 
+> ![[link-block-heading.png#interface]]
+
 > [!warning] Interoperability
 > Block references are specific to Obsidian and not part of the standard Markdown format. Links containing block references won't work outside of Obsidian.
 
 ## Change the link display text
 
-You can change the text used to display a link. This can be useful when you want to work a link into a sentence without using the name of the file.
+By default, Obsidian will show the link text, or the [[Aliases|alias]] if you opt to [[Aliases#Link to a note using an alias|link to an alias]]. You have the option to modify the text used for displaying a link. This feature comes in handy when you prefer to incorporate a link into a sentence without explicitly using the file name.
 
 **Wikilink format:**
 
@@ -87,6 +98,7 @@ For example, `[[Internal links|custom display text]]` appears as [[Internal link
 Enter the display text between the square brackets (`[]`).
 
 For example, `[custom display text](Internal%20links.md)` appears as [custom display text](Internal%20links.md).
+
 
 ## Preview a linked file
 

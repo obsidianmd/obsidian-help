@@ -4,18 +4,19 @@ aliases:
   - Access control for Obsidian Sync
 ---
 
+## Encryption
+
 For your safety, [[Introduction to Obsidian Sync|Obsidian Sync]] encrypts your [[Local and remote vaults|remote vault]] and all communication with Obsidian's servers. Before anyone can access your remote vault, they first need to decrypt it with an _encryption password_.
 
 When you create a new remote vault, you have two options:
 
 - **End-to-end encryption:** Obsidian encrypts the vault on your device with a custom encryption key before it's sent to Obsidian's servers. This guarantees that no one—not even the Obsidian team—can access your notes.
-- **Managed encryption:** If you don't want to have to remember another password, you can let Obsidian manage the encryption password for you. While we store your encryption password on our servers, we only use it to offer a more convenient way to manage your vaults. Obsidian will never access your vault without your explicit consent.
+- **Managed encryption:** If you don't want to have to remember another password, you can let Obsidian manage the encryption password for you. While we store your encryption password on our servers, we only use it to offer a more convenient way to manage your vaults.
 
 If you forget or lose your custom encryption password, your data remains encrypted and unusable forever. We're not able to recover your password, or any encrypted data for you.
 
 Your choice only affects your remote vault. Obsidian doesn't encrypt your local vault.
-
-## What does end-to-end encryption mean?
+### What does end-to-end encryption mean?
 
 End-to-end encryption means that the data is encrypted from the moment it leaves your device, and can only be decrypted using your encryption key once it's back on one of your devices.
 
@@ -23,16 +24,14 @@ We can't read your data. Neither can any potential eavesdroppers, such as your i
 
 In the rare case of a complete server breach, your data remains encrypted—no one can decrypt your files without knowing your password.
 
-## What encryption do you use?
+### What encryption do you use?
 
-We use industry-standard AES-256 to encrypt your data. AES-256 is a military-grade encryption specification that's widely used in for example online banking.
+For data security, we implement industry-standard encryption protocols. Specifically, we use [AES-256](https://www.nist.gov/publications/advanced-encryption-standard-aes-0), a military-grade encryption specification widely employed in contexts such as online banking. The encryption process involves the following technical details:
 
-Here are the technical details:
+- Key Derivation Function: scrypt with salt
+- Encryption Algorithm: AES-256 using GCM
 
-- Key derivation function used: scrypt with salt
-- Encryption algorithm used: AES-256 using GCM
-
-## What happens if I forget my encryption password?
+### What happens if I forget my encryption password?
 
 If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it's forever lost.
 
@@ -47,11 +46,30 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
 6. Now all your devices should be connected to the new remote vault.
 
-## Where do you host the servers for Obsidian Sync?
+## Hosting
+### Where do you host the servers for Obsidian Sync?
 
-We use DigitalOcean's data centers, which are located in the US.
+Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provide geo-regional remote vault hosting options in the following locations:
 
-## Managing access to Obsidian Sync on your network
+> [!info] Sync geo-regions
+> **Automatic**: Your data center is chosen based off your IP location.
+> **North America**: San Francisco, USA 
+> **Europe**: Frankfurt, Germany
+^sync-geo-regions
+### I have sync-x as my server. Where is it hosted?
+
+The list below corresponds the Sync servers to their respective data centers. 
+
+**San Francisco**
+- `sync-01` to `sync-12`
+- `sync-14`
+
+**Frankfurt**
+- `sync-13`
+
+## Network and access
+
+### Managing access to Obsidian Sync on your network
 
 To regulate access to Obsidian Sync on your network, you need to manage the following domains:
 
@@ -60,3 +78,4 @@ To regulate access to Obsidian Sync on your network, you need to manage the foll
 The `xx` in this case represents a number ranging from `1 - 100`.
 
 > [!tip] If your firewall system supports it, we recommend whitelisting `sync-*.obsidian.md` to account for the continuous growth in subdomain numbers.
+

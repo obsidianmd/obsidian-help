@@ -1,5 +1,7 @@
 ---
-aliases: Using Obsidian URI
+aliases: 
+- Using Obsidian URI
+- Advanced topics/Using obsidian URI
 ---
 Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note.
 
@@ -135,4 +137,4 @@ In addition to the formats above, there are two more "shorthand" formats availab
 
 ---
 
-[^1]: Vault ID is the random 16-character code assigned to the vault, for example `ef6ca3e3b524d22f`. This ID is unique per folder on your computer. There isn't an easy way to find this ID yet, one will be offered at a later date in the vault switcher. Currently it can be found in `%appdata%/obsidian/obsidian.json` for Windows. For macOS, replace `%appdata%` with `~/Library/Application Support/`. For Linux, replace `%appdata%` with `~/.config/`.
+[^1]: Vault ID is the random 16-character code assigned to the vault, for example `ef6ca3e3b524d22f`. This ID is unique per folder on your computer. The ID can be found by opening the vault switcher and clicking "Copy vault ID" in the context menu for the desired vault.
