@@ -1,10 +1,15 @@
 A vault is a folder on your local file system where Obsidian stores your notes. You can keep all your notes in one vault, or create several vaults for each of your different projects.
 
+Kasa, Obsidian uygulamasının senin notlarını depoladığı ve senin yerel dosya sisteminde yer alan bir dosyadır. Bütün notlarını bir kasa altında tutabilirsin veya her bir projen icin ayrı birer kasa açabilirsin.
+ 
 The first time you open Obsidian, you'll be asked to add a new vault. You have two options, either create a new empty vault, or use an existing folder.
 
-## Create empty vault
+Obsidian uygulamasını ilk açtığında, sana yeni bir kasa açabileceğini belirten bir ekran çıkacaktır. Bu durumda iki tane seçeneğin vardı. Birinci olarak yeni bir kasa oluşturabilirsin, veya daha önceden varolan bir dosyayı kullanabilirsin.
+
+## Yeni kasa oluştur
 
 To create a new empty vault:
+Yeni kasa oluşturmak için:
 
 1. To the right of **Create new vault**, click **Create**.
 2. In **Vault name**, enter the name of your vault.
