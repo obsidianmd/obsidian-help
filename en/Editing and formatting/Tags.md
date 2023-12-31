@@ -47,6 +47,8 @@ You can use any of the following characters in your tags:
 
 Tags must contain at least one non-numerical character. For example, #1984 isn't a valid tag, but #y1984 is.
 
+Tags are case-insensitive. For example, #tag and #TAG will be treated as identical.
+
 Tags can't contain blank spaces. To separate two or more words, you can instead use the following formats:
 
 - #camelCase
