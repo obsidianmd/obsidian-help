@@ -5,7 +5,7 @@ aliases:
   - metadata
   - property
 ---
-Properties help you organize information about a note. Adding properties to a note helps you track structured data such as text, links, dates and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
+Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
 
 ## Add properties to a note
 
@@ -18,13 +18,13 @@ There are several ways to add a property to a note:
 
 Once you add a property, a row will appear at the top of the file with two inputs: the property _name_ and the property _value_.
 
-For the name, you can choose anything you like. Note that Obsidian provides several default properties: `tags`, `cssclasses`, and `aliases`.
+For the name, you can choose anything you like. Obsidian provides several default properties: `tags`, `cssclasses`, and `aliases`.
 
 Once you choose the property name, you can give it a value.
 
 ### Property types
 
-In addition to a name and value, properties also have a type. A _property type_ describes the kind of values can be stored. To change the type of a property, click the property's icon or use the **Edit file property** command.
+In addition to a name and value, properties also have a *type*. A property's type describes the kind of values it can store. To change the type of a property, click the property's icon or use the **Edit file property** command.
 
 Obsidian supports the following property types:
 
@@ -50,6 +50,10 @@ Properties have their own [[Search|search syntax]] that you can use alongside ot
 ### Templates
 
 You can add properties to [[Templates]]. When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template.
+
+### Rename properties
+
+You can rename a property by right-clicking it in the [[Properties view|All properties view]].
 
 ### Display modes
 
@@ -204,19 +208,9 @@ Obsidian comes with a set of default properties:
 | `aliases` | See [[Aliases]]. |
 | `cssclasses` | Allows you to style individual notes using [[CSS snippets]]. |
 
-### Deprecated properties
-
-These properties are deprecated in 1.4. Please do not use them anymore:
-
-| Property | Description |
-|-|-|
-| `tag` | Deprecated alias for `tags`. |
-| `alias` | Deprecated alias for `aliases`. |
-| `cssclass` | Deprecated alias for `cssclasses`. |
-
 ### Properties for Obsidian Publish
 
-The following properties are used by [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following properties can be used with [[Introduction to Obsidian Publish|Obsidian Publish]]:
 
 | Property | Description |
 |-|-|
@@ -225,3 +219,14 @@ The following properties are used by [[Introduction to Obsidian Publish|Obsidian
 | `description` | See [[Social media link previews#Description\|Description]]. |
 | `image` | See [[Social media link previews#Image\|Image]]. |
 | `cover` | See [[Social media link previews#Image\|Image]]. |
+
+### Deprecated properties
+
+These properties were deprecated in Obsidian 1.4. Please do not use them anymore:
+
+| Property | Description |
+|-|-|
+| `tag` | Deprecated alias for `tags`. |
+| `alias` | Deprecated alias for `aliases`. |
+| `cssclass` | Deprecated alias for `cssclasses`. |
+
