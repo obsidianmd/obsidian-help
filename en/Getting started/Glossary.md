@@ -14,7 +14,7 @@ A **command** is an action that can be performed either by selecting it from the
 
 ## Embed
 
-**Embedding** means replacing a reference to external content with the content itself, for example to include an image in your note. See also [[Embedding files]].
+**Embedding** means replacing a reference to external content with the content itself, for example to include an image in your note. See also [[Embed files]].
 
 ## Frontmatter
 

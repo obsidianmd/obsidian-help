@@ -38,7 +38,7 @@ You can use [[basic formatting syntax]] to style content within a table.
 First column | Second column
 -- | --
 [[Internal links]] | Link to a file _within_ your **vault**.
-[[Embedding files]] | ![[og-image.png\|200]]
+[[Embed files]] | ![[og-image.png\|200]]
 
 > [!note] Vertical bars in tables
 > If you want to use [[aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.

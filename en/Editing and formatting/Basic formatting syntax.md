@@ -17,7 +17,7 @@ This is another paragraph.
 ```
 
 > [!note]- Multiple blank spaces
-> Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Editing and previewing Markdown#Editor views|Reading view]] and on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+> Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Edit and preview Markdown#Editor views|Reading view]] and on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
 > 
 > ```md
 > Multiple          adjacent          spaces
@@ -129,7 +129,7 @@ If you only specify the width, the image scales according to its original aspect
 ```
 
 > [!tip]
-> If you want to add an image from inside your vault, you can also [[Embedding files#Embed an image in a note|embed an image in a note]].
+> If you want to add an image from inside your vault, you can also [[Embed files#Embed an image in a note|embed an image in a note]].
 
 ## Quotes
 

@@ -1,3 +1,7 @@
+---
+aliases:
+  - Obsidian Publish/Redirecting old notes
+---
 Renaming and removing notes is a natural part of maintaining a living vault. While Obsidian automatically updates links when you move a note within your local vault, other websites may still link to your old notes on your published [[Introduction to Obsidian Publish|Obsidian Publish]] site. In this article, you'll learn how to redirect readers from one note to another.
 
 Imagine you want to move a note from one folder to another:

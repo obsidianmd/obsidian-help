@@ -4,12 +4,14 @@ aliases:
 ---
 The Obsidian documentation uses the [Google developer documentation style guide](https://developers.google.com/style). For any topics not covered by the Google style guide, use the [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/).
 
-This page lists any deviances from the Google style guide, or terminology worth highlighting.
+This page lists any deviations from the Google style guide, or terminology worth highlighting.
 
 > [!tip] Contribute
 > Most of the documentation existed before this style guide did. If you find any violations of this style guide, please [create an issue](https://github.com/obsidianmd/obsidian-docs/issues/new) or submit a pull request to [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
 
 ## Terminology and grammar
+
+### Terms
 
 - Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
 - Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
@@ -30,6 +32,7 @@ _To allow device-specific configuration, Obsidian Sync doesn't sync its own sett
 
 ### UI and interactions
 
+- Use **bold** to indicate button text
 - Prefer "select" over "tap" or "click".
 - Prefer "sidebar" over "side bar".
 - Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
@@ -82,6 +85,14 @@ Don't indicate a direction when referring to settings. The location of the setti
 **Not recommended:**
 
 - To the right of **Pick remote vault**, select **Choose**.
+
+### Instructions
+
+Use imperatives for the names of guides, section headings, and step-by-step instructions. The imperative mood is concise and action-oriented, which is more straightforward for users following instructions.
+
+- Prefer "Set up" over "Setting up"
+- Prefer "Move a file" over "Moving a file"
+- Prefer "Import your notes" over "Importing your notes"
 
 ### Sentence case
 
@@ -164,7 +175,7 @@ Include icons and images when they make it easier to explain things that are har
 ![[Style-guide-zoomed-example.png#interface|300]]
 
 - Images should be in either `.png` or `.svg` format.
-- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embedding files#Embed an image in a note|embedding an image in a note]].
+- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embed files#Embed an image in a note|embedding an image in a note]].
 - In rare cases, you may want to place especially large or complex images in a [[Callouts#Foldable callouts|folded callout]]. 
 - For pop-up windows or modals, the image should show the entire Obsidian application window.
  ![[Style-guide-modal-example.png#interface]]
