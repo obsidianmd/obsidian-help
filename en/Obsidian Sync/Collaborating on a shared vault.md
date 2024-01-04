@@ -10,7 +10,9 @@ All collaborators must have an active Sync subscription to access a shared vault
 
 If the remote vault is [[Obsidian Sync/Security and privacy|end-to-end encrypted]], collaborators must enter the encryption password when they set up the vault.
 
-## Share a remote vault with another user
+## Managing users
+
+### Add users
 
 To invite a user to share a remote vault:
 
@@ -21,7 +23,7 @@ To invite a user to share a remote vault:
 5. In **Invite user**, enter the email of the user you want to invite.
 6. Select **Add**.
 
-## Stop sharing a remote vault
+### Remove users
 
 1. Open **Settings**.
 2. In the side menu, select **Sync**.
