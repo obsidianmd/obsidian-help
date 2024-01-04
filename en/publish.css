@@ -7,6 +7,10 @@ img {
     border-radius: 4px;
 }
 
+.theme-dark img[src*="lucide"] {
+    filter: invert(1);
+}
+
 span[src$="#interface"] img,
 img[src$="#interface"] {
     border: 1px solid var(--background-modifier-border);
