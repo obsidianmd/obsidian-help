@@ -7,7 +7,7 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 Syntax | Description
 -|-
 `[[Link]]` | [[Internal links]]
-`![[Link]]` | [[Embedding files]]
+`![[Link]]` | [[Embed files]]
 `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]
 `^id` | [[Internal links#Link to a block in a note\|Defining a block]]
 `%%Text%%` | [[Basic formatting syntax#Comments\|Comments]]

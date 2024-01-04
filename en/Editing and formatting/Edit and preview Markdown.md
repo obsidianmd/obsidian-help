@@ -1,7 +1,8 @@
 ---
-aliases: How to/Read and edit modes
+aliases:
+  - How to/Read and edit modes
+  - Editing and formatting/Editing and previewing Markdown
 ---
-
 Obsidian lets you customize how to edit and preview notes with Markdown syntax using _editor views_ and _editor modes_.
 
 Markdown is a markup language that uses special syntax to format text that's mainly useful when editing your notes. Less so when reading them. Instead, Obsidian can show them in a way that's more suitable for reading.

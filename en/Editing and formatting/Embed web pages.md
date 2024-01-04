@@ -2,8 +2,8 @@
 aliases:
   - How to/Embedding web pages
   - Iframe
+  - Editing and formatting/Embedding web pages
 ---
-
 Learn how to use the [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) HTML element to embed web pages in your notes.
 
 To embed a web page, add the following in your note and replace the placeholder text with the URL of the web page you want to embed:

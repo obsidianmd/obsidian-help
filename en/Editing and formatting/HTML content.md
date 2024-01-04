@@ -1,16 +1,16 @@
 ---
 aliases:
   - Advanced topics/HTML sanitization
+  - Editing and formatting/Using HTML
 ---
-
-Obsidian supports HTML to allow you to display your notes the way you want, or even [[Embedding web pages|embed web pages]]. Allowing HTML inside your notes comes with risks. To prevent malicious code from doing harm, Obsidian _sanitizes_ any HTML in your notes. 
+Obsidian supports HTML to allow you to display your notes the way you want, or even [[Embed web pages|embed web pages]]. Allowing HTML inside your notes comes with risks. To prevent malicious code from doing harm, Obsidian _sanitizes_ any HTML in your notes. 
 
 > [!example] 
 > The `<script>` element normally lets you run JavaScript whenever it loads. If Obsidian didn't sanitize HTML, an attacker could convince you to paste a text containing JavaScript that extracts sensitive information from your computer and sends it back to them.
 
 That said, since Markdown syntax does not support all forms of styling, using sanitized HTML can be yet another way of enhancing the quality of your notes. We've included some of the more common usages of HTML. 
 
-> [!info] More details on using `<iframe>` can be found in [[Embedding web pages]].
+> [!info] More details on using `<iframe>` can be found in [[Embed web pages]].
 
 ### Comments
 

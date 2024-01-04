@@ -16,7 +16,7 @@ To create a callout, add `[!info]` to the first line of a blockquote, where `inf
 
 > [!info]
 > Here's a callout block.
-> It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embedding files|embeds]]!
+> It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embed files|embeds]]!
 > ![[Engelbart.jpg]]
 
 Callouts are also supported natively on [[Introduction to Obsidian Publish|Obsidian Publish]].
