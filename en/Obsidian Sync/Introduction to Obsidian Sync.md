@@ -26,6 +26,9 @@ cssclasses:
 - [[Obsidian Sync and third-party services|Third-party services]]
 	- How to use a third-party service to back up your vault.
 
-## Important note
+## Important
 
-If you're using Obsidian Sync together with other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, refer to [[Obsidian Sync and third-party services]] to avoid sync conflicts.
+If you are using Obsidian Sync together with other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, refer to [[Obsidian Sync and third-party services]] to avoid sync conflicts.
+
+See [[Sync limitations]] for frequently asked questions, and more details about Obsidian Sync.
+ 

@@ -41,3 +41,11 @@ Shared vaults allow teams to work together on a set of files, however Obsidian d
 If multiple users are editing the same file at the same time, [[Troubleshoot Obsidian Sync#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Version history]].
 
 ![[version-history-collaboration.png]]
+
+ 
+### Limitations
+
+Be aware that Obsidian Sync has [[Sync limitations|Limitations]] that may affect your team:
+
+- The maximum number of collaborators on a shared vault is 10 users.
+- The maximum file size for attachments is 200 MB.

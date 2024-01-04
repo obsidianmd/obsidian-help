@@ -34,7 +34,7 @@ To update a local note with changes from the live site:
 2. Right-click the change you want to sync, and then select **Use live version**. **This will overwrite the note in your local vault.**
 
 > [!tip]
-> We recommend that you use another tool to sync changes between vaults, such as [[Obsidian Sync]] or [git](https://git-scm.com/).
+> We recommend that you use another tool to sync changes between vaults, such as [[Introduction to Obsidian Sync|Obsidian Sync]] or [git](https://git-scm.com/).
 
 ## Permissions
 

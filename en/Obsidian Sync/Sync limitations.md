@@ -2,19 +2,19 @@
 aliases:
   - Limitations
   - Sync limitations
+  - Sync FAQ
 ---
-
 This page lists some of the common questions related to questions and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
 
 ## General
 
-### What operating systems does obsidian sync support?
+### What operating systems does Obsidian Sync support?
 
 Obsidian Sync supports every platform that Obsidian can run on. Currently that means Windows, macOS, Linux, Android and iOS.
 
 ### How much storage do I have?
 
-The storage limit will depend upon which Obsidian Sync plan you are subscribed to. This storage limit includes [[Version history|version history]].
+The storage limit depends on which Obsidian Sync plan you are subscribed to. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. You can view **Storage usage** in the Obsidian app by going to **Settings → Sync**.
 
 ### How many remote vaults can I have?
 
@@ -26,11 +26,11 @@ You can allocate your storage any way you want across all your vaults.
 
 ### How large can each file be?
 
-At the moment, each file can be up to 200 MB.
+The maximum file size is 200 MB.
 
 ### What type of data will sync?
 
-By default your obsidian notes, images, and your [[Config folders|config folders]] will sync. 
+By default your Obsidian notes, images, and your [[Config folders|config folders]] will sync. 
 
 You can add additional syncing options of PDF's, audio files, video files, and other files when you [[select files and settings to sync]].
 
@@ -40,7 +40,7 @@ No, files are only synced when Obsidian is running.
 
 ### What's the maximum number of people I can share a remote vault with?
 
-At the moment, you can share a remote vault with up to 10 people.
+You can [[Collaborating on a shared vault|share a remote vault]] with up to 10 people.
 
 ## Data retention
  
@@ -48,7 +48,7 @@ These are commonly asked questions on Obsidian's data retention. For more in dep
 
 ### How long do you keep the version history?
 
-We keep [[Version history|version histories]] of Markdown files for up to one year before we clean it up. Attachments are kept for two weeks.
+Older [[Version history|versions]] of Markdown files are stored for one year, and then deleted. Older versions of attachments are stored for two weeks.
 
 ### How long do you keep my data after my subscription expires?
 
