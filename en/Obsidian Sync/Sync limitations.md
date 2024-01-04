@@ -40,7 +40,7 @@ No, files are only synced when Obsidian is running.
 
 ### What's the maximum number of people I can share a remote vault with?
 
-You can [[Collaborating on a shared vault|share a remote vault]] with up to 10 people.
+You can [[Collaborate on a shared vault|share a remote vault]] with up to 10 people.
 
 ## Data retention
  

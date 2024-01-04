@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Obsidian+Publish/Collaborating
+  - Obsidian Publish/Collaborating
 ---
 Learn how to collaborate on your [[Introduction to Obsidian Publish|Obsidian Publish]] site with other Obsidian users. By adding your friends and colleagues as collaborators, they can publish changes to your site.
 
@@ -24,7 +24,7 @@ Only the site owner needs an active subscription for Obsidian Publish. Collabora
 3. Next to **Site collaboration**, select **Manage**.
 4. Next to the collaborator you want to remove, select **Remove user** (cross icon).
 
-## Syncing changes between collaborators
+## Sync changes between collaborators
 
 Obsidian Publish doesn't sync published changes between local vaults automatically. Instead, collaborators need to manually sync changes from other collaborators.
 

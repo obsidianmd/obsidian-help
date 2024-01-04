@@ -17,7 +17,7 @@ cssclasses:
 	- Add another device to sync notes to.
 - [[Version history]]
 	- View or restore previous versions of a note.
-- [[Collaborating on a shared vault|Collaboration]]
+- [[Collaborate on a shared vault|Collaboration]]
 	- Add team members to a shared vault.
 - [[Troubleshoot Obsidian Sync]]
 	- Common syncing issues and solutions.

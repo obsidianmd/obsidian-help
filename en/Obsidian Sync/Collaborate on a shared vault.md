@@ -3,6 +3,8 @@ aliases:
   - Share remote vaults
   - Collaboration
   - Teams
+  - Collaborating
+  - Obsidian Sync/Share remote vaults
 ---
 With [[Introduction to Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team.
 
@@ -10,7 +12,7 @@ All collaborators must have an active Sync subscription to access a shared vault
 
 If the remote vault is [[Obsidian Sync/Security and privacy|end-to-end encrypted]], collaborators must enter the encryption password when they set up the vault.
 
-## Managing users
+## Manage users
 
 ### Add users
 
@@ -30,7 +32,7 @@ To invite a user to share a remote vault:
 3. Next to **Remote vault**, select **Manage**.
 4. Next to the user you want to remove access from, select **Remove user** ( ![[lucide-x.svg#icon]] ).
 
-## Collaborating with your team
+## Collaborate with your team
 
 ### Permissions
 

@@ -18,7 +18,7 @@ If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're a
 	- Get started with Obsidian Publish.
 - [[Manage sites]]
 	- Learn how to manage multiple Publish sites.
-- [[Collaborating on a Publish site]]
+- [[Collaborate on a Publish site]]
 	- Share a Publish site with collaborators.
 - [[Customize your site]]
 	- Customize your Publish site.
