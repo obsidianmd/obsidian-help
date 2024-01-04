@@ -14,11 +14,13 @@ cssclasses:
 - [[Select files and settings to sync|Selective sync]]
 	- Configure which files and settings to sync.
 - [[Set up Obsidian Sync on another device|Set up a second device]]
-	- If you already have Obsidian Sync enabled on one device.
+	- Add another device to sync notes to.
 - [[Version history]]
-	- If you want to know how to view or restore previous versions of a note.
+	- View or restore previous versions of a note.
+- [[Collaborating on a shared vault|Collaboration]]
+	- Add team members to a shared vault.
 - [[Troubleshoot Obsidian Sync]]
-	- If you're having an issue with Obsidian Sync.
+	- Common syncing issues and solutions.
 - [[Security and privacy]]
 	- How Obsidian keeps your Sync data safe.
 - [[Obsidian Sync and third-party services|Third-party services]]

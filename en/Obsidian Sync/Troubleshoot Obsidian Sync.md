@@ -14,11 +14,11 @@ When Sync downloads a new version of a file, and finds that there are conflicts 
 
 ## Obsidian Sync deleted a note I just created on two devices
 
-Generally, Obsidian Sync tries to [[#Conflict resolution|resolve conflicts]] between devices by merging the content of the conflicting notes. Unfortunately, merging conflicting notes can cause issues for users who <u>automatically generate</u> or <u>alter notes</u> on startup, for example using [[Daily notes]].
+Generally, Obsidian Sync tries to [[#Conflict resolution|resolve conflicts]] between devices by merging the content of the conflicting notes. Unfortunately, merging conflicting notes can cause issues for users who *automatically generate* or *alter notes* on startup, for example using [[Daily notes]].
 
 If a note was created locally on a device less than a couple of minutes before Sync downloads a remote version of that note, then Sync keeps the remote version without attempting to merge the two. You can still recover the local version using [[File recovery]].
 
-## What does the `vault limit exceeded` error mean?
+## What does "Vault limit exceeded" mean?
 
 Your account exceeds the [[Sync limitations#How large can each remote vault be|maximum size of 50 GB]]. See [[Remote vault size limit]].
 
@@ -29,7 +29,7 @@ To identify and purge large files from the vault:
 1. Open **Settings → Sync**.
 2. Explore the options under **Vault size over limit** for how you can reduce the size of your vault.
 
-## What is this "Vault not found" message?
+## What does "Vault not found" mean?
 
 `{"res":"err","msg":"Vault not found."}`
 
