@@ -49,6 +49,10 @@ Tags must contain at least one non-numerical character. For example, #1984 isn't
 
 Tags are case-insensitive. For example, #tag and #TAG will be treated as identical.
 
+> [!note] 
+> Tags will display with the casing they are first created with in the [[Tags view]]. 
+> For example, creating #Tag and then #TAG will display #Tag for both. 
+
 Tags can't contain blank spaces. To separate two or more words, you can instead use the following formats:
 
 - #camelCase
