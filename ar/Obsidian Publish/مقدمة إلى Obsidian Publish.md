@@ -2,11 +2,11 @@
 permalink: obsidian-publish/introduction-to-obsidian-publish
 ---
 
-[Obsidian Publish](https://obsidian.md/publish) هي خدمة استضافة مصيغ على السحابة تتيح لك نشر مذكراتك كموسوعة)، قاعدة معرفية، وثائق، أو حديقة رقمية.
+[Obsidian Publish](https://obsidian.md/publish) هي خدمة استضافة مصيغ على السحابة تتيح لك نشر مذكراتك كموسوعة)، قاعدة معرفية، مستندات، أو حديقة رقمية.
 
 حدد الملاحظات التي ترغب في مشاركتها مع العالم، ثم اضغط **Publish**، وسنقوم باستضافتها على <code dir="ltr">Obsidian Publish.obsidian.md/موقعك</code>
 
-إذا كنت تقرأ هذا على [publish.obsidian.md](https://publish.obsidian.md/help-ar)، فأنت تنظر بالفعل إلى موقع يستخدم Obsidian Publish. يمكنك رؤية القبو على [GitHub](https://github.com/obsidianmd/obsidian-help).
+إذا كنت تقرأ هذا على [publish.obsidian.md](https://publish.obsidian.md/help-ar)، فأنت تنظر بالفعل إلى موقع يستخدم Obsidian Publish! يمكنك رؤية القبو على [GitHub](https://github.com/obsidianmd/obsidian-help).
 
 ## تعرف على المزيد
 

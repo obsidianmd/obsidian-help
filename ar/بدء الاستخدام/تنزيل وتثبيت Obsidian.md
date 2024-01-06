@@ -7,14 +7,14 @@ permalink: getting-started/download-and-install-obsidian
 ## تثبيت Obsidian على Windows
 
 1. افتح متصفحك وانتقل إلى [تنزيل Obsidian](https://obsidian.md/download).
-2. ضمن **Windows**، انقر **64-bit installer** لتنزيل ملف التثبيت.
+2. ضمن **Windows**، انقر على **64-bit installer** لتنزيل ملف التثبيت.
 3. افتح ملف التثبيت واتبع التعليمات.
 4. افتح Obsidian بنفس الطريقة التي تفتح بها أي تطبيق آخر.
 
 ## تثبيت Obsidian على macOS
 
 1. افتح متصفحك وانتقل إلى [تنزيل Obsidian](https://obsidian.md/download).
-2. ضمن **macOS**، انقر **Universal DMG (Intel and M1)** لتنزيل ملف التثبيت.
+2. ضمن **macOS**، انقر على **Universal DMG (Intel and M1)** لتنزيل ملف التثبيت.
 3. افتح ملف التثبيت.
 4. في النافذة التي تظهر، اسحب Obsidian إلى مجلد التطبيقات.
 5. افتح Obsidian بنفس الطريقة التي تفتح بها أي تطبيق آخر.
@@ -26,7 +26,7 @@ permalink: getting-started/download-and-install-obsidian
 ### تثبيت Obsidian باستخدام Snap
 
 1. افتح متصفحك وانتقل إلى [تنزيل Obsidian](https://obsidian.md/download).
-2. ضمن **Linux**، انقر **Snap** لتنزيل ملف التثبيت.
+2. ضمن **Linux**، انقر على **Snap** لتنزيل ملف التثبيت.
 3. افتح نافذة الأوامر (terminal) وانتقل إلى المجلد الذي قمت بتنزيل ملف التثبيت إليه.
 4. في نافذة الأوامر (terminal)، قم بتشغيل الأمر التالي لتثبيت حزمة Snap: (flag <code dir="ltr">--dangerous</code> مطلوب لأن Canonical، الشركة التي أنشأت Snap، لم تقم بمراجعة حزمتنا، flag <code dir="ltr">--classic</code> يسمح لـ Obsidian بالوصول إلى خارج بيئة الاختبار حيث يتم تخزين ملاحظاتك)
 
@@ -39,7 +39,7 @@ permalink: getting-started/download-and-install-obsidian
 ### تثبيت Obsidian باستخدام AppImage
 
 1. افتح متصفحك وانتقل إلى [تنزيل Obsidian](https://obsidian.md/download).
-2. ضمن **Linux**، انقر **AppImage** لتنزيل ملف التثبيت.
+2. ضمن **Linux**، انقر على **AppImage** لتنزيل ملف التثبيت.
 3. افتح نافذة الأوامر (terminal) وانتقل إلى المجلد الذي قمت بتنزيل ملف التثبيت إليه.
 4. في نافذة الأوامر (terminal)، قم بتشغيل الأمر التالي لفتح Obsidian:
 
@@ -65,7 +65,7 @@ permalink: getting-started/download-and-install-obsidian
 ## تثبيت Obsidian على Android
 
 1. ابحث عن Obsidian في [متجر Play](https://play.google.com/store/apps/details?id=md.obsidian).
-2. انقر **Install** لتنزيل التطبيق.
+2. انقر على **Install** لتنزيل التطبيق.
 3. افتح Obsidian بنفس الطريقة التي تفتح بها أي تطبيق آخر.
 
 ## تثبيت Obsidian على أجهزة iPhone و iPad

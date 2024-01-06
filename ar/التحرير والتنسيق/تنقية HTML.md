@@ -1,7 +1,7 @@
 ---
+permalink: editing-and-formatting/html-sanitization
 aliases:
   - مواضيع متقدمة/ تعقيم HTML
-permalink: editing-and-formatting/html-sanitization
 ---
 
 يدعم Obsidian لغة HTML لتمكنك من عرض ملاحظاتك بالطريقة التي تريدها، أو حتى [[تضمين صفحات الويب]]. لكن السماح بلغة HTML داخل ملاحظاتك يأتي مع مخاطر. لمنع النصوص البرمجية الخبيثة من إلحاق أي ضرر، يقوم Obsidian **بتنقية** أي HTML في ملاحظاتك.

@@ -21,7 +21,7 @@ permalink: import/google-keep
 2. انتقل إلى **Community Plugins** وقم بتثبيت [Importer](obsidian://show-plugin?id=obsidian-importer).
 3. قم بتمكين مكوّن Importer الإضافي.
 4. افتح مكوّن Importer الإضافي باستخدام لوحة الأوامر أو من أيقونة الشريط.
-5. ضمن **File format**، اختر **Google Keep (.zip).**
+5. ضمن **File format**، اختر **Google Keep (.zip)**.
 6. حدد موقع ملف الـ <code dir="ltr">.zip</code>.
 7. انقر على **Import** وانتظر حتى يكتمل الاستيراد.
 8. انتهيت!

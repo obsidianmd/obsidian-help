@@ -42,13 +42,13 @@ _الأسعار بالدولار الأمريكي._
 
 1. انضم إلى [منتدانا](https://forum.obsidian.md) إذا لم تكن قد انضممت بعد.
 2. انتقل إلى صفحة [حسابك في Obsidian](https://obsidian.md/account).
-3. ضمن **Your license > Obsidian Catalyst**، انقر **Get forum badge**.
+3. ضمن **Your license → Obsidian Catalyst**، انقر على **Get forum badge**.
 
 ### الحصول على شارة Discord
 
 1. انضم [لخادمنا في Discord](https://discord.com/invite/veuWUTm)، إذا لم تكن قد انضممت بعد.
 2. انتقل إلى صفحة [حسابك في Obsidian](https://obsidian.md/account).
-3. ضمن **Your license > Obsidian Catalyst**، انقر **Get Discord badge**.
+3. ضمن **Your license → Obsidian Catalyst**، انقر على **Get Discord badge**.
 
 ### الانضمام إلى قنواتنا الداخلية
 
