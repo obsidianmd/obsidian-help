@@ -17,3 +17,6 @@ Here is a block comment: (can't see it in preview either)
 It can span
 multiple lines
 %%
+
+> [!note]
+> For ease of editing, comments remain visible in the Live Preview mode.
