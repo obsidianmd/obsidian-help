@@ -36,7 +36,7 @@ Live Preview is a smart editor mode that previews Markdown-formatted text while 
 You can reveal the syntax for any Markdown-formatted text by moving the text cursor to it.
 
 > [!tip]
-> Since Live Preview lets you see the formatted in the editing view, it often removes the need to switch between editor views.
+> Since Live Preview lets you see the formatting in the editing view, it often removes the need to switch between editor views.
 
 ### Source mode
 
