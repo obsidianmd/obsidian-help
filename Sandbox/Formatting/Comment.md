@@ -1,7 +1,7 @@
 Use `%%` to enclose comments, which will be parsed as Markdown, but will not show up in the preview.
 
 ```md
-Here is some inline comments: %%You can't see this text%% (can't see it in preview)
+Here is an inline comment: %%You can't see this text%% (can't see it in preview)
 
 Here is a block comment: (can't see it in preview either)
 %%
@@ -10,7 +10,7 @@ multiple lines
 %%
 ```
 
-Here is some inline comments: %%You can't see this text%% (can't see it in preview)
+Here is an inline comment: %%You can't see this text%% (can't see it in preview)
 
 Here is a block comment: (can't see it in preview either)
 %%
