@@ -145,17 +145,17 @@ img[src$="#icon"] {
 .list-cards .icon-app {
     display: inline-block;
     align-self: center;
-    margin-left: 16px;
-    margin-right: -32px;
+    left: 16px;
     width: 24px;
     height: 24px;
+    position: absolute;
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
 }
 
 .list-cards .icon-app + a {
-    padding-left: 40px;
+    padding-left: 52px;
     align-self: center;
     line-height: 1.15;
 }
