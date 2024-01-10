@@ -25,10 +25,14 @@ In the rare case of a complete server breach, your data remains encrypted—no o
 
 ### What encryption do you use?
 
-For data security, we implement industry-standard encryption protocols. Specifically, we use [AES-256](https://www.nist.gov/publications/advanced-encryption-standard-aes-0), a military-grade encryption specification widely employed in contexts such as online banking. The encryption process involves the following technical details:
+For data security, we implement industry-standard encryption protocols. Specifically, we use [AES-256](https://www.nist.gov/publications/advanced-encryption-standard-aes-0), the strongest encryption standard, widely employed in contexts such as online banking. The encryption process involves the following technical details:
 
-- Key Derivation Function: scrypt with salt
-- Encryption Algorithm: AES-256 using GCM
+- **Key derivation function:** [scrypt](https://en.wikipedia.org/wiki/Scrypt) with salt
+- **Encryption algorithm:** AES-256 using [Galois/Counter Mode (GCM)](https://en.wikipedia.org/wiki/Galois/Counter_Mode)
+
+### Can I verify that my data is end-to-end encrypted?
+
+Yes. See our guide, [how to verify Obsidian Sync's end-to-end encryption](https://obsidian.md/blog/verify-obsidian-sync-encryption/). This guide provide step-by-step instructions for you to trustlessly verify the end-to-end encryption of your data when it is sent and received via Sync servers.
 
 ### Has Obsidian completed a third-party security audit?
 
@@ -48,10 +52,6 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
 6. Now all your devices should be connected to the new remote vault.
-
-### Can I verify that my data is end-to-end encrypted?
-
-Yes. See our guide, [how to verify Obsidian Sync's end-to-end encryption](https://obsidian.md/blog/verify-obsidian-sync-encryption/). This guide provide step-by-step instructions for you to trustlessly verify the end-to-end encryption of your data when it is sent and received via Sync servers.
 
 ## Hosting
 ### Where do you host the servers for Obsidian Sync?
