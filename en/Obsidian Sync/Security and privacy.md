@@ -3,7 +3,6 @@ aliases:
   - Security/privacy for Obsidian Sync
   - Access control for Obsidian Sync
 ---
-
 ## Encryption
 
 For your safety, [[Introduction to Obsidian Sync|Obsidian Sync]] encrypts your [[Local and remote vaults|remote vault]] and all communication with Obsidian's servers. Before anyone can access your remote vault, they first need to decrypt it with an _encryption password_.
@@ -31,6 +30,10 @@ For data security, we implement industry-standard encryption protocols. Specific
 - Key Derivation Function: scrypt with salt
 - Encryption Algorithm: AES-256 using GCM
 
+### Has Obsidian completed a third-party security audit?
+
+Yes. Obsidian has been independently audited. Visit our [Security page](https://obsidian.md/security) to view audit reports. Regular audits by third-party security firms ensure that Obsidian code and procedures meet the highest security standards.
+
 ### What happens if I forget my encryption password?
 
 If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it's forever lost.
@@ -45,6 +48,10 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
 6. Now all your devices should be connected to the new remote vault.
+
+### Can I verify that my data is end-to-end encrypted?
+
+Yes. See our guide, [how to verify Obsidian Sync's end-to-end encryption](https://obsidian.md/blog/verify-obsidian-sync-encryption/). This guide provide step-by-step instructions for you to trustlessly verify the end-to-end encryption of your data when it is sent and received via Sync servers.
 
 ## Hosting
 ### Where do you host the servers for Obsidian Sync?
