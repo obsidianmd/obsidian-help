@@ -1,3 +1,7 @@
+---
+aliases:
+  - User interface/Workspace/Ribbon
+---
 The ribbon functions as a space for common commands within Obsidian. 
 
 On desktop, it's located in the left sidebar and remains visible even when the left sidebar is closed. 

@@ -1,6 +1,6 @@
 The Graph view lets you visualize the relationships between the notes in your vault.
 
-To open the Graph view, click **Open graph view** in the [[ribbon]].
+To open the Graph view, click **Open graph view** in the [[Ribbon]].
 
 - Circles represent notes, or _nodes_.
 - Lines represents [[Internal links]] between two nodes.

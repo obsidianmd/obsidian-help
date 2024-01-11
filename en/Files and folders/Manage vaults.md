@@ -8,7 +8,7 @@ A **vault** is a folder on your file system which contains your notes, [[attachm
 
 You can manage your vaults using the **vault switcher**. The **vault switcher** opens the first time you open Obsidian.
 
-To open the vault switcher from an existing vault, select **Open another vault** (vault icon) at the bottom of the [[ribbon]]. Or, select **Open another vault** from the [[command palette]].
+To open the vault switcher from an existing vault, select **Open another vault** (vault icon) at the bottom of the [[Ribbon]]. Or, select **Open another vault** from the [[command palette]].
 
 ## Create new vault
 

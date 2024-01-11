@@ -1,3 +1,7 @@
+---
+aliases:
+  - User interface/Workspace/Sidebar
+---
 On desktop Obsidian has two sidebars on both left and right. The left sidebar includes the [[Ribbon]].
 
 On mobile, Obsidian only has a left sidebar, which is [[#Open hidden sidebars|collapsed by default]].

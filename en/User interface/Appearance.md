@@ -8,19 +8,13 @@ Obsidian comes with two color schemes, light and dark. By default, the color sch
 
 ### Custom themes
 
-You can the appearance of Obsidian by using custom [[themes]]. You can browse hundreds of community-made themes by going to **Settings → Appearance**, then click **Manage** to view and install themes.
+You can the appearance of Obsidian by using [[themes|custom themes]]. You can browse hundreds of community-made themes by going to **Settings → Appearance**, then click **Manage** to view and install themes.
 
 You can also [create your own theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme), and tweak themes using [[CSS snippets]].
 
-### Translucency
-
-You can make the window translucent by enabling this option in the settings appearance tab. Currently this option is only available for Windows and macOS.
-
-There's a known issue under Windows where dragging the window is extremely slow when translucency is enabled. This is due to a Windows bug. A GitHub issue tracking the status of a fix can be found here: https://github.com/riverar/sample-win32-acrylicblur/issues/2
-
 ### Custom app icon
 
-You can change the Obsidian app icon. If you're unsure where to begin, explore Obsidian's default icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/). This feature is currently only available in the Obsidian desktop app.
+You can change the app icon of the Obsidian desktop app. Try the icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/) to customize the icon colors to your liking.
 
 To change the Obsidian app icon, follow these steps:
 
@@ -44,3 +38,10 @@ To change the Obsidian app icon, follow these steps:
 > - Click **OK**.
 > 
 > Afterward, you have the option to either restart `explorer.exe` within the task manager or restart your computer to apply the changes you made.
+
+### Translucency
+
+You can make the window translucent by enabling this option in the settings appearance tab. Currently this option is only available for Windows and macOS.
+
+There's a known issue under Windows where dragging the window is extremely slow when translucency is enabled.
+

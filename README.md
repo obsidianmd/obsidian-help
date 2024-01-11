@@ -72,13 +72,6 @@ The docs under the following folders have been updated to the new organization a
 - [x] Obsidian Sync
 - [x] Plugins
 
-The docs in the following folders have yet to be updated, and may change considerably in the future. Any work done on these docs has a high risk of becoming outdated.
-
-- [ ] Advanced topics
-- [ ] Concepts
-- [ ] Customization
-- [ ] How to
-- [ ] User interface
 
 ## Credits
 

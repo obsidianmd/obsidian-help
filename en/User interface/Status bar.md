@@ -1,3 +1,7 @@
+---
+aliases:
+  - User interface/Workspace/Status bar
+---
 The status bar shows handy information. That includes helpful information about the current file, the current vault, or the current status like time and date.
 
 This status bar features navigation items, and the [[Ribbon#Mobile|mobile ribbon menu]].
