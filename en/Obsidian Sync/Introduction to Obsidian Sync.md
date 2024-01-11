@@ -5,7 +5,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-[Obsidian Sync](https://obsidian.md/sync) is a cloud-based service that lets you store your notes on Obsidian's servers and sync them across your devices.
+[Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to store your notes on Obsidian's servers and sync them across your devices privately.
 
 ## How to use Obsidian Sync
 
@@ -24,7 +24,7 @@ cssclasses:
 - [[Security and privacy]]
 	- How Obsidian keeps your Sync data safe.
 - [[Obsidian Sync and third-party services|Third-party services]]
-	- How to use a third-party service to back up your vault.
+	- Back up your vault using third-party services.
 
 ## Important
 
