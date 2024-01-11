@@ -1,6 +1,12 @@
-Each Obsidian Sync account will have a remote vault size limit, including [[version history]] and [[attachments]]. This limit is determined by your Obsidian Sync plan.
+---
+aliases:
+  - Obsidian Sync/Remote vault size limit
+---
+The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] is defined by your subscription plan. Additional Sync storage can be purchased up to 100 GB via your [account dashboard](https://obsidian.md/account). See [[Sync limitations]] for more details.
 
-When you reach the maximum size of your account limit, Sync will cease syncing files, and you will be prompted to prune your remote vault(s).
+There is a single account-wide storage limit for all notes across your vaults. [[Version history]] and [[attachments]] are also counted towards your account's storage limit.
+
+When you reach your account's storage limit, the Sync plugin will cease syncing files, and you will be prompted to prune your remote vault(s).
 
 ## Identify and delete large files
 
@@ -15,13 +21,13 @@ To identify and delete large files from the vault:
 6. Open **Settings → Sync**.
 7. Select **Prune** next to **Vault size over limit**. This will remove the deleted files from the remote vault to free up space.
 
-After the prune syncs to the server, Obsidian Sync should resume functioning properly.
+After the prune syncs to the server, Obsidian Sync should resume functioning.
 
-## Create new remote vault
+## Create a new remote vault
 
-Create a new remote vault lets you drop the version history and give you a chance to set up excluded large files before syncing. Please be sure that you don’t version history any more before proceeding.
+You can **create a new remote vault** to exclude large files before syncing. The version history for your files will be reset if you create a new remote vault. Please be sure that you don’t need version history for older files before proceeding.
 
-To sync to a new remote vault, do the following:
+To sync to a new remote vault, follow these steps:
 
 1. Open **Settings → Sync**.
 2. Select **Manage** next to **Remote vault**.
