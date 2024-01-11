@@ -47,7 +47,7 @@ After selecting a location, it's crucial to be aware that the data center **cann
 
 ## Connect to a remote vault
 
-> [!danger] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? Please [[Back up your data|read this guide]] before proceeding.
+> [!danger] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? Please [[Back up your vault|read this guide]] before proceeding.
 
 
 1. Next to your newly created vault, select **Connect**.
