@@ -1,4 +1,12 @@
-[[Introduction to Obsidian Sync|Obsidian Sync]] is a service for syncing your notes across devices. While it offers helpful features like [[Version history|restoring notes]], it's **not** designed to be used to back up your vault.
+---
+aliases:
+  - Obsidian Sync/Obsidian Sync and third-party services
+---
+[[Introduction to Obsidian Sync|Obsidian Sync]] is a service for syncing your notes across devices. While it offers the ability to [[Version history|restore notes]], it is **not** designed to back up your vault.
+
+To back up your data we recommend using a dedicated one-way backup tool that pushes data from your device to a backup location, and doesn't rewrite the data on your local device.
+
+## Using a third-party service to back up your data
 
 > [!danger] Though we recommend that you regularly back up your vault, be aware that **using a third-party syncing service together with Obsidian Sync may result in data corruption or data loss**.
 
@@ -6,28 +14,28 @@ If you set up the same third-party service on multiple devices, such as your pho
 
 To back up your vault using a third-party service, configure the service so that backups are only made from your primary device. For example, if you do most of your writing on your laptop, that's where you should configure your backups. 
 
-We recommend using a dedicated backup service that doesn't automatically update data on your local device from your backup.
-
-> [!important] Files On-Demand
-> Some cloud storage services, such as OneDrive, allow you to only download files when you use them and later remove them locally to free up space. Since the files are no longer available locally, Obsidian Sync believes they've been deleted and removes them from your remote vault.
->
-> To use Obsidian Sync together with Files On-Demand and similar features, make sure to configure the service to always keep the files on the device.
-
 In the vault switcher, your vault now has a vault icon instead of a cloud, to indicate it's no longer synced to iCloud Drive. 
+
+> [!warning] Files must be available offline
+> Some cloud storage services such as OneDrive and Dropbox allow you to only download files when you use them and later remove them locally to free up space. These features are sometimes called "Files on-demand" or "Online-only files".
+> 
+> Since the files are no longer available locally, they will appear deleted to Obsidian Sync, and will be removed from your remote vault.
+>
+> To use Obsidian Sync together with OneDrive, Dropbox, or other similar services,  disable on-demand downloads. Configure the third-party service settings to always keep files on the device.
 
 ## Remove your vault from a third-party sync service
 
 If you're using Obsidian Sync and realize that you've set up your vault in a folder synced by a third-party service, you can use the following steps to move the vault to a safer location.
 
-## Desktop
+### Desktop
 
-### Option 1: Move your vault using the vault switcher
+#### Option 1: Move your vault using the vault switcher
 
 1. In the bottom-left corner, select **Open another vault** ( ![[obsidian-vault-switcher.svg#icon]] ).
 2. Next to the vault you want to move, select **More options** ( ![[lucide-more-horizontal.svg#icon]] ). 
 3. Choose a new location for the vault on your file system.
 
-### Option 2: Move your vault manually
+#### Option 2: Move your vault manually
   
 1. Make backups of your vault. Copy your vault folder another location that you won't touch throughout the rest of this operation.
 2. Quit Obsidian.  
@@ -41,11 +49,11 @@ If you're using Obsidian Sync and realize that you've set up your vault in a fol
 10. Set up Obsidian Sync again.
 
 
-## Mobile
+### Mobile
 
 On Android, the majority of distributions will install directly to the filesystem, and the steps to relocate the vault are identical to those outlined in [[#Option 1 Move your vault using the vault switcher|move your vault using the vault switcher]].
 
-### iOS
+#### iOS
 
 1. Make a backup of your vault.
 2. On your device, create a new vault and disable **Save in iCloud Drive**.

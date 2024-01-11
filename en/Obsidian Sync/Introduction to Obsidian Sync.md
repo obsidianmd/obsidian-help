@@ -23,12 +23,12 @@ cssclasses:
 	- Common syncing issues and solutions.
 - [[Security and privacy]]
 	- How Obsidian keeps your Sync data safe.
-- [[Obsidian Sync and third-party services|Third-party services]]
-	- Back up your vault using third-party services.
+- [[Back up your data]]
+	- Back up your vault using third-party tools.
 
 ## Important
 
-If you are using Obsidian Sync together with other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, refer to [[Obsidian Sync and third-party services]] to avoid sync conflicts.
+If you are using Obsidian Sync together with other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, refer to [[Back up your data]] to avoid sync conflicts.
 
 See [[Sync limitations]] for frequently asked questions, and more details about Obsidian Sync.
  
