@@ -5,7 +5,9 @@ aliases:
   - Pane layout
   - User interface/Use tabs in Obsidian
 ---
-You can open as many tabs as you want in Obsidian. You can also arrange tabs to create custom layouts that persist until the next time you open the application.
+Tabs in Obsidian work much like tabs in other apps, such as web browsers.
+
+You can open as many tabs as you want in Obsidian. You can also arrange tabs to create custom layouts that persist until the next time you open the app.
 
 ## Open a new tab
 
@@ -112,6 +114,6 @@ To open a linked view for a note tab:
 1. Select **More options** (three dots icon) in the upper right corner of the note.
 2. Under **Open linked view**, select the linked view you want to open.
 
-## Learn more
+## Save layouts
 
-- You can save and restore window layouts using the [[Workspaces]] plugin.
+You can save and restore window layouts using the [[Workspaces]] plugin.
