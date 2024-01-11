@@ -62,7 +62,7 @@ By default, Obsidian syncs all files and folders in your vault. If you don't wan
 
 ## Create a settings profile
 
-Obsidian Sync can sync multiple [[Config folders|config folders]] to the same remote vault. You can use this to create different profiles, for example one for mobile devices and another for your laptop.
+Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] to the same remote vault. You can use this to create different profiles, for example one for mobile devices and another for your laptop.
 
 To set your settings folder:
 

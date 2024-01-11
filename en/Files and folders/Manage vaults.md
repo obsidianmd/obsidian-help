@@ -4,11 +4,11 @@ aliases:
   - How to/Working with multiple vaults
   - Vault switcher
 ---
-You can manage your vaults using _vault switcher_. The vault switcher opens by default the first time you open Obsidian.
+A **vault** is a folder on your file system which contains your notes, [[attachments]], and the [[configuration folder]] with Obsidian-specific settings. For more information on vaults, refer to [[How Obsidian stores data]].
 
-To open the vault switcher from an existing vault, select **Open another vault** (vault icon) at the bottom of the [[ribbon]]. Or, select **Open another vault** from the [[command palette]].
+You can manage your vaults using the **vault switcher**. The **vault switcher** opens the first time you open Obsidian.
 
-For more information on vaults, refer to [[How Obsidian stores data]].
+To open the vault switcher from an existing vault, select **Open another vault** (vault icon) at the bottom of the [[Ribbon]]. Or, select **Open another vault** from the [[command palette]].
 
 ## Create new vault
 
@@ -63,4 +63,4 @@ To use the same settings for another vault, use your preferred file manager (or 
 You may need to restart Obsidian to apply the changes.
 
 > [!note] Where do I find the `.obsidian` folder?
-> By default, most operating systems hide folders starting with a period (`.`). For more information about the `.obsidian` folder and how to access it, refer to [[How Obsidian stores data#Vault settings|vault settings]] and [[Config folders|config folders]].
+> By default, most operating systems hide folders starting with a period (`.`). For more information about the `.obsidian` folder and how to access it, refer to [[How Obsidian stores data#Vault settings|vault settings]] and [[Configuration folder|config folders]].

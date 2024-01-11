@@ -1,7 +1,6 @@
 ---
 aliases: Advanced topics/How Obsidian stores data
 ---
-
 Obsidian stores your notes as [[Basic formatting syntax|Markdown-formatted]] plain text files in a _vault_. A vault is a folder on your local file system, including any subfolders.
 
 Because notes are plain text files, you can use other text editors and file managers to edit and manage notes. Obsidian automatically refreshes your vault to keep up with any external changes.
@@ -15,7 +14,7 @@ You can open multiple folders as individual vaults, for example to separate note
 
 ## Vault settings
 
-Obsidian creates an `.obsidian` folder in the root folder of the vault, which contains preferences specific to that vault, such as [[custom hotkeys]], [[themes]], and [[community plugins]].
+Obsidian creates an `.obsidian` [[configuration folder]] in the root folder of the vault, which contains preferences specific to that vault, such as [[hotkeys]], [[themes]], and [[community plugins]].
 
 By default, most operating systems hide folders that start with a period (`.`), so you may need to update the settings for your file manager to see it.
 

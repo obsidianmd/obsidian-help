@@ -1,11 +1,13 @@
 ---
 aliases:
   - .config
+  - Customization/Config folders
 ---
+Obsidian's configuration folder contains all the settings files pertaining to your [[Manage vaults|vault]].
 
-By default, Obsidian's vault configuration folder is `.obsidian`. If using a syncing service, or you wish to test different profiles in the same vault, you may want to change your config folder. 
+By default, your configuration folder is named `.obsidian` and placed in the vault folder. When using a syncing service, or if you wish to test different profiles in the same vault, you may want to change your config folder. 
 
-## Changing your config folder
+## Changing your configuration folder
 
 To set your config folder:
 

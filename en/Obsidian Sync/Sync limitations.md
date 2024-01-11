@@ -30,7 +30,7 @@ The maximum file size is 200 MB.
 
 ### What type of data will sync?
 
-By default your Obsidian notes, images, and your [[Config folders|config folders]] will sync. 
+By default your Obsidian notes, images, and your [[Configuration folder]] will sync. 
 
 You can add additional syncing options of PDF's, audio files, video files, and other files when you [[select files and settings to sync]].
 

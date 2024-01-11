@@ -1,9 +1,12 @@
 ---
-aliases: How to/Use hotkeys
+aliases:
+  - How to/Use hotkeys
+  - Customization/Custom hotkeys
+  - Keyboard shortcuts
 ---
-Most hotkeys are customizable in Obsidian.
+Obsidian allows you to customize hotkeys, also known as keyboard shortcuts.
 
-We only defined default hotkeys for the most commonly used commands, but if you frequently use a command, it would save you lots of time if you add a hotkey for it.
+Default hotkeys are only defined for the most commonly used [[Command palette|commands]]. If you frequently use a command, you can define a hotkey for it. See also [[Editing shortcuts]].
 
 ### Viewing hotkeys
 

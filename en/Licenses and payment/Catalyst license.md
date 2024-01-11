@@ -2,14 +2,13 @@
 aliases:
 - Licenses & Payment/Catalyst license
 ---
-
 While Obsidian is free of charge for personal use, you can support the Obsidian development by purchasing a _Catalyst_ license.
 
 While the Catalyst license doesn't grant you any additional features inside the app itself, you'll receive exclusive benefits, such as:
 
-- Early access to [[#Enable Insider builds|Insider builds]].
+- Early access to [[#Enable early access versions|new versions]].
 - Access to exclusive [[#Join our Insider channels|Insider channels]].
-- Cool and unique [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
+- Exclusive [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
 
 > [!Note] Commercial use
 > If you use Obsidian for work, you may need to obtain a [[Commercial license]].
@@ -20,7 +19,7 @@ The Catalyst license consists of three tiers: *Insider*, *Supporter*, and *VIP*.
 
 | Benefits                                                                              | Insider | Supporter |   VIP    |
 |---------------------------------------------------------------------------------------|:-------:|:---------:|:--------:|
-| Early access to Insider builds                                                        |    ✓    |     ✓     |    ✓     |
+| Early access to new versions                                                        |    ✓    |     ✓     |    ✓     |
 | Access to exclusive development channels, `#insider-desktop` and `#insider-mobile` |    ✓    |     ✓     |    ✓     |
 | Access to exclusive lounge channel, `#vip-lounge`                                 |         |     ✓     |    ✓     |
 | Insider community badge                                                               |    ✓    |           |          |
@@ -53,10 +52,8 @@ Once you've purchased a Catalyst license, you can access a range of benefits. Le
 
 ### Join our Insider channels
 
-Insiders can chat with the Obsidian team and other Insiders in our exclusive Discord channels.
+Insiders can chat with the Obsidian team and other Insiders in our exclusive Discord channels. You automatically join the Insider channels after you [[#Get your Discord badge]].
 
-You automatically join the Insider channels after you [[#Get your Discord badge]].
+### Enable early access versions
 
-### Enable Insider builds
-
-Please see [[Insider builds]].
+Learn how to receive [[Early access versions]].

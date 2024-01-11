@@ -26,7 +26,7 @@ A **graph** is a visualization that highlights connections between [[#note|notes
 
 ## Hotkey
 
-A **hotkey** is a keyboard shortcut for a [[#command]]. See also [[Custom hotkeys]] and [[Custom hotkeys|How to/Use hotkeys]].
+A **hotkey** is a keyboard shortcut for a [[#command]]. See also [[Hotkeys]] and [[Hotkeys|How to/Use hotkeys]].
 
 ## Link
 
@@ -88,7 +88,7 @@ The **status bar** in the Obsidian application shows you essential statistics an
 
 ## Tab
 
-A **tab** contains a [[#view]]. Tabs can be repositioned within the [[#main area]] and the [[#sidebar|sidebars]]. See also [[Use tabs in Obsidian]].
+A **tab** contains a [[#view]]. Tabs can be repositioned within the [[#main area]] and the [[#sidebar|sidebars]]. See also [[Tabs]].
 
 ## Tab group
 

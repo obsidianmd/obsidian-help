@@ -1,21 +1,25 @@
-Get early access to upcoming releases by enabling _Insider builds_.
-
-Insider builds are only available to users with a [[Catalyst license]].
+---
+aliases:
+  - Concepts/Insider builds
+---
+Get early access to upcoming releases by enabling _early access versions_. Early access versions are only available to users with a [[Catalyst license]].
 
 > [!warning]
-> Insider builds are development builds and may be unstable. Don't enable Insider builds if you prefer a more reliable experience.
+> Early access versions are beta releases. They include new features but may be less stable. Don't enable early access versions if you prefer a more reliable experience.
+> 
+> Be aware that plugin and theme developers receive early access versions at the same time as everyone else. Be patient with community developers who need to make updates to support new features.
 
-## Enable Insider builds for desktop
+## Enable early access versions for desktop
 
-To receive new Insider builds as soon as they're available, follow these steps:
+To receive early access versions as soon as they're available, follow these steps:
 
 1. Open **Settings**.
 2. In the sidebar, select **General**.
-3. Under **App**, enable **Receive insider builds**.
+3. Under **App**, enable **Receive early access versions**.
 
-## Install Insider builds on mobile devices
+## Install early access versions on mobile devices
 
-To find instructions on how to install Insider builds on your mobile device, follow these steps:
+To find instructions on how to install early access versions on your mobile device, follow these steps:
 
 1. Join the [Obsidian Discord server](https://discord.gg/veuWUTm).
 2. [[Catalyst license#Get your Discord badge|Get your Discord badge]] to access insider channels.
@@ -29,7 +33,7 @@ To find instructions on how to install Insider builds on your mobile device, fol
 
 ## Report issues and other feedback
 
-If you discover an issue in an Insider build, consider reporting it to the Obsidian team.
+If you discover an issue in an early access versions, consider reporting it to the Obsidian team.
 
 Before you report an issue, refer to the [List of known issues and planned improvements](https://forum.obsidian.md/t/list-of-known-issues-and-planned-improvements/14286) to see if someone has already reported it.
 
@@ -40,14 +44,14 @@ To report an issue, please use one of the following channels:
 
 When you report an issue, include the build version and the OS you're running it on. You can find the build version under **Settings → About → App → Current version**.
 
-## Change back to public builds on desktop
+## Change back to public versions on desktop
 
-To change back to using public (non-Insider) builds on desktop:
+To change back to using public versions (not early access) on desktop:
 
-1. Disable Insider builds.
+1. Disable early access versions.
    1. Open **Settings**.
    2. In the sidebar, select **General**.
-   3. Under **App**, disable **Receive insider builds**.
+   3. Under **App**, disable **Receive early access versions**.
 2. Close Obsidian.
 3. Delete the `obsidian-VERSION.asar` file, where `VERSION` is the Obsidian version.
    - Windows: `%APPDATA%\obsidian\obsidian-VERSION.asar`
@@ -55,11 +59,11 @@ To change back to using public (non-Insider) builds on desktop:
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Restart Obsidian.
 
-## Change back to public builds on desktop
+## Change back to public versions on desktop
 
-To change back to using public (non-Insider) builds on mobile:
+To change back to using public versions (not early access) on mobile:
 
-1. Backup your vault data
+1. Back up your vault data
 2. Uninstall Obsidian
 3. Reinstall Obsidian either from the Play Store or Apple App store
 4. Restore your vault data from your backups
