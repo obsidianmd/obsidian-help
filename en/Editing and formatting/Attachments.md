@@ -1,7 +1,6 @@
 ---
 aliases: How to/Manage attachments
 ---
-
 You can import [[Accepted file formats]], or _attachments_, to your vault, such as images, audio files, or PDFs. Attachments are regular files that you can access using your file system.
 
 ## Add an attachment

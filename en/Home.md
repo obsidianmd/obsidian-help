@@ -50,7 +50,7 @@ Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 ## Latest updates
 
 > [!todo] Update for version 1.5 
-> The documentation has been revised for the 1.5 desktop release, incorporating changes to the [[Interface language|interface language]]. 
+> The documentation has been revised for the 1.5 desktop release, incorporating changes to the [[Language settings|interface language]]. 
 > 
 > Pre-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **About**
 > Post-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **General**.

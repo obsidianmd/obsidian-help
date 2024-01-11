@@ -58,7 +58,7 @@ To create a heading, add up to six `#` symbols before your heading text. The num
 
 ## Bold, italics, highlights
 
-Text formatting can also be applied using [[Keyboard shortcuts for editing]].
+Text formatting can also be applied using [[Editing shortcuts]].
 
 | Style | Syntax | Example | Output |
 |-|-|-|-|

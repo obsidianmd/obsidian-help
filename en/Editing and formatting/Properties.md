@@ -12,7 +12,7 @@ Properties allow you to organize information about a note. Properties contain st
 There are several ways to add a property to a note:
 
 - Use the **Add file property** [[Command palette|command]].
-- Use the **`Cmd/Ctrl+;`** [[Custom hotkeys|hotkey]].
+- Use the **`Cmd/Ctrl+;`** [[Hotkeys|hotkey]].
 - Choose **Add file property** from the **More actions** menu (brought up by the three dots icon or by right-clicking the tab).
 - Type `---` at the very beginning of a file.
 

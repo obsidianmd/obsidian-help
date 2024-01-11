@@ -128,4 +128,4 @@ Since Obsidian stores notes in a local folder on your Android device, you can al
 
 You can utilize the ability to change your configuration folder per device, to maintain device specific settings even when using a syncing service. 
 
-![[Config folders#Changing your config folder]]
+![[Configuration folder#Changing your config folder]]

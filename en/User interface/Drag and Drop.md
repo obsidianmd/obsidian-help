@@ -2,7 +2,7 @@ There are many ways to drag and drop things around Obsidian to make the experien
 
 ### Drag tabs
 
-See [[Use tabs in Obsidian#Arrange tabs|Arrange tabs]].
+See [[Tabs#Arrange tabs|Arrange tabs]].
 
 ### Drag sources
 
