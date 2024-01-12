@@ -31,3 +31,12 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 8. Enable **Save parent pages in subfolders** to keep the Notion structure. *Note that in Notion you can write content in Folders, this is not possible in Obsidian and these pages will be added as a subpage under the folder.*
 9. Select **Import** and wait until import is complete
 10. You're done!
+
+## Tips for a successful migration
+
+Here are some tips to avoid common challenges other community members experienced while migrating. 
+
+- Double check you **exported Notion as HTML** (see [#186](https://github.com/obsidianmd/obsidian-importer/issues/186))
+- If Obsidian crashes, **disable your community plugins and try again** (see [#195](https://github.com/obsidianmd/obsidian-importer/issues/195))
+
+Run into something else? Search [issue in the importer repository](https://github.com/obsidianmd/obsidian-importer/issues) to see if others have experienced it.
