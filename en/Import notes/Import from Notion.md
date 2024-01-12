@@ -32,11 +32,11 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 9. Select **Import** and wait until import is complete
 10. You're done!
 
-## Tips for a successful migration
+## Troubleshooting
 
-Here are some tips to avoid common challenges other community members experienced while migrating. 
+If you run into issues while importing from notion:
 
-- Double check you **exported Notion as HTML** (see [#186](https://github.com/obsidianmd/obsidian-importer/issues/186))
-- If Obsidian crashes, **disable your community plugins and try again** (see [#195](https://github.com/obsidianmd/obsidian-importer/issues/195))
+- Make sure you use **HTML** as the export format in Notion, **not Markdown**.
+- If Obsidian appears to freeze during import, disable community plugins and try again.
 
-Run into something else? Search [issue in the importer repository](https://github.com/obsidianmd/obsidian-importer/issues) to see if others have experienced it.
+Run into something else? Search [the Importer repository](https://github.com/obsidianmd/obsidian-importer/issues) to see if others have experienced it.
