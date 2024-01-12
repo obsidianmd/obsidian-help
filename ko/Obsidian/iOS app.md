@@ -1,0 +1,6 @@
+이 도움말 기사는 레거시입니다. 오직 링크가 깨지지 않도록 유지하기 위한 역할만 합니다. 모바일 앱에 대한 정보는 [[Sync your notes across devices|기기 간 노트 동기화]]를 참조해주세요.
+
+## Sync
+
+iOS 앱에서 동기화에 대한 정보는 [[Sync your notes across devices#Sync your notes on iPhone and iPad|iPhone 및 iPad에서 노트 동기화]]를 참조해주세요.
+

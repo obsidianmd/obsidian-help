@@ -1,0 +1,3 @@
+[[Introduction to Obsidian Publish|Obsidian Publish]]을 통해 각 사이트당 최대 4GB까지의 노트 및 이미지, 비디오 클립과 같은 미디어 유형을 호스팅할 수 있습니다.
+
+단, Obsidian Publish는 스트리밍 비디오에 최적화되어 있지 않습니다. 방문자들의 경험을 향상시키려면 YouTube나 Vimeo와 같은 비디오 호스팅 서비스를 대신 사용하는 것을 권장합니다.
