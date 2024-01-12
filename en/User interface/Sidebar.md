@@ -4,7 +4,7 @@ aliases:
 ---
 On desktop Obsidian has two sidebars on both left and right. The left sidebar includes the [[Ribbon]].
 
-On mobile, Obsidian only has a left sidebar, which is [[#Open hidden sidebars|collapsed by default]].
+On mobile, Obsidian sidebars are [[#Open hidden sidebars|collapsed by default]]. They can be opened by using left and right swipe gestures from the edge of the screen.
 
 ## Open hidden sidebars
 

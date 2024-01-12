@@ -1,8 +1,8 @@
-There are many ways to drag and drop things around Obsidian to make the experience smoother:
+There are many ways to drag and drop elements in Obsidian. This includes tabs, files, folders, and content.
 
 ### Drag tabs
 
-See [[Tabs#Arrange tabs|Arrange tabs]].
+- You can [[Tabs#Arrange tabs|arrange tabs]] and split tab groups in the main content area and in [[Sidebar|sidebars]].
 
 ### Drag sources
 

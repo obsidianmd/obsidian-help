@@ -8,20 +8,20 @@ Obsidian comes with two color schemes, light and dark. By default, the color sch
 
 ### Custom themes
 
-You can the appearance of Obsidian by using [[themes|custom themes]]. You can browse hundreds of community-made themes by going to **Settings → Appearance**, then click **Manage** to view and install themes.
+You can change the appearance of Obsidian by using [[themes|custom themes]]. Browse hundreds of community-made themes by going to **Settings → Appearance**, then click **Manage** to view and install themes.
 
-You can also [create your own theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme), and tweak themes using [[CSS snippets]].
+You can also tweak themes using [[CSS snippets]] and [build your own theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) .
 
 ### Custom app icon
 
-You can change the app icon of the Obsidian desktop app. Try the icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/) to customize the icon colors to your liking.
+You can change the Obsidian desktop app icon. Try the icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/) to customize the icon colors to your liking.
 
 To change the Obsidian app icon, follow these steps:
 
-1. Go to **Settings**.
+1. Open **Settings**.
 2. Select **Appearance** on the left.
 3. Scroll down to the **Advanced** section.
-4. On the right side of the settings menu, click on **Choose** next to the custom app icon.
+4. Under **Custom app icon** click **Choose** .
 5. Pick your desired icon from your filesystem.  Accepted file formats are `.icns`, `.ico`, `.png`, and `.svg`.
 6. Click **Relaunch**.
 7. After Obsidian restarts, your new icon should appear in the taskbar on desktop and on your screen on mobile.
@@ -41,7 +41,7 @@ To change the Obsidian app icon, follow these steps:
 
 ### Translucency
 
-You can make the window translucent by enabling this option in the settings appearance tab. Currently this option is only available for Windows and macOS.
+You can make the Obsidian window translucent by enabling this option in the settings **Appearance** tab. Currently this option is only available for Windows and macOS.
 
-There's a known issue under Windows where dragging the window is extremely slow when translucency is enabled.
+There is a known issue on Windows. Dragging the app window may be slow when translucency is enabled.
 
