@@ -34,7 +34,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 
 ## Troubleshooting
 
-If you run into issues while importing from notion:
+If you run into issues while importing from Notion:
 
 - Make sure you use **HTML** as the export format in Notion, **not Markdown**.
 - If Obsidian appears to freeze during import, disable community plugins and try again.
