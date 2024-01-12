@@ -13,7 +13,7 @@ By default, Obsidian creates a new empty note named after today's date in the YY
 > [!example]- Automatic subfolders
 > You can automatically organize your daily notes into folders using the **Date format** feature.
 > 
-> For instance, if you set the file location as `Journal/YYYY/MMMM/YYYY-MMM-DD`, your notes will be created as `Journal/2023/January/2023-Jan-01`. 
+> For instance, if you set the date format as `YYYY/MMMM/YYYY-MMM-DD`, your notes will be created as `2023/January/2023-Jan-01`. 
 > 
 > You can explore more formatting options on the [momentJS](https://momentjs.com/docs/#/displaying/format/) documentation site.
 

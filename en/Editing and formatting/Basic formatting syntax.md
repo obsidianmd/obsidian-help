@@ -311,7 +311,7 @@ function fancyAlert(arg) {
 Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
 
 > [!note]
-> [[Live preview update|Live Preview mode]] doesn't support PrismJS and may render syntax highlighting differently.
+> [[Edit and preview Markdown#Source mode|Source mode]] and [[Edit and preview Markdown#Live Preview|Live Preview]] do not support PrismJS, and may render syntax highlighting differently.
 
 ## Footnotes
 
