@@ -17,7 +17,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 8. Click **Open Link** to allow your browser to redirect you to the Obsidian app.
 9. In the Obsidian app, the Importer dialog will now display that you are signed in and list your OneNote Notebooks and Sections. Check the sections you wish to import.
 
-![[OneNote-Importer-Select-Sections.png#interface]]
+![[OneNote-Importer-Select-Sections.png]]
 
 10. Click **Import** and wait until import is complete.
 11. You're done!
