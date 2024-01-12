@@ -8,7 +8,7 @@ Get early access to upcoming releases by enabling _early access versions_. Early
 > [!warning]
 > Early access versions are beta releases. They include new features but may be less stable. Don't enable early access versions if you prefer a more reliable experience.
 > 
-> Be aware that plugin and theme developers receive early access versions at the same time as everyone else. Be patient with community developers who need to make updates to support new features.
+> Be aware that community plugin and theme developers receive early access versions at the same time as everyone else. Be patient with developers who need to make updates to support new features.
 
 ## Enable early access versions for desktop
 
@@ -34,20 +34,18 @@ To find instructions on how to install early access versions on your mobile devi
 
 ## Report issues and other feedback
 
-If you discover an issue in an early access versions, consider reporting it to the Obsidian team.
+If you discover an issue in an early access version, consider reporting it to the Obsidian team. Before you report an issue, search the [forum](https://forum.obsidian.md/) or Discord to see if someone has already reported it.
 
-Before you report an issue, refer to the [List of known issues and planned improvements](https://forum.obsidian.md/t/list-of-known-issues-and-planned-improvements/14286) to see if someone has already reported it.
-
-To report an issue, please use one of the following channels:
+To report an issue, use one of the following channels:
 
 - On Discord, report the issue in the respective `#insider-release` channel.
 - In the forum, create a new topic under [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
 
 When you report an issue, include the build version and the OS you're running it on. You can find the build version under **Settings → About → App → Current version**.
 
-## Change back to public versions on desktop
+## Switch back to public versions on desktop
 
-To change back to using public versions (not early access) on desktop:
+To switch back to using public versions (not early access) on desktop:
 
 1. Disable early access versions.
    1. Open **Settings**.
@@ -60,9 +58,9 @@ To change back to using public versions (not early access) on desktop:
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Restart Obsidian.
 
-## Change back to public versions on desktop
+## Switch back to public versions on desktop
 
-To change back to using public versions (not early access) on mobile:
+To switch back to using public versions (not early access) on mobile:
 
 1. Back up your vault data
 2. Uninstall Obsidian
