@@ -2,8 +2,7 @@
 aliases:
 - Licenses & Payment/Commercial license
 ---
-
-If you're using Obsidian for commercial use in a company of two (2) or more employees, you need to purchase a Commercial license.
+If you use Obsidian for work in a company with two or more employees, you need to purchase a Commercial license.
 
 Commercial use includes, but isn't limited to, work-related activities such as:
 
@@ -18,41 +17,52 @@ You don't need a Commercial license if you work in any of the following settings
 - Non-profit organizations
 - Freelancing or companies with a single person
 
-You can evaluate Obsidian for commercial use for 14 days. You don't need to pay when you’re evaluating.
+You and your team may use Obsidian commercially for free for 14 days to evaluate the app before purchase. For bulk discounts, [[Help and support|contact Obsidian support]].
 
-To purchase a commercial license, visit the [pricing page](https://obsidian.md/pricing).
+## Purchase and activate a commercial license
 
-For bulk discounts, [[Help and support|contact Obsidian support]].
+To purchase a commercial license, follow the steps below. You can find pricing information on the [pricing page](https://obsidian.md/pricing).
 
-### FAQ
+1. Create or login to [your Obsidian account](https://obsidian.md/account).
+2. Scroll down to the **Commercial license** section.
+3. Click **Buy license** and choose the number of seats you want to purchase.
+4. Complete the payment process.
+5. The license key will be displayed and can be activated using the steps below.
+
+To activate a commercial license:
+
+1. Open the Obsidian app.
+2. Go to **Settings → General → Commercial license**.
+3. Click **Activate** and enter your license key.
+4. You're done! The app is now licensed for commercial use.
+
+## FAQ
 
 > [!question]- Q1. How do I activate my commercial license?
-> You can activate your commercial license under **Setting → General → Commercial license**.
+> You can activate your commercial license under **Settings → General → Commercial license**. See detailed instructions above.
 
 > [!question]- Q2. Can I try Obsidian for commercial use before paying?
-> Yes. You may evaluate Obsidian for commercial use for 14 days.
->
-> You don't need to pay before evaluating.
+> Yes. You and your team may evaluate Obsidian for commercial use for 14 days. You don't need to pay before evaluating.
 
 > [!question]- Q3. Can I buy a license for myself, or do I have to ask my company to buy it for me?
-> Yes, you can buy a license for yourself; just put your name in the company field. You can use such a license to work for any company.
+> Yes, you can buy the license for yourself by going to your [Account dashboard](https://obsidian.md/account). Most  companies will allow you to submit an expense report for the purchase. Some companies may have a different procurement process.
 
 > [!question]- Q4. I work at the IT department and need to purchase commercial licenses for our employees. What should I do?
 > You only need to sign up for one admin account and buy one Obsidian commercial license with seats equal to the number of employees who will use Obsidian in your company.
 > 
-> After purchasing the license, you’ll be given a license key which you can send to the employees to activate their license (see Q1 on how to activate). There’s no need for each employee to have an Obsidian account.
+> After purchasing the license, you will be given a license key which you can send to the employees to activate their license — see instructions above to activate the license. There’s no need for each employee to have an Obsidian account.
 
 > [!question]- Q5. Do non-profit organizations require a commercial license?
 > No, registered non-profit organizations may use Obsidian without a commercial license.
 
 > [!question]- Q6. Are there bulk discounts?
-> For bulk discount inquiry, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+> To purchase seat licenses in bulk, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
 
 > [!question]- Q7. How can I ask my company to purchase licenses for me or my team?
 > Ask your IT department to [[Help and support#Contact Obsidian support|contact Obsidian support]] if they have questions or require any specific paperwork.
 
 > [!question]- Q8. Do I need a commercial license?
-> From our EULA, if you use Obsidian for commercial use, you must obtain a commercial license. Commercial use is defined as using Obsidian for work-related activities in a company with two (2) or more employees.
+> Per our [Terms of Service](https://obsidian.md/terms), if you use Obsidian for commercial use, you must obtain a commercial license. Commercial use is defined as using Obsidian for work-related activities in a for-profit company with two or more employees.
 
 > [!question]- Q9: I'm a writer/blogger, do I need a commercial license?
 > If your writing is for-profit—for example you write on a blog that generates revenue via ads or sponsorships—and your business employs two or more people, then yes, you need a commercial license.
@@ -67,7 +77,7 @@ For bulk discounts, [[Help and support|contact Obsidian support]].
 > If your research involves producing a commercial product—for example if your research contributes to revenue-generating commercial activities—you need a commercial license for your usage. If your research doesn't contribute to a commercial product, or if your research has not yet led to commercial activities, you don't need a license.
 
 > [!question]- Q13: I work for a government or an arm's length body or agency. Do I need a commercial license?
-> Yes, you need a commercial license. From our EULA, if you use Obsidian for commercial use, you must obtain a commercial license. Commercial use is defined as using Obsidian for "work-related activities in a company with two (2) or more employees". The EULA's revenue-generating clause exempts non-profit organizations.
+> Yes, you need a commercial license. Per our [Terms of Service](https://obsidian.md/terms), if you use Obsidian for commercial use, you must obtain a commercial license. Commercial use is defined as using Obsidian for work-related activities in a for-profit company with two or more employees. Registered charitable and non-profit organizations are exempted.
 
 > [!question]- Q14: I use Obsidian during work for things like writing down team processes and taking notes for team meetings. Do I need a commercial license?
 > If you are a single-person company, then you don't require a commercial license. Otherwise, if you have more than one person in the company, then you would require a commercial license.

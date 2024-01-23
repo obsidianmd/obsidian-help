@@ -2,16 +2,16 @@
 aliases:
 - Licenses & Payment/Catalyst license
 ---
-While Obsidian is free of charge for personal use, you can support the Obsidian development by purchasing a _Catalyst_ license.
+Obsidian is free for personal use. You can support the Obsidian development by purchasing a _Catalyst_ license.
 
-While the Catalyst license doesn't grant you any additional features inside the app itself, you'll receive exclusive benefits, such as:
+Catalyst license gives you exclusive benefits including:
 
-- Early access to [[#Enable early access versions|new versions]].
+- Early access to [[#Enable early access versions|new versions]] of Obsidian
 - Access to exclusive [[#Join our Insider channels|Insider channels]].
 - Exclusive [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
 
 > [!Note] Commercial use
-> If you use Obsidian for work, you may need to obtain a [[Commercial license]].
+> If you use Obsidian for work in a company with two or more employees, you need to purchase a [[Commercial license]].
 
 ## Catalyst tiers
 

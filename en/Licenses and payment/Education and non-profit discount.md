@@ -6,7 +6,7 @@ aliases:
 
 Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services, including [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]].
 
-### How to apply
+## How to apply
 
 1. Go to [your account page](https://obsidian.md/account).
 2. Under **Payment & billing**, find the **Discount** section, and click on the **"Apply"** link.
@@ -18,13 +18,13 @@ Obsidian currently offers two types of discounts: education and non-profit. They
 
 Congratulations! Now you’ll see the discount when you try to purchase Obsidian Sync or Publish.
 
-### How to renew
+## How to renew
 
 Once you have an active discount, you can see how it will expire under **Payment & billing → Discount** on [your account page](https://obsidian.md/account).
 
 A week before your discount expires, you will get an email reminder to renew it. You can follow the same steps in "[[#How to apply]]" to renew the discount, if you still qualify for it.
 
-### FAQ
+## FAQ
 
 > [!FAQ]- Q1. How long does the application process take?
 > If your application isn't approved instantly after verifying your email, our team will review it. It will take up to 3 business days.
