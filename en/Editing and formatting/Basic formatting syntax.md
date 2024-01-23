@@ -94,7 +94,7 @@ You can also create external links to files in other vaults, by linking to an [[
 
 ### Escape blank spaces in links
 
-If your URL contains blank spaces, you need to escape them by replacing them with `%20`.
+If your URL contains blank spaces, you must escape them by replacing them with `%20`.
 
 ```md
 [My Note](obsidian://open?vault=MainVault&file=My%20Note.md)

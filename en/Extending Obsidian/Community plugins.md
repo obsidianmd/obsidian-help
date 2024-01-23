@@ -15,7 +15,7 @@ You can also browse available plugins in your browser, by heading to [obsidian.m
 
 ## Install a community plugin
 
-To install a community plugin, you first need to turn off [[#Restricted mode]].
+To install a community plugin, you must first turn off [[#Restricted mode]].
 
 1. Open **Settings**.
 2. In the side menu, select **Community plugins**.

@@ -11,7 +11,7 @@ Catalyst license gives you exclusive benefits including:
 - Exclusive [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
 
 > [!Note] Commercial use
-> If you use Obsidian for work in a company with two or more employees, you need to purchase a [[Commercial license]].
+> If you use Obsidian for work in a company with two or more employees, you must purchase a [[Commercial license]].
 
 ## Catalyst tiers
 
@@ -38,7 +38,7 @@ Once you've purchased a Catalyst license, you can access a range of benefits. Le
 
 ### Get your forum badge
 
-**Note:** To connect your Obsidian account and your forum account, you need to use the same email address for both accounts.
+**Note:** To connect your Obsidian account and your forum account, you must use the same email address for both accounts.
 
 1. If you haven't already, join our [forum](https://forum.obsidian.md/).
 2. Browse to your [Obsidian account page](https://obsidian.md/account).

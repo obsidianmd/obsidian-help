@@ -2,7 +2,7 @@
 aliases:
 - Licenses & Payment/Commercial license
 ---
-If you use Obsidian for work in a company with two or more employees, you need to purchase a Commercial license.
+If you use Obsidian for work in a company with two or more employees, you must purchase a Commercial license.
 
 You and your team may use Obsidian commercially for free for 14 days to evaluate the app before purchase. For bulk discounts, [[Help and support|contact Obsidian support]].
 
