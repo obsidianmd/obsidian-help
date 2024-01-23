@@ -6,7 +6,7 @@ You can set up a custom domain or subdomain for your [[Introduction to Obsidian 
 > - [[#Set up using CloudFlare]] using [Full mode](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/).
 > - [[#Set up using a proxy]]
 > 
-> We don't yet have a way to provision SSL certificate on your behalf.
+> We don't yet have a way to provision an SSL certificate on your behalf.
 
 ## Set up using CloudFlare
 
