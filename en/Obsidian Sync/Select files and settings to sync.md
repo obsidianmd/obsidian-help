@@ -4,7 +4,7 @@ Any files or settings that have been synced to your [[Local and remote vaults|re
 Synced files remain in your remote vault even if you exclude them later on. If possible, configure the files and settings you want to sync before you start syncing your vault.
 
 **Sync does not sync .hidden folders:**
-`.hidden` folders will not sync, with the exception of the [config folders](app://obsidian.md/Config%20folders), as these are considered folders hidden from the filesystem.
+`.hidden` folders will not sync, with the exception of the [[configuration folder]], as these are considered folders hidden from the filesystem.
 
 Common examples include `.vscode`, `.git`, and `.idea`.
 
