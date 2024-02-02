@@ -60,8 +60,11 @@ Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provi
 
 > [!info] Sync geo-regions
 > **Automatic**: Your data center is chosen based off your IP location.
-> **North America**: San Francisco, USA 
+> 
+> **Asia**: Singapore
 > **Europe**: Frankfurt, Germany
+> **North America**: San Francisco, USA 
+> **Oceania**: Sydney, Australia
 ^sync-geo-regions
 ### I have sync-x as my server. Where is it hosted?
 
@@ -69,11 +72,17 @@ The list below corresponds the Sync servers to their respective data centers.
 
 **San Francisco**
 - `sync-01` to `sync-12`
-- `sync-14`
+- `sync-14` to `sync-15`
 
 **Frankfurt**
 - `sync-13`
+- `sync-16`
 
+**Singapore**
+- `sync-17`
+
+**Sydney**
+- `sync-18`
 ## Network and access
 
 ### Managing access to Obsidian Sync on your network
@@ -85,4 +94,3 @@ To regulate access to Obsidian Sync on your network, you need to manage the foll
 The `xx` in this case represents a number ranging from `1 - 100`.
 
 > [!tip] If your firewall system supports it, we recommend whitelisting `sync-*.obsidian.md` to account for the continuous growth in subdomain numbers.
-
