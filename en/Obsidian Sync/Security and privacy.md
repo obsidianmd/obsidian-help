@@ -64,7 +64,7 @@ Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provi
 > **Asia**: Singapore
 > **Europe**: Frankfurt, Germany
 > **North America**: San Francisco, USA 
-> **Oceania**: Sydney
+> **Oceania**: Sydney, Australia
 ^sync-geo-regions
 ### I have sync-x as my server. Where is it hosted?
 
