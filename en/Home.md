@@ -12,16 +12,17 @@ Welcome to the official Obsidian Help site, where you can find tips and guides o
 
 You can also browse this site in the following languages:
 
+- [العربية](https://publish.obsidian.md/help-ar)
 - [Dansk](https://publish.obsidian.md/help-da)
 - [Español](https://publish.obsidian.md/help-es)
 - [Italiano](https://publish.obsidian.md/help-it)
 - [日本語](https://publish.obsidian.md/help-ja)
+- [Phéasa Khmêr](https://publish.obsidian.md/help-km)
+- [한국인](https://publish.obsidian.md/help-ko)
 - [Português](https://publish.obsidian.md/help-pt-br)
 - [Русский](https://publish.obsidian.md/help-ru)
 - [Tiếng Việt](https://publish.obsidian.md/help-vi)
 - [中文](https://publish.obsidian.md/help-zh)
-- [Phéasa Khmêr](https://publish.obsidian.md/help-km)
-- [العربية](https://publish.obsidian.md/help-ar)
 
 
 
@@ -56,7 +57,6 @@ Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 > Post-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **General**.
 > 
 > Mobile users are advised to continue referring to the "**About**" section in their settings until the next mobile release.
-
 
 ## Contribute
 

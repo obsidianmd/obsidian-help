@@ -94,4 +94,3 @@ To regulate access to Obsidian Sync on your network, you need to manage the foll
 The `xx` in this case represents a number ranging from `1 - 100`.
 
 > [!tip] If your firewall system supports it, we recommend whitelisting `sync-*.obsidian.md` to account for the continuous growth in subdomain numbers.
-
