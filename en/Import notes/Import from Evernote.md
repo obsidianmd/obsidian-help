@@ -14,6 +14,33 @@ You can find Evernote's instructions for exporting your data [on Evenote's websi
 3. Select **ENEX** as the file format.
 3. Choose a location for your exported `.enex` file.
 
+Unfortunately Evernote export doesn't keep neither tag hierarchy, nor notebook stacks, but these workarounds could be helpful in order to keep them in Obsidian too. 
+
+### Keeping tag hierarchy
+
+To keep tag hierarchy, you can "flat" tags separated by "/".
+
+For instance, assoming that you have the following structure: 
+```
+ParentTag
+    ChildTag
+```
+what you need to do to keep tags related is:
+
+1. Right click to ChildTag
+2. Select Rename
+3. Rename to ```ParentTag/ChildTag```
+
+### Notebook stacks
+
+As the export process can be performed on single notebooks only, there is no way to keep info about notebook stacks by default in the exported file. 
+Nevertheless the importer is able to recognize patterns in the name of the enex file, which can be utilized to recreate notebook stacks as folders.
+Assuming that you have a notebook called ```NotebookA``` in a stack called ```Stack1```, the only thing you need to is to
+1. rename the enex file to 
+```Stack1@@@NotebookA```
+
+Then the converted notes are going to be generated within Stack1/NotebookA folder. 
+
 ## Import your Evernote data into Obsidian
 
 You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
