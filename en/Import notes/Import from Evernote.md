@@ -14,32 +14,28 @@ You can find Evernote's instructions for exporting your data [on Evenote's websi
 3. Select **ENEX** as the file format.
 3. Choose a location for your exported `.enex` file.
 
-Unfortunately Evernote export doesn't keep neither tag hierarchy, nor notebook stacks, but these workarounds could be helpful in order to keep them in Obsidian too. 
+### Maintain tag hierarchy
 
-### Keeping tag hierarchy
+Evernote export does not keep the tag hierarchy. To keep your tag hierarchy, you can "flatten" tags separated by "/". For example, assuming that you have the following tag structure: 
 
-To keep tag hierarchy, you can "flat" tags separated by "/".
-
-For instance, assoming that you have the following structure: 
 ```
 ParentTag
     ChildTag
 ```
-what you need to do to keep tags related is:
 
-1. Right click to ChildTag
-2. Select Rename
-3. Rename to ```ParentTag/ChildTag```
+What you need to do to keep tags related in Obsidian is:
 
-### Notebook stacks
+1. Right-click on the ChildTag.
+2. Select "Rename."
+3. Rename it as `ParentTag/ChildTag`.
 
-As the export process can be performed on single notebooks only, there is no way to keep info about notebook stacks by default in the exported file. 
-Nevertheless the importer is able to recognize patterns in the name of the enex file, which can be utilized to recreate notebook stacks as folders.
-Assuming that you have a notebook called ```NotebookA``` in a stack called ```Stack1```, the only thing you need to is to
-1. rename the enex file to 
-```Stack1@@@NotebookA```
+### Handling notebook stacks
 
-Then the converted notes are going to be generated within Stack1/NotebookA folder. 
+Since the export process is limited to single notebooks, the default export file lacks information about notebook stacks. However, the importer can recognize patterns in the enex file name to recreate notebook stacks as folders.
+
+Assuming that you have a notebook called ```NotebookA``` in a stack called ```Stack1```, you can recreate a notebook stack by renaming the enex file to ```Stack1@@@NotebookA```.
+
+This results in the converted notes being generated within the Stack1/NotebookA folder.
 
 ## Import your Evernote data into Obsidian
 
