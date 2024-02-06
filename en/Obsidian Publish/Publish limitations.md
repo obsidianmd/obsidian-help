@@ -2,6 +2,11 @@
 aliases:
   - Publish Limitations
 ---
+
+## Search
+
+Publish only searches page names and headings. Full text search will be added in the [future](https://obsidian.md/roadmap).
+
 ## Community plugins
 
 Obsidian Publish has minimal support for [[Community plugins]]. 
