@@ -26,7 +26,7 @@ You can allocate your storage any way you want across all your vaults.
 
 ### How large can each file be?
 
-The maximum file size is 200 MB.
+The maximum file size is 200 MB per file.
 
 ### What type of data will sync?
 
