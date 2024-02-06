@@ -43,10 +43,10 @@ To sync your notes to your iPhone or iPad, we officially support the following o
 
 Obsidian can use iCloud Drive as a local file system.
 
-When using iCloud Drive on macOS, be sure to update your desktop app's installer version to v0.13.0 or newer.
+When utilizing iCloud Drive on macOS, make sure to upgrade your desktop app's installer version to v0.13.0 or later. Additionally, ensure that you do not surpass your iCloud storage limit, as exceeding it could lead to syncing interruptions.
 
-> [!note]
-> Don't exceed your iCloud storage limit. The syncing might stop.
+> [!tip]
+> Ensure that you disable "**Optimize Mac Storage**" in iCloud Drive's settings before syncing your Obsidian vault using iCloud Drive on macOS. Failing to disable this feature could cause iCloud Drive to offload your files, rendering them unusable by Obsidian, and potentially leading to unexpected behavior.
 
 #### Create a new vault in iCloud Drive
 
