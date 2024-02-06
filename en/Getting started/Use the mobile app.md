@@ -68,7 +68,7 @@ The middle plus in circle icon lets you create a new note or switch to an existi
 
 The second icon to the right shows you how many tabs are currently open. The icon looks like a number in a box.
 
-When you tap it, you’ll be able to switch to any open tab. You can also a new tab.
+When you tap it, you’ll be able to switch to any open tab. You can also open a new tab.
 
 ### Ribbon actions
 
