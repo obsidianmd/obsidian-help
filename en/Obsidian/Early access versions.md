@@ -58,7 +58,7 @@ To switch back to using public versions (not early access) on desktop:
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Restart Obsidian.
 
-## Switch back to public versions on desktop
+## Switch back to public versions on mobile
 
 To switch back to using public versions (not early access) on mobile:
 
