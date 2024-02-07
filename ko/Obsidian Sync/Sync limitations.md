@@ -4,59 +4,59 @@ aliases:
   - Sync limitations
   - Sync FAQ
 ---
-This page lists some of the common questions related to questions and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
+이 페이지는 [[Introduction to Obsidian Sync|Obsidian Sync]]와 관련된 일반적인 질문과 제한사항들을 나열합니다.
 
-## General
+## 일반적인 정보
 
-### What operating systems does Obsidian Sync support?
+### Obsidian Sync는 어떤 운영 시스템을 지원하나요?
 
-Obsidian Sync supports every platform that Obsidian can run on. Currently that means Windows, macOS, Linux, Android and iOS.
+Obsidian Sync는 Obsidian이 실행될 수 있는 모든 플랫폼을 지원합니다. 현재 Windows, macOS, Linux, Android, iOS를 지원합니다.
 
-### How much storage do I have?
+### 제가 사용할 수 있는 저장 용량은 얼마나 되나요?
 
-The storage limit depends on which Obsidian Sync plan you are subscribed to. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. You can view **Storage usage** in the Obsidian app by going to **Settings → Sync**.
+저장 용량 한도는 구독 중인 Obsidian Sync 플랜에 따라 다릅니다. 최대 저장량은 100GB입니다. 이 저장 용량 한도에는 [[Version history|version history]]도 포함됩니다. **Settings → Sync**로 가서 **Storage usage**를 확인할 수 있습니다.
 
-### How many remote vaults can I have?
+### 원격 볼트는 몇 개까지 가질 수 있나요?
 
-Each account with Obsidian Sync can have up to 10 remote vaults.
+Obsidian Sync를 가진 각 계정은 최대 10개의 원격 볼트를 가질 수 있습니다.
 
-### How large can each remote vault be?
+### 각 원격 볼트는 얼마나 클 수 있나요?
 
-You can allocate your storage any way you want across all your vaults. 
+모든 볼트에 원하는 방식으로 스토리지를 할당할 수 있습니다.
 
-### How large can each file be?
+### 각 파일은 얼마나 클 수 있나요?
 
-The maximum file size is 200 MB per file.
+최대 파일 크기는 파일당 200MB입니다.
 
-### What type of data will sync?
+### 어떤 유형의 데이터가 동기화되나요?
 
-By default your Obsidian notes, images, and your [[Configuration folder]] will sync. 
+기본적으로 Obsidian 노트, 이미지, [[Configuration folder|설정 폴더]]가 동기화됩니다.
 
-You can add additional syncing options of PDF's, audio files, video files, and other files when you [[select files and settings to sync]].
+[[select files and settings to sync|동기화할 파일과 설정을 선택]]할 때 PDF, 오디오 파일, 동영상 파일 및 기타 파일의 동기화 옵션을 추가할 수 있습니다.
 
-### Is my data being synced in the background?
+### 내 데이터가 백그라운드에서 동기화되고 있나요? 
 
-No, files are only synced when Obsidian is running.
+아니요, 파일은 Obsidian이 실행되고 있을 때만 동기화됩니다.
 
-### What's the maximum number of people I can share a remote vault with?
+### 원격 볼트를 공유할 수 있는 최대 인원은 몇 명입니까? 
 
-You can [[Collaborate on a shared vault|share a remote vault]] with up to 10 people.
+최대 10명과 [[Collaborate on a shared vault|원격 볼트를 공유]] 할 수 있습니다 .
 
-## Data retention
+## 데이터 보존
  
-These are commonly asked questions on Obsidian's data retention. For more in depth answers, see [[Obsidian Sync/Security and privacy|Security and privacy]].
+Obsidian의 데이터 보존에 대해 자주 묻는 질문입니다. 더 자세한 답변을 원하면, [[Obsidian Sync/Security and privacy|보안 및 개인 정보 보호]]를 참조하세요.
 
-### How long do you keep the version history?
+### 버전 기록은 얼마나 오래 보관되나요?
 
-Older [[Version history|versions]] of Markdown files are stored for one year, and then deleted. Older versions of attachments are stored for two weeks.
+Markdown 파일의 이전 [[Version history|버전]]은 1년 동안 저장된 후 삭제됩니다. 첨부 파일의 이전 버전은 2주 동안 저장됩니다.
 
-### How long do you keep my data after my subscription expires?
+### 구독이 만료된 후 내 데이터를 얼마나 오래 보관하나요?
 
-We keep data in your remote vaults, including version history, for one month after your subscription expires. Any local vaults on your devices are unaffected.
+구독이 만료된 후 한 달 동안 버전 기록을 포함한 데이터를 원격 저장소에 보관합니다. 장치의 모든 로컬 저장소는 영향을 받지 않습니다.
 
-As long as you renew within one month, there should be no impact on your usage. If you renew after a month, when your remote vaults have been removed, you can [[Set up Obsidian Sync|create a new remote vault re-connect your local vault]].
+한 달 이내에 갱신하면 사용에는 영향이 없습니다. 한 달 후에 갱신하는 경우, 원격 볼트가 제거되면 [[Set up Obsidian Sync|새 원격 볼트를 생성하고 로컬 볼트를 다시 연결]]할 수 있습니다 .
 
-### Do you keep my data if I refund my subscription service?
+### 구독 서비스를 환불하는 경우 내 데이터를 보관하나요?
 
-No. The data is deleted immediately. 
+아니요. 데이터는 즉시 삭제됩니다. 
 
