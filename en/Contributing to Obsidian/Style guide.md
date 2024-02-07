@@ -190,7 +190,7 @@ Include icons and images when they make it easier to explain things that are har
 
 - Store icons in the `Attachments/icons` folder.
 - Add the prefix `lucide-` before the Lucide icon name.
-- Add the prefix `obsidian-` before the Obsidian icon name.
+- Add the prefix `obsidian-icon-` before the Obsidian icon name.
 
 **Example:** The icon for creating a new canvas should be named `lucide-layout-dashboard`.
 

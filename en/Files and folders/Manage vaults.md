@@ -13,7 +13,7 @@ To open the vault switcher from an existing vault, select **Open another vault**
 ## Create new vault
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select **Open another vault** ( ![[obsidian-vault-switcher.svg#icon]] ).
+2. At the bottom left, select **Open another vault** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 3. To the right of **Create new vault**, select **Create**.
 4. In **Vault name**, enter the name of your vault.
 5. Click **Browse** to select where your new vault will be created.
@@ -22,7 +22,7 @@ To open the vault switcher from an existing vault, select **Open another vault**
 ## Create vault from an existing folder
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select **Open another vault** ( ![[obsidian-vault-switcher.svg#icon]] ).
+2. At the bottom left, select **Open another vault** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 3. At the right of **Open folder as vault**, click **Open**.
 4. In the file browser, select the folder you want to use as your vault.
 5. Click **Open**.
@@ -35,7 +35,7 @@ To open the vault switcher from an existing vault, select **Open another vault**
 Since the name of a vault and the underlying folder are the same, renaming a vault also renames the folder.
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select **Open another vault** ( ![[obsidian-vault-switcher.svg#icon]] ).
+2. At the bottom left, select **Open another vault** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 3. In the vault list, select **More options** (three dots icon) next to the vault you want to rename.
 4. Select **Rename vault**.
 5. Enter the new name for the vault, and press `Enter`.
@@ -43,7 +43,7 @@ Since the name of a vault and the underlying folder are the same, renaming a vau
 ## Move vault to a different folder
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select **Open another vault** ( ![[obsidian-vault-switcher.svg#icon]] ).
+2. At the bottom left, select **Open another vault** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 3. In the vault list, select **More options** (three dots icon) next to the vault you want to move.
 4. Select **Move vault**, and then select the new location.
 
@@ -52,7 +52,7 @@ Since the name of a vault and the underlying folder are the same, renaming a vau
 Removing a vault only removes it from the vault list. Your
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select **Open another vault** ( ![[obsidian-vault-switcher.svg#icon]] ).
+2. At the bottom left, select **Open another vault** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 3. In the vault list, select **More options** ! next to the vault you want to move.
 4. Select **Remove from list**.
 
