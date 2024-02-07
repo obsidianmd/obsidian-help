@@ -31,7 +31,7 @@ If you're using Obsidian Sync and realize that you've set up your vault in a fol
 
 #### Option 1: Move your vault using the vault switcher
 
-1. In the bottom-left corner, select **Open another vault** ( ![[obsidian-vault-switcher.svg#icon]] ).
+1. In the bottom-left corner, select **Open another vault** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 2. Next to the vault you want to move, select **More options** ( ![[lucide-more-horizontal.svg#icon]] ). 
 3. Choose a new location for the vault on your file system.
 
@@ -42,7 +42,7 @@ If you're using Obsidian Sync and realize that you've set up your vault in a fol
 3. Cut and paste (or move using drag and drop) your vault folder from the old location to your newly-selected vault location Don't put it in a folder that is being synced by another service.
 4. Make sure your backup folder contains your vault.  
 5. Relaunch Obsidian.  
-6. At the bottom left, select **Open another vault** ( ![[obsidian-vault-switcher.svg#icon]] ).
+6. At the bottom left, select **Open another vault** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 7. Select **Open folder as vault**.
 8. Navigate to your vault's new location and choose your vault folder.  
 9. Check and make sure the vault looks the same. You might have to re-enable community plugins under **Settings → Community Plugins → Turn restricted mode off**.)  

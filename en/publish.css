@@ -10,6 +10,9 @@ img {
 .theme-dark img[src*="lucide"] {
     filter: invert(1);
 }
+.theme-dark img[src*="obsidian-icon"] {
+    filter: invert(1);
+}
 
 span[src$="#interface"] img,
 img[src$="#interface"] {

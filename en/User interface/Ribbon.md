@@ -16,7 +16,7 @@ The top set of icons consists of actions added by various plugins, including bot
 
 The bottom three icons in the ribbon correspond to essential Obsidian system actions:
 
-1. Open another vault ( ![[obsidian-vault-switcher.svg#icon]] ).
+1. Open another vault ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 2. Access **help** ( ![[lucide-help-circle.svg#icon]] ).
 3. Open **settings** ( ![[lucide-settings.svg#icon]] ).
 

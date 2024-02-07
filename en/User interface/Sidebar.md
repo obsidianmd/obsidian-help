@@ -8,7 +8,7 @@ On mobile, Obsidian sidebars are [[#Open hidden sidebars|collapsed by default]].
 
 ## Open hidden sidebars
 
-If a sidebar is collapsed, you can open it by clicking the left expand ( ![[obsidian-side-bar-left.svg#icon]] ) or right expand ( ![[obsidian-side-bar-right.svg#icon]] ) to reveal it.
+If a sidebar is collapsed, you can open it by clicking the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) or right expand ( ![[obsidian-icon-side-bar-right.svg#icon]] ) to reveal it.
 
 ## Tabs
 
