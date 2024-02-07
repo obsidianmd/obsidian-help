@@ -18,7 +18,7 @@ You can also browse this site in the following languages:
 - [Italiano](https://publish.obsidian.md/help-it)
 - [日本語](https://publish.obsidian.md/help-ja)
 - [Phéasa Khmêr](https://publish.obsidian.md/help-km)
-- [한국인](https://publish.obsidian.md/help-ko)
+- [한국어](https://publish.obsidian.md/help-ko)
 - [Português](https://publish.obsidian.md/help-pt-br)
 - [Русский](https://publish.obsidian.md/help-ru)
 - [Tiếng Việt](https://publish.obsidian.md/help-vi)
