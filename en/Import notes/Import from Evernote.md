@@ -14,6 +14,21 @@ You can find Evernote's instructions for exporting your data [on Evenote's websi
 3. Select **ENEX** as the file format.
 3. Choose a location for your exported `.enex` file.
 
+## Import your Evernote data into Obsidian
+
+You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+
+1. Open **Settings**.
+2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Enable the Importer plugin.
+4. Open the **Importer** plugin using the command palette or ribbon icon.
+5. Under **File format** choose **Evernote (.enex)**.
+6. Select the location of your Evernote backup file.
+7. Click **Import** and wait until import is complete.
+8. You're done!
+
+## Advanced import options
+
 ### Maintain tag hierarchy
 
 Evernote export does not keep the tag hierarchy. To keep your tag hierarchy, you can "flatten" tags separated by "/". For example, assuming that you have the following tag structure: 
@@ -37,19 +52,6 @@ Assuming that you have a notebook called ```NotebookA``` in a stack called ```St
 
 This results in the converted notes being generated within the Stack1/NotebookA folder.
 
-## Import your Evernote data into Obsidian
-
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
-
-1. Open **Settings**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Evernote (.enex)**.
-6. Select the location of your Evernote backup file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
-
-### Import settings
+### More options
 
 For more advanced import options from Evernote you can also try [importing via Yarle](https://github.com/akosbalasko/yarle).
