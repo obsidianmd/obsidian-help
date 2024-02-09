@@ -7,14 +7,8 @@ img {
     border-radius: 4px;
 }
 
-.theme-dark img[src*="lucide"] {
-    filter: invert(1);
-}
+.theme-dark img[src*="lucide"],
 .theme-dark img[src*="obsidian-icon"] {
-    filter: invert(1);
-}
-
-.theme-dark img[src*="obsidian"] {
     filter: invert(1);
 }
 
