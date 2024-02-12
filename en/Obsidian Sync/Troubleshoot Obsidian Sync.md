@@ -18,6 +18,17 @@ Generally, Obsidian Sync tries to [[#Conflict resolution|resolve conflicts]] bet
 
 If a note was created locally on a device less than a couple of minutes before Sync downloads a remote version of that note, then Sync keeps the remote version without attempting to merge the two. You can still recover the local version using [[File recovery]].
 
+## Obsidian Sync will not Sync my plugins and settings updates
+
+Obsidian [[Sync limitations#Does Obsidian Sync live-reload my settings?|does not live]], or hot reload, settings. You will need to restart Obsidian on the other devices after they have updated their settings. On mobile devices, this may require a force-quit of Obsidian.
+
+> [!example]- Example: Changing a theme
+> - Your primary device, a computer, currently has a custom theme and you decide to change it back to the default theme.
+> - You confirm in the Sync log that the files have been sent to the remote vault. However, your open mobile device, still reflects your custom theme.
+> - You open the Sync log on the mobile device, and confirm that you have received an updated `appearance.json`.
+> - You restart Obsidian on the mobile device.
+> - Once re-opened, the mobile device should reflect the same theme as your primary device. 
+
 ## What does "Vault limit exceeded" mean?
 
 Your account exceeds the [[Sync limitations#How large can each remote vault be|maximum size of 50 GB]]. See [[Storage limits]].
@@ -39,4 +50,4 @@ This error may occur in the following scenarios:
 2. The sync subscription was inactive for over 30 days, leading to the removal of the remote vault.
 3. The subscription was canceled or refunded, resulting in the purging of the remote vault.
 
-In each case, it is necessary to disconnect from the remote vault and establish a new connection, ensuring the data on your device is retained.
+In each case, it is necessary to [[Set up Obsidian Sync#Disconnect to a remote vault|disconnect from the remote vault]] and [[Set up Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring the data on your device is retained.
