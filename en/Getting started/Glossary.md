@@ -104,7 +104,15 @@ A **theme** changes the appearance of the Obsidian app using [CSS](https://devel
 
 ## Vault
 
+`Aliases: local vault, local data`
+
 A **vault** is a folder on your file system which contains [[#note|notes]] and an `.obsidian` folder with Obsidian-specific configuration. See also [[How Obsidian stores data]].
+
+### Remote vault
+
+`Aliases: Remote data`
+
+A [[Local and remote vaults|remote vault]] is a copy of your local vault that is maintained with [[Introduction to Obsidian Sync|Obsidian Sync]]. The remote vault data is updated based on changes to local data. 
 
 ## View
 
