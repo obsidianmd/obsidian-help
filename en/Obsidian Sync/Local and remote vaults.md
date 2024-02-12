@@ -2,6 +2,8 @@
 aliases:
   - Local vaults
   - remote vaults
+  - remote vault
+  - local vault
 ---
 
 Obsidian stores your notes in a _local_ vault on your computer or device. If you want to access your notes from other devices, you need to share your local vault with those devices.
