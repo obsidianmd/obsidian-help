@@ -4,11 +4,13 @@ This page lists common issues that you might encounter, and how to address them.
 
 ## Conflict resolution
 
-A conflict happens when you make changes to the same file on two or more devices between syncs. For example, you might have changed a file on your computer, and before that change is uploaded, you also change the same file on your phone.
+A conflict happens when you make changes to the same note on two or more devices between syncs. For example, you might have changed a note on your computer, and before that change is uploaded, you also change the same note on your phone.
 
 Conflicts usually happen more frequently if you work offline, since there are more changes and a longer period of time between syncs and thus more potential conflicts.
 
-When Sync downloads a new version of a file, and finds that there are conflicts with the local version, the changes are merged with Google's [diff-match-patch](https://github.com/google/diff-match-patch) algorithm.
+When Sync downloads a new version of a note, and finds that there are conflicts with the local version, the changes are merged with Google's [diff-match-patch](https://github.com/google/diff-match-patch) algorithm.
+
+For conflicts in Obsidian settings, such as plugin settings, the process is a different. Obsidian Sync will merge the JSON files, by loading the local JSON and the remote JSON. Then Sync will apply the keys from the local JSON on top of the remote JSON.
 
 > [!help] To find when conflicts have happened, you can search for "Merging conflicted file" in **Settings → Sync → Sync activity → View**.
 
