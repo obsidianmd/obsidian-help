@@ -5,6 +5,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
+
 [Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to store your notes on Obsidian's servers and sync them across your devices privately.
 
 ## How to use Obsidian Sync
