@@ -4,6 +4,7 @@ aliases:
   - Sync limitations
   - Sync FAQ
 ---
+
 This page lists some of the common questions related to questions and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
 
 ## General
@@ -14,7 +15,9 @@ Obsidian Sync supports every platform that Obsidian can run on. Currently that m
 
 ### How much storage do I have?
 
-The storage limit depends on which Obsidian Sync plan you are subscribed to. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. You can view **Storage usage** in the Obsidian app by going to **Settings → Sync**.
+The storage limit depends on which Obsidian Sync plan you are subscribed to. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
+
+You can view **Storage usage** in the Obsidian app by going to **Settings → Sync**.
 
 ### How many remote vaults can I have?
 
