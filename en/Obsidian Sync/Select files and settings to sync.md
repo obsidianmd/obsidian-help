@@ -69,3 +69,5 @@ To set your settings folder:
 1. Open **Settings → General**.
 2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-mobile`.
 3. Relaunch Obsidian to have the changes take effect. 
+
+> [!note] Changing your settings profile will require you to [[#Initially adjusting your Sync settings|adjust your sync settings]] again. 
