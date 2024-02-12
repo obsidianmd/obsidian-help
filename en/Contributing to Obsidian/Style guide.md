@@ -261,3 +261,13 @@ Both images and icons should be optimized.
 > - **Linux/Unix** [Trimage](https://trimage.org)
 > 
 > We recommend an optimization rate of 65-75%.
+
+## Translations
+
+  Translate the entirety of the content when completing a translation. This includes and is not limited to:
+
+- Note names
+- Folder names
+- Aliases
+- Attachment names
+- Alt link text
