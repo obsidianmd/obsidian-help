@@ -1,8 +1,9 @@
 ---
 permalink: import/apple-notes
 ---
-Obsidian allows you to easily migrate your notes from Apple Notes using the [[Importer|Importer plugin]]. Currently, it only supports importing from Apple Notes on your macOS desktop. 
+Obsidian allows you to easily migrate your notes from Apple Notes using the [[Importer|Importer plugin]]. This will convert your Apple Notes data to durable Markdown files, that you can use with Obsidian and many other apps.
 
+Currently, Importer only supports migrating from Apple Notes on macOS. It is not available on iOS yet.
 
 ## Import Apple Notes data into Obsidian
 
