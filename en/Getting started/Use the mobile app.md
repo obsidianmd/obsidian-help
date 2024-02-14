@@ -66,8 +66,9 @@ The middle plus in circle icon lets you create a new note or switch to an existi
 
 ### Tab management
 
-The second icon to the right shows you how many tabs are currently open. The icon looks like a number in a box.
+The second icon to the right shows you how many tabs are currently open. The icon looks like a number in a box. For example, the icon below indicates there are two tabs open.
 
+<span class="mobile-navbar-tabs-action">2</span>
 When you tap it, you’ll be able to switch to any open tab. You can also open a new tab.
 
 ### Ribbon actions
