@@ -238,13 +238,20 @@ display: none;
     position: relative;
 }
 
+.soft-embed .markdown-embed h2 {
+font-size: var(--h3-size);
+}
+
+.soft-embed .markdown-embed h3 {
+    font-size: var(--h4-size);
+}
+
 .soft-embed .markdown-embed .markdown-embed-content {
     max-height: unset;
     overflow: unset;
 }
 
 .soft-embed .markdown-embed .markdown-embed-content     > .markdown-preview-view  {
-// no scroll
 overflow-y: unset;
 }
 
