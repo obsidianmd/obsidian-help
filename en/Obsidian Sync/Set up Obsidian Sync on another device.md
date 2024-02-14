@@ -1,5 +1,8 @@
 ---
-aliases: Add another device
+aliases:
+  - Add another device
+cssclasses:
+  - soft-embed
 ---
 
 In this guide, you'll create a local vault on another device to sync with your remote vault. This keeps the local vaults on all your devices in sync.
@@ -24,7 +27,8 @@ If this is the first time you open Obsidian on the device, follow these steps:
 7. Enter a local name for the vault, or leave to use the same name as the remote vault.
 8. Select **Browse** and select the folder on your device where you want to sync the vault.
 9. Select **Create**.
-10. Select **Start syncing** to sync your local vault with the remote vault.
+
+You will be presented with the option to **Start Syncing**. If you continue at this stage, Obsidian Sync will use the default sync settings to load files to your device. 
 
 ## Sync an existing local vault
 
@@ -36,14 +40,16 @@ This section explains how to sync an existing local vault with a remote vault.
 
 ### Connect to a remote vault
 
-1. Open **Settings**.
-2. In the sidebar, select **Sync**.
-3. Next to **Pick remote vault**, click **Choose**.
-4. Click **Connect** next to the remote vault you want to connect to. If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding.
-5. In **Encryption password**, enter the password for your vault, if you have one.
+1. Open **Settings**.
+2. In the sidebar, select **Sync**.
+3. Next to **Pick remote vault**, click **Choose**.
+4. Click **Connect** next to the remote vault you want to connect to. If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding.
+5. In **Encryption password**, enter the password for your vault, if you have one.
 
 ## Next steps
 
-Obsidian Sync displays a green checkmark in the bottom-right corner when it has finished syncing the vaults.
+If you don't want to sync the entire vault to your device, refer to [[Set up Obsidian Sync#Adjust Obsidian Sync settings|Adjust Obsidian Sync settings]] and [[Select files and settings to sync]].
 
-If you don't want to sync the entire vault to your device, refer to [[Select files and settings to sync]].
+If you do want to sync the entire vault to the device, you may begin Syncing. 
+
+![[Set up Obsidian Sync#^obsidian-sync-status]]

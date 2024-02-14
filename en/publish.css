@@ -7,6 +7,7 @@ img {
     border-radius: 4px;
 }
 
+/* Makes icons invert in dark mode */
 .theme-dark img[src*="lucide"],
 .theme-dark img[src*="obsidian-icon"] {
     filter: invert(1);
@@ -29,6 +30,7 @@ img[src$="#outline"] {
     border: 1px solid var(--background-modifier-border);
 }
 
+/* Adds proper alignment to icons */
 span[src$="#icon"] img,
 img[src$="#icon"] {
     vertical-align: text-bottom;
@@ -62,6 +64,7 @@ img[src$="#icon"] {
     display: none;
 }
 
+/* Hides page headers in Publish, use H1 if needed */
 .hide-title .page-header {
     display: none;
 }
@@ -79,6 +82,7 @@ img[src$="#icon"] {
     border: none;
 }
 
+/* Kepano's List Cards */
 .list-cards {
 	--list-cards-template: repeat(2, minmax(0, 1fr));
 }
@@ -214,6 +218,64 @@ img[src$="#icon"] {
     filter: invert(1);
 }
 
+/* Soft Embeds*/
+
+.soft-embed body {
+    --embed-border-left: none;
+    --embed-border-right: none;
+    --embed-padding: var(--size-2-1) var(--size-4-2);
+}
+
+.soft-embed .markdown-embed-link,
+.soft-embed .file-embed-link {
+display: none;
+}
+
+.soft-embed .markdown-embed {
+    border-right: none;
+    border-left: none;
+    border-radius: var(--radius-l);
+    position: relative;
+}
+
+.soft-embed .markdown-embed h2 {
+font-size: var(--h3-size);
+}
+
+.soft-embed .markdown-embed h3 {
+    font-size: var(--h4-size);
+}
+
+.soft-embed .markdown-embed .markdown-embed-content {
+    max-height: unset;
+    overflow: unset;
+}
+
+.soft-embed .markdown-embed .markdown-embed-content     > .markdown-preview-view  {
+overflow-y: unset;
+}
+
+.soft-embed .markdown-embed .markdown-rendered blockquote {
+    border-left: none;
+    padding: 0;
+}
+
+/* Add CSS created Icons from Obsidian */
+
+/* Mobile Tab Switcher*/
+.mobile-navbar-tabs-action {
+    align-items: center;
+    border-radius: var(--clickable-icon-radius);
+    border: 2px solid var(--icon-color);
+    display: flex;
+    font-size: calc(var(--icon-size) * 0.6);
+    font-weight: var(--bold-weight);
+    justify-content: center;
+    height: 20px;
+    width: var(--icon-size);
+}
+
+/* Mobile adjustments */
 @media screen and (max-width: 750px) {
     .site-header-text {
         display: none;
