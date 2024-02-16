@@ -1,12 +1,13 @@
 ---
 aliases:
   - Sync history
+  - version history
 ---
 [[Introduction to Obsidian Sync|Obsidian Sync]] keeps a history of all the changes made to your notes. Sync regularly checks for new changes to your notes and creates a new version.
 
 If you accidentally delete a note, or you want to go back to a previous version of your note, you can restore a note from the version history.
 
-Older versions of your notes are retained for up to a year. 
+Older versions of your notes can be retained for up to a year. [[Attachments]] can be retained for up to two weeks. 
 
 ## View version history of a note
 
