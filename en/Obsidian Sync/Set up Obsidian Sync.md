@@ -104,7 +104,9 @@ You are now disconnected from the remote vault and are no longer syncing on this
 
 ## Regional sync servers
 
-As of [Obsidian release 1.5](https://obsidian.md/changelog/2023-11-20-desktop-v1.5.0/), users can now choose the hosting location for their remote vault. For users not yet on release 1.5 or a later version, the assignment of their remote vault location will be handled automatically.
+As of [Obsidian release 1.5](https://obsidian.md/changelog/2023-11-20-desktop-v1.5.0/), users can now choose the hosting location for their remote vault. For users not yet on release 1.5 or a later version, the assignment of their remote vault location will be handled automatically. 
+
+If you are unsure where your current vault's region is, take a look at [[Obsidian Sync/Security and privacy#Where can I find my current Sync server and where is it hosted?|Where can I find my current Sync server and where is it hosted?]]
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
