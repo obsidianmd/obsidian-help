@@ -44,7 +44,7 @@ Shared vaults allow teams to work together on a set of files, however Obsidian d
 
 If multiple users are editing the same file at the same time, [[Troubleshoot Obsidian Sync#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Version history]].
 
-![[version-history-collaboration.png]]
+![[version-history-collaboration.png]]^version-history-image
 
  
 ### Limitations
