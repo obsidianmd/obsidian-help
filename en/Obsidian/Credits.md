@@ -81,6 +81,7 @@ Obsidian uses the open source libraries below (in alphabetical order):
 
 ### Capacitor
 
+Version `5.x`
 MIT License
 Copyright (c) 2017-present Drifty Co.
 
@@ -97,7 +98,7 @@ Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2
 
 ### Electron
 
-Version `25.8.1`
+Version `28.2.3`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
