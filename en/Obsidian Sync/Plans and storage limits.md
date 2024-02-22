@@ -11,14 +11,14 @@ Obsidian Sync offers a flexible plan that allows you to choose your maximum stor
 
 The features of this plan is included below:
 
-|                       | Plus         |
-| --------------------- | ------------ |
-| Vaults                | 10           |
-| Maximum file size     | 200 MB       |
-| Total storage         | 10 to 100 GB |
-| [[Version history\|Revision history]]      | 12 months    |
-| Devices               | Unlimited    |
-| [[Collaborate on a shared vault\|Shared vaults]]         | Yes          |
+|                                                  | Sync         |
+| ------------------------------------------------ | ------------ |
+| Vaults                                           | 10           |
+| Maximum file size                                | 200 MB       |
+| Total storage                                    | 10 to 100 GB |
+| [[Version history\|Revision history]]            | 12 months    |
+| Devices                                          | Unlimited    |
+| [[Collaborate on a shared vault\|Shared vaults]] | Yes          |
 
 ## Storage limits
 
@@ -59,14 +59,12 @@ To sync to a new remote vault, follow these steps:
 
 The new remote vault should be smaller than the previous vault, because of the absence of version history and excluded files.
 
-## Downgrading your plan
+## Downgrade your plan
 
-With the introduction of multiple tiers of Sync plans, you can now upgrade and downgrade your storage limits.
+If you want to downgrade your Sync plan but your storage use exceeds the new plan's limit, you will need to free up space in your remote vault. However, there is no way to quickly remove specific files from an existing remote vault, because attachments are held in version history for up to two weeks and version history counts towards your storage limit.
 
-If you choose to downgrade your Sync plan and you are over the plan's allotted capacity, you will need to free up space within your remote vault to successfully continue syncing under your new plan limits.
+The fastest way to reduce the amount of Sync storage you use is to [[#create a new remote vault]] with attachments disabled, then delete the old remote vault that exceeds the storage limits. Note that you will lose version history by doing so.
 
-Unlike hitting the storage limit on an existing plan, we do not allow the removal of existing remote vault content when downgrading, including the version history. Files will remain within the version history for up to a year. Therefore, the first recommended option to quickly downgrade is to [[#create a new remote vault]].
+### Preserving version history
 
-### Remove attachments
-
-As detailed in [[Version history]], attachments are held in the version history for up to two weeks. If you know you will be downgrading in the near future, remove attachments from your local vault sooner rather than later to have them fully removed from your remote vault once your version history purges them.
+Attachments are held in your [[version history]] for up to two weeks. If you plan to downgrade in the near future, you can start by removing attachments from your local vault. After two weeks these will be purged from the remote vault and will no longer count towards your storage limit. At this point you will be able to downgrade your plan while preserving the version history for other file types, such as Markdown files.
