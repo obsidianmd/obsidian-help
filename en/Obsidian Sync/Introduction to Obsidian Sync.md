@@ -17,7 +17,7 @@ cssclasses:
 - [[Set up Obsidian Sync on another device|Set up a second device]]
 	- Add another device to sync notes to.
 - [[Plans and storage limits|Remote vault storage]]
-	- Learn how to manage your storage.
+	- Manage your remote vault storage.
 - [[Version history]]
 	- View or restore previous versions of a note.
 - [[Collaborate on a shared vault|Collaboration]]
