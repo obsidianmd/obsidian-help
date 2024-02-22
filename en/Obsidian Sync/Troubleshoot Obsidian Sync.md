@@ -33,7 +33,7 @@ Obsidian [[Sync limitations#Does Obsidian Sync live-reload my settings?|does not
 
 ## What does "Vault limit exceeded" mean?
 
-Your account exceeds the [[Sync limitations#How large can each remote vault be|maximum size of 50 GB]]. See [[Storage limits]].
+Your account exceeds the [[Sync limitations#How large can each remote vault be|maximum storage size]]. See [[Plans and storage limits]].
 
 Since attachments and version history contributes to the total size of your vault, your vault can exceed the maximum size even if the actual size of your vault is less than the limit.
 

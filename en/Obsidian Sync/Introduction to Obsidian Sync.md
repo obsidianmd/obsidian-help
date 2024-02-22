@@ -10,12 +10,15 @@ cssclasses:
 
 ## How to use Obsidian Sync
 
+- [[Plans and storage limits]]
+	- Review which plan is right for you.
 - [[Set up Obsidian Sync]]
 	- Get started with Obsidian Sync.
 - [[Select files and settings to sync|Selective sync]]
 	- Configure which files and settings to sync.
 - [[Set up Obsidian Sync on another device|Set up a second device]]
 	- Add another device to sync notes to.
+- [[Plans and storage limits|Remote vault storage]]
 - [[Version history]]
 	- View or restore previous versions of a note.
 - [[Collaborate on a shared vault|Collaboration]]
