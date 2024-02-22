@@ -69,6 +69,20 @@ Text formatting can also be applied using [[Editing shortcuts]].
 | Bold and nested italic | `** **` and `_ _`  | `**Bold text and _nested italic_ text**` | **Bold text and _nested italic_ text** |
 | Bold and italic | `*** ***` or `___ ___` |  `***Bold and italic text***` | ***Bold and italic text*** |
 
+Formatting can be forced to display in plain text by adding a backslash `\` in front of it.
+
+\*\*This line will not be bold\*\*
+
+```markdown
+\*\*This line will not be bold\*\*
+```
+
+\**This line will be italic and show the asterisks*\*
+
+```markdown
+\**This line will be italic and show the asterisks*\*
+```
+
 ## Internal links
 
 Obsidian supports two formats for [[internal links]] between notes:
@@ -234,6 +248,7 @@ Similarly, you can create a nested task list by indenting one or more list items
 	- [ ] Subtask 1
 
 Use `Tab` or `Shift+Tab` to indent or unindent one or more selected list items for easy organization.
+
 ## Horizontal rule
 
 You can use three or more stars `***`, hyphens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.
