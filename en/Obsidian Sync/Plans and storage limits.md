@@ -7,17 +7,18 @@ aliases:
 
 ## Plans
 
-Obsidian Sync offers multiple plan types, each with very similar features. These plans can be purchased within [your account](https://obsidian.md/account). 
+Obsidian Sync offers a flexible plan that allows you to choose your maximum storage based on your needs: 10 GB or 100GB. This plan can be purchased within [your account](https://obsidian.md/account). 
 
-| Feature                                                                                                                                                          | Plus     | Plus (100GB) | Early supporter\*\* |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------|---------------------|
-| Max vaults                                                                                                                                                       | 10       | 10           | 10                  |
-| Flexible storage                                                                                                                                                 | Yes      | Yes          | Yes                 |
-| Storage limits                                                                                                                                                   | 10 GB    | 100 GB       | 50 GB               |
-| Max file size                                                                                                                                                    | 200 MB   | 200 MB       | 200 MB              |
-| Price                                                                                                                                                            | $10/mo\* | $20/mo\*     | $10/mo\*            |
-| \* Discounts are available for annual pricing. Additional discounts are available for [[Education and non-profit discount\|educational and non-profit workers]]. |          |              |                     |
-| \*\* This plan is no longer available for purchase or upgrade after December 31st, 2023.                                                                         |          |              |                     |
+The features of this plan is included below:
+
+|                       | Plus         |
+| --------------------- | ------------ |
+| Vaults                | 10           |
+| Maximum file size     | 200 MB       |
+| Total storage         | 10 to 100 GB |
+| [[Version history\|Revision history]]      | 12 months    |
+| Devices               | Unlimited    |
+| [[Collaborate on a shared vault\|Shared vaults]]         | Yes          |
 
 ## Storage limits
 
