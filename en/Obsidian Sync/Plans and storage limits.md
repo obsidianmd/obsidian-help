@@ -7,7 +7,7 @@ aliases:
 
 ## Plans
 
-Obsidian Sync offers multiple plan types, each with very similar features:
+Obsidian Sync offers multiple plan types, each with very similar features. These plans can be purchased within [your account](https://obsidian.md/account). 
 
 | Feature                                                                                                                                                          | Plus     | Plus (100GB) | Early supporter\*\* |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------|---------------------|
@@ -18,8 +18,6 @@ Obsidian Sync offers multiple plan types, each with very similar features:
 | Price                                                                                                                                                            | $10/mo\* | $20/mo\*     | $10/mo\*            |
 | \* Discounts are available for annual pricing. Additional discounts are available for [[Education and non-profit discount\|educational and non-profit workers]]. |          |              |                     |
 | \*\* This plan is no longer available for purchase or upgrade after December 31st, 2023.                                                                         |          |              |                     |
-
-These plans can be purchased within [your account](https://obsidian.md/account). 
 
 ## Storage limits
 
