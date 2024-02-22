@@ -66,23 +66,20 @@ Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provi
 > **North America**: San Francisco, USA 
 > **Oceania**: Sydney, Australia
 ^sync-geo-regions
-### I have sync-x as my server. Where is it hosted?
 
-The list below corresponds the Sync servers to their respective data centers. 
+### Where can I find my current Sync server and where is it hosted?
 
-**San Francisco**
-- `sync-01` to `sync-12`
-- `sync-14` to `sync-15`
+Your remote vault's Obsidian Sync server can be found in **Settings** → **Sync** → **Copy Debug Info**. Paste this information into a note or file, and you will see a line with the following:
 
-**Frankfurt**
-- `sync-13`
-- `sync-16`
+`Host server: wss://sync-xx.obsidian.md`
 
-**Singapore**
-- `sync-17`
+This line corresponds with where your server is hosted. The list below corresponds the Sync servers to their respective data centers. 
 
-**Sydney**
-- `sync-18`
+| San Francisco          | Frankfurt | Signapore | Sydney    |
+| ---------------------- | --------- | --------- | --------- |
+| `sync-01` to `sync-12` | `sync-13` | `sync-17` | `sync-18` |
+| `sync-14` to `sync-15` |           |           |           |
+^sync-server-location-table
 ## Network and access
 
 ### Managing access to Obsidian Sync on your network

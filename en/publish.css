@@ -236,6 +236,7 @@ display: none;
     border-left: none;
     border-radius: var(--radius-l);
     position: relative;
+    padding: 0;
 }
 
 .soft-embed .markdown-embed h2 {
