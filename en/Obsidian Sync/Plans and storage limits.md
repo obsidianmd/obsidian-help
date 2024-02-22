@@ -65,6 +65,6 @@ If you want to downgrade your Sync plan but your storage use exceeds the new pla
 
 The fastest way to reduce the amount of Sync storage you use is to [[#create a new remote vault]] with attachments disabled, then delete the old remote vault that exceeds the storage limits. Note that you will lose version history by doing so.
 
-### Preserving version history
+### Preserve version history
 
 Attachments are held in your [[version history]] for up to two weeks. If you plan to downgrade in the near future, you can start by removing attachments from your local vault. After two weeks these will be purged from the remote vault and will no longer count towards your storage limit. At this point you will be able to downgrade your plan while preserving the version history for other file types, such as Markdown files.
