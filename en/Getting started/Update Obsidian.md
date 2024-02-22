@@ -39,7 +39,7 @@ To update Obsidian when an installer update is required:
 
 Your installer update is now complete. You may now re-open Obsidian.
 
-> [!Question]- Q1. A plugin author or theme developer is asking me to update my installer, but the Obsidian team has not. Why?
+> [!Question]- A plugin author or theme developer is asking me to update my installer, but the Obsidian team has not. Why?
 > This is very common when we have internal library updates within the installer that do not need a minimum application version update, which would force everyone to update. 
 > 
 > For example, if you were using a PDF annotation plugin, and we updated the `pdf.js` library within Obsidian, the plugin author would want to take advantage of updates of that library. 

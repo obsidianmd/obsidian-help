@@ -33,10 +33,9 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 
 ## FAQ
 
-> [!question]- Q1. What happens if I refund my service?
-> If you are refunding an Obsidian Sync or Obsidian Publish subscription, any remote vaults or publish sites are deleted, and can not be retrieved even if you subscribe again.
->
-> >[!info] Please note that this does not happen if your [[Sync limitations#How long do you keep my data after my subscription expires?|subscription expires]].
->
-> If you are refunding an Obsidian Commercial license, the associated license key will be deactivated.
->
+**What happens if I refund my service?**
+If you are refunding an Obsidian Sync or Obsidian Publish subscription, any remote vaults or publish sites are deleted, and can not be retrieved even if you subscribe again.
+
+>[!info] Please note that this does not happen if your [[Sync limitations#How long do you keep my data after my subscription expires?|subscription expires]].
+
+If you are refunding an Obsidian Commercial license, the associated license key will be deactivated.

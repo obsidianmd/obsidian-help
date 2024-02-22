@@ -50,8 +50,8 @@ To use one of the community themes for your site:
 - If the style doesn't change within a few minutes, you may need to refresh your browser cache.
 - You can switch between light and dark mode in the [[Manage sites#View site options|site options]].
 
-> [!tip] Developing themes
-> Can't find the theme for you? Learn how to [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme) yourself.
+[!tip] Developing themes
+Can't find the theme for you? Learn how to [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme) yourself.
 
 ## Enable UI features
 
@@ -81,7 +81,6 @@ In the section labeled **Navigation preview**, you can adjust the display order 
 
 Publish will send your navigation changes to your site. 
 
-
 #### Hide and unhide navigation items
 
 If there are notes or folders you have published, but you do not want visible within your Navigation, you can opt to hide those items instead. 
@@ -92,19 +91,17 @@ If there are notes or folders you have published, but you do not want visible wi
 
 Publish will send your navigation changes to your site. 
 
-> [!tip] You can **Show hidden** files by selecting the checkbox to the right of the **Navigation Preview** title
+[!tip] You can **Show hidden** files by selecting the checkbox to the right of the **Navigation Preview** title
 
 #### FAQ
 
-> [!question]- Q1. Can I move files from one folder to another within the **Navigation**?
-> No.
-> 
-> The file navigation structure for notes within folders needs to be maintained. You can adjust note order within folders (including the vault root), and folder order within other folders. 
+**Can I move files from one folder to another within the Navigation?**
+No. The file navigation structure for notes within folders needs to be maintained. You can adjust note order within folders (including the vault root), and folder order within other folders. 
 
-> [!question]- Q2. Can I edit the order of multiple notes and folders before selecting **Done**?
-> Yes!
+**Can I edit the order of multiple notes and folders before selecting Done?**
+Yes.
 
-> [!question]- Q3. How do I revert these changes?
-> **Display order**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Navigation item display order**. This will restore your navigation items to alphabetical order.
->
-> **Hidden status**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Hide pages or folders from navigation**. This will restore your hidden navigation items to a visible state.
+**How do I revert these changes?**
+
+- **Display order**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Navigation item display order**. This will restore your navigation items to alphabetical order.
+- **Hidden status**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Hide pages or folders from navigation**. This will restore your hidden navigation items to a visible state.

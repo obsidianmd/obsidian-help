@@ -43,17 +43,13 @@ The `2-factor authentication` section will once again show an **Enable** button.
 
 ## FAQ
 
-> [!question]- Q1. I have enabled 2FA. Will I be logged out of my current Obsidian devices?
-> No. 
-> 
-> Enabling 2FA does not log you out everywhere for your convenience. If you need to, you can manually do that from your account page, and subsequently login again on each of your devices.
+**I have enabled 2FA. Will I be logged out of my current Obsidian devices?**
+No. Enabling 2FA does not log you out everywhere for your convenience. If you need to, you can manually do that from your account page, and subsequently login again on each of your devices.
 
-> [!question]- Q2. I enabled, then disabled 2FA. I would like to set it up again. Can I use the original QR code or setup key?
-> No. 
-> 
-> You will be provided a new **QR code** and new **Setup key** every time you initiate a new setup of 2FA.
+**I enabled, then disabled 2FA. I would like to set it up again. Can I use the original QR code or setup key?**
+No. You will be provided a new **QR code** and new **Setup key** every time you initiate a new setup of 2FA.
 
-> [!question]- Q3. I have enabled 2FA. I have yet to be asked for it after several log-out/log-in attempts. Is this working?
-> Your browser cache may be allowing you to appear as if you are making changes to the page (such as logging in or out) when in actuality you are accessing the stored data. Try using a private browsing window to log-in to confirm 2FA is working.
-> 
-> If you continue to experience this behavior, please [submit a bug report](https://forum.obsidian.md/c/bug-reports/7).
+**have enabled 2FA. I have yet to be asked for it after several log-out/log-in attempts. Is this working?**
+Your browser cache may be allowing you to appear as if you are making changes to the page (such as logging in or out) when in actuality you are accessing the stored data. Try using a private browsing window to log-in to confirm 2FA is working.
+
+If you continue to experience this behavior, please [submit a bug report](https://forum.obsidian.md/c/bug-reports/7).

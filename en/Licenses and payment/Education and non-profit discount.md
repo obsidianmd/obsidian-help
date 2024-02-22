@@ -26,29 +26,21 @@ A week before your discount expires, you will get an email reminder to renew it.
 
 ## FAQ
 
-> [!FAQ]- Q1. How long does the application process take?
-> If your application isn't approved instantly after verifying your email, our team will review it. It will take up to 3 business days.
->
-> You don’t need to constantly check the account page for updates. We’ll send an email when you’re approved. Thanks for the patience and understanding!
+**Who is eligible?**
+If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount. If you run or work at a non-profit organization, you generally qualify for non-profit discount.
 
-> [!FAQ]- Q2. Do these discounts work with early bird pricing?
-> Thanks for being an early bird! None of these discounts stack with the early bird pricing, as early bird is likely the highest discount we’ll ever give out.
->
-> If you’re already an early bird, there’s generally no point in applying for discounts. But keep in mind that early bird pricing is separate for Sync and Publish, so if you missed early bird pricing for one of them, you may still want to apply for a discount.
+**How long does the application process take?**
+If your application isn't approved instantly after verifying your email, our team will review it. It will take up to 3 business days. No need to check again, we will send an email when your account is approved. Thank you for your patience!
 
-> [!FAQ]- Q3. Who’s eligible?
-> If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount.
->
-> If you run or work at a non-profit organization, you generally qualify for non-profit discount.
+**Do these discounts work with early bird pricing?**
+Thanks for being an early bird! None of these discounts stack with the early bird pricing, as early bird is likely the highest discount we’ll ever give out.
 
-> [!FAQ]- Q4. What if my educational or non-profit organization doesn't provide an email address?
-> In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Help and support#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too.
->
-> Our team will review your application and get back to you. Thanks for your patience and understanding!
+If you’re already an early bird, there’s generally no point in applying for discounts. But keep in mind that early bird pricing is separate for Sync and Publish, so if you missed early bird pricing for one of them, you may still want to apply for a discount.
 
-> [!FAQ]- Q5. I qualify for a discount, but I already paid. Can I get a refund?
-> We understand that some people have purchased Sync or Publish without discounts either because discounts were not offered back then, or that you didn't know about the discount.
->
-> Unfortunately, we don't offer refunds in cases like this. Sorry! Thanks for your understanding.
->
-> The good news is that future renewals will automatically have the discount applied, as long as you have a valid discount.
+**What if my educational or non-profit organization doesn't provide an email address?**
+In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Help and support#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too. Our team will review your application and get back to you. Thank you for your patience!
+
+**I qualify for a discount, but I already paid. Can I get a refund?**
+We understand that some people have purchased Sync or Publish without discounts either because discounts were not offered back then, or that you didn't know about the discount.
+
+Unfortunately, we don't offer refunds in cases like this. Sorry! Thank you for understanding. The good news is that future renewals will automatically have the discount applied, as long as you have a valid discount.
