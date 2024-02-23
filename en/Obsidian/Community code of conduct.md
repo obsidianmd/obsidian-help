@@ -30,9 +30,17 @@ Belligerence is deliberately attempting to make others feel bad, name-calling, s
 
 For example, if we’ve received reports from multiple members of annoying or rude behavior.
 
-#### Unsolicited messages to team or moderators
+#### Unsolicited messages to community members
 
-This includes unsolicited tagging, "pinging", or direct messaging Obsidian team staff and moderators for questions, bug reports, and feature requests. As much as we want to help everyone, we have a sizeable community, and the team's attention must be reserved for critical matters. You can ping or direct message members of the team for things like security-related issues or to report violations of the community code of conduct. Otherwise, please post about the issue in an appropriate channel on the forum or the Discord server.
+Refrain from unsolicited tagging, "pinging," or direct messaging of staff and moderators for general questions, bug reports, and feature requests. Given the size of our community, the team's attention must be prioritised for critical matters.
+
+**Security concerns**: You may directly message Obsidian team members regarding security-related issues.
+
+**Unsolicited contact**: Be considerate when pinging community members. You may only send direct messages if you have received explicit permission to do so publicly. 
+
+**Community plugins and themes**: For bug reports and feature requests, it is preferred to open a GitHub issue over pinging the developer in Discord.
+
+Instructions for reporting violations of our code of conduct can be found below in [[#Report violations]]. We appreciate your cooperation in following these guidelines to maintain a positive and respectful environment within the Obsidian community.
 
 ### Other behaviors
 
@@ -84,7 +92,7 @@ In order to get there, all of our members are expected to be nice to each other 
 
 As the community grows, we can't rely on all members to be nice, although the vast majority of our members show exceptional respect towards each other. Adopting a more formal code of conduct — and enforcing it — helps maintain a vital and healthy community.
 
-## Please report violations
+## Report violations
 
 The code of conduct is enforced by our moderators, but we can't monitor every single interaction in the official Obsidian community channels. This is why we rely on our members to help us improve the official Obsidian community channels by reporting violations of our code of conduct.
 
@@ -94,7 +102,9 @@ We'll keep the identity of the reporter as confidential as we can.
 
 ### Report on Discord
 
-In \#bots-land-mute-me channel, or any other channel, type `/moderation report @offenderName Please write your reason here`. Your message will disappear immediately, and a report will be sent to our moderator only channel.
+In \#bots-land-mute-me channel, or any other channel, type `/moderation report @offenderName Please write your reason here`. 
+
+Your message will disappear immediately, and a report will be sent to our moderator only channel. If the `/moderation report` command fails, you **may** ping or direct message a moderator.
 
 ### Report on the forum
 
@@ -116,4 +126,5 @@ Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https
 
 ## Changelog
 
+- 2024-02-23: Updated [[#Unsolicited messages to community members]] to indicate when it is appropriate to direct message a community member. 
 - 2023-10-28: Moved blatant -isms from "Other offenses" to "Serious offenses", meaning they’re now bannable on first offense.
