@@ -32,7 +32,7 @@ For example, if we’ve received reports from multiple members of annoying or ru
 
 #### Unsolicited messages to community members
 
-Refrain from unsolicited tagging, "pinging," or direct messaging of staff and moderators for general questions, bug reports, and feature requests. Given the size of our community, the team's attention must be prioritised for critical matters.
+Refrain from unsolicited tagging, "pinging", or direct messaging of staff and moderators for general questions, bug reports, and feature requests. Given the size of our community, the team's attention must be prioritised for critical matters.
 
 **Security concerns**: You may directly message Obsidian team members regarding security-related issues.
 
