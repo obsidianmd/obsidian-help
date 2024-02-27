@@ -40,3 +40,16 @@ If you run into issues while importing from Notion:
 - If Obsidian appears to freeze during import, disable community plugins and try again.
 
 Run into something else? Search [the Importer repository](https://github.com/obsidianmd/obsidian-importer/issues) to see if others have experienced it.
+
+### Importing large workspaces
+
+If you are importing a workspace with multiple gigabytes of data, the export from Notion may contain nested `.zip` files. In this case you may see an import error message that looks something like this:
+
+```
+Import failed {id}.zip/{id}-Part-1.zip undefined.
+```
+
+If you see this error, you can unzip the file from Notion, and then import the nested `Export-{id}-Part-1.zip`  files.
+
+
+
