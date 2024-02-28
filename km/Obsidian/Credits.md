@@ -54,6 +54,7 @@ Credits ទៅអ្នកបង្កើត plugin សម្រាប់ pionee
 - mafsi, (Patrick Danilevici) (Română)
 - Muhammad Mauli Mubassari (Indonesian)
 - Sakvipubp Suy (Khmer)
+- smilorent, Silviu Lorenț (Romanian)
 - Solyta Teng (Khmer)
 - taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)

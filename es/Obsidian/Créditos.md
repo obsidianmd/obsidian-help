@@ -35,6 +35,7 @@ Los nombres no se enumeran por cantidad de contribución, sino alfabéticamente 
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
 - Manuel Arias Almada (Español)
+- smilorent, Silviu Lorenț (Romanian)
 - taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)

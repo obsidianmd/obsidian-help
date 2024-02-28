@@ -56,6 +56,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
 - Muhammad Mauli Mubassari (Indonesian)
+- smilorent, Silviu Lorenț (Romanian)
 - taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)

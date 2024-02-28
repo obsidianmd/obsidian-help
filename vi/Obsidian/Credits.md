@@ -35,6 +35,7 @@ Tên được liệt kê theo thứ tự bảng chữ cái thay vì đóng góp.
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
+- smilorent, Silviu Lorenț (Romanian)
 - taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)

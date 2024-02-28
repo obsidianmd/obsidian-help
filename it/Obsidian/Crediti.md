@@ -27,6 +27,7 @@ I nomi non sono elencati in base al peso del loro contributo, ma in ordine alfab
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
+- smilorent, Silviu Lorenț (Romanian)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
 

@@ -53,6 +53,7 @@ Vi krediterer følgende plugin udviklere for deres banebrydende funktioner som e
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, (Patrick Danilevici) (Română)
 - Muhammad Mauli Mubassari (Indonesian)
+- smilorent, Silviu Lorenț (Romanian)
 - taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
