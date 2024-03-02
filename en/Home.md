@@ -10,20 +10,22 @@ cssclasses:
 
 Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
 
-You can also browse this site in the following languages:
+You can also browse this site in other languages:
 
-- [العربية](https://publish.obsidian.md/help-ar)
-- [Dansk](https://publish.obsidian.md/help-da)
-- [Español](https://publish.obsidian.md/help-es)
-- [Italiano](https://publish.obsidian.md/help-it)
-- [日本語](https://publish.obsidian.md/help-ja)
-- [Phéasa Khmêr](https://publish.obsidian.md/help-km)
-- [한국어](https://publish.obsidian.md/help-ko)
-- [Português](https://publish.obsidian.md/help-pt-br)
-- [Русский](https://publish.obsidian.md/help-ru)
-- [Tiếng Việt](https://publish.obsidian.md/help-vi)
-- [中文](https://publish.obsidian.md/help-zh)
-
+<select class="select_location">
+<option value="">Select language...</option>
+<option value="https://publish.obsidian.md/help-ar">العربية</option>
+<option value="https://publish.obsidian.md/help-da">Dansk</option>
+<option value="https://publish.obsidian.md/help-es">Español</option>
+<option value="https://publish.obsidian.md/help-it">Italiano</option>
+<option value="https://publish.obsidian.md/help-ja">日本語</option>
+<option value="https://publish.obsidian.md/help-km">Phéasa Khmêr</option>
+<option value="https://publish.obsidian.md/help-ko">한국어</option>
+<option value="https://publish.obsidian.md/help-pt-br">Português</option>
+<option value="https://publish.obsidian.md/help-ru">Русский</option>
+<option value="https://publish.obsidian.md/help-vi">Tiếng Việt</option>
+<option value="https://publish.obsidian.md/help-zh">中文</option>
+</select>
 
 
 ## Getting started
