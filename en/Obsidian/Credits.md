@@ -47,19 +47,27 @@ Credits to these plugin developers for pioneering functionality that were adapte
 ## Translators
 
 - Andrea Brandi (Italian)
-- canzi-teacher, 蚕子 (Chinese Simplified)
+- bongudth (Vietnamese)
+- canzi-teacher, 蚕子 (Simplified Chinese)
 - Daniel Mathiot (French)
+- Diego Tres (Brazilian Portuguese)
 - Haitham Mohamed (Arabic)
 - Henrik Falk (Danish)
+- Joffrey Schroeder (French) 
 - JxhnnyUt8h (Russian)
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
-- mafsi, (Patrick Danilevici) (Română)
+- mafsi, Patrick Danilevici (Romanian)
+- Manuel Arias Almada (Spanish)
 - Muhammad Mauli Mubassari (Indonesian)
+- Olivier Anthonioz (French) 
+- Sakvipubp Suy (Khmer)
+- smilorent, Silviu Lorenț (Romanian)
+- Solyta Teng (Khmer)
 - taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
-- Zachary Shirmohammadli (Persian)
+- Zachary Shirmohammadli (Persian) 
 
 ## Documentation
 
