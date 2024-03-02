@@ -10,10 +10,10 @@ cssclasses:
 
 Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
 
-You can also browse this site in other languages:
+You can browse this site in several languages:
 
 <select class="dropdown select-location">
-<option value="">Select language...</option>
+<option value="">English</option>
 <option value="https://publish.obsidian.md/help-ar">العربية</option>
 <option value="https://publish.obsidian.md/help-da">Dansk</option>
 <option value="https://publish.obsidian.md/help-es">Español</option>
