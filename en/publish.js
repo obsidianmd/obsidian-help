@@ -1,5 +1,5 @@
 publish.registerMarkdownPostProcessor(async (el, ctx) => {
-  const selectElement = el.querySelector('.select_location');
+  const selectElement = el.querySelector('.select-location');
   if (selectElement) {
     selectElement.addEventListener('change', function() {
       var url = this.value;

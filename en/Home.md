@@ -12,7 +12,7 @@ Welcome to the official Obsidian Help site, where you can find tips and guides o
 
 You can also browse this site in other languages:
 
-<select class="select_location">
+<select class="dropdown select-location">
 <option value="">Select language...</option>
 <option value="https://publish.obsidian.md/help-ar">العربية</option>
 <option value="https://publish.obsidian.md/help-da">Dansk</option>
