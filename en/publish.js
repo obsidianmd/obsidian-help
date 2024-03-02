@@ -1,6 +1,6 @@
 publish.registerMarkdownPostProcessor(async (el, ctx) => {
   const selectElement = el.querySelector('.select_location');
-  if (selectElement) { // Check if the element exists
+  if (selectElement) {
     selectElement.addEventListener('change', function() {
       var url = this.value;
       if (url) {
