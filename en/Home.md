@@ -5,6 +5,7 @@ aliases:
 cssclasses:
   - list-cards
   - hide-title
+  - list-cards-mobile-full
 ---
 # Obsidian Help
 
