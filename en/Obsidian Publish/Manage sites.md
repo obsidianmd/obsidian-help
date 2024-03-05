@@ -50,7 +50,7 @@ A site is a collection of notes that's hosted by Obsidian Publish and available 
 | Logo                            | Input  | The image you want to act as your site banner. The image must [[Publish and unpublish notes#Publish notes\|be published]]. |
 | Site Collaboration              | Button | Declare other users you want to have access to edit your published notes. Users must have an Obsidian account.             |
 | Custom Domain                   | Button | [[Set up a custom domain]]                                                                                                 |
-| Disallow search engine indexing | Toggle | Prevents respectful search engines from crawling your site.                                                                |
+| Disallow search engine indexing | Toggle | Prevent respectful search engines from crawling your site by adding a `robots.txt` file.                                   |
 
 ### Appearance
 
