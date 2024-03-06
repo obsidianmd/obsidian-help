@@ -58,8 +58,7 @@ Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 > 
 > Pre-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **About**
 > Post-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **General**.
-> 
-> Mobile users are advised to continue referring to the "**About**" section in their settings until the next mobile release.
+
 
 ## Contribute
 
