@@ -2,22 +2,20 @@
 aliases:
   - 2FA
 ---
-
-Obsidian offers users who create a [https://obsidian.md/account](https://obsidian.md/account "https://obsidian.md/account") the option to enable 2-factor authentication (2FA).
-
+If you have an [Obsidian account](https://obsidian.md/account) you can enable two-factor authentication (2FA) to protect your account with a second verification step.
 
 ## Enable 2FA
 
-Log into your Obsidian account from your web browser at [https://obsidian.md/account](https://obsidian.md/account "https://obsidian.md/account")
+Log into your Obsidian account from your web browser at [https://obsidian.md/account](https://obsidian.md/account)
 
 - Under the **Account** section, locate the item `2-factor authentication` and select the **Enable** button. 
 - A popup window will appear to prompt you to connect an authenticator app.
 
 > [!hint]- Popular authentication applications
-> - [Authy](https://authy.com "https://authy.com")
-> - [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2 "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2")
-> - [Microsoft Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app "https://www.microsoft.com/en-us/security/mobile-authenticator-app")
-> - [iCloud Keychain](https://support.apple.com/en-gb/guide/iphone/ipha6173c19f/ios "https://support.apple.com/en-gb/guide/iphone/ipha6173c19f/ios")
+> - [Authy](https://authy.com)
+> - [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+> - [Microsoft Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)
+> - [iCloud Keychain](https://support.apple.com/en-gb/guide/iphone/ipha6173c19f/ios)
 
 - Once connected, your authenticator app will provide you a six digit code. Enter that code below the **QR code/setup key**. 
 - Finally, enter your current password.
@@ -31,7 +29,7 @@ Your 2FA is now set up.
 
 ## Disable 2FA
 
-Log into your Obsidian account from your web browser at [https://obsidian.md/account](https://obsidian.md/account "https://obsidian.md/account")
+Log into your Obsidian account from your web browser at [https://obsidian.md/account](https://obsidian.md/account)
 
 - Under the **Account** section, locate the item `2-factor authentication` and select the **Disable** button. 
 - Enter your Obsidian Password
