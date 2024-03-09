@@ -30,12 +30,12 @@ In addition to a name and value, properties also have a *type*. A property's typ
 
 Obsidian supports the following property types:
 
-- **Text**
-- **List**
-- **Number**
-- **Checkbox**
-- **Date**
-- **Date & time**
+- **[[#^text-list|Text]]**
+- **[[#^text-list|List]]**
+- **[[#^numbers|Number]]**
+- **[[#^checkbox|Checkbox]]**
+- **[[#^date-time|Date]]**
+- **[[#^date-time|Date & time]]**
 
 Once a property type is assigned to a property, all properties with that name are assumed to have the same property type.
 
@@ -137,13 +137,14 @@ name: value
 While the order of each name-value pair doesn't matter, each name must be unique within a note. For example, you can't have more than one `tags` property.
 
 Values can be text, numbers, true or false, or even collections of values (arrays).
+^text-list
 
 ```yaml
 ---
-title: A New Hope
+title: A New Hope # This is a text property
 year: 1977
 favorite: true
-cast:
+cast: # This is a list property
   - Mark Hamill
   - Harrison Ford
   - Carrie Fisher
@@ -161,7 +162,30 @@ linklist:
 ---
 ```
 
-**Date** and **Date & time** type properties are stored in the following format:
+
+Number type properties must always be an integer. The integer may contain decimal points, but not operators.
+^numbers
+
+```yaml
+---
+year: 1977
+pie: 3.14
+---
+```
+
+Checkbox type properties are either `true` or `false`. An empty property will be treated as `false`. In Live Preview, this will be represented as a checkbox.
+^checkbox
+
+```yaml
+---
+favorite: true
+reply: false
+last: # this will default to false
+```
+
+
+**Date** and **Date & time** type properties are stored in the following format: 
+^date-time
 
 ```yaml
 ---
