@@ -17,6 +17,12 @@ Obsidian Sync supports every platform that Obsidian can run on. Currently that m
 
 Obsidian will work with [Lockdown Mode](https://support.apple.com/en-us/105120) so long as Obsidian is added as an exclusion. Some individual users with edge cases experience problems using Obsidian with lockdown mode. 
 
+### What type of data will sync?
+
+By default your Obsidian notes, images, and your [[Configuration folder]] will sync. 
+
+You can add additional syncing options of PDF's, audio files, video files, and other files when you [[select files and settings to sync]].
+
 ### How much storage do I have?
 
 The storage limit depends on your Obsidian Sync plan. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
@@ -31,15 +37,13 @@ Each account with Obsidian Sync can have up to 10 remote vaults.
 
 You can allocate your storage any way you want across all your vaults. 
 
+### How many people can I share this remote vault with?
+
+You can [[Collaborate on a shared vault|share a remote vault]] with up to 10 people.
+
 ### How large can each file be?
 
 The maximum file size depends on your [[Plans and storage limits|Obsidian Sync plan]]. For the Standard plan the limit is 5 MB. For the Plus plan the limit is 200 MB per file.
-
-### What type of data will sync?
-
-By default your Obsidian notes, images, and your [[Configuration folder]] will sync. 
-
-You can add additional syncing options of PDF's, audio files, video files, and other files when you [[select files and settings to sync]].
 
 ### Is my data being synced in the background?
 
@@ -49,11 +53,16 @@ No, files are only synced when Obsidian is running.
 
 No, plugins, settings, and theme updates from one device, will require a restart of the application on the other devices once the update is received. 
 
-### What's the maximum number of people I can share a remote vault with?
+### Can I use a third-party sync with Obsidian Sync?
 
-You can [[Collaborate on a shared vault|share a remote vault]] with up to 10 people.
+We do not recommend using a third-party sync service alongside Obsidian Sync. Using the same third-party service and Obsidian Sync on multiple devices can lead to conflicts, resulting in duplicate or corrupted files.
+
+Cloud storage services like OneDrive and Dropbox offer "Files on-demand" or "Online-only files" features, which download files only when needed and remove them locally to save space. However, since these files are not always available locally, Obsidian Sync will interpret them as deleted, leading to their removal from your remote vault.
+ 
+To avoid these issues, disable on-demand downloads when using Obsidian Sync with services like OneDrive or Dropbox. You will need to ensure that the third-party service settings are configured to always keep files on the device.
 
 ## Data retention
+
  
 These are commonly asked questions on Obsidian's data retention. For more in depth answers, see [[Obsidian Sync/Security and privacy|Security and privacy]].
 
