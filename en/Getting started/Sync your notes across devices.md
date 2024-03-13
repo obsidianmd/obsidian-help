@@ -15,6 +15,7 @@ Note that using multiple syncing services at the same time (e.g., Obsidian Sync 
 ^sync-files-on-demand
 
 If you don't want to use Obsidian Sync, this page lists alternative methods for syncing your vaults with multiple devices.
+
 ## Sync notes across multiple desktops
 
 If you don't use Obsidian on your mobile devices, you can use any third-party service that syncs a local folder to a cloud storage.
@@ -100,11 +101,11 @@ To sync using Working Copy:
 
 > [!note] While we don't officially support this method, several of our users have reported that they've successfully used Working Copy to sync their notes.
 
-### Why can't I sync using X?
+### Why is my preferred syncing service not officially supported?
 
-Obsidian requires access to your entire vault for many of its features. For example, renaming a file requires Obsidian to update all links to that file across the vault. Achieving this functionality consistently and reliably with a third-party sync service outside of iCloud and Obsidian Sync is challenging and resource intensive. 
+Unlike some note-taking apps which access one file at a time, Obsidian requires access to your entire vault for many of its features. For example, renaming a file requires Obsidian to update all links to that file across the vault. Achieving this functionality consistently and reliably with other services can be challenging or impossible. 
 
-Currently, our focus is on maintaining the reliability of core features, so we are not pursuing direct integration with additional third-party sync services at this time. Developers interested in addressing this issue can create a plugin using the Web APIs of specific sync services.
+Obsidian officially supports Obsidian Sync and iCloud Drive, but there are many alternative syncing solutions available from other developers, including [[Community plugins]].
 
 ### Where are my vaults stored?
 
