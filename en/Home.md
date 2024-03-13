@@ -7,6 +7,7 @@ cssclasses:
   - hide-title
   - list-cards-mobile-full
 ---
+
 # Obsidian Help
 
 Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
@@ -27,7 +28,6 @@ You can browse this site in several languages:
 <option value="https://publish.obsidian.md/help-vi">Tiếng Việt</option>
 <option value="https://publish.obsidian.md/help-zh">中文</option>
 </select>
-
 
 ## Getting started
 
@@ -50,16 +50,6 @@ Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
 	- Publish your notes as a wiki, knowledge base, documentation, or digital garden.
 
-
-## Latest updates
-
-> [!todo] Update for version 1.5 
-> The documentation has been revised for the 1.5 desktop release, incorporating changes to the [[Language settings|interface language]]. 
-> 
-> Pre-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **About**
-> Post-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **General**.
-
-
 ## Contribute
 
 If you find any mistakes or missing information on this site, you can contribute improvements and translations via [the GitHub repo](https://github.com/obsidianmd/obsidian-docs/).
@@ -67,4 +57,3 @@ If you find any mistakes or missing information on this site, you can contribute
 If you want to support Obsidian financially, consider a [[Catalyst license]], which offers early access to beta versions of Obsidian.
 
 See the [[Credits]] to get to know all the amazing people who made Obsidian possible.
-
