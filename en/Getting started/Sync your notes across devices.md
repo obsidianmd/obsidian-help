@@ -103,7 +103,7 @@ To sync using Working Copy:
 
 ### Why is my preferred syncing service not officially supported?
 
-Unlike some note-taking apps which access one file at a time, Obsidian requires access to your entire vault for many of its features. For example, renaming a file requires Obsidian to update all links to that file across the vault. Achieving this functionality consistently and reliably with other services can be challenging or impossible.
+Unlike some note-taking apps which access one file at a time, Obsidian requires access to your entire vault for many of its features. For example, renaming a file requires Obsidian to update all links to that file across the vault. Achieving this functionality consistently and reliably with other services can be challenging or impossible. 
 
 Obsidian officially supports Obsidian Sync and iCloud Drive, but there are many alternative syncing solutions available from other developers, including [[Community plugins]].
 
