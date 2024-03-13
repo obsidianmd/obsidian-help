@@ -36,12 +36,13 @@ To sync your notes to your iPhone or iPad, we officially support the following o
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 - [[#iCloud Drive]]
 
-**Note:** The following services aren't supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
-
-- Dropbox
-- Google Drive
-- OneDrive
-- Syncthing
+> [!info] Other syncing services
+> The following services aren't supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
+>
+> - Dropbox
+> - Google Drive
+> - OneDrive
+> - Syncthing
 
 ### iCloud Drive
 
@@ -111,7 +112,10 @@ For developers interested in addressing this issue, it's possible to create a pl
 
 If you choose not to use iCloud Drive when you create your vault, Obsidian stores it in a local file system for the Obsidian app. Other apps, such as [[#Working Copy]], can access your vault by selecting the vault from the file system.
 
-**Caution:** Any notes stored in the local file system are deleted by iOS when you uninstall the app. Make sure to back up your notes before you uninstall the Obsidian app.
+> [!warning]
+> Before you uninstall Obsidian on iOS, please note that any notes stored in the local file system will be deleted by iOS. 
+> 
+> To avoid losing your data, make sure to back up your notes to a cloud service or an external storage device before uninstalling the Obsidian app.
 
 ## Sync notes on Android
 
