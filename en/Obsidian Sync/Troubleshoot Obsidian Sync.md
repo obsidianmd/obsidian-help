@@ -115,5 +115,3 @@ In each case, it is necessary to [[Set up Obsidian Sync#Disconnect to a remote v
 This issue is likely caused by Google Photos managing these attachments. To prevent the operating system from altering the attachments you receive, add a `.nomedia` [file to your vault](https://www.lifewire.com/nomedia-file-4172882) on your Android device.
 
 > [!tip] A community plugin, [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia), simplifies this process. Install and use this plugin on your Android phone, as the `.nomedia` file will not be synced across devices with Obsidian Sync.
-
-
