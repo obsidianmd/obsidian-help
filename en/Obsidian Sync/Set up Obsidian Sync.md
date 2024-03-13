@@ -4,10 +4,7 @@ cssclasses:
 ---
 
 
-In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for your vault.
-
-> [!hint] Remote vaults and local vaults
-> In this guide, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new local vault to use Obsidian Sync.
+In this guide, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new, empty local vault to use Obsidian Sync for this purpose.
 
 ## Prerequisites
 
@@ -15,7 +12,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 - An active Obsidian Sync subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
 - Sync enabled within the [[Core plugins]] settings. 
 
-> [!danger] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? Please [[Back up your vault|read this guide]] before proceeding.
+> [!danger] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? Please [[Back up your Obsidian files|read this guide]] before proceeding.
 
 ## Log in with your Obsidian account
 
@@ -25,6 +22,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 4. In **Email**, enter your email.
 5. In **Password**, enter your password.
 6. Select **Login**.
+
 ## Enable Obsidian Sync
 
 1. Open **Settings**.
@@ -78,10 +76,11 @@ If you are beginning syncing after adjusting Obsidian Sync's settings and restar
 > Smaller mobile devices currently do not show the Obsidian Sync status icon.
 ^obsidian-sync-status
 
-> [!todo] Next steps
-> To connect other devices to your newly created and synced remote vault, move onto [[Set up Obsidian Sync on another device]].
->
-> To learn more about settings and files, move onto [[Select files and settings to sync]].
+### Next steps
+
+To connect other devices to your newly created and synced remote vault, move onto [[Set up Obsidian Sync on another device]].
+
+To learn more about settings and files, move onto [[Select files and settings to sync]].
 
 ## Disconnect from a remote vault
 
