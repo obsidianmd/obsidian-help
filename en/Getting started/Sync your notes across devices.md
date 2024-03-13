@@ -102,11 +102,9 @@ To sync using Working Copy:
 
 ### Why can't I sync using X?
 
-We understand that many users prefer to sync their notes using external services. However, Obsidian requires access to the entire vault for many of its features. For instance, when a file is renamed, Obsidian needs to update all links to that file across the vault. 
+Obsidian requires access to your entire vault for many of its features. For example, renaming a file requires Obsidian to update all links to that file across the vault. Achieving this functionality consistently and reliably with a third-party sync service outside of iCloud and Obsidian Sync is challenging and resource intensive. 
 
-Currently, managing and monitoring a complete folder structure with potentially thousands of notes outside supported locations poses significant challenges. We aim to overcome this limitation in the future.
-
-For developers interested in addressing this issue, it's possible to create a plugin utilizing the Web APIs of specific sync services.
+Currently, our focus is on maintaining the reliability of core features, so we are not pursuing direct integration with additional third-party sync services at this time. Developers interested in addressing this issue can create a plugin using the Web APIs of specific sync services.
 
 ### Where are my vaults stored?
 
