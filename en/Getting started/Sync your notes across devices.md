@@ -1,3 +1,7 @@
+---
+cssClasses: soft-embed
+---
+
 Syncing means keeping your notes up to date across your devices, such as your laptop and phone.
 
 The easiest way to sync your notes between your devices is to use [[Introduction to Obsidian Sync|Obsidian Sync]]. If you already have an Obsidian Sync subscription, see how to [[Set up Obsidian Sync]].
@@ -11,6 +15,7 @@ Note that using multiple syncing services at the same time (e.g., Obsidian Sync 
 ^sync-files-on-demand
 
 If you don't want to use Obsidian Sync, this page lists alternative methods for syncing your vaults with multiple devices.
+
 ## Sync notes across multiple desktops
 
 If you don't use Obsidian on your mobile devices, you can use any third-party service that syncs a local folder to a cloud storage.
@@ -32,12 +37,13 @@ To sync your notes to your iPhone or iPad, we officially support the following o
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 - [[#iCloud Drive]]
 
-**Note:** The following services aren't supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
-
-- Dropbox
-- Google Drive
-- OneDrive
-- Syncthing
+> [!info] Other syncing services
+> The following services aren't supported. If you discover a way to sync your notes on your iOS device using any of these services, let us know on our community channels.
+>
+> - Dropbox
+> - Google Drive
+> - OneDrive
+> - Syncthing
 
 ### iCloud Drive
 
@@ -93,25 +99,22 @@ To sync using Working Copy:
 2. Use the **Setup Folder Sync** action and select your empty vault.
 3. Commit and push any changes to your vault using the Working Copy app.
 
-**Note:** While we don't officially support this method, several of our users have reported that they've successfully used Working Copy to sync their notes.
+> [!note] While we don't officially support this method, several of our users have reported that they've successfully used Working Copy to sync their notes.
 
-### Why can't I sync using X?
+### Why is my preferred syncing service not officially supported?
 
-We understand that many of you use other services for syncing files and you'd prefer to use it for syncing your notes as well.
+Unlike some note-taking apps which access one file at a time, Obsidian requires access to your entire vault for many of its features. For example, renaming a file requires Obsidian to update all links to that file across the vault. Achieving this functionality consistently and reliably with other services can be challenging or impossible. 
 
-Obsidian works differently from other Markdown editors on iOS. Editors such as 1Writer and iA Writer access one note at a time, which lets them use built-in support for documents.
-
-In contrast, many features in Obsidian need access to your entire vault. For example if you rename a file, then Obsidian needs to update all files in the vault that links to that file.
-
-Implementing a system to read, modify, and monitor an entire folder structure comprising of possibly thousand of notes outside of the supported locations is challenging. We hope to address this limitation in the future.
-
-If you're a developer, you can build a plugin that uses the Web APIs for each individual sync service.
+Obsidian officially supports Obsidian Sync and iCloud Drive, but there are many alternative syncing solutions available from other developers, including [[Community plugins]].
 
 ### Where are my vaults stored?
 
 If you choose not to use iCloud Drive when you create your vault, Obsidian stores it in a local file system for the Obsidian app. Other apps, such as [[#Working Copy]], can access your vault by selecting the vault from the file system.
 
-**Caution:** Any notes stored in the local file system are deleted by iOS when you uninstall the app. Make sure to back up your notes before you uninstall the Obsidian app.
+> [!warning]
+> Before you uninstall Obsidian on iOS, please note that any notes stored in the local file system will be deleted by iOS. 
+> 
+> To avoid losing your data, make sure to back up your notes to a cloud service or an external storage device before uninstalling the Obsidian app.
 
 ## Sync notes on Android
 
@@ -122,10 +125,10 @@ Since Obsidian stores notes in a local folder on your Android device, you can al
 - [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync)
 - [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)
 
-**Note:** Obsidian creates an Obsidian folder in the shared Documents folder. Any folder under `Documents/Obsidian` is considered an Obsidian vault.
+> [!note] Obsidian creates an Obsidian folder in the shared Documents folder. Any folder under `Documents/Obsidian` is considered an Obsidian vault.
 
 ## Config folders
 
 You can utilize the ability to change your configuration folder per device, to maintain device specific settings even when using a syncing service. 
 
-![[Configuration folder#Changing your config folder]]
+![[Configuration folder#Changing your configuration folder|Customization/Config folders]]

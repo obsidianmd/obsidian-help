@@ -1,12 +1,16 @@
 ---
 aliases:
-- How to/Internal link
-- How to/Link to blocks
+  - How to/Internal link
+  - How to/Link to blocks
+cssclasses:
+  - soft-embed
 ---
 
 Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge. ^b15695
 
-Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under **Settings → Files & Links → Automatically update internal links**.
+Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under: 
+
+**Settings → Files & Links → Automatically update internal links**.
 
 ## Supported formats for internal links
 
@@ -39,6 +43,8 @@ To create a link while in Editing view, use either of the following ways:
 
 While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
 
+![[Quick switcher#^search-autocomplete-large]]
+
 ## Link to a heading in a note
 
 You can link to specific headings in notes, also known as _anchor links_.
@@ -55,7 +61,6 @@ For example, `[[My note#Heading 1#Heading 2]]`.
 > You can search for headers to link to from across your vault using the `[[##header]]` syntax. 
 > 
 > ![[internal-links-header.png#interface]]
-
 
 ## Link to a block in a note
 
@@ -98,7 +103,6 @@ For example, `[[Internal links|custom display text]]` appears as [[Internal link
 Enter the display text between the square brackets (`[]`).
 
 For example, `[custom display text](Internal%20links.md)` appears as [custom display text](Internal%20links.md).
-
 
 ## Preview a linked file
 
