@@ -81,4 +81,3 @@ As long as you renew within one month, there should be no impact on your usage. 
 ### Do you keep my data if I refund my subscription service?
 
 No. The data is deleted immediately from Obsidian Sync servers. Data in your [[Local and remote vaults|local vault]] is not affected.
-
