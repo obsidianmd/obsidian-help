@@ -21,7 +21,7 @@ To start using Canvas, you first need to create a file to hold your canvas. You 
 - Select **New canvas**.
 
 > [!note]  The .canvas file extension
-> Obsidian stores the configuration for each canvas in a custom JSON format in a file with the `.canvas` extension.
+> Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
 
 ## Adding cards
 
