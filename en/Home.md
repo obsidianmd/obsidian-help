@@ -56,4 +56,4 @@ If you find any mistakes or missing information on this site, you can contribute
 
 If you want to support Obsidian financially, consider a [[Catalyst license]], which offers early access to beta versions of Obsidian.
 
-See the [[Credits]] to get to know all the amazing people who made Obsidian possible.
+See the [[Credits]] to get to know all the amazing people who make Obsidian possible.
