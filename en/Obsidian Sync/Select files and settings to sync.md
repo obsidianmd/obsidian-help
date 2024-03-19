@@ -60,7 +60,7 @@ Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] t
 
 To set your settings folder:
 
-1. Open **Settings → General**.
+1. Open **Settings → Files and links**.
 2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-mobile`.
 3. Relaunch Obsidian to have the changes take effect.
 
