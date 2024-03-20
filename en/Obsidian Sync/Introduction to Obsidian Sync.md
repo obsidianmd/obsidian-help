@@ -12,6 +12,8 @@ cssclasses:
 
 - [[Set up Obsidian Sync]]
 	- Get started with Obsidian Sync.
+- [[Plans and storage limits]]
+	- Learn about Sync subscription plans.
 - [[Select files and settings to sync|Selective sync]]
 	- Configure which files and settings to sync.
 - [[Set up Obsidian Sync on another device|Set up a second device]]

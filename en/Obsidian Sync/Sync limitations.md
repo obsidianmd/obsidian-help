@@ -19,7 +19,7 @@ Obsidian will work with [Lockdown Mode](https://support.apple.com/en-us/105120) 
 
 ### How much storage do I have?
 
-The storage limit depends on which Obsidian Sync plan you are subscribed to. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
+The storage limit depends on your Obsidian Sync plan. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
 
 You can view **Storage usage** in the Obsidian app by going to **Settings → Sync**.
 
@@ -33,7 +33,7 @@ You can allocate your storage any way you want across all your vaults.
 
 ### How large can each file be?
 
-The maximum file size is 200 MB per file.
+The maximum file size depends on your [[Plans and storage limits|Obsidian Sync plan]]. For the Standard plan the limit is 5 MB. For the Plus plan the limit is 200 MB per file.
 
 ### What type of data will sync?
 
@@ -59,7 +59,7 @@ These are commonly asked questions on Obsidian's data retention. For more in dep
 
 ### How long do you keep the version history?
 
-Older [[Version history|versions]] of Markdown files are stored for one year, and then deleted. 
+[[Version history]] depends on your [[Plans and storage limits|Obsidian Sync plan]]. On the Standard plan your notes are retained for 1 month. On the Plus plan your notes are retained for 12 months. After this period of time the older versions are deleted.
 
 Older versions of [[Attachments|attachments]] are stored for two weeks.
 

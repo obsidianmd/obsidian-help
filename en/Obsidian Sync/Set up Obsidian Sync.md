@@ -2,8 +2,6 @@
 cssclasses:
   - soft-embed
 ---
-
-
 In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for your vault.
 
 > [!hint] Remote vaults and local vaults
@@ -12,7 +10,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 ## Prerequisites
 
 - An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Sync subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
+- An active Obsidian Sync [[Plans and storage limits|subscription]]. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
 - Sync enabled within the [[Core plugins]] settings. 
 
 > [!danger] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? Please [[Back up your vault|read this guide]] before proceeding.

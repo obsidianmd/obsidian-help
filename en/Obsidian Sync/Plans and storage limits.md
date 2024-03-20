@@ -4,25 +4,24 @@ aliases:
   - storage limits
   - Obsidian Sync/Storage limits
 ---
-
 ## Plans
 
-Obsidian Sync offers a flexible plan that allows you to choose your maximum storage based on your needs: 10 GB or 100GB. This plan can be purchased within [your account](https://obsidian.md/account). 
+To sync your notes with [[Introduction to Obsidian Sync|Obsidian Sync]] you need a subscription plan. You can purchase a Sync plan by logging into [your account](https://obsidian.md/account). See the [Sync landing page](https://obsidian.md/sync) for pricing.
 
-The features of this plan is included below:
+Below is a comparison between the Standard plan and Plus plan:
 
-|                                                  | Sync         |
-| ------------------------------------------------ | ------------ |
-| Vaults                                           | 10           |
-| Maximum file size                                | 200 MB       |
-| Total storage                                    | 10 to 100 GB |
-| [[Version history\|Revision history]]            | 12 months    |
-| Devices                                          | Unlimited    |
-| [[Collaborate on a shared vault\|Shared vaults]] | Yes          |
+|                                                  | Standard  | Plus            |
+| ------------------------------------------------ | --------- | --------------- |
+| Synced vaults                                    | 1         | 10              |
+| Maximum file size                                | 5 MB      | 200 MB          |
+| Total storage                                    | 1 GB      | 10 GB to 100 GB |
+| [[Version history]]                              | 1 month   | 12 months       |
+| Devices                                          | Unlimited | Unlimited       |
+| [[Collaborate on a shared vault\|Shared vaults]] | Yes       | Yes             |
 
 ## Storage limits
 
-The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] is defined by your subscription plan. Additional Sync storage can be purchased up to 100 GB via your [account dashboard](https://obsidian.md/account). See [[Sync limitations]] for more details.
+The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via your [account dashboard](https://obsidian.md/account). See [[Sync limitations]] for more details.
 
 There is a single account-wide storage limit for all notes across your vaults. [[Version history]] and [[attachments]] are also counted towards your account's storage limit.
 
