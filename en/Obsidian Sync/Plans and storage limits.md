@@ -10,14 +10,14 @@ To sync your notes with [[Introduction to Obsidian Sync|Obsidian Sync]] you need
 
 Below is a comparison between the Standard plan and Plus plan:
 
-|                                                  | Standard  | Plus            |
-| ------------------------------------------------ | --------- | --------------- |
-| Synced vaults                                    | 1         | 10              |
-| Maximum file size                                | 5 MB      | 200 MB          |
-| Total storage                                    | 1 GB      | 10 GB to 100 GB |
-| [[Version history]]                              | 1 month   | 12 months       |
-| Devices                                          | Unlimited | Unlimited       |
-| [[Collaborate on a shared vault\|Shared vaults]] | Yes       | Yes             |
+|                                                  | Sync Standard | Sync Plus       |
+| ------------------------------------------------ | ------------- | --------------- |
+| Synced vaults                                    | 1             | 10              |
+| Maximum file size                                | 5 MB          | 200 MB          |
+| Total storage                                    | 1 GB          | 10 GB to 100 GB |
+| [[Version history]]                              | 1 month       | 12 months       |
+| Devices                                          | Unlimited     | Unlimited       |
+| [[Collaborate on a shared vault\|Shared vaults]] | Yes           | Yes             |
 
 ## Storage limits
 
