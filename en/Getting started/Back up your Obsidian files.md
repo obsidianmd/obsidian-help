@@ -31,8 +31,6 @@ While the Obsidian Team cannot officially endorse any specific plugin, we recogn
 - **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Use this plugin to back up your vault by committing its contents to a [GitHub](https://github.com/) repository. It's an effective way to version control your notes and ensure their safety on a remote server. However, please be aware that your data will be stored on Github [[#Use cloud-based services|using this method]].
 - **[Local Backup](https://obsidian.md/plugins?id=local-backup):** This plugin allows you to create local copies of your vault in a folder of your choice, with options for archival. You can even use a syncing folder, like a Dropbox folder, to combine local and cloud backups. This method **pairs well** with the backup options described below.
 
-%% Haven't reviewed below this yet. %%
-
 ## Use cloud-based services
 
 > [!info] It is not recommended that you keep your vault location in your chosen backup service.
@@ -64,3 +62,7 @@ Your operating system itself offer the ability to help create backups, whether o
 - **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Backup with OneDrive or an external drive. You may also use [System restore](https://support.microsoft.com/en-us/windows/use-system-restore-a5ae3ed9-07c4-fd56-45ee-096777ecd14e).
 - **[Mac](https://support.apple.com/en-us/104984)**: Backup to an external device with Time Machine.
 - **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` to a directory or drive of choice.
+
+## Next steps
+
+This help page provides a brief overview of backup options, but it's not exhaustive. For more in-depth information, visit [Worldbackupday.com](https://www.worldbackupday.com/en) or ask other Obsidian users in [our community](https://obsidian.md/community) about their backup strategies!
