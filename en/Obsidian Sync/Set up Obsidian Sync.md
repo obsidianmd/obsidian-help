@@ -3,6 +3,7 @@ cssclasses:
   - soft-embed
 ---
 
+
 In this guide, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new, empty local vault to use Obsidian Sync for this purpose.
 
 ## Prerequisites
