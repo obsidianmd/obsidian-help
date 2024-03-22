@@ -2,6 +2,8 @@
 aliases:
   - How to/Embed files
   - Linking notes and files/Embedding files
+cssclasses:
+  - soft-embed
 ---
 
 Learn how you can embed other notes and media into your notes. By embedding files in your notes, you can reuse content across your vault.
@@ -45,6 +47,14 @@ You can change the image dimensions, by adding `|640x480` to the link destinatio
 If you only specify the width, the image scales according to its original aspect ratio. For example, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
+
+You can also embed an externally hosted image by using a markdown link. You can control the width and height the same way as a wikilink. 
+
+```md
+![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
+```
+
+![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
 
 ## Embed an audio file in a note
 
