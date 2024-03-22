@@ -24,11 +24,14 @@ For example, you can use any of the following services:
 
 - Dropbox
 - Google Drive
-- iCloud Drive
+- iCloud Drive\*
 - OneDrive
 - Syncthing
 
 To sync your notes, follow the instructions for the service you're using to sync a folder on your local file system. Then open the folder as an existing vault on all your desktop devices.
+
+> [!warning] \* iCloud Drive and Windows
+> Using iCloud on Windows is known to lead to file duplication and corruption issues. We strongly recommend avoiding this combination for optimal performance.
 
 ## Sync your notes on iPhone and iPad
 
