@@ -41,7 +41,7 @@ If you enabled 2FA before recovery codes were available in Obsidian, or if you n
     - **Download Recovery Codes**: Download a `obsidian-recovery-codes.txt` file containing your codes.
 - Select **Got it** to close the popup window.
 
-You can use a recovery code **once** instead of your password. You can also refresh your recovery codes at any time.
+You can use a recovery code **once** instead of your **6-digit authenticator code**. You can also refresh your recovery codes at any time.
 
 ## Disable 2FA
 
