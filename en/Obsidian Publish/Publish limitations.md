@@ -13,13 +13,25 @@ Plugins which output in raw markdown, such as the Waypoint plugin, are compatibl
 
 Whereas a plugin that requires a plugin codeblock to render, such as Dataview or Fantasy Statblocks, will not work by default in Publish. 
 
-
 ## Graph
 
 Publish offers basic color customization for its graph view using CSS. You can modify the node colors in your `publish.css` file by utilizing the [Graph View CSS variables](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
 
 Note that the published graph does not support the comprehensive sorting and viewing options available in the application's [[Graph view]].
 
+## Media files
+
+Obsidian Publish is not optimized for streaming video or large audio files. We include some best practices for handling your [[Media files|media files]] in these documents. 
+
+To improve the experience for your visitors, we recommend that you instead use a video hosting service, such as YouTube or Vimeo.
+
+You can upload files **up to 50mb** in size to your Publish site. ^publish-media-limit
+
+## PDFs
+
+On mobile devices, tablets, and computers with small screens, you may encounter issues where an embedded PDF won't load or only the first page is displayed. This is due to limitations with the PDF Renderer on mobile devices. 
+
+For content aimed at mobile users, we suggest providing links to PDFs hosted externally or including internal links that allow users to download the PDF directly to their device.
 
 ## Search
 
