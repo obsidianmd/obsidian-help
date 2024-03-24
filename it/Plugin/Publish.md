@@ -10,7 +10,7 @@ Per richiamare lo strumento è possibile impostare un tasto di scelta rapida opp
 
 ### Impostare e configurare un sito
 
-Nel plugin Publish è visibile un'opzione per creare un sito a partire da un ID univoco. Dopo la pubblicazione, il sito sarà disponibile all'indirizzo `https://publish.obisidian.md/{id-sito}`.
+Nel plugin Publish è visibile un'opzione per creare un sito a partire da un ID univoco. Dopo la pubblicazione, il sito sarà disponibile all'indirizzo `https://publish.obsidian.md/{id-sito}`.
 
 Dopo aver creato l'ID univoco, sarà possibile assegnare un nome al sito, selezionare una home page, impostare un tema e attivare/disattivare vari componenti come la Vista grafo, l'Indice, ecc. Per attivare queste opzioni, fare clic sull'icona a forma di ingranaggio accanto al nome del sito nella parte superiore del plugin Publish.
 

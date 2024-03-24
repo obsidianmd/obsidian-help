@@ -10,7 +10,7 @@ Sau khi được bật, bạn cũng có thể đặt hotkey cho tùy chọn này
 
 ### Thiết lập và định cấu hình trang web của bạn
 
-Trong plugin Publish, bạn sẽ thấy một tùy chọn để tạo một trang web bằng cách nhập một ID trang web duy nhất. Sau khi được xuất bản, trang web của bạn sẽ có sẵn tại `https://publish.obisidian.md/{site-id}`.
+Trong plugin Publish, bạn sẽ thấy một tùy chọn để tạo một trang web bằng cách nhập một ID trang web duy nhất. Sau khi được xuất bản, trang web của bạn sẽ có sẵn tại `https://publish.obsidian.md/{site-id}`.
 
 Sau khi tạo một ID trang web duy nhất, bạn sẽ có tùy chọn đặt tên cho trang web của mình, chọn trang chủ, đặt chủ đề và chuyển đổi các thành phần khác nhau như chế độ xem đồ họa, mục lục, v.v... Bạn có thể chuyển đổi các tùy chọn này bằng cách nhấp vào biểu tượng bánh răng gần tên trang web của bạn ở đầu plugin Publish.
 

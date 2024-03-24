@@ -10,7 +10,7 @@ Una vez habilitada, también puede configurar una tecla de acceso rápido para e
 
 ### Setee y configure su sitio
 
-Dentro del complemento Publish, verá una opción para crear un sitio ingresando un ID de sitio único. Una vez publicado, su sitio estará disponible en `https://publish.obisidian.md/{site-id}`.
+Dentro del complemento Publish, verá una opción para crear un sitio ingresando un ID de sitio único. Una vez publicado, su sitio estará disponible en `https://publish.obsidian.md/{site-id}`.
 
 Después de crear una ID de sitio única, tendrá la opción de darle un nombre a su sitio, seleccionar una página de inicio, establecer un tema y alternar varios componentes como vista de gráfico, tabla de contenido, etc. Puede alternar estas opciones por haciendo clic en el ícono de ajustes cerca del nombre de su sitio en la parte superior del complemento Publish.
 
