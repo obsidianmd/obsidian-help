@@ -70,9 +70,7 @@ If you are beginning syncing after connecting to a remote vault, you will see a 
 If you are beginning syncing after adjusting Obsidian Sync's settings and restarting the application, you will see a **Resume** button within Sync's settings. Select this button to begin syncing.
 
 > [!done] Syncing status
-> Obsidian Sync displays a green circle with a checkmark ( ![[obsidian-icon-sync-circle.svg#icon]] ) in the bottom-right corner when it has finished syncing the vaults. On tablets, this icon is found in the right sidebar. 
->
-> Smaller mobile devices currently do not show the Obsidian Sync status icon.
+> When Obsidian Sync has finished syncing, it displays a green circle with a checkmark ( ![[obsidian-icon-sync-circle.svg#icon]] ) in the bottom-right corner (desktop version) or the right sidebar (mobile version).
 ^obsidian-sync-status
 
 ### Next steps
