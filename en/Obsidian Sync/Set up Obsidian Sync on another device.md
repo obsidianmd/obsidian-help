@@ -13,7 +13,7 @@ In this guide, you'll create a local vault on another device to sync with your r
 ## Prerequisites
 
 - An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Sync subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
+- An active Obsidian Sync subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account).
 - Sync enabled within the [[Core plugins]] settings. 
 - Have created at least one [[Set up Obsidian Sync#Create a new remote vault|remote vault]].
 

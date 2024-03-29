@@ -3,7 +3,7 @@ In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish
 ## Prerequisites
 
 - An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Publish subscription. If you don't have one, subscribe from your [account page](https://obsidian.md/account).
+- An active Obsidian Publish subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account).
 
 ## Step 1: Log in with your Obsidian account
 

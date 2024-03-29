@@ -21,7 +21,7 @@ Below is a comparison between the Standard plan and Plus plan:
 
 ## Storage limits
 
-The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via your [account dashboard](https://obsidian.md/account). See [[Sync limitations]] for more details.
+The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via [your account dashboard](https://obsidian.md/account). See [[Sync limitations]] for more details.
 
 There is a single account-wide storage limit for all notes across your vaults. [[Version history]] and [[attachments]] are also counted towards your account's storage limit.
 

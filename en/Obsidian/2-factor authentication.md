@@ -3,13 +3,11 @@ aliases:
   - 2FA
   - Recovery codes
 ---
-
-Obsidian offers users who create a [https://obsidian.md/account](https://obsidian.md/account) the option to enable 2-factor authentication (2FA).
+If you have an [Obsidian account](https://obsidian.md/account) you can enable two-factor authentication (2FA) to protect your account with a second verification step.
 
 ## Enable 2FA
 
-Log into your Obsidian account from your web browser at [https://obsidian.md/account](https://obsidian.md/account)
-
+- Log into [your Obsidian account](https://obsidian.md/account) from your web browser.
 - Under the **Account** section, locate the item `2-factor authentication` and select the **Enable** button. 
 - A popup window will appear to prompt you to connect an authenticator app with either a **QR code** or a **setup key**.
 
@@ -29,11 +27,11 @@ Your 2FA is now set up.
 > [!warning]- QR code/setup key backups
 > If you decide to keep a backup of your **QR code** or **Setup key** in addition to your recovery codes, we strongly recommend keeping it in a password encrypted system.
 
-## Generate your recovery code
+## Generate recovery codes
 
-If you enabled 2FA before recovery codes were available in Obsidian, or if you need to refresh your recovery codes, follow these steps:
+If you enabled 2FA before recovery codes were available, or if you want to refresh your recovery codes, follow these steps:
 
-- Log into your Obsidian account from your web browser at [https://obsidian.md/account](https://obsidian.md/account)
+- Log into [your Obsidian account](https://obsidian.md/account) from your web browser.
 - Next to 2-factor authentication, select **Refresh Recovery Codes**.
 - In the popup window, enter your **password** and **6-digit authenticator code**.
 - A confirmation window will display your recovery codes. You have two options:
@@ -45,13 +43,12 @@ You can use a recovery code **once** instead of your **6-digit authenticator cod
 
 ## Disable 2FA
 
-Log into your Obsidian account from your web browser at [https://obsidian.md/account](https://obsidian.md/account)
-
+- Log into [your Obsidian account](https://obsidian.md/account) from your web browser.
 - Under the **Account** section, locate the item `2-factor authentication` and select the **Disable** button. 
-- Enter your Obsidian Password
+- Enter your Obsidian Password.
 - Enter the current six digit code from your authentication app.
-- Select **Disable 2FA**
-- You will be brought back to the Account management screen
+- Select **Disable 2FA**.
+- You will be brought back to the Account management screen.
 
 The `2-factor authentication` section will once again show an **Enable** button.
 
@@ -70,4 +67,4 @@ If you continue to experience this behavior, please [submit a bug report](https:
 
 **I lost my recovery codes, authenticator, and everything needed to log into my account. What do I do?**
 
-If you've lost your recovery codes and authenticator, please email [support@Obsidian.md](mailto:support@obsidian.md?subject=I%20lost%20my%202FA) for assistance in regaining access to your account.
+If you've lost your recovery codes and authenticator, please email [support@obsidian.md](mailto:support@obsidian.md?subject=I%20lost%20my%202FA) for assistance in regaining access to your account.
