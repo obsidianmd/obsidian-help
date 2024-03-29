@@ -28,7 +28,7 @@ The Obsidian Importer plugin supports virtually all Apple Notes content types. T
 
 ### Scans
 
-Apple stores scans in a variety of formats depending on how they were created. To preseve the original data, this means they'll be exported differently.
+Apple stores scans in a variety of formats depending on how they were created. To preserve the original data, this means they'll be exported differently.
 
 * Scans created or viewed on older versions of macOS or iOS will be exported as a series of uncropped images.
 * Scans created or viewed on newer versions of macOS or iOS will usually be exported as cropped images.

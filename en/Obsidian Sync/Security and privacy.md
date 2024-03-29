@@ -75,7 +75,7 @@ Your remote vault's Obsidian Sync server can be found in **Settings** → **Sync
 
 This line corresponds with where your server is hosted. The list below corresponds the Sync servers to their respective data centers. 
 
-| San Francisco          | Frankfurt | Signapore | Sydney    |
+| San Francisco          | Frankfurt | Singapore | Sydney    |
 | ---------------------- | --------- | --------- | --------- |
 | `sync-01` to `sync-12` | `sync-13` | `sync-17` | `sync-18` |
 | `sync-14` to `sync-15` | `sync-16` |           |           |
