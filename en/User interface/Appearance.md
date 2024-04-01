@@ -44,4 +44,4 @@ To change the Obsidian app icon, follow these steps:
 On MacOS you can make the Obsidian window translucent by enabling this option in the settings **Appearance** tab.
 
 > [!info]- Windows and translucency
-> The Obsidian team removed translucency in Windows for version 1.15.11 due to Electron's removal of the feature. Should the functionality be restored in Electron, it will be re-integrated into Obsidian.
+> The Obsidian team removed translucency in Windows for version 1.15.11 due to Electron's removal of the feature.
