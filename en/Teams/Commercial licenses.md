@@ -42,7 +42,7 @@ Obsidian offers two methods for purchasing a commercial license. Check the [pric
 4. Complete the payment process.
 5. Your license key will be displayed and can be activated using the steps below.
 
-
+If you need an invoice for this transaction, you can [[Introduction to licenses and payment#Generate an invoice|generate an invoice]].
 
 **Purchasing using a Purchase order**
 
