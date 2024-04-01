@@ -60,11 +60,11 @@ The new remote vault should be smaller than the previous vault, because of the a
 
 ## Downgrade your plan
 
-If you want to downgrade your Sync plan but your storage use exceeds the new plan's limit, you'll need to free up space in your remote vault. Currently, there's no direct method to remove specific files from an existing remote vault quickly. This is because attachments are retained in version history for up to two weeks, and version history counts towards your storage limit.
+If you want to downgrade your Sync plan but your storage use exceeds the new plan's limit, you will need to free up space in your remote vault. Currently, there's no direct method to remove specific files from an existing remote vault quickly. This is because attachments are retained in version history for up to two weeks, and version history counts towards your storage limit.
 
 The quickest way to reduce your Sync storage usage is to create a new remote vault with attachments disabled, then delete the old remote vault that exceeds the storage limits. Be aware that you will lose version history by doing this.
 
-If you're downgrading from Sync Plus to Sync Standard, you'll also need to reduce the number of vaults present to one before the downgrade will be permitted.
+If you are downgrading from Sync Plus to Sync Standard, you'll also need to reduce the number of vaults present to one before the downgrade will be permitted.
 
 ### Preserve version history
 
