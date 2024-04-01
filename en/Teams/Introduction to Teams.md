@@ -11,10 +11,10 @@ Obsidian serves as an excellent note-taking application for individuals, and a c
 ## Use Obsidian for your team
 
 - [[Commercial licenses]]
-	- Who needs a commercial license?
+	- Determine if you need a license and find purchase information
 - [[Manage Obsidian in your workplace]]
 	- Install, update, and customize Obsidian
 - [[Obsidian Sync in a team]]
-	- Using Obsidian Sync with your team
+	- Use Obsidian Sync with your team
 - [[Obsidian Publish in a team]]
-	- Using Obsidian Publish with your team
+	- Use Obsidian Publish with your team
