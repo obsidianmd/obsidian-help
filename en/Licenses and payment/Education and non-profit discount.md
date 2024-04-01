@@ -25,7 +25,7 @@ Once you have an active discount, you can see how it will expire under **Payment
 
 A week before your discount expires, you will get an email reminder to renew it. You can follow the same steps in "[[#How to apply]]" to renew the discount, if you still qualify for it.
 
-## FAQ
+## Frequently asked questions
 
 **Who is eligible?**
 If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount. If you run or work at a non-profit organization, you generally qualify for non-profit discount.

@@ -31,7 +31,7 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 3. Next to the payments you want a refund for, if you’re qualified for a refund, you’ll see a link to **Get refund**. Click on the click.
 4. Your service will be removed and any auto-renewals will be cancelled as well. If you confirm to proceed, click **Request refund**.
 
-## FAQ
+## Frequently asked questions
 
 **What happens if I refund my service?**
 If you are refunding an Obsidian Sync or Obsidian Publish subscription, any remote vaults or publish sites are deleted, and can not be retrieved even if you subscribe again.
