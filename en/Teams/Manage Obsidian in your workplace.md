@@ -10,6 +10,8 @@ Download your preferred version of Obsidian from our [GitHub releases page](http
 
 For Windows users who need a system installer, use the `-allusers.exe` file on the releases page.
 
+If automatic updates are enabled, future updates will install as allowed. We recommend periodically completing [[Update Obsidian#Installer updates|installer updates]] to gain the latest electron updates. 
+
 ## Network and access
 
 Obsidian is designed to function primarily as an offline application. However, it does make network calls based on the services and features you use. These network connections can be disabled via a domain firewall or application lockdown.
@@ -25,7 +27,6 @@ The following is a list of network connections Obsidian makes.
     1. Backend: `publish-main.obsidian.md` and `publish-xx.obsidian.md`, where `xx` is a number.
     2. Frontend: `publish.obsidian.md`.
 
-
 ### GitHub-sourced connections
 
 - **Public releases**: If automatic updates are enabled, Obsidian checks GitHub for public releases.
@@ -40,5 +41,11 @@ The following is a list of network connections Obsidian makes.
 
 ## Frequently asked questions
 
-**How do I deploy licenses across multiple installations?**
-Currently, we do not support the ability to deploy licenses via a deployment script, such as in a `.json` file.
+**How can I deploy licenses across multiple installations?**
+Currently, we do not support deploying licenses via a deployment script, such as in a `.json` file.
+
+**Does Obsidian support Single Sign-On (SSO)?**
+Obsidian does not support SSO. In most use cases, Obsidian does not require an account or sign-on in your workplace, unless you are using [[Introduction to Obsidian Publish|Obsidian Publish]] or [[Introduction to Obsidian Sync|Obsidian Sync]].
+
+**Does Obsidian support Multi-Factor Authentication (MFA)?**
+Obsidian supports [[2-factor authentication]] (2FA) for Obsidian accounts, but it does not support 2FA for opening and using the base application. Users of [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]] will be required to confirm their 2FA key when they first log into the application.
