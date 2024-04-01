@@ -12,5 +12,16 @@ In Obsidian, you don’t gift a particular product, but rather Obsidian Credit t
 1. If you don’t already have [[Obsidian Credit]], you must first [[Obsidian Credit#Add credit|purchase credit]].
 2. [On your account dashboard](https://obsidian.md/account), under **Payment & billing → Obsidian Credit**, click **Gift**.
 3. Follow the instructions to either get a redeem link to send yourself, or have us send an anonymized email to the recipient.
-4. Click **Send gift** to complete the gifting.
+4. Click **Send gift** to complete the gifting. You will be sent an email confirmation.
 5. After you send out a gift, you can view it under **Payment & billing → Gift history**. You can see the status of each gift, and cancel the ones that haven’t been redeemed yet.
+
+## Receiving gift credits
+
+If you have received a redemption link or an anonymized email, follow these steps to redeem your Obsidian Credit:
+
+1. Log in or create [your Obsidian account](https://obsidian.md/account).
+2. Open the redemption link or click the link in your email.
+3. Confirm that you want to receive the credits.
+4. The credits will be deposited within your account, ready to be used.
+
+The purchaser will be notified that you have redeemed the Obsidian Credits.
