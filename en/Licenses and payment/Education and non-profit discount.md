@@ -1,7 +1,8 @@
 ---
 aliases:
-- Student and non-profit discount
-- Licenses & Payment/Education and non-profit discount
+  - Student and non-profit discount
+  - Licenses & Payment/Education and non-profit discount
+  - Discounts
 ---
 
 Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services, including [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]].
@@ -40,7 +41,4 @@ If you’re already an early bird, there’s generally no point in applying for 
 **What if my educational or non-profit organization doesn't provide an email address?**
 In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Help and support#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too. Our team will review your application and get back to you. Thank you for your patience!
 
-**I qualify for a discount, but I already paid. Can I get a refund?**
-We understand that some people have purchased Sync or Publish without discounts either because discounts were not offered back then, or that you didn't know about the discount.
-
-Unfortunately, we don't offer refunds in cases like this. Sorry! Thank you for understanding. The good news is that future renewals will automatically have the discount applied, as long as you have a valid discount.
+**If I qualify for a discount but have recently paid for my subscription, what should I do?** Please contact [[Help and support#Contact Obsidian support|Obsidian support]] so we can assess your options.
