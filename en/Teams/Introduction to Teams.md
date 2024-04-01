@@ -10,7 +10,7 @@ Obsidian serves as an excellent note-taking application for individuals, and a c
 
 ## Use Obsidian for your team
 
-- [[Commercial license]]
+- [[Commercial licenses]]
 	- Who needs a commercial license?
 - [[Manage Obsidian in your workplace]]
 	- Install, update, and customize Obsidian

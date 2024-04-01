@@ -1,13 +1,14 @@
 ---
 aliases:
-- Licenses & Payment/Commercial license
+  - Licenses & Payment/Commercial license
+  - Commercial license
 ---
 
 If you use Obsidian for work in a company with **two or more** employees, you must purchase a Commercial license. 
 
 You and your team may use Obsidian commercially for free for **14 days** to evaluate the app before purchase. 
 
-For questions about bulk discounts for seat licenses, [[Help and support|contact Obsidian support]].
+For questions about bulk discounts for seat licenses, contact [[Help and support#Contact Obsidian support|Obsidian support]].
 
 ## What is considered commercial use?
 
@@ -45,7 +46,7 @@ Obsidian offers two methods for purchasing a commercial license. Check the [pric
 
 **Purchasing using a Purchase order**
 
-For purchases using a purchase order (PO), [[Help and support#Contact Obsidian support|contact Obsidian support]].
+For purchases using a purchase order (PO), contact [[Help and support#Contact Obsidian support|Obsidian support]].
 
 Your PO must include:
 
@@ -101,7 +102,7 @@ If you are a single-person company, then you don't require a commercial license.
 If your notes contain content directly related to work projects or processes for a company with more than one employee, then yes, you need a commercial license.
 
 **I’m still not sure if I need a commercial license. What should I do?**
-If you still have questions regarding the commercial license requirements, [[Help and support#Contact Obsidian support|contact Obsidian support]] and describe your situation in detail.
+If you still have questions regarding the commercial license requirements, contact [[Help and support#Contact Obsidian support|Obsidian support]] and describe your situation in detail.
 
 ### Purchasing process
 
@@ -109,12 +110,12 @@ If you still have questions regarding the commercial license requirements, [[Hel
 Yes. You and your team may evaluate Obsidian for commercial use for **14** days. You don't need to pay before evaluating.
 
 **Are there bulk discounts?**
-Yes. If you are purchasing more than 20 seats you may be eligible for bulk pricing. Please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+Yes. If you are purchasing more than 20 seats you may be eligible for bulk pricing. Please contact [[Help and support#Contact Obsidian support|Obsidian support]].
 
 **Can I buy a license for myself, or do I have to ask my company to buy it for me?**
 Yes. You can buy a license for yourself by going to your [Account dashboard](https://obsidian.md/account). Most companies allow you to submit an expense report for the purchase.
 
-Some companies may have a different procurement process. Ask your IT department to [[Help and support#Contact Obsidian support|contact Obsidian support]] if they have questions or require specific paperwork.
+Some companies may have a different procurement process. Ask your IT department to contact [[Help and support#Contact Obsidian support|Obsidian support]] if they have questions or require specific paperwork.
 
 **Can I purchase a commercial license for multiple employees?**
 Yes. You can purchase multiple commercial license seats through your [Account dashboard](https://obsidian.md/account). There is no need for each employee to have their own Obsidian account, you can use a single admin account to purchase all the seats.
