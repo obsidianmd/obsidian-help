@@ -1,8 +1,8 @@
-이 안내서에서는 Vault를 위해 [[Introduction to Obsidian Sync|Obsidian Sync]]를 활성화하는 방법을 설명합니다.
-In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for your vault.
+이 안내서에서는 Vault를 위해 [[Obsidian Sync 소개|Obsidian Sync]]를 활성화하는 방법을 설명합니다.
+In this guide, you'll enable [[Obsidian Sync 소개|Obsidian Sync]] for your vault.
 
 > [!NOTE] 원격 보관소와 로컬 보관소
-> 이 가이드에서는 [[Local and remote vaults|원격 보관소]]를 만들고 기존 로컬 보관소에 연결하는 방법을 다룹니다. Obsidian Sync를 사용하려면 새로운 로컬 보관소를 만들 필요는 없습니다.
+> 이 가이드에서는 [[로컬 및 원격 보관소|원격 보관소]]를 만들고 기존 로컬 보관소에 연결하는 방법을 다룹니다. Obsidian Sync를 사용하려면 새로운 로컬 보관소를 만들 필요는 없습니다.
 
 ### Prerequisites
 
@@ -31,7 +31,7 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 3. **원격 보관소** 옆에 있는 **선택**을 클릭합니다.
 4. **새 보관소 생성**을 클릭합니다.
 5. **보관소 이름**에 원격 보관소의 이름을 입력합니다.
-6. **암호화 비밀번호**에 보관소를 위한 비밀번호를 선택합니다. 이로써 엔드 투 엔드 암호화된 보관소가 생성됩니다. 보관소 비밀번호는 Obsidian 계정과 별도로 유지되며 각 보관소마다 다를 수 있습니다. 자세한 내용은 [[Security and privacy|보안 및 개인 정보 보호]]를 참조하세요.
+6. **암호화 비밀번호**에 보관소를 위한 비밀번호를 선택합니다. 이로써 엔드 투 엔드 암호화된 보관소가 생성됩니다. 보관소 비밀번호는 Obsidian 계정과 별도로 유지되며 각 보관소마다 다를 수 있습니다. 자세한 내용은 [[Obsidian Sync/보안 및 개인정보 보호|보안 및 개인 정보 보호]]를 참조하세요.
 7. **생성**을 클릭합니다.
 
 ### Connect to a remote vault
@@ -42,6 +42,6 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 4. **동기화 시작**을 클릭합니다.
 
 > [!note] 동기화 설정 및 다른 파일 유형
-> 기본적으로 동기화는 노트와 이미지만 동기화합니다. 다른 파일 유형을 동기화하는 방법에 대한 정보는 [[Select files and settings to sync#Select file types to sync|동기화할 파일 유형 선택]]을 참조하세요.
+> 기본적으로 동기화는 노트와 이미지만 동기화합니다. 다른 파일 유형을 동기화하는 방법에 대한 정보는 [[동기화할 파일 및 설정 선택#Select file types to sync|동기화할 파일 유형 선택]]을 참조하세요.
 > 
-> 만약 [[코어 플러그인|코어 플러그인]], [[Custom hotkeys|사용자 지정 단축키]], 또는 [[Community plugins|커뮤니티 플러그인]] 설정과 같은 보관소 설정을 동기화하려면 [[Select files and settings to sync#Sync vault configuration|보관소 구성 동기화]] 방법을 배우세요.
+> 만약 [[코어 플러그인|코어 플러그인]], [[Custom hotkeys|사용자 지정 단축키]], 또는 [[Community plugins|커뮤니티 플러그인]] 설정과 같은 보관소 설정을 동기화하려면 [[동기화할 파일 및 설정 선택#Sync vault configuration|보관소 구성 동기화]] 방법을 배우세요.

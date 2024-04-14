@@ -9,7 +9,7 @@ aliases: Add another device
 
 ## Prerequisites
 
-최소한 하나의 기기에서 [[set up Obsidian Sync|Obsidian Sync 설정]]을 완료하고 Obsidian Sync에 원격 보관소를 만들어야 합니다.
+최소한 하나의 기기에서 [[Obsidian Sync 설정|Obsidian Sync 설정]]을 완료하고 Obsidian Sync에 원격 보관소를 만들어야 합니다.
 
 ## Sync a remote vault on a fresh installation
 
@@ -30,9 +30,9 @@ aliases: Add another device
 
 이 섹션에서는 기존의 로컬 보관소를 원격 보관소와 동기화하는 방법을 설명합니다.
 
-![[Set up Obsidian Sync#Log in with your Obsidian account]]
+![[Obsidian Sync 설정#Log in with your Obsidian account]]
 
-![[Set up Obsidian Sync#Enable Obsidian Sync]]
+![[Obsidian Sync 설정#Enable Obsidian Sync]]
 
 ### Connect to a remote vault
 
@@ -46,4 +46,4 @@ aliases: Add another device
 
 Obsidian Sync가 보관소 동기화를 완료하면 오른쪽 하단에 녹색 확인 표시가 나타납니다.
 
-전체 보관소를 기기에 동기화하고 싶지 않다면 [[Select files and settings to sync|파일 및 설정을 선택하여 동기화]]를 참조하세요.
+전체 보관소를 기기에 동기화하고 싶지 않다면 [[동기화할 파일 및 설정 선택|파일 및 설정을 선택하여 동기화]]를 참조하세요.

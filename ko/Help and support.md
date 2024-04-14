@@ -18,7 +18,7 @@ Obsidian에서 기능을 제안하려면 [기능 요청](https://forum.obsidian.
 
 ### Contact Obsidian support
 
-Obsidian은 [[Commercial license|상업 라이센스]], 계정, 결제 및 애드온 서비스 ([[Introduction to Obsidian Sync|Obsidian Sync]] 및 [[Obsidian Publish 소개|Obsidian Publish]])에 관한 문의에 대해 이메일 지원만 제공합니다. 이러한 주제에 도움이 필요한 경우 [Obsidian 팀에 이메일 보내기](mailto:support@obsidian.md).
+Obsidian은 [[Commercial license|상업 라이센스]], 계정, 결제 및 애드온 서비스 ([[Obsidian Sync 소개|Obsidian Sync]] 및 [[Obsidian Publish 소개|Obsidian Publish]])에 관한 문의에 대해 이메일 지원만 제공합니다. 이러한 주제에 도움이 필요한 경우 [Obsidian 팀에 이메일 보내기](mailto:support@obsidian.md).
 
 ### Collect debug information
 

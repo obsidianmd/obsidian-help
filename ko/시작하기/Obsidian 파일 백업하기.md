@@ -13,7 +13,7 @@ Your notes are stored locally on your device by default, not in the cloud. This 
 
 ## Understand: Syncing is not a backup
 
-Services like [[Introduction to Obsidian Sync|Obsidian Sync]], iCloud, OneDrive, and Dropbox sync your notes across devices. They may offer [[Version history|note restoration]], but they are **not** designed to [back up your vault](https://www.backblaze.com/blog/cloud-backup-vs-cloud-sync/).
+Services like [[Obsidian Sync 소개|Obsidian Sync]], iCloud, OneDrive, and Dropbox sync your notes across devices. They may offer [[버전 내역|note restoration]], but they are **not** designed to [back up your vault](https://www.backblaze.com/blog/cloud-backup-vs-cloud-sync/).
 
 - **Sync:** Keeps files and data consistently updated across multiple devices. Changes in one location automatically reflect in all synced locations.
 - **Backup:** Saves copies of data in a separate location for recovery in case of data loss, corruption, or disaster. Backups are not for real-time access or collaboration.

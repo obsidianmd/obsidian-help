@@ -4,7 +4,7 @@ aliases:
 - Licenses & Payment/Education and non-profit discount
 ---
 
-현재 Obsidian은 교육 및 비영리 단체 두 가지 유형의 할인을 제공하고 있습니다. 이 할인은 [[Introduction to Obsidian Sync|Obsidian Sync]] 및 [[Obsidian Publish 소개|Obsidian Publish]]를 포함한 부가 서비스에서 40% 할인을 받을 수 있습니다.
+현재 Obsidian은 교육 및 비영리 단체 두 가지 유형의 할인을 제공하고 있습니다. 이 할인은 [[Obsidian Sync 소개|Obsidian Sync]] 및 [[Obsidian Publish 소개|Obsidian Publish]]를 포함한 부가 서비스에서 40% 할인을 받을 수 있습니다.
 
 ### How to apply
 

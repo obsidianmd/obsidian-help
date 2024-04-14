@@ -3,7 +3,7 @@ aliases:
 - Licenses & Payment/Gifting
 ---
 
-비록 Obsidian을 개인적으로 무료로 사용할 수 있지만, 누군가에게 Obsidian 크레딧을 선물하여 [[Introduction to Obsidian Sync|Obsidian Sync]]와 같은 추가 서비스를 이용하거나, [[Commercial license]]를 얻어 업무용으로 Obsidian을 사용할 수 있도록 도울 수 있습니다.
+비록 Obsidian을 개인적으로 무료로 사용할 수 있지만, 누군가에게 Obsidian 크레딧을 선물하여 [[Obsidian Sync 소개|Obsidian Sync]]와 같은 추가 서비스를 이용하거나, [[Commercial license]]를 얻어 업무용으로 Obsidian을 사용할 수 있도록 도울 수 있습니다.
 
 ## Give gift credits
 

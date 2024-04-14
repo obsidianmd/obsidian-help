@@ -8,7 +8,7 @@ aliases:
 다음 서비스 및 라이선스에 대해 구매 후 7일 이내에 질문 없이 전액 환불을 제공합니다.
 
 - [[Obsidian Publish 소개|Obsidian Publish 소개]]
-- [[Introduction to Obsidian Sync|Obsidian Sync 소개]]
+- [[Obsidian Sync 소개|Obsidian Sync 소개]]
 - [[Commercial license|상업용 라이선스]]
 
 > [!Warning] Catalyst 또는 Obsidian Credit은 환불되지 않습니다.
@@ -35,6 +35,6 @@ aliases:
 > [!question]- Q1. 서비스를 환불하면 어떻게 되나요?
 > Obsidian Sync 또는 Obsidian Publish 구독을 환불하는 경우, 모든 원격 볼트와 퍼블리시 사이트가 삭제되며, 다시 구독하더라도 찾을 수 없습니다.
 >
-> >[!info] [[Sync limitations#구독이 만료된 후 내 데이터를 얼마나 오래 보관하나요?|구독이 만료된 경우]]에는 이러한 일이 발생하지 않습니다.
+> >[!info] [[Obsidian Sync 제한 사항#구독이 만료된 후 내 데이터를 얼마나 오래 보관하나요?|구독이 만료된 경우]]에는 이러한 일이 발생하지 않습니다.
 >
 > 상업 라이선스를 환불하는 경우, 관련 라이선스 키가 비활성화됩니다.

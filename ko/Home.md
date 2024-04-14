@@ -41,7 +41,7 @@ cssclasses:
 
 ## 부가 서비스
 
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Obsidian Sync 소개|Obsidian Sync]]
 	- 모든 기기와 운영 체제에서 노트를 동기화하는 안전하고 안심할 수 있는 방법.
 - [[Obsidian Publish 소개|Obsidian Publish]]
 	- 노트를 위키, 지식 베이스, 문서 또는 디지털 정원(digtal garden)으로 출판하세요.
