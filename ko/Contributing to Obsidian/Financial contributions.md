@@ -3,7 +3,7 @@
 팀을 지원하는 가장 좋은 방법 중 하나는 유료 제품을 하나 이상 구매하는 것입니다.
 
 - 디바이스 간 노트 동기화가 필요한 경우 [[Introduction to Obsidian Sync|Obsidian Sync]]의 구독을 고려해보세요.
-- 노트를 전 세계에 출판하려는 경우 [[Introduction to Obsidian Publish|Obsidian Publish]]의 구독을 고려해보세요.
+- 노트를 전 세계에 출판하려는 경우 [[Obsidian Publish 소개|Obsidian Publish]]의 구독을 고려해보세요.
 - Obsidian을 업무용으로 사용하는 경우 [[commercial license|상업용 라이선스]]를 구입해주십시오.
 
 당장 유료 제품에 관심이 없을 수 있다는 점을 이해합니다. 그러나 그것을 어떻게 바꿀 수 있는지 알고 싶습니다! 여전히 Obsidian을 지원하고 개인적인 용도로만 사용하는 경우 [[Catalyst license|Catalyst 라이선스]]를 구입하는 것을 고려해보세요.

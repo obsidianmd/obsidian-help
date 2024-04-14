@@ -1,5 +1,5 @@
 
-[[Introduction to Obsidian Publish|Obsidian Publish]] 사이트에서 다른 Obsidian 사용자와 함께 협업하는 방법을 배우세요. 친구와 동료를 협업자로 추가하여 그들이 사이트에 변경 사항을 출판할 수 있도록 할 수 있습니다.
+[[Obsidian Publish 소개|Obsidian Publish]] 사이트에서 다른 Obsidian 사용자와 함께 협업하는 방법을 배우세요. 친구와 동료를 협업자로 추가하여 그들이 사이트에 변경 사항을 출판할 수 있도록 할 수 있습니다.
 
 Obsidian Publish 구독은 사이트 소유자만이 필요하며 협업자는 [Obsidian 계정](https://obsidian.md/account)만 있으면 됩니다.
 

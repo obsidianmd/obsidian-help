@@ -7,7 +7,7 @@ aliases:
 
 다음 서비스 및 라이선스에 대해 구매 후 7일 이내에 질문 없이 전액 환불을 제공합니다.
 
-- [[Introduction to Obsidian Publish|Obsidian Publish 소개]]
+- [[Obsidian Publish 소개|Obsidian Publish 소개]]
 - [[Introduction to Obsidian Sync|Obsidian Sync 소개]]
 - [[Commercial license|상업용 라이선스]]
 
