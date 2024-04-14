@@ -52,4 +52,4 @@ cssclasses:
 
 Obsidian을 재정적으로 지원하고 싶다면, Obsidian의 베타 버전에 대한 조기 액세스를 제공하는 [[Catalyst 라이선스]]를 고려해보세요.
 
-Obsidian을 가능하게 한 훌륭한 사람들을 알아보려면 [[Credits]]를 확인하세요.
+Obsidian을 가능하게 한 훌륭한 사람들을 알아보려면 [[크레디트]]를 확인하세요.

@@ -57,9 +57,9 @@ Obsidian에서 보안 문제를 발견한 경우 또는 플러그인이 악성�
 
 ## Report a Code of Conduct violation
 
-[[Community code of conduct|커뮤니티 행동 강령]]의 피해자이든 증인이든, 사건을 모더레이터 팀(moderator team)에 신고할 수 있습니다.
+[[커뮤니티 행동 강령|커뮤니티 행동 강령]]의 피해자이든 증인이든, 사건을 모더레이터 팀(moderator team)에 신고할 수 있습니다.
 
 사건을 다음 커뮤니티 채널 중 하나에서 신고할 수 있습니다:
 
-- [[Community code of conduct#Report on Discord|Report on Discord]]
-- [[Community code of conduct#Report on the forum|Report on the forum]]
+- [[커뮤니티 행동 강령#Report on Discord|Report on Discord]]
+- [[커뮤니티 행동 강령#Report on the forum|Report on the forum]]
