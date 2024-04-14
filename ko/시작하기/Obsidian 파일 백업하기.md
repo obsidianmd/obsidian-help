@@ -5,7 +5,7 @@ aliases:
   - backup
 ---
 
-If you haven't backed up your computer yet, start now! Obsidian's [[File recovery]] plugin is a good beginning, but it's limited to notes, and the snapshots themselves should be backed up.
+If you haven't backed up your computer yet, start now! Obsidian's [[파일 복구]] plugin is a good beginning, but it's limited to notes, and the snapshots themselves should be backed up.
 
 **Why Back Up?**
 

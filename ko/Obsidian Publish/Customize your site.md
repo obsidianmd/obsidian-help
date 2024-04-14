@@ -59,7 +59,7 @@
 
 ### Customize navigation
 
-Obsidian Publish에서는 [[File explorer|파일 탐색기]]로 발행된 파일 및 폴더의 내비게이션 순서와 표시를 사용자 정의할 수 있습니다. 기본적으로 내비게이션 항목은 출판 순서대로 나열됩니다. 출판되지 않은 노트는 이 패널에 나타나지 않습니다.
+Obsidian Publish에서는 [[파일 탐색기|파일 탐색기]]로 발행된 파일 및 폴더의 내비게이션 순서와 표시를 사용자 정의할 수 있습니다. 기본적으로 내비게이션 항목은 출판 순서대로 나열됩니다. 출판되지 않은 노트는 이 패널에 나타나지 않습니다.
 
 #### Accessing Customize navigation options
 

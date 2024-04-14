@@ -55,15 +55,15 @@ Obsidian 보관소를 열거나 해당 보관소 내의 파일을 엽니다.
 
 ## Open search
 
-이 Obsidian URI 엔드포인트는 지정된 보관소에서 [[Search|검색]]을 열고 선택적으로 검색 쿼리를 수행합니다.
+이 Obsidian URI 엔드포인트는 지정된 보관소에서 [[검색|검색]]을 열고 선택적으로 검색 쿼리를 수행합니다.
 
 ### Examples
 
 - `obsidian://search?vault=my%20vault`
-  이 명령은 `my vault` 보관소를 열고 [[Search|검색]]을 엽니다.
+  이 명령은 `my vault` 보관소를 열고 [[검색|검색]]을 엽니다.
 
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  이 명령은 `my vault` 보관소를 열고 [[Search|검색]]을 열고 `Obsidian`에 대한 검색을 수행합니다.
+  이 명령은 `my vault` 보관소를 열고 [[검색|검색]]을 열고 `Obsidian`에 대한 검색을 수행합니다.
   
 ### Parameters
 
