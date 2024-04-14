@@ -30,7 +30,7 @@ Obsidian Sync를 가진 각 계정은 최대 10개의 원격 볼트를 가질 �
 
 ### 어떤 유형의 데이터가 동기화되나요?
 
-기본적으로 Obsidian 노트, 이미지, [[Configuration folder|설정 폴더]]가 동기화됩니다.
+기본적으로 Obsidian 노트, 이미지, [[설정 폴더|설정 폴더]]가 동기화됩니다.
 
 [[select files and settings to sync|동기화할 파일과 설정을 선택]]할 때 PDF, 오디오 파일, 동영상 파일 및 기타 파일의 동기화 옵션을 추가할 수 있습니다.
 
