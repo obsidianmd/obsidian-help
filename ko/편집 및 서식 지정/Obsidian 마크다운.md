@@ -6,10 +6,10 @@ Obsidian은 [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](ht
 
 Syntax | Description
 -|-
-`[[Link]]` | [[Internal links]]
-`![[Link]]` | [[Embedding files]]
-`![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]
-`^id` | [[Internal links#Link to a block in a note\|Defining a block]]
+`[[Link]]` | [[내부 링크]]
+`![[Link]]` | [[파일 삽입]]
+`![[Link#^id]]` | [[내부 링크#Link to a block in a note|Block references]]
+`^id` | [[내부 링크#Link to a block in a note|Defining a block]]
 `%%Text%%` | [[기본 서식 구문#Comments|Comments]]
 `~~Text~~`| [[기본 서식 구문#Styling text|Strikethroughs]]
 `==Text==`| [[기본 서식 구문#Styling text|Highlights]]

@@ -9,7 +9,7 @@
 
 노트를 이동한 후 Obsidian은 보관소 내의 모든 링크를 자동으로 업데이트합니다. 그러나 이러한 변경 사항을 Publish 사이트에 출판하면 `/Guides/Making+friends`로의 모든 링크는 404 오류를 반환할 것입니다.
 
-`/Guides/Making+friends`에서 `/Tutorials/How+to+make+friends`로 독자를 리디렉션하려면 리디렉션하려는 노트인 `How to make friends.md`에 [[Aliases|alias]]를 추가해야 합니다.
+`/Guides/Making+friends`에서 `/Tutorials/How+to+make+friends`로 독자를 리디렉션하려면 리디렉션하려는 노트인 `How to make friends.md`에 [[별칭|alias]]를 추가해야 합니다.
 
 ```md
 ---
