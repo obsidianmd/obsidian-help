@@ -19,7 +19,7 @@
 
 ## What does the `vault limit exceeded` error mean?
 
-보관소가 [[Limitations#How large can each remote vault be|최대 10GB 크기 제한]]을 초과합니다. [[Remote vault size limit|원격 보관소 사이즈 제한]]을 참조하십시오.
+보관소가 [[Obsidian Sync 제한 사항#각 원격 볼트는 얼마나 클 수 있나요?|최대 10GB 크기 제한]]을 초과합니다. [[Remote vault size limit|원격 보관소 사이즈 제한]]을 참조하십시오.
 
 첨부 파일과 버전 기록이 보관소의 총 크기에 관여하기 때문에 실제 보관소의 크기가 제한보다 작더라도 최대 크기보다 큰 경우가 있을 수 있습니다.
 
