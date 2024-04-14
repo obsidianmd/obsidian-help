@@ -1,8 +1,8 @@
-이 도움말 문서는 레거시 문서로서, 링크 깨짐을 방지하기 위한 용도로만 제공됩니다. 모바일 앱에 대한 정보는 [[Sync your notes across devices]] 문서를 참조하십시오.
+이 도움말 문서는 레거시 문서로서, 링크 깨짐을 방지하기 위한 용도로만 제공됩니다. 모바일 앱에 대한 정보는 [[여러 장치에서 노트 동기화하기]] 문서를 참조하십시오.
 
 ## Sync
 
-Android 앱에서 동기화에 대한 정보는 [[Sync your notes across devices#Sync notes on Android|Android에서 노트 동기화]] 문서를 참조하십시오.
+Android 앱에서 동기화에 대한 정보는 [[여러 장치에서 노트 동기화하기#Sync notes on Android|Android에서 노트 동기화]] 문서를 참조하십시오.
 
 ## Storage permissions
 

@@ -35,7 +35,7 @@ Obsidian을 수동으로 업데이트하려는 경우 자동 업데이트를 비
 1. [https://obsidian.md/download](https://obsidian.md/download "https://obsidian.md/download")로 이동합니다.
 2. 시스템에 설치 프로그램을 다운로드합니다.
     1. Obsidian이 열려 있으면 완전히 닫습니다.
-3. [[Download and install Obsidian]]에 설명된 대로 설치 프로세스를 실행합니다.
+3. [[Obsidian 다운로드 및 설치]]에 설명된 대로 설치 프로세스를 실행합니다.
 
 설치 프로그램 업데이트가 완료되었습니다. 이제 Obsidian을 다시 열 수 있습니다.
 
@@ -48,5 +48,5 @@ Obsidian을 수동으로 업데이트하려는 경우 자동 업데이트를 비
 
 ## Troubleshooting
 
-일부 기능은 더 최신 설치 프로그램 버전에 의존할 수 있습니다. 최근에 추가된 기능에 문제가 발생하는 경우 설치 프로그램 버전을 업데이트하려면 Obsidian을 [[Download and install Obsidian|reinstalling Obsidian]] 하는 것을 고려해 보십시오.
+일부 기능은 더 최신 설치 프로그램 버전에 의존할 수 있습니다. 최근에 추가된 기능에 문제가 발생하는 경우 설치 프로그램 버전을 업데이트하려면 Obsidian을 [[Obsidian 다운로드 및 설치|reinstalling Obsidian]] 하는 것을 고려해 보십시오.
 

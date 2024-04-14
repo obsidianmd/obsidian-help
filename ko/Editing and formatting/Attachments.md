@@ -15,7 +15,7 @@ aliases: How to/Manage attachments
 > 파일 시스템에서 파일을 끌어와 열려 있는 편집기로 끌면 Obsidian은 파일을 기본 첨부 파일 위치로 복사하고 노트에 [[Embedding files|내장]]합니다.
 
  > [!todo]- 첨부 파일 다운로드
- > 첨부 파일을 보관소로 직접 다운로드할 수 있습니다. 예를 들어, 브라우저에서 [[  [[Import notes#Import from browser|브라우저에서 가져오기]]하거나 파일을 직접 파일 시스템에 저장하는 다른 엡에서 가져올 때 사용할 수 있습니다.
+ > 첨부 파일을 보관소로 직접 다운로드할 수 있습니다. 예를 들어, 브라우저에서 [[  [[노트 가져오기#Import from browser|브라우저에서 가져오기]]하거나 파일을 직접 파일 시스템에 저장하는 다른 엡에서 가져올 때 사용할 수 있습니다.
 
 ## Change default attachment location
 

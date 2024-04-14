@@ -29,11 +29,11 @@ cssclasses:
 
 만약 Obsidian을 처음 사용하신다면, 저희 가이드를 통해 Obsidian을 이용한 기본적인 노트 작성 방법을 배워보세요:
 
-1. [[Download and install Obsidian|다운로드 및 Obsidian 설치]]
-2. [[Create a vault|보관소 생성]]
-3. [[Create your first note|첫 노트 생성]]
-4. [[Link notes|노트 연결]]
-5. [[Import notes|노트 가져오기]]
+1. [[Obsidian 다운로드 및 설치|다운로드 및 Obsidian 설치]]
+2. [[보관소 만들기|보관소 만들기]]
+3. [[첫 노트 만들기|첫 노트 만들기]]
+4. [[노트 연결하기|노트 연결]]
+5. [[노트 가져오기|노트 가져오기]]
 
 여기서는 _플러그인_ 을 통해 추가 기능을 활성화하여 나만의 사용 환경을 만들 수 있습니다. Obsidian과 함께 제공되는 [[Core plugins|코어 플러그인]]을 살펴보거나, [[Community plugins|커뮤니티 플러그인]] 중 하나를 선택해보세요
 
