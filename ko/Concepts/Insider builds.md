@@ -1,4 +1,4 @@
-아래에 옵션을 사용하여 향후 릴리스에 대한 조기 액세스를 얻으려면 'Insider 빌드'를 활성화하세요. 노트: 'Insider 빌드'는 [[Catalyst license|Catalyst 라이선스]]를 가진 사용자에게만 제공됩니다.
+아래에 옵션을 사용하여 향후 릴리스에 대한 조기 액세스를 얻으려면 'Insider 빌드'를 활성화하세요. 노트: 'Insider 빌드'는 [[Catalyst 라이선스|Catalyst 라이선스]]를 가진 사용자에게만 제공됩니다.
 
 > [!warning]
 > 'Insider 빌드'는 개발용 빌드로, 불안정할 수 있습니다. 더 안정적인 경험을 원한다면 'Insider 빌드'를 활성화하지 마세요.
@@ -16,7 +16,7 @@
 모바일 기기에서 'Insider 빌드'를 설치하는 방법은 다음 단계를 따르세요:
 
 1. [Obsidian Discord 서버](https://discord.gg/veuWUTm)에 가입하세요.
-2. insider 채널에 접근하기 위해서 [[Catalyst license#Get your Discord badge|디스코드 뱃지를 가져오세요]].
+2. insider 채널에 접근하기 위해서 [[Catalyst 라이선스#Get your Discord badge|디스코드 뱃지를 가져오세요]].
 3. Discord를 엽니다.
 4. `#insider-mobile` 채널에서 **고정된 메시지(Pinned Messages)**를 엽니다.
     - 데스크톱에서는 오른쪽 상단에 있는 핀 아이콘을 선택하세요.

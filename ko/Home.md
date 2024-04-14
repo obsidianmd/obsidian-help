@@ -50,6 +50,6 @@ cssclasses:
 
 [The GitHub repo](https://github.com/obsidianmd/obsidian-docs/) 이 사이트에서 오류나 누락된 정보를 발견하신다면, 개선 및 번역을 통해 기여할 수 있습니다.
 
-Obsidian을 재정적으로 지원하고 싶다면, Obsidian의 베타 버전에 대한 조기 액세스를 제공하는 [[Catalyst license]]를 고려해보세요.
+Obsidian을 재정적으로 지원하고 싶다면, Obsidian의 베타 버전에 대한 조기 액세스를 제공하는 [[Catalyst 라이선스]]를 고려해보세요.
 
 Obsidian을 가능하게 한 훌륭한 사람들을 알아보려면 [[Credits]]를 확인하세요.

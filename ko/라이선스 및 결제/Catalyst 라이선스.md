@@ -12,7 +12,7 @@ Catalyst 라이선스는 앱 자체 내에서 추가 기능을 부여하지는 �
 - 멋진 고유한 [[#Get your forum badge|포럼 뱃지]] 및 [[#Get your Discord badge|디스코드 뱃지]].
 
 > [!Note] 상업용 사용
-> Obsidian을 업무용으로 사용하는 경우 [[Commercial license|상업용 라이선스]]를 구입해야 할 수 있습니다.
+> Obsidian을 업무용으로 사용하는 경우 [[상업용 라이선스|상업용 라이선스]]를 구입해야 할 수 있습니다.
 
 
 ## Catalyst tiers
