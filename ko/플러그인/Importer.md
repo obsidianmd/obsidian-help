@@ -4,5 +4,5 @@ Importer는 Obsidian 팀에서 만든 공식 플러그인이며, [오픈 소스 
 
 ## Install Importer
 
-1. [[Community plugins#Install a community plugin|커뮤니티 플러그인 설치]] 가이드의 지침을 따릅니다.
+1. [[커뮤니티 플러그인#Install a community plugin|커뮤니티 플러그인 설치]] 가이드의 지침을 따릅니다.
 2. [Importer](obsidian://show-plugin?id=obsidian-importer)를 목록에서 다운로드하고 활성화합니다.

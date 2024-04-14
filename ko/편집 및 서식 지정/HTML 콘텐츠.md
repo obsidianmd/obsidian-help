@@ -22,7 +22,7 @@ Obsidian은 노트를 원하는 대로 표시하거나 [[웹 페이지 삽입|�
 
 ### Span/Div
 
-Span 및 div 태그는 [[CSS snippets|CSS 스니펫]]에서 사용자 지정 클래스 또는 사용자 정의 스타일을 선택한 텍스트 영역에 적용하는 데 사용할 수 있습니다. 예를 들어, `<span style="font-family: cursive">당신의 텍스트</span>`를 사용하면 글꼴을 빠르게 <span style="font-family: cursive">바꿀 수 있습니다.</span>
+Span 및 div 태그는 [[CSS 스니펫|CSS 스니펫]]에서 사용자 지정 클래스 또는 사용자 정의 스타일을 선택한 텍스트 영역에 적용하는 데 사용할 수 있습니다. 예를 들어, `<span style="font-family: cursive">당신의 텍스트</span>`를 사용하면 글꼴을 빠르게 <span style="font-family: cursive">바꿀 수 있습니다.</span>
 
 ## Strikethrough
 

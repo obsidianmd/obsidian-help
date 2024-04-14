@@ -7,7 +7,7 @@ aliases:
 
 ## Community plugins
 
-Obsidian Publish has minimal support for [[Community plugins]]. 
+Obsidian Publish has minimal support for [[커뮤니티 플러그인]]. 
 
 Plugins which output in raw markdown, such as the Waypoint plugin, are compatible with Publish because they do not require the application to render their data. 
 

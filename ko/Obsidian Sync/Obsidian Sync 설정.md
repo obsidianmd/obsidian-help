@@ -44,4 +44,4 @@ In this guide, you'll enable [[Obsidian Sync 소개|Obsidian Sync]] for your vau
 > [!note] 동기화 설정 및 다른 파일 유형
 > 기본적으로 동기화는 노트와 이미지만 동기화합니다. 다른 파일 유형을 동기화하는 방법에 대한 정보는 [[동기화할 파일 및 설정 선택#Select file types to sync|동기화할 파일 유형 선택]]을 참조하세요.
 > 
-> 만약 [[코어 플러그인|코어 플러그인]], [[Custom hotkeys|사용자 지정 단축키]], 또는 [[Community plugins|커뮤니티 플러그인]] 설정과 같은 보관소 설정을 동기화하려면 [[동기화할 파일 및 설정 선택#Sync vault configuration|보관소 구성 동기화]] 방법을 배우세요.
+> 만약 [[코어 플러그인|코어 플러그인]], [[Custom hotkeys|사용자 지정 단축키]], 또는 [[커뮤니티 플러그인|커뮤니티 플러그인]] 설정과 같은 보관소 설정을 동기화하려면 [[동기화할 파일 및 설정 선택#Sync vault configuration|보관소 구성 동기화]] 방법을 배우세요.
