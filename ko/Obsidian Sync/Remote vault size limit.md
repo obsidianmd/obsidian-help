@@ -1,4 +1,4 @@
-각 원격 보관소는 [[version history|버전 히스토리]]와 [[attachments|첨부 파일]]을 포함하여 최대 10GB의 데이터를 가질 수 있습니다.
+각 원격 보관소는 [[version history|버전 히스토리]]와 [[첨부 파일|첨부 파일]]을 포함하여 최대 10GB의 데이터를 가질 수 있습니다.
 
 ## Identify and delete large files
 

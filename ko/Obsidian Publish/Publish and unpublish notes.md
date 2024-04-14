@@ -33,11 +33,11 @@
 
 ## Automatically select notes to publish
 
-노트를 자동으로 출판하려면 해당 노트의 [[Properties|속성]]에서 `publish: true`를 설정합니다.
+노트를 자동으로 출판하려면 해당 노트의 [[속성|속성]]에서 `publish: true`를 설정합니다.
 
 ## Ignore notes
 
-Obsidian Publish에서 특정 노트를 무시하려면 해당 노트의 [[Properties|속성]]에서 `publish: false`를 설정합니다.
+Obsidian Publish에서 특정 노트를 무시하려면 해당 노트의 [[속성|속성]]에서 `publish: false`를 설정합니다.
 
 이제 해당 노트는 출판할 노트 목록에 표시되지 않습니다.
 
@@ -57,7 +57,7 @@ https://publish.obsidian.md/username/Company/About+us
 https://publish.obsidian.md/username/about
 ```
 
-노트에 영구 링크를 생성하려면 [[Properties|속성]]에 `permalink` 속성을 추가합니다.
+노트에 영구 링크를 생성하려면 [[속성|속성]]에 `permalink` 속성을 추가합니다.
 
 ```yaml
 ---

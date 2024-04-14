@@ -10,4 +10,4 @@ Obsidian 보관소에 Markdown 파일을 추가하는 여러 가지 방법이 �
 
 ### Converting from other flavors of Markdown
 
-Obsidian은 [[Obsidian Flavored Markdown]]을 사용합니다. 일부 앱은 약간 다른 Markdown 구문을 사용할 수 있습니다. 파일을 Obsidian의 Markdown 구문으로 변환하려면 [[Format converter]]를 사용할 수 있습니다.
+Obsidian은 [[Obsidian 마크다운]]을 사용합니다. 일부 앱은 약간 다른 Markdown 구문을 사용할 수 있습니다. 파일을 Obsidian의 Markdown 구문으로 변환하려면 [[Format converter]]를 사용할 수 있습니다.

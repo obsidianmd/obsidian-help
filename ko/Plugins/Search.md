@@ -59,13 +59,13 @@
 |`line:`|동일한 라인에서 일치를 찾습니다.<p/>예: `line:(mix flour)`.|
 |`block:`|동일한 블록에서 일치를 찾습니다.<p/>예: `block:(dog cat)`.<p/>**참고**: `block:`은 모든 파일의 Markdown 콘텐츠를 파싱할 필요가 있기 때문에 검색어 처리 시간이 길어질 수 있습니다.|
 |`section:`|두 제목 사이의 텍스트인 동일한 섹션에서 일치를 찾습니다.<p/>예: `section:(dog cat)`.|
-|`task:`|블록별로 [[Basic formatting syntax#Task lists\|작업]]에서 일치를 찾습니다.<p/>예: `task:call`.|
-|`task-todo:`|블록별로 _미완료된_ [[Basic formatting syntax#Task lists\|작업]]에서 일치를 찾습니다.<p/>예: `task-todo:call`.|
-|`task-done:`|블록별로 _완료된_ [[Basic formatting syntax#Task lists\|작업]]에서 일치를 찾습니다.<p/>예: `task-done:call`.|
+|`task:`|블록별로 [[기본 서식 구문#Task lists|작업]]에서 일치를 찾습니다.<p/>예: `task:call`.|
+|`task-todo:`|블록별로 _미완료된_ [[기본 서식 구문#Task lists|작업]]에서 일치를 찾습니다.<p/>예: `task-todo:call`.|
+|`task-done:`|블록별로 _완료된_ [[기본 서식 구문#Task lists|작업]]에서 일치를 찾습니다.<p/>예: `task-done:call`.|
 
 ## Search properties
 
-[[Properties|속성]]에 저장된 데이터를 검색어에서 사용할 수 있습니다.
+[[속성|속성]]에 저장된 데이터를 검색어에서 사용할 수 있습니다.
 
 `[property]` 속성 이름 주변에 대괄호를 사용하여 해당 속성이 있는 파일을 반환합니다:
 

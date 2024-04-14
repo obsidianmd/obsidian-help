@@ -1,7 +1,7 @@
 ---
 permalink: import/html
 ---
-Obsidian을 사용하면 공식 [[Importer|Importer 플러그인]]을 사용하여 개별 HTML 파일 및 전체 폴더의 HTML 파일을 쉽게 가져올 수 있습니다. 이 기능은 웹 사이트 전체를 [[Obsidian Flavored Markdown|Markdown]] 형식으로 저장하거나 HTML로 내보내는 도구에서 데이터를 가져오려는 경우 유용합니다.
+Obsidian을 사용하면 공식 [[Importer|Importer 플러그인]]을 사용하여 개별 HTML 파일 및 전체 폴더의 HTML 파일을 쉽게 가져올 수 있습니다. 이 기능은 웹 사이트 전체를 [[Obsidian 마크다운|Markdown]] 형식으로 저장하거나 HTML로 내보내는 도구에서 데이터를 가져오려는 경우 유용합니다.
 
 특정 앱에서 노트를 가져온다면 먼저 [[Importer|Importer 플러그인]]에서 지원하는 앱 목록을 검토하여 이전하려는 데이터를 더 잘 보존하는 특정 변환기가 있는지 확인하는 것이 좋습니다.
 
