@@ -16,5 +16,5 @@ Apple은 노트를 내보내기하는 기본 옵션을 제공하지 않습니다
 Obsidian [[Importer]] 플러그인이 필요하며 이를 [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)가 가능합니다.
 Apple Notes에서 내보낸 데이터에 따라 내보낸 파일 형식이 Markdown 형식 또는 HTML 형식이 될 수 있습니다. 내보낸 파일 형식에 따라 다음 지침을 따르세요:
 
-- [[Import HTML files|HTML 파일 가져오기]]
-- [[Import Markdown files|Markdown 파일 가져오기]]
+- [[HTML files에서 노트 가져오기|HTML 파일 가져오기]]
+- [[Markdown 파일에서 노트 가져오기|Markdown 파일 가져오기]]
