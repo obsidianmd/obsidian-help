@@ -1,0 +1,327 @@
+.theme-dark {
+    --color-base-00: #151515;
+    --color-base-20: #222222;
+}
+
+img {
+    border-radius: 4px;
+}
+
+/* Makes icons invert in dark mode */
+.theme-dark img[src*="lucide"],
+.theme-dark img[src*="obsidian-icon"] {
+    filter: invert(1);
+}
+
+span[src$="#interface"] img,
+img[src$="#interface"] {
+    border: 1px solid var(--background-modifier-border);
+    box-shadow: 0px 0.5px 0.9px rgba(0, 0, 0, 0.021),
+    0px 1.3px 2.5px rgba(0, 0, 0, 0.03),
+    0px 3px 6px rgba(0, 0, 0, 0.039),
+    0px 10px 20px rgba(0, 0, 0, 0.06);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: var(--radius-m);
+}
+
+span[src$="#outline"] img,
+img[src$="#outline"] {
+    border: 1px solid var(--background-modifier-border);
+}
+
+/* Adds proper alignment to icons */
+span[src$="#icon"] img,
+img[src$="#icon"] {
+    vertical-align: text-bottom;
+    margin-left: -0.1em;
+    margin-right: -0.1em;
+    border: none;
+    border-radius: 0;
+}
+
+.site-body-left-column-site-logo {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.site-header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.site-header-logo img,
+.site-body-left-column-site-logo img {
+    height: 25px;
+}
+
+.theme-light .site-header-logo,
+.theme-light .site-body-left-column-site-logo {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.site-body-left-column-site-name {
+    display: none;
+}
+
+/* Hides page headers in Publish, use H1 if needed */
+.hide-title .page-header {
+    display: none;
+}
+
+.hide-title.markdown-preview-view div:nth-child(4) h1 {
+    margin-top: 0.25em;
+    font-variant: var(--page-title-variant);
+    letter-spacing: -0.015em;
+    line-height: var(--page-title-line-height);
+    font-size: var(--page-title-size);
+    color: var(--page-title-color);
+    font-weight: var(--page-title-weight);
+    font-style: var(--page-title-style);
+    font-family: var(--page-title-font);
+    border: none;
+}
+
+/* Kepano's List Cards */
+.list-cards {
+	--list-cards-template: repeat(2, minmax(0, 1fr));
+}
+
+.list-cards div > ul {
+    --link-color: var(--text-normal);
+    --link-unresolved-color: var(--text-muted);
+    --link-decoration: none;
+    --link-decoration-hover: none;
+    --link-external-color: var(--text-normal);
+    --link-external-decoration: none;
+    --link-external-decoration-hover: none;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: var(--list-cards-template);
+    padding: 0;
+}
+
+.list-cards div > ul > li {
+    display: flex;
+    border-radius: var(--radius-s);
+    border: 1px solid var(--color-base-25);
+    flex-wrap: wrap;
+}
+
+.list-cards div > ul > li a {
+    flex-grow: 0;
+}
+
+.list-cards div > ul > li a:after {
+    content: "";
+    flex-basis: 100%;
+    height: 0;
+}
+
+.list-cards div ul > li a {
+    flex-grow: 1;
+    padding: 16px;
+    font-weight: var(--font-semibold);
+    background: none;
+}
+
+.list-cards div ul > li:hover {
+    border-color: var(--color-base-35);
+}
+
+.theme-dark .list-cards div ul > li {
+    background-color: var(--background-secondary);
+}
+
+.list-cards div ul ul {
+    display: block;
+    width: 100%;
+    color: var(--text-muted);
+    font-size: var(--font-smaller);
+    margin-top: -8px;
+    padding: 0 16px 16px;
+}
+
+.list-cards div ul ul > li {
+    display: block;
+}
+
+/* App icons */
+.list-cards .icon-app {
+    display: inline-block;
+    align-self: center;
+    left: 16px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+.list-cards .icon-app + a {
+    padding-left: 52px;
+    align-self: center;
+    line-height: 1.15;
+}
+
+.icon-app.icon-evernote {
+    background-image: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 163 190'%3E%3Cpath d='M50.8 42.7c0 1.8-.1 5-2 7-2 2-5.2 2-7 2H21.5c-5.9 0-9.3 0-11.7.4-1.2.2-2.8.8-3.6 1.1-.3.2-.3 0-.2-.2L52 6.3c.2-.2.3-.2.2.2-.4.7-1 2.3-1.1 3.6-.4 2.3-.4 5.8-.4 11.6v21ZM93.7 184a23 23 0 0 1-11-19.5c0-13 10.6-23.8 23.9-23.8A7 7 0 0 1 110 154a9 9 0 0 1-2.7 1c-.7.1-3.7.5-5.1 1.7a7.3 7.3 0 0 0-2.9 5.5c0 2.4 1 4.6 2.5 6.2a15 15 0 0 0 10.7 4.4c10.7 0 19.4-8.7 19.4-19.4 0-9.6-6.5-18-15-21.9-1.2-.6-3.3-1-5.1-1.5l-4.8-.8c-6.6-.8-23.1-6-24.2-20.7 0 0-4.9 22-14.6 28a21.1 21.1 0 0 1-7 1.7c-16 1-32.9-4-44.5-16 0 0-7.9-6.4-12-24.5-1-4.4-2.8-12.3-4-19.7-.4-2.7-.5-4.7-.7-6.6 0-7.7 4.7-13 10.7-13.7h32.1c5.5 0 8.7-1.4 10.7-3.3 2.7-2.5 3.3-6.1 3.3-10.4V10.7C57.6 4.9 62.8 0 70.5 0h3.8l5.2.3 4.2 1c9.6 2.3 11.7 12 11.7 12l27.2 4.8c8.7 1.6 30 3 34.2 24.6 9.6 51.3 3.7 101 3.3 101-6.8 48.5-47 46.1-47 46.1-8.7 0-15.2-2.8-19.4-5.8Zm36.2-103.1c-5.2-.5-9.6 1.6-11.2 5.5-.3.8-.7 1.7-.5 2.2.2.5.5.6.8.8 1.9 1 5 1.4 9.6 1.9s7.7.8 9.8.5c.3 0 .6-.2.9-.7.3-.4.2-1.4.2-2.2-.7-4.4-4.5-7.4-9.6-8Z' fill='%2300A82D'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.theme-dark .icon-app.icon-onenote {
+    filter: brightness(1.7) saturate(0.7);
+}
+
+.icon-app.icon-onenote {
+    background-image: url("data:image/svg+xml,%3Csvg fill='%237F2DA6' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M22 42.66h17.2a3.46 3.46 0 0 0 3.26-2.3h1.35a3.46 3.46 0 0 0 3.46-3.47v-5.76c0-.85-.31-1.67-.88-2.3.57-.63.88-1.46.88-2.31v-5.77c0-.85-.31-1.67-.88-2.3.57-.63.88-1.45.88-2.3v-5.77a3.46 3.46 0 0 0-3.46-3.46h-1.35a3.46 3.46 0 0 0-3.26-2.3H22v2.3h17.2a1.15 1.15 0 0 1 1.15 1.15v1.15h3.46a1.15 1.15 0 0 1 1.16 1.16v5.76a1.15 1.15 0 0 1-1.16 1.16h-3.46v21.9a1.15 1.15 0 0 1-1.15 1.15H22v2.31Zm22.88-5.32c.06-.15.1-.3.09-.45v-5.76a1.15 1.15 0 0 0-1.16-1.15h-1.15v8.07h1.15a1.15 1.15 0 0 0 1.07-.71Zm0-10.38c.06-.14.09-.29.09-.44v-5.77a1.15 1.15 0 0 0-1.16-1.15h-1.15v8.07h1.15a1.15 1.15 0 0 0 1.07-.7Z'%3E%3C/path%3E%3Cpath d='M27 10.38h8.74v2.3H27v-2.3Zm0 6.91h8.74V15H27v2.29Zm0 4.62h8.74V19.6H27v2.31Zm0 4.6h8.74v-2.3H27v2.3Zm0 4.62h8.74v-2.3H27v2.3Zm0 4.61h8.74v-2.3H27v2.3Z'%3E%3C/path%3E%3Cpath d='M27 10.38h8.74v2.3H27v-2.3Zm0 6.91h8.74V15H27v2.29Zm0 4.62h8.74V19.6H27v2.31Zm0 4.6h8.74v-2.3H27v2.3Zm0 4.62h8.74v-2.3H27v2.3Zm0 4.61h8.74v-2.3H27v2.3Z'%3E%3C/path%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 5.76 27.67 0v47.27L0 41.51V5.76Zm17.58 21.62V13.84l3.75-.57v20.16l-4.15-.23-6.8-14.23v13.79l-3.46-.2V14.42l3.46-.3s7.12 13.09 7.2 13.26Z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.icon-app.icon-google-keep {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 88'%3E%3Cpath d='m42 22 12.06 2.28L64 22 42 0l-3.03 10.43Z' fill='%23f29900'%3E%3C/path%3E%3Cpath d='M42 22V0H6a6 6 0 0 0-6 6v76a6 6 0 0 0 6 6h52a6 6 0 0 0 6-6V22Z' fill='%23fbbc04'%3E%3C/path%3E%3Cpath d='M39 64H25v-5h14Zm-.07-10H25.07a13 13 0 1 1 13.85 0z' fill='%23fff'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.icon-app.icon-apple-notes {
+    border-radius: 7px;
+    border: 1px solid var(--background-modifier-border-hover);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='120' height='120' viewBox='0 0 120 120'%3E%3Cdefs%3E%3ClinearGradient id='e' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23F4D87E'%3E%3C/stop%3E%3Cstop offset='100%25' stop-color='%23F5C52C'%3E%3C/stop%3E%3C/linearGradient%3E%3Cfilter id='c' width='110.2%25' height='146.7%25' x='-5.1%25' y='-16.7%25' filterUnits='objectBoundingBox'%3E%3CfeOffset dy='2' in='SourceAlpha' result='shadowOffsetOuter1'%3E%3C/feOffset%3E%3CfeGaussianBlur in='shadowOffsetOuter1' result='shadowBlurOuter1' stdDeviation='2'%3E%3C/feGaussianBlur%3E%3CfeColorMatrix in='shadowBlurOuter1' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0'%3E%3C/feColorMatrix%3E%3C/filter%3E%3Crect id='a' width='120' height='120' x='0' y='0' rx='28'%3E%3C/rect%3E%3Cpath id='d' d='M-9 0h137v30H-9z'%3E%3C/path%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'%3E%3C/use%3E%3C/mask%3E%3Cuse fill='%23FFF' xlink:href='%23a'%3E%3C/use%3E%3Cg mask='url(%23b)'%3E%3Cuse fill='%23000' filter='url(%23c)' xlink:href='%23d'%3E%3C/use%3E%3Cuse fill='url(%23e)' xlink:href='%23d'%3E%3C/use%3E%3C/g%3E%3Cpath fill='%23C7C5C9' d='M0 59h120v2H0zM0 89h120v2H0z' mask='url(%23b)'%3E%3C/path%3E%3Cg fill='%23C2C0C4' mask='url(%23b)'%3E%3Cg transform='translate(0 35)'%3E%3Ccircle cx='11.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='16.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='21.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='26.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='31.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='36.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='41.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='46.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='51.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='56.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='61.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='66.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='71.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='76.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='81.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='86.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='91.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='96.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='101.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='106.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='111.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='116.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='6.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3Ccircle cx='1.5' cy='1.5' r='1.5'%3E%3C/circle%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.icon-app.icon-bear {
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23DD4C4F' fill-rule='evenodd' d='M50 2a50 50 0 0 1 18.04 96.65c-1.5-2.32-2.62-4-2.85-4.33l-.04-.06s-8.1-12.53-8.71-20.7c-1-13.51 23.22.03 29.04-21.5 1.36-5.04.04-7.23-3.96-6.6-24.58-6.58-14.05-17.8-40.9-15.07-3.35-3.6-6.83-5.39-10.44-5.39-4.36 0-3.33 10.28-3.33 10.28-7.73 8.04-14.42 22-20.05 41.9A50 50 0 0 1 50 2Z'/%3E%3C/svg%3E");
+}
+
+.icon-app.icon-notion {
+    background-image: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 29 30'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M18.4 0 1.8 1.4c-1.3.1-1.8 1-1.8 2v18.2c0 .8.3 1.5 1 2.5l3.9 5c.6.9 1.2 1 2.4 1l19.3-1.2c1.6 0 2.1-.9 2.1-2.1V6.2c0-.7-.2-.9-1-1.4l-.2-.1L22.2.9C21 0 20.4 0 18.4.1ZM7.8 6c-1.6 0-2 0-2.8-.6L2.7 3.5c-.3-.3-.1-.6.4-.6l16-1.2c1.3-.1 2 .4 2.6.8l2.7 2c.1 0 .4.4 0 .4L8 5.9h-.2ZM5.9 26.5V9c.1-.6.3-1 1.1-1l18.9-1c.6-.1 1 .3 1 1v17.3c0 .8-.2 1.4-1.2 1.5l-18.1 1c-1 0-1.6-.3-1.6-1.2ZM24 10c0 .6 0 1-.6 1.2l-.9.1v12.9c-.7.4-1.4.6-2 .6-1 0-1.2-.3-1.9-1.2l-5.7-9v8.7l1.8.4s0 1.1-1.4 1.1l-4 .2c-.2-.2 0-.8.4-.9l1-.3V12.3l-1.5-.1c0-.5.2-1.3 1-1.3l4.3-.3 6 9v-8l-1.5-.2c-.1-.6.3-1 .9-1.1l4-.3Z' fill='black'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.icon-app.icon-html {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round' icon-name='code-2' class='lucide lucide-code-2 icon-lg text-gray-700 icon'%3E%3Cpath d='m18 16 4-4-4-4'%3E%3C/path%3E%3Cpath d='m6 8-4 4 4 4'%3E%3C/path%3E%3Cpath d='m14.5 4-5 16'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.icon-app.icon-md {
+    opacity: 0.4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.25' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-file-text'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' x2='8' y1='13' y2='13'/%3E%3Cline x1='16' x2='8' y1='17' y2='17'/%3E%3Cline x1='10' x2='8' y1='9' y2='9'/%3E%3C/svg%3E");
+}
+
+.icon-app.icon-roam {
+    background-image: url("data:image/svg+xml,%3Csvg fill='black' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M11.1 0a12 12 0 1 0 11.7 17.3 12 12 0 0 0-2.5-14A11.8 11.8 0 0 0 11.1 0zM16 2.6c1 .4 2 1 3 2 .6.6 1.3 1.4 1.3 1.6l-1.8.7v-.2l-.1-.3a77.4 77.4 0 0 0-3.4 2h-.2c-.1-.2-.2-.3-.3-.1l-.1.3v.2l-.8.5-1 .4h-.2V8.2a82.1 82.1 0 0 1 .4-4.1c0-1.1.2-1.3 1.3-1.4h.6l.1-.2.4-.2.8.3zm-7.1 0 .1.2h.7l.9.1c.3.2.5.5.5 1.2v.5h.4V10l-.2.2a3 3 0 0 0-1 .9l-.1.2H4.9V11H3.7l-.4-.6c-.3-.5-.4-.6-.7-.8-.4-.3-.4-.2-.2-1a9.8 9.8 0 0 1 6.3-6.2l.2.2zm12.2 5 .7 1.7-.3.2c-.4.2-.4.3-.4.5s-.2.4-.6.7l-.3.3h-1v.3h-2.8v-.9l-.3-.4-.3-.4a55 55 0 0 1 4.8-2.8l.5.7zm-5.6 3 .5.7h-1.8L14 11l-.2-.4L15 10l.5.7zm-7.3 2.6.4.7-5.2 3.4a6 6 0 0 1-1-2.1c-.2-.9-.3-.8.2-1l.6-.7.4-.6h1.2v-.5h3l.4.8zm1.8-.5.2.3-1 .6-.8-1.1h1.5l.1.2zm9.2 0v.2h.6c.6 0 .5 0 1.2.5v.4c.2.4.2.4.6.5.2 0 .3.2 0 .8a11 11 0 0 1-3.3 4.7c-.6.5-.6.5-.5 0 0-.7 0-1-.3-1.2-.2-.3-.5-.3-1.3.1l-.9.4c-.3 0-.6-.1-.8-.3l-.2-.1.4-.4c.5-.3.7-.7.6-.9-.2-.3-.5-.3-1-.2h-1c-.3-.1-.4-.4-.4-.7 0-.4 0-.4-.2-.7l-.2-.2v-1.8l.4-.3.7-.7.4-.4h5.2v.2zm-7.8 2.1v.8l-.3.2-.3.3.1.3v.6c0 .2-.3.3-.9.2a8.2 8.2 0 0 0-.7-.1c-.7 0-.7.5 0 1.2.2.4.2.4-.2.6-.5.3-.9.3-1.4-.1-.4-.3-.6-.4-1-.4l-.4.2-.1.2v1.4l-1.5-1.3a4 4 0 0 1-1-1.2l1.6-.7v.4l3-1.7a204.3 204.3 0 0 1 3-1.7v.8z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.theme-dark .icon-app.icon-html,
+.theme-dark .icon-app.icon-md,
+.theme-dark .icon-app.icon-notion,
+.theme-dark .icon-app.icon-roam {
+    filter: invert(1);
+}
+
+/* Soft Embeds*/
+
+.soft-embed body {
+    --embed-border-left: none;
+    --embed-border-right: none;
+    --embed-padding: var(--size-2-1) var(--size-4-2);
+}
+
+.soft-embed .markdown-embed-link,
+.soft-embed .file-embed-link {
+display: none;
+}
+
+.soft-embed .markdown-embed {
+    border-right: none;
+    border-left: none;
+    border-radius: var(--radius-l);
+    position: relative;
+    padding: 0;
+}
+
+.soft-embed .markdown-embed h2 {
+font-size: var(--h3-size);
+}
+
+.soft-embed .markdown-embed h3 {
+    font-size: var(--h4-size);
+}
+
+.soft-embed .markdown-embed .markdown-embed-content {
+    max-height: unset;
+    overflow: unset;
+}
+
+.soft-embed .markdown-embed .markdown-embed-content     > .markdown-preview-view  {
+overflow-y: unset;
+}
+
+.soft-embed .markdown-embed .markdown-rendered blockquote {
+    border-left: none;
+    padding: 0;
+}
+
+/* Select */
+.dropdown {
+	height: var(--input-height);
+	font-size: var(--font-ui-small);
+	font-family: inherit;
+	font-weight: var(--input-font-weight);
+	color: var(--text-normal);
+	line-height: var(--line-height-tight);
+	padding: 0 1.9em 0 .8em;
+	max-width: 100%; /* useful when width is set to anything other than 100% */
+	box-sizing: border-box;
+	margin: 0;
+	border: 0;
+	box-shadow: var(--input-shadow);
+	border-radius: var(--input-radius);
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: var(--interactive-normal);
+	background-repeat: no-repeat, repeat;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+}
+.dropdown:hover {
+	box-shadow: var(--input-shadow-hover);
+	background-color: var(--interactive-hover);
+}
+.dropdown:focus {
+	box-shadow: 0 0 0px 3px var(--background-modifier-border-focus);
+	outline: none;
+}
+.dropdown {
+	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="292.4" height="292.4"%3E%3Cpath fill="%23000" opacity="0.4" d="M287 69.4a17.6 17.6 0 0 0-13-5.4H18.4c-5 0-9.3 1.8-12.9 5.4A17.6 17.6 0 0 0 0 82.2c0 5 1.8 9.3 5.4 12.9l128 127.9c3.6 3.6 7.8 5.4 12.8 5.4s9.2-1.8 12.8-5.4L287 95c3.5-3.5 5.4-7.8 5.4-12.8 0-5-1.9-9.2-5.5-12.8z"/%3E%3C/svg%3E');
+}
+.theme-dark .dropdown {
+	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="292.4" height="292.4"%3E%3Cpath fill="%23FFF" opacity="0.4" d="M287 69.4a17.6 17.6 0 0 0-13-5.4H18.4c-5 0-9.3 1.8-12.9 5.4A17.6 17.6 0 0 0 0 82.2c0 5 1.8 9.3 5.4 12.9l128 127.9c3.6 3.6 7.8 5.4 12.8 5.4s9.2-1.8 12.8-5.4L287 95c3.5-3.5 5.4-7.8 5.4-12.8 0-5-1.9-9.2-5.5-12.8z"/%3E%3C/svg%3E');
+}
+
+
+/* Add CSS created Icons from Obsidian */
+
+/* Mobile Tab Switcher*/
+.mobile-navbar-tabs-action {
+    align-items: center;
+    border-radius: var(--clickable-icon-radius);
+    border: 2px solid var(--icon-color);
+    display: flex;
+    font-size: calc(var(--icon-size) * 0.6);
+    font-weight: var(--bold-weight);
+    justify-content: center;
+    height: 20px;
+    width: var(--icon-size);
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 750px) {
+    .site-header-text {
+        display: none;
+    }
+    .list-cards.list-cards-mobile-full {
+		--list-cards-template: repeat(1, minmax(0, 1fr));
+	}
+}

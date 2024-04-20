@@ -19,6 +19,7 @@ You can browse this site in several languages:
 <option value="https://publish.obsidian.md/help-ar">العربية</option>
 <option value="https://publish.obsidian.md/help-da">Dansk</option>
 <option value="https://publish.obsidian.md/help-es">Español</option>
+<option value="https://publish.obsidian.md/help-fr">Français</option>
 <option value="https://publish.obsidian.md/help-it">Italiano</option>
 <option value="https://publish.obsidian.md/help-ja">日本語</option>
 <option value="https://publish.obsidian.md/help-km">Phéasa Khmêr</option>
