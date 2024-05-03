@@ -43,7 +43,7 @@ Yes. Obsidian has been independently audited. Visit our [Security page](https://
 
 If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it's forever lost.
 
-Your data, however, are usually safely stored locally on each of your devices.
+Your data, however, is usually safely stored locally on each of your devices.
 
 To continue using Obsidian Sync, we suggest doing a full re-setup to be able to add new devices to your Sync system:
 

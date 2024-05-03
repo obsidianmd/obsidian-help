@@ -11,7 +11,7 @@ Download your preferred version of Obsidian from our [GitHub releases page](http
 
 > [!tip] For Windows users who need a system installer, use the `-allusers.exe` file on the releases page.
 
-If automatic updates are enabled, future updates will install as allowed. Additionally, we recommend periodically completing [[Update Obsidian#Installer updates|installer updates]] to gain the latest electron updates. 
+If automatic updates are enabled, future updates will install as allowed. Additionally, we recommend periodically completing [[Update Obsidian#Installer updates|installer updates]] to receive the latest electron updates, including security fixes.
 
 If you are looking how to limit network access to Obsidian during this process, review [[Security considerations#Network and access|network and access]] instead.
 
@@ -22,14 +22,16 @@ One of Obsidian's strength lies in its extensibility. With an extensive API and 
 For security-related questions concerning these subjects, please refer to our [[Security considerations]] page.
 
 **Configuration folders**
-A [[Configuration folder]] is the defined folder that an Obsidian [[Glossary#Vault|vault]] will use to store application settings for that vault. By default, this folder is named `.obsidian` but you are able to [[Configuration folder#Changing your configuration folder|change the configuration folder]] name per your preference.
+A [[Configuration folder]] is the designated folder where an Obsidian [[Glossary#Vault|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[Configuration folder#Changing your configuration folder|change the configuration folder]] name according to your preference.
 
-We recommend creating a standard template of the configuration folder to be deployed across your team's devices.
+We recommend creating a standardized template of the configuration folder to be deployed across your team's devices.
 
 **Plugins**
 A [[Core plugins|Core plugin]] is an optional feature within the base Obsidian application, created by the Obsidian Team. These features are integrated within the existing codebase. 
 
-A [[Community plugins|Community plugin]] is is a third-party optional featured added to the Obsidian application through the plugin and the Obsidian API, and can be downloaded into the application through the community store. If installing manually, community plugins need to be installed into the `.obsidian/plugins` folder for Obsidian to read them. 
+A [[Community plugins|Community plugin]] is a third-party optional feature added to the Obsidian application through the plugin, and can be added to the application through the community store. If installing manually, community plugins need to be installed into the `.obsidian/plugins` folder for Obsidian to read them. 
+
+Community plugins operate through a combination of their own code and [Obsidian's API](https://github.com/obsidianmd/obsidian-api).
 
 **Themes and snippets**
 A [[CSS snippets|Snippet]] is a `.css` file that visually modifies one or more aspects of the Obsidian interface. In some cases, it can also add functional enhancements, such as CSS animations like transitions. To be recognized by Obsidian, snippets must be inserted into `.obsidian/snippets`.
@@ -40,7 +42,7 @@ Many themes utilize the community plugin [Style Settings](https://github.com/mgm
 
 ## Frequently asked questions
 
-For questions regarding account management and security, please refer to [[Security considerations#Account security|Account security]].
+For questions regarding account management and security, please refer to [[Security considerations#Account security|account security]].
 
 ### Deployment
 

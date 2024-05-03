@@ -8,11 +8,11 @@ This page details and pulls together the more important information when conside
 
 ## Collaboration
 
-With [Obsidian Sync](app://obsidian.md/Introduction%20to%20Obsidian%20Sync) you can collaborate on a shared vault with your team. 
+With [[Introduction to Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team. 
 
-All collaborators **must have an active Sync subscription** to access a shared vault. Joining a shared vault does not count towards your [vault limit](app://obsidian.md/Sync%20limitations#How%20many%20remote%20vaults%20can%20I%20have?).
+All collaborators **must have an active Sync subscription** to access a shared vault. Joining a shared vault does not count towards your [[Plans and storage limits#Plans|remote vault limit]].
 
-If the remote vault is [end-to-end encrypted](app://obsidian.md/Obsidian%20Sync/Security%20and%20privacy), collaborators must enter the encryption password when they first access the shared remote vault.
+If the remote vault is [[Obsidian Sync/Security and privacy#Encryption|end-to-end encrypted]], collaborators must enter the encryption password when they first access the shared remote vault.
 
 
 ![[Collaborate on a shared vault#Manage users|Collaboration]]
