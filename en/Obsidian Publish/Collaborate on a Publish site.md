@@ -40,12 +40,12 @@ To update a local note with changes from the live site:
 
 The following table lists the available site permissions for owners and collaborators:
 
-
-> [!tldr] Test
-> Test
-
-> [!note] Test
-> Test
-
+| Action                             | Collaborator | Owner |
+|------------------------------------|:------------:|:-----:|
+| Publish new pages                  | ✓            | ✓     |
+| Publish changes to published pages | ✓            | ✓     |
+| Unpublish pages                    | ✓            | ✓     |
+| Configure site options             |              | ✓     |
+| Manage permissions                 |              | ✓     |
 
 
