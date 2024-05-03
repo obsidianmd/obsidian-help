@@ -24,7 +24,7 @@ For security-related questions concerning these subjects, please refer to our [[
 **Configuration folders**
 A [[Configuration folder]] is the defined folder that an Obsidian [[Glossary#Vault|vault]] will use to store application settings for that vault. By default, this folder is named `.obsidian` but you are able to [[Configuration folder#Changing your configuration folder|change the configuration folder]] name per your preference.
 
-We recommend creating a standard template of the configuration folder to be deployed across your team's devices
+We recommend creating a standard template of the configuration folder to be deployed across your team's devices.
 
 **Plugins**
 A [[Core plugins|Core plugin]] is an optional feature within the base Obsidian application, created by the Obsidian Team. These features are integrated within the existing codebase. 

@@ -129,9 +129,7 @@ After purchasing the license, you will receive a license key which you can send 
 ### Applying the license
 
 **Can I use the commercial license I purchased on both my work phone and work computer?**
-
 Yes. The commercial license is charged per seat count, not per device. This means you can use the same license key on all your individual work devices.
-
 
 **I work in a highly secure environment, in an air-gapped network. How do I apply my commercial license?**
 In such specialized environments, you don't need to apply the commercial license directly to your installation. However, you must monitor license usage and retain relevant records to ensure compliance with our End User License Agreement (EULA).

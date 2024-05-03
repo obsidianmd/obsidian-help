@@ -2,6 +2,7 @@
 cssclasses:
   - soft-embed
 ---
+
 This page details and pulls together the more important information when considering Obsidian Sync in your workplace or project.
 
 > [!tip] Haven't set up Obsidian Sync yet? Check out [[Set up Obsidian Sync]] first.

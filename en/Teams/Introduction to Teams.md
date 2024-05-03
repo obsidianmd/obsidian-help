@@ -14,7 +14,7 @@ Obsidian serves as an excellent note-taking application for individuals, and a c
 	- Determine if you need a license and find purchase information
 - [[Install and deploy Obsidian]]
 	- Install, update, and customize Obsidian
-- [[Obsidian Sync in a team]]
+- [[Syncing for Teams]]
 	- Use Obsidian Sync with your team
 - [[Obsidian Publish in a team]]
 	- Use Obsidian Publish with your team

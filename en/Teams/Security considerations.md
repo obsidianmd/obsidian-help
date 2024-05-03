@@ -10,9 +10,17 @@ Please be sure to read our official [Security](https://obsidian.md/security) pag
 
 Obsidian is designed to function primarily as an offline and standalone application. For extensibility, we do allow and encourage community plugins and themes, as well as offer official and unofficial support for syncing services. 
 
-If you are using Obsidian in your team and you do not plan to use community plugins or themes, the security considerations are 
+If you do not intend to use community plugins or themes, or Obsidian Sync or Publish, your standard procedures for securing applications will apply. However, if you plan to use any of these features, we recommend thoroughly evaluating their suitability for your workplace.
 
 ## Plugins and themes
+
+Please review [[Plugin security]] in addition to this section. 
+
+We review plugins and themes via a pull request to our [releases repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). We do not review community items which have not been submitted, such as plugins which are currently in [beta-testing](https://github.com/TfTHacker/obsidian42-brat). 
+
+We do not have a community store for CSS Snippets. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
+
+We require bundling of assets in CSS snippets and Themes. However, we have made an exception for [Google Fonts](https://fonts.google.com/) to maintain performance on mobile devices, where the impact of bundling fonts is more noticeable.
 
 ## Network and access
 
