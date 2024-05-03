@@ -11,7 +11,7 @@ Catalyst license gives you exclusive benefits including:
 - Exclusive [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
 
 > [!Note] Commercial use
-> If you use Obsidian for work in a company with two or more employees, you must purchase a [[Commercial licenses]].
+> If you use Obsidian for work in a company with two or more employees, you must purchase a [[Commercial licenses|Commercial license]].
 
 ## Catalyst tiers
 
