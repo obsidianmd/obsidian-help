@@ -8,13 +8,13 @@ Please be sure to read our official [Security](https://obsidian.md/security) pag
 
 ## Initial considerations
 
-Obsidian is designed to function primarily as an offline and standalone application. For extensibility, we do allow and encourage community plugins and themes, as well as offer official and unofficial support for syncing services. 
+Obsidian is primarily designed to function as an offline and standalone application. However, for extensibility, we support and encourage community plugins and themes. Additionally, we provide both official and unofficial support for various syncing services.
 
 If you do not intend to use community plugins or themes, or Obsidian Sync or Publish, your standard procedures for securing applications will apply. However, if you plan to use any of these features, we recommend thoroughly evaluating their suitability for your workplace.
 
 ## Plugins and themes
 
-Please review [[Plugin security]] in addition to this section. 
+Please also read the [[Plugin security]] page in addition to this section. 
 
 We review plugins and themes via a pull request to our [releases repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). We do not review community items which have not been submitted, such as plugins which are currently in [beta-testing](https://github.com/TfTHacker/obsidian42-brat). 
 
