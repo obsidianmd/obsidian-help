@@ -69,4 +69,4 @@ We require a minimum quoted purchase order amount before considering completing 
 However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee. Please contact [[Help and support#Contact Obsidian support|Obsidian support]] to inquire about this option.
 
 **Do you have any recognized certifications related to Information Security or quality standards, such as ISO27001, NIST, COBIT, or other ISO or CSA certifications?**
-Not at this time. It may be something we explore in the future, but for now, our focus is on our [security audits]()
+Not at this time. It may be something we explore in the future, but for now, our focus is on our [security audits](https://obsidian.md/security).
