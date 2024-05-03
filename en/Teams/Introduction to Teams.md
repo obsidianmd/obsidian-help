@@ -21,15 +21,17 @@ Obsidian serves as an excellent note-taking application for individuals, and a c
 
 ## Important resources
 
+Below are important links to relevant parts of our main website, and are listed here for quick access. 
+
 - [Purchase our products](https://obsidian.md/pricing)
 	- Purchase a Commercial license, Sync, or Publish
+- [Report a bug](https://forum.obsidian.md/c/bug-reports/7)
+	- Report an application issue
+- [Request a new feature](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
+	- Report a feature request
 - [License overview](https://obsidian.md/license)
 	- Review our license overview in plain English
 - [Terms of Service](https://obsidian.md/terms)
 	- Review our latest Terms of Service
 - [Privacy Policy](https://obsidian.md/privacy)
 	- Review our privacy policy
-- [Report a bug](https://forum.obsidian.md/c/bug-reports/7)
-	- Report an application issue
-- [Request a new feature](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
-	- Report a feature request

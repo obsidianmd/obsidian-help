@@ -2,7 +2,7 @@
 cssclasses:
   - soft-embed
 ---
-2This page details some of the security information and considerations you may need to know for your team. 
+This page details some of the security information and considerations you may need to know for your team. 
 
 Please be sure to read our official [Security](https://obsidian.md/security) page to review our independent audits before reviewing this page. 
 
