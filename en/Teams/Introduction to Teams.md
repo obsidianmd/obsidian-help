@@ -16,7 +16,7 @@ Obsidian serves as an excellent note-taking application for individuals, and a c
 	- Install, update, and customize Obsidian
 - [[Syncing for Teams]]
 	- Use Obsidian Sync with your team
-- [[Obsidian Publish in a team]]
+- [[Publishing for Teams]]
 	- Use Obsidian Publish with your team
 
 ## Important resources
