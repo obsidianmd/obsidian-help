@@ -26,7 +26,7 @@ We require bundling of assets in CSS snippets and Themes. However, we have made 
 
 While prioritizing the local-first approach of our application, Obsidian does make network calls based on the services and features you use. These network connections can be disabled via a domain firewall or application lockdown.
 
-We make our network connections on HTTPS port 443.
+Obsidian makes these network connections on HTTPS port 443.
 
 The following is a list of network connections Obsidian makes.
 
