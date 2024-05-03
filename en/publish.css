@@ -314,7 +314,7 @@ img[src$="#outline"] {
     display: none;
   }
   .list-cards.list-cards-mobile-full {
-    /* Use cssclasses: list-cards list-cards-mobile-full */
+    /* Use cssclasses: list-cards-mobile-full */
     --list-cards-template: repeat(1, minmax(0, 1fr));
   }
 }
