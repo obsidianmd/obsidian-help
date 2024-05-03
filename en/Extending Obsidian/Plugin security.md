@@ -1,7 +1,7 @@
 The Obsidian team takes security seriously. This page explains the risks involved when installing community plugins, and what the Obsidian team does to address them.
 
-> [!tip]
-> If you're working with sensitive data and wish to install a community plugin, we recommend that you perform an independent security audit before using it.
+> [!tip] 
+> If you're working with sensitive data and wish to install a community plugin, we recommend that you perform an independent security audit on the plugin before using it.
 
 ## Restricted mode
 
@@ -35,6 +35,6 @@ Community plugins undergo an initial review when they're submitted to the plugin
 
 The Obsidian team is small and unable to manually review every new release of community plugins. Instead, we rely on the help of the community to identify and report issues with plugins.
 
-- If you find any security flaws with a community plugin, create an issue on the plugin repository on GitHub.
+- If you discover any security vulnerabilities in a community plugin, please create an issue on the plugin's GitHub repository. For Critical category flaws, please additionally report the plugin to [[Help and support#Contact Obsidian support|Obsidian support]] after creating the GitHub issue.
 - If you suspect that a community plugin is malicious, report it to [[Help and support#Contact Obsidian support|Obsidian support]], or by sending a DM to our moderators.
 
