@@ -11,7 +11,7 @@ In this guide, you'll create a new [[Local and remote vaults|remote vault]] and 
 - An active Obsidian Sync [[Plans and storage limits|subscription]]. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account).
 - Sync enabled within the [[Core plugins]] settings. 
 
-> [!danger] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? Please [[Back up your Obsidian files|read this guide]] before proceeding.
+> [!danger] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? Please read [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|this]] before proceeding.
 
 ## Log in with your Obsidian account
 
