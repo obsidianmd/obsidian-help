@@ -10,9 +10,9 @@ Obsidian currently offers five items available for purchase to augment your Obsi
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
 	- Publish notes to the web
 - [[Commercial licenses]]
-	- Legally use Obsidian in your workplace
+	- Use Obsidian in your workplace
 - [[Obsidian Credit]]
-	- Purchase and [[Gifting|gift]] Obsidian services
+	- Purchase and Gift Obsidian services
 - [[Catalyst license]]
 	- Support development and gain early access to releases
 
@@ -35,7 +35,7 @@ You can view our return policy for these purchases in our [[Refund policy|refund
 We accept the following payment methods: Stripe, PayPal, WeChat, and AliPay.
 
 > [!info] PayPal and fees
-> PayPal purchases will be processed in Canadian Dollars (CAD). You may incur a foreign transaction fee from your credit card issuer, and PayPal may charge a currency conversion fee.
+> PayPal purchases will be processed in Canadian Dollars (CAD). You may incur a foreign transaction fee from your card issuer, and PayPal may charge a currency conversion fee.
 
 After completing your payment, you will receive a receipt from the service through which you made the purchase.
 
