@@ -29,5 +29,8 @@ If the remote vault is [end-to-end encrypted](app://obsidian.md/Obsidian%20Sync
 
 ## Frequently asked questions
 
+**Can I purchase one Sync subscription and use it for my team?**
+If you are a team of one person, yes, you can use the Sync subscription for that team member. However, if you have multiple team members, each member will need their own Obsidian Sync subscription to access and share remote vaults.
+
 **Do you have an on-premises Sync server?**
 Obsidian Sync does not have an on-premises solution at this time. Feel free to add your use case to [this feature request](https://forum.obsidian.md/t/obsidian-sync-self-hosted-server/20975) thread.
