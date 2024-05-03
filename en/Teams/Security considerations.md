@@ -2,7 +2,7 @@
 cssclasses:
   - soft-embed
 ---
-This page details some of the security information and considerations you may need to know for your team. 
+2This page details some of the security information and considerations you may need to know for your team. 
 
 Please be sure to read our official [Security](https://obsidian.md/security) page to review our independent audits before reviewing this page. 
 
@@ -64,9 +64,9 @@ Obsidian supports [[2-factor authentication]] (2FA) for Obsidian accounts, but i
 ### Assessments and certifications
 
 **Will you accept security assessments from our company?**
-We require a minimum quoted purchase order amount before considering completing a security assessment. These assessments are often time-consuming and may not be applicable to offline applications like Obsidian, which is primarily a cloud-based service.
+We require a minimum quoted purchase order amount before considering completing a security assessment. These assessments are often time-consuming and may not be applicable to offline applications like Obsidian, as they are typically geared towards cloud-based services.
 
-However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee.
+However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee. Please contact [[Help and support#Contact Obsidian support|Obsidian support]] to inquire about this option.
 
 **Do you have any recognized certifications related to Information Security or quality standards, such as ISO27001, NIST, COBIT, or other ISO or CSA certifications?**
 Not at this time. It may be something we explore in the future, but for now, our focus is on our [security audits]()
