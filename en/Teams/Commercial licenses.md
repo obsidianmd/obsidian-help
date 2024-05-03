@@ -61,7 +61,6 @@ Your PO must include:
 
 > [!info] Purchasing a commercial license does not include an [Obsidian Sync](https://obsidian.md/sync) or [Obsidian Publish](https://obsidian.md/publish) subscription.
 
-
 ### Activate a commercial license
 
 To activate a commercial license
@@ -101,7 +100,7 @@ If you are a single-person company, then you don't require a commercial license.
 **I use Obsidian to store all of my knowledge, both personal and professional, because it's difficult to separate them. Do I need a commercial license?**
 If your notes contain content directly related to work projects or processes for a company with more than one employee, then yes, you need a commercial license.
 
-**I’m still not sure if I need a commercial license. What should I do?**
+**I'm still not sure if I need a commercial license. What should I do?**
 If you still have questions regarding the commercial license requirements, contact [[Help and support#Contact Obsidian support|Obsidian support]] and describe your situation in detail.
 
 ### Purchasing process
@@ -110,7 +109,7 @@ If you still have questions regarding the commercial license requirements, conta
 Yes. You and your team may evaluate Obsidian for commercial use for **14** days. You don't need to pay before evaluating.
 
 **Are there bulk discounts?**
-Yes. If you are purchasing more than 20 seats you may be eligible for bulk pricing. Please contact [[Help and support#Contact Obsidian support|Obsidian support]].
+Yes. If you are purchasing 21 or more seats, you may be eligible for bulk pricing. Please contact [[Help and support#Contact Obsidian support|Obsidian support]].
 
 **Can I buy a license for myself, or do I have to ask my company to buy it for me?**
 Yes. You can buy a license for yourself by going to your [Account dashboard](https://obsidian.md/account). Most companies allow you to submit an expense report for the purchase.
@@ -127,9 +126,12 @@ Yes. You can purchase multiple commercial license seats through your [Account da
 
 After purchasing the license, you will receive a license key which you can send to employees to activate their license — see instructions above to activate the license.
 
-
-
 ### Applying the license
+
+**Can I use the commercial license I purchased on both my work phone and work computer?**
+
+Yes. The commercial license is charged per seat count, not per device. This means you can use the same license key on all your individual work devices.
+
 
 **I work in a highly secure environment, in an air-gapped network. How do I apply my commercial license?**
 In such specialized environments, you don't need to apply the commercial license directly to your installation. However, you must monitor license usage and retain relevant records to ensure compliance with our End User License Agreement (EULA).

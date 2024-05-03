@@ -148,6 +148,9 @@ img[src$="#outline"] {
   flex-basis: 100%;
   height: 0;
 }
+.list-cards div > ul > li a:hover {
+  border-color: var(--color-base-35);
+}
 .list-cards div > ul > li a {
   flex-grow: 1;
   padding: 16px;

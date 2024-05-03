@@ -179,6 +179,10 @@ img[src$="#outline"] {
           flex-basis: 100%;
           height: 0;
         }
+
+        &:hover {
+          border-color: var(--color-base-35);
+        }
       }
 
       a {

@@ -12,9 +12,24 @@ Obsidian serves as an excellent note-taking application for individuals, and a c
 
 - [[Commercial licenses]]
 	- Determine if you need a license and find purchase information
-- [[Manage Obsidian in your workplace]]
+- [[Install and deploy Obsidian]]
 	- Install, update, and customize Obsidian
 - [[Obsidian Sync in a team]]
 	- Use Obsidian Sync with your team
 - [[Obsidian Publish in a team]]
 	- Use Obsidian Publish with your team
+
+## Important resources
+
+- [Purchase our products](https://obsidian.md/pricing)
+	- Purchase a Commercial license, Sync, or Publish
+- [License overview](https://obsidian.md/license)
+	- Review our license overview in plain English
+- [Terms of Service](https://obsidian.md/terms)
+	- Review our latest Terms of Service
+- [Privacy Policy](https://obsidian.md/privacy)
+	- Review our privacy policy
+- [Report a bug](https://forum.obsidian.md/c/bug-reports/7)
+	- Report an application issue
+- [Request a new feature](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
+	- Report a feature request
