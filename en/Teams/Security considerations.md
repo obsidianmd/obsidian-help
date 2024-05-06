@@ -35,6 +35,7 @@ The following is a list of network connections Obsidian makes.
 - **Early access updates**: Uses `releases.obsidian.md`.
 - **Account and license management**: When accessing your Obsidian account in Settings and applying a Commercial License, we call `api.obsidian.md`.
 - **Obsidian Sync**: Used for syncing your notes across devices.
+	- `sync-xx.obsidian.md`, where `xx` is a number between 01-100.
 - **Obsidian Publish**:
     1. Backend: `publish-main.obsidian.md` and `publish-xx.obsidian.md`, where `xx` is a number.
     2. Frontend: `publish.obsidian.md`.
