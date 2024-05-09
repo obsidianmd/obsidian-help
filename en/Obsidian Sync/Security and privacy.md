@@ -15,6 +15,7 @@ When you create a new remote vault, you have two options:
 If you forget or lose your custom encryption password, your data remains encrypted and unusable forever. We're not able to recover your password, or any encrypted data for you.
 
 Your choice only affects your remote vault. Obsidian doesn't encrypt your local vault.
+
 ### What does end-to-end encryption mean?
 
 End-to-end encryption means that the data is encrypted from the moment it leaves your device, and can only be decrypted using your encryption key once it's back on one of your devices.
@@ -80,6 +81,7 @@ This line corresponds with where your server is hosted. The list below correspon
 | `sync-01` to `sync-12` | `sync-13` | `sync-17` | `sync-18` |
 | `sync-14` to `sync-15` | `sync-16` |           |           |
 | `sync-19`              | `sync-20` |           |           |
+| `sync-21`              |           |           |           |
 ^sync-server-location-table
 ## Network and access
 
