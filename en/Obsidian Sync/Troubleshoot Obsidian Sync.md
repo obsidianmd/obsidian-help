@@ -2,7 +2,7 @@
 cssClasses: soft-embed
 ---
 
-This page lists common issues that you might encounter, and how to address them.
+This page lists common issues that you might encounter with [[Introduction to Obsidian Sync|Obsidian Sync]], and how to address them.
 
 ![[Sync your notes across devices#^sync-files-on-demand]]
 

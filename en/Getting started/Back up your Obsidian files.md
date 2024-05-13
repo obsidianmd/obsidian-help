@@ -7,11 +7,11 @@ aliases:
 
 If you haven't backed up your computer yet, start now! Obsidian's [[File recovery]] plugin is a good beginning, but it's limited to notes, and the snapshots themselves should be backed up.
 
-**Why Back Up?**
+**Why back up your data?**
 
 Your notes are stored locally on your device by default, not in the cloud. This ensures that [the data is yours](https://obsidian.md/about) and gives you control over it. However, local storage is susceptible to real-world problems like corruption and data loss. Backups protect against these issues and further ensure that you control your own data.
 
-## Understand: Syncing is not a backup
+## Syncing is not a backup
 
 Services like [[Introduction to Obsidian Sync|Obsidian Sync]], iCloud, OneDrive, and Dropbox sync your notes across devices. They may offer [[Version history|note restoration]], but they are **not** designed to [back up your vault](https://www.backblaze.com/blog/cloud-backup-vs-cloud-sync/).
 
@@ -41,17 +41,17 @@ In terms of security, you should always pay close attention to access and securi
 
 ## Use external drives
 
-**Hard drives and SSD Drives**
+**Hard drives and SSD drives**
 External hard drive backups are still valuable in an increasing cloud-based world, and are mainly used for data storage and computer backups. The biggest disadvantage of an external drive is that the drive can break down or get lost. The biggest advantage is that the storage space only needs to be purchased once. Using an external hard drive is often combined with a [[#Use computer backups|computer backup]].
 
-**USB Sticks**
-USB sticks are a simple and effective method for quick backups.
+**USB flash drives**
+Flash drives (also called thumb drives, memory sticks, or pen drives) are a simple and effective method for quick backups.
 
-1. Insert the USB stick into your computer or laptop.
-2. Ensure the device is recognized and mounted in your file system. If necessary, format the USB stick to be compatible with your filesystem.
-3. Copy your vault folder from its current location onto the USB stick.
-4. Safely unmount the USB stick.
-5. Remove the USB stick from your device.
+1. Insert the flash drive into your computer or laptop.
+2. Ensure the device is recognized and mounted in your file system. If necessary, format the flash drive to be compatible with your filesystem.
+3. Copy your vault folder from its current location onto the flash drive.
+4. Safely unmount the flash drive.
+5. Remove the flash drive from your device.
 
 > [!tip] If your external drive contains sensitive information, it is recommended to keep the external drive secure, such as in a secured room.
 
