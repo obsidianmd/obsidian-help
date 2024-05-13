@@ -8,15 +8,15 @@ The easiest way to sync your notes between your devices is to use [[Introduction
 
 Note that using multiple syncing services at the same time (e.g., Obsidian Sync _and_ Dropbox) may cause data loss, corruption, and other issues. [[Back up your Obsidian files|Find out more about using Obsidian Sync with other services here.]]
 
-> [!important] Dealing with on-demand cloud storage
-> Some cloud storage services, such as OneDrive, allow you to only download files when you use them and later remove them locally to free up space. Since the files are no longer available locally, Obsidian Sync believes they've been deleted and removes them from your remote vault.
+> [!warning] On-demand cloud storage
+> Some cloud storage services, such as OneDrive and Dropbox, allow you to only download files when you use them and later remove them locally to free up space. Since the files are no longer available locally, Obsidian Sync believes they've been deleted and removes them from your remote vault.
 >
 > To use Obsidian Sync together with Files On-Demand and similar features, make sure to configure the service to always keep the files on the device.
 ^sync-files-on-demand
 
 If you don't want to use Obsidian Sync, this page lists alternative methods for syncing your vaults with multiple devices.
 
-## Sync notes across multiple desktops
+## Sync notes across multiple desktop devices
 
 If you don't use Obsidian on your mobile devices, you can use any third-party service that syncs a local folder to a cloud storage.
 
