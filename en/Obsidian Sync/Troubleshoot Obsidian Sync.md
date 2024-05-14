@@ -28,7 +28,7 @@ If a note was created locally on a device less than a couple of minutes before S
 
 ### Obsidian Sync will not Sync my plugins and settings updates
 
-Obsidian [[Sync limitations#Does Obsidian Sync live-reload my settings?|does not live]], or hot reload, settings. You will need to restart Obsidian on the other devices after they have updated their settings. On mobile devices, this may require a force-quit of Obsidian.
+Obsidian [[Sync limitations#Does Obsidian Sync live-reload my settings?|does not live-reload settings]]. You will need to restart Obsidian on the other devices after they have updated their settings. On mobile devices, this may require a force-quit of Obsidian.
 
 > [!example]- Example: Changing a theme
 > - Your primary device, a computer, currently has a custom theme and you decide to change it back to the default theme.
