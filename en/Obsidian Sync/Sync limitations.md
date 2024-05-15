@@ -4,7 +4,6 @@ aliases:
   - Sync limitations
   - Sync FAQ
 ---
-
 This page lists some of the common questions related to questions and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
 
 ## General

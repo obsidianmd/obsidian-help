@@ -58,6 +58,10 @@ To sync to a new remote vault, follow these steps:
 
 The new remote vault should be smaller than the previous vault, because of the absence of version history and excluded files.
 
+## Upgrade your plan
+
+You can upgrade your plan by logging into [your account dashboard](https://obsidian.md/account). From there you will be able to upgrade your plan from Sync Standard to Sync Plus, and increase storage up to 100 GB.
+
 ## Downgrade your plan
 
 If you want to downgrade your Sync plan but your storage use exceeds the new plan's limit, you will need to free up space in your remote vault. However, there is no way to quickly remove specific files from an existing remote vault, because attachments are held in version history for up to two weeks and version history counts towards your storage limit.
