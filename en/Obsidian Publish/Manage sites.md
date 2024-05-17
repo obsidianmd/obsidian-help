@@ -67,7 +67,7 @@ A site is a collection of notes that's hosted by Obsidian Publish and available 
 | Hide page title      | Toggle | Enable or disable the inline title of a published note to be displayed.                    |
 | Readable line length | Toggle | Enable or disable readable line length within your site.                                   |
 | Strict line breaks   | Toggle | Enable or disable single line breaks from being displayed on your site.                    |
-| Stack Pages          | Toggle | Enable or disable [[Tabs#Stack tab groups|Stacked tabs]] on your site.    |
+| Stack Pages          | Toggle | Enable or disable [[Tabs#Stack tab groups\|Stacked tabs]] on your site.    |
 
 ### Components
 
