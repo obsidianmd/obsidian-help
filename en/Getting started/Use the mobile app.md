@@ -42,7 +42,7 @@ Quick Action defaults to open [[Command palette]].
 ### Customize Quick Action
 
 1. Open Settings.
-2. Choose **Mobile**.
+2. Under **Options**, choose **Toolbar**.
 3. Under **Configure mobile Quick Action**, tap **Configure**.
 4. Type the name of the command.
 5. Select the command you’d like to set.
