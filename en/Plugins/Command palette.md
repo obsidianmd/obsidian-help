@@ -1,4 +1,4 @@
-Obsidian gives you access to many of the commands in Obsidian directly from your keyboard. The Command palette lets you run any command from the same interactive window. You can also explore the all available commands and their respective keyboard shortcuts.
+Obsidian gives you access to many of the commands in Obsidian directly from your keyboard. The Command palette lets you run any command from the same interactive window. You can also explore all the available commands and their respective keyboard shortcuts.
 
 To run a command from the Command palette:
 
