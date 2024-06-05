@@ -24,13 +24,13 @@ You can add additional syncing options of PDF's, audio files, video files, and o
 
 ### How much storage do I have?
 
-The storage limit depends on your Obsidian Sync plan. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
+The storage limit depends on your Obsidian [[Plans and storage limits#Plans|Sync plan]]. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
 
 You can view **Storage usage** in the Obsidian app by going to **Settings → Sync**.
 
-### How many remote vaults can I have?
-
-Each account with Obsidian Sync can have up to 10 remote vaults.
+### How many remote vaults can I have?  
+  
+The amount of remote vaults you can have is determined based on your [[Plans and storage limits#Plans|Sync plan]].
 
 ### How large can each remote vault be?
 

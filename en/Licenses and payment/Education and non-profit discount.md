@@ -1,7 +1,10 @@
 ---
 aliases:
-- Student and non-profit discount
-- Licenses & Payment/Education and non-profit discount
+  - Student and non-profit discount
+  - Licenses & Payment/Education and non-profit discount
+  - Discounts
+cssclasses:
+  - soft-embed
 ---
 
 Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services, including [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]].
@@ -24,7 +27,7 @@ Once you have an active discount, you can see how it will expire under **Payment
 
 A week before your discount expires, you will get an email reminder to renew it. You can follow the same steps in "[[#How to apply]]" to renew the discount, if you still qualify for it.
 
-## FAQ
+## Frequently asked questions
 
 **Who is eligible?**
 If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount. If you run or work at a non-profit organization, you generally qualify for non-profit discount.
@@ -40,7 +43,8 @@ If you’re already an early bird, there’s generally no point in applying for 
 **What if my educational or non-profit organization doesn't provide an email address?**
 In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Help and support#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too. Our team will review your application and get back to you. Thank you for your patience!
 
-**I qualify for a discount, but I already paid. Can I get a refund?**
-We understand that some people have purchased Sync or Publish without discounts either because discounts were not offered back then, or that you didn't know about the discount.
+### Refunds
 
-Unfortunately, we don't offer refunds in cases like this. Sorry! Thank you for understanding. The good news is that future renewals will automatically have the discount applied, as long as you have a valid discount.
+![[Refund policy#^discount-then-refund]]
+
+![[Refund policy#^purchase-then-discount-then-refund]]
