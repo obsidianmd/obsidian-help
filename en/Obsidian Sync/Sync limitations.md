@@ -12,13 +12,13 @@ This page lists some of the common questions related to questions and limitation
 
 Obsidian Sync supports every platform that Obsidian can run on. Currently that means Windows, macOS, Linux, Android and iOS.
 
-#### Does Obsidian work with Apple's Lockdown Mode?
+### Does Obsidian work with Apple's Lockdown Mode?
 
-Obsidian will work with [Lockdown Mode](https://support.apple.com/en-us/105120) so long as Obsidian is added as an exclusion. Some individual users with edge cases experience problems using Obsidian with lockdown mode. 
+Obsidian can be used in [Lockdown Mode](https://support.apple.com/en-us/105120) as long as Obsidian is added as an exclusion.
 
-### What type of data will sync?
+### What type of data is synced?
 
-By default your Obsidian notes, images, and your [[Configuration folder]] will sync. 
+By default your Obsidian notes, images, and your [[Configuration folder]] are synced. 
 
 You can add additional syncing options of PDF's, audio files, video files, and other files when you [[select files and settings to sync]].
 
@@ -30,13 +30,13 @@ You can view **Storage usage** in the Obsidian app by going to **Settings → Sy
 
 ### How many remote vaults can I have?  
   
-The amount of remote vaults you can have is determined based on your [[Plans and storage limits#Plans|Sync plan]].
+The number of remote vaults you can have is determined based on your [[Plans and storage limits#Plans|Sync plan]]. The Standard plan includes 1 vault, the Plus plan includes 10 vaults. Vaults shared with you do not count towards your vault limit.
 
 ### How large can each remote vault be?
 
-You can allocate your storage any way you want across all your vaults. 
+There is no per-vault limit. The storage limit is tied to your used account and can be applied across all your vaults.
 
-### How many people can I share this remote vault with?
+### How many people can I share a remote vault with?
 
 You can [[Collaborate on a shared vault|share a remote vault]] with up to 20 people.
 
