@@ -38,7 +38,7 @@ You can allocate your storage any way you want across all your vaults.
 
 ### How many people can I share this remote vault with?
 
-You can [[Collaborate on a shared vault|share a remote vault]] with up to 10 people.
+You can [[Collaborate on a shared vault|share a remote vault]] with up to 20 people.
 
 ### How large can each file be?
 

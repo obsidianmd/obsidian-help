@@ -2,23 +2,31 @@
 cssclasses:
   - soft-embed
 ---
-This page details some of the considerations a team of people may have when using Publish.
+Obsidian makes it easy to create and edit wikis, knowledge bases, documentation, and other types of websites. It can be used as an editing tool or CMS for both internal and external sites.
 
-For more information on setting up your Publish site and general considerations, please review [[Introduction to Obsidian Publish]] and [[Publish limitations]].
+## Publishing tools and services
 
-## Collaboration management
+You can create public and private sites using the official [[Introduction to Obsidian Publish|Obsidian Publish]] service, and publish directly from the Obsidian app.
 
-First, please read our guide on how to [[Collaborate on a Publish site]]. This will answer most basic questions, and will be appropriate for very small teams.
+Obsidian also works with a variety of third-party publishing tools. Obsidian is compatible with most static site generators (SSGs) such as Jekyll, Hugo, Astro, and Quartz. Community plugins allow you to publish to other services such as Confluence, Jira, and more.
 
-If you are a larger team, the default collaboration options in Obsidian Publish may not be scalable enough for proper version control (VCS). While we strongly recommend using [[Back up your Obsidian files|backups]] for your content, the day-to-day management of changes for Publish collaboration is not as fully functional as a service like Git.
+## Advanced collaboration for Obsidian Publish
 
-You will need to combine Publish with an external VCS, or use it in conjunction with a syncing service like [[Introduction to Obsidian Sync|Obsidian Sync]] to smooth the process of updating changes between multiple users. For example, this documentation is merged together on our [GitHub repository](https://github.com/obsidianmd/obsidian-help) and then the contents are published in Obsidian to the Publish site.
+For more information on setting up an [[Introduction to Obsidian Publish|Obsidian Publish]] site, please review the following articles:
 
-## Media
+- [[Introduction to Obsidian Publish]]
+- [[Collaborate on a Publish site]]
+- [[Publish limitations]]
 
-Obsidian Publish is designed to primarily process plain text files and some images, presenting them on a website for viewing. Due to its use of the same code as the application's [[Edit and preview Markdown#Editor views|reading view]], Obsidian Publish is not intended for high-quality media, such as large high-resolution galleries or image hosting. Instead, it prioritizes speed and lightweight functionality.
+If you are part of a larger team, you may need to pair Obsidian Publish with a more advanced version control system, such as Git. You can combine Publish with an external version control system, or use it in conjunction with a syncing service like [[Introduction to Obsidian Sync|Obsidian Sync]] to keep changes in sync across multiple users.
 
-## Frequently asked questions
+For example, this documentation site is hosted and Obsidian Publish and version control is managed via a public [GitHub repository](https://github.com/obsidianmd/obsidian-help).
+
+### Media
+
+Obsidian Publish is designed to primarily process plain text files and smaller images, presenting them on a website for viewing. Obsidian Publish is not designed to host large file size media, such as high-resolution image galleries and videos. For this we recommend hosting your assets on a dedicated CDN.
+
+### Frequently asked questions
 
 **Does every employee need to purchase a Publish subscription?**
 No. Only the site owner needs to purchase an Obsidian Publish subscription.

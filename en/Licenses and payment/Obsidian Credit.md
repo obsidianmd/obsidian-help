@@ -28,7 +28,7 @@ Obsidian Credit is not eligible for a refund per our [[Refund policy]].
 
 ## Gifting
 
-Although using Obsidian for personal use is completely free of charge, you can give the gift of Obsidian to someone to help them get an add-on service like [[Introduction to Obsidian Sync|Obsidian Sync]], or to get a [[Commercial licenses|Commercial license]] so they can use Obsidian for work.
+Although using Obsidian for personal use is completely free of charge, you can give the gift of Obsidian to someone to help them get an add-on service like [[Introduction to Obsidian Sync|Obsidian Sync]], or to get a [[Commercial license|Commercial license]] so they can use Obsidian for work.
 
 ## Give Obsidian Credit
 

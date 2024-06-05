@@ -5,19 +5,18 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
+Obsidian can be used as a note-taking application for individuals, and as a collaboration tool for your team.
 
-Obsidian serves as an excellent note-taking application for individuals, and a collaboration tool for your team. This section provides essential information for those considering Obsidian for their organization, large and small.
+## Use Obsidian with your team
 
-## Use Obsidian for your team
-
-- [[Commercial licenses]]
-	- Determine if you need a license and find purchase information
-- [[Install and deploy Obsidian]]
-	- Install, update, and customize Obsidian
-- [[Syncing for Teams]]
-	- Use Obsidian Sync with your team
-- [[Publishing for Teams]]
-	- Use Obsidian Publish with your team
+- [[Commercial license]]
+	- How to purchase licenses, and what qualifies as commercial use.
+- [[Deploy Obsidian across your team|Deploy Obsidian]]
+	- How to install, update, and customize Obsidian across your team.
+- [[Syncing for teams]]
+	- How to sync data across your team.
+- [[Publishing for teams]]
+	- How to publish data from your team's vault.
 
 ## Important resources
 

@@ -17,19 +17,18 @@ Catalyst license gives you exclusive benefits including:
 
 The Catalyst license consists of three tiers: *Insider*, *Supporter*, and *VIP*.
 
-| Benefits                                                                              | Insider | Supporter |   VIP    |
-|---------------------------------------------------------------------------------------|:-------:|:---------:|:--------:|
-| Early access to new versions                                                        |    ✓    |     ✓     |    ✓     |
+| Benefits                                                                           | Insider | Supporter |   VIP    |
+| ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
+| Early access to new versions                                                       |    ✓    |     ✓     |    ✓     |
 | Access to exclusive development channels, `#insider-desktop` and `#insider-mobile` |    ✓    |     ✓     |    ✓     |
-| Access to exclusive lounge channel, `#vip-lounge`                                 |         |     ✓     |    ✓     |
-| Insider community badge                                                               |    ✓    |           |          |
-| Supporter community badge                                                             |         |     ✓     |          |
-| VIP community badge                                                                   |         |           |    ✓     |
-| **Pricing**                                                                           | **$25** |  **$50**  | **$100** |
+| Access to exclusive lounge channel, `#vip-lounge`                                  |         |     ✓     |    ✓     |
+| Insider community badge                                                            |    ✓    |           |          |
+| Supporter community badge                                                          |         |     ✓     |          |
+| VIP community badge                                                                |         |           |    ✓     |
+| **Contribution (USD)**                                                             | **$25** |  **$50**  | **$100** |
 
-_Prices are in USD._
 
-> [!info] Upgrading tiers
+> [!info] Upgrade your Catalyst tiers
 > When you already own a Catalyst license, you can upgrade to a higher Catalyst tier by paying the price difference between your current and the new tier.
 
 ## Access Catalyst benefits
