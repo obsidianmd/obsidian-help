@@ -13,9 +13,9 @@ Obsidian can be used as a note-taking application for individuals, and as a coll
 	- How to purchase licenses, and what qualifies as commercial use.
 - [[Deploy Obsidian across your team|Deploy Obsidian]]
 	- How to install, update, and customize Obsidian across your team.
-- [[Syncing for teams]]
+- [[Syncing for Teams]]
 	- How to sync data across your team.
-- [[Publishing for teams]]
+- [[Publishing for Teams]]
 	- How to publish data from your team's vault.
 
 ## Important resources
