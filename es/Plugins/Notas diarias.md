@@ -4,5 +4,5 @@ El formato de fecha y la carpeta predeterminada para las notas diarias se pueden
 
 También puede definir un archivo de plantilla para notas diarias. Este archivo se copiará en su nota diaria cuando se cree, por lo que es un buen lugar para colocar etiquetas o enlaces que usa todos los días.
 
-Puede crear una nota diaria haciendo clic en el icono de calendario en el panel izquierdo o con la [[Paleta de comandos]]. También puede configurar una tecla de acceso rápido en [[Atajo de teclado]].
+Puede crear una nota diaria haciendo clic en el icono de calendario en el panel izquierdo o con la [[paleta de comandos]]. También puede configurar una tecla de acceso rápido en [[atajo de teclado]].
 

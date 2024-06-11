@@ -32,7 +32,7 @@ Si desea agregar su tema a la lista de temas de la comunidad, ¡háganoslo saber
 
 #### Complementos
 
-Si es un programador de JavaScript / TypeScript, puede escribir [[Complementos de terceros]] para Obsidian, ahora que nuestra API de complementos está en alfa.
+Si es un programador de JavaScript/TypeScript, puede escribir [[complementos de terceros]] para Obsidian, ahora que nuestra API de complementos está en alfa.
 
 ### 3. Traducción y revisión
 

@@ -1,22 +1,21 @@
 Muestra una representación gráfica de los  [[Enlace interno|enlaces internos]]  entre tus notas.
 
-Las notas con más notas que le hacen referencia aparecen como nodos más grandes en el gráfico.
-
+En este gráfico, las notas se representan por nodos cuyo tamaño aumenta en función de la cantidad de referencias que reciben. Cuanto más referencias tenga una nota, mayor será su nodo.
 
 ![[Pasted image 10.png]]
 
 
 ### Consejos de visualización
 
-- Puede colocar el cursor sobre cada nodo para resaltar sus conexiones, desvaneciendo todo lo demás.
-- Puede arrastrar nodos para reorganizar el gráfico. Esto puede resultar útil si algunos nodos se superponen a otros.
+- Puede colocar el cursor sobre cada nodo para resaltar sus conexiones, desvaneciendo todo lo demás
+- Puede arrastrar nodos para reorganizar el gráfico. Esto puede resultar útil si algunos nodos se superponen a otros
 
 
 ### Consejos de navegación
 
-- Para hacer zoom, puede usar la rueda de desplazamiento del mouse, así como las teclas `+` y `-`.
-- Para desplazarse, arrastre el fondo o use las teclas de flecha del teclado.
-- Mantenga presionada la tecla `Shift` mientras navega con el teclado para acelerar las cosas.
+- Para hacer zoom, puede usar la rueda de desplazamiento del mouse, así como las teclas `+` y `-`
+- Para desplazarse, arrastre el fondo o use las teclas de flecha del teclado
+- Mantenga presionada la tecla `Shift` mientras navega con el teclado para acelerar las cosas
 
 
 ### CSS personalizado
@@ -56,7 +55,6 @@ Dado que el gráfico se representa usando `<canvas>` y WebGL, [[Personalización
 ```
 
 #### Predeterminado:
-
 
 Estas reglas CSS son las que usa Obsidian por defecto. Puede anular cualquiera de ellos utilizando una regla CSS idéntica o [más específica](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity). Esto se aplica especialmente a `.color-fill-tag` y` .color-fill-attach` Como último recurso, agregue `!important` al final de tu regla.
 

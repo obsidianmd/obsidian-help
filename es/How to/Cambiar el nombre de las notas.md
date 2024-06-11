@@ -2,7 +2,7 @@ Si ya está editando la nota, puede cambiarle el nombre simplemente editando el 
 
 ![[Pasted image 6.png]]
 
-Si desea cambiar el nombre de una nota que no está editando, vaya a [[Explorador de archivos]], haga clic con el botón derecho en la nota o carpeta y elija "Cambiar nombre":
+Si desea cambiar el nombre de una nota que no está editando, vaya al [[explorador de archivos]], haga clic con el botón derecho en la nota o carpeta y elija "Cambiar nombre":
 
 ![[Pasted image 7.png]]
 

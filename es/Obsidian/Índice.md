@@ -1,4 +1,5 @@
 ## Acerca de este sitio
+
 ¡Bienvenido a la bóveda de ayuda oficial de Obsidian! Esta página contiene un índice rápido de las cosas que pueden interesarle.
 
 Ver versión pública alojada: https://publish.obsidian.md/help
@@ -15,16 +16,15 @@ Para leer más sobre los creadores, consulte la [página acerca de](https://obsi
 
 ### Acerca de la aplicación
 
-- Ver[[Obsidian|nuestra filosofía para la aplicación]].
+- Ver [[Obsidian|nuestra filosofía para la aplicación]].
 
 ### Empezando
 
-- ¿Busca alguna funcionalidad? Prueba la  [[Paleta de comandos]], que contiene todas las acciones disponibles que necesita para trabajar con Obsidian. Solo presione `Ctrl / Cmd + P` y empiece a escribir.
-- Conozca nuestro gusto de Markdown con [[Formatear tus notas|cómo dar formato a tus notas]].
-- Vea algunos consejos sobre [[Crear notas|creando nuevas notas]].
-- Vea algunos consejos sobre [[Enlace interno|creando enlaces internos]].
-- Aprender como [[Incrustar archivos|incrustar otras notas o archivos adjuntos]].
-- Ver los [[Atajo de teclado|atajos de teclado predeterminados]].
+- ¿Busca alguna funcionalidad? Prueba la [[paleta de comandos]], que contiene todas las acciones disponibles que necesita para trabajar con Obsidian. Solo presione `Ctrl / Cmd + P` y empiece a escribir
+- Conozca nuestro gusto de Markdown con [[Formatear tus notas|cómo dar formato a tus notas]]
+- Vea algunos consejos sobre [[Crear notas|creando nuevas notas]] y [[Enlace interno|creando enlaces internos]]
+- Aprender como [[Incrustar archivos|incrustar otras notas o archivos adjuntos]]
+- Ver los [[Atajo de teclado|atajos de teclado predeterminados]]
 
 ### Complementos oficiales
 
