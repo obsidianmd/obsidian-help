@@ -23,7 +23,7 @@ You don't need a Commercial license if you work in any of the following settings
 
 - Schools and recognized educational institutions
 - Non-commercial research
-- Registered Non-profit organizations
+- Registered non-profit organizations
 - Freelancing or companies with a single person
 
 Government departments and agencies are classified as commercial use unless registered as a non-profit organization.
