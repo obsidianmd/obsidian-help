@@ -55,6 +55,6 @@ Admitimos [[Personalización de CSS | CSS personalizado]] y tenemos unos [[Compl
 
 ## Sigue nuestro desarrollo
 
-Obsidian está en beta pública en este momento. Tenemos [una hoja de ruta](https://trello.com/b/Psqfqp7I/obsidian-roadmap) que puede consultar.
+Obsidian está en beta pública en este momento. Tenemos [una hoja de ruta](https://obsidian.md/roadmap) que puede consultar.
 
 Nuestro nombre de usuario de Twitter es [@obsdmd](https://twitter.com/obsdmd), no dude en seguirnos. Principalmente twitteamos sobre actualizaciones de productos.

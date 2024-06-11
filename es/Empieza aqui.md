@@ -20,7 +20,7 @@ Si desea una introducción más completa, que incluya un poco sobre nuestra filo
 
 Y si desea una presentación suave, o simplemente desea comenzar pero no sabe cómo, diríjase a [[Toma de notas básica]].
 
-Si es un [partidario de Catalyst] (https://obsidian.md/pricing) y desea activar Compilaciones internas, consulte [[Compilaciones internas]].
+Si es un [partidario de Catalyst](https://obsidian.md/pricing) y desea activar Compilaciones internas, consulte [[Compilaciones internas]].
 
 ## Flujos de trabajo
 
