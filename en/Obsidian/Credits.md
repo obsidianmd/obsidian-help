@@ -50,6 +50,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - Andrea Brandi (Italian)
 - bongudth (Vietnamese)
 - canzi-teacher, 蚕子 (Simplified Chinese)
+- cvyl, Mikka (Dutch)
 - Daniel Mathiot (French)
 - Diego Tres (Brazilian Portuguese)
 - Haitham Mohamed (Arabic)
