@@ -4,5 +4,5 @@ By default, hovering over a link will preview that file in [[File explorer]], [[
 
 There is also an option to require `Ctrl` (or `Cmd` on macOS) while hovering to see the file. The settings for this option are under Core plugins > Page preview.
 
-> [!warning]
+> [!hint]
 > Preview is **on by default**. Toggling the plugin option will **turn the behavior off**.
