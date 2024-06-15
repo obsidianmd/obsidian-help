@@ -4,11 +4,11 @@ aliases:
   - Import from Notion
 ---
 
-使用[[迁移助手|Importer插件]]，你可以轻松将笔记从 Notion 迁移到 Obsidian。
+使用[[迁移助手|Importer插件]]，你可以轻松将笔记从 Notion 迁移到 Obsidian。这将把你 Notion 中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
 
 ## 从 Notion 导出数据
 
-Obsidian 使用 Notion 的 HTML 导出格式。你可以在 [Notion官网](https://www.notion.so/help/export-your-content)找到导出整个工作区的指南。需要注意的是，你必须是工作区的管理员才能看到此选项。
+要将数据导入 Obsidian，你需要使用 Notion 的 HTML 导出格式导出整个工作区。我们建议你不要使用 Notion 的 Markdown 导出，因为它省略了很多重要数据。你可以在 [Notion官网](https://www.notion.so/help/export-your-content)找到导出整个工作区的指南。但需要注意的是，你必须是工作区的管理员才能看到此选项。
 
 1. 在左侧侧边栏顶部转到**设置与成员**。
 2. 在该窗口的侧边栏中选择**设置**。
@@ -43,3 +43,12 @@ Obsidian 使用 Notion 的 HTML 导出格式。你可以在 [Notion官网](https
 - 如果在导入过程中 Obsidian 出现卡顿，请禁用社区插件后重试。
 
 遇到其他问题时，请到[Importer 的仓库](https://github.com/obsidianmd/obsidian-importer/issues)看看其他人是否遇到过相同问题、并是否存在解决方法。
+### 导入大型工作区
+
+如果你打算导入 Notion 中以 GB 计的数据， Notion 的导出文件可能包含嵌套的 zip 压缩文件。在这种情况下，你导入时可能会看到错误提示，大致如下:
+
+```
+Import failed {id}.zip/{id}-Part-1.zip undefined.
+```
+
+如果看到此错误，则可以解压相关文件，然后导入嵌套的`export- {id} -part-1.zip`文件。

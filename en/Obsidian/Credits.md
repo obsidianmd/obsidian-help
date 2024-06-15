@@ -63,6 +63,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - Manuel Arias Almada (Spanish)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
+- Ryooo，睿悠ryooo (Chinese Simplified)
 - Sakvipubp Suy (Khmer)
 - smilorent, Silviu Lorenț (Romanian)
 - Solyta Teng (Khmer)
