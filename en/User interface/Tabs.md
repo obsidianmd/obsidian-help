@@ -96,8 +96,7 @@ To stack notes, select the down arrow at the upper right corner of the tab group
 
 ![tab-stacks](https://user-images.githubusercontent.com/693981/188205363-0f24b2a5-3706-4a8c-b38b-7a66baa68ce6.gif)
 
-> [!note] Matushak mode
-> Tab stacks are based on [Andy Matushak's sliding notes](https://notes.andymatuschak.org/).
+Tab stacks are inspired by [Andy Matuschak's sliding notes](https://notes.andymatuschak.org/).
 
 ## Linked views
 
