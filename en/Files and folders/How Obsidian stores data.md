@@ -34,3 +34,9 @@ Obsidian stores global settings in a system folder. The location of the system f
 
 > [!warning]
 > Don't create a vault in the system folder. This may lead to corrupted data or data loss.
+
+## Metadata cache
+
+In order to provide a fast experience while using the app, Obsidian maintains a local record of metadata about the files in your vault called the **metadata cache**. This metadata powers many things across the app, from the Graph view to the Outline view.
+
+Obsidian keeps this cache in sync with the files in your vault, but it is possible for the data to get out of sync with the underlying files. In the event that this happens to your vault, you can rebuild your metadata cache from the app settings in the *Files and links* section.
