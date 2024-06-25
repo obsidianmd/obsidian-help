@@ -18,7 +18,7 @@ Catalyst 许可证为你提供了一些福利，包括：
 
 ## Catalyst 许可证的分级
 
-Catalyst 许可证包括三个级别：[](商用许可证.md)、*Supporter* 和 *VIP*。
+Catalyst 许可证包括三个级别：*Insider*、*Supporter* 和 *VIP*。
 
 | 福利                                              | Insider | Supporter |   VIP    |
 | ----------------------------------------------- | :-----: | :-------: | :------: |
