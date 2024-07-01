@@ -79,7 +79,7 @@ This line corresponds with where your server is hosted. The list below correspon
 | San Francisco          | Frankfurt | Singapore | Sydney    |
 | ---------------------- | --------- | --------- | --------- |
 | `sync-01` to `sync-12` | `sync-13` | `sync-17` | `sync-18` |
-| `sync-14` to `sync-15` | `sync-16` |           |           |
+| `sync-14` to `sync-15` | `sync-16` | `sync-22` |           |
 | `sync-19`              | `sync-20` |           |           |
 | `sync-21`              |           |           |           |
 ^sync-server-location-table
