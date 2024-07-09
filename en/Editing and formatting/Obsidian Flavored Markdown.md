@@ -4,17 +4,17 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 
 ### Supported Markdown extensions
 
-Syntax | Description
--|-
-`[[Link]]` | [[Internal links]]
-`![[Link]]` | [[Embed files]]
-`![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]
-`^id` | [[Internal links#Link to a block in a note\|Defining a block]]
-`%%Text%%` | [[Basic formatting syntax#Comments\|Comments]]
-`~~Text~~`| [[Basic formatting syntax#Styling text\|Strikethroughs]]
-`==Text==`| [[Basic formatting syntax#Styling text\|Highlights]]
-`` ``` ``  | [[Basic formatting syntax#Code blocks\|Code blocks]]
-`- [ ]`  | [[Basic formatting syntax#Task lists\|Incomplete task]]
-`- [x]`  | [[Basic formatting syntax#Task lists\|Completed task]]
-`> [!note]` | [[Callouts]]
-| (see link) | [[Advanced formatting syntax#Tables\|Tables]]
+| Syntax          | Description                                                           |
+| --------------- | --------------------------------------------------------------------- |
+| `[[Link]]`      | [[Internal links]]                                                    |
+| `![[Link]]`     | [[Embed files]]                                                       |
+| `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]        |
+| `^id`           | [[Internal links#Link to a block in a note\|Defining a block]]        |
+| `%%Text%%`      | [[Basic formatting syntax#Comments\|Comments]]                        |
+| `~~Text~~`      | [[Basic formatting syntax#Bold, italics, highlights\|Strikethroughs]] |
+| `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|Highlights]]     |
+| `` ``` ``       | [[Basic formatting syntax#Code blocks\|Code blocks]]                  |
+| `- [ ]`         | [[Basic formatting syntax#Task lists\|Incomplete task]]               |
+| `- [x]`         | [[Basic formatting syntax#Task lists\|Completed task]]                |
+| `> [!note]`     | [[Callouts]]                                                          |
+| (see link)      | [[Advanced formatting syntax#Tables\|Tables]]                         |
