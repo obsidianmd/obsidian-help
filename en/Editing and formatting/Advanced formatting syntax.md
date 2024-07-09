@@ -35,10 +35,10 @@ Marie | Curie
 
 You can use [[basic formatting syntax]] to style content within a table.
 
-First column | Second column
--- | --
-[[Internal links]] | Link to a file _within_ your **vault**.
-[[Embed files]] | ![[og-image.png\|200]]
+| First column       | Second column                           |
+| ------------------ | --------------------------------------- |
+| [[Internal links]] | Link to a file _within_ your **vault**. |
+| [[Embed files]]    | ![[Engelbart.jpg\|100]]                 |
 
 > [!note] Vertical bars in tables
 > If you want to use [[aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
@@ -46,12 +46,12 @@ First column | Second column
 > ```md
 > First column | Second column
 > -- | --
-> [[Basic formatting syntax\|Markdown syntax]] | ![[og-image.png\|200]]
+> [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
 > ```
 >
 > First column | Second column
 > -- | --
-> [[Basic formatting syntax\|Markdown syntax]] | ![[og-image.png\|200]]
+> [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
 
 You can align text to the left, right, or center of a column by adding colons (`:`) to the header row.
 

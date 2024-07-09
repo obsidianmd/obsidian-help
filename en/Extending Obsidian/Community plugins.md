@@ -6,7 +6,7 @@ Learn how to extend Obsidian with plugins built by the community. Use plugins to
 ## Browse community plugins
 
 1. Open **Settings**.
-2. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode]].
+2. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode|Restricted Mode]].
 3. Select **Browse** to list all available community plugins.
 
 Use the text box to filter plugins based on their name, author, and description.
@@ -15,7 +15,7 @@ You can also browse available plugins in your browser, by heading to [obsidian.m
 
 ## Install a community plugin
 
-To install a community plugin, you must first turn off [[#Restricted mode]].
+To install a community plugin, you must first turn off [[Plugin security#Restricted mode|Restricted Mode]].
 
 1. Open **Settings**.
 2. In the side menu, select **Community plugins**.
