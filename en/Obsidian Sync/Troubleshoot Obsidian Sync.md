@@ -49,22 +49,25 @@ If you've set up your vault in a folder synced by a third-party service, follow 
 
 ##### Move your vault using the vault switcher
 
-1. Select **Open another vault** ( ![[obsidian-icon-vault-switcher.svg#icon]] ) in the bottom-left corner.
-2. Choose **More options** ( ![[lucide-more-horizontal.svg#icon]] ) next to the vault to move.
-3. Pick a new location for the vault on your file system.
+1. On your computer, open Obsidian.
+2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
+3. A context menu will pop up. Select **Manage Vaults...**.
+4. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg]] ) next to the vault you want to move.
+5. Select **Move vault**, and then select the new location.
 
 ##### Move your vault manually
 
-1. Back up your vault by copying it to a safe location.
-2. Quit Obsidian.
-3. Move your vault folder from the old location to a new one, avoiding folders synced by other services.
-4. Verify that your backup contains the vault.
-5. Relaunch Obsidian.
-6. Select **Open another vault** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
-7. Choose **Open folder as vault**.
-8. Go to the new vault location and select the vault folder.
-9. Check and make sure the vault looks the same. You might have to re-enable community plugins under **Settings → Community Plugins → Turn restricted mode off**.
-10. [[Set up Obsidian Sync on another device#Connect to a remote vault|Reconnect to the remote vault]].
+1. [[Back up your Obsidian files]].
+2. Close Obsidian.
+3. Move your vault folder to a new location, avoiding folders synced by other services.
+4. Reopen Obsidian.
+5. Click the **Vault profile** icon at the bottom left ( ![[lucide-chevrons-up-down.svg#icon]]).
+6. From the pop-up menu, select **Manage Vaults...**.
+7. Next to **Open folder as vault**, click **Open**.
+8. Navigate to and select your new vault folder.
+9. Click **Open**.
+10. Verify that the vault contents are unchanged. If necessary, re-enable community plugins by navigating to **Settings → Community Plugins → Turn restricted mode off**.
+11. [[Set up Obsidian Sync on another device#Connect to a remote vault|Reconnect to the remote vault]].
 
 #### Mobile
 
@@ -106,7 +109,7 @@ This error may occur in the following scenarios:
 2. The sync subscription was inactive for over 30 days, leading to the removal of the remote vault.
 3. The subscription was canceled or refunded, resulting in the purging of the remote vault.
 
-In each case, it is necessary to [[Set up Obsidian Sync#Disconnect to a remote vault|disconnect from the remote vault]] and [[Set up Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring the data on your device is retained.
+In each case, it is necessary to [[Set up Obsidian Sync#Disconnect from a remote vault|disconnect from the remote vault]] and [[Set up Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring the data on your device is retained.
 
 ## Android
 
