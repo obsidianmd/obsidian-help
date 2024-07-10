@@ -30,7 +30,7 @@ Existen algunas diferencias con los paneles que se encuentran en las barras late
 
 #### Los paneles de la barra lateral pueden compartir espacio con pestañas
 
-Cuando suelte un panel en un panel de la barra lateral, se creará una nueva pestaña debajo de esa sección de la barra lateral. Se puede acceder a diferentes paneles en la misma sección de la barra lateral haciendo clic en su icono de pestaña.
+Cuando suelte un panel en otro de la barra lateral, se creará una nueva pestaña debajo de esa sección. Se puede acceder a diferentes paneles en la misma sección de la barra lateral haciendo clic en su icono de pestaña.
 
 #### Los paneles de la barra lateral no muestran títulos
 

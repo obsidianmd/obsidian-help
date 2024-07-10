@@ -40,7 +40,7 @@ Para más información, ver [[Panel vinculado|paneles vinculados]].
 
 ##### 5. Los paneles se pueden reorganizar ==arrastrando==.
 
-Toma el ícono en la esquina superior izquierda para organizarlos como necesites. Para obtener información detallada, consulte [[Disposición del panel]].
+Toma el ícono en la esquina superior izquierda para organizarlos como necesites. Para obtener información detallada, consulte [[disposición del panel]].
 
 ---
 

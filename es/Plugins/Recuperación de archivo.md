@@ -14,12 +14,12 @@ Este proceso es automático. De forma predeterminada, las instantáneas se reali
 
 En caso de pérdida de datos, así es como puede encontrar instantáneas guardadas:
 
-1. Abra la configuración;
-2. Abra la pestaña "Recuperación de archivos" en "Opciones de complementos";
-3. Haga clic en el botón "Ver" en la sección "Instantáneas";
-4. En la barra de búsqueda de la izquierda, ingrese el nombre del archivo que desea recuperar. Si el nombre del archivo no se muestra, significa que no se guardaron instantáneas para ese archivo;
-5. Después de seleccionar un archivo en el menú desplegable, aparecerá una lista de instantáneas a la izquierda. Seleccione el que desea recuperar;
-6. El contenido de esa instantánea se mostrará a la derecha. Puede hacer clic en "Copiar al portapapeles" para copiar todo o seleccionar parte del contenido.
+1. Abra la configuración
+2. Abra la pestaña "Recuperación de archivos" en "Opciones de complementos"
+3. Haga clic en el botón "Ver" en la sección "Instantáneas"
+4. En la barra de búsqueda de la izquierda, ingrese el nombre del archivo que desea recuperar. Si el nombre del archivo no se muestra, significa que no se guardaron instantáneas para ese archivo
+5. Después de seleccionar un archivo en el menú desplegable, aparecerá una lista de instantáneas a la izquierda. Seleccione el que desea recuperar
+6. El contenido de esa instantánea se mostrará a la derecha. Puede hacer clic en "Copiar al portapapeles" para copiar todo o seleccionar parte del contenido
 
 ##Opciones
 

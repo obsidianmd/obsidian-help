@@ -86,7 +86,7 @@ Continúe leyendo para conocer los detalles de la configuración.
 
 #### Configuración de CloudFlare
 
-La forma más fácil de configurar un dominio o subdominio personalizado es crear una cuenta con [CloudFlare] (https://cloudflare.com) y dejar que CloudFlare administre su dominio. Esto le permite agregar SSL a su sitio de forma gratuita, así como garantizar que su sitio sea rápido desde cualquier lugar del mundo desde el que se acceda. Normalmente, los usuarios alojarán su contenido de Obsidian Publish en un dominio raíz (por ejemplo, `misitio.com`) o un subdominio inmediato (por ejemplo,` notas.mysitio.com`). Estas instrucciones funcionan para ambos casos.
+La forma más fácil de configurar un dominio o subdominio personalizado es crear una cuenta con [CloudFlare](https://cloudflare.com) y dejar que CloudFlare administre su dominio. Esto le permite agregar SSL a su sitio de forma gratuita, así como garantizar que su sitio sea rápido desde cualquier lugar del mundo desde el que se acceda. Normalmente, los usuarios alojarán su contenido de Obsidian Publish en un dominio raíz (por ejemplo, `misitio.com`) o un subdominio inmediato (por ejemplo,` notas.mysitio.com`). Estas instrucciones funcionan para ambos casos.
 
 1. Abra Cloudflare en el dominio al que desea agregar Publicar (por ejemplo, `misitio.com`, incluso si desea un subdominio como` notas.mysitio.com`).
 2. Vaya a DNS y haga clic en Agregar registro. Seleccione CNAME, y en 'nombre' ingrese el dominio o subdominio que desee (por ejemplo, `notes.misitio.com`). En 'objetivo', ingrese el valor `publish-main.obsidian.md`. No incluya su sub-URL personal en este valor, ya que Obsidian Publish maneja esto desde su configuración.
@@ -119,7 +119,7 @@ location /my-notes {
 ```
 
 En Apache `.htaccess`, puede configurarlo como:
-(Nota: mod_rewrite debe estar habilitado y es posible que también deba configurar [SSLProxyEngine] (https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache))
+(Nota: mod_rewrite debe estar habilitado y es posible que también deba configurar [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache))
 ```htaccess
 RewriteEngine  on
 RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=misitio.com/my-notes/$1"  [L,P]
@@ -152,11 +152,11 @@ Obsidian Publish is still in its early days. Here are some features we plan to a
 - Búsqueda de texto completo.
 - Más temas integrados.
 
-Háganos saber si tiene alguna solicitud de función de Obsidian Publish enviando una [solicitud de foro aquí] (https://forum.obsidian.md/).
+Háganos saber si tiene alguna solicitud de función de Obsidian Publish enviando una [solicitud de foro aquí](https://forum.obsidian.md/).
 
 ### Precios
 
-Para conocer los precios de Obsidian Publish, visite [nuestra página de precios] (https://obsidian.md/pricing).
+Para conocer los precios de Obsidian Publish, visite [nuestra página de precios](https://obsidian.md/pricing).
 
 ### Detalles técnicos
 
