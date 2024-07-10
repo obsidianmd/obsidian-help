@@ -93,7 +93,7 @@ The following configurations will not hot reload, and will require an applicatio
 
 Additionally, in rare cases, configurations that do not support hot reloading may be merged incorrectly or overwritten completely. For more details, see [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]].
 
-> [!abstract] Community Plugins and Hot-Reloading
+> [!abstract] Community plugins and hot-reloading
 > Community plugin developers can enable hot reloading for their configuration files using the [Plugin.onExternalSettingsChange() method](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange). However, hot reloading may not be suitable for all plugins and could be disadvantageous in some scenarios.
 
 
