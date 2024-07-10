@@ -1,4 +1,21 @@
-Any files or settings that have been synced to your [[Local and remote vaults|remote vault]] count towards your [[Sync limitations#How large can each remote vault be|storage space]]. By default, [[Introduction to Obsidian Sync|Obsidian Sync]] does not sync larger files such as audio, video, and PDFs.
+Any files or settings synced to your [[Local and remote vaults|remote vault]] contribute to your [[Sync limitations#How large can each remote vault be|storage space]]. By default, [[Introduction to Obsidian Sync|Obsidian Sync]] activates **selective sync** for the following file types:
+- Images
+- Audio
+- Videos
+- PDFs
+
+To sync additional file types, manually toggle `Sync all other types`.
+
+The default **vault configuration sync** settings include:
+- Other file types
+- Main settings
+- Appearance
+- Themes and snippets
+- Hotkeys
+- Active core plugin list
+- Core plugin settings
+
+To sync community plugins, manually toggle `Active community plugin list` and `Installed community plugin list`.
 
 ## Change the file types you want to sync
 
@@ -8,7 +25,8 @@ Any files or settings that have been synced to your [[Local and remote vaults|re
 
 Note that your [[Plans and storage limits|Sync plan]] defines the maximum file size you can sync. With the Standard plan you can sync files up to 5MB, while the Plus plan allows you to sync files up to 200MB.
 
-> [!info] Synced files will not be deleted from your remote vault if you exclude them from sync. If possible, configure the files and settings you want to sync before you start syncing your vault to prevent using storage space unnecessarily.
+> [!info] Files previously synced will remain in your remote vault even if later excluded from sync. Configure the files and settings you wish to sync before initiating the process to avoid unnecessary use of storage space.
+
 
 ## Exclude a folder from being synced
 
@@ -29,34 +47,52 @@ Common examples of hidden folders that will not be synced include `.vscode`, `
 
 ### Sync settings are not synced
 
-Sync settings are not synced so that each each device can be separately configured according to your needs.
-
-> [!tip] Restart the app to apply settings changes on other devices
-> Obsidian **only** applies vault settings when the app starts. If you change a setting on one device, you **must restart** Obsidian on your other devices for the new changes to take effect. 
-> 
-> For example, if you change the path of your daily notes in the [[Daily Notes]] plugin, you need to restart Obsidian on your other devices to use the new path.
+Sync settings themselves are not synced so that each each device can be separately configured according to your needs.
 
 ## Updating your synced vault settings
 
-If you have an existing multi-device sync setup and want to modify your sync settings across devices.
+If you need to modify your sync settings across multiple devices, follow these steps:
+
+> [!tip] In this context, the remote vault does not differentiate between primary and secondary devices; these terms are used for clarity.
 
 ### Primary device
 
-The primary device is your source-of-truth device. It can also mean the device you make the new change on, that you wish to sync across your other devices.
+The primary device is considered your source-of-truth. This is the device on which you make changes that you want to sync across all other devices.
 
 1. Access **Settings** → **Sync**.
 2. Activate the desired settings under **Vault configuration sync**.
-3. Restart Obsidian. On mobile or tablet, this may require a force quit.
+3. Reload or Restart Obsidian. On mobile or tablet, this may require a force quit.
 4. Allow time for the settings to synchronize with your remote vault.
 
 ### Secondary device(s)
 
-The secondary device is another device you use Obsidian with (e.g. your phone). It can also mean the devices you wish to receive an updated change on.
+The secondary device is any other device you use with Obsidian, such as your phone. It refers to devices that receive updates from the primary device.
 
 1. Navigate to **Settings** → **Sync**.
 2. Enable the desired settings under **Vault configuration sync**.
 3. Wait for the changes to be downloaded from your remote vault.
-4. Restart the application to ensure that your synchronized settings take effect. On mobile or tablet, this may require a force quit.
+4. Reload or Restart the application to ensure that your synchronized settings take effect. On mobile or tablet, this may require a force quit.
+
+## Hot reloading of settings
+
+> [!question] Wondering what Hot Reloading is? Hot reloading refreshes only the modified files without resetting the app's state, but it does not necessarily apply those changes without a reload.
+
+Obsidian has limited ability to update and apply configurations received from Sync. The following configurations will hot reload:
+
+- Most Obsidian app configurations, including hotkeys and properties.
+- Appearance configurations.
+- Configurations for already enabled Obsidian Core plugins (e.g., the location of the daily notes template folder).
+
+However, for CSS changes involving [[CSS snippets]] or [[Themes]], while the appearance configurations are received, the application must be reloaded to reflect visual changes.
+
+The following configurations will not hot reload and will require an application reload or restart:
+
+- Graph view configurations.
+- States of Obsidian Core plugins (e.g., whether Daily Notes is enabled).
+- Community plugin configurations.
+
+> [!abstract] Community Plugins and Hot-Reloading
+> Community plugin developers can enable hot reloading for their configuration files using the [Plugin.onExternalSettingsChange() method](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange). However, hot reloading may not be suitable for all plugins and could be disadvantageous in some scenarios.
 
 
 ## Settings profiles
