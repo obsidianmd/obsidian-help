@@ -85,11 +85,13 @@ Obsidian has limited ability to update and apply configurations received from Sy
 
 However, for CSS changes involving [[CSS snippets]] or [[Themes]], while the appearance configurations are received, the application must be reloaded to reflect visual changes.
 
-The following configurations will not hot reload and will require an application reload or restart:
+The following configurations will not hot reload, and will require an application reload or restart:
 
 - Graph view configurations.
 - States of Obsidian Core plugins (e.g., whether Daily Notes is enabled).
 - Community plugin configurations.
+
+Additionally, in rare cases, configurations that do not support hot reloading may be merged incorrectly or overwritten completely. For more details, see [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]].
 
 > [!abstract] Community Plugins and Hot-Reloading
 > Community plugin developers can enable hot reloading for their configuration files using the [Plugin.onExternalSettingsChange() method](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange). However, hot reloading may not be suitable for all plugins and could be disadvantageous in some scenarios.
