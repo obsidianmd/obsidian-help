@@ -51,7 +51,7 @@ No, files are only synced when Obsidian is running.
 
 ### Does Obsidian Sync live-reload my settings?
 
-While some configurations in Obsidian can [[Select files and settings to sync#Hot reloading of settings|Hot reload]], they do not live reload. Typically, you will need to reload or restart Obsidian for changes to fully take effect.
+No, plugins, settings, and theme updates from one device, will require a restart of the application on the other devices once the update is received.
 
 ### Can I use a third-party sync with Obsidian Sync?
 
