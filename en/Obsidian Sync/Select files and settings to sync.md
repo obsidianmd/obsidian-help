@@ -47,7 +47,7 @@ Common examples of hidden folders that will not be synced include `.vscode`, `
 
 ### Sync settings are not synced
 
-Sync settings themselves are not synced so that each each device can be separately configured according to your needs.
+Sync settings themselves are not synced so that each device can be separately configured according to your needs.
 
 ## Updating your synced vault settings
 
