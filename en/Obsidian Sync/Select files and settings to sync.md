@@ -71,7 +71,7 @@ The secondary device is any other device you use with Obsidian, such as your pho
 1. Navigate to **Settings** → **Sync**.
 2. Enable the desired settings under **Vault configuration sync**.
 3. Wait for the changes to be downloaded from your remote vault.
-4. Reload or Restart the application to ensure that your synchronized settings take effect. On mobile or tablet, this may require a force quit.
+4. Reload or restart the application to ensure that your synchronized settings take effect. On mobile or tablet, this may require a force quit.
 
 ## Hot reloading of settings
 
