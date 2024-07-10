@@ -53,7 +53,7 @@ Sync settings themselves are not synced so that each device can be separately co
 
 If you need to modify your sync settings across multiple devices, follow these steps:
 
-> [!tip] In this context, the remote vault does not differentiate between primary and secondary devices; these terms are used for clarity.
+> [!tip] In this context, the remote vault does not differentiate between primary and secondary devices; these terms are used for user clarity.
 
 ### Primary device
 
@@ -73,9 +73,7 @@ The secondary device is any other device you use with Obsidian, such as your pho
 3. Wait for the changes to be downloaded from your remote vault.
 4. Reload or restart the application to ensure that your synchronized settings take effect. On mobile or tablet, this may require a force quit.
 
-## Hot reloading of settings
-
-> [!question] Wondering what Hot Reloading is? Hot reloading refreshes only the modified files without resetting the app's state, but it does not necessarily apply those changes without a reload.
+## Reloading of settings
 
 Obsidian has limited ability to update and apply configurations received from Sync. The following configurations will hot reload:
 
@@ -89,13 +87,10 @@ The following configurations will not hot reload, and will require an applicatio
 
 - Graph view configurations.
 - States of Obsidian Core plugins (e.g., whether Daily Notes is enabled).
-- Community plugin configurations.
 
 Additionally, in rare cases, configurations that do not support hot reloading may be merged incorrectly or overwritten completely. For more details, see [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]].
 
-> [!abstract] Community plugins and hot-reloading
-> Community plugin developers can enable hot reloading for their configuration files using the [Plugin.onExternalSettingsChange() method](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange). However, hot reloading may not be suitable for all plugins and could be disadvantageous in some scenarios.
-
+> [!todo] Are you a plugin developer? Learn how to [seamlessly integrate your plugin with Obsidian Sync](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange).
 
 ## Settings profiles
 
