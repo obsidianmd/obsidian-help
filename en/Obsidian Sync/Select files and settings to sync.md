@@ -25,7 +25,7 @@ To sync community plugins, manually toggle `Active community plugin list` and `I
 
 Note that your [[Plans and storage limits|Sync plan]] defines the maximum file size you can sync. With the Standard plan you can sync files up to 5MB, while the Plus plan allows you to sync files up to 200MB.
 
-> [!info] Files previously synced will remain in your remote vault even if later excluded from sync. Configure the files and settings you wish to sync before initiating the process to avoid unnecessary use of storage space.
+> [!info] Adding a file to the **Excluded files** list will not remove the file from the remote vault if it has already been synced. Configure the files and settings you wish to sync before initiating the process to avoid unnecessary use of storage space.
 
 
 ## Exclude a folder from being synced
