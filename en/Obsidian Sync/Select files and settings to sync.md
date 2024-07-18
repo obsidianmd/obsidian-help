@@ -15,7 +15,7 @@ The default **vault configuration sync** settings include:
 - Active core plugin list
 - Core plugin settings
 
-To sync community plugins, manually toggle `Active community plugin list` and `Installed community plugin list`.
+To sync community plugins, manually toggle **Active community plugin list** and **Installed community plugin list**.
 
 ## Change the file types you want to sync
 
@@ -26,7 +26,6 @@ To sync community plugins, manually toggle `Active community plugin list` and `I
 Note that your [[Plans and storage limits|Sync plan]] defines the maximum file size you can sync. With the Standard plan you can sync files up to 5MB, while the Plus plan allows you to sync files up to 200MB.
 
 > [!info] Adding a file to the **Excluded files** list will not remove the file from the remote vault if it has already been synced. Configure the files and settings you wish to sync before initiating the process to avoid unnecessary use of storage space.
-
 
 ## Exclude a folder from being synced
 
@@ -95,6 +94,7 @@ Additionally, in rare cases, configurations that do not support hot reloading ma
 ## Settings profiles
 
 Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] to the same remote vault. You can use this to create different profiles, for example, one for mobile devices and another for your laptop.
+
 ## Create a settings profile
 
 To set your settings folder:
