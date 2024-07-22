@@ -11,8 +11,8 @@ Obsidian currently offers two types of discounts: education and non-profit. They
 
 ## How to apply
 
-1. Go to [your account page](https://obsidian.md/account).
-2. Under **Payment & billing**, find the **Discount** section, and click on the **"Apply"** link.
+1. Go to [your account dashboard](https://obsidian.md/account/billing).
+2. Under **Billing**, find the **Discount** section, and click on the **Apply** link.
 3. Select a discount type depending on your situation, fill out your **educational or organization email** (not your account email).
 4. Click **Send application**.
 5. In your school or organization email inbox, you should get an email from us to verify your email address. Click on the link to verify.
@@ -23,7 +23,7 @@ Congratulations! Now you’ll see the discount when you try to purchase Obsidian
 
 ## How to renew
 
-Once you have an active discount, you can see how it will expire under **Payment & billing → Discount** on [your account page](https://obsidian.md/account).
+Once you have an active discount, you can see how it will expire under **Billing → Discount** of [your account](https://obsidian.md/account/billing).
 
 A week before your discount expires, you will get an email reminder to renew it. You can follow the same steps in "[[#How to apply]]" to renew the discount, if you still qualify for it.
 

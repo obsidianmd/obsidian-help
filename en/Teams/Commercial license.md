@@ -34,9 +34,9 @@ Obsidian offers two methods for purchasing a commercial license. Check the [pric
 
 **Purchasing using an Obsidian account**
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account).
-2. Go to the **Commercial License** section.
-3. Click **Buy License** and select the number of seats to purchase.
+1. Log in or create [your Obsidian account](https://obsidian.md/account/commercial).
+2. Go to the **License** section.
+3. Click **Buy license** and select the number of seats to purchase.
 4. Complete the payment process.
 5. Your license key will be displayed and can be activated using the steps below.
 
@@ -110,7 +110,7 @@ Yes. You and your team may evaluate Obsidian for commercial use for **14** days.
 Yes. If you are purchasing 21 or more seats, you may be eligible for bulk pricing. Please contact [[Help and support#Contact Obsidian support|Obsidian support]].
 
 **Can I buy a license for myself, or do I have to ask my company to buy it for me?**
-Yes. You can buy a license for yourself by going to your [Account dashboard](https://obsidian.md/account). Most companies allow you to submit an expense report for the purchase.
+Yes. You can buy a license for yourself by going to your [Account dashboard](https://obsidian.md/account/commercial). Most companies allow you to submit an expense report for the purchase.
 
 Some companies may have a different procurement process. Ask your IT department to contact [[Help and support#Contact Obsidian support|Obsidian support]] if they have questions or require specific paperwork.
 
@@ -120,7 +120,7 @@ Use your company's name for the license if you expect to be reimbursed by your c
 Otherwise, use your legal name as the business name.
 
 **Can I purchase a commercial license for multiple employees?**
-Yes. You can purchase multiple commercial license seats through your [Account dashboard](https://obsidian.md/account). There is no need for each employee to have their own Obsidian account, you can use a single admin account to purchase all the seats.
+Yes. You can purchase multiple commercial license seats through your [Account dashboard](https://obsidian.md/account/commercial). There is no need for each employee to have their own Obsidian account, you can use a single admin account to purchase all the seats.
 
 After purchasing the license, you will receive a license key which you can send to employees to activate their license — see instructions above to activate the license.
 

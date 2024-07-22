@@ -26,10 +26,10 @@ You can view our return policy for these purchases in our [[Refund policy|refund
 1. Log in or create [your Obsidian account](https://obsidian.md/account).
 2. Navigate to the section corresponding to the item you wish to purchase:
     1. **Obsidian Credit** can be found in the **Billing** section.
-    2. **Commercial Licenses** can be found in the **Commercial License** section.
+    2. **Commercial licenses** can be found in the **License** section.
     3. **Obsidian Sync** can be found in the **Sync** section.
     4. **Obsidian Publish** can be found in the **Publish** section.
-    5. **Catalyst Licenses** can be found in the **Catalyst License** section.
+    5. **Catalyst licenses** can be found in the **Catalyst** section.
 3. Click the purple **Buy** button to proceed with your purchase.
 
 We accept the following payment methods: Stripe, PayPal, WeChat, and AliPay.
@@ -43,18 +43,18 @@ After completing your payment, you will receive a receipt from the service throu
 
 Obsidian generates an invoice for all purchases within your account. To retrieve your invoice:
 
-1. Log in to [your Obsidian account](https://obsidian.md/account).
-2. Navigate to the **Billing** section.
-3. Next to **Invoices and Refunds**, select **View**.
+1. Log in to [your Obsidian account](https://obsidian.md/account/billing).
+2. Go to the **Billing** section.
+3. Next to **Invoices and refunds**, select **View**.
     1. If multiple invoices are available, select the invoice you want to review and click **View** or **Download**.
 
 ### Editing an invoice
 
 If you need to edit information on the invoice, such as the billing address or VAT number, follow these steps:
 
-1. Log in to [your Obsidian account](https://obsidian.md/account).
+1. Log in to [your Obsidian account](https://obsidian.md/account/billing).
 2. Navigate to the **Billing** section.
-3. Next to **Invoices and Refunds**, select **View**.
+3. Next to **Invoices and refunds**, select **View**.
     1. If multiple invoices are available, select the invoice you want to review and click **View**.
 4. In the **Bill To:** section, the text box will be editable.
 5. Make your edits, and then you can download your updated invoice.

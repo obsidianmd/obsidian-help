@@ -40,14 +40,14 @@ Once you've purchased a Catalyst license, you can access a range of benefits. Le
 **Note:** To connect your Obsidian account and your forum account, you must use the same email address for both accounts.
 
 1. If you haven't already, join our [forum](https://forum.obsidian.md/).
-2. Browse to your [Obsidian account page](https://obsidian.md/account).
-3. Under **Your license → Obsidian Catalyst**, click **Get forum badge**.
+2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
+3. Under **Catalyst**, select **Get forum badge**.
 
 ### Get your Discord badge
 
 1. If you haven't already, join our [Discord server](https://discord.gg/veuWUTm).
-2. Browse to your [Obsidian account page](https://obsidian.md/account).
-3. Under **Your license → Obsidian Catalyst**, click **Get Discord badge**.
+2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
+3. Under **Catalyst**, select **Get Discord badge**.
 
 ### Join our Insider channels
 
