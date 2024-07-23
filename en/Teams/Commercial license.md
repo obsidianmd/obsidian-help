@@ -2,9 +2,9 @@
 aliases:
   - Licenses & Payment/Commercial license
 ---
-If you use Obsidian for work in a company with **two or more** employees, you must purchase a Commercial license. 
+If you use Obsidian for work in a company with **two or more** employees, you must purchase a Commercial license. The details of licensing Obsidian can be found in our [terms of service](https://obsidian.md/terms).
 
-You and your team may use Obsidian commercially for free for **14 days** to evaluate the app before purchase. 
+You and your team can use Obsidian for free for **14 days** to evaluate the app for commercial use before you purchase.
 
 For questions about bulk discounts for seat licenses, contact [[Help and support#Contact Obsidian support|Obsidian support]].
 
@@ -42,7 +42,7 @@ Obsidian offers two methods for purchasing a commercial license. Check the [pric
 
 If you need an invoice for this transaction, you can [[Introduction to licenses and payment#Generate an invoice|generate an invoice]].
 
-**Purchasing using a Purchase order**
+**Purchasing using a purchase order**
 
 For purchases using a purchase order (PO), contact [[Help and support#Contact Obsidian support|Obsidian support]].
 
@@ -130,5 +130,5 @@ After purchasing the license, you will receive a license key which you can send 
 Yes. The commercial license is charged per seat count, not per device. This means you can use the same license key on all your individual work devices.
 
 **I work in a highly secure environment, in an air-gapped network. How do I apply my commercial license?**
-In such specialized environments, you don't need to apply the commercial license directly to your installation. However, you must monitor license usage and retain relevant records to ensure compliance with our End User License Agreement (EULA).
+In such specialized environments, you don't need to apply the commercial license directly to your installation. However, you must monitor license usage and retain relevant records to ensure compliance with our [terms of service](https://obsidian.md/terms).
 
