@@ -58,11 +58,6 @@ In this guide, you'll create a new [[Local and remote vaults|remote vault]] and 
 
 > [!tip] Add a device name to make reading your Sync logs easier!
 
-> [!note] Sync settings and other file types
-> By default, Sync only syncs notes and images. For information how to sync other file types, refer to [[Select files and settings to sync#Change the file types you want to sync|Change the file types you want to sync]].
->
-> If you want to sync vault configuration, such as settings for [[Core plugins]], [[Hotkeys]], or [[Community plugins]], learn how to [[Select files and settings to sync#Change the file types you want to sync]].
-
 #### Begin syncing with Obsidian Sync
 
 If you are beginning syncing after connecting to a remote vault, you will see a **Start Syncing** button. Select this button to begin syncing.
