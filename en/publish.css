@@ -134,11 +134,15 @@ img[src$="#outline"] {
   grid-template-columns: var(--list-cards-template);
   padding: 0;
 }
+.list-cards ul > li {
+  margin-inline: 0;
+}
 .list-cards div > ul > li {
   display: flex;
   border-radius: var(--radius-s);
   border: 1px solid var(--color-base-25);
   flex-wrap: wrap;
+  margin-inline: 0;
 }
 .list-cards div > ul > li a {
   flex-grow: 0;
