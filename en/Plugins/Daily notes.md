@@ -2,7 +2,7 @@ Daily notes opens a note based on today's date, or creates it if it doesn't exis
 
 To open today's daily note, either:
 
-- Click **Open today's daily note** (calendar with checkmark icon) in the [[Ribbon|ribbon]].
+- Click **Open today's daily note** ( ![[lucide-calendar.svg#icon]] ) in the [[Ribbon|ribbon]].
 - Run **Open today's daily note** from the [[Command palette]].
 - [[Hotkeys#Setting hotkeys|Use a hotkey]] for the **Open today's daily note** command.
 

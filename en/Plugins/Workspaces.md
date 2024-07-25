@@ -6,7 +6,7 @@ A workspace contains information about open files and tabs, and the width and vi
 
 **Ribbon:**
 
-1. In the ribbon, click **Manage workspace layouts** (layout icon).
+1. In the ribbon, click **Manage workspace layouts** ( ![[lucide-panels-top-left.svg#icon]] ).
 2. Enter a name for the workspace.
 3. Select **Save**.
 
@@ -24,7 +24,7 @@ To update an existing workspace, save the workspace with the same name as the wo
 
 **Ribbon:**
 
-1. In the ribbon, click **Manage workspace layouts** (layout icon).
+1. In the ribbon, click **Manage workspace layouts**  ( ![[lucide-panels-top-left.svg#icon]] ).
 2. Next to the workspace you want to load, select **Load**.
 
 **Command palette:**
@@ -38,12 +38,12 @@ To update an existing workspace, save the workspace with the same name as the wo
 
 **Ribbon:**
 
-1. In the ribbon, click **Manage workspace layouts** (layout icon).
-2. Next to the workspace you want to delete, select **Delete layout** (cross icon).
+1. In the ribbon, click **Manage workspace layouts**  ( ![[lucide-panels-top-left.svg#icon]] ).
+2. Next to the workspace you want to delete, select **Delete layout** ( ![[lucide-x.svg#icon]] ).
 
 **Command palette:**
 
 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
 2. Search for the **Manage workspace layouts** command.
 3. Press `Enter` with the command selected.
-4. Next to the workspace you want to delete, select **Delete layout** (cross icon).
+4. Next to the workspace you want to delete, select **Delete layout** ( ![[lucide-x.svg#icon]] ).

@@ -10,8 +10,8 @@ You can open the sandbox vault in multiple ways. In all cases, it opens separate
 
 **Left Sidebar**
 
-1. Expand the **left sidebar** (![[obsidian-icon-side-bar-left.svg#icon]]).
-2. Next to the **vault switcher**, press the **Help** icon (![[obsidian-icon-help.svg#icon]]).
+1. Expand the **left sidebar** ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
+2. Next to the **vault switcher**, press the **Help** icon ( ![[obsidian-icon-help.svg#icon]] ).
 3. Select **Open** next to the **Sandbox vault** option.
 
 **Command Palette**

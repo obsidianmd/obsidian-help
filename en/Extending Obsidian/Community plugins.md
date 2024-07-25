@@ -49,7 +49,7 @@ To update an individual plugin:
 
 1. Open **Settings**.
 2. In the side menu, select **Community plugins**.
-3. Under **Installed plugins**, select **Uninstall** (cross icon).
+3. Under **Installed plugins**, select **Uninstall** ( ![[lucide-trash-2.svg#icon]] ).
 4. Select **Uninstall** again to confirm.
 
 ## Learn more

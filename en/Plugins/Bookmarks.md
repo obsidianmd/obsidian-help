@@ -20,7 +20,7 @@ You can reorder bookmarks by selecting and dragging them.
 You can bookmark items and organize them into _bookmark groups_ to find them easier. You can expand and collapse bookmark groups to show or hide the bookmarks in them.
 
 > [!todo]- Show bookmarks
-> You can find your bookmarked items by clicking **Bookmarks** (bookmark icon) in the left sidebar.
+> You can find your bookmarked items by clicking **Bookmarks** ( ![[lucide-bookmark.svg#icon]] ) in the left sidebar.
 >
 > Or, open the Bookmarks tab by running **Bookmarks: Show bookmarks** from the [[Command palette]].
 
@@ -34,7 +34,7 @@ When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instea
 >
 > **Bookmarks**:
 >
-> - Select **Bookmark the active tab** (bookmark with plus icon) at the top of the Bookmarks tab.
+> - Select **Bookmark the active tab** ( ![[lucide-bookmark-plus.svg#icon]] ) at the top of the Bookmarks tab.
 >
 > **File explorer**:
 >
@@ -90,7 +90,7 @@ You can also remove a bookmark from the **Edit bookmark** dialog.
 
 **Bookmarks**:
 
-- Select **New bookmark group** (folder with plus icon) at the top of the Bookmarks tab.
+- Select **New bookmark group** ( ![[lucide-folder-plus.svg#icon]] ) at the top of the Bookmarks tab.
 
 To move a bookmark to another group, select and drag it to the group you want to move it to.
 
