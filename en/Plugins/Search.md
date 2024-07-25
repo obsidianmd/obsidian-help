@@ -1,6 +1,6 @@
 The Search plugin helps you find files in your vault.
 
-By default, you can find Search in the left sidebar (magnifying glass icon). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).
+By default, you can find Search in the left sidebar ( ![[lucide-search.svg#icon]] ). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).
 
 - **Search selected text**: If you select text in the editor and open Search with the keyboard shortcut, Search shows you the search results for the selected text.
 - **Search recent search terms**: Open Search with an empty search term to list recent search terms. Click any of them to use the search term again.
@@ -81,7 +81,7 @@ Both property and value allow sub-queries, such as parentheses for grouping, the
 
 ## Change case sensitivity
 
-By default, search terms are not case sensitive. If you want to search for the exact case of your search term, click **Match case** ("Aa" icon) inside the search bar.
+By default, search terms are not case sensitive. If you want to search for the exact case of your search term, click **Match case** ( ![[obsidian-upper-lowercase.svg#icon]] ) inside the search bar.
 
 This setting can be toggled. If **Match case** icon is highlighted, that means you’re currently doing a case sensitive search.
 
@@ -123,7 +123,7 @@ For more information on how to write regular expressions, refer to [Regular expr
 
 ## Configure search settings
 
-To configure Search, click on **Search settings** (three rows of switches icon) on the right side of the search bar to see the toggles.
+To configure Search, click on **Search settings** ( ![[lucide-sliders-horizontal.svg#icon]] ) on the right side of the search bar to see the toggles.
 
 | Setting                 | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|

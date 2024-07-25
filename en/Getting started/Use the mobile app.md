@@ -58,7 +58,7 @@ With the **Toggle keyboard** toolbar option, you can close the mobile toolbar an
 
 ### Go back or forward
 
-On the navigation bar, the first two options helps you go back (back arrow icon) or forward (forward arrow icon). If one of the options is not available, the icon is greyed out.
+On the navigation bar, the first two options helps you go back ( ![[lucide-chevron-left.svg#icon]] ) or forward ( ![[lucide-chevron-right.svg#icon]] ). If one of the options is not available, the icon is greyed out.
 
 ### Create or find note
 

@@ -9,7 +9,7 @@ To update all `[[UID]]` links in your vault to use the full name of the note ins
 
 1. Open **Settings**.
 2. Under **Core plugins**, enable **Format converter** and close the Settings window.
-3. In the ribbon, on the left side of the app window, select **Open format convert** (ones and zeros icon).
+3. In the ribbon, on the left side of the app window, select **Open format convert** ( ![[lucide-binary.svg#icon]] ).
 4. Enable **Zettelkasten link fixer**.
 5. Select **Start conversion**. This will convert all the notes in your entire vault.
 
