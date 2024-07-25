@@ -24,6 +24,8 @@ Obsidian detects changes to CSS snippets automatically and applies them when you
 > }
 > ```
 
+To ensure that the CSS file is valid and formatted correctly, we advise creating and editing it with a program like [Visual Studio Code](https://visualstudio.microsoft.com/) or [Sublime Text](https://www.sublimetext.com/), as invalid CSS will not work.
+
 ## Learn more
 
 - If you're new to CSS, refer to [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
