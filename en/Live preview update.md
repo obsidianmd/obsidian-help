@@ -30,7 +30,7 @@ We think you're going to love Live Preview. But if you want to keep your current
 
 To toggle between Live Preview and Source mode:
 
-1. In the upper right corner of the tab, click **More options** (![[lucide-more-horizontal.svg#icon]]).
+1. In the upper right corner of the tab, click **More options** (the three dots).
 2. Select **Toggle source/live preview mode**.
 
 You can also toggle the editing view by opening the Command palette and searching for the **Toggle source/live preview mode command**, or change it permanently by setting **Default editing mode** to Source mode.
