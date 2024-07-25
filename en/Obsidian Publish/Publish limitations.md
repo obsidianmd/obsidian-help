@@ -45,3 +45,5 @@ After searching the above for matches, the search will then include plain text o
 
 To improve the searchability of your published site, it is recommended to use descriptive file names, incorporate multiple aliases, and select header names that accurately reflect the content.
 
+Additionally, Publish does not currently support the application's [[Search#Embed search results in a note|embedded search results]] feature.
+

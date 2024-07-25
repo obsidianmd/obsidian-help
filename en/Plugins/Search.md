@@ -135,15 +135,13 @@ To configure Search, click on **Search settings** ( ![[lucide-sliders-horizontal
 
 To embed search results in a note, add a `query` code block:
 
-<pre><code>```query
-embed OR search
-```</code></pre>
-
-For example:
-
-> [!note]
-> [[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded search results. To see the example, open Obsidian Help locally inside Obsidian.
-
+````
 ```query
 embed OR search
 ```
+````
+
+
+[[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded [[Publish limitations#Search|search results]]. To see a live rendered example, use the code block above within your vault.
+
+![[search-query-rendered.png#interface]]
