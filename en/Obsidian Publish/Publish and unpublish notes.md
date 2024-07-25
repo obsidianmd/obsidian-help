@@ -2,7 +2,7 @@ This page explains how to manage your published notes.
 
 ## Publish notes
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
+1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
 2. In the **Publish changes** dialog, click **NEW** to see all the notes you haven't published yet.
 3. Select the notes you want to publish.
 4. Click **Publish**.
@@ -11,14 +11,14 @@ This page explains how to manage your published notes.
 
 Notes remain in your local vault even after you unpublish them.
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
+1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
 2. In the **Publish changes** dialog, click **UNCHANGED** to see all your published notes.
 3. Select the notes you want to unpublish.
 4. Click **Publish**.
 
 ## Update a published note
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
+1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
 2. In the **Publish changes** dialog, click **CHANGED** to see all the notes that have been changed since the last time they were published.
 3. Select the notes you want to update.
 4. Click **Publish**.

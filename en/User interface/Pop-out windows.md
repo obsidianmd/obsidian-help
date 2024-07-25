@@ -16,7 +16,7 @@ In the [[Command palette]], select **Open current tab in new window**.
 
 **Tab:**
 
-Right-click a tab, and then select **Move to new window**. Or, in the upper-right corner of the editor, select **More options** (three dots icon), and then select **Move to new window**.
+Right-click a tab, and then select **Move to new window**. Or, in the upper-right corner of the editor, select **More options** ( ![[lucide-more-horizontal.svg#icon]] ), and then select **Move to new window**.
 
 > [!tip]
 > You can also right-click a link in the editor, and then select **Open in new window**.

@@ -65,8 +65,8 @@ Within Obsidian Publish, you have the ability to customize the navigation order 
 
 #### Accessing Customize navigation options
 
-1. In ribbon, to the left of the application window, select **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, select **Change site options** (cog icon).
+1. In ribbon, to the left of the application window, select **Publish changes** ( ![[lucide-send.svg#icon]] ).
+2. In the **Publish changes** dialog, select **Change site options** ( ![[lucide-cog.svg#icon]] ).
 3. Under **Components settings**, next to **Customize navigation**, select the **manage** button. 
 
 A new pop-up window titled **Navigation** will appear over your **Change site options** window.

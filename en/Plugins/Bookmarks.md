@@ -13,20 +13,20 @@ You can add bookmarks to the following:
 - Headings
 - Blocks
 
-Open a bookmark by selecting it in the Bookmarks tab ( ![[lucide-bookmark.svg#icon]] ).
+Open a bookmark by selecting it in the Bookmarks tab.
 
 You can reorder bookmarks by selecting and dragging them.
 
 You can bookmark items and organize them into _bookmark groups_ to find them easier. You can expand and collapse bookmark groups to show or hide the bookmarks in them.
 
 > [!todo]- Show bookmarks
-> You can find your bookmarked items by clicking **Bookmarks** (bookmark icon) in the left sidebar.
+> You can find your bookmarked items by clicking **Bookmarks** ( ![[lucide-bookmark.svg#icon]] ) in the left sidebar.
 >
 > Or, open the Bookmarks tab by running **Bookmarks: Show bookmarks** from the [[Command palette]].
 
 ## Add a bookmark
 
-Adding a bookmark (![[lucide-bookmark-plus.svg#icon]] ) opens the **Add bookmark** dialog where you can set an optional title and assign it to a bookmark group.
+Adding a bookmark opens the **Add bookmark** dialog where you can set an optional title and assign it to a bookmark group.
 
 When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instead lets you edit the bookmark.
 
@@ -34,7 +34,7 @@ When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instea
 >
 > **Bookmarks**:
 >
-> - Select **Bookmark the active tab** (bookmark with plus icon) at the top of the Bookmarks tab.
+> - Select **Bookmark the active tab** ( ![[lucide-bookmark-plus.svg#icon]] ) at the top of the Bookmarks tab.
 >
 > **File explorer**:
 >
