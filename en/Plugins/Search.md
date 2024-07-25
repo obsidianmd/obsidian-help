@@ -116,7 +116,7 @@ You can even combine regular expressions with search operators:
 
 - `path:/\d{4}-\d{2}-\d{2}/` returns files with a date in the file path.
 
-For more information on how to write regular expressions, refer to [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+For more information on how to write regular expressions, refer to FreeCodeCamp's [Practical Regex guide](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/) or Mozilla's [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
 > [!note]
 > Regular expressions come in different flavors that may look different from each other. Obsidian uses JavaScript-flavored regular expressions.
@@ -144,4 +144,4 @@ embed OR search
 
 [[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded [[Publish limitations#Search|search results]]. To see a live rendered example, use the code block above within your vault.
 
-![[search-query-rendered.png#interface]]
+![[search-query-rendered.png#]]
