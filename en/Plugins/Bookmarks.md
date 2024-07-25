@@ -13,7 +13,7 @@ You can add bookmarks to the following:
 - Headings
 - Blocks
 
-Open a bookmark by selecting it in the Bookmarks tab.
+Open a bookmark by selecting it in the Bookmarks tab ( ![[lucide-bookmark.svg#icon]] ).
 
 You can reorder bookmarks by selecting and dragging them.
 
@@ -26,7 +26,7 @@ You can bookmark items and organize them into _bookmark groups_ to find them eas
 
 ## Add a bookmark
 
-Adding a bookmark opens the **Add bookmark** dialog where you can set an optional title and assign it to a bookmark group.
+Adding a bookmark (![[lucide-bookmark-plus.svg#icon]] ) opens the **Add bookmark** dialog where you can set an optional title and assign it to a bookmark group.
 
 When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instead lets you edit the bookmark.
 
@@ -90,7 +90,7 @@ You can also remove a bookmark from the **Edit bookmark** dialog.
 
 **Bookmarks**:
 
-- Select **New bookmark group** (folder with plus icon) at the top of the Bookmarks tab.
+- Select **New bookmark group** ( ![[lucide-folder-plus.svg#icon]] ) at the top of the Bookmarks tab.
 
 To move a bookmark to another group, select and drag it to the group you want to move it to.
 
