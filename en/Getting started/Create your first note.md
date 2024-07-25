@@ -30,3 +30,5 @@ To learn more about how to format your notes using Markdown, refer to [[Basic fo
 ## Learn more
 
 Learn how to [[Link notes|link notes]] to create a network of connected thoughts.
+
+You may also want to check out the [[Sandbox vault]] to explore other features of the application.
