@@ -3,14 +3,14 @@ This page lists all supported ways to download and install Obsidian.
 ## Install Obsidian on Windows
 
 1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **Windows**, click **64-bit installer** to download the installation file.
+2. Under **Windows**, click **Universal** to download the installation file.
 3. Open the installation file and follow the instructions.
 4. Open Obsidian the same way you would open any other application.
 
 ## Install Obsidian on macOS
 
 1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **macOS**, click **Universal DMG (Intel and M1)** to download the installation file.
+2. Under **macOS**, click **Universal** to download the installation file.
 3. Open the installation file.
 4. In the window that opens, drag Obsidian to the Applications folder.
 5. Open Obsidian the same way you would open any other application.
@@ -63,6 +63,8 @@ If you use Linux, you can install Obsidian in several ways. Follow the instructi
 1. Find Obsidian on the [Play Store](https://play.google.com/store/apps/details?id=md.obsidian).
 2. Tap **Install** to download the app.
 3. Open Obsidian the same way you would open any other app.
+
+You can optionally download the APK for Android from the [Download Obsidian](https://obsidian.md/download) page.
 
 ## Install Obsidian on iPhone and iPad
 
