@@ -51,7 +51,7 @@ No, files are only synced when Obsidian is running.
 
 ### Does Obsidian Sync live-reload my settings?
 
-No, plugins, settings, and theme updates from one device, will require a restart of the application on the other devices once the update is received.
+No. Plugins, settings, and theme updates from one device will require a restart of the application on the other devices once the update is received.
 
 ### Can I use a third-party sync with Obsidian Sync?
 
