@@ -82,6 +82,7 @@ This line corresponds with where your server is hosted. The list below correspon
 | `sync-14` to `sync-15` | `sync-16` | `sync-22` |           |
 | `sync-19`              | `sync-20` |           |           |
 | `sync-21`              | `sync-23` |           |           |
+| `sync-24`              |           |           |           |
 ^sync-server-location-table
 ## Network and access
 
