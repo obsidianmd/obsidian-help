@@ -96,7 +96,7 @@ You can also edit a card by right-clicking it and selecting **Edit**.
 
 ### Delete a card
 
-Remove selected cards by right-clicking any of them, and then selecting **Delete**. Or, press `Backspace` (or `Delete` or macOS).
+Remove selected cards by right-clicking any of them, and then selecting **Delete**. Or, press `Backspace` (or `Delete` on macOS).
 
 You can also select **Remove** ( ![[lucide-trash-2.svg#icon]] ) in the selection controls above your selection.
 
