@@ -4,14 +4,21 @@ CSS is a language to describe how to present a HTML document. By adding CSS snip
 
 Obsidian looks for CSS snippets inside the vault configuration folder.
 
-To add a CSS snippet, follow these steps:
+To add a CSS snippet on Desktop, follow these steps:
 
 1. Open **Settings**.
 2. Under **Appearance → CSS snippets**, select **Open snippets folder** ( ![[lucide-folder-plus.svg#icon]] ).
 3. In the snippets folder, create a CSS file that contains your snippet.
 4. In Obsidian, under **Appearance → CSS snippets**, select **Reload snippets** ( ![[lucide-refresh-cw.svg#icon]] ) to see the snippet in the list.
 
-Obsidian detects changes to CSS snippets automatically and applies them when you save your snippet. You don't need to restart Obsidian for changes to take effect.
+To add a CSS snippet on Mobile/Tablet, you will need to do one of the following:
+- [[Sync your notes across devices|Sync]] any changes in from your syncing service.
+- Use a file manager to access the [[Configuration folder]], and place the `file.css` in the snippet folder. 
+- Use a community plugin to directly create a `file.css` from within Obsidian. 
+
+Once done, you can reload the snippets the same way you do on Desktop. 
+
+Once loaded, Obsidian detects changes to CSS snippets automatically and applies them when you save your snippet. You don't need to restart Obsidian for changes to take effect.
 
 > [!tip] Example: Change text color
 > For example, create a file called `snippet.css` with the following content to change the text color to red:
