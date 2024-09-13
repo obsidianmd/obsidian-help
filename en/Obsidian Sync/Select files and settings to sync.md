@@ -74,7 +74,7 @@ The secondary device is any other device you use with Obsidian, such as your pho
 
 ## Reloading of settings
 
-Obsidian has limited ability to update and apply configurations received from Sync. The following configurations will hot reload:
+Obsidian has limited ability to update and apply settings received from Sync. The following configurations will hot reload:
 
 - Most Obsidian app configurations, including hotkeys and properties.
 - Appearance configurations.
@@ -82,12 +82,14 @@ Obsidian has limited ability to update and apply configurations received from Sy
 
 However, for CSS changes involving [[CSS snippets]] or [[Themes]], while the appearance configurations are received, the application must be reloaded to reflect visual changes.
 
-The following configurations will not hot reload, and will require an application reload or restart:
+The following configurations <u>will not</u> hot reload, and will require an application reload or restart:
 
 - Graph view configurations.
 - States of Obsidian Core plugins (e.g., whether Daily Notes is enabled).
 
 Additionally, in rare cases, configurations that do not support hot reloading may be merged incorrectly or overwritten completely. For more details, see [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]].
+
+As of now, most community plugins do not support hot reloading, meaning the application needs to be reloaded when new settings are applied. Plugin authors can add hot reload functionality if it suits their plugin.
 
 > [!todo] Are you a plugin developer? Learn how to [seamlessly integrate your plugin with Obsidian Sync](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange).
 

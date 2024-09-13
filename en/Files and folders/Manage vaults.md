@@ -30,7 +30,7 @@ To open the vault switcher from an existing vault, select **Vault profile** ( ![
 5. Click **Open**.
 
 > [!tip] Open vault from Obsidian Sync
-> If you want to open a remote vault using Obsidian Sync, refer to [[Set up Obsidian Sync on another device]].
+> If you want to open a remote vault using Obsidian Sync, refer to [[Set up Obsidian Sync]].
 
 ## Rename vault
 
@@ -48,10 +48,11 @@ Since the name of a vault and the underlying folder are the same, renaming a vau
 1. On your computer, open Obsidian.
 2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
 3. A context menu will pop up. Select **Manage Vaults...**.
-4. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg]] ) next to the vault you want to move.
-5. Select **Move vault**, and then select the new location.
+4. Close the current vault window, leaving the **Manage Vaults** window open.
+5. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg]] ) next to the vault you want to move.
+6. Select **Move vault**, and then select the new location.
 
-Some operating systems do not allow the vault to be moved with the Vault Switcher. In these cases, move your vault manually:
+Some operating systems do not allow the vault to be moved with the Vault Switcher. In these cases, you will need to move your vault manually:
 
 1. Close Obsidian.
 2. Move your vault folder to a new location, avoiding folders synced by other services.

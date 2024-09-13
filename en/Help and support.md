@@ -29,7 +29,7 @@ When you encounter a bug or need assistance from [[#Contact Obsidian support|Obs
 
 ### Capture console logs
 
-When you need to report a bug related to an Obsidian plugin or when requested by [[#Contact Obsidian support|Obsidian support]] to provide log information, you may need to access the Obsidian console. Here’s how to do it based on your operating system:
+When you need to report a bug related to an Obsidian plugin or when requested by [[#Contact Obsidian support|Obsidian support]] to provide log information, you may need to access the Obsidian console from within the Obsidian application. Here’s how to do it based on your operating system:
 
 - **Windows**: `CTRL + SHIFT + i`  
 - **MacOS**: `CMD + OPTION + i`  
