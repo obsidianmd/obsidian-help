@@ -62,4 +62,10 @@ To move an existing iCloud vault to your device, follow these steps:
 - Tap **Copy**.
 - Return to **iCloud Drive → Obsidian** and delete the old vault folder.
 
+
 Once you reopen Obsidian, the vault should show a vault icon instead of a cloud icon, confirming it is no longer in iCloud Drive. Obsidian Sync will also no longer display the warning message within its settings.
+
+## Next steps
+
+- Looking to get started with Obsidian Sync? [[Set up Obsidian Sync]]
+- Still need assistance? Check out [[Troubleshoot Obsidian Sync]]
