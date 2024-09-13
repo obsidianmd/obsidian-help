@@ -4,7 +4,7 @@ These are the behaviors we don’t tolerate.
 
 ### Serious offenses
 
-Users who commit these offences will be immediately banned from the official Obsidian community channels.
+Users who commit these offenses will be immediately banned from the official Obsidian community channels.
 
 #### Harassment
 
@@ -20,7 +20,12 @@ This includes saying things that are explicitly racist, sexist, homophobic, etc.
 
 ### Other offenses
 
-Users who commit these offences will be sent a warning. Repeated offences will result in the user being banned from the official Obsidian community channels.
+Users who commit these offenses will receive a warning. Repeated violations or failure to comply may result in a ban from official Obsidian community channels.
+
+Examples of **Other offenses** include:
+
+- The use of inappropriate images, including in a community member's avatar
+- The use of inappropriate language or profanity, including in a community member's nickname
 
 #### Belligerence
 
@@ -126,5 +131,6 @@ Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https
 
 ## Changelog
 
-- 2024-02-23: Updated [[#Unsolicited messages to community members]] to indicate when it is appropriate to direct message a community member. 
-- 2023-10-28: Moved blatant -isms from "Other offenses" to "Serious offenses", meaning they’re now bannable on first offense.
+- **2024-09-12**: Added nicknames and avatars to [[#Other offenses]].
+- **2024-02-23**: Updated [[#Unsolicited messages to community members]] to indicate when it is appropriate to direct message a community member. 
+- **2023-10-28**: Moved blatant -isms from "Other offenses" to "Serious offenses", meaning they’re now bannable on first offense.
