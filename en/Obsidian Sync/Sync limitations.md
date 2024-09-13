@@ -30,7 +30,6 @@ The storage limit depends on your Obsidian [[Plans and storage limits#Plans|Sync
 You can view **Storage usage** in the Obsidian app by going to **Settings → Sync**.
 
 ### How many remote vaults can I have?  
-
   
 The number of remote vaults you can have is determined based on your [[Plans and storage limits#Plans|Sync plan]]. The Standard plan includes 1 vault, the Plus plan includes 10 vaults. Vaults shared with you do not count towards your vault limit.
 

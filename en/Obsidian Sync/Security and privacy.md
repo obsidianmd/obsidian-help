@@ -3,6 +3,7 @@ aliases:
   - Security/privacy for Obsidian Sync
   - Access control for Obsidian Sync
 ---
+
 ## Encryption
 
 For your safety, [[Introduction to Obsidian Sync|Obsidian Sync]] encrypts your [[Local and remote vaults|remote vault]] and all communication with Obsidian's servers. Before anyone can access your remote vault, they first need to decrypt it with an _encryption password_.
@@ -70,20 +71,13 @@ Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provi
 
 ### Where can I find my current Sync server and where is it hosted?
 
-Your remote vault's Obsidian Sync server can be found in **Settings** → **Sync** → **Copy Debug Info**. Paste this information into a note or file, and you will see a line with the following:
+To locate your Obsidian Sync server, follow these steps:
+1. Go to **Settings** → **Sync** → **Copy Debug Info**.
+2. Paste the copied information into a note or file.
+3. Look for a line similar to this: `Host server: wss://sync-xx.obsidian.md`
 
-`Host server: wss://sync-xx.obsidian.md`
+This line indicates the server where your remote vault is hosted. For more details on the server's locations and uptime, visit our [status page](https://status.obsidian.md/).
 
-This line corresponds with where your server is hosted. The list below corresponds the Sync servers to their respective data centers. 
-
-| San Francisco          | Frankfurt | Singapore | Sydney    |
-| ---------------------- | --------- | --------- | --------- |
-| `sync-01` to `sync-12` | `sync-13` | `sync-17` | `sync-18` |
-| `sync-14` to `sync-15` | `sync-16` | `sync-22` |           |
-| `sync-19`              | `sync-20` |           |           |
-| `sync-21`              | `sync-23` |           |           |
-| `sync-24`              |           |           |           |
-^sync-server-location-table
 ## Network and access
 
 ### Managing access to Obsidian Sync on your network
