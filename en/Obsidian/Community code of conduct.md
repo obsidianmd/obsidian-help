@@ -1,10 +1,10 @@
 ## The rules
 
-These are the behaviors we don’t tolerate.
+The following behaviors are not tolerated within the official Obsidian community channels.
 
 ### Serious offenses
 
-Users who commit these offenses will be immediately banned from the official Obsidian community channels.
+Users committing these offenses will be immediately banned from all official Obsidian community channels. Timeouts may be applied while the ban is being processed.
 
 #### Harassment
 
@@ -20,7 +20,7 @@ This includes saying things that are explicitly racist, sexist, homophobic, etc.
 
 ### Other offenses
 
-Users who commit these offenses will receive a warning. Repeated violations or failure to comply may result in a ban from official Obsidian community channels.
+Users who commit these offenses will receive a timeout and/or a warning. Repeated violations or failure to comply may result in a ban from official Obsidian community channels.
 
 Examples of **Other offenses** include:
 
@@ -49,7 +49,7 @@ Instructions for reporting violations of our code of conduct can be found below 
 
 ### Other behaviors
 
-While the following behaviors don’t result in a ban or warning, we strongly discourage you from engaging in them. They will greatly increase the risk of [[#being especially unpleasant]].
+The following behaviors, while not resulting in an immediate ban or warning, are strongly discouraged. Engaging in them may lead to a timeout and a reminder to review this code of conduct. Additionally, these actions greatly increase the risk of [[#being especially unpleasant]].
 
 #### Sea-lioning
 
@@ -125,12 +125,20 @@ If our moderators witness or receive a report about [[#serious offenses]], we wi
 
 If our moderators witness or receive a report about [[#other offenses]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from the official Obsidian community channels.
 
+## Appealing a ban
+
+If you believe you were banned in error, you may [[Help and support#Contact Obsidian support|contact Obsidian support]] with your Discord, Forum, or Reddit username, along with the date of the ban. A member of the Obsidian team will review your case with the moderating team and provide a decision once the review is complete.
+
+Please note that all appeal decisions are final and cannot be further appealed.
+
+
 ## Credits
 
 Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https://www.recurse.com/code-of-conduct).
 
 ## Changelog
 
+- **2024-09-25**: Added timeouts, and ban appeal. 
 - **2024-09-12**: Added nicknames and avatars to [[#Other offenses]].
 - **2024-02-23**: Updated [[#Unsolicited messages to community members]] to indicate when it is appropriate to direct message a community member. 
 - **2023-10-28**: Moved blatant -isms from "Other offenses" to "Serious offenses", meaning they’re now bannable on first offense.
