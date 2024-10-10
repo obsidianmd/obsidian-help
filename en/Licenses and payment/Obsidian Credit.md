@@ -7,7 +7,7 @@ aliases:
 ---
 Obsidian Credit is a type of prepaid credit that can be bought in advance and applied toward purchases of any Obsidian service or license. Obsidian Credit can be [[#Gifting|gifted]] to other Obsidian users, such as friends, family, and coworkers.
 
-Obsidian Credit will be applied before any payment is due, including auto-renewals. Obsidian Credit is not eligible for a refund per our [[Refund policy]].
+Obsidian Credit will be applied before any payment is due, including auto-renewals. Obsidian Credit **is not** eligible for a refund per our [[Refund policy]].
 
 ## Add credit
 
@@ -17,13 +17,15 @@ Obsidian Credit will be applied before any payment is due, including auto-renewa
 4. Proceed to pay for the credit with any of the supported payment methods.
 
 > [!Note] Sales tax
-> Any applicable sales tax will be charged when you make a purchase of a product, such as Obsidian Sync, not when you buy Obsidian Credit.
+> Any applicable [[sales tax]] will be charged when you make a purchase of a product, such as Obsidian Sync, not when you buy Obsidian Credit.
 >
 > If you plan to cover auto-renewals with your credit, please keep this factor in mind.
 
 ## Gifting
 
-Although using Obsidian for personal use is completely free of charge, you can give the gift of Obsidian to someone to help them get an add-on service like [[Introduction to Obsidian Sync|Obsidian Sync]], or to get a [[Commercial license|Commercial license]] so they can use Obsidian for work.
+Although Obsidian is completely free for personal use, you can give the gift of Obsidian Credit to help someone get an add-on service like [[Introduction to Obsidian Sync|Obsidian Sync]] or a [[Commercial license|Commercial license]] for using Obsidian at work.
+
+Please note that Obsidian Credit **cannot** be re-gifted once claimed. The original recipient will not be able to transfer or share it with others.
 
 ## Give Obsidian Credit
 
