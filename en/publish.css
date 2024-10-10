@@ -65,6 +65,13 @@ img[src$="#icon"] {
   border-radius: 0;
 }
 
+/* Adds callout for when SVG icons are insufficient */
+
+.callout[data-callout="compatability"] {
+  --callout-icon: lucide-monitor-check;
+  --callout-color: var(--color-purple-rgb);
+}
+
 img {
   border-radius: 4px;
 }
