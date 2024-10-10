@@ -2,7 +2,7 @@ Obsidian gives you access to many of the commands in Obsidian directly from your
 
 To run a command from the Command palette:
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the Command palette.
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the Command palette. You can also open it from the [[Ribbon]] with Command palette icon ( ![[lucide-terminal.svg#icon]] ). 
 2. Type the name of the command you want to run.
 3. Navigate to the command using the arrow keys.
 4. Press `Enter`.

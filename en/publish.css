@@ -67,7 +67,7 @@ img[src$="#icon"] {
 
 /* Adds callout for when SVG icons are insufficient */
 
-.callout[data-callout="compatability"] {
+.callout[data-callout="compatibility"] {
   --callout-icon: lucide-monitor-check;
   --callout-color: var(--color-purple-rgb);
 }

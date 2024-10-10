@@ -138,7 +138,7 @@ Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https
 
 ## Changelog
 
-- **2024-09-25**: Added timeouts, and ban appeal.
+- **2024-09-25**: Added timeouts, and ban appeal. 
 - **2024-09-12**: Added nicknames and avatars to [[#Other offenses]].
 - **2024-02-23**: Updated [[#Unsolicited messages to community members]] to indicate when it is appropriate to direct message a community member. 
 - **2023-10-28**: Moved blatant -isms from "Other offenses" to "Serious offenses", meaning they’re now bannable on first offense.

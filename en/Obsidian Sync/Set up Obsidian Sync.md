@@ -16,7 +16,7 @@ You’ve purchased Obsidian Sync and are ready to get started. This guide will h
 
 In this section, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new, empty local vault to use Obsidian Sync for this purpose.
 
-> ![info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|this]] and [[Migrate to Obsidian Sync]] before proceeding.
+> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|this]] and [[Migrate to Obsidian Sync]] before proceeding.
 
 **Prerequisites**
 
