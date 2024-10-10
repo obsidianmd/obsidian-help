@@ -1,17 +1,25 @@
-Learn how to modify aspects of the Obsidian appearance without needing to [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
+---
+description: Learn how to modify aspects of the Obsidian application's appearance without needing to build a theme.
+mobile: true
+---
+
+
+Learn how to modify aspects of the Obsidian application's appearance without needing to [build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme). 
+
+> [!tip] If you're looking for guidance on handling CSS for [[Introduction to Obsidian Publish|Obsidian Publish]], be sure to review [[Customize your site]].
 
 CSS is a language to describe how to present a HTML document. By adding CSS snippets, you can redefine parts of the Obsidian user interface, such as the size and color of headings. Obsidian includes [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) that you can use to easily customize parts of the interface.
 
-Obsidian looks for CSS snippets inside the vault configuration folder.
+Obsidian looks for CSS snippets inside the vault [[Configuration folder]].
 
-To add a CSS snippet on Desktop, follow these steps:
+To add a CSS snippet on **Desktop** ![[lucide-monitor-check.svg#icon]], follow these steps:
 
 1. Open **Settings**.
 2. Under **Appearance → CSS snippets**, select **Open snippets folder** ( ![[lucide-folder-plus.svg#icon]] ).
 3. In the snippets folder, create a CSS file that contains your snippet.
 4. In Obsidian, under **Appearance → CSS snippets**, select **Reload snippets** ( ![[lucide-refresh-cw.svg#icon]] ) to see the snippet in the list.
 
-To add a CSS snippet on Mobile/Tablet, you will need to do one of the following:
+To add a CSS snippet on **Mobile/Tablet** ![[obsidian-smartphone.svg#icon]], you will need to do one of the following:
 - [[Sync your notes across devices|Sync]] any changes in from your syncing service.
 - Use a file manager to access the [[Configuration folder]], and place the `file.css` in the snippet folder. 
 - Use a community plugin to directly create a `file.css` from within Obsidian. 
