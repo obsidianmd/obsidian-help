@@ -1,4 +1,16 @@
+---
+description: This page explains how to manage your published notes.
+mobile: false
+---
+
 This page explains how to manage your published notes.
+
+## Prerequisites
+
+- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
+- An active Obsidian Publish subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/publish).
+- The **Publish** core plugin is [[Set up Obsidian Publish#Enable Obsidian Publish|enabled]].
+- A [[Manage sites#Create a new site|Publish site]] is created.
 
 ## Publish notes
 
