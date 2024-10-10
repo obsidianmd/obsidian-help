@@ -2,7 +2,7 @@
 description: Learn how to open files in separate pop-out windows.
 ---
 
-> [!compatability] This feature is only available on Desktop.
+> [!compatibility] This feature is only available on Desktop.
 
 You can open separate _pop-out_ windows in Obsidian. Each pop-out window is associated with its respective vault window. If you close a vault window, all of its pop-out windows will close as well.
 
