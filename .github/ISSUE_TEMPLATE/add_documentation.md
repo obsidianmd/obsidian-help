@@ -1,6 +1,6 @@
 ---
 name: Add documentation
-about: Suggestion an addition to the documentation
+about: Suggest an addition to the documentation
 labels: enhancement
 ---
 Thank you for your time in completing this issue! 🙌
