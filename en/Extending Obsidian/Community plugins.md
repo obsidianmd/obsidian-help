@@ -1,3 +1,9 @@
+---
+aliases: Community plugin
+description: Learn how to extend Obsidian with plugins built by the community.
+mobile: false
+---
+
 Learn how to extend Obsidian with plugins built by the community. Use plugins to adapt Obsidian to fit your specific needs, such as support for additional file formats or integrating with a third-party service.
 
 > [!warning]
