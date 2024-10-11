@@ -217,9 +217,9 @@ You can toggle a task in Reading view by selecting the checkbox.
 
 ### Nesting lists
 
-All list types can be nested in Obsidian.
+You can nest any type of list—ordered, unordered, or task lists—under any other type of list.
 
-To create a nested list, indent one or more list items:
+To create a nested list, indent one or more list items. You can mix list types within a nested structure:
 
 ```md
 1. First list item
@@ -247,7 +247,7 @@ Similarly, you can create a nested task list by indenting one or more list items
 - [ ] Task item 2
 	- [ ] Subtask 1
 
-Use `Tab` or `Shift+Tab` to indent or unindent one or more selected list items for easy organization.
+Use `Tab` or `Shift+Tab` to indent or unindent selected list items to easily organize them.
 
 ## Horizontal rule
 
