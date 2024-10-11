@@ -2,6 +2,9 @@
 aliases:
   - How to/Format your notes
   - Markdown
+description: Learn how to apply basic formatting to your notes in Obsidian, using Markdown.
+publish: true
+mobile: true
 ---
 
 Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Advanced formatting syntax]].
@@ -43,11 +46,13 @@ A blank line between lines of text creates separate paragraphs. This is the defa
 
 ### Line breaks
 
-By default in Obsidian, pressing `Enter` once will create a new line in your note. To insert a line break **within** a paragraph (without creating a new paragraph), you can either:
+By default in Obsidian, pressing `Enter` once will create a new line in your note, but this is treated as a *continuation* of the same paragraph in the rendered output, following typical Markdown behavior. To insert a line break *within* a paragraph without starting a new paragraph, you can either:
 
 - Add **two spaces** at the end of a line before pressing `Enter`, or
 - Use the shortcut `Shift + Enter` to directly insert a line break.
 
+> [!question]- Why don't multiple `Enter` presses create more line breaks in reading view?
+> In Markdown, a single `Enter` is ignored, and multiple consecutive `Enter` presses result in just one new paragraph. This behavior aligns with Markdown’s soft wrap rule, where extra blank lines do not generate additional line breaks or paragraphs—they are collapsed into a single paragraph break. This is how Markdown handles text by default, ensuring that paragraphs flow naturally without unexpected breaks​.
 
 Obsidian includes a **Strict Line Breaks** setting, which makes Obsidian follow the standard Markdown specification for line breaks.
 
@@ -72,10 +77,10 @@ Renders as:
 line one line two
 
 
-**Single return with two or more trailing spaces**: If you add two or more spaces at the end of the first line before pressing `Enter`, the two lines remain part of the same paragraph, but are broken by a line break (`<br>` element).
+**Single return with two or more trailing spaces**: If you add two or more spaces at the end of the first line before pressing `Enter`, the two lines remain part of the same paragraph, but are broken by a line break (HTML `<br>` element). We'll use two underscores to stand in for spaces in this example.
 
 ```md
-line three__ %% We're using underscores to display spaces %%
+line three__  
 line four
 ```
 
@@ -84,7 +89,7 @@ Renders as:
 line three<br>
 line four
 
-**Double return (with or without trailing spaces)**: Pressing `Enter` twice (or more) separates the lines into two distinct paragraphs (`<p>` elements), regardless of whether you add spaces at the end of the first line.
+**Double return (with or without trailing spaces)**: Pressing `Enter` twice (or more) separates the lines into two distinct paragraphs (HTML `<p>` elements), regardless of whether you add spaces at the end of the first line.
 
 ```md
 line five
