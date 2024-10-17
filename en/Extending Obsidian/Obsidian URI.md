@@ -61,6 +61,11 @@ Opens an Obsidian vault, or open a file within that vault.
   - Using this parameter will override both `vault` and `file`.
   - This will cause the app to search for the most specific vault which contains the specified file path.
   - Then the rest of the path replaces the `file` parameter.
+- `clipboard` allows the use of the contents of the clipboard instead of specifying `content`.
+- `prepend` will add to the top of the file and attempt to merge properties.
+- `append` will add to the end of the file and also attempt to merge properties.
+- **[[Daily notes]] required**: `daily` creates a new Obsidian URI action that will automatically open or create your daily note.
+
 
 ## Open search
 
