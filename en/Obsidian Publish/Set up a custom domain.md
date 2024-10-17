@@ -101,6 +101,8 @@ RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.
 
 ### Netlify
 
+In `netlify.toml`, [configure redirects](https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file):
+
 ```plain
 [[redirects]]
   from = "https://mysite.com/my-notes/*"
