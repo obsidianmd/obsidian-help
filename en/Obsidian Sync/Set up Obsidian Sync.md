@@ -99,7 +99,7 @@ If you have freshly installed Obsidian, when you open the program you will be pr
 
 1. Open Obsidian (assuming this is your first time opening it)
 2. Select one of the options depending upon your installation:
-	1. **Desktop**: In the section that ays Open vault from Obsidian Sync, choose **Setup**
+	1. **Desktop**: In the section that says Open vault from Obsidian Sync, choose **Setup**
 	2. **Mobile/Tablet**: **Setup Obsidian Sync**
 3. Login with your Obsidian User account
 	1. If [[2-factor authentication|2FA]] is set up, enter your 2FA code.
