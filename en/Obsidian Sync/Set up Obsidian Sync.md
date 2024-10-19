@@ -1,16 +1,19 @@
 ---
-aliases: Obsidian Sync/Set up Obsidian Sync on another device
+aliases:
+  - Obsidian Sync/Set up Obsidian Sync on another device
 cssclasses:
   - soft-embed
+description: You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+publish: true
+mobile: true
 ---
 
 
-You’ve purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
 
 - **New to Obsidian Sync?** See: [[#Set up Obsidian Sync for the first time]]
 - **Connecting a second device?** See: [[#Sync a remote vault on another device]]
 - **Need to make changes?** See: [[#Manage your remote vaults]]
-
 
 ## Set up Obsidian Sync for the first time
 
@@ -23,6 +26,7 @@ In this section, you'll create a new [[Local and remote vaults|remote vault]] an
 - An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
 - An active Obsidian Sync [[Plans and storage limits|subscription]]. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/sync).
 - **Recommended**: A [[Back up your Obsidian files|backup system]] in place for your Obsidian files. A syncing service is not a backup. 
+
 ### Log in with your Obsidian account
 
 1. Open **Settings**.
@@ -81,7 +85,7 @@ If you are beginning syncing after adjusting Obsidian Sync's settings and restar
 
 To connect other devices to your newly created and synced remote vault, keep reading!
 
-To learn more about settings and files, move onto [[Select files and settings to sync]].
+To learn more about settings and files, move onto [[Sync settings and file selection]].
 
 ## Sync a remote vault on another device
 
@@ -138,6 +142,7 @@ If you have already created a local vault on this device, and you want to connec
 ## Manage your remote vaults
 
 You have created and connected to a remote vault. You may have also synced this remote vault to multiple devices. This section goes over some of the other common instructions you may need in managing this remote vault.
+
 ### Disconnect from a remote vault
 
 1. Open Obsidian's **Settings**.
@@ -186,7 +191,7 @@ Additionally, you can [[#Delete a remote vault|delete your old remote vault]] on
 
 Here are some suggested documents to read next.
 
-- Explore more about [[Select files and settings to sync|selecting files and settings to sync]].
+- Explore more about [[Sync settings and file selection|selecting files and settings to sync]].
 - Learn what happens if your remote vault [[Version history|fill up]].
 - [[Collaborate on a shared vault]] with another Obsidian Sync user.
 - Check out the [[Sync limitations|Sync FAQ]] for some answers to common questions.

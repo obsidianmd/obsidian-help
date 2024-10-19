@@ -1,7 +1,14 @@
 ---
 aliases:
   - Sync settings
+  - Selective syncing
+  - Obsidian Sync/Select files and settings to sync
+description: This page explains the Sync settings and guides you in selecting which files to sync.
 ---
+
+In addition to handling Deciding what to sync is managed in the Sync Core plugin settings.
+
+## Selective syncing
 
 Any files or settings synced to your [[Local and remote vaults|remote vault]] contribute to your [[Sync limitations#How large can each remote vault be|storage space]]. By default, [[Introduction to Obsidian Sync|Obsidian Sync]] activates **selective sync** for the following file types:
 - Images
@@ -22,7 +29,7 @@ The default **vault configuration sync** settings include:
 
 To sync community plugins, manually toggle **Active community plugin list** and **Installed community plugin list**.
 
-## Change the file types you want to sync
+### Change the file types you want to sync
 
 1. Open **Settings → Sync**.
 2. Under **Selective sync**, enable the file types you want to sync.
@@ -32,7 +39,7 @@ Note that your [[Plans and storage limits|Sync plan]] defines the maximum file s
 
 > [!info] Adding a file to the **Excluded files** list will not remove the file from the remote vault if it has already been synced. Configure the files and settings you wish to sync before initiating the process to avoid unnecessary use of storage space.
 
-## Exclude a folder from being synced
+### Exclude a folder from being synced
 
 By default, Obsidian syncs all files and folders in your vault. If you don't want Obsidian to sync a specific folder, you can exclude it.
 
@@ -41,15 +48,15 @@ By default, Obsidian syncs all files and folders in your vault. If you don't wan
 3. Select the checkbox to the left of the folder you want to exclude.
 4. Select **Done**.
 
-## Always excluded from sync
+#### Always excluded from sync
 
-### Folders that start with a dot are not synced
+##### Folders that start with a dot are not synced
 
 Any folder that starts with a `.` such as`.hidden` will not sync, because these are considered hidden folders in the filesystem. The only exception is your [[configuration folder]], which is called `.obsidian` by default.
 
 Common examples of hidden folders that will not be synced include `.vscode`, `.git`, and `.idea`.
 
-### Sync settings are not synced
+##### Sync settings are not synced
 
 Sync settings are not shared across devices. You must separately configure the settings on each device according to your needs.
 
@@ -102,7 +109,7 @@ As of now, most community plugins do not support hot reloading, meaning the appl
 
 Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] to the same remote vault. You can use this to create different profiles, for example, one for mobile devices and another for your laptop.
 
-## Create a settings profile
+### Create a settings profile
 
 To set your settings folder:
 

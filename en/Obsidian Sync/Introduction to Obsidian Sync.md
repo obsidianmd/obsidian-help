@@ -14,7 +14,7 @@ cssclasses:
 	- Set up Obsidian Sync on all your devices.
 - [[Migrate to Obsidian Sync|Migrate to Obsidian Sync]]
 	- Prepare your Obsidian Vault to use Obsidian Sync.
-- [[Select files and settings to sync|Selective sync]]
+- [[Sync settings and file selection|Selective sync]]
 	- Configure which files and settings to sync.
 - [[Plans and storage limits]]
 	- Learn about Sync subscription plans.

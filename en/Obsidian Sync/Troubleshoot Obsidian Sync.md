@@ -2,6 +2,7 @@
 cssclasses:
   - soft-embed
 description: This page lists uncommon issues you may encounter with Obsidian Sync and how to resolve them.
+mobile: true
 publish: true
 ---
 
@@ -42,6 +43,8 @@ Obsidian [[Sync limitations#Does Obsidian Sync live-reload my settings?|does not
 ### My files keep disappearing from Sync as soon as I restore it
 
 This issue is most commonly seen on Windows, where Windows Defender may quarantine files with code blocks, causing certain notes to disappear.
+
+---
 
 Another frequent cause is double-syncing, where Obsidian Sync is running alongside another syncing service.
 
