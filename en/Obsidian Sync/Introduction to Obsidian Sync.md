@@ -22,14 +22,17 @@ cssclasses:
 	- Manage your remote vault storage.
 - [[Version history]]
 	- View or restore previous versions of a note.
-- [[Collaborate on a shared vault|Collaboration]]
-	- Add team members to a shared vault.
-- [[Troubleshoot Obsidian Sync]]
-	- Common syncing issues and solutions.
+- [[Status icon and messages]]
+	- Overview of the Sync log and status icons.
 - [[Security and privacy]]
 	- How Obsidian keeps your Sync data safe.
+- [[Collaborate on a shared vault|Collaboration]]
+	- Add team members to a shared vault.
 - [[Back up your Obsidian files]]
 	- Back up your vault using third-party tools.
+- [[Troubleshoot Obsidian Sync]]
+	- Common syncing issues and solutions.
+
 
 ## Important
 
