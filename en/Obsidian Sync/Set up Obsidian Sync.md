@@ -85,7 +85,7 @@ If you are beginning syncing after adjusting Obsidian Sync's settings and restar
 
 To connect other devices to your newly created and synced remote vault, keep reading!
 
-To learn more about settings and files, move onto [[Sync settings and file selection]].
+To learn more about settings and files, move onto [[Sync settings and selective syncing]].
 
 ## Sync a remote vault on another device
 
@@ -191,7 +191,7 @@ Additionally, you can [[#Delete a remote vault|delete your old remote vault]] on
 
 Here are some suggested documents to read next.
 
-- Explore more about [[Sync settings and file selection|selecting files and settings to sync]].
+- Explore more about [[Sync settings and selective syncing|selecting files and settings to sync]].
 - Learn what happens if your remote vault [[Version history|fill up]].
 - [[Collaborate on a shared vault]] with another Obsidian Sync user.
 - Check out the [[Sync limitations|Sync FAQ]] for some answers to common questions.
