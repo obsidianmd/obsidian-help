@@ -61,7 +61,7 @@ To import a template:
 
 1. Open the extension and click the **Settings** cog icon.
 2. Go to any template in the list.
-3. Click **Import** in the top right or.drag and drop your `.json` template file(s) anywhere in the template area.
+3. Click **Import** in the top right or drag and drop your `.json` template file(s) anywhere in the template area.
 
 To export a template click **Export** in the top right. This will download the template `.json` file. You can also copy the template data to your clipboard via the **More** menu.
 
