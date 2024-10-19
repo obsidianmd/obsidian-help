@@ -1,3 +1,8 @@
+---
+aliases:
+  - Sync settings
+---
+
 Any files or settings synced to your [[Local and remote vaults|remote vault]] contribute to your [[Sync limitations#How large can each remote vault be|storage space]]. By default, [[Introduction to Obsidian Sync|Obsidian Sync]] activates **selective sync** for the following file types:
 - Images
 - Audio
