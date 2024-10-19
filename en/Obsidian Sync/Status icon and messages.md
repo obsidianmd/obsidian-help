@@ -4,6 +4,7 @@ aliases:
   - Sync Icon
   - Sync Log
 description: This page explains the Obsidian Sync status icons and provides details about the sync log.
+mobile: true
 publish: true
 ---
 
@@ -23,7 +24,7 @@ Clicking or tapping the icon opens a context menu with the following options:
 - ![[lucide-history.svg#icon]] [[Version history]] (Greyed out if not viewing a note)
 - ![[lucide-align-left.svg#icon]] Open [[#Sync log|Sync log]]
 - ![[lucide-trash-2.svg#icon]] [[Version history#Restore a deleted file|Deleted files]]
-- ![[lucide-cog.svg#icon]] [[Select files and settings to sync|Sync settings]]
+- ![[lucide-cog.svg#icon]] [[Sync settings and selective syncing|Sync settings]]
 
 ## Sync log
 
@@ -52,6 +53,8 @@ Obsidian is trying to connect to your remote vault's [[Obsidian Sync/Security an
 **Connected to server. Detecting changes...**  
 Obsidian has established a connection and is comparing the local vault with the remote vault to determine if changes are needed.
 
+> [!info] This message can also indicate other potential Sync issues. If you see it repeatedly and believe there are still items to sync, [[Help and support#Contact Obsidian support|contact Obsidian support]].
+
 **Fully synced**
 - The local and remote vaults are fully synchronized.
 
@@ -63,8 +66,10 @@ The changes on the remote vault are older than the version on your local device,
 
 ### Error messages
 
+These are messages detailing an error in syncing a file.
+
 **Out of memory**
-This issue typically occurs on mobile devices when there isn’t enough storage space or memory available to download a file. It’s most common with large files, such as videos.
+This issue typically occurs on mobile devices when there isn't enough storage space or memory available to download a file. It's most common with large files, such as videos.
 
 ### Skipped messages
 
