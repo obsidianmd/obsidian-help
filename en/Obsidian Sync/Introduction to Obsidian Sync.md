@@ -14,7 +14,7 @@ cssclasses:
 	- Set up Obsidian Sync on all your devices.
 - [[Migrate to Obsidian Sync|Migrate to Obsidian Sync]]
 	- Prepare your Obsidian Vault to use Obsidian Sync.
-- [[Select files and settings to sync|Selective sync]]
+- [[Sync settings and selective syncing|Selective sync]]
 	- Configure which files and settings to sync.
 - [[Plans and storage limits]]
 	- Learn about Sync subscription plans.
@@ -22,18 +22,21 @@ cssclasses:
 	- Manage your remote vault storage.
 - [[Version history]]
 	- View or restore previous versions of a note.
-- [[Collaborate on a shared vault|Collaboration]]
-	- Add team members to a shared vault.
-- [[Troubleshoot Obsidian Sync]]
-	- Common syncing issues and solutions.
+- [[Status icon and messages]]
+	- Overview of the Sync log and status icons.
 - [[Security and privacy]]
 	- How Obsidian keeps your Sync data safe.
+- [[Collaborate on a shared vault|Collaboration]]
+	- Add team members to a shared vault.
 - [[Back up your Obsidian files]]
 	- Back up your vault using third-party tools.
+- [[Troubleshoot Obsidian Sync]]
+	- Common syncing issues and solutions.
+
 
 ## Important
 
-If you are using Obsidian Sync together with other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, refer to [[Back up your Obsidian files]] to avoid sync conflicts.
+If you are using Obsidian Sync alongside other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, please [[Back up your Obsidian files]] to prevent sync conflicts. We strongly recommend [[Migrate to Obsidian Sync|fully migrating to Obsidian Sync]].
 
 See [[Sync limitations]] for frequently asked questions, and more details about Obsidian Sync.
 

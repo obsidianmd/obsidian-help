@@ -1,6 +1,16 @@
+---
+aliases:
+  - Obsidian Community Code of Conduct
+  - CoC
+description: This page details the rules that apply to all Obsidian community spaces.
+mobile: true
+permalink: community-code-of-conduct
+publish: true
+---
+
 ## The rules
 
-The following behaviors are not tolerated within the official Obsidian community channels.
+The following behaviors are not tolerated within the official Obsidian community channels, including the [Forum](https://forum.obsidian.md), [Discord](https://discord.gg/obsidianmd), and [Reddit](https://reddit.com/r/ObsidianMD).
 
 ### Serious offenses
 
@@ -12,7 +22,7 @@ Harassment includes offensive verbal comments related to gender, sexual orientat
 
 #### Threats
 
-We don’t tolerate any threats, physically or verbally. For example, threatening to publicize sensitive information about someone’s personal life.
+We don't tolerate any threats, physically or verbally. For example, threatening to publicize sensitive information about someone's personal life.
 
 #### Blatant -isms
 
@@ -29,11 +39,11 @@ Examples of **Other offenses** include:
 
 #### Belligerence
 
-Belligerence is deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they’re not a real programmer or that they don’t belong.
+Belligerence is deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they're not a real programmer or that they don't belong.
 
 #### Being especially unpleasant
 
-For example, if we’ve received reports from multiple members of annoying or rude behavior.
+For example, if we've received reports from multiple members of annoying or rude behavior.
 
 #### Unsolicited messages to community members
 
@@ -61,13 +71,13 @@ The following behaviors, while not resulting in an immediate ban or warning, are
 
 #### Campaigning
 
-Campaigning is continuously making the same requests. This applies to both feature requests and to requests for help. Don’t post the same question in multiple places in short time frames, and don’t ask developers for the same features or bug fixes repeatedly.
+Campaigning is continuously making the same requests. This applies to both feature requests and to requests for help. Don't post the same question in multiple places in short time frames, and don't ask developers for the same features or bug fixes repeatedly.
 
 #### Excessive self promotion
 
-We encourage sharing what you made, for example guides, videos, utilities, and tools. It's awesome to see what Obsidian users are up to. As a content creator, it’s inevitable that you will link to your own creations.
+We encourage sharing what you made, for example guides, videos, utilities, and tools. It's awesome to see what Obsidian users are up to. As a content creator, it's inevitable that you will link to your own creations.
 
-**Exclusive** self promotion is the promoting and linking of your or others' content and initiatives without contributing to the community otherwise. We won’t tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community. Depending on the case, links may be removed, or warnings given.
+**Exclusive** self promotion is the promoting and linking of your or others' content and initiatives without contributing to the community otherwise. We won't tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community. Depending on the case, links may be removed, or warnings given.
 
 **Excessive** self promotion is a judgement call. Please be respectful of the community and prioritize active community participation before linking. We reserve the right to remove links we think breach this guideline.
 
@@ -75,16 +85,16 @@ Note that linking to paid content made by oneself will be scrutinized even close
 
 #### Spamming
 
-Do not directly message any of our community member without asking for consent first. It’s okay to ask publicly if you have a question.
+Do not directly message any of our community member without asking for consent first. It's okay to ask publicly if you have a question.
 
 ## Encouraged behaviors
 
-Over the years of running the official Obsidian community channels, we’ve noticed some behaviors that positively contribute to the community.
+Over the years of running the official Obsidian community channels, we've noticed some behaviors that positively contribute to the community.
 
-If you’re looking to improve your communication skills as well as becoming a better community citizen, consider doing the following:
+If you're looking to improve your communication skills as well as becoming a better community citizen, consider doing the following:
 
 - **Try before asking**: before asking for help, please first try searching the help docs and Discord/forum history to see if the question has already been asked. Help others help you, by sharing what you've already tried.
-- **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Don’t judge others for their choices.
+- **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Don't judge others for their choices.
 - **Step away when heated**: the community is a place for us to grow together, not a debate competition. If a discussion escalates into an argument, try your best to step away and leave the conversation.
 
 ## Motivation
@@ -131,14 +141,14 @@ If you believe you were banned in error, you may [[Help and support#Contact Obsi
 
 Please note that all appeal decisions are final and cannot be further appealed.
 
-
 ## Credits
 
 Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https://www.recurse.com/code-of-conduct).
 
 ## Changelog
 
+- **2024-10-18**: Added links to communities this may apply to.
 - **2024-09-25**: Added timeouts, and ban appeal. 
 - **2024-09-12**: Added nicknames and avatars to [[#Other offenses]].
 - **2024-02-23**: Updated [[#Unsolicited messages to community members]] to indicate when it is appropriate to direct message a community member. 
-- **2023-10-28**: Moved blatant -isms from "Other offenses" to "Serious offenses", meaning they’re now bannable on first offense.
+- **2023-10-28**: Moved blatant -isms from "Other offenses" to "Serious offenses", meaning they're now bannable on first offense.

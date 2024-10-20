@@ -6,6 +6,7 @@ cssclasses:
   - soft-embed
 description: Obsidian Sync keeps a record of all changes made to your notes and regularly checks for updates and creates new versions of your notes.
 mobile: true
+publish: true
 ---
 [[Introduction to Obsidian Sync|Obsidian Sync]] keeps a record of all changes made to your notes. Sync regularly checks for updates and creates new versions of your notes. This information is available to you through several methods:
 
@@ -35,7 +36,7 @@ When you enable the [[Introduction to Obsidian Sync|Sync]] core plugin, Sync his
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
 1. Open the **Command palette**. ( ![[lucide-terminal.svg#icon]] )
-2. Type “Sync”.
+2. Type "Sync".
 3. Select the "Sync: Show Sync history" option.
 
 Sync history will then appear in the [[Sidebar|right sidebar]].
@@ -44,7 +45,7 @@ Sync history will then appear in the [[Sidebar|right sidebar]].
 
 1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
 2. Open the **Command palette**. ( ![[lucide-terminal.svg#icon]] )
-3. Type “Sync”.
+3. Type "Sync".
 4. Select the "Sync: Show Sync history" option.
 
 Sync history will then appear as a dropdown option in the [[Sidebar|right sidebar]].
@@ -53,7 +54,7 @@ Sync history will then appear as a dropdown option in the [[Sidebar|right sideba
 
 1. Open **Settings**.
 2. In the **Options** category, select **Hotkeys**.
-3. In the hotkeys search bar, type “Sync”.
+3. In the hotkeys search bar, type "Sync".
 4. Next to "Sync: Show Sync history," assign your preferred hotkey.
 
 ## Version history
@@ -69,6 +70,7 @@ For [[Attachments|attachments]], older versions are stored for <u>two weeks</u>.
 ### Notes and attachments
 
 The process for restoring both notes and attachments is the same. 
+
 #### View version history of a file
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]

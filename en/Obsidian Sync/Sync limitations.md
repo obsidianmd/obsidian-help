@@ -3,6 +3,9 @@ aliases:
   - Limitations
   - Sync limitations
   - Sync FAQ
+description: This page lists some of the common questions related to questions and limitations for Obsidian Sync.
+mobile: true
+publish: true
 ---
 
 This page lists some of the common questions related to questions and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
@@ -21,7 +24,7 @@ Obsidian can be used in [Lockdown Mode](https://support.apple.com/en-us/105120) 
 
 By default your Obsidian notes, images, and your [[Configuration folder]] are synced. 
 
-You can add additional syncing options of PDF's, audio files, video files, and other files when you [[select files and settings to sync]].
+You can add additional syncing options of PDF's, audio files, video files, and other files when you [[Sync settings and selective syncing]].
 
 ### How much storage do I have?
 
@@ -30,6 +33,7 @@ The storage limit depends on your Obsidian [[Plans and storage limits#Plans|Sync
 You can view **Storage usage** in the Obsidian app by going to **Settings → Sync**.
 
 ### How many remote vaults can I have?  
+
   
 The number of remote vaults you can have is determined based on your [[Plans and storage limits#Plans|Sync plan]]. The Standard plan includes 1 vault, the Plus plan includes 10 vaults. Vaults shared with you do not count towards your vault limit.
 
@@ -51,7 +55,7 @@ No, files are only synced when Obsidian is running.
 
 ### Does Obsidian Sync live-reload my settings?
 
-Obsidian Sync can automatically reload certain settings, but there are some limitations. For more details, refer to [[Select files and settings to sync#Reloading of settings|Reloading of settings]].
+Obsidian Sync can automatically reload certain settings, but there are some limitations. For more details, refer to [[Sync settings and selective syncing#Reloading of settings|Reloading of settings]].
 
 ### Can I use a third-party sync with Obsidian Sync?
 
