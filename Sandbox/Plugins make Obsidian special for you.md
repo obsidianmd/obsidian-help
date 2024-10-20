@@ -8,7 +8,7 @@ Core plugins are made by us, and they give Obsidian basic modularity. “Modular
 
 ## Wild community plugins
 
-Plugins not just give Obsidian modularity, but also extensibility. Extensibility means other people can add features to Obsidian as they see fit.
+Plugins not only provide Obsidian with modularity, but also enhance its extensibility. Extensibility means other people can add features to Obsidian as they see fit.
 
 Unfortunately, you’d need to know some coding to know how to do that. But fortunately, Obsidian has a community plugin store that lets you install these community plugins with one click.
 
