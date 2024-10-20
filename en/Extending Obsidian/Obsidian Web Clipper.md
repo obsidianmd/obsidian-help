@@ -1,4 +1,4 @@
-Obsidian Web Clipper is a browser extension that lets you highlight web pages and save them to your vault.
+Obsidian Web Clipper is a browser extension that lets you highlight pages and save web content to your vault.
 
 ## Getting started
 
@@ -15,9 +15,9 @@ Install the Obsidian Web Clipper extension by downloading it from the official d
 
 Once you install the browser extension, you can access Web Clipper in several ways, depending on your browser:
 
-1. Clicking the Obsidian icon in your browser toolbar.
-2. Using the hotkey to activate the extension.
-3. Using the context menu, by right clicking the web page you are visiting.
+1. The Obsidian icon in your browser toolbar.
+2. Hotkeys, to activate the extension from your keyboard.
+3. Context menu, by right-clicking the web page you are visiting.
 
 To save a page to Obsidian click the **Add to Obsidian** button.
 
@@ -25,33 +25,35 @@ To save a page to Obsidian click the **Add to Obsidian** button.
 
 The Web Clipper interface is divided into four sections:
 
-- **Header** at the top, to switch templates
-- **Properties** showing the [[Properties]] metadata from the page
-- **Note content** that will be saved to Obsidian
-- **Footer** where you can select the vault and folder, and add to Obsidian.
+1. **Header** where you can switch templates, enable highlighter mode, and access settings.
+2. **Properties** shows the [[Properties|metadata]] extracted from the page that will be saved as properties in Obsidian.
+3. **Note content** that will be saved to Obsidian.
+4. **Footer** allows you select the vault and folder, and add to Obsidian.
 
-The header includes:
+Header functionality includes:
 
-- **Template switcher** switches between your saved templates added in Web Clipper settings.
-- **More (...)** button displays the page variables you can use in templates.
-- **Highlighter** button activates the highlighter mode.
-- **Cog** button opens the Web Clipper settings.
+- **Template switcher**, to switch between your saved templates added in Web Clipper settings.
+- **More (...)** button, to display page variables you can use in templates.
+- **Highlighter** button, to activate highlighter mode.
+- **Cog** button, to open Web Clipper settings.
 
-The footer includes:
+Footer functionality includes:
 
 - **Vault switcher**, to switch between saved vaults added in Web Clipper settings.
 - **Folder**, to define which folder to save to.
-- **Add to Obsidian** button which sends data into Obsidian.
+- **Add to Obsidian** button to save data to Obsidian.
 
 ## Templates
 
-Web Clipper allows you to create templates to automatically capture and organize metadata from web pages. Some example templates are available in the [clipper-templates repo](https://github.com/kepano/clipper-templates). 
+Web Clipper allows you to create templates that automatically capture and organize metadata from web pages. Example templates are available in the [clipper-templates repo](https://github.com/kepano/clipper-templates). 
 
 ### Create or edit a template
 
-To create a template go to Web Clipper settings and click the **New template** button in the sidebar.
+To **create** a template go to Web Clipper settings and click the **New template** button in the sidebar.
 
-To edit a template choose a template from the sidebar. Your changes will be saved automatically.
+To **edit** a template choose a template from the sidebar. Your changes will be saved automatically.
+
+You can also **duplicate** a template in the **More** actions menu in the top right corner.
 
 ### Import and export clipper templates
 
@@ -59,9 +61,9 @@ To import a template:
 
 1. Open the extension and click the **Settings** cog icon.
 2. Go to any template in the list.
-3. Click **Import** in the top right or.drag and drop your `.json` template file(s) anywhere in the template area.
+3. Click **Import** in the top right or drag and drop your `.json` template file(s) anywhere in the template area.
 
-To export a template click **Export** in the top right. This will download the template `.json` file.
+To export a template click **Export** in the top right. This will download the template `.json` file. You can also copy the template data to your clipboard via the **More** menu.
 
 ### Template triggers
 
@@ -217,7 +219,7 @@ Filters allow you to modify variables in a template. Filters are applied to vari
 		- Example: `["rock", "pop"]|map:item => "genres/${item}"` returns `[{str: "genres/rock"}, {str: "genres/pop"}]`.
 		- The `str` property is used to store the result of string literal transformations.
 	- Can be combined with `template` filter, e.g. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`
-- `markdown` converts a string to an [Obsidian Flavored Markdown](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown) formatted string.
+- `markdown` converts a string to an [[Obsidian Flavored Markdown]] formatted string.
 	- Useful when combined with variables that return HTML such as `{{contentHtml}}`, `{{fullHtml}}`, and selector variables like `{{selectorHtml:cssSelector}}`.
 - `object` manipulates object data:
 	- `object:array` converts an object to an array of key-value pairs.
