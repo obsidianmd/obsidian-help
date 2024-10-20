@@ -7,11 +7,12 @@ mobile: true
 permalink: getting-started/sync-your-notes-across-devices
 publish: true
 ---
+
 This guide will help you sync your Obsidian vaults across different devices and platforms. We cover common sync methods by type and platform, including tips for avoiding data loss and ensuring a smooth experience.
 
 We also recommend reading our [[Back up your Obsidian files|backup]] guide alongside this article for the best protection of your data.
 
-## Syncing Types
+## Syncing types
 
 The list of syncing types is not exhaustive, and only covers the most common ones as reported by the [Obsidian Community](https://obsidian.md/community).
 
@@ -157,7 +158,7 @@ Syncthing is a decentralized file synchronization tool that doesn't rely on clou
 
 > [!Note] Git provides strong version control, but syncing isn't automatic. You must manually push and pull changes.
 
-## iPhone and iPad Syncing
+## iPhone and iPad syncing
 
 **Recommended options**:
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
@@ -195,7 +196,7 @@ Some users have successfully used plugins like **Remotely Save** or **LiveSync**
 
 > [!Note] While Working Copy isn't officially supported, many users have successfully used it to sync vaults with Git.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Why is my preferred syncing service not officially supported?**
 
