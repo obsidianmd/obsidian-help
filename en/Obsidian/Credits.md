@@ -14,21 +14,27 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 
 - Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
 - kepano ([Steph Ango](https://stephanango.com/))
-- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Support Dragon</span>
+- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
 
 ## Moderators
 
 - argentum<span class='flair mod-pop'>Team Little Silvers</span> <span class='flair mod-pop'>Linux master</span> <span class='flair mod-pop'>Zotero master</span> ^a4b3a2
 - cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
-- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
 - koala<span class='flair mod-pop'>Extreme Bug Finder</span>
 - Leah ([Leah Ferguson](http://leahferguson.com))<span class='flair mod-pop'>Roll for initiative!</span> <span class='flair mod-pop'>Non-techy Apple geek</span>
-- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 - rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair mod-pop'>Forum master</span>
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair mod-pop'>That funny guy</span> <span class='flair mod-pop'>Apple Fanboy</span> <span class='flair mod-pop'>Forum master</span>
 - WhiteNoise<span class='flair mod-pop'>Think Tank</span> <span class='flair mod-pop'>Zotero master</span> <span class='flair mod-pop'>Bug report exterminator</span>
 - CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair mod-pop'>embedded-search ambassador</span>
+- Trainbuffer <span class='flair mod-pop'> ferroequinologist</span> <span class='flair mod-pop'>Travels by rail</span>
+- Roam ([Roman Soriano](https://leftovers.blog/)) <span class='flair mod-pop'>Not <i>that</i> one</span>
+- Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair mod-pop'>Templater Templar</span><span class='flair mod-pop'>Board Gamer</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
+
+### Retired
+
+- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
+- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 
 ## Plugin inspirations
 
@@ -49,6 +55,8 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - Andrea Brandi (Italian)
 - bongudth (Vietnamese)
 - canzi-teacher, 蚕子 (Simplified Chinese)
+- cor-bee, Ілля Пишняк (Ukrainian)
+- cvyl, Mikka (Dutch)
 - Daniel Mathiot (French)
 - Diego Tres (Brazilian Portuguese)
 - Haitham Mohamed (Arabic)
@@ -61,6 +69,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - Manuel Arias Almada (Spanish)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
+- Ryooo，睿悠ryooo (Chinese Simplified)
 - Sakvipubp Suy (Khmer)
 - smilorent, Silviu Lorenț (Romanian)
 - Solyta Teng (Khmer)
@@ -106,7 +115,7 @@ Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2
 
 ### Electron
 
-Version `28.2.3`
+Version `31.6.0`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -133,7 +142,7 @@ Apache License 2.0
 
 ### Mermaid
 
-Version `10.2.3`
+Version `10.6.1`
 MIT License
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 

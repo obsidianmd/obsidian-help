@@ -2,13 +2,13 @@
 
 Hay varias formas de incluir archivos adjuntos en sus notas:
 
-1. Copie y pegue;
-2. Arrastra y suelta;
-3. Descargue o copie el archivo a la carpeta de la bóveda.
+1. Copie y pegue
+2. Arrastra y suelta
+3. Descargue o copie el archivo a la carpeta de la bóveda
 
 Después de agregarlos, estos archivos adjuntos son solo archivos normales y aún se puede acceder a ellos a través de su sistema de archivos.
 
-Tenga en cuenta que solo son manejados [[Formatos de archivo aceptados]].
+Tenga en cuenta los [[formatos de archivo aceptados]].
 
 ### Copiar y pegar
 
@@ -34,7 +34,7 @@ De forma predeterminada, los nuevos archivos adjuntos se colocarán en la raíz 
 
 Puede elegir una carpeta fija para colocar siempre sus archivos adjuntos. Para hacer esto, elija "En la carpeta especificada a continuación" y elija una carpeta en su bóveda en el nuevo campo que aparece.
 
-Alternativamente, puede hacer clic derecho en una carpeta en [[Explorador de archivos]] y elija "Establecer como carpeta de adjuntos".
+Alternativamente, puede hacer clic derecho en una carpeta en [[explorador de archivos]] y elija "Establecer como carpeta de adjuntos".
 
 ### Misma carpeta que el archivo actual
 

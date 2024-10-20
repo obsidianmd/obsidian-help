@@ -61,6 +61,11 @@ Opens an Obsidian vault, or open a file within that vault.
   - Using this parameter will override both `vault` and `file`.
   - This will cause the app to search for the most specific vault which contains the specified file path.
   - Then the rest of the path replaces the `file` parameter.
+- `clipboard` allows the use of the contents of the clipboard instead of specifying `content`.
+- `prepend` will add to the top of the file and attempt to merge properties.
+- `append` will add to the end of the file and also attempt to merge properties.
+- **[[Daily notes]] required**: `daily` creates a new Obsidian URI action that will automatically open or create your daily note.
+
 
 ## Open search
 
@@ -100,7 +105,7 @@ This URI endpoint creates a new note in the vault, optionally with some content.
 - `silent` (optional) include this parameter if you don't want to open the new note.
 - `append` (optional) include this parameter to append to an existing file if one exists.
 - `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
-- `x-success` (optional) see [[#x-callback-url]].
+- `x-success` (optional) see [[#Use x-callback-url parameters]].
 
 ## Integrate with Hook
 
@@ -113,8 +118,8 @@ This Obsidian URI endpoint is to be used with [Hook](https://hookproductivity.co
 ### Parameters
 
 - `vault` (optional) can be either the vault name, or the vault ID[^1]. If not provided, the current or last focused vault will be used.
-- `x-success` (optional) see [[#x-callback-url]].
-- `x-error` (optional) see [[#x-callback-url]].
+- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `x-error` (optional) see [[#Use x-callback-url parameters]].
 
 If `x-success` is defined, this API will use it as the x-callback-url. Otherwise, it will copy a Markdown link of the current focused note to the clipboard, as an `obsidian://open` URL.
 

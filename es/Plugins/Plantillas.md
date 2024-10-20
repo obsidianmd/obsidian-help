@@ -1,4 +1,4 @@
-El complemento Plantillas le permite insertar rápidamente fragmentos de texto en su nota actual.
+El complemento plantillas le permite insertar rápidamente fragmentos de texto en su nota actual.
 
 ### Configurar carpeta de plantillas
 
@@ -33,4 +33,4 @@ Además de  `{{date}}` y `{{time}}`, que funcionará en todos los archivos de pl
 
 ### Uso de formatos de fecha personalizados en otros lugares
 
-Actualmente, fechas como `{{date:YYYY-MM-DD}}` y `{{time:HH:mm}}` también funcionan en el archivo de plantilla de las [[Notas diarias]] y complemento [[Prefijo Zettelkasten]]. Sin embargo, `{{date}}` y `{{time}}` aún no funciona.
+Actualmente, fechas como `{{date:YYYY-MM-DD}}` y `{{time:HH:mm}}` también funcionan en el archivo de plantilla de las [[notas diarias]] y complemento [[prefijo Zettelkasten]]. Sin embargo, `{{date}}` y `{{time}}` aún no funciona.

@@ -49,48 +49,67 @@ While you can link to any of the [[Accepted file formats]], links to file format
 
 You can link to specific headings in notes, also known as _anchor links_.
 
-To link to a heading, add a hash (`#`) at the end of the link destination, followed by the heading text.
+**Linking to a heading within the same note**
 
-For example, `[[Three laws of motion#Second law]]`.
+To link to a heading within the same note, type `[[#` to get a list of headings within the note to link to.
+
+For example, `[[#Preview a linked file]]` will create a link to [[#Preview a linked file]].
+
+**Linking to a heading in another note**
+
+To link to a heading in another note, add a hash (`#`) at the end of the link destination, followed by the heading text.
+
+For example, `[[Obsidian#Links are first-class citizens]]` will create a link to [[Obsidian#Links are first-class citizens]].
+
+**Linking to subheadings**
 
 You can add multiple hash symbols for each subheading.
 
-For example, `[[My note#Heading 1#Heading 2]]`.
+For example, `[[Help and support#Questions and advice#Report bugs and request features]]` will create a link to [[Help and support#Questions and advice#Report bugs and request features]].
 
-> [!tip]- Heading links across the vault
-> You can search for headers to link to from across your vault using the `[[##header]]` syntax. 
-> 
+**Searching for headers across the vault**
+
+To search for headers across the entire vault, use the `[[## header]]` syntax.
+
+For example, `[[##` will search generically across the vault, whereas `[[## team]]` will search for all headers that contain the word _team_.
+
+> [!info]- Screenshot of searching for a heading link
+>
 > ![[internal-links-header.png#interface]]
 
 ## Link to a block in a note
 
-A block is a unit of text in your note, for example a paragraph, block quote, or even a list item.
+A block is a unit of text in your note, such as a paragraph, block quote, or list item.
 
-You can link to a block by adding `#^` at the end of your link destination followed by a unique block identifier, for example, `[[2023-01-01#^37066d]]`.
+You can link to a block by adding `#^` at the end of your link destination followed by a unique block identifier. For example, `[[2023-01-01#^37066d]]`.
 
-Fortunately, you don't need to know the identifier. When you type the caret (`^`), you can select the block from a list of suggestions to insert the right identifier.
+Fortunately, you don't need to know the identifier. When you type the caret (`^`), you can select the block from a list of suggestions to insert the correct identifier.
 
-You can also create human-readable block identifiers by adding a blank space followed by the identifier, for example `^quote-of-the-day`, at the end of a block:
+**Searching for blocks across the vault**
+
+You can also search for blocks to link to from across your vault using the `[[^^block]]` syntax. However, more items qualify as blocks compared to [[#Link to a heading in a note|heading links]], so this list will be much longer.
+
+> [!info]- Screenshot of searching for a block link 
+> ![[link-block-heading.png#interface]]
+
+You can also create human-readable block identifiers by adding a blank space followed by the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
+
+For example, add `^quote-of-the-day` at the end of a block:
 
 ```md
 "You do not rise to the level of your goals. You fall to the level of your systems." by James Clear ^quote-of-the-day
 ```
 
-Now you can instead link to the block by typing `[[2023-01-01#^quote-of-the-day]]`.
-
-Block identifiers can only consist of Latin letters, numbers, and dashes.
-
-> [!tip]- Block links across the vault
-> You can search for blocks to link to from across your vault using the `[[^^block]]` syntax. However, more items qualify as blocks in comparison to [[#Link to a heading in a note|heading links]] so this list will be much longer in comparison.
-> 
-> ![[link-block-heading.png#interface]]
+Now you can link to the block by typing `[[2023-01-01#^quote-of-the-day]]`.
 
 > [!warning] Interoperability
 > Block references are specific to Obsidian and not part of the standard Markdown format. Links containing block references won't work outside of Obsidian.
 
 ## Change the link display text
 
-By default, Obsidian will show the link text, or the [[Aliases|alias]] if you opt to [[Aliases#Link to a note using an alias|link to an alias]]. You have the option to modify the text used for displaying a link. This feature comes in handy when you prefer to incorporate a link into a sentence without explicitly using the file name.
+By default, Obsidian will show the link text as it appears, such as `[[Aliases]]` showing [[Aliases]] and `[[Basic formatting syntax#Code blocks]]` showing [[Basic formatting syntax#Code blocks]].
+
+You have the option to modify the text used for displaying a link by using the `[[Aliases|Nicknames]]` and `[[Basic formatting syntax#Code blocks|Code blocks]]` syntaxes to create the [[Aliases|Nicknames]] and [[Basic formatting syntax#Code blocks|Code blocks]] links.
 
 **Wikilink format:**
 

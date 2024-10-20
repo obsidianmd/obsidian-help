@@ -15,9 +15,9 @@ Si está creando su propio tema, puede hacerlo de la siguiente manera:
 1. Creando su archivo CSS de tema personalizado en el directorio de temas `TU_BÓVEDA/.obsidian/themes/TU_TEMA_PERSONALIZADO.css`
 2. Habilitarlo en el menú desplegable de temas en `Configuración`> `Apariencia`>` Temas`
 
-Para obtener más información sobre cómo personalizar los estilos del gráfico, puede encontrar más información en [[Vista de gráfico]].
+Para obtener más información sobre cómo personalizar los estilos del gráfico, puede encontrar más información en [[vista de gráfico]].
 
-### Utilice temas y / o fragmentos de CSS
+### Utilice temas y/o fragmentos de CSS
 
 Puede encontrar esta configuración en Apariencia en la configuración. Puede elegir un tema de la comunidad o establecer el tema que desarrolló usted mismo. Si configura un tema de la comunidad, se colocará automáticamente en la carpeta correcta. Si desarrolla su propio tema, debe colocarlo usted mismo en la ubicación de la carpeta que se muestra.
 

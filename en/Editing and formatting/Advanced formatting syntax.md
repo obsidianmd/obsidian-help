@@ -2,11 +2,12 @@
 aliases:
   - Advanced Markdown
 ---
+
 Learn how to add advanced formatting syntax to your notes.
 
 ## Tables
 
-You can create table using vertical bars (`|`) and hyphens (`-`). Vertical bars separate columns, and hyphens define the column header.
+You can create tables using vertical bars (`|`) to separate columns and hyphens (`-`) to define headers. Here's an example:
 
 ```md
 | First name | Last name |
@@ -20,9 +21,19 @@ You can create table using vertical bars (`|`) and hyphens (`-`). Vertical bars 
 | Max        | Planck    |
 | Marie      | Curie     |
 
-The vertical bars on either side of the table are optional.
+While the vertical bars on either side of the table are optional, including them is recommended for readability.
 
-Cells don't need to be perfectly aligned with the columns. Each header row must have at least two hyphens.
+> [!tip] In _Live Preview_, you can right-click a table to add or delete columns and rows. You can also sort and move them using the context menu.
+
+You can insert a table using the **Insert Table** command from the [[Command palette|Command Palette]] or by right-clicking and selecting _Insert → Table_. This will give you a basic, editable table:
+
+```md
+|     |     |
+| --- | --- |
+|     |     |
+```
+
+Note that cells don't need perfect alignment, but the header row must contain at least two hyphens:
 
 ```md
 First name | Last name
@@ -31,14 +42,15 @@ Max | Planck
 Marie | Curie
 ```
 
+
 ### Format content within a table
 
 You can use [[basic formatting syntax]] to style content within a table.
 
-First column | Second column
--- | --
-[[Internal links]] | Link to a file _within_ your **vault**.
-[[Embed files]] | ![[og-image.png\|200]]
+| First column       | Second column                           |
+| ------------------ | --------------------------------------- |
+| [[Internal links]] | Link to a file _within_ your **vault**. |
+| [[Embed files]]    | ![[Engelbart.jpg\|100]]                 |
 
 > [!note] Vertical bars in tables
 > If you want to use [[aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
@@ -46,14 +58,14 @@ First column | Second column
 > ```md
 > First column | Second column
 > -- | --
-> [[Basic formatting syntax\|Markdown syntax]] | ![[og-image.png\|200]]
+> [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
 > ```
 >
 > First column | Second column
 > -- | --
-> [[Basic formatting syntax\|Markdown syntax]] | ![[og-image.png\|200]]
+> [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
 
-You can align text to the left, right, or center of a column by adding colons (`:`) to the header row.
+Align text in columns by adding colons (`:`) to the header row. You can also align content in _Live Preview_ via the context menu.
 
 ```md
 Left-aligned text | Center-aligned text | Right-aligned text

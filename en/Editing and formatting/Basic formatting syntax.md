@@ -2,22 +2,31 @@
 aliases:
   - How to/Format your notes
   - Markdown
+description: Learn how to apply basic formatting to your notes in Obsidian, using Markdown.
+publish: true
+mobile: true
 ---
 
 Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Advanced formatting syntax]].
 
 ## Paragraphs
 
-To create paragraphs, use a blank line to separate one or more lines of text.
+To create paragraphs in Markdown, use a **blank line** to separate blocks of text. Each block of text separated by a blank line is treated as a distinct paragraph.
 
-```
+```md
 This is a paragraph.
 
 This is another paragraph.
 ```
 
-> [!note]- Multiple blank spaces
-> Multiple adjacent blank spaces in and between paragraphs collapse to a single space when displaying a note in [[Edit and preview Markdown#Editor views|Reading view]] and on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+This is a paragraph.
+
+This is another paragraph.
+
+A blank line between lines of text creates separate paragraphs. This is the default behavior in Markdown.
+
+> [!tip] Multiple blank spaces
+> Multiple adjacent blank spaces within and between paragraphs collapse into a single space when displayed in [[Edit and preview Markdown#Editor views|Reading view]] or on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
 > 
 > ```md
 > Multiple          adjacent          spaces
@@ -33,7 +42,65 @@ This is another paragraph.
 > > 
 > > and multiple newlines between paragraphs.
 > 
-> If you want to add multiple spaces, you can add `&nbsp;` (blank space) and `<br>` (newline) to your note.
+> If you want to prevent spaces from collapsing or add multiple blank spaces, you can use the `&nbsp;` (non-breaking space) or `<br>` (line break) HTML tags.
+
+### Line breaks
+
+By default in Obsidian, pressing `Enter` once will create a new line in your note, but this is treated as a *continuation* of the same paragraph in the rendered output, following typical Markdown behavior. To insert a line break *within* a paragraph without starting a new paragraph, you can either:
+
+- Add **two spaces** at the end of a line before pressing `Enter`, or
+- Use the shortcut `Shift + Enter` to directly insert a line break.
+
+> [!question]- Why don't multiple `Enter` presses create more line breaks in reading view?
+> In Markdown, a single `Enter` is ignored, and multiple consecutive `Enter` presses result in just one new paragraph. This behavior aligns with Markdown’s soft wrap rule, where extra blank lines do not generate additional line breaks or paragraphs—they are collapsed into a single paragraph break. This is how Markdown handles text by default, ensuring that paragraphs flow naturally without unexpected breaks​.
+
+Obsidian includes a **Strict Line Breaks** setting, which makes Obsidian follow the standard Markdown specification for line breaks.
+
+To enable this feature:
+
+1. Open **Settings**.
+2. Go to the **Editor** tab.
+3. Enable **Strict Line Breaks**.
+
+When **Strict Line Breaks** is enabled in Obsidian, line breaks have three distinct behaviors depending on how the lines are separated:
+
+**Single return with no spaces**: A single `Enter` with no trailing spaces will combine the two separate lines into a single line when rendered.
+
+```md
+line one
+line two
+```
+
+
+Renders as:
+
+line one line two
+
+
+**Single return with two or more trailing spaces**: If you add two or more spaces at the end of the first line before pressing `Enter`, the two lines remain part of the same paragraph, but are broken by a line break (HTML `<br>` element). We'll use two underscores to stand in for spaces in this example.
+
+```md
+line three__  
+line four
+```
+
+Renders as:
+
+line three<br>
+line four
+
+**Double return (with or without trailing spaces)**: Pressing `Enter` twice (or more) separates the lines into two distinct paragraphs (HTML `<p>` elements), regardless of whether you add spaces at the end of the first line.
+
+```md
+line five
+
+line six
+```
+
+Renders as:
+
+<p>line five</p>
+<p>line six</p>
 
 ## Headings
 
@@ -217,9 +284,9 @@ You can toggle a task in Reading view by selecting the checkbox.
 
 ### Nesting lists
 
-All list types can be nested in Obsidian.
+You can nest any type of list—ordered, unordered, or task lists—under any other type of list.
 
-To create a nested list, indent one or more list items:
+To create a nested list, indent one or more list items. You can mix list types within a nested structure:
 
 ```md
 1. First list item
@@ -247,7 +314,7 @@ Similarly, you can create a nested task list by indenting one or more list items
 - [ ] Task item 2
 	- [ ] Subtask 1
 
-Use `Tab` or `Shift+Tab` to indent or unindent one or more selected list items for easy organization.
+Use `Tab` or `Shift+Tab` to indent or unindent selected list items to easily organize them.
 
 ## Horizontal rule
 
@@ -365,6 +432,34 @@ This is a block comment.
 Block comments can span multiple lines.
 %%
 ```
+
+## Escaping Markdown Syntax
+
+In some cases, you may need to display special characters in Markdown, such as `*`, `_`, or `#`, without triggering their formatting. To display these characters literally, place a backslash (`\`) before them.
+
+> [!example] Common characters to escape
+> 
+> - Asterisk: `\*`
+> - Underscore: `\_`
+> - Hashtag: `\#`
+> - Backtick: `` \` ``
+> - Pipe (used in tables): `\|`
+> - Tilde: `\~`
+
+
+```md
+\*This text will not be italicized\*.
+```
+
+\*This text will not be italicized\*.
+
+When working with numbered lists, you may need to escape the period after the number to prevent automatic list formatting. Place the backslash (`\`) before the period, **not** before the number.
+
+```md
+1\. This won't be a list item.
+```
+
+1\. This won't be a list item.
 
 ## Learn more
 

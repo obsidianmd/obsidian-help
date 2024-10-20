@@ -8,7 +8,7 @@ Para comprar una licencia comercial, visite [nuestra página de precios](https:/
 
 ##### ¿Puedo probar Obsidian para uso comercial antes de pagar?
 
-Si. Puede evaluar Obsidian para uso comercial durante 14 días.
+Sí, puede evaluar Obsidian para uso comercial durante 14 días.
 
 ##### ¿Las organizaciones sin fines de lucro requieren una licencia comercial?
 

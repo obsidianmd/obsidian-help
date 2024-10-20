@@ -1,6 +1,6 @@
 The Outgoing links plugin shows the links from the active note at a glance, as well as potential links to be made. It's similar to the [[Backlinks]] plugin, which instead shows you _incoming_ links to the active note.
 
-The Outgoing links tab (link with right arrow icon) is available in the right sidebar and contains the following sections:
+The Outgoing links tab ( ![[obsidian-links-going-out.svg#icon]] ) is available in the right sidebar and contains the following sections:
 
 - **Links** lists all links in the active note. Click a link to open the linked note.
 - **Unlinked mentions** lists any text in the active note that matches the name or [[Aliases|alias]] of another note in your vault. Unlinked mentions helps you discover links you aren't aware of yet.

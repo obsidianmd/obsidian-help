@@ -1,3 +1,8 @@
+---
+description: You can set up a custom domain or subdomain for your Obsidian Publish site.
+mobile: true
+---
+
 You can set up a custom domain or subdomain for your [[Introduction to Obsidian Publish|Obsidian Publish]] site.
 
 > [!warning]
@@ -39,8 +44,8 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 **Obsidian:**
 
 1. Open Obsidian on your computer.
-2. In the [[Ribbon]] at the left, click **Publish changes** (paper plane icon).
-3. Under **Publish changes**, select **Change site options** (cog icon).
+2. In the [[Ribbon]] at the left, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
+3. Under **Publish changes**, select **Change site options** ( ![[lucide-cog.svg#icon]] ).
 4. Next to **Custom domain**, select **Configure**.
 5. In **Custom URL**, enter the URL to your domain or subdomain.
 
@@ -57,6 +62,8 @@ Proxy all requests under that URL path to `https://publish.obsidian.md/serve?url
 
 You can also set up Obsidian Publish as a sub-URL of a site you own. For example, `https://mysite.com/my-notes/`. To achieve this, you must host your own server and proxy all requests to our server at `https://publish.obsidian.md/`.
 
+The following proxy setup examples are not exhaustive, but provide common methods for this implementation.
+
 ### NGINX
 
 In your NGINX configuration, add the following:
@@ -64,6 +71,17 @@ In your NGINX configuration, add the following:
 ```nginx
 location /my-notes {
   proxy_pass https://publish.obsidian.md/serve?url=mysite.com/my-notes/;
+  proxy_ssl_server_name on;
+  proxy_set_header Host publish.obsidian.md;
+}
+```
+
+
+Some users have reported that adding `$request_uri` to the proxy pass may be required:
+
+```nginx
+location /my-notes {
+  proxy_pass https://publish.obsidian.md/serve?url=mysite.com/my-notes$request_uri;
   proxy_ssl_server_name on;
   proxy_set_header Host publish.obsidian.md;
 }
@@ -82,6 +100,8 @@ RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.
 > `mod_rewrite` must be enabled, and you may also need to configure [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache)
 
 ### Netlify
+
+In `netlify.toml`, [configure redirects](https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file):
 
 ```plain
 [[redirects]]

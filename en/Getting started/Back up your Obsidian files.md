@@ -5,24 +5,24 @@ aliases:
   - backup
 ---
 
-If you haven't backed up your computer yet, start now! Obsidian's [[File recovery]] plugin is a good beginning, but it's limited to notes, and the snapshots themselves should be backed up.
+If you haven't backed up your computer yet, it's a good idea to start now! Obsidian’s [[File recovery]] plugin is a useful tool, but it only backs up your notes. To be safe, you should also back up the snapshots created by the plugin.
 
-**Why Back Up?**
+**Why back up your data?**
 
-Your notes are stored locally on your device by default, not in the cloud. This ensures that [the data is yours](https://obsidian.md/about) and gives you control over it. However, local storage is susceptible to real-world problems like corruption and data loss. Backups protect against these issues and further ensure that you control your own data.
+By default, Obsidian stores your notes **locally** on your device, not in the cloud. This means the [data is fully yours](https://obsidian.md/about), giving you control over it. However, local storage can be affected by issues like corruption or data loss. It is never a matter of if, but when. Backing up your data protects against these inevitabilities and ensures you maintain control of your notes.
 
-## Understand: Syncing is not a backup
+## Syncing is not a backup
 
-Services like [[Introduction to Obsidian Sync|Obsidian Sync]], iCloud, OneDrive, and Dropbox sync your notes across devices. They may offer [[Version history|note restoration]], but they are **not** designed to [back up your vault](https://www.backblaze.com/blog/cloud-backup-vs-cloud-sync/).
+Services like [[Introduction to Obsidian Sync|Obsidian Sync]], iCloud, OneDrive, and Dropbox help you sync your notes across different devices. While they may offer features like [[Version history|note restoration]], **they are not designed for backups**. Syncing keeps your notes updated, but it doesn’t protect against data loss.
 
-- **Sync:** Keeps files and data consistently updated across multiple devices. Changes in one location automatically reflect in all synced locations.
-- **Backup:** Saves copies of data in a separate location for recovery in case of data loss, corruption, or disaster. Backups are not for real-time access or collaboration.
+- **Sync:** Syncing ensures your files are the same on all devices. When you change a file on one device, it updates on all synced devices. Syncing services do not have a "primary" device.
+- **Backup:** A backup saves a copy of your data in a different location to help recover it in case of data loss or corruption. Backups are not meant for real-time updates or collaboration.
 
-To back up your vault, use a dedicated one-way backup tool that pushes data from your device to a backup location without rewriting local data.
+To properly back up your vault, use a dedicated backup tool that creates a one-way copy of your data. This tool will send your data to a safe backup location without changing the data on your device.
 
-If using a multi-device sync setup, choose ONE device as your backup device. This is typically your most used device, or "primary device".
+If you use multiple devices with syncing, choose **one device** to be your backup device. This is usually your main or "primary" device, the one you use the most. Note that most syncing services do not recognize any device as "primary"; this is just a concept to help you manage backups.
 
-> [!Example] You use Obsidian Sync on your laptop, tablet, phone, and work desktop. You spend most of the time on your vault on your work desktop, some of the time on your laptop, and rarely on the other two devices. The work desktop would be considered your primary device. 
+> [!Example] You use Obsidian Sync on your laptop, tablet, phone, and work desktop. You mostly use your vault on your work desktop, sometimes on your laptop, and rarely on your tablet or phone. In this case, your work desktop would be your "primary device" for backup.
 
 ## Use community plugins
 
@@ -41,17 +41,17 @@ In terms of security, you should always pay close attention to access and securi
 
 ## Use external drives
 
-**Hard drives and SSD Drives**
+**Hard drives and SSD drives**
 External hard drive backups are still valuable in an increasing cloud-based world, and are mainly used for data storage and computer backups. The biggest disadvantage of an external drive is that the drive can break down or get lost. The biggest advantage is that the storage space only needs to be purchased once. Using an external hard drive is often combined with a [[#Use computer backups|computer backup]].
 
-**USB Sticks**
-USB sticks are a simple and effective method for quick backups.
+**USB flash drives**
+Flash drives (also called thumb drives, memory sticks, or pen drives) are a simple and effective method for quick backups.
 
-1. Insert the USB stick into your computer or laptop.
-2. Ensure the device is recognized and mounted in your file system. If necessary, format the USB stick to be compatible with your filesystem.
-3. Copy your vault folder from its current location onto the USB stick.
-4. Safely unmount the USB stick.
-5. Remove the USB stick from your device.
+1. Insert the flash drive into your computer or laptop.
+2. Ensure the device is recognized and mounted in your file system. If necessary, format the flash drive to be compatible with your filesystem.
+3. Copy your vault folder from its current location onto the flash drive.
+4. Safely unmount the flash drive.
+5. Remove the flash drive from your device.
 
 > [!tip] If your external drive contains sensitive information, it is recommended to keep the external drive secure, such as in a secured room.
 

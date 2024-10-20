@@ -62,9 +62,9 @@ Por ejemplo, puede incrustar tweets de Twitter como lo sugieren los resultados d
 La sintaxis está inspirada en la sintaxis de imagen de Markdown. Tuvimos dos observaciones:
 
  1. `[Image](link.png)` 
- enlaza a la imagen, pero `![Image](link.png)` realmente lo muestra.
+ enlaza a la imagen, pero `![Image](link.png)` realmente lo muestra
 
- 2. La sintaxis del enlace interno se basa en esta suposición:`[[My page]]` es un atajo (o "azúcar sintáctico" si se quiere) para`[My page](My page)`.
+ 2. La sintaxis del enlace interno se basa en esta suposición:`[[My page]]` es un atajo (o "azúcar sintáctico" si se quiere) para`[My page](My page)`
 
 Para combinar estas dos cosas, podemos crear un tercer patrón:`![[My page]]` debería ser equivalente a `![My page](My page)` , que según la convención de la imagen, si el título es el mismo que el enlace, debería mostrarlo.
 

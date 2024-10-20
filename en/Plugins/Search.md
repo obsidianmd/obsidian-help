@@ -1,6 +1,6 @@
-The Search plugin helps you find files in your vault.
+The Search plugin helps you quickly find key data within your Obsidian vault by using advanced search terms and operators to narrow down results.
 
-By default, you can find Search in the left sidebar (magnifying glass icon). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).
+By default, you can find Search in the left sidebar ( ![[lucide-search.svg#icon]] ). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).
 
 - **Search selected text**: If you select text in the editor and open Search with the keyboard shortcut, Search shows you the search results for the selected text.
 - **Search recent search terms**: Open Search with an empty search term to list recent search terms. Click any of them to use the search term again.
@@ -48,20 +48,20 @@ Search operators enable more fine-grained search queries to filter your results 
 
 Some operators even allow you to add a nested search term within parentheses, for example: `task:(call OR email)`.
 
-| Search operator | Description                                                                                                                                                                                                          |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `file:`         | Find text in filename. Matches any file in the vault.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                     |
-| `path:`         | Find text in file path. Matches any file in the vault.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                    |
-| `content:`      | Find text in file content.<p/>Example: `content:"happy cat"`.                                                                                                                                                        |
-| `match-case:`   | Case-sensitive match.<p/>Example: `match-case:HappyCat`.                                                                                                                                                             |
-| `ignore-case:`  | Case-insensitive match.<p/>Example: `ignore-case:ikea`.                                                                                                                                                              |
-| `tag:`          | Find tag in file.<p/>Example: `tag:#work`.<p/>**Note**: Since `tag:` ignores matches in code blocks and in non-Markdown content, it's often faster and more accurate than a normal full-text search for `#work`.     |
-| `line:`         | Find matches on the same line.<p/>Example: `line:(mix flour)`.                                                                                                                                                       |
-| `block:`        | Find matches in the same block.<p/>Example: `block:(dog cat)`.<p/>**Note**: Since `block:` requires Search to parse the Markdown content in every file, it can cause your search term to take longer time to finish. |
-| `section:`      | Find matches in the same section (text between two headings).<p/>Example: `section:(dog cat)`.                                                                                                                         |
-| `task:`         | Find matches in a [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                          |
-| `task-todo:`    | Find matches in an *uncompleted* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                      |
-| `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                         |
+| Search operator | Description                                                                                                                                                                                                                                                                                                        |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `file:`         | Find text in filename. Matches any file in the vault.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                                                                                    |
+| `path:`         | Find text in file path. Matches any file in the vault.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                                                                                   |
+| `content:`      | Find text in file content.<p/>Example: `content:"happy cat"`.                                                                                                                                                                                                                                                      |
+| `match-case:`   | Case-sensitive match.<p/>Example: `match-case:HappyCat`.                                                                                                                                                                                                                                                           |
+| `ignore-case:`  | Case-insensitive match.<p/>Example: `ignore-case:ikea`.                                                                                                                                                                                                                                                            |
+| `tag:`          | Find tag in file.<p/>Example: `tag:#work`.<p/>Keep in mind that searching for `tag:#work` will not return results for `#myjob/work`.<br /><br />**Note**: Since `tag:` ignores matches in code blocks and in non-Markdown content, it's often faster and more accurate than a normal full-text search for `#work`. |
+| `line:`         | Find matches on the same line.<p/>Example: `line:(mix flour)`.                                                                                                                                                                                                                                                     |
+| `block:`        | Find matches in the same block.<p/>Example: `block:(dog cat)`.<p/>**Note**: Since `block:` requires Search to parse the Markdown content in every file, it can cause your search term to take longer time to finish.                                                                                               |
+| `section:`      | Find matches in the same section (text between two headings).<p/>Example: `section:(dog cat)`.                                                                                                                                                                                                                     |
+| `task:`         | Find matches in a [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                                                                                                                 |
+| `task-todo:`    | Find matches in an *uncompleted* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                                                                                                             |
+| `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                                                                                                                |
 
 ## Search properties
 
@@ -81,7 +81,7 @@ Both property and value allow sub-queries, such as parentheses for grouping, the
 
 ## Change case sensitivity
 
-By default, search terms are not case sensitive. If you want to search for the exact case of your search term, click **Match case** ("Aa" icon) inside the search bar.
+By default, search terms are not case sensitive. If you want to search for the exact case of your search term, click **Match case** ( ![[obsidian-upper-lowercase.svg#icon]] ) inside the search bar.
 
 This setting can be toggled. If **Match case** icon is highlighted, that means you’re currently doing a case sensitive search.
 
@@ -116,14 +116,14 @@ You can even combine regular expressions with search operators:
 
 - `path:/\d{4}-\d{2}-\d{2}/` returns files with a date in the file path.
 
-For more information on how to write regular expressions, refer to [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+For more information on how to write regular expressions, refer to FreeCodeCamp's [Practical Regex guide](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/) or Mozilla's [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
 > [!note]
 > Regular expressions come in different flavors that may look different from each other. Obsidian uses JavaScript-flavored regular expressions.
 
 ## Configure search settings
 
-To configure Search, click on **Search settings** (three rows of switches icon) on the right side of the search bar to see the toggles.
+To configure Search, click on **Search settings** ( ![[lucide-sliders-horizontal.svg#icon]] ) on the right side of the search bar to see the toggles.
 
 | Setting                 | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
@@ -135,15 +135,13 @@ To configure Search, click on **Search settings** (three rows of switches icon) 
 
 To embed search results in a note, add a `query` code block:
 
-<pre><code>```query
-embed OR search
-```</code></pre>
-
-For example:
-
-> [!note]
-> [[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded search results. To see the example, open Obsidian Help locally inside Obsidian.
-
+````
 ```query
 embed OR search
 ```
+````
+
+
+[[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded [[Publish limitations#Search|search results]]. To see a live rendered example, use the code block above within your vault.
+
+![[search-query-rendered.png#]]

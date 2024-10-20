@@ -1,6 +1,9 @@
 ---
 aliases:
-- How to/Use callouts
+  - How to/Use callouts
+description: This page details how to use callouts to include additional content without breaking the flow of your notes.
+mobile: true
+publish: true
 ---
 
 Use callouts to include additional content without breaking the flow of your notes.
@@ -105,7 +108,7 @@ The value of the `data-callout` attribute is the type identifier you want to use
 
 You can use several callout types and aliases. Each type comes with a different background color and icon.
 
-To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`.
+To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`. Callout types can also be changed by right-clicking a callout.
 
 Unless you [[#Customize callouts]], any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
 
