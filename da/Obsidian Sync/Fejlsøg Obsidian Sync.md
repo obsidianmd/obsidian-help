@@ -9,7 +9,7 @@ Konfliker opstår oftere, hvis du arbejder offline, da der er flere ændringer o
 Når Obsidian Sync downloader en ny version af en fil, og finder ud af at der er konflikter med en lokal version, vil ændringer blive flettet ved hjælp af Googles diff-match-patch-algoritme.
 
 > [!tip]
-> For at finde ud af, hvornår konflikterne opstod, kan du vælge **Indstillinger** -> **Synkroniser** -> **Synkroniserinsaktivitet** -> **Vis**. Tryk på "Kopier synkroniseingslog" og indsæt loggen fra udklipsholderen i en tom note. Derefter søger du efter "Merging conflicted file".
+> For at finde ud af, hvornår konflikterne opstod, kan du vælge **Indstillinger** → **Synkroniser** → **Synkroniserinsaktivitet** → **Vis**. Tryk på "Kopier synkroniseingslog" og indsæt loggen fra udklipsholderen i en tom note. Derefter søger du efter "Merging conflicted file".
 
 # Obsidian Sync slette en note, som jeg netop havde oprettet på to enheder
 
@@ -27,5 +27,5 @@ Da vedhæftninger og versionshistorik bidrager til din boks totale størrelse, k
 
 Sådan identificerer og fjerner du store filer fra boksen:
 
-1. Åben **Indstillinger** -> **Sync**
+1. Åben **Indstillinger** → **Sync**
 2. Undersøg mulighederne for, hvordan du kan reducere størrelsen af din boks under **Boks størrelsen har overskredet grænsen**

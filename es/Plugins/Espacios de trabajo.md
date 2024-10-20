@@ -15,4 +15,4 @@ Para cargar o restaurar un espacio de trabajo, abra "Administrar espacios de tra
 
 ### Comandos
 
-Este complemento tiene dos comandos a los que puede acceder a través de [[Paleta de comandos]]: administrar espacios de trabajo y cargar espacios de trabajo. También puede definir teclas de acceso rápido para ellos.
+Este complemento tiene dos comandos a los que puede acceder a través de [[paleta de comandos]]: administrar espacios de trabajo y cargar espacios de trabajo. También puede definir teclas de acceso rápido para ellos.

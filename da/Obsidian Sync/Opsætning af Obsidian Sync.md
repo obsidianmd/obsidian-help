@@ -9,7 +9,7 @@ I denne guide kan du læse om, hvordan du aktiverer [[Introduktion til Obsidian 
 
 1. Åben **Indstillinger**
 2. Klik på **Om** i sidepanelet
-3. Klik på **Log ind** under **Konto -> Din Konto**
+3. Klik på **Log ind** under **Konto → Din Konto**
 4. Skriv din **Email**
 5. Skriv dit **Kodeord**
 6. Klik på **Log ind**

@@ -1,6 +1,6 @@
 The Graph view lets you visualize the relationships between the notes in your vault.
 
-To open the Graph view, click **Open graph view** in the [[ribbon]].
+To open the Graph view, click **Open graph view** in the [[Ribbon]].
 
 - Circles represent notes, or _nodes_.
 - Lines represents [[Internal links]] between two nodes.
@@ -71,7 +71,7 @@ This section controls the forces that act on each node in the graph.
 
 Notes and attachments appear in chronological order based on their creation time.
 
-![[Pasted image 10.png]]
+![[obsidian-graph-view.png#interface]]
 
 ## Local Graph
 

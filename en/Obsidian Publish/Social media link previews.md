@@ -1,4 +1,7 @@
-Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Metadata]], you can customize how your notes appear in the preview.
+Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Properties]], you can customize how your notes appear in the preview.
+
+> [!warning]
+> The tags overridden in this section are **only** visible by web crawlers. Regular web browsers are served the unmodified page for performance.
 
 ## Description
 
@@ -15,7 +18,7 @@ description: An introduction to our solar system.
 
 ## Image
 
-You can use a custom image for the link preview, by adding `image` or `cover` with a path to the image.
+You can use a custom image for the link preview, by adding `image` or `cover` with a path to the image. The image must be uploaded to Publish. 
 
 The path can be an absolute path from the root of your vault:
 
@@ -25,13 +28,24 @@ cover: "Attachments/Cover image.png"
 ---
 ```
 
-Or, an external URL:
+
+The path to the image is case sensitive. In our prior example, we have a path to an image named `Cover image.png`. The below path will not work, because it is using the wrong case.
+
+```yaml
+---
+cover: "Attachments/cover Image.png"
+---
+```
+
+
+In place of an absolute path in your vault, you may also use an external url:
 
 ```yaml
 ---
 image: "https://example.com/cover%20image.png"
 ---
 ```
+
 
 `image` and `cover` are identical. Only use one of them.
 

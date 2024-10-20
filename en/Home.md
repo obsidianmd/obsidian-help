@@ -2,23 +2,32 @@
 aliases:
   - Start here
   - Obsidian/Index
+cssclasses:
+  - list-cards
+  - hide-title
+  - list-cards-mobile-full
 ---
 
-Welcome to the official Obsidian documentation, where you can find tips and guides on how to use [Obsidian](https://obsidian.md).
+# Obsidian Help
 
-You can browse the documentation in any of the following languages:
+Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
 
-- [Dansk](https://publish.obsidian.md/help-da)
-- [Español](https://publish.obsidian.md/help-es)
-- [Italiano](https://publish.obsidian.md/help-it)
-- [日本語](https://publish.obsidian.md/help-ja)
-- [Português](https://publish.obsidian.md/help-pt-br)
-- [Русский](https://publish.obsidian.md/help-ru)
-- [Tiếng Việt](https://publish.obsidian.md/help-vi)
-- [中文](https://publish.obsidian.md/help-zh)
+You can browse this site in several languages:
 
-> [!tip] The Obsidian team
-> To learn more about the people behind Obsidian, head over to our [about page](https://obsidian.md/about).
+<select class="dropdown select-location">
+<option value="">English</option>
+<option value="https://publish.obsidian.md/help-ar">العربية</option>
+<option value="https://publish.obsidian.md/help-da">Dansk</option>
+<option value="https://publish.obsidian.md/help-es">Español</option>
+<option value="https://publish.obsidian.md/help-it">Italiano</option>
+<option value="https://publish.obsidian.md/help-ja">日本語</option>
+<option value="https://publish.obsidian.md/help-km">Phéasa Khmêr</option>
+<option value="https://publish.obsidian.md/help-ko">한국어</option>
+<option value="https://publish.obsidian.md/help-pt-br">Português</option>
+<option value="https://publish.obsidian.md/help-ru">Русский</option>
+<option value="https://publish.obsidian.md/help-vi">Tiếng Việt</option>
+<option value="https://publish.obsidian.md/help-zh">中文</option>
+</select>
 
 ## Getting started
 
@@ -28,20 +37,23 @@ If you're new to Obsidian, learn the basics of note-taking with Obsidian using o
 2. [[Create a vault]]
 3. [[Create your first note]]
 4. [[Link notes]]
+5. [[Import notes]]
 
-From here, you can build your own custom experience by enabling additional features through _plugins_. Explore the [[Core plugins]] that ships with Obsidian, or any of our [[Community plugins]].
+From here, you can build your own custom experience by enabling additional features through _plugins_. Explore the [[Core plugins]] that ship with Obsidian, or any of our [[Community plugins]].
 
 Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 
-Learn more about our products:
+## Add-on services
 
-- [[Introduction to Obsidian Publish|Obsidian Publish]] for publishing your notes.
-- [[Introduction to Obsidian Sync|Obsidian Sync]] for syncing your notes across devices.
+- [[Introduction to Obsidian Sync|Obsidian Sync]]
+	- A safe and secure way to synchronize your notes across any device and OS.
+- [[Introduction to Obsidian Publish|Obsidian Publish]]
+	- Publish your notes as a wiki, knowledge base, documentation, or digital garden.
 
 ## Contribute
 
-If you find any mistakes or missing information, you can contribute fixes to the site at https://github.com/obsidianmd/obsidian-docs/
+If you find any mistakes or missing information on this site, you can contribute improvements and translations via [the GitHub repo](https://github.com/obsidianmd/obsidian-docs/).
 
-If you want to support Obsidian financially, consider getting a [[Catalyst license]].
+If you want to support Obsidian financially, consider a [[Catalyst license]], which offers early access to beta versions of Obsidian.
 
-Check out [[Credits]] to get to know all the amazing people who made Obsidian possible.
+See the [[Credits]] to get to know all the amazing people who make Obsidian possible.

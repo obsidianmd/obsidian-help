@@ -1,6 +1,6 @@
 Different than most note-taking apps out there, an Obsidian vault is not a notebook on our server or a bundle in a special format on your computer.
 
-In Obsidian, a vault is a plain folder on your computer. By plain, I mean it's just like a folder you created and put some files in. You can open it with your system explorer or Finder, zip it up, make a copy, or move it around.
+In Obsidian, a vault is a plain folder on your computer. By plain, we mean it's just like a folder you created and put some files in. You can open it with your system explorer or Finder, zip it up, make a copy, or move it around.
 
 > [!SUMMARY] The Point™
 > The point is that you own this folder just like the other folder of camping photos that you created yourself.
@@ -9,7 +9,7 @@ In Obsidian, a vault is a plain folder on your computer. By plain, I mean it's j
 
 No need to worry about loading your content from our servers. You know, servers can get hacked or be offline or be slow when you need it most.
 
-No need to worry about exporting or converting if you move way from Obsidian either. The vault is just a folder that sits here—Obsidian is not going to delete any of your vault folders just because you uninstall Obsidian.
+No need to worry about exporting or converting if you move away from Obsidian either. The vault is just a folder that sits there—Obsidian is not going to delete any of your vault folders just because you uninstall Obsidian.
 
 Finally, please understand that with great power comes great responsibility. Now that you’re in charge of your data, it’s also your job to back it up and keep it safe. ^0f681f
 

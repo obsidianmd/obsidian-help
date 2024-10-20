@@ -1,10 +1,15 @@
-A vault is a folder on your local file system where Obsidian stores your notes. You can keep all your notes in one vault, or create several vaults for each of your different projects.
+---
+aliases:
+  - Local vault
+---
 
-The first time you open Obsidian, you'll be asked to add a new vault from the [[Vault switcher]].
+A vault <u>is a folder</u> on your local file system where Obsidian stores your notes. You can keep all your notes in one vault, or create several vaults for each of your different projects.
+
+The first time you open Obsidian, you'll be asked to add a new vault. You have two options, either create a new empty vault, or use an existing folder.
 
 ## Create empty vault
 
-To create a new empty vault from the vault switcher:
+To create a new empty vault:
 
 1. To the right of **Create new vault**, click **Create**.
 2. In **Vault name**, enter the name of your vault.

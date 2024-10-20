@@ -1,18 +1,28 @@
 ---
-alias: [Obsidian Publish]
+aliases:
+  - Obsidian Publish
+cssclasses:
+  - list-cards
+  - list-cards-mobile-full
 ---
 
-Obsidian Publish is a cloud-based service where you can publish your notes to the world.
+[Obsidian Publish](https://obsidian.md/publish) is a cloud-based hosting service that lets you publish your notes as a wiki, knowledge base, documentation, or digital garden.
 
-Select the notes you want to share with the world, press "Publish", and we'll post it to publish.obsidian.md/your-site.
+Select the notes you want to share with the world, press **Publish**, and we'll host it at `publish.obsidian.md/your-site`
 
-If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're already looking at a site that uses Obsidian Publish. You can see the vault on [GitHub](https://github.com/obsidianmd/obsidian-docs).
+If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're already looking at a site that uses Obsidian Publish! You can see the vault on [GitHub](https://github.com/obsidianmd/obsidian-docs).
 
-## Learn more
+## How to use Obsidian Publish
 
-- If you're a new Obsidian Publish user, learn how to [[Set up Obsidian Publish]].
-- If you have more than one site, learn how to [[Manage sites]].
-- If you want to share your site with other collaborators, refer to [[Collaborating]].
-- If you want to customize how your site looks, refer to [[Customize your site]].
-- If you want to know how we keep your notes safe, refer to [[Security and privacy]].
-- If you want to use your own domain, refer to [[Set up a custom domain|custom domain]].
+- [[Set up Obsidian Publish]]
+	- Get started with Obsidian Publish.
+- [[Manage sites]]
+	- Learn how to manage multiple Publish sites.
+- [[Collaborate on a Publish site]]
+	- Share a Publish site with collaborators.
+- [[Customize your site]]
+	- Customize your Publish site.
+- [[Set up a custom domain|Custom domain]]
+	- Set up Publish with your own domain.
+- [[Security and privacy]]
+	- How we keep your data safe.

@@ -1,8 +1,8 @@
-Obsidian gives you access to many of the commands in Obsidian directly from your keyboard. The Command palette lets you run any command from the same interactive window. You can also explore the all available commands and their respective keyboard shortcuts.
+Obsidian gives you access to many of the commands in Obsidian directly from your keyboard. The Command palette lets you run any command from the same interactive window. You can also explore all the available commands and their respective keyboard shortcuts.
 
 To run a command from the Command palette:
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the Command palette.
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the Command palette. You can also open it from the [[Ribbon]] with Command palette icon ( ![[lucide-terminal.svg#icon]] ). 
 2. Type the name of the command you want to run.
 3. Navigate to the command using the arrow keys.
 4. Press `Enter`.
@@ -15,7 +15,7 @@ To run a command from the Command palette:
 You can pin frequently used commands at the top of the Command palette to quickly access them without having to type their name.
 
 > [!tip]
-> If you want to quickly run frequently used commands, you can also [[Custom hotkeys#Setting hotkeys|set hotkeys]] for them.
+> If you want to quickly run frequently used commands, you can also [[Hotkeys#Setting hotkeys|set hotkeys]] for them.
 
 ### Pin a command
 

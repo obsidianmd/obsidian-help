@@ -12,4 +12,4 @@ Puede modificarlo fácilmente agregando [[Agregar estilos personalizados#Utilice
 
 Puede hacer que la ventana sea translúcida habilitando esta opción en la pestaña de configuración de apariencia. Actualmente, esta opción solo está disponible para Windows y macOS.
 
-Existe un problema conocido en Windows en el que arrastrar la ventana es extremadamente lento cuando la translucidez está habilitada. Esto se debe a un error de Windows. Aquí se puede encontrar un problema de Github que rastrea el estado de una solución:https://github.com/riverar/sample-win32-acrylicblur/issues/2
+Existe un problema conocido en Windows en el que arrastrar la ventana es extremadamente lento cuando la translucidez está habilitada. Esto se debe a un error de Windows. Aquí se puede encontrar un problema de Github que rastrea el estado de una solución: https://github.com/riverar/sample-win32-acrylicblur/issues/2

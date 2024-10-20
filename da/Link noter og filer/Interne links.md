@@ -4,7 +4,7 @@ aliases: Internt link, Link til blokke
 
 Her kan du lære, hvordan du kan linke til noter, vedhæftninger, og andre filer i dine noter ved at benytte _interne links_. Ved at linke noter kan du danne et netværk af viden.
 
-Obsidian kan automatisk opdatere interne links i din boks, når du omdøber en fil. Hvis du vil spørges hver gang, kan du deaktivere automatisk linkning under **Indstillinger** -> **Filer & links** -> **Opdater automatisk interne links**.
+Obsidian kan automatisk opdatere interne links i din boks, når du omdøber en fil. Hvis du vil spørges hver gang, kan du deaktivere automatisk linkning under **Indstillinger** → **Filer & links** → **Opdater automatisk interne links**.
 
 ## Understøttede formater for interne links
 

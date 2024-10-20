@@ -1,6 +1,6 @@
 Hvis du har [[Kommandopalette|kommandopaletten]] aktiveret kan du taste `Ctrl/Cmd+P` for at aktivere den, og den viser alle nuværende tilgængelige kommandoer og deres tastaturgenveje.
 
-De fleste tastaturgenveje kan tilpasses efter dit behov i Instillinger -> Genvejstaster.
+De fleste tastaturgenveje kan tilpasses efter dit behov i Instillinger → Genvejstaster.
 
 Her er listen af standard tastaturgenveje:
 

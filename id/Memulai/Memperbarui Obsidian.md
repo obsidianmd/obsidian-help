@@ -2,7 +2,7 @@ Obsidian memeriksa pembaruan baru secara rutin. Ketika pembaruan baru tersedia, 
 
 ## Memeriksa pembaruan dan versi terkini
 
-Buka **Pengaturan** -> **Tentang**.
+Buka **Pengaturan** → **Tentang**.
 
 Anda dapat menemukan versi Obsidian dan versi pemasang terkini pada sudut kiri atas.
 
@@ -12,7 +12,7 @@ Untuk menerapkan pembaruan yang tersedia, klik **Mulai ulang**.
 
 Jika Anda lebih suka memperbarui Obsidian secara manual, Anda dapat mematikan pembaruan otomatis.
 
-1. Buka **Pengaturan** -> **Tentang**.
+1. Buka **Pengaturan** → **Tentang**.
 2. Matikan **Pembaruan otomatis**.
 
 ## Pemecahan masalah

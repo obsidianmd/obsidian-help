@@ -4,7 +4,7 @@ Plugin Templates cho phép bạn chèn các đoạn văn bản vào ghi chú hi�
 
 Mỗi đoạn code mẫu chỉ là một ghi chú Markdown bình thường, giống như mọi thứ khác trong Obsidian.
 
-Để chỉ định các file mẫu, hãy đặt chúng vào một thư mục và chọn thư mục đó trong Settings -> Templates -> "Template folder location" sau khi bật plugin.
+Để chỉ định các file mẫu, hãy đặt chúng vào một thư mục và chọn thư mục đó trong Settings → Templates → "Template folder location" sau khi bật plugin.
 
 ### Chèn template
 

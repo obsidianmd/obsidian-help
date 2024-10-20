@@ -15,14 +15,14 @@ De forma predeterminada, Obsidian tiene activado el modo seguro para protegerte 
 
 Tenga en cuenta que los complementos de terceros pueden acceder a archivos en su computadora, conectarse a Internet e incluso instalar programas adicionales. Para leer más sobre la seguridad de los complementos, [[Complementos de terceros#Seguridad del complemento|consulte aquí]].
 
-Para instalar complementos de terceros, debe desactivar el Modo seguro en Configuración -> Complemento de terceros -> Modo seguro.
+Para instalar complementos de terceros, debe desactivar el Modo seguro en Configuración → Complemento de terceros → Modo seguro.
 
 #### Descubra e instale complementos de la comunidad
-Después de deshabilitar el Modo seguro, puede encontrar complementos de terceros creados por la comunidad en Configuración -> Complemento de terceros -> Complementos de la comunidad -> Examinar.
+Después de deshabilitar el Modo seguro, puede encontrar complementos de terceros creados por la comunidad en Configuración → Complemento de terceros → Complementos de la comunidad → Examinar.
 
 En esta página, puede buscar complementos por popularidad o buscar complementos específicos. Haga clic en un complemento para ver los detalles y las instrucciones del autor del complemento. En la página de detalles, puede hacer clic en "Instalar" para instalar un complemento.
 
-Después de la instalación, puede encontrar los complementos instalados en Configuración -> Complemento de terceros. Deben estar habilitados para que surtan efecto. También puede desinstalarlos allí.
+Después de la instalación, puede encontrar los complementos instalados en Configuración → Complemento de terceros. Deben estar habilitados para que surtan efecto. También puede desinstalarlos allí.
 
 ### Seguridad del complemento
 ¡Gracias por confiar en Obsidian con sus datos! Significa mucho para nosotros y nos tomamos la seguridad muy en serio. Eso también incluye complementos de terceros.

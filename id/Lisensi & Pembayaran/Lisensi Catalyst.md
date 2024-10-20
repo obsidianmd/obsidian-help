@@ -34,13 +34,13 @@ Ketika Anda membayar lisensi Catalyst, Anda dapat mengakses sejumlah keuntungan.
 
 1. Jika anda belum melakukannya, bergabung dengan [forum](https://forum.obsidian.md/) kami.
 2. Pergi ke [laman akun Obsidian](https://obsidian.md/account) Anda.
-3. Pada **Your license** -> **Obsidian Catalyst**, klik **Get forum badge**.
+3. Pada **Your license** → **Obsidian Catalyst**, klik **Get forum badge**.
 
 ### Mendapatkan lencana Discord Anda
 
 1. Jika anda belum melakukannya, bergabung dengan [server Discord](https://discord.gg/veuWUTm) kami.
 2. Pergi ke [laman akun Obsidian](https://obsidian.md/account) Anda.
-3. Pada **Your license** -> **Obsidian Catalyst**, klik **Get Discord badge**.
+3. Pada **Your license** → **Obsidian Catalyst**, klik **Get Discord badge**.
 
 ### Bergabung dengan channel Insider kami
 

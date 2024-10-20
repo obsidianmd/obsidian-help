@@ -50,7 +50,7 @@ Obsidian opretter derved en ny mappe på dit iCloud drev. For at åbne mappen p�
 
 1. Åben **Obsidian** på din computer
 2. I bokskifteren skal du klikke på **Åben** til højre for **Åben mappe som boks**
-3. Naviger til **iCloud Drev** -> **Obsidian**
+3. Naviger til **iCloud Drev** → **Obsidian**
 4. Vælg den mappe med navnet på den boks du vil synkronisere med
 
 #### Synkroniser en eksisterende boks med et iCloud drev

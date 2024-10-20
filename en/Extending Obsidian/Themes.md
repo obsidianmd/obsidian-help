@@ -1,7 +1,6 @@
 ---
-alias: How to/Add custom styles
+aliases: How to/Add custom styles
 ---
-
 Learn how to change the look and feel of Obsidian using themes built by the community.
 
 ## Browse themes

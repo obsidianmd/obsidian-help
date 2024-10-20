@@ -1,21 +1,20 @@
 ---
-alias: How to/Manage attachments
+aliases: How to/Manage attachments
 ---
-
-You can import [[accepted file formats]], or _attachments_, to your vault, such as images, audio files, or PDFs. Attachments are regular files that you can access using your file system.
+You can import [[Accepted file formats]], or _attachments_, to your vault, such as images, audio files, or PDFs. Attachments are regular files that you can access using your file system.
 
 ## Add an attachment
 
 You can add attachments to your vault in multiple ways. Only [[Accepted file formats]] can be added.
 
 > [!todo]- Copy and paste attachments
-> You can paste attachments directly into your notes. Obsidian creates a file with the pasted content in the default attachment location and [[Embedding files|embeds]] it in the note.
+> You can paste attachments directly into your notes. Obsidian creates a file with the pasted content in the default attachment location and [[Embed files|embeds]] it in the note.
 
 > [!todo]- Drag and drop attachments
-> If you drag a file from your file system into an open editor, Obsidian copies the file to the default attachment location and [[Embedding files|embeds]] it in the note.
+> If you drag a file from your file system into an open editor, Obsidian copies the file to the default attachment location and [[Embed files|embeds]] it in the note.
 
  > [!todo]- Download attachments to vault folder
- > You can download an attachment directly to your vault, for example if you  [[Import notes#Import from browser|import from your browser]], or from other apps that saves files to directly to your file system.
+ > You can download an attachment directly to your vault, for example if you  [[Import notes#More formats|import from your browser]], or from other apps that saves files directly to your file system.
 
 ## Change default attachment location
 
@@ -27,5 +26,3 @@ You can change the default attachment location under **Settings → Files & Link
 - **In the folder specified below** adds the attachment to a specified folder.
 - **Same folder as current file** adds the attachment to the same folder as the note you added it to.
 - **In subfolder under current folder** adds attachments to a specified folder next to the note you added the attachment to. If it doesn't exist, Obsidian creates it when you add an attachment.
-
-You can also right-click a folder in [[File explorer]] and select **Set as attachment folder**.

@@ -24,7 +24,7 @@ En el futuro, mejoraremos Obsidian Sync con:
 
 ### Habilitar el complemento Obsidian Sync
 
-En Obsidian v0.9.21 o superior, puede habilitar Obsidian Sync habilitando el complemento "Sincronizar" en Configuración -> Complementos principales.
+En Obsidian v0.9.21 o superior, puede habilitar Obsidian Sync habilitando el complemento "Sincronizar" en Configuración → Complementos principales.
 
 ### Configuración de bóvedas remotas
 
@@ -33,7 +33,7 @@ Advertencia: no recomendamos utilizar servicios de sincronización de terceros p
 
 Para comenzar a sincronizar, primero debe crear una bóveda remota que almacene sus datos cifrados.
 
-Para hacer eso, vaya a Configuración -> Sincronización -> Elegir bóveda remota -> Elegir -> Crear nueva bóveda.
+Para hacer eso, vaya a Configuración → Sincronización → Elegir bóveda remota → Elegir → Crear nueva bóveda.
 
 Después de crearlo, puede conectarse inmediatamente a la bóveda haciendo clic en el botón "Conectar" al lado.
 
@@ -63,7 +63,7 @@ Después de seleccionar una versión en la columna de la izquierda en la pantall
 
 ### Archivos eliminados
 
-Después de eliminar un archivo, puede verlo en Configuración -> Sincronizar -> Archivos eliminados -> Ver.
+Después de eliminar un archivo, puede verlo en Configuración → Sincronizar → Archivos eliminados → Ver.
 
 Al hacer clic en un archivo eliminado, se abrirá su historial de versiones. A continuación, puede optar por restaurar el archivo a una versión anterior.
 
@@ -73,13 +73,13 @@ Puede sincronizar archivos de forma selectiva por carpeta o tipo de archivo. ==L
 
 ##### Excluir carpetas
 
-Puede desmarcar las carpetas en Configuración -> Sincronizar -> Carpetas excluidas -> Administrar para evitar que se sincronicen.
+Puede desmarcar las carpetas en Configuración → Sincronizar → Carpetas excluidas → Administrar para evitar que se sincronicen.
 
 Las carpetas excluidas se ignorarán cuando se modifiquen tanto la carga como la descarga.
 
 #### Tipos de archivo
 
-Puede alternar la sincronización de imágenes, audio, video y archivos PDF en Configuración -> Sincronización -> Sincronización selectiva.
+Puede alternar la sincronización de imágenes, audio, video y archivos PDF en Configuración → Sincronización → Sincronización selectiva.
 
 
 ### Sincronización de terceros

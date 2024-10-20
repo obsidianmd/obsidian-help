@@ -1,14 +1,20 @@
-Obsidian strives for maximum capability without breaking any existing formats. As a result, we use a slightly unorthodox combination of flavors of Markdown.
+Obsidian strives for maximum capability without breaking any existing formats. As a result, we use a combination of flavors of [[Basic formatting syntax|Markdown]].
 
-Obsidian mainly uses [CommonMark](https://commonmark.org/), with some functionality from [GitHub Flavored Markdown](https://github.github.com/gfm/) and LaTeX.
+Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/), and [LaTeX](https://www.latex-project.org/). Obsidian does not support using Markdown formatting or blank lines inside of HTML tags.
 
-In addition, Obsidian adds the following syntax:
+### Supported Markdown extensions
 
-Syntax | Description
--|-
-`[[ ]]` | [[Internal links]]
-`![[ ]]` | [[Embedding files]]
-`%%` | [[Basic formatting syntax#Comments\|Comments]]
-`> [!note]` | [[Callouts]]
-
-Obsidian doesn't support Markdown syntax or blank lines within HTML blocks.
+| Syntax          | Description                                                           |
+| --------------- | --------------------------------------------------------------------- |
+| `[[Link]]`      | [[Internal links]]                                                    |
+| `![[Link]]`     | [[Embed files]]                                                       |
+| `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]        |
+| `^id`           | [[Internal links#Link to a block in a note\|Defining a block]]        |
+| `%%Text%%`      | [[Basic formatting syntax#Comments\|Comments]]                        |
+| `~~Text~~`      | [[Basic formatting syntax#Bold, italics, highlights\|Strikethroughs]] |
+| `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|Highlights]]     |
+| `` ``` ``       | [[Basic formatting syntax#Code blocks\|Code blocks]]                  |
+| `- [ ]`         | [[Basic formatting syntax#Task lists\|Incomplete task]]               |
+| `- [x]`         | [[Basic formatting syntax#Task lists\|Completed task]]                |
+| `> [!note]`     | [[Callouts]]                                                          |
+| (see link)      | [[Advanced formatting syntax#Tables\|Tables]]                         |

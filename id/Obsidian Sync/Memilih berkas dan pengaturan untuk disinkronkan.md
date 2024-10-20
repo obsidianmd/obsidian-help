@@ -9,19 +9,19 @@ Semua berkas ataupun pengaturan yang disinkronkan ke [[Vault lokal dan remote|re
 
 ## Memilih pengaturan untuk disinkronkan
 
-1. Buka **Pengaturan** -> **Sinkronisasi**.
+1. Buka **Pengaturan** → **Sinkronisasi**.
 2. Pada **Sinkronkan konfigurasi vault**, aktifkan pengaturan yang ingin Anda sinkronkan.
 
 ## Memilih jenis berkas untuk disinkronkan
 
-1. Buka **Pengaturan** -> **Sinkronisasi**.
+1. Buka **Pengaturan** → **Sinkronisasi**.
 2. Pada **Sinkronisasi selektif**, aktifkan jenis berkas yang ingin Anda sinkronkan.
 
 ## Mengecualikan folder dari penyinkronan
 
 Secara bawaan, Obsidian menyinkronkan semua berkas dan folder pada vault Anda. Jika Anda tidak ingin menyinkronkan folder tertentu, Anda dapat mengecualikannya.
 
-1. Buka **Pengaturan** -> **Sinkronisasi**.
+1. Buka **Pengaturan** → **Sinkronisasi**.
 2. Pada **Sinkronisasi selektif**, di sebelah **Kecualikan folder**, klik **Kelola**.
 3. Klik centang pada sisi kiri dari folder yang ingin Anda kecualikan.
 4. Klik **Selesai**.
@@ -32,5 +32,5 @@ Obsidian Sync dapat menyinkronkan banyak folder pengaturan pada vault remote yan
 
 Untuk mengatur folder pengaturan Anda:
 
-1. Buka **Pengaturan** -> **Tentang**.
+1. Buka **Pengaturan** → **Tentang**.
 2. Pada **Timpa folder konfigurasi**, ketikkan nama dari profil Anda, dimulai dengan titik (`.`). Misalnya, `.obsidian-mobile`.

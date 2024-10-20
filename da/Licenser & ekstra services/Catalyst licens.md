@@ -16,7 +16,7 @@ Hvis du benytter Obsidian til arbejdsrelaterede aktiviteter kan det blive nødve
 
 ### Hvordan får jeg mine skinnende badges efter at jeg har opgraderet?
 
-Tillykke! Efter du har opgraderet kan du finde to knapper i "Catalyst" sektionen på "Indstillinger -> Konto" fanen.
+Tillykke! Efter du har opgraderet kan du finde to knapper i "Catalyst" sektionen på "Indstillinger → Konto" fanen.
 
 #### Discord badge
 
