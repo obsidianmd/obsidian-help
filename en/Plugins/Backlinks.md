@@ -30,7 +30,7 @@ It provides the following options:
 - **Collapse results** toggles whether to expand each note to display the mentions in it.
 - **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
 - **Change sort order** determines how to sort the mentions.
-- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search query, refer to [[Search]].
+- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search term, refer to [[Search]].
 
 ## View backlinks for a note
 

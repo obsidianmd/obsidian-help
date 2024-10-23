@@ -8,7 +8,7 @@ Tags view lists all tags within your vault along with how many notes that contai
 
 Click a tag to search for it using [[Search]].
 
-To toggle a tag in the search query, click the tag while pressing `Ctrl` (or `Cmd` on macOS).
+To toggle a tag in the search term, click the tag while pressing `Ctrl` (or `Cmd` on macOS).
 
 The plugin provides the following options:
 

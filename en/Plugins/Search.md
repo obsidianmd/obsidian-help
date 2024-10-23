@@ -44,7 +44,7 @@ You can exclude a combination of expressions using parentheses:
 
 ## Search operators
 
-Search operators enable more fine-grained search queries to filter your results even more.
+Search operators enable more fine-grained search terms to filter your results even more.
 
 Some operators even allow you to add a nested search term within parentheses, for example: `task:(call OR email)`.
 
