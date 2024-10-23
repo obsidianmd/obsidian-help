@@ -69,7 +69,7 @@ Opens an Obsidian vault, or open a file within that vault.
 
 ## Open search
 
-This Obsidian URI endpoint opens [[Search]] in the specified vault, and optionally perform a search query.
+This Obsidian URI endpoint opens [[Search]] in the specified vault, and optionally perform a search term.
 
 ### Examples
 
@@ -82,7 +82,7 @@ This Obsidian URI endpoint opens [[Search]] in the specified vault, and optional
 ### Parameters
 
 - `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `query` (optional) The search query to perform.
+- `query` (optional) The search term to perform.
 
 ## Create note
 
