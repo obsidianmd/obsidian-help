@@ -167,7 +167,7 @@ Filters allow you to modify variables in a template. Filters are applied to vari
 
 #### Dates and numbers
 
-Filters to convert dates and numbers.
+Filters that convert dates and numbers.
 
 - `date` converts a date to the specified format, [see reference](https://day.js.org/docs/en/display/format).
 	- `date:"YYYY-MM-DD"` converts a date to "YYYY-MM-DD".
@@ -181,25 +181,25 @@ Filters to convert dates and numbers.
 
 #### Text conversion and capitalization
 
-Filters to convert text strings from one format to another.
+Filters that convert text strings from one format to another.
 
 - `capitalize` capitalizes the first character of the value and converts the rest to lowercase, e.g. `"hELLO wORLD"|capitalize` returns `"Hello world"`.
 - `camel` converts text to `camelCase`.
-- `lower` converts a string to lowercase.
+- `lower` converts text to `lowercase`.
 - `kebab` converts text to `kebab-case`.
 - `pascal` converts text to `PascalCase`.
-- `replace` replaces occurrences of specified strings:
+- `replace` replaces occurrences of specified text:
 	- Simple replacement: `"hello!"|replace:",":""` removes all commas.
 	- Multiple replacements: `"hello world"|replace:("e":"a","o":"0")` returns `"hall0 w0rld"`.
 	- Replacements are applied in the order they are specified.
-	- To replace with an empty string, use `""` as the replacement value.
+	- To remove specified text, use `""` as the replacement value.
 	- Special characters including `: | { } ( ) ' "` should be escaped with a backslash when used in the search term, e.g. `\:` to search for a literal colon.
-- `safe_name` sanitizes a string to be used as a safe file name.
+- `safe_name` converts text to a safe file name.
 	- By default, `safe_name` applies the most conservative sanitization rules.
-	- OS-specific usage: `safe_name:os` where `os` can be `windows`, `mac`, or `linux` to only apply the rules for that operating system.
+	- OS-specific rules can be applied with `safe_name:os` where `os` can be `windows`, `mac`, or `linux` to only apply the rules for that operating system.
 - `snake` converts text to `snake_case`.
-- `title` returns a titlecased version of the value, e.g. `"hello world"|title` returns `"Hello World"`.
-- `trim` removes whitespace from both ends of a string.
+- `title` converts text to `Title Case`, e.g. `"hello world"|title` returns `"Hello World"`.
+- `trim` removes white space from both ends of a string.
 	- `"  hello world  "|trim` returns `"hello world"`.
 - `uncamel` converts camelCase or PascalCase to space-separated words, which you can further format with other filters like `title` or `capitalize`.
 	- `"camelCase"|uncamel` returns `"camel case"`.
@@ -208,10 +208,10 @@ Filters to convert text strings from one format to another.
 
 #### Text formatting
 
-Filters to apply [[Basic formatting syntax]] and [[Advanced formatting syntax]] to text.
+Filters that apply [[Basic formatting syntax]] and [[Advanced formatting syntax]] to text.
 
 - `blockquote` adds a Markdown quote prefix (`> `) to each line of the input.
-- `callout` creates a [callout](https://help.obsidian.md/Editing+and+formatting/Callouts) with optional parameters: `{{variable|callout:("type", "title", foldState)}}`
+- `callout` creates a [[Callouts|callout]] with optional parameters: `{{variable|callout:("type", "title", foldState)}}`
 	- `type` is the callout type, and defaults to "info"
 	- `title` is the callout title, and defaults to empty
 	- `foldState` is a boolean to set the fold state (true for folded, false for unfolded, null for not foldable)
@@ -221,11 +221,11 @@ Filters to apply [[Basic formatting syntax]] and [[Advanced formatting syntax]] 
 - `fragment_link` converts strings and arrays into [text fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments) links. Defaults to "link" for the link text.
 	- `highlights|fragment` returns `Highlight content [link](text-fragment-url)`
 	- `highlights|fragment:"custom title"` returns `Highlight content [custom title](text-fragment-url)`
--  `image` converts strings, arrays, or objects into Markdown image syntax.
+- `image` converts strings, arrays, or objects into Markdown image syntax.
 	- For strings: `"image.jpg"|image:"alt text"` returns `![alt text](image.jpg)`.
 	- For arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` returns an array of Markdown image strings with the same alt text for all images.
 	- For objects: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returns Markdown image strings with alt text from the object keys.
-- `link` converts strings, arrays, or objects into Markdown link syntax (not to be confused with wikilinks).
+- `link` converts strings, arrays, or objects into Markdown link syntax (not to be confused with a [[Link notes|wikilink]]).
 	- For strings: `"url"|link:"author"` returns `[author](url)`.
 	- For arrays: `["url1","url2"]|link:"author"` returns an array of Markdown links with the same text for all links.
 	- For objects: `{"url1": "Author 1", "url2": "Author 2"}|link` returns Markdown links with the text that matches the object keys.
@@ -246,7 +246,7 @@ Filters to apply [[Basic formatting syntax]] and [[Advanced formatting syntax]] 
 
 #### HTML processing
 
-Filters to process HTML content and convert HTML to Markdown.
+Filters that process HTML content and convert HTML to Markdown.
 
 - `markdown` converts a string to an [[Obsidian Flavored Markdown]] formatted string.
 	- Useful when combined with variables that return HTML such as `{{contentHtml}}`, `{{fullHtml}}`, and selector variables like `{{selectorHtml:cssSelector}}`.
@@ -265,7 +265,7 @@ Filters to process HTML content and convert HTML to Markdown.
 
 #### Arrays and objects
 
-Filters to process arrays and objects.
+Filters that process arrays and objects.
 
 - `first` returns the first element of an array as a string.
 	- `["a","b","c"]|first` returns `"a"`.
