@@ -181,6 +181,7 @@ img[src$="#outline"] {
 }
 .list-cards div > ul ul > li {
   display: block;
+  margin-inline-start: 0;
 }
 .theme-dark .list-cards div ul > li {
   background-color: var(--background-secondary);
