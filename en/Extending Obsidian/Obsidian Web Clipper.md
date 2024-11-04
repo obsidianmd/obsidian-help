@@ -99,22 +99,22 @@ Template variables can be used to automatically pre-populate data from the page 
 
 Preset variables are automatically generated based on the page content. These should work for nearly all websites. The main content variable is `{{content}}`, which contains the article content, or the highlights, or the selection if there is any selected text on the page. Note that `{{content}}` attempts to extract the main content of the page, which may not always be what you want. In that case, you can use other preset variables or selector variables to extract the content you need.
 
-| Variable            | Description                                                   |
-| ------------------- | ------------------------------------------------------------- |
-| `{{author}}`        | Author of the page                                            |
-| `{{content}}`       | Article content, highlights, or selection, in Markdown format |
-| `{{contentHtml}}`   | Article content, highlights, or selection, in HTML format     |
-| `{{date}}`          | Current date                                                  |
-| `{{description}}`   | Description or excerpt                                        |
-| `{{domain}}`        | Domain                                                        |
-| `{{fullHtml}}`      | Unprocessed HTML for the full page content                    |
-| `{{highlights}}`    | Highlights with text and timestamps                           |
-| `{{image}}`         | Social share image URL                                        |
-| `{{published}}`     | Published date                                                |
-| `{{site}}`          | Site name or publisher                                        |
-| `{{title}}`         | Title of the page                                             |
-| `{{time}}`          | Current date and time                                         |
-| `{{url}}`           | Current URL                                                   |
+| Variable          | Description                                                   |
+| ----------------- | ------------------------------------------------------------- |
+| `{{author}}`      | Author of the page                                            |
+| `{{content}}`     | Article content, highlights, or selection, in Markdown format |
+| `{{contentHtml}}` | Article content, highlights, or selection, in HTML format     |
+| `{{date}}`        | Current date, can be formatted using the `date` filter        |
+| `{{description}}` | Description or excerpt                                        |
+| `{{domain}}`      | Domain                                                        |
+| `{{fullHtml}}`    | Unprocessed HTML for the full page content                    |
+| `{{highlights}}`  | Highlights with text and timestamps                           |
+| `{{image}}`       | Social share image URL                                        |
+| `{{published}}`   | Published date, can be formatted using the `date` filter      |
+| `{{site}}`        | Site name or publisher                                        |
+| `{{title}}`       | Title of the page                                             |
+| `{{time}}`        | Current date and time                                         |
+| `{{url}}`         | Current URL                                                   |
 
 #### Meta variables
 
@@ -170,7 +170,7 @@ Filters allow you to modify variables in a template. Filters are applied to vari
 Filters that convert dates and numbers.
 
 - `date` converts a date to the specified format, [see reference](https://day.js.org/docs/en/display/format).
-	- `date:"YYYY-MM-DD"` converts a date to "YYYY-MM-DD".
+	- `{{date|date:"YYYY-MM-DD"}}` converts the current date to "YYYY-MM-DD".
 	- Use `date:("outputFormat", "inputFormat")` to specify the input format, e.g. `"12/01/2024"|date:("YYYY-MM-DD", "MM/DD/YYYY")` parses "12/01/2024" and returns `"2024-12-01"`.
 - `date_modify` modifies a date by adding or subtracting a specified amount of time, [see reference](https://day.js.org/docs/en/manipulate/add).
 	- `"2024-12-01"|date_modify:"+1 year"` returns `"2025-12-01"`
