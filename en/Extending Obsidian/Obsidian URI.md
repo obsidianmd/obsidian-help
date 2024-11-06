@@ -64,7 +64,7 @@ Opens an Obsidian vault, or open a file within that vault.
 - `clipboard` allows the use of the contents of the clipboard instead of specifying `content`.
 - `prepend` will add to the top of the file and attempt to merge properties.
 - `append` will add to the end of the file and also attempt to merge properties.
-- **[[Daily notes]] required**: `daily` creates a new Obsidian URI action that will automatically open or create your daily note.
+- `daily` creates a new Obsidian URI action that will automatically open or create your daily note. Requires the [[Daily notes]] plugin to be active.
 
 
 ## Open search
