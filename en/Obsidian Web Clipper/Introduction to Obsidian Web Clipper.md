@@ -7,7 +7,7 @@ cssclasses:
   - list-cards-mobile-full
 permalink: web-clipper
 ---
-Obsidian Web Clipper is a browser extension that lets you highlight pages and save web content to your vault.
+Obsidian Web Clipper is a free browser extension that lets you highlight pages and save web content to your vault.
 
 > [!warning]- Requires Obsidian 1.7.2 or above
 > Web Clipper relies on features added to [[Obsidian URI]] in Obsidian 1.7.2. Please make sure you're using Obsidian 1.7.2 or above.
@@ -26,7 +26,7 @@ Install the Obsidian Web Clipper extension by downloading it from the official d
 ## How to use Web Clipper
 
 - [[Capture web pages]]
-	- Capture content on web pages.
+	- Get started clipping content from web pages.
 - [[Highlight web pages]]
 	- Highlight content on web pages.
 - [[Troubleshoot Web Clipper]]
@@ -37,3 +37,7 @@ Install the Obsidian Web Clipper extension by downloading it from the official d
 	- Pre-populate page data in your template.
 - [[Filters]]
 	- Modify the output of template variables.
+
+## Privacy
+
+Obsidian Web Clipper stores content locally in your Obsidian vault and follows our [privacy policy](https://obsidian.md/privacy). Your data is not collected, and we do not gather any usage metrics. The code is [open source](https://github.com/obsidianmd/obsidian-clipper) and auditable.
