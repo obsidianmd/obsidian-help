@@ -92,7 +92,7 @@ Filters that process HTML content and convert HTML to Markdown.
 - `markdown` converts a string to an [[Obsidian Flavored Markdown]] formatted string.
 	- Useful when combined with variables that return HTML such as `{{contentHtml}}`, `{{fullHtml}}`, and selector variables like `{{selectorHtml:cssSelector}}`.
 - `remove_html` removes specified HTML elements and their content from a string.
-	- Supports tag name, class, or id, e.g. `{{content|remove_html:("img,.class-name,#element-id")}}`
+	- Supports tag name, class, or id, e.g. `{{contentHtml|remove_html:("img,.class-name,#element-id")}}`
 	- To remove only HTML tags or attributes without removing the content use the `strip_tags` or `strip_attr` filters.
 - `strip_attr` removes all HTML attributes from a string.
 	- Use `strip_attr:("class, id")` to keep specific attributes.
