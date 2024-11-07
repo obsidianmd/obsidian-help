@@ -25,7 +25,7 @@ The main content variable is `{{content}}`, which contains the article content, 
 | `{{description}}` | Description or excerpt                                                                 |
 | `{{domain}}`      | Domain                                                                                 |
 | `{{fullHtml}}`    | Unprocessed HTML for the full page content                                             |
-| `{{highlights}}`  | Highlights with text and timestamps                                                    |
+| `{{highlights}}`  | [[Highlight web pages\|Highlights]] with text and timestamps                           |
 | `{{image}}`       | Social share image URL                                                                 |
 | `{{published}}`   | Published date, can be formatted using the `date` filter                               |
 | `{{site}}`        | Site name or publisher                                                                 |
