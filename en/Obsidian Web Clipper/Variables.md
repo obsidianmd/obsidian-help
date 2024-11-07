@@ -56,7 +56,7 @@ The syntax is `{{selector:cssSelector?attribute}}`, where `?attribute` is option
 
 ## Schema.org variables
 
-Schema variables allow you to extract data from [schema.org](https://schema.org/) JSON-LD on the page.
+Schema variables allow you to extract data from [schema.org](https://schema.org/) JSON-LD on the page. Schema.org data can also be used to automatically [[Obsidian Web Clipper/Templates#Schema.org matching|trigger a template]].
 
 - `{{schema:@Type:key}}` returns the value of the key from the schema.
 - `{{schema:@Type:parent.child}}` returns the value of a nested property.
