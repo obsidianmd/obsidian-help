@@ -19,7 +19,7 @@ By default, Obsidian creates a new empty note named after today's date in the YY
 
 ## Create a daily note from template
 
-If your daily notes have the same structure, you can use a [[Templates|template]] to add pre-defined content to your daily notes when you create them.
+If your daily notes have the same structure, you can use a [[Plugins/Templates|template]] to add pre-defined content to your daily notes when you create them.
 
 1. Create a new note named "Daily template" with the following text (or whatever makes sense to you!):
 
