@@ -23,9 +23,9 @@ To export a template click **Export** in the top right. This will download the t
 
 ## Automatically trigger a template
 
-Template triggers allow you to automatically select a template based on the current page URL or schema.org data. You can define multiple rules for each template, separated by a new line.
+Template triggers allow you to automatically select a template based on the current page URL or [schema.org](https://schema.org/) data. You can define multiple rules for each template, separated by a new line.
 
-You can combine different types of patterns for a single template. The first matching pattern will determine which template is used.
+The first match in your template list determines which template is used. You can drag templates up and down in Web Clipper settings to change the order in which templates are matched.
 
 ### Simple URL matching
 
