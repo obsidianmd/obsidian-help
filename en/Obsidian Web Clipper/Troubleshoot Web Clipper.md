@@ -1,3 +1,6 @@
+---
+permalink: web-clipper/troubleshoot
+---
 If you encounter issues with [[Introduction to Obsidian Web Clipper|Web Clipper]] you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repo](https://github.com/obsidianmd/obsidian-clipper).
 
 ## Linux

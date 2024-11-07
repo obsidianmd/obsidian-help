@@ -5,6 +5,7 @@ aliases:
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+permalink: web-clipper
 ---
 Obsidian Web Clipper is a browser extension that lets you highlight pages and save web content to your vault.
 

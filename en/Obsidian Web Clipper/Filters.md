@@ -1,3 +1,6 @@
+---
+permalink: web-clipper/filters
+---
 Filters allow you to modify [[variables]] in [[Obsidian Web Clipper/Templates|Web Clipper templates]]. Filters are applied to variables using the syntax `{{variable|filter}}`.
 
 - Filters work for any kind of [[Variables|variable]] including `meta`, `selector`, and `schema` variables.

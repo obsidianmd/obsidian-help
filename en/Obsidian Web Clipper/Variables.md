@@ -1,3 +1,6 @@
+---
+permalink: web-clipper/variables
+---
 [[Obsidian Web Clipper/Templates|Web Clipper templates]] can use variables to automatically pre-populate data from the page in a template. Variables can be used in the **note name**, **note location**, **properties**, and **note content**. Variables can also be modified using [[filters]].
 
 Use the `...` icon in the [[Introduction to Obsidian Web Clipper|Web Clipper]] extension to access the current page variables for use in templates. There are four types of variables you can use:
@@ -11,24 +14,24 @@ Use the `...` icon in the [[Introduction to Obsidian Web Clipper|Web Clipper]] e
 
 Preset variables are automatically generated based on the page content. These typically work for most websites.
 
-The main content variable is `{{content}}`, which contains the article content, or the highlights, or the selection if there is any selected text on the page. Note that `{{content}}` attempts to extract the main content of the page, which may not always be what you want. In that case, you can use other preset variables or selector variables to extract the content you need.
+The main content variable is `{{content}}`, which contains the article content, or the [[Highlight web pages|highlights]], or the selection if there is any selected text on the page. Note that `{{content}}` attempts to extract the main content of the page, which may not always be what you want. In that case, you can use other preset variables or selector variables to extract the content you need.
 
-| Variable          | Description                                                   |
-| ----------------- | ------------------------------------------------------------- |
-| `{{author}}`      | Author of the page                                            |
-| `{{content}}`     | Article content, highlights, or selection, in Markdown format |
-| `{{contentHtml}}` | Article content, highlights, or selection, in HTML format     |
-| `{{date}}`        | Current date, can be formatted using the `date` filter        |
-| `{{description}}` | Description or excerpt                                        |
-| `{{domain}}`      | Domain                                                        |
-| `{{fullHtml}}`    | Unprocessed HTML for the full page content                    |
-| `{{highlights}}`  | Highlights with text and timestamps                           |
-| `{{image}}`       | Social share image URL                                        |
-| `{{published}}`   | Published date, can be formatted using the `date` filter      |
-| `{{site}}`        | Site name or publisher                                        |
-| `{{title}}`       | Title of the page                                             |
-| `{{time}}`        | Current date and time                                         |
-| `{{url}}`         | Current URL                                                   |
+| Variable          | Description                                                                            |
+| ----------------- | -------------------------------------------------------------------------------------- |
+| `{{author}}`      | Author of the page                                                                     |
+| `{{content}}`     | Article content, [[Highlight web pages\|highlights]], or selection, in Markdown format |
+| `{{contentHtml}}` | Article content, [[Highlight web pages\|highlights]], or selection, in HTML format     |
+| `{{date}}`        | Current date, can be formatted using the `date` filter                                 |
+| `{{description}}` | Description or excerpt                                                                 |
+| `{{domain}}`      | Domain                                                                                 |
+| `{{fullHtml}}`    | Unprocessed HTML for the full page content                                             |
+| `{{highlights}}`  | Highlights with text and timestamps                                                    |
+| `{{image}}`       | Social share image URL                                                                 |
+| `{{published}}`   | Published date, can be formatted using the `date` filter                               |
+| `{{site}}`        | Site name or publisher                                                                 |
+| `{{title}}`       | Title of the page                                                                      |
+| `{{time}}`        | Current date and time                                                                  |
+| `{{url}}`         | Current URL                                                                            |
 
 ## Meta variables
 
@@ -47,7 +50,7 @@ The syntax is `{{selector:cssSelector?attribute}}`, where `?attribute` is option
 - `{{selector:.author}}` returns text content of the first `.author` element on the page.
 - `{{selector:img.hero?src}}` returns the `src` attribute of the first image with class `hero`.
 - `{{selector:a.main-link?href}}` returns the `href` attribute of the first anchor tag with class `main-link`.
-- `{{selectorHtml:body|markdown}}` returns the entire HTML of the `body` element, converted to Markdown using the `markdown` filter.
+- `{{selectorHtml:body|markdown}}` returns the entire HTML of the `body` element, converted to Markdown using the `markdown` [[Filters|filter]].
 - Nested CSS selectors and combinators are supported if you need more specificity.
 - If multiple elements match the selector, an array is returned, which you can process with [[Filters#Arrays and objects|array and object filters]] like `join` or `map`.
 

@@ -1,3 +1,6 @@
+---
+permalink: web-clipper/templates
+---
 [[Introduction to Obsidian Web Clipper|Web Clipper]] allows you to create templates that automatically capture and organize metadata from web pages. Example templates are available in the [clipper-templates repo](https://github.com/kepano/clipper-templates). 
 
 ## Create or edit a template

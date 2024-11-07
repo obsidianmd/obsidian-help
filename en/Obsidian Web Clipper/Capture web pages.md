@@ -1,3 +1,6 @@
+---
+permalink: web-clipper/capture
+---
 Once you install the [[Introduction to Obsidian Web Clipper|Web Clipper]] browser extension, you can access it in several ways, depending on your browser:
 
 1. The Obsidian icon in your browser toolbar.
