@@ -46,3 +46,5 @@ You can trigger templates based on [schema.org](https://schema.org/) data presen
 - `schema:@Recipe` will match pages where the schema type is "Recipe".
 - `schema:@Recipe.name` will match pages where `@Recipe.name` is present.
 - `schema:@Recipe.name=Cookie` will match pages where `@Recipe.name` is "Cookie".
+
+Schema.org values can also be used to [[Variables#Schema.org variables|pre-populate data in templates]].

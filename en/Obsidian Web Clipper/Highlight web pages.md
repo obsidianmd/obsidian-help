@@ -7,15 +7,15 @@ aliases:
 
 Highlights can be [[Capture web pages|captured]] and saved to Obsidian when you open the extension.
 
-## Turn on highlighter mode
+## Turn on highlighting
 
-You can turn on highlighter mode in several ways, depending on your browser:
+You can turn on highlighting in several ways, depending on your browser:
 
-1. The highlighter icon in the extension panel.
-2. Hotkeys, to activate the extension from your keyboard.
-3. Context menu, by right-clicking the web page you are visiting.
+- The highlighter icon in the extension panel.
+- Hotkeys, to activate the extension from your keyboard.
+- Context menu, by right-clicking the web page you are visiting.
 
-Once highlighter mode is active, you can select text, images, and elements you want to highlight.
+Once highlighting is on, you can select text, images, and elements you want to highlight.
 
 ## Highlighter settings
 

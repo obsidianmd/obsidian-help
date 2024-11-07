@@ -19,24 +19,24 @@ By default Web Clipper attempts to intelligently extract only the main article c
 - If a selection is present, it uses the selection. You can use `Ctrl/Cmd+A` to select the entire page.
 - If any [[Highlight web pages|highlights]] are present, it uses the highlights.
 
-## Interface
+## Clipper functionality
 
 The Web Clipper interface is divided into four sections:
 
-1. **Header** where you can switch templates, turn on [[Highlight web pages|highlighter mode]], and access settings.
+1. **Header** where you can switch templates, turn on [[Highlight web pages|highlighting]], and access settings.
 2. **Properties** shows the [[Properties|metadata]] extracted from the page that will be saved as [[properties]] in Obsidian.
 3. **Note content** that will be saved to Obsidian.
 4. **Footer** allows you select the vault and folder, and add to Obsidian.
 
 Header functionality includes:
 
-- **Template switcher**, to switch between your saved [[Obsidian Web Clipper/Templates|templates]] added in Web Clipper settings.
-- **More (...)** button, to display page variables you can use in templates.
-- **Highlighter** button, to turn on [[Highlight web pages|highlighter mode]].
-- **Cog** button, to open Web Clipper settings.
+- **Template** dropdown to switch between your saved [[Obsidian Web Clipper/Templates|templates]] added in Web Clipper settings.
+- **More (...)** button to display page variables you can use in templates.
+- **Highlighter** button to turn on [[Highlight web pages|highlighting]].
+- **Cog** button to open Web Clipper settings.
 
 Footer functionality includes:
 
-- **Vault switcher**, to switch between saved vaults added in Web Clipper settings.
-- **Folder**, to define which folder to save to.
+- **Vault** dropdown to switch between saved vaults added in Web Clipper settings.
+- **Folder** field to define which folder to save to.
 - **Add to Obsidian** button to save data to Obsidian.

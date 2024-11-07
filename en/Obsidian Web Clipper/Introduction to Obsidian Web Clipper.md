@@ -14,7 +14,7 @@ Obsidian Web Clipper is a free browser extension that lets you highlight pages a
 
 ## Install Web Clipper
 
-Install the Obsidian Web Clipper extension by downloading it from the official directory for your browser:
+Get the Obsidian Web Clipper extension from the official directory for your browser:
 
 - [Chrome Web Store](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)
 	- For Chrome, Brave, Edge, Arc, Orion, and other Chromium-based browsers.
@@ -40,4 +40,4 @@ Install the Obsidian Web Clipper extension by downloading it from the official d
 
 ## Privacy
 
-Obsidian Web Clipper stores content locally in your Obsidian vault and follows our [privacy policy](https://obsidian.md/privacy). Your data is not collected, and we do not gather any usage metrics. The code is [open source](https://github.com/obsidianmd/obsidian-clipper) and auditable.
+Obsidian Web Clipper saves content locally to your Obsidian vault and follows our [privacy policy](https://obsidian.md/privacy). Your data is not collected, and we do not gather any usage metrics. The code is [open source](https://github.com/obsidianmd/obsidian-clipper) and auditable.
