@@ -1,5 +1,7 @@
 .published-container {
   --code-border-width: 1px;
+  --table-row-alt-background: var(--background-primary-alt);
+  --table-row-alt-background-hover: var(--background-primary-alt);
 }
 
 .site-body-left-column-site-logo {
