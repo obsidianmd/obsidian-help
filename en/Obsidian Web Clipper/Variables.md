@@ -35,7 +35,7 @@ The main content variable is `{{content}}`, which contains the article content, 
 
 ## Meta variables
 
-Meta variables allow you to extract data from meta tags in the page, including [Open Graph](https://ogp.me/) data used to populate social share previews.
+Meta variables allow you to extract data from [meta elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) in the page, including [Open Graph](https://ogp.me/) data used to populate social share previews.
 
 - `{{meta:name}}` returns the content of the meta name tag with the given name, e.g. `{{meta:name:description}}` for the `description` meta tag.
 - `{{meta:property}}` returns the content of the meta property tag with the given property, e.g. `{{meta:property:og:title}}` for the `og:title` meta tag.
