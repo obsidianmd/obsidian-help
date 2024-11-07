@@ -1,6 +1,6 @@
 Obsidian Web Clipper is a browser extension that lets you highlight pages and save web content to your vault.
 
-## Getting started
+## Get started
 
 Install the Obsidian Web Clipper extension by downloading it from the official directory for your browser:
 
@@ -11,7 +11,7 @@ Install the Obsidian Web Clipper extension by downloading it from the official d
 > [!warning]- Requires Obsidian 1.7.2 or above
 > Web Clipper relies on features added to [[Obsidian URI]] in Obsidian 1.7.2. Please make sure you're using Obsidian 1.7.2 or above.
 
-## Basic usage
+## Clip pages
 
 Once you install the browser extension, you can access Web Clipper in several ways, depending on your browser:
 
@@ -42,6 +42,25 @@ Footer functionality includes:
 - **Vault switcher**, to switch between saved vaults added in Web Clipper settings.
 - **Folder**, to define which folder to save to.
 - **Add to Obsidian** button to save data to Obsidian.
+
+## Highlight pages
+
+Web Clipper allows you to highlight text on web pages, and select the elements you want to save to Obsidian. Your highlights are saved, so you can revisit them when you return to a page.
+
+### Activate highlighter
+
+You can turn on highlighter mode in several ways, depending on your browser:
+
+1. The highlighter icon in the extension panel.
+2. Hotkeys, to activate the extension from your keyboard.
+3. Context menu, by right-clicking the web page you are visiting.
+
+Once highlighter mode is active, you can select text, images, and elements you want to highlight.
+
+### Highlighter settings
+
+You can change the highlighter behavior by going to Web Clipper settings. Here you can also export your highlights to a `.json` file.
+
 
 ## Templates
 
@@ -312,7 +331,7 @@ Filters that process arrays and objects.
 		- Example: `["rock", "pop"]|map:item => "genres/${item}"|template:"${str}"` returns `"genres/rock\ngenres/pop"`.
 		- The `str` property is automatically used when applying `template` to objects created by `map` with string literals.
 
-## Troubleshooting
+## Troubleshoot Web Clipper
 
 If you encounter issues with Web Clipper you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repo](https://github.com/obsidianmd/obsidian-clipper).
 
