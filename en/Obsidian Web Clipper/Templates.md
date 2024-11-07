@@ -22,6 +22,8 @@ To export a template click **Export** in the top right. This will download the t
 
 Template triggers allow you to automatically select a template based on the current page URL or schema.org data. You can define multiple rules for each template, separated by a new line.
 
+You can combine different types of patterns for a single template. The first matching pattern will determine which template is used.
+
 ### Simple URL matching
 
 Simple matching triggers a template if the current page URL *starts with* the given pattern. For example:
@@ -36,10 +38,8 @@ You can trigger templates based on more complex URL patterns using regular expre
 
 ### Schema.org matching
 
-You can trigger templates based on schema.org data present on the page. Use the `schema:` prefix followed by the schema key you want to match. You can optionally specify an expected value. For example:
+You can trigger templates based on [schema.org](https://schema.org/) data present on the page. Use the `schema:` prefix followed by the schema key you want to match. You can optionally specify an expected value. For example:
 
 - `schema:@Recipe` will match pages where the schema type is "Recipe".
 - `schema:@Recipe.name` will match pages where `@Recipe.name` is present.
 - `schema:@Recipe.name=Cookie` will match pages where `@Recipe.name` is "Cookie".
-
-You can combine different types of patterns for a single template. The first matching pattern (whether URL-based or schema-based) will determine which template is used.
