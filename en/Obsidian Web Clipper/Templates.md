@@ -21,25 +21,35 @@ To import a template:
 
 To export a template click **Export** in the top right. This will download the template `.json` file. You can also copy the template data to your clipboard via the **More** menu.
 
-## Automatically trigger a template
+## Template settings
+
+### Behavior
+
+Define how content from Web Clipper will be added to Obsidian:
+
+- **Create a new note**
+- **Add to an existing note**, at the top or bottom
+- **Add to daily note**, at the top or bottom (requires the [[daily notes]] plugin to be active)
+
+### Automatically trigger a template
 
 Template triggers allow you to automatically select a template based on the current page URL or [schema.org](https://schema.org/) data. You can define multiple rules for each template, separated by a new line.
 
 The first match in your template list determines which template is used. You can drag templates up and down in Web Clipper settings to change the order in which templates are matched.
 
-### Simple URL matching
+#### Simple URL matching
 
 Simple matching triggers a template if the current page URL *starts with* the given pattern. For example:
 
 - `https://obsidian.md` will match any URL that starts with this text.
 
-### Regular expression matching
+#### Regular expression matching
 
 You can trigger templates based on more complex URL patterns using regular expressions. Enclose your regex pattern in forward slashes (`/`). Remember to escape special characters in regex patterns (like `.` and `/`) with a backslash (`\`). For example:
 
 - `/^https:\/\/www\.imdb\.com\/title\/tt\d+\/reference\/?$/` will match any IMDB reference page.
 
-### Schema.org matching
+#### Schema.org matching
 
 You can trigger templates based on [schema.org](https://schema.org/) data present on the page. Use the `schema:` prefix followed by the schema key you want to match. You can optionally specify an expected value. For example:
 
