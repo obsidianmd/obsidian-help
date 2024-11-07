@@ -1,3 +1,7 @@
+.published-container {
+  --code-border-width: 1px;
+}
+
 .site-body-left-column-site-logo {
   text-align: left;
   margin-bottom: 24px;
