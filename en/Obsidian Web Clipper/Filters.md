@@ -24,10 +24,10 @@ Filters that convert dates and numbers.
 
 Filters that convert text strings from one format to another.
 
-- `capitalize` capitalizes the first character of the value and converts the rest to lowercase, e.g. `"hELLO wORLD"|capitalize` returns `"Hello world"`.
 - `camel` converts text to `camelCase`.
-- `lower` converts text to `lowercase`.
+- `capitalize` capitalizes the first character of the value and converts the rest to lowercase, e.g. `"hELLO wORLD"|capitalize` returns `"Hello world"`.
 - `kebab` converts text to `kebab-case`.
+- `lower` converts text to `lowercase`.
 - `pascal` converts text to `PascalCase`.
 - `replace` replaces occurrences of specified text:
 	- Simple replacement: `"hello!"|replace:",":""` removes all commas.
