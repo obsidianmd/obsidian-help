@@ -15,7 +15,8 @@ If you don't see any content in Obsidian when you click **Add to Obsidian**:
 
 1. Make sure the [[Obsidian URI]] protocol [[Obsidian URI#Register Obsidian URI|is registered]].
 2. If you are using Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download) — Flatpak apps have stricter sandboxing which may not allow data to be passed between your browser and Obsidian via the clipboard.
-3. Try switching to **Legacy mode** in Web Clipper → General settings. This will bypass the clipboard and save content directly via URI. Note that this may limit the number of characters that can be clipped depending on your browser and Linux distribution.
+3. Make sure that Obsidian has the permissions to read the clipboard. If you use Wayland, your configuration may affect permissions for clipboard access.
+4. Try switching to **Legacy mode** in Web Clipper → General settings. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.
 
 ### Some content is missing
 
@@ -28,3 +29,5 @@ You can bypass Readability with the following methods:
 - Select text, or use `Cmd/Ctrl+A` to select all text.
 - [[Highlight web pages|Highlight content]] to choose exactly what you want to capture.
 - Use a [[Obsidian Web Clipper/Templates|custom template]] for the site.
+
+
