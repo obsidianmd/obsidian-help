@@ -105,6 +105,6 @@ You've configured an Obsidian Publish site and published your first notes. Head 
 ## Next steps
 
 Now that you've published your first notes, you might want to:
-- Set up a custom domain for your site: [[Set up a custom domain]]
+- Set up a custom domain for your site: [[Custom domains]]
 - Learn about advanced site customization: [[Customize your site]]
 - Find out how to add social media cards: [[Social media link previews]]

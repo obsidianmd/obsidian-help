@@ -6,7 +6,6 @@ aliases:
 cssclasses:
   - soft-embed
 ---
-
 [[Introduction to Obsidian Publish|Obsidian Publish]] allows you to host notes and various media types, including images and video clips, with a limit of 4 GB per site. For more details, please refer to our [[Accepted file formats|accepted file formats]].
 
 ![[Publish limitations#^publish-media-limit]]

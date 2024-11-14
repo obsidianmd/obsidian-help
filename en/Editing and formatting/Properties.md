@@ -238,13 +238,13 @@ Obsidian comes with a set of default properties:
 
 The following properties can be used with [[Introduction to Obsidian Publish|Obsidian Publish]]:
 
-| Property | Description |
-|-|-|
-| `publish` | See [[Publish and unpublish notes#Automatically select notes to publish\|Automatically select notes to publish]]. |
-| `permalink` | See [[Publish and unpublish notes#Permalinks\|Permalinks]]. |
-| `description` | See [[Social media link previews#Description\|Description]]. |
-| `image` | See [[Social media link previews#Image\|Image]]. |
-| `cover` | See [[Social media link previews#Image\|Image]]. |
+| Property      | Description                                                                                                       |
+| ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `publish`     | See [[Publish and unpublish notes#Automatically select notes to publish\|Automatically select notes to publish]]. |
+| `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
+| `description` | See [[Social media link previews#Description\|Description]].                                                      |
+| `image`       | See [[Social media link previews#Image\|Image]].                                                                  |
+| `cover`       | See [[Social media link previews#Image\|Image]].                                                                  |
 
 ### Deprecated properties
 
