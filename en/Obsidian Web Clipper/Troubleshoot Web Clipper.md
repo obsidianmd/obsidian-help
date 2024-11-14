@@ -3,7 +3,19 @@ permalink: web-clipper/troubleshoot
 ---
 If you encounter issues with [[Introduction to Obsidian Web Clipper|Web Clipper]] you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repo](https://github.com/obsidianmd/obsidian-clipper).
 
-###  No content appears in Obsidian
+### Some content is missing
+
+By default, Web Clipper tries to intelligently capture content from the page. However it may not be successful in doing so across all websites.
+
+Web Clipper uses Firefox's [Readability](https://github.com/mozilla/readability) library to capture only the main content of the page. This excludes header, footer, and other elements, but sometimes it can be overly conservative and remove content that you want to keep. You can [report bugs](https://github.com/mozilla/readability) to Readability.
+
+To bypass Readability in Web Clipper you can use the following methods:
+
+- Select text, or use `Cmd/Ctrl+A` to select all text.
+- [[Highlight web pages|Highlight content]] to choose exactly what you want to capture.
+- Use a [[Obsidian Web Clipper/Templates|custom template]] for the site.
+
+### No content appears in Obsidian
 
 If you don't see any content in Obsidian when you click **Add to Obsidian**:
 
@@ -13,21 +25,13 @@ If you don't see any content in Obsidian when you click **Add to Obsidian**:
 
 #### Linux
 
-1. Make sure the [[Obsidian URI]] protocol [[Obsidian URI#Register Obsidian URI|is registered]].
-2. If you are using Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download) — Flatpak apps have stricter sandboxing which may not allow data to be passed between your browser and Obsidian via the clipboard.
-3. Make sure that Obsidian has the permissions to read the clipboard. If you use Wayland, your configuration may affect permissions for clipboard access.
-4. Try switching to **Legacy mode** in Web Clipper → General settings. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.
+If Obsidian does not open at all:
 
-### Some content is missing
+- Make sure the [[Obsidian URI]] protocol [[Obsidian URI#Register Obsidian URI|is registered]].
+- If you are using Firefox you may need to [register it the browser settings](https://kb.mozillazine.org/Register_protocol).
 
-By default, Web Clipper tries to intelligently capture content from the page. However it may not be successful in doing so across all websites.
+If Obsidian opens but only the file name appears, it is likely that Obsidian cannot access your clipboard. Clipboard access is necessary to pass data from your browser to Obsidian. Your configuration can affect how apps are sandboxed, and clipboard permissions.
 
-Web Clipper uses Firefox's [Readability](https://github.com/mozilla/readability) code to try and capture only the main content. This excludes header, footer, and other elements, but sometimes it can be overly conservative.
-
-You can bypass Readability with the following methods:
-
-- Select text, or use `Cmd/Ctrl+A` to select all text.
-- [[Highlight web pages|Highlight content]] to choose exactly what you want to capture.
-- Use a [[Obsidian Web Clipper/Templates|custom template]] for the site.
-
-
+- If you use Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download).
+- If you use Wayland, make sure that Obsidian has the permissions to read the clipboard when the app is not focused.
+- As a fallback, try switching to **Legacy mode** in **Web Clipper Settings** → **General**. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.
