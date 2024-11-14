@@ -35,3 +35,20 @@ If Obsidian opens but only the file name appears, it is likely that Obsidian can
 - If you use Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download).
 - If you use Wayland, make sure that Obsidian has the permissions to read the clipboard when the app is not focused.
 - As a fallback, try switching to **Legacy mode** in **Web Clipper Settings** → **General**. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.
+
+### Extension is not visible
+
+#### Safari on iOS and iPadOS
+
+To enable the Web Clipper extension:
+
+1. Go to Safari, tap the leftmost button in the browser URL bar, it looks like a rectangle with lines beneath it.
+2. Tap **Manage Extensions**.
+3. Enable **Obsidian Web Clipper** in the Extensions list.
+4. Exit the menu.
+5. To use the extension **tap the puzzle piece icon** in the URL bar.
+
+To allow Web Clipper to run on all websites:
+
+1. Go to the iOS **Settings** app →  **Apps** →  **Safari** →  **Extensions**.
+2. Under **Permissions** allow it to run on all websites.
