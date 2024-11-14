@@ -9,7 +9,7 @@ By default, Web Clipper tries to intelligently capture content from the page. Ho
 
 Web Clipper uses Firefox's [Readability](https://github.com/mozilla/readability) library to capture only the main content of the page. This excludes header, footer, and other elements, but sometimes it can be overly conservative and remove content that you want to keep. You can [report bugs](https://github.com/mozilla/readability) to Readability.
 
-To bypass Readability in Web Clipper you can use the following methods:
+To bypass Readability in Web Clipper use the following methods:
 
 - Select text, or use `Cmd/Ctrl+A` to select all text.
 - [[Highlight web pages|Highlight content]] to choose exactly what you want to capture.
