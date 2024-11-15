@@ -50,5 +50,10 @@ To enable the Web Clipper extension:
 
 To allow Web Clipper to run on all websites:
 
-1. Go to the iOS **Settings** app →  **Apps** →  **Safari** →  **Extensions**.
+1. Go to iOS **Settings** →  **Apps** →  **Safari** →  **Extensions**.
 2. Under **Permissions** allow it to run on all websites.
+
+To allow Obsidian to always receive Web Clipper content:
+
+1. Go to iOS **Settings** →  **Apps** →  **Obsidian**.
+2. Set **Paste from other apps** to **Allow**.
