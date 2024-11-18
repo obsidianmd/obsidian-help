@@ -29,7 +29,7 @@ You can browse this site in several languages:
 <option value="https://publish.obsidian.md/help-zh">中文</option>
 </select>
 
-## Getting started
+## Get started
 
 If you're new to Obsidian, learn the basics of note-taking with Obsidian using our guides:
 
@@ -39,9 +39,20 @@ If you're new to Obsidian, learn the basics of note-taking with Obsidian using o
 4. [[Link notes]]
 5. [[Import notes]]
 
-From here, you can build your own custom experience by enabling additional features through _plugins_. Explore the [[Core plugins]] that ship with Obsidian, or any of our [[Community plugins]].
+## Extend Obsidian
 
-Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
+With thousands of plugins and themes, you can shape Obsidian to fit your way of thinking.
+
+- [[Core plugins]]
+	- Choose which built-in features of Obsidian you want to turn on or off.
+- [[Community plugins]]
+	- Enable more workflows and capabilities with features built by Obsidian users.
+- [[Themes]]
+	- Customize the look and feel of Obsidian with community-made color schemes.
+- [[CSS snippets]]
+	- Make small changes to the interface on top of your Obsidian theme.
+- [[Introduction to Obsidian Web Clipper|Web Clipper]]
+	- Highlight web pages and save content to Obsidian using our browser extension.
 
 ## Add-on services
 
