@@ -27,7 +27,7 @@ Get the Obsidian Web Clipper extension from the official directory for your brow
 
 ## How to use Web Clipper
 
-- [[Capture web pages]]
+- [[Clip web pages]]
 	- Get started clipping content from web pages.
 - [[Highlight web pages]]
 	- Highlight content on web pages.

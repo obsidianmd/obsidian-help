@@ -5,7 +5,7 @@ aliases:
 ---
 [[Introduction to Obsidian Web Clipper|Web Clipper]] allows you to highlight text on web pages, and select the elements you want to save to Obsidian. Your highlights are saved, so you can revisit them when you return to a page.
 
-Highlights can be [[Capture web pages|captured]] and saved to Obsidian when you open the extension.
+Highlights can be [[Clip web pages|captured]] and saved to Obsidian when you open the extension.
 
 ## Turn on highlighting
 
