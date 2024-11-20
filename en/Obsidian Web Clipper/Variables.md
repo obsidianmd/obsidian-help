@@ -24,6 +24,7 @@ The main content variable is `{{content}}`, which contains the article content, 
 | `{{date}}`        | Current date, can be formatted using the `date` filter                                 |
 | `{{description}}` | Description or excerpt                                                                 |
 | `{{domain}}`      | Domain                                                                                 |
+| `{{favicon}}`     | Favicon URL                                                                            |
 | `{{fullHtml}}`    | Unprocessed HTML for the full page content                                             |
 | `{{highlights}}`  | [[Highlight web pages\|Highlights]] with text and timestamps                           |
 | `{{image}}`       | Social share image URL                                                                 |
