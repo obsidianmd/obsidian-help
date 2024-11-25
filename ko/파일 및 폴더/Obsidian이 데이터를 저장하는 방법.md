@@ -31,7 +31,7 @@ Obsidian은 전역 설정을 시스템 폴더에 저장합니다. 시스템 폴�
 
 - **macOS**: `/Users/yourusername/Library/Application Support/obsidian`
 - **Windows**: `%APPDATA%\Obsidian\`
-- **Linux**: `$XDG_CONFIG_HOME/Obsidian/` or `~/.config/Obsidian/`
+- **Linux**: `$XDG_CONFIG_HOME/obsidian/` or `~/.config/obsidian/`
 
 > [!warning]
 > 시스템 폴더에 '보관소'를 생성하지 마십시오. 이로 인해 데이터 손상 또는 데이터 손실이 발생할 수 있습니다.

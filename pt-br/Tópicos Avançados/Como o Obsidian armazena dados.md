@@ -6,7 +6,7 @@ Existem alguns dados necessários ao software que não são armazenados no Markd
 
 ### Diretório do sistema
 
-O Obsidian também armazena algumas informações no diretório do sistema. Isso é diferente por sistema operacional; no macOS é `/Users/yourusername/Library/Application Support/obsidian`, no Windows `%APPDATA%\Obsidian\`, e `$XDG_CONFIG_HOME/Obsidian/` ou `~/.config/Obsidian/` no Linux. Como resultado, recomendamos não criar um cofre neste diretório.
+O Obsidian também armazena algumas informações no diretório do sistema. Isso é diferente por sistema operacional; no macOS é `/Users/yourusername/Library/Application Support/obsidian`, no Windows `%APPDATA%\Obsidian\`, e `$XDG_CONFIG_HOME/obsidian/` ou `~/.config/obsidian/` no Linux. Como resultado, recomendamos não criar um cofre neste diretório.
 
 Além disso, você pode criar um cofre em qualquer lugar que seu sistema operacional permitir. Os arquivos Obsidian sincronizam bem com Dropbox, iCloud, OneDrive, git e todos os outros serviços de sincronização que tentamos até agora.
 

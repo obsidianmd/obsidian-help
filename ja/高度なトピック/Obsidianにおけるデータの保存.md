@@ -6,7 +6,7 @@
 
 ### システムディレクトリ
 
-Obsidianでは、システムディレクトリ内部にいくつかの情報を保存しています。これはオペレーティングシステムによって異なります。Macの場合は `/Users/yourusername/Library/Application Support/obsidian`、Windowsの場合は `%APPDATA%\Obsidian\` と `$XDG_CONFIG_HOME/Obsidian/` 、Linuxの場合には `~/.config/Obsidian/` に保存しています。このため、Obsidianではこれらのディレクトリに保管庫を作成しないように推奨しています。
+Obsidianでは、システムディレクトリ内部にいくつかの情報を保存しています。これはオペレーティングシステムによって異なります。Macの場合は `/Users/yourusername/Library/Application Support/obsidian`、Windowsの場合は `%APPDATA%\Obsidian\` と `$XDG_CONFIG_HOME/obsidian/` 、Linuxの場合には `~/.config/obsidian/` に保存しています。このため、Obsidianではこれらのディレクトリに保管庫を作成しないように推奨しています。
 
 しかし、これを除けばオペレーティングシステムが許可する場所ならどこにでも保管庫を作成できます。ObsidianのファイルはDropboxや、iCloud、OneDrive,、git、そして私たちがこれまでに試してきた他のあらゆる同期サービスで同期できます。
 

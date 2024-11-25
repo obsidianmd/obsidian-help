@@ -4,6 +4,6 @@ Tuttavia, ci sono alcuni dati necessari al programma che non vengono memorizzati
 
 Quando si usano i CSS personalizzati, Obsidian crea un file chiamato `obsidian.css` nella cartella principale del vault. Per maggiori informazioni, vedere [[CSS personalizzati]].
 
-Obsidian memorizza anche alcune informazioni in una cartella di sistema. La posizione di questa cartella cambia a seconda del sistema operativo utilizzato; su Mac è `/Utenti/tuonome/Libreria/Supporto applicazioni/obsidian`, su Windows `%APPDATA%\Obsidian\`, su Linux `$XDG_CONFIG_HOME/Obsidian/` oppure `~/.config/Obsidian/`. Di conseguenza, è sconsigliabile creare un vault all'interno di questa cartella.
+Obsidian memorizza anche alcune informazioni in una cartella di sistema. La posizione di questa cartella cambia a seconda del sistema operativo utilizzato; su Mac è `/Utenti/tuonome/Libreria/Supporto applicazioni/obsidian`, su Windows `%APPDATA%\Obsidian\`, su Linux `$XDG_CONFIG_HOME/obsidian/` oppure `~/.config/obsidian/`. Di conseguenza, è sconsigliabile creare un vault all'interno di questa cartella.
 
 A parte questo, però, è possibile creare un vault ovunque il sistema operativo lo consenta. I file di Obsidian si sincronizzano senza problemi con Dropbox, iCloud, OneDrive, git e con ogni altro servizio di sincronizzazione che abbiamo provato finora.

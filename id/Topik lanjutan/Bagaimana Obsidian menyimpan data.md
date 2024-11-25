@@ -6,7 +6,7 @@ Bagaimanapun, beberapa data yang dibutuhkan oleh perangkat lunak tidak tersimpan
 
 ### Direktori sistem
 
-Obsidian juga menyimpan beberapa informasi di direktori sistem. Ini akan berbeda tergantung pada Sistem Operasi; pada Mac berada di `/Users/namapengguna/Library/Application Support/obsidian`, pada Windows `%APPDATA%\Obsidian\`, dan `$XDG_CONFIG_HOME/Obsidian/` atau `~/.config/Obsidian/` pada Linux. Sehingga, kami merekomendasikan untuk tidak membuat vault pada direktori ini.
+Obsidian juga menyimpan beberapa informasi di direktori sistem. Ini akan berbeda tergantung pada Sistem Operasi; pada Mac berada di `/Users/namapengguna/Library/Application Support/obsidian`, pada Windows `%APPDATA%\Obsidian\`, dan `$XDG_CONFIG_HOME/obsidian/` atau `~/.config/obsidian/` pada Linux. Sehingga, kami merekomendasikan untuk tidak membuat vault pada direktori ini.
 
 Disamping itu, Anda dapat membuat Vault di mana pun sistem operasi memperbolehkannya. Berkas Obsidian tersinkronisasi dengan baik dengan Dropbox, iCloud, OneDrive, git, dan layanan penyinkronan lainnya yang telah kami coba.
 

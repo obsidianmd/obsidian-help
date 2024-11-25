@@ -6,7 +6,7 @@ Tuy nhiên, có một số dữ liệu cần thiết của phần mềm không �
 
 ### Thư mục hệ thống
 
-Obsidian cũng lưu trữ một số thông tin trong thư mục hệ thống. Điều này khác nhau trên mỗi Hệ điều hành; trên Mac là `/Users/yourusername/Library/Application Support/obsidian`, trên Windows là `%APPDATA%\Obsidian\`, và `$XDG_CONFIG_HOME/Obsidian/` hoặc `~/.config/Obsidian/` trên Linux. Do đó, chúng tôi khuyên bạn không nên tạo vault trong thư mục này.
+Obsidian cũng lưu trữ một số thông tin trong thư mục hệ thống. Điều này khác nhau trên mỗi Hệ điều hành; trên Mac là `/Users/yourusername/Library/Application Support/obsidian`, trên Windows là `%APPDATA%\Obsidian\`, và `$XDG_CONFIG_HOME/obsidian/` hoặc `~/.config/obsidian/` trên Linux. Do đó, chúng tôi khuyên bạn không nên tạo vault trong thư mục này.
 
 Tuy nhiên, bên cạnh đó, bạn có thể tạo Vault ở bất kỳ đâu mà hệ điều hành của bạn cho phép. Các file Obsidian đồng bộ tốt với Dropbox, iCloud, OneDrive, git và mọi dịch vụ đồng bộ khác mà chúng tôi đã thử cho đến nay.
 

@@ -33,7 +33,7 @@ aliases:
 
 - **macOS**: <code dir="ltr">/Users/yourusername/Library/Application Support/obsidian</code>
 - **Windows**: <code dir="ltr">%APPDATA%\Obsidian&#92;</code>
-- **Linux**: <code dir="ltr">$XDG_CONFIG_HOME/Obsidian/</code> أو <code dir="ltr">~/.config/Obsidian/</code>
+- **Linux**: <code dir="ltr">$XDG_CONFIG_HOME/obsidian/</code> أو <code dir="ltr">~/.config/obsidian/</code>
 
 > [!تحذير]
 > لا تقم بإنشاء قبو في مجلد النظام. قد يؤدي ذلك إلى تلف البيانات أو فقدانها.
