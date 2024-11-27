@@ -3,10 +3,10 @@ permalink: web-clipper/interpreter
 aliases:
   - Interpreter
 ---
-Interpreter is a [[Introduction to Obsidian Web Clipper|Web Clipper]] feature that lets you interact with web pages using natural language. Interpreter lets you capture and modify data that you want to save to Obsidian. For example:
+Interpreter is a [[Introduction to Obsidian Web Clipper|Web Clipper]] feature that lets you interact with web pages using natural language. Interpreter helps you capture and modify data that you want to save to Obsidian. For example:
 
-- Extract specific text fragments from a page.
-- Summarize or explain information on a page.
+- Extract specific text fragments.
+- Summarize or explain information.
 - Convert text from one format to another.
 - Translate text to a different language.
 
@@ -39,7 +39,7 @@ Interpreter returns results faster if the page content is small. The term *conte
 
 By default, Interpreter uses the entire page content as its context, however this can make prompts slower and more expensive than necessary.
 
-You can override the default context in Interpreter **Advanced settings**. You can also define context per [[Obsidian Web Clipper/Templates|template]].
+You can override the default context in Interpreter **Advanced settings** and define context per [[Obsidian Web Clipper/Templates|template]].
 
 To define a more targeted context use [[Variables#Selector variables|selector variables]] (or other variable types) to interpret a section of the page. For example, you could use the following selector variable in your template's Interpreter context:
 

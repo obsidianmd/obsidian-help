@@ -28,11 +28,11 @@ Get the Obsidian Web Clipper extension from the official directory for your brow
 ## How to use Web Clipper
 
 - [[Clip web pages]]
-	- How to use Web Clipper to save content from web pages.
+	- Get started and learn how to save content from pages.
 - [[Highlight web pages|Highlighter]]
-	- How to highlight important passages and select elements you want to save.
+	- Highlight important passages and select elements you want to save.
 - [[Interpret web pages|Interpreter]]
-	- How to use natural language to capture and modify data on a page.
+	- Use natural language prompts to capture and modify data on a page.
 - [[Troubleshoot Web Clipper|Troubleshooting]]
 	- Resolve common issues with Web Clipper.
 - [[Obsidian Web Clipper/Templates|Templates]]
