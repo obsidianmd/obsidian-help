@@ -144,7 +144,9 @@ In addition to the formats above, there are two more "shorthand" formats availab
 1. `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`.
 2. `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
 
-## Register Obsidian URI
+## Troubleshooting
+
+### Register Obsidian URI
 
 On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
 
