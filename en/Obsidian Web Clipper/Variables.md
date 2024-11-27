@@ -3,9 +3,10 @@ permalink: web-clipper/variables
 ---
 [[Obsidian Web Clipper/Templates|Web Clipper templates]] can use variables to automatically pre-populate data from the page in a template. Variables can be used in the **note name**, **note location**, **properties**, and **note content**. Variables can also be modified using [[filters]].
 
-Use the `...` icon in the [[Introduction to Obsidian Web Clipper|Web Clipper]] extension to access the current page variables for use in templates. There are four types of variables you can use:
+Use the `...` icon in the [[Introduction to Obsidian Web Clipper|Web Clipper]] extension to access the current page variables for use in templates. There are five types of variables you can use:
 
 - Preset variables
+- Prompt variables
 - Meta variables
 - Selector variables
 - Schema.org variables
@@ -33,6 +34,17 @@ The main content variable is `{{content}}`, which contains the article content, 
 | `{{title}}`       | Title of the page                                                                      |
 | `{{time}}`        | Current date and time                                                                  |
 | `{{url}}`         | Current URL                                                                            |
+
+## Prompt variables
+
+Prompt variables leverage language models to extract and modify data using natural language. Prompt variables require [[Interpret web pages|Interpreter]] to be enabled and configured.
+
+- `{{"a summary of the page"}}` — the double quotes around the prompt are important, and used to distinguish from preset variables.
+- Prompt responses can be post-processed with [[filters]].
+
+Prompt variables have the benefit of being extremely flexible and easy to write, however they come with several tradeoffs: they are slower to run, and may have cost and privacy considerations depending on the provider you choose.
+
+If the data you want to extract is in a consistent format it is best to *not* use prompt variables. Unlike other variable types, prompt variables need to be processed by an external language model, so they are replaced only once [[Interpret web pages|Interpreter]] has run.
 
 ## Meta variables
 
