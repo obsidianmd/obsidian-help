@@ -19,7 +19,7 @@ Prompts use the [[Variables|variable]] syntax `{{"your prompt"}}`. You can use t
 - `{{"a summary of the page"}}` to extract a summary of the page.
 - `{{"a three bullet point summary, translated to French"}}` to extract bullet points about the page, and translate them to French.
 
-The output of your prompts can be further manipulated using [[Filters]]. Filters are processed after the prompt response is received from the model. For example: `{{"author"|wikilink}}` will turn the response into an internal link.
+The output of your prompts can be further manipulated using [[Filters]]. Filters are processed after the prompt response is received from the model. For example: `{{"a summary of the page"|blockquote}}` will turn the response into a blockquote.
 
 ## Get started
 
