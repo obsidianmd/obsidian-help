@@ -4,48 +4,41 @@ aliases:
   - Advanced topics/Using obsidian URI
   - Concepts/Obsidian URI
 ---
-Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note.
+Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note. Obsidian URI enables automation and cross-app workflows.
 
-It is commonly used on macOS and mobile apps for automation and cross-app workflows.
+## URI format
 
-Obsidian URIs are typically in this format:
+Obsidian URIs use the following format:
 
 ```
 obsidian://action?param1=value&param2=value
 ```
 
-The `action` parameter is the action that you would like to perform.
+The `action` parameter is the action that you would like to perform. Available actions include:
+
+- `open` to open a note.
+- `new` to create or add to an existing note.
+- `daily` to create or open your daily note.
+- `search` to open a search.
+
 
 > [!warning] Encoding
 > Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
 > 
  This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding).
 
-## Register Obsidian URI
+## Open note
 
-On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
-
-On Linux, it is a much more involved process:
-
-1. Ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
-2. Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-3. If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
-
-## Open notes
-
-Opens an Obsidian vault, or open a file within that vault.
+The `open` action opens an Obsidian vault, or opens a file within that vault.
 
 ### Examples
 
 - `obsidian://open?vault=my%20vault`
   This opens the vault `my vault`. If the vault is already open, focus on the window.
-
 - `obsidian://open?vault=ef6ca3e3b524d22f`
   This opens the vault identified by the ID `ef6ca3e3b524d22f`.
-
 - `obsidian://open?vault=my%20vault&file=my%20note`
   This opens the note `my note.md` in the vault `my vault`, assuming the file exists.
-
 - `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
   This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
 
@@ -64,29 +57,10 @@ Opens an Obsidian vault, or open a file within that vault.
 - `clipboard` allows the use of the contents of the clipboard instead of specifying `content`.
 - `prepend` will add to the top of the file and attempt to merge properties.
 - `append` will add to the end of the file and also attempt to merge properties.
-- `daily` creates a new Obsidian URI action that will automatically open or create your daily note. Requires the [[Daily notes]] plugin to be active.
-
-
-## Open search
-
-This Obsidian URI endpoint opens [[Search]] in the specified vault, and optionally perform a search term.
-
-### Examples
-
-- `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens [[Search]].
-
-- `obsidian://search?vault=my%20vault&query=Obsidian`
-  This opens the vault `my vault`, opens [[Search]], and performs a search for `Obsidian`.
-
-### Parameters
-
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `query` (optional) The search term to perform.
 
 ## Create note
 
-This URI endpoint creates a new note in the vault, optionally with some content.
+The `new` action, creates a new note in the vault, optionally with some content.
 
 ### Examples
 
@@ -107,9 +81,38 @@ This URI endpoint creates a new note in the vault, optionally with some content.
 - `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
 - `x-success` (optional) see [[#Use x-callback-url parameters]].
 
+## Create or open daily note
+
+The `daily` action creates or opens your daily note. The [[Daily notes]] plugin must be enabled.
+
+### Examples
+
+- `obsidian://daily?vault=my%20vault`
+  This opens the vault `my vault`, and creates or opens the daily note.
+
+### Parameters
+
+The `daily` action accepts the same parameters as the `new` action.
+
+## Open search
+
+The `search` action opens [[Search]] in the specified vault, and optionally perform a search term.
+
+### Examples
+
+- `obsidian://search?vault=my%20vault`
+  This opens the vault `my vault`, and opens [[Search]].
+- `obsidian://search?vault=my%20vault&query=Obsidian`
+  This opens the vault `my vault`, opens [[Search]], and performs a search for `Obsidian`.
+
+### Parameters
+
+- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
+- `query` (optional) The search term to perform.
+
 ## Integrate with Hook
 
-This Obsidian URI endpoint is to be used with [Hook](https://hookproductivity.com/). 
+This Obsidian URI action is to be used with [Hook](https://hookproductivity.com/). 
 
 ### Example
 
@@ -140,6 +143,16 @@ In addition to the formats above, there are two more "shorthand" formats availab
 
 1. `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`.
 2. `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
+
+## Register Obsidian URI
+
+On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
+
+On Linux, it is a much more involved process:
+
+1. Ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
+2. Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
+3. If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
 
 
 [^1]: Vault ID is the random 16-character code assigned to the vault, for example `ef6ca3e3b524d22f`. This ID is unique per folder on your computer. The ID can be found by opening the vault switcher and clicking "Copy vault ID" in the context menu for the desired vault.
