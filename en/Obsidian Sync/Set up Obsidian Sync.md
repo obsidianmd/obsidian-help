@@ -39,8 +39,8 @@ In this section, you'll create a new [[Local and remote vaults|remote vault]] an
 ### Enable Obsidian Sync
 
 1. Open **Settings**.
-2. In the sidebar, select **Core plugins**.
-3. Enable **Sync**.
+2. In the sidebar under **Options**, select **Core Plugins**.
+3. Toggle **Sync**.
 
 ### Create a new remote vault
 
