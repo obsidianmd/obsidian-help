@@ -9,7 +9,8 @@ Obsidian supports the following file types:
 - **Video**: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`  
 - **PDF**: `.pdf`  
 
-### Embedding Files
+### Embedding files
+
 Some file types can be embedded directly into your notes. See [[Embed files]] for details.  
 
 > [!NOTE]

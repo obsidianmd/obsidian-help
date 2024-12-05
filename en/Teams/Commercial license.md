@@ -1,6 +1,7 @@
 ---
 aliases:
   - Licenses & Payment/Commercial license
+permalink: teams/license
 ---
 If you use Obsidian for work in a company with **two or more** employees, you must purchase a Commercial license. The details of licensing Obsidian can be found in our [terms of service](https://obsidian.md/terms).
 

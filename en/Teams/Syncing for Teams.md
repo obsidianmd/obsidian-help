@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - soft-embed
+permalink: teams/sync
 ---
 Obsidian is designed to work both online and offline and give you total control over your team's data. To share data across your team, you will need to choose a sync solution.
 

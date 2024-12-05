@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - soft-embed
+permalink: teams/publish
 ---
 Obsidian makes it easy to create and edit wikis, knowledge bases, documentation, and other types of websites. It can be used as an editing tool or CMS for both internal and external sites.
 

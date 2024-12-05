@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - soft-embed
+permalink: teams/deploy
 ---
 Obsidian runs as a local application on each of your team member's devices. It is designed to work both online and offline, securely and privately, and give you total control over your team's data. Obsidian is not available as a web-based application, therefore you will need to deploy the app to your team members.
 
