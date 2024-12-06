@@ -137,15 +137,16 @@ Converts strings, arrays, or objects into Markdown link syntax (not to be confus
 
 ### `list`
 
-Converts an array to a bullet list.
+Converts an array to a Markdown list.
 
+- Use `list` to convert to a bullet list.
 - Use `list:task` to convert to a task list.
 - Use `list:numbered` to convert to a numbered list.
 - Use `list:numbered-task` to convert to a task list with numbers.
 
 ### `table`
 
-Converts an array or array of objects into a Markdown table:
+Converts an array or array of objects into a [[Advanced formatting syntax#Tables|Markdown table]]:
 
 - For an array of objects, it uses the object keys as headers.
 - For an array of arrays, it creates a table with each nested array as a row.
@@ -267,17 +268,19 @@ Returns the last element of an array as a string.
 
 ### `map`
 
-Applies a transformation to each element of an array.
+Applies a transformation to each element of an array using the syntax `map:item => item.property` or `map:item => item.nested.property` for nested properties.
 
-- Syntax: `map:item => item.property` or `map:item => item.nested.property` for nested properties.
-	- Example: `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => item.gem` returns `["obsidian", "amethyst"]`.
-- Parentheses are needed for object literals and complex expressions: `map:item => ({key: value})`.
-	- Example: `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => ({name: item.gem, color: item.color})`  returns `[{name: "obsidian", color: "black"}, {name: "amethyst", color: "purple"}]`.
-- String literals are supported and automatically wrapped in an object with a `str` property:
-	- Example: `["rock", "pop"]|map:item => "genres/${item}"` returns `[{str: "genres/rock"}, {str: "genres/pop"}]`.
-	- The `str` property is used to store the result of string literal transformations.
-- Can be combined with `template` filter, e.g. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`
-- `object` manipulates object data:
+- `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => item.gem` returns `["obsidian", "amethyst"]`.
+- Use parentheses for object literals and complex expressions: `map:item => ({key: value})`, e.g.: `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => ({name: item.gem, color: item.color})`  returns `[{name: "obsidian", color: "black"}, {name: "amethyst", color: "purple"}]`.
+
+String literals are supported and automatically wrapped in an object with a `str` property. The `str` property is used to store the result of string literal transformations, e.g. `["rock", "pop"]|map:item => "genres/${item}"` returns `[{str: "genres/rock"}, {str: "genres/pop"}]`.
+
+Combine `map` with the `template` filter, e.g. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`.
+
+### `object`
+
+Manipulates object data:
+
 - `object:array` converts an object to an array of key-value pairs.
 - `object:keys` returns an array of the object's keys.
 - `object:values` returns an array of the object's values.
@@ -305,12 +308,22 @@ Divides a string into an array of substrings.
 
 ### `template`
 
-Applies a template string to an object or array of objects.
+Applies a template string to an object or array of objects, using the syntax `object|template:"Template with ${variable}"`.
 
-- Syntax: `object|template:"Template with ${variable}"`.
 - Access nested properties: `{"gem":{"name":"Obsidian"}}|template:"${gem.name}"` returns `"Obsidian"`.
 - For objects: `{"gem":"obsidian","hardness":5}|template:"${gem} has a hardness of ${hardness}"` returns `"obsidian has a hardness of 5"`.
 - For arrays: `[{"gem":"obsidian","hardness":5},{"gem":"amethyst","hardness":7}]|template:"- ${gem} has a hardness of ${hardness}\n"` returns a formatted list.
-- Works with string literals from `map` by accessing the `str` property:
-	- Example: `["rock", "pop"]|map:item => "genres/${item}"|template:"${str}"` returns `"genres/rock\ngenres/pop"`.
-	- The `str` property is automatically used when applying `template` to objects created by `map` with string literals.
+
+Works with string literals from `map` by accessing the `str` property:
+
+- Example: `["rock", "pop"]|map:item => "genres/${item}"|template:"${str}"` returns `"genres/rock\ngenres/pop"`.
+- The `str` property is automatically used when applying `template` to objects created by `map` with string literals.
+
+### `unique`
+
+Removes duplicate values from arrays and objects.
+
+- For arrays of primitives: `[1,2,2,3,3]|unique` returns `[1,2,3]`.
+- For arrays of objects: `[{"a":1},{"b":2},{"a":1}]|unique` returns `[{"a":1},{"b":2}]`.
+- For objects it removes properties with duplicate values, keeping the last occurrence's key.
+- For strings it returns the input unchanged.
