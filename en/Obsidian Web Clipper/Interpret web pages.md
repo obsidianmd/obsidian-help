@@ -82,7 +82,7 @@ When adding a custom provider, we recommend that you use their chat completions 
 
 ### Local models
 
-Interpreter can be use local models which offer greater privacy and offline compatibility. Several options for running local models exist. One of the easiest to configure is Ollama.
+Interpreter can use local models which offer greater privacy and offline compatibility. Several options for running local models exist. One of the easiest to configure is Ollama.
 
 #### Ollama
 
