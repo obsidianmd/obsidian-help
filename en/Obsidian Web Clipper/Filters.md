@@ -112,7 +112,11 @@ Creates a [[Callouts|callout]] with optional parameters: `{{variable|callout:("t
 - `type` is the callout type, and defaults to "info"
 - `title` is the callout title, and defaults to empty
 - `foldState` is a boolean to set the fold state (true for folded, false for unfolded, null for not foldable)
-- `footnote` converts an array or object into a list of Markdown footnotes.
+
+### `footnote`
+
+Converts an array or object into a list of Markdown footnotes.
+
 - For arrays: `["first item","second item"]|footnote` returns: `[^1]: first item` etc.
 - For objects: `{"First Note": "Content 1", "Second Note": "Content 2"}|footnote` returns: `[^first-note]: Content 1` etc.
 
@@ -121,8 +125,12 @@ Creates a [[Callouts|callout]] with optional parameters: `{{variable|callout:("t
 Converts strings and arrays into [text fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments) links. Defaults to "link" for the link text.
 
 - `highlights|fragment` returns `Highlight content [link](text-fragment-url)`
-- `highlights|fragment:"custom title"` returns `Highlight content [custom title](text-fragment-url)`
-- `image` converts strings, arrays, or objects into Markdown image syntax.
+- `highlights|fragment:"custom title"` returns `Highlight content [custom title](text-fragment-url)
+
+### `image` 
+
+Converts strings, arrays, or objects into Markdown image syntax.
+
 - For strings: `"image.jpg"|image:"alt text"` returns `![alt text](image.jpg)`.
 - For arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` returns an array of Markdown image strings with the same alt text for all images.
 - For objects: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returns Markdown image strings with alt text from the object keys.
