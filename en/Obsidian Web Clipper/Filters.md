@@ -24,6 +24,15 @@ Modifies a date by adding or subtracting a specified amount of time, [see refere
 - `"2024-12-01"|date_modify:"+1 year"` returns `"2025-12-01"`
 - `"2024-12-01"|date_modify:"- 2 months"` returns `"2024-10-01"`
 
+### `duration`
+
+Converts ISO 8601 duration strings or seconds into formatted time strings. Uses tokens: `HH` (padded hours), `H` (hours), `mm` (padded minutes), `m` (minutes), `ss` (padded seconds), `s` (seconds).
+
+- `"PT1H30M"|duration:"HH:mm:ss"` returns `"01:30:00"`.
+- `"3665"|duration:"H:mm:ss"` returns `"1:01:05"`.
+- Setting `duration` without any parameters uses `HH:mm:ss` over 1 hour, `mm:ss` under 1 hour.
+- Supports both ISO 8601 duration strings (e.g., `PT6702S`, `PT1H30M`) and plain seconds.
+
 ## Text conversion and capitalization
 
 Convert text strings from one format to another.
@@ -147,10 +156,10 @@ Converts strings, arrays, or objects into Markdown link syntax (not to be confus
 
 Converts an array to a Markdown list.
 
-- Use `list` to convert to a bullet list.
-- Use `list:task` to convert to a task list.
-- Use `list:numbered` to convert to a numbered list.
-- Use `list:numbered-task` to convert to a task list with numbers.
+- `list` to convert to a bullet list.
+- `list:task` to convert to a task list.
+- `list:numbered` to convert to a numbered list.
+- `list:numbered-task` to convert to a task list with numbers.
 
 ### `table`
 

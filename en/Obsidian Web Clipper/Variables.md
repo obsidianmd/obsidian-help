@@ -50,6 +50,7 @@ If the data you want to extract is in a consistent format it is best to *not* us
 Prompts can use any natural language query. Depending on the model you use, prompts can query or translate data across languages.
 
 - `{{"a three bullet point summary, translated to French"}}` to extract bullet points about the page, and translate them to French.
+- `{{"un resumé de la page en trois points"}}` to extract three bullet points using a prompt in French.
 
 Prompts can transform page content into JSON that can be manipulated with [[Filters|filters]]. For example:
 
