@@ -134,7 +134,7 @@ Converts an array or object into a list of Markdown footnotes.
 Converts strings and arrays into [text fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments) links. Defaults to "link" for the link text.
 
 - `highlights|fragment` returns `Highlight content [link](text-fragment-url)`
-- `highlights|fragment:"custom title"` returns `Highlight content [custom title](text-fragment-url)
+- `highlights|fragment:"custom title"` returns `Highlight content [custom title](text-fragment-url)`
 
 ### `image` 
 
@@ -258,7 +258,7 @@ Removes **all** Markdown formatting and returns a plain text string, e.g. turnin
 
 ### `strip_tags`
 
-Removes **all** HTML tags from a string. Unlike `remove_html` this doesn't remove the content within the tags.
+Removes **all** HTML tags from a string. Content within the tag is preserved.
 
 - Use `strip_tags:("p,strong,em")` to keep specific tags.
 - Example: `"<p>Hello <b>world</b>!</p>"|strip_tags:("b")` returns `Hello <b>world</b>!`.
