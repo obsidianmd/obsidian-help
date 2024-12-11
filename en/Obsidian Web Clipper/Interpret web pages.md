@@ -10,7 +10,9 @@ Interpreter is a [[Introduction to Obsidian Web Clipper|Web Clipper]] feature th
 - Convert text from one format to another.
 - Translate text to a different language.
 
-Interpreter leverages language models to process information on a web page, and return results as [[Variables]] that you can use within your [[Obsidian Web Clipper/Templates|Web Clipper Templates]].
+Interpreter leverages language models to process information on a web page, and return results using [[Variables]] that you can add to your [[Obsidian Web Clipper/Templates|Web Clipper Templates]].
+
+![[web-clipper-interpreter-demo.mp4#interface]]
 
 ## Examples of prompts
 
@@ -24,15 +26,15 @@ The output of your prompts can be further manipulated using [[Filters]]. Filters
 
 ## Get started
 
-Interpreter works with almost any language model, including models that run privately on your device. You can also use an API key from Anthropic or OpenAI to access built-in models from those providers.
+Interpreter works with almost any language model provider, including options that run privately on your device. To set up Interpreter:
 
 1. Go to the **Interpreter** section in Web Clipper settings.
 2. Toggle on **Enable Interpreter**.
-3. Configure your models, see [[Interpret web pages#Models|models]] section below.
+3. Configure your provider and model, see [[Interpret web pages#Models|models]] section below.
 4. Add [[Variables|prompt variables]] to your [[Obsidian Web Clipper/Templates|templates]].
 5. If your template includes prompt variables, the Interpreter section will be visible when you [[Clip web pages|clip a page]]. Click **interpret** to process the prompt variables.
 
-When you click the **interpret** button, Interpreter will send the page data to your selected model, along with any prompts in your template. The model will evaluate those prompts against the page data and update any prompt variables with the new data. This process can take anywhere from milliseconds to 30 seconds or more, depending on your model provider and the amount of data you are processing.
+When you click the **interpret** button, Interpreter will send the page data to your selected model, along with any prompts in your template. The model will evaluate those prompts against the page data and update any prompt variables with the new data. This process can take anywhere from milliseconds to 30 seconds or more depending on your model and the amount of data you are processing.
 
 ## Context
 
@@ -97,12 +99,12 @@ Once you have downloaded and installed Ollama, add Ollama using **Add provider**
 
 **Start the Ollama server**
 
-To allow a browser extension to interact with Ollama you must give it explicit instruction when running the server, or else you will see a `403` error. 
+To allow a browser extension to interact with Ollama you must [give it explicit instruction](https://github.com/ollama/ollama/issues/2308) when running the server, or else you will see a `403` error. 
 
-Close the Ollama app, and run the following command in your terminal. The `chrome-extension` protocol should be changed to your browser's extension protocol if you don't use Chrome.
+Close the Ollama app, and run the following command in your terminal. The protocol should be changed to your browser's extension protocol if you don't use Chrome or Firefox.
 
 ```
-OLLAMA_ORIGINS=chrome-extension://* ollama serve
+OLLAMA_ORIGINS=moz-extension://*,chrome-extension://* ollama serve
 ```
 
 Then run your model with Ollama the normal way, e.g.
