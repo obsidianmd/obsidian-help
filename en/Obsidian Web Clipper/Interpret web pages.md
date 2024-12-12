@@ -38,9 +38,9 @@ When you click the **interpret** button, Interpreter will send the page data to 
 
 ## Context
 
-Interpreter returns results faster if the page content is small. The term *context* refers to the page data that Interpreter uses. The smaller the context, the faster Interpreter runs. 
+The term *context* refers to the page data that Interpreter uses to process prompts. The smaller the context, the faster Interpreter runs. 
 
-By default, Interpreter uses the entire page content as its context, however this can make prompts slower and more expensive than necessary.
+By default, Interpreter uses the entire page HTML as its context, however this can make prompts slower and more expensive than necessary.
 
 You can override the default context in Interpreter **Advanced settings** and define context per [[Obsidian Web Clipper/Templates|template]].
 
