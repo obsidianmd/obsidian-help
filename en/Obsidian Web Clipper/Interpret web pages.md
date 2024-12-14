@@ -34,7 +34,13 @@ Interpreter works with almost any language model provider, including options tha
 4. Add [[Variables|prompt variables]] to your [[Obsidian Web Clipper/Templates|templates]].
 5. If your template includes prompt variables, the Interpreter section will be visible when you [[Clip web pages|clip a page]]. Click **interpret** to process the prompt variables.
 
-When you click the **interpret** button, Interpreter will send the page data to your selected model, along with any prompts in your template. The model will evaluate those prompts against the page data and update any prompt variables with the new data. This process can take anywhere from milliseconds to 30 seconds or more depending on your model and the amount of data you are processing.
+## How it works
+
+When Interpreter is enabled *and* your template contains prompt variables, a new Interpreter section is displayed in the extension window, above the **Add to Obsidian** button. This section allows you to select a model and run Interpreter for the current page.
+
+When you click **interpret**, Interpreter sends the page context to your selected model, along with *all* the prompts in your template in one request. Depending on the model provider you choose, this can be an external call or local to your device. The model evaluates your prompts against the page context, and returns its responses. Interpreter then replaces the prompt variables with the response data.
+
+The whole process can take milliseconds or more than 30 seconds depending on the model you use and the amount of data you are processing.
 
 ## Context
 
