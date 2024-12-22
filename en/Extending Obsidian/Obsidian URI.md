@@ -54,7 +54,6 @@ The `open` action opens an Obsidian vault, or opens a file within that vault.
   - Using this parameter will override both `vault` and `file`.
   - This will cause the app to search for the most specific vault which contains the specified file path.
   - Then the rest of the path replaces the `file` parameter.
-- `clipboard` allows the use of the contents of the clipboard instead of specifying `content`.
 - `prepend` will add to the top of the file and attempt to merge properties.
 - `append` will add to the end of the file and also attempt to merge properties.
 
@@ -76,6 +75,7 @@ The `new` action, creates a new note in the vault, optionally with some content.
 - `file` a vault absolute path, including the name. Will override `name` if specified.
 - `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
 - `content` (optional) the contents of the note.
+- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
 - `silent` (optional) include this parameter if you don't want to open the new note.
 - `append` (optional) include this parameter to append to an existing file if one exists.
 - `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
