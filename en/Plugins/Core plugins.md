@@ -62,6 +62,8 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Insert pre-defined content into your notes.
 - [[Unique note creator]]
 	- Create a unique note using a time-coded title.
+- [[Web viewer]]
+	- Open external links in Obsidian.
 - [[Word count]]
 	- Display the number of words and characters.
 - [[Workspaces]]
