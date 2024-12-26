@@ -110,7 +110,7 @@ To allow a browser extension to interact with Ollama you must [give it explicit 
 Close the Ollama app, and run the following command in your terminal. The protocol should be changed to your browser's extension protocol if you don't use Chrome or Firefox.
 
 ```
-OLLAMA_ORIGINS=moz-extension://*,chrome-extension://* ollama serve
+OLLAMA_ORIGINS=moz-extension://*,chrome-extension://*,safari-web-extension://* ollama serve
 ```
 
 Then run your model with Ollama the normal way, e.g.
