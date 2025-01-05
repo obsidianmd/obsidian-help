@@ -82,12 +82,15 @@ img {
   border-radius: 4px;
 }
 
+span.image-embed.is-loaded[src$="#interface"],
 span.video-embed[src$="#interface"] {
   box-shadow: 0 0.5px 0.9px rgba(0, 0, 0, 0.021), 0 1.3px 2.5px rgba(0, 0, 0, 0.03), 0 3px 6px rgba(0, 0, 0, 0.039), 0 10px 20px rgba(0, 0, 0, 0.06);
   margin: 2em 0;
   overflow: hidden;
   border-radius: var(--radius-m);
   position: relative;
+  display: block;
+  width: fit-content;
 }
 span[src$="#interface"]:before {
   position: absolute;
@@ -106,10 +109,8 @@ span[src$="#interface"] video {
 }
 span[src$="#interface"] img,
 img[src$="#interface"] {
-  border: 1px solid var(--background-modifier-border);
-  box-shadow: 0 0.5px 0.9px rgba(0, 0, 0, 0.021), 0 1.3px 2.5px rgba(0, 0, 0, 0.03), 0 3px 6px rgba(0, 0, 0, 0.039), 0 10px 20px rgba(0, 0, 0, 0.06);
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin: 0;
+  vertical-align: bottom;
   border-radius: var(--radius-m);
 }
 
