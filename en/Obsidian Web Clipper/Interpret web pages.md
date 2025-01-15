@@ -67,14 +67,16 @@ To define a more targeted context use [[Variables#Selector variables|selector va
 
 Interpreter includes several preset providers. To use these providers you need an API key which you can get by logging into your provider's account. You will also need to decide which model(s) to use.
 
-| Provider           | API&nbsp;key                                                | Models                                                                             | Base URL                                                                                                              |
-| ------------------ | -------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Anthropic          | [API&nbsp;key](https://console.anthropic.com/settings/keys) | [Models](https://docs.anthropic.com/en/docs/about-claude/models)                     | `https://api.anthropic.com/v1/messages`                                                                               |
-| Azure&nbsp;OpenAI  | [API&nbsp;key](https://oai.azure.com/portal/)               | [Models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) | `https://{resource-name}.openai.azure.com/openai/deployments/{deployment-id}/chat/completions?api-version=2024-10-21` |
-| Google&nbsp;Gemini | [API&nbsp;key](https://aistudio.google.com/apikey)          | [Models](https://ai.google.dev/gemini-api/docs/models/gemini)                        | `https://generativelanguage.googleapis.com/v1beta/chat/completions`                                                   |
-| Ollama             | n/a                                                | [Models](https://ollama.com/search)                                                  | `http://127.0.0.1:11434/api/chat`                                                                                     |
-| OpenAI             | [API&nbsp;key](https://platform.openai.com/api-keys)        | [Models](https://platform.openai.com/docs/models)                                    | `https://api.openai.com/v1/chat/completions`                                                                          |
-| OpenRouter         | [API&nbsp;key](https://openrouter.ai/settings/keys)         | [Models](https://openrouter.ai/models)                                               | `https://openrouter.ai/api/v1/chat/completions`                                                                       |
+| Provider           | API&nbsp;key                                                | Models                                                                               |
+| ------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Anthropic          | [API&nbsp;key](https://console.anthropic.com/settings/keys) | [Models](https://docs.anthropic.com/en/docs/about-claude/models)                     |
+| Azure&nbsp;OpenAI  | [API&nbsp;key](https://oai.azure.com/portal/)               | [Models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) |
+| DeepSeek           | [API key](https://platform.deepseek.com/api_keys)           | [Models](https://api-docs.deepseek.com/quick_start/pricing)                          |
+| Google&nbsp;Gemini | [API&nbsp;key](https://aistudio.google.com/apikey)          | [Models](https://ai.google.dev/gemini-api/docs/models/gemini)                        |
+| Hugging Face       | [API key](https://huggingface.co/settings/tokens)           | [Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)   |
+| Ollama             | n/a                                                         | [Models](https://ollama.com/search)                                                  |
+| OpenAI             | [API&nbsp;key](https://platform.openai.com/api-keys)        | [Models](https://platform.openai.com/docs/models)                                    |
+| OpenRouter         | [API&nbsp;key](https://openrouter.ai/settings/keys)         | [Models](https://openrouter.ai/models)                                               |
 
 ### Choosing a model
 
