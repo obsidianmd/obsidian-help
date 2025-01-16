@@ -14,7 +14,7 @@ When you [[Plans and storage limits#Create a new remote vault|create a remote va
 **Remote vault**  
 This section shows your currently connected remote vault. It includes a **Disconnect** button to disconnect from the remote vault and a **Manage** button to view all remote vaults your account has access to (including shared vaults via [[Collaborate on a shared vault|collaboration]]).
 
-> [!todo] If your remote vault is located in a third-party sync service, you will see a red error message. Follow the steps in [[Migrate to Obsidian Sync]] to resolve this.
+> [!todo] If your remote vault is located in a third-party sync service, you will see a red error message. Follow the steps in [[Switch to Obsidian Sync]] to resolve this.
 
 **Sync status**  
 Displays the current sync status of the remote vault. This section includes either a **Pause** or **Resume** button, depending on the status.

@@ -7,9 +7,7 @@ description: You've purchased Obsidian Sync and are ready to get started. This g
 publish: true
 mobile: true
 ---
-
-
-You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+You purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
 
 - **New to Obsidian Sync?** See: [[#Set up Obsidian Sync for the first time]]
 - **Connecting a second device?** See: [[#Sync a remote vault on another device]]
@@ -19,7 +17,7 @@ You've purchased Obsidian Sync and are ready to get started. This guide will hel
 
 In this section, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new, empty local vault to use Obsidian Sync for this purpose.
 
-> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|this]] and [[Migrate to Obsidian Sync]] before proceeding.
+> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|this]] and [[Switch to Obsidian Sync]] before proceeding.
 
 **Prerequisites**
 
@@ -170,22 +168,11 @@ If you're unsure where your current vault's region is, check out [[Obsidian Sync
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
-After selecting a location, it's crucial to be aware that the data center **cannot** be changed afterward. If you wish to relocate your data, the process involves recreating a remote vault and specifying the desired hosting location during the setup.
+After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Migrate a Sync vault|follow vault migration guide]].
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 
-#### Change your remote vault region
 
-To change your remote vault's region, you will need to perform the following steps in order. Please make a [[Back up your Obsidian files|backup]] of your data first.
-
-![[#Disconnect from a remote vault]]
-
-If you are on the [[Plans and storage limits|Standard Plan]], you will also need to [[#Delete a remote vault|delete your remote vault]] before proceeding.
-
-![[#Create a new remote vault]]
-![[#Connect to a remote vault]]
-
-Additionally, you can [[#Delete a remote vault|delete your old remote vault]] once you have confirmed transition to your new remote vault and its region. 
 
 ## Next steps
 

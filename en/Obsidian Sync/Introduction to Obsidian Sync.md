@@ -12,7 +12,7 @@ cssclasses:
 
 - [[Set up Obsidian Sync]]
 	- Set up Sync on all your devices.
-- [[Migrate to Obsidian Sync|Migrate to Obsidian Sync]]
+- [[Switch to Obsidian Sync|Switch to Obsidian Sync]]
 	- Prepare your Obsidian vault to use Sync.
 - [[Sync settings and selective syncing|Selective sync]]
 	- Configure which files and settings to sync.
@@ -36,7 +36,7 @@ cssclasses:
 
 ## Important
 
-If you are using Obsidian Sync alongside other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, please [[Back up your Obsidian files]] to prevent sync conflicts. We strongly recommend [[Migrate to Obsidian Sync|fully migrating to Obsidian Sync]].
+If you are using Obsidian Sync alongside other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, please [[Back up your Obsidian files]] to prevent sync conflicts. We strongly recommend [[Switch to Obsidian Sync|fully migrating to Obsidian Sync]].
 
 See [[Sync limitations]] for frequently asked questions, and more details about Obsidian Sync.
 

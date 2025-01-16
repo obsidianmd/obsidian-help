@@ -3,7 +3,6 @@ aliases:
   - Security/privacy for Obsidian Sync
   - Access control for Obsidian Sync
 ---
-
 ## Encryption
 
 For your safety, [[Introduction to Obsidian Sync|Obsidian Sync]] encrypts your [[Local and remote vaults|remote vault]] and all communication with Obsidian's servers.
@@ -69,7 +68,7 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provide geo-regional remote vault hosting options in the following locations:
 
 > [!abstract] Sync geo-regions
-> **Automatic**: Your data center is chosen based off your IP location.
+> **Automatic**: Your data center is chosen based on your IP location.
 > 
 > **Asia**: Singapore
 > **Europe**: Frankfurt, Germany

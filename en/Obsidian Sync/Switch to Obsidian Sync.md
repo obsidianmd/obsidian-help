@@ -1,13 +1,14 @@
 ---
 aliases:
   - Obsidian Sync/Obsidian Sync and third-party services
+  - Obsidian Sync/Migrate to Obsidian Sync
 cssclasses:
   - soft-embed
 description: Learn how to transition from your current syncing solution to Obsidian Sync.
 publish: true
+permalink: sync/switch
 ---
-
-Obsidian, including Obsidian Sync, reads directly from the local filesystem as part of its local-first approach. This means the [data is fully yours](https://obsidian.md/about), giving you complete control. However, problems can arise when using third-party syncing services like iCloud or OneDrive. If a file is removed from your local filesystem by these services (e.g., it is moved back to the cloud), Obsidian Sync will see this as a deletion and remove it from the remote vault. This is why we [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|strongly recommend]] avoiding the use of Obsidian Sync with another syncing service.
+Obsidian, including Obsidian Sync, reads directly from the local file system as part of its local-first approach. This means the [data is fully yours](https://obsidian.md/about), giving you complete control. However, problems can arise when using third-party syncing services like iCloud or OneDrive. If a file is removed from your local filesystem by these services (e.g., it is moved back to the cloud), Obsidian Sync will see this as a deletion and remove it from the remote vault. This is why we [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|strongly recommend]] avoiding the use of Obsidian Sync with another syncing service.
 
 However, third-party syncing services can play a role in your [[Back up your Obsidian files|backup]] strategy.
 
