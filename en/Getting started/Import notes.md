@@ -21,6 +21,8 @@ Apps come and go, but your data should last. Obsidian uses non-proprietary plain
 - <span class="icon-app icon-html"></span> [[Import HTML files|HTML files]]
 - <span class="icon-app icon-md"></span> [[Import Zettelkasten notes|Zettelkasten notes]]
 - <span class="icon-app icon-md"></span> [[Import Markdown files|Markdown files]]
+- <span class="icon-app icon-md"></span> [[Import Textbundle files|Texbundle files]]
+
 
 ## More formats
 
