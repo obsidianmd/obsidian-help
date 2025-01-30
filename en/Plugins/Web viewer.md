@@ -7,7 +7,7 @@ Web viewer lets you open external links within Obsidian. This simplifies reading
 External links open as a [[Tabs|tab]] which you can rearrange, split, and open in a [[pop-out windows|pop-out window]]. Any web page cards embedded in [[canvas]] files can be opened as web viewer tabs.
 
 > [!note]
-> Web viewer is available in [[Early access versions|early access]] Obsidian 1.8.0 for desktop only. Web viewer is not available in mobile versions of the app due to OS restrictions.
+> Web viewer requires Obsidian 1.8 and is available for desktop only. Web viewer is not available in mobile versions of the app due to OS restrictions.
 
 ## Reader view
 
