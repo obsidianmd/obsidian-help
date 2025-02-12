@@ -50,7 +50,7 @@ On mobile devices, Obsidian operates in a sandboxed environment, meaning you can
 
 Android filesystems vary greatly by device, but generally, follow the same steps as you would to move your vault manually, ensuring it is removed from any syncing service on your device.
 
-#### iOS/iPadOS
+#### iOS and iPadOS
 
 To move an existing iCloud vault to your device, follow these steps:
 

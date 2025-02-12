@@ -44,8 +44,6 @@ Obsidian [[Sync limitations#Does Obsidian Sync live-reload my settings?|does not
 
 This issue is most commonly seen on Windows, where Windows Defender may quarantine files with code blocks, causing certain notes to disappear.
 
----
-
 Another frequent cause is double-syncing, where Obsidian Sync is running alongside another syncing service.
 
 ![[Switch to Obsidian Sync#Moving your vault out of a third-party syncing service]]
