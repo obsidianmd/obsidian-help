@@ -7,7 +7,7 @@ cssclasses:
   - soft-embed
 ---
 
-We offer full refunds within 7 days of purchase with no questions asked for the following services:
+We offer full refunds within 7 days of purchase with no questions asked for the following services and licenses:
 
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
