@@ -105,6 +105,7 @@ Prefer *sentence case* over *title case* for headings, buttons, and titles. When
 **Not recommended:**
 
 - How Obsidian Stores Data
+
 ### Examples
 
 Prefer realistic examples over nonsense terms.
@@ -222,7 +223,6 @@ The icon anchor tag ensures correct vertical alignment for icons used to indicat
 
 The first menu icon uses the anchor tag ( ![[lucide-menu.svg#icon]] ), while the second menu icon ( ![[lucide-menu.svg]] ) does not.
 
-
 **Interface**
 
 `![[Vault picker.png#interface]]`
@@ -253,7 +253,6 @@ Images slow the loading time of the page, and take valuable [[Introduction to Ob
 
 Both images and icons should be optimized.
 
-
 > [!success] Tools for optimizing images
 > Here are a some recommended programs for reducing the size of your images.
 > - **Windows:** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
@@ -261,6 +260,29 @@ Both images and icons should be optimized.
 > - **Linux/Unix** [Trimage](https://trimage.org)
 > 
 > We recommend an optimization rate of 65-75%.
+
+## Layout
+
+### Broken links
+
+Before submitting your Pull Request, please check for any broken links in the documentation of the translation you are working on and correct them. Broken links can occur naturally over time, so verifying their accuracy helps maintain the quality of the documentation.
+
+You can check for broken links using [[Community plugins]] or tools available in your IDE.
+
+### Descriptions
+
+This documentation is edited on GitHub and hosted online via [[Introduction to Obsidian Publish|Obsidian Publish]], which includes [[Social media link previews#Description|descriptions]] for social cards and other [[SEO]] elements.
+
+If the page you are working on does not have a `description` [[Properties|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page’s content.
+
+**Good**: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
+**Could be tweaked**: Learn how to create templates that automatically capture and organize metadata from web pages with Web Clipper.
+
+### Directions
+
+When writing or rewriting [[#Instructions]] on how to perform an action within the app, be sure to include steps for both the mobile and desktop versions.
+
+If you do not have access to a mobile or desktop device, please mention this when submitting your Pull Request.
 
 ## Translations
 

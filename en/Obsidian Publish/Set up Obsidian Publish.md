@@ -98,7 +98,7 @@ The **Publish changes** menu will appear as a slide-up.
 3. Choose the notes you want to publish.
 4. Select **Publish**.
 
-> [!abstract] **Further reading**: [[Publish and unpublish notes]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
+> [!abstract] **Further reading**: [[Publish your content]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
 
 You've configured an Obsidian Publish site and published your first notes. Head over to the site address you configured earlier in this guide, and start sharing it with your readers.
 
