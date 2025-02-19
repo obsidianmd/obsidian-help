@@ -36,7 +36,6 @@ Your PO must include:
 - Delivery Email for Licenses
 - Invoice Email for POs
 - **Preferred Payment Method**: Wire/ACH, Credit Card, or PayPal
-- Do you consent to being added to our [Enterprise page](http://obsidian.md/enterprise)?
 
 > [!info] Purchasing a commercial license does not include [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish), or a [Catalyst license](https://obsidian.md/account/catalyst).
 
@@ -51,8 +50,7 @@ To optionally apply a commercial license to your Obsidian installation:
 
 ## Opting out of the sponsorship board
 
-If your company wishes to opt out of our [Enterprise page](http://obsidian.md/enterprise), please [[Help and support#Contact Obsidian support|contact Obsidian support]].
-
+If your company wants to opt out of being listed on our [Enterprise page](http://obsidian.md/enterprise), please [[Help and support#Contact Obsidian support|contact Obsidian support]].
 ## Frequently asked questions
 
 **Can I buy a license for myself, or do I have to ask my company to buy it for me?**
