@@ -1,7 +1,7 @@
 ---
 permalink: sales-tax
 ---
-In some jurisdictions, Obsidian is required to collect sales taxes on behalf of customers purchasing software licenses and services. Sales taxes may apply to [[Commercial license|Commercial licenses]], [[Introduction to Obsidian Sync|Obsidian Sync]], and [[Introduction to Obsidian Publish|Obsidian Publish]]. Sales taxes generally do not apply to [[Obsidian Credit]] and [[Catalyst license|Catalyst]].
+In some jurisdictions, Obsidian is required to collect sales taxes on behalf of customers purchasing software licenses and services. Sales taxes may apply to [[Commercial license|Commercial licenses]], [[Introduction to Obsidian Sync|Obsidian Sync]], and [[Introduction to Obsidian Publish|Obsidian Publish]]. Sales taxes generally do not apply to [[Obsidian Credit]] and [[Catalyst license|Catalyst]] though exceptions do apply.
 
 To determine the taxes applied to your purchase, we use the country and postal code you provide at checkout or in the Billing section of your dashboard. This information is stored on your account so that we can accurately charge sales tax if there is a change in tax law or other requirements that obligate us to do so.
 

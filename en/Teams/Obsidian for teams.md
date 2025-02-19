@@ -6,12 +6,13 @@ cssclasses:
   - list-cards-mobile-full
 permalink: teams
 ---
+
 Obsidian can be used as a note-taking application for individuals, and as a collaboration tool for your team.
 
 ## Use Obsidian with your team
 
 - [[Commercial license]]
-	- How to purchase licenses, and what qualifies as commercial use.
+	- Sponsor Obsidian by purchasing a commercial license.
 - [[Deploy Obsidian across your team|Deploy Obsidian]]
 	- How to install, update, and customize Obsidian across your team.
 - [[Syncing for teams]]
