@@ -85,14 +85,14 @@ Note that this also includes files with multiple periods `.` in their name on An
 
 These are messages related to a change in your subscription or account. 
 
-**Vault limit exceeded**  
+**Vault limit exceeded** 
 Your account has exceeded the [[Sync limitations#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
 
 To reduce vault size:
 1. Open **Settings → Sync**.
 2. Use the options under **Vault size over limit** to remove large files.
 
-**Vault not found**  
+**Vault not found** 
 `{"res":"err","msg":"Vault not found."}`
 
 This error may occur in these cases:
@@ -102,3 +102,15 @@ This error may occur in these cases:
 3. The subscription was canceled or refunded, resulting in the remote vault's deletion.
  
 In these cases, you'll need to [[Set up Obsidian Sync#Disconnect from a remote vault|disconnect from the remote vault]] and [[Set up Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring your local data is preserved.
+
+### Network messages
+
+**Disconnected from server**
+`Unable to connect to server`
+
+Obsidian Sync has disconnected from the Sync server for an unknown reason. Sync will attempt to reconnect to the server periodically.
+
+On iOS, this message displays as the following error:
+`Null is not an object (evaluating 'this.socket.send')`
+
+It means exactly the same as the `Unable to connect to server` message, and is not in any way indication that something else is wrong. 
