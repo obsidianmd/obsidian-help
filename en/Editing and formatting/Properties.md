@@ -240,7 +240,7 @@ The following properties can be used with [[Introduction to Obsidian Publish|Obs
 
 | Property      | Description                                                                                                       |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publish and unpublish notes#Automatically select notes to publish\|Automatically select notes to publish]]. |
+| `publish`     | See [[Publish your content#Automatically select notes to publish\|Automatically select notes to publish]]. |
 | `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
 | `description` | See [[Social media link previews#Description\|Description]].                                                      |
 | `image`       | See [[Social media link previews#Image\|Image]].                                                                  |
