@@ -10,7 +10,7 @@ Commercial licenses **are not** eligible for a refund per our [[Refund policy]].
 
 ## Purchase a commercial license
 
-Obsidian offers two methods for purchasing a commercial license, which is priced at $50 USD per seat. 
+Obsidian offers two methods for [purchasing](https://obsidian.md/pricing) a commercial license.
 
 **Purchasing using an Obsidian account**
 
@@ -36,13 +36,13 @@ Your PO must include:
 - Delivery Email for Licenses
 - Invoice Email for POs
 - **Preferred Payment Method**: Wire/ACH, Credit Card, or PayPal
-- Do you consent to being added to our [Sponsorship page](http://obsidian.md/enterprise)?
+- Do you consent to being added to our [Enterprise page](http://obsidian.md/enterprise)?
 
 > [!info] Purchasing a commercial license does not include [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish), or a [Catalyst license](https://obsidian.md/account/catalyst).
 
 ### Apply a commercial license
 
-To optionally apply a commercial license to your Obsidian installation
+To optionally apply a commercial license to your Obsidian installation:
 
 1. Open the Obsidian app.
 2. Go to **Settings → General → Commercial license**.
@@ -51,7 +51,7 @@ To optionally apply a commercial license to your Obsidian installation
 
 ## Opting out of the sponsorship board
 
-If your company wishes to opt out of our [Sponsorship page](http://obsidian.md/enterprise), please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+If your company wishes to opt out of our [Enterprise page](http://obsidian.md/enterprise), please [[Help and support#Contact Obsidian support|contact Obsidian support]].
 
 ## Frequently asked questions
 
