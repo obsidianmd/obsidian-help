@@ -65,6 +65,6 @@ With thousands of plugins and themes, you can shape Obsidian to fit your way of 
 
 If you find any mistakes or missing information on this site, you can contribute improvements and translations via [the GitHub repo](https://github.com/obsidianmd/obsidian-docs/).
 
-If you want to support Obsidian financially, consider a [[Catalyst license]], which offers early access to beta versions of Obsidian.
+If you want to contribute to Obsidian financially, consider a [[Catalyst license]] which offers early access to beta versions, or a [[Commercial license]] to show your organization's support.
 
 See the [[Credits]] to get to know all the amazing people who make Obsidian possible.
