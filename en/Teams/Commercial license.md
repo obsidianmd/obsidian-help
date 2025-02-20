@@ -54,6 +54,8 @@ To optionally apply a commercial license to your Obsidian installation follow th
 
 If your organization has purchased at least 25 commercial license, you can request to be featured as a [supporting organization](https://obsidian.md/enterprise/). If you would like your organization to be added or removed from the page, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
 
+Your logo should be provided as an SVG file, filling a 32 by 32 pixel square, and using only white, with no background color.
+
 ## Frequently asked questions
 
 **Can I buy a license for myself, or do I have to ask my company to buy it for me?**
