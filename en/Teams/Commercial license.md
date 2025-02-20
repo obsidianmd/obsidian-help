@@ -4,7 +4,9 @@ aliases:
   - Commercial licenses
 permalink: teams/license
 ---
-Obsidian is free to use and is 100% user-supported. Individuals can support us by purchasing [[Introduction to Obsidian Sync|Obsidian Sync]], [[Introduction to Obsidian Publish|Obsidian Publish]], and a [[Catalyst license]]. Commercial and enterprise teams can also choose to support us by purchasing Commercial licenses. 
+Obsidian is free to use and is 100% user-supported. Organizations can choose to support Obsidian by purchasing Commercial licenses.
+
+Organizations that support Obsidian can be featured on our [Enterprise page](https://obsidian.md/enterprise/) by purchasing 25 or more licenses.
 
 Commercial licenses **are not** eligible for a refund per our [[Refund policy]].
 
@@ -39,18 +41,19 @@ Your PO must include:
 
 > [!info] Purchasing a commercial license does not include [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish), or a [Catalyst license](https://obsidian.md/account/catalyst).
 
-### Apply a commercial license
+## Apply a commercial license
 
-To optionally apply a commercial license to your Obsidian installation:
+To optionally apply a commercial license to your Obsidian installation follow the steps below. Note that applying a commercial license does not provide any functional benefits within the app.
 
 1. Open the Obsidian app.
 2. Go to **Settings → General → Commercial license**.
 3. Click **Activate** and enter your license key.
 4. You're done! The app is now licensed for commercial use.
 
-## Opting out of the sponsorship board
+## Supporting organizations
 
-If your company wants to opt out of being listed on our [Enterprise page](http://obsidian.md/enterprise), please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+If your organization has purchased at least 25 commercial license, you can request to be featured as a [supporting organization](https://obsidian.md/enterprise/). If you would like your organization to be added or removed from the page, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+
 ## Frequently asked questions
 
 **Can I buy a license for myself, or do I have to ask my company to buy it for me?**

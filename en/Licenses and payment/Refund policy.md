@@ -6,7 +6,6 @@ aliases:
 cssclasses:
   - soft-embed
 ---
-
 We offer full refunds within 7 days of purchase with no questions asked for the following services:
 
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
@@ -33,11 +32,9 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 ## Frequently asked questions
 
 **What happens if I refund my service?**
-
 Refunding an Obsidian Sync or Obsidian Publish subscription results in the deletion of any remote vaults or publish sites, which cannot be retrieved even if you subscribe again. However, your local data on your devices will remain unaffected.
 
 **What if I miss a payment and my subscription expires? Will I lose my remote vault data?**
-
 No, your data is retained in such cases for 30 days. If you do not resubscribe within that period, your remote vault or publish site data will be deleted. Your local data will remain unaffected.
 
 **If I qualify for a discount but have paid for my subscription in the past 7 days, what should I do?**

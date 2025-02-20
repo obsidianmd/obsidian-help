@@ -9,15 +9,14 @@ Obsidian currently offers five items available for purchase to augment your Obsi
 	- Sync notes across devices
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
 	- Publish notes to the web
-- [[Commercial license]]
-	- Use Obsidian in your workplace
 - [[Obsidian Credit]]
 	- Purchase and Gift Obsidian services
+- [[Commercial license]]
+	- Support Obsidian and become a featured organization
 - [[Catalyst license]]
-	- Support development and gain early access to releases
+	- Support Obsidian and get early access versions
 
-
-[[Education and non-profit discount|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. You can view our return policy for these purchases in our [[Refund policy|refund policy]].
+[[Education and non-profit discount|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Refund policy]] for more information.
 
 ## Purchasing services
 

@@ -2,8 +2,7 @@
 aliases:
 - Licenses & Payment/Catalyst license
 ---
-
-Obsidian is free to use. You can support the Obsidian development by purchasing a _Catalyst_ license.
+Obsidian is free to use. You can support Obsidian development by purchasing a _Catalyst_ license.
 
 Catalyst license gives you exclusive benefits including:
 
