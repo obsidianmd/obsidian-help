@@ -65,12 +65,16 @@ You can change how properties are displayed in your note by going to  **Settings
 - **Hidden** — hides properties, can still be displayed in the sidebar via [[Properties view]].
 - **Source** — displays properties in plain text YAML format.
 
+### CSS snippets
+
+You can change the appearance of one or several notes of your choosing with [[CSS snippets]]
+
 ### Not supported
 
 A few features are not supported in Obsidian:
 
-- **Nested properties** — to view nested properties we recommend using the Source display.
-- **Bulk editing properties** — this can be achieved with community-made tools such as Python scripts.
+- **Nested properties** — to view nested properties, we recommend using the Source display.
+- **Bulk-editing properties** — this can be achieved with bulk-editing tools like VSCode, scripts and community plugins.
 - **Markdown in properties** — this is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
 
 ## Hotkeys
@@ -124,7 +128,7 @@ When a property is focused
 
 ## Property format
 
-Properties are stored in [YAML](https://yaml.org/)  format at the top of the file. YAML is a widely used format that's readable by both humans and machines.
+Properties are stored in [YAML](https://yaml.org/)  format at the top of the file. YAML is a widely-used format that's readable by both humans and machines.
 
 Property names are separated from their values by a colon followed by a space:
 
