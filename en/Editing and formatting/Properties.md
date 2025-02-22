@@ -67,7 +67,7 @@ You can change how properties are displayed in your note by going to  **Settings
 
 ### CSS snippets
 
-You can change the appearance of one or several notes of your choosing with [[CSS snippets]]
+You can use [[CSS snippets]] to change the appearance of specific notes.
 
 ### Not supported
 
