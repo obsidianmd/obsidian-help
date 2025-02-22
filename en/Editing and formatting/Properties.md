@@ -74,7 +74,7 @@ You can change the appearance of one or several notes of your choosing with [[CS
 A few features are not supported in Obsidian:
 
 - **Nested properties** — to view nested properties, we recommend using the Source display.
-- **Bulk-editing properties** — this can be achieved with bulk-editing tools like VSCode, scripts and community plugins.
+- **Bulk-editing properties** — this can be achieved with bulk-editing tools like VSCode, scripts, and community plugins.
 - **Markdown in properties** — this is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
 
 ## Hotkeys
