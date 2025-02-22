@@ -142,7 +142,7 @@ Apache License 2.0
 
 ### Mermaid
 
-Version `11.4.1`
+Version `10.6.1`
 MIT License
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
