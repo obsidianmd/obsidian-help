@@ -1,7 +1,11 @@
 ---
 aliases:
   - Obsidian Style Guide
+description: This page explains the style guide for writing our support documentation.
+publish: true
+mobile: true
 ---
+
 The Obsidian documentation uses the [Google developer documentation style guide](https://developers.google.com/style). For any topics not covered by the Google style guide, use the [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/).
 
 This page lists any deviations from the Google style guide, or terminology worth highlighting.
@@ -11,11 +15,15 @@ This page lists any deviations from the Google style guide, or terminology worth
 
 ## Terminology and grammar
 
+## Language style
+
+For our English documentation, it is recommended to use [Global English](https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html) to better serve our worldwide audience.
+
 ### Terms
 
 - Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
 - Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
-- Prefer "sync" or "syncing" over "synchronize" or "synchronizing".
+- Prefer "sync" or "syncing" over "synchronise" or "synchronising".
 - Prefer "search term" over "search query".
 - Prefer "heading" over "header" when referring to a text that introduces a section.
 - Prefer "maximum" over "max" and "minimum" over "min".
