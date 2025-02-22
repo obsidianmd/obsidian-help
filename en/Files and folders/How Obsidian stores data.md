@@ -1,5 +1,9 @@
 ---
 aliases: Advanced topics/How Obsidian stores data
+description: This page explains how Obsidian stores its data on your device.
+mobile: false
+permalink: 
+publish: true
 ---
 
 Obsidian stores your notes as [[Basic formatting syntax|Markdown-formatted]] plain text files in a _vault_. A vault is a folder on your local file system, including any subfolders.
@@ -23,7 +27,7 @@ By default, most operating systems hide folders that start with a period (`.`), 
 - **Windows**: [Show hidden files](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)
 
 > [!tip] Adding `.obsidian` to Git
-> The `.obsidian/workspace` file stores the current workspace layout, and changes any time you open a new file. If you use [Git](https://git-scm.com) to version control your vault, you may want to add the `.obsidian/workspace` file to `.gitignore`.
+> The `.obsidian/workspace.json` and `.obsidian/workspaces.json` files store the current workspace layout and update whenever you open a new file. If you use [Git](https://git-scm.com) to manage your vault, you might want to add these files to `.gitignore`.
 
 ## Global settings
 
