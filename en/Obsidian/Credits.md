@@ -199,6 +199,7 @@ Copyright JS Foundation and other contributors
 
 ### YAML
 
+Version `2.7.0`
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>
 
