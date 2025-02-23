@@ -162,6 +162,7 @@ Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
 ### Prism
 
+Version `1.29.0`
 MIT License
 Copyright (c) 2012 Lea Verou
 
