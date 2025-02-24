@@ -4,6 +4,10 @@ aliases:
   - remote vaults
   - remote vault
   - local vault
+description: This page describes the differences between local and remote vaults.
+mobile: true
+permalink: sync/vault-types
+publish: true
 ---
 Obsidian saves your notes in a **local vault** on your computer or device. A local vault is simply a folder that holds your notes.
 

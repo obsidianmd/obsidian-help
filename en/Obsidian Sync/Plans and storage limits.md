@@ -3,7 +3,12 @@ aliases:
   - Obsidian Sync/Remote vault size limit
   - storage limits
   - Obsidian Sync/Storage limits
+description: Learn about the different plan options we have available for Obsidian Sync.
+mobile: true
+permalink: sync/plans
+publish: true
 ---
+
 ## Plans
 
 To sync your notes with [[Introduction to Obsidian Sync|Obsidian Sync]] you need a subscription plan. You can purchase a Sync plan by logging into [your account](https://obsidian.md/account/sync). See the [Sync landing page](https://obsidian.md/sync) for pricing.
@@ -21,7 +26,7 @@ Below is a comparison between the Standard plan and Plus plan:
 
 ## Storage limits
 
-The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via [your account dashboard](https://obsidian.md/account/sync). See [[Sync limitations]] for more details.
+The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via [your account dashboard](https://obsidian.md/account/sync). See [[Frequently asked questions]] for more details.
 
 There is a single account-wide storage limit for all notes across your vaults. [[Version history]] and [[attachments]] are also counted towards your account's storage limit.
 
