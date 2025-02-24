@@ -2,13 +2,16 @@
 aliases:
   - Share remote vaults
   - Collaboration
-  - Teams
   - Collaborating
   - Obsidian Sync/Share remote vaults
+description: This page details how you can collaborate with other Obsidian Sync users.
+mobile: true
+permalink: sync/collaborate
+publish: true
 ---
 With [[Introduction to Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team.
 
-All collaborators must have an active Sync subscription to access a shared vault. Joining a shared vault does not count towards your [[Sync limitations#How many remote vaults can I have?|vault limit]].
+All collaborators must have an active Sync subscription to access a shared vault. Joining a shared vault does not count towards your [[Frequently asked questions#How many remote vaults can I have?|vault limit]].
 
 If the remote vault is [[Obsidian Sync/Security and privacy|end-to-end encrypted]], collaborators must enter the encryption password when they set up the vault.
 
@@ -46,10 +49,11 @@ If multiple users are editing the same file at the same time, [[Troubleshoot Obs
 
 ![[version-history-collaboration.png]]^version-history-image
 
- 
-### Limitations
+## Limitations
 
-Be aware that Obsidian Sync has [[Sync limitations|Limitations]] that may affect your team:
+Be aware that Obsidian Sync has [[Frequently asked questions|Limitations]] that may affect your team:
 
-- The maximum number of collaborators on a shared vault is 10 users.
-- The maximum file size for attachments is 200 MB.
+- The maximum number of collaborators on a shared vault is 20 users.
+- The maximum file size for attachments depends on the [[Plans and storage limits|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
+
+Learn more about [[Syncing for teams]].

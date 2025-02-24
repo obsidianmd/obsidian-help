@@ -42,7 +42,7 @@ Quick Action defaults to open [[Command palette]].
 ### Customize Quick Action
 
 1. Open Settings.
-2. Choose **Mobile**.
+2. Under **Options**, choose **Toolbar**.
 3. Under **Configure mobile Quick Action**, tap **Configure**.
 4. Type the name of the command.
 5. Select the command you’d like to set.
@@ -58,7 +58,7 @@ With the **Toggle keyboard** toolbar option, you can close the mobile toolbar an
 
 ### Go back or forward
 
-On the navigation bar, the first two options helps you go back (back arrow icon) or forward (forward arrow icon). If one of the options is not available, the icon is greyed out.
+On the navigation bar, the first two options helps you go back ( ![[lucide-chevron-left.svg#icon]] ) or forward ( ![[lucide-chevron-right.svg#icon]] ). If one of the options is not available, the icon is greyed out.
 
 ### Create or find note
 

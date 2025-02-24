@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Need assistance with the Obsidian application?
+    url: https://obsidian.md/community
+    about: Visit our Obsidian community
+  - name: Found a bug with the Obsidian application? 
+    url: https://forum.obsidian.md/c/bug-reports/7
+    about: File a bug report
+  - name: Suggesting a new feature for the Obsidian application?
+    url: https://forum.obsidian.md/c/feature-requests/8
+    about: File a feature request
+    

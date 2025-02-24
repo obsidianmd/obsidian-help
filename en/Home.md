@@ -5,28 +5,31 @@ aliases:
 cssclasses:
   - list-cards
   - hide-title
+  - list-cards-mobile-full
 ---
+
 # Obsidian Help
 
 Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
 
-You can also browse this site in the following languages:
+You can browse this site in several languages:
 
-- [العربية](https://publish.obsidian.md/help-ar)
-- [Dansk](https://publish.obsidian.md/help-da)
-- [Español](https://publish.obsidian.md/help-es)
-- [Italiano](https://publish.obsidian.md/help-it)
-- [日本語](https://publish.obsidian.md/help-ja)
-- [Phéasa Khmêr](https://publish.obsidian.md/help-km)
-- [한국어](https://publish.obsidian.md/help-ko)
-- [Português](https://publish.obsidian.md/help-pt-br)
-- [Русский](https://publish.obsidian.md/help-ru)
-- [Tiếng Việt](https://publish.obsidian.md/help-vi)
-- [中文](https://publish.obsidian.md/help-zh)
+<select class="dropdown select-location">
+<option value="">English</option>
+<option value="https://publish.obsidian.md/help-ar">العربية</option>
+<option value="https://publish.obsidian.md/help-da">Dansk</option>
+<option value="https://publish.obsidian.md/help-es">Español</option>
+<option value="https://publish.obsidian.md/help-it">Italiano</option>
+<option value="https://publish.obsidian.md/help-ja">日本語</option>
+<option value="https://publish.obsidian.md/help-km">Phéasa Khmêr</option>
+<option value="https://publish.obsidian.md/help-ko">한국어</option>
+<option value="https://publish.obsidian.md/help-pt-br">Português</option>
+<option value="https://publish.obsidian.md/help-ru">Русский</option>
+<option value="https://publish.obsidian.md/help-vi">Tiếng Việt</option>
+<option value="https://publish.obsidian.md/help-zh">中文</option>
+</select>
 
-
-
-## Getting started
+## Get started
 
 If you're new to Obsidian, learn the basics of note-taking with Obsidian using our guides:
 
@@ -36,9 +39,20 @@ If you're new to Obsidian, learn the basics of note-taking with Obsidian using o
 4. [[Link notes]]
 5. [[Import notes]]
 
-From here, you can build your own custom experience by enabling additional features through _plugins_. Explore the [[Core plugins]] that ship with Obsidian, or any of our [[Community plugins]].
+## Extend Obsidian
 
-Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
+With thousands of plugins and themes, you can shape Obsidian to fit your way of thinking.
+
+- [[Core plugins]]
+	- Choose which built-in features of Obsidian you want to turn on or off.
+- [[Community plugins]]
+	- Enable more workflows and capabilities with features built by Obsidian users.
+- [[Themes]]
+	- Customize the look and feel of Obsidian with community-made color schemes.
+- [[CSS snippets]]
+	- Make small changes to the interface on top of your Obsidian theme.
+- [[Introduction to Obsidian Web Clipper|Web Clipper]]
+	- Highlight web pages and save content to Obsidian using our browser extension.
 
 ## Add-on services
 
@@ -47,22 +61,10 @@ Customize the look and feel of Obsidian using [[Themes]] and [[CSS snippets]].
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
 	- Publish your notes as a wiki, knowledge base, documentation, or digital garden.
 
-
-## Latest updates
-
-> [!todo] Update for version 1.5 
-> The documentation has been revised for the 1.5 desktop release, incorporating changes to the [[Language settings|interface language]]. 
-> 
-> Pre-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **About**
-> Post-1.5: **Settings** ( ![[lucide-settings.svg#icon]] ) → **General**.
-> 
-> Mobile users are advised to continue referring to the "**About**" section in their settings until the next mobile release.
-
 ## Contribute
 
 If you find any mistakes or missing information on this site, you can contribute improvements and translations via [the GitHub repo](https://github.com/obsidianmd/obsidian-docs/).
 
-If you want to support Obsidian financially, consider a [[Catalyst license]], which offers early access to beta versions of Obsidian.
+If you want to contribute to Obsidian financially, consider a [[Catalyst license]] which offers early access to beta versions, or a [[Commercial license]] to show your organization's support.
 
-See the [[Credits]] to get to know all the amazing people who made Obsidian possible.
-
+See the [[Credits]] to get to know all the amazing people who make Obsidian possible.

@@ -11,7 +11,7 @@ For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note cre
 
 **Ribbon:**
 
-- In the ribbon, click **Create new unique note** (overlapping sheets icon).
+- In the ribbon, click **Create new unique note** ( ![[obsidian-sheets-in-box.svg#icon]] ).
 
 **Command palette:**
 
@@ -27,4 +27,4 @@ By default, new unique notes are empty. To use another file as a template:
 - In the sidebar, click **Core plugins → Unique note creator**.
 - In **Template file location**, enter the file you want to use as template.
 
-For more information about how to write templates, refer to [[Templates]].
+For more information about how to write templates, refer to [[Plugins/Templates]].

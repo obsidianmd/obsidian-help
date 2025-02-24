@@ -1,8 +1,10 @@
 Find support resources, report security or community violations, and learn how to contribute to Obsidian.
+
 ## Questions and advice
 
 If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
 
+- [[Sandbox vault|Explore the Sandbox vault]]
 - [Join our Discord server](https://discord.gg/obsidianmd)
 - [Visit the forum](https://forum.obsidian.md/)
 
@@ -13,25 +15,21 @@ If you have a question about how to use Obsidian, or want to get to know other O
 
 If you want to suggest a feature in Obsidian, head over to [Feature requests](https://forum.obsidian.md/c/feature-requests/8).
 
-If you want to report a bug, head over to [Bug reports](https://forum.obsidian.md/c/bug-reports/7). Bug reports are moved to the [Bug graveyard](https://forum.obsidian.md/c/bug-graveyard/12) once they're resolved.
-
-### Contact Obsidian support
-
-Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
+If you want to report a bug in Obsidian, head over to [Bug reports](https://forum.obsidian.md/c/bug-reports/7). Bug reports are moved to the [Bug graveyard](https://forum.obsidian.md/c/bug-graveyard/12) once they're resolved.
 
 ### Collect debug information
 
-When you encounter a bug or need assistance from Obsidian support, it's helpful to provide them with your Obsidian application's debug information. Here's how you can obtain it:
+When you encounter a bug or need assistance from [[#Contact Obsidian support|Obsidian support]], providing debug information can be very helpful. Here's how to obtain it:
 
 1. Open the [[Command palette]].
-2. Type **Show debug info**.
-3. Select the highlighted **Show debug info** option.
-4. Click the **Copy to clipboard** button.
+2. Type **Show debug info**.
+3. Select the highlighted **Show debug info** option.
+4. Click **Copy to clipboard**.
 5. Paste the copied information into your bug report or Obsidian support email.
 
 ### Capture console logs
 
-When you need to report a bug related to an Obsidian plugin, or when requested to provide log information, you may need to access the Obsidian console. Here's how you can do it based on your operating system:
+When you need to report a bug related to an Obsidian plugin or when requested by [[#Contact Obsidian support|Obsidian support]] to provide log information, you may need to access the Obsidian console from within the Obsidian application. Here’s how to do it based on your operating system:
 
 - **Windows**: `CTRL + SHIFT + i`  
 - **MacOS**: `CMD + OPTION + i`  
@@ -48,8 +46,11 @@ Once you've opened the developer console:
 
 ![[help-support-console-menu.png#interface|600]]
 
-> [!warning] Mobile devices/tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) to automatically generate the console log data in a markdown note.
+> [!warning] Mobile devices and tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) to automatically generate the console log data in a markdown note.
 
+### Contact Obsidian support
+
+Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
 
 ## Report a security issue
 

@@ -1,6 +1,6 @@
 El complemento Publish te permite publicar notas desde tu bóveda en tu sitio, todo desde la aplicación Obsidian.
 
-Para obtener más información sobre el servicio Obsidian Publish™, qué se incluye, cómo funciona y privacidad, consulte la [[Obsidian Publish]] servicio complementario.
+Para obtener más información sobre el servicio Obsidian Publish™, qué se incluye, cómo funciona y privacidad, consulte [[Obsidian Publish]].
 
 ### Habilita el complemento
 
@@ -8,9 +8,9 @@ Desde Obsidian> Configuración> Complemento, habilite el complemento Publish. De
 
 Una vez habilitada, también puede configurar una tecla de acceso rápido para esta opción o usar la paleta de comandos para acceder a ella.
 
-### Setee y configure su sitio
+### Instale y configure su sitio
 
-Dentro del complemento Publish, verá una opción para crear un sitio ingresando un ID de sitio único. Una vez publicado, su sitio estará disponible en `https://publish.obisidian.md/{site-id}`.
+Dentro del complemento Publish, verá una opción para crear un sitio ingresando un ID de sitio único. Una vez publicado, su sitio estará disponible en `https://publish.obsidian.md/{site-id}`.
 
 Después de crear una ID de sitio única, tendrá la opción de darle un nombre a su sitio, seleccionar una página de inicio, establecer un tema y alternar varios componentes como vista de gráfico, tabla de contenido, etc. Puede alternar estas opciones por haciendo clic en el ícono de ajustes cerca del nombre de su sitio en la parte superior del complemento Publish.
 
@@ -44,9 +44,9 @@ Si desea más personalización, puede considerar configurar [[Obsidian Publish#C
 
 En esta sección, puede:
 
-- Enableun modo especial llamado "ventanas deslizantes" que se parece a [Notas de Andy Matuschak](https://notes.andymatuschak.org/);
-- Habilite la vista previa de la página al pasar el mouse como cuando se usa [[Vista previa de la página]] complemento en la aplicación;
-- Configure si desea una longitud de línea legible y saltos de línea estrictos.
+- Habilitar un modo especial llamado "ventanas deslizantes" que se parece a [Notas de Andy Matuschak](https://notes.andymatuschak.org/)
+- Activar la vista previa de la página al pasar el mouse como cuando se usa [[vista previa de la página]] complemento en la aplicación
+- Configurar si desea una longitud de línea legible y saltos de línea estrictos
 
 #### Componentes
 

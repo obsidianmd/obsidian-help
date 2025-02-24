@@ -1,6 +1,7 @@
 ---
 permalink: import/textbundle
 ---
+
 Obsidian allows you to easily migrate your notes from apps that support the [Textbundle](https://textbundle.org/) format using the [[Importer|Importer plugin]].
 
 The Textbundle format bundles Markdown text and all referenced images into a single file, providing a more seamless way to move out of a sandboxed application. Textbundle export is supported by [many apps](https://textbundle.org/), including Agenda, Craft, Taio, Ulysses, Zettlr, and more.

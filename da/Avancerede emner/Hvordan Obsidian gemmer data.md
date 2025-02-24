@@ -6,7 +6,7 @@ Hvis du benytter `git`, er det nok bedst at sætte `.obsidian/workspace` filen t
 
 ### System mappen
 Obsidian gemmer også noget information i system mappen. Den er forskellig afhængig af dit operativsystem;
-- på Linux er det enten `$XDG_CONFIG_HOME/Obsidian/` eller `~/.config/Obsidian/`
+- på Linux er det enten `$XDG_CONFIG_HOME/obsidian/` eller `~/.config/obsidian/`
 - på Mac er det `/Users/yourusername/Library/Application Support/obsidian`
 - på Windows er det `%APPDATA%\Obsidian\`
 

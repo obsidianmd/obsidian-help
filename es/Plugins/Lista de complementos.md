@@ -1,6 +1,6 @@
 Uno de los aspectos más poderosos de Obsidian es la capacidad de agregar nuevas funcionalidades a través de complementos. Ya viene con varios, y muchos más están en desarrollo.
 
-También puede crear su propio complemento de Obsidian. Ver [[Complementos de terceros]].
+También puede crear su propio complemento de Obsidian. Ver [[complementos de terceros]].
 
 Los complementos se pueden administrar a través del botón "Configuración" en la parte inferior izquierda. Algunos de ellos tienen configuraciones propias que se pueden configurar haciendo clic en el engranaje que aparece junto a cada complemento cuando está activado.
 

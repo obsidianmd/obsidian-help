@@ -30,11 +30,11 @@ It provides the following options:
 - **Collapse results** toggles whether to expand each note to display the mentions in it.
 - **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
 - **Change sort order** determines how to sort the mentions.
-- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search query, refer to [[Search]].
+- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search term, refer to [[Search]].
 
 ## View backlinks for a note
 
-To view the backlinks for the active note, click the **Backlinks** (link and arrow icon) tab in the right sidebar.
+To view the backlinks for the active note, click the **Backlinks** ( ![[obsidian-links-coming-in.svg#icon]] ) tab in the right sidebar.
 
 > [!note]
 > If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks** command.

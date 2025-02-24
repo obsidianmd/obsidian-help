@@ -3,26 +3,30 @@ aliases:
   - Obsidian Sync/Remote vault size limit
   - storage limits
   - Obsidian Sync/Storage limits
+description: Learn about the different plan options we have available for Obsidian Sync.
+mobile: true
+permalink: sync/plans
+publish: true
 ---
 
 ## Plans
 
-Obsidian Sync offers a flexible plan that allows you to choose your maximum storage based on your needs: 10 GB or 100GB. This plan can be purchased within [your account](https://obsidian.md/account). 
+To sync your notes with [[Introduction to Obsidian Sync|Obsidian Sync]] you need a subscription plan. You can purchase a Sync plan by logging into [your account](https://obsidian.md/account/sync). See the [Sync landing page](https://obsidian.md/sync) for pricing.
 
-The features of this plan is included below:
+Below is a comparison between the Standard plan and Plus plan:
 
-|                                                  | Sync         |
-| ------------------------------------------------ | ------------ |
-| Vaults                                           | 10           |
-| Maximum file size                                | 200 MB       |
-| Total storage                                    | 10 to 100 GB |
-| [[Version history\|Revision history]]            | 12 months    |
-| Devices                                          | Unlimited    |
-| [[Collaborate on a shared vault\|Shared vaults]] | Yes          |
+|                                                  | Sync Standard | Sync Plus       |
+| ------------------------------------------------ | ------------- | --------------- |
+| Synced vaults                                    | 1             | 10              |
+| Maximum file size                                | 5 MB          | 200 MB          |
+| Total storage                                    | 1 GB          | 10 GB to 100 GB |
+| [[Version history]]                              | 1 month       | 12 months       |
+| Devices                                          | Unlimited     | Unlimited       |
+| [[Collaborate on a shared vault\|Shared vaults]] | Yes           | Yes             |
 
 ## Storage limits
 
-The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] is defined by your subscription plan. Additional Sync storage can be purchased up to 100 GB via your [account dashboard](https://obsidian.md/account). See [[Sync limitations]] for more details.
+The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via [your account dashboard](https://obsidian.md/account/sync). See [[Frequently asked questions]] for more details.
 
 There is a single account-wide storage limit for all notes across your vaults. [[Version history]] and [[attachments]] are also counted towards your account's storage limit.
 
@@ -59,12 +63,20 @@ To sync to a new remote vault, follow these steps:
 
 The new remote vault should be smaller than the previous vault, because of the absence of version history and excluded files.
 
+## Upgrade your plan
+
+You can upgrade your plan by logging into [your account dashboard](https://obsidian.md/account/sync). From there you will be able to upgrade your plan from Sync Standard to Sync Plus, and increase storage up to 100 GB.
+
 ## Downgrade your plan
 
-If you want to downgrade your Sync plan but your storage use exceeds the new plan's limit, you will need to free up space in your remote vault. However, there is no way to quickly remove specific files from an existing remote vault, because attachments are held in version history for up to two weeks and version history counts towards your storage limit.
+If you want to downgrade your Sync plan but your storage use exceeds the new plan's limit, you will need to free up space in your remote vault. Currently, there's no direct method to remove specific files from an existing remote vault quickly. This is because attachments are retained in version history for up to two weeks, and version history counts towards your storage limit.
 
-The fastest way to reduce the amount of Sync storage you use is to [[#create a new remote vault]] with attachments disabled, then delete the old remote vault that exceeds the storage limits. Note that you will lose version history by doing so.
+The quickest way to reduce your Sync storage usage is to create a new remote vault with attachments disabled, then delete the old remote vault that exceeds the storage limits. Be aware that you will lose version history by doing this.
+
+If you are downgrading from Sync Plus to Sync Standard, you'll also need to reduce the number of vaults present to one before the downgrade will be permitted.
 
 ### Preserve version history
 
-Attachments are held in your [[version history]] for up to two weeks. If you plan to downgrade in the near future, you can start by removing attachments from your local vault. After two weeks these will be purged from the remote vault and will no longer count towards your storage limit. At this point you will be able to downgrade your plan while preserving the version history for other file types, such as Markdown files.
+Attachments are held in your [[version history]] for up to two weeks. If you plan to downgrade in the near future, you can start by removing attachments from your local vault. 
+
+After two weeks these will be purged from the remote vault and will no longer count towards your storage limit. At this point you will be able to downgrade your plan while preserving the version history for other file types, such as Markdown files.

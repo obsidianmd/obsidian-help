@@ -10,7 +10,7 @@ Tenga en cuenta que Catalyst es opcional y ==no le brinda ninguna característic
 
 Para actualizar a Catalyst, visite [nuestra página de precios](https://obsidian.md/pricing).
 
-Si usa Obsidian para actividades relacionadas con el trabajo, es posible que necesite una [[Licencia comercial|Licencia comercial]].
+Si usa Obsidian para actividades relacionadas con el trabajo, es posible que necesite una [[Licencia comercial|licencia comercial]].
 
 ## PREGUNTAS MÁS FRECUENTES
 

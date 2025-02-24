@@ -6,7 +6,7 @@
 
 ### System directory
 
-Obsidian ក៏រក្សាទុកព័ត៌មានមួយចំនួននៅក្នុង system directory ។ នេះនឹងខុសគ្នាតាម Operating System​ ។​ នៅលើ macOs វាជា​ `/Users/yourusername/Library/Application Support/obsidian` ។​ នៅលើ Window វាជា​ `%APPDATA%\Obsidian\` ។​ នៅលើ Linux វាជា `$XDG_CONFIG_HOME/Obsidian/` ឬ `~/.config/Obsidian/` ។ ដូច្នេះ អ្នកមិនគួរបង្កើត vault នៅក្នុងនេះទេ ។
+Obsidian ក៏រក្សាទុកព័ត៌មានមួយចំនួននៅក្នុង system directory ។ នេះនឹងខុសគ្នាតាម Operating System​ ។​ នៅលើ macOs វាជា​ `/Users/yourusername/Library/Application Support/obsidian` ។​ នៅលើ Window វាជា​ `%APPDATA%\Obsidian\` ។​ នៅលើ Linux វាជា `$XDG_CONFIG_HOME/obsidian/` ឬ `~/.config/obsidian/` ។ ដូច្នេះ អ្នកមិនគួរបង្កើត vault នៅក្នុងនេះទេ ។
 
 ក្រៅពីនោះ អ្នកអាចបង្កើត vault នៅគ្រប់ទីកន្លែងដែល operating system របស់អ្នកអនុញ្ញាត ។ ឯកសារ Obsidian sync ល្អណាស់ជាមួយ Dropbox, iCloud, OneDrive, git, និងរាល់សេវាកម្ម syncing ផ្សេងទៀតដែលយើងបានសាកល្បងកន្លងមក។
 

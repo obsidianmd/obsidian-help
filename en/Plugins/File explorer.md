@@ -11,7 +11,7 @@ The File explorer lets you manage files and folders inside your vault. You can b
 
 To create a new note in the default location for new notes:
 
-1. Click **New note** (document icon) at the top of the File explorer.
+1. Click **New note** ( ![[lucide-pen-line.svg#icon]] ) at the top of the File explorer.
 2. Type the name of the note, and then press Enter.
 
 > [!tip]
@@ -26,7 +26,7 @@ To create a new note in a specific folder:
 
 To create a new folder the root of your vault:
 
-1. Click **New folder** (folder icon) at the top of the File explorer.
+1. Click **New folder** ( ![[lucide-folder-plus.svg#icon]] ) at the top of the File explorer.
 2. Type the name of the folder, and then press Enter.
 
 To create a subfolder:
@@ -39,14 +39,14 @@ To create a subfolder:
 1. Right-click the file you want to delete, and then click **Delete**.
 2. If prompted to confirm that you want to delete the file, click **Delete**.
 
-For more information, refer to [[Manage notes#Delete a file]].
+For more information, refer to [[Manage notes#Delete a note|Delete a note]].
 
 ## Rename a file or folder
 
 1. Right-click the file you want to rename, and then click **Rename**.
 2. Type the new name, and the press Enter.
 
-For more information, refer to [[Manage notes#Rename a note]].
+For more information, refer to [[Manage notes#Rename a note|Rename a note]].
 
 ## Move a file or folder
 

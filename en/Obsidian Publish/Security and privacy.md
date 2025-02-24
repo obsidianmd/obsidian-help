@@ -3,6 +3,7 @@ aliases:
   - Access control for Obsidian Publish
   - Security/privacy for Obsidian Publish
 ---
+
 You can choose the notes you want to publish to [[Introduction to Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
 
 Only the notes you choose to publish are sent to Obsidian's servers, and any notes you unpublish are removed.
@@ -15,8 +16,8 @@ For improved access control on your publish site, apply a site password. Visitor
 
 ### Add a site password
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
+1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
+2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
 3. Under **Other site settings**, next to **Passwords**, click **Manage**.
 4. Click **New password**.
 5. In **Password**, enter a password for your site.
@@ -25,8 +26,8 @@ For improved access control on your publish site, apply a site password. Visitor
 
 ### Remove a site password
 
-1. In ribbon, to the left of the application window, click **Publish changes** (paper plane icon).
-2. In the **Publish changes** dialog, click **Change site options** (cog icon).
+1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
+2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
 3. Under **Other site settings**, next to **Passwords**, click **Manage**.
 5. Click the cross-icon next to the password you want to delete.
 
@@ -38,6 +39,9 @@ By default, Obsidian Publish **does not** collect visitor data, store cookies, o
 As the site owner, you are responsible for complying with GDPR and privacy regulations in your region. This includes creating your own notification banner, which can be implemented using publish.js, and adding a privacy policy page to your site.
 
 ## Access
+
+Obsidian contracts with [Cloudflare](https://www.cloudflare.com) to provide site hosting for our Publish sites. The servers are hosted in San Francisco, CA.
+
 ### Managing access to Obsidian Publish on your network
 
 To regulate access to Obsidian Publish on your network, you need to manage the following domains:

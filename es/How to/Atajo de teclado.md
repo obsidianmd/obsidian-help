@@ -1,4 +1,4 @@
-Si tienes la [[Paleta de comandos]] habilitada, puede utilizar `Ctrl / Cmd + P` para que aparezca, que le mostrará todos los comandos disponibles actualmente y sus atajos de teclado.
+Si tienes la [[paleta de comandos]] habilitada, puede utilizar `Ctrl / Cmd + P` para que aparezca, que le mostrará todos los comandos disponibles actualmente y sus atajos de teclado.
 
 La mayoría de los atajos de teclado se pueden personalizar según sus necesidades en Configuración => Teclas de acceso rápido.
 

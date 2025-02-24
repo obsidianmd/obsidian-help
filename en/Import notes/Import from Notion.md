@@ -5,7 +5,7 @@ Obsidian allows you to easily migrate your notes from Notion using the [[Importe
 
 ## Export your data from Notion
 
-Obsidian uses Notion's HTML export format. You can find Notions's instructions on how to export your entire workspace [on Notion's website](https://www.notion.so/help/export-your-content). Note that you must be a workspace admin to see this option.
+To prepare your data for import, you will need to export your entire workspace using Notion's HTML export format. We recommend that you do not use Notion's Markdown export as it omits important data. You must have admin access to the Notion workspace to export all workspace content.
 
 1. Go to **Settings & members** at the top of your left-hand sidebar.
 2. Select **Settings** in the sidebar of that window.
@@ -40,3 +40,13 @@ If you run into issues while importing from Notion:
 - If Obsidian appears to freeze during import, disable community plugins and try again.
 
 Run into something else? Search [the Importer repository](https://github.com/obsidianmd/obsidian-importer/issues) to see if others have experienced it.
+
+### Importing large workspaces
+
+If you are importing a workspace with multiple gigabytes of data, the export from Notion may contain nested `.zip` files. In this case you may see an import error message that looks something like this:
+
+```
+Import failed {id}.zip/{id}-Part-1.zip undefined.
+```
+
+If you see this error, you can unzip the file from Notion, and then import the nested `Export-{id}-Part-1.zip`  files.

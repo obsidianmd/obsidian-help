@@ -6,6 +6,6 @@ Toutefois, il y a certaines données utiles pour l'application qui ne sont pas s
 
 Si vous utilisez un css personnalisé, Obsidian crée un fichier appelé `obsidian.css` à la racine de votre vault. Pour plus de détails, veuillez suivre [[Custom CSS]]
 
-Obsidian sauvegarde aussi quelques informations dans le répertoire système, propre à chaque OS; sur Mac, c'est  `/Users/yourusername/Library/Application Support/obsidian`, sur Windows `%APPDATA%\Obsidian\`, et `$XDG_CONFIG_HOME/Obsidian/` ou `~/.config/Obsidian/` sur Linux. Par conséquent, nous recommandons de ne pas créer un vault ces répertoires.
+Obsidian sauvegarde aussi quelques informations dans le répertoire système, propre à chaque OS; sur Mac, c'est  `/Users/yourusername/Library/Application Support/obsidian`, sur Windows `%APPDATA%\Obsidian\`, et `$XDG_CONFIG_HOME/obsidian/` ou `~/.config/obsidian/` sur Linux. Par conséquent, nous recommandons de ne pas créer un vault ces répertoires.
 
 Mis à part cela, vous pouvez créer un vault n'importe où dans votre système d'exploitation, aux endroits où ce dernier le permet. Les fichiers d'Obsidian peuvent se synchroniser avec Dropbox, iCloud, OneDrive, git, et tous les autres services de synchronisation que nous avons essayé jusqu'à présent.

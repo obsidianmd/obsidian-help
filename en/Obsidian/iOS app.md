@@ -2,4 +2,4 @@ This help article is legacy and only serves as a bridge to avoid breaking links.
 
 ## Sync
 
-For information on syncing on the iOS app, please see [[Sync your notes across devices#Sync your notes on iPhone and iPad|Sync your notes on iPhone and iPad]].
+For information on syncing on the iOS app, please see [[Sync your notes across devices]].

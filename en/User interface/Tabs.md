@@ -11,7 +11,7 @@ You can open as many tabs as you want in Obsidian. You can also arrange tabs to 
 
 ## Open a new tab
 
-At the top of the application window, next to the last tab on the right, select **New tab** (plus icon). Or, use a keyboard shortcut:
+At the top of the application window, next to the last tab on the right, select **New tab** ( ![[lucide-plus.svg#icon]] ). Or, use a keyboard shortcut:
 
 - **Windows and Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
@@ -96,8 +96,7 @@ To stack notes, select the down arrow at the upper right corner of the tab group
 
 ![tab-stacks](https://user-images.githubusercontent.com/693981/188205363-0f24b2a5-3706-4a8c-b38b-7a66baa68ce6.gif)
 
-> [!note] Matushak mode
-> Tab stacks are based on [Andy Matushak's sliding notes](https://notes.andymatuschak.org/).
+Tab stacks are inspired by [Andy Matuschak's sliding notes](https://notes.andymatuschak.org/).
 
 ## Linked views
 
@@ -111,7 +110,7 @@ For note tabs, you can use the following plugins as linked views:
 
 To open a linked view for a note tab:
 
-1. Select **More options** (three dots icon) in the upper right corner of the note.
+1. Select **More options** ( ![[lucide-more-horizontal.svg#icon]] ) in the upper right corner of the note.
 2. Under **Open linked view**, select the linked view you want to open.
 
 ## Save layouts

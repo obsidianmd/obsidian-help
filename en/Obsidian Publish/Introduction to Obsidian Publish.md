@@ -22,7 +22,13 @@ If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're a
 	- Share a Publish site with collaborators.
 - [[Customize your site]]
 	- Customize your Publish site.
-- [[Set up a custom domain|Custom domain]]
+- [[Custom domains|Custom domains]]
 	- Set up Publish with your own domain.
+- [[Permalinks]]
+	- Define permanent URLs for pages.
+- [[Analytics]]
+	- Set up analytics for your site.
+- [[SEO]]
+	- Search engine optimization for Publish.
 - [[Security and privacy]]
 	- How we keep your data safe.

@@ -14,21 +14,27 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 
 - Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
 - kepano ([Steph Ango](https://stephanango.com/))
-- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Support Dragon</span>
+- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
 
 ## Moderators
 
 - argentum<span class='flair mod-pop'>Team Little Silvers</span> <span class='flair mod-pop'>Linux master</span> <span class='flair mod-pop'>Zotero master</span> ^a4b3a2
 - cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
-- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
 - koala<span class='flair mod-pop'>Extreme Bug Finder</span>
 - Leah ([Leah Ferguson](http://leahferguson.com))<span class='flair mod-pop'>Roll for initiative!</span> <span class='flair mod-pop'>Non-techy Apple geek</span>
-- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 - rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair mod-pop'>Forum master</span>
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair mod-pop'>That funny guy</span> <span class='flair mod-pop'>Apple Fanboy</span> <span class='flair mod-pop'>Forum master</span>
 - WhiteNoise<span class='flair mod-pop'>Think Tank</span> <span class='flair mod-pop'>Zotero master</span> <span class='flair mod-pop'>Bug report exterminator</span>
 - CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair mod-pop'>embedded-search ambassador</span>
+- Trainbuffer <span class='flair mod-pop'> ferroequinologist</span> <span class='flair mod-pop'>Travels by rail</span>
+- Roam ([Roman Soriano](https://leftovers.blog/)) <span class='flair mod-pop'>Not <i>that</i> one</span>
+- Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair mod-pop'>Templater Templar</span><span class='flair mod-pop'>Board Gamer</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
+
+### Retired
+
+- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
+- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 
 ## Plugin inspirations
 
@@ -47,19 +53,30 @@ Credits to these plugin developers for pioneering functionality that were adapte
 ## Translators
 
 - Andrea Brandi (Italian)
-- canzi-teacher, 蚕子 (Chinese Simplified)
+- bongudth (Vietnamese)
+- canzi-teacher, 蚕子 (Simplified Chinese)
+- cor-bee, Ілля Пишняк (Ukrainian)
+- cvyl, Mikka (Dutch)
 - Daniel Mathiot (French)
+- Diego Tres (Brazilian Portuguese)
 - Haitham Mohamed (Arabic)
 - Henrik Falk (Danish)
+- Joffrey Schroeder (French) 
 - JxhnnyUt8h (Russian)
 - k-andzhanovskii, Константин Анджановский (Russian)
 - lisachev, Сергей Лисачев (Russian)
-- mafsi, (Patrick Danilevici) (Română)
+- mafsi, Patrick Danilevici (Romanian)
+- Manuel Arias Almada (Spanish)
 - Muhammad Mauli Mubassari (Indonesian)
+- Olivier Anthonioz (French) 
+- Ryooo，睿悠ryooo (Chinese Simplified)
+- Sakvipubp Suy (Khmer)
+- smilorent, Silviu Lorenț (Romanian)
+- Solyta Teng (Khmer)
 - taksas, 中山 拓海 (Japanese)
 - VKondakoff, Валерий Кондаков (Russian)
 - yo-goto, ぱだわん (Japanese)
-- Zachary Shirmohammadli (Persian)
+- Zachary Shirmohammadli (Persian) 
 
 ## Documentation
 
@@ -98,7 +115,7 @@ Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2
 
 ### Electron
 
-Version `28.2.3`
+Version `33.3.2`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -115,7 +132,7 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
-Version `0.268.0`
+Version `0.446.0`
 ISC License
 Copyright (c) 2020, Lucide Contributors ^lucide
 
@@ -125,7 +142,7 @@ Apache License 2.0
 
 ### Mermaid
 
-Version `10.2.3`
+Version `10.6.1`
 MIT License
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
@@ -145,6 +162,7 @@ Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
 ### Prism
 
+Version `1.29.0`
 MIT License
 Copyright (c) 2012 Lea Verou
 
