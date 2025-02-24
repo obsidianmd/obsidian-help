@@ -3,8 +3,9 @@ aliases:
   - How to/Format your notes
   - Markdown
 description: Learn how to apply basic formatting to your notes in Obsidian, using Markdown.
-publish: true
 mobile: true
+permalink: 
+publish: true
 ---
 
 Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Advanced formatting syntax]].
@@ -71,11 +72,9 @@ line one
 line two
 ```
 
-
 Renders as:
 
 line one line two
-
 
 **Single return with two or more trailing spaces**: If you add two or more spaces at the end of the first line before pressing `Enter`, the two lines remain part of the same paragraph, but are broken by a line break (HTML `<br>` element). We'll use two underscores to stand in for spaces in this example.
 
@@ -254,6 +253,19 @@ To create an ordered list, start each line with a number followed by a `.` symbo
 1. First list item
 2. Second list item
 3. Third list item
+
+You can use `shift + enter` to insert a [[#Line breaks|line break]] within an ordered list without altering the numbering.
+
+```md
+1. First list item
+   
+2. Second list item
+3. Third list item
+   
+4. Fourth list item
+5. Fifth list item
+6. Sixth list item
+```
 
 ### Task lists
 
@@ -445,7 +457,6 @@ In some cases, you may need to display special characters in Markdown, such as 
 > - Backtick: `` \` ``
 > - Pipe (used in tables): `\|`
 > - Tilde: `\~`
-
 
 ```md
 \*This text will not be italicized\*.
