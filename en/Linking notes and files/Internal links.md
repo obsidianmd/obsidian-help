@@ -4,6 +4,10 @@ aliases:
   - How to/Link to blocks
 cssclasses:
   - soft-embed
+description: Learn how to link to notes, attachments, and other files from your notes, using internal links.
+mobile: true
+permalink:
+publish: true
 ---
 
 Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge. ^b15695
@@ -41,9 +45,11 @@ To create a link while in Editing view, use either of the following ways:
 - Select text in the editor and then type `[[`.
 - Open the [[Command palette]] and then select **Add internal link**.
 
+![[Quick switcher#^search-autocomplete-large]]
+
 While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
 
-![[Quick switcher#^search-autocomplete-large]]
+> [!tip] Prefixing an internal link with an exclamation mark (!) allows you to embed the linked content. For more details, see [[Embed Files]].
 
 ## Link to a heading in a note
 
