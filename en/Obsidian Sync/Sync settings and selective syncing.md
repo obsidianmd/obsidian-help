@@ -5,6 +5,9 @@ aliases:
   - Obsidian Sync/Select files and settings to sync
   - Settings profile
 description: This page explains the Sync settings and guides you in selecting which files to sync.
+mobile: false
+permalink: sync/settings
+publish: true
 ---
 
 When you [[Plans and storage limits#Create a new remote vault|create a remote vault]] and [[Set up Obsidian Sync#Connect to a remote vault|connect to it]], the Sync Core plugin becomes the place for managing your remote vault.
@@ -39,7 +42,7 @@ You can also choose what to sync in the Sync Core plugin's settings. This sectio
 
 ## Selective syncing
 
-Files synced to your [[Local and remote vaults|remote vault]] contribute to your [[Sync limitations#How large can each remote vault be|storage limit]]. By default, Obsidian Sync activates **selective sync** for the following file types:
+Files synced to your [[Local and remote vaults|remote vault]] contribute to your [[Frequently asked questions#How large can each remote vault be|storage limit]]. By default, Obsidian Sync activates **selective sync** for the following file types:
 - Images
 - Audio
 - Videos

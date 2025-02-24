@@ -5,10 +5,11 @@ aliases:
 cssclasses:
   - soft-embed
 description: Learn how to transition from your current syncing solution to Obsidian Sync.
-publish: true
+mobile: true
 permalink: sync/switch
+publish: true
 ---
-Obsidian, including Obsidian Sync, reads directly from the local file system as part of its local-first approach. This means the [data is fully yours](https://obsidian.md/about), giving you complete control. However, problems can arise when using third-party syncing services like iCloud or OneDrive. If a file is removed from your local filesystem by these services (e.g., it is moved back to the cloud), Obsidian Sync will see this as a deletion and remove it from the remote vault. This is why we [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|strongly recommend]] avoiding the use of Obsidian Sync with another syncing service.
+Obsidian, including Obsidian Sync, reads directly from the local file system as part of its local-first approach. This means the [data is fully yours](https://obsidian.md/about), giving you complete control. However, problems can arise when using third-party syncing services like iCloud or OneDrive. If a file is removed from your local filesystem by these services (e.g., it is moved back to the cloud), Obsidian Sync will see this as a deletion and remove it from the remote vault. This is why we [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|strongly recommend]] avoiding the use of Obsidian Sync with another syncing service.
 
 However, third-party syncing services can play a role in your [[Back up your Obsidian files|backup]] strategy.
 
@@ -17,7 +18,7 @@ However, third-party syncing services can play a role in your [[Back up your Obs
 If your vault is stored in any of the following locations, it's likely being synced by a third-party service:
 
 - **Windows**: `C:\Users\Username\Desktop` or `C:\Users\Username\Documents`
-- **macOS**: `/users/username/Desktop` or `/users/username/Documents`
+- **macOS**: `/users/username/Desktop` or `/users/username/Documents`
 - **iOS**: The **iCloud** folder within the Files app
 - **Other**: Any folder under a syncing service, such as `Drive/my-vault`, `Dropbox/my-vault`, `pSync/my-vault`, etc.
 

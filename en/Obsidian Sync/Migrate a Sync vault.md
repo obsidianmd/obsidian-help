@@ -1,7 +1,11 @@
 ---
-permalink: sync/migrate
+aliases:
 cssclasses:
   - soft-embed
+description: This guide explains how to move your Sync vault to a different regional server.
+mobile: true
+permalink: sync/migrate
+publish: true
 ---
 When you create a [[Local and remote vaults|remote vault]] through [[Introduction to Obsidian Sync|Obsidian Sync]] your data is encrypted and stored on one of Obsidian's specific regional Sync servers.
 

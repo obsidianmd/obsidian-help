@@ -5,6 +5,7 @@ aliases:
   - Sync Log
 description: This page explains the Obsidian Sync status icons and provides details about the sync log.
 mobile: true
+permalink: sync/messages
 publish: true
 ---
 
@@ -86,7 +87,7 @@ Note that this also includes files with multiple periods `.` in their name on An
 These are messages related to a change in your subscription or account. 
 
 **Vault limit exceeded** 
-Your account has exceeded the [[Sync limitations#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
+Your account has exceeded the [[Frequently asked questions#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
 
 To reduce vault size:
 1. Open **Settings → Sync**.

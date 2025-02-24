@@ -4,8 +4,9 @@ aliases:
 cssclasses:
   - soft-embed
 description: You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
-publish: true
 mobile: true
+permalink: sync/setup
+publish: true
 ---
 You purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
 
@@ -17,7 +18,7 @@ You purchased Obsidian Sync and are ready to get started. This guide will help y
 
 In this section, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new, empty local vault to use Obsidian Sync for this purpose.
 
-> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|this]] and [[Switch to Obsidian Sync]] before proceeding.
+> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|this]] and [[Switch to Obsidian Sync]] before proceeding.
 
 **Prerequisites**
 
@@ -172,8 +173,6 @@ After selecting a location, your data center **cannot** be moved to a different 
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 
-
-
 ## Next steps
 
 Here are some suggested documents to read next.
@@ -181,4 +180,4 @@ Here are some suggested documents to read next.
 - Explore more about [[Sync settings and selective syncing|selecting files and settings to sync]].
 - Learn what happens if your remote vault [[Version history|fill up]].
 - [[Collaborate on a shared vault]] with another Obsidian Sync user.
-- Check out the [[Sync limitations|Sync FAQ]] for some answers to common questions.
+- Check out the [[Frequently asked questions|Sync FAQ]] for some answers to common questions.
