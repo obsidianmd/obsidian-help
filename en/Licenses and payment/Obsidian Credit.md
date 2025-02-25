@@ -4,6 +4,7 @@ aliases:
   - Gifting
   - Licenses & Payment/Gifting
   - Licenses and Payment/Gifting
+permalink: credit
 ---
 Obsidian Credit is a type of prepaid credit that can be bought in advance and applied toward purchases of any Obsidian service or license. Obsidian Credit can be [[#Gifting|gifted]] to other Obsidian users, such as friends, family, and coworkers.
 

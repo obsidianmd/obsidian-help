@@ -1,3 +1,6 @@
+---
+permalink: install
+---
 This page lists all supported ways to download and install Obsidian.
 
 ## Install Obsidian on Windows

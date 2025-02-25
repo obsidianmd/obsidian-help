@@ -2,10 +2,9 @@
 aliases: 
 description: Learn how to change parts of the Obsidian app’s appearance without creating a full theme.
 mobile: true
-permalink: 
+permalink: snippets
 publish: true
 ---
-
 Learn how to modify aspects of the Obsidian application's appearance without needing to [build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme). 
 
 > [!tip] If you're looking for guidance on handling CSS for [[Introduction to Obsidian Publish|Obsidian Publish]], be sure to review [[Customize your site]].

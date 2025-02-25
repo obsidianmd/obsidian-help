@@ -1,3 +1,6 @@
+---
+permalink: glossary
+---
 This glossary includes common Obsidian terminology.
 
 ## Alias

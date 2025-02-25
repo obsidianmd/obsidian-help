@@ -4,6 +4,7 @@ aliases:
   - Linked pane
   - Pane layout
   - User interface/Use tabs in Obsidian
+permalink: tabs
 ---
 Tabs in Obsidian work much like tabs in other apps, such as web browsers.
 

@@ -1,5 +1,6 @@
-# Supported File Formats in Obsidian
-
+---
+permalink: file-formats
+---
 Obsidian supports the following file types:
 
 - **Markdown**: `.md`  
@@ -8,6 +9,8 @@ Obsidian supports the following file types:
 - **Audio**: `.flac`, `.m4a`, `.mp3`, `.ogg`, `.wav`, `.webm`, `.3gp`  
 - **Video**: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`  
 - **PDF**: `.pdf`  
+
+You can extend Obsidian to support other file formats using [[Community plugins]].
 
 ### Embedding files
 

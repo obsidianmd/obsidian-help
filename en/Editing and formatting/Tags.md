@@ -1,8 +1,8 @@
 ---
-aliases: 
-- How to/Working with tags
+aliases:
+  - How to/Working with tags
+permalink: tags
 ---
-
 Tags are keywords or topics that help you quickly find the notes you want.
 
 ## Add a tag to a note

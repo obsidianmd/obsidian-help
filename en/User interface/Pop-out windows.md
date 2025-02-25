@@ -1,5 +1,6 @@
 ---
 description: Learn how to open files in separate pop-out windows.
+permalink: pop-out-windows
 ---
 
 > [!compatibility] This feature is only available on Desktop.

@@ -1,3 +1,6 @@
+---
+permalink: plugins/outgoing-links
+---
 The Outgoing links plugin shows the links from the active note at a glance, as well as potential links to be made. It's similar to the [[Backlinks]] plugin, which instead shows you _incoming_ links to the active note.
 
 The Outgoing links tab ( ![[obsidian-links-going-out.svg#icon]] ) is available in the right sidebar and contains the following sections:

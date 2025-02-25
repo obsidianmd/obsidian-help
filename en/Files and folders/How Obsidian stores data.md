@@ -1,9 +1,10 @@
 ---
-aliases: Advanced topics/How Obsidian stores data
+aliases:
+  - Advanced topics/How Obsidian stores data
 description: This page explains how Obsidian stores its data on your device.
 mobile: false
-permalink: 
 publish: true
+permalink: data-storage
 ---
 
 Obsidian stores your notes as [[Basic formatting syntax|Markdown-formatted]] plain text files in a _vault_. A vault is a folder on your local file system, including any subfolders.

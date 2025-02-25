@@ -1,6 +1,7 @@
 ---
 aliases:
-- Licenses & Payment/Catalyst license
+  - Licenses & Payment/Catalyst license
+permalink: catalyst
 ---
 Obsidian is free to use. You can support Obsidian development by purchasing a _Catalyst_ license.
 

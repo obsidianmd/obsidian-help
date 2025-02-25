@@ -1,3 +1,6 @@
+---
+permalink: plugins/daily-notes
+---
 Daily notes opens a note based on today's date, or creates it if it doesn't exist. Use daily notes to create journals, to-do lists, or daily logs for things you discovered during the day.
 
 To open today's daily note, either:

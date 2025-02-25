@@ -2,30 +2,31 @@
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+permalink: payment
 ---
-Obsidian currently offers five items available for purchase to augment your Obsidian experience. 
+Obsidian offers several services and licenses available for purchase.
 
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
-	- Sync notes across devices
+	- Sync notes across devices.
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
-	- Publish notes to the web
+	- Publish notes to the web.
 - [[Obsidian Credit]]
-	- Purchase and Gift Obsidian services
+	- Purchase and Gift Obsidian services.
 - [[Commercial license]]
-	- Support Obsidian and become a featured organization
+	- Support Obsidian and become a featured organization.
 - [[Catalyst license]]
-	- Support Obsidian and get early access versions
+	- Support Obsidian and get early access versions.
 
-[[Education and non-profit discount|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Refund policy]] for more information.
+ [[Education and non-profit discount|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Refund policy]] for more information.
 
-## Purchasing services
+## Purchase a service or license
 
 1. Log in or create [your Obsidian account](https://obsidian.md/account).
 2. Navigate to the section corresponding to the item you wish to purchase:
-    1. **Obsidian Credit** can be found in the **Billing** section.
-    2. **Commercial licenses** can be found in the **License** section.
-    3. **Obsidian Sync** can be found in the **Sync** section.
-    4. **Obsidian Publish** can be found in the **Publish** section.
+    1. **Obsidian Sync** can be found in the **Sync** section.
+    2. **Obsidian Publish** can be found in the **Publish** section.
+    3. **Obsidian Credit** can be found in the **Billing** section.
+    4. **Commercial licenses** can be found in the **License** section.
     5. **Catalyst licenses** can be found in the **Catalyst** section.
 3. Click the purple **Buy** button to proceed with your purchase.
 

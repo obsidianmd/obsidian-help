@@ -1,10 +1,10 @@
 ---
-aliases: 
-- alias
-- aliases
-- How to/Add aliases to note
+aliases:
+  - alias
+  - aliases
+  - How to/Add aliases to note
+permalink: aliases
 ---
-
 If you want to reference a file using different names, consider adding _aliases_ to the note. An alias is an alternative name for a note.
 
 Use aliases for things like acronyms, nicknames, or to refer to a note in a different language.

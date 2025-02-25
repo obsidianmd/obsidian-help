@@ -3,7 +3,7 @@ aliases:
   - Obsidian Publish/Collaborating
 description: Learn how to collaborate with other Obsidian users on your Obsidian Publish site.
 mobile: true
-permalink: 
+permalink: publish/collaborate
 publish: true
 ---
 Learn how to collaborate on your [[Introduction to Obsidian Publish|Obsidian Publish]] site with other Obsidian users. By adding your friends and colleagues as collaborators, they can publish changes to your site.

@@ -1,6 +1,7 @@
 ---
 aliases:
   - User interface/Workspace/Status bar
+permalink: status-bar
 ---
 The status bar shows small bits of information in the bottom right corner of the window. That includes helpful information about the current file, the current vault, or the current status like time and date.
 
