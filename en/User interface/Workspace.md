@@ -1,6 +1,7 @@
 ---
 aliases:
   - User interface/Workspace/Workspace
+permalink: workspace
 ---
 ## Desktop
 

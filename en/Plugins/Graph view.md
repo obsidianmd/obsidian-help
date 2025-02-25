@@ -1,3 +1,6 @@
+---
+permalink: plugins/graph
+---
 The Graph view lets you visualize the relationships between the notes in your vault.
 
 To open the Graph view, click **Open graph view** in the [[Ribbon]].

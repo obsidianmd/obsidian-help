@@ -4,8 +4,8 @@ aliases:
 description: This page explains the style guide for writing our support documentation.
 publish: true
 mobile: true
+permalink: style-guide
 ---
-
 The Obsidian documentation uses the [Google developer documentation style guide](https://developers.google.com/style). For any topics not covered by the Google style guide, use the [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/).
 
 This page lists any deviations from the Google style guide, or terminology worth highlighting.

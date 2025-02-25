@@ -3,6 +3,7 @@ aliases:
   - How to/Use hotkeys
   - Customization/Custom hotkeys
   - Keyboard shortcuts
+permalink: hotkeys
 ---
 Obsidian allows you to customize hotkeys, also known as keyboard shortcuts.
 

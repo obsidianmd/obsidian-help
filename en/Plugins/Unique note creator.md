@@ -1,6 +1,7 @@
 ---
 aliases:
-- Zettelkasten prefixer
+  - Zettelkasten prefixer
+permalink: plugins/unique-note
 ---
 
 Unique note creator lets you create notes with time-based names, also known as Zettelkasten notes.

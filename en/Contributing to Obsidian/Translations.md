@@ -1,6 +1,7 @@
 ---
 aliases:
   - Add a language
+permalink: translations
 ---
 If you know another language, preferably natively, you can help translate the Obsidian user interface or the documentation.
 

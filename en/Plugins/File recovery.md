@@ -2,8 +2,8 @@
 aliases: 
 description: File Recovery helps protect your work from unintentional data loss by automatically saving snapshots of your notes at regular intervals.
 mobile: true
-permalink: 
 publish: true
+permalink: plugins/file-recovery
 ---
 
 File recovery helps you recover your work in the case of unintentional data loss, by regularly saving snapshots of your notes.

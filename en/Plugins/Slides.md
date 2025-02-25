@@ -1,3 +1,6 @@
+---
+permalink: plugins/slides
+---
 Slides lets you create presentations from your notes. To start a presentation:
 
 **File menu:**

@@ -2,6 +2,7 @@
 aliases:
   - Obsidian Publish/Redirecting old notes
   - Obsidian Publish/Redirect old notes
+permalink: publish/permalinks
 ---
 You can rename the URL to your notes, using _permalinks_.
 

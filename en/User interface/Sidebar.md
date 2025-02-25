@@ -1,6 +1,7 @@
 ---
 aliases:
   - User interface/Workspace/Sidebar
+permalink: sidebar
 ---
 On desktop and larger tablets, Obsidian has two sidebars on both left and right. The left sidebar includes the [[Ribbon]].
 

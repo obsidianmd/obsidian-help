@@ -5,6 +5,7 @@ aliases:
   - Cancel subscription
 cssclasses:
   - soft-embed
+permalink: refunds
 ---
 We offer full refunds within 7 days of purchase with no questions asked for the following services:
 

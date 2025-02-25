@@ -1,3 +1,6 @@
+---
+permalink: plugins/templates
+---
 You can use Templates to insert pre-defined snippets of text into your active note.
 
 ## Set your template folder

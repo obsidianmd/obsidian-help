@@ -1,3 +1,6 @@
+---
+permalink: plugins/search
+---
 The Search plugin helps you quickly find key data within your Obsidian vault by using advanced search terms and operators to narrow down results.
 
 By default, you can find Search in the left sidebar ( ![[lucide-search.svg#icon]] ). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).

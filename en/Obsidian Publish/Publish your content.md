@@ -2,8 +2,8 @@
 aliases:
   - Obsidian Publish/Publish and unpublish notes
 description: Learn how to publish your content using Obsidian Publish
+permalink: publish/publish
 mobile: true
-permalink: 
 publish: true
 ---
 

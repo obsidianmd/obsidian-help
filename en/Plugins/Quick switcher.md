@@ -1,3 +1,6 @@
+---
+permalink: plugins/quick-switcher
+---
 The Quick switcher lets you search and open notes using only your keyboard.
 
 ## Open Quick switcher

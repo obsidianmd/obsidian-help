@@ -4,10 +4,9 @@ aliases:
   - Markdown
 description: Learn how to apply basic formatting to your notes in Obsidian, using Markdown.
 mobile: true
-permalink: 
 publish: true
+permalink: syntax
 ---
-
 Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Advanced formatting syntax]].
 
 ## Paragraphs

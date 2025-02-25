@@ -2,6 +2,7 @@
 description: This page details some common problems that you may run into when using Obsidian Publish
 mobile: true
 publish: true
+permalink: publish/troubleshoot
 ---
 This page lists common issues you might encounter with [[Introduction to Obsidian Publish|Obsidian Publish]] and how to address them.
 

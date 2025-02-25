@@ -2,6 +2,7 @@
 aliases:
   - .config
   - Customization/Config folders
+permalink: configuration-folder
 ---
 Obsidian's configuration folder contains all the settings files pertaining to your [[Manage vaults|vault]].
 

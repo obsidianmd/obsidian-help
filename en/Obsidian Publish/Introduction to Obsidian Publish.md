@@ -4,6 +4,7 @@ aliases:
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+permalink: publish
 ---
 
 [Obsidian Publish](https://obsidian.md/publish) is a cloud-based hosting service that lets you publish your notes as a wiki, knowledge base, documentation, or digital garden.

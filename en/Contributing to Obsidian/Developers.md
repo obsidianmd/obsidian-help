@@ -1,7 +1,8 @@
 ---
 aliases:
-- Developers/Build plugins
-- Developers/Build themes
+  - Developers/Build plugins
+  - Developers/Build themes
+permalink: developers
 ---
 If you are a developer you can contribute to Obsidian in various ways.
 

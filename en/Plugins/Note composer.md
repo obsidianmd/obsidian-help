@@ -1,3 +1,6 @@
+---
+permalink: plugins/note-composer
+---
 Note composer lets you merge two notes or extract part of a note into a new note.
 
 ## Merge notes

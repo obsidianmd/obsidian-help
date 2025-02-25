@@ -1,13 +1,14 @@
 ---
-aliases: Sync your notes across devices
+aliases:
+  - Sync your notes across devices
+  - getting-started/sync-your-notes-across-devices
 cssclasses:
   - soft-embed
 description: This guide will help you sync your Obsidian vaults across different devices and platforms.
 mobile: true
-permalink: getting-started/sync-your-notes-across-devices
+permalink: sync-notes
 publish: true
 ---
-
 This guide will help you sync your Obsidian vaults across different devices and platforms. We cover common sync methods by type and platform, including tips for avoiding data loss and ensuring a smooth experience.
 
 We also recommend reading our [[Back up your Obsidian files|backup]] guide alongside this article for the best protection of your data.

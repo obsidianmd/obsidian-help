@@ -1,6 +1,7 @@
 ---
 aliases:
   - Obsidian Publish/Set up Google Analytics
+permalink: publish/analytics
 ---
 ## Prerequisites
 

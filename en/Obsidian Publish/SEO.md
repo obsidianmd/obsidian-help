@@ -1,6 +1,7 @@
 ---
 aliases:
   - Search Engine Optimization
+permalink: publish/seo
 ---
 [[Introduction to Obsidian Publish|Obsidian Publish]] sites are automatically optimized for search engines and [[Social media link previews|social sharing cards]]. You can also customize page metadata with descriptions, permalinks, and images.
 

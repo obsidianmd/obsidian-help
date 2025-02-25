@@ -3,6 +3,7 @@ aliases:
   - User interface/Vault switcher
   - How to/Working with multiple vaults
   - Vault switcher
+permalink: manage-vaults
 ---
 A **vault** is a folder on your file system which contains your notes, [[attachments]], and the [[configuration folder]] with Obsidian-specific settings. For more information on vaults, refer to [[How Obsidian stores data]].
 

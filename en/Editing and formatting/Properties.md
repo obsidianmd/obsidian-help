@@ -6,6 +6,7 @@ aliases:
   - property
 cssclasses:
   - soft-embed
+permalink: properties
 ---
 Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
 
