@@ -90,11 +90,11 @@ iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive
 
 ## Google Drive
 
-**Recommended systems**: `Windows`, `macOS`, `Android` (limited functionality on iOS)
+**Recommended systems**: `Windows`, `macOS` (limited functionality on Android and iOS)
 
 [Google Drive](https://support.google.com/drive/answer/10838124?hl=en) is another popular cloud storage solution. Although it's not officially supported for syncing Obsidian vaults, you can use third-party apps and plugins to sync across devices.
 
-> [!Important] Google Drive is not officially supported for syncing Obsidian vaults on iOS. Consider using a third-party solution or plugin to sync on iOS.
+> [!Important] Google Drive is not officially supported for syncing Obsidian vaults on Android and iOS. Consider using a third-party solution or plugin to sync on those platforms.
 
 **How to create and store your vault in Google Drive**:
 
@@ -111,11 +111,11 @@ iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive
 
 > [!Tip] Best Practices:
 > - Set vault files to **Available Offline** in Google Drive to avoid syncing issues due to offloading.
-> - For iOS, consider alternative methods like [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]], or use the **Remotely Save** plugin.
+> - For Android and iOS, consider alternative methods like [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]] for iOS, or use the **Remotely Save** plugin.
 
 ## Syncthing
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`, `Android`
+**Recommended systems**: `Windows`, `macOS`, `Linux`
 
 Syncthing is a decentralized file synchronization tool that doesn't rely on cloud storage. It syncs your vault directly between devices over the network or internet.
 
