@@ -17,7 +17,7 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 
 - Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
 - kepano ([Steph Ango](https://stephanango.com/))
-- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
+- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Sorcerous Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
 
 ## Moderators
 
@@ -145,7 +145,7 @@ Apache License 2.0
 
 ### Mermaid
 
-Version `10.6.1`
+Version `11.4.1`
 MIT License
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
