@@ -195,9 +195,9 @@ Performs basic arithmetic operations on numbers.
 
 Returns the length of strings, arrays, or number of keys in objects.
 
-- For strings: `"hello"|length` returns `"5".`
-- For arrays: `["a","b","c"]|length` returns `"3".`
-- For objects: `{"a":1,"b":2}|length` returns `"2"`.
+- For strings: `"hello"|length` returns `5.`
+- For arrays: `["a","b","c"]|length` returns `3.`
+- For objects: `{"a":1,"b":2}|length` returns `2`.
 
 ### `round`
 
