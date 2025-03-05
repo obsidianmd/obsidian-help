@@ -115,7 +115,7 @@ Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2
 
 ### Electron
 
-Version `34.2.0`
+Version `34.3.0`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
