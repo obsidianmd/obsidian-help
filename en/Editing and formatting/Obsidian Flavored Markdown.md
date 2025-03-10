@@ -13,6 +13,7 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 | `![[Link]]`     | [[Embed files]]                                                       |
 | `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]        |
 | `^id`           | [[Internal links#Link to a block in a note\|Defining a block]]        |
+| `[^id]`         | [[Basic formatting syntax#Footnotes\|Footnotes]]                      |
 | `%%Text%%`      | [[Basic formatting syntax#Comments\|Comments]]                        |
 | `~~Text~~`      | [[Basic formatting syntax#Bold, italics, highlights\|Strikethroughs]] |
 | `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|Highlights]]     |
