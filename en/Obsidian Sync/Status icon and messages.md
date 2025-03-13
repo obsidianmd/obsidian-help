@@ -96,6 +96,8 @@ To reduce vault size:
 **Vault not found** 
 `{"res":"err","msg":"Vault not found."}`
 
+> [!info] This error message 
+
 This error may occur in these cases:
 
 1. The vault was deleted from another device.
@@ -103,6 +105,11 @@ This error may occur in these cases:
 3. The subscription was canceled or refunded, resulting in the remote vault's deletion.
  
 In these cases, you'll need to [[Set up Obsidian Sync#Disconnect from a remote vault|disconnect from the remote vault]] and [[Set up Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring your local data is preserved.
+
+**Your subscription to Obsidian sync has expired.**
+Your account is now in a fully expired status as we were unable to process the payment on file. 
+
+To continue using Obsidian Sync, you will need to resubscribe within [your account](https://obsidian.md/account/sync).
 
 ### Network messages
 
