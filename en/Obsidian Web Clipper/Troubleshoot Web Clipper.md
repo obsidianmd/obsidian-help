@@ -1,5 +1,6 @@
 ---
 permalink: web-clipper/troubleshoot
+description: Learn how to fix common issues you may experience with Obsidian Web Clipper.
 ---
 If you encounter issues with [[Introduction to Obsidian Web Clipper|Web Clipper]] you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repository](https://github.com/obsidianmd/obsidian-clipper).
 
@@ -9,7 +10,7 @@ If you encounter issues with [[Introduction to Obsidian Web Clipper|Web Clipper]
 
 By default, Web Clipper tries to intelligently capture content from the page. However, it may not be successful in doing so across all websites.
 
-Web Clipper uses a home-grown, Obsidian-made library called [Defuddle](https://github.com/kepano/defuddle) to capture only the main content of the page. It is intended for articles, and as you may imagine, it is very difficult to get the ideal content from each and every page. You can [report bugs here](https://github.com/kepano/defuddle/issues).
+Web Clipper uses a home-grown, Obsidian-made library called [Defuddle](https://github.com/kepano/defuddle) to capture only the main content of the page. It is intended for articles, and it cannot get the desired content from all sites. You can [report bugs here](https://github.com/kepano/defuddle/issues).
 
 To bypass Defuddle in Web Clipper, you can use the following methods:
 
@@ -52,11 +53,11 @@ misc {
 
 To enable the Web Clipper extension for Safari:
 
-1. Go to Safari, tap the left-most button in the browser URL bar.
+1. Go to Safari, tap the left-most button in the browser URL bar. (![[Safari button.png|12]])
 2. Tap **Manage Extensions**.
-3. Enable **Obsidian Web Clipper** in the Extensions list.
+3. Enable **Obsidian Web Clipper** in the **Extensions** list.
 4. Exit the menu.
-5. To use the extension, **tap the puzzle piece icon** in the URL bar.
+5. To use the extension, tap **the puzzle piece icon** in the URL bar.
 
 To allow Web Clipper to run on all websites:
 
