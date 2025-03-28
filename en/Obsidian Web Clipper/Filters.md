@@ -221,13 +221,13 @@ Converts a string to an [[Obsidian Flavored Markdown]] formatted string.
 Removes only the specified HTML attributes from tags.
 
 - Example: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returns `<div id="example">Content</div>`.
-- Multiple attributes: `{{contentHtml|remove_attr:("class,style,id")}}`
+- Multiple attributes: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
 
 Removes the specified HTML elements and their content from a string.
 
-- Supports tag name, class, or id, e.g. `{{contentHtml|remove_html:("img,.class-name,#element-id")}}`
+- Supports tag name, class, or id, e.g. `{{fullHtml|remove_html:("img,.class-name,#element-id")}}`
 - To remove only HTML tags or attributes without removing the content use the `strip_tags` or `strip_attr` filters.
 
 ### `remove_tags` 
@@ -235,13 +235,13 @@ Removes the specified HTML elements and their content from a string.
 Removes only the specified HTML tags. Keeps the content of the tags.
 
 - Example: `"<p>Hello <b>world</b>!</p>"|remove_tags:"b"` returns `"<p>Hello world!</p>"`.
-- Multiple tags: `{{contentHtml|remove_tags:("a,em,strong")}}`
+- Multiple tags: `{{fullHtml|remove_tags:("a,em,strong")}}`
 
 ### `replace_tags`
 
 Replaces HTML tags, maintaining the content and attributes of the tag.
 
-- `{{contentHtml|replace_tags:"strong":"h2"}}` replaces all `<strong>` tags with `<h2>`.
+- `{{fullHtml|replace_tags:"strong":"h2"}}` replaces all `<strong>` tags with `<h2>`.
 
 ### `strip_attr`
 
