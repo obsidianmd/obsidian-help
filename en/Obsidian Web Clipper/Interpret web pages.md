@@ -77,6 +77,8 @@ Interpreter includes several preset providers. To use these providers you need a
 | Ollama             | n/a                                                         | [Models](https://ollama.com/search)                                                  |
 | OpenAI             | [API&nbsp;key](https://platform.openai.com/api-keys)        | [Models](https://platform.openai.com/docs/models)                                    |
 | OpenRouter         | [API&nbsp;key](https://openrouter.ai/settings/keys)         | [Models](https://openrouter.ai/models)                                               |
+| Perplexity         | [API key](https://www.perplexity.ai/settings/api)           | [Models](https://docs.perplexity.ai/guides/model-cards)                              |
+
 
 ### Choosing a model
 
