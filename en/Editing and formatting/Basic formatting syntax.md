@@ -241,17 +241,23 @@ You can create an unordered list by adding a `-`, `*`, or `+` before the text.
 - Second list item
 - Third list item
 
-To create an ordered list, start each line with a number followed by a `.` symbol.
+To create an ordered list, start each line with a number followed by a `.` or `)` symbol.
 
 ```md
 1. First list item
 2. Second list item
 3. Third list item
+4) Fourth list item
+5) Fifth list item
+6) Sixth list item
 ```
 
 1. First list item
 2. Second list item
 3. Third list item
+4) Fourth list item
+5) Fifth list item
+6) Sixth list item
 
 You can use `shift + enter` to insert a [[#Line breaks|line break]] within an ordered list without altering the numbering.
 
