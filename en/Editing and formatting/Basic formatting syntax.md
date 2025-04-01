@@ -4,9 +4,10 @@ aliases:
   - Markdown
 description: Learn how to apply basic formatting to your notes in Obsidian, using Markdown.
 mobile: true
-publish: true
 permalink: syntax
+publish: true
 ---
+
 Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Advanced formatting syntax]].
 
 ## Paragraphs
@@ -363,13 +364,19 @@ If you want to put backticks in an inline code block, surround it with double ba
 
 ### Code blocks
 
-To format a block of code, surround the code with triple backticks.
+To format code as a block, enclose it with three backticks or three tildes.
 
 ~~~
 ```
 cd ~/Desktop
 ```
 ~~~
+
+```
+~~~
+cd ~/Desktop
+~~~
+```
 
 ```md
 cd ~/Desktop
