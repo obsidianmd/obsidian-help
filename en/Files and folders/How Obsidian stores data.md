@@ -26,6 +26,7 @@ By default, most operating systems hide folders that start with a period (`.`), 
 
 - **macOS**: In Finder, press `Cmd+Shift+.` (period) to show hidden files.
 - **Windows**: [Show hidden files](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)
++ **GNU/Linux:** In most File Explorers, press `Ctrl + h` to show hidden files.
 
 > [!tip] Adding `.obsidian` to Git
 > The `.obsidian/workspace.json` and `.obsidian/workspaces.json` files store the current workspace layout and update whenever you open a new file. If you use [Git](https://git-scm.com) to manage your vault, you might want to add these files to `.gitignore`.
