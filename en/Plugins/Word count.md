@@ -1,4 +1,5 @@
 ---
+description: Learn about the Word Count core plugin.
 permalink: plugins/word-count
 ---
 
