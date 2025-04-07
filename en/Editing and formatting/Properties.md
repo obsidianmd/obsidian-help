@@ -168,7 +168,7 @@ linklist:
 ```
 
 
-Number type properties must always be an integer. The integer may contain decimal points, but not operators.
+Number type properties must always be a literal number, not an expression with operators. Integers and decimals are both allowed.
 ^numbers
 
 ```yaml
