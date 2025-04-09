@@ -9,6 +9,7 @@ mobile: true
 permalink: sync-notes
 publish: true
 ---
+
 This guide will help you sync your Obsidian vaults across different devices and platforms. We cover common sync methods by type and platform, including tips for avoiding data loss and ensuring a smooth experience.
 
 We also recommend reading our [[Back up your Obsidian files|backup]] guide alongside this article for the best protection of your data.
@@ -209,4 +210,4 @@ If services like OneDrive or iCloud offload files (e.g., using **Files On-Demand
 
 **How do I manage different configurations for my vaults?**
 
-Obsidian allows you to customize the configuration folder per device using the [[Configuration folder|Customization/Config folders]] feature.
+Obsidian allows you to customize the configuration folder per device using the [[Configuration folder|Config folders]] feature.
