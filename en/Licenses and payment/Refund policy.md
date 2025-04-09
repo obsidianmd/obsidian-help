@@ -12,13 +12,11 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 
-
-> [!Warning] No refunds for Catalyst, Commercial Licenses, and Obsidian Credit
-> [[Catalyst license|Catalyst licenses]] and [[Commercial license|Commercial licenses]] are **not** refundable. They're intended to support the Obsidian development and aren't sold as products.
+> [!Warning] Non-refundable purchases
+> Some purchases are **not** refundable:
 > 
-> Similarly, we do not offer refunds for [[Obsidian Credit]], as credit can be transferred to another account.
-> 
-> Sorry for the inconvenience.
+> - [[Catalyst license|Catalyst licenses]] and [[Commercial license|Commercial licenses]] are not refundable. They are intended to support Obsidian development and are not services.
+> - [[Obsidian Credit]] is not refundable because credit can be transferred to another account.
 
 > [!tip] Talk to a human
 > If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, [[Help and support#Contact Obsidian support|contact Obsidian support]].
