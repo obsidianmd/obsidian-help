@@ -110,7 +110,7 @@ If you have freshly installed Obsidian, when you open the program you will be pr
 4. You will be asked to choose which remote vault you want to sync to this device. Select **Connect**.
 5. You will be asked to choose a name for the local vault that will be created on the device to hold this data. Enter the name of your choice. 
 	1. If you use [[Obsidian URI]]s, you will want to use the same name as the local vault on your other device. 
-6. Secret **Create**.
+6. Select **Create**.
 7. The remove vaults window will pop-up momentary as Obsidian Sync connects to your server and validates the subscription. It will then present you a *Setup Connection* window. 
 	1. It is highly recommended that you close or swipe down from this window, and [[#Adjust Obsidian Sync settings|adjust Obsidian Sync settings]] first.
 	2. If you change any Sync Settings, please reload or restart Obsidian.
