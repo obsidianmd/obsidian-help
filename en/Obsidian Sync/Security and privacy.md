@@ -2,6 +2,10 @@
 aliases:
   - Security/privacy for Obsidian Sync
   - Access control for Obsidian Sync
+description: Learn about the security and privacy considerations for Obsidian Sync.
+mobile: false
+permalink: sync/security
+publish: true
 ---
 
 ## Encryption
@@ -58,18 +62,19 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 
 1. Make a full vault backup on your primary device, just in case something goes wrong. This can be as simple as making a copy of the vault folder, or creating a zip file from the vault.
 2. Disconnect the remote vault in each of your devices. This can be done by going to **Settings → Sync → Pick remote vault → Disconnect**.
-3. [[Set up Obsidian Sync#Create a new remote vault|Create a new remote vault]] on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the [[Sync limitations#How many remote vaults can I have?|vault limit]])
+3. [[Set up Obsidian Sync#Create a new remote vault|Create a new remote vault]] on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the [[Frequently asked questions#How many remote vaults can I have?|vault limit]])
 4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
 6. Now all your devices should be connected to the new remote vault.
 
 ## Hosting
+
 ### Where do you host the servers for Obsidian Sync?
 
 Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provide geo-regional remote vault hosting options in the following locations:
 
 > [!abstract] Sync geo-regions
-> **Automatic**: Your data center is chosen based off your IP location.
+> **Automatic**: Your data center is chosen based on your IP location.
 > 
 > **Asia**: Singapore
 > **Europe**: Frankfurt, Germany

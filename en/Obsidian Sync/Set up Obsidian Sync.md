@@ -4,12 +4,11 @@ aliases:
 cssclasses:
   - soft-embed
 description: You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
-publish: true
 mobile: true
+permalink: sync/setup
+publish: true
 ---
-
-
-You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+You purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
 
 - **New to Obsidian Sync?** See: [[#Set up Obsidian Sync for the first time]]
 - **Connecting a second device?** See: [[#Sync a remote vault on another device]]
@@ -19,7 +18,7 @@ You've purchased Obsidian Sync and are ready to get started. This guide will hel
 
 In this section, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new, empty local vault to use Obsidian Sync for this purpose.
 
-> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Sync limitations#Can I use a third-party sync with Obsidian Sync?|this]] and [[Migrate to Obsidian Sync]] before proceeding.
+> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|this]] and [[Switch to Obsidian Sync]] before proceeding.
 
 **Prerequisites**
 
@@ -39,8 +38,8 @@ In this section, you'll create a new [[Local and remote vaults|remote vault]] an
 ### Enable Obsidian Sync
 
 1. Open **Settings**.
-2. In the sidebar, select **Core plugins**.
-3. Enable **Sync**.
+2. In the sidebar under **Options**, select **Core Plugins**.
+3. Toggle **Sync**.
 
 ### Create a new remote vault
 
@@ -111,7 +110,7 @@ If you have freshly installed Obsidian, when you open the program you will be pr
 4. You will be asked to choose which remote vault you want to sync to this device. Select **Connect**.
 5. You will be asked to choose a name for the local vault that will be created on the device to hold this data. Enter the name of your choice. 
 	1. If you use [[Obsidian URI]]s, you will want to use the same name as the local vault on your other device. 
-6. Secret **Create**.
+6. Select **Create**.
 7. The remove vaults window will pop-up momentary as Obsidian Sync connects to your server and validates the subscription. It will then present you a *Setup Connection* window. 
 	1. It is highly recommended that you close or swipe down from this window, and [[#Adjust Obsidian Sync settings|adjust Obsidian Sync settings]] first.
 	2. If you change any Sync Settings, please reload or restart Obsidian.
@@ -170,22 +169,9 @@ If you're unsure where your current vault's region is, check out [[Obsidian Sync
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
-After selecting a location, it's crucial to be aware that the data center **cannot** be changed afterward. If you wish to relocate your data, the process involves recreating a remote vault and specifying the desired hosting location during the setup.
+After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Migrate a Sync vault|follow vault migration guide]].
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
-
-#### Change your remote vault region
-
-To change your remote vault's region, you will need to perform the following steps in order. Please make a [[Back up your Obsidian files|backup]] of your data first.
-
-![[#Disconnect from a remote vault]]
-
-If you are on the [[Plans and storage limits|Standard Plan]], you will also need to [[#Delete a remote vault|delete your remote vault]] before proceeding.
-
-![[#Create a new remote vault]]
-![[#Connect to a remote vault]]
-
-Additionally, you can [[#Delete a remote vault|delete your old remote vault]] once you have confirmed transition to your new remote vault and its region. 
 
 ## Next steps
 
@@ -194,4 +180,4 @@ Here are some suggested documents to read next.
 - Explore more about [[Sync settings and selective syncing|selecting files and settings to sync]].
 - Learn what happens if your remote vault [[Version history|fill up]].
 - [[Collaborate on a shared vault]] with another Obsidian Sync user.
-- Check out the [[Sync limitations|Sync FAQ]] for some answers to common questions.
+- Check out the [[Frequently asked questions|Sync FAQ]] for some answers to common questions.

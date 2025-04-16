@@ -6,7 +6,7 @@ Sin embargo, hay algunos datos que necesita el software que no se almacenan en M
 
 ### Directorio del sistema
 
-Obsidian también almacena cierta información en el directorio del sistema. Esto es diferente según el sistema operativo; en Mac es  `/Users/yourusername/Library/Application Support/Obsidian`, en Windows `%APPDATA%\Obsidian\`, y  `$XDG_CONFIG_HOME/Obsidian/` o  `~/.config/Obsidian/` en Linux. Como resultado, recomendamos no crear una bóveda en este directorio.
+Obsidian también almacena cierta información en el directorio del sistema. Esto es diferente según el sistema operativo; en Mac es  `/Users/yourusername/Library/Application Support/Obsidian`, en Windows `%APPDATA%\Obsidian\`, y  `$XDG_CONFIG_HOME/obsidian/` o  `~/.config/obsidian/` en Linux. Como resultado, recomendamos no crear una bóveda en este directorio.
 
 Sin embargo, aparte de eso, puede crear una bóveda en cualquier lugar que su sistema operativo lo permita. Los archivos de Obsidian se sincronizan bien con Dropbox, iCloud, OneDrive, git y todos los demás servicios de sincronización que hemos probado hasta ahora.
 

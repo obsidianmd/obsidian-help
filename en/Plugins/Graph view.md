@@ -1,9 +1,12 @@
+---
+permalink: plugins/graph
+---
 The Graph view lets you visualize the relationships between the notes in your vault.
 
 To open the Graph view, click **Open graph view** in the [[Ribbon]].
 
 - Circles represent notes, or _nodes_.
-- Lines represents [[Internal links]] between two nodes.
+- Lines represent [[Internal links]] between two nodes.
 
 The more nodes that reference a given node, the bigger it gets.
 
@@ -30,7 +33,7 @@ Click **Restore default settings** in the upper-right corner of the settings box
 
 This section controls what nodes to show in the graph.
 
-- **Search files** lets you filter notes based on a search query. To learn about how you can write more advanced search queries, refer to [[Search]].
+- **Search files** lets you filter notes based on a search term. To learn about how you can write more advanced search terms, refer to [[Search]].
 - **Tags** toggles whether to show tags in the graph.
 - **Attachments** toggles whether to show attachments in the graph.
 - **Existing files only** toggles whether to show notes that exists in your vault. Since a note doesn't need to exist to link to it, this can help reduce limit your graph to notes that you actually have in your vault.
@@ -43,10 +46,10 @@ Create groups of notes to distinguish them from each other using color.
 To create a new group:
 
 1. Click **New group**.
-2. In the search box, type a search query for the notes you want to add to the group.
+2. In the search box, type a search term for the notes you want to add to the group.
 3. Click the colored circle to give the group a color.
 
-To learn about how you can write more advanced search queries, refer to [[Search]].
+To learn about how you can write more advanced search terms, refer to [[Search]].
 
 ### Display
 

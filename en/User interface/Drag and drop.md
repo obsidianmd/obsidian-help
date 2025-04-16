@@ -1,3 +1,6 @@
+---
+permalink: drag-and-drop
+---
 There are many ways to drag and drop elements in Obsidian. This includes tabs, files, folders, and content.
 
 ### Drag tabs

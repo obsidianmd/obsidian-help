@@ -1,13 +1,14 @@
 ---
+aliases:
 cssclasses:
   - soft-embed
 description: This page lists uncommon issues you may encounter with Obsidian Sync and how to resolve them.
 mobile: true
+permalink: sync/troubleshoot
 publish: true
 ---
 
-
-This page lists uncommon issues you may encounter with [[Introduction to Obsidian Sync|Obsidian Sync]] and how to resolve them. Before proceeding, we recommend reviewing the [[Status icon and messages]] and [[Sync limitations]] pages.
+This page lists uncommon issues you may encounter with [[Introduction to Obsidian Sync|Obsidian Sync]] and how to resolve them. Before proceeding, we recommend reviewing the [[Status icon and messages]] and [[Frequently asked questions]] pages.
 
 ## General
 
@@ -31,7 +32,7 @@ If a note is created locally on one device and, within a couple of minutes, Sync
 
 ### Sync will not Sync my plugins and settings updates
 
-Obsidian [[Sync limitations#Does Obsidian Sync live-reload my settings?|does not live-reload all settings]]. After updating settings or plugins, you'll need to restart Obsidian on other devices to reflect the changes. On mobile devices, a force-quit of the app may be necessary.
+Obsidian [[Frequently asked questions#Does Obsidian Sync live-reload my settings?|does not live-reload all settings]]. After updating settings or plugins, you'll need to restart Obsidian on other devices to reflect the changes. On mobile devices, a force-quit of the app may be necessary.
 
 > [!example] Changing a theme
 > - On your primary device (usually a computer), you change your theme back to the default from a custom theme.
@@ -44,11 +45,9 @@ Obsidian [[Sync limitations#Does Obsidian Sync live-reload my settings?|does not
 
 This issue is most commonly seen on Windows, where Windows Defender may quarantine files with code blocks, causing certain notes to disappear.
 
----
-
 Another frequent cause is double-syncing, where Obsidian Sync is running alongside another syncing service.
 
-![[Migrate to Obsidian Sync#Moving your vault out of a third-party syncing service]]
+![[Switch to Obsidian Sync#Moving your vault out of a third-party syncing service]]
 
 ---
 

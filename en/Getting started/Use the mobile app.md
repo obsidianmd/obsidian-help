@@ -1,3 +1,6 @@
+---
+permalink: mobile
+---
 The mobile app aims to provide a familiar user experience for those already using the desktop app.
 
 That being said, there are a few features unique to the mobile app. In this guide, you’ll learn about them to get the most use out of the mobile app.

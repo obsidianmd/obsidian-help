@@ -1,10 +1,12 @@
 ---
-aliases: Sync your notes across devices
+aliases:
+  - Sync your notes across devices
+  - getting-started/sync-your-notes-across-devices
 cssclasses:
   - soft-embed
 description: This guide will help you sync your Obsidian vaults across different devices and platforms.
 mobile: true
-permalink: getting-started/sync-your-notes-across-devices
+permalink: sync-notes
 publish: true
 ---
 
@@ -208,4 +210,4 @@ If services like OneDrive or iCloud offload files (e.g., using **Files On-Demand
 
 **How do I manage different configurations for my vaults?**
 
-Obsidian allows you to customize the configuration folder per device using the [[Configuration folder|Customization/Config folders]] feature.
+Obsidian allows you to customize the configuration folder per device using the [[Configuration folder|Config folders]] feature.

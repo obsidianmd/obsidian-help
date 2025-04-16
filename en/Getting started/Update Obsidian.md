@@ -2,8 +2,8 @@
 aliases:
   - How to/Update Obsidian
   - Installer version update
+permalink: updates
 ---
-
 Obsidian regularly checks for new updates. If automatic updates are enabled, the application will apply any available updates when you restart it.
 
 ## Check for an update and the current version

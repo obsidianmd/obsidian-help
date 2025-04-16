@@ -1,3 +1,6 @@
+---
+permalink: plugins/format-converter
+---
 Format converter lets you convert Markdown from other applications to Obsidian format.
 
 > [!warning]

@@ -1,8 +1,8 @@
 ---
 aliases:
   - Advanced Markdown
+permalink: advanced-syntax
 ---
-
 Learn how to add advanced formatting syntax to your notes.
 
 ## Tables

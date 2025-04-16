@@ -5,23 +5,18 @@ aliases:
   - Cancel subscription
 cssclasses:
   - soft-embed
+permalink: refunds
 ---
-
-We offer full refunds within 7 days of purchase with no questions asked for the following services and licenses:
+We offer full refunds within 7 days of purchase with no questions asked for the following services:
 
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
-- [[Commercial license]]
 
-
-> [!Warning] No refunds for Catalyst or Obsidian Credit
-> [[Catalyst license|Catalyst licenses]] are **not** refundable. 
+> [!Warning] Non-refundable purchases
+> Some purchases are **not** refundable:
 > 
-> While they give you a number of benefits, they're intended to support the Obsidian development and aren't sold as products.
-> 
-> Similarly, we do not offer refunds for [[Obsidian Credit]], as credit can be transferred to another account.
-> 
-> Sorry for the inconvenience.
+> - [[Catalyst license|Catalyst licenses]] and [[Commercial license|Commercial licenses]] are not refundable. They are intended to support Obsidian development and are not services.
+> - [[Obsidian Credit]] is not refundable because credit can be transferred to another account.
 
 > [!tip] Talk to a human
 > If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, [[Help and support#Contact Obsidian support|contact Obsidian support]].
@@ -36,11 +31,9 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 ## Frequently asked questions
 
 **What happens if I refund my service?**
-
 Refunding an Obsidian Sync or Obsidian Publish subscription results in the deletion of any remote vaults or publish sites, which cannot be retrieved even if you subscribe again. However, your local data on your devices will remain unaffected.
 
 **What if I miss a payment and my subscription expires? Will I lose my remote vault data?**
-
 No, your data is retained in such cases for 30 days. If you do not resubscribe within that period, your remote vault or publish site data will be deleted. Your local data will remain unaffected.
 
 **If I qualify for a discount but have paid for my subscription in the past 7 days, what should I do?**

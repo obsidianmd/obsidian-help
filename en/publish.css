@@ -1,3 +1,9 @@
+.published-container {
+  --code-border-width: 1px;
+  --table-row-alt-background: var(--background-primary-alt);
+  --table-row-alt-background-hover: var(--background-primary-alt);
+}
+
 .site-body-left-column-site-logo {
   text-align: left;
   margin-bottom: 24px;
@@ -76,12 +82,35 @@ img {
   border-radius: 4px;
 }
 
+span.image-embed.is-loaded[src$="#interface"],
+span.video-embed[src$="#interface"] {
+  box-shadow: 0 0.5px 0.9px rgba(0, 0, 0, 0.021), 0 1.3px 2.5px rgba(0, 0, 0, 0.03), 0 3px 6px rgba(0, 0, 0, 0.039), 0 10px 20px rgba(0, 0, 0, 0.06);
+  margin: 2em 0;
+  overflow: hidden;
+  border-radius: var(--radius-m);
+  position: relative;
+  display: block;
+  width: fit-content;
+}
+span[src$="#interface"]:before {
+  position: absolute;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+  content:"";
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: var(--radius-m);
+}
+span[src$="#interface"] video {
+  margin: 0;
+  vertical-align: bottom;
+}
 span[src$="#interface"] img,
 img[src$="#interface"] {
-  border: 1px solid var(--background-modifier-border);
-  box-shadow: 0 0.5px 0.9px rgba(0, 0, 0, 0.021), 0 1.3px 2.5px rgba(0, 0, 0, 0.03), 0 3px 6px rgba(0, 0, 0, 0.039), 0 10px 20px rgba(0, 0, 0, 0.06);
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin: 0;
+  vertical-align: bottom;
   border-radius: var(--radius-m);
 }
 
@@ -181,6 +210,7 @@ img[src$="#outline"] {
 }
 .list-cards div > ul ul > li {
   display: block;
+  margin-inline-start: 0;
 }
 .theme-dark .list-cards div ul > li {
   background-color: var(--background-secondary);
@@ -238,6 +268,9 @@ img[src$="#outline"] {
 }
 .icon-app.icon-roam {
   background-image: url("data:image/svg+xml,%3Csvg fill='black' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M11.1 0a12 12 0 1 0 11.7 17.3 12 12 0 0 0-2.5-14A11.8 11.8 0 0 0 11.1 0zM16 2.6c1 .4 2 1 3 2 .6.6 1.3 1.4 1.3 1.6l-1.8.7v-.2l-.1-.3a77.4 77.4 0 0 0-3.4 2h-.2c-.1-.2-.2-.3-.3-.1l-.1.3v.2l-.8.5-1 .4h-.2V8.2a82.1 82.1 0 0 1 .4-4.1c0-1.1.2-1.3 1.3-1.4h.6l.1-.2.4-.2.8.3zm-7.1 0 .1.2h.7l.9.1c.3.2.5.5.5 1.2v.5h.4V10l-.2.2a3 3 0 0 0-1 .9l-.1.2H4.9V11H3.7l-.4-.6c-.3-.5-.4-.6-.7-.8-.4-.3-.4-.2-.2-1a9.8 9.8 0 0 1 6.3-6.2l.2.2zm12.2 5 .7 1.7-.3.2c-.4.2-.4.3-.4.5s-.2.4-.6.7l-.3.3h-1v.3h-2.8v-.9l-.3-.4-.3-.4a55 55 0 0 1 4.8-2.8l.5.7zm-5.6 3 .5.7h-1.8L14 11l-.2-.4L15 10l.5.7zm-7.3 2.6.4.7-5.2 3.4a6 6 0 0 1-1-2.1c-.2-.9-.3-.8.2-1l.6-.7.4-.6h1.2v-.5h3l.4.8zm1.8-.5.2.3-1 .6-.8-1.1h1.5l.1.2zm9.2 0v.2h.6c.6 0 .5 0 1.2.5v.4c.2.4.2.4.6.5.2 0 .3.2 0 .8a11 11 0 0 1-3.3 4.7c-.6.5-.6.5-.5 0 0-.7 0-1-.3-1.2-.2-.3-.5-.3-1.3.1l-.9.4c-.3 0-.6-.1-.8-.3l-.2-.1.4-.4c.5-.3.7-.7.6-.9-.2-.3-.5-.3-1-.2h-1c-.3-.1-.4-.4-.4-.7 0-.4 0-.4-.2-.7l-.2-.2v-1.8l.4-.3.7-.7.4-.4h5.2v.2zm-7.8 2.1v.8l-.3.2-.3.3.1.3v.6c0 .2-.3.3-.9.2a8.2 8.2 0 0 0-.7-.1c-.7 0-.7.5 0 1.2.2.4.2.4-.2.6-.5.3-.9.3-1.4-.1-.4-.3-.6-.4-1-.4l-.4.2-.1.2v1.4l-1.5-1.3a4 4 0 0 1-1-1.2l1.6-.7v.4l3-1.7a204.3 204.3 0 0 1 3-1.7v.8z'%3E%3C/path%3E%3C/svg%3E");
+}
+.icon-app.icon-craft {
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_2' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 110.9 110.9'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23254078%7D.cls-1%7Bfill-rule:evenodd%7D%3C/style%3E%3C/defs%3E%3Cg id='craft_logopack'%3E%3Cg id='craft_icon_colour_regular'%3E%3Cpath class='cls-1' d='M59 107.6c0 1.8 1.5 3.3 3.3 3.3h45.4c1.8 0 3.3-1.5 3.2-3.3a52 52 0 0 0-48.6-48.5 3.1 3.1 0 0 0-3.3 3.1v45.4ZM51.8 62.3c0-1.8-1.4-3.2-3.2-3.2H3.2A3.1 3.1 0 0 0 0 62.3 52 52 0 0 0 48.5 111c1.9 0 3.3-1.4 3.3-3.2V62.3Z'/%3E%3Cpath d='M51.8 48.5c0 1.9-1.4 3.3-3.2 3.3H3.2A3.1 3.1 0 0 1 0 48.5 52 52 0 0 1 48.5 0a3.1 3.1 0 0 1 3.3 3.2v45.3Z' style='fill:%23ff62fd;fill-rule:evenodd'/%3E%3Cpath d='M59 3.3C59 1.5 60.5 0 62.3 0h45.4c1.8 0 3.3 1.5 3.2 3.3a52 52 0 0 1-48.6 48.5 3.1 3.1 0 0 1-3.3-3.1V3.3Z' style='fill:%230078ff;fill-rule:evenodd'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 .theme-dark .icon-app.icon-html,
@@ -325,11 +358,11 @@ img[src$="#outline"] {
 
 @media screen and (max-width: 750px) {
   .site-header-text {
-    display: none;
+	display: none;
   }
   .list-cards.list-cards-mobile-full {
-    /* Use cssclasses: list-cards-mobile-full */
-    --list-cards-template: repeat(1, minmax(0, 1fr));
+	/* Use cssclasses: list-cards-mobile-full */
+	--list-cards-template: repeat(1, minmax(0, 1fr));
   }
 }
 

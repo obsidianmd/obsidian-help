@@ -1,3 +1,6 @@
+---
+permalink: credits
+---
 Names aren't listed by amount of contribution, but alphabetically (or at least we try!).
 
 ## Team
@@ -14,7 +17,7 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 
 - Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
 - kepano ([Steph Ango](https://stephanango.com/))
-- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
+- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Sorcerous Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
 
 ## Moderators
 
@@ -115,7 +118,7 @@ Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2
 
 ### Electron
 
-Version `31.6.0`
+Version `34.3.0`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -132,7 +135,7 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
-Version `0.268.0`
+Version `0.446.0`
 ISC License
 Copyright (c) 2020, Lucide Contributors ^lucide
 
@@ -142,7 +145,7 @@ Apache License 2.0
 
 ### Mermaid
 
-Version `10.6.1`
+Version `11.4.1`
 MIT License
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
@@ -162,6 +165,7 @@ Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
 ### Prism
 
+Version `1.29.0`
 MIT License
 Copyright (c) 2012 Lea Verou
 
@@ -198,6 +202,7 @@ Copyright JS Foundation and other contributors
 
 ### YAML
 
+Version `2.7.0`
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>
 

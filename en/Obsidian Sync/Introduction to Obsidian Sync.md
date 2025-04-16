@@ -4,6 +4,10 @@ aliases:
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+description: Obsidian Sync is an add-on service that allows you to store your notes on Obsidian's servers and sync them across your devices privately.
+mobile: true
+permalink: sync
+publish: true
 ---
 
 [Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to store your notes on Obsidian's servers and sync them across your devices privately.
@@ -11,9 +15,9 @@ cssclasses:
 ## How to use Obsidian Sync
 
 - [[Set up Obsidian Sync]]
-	- Set up Obsidian Sync on all your devices.
-- [[Migrate to Obsidian Sync|Migrate to Obsidian Sync]]
-	- Prepare your Obsidian Vault to use Obsidian Sync.
+	- Set up Sync on all your devices.
+- [[Switch to Obsidian Sync|Switch to Obsidian Sync]]
+	- Prepare your Obsidian vault to use Sync.
 - [[Sync settings and selective syncing|Selective sync]]
 	- Configure which files and settings to sync.
 - [[Plans and storage limits]]
@@ -33,12 +37,13 @@ cssclasses:
 - [[Troubleshoot Obsidian Sync]]
 	- Common syncing issues and solutions.
 
-
 ## Important
 
-If you are using Obsidian Sync alongside other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, please [[Back up your Obsidian files]] to prevent sync conflicts. We strongly recommend [[Migrate to Obsidian Sync|fully migrating to Obsidian Sync]].
+If you are using Obsidian Sync alongside other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, please [[Back up your Obsidian files]] to prevent sync conflicts. We strongly recommend [[Switch to Obsidian Sync|fully migrating to Obsidian Sync]].
 
-See [[Sync limitations]] for frequently asked questions, and more details about Obsidian Sync.
+See [[Frequently asked questions]] for frequently asked questions, and more details about Obsidian Sync.
+
+> [!warning] This feature is unavailable on Apple devices with [Lockdown mode](https://support.apple.com/en-us/105120) enabled unless Obsidian is exempted.
 
 Are you having unexpected interruptions in your Sync service? Check the [server status](https://status.obsidian.md) here.
  

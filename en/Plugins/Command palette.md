@@ -1,4 +1,7 @@
-Obsidian gives you access to many of the commands in Obsidian directly from your keyboard. The Command palette lets you run any command from the same interactive window. You can also explore all the available commands and their respective keyboard shortcuts.
+---
+permalink: plugins/command-palette
+---
+Obsidian gives you access to many of the commands in Obsidian directly from your keyboard. The Command palette lets you run any command from the same interactive window. You can also explore all the available commands and their respective keyboard shortcuts. 
 
 To run a command from the Command palette:
 
@@ -8,7 +11,9 @@ To run a command from the Command palette:
 4. Press `Enter`.
 
 > [!tip]
-> The Command palette supports _fuzzy matching_, which lets you search commands even if you don't know their exact names. For example, type "scf" to find the "**S**ave **c**urrent **f**ile" command.
+> The Command palette supports _fuzzy matching_, allowing you to search for commands even if you don't know their exact names. For example, typing "scf" will find the **S**ave **c**urrent **f**ile command.
+
+As of **version 1.8.3**, recently used commands appear at the top of the Command palette. However, these recently used commands are still subject to the _fuzzy matching_ algorithm. When you start filtering, shorter commands will be prioritized over recently used ones.
 
 ## Pinned commands
 

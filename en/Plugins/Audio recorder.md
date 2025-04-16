@@ -1,3 +1,6 @@
+---
+permalink: plugins/audio-recorder
+---
 Record and save audio recordings directly into an Obsidian note. With the Audio recorder plugin, you can record details from a lecture, meeting, or other important situations where you can't type fast enough.
 
 > [!note]

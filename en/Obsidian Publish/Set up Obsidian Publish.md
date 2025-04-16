@@ -1,8 +1,8 @@
 ---
 description: In this guide, you'll enable Obsidian Publish for your vault, create a site, and publish your notes to it.
 mobile: true
+permalink: publish/setup
 ---
-
 In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
 
 ## Prerequisites
@@ -98,13 +98,13 @@ The **Publish changes** menu will appear as a slide-up.
 3. Choose the notes you want to publish.
 4. Select **Publish**.
 
-> [!abstract] **Further reading**: [[Publish and unpublish notes]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
+> [!abstract] **Further reading**: [[Publish your content]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
 
 You've configured an Obsidian Publish site and published your first notes. Head over to the site address you configured earlier in this guide, and start sharing it with your readers.
 
 ## Next steps
 
 Now that you've published your first notes, you might want to:
-- Set up a custom domain for your site: [[Set up a custom domain]]
+- Set up a custom domain for your site: [[Custom domains]]
 - Learn about advanced site customization: [[Customize your site]]
 - Find out how to add social media cards: [[Social media link previews]]

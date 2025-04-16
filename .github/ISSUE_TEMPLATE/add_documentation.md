@@ -9,10 +9,6 @@ Thank you for your time in completing this issue! 🙌
 _Please try to detail what should be added as clear as possible._
 
 
-## What is the use case?
-_Why should we add this? Who will it help?_
-
-
 # Have any context we can refer to?
 _For example, a Discord link, an existing doc site, etc._
 

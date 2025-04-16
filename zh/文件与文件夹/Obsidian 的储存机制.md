@@ -32,7 +32,7 @@ Obsidian 将全局设置存储在系统设置文件夹中。系统设置文件�
 
 - **macOS**：`/Users/你的用户名/Library/Application Support/obsidian`
 - **Windows**：`%APPDATA%\Obsidian\`
-- **Linux**：`$XDG_CONFIG_HOME/Obsidian/` 或 `~/.config/Obsidian/`
+- **Linux**：`$XDG_CONFIG_HOME/obsidian/` 或 `~/.config/obsidian/`
 
 > [!warning] 注意
 > 不要在系统设置文件夹中创建仓库。这可能导致数据损坏或数据丢失。

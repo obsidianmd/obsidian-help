@@ -2,6 +2,7 @@
 aliases:
   - Concepts/Insider builds
   - Insider builds
+permalink: early-access
 ---
 Get early access to upcoming releases by enabling _early access versions_. Early access versions are only available to users with a [[Catalyst license]].
 

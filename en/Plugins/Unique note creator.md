@@ -1,6 +1,7 @@
 ---
 aliases:
-- Zettelkasten prefixer
+  - Zettelkasten prefixer
+permalink: plugins/unique-note
 ---
 
 Unique note creator lets you create notes with time-based names, also known as Zettelkasten notes.
@@ -27,4 +28,4 @@ By default, new unique notes are empty. To use another file as a template:
 - In the sidebar, click **Core plugins → Unique note creator**.
 - In **Template file location**, enter the file you want to use as template.
 
-For more information about how to write templates, refer to [[Templates]].
+For more information about how to write templates, refer to [[Plugins/Templates]].

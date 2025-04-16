@@ -1,3 +1,6 @@
+---
+permalink: obsidian
+---
 ## What is Obsidian
 
 Obsidian is both a Markdown editor and a knowledge base app.

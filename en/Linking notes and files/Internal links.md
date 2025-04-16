@@ -4,6 +4,10 @@ aliases:
   - How to/Link to blocks
 cssclasses:
   - soft-embed
+description: Learn how to link to notes, attachments, and other files from your notes, using internal links.
+mobile: true
+permalink: links
+publish: true
 ---
 
 Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge. ^b15695
@@ -41,9 +45,11 @@ To create a link while in Editing view, use either of the following ways:
 - Select text in the editor and then type `[[`.
 - Open the [[Command palette]] and then select **Add internal link**.
 
+![[Quick switcher#^search-autocomplete-large]]
+
 While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
 
-![[Quick switcher#^search-autocomplete-large]]
+> [!tip] Prefixing an internal link with an exclamation mark (!) allows you to embed the linked content. For more details, see [[Embed Files]].
 
 ## Link to a heading in a note
 
@@ -81,9 +87,32 @@ For example, `[[##` will search generically across the vault, whereas `[[## t
 
 A block is a unit of text in your note, such as a paragraph, block quote, or list item.
 
-You can link to a block by adding `#^` at the end of your link destination followed by a unique block identifier. For example, `[[2023-01-01#^37066d]]`.
+You can link to a block by adding `#^` at the end of your link destination, followed by a unique block identifier. For example: `[[2023-01-01#^37066d]]`. Fortunately, you don't need to manually find the identifier—when you type the caret (`^`), a list of suggestions will appear, allowing you to select the correct block.
 
-Fortunately, you don't need to know the identifier. When you type the caret (`^`), you can select the block from a list of suggestions to insert the correct identifier.
+For *simple paragraphs*, place the block identifier at the **end of the line**:
+
+```md
+The quick purple gem dashes through the paragraph with blazing speed. Pen in hand and a paperclip in the other, Gemmy works toward her goal of making the world of note-taking a happier place. ^37066d
+```
+
+For *structured blocks* (lists, quotations, callouts, tables), the block identifier should be on a **separate line**, with a blank line before and after:
+
+```md
+> The quick purple gem dashes through the paragraph with blazing speed. Pen in hand and a paperclip in the other, Gemmy works toward her goal of making the world of note-taking a happier place.
+
+^37066f
+
+This is the tale of Gemmy, the Unhelpful assistant.  
+```
+
+For *specific lines within a list*, the block identifier can be placed directly on a bullet point:
+
+```mathjax
+- Gemmy
+    $$Paperclip / Pen$$ 
+    ^37006f
+- Unhelpful assistant
+```
 
 **Searching for blocks across the vault**
 

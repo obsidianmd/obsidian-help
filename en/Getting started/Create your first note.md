@@ -1,5 +1,7 @@
 ---
-aliases: How to/Create notes
+aliases:
+  - How to/Create notes
+permalink: create-note
 ---
 Notes in Obsidian are stored as plain text files. This means your data is durable and not locked into a proprietary format. By writing your notes in plain text, they'll outlive any app—even Obsidian itself.
 

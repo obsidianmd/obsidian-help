@@ -1,6 +1,7 @@
 ---
 aliases:
   - User interface/Workspace/Ribbon
+permalink: ribbon
 ---
 The ribbon functions as a space for common commands within Obsidian. 
 

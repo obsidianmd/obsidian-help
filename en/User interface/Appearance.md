@@ -1,6 +1,7 @@
 ---
 aliases:
   - Customization/Appearance
+permalink: appearance
 ---
 ### Color scheme
 

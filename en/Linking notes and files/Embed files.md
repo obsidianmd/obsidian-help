@@ -4,8 +4,8 @@ aliases:
   - Linking notes and files/Embedding files
 cssclasses:
   - soft-embed
+permalink: embeds
 ---
-
 Learn how you can embed other notes and media into your notes. By embedding files in your notes, you can reuse content across your vault.
 
 To embed a file in your vault, add an exclamation mark (`!`) in front of an [[Internal links|Internal link]]. You can embed files in any of the [[Accepted file formats]].

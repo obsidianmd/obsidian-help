@@ -2,6 +2,7 @@
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+permalink: plugins
 ---
 This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team. 
 
@@ -58,10 +59,12 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Sync your notes across devices.
 - [[Tags view|Tags view]]
 	- List all the tags in your vault.
-- [[Templates]]
+- [[Plugins/Templates]]
 	- Insert pre-defined content into your notes.
 - [[Unique note creator]]
 	- Create a unique note using a time-coded title.
+- [[Web viewer]]
+	- Open external links in Obsidian.
 - [[Word count]]
 	- Display the number of words and characters.
 - [[Workspaces]]

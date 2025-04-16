@@ -1,12 +1,21 @@
-Obsidian recognizes the following file formats:
+---
+permalink: file-formats
+---
+Obsidian supports the following file types:
 
-1. Markdown files: `md`
-2. Image files: `avif`, `bmp`, `gif`, `jpeg`, `jpg`, `png`, `svg`, `webp`
-3. Audio files: `flac`, `m4a`, `mp3`, `ogg`, `wav`, `webm`, `3gp`
-4. Video files: `mkv`, `mov`, `mp4`, `ogv`, `webm`
-5. PDF files: `pdf`
+- **Markdown**: `.md`  
+- **JSON Canvas**: `.canvas` ([Learn more](https://jsoncanvas.org/))  
+- **Images**: `.avif`, `.bmp`, `.gif`, `.jpeg`, `.jpg`, `.png`, `.svg`, `.webp`  
+- **Audio**: `.flac`, `.m4a`, `.mp3`, `.ogg`, `.wav`, `.webm`, `.3gp`  
+- **Video**: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`  
+- **PDF**: `.pdf`  
 
-Learn how to [[Embed files|embed files]] in your notes.
+You can extend Obsidian to support other file formats using [[Community plugins]].
 
-> [!note]
-> Support for audio and video formats depends on the codecs available on your device.
+### Embedding files
+
+Some file types can be embedded directly into your notes. See [[Embed files]] for details.  
+
+> [!NOTE]
+> Support for audio, video, and other files depends on the codecs available on your device.
+> 

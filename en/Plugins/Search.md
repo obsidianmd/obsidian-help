@@ -1,3 +1,6 @@
+---
+permalink: plugins/search
+---
 The Search plugin helps you quickly find key data within your Obsidian vault by using advanced search terms and operators to narrow down results.
 
 By default, you can find Search in the left sidebar ( ![[lucide-search.svg#icon]] ). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).
@@ -44,7 +47,7 @@ You can exclude a combination of expressions using parentheses:
 
 ## Search operators
 
-Search operators enable more fine-grained search queries to filter your results even more.
+Search operators enable more fine-grained search terms to filter your results even more.
 
 Some operators even allow you to add a nested search term within parentheses, for example: `task:(call OR email)`.
 
@@ -56,7 +59,7 @@ Some operators even allow you to add a nested search term within parentheses, fo
 | `match-case:`   | Case-sensitive match.<p/>Example: `match-case:HappyCat`.                                                                                                                                                                                                                                                           |
 | `ignore-case:`  | Case-insensitive match.<p/>Example: `ignore-case:ikea`.                                                                                                                                                                                                                                                            |
 | `tag:`          | Find tag in file.<p/>Example: `tag:#work`.<p/>Keep in mind that searching for `tag:#work` will not return results for `#myjob/work`.<br /><br />**Note**: Since `tag:` ignores matches in code blocks and in non-Markdown content, it's often faster and more accurate than a normal full-text search for `#work`. |
-| `line:`         | Find matches on the same line.<p/>Example: `line:(mix flour)`.                                                                                                                                                                                                                                                     |
+| `line:`         | Find files that contain at least one line matching `x`.<p/>Example: `line:(mix flour)`.<p/><br>**Note:** Using `-line` negates the search, meaning it will find files where no line matches `x`.                                                                                                                   |
 | `block:`        | Find matches in the same block.<p/>Example: `block:(dog cat)`.<p/>**Note**: Since `block:` requires Search to parse the Markdown content in every file, it can cause your search term to take longer time to finish.                                                                                               |
 | `section:`      | Find matches in the same section (text between two headings).<p/>Example: `section:(dog cat)`.                                                                                                                                                                                                                     |
 | `task:`         | Find matches in a [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                                                                                                                 |

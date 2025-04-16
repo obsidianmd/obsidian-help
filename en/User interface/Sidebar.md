@@ -1,14 +1,16 @@
 ---
 aliases:
   - User interface/Workspace/Sidebar
+permalink: sidebar
 ---
-On desktop and larger tablets, Obsidian has two sidebars on both left and right. The left sidebar includes the [[Ribbon]].
 
-On mobile and smaller tablets, Obsidian sidebars are [[#Open hidden sidebars|collapsed by default]]. They can be opened by using left and right swipe gestures from the edge of the screen.
+Obsidian has two sidebars, left and right. On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
 
 ## Open hidden sidebars
 
-If a sidebar is collapsed, you can open it by clicking the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) or right expand ( ![[obsidian-icon-side-bar-right.svg#icon]] ) to reveal it.
+On desktop and larger tablets: open a collapsed sidebar by clicking the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) or right expand ( ![[obsidian-icon-side-bar-right.svg#icon]] ).
+
+On mobile and smaller tablets: swipe left or right, click the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ), or long-press the note menu ( ![[lucide-ellipsis-vertical.svg#icon]] ).
 
 ## Tabs
 

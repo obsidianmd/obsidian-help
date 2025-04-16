@@ -1,6 +1,7 @@
 ---
 aliases:
   - Editing and formatting/Keyboard shortcuts for editing
+permalink: editing-shortcuts
 ---
 Learn how to use keyboard shortcuts to navigate and edit text in your notes. You can also define [[Hotkeys|custom hotkeys]].
 
@@ -110,8 +111,8 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes. You
 | Move the cursor to the next line | `Down arrow` |
 | Move the cursor to the beginning of the note | `Cmd+Up arrow` |
 | Move the cursor to the end of the note | `Cmd+Down arrow` |
-| Move the cursor up one page | `Ctrl+Up arrow` |
-| Move the cursor down one page | `Ctrl+Down arrow` |
+| Move the cursor up one page | `Fn+Up arrow` |
+| Move the cursor down one page | `Fn+Down arrow` |
 
 ### Text selection
 

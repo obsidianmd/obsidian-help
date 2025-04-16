@@ -36,7 +36,7 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 7. Go to **SSL/TLS** and set the SSL/TLS encryption mode to "Full" to configure the SSL/TLS certificate automatically.
 
 > [!note]
-> To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://developers.cloudflare.com/rules/page-rules/) with the following settings:
+> To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
 >
 > - URL match: `www.mysite.com/*`
 > - Forward URL - 301 Permanent Redirect
