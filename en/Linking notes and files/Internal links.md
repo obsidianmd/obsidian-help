@@ -156,6 +156,16 @@ Use `[Display text](Link URL)` to customise how the link appears.
 - `[Custom name](Example.md)` appears as [Custom name](Example.md)  
 - `[Section name](Example.md#Details)` appears as [Section name](Example.md#Details)
 
+This method is helpful for one-off situations where you want to change how a link looks in a specific context. If you want to set up an alternate link name that you can reuse throughout your vault, consider using an [[Aliases|alias]] instead. 
+
+For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 laws]]`, adding "3 laws" as an alias allows you to type just that—no need to add custom display text each time.
+
+> [!tip]
+> Use [[#Change the link display text|link display text]] when you want to customise how a link looks *in a specific place*.  
+> 
+> Use [[Aliases|aliases]] when you want to refer to the same note using *different names* throughout your vault.
+^callout-internal-links-link-text
+
 ## Preview a linked file
 
 > [!note]
