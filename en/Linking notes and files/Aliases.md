@@ -4,10 +4,17 @@ aliases:
   - aliases
   - How to/Add aliases to note
 permalink: aliases
+cssclasses:
+  - soft-embed
 ---
+
 If you want to reference a file using different names, consider adding _aliases_ to the note. An alias is an alternative name for a note.
 
 Use aliases for things like acronyms, nicknames, or to refer to a note in a different language.
+
+If you're only trying to change how a link looks in one place, see how to [[Internal links#Change the link display text|Change the link display text]] instead.
+
+![[Internal links#^callout-internal-links-link-text]]
 
 ## Add an alias to a note
 
