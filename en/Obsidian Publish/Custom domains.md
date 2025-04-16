@@ -5,6 +5,7 @@ aliases:
   - Obsidian Publish/Set up a custom domain
 permalink: publish/domains
 ---
+
 You can set up a custom domain or subdomain for your [[Introduction to Obsidian Publish|Obsidian Publish]] site.
 
 > [!warning]
