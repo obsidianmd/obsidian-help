@@ -1,3 +1,14 @@
+---
+aliases:
+  - How to/Internal link
+  - How to/Link to blocks
+cssclasses:
+  - soft-embed
+description: Learn how to link to notes, attachments, and other files from your notes, using internal links.
+mobile: true
+permalink: links
+publish: true
+---
 
 Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge. ^b15695
 
