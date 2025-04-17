@@ -4,19 +4,22 @@ aliases:
   - getting-started/sync-your-notes-across-devices
 cssclasses:
   - soft-embed
-description: This guide will help you sync your Obsidian vaults across different devices and platforms.
+description: How to sync your Obsidian notes across devices and platforms.
 mobile: true
 permalink: sync-notes
 publish: true
 ---
+Obsidian stores notes locally on your device so you always have access to them, even offline. To access your notes on multiple devices you need to set up a sync method.
 
-This guide will help you sync your Obsidian vaults across different devices and platforms. We cover common sync methods by type and platform, including tips for avoiding data loss and ensuring a smooth experience.
+This guide covers common sync methods, including tips to avoid data loss and ensure a smooth experience.
 
-We also recommend reading our [[Back up your Obsidian files|backup]] guide alongside this article for the best protection of your data.
+We also recommend reading our [[Back up your Obsidian files|backup guide]] to protect of your data.
 
-## Syncing types
+## Syncing methods
 
-The list of syncing types is not exhaustive, and only covers the most common ones as reported by the [Obsidian Community](https://obsidian.md/community).
+With Obsidian your data is simply stored as files in a [[Local and remote vaults|folder]]. This means there are many ways to sync your data.
+
+These are a few commonly used sync methods reported by members of the [Obsidian Community](https://obsidian.md/community):
 
 1. **First-party syncing**: [[#Obsidian Sync]]
 2. **Third-party cloud syncing**: [[#iCloud]], [[#OneDrive]], and [[#Google Drive]]
@@ -27,7 +30,9 @@ The list of syncing types is not exhaustive, and only covers the most common one
 
 **Recommended systems**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
 
-The most straightforward and officially supported method, [[Introduction to Obsidian Sync|Obsidian Sync]], keeps your vaults synced across all devices by using an off-site remote vault to make copies of your data. A local copy will remain on your devices at all times.
+The most straightforward and officially supported method, [[Introduction to Obsidian Sync|Obsidian Sync]], keeps your vaults securely synced across devices.
+
+Obsidian Sync is end-to-end encrypted for maximum privacy, and provides seamless integration with the Obsidian app.
 
 Follow the [[Set up Obsidian Sync|setup guide]] to configure it.
 
@@ -170,6 +175,7 @@ Syncthing is a decentralized file synchronization tool that doesn't rely on clou
 
 **Unsupported options**:
 The following services aren't officially supported on iOS, but users have found workarounds using third-party tools or plugins:
+
 - Dropbox
 - Google Drive
 - OneDrive
@@ -197,6 +203,19 @@ Some users have successfully used plugins like **Remotely Save** or **LiveSync**
     - On other devices, pull changes using Git to sync the vault.
 
 > [!Note] While Working Copy isn't officially supported, many users have successfully used it to sync vaults with Git.
+
+## Comparison
+
+Each sync method has tradeoffs including cost, privacy and features.
+
+|                                                  | End-to-end<br>encryption | Version<br>history |
+| ------------------------------------------------ | ------------------------ | ------------------ |
+| [[Introduction to Obsidian Sync\|Obsidian Sync]] | ✅                        | ✅                  |
+| iCloud                                           | Optional                 | ❌                  |
+| OneDrive                                         | ❌                        | ❌                  |
+| Google Drive                                     | ❌                        | ❌                  |
+| Syncthing                                        | Optional                 | ✅                  |
+| Git                                              | ❌                        | ✅                  |
 
 ## Frequently asked questions
 

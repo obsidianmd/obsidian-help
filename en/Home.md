@@ -38,6 +38,7 @@ If you're new to Obsidian, learn the basics of note-taking with Obsidian using o
 3. [[Create your first note]]
 4. [[Link notes]]
 5. [[Import notes]]
+6. [[Sync your notes across devices]]
 
 ## Extend Obsidian
 
