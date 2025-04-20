@@ -29,7 +29,7 @@ If you prefer to update Obsidian manually, you can disable automatic updates.
 
 ## Installer updates
 
-On desktop, Obsidian's [release notes](https://obsidian.md/changelog/) will sometimes indicate that you need to update the installer version of Obsidian. This is the version of Electron, the framework on which Obsidian is built, and cannot be updated by the automatic update process. 
+On desktop, Obsidian's [release notes](https://obsidian.md/changelog/) will inform you when you need to update the installer version of Obsidian to keep things working. This is the version of Electron, the framework on which Obsidian is built, and it cannot be updated by the automatic update process. 
 
 A community plugin or theme may require an installer update to access newer features that are not available in older versions of Electron, and may ask you to update the installer version of Obsidian before Obsidian itself asks.
 
