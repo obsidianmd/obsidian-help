@@ -31,7 +31,7 @@ You can browse this site in several languages:
 
 ## Get started
 
-If you're new to Obsidian, learn the basics of note-taking with Obsidian using our guides:
+Learn the basics of note-taking with Obsidian:
 
 1. [[Download and install Obsidian]]
 2. [[Create a vault]]
