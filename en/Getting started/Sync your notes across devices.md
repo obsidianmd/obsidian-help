@@ -13,16 +13,16 @@ Obsidian stores notes locally on your device so you always have access to them, 
 
 This guide covers common sync methods, including tips to avoid data loss and ensure a smooth experience.
 
-We also recommend reading our [[Back up your Obsidian files|backup guide]] to protect of your data.
+We also recommend reading our [[Back up your Obsidian files|backup guide]] to protect your data.
 
 ## Syncing methods
 
-With Obsidian your data is simply stored as files in a [[Local and remote vaults|folder]]. This means there are many ways to sync your data.
+With Obsidian your data is simply stored as files in a folder called a [[Local and remote vaults|vault]]. This means there are many ways to sync your data.
 
 These are a few commonly used sync methods reported by members of the [Obsidian Community](https://obsidian.md/community):
 
-1. **First-party syncing**: [[#Obsidian Sync]]
-2. **Third-party cloud syncing**: [[#iCloud]], [[#OneDrive]], and [[#Google Drive]]
+1. **First-party sync**: [[#Obsidian Sync]]
+2. **Third-party cloud sync**: [[#iCloud]], [[#OneDrive]], and [[#Google Drive]]
 3. **Local sync**: [[#Syncthing]]
 4. **Version control**: [[#Git]] and [[#Working Copy]]
 
@@ -30,11 +30,11 @@ These are a few commonly used sync methods reported by members of the [Obsidian 
 
 **Recommended systems**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
 
-The most straightforward and officially supported method, [[Introduction to Obsidian Sync|Obsidian Sync]], keeps your vaults securely synced across devices.
+The most straightforward and officially supported sync method is our first party solution: [[Introduction to Obsidian Sync|Obsidian Sync]].
 
 Obsidian Sync is end-to-end encrypted for maximum privacy, and provides seamless integration with the Obsidian app.
 
-Follow the [[Set up Obsidian Sync|setup guide]] to configure it.
+Follow the [[Set up Obsidian Sync|setup guide]] to configure Obsidian Sync.
 
 > [!Important] Avoid using Obsidian Sync alongside other cloud services like Dropbox or OneDrive **for the same vault**, as this can cause data conflicts and file corruption.
 
