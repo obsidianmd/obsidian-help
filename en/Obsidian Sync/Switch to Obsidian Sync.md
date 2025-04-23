@@ -9,11 +9,12 @@ mobile: true
 permalink: sync/switch
 publish: true
 ---
-Obsidian, including Obsidian Sync, reads directly from the local file system as part of its local-first approach. This means the [data is fully yours](https://obsidian.md/about), giving you complete control. However, problems can arise when using third-party syncing services like iCloud or OneDrive. If a file is removed from your local filesystem by these services (e.g., it is moved back to the cloud), Obsidian Sync will see this as a deletion and remove it from the remote vault. This is why we [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|strongly recommend]] avoiding the use of Obsidian Sync with another syncing service.
+Learn how to transition from your current syncing solution to Obsidian Sync.
 
-However, third-party syncing services can play a role in your [[Back up your Obsidian files|backup]] strategy.
+> [!warning] Avoid using multiple solutions to sync the same files
+> We [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|do not recommend]] using Obsidian Sync alongside cloud storage services (e.g. iCloud, Dropbox, OneDrive, Google Drive) as this can cause conflicts. However, cloud storage services may play a role in your [[Back up your Obsidian files|backup]] strategy.
 
-## Moving your vault out of a third-party syncing service
+## Move your vault out of your third-party syncing service or cloud storage
 
 If your vault is stored in any of the following locations, it's likely being synced by a third-party service:
 
@@ -37,21 +38,19 @@ To avoid conflicts with syncing services, we recommend storing your Obsidian vau
 - **iOS/iPadOS**: Store the vault **On My iPhone** or **On the Device**.
 - **Android**: Use the `Documents/` folder on your device.
 
-### Moving your vault on desktop
-
-To move your vault to a different folder on desktop, see the instructions below.
+## Move your vault using Obsidian on desktop
 
 ![[Manage vaults#Move vault to a different folder]]
 
-### Moving your vault on mobile
+## Move your vault on mobile
 
 On mobile devices, Obsidian operates in a sandboxed environment, meaning you cannot move vaults within the app like you can on desktop.
 
-#### Android
+### Android
 
 Android filesystems vary greatly by device, but generally, follow the same steps as you would to move your vault manually, ensuring it is removed from any syncing service on your device.
 
-#### iOS and iPadOS
+### iOS and iPadOS
 
 To move an existing iCloud vault to your device, follow these steps:
 

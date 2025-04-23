@@ -60,7 +60,7 @@ Obsidian Sync can automatically reload certain settings, but there are some limi
 
 ### Can I use a third-party sync with Obsidian Sync?
 
-We do not recommend using a third-party sync service alongside Obsidian Sync. Using the same third-party service and Obsidian Sync on multiple devices can lead to conflicts, resulting in duplicate or corrupted files.
+We do not recommend using a third-party sync service alongside Obsidian Sync. Using the a third-party service and Obsidian Sync on multiple devices can lead to conflicts, resulting in duplicate or corrupted files.
 
 Cloud storage services like OneDrive and Dropbox offer "Files on-demand" or "Online-only files" features, which download files only when needed and remove them locally to save space. However, since these files are not always available locally, Obsidian Sync will interpret them as deleted, leading to their removal from your remote vault.
  
