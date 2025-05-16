@@ -1,9 +1,9 @@
 ---
 permalink: plugins/canvas
 ---
-Canvas is a tool for visual note-taking. Lay out notes and other resources on an infinite canvas and connect them with lines.
+Canvas is a tool for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
 
-Visual note-taking allows you to use visual aspects, such as size and position, to make sense of your notes. Connect notes with lines and group related notes together to better understand the relationship between them.
+Visual note-taking helps you to make sense of your notes by organizing them in a 2D space. Connect notes with lines and group related notes together to better understand the relationship between them.
 
 ## Create a new canvas
 
