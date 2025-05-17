@@ -188,7 +188,7 @@ Some users have successfully used plugins like **Remotely Save** or **LiveSync**
 **Recommended systems**: `iOS`
 **Requires**: [[#Git]]
 
-**Working Copy** is a Git client for iOS that allows you to clone, commit, and push changes to a Git repository. It works well for syncing Obsidian vaults via Git, though some features require a paid in-app purchase.
+**Working Copy** is a Git client for iOS that allows you to clone, commit, and push changes to a Git repository. It works well for syncing Obsidian vaults via Git, though some features such as linking a folder and pushing require a paid in-app purchase.
 
 **How to sync your vault using Working Copy**:
 
