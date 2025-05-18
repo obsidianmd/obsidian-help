@@ -18,6 +18,12 @@ Obsidian is available for all major desktop and mobile platforms. These are all 
 4. In the window that opens, drag Obsidian to the Applications folder.
 5. Open Obsidian the same way you would open any other application.
 
+If you use Homebrew, you can also install Obsidian via Homebrew:
+
+```bash
+brew install --cask obsidian
+```
+
 ## Install Obsidian on Linux
 
 If you use Linux, you can install Obsidian in several ways. Follow the instructions for the packaging system that you're using.
