@@ -3,8 +3,7 @@ aliases:
   - Plugins/Starred
 permalink: plugins/bookmarks
 ---
-
-Bookmarks let you quickly access items that you use often. A bookmark is a "shortcut" that immediately takes you the bookmarked item.
+Bookmarks is a [[Core plugins|core plugin]] that lets you quickly access items that you use often. A bookmark is a "shortcut" that immediately takes you the bookmarked item.
 
 You can add bookmarks to the following:
 

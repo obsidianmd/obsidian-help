@@ -1,9 +1,11 @@
 ---
 permalink: plugins/canvas
 ---
-Canvas is a tool for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
+Canvas is a [[Core plugins|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
 
 Visual note-taking helps you to make sense of your notes by organizing them in a 2D space. Connect notes with lines and group related notes together to better understand the relationship between them.
+
+Canvas data you create in Obsidian is saved as `.canvas` files using the open file format [JSON Canvas](https://jsoncanvas.org/).
 
 ## Create a new canvas
 

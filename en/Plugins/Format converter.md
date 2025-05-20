@@ -1,7 +1,7 @@
 ---
 permalink: plugins/format-converter
 ---
-Format converter lets you convert Markdown from other applications to Obsidian format.
+Format converter is a [[Core plugins|core plugin]] that lets you convert Markdown from other applications to Obsidian format.
 
 > [!warning]
 > Format converter converts your entire vault based on your settings. Back up your notes before you perform the conversion.
