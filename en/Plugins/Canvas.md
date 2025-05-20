@@ -28,7 +28,7 @@ To start using Canvas, you first need to create a file to hold your canvas. You 
 > [!note]  The .canvas file extension
 > Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
 
-## Adding cards
+## Add cards
 
 You can drag files into your canvas from Obsidian or from other applications. For example, Markdown files, images, audio, PDFs, or even unrecognized file types.
 
@@ -115,7 +115,7 @@ To swap a note card:
 2. Select **Swap file**.
 3. Select the note you want to replace with.
 
-## Selecting cards
+## Select cards
 
 Select cards in the canvas by clicking on them. You can select multiple cards by dragging a selection around them.
 
@@ -145,7 +145,7 @@ You can press `Space` while resizing to disable snapping.
 
 To maintain the aspect ratio while resizing, press `Shift` while resizing.
 
-## Connecting cards
+## Connect cards
 
 Draw lines between cards to create relationships between them. Use colors and labels to describe how they relate to each other.
 
@@ -198,7 +198,7 @@ To edit a connection label, double-click on the line, or right-click the line an
 2. In the selection controls, select **Set color** ( ![[lucide-palette.svg#icon]] ).
 3. Select a color.
 
-## Grouping cards
+## Group cards
 
 ### Group selected cards
 
@@ -213,7 +213,7 @@ To group related cards:
 
 **Rename group:** Double-click the name of the group to edit it, and then press `Enter` to save.
 
-## Navigating the canvas
+## Navigate the canvas
 
 As you start adding more cards to your canvas, you want to understand how you can navigate the canvas to look at a part of it. Learn how to pan and zoom to move across the canvas with ease.
 
