@@ -7,4 +7,5 @@ Some planned features include:
 
 - Bases API for plugins to add more power through custom functions and new view types.
 - More view types beyond tables, e.g. list, cards, etc.
-- Obsidian Publish support
+- Obsidian Publish support.
+
