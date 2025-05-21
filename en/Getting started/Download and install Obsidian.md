@@ -1,7 +1,7 @@
 ---
 permalink: install
 ---
-This page lists all supported ways to download and install Obsidian.
+Obsidian is available for all major desktop and mobile platforms. These are all the supported ways to download and install Obsidian.
 
 ## Install Obsidian on Windows
 

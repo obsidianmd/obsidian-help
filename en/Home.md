@@ -31,13 +31,14 @@ You can browse this site in several languages:
 
 ## Get started
 
-If you're new to Obsidian, learn the basics of note-taking with Obsidian using our guides:
+Learn the basics of note-taking with Obsidian:
 
 1. [[Download and install Obsidian]]
 2. [[Create a vault]]
 3. [[Create your first note]]
 4. [[Link notes]]
 5. [[Import notes]]
+6. [[Sync your notes across devices]]
 
 ## Extend Obsidian
 

@@ -4,13 +4,13 @@ aliases:
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: Obsidian Sync is an add-on service that allows you to store your notes on Obsidian's servers and sync them across your devices privately.
+description: Obsidian Sync is an add-on service that allows you to privately sync your notes across devices.
 mobile: true
 permalink: sync
 publish: true
 ---
 
-[Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to store your notes on Obsidian's servers and sync them across your devices privately.
+[Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to privately sync your notes across devices.
 
 ## How to use Obsidian Sync
 

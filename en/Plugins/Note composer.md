@@ -1,7 +1,7 @@
 ---
 permalink: plugins/note-composer
 ---
-Note composer lets you merge two notes or extract part of a note into a new note.
+Note composer is a [[Core plugins|core plugin]] that lets you merge two notes or extract part of a note into a new note.
 
 ## Merge notes
 

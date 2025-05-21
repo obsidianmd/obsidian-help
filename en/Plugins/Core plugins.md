@@ -3,6 +3,8 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: plugins
+aliases:
+  - core plugin
 ---
 This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team. 
 
@@ -17,8 +19,12 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Record and save audio recordings directly in a note.
 - [[Backlinks]]
 	- See all the links and unlinked mentions of a note.
+- [[Introduction to Bases]]
+	- Turn a set of notes into a powerful database.
 - [[Bookmarks]]
 	- Save links to notes, headings, searches, and more.
+- [[Canvas]]
+	- Organize notes visually with an infinite space to lay out ideas.
 - [[Command palette]]
 	- Quickly access commands from your keyboard.
 - [[Daily notes]]
@@ -59,7 +65,7 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Sync your notes across devices.
 - [[Tags view|Tags view]]
 	- List all the tags in your vault.
-- [[Plugins/Templates]]
+- [[Plugins/Templates|Templates]]
 	- Insert pre-defined content into your notes.
 - [[Unique note creator]]
 	- Create a unique note using a time-coded title.

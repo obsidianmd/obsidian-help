@@ -3,7 +3,7 @@ aliases:
   - How to/Working with backlinks
 permalink: plugins/backlinks
 ---
-With the Backlinks plugin, you can see all the _backlinks_ for the active note.
+With the Backlinks [[Core plugins|plugin]], you can see all the _backlinks_ for the active note.
 
 A backlink for a note is a link from another note to that note. In the following example, the "Three laws of motion" note contains a link to the "Isaac Newton" note. The corresponding backlink would link from "Isaac Newton" back to "Three laws of motion".
 

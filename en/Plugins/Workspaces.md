@@ -1,7 +1,7 @@
 ---
 permalink: plugins/workspaces
 ---
-The Workspaces plugin lets you manage and switch between different application layouts depending on your task, for example journaling, reading, or writing.
+Workspaces is a [[Core plugins|core plugin]] that  lets you manage and switch between different application layouts depending on your task, for example journaling, reading, or writing.
 
 A workspace contains information about open files and tabs, and the width and visibility of each sidebar.
 

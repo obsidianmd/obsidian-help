@@ -36,7 +36,7 @@ Interpreter works with almost any language model provider, including options tha
 
 ## How it works
 
-When Interpreter is enabled *and* your template contains prompt variables, a new Interpreter section is displayed in the extension window, above the **Add to Obsidian** button. This section allows you to select a model and run Interpreter for the current page.
+When Interpreter is enabled *and* your template contains [[Variables#Prompt variables|prompt variables]], a new Interpreter section is displayed in the extension window, above the **Add to Obsidian** button. This section allows you to select a model and run Interpreter for the current page.
 
 When you click **interpret**, Interpreter sends the page context to your selected model, along with *all* the prompts in your template in one request. Depending on the model provider you choose, this can be an external call or local to your device. The model evaluates your prompts against the page context, and returns its responses. Interpreter then replaces the prompt variables with the response data.
 
@@ -74,10 +74,12 @@ Interpreter includes several preset providers. To use these providers you need a
 | DeepSeek           | [API key](https://platform.deepseek.com/api_keys)           | [Models](https://api-docs.deepseek.com/quick_start/pricing)                          |
 | Google&nbsp;Gemini | [API&nbsp;key](https://aistudio.google.com/apikey)          | [Models](https://ai.google.dev/gemini-api/docs/models/gemini)                        |
 | Hugging Face       | [API key](https://huggingface.co/settings/tokens)           | [Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)   |
+| Meta               | [API key](https://llama.developer.meta.com)                 | [Models](https://llama.developer.meta.com/docs/models)                               |
 | Ollama             | n/a                                                         | [Models](https://ollama.com/search)                                                  |
 | OpenAI             | [API&nbsp;key](https://platform.openai.com/api-keys)        | [Models](https://platform.openai.com/docs/models)                                    |
 | OpenRouter         | [API&nbsp;key](https://openrouter.ai/settings/keys)         | [Models](https://openrouter.ai/models)                                               |
 | Perplexity         | [API key](https://www.perplexity.ai/settings/api)           | [Models](https://docs.perplexity.ai/guides/model-cards)                              |
+| xAI Grok           | [API key](https://console.x.ai/team/default/api-keys)       | [Models](https://docs.x.ai/docs/models)                                              |
 
 ### Choosing a model
 
