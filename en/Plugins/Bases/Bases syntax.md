@@ -146,10 +146,9 @@ views:
 
 - `type` selects from the built-in and plugin-added view types.
 - `name` is the display name, and can be used to define the default view.
-- `limit` (optional) defines the number of results to return.
 - `filters` are exactly the same as described above, but apply only to the view.
 
-[[Views]] can add additional data to store any information needed to maintain state or properly render, however plugin authors should take care to not use keys already in use by the core Bases plugin. As an example, a table view may use this to select which column is used to sort rows and in which direction. A different view type such as a map could use this for mapping which property in the note corresponds to the latitude and longitude and which property should be displayed as the pin title. 
+[[Views]] can add additional data to store any information needed to maintain state or properly render, however plugin authors should take care to not use keys already in use by the core Bases plugin. As an example, a table view may use this to limit the number of rows or to select which column is used to sort rows and in which direction. A different view type such as a map could use this for mapping which property in the note corresponds to the latitude and longitude and which property should be displayed as the pin title.
 
 In the future, API will allow views to read and write these values, allowing the view to build its own interface for configuration.
 
