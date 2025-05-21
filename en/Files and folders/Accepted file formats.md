@@ -9,6 +9,7 @@ publish: true
 Obsidian supports the following file types:
 
 - **Markdown**: `.md`  
+- **Bases:** `.base`
 - **JSON Canvas**: `.canvas` ([Learn more](https://jsoncanvas.org/))  
 - **Images**: `.avif`, `.bmp`, `.gif`, `.jpeg`, `.jpg`, `.png`, `.svg`, `.webp`  
 - **Audio**: `.flac`, `.m4a`, `.mp3`, `.ogg`, `.wav`, `.webm`, `.3gp`  
