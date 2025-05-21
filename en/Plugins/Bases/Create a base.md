@@ -12,7 +12,7 @@ permalink: bases/create-base
 
 **File explorer:**
 
-1. In the File explorer, right-click the folder you want to create the canvas in.
+1. In the File explorer, right-click the folder you want to create the base in.
 2. Select **New base**.
 
 ## Embed a base

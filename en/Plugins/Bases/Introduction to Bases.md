@@ -4,6 +4,7 @@ aliases:
   - Bases
 cssclasses:
   - list-cards
+description: Obsidian Bases let you turn any set of notes into a powerful database. With bases you can organize everything from projects to travel plans, reading lists, and more.
 ---
 > [!warning] Requires early access version 1.9.0+
 > To use Bases you must be a [[Catalyst license|Catalyst]] member and install [[Early access versions|early access]] version 1.9.0 or above. Please note that Bases it is a work in progress, you may find bugs and unfinished features. See [[Bases roadmap]]. 
