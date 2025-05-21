@@ -19,7 +19,7 @@ permalink: bases/create-base
 
 ### Embed a base file
 
-You can embed base files [[Embed files|any other file]] using the `![[File.base]]` syntax. To specify the default view use `![[File.base#View]]`.
+You can embed base files in [[Embed files|any other file]] using the `![[File.base]]` syntax. To specify the default view use `![[File.base#View]]`.
 
 ### Embed a base as a code block
 
