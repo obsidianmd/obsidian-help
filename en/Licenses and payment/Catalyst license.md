@@ -3,7 +3,7 @@ aliases:
   - Licenses & Payment/Catalyst license
 permalink: catalyst
 ---
-Catalyst is a one-time contribution that gives you early access to beta versions and helps support continued development of Obsidian. You can support Obsidian by [purchasing a Catalyst license](https://obsidian.md/buy/catalyst). 
+The Catalyst license is a one-time purchase that gives you early access to beta versions and helps support continued development of Obsidian. You can support Obsidian by [purchasing a Catalyst license](https://obsidian.md/buy/catalyst). 
 
 Benefits include:
 
@@ -13,7 +13,7 @@ Benefits include:
 
 ## Catalyst tiers
 
-There are three tiers of Catalyst membership based on the amount you contribute: *Insider*, *Supporter*, and *VIP*.
+There are three tiers of Catalyst based on the amount you contribute: *Insider*, *Supporter*, and *VIP*.
 
 | Benefits                                                                           | Insider | Supporter |   VIP    |
 | ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
