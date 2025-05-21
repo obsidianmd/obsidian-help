@@ -19,7 +19,7 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Record and save audio recordings directly in a note.
 - [[Backlinks]]
 	- See all the links and unlinked mentions of a note.
-- [[Introduction to Bases]]
+- [[Introduction to Bases|Bases]]
 	- Turn a set of notes into a powerful database.
 - [[Bookmarks]]
 	- Save links to notes, headings, searches, and more.

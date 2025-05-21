@@ -9,7 +9,7 @@ For example, you may want to create a base called "Books" that has separate view
 
 Currently, bases can be displayed as a table. In the future more layout types will be added. See [[Bases roadmap]].
 
-With the Table layout Each row is a file, and columns are populated from the [[Properties]] in your notes.
+With the Table layout each row is a file, and columns are populated from the [[Properties]] in your notes.
 
 ## Filters
 
