@@ -24,11 +24,11 @@ filters:
         - tagged_with(file.file, "book")
         - in_folder(file.file, "Required Reading")
 formulas:
-  price: 'concat(price, "dollars")'
+  formatted_price: 'concat(price, " dollars")'
   ppu: "price / age"
 display:
   status: Status
-  price: "Price"
+  formula.formatted_price: "Price"
   "file.ext": Extension
 views:
   - type: table
@@ -38,16 +38,16 @@ views:
       and:
         - 'status != "done"'
         - or:
-            - "ppu > 5"
+            - "formula.ppu > 5"
             - "price > 2.1"
     group_by: "status"
     agg: "sum(price)"
     order:
       - file.name
       - file.ext
-      - property.price
       - property.age
       - formula.ppu
+      - formula.formatted_price
   - type: map
     name: "Example map"
     filters: "has_coords == true"
@@ -92,7 +92,7 @@ The `formulas` section defines formula properties that can be displayed across a
 
 ```yaml
 formulas:
-  price: 'concat(price, "dollars")'
+  formatted_price: 'concat(price, " dollars")'
   ppu: "price / age"
 ```
 
@@ -109,7 +109,7 @@ The `display` section allows renaming properties with friendlier names. It is up
 ```yaml
 display:
   status: Status
-  price: "Price"
+  formula.formatted_price: "Price"
   "file.ext": Extension
 ```
 
@@ -128,14 +128,14 @@ views:
       and:
         - 'status != "done"'
         - or:
-            - "ppu > 5"
+            - "formula.ppu > 5"
             - "price > 2.1"
     order:
       - file.name
       - file.ext
-      - property.price
       - property.age
       - formula.ppu
+      - formula.formatted_price
   - type: map
     name: "Example map"
     filters: "has_coords == true"
