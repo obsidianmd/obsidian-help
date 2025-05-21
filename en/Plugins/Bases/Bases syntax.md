@@ -24,11 +24,11 @@ filters:
         - tagged_with(file.file, "book")
         - in_folder(file.file, "Required Reading")
 formulas:
-  price: "concat(price, 'dollars')"
+  formatted_price: 'concat(price, " dollars")'
   ppu: "price / age"
 display:
   status: Status
-  price: "Price"
+  formula.formatted_price: "Price"
   "file.ext": Extension
 views:
   - type: table
@@ -36,18 +36,18 @@ views:
     limit: 10
     filters:
       and:
-        - "status != 'done'"
+        - 'status != "done"'
         - or:
-            - "ppu > 5"
+            - "formula.ppu > 5"
             - "price > 2.1"
     group_by: "status"
     agg: "sum(price)"
     order:
       - file.name
       - file.ext
-      - property.price
       - property.age
       - formula.ppu
+      - formula.formatted_price
   - type: map
     name: "Example map"
     filters: "has_coords == true"
@@ -92,7 +92,7 @@ The `formulas` section defines formula properties that can be displayed across a
 
 ```yaml
 formulas:
-  price: "concat(price, 'dollars')"
+  formatted_price: 'concat(price, " dollars")'
   ppu: "price / age"
 ```
 
@@ -100,7 +100,7 @@ Formula properties support basic arithmetic operators and a variety of built-in 
 
 Formula properties can use values from other formula properties, as long as there is no circular reference. They are always defined as strings in the YAML, however the data type of the data and the function returns will be used to determine the output data type.
 
-Note the use of nested quotes necessary to include string literals in the YAML field.
+Note the use of nested quotes necessary to include text literals in the YAML field. Text literals must be enclosed in double quotes. The formula must then be enclosed in single quotes.
 
 ### Display
 
@@ -109,7 +109,7 @@ The `display` section allows renaming properties with friendlier names. It is up
 ```yaml
 display:
   status: Status
-  price: "Price"
+  formula.formatted_price: "Price"
   "file.ext": Extension
 ```
 
@@ -126,16 +126,16 @@ views:
     limit: 10
     filters:
       and:
-        - "status != 'done'"
+        - 'status != "done"'
         - or:
-            - "ppu > 5"
+            - "formula.ppu > 5"
             - "price > 2.1"
     order:
       - file.name
       - file.ext
-      - property.price
       - property.age
       - formula.ppu
+      - formula.formatted_price
   - type: map
     name: "Example map"
     filters: "has_coords == true"
@@ -146,10 +146,9 @@ views:
 
 - `type` selects from the built-in and plugin-added view types.
 - `name` is the display name, and can be used to define the default view.
-- `limit` (optional) defines the number of results to return.
 - `filters` are exactly the same as described above, but apply only to the view.
 
-[[Views]] can add additional data to store any information needed to maintain state or properly render, however plugin authors should take care to not use keys already in use by the core Bases plugin. As an example, a table view may use this to select which column is used to sort rows and in which direction. A different view type such as a map could use this for mapping which property in the note corresponds to the latitude and longitude and which property should be displayed as the pin title. 
+[[Views]] can add additional data to store any information needed to maintain state or properly render, however plugin authors should take care to not use keys already in use by the core Bases plugin. As an example, a table view may use this to limit the number of rows or to select which column is used to sort rows and in which direction. A different view type such as a map could use this for mapping which property in the note corresponds to the latitude and longitude and which property should be displayed as the pin title.
 
 In the future, API will allow views to read and write these values, allowing the view to build its own interface for configuration.
 
@@ -157,7 +156,7 @@ In the future, API will allow views to read and write these values, allowing the
 
 ### Implicit properties
 
-Implicit properties refer to the file currently being tested or evaluated. For example, a filter `file.ext == 'md'` will be true for all markdown files and false otherwise.
+Implicit properties refer to the file currently being tested or evaluated. For example, a filter `file.ext == "md"` will be true for all markdown files and false otherwise.
 
 | Property      | Type   | Description                                     |
 | ------------- | ------ | ----------------------------------------------- |

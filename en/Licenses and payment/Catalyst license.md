@@ -3,9 +3,9 @@ aliases:
   - Licenses & Payment/Catalyst license
 permalink: catalyst
 ---
-Obsidian is free to use. You can support Obsidian development by purchasing a _Catalyst_ license.
+The Catalyst license is a one-time purchase that gives you early access to beta versions and helps support continued development of Obsidian. You can support Obsidian by [purchasing a Catalyst license](https://obsidian.md/buy/catalyst). 
 
-Catalyst license gives you exclusive benefits including:
+Benefits include:
 
 - Early access to [[#Enable early access versions|new versions]] of Obsidian
 - Access to exclusive [[#Join our Insider channels|Insider channels]].
@@ -13,21 +13,21 @@ Catalyst license gives you exclusive benefits including:
 
 ## Catalyst tiers
 
-The Catalyst license consists of three tiers: *Insider*, *Supporter*, and *VIP*.
+There are three tiers of Catalyst based on the amount you contribute: *Insider*, *Supporter*, and *VIP*.
 
 | Benefits                                                                           | Insider | Supporter |   VIP    |
 | ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
 | Early access to new versions                                                       |    ✓    |     ✓     |    ✓     |
 | Access to exclusive development channels, `#insider-desktop` and `#insider-mobile` |    ✓    |     ✓     |    ✓     |
 | Access to exclusive lounge channel, `#vip-lounge`                                  |         |     ✓     |    ✓     |
-| Insider community badge                                                            |    ✓    |           |          |
-| Supporter community badge                                                          |         |     ✓     |          |
-| VIP community badge                                                                |         |           |    ✓     |
+| Insider badge                                                                      |    ✓    |           |          |
+| Supporter badge                                                                    |         |     ✓     |          |
+| VIP badge                                                                          |         |           |    ✓     |
 | **Contribution (USD)**                                                             | **$25** |  **$50**  | **$100** |
 
 
-> [!info] Upgrade your Catalyst tiers
-> When you already own a Catalyst license, you can upgrade to a higher Catalyst tier by paying the price difference between your current and the new tier.
+> [!info] Upgrade your Catalyst tier
+> If you already own a Catalyst license, you can upgrade to a higher Catalyst tier by paying the price difference between your current and the new tier.
 
 ## Access Catalyst benefits
 
