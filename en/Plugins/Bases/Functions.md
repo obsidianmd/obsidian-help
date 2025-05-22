@@ -98,6 +98,14 @@ For all date functions, `datetime` denotes a text value in the format `YYYY-MM-D
 
 - `now()` retrieves a datetime at the moment of formula evaluation.
 
+#### `date(datetime)`
+
+- `date(datetime)` extracts the date portion of the provided datetime.
+
+#### `time(datetime)`
+
+- `time(datetime)` extracts the time portion of the provided datetime.
+
 #### `dateModify()`
 
 - `dateModify(datetime, duration)` retrieves a datetime modified by the provided duration.
