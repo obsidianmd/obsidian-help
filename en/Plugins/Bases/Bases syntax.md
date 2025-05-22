@@ -3,11 +3,9 @@ permalink: bases/syntax
 aliases:
   - Bases file format
 ---
-When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file that you can open in a tab or embed like any other file. 
+When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
 
 The [[Introduction to Bases|Bases]] syntax defines [[views]], filters, and formulas. Bases must be valid YAML conforming to the schema defined below.
-
-Base files are typically created and edited in the Obsidian interface, but they can also be edited manually, and embedded as code blocks.
 
 ## Example
 
@@ -16,13 +14,13 @@ Here's an example of a base file. We'll walk through each section in detail.
 ```yaml
 filters:
   or:
-    - tagged_with(file.file, "tag")
+    - taggedWith(file.file, "tag")
     - and:
-        - tagged_with(file.file, "book")
-        - links_to(file.file, "Textbook")
+        - taggedWith(file.file, "book")
+        - linksTo(file.file, "Textbook")
     - not:
-        - tagged_with(file.file, "book")
-        - in_folder(file.file, "Required Reading")
+        - taggedWith(file.file, "book")
+        - inFolder(file.file, "Required Reading")
 formulas:
   formatted_price: 'concat(price, " dollars")'
   ppu: "price / age"
@@ -63,20 +61,20 @@ By default a base includes every file in the vault. There is no `from` or `sourc
 ```yaml
 filters:
   or:
-    - tagged_with(file.file, "tag")
+    - taggedWith(file.file, "tag")
     - and:
-        - tagged_with(file.file, "book")
-        - links_to(file.file, "Textbook")
+        - taggedWith(file.file, "book")
+        - linksTo(file.file, "Textbook")
     - not:
-        - tagged_with(file.file, "book")
-        - in_folder(file.file, "Required Reading")
+        - taggedWith(file.file, "book")
+        - inFolder(file.file, "Required Reading")
 ```
 
 There are two opportunities to apply filters:
 
 1. At the global `filters` level (shown above) where they apply to all views in the base.
 2. At the `view` level where apply only to a specific view.
- 
+
 These two sections are functionally equivalent and when evaluating for a view they will be concatenated with an `AND`.
 
 The `filters` section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of `and`, `or`, or `not`. These keys are a heterogenous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:
@@ -172,7 +170,7 @@ Implicit properties refer to the file currently being tested or evaluated. For e
 
 Embedded bases can use `this` to access properties of the current file. For example, `this.file.name` will resolve to the name of the file which has embedded the base, instead of the file being evaluated.
 
-In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `links_to(file.file, this.file.path)`.
+In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `linksTo(file.file, this.file.path)`.
 
 ## Arithmetic operators
 

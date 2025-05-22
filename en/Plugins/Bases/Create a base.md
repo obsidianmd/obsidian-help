@@ -1,6 +1,8 @@
 ---
 permalink: bases/create-base
 ---
+[[Introduction to Bases|Bases]] let you turn any set of notes into a powerful database. Here's how you can create a base and embed it in a note.
+
 ## Create a new base
 
 **Command palette:**
@@ -29,7 +31,7 @@ Bases can also embedded directly into a note using a `base` code block and the [
 ```base
 filters:
   and:
-    - contains(property.tags, "example")
+    - taggedWith(file.file, "example")
 views:
   - type: table
     name: Table
