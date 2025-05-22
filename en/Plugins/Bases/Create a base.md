@@ -31,7 +31,7 @@ Bases can also embedded directly into a note using a `base` code block and the [
 ```base
 filters:
   and:
-    - contains(property.tags, "example")
+    - taggedWith(file.file, "example")
 views:
   - type: table
     name: Table

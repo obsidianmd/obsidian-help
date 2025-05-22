@@ -10,28 +10,28 @@ Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[
 - `contains(target, query)` returns true if the query can be found in the target.
 - `target` can be a list or text. `query` should be text.
 
-#### `not_contains()`
+#### `containsNone()`
 
-- `not_contains(target, query)` returns the inverse of what `contains(target, query)` would return for the provided target and query.
+- `containsNone(target, query)` returns the inverse of what `contains(target, query)` would return for the provided target and query.
 
-#### `contains_any()`
+#### `containsAny()`
 
-- `contains_any(target, query1, query2, query3...)` returns true if any of the query properties are found in the target.
+- `containsAny(target, query1, query2, query3...)` returns true if any of the query properties are found in the target.
 - `target` can be a list or text.
 - There can be any number of `query` parameters provided. They should be text values.
 
-#### `contains_all()`
+#### `containsAll()`
 
-- `contains_all(target, query1, query2, query3...)` is similar to `contains_any()` except all query properties must be found in the target.
+- `containsAll(target, query1, query2, query3...)` is similar to `containsAny()` except all query properties must be found in the target.
 
 #### `empty()`
 
 - `empty(target)` returns true if the target is has no items.
 - `target` may be a list (true if there are no items), text (true if length is zero), or an object (true if there are no keys).
 
-#### `not_empty()`
+#### `notEmpty()`
 
-- `not_empty(target)` returns the inverse of what `empty(target)` would return for the provided target.
+- `notEmpty(target)` returns the inverse of what `empty(target)` would return for the provided target.
 
 #### `if()`
 
@@ -39,20 +39,20 @@ Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[
 - First argument is the condition.
 - Second argument is output if condition is true.
 - Optional third argument output if condition is false.
-- e.g. `if(date_after(file.mtime, file.ctime), "Modified", "Unmodified")`
+- e.g. `if(dateAfter(file.mtime, file.ctime), "Modified", "Unmodified")`
 
-#### `in_folder()`
+#### `inFolder()`
 
-- `in_folder(file.file, folder)` returns true for all notes in the specified folder.
+- `inFolder(file.file, folder)` returns true for all notes in the specified folder.
 - The first argument should always be `file.file`.
 - The second argument is the folder path to test against.
 
-#### `links_to()`
+#### `linksTo()`
 
-- `links_to(file.file, path)` returns true for all notes which have a link to the specified note.
+- `linksTo(file.file, path)` returns true for all notes which have a link to the specified note.
 - The first argument should always be `file.file`.
 - The second argument is the file path to test against.
-- In a Base file in a sidebar you can replicate the backlink pane functionality with the following filter: `links_to(file.file, this.file.path)`.
+- In a Base file in a sidebar you can replicate the backlink pane functionality with the following filter: `linksTo(file.file, this.file.path)`.
 
 #### `not()`
 
@@ -98,50 +98,50 @@ For all date functions, `datetime` denotes a text value in the format `YYYY-MM-D
 
 - `now()` retrieves a datetime at the moment of formula evaluation.
 
-#### `date_modify()`
+#### `dateModify()`
 
-- `date_modify(datetime, duration)` retrieves a datetime modified by the provided duration.
+- `dateModify(datetime, duration)` retrieves a datetime modified by the provided duration.
 - `duration` may be a number of milliseconds (`1 minute` is equivalent to `60000`)
 - `duration` may be a text value such as `2h`, `2 hour`, `2 hours`, `-2 hours`
 - Valid units for duration text values are `year`, `month`, `week`, `day`, `hour`, `minute`, `second`, the plural versions, and the single letter abbreviation. `month` is abbreviated to `M`.
 
-#### `date_diff()`
+#### `dateDiff()`
 
-- `date_diff(datetime, datetime)` retrieves the difference between the two dates in milliseconds.
+- `dateDiff(datetime, datetime)` retrieves the difference between the two dates in milliseconds.
 - Both parameters can be a `datetime` or a `date`.
 - `date` parameters are assumed to be at `00:00:00` on the specified date.
 
-#### `date_equals()`
+#### `dateEquals()`
 
-- `date_equals(datetime, datetime)` returns true if the two dates are the same.
+- `dateEquals(datetime, datetime)` returns true if the two dates are the same.
 - Both parameters can be a `datetime` or a `date`.
 - If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
 
-#### `date_not_equals()`
+#### `dateNotEquals()`
 
-- `date_not_equals(datetime, datetime)` returns the inverse of `date_equals`.
+- `dateNotEquals(datetime, datetime)` returns the inverse of `dateEquals`.
 
-#### `date_before()`
+#### `dateBefore()`
 
-- `date_before(datetime, datetime)` returns true if the first datetime is before the second datetime.
+- `dateBefore(datetime, datetime)` returns true if the first datetime is before the second datetime.
 - Both parameters can be a `datetime` or a `date`.
 - If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
 
-#### `date_after()`
+#### `dateAfter()`
 
-- `date_after(datetime, datetime)` returns true if the first datetime is after the second datetime.
+- `dateAfter(datetime, datetime)` returns true if the first datetime is after the second datetime.
 - Both parameters can be a `datetime` or a `date`.
 - If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
 
-#### `date_on_or_before()`
+#### `dateOnOrBefore()`
 
-- `date_before(datetime, datetime)` returns true if the first datetime is before the second datetime or if they are equivalent.
+- `dateOnOrBefore(datetime, datetime)` returns true if the first datetime is before the second datetime or if they are equivalent.
 - Both parameters can be a `datetime` or a `date`.
 - If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
 
-#### `date_on_or_after()`
+#### `dateOnOrAfter()`
 
-- `date_after(datetime, datetime)` returns true if the first datetime is after the second datetime or if they are equivalent.
+- `dateOnOrAfter(datetime, datetime)` returns true if the first datetime is after the second datetime or if they are equivalent.
 - Both parameters can be a `datetime` or a `date`.
 - If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
 
