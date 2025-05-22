@@ -58,9 +58,9 @@ Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[
 
 - `not(condition)` can be used to invert any boolean value.
 
-#### `tag()`
+#### `taggedWith()`
 
-- `tag(file.file, "tag1", "tag2" ...)` returns true for all notes which have any of the specified tags.
+- `taggedWith(file.file, "tag1", "tag2" ...)` returns true for all notes which have any of the specified tags.
 - The first argument should always be `file.file`.
 - Second and on arguments are tags to search for.
 
