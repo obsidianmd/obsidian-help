@@ -174,6 +174,8 @@ In a sidebar, `this` takes on the special meaning of "the currently active file"
 
 ## Arithmetic operators
 
+Arithmetic operators must be surrounded by spaces. For example, `radius * (2 * 3.14)`.
+
 | Operator | Description |
 | -------- | ----------- |
 | `+`      | plus        |
