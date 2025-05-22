@@ -7,5 +7,6 @@ Some planned features include:
 
 - Bases API for plugins to add more power through custom functions and new view types.
 - More view types beyond tables, e.g. list, cards, etc.
+- Grouping files and aggregation function (e.g. sum, average, etc).
 - Obsidian Publish support.
 
