@@ -221,7 +221,7 @@ While we recommend using YAML to define properties, you can also define properti
 ```json
 ---
 {
-  "tags": "journal",
+  "tags": ["journal"],
   "publish": false
 }
 ---
