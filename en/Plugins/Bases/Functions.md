@@ -220,7 +220,7 @@ For all date functions, `datetime` denotes a text value in the format `YYYY-MM-D
 - `input` may be a text value, in which case the length of the text is returned.
 - `input` may be a list, in which case the number of elements in the list is returned.
 
-#### split()
+#### `split()`
 
 - `split(input, separator, n)` splits the input at each instance of separator, returning a list.
 - `input` should be a text value.
