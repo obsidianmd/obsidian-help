@@ -43,3 +43,19 @@ Filter groups allow you to create more complex logic by creating combinations on
 #### Advanced filter editor
 
 Click the code button ![[lucide-code-xml.svg#icon]] to use the **advanced filter** editor. This displays the raw [[Bases syntax|syntax]] for the filter, and can be used with more complex [[Functions|functions]] that cannot be displayed using the point-and-click interface.
+
+## View options
+
+View options give you the ability to configure, duplicate, copy, and export a view.
+
+1. Click the view name in the top left of the bases toolbar.
+2. Click the right arrow next to the current view.
+3. Choose an action from the view options menu.
+
+### Copy to clipboard
+
+This action copies the view to your clipboard. Once in your clipboard you can paste it into a Markdown file, or into other document apps including spreadsheets like Google Sheets, Excel, and Numbers.
+
+### Export CSV
+
+This action saves a CSV of your current view.
