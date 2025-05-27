@@ -162,13 +162,14 @@ Implicit properties refer to the file currently being tested or evaluated. For e
 
 | Property      | Type   | Description                                     |
 | ------------- | ------ | ----------------------------------------------- |
-| `file.file`   | File   | File object. Only usable in specific functions. |
-| `file.name`   | String | File name                                       |
 | `file.ctime`  | Date   | Created time                                    |
-| `file.mtime`  | Date   | Modified time                                   |
 | `file.ext`    | String | File extension                                  |
-| `file.size`   | Number | File size                                       |
+| `file.file`   | File   | File object. Only usable in specific functions. |
 | `file.folder` | String | Path of the file folder                         |
+| `file.mtime`  | Date   | Modified time                                   |
+| `file.name`   | String | File name                                       |
+| `file.path`   | String | Path of the file                                |
+| `file.size`   | Number | File size                                       |
 
 ### Self-referential properties
 
