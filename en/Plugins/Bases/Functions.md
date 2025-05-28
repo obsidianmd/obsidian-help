@@ -236,6 +236,14 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Reverses the array in place.
 - Example: `[1,2,3].reverse()` returns `[3,2,1]`.
 
+### sort()
+
+`array.sort(): array`
+
+- Sorts array elements from smallest to largest.
+- Example: `[3, 1, 2].sort()` returns `[1, 2, 3]`.
+- Example: `["c", "a", "b"].sort()` returns `["a", "b", "c"]`.
+
 ### `flat()`
 
 `array.flat(): array`
