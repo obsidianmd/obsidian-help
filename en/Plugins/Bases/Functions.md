@@ -31,6 +31,12 @@ Global functions are used without a type.
 
 - Returns the largest of all the provided numbers.
 
+### `link()`
+
+`link(path: string, display?: string): Link`
+
+- Parses a string path and returns a Link object that renders as a link to the path given. Optionally provide the display parameter to change what text the link says.
+
 ## Any
 
 Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), arrays (e.g. `[1,2,3]`), objects, and more.
@@ -324,13 +330,21 @@ The following fields are available for dates:
 
 Functions you can use with file in the vault, such as `file("notes.md")`.
 
+### `asLink()`
+
+`file.asLink(display?: string): Link`
+
+- `display` optional display text for the link.
+- Returns a Link object that renders as a functioning link.
+- Example: `file.asLink()`
+
 ### `linksTo()`
 
-`file.linksTo(file: file): boolean`
+`file.linksTo(otherFile: file): boolean`
 
-- `file` is another file to check.
+- `otherFile` is another file to check.
 - Returns true if this file links to `file`.
-- Example: `file.linksTo(otherFile)` returns `true` if there’s a link.
+- Example: `file.linksTo(otherFile)` returns `true` if there’s a link from `file` to `otherFile`.
 
 ### `inFolder()`
 
