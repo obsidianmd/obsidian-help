@@ -104,12 +104,22 @@ Functions you can use with a sequence of characters such as `"hello".`
 
 ### `split()`
 
-`string.split(separator: string, n?: number): array`
+`string.split(separator: string | Regexp, n?: number): array`
 
 - `separator` is the delimiter for splitting the string.
-- `n` is an optional number. If provided, the result will have at most `n` elements. The final element includes any remaining unsplit content.
+- `n` is an optional number. If provided, the result will have the first `n` elements.
 - Returns an array of substrings.
-- Example: `"a,b,c,d".split(",", 3)` returns `["a", "b", "c,d"]`.
+- Example: `"a,b,c,d".split(",", 3)` or `"a,b,c,d".split(/,/, 3)` returns `["a", "b", "c"]`.
+
+### replace()
+
+`string.replace(pattern: string | Regexp, replacement: string): string`
+
+- `pattern` is the value to search for in the target string.
+- `replacement` is the value to replace found patterns with.
+- If `pattern` is a string, all occurrences of the pattern will be replaced.
+- If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
+- Example: `"a,b,c,d".replace(/,/, "-")` returns `"a-b,c,d"`, where as `"a,b,c,d".replace(/,/g, "-")` returns `"a-b-c-d"`.
 
 ### `contains()`
 
