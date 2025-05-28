@@ -3,7 +3,11 @@ permalink: bases/functions
 ---
 Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[Properties]] in filters and formulas. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
 
-## Global functions
+The functions you can use depend on the type of value you want to modify.
+
+## Global
+
+Global functions are used without a type.
 
 ### `if()`
 
@@ -27,9 +31,9 @@ Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[
 
 - Returns the largest of all the provided numbers.
 
-## Any functions
+## Any
 
-Functions you can use with any value, including strings, numbers, arrays, objects, and more.  Example: `42`, `"hello"`, `[1, 2, 3]`.
+Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), arrays (e.g. `[1,2,3]`), objects, and more.
 
 ### `toString()`
 
@@ -38,9 +42,9 @@ Functions you can use with any value, including strings, numbers, arrays, object
 - Returns the string representation of any value.
 - Example: `123.toString()` returns `"123"`.
 
-## String functions
+## String
 
-Functions you can use with a sequence of characters. For example: `"hello".`
+Functions you can use with a sequence of characters such as `"hello".`
 
 ### Fields
 
@@ -143,9 +147,9 @@ Functions you can use with a sequence of characters. For example: `"hello".`
 - Example: `"hello".reverse()` returns `"olleh"`.
 
 
-## Number functions
+## Number
 
-Functions you can use with numeric values. For example: `42`, `3.14`.
+Functions you can use with numeric values such as `42`, `3.14`.
 
 ### `round()`
 
@@ -184,9 +188,9 @@ Functions you can use with numeric values. For example: `42`, `3.14`.
 - Example: `(3.14159).toFixed(2)` returns `"3.14"`.
 
 
-## Array functions
+## Array
 
-Functions you can use with an ordered list of elements. Example: `[1, 2, 3]`.
+Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
 ### Fields
 
@@ -265,9 +269,9 @@ Functions you can use with an ordered list of elements. Example: `[1, 2, 3]`.
 - If `end` is omitted, slices to the end of the array.
 
 
-## Object functions
+## Object
 
-Functions you can use with a collection of key-value pairs. Example: `{"a": 1, "b": 2}`.
+Functions you can use with a collection of key-value pairs such as `{"a": 1, "b": 2}`.
 
 ### `isEmpty()`
 
@@ -277,7 +281,7 @@ Functions you can use with a collection of key-value pairs. Example: `{"a": 1, "
 - Example: `{}.isEmpty()` returns `true`.
 
 
-## RegExp functions
+## RegExp
 
 Functions you can use with a regular expression pattern. Example: `/abc/`.
 
@@ -289,9 +293,9 @@ Functions you can use with a regular expression pattern. Example: `/abc/`.
 - Returns true if the regular expression matches `value`.
 - Example: `/abc/.matches("abcde")` returns `true`.
 
-## Date functions
+## Date
 
-Functions you can use with a date and time. Example: `date("2025-05-27")`.
+Functions you can use with a date and time such as `date("2025-05-27")`.
 
 ### Fields
 
@@ -316,9 +320,9 @@ The following fields are available for dates:
 - Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
 
 
-## File functions
+## File
 
-Functions you can use with file in the vault. Example: `file("notes.md")`.
+Functions you can use with file in the vault, such as `file("notes.md")`.
 
 ### `linksTo()`
 
