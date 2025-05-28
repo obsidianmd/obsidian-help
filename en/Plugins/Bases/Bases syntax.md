@@ -18,15 +18,15 @@ Here's an example of a base file. We'll walk through each section in detail.
 ```yaml
 filters:
   or:
-    - taggedWith(file.file, "tag")
+    - file.taggedWith("tag")
     - and:
-        - taggedWith(file.file, "book")
-        - linksTo(file.file, "Textbook")
+        - file.taggedWith("book")
+        - file.linksTo("Textbook")
     - not:
-        - taggedWith(file.file, "book")
-        - inFolder(file.file, "Required Reading")
+        - file.taggedWith("book")
+        - file.inFolder("Required Reading")
 formulas:
-  formatted_price: 'concat(price, " dollars")'
+  formatted_price: 'price + " dollars"'
   ppu: "price / age"
 display:
   status: Status
@@ -65,13 +65,13 @@ By default a base includes every file in the vault. There is no `from` or `sourc
 ```yaml
 filters:
   or:
-    - taggedWith(file.file, "tag")
+    - file.taggedWith("tag")
     - and:
-        - taggedWith(file.file, "book")
-        - linksTo(file.file, "Textbook")
+        - file.taggedWith("book")
+        - file.linksTo("Textbook")
     - not:
-        - taggedWith(file.file, "book")
-        - inFolder(file.file, "Required Reading")
+        - file.taggedWith("book")
+        - file.inFolder("Required Reading")
 ```
 
 There are two opportunities to apply filters:
@@ -94,7 +94,7 @@ The `formulas` section defines formula properties that can be displayed across a
 
 ```yaml
 formulas:
-  formatted_price: 'concat(price, " dollars")'
+  formatted_price: 'price + " dollars"'
   ppu: "price / age"
 ```
 
@@ -175,11 +175,11 @@ Implicit properties refer to the file currently being tested or evaluated. For e
 
 Embedded bases can use `this` to access properties of the current file. For example, `this.file.name` will resolve to the name of the file which has embedded the base, instead of the file being evaluated.
 
-In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `linksTo(file.file, this.file.path)`.
+In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `file.linksTo(this.file.path)`.
 
 ## Arithmetic operators
 
-Arithmetic operators must be surrounded by spaces. For example, `radius * (2 * 3.14)`.
+For example, `radius * (2 * 3.14)`.
 
 | Operator | Description |
 | -------- | ----------- |
@@ -187,9 +187,12 @@ Arithmetic operators must be surrounded by spaces. For example, `radius * (2 * 3
 | `-`      | minus       |
 | `*`      | multiply    |
 | `/`      | divide      |
+| `%`      | modulo      |
 | `( )`    | parenthesis |
 
 ## Comparison operators
+
+Comparison operators can be used to compare numbers, or Date objects. Equal and not Equal can be used with any kind of value, not just numbers and dates.
 
 | Operator | Description              |
 | -------- | ------------------------ |

@@ -3,237 +3,382 @@ permalink: bases/functions
 ---
 Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[Properties]] in filters and formulas. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
 
-### Logic
 
-#### `contains()`
-
-- `contains(target, query)` returns true if the query can be found in the target.
-- `target` can be a list or text. `query` should be text.
-
-#### `containsNone()`
-
-- `containsNone(target, query)` returns the inverse of what `contains(target, query)` would return for the provided target and query.
-
-#### `containsAny()`
-
-- `containsAny(target, query1, query2, query3...)` returns true if any of the query properties are found in the target.
-- `target` can be a list or text.
-- There can be any number of `query` parameters provided. They should be text values.
-
-#### `containsAll()`
-
-- `containsAll(target, query1, query2, query3...)` is similar to `containsAny()` except all query properties must be found in the target.
-
-#### `empty()`
-
-- `empty(target)` returns true if the target is has no items.
-- `target` may be a list (true if there are no items), text (true if length is zero), or an object (true if there are no keys).
-
-#### `notEmpty()`
-
-- `notEmpty(target)` returns the inverse of what `empty(target)` would return for the provided target.
+### Global
 
 #### `if()`
 
-- `if(logical_expression, value_if_true, value_if_false)`
-- First argument is the condition.
-- Second argument is output if condition is true.
-- Optional third argument output if condition is false.
-- e.g. `if(dateAfter(file.mtime, file.ctime), "Modified", "Unmodified")`
+`if(condition: any, trueResult: any, falseResult?: any): any`
 
-#### `inFolder()`
-
-- `inFolder(file.file, folder)` returns true for all notes in the specified folder.
-- The first argument should always be `file.file`.
-- The second argument is the folder path to test against.
-
-#### `linksTo()`
-
-- `linksTo(file.file, path)` returns true for all notes which have a link to the specified note.
-- The first argument should always be `file.file`.
-- The second argument is the file path to test against.
-- In a Base file in a sidebar you can replicate the backlink pane functionality with the following filter: `linksTo(file.file, this.file.path)`.
-
-#### `not()`
-
-- `not(condition)` can be used to invert any boolean value.
-
-#### `taggedWith()`
-
-- `taggedWith(file.file, "tag1", "tag2" ...)` returns true for all notes which have any of the specified tags.
-- The first argument should always be `file.file`.
-- Second and on arguments are tags to search for.
-
-### Numbers
-
-#### `abs()`
-
-- `abs(number)` returns the absolute value of the provided number.
-
-#### `ceil()`
-
-- `ceil(number)` returns the provided number rounded up.
-
-#### `floor()`
-
-- `floor(number)` returns the provided number rounded down.
-
-#### `round()`
-
-- `round(number)` returns the provided number rounded to the nearest integer.
+- `condition` is the condition to be evaluated.
+- `trueResult` is the output if condition is true.
+- `falseResult` is the optional output if the condition is false. If it is not given, then it is assumed to be `null`.
+- Returns the `trueResult` if `condition` is true, or is a truthy value, or `falseResult` otherwise.
+- Example: `if(isModified, "Modified", "Unmodified")`
 
 #### `min()`
 
-- `min(number1, number2...)` returns the smallest of all the provided numbers.
+`min(value1: number, value2: number...): number`
+
+- Returns the smallest of all the provided numbers.
 
 #### `max()`
 
-- `max(number1, number2...)` returns the largest of all the provided numbers.
+`max(value1: number, value2: number...): number`
 
-### Dates
+- Returns the largest of all the provided numbers.
 
-For all date functions, `datetime` denotes a text value in the format `YYYY-MM-DD[T]HH:mm:ss`, and `date` is a text value in the format `YYYY-MM-DD`.
+### Any
 
-#### `now()`
+Represents any value, including strings, numbers, arrays, objects, and more.  
+Example: `42`, `"hello"`, `[1, 2, 3]`
 
-- `now()` retrieves a datetime at the moment of formula evaluation.
 
-#### `date(datetime)`
+#### Fields
 
-- `date(datetime)` extracts the date portion of the provided datetime.
+_(No fields)_
 
-#### `time(datetime)`
 
-- `time(datetime)` extracts the time portion of the provided datetime.
+#### `toString()`
 
-#### `dateModify()`
+`any.toString(): string`
 
-- `dateModify(datetime, duration)` retrieves a datetime modified by the provided duration.
-- `duration` may be a number of milliseconds (`1 minute` is equivalent to `60000`)
-- `duration` may be a text value such as `2h`, `2 hour`, `2 hours`, `-2 hours`
-- Valid units for duration text values are `year`, `month`, `week`, `day`, `hour`, `minute`, `second`, the plural versions, and the single letter abbreviation. `month` is abbreviated to `M`.
+- Returns the string representation of any value.
+- Example: `123.toString()` returns `"123"`.
 
-#### `dateDiff()`
 
-- `dateDiff(datetime, datetime)` retrieves the difference between the two dates in milliseconds.
-- Both parameters can be a `datetime` or a `date`.
-- `date` parameters are assumed to be at `00:00:00` on the specified date.
+### String
 
-#### `dateEquals()`
+Represents a sequence of characters.  
+Example: `"hello"`
 
-- `dateEquals(datetime, datetime)` returns true if the two dates are the same.
-- Both parameters can be a `datetime` or a `date`.
-- If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
 
-#### `dateNotEquals()`
+#### Fields
 
-- `dateNotEquals(datetime, datetime)` returns the inverse of `dateEquals`.
+- `string.length: number` — the number of characters in the string.
 
-#### `dateBefore()`
 
-- `dateBefore(datetime, datetime)` returns true if the first datetime is before the second datetime.
-- Both parameters can be a `datetime` or a `date`.
-- If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
+#### `startsWith()`
 
-#### `dateAfter()`
+`string.startsWith(query: string): boolean`
 
-- `dateAfter(datetime, datetime)` returns true if the first datetime is after the second datetime.
-- Both parameters can be a `datetime` or a `date`.
-- If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
+- `query` is the string to check at the beginning.
+- Returns true if this string starts with `query`.
+- Example: `"hello".startsWith("he")` returns `true`.
 
-#### `dateOnOrBefore()`
+#### `endsWith()`
 
-- `dateOnOrBefore(datetime, datetime)` returns true if the first datetime is before the second datetime or if they are equivalent.
-- Both parameters can be a `datetime` or a `date`.
-- If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
+`string.endsWith(query: string): boolean`
 
-#### `dateOnOrAfter()`
-
-- `dateOnOrAfter(datetime, datetime)` returns true if the first datetime is after the second datetime or if they are equivalent.
-- Both parameters can be a `datetime` or a `date`.
-- If both inputs are `datetimes`, a date and time comparison is performed, otherwise rounded to a date comparison.
-
-#### `year()`
-
-- `year(date)` retrieves the year from the input date or datetime.
-- The parameter can be a `datetime` or a `date`.
-
-#### `month()`
-
-- `month(date)` retrieves the month number from the input date or datetime.
-- The parameter can be a `datetime` or a `date`.
-
-#### `day()`
-
-- `day(date)` retrieves the day of the month from the input date or datetime.
-- The parameter can be a `datetime` or a `date`.
-
-#### `hour()`
-
-- `hour(datetime)` retrieves the 24-hour hour from the input datetime.
-
-#### `minute()`
-
-- `minute(datetime)` retrieves the minutes from the input datetime.
-
-#### `second()`
-
-- `second(datetime)` retrieves the seconds from the input datetime.
-
-### Strings and lists
-
-#### `concat()`
-
-- `concat(text, text...)` merges all parameters into one text value.
+- `query` is the string to check at the end.
+- Returns true if this string ends with `query`.
+- Example: `"hello".endsWith("lo")` returns `true`.
 
 #### `trim()`
 
-- `trim(text)` will remove whitespace before an after the text value.
-- e.g. `trim("   spaces   ")` will return `spaces`.
+`string.trim(): string`
+
+- Removes whitespace from both ends of the string.
+- Example: `"  hi  ".trim()` returns `"hi"`.
 
 #### `title()`
 
-- `title(text)` will uppercase the first letter of each word in the text value.
-- e.g. `title("an example sentence")` will return `An Example Sentence`
+`string.title(): string`
 
-#### `flat()`
+- Converts the string to title case (first letter of each word capitalized).
+- Example: `"hello world".title()` returns `"Hello World"`.
 
-- `flat(list)` will concatenate all sub-element lists into a single list.
-- e.g. `flat([[1, 2], [3, 4]])` will return `[1, 2, 3, 4]`.
+#### `icon()`
 
-#### `index()`
+`string.icon(): string`
 
-- `index(object, key)` will return a value from an object for the provided key.
-- First argument must be an object.
-- Second argument must be a text value.
+- Returns a string that represents the icon name to be rendered using Lucide. The icon name must match a supported Lucide icon.
+- Example: `"arrow-right".icon()` returns `"arrow-right"`.
 
-#### `join()`
+#### `isEmpty()`
 
-- `join(separator, list)` joins the elements of the list together using the provided separator.
-- First argument is a separator string.
-- Second argument is a list. Alternatively, the function can accept multiple additional arguments which will be joined.
-- e.g. `join(",", [1, 2, 3])` will return `1,2,3`.
+`string.isEmpty(): boolean`
 
-#### `len()`
-
-- `len(input)` will return the length of the input.
-- `input` may be a text value, in which case the length of the text is returned.
-- `input` may be a list, in which case the number of elements in the list is returned.
+- Returns true if the string has no characters.
+- Example: `"".isEmpty()` returns `true`.
 
 #### `split()`
 
-- `split(input, separator, n)` splits the input at each instance of separator, returning a list.
-- `input` should be a text value.
-- `separator` should be a text value.
-- `n` is an optional number. If provided, the list will have at most `n` elements. The final element includes any unsplit content from the input.
+`string.split(separator: string, n?: number): array`
+
+- `separator` is the delimiter for splitting the string.
+- `n` is an optional number. If provided, the result will have at most `n` elements. The final element includes any remaining unsplit content.
+- Returns an array of substrings.
+- Example: `"a,b,c,d".split(",", 3)` returns `["a", "b", "c,d"]`.
+
+#### `contains()`
+
+`string.contains(value: string): boolean`
+
+- `value` is the substring to search for.
+- Returns true if the string contains `value`.
+- Example: `"hello".contains("ell")` returns `true`.
+
+#### `containsAny()`
+
+`string.containsAny(...values: string): boolean`
+
+- `values` are one or more substrings to search for.
+- Returns true if the string contains at least one of the `values`.
+- Example: `"hello".containsAny("x", "y", "e")` returns `true`.
+
+#### `containsAll()`
+
+`string.containsAll(...values: string): boolean`
+
+- `values` are one or more substrings to search for.
+- Returns true if the string contains all of the `values`.
+- Example: `"hello".containsAll("h", "e")` returns `true`.
 
 #### `slice()`
 
-- `slice(input, start, end)` returns a portion of the provided input.
-- `input` may be a text value or a list.
-- `start` is the index (starting from 0) of the first element to include.
-- `end` is an optional index one greater than the last element to include. If omitted the remaining elements are included.
+`string.slice(start: number, end?: number): string`
+
+- `start` is the inclusive start index.
+- `end` is the optional exclusive end index.
+- Returns a substring from `start` (inclusive) to `end` (exclusive).
+- Example: `"hello".slice(1, 4)` returns `"ell"`.
+- If `end` is omitted, slices to the end of the string.
+
+#### `reverse()`
+
+`string.reverse(): string`
+
+- Reverses the string.
+- Example: `"hello".reverse()` returns `"olleh"`.
+
+
+### Number
+
+Represents numeric values.  
+Example: `42`, `3.14`
+
+
+#### Fields
+
+_(No fields)_
+
+
+#### `round()`
+
+`number.round(): number`
+
+- Rounds the number to the nearest integer.
+- Example: `(2.5).round()` returns `3`.
+
+#### `ceil()`
+
+`number.ceil(): number`
+
+- Rounds the number up to the nearest integer.
+- Example: `(2.1).ceil()` returns `3`.
+
+#### `floor()`
+
+`number.floor(): number`
+
+- Rounds the number down to the nearest integer.
+- Example: `(2.9).floor()` returns `2`.
+
+#### `abs()`
+
+`number.abs(): number`
+
+- Returns the absolute value of the number.
+- Example: `(-5).abs()` returns `5`.
+
+#### `toFixed()`
+
+`number.toFixed(precision: number): string`
+
+- `precision` is the number of decimal places.
+- Returns a string with the number in fixed-point notation.
+- Example: `(3.14159).toFixed(2)` returns `"3.14"`.
+
+
+### Array
+
+Represents an ordered list of elements.  
+Example: `[1, 2, 3]`
+
+
+#### Fields
+
+- `array.length: number` — the number of elements in the array.
+
+
+#### `isEmpty()`
+
+`array.isEmpty(): boolean`
+
+- Returns true if the array has no elements.
+- Example: `[1,2,3].isEmpty()` returns `false`.
+
+#### `join()`
+
+`array.join(separator: string): string`
+
+- `separator` is the string to insert between elements.
+- Joins all array elements into a single string.
+- Example: `[1,2,3].join(",")` returns `"1,2,3"`.
+
+#### `reverse()`
+
+`array.reverse(): array`
+
+- Reverses the array in place.
+- Example: `[1,2,3].reverse()` returns `[3,2,1]`.
+
+#### `flat()`
+
+`array.flat(): array`
+
+- Flattens nested arrays into a single array.
+- Example: `[1,[2,3]].flat()` returns `[1,2,3]`.
 
 #### `unique()`
 
-- `unique(list)` returns a subset of the provided list where no element is duplicated.
+`array.unique(): array`
+
+- Removes duplicate elements.
+- Example: `[1,2,2,3].unique()` returns `[1,2,3]`.
+
+#### `contains()`
+
+`array.contains(value: any): boolean`
+
+- `value` is the element to search for.
+- Returns true if the array contains `value`.
+- Example: `[1,2,3].contains(2)` returns `true`.
+
+#### `containsAny()`
+
+`array.containsAny(...values: any): boolean`
+
+- `values` are one or more elements to search for.
+- Returns true if the array contains at least one of the `values`.
+- Example: `[1,2,3].containsAny(3,4)` returns `true`.
+
+#### `containsAll()`
+
+`array.containsAll(...values: any): boolean`
+
+- `values` are one or more elements to search for.
+- Returns true if the array contains all of the `values`.
+- Example: `[1,2,3].containsAll(2,3)` returns `true`.
+
+#### `slice()`
+
+`array.slice(start: number, end?: number): array`
+
+- `start` is the inclusive start index.
+- `end` is the optional exclusive end index.
+- Returns a shallow copy of a portion of the array from `start` (inclusive) to `end` (exclusive).
+- Example: `[1,2,3,4].slice(1,3)` returns `[2,3]`.
+- If `end` is omitted, slices to the end of the array.
+
+
+### Object
+
+Represents a collection of key-value pairs.  
+Example: `{"a": 1, "b": 2}`
+
+
+#### Fields
+
+_(No fields)_
+
+
+#### `isEmpty()`
+
+`object.isEmpty(): boolean`
+
+- Returns true if the object has no own properties.
+- Example: `{}.isEmpty()` returns `true`.
+
+
+### RegExp
+
+Represents a regular expression pattern.  
+Example: `/abc/`
+
+
+#### Fields
+
+_(No fields)_
+
+
+#### `matches()`
+
+`regexp.matches(value: string): boolean`
+
+- `value` is the string to test.
+- Returns true if the regular expression matches `value`.
+- Example: `/abc/.matches("abcde")` returns `true`.
+
+
+### Date
+
+Represents a date and time.  
+Example: `date("2025-05-27")`
+
+
+#### Fields
+
+- `date.year: number` — the year of the date.
+- `date.month: number` — the month of the date (1–12).
+- `date.day: number` — the day of the month.
+- `date.hour: number` — the hour (0–23).
+- `date.minute: number` — the minute (0–59).
+- `date.second: number` — the second (0–59).
+- `date.millisecond: number` — the millisecond (0–999).
+
+
+#### `format()`
+
+`date.format(format: string): string`
+
+- `format` is the format string (e.g., `"YYYY-MM-DD"`).
+- Returns the date formatted as specified.
+- Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
+
+
+### File
+
+Represents a file within the system.  
+Example: `file("notes.md")`
+
+
+#### Fields
+
+_(No fields)_
+
+
+#### `linksTo()`
+
+`file.linksTo(file: file): boolean`
+
+- `file` is another file to check.
+- Returns true if this file links to `file`.
+- Example: `file.linksTo(otherFile)` returns `true` if there’s a link.
+
+#### `inFolder()`
+
+`file.inFolder(folder: string): boolean`
+
+- `folder` is the folder name to check.
+- Returns true if the file is in the specified folder.
+- Example: `file.inFolder("notes")` returns `true`.
+
+#### `taggedWith()`
+
+`file.taggedWith(...values: string): boolean`
+
+- `values` are one or more tag names.
+- Returns true if the file has any of the tags in `values`.
+- Example: `file.taggedWith("tag1", "tag2")` returns `true` if the file has either tag.
