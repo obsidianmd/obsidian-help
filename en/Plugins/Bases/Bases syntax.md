@@ -192,7 +192,7 @@ For example, `radius * (2 * 3.14)`.
 
 ## Comparison operators
 
-Comparison operators can be used to compare numbers, or Date objects. Equal and not Equal can be used with any kind of value, not just numbers and dates.
+Comparison operators can be used to compare numbers, or Date objects. Equal and not equal can be used with any kind of value, not just numbers and dates.
 
 | Operator | Description              |
 | -------- | ------------------------ |

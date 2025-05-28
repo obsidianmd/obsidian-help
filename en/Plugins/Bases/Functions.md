@@ -3,10 +3,9 @@ permalink: bases/functions
 ---
 Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[Properties]] in filters and formulas. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
 
+## Global functions
 
-### Global
-
-#### `if()`
+### `if()`
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
@@ -16,49 +15,40 @@ Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[
 - Returns the `trueResult` if `condition` is true, or is a truthy value, or `falseResult` otherwise.
 - Example: `if(isModified, "Modified", "Unmodified")`
 
-#### `min()`
+### `min()`
 
 `min(value1: number, value2: number...): number`
 
 - Returns the smallest of all the provided numbers.
 
-#### `max()`
+### `max()`
 
 `max(value1: number, value2: number...): number`
 
 - Returns the largest of all the provided numbers.
 
-### Any
+## Any functions
 
-Represents any value, including strings, numbers, arrays, objects, and more.  
-Example: `42`, `"hello"`, `[1, 2, 3]`
+Functions you can use with any value, including strings, numbers, arrays, objects, and more.  Example: `42`, `"hello"`, `[1, 2, 3]`.
 
-
-#### Fields
-
-_(No fields)_
-
-
-#### `toString()`
+### `toString()`
 
 `any.toString(): string`
 
 - Returns the string representation of any value.
 - Example: `123.toString()` returns `"123"`.
 
+## String functions
 
-### String
+Functions you can use with a sequence of characters. For example: `"hello".`
 
-Represents a sequence of characters.  
-Example: `"hello"`
+### Fields
 
+| Field           | Type     | Description                            |
+| --------------- | -------- | -------------------------------------- |
+| `string.length` | `number` | The number of characters in the string |
 
-#### Fields
-
-- `string.length: number` — the number of characters in the string.
-
-
-#### `startsWith()`
+### `startsWith()`
 
 `string.startsWith(query: string): boolean`
 
@@ -66,7 +56,7 @@ Example: `"hello"`
 - Returns true if this string starts with `query`.
 - Example: `"hello".startsWith("he")` returns `true`.
 
-#### `endsWith()`
+### `endsWith()`
 
 `string.endsWith(query: string): boolean`
 
@@ -74,35 +64,35 @@ Example: `"hello"`
 - Returns true if this string ends with `query`.
 - Example: `"hello".endsWith("lo")` returns `true`.
 
-#### `trim()`
+### `trim()`
 
 `string.trim(): string`
 
 - Removes whitespace from both ends of the string.
 - Example: `"  hi  ".trim()` returns `"hi"`.
 
-#### `title()`
+### `title()`
 
 `string.title(): string`
 
 - Converts the string to title case (first letter of each word capitalized).
 - Example: `"hello world".title()` returns `"Hello World"`.
 
-#### `icon()`
+### `icon()`
 
 `string.icon(): string`
 
 - Returns a string that represents the icon name to be rendered using Lucide. The icon name must match a supported Lucide icon.
 - Example: `"arrow-right".icon()` returns `"arrow-right"`.
 
-#### `isEmpty()`
+### `isEmpty()`
 
 `string.isEmpty(): boolean`
 
 - Returns true if the string has no characters.
 - Example: `"".isEmpty()` returns `true`.
 
-#### `split()`
+### `split()`
 
 `string.split(separator: string, n?: number): array`
 
@@ -111,7 +101,7 @@ Example: `"hello"`
 - Returns an array of substrings.
 - Example: `"a,b,c,d".split(",", 3)` returns `["a", "b", "c,d"]`.
 
-#### `contains()`
+### `contains()`
 
 `string.contains(value: string): boolean`
 
@@ -119,7 +109,7 @@ Example: `"hello"`
 - Returns true if the string contains `value`.
 - Example: `"hello".contains("ell")` returns `true`.
 
-#### `containsAny()`
+### `containsAny()`
 
 `string.containsAny(...values: string): boolean`
 
@@ -127,7 +117,7 @@ Example: `"hello"`
 - Returns true if the string contains at least one of the `values`.
 - Example: `"hello".containsAny("x", "y", "e")` returns `true`.
 
-#### `containsAll()`
+### `containsAll()`
 
 `string.containsAll(...values: string): boolean`
 
@@ -135,7 +125,7 @@ Example: `"hello"`
 - Returns true if the string contains all of the `values`.
 - Example: `"hello".containsAll("h", "e")` returns `true`.
 
-#### `slice()`
+### `slice()`
 
 `string.slice(start: number, end?: number): string`
 
@@ -145,7 +135,7 @@ Example: `"hello"`
 - Example: `"hello".slice(1, 4)` returns `"ell"`.
 - If `end` is omitted, slices to the end of the string.
 
-#### `reverse()`
+### `reverse()`
 
 `string.reverse(): string`
 
@@ -153,46 +143,39 @@ Example: `"hello"`
 - Example: `"hello".reverse()` returns `"olleh"`.
 
 
-### Number
+## Number functions
 
-Represents numeric values.  
-Example: `42`, `3.14`
+Functions you can use with numeric values. For example: `42`, `3.14`.
 
-
-#### Fields
-
-_(No fields)_
-
-
-#### `round()`
+### `round()`
 
 `number.round(): number`
 
 - Rounds the number to the nearest integer.
 - Example: `(2.5).round()` returns `3`.
 
-#### `ceil()`
+### `ceil()`
 
 `number.ceil(): number`
 
 - Rounds the number up to the nearest integer.
 - Example: `(2.1).ceil()` returns `3`.
 
-#### `floor()`
+### `floor()`
 
 `number.floor(): number`
 
 - Rounds the number down to the nearest integer.
 - Example: `(2.9).floor()` returns `2`.
 
-#### `abs()`
+### `abs()`
 
 `number.abs(): number`
 
 - Returns the absolute value of the number.
 - Example: `(-5).abs()` returns `5`.
 
-#### `toFixed()`
+### `toFixed()`
 
 `number.toFixed(precision: number): string`
 
@@ -201,25 +184,24 @@ _(No fields)_
 - Example: `(3.14159).toFixed(2)` returns `"3.14"`.
 
 
-### Array
+## Array functions
 
-Represents an ordered list of elements.  
-Example: `[1, 2, 3]`
+Functions you can use with an ordered list of elements. Example: `[1, 2, 3]`.
 
+### Fields
 
-#### Fields
+| Field          | Type     | Description                         |
+| -------------- | -------- | ----------------------------------- |
+| `array.length` | `number` | The number of elements in the array |
 
-- `array.length: number` — the number of elements in the array.
-
-
-#### `isEmpty()`
+### `isEmpty()`
 
 `array.isEmpty(): boolean`
 
 - Returns true if the array has no elements.
 - Example: `[1,2,3].isEmpty()` returns `false`.
 
-#### `join()`
+### `join()`
 
 `array.join(separator: string): string`
 
@@ -227,28 +209,28 @@ Example: `[1, 2, 3]`
 - Joins all array elements into a single string.
 - Example: `[1,2,3].join(",")` returns `"1,2,3"`.
 
-#### `reverse()`
+### `reverse()`
 
 `array.reverse(): array`
 
 - Reverses the array in place.
 - Example: `[1,2,3].reverse()` returns `[3,2,1]`.
 
-#### `flat()`
+### `flat()`
 
 `array.flat(): array`
 
 - Flattens nested arrays into a single array.
 - Example: `[1,[2,3]].flat()` returns `[1,2,3]`.
 
-#### `unique()`
+### `unique()`
 
 `array.unique(): array`
 
 - Removes duplicate elements.
 - Example: `[1,2,2,3].unique()` returns `[1,2,3]`.
 
-#### `contains()`
+### `contains()`
 
 `array.contains(value: any): boolean`
 
@@ -256,7 +238,7 @@ Example: `[1, 2, 3]`
 - Returns true if the array contains `value`.
 - Example: `[1,2,3].contains(2)` returns `true`.
 
-#### `containsAny()`
+### `containsAny()`
 
 `array.containsAny(...values: any): boolean`
 
@@ -264,7 +246,7 @@ Example: `[1, 2, 3]`
 - Returns true if the array contains at least one of the `values`.
 - Example: `[1,2,3].containsAny(3,4)` returns `true`.
 
-#### `containsAll()`
+### `containsAll()`
 
 `array.containsAll(...values: any): boolean`
 
@@ -272,7 +254,7 @@ Example: `[1, 2, 3]`
 - Returns true if the array contains all of the `values`.
 - Example: `[1,2,3].containsAll(2,3)` returns `true`.
 
-#### `slice()`
+### `slice()`
 
 `array.slice(start: number, end?: number): array`
 
@@ -283,18 +265,11 @@ Example: `[1, 2, 3]`
 - If `end` is omitted, slices to the end of the array.
 
 
-### Object
+## Object functions
 
-Represents a collection of key-value pairs.  
-Example: `{"a": 1, "b": 2}`
+Functions you can use with a collection of key-value pairs. Example: `{"a": 1, "b": 2}`.
 
-
-#### Fields
-
-_(No fields)_
-
-
-#### `isEmpty()`
+### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
@@ -302,18 +277,11 @@ _(No fields)_
 - Example: `{}.isEmpty()` returns `true`.
 
 
-### RegExp
+## RegExp functions
 
-Represents a regular expression pattern.  
-Example: `/abc/`
+Functions you can use with a regular expression pattern. Example: `/abc/`.
 
-
-#### Fields
-
-_(No fields)_
-
-
-#### `matches()`
+### `matches()`
 
 `regexp.matches(value: string): boolean`
 
@@ -321,25 +289,25 @@ _(No fields)_
 - Returns true if the regular expression matches `value`.
 - Example: `/abc/.matches("abcde")` returns `true`.
 
+## Date functions
 
-### Date
+Functions you can use with a date and time. Example: `date("2025-05-27")`.
 
-Represents a date and time.  
-Example: `date("2025-05-27")`
+### Fields
 
+The following fields are available for dates:
 
-#### Fields
+| Field              | Type     | Description                  |
+| ------------------ | -------- | ---------------------------- |
+| `date.year`        | `number` | The year of the date         |
+| `date.month`       | `number` | The month of the date (1–12) |
+| `date.day`         | `number` | The day of the month         |
+| `date.hour`        | `number` | The hour (0–23)              |
+| `date.minute`      | `number` | The minute (0–59)            |
+| `date.second`      | `number` | The second (0–59)            |
+| `date.millisecond` | `number` | The millisecond (0–999)      |
 
-- `date.year: number` — the year of the date.
-- `date.month: number` — the month of the date (1–12).
-- `date.day: number` — the day of the month.
-- `date.hour: number` — the hour (0–23).
-- `date.minute: number` — the minute (0–59).
-- `date.second: number` — the second (0–59).
-- `date.millisecond: number` — the millisecond (0–999).
-
-
-#### `format()`
+### `format()`
 
 `date.format(format: string): string`
 
@@ -348,18 +316,11 @@ Example: `date("2025-05-27")`
 - Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
 
 
-### File
+## File functions
 
-Represents a file within the system.  
-Example: `file("notes.md")`
+Functions you can use with file in the vault. Example: `file("notes.md")`.
 
-
-#### Fields
-
-_(No fields)_
-
-
-#### `linksTo()`
+### `linksTo()`
 
 `file.linksTo(file: file): boolean`
 
@@ -367,7 +328,7 @@ _(No fields)_
 - Returns true if this file links to `file`.
 - Example: `file.linksTo(otherFile)` returns `true` if there’s a link.
 
-#### `inFolder()`
+### `inFolder()`
 
 `file.inFolder(folder: string): boolean`
 
@@ -375,7 +336,7 @@ _(No fields)_
 - Returns true if the file is in the specified folder.
 - Example: `file.inFolder("notes")` returns `true`.
 
-#### `taggedWith()`
+### `taggedWith()`
 
 `file.taggedWith(...values: string): boolean`
 
