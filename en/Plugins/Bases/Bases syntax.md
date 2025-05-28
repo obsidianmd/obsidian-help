@@ -26,8 +26,9 @@ filters:
         - file.taggedWith("book")
         - file.inFolder("Required Reading")
 formulas:
-  formatted_price: 'price + " dollars"'
-  ppu: "price / age"
+  formatted_price: 'if(price, price.toFixed(2) + " dollars")'
+  ppu: "(price / age).toFixed(2)"
+
 display:
   status: Status
   formula.formatted_price: "Price"
@@ -43,7 +44,6 @@ views:
             - "formula.ppu > 5"
             - "price > 2.1"
     group_by: "status"
-    agg: "sum(price)"
     order:
       - file.name
       - file.ext
@@ -81,7 +81,7 @@ There are two opportunities to apply filters:
 
 These two sections are functionally equivalent and when evaluating for a view they will be concatenated with an `AND`.
 
-The `filters` section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of `and`, `or`, or `not`. These keys are a heterogenous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:
+The `filters` section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of `and`, `or`, or `not`. These keys are a heterogeneous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:
 
 - A basic comparison using standard arithmetic operators.
 - A function. A variety of [[functions]] are built-in, and plugins can add additional functions.
@@ -94,15 +94,15 @@ The `formulas` section defines formula properties that can be displayed across a
 
 ```yaml
 formulas:
-  formatted_price: 'price + " dollars"'
-  ppu: "price / age"
+  formatted_price: 'if(price, price.toFixed(2) + " dollars")'
+  ppu: "(price / age).toFixed(2)"
 ```
 
 Formula properties support basic arithmetic operators and a variety of built-in [[functions]]. In the future, plugins will be able to add functions for use in formulas.
 
 Formula properties can use values from other formula properties, as long as there is no circular reference. They are always defined as strings in the YAML, however the data type of the data and the function returns will be used to determine the output data type.
 
-Note the use of nested quotes necessary to include text literals in the YAML field. Text literals must be enclosed in double quotes. The formula must then be enclosed in single quotes.
+Note the use of nested quotes necessary to include text literals in the YAML field. Text literals must be enclosed in single or double quotes.
 
 ### Display
 
@@ -202,6 +202,15 @@ Comparison operators can be used to compare numbers, or Date objects. Equal and 
 | `<`      | less than                |
 | `>=`     | greater than or equal to |
 | `<=`     | less than or equal to    |
+
+## Boolean operators
+
+Boolean operators can be used to combine values, resulting in a true or false value.
+
+| Operator                     | Description              |
+| ---------------------------- | ------------------------ |
+| `&&`                         | logical and              |
+| `\|\|` (two pipe characters) | logical or               |
 
 ## Functions
 
