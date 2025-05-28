@@ -111,7 +111,7 @@ Functions you can use with a sequence of characters such as `"hello".`
 - Returns an array of substrings.
 - Example: `"a,b,c,d".split(",", 3)` or `"a,b,c,d".split(/,/, 3)` returns `["a", "b", "c"]`.
 
-### replace()
+### `replace()`
 
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
@@ -236,7 +236,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Reverses the array in place.
 - Example: `[1,2,3].reverse()` returns `[3,2,1]`.
 
-### sort()
+### `sort()`
 
 `array.sort(): array`
 
@@ -319,7 +319,7 @@ Functions you can use with a regular expression pattern. Example: `/abc/`.
 
 ## Date
 
-Functions you can use with a date and time such as `date("2025-05-27")`.
+Functions you can use with a date and time such as `date("2025-05-27")`. Date comparisons can be done using [[Bases syntax#Date arithmetic|date arithmetic]].
 
 ### Fields
 
