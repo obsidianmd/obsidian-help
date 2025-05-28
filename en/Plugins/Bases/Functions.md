@@ -343,6 +343,26 @@ The following fields are available for dates:
 - Returns the date formatted as specified.
 - Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
 
+### `date()`
+
+`date.date(): string`
+
+- Returns the date
+- Example: `now.date()` returns a string such as "2025-12-31"
+
+### `time()`
+
+`date.time(): string`
+
+- Returns the time
+- Example: `now.time()` returns a string such as "23:59:59"
+
+### `datetime()`
+
+`date.datetime(): string`
+
+- Returns the time
+- Example: `now.datetime()` returns a string such as "2025-12-31 23:59:59"
 
 ## File
 

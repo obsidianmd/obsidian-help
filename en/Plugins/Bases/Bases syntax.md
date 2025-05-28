@@ -190,6 +190,18 @@ For example, `radius * (2 * 3.14)`.
 | `%`      | modulo      |
 | `( )`    | parenthesis |
 
+### Date arithmetic
+
+Dates can be modified by adding and subtracting durations.
+
+Durations are strings with a number followed by the unit. For example `"1 month"`. The unit may be singular or plural, and may be abbreviated to the first character. Months are abbreviated to `M`.
+
+Examples:
+
+- `now() + "1 day"` returns a datetime of exactly 24 hours from the time of execution.
+- `file.mtime > now - "1 week"` returns true if the file was modified within the last week.
+- `date("2024-12-01") + "1M" + "4h" + "3m"` returns a date object representing `2025-01-01 04:03:00`.
+
 ## Comparison operators
 
 Comparison operators can be used to compare numbers, or Date objects. Equal and not equal can be used with any kind of value, not just numbers and dates.
