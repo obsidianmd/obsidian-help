@@ -376,13 +376,13 @@ Functions you can use with file in the vault, such as `file("notes.md")`.
 - Returns a Link object that renders as a functioning link.
 - Example: `file.asLink()`
 
-### `linksTo()`
+### `hasLink()`
 
-`file.linksTo(otherFile: file): boolean`
+`file.hasLink(otherFile: file | string): boolean`
 
-- `otherFile` is another file to check.
-- Returns true if this file links to `file`.
-- Example: `file.linksTo(otherFile)` returns `true` if there’s a link from `file` to `otherFile`.
+- `otherFile` is another file object or string path to check.
+- Returns true if `file`` links to`otherFile`.
+- Example: `file.hasLink(otherFile)` returns `true` if there’s a link from `file` to `otherFile`.
 
 ### `inFolder()`
 
@@ -392,10 +392,10 @@ Functions you can use with file in the vault, such as `file("notes.md")`.
 - Returns true if the file is in the specified folder.
 - Example: `file.inFolder("notes")` returns `true`.
 
-### `taggedWith()`
+### `hasTag()`
 
-`file.taggedWith(...values: string): boolean`
+`file.hasTag(...values: string): boolean`
 
 - `values` are one or more tag names.
 - Returns true if the file has any of the tags in `values`.
-- Example: `file.taggedWith("tag1", "tag2")` returns `true` if the file has either tag.
+- Example: `file.hasTag("tag1", "tag2")` returns `true` if the file has either tag.

@@ -18,12 +18,12 @@ Here's an example of a base file. We'll walk through each section in detail.
 ```yaml
 filters:
   or:
-    - file.taggedWith("tag")
+    - file.hasTag("tag")
     - and:
-        - file.taggedWith("book")
-        - file.linksTo("Textbook")
+        - file.hasTag("book")
+        - file.hasLink("Textbook")
     - not:
-        - file.taggedWith("book")
+        - file.hasTag("book")
         - file.inFolder("Required Reading")
 formulas:
   formatted_price: 'if(price, price.toFixed(2) + " dollars")'
@@ -65,12 +65,12 @@ By default a base includes every file in the vault. There is no `from` or `sourc
 ```yaml
 filters:
   or:
-    - file.taggedWith("tag")
+    - file.hasTag("tag")
     - and:
-        - file.taggedWith("book")
-        - file.linksTo("Textbook")
+        - file.hasTag("book")
+        - file.hasLink("Textbook")
     - not:
-        - file.taggedWith("book")
+        - file.hasTag("book")
         - file.inFolder("Required Reading")
 ```
 
@@ -175,7 +175,7 @@ Implicit properties refer to the file currently being tested or evaluated. For e
 
 Embedded bases can use `this` to access properties of the current file. For example, `this.file.name` will resolve to the name of the file which has embedded the base, instead of the file being evaluated.
 
-In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `file.linksTo(this.file.path)`.
+In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `file.hasLink(this.file)`.
 
 ## Arithmetic operators
 
