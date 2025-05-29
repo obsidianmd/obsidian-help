@@ -341,15 +341,15 @@ The following fields are available for dates:
 `date.format(format: string): string`
 
 - `format` is the format string (e.g., `"YYYY-MM-DD"`).
-- Returns the date formatted as specified.
+- Returns the date formatted as specified by a Moment.js format string.
 - Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
 
 ### `date()`
 
-`date.date(): string`
+`date.date(): date`
 
-- Returns the date
-- Example: `now.date()` returns a string such as "2025-12-31"
+- Returns a date object with the time removed.
+- Example: `now.date().format("YYYY-MM-DD HH:mm:ss"` returns a string such as "2025-12-31 00:00:00"
 
 ### `time()`
 
@@ -357,13 +357,6 @@ The following fields are available for dates:
 
 - Returns the time
 - Example: `now.time()` returns a string such as "23:59:59"
-
-### `datetime()`
-
-`date.datetime(): string`
-
-- Returns the time
-- Example: `now.datetime()` returns a string such as "2025-12-31 23:59:59"
 
 ## File
 
