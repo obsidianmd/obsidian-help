@@ -163,7 +163,6 @@ Functions you can use with a sequence of characters such as `"hello".`
 - Reverses the string.
 - Example: `"hello".reverse()` returns `"olleh"`.
 
-
 ## Number
 
 Functions you can use with numeric values such as `42`, `3.14`.
@@ -203,7 +202,6 @@ Functions you can use with numeric values such as `42`, `3.14`.
 - `precision` is the number of decimal places.
 - Returns a string with the number in fixed-point notation.
 - Example: `(3.14159).toFixed(2)` returns `"3.14"`.
-
 
 ## Array
 
@@ -293,7 +291,6 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Example: `[1,2,3,4].slice(1,3)` returns `[2,3]`.
 - If `end` is omitted, slices to the end of the array.
 
-
 ## Object
 
 Functions you can use with a collection of key-value pairs such as `{"a": 1, "b": 2}`.
@@ -304,7 +301,6 @@ Functions you can use with a collection of key-value pairs such as `{"a": 1, "b"
 
 - Returns true if the object has no own properties.
 - Example: `{}.isEmpty()` returns `true`.
-
 
 ## RegExp
 
