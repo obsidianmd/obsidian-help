@@ -33,9 +33,10 @@ Global functions are used without a type.
 
 ### `link()`
 
-`link(path: string, display?: string): Link`
+`link(path: string | file, display?: string): Link`
 
-- Parses a string path and returns a Link object that renders as a link to the path given. Optionally provide the display parameter to change what text the link says.
+- Parses a string `path` and returns a Link object that renders as a link to the path given.
+- Optionally provide the `display` parameter to change what text the link says.
 
 ## Any
 
@@ -399,3 +400,13 @@ Functions you can use with file in the vault, such as `file("notes.md")`.
 - `values` are one or more tag names.
 - Returns true if the file has any of the tags in `values`.
 - Example: `file.hasTag("tag1", "tag2")` returns `true` if the file has either tag.
+
+## Link
+
+Functions you can use on a link. Links can be created from a file (`file.asLink()`) or a path (`link("path")`).
+
+### `linksTo()`
+
+`link.linksTo(file): boolean`
+
+- Returns whether the file represented by the `link` has a link to `file`.
