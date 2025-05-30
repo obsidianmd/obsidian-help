@@ -9,6 +9,25 @@ The functions you can use depend on the type of value you want to modify.
 
 Global functions are used without a type.
 
+### `now()`
+
+`now(): date`
+
+- `now()` returns a date object representing the current moment.
+
+### `today()`
+
+`today(): date`
+
+- `today()` returns a date object representing the current date. The time portion is set to zero.
+
+### `date()`
+
+`date(date: string): date`
+
+- `date(string): date` parses the provided string and returns a date object.
+- The `date` string should be in the format `YYYY-MM-DD HH:mm:ss`.
+
 ### `if()`
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
@@ -345,14 +364,14 @@ The following fields are available for dates:
 `date.date(): date`
 
 - Returns a date object with the time removed.
-- Example: `now.date().format("YYYY-MM-DD HH:mm:ss"` returns a string such as "2025-12-31 00:00:00"
+- Example: `now().date().format("YYYY-MM-DD HH:mm:ss"` returns a string such as "2025-12-31 00:00:00"
 
 ### `time()`
 
 `date.time(): string`
 
 - Returns the time
-- Example: `now.time()` returns a string such as "23:59:59"
+- Example: `now().time()` returns a string such as "23:59:59"
 
 ## File
 

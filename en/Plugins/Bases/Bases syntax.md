@@ -199,7 +199,7 @@ Durations are strings with a number followed by the unit. For example `"1 month"
 Examples:
 
 - `now() + "1 day"` returns a datetime of exactly 24 hours from the time of execution.
-- `file.mtime > now - "1 week"` returns true if the file was modified within the last week.
+- `file.mtime > now() - "1 week"` returns true if the file was modified within the last week.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returns a date object representing `2025-01-01 04:03:00`.
 
 ## Comparison operators
