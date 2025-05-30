@@ -18,16 +18,17 @@ Here's an example of a base file. We'll walk through each section in detail.
 ```yaml
 filters:
   or:
-    - taggedWith(file.file, "tag")
+    - file.hasTag("tag")
     - and:
-        - taggedWith(file.file, "book")
-        - linksTo(file.file, "Textbook")
+        - file.hasTag("book")
+        - file.hasLink("Textbook")
     - not:
-        - taggedWith(file.file, "book")
-        - inFolder(file.file, "Required Reading")
+        - file.hasTag("book")
+        - file.inFolder("Required Reading")
 formulas:
-  formatted_price: 'concat(price, " dollars")'
-  ppu: "price / age"
+  formatted_price: 'if(price, price.toFixed(2) + " dollars")'
+  ppu: "(price / age).toFixed(2)"
+
 display:
   status: Status
   formula.formatted_price: "Price"
@@ -43,7 +44,6 @@ views:
             - "formula.ppu > 5"
             - "price > 2.1"
     group_by: "status"
-    agg: "sum(price)"
     order:
       - file.name
       - file.ext
@@ -65,13 +65,13 @@ By default a base includes every file in the vault. There is no `from` or `sourc
 ```yaml
 filters:
   or:
-    - taggedWith(file.file, "tag")
+    - file.hasTag("tag")
     - and:
-        - taggedWith(file.file, "book")
-        - linksTo(file.file, "Textbook")
+        - file.hasTag("book")
+        - file.hasLink("Textbook")
     - not:
-        - taggedWith(file.file, "book")
-        - inFolder(file.file, "Required Reading")
+        - file.hasTag("book")
+        - file.inFolder("Required Reading")
 ```
 
 There are two opportunities to apply filters:
@@ -81,7 +81,7 @@ There are two opportunities to apply filters:
 
 These two sections are functionally equivalent and when evaluating for a view they will be concatenated with an `AND`.
 
-The `filters` section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of `and`, `or`, or `not`. These keys are a heterogenous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:
+The `filters` section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of `and`, `or`, or `not`. These keys are a heterogeneous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:
 
 - A basic comparison using standard arithmetic operators.
 - A function. A variety of [[functions]] are built-in, and plugins can add additional functions.
@@ -94,15 +94,15 @@ The `formulas` section defines formula properties that can be displayed across a
 
 ```yaml
 formulas:
-  formatted_price: 'concat(price, " dollars")'
-  ppu: "price / age"
+  formatted_price: 'if(price, price.toFixed(2) + " dollars")'
+  ppu: "(price / age).toFixed(2)"
 ```
 
 Formula properties support basic arithmetic operators and a variety of built-in [[functions]]. In the future, plugins will be able to add functions for use in formulas.
 
 Formula properties can use values from other formula properties, as long as there is no circular reference. They are always defined as strings in the YAML, however the data type of the data and the function returns will be used to determine the output data type.
 
-Note the use of nested quotes necessary to include text literals in the YAML field. Text literals must be enclosed in double quotes. The formula must then be enclosed in single quotes.
+Note the use of nested quotes necessary to include text literals in the YAML field. Text literals must be enclosed in single or double quotes.
 
 ### Display
 
@@ -175,11 +175,11 @@ Implicit properties refer to the file currently being tested or evaluated. For e
 
 Embedded bases can use `this` to access properties of the current file. For example, `this.file.name` will resolve to the name of the file which has embedded the base, instead of the file being evaluated.
 
-In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `linksTo(file.file, this.file.path)`.
+In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `file.hasLink(this.file)`.
 
 ## Arithmetic operators
 
-Arithmetic operators must be surrounded by spaces. For example, `radius * (2 * 3.14)`.
+For example, `radius * (2 * 3.14)`.
 
 | Operator | Description |
 | -------- | ----------- |
@@ -187,9 +187,24 @@ Arithmetic operators must be surrounded by spaces. For example, `radius * (2 * 3
 | `-`      | minus       |
 | `*`      | multiply    |
 | `/`      | divide      |
+| `%`      | modulo      |
 | `( )`    | parenthesis |
 
+### Date arithmetic
+
+Dates can be modified by adding and subtracting durations.
+
+Durations are strings with a number followed by the unit. For example `"1 month"`. The unit may be singular or plural, and may be abbreviated to the first character. Months are abbreviated to `M`.
+
+Examples:
+
+- `now() + "1 day"` returns a datetime of exactly 24 hours from the time of execution.
+- `file.mtime > now() - "1 week"` returns true if the file was modified within the last week.
+- `date("2024-12-01") + "1M" + "4h" + "3m"` returns a date object representing `2025-01-01 04:03:00`.
+
 ## Comparison operators
+
+Comparison operators can be used to compare numbers, or Date objects. Equal and not equal can be used with any kind of value, not just numbers and dates.
 
 | Operator | Description              |
 | -------- | ------------------------ |
@@ -199,6 +214,15 @@ Arithmetic operators must be surrounded by spaces. For example, `radius * (2 * 3
 | `<`      | less than                |
 | `>=`     | greater than or equal to |
 | `<=`     | less than or equal to    |
+
+## Boolean operators
+
+Boolean operators can be used to combine values, resulting in a true or false value.
+
+| Operator                     | Description              |
+| ---------------------------- | ------------------------ |
+| `&&`                         | logical and              |
+| `\|\|` (two pipe characters) | logical or               |
 
 ## Functions
 
