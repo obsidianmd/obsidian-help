@@ -57,6 +57,25 @@ Global functions are used without a type.
 - Parses a string `path` and returns a Link object that renders as a link to the path given.
 - Optionally provide the `display` parameter to change what text the link says.
 
+### `list()`
+
+`list(element: any): List`
+
+- If the provided element is a list, return it unmodified.
+- Otherwise, wraps the provided `element` in a list, creating a list with a single element.
+- This function can be helpful when a property contains a mixture of strings or lists across the vault.
+- Example: `list("value")` returns `["value"]`.
+
+### `number()`
+
+`number(input: any): number`
+
+- Attempt to return the provided value as a number.
+- Date objects will be returned as milliseconds since the unix epoch.
+- Booleans will return a 1 or 0.
+- Strings will be parsed into a number and return an error if the result is invalid.
+- Example, `number("3.4")` returns `3.4`.
+
 ## Any
 
 Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), arrays (e.g. `[1,2,3]`), objects, and more.
@@ -188,10 +207,11 @@ Functions you can use with numeric values such as `42`, `3.14`.
 
 ### `round()`
 
-`number.round(): number`
+`number.round(digits: number): number`
 
 - Rounds the number to the nearest integer.
-- Example: `(2.5).round()` returns `3`.
+- Optionally, provided a `digits` parameter to round to that number of decimal digits.
+- Example: `(2.5).round()` returns `3`, and `(2.3333).round(2)` returns `2.33`.
 
 ### `ceil()`
 
