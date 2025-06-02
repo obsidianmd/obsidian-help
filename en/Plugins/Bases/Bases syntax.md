@@ -28,11 +28,13 @@ filters:
 formulas:
   formatted_price: 'if(price, price.toFixed(2) + " dollars")'
   ppu: "(price / age).toFixed(2)"
-
-display:
-  status: Status
-  formula.formatted_price: "Price"
-  "file.ext": Extension
+properties:
+  status:
+ displayName: Status
+  formula.formatted_price:
+ displayName: "Price"
+  "file.ext":
+ displayName: Extension
 views:
   - type: table
     name: "My table"
@@ -104,15 +106,18 @@ Formula properties can use values from other formula properties, as long as ther
 
 Note the use of nested quotes necessary to include text literals in the YAML field. Text literals must be enclosed in single or double quotes.
 
-### Display
+### Properties
 
-The `display` section allows renaming properties with friendlier names. It is up to the individual view how to use the display name. For example, in tables the display name is used for the column headers.
+The `properties` section allows storing configuration information about each property. It is up to the individual view how to use these configuration values. For example, in tables the display name is used for the column headers.
 
 ```yaml
-display:
-  status: Status
-  formula.formatted_price: "Price"
-  "file.ext": Extension
+properties:
+  status:
+ displayName: Status
+  formula.formatted_price:
+ displayName: "Price"
+  "file.ext":
+ displayName: Extension
 ```
 
 Display names are not used in filters or formulas.
