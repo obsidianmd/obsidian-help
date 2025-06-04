@@ -3,6 +3,10 @@ permalink: bases/syntax
 aliases:
   - Bases file format
 ---
+
+> [!Warning] Work in progress
+> Bases are still in [[Early access versions|beta]] and the syntax is continuing to evolve with feedback we receive during the early access phase. Expect the syntax to change.
+
 When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
 
 The [[Introduction to Bases|Bases]] syntax defines [[views]], filters, and formulas. Bases must be valid YAML conforming to the schema defined below.
@@ -158,13 +162,14 @@ Implicit properties refer to the file currently being tested or evaluated. For e
 
 | Property      | Type   | Description                                     |
 | ------------- | ------ | ----------------------------------------------- |
-| `file.file`   | File   | File object. Only usable in specific functions. |
-| `file.name`   | String | File name                                       |
 | `file.ctime`  | Date   | Created time                                    |
-| `file.mtime`  | Date   | Modified time                                   |
 | `file.ext`    | String | File extension                                  |
-| `file.size`   | Number | File size                                       |
+| `file.file`   | File   | File object. Only usable in specific functions. |
 | `file.folder` | String | Path of the file folder                         |
+| `file.mtime`  | Date   | Modified time                                   |
+| `file.name`   | String | File name                                       |
+| `file.path`   | String | Path of the file                                |
+| `file.size`   | Number | File size                                       |
 
 ### Self-referential properties
 

@@ -15,8 +15,6 @@ Templates is a [[Core plugins|core plugin]] that lets you insert pre-defined sni
 1. In the ribbon, click **Insert template**.
 2. Select the template to insert at the cursor position in the active note.
 
-If your template folder contains only one note, Templates inserts it directly into the active note.
-
 ## Template variables
 
 You can add dynamic information to your templates, using _template variables_. When you insert a template containing a template variable, Templates replaces it with its corresponding value.
