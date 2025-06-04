@@ -153,6 +153,12 @@ Functions you can use with a sequence of characters such as `"hello".`
 - If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
 - Example: `"a,b,c,d".replace(/,/, "-")` returns `"a-b,c,d"`, where as `"a,b,c,d".replace(/,/g, "-")` returns `"a-b-c-d"`.
 
+### `lower()`
+
+`string.lower(): string`
+
+- Returns the string converted to lower case.
+
 ### `reverse()`
 
 `string.reverse(): string`
