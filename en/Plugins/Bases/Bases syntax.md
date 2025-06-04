@@ -218,17 +218,17 @@ Arithmetic operators perform arithmetic on numbers. For example, `radius * (2 * 
 
 ### Date arithmetic
 
-Dates can be modified by adding and subtracting durations.
+Dates can be modified by adding and subtracting durations. Duration units accept multiple formats:
 
-| Unit | Duration |
-| ---- | -------- |
-| `y`  | years    |
-| `M`  | months   |
-| `d`  | days     |
-| `w`  | weeks    |
-| `h`  | hours    |
-| `m`  | minutes  |
-| `s`  | seconds  |
+| Unit                     | Duration |
+| ------------------------ | -------- |
+| `y`, `year`, `years`     | year     |
+| `M`, `month`, `months`   | month    |
+| `d`, `day`, `days`       | day      |
+| `w`, `week`, `weeks`     | week     |
+| `h`, `hour`, `hours`     | hour     |
+| `m`, `minute`, `minutes` | minute   |
+| `s`, `second`, `seconds` | second   |
 
 To modify or offset Date objects, use the `+` or `-` operator with a duration string. For example, `date + "1M"` adds 1 month to the date, while `date - "2h"` subtracts 2 hours from the date.
 
