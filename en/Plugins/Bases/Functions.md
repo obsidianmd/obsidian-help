@@ -9,18 +9,6 @@ The functions you can use depend on the type of value you want to modify.
 
 Global functions are used without a type.
 
-### `now()`
-
-`now(): date`
-
-- `now()` returns a date object representing the current moment.
-
-### `today()`
-
-`today(): date`
-
-- `today()` returns a date object representing the current date. The time portion is set to zero.
-
 ### `date()`
 
 `date(date: string): date`
@@ -38,17 +26,17 @@ Global functions are used without a type.
 - Returns the `trueResult` if `condition` is true, or is a truthy value, or `falseResult` otherwise.
 - Example: `if(isModified, "Modified", "Unmodified")`
 
-### `min()`
-
-`min(value1: number, value2: number...): number`
-
-- Returns the smallest of all the provided numbers.
-
 ### `max()`
 
 `max(value1: number, value2: number...): number`
 
 - Returns the largest of all the provided numbers.
+
+### `min()`
+
+`min(value1: number, value2: number...): number`
+
+- Returns the smallest of all the provided numbers.
 
 ### `link()`
 
@@ -66,6 +54,12 @@ Global functions are used without a type.
 - This function can be helpful when a property contains a mixture of strings or lists across the vault.
 - Example: `list("value")` returns `["value"]`.
 
+### `now()`
+
+`now(): date`
+
+- `now()` returns a date object representing the current moment.
+
 ### `number()`
 
 `number(input: any): number`
@@ -75,6 +69,12 @@ Global functions are used without a type.
 - Booleans will return a 1 or 0.
 - Strings will be parsed into a number and return an error if the result is invalid.
 - Example, `number("3.4")` returns `3.4`.
+
+### `today()`
+
+`today(): date`
+
+- `today()` returns a date object representing the current date. The time portion is set to zero.
 
 ## Any
 
@@ -97,13 +97,29 @@ Functions you can use with a sequence of characters such as `"hello".`
 | --------------- | -------- | -------------------------------------- |
 | `string.length` | `number` | The number of characters in the string |
 
-### `startsWith()`
+### `contains()`
 
-`string.startsWith(query: string): boolean`
+`string.contains(value: string): boolean`
 
-- `query` is the string to check at the beginning.
-- Returns true if this string starts with `query`.
-- Example: `"hello".startsWith("he")` returns `true`.
+- `value` is the substring to search for.
+- Returns true if the string contains `value`.
+- Example: `"hello".contains("ell")` returns `true`.
+
+### `containsAll()`
+
+`string.containsAll(...values: string): boolean`
+
+- `values` are one or more substrings to search for.
+- Returns true if the string contains all of the `values`.
+- Example: `"hello".containsAll("h", "e")` returns `true`.
+
+### `containsAny()`
+
+`string.containsAny(...values: string): boolean`
+
+- `values` are one or more substrings to search for.
+- Returns true if the string contains at least one of the `values`.
+- Example: `"hello".containsAny("x", "y", "e")` returns `true`.
 
 ### `endsWith()`
 
@@ -112,20 +128,6 @@ Functions you can use with a sequence of characters such as `"hello".`
 - `query` is the string to check at the end.
 - Returns true if this string ends with `query`.
 - Example: `"hello".endsWith("lo")` returns `true`.
-
-### `trim()`
-
-`string.trim(): string`
-
-- Removes whitespace from both ends of the string.
-- Example: `"  hi  ".trim()` returns `"hi"`.
-
-### `title()`
-
-`string.title(): string`
-
-- Converts the string to title case (first letter of each word capitalized).
-- Example: `"hello world".title()` returns `"Hello World"`.
 
 ### `icon()`
 
@@ -141,15 +143,6 @@ Functions you can use with a sequence of characters such as `"hello".`
 - Returns true if the string has no characters.
 - Example: `"".isEmpty()` returns `true`.
 
-### `split()`
-
-`string.split(separator: string | Regexp, n?: number): array`
-
-- `separator` is the delimiter for splitting the string.
-- `n` is an optional number. If provided, the result will have the first `n` elements.
-- Returns an array of substrings.
-- Example: `"a,b,c,d".split(",", 3)` or `"a,b,c,d".split(/,/, 3)` returns `["a", "b", "c"]`.
-
 ### `replace()`
 
 `string.replace(pattern: string | Regexp, replacement: string): string`
@@ -160,29 +153,12 @@ Functions you can use with a sequence of characters such as `"hello".`
 - If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
 - Example: `"a,b,c,d".replace(/,/, "-")` returns `"a-b,c,d"`, where as `"a,b,c,d".replace(/,/g, "-")` returns `"a-b-c-d"`.
 
-### `contains()`
+### `reverse()`
 
-`string.contains(value: string): boolean`
+`string.reverse(): string`
 
-- `value` is the substring to search for.
-- Returns true if the string contains `value`.
-- Example: `"hello".contains("ell")` returns `true`.
-
-### `containsAny()`
-
-`string.containsAny(...values: string): boolean`
-
-- `values` are one or more substrings to search for.
-- Returns true if the string contains at least one of the `values`.
-- Example: `"hello".containsAny("x", "y", "e")` returns `true`.
-
-### `containsAll()`
-
-`string.containsAll(...values: string): boolean`
-
-- `values` are one or more substrings to search for.
-- Returns true if the string contains all of the `values`.
-- Example: `"hello".containsAll("h", "e")` returns `true`.
+- Reverses the string.
+- Example: `"hello".reverse()` returns `"olleh"`.
 
 ### `slice()`
 
@@ -194,24 +170,47 @@ Functions you can use with a sequence of characters such as `"hello".`
 - Example: `"hello".slice(1, 4)` returns `"ell"`.
 - If `end` is omitted, slices to the end of the string.
 
-### `reverse()`
+### `split()`
 
-`string.reverse(): string`
+`string.split(separator: string | Regexp, n?: number): array`
 
-- Reverses the string.
-- Example: `"hello".reverse()` returns `"olleh"`.
+- `separator` is the delimiter for splitting the string.
+- `n` is an optional number. If provided, the result will have the first `n` elements.
+- Returns an array of substrings.
+- Example: `"a,b,c,d".split(",", 3)` or `"a,b,c,d".split(/,/, 3)` returns `["a", "b", "c"]`.
+
+### `startsWith()`
+
+`string.startsWith(query: string): boolean`
+
+- `query` is the string to check at the beginning.
+- Returns true if this string starts with `query`.
+- Example: `"hello".startsWith("he")` returns `true`.
+
+### `title()`
+
+`string.title(): string`
+
+- Converts the string to title case (first letter of each word capitalized).
+- Example: `"hello world".title()` returns `"Hello World"`.
+
+### `trim()`
+
+`string.trim(): string`
+
+- Removes whitespace from both ends of the string.
+- Example: `"  hi  ".trim()` returns `"hi"`.
 
 ## Number
 
 Functions you can use with numeric values such as `42`, `3.14`.
 
-### `round()`
+### `abs()`
 
-`number.round(digits: number): number`
+`number.abs(): number`
 
-- Rounds the number to the nearest integer.
-- Optionally, provided a `digits` parameter to round to that number of decimal digits.
-- Example: `(2.5).round()` returns `3`, and `(2.3333).round(2)` returns `2.33`.
+- Returns the absolute value of the number.
+- Example: `(-5).abs()` returns `5`.
 
 ### `ceil()`
 
@@ -227,12 +226,13 @@ Functions you can use with numeric values such as `42`, `3.14`.
 - Rounds the number down to the nearest integer.
 - Example: `(2.9).floor()` returns `2`.
 
-### `abs()`
+### `round()`
 
-`number.abs(): number`
+`number.round(digits: number): number`
 
-- Returns the absolute value of the number.
-- Example: `(-5).abs()` returns `5`.
+- Rounds the number to the nearest integer.
+- Optionally, provided a `digits` parameter to round to that number of decimal digits.
+- Example: `(2.5).round()` returns `3`, and `(2.3333).round(2)` returns `2.33`.
 
 ### `toFixed()`
 
@@ -251,6 +251,30 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 | Field          | Type     | Description                         |
 | -------------- | -------- | ----------------------------------- |
 | `array.length` | `number` | The number of elements in the array |
+
+### `contains()`
+
+`array.contains(value: any): boolean`
+
+- `value` is the element to search for.
+- Returns true if the array contains `value`.
+- Example: `[1,2,3].contains(2)` returns `true`.
+
+### `containsAll()`
+
+`array.containsAll(...values: any): boolean`
+
+- `values` are one or more elements to search for.
+- Returns true if the array contains all of the `values`.
+- Example: `[1,2,3].containsAll(2,3)` returns `true`.
+
+### `containsAny()`
+
+`array.containsAny(...values: any): boolean`
+
+- `values` are one or more elements to search for.
+- Returns true if the array contains at least one of the `values`.
+- Example: `[1,2,3].containsAny(3,4)` returns `true`.
 
 ### `isEmpty()`
 
@@ -295,30 +319,6 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
 - Removes duplicate elements.
 - Example: `[1,2,2,3].unique()` returns `[1,2,3]`.
-
-### `contains()`
-
-`array.contains(value: any): boolean`
-
-- `value` is the element to search for.
-- Returns true if the array contains `value`.
-- Example: `[1,2,3].contains(2)` returns `true`.
-
-### `containsAny()`
-
-`array.containsAny(...values: any): boolean`
-
-- `values` are one or more elements to search for.
-- Returns true if the array contains at least one of the `values`.
-- Example: `[1,2,3].containsAny(3,4)` returns `true`.
-
-### `containsAll()`
-
-`array.containsAll(...values: any): boolean`
-
-- `values` are one or more elements to search for.
-- Returns true if the array contains all of the `values`.
-- Example: `[1,2,3].containsAll(2,3)` returns `true`.
 
 ### `slice()`
 
@@ -371,6 +371,13 @@ The following fields are available for dates:
 | `date.second`      | `number` | The second (0–59)            |
 | `date.millisecond` | `number` | The millisecond (0–999)      |
 
+### `date()`
+
+`date.date(): date`
+
+- Returns a date object with the time removed.
+- Example: `now().date().format("YYYY-MM-DD HH:mm:ss"` returns a string such as "2025-12-31 00:00:00"
+
 ### `format()`
 
 `date.format(format: string): string`
@@ -378,13 +385,6 @@ The following fields are available for dates:
 - `format` is the format string (e.g., `"YYYY-MM-DD"`).
 - Returns the date formatted as specified by a Moment.js format string.
 - Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
-
-### `date()`
-
-`date.date(): date`
-
-- Returns a date object with the time removed.
-- Example: `now().date().format("YYYY-MM-DD HH:mm:ss"` returns a string such as "2025-12-31 00:00:00"
 
 ### `time()`
 
@@ -413,14 +413,6 @@ Functions you can use with file in the vault, such as `file("notes.md")`.
 - Returns true if `file`` links to`otherFile`.
 - Example: `file.hasLink(otherFile)` returns `true` if there’s a link from `file` to `otherFile`.
 
-### `inFolder()`
-
-`file.inFolder(folder: string): boolean`
-
-- `folder` is the folder name to check.
-- Returns true if the file is in the specified folder.
-- Example: `file.inFolder("notes")` returns `true`.
-
 ### `hasTag()`
 
 `file.hasTag(...values: string): boolean`
@@ -428,6 +420,14 @@ Functions you can use with file in the vault, such as `file("notes.md")`.
 - `values` are one or more tag names.
 - Returns true if the file has any of the tags in `values`.
 - Example: `file.hasTag("tag1", "tag2")` returns `true` if the file has either tag.
+
+### `inFolder()`
+
+`file.inFolder(folder: string): boolean`
+
+- `folder` is the folder name to check.
+- Returns true if the file is in the specified folder.
+- Example: `file.inFolder("notes")` returns `true`.
 
 ## Link
 
