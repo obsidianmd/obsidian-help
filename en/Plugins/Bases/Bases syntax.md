@@ -105,7 +105,7 @@ Formula properties support basic arithmetic operators and a variety of built-in 
 Properties in formulas can be referenced in multiple ways, depending on the type of property:
 
 - Properties in the frontmatter are called `note` properties. For example `note.price` or `note["price"]`. If a property does not have a prefix it is assumed to be a `note` property.
-- Properties about the file (implicit properties) are called `file` properties. For example, `file.size` or `file.extension`. You may also use `file` to reference the file itself, for example `file.hasLink()`.
+- Properties about the file (implicit properties) are called `file` properties. For example, `file.size` or `file.ext`. You may also use `file` to reference the file itself, for example `file.hasLink()`.
 - Formulas are prefixed with `formula`, for example `formula.formatted_price`.
 
 Formula properties can use values from other formula properties, as long as there is no circular reference. They are always defined as strings in the YAML, however the data type of the data and the function returns will be used to determine the output data type.
@@ -122,7 +122,7 @@ properties:
     displayName: Status
   formula.formatted_price:
     displayName: "Price"
-  "file.ext":
+  file.ext:
     displayName: Extension
 ```
 
@@ -167,22 +167,35 @@ In the future, API will allow views to read and write these values, allowing the
 
 ## Properties
 
-### Implicit properties
+There are three kinds of properties used in bases:
 
-Implicit properties refer to the file currently being tested or evaluated. For example, a filter `file.ext == "md"` will be true for all markdown files and false otherwise.
+1. **Note properties**, stored in frontmatter of Markdown files.
+2. **File properties**, accessible for all file types.
+3. **Formula properties**, defined in the `.base` file itself (see above).
 
-| Property      | Type   | Description                                     |
-| ------------- | ------ | ----------------------------------------------- |
-| `file.ctime`  | Date   | Created time                                    |
-| `file.ext`    | String | File extension                                  |
-| `file.file`   | File   | File object. Only usable in specific functions. |
-| `file.folder` | String | Path of the file folder                         |
-| `file.mtime`  | Date   | Modified time                                   |
-| `file.name`   | String | File name                                       |
-| `file.path`   | String | Path of the file                                |
-| `file.size`   | Number | File size                                       |
+### Note properties
 
-### Self-referential properties
+[[Properties|Note properties]] are only available for Markdown files, and are stored in the YAML frontmatter of each note. These properties can be accessed using the format `note.author` or simply `author` as a shorthand.
+
+### File properties
+
+File properties refer to the file currently being tested or evaluated. File properties are available for all [[Accepted file formats|file types]], including attachments.
+
+For example, a filter `file.ext == "md"` will be true for all Markdown files and false otherwise.
+
+| Property      | Type   | Description                                    |
+| ------------- | ------ | ---------------------------------------------- |
+| `file.ctime`  | Date   | Created time                                   |
+| `file.ext`    | String | File extension                                 |
+| `file.file`   | File   | File object, only usable in specific functions |
+| `file.folder` | String | Path of the file folder                        |
+| `file.mtime`  | Date   | Modified time                                  |
+| `file.name`   | String | File name                                      |
+| `file.path`   | String | Path of the file                               |
+| `file.size`   | Number | File size                                      |
+| `file.links`  | List   | List of files that link to the file            |
+
+### Access properties of the current file
 
 Embedded bases can use `this` to access properties of the current file. For example, `this.file.name` will resolve to the name of the file which has embedded the base, instead of the file being evaluated.
 
