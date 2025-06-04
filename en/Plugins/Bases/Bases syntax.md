@@ -223,10 +223,10 @@ The global [[Functions|function]] `today()` can be used to get the current date,
 
 - `now() + "1 day"` returns a datetime exactly 24 hours from the time of execution.
 - `file.mtime > now() - "1 week"` returns `true` if the file was modified within the last week.
-- `date("2024-12-01") + "1M" + "4h" + "3m"` returns a date object representing `2025-01-01 04:03:00`.
+- `date("2024-12-01") + "1M" + "4h" + "3m"` returns a Date object representing `2025-01-01 04:03:00`.
 - Subtract two dates to get the millisecond difference between the two, for example, `now() - file.ctime`.
-- To get the date portion of a date with time, use `datetime.date()`.
-- To format a date object, use the `format()` function, for example `datetime.format("YYYY-MM-DD")`.
+- To get the date portion of a Date with time, use `datetime.date()`.
+- To format a Date object, use the `format()` function, for example `datetime.format("YYYY-MM-DD")`.
 
 ### Comparison operators
 
@@ -253,3 +253,19 @@ Boolean operators can be used to combine values, resulting in a true or false va
 ## Functions
 
 See the [[Functions|list of functions]] that can be used in formulas and [[Views|filters]].
+
+## Files and links
+
+[[Link notes|Wikilinks]] in [[Properties|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
+
+- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")`. 
+- You can create a link from any string, for example, `link(file.ctime.date().toString())`. 
+- To set the display text, pass in an optional string as a second parameter, for example `link("filename", "display")`.
+
+A File object can be turned into a link using `file.asLink()` with an optional display text.
+
+Links can be compared with `==` and `!=`. They are equivalent as long as they point to the same file, or if the file does not exist when looked up, their link text must be identical.
+
+Links can be compared to files such as `file` or `this`. They will equate if the link resolves to the file. For example, `author == this`.
+
+Links can also be checked in list contains, for example, `authors.contains(this)`.
