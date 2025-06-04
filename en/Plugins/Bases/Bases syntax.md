@@ -281,7 +281,7 @@ Strings, numbers, and booleans are "primitive" values which do not require a fun
 
 ### Dates and durations
 
-Dates represent a specific day, or a day and time depending on the function used to create them. Date properties in note frontmatter will automatically be interpreted as a date object.
+Dates represent a specific date, or a date and time depending on the function used to create them, or that type that has been assigned to the [[Properties|property]].
 
 - To construct a date, use the `date` function, for example `date("2025-01-01 12:00:00")`
 - To modify a date, add or remove a duration, for example `now() + "1 hour"` or `today() + "7d"`
