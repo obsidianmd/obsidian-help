@@ -121,6 +121,13 @@ Functions you can use with a sequence of characters such as `"hello".`
 - Returns true if the string contains at least one of the `values`.
 - Example: `"hello".containsAny("x", "y", "e")` returns `true`.
 
+### `isEmpty()`
+
+`string.isEmpty(): boolean`
+
+- Returns true if the string has no characters, or is not present.
+- Example: `"Hello world".isEmpty()` returns `false`.
+
 ### `endsWith()`
 
 `string.endsWith(query: string): boolean`
@@ -247,6 +254,13 @@ Functions you can use with numeric values such as `42`, `3.14`.
 - `precision` is the number of decimal places.
 - Returns a string with the number in fixed-point notation.
 - Example: `(3.14159).toFixed(2)` returns `"3.14"`.
+
+### `isEmpty()`
+
+`number.isEmpty(): boolean`
+
+- Returns true if the number is not present.
+- Example: `5.isEmpty()` returns `false`.
 
 ## List
 
