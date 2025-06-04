@@ -30,11 +30,11 @@ formulas:
   ppu: "(price / age).toFixed(2)"
 properties:
   status:
- displayName: Status
+    displayName: Status
   formula.formatted_price:
- displayName: "Price"
-  "file.ext":
- displayName: Extension
+    displayName: "Price"
+  file.ext:
+    displayName: Extension
 views:
   - type: table
     name: "My table"
@@ -119,11 +119,11 @@ The `properties` section allows storing configuration information about each pro
 ```yaml
 properties:
   status:
- displayName: Status
+    displayName: Status
   formula.formatted_price:
- displayName: "Price"
+    displayName: "Price"
   "file.ext":
- displayName: Extension
+    displayName: Extension
 ```
 
 Display names are not used in filters or formulas.
@@ -188,9 +188,11 @@ Embedded bases can use `this` to access properties of the current file. For exam
 
 In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `file.hasLink(this.file)`.
 
-## Arithmetic operators
+## Operators
 
-For example, `radius * (2 * 3.14)`.
+### Arithmetic operators
+
+Arithmetic operators perform arithmetic on numbers. For example, `radius * (2 * 3.14)`.
 
 | Operator | Description |
 | -------- | ----------- |
@@ -205,15 +207,28 @@ For example, `radius * (2 * 3.14)`.
 
 Dates can be modified by adding and subtracting durations.
 
-Durations are strings with a number followed by the unit. For example `"1 month"`. The unit may be singular or plural, and may be abbreviated to the first character. Months are abbreviated to `M`.
+| Unit | Duration |
+| ---- | -------- |
+| `y`  | years    |
+| `M`  | months   |
+| `d`  | days     |
+| `w`  | weeks    |
+| `h`  | hours    |
+| `m`  | minutes  |
+| `s`  | seconds  |
 
-Examples:
+To modify or offset Date objects, use the `+` or `-` operator with a duration string. For example, `date + "1M"` adds 1 month to the date, while `date - "2h"` subtracts 2 hours from the date. 
 
-- `now() + "1 day"` returns a datetime of exactly 24 hours from the time of execution.
-- `file.mtime > now() - "1 week"` returns true if the file was modified within the last week.
+The global [[Functions|function]] `today()` can be used to get the current date, and `now()` can be used to get the current date with time.
+
+- `now() + "1 day"` returns a datetime exactly 24 hours from the time of execution.
+- `file.mtime > now() - "1 week"` returns `true` if the file was modified within the last week.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returns a date object representing `2025-01-01 04:03:00`.
+- Subtract two dates to get the millisecond difference between the two, for example, `now() - file.ctime`.
+- To get the date portion of a date with time, use `datetime.date()`.
+- To format a date object, use the `format()` function, for example `datetime.format("YYYY-MM-DD")`.
 
-## Comparison operators
+### Comparison operators
 
 Comparison operators can be used to compare numbers, or Date objects. Equal and not equal can be used with any kind of value, not just numbers and dates.
 
@@ -226,7 +241,7 @@ Comparison operators can be used to compare numbers, or Date objects. Equal and 
 | `>=`     | greater than or equal to |
 | `<=`     | less than or equal to    |
 
-## Boolean operators
+### Boolean operators
 
 Boolean operators can be used to combine values, resulting in a true or false value.
 
