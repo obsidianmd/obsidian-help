@@ -230,7 +230,7 @@ Dates can be modified by adding and subtracting durations.
 | `m`  | minutes  |
 | `s`  | seconds  |
 
-To modify or offset Date objects, use the `+` or `-` operator with a duration string. For example, `date + "1M"` adds 1 month to the date, while `date - "2h"` subtracts 2 hours from the date. 
+To modify or offset Date objects, use the `+` or `-` operator with a duration string. For example, `date + "1M"` adds 1 month to the date, while `date - "2h"` subtracts 2 hours from the date.
 
 The global [[Functions|function]] `today()` can be used to get the current date, and `now()` can be used to get the current date with time.
 
@@ -269,12 +269,38 @@ See the [[Functions|list of functions]] that can be used in formulas and [[Views
 
 ## Types
 
+Bases have a type system which is used by formulas and filters to apply functions to properties.
+
+### Strings, numbers, and booleans
+
+Strings, numbers, and booleans are "primitive" values which do not require a function to create.
+
+- Strings are enclosed in single or double quotes, for example `"message"`.
+- Numbers are written as digits, and may optionally be enclosed in parenthesis for clarity. For example, `1` or `(2.5)`.
+- Booleans are written as `true` or `false` without quotes.
+
+### Dates and durations
+
+Dates represent a specific day, or a day and time depending on the function used to create them. Date properties in note frontmatter will automatically be interpreted as a date object.
+
+- To construct a date, use the `date` function, for example `date("2025-01-01 12:00:00")`
+- To modify a date, add or remove a duration, for example `now() + "1 hour"` or `today() + "7d"`
+- Compare dates using comparison operators (e.g. `>` or `<`) and arithmetic operators (for example, `(now() + "1d") - now()` returns `86400000` seconds.)
+- To extract portions of a date, use the available fields (`now().hour`), or a convenience function (`now.time()`).
+- Many other [[Functions|fields and functions]] are available on date objects.
+
+### Objects and lists
+
+- Turn a single element into a list using the `list()` function. This is especially helpful for properties which may contain a mixture of lists or single values.
+- Access list elements using square brackets, and a 0-based index. For example, `property[0]` returns the first element from the list.
+- Access object elements using square brackets and the element name or dot notation. For example, `property.subprop` or `property["subprop"]`.
+
 ### Files and links
 
 [[Link notes|Wikilinks]] in [[Properties|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
 
-- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")`. 
-- You can create a link from any string, for example, `link(file.ctime.date().toString())`. 
+- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")`.
+- You can create a link from any string, for example, `link(file.ctime.date().toString())`.
 - To set the display text, pass in an optional string as a second parameter, for example `link("filename", "display")`.
 
 A File object can be turned into a link using `file.asLink()` with an optional display text.
