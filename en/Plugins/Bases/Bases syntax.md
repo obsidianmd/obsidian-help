@@ -267,7 +267,9 @@ Boolean operators can be used to combine values, resulting in a true or false va
 
 See the [[Functions|list of functions]] that can be used in formulas and [[Views|filters]].
 
-## Files and links
+## Types
+
+### Files and links
 
 [[Link notes|Wikilinks]] in [[Properties|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
 

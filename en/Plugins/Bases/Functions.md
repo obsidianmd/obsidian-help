@@ -78,7 +78,7 @@ Global functions are used without a type.
 
 ## Any
 
-Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), arrays (e.g. `[1,2,3]`), objects, and more.
+Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), lists (e.g. `[1,2,3]`), objects, and more.
 
 ### `toString()`
 
@@ -172,11 +172,11 @@ Functions you can use with a sequence of characters such as `"hello".`
 
 ### `split()`
 
-`string.split(separator: string | Regexp, n?: number): array`
+`string.split(separator: string | Regexp, n?: number): list`
 
 - `separator` is the delimiter for splitting the string.
 - `n` is an optional number. If provided, the result will have the first `n` elements.
-- Returns an array of substrings.
+- Returns an list of substrings.
 - Example: `"a,b,c,d".split(",", 3)` or `"a,b,c,d".split(/,/, 3)` returns `["a", "b", "c"]`.
 
 ### `startsWith()`
@@ -242,93 +242,93 @@ Functions you can use with numeric values such as `42`, `3.14`.
 - Returns a string with the number in fixed-point notation.
 - Example: `(3.14159).toFixed(2)` returns `"3.14"`.
 
-## Array
+## List
 
 Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
 ### Fields
 
-| Field          | Type     | Description                         |
-| -------------- | -------- | ----------------------------------- |
-| `array.length` | `number` | The number of elements in the array |
+| Field         | Type     | Description                        |
+| ------------- | -------- | ---------------------------------- |
+| `list.length` | `number` | The number of elements in the list |
 
 ### `contains()`
 
-`array.contains(value: any): boolean`
+`list.contains(value: any): boolean`
 
 - `value` is the element to search for.
-- Returns true if the array contains `value`.
+- Returns true if the list contains `value`.
 - Example: `[1,2,3].contains(2)` returns `true`.
 
 ### `containsAll()`
 
-`array.containsAll(...values: any): boolean`
+`list.containsAll(...values: any): boolean`
 
 - `values` are one or more elements to search for.
-- Returns true if the array contains all of the `values`.
+- Returns true if the list contains all of the `values`.
 - Example: `[1,2,3].containsAll(2,3)` returns `true`.
 
 ### `containsAny()`
 
-`array.containsAny(...values: any): boolean`
+`list.containsAny(...values: any): boolean`
 
 - `values` are one or more elements to search for.
-- Returns true if the array contains at least one of the `values`.
+- Returns true if the list contains at least one of the `values`.
 - Example: `[1,2,3].containsAny(3,4)` returns `true`.
 
 ### `isEmpty()`
 
-`array.isEmpty(): boolean`
+`list.isEmpty(): boolean`
 
-- Returns true if the array has no elements.
+- Returns true if the list has no elements.
 - Example: `[1,2,3].isEmpty()` returns `false`.
 
 ### `join()`
 
-`array.join(separator: string): string`
+`list.join(separator: string): string`
 
 - `separator` is the string to insert between elements.
-- Joins all array elements into a single string.
+- Joins all list elements into a single string.
 - Example: `[1,2,3].join(",")` returns `"1,2,3"`.
 
 ### `reverse()`
 
-`array.reverse(): array`
+`list.reverse(): list`
 
-- Reverses the array in place.
+- Reverses the list in place.
 - Example: `[1,2,3].reverse()` returns `[3,2,1]`.
 
 ### `sort()`
 
-`array.sort(): array`
+`list.sort(): list`
 
-- Sorts array elements from smallest to largest.
+- Sorts list elements from smallest to largest.
 - Example: `[3, 1, 2].sort()` returns `[1, 2, 3]`.
 - Example: `["c", "a", "b"].sort()` returns `["a", "b", "c"]`.
 
 ### `flat()`
 
-`array.flat(): array`
+`list.flat(): list`
 
-- Flattens nested arrays into a single array.
+- Flattens nested list into a single list.
 - Example: `[1,[2,3]].flat()` returns `[1,2,3]`.
 
 ### `unique()`
 
-`array.unique(): array`
+`list.unique(): list`
 
 - Removes duplicate elements.
 - Example: `[1,2,2,3].unique()` returns `[1,2,3]`.
 
 ### `slice()`
 
-`array.slice(start: number, end?: number): array`
+`list.slice(start: number, end?: number): list`
 
 - `start` is the inclusive start index.
 - `end` is the optional exclusive end index.
-- Returns a shallow copy of a portion of the array from `start` (inclusive) to `end` (exclusive).
+- Returns a shallow copy of a portion of the list from `start` (inclusive) to `end` (exclusive).
 - Example: `[1,2,3,4].slice(1,3)` returns `[2,3]`.
-- If `end` is omitted, slices to the end of the array.
+- If `end` is omitted, slices to the end of the list.
 
 ## Object
 
