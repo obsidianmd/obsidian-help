@@ -3,7 +3,17 @@ permalink: bases/functions
 ---
 Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[Properties]] in filters and formulas. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
 
-The functions you can use depend on the type of value you want to modify.
+Aside from [[Functions#Global|Global]] functions, most functions depend on the type of value you want to modify:
+
+- [[Functions#Any|Any]]
+- [[Functions#Date|Date]]
+- [[Functions#String|String]]
+- [[Functions#Number|Number]]
+- [[Functions#List|List]]
+- [[Functions#Link|Link]]
+- [[Functions#File|File]]
+- [[Functions#Object|Object]]
+- [[Functions#Regular expression|Regular expression]]
 
 ## Global
 
@@ -86,6 +96,47 @@ Functions you can use with any value. This includes strings (e.g. `"hello"`), nu
 
 - Returns the string representation of any value.
 - Example: `123.toString()` returns `"123"`.
+
+
+## Date
+
+Functions you can use with a date and time such as `date("2025-05-27")`. Date comparisons can be done using [[Bases syntax#Date arithmetic|date arithmetic]].
+
+### Fields
+
+The following fields are available for dates:
+
+| Field              | Type     | Description                  |
+| ------------------ | -------- | ---------------------------- |
+| `date.year`        | `number` | The year of the date         |
+| `date.month`       | `number` | The month of the date (1–12) |
+| `date.day`         | `number` | The day of the month         |
+| `date.hour`        | `number` | The hour (0–23)              |
+| `date.minute`      | `number` | The minute (0–59)            |
+| `date.second`      | `number` | The second (0–59)            |
+| `date.millisecond` | `number` | The millisecond (0–999)      |
+
+### `date()`
+
+`date.date(): date`
+
+- Returns a date object with the time removed.
+- Example: `now().date().format("YYYY-MM-DD HH:mm:ss"` returns a string such as "2025-12-31 00:00:00"
+
+### `format()`
+
+`date.format(format: string): string`
+
+- `format` is the format string (e.g., `"YYYY-MM-DD"`).
+- Returns the date formatted as specified by a Moment.js format string.
+- Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
+
+### `time()`
+
+`date.time(): string`
+
+- Returns the time
+- Example: `now().time()` returns a string such as "23:59:59"
 
 ## String
 
@@ -344,68 +395,15 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Example: `[1,2,3,4].slice(1,3)` returns `[2,3]`.
 - If `end` is omitted, slices to the end of the list.
 
-## Object
+## Link
 
-Functions you can use with a collection of key-value pairs such as `{"a": 1, "b": 2}`.
+Functions you can use on a link. Links can be created from a file (`file.asLink()`) or a path (`link("path")`).
 
-### `isEmpty()`
+### `linksTo()`
 
-`object.isEmpty(): boolean`
+`link.linksTo(file): boolean`
 
-- Returns true if the object has no own properties.
-- Example: `{}.isEmpty()` returns `true`.
-
-## RegExp
-
-Functions you can use with a regular expression pattern. Example: `/abc/`.
-
-### `matches()`
-
-`regexp.matches(value: string): boolean`
-
-- `value` is the string to test.
-- Returns true if the regular expression matches `value`.
-- Example: `/abc/.matches("abcde")` returns `true`.
-
-## Date
-
-Functions you can use with a date and time such as `date("2025-05-27")`. Date comparisons can be done using [[Bases syntax#Date arithmetic|date arithmetic]].
-
-### Fields
-
-The following fields are available for dates:
-
-| Field              | Type     | Description                  |
-| ------------------ | -------- | ---------------------------- |
-| `date.year`        | `number` | The year of the date         |
-| `date.month`       | `number` | The month of the date (1–12) |
-| `date.day`         | `number` | The day of the month         |
-| `date.hour`        | `number` | The hour (0–23)              |
-| `date.minute`      | `number` | The minute (0–59)            |
-| `date.second`      | `number` | The second (0–59)            |
-| `date.millisecond` | `number` | The millisecond (0–999)      |
-
-### `date()`
-
-`date.date(): date`
-
-- Returns a date object with the time removed.
-- Example: `now().date().format("YYYY-MM-DD HH:mm:ss"` returns a string such as "2025-12-31 00:00:00"
-
-### `format()`
-
-`date.format(format: string): string`
-
-- `format` is the format string (e.g., `"YYYY-MM-DD"`).
-- Returns the date formatted as specified by a Moment.js format string.
-- Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
-
-### `time()`
-
-`date.time(): string`
-
-- Returns the time
-- Example: `now().time()` returns a string such as "23:59:59"
+- Returns whether the file represented by the `link` has a link to `file`.
 
 ## File
 
@@ -443,12 +441,25 @@ Functions you can use with file in the vault, such as `file("notes.md")`.
 - Returns true if the file is in the specified folder.
 - Example: `file.inFolder("notes")` returns `true`.
 
-## Link
+## Object
 
-Functions you can use on a link. Links can be created from a file (`file.asLink()`) or a path (`link("path")`).
+Functions you can use with a collection of key-value pairs such as `{"a": 1, "b": 2}`.
 
-### `linksTo()`
+### `isEmpty()`
 
-`link.linksTo(file): boolean`
+`object.isEmpty(): boolean`
 
-- Returns whether the file represented by the `link` has a link to `file`.
+- Returns true if the object has no own properties.
+- Example: `{}.isEmpty()` returns `true`.
+
+## Regular expression
+
+Functions you can use with a regular expression pattern. Example: `/abc/`.
+
+### `matches()`
+
+`regexp.matches(value: string): boolean`
+
+- `value` is the string to test.
+- Returns true if the regular expression matches `value`.
+- Example: `/abc/.matches("abcde")` returns `true`.
