@@ -258,11 +258,11 @@ Comparison operators can be used to compare numbers, or Date objects. Equal and 
 
 Boolean operators can be used to combine or invert logical values, resulting in a true or false value.
 
-| Operator                     | Description              |
-| ---------------------------- | ------------------------ |
-| `!`                          | logical not              |
-| `&&`                         | logical and              |
-| `\|\|` (two pipe characters) | logical or               |
+| Operator                   | Description              |
+| -------------------------- | ------------------------ |
+| `!`                        | logical not              |
+| `&&`                       | logical and              |
+| `||` (two pipe characters) | logical or               |
 
 ## Functions
 
