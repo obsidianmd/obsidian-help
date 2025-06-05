@@ -121,13 +121,6 @@ Functions you can use with a sequence of characters such as `"hello".`
 - Returns true if the string contains at least one of the `values`.
 - Example: `"hello".containsAny("x", "y", "e")` returns `true`.
 
-### `isEmpty()`
-
-`string.isEmpty(): boolean`
-
-- Returns true if the string has no characters, or is not present.
-- Example: `"Hello world".isEmpty()` returns `false`.
-
 ### `endsWith()`
 
 `string.endsWith(query: string): boolean`
@@ -147,7 +140,8 @@ Functions you can use with a sequence of characters such as `"hello".`
 
 `string.isEmpty(): boolean`
 
-- Returns true if the string has no characters.
+- Returns true if the string has no characters, or is not present.
+- Example: `"Hello world".isEmpty()` returns `false`.
 - Example: `"".isEmpty()` returns `true`.
 
 ### `replace()`
