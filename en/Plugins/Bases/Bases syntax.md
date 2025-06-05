@@ -183,17 +183,17 @@ File properties refer to the file currently being tested or evaluated. File prop
 
 For example, a filter `file.ext == "md"` will be true for all Markdown files and false otherwise.
 
-| Property      | Type   | Description                                    |
-| ------------- | ------ | ---------------------------------------------- |
-| `file.ctime`  | Date   | Created time                                   |
-| `file.ext`    | String | File extension                                 |
-| `file.file`   | File   | File object, only usable in specific functions |
-| `file.folder` | String | Path of the file folder                        |
-| `file.mtime`  | Date   | Modified time                                  |
-| `file.name`   | String | File name                                      |
-| `file.path`   | String | Path of the file                               |
-| `file.size`   | Number | File size                                      |
-| `file.links`  | List   | List of links in this file                     |
+| Property      | Type   | Description                                                   |
+| ------------- | ------ | ------------------------------------------------------------- |
+| `file.ctime`  | Date   | Created time                                                  |
+| `file.ext`    | String | File extension                                                |
+| `file.file`   | File   | File object, only usable in specific functions                |
+| `file.folder` | String | Path of the file folder                                       |
+| `file.mtime`  | Date   | Modified time                                                 |
+| `file.name`   | String | File name                                                     |
+| `file.path`   | String | Path of the file                                              |
+| `file.size`   | Number | File size                                                     |
+| `file.links`  | List   | List of all internal links in the note, including frontmatter |
 
 ### Access properties of the current file
 
