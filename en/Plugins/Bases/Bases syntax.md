@@ -193,7 +193,7 @@ For example, a filter `file.ext == "md"` will be true for all Markdown files and
 | `file.name`   | String | File name                                      |
 | `file.path`   | String | Path of the file                               |
 | `file.size`   | Number | File size                                      |
-| `file.links`  | List   | List of files that link to the file            |
+| `file.links`  | List   | List of links in this file                     |
 
 ### Access properties of the current file
 
