@@ -424,7 +424,7 @@ Functions you can use with file in the vault, such as `file("notes.md")`.
 `file.hasLink(otherFile: file | string): boolean`
 
 - `otherFile` is another file object or string path to check.
-- Returns true if `file`` links to`otherFile`.
+- Returns true if `file` links to`otherFile`.
 - Example: `file.hasLink(otherFile)` returns `true` if there’s a link from `file` to `otherFile`.
 
 ### `hasTag()`
