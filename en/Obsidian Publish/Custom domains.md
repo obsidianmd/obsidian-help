@@ -50,7 +50,7 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 2. In the [[Ribbon]] at the left, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
 3. Under **Publish changes**, select **Change site options** ( ![[lucide-cog.svg#icon]] ).
 4. Next to **Custom domain**, select **Configure**.
-5. In **Custom URL**, enter the URL to your domain or subdomain.
+5. In **Custom URL**, enter the URL to your domain or subdomain. Make sure to not put `www.` in the custom URL box.
 
 > [!note]
 > If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare has been set to "Flexible" instead of "Full".
