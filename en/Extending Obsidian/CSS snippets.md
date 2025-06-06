@@ -74,7 +74,8 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > 
 > **YAML/Properties**:
 > ```yaml
-> cssclasses: no-inline
+> cssclasses:
+>  - homepage
 > ```
 > 
 > This hides the inline title from any note with this property and value.
