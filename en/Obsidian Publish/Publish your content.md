@@ -1,3 +1,11 @@
+---
+aliases:
+  - Obsidian Publish/Publish and unpublish notes
+description: Learn how to publish your content using Obsidian Publish
+permalink: publish/publish
+mobile: true
+publish: true
+---
 
 This page explains how to manage your published content. To learn how to customize your site's styling, see [[Customize your site]].
 
