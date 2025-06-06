@@ -286,7 +286,7 @@ Dates represent a specific date, or a date and time depending on the function us
 
 - To construct a date, use the `date` function, for example `date("2025-01-01 12:00:00")`
 - To modify a date, add or remove a duration, for example `now() + "1 hour"` or `today() + "7d"`
-- Compare dates using comparison operators (e.g. `>` or `<`) and arithmetic operators (for example, `(now() + "1d") - now()` returns `86400000` seconds.)
+- Compare dates using comparison operators (e.g. `>` or `<`) and arithmetic operators (for example, `(now() + "1d") - now()` returns `86400000` milliseconds.)
 - To extract portions of a date, use the available fields (`now().hour`), or a convenience function (`now.time()`).
 - Many other [[Functions|fields and functions]] are available on date objects.
 
