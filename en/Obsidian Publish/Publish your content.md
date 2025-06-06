@@ -1,11 +1,3 @@
----
-aliases:
-  - Obsidian Publish/Publish and unpublish notes
-description: Learn how to publish your content using Obsidian Publish
-permalink: publish/publish
-mobile: true
-publish: true
----
 
 This page explains how to manage your published content. To learn how to customize your site's styling, see [[Customize your site]].
 
@@ -76,3 +68,6 @@ You can also auto-ignore notes and images in specific folders by adding them as 
 4. Choose the folders you want to exclude from the suggester.
 5. The folder is added to the excluded list.
 6. Select **Done** when finished.
+
+> [!note] `publish: true` overrides excluded folders
+> If a file has `publish: true`, it will still be published even if it is in a folder or filter that is excluded. This is because `publish: true` gives more specific control.
