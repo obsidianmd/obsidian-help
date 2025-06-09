@@ -300,9 +300,9 @@ Dates represent a specific date, or a date and time depending on the function us
 
 [[Link notes|Wikilinks]] in [[Properties|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
 
-- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")`.
+- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")` or `link("https://obsidian.md")`.
 - You can create a link from any string, for example, `link(file.ctime.date().toString())`.
-- To set the display text, pass in an optional string as a second parameter, for example `link("filename", "display")`.
+- To set the display text, pass in an optional string or icon as a second parameter, for example `link("filename", "display")` or `link("filename", "plus".icon())`.
 
 A File object can be turned into a link using `file.asLink()` with an optional display text.
 

@@ -50,7 +50,7 @@ Global functions are used without a type.
 
 ### `link()`
 
-`link(path: string | file, display?: string): Link`
+`link(path: string | file, display?: value): Link`
 
 - Parses a string `path` and returns a Link object that renders as a link to the path given.
 - Optionally provide the `display` parameter to change what text the link says.
