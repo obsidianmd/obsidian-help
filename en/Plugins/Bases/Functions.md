@@ -80,6 +80,14 @@ Global functions are used without a type.
 - Strings will be parsed into a number and return an error if the result is invalid.
 - Example, `number("3.4")` returns `3.4`.
 
+### `duration()`
+
+`duration(value: string): duration`
+
+- Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
+- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but the do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
+- When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
+
 ### `today()`
 
 `today(): date`
@@ -96,7 +104,6 @@ Functions you can use with any value. This includes strings (e.g. `"hello"`), nu
 
 - Returns the string representation of any value.
 - Example: `123.toString()` returns `"123"`.
-
 
 ## Date
 
@@ -137,6 +144,13 @@ The following fields are available for dates:
 
 - Returns the time
 - Example: `now().time()` returns a string such as "23:59:59"
+
+### `relative()`
+
+`date.relative(): string`
+
+- Returns a readable comparison of the date to the current datetime.
+- Example: `file.mtime.relative()` returns a value such as `3 days ago`.
 
 ## String
 
