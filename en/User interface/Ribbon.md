@@ -13,10 +13,6 @@ On mobile, you can access the ribbon by tapping the **Menu option** ( ![[lucide-
 
 Each action is represented by an icon in the ribbon. Hovering over these icons will display a tooltip, while clicking or tapping them will activate the associated action.
 
-The top set of icons consists of actions added by various plugins, including both [[Core plugins|core plugins]] and [[Community plugins]].
-
-The bottom three icons in the ribbon correspond to essential Obsidian system actions:
-
 1. Open another vault ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 2. Access **help** ( ![[lucide-help-circle.svg#icon]] ).
 3. Open **settings** ( ![[lucide-settings.svg#icon]] ).
