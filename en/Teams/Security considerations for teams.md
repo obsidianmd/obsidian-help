@@ -41,6 +41,8 @@ The following is a list of network connections Obsidian makes.
 
 ### GitHub-sourced connections
 
+Obsidian makes network requests to both `github.com` and `raw.githubusercontent.com`.
+
 - **Public releases**: If automatic updates are enabled, Obsidian checks GitHub for public releases.
 - **Third-party themes and plugins**:
     - A check is performed once every 12 hours from the app's startup time to fetch a file hosted on GitHub used for "plugin deprecations." This file helps remotely disable specific versions of plugins known to malfunction, cause data loss, or potentially be vulnerable or malicious.
