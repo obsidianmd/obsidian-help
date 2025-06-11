@@ -8,10 +8,12 @@ description: Obsidian Sync keeps a record of all changes made to your notes and 
 mobile: true
 publish: true
 ---
-[[Introduction to Obsidian Sync|Obsidian Sync]] keeps a record of all changes made to your notes. Sync regularly checks for updates and creates new versions of your notes. This information is available to you through several methods:
+[[Introduction to Obsidian Sync|Obsidian Sync]] regularly checks for updates to your [[Sync settings and selective syncing|synced files]], keeping a record of any changes. These are stored as new entries in the [[#Version history]]. This information can be accessed in a few ways:
 
 - [[#Sync history]]
 - [[#Version history]]
+
+While not part of Obsidian Sync, a local version history is also available on each device if the [[File recovery]] plugin is enabled.
 
 ## Sync history
 
