@@ -47,7 +47,7 @@ This issue is most commonly seen on Windows, where Windows Defender may quaranti
 
 Another frequent cause is double-syncing, where Obsidian Sync is running alongside another syncing service.
 
-![[Switch to Obsidian Sync#Moving your vault out of a third-party syncing service]]
+![[Switch to Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage]]
 
 ---
 
