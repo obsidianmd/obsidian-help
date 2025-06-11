@@ -1,6 +1,7 @@
 ---
 permalink: plugins/daily-notes
 ---
+
 Daily notes is a [[Core plugins|core plugin]] that opens a note based on today's date, or creates it if it doesn't exist. Use daily notes to create journals, to-do lists, or daily logs for things you discovered during the day.
 
 To open today's daily note, either:
@@ -42,7 +43,7 @@ Obsidian uses the template the next time you create a new daily note.
 
 ## Daily notes and properties
 
-When the Daily notes plugin is activated and a date property is present within any note, Obsidian will automatically attempt to generate a link to the daily note for that specific day. For instance, if a note titled `example.md` includes a date property like `2023-01-01`, this date will transform into a clickable link in the [[Edit and preview Markdown#Live Preview|live preview]] section.
+When the Daily notes plugin is activated and a date property is present within any note, Obsidian will automatically attempt to generate a link to the daily note for that specific day. For instance, if a note titled `example.md` includes a date property like `2023-01-01`, this date will transform into a clickable link in the [[Views and editing mode#Live Preview|live preview]] section.
 
 ![[daily-notes-and-date-properties.png#interface|300]]
 ^daily-notes-date
