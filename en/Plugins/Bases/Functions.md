@@ -421,7 +421,7 @@ Functions you can use on a link. Links can be created from a file (`file.asLink(
 
 ## File
 
-Functions you can use with file in the vault, such as `file("notes.md")`.
+Functions you can use with file in the vault.
 
 ### `asLink()`
 
