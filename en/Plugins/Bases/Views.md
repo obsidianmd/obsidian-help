@@ -47,21 +47,17 @@ With the Table layout each row is a file, and columns are populated from the [[P
 
 ## View options
 
-View options give you the ability to configure, duplicate, copy, and export a view.
+Each view provides its own configuration options and actions. To see a view's configuration options:
 
 1. Click the view name in the top left of the bases toolbar.
 2. Click the right arrow next to the current view.
-3. Choose an action from the view options menu.
+3. Choose "Configure view".
+
+From here you will see any configuration options for the given format.
 
 ### Table
 
-#### Copy to clipboard
-
-This action copies the view to your clipboard. Once in your clipboard you can paste it into a Markdown file, or into other document apps including spreadsheets like Google Sheets, Excel, and Numbers.
-
-#### Export CSV
-
-This action saves a CSV of your current view.
+Table does not have any specific view configuration.
 
 ### Cards
 
@@ -83,3 +79,17 @@ If you have an image property configured, this option will determine how the ima
 #### Image aspect ratio
 
 The size of the cover image is determined based on its aspect ratio. The default aspect ratio is 1:1 meaning all your images will be square. Adjust this option to make the image wider or taller.
+
+## Results
+
+The Results menu shows you the current number of items in the view as well as any available view actions.
+
+### Table
+
+#### Copy to clipboard
+
+This action copies the view to your clipboard. Once in your clipboard you can paste it into a Markdown file, or into other document apps including spreadsheets like Google Sheets, Excel, and Numbers.
+
+#### Export CSV
+
+This action saves a CSV of your current view.
