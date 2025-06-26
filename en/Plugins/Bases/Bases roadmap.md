@@ -6,7 +6,7 @@ The [[Introduction to Bases|Bases]] plugin is still in beta. We expect many chan
 Some planned features include:
 
 - Bases API for plugins to add more power through custom functions and new view types.
-- More view types beyond tables, e.g. list, cards, etc.
+- More view types, e.g. list.
 - Grouping files and aggregation functions (e.g. sum, average, etc).
 - Obsidian Publish support.
 
