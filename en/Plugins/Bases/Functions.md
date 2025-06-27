@@ -36,6 +36,13 @@ Global functions are used without a type.
 - Returns the `trueResult` if `condition` is true, or is a truthy value, or `falseResult` otherwise.
 - Example: `if(isModified, "Modified", "Unmodified")`
 
+### `image()`
+
+`image(path: string | file | url): image`
+
+- Returns an image object which will render the image in the view.
+- Example: `image(image-property)` or `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+
 ### `max()`
 
 `max(value1: number, value2: number...): number`
@@ -465,6 +472,18 @@ Functions you can use with a collection of key-value pairs such as `{"a": 1, "b"
 
 - Returns true if the object has no own properties.
 - Example: `{}.isEmpty()` returns `true`.
+
+### `keys()`
+
+`object.keys(): list`
+
+- Returns a list containing the keys of the object.
+
+### `values()`
+
+`object.values(): list`
+
+- Returns a list containing the values of the object.
 
 ## Regular expression
 

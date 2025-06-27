@@ -186,6 +186,7 @@ For example, a filter `file.ext == "md"` will be true for all Markdown files and
 | Property      | Type   | Description                                                   |
 | ------------- | ------ | ------------------------------------------------------------- |
 | `file.ctime`  | Date   | Created time                                                  |
+| `file.embeds` | List   | List of all embeds in the note                                |
 | `file.ext`    | String | File extension                                                |
 | `file.file`   | File   | File object, only usable in specific functions                |
 | `file.folder` | String | Path of the file folder                                       |
