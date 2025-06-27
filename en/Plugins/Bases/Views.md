@@ -7,9 +7,12 @@ For example, you may want to create a base called "Books" that has separate view
 
 ## Layout
 
-Currently, bases can be displayed as a table. In the future more layout types will be added. See [[Bases roadmap]].
+Currently, bases can be displayed as a **table** or **cards**. In the future more layout types will be added. See [[Bases roadmap]].
 
-With the Table layout each row is a file, and columns are populated from the [[Properties]] in your notes.
+Current layout options:
+
+- **Table layout** displays each file as a row in a table. Columns are populated from the [[Properties]] in your notes.
+- **Cards layout** displays each file as a card in a grid. The view settings allow you to optionally configure an image property, which can be an image URL or [[Attachments|attachment]] link.
 
 ## Filters
 
