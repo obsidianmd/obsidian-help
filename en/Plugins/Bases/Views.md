@@ -55,6 +55,10 @@ View options give you the ability to configure, duplicate, copy, and export a vi
 2. Click the right arrow next to the current view.
 3. Choose an action from the view options menu.
 
+## Limit, copy, and export results
+
+The *results* menu shows the number of results in view. Click the results button to limit the number of results, and access additional actions.
+
 ### Copy to clipboard
 
 This action copies the view to your clipboard. Once in your clipboard you can paste it into a Markdown file, or into other document apps including spreadsheets like Google Sheets, Excel, and Numbers.
