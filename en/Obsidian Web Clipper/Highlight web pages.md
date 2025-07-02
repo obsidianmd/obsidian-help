@@ -22,7 +22,7 @@ Once highlighting is on, you can select text, images, and elements you want to h
 
 You can change the highlighter behavior by going to Web Clipper settings. Here you can also export your highlights to a `.json` file.
 
-There are three options for highlights are inserted into your clipped note via the `{{content}}` [[Variables|variable]]:
+There are three options for highlights to be inserted into your clipped note via the `{{content}}` [[Variables|variable]]:
 
 - **Highlight the page content** — adds highlights directly to the text with the [[Obsidian Flavored Markdown|syntax]] `==highlight==`.
 - **Replace the page content** — returns a list of highlights, without any of the page content.
