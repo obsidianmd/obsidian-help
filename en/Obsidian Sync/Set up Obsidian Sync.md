@@ -162,6 +162,7 @@ You are now disconnected from the remote vault and are no longer syncing on this
 6. Your remote vault has been deleted.
 
 > [!info] If there is no trash can icon visible you may need to first disconnect from the remote vault. Once disconnected, select the **Choose** button to open the list of remote vaults.
+
 ### Regional sync servers
 
 Obsidian Sync allows you to choose the hosting location for your remote vault. If you're using version `1.4.16` or older of Obsidian, the location will be automatically chosen for you.
