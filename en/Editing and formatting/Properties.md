@@ -32,7 +32,7 @@ Once you choose the property name, you can give it a value.
 
 ### Property types
 
-In addition to a name and value, properties also have a *type*. A property's type describes the kind of values it can store. To change the type of a property, click the property's icon or use the **Edit file property** command.
+In addition to a name and value, properties also have a _type_. A property's type determines what kind of values it can store and how Obsidian handles them. To change the type of a property, click the type icon next to the property name and select a different option. You can also manage property types using the [[Properties view]] core plugin.
 
 Obsidian supports the following property types:
 
@@ -43,7 +43,7 @@ Obsidian supports the following property types:
 - **[[#^date-time|Date]]**
 - **[[#^date-time|Date & time]]**
 
-Once a property type is assigned to a property, all properties with that name are assumed to have the same property type.
+Once a property type is assigned to a property name, all properties with that name across your vault will use the same type.
 
 ## Advanced uses
 
@@ -77,12 +77,11 @@ You can use [[CSS snippets]] to change the appearance of specific notes.
 
 ### Not supported
 
-A few features are not supported in Obsidian:
+A few features are not currently supported in Obsidian:
 
-- **Nested properties** — to view nested properties, we recommend using the Source display.
-- **Bulk-editing properties** — this can be achieved with bulk-editing tools like VSCode, scripts, and community plugins.
-- **Markdown in properties** — this is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
-
+- **Nested properties**: To view nested properties, we recommend using the [[Views and editing mode#Source mode|source mode]].
+- **Bulk-editing properties**: For in-depth bulk editing outside of [[Properties view]], we recommend using bulk-editing tools like VSCode, scripts, and community plugins.
+- **Markdown in properties**: This is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
 ## Hotkeys
 
 ### Add a property
