@@ -57,7 +57,9 @@ Properties have their own [[Search|search syntax]] that you can use alongside ot
 
 ### Templates
 
-You can add properties to [[Plugins/Templates]]. When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template.
+You can add properties to [[Plugins/Templates|Templates]].
+
+When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template. ^templates-properties
 
 ### Rename properties
 
