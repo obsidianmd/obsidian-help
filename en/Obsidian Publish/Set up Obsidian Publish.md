@@ -41,7 +41,7 @@ You can access Publish through the following options: the command palette, a hot
 
 The **Publish changes** window will appear in a new pop-up.
 
-**Mobile** ![[obsidian-smartphone.svg#icon]]
+**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
 1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
 2. Open the **Command palette** ( ![[lucide-terminal.svg#icon]] ).
@@ -70,7 +70,7 @@ You can also access Obsidian Publish via the [[ribbon]].
 
 The **Publish changes** window will appear in a new pop-up.
 
-**Mobile** ![[obsidian-smartphone.svg#icon]]
+**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
 1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
 2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.

@@ -11,7 +11,7 @@ For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note cre
 
 **Ribbon:**
 
-- In the ribbon, click **Create new unique note** ( ![[obsidian-sheets-in-box.svg#icon]] ).
+- In the ribbon, click **Create new unique note** ( ![[obsidian-icon-sheets-in-box.svg#icon]] ).
 
 **Command palette:**
 

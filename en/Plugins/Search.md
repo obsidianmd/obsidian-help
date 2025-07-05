@@ -84,7 +84,7 @@ Both property and value allow sub-queries, such as parentheses for grouping, the
 
 ## Change case sensitivity
 
-By default, search terms are not case sensitive. If you want to search for the exact case of your search term, click **Match case** ( ![[obsidian-upper-lowercase.svg#icon]] ) inside the search bar.
+By default, search terms are not case sensitive. If you want to search for the exact case of your search term, click **Match case** ( ![[obsidian-icon-upper-lowercase.svg#icon]] ) inside the search bar.
 
 This setting can be toggled. If **Match case** icon is highlighted, that means you’re currently doing a case sensitive search.
 
