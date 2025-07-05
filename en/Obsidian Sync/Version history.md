@@ -43,7 +43,7 @@ When you enable the [[Introduction to Obsidian Sync|Sync]] core plugin, Sync his
 
 Sync history will then appear in the [[Sidebar|right sidebar]].
 
-**Mobile** ![[obsidian-smartphone.svg#icon]]
+**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
 1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
 2. Open the **Command palette**. ( ![[lucide-terminal.svg#icon]] )
@@ -80,7 +80,7 @@ The process for restoring both notes and attachments is the same.
 2. Select **Open version history**.
 3. Select the version of the note you want to view on the left. The contents will be displayed on the right. 
 
-**Mobile** ![[obsidian-smartphone.svg#icon]]
+**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 1. In the **File explorer**, select the note you want to restore.
 2. Long press to bring up the context menu.
 3. Select **Open version history**.
@@ -104,7 +104,7 @@ The process for restoring both notes and attachments is the same.
 4. Select the **Restore** button.
 5. The note contents will be replaced with the restored version.
 
-**Mobile** ![[obsidian-smartphone.svg#icon]]
+**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 1. In the **File explorer**, select the note you want to restore.
 2. Long press to bring up the context menu.
 3. Select **Open version history**.

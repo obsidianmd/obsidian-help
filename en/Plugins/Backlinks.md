@@ -34,7 +34,7 @@ It provides the following options:
 
 ## View backlinks for a note
 
-To view the backlinks for the active note, click the **Backlinks** ( ![[obsidian-links-coming-in.svg#icon]] ) tab in the right sidebar.
+To view the backlinks for the active note, click the **Backlinks** ( ![[obsidian-icon-links-coming-in.svg#icon]] ) tab in the right sidebar.
 
 > [!note]
 > If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks** command.

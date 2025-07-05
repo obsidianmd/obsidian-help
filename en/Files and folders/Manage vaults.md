@@ -40,7 +40,7 @@ Since the name of a vault and the underlying folder are the same, renaming a vau
 1. On your computer, open Obsidian.
 2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
 3. A context menu will pop up. Select **Manage Vaults...**.
-4. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg]] ) next to the vault you want to rename.
+4. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg#icon]] ) next to the vault you want to rename.
 5. Select **Rename vault**.
 6. Enter the new name for the vault, and press `Enter`.
 
@@ -50,7 +50,7 @@ Since the name of a vault and the underlying folder are the same, renaming a vau
 2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
 3. A context menu will pop up. Select **Manage Vaults...**.
 4. Close the current vault window, leaving the **Manage Vaults** window open.
-5. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg]] ) next to the vault you want to move.
+5. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg#icon]] ) next to the vault you want to move.
 6. Select **Move vault**, and then select the new location.
 
 Some operating systems do not allow the vault to be moved with the Vault Switcher. In these cases, you will need to move your vault manually:
@@ -72,7 +72,7 @@ Removing a vault only removes it from the vault list.
 1. On your computer, open Obsidian.
 2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
 3. A context menu will pop up. Select **Manage Vaults...**.
-4. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg]]) next to the vault you want to move.
+4. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg#icon]]) next to the vault you want to move.
 5. Select **Remove from list**.
 
 ## Transfer settings to another vault
