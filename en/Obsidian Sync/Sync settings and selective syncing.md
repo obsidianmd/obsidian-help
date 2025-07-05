@@ -23,7 +23,7 @@ This section shows your currently connected remote vault. It includes a **Discon
 Displays the current sync status of the remote vault. This section includes either a **Pause** or **Resume** button, depending on the status.
 
 **Device name**  
-Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync log|sync log]].
+Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync activity log|sync log]].
 
 **Deleted files**  
 Contains a button to **View** or **Restore** deleted files. For more details, see [[Version history]].
