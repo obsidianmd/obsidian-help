@@ -1,6 +1,11 @@
 ---
+aliases:
+description: Properties view is a core plugin that adds two sidebar views that you can use to manage Properties.
+mobile: true
 permalink: plugins/properties
+publish: true
 ---
+
 Properties view is a [[Core plugins|core plugin]] that adds two sidebar views that you can use to manage [[Properties]]:
 
 - **File properties** shows a view of the properties for the active note.
