@@ -1,6 +1,13 @@
 ---
+aliases:
+cssclasses:
+  - soft-embed
+description: Templates is a Core plugins|core plugin that lets you insert pre-defined snippets of text into your active note.
+mobile: true
 permalink: plugins/templates
+publish: true
 ---
+
 Templates is a [[Core plugins|core plugin]] that lets you insert pre-defined snippets of text into your active note.
 
 ## Set your template folder
@@ -35,3 +42,7 @@ You can change the default date and time formats under **Settings → Templates 
 
 > [!tip]
 > You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
+
+## Template properties
+
+![[Properties#^templates-properties]]
