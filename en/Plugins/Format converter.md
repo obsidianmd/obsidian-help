@@ -44,7 +44,7 @@ The Format converter can convert the following Zettelkasten syntax:
 
 ### [[Properties]]
 
-As of Obsidian `1.9.4`, the Format converter can convert [[Properties#Deprecated properties|deprecated property]] formats to the current format:
+As of Obsidian `1.9.3`, the Format converter can convert [[Properties#Deprecated properties|deprecated property]] formats to the current format:
 
 **Aliases**
 
