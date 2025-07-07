@@ -43,6 +43,13 @@ Global functions are used without a type.
 - Returns an image object which will render the image in the view.
 - Example: `image(image-property)` or `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
 
+### `icon()`
+
+`icon(name: string): icon`
+
+- Returns a value that will render as an icon in a view. The icon name must match a supported Lucide icon.
+- Example: `icon("arrow-right")`.
+
 ### `max()`
 
 `max(value1: number, value2: number...): number`
@@ -219,13 +226,6 @@ Functions you can use with a sequence of characters such as `"hello".`
 - `query` is the string to check at the end.
 - Returns true if this string ends with `query`.
 - Example: `"hello".endsWith("lo")` returns `true`.
-
-### `icon()`
-
-`string.icon(): string`
-
-- Returns a string that represents the icon name to be rendered using Lucide. The icon name must match a supported Lucide icon.
-- Example: `"arrow-right".icon()` returns `"arrow-right"`.
 
 ### `isEmpty()`
 
