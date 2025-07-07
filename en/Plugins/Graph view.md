@@ -25,7 +25,7 @@ You can hold Shift while using the keyboard to speed up the movements.
 
 ## Settings
 
-To open the graph settings, click the cog icon in the upper-left corner of the graph view.
+To open the graph settings, click the cog icon in the upper-right corner of the graph view.
 
 Click **Restore default settings** in the upper-right corner of the settings box to reset any changes you make.
 
