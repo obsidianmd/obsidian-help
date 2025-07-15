@@ -47,13 +47,15 @@ For example, if we've received reports from multiple members of annoying or rude
 
 #### Unsolicited messages to community members
 
-Refrain from unsolicited tagging, "pinging", or direct messaging of staff and moderators for general questions, bug reports, and feature requests. Given the size of our community, the team's attention must be prioritised for critical matters.
+This is a large and active community. Please be respectful of others' attention and time by avoiding unsolicited tagging, "pinging", or direct messaging of staff, moderators, and fellow community members for general questions, bug reports, or feature requests. This guideline will be enforced on a spirit-of-the-rule basis.
 
-**Security concerns**: You may directly message Obsidian team members regarding security-related issues.
+**When pinging is appropriate**: Only ping community members when replying to their messages or when they have explicitly requested to be notified about specific topics.
 
-**Unsolicited contact**: Be considerate when pinging community members. You may only send direct messages if you have received explicit permission to do so publicly. 
+**Direct messages**: Only send direct messages if you have received explicit permission to do so publicly in the server.
 
-**Community plugins and themes**: For bug reports and feature requests, it is preferred to open a GitHub issue over pinging the developer in Discord.
+**Community plugins and themes**: For bug reports and feature requests, please open a GitHub issue rather than pinging the developer in Discord.
+
+**Security concerns**: If you have a security issue to report about the application, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
 
 Instructions for reporting violations of our code of conduct can be found below in [[#Report violations]]. We appreciate your cooperation in following these guidelines to maintain a positive and respectful environment within the Obsidian community.
 
