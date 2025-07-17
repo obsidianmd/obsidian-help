@@ -303,7 +303,7 @@ Dates represent a specific date, or a date and time depending on the function us
 
 - To construct a link, use the global `link` [[Functions|function]], for example `link("filename")` or `link("https://obsidian.md")`.
 - You can create a link from any string, for example, `link(file.ctime.date().toString())`.
-- To set the display text, pass in an optional string or icon as a second parameter, for example `link("filename", "display")` or `link("filename", "plus".icon())`.
+- To set the display text, pass in an optional string or icon as a second parameter, for example `link("filename", "display")` or `link("filename", icon("plus"))`.
 
 A File object can be turned into a link using `file.asLink()` with an optional display text.
 
