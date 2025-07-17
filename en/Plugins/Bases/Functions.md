@@ -435,6 +435,24 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Example: `[1,2,3,4].slice(1,3)` returns `[2,3]`.
 - If `end` is omitted, slices to the end of the list.
 
+### `map()`
+
+`list.map(value: Any): list`
+
+- Transform each element of this list by calling a conversion function, which uses the variables `index` and `value`, and returns the new value to be placed in the list.
+- `value` is the value of an item in the list.
+- `index` is the index of the current value.
+- Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
+
+### `filter()`
+
+`list.filter(value: Boolean): list`
+
+- Filter the elements of this list by calling a filter function, which uses the variables `index` and `value`, and returns a boolean value for whether the element should be kept.
+- `value` is the value of an item in the list.
+- `index` is the index of the current value.
+- Example: `[1,2,3,4].filter(value > 2)` returns `[3,4]`.
+
 ## Link
 
 Functions you can use on a link. Links can be created from a file (`file.asLink()`) or a path (`link("path")`).
