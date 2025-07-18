@@ -45,8 +45,9 @@ Credits to these plugin developers for pioneering functionality that were adapte
 
 - pjeby for the Hotkey Helper plugin
 - javalent for the Admonition plugin
-- NothingIsLost for several CodeMirror 6 improvements
+- NothingIsLost for CodeMirror 6 improvements
 - mgmeyers for the Indentation Guides plugin
+- blacksmithgu for Dataview
 
 ## Builds
 
