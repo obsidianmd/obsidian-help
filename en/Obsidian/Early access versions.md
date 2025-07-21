@@ -4,6 +4,7 @@ aliases:
   - Insider builds
 permalink: early-access
 ---
+
 Get early access to upcoming releases by enabling _early access versions_. Early access versions are only available to users with a [[Catalyst license]].
 
 > [!warning]
@@ -28,15 +29,10 @@ To receive early access versions as soon as they're available, follow these step
 
 To find instructions on how to install early access versions on your mobile device, follow these steps:
 
-1. Join the [Obsidian Discord server](https://discord.gg/veuWUTm).
-2. [[Catalyst license#Get your Discord badge|Get your Discord badge]] to access insider channels.
-3. Open Discord.
-4. In the `#insider-mobile-release` channel, open **Pinned Messages**.
-   - On desktop, select the pushpin icon in the upper-right corner.
-   - On mobile, swipe left and select **Pins**.
-5. Under **Pinned Messages**, select the installation link for your device:
-   - If you're using iOS, open the TestFlight link on your iPhone or iPad.
-   - If you're using Android, download and install the APK file.
+1. Download and install [Discord](<https://discord.com>).
+2. Join the [Obsidian Discord server](https://discord.gg/obsidianmd).
+3. [[Catalyst license#Get your Discord badge|Get your Discord badge]] to access insider channels.
+4. In the `#insider-welcome` channel, you will find instructions for accessing your download based on your device type.
 
 ## Report issues and other feedback
 
