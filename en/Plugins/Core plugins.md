@@ -6,7 +6,8 @@ permalink: plugins
 aliases:
   - core plugin
 ---
-This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team. 
+
+This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team, and are included within the application.
 
 Some core plugins are disabled by default. You can enable them under **Settings → Core plugins**.
 
@@ -37,8 +38,6 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Convert Markdown from other apps to Obsidian format.
 - [[Graph view]]
 	- Visualize relationships between notes in your vault.
-- [[Importer]]
-	- Convert files from various apps and formats to Obsidian.
 - [[Note composer]]
 	- Merge two notes or split one into two.
 - [[Outgoing links]]
@@ -75,3 +74,11 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Display the number of words and characters.
 - [[Workspaces]]
 	- Save layouts and switch between them.
+
+
+### Other plugins
+
+The Obsidian team also maintains plugins available through the Community plugin store:
+
+- [[Importer]]
+	- Convert files from various apps and formats to Obsidian.
