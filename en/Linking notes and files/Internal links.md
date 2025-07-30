@@ -38,7 +38,9 @@ To use the Markdown format:
 Even if you disable the Wikilink format, you can still autocomplete links by typing two square brackets `[[`. When you select one of the suggested files, Obsidian instead generates a Markdown link.
 
 > [!note] Invalid characters
-> A string or link which contains the following characters will not work as a link: `# | ^ : %% [[ ]]`. We recommend [avoiding using those characters](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) in both links and filenames. 
+> A string which contains the following characters may not work as a link: `# | ^ : %% [[ ]]`. 
+> 
+> We recommend avoiding using those characters and practicing [safe filename practices](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names). 
 
 ## Link to a file
 
