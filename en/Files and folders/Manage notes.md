@@ -2,7 +2,10 @@
 aliases:
   - Advanced topics/Deleting files
   - How to/Rename notes
+description:
+mobile: false
 permalink: manage-notes
+publish: true
 ---
 You can manage files and folders in several ways, using [[Hotkeys]], [[Command palette|commands]], or [[File explorer]].
 
@@ -14,6 +17,10 @@ To create a new file:
 2. Enter the name of the note and then press `Enter` to start editing the note.
 
 You can also create notes using [[File explorer#Create a new note|File explorer]], or by selecting **Create new note** from the [[Command palette]].
+
+> [!hint] System character limitation
+> Obsidian will respect the filename limitations of the operating system you create the note on. If you plan to [[Sync your notes across devices|sync your notes across devices]], make sure your filenames are [safe for other operating systems](https://stackoverflow.com/q/1976007).
+^blockquote-system-limitation
 
 ## Rename a note
 
