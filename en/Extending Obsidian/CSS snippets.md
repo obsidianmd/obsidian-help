@@ -23,7 +23,7 @@ To add a CSS snippet on **Desktop** ![[lucide-monitor-check.svg#icon]], follow t
 4. In Obsidian, under **Appearance → CSS snippets**, select **Reload snippets** ( ![[lucide-refresh-cw.svg#icon]] ) to see the snippet in the list.
 5. Enable snippet by clicking the toggle.
 
-To add a CSS snippet on **Mobile/Tablet** ![[obsidian-smartphone.svg#icon]], you can follow these steps:
+To add a CSS snippet on **Mobile/Tablet** ![[obsidian-icon-smartphone.svg#icon]], you can follow these steps:
 
 1. Open a file manager and find your vault. You can check the vault’s location in _Manage vaults…_ by tapping your vault and looking at the path.
 2. Open the [[Configuration folder]] and create a folder called `snippets` if it doesn’t exist.
