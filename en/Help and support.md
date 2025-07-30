@@ -1,6 +1,7 @@
 ---
 permalink: resources
 ---
+
 Find support resources, report security or community violations, and learn how to contribute to Obsidian.
 
 ## Questions and advice
@@ -37,6 +38,8 @@ When you need to report a bug related to an Obsidian plugin or when requested by
 - **Windows**: `CTRL + SHIFT + i`  
 - **MacOS**: `CMD + OPTION + i`  
 - **Linux**: `CTRL + SHIFT + i`
+
+> [!note] If using the **Obsidian frame** Window frame style, you can also access the Obsidian console via the title menu. 
 
 Once you've opened the developer console:
 
