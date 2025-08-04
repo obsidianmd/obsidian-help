@@ -26,6 +26,13 @@ Global functions are used without a type.
 - `date(string): date` parses the provided string and returns a date object.
 - The `date` string should be in the format `YYYY-MM-DD HH:mm:ss`.
 
+### `file()`
+
+`file(path: string | file | url): file`
+
+- Returns a file object for the given file or path.
+- Example: `file(link("[[filename]]"))` or `file("path to file")`.
+
 ### `if()`
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
@@ -462,6 +469,13 @@ Functions you can use on a link. Links can be created from a file (`file.asLink(
 `link.linksTo(file): boolean`
 
 - Returns whether the file represented by the `link` has a link to `file`.
+
+### `asFile()`
+
+`link.asFile(): file`
+
+- Returns a file object if the link refers to a valid local file.
+- Example: `link("[[filename]]").asFile()`
 
 ## File
 
