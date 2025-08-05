@@ -23,7 +23,10 @@ This section shows your currently connected remote vault. It includes a **Discon
 Displays the current sync status of the remote vault. This section includes either a **Pause** or **Resume** button, depending on the status.
 
 **Device name**  
-Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync activity log|sync log]].
+Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync activity log|sync log]]. This setting is device specific, just like [[#Selective syncing]].
+
+**[[#Conflict resolution]]**
+Choose how conflicts are resolved when a note is independently modified on multiple devices. This setting is device specific, just like [[#Selective syncing]].
 
 **Deleted files**  
 Contains a button to **View** or **Restore** deleted files. For more details, see [[Version history]].
@@ -35,6 +38,14 @@ Displays a progress bar showing how much of your sync storage is used.
 
 **Contact support**  
 Provides instructions on how to [[Help and support#Contact Obsidian support|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
+
+### Conflict resolution
+
+Obsidian Sync includes basic [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]] for handling changes made from different devices. Starting in Obsidian 1.9.7, you can choose how conflicts are handled on each device:
+- **Automatically merge**(default): Obsidian Sync combines all changes from different devices into a single file. While this preserves all edits, it may occasionally create duplicate text or formatting issues that you'll need to clean up manually.
+- **Create conflict file**: When conflicting changes are detected, Obsidian creates a separate conflict file instead of automatically merging. You can then review both versions and merge them yourself, giving you full control over the final result.
+
+> [!note] The conflict file option doesn't currently support in-app merging tools. You can use community plugins with "diff" or "merge" features to help with this process within Obsidian.
 
 ---
 
