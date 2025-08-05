@@ -124,3 +124,9 @@ Then run your model with Ollama the normal way, e.g.
 ollama run llama3.2
 ```
 
+**Context length**
+
+Ollama's context window defaults to 2048 tokens. This is the maximum number of tokens for the message and response. When clipping a long web page you can easily exceed this limit. Ollama will silently fail and return irrelevant results. Some options:
+
+- Increase Ollama's `num_ctx` parameter. Be mindful that longer context requires more memory.
+- Use the [[#Context]] field in your template to provide a more targeted section of the page, or trim the context using a [[Filters|filter]] e.g. `{{content|slice:0,1000}}`.
