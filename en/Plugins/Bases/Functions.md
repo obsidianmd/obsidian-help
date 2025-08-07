@@ -497,6 +497,12 @@ Functions you can use with file in the vault.
 - Returns true if `file` links to `otherFile`.
 - Example: `file.hasLink(otherFile)` returns `true` if there’s a link from `file` to `otherFile`.
 
+### `hasProperty()`
+
+`file.hasProperty(name: string): boolean`
+
+- Returns true if the note has the given file property.
+
 ### `hasTag()`
 
 `file.hasTag(...values: string): boolean`
