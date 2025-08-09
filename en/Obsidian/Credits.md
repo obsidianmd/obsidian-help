@@ -57,6 +57,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 ## Translators
 
 - Andrea Brandi (Italian)
+- Anne-Katrin aka Mephi (German)
 - bongudth (Vietnamese)
 - canzi-teacher, 蚕子 (Simplified Chinese)
 - cor-bee, Ілля Пишняк (Ukrainian)
