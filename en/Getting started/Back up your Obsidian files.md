@@ -53,13 +53,16 @@ Flash drives (also called thumb drives, memory sticks, or pen drives) are a simp
 4. Safely unmount the flash drive.
 5. Remove the flash drive from your device.
 
+**NAS backup**
+For experienced users, backing up data on a NAS (Network Attached Storage) server is a good and secure method, as it has multiple hard drives and additional recovery mechanisms.
+
 > [!tip] If your external drive contains sensitive information, it is recommended to keep the external drive secure, such as in a secured room.
 
 ## Use computer backups
 
 Your operating system itself offer the ability to help create backups, whether online in the cloud, or in an external drive.
 
-- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Backup with OneDrive or an external drive. You may also use [System restore](https://support.microsoft.com/en-us/windows/use-system-restore-a5ae3ed9-07c4-fd56-45ee-096777ecd14e).
+- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Backup with OneDrive or an external drive.
 - **[Mac](https://support.apple.com/en-us/104984)**: Backup to an external device with Time Machine.
 - **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` to a directory or drive of choice.
 
