@@ -24,7 +24,7 @@ These are a few commonly used sync methods reported by members of the [Obsidian 
 1. **First-party sync**: [[#Obsidian Sync]]
 2. **Third-party cloud sync**: [[#iCloud]], [[#OneDrive]], and [[#Google Drive]]
 3. **Local sync**: [[#Syncthing]]
-4. **Version control**: [[#Git]] and [[#Working Copy]]
+4. **Version control**: [[#Git]]
 
 ## Obsidian Sync
 
@@ -163,30 +163,13 @@ Syncthing is a decentralized file synchronization tool that doesn't rely on clou
 3. **Pull changes on other devices**:
     - Clone the repository on another device and pull changes using `git pull origin main`.
 
-> [!Note] Git provides strong version control, but syncing isn't automatic. You must manually push and pull changes.
+> [!Note] Git alone provides strong version control, but syncing isn't automatic. You must manually push and pull changes.
 
-## iPhone and iPad syncing
-
-**Recommended options**:
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
-- [[#iCloud]]
-
-> [!Important] Avoid syncing the same vault across multiple services (e.g., using both Obsidian Sync and iCloud simultaneously) to prevent data conflicts or corruption.
-
-**Unsupported options**:
-The following services aren't officially supported on iOS, but users have found workarounds using third-party tools or plugins:
-
-- Dropbox
-- Google Drive
-- OneDrive
-- Syncthing
-
-Some users have successfully used plugins like **Remotely Save** or **LiveSync** to sync vaults on iOS. However, these methods aren't officially supported, and results may vary.
+> [!tip] For a step-by-step tutorial on setting up automated cross-platform Git sync with the [Obsidian Git plugin](#obsidian-git) and [GitSync app](#gitsync), see [Cross-platform Git sync setup](https://viscouspotenti.al/posts/gitsync-all-devices-tutorial). <br /> _This tutorial is provided by the developer of GitSync, an independent Git client for mobile devices._
 
 ### Working Copy
 
 **Recommended systems**: `iOS`
-**Requires**: [[#Git]]
 
 **Working Copy** is a Git client for iOS that allows you to clone, commit, and push changes to a Git repository. It works well for syncing Obsidian vaults via Git, though some features require a paid in-app purchase.
 
@@ -202,7 +185,37 @@ Some users have successfully used plugins like **Remotely Save** or **LiveSync**
     - After editing notes in Obsidian, use Working Copy to **Commit** and **Push** changes to the remote repository.
     - On other devices, pull changes using Git to sync the vault.
 
-> [!Note] While Working Copy isn't officially supported, many users have successfully used it to sync vaults with Git.
+### Obsidian-Git
+
+**Recommended systems**: `Windows`, `macOS`, `Linux` (limited functionality on Android & iOS)
+
+**Obsidian-Git** (appears as "Git" in the Community Plugins list) is an Obsidian Community Plugin that enables automated background vault sync using Git (isomorphic-git on mobile).
+
+**How to sync your vault using Obsidian Git**:
+
+1. **Install Obsidian Git plugin**:
+    - In Obsidian, go to **Settings → Community plugins → Browse** and search for **Obsidian Git**. Install and enable it.
+2. **Set up Git locally**:
+    - Install Git on your computer and ensure it’s available in your system PATH.
+3. **Clone your repository**:
+    - Clone your Git repository into a folder, then open that folder as a vault in Obsidian.
+4. **Configure plugin settings**:
+    - In **Settings → Obsidian Git**, set your commit message format, auto-commit, and auto-push intervals if desired.
+5. **Commit and sync changes**:
+    - Use the Obsidian Git commands (from the command palette) to pull, commit, and push changes.
+    - On other devices, pull changes to sync the vault.
+
+### GitSync
+
+**Recommended systems**: `iOS`, `Android`
+
+**GitSync** is a Git client for Android and iOS that allows you to clone and sync a repository automatically in the background. It works well for singular vaults, but some features require an in-app purchase.
+
+**How to sync your vault using GitSync (iOS and Android):**
+
+1. Install GitSync from the [iOS App Store](https://apps.apple.com/us/app/gitsync/id6744980427) or [Google Play Store](https://play.google.com/store/apps/details?id=com.viscouspot.gitsync&hl=en_GB):
+2. Open the app and follow the in-app instructions to grant permissions, authenticate your Git account, clone your repository, and set up automated syncing.
+3. Use GitSync to commit, push, and pull changes to keep your vault synced across devices.
 
 ## Comparison
 
