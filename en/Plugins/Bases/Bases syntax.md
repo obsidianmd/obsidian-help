@@ -45,19 +45,12 @@ views:
         - or:
             - "formula.ppu > 5"
             - "price > 2.1"
-    group_by: "status"
     order:
       - file.name
       - file.ext
       - note.age
       - formula.ppu
       - formula.formatted_price
-  - type: map
-    name: "Example map"
-    filters: "has_coords == true"
-    lat: lat
-    long: long
-    title: file.name
 ```
 
 ### Filters
@@ -154,12 +147,6 @@ views:
       - note.age
       - formula.ppu
       - formula.formatted_price
-  - type: map
-    name: "Example map"
-    filters: "has_coords == true"
-    lat: lat
-    long: long
-    title: file.name
 ```
 
 - `type` selects from the built-in and plugin-added view types.
