@@ -4,6 +4,7 @@ aliases:
   - Installer version update
 permalink: updates
 ---
+
 Obsidian's updating process is different on mobile and desktop devices.
 
 Obsidian on desktop devices regularly checks for new updates. If automatic updates are enabled, the application will update on restart. Obsidian needs periodic [[#Installer updates|installer updates]], which require downloading and running the installer.
@@ -16,7 +17,7 @@ Open **Settings → General**.
 
 You can find the current versions of the app and installer at the top of the page.
 
-![[application-installer-current-version.png]]
+![[application-installer-current-version.png#interface]]
 
 To check for updates, select **Check for updates**. If there are new updates, Obsidian will offer to relaunch. Select **Relaunch** to apply any available updates.
 
