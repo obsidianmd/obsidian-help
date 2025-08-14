@@ -24,6 +24,7 @@ To receive early access versions as soon as they're available, follow these step
 6. Once signed in, return to **Settings**.
 7. In the sidebar, select **General**.
 8. Under **App**, enable **Receive early access versions**.
+9. Click **Check for updates** and then **Relaunch**.
 
 ## Install early access versions on mobile devices
 
