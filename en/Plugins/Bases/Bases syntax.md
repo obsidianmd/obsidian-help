@@ -102,15 +102,20 @@ formulas:
 
 Formula properties support basic arithmetic operators and a variety of built-in [[functions]]. In the future, plugins will be able to add functions for use in formulas.
 
-Properties in formulas can be referenced in multiple ways, depending on the type of property:
+You can reference properties in different ways depending on their type:
 
-- Properties in the frontmatter are called `note` properties. For example `note.price` or `note["price"]`. If a property does not have a prefix it is assumed to be a `note` property.
-- Properties about the file (implicit properties) are called `file` properties. For example, `file.size` or `file.ext`. You may also use `file` to reference the file itself, for example `file.hasLink()`.
-- Formulas are prefixed with `formula`, for example `formula.formatted_price`.
+- **Note properties** are properties defined in the note’s frontmatter. For example `note.price` or `note["price"]`.  
+  If no prefix is specified, the property is assumed to be a `note` property.
+- **File properties** describe the file itself.  
+  For example `file.size` or `file.ext`. You can also reference the file object directly, e.g., `file.hasLink()`.
+- **Formula properties** are other formulas in the base.  
+  Example `formula.formatted_price`.
 
-Formula properties can use values from other formula properties, as long as there is no circular reference. They are always defined as strings in the YAML, however the data type of the data and the function returns will be used to determine the output data type.
+A formula can use values from other formula properties, as long as there’s no circular reference.  
 
-Note the use of nested quotes necessary to include text literals in the YAML field. Text literals must be enclosed in single or double quotes.
+Formula properties are always stored as strings in YAML, but their actual **output data type** is determined by the type of the underlying data and the return value of any functions used.
+
+Note the use of nested quotes is necessary to include text literals in the YAML field. Text literals must be enclosed in single or double quotes.
 
 ### Properties
 

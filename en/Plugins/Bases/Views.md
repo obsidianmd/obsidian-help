@@ -60,7 +60,7 @@ Filters can be applied to all views in a base, or just a single view by choosing
 
 Filters have three components:
 
-1. **Property** — lets you choose a [[Properties|property]] in your vault, including [[Bases syntax#Implicit properties|implicit properties]]
+1. **Property** — lets you choose a [[Properties|property]] in your vault, including [[Bases syntax#File properties|file properties]].
 2. **Operator** — lets you choose how to compare the conditions. The list of available operators depends on the property type (text, date, number, etc) 
 3. **Value** — lets you choose the value you are comparing to. Values can include math and [[Functions|functions]].
 
