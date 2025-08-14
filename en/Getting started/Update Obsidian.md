@@ -4,17 +4,22 @@ aliases:
   - Installer version update
 permalink: updates
 ---
-Obsidian regularly checks for new updates. If automatic updates are enabled, the application will apply any available updates when you restart it.
 
-## Check for an update and the current version
+Obsidian's updating process is different on mobile and desktop devices.
+
+Obsidian on desktop devices regularly checks for new updates. If automatic updates are enabled, the application will update on restart. Obsidian needs periodic [[#Installer updates|installer updates]], which require downloading and running the installer.
+
+On mobile devices, Obsidian is updated through the device's app store. The installer version is the same as the app version. Obsidian does not feature auto-update.
+
+## Check for updates and view version
 
 Open **Settings → General**.
 
-You can find the current Obsidian version and installer version in the upper-left corner.
+You can find the current versions of the app and installer at the top of the page.
 
 ![[application-installer-current-version.png#interface]]
 
-To check for updates, select **Check for updates**. If there are new updates, this button will change to **Relaunch**. select **Relaunch** to apply any available updates.
+To check for updates, select **Check for updates**. If there are new updates, Obsidian will offer to relaunch. Select **Relaunch** to apply any available updates.
 
 ## Disable automatic updates
 
@@ -25,27 +30,18 @@ If you prefer to update Obsidian manually, you can disable automatic updates.
 
 ## Installer updates
 
-Occasionally, Obsidian [release notes](https://obsidian.md/changelog/) will indicate that a manual installer update is required, and include a link to our website. These updates address the scaffolding of Obsidian, and cannot be handled within the automatic update process. 
+On desktop, Obsidian's [release notes](https://obsidian.md/changelog/) will inform you when you need to update the installer version of Obsidian to keep things working. This is the version of Electron, the framework on which Obsidian is built, and it cannot be updated by the automatic update process. 
+
+A community plugin or theme may require an installer update to access newer features that are not available in older versions of Electron, and may ask you to update the installer version of Obsidian before Obsidian itself asks.
+
+To update the installer version of Obsidian:
+
+1. Navigate to https://obsidian.md/download.
+2. Select the **Download** button.
+3. Close Obsidian, if open.
+4. Proceed as detailed in [[Download and install Obsidian]].
+
+Your installer update is now complete.
 
 > [!tip] 
 > You **do not** need to uninstall Obsidian to update the installer version.
-
-To update Obsidian when an installer update is required:
-
-1. Navigate to [https://obsidian.md/download](https://obsidian.md/download "https://obsidian.md/download").
-2. Download the installer onto your system.
-	1. If Obsidian is open, completely close it.
-3. Run the installation process as directed in [[Download and install Obsidian]].
-
-Your installer update is now complete. You may now re-open Obsidian.
-
-> [!Question]- A plugin author or theme developer is asking me to update my installer, but the Obsidian team has not. Why?
-> This is very common when we have internal library updates within the installer that do not need a minimum application version update, which would force everyone to update. 
-> 
-> For example, if you were using a PDF annotation plugin, and we updated the `pdf.js` library within Obsidian, the plugin author would want to take advantage of updates of that library. 
->
-> Similarly, updated CSS capability would prompt a theme developer to require an installer update, so you can have the benefit of some new options that allow more styling features. 
-
-## Troubleshooting
-
-Some features may depend on a more recent installer version. If you experience issues with a recently added feature, consider [[Download and install Obsidian|reinstalling Obsidian]] to update the installer version.
