@@ -120,7 +120,7 @@ Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2
 
 ### Electron
 
-Version `34.3.0`
+Version `37.3.0`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -156,6 +156,7 @@ Copyright (c) 2014 - 2022 Knut Sveidqvist
 Version `2.29.4`
 MIT License
 Copyright (c) JS Foundation and other contributors
+
 ### pdf.js
 
 Apache License 2.0
