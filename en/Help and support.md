@@ -31,6 +31,22 @@ When you encounter a bug or need assistance from [[#Contact Obsidian support|Obs
 4. Click **Copy to clipboard**.
 5. Paste the copied information into your bug report or Obsidian support email.
 
+### Startup time
+
+You can check how long Obsidian takes to start by using the **Startup time** feature.
+
+1. Open **Settings → General → Advanced**.
+2. Next to **Notify if startup takes longer than expected**, click the **timer icon**.
+3. A **Startup time** window will appear, showing detailed timing information:
+   - **Total app startup**: overall launch time.
+   - **Initialization**: time spent loading the app itself.
+   - **Vault**: time to load your vault files.
+   - **Workspace**: time to restore tabs and layout.
+   - **Core plugins**: time used by active core plugins.
+4. You can click **Copy to clipboard** to copy the report for troubleshooting or sharing.
+
+Additionally, you can toggle **Notify if startup takes longer than expected** to receive a warning if startup is unusually slow.
+
 ### Capture console logs
 
 When you need to report a bug related to an Obsidian plugin or when requested by [[#Contact Obsidian support|Obsidian support]] to provide log information, you may need to access the Obsidian console from within the Obsidian application. Here’s how to do it based on your operating system:
