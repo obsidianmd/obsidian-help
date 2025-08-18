@@ -21,5 +21,3 @@ Bases is a [[Core plugins|core plugin]] that lets you turn any set of notes into
 	- Functions you can use in formulas and filters.
 - [[Bases syntax]]
 	- How base files are formatted.
-- [[Bases roadmap]]
-	- Planned features for bases.
