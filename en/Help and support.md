@@ -38,11 +38,11 @@ You can check how long Obsidian takes to start by using the **Startup time** fea
 1. Open **Settings → General → Advanced**.
 2. Next to **Notify if startup takes longer than expected**, click the **timer icon**.
 3. A **Startup time** window will appear, showing detailed timing information:
-   - **Total app startup**: overall launch time.
-   - **Initialization**: time spent loading the app itself.
-   - **Vault**: time to load your vault files.
-   - **Workspace**: time to restore tabs and layout.
-   - **Core plugins**: time used by active core plugins.
+- **Total app startup**: Overall launch time.
+- **Initialization**: Time spent loading the app itself.
+- **Vault**: Time to load your vault files.
+- **Workspace**: Time to restore tabs and layout.
+- **Core plugins**: Time used by active core plugins.
 4. You can click **Copy to clipboard** to copy the report for troubleshooting or sharing.
 
 Additionally, you can toggle **Notify if startup takes longer than expected** to receive a warning if startup is unusually slow.
