@@ -1,13 +1,4 @@
 ---
 permalink: bases/roadmap
 ---
-
-The [[Introduction to Bases|Bases]] plugin is still in development. We expect many changes and improvements to Bases over the coming months, and a longer than usual [[Early access versions|early access]] phases.
-
-Some planned features include:
-
-- Bases API for plugins to add more power through custom functions and new view types.
-- More layouts for [[Views]].
-- Grouping files and aggregation functions (e.g. sum, average, etc).
-- Obsidian Publish support.
-
+The [[Introduction to Bases|Bases]] plugin is still in development. We expect many changes and improvements to Bases over the coming months, and longer than usual [[Early access versions|early access]] phases. [See roadmap.](https://obsidian.md/roadmap/)
