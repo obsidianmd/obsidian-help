@@ -17,6 +17,10 @@ permalink: bases/create-base
 1. In the File explorer, right-click the folder you want to create the base in.
 2. Select **New base**.
 
+**Ribbon:**
+
+- In the vertical ribbon menu, select **Create new base** to create a base in the same folder as the active file.
+
 ## Embed a base
 
 ### Embed a base file
