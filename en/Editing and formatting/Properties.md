@@ -162,7 +162,9 @@ cast: # This is a list property
 ---
 ```
 
-Internal links in **Text** and **List** type properties must be surrounded with quotes. Obsidian will automatically add these if you manually enter internal links into properties, but be careful to add them when using templating plugins.
+### Links
+
+[[Internal links]] in **Text** and **List** type properties must be surrounded with quotes. Obsidian will automatically add these if you manually enter internal links into properties, but be careful to add them when using templating plugins.
 
 ```yaml
 ---
@@ -172,6 +174,8 @@ linklist:
   - "[[Link2]]"
 ---
 ```
+
+### Numbers
 
 Number type properties must always be a literal number, not an expression with operators. Integers and decimals are both allowed.
 ^numbers
@@ -183,6 +187,8 @@ pie: 3.14
 ---
 ```
 
+### Checkboxes
+
 Checkbox type properties are either `true` or `false`. An empty property will be treated as `false`. In Live Preview, this will be represented as a checkbox.
 ^checkbox
 
@@ -192,6 +198,8 @@ favorite: true
 reply: false
 last: # this will default to false
 ```
+
+### Dates
 
 **Date** and **Date & time** type properties are stored in the following format: 
 ^date-time
@@ -219,7 +227,7 @@ With the [[Daily notes]] plugin enabled, the date property will additionally fun
 
 ![[Daily notes#^daily-notes-date]]
 
-### JSON Properties
+### JSON properties
 
 While we recommend using YAML to define properties, you can also define properties using [JSON](https://www.json.org/):
 
@@ -244,9 +252,9 @@ Obsidian comes with a set of default properties:
 | `aliases`    | List | See [[Aliases]].                                             |
 | `cssclasses` | List | Allows you to style individual notes using [[CSS snippets]]. |
 
-## Properties for Obsidian Publish
+### Properties for Obsidian Publish
 
-The following properties can be used with [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following default properties can be used with [[Introduction to Obsidian Publish|Obsidian Publish]]:
 
 | Property      | Description                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -256,7 +264,7 @@ The following properties can be used with [[Introduction to Obsidian Publish|Obs
 | `image`       | See [[Social media link previews#Image\|Image]].                                                           |
 | `cover`       | See [[Social media link previews#Image\|Image]].                                                           |
 
-## Deprecated properties
+### Deprecated properties
 
 These properties were deprecated in Obsidian 1.4 and should be replaced with their modern equivalents. Support for them as [[#Default properties]] is dropped in Obsidian 1.9.
 
