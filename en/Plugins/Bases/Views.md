@@ -7,7 +7,7 @@ For example, you may want to create a base called "Books" that has separate view
 
 ## Layout
 
-Currently, bases can be displayed as a **table** or **cards**. In the future more layout types will be added. See [[Bases roadmap]].
+Currently, bases can be displayed as a **table** or **cards**. In the future more layout types will be added. See [roadmap](https://obsidian.md/roadmap/).
 
 Current layout options:
 
