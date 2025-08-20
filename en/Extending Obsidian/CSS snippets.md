@@ -63,22 +63,29 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > ```
 
 > [!example] CSSclasses
-> With a [[Properties|property]] name `cssclasses` with any value to make one or more notes look different from others.
+> Define a class with any name inside your CSS file. In this example our class is called `no-inline`:
 > 
-> **CSS**:
+> `.css`:
+> 
 > ```css
 > .no-inline .inline-title {
 >    display: none;
 > }
 > ```
 > 
-> **YAML/Properties**:
-> ```yaml
+> You can append the [[properties#default-properties|`cssclasses` property]] to the frontmatter of any note:
+>
+> **YAML/Properties** in `.md`:
+> 
+> ```md
+> ---
 > cssclasses:
->  - homepage
+>  - no-inline
+> ---
+> # My altered title
 > ```
 > 
-> This hides the inline title from any note with this property and value.
+> This example hides the `inline-title` from any note defined as `no-inline`.
 
 To ensure that the CSS file is valid and formatted correctly, we advise creating and editing it with a program like [Visual Studio Code](https://visualstudio.microsoft.com/) or [Sublime Text](https://www.sublimetext.com/), as invalid CSS will not work.
 
