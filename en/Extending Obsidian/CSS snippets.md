@@ -65,7 +65,7 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > [!example] CSSclasses
 > Define a class with any name inside your CSS file. In this example our class is called `no-inline`:
 > 
-> `.css`:
+> **CSS**:
 > 
 > ```css
 > .no-inline .inline-title {
