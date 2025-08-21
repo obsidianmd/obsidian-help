@@ -21,7 +21,7 @@ In the [[Command palette]], select **Open current tab in new window**.
 
 **Tab:**
 
-Right-click a tab and select **Move to new window**. Alternatively, select **More options** ( ![[lucide-ellipsis-vertical.svg#icon]] ) in the upper-right corner of the editor, then choose **Move to new window**.
+Right-click a tab and select **Open in new window**. Alternatively, select **More options** ( ![[lucide-ellipsis-vertical.svg#icon]] ) in the upper-right corner of the editor, then choose **Open in new window**.
 
 > [!tip] You can also right-click a link in the editor and select **Open in new window**.
 
@@ -37,4 +37,4 @@ In the [[Command palette]], select **Move current tab in new window**.
 
 **Tab:**
 
-Drag the tab to a tab group in the destination window. Alternatively, right-click a tab or select **More options** ( ![[lucide-ellipsis-vertical.svg#icon]] ) in the upper-right corner of the editor, then choose **Open in new window**.
+Drag the tab to a tab group in the destination window. Alternatively, right-click a tab or select **More options** ( ![[lucide-ellipsis-vertical.svg#icon]] ) in the upper-right corner of the editor, then choose **Move to new window**.
