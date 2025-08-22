@@ -31,4 +31,15 @@ If you are on the [[Plans and storage limits|Standard Plan]], you will also need
 ![[Set up Obsidian Sync#Create a new remote vault]]
 ![[Set up Obsidian Sync#Connect to a remote vault]]
 
-Additionally, you can [[#Delete a remote vault|delete your old remote vault]] once you have confirmed transition to your new remote vault and its region. 
+Additionally, you can [[#Delete a remote vault|delete your old remote vault]] once you have confirmed transition to your new remote vault and its region.
+
+## Upgrade Sync encryption
+
+Obsidian occasionally upgrades Sync encryption to maintain the highest [[Obsidian Sync/Security and privacy|security]] standards. If an encryption upgrade is available you will see an option titled **Upgrade vault encryption** in **Obsidian Settings → Sync**.
+
+Once you re-upload your data with the new encryption, all other devices will need to re-connect to the new Sync vault. Note that all devices must be using an Obsidian app version that supports the Sync encryption you are migrating to.
+
+| Sync version | Minimum app version |
+| ------------ | ------------------- |
+| 2025-08-22   | 1.9.0               |
+| 2020-12-07   | 0.9.21              |
