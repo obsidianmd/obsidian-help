@@ -35,7 +35,7 @@ Additionally, you can [[#Delete a remote vault|delete your old remote vault]] on
 
 ## Upgrade Sync encryption
 
-Obsidian occasionally upgrades Sync encryption to maintain the highest [[Obsidian Sync/Security and privacy|security]] standards. If an encryption upgrade is available you will see an option titled **Upgrade vault encryption** in **Obsidian Settings → Sync**.
+Obsidian occasionally upgrades Sync encryption to maintain the highest [[Obsidian Sync/Security and privacy|security]] standards. If an encryption upgrade is available you will see an option titled **Upgrade vault encryption** in **Obsidian Settings → Sync**. In this process you can also update your Sync region.
 
 Once you re-upload your data with the new encryption, all other devices will need to re-connect to the new Sync vault. Note that all devices must be using an Obsidian app version that supports the Sync encryption you are migrating to.
 
