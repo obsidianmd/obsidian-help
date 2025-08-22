@@ -41,5 +41,5 @@ Once you re-upload your data with the new encryption, all other devices will nee
 
 | Sync version | Minimum app version |
 | ------------ | ------------------- |
-| 2025-08-22   | 1.9.0               |
+| 2025-08-22   | 1.8.3               |
 | 2020-12-07   | 0.9.21              |
