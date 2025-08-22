@@ -39,7 +39,7 @@ Obsidian occasionally upgrades Sync encryption to maintain the highest [[Obsidia
 
 Once you re-upload your data with the new encryption, all other devices will need to re-connect to the new Sync vault. Note that all devices must be using an Obsidian app version that supports the Sync encryption you are migrating to.
 
-| Sync version | Minimum app version |
-| ------------ | ------------------- |
-| 2025-08-22   | 1.8.3               |
-| 2020-12-07   | 0.9.21              |
+| Sync version                                                            | Minimum app version |
+| ----------------------------------------------------------------------- | ------------------- |
+| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 1.8.3               |
+| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0.9.21              |
