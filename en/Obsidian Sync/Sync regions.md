@@ -32,6 +32,5 @@ To change your remote vault's region, you will need to recreate your vault on a 
 If you are on the [[Plans and storage limits|Standard Plan]], you will also need to [[#Delete a remote vault|delete your remote vault]] before proceeding.
 
 ![[Set up Obsidian Sync#Create a new remote vault]]
-![[Set up Obsidian Sync#Connect to a remote vault]]
 
 Additionally, you can [[#Delete a remote vault|delete your old remote vault]] once you have confirmed transition to your new remote vault and its region.

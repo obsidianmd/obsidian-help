@@ -23,7 +23,7 @@ All new vaults automatically use the latest encryption. Existing vaults can be u
 
 ## Upgrade encryption with the migration assistant
 
-Before you proceed, create a [[Back up your Obsidian files|backup]] of your vault before upgrading to prevent any potential data loss. This process will permanently delete all data encrypted with the old encryption, including the version history for your vault.
+Before you proceed, create a [[Back up your Obsidian files|backup]] of your vault before upgrading to prevent any potential data loss. This process will permanently delete all data in your remote vault with the old encryption, including the version history.
 
 > [!danger] Migrations are destructive
 > 
@@ -36,6 +36,9 @@ Before you proceed, create a [[Back up your Obsidian files|backup]] of your vaul
 
 1. Open **Settings**.
 2. In the sidebar, select **Sync**.
-3. Click **Upgrade vault encryption**. This option will only be visible if an upgrade is available for your remote vault.
-4. Follow the steps to create the new remote vault with upgraded encryption. In this process you can also update your [[Sync regions|Sync region]].
-5. Once you re-upload your data with the new encryption, re-connect to the new Sync vault on your other devices.
+3. Click **Upgrade vault**. This option will only be visible if an upgrade is available for your remote vault.
+4. Double check your backups and click **Continue**.
+5. In **Vault name**, enter the name of the remote vault.
+6. In **Region**, choose your server [[#Regional sync servers|region]] for your remote vault. 
+7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
+8. Once you re-upload your data with the new encryption, re-connect to the new Sync vault on your other devices.
