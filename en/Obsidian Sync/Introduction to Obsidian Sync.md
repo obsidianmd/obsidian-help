@@ -35,7 +35,7 @@ publish: true
 - [[Back up your Obsidian files]]
 	- Back up your vault using third-party tools.
 - [[Sync regions]]
-	- Change the region of you Sync vault.
+	- Move your Sync vault to a different regional server.
 - [[Troubleshoot Obsidian Sync]]
 	- Common syncing issues and solutions.
 
