@@ -171,7 +171,7 @@ If you're unsure where your current vault's region is, check out [[Obsidian Sync
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
-After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Migrate a Sync vault|follow vault migration guide]].
+After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Sync regions|follow vault Sync regions guide]].
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 

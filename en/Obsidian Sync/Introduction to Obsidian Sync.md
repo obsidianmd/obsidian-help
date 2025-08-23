@@ -34,6 +34,8 @@ publish: true
 	- Add team members to a shared vault.
 - [[Back up your Obsidian files]]
 	- Back up your vault using third-party tools.
+- [[Sync regions]]
+	- Move your Sync vault to a different regional server.
 - [[Troubleshoot Obsidian Sync]]
 	- Common syncing issues and solutions.
 
