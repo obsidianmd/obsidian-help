@@ -10,7 +10,7 @@ When you create a [[Local and remote vaults|remote vault]] through [[Introductio
 
 ## Available regions
 
-The following regions are available with Obsidian Sync. We recommend using **Automatic** or choosing a location close to you to reduce latency.
+The following regions are available with Obsidian Sync. We recommend using **Automatic** or choosing a location close to you to reduce latency and make the syncing process faster.
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 
