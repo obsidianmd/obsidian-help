@@ -73,7 +73,7 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 
 Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provide geo-regional remote vault hosting options in the following locations:
 
-> [!abstract] Sync geo-regions
+> [!abstract] Sync regions
 > **Automatic**: Your data center is chosen based on your IP location.
 > 
 > **Asia**: Singapore
