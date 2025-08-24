@@ -23,7 +23,7 @@ All new vaults automatically use the latest encryption. Existing vaults can be u
 
 ## Upgrade encryption with the migration assistant
 
-Before you proceed, create a [[Back up your Obsidian files|backup]] of your vault before upgrading to prevent any potential data loss. This process will permanently delete all data in your remote vault with the old encryption, including the version history.
+Before you proceed, create a [[Back up your Obsidian files|backup]] of your vault to prevent any potential data loss. This process will permanently delete all data in your remote vault with the old encryption, including the version history.
 
 > [!danger] Migrations are destructive
 > 
