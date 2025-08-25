@@ -29,8 +29,6 @@ To wrap existing content in a callout, select the text (including lists, code bl
 
 In [[Views and editing mode#Live Preview|Live Preview]], you can also right-click the callout name to change the callout type.
 
-> [!note] Do you use the Admonitions plugin?
-> If you're also using the Admonitions plugin, you should update it to at least version **8.0.0** to avoid problems with the new callout feature.
 
 ### Change the title
 
@@ -54,7 +52,7 @@ You can even omit the body to create title-only callouts:
 
 ### Foldable callouts
 
-You can make a callout foldable by adding a plus (+) or a minus (-) directly after the type identifier.
+You can make a callout foldable by adding a plus (`+`) or a minus (`-`) directly after the type identifier.
 
 A plus sign expands the callout by default, and a minus sign collapses it instead.
 
@@ -113,7 +111,7 @@ The value of the `data-callout` attribute is the type identifier you want to use
 
 You can use several callout types and aliases. Each type comes with a different background color and icon.
 
-To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`. Callout types can also be changed by right-clicking a callout.
+To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`. Callout types can also be changed by right-clicking a callout in Live Preview mode.
 
 Unless you [[#Customize callouts]], any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
 
