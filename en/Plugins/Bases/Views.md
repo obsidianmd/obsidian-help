@@ -22,7 +22,9 @@ Each layout type provides its own configuration options and actions. To see a vi
 
 ### Table
 
-Table does not have any specific view configuration.
+#### Row height
+
+If you want to display more information per row, you can change the row height in the view settings. Choose between short, medium, tall, and extra tall.
 
 ### Cards
 

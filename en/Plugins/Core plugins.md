@@ -21,7 +21,7 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 - [[Backlinks]]
 	- See all the links and unlinked mentions of a note.
 - [[Introduction to Bases|Bases]]
-	- Turn a set of notes into a powerful database.
+	- Create custom views that let you edit, sort, and filter files using their properties.
 - [[Bookmarks]]
 	- Save links to notes, headings, searches, and more.
 - [[Canvas]]
