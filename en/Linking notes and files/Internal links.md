@@ -176,4 +176,4 @@ For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 la
 > [!note]
 > To preview linked files, you first need to enable [[Page preview]].
 
-To preview a linked file, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
+To preview a linked file, hover over an internal link. While in editing mode, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
