@@ -16,10 +16,10 @@ Obsidian occasionally upgrades Sync encryption to maintain the highest [[Obsidia
 
 All new vaults automatically use the latest encryption. Existing vaults can be upgraded using the migration assistant. Note that all devices must be using an Obsidian app version that supports the Sync encryption version you are migrating to.
 
-| Sync version                                                            | Minimum app version |
-| ----------------------------------------------------------------------- | ------------------- |
-| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 1.8.3               |
-| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0.9.21              |
+| Release                                                                 | Sync version | Minimum app version |
+| ----------------------------------------------------------------------- | ------------ | ------------------- |
+| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 0            | 1.8.3               |
+| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 3            | 0.9.21              |
 
 ## Upgrade encryption with the migration assistant
 
