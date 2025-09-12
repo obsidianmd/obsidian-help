@@ -301,6 +301,8 @@ String literals are supported and automatically wrapped in an object with a `str
 
 Combine `map` with the `template` filter, e.g. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`.
 
+Note: Built-in filters cannot be used inside `map`. This means that, for example, trimming each value of an array cannot be done with `map`.
+
 ### `merge`
 
 Adds new values to an array.
