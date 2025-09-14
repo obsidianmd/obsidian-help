@@ -4,6 +4,7 @@ aliases:
   - Bases
 cssclasses:
   - list-cards
+  - list-cards-mobile-full
 description: Create database-like views of your notes, formatted as tables or cards. Edit, sort, and filter files using their properties.
 ---
 Bases is a [[Core plugins|core plugin]] that lets you create database-like views of your notes. Using a base you can view, edit, sort, and filter files and their [[Properties|properties]]. Bases can help you organize everything from projects to travel plans, reading lists, and more.
