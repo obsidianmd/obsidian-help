@@ -7,15 +7,17 @@ Obsidian allows you to easily migrate your notes from Notion using the [[Importe
 
 To prepare your data for import, you will need to export your entire workspace using Notion's HTML export format. We recommend that you do not use Notion's Markdown export as it omits important data. You must have admin access to the Notion workspace to export all workspace content.
 
-1. Go to **Settings & members** at the top of your left-hand sidebar.
-2. Select **Settings** in the sidebar of that window.
-3. Scroll down and select the **Export all workspace content** button.
+1. Go to **Settings** at the top of the Notion sidebar.
+2. Under **Workspace** select **General**.
+3. Find and select **Export all workspace content**.
 4. Under **Export format** select **HTML**.
-5. Enable **Include subpages**
-6. Enable **Create folders for subpages**
+5. Choose **Include everything**.
+6. Enable **Create folders for subpages**.
 7. You will receive a `.zip` file via email or directly in the browser.
 
 ![[notion-export.png#interface]]
+
+![[notion-export-2.png#interface]]
 
 ## Import your Notion data into Obsidian
 
