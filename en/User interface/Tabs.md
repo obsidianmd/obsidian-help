@@ -42,7 +42,7 @@ Tabs in sidebars only show the icon. Hover over the icon to show a tooltip with 
 
 To change the order of your tabs, drag the tab along the tabs in the tab group.
 
-As you drag a tab, _drop zones_—areas onto which you can move the tab—become highlighted. The drop zone determines where to insert the tab. Some tabs can only be in of the sidebars.
+As you drag a tab, _drop zones_—areas onto which you can move the tab—become highlighted. The drop zone determines where to insert the tab. Some tabs can only be in one of the sidebars.
 
 ### Split a tab group
 
