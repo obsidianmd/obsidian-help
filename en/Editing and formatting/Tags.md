@@ -35,7 +35,7 @@ Create nested tags by using forward slashes (`/`) in the tag name, for example `
 
 - In [[Search]], `tag:inbox` will match `#inbox` as well as all nested tags such as `#inbox/to-read`.  
 - In the [[Tags view]], nested tags are shown as belonging to their parent tag.  
-- In [[Bases]], nested tags are recognized by the [[Bases/Functions#hasTag|`hasTag`]] function, so `file.hasTag("a")` will match both `#a` and `#a/b`.  
+- In [[Introduction to Bases|Bases]], nested tags are recognized by the [[Bases/Functions#hasTag|`hasTag`]] function, so `file.hasTag("a")` will match both `#a` and `#a/b`.  
 
 ## Tag format
 
