@@ -94,7 +94,7 @@ A block is a unit of text in your note, such as a paragraph, block quote, or lis
 
 You can link to a block by adding `#^` at the end of your link destination, followed by a unique block identifier. For example: `[[2023-01-01#^37066d]]`. Fortunately, you don't need to manually find the identifier—when you type the caret (`^`), a list of suggestions will appear, allowing you to select the correct block.
 
-For *simple paragraphs*, place the block identifier at the end of the line:
+For *simple paragraphs*, place a blank space followed by a caret `^` and the block identifier at the end of the line:
 
 ```md
 The quick purple gem dashes through the paragraph with blazing speed. Pen in hand and a paperclip in the other, Gemmy works toward her goal of making the world of note-taking a happier place. ^37066d
@@ -128,7 +128,7 @@ You can also search for blocks to link to from across your vault using the `[[^
 > [!info]- Screenshot of searching for a block link 
 > ![[link-block-heading.png#interface]]
 
-You can also create human-readable block identifiers by adding a blank space followed by the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
+You can also create human-readable block identifiers by adding a blank space followed by a caret (`^`) and the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
 
 For example, add `^quote-of-the-day` at the end of a block:
 
@@ -147,7 +147,7 @@ By default, Obsidian will show the link text as it appears. For example:
 - `[[Example]]` displays as [[Example]]  
 - `[[Example#Details]]` displays as [[Example#Details]]
 
-You can change how a link is displayed by customising its link text:
+You can change how a link is displayed by customizing its link text:
 
 **Wikilink format**:  
 Use a vertical bar (`|`) to change the display text.
@@ -156,7 +156,7 @@ Use a vertical bar (`|`) to change the display text.
 - `[[Example#Details|Section name]]` appears as [[Example#Details|Section name]]
 
 **Markdown format**:  
-Use `[Display text](Link URL)` to customise how the link appears.
+Use `[Display text](Link URL)` to customize how the link appears.
 
 - `[Custom name](Example.md)` appears as [Custom name](Example.md)  
 - `[Section name](Example.md#Details)` appears as [Section name](Example.md#Details)
@@ -166,7 +166,7 @@ This method is helpful for one-off situations where you want to change how a lin
 For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 laws]]`, adding "3 laws" as an alias allows you to type just that—no need to add custom display text each time.
 
 > [!tip]
-> Use [[#Change the link display text|link display text]] when you want to customise how a link looks *in a specific place*.  
+> Use [[#Change the link display text|link display text]] when you want to customize how a link looks *in a specific place*.  
 > 
 > Use [[Aliases|aliases]] when you want to refer to the same note using *different names* throughout your vault.
 ^callout-internal-links-link-text
@@ -176,4 +176,4 @@ For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 la
 > [!note]
 > To preview linked files, you first need to enable [[Page preview]].
 
-To preview a linked file, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
+To preview a linked file, hover over an internal link. While in editing mode, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
