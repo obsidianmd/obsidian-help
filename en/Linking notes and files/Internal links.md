@@ -94,7 +94,7 @@ A block is a unit of text in your note, such as a paragraph, block quote, or lis
 
 You can link to a block by adding `#^` at the end of your link destination, followed by a unique block identifier. For example: `[[2023-01-01#^37066d]]`. Fortunately, you don't need to manually find the identifier—when you type the caret (`^`), a list of suggestions will appear, allowing you to select the correct block.
 
-For *simple paragraphs*, place the block identifier at the end of the line:
+For *simple paragraphs*, place a blank space followed by a caret `^` and the block identifier at the end of the line:
 
 ```md
 The quick purple gem dashes through the paragraph with blazing speed. Pen in hand and a paperclip in the other, Gemmy works toward her goal of making the world of note-taking a happier place. ^37066d
@@ -128,7 +128,7 @@ You can also search for blocks to link to from across your vault using the `[[^
 > [!info]- Screenshot of searching for a block link 
 > ![[link-block-heading.png#interface]]
 
-You can also create human-readable block identifiers by adding a caret (`^`) followed by the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
+You can also create human-readable block identifiers by adding a blank space followed by a caret (`^`) and the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
 
 For example, add `^quote-of-the-day` at the end of a block:
 
