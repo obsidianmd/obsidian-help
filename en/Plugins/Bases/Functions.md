@@ -510,6 +510,7 @@ Functions you can use with file in the vault.
 - `values` are one or more tag names.
 - Returns true if the file has any of the tags in `values`.
 - Example: `file.hasTag("tag1", "tag2")` returns `true` if the file has either tag.
+- Example: `file.hasTag("#A")` returns `true` if the file has tag `#a` or any subtag (e.g. `#a/b`).
 
 ### `inFolder()`
 
