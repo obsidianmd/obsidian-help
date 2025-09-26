@@ -541,6 +541,8 @@ The following fields are available for files:
 | `file.properties` | `object` | The note properties for this file.                      |
 | `file.tags`       | `list`   | The tags for this file. Includes inline tags.           |
 | `file.links`      | `list`   | The internal links within this file.                    |
+| `file.ctime`      | `date`   | Timestamp of when this file was created.                |
+| `file.mtime`      | `date`   | Timestamp of when this file was last modified.          |
 
 ### `asLink()`
 
