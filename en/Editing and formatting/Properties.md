@@ -189,7 +189,7 @@ pie: 3.14
 
 ### Checkboxes
 
-Checkbox type properties are either `true` or `false`. An empty property will be treated as `false`. In Live Preview, this will be represented as a checkbox.
+Checkbox type properties are either `true` or `false`. In Live Preview, this will be represented as a checkbox.
 ^checkbox
 
 ```yaml
