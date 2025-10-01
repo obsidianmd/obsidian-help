@@ -32,24 +32,21 @@ Once you choose the property name, you can give it a value.
 
 ### Property types
 
-In addition to a name and value, properties also have a _type_. A property's type determines what kind of values it can store and how Obsidian handles them. To change the type of a property, click the type icon next to the property name and select a different option. You can also manage property types using the [[Properties view]] core plugin.
+In addition to a name and value, properties also have a _type_. A property's type determines what kind of values it can store and how Obsidian handles them. To change the type of a property, click the type icon next to the property name and select a different option. You can also manage property types using the [[Properties view]] core plugin.
 
 Obsidian supports the following property types:
 
-- **[[#^text-list|Text]]**
-- **[[#^text-list|List]]**
-- **[[#^numbers|Number]]**
-- **[[#^checkbox|Checkbox]]**
-- **[[#^date-time|Date]]**
-- **[[#^date-time|Date & time]]**
+- **[[#Text]]**
+- **[[#List]]**
+- **[[#Number]]**
+- **[[#Checkbox]]**
+- **[[#Date]]**
+- **[[#Date & time]]**
+- **[[#Tags]]**
 
 Once a property type is assigned to a property name, all properties with that name across your vault will use the same type.
 
 ## Advanced uses
-
-### Links
-
-**Text** and **List** type properties can contain URLs and [[Internal links]] using the `[[Link]]` syntax.
 
 ### Search properties
 
@@ -69,9 +66,9 @@ You can rename a property by right-clicking it in the [[Properties view|All prop
 
 You can change how properties are displayed in your note by going to  **Settings → Editor → Properties in document**. The options are:
 
-- **Visible** (default) — displays properties at the top of the note, if there are any.
-- **Hidden** — hides properties, can still be displayed in the sidebar via [[Properties view]].
-- **Source** — displays properties in plain text YAML format.
+- **Visible** (default) – displays properties at the top of the note, if there are any.
+- **Hidden** – hides properties, can still be displayed in the sidebar via [[Properties view]].
+- **Source** – displays properties in plain text YAML format.
 
 ### CSS snippets
 
@@ -84,6 +81,7 @@ A few features are not currently supported in Obsidian:
 - **Nested properties**: To view nested properties, we recommend using the [[Views and editing mode#Source mode|source mode]].
 - **Bulk-editing properties**: For in-depth bulk editing outside of [[Properties view]], we recommend using bulk-editing tools like VSCode, scripts, and community plugins.
 - **Markdown in properties**: This is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
+
 ## Hotkeys
 
 ### Add a property
@@ -147,38 +145,43 @@ name: value
 
 While the order of each name-value pair doesn't matter, each name must be unique within a note. For example, you can't have more than one `tags` property.
 
-Values can be text, numbers, true or false, or even collections of values (lists).
-^text-list
+Values can be [[#Text|text]], [[#Number|numbers]], [[#Checkbox|checkboxes]], [[#Date|dates]], [[#Date & time|dates and times]], or [[#List|lists]].
+
+### Text
+
+Text properties contain a single line of text. Markdown formatting is not rendered in text properties. Hashtags do not create tags when used in text properties.
+
+Text properties can contain URLs and [[Internal links]] using the `[[Link]]` syntax. [[Internal links]] in text properties must be surrounded with quotes. Obsidian will automatically add these if you manually enter internal links into properties, but be careful to add them when using templating plugins.
 
 ```yaml
 ---
-title: A New Hope # This is a text property
-year: 1977
-favorite: true
-cast: # This is a list property
-  - Mark Hamill
-  - Harrison Ford
-  - Carrie Fisher
+title: A New Hope
+link: "[[Episode IV]]"
+url: https://www.example.com
 ---
 ```
 
-### Links
+### List
 
-[[Internal links]] in **Text** and **List** type properties must be surrounded with quotes. Obsidian will automatically add these if you manually enter internal links into properties, but be careful to add them when using templating plugins.
+List properties contain multiple values. Each value in a list appears on its own line, preceded by a hyphen (-) and a space.
+
+List values can contain text, numbers, and [[Internal links]]. When using [[Internal links]] in list properties, surround them with quotes.
 
 ```yaml
 ---
-link: "[[Link]]" 
-linklist: 
+cast: 
+  - Mark Hamill
+  - Harrison Ford
+  - Carrie Fisher
+links:
   - "[[Link]]" 
   - "[[Link2]]"
 ---
 ```
 
-### Numbers
+### Number
 
 Number type properties must always be a literal number, not an expression with operators. Integers and decimals are both allowed.
-^numbers
 
 ```yaml
 ---
@@ -187,27 +190,24 @@ pie: 3.14
 ---
 ```
 
-### Checkboxes
+### Checkbox
 
-Checkbox type properties are either `true` or `false`. In Live Preview, this will be represented as a checkbox.
-^checkbox
+Checkbox properties are either `true` or `false`. In Live Preview, this displays as a checkbox.
 
 ```yaml
 ---
 favorite: true
 reply: false
-last: # this will default to false
+last: # Inderminate value; often treated as false
 ```
 
-### Dates
+### Date
 
-**Date** and **Date & time** type properties are stored in the following format: 
-^date-time
+Date properties are stored in the following format: 
 
 ```yaml
 ---
 date: 2020-08-21
-time: 2020-08-21T10:30:00
 ---
 ```
 
@@ -226,6 +226,35 @@ The date picker follows your operating system's default date and time format. Yo
 With the [[Daily notes]] plugin enabled, the date property will additionally function as an internal link to the corresponding daily note for that date.
 
 ![[Daily notes#^daily-notes-date]]
+
+### Date & time
+
+Date & time properties include both a date and a specific time, stored in the following format:
+
+```yaml
+---
+time: 2020-08-21T10:30:00
+---
+```
+
+Like [[#Date|date properties]], the date and time picker follows your operating system's default format. You can change it in your system preferences.
+
+### Tags
+
+Tags properties are a special property type used exclusively by the `tags` property. This property type cannot be assigned to other properties.
+
+Tags properties are formatted as a list, with each tag on its own line preceded by a hyphen (-) and a space. 
+
+```yaml
+---
+tags: 
+  - journal
+  - personal
+  - draft
+---
+```
+
+The `tags` property is one of Obsidian's [[#Default properties]]. See [[Tags]] for more information about using tags in Obsidian.
 
 ### JSON properties
 
@@ -275,4 +304,3 @@ These properties were deprecated in Obsidian 1.4 and should be replaced with the
 | `cssclass` | Deprecated alias for `cssclasses`. |
 
 > [!tip] If you need to convert your files in your vault to the [[#Default properties]] format, you can use [[Format converter]] to change your vault en masse.
-
