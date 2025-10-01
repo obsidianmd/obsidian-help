@@ -20,8 +20,8 @@ Obsidian can automatically update internal links in your vault when you rename a
 
 Obsidian supports the following link formats:
 
-- Wikilink: `[[Three laws of motion]]`
-- Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
+- Wikilink: `[[Three laws of motion]]` (or with explicit extension `[[Three laws of motion.md]]`)
+- Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` (or with explicit extension `[Three laws of motion](Three%20laws%20of%20motion.md)`)
 
 The examples above are equivalent—they appear the same way in the editor, and links to the same note.
 
