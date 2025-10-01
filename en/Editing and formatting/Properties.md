@@ -42,6 +42,7 @@ Obsidian supports the following property types:
 - **[[#Checkbox]]**
 - **[[#Date]]**
 - **[[#Date & time]]**
+- **[[#Tags]]**
 
 Once a property type is assigned to a property name, all properties with that name across your vault will use the same type.
 
@@ -237,6 +238,23 @@ time: 2020-08-21T10:30:00
 ```
 
 Like [[#Date|date properties]], the date and time picker follows your operating system's default format. You can change it in your system preferences.
+
+### Tags
+
+Tags properties are a special property type used exclusively by the `tags` property. This property type cannot be assigned to other properties.
+
+Tags properties are formatted as a list, with each tag on its own line preceded by a hyphen (-) and a space. 
+
+```yaml
+---
+tags: 
+  - journal
+  - personal
+  - draft
+---
+```
+
+The `tags` property is one of Obsidian's [[#Default properties]]. See [[Tags]] for more information about using tags in Obsidian.
 
 ### JSON properties
 
