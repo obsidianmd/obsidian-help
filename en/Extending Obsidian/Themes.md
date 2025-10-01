@@ -3,13 +3,13 @@ aliases:
   - How to/Add custom styles
 permalink: themes
 ---
+
 Learn how to change the look and feel of Obsidian using themes built by the community.
 
 ## Browse themes
 
 1. Open **Settings**.
-2. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode]].
-3. Select **Browse** to list all available community plugins.
+2. Select **Browse** to list all available community themes.
 
 ## Install a new theme
 
