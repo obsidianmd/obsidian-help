@@ -9,7 +9,7 @@ Learn how to modify aspects of the Obsidian application's appearance without nee
 
 > [!tip] If you're looking for guidance on handling CSS for [[Introduction to Obsidian Publish|Obsidian Publish]], be sure to review [[Customize your site]].
 
-CSS is a language that controls how HTML looks. By adding CSS snippets, you can change parts of the Obsidian user interface, like the size and color of headings. Obsidian has [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) that help you customise the interface easily.
+CSS is a language that controls how HTML looks. By adding CSS snippets, you can change parts of the Obsidian user interface, like the size and color of headings. Obsidian has [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) that help you customize the interface easily.
 
 Obsidian looks for CSS snippets inside the vault's [[Configuration folder|configuration folder]].
 
@@ -17,8 +17,8 @@ Obsidian looks for CSS snippets inside the vault's [[Configuration folder|config
 
 To add a CSS snippet on **Desktop** ![[lucide-monitor-check.svg#icon]], follow these steps:
 
-1. Open **Settings**.
-2. Under **Appearance → CSS snippets**, select **Open snippets folder** ( ![[lucide-folder-plus.svg#icon]] ).
+1. Open **Settings** ( ![[lucide-settings.svg#icon]] ).
+2. Under **Appearance → CSS snippets**, select **Open snippets folder** ( ![[lucide-folder-open.svg#icon]] ).
 3. In the snippets folder, create a CSS file that contains your snippet.
 4. In Obsidian, under **Appearance → CSS snippets**, select **Reload snippets** ( ![[lucide-refresh-cw.svg#icon]] ) to see the snippet in the list.
 5. Enable snippet by clicking the toggle.
@@ -28,14 +28,14 @@ To add a CSS snippet on **Mobile/Tablet** ![[obsidian-icon-smartphone.svg#icon]]
 1. Open a file manager and find your vault. You can check the vault’s location in _Manage vaults…_ by tapping your vault and looking at the path.
 2. Open the [[Configuration folder]] and create a folder called `snippets` if it doesn’t exist.
 3. Add your CSS snippet to this folder.
-4. Open Obsidian's **Settings** (![[lucide-cog.svg#icon]]).
+4. Open Obsidian's **Settings** ( ![[lucide-settings.svg#icon]] ).
 5. Select **Appearance** on the left.
 6. Scroll down to the **CSS snippets** section.
 7. Tap **Reload snippets** (![[lucide-refresh-cw.svg#icon]]) to refresh the list.
 8. Tap the toggle to enable the snippet.
 
 Alternately, you can
-- [[Sync your notes across devices|Sync]] any changes in with your syncing service.
+- [[Sync your notes across devices|Sync]] any changes with your syncing service.
 - Use a community plugin to create a snippet from within Obsidian. 
 
 Once enabled, Obsidian will automatically detect changes to CSS snippets and apply them when you save the file. 
@@ -62,25 +62,25 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > }
 > ```
 
-> [!example] CSSclasses
-> With a [[Properties|property]] name `cssclasses` with any value to make one or more notes look different from others.
+> [!example] CSS classes
+> Assign the name of a custom CSS class (or a list of CSS classes) to a predefined [[Properties|property]] `cssclasses` to make one or more notes look different from others.
 > 
 > **CSS**:
 > ```css
-> .no-inline .inline-title {
->    display: none;
+> .red-border img {
+>    border-color: #ff0000;
 > }
 > ```
 > 
 > **YAML/Properties**:
 > ```yaml
 > cssclasses:
->  - homepage
+>  - red-border
 > ```
 > 
-> This hides the inline title from any note with this property and value.
+> In every note that contains the value `red-border` in the `cssclasses` property, images are displayed with a red border.
 
-To ensure that the CSS file is valid and formatted correctly, we advise creating and editing it with a program like [Visual Studio Code](https://visualstudio.microsoft.com/) or [Sublime Text](https://www.sublimetext.com/), as invalid CSS will not work.
+To ensure that the CSS file is valid and formatted correctly, we advise validating it with a tool like [CSS Validation Service](https://jigsaw.w3.org/css-validator/), as invalid CSS will not work.
 
 ## Learn more
 
