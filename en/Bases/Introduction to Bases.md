@@ -2,6 +2,7 @@
 permalink: bases
 aliases:
   - Bases
+  - Base
 cssclasses:
   - list-cards
   - list-cards-mobile-full
@@ -20,8 +21,21 @@ All the data in Obsidian Bases is stored in your local [[Basic formatting syntax
 - [[Create a base]]
 	- Learn how to create and embed a base.
 - [[Views]]
-	- Explore filters, properties, and layouts.
+	- Explore layouts, filters, and properties.
 - [[Functions]]
 	- Functions you can use in formulas and filters.
 - [[Bases syntax]]
 	- How base files are formatted.
+
+## View types
+
+View can be displayed with different layouts. Additional layouts can be added by [[Community plugins]].
+
+- [[Table view|Table]]
+	- Display files as rows with columns that show properties of those files.
+- [[List view|List]]
+	- Display files as a list with bulleted or numbered markers.
+- [[Cards view|Cards]]
+	- Display files as a grid. Lets you create gallery-like views with images.
+- [[Map view|Map]]
+	- Display files as pins on an interactive map.

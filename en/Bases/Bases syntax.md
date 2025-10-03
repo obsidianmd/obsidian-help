@@ -5,7 +5,7 @@ aliases:
 ---
 When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
 
-The [[Introduction to Bases|Bases]] syntax defines [[views]], filters, and formulas. Bases must be valid YAML conforming to the schema defined below.
+The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and formulas. Bases must be valid YAML conforming to the schema defined below.
 
 ## Example
 
@@ -75,7 +75,7 @@ These two sections are functionally equivalent and when evaluating for a view th
 The `filters` section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of `and`, `or`, or `not`. These keys are a heterogeneous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:
 
 - A basic comparison using standard arithmetic operators.
-- A function. A variety of [[functions]] are built-in, and plugins can add additional functions.
+- A function. A variety of [[Functions]] are built-in, and plugins can add additional functions.
 
 The syntax and available functions for filters and formulas are the same.
 
@@ -89,7 +89,7 @@ formulas:
   ppu: "(price / age).toFixed(2)"
 ```
 
-Formula properties support basic arithmetic operators and a variety of built-in [[functions]]. In the future, plugins will be able to add functions for use in formulas.
+Formula properties support basic arithmetic operators and a variety of built-in [[Functions]]. In the future, plugins will be able to add functions for use in formulas.
 
 You can reference properties in different ways depending on their type:
 
