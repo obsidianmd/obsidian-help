@@ -1,7 +1,7 @@
 ---
 permalink: bases/create-base
 ---
-[[Introduction to Bases|Bases]] let you turn any set of notes into a powerful database. Here's how you can create a base and embed it in a note. Every base can have one or more [[Views|views]] to display information in different ways.
+[[Introduction to Bases|Bases]] let you create database-like views of your notes. Here's how you can create a base and embed it in a note. Every base can have one or more [[Views|views]] to display information in different ways.
 
 ## Create a new base
 

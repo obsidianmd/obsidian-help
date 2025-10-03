@@ -1,51 +1,36 @@
 ---
 permalink: bases/views
 ---
-Views allow you to organize the information in a [[Introduction to Bases|Base]] in multiple different ways. A base can contain several views, and each view can have a unique configuration to display, sort, and filter files.
+Views allow you to organize the information in a [[Introduction to Bases|Base]] in multiple ways. A base can contain several views, and each view can have a unique configuration to display, sort, and filter files.
 
-For example, you may want to create a base called "Books" that has separate views for "Reading list" and "Recently finished". The first view in your list of views will load by default. You can drag views by their icon to change their order.
+For example, you may want to create a base called "Books" that has separate views for "Reading list" and "Recently finished". The first view in your list of views will load by default. Drag views by their icon to change their order.
+
+## Add and switch views
+
+There are two ways to add a view to a base:
+
+- Click the view name in the top left and select **Add view**.
+- Use the [[command palette]] and select **Bases: Add view**.
+
+## View settings
+
+Each view has its own configuration options. To edit view settings:
+
+1. Click the view name in the top left.
+2. Click the right arrow next to the view you want to configure.
+
+Alternatively *right-click* the view name in the base's toolbar to quickly access the view settings.
 
 ## Layout
 
-Currently, bases can be displayed as a **table** or **cards**. In the future more layout types will be added. See [roadmap](https://obsidian.md/roadmap/).
+Views can be displayed with different layouts such as **table**, **list**, and **cards**. Additional layouts can be added by [[Community plugins]]. Some layouts are still being developed and require [[early access versions]] of Obsidian.
 
-Current layout options:
-
-- **Table layout** displays each file as a row in a table. Columns are populated from the [[Properties]] in your notes.
-- **Cards layout** displays each file as a card in a grid. The view settings allow you to optionally configure an image property, which can be an image URL or [[Attachments|attachment]] link.
-
-Each layout type provides its own configuration options and actions. To see a view's configuration options:
-
-1. Click the view name in the top left of the bases toolbar.
-2. Click the right arrow next to the current view.
-3. Choose **Configure view**.
-
-### Table
-
-#### Row height
-
-If you want to display more information per row, you can change the row height in the view settings. Choose between short, medium, tall, and extra tall.
-
-### Cards
-
-#### Image property
-
-Cards support an optional cover image, which is [[Properties|property]] that's displayed as an image at the top of the card. The property can be any of the following:
-
-- A link to a local attachment `"[[link/to/attachment.jpg]]"`
-- An external link (URL)
-- A hex color code (`#000000`)
-
-#### Image fit
-
-If you have an image property configured, this option will determine how the image should be displayed in the card.
-
-- **Cover:** The image fills the card's content box. If it does not fit, the image will be cropped.
-- **Contain:** The image is scaled until it fits within the card's content box. The image will not be cropped.
-
-#### Image aspect ratio
-
-The size of the cover image is determined based on its aspect ratio. The default aspect ratio is 1:1 meaning all your images will be square. Adjust this option to make the image wider or taller.
+| Layout                | Description                                                                                   | App&nbsp;version |
+| --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
+| [[Table view\|Table]] | Display files as rows in a table. Columns are populated from [[properties]] in your notes.    | 1.9              |
+| [[Cards view\|Cards]] | Display files as a grid of cards. Lets you create gallery-like views with images.             | 1.9              |
+| [[List view\|List]]   | Display files as a [[Basic formatting syntax#Lists\|list]] with bulleted or numbered markers. | 1.10             |
+| [[Map view\|Map]]     | Display files as pins on an interactive map.                                                  | 1.10             |
 
 ## Filters
 
@@ -58,7 +43,7 @@ Filters can be applied to all views in a base, or just a single view by choosing
 - **All views** applies filters to all views in the base.
 - **This view** applies filters to the active view.
 
-#### Properties, operators, values
+#### Components of a filter
 
 Filters have three components:
 
@@ -81,6 +66,8 @@ Filter groups allow you to create more complex logic by creating combinations on
 Click the code button ![[lucide-code-xml.svg#icon]] to use the **advanced filter** editor. This displays the raw [[Bases syntax|syntax]] for the filter, and can be used with more complex [[Functions|functions]] that cannot be displayed using the point-and-click interface.
 
 ## Limit, copy, and export results
+
+### Limit results
 
 The *results* menu shows the number of results in view. Click the results button to limit the number of results, and access additional actions.
 
