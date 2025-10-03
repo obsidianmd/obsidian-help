@@ -32,7 +32,7 @@ Here's what the code above means:
 | `icon`        | `landmark`               | The name of an icon from the [Lucide library](https://lucide.dev/).                                                                                  |
 | `color`       | `red`                    | A valid CSS value: hex, RGB, named color, etc.                                                                                                       |
 | `tags`        | `places`                 | The tag we'll use to find map markers in our base.                                                                                                   |
-Now create a map view with a filters for the tag `places` and set marker coordinates, icon, and color using the properties listed above. 
+Now create a map view with a filter for the tag `places` and set marker coordinates, icon, and color using the properties listed above. 
 
 You can also open these [example files](https://github.com/obsidianmd/obsidian-maps/tree/master/examples) in Obsidian to see working map views with markers, icons, and colors already configured.
 
@@ -68,23 +68,23 @@ If you store coordinates as separate `latitude` and `longitude` properties you c
 
 Add icons to markers by defining a **marker icons** property. For example, you can add a property called `icon` to your notes and give it values like `landmark` or `utensils` from Obsidian's built-in [Lucide library](https://lucide.dev/icons/).
 
-##### Using a formula to define icons
+##### Use a formula to define icons
 
-Let's say you want all *restaurants* in your base to have the same icon on the map.
+Let's say you want all restaurants to have the same icon on the map:
 
-1. Give notes in your base a property called `type` that links to a `[[Restaurants]]` note.
-2. In the **Restaurants** note, add a property called `icon` and set the value to `utensils`.
+1. Create a note called **Restaurants** and add a property called `icon` with the value `utensils`. 
+2. Give restaurant notes a property called `type` that links to the `[[Restaurants]]` note.
 3. Add a formula property called `Type icon` to your base with the following code:
 	```js
 	list(type)[0].asFile().properties.icon
 	```
-4. Choose the `Type icon` as your property in marker settings.
+4. Choose the `Type icon` as your marker icon in the view settings.
 
 Voilà! Now your map will display icons from the the *type* of the place, not the place itself.
 
 #### Colors
 
-Set the color of markers. Accepts values as RGB `rgb(0,0,0)`, HEX `#000`, or CSS variables like `var(--color-blue)`. Again you can use a formula property to define colors dynamically.
+Set the color of markers. Accepts values as RGB `rgb(0,0,0)`, HEX `#000`, or CSS variables like `var(--color-blue)`. Like in the icon example above you can use a formula property to define colors dynamically.
 
 ### Background
 
@@ -92,7 +92,7 @@ Set the color of markers. Accepts values as RGB `rgb(0,0,0)`, HEX `#000`, or CSS
 
 Map tiles are a standard way to display maps on the web. There are many services you can use to customize maps with unique styles, colors, and fonts. Maps support both raster and vector tiles, and accepts most tile URLs, including TileJSON URLs.
 
-[OpenFreeMap](https://openfreemap.org/) offers a few styles you can try for free. Use one of these URLs in the **Map tiles** setting.
+[OpenFreeMap](https://openfreemap.org/) offers a few styles you can try for free. Try using one of the following URLs in the **Map tiles** setting:
 
 | Name     | URL                                              |
 | -------- | ------------------------------------------------ |
