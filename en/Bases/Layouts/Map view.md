@@ -90,13 +90,17 @@ Set the color of markers. Accepts values as RGB `rgb(0,0,0)`, HEX `#000`, or CSS
 
 #### Map tiles
 
-Map tiles are a standard way to display maps on the web. There are many services you can use to customize maps with unique styles, colors, and fonts. Maps support both raster and vector tiles, and accepts most tile URLs, including TileJSON URLs.
+Map tiles are a standard way to display digital maps. There are several services you can use to customize maps with unique styles, colors, and fonts. Maps support both raster and vector tiles, and accepts most tile URLs, including TileJSON URLs.
 
-[OpenFreeMap](https://openfreemap.org/) offers a few styles you can try for free. Try using one of the following URLs in the **Map tiles** setting:
+[OpenFreeMap](https://openfreemap.org/) offers a few styles you can use for free. Try using one of the following URLs in the **Map tiles** setting:
 
 | Name     | URL                                              |
 | -------- | ------------------------------------------------ |
 | Dark     | `https://tiles.openfreemap.org/styles/dark`      |
 | Positron | `https://tiles.openfreemap.org/styles/positron`  |
 | Liberty  | ``https://tiles.openfreemap.org/styles/liberty`` |
-Other services include [MapTiler](https://www.maptiler.com/) and [Mapbox](https://www.mapbox.com/).
+#### Useful links
+
+- [Maputnik](https://maputnik.github.io/) for customizing map tiles.
+- [Protomaps](https://protomaps.com/) for self-hosting map tiles.
+- Other hosted services with free tiers include [MapTiler](https://www.maptiler.com/) and [Mapbox](https://www.mapbox.com/).
