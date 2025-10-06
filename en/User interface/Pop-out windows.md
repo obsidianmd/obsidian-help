@@ -37,4 +37,4 @@ In the [[Command palette]], select **Move current tab in new window**.
 
 **Tab:**
 
-Drag the tab to a tab group in the destination window. Alternatively, right-click a tab or select **More options** ( ![[lucide-ellipsis-vertical.svg#icon]] ) in the upper-right corner of the editor, then choose **Move to new window**.
+Drag the tab to a tab group in the destination window. Alternatively, right-click a tab and select **Move to new window**.
