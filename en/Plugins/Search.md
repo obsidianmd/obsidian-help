@@ -42,6 +42,10 @@ You can exclude a combination of expressions using parentheses:
 
 - `meeting -(work meetup)` returns files that contain `meeting` but not _both_ `work` and `meetup`.
 
+To filter results using the less than (`<`) and greater than (`>`) operators, surround them with square brackets (`[]`) or quotes (`""`):
+- `meeting [duration:<5]` returns files where meeting is present, and duration is less than 5.
+- `meeting [duration:>5]` returns files where meeting is present, and duration is greater than 5.
+
 > [!tip] Explain search term
 > If you need to troubleshoot a complex search term, you can click **Explain search term** in Search for an explanation of your search term.
 
@@ -147,4 +151,4 @@ embed OR search
 
 [[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded [[Publish limitations#Search|search results]]. To see a live rendered example, use the code block above within your vault.
 
-![[search-query-rendered.png#]]
+![[search-query-rendered.png]]
