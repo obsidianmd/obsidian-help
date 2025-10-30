@@ -187,14 +187,15 @@ For example, a filter `file.ext == "md"` will be true for all Markdown files and
 | `file.size`   | Number | File size                                                     |
 | `file.tags`   | List   | List of all tags in the file content and frontmatter          |
 
-### Access properties of the current file (and what the current file is)
-Obsidian offers the special object `this`, that takes different meaning depending on where the bases is displayed in the user interface:
+### Access the properties of the base, its embedding file, or the current file
 
-- If the bases is displayed in main content area by itself, `this` points to properties of the base file.  For example, `this.file.folder` will resolve to the folder path where the base file is located.
+Obsidian offers the special object `this` that takes a different meaning depending on where the base is displayed in the user interface:
 
-- If the bases is embedded in another file (e.g. in a note or in a cavas),  `this` can be used to access properties of the *embedding* file. For example, `this.file.name` will resolve to the name of the file which embeds the base file, instead of the bases itself.
+- If the base is opened in main content area by itself, `this` points to properties of the base file.  For example, `this.file.folder` will resolve to the folder path where the base is located.
 
-- If the bases is placed in a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, it can be used to replicate the backlinks pane with this filter: `file.hasLink(this.file)`.
+- If the base is embedded in another file (e.g. in a note or in a Canvas),  `this` can be used to access properties of the *embedding* file. For example, `this.file.name` will resolve to the name of the file which embeds the base, instead of the base itself.
+
+- If the bass is placed in a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, it can be used to replicate the backlinks pane with this filter: `file.hasLink(this.file)`.
 
 
 ## Operators
