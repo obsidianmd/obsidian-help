@@ -1,6 +1,11 @@
 ---
+aliases:
+description: File explorer is a core plugin that lets you manage files and folders inside your vault.
+mobile: false
 permalink: plugins/file-explorer
+publish: true
 ---
+
 File explorer is a [[Core plugins|core plugin]] that lets you manage files and folders inside your vault. You can browse notes and other [[Accepted file formats]] in your vault and perform many common file operations:
 
 - Create, delete, and rename files and folders.
@@ -36,6 +41,13 @@ To create a subfolder:
 
 1. Right-click the folder you want to create the subfolder in, and then click **New folder**.
 2. Type the name of the folder, and then press Enter.
+
+## Change sort order
+
+To change the sort order of your files:
+
+1.  Select **Change sort order** (![[lucide-arrow-up-narrow-wide.svg#icon]]) at the top of the File explorer.
+2. Choose how you want to sort your files. You can sort in ascending or descending order by file name, modified time, or created time.
 
 ## Delete a file or folder
 
