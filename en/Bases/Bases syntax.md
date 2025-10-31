@@ -1,8 +1,12 @@
 ---
-permalink: bases/syntax
 aliases:
   - Bases file format
+description: This page provides an introduction to Bases syntax in Obsidian.
+mobile: true
+permalink: bases/syntax
+publish: true
 ---
+
 When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
 
 The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and formulas. Bases must be valid YAML conforming to the schema defined below.
@@ -187,11 +191,15 @@ For example, a filter `file.ext == "md"` will be true for all Markdown files and
 | `file.size`   | Number | File size                                                     |
 | `file.tags`   | List   | List of all tags in the file content and frontmatter          |
 
-### Access properties of the current file
+### Access properties with `this`
 
-Embedded bases can use `this` to access properties of the current file. For example, `this.file.name` will resolve to the name of the file which has embedded the base, instead of the file being evaluated.
+Use the `this` object to access file properties. What `this` refers to, will depend on where the base is displayed. 
 
-In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `file.hasLink(this.file)`.
+When the base is opened in main content area, `this` points to properties of the base file itself. For example, using `this.file.folder` returns the folder path where the base is located.
+
+When the base is embedded in another file, `this` points to properties of the _embedding_ file (the note or Canvas that contains the base). For example, using `this.file.name` returns the name of the embedding file, not the base.
+
+When the base is in a sidebar, `this` refers to the active file in the main content area. This lets you create queries based on the active file. For example, you can use `file.hasLink(this.file)` to replicate the backlinks pane.
 
 ## Operators
 
