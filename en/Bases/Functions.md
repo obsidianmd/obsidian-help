@@ -26,12 +26,24 @@ Global functions are used without a type.
 - `date(string): date` parses the provided string and returns a date object.
 - The `date` string should be in the format `YYYY-MM-DD HH:mm:ss`.
 
+### `escapeHTML()`
+
+`escapeHTML(html: string): string`
+
+- Escapes special characters in a string to make it safe for inclusion in HTML.
+
 ### `file()`
 
 `file(path: string | file | url): file`
 
 - Returns a file object for the given file or path.
 - Example: `file(link("[[filename]]"))` or `file("path to file")`.
+
+### `html()`
+
+`html(html: string): html`
+
+- Converts a string into a code snippet that renders as HTML.
 
 ### `if()`
 
