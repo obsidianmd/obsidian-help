@@ -264,6 +264,13 @@ Functions you can use with a sequence of characters such as `"hello".`
 - If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
 - Example: `"a,b,c,d".replace(/,/, "-")` returns `"a-b,c,d"`, where as `"a,b,c,d".replace(/,/g, "-")` returns `"a-b-c-d"`.
 
+### `repeat()`
+
+`string.repeat(count: number): string`
+
+- `count` is the number of times to repeat the string.
+- Example: `"123".repeat(2)` returns `"123123"`
+
 ### `lower()`
 
 `string.lower(): string`
