@@ -15,9 +15,6 @@ Row height lets you display more information. Choose between **short**, **medium
 
 ## Shortcuts
 
-> [!info] Requires Obsidian 1.10
-> Keyboard navigation and shortcuts for table views require Obsidian 1.10 which is currently in [[Early access versions|early access]]. 
-
 Shift-click to create a cell selection. Right-click on the cell selection to get a context menu for the files.
 
 | Command                          | Description                                                                                                     |
