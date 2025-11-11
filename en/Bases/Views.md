@@ -65,6 +65,31 @@ Filter groups allow you to create more complex logic by creating combinations on
 
 Click the code button ![[lucide-code-xml.svg#icon]] to use the **advanced filter** editor. This displays the raw [[Bases syntax|syntax]] for the filter, and can be used with more complex [[Functions|functions]] that cannot be displayed using the point-and-click interface.
 
+## Sort and group results
+
+Open the ![[lucide-arrow-up-down.svg]] **Sort** menu to sort and group the results in a view.
+
+You can arrange results by one or more properties in ascending or descending order. This makes it easy to list notes by name, last edited time, or any other property — including formulas.
+
+You can also group results by a property to organize similar items into visually distinct sections. Currently, Obsidian supports grouping by only one property.
+
+### Add a sort
+
+1. Open the **Sort** menu at the top of the view.
+2. Choose the property you want to sort (or group) by.
+3. If you have multiple sorts, drag them up or down using the ![[lucide-grip-vertical.svg]] handle to change their priority.
+
+The options for ordering results depend on the property type:
+
+- **Text**: sort *alphabetically* (A→Z) or in *reverse alphabetical order* (Z→A).
+- **Number**: sort from *smallest to largest* (0→1) or *largest to smallest* (1→0).
+- **Date and time**: sort by *old to new*, or *new to old*.
+
+### Remove a sort
+
+1. Open the **Sort** menu at the top of the view.
+2. Click the ![[lucide-trash-2.svg]] button next to the sort or group you want to remove.
+
 ## Limit, copy, and export results
 
 ### Limit results
