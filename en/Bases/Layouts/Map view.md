@@ -6,7 +6,7 @@ Display files in a [[Introduction to Bases|Base]] as an interactive map with mar
 ![[bases-map-places.png#interface]]
 
 > [!info] Requires Obsidian 1.10 and the Maps plugin
-> Map views require Obsidian 1.10 which is currently in [[Early access versions|early access]].  The [Maps plugin](https://github.com/obsidianmd/obsidian-maps) is an official [[Community plugins|community plugin]] that you can download separately.
+> Map views require Obsidian 1.10. The [Maps plugin](https://github.com/obsidianmd/obsidian-maps) is an official [[Community plugins|community plugin]] that you can download separately.
 
 ## Example
 

@@ -3,9 +3,6 @@ permalink: bases/views/list
 ---
 Display files in a [[Introduction to Bases|Base]] as a [[Basic formatting syntax#Lists|list]] with bulleted or numbered markers.
 
-> [!info] Requires Obsidian 1.10
-> List views require Obsidian 1.10 which is currently in [[Early access versions|early access]]. 
-
 ## Settings
 
 List view settings can be configured in [[Views#View settings|View settings]].
