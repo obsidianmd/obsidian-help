@@ -441,6 +441,19 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - `index` is the index of the current value.
 - Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
 
+### `reduce()`
+
+`list.reduce(initial: any, expression: any): any`
+
+- `initial` is the starting value of the accumulator.
+- `expression` is evaluated for each element in the list and can use:
+	- `accumulator` — the value carried over from the previous step,
+	- `value` — the current list item,
+	- `index` — the index of the current item.
+- Returns a single value produced after processing all elements.
+- Example (sum): `[1,2,3].reduce(0, accumulator + value)` returns `6`.
+- Example (max): `values.filter(value.isType("number")).reduce(null, if(accumulator == null || value > accumulator, value, accumulator))` returns the largest number or `null` if none.
+
 ### `reverse()`
 
 `list.reverse(): list`
