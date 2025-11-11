@@ -443,16 +443,15 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
 ### `reduce()`
 
-`list.reduce(initial: any, expression: any): any`
+`list.reduce(expression: Any, acc: Any): Any`
 
-- `initial` is the starting value of the accumulator.
-- `expression` is evaluated for each element in the list and can use:
-	- `accumulator` — the value carried over from the previous step,
-	- `value` — the current list item,
-	- `index` — the index of the current item.
-- Returns a single value produced after processing all elements.
-- Example (sum): `[1,2,3].reduce(0, accumulator + value)` returns `6`.
-- Example (max): `values.filter(value.isType("number")).reduce(null, if(accumulator == null || value > accumulator, value, accumulator))` returns the largest number or `null` if none.
+- Reduce the elements of this list into a single value by running an expression for each element. The expression can use the variables `index`, `value`, and `acc` (the accumulator), and should return the next accumulator value.
+- `expression` is evaluated for every element in the list.
+- `value` is the value of the current item in the list.
+- `index` is the index of the current item.
+- `acc` is the accumulated value so far.
+- Example (sum): `[1,2,3].reduce(acc + value, 0)` returns `6`.
+- Example (max): `values.filter(value.isType("number")).reduce(if(acc == null || value > acc, value, acc), null)` returns the largest number, or `null` if none.
 
 ### `reverse()`
 
