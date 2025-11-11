@@ -19,6 +19,12 @@ Aside from [[Functions#Global|Global]] functions, most functions depend on the t
 
 Global functions are used without a type.
 
+### `escapeHTML()`
+
+`escapeHTML(html: string): string`
+
+- Escapes special characters in a string to make it safe for inclusion in HTML.
+
 ### `date()`
 
 `date(date: string): date`
@@ -26,12 +32,26 @@ Global functions are used without a type.
 - `date(string): date` parses the provided string and returns a date object.
 - The `date` string should be in the format `YYYY-MM-DD HH:mm:ss`.
 
+### `duration()`
+
+`duration(value: string): duration`
+
+- Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
+- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but the do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
+- When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
+
 ### `file()`
 
 `file(path: string | file | url): file`
 
 - Returns a file object for the given file or path.
 - Example: `file(link("[[filename]]"))` or `file("path to file")`.
+
+### `html()`
+
+`html(html: string): html`
+
+- Converts a string into a code snippet that renders as HTML.
 
 ### `if()`
 
@@ -57,18 +77,6 @@ Global functions are used without a type.
 - Returns a value that will render as an icon in a view. The icon name must match a supported Lucide icon.
 - Example: `icon("arrow-right")`.
 
-### `max()`
-
-`max(value1: number, value2: number...): number`
-
-- Returns the largest of all the provided numbers.
-
-### `min()`
-
-`min(value1: number, value2: number...): number`
-
-- Returns the smallest of all the provided numbers.
-
 ### `link()`
 
 `link(path: string | file, display?: value): Link`
@@ -84,6 +92,18 @@ Global functions are used without a type.
 - Otherwise, wraps the provided `element` in a list, creating a list with a single element.
 - This function can be helpful when a property contains a mixture of strings or lists across the vault.
 - Example: `list("value")` returns `["value"]`.
+
+### `max()`
+
+`max(value1: number, value2: number...): number`
+
+- Returns the largest of all the provided numbers.
+
+### `min()`
+
+`min(value1: number, value2: number...): number`
+
+- Returns the smallest of all the provided numbers.
 
 ### `now()`
 
@@ -101,36 +121,15 @@ Global functions are used without a type.
 - Strings will be parsed into a number and return an error if the result is invalid.
 - Example, `number("3.4")` returns `3.4`.
 
-### `duration()`
-
-`duration(value: string): duration`
-
-- Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
-- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but the do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
-- When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
-
 ### `today()`
 
 `today(): date`
 
 - `today()` returns a date object representing the current date. The time portion is set to zero.
 
-### `date()`
-
-`date(input: string | date): date`
-
-- Returns a date object representing the parsed input timestamp or date object.
-
 ## Any
 
 Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), lists (e.g. `[1,2,3]`), objects, and more.
-
-### `toString()`
-
-`any.toString(): string`
-
-- Returns the string representation of any value.
-- Example: `123.toString()` returns `"123"`.
 
 ### `isTruthy()`
 
@@ -138,6 +137,13 @@ Functions you can use with any value. This includes strings (e.g. `"hello"`), nu
 
 - Return the value coerced into a boolean.
 - Example: `1.isTruthy()` returns `true`.
+
+### `toString()`
+
+`any.toString(): string`
+
+- Returns the string representation of any value.
+- Example: `123.toString()` returns `"123"`.
 
 ## Date
 
@@ -242,6 +248,12 @@ Functions you can use with a sequence of characters such as `"hello".`
 - Example: `"Hello world".isEmpty()` returns `false`.
 - Example: `"".isEmpty()` returns `true`.
 
+### `lower()`
+
+`string.lower(): string`
+
+- Returns the string converted to lower case.
+
 ### `replace()`
 
 `string.replace(pattern: string | Regexp, replacement: string): string`
@@ -252,11 +264,12 @@ Functions you can use with a sequence of characters such as `"hello".`
 - If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
 - Example: `"a,b,c,d".replace(/,/, "-")` returns `"a-b,c,d"`, where as `"a,b,c,d".replace(/,/g, "-")` returns `"a-b-c-d"`.
 
-### `lower()`
+### `repeat()`
 
-`string.lower(): string`
+`string.repeat(count: number): string`
 
-- Returns the string converted to lower case.
+- `count` is the number of times to repeat the string.
+- Example: `"123".repeat(2)` returns `"123123"`
 
 ### `reverse()`
 
@@ -331,6 +344,13 @@ Functions you can use with numeric values such as `42`, `3.14`.
 - Rounds the number down to the nearest integer.
 - Example: `(2.9).floor()` returns `2`.
 
+### `isEmpty()`
+
+`number.isEmpty(): boolean`
+
+- Returns true if the number is not present.
+- Example: `5.isEmpty()` returns `false`.
+
 ### `round()`
 
 `number.round(digits: number): number`
@@ -346,13 +366,6 @@ Functions you can use with numeric values such as `42`, `3.14`.
 - `precision` is the number of decimal places.
 - Returns a string with the number in fixed-point notation.
 - Example: `(3.14159).toFixed(2)` returns `"3.14"`.
-
-### `isEmpty()`
-
-`number.isEmpty(): boolean`
-
-- Returns true if the number is not present.
-- Example: `5.isEmpty()` returns `false`.
 
 ## List
 
@@ -388,6 +401,22 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Returns true if the list contains at least one of the `values`.
 - Example: `[1,2,3].containsAny(3,4)` returns `true`.
 
+### `filter()`
+
+`list.filter(value: Boolean): list`
+
+- Filter the elements of this list by calling a filter function, which uses the variables `index` and `value`, and returns a boolean value for whether the element should be kept.
+- `value` is the value of an item in the list.
+- `index` is the index of the current value.
+- Example: `[1,2,3,4].filter(value > 2)` returns `[3,4]`.
+
+### `flat()`
+
+`list.flat(): list`
+
+- Flattens nested list into a single list.
+- Example: `[1,[2,3]].flat()` returns `[1,2,3]`.
+
 ### `isEmpty()`
 
 `list.isEmpty(): boolean`
@@ -403,34 +432,33 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Joins all list elements into a single string.
 - Example: `[1,2,3].join(",")` returns `"1,2,3"`.
 
+### `map()`
+
+`list.map(value: Any): list`
+
+- Transform each element of this list by calling a conversion function, which uses the variables `index` and `value`, and returns the new value to be placed in the list.
+- `value` is the value of an item in the list.
+- `index` is the index of the current value.
+- Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
+
+### `reduce()`
+
+`list.reduce(expression: Any, acc: Any): Any`
+
+- Reduce the elements of this list into a single value by running an expression for each element. The expression can use the variables `index`, `value`, and `acc` (the accumulator), and should return the next accumulator value.
+- `expression` is evaluated for every element in the list.
+- `value` is the value of the current item in the list.
+- `index` is the index of the current item.
+- `acc` is the accumulated value so far.
+- Example (sum): `[1,2,3].reduce(acc + value, 0)` returns `6`.
+- Example (max): `values.filter(value.isType("number")).reduce(if(acc == null || value > acc, value, acc), null)` returns the largest number, or `null` if none.
+
 ### `reverse()`
 
 `list.reverse(): list`
 
 - Reverses the list in place.
 - Example: `[1,2,3].reverse()` returns `[3,2,1]`.
-
-### `sort()`
-
-`list.sort(): list`
-
-- Sorts list elements from smallest to largest.
-- Example: `[3, 1, 2].sort()` returns `[1, 2, 3]`.
-- Example: `["c", "a", "b"].sort()` returns `["a", "b", "c"]`.
-
-### `flat()`
-
-`list.flat(): list`
-
-- Flattens nested list into a single list.
-- Example: `[1,[2,3]].flat()` returns `[1,2,3]`.
-
-### `unique()`
-
-`list.unique(): list`
-
-- Removes duplicate elements.
-- Example: `[1,2,2,3].unique()` returns `[1,2,3]`.
 
 ### `slice()`
 
@@ -442,33 +470,24 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Example: `[1,2,3,4].slice(1,3)` returns `[2,3]`.
 - If `end` is omitted, slices to the end of the list.
 
-### `map()`
+### `sort()`
 
-`list.map(value: Any): list`
+`list.sort(): list`
 
-- Transform each element of this list by calling a conversion function, which uses the variables `index` and `value`, and returns the new value to be placed in the list.
-- `value` is the value of an item in the list.
-- `index` is the index of the current value.
-- Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
+- Sorts list elements from smallest to largest.
+- Example: `[3, 1, 2].sort()` returns `[1, 2, 3]`.
+- Example: `["c", "a", "b"].sort()` returns `["a", "b", "c"]`.
 
-### `filter()`
+### `unique()`
 
-`list.filter(value: Boolean): list`
+`list.unique(): list`
 
-- Filter the elements of this list by calling a filter function, which uses the variables `index` and `value`, and returns a boolean value for whether the element should be kept.
-- `value` is the value of an item in the list.
-- `index` is the index of the current value.
-- Example: `[1,2,3,4].filter(value > 2)` returns `[3,4]`.
+- Removes duplicate elements.
+- Example: `[1,2,2,3].unique()` returns `[1,2,3]`.
 
 ## Link
 
 Functions you can use on a link. Links can be created from a file (`file.asLink()`) or a path (`link("path")`).
-
-### `linksTo()`
-
-`link.linksTo(file): boolean`
-
-- Returns whether the file represented by the `link` has a link to `file`.
 
 ### `asFile()`
 
@@ -476,6 +495,12 @@ Functions you can use on a link. Links can be created from a file (`file.asLink(
 
 - Returns a file object if the link refers to a valid local file.
 - Example: `link("[[filename]]").asFile()`
+
+### `linksTo()`
+
+`link.linksTo(file): boolean`
+
+- Returns whether the file represented by the `link` has a link to `file`.
 
 ## File
 
