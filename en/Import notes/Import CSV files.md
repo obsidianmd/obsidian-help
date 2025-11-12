@@ -1,7 +1,7 @@
 ---
 permalink: import/csv
 ---
-Obsidian allows you to import data from CSV files using the official [[Importer|Importer plugin]]. This is useful if you have data tabular stored in apps such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+Obsidian lets you import data from CSV files using the official [[Importer|Importer plugin]]. This is useful if you have data tabular stored in apps such as Excel, Google Sheets, Numbers, Notion, or Airtable.
 
 CSV import generates Markdown files for each row and a [[Introduction to Bases|Base]] file that displays all the imported files as a table.
 

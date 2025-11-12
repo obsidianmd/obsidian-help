@@ -1,7 +1,7 @@
 ---
 permalink: import/textbundle
 ---
-Obsidian allows you to easily import [Textbundle](https://textbundle.org/) files using the official [[Importer|Importer plugin]].
+Obsidian lets you easily import [Textbundle](https://textbundle.org/) files using the official [[Importer|Importer plugin]].
 
 If you are importing notes from a specific app, you may want to first review the list of apps supported by [[Importer|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.
 

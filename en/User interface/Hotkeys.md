@@ -5,7 +5,7 @@ aliases:
   - Keyboard shortcuts
 permalink: hotkeys
 ---
-Obsidian allows you to customize hotkeys, also known as keyboard shortcuts.
+Obsidian lets you customize hotkeys, also known as keyboard shortcuts.
 
 Default hotkeys are only defined for the most commonly used [[Command palette|commands]]. If you frequently use a command, you can define a hotkey for it. See also [[Editing shortcuts]].
 

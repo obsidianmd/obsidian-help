@@ -163,7 +163,7 @@ Use `[Display text](Link URL)` to customize how the link appears.
 
 This method is helpful for one-off situations where you want to change how a link looks in a specific context. If you want to set up an alternate link name that you can reuse throughout your vault, consider using an [[Aliases|alias]] instead. 
 
-For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 laws]]`, adding "3 laws" as an alias allows you to type just that—no need to add custom display text each time.
+For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 laws]]`, adding "3 laws" as an alias lets you type just that — no need to add custom display text each time.
 
 > [!tip]
 > Use [[#Change the link display text|link display text]] when you want to customize how a link looks *in a specific place*.  

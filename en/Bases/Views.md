@@ -7,7 +7,7 @@ For example, you may want to create a base called "Books" that has separate view
 
 ## Toolbar
 
-At the top of a base is a toolbar that allows you to interact with views and their results.
+At the top of a base is a toolbar that lets you interact with views and their results.
 
 - ![[lucide-table.svg#icon]] **View menu** — create, edit, and switch views.
 - **Results** — limit, copy and export files.

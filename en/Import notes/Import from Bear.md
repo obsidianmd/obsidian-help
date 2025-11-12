@@ -1,7 +1,7 @@
 ---
 permalink: import/bear
 ---
-Obsidian allows you to easily migrate your notes from Bear using the [[Importer|Importer plugin]]. This will convert your Bear data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian lets you easily migrate your notes from Bear using the [[Importer|Importer plugin]]. This will convert your Bear data to durable Markdown files, that you can use with Obsidian and many other apps.
 
 ## Export your data from Bear
 
