@@ -3,7 +3,7 @@ permalink: bases/views/cards
 ---
 Cards is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
 
-Select ![[lucide-layout-grid.svg]]  **Cards** from the view menu to display files as a gallery-like grid layout with optional cover images.
+Select ![[lucide-layout-grid.svg#icon]]  **Cards** from the view menu to display files as a gallery-like grid layout with optional cover images.
 
 ## Settings
 

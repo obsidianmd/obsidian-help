@@ -9,7 +9,7 @@ For example, you may want to create a base called "Books" that has separate view
 
 At the top of a base is a toolbar that allows you to interact with views and their results.
 
-- ![[lucide-table.svg]] **View menu** — create, edit, and switch views.
+- ![[lucide-table.svg#icon]] **View menu** — create, edit, and switch views.
 - **Results** — limit, copy and export files.
 - ![[lucide-arrow-up-down.svg#icon]] **Sort** — sort and group files.
 - ![[lucide-list-filter.svg#icon]] **Filter** — filter files.
