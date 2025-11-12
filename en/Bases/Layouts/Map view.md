@@ -1,11 +1,13 @@
 ---
 permalink: bases/views/map
 ---
-Display files in a [[Introduction to Bases|Base]] as an interactive map with markers for each file, and a preview that displays properties of that file.
+Map is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+
+Select ![[lucide-map.svg#icon]]  **Map** from the view menu to display files as an interactive map with markers for each file, and a preview that displays properties of that file.
 
 ![[bases-map-places.png#interface]]
 
-> [!info] Requires Obsidian 1.10 and the Maps plugin
+> [!info] Requires the Maps plugin
 > Map views require Obsidian 1.10. The [Maps plugin](https://github.com/obsidianmd/obsidian-maps) is an official [[Community plugins|community plugin]] that you can download separately.
 
 ## Example

@@ -3,14 +3,27 @@ permalink: bases/views
 ---
 Views allow you to organize the information in a [[Introduction to Bases|Base]] in multiple ways. A base can contain several views, and each view can have a unique configuration to display, sort, and filter files.
 
-For example, you may want to create a base called "Books" that has separate views for "Reading list" and "Recently finished". The first view in your list of views will load by default. Drag views by their icon to change their order.
+For example, you may want to create a base called "Books" that has separate views for "Reading list" and "Recently finished".
+
+## Toolbar
+
+At the top of a base is a toolbar that allows you to interact with views and their results.
+
+- ![[lucide-table.svg]] **View menu** — create, edit, and switch views.
+- **Results** — limit, copy and export files.
+- ![[lucide-arrow-up-down.svg#icon]] **Sort** — sort and group files.
+- ![[lucide-list-filter.svg#icon]] **Filter** — filter files.
+- ![[lucide-list.svg#icon]] **Properties** — choose properties to display and create formulas.
+- ![[lucide-plus.svg#icon]] **New** — create a new file in the current view.
 
 ## Add and switch views
 
 There are two ways to add a view to a base:
 
-- Click the view name in the top left and select **Add view**.
+- Click the view name in the top left and select ![[lucide-plus.svg#icon]] **Add view**.
 - Use the [[command palette]] and select **Bases: Add view**.
+
+The first view in your list of views will load by default. Drag views by their icon to change their order.
 
 ## View settings
 
@@ -23,22 +36,23 @@ Alternatively *right-click* the view name in the base's toolbar to quickly acces
 
 ## Layout
 
-Views can be displayed with different layouts such as **table**, **list**, and **cards**. Additional layouts can be added by [[Community plugins]]. Some layouts are still being developed and require [[early access versions]] of Obsidian.
+Views can be displayed with different layouts including as  ![[lucide-table.svg#icon]] **table**, ![[lucide-list.svg#icon]] **list**, ![[lucide-layout-grid.svg#icon]] **cards**, and ![[lucide-map.svg#icon]] **map**. Additional layouts can be added by [[Community plugins]]. Some layouts are still being developed and require [[early access versions]] of Obsidian.
 
 | Layout                | Description                                                                                   | App&nbsp;version |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
 | [[Table view\|Table]] | Display files as rows in a table. Columns are populated from [[properties]] in your notes.    | 1.9              |
 | [[Cards view\|Cards]] | Display files as a grid of cards. Lets you create gallery-like views with images.             | 1.9              |
 | [[List view\|List]]   | Display files as a [[Basic formatting syntax#Lists\|list]] with bulleted or numbered markers. | 1.10             |
-| [[Map view\|Map]]     | Display files as pins on an interactive map.                                                  | 1.10             |
+| [[Map view\|Map]]     | Display files as pins on an interactive map. Requires the Maps plugin.                        | 1.10             |
+
 
 ## Filters
 
-A base without filters shows all the files in your vault. Filters allow you to narrow down results to only show files that meet specific criteria. For example, you can use filters to only display files with a specific [[Tags|tag]] or within a specific folder. Many filter types are available.
+Open the ![[lucide-list-filter.svg#icon]] **Filter** menu at the top of a base to add filters.
 
-Click the **Filters** button at the top of a base to add filters.
+A base without filters shows all the files in your vault. Filters narrow down the results to only show files that meet specific criteria. For example, you can use filters to only display files with a specific [[Tags|tag]] or within a specific folder. Many filter types are available.
 
-Filters can be applied to all views in a base, or just a single view by choosing from the two sections in the **Filters** menu.
+Filters can be applied to all views in a base, or just a single view by choosing from the two sections in the ![[lucide-list-filter.svg#icon]] **Filter** menu.
 
 - **All views** applies filters to all views in the base.
 - **This view** applies filters to the active view.
@@ -67,7 +81,7 @@ Click the code button ![[lucide-code-xml.svg#icon]] to use the **advanced filter
 
 ## Sort and group results
 
-Open the ![[lucide-arrow-up-down.svg]] **Sort** menu to sort and group the results in a view.
+Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu to sort and group the results in a view.
 
 You can arrange results by one or more properties in ascending or descending order. This makes it easy to list notes by name, last edited time, or any other property — including formulas.
 
@@ -75,9 +89,9 @@ You can also group results by a property to organize similar items into visually
 
 ### Add a sort
 
-1. Open the **Sort** menu at the top of the view.
+1. Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu at the top of the view.
 2. Choose the property you want to sort (or group) by.
-3. If you have multiple sorts, drag them up or down using the ![[lucide-grip-vertical.svg]] handle to change their priority.
+3. If you have multiple sorts, drag them up or down using the ![[lucide-grip-vertical.svg#icon]] grip handle to change their priority.
 
 The options for ordering results depend on the property type:
 
@@ -87,8 +101,8 @@ The options for ordering results depend on the property type:
 
 ### Remove a sort
 
-1. Open the **Sort** menu at the top of the view.
-2. Click the ![[lucide-trash-2.svg]] button next to the sort or group you want to remove.
+1. Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu at the top of the view.
+2. Click the ![[lucide-trash-2.svg#icon]] trash can button next to the sort or group you want to remove.
 
 ## Limit, copy, and export results
 
@@ -103,3 +117,9 @@ This action copies the view to your clipboard. Once in your clipboard you can pa
 ### Export CSV
 
 This action saves a CSV of your current view.
+
+## Embed a view
+
+You can embed base files in [[Embed files|any other file]] using the `![[File.base]]` syntax. The first view in the list will be used. You can change the order by dragging views in the view menu.
+
+To specify the default view for an embed use `![[File.base#View]]`.

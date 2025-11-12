@@ -1,7 +1,9 @@
 ---
 permalink: bases/views/table
 ---
-Display files in a [[Introduction to Bases|Base]] as a table with a row for each file, and columns for [[Properties]] of that file.
+Table is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+
+Select ![[lucide-table.svg#icon]]  **Table** from the view menu to display files as a table with a row for each file, and columns for [[Properties]] of that file.
 
 ![Example of a base showing a table view with a list of books](bases-noshadow.png#interface)
 
@@ -23,7 +25,7 @@ Summaries are tied to the view, not the base. Each view can show different summa
 
 1. Right-click the column header in a table view.
 2. Select ![[lucide-calculator.svg#icon]] **Summarize…**.
-3. Choose one of the built-in summary functions, or select **Add summary** to define your own.
+3. Choose one of the built-in summary functions, or select ![[lucide-square-function.svg#icon]] **Add summary** to define your own.
 
 The summary appears at the bottom of the column. When results are [[Views#Sort and group results|grouped]] the summary for each group is displayed at the top of the group.
 
@@ -64,7 +66,7 @@ The following summaries are available by default. Options may vary depending on 
 
 You can define your own summary using a formula:
 
-1. In the **Summarize…** menu, choose ![[lucide-square-function.svg#icon]] **Add summary**.
+1. In the ![[lucide-calculator.svg#icon]] **Summarize…** menu, choose ![[lucide-square-function.svg#icon]] **Add summary**.
 2. Give the summary a name.
 3. Enter a formula. The formula runs over the list of values in that column (for example, using a [[Functions|function]] like `values.reduce(...)`).
 4. Save the summary.
