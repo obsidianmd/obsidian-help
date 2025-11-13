@@ -168,7 +168,7 @@ The following fields are available for dates:
 `date.date(): date`
 
 - Returns a date object with the time removed.
-- Example: `now().date().format("YYYY-MM-DD HH:mm:ss"` returns a string such as "2025-12-31 00:00:00"
+- Example: `now().date().format("YYYY-MM-DD HH:mm:ss")` returns a string such as "2025-12-31 00:00:00"
 
 ### `format()`
 
@@ -200,7 +200,7 @@ The following fields are available for dates:
 
 ## String
 
-Functions you can use with a sequence of characters such as `"hello".`
+Functions you can use with a sequence of characters such as `"hello"`.
 
 ### Fields
 
