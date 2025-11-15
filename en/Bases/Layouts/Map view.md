@@ -106,3 +106,7 @@ Map tiles are a standard way to display digital maps. There are several services
 - [Maputnik](https://maputnik.github.io/) for customizing map tiles.
 - [Protomaps](https://protomaps.com/) for self-hosting map tiles.
 - Other hosted services with free tiers include [MapTiler](https://www.maptiler.com/) and [Mapbox](https://www.mapbox.com/).
+
+## Troubleshooting
+
+If the map appears blank when you first load the Maps plugin, try [[Update Obsidian|updating the Obsidian installer version]].
