@@ -97,7 +97,7 @@ Functions perform operations on values. The available functions depend on the ty
 
 Set a project's due date as 2 weeks after the start date:
 
-```
+```js
 start_date + "2w"
 ```
 
@@ -105,7 +105,7 @@ start_date + "2w"
 
 Show "Overdue" if the due date has passed and status is not "Done":
 
-```
+```js
 if(due_date < now() && status != "Done", "Overdue", "")
 ```
 
@@ -113,7 +113,7 @@ if(due_date < now() && status != "Done", "Overdue", "")
 
 Display a price with 2 decimal places and currency symbol:
 
-```
+```js
 if(price, "$" + price.toFixed(2), "")
 ```
 
@@ -121,7 +121,7 @@ if(price, "$" + price.toFixed(2), "")
 
 Count the number of items in a list property:
 
-```
+```js
 tasks.length
 ```
 
@@ -129,7 +129,7 @@ tasks.length
 
 Combine multiple factors into a priority score:
 
-```
+```js
 (impact * urgency) / effort
 ```
 
@@ -137,7 +137,7 @@ Combine multiple factors into a priority score:
 
 Create a full name from first and last name:
 
-```
+```js
 first_name + " " + last_name
 ```
 
@@ -145,7 +145,7 @@ first_name + " " + last_name
 
 Multiply monthly cost by number of months owned:
 
-```
+```js
 monthlyUses * formula.Owned.round()
 ```
 
@@ -166,13 +166,13 @@ The output type of a formula is determined by the data and functions used.
 
 Formulas can reference other formulas, creating derived calculations. For example, if you have a formula called `price_per_unit`:
 
-```
+```js
 price / quantity
 ```
 
 You can reference it in another formula:
 
-```
+```js
 formula.price_per_unit * 1.1
 ```
 
