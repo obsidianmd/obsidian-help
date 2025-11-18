@@ -441,6 +441,23 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - `index` is the index of the current value.
 - Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
 
+### `mean()`
+
+`list.mean(): number`
+
+- Calculate the mathematical mean (average) of the numbers in the list.
+- List values do not need to be pre-sorted.
+- Example: `[1, 2, 3, 4, 5, 6].mean()` returns `3.5`.
+
+### `median()`
+
+`list.median(): number`
+
+- Calculate the mathematical median of the numbers in the list.
+- List values do not need to be pre-sorted.
+- Example: `[1, 2, 3, 4, 5, 6, 7].median()` returns `4`.
+- Example: `[2, 2, 4, 5, 5, 8].median()` returns `4.5`.
+
 ### `reduce()`
 
 `list.reduce(expression: Any, acc: Any): Any`
@@ -477,6 +494,13 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Sorts list elements from smallest to largest.
 - Example: `[3, 1, 2].sort()` returns `[1, 2, 3]`.
 - Example: `["c", "a", "b"].sort()` returns `["a", "b", "c"]`.
+
+### `stddev()`
+
+`list.stddev(): number`
+
+- Returns the standard deviation of the numbers in the list.
+- Example: `[1, 7, 3, 11, 22, 5].stddev()` return `6.94`.
 
 ### `unique()`
 
