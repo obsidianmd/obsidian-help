@@ -9,7 +9,7 @@ publish: true
 
 When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
 
-The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and formulas. Bases must be valid YAML conforming to the schema defined below.
+The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and [[formulas]]. Bases must be valid YAML conforming to the schema defined below.
 
 ## Example
 
@@ -92,7 +92,7 @@ The syntax and available functions for filters and formulas are the same.
 
 ### Formulas
 
-The `formulas` section defines formula properties that can be displayed across all views in the base file.
+The `formulas` section defines [[Formulas|formula properties]] that can be displayed across all views in the base file.
 
 ```yaml
 formulas:

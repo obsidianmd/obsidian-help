@@ -21,7 +21,9 @@ All the data in Obsidian Bases is stored in your local [[Basic formatting syntax
 - [[Create a base]]
 	- Learn how to create and embed a base.
 - [[Views]]
-	- Explore layouts, filters, and properties.
+	- Explore layouts, filter, sort, and group properties.
+- [[Formulas]]
+	- Create calculations using data from other properties.
 - [[Functions]]
 	- Functions you can use in formulas and filters.
 - [[Bases syntax]]

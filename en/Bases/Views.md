@@ -13,7 +13,7 @@ At the top of a base is a toolbar that lets you interact with views and their re
 - **Results** — limit, copy and export files.
 - ![[lucide-arrow-up-down.svg#icon]] **Sort** — sort and group files.
 - ![[lucide-list-filter.svg#icon]] **Filter** — filter files.
-- ![[lucide-list.svg#icon]] **Properties** — choose properties to display and create formulas.
+- ![[lucide-list.svg#icon]] **Properties** — choose properties to display and create [[formulas]].
 - ![[lucide-plus.svg#icon]] **New** — create a new file in the current view.
 
 ## Add and switch views

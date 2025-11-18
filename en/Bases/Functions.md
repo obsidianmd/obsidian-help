@@ -1,7 +1,7 @@
 ---
 permalink: bases/functions
 ---
-Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[Properties]] in filters and formulas. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
+Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[properties]] in [[Views#Filters|filters]] and [[formulas]]. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
 
 Aside from [[Functions#Global|Global]] functions, most functions depend on the type of value you want to modify:
 
