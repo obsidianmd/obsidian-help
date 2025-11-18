@@ -75,22 +75,26 @@ Custom summaries are useful when you need a calculation that isn’t covered by 
 
 ## Shortcuts
 
-Shift-click to create a cell selection. Right-click on the cell selection to get a context menu for the files.
+You can quickly move around a table view using the following mouse and [[Editing shortcuts|keyboard shortcuts]].
 
-| Command                          | Description                                                                                                     |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| `Ctrl/Cmd-C`                     | Copy the selected cells.                                                                                        |
-| `Ctrl/Cmd-V`                     | Paste the selected cells                                                                                        |
-| `Ctrl/Cmd-Z`, `Ctrl/Cmd-Shift-Z` | Undo and redo changes made while editing properties.                                                            |
-| `Ctrl/Cmd-A`                     | Select all cells in the current group                                                                           |
-| `Ctrl/Cmd-Shift-Arrowkey`        | Select all cells in a given direction.                                                                          |
-| `Ctrl-Space`                     | Select the column.                                                                                              |
-| `Shift-Space`                    | Select the row.                                                                                                 |
-| `Enter`                          | Focus the current cell. For checkboxes, this toggles the checkbox. For formulas, this opens the formula editor. |
-| `Home`                           | Go to the first column.                                                                                         |
-| `End`                            | Go to the last column.                                                                                          |
-| `PageUp/PageDown`                | Navigate by visual page height.                                                                                 |
-| `Esc`                            | Clear the current cell selection.                                                                               |
-| `Backspace`                      | Clear the current cells.                                                                                        |
-| `Tab`                            | Go to the next cell.                                                                                            |
-| `Shift-Tab`                      | Go to the previous cell.                                                                                        |
+- Shift-click creates a cell selection.
+- Right-click a cell selection to access additional actions for those files. 
+
+| Action                                                                                                          | Shortcut            | macOS              |
+| --------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ |
+| Copy the selected cells                                                                                         | `Ctrl+C`            | `Cmd+C`            |
+| Paste the selected cells                                                                                        | `Ctrl+V`            | `Cmd+V`            |
+| Undo changes to properties                                                                                      | `Ctrl+Z`            | `Cmd+Z`            |
+| Redo changes to properties                                                                                      | `Ctrl+Shift+Z`      | `Cmd+Shift+Z`      |
+| Select all cells in the current group                                                                           | `Ctrl+A`            | `Cmd+A`            |
+| Select all cells in a given direction                                                                           | `Ctrl+Shift+Arrow`  | `Ctrl+Shift+Arrow` |
+| Select the column                                                                                               | `Ctrl+Space`        |                    |
+| Select the row                                                                                                  | `Shift+Space`       |                    |
+| Focus the current cell — for checkboxes, this toggles the checkbox, for formulas, this opens the formula editor | `Enter`             |                    |
+| Go to the first column                                                                                          | `Home`              |                    |
+| Go to the last column                                                                                           | `End`               |                    |
+| Navigate up and down by page height                                                                             | `PageUp`,`PageDown` |                    |
+| Clear the current cell selection                                                                                | `Esc`               |                    |
+| Clear the current cells                                                                                         | `Backspace`         |                    |
+| Go to the next cell                                                                                             | `Tab`               |                    |
+| Go to the previous cell                                                                                         | `Shift-Tab`         |                    |
