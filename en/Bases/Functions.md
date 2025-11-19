@@ -401,13 +401,6 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Returns true if the list contains at least one of the `values`.
 - Example: `[1,2,3].containsAny(3,4)` returns `true`.
 
-### earliest()
-
-`list.earliest(): date`
-
-- Returns the earliest date value in the list.
-- Example: `[date("2025-10-01"), "2026-01-01T01:00:00", "2024-06-13"].earliest()` returns `2024-06-13` as a date.
-
 ### `filter()`
 
 `list.filter(value: Boolean): list`
@@ -439,13 +432,6 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Joins all list elements into a single string.
 - Example: `[1,2,3].join(",")` returns `"1,2,3"`.
 
-### latest()
-
-`list.latest(): date`
-
-- Returns the latest date value in the list.
-- Example: `[date("2025-10-01"), "2026-01-01T01:00:00", "2024-06-13"].latest()` returns `2026-01-01T01:00:00` as a date.
-
 ### `map()`
 
 `list.map(value: Any): list`
@@ -454,13 +440,6 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - `value` is the value of an item in the list.
 - `index` is the index of the current value.
 - Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
-
-### max()
-
-`list.max(): number`
-
-- Returns the maximum of the number values in the list.
-- Example: `[4, 2, 3, 1].max()` returns `4`
 
 ### `mean()`
 
@@ -478,13 +457,6 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - List values do not need to be pre-sorted.
 - Example: `[1, 2, 3, 4, 5, 6, 7].median()` returns `4`.
 - Example: `[2, 2, 4, 5, 5, 8].median()` returns `4.5`.
-
-### min()
-
-`list.min(): number`
-
-- Returns the minimum of the number values in the list.
-- Example: `[4, 2, 3, 1].max()` returns `1`
 
 ### `reduce()`
 
@@ -529,13 +501,6 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
 - Returns the standard deviation of the numbers in the list.
 - Example: `[1, 7, 3, 11, 22, 5].stddev()` return `6.94`.
-
-### sum()
-
-`list.sum(): number`
-
-- Returns the sum of the number values in the list.
-- Example: `[4, 2, 3, 1].max()` returns `10`
 
 ### `unique()`
 
