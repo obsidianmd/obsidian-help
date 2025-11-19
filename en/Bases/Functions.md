@@ -401,7 +401,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Returns true if the list contains at least one of the `values`.
 - Example: `[1,2,3].containsAny(3,4)` returns `true`.
 
-### `earliest()`
+### earliest()
 
 `list.earliest(): date`
 
@@ -439,7 +439,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Joins all list elements into a single string.
 - Example: `[1,2,3].join(",")` returns `"1,2,3"`.
 
-### `latest()`
+### latest()
 
 `list.latest(): date`
 
@@ -455,7 +455,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - `index` is the index of the current value.
 - Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
 
-### `max()`
+### max()
 
 `list.max(): number`
 
@@ -479,7 +479,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Example: `[1, 2, 3, 4, 5, 6, 7].median()` returns `4`.
 - Example: `[2, 2, 4, 5, 5, 8].median()` returns `4.5`.
 
-### `min()`
+### min()
 
 `list.min(): number`
 
@@ -530,7 +530,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Returns the standard deviation of the numbers in the list.
 - Example: `[1, 7, 3, 11, 22, 5].stddev()` return `6.94`.
 
-### `sum()`
+### sum()
 
 `list.sum(): number`
 
