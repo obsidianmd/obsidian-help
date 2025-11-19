@@ -18,11 +18,17 @@ The token is a long string of numbers and letters typically starting with `ntn_.
 
 1. Sign into your [Notion Integrations](https://www.notion.so/profile/integrations/) dashboard.
 2. Choose **New integration**.
-3. Give your integration a name, e.g. "Personal". Any name can be used.
-4. Choose the workspace you want to export.
-5. Click **Save** and continue to **Configure integration settings**.
-6. In the **Configuration** tab your API token is accessible in the **Internal Integration Secret** field. Click **Copy**.
+
+![[notion-integration.png#interface]]
+
+2. Give your integration a name, e.g. "Personal". Any name can be used.
+3. Choose the workspace you want to export.
+4. Click **Save** and continue to **Configure integration settings**.
+5. In the **Configuration** tab your API token is accessible in the **Internal Integration Secret** field. 
+6. Select **Show** then **Copy**.
 7. Save the token to a safe place like your password manager.
+
+![[notion-token.png#interface]]
 
 Next, give your integration access to the Notion pages and databases you want to import.
 
