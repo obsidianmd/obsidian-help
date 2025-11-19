@@ -107,6 +107,15 @@ Map tiles are a standard way to display digital maps. There are several services
 - [Protomaps](https://protomaps.com/) for self-hosting map tiles.
 - Other hosted services with free tiers include [MapTiler](https://www.maptiler.com/) and [Mapbox](https://www.mapbox.com/).
 
+
+## Tips
+
+You can link to popular mapping services using [[Formulas]]. For example your pin can show a link to Google Maps using the following formula:
+
+```js
+link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google Maps")
+```
+
 ## Troubleshooting
 
 If the map appears blank when you first load the Maps plugin, try [[Update Obsidian|updating the Obsidian installer version]].
