@@ -45,40 +45,27 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **Settings**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
+4. Open the **Importer*** plugin using the command palette or ribbon icon.
 5. Under **File format** select **Notion (API)**
 6. Under **API token**, paste your **Internal Integration Secret** from Notion.
 7. Review and edit the import options.
-8. Select **Import** and wait until import is complete
+8. Select **Import*** and wait until import is complete
 9. You're done!
 
-### Notion API Import Instructions
+### Limitations
 
-There are some import strategies to be aware of.
+Due to Notion API rate limits, importing large workspaces may take considerable time. Please be patient.
 
-* Attachments, videos, images, and files from Notion will be placed according to your vault's `Default location for new attachments` setting.
-* Links and embeds will use your vault's `Links` setting.
-* Pages without child pages or databases will be imported as `[filename].md` instead of `[filename]/[filename].md`, note that the database does not include [linked databases](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases).
-* Databases are always represented as folders named `[database name]` with a `[database name].base` file inside.
-* Due to Notion API rate limits, importing large workspaces may take considerable time. Please be patient.
-* `Synced blocks` will be imported into a dedicated folder named `Notion Synced Blocks` for reference.
+Due to limitations in the Notion API some blocks and formulas are not converted:
 
-### Notion API import limits
+- [Linked databases](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases)
+- `People` formulas: `name()` and `email()`
+- `Text` formulas: `style()`, `unstyle()`
 
-Due to limitations of the Notion API, some blocks do not support import, and some Formula functions do not support conversion (temporarily). Details are as follows:
+Additionally, some Importer will make the following changes:
 
-#### Unsupported blocks type
-
-* [Linked databases](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases)
-
-#### Unsupported Formula type
-
-* All formulas related to `People`, include:
-  	* name()
-  	* email()
-* All formulas related to `Text`, include:
-	* style()
- 	* unstyle() 
+- Pages without child pages or databases will be imported as `[filename].md` instead of `[filename]/[filename].md`.
+- Databases are always represented as folders named `[database name]` with a `[database name].base` file inside.
 
 
 ## File import
