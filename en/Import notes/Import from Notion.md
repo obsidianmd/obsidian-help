@@ -54,6 +54,11 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 
 ### Limitations
 
+
+> [!info] New feature
+> The Notion API importer is new. Because of the complexity of Notion workspaces, some edge cases may not have been considered. If you encounter issues with the conversion, [submit a bug report](https://github.com/obsidianmd/obsidian-importer/issues) so we can improve it. 
+
+
 Due to Notion API rate limits, importing large workspaces may take considerable time. Please be patient.
 
 Due to limitations in the Notion API some blocks and formulas are not converted:
