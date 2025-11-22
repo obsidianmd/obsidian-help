@@ -1,11 +1,11 @@
 ---
 permalink: import/notion
 ---
-Obsidian lets you easily migrate your notes from Notion using the [[Importer|Importer plugin]]. This will convert your Notion data to durable Markdown files, that you can use offline with Obsidian and many other apps.
+Obsidian lets you easily migrate your notes from Notion using the [[Importer|Importer plugin]]. This will convert your Notion data to durable Markdown files that you can use offline with Obsidian and many other apps.
 
 Obsidian offers two ways to import your Notion data:
 
-1. **API import** can preserve your entire workspace, including Databases and formulas which are converted to [[Introduction to Bases|Bases]], but requires a Notion integration token and internet connection.
+1. **API import** preserves your entire workspace including Databases and formulas which are converted to [[Introduction to Bases|Bases]], but requires a Notion integration token and an internet connection.
 2. **File import** does not preserve Databases but does not require an API token or internet connection.
 
 ## API import
