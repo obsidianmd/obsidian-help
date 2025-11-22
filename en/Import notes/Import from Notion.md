@@ -61,9 +61,10 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 
 Due to Notion API rate limits, importing large workspaces may take considerable time. Please be patient.
 
-Due to limitations in the Notion API some blocks and formulas are not converted:
+Due to limitations in the Notion API some data is not available and cannot converted:
 
-- [Linked databases](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases)
+- Only the primary view for each database is imported
+- [Linked databases](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) are not imported.
 - `People` formulas: `name()` and `email()`
 - `Text` formulas: `style()`, `unstyle()`
 
