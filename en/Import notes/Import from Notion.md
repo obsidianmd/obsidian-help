@@ -45,17 +45,18 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **Settings**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the **Importer*** plugin using the command palette or ribbon icon.
+4. Open the **Importer** plugin using the command palette or ribbon icon.
 5. Under **File format** select **Notion (API)**
 6. Under **API token**, paste your **Internal Integration Secret** from Notion.
-7. Review and edit the import options.
-8. Select **Import*** and wait until import is complete
-9. You're done!
+7. Click **Load** to choose the databases and pages you want to import.
+8. Review and edit the import options.
+9. Select **Import** and wait until import is complete
+10. You're done!
 
 ### Limitations
 
 
-> [!info] New feature
+> [!info] API import is new
 > The Notion API importer is new. Because of the complexity of Notion workspaces, some edge cases may not have been considered. If you encounter issues with the conversion, [submit a bug report](https://github.com/obsidianmd/obsidian-importer/issues) so we can improve it. 
 
 
@@ -75,6 +76,8 @@ Additionally, some Importer will make the following changes:
 
 
 ## File import
+
+File import is alternative way to import your Notion data. This method does not preserve Databases but it does not require an API token or internet connection.
 
 ### Export your data from Notion
 
