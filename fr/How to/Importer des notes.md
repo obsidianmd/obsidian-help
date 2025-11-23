@@ -27,7 +27,7 @@ Si vous avez des données à migrer, il est facile de les exporter pour les util
 ## 1. Exporter vos données de Roam Research
 
 1. Dans Roam Research, cliquez sur **Plus d'actions** ( `•••` ) dans le coin en haut à droite, ensuite sélectionnez **Tout Exporter.**
-![[Pasted image 20251122122607.png]]
+![[Roam-exporting.png]]
 2. Dans **Format d'exportation**, sélectionnez "JSON", ensuite sélectionnez **Tout Exporter** pour télécharger une archive de vos notes. 
 
 ## 2. Importer vos données dans Obsidian
@@ -41,4 +41,4 @@ Avant de commencer, il vous faut installer le [[module d'importation]] officiel 
 5. Si vous voulez aussi importer des pièces-jointes, cochez **Download all attachments (télécharger toutes les pièces-jointes)** ;
 6. Cliquez sur **Import** et attendez jusqu'à ce que l'importation soit terminé ;
 7. C'est fait !
-![[Pasted image 20251122125742.png]]
+![[Roam-Importer-importing.png]]
