@@ -30,6 +30,16 @@ On the desktop version, you can customize the ribbon as follows:
 - Rearrange the order of ribbon actions by simply dragging and dropping the icons.
 - To hide specific actions, right-click on an empty space within the ribbon and uncheck the actions you want to hide.
 
+### Unhiding the ribbon
+
+If you have hidden the ribbon and want to show it again on desktop:
+
+1. Open **Settings** → **Appearance**.
+2. Scroll down to **Advanced**.
+3. Enable **"Show ribbon"**.
+4. The ribbon will appear again on the left side of the window.
+
+If you're using a community theme or custom CSS, make sure it does not hide the ribbon through custom style rules.
 ### Mobile
 
 In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the visibility status of the ribbon menu. To access these customizations, follow these steps:
