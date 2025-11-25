@@ -11,7 +11,7 @@ The ribbon functions as a space for common commands within Obsidian.
 
 On desktop, it's located in the [[Sidebar#Open hidden sidebars|left Sidebar]] and remains visible even when the left Sidebar is closed. 
 
-On mobile, you can access the ribbon by tapping the **Menu option** ( ![[lucide-menu.svg#icon]] ) at the bottom-right corner of the app when you're not editing a note.
+On mobile, you can access the [[Use the mobile app#Ribbon actions|Ribbon Actions]] by tapping the **Menu option** ( ![[lucide-menu.svg#icon]] ) at the bottom-right corner of the app when you're not editing a note.
 
 ## Actions
 
@@ -21,7 +21,7 @@ Each action is represented by an icon in the ribbon. Hovering over these icons w
 2. Access **help** ( ![[lucide-help-circle.svg#icon]] ).
 3. Open **settings** ( ![[lucide-settings.svg#icon]] ).
 
-In the mobile version, you can configure a quick access action on the ribbon. For more information, see the [[#Mobile|mobile section]].
+In the mobile version, you can configure a quick access action on the ribbon. For more information, see the [[#Mobile|mobile section]] and [[Use the mobile app]].
 
 ## Customize the ribbon
 

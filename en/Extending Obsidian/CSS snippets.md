@@ -46,7 +46,7 @@ Once enabled, Obsidian will automatically detect changes to CSS snippets and app
 
 Obsidian offers several methods that make writing CSS easier and more powerful.
 
-It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) to easily modify parts of Obsidian and a built-in [[properties#Property types|property type]] to change the appearance of one or several notes.
+It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) to easily modify parts of Obsidian and a built-in [[Properties#Property types|property type]] to change the appearance of one or several notes.
 
 > [!example] Variables
 > Create a file called `headers.css` with the following content to change the colors of the six [[Basic formatting syntax#Headings|heading levels]] to a rainbow:

@@ -209,6 +209,19 @@ This is a section.
 3. Third item
 ```
 
+**Em dashes in lists:**
+
+Use em dashes (—) to separate bolded terms from their descriptions in bullet lists. Do not use em dashes in simple nested bullet lists with links.
+
+**Recommended:**
+
+- **View menu** — create, edit, and switch views.
+- **Calculate values** — add prices, compute totals, or perform math operations.
+
+**Not recommended:**
+
+- [[Create a base]] — Learn how to create and embed a base.
+
 ### Images
 
 Use "**width** x **height** pixels" for describing image or screen dimensions.

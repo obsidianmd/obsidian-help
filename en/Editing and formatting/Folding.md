@@ -1,6 +1,11 @@
 ---
+aliases: Fold
+description: Learn how to get a better overview of large notes by using folding to hide parts of the note
+mobile: false
 permalink: folding
+publish: true
 ---
+
 Learn how to get a better overview of large notes by using _folding_ to hide parts of the note. Folding is useful when creating outlines for your notes and when you want to focus on what you're working on at the moment.
 
 You can fold headings and indented lists by hovering the mouse cursor over the section you want to fold, and then selecting the arrow on the left. Folded sections show an arrow regardless of if you hover it or not.
