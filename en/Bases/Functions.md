@@ -138,6 +138,13 @@ Functions you can use with any value. This includes strings (e.g. `"hello"`), nu
 - Return the value coerced into a boolean.
 - Example: `1.isTruthy()` returns `true`.
 
+### `isType()`
+
+`any.isType(type: string): boolean`
+
+- Returns true if the value is of the provided type.
+- Example: `"example".isType("string")` and `true.isType("boolean")` both return true.
+
 ### `toString()`
 
 `any.toString(): string`
