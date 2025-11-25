@@ -1,7 +1,7 @@
 ---
 aliases:
 description: Learn about mobile-specific features in Obsidian, including the mobile toolbar, quick actions, and navigation bar.
-mobile: false
+mobile: true
 permalink: mobile
 publish: true
 ---
