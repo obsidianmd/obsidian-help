@@ -24,6 +24,8 @@ Obsidian develops and maintains several open source projects. You can submit pul
 
 To help improve our [developer documentation](https://docs.obsidian.md/Home), submit a pull request to the [obsidian-developer-docs](https://github.com/obsidianmd/obsidian-developer-docs) repository.
 
+To help improve this documentation, submit a pull request to the [obsidian-help](https://github.com/obsidianmd/obsidian-help) repository.
+
 ### Community
 
 The [plugin-dev](https://discord.com/channels/686053708261228577/840286264964022302) channel on our official Discord server is where you can discuss plugin development and help other developers with their plugins.
