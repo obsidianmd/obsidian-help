@@ -1,6 +1,11 @@
 ---
+aliases:
+description: This page details the functions used in Obsidian Bases to manipulate data from properties in filters and formulas.
+mobile: true
 permalink: bases/functions
+publish: true
 ---
+
 Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[properties]] in [[Views#Filters|filters]] and [[formulas]]. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
 
 Aside from [[Functions#Global|Global]] functions, most functions depend on the type of value you want to modify:
@@ -277,7 +282,7 @@ Functions you can use with a sequence of characters such as `"hello"`.
 - `replacement` is the value to replace found patterns with.
 - If `pattern` is a string, all occurrences of the pattern will be replaced.
 - If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
-- Example: `"a,b,c,d".replace(/,/, "-")` returns `"a-b,c,d"`, where as `"a,b,c,d".replace(/,/g, "-")` returns `"a-b-c-d"`.
+- Example: `""a:b:c:d".replace(/:/, "-")` returns `"a-b,c,d"`, where as `"a:b:c:d".replace(/:/g, "-")` returns `"a-b-c-d"`.
 
 ### `repeat()`
 
