@@ -9,7 +9,7 @@ publish: true
 
 The ribbon functions as a space for common commands within Obsidian. 
 
-On desktop, it's located in the [[Sidebar#Open hidden sidebars|left Sidebar]] and remains visible even when the left Sidebar is closed.
+On desktop, it's located in the [[Sidebar#Open hidden sidebars|left Sidebar]] and remains visible even when the left Sidebar is closed. 
 
 On mobile, you can access the ribbon by tapping the **Menu option** ( ![[lucide-menu.svg#icon]] ) at the bottom-right corner of the app when you're not editing a note.
 
@@ -34,6 +34,13 @@ On the desktop version, you can customize the ribbon as follows:
 - Rearrange the order of ribbon actions by dragging and dropping the icons.
 - To hide specific actions, right-click on an empty space within the ribbon and uncheck the actions you want to hide.
 
+#### Hide the ribbon
+
+You can hide the ribbon in two ways:
+
+- Right-click on the ribbon and select **Hide ribbon**.
+- Open **Settings** → **Appearance**, scroll down to **Advanced**, and disable **Show ribbon**.
+
 #### Show the ribbon
 
 If you have hidden the ribbon and want to display it again:
@@ -48,7 +55,7 @@ If you have hidden the ribbon and want to display it again:
 
 ### Mobile
 
-In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the visibility status of the ribbon menu. To access these customizations, follow these steps:
+In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the ribbon menu. To access these customizations, follow these steps:
 
 1. Open Obsidian's **settings** ( ![[lucide-cog.svg#icon]] ).
 2. Navigate to the **appearance** section.
