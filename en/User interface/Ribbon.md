@@ -19,7 +19,7 @@ Each action is represented by an icon in the ribbon. Hovering over these icons w
 
 1. Open **[[Manage vaults|Vault switcher]]** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 2. Access **help** ( ![[lucide-help-circle.svg#icon]] ).
-3. Open **settings** ( ![[lucide-settings.svg#icon]] ).
+3. Open **[[Settings]]** ( ![[lucide-settings.svg#icon]] ).
 
 In the mobile version, you can configure a quick access action on the ribbon. For more information, see the [[#Mobile|mobile section]] and [[Use the mobile app]].
 
@@ -39,13 +39,13 @@ On the desktop version, you can customize the ribbon as follows:
 You can hide the ribbon in two ways:
 
 - Right-click on the ribbon and select **Hide ribbon**.
-- Open **Settings** → **Appearance**, scroll down to **Advanced**, and disable **Show ribbon**.
+- Open **[[Settings]]** → **Appearance**, scroll down to **Advanced**, and disable **Show ribbon**.
 
 #### Show the ribbon
 
 If you have hidden the ribbon and want to display it again:
 
-1. Open **Settings** → **Appearance**.
+1. Open **[[Settings]]** → **Appearance**.
 2. Scroll down to **Advanced**.
 3. Enable **Show ribbon**.
 4. The ribbon will appear again on the left side of the window.
@@ -57,7 +57,7 @@ If you have hidden the ribbon and want to display it again:
 
 In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the ribbon menu. To access these customizations, follow these steps:
 
-1. Open Obsidian's **settings** ( ![[lucide-cog.svg#icon]] ).
+1. Open Obsidian's **[[Settings]]** ( ![[lucide-cog.svg#icon]] ).
 2. Navigate to the **appearance** section.
 3. Scroll down to the **advanced** options.
 4. Select the **Manage** button under the **Ribbon menu** item.

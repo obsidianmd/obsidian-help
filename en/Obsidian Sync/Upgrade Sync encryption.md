@@ -34,7 +34,7 @@ Before you proceed, create a [[Back up your Obsidian files|backup]] of your vaul
 > 1. Remote data will be removed from Obsidian servers, and vault data will be re-uploaded in its place.
 > 2. All [[Version history|version history]] for the vault will be lost.
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, select **Sync**.
 3. Click **Upgrade vault**. This option will only be visible if an upgrade is available for your remote vault.
 4. Double check your backups and click **Continue**.

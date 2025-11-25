@@ -87,7 +87,7 @@ In general we recommend using small models with Web Clipper because they are fas
 
 ### Custom providers and models
 
-To add a custom provider and/or model go to Web Clipper **Settings** → **Interpreter**:
+To add a custom provider and/or model go to Web Clipper **[[Settings]]** → **Interpreter**:
 
 - **Add provider** to configure preset and custom providers.
 - **Add model** to configure preset and custom models.

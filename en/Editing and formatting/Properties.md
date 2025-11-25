@@ -64,7 +64,7 @@ You can rename a property by right-clicking it in the [[Properties view|All prop
 
 ### Display modes
 
-You can change how properties are displayed in your note by going to  **Settings → Editor → Properties in document**. The options are:
+You can change how properties are displayed in your note by going to  **[[Settings]] → Editor → Properties in document**. The options are:
 
 - **Visible** (default) – displays properties at the top of the note, if there are any.
 - **Hidden** – hides properties, can still be displayed in the sidebar via [[Properties view]].
@@ -214,7 +214,7 @@ date: 2020-08-21
 The date picker follows your operating system's default date and time format. You can change it in your system preferences: 
 
 > [!info]- Windows
-> **Settings → Time & Language → Language & Region → Regional Format → Change Formats**
+> **[[Settings]] → Time & Language → Language & Region → Regional Format → Change Formats**
 > 
 > ![[Windows-OS-DateTime.png#interface]]
 

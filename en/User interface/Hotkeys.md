@@ -14,13 +14,13 @@ Hotkeys are different from [[Editing shortcuts|system keyboard shortcuts]] (like
 
 The fastest way to see the hotkey set for a command is to find the command in the [[Command palette]]. If there's a hotkey listed for that command, it's set.
 
-You can also view and manage all hotkeys in **Settings → Hotkeys**.
+You can also view and manage all hotkeys in **[[Settings]] → Hotkeys**.
 
 ## Set a hotkey
 
 To add or modify a hotkey:
 
-1. Open **Settings → Hotkeys**.
+1. Open **[[Settings]] → Hotkeys**.
 2. Find the command in the list or use the search filter.
 3. Select the plus (+) icon next to the command.
 4. Press the keyboard combination you want to use.
@@ -32,13 +32,13 @@ You can assign multiple hotkey combinations to a single command by selecting the
 
 To remove a hotkey:
 
-1. Open **Settings → Hotkeys**.
+1. Open **[[Settings]] → Hotkeys**.
 2. Find the command with the hotkey you want to remove.
 3. Select the X icon next to the keyboard combination.
 
 ## Filter hotkeys
 
-To show only commands that have assigned hotkeys, select the filter icon in **Settings → Hotkeys**.
+To show only commands that have assigned hotkeys, select the filter icon in **[[Settings]] → Hotkeys**.
 
 ## Non-US keyboard layouts
 

@@ -13,11 +13,11 @@ Settings allow you to customize your Obsidian experience. Configure general opti
 
 ### Desktop
 
-In the [[Sidebar#Open hidden sidebars|left sidebar]], select **Settings** ( ![[lucide-cog.svg#icon]] ). You can also open Settings with the [[Command palette]].
+In the [[Sidebar#Open hidden sidebars|left sidebar]], select **[[Settings]]** ( ![[lucide-cog.svg#icon]] ). You can also open Settings with the [[Command palette]].
 
 ### Mobile
 
-In the left sidebar, select **Settings** ( ![[lucide-cog.svg#icon]] ).
+In the left sidebar, select **[[Settings]]** ( ![[lucide-cog.svg#icon]] ).
 
 ## Settings organization
 

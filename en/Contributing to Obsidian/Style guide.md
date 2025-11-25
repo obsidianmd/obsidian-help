@@ -53,7 +53,7 @@ _To allow device-specific configuration, Obsidian Sync doesn't sync its own sett
 - Prefer "sidebar" over "side bar".
 - Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
 
-When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**Settings → Community plugins**".
+When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**[[Settings]] → Community plugins**".
 
 ### Notes, files, and folders
 
@@ -82,13 +82,13 @@ Hyphenate directional terms when using them as adjectives. Avoid hyphenation whe
 
 **Recommended:**
 
-- Select **Settings** in the bottom-left corner.
-- Select **Settings** in the bottom left.
+- Select **[[Settings]]** in the bottom-left corner.
+- Select **[[Settings]]** in the bottom left.
 
 **Not recommended:**
 
-- Select **Settings** in the bottom left corner.
-- Select **Settings** in the bottom-left.
+- Select **[[Settings]]** in the bottom left corner.
+- Select **[[Settings]]** in the bottom-left.
 
 Prefer "upper-left" and "upper-right" over "top-left" and "top-right".
 
@@ -321,7 +321,7 @@ On the desktop version, you can customize the ribbon as follows:
 
 In the mobile version, you can customize the ribbon through settings:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Navigate to **Appearance**.
 3. Click **Manage** under **Ribbon menu**.
 ```

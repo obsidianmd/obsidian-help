@@ -35,7 +35,7 @@ By default, the options that are available to be added to the toolbar are editin
 
 In addition to that, you can add global commands like "Change theme".
 
-1. Find **Manage toolbar options** under **Settings** → **Mobile**.
+1. Find **Manage toolbar options** under **[[Settings]]** → **Mobile**.
 2. Scroll to the very bottom, find **Add global command**.
 3. Type the name of the command you wish to add.
 4. Select the command you’ll like to add.

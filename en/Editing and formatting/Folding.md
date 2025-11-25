@@ -10,7 +10,7 @@ Learn how to get a better overview of large notes by using _folding_ to hide par
 
 You can fold headings and indented lists by hovering the mouse cursor over the section you want to fold, and then selecting the arrow on the left. Folded sections show an arrow regardless of if you hover it or not.
 
-Folding is turned on by default. To turn off folding, open **Settings** → **Editor**, and then turn off **Fold indent** or **Fold heading**, depending on your needs.
+Folding is turned on by default. To turn off folding, open **[[Settings]]** → **Editor**, and then turn off **Fold indent** or **Fold heading**, depending on your needs.
 
 To toggle all sections at the same time, use the following commands:
 

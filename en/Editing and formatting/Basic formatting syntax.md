@@ -59,7 +59,7 @@ Obsidian includes a **[[Settings#Strict line breaks|Stict line breaks]]** sett
 
 To enable this feature:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Go to the **Editor** tab.
 3. Enable **Strict Line Breaks**.
 

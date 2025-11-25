@@ -48,7 +48,7 @@ iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive
 
 - **Enable iCloud Drive**:
     - On macOS: Go to **System Preferences → Apple ID → iCloud → iCloud Drive**.
-    - On iOS: Go to **Settings → [Your Name] → iCloud → iCloud Drive**.
+    - On iOS: Go to **[[Settings]] → [Your Name] → iCloud → iCloud Drive**.
 - **Create a new vault in iCloud**:
     - On macOS:
         1. Open **Obsidian** and select **Create new vault**.

@@ -61,7 +61,7 @@ Your data, however, is usually safely stored locally on each of your devices.
 To continue using Obsidian Sync, we suggest doing a full re-setup to be able to add new devices to your Sync system:
 
 1. Make a full vault backup on your primary device, just in case something goes wrong. This can be as simple as making a copy of the vault folder, or creating a zip file from the vault.
-2. Disconnect the remote vault in each of your devices. This can be done by going to **Settings → Sync → Pick remote vault → Disconnect**.
+2. Disconnect the remote vault in each of your devices. This can be done by going to **[[Settings]] → Sync → Pick remote vault → Disconnect**.
 3. [[Set up Obsidian Sync#Create a new remote vault|Create a new remote vault]] on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the [[Frequently asked questions#How many remote vaults can I have?|vault limit]])
 4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
@@ -85,7 +85,7 @@ Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provi
 ### Where can I find my current Sync server and where is it hosted?
 
 To locate your Obsidian Sync server, follow these steps:
-1. Go to **Settings** → **Sync** → **Copy Debug Info**.
+1. Go to **[[Settings]]** → **Sync** → **Copy Debug Info**.
 2. Paste the copied information into a note or file.
 3. Look for a line similar to this: `Host server: wss://sync-xx.obsidian.md`
 

@@ -7,7 +7,7 @@ For example, if you have a note with the name `202301011230 My note title` and l
 
 To update all `[[UID]]` links in your vault to use the full name of the note instead, use the [[Format converter]].
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Under **Core plugins**, enable **Format converter** and close the Settings window.
 3. In the ribbon, on the left side of the app window, select **Open format convert** ( ![[lucide-binary.svg#icon]] ).
 4. Enable **Zettelkasten link fixer**.
