@@ -1,45 +1,51 @@
 ---
 aliases:
   - User interface/Workspace/Ribbon
+description: Learn how to use the ribbon, a space for common commands in Obsidian, and customize it on desktop and mobile.
+mobile: true
 permalink: ribbon
+publish: true
 ---
+
 The ribbon functions as a space for common commands within Obsidian. 
 
-On desktop, it's located in the left sidebar and remains visible even when the left sidebar is closed. 
+On desktop, it's located in the [[Sidebar#Open hidden sidebars|left sidebar]] and remains visible even when the left sidebar is closed. 
 
-On mobile, you can access the ribbon by tapping the **Menu option** ( ![[lucide-menu.svg#icon]] ) at the bottom right corner of the app when you're not editing a note.
+On mobile, you can access the ribbon by tapping the **Menu option** ( ![[lucide-menu.svg#icon]] ) at the bottom-right corner of the app when you're not editing a note.
 
 ## Actions
 
-Each action is represented by an icon in the ribbon. Hovering over these icons will display a tooltip, while clicking or tapping them will activate the associated action.
+Each action is represented by an icon in the ribbon. Hovering over these icons will display a tooltip, while selecting them will activate the associated action. On mobile, you can tap these icons to activate them.
 
-1. Open another vault ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
+1. Open **[[Manage vaults|Vault switcher]]** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 2. Access **help** ( ![[lucide-help-circle.svg#icon]] ).
 3. Open **settings** ( ![[lucide-settings.svg#icon]] ).
 
-In the mobile version, the ribbon can serve as a quick access action, which can be configured by following the instructions in the [[#Mobile|mobile section]] on customizing the ribbon.
+In the mobile version, you can configure a quick access action on the ribbon. For more information, see the [[#Mobile|mobile section]].
 
-## Customizing the ribbon
+## Customize the ribbon
 
-Your customized ribbon layout is remembered across sessions and synchronizes with other devices and the mobile app when app settings, specifically the `workspace.json` file, are synchronized.
+Your customized ribbon layout is remembered across sessions. It synchronizes with other devices and the mobile app when app settings (in the `workspace.json` and `workspace-mobile.json` files) are synchronized.
 
 ### Desktop
 
 On the desktop version, you can customize the ribbon as follows:
 
-- Rearrange the order of ribbon actions by simply dragging and dropping the icons.
+- Rearrange the order of ribbon actions by dragging and dropping the icons.
 - To hide specific actions, right-click on an empty space within the ribbon and uncheck the actions you want to hide.
 
-### Unhiding the ribbon
+#### Show the ribbon
 
-If you have hidden the ribbon and want to show it again on desktop:
+If you have hidden the ribbon and want to display it again:
 
 1. Open **Settings** → **Appearance**.
 2. Scroll down to **Advanced**.
-3. Enable **"Show ribbon"**.
+3. Enable **Show ribbon**.
 4. The ribbon will appear again on the left side of the window.
 
-If you're using a community theme or custom CSS, make sure it does not hide the ribbon through custom style rules.
+> [!tip] Custom CSS
+> If you're using a community theme or custom CSS, make sure it does not hide the ribbon through custom style rules.
+
 ### Mobile
 
 In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the visibility status of the ribbon menu. To access these customizations, follow these steps:
@@ -47,7 +53,7 @@ In the mobile version of Obsidian, you can perform quick access actions, rearran
 1. Open Obsidian's **settings** ( ![[lucide-cog.svg#icon]] ).
 2. Navigate to the **appearance** section.
 3. Scroll down to the **advanced** options.
-4. Click the **Manage** button under the **Ribbon menu** item.
+4. Select the **Manage** button under the **Ribbon menu** item.
 
 #### Quick access
 
