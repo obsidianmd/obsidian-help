@@ -17,7 +17,7 @@ Obsidian lets you control how you read and edit notes written in Markdown using 
 - **Modes** control how Markdown appears while you're editing.
 
 > [!note]
-> By default, Obsidian opens new tabs in editing mode. You can change this under **Settings → Editor → Default view for new tabs**.
+> By default, Obsidian opens new tabs in editing mode. You can change this under **[[Settings]] → Editor → Default view for new tabs**.
 
 ## Reading view
 
@@ -30,9 +30,9 @@ To switch to *Reading view*:
 - Or press `Ctrl+E` (`Cmd+E` on macOS).
 
 > [!note]
-> Enable **Settings → Appearance → Show tab title bar** to see the view switcher icon.  
+> Enable **[[Settings]] → Appearance → Show tab title bar** to see the view switcher icon.  
 > 
-> If that is disabled, turn on **Settings → Editor → Show editing mode in status bar** to toggle views from the status bar.
+> If that is disabled, turn on **[[Settings]] → Editor → Show editing mode in status bar** to toggle views from the status bar.
 
 > [!tip] View side-by-side  
 > To open a note in both *Editing* and *Reading view* at the same time, hold `Ctrl` (or `Cmd` on macOS) and click the view switcher.
@@ -55,7 +55,7 @@ To switch to *Live Preview*:
 - Or use the [[Command palette|command]] **Toggle Reading view**.
 
 > [!note]
-> By default, editing view is set to *Live Preview*. You can change this under **Settings → Editor → Default editing mode**.
+> By default, editing view is set to *Live Preview*. You can change this under **[[Settings]] → Editor → Default editing mode**.
 
 > [!tip] In many cases, Live Preview can eliminate the need to switch to [[#Reading view]].
 
@@ -67,7 +67,7 @@ To switch to *Source mode*:
 - Click the interactive status icon ( ![[lucide-book-icon.svg#icon]] or ![[lucide-edit-3.svg#icon]] ) in the status bar and select **Source mode**.
 
 > [!note]
-> By default, editing view is set to *Live Preview*. Change this to *Source mode* under **Settings → Editor → Default editing mode**.
+> By default, editing view is set to *Live Preview*. Change this to *Source mode* under **[[Settings]] → Editor → Default editing mode**.
 > 
 > To switch to *Source mode*, now additionally you can:
 > 

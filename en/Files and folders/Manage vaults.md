@@ -63,7 +63,7 @@ Some operating systems do not allow the vault to be moved with the Vault Switche
 6. Next to **Open folder as vault**, click **Open**.
 7. Navigate to and select your new vault folder.
 8. Click **Open**.
-9. Verify that the vault contents are unchanged. If necessary, re-enable community plugins by navigating to **Settings → Community Plugins → Turn restricted mode off**.
+9. Verify that the vault contents are unchanged. If necessary, re-enable community plugins by navigating to **[[Settings]] → Community Plugins → Turn restricted mode off**.
 
 ## Remove vault
 

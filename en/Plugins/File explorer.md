@@ -23,7 +23,7 @@ To create a new note in the default location for new notes:
 2. Type the name of the note, and then press Enter.
 
 > [!tip]
-> You can change the default location for new notes under **Settings → Files and links → Default location for new notes**.
+> You can change the default location for new notes under **[[Settings]] → Files and links → Default location for new notes**.
 
 To create a new note in a specific folder:
 

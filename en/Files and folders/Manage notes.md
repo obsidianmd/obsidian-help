@@ -42,7 +42,7 @@ Or, select **Delete current file** from the [[Command palette]].
 You can also delete a note or folder, using the [[File explorer#Delete a file or folder|File explorer]].
 
 > [!note] What happens to files after I delete them?
-> To change what happens to deleted files, select one of the following options under **Settings → Files & Links**:
+> To change what happens to deleted files, select one of the following options under **[[Settings]] → Files & Links**:
 >
 > - **System trash**: By default, deleted files end up in the system trash for your operating system. To restore a file, use your preferred file manager.
 > - **Obsidian trash**: You can send deleted files to a `.trash` folder in your vault.

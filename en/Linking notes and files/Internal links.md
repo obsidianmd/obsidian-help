@@ -14,7 +14,7 @@ Learn how to link to notes, attachments, and other files from your notes, using 
 
 Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under: 
 
-**Settings** → **Files & Links** → **Automatically update internal links**.
+**[[Settings]]** → **Files & Links** → **Automatically update internal links**.
 
 ## Supported formats for internal links
 
@@ -32,7 +32,7 @@ By default, due to its more compact format, Obsidian generates links using the W
 
 To use the Markdown format:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Under **Files and Links**, disable **Use \[\[Wikilinks\]\]**.
 
 Even if you disable the Wikilink format, you can still autocomplete links by typing two square brackets `[[`. When you select one of the suggested files, Obsidian instead generates a Markdown link.

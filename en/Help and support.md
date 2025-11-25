@@ -39,7 +39,7 @@ When you encounter a bug or need assistance from [[#Contact Obsidian support|Obs
 
 You can check how long Obsidian takes to start by using the **Startup time** feature.
 
-1. Open **Settings → General → Advanced**.
+1. Open **[[Settings]] → General → Advanced**.
 2. Next to **Notify if startup takes longer than expected**, select the **timer icon**.
 3. A **Startup time** window will appear, showing detailed timing information:
    - **Total app startup**: Overall launch time.

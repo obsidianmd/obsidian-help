@@ -11,7 +11,7 @@ The Textbundle format bundles Markdown text and all referenced images into a sin
 
 You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.

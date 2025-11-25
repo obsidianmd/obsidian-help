@@ -9,13 +9,13 @@ By default, Obsidian runs in Restricted Mode to prevent third-party code executi
 
 To turn off Restricted mode:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the side menu, select **Community plugins**.
 3. Select **Turn on community plugins**.
 
 To turn on Restricted mode:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the side menu, select **Community plugins**.
 3. Next to **Restricted mode**, select **Turn on**.
 

@@ -22,7 +22,7 @@ You can add attachments to your vault in multiple ways. Only [[Accepted file for
 
 By default, attachments are added to the root of your vault.
 
-You can change the default attachment location under **Settings → Files & Links → Default location for new attachments**.
+You can change the default attachment location under **[[Settings]] → Files & Links → Default location for new attachments**.
 
 - **Vault folder** adds the attachment to the root of your vault.
 - **In the folder specified below** adds the attachment to a specified folder.

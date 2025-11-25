@@ -13,7 +13,7 @@ On mobile devices, Obsidian is updated through the device's app store. The insta
 
 ## Check for updates and view version
 
-Open **Settings → General**.
+Open **[[Settings]] → General**.
 
 You can find the current versions of the app and installer at the top of the page.
 
@@ -25,7 +25,7 @@ To check for updates, select **Check for updates**. If there are new updates, Ob
 
 If you prefer to update Obsidian manually, you can disable automatic updates.
 
-1. Open **Settings → General**.
+1. Open **[[Settings]] → General**.
 2. Disable **Automatic updates**.
 
 ## Installer updates

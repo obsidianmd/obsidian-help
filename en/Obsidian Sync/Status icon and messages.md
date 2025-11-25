@@ -34,7 +34,7 @@ Obsidian Sync includes a detailed sync log that tracks all interactions between 
 
 **Access the activity log:**
 - Click the sync status icon in the status bar
-- Go to **Settings → Sync → Activity log**
+- Go to **[[Settings]] → Sync → Activity log**
 - Use **Command palette → Sync: Open activity log**
 
 The log provides timestamps and details for each sync operation, making it useful for troubleshooting sync issues.
@@ -98,7 +98,7 @@ These are messages related to a change in your subscription or account.
 Your account has exceeded the [[Frequently asked questions#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
 
 To reduce vault size:
-1. Open **Settings → Sync**.
+1. Open **[[Settings]] → Sync**.
 2. Use the options under **Vault size over limit** to remove large files.
 
 **Vault not found**  

@@ -42,7 +42,7 @@ Web Clipper includes keyboard shortcuts you can use to speed up your workflow. T
 The Web Clipper interface is divided into four sections:
 
 1. **Header** where you can switch templates, turn on [[Highlight web pages|highlighting]], and access settings.
-2. **Properties** shows the [[Properties|metadata]] extracted from the page that will be saved as [[properties]] in Obsidian.
+2. **Properties** shows the [[Properties|metadata]] extracted from the page that will be saved as [[Properties]] in Obsidian.
 3. **Note content** that will be saved to Obsidian.
 4. **Footer** allows you select the vault and folder, and add to Obsidian.
 

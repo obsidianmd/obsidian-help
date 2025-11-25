@@ -74,7 +74,7 @@ To sync community plugins, manually enable **Active community plugin list** and 
 
 ### Change the file types you want to sync
 
-1. Open **Settings → Sync**.
+1. Open **[[Settings]] → Sync**.
 2. Under **Selective sync**, enable the file types you want to sync.
 3. Restart the application to apply the new settings. On mobile or tablet, this may require a force-quit.
 
@@ -85,7 +85,7 @@ Note that your [[Plans and storage limits|Sync plan]] defines the maximum file s
 ### Exclude a folder from syncing
 
 By default, Obsidian syncs all files and folders in your vault. To exclude a specific folder from syncing:
-1. Open **Settings → Sync**.
+1. Open **[[Settings]] → Sync**.
 2. Next to **Excluded folders**, select **Manage**.
 3. Select the folder you want to exclude from the list.
 4. Select **Done**.
@@ -122,7 +122,7 @@ To modify sync settings across multiple devices, follow these steps:
 
 The primary device acts as the source of truth. Changes made here are synced across all other devices.
 
-1. Go to **Settings → Sync**.
+1. Go to **[[Settings]] → Sync**.
 2. Activate the desired settings under **Vault configuration sync**.
 3. Reload or restart Obsidian. On mobile or tablet, a force-quit may be required.
 4. Allow time for the settings to sync with your remote vault.
@@ -131,7 +131,7 @@ The primary device acts as the source of truth. Changes made here are synced acr
 
 Secondary devices (such as your phone) receive updates from the primary device.
 
-1. Go to **Settings → Sync**.
+1. Go to **[[Settings]] → Sync**.
 2. Enable the necessary settings under **Vault configuration sync**.
 3. Wait for changes to download from the remote vault.
 4. Reload or restart the app to apply the synced settings. On mobile or tablet, a force-quit may be required.
@@ -155,7 +155,7 @@ Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] t
 
 To create a new settings profile:
 
-1. Open **Settings → Files and links**.
+1. Open **[[Settings]] → Files and links**.
 2. Under **Override config folder**, enter a name for your profile, starting with a period (`.`), e.g., `.obsidian-mobile`.
 3. Relaunch Obsidian to apply the changes.
 

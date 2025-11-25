@@ -23,7 +23,7 @@ For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note cre
 
 By default, new unique notes are empty. To use another file as a template:
 
-- Open **Settings**.
+- Open **[[Settings]]**.
 - In the sidebar, click **Core plugins → Unique note creator**.
 - In **Template file location**, enter the file you want to use as template.
 

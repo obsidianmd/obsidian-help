@@ -12,7 +12,7 @@ Learn how to extend Obsidian with plugins built by the community. Use plugins to
 
 ## Browse community plugins
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode|Restricted Mode]].
 3. Select **Browse** to list all available community plugins.
 
@@ -24,7 +24,7 @@ You can also browse available plugins in your browser, by heading to [obsidian.m
 
 To install a community plugin, you must first turn off [[Plugin security#Restricted mode|Restricted Mode]].
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the side menu, select **Community plugins**.
 3. Select **Browse** to explore available community plugins.
 4. Select the plugin you want to install.
@@ -34,7 +34,7 @@ To use an installed plugin, you need to enable it.
 
 ## Enable a community plugin
 
-Either select **Enable** directly after installing it, or enable it from the list of Community plugins under **Settings → Community plugins → Installed plugins**.
+Either select **Enable** directly after installing it, or enable it from the list of Community plugins under **[[Settings]] → Community plugins → Installed plugins**.
 
 ## Update plugins
 
@@ -42,22 +42,38 @@ For security purposes, community plugins don't update automatically. You can eit
 
 To update all your plugins:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Under **Community plugins → Current plugins**, select **Check for updates**.
 3. If updates are available, select **Update all**.
 
 To update an individual plugin:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Under **Community plugins → Current plugins**, select **Check for updates**.
 3. Under **Installed plugins**, select **Update** next to the plugin you want to update.
 
 ## Uninstall a community plugin
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the side menu, select **Community plugins**.
-3. Under **Installed plugins**, select **Uninstall** ( ![[lucide-trash-2.svg#icon]] ).
-4. Select **Uninstall** again to confirm.
+3. Under **Installed plugins**, select the trash ( ![[lucide-trash-2.svg#icon]] ) icon next to the plugin you want to uninstall.
+4. Select **Uninstall** to confirm.
+
+## Manage installed plugins
+
+Under **[[Settings]] → Community plugins → Installed plugins**, each plugin has several icons for managing it:
+
+- **[[Settings]]** ( ![[lucide-settings.svg#icon]] ) — Open the plugin's settings page if it has configurable options.
+- **[[Hotkeys]]** ( ![[lucide-plus-circle.svg#icon]] ) — Set keyboard shortcuts for the plugin's commands.
+- **Funding** ( ![[lucide-heart.svg#icon]] ) — View the plugin author's funding URL to support their work.
+- **Uninstall** ( ![[lucide-trash-2.svg#icon]] ) — Remove the plugin from your vault.
+- **Toggle** — Enable or disable the plugin without uninstalling it.
+
+You can also:
+
+- Select the **refresh** icon to reload all plugins.
+- Select the **folder** ( ![[lucide-folder-open.svg#icon]] ) icon to open the plugins folder in your [[Configuration folder|configuration folder]].
+- Use the **search bar** to filter plugins by name.
 
 ## Learn more
 

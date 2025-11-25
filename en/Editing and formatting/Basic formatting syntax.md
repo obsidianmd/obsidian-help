@@ -55,11 +55,11 @@ By default in Obsidian, pressing `Enter` once will create a new line in your n
 > [!question]- Why don't multiple `Enter` presses create more line breaks in reading view?
 > In Markdown, a single `Enter` is ignored, and multiple consecutive `Enter` presses result in just one new paragraph. This behavior aligns with Markdown’s soft wrap rule, where extra blank lines do not generate additional line breaks or paragraphs—they are collapsed into a single paragraph break. This is how Markdown handles text by default, ensuring that paragraphs flow naturally without unexpected breaks​.
 
-Obsidian includes a **Strict Line Breaks** setting, which makes Obsidian follow the standard Markdown specification for line breaks.
+Obsidian includes a **[[Settings#Strict line breaks|Stict line breaks]]** setting, which makes Obsidian follow the standard Markdown specification for line breaks.
 
 To enable this feature:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Go to the **Editor** tab.
 3. Enable **Strict Line Breaks**.
 
