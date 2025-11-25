@@ -64,7 +64,7 @@ To update an individual plugin:
 Under **[[Settings]] → Community plugins → Installed plugins**, each plugin has several icons for managing it:
 
 - **[[Settings]]** ( ![[lucide-settings.svg#icon]] ) — Open the plugin's settings page if it has configurable options.
-- **Hotkeys** ( ![[lucide-plus-circle.svg#icon]] ) — Set keyboard shortcuts for the plugin's commands.
+- **[[Hotkeys]]** ( ![[lucide-plus-circle.svg#icon]] ) — Set keyboard shortcuts for the plugin's commands.
 - **Funding** ( ![[lucide-heart.svg#icon]] ) — View the plugin author's funding URL to support their work.
 - **Uninstall** ( ![[lucide-trash-2.svg#icon]] ) — Remove the plugin from your vault.
 - **Toggle** — Enable or disable the plugin without uninstalling it.
