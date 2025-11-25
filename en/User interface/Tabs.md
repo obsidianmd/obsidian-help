@@ -4,8 +4,12 @@ aliases:
   - Linked pane
   - Pane layout
   - User interface/Use tabs in Obsidian
+description: Learn how to open, organize, and manage tabs in Obsidian, including pinning, stacking, and linked views.
+mobile: false
 permalink: tabs
+publish: true
 ---
+
 Tabs in Obsidian work much like tabs in other apps, such as web browsers.
 
 You can open as many tabs as you want in Obsidian. You can also arrange tabs to create custom layouts that persist until the next time you open the app.
@@ -72,9 +76,11 @@ To move a tab to another existing window, drag the tab to the window you want to
 
 ### Pin a tab
 
-To pin a tab, right-click the tab and select **Pin**. Links in a pinned tab always open in a separate tab.
+To pin a tab in the main editor, right-click the tab and select **Pin**. Links in a pinned tab always open in a separate tab.
 
-To unpin a pinned tab, right-click the tab and select **Unpin**.
+To unpin a pinned tab in the main editor, right-click the tab and select **Unpin**.
+
+To pin or unpin a tab in the sidebar, see [[Sidebar#Pin tabs|pinning tabs in the sidebar]].
 
 ## Switch to a different tab
 
