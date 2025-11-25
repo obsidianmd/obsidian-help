@@ -37,7 +37,7 @@ Global functions are used without a type.
 `duration(value: string): duration`
 
 - Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
-- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but the do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
+- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but they do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
 - When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
 
 ### `file()`
