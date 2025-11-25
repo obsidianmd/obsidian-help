@@ -9,7 +9,9 @@ permalink: sidebar
 publish: true
 ---
 
-Obsidian has two sidebars: a left sidebar and a right sidebar. On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
+Obsidian has two sidebars: a left sidebar and a right sidebar. Sidebars hold tabs created by plugins, such as [[Backlinks]], [[Outgoing links]], and the [[File explorer]]. On desktop, you can also drag notes into the sidebar to keep them visible alongside your main editor. 
+
+On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
 
 ## Open hidden sidebars
 
@@ -33,6 +35,16 @@ You can switch between tabs by selecting on the icon. A tooltip appears to help 
 
 In each pane, you can only see one tab at any given moment. Some actions automatically bring a tab into view. For example, when you select a tag, its tab opens.
 
+### Open or reopen tabs
+
+There are several ways to add tabs to your sidebars:
+
+- **Enable a plugin**: Many plugins automatically create sidebar tabs when enabled. Go to **Settings → Community plugins** (or **Core plugins**) and enable the plugin for the tab you want.
+- **Run a command**: Use the [[Command palette]] to search for commands that open specific tabs. For example, search for "Backlinks" or "Outgoing links" to open those tabs.
+- **Drag a note** (desktop only): On desktop, you can drag a note from the [[File explorer]] or from an editor tab into the sidebar to open it there.
+
+If you've closed a tab and want to get it back, these same methods will reopen it.
+
 ### Close tabs
 
 Some tabs can be closed via the right-click menu, while others cannot. If you don't want to see a tab that can't be closed, consider disabling the relevant plugin or collapsing the sidebar by selecting the arrow icon.
@@ -40,6 +52,8 @@ Some tabs can be closed via the right-click menu, while others cannot. If you do
 ### Rearrange tabs
 
 You can drag and drop tab icons to rearrange them within a group of tabs.
+
+On desktop, you can also drag tabs from the sidebar into the main editor area to open them there.
 
 ### Pin tabs
 
