@@ -367,7 +367,7 @@ Use the search bar to filter commands, and select the filter icon to show only c
 
 [[Core plugins]] are built-in plugins that come with Obsidian. Each plugin adds specific functionality to the app.
 
-To enable or disable a core plugin, select the toggle next to the plugin name. Select the plus ( ![[lucide-plus-circle.svg#icon]] ) icon to view information about the plugin. Select the settings ( ![[lucide-settings.svg#icon]] ) icon to open the plugin's settings page.
+To enable or disable a core plugin, select the toggle next to the plugin name. Select the plus ( ![[lucide-plus-circle.svg#icon]] ) icon to view the [[Hotkeys]] for the plugin. Select the settings ( ![[lucide-settings.svg#icon]] ) icon to open the plugin's settings page.
 
 Use the search bar to filter plugins by name.
 
@@ -385,13 +385,4 @@ Displays the number of community plugins you have installed. Select **Check for 
 
 ### Installed plugins
 
-View and manage your installed community plugins. Use the search bar to filter plugins by name.
-
-For each plugin, you can:
-- Select the settings ( ![[lucide-settings.svg#icon]] ) icon to open the plugin's settings page
-- Select the info ( ![[lucide-info.svg#icon]] ) icon to view plugin information
-- Select the heart ( ![[lucide-heart.svg#icon]] ) icon to add the plugin to favorites
-- Select the trash ( ![[lucide-trash-2.svg#icon]] ) icon to uninstall the plugin
-- Use the toggle to enable or disable the plugin
-
-Select the refresh icon to reload plugins, or the folder ( ![[lucide-folder-open.svg#icon]] ) icon to open the plugins folder in your [[Configuration folder|configuration folder]].
+View and manage your installed community plugins. Use the search bar to filter plugins by name. Each plugin has icons for settings, hotkeys, funding, uninstalling, and a toggle to enable or disable it.
