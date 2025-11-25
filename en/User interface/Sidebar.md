@@ -22,8 +22,8 @@ On desktop and larger tablets, open a collapsed sidebar by selecting the left ex
 On mobile and smaller tablets, you can open hidden sidebars in the following ways:
 
 - Swipe left or right
-- Select the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) icon
-- Long-press the note menu ( ![[lucide-ellipsis-vertical.svg#icon]] )
+- Select the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) icon (left sidebar only)
+- Use the *Toggle left* or *Toggle right* [[Command palette]] options. 
 
 ## Tabs
 
@@ -67,4 +67,3 @@ To create a new tab group, drag the icon of a tab above or below a current tab g
 To close a tab group, you can [[#Close tabs|close all tabs in it]], or drag all tabs in the group by their icons and drop them into existing tab groups.
 
 When only the tab area of a tab group is highlighted, the tab being dragged will merge with other tabs in that group.
-
