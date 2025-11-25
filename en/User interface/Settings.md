@@ -365,4 +365,33 @@ Use the search bar to filter commands, and select the filter icon to show only c
 
 ## Core plugins
 
+[[Core plugins]] are built-in plugins that come with Obsidian. Each plugin adds specific functionality to the app.
+
+To enable or disable a core plugin, select the toggle next to the plugin name. Select the plus ( ![[lucide-plus-circle.svg#icon]] ) icon to view information about the plugin. Select the settings ( ![[lucide-settings.svg#icon]] ) icon to open the plugin's settings page.
+
+Use the search bar to filter plugins by name.
+
 ## Community plugins
+
+[[Community plugins]] are third-party plugins created by the Obsidian community. Browse and install plugins by selecting **Browse**.
+
+### Restricted mode
+
+[[Plugin security#Restricted mode|Restricted mode]] disables all community plugins for security. Select **Turn on and reload** to enable restricted mode.
+
+### Current plugins
+
+Displays the number of community plugins you have installed. Select **Check for updates** to check for plugin updates.
+
+### Installed plugins
+
+View and manage your installed community plugins. Use the search bar to filter plugins by name.
+
+For each plugin, you can:
+- Select the settings ( ![[lucide-settings.svg#icon]] ) icon to open the plugin's settings page
+- Select the info ( ![[lucide-info.svg#icon]] ) icon to view plugin information
+- Select the heart ( ![[lucide-heart.svg#icon]] ) icon to add the plugin to favorites
+- Select the trash ( ![[lucide-trash-2.svg#icon]] ) icon to uninstall the plugin
+- Use the toggle to enable or disable the plugin
+
+Select the refresh icon to reload plugins, or the folder ( ![[lucide-folder-open.svg#icon]] ) icon to open the plugins folder in your [[Configuration folder|configuration folder]].
