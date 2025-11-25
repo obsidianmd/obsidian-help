@@ -102,3 +102,19 @@ To regulate access to Obsidian Sync on your network, you need to manage the foll
 The `xx` in this case represents a number ranging from `1 - 100`.
 
 > [!tip] If your firewall system supports it, we recommend whitelisting `sync-*.obsidian.md` to account for the continuous growth in subdomain numbers.
+
+## Limitations
+
+Obsidian Sync is designed to keep your notes private and secure. To deliver fast, reliable sync and efficient storage across devices, we make some deliberate trade-offs in how encryption is applied.
+
+### Deterministic file-hash encryption
+
+We encrypt file hashes deterministically: the same file content, using the same encryption key and salt, always produces the same encrypted hash on the server. This helps Sync detect duplicates and avoid re-uploading or re-storing identical data, which saves bandwidth and remote storage, especially in version history or when large files repeat.
+
+However, if an attacker compromises a Sync server, and they have a separate way to force a user to upload files of their choosing, then the attacker could force the user to upload specific files and determine if the file matches against a file the user has previously uploaded.
+
+### No cryptographic binding between path and content
+
+Some metadata is not end-to-end encrypted: which device uploaded or deleted a file, when it was uploaded, and the *mapping* between encrypted file paths and encrypted content. This data is readable by the server so it can route changes, determine the version history for a file, and keep devices in sync.
+
+If a Sync server were compromised, an attacker could tamper with that mapping, causing the contents of one encrypted file to be delivered under a different file path. This doesn’t reveal your plaintext data, it remains encrypted.

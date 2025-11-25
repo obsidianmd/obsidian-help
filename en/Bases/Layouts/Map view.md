@@ -1,12 +1,18 @@
 ---
 permalink: bases/views/map
 ---
-Display files in a [[Introduction to Bases|Base]] as an interactive map with markers for each file, and a preview that displays properties of that file.
+Map is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]]. It requires installing the [Maps plugin](obsidian://show-plugin?id=maps).
+
+Select ![[lucide-map.svg#icon]]  **Map** from the view menu to display files as an interactive map with markers for each file, and a preview that displays properties of that file.
 
 ![[bases-map-places.png#interface]]
 
-> [!info] Requires Obsidian 1.10 and the Maps plugin
-> Map views require Obsidian 1.10 which is currently in [[Early access versions|early access]].  The [Maps plugin](https://github.com/obsidianmd/obsidian-maps) is an official [[Community plugins|community plugin]] that you can download separately.
+## Install the Maps plugin
+
+Map views require Obsidian 1.10. The [Maps plugin](obsidian://show-plugin?id=maps) is an official [[Community plugins|community plugin]] that you can download separately.
+
+1. Follow instructions in [[Community plugins#Install a community plugin]]
+2. Download and enable [Maps](obsidian://show-plugin?id=maps) from the list
 
 ## Example
 
@@ -104,3 +110,18 @@ Map tiles are a standard way to display digital maps. There are several services
 - [Maputnik](https://maputnik.github.io/) for customizing map tiles.
 - [Protomaps](https://protomaps.com/) for self-hosting map tiles.
 - Other hosted services with free tiers include [MapTiler](https://www.maptiler.com/) and [Mapbox](https://www.mapbox.com/).
+
+
+## Tips
+
+You can link to popular mapping services using [[Formulas]]. For example your pin can show a link to Google Maps using the following formula:
+
+```js
+link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google Maps")
+```
+
+## Troubleshooting
+
+If the map appears blank when you first load the Maps plugin, try [[Update Obsidian|updating the Obsidian installer version]].
+
+The [Maps plugin](https://github.com/obsidianmd/obsidian-maps) is open source. You can help by contributing bug reports, feature requests and pull requests.

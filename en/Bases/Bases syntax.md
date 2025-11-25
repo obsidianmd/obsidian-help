@@ -9,7 +9,7 @@ publish: true
 
 When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
 
-The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and formulas. Bases must be valid YAML conforming to the schema defined below.
+The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and [[formulas]]. Bases must be valid YAML conforming to the schema defined below.
 
 ## Example
 
@@ -35,10 +35,15 @@ properties:
     displayName: "Price"
   file.ext:
     displayName: Extension
+summaries:
+  customAverage: 'values.mean().round(3)'
 views:
   - type: table
     name: "My table"
     limit: 10
+    groupBy:
+      property: note.age
+      direction: DESC
     filters:
       and:
         - 'status != "done"'
@@ -51,6 +56,8 @@ views:
       - note.age
       - formula.ppu
       - formula.formatted_price
+    summaries:
+      formula.ppu: Average
 ```
 
 ### Filters
@@ -85,7 +92,7 @@ The syntax and available functions for filters and formulas are the same.
 
 ### Formulas
 
-The `formulas` section defines formula properties that can be displayed across all views in the base file.
+The `formulas` section defines [[Formulas|formula properties]] that can be displayed across all views in the base file.
 
 ```yaml
 formulas:
@@ -126,6 +133,39 @@ properties:
 
 Display names are not used in filters or formulas.
 
+### Summaries
+
+The `summaries` section can be used to define custom summary formulas. In addition to defining summary formulas here, there are several default summary formulas available.
+
+```yaml
+summaries:
+  customAverage: 'values.mean().round(3)'
+```
+
+In this example, the `customAverage` formula is the same as the default `Average`, except the value is rounded to a different number of places. In summary formulas, the `values` key word is a list containing all of the values for that property across every note in the result set. The summary formula should return a single `Value`.
+
+Note that this `summaries` section is different from the `summaries` section in the view config (explained below) where summary formulas as assigned to specific properties.
+
+#### Default Summary Formulas
+
+| Name      | Input Type | Description                                                   |
+| --------- | ---------- | ------------------------------------------------------------- |
+| Average   | Number     | The mathematical mean of all numbers from the input values.   |
+| Min       | Number     | The smallest number from the input values.                    |
+| Max       | Number     | The largest number from the input values.                     |
+| Sum       | Number     | The sum of all numbers in the input.                          |
+| Range     | Number     | The difference between `Max` and `Min`.                       |
+| Median    | Number     | The mathematical median of all numbers from the input values. |
+| Stddev    | Number     | The standard deviation of all numbers from the input values.  |
+| Earliest  | Date       | The earliest date from the input values.                      |
+| Latest    | Date       | The latest date from the input values.                        |
+| Range     | Date       | The difference between `Latest` and `Earliest`.               |
+| Checked   | Boolean    | The number of `true` values.                                  |
+| Unchecked | Boolean    | The number of `false` values.                                 |
+| Empty     | Any        | The number of values in the input that are empty.             |
+| Filled    | Any        | The number of values in the input that are not empty.         |
+| Unique    | Any        | The number of unique values in the input.                     |
+
 ### Views
 
 The `views` section defines how the data can be rendered. Each entry in the `views` list defines a separate view of the same data, and there can be as many different views as needed.
@@ -135,6 +175,9 @@ views:
   - type: table
     name: "My table"
     limit: 10
+    groupBy:
+      property: note.age
+      direction: DESC
     filters:
       and:
         - 'status != "done"'
@@ -147,11 +190,15 @@ views:
       - note.age
       - formula.ppu
       - formula.formatted_price
+    summaries:
+      formula.ppu: Average
 ```
 
 - `type` selects from the built-in and plugin-added view types.
 - `name` is the display name, and can be used to define the default view.
 - `filters` are exactly the same as described above, but apply only to the view.
+- `groupBy` specifies a property and sort direction. The value of the specified property for each row is used to place the row into groups.
+- `summaries` maps property names to a named summary. Summaries perform an aggregation on the property across all rows.
 
 [[Views]] can add additional data to store any information needed to maintain state or properly render, however plugin authors should take care to not use keys already in use by the core Bases plugin. As an example, a table view may use this to limit the number of rows or to select which column is used to sort rows and in which direction. A different view type such as a map could use this for mapping which property in the note corresponds to the latitude and longitude and which property should be displayed as the pin title.
 

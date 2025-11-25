@@ -1,7 +1,9 @@
 ---
 permalink: bases/views/cards
 ---
-Display files in a [[Introduction to Bases|Base]] as a grid of cards. Card views let you create gallery-like layouts with images.
+Cards is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+
+Select ![[lucide-layout-grid.svg#icon]]  **Cards** from the view menu to display files as a gallery-like grid layout with optional cover images.
 
 ## Settings
 
