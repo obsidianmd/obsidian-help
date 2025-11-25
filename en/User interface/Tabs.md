@@ -5,7 +5,7 @@ aliases:
   - Pane layout
   - User interface/Use tabs in Obsidian
 description: Learn how to open, organize, and manage tabs in Obsidian, including pinning, stacking, and linked views.
-mobile: false
+mobile: true
 permalink: tabs
 publish: true
 ---
@@ -13,6 +13,9 @@ publish: true
 Tabs in Obsidian work much like tabs in other apps, such as web browsers.
 
 You can open as many tabs as you want in Obsidian. You can also arrange tabs to create custom layouts that persist until the next time you open the app.
+
+> [!note] Mobile tabs
+> On mobile, you can manage open tabs from the tab counter in the [[Use the mobile app#Navigation bar|Navigation bar]].
 
 ## Open a new tab
 
