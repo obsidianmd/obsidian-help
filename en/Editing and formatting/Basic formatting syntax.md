@@ -103,7 +103,7 @@ Renders as:
 
 ## Headings
 
-To create a heading, add up to six `#` symbols before your heading text. The number of `#` symbols determines the size of the heading.
+To create a heading, add up to six `#` symbols before your heading text. The number of `#` symbols sets the level of the heading (as shown in the [[Outline]]).
 
 ```md
 # This is a heading 1
