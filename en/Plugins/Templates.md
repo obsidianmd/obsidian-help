@@ -45,7 +45,7 @@ For example, here's a template for study notes:
 ```markdown
 ---
 topic: 
-date: {{date}}
+date: "{{date}}"
 course: 
 tags:
   - studies
