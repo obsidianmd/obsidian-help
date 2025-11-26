@@ -526,6 +526,24 @@ Functions you can use on a link. Links can be created from a file (`file.asLink(
 
 Functions you can use with file in the vault.
 
+### Fields
+
+The following fields are available for files:
+
+| Field             | Type     | Description                                             |
+| ----------------- | -------- | ------------------------------------------------------- |
+| `file.name`       | `string` | The name of this file.                                  |
+| `file.basename`   | `string` | The name of this file without the file extension.       |
+| `file.path`       | `string` | The full path to this file, relative to the vault root. |
+| `file.folder`     | `string` | The full path to the parent folder.                     |
+| `file.ext`        | `string` | The file extension for this file.                       |
+| `file.size`       | `number` | The size of this file, in bytes.                        |
+| `file.properties` | `object` | The note properties for this file.                      |
+| `file.tags`       | `list`   | The tags for this file. Includes inline tags.           |
+| `file.links`      | `list`   | The internal links within this file.                    |
+| `file.ctime`      | `date`   | Timestamp of when this file was created.                |
+| `file.mtime`      | `date`   | Timestamp of when this file was last modified.          |
+
 ### `asLink()`
 
 `file.asLink(display?: string): Link`
