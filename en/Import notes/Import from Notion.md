@@ -55,25 +55,22 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 
 ### Limitations
 
-
 > [!info] API import is new
 > The Notion API importer is new. Because of the complexity of Notion workspaces, some edge cases may not have been considered. If you encounter issues with the conversion, [submit a bug report](https://github.com/obsidianmd/obsidian-importer/issues) so we can improve it. 
 
-
 Due to Notion API rate limits, importing large workspaces may take considerable time. Please be patient.
 
-Due to limitations in the Notion API some data is not available and cannot converted:
+Due to limitations in the Notion API some data is not available or cannot converted:
 
-- Only the primary view for each database is imported
-- [Linked databases](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) are not imported.
-- `People` formulas: `name()` and `email()`
-- `Text` formulas: `style()`, `unstyle()`
+- Only the primary view for each database is imported.
+- [Linked data sources](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) are not imported: *"Notion's API does not currently support linked data sources. When sharing a database with your integration, make sure it contains the original data source!"*
+- `People` functions: `name()` and `email()`
+- `Text` functions: `style()` and `unstyle()`
 
-Additionally, some Importer will make the following changes:
+Additionally, Importer will make the following changes:
 
 - Pages without child pages or databases will be imported as `[filename].md` instead of `[filename]/[filename].md`.
 - Databases are always represented as folders named `[database name]` with a `[database name].base` file inside.
-
 
 ## File import
 
