@@ -22,8 +22,8 @@ To create a new note in the default location for new notes:
 1. Click **New note** ( ![[lucide-pen-line.svg#icon]] ) at the top of the File explorer.
 2. Type the name of the note, and then press Enter.
 
-> [!tip]- Change default location
-> You can change the default location for new notes under **[[Settings]] → [[Settings#Files and links|Files and links]] → [[Settings#Default location for new notes|Default location for new notes]]**.
+> [!tip]- Drag and drop files
+> You can drag a file from the File explorer into your note to create a link to it. You can also drag a file from your computer's file manager (like Windows Explorer or macOS Finder) into a folder in the File explorer to add it to your vault.
 
 To create a new note in a specific folder:
 
