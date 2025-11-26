@@ -26,7 +26,7 @@ This is another paragraph.
 
 A blank line between lines of text creates separate paragraphs. This is the default behavior in Markdown.
 
-> [!tip] Multiple blank spaces
+> [!tip]- Multiple blank spaces
 > Multiple adjacent blank spaces within and between paragraphs collapse into a single space when displayed in [[Views and editing mode#Reading view|Reading view]] or on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
 > 
 > ```md
@@ -50,12 +50,12 @@ A blank line between lines of text creates separate paragraphs. This is the defa
 By default in Obsidian, pressing `Enter` once will create a new line in your note, but this is treated as a *continuation* of the same paragraph in the rendered output, following typical Markdown behavior. To insert a line break *within* a paragraph without starting a new paragraph, you can either:
 
 - Add **two spaces** at the end of a line before pressing `Enter`, or
-- Use the shortcut `Shift + Enter` to directly insert a line break.
+- Use the shortcut `Shift+Enter` to directly insert a line break.
 
 > [!question]- Why don't multiple `Enter` presses create more line breaks in reading view?
 > In Markdown, a single `Enter` is ignored, and multiple consecutive `Enter` presses result in just one new paragraph. This behavior aligns with Markdown’s soft wrap rule, where extra blank lines do not generate additional line breaks or paragraphs—they are collapsed into a single paragraph break. This is how Markdown handles text by default, ensuring that paragraphs flow naturally without unexpected breaks​.
 
-Obsidian includes a **[[Settings#Strict line breaks|Stict line breaks]]** setting, which makes Obsidian follow the standard Markdown specification for line breaks.
+Obsidian includes a **[[Settings#Strict line breaks|Strict line breaks]]** setting, which makes Obsidian follow the standard Markdown specification for line breaks.
 
 To enable this feature:
 
@@ -208,7 +208,7 @@ If you only specify the width, the image scales according to its original aspect
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-> [!tip]
+> [!tip]-
 > If you want to add an image from inside your vault, you can also [[Embed files#Embed an image in a note|embed an image in a note]].
 
 ## Quotes
@@ -225,7 +225,7 @@ You can quote text by adding a `>` symbols before the text.
 
 \- Doug Engelbart, 1961
 
-> [!tip]
+> [!tip]-
 > You can turn your quote into a [[Callouts|callout]] by adding `[!info]` as the first line in a quote.
 
 ## Lists
@@ -264,7 +264,7 @@ To create an ordered list, start each line with a number followed by a `.` or `)
 2) Second list item
 3) Third list item
 
-You can use `shift + enter` to insert a [[#Line breaks|line break]] within an ordered list without altering the numbering.
+You can use `Shift+Enter` to insert a [[#Line breaks|line break]] within an ordered list without altering the numbering.
 
 ```md
 1. First list item
@@ -291,7 +291,7 @@ To create a task list, start each list item with a hyphen and space followed by 
 
 You can toggle a task in Reading view by selecting the checkbox.
 
-> [!tip]
+> [!tip]-
 > You can use any character inside the brackets to mark it as complete.
 >
 > ```md
@@ -377,51 +377,77 @@ If you want to put backticks in an inline code block, surround it with double ba
 To format code as a block, enclose it with three backticks or three tildes.
 
 ~~~
-```
+`````
 cd ~/Desktop
-```
+`````
 ~~~
-
-```
+`````
 ~~~
 cd ~/Desktop
 ~~~
-```
-
-```md
+`````
+`````md
 cd ~/Desktop
-```
+`````
 
 You can also create a code block by indenting the text using `Tab` or 4 blank spaces.
-
-```md
+`````md
     cd ~/Desktop
-```
+`````
 
 You can add syntax highlighting to a code block, by adding a language code after the first set of backticks.
 
 ~~~md
-```js
+`````js
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
-```
+`````
 ~~~
-
-```js
+`````js
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
-```
+`````
 
 Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
 
-> [!note]
+> [!info]+ PrismJS and editing views
 > [[Views and editing mode#Source mode|Source mode]] and [[Views and editing mode#Live Preview|Live Preview]] do not support PrismJS, and may render syntax highlighting differently.
+
+#### Nesting code blocks
+
+When you need to include a code block inside another code block (for example, when documenting how to use code blocks), you can use more than three backticks or tildes for the outer code block.
+
+To nest code blocks, use four or more backticks (or tildes) for the outer block, while the inner block uses three:
+`````md
+````md
+Here's how to create a code block:
+```js
+console.log("Hello world")
+```
+````
+`````
+
+You can also mix backticks and tildes. This is particularly useful when working with code that generates other code blocks:
+`````md
+````md
+```dataviewjs
+dv.paragraph(`
+~~~mermaid
+graph TD
+    A --> B
+~~~
+`)
+```
+````
+`````
+
+The key principle is that the outer code block must use **more** fence characters (backticks or tildes) than any inner code block, or use a different fence character type.
 
 ## Footnotes
 
