@@ -61,7 +61,7 @@ Your data, however, is usually safely stored locally on each of your devices.
 To continue using Obsidian Sync, we suggest doing a full re-setup to be able to add new devices to your Sync system:
 
 1. Make a full vault backup on your primary device, just in case something goes wrong. This can be as simple as making a copy of the vault folder, or creating a zip file from the vault.
-2. Disconnect the remote vault in each of your devices. This can be done by going to **Settings → Sync → Pick remote vault → Disconnect**.
+2. Disconnect the remote vault in each of your devices. This can be done by going to **[[Settings]] → Sync → Pick remote vault → Disconnect**.
 3. [[Set up Obsidian Sync#Create a new remote vault|Create a new remote vault]] on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the [[Frequently asked questions#How many remote vaults can I have?|vault limit]])
 4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
@@ -73,8 +73,8 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 
 Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provide geo-regional remote vault hosting options in the following locations:
 
-> [!abstract] Sync geo-regions
-> **Automatic**: Your data center is chosen based on your IP location.
+> [!abstract] Sync regions
+> **Automatic**: Your data center is chosen based on your IP location, at the time when you first set it up.
 > 
 > **Asia**: Singapore
 > **Europe**: Frankfurt, Germany
@@ -85,7 +85,7 @@ Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provi
 ### Where can I find my current Sync server and where is it hosted?
 
 To locate your Obsidian Sync server, follow these steps:
-1. Go to **Settings** → **Sync** → **Copy Debug Info**.
+1. Go to **[[Settings]]** → **Sync** → **Copy Debug Info**.
 2. Paste the copied information into a note or file.
 3. Look for a line similar to this: `Host server: wss://sync-xx.obsidian.md`
 
@@ -102,3 +102,19 @@ To regulate access to Obsidian Sync on your network, you need to manage the foll
 The `xx` in this case represents a number ranging from `1 - 100`.
 
 > [!tip] If your firewall system supports it, we recommend whitelisting `sync-*.obsidian.md` to account for the continuous growth in subdomain numbers.
+
+## Limitations
+
+Obsidian Sync is designed to keep your notes private and secure. To deliver fast, reliable sync and efficient storage across devices, we make some deliberate trade-offs in how encryption is applied.
+
+### Deterministic file-hash encryption
+
+We encrypt file hashes deterministically: the same file content, using the same encryption key and salt, always produces the same encrypted hash on the server. This helps Sync detect duplicates and avoid re-uploading or re-storing identical data, which saves bandwidth and remote storage, especially in version history or when large files repeat.
+
+However, if an attacker compromises a Sync server, and they have a separate way to force a user to upload files of their choosing, then the attacker could force the user to upload specific files and determine if the file matches against a file the user has previously uploaded.
+
+### No cryptographic binding between path and content
+
+Some metadata is not end-to-end encrypted: which device uploaded or deleted a file, when it was uploaded, and the *mapping* between encrypted file paths and encrypted content. This data is readable by the server so it can route changes, determine the version history for a file, and keep devices in sync.
+
+If a Sync server were compromised, an attacker could tamper with that mapping, causing the contents of one encrypted file to be delivered under a different file path. This doesn’t reveal your plaintext data, it remains encrypted.

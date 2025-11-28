@@ -3,7 +3,7 @@ permalink: sandbox
 ---
 **Obsidian’s sandbox vault** is a feature that lets you explore various functionalities without affecting your existing data. This vault is helpful both as a learning tool and for debugging issues. It helps determine if a problem is caused by a plugin, theme, or the application itself.
 
-> [!note] The sandbox vault is not available on mobile devices. However, you can download a copy from the [Obsidian Help](https://github.com/obsidianmd/obsidian-help "Obsidian Help GitHub repository")repository for use on mobile.
+> [!note] The sandbox vault is not available on mobile devices. However, you can download a copy from the [Obsidian Help](https://github.com/obsidianmd/obsidian-help) repository for use on mobile.
 
 
 ## Opening the sandbox vault

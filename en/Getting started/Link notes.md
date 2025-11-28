@@ -5,7 +5,7 @@ permalink: link-notes
 ---
 While Obsidian is great for taking notes, the true power of Obsidian lies in being able to link your notes together. By understanding how one piece of information relates to another, you can improve your ability to remember them and to form deeper insights. In this guide, you'll learn how to create and navigate links in Obsidian.
 
-## Step 1: Create a link
+## Create a link
 
 In this step, you'll create two notes and link them together using the \[\[double bracket syntax\]\].
 
@@ -25,7 +25,7 @@ In this step, you'll create two notes and link them together using the \[\[doubl
 
 Open the "Three laws of motion" note by clicking on the link while pressing `Ctrl` (or `Cmd` on macOS).
 
-## Step 2: Create a link to a non-existing note
+## Create a link to a non-existing note
 
 You can create links to notes that don't exist yet, for when you want to dive into a topic at a later time.
 
@@ -33,7 +33,7 @@ You can create links to notes that don't exist yet, for when you want to dive in
 2. Press the left square bracket (`[`) twice on your keyboard to create a link. The second link has a more muted color to indicate that the note doesn't exist yet.
 3. Create the note by clicking on the link while pressing `Ctrl` (or `Cmd` on macOS).
 
-## Step 3: Navigate between notes
+## Navigate between notes
 
 As you've seen in the previous steps, you can click a link while pressing `Ctrl` (or `Cmd` on macOS) to go to the linked note.
 

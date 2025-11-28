@@ -1,7 +1,7 @@
 ---
 permalink: import/textbundle
 ---
-Obsidian allows you to easily import [Textbundle](https://textbundle.org/) files using the official [[Importer|Importer plugin]].
+Obsidian lets you easily import [Textbundle](https://textbundle.org/) files using the official [[Importer|Importer plugin]].
 
 If you are importing notes from a specific app, you may want to first review the list of apps supported by [[Importer|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.
 
@@ -11,7 +11,7 @@ The Textbundle format bundles Markdown text and all referenced images into a sin
 
 You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.

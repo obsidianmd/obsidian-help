@@ -168,6 +168,7 @@ Converts an array or array of objects into a [[Advanced formatting syntax#Tables
 - For an array of objects, it uses the object keys as headers.
 - For an array of arrays, it creates a table with each nested array as a row.
 - For a simple array, it creates a single-column table with "Value" as the header.
+- Custom column headers can be specified using: `table:("Column 1", "Column 2", "Column 3")`. When used with a simple array, it automatically breaks the data into rows based on the number of columns specified.
 
 ### `wikilink`
 
@@ -186,17 +187,17 @@ Converts strings, arrays, or objects into Obsidian [[Link notes|wikilink]] synta
 Performs basic arithmetic operations on numbers.
 
 - Supports operators: `+`, `-`, `*`, `/`, `**` (or `^`) for exponentiation.
-- Example: `"5"|calc:"+10"` returns `"15"`.
-- Example: `"2"|calc:"**3"` returns `"8"` (2 cubed).
+- Example: `5|calc:"+10"` returns `15`.
+- Example: `2|calc:"**3"` returns `8` (2 cubed).
 - Returns the original string if the input is not a number.
 
 ### `length`
 
 Returns the length of strings, arrays, or number of keys in objects.
 
-- For strings: `"hello"|length` returns `"5".`
-- For arrays: `["a","b","c"]|length` returns `"3".`
-- For objects: `{"a":1,"b":2}|length` returns `"2"`.
+- For strings: `"hello"|length` returns `5`.
+- For arrays: `["a","b","c"]|length` returns `3`.
+- For objects: `{"a":1,"b":2}|length` returns `2`.
 
 ### `round`
 
@@ -220,13 +221,13 @@ Converts a string to an [[Obsidian Flavored Markdown]] formatted string.
 Removes only the specified HTML attributes from tags.
 
 - Example: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returns `<div id="example">Content</div>`.
-- Multiple attributes: `{{contentHtml|remove_attr:("class,style,id")}}`
+- Multiple attributes: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
 
 Removes the specified HTML elements and their content from a string.
 
-- Supports tag name, class, or id, e.g. `{{contentHtml|remove_html:("img,.class-name,#element-id")}}`
+- Supports tag name, class, or id, e.g. `{{fullHtml|remove_html:("img,.class-name,#element-id")}}`
 - To remove only HTML tags or attributes without removing the content use the `strip_tags` or `strip_attr` filters.
 
 ### `remove_tags` 
@@ -234,13 +235,13 @@ Removes the specified HTML elements and their content from a string.
 Removes only the specified HTML tags. Keeps the content of the tags.
 
 - Example: `"<p>Hello <b>world</b>!</p>"|remove_tags:"b"` returns `"<p>Hello world!</p>"`.
-- Multiple tags: `{{contentHtml|remove_tags:("a,em,strong")}}`
+- Multiple tags: `{{fullHtml|remove_tags:("a,em,strong")}}`
 
 ### `replace_tags`
 
 Replaces HTML tags, maintaining the content and attributes of the tag.
 
-- `{{contentHtml|replace_tags:"strong":"h2"}}` replaces all `<strong>` tags with `<h2>`.
+- `{{fullHtml|replace_tags:"strong":"h2"}}` replaces all `<strong>` tags with `<h2>`.
 
 ### `strip_attr`
 
@@ -299,6 +300,29 @@ Applies a transformation to each element of an array using the syntax `map:item 
 String literals are supported and automatically wrapped in an object with a `str` property. The `str` property is used to store the result of string literal transformations, e.g. `["rock", "pop"]|map:item => "genres/${item}"` returns `[{str: "genres/rock"}, {str: "genres/pop"}]`.
 
 Combine `map` with the `template` filter, e.g. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`.
+
+Note: Built-in filters cannot be used inside `map`. This means that, for example, trimming each value of an array cannot be done with `map`.
+
+### `merge`
+
+Adds new values to an array.
+
+- For arrays: `["a","b"]|merge:("c","d")` returns `["a","b","c","d"]`.
+- Single value: `["a","b"]|merge:"c"` returns `["a","b","c"]`.
+- If input is not an array, it creates a new array: `"a"|merge:("b","c")` returns `["a","b","c"]`.
+- Values can be quoted: `["a"]|merge:('b,"c,d",e')` returns `["a","b","c,d","e"]`.
+
+### `nth`
+
+Keeps nth items in an array using CSS-style nth-child syntax and group patterns. All positions are 1-based (first item is position 1).
+
+- `array|nth:3` keeps only the 3rd element.
+- `array|nth:3n` keeps every 3rd element (3, 6, 9, etc.).
+- `array|nth:n+3` keeps the 3rd and all following elements.
+
+Group pattern syntax for repeating structures:
+
+- `array|nth:1,2,3:5` keeps positions 1, 2, 3 from each group of 5 items. Example: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` returns `[1,2,3,6,7,8]`.
 
 ### `object`
 

@@ -1,21 +1,19 @@
 ---
+aliases:
+cssclasses:
+  - soft-embed
+description: Templates is a Core plugins|core plugin that lets you insert pre-defined snippets of text into your active note.
+mobile: true
 permalink: plugins/templates
+publish: true
 ---
-You can use Templates to insert pre-defined snippets of text into your active note.
+
+Templates is a [[Core plugins|core plugin]] that lets you insert pre-defined snippets of text into your active note.
 
 ## Set your template folder
 
-1. In the bottom-left corner, click **Settings** ( ![[lucide-cog.svg#icon]] ).
+1. In the bottom-left corner, click **[[Settings]]** ( ![[lucide-cog.svg#icon]] ).
 2. Under **Core plugins → Templates → Template folder location**, enter the folder containing your templates.
-
-## Insert a template into the active note
-
-**Important:**  To insert a template, you need to first [[#Set your template folder]].
-
-1. In the ribbon, click **Insert template**.
-2. Select the template to insert at the cursor position in the active note.
-
-If your template folder contains only one note, Templates inserts it directly into the active note.
 
 ## Template variables
 
@@ -33,7 +31,54 @@ To set a format string, add a colon (`:`) followed by a string of [Moment.js for
 
 You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
 
-You can change the default date and time formats under **Settings → Templates → Date format** and **Settings → Templates → Time format**.
+You can change the default date and time formats under **[[Settings]] → Templates → Date format** and **[[Settings]] → Templates → Time format**.
 
 > [!tip]
 > You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
+
+## Create a template
+
+In the [[#Set your template folder|template folder]], [[Manage notes#Create a new note|create a note]] containing the text you want to appear when you use the template. You can use [[#Template variables|template variables]] for dynamic text like the current date.
+
+For example, here's a template for study notes:
+
+```markdown
+---
+topic: 
+date: "{{date}}"
+course: 
+tags:
+  - studies
+---
+
+# {{title}}
+
+## Key Concepts
+
+
+## Important Details
+
+
+## Examples
+
+
+## Questions
+- 
+
+## Summary
+
+
+## Related Topics
+- [[]]
+```
+
+## Insert a template into the active note
+
+**Important:**  To insert a template, you need to first [[#Set your template folder]].
+
+1. In the ribbon, click **Insert template**.
+2. Select the template to insert at the cursor position in the active note.
+
+## Template properties
+
+![[Properties#^templates-properties]]

@@ -1,7 +1,12 @@
 ---
 aliases:
   - How to/Create notes
+cssclasses:
+  - soft-embed
+description:
+mobile: false
 permalink: create-note
+publish: true
 ---
 Notes in Obsidian are stored as plain text files. This means your data is durable and not locked into a proprietary format. By writing your notes in plain text, they'll outlive any app—even Obsidian itself.
 
@@ -13,7 +18,11 @@ To create a new note:
 2. Type "Obsidian" as the name of your note and press `Enter`.
 3. Copy and paste the following text into your note:
 
-> Obsidian is the private and flexible writing app that adapts to the way you think.
+```md
+Obsidian is the private and flexible writing app that adapts to the way you think.
+```
+
+![[Manage notes#^blockquote-system-limitation]]
 
 ## Formatting text
 

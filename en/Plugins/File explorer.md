@@ -1,13 +1,18 @@
 ---
+aliases:
+description: File explorer is a core plugin that lets you manage files and folders inside your vault.
+mobile: true
 permalink: plugins/file-explorer
+publish: true
 ---
-The File explorer lets you manage files and folders inside your vault. You can browse notes and other [[Accepted file formats]] in your vault and perform many common file operations:
+
+File explorer is a [[Core plugins|core plugin]] that lets you manage files and folders inside your vault. You can browse notes and other [[Accepted file formats]] in your vault and perform many common file operations:
 
 - Create, delete, and rename files and folders.
 - Move files and folders with drag and drop.
 - Use the context menu to access all available operations.
 
-> [!tip]
+> [!tip]- Drag and drop files
 > You can drag a file from the File explorer into your note to create a link to it, or drag a file into a folder in the File explorer to copy it.
 
 ## Create a new note
@@ -17,8 +22,8 @@ To create a new note in the default location for new notes:
 1. Click **New note** ( ![[lucide-pen-line.svg#icon]] ) at the top of the File explorer.
 2. Type the name of the note, and then press Enter.
 
-> [!tip]
-> You can change the default location for new notes under **Settings → Files and links → Default location for new notes**.
+> [!tip]- Change default location
+> You can change the default location for new notes under **[[Settings]] → [[Settings#Files and links|Files and links]] → [[Settings#Default location for new notes|Default location for new notes]]**.
 
 To create a new note in a specific folder:
 
@@ -27,7 +32,7 @@ To create a new note in a specific folder:
 
 ## Create a new folder
 
-To create a new folder the root of your vault:
+To create a new folder in the root of your vault:
 
 1. Click **New folder** ( ![[lucide-folder-plus.svg#icon]] ) at the top of the File explorer.
 2. Type the name of the folder, and then press Enter.
@@ -36,6 +41,35 @@ To create a subfolder:
 
 1. Right-click the folder you want to create the subfolder in, and then click **New folder**.
 2. Type the name of the folder, and then press Enter.
+
+## Change sort order
+
+To change the sort order of your files:
+
+1.  Select **Change sort order** ( ![[lucide-arrow-up-narrow-wide.svg#icon]] ) at the top of the File explorer.
+2. Choose how you want to sort your files. You can sort in ascending or descending order by file name, modified time, or created time.
+
+## Auto-reveal active file
+
+When you open a note, File explorer can automatically scroll to and highlight that note in the folder tree. This helps you keep track of where your active note is located within your vault.
+
+To toggle auto-reveal:
+
+- Select **Auto-reveal active file** ( ![[lucide-gallery-vertical.svg#icon]] ) at the top of the File explorer.
+
+When enabled, the File explorer will automatically follow and reveal the currently open note.
+
+## Expand or collapse all folders
+
+You can expand or collapse all folders in the File explorer at once.
+
+To expand all folders:
+
+- Select **Expand all** ( ![[lucide-chevrons-up-down.svg#icon]] ) at the top of the File explorer.
+
+To collapse all folders:
+
+- Select **Collapse all** ( ![[lucide-chevrons-down-up.svg#icon]] ) at the top of the File explorer.
 
 ## Delete a file or folder
 
@@ -47,7 +81,7 @@ For more information, refer to [[Manage notes#Delete a note|Delete a note]].
 ## Rename a file or folder
 
 1. Right-click the file you want to rename, and then click **Rename**.
-2. Type the new name, and the press Enter.
+2. Type the new name, and then press Enter.
 
 For more information, refer to [[Manage notes#Rename a note|Rename a note]].
 

@@ -14,13 +14,17 @@ You can develop [[Community plugins]] and [[Themes]] using Typescript and CSS. L
 
 Obsidian develops and maintains several open source projects. You can submit pull requests with bug fixes and enhancements to the following GitHub repositories:
 
-- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), a browser extension that helps highlight and capture web pages to plain text Markdown files.
-- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), a plugin that converts data from a wide variety of formats to plain text Markdown files.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), an open file format for infinite canvas data.
+- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), a plugin that converts data from a wide variety of formats to plain text Markdown files.
+- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), a plugin that displays maps in Obsidian Bases.
+- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), a browser extension for highlighting and capturing web pages to plain text Markdown files.
+- [Defuddle](https://github.com/kepano/defuddle) (MIT) the HTML-to-Markdown parser used by Obsidian Web Clipper.
 
 ### Documentation
 
 To help improve our [developer documentation](https://docs.obsidian.md/Home), submit a pull request to the [obsidian-developer-docs](https://github.com/obsidianmd/obsidian-developer-docs) repository.
+
+To help improve this documentation, submit a pull request to the [obsidian-help](https://github.com/obsidianmd/obsidian-help) repository.
 
 ### Community
 

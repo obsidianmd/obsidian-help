@@ -16,7 +16,7 @@ Templates make use of [[Variables]] and [[Filters]], which allow you to tailor h
 
 To import a template:
 
-1. Open the extension and click the **Settings** cog icon.
+1. Open the extension and click the **[[Settings]]** cog icon.
 2. Go to any template in the list.
 3. Click **Import** in the top right or drag and drop your `.json` template file(s) anywhere in the template area.
 

@@ -1,7 +1,7 @@
 ---
 permalink: plugins/command-palette
 ---
-Obsidian gives you access to many of the commands in Obsidian directly from your keyboard. The Command palette lets you run any command from the same interactive window. You can also explore all the available commands and their respective keyboard shortcuts. 
+The Command palette [[Core plugins|plugin]] lets you run any command directly from your keyboard. It also lets you explore all the available commands and their [[Hotkeys|keyboard shortcuts]].
 
 To run a command from the Command palette:
 
@@ -24,7 +24,7 @@ You can pin frequently used commands at the top of the Command palette to quickl
 
 ### Pin a command
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, click **Command palette** under **Plugin options**.
 3. Next to **New pinned command**, click **Select a command**.
 4. Select the command you want to pin from the list.
@@ -32,6 +32,6 @@ You can pin frequently used commands at the top of the Command palette to quickl
 
 ### Unpin a command
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, click **Command palette** under **Plugin options**.
 3. Under **Pinned commands**, click the cross icon next to the command you want to unpin.

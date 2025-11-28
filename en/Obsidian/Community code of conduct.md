@@ -47,13 +47,15 @@ For example, if we've received reports from multiple members of annoying or rude
 
 #### Unsolicited messages to community members
 
-Refrain from unsolicited tagging, "pinging", or direct messaging of staff and moderators for general questions, bug reports, and feature requests. Given the size of our community, the team's attention must be prioritised for critical matters.
+This is a large and active community. Please be respectful of others' attention and time by avoiding unsolicited tagging, "pinging", or direct messaging of staff, moderators, and fellow community members for general questions, bug reports, or feature requests. This guideline will be enforced on a spirit-of-the-rule basis.
 
-**Security concerns**: You may directly message Obsidian team members regarding security-related issues.
+**When pinging is appropriate**: Only ping community members when replying to their messages or when they have explicitly requested to be notified about specific topics.
 
-**Unsolicited contact**: Be considerate when pinging community members. You may only send direct messages if you have received explicit permission to do so publicly. 
+**Direct messages**: Only send direct messages if you have received explicit permission to do so publicly in the server.
 
-**Community plugins and themes**: For bug reports and feature requests, it is preferred to open a GitHub issue over pinging the developer in Discord.
+**Community plugins and themes**: For bug reports and feature requests, please open a GitHub issue rather than pinging the developer in Discord.
+
+**Security concerns**: If you have a security issue to report about the application, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
 
 Instructions for reporting violations of our code of conduct can be found below in [[#Report violations]]. We appreciate your cooperation in following these guidelines to maintain a positive and respectful environment within the Obsidian community.
 
@@ -75,17 +77,23 @@ Campaigning is continuously making the same requests. This applies to both featu
 
 #### Excessive self promotion
 
-We encourage sharing what you made, for example guides, videos, utilities, and tools. It's awesome to see what Obsidian users are up to. As a content creator, it's inevitable that you will link to your own creations.
+We encourage sharing what you’ve made for Obsidian—guides, videos, utilities, tools, and more. It’s awesome to see what folks in the community are creating. As a content creator, it’s natural to link to your own work, and we provide a place for that in the `#content-update` channel on our [[Help and support#Questions and advice|Discord]].
 
-**Exclusive** self promotion is the promoting and linking of your or others' content and initiatives without contributing to the community otherwise. We won't tolerate users whose only purpose in the community is to post links or solicitations to initiatives outside the community. Depending on the case, links may be removed, or warnings given.
+But there are limits.
 
-**Excessive** self promotion is a judgement call. Please be respectful of the community and prioritize active community participation before linking. We reserve the right to remove links we think breach this guideline.
+**Exclusive** self-promotion refers to promoting or linking your own (or others’) content or initiatives without otherwise participating in the community. If your only purpose here is to drop links or solicit attention for external projects, we won’t allow it. Depending on the situation, links may be removed and warnings may be given.
 
-Note that linking to paid content made by oneself will be scrutinized even closely, as the likelihood of conflict of interest is highest with this type of content.
+**Excessive** self-promotion is a judgment call made by moderators and staff. We expect folks to engage meaningfully before promoting their work. Please be respectful—when in doubt, participate more than you promote. We reserve the right to remove content that doesn’t align with this guideline.
+
+Promotional content must also be relevant to Obsidian. That includes anything that supports, enhances, or integrates with Obsidian—but not unrelated personal projects.
+
+Lastly, paid content will always receive additional scrutiny, as the potential for conflict of interest is higher.
 
 #### Spamming
 
 Do not directly message any of our community member without asking for consent first. It's okay to ask publicly if you have a question.
+
+Similarly, posting invite links (e.g. to other Discord servers, unrelated communities, or private groups) is not allowed. These often come across as spammy, derail discussion, and create moderation issues.
 
 ## Encouraged behaviors
 
@@ -109,17 +117,20 @@ As the community grows, we can't rely on all members to be nice, although the va
 
 ## Report violations
 
-The code of conduct is enforced by our moderators, but we can't monitor every single interaction in the official Obsidian community channels. This is why we rely on our members to help us improve the official Obsidian community channels by reporting violations of our code of conduct.
+The Code of Conduct is enforced by our moderators, but we can’t monitor every interaction across the official Obsidian community channels. That’s why we rely on members like you to help us maintain a respectful and welcoming space by reporting any violations you witness.
 
-Even if you're not the victim, you can still report violations as a witness.
+Even if you’re not directly involved, you’re encouraged to report any concerning behavior. We’ll keep your identity as confidential as possible.
 
-We'll keep the identity of the reporter as confidential as we can.
+If your report is related to a security concern with Obsidian itself, please [[Help and support#Contact Obsidian support|email Obsidian support]] directly.
 
 ### Report on Discord
 
-In \#bots-land-mute-me channel, or any other channel, type `/moderation report @offenderName Please write your reason here`. 
+In any channel (preferably the one where the issue occurred), type:
+`/moderation report @username [brief reason here]` Your message will disappear immediately, and a report will be sent to the moderation team.
 
-Your message will disappear immediately, and a report will be sent to our moderator only channel. If the `/moderation report` command fails, you **may** ping or direct message a moderator.
+You can also use the Discord App Launcher button (the four-shapes icon in the chat bar) to access Carl-bot’s moderation commands if you’re unsure of the exact syntax.
+
+If the `/moderation report` command doesn’t work, you can also send a direct message to the **OMG Moderators** bot. Just make sure your DMs are enabled for the server so the bot can respond.
 
 ### Report on the forum
 
@@ -144,11 +155,3 @@ Please note that all appeal decisions are final and cannot be further appealed.
 ## Credits
 
 Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https://www.recurse.com/code-of-conduct).
-
-## Changelog
-
-- **2024-10-18**: Added links to communities this may apply to.
-- **2024-09-25**: Added timeouts, and ban appeal. 
-- **2024-09-12**: Added nicknames and avatars to [[#Other offenses]].
-- **2024-02-23**: Updated [[#Unsolicited messages to community members]] to indicate when it is appropriate to direct message a community member. 
-- **2023-10-28**: Moved blatant -isms from "Other offenses" to "Serious offenses", meaning they're now bannable on first offense.

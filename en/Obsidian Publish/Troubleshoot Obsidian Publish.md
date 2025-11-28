@@ -30,5 +30,5 @@ Publish does not read from the configuration folder. Instead, you'll need to cre
 
 Obsidian Publish's CSS is not exactly the same as in the application. We recommend [developing any CSS and themes](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes)specifically for Publish from the ground up.
 
-In _general_, what works for [[Edit and preview Markdown#Editor views|Reading view]] has a strong likelihood of working on Publish.
+In _general_, what works for [[Views and editing mode#Reading view|Reading view]] has a strong likelihood of working on Publish.
 

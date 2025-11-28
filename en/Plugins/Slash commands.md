@@ -1,7 +1,7 @@
 ---
 permalink: plugins/slash-commands
 ---
-Slash commands allow you to perform commands from inside the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
+Slash commands is a [[Core plugins|core plugin]] that lets you perform commands in the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
 
 To run a command using Slash commands:
 

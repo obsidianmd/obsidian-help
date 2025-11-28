@@ -229,7 +229,7 @@ Some users have successfully used plugins like **Remotely Save** or **LiveSync**
 
 Unlike some note-taking apps that access one file at a time, Obsidian requires access to the entire vault for its features (e.g., updating links when renaming a file). This makes it difficult for some services to function reliably with Obsidian.
 
-**Why do I need to keep files \"Available Offline\"?**
+**Why do I need to keep files "Available Offline"?**
 
 If services like OneDrive or iCloud offload files (e.g., using **Files On-Demand** or **Optimize Mac Storage**), Obsidian can't access them, causing sync issues. Mark your vault folder as **Always keep on this device** (OneDrive) or ensure **Keep Downloaded** is enabled (iCloud).
 

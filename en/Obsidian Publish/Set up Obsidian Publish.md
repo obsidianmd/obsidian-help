@@ -12,7 +12,7 @@ In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish
 
 ## Log in with your Obsidian account
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, select **General**.
 3. Under **Account → Your account**, select **Log in**.
 4. In **Email**, enter your email.
@@ -21,7 +21,7 @@ In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish
 
 ## Enable Obsidian Publish
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, select **Core plugins**.
 3. Enable **Publish**.
 
@@ -41,7 +41,7 @@ You can access Publish through the following options: the command palette, a hot
 
 The **Publish changes** window will appear in a new pop-up.
 
-**Mobile** ![[obsidian-smartphone.svg#icon]]
+**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
 1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
 2. Open the **Command palette** ( ![[lucide-terminal.svg#icon]] ).
@@ -52,11 +52,11 @@ The **Publish changes** menu will appear as a slide-up.
 
 #### Open via hotkey
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the **Options** category, select **Hotkeys**.
 3. In the hotkey search bar, type "Publish".
 4. Next to **Publish: Publish changes...**, assign your preferred hotkey.
-5. Close **Settings**.
+5. Close **[[Settings]]**.
 6. Use your hotkey to open **Publish changes**.
 
 #### Open via ribbon
@@ -70,7 +70,7 @@ You can also access Obsidian Publish via the [[ribbon]].
 
 The **Publish changes** window will appear in a new pop-up.
 
-**Mobile** ![[obsidian-smartphone.svg#icon]]
+**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
 1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
 2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.

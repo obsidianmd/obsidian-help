@@ -31,9 +31,11 @@ To find notes using the [[Tags view|Tags view]] plugin, select **Tags: Show tags
 
 Nested tags define tag hierarchies that make it easier to find and filter related tags.
 
-Create nested tags by using forward slashes (`/`) in the tag name, for example  `#inbox/to-read` and `#inbox/processing`.
+Create nested tags by using forward slashes (`/`) in the tag name, for example `#inbox/to-read` and `#inbox/processing`.
 
-Both the [[Search]] and [[Tags view|Tags view]] plugins support nested tags.
+- In [[Search]], `tag:inbox` will match `#inbox` as well as all nested tags such as `#inbox/to-read`.  
+- In the [[Tags view]], nested tags are shown as belonging to their parent tag.  
+- In [[Introduction to Bases|Bases]], nested tags are recognized by the [[Functions#hasTag|`hasTag`]] function, so `file.hasTag("a")` will match both `#a` and `#a/b`.  
 
 ## Tag format
 

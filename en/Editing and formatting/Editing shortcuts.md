@@ -3,7 +3,10 @@ aliases:
   - Editing and formatting/Keyboard shortcuts for editing
 permalink: editing-shortcuts
 ---
-Learn how to use keyboard shortcuts to navigate and edit text in your notes. You can also define [[Hotkeys|custom hotkeys]].
+
+This page lists default keyboard shortcuts for navigating and editing text in Obsidian. These shortcuts are provided by your operating system or the framework Obsidian is built on, and cannot be customized within Obsidian.
+
+For customizable keyboard shortcuts for Obsidian commands, see [[Hotkeys]].
 
 ## Windows and Linux shortcuts
 
@@ -35,13 +38,13 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes. You
 
 | Action | Shortcut |
 |-|-|
-| Move the cursor one character | `Left/right arrow` |
-| Move the cursor to the beginning of the previous word | `Ctrl+Left arrow` |
-| Move the cursor to the end of the next word | `Ctrl+Right arrow` |
+| Move the cursor one character | `Left/→` |
+| Move the cursor to the beginning of the previous word | `Ctrl+←` |
+| Move the cursor to the end of the next word | `Ctrl+→` |
 | Move the cursor to the beginning of the current line | `Home` |
 | Move the cursor to the end of the current line | `End` |
-| Move the cursor to the previous line | `Up arrow` |
-| Move the cursor to the next line | `Down arrow` |
+| Move the cursor to the previous line | `↑` |
+| Move the cursor to the next line | `↓` |
 | Move the cursor to the beginning of the note | `Ctrl+Home` |
 | Move the cursor to the end of the note | `Ctrl+End` |
 | Move the cursor up one page | `Page up` |
@@ -53,9 +56,9 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes. You
 |-|-|
 | Simplify selection | `Escape` |
 | Select all | `Ctrl+A` |
-| Extend selection one character | `Shift+Left/right arrow` |
-| Extend selection to the beginning of the previous word | `Ctrl+Shift+Left arrow` |
-| Extend selection to the end of the next word | `Ctrl+Shift+Right arrow` |
+| Extend selection one character | `Shift+Left/→` |
+| Extend selection to the beginning of the previous word | `Ctrl+Shift+←` |
+| Extend selection to the end of the next word | `Ctrl+Shift+→` |
 | Extend selection to the beginning of the current line | `Shift+Home` |
 | Extend selection to the end of the current line | `Shift+End` |
 | Extend selection to the beginning of the note | `Ctrl+Shift+Home` |
@@ -102,30 +105,30 @@ Learn how to use keyboard shortcuts to navigate and edit text in your notes. You
 
 | Action | Shortcut |
 |-|-|
-| Move the cursor one character | `Left/right arrow` |
-| Move the cursor to the beginning of the previous word | `Option+Left arrow` |
-| Move the cursor to the end of the next word | `Option+Right arrow` |
-| Move the cursor to the beginning of the current line | `Cmd+Left arrow` |
-| Move the cursor to the end of the current line | `Cmd+Right arrow` |
-| Move the cursor to the previous line | `Up arrow` |
-| Move the cursor to the next line | `Down arrow` |
-| Move the cursor to the beginning of the note | `Cmd+Up arrow` |
-| Move the cursor to the end of the note | `Cmd+Down arrow` |
-| Move the cursor up one page | `Fn+Up arrow` |
-| Move the cursor down one page | `Fn+Down arrow` |
+| Move the cursor one character | `Left/→` |
+| Move the cursor to the beginning of the previous word | `Option+←` |
+| Move the cursor to the end of the next word | `Option+→` |
+| Move the cursor to the beginning of the current line | `Cmd+←` |
+| Move the cursor to the end of the current line | `Cmd+→` |
+| Move the cursor to the previous line | `↑` |
+| Move the cursor to the next line | `↓` |
+| Move the cursor to the beginning of the note | `Cmd+↑` |
+| Move the cursor to the end of the note | `Cmd+↓` |
+| Move the cursor up one page | `Fn+↑` |
+| Move the cursor down one page | `Fn+↓` |
 
 ### Text selection
 
-| Action | Shortcut |
-|-|-|
-| Simplify selection | `Escape` |
-| Select all | `Cmd+A` |
-| Extend selection one character | `Shift+Left/right arrow` |
-| Extend selection to the beginning of the previous word | `Option+Shift+Left arrow` |
-| Extend selection to the end of the next word | `Option+Shift+Right arrow` |
-| Extend selection to the beginning of the current line | `Cmd+Shift+Left arrow` |
-| Extend selection to the end of the current line | `Cmd+Shift+Right arrow` |
-| Extend selection to the beginning of the note | `Cmd+Shift+Up arrow` |
-| Extend selection to the end of the note | `Cmd+Shift+Down arrow` |
-| Extend selection one page up | `Ctrl+Shift+Up arrow` |
-| Extend selection one page down | `Ctrl+Shift+Down arrow` |
+| Action                                                 | Shortcut                   |
+| ------------------------------------------------------ | -------------------------- |
+| Simplify selection                                     | `Escape`                   |
+| Select all                                             | `Cmd+A`                    |
+| Extend selection one character                         | `Shift+Left/→`   |
+| Extend selection to the beginning of the previous word | `Option+Shift+←`  |
+| Extend selection to the end of the next word           | `Option+Shift+→` |
+| Extend selection to the beginning of the current line  | `Cmd+Shift+←`              |
+| Extend selection to the end of the current line        | `Cmd+Shift+→`    |
+| Extend selection to the beginning of the note          | `Cmd+Shift+↑`       |
+| Extend selection to the end of the note                | `Cmd+Shift+↓`     |
+| Extend selection one page up                           | `Ctrl+Shift+↑`      |
+| Extend selection one page down                         | `Ctrl+Shift+↓`    |

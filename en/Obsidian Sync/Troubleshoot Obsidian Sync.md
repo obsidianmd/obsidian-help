@@ -22,7 +22,7 @@ When Obsidian Sync detects a conflict between the local and remote versions of a
 
 For conflicts in Obsidian settings, such as plugin settings, the process is different. Obsidian Sync merges the JSON files by applying keys from the local JSON on top of the remote JSON.
 
-> [!help] To check when conflicts occurred, filter for "Merge Conflicts" in the [[Status icon and messages#Sync log|Sync log]].
+> [!help] To check when conflicts occurred, filter for "Merge Conflicts" in the [[Status icon and messages#Sync activity log|Sync log]].
 
 ###  Sync deleted a note I just created on two devices
 
@@ -47,7 +47,7 @@ This issue is most commonly seen on Windows, where Windows Defender may quaranti
 
 Another frequent cause is double-syncing, where Obsidian Sync is running alongside another syncing service.
 
-![[Switch to Obsidian Sync#Moving your vault out of a third-party syncing service]]
+![[Switch to Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage]]
 
 ---
 

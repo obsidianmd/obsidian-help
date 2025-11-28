@@ -9,9 +9,9 @@ If you encounter issues with [[Introduction to Obsidian Web Clipper|Web Clipper]
 
 By default, Web Clipper tries to intelligently capture content from the page. However it may not be successful in doing so across all websites.
 
-Web Clipper uses Firefox's [Readability](https://github.com/mozilla/readability) library to capture only the main content of the page. This excludes header, footer, and other elements, but sometimes it can be overly conservative and remove content that you want to keep. You can [report bugs](https://github.com/mozilla/readability) to Readability.
+Web Clipper uses [Defuddle](https://github.com/kepano/defuddle) to capture only the main content of the page. This excludes header, footer, and other elements, but sometimes it can be overly conservative and remove content that you want to keep. You can [report bugs](https://github.com/kepano/defuddle) to Defuddle.
 
-To bypass Readability in Web Clipper use the following methods:
+To bypass Defuddle in Web Clipper use the following methods:
 
 - Select text, or use `Cmd/Ctrl+A` to select all text.
 - [[Highlight web pages|Highlight content]] to choose exactly what you want to capture.
@@ -60,10 +60,10 @@ To enable the Web Clipper extension for Safari:
 
 To allow Web Clipper to run on all websites:
 
-1. Go to iOS **Settings** →  **Apps** →  **Safari** →  **Extensions**.
+1. Go to iOS **[[Settings]]** →  **Apps** →  **Safari** →  **Extensions**.
 2. Under **Permissions** allow it to run on all websites.
 
 To allow Obsidian to always receive Web Clipper content:
 
-1. Go to iOS **Settings** →  **Apps** →  **Obsidian**.
+1. Go to iOS **[[Settings]]** →  **Apps** →  **Obsidian**.
 2. Set **Paste from other apps** to **Allow**.

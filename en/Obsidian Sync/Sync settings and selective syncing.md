@@ -5,7 +5,7 @@ aliases:
   - Obsidian Sync/Select files and settings to sync
   - Settings profile
 description: This page explains the Sync settings and guides you in selecting which files to sync.
-mobile: false
+mobile: true
 permalink: sync/settings
 publish: true
 ---
@@ -23,7 +23,10 @@ This section shows your currently connected remote vault. It includes a **Discon
 Displays the current sync status of the remote vault. This section includes either a **Pause** or **Resume** button, depending on the status.
 
 **Device name**  
-Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync log|sync log]].
+Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync activity log|sync log]]. This setting is device specific, just like [[#Selective syncing]].
+
+**[[#Conflict resolution]]**
+Choose how conflicts are resolved when a note is independently modified on multiple devices. This setting is device specific, just like [[#Selective syncing]].
 
 **Deleted files**  
 Contains a button to **View** or **Restore** deleted files. For more details, see [[Version history]].
@@ -35,6 +38,14 @@ Displays a progress bar showing how much of your sync storage is used.
 
 **Contact support**  
 Provides instructions on how to [[Help and support#Contact Obsidian support|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
+
+### Conflict resolution
+
+Obsidian Sync includes basic [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]] for handling changes made from different devices. Starting in Obsidian 1.9.7, you can choose how conflicts are handled on each device:
+- **Automatically merge**(default): Obsidian Sync combines all changes from different devices into a single file. While this preserves all edits, it may occasionally create duplicate text or formatting issues that you'll need to clean up manually.
+- **Create conflict file**: When conflicting changes are detected, Obsidian creates a separate conflict file instead of automatically merging. You can then review both versions and merge them yourself, giving you full control over the final result.
+
+> [!note] The conflict file option doesn't currently support in-app merging tools. You can use community plugins with "diff" or "merge" features to help with this process within Obsidian.
 
 ---
 
@@ -63,7 +74,7 @@ To sync community plugins, manually enable **Active community plugin list** and 
 
 ### Change the file types you want to sync
 
-1. Open **Settings → Sync**.
+1. Open **[[Settings]] → Sync**.
 2. Under **Selective sync**, enable the file types you want to sync.
 3. Restart the application to apply the new settings. On mobile or tablet, this may require a force-quit.
 
@@ -74,21 +85,30 @@ Note that your [[Plans and storage limits|Sync plan]] defines the maximum file s
 ### Exclude a folder from syncing
 
 By default, Obsidian syncs all files and folders in your vault. To exclude a specific folder from syncing:
-
-1. Open **Settings → Sync**.
+1. Open **[[Settings]] → Sync**.
 2. Next to **Excluded folders**, select **Manage**.
-3. Check the box next to the folder you want to exclude.
+3. Select the folder you want to exclude from the list.
 4. Select **Done**.
+
+To remove a folder from the exclusion list, select the ![[lucide-x.svg#icon]] button next to the folder name.
 
 #### Always excluded from sync
 
-##### Hidden folders (folders starting with a dot) are not synced
+##### File recovery snapshots
 
-Folders that begin with a `.` (e.g., `.hidden`) are treated as hidden folders and are not synced. The only exception is the [[Configuration folder]], typically named `.obsidian`.
+The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]].
 
-Common examples of hidden folders that are not synced include `.vscode`, `.git`, and `.idea`.
+##### Hidden files and folders
 
-##### Sync settings are not synced
+Files and folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Configuration folder|configuration folder]] (`.obsidian`), which does sync.
+
+Common examples of hidden files and folders that are not synced:
+- `.vscode`
+- `.git`
+- `.idea`
+- `.gitignore`
+
+##### Sync settings
 
 Sync settings do not sync across devices. You need to configure them separately on each device as needed.
 
@@ -102,7 +122,7 @@ To modify sync settings across multiple devices, follow these steps:
 
 The primary device acts as the source of truth. Changes made here are synced across all other devices.
 
-1. Go to **Settings → Sync**.
+1. Go to **[[Settings]] → Sync**.
 2. Activate the desired settings under **Vault configuration sync**.
 3. Reload or restart Obsidian. On mobile or tablet, a force-quit may be required.
 4. Allow time for the settings to sync with your remote vault.
@@ -111,7 +131,7 @@ The primary device acts as the source of truth. Changes made here are synced acr
 
 Secondary devices (such as your phone) receive updates from the primary device.
 
-1. Go to **Settings → Sync**.
+1. Go to **[[Settings]] → Sync**.
 2. Enable the necessary settings under **Vault configuration sync**.
 3. Wait for changes to download from the remote vault.
 4. Reload or restart the app to apply the synced settings. On mobile or tablet, a force-quit may be required.
@@ -135,7 +155,7 @@ Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] t
 
 To create a new settings profile:
 
-1. Open **Settings → Files and links**.
+1. Open **[[Settings]] → Files and links**.
 2. Under **Override config folder**, enter a name for your profile, starting with a period (`.`), e.g., `.obsidian-mobile`.
 3. Relaunch Obsidian to apply the changes.
 

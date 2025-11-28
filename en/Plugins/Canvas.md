@@ -1,17 +1,15 @@
 ---
 permalink: plugins/canvas
 ---
-Canvas is a tool for visual note-taking. Lay out notes and other resources on an infinite canvas and connect them with lines.
+Canvas is a [[Core plugins|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
 
-Visual note-taking allows you to use visual aspects, such as size and position, to make sense of your notes. Connect notes with lines and group related notes together to better understand the relationship between them.
+Visual note-taking helps you to make sense of your notes by organizing them in a 2D space. Connect notes with lines and group related notes together to better understand the relationship between them.
+
+Canvas data you create in Obsidian is saved as `.canvas` files using the open file format [JSON Canvas](https://jsoncanvas.org/).
 
 ## Create a new canvas
 
 To start using Canvas, you first need to create a file to hold your canvas. You can create a new canvas using the following methods.
-
-**Ribbon:**
-
-- In the ribbon on the left, select **Create new canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) to create a canvas in the same folder as the active file.
 
 **Command palette:**
 
@@ -23,10 +21,14 @@ To start using Canvas, you first need to create a file to hold your canvas. You 
 - In the [[File explorer]], right-click the folder you want to create the canvas in.
 - Select **New canvas**.
 
+**Ribbon:**
+
+- In the vertical ribbon menu, select **Create new canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) to create a canvas in the same folder as the active file.
+
 > [!note]  The .canvas file extension
 > Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
 
-## Adding cards
+## Add cards
 
 You can drag files into your canvas from Obsidian or from other applications. For example, Markdown files, images, audio, PDFs, or even unrecognized file types.
 
@@ -113,7 +115,7 @@ To swap a note card:
 2. Select **Swap file**.
 3. Select the note you want to replace with.
 
-## Selecting cards
+## Select cards
 
 Select cards in the canvas by clicking on them. You can select multiple cards by dragging a selection around them.
 
@@ -143,7 +145,7 @@ You can press `Space` while resizing to disable snapping.
 
 To maintain the aspect ratio while resizing, press `Shift` while resizing.
 
-## Connecting cards
+## Connect cards
 
 Draw lines between cards to create relationships between them. Use colors and labels to describe how they relate to each other.
 
@@ -196,7 +198,7 @@ To edit a connection label, double-click on the line, or right-click the line an
 2. In the selection controls, select **Set color** ( ![[lucide-palette.svg#icon]] ).
 3. Select a color.
 
-## Grouping cards
+## Group cards
 
 ### Group selected cards
 
@@ -211,7 +213,7 @@ To group related cards:
 
 **Rename group:** Double-click the name of the group to edit it, and then press `Enter` to save.
 
-## Navigating the canvas
+## Navigate the canvas
 
 As you start adding more cards to your canvas, you want to understand how you can navigate the canvas to look at a part of it. Learn how to pan and zoom to move across the canvas with ease.
 

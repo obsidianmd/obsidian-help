@@ -1,7 +1,11 @@
 ---
+aliases:
+description: Graph view is a core plugin that lets you visualize the relationships between the notes in your vault.
+mobile: true
 permalink: plugins/graph
+publish: true
 ---
-The Graph view lets you visualize the relationships between the notes in your vault.
+Graph view is a [[Core plugins|core plugin]] that lets you visualize the relationships between the notes in your vault.
 
 To open the Graph view, click **Open graph view** in the [[Ribbon]].
 
@@ -25,7 +29,7 @@ You can hold Shift while using the keyboard to speed up the movements.
 
 ## Settings
 
-To open the graph settings, click the cog icon in the upper-left corner of the graph view.
+To open the graph settings, click the cog icon in the upper-right corner of the graph view.
 
 Click **Restore default settings** in the upper-right corner of the settings box to reset any changes you make.
 
@@ -36,8 +40,11 @@ This section controls what nodes to show in the graph.
 - **Search files** lets you filter notes based on a search term. To learn about how you can write more advanced search terms, refer to [[Search]].
 - **Tags** toggles whether to show tags in the graph.
 - **Attachments** toggles whether to show attachments in the graph.
-- **Existing files only** toggles whether to show notes that exists in your vault. Since a note doesn't need to exist to link to it, this can help reduce limit your graph to notes that you actually have in your vault.
+- **Existing files only** toggles whether to show notes that exists in your vault. Since a note doesn't need to exist to link to it, this can help limit your graph to notes that you actually have in your vault.
 - **Orphans** toggles whether to show notes without any links.
+
+> [!info] Excluded files
+> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Graph view.
 
 ### Groups
 
@@ -80,4 +87,4 @@ Notes and attachments appear in chronological order based on their creation time
 
 To open a local Graph view, use the **Open local graph** command. While the Graph view shows all notes in your vault, a local Graph view shows you notes connected to the active note.
 
-The local Graph view can use all of the [[#Settings]] available to the global Graph view. Additionally, you can change the depth of the local graph. Each level of depth will show notes connected to the notes revealed at the previous depth. To control local Graph depth, use the slider at the top of the local graph Settings panel.
+The local Graph view can use all of the [[#Settings]] available to the global Graph view. Additionally, you can change the depth of the local graph. Each level of depth will show notes connected to the notes revealed at the previous depth. To control local Graph depth, use the slider at the top of the local Graph Filter Settings panel.

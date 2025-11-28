@@ -3,10 +3,13 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: plugins
+aliases:
+  - core plugin
 ---
-This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team. 
 
-Some core plugins are disabled by default. You can enable them under **Settings → Core plugins**.
+This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team, and are included within the application.
+
+Some core plugins are disabled by default. You can enable them under **[[Settings]] → Core plugins**.
 
 > [!tip] Community plugins
 > If you can't find the plugin you're looking here, check out some of the [[Community plugins|plugins built by the community]]. You can also [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) yourself.
@@ -17,8 +20,12 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Record and save audio recordings directly in a note.
 - [[Backlinks]]
 	- See all the links and unlinked mentions of a note.
+- [[Introduction to Bases|Bases]]
+	- Create custom views that let you edit, sort, and filter files using their properties.
 - [[Bookmarks]]
 	- Save links to notes, headings, searches, and more.
+- [[Canvas]]
+	- Organize notes visually with an infinite space to lay out ideas.
 - [[Command palette]]
 	- Quickly access commands from your keyboard.
 - [[Daily notes]]
@@ -31,8 +38,6 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Convert Markdown from other apps to Obsidian format.
 - [[Graph view]]
 	- Visualize relationships between notes in your vault.
-- [[Importer]]
-	- Convert files from various apps and formats to Obsidian.
 - [[Note composer]]
 	- Merge two notes or split one into two.
 - [[Outgoing links]]
@@ -59,7 +64,7 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Sync your notes across devices.
 - [[Tags view|Tags view]]
 	- List all the tags in your vault.
-- [[Plugins/Templates]]
+- [[Plugins/Templates|Templates]]
 	- Insert pre-defined content into your notes.
 - [[Unique note creator]]
 	- Create a unique note using a time-coded title.
@@ -69,3 +74,11 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Display the number of words and characters.
 - [[Workspaces]]
 	- Save layouts and switch between them.
+
+
+### Other plugins
+
+The Obsidian team also maintains plugins available through the Community plugin store:
+
+- [[Importer]]
+	- Convert files from various apps and formats to Obsidian.

@@ -1,7 +1,7 @@
 ---
 permalink: plugins/page-preview
 ---
-Page preview lets you preview a page when you hover the cursor over an internal link, without needing to navigate to that page.
+Page preview is a [[Core plugins|core plugin]] that lets you preview a page when you hover the cursor over an internal link, without needing to navigate to that page.
 
 By default, hovering over a link will preview that file in [[File explorer]], [[Search]], [[Backlinks]], and more. To preview a page while in Editing view, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link.
 

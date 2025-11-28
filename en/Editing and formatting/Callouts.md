@@ -3,30 +3,32 @@ aliases:
   - How to/Use callouts
 description: This page details how to use callouts to include additional content without breaking the flow of your notes.
 mobile: true
-publish: true
 permalink: callouts
+publish: true
 ---
 
 Use callouts to include additional content without breaking the flow of your notes.
 
-To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]].
+To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]]. Callouts are also supported natively on [[Introduction to Obsidian Publish|Obsidian Publish]].
 
 ```markdown
-> [!info]
+> [!info] Here's a callout title
 > Here's a callout block.
 > It supports **Markdown**, [[Internal link|Wikilinks]], and [[Embed files|embeds]]!
 > ![[Engelbart.jpg]]
 ```
 
-> [!info]
+> [!info] Here's a callout title
 > Here's a callout block.
 > It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embed files|embeds]]!
 > ![[Engelbart.jpg]]
 
-Callouts are also supported natively on [[Introduction to Obsidian Publish|Obsidian Publish]].
+You can insert a default `![note]` callout using the `Insert callout` [[Command palette|command]]. The cursor automatically positions in the callout name field, letting you delete the default name and type a new one before editing the content.
 
-> [!note]
-> If you're also using the Admonitions plugin, you should update it to at least version 8.0.0 to avoid problems with the new callout feature.
+To wrap existing content in a callout, select the text (including lists, code blocks, etc.) and run the `Insert callout` command. The selected content will be automatically enclosed in the callout.
+
+In [[Views and editing mode#Live Preview|Live Preview]], you can also right-click the callout name to change the callout type.
+
 
 ### Change the title
 
@@ -50,7 +52,7 @@ You can even omit the body to create title-only callouts:
 
 ### Foldable callouts
 
-You can make a callout foldable by adding a plus (+) or a minus (-) directly after the type identifier.
+You can make a callout foldable by adding a plus (`+`) or a minus (`-`) directly after the type identifier.
 
 A plus sign expands the callout by default, and a minus sign collapses it instead.
 
@@ -109,7 +111,7 @@ The value of the `data-callout` attribute is the type identifier you want to use
 
 You can use several callout types and aliases. Each type comes with a different background color and icon.
 
-To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`. Callout types can also be changed by right-clicking a callout.
+To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`. Callout types can also be changed by right-clicking a callout in Live Preview mode.
 
 Unless you [[#Customize callouts]], any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
 

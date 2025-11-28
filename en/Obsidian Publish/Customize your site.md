@@ -1,7 +1,8 @@
 ---
-aliases: 
+aliases:
+  - Obsidian+Publish/Customize+your+site
 description: Learn how to customize the appearance and style of your Obsidian Publish site.
-permalink: 
+permalink: publish/customize
 publish: true
 ---
 This page explains how you can customize how your [[Introduction to Obsidian Publish|Obsidian Publish]] site looks and feels.

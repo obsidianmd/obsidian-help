@@ -28,7 +28,7 @@ In this section, you'll create a new [[Local and remote vaults|remote vault]] an
 
 ### Log in with your Obsidian account
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, select **General**.
 3. Under **Account → Your Account**, select **Log in**.
 4. In **Email**, enter your email.
@@ -37,13 +37,13 @@ In this section, you'll create a new [[Local and remote vaults|remote vault]] an
 
 ### Enable Obsidian Sync
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar under **Options**, select **Core Plugins**.
 3. Toggle **Sync**.
 
 ### Create a new remote vault
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, select **Sync**.
 3. Next to **Remote vault**, select **Choose**.
 4. Select **Create new vault**.
@@ -63,12 +63,12 @@ In this section, you'll create a new [[Local and remote vaults|remote vault]] an
 
 #### Adjust Obsidian Sync settings
 
-1. Navigate to **Settings** → **Sync** if needed.
+1. Navigate to **[[Settings]]** → **Sync** if needed.
 2. If a device name has not been added, add one to make reading your Sync logs easier!
 3. Toggle the settings under **Selective Sync** and **Vault configuration sync** to indicate which items should be synced to and from the remote vault.
     - **Note**: If you recently disconnected from a remote vault and are reconnecting without an application restart, some settings may already be toggled on.
 4. If you make changes to any settings, restart Obsidian completely.
-5. Once Obsidian is restarted, return to **Settings** → **Sync**.
+5. Once Obsidian is restarted, return to **[[Settings]]** → **Sync**.
 
 #### Begin syncing with Obsidian Sync
 
@@ -82,7 +82,7 @@ If you are beginning syncing after adjusting Obsidian Sync's settings and restar
 > For more details on sync statuses, refer to [[Status icon and messages]].
 ^obsidian-sync-status
 
-To connect other devices to your newly created and synced remote vault, keep reading!
+To connect other devices to your newly created and synced remote vault, move onto [[Set up Obsidian Sync#Sync a remote vault on another device|Sync a remote vault on another device]].
 
 To learn more about settings and files, move onto [[Sync settings and selective syncing]].
 
@@ -110,7 +110,7 @@ If you have freshly installed Obsidian, when you open the program you will be pr
 4. You will be asked to choose which remote vault you want to sync to this device. Select **Connect**.
 5. You will be asked to choose a name for the local vault that will be created on the device to hold this data. Enter the name of your choice. 
 	1. If you use [[Obsidian URI]]s, you will want to use the same name as the local vault on your other device. 
-6. Secret **Create**.
+6. Select **Create**.
 7. The remove vaults window will pop-up momentary as Obsidian Sync connects to your server and validates the subscription. It will then present you a *Setup Connection* window. 
 	1. It is highly recommended that you close or swipe down from this window, and [[#Adjust Obsidian Sync settings|adjust Obsidian Sync settings]] first.
 	2. If you change any Sync Settings, please reload or restart Obsidian.
@@ -125,7 +125,7 @@ If you have already created a local vault on this device, and you want to connec
 
 #### Connect to a remote vault
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, select **Sync**.
 3. Next to **Pick remote vault**, click **Choose**.
 4. Click **Connect** next to the remote vault you want to connect to.
@@ -144,7 +144,7 @@ You have created and connected to a remote vault. You may have also synced this 
 
 ### Disconnect from a remote vault
 
-1. Open Obsidian's **Settings**.
+1. Open Obsidian's **[[Settings]]**.
 2. Select **Sync** in the sidebar.
 3. Click the **Disconnect** button next to Remote vaults.
 
@@ -154,22 +154,24 @@ You are now disconnected from the remote vault and are no longer syncing on this
 
 > [!tip] Deleting a remote vault will not delete your local data on your device.
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, select **Sync**.
 3. Select **Manage** next to Remote vaults. A window will open with your list of remote vaults.
 4. Select the trash can icon ( ![[lucide-trash-2.svg#icon]] ) next to the remote vault you want to delete.
 5. Confirm the deletion by selecting the red **Delete** button.
 6. Your remote vault has been deleted.
 
+> [!info] If there is no trash can icon visible you may need to first disconnect from the remote vault. Once disconnected, select the **Choose** button to open the list of remote vaults.
+
 ### Regional sync servers
 
-Obsidian Sync allows you to choose the hosting location for your remote vault. If you're using version `1.4.16` or older of Obsidian, the location will be automatically chosen for you.
+Obsidian Sync lets you choose the hosting location for your remote vault. If you're using version `1.4.16` or older of Obsidian, the location will be automatically chosen for you.
 
 If you're unsure where your current vault's region is, check out [[Obsidian Sync/Security and privacy#Where can I find my current Sync server and where is it hosted?|Where can I find my current Sync server and where is it hosted?]] for guidance.
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
-After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Migrate a Sync vault|follow vault migration guide]].
+After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Sync regions|follow vault Sync regions guide]].
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 

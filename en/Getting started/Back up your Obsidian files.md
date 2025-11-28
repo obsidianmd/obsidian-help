@@ -5,7 +5,7 @@ aliases:
   - backup
 permalink: backup
 ---
-If you haven't backed up your computer yet, it's a good idea to start now! Obsidian’s [[File recovery]] plugin is a useful tool, but it only backs up your notes. To be safe, you should also back up the snapshots created by the plugin.
+If you haven't backed up your computer yet, start now! Obsidian's [[File recovery]] plugin is useful but limited. It can only recover a certain amount of data, and it stores recovery information per device. For more robust protection, we recommend that you implement a proper backup system.
 
 **Why back up your data?**
 
@@ -28,8 +28,8 @@ If you use multiple devices with syncing, choose **one device** to be your bac
 
 While the Obsidian Team cannot officially endorse any specific plugin, we recognize two community plugins that have become popular among users for backing up their files:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Use this plugin to back up your vault by committing its contents to a [GitHub](https://github.com/) repository. It's an effective way to version control your notes and ensure their safety on a remote server. However, please be aware that your data will be stored on Github [[#Use cloud-based services|using this method]].
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** This plugin allows you to create local copies of your vault in a folder of your choice, with options for archival. You can even use a syncing folder, like a Dropbox folder, to combine local and cloud backups. This method **pairs well** with the backup options described below.
+- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Use this plugin to back up your vault by committing its contents to a [Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). It's an effective way to version control your notes and ensure their safety on a remote server. However, please be aware that your data may be stored on an [[#Use cloud-based services|external hosting platform]] using this method.
+- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** This plugin lets you create local copies of your vault in a folder of your choice, with options for archival. You can even use a syncing folder, like a Dropbox folder, to combine local and cloud backups. This method **pairs well** with the backup options described below.
 
 ## Use cloud-based services
 
@@ -53,13 +53,16 @@ Flash drives (also called thumb drives, memory sticks, or pen drives) are a simp
 4. Safely unmount the flash drive.
 5. Remove the flash drive from your device.
 
+**NAS backup**
+For experienced users, backing up data on a NAS (Network Attached Storage) server is a good and secure method, as it has multiple hard drives and additional recovery mechanisms.
+
 > [!tip] If your external drive contains sensitive information, it is recommended to keep the external drive secure, such as in a secured room.
 
 ## Use computer backups
 
 Your operating system itself offer the ability to help create backups, whether online in the cloud, or in an external drive.
 
-- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Backup with OneDrive or an external drive. You may also use [System restore](https://support.microsoft.com/en-us/windows/use-system-restore-a5ae3ed9-07c4-fd56-45ee-096777ecd14e).
+- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Backup with OneDrive or an external drive.
 - **[Mac](https://support.apple.com/en-us/104984)**: Backup to an external device with Time Machine.
 - **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` to a directory or drive of choice.
 

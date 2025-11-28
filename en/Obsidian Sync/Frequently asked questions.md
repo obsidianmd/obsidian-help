@@ -32,7 +32,7 @@ You can add additional syncing options of PDF's, audio files, video files, and o
 
 The storage limit depends on your Obsidian [[Plans and storage limits#Plans|Sync plan]]. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
 
-You can view **Storage usage** in the Obsidian app by going to **Settings → Sync**.
+You can view **Storage usage** in the Obsidian app by going to **[[Settings]] → Sync**.
 
 ### How many remote vaults can I have?  
 
@@ -60,7 +60,7 @@ Obsidian Sync can automatically reload certain settings, but there are some limi
 
 ### Can I use a third-party sync with Obsidian Sync?
 
-We do not recommend using a third-party sync service alongside Obsidian Sync. Using the same third-party service and Obsidian Sync on multiple devices can lead to conflicts, resulting in duplicate or corrupted files.
+We do not recommend using a third-party sync service alongside Obsidian Sync. Using the a third-party service and Obsidian Sync on multiple devices can lead to conflicts, resulting in duplicate or corrupted files.
 
 Cloud storage services like OneDrive and Dropbox offer "Files on-demand" or "Online-only files" features, which download files only when needed and remove them locally to save space. However, since these files are not always available locally, Obsidian Sync will interpret them as deleted, leading to their removal from your remote vault.
  

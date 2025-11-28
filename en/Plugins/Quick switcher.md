@@ -1,7 +1,8 @@
 ---
+description: Quick switcher is a core plugin that lets you search and open notes using only your keyboard.
 permalink: plugins/quick-switcher
 ---
-The Quick switcher lets you search and open notes using only your keyboard.
+Quick switcher is a [[Core plugins|core plugin]] that lets you search and open notes using only your keyboard.
 
 ## Open Quick switcher
 
@@ -17,7 +18,9 @@ There are several ways to open Quick Switcher, when it's enabled:
 3. Navigate to the note using the arrow keys.
 4. Press `Enter` to open the selected note.
 
-> [!info] Autocomplete functionality switches to a simpler result algorithm when the vault reaches 10,000 items to maintain optimal application performance. ^search-autocomplete-large
+> [!info] 
+> Autocomplete functionality switches to a simpler result algorithm when the vault reaches 10,000 items to maintain optimal application performance. 
+^search-autocomplete-large
 
 If the text doesn't match any notes, you can press `Enter` to create a note with that name. Even if the text matches one or more similar notes, you can still create a note with the exact name by pressing `Shift+Enter`.
 
@@ -25,3 +28,7 @@ You can open the selected note in a new tab by pressing `Ctrl+Enter` (or `Cmd+En
 
 > [!tip] Toggle between two notes
 > If the search term is empty, the Quick switcher shows the most recent notes. Toggle between two notes by opening the Quick switcher, pressing the `Down` arrow, and then pressing `Enter`.
+
+
+> [!info] Excluded files
+> Files matching your [[Settings#Excluded files|Excluded files]] patterns are deprioritized in Quick switcher results.

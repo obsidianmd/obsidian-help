@@ -46,7 +46,7 @@ Your PO must include:
 To optionally apply a commercial license to your Obsidian installation follow the steps below. Note that applying a commercial license does not provide any functional benefits within the app.
 
 1. Open the Obsidian app.
-2. Go to **Settings → General → Commercial license**.
+2. Go to **[[Settings]] → General → Commercial license**.
 3. Click **Activate** and enter your license key.
 4. You're done! The app is now licensed for commercial use.
 
