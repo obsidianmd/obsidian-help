@@ -213,7 +213,7 @@ What links to insert when auto-generating [[Internal links|internal links]]. Opt
 
 When enabled, Obsidian automatically updates internal links when you rename a file. Turn this off to be prompted to update links after renaming.
 
-#### Use [[Wikilinks]]
+#### Use Wikilinks
 
 Auto-generate Wikilinks for `[[links]]` and `![[images]]` instead of Markdown links and images. Disable this option to generate Markdown links instead.
 
@@ -239,7 +239,7 @@ What happens to a file after you delete it. Options include:
 
 #### Excluded files
 
-Excluded files will be hidden in Search, Graph View, and Unlinked Mentions, less noticeable in Quick Switcher and link suggestions. Select **Manage** to configure excluded files.
+Excluded files will be hidden in [[Search]], [[Graph View]], and Unlinked Mentions ([[Backlinks]] and [[Outgoing links]]), and less noticeable in [[Quick Switcher ]]and link suggestions. Select **Manage** to configure excluded files.
 
 #### Override config folder
 
