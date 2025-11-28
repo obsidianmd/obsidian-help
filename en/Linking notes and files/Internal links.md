@@ -14,7 +14,7 @@ Learn how to link to notes, attachments, and other files from your notes, using 
 
 Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under: 
 
-**[[Settings]]** → **Files & Links** → **Automatically update internal links**.
+**[[Settings]]** → **[[Settings#Files and links|Files and links]]** → **[[Settings#Automatically update internal links|Automatically update internal links]]**.
 
 ## Supported formats for internal links
 
@@ -55,6 +55,9 @@ To create a link while in Editing view, use either of the following ways:
 While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
 
 > [!tip] Prefixing an internal link with an exclamation mark (!) allows you to embed the linked content. For more details, see [[Embed Files]].
+
+> [!info] Excluded files
+> Files matching your [[Settings#Excluded files|Excluded files]] patterns are deprioritized in link suggestions when creating internal links.
 
 ## Link to a heading in a note
 

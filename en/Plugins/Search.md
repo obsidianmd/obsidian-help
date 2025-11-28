@@ -13,6 +13,9 @@ By default, you can find Search in the left sidebar ( ![[lucide-search.svg#icon]
 - **Search selected text**: If you select text in the editor and open Search with the keyboard shortcut, Search shows you the search results for the selected text.
 - **Search recent search terms**: Open Search with an empty search term to list recent search terms. Click any of them to use the search term again.
 
+> [!info] Excluded files
+> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Search results.
+
 ## Search terms
 
 A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults. Obsidian only searches the contents of notes and canvases.
