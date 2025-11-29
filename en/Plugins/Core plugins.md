@@ -1,15 +1,20 @@
 ---
+aliases:
+  - core plugin
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+description: This page lists the core plugins that come installed with Obsidian, and community plugins they also maintain.
+mobile: true
 permalink: plugins
-aliases:
-  - core plugin
+publish: true
 ---
 
 This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team, and are included within the application.
 
 Some core plugins are disabled by default. You can enable them under **[[Settings]] → Core plugins**.
+
+The Obsidian team also maintains the development of certain [[#Other plugins|open-source community plugins]].
 
 > [!tip] Community plugins
 > If you can't find the plugin you're looking here, check out some of the [[Community plugins|plugins built by the community]]. You can also [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) yourself.
@@ -75,10 +80,11 @@ Some core plugins are disabled by default. You can enable them under **[[Setting
 - [[Workspaces]]
 	- Save layouts and switch between them.
 
-
 ### Other plugins
 
 The Obsidian team also maintains plugins available through the Community plugin store:
 
 - [[Importer]]
 	- Convert files from various apps and formats to Obsidian.
+- [[Map view|Maps]]
+	- Add a map view to Obsidian Bases.
