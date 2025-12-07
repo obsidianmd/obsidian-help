@@ -73,4 +73,4 @@ La traduction française a été réalisée par :
 
 ## Vous avez une demande précise ? 
 
-Si vous souhaitez que nous traduisions des pages en particulier de la documentation d'aide et des guides d'utilisation des modules et thèmes d'Obsidian, vous pouvez nous le faire savoir via [la communauté francophone de Discord](https://discord.com/invite/veuWUTm). Pour s'assurer que la demande soit vue par quelqu'un qui s'occupe des traductions, identifiez @czigysmund dans votre message. 
+Si vous souhaitez que nous traduisions des pages en particulier de la documentation d'aide et des guides d'utilisation des modules et thèmes d'Obsidian ? Vous pouvez nous le faire savoir via [la communauté francophone de Discord](https://discord.com/invite/veuWUTm). Pour s'assurer que la demande soit vue par quelqu'un qui s'occupe des traductions, identifiez @czigysmund dans votre message. 
