@@ -23,7 +23,7 @@ Pour recevoir les versions Beta dès qu'elles sont disponibles, suivez les étap
 Pour trouver les instructions vous expliquant comment installer les versions Beta sur votre appareil mobile, suivez ces étapes : 
 1. Télécharger et installez [Discord](https://discord.com/) ; 
 2. Rejoignez le [serveur Discord Obidian](https://discord.com/invite/obsidianmd) ; 
-3. Obtenez votre [[Licence Catalyst#|badge Discord]] vous permettant d'accéder aux salons des membres Beta ; 
+3. Obtenez votre [[Licence Catalyst#Recevoir votre badge Discord|badge Discord]] vous permettant d'accéder aux salons des membres Beta ; 
 4. Dans le salon `#insider-welcome`, vous trouverez les instructions à suivre pour accéder à votre téléchargement en fonction du type d'appareil que vous utilisez.
 
 # Signaler des problèmes et autres retours d'expérience
