@@ -282,7 +282,7 @@ Functions you can use with a sequence of characters such as `"hello"`.
 - `replacement` is the value to replace found patterns with.
 - If `pattern` is a string, all occurrences of the pattern will be replaced.
 - If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
-- Example: `""a:b:c:d".replace(/:/, "-")` returns `"a-b,c,d"`, where as `"a:b:c:d".replace(/:/g, "-")` returns `"a-b-c-d"`.
+- Example: `"a:b:c:d".replace(/:/, "-")` returns `"a-b:c:d"`, where as `"a:b:c:d".replace(/:/g, "-")` returns `"a-b-c-d"`.
 
 ### `repeat()`
 
