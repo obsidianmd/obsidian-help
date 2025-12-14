@@ -65,6 +65,10 @@ views:
 By default a base includes every file in the vault. There is no `from` or `source` like in SQL or Dataview. The `filters` section lets you define conditions to narrow down the dataset.
 
 ```yaml
+# Simple filter:
+filters: file.hasTag("tag")
+
+# Complex filter:
 filters:
   or:
     - file.hasTag("tag")
