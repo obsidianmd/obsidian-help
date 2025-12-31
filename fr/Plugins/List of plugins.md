@@ -24,6 +24,7 @@ Les plugins peuvent être gérés via le bouton "Settings" en bas à gauche. Cer
 - [[Format converter]]
 - [[Random note]]
 - [[Starred notes]]
+- [[Module d'importation]]
 - [[en/Plugins/Templates]]
 - [[en/Plugins/Outline]]
 - [[en/Plugins/Publish]]
