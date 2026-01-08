@@ -9,3 +9,5 @@ En cliquant sur la petite flèche à gauche du nom de chaque note, vous pourrez 
 ![[rétroliens-contexte.png]]
 
 En développant la section "**Occurrences non liées**", vous pouvez également voir où le nom de la note est mentionné, mais pas explicitement lié (en d'autres termes, mentionné sans les crochets).
+
+Pour en savoir plus sur les rétroliens, consultez la note [[Rétroliens]].
