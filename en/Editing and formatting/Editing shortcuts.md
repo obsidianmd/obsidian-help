@@ -3,7 +3,10 @@ aliases:
   - Editing and formatting/Keyboard shortcuts for editing
 permalink: editing-shortcuts
 ---
-Learn how to use keyboard shortcuts to navigate and edit text in your notes. You can also define [[Hotkeys|custom hotkeys]].
+
+This page lists default keyboard shortcuts for navigating and editing text in Obsidian. These shortcuts are provided by your operating system or the framework Obsidian is built on, and cannot be customized within Obsidian.
+
+For customizable keyboard shortcuts for Obsidian commands, see [[Hotkeys]].
 
 ## Windows and Linux shortcuts
 

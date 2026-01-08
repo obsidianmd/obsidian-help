@@ -1,6 +1,11 @@
 ---
+aliases:
+description: This page details the functions used in Obsidian Bases to manipulate data from properties in filters and formulas.
+mobile: true
 permalink: bases/functions
+publish: true
 ---
+
 Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[properties]] in [[Views#Filters|filters]] and [[formulas]]. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
 
 Aside from [[Functions#Global|Global]] functions, most functions depend on the type of value you want to modify:
@@ -37,7 +42,7 @@ Global functions are used without a type.
 `duration(value: string): duration`
 
 - Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
-- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but the do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
+- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but they do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
 - When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
 
 ### `file()`
@@ -121,6 +126,14 @@ Global functions are used without a type.
 - Strings will be parsed into a number and return an error if the result is invalid.
 - Example, `number("3.4")` returns `3.4`.
 
+### `duration()`
+
+`duration(value: string): duration`
+
+- Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
+- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but they do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
+- When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
+
 ### `today()`
 
 `today(): date`
@@ -137,6 +150,13 @@ Functions you can use with any value. This includes strings (e.g. `"hello"`), nu
 
 - Return the value coerced into a boolean.
 - Example: `1.isTruthy()` returns `true`.
+
+### `isType()`
+
+`any.isType(type: string): boolean`
+
+- Returns true if the value is of the provided type.
+- Example: `"example".isType("string")` and `true.isType("boolean")` both return true.
 
 ### `toString()`
 
@@ -262,7 +282,7 @@ Functions you can use with a sequence of characters such as `"hello"`.
 - `replacement` is the value to replace found patterns with.
 - If `pattern` is a string, all occurrences of the pattern will be replaced.
 - If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
-- Example: `"a,b,c,d".replace(/,/, "-")` returns `"a-b,c,d"`, where as `"a,b,c,d".replace(/,/g, "-")` returns `"a-b-c-d"`.
+- Example: `""a:b:c:d".replace(/:/, "-")` returns `"a-b,c,d"`, where as `"a:b:c:d".replace(/:/g, "-")` returns `"a-b-c-d"`.
 
 ### `repeat()`
 
@@ -506,6 +526,24 @@ Functions you can use on a link. Links can be created from a file (`file.asLink(
 
 Functions you can use with file in the vault.
 
+### Fields
+
+The following fields are available for files:
+
+| Field             | Type     | Description                                             |
+| ----------------- | -------- | ------------------------------------------------------- |
+| `file.name`       | `string` | The name of this file.                                  |
+| `file.basename`   | `string` | The name of this file without the file extension.       |
+| `file.path`       | `string` | The full path to this file, relative to the vault root. |
+| `file.folder`     | `string` | The full path to the parent folder.                     |
+| `file.ext`        | `string` | The file extension for this file.                       |
+| `file.size`       | `number` | The size of this file, in bytes.                        |
+| `file.properties` | `object` | The note properties for this file.                      |
+| `file.tags`       | `list`   | The tags for this file. Includes inline tags.           |
+| `file.links`      | `list`   | The internal links within this file.                    |
+| `file.ctime`      | `date`   | Timestamp of when this file was created.                |
+| `file.mtime`      | `date`   | Timestamp of when this file was last modified.          |
+
 ### `asLink()`
 
 `file.asLink(display?: string): Link`
@@ -541,7 +579,7 @@ Functions you can use with file in the vault.
 `file.inFolder(folder: string): boolean`
 
 - `folder` is the folder name to check.
-- Returns true if the file is in the specified folder.
+- Returns true if the file is in the specified folder or one of its sub-folders.
 - Example: `file.inFolder("notes")` returns `true`.
 
 ## Object

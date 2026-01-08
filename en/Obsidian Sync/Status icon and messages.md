@@ -34,7 +34,7 @@ Obsidian Sync includes a detailed sync log that tracks all interactions between 
 
 **Access the activity log:**
 - Click the sync status icon in the status bar
-- Go to **Settings → Sync → Activity log**
+- Go to **[[Settings]] → Sync → Activity log**
 - Use **Command palette → Sync: Open activity log**
 
 The log provides timestamps and details for each sync operation, making it useful for troubleshooting sync issues.
@@ -98,7 +98,7 @@ These are messages related to a change in your subscription or account.
 Your account has exceeded the [[Frequently asked questions#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
 
 To reduce vault size:
-1. Open **Settings → Sync**.
+1. Open **[[Settings]] → Sync**.
 2. Use the options under **Vault size over limit** to remove large files.
 
 **Vault not found**  
@@ -112,10 +112,16 @@ This error may occur in these cases:
  
 In these cases, you'll need to [[Set up Obsidian Sync#Disconnect from a remote vault|disconnect from the remote vault]] and [[Set up Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring your local data is preserved.
 
-**Your subscription to Obsidian sync has expired.**  
+**Failed to authenticate: Your subscription to Obsidian Sync has expired**  
 Your account is now in a fully expired status as we were unable to process the payment on file. 
 
 To continue using Obsidian Sync, you will need to resubscribe within [your account](https://obsidian.md/account/sync).
+
+**Failed to authenticate: Not logged in**
+
+Obsidian Sync has detected that you are not currently logged in. You will need to log back in on the app in the [[Settings#General#Account|Account]] section of **[[Settings]]**.
+
+In some cases, a community plugin can also prevent Obsidian Sync from being able to confirm your account's login status. Please enter **[[Plugin security#Restricted mode|Restricted mode]]** and try again. 
 
 ### Network messages
 

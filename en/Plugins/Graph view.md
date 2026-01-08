@@ -1,5 +1,9 @@
 ---
+aliases:
+description: Graph view is a core plugin that lets you visualize the relationships between the notes in your vault.
+mobile: true
 permalink: plugins/graph
+publish: true
 ---
 Graph view is a [[Core plugins|core plugin]] that lets you visualize the relationships between the notes in your vault.
 
@@ -38,6 +42,9 @@ This section controls what nodes to show in the graph.
 - **Attachments** toggles whether to show attachments in the graph.
 - **Existing files only** toggles whether to show notes that exists in your vault. Since a note doesn't need to exist to link to it, this can help limit your graph to notes that you actually have in your vault.
 - **Orphans** toggles whether to show notes without any links.
+
+> [!info] Excluded files
+> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Graph view.
 
 ### Groups
 

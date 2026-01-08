@@ -1,18 +1,26 @@
 ---
+aliases:
+description: Search is a core plugin that helps you find data in your Obsidian vault by using search terms and operators to narrow down results.
+mobile: true
 permalink: plugins/search
+publish: true
 ---
+
 Search is a [[Core plugins|core plugin]] that helps you find data in your Obsidian vault by using search terms and operators to narrow down results.
 
-By default, you can find Search in the left sidebar ( ![[lucide-search.svg#icon]] ). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).
+By default, you can find Search in the left sidebar ( ![[lucide-search.svg#icon]] ). You can also open Search by pressing `Ctrl+Shift+F` (Windows/Linux) or `Command+Shift+F` (macOS).
 
 - **Search selected text**: If you select text in the editor and open Search with the keyboard shortcut, Search shows you the search results for the selected text.
 - **Search recent search terms**: Open Search with an empty search term to list recent search terms. Click any of them to use the search term again.
+
+> [!info] Excluded files
+> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Search results.
 
 ## Search terms
 
 A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults. Obsidian only searches the contents of notes and canvases.
 
-> [!tip] Searching paths and filenames
+> [!tip]- Searching paths and filenames
 > By default, you can only search the paths and filenames of notes and canvases. To search for a path or filename of any file in the vault, use the `path` or `file` operator.
 
 Each word in the search term is matched independently within each file. To search for an exact phrase, surround it with quotes, for example `"star wars"`. To search for quoted text within an exact phrase, you can _escape_ the quotes by adding a backslash (`\`) in front of the quote, for example `"they said \"hello\" to each other"`.
@@ -43,10 +51,11 @@ You can exclude a combination of expressions using parentheses:
 - `meeting -(work meetup)` returns files that contain `meeting` but not _both_ `work` and `meetup`.
 
 To filter results using the less than (`<`) and greater than (`>`) operators, surround them with square brackets (`[]`) or quotes (`""`):
+
 - `meeting [duration:<5]` returns files where meeting is present, and duration is less than 5.
 - `meeting [duration:>5]` returns files where meeting is present, and duration is greater than 5.
 
-> [!tip] Explain search term
+> [!tip]- Explain search term
 > If you need to troubleshoot a complex search term, you can click **Explain search term** in Search for an explanation of your search term.
 
 ## Search operators
@@ -77,25 +86,32 @@ You can use data stored in [[Properties]] in your search terms.
 Use brackets around a property name `[property]` to return files with that property:
 
 - `[aliases]` returns files that contain the `aliases` property
-  
+
 Use brackets and a colon `[property:value]` to return files with that property and value:
 
 - `[aliases:Name]` returns files where the `aliases` property value is `Name`
 
+Use `null` as a value to find properties that have no value:
+
+- `[aliases:null]` returns files where the `aliases` property exists but has no value
+
+> [!info]+ Empty values
+> The `null` operator works when a property is empty (e.g., `aliases: `), but not when the property contains empty quotes (`""`) or empty brackets (`[]`).
+
 Both property and value allow sub-queries, such as parentheses for grouping, the `OR` operator, double-quotes for exact matching, and regex.
 
-- Example: `[status:Draft OR Published]` to find returns files where the `status` property value is `Draft` or `Published`
+- `[status:Draft OR Published]` returns files where the `status` property value is `Draft` or `Published`
 
 ## Change case sensitivity
 
-By default, search terms are not case sensitive. If you want to search for the exact case of your search term, click **Match case** ( ![[obsidian-icon-upper-lowercase.svg#icon]] ) inside the search bar.
+By default, search terms are not case sensitive. If you want to search for the exact case of your search term, select **Match case** ( ![[obsidian-icon-upper-lowercase.svg#icon]] ) inside the search bar.
 
 This setting can be toggled. If **Match case** icon is highlighted, that means you’re currently doing a case sensitive search.
 
 ## Change result sort order
 
 1. Enter a [[#Search terms|search term]].
-2. Under the search field, click on the dropdown on the right.
+2. Under the search field, select the dropdown on the right.
 3. Select the sort order you want. Default is "File name (A to Z)".
 
 The following options are available:
@@ -125,12 +141,12 @@ You can even combine regular expressions with search operators:
 
 For more information on how to write regular expressions, refer to FreeCodeCamp's [Practical Regex guide](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/) or Mozilla's [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
-> [!note]
+> [!info]+ JavaScript-flavored regular expressions
 > Regular expressions come in different flavors that may look different from each other. Obsidian uses JavaScript-flavored regular expressions.
 
 ## Configure search settings
 
-To configure Search, click on **Search settings** ( ![[lucide-sliders-horizontal.svg#icon]] ) on the right side of the search bar to see the toggles.
+To configure Search, select **Search settings** ( ![[lucide-sliders-horizontal.svg#icon]] ) on the right side of the search bar to see the toggles.
 
 | Setting                 | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
@@ -147,7 +163,6 @@ To embed search results in a note, add a `query` code block:
 embed OR search
 ```
 ````
-
 
 [[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded [[Publish limitations#Search|search results]]. To see a live rendered example, use the code block above within your vault.
 

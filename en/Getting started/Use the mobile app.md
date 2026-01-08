@@ -1,6 +1,11 @@
 ---
+aliases:
+description: Learn about mobile-specific features in Obsidian, including the mobile toolbar, quick actions, and navigation bar.
+mobile: true
 permalink: mobile
+publish: true
 ---
+
 The mobile app aims to provide a familiar user experience for those already using the desktop app.
 
 That being said, there are a few features unique to the mobile app. In this guide, you’ll learn about them to get the most use out of the mobile app.
@@ -30,7 +35,7 @@ By default, the options that are available to be added to the toolbar are editin
 
 In addition to that, you can add global commands like "Change theme".
 
-1. Find **Manage toolbar options** under **Settings** → **Mobile**.
+1. Find **Manage toolbar options** under **[[Settings]]** → **Mobile**.
 2. Scroll to the very bottom, find **Add global command**.
 3. Type the name of the command you wish to add.
 4. Select the command you’ll like to add.
@@ -78,6 +83,6 @@ When you tap it, you’ll be able to switch to any open tab. You can also open a
 
 The mobile app has no [[Ribbon]]. Instead, the ribbon actions will be available when you tap **Open menu** ( ![[lucide-menu.svg#icon]] ), the last option on the navigation bar.
 
-### Right sidebar
+### Sidebars
 
-The right sidebar can be accessed by swiping left either while editing the active note or in the Reading view by holding the triple-dot icon in the upper-right corner.
+For detailed information about how sidebars work on mobile, see [[Sidebar#Open hidden sidebars#Mobile and smaller tablets|Opening sidebars on mobile]].

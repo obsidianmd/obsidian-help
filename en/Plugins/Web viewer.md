@@ -13,7 +13,7 @@ Click the glasses icon to view a plain text version of the web page. This featur
 
 ## Save to vault
 
-Click the more actions icon to save a web page to your vault. You can customize the save page location by going to **Settings** → **Web viewer**.
+Click the more actions icon to save a web page to your vault. You can customize the save page location by going to **[[Settings]]** → **Web viewer**.
 
 ## Ad blocking
 

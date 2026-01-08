@@ -16,12 +16,12 @@ Get early access to upcoming releases by enabling _early access versions_. Early
 
 To receive early access versions as soon as they're available, follow these steps:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. In the sidebar, select **General**.
 3. Under **Account → Your Account**, select **Log in**.
 4. In **Email**, enter your email.
 5. In **Password**, enter your password.
-6. Once signed in, return to **Settings**.
+6. Once signed in, return to **[[Settings]]**.
 7. In the sidebar, select **General**.
 8. Under **App**, enable **Receive early access versions**.
 9. Click **Check for updates** and then **Relaunch**.
@@ -44,14 +44,14 @@ To report an issue, use one of the following channels:
 - On Discord, report the issue in the respective `#insider-release` channel.
 - In the forum, create a new topic under [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
 
-When you report an issue, include the build version and the OS you're running it on. You can find the build version under **Settings → About → App → Current version**.
+When you report an issue, include the build version and the OS you're running it on. You can find the build version under **[[Settings]] → About → App → Current version**.
 
 ## Switch back to public versions on desktop
 
 To switch back to using public versions (not early access) on desktop:
 
 1. Disable early access versions.
-   1. Open **Settings**.
+   1. Open **[[Settings]]**.
    2. In the sidebar, select **General**.
    3. Under **App**, disable **Receive early access versions**.
 2. Close Obsidian.

@@ -35,7 +35,7 @@ If your daily notes have the same structure, you can use a [[Plugins/Templates|t
    - [ ]
    ```
 
-2. Open **Settings**.
+2. Open **[[Settings]]**.
 3. In the sidebar, click **Daily notes** under **Plugin options**.
 4. In the text box next to **Template file location**, select the "Daily template" note.
 

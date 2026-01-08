@@ -5,11 +5,11 @@ permalink: appearance
 ---
 ### Color scheme
 
-Obsidian comes with two color schemes, light and dark. By default, the color scheme is set to adapt to your operating system. You can change this by going to **Settings → Appearance**.
+Obsidian comes with two color schemes, light and dark. By default, the color scheme is set to adapt to your operating system. You can change this by going to **[[Settings]] → Appearance**.
 
 ### Custom themes
 
-You can change the appearance of Obsidian by using [[themes|custom themes]]. Browse hundreds of community-made themes by going to **Settings → Appearance**, then click **Manage** to view and install themes.
+You can change the appearance of Obsidian by using [[themes|custom themes]]. Browse hundreds of community-made themes by going to **[[Settings]] → Appearance**, then click **Manage** to view and install themes.
 
 You can also tweak themes using [[CSS snippets]] and [build your own theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) .
 
@@ -19,7 +19,7 @@ You can change the Obsidian desktop app icon. Try the icon editor featured on [o
 
 To change the Obsidian app icon, follow these steps:
 
-1. Open **Settings**.
+1. Open **[[Settings]]**.
 2. Select **Appearance** on the left.
 3. Scroll down to the **Advanced** section.
 4. Under **Custom app icon** click **Choose** .
