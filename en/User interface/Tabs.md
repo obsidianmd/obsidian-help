@@ -15,7 +15,7 @@ Tabs in Obsidian work much like tabs in other apps, such as web browsers.
 You can open as many tabs as you want in Obsidian. You can also arrange tabs to create custom layouts that persist until the next time you open the app.
 
 > [!note] Mobile tabs
-> On mobile, you can manage open tabs from the tab counter in the [[Use the mobile app#Navigation bar|Navigation bar]].
+> On mobile, you can manage open tabs from the tab counter in the [[Mobile app#Navigation bar|Navigation bar]].
 
 ## Open a new tab
 

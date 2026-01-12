@@ -73,7 +73,7 @@ For example, `[[#Preview a linked file]]` will create a link to [[#Preview a l
 
 To link to a heading in another note, add a hash (`#`) at the end of the link destination, followed by the heading text.
 
-For example, `[[Obsidian#Links are first-class citizens]]` will create a link to [[Obsidian#Links are first-class citizens]].
+For example, `[[About Obsidian#Links are first-class citizens]]` will create a link to [[About Obsidian#Links are first-class citizens]].
 
 **Linking to subheadings**
 

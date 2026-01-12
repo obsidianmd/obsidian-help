@@ -41,7 +41,7 @@ Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No
 
 Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
 
-Instead of providing you with an opinionated and assembled product, [[Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+Instead of providing you with an opinionated and assembled product, [[About Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
 
 The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
 

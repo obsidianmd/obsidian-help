@@ -1,14 +1,23 @@
 ---
-aliases:
 description: Learn about mobile-specific features in Obsidian, including the mobile toolbar, quick actions, and navigation bar.
 mobile: true
 permalink: mobile
 publish: true
+cssclasses:
+  - list-cards
 ---
 
-The mobile app aims to provide a familiar user experience for those already using the desktop app.
+Obsidian mobile apps are available for [[Obsidian for iOS and iPadOS|iOS and iPadOS]] and [[Obsidian for Android|Android]]. You can download them from the [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) and [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
 
-That being said, there are a few features unique to the mobile app. In this guide, you’ll learn about them to get the most use out of the mobile app.
+Obsidian works similarly on mobile as it does on desktop, but has a few unique features such as widgets, toolbar, and quick action.
+
+## Widgets, shortcuts, and Siri
+
+For OS-specific features, see the following pages:
+
+- [[Obsidian for iOS and iPadOS|iOS and iPadOS]]
+- [[Obsidian for Android|Android]]
+
 
 ## Mobile toolbar
 
@@ -74,9 +83,8 @@ The middle plus in circle icon lets you create a new note or switch to an existi
 
 ### Tab management
 
-The second icon to the right shows you how many tabs are currently open. The icon looks like a number in a box. For example, the icon below indicates there are two tabs open.
+The second icon to the right shows you how many tabs are currently open. The icon looks like a number in a box and indicates how many tabs open.
 
-<span class="mobile-navbar-tabs-action">2</span>
 When you tap it, you’ll be able to switch to any open tab. You can also open a new tab.
 
 ### Ribbon actions
