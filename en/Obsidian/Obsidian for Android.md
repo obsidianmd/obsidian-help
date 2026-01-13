@@ -40,7 +40,7 @@ With this option you can use [[Introduction to Obsidian Sync|Obsidian Sync]] and
 
 ## Widgets
 
-Obsidian for Android offers several widget options to quickly access your vault from your home screen. Available widgets include:
+Obsidian for Android offers several widget options to quickly access your vaults and notes from your home screen. Available widgets include:
 
 - **Open Note** — Open a specific note
 - **New Note** — Create a new note
@@ -49,7 +49,7 @@ Obsidian for Android offers several widget options to quickly access your vault 
 - **Open Obsidian** — Launch the app
 
 > [!note]
-> These widgets are static, and do not show any previews of the note or vault.
+> These widgets are static, and do not show any previews of the selected note or vault.
 
 To add widgets to your home screen:
 1. Tap and hold anywhere on your home screen
@@ -63,20 +63,24 @@ You can add multiple widgets of the same type to open different files or trigger
 
 To configure a widget, long-press it on your home screen, then find an "Edit" or "Configure" option. This will allow you to specify the specific parameters required for that widget's on-tap action to work, like File or Path, Search Query, and Vault Name.
 
-## Quick Settings Tile
+See this Google Support article for more information on Android Widgets: [https://support.google.com/android/answer/9450271?hl=en](https://support.google.com/android/answer/9450271?hl=en).
+
+## Quick Settings Tiles
 
 Requires Android 7.0 or higher.
 
 Add an Obsidian Quick Settings tile for fast access to the app from your notification shade. Works on your Home Screen and Lock Screen.
 
 > [!note]
-> Unlike app widgets, you can only add one quick tile of the same type.
+> Unlike app widgets, you can only add one Quick Settings Tile of the same type.
 
 To add a quick settings tile to your notification shade:
 1. Access your notification shade, typically by swiping down from your status bar. Note: you may need to swipe one more time in order to see more options.
 2. In the Quick Settings tiles, select "Edit" - this is usually the same section where toggles like Wi-Fi, Bluetooth, and Orientation Lock are located.
 3. Find and select an Obsidian Quick Settings Tile, then rearrange it to your liking.
 4. To configure a Quick Settings Tile, tap and hold it to bring up the configuration screen.
+
+See this Google Support article for more information on Android Quick Settings: [https://support.google.com/android/answer/9083864?hl=en](https://support.google.com/android/answer/9083864?hl=en).
 
 ## Shortcuts
 
