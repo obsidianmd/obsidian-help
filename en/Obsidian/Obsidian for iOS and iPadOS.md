@@ -38,22 +38,21 @@ Home Screen widgets allow you to:
 - View a note
 - Open your daily note
 
-### Customizing Widgets
+### Customizing widgets
 
 You can customize widgets to suit your workflow, such as choosing which vault to use or specifying a particular note to open.
 
-**Home Screen widgets:** Tap and hold the widget, then select **Edit Widget**.
+- **Home Screen widgets:** Tap and hold the widget, then select **Edit Widget**.
+- **Lock Screen widgets:** Touch and hold your Lock Screen, tap **Customize**, select the Lock Screen, then tap the widget you want to customize.
+- **Control Center widgets:** Open Control Center, tap the **+** button at the top left to begin editing, then tap the widget you want to customize.
 
-**Lock Screen widgets:** Touch and hold your Lock Screen, tap **Customize**, select the Lock Screen, then tap the widget you want to customize.
+**New Note** widget configuration options:
 
-**Control Center widgets:** Open Control Center, tap the **+** button at the top left to begin editing, then tap the widget you want to customize.
+![[ios-new-note-configuration.png|400]]
 
-![[ios-new-note-configuration.png|200]]
-`New Note` widget configuration options.
+**View Note** widget configuration options.
 
-
-![[ios-view-note-configuration.png|200]]
-`View Note` widget configuration options.
+![[ios-view-note-configuration.png|400]]
 
 ## Shortcuts
 

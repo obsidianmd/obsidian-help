@@ -63,35 +63,38 @@ You can add multiple widgets of the same type to open different files or trigger
 
 To configure a widget, long-press it on your home screen, then find an "Edit" or "Configure" option. This will allow you to specify the specific parameters required for that widget's on-tap action to work, like File or Path, Search Query, and Vault Name.
 
-See this Google Support article for more information on Android Widgets: [https://support.google.com/android/answer/9450271?hl=en](https://support.google.com/android/answer/9450271?hl=en).
+See this [Google Support article](https://support.google.com/android/answer/9450271?hl=en) for more information on Android Widgets.
 
-## Quick Settings Tiles
+## Quick Settings tTiles
 
 Requires Android 7.0 or higher.
 
 Add an Obsidian Quick Settings tile for fast access to the app from your notification shade. Works on your Home Screen and Lock Screen.
 
 > [!note]
-> Unlike app widgets, you can only add one Quick Settings Tile of the same type.
+> Unlike app widgets, you can only add one Quick Settings tile of the same type.
 
 To add a quick settings tile to your notification shade:
+
 1. Access your notification shade, typically by swiping down from your status bar. Note: you may need to swipe one more time in order to see more options.
 2. In the Quick Settings tiles, select "Edit" - this is usually the same section where toggles like Wi-Fi, Bluetooth, and Orientation Lock are located.
-3. Find and select an Obsidian Quick Settings Tile, then rearrange it to your liking.
-4. To configure a Quick Settings Tile, tap and hold it to bring up the configuration screen.
+3. Find and select an Obsidian Quick Settings tile, then rearrange it to your liking.
+4. To configure a Quick Settings tile, tap and hold it to bring up the configuration screen.
 
-See this Google Support article for more information on Android Quick Settings: [https://support.google.com/android/answer/9083864?hl=en](https://support.google.com/android/answer/9083864?hl=en).
+See this  [Google Support article](https://support.google.com/android/answer/9083864?hl=en) for more information on Android Quick Settings.
 
 ## Shortcuts
 
 Requires Android 7.1 or higher.
 
 Obsidian provides app shortcuts that can be accessed in several ways:
+
 - Long-press the Obsidian app icon
 - Drag the shortcut icon to your home screen
 - Access via the search bar on your launcher (available on most device vendors)
 
 Available shortcuts:
+
 - **Open note** — Open a specific note in your vault
 - **Daily note** — Jump directly to today's daily note
 
