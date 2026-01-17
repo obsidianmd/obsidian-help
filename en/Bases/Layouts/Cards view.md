@@ -7,7 +7,7 @@ Select ![[lucide-layout-grid.svg#icon]]  **Cards** from the view menu to display
 
 ## Settings
 
-List view settings can be configured in [[Views#View settings|View settings]].
+Card view settings can be configured in [[Views#View settings|View settings]].
 
 - Card size
 - Image property
