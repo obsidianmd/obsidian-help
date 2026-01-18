@@ -39,6 +39,7 @@ Tên được liệt kê theo thứ tự bảng chữ cái thay vì đóng góp.
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, Patrick Danilevici (Romanian)
 - Manuel Arias Almada (Spanish)
+- Moyf, 墨一 (Chinese Simplified)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
 - Sakvipubp Suy (Khmer)
