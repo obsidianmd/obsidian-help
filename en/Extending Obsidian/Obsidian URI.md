@@ -56,6 +56,11 @@ The `open` action opens an Obsidian vault, or opens a file within that vault.
   - Then the rest of the path replaces the `file` parameter.
 - `prepend` will add to the top of the file and attempt to merge properties.
 - `append` will add to the end of the file and also attempt to merge properties.
+- `paneType` (optional) determines where the note will be opened in the UI.
+  - if not present, the last active tab is replaced.
+  - `paneType=tab` open in a new tab.
+  - `paneType=split` open in a new tab group.
+  - `paneType=window` open in a pop-out window (Desktop only).
 
 ## Create note
 
@@ -74,6 +79,7 @@ The `new` action, creates a new note in the vault, optionally with some content.
 - `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
 - `file` a vault absolute path, including the name. Will override `name` if specified.
 - `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
+- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
 - `content` (optional) the contents of the note.
 - `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
 - `silent` (optional) include this parameter if you don't want to open the new note.
