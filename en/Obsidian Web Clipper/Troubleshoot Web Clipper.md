@@ -36,13 +36,22 @@ If you don't see any content in Obsidian when you click **Add to Obsidian**:
 
 It is likely that Obsidian cannot access your clipboard. Clipboard access is necessary to pass data from your browser to Obsidian. Your configuration can affect how apps are sandboxed, and clipboard permissions.
 
-If you use Wayland, make sure that Obsidian has the permissions to read the clipboard when the app is not focused. For example, in your Hyprland configuration:
+If you use Wayland, make sure that Obsidian has the permissions to read the clipboard when the app is not focused. This preference may be in your tiling window manager, e.g. Hyprland or Sway.
+
+If you use Hyprland:
 
 ```ini
-# hyprland.conf
+# ~/.config/hypr/hyprland.conf
 misc {
     focus_on_activate = true
 }
+```
+
+If you use Sway:
+
+```ini
+# ~/.config/sway/config
+for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
 - If you use Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download).
