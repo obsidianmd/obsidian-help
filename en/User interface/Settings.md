@@ -74,7 +74,7 @@ If you support [Obsidian for work](<https://obsidian.md/blog/free-for-work/>), s
 
 #### Notify if startup takes longer than expected
 
-When enabled, Obsidian displays a notification if startup is unusually slow. The notification includes diagnostic information about what's causing the delay. Select the timer icon ( ![[lucide-timer.svg#icon]] )next to this setting to [[Help and support#Check startup time|check your startup time]].
+When enabled, Obsidian displays a notification if startup is unusually slow. The notification includes diagnostic information about what's causing the delay. Select the timer icon ( ![[lucide-timer.svg#icon]] ) next to this setting to [[Help and support#Check startup time|check your startup time]].
 
 ## Editor
 
@@ -239,7 +239,7 @@ What happens to a file after you delete it. Options include:
 
 #### Excluded files
 
-Excluded files will be hidden in [[Search]], [[Graph View]], and Unlinked Mentions ([[Backlinks]] and [[Outgoing links]]), and less noticeable in [[Quick Switcher ]]and link suggestions. Select **Manage** to configure excluded files.
+Excluded files will be hidden in [[Search]], [[Graph View]], and Unlinked Mentions ([[Backlinks]] and [[Outgoing links]]), and less noticeable in [[Quick Switcher ]] and link suggestions. Select **Manage** to configure excluded files.
 
 #### Override config folder
 
