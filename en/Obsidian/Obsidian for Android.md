@@ -65,7 +65,7 @@ To configure a widget, long-press it on your home screen, then find an "Edit" or
 
 See this [Google Support article](https://support.google.com/android/answer/9450271?hl=en) for more information on Android Widgets.
 
-## Quick Settings tTiles
+## Quick Settings tiles
 
 Requires Android 7.0 or higher.
 
