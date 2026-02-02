@@ -1,5 +1,5 @@
 ---
-permalink: /formulas
+permalink: formulas
 description: Formulas allow you to create calculated properties using data from other properties. You can perform calculations, manipulate text, work with dates, and more.
 ---
 Formulas allow you to create calculated properties in [[Introduction to Bases|Bases]] using data from other [[Properties|properties]]. You can perform calculations, manipulate text, work with dates, and more. 
