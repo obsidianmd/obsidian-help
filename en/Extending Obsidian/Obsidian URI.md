@@ -22,7 +22,7 @@ The `action` parameter is the action that you would like to perform. Available a
 - `new` to create or add to an existing note.
 - `daily` to create or open your daily note.
 - `search` to open a search.
-
+- `choose-vault` to open the vault manager.
 
 > [!warning] Encoding
 > Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
@@ -117,6 +117,14 @@ The `search` action opens [[Search]] in the specified vault, and optionally perf
 
 - `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
 - `query` (optional) The search term to perform.
+
+## Open Vault Manager
+
+The `choose-vault` action opens the [[Manage vaults|vault manager]].
+
+### Examples
+
+- `obsidian://choose-vault`
 
 ## Integrate with Hook
 
