@@ -135,7 +135,7 @@ obsidian create name=Note content="# Title\n\nBody text"
 
 If your terminal's current working directory is a vault folder, that vault is used by default. Otherwise, the currently active vault is used.
 
-Use `vault=<name>` to target a specific vault:
+Use `vault=<name>` to target a specific vault. This must be the first parameter before your command:
 
 ```shell
 obsidian vault=Notes daily
