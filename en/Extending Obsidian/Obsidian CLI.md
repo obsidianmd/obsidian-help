@@ -4,7 +4,7 @@ description: Anything you can do in Obsidian can be done from the command line.
 ---
 Obsidian CLI is a command line interface that lets you control Obsidian from your terminal for scripting, automation, and integration with external tools.
 
-Anything you can do in Obsidian can be done from the command line. Obsidian CLI even includes [[#Developer commands|developer commands]] to access developer tools, inspect elements, take screenshots, reload plugins, and more. 
+Anything you can do in Obsidian can be done from the command line. Obsidian CLI even includes [[#Developer commands|developer commands]] to access developer tools, inspect elements, take screenshots, reload plugins, and more.
 
 ![[obsidian-cli.mp4#interface]]
 
@@ -1468,7 +1468,7 @@ export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 
 ### Linux
 
-The CLI registration creates a symlink to the Obsidian binary at `/usr/local/bin/obsidian` (requires sudo). If that fails, it falls back to `~/.local/bin/obsidian`. If you are having trouble, check the following:
+The CLI registration creates a symlink at `/usr/local/bin/obsidian` pointing to the Obsidian binary (requires sudo). For AppImage installs, the symlink points to the `.AppImage` file instead of the internal binary, since the mount path changes each launch. If sudo fails, the symlink is created at `~/.local/bin/obsidian` as a fallback. If you are having trouble, check the following:
 
 - **Verify the symlink exists** — check that the symlink is in place and points to the correct binary:
 
@@ -1488,4 +1488,11 @@ sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-- **AppImage** — the symlink must point to the `.AppImage` file itself, not the temporary mount path that changes each launch. If the symlink breaks after moving or renaming the AppImage, re-register the CLI or update the symlink manually.
+- **AppImage** — if the symlink breaks after moving or renaming the `.AppImage` file, re-register the CLI or update the symlink manually.
+- **Snap** — the Snap package stores insider build data in its own user data directory. If the CLI doesn't detect the insider `.asar`, set `XDG_CONFIG_HOME` to point to the Snap config path:
+
+```
+export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+```
+
+Add this to your `~/.bashrc` or `~/.zshrc` to make it persistent.
