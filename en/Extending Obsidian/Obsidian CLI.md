@@ -1438,4 +1438,11 @@ If you are having trouble running Obsidian CLI, make sure you are using the late
 
 ### Windows
 
- Make sure you have run the `.com` file from the official Obsidian Discord in the `#insider-desktop-release` channel. Requires a [[Catalyst license]].
+Windows requires using a terminal redirector that connects to Obsidian to stdin/stdout properly. This is unfortunately necessary because Obsidian normally runs as a GUI app which is incompatible with terminal outputs.
+
+To get this file, go to the official Obsidian Discord in the `#insider-desktop-release` channel. Requires a [[Catalyst license]].
+
+- Download the `Obsidian.com` file [here](https://discord.com/channels/686053708261228577/716028884885307432/1470798383085261057).
+- Place the `Obsidian.com` file in the folder where you installed the `Obsidian.exe` file, which could be one of these paths:
+	- `C:\Users\<YourUsername>\AppData\Local\Programs\obsidian\`
+	- `C:\Users\<YourUsername>\AppData\Local\obsidian\`
