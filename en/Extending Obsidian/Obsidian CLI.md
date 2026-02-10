@@ -1434,7 +1434,11 @@ These shortcuts are available in the [[#Use the terminal interface|TUI]].
 
 ## Troubleshooting
 
-If you are having trouble running Obsidian CLI, make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.11.7) and the latest [[Early access versions|early access version]] (1.12).
+If you are having trouble running Obsidian CLI:
+
+- Make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.11.7) and the latest [[Early access versions|early access version]] (1.12).
+- Restart your terminal after registering the CLI for the PATH changes to take effect.
+- Obsidian must be running. The CLI connects to the running Obsidian instance. If Obsidian is not running, the first CLI command should launch the app.
 
 ### Windows
 
@@ -1446,3 +1450,42 @@ To get this file, go to the official Obsidian Discord in the `#insider-desktop-r
 - Place the `Obsidian.com` file in the folder where you installed the `Obsidian.exe` file, which could be one of these paths:
 	- `C:\Users\<YourUsername>\AppData\Local\Programs\obsidian\`
 	- `C:\Users\<YourUsername>\AppData\Local\obsidian\`
+
+### macOS
+
+The CLI registration adds the Obsidian binary directory to your PATH via `~/.zprofile`. If you are having trouble, check the following:
+
+- **Verify PATH registration** — your `~/.zprofile` file should contain the following line. If it's missing, you can add it manually:
+
+```
+export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
+```
+
+- **Non-default shell** — the CLI registration only modifies `~/.zprofile`, which is used by zsh (the default macOS shell). If you use a different shell, add the Obsidian binary directory to your shell's configuration file manually:
+	- Bash: add `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` to `~/.bash_profile`
+	- Fish: run `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
+- **Non-default install location** — if Obsidian is not installed in `/Applications`, replace the path with the actual location of `Obsidian.app/Contents/MacOS` on your system.
+
+### Linux
+
+The CLI registration creates a symlink to the Obsidian binary at `/usr/local/bin/obsidian` (requires sudo). If that fails, it falls back to `~/.local/bin/obsidian`. If you are having trouble, check the following:
+
+- **Verify the symlink exists** — check that the symlink is in place and points to the correct binary:
+
+```
+ls -l /usr/local/bin/obsidian
+```
+
+If the symlink is missing, create it manually:
+
+```
+sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
+```
+
+- **Fallback location** — if the symlink was created in `~/.local/bin/` instead, make sure that directory is in your PATH. Add the following to your `~/.bashrc` or `~/.zshrc`:
+
+```
+export PATH="$PATH:$HOME/.local/bin"
+```
+
+- **AppImage** — the symlink must point to the `.AppImage` file itself, not the temporary mount path that changes each launch. If the symlink breaks after moving or renaming the AppImage, re-register the CLI or update the symlink manually.
