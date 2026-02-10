@@ -14,6 +14,7 @@ Apps come and go, but your data should last. Obsidian uses non-proprietary plain
 - <span class="icon-app icon-onenote"></span> [[Import from Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Import from Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Import from Apple Notes|Apple Notes]]
+- <span class="icon-app icon-apple-journal"></span> [[Import from Apple Journal|Apple Journal]]
 - <span class="icon-app icon-google-keep"></span> [[Import from Google Keep|Google Keep]]
 - <span class="icon-app icon-bear"></span> [[Import from Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Import from Craft|Craft]]
