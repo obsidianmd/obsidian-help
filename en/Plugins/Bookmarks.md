@@ -13,6 +13,7 @@ You can add bookmarks to the following:
 - Searches
 - Headings
 - Blocks
+- Links
 
 Open a bookmark by selecting it in the Bookmarks tab.
 
@@ -80,6 +81,18 @@ When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instea
 >
 > 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
 > 2. Select the **Bookmark block under cursor** command.
+
+> [!todo]- Bookmark a link
+>
+> 1. Enable [[Web viewer]] in [[Core plugins]].
+> 2. Open [[Web viewer]] and navigate to the link you wish to bookmark.
+> 3. In the address bar, select the three dots icon next to the reader icon.
+> 4. Select **Bookmark**.
+>
+> **Command palette**:
+>
+> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) within the [[Web viewer]] pane to open the [[Command palette]].
+> 2. Select the **Bookmark** command.
 
 ## Remove a bookmark
 
