@@ -1455,22 +1455,29 @@ To get this file, go to the official Obsidian Discord in the `#insider-desktop-r
 
 The CLI registration adds the Obsidian binary directory to your PATH via `~/.zprofile`. If you are having trouble, check the following:
 
-- **Verify PATH registration** — your `~/.zprofile` file should contain the following line. If it's missing, you can add it manually:
+Your `~/.zprofile` file should contain the following line. If it's missing, you can add it manually:
 
 ```
 export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 ```
 
-- **Non-default shell** — the CLI registration only modifies `~/.zprofile`, which is used by zsh (the default macOS shell). If you use a different shell, add the Obsidian binary directory to your shell's configuration file manually:
-	- Bash: add `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` to `~/.bash_profile`
-	- Fish: run `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
-- **Non-default install location** — if Obsidian is not installed in `/Applications`, replace the path with the actual location of `Obsidian.app/Contents/MacOS` on your system.
+#### Alternate shells
+
+The CLI registration only modifies `~/.zprofile`, which is used by zsh (the default macOS shell). If you use a different shell, add the Obsidian binary directory to your shell's configuration file manually:
+
+- Bash: add `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` to `~/.bash_profile`
+- Fish: run `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
+
 
 ### Linux
 
-The CLI registration creates a symlink at `/usr/local/bin/obsidian` pointing to the Obsidian binary (requires sudo). For AppImage installs, the symlink points to the `.AppImage` file instead of the internal binary, since the mount path changes each launch. If sudo fails, the symlink is created at `~/.local/bin/obsidian` as a fallback. If you are having trouble, check the following:
+The CLI registration creates a symlink at `/usr/local/bin/obsidian` pointing to the Obsidian binary (requires sudo). 
 
-- **Verify the symlink exists** — check that the symlink is in place and points to the correct binary:
+#### AppImage
+
+For AppImage installs, the symlink points to the `.AppImage` file instead of the internal binary, since the mount path changes each launch. If sudo fails, the symlink is created at `~/.local/bin/obsidian` as a fallback. If you are having trouble, check the following.
+
+Check that the symlink exists and points to the correct binary:
 
 ```
 ls -l /usr/local/bin/obsidian
@@ -1482,17 +1489,35 @@ If the symlink is missing, create it manually:
 sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
 ```
 
-- **Fallback location** — if the symlink was created in `~/.local/bin/` instead, make sure that directory is in your PATH. Add the following to your `~/.bashrc` or `~/.zshrc`:
+I the symlink was created in `~/.local/bin/` instead, make sure that directory is in your PATH. Add the following to your `~/.bashrc` or `~/.zshrc`:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-- **AppImage** — if the symlink breaks after moving or renaming the `.AppImage` file, re-register the CLI or update the symlink manually.
-- **Snap** — the Snap package stores insider build data in its own user data directory. If the CLI doesn't detect the insider `.asar`, set `XDG_CONFIG_HOME` to point to the Snap config path:
+If the symlink breaks after moving or renaming the `.AppImage` file, re-register the CLI or update the symlink manually.
+
+#### Snap
+
+The Snap package stores insider build data in its own user data directory. If the CLI doesn't detect the insider `.asar`, set `XDG_CONFIG_HOME` to point to the Snap config path:
 
 ```
 export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
 ```
 
 Add this to your `~/.bashrc` or `~/.zshrc` to make it persistent.
+
+
+#### Flatpak
+
+Obsidian tries to do this automatically, but below are the manual instructions. If it is a system install:
+
+```
+ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+```
+
+If it is a user install:
+
+```
+ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+```
