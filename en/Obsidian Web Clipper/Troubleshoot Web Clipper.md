@@ -55,6 +55,7 @@ for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
 - If you use Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download).
+- If you use KDE go to to **System Settings** → **Window Management** → **Window Rules** and allow Obsidian to take focus, [[web-clipper-kde.png|see screenshot]].
 - As a fallback, try switching to **Legacy mode** in **Web Clipper Settings** → **General**. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.
 
 ## iOS and iPadOS
