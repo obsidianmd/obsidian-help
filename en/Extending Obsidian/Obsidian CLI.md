@@ -173,6 +173,10 @@ search query="TODO" --copy
 
 Show list of all available commands.
 
+| Parameter   | Description                       |
+| ----------- | --------------------------------- |
+| `<command>` | Show help for a specific command. |
+
 ### `version`
 
 Show Obsidian version.
