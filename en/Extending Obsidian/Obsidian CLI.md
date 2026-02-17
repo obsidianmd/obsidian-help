@@ -118,11 +118,11 @@ A **parameter** takes a value, written as `parameter=value`. If the value has sp
 obsidian create name=Note content="Hello world"
 ```
 
-A **flag** is a boolean switch with no value. Include it to turn it on, for example `silent` and `overwrite` are flags:
+A **flag** is a boolean switch with no value. Include it to turn it on, for example `open` and `overwrite` are flags:
 
 ```shell
-# Create the note in the background and overwrite any existing content
-obsidian create name=Note content="Hello" silent overwrite
+# Create a note and open it
+obsidian create name=Note content="Hello" open overwrite
 ```
 
 For multiline content use `\n` for newline. Use `\t` for tab.
@@ -200,13 +200,16 @@ List views in the current base file.
 
 ### `base:create`
 
-Create a new item in the current base view.
+Create a new item in a base. Defaults to the active base view if no file is specified.
 
 ```bash
-name=<name>        # file name
+file=<name>        # base file name
+path=<path>        # base file path
+view=<name>        # view name
+name=<name>        # new file name
 content=<text>     # initial content
 
-silent             # create without opening
+open               # open file after creating
 newtab             # open in new tab
 ```
 
@@ -232,6 +235,7 @@ List bookmarks.
 ```bash
 total              # return bookmark count
 verbose            # include bookmark types
+format=json|tsv|csv  # output format (default: tsv)
 ```
 
 ### `bookmark`
@@ -269,12 +273,12 @@ id=<command-id>    # (required) command ID to execute
 
 ### `hotkeys`
 
-List hotkeys.
+List hotkeys for all commands.
 
 ```bash
 total              # return hotkey count
-all                # include commands without hotkeys
 verbose            # show if hotkey is custom
+format=json|tsv|csv  # output format (default: tsv)
 ```
 
 ### `hotkey`
@@ -297,9 +301,11 @@ Open daily note.
 
 ```bash
 paneType=tab|split|window    # pane type to open in
-
-silent             # return path without opening
 ```
+
+### `daily:path`
+
+Get daily note path. Returns the expected path even if the file hasn't been created yet.
 
 ### `daily:read`
 
@@ -314,7 +320,7 @@ content=<text>     # (required) content to append
 paneType=tab|split|window    # pane type to open in
 
 inline             # append without newline
-silent             # do not open file
+open               # open file after adding
 ```
 
 ### `daily:prepend`
@@ -326,7 +332,7 @@ content=<text>     # (required) content to prepend
 paneType=tab|split|window    # pane type to open in
 
 inline             # prepend without newline
-silent             # do not open file
+open               # open file after adding
 ```
 
 ## File history
@@ -478,7 +484,7 @@ content=<text>     # initial content
 template=<name>    # template to use
 
 overwrite          # overwrite if file exists
-silent             # create without opening
+open               # open file after creating
 newtab             # open in new tab
 ```
 
@@ -525,6 +531,16 @@ path=<path>        # file path
 to=<path>          # (required) destination folder or path
 ```
 
+### `rename`
+
+Rename a file (default: active file). The file extension is preserved automatically if omitted from the new name. Use [[#`move`|move]] to rename and move a file at the same time.
+
+```bash
+file=<name>        # file name
+path=<path>        # file path
+name=<name>        # (required) new file name
+```
+
 ### `delete`
 
 Delete a file (default: active file, trash by default).
@@ -550,6 +566,7 @@ path=<path>        # target file path
 
 counts             # include link counts
 total              # return backlink count
+format=json|tsv|csv  # output format (default: tsv)
 ```
 
 ### `links`
@@ -571,6 +588,7 @@ List unresolved links in vault.
 total              # return unresolved link count
 counts             # include link counts
 verbose            # include source files
+format=json|tsv|csv  # output format (default: tsv)
 ```
 
 ### `orphans`
@@ -579,7 +597,6 @@ List files with no incoming links.
 
 ```bash
 total              # return orphan count
-all                # include non-markdown files
 ```
 
 ### `deadends`
@@ -588,7 +605,6 @@ List files with no outgoing links.
 
 ```bash
 total              # return dead-end count
-all                # include non-markdown files
 ```
 
 ## Outline
@@ -602,7 +618,7 @@ Show headings for the current file.
 ```bash
 file=<name>        # file name
 path=<path>        # file path
-format=tree|md     # output format (default: tree)
+format=tree|md|json  # output format (default: tree)
 
 total              # return heading count
 ```
@@ -619,6 +635,7 @@ List installed plugins.
 filter=core|community  # filter by plugin type
 
 versions               # include version numbers
+format=json|tsv|csv    # output format (default: tsv)
 ```
 
 ### `plugins:enabled`
@@ -629,6 +646,7 @@ List enabled plugins.
 filter=core|community  # filter by plugin type
 
 versions               # include version numbers
+format=json|tsv|csv    # output format (default: tsv)
 ```
 
 ### `plugins:restrict`
@@ -698,31 +716,31 @@ Commands related to [[Properties]].
 
 ### `aliases`
 
-List aliases (default: active file).
+List aliases in the vault. Use `active` or `file`/`path` to show aliases for a specific file.
 
 ```bash
 file=<name>        # file name
 path=<path>        # file path
 
-all                # list all aliases in vault
 total              # return alias count
 verbose            # include file paths
+active             # show aliases for active file
 ```
 
 ### `properties`
 
-List properties (default: active file).
+List properties in the vault. Use `active` or `file`/`path` to show properties for a specific file.
 
 ```bash
 file=<name>        # show properties for file
 path=<path>        # show properties for path
 name=<name>        # get specific property count
 sort=count         # sort by count (default: name)
-format=yaml|tsv    # output format (default: yaml)
+format=yaml|json|tsv  # output format (default: yaml)
 
-all                # list all properties in vault
 total              # return property count
 counts             # include occurrence counts
+active             # show properties for active file
 ```
 
 ### `property:set`
@@ -825,7 +843,6 @@ Open a random note.
 folder=<path>      # limit to folder
 
 newtab             # open in new tab
-silent             # return path without opening
 ```
 
 ### `random:read`
@@ -842,16 +859,28 @@ Commands for [[Search]].
 
 ### `search`
 
-Search vault for text.
+Search vault for text. Returns matching file paths.
 
 ```bash
 query=<text>       # (required) search query
 path=<folder>      # limit to folder
-limit=<n>          # max results
+limit=<n>          # max files
 format=text|json   # output format (default: text)
 
 total              # return match count
-matches            # show match context
+case               # case sensitive
+```
+
+### `search:context`
+
+Search with matching line context. Returns grep-style `path:line: text` output.
+
+```bash
+query=<text>       # (required) search query
+path=<folder>      # limit to folder
+limit=<n>          # max files
+format=text|json   # output format (default: text)
+
 case               # case sensitive
 ```
 
@@ -934,16 +963,17 @@ Commands for [[Tags]].
 
 ### `tags`
 
-List tags (default: active file).
+List tags in the vault. Use `active` or `file`/`path` to show tags for a specific file.
 
 ```bash
 file=<name>        # file name
 path=<path>        # file path
 sort=count         # sort by count (default: name)
 
-all                # list all tags in vault
 total              # return tag count
 counts             # include tag counts
+format=json|tsv|csv  # output format (default: tsv)
+active             # show tags for active file
 ```
 
 ### `tag`
@@ -963,28 +993,29 @@ Commands for task management.
 
 ### `tasks`
 
-List tasks (default: active file).
+List tasks in the vault. Use `active` or `file`/`path` to show tasks for a specific file.
 
 ```bash
 file=<name>        # filter by file name
 path=<path>        # filter by file path
 status="<char>"    # filter by status character
 
-all                # list all tasks in vault
-daily              # show tasks from daily note
 total              # return task count
 done               # show completed tasks
 todo               # show incomplete tasks
 verbose            # group by file with line numbers
+format=json|tsv|csv  # output format (default: text)
+active             # show tasks for active file
+daily              # show tasks from daily note
 ```
 
 **Examples:**
 
 ```bash
-# List all tasks
+# List all tasks in the vault
 tasks
 
-# List incomplete tasks
+# List incomplete tasks in the vault
 tasks todo
 
 # List completed tasks from a specific file
@@ -1159,7 +1190,7 @@ name=<text>        # note name
 content=<text>     # initial content
 paneType=tab|split|window    # pane type to open in
 
-silent             # create without opening
+open               # open file after creating
 ```
 
 ## Vault
