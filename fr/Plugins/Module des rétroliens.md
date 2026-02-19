@@ -1,4 +1,4 @@
-Le module des **rétroliens** (ou des **occurrences liées**) montre comment la note que vous êtes en train de consulter est référencée dans d'autres notes. Après l'avoir activé, vous verrez le nombre de liens dirigés vers cette note dans la barre latérale droite.
+Le module des **rétroliens** (ou des **occurrences liées**) est un [[Modules principaux|module principal]] qui montre comment la note que vous êtes en train de consulter est référencée dans d'autres notes. Après l'avoir activé, vous verrez le nombre de liens dirigés vers cette note dans la barre latérale droite.
 
 Pour voir les rétroliens, développez la barre latérale droite, puis cliquez sur "**Rétroliens pour [nom de la note actuelle]**" ![[obsidian-icon-links-coming-in.svg]]. Vous devriez ensuite voir un panneau qui montre les rétroliens de la note actuelle :
 ![[rétroliens.png]] 
