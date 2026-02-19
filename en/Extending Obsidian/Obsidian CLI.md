@@ -88,7 +88,7 @@ Many [[#Developer commands]] are available for plugin and theme development. The
 
 ```shell
 # Open developer tools
-obsidian dev:open
+obsidian devtools
 
 # Reload a community plugin you're developing
 obsidian plugin:reload id=my-plugin
@@ -97,7 +97,7 @@ obsidian plugin:reload id=my-plugin
 obsidian dev:screenshot path=screenshot.png
 
 # Run JavaScript in the app console
-obsidian dev:eval code="app.vault.getFiles().length"
+obsidian eval code="app.vault.getFiles().length"
 ```
 
 ## How to
