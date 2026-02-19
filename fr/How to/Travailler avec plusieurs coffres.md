@@ -2,12 +2,12 @@ Chaque ensemble de notes dans Obsidian est appelé  un *"coffre"*. Ce coffre cor
 
 Vous pouvez ouvrir un autre coffre n'importe où sur votre ordinateur, et il mémorisera ses propres paramètres et modules. Ceci est utile, par exemple, si vous avez un coffre dans lequel vous conservez des notes, et un autre dans lequel vous rédigez de longs documents.
 
-Le Coffre d'Aide est stocké dans un répertoire spécial Obsidian (voir [[Comment Obsidian stocke les données]]), mais à part cela, c'est un répertoire de fichiers comme les autres. Pour y revenir lorsque vous êtes dans un autre coffre, cliquez sur le symbole en forme de point d'interrogation, en-dessous de l'explorateur de fichiers. 
+Le Coffre d'Aide est stocké dans un répertoire spécial Obsidian (voir [[Comment Obsidian stocke les données]]), mais à part cela, c'est un répertoire de fichiers comme les autres. Pour y revenir lorsque vous êtes dans un autre coffre, cliquez sur le symbole en forme de point d'interrogation, en-dessous de l'[[explorateur de fichiers]]. 
 
 # Travailler avec plusieurs coffres
  
 
-Le ***"profil de coffre"**** ou ***"gestionnaire de coffres"*** vous permet de passer facilement d'un coffre à l'autre. Pour l'ouvrir, cliquez sur le nom du coffre dans lequel vous vous trouvez (en-dessous de l'explorateur de fichiers et à côté du symbole "**![[symbole-chevrons.svg]]**" , puis cliquez sur **"Gérer les coffres"**. Vous pouvez aussi faire cela en sélectionnant "**Ouvrir un autre coffre**" à partir de la [[palette de commandes]] ou avec un raccourci clavier que vous aurez paramétré vous-même.  ^b613b4
+Le ***"profil de coffre"**** ou ***"gestionnaire de coffres"*** vous permet de passer facilement d'un coffre à l'autre. Pour l'ouvrir, cliquez sur le nom du coffre dans lequel vous vous trouvez (en-dessous de l'[[explorateur de fichiers]] et à côté du symbole "**![[symbole-chevrons.svg]]**" , puis cliquez sur **"Gérer les coffres"**. Vous pouvez aussi faire cela en sélectionnant "**Ouvrir un autre coffre**" à partir de la [[palette de commandes]] ou avec un raccourci clavier que vous aurez paramétré vous-même.  ^b613b4
 
 Vous êtes maintenant dans votre **gestionnaire de coffre**. 
 À gauche, s'affiche tous les coffres que vous avez déjà créés. Il vous suffit de cliquer sur leur nom pour les ouvrir. Vous pouvez aussi faire toute une série d'autres actions en cliquant sur "**Plus d'options** ![[symbole-plus-d'options.svg]]" . 
@@ -70,7 +70,7 @@ Certains systèmes d'exploitation ne permettent pas de déplacer un coffre avec 
 
 # Supprimer un coffre
 
-Si vous supprimez un coffre depuis la liste des coffres du gestionnaire de coffres, cela ne supprime pas son contenu. Mais si vous le faites depuis l'explorateur de fichiers de votre système d'exploitation, son contenu sera supprimé.
+Si vous supprimez un coffre depuis la liste des coffres du gestionnaire de coffres, cela ne supprime pas son contenu. Mais si vous le faites depuis l'[[explorateur de fichiers]] de votre système d'exploitation, son contenu sera supprimé.
 
 Voici les étapes à suivre pour faire la suppression uniquement dans le **gestionnaire de coffres** :
 1. Sur votre ordinateur, ouvrez Obsidian ;
@@ -81,7 +81,7 @@ Voici les étapes à suivre pour faire la suppression uniquement dans le **gesti
 
 # Transférer des paramètres d'un coffre à un autre
 
-Pour avoir les mêmes paramètres dans plusieurs coffres différents, pas besoin de tous les reparamétrer à la main, ce serait bien trop fastidieux ! À partir de l'explorateur de fichiers (ou d'un terminal), copier le dossier qui s'appelle `.obsidian` à partir du dossier racine du coffre source et collez le dans le dossier racine du coffre destinataire. Pour que les changements soient effectifs, il ne vous reste plus qu'à redémarrer Obsidian, et le tour est joué !
+Pour avoir les mêmes paramètres dans plusieurs coffres différents, pas besoin de tous les reparamétrer à la main, ce serait bien trop fastidieux ! À partir de l'[[explorateur de fichiers]] (ou d'un terminal), copier le dossier qui s'appelle `.obsidian` à partir du dossier racine du coffre source et collez le dans le dossier racine du coffre destinataire. Pour que les changements soient effectifs, il ne vous reste plus qu'à redémarrer Obsidian, et le tour est joué !
 
 > [!NOTE] Et si je ne trouve pas le dossier `.obsidian` ?  
 > Bon nombre de systèmes d'exploitation cachent par défaut les dossiers dont le nom commence par un point. C'est parce que ce sont des dossiers de configuration, et les développeurs de certains systèmes d'exploitation partent du principe que les utilisateur n'ont pas besoin d'accéder à ces dossiers. 
