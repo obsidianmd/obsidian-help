@@ -4,7 +4,7 @@ Afin d'utiliser efficacement la disposition fractionnée, il vous suffit de conn
 
 1. **==Utilisez la touche Ctrl/Cmd== lorsque vous souhaitez ouvrir des éléments dans un nouveau volet**.
 	- Par défaut, lorsque vous cliquez sur quelque chose, cela l'ouvre dans le volet actif. Le volet actif correspond à l'onglet en surbrillance en haut de l'interface d'Obsidian.
-	- Pour ouvrir des fichiers dans de nouveaux volets, maintenez en mode Aperçu la touche `Ctrl/Cmd` enfoncée tout en cliquant (`Maj+ctrl/cmd` en mode Edition). Cela fonctionne à plusieurs endroits, incluant [[l'explorateur de fichiers]], les [[rétroliens]] (liens ou mentions non liées), les résultats de [[recherche]] et la [[vue graphique]]. Cela s'applique également aux boutons ; au lieu de prévisualiser dans le volet actuel, vous pouvez faire `Ctrl+clic` sur le bouton de prévisualisation pour prévisualiser dans un nouveau volet. Lorsque vous utilisez le [[sélecteur rapide]], maintenez enfoncée la touche `Cmd/Ctrl` lorsque vous appuyez sur` Entrée` pour ouvrir un nouveau volet.
+	- Pour ouvrir des fichiers dans de nouveaux volets, maintenez en mode Aperçu la touche `Ctrl/Cmd` enfoncée tout en cliquant (`Maj+ctrl/cmd` en mode Edition). Cela fonctionne à plusieurs endroits, incluant l'[[explorateur de fichiers]], les [[rétroliens]] (liens ou mentions non liées), les résultats de [[recherche]] et la [[vue graphique]]. Cela s'applique également aux boutons ; au lieu de prévisualiser dans le volet actuel, vous pouvez faire `Ctrl+clic` sur le bouton de prévisualisation pour prévisualiser dans un nouveau volet. Lorsque vous utilisez le [[sélecteur rapide]], maintenez enfoncée la touche `Cmd/Ctrl` lorsque vous appuyez sur` Entrée` pour ouvrir un nouveau volet.
 
 ---
 
