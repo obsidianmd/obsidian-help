@@ -39,6 +39,7 @@ Los nombres no se enumeran por cantidad de contribución, sino alfabéticamente 
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, Patrick Danilevici (Romanian)
 - Manuel Arias Almada (Spanish)
+- Moyf, 墨一 (Chinese Simplified)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
 - Sakvipubp Suy (Khmer)
