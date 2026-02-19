@@ -18,7 +18,7 @@ Pour supprimer une note, sélectionnez **"Plus d'options"** (les trois points en
 ![[Plus_d'options.png]]
 Vous pouvez aussi faire cela via la [[palette de commandes]] **→ Supprimer le fichier actuel** ou, pour aller plus vite, avec un raccourci clavier que vous aurez défini vous même dans les paramètres des [[raccourcis clavier]]. 
 
-Enfin, vous pouvez supprimer un fichier depuis l'explorateur de fichier en faisant un **clic droit** sur le fichier en question.
+Enfin, vous pouvez supprimer un fichier depuis l'[[explorateur de fichiers]] en faisant un **clic droit** sur le fichier en question.
 
 
 > [!NOTE] Qu'arrive-t-il aux fichiers que j'ai supprimé ?
