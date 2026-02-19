@@ -527,7 +527,7 @@ inline             # prepend without newline
 
 ### `move`
 
-Move or rename a file (default: active file).
+Move or rename a file (default: active file). This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
 
 ```bash
 file=<name>        # file name
@@ -537,7 +537,7 @@ to=<path>          # (required) destination folder or path
 
 ### `rename`
 
-Rename a file (default: active file). The file extension is preserved automatically if omitted from the new name. Use [[#`move`|move]] to rename and move a file at the same time.
+Rename a file (default: active file). The file extension is preserved automatically if omitted from the new name. Use [[#`move`|move]] to rename and move a file at the same time. This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
 
 ```bash
 file=<name>        # file name
