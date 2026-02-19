@@ -31,7 +31,7 @@ To set a format string, add a colon (`:`) followed by a string of [Moment.js for
 
 You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
 
-You can change the default date and time formats under **[[Settings]] → Templates → Date format** and **[[Settings]] → Templates → Time format**.
+You can change the default date and time formats under **[[Settings]] → Templates → Date format** and **[[Settings]] → Templates → Time format**. ^template-settings-date-time-formatting
 
 > [!tip]
 > You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
@@ -79,6 +79,16 @@ tags:
 1. In the ribbon, click **Insert template**.
 2. Select the template to insert at the cursor position in the active note.
 
-## Template properties
+To insert a template using the [[Command palette]] or [[Hotkeys#Set a hotkey|a custom keyboard shortcut]], use the command `Templates: Insert template`.
+
+The content of the template is inserted at your current cursor position. If your cursor is not in the note body, the content is inserted at your last cursor position.
+
+### Template properties
 
 ![[Properties#^templates-properties]]
+
+## Inserting current date and time into the active note
+
+Use the commands `Templates: Insert current date` and `Templates: Insert current time` to insert the current date and time at your current cursor position. Like the `Insert template` command this can be done with the [[Command palette]] or [[Hotkeys#Set a hotkey|a custom keyboard shortcut]].
+
+The inserted date and time uses the [[#^template-settings-date-time-formatting|formatting set in the plugin settings]].
