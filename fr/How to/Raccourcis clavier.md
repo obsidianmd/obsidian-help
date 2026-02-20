@@ -2,13 +2,13 @@ Si vous avez activé la [[Palette de commandes]], vous pouvez utiliser `Ctrl / C
 
 La plupart des raccourcis clavier peuvent être redéfinis selon vos besoins dans **[[Paramètres]] => Raccourcis clavier**.
 
-**La liste des raccourcis clavier par défaut est :**
+**Liste des raccourcis clavier par défaut :**
 | Fonction                                      | Raccourci          |
 | --------------------------------------------- | ------------------ |
 | Editeur: enregistrer le fichier               | `Ctrl / Cmd S`     |
 | Créer une nouvelle note                       | `Ctrl / Cmd N`     |
 | Ouvrir la palette de commandes                | `Ctrl / Cmd P`     |
-| Ouvrez le sélecteur rapide                    | `Ctrl / Cmd O`     |
+| Ouvrir le [[sélecteur rapide]]                | `Ctrl / Cmd O`     |
 | Rechercher dans tous les fichiers             | `Ctrl / Cmd-Maj F` |
 | Ouvrir la vue graphique                       | `Ctrl / Cmd G`     |
 | Placer le fichier actuel en favori            | Vide               |
