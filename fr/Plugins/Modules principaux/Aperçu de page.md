@@ -7,4 +7,4 @@ Pour prévisualiser une page, appuyer sur la touche `Ctrl / Cmd` tout en plaçan
 
 Pour chaque endroit où cette fonctionnalité est disponible, vous pouvez choisir de permettre l'affichage automatique de la prévisualisation sans avoir besoin d'appuyer sur la touche `Ctrl / Cmd` en allant dans **[[Paramètres]] → Aperçu de page**. 
 
-Ce module est activé par défaut, mais vous pouvez choisir de la désactiver dans les paramètres.
+Ce module est activé par défaut, mais vous pouvez choisir de le désactiver dans les paramètres.
