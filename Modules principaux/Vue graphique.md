@@ -25,8 +25,8 @@ Pour ouvrir les paramètres de la vue graphique, cliquez sur le symbole de roue 
 ### Les filtres
 
 Les filtres vous permettent de choisir quels éléments du coffre seront visible dans la vue graphique.
-- La **fonction recherche de fichiers** vous permet d'appliquer un filtre en fonction des mots-clés que vous entrerez dans son champs de recherche. Pour en savoir plus sur les usages avancés de cette fonctions, consultez la note [[Recherche]]. 
-- Pour afficher les **mots-clés** dans la vue graphique, cliquez sur le bouton "mots-clés". 
+- La **fonction recherche de fichiers** vous permet d'appliquer un filtre en fonction des termes ou [[mots-clés ]] que vous entrerez dans son champs de recherche. Pour en savoir plus sur les usages avancés de cette fonctions, consultez la note [[Recherche]]. 
+- Pour afficher les **[[mots-clés]]** dans la vue graphique, cliquez sur le bouton "mots-clés". 
 - Pour afficher les **pièces jointes** dans la vue graphique, cliquez sur le bouton "pièces jointes".
 - Lorsque vous activez le bouton "**Fichiers existants uniquement**", les liens vers des fichiers qui ne sont pas encore existants ne s'afficheront pas. 
 - Lorsque vous activez le bouton "**Orphelins**", les fichiers existants qui ne sont liés à aucun autre fichier deviendront visibles dans la vue graphique. 
