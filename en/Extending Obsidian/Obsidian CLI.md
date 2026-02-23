@@ -1209,7 +1209,7 @@ info=name|path|files|folders|size  # return specific info only
 
 ### `vaults`
 
-List known vaults (desktop only).
+List known vaults.
 
 ```bash
 total              # return vault count
