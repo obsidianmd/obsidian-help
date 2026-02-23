@@ -60,6 +60,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - Anne-Katrin aka Mephi (German)
 - bongudth (Vietnamese)
 - canzi-teacher, 蚕子 (Simplified Chinese)
+- Caozhi Li (Simplified Chinese)
 - cor-bee, Ілля Пишняк (Ukrainian)
 - cvyl, Mikka (Dutch)
 - Daniel Mathiot (French)
