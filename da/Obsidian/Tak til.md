@@ -91,7 +91,7 @@ Reference dokumentationen på engelsk vedligeholdes på nuværende tidspunkt af 
 
 Vi accepterer nu "pull requests" af hjælpeboksen i [vores dokumentations GIT repository](https://github.com/obsidianmd/obsidian-docs/).
 
-Denne danske version er opdateret: 7. marts 2023
+Denne danske version er opdateret: 23. februar 2026
 
 ### Tilføj dit navn
 
