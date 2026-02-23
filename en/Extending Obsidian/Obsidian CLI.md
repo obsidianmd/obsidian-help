@@ -25,9 +25,10 @@ On Windows you will also need to run the `.com` file, available to [[Catalyst li
 
 ## Get started
 
-**Note:** Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
-
 Obsidian CLI supports both single commands and a terminal user interface (TUI) with interactive help and autocomplete.
+
+> [!info] Obsidian app must be running
+> Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
 
 ### Run a command
 
