@@ -1,3 +1,10 @@
+---
+description: Denne side beskriver i detaljer de regler som gælder i alle Obsidian online fællesskaber.
+mobile: true
+permalink: fællesskabets-adfærdkodeks
+publish: true
+---
+
 ## Reglerne
 
 Vi tolererer ikke følgende adfærd:

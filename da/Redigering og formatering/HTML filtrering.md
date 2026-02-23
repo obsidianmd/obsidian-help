@@ -1,2 +1,0 @@
-Obsidian filtrerer html af sikkerhedsgrunde. Da Obsidian kører lokalt på din maskine kan scriptsårbarheder være et mere seriøst problem end hvis det blev kørt i en Web applikation. Derfor er vi måske også en smule mere strikse end du er vant til, og du kan løbe ind i problemer, hvis du f.eks. prøver at indlejre `<script>` tags i en note. Imidlertid vil størstedelen af alle brugere aldrig løbe ind i problemer med dette.
-

@@ -1,3 +1,6 @@
+---
+permalink: obsidian
+---
 ## Hvad er Obsidian
 
 Obsidian er både en Markdown editor og en videnbase applikation.
@@ -43,13 +46,13 @@ Fundamentet er at have mulighed for at vise filer, redigere dem og søge i dem. 
 
 Udover det kan du tilføje isolerede uafhængige bygeklodser som tilføjer funktioner til din notetagning:
 
-- Hvis du tager noter i klassen kan [[Lyd optager|lydoptagelser]] og LaTeX math måske være brugbart;
+- Hvis du tager noter i klassen kan [[Lydoptager|lydoptagelser]] og LaTeX math måske være brugbart;
 - Hvis du tager noter på arbejde kan [[Slides]] og [[Tilbagelinks]] måske være praktiske;
 - Hvis du er forsker kan [[Grafvisning]] og [[Ordtæller]] måske være en nødvendighed i din værktøjskasse.
 
 Vi forventer ikke at plug-ins er løsningen til at løse alle problemer, men det får os tættere på, end en monolitisk løsning med en masse funktioner, som du ikke behøver og som gør det uoverskueligt i brug.
 
-Vi understøtter [[Tilpas med CSS|brugerdefineret CSS]] og har et [[Fællesskabs plugins|beta plugin API]], som tillader endnu flere tilpasninger af brugerfladen og support for andre mindre anvendte funktioner.
+Vi understøtter [[Tilpas med CSS|brugerdefineret CSS]] og har et [[Fællesskabsplugins|beta plugin API]], som tillader endnu flere tilpasninger af brugerfladen og support for andre mindre anvendte funktioner.
 
 ## Følg vores udvikling
 

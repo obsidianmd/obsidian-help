@@ -1,3 +1,6 @@
+---
+permalink: plugins/skabeloner
+---
 Du kan benytte skabeloner til at indsætte foruddefineredet tekst ind i din aktive note.
 
 ## Indstil din skabelonmappe

@@ -1,3 +1,6 @@
+---
+permalink: plugins/note-værktøj
+---
 Note værktøjet lader dig flette to noter eller udtrække dele af en note til en ny note.
 
 ## Flette noter
@@ -21,7 +24,7 @@ I **Stifinderen**
 
 I **Kommandopaletten**
 
-1. Åbne [[Kommandopalette|kommandopaletten]]
+1. Åbne [[Kommandopaletten|kommandopaletten]]
 2. Vælge **Note værktøj: Flet nuværende fil med en anden fil...**
 3. Vælge den note du vil flette filen ind i
 4. Klikke på **Flet** for at godkende fletningen
@@ -48,7 +51,7 @@ For at udtrække en teksten til en ny note skal du:
 **Kommandopaletten**
 
 1. I **redigeringstilstand** skal du markere den tekst, som du vil udtrække
-2. Åbne [[Kommandopalette|kommandopaletten]]
+2. Åbne [[Kommandopaletten|kommandopaletten]]
 3. Vælge **Note værktøj: Udtræk nuværende markering...**
 4. Vælge den note, som du til udtrække teksten til
 

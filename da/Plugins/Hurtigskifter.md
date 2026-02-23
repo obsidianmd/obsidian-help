@@ -1,3 +1,6 @@
+---
+permalink: plugins/hurtigskifter
+---
 Hurtigskifteren lader dig søge og åbne noter ved brug af kun tastaturet.
 
 For at åbne en note ved brug af hurtigskifteren, skal du:
@@ -13,3 +16,7 @@ Du kan åbne den valgte note i et nyt panel ved at trykke `Ctrl+Enter` (eller `C
 
 > [!tip] Skift mellem to noter
 > Hvis søgefeltet er tomt vi lhurtigskifteren vise de senest redigerede noter. Skift hurtigt mellem de to senest redigerede noter ved at åbne hurtigskifteren, tryk på ned på piletasten og tryk `Retur`
+
+---
+
+> [!info] Autocomplete functionality switches to a simpler result algorithm when the vault reaches 10,000 items to maintain optimal application performance. ^search-autocomplete-large

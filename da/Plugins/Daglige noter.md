@@ -1,9 +1,12 @@
+---
+permalink: plugins/daglige-noter
+---
 Daglige noter åbner en note baseret på dagens dato, eller opretter den, hvis den ikke findes. Brug daglige noter til at oprette journaler, to-do lister eller daglige logs for ting du har opdaget i løbet af en dag.
 
 Du kan åbne dagens note enten ved at:
 
 - Klikke på **Åben dagens note** (Kalender med afkrydsningsikon) i [[Båndmenu|båndmenuen]]
-- Køre **Åben dagens note** fra [[Kommandopalette|kommandopaletten]]
+- Køre **Åben dagens note** fra [[Kommandopaletten|kommandopaletten]]
 - Benytte en [[Brugerdefinerede genvejstaster|genvejstast]]
 
 Som standard vil Obsidian oprette en ny tom note med datoformatet "YYYY-MM-DD" (ISO format).
@@ -30,3 +33,6 @@ Hvis dine noter skal have den samme struktur kan du anvende [[Skabeloner|skabelo
 4. Angiv **Daglig note skabelon** i tekstfeltet til højre for **"Placering af nye noter"**
 
 Obsidian vil derefter benytte denne skabelon næste gang du opretter en ny daglig note.
+
+![[daily-notes-and-date-properties.png#interface|300]]
+^daily-notes-date

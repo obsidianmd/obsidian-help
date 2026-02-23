@@ -1,6 +1,5 @@
 ---
-aliases:
-- Zettelkasten prefixer
+permalink: plugins/unik-note-opretter
 ---
 
 Dette plugin tillader dig at oprette noter baseret på tidsstempler, der også kaldes Zettelkasten noter.
@@ -15,7 +14,7 @@ F.eks. hvis du opretter en note kl. 9:45 den 1. januar 2024 vil dette plugin opr
 
 **I kommandopaletten**
 
-1. Tryk `Ctrl+P` (eller `Cmd+P` på macOS) for at åbne [[Kommandopalette|kommandopaletten]]
+1. Tryk `Ctrl+P` (eller `Cmd+P` på macOS) for at åbne [[Kommandopaletten|kommandopaletten]]
 2. Søg efter **Opret ny unik note** kommandoen
 3. Tryk `Retur` når kommandoen er valgt i listen
 

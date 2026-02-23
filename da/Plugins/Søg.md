@@ -1,3 +1,6 @@
+---
+permalink: plugins/søg
+---
 Du kan benytte søge pluginnet til at finde filer i din boks.
 
 Som standard kan du finde **Søg** i venstre sidepanel (Forstørrelsesikonet). Du kan også åbne **Søg** ved at trykke `Ctrl+Skift+F` (eller `Cmd+Skift+F` på macOS).
@@ -51,6 +54,7 @@ Nogle operatorer tillader dig endda at indlejre søgetermer i parenteser, f.eks.
 | `task-todo:`    | Søg efter tekst i en uafsluttet opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste]].<p/>Eksempel: `task-todo:opkald`.                                                                                      |
 | `task-done:`    | Søg efter tekst i en afsluttet opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste]].<p/>Eksempel: `task-done:opkald`.                                                                                         |
 
+## Søg efter egenskaber
 
 ## Brug af regulære udtryk i søgetermer
 

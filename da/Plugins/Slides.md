@@ -1,3 +1,6 @@
+---
+permalink: plugins/slides
+---
 Med **Slides** kan du oprette præsentationer fra dine noter. Start en præsentation:
 
 **I stifinderen:**
@@ -6,7 +9,7 @@ Med **Slides** kan du oprette præsentationer fra dine noter. Start en præsenta
 
 **I kommandopaletten:**
 
-1. Tryk `Ctrl+P` (eller `Cmd+P` on macOS) for at åbne [[Kommandopalette|kommandopaletten]]
+1. Tryk `Ctrl+P` (eller `Cmd+P` on macOS) for at åbne [[Kommandopaletten|kommandopaletten]]
 2. Søg efter **Start præsentation** kommandoen
 3. Vælg kommandoen og tryk `Retur` for at starte en præsentation ud fra den aktive note
 
