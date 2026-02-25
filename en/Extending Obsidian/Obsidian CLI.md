@@ -136,14 +136,14 @@ obsidian create name=Note content="# Title\n\nBody text"
 
 If your terminal's current working directory is a vault folder, that vault is used by default. Otherwise, the currently active vault is used.
 
-Use `vault=<name>` to target a specific vault. This must be the first parameter before your command:
+Use `vault=<name>` or `vault=<id>` to target a specific vault. This must be the first parameter before your command:
 
 ```shell
 obsidian vault=Notes daily
 obsidian vault="My Vault" search query="test"
 ```
 
-In the TUI, use `vault:open <name>` to switch to a different vault.
+In the TUI, use `vault:open <name>` or `<id>` to switch to a different vault.
 
 ### Target a file
 
