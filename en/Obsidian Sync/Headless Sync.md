@@ -1,10 +1,10 @@
 ---
-description: Obsidian Sync supports headless operation for servers, CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
+description: Obsidian Sync offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
 permalink: sync/headless
 ---
-[[Introduction to Obsidian Sync|Obsidian Sync]] supports headless operation for servers, CI pipelines, agents, and automated workflows. This lets you sync the latest changes or keep files continuously up to date. 
+[[Introduction to Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
 
-Install [[Obsidian Headless]] (beta) to interact with [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app.
+Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app.
 
 ## Quick start
 
@@ -13,7 +13,7 @@ Install [[Obsidian Headless]] (beta) to interact with [[Introduction to Obsidian
 > 2. Do not sync the same vault using both the desktop app and headless client  to prevent data conflicts or corruption.
 
 
-Install [[Obsidian Headless|Obsidian Headless]] (beta):
+Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
 
 ```shell
 npm install -g obsidian-headless

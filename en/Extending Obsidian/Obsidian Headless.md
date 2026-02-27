@@ -4,14 +4,14 @@ permalink: headless
 aliases:
   - headless
 ---
-**Obsidian Headless (beta)** is a headless client for Obsidian services. It lets you [[Headless Sync|sync vaults]] vaults from the command line without the desktop app. It is ideal for servers, CI pipelines, and automation.
+Obsidian Headless **(open beta)** is a headless client for Obsidian services. It lets you [[Headless Sync|sync vaults]] vaults from the command line without the desktop app. It is ideal for servers, CI pipelines, and automation.
 
 > [!info] Obsidian Headless vs Obsidian CLI
 > [[Obsidian CLI]] controls the Obsidian desktop app from your terminal. Obsidian Headless is a standalone client that runs independently, no desktop app required.
 
 ## Install
 
-Obsidian Headless (beta) requires Node.js 22 or later. Install it from [npm](https://www.npmjs.com/package/obsidian-headless):
+Obsidian Headless **(open beta)** requires Node.js 22 or later. Install it from [npm](https://www.npmjs.com/package/obsidian-headless):
 
 ```shell
 npm install -g obsidian-headless
