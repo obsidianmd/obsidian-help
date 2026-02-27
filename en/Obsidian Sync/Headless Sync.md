@@ -10,7 +10,7 @@ Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to
 
 > [!error] Back up your data before you start
 > 1. Always back up your data before you start in case anything unexpected happens.
-> 2. Do not sync the same vault using both the desktop app and headless client  to prevent data conflicts or corruption.
+> 2. Do not use *both* the desktop app Sync and Headless Sync on the same device, as it can cause data conflicts. Only use one sync method per device.
 
 
 Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
