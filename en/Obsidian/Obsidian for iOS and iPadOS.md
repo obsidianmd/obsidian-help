@@ -99,3 +99,4 @@ When you search for "Obsidian" in iOS Spotlight, you'll see quick actions:
 - Search
 - Daily Note
 
+
