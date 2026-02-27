@@ -4,7 +4,7 @@ permalink: headless
 aliases:
   - headless
 ---
-Obsidian Headless **(open beta)** is a headless client for Obsidian services. It lets you [[Headless Sync|sync vaults]] vaults from the command line without the desktop app. It is ideal for servers, CI pipelines, and automation.
+Obsidian Headless **(open beta)** is a headless client for Obsidian services. It lets you [[Headless Sync|sync vaults]] from the command line without the desktop app. It is ideal for servers, CI pipelines, and automation.
 
 > [!info] Obsidian Headless vs Obsidian CLI
 > [[Obsidian CLI]] controls the Obsidian desktop app from your terminal. Obsidian Headless is a standalone client that runs independently, no desktop app required.
