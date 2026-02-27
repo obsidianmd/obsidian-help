@@ -8,8 +8,8 @@ Anything you can do in Obsidian you can do from the command line. Obsidian CLI e
 
 ![[obsidian-cli.mp4#interface]]
 
-> [!warning] Early access feature
-> Obsidian CLI requires Obsidian 1.12 or above, which is currently an [[Early access versions|early access version]] and requires a [[Catalyst license]]. Commands and syntax are likely to change during the early access phase.
+> [!warning] Requires Obsidian 1.12 installer
+> Using the CLI requires the Obsidian 1.12 installer. See the [[Update Obsidian#Installer updates|installer version update guide]].
 
 ## Install Obsidian CLI
 
