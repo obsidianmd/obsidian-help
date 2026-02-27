@@ -10,6 +10,8 @@ Obsidian lets you easily migrate your notes from Reflect using the [[Importer|Im
 3. Under **Export**, choose "Reflect JSON" as the format.
 4. Select **Export Reflect** to download a `.json` file with all your notes.
 
+   ![[Reflect-exporting.png#interface]]
+
 > [!note]
 > The export includes all notes in the selected graph. Individual note export is not currently supported.
 
@@ -31,6 +33,8 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 	- **Add YAML title** — adds the full title as a note property _(off by default)_.
 9. Select **Import** and wait until import is complete.
 10. You're done!
+
+![[Reflect-Importer-importing.png]]
 
 > [!tip] Daily notes
 > If you have the [[Daily notes]] plugin enabled, your Reflect daily notes will be imported using your configured daily note format.
