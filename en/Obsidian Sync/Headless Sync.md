@@ -2,7 +2,7 @@
 description: Use Obsidian Headless to sync your vaults from the command line without the desktop app.
 permalink: sync/headless
 ---
-You can use [[Obsidian Headless|Obsidian Headless]] to sync your vaults from the command line without the Obsidian desktop app. This is useful for servers, CI pipelines, and automated workflows.
+You can use [[Obsidian Headless]] to interact with [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app. Sync an individual file or run the service in `continuous` mode to keep your files up to date. This is useful for servers, CI pipelines, agents, and automated workflows.
 
 > [!error] Only use one sync client per device
 > Do not sync the same vault using both the desktop app and headless client  to prevent data conflicts or corruption.
