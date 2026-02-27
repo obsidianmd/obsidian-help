@@ -10,6 +10,14 @@ You can use [[Headless|Obsidian Headless]] to sync your vaults from the command 
 
 ## Quick start
 
+[[Headless|Obsidian Headless]] requires Node.js 22 or later. Install it from [npm](https://www.npmjs.com/package/obsidian-headless):
+
+```shell
+npm install -g obsidian-headless
+```
+
+Start syncing
+
 ```shell
 # Login
 ob login
