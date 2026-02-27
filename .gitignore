@@ -11,6 +11,3 @@ Thumbs.db
 
 .idea/
 .css.map
-
-# Riptide artifacts (cloud-synced)
-.humanlayer/tasks/

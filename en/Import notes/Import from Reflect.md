@@ -1,18 +1,19 @@
 ---
+description: Learn how to export your notes from Reflect and import them into Obsidian using the Importer plugin.
 permalink: import/reflect
 ---
-Obsidian lets you easily migrate your notes from Reflect using the [[Importer|Importer plugin]]. This will convert your Reflect data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian lets you easily migrate your notes from Reflect using the [[Importer|Importer plugin]]. This converts your Reflect data to durable Markdown files you can use with Obsidian and many other apps.
 
 ## Export your data from Reflect
 
-1. In Reflect, open **Preferences** (`Cmd + ,` on macOS, `Ctrl + ,` on Windows).
+1. In Reflect, open **Preferences** (`Command+,` on macOS, `Ctrl+,` on Windows).
 2. Select the graph you want to export in the sidebar.
-3. Under **Export**, choose "Reflect JSON" as the format.
+3. Under **Export**, select "Reflect JSON" as the format.
 4. Select **Export Reflect** to download a `.json` file with all your notes.
 
    ![[Reflect-exporting.png#interface]]
 
-> [!note]
+> [!info]+
 > The export includes all notes in the selected graph. Individual note export is not currently supported.
 
 ## Import your Reflect data into Obsidian
@@ -20,23 +21,23 @@ Obsidian lets you easily migrate your notes from Reflect using the [[Importer|Im
 You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
+2. Go to **Community plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Reflect (.json)**.
+5. Under **File format**, select **Reflect (.json)**.
 6. Select the location of your `.json` file.
-7. Under **Output folder**, choose where your files should import.
+7. Under **Output folder**, select where your files should import.
 8. Review the import settings:
-	- **Download all attachments** — downloads images uploaded to Reflect _(on by default)_.
-	- **Add YAML tags** — adds your Reflect tags as note properties _(on by default)_.
-	- **Add YAML created/updated date** — adds timestamps as note properties _(off by default)_.
-	- **Add YAML title** — adds the full title as a note property _(off by default)_.
-9. Select **Import** and wait until import is complete.
+   - **Download all attachments** — downloads images uploaded to Reflect _(on by default)_.
+   - **Add YAML tags** — adds your Reflect tags as note properties _(on by default)_.
+   - **Add YAML created/updated date** — adds timestamps as note properties _(off by default)_.
+   - **Add YAML title** — adds the full title as a note property _(off by default)_.
+9. Select **Import** and wait until the import is complete.
 10. You're done!
 
 ![[Reflect-Importer-importing.png]]
 
-> [!tip] Daily notes
+> [!tip]- Daily notes
 > If you have the [[Daily notes]] plugin enabled, your Reflect daily notes will be imported using your configured daily note format.
 
 ## Supported content
