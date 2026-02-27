@@ -1,0 +1,76 @@
+Les templates du [[Introduction au Web Clipper d'Obsidian|Web clipper]] peuvent utiliser des variables pour pré-enregistrer automatiquement des données à partir d'une page Web. Les variables peuvent être utiliser dans le **non de la note**, la **localisation de la note**, et le **contenu de la note**. Elles peuvent aussi être modifiées avec les filtres.
+
+ Utilisez l'icône `...` dans l'extension du Web clipper pour accéder aux variables de la page actuelle dans l'optique d'une utilisation avec des templates. Il y a cinq type de variables que vous pouvez utiliser : 
+ 1. [[Utiliser des variables#Variables préréglées|Variables préréglées]] ;
+ 2. Variables de prompt ;
+ 3. Meta variables ;
+ 4. Variables de sélecteur ;
+ 5. Variables de *Schema.org*. 
+
+### Variables préréglées
+
+Les variables préréglées sont automatiquement générées sur la base du contenu d'une page. Elles fonctionnent pour la majorité des sites.
+
+Le contenu principal d'une variable correspond à `{{content}}`. Cela contient généralement le contenu d'un article, vos surlignages, ou une sélection s'il y a du texte sélectionné sur la page. Notez que la variable `{{content}}` essaye automatiquement d'extraire le contenu principal de la page, ce qui ne sera pas forcément toujours ce que vous voudrez. Dans ce cas, vous pouvez utiliser d'autres variables préréglées ou variables de sélecteur pour extraire le contenu que vous désirez. 
+
+**Voici un tableau récapitulatif des variables préréglées que vous pouvez utiliser :** 
+
+
+| **Variable**        | **Description de la variable**                                                                 |
+| :------------------ | :--------------------------------------------------------------------------------------------- |
+| ``{{author}}``      | Auteur de la page                                                                              |
+| `{{content}}`       | Contenu de l'article, [[Surligner du contenu\|surlignages]], ou sélection (en format Markdown) |
+| `{{contentHtml}}`   | Contenu de l'article, [[Surligner du contenu\|surlignages]], ou sélection (en format HTML)     |
+| `{{description}}`   | Description ou extrait du contenu de la page                                                   |
+| `{{domain}}`        | Domaine de la page                                                                             |
+| `{{favicon}}`       | Icône de favoris                                                                               |
+| `{{fullHtml}}`      | HTML non traité pour le contenu complet de la page                                             |
+| `{{highlights}}`    | Vos surlignages (avec horodateur)                                                              |
+| `{{image}}`         | URL d'image pour partager sur les réseaux sociaux                                              |
+| `{{published}}`     | Date de publication (modifiable en utilisant le filtre `date`)                                 |
+| `{{selection}}`     | Sélection en format Markdown                                                                   |
+| `{{selectionHtml}}` | Sélection en format HTML                                                                       |
+| `{{site}}`          | Nom du site, ou son éditeur                                                                    |
+| `{{title}}`         | Titre de la page                                                                               |
+| `{{time}}`          | Date et heure actuelles                                                                        |
+| `{{url}}`           | URL actuel                                                                                     |
+| `{{words}}`         | Nombre de mots                                                                                 |
+### Les variables de prompts
+
+Les variables de prompts se servent des modèles de langage pour extraire et modifier des données en utilisant du langage naturel. Les variables de prompts requièrent d'activer [[l'outil interpréteur]] et de le configurer. 
+
+Les variables de prompts utilisent la syntaxe `{{"résumé de la page"}}`. Les doubles guillemets qui entourent le texte du prompt sont important car ils permettent de distinguer les prompts des variables préréglées. Les réponses aux prompts peuvent être traitées après-coup avec des filtres (exemple : `{{"résumé de la page"|bloc de citation}}`). 
+
+#### Quand utiliser des variables de prompts ?
+
+Les variables de prompts ont l'avantage d'être extrêmement flexibles et facile à écrire, cependant elles présentent plusieurs inconvénients : Elles sont plus lente à mettre route, et peuvent entraîner des coût ainsi que nécessiter la prise en considération de la politique de confidentialité selon le fournisseur que vous avez choisis. 
+
+À la différence d'autres types de variables, les variables de prompts nécessitent d'être traitées par un modèle de langage externe, elles ne sont donc remplacées qu'une fois que [[L'outil Interpréteur|l'interpréteur]] a été mis en route.
+
+Il est préférable de *ne pas* utiliser de variables de prompts si les données que vous voulez extraire sont dans un format consistant qui pourrait extrait par d'autres types de variables. 
+
+D'un autre côté, les variables de prompts peuvent être utiles si les données que vous voulez extraire sont dans un format *inconsistantes* à travers les différents sites Web. Par exemple, vous pouvez faire une template pour sauvegarder les livres qui ne dépendent pas du site. Les variables de prompts telles que `{{"auteur du livre"}}` fonctionneront à travers n'importe quel site avec des livres, alors que les variables de sélecteur ne fonctionnent généralement que pour un site.
+
+#### Exemples 
+
+Les prompts peuvent utiliser n'importe quelle requête en langage naturel. Selon le modèle de langage que vous utilisez, les prompts peuvent interroger ou traduire des données dans différentes langues. 
+- ``{{"a three bullet point summary, translated to French"}}`` est une requête permettant d'extraire de l'information sous forme de liste à puces en le traduisant de l'anglais vers le français. 
+- ``{{"un resumé de la page en trois points"}}`` est une requête d'extraire de l'information sous forme de liste à puces en utilisant un prompt en français. 
+
+Les prompts peuvent aussi transformer le contenu d'une page en format JSON, lequel pourra être manipulé avec les filtres. 
+	Par exemple : 
+		``{{"return a JSON object for each tweet, that includes the author, tweet_text, date in YYYY-MM-DD format, and images array (if there are any)"|map:tweet => ({text: tweet.tweet_text, author: tweet.author, date: tweet.date})|template:"${text}\n— [[@${author}]], [[${date}]]\n"}}`` est un prompt qui demande de transformer tous les tweets d'une page en fichier JSON, en incluant dans les informations extraites de chaque tweet sont auteur, son texte, sa date dans un format AAAA-MM-JJ, et ses images (s'il y en a). 
+
+### Les variables de métadonnées
+
+Les variables de métadonnées vous permettent d'extraire des données à partir des [métadonnées](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta) d'une page, incluant les données [Open Graph protocol](https://ogp.me/)  utilisé pour remplir les aperçus des partages sociaux. 
+- `{{meta:name}}` renvoie le contenu du tag nom des métadonnées avec le nom donné. Exemple : ``{{meta:name:description}}`` pour la description du tag des métadonnées. 
+- `{{meta:property}}` renvoie le contenu de propriété des métadonnées avec la propriété donnée. Exemple : `{{meta:property:og:title}}` pour la propriété "titre" des métadonnées. 
+
+### Variables de sélecteur
+
+Les variables de sélecteur vous permettent d'extraire le contenu d'un texte à partir des éléments d'une page utilisant des [sélecteurs CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators). 
+
+### Variables de Schema.org
+
+Les variables de Schema.org vous permettent d'extraire des données venant du site [schema.org](https://schema.org/). Vous pouvez aussi utiliser de manière automatisée les données Schema.org  avec une template. 

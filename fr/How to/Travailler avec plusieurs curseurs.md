@@ -1,3 +1,0 @@
-Si vous maintenez enfoncée `alt` et cliquez, vous pouvez créer plusieurs curseurs. Cela peut être utile pour modifier de nombreuses lignes en même temps, par exemple en plaçant `-` au début de plusieurs lignes pour les transformer en liste, ou en ajoutant `[[` à une série de liens que vous avez copiés ailleurs.
-
-Pour désactiver les curseurs multiples, cliquez n'importe où dans la note (sans touche de modification) ou appuyez sur échap.
