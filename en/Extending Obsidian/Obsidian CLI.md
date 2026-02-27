@@ -1472,7 +1472,7 @@ These shortcuts are available in the [[#Use the terminal interface|TUI]].
 
 If you are having trouble running Obsidian CLI:
 
-- Make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.11.7) and the latest [[Early access versions|early access version]] (1.12).
+- Make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.12.4 or above).
 - Restart your terminal after registering the CLI for the PATH changes to take effect.
 - Obsidian must be running. The CLI connects to the running Obsidian instance. If Obsidian is not running, the first CLI command should launch the app.
 
