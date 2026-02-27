@@ -36,6 +36,8 @@ publish: true
 	- Back up your vault using third-party tools.
 - [[Sync regions]]
 	- Move your Sync vault to a different regional server.
+- [[Headless Sync]]
+	- Sync your vaults from the command line without the desktop app.
 - [[Troubleshoot Obsidian Sync]]
 	- Common syncing issues and solutions.
 
