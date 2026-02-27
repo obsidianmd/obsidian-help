@@ -2,21 +2,22 @@
 description: Use Obsidian Headless to sync your vaults from the command line without the desktop app.
 permalink: sync/headless
 ---
-You can use [[Headless|Obsidian Headless]] to sync your vaults from the command line without the Obsidian desktop app. This is useful for servers, CI pipelines, and automated workflows.
+You can use [[Obsidian Headless|Obsidian Headless]] to sync your vaults from the command line without the Obsidian desktop app. This is useful for servers, CI pipelines, and automated workflows.
 
-> [!info] Prerequisites
-> - An active [[Plans and storage limits|Obsidian Sync subscription]].
-> - [[Headless|Obsidian Headless]] installed and authenticated.
+> [!error] Only use one sync client per device
+> Do not sync the same vault using both the desktop app and headless client  to prevent data conflicts or corruption.
 
 ## Quick start
 
-[[Headless|Obsidian Headless]] requires Node.js 22 or later. Install it from [npm](https://www.npmjs.com/package/obsidian-headless):
+Prerequisites:
+
+Install [[Obsidian Headless|Obsidian Headless]]:
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-Start syncing
+You must have an active [[Plans and storage limits|Obsidian Sync subscription]].
 
 ```shell
 # Login

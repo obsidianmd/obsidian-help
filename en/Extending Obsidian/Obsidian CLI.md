@@ -30,7 +30,7 @@ Obsidian CLI supports both single commands and a terminal user interface (TUI) w
 > [!info] Obsidian app must be running
 > Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
 >
-> Looking to sync without the desktop app? See [[Headless|Obsidian Headless]].
+> Looking to sync without the desktop app? See [[Obsidian Headless|Obsidian Headless]].
 
 ### Run a command
 
