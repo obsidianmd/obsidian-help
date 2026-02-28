@@ -12,7 +12,6 @@ Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to
 > 1. Always back up your data before you start in case anything unexpected happens.
 > 2. Do not use *both* the desktop app Sync and Headless Sync on the same device, as it can cause data conflicts. Only use one sync method per device.
 
-
 Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
 
 ```shell
@@ -38,6 +37,16 @@ ob sync
 # Run continuous sync (watches for changes)
 ob sync --continuous
 ```
+
+### Environment variable
+
+For non-interactive use (CI, scripts, servers), set the `OBSIDIAN_AUTH_TOKEN` environment variable instead of using `ob login`:
+
+```shell
+export OBSIDIAN_AUTH_TOKEN="your-auth-token"
+```
+
+When set, all commands that require authentication use this token automatically.
 
 ## Commands
 
