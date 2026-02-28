@@ -53,6 +53,7 @@ Sebagai penghargaan terhadap pengembah plugin untuk kepeloporan fungsi yang diad
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, Patrick Danilevici (Romanian)
 - Manuel Arias Almada (Spanish)
+- Moyf, 墨一 (Chinese Simplified)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
 - Sakvipubp Suy (Khmer)

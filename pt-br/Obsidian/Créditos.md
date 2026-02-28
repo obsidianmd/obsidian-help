@@ -58,6 +58,7 @@ Créditos a esses desenvolvedores de plug-in pela funcionalidade pioneira que fo
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, Patrick Danilevici (Romanian)
 - Manuel Arias Almada (Spanish)
+- Moyf, 墨一 (Chinese Simplified)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
 - Sakvipubp Suy (Khmer)
