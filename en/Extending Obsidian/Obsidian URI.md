@@ -21,6 +21,7 @@ The `action` parameter is the action that you would like to perform. Available a
 - `open` to open a note.
 - `new` to create or add to an existing note.
 - `daily` to create or open your daily note.
+- `unique` to create a new unique note.
 - `search` to open a search.
 - `choose-vault` to open the vault manager.
 
@@ -101,6 +102,25 @@ The `daily` action creates or opens your daily note. The [[Daily notes]] plugin 
 ### Parameters
 
 The `daily` action accepts the same parameters as the `new` action.
+
+## Unique Note
+
+The `unique` action creates a new unique note in the vault. The [[en/Plugins/Unique note creator|Unique note creator]] plugin must be enabled.
+
+### Examples
+
+- `obsidian://unique?vault=my%20vault`
+  This opens the vault `my vault`, and creates a new unique note.
+- - `obsidian://unique?vault=my%20vault&content=Hello%20World`
+  This opens the vault `my vault`, and creates a new unique note with the content `Hello World`.
+
+### Parameters
+
+- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
+- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
+- `content` (optional) the contents of the note.
+- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
+- `x-success` (optional) see [[#Use x-callback-url parameters]].
 
 ## Open search
 
