@@ -30,11 +30,11 @@ Til den engelske dokumentation anbefales det at benytte [Global English](https:/
 
 ### Produktnavne
 
-Obsidian produktnavne starter med "Obsidian", f.eks. "Obsidian Publish" og "Obsidian Sync".
+Obsidian produktnavne starter med "Obsidian", fx. "Obsidian Publish" og "Obsidian Sync".
 
 Hvis et afsnit indholder mange referencer til et produkt, kan du anvende kort form efter første fulde navn.
 
-F.eks.
+Fx.
 _For at kunne tillade enhedsspecifik konfiguraion, synkroniserer Obsidian Sync ikke sine egne indstillinger. Du skal derfor konfigurere Sync for hver af dine enheder._
 
 ### UI (Brugergrænseflade) og interaktioner
@@ -44,7 +44,7 @@ _For at kunne tillade enhedsspecifik konfiguraion, synkroniserer Obsidian Sync i
 - Foretræk "sidebar" fremfor "side barl".
 - Foretræk "perform" fremfor "invoke" og "execute", når der refereres til kommandoer eller aktioner
 
-Når der refereres til flere UI interaktioner efter hinanden, så benyt → (U+2192) symbolet. F.eks. , "**Settings → Community plugins**".
+Når der refereres til flere UI interaktioner efter hinanden, så benyt → (U+2192) symbolet. Fx. , "**Settings → Community plugins**".
 
 ### Noter, filer og mapper
 

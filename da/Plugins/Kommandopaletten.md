@@ -11,7 +11,7 @@ For at køre en kommando fra kommandopaletten skal du:
 4. og trykke `Retur`
 
 > [!tip]
->Kommandopaletten understøtter _fuzzysøgning_, som lader sig søge efter kommandoer selvom du ikke kender dets præcise navn. F.eks. kan du skrive "gnf" for at finde kommandoen "**G**em **n**uværende **f**il".
+>Kommandopaletten understøtter _fuzzysøgning_, som lader sig søge efter kommandoer selvom du ikke kender dets præcise navn. Fx. kan du skrive "gnf" for at finde kommandoen "**G**em **n**uværende **f**il".
 
 ## Fastgjorte kommandoer
 

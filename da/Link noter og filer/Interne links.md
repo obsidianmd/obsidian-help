@@ -22,7 +22,7 @@ Obsidian understøtter følgende link formater:
 De to måder kan anvendes - De vil se ud på samme måde i visningstilstand og linke til den samme note.
 
 > [!note]
-> Når du benytter Markdown formatet, så skal du sikre dig at [URL kode](https://en.wikipedia.org/wiki/Percent-encoding) linket til destinationen, så f.eks. mellemrums tegn erstattes med `%20`.
+> Når du benytter Markdown formatet, så skal du sikre dig at [URL kode](https://en.wikipedia.org/wiki/Percent-encoding) linket til destinationen, så fx. mellemrums tegn erstattes med `%20`.
 
 Obsidian genererer links i Wikilink formatet som standard, da det er et mere kompakt format. Hvis kompabilitet er vigtigt for dig, altså at links skal kunne fungere med andre applikationer, kan du deaktivere Wikilinks og benytte Markdownlinks i stedet.
 
@@ -48,7 +48,7 @@ Du kan oprette et link i redigeringstilstand på en af følgende måder:
 
 ![[Hurtigskifter#^search-autocomplete-large]]
 
-Du kan linke til alle [[Accepterede filformater|accepterede filformater]]; dog skal alle links til andre filformater end Markdown filer (altså Obsidian noter) have inkluderet filtypenavnet, f.eks. `[[Figur 1.png]]`.
+Du kan linke til alle [[Accepterede filformater|accepterede filformater]]; dog skal alle links til andre filformater end Markdown filer (altså Obsidian noter) have inkluderet filtypenavnet, fx. `[[Figur 1.png]]`.
 
 > [!tip] Hvis du præfikser et internt link med et udråbstegn (!) så indlejrer du det linkede indhold. Se siden "[[Indlejr filer]]" for flere detaljer.
 
@@ -60,25 +60,25 @@ Du kan linke til en specifik overskrift i en note, hvilket kaldes et _anker link
 
 For at oprette et link til en overskrift i den samme note, så skriv `[[#` for at se en liste af overskrifter i noten.
 
-F.eks. `[[#Forhåndsvis en linket fil]]` vil oprette et link til [[#Forhåndsvis en linket fil]].
+Fx. `[[#Forhåndsvis en linket fil]]` vil oprette et link til [[#Forhåndsvis en linket fil]].
 
 **Opret link til en overskrift i en anden note***
 
 For at linke til en overskrift i en anden note skal du tilføje et hashtag (`#`) efter navnet på noten efterfulgt af soverskrift titlen.
 
-F.eks. `[[Obsidian#Links er førsteklasses borgere]]` vil oprette et link til [[Obsidian#Links er førsteklasses borgere]].
+Fx. `[[Obsidian#Links er førsteklasses borgere]]` vil oprette et link til [[Obsidian#Links er førsteklasses borgere]].
 
 **Link til en underoverskrift**
 
 Du kan tilføje hashtags for hver underoevrskift du vil linke til.
 
-F.eks. `[[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]]` vil oprette et link til [[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]].
+Fx. `[[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]]` vil oprette et link til [[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]].
 
 **Søg efter overskrifter i hele din boks**
 
 For at søge efter overskrifter i hele din boks skal du benytte syntaksen `[[## overskrift]]`.
 
-F.eks. vil `[[##` lave en generisk søgning i hele din boks, mens `[[## team]]` vil søge efter alle overskrifter, der indeholder ordet _team_.
+Fx. vil `[[##` lave en generisk søgning i hele din boks, mens `[[## team]]` vil søge efter alle overskrifter, der indeholder ordet _team_.
 
 > [!info]- Skærmbillede af en søgning efter et overskrift link
 >
@@ -86,9 +86,9 @@ F.eks. vil `[[##` lave en generisk søgning i hele din boks, mens `[[## team]]` 
 
 ## Link til en blok i en note
 
-En blok er en tekstenhed i din note, f.eks. et afsnit, et blok citat, eller en liste.
+En blok er en tekstenhed i din note, fx. et afsnit, et blok citat, eller en liste.
 
-Du linker til en blok ved at tilføje `#^` i slutningen af link destinationen efterfulgt af en unik blokidentifikator, f.eks.  `[[2023-01-01#^37066d]]`.
+Du linker til en blok ved at tilføje `#^` i slutningen af link destinationen efterfulgt af en unik blokidentifikator, fx.  `[[2023-01-01#^37066d]]`.
 
 Heldigvis behøver du ikke at kende blokidentifikatoren. Når du skriver tegnet (`^`) kan du vælge den ønskede blok fra en liste af forslag, så du kan indsætte den korrekte identifikator.
 
@@ -129,7 +129,7 @@ Du kan også søge i hele din boks efter blokke du vil linke til ved at anvende 
 
 Du kan også oprette læsbare blokidentifikatorer ved at tilføje et mellemrum fulgt af indentifikatoren. Blokidentifikatorer må kun indeholde almindelige bogstaver, tal og bindestreger.
 
-F.eks. kan du tilføje `^dagens-citat` i slutningen af en blok:
+Fx. kan du tilføje `^dagens-citat` i slutningen af en blok:
 
 ```md
 "You do not rise to the level of your goals. You fall to the level of your systems." by James Clear ^dagens-citat
@@ -154,7 +154,7 @@ Du kan ændre hvordan et links skal se ud på følgende måde:
 
 Skriv en lodret streg  (`|`) for at ændre teksten, der anvendes til at vise et link.
 
-F.eks.  vil `[[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]]` vises som [[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]].
+Fx.  vil `[[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]]` vises som [[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]].
 
 
 **Markdown format:**

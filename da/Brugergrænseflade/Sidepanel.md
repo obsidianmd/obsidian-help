@@ -17,7 +17,7 @@ Plugins vil som standard kun oprette nye faner in stedet for nye [[#Paneler]].
 
 Du kan skifte mellem faner ved at klikke på deres ikoner. Der vil også dukke et værktøjstip op, der kan hjælpe dig med at identificere faner.
 
-Du kan se en aktiv fane af gangen. Nogle funktioner vil automatisk bringe en fane i fokus, f.eks. når du klikker på et tag.
+Du kan se en aktiv fane af gangen. Nogle funktioner vil automatisk bringe en fane i fokus, fx. når du klikker på et tag.
 
 ### Lukke faner
 Nogle faner kan lukkes ved at åbne popupmenuen ved at højreklikke på dem, men andre kan ikke. Hvis du kan se, at en fane ikke kan lukke, så overvej at deaktivere det relevante plugin eller skjule sidepanelet.

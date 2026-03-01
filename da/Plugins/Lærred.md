@@ -28,7 +28,7 @@ For at anvende Lærred skal du først oprette en fil, der kan indeholde dit lær
 
 ## Tilføj kort
 
-Du kan trække filer ind på dit lærred fra Obsidian eller en anden applikation, f.eks. Markdownfiler, billeder, lyd, PDF dokumenter, eller endda filtyper, som Obsidian ikke genkender.
+Du kan trække filer ind på dit lærred fra Obsidian eller en anden applikation, fx. Markdownfiler, billeder, lyd, PDF dokumenter, eller endda filtyper, som Obsidian ikke genkender.
 
 ### Tilføj tekstkort
 

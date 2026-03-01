@@ -1,7 +1,7 @@
 ---
 permalink: plugins/arbejdsområder
 ---
-Pluginnet "Arbejdsområder" lader dig håndtere og skifte mellem forskellige layoutopsætninger afhændig af dine opgaver, f.eks. journalskrivning, læsning og skrivning.
+Pluginnet "Arbejdsområder" lader dig håndtere og skifte mellem forskellige layoutopsætninger afhændig af dine opgaver, fx. journalskrivning, læsning og skrivning.
 
 Et arbejdsområde indeholder information om åbne filer og paneler og bredden og synligheden af hver sidepanel.
 

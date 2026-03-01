@@ -2,7 +2,7 @@
 permalink: faner
 ---
 
-I Obsidian fungerer faner på samme måde, som i andre applikationer f.eks. internet browsere.
+I Obsidian fungerer faner på samme måde, som i andre applikationer fx. internet browsere.
 
 Du kan åbne lige så mange faner, som du har brug for i Obsidian. Du kan også lave dine egne layouts ved at arrangere fanerne, og dine layouts vil blive husket næste gang du åbner Obsidian.
 

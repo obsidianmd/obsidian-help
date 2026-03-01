@@ -17,5 +17,5 @@ For at benytte Google analytics, har du brug for:
 
 ## Fejlsøgning
 
-- For at verfificere, at dit websted benytter Google Analytics, kan du prøve at fjerne alle ad-blokkere, f.eks. "uBlock Origin", som kan blokere sproringsscripts, så de ikke kan køre
+- For at verfificere, at dit websted benytter Google Analytics, kan du prøve at fjerne alle ad-blokkere, fx. "uBlock Origin", som kan blokere sproringsscripts, så de ikke kan køre
 - Anvend brugerdefineret JavScript for at anvende Google Tag Manager i stedet for Google Analytics

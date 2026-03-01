@@ -19,7 +19,7 @@ Hvis det skulle ske, at serverne bliver hacket, vi ldine data forbi krypteret - 
 
 ## Hvilken krypteringsmetode benytter Obsidian?
 
-Vi benytter industristandarden AES-256 til at kryptere dine data. AES-256 er en militærgrads krypteringsspecifikation, som er bredt anvendt i f.eks. bankverdenen.
+Vi benytter industristandarden AES-256 til at kryptere dine data. AES-256 er en militærgrads krypteringsspecifikation, som er bredt anvendt i fx. bankverdenen.
 
 Her er de tekniske detaljer:
 

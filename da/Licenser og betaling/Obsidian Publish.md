@@ -64,23 +64,23 @@ Denne mulighed tilføjer et meta noindex tag til alle dine sider, så søgemaski
 ##### Google Analytics
 Hvis du vil integrere Google Analytics på dit websted, skal du først sikre dig at dine lokale love og regulativer tillader det. Derefter behøver du kun skrive sporingskoden, på formen `UA-XXXXX-Y` i tekstfeltet, og dit websted vil derefter automatisk spore sidevisninger. Bemærk at Google Analytics kun er tilgængeligt for besøgende, hvis du benytter dit eget domæne.
 
-Når du tester Google Analytics skal du huske at deaktivere enhver adblokker browser udvidelse, f.eks. "uBlock Origin", som hindrer Google Analytics i at fungere.
+Når du tester Google Analytics skal du huske at deaktivere enhver adblokker browser udvidelse, fx. "uBlock Origin", som hindrer Google Analytics i at fungere.
 
 Derudover er Obsidian Publish ikke direkte kompatibel med Google Tag Manager i øjeblikket - du kan opsætte funktionen med din egen javascript, hvis du vil anvende Google Tag Manager i stedet for Google Analytics.
 
 ### Brugerdefineret domæne
 Du kan opsætte et eget domæne eller subdomæne til dit Obsidian Publish websted. På nuværende tidspunkt har vi ikke en måde vi kan udstede et SSL certifikat på dine vegne, så du skal enten ty til at lave din egen SSL aktiverede webserver, eller opsætte dit websted på CloudFlare, som tilbyder gratis SSL.
 
-Du kan også opsætte Obsidian Publish som et underdomæne på din egen webserver. F.eks. `https://mitdomæne.com/mine-noter/`. For at gøre det skal du opsætte din egen webserver og viderestille alle anmodninger til vores server på `https://publish.obsidian.md/`.
+Du kan også opsætte Obsidian Publish som et underdomæne på din egen webserver. Fx. `https://mitdomæne.com/mine-noter/`. For at gøre det skal du opsætte din egen webserver og viderestille alle anmodninger til vores server på `https://publish.obsidian.md/`.
 
 Læs videre for en detaljeret opsætning.
 
 #### CloudFlare opsætning
 
-Den nemmeste måde at opsætte dit eget domæne eller underdomæne er ved at oprette en konto hos [CloudFlare](https://cloudflare.com) og lade CloudFlare håndtere dit domæne. Dette tillader dig at aktivere SSL på dit websted gratis, og sikre, at dit websted er hurtigt uanset hvor i verden det tilgås fra. Typisk vil brugere hoste deres Obsidian Publish indhold på et roddomæne (f.eks. `mitwebsted.com`) eller på et subdomæne (f.eks. `noter.mitwebsted.com`). Disse instruktioner gælder for begge tilfælde.
+Den nemmeste måde at opsætte dit eget domæne eller underdomæne er ved at oprette en konto hos [CloudFlare](https://cloudflare.com) og lade CloudFlare håndtere dit domæne. Dette tillader dig at aktivere SSL på dit websted gratis, og sikre, at dit websted er hurtigt uanset hvor i verden det tilgås fra. Typisk vil brugere hoste deres Obsidian Publish indhold på et roddomæne (fx. `mitwebsted.com`) eller på et subdomæne (fx. `noter.mitwebsted.com`). Disse instruktioner gælder for begge tilfælde.
 
-1. Åben Cloudflare på det domæne du ønsker at tilføje Publish til (f.eks. `mitwebsted.com`, selvom du vil benytte et subdomæne som f.eks. `noter.mitwebsted.com`).
-2. Gå til DNS og klik på "Add Record" . Vælg CNAME, og i 'name' skriver du det domæne eller underdomæne, som du ønsker (f.eks. `noter.mitwebsted.com`). I 'target' skriver du værdien `publish-main.obsidian.md`. Du skal ikke inkludere din personlige under-URL her, da Obsidian Publish håndterer dette udfra din konfiguration.
+1. Åben Cloudflare på det domæne du ønsker at tilføje Publish til (fx. `mitwebsted.com`, selvom du vil benytte et subdomæne som fx. `noter.mitwebsted.com`).
+2. Gå til DNS og klik på "Add Record" . Vælg CNAME, og i 'name' skriver du det domæne eller underdomæne, som du ønsker (fx. `noter.mitwebsted.com`). I 'target' skriver du værdien `publish-main.obsidian.md`. Du skal ikke inkludere din personlige under-URL her, da Obsidian Publish håndterer dette udfra din konfiguration.
 3. Gå til SSL/TLS og sæt SSL/TLS krypteringstilstand til `Full`. Dette vil konfigurere SSL/TLS certifikatet automatisk.
 
 Når du har konfigureret CloudFlare kan du fortsætte opsætningen af dine webstedindstillinger i Obsidian, og sætte URL'en til dit domæne eller underdomæne. Dette giver vores server tilladelse til at associere domænet til dit websted.
@@ -169,7 +169,7 @@ Du skal [konfigurere rewrites](https://vercel.com/docs/configuration#project/rew
 Alternativt kan du benytte `https://publish.obsidian.md/` med en brugerdefineret header `x-obsidian-custom-domain` sat til din webstedsurl `mitwebsted.com/min-undermappe`, hvis din proxy service ikke tillader brugerdefinerede headers.
 
 #### Brugerdefineret domæne problemer efter opsætning
-Når du har opsat dit eget domæne, og du tidligere har besøgt dit websted fra et link f.eks. `https://publish.obsidian.md/slug`, så er det muligt, at du skal slette din browsercache for bestemte ting (som fonte, grafer eller kodeordsadgang) for at det virker korrekt. Det skyldes sikkerhedsrestriktioner på tværs af domæner, som mange nyere browsere pålægger. Den gode nyhed er, at besøgende på dit websted aldrig bør løbe ind i det problem, hvis du kun lader dine besøgende benytte dit eget domæne.
+Når du har opsat dit eget domæne, og du tidligere har besøgt dit websted fra et link fx. `https://publish.obsidian.md/slug`, så er det muligt, at du skal slette din browsercache for bestemte ting (som fonte, grafer eller kodeordsadgang) for at det virker korrekt. Det skyldes sikkerhedsrestriktioner på tværs af domæner, som mange nyere browsere pålægger. Den gode nyhed er, at besøgende på dit websted aldrig bør løbe ind i det problem, hvis du kun lader dine besøgende benytte dit eget domæne.
 
 #### Redirigering af gammelt websted til eget domæne
 Hvis du vil redirigere dine besøgende fra den gamle `publish.obsidian.md` side til dit eget nye domæne, er der en indstilling, som gør det, som du kan aktivere på brugerdefineret domæne indstillings siden.

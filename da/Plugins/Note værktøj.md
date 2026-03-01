@@ -64,9 +64,9 @@ Ved at oprette en skabelon kan du tilpasse indholdet før du tilføjer den til e
 
 Skabelonen kan indeholde følgende variabler:
 
-| Variable          | Description                                                                                                                                              |
+| Variable          | Description                                                                                                                                                                   |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `{{content}}`     | Det inhold, som skal flettes ind, eller den udtrukne valgte tekst. Hvis du ikke inkluderer denne variabel, vil note værktøjet tilføje indholdet til slutningen af skabelonen. |
-| `{{fromTitle}}`   | Navnet på kildenoten.                                                                                                                                 |
-| `{{newTitle}}`    | Navnet på destinationsnoten. F.eks. kan du tilføje filnavnet som en overskrift i begyndelsen af noten.                                                     |
-| `{{date:FORMAT}}` | Den nye notes oprettelsesdato. F.eks., `{{date:YYYY-MM-DD}}`.                                                                                       |
+| `{{fromTitle}}`   | Navnet på kildenoten.                                                                                                                                                         |
+| `{{newTitle}}`    | Navnet på destinationsnoten. Fx. kan du tilføje filnavnet som en overskrift i begyndelsen af noten.                                                                           |
+| `{{date:FORMAT}}` | Den nye notes oprettelsesdato. Fx., `{{date:YYYY-MM-DD}}`.                                                                                                                    |

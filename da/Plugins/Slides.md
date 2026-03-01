@@ -35,7 +35,7 @@ Denne demo viser hvrodan man laver præentationer ved hjælpe af Slides.
 
 ## Formattering
 
-Du kan anvende almindelig Markdown formattering, f.eks. *fremhævet* og **fed** tekst.
+Du kan anvende almindelig Markdown formattering, fx. *fremhævet* og **fed** tekst.
 
 ---
 

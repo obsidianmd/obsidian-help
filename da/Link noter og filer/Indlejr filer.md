@@ -2,7 +2,7 @@
 permalink: indlejringer
 ---
 
-Her kan lu lære, hvordan du kan indlejre noter og mediefiler i dine noter. Ved at indlejre filer i dine noter kan du genbruge indhold overlat i din boks.
+Her kan du lære, hvordan du kan indlejre noter og mediefiler i dine noter. Ved at indlejre filer i dine noter kan du genbruge indhold overlat i din boks.
 
 For at indlejre en fil i din boks skal du tilføje et udråbstegn (`!`) foran et [[Interne links|internt link]]. Du kan indlejre filer af alle [[Accepterede filformater|accepterede filformater]].
 
