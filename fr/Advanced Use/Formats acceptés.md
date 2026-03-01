@@ -5,4 +5,4 @@ Obsidian reconnaît immédiatement les formats de fichiers suivants :
 3. fichiers audio : `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`
 4. fichiers PDF : `pdf`.
 
-Tous, à part les fichiers PDF, peuvent être [[Embed files|inclus dans une note]].
+Ils peuvent tous être [[Fichiers incrémentés|inclus dans une note]].

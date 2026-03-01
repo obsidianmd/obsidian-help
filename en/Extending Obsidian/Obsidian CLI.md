@@ -4,12 +4,12 @@ description: Anything you can do in Obsidian can be done from the command line.
 ---
 Obsidian CLI is a command line interface that lets you control Obsidian from your terminal for scripting, automation, and integration with external tools.
 
-Anything you can do in Obsidian can be done from the command line. Obsidian CLI even includes [[#Developer commands|developer commands]] to access developer tools, inspect elements, take screenshots, reload plugins, and more.
+Anything you can do in Obsidian you can do from the command line. Obsidian CLI even includes [[#Developer commands|developer commands]] to access developer tools, inspect elements, take screenshots, reload plugins, and more.
 
 ![[obsidian-cli.mp4#interface]]
 
-> [!warning] Early access feature
-> Obsidian CLI requires Obsidian 1.12 or above, which is currently an [[Early access versions|early access version]] and requires a [[Catalyst license]]. Commands and syntax are likely to change during the early access phase.
+> [!warning] Requires Obsidian 1.12 installer
+> Using the CLI requires the Obsidian 1.12 installer. See the [[Update Obsidian#Installer updates|installer version update guide]].
 
 ## Install Obsidian CLI
 
@@ -25,9 +25,12 @@ On Windows you will also need to run the `.com` file, available to [[Catalyst li
 
 ## Get started
 
-**Note:** Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
-
 Obsidian CLI supports both single commands and a terminal user interface (TUI) with interactive help and autocomplete.
+
+> [!info] Obsidian app must be running
+> Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
+>
+> Looking to sync without the desktop app? See [[Obsidian Headless|Obsidian Headless]].
 
 ### Run a command
 
@@ -135,14 +138,14 @@ obsidian create name=Note content="# Title\n\nBody text"
 
 If your terminal's current working directory is a vault folder, that vault is used by default. Otherwise, the currently active vault is used.
 
-Use `vault=<name>` to target a specific vault. This must be the first parameter before your command:
+Use `vault=<name>` or `vault=<id>` to target a specific vault. This must be the first parameter before your command:
 
 ```shell
 obsidian vault=Notes daily
 obsidian vault="My Vault" search query="test"
 ```
 
-In the TUI, use `vault:open <name>` to switch to a different vault.
+In the TUI, use `vault:open <name>` or `<id>` to switch to a different vault.
 
 ### Target a file
 
@@ -900,6 +903,9 @@ query=<text>       # initial search query
 
 Commands for [[Introduction to Obsidian Sync|Obsidian Sync]].
 
+> [!tip] Sync without the desktop app
+> These commands control Sync within the running Obsidian app. To sync vaults from the command line without the desktop app, see [[Headless Sync]].
+
 ### `sync`
 
 Pause or resume sync.
@@ -1471,20 +1477,15 @@ These shortcuts are available in the [[#Use the terminal interface|TUI]].
 
 If you are having trouble running Obsidian CLI:
 
-- Make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.11.7) and the latest [[Early access versions|early access version]] (1.12).
+- Make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.12.4 or above).
 - Restart your terminal after registering the CLI for the PATH changes to take effect.
 - Obsidian must be running. The CLI connects to the running Obsidian instance. If Obsidian is not running, the first CLI command should launch the app.
 
 ### Windows
 
-Windows requires using a terminal redirector that connects to Obsidian to stdin/stdout properly. This is unfortunately necessary because Obsidian normally runs as a GUI app which is incompatible with terminal outputs.
+Obsidian CLI on Windows requires the Obsidian 1.12.4+ installer. See [[Update Obsidian|Installer version update]].
 
-To get this file, go to the official Obsidian Discord in the `#insider-desktop-release` channel. Requires a [[Catalyst license]].
-
-- Download the `Obsidian.com` file [here](https://discord.com/channels/686053708261228577/716028884885307432/1470798383085261057).
-- Place the `Obsidian.com` file in the folder where you installed the `Obsidian.exe` file, which could be one of these paths:
-	- `C:\Users\<YourUsername>\AppData\Local\Programs\obsidian\`
-	- `C:\Users\<YourUsername>\AppData\Local\obsidian\`
+Windows uses a terminal redirector that connects Obsidian to stdin/stdout properly. This is necessary because Obsidian normally runs as a GUI app which is incompatible with terminal outputs on Windows. When you install Obsidian 1.12.4+ the `Obsidian.com` terminal redirector will be added in the folder where you installed the `Obsidian.exe` file.
 
 ### macOS
 

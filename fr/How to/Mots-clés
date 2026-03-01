@@ -1,0 +1,42 @@
+Les mots-clés (ou tags) sont des mots utilisant une syntaxe spécifique vous permettant d'**indexer** simplement vos notes en fonction de leurs thèmes et de rendre ainsi la [[recherche]] dans Obsidian plus efficace. 
+
+## Ajouter un mot-clé à une note
+
+Pour créer un tag, appuyer sur la touche du symbole hashtag `#` lorsque vous êtes en [[Modes édition et aperçu|mode édition]] puis inscrivez sans espace le mot correspondant à votre mot-clé.
+> Notez que les mots-clés déjà existants apparaîtront automatiquement, comme avec un champ de recherche. Si ce n'est pas le cas mais que vous avec déjà utilisé le mot-clé en question, vous avez peut-être fait une erreur de syntaxe en l'écrivant, ce qui pourrait générer un doublon. 
+
+Etant donné que le caractère Espace met fin au tag, vous pouvez aérer ceux faisant plusieurs mots en utilisant des symboles tiret du 6 `-` ou underscore `_`. 
+
+Vous pouvez aussi ajouter des mots-clés dans les [[propriétés]], si par exemple vous voulez que ceux-ci soient regroupés dans un ensemble d'autres métadonnées. En mode Source, les mots-clés doivent toujours être écrit sous forme de liste, suivant la syntaxe suivante :
+`---
+tags:
+  - tag1
+  - tag2
+---`
+
+> [!NOTE] Les formats de tags
+> En plus des symboles `/` ; `-` et `_` vous pouvez aussi utiliser des nombres dans les tags. Mais ceux ne contenant que des nombres ne seront pas valides. Il doit y avoir au moins une lettre ou un symbole. 
+> 
+> L'usage de majuscules ou de minuscules ne fait pas de différence pour les tags. #inbox et #INBOX sont donc le même tag. Ils apparaîtront dans le [[volet des mots-clés]], tels qu'ils ont été créés pour la première fois. 
+>
+> Comme déjà dit plus haut, les mots-clés ne peuvent pas contenir d'espace. Appuyer sur la touche espace met fin à l'édition du tag.  
+
+## Trouver des notes avec les mots-clés
+
+Pour trouver des notes en utilisant la fonction [[recherche]], il y a deux possibilités : 
+1. La première consiste à utiliser l'opérateur de recherche approprié qui est `tag:`. Après le double-point, vous pouvez inscrire le hashtag `#`, puis le mot correspondant au tag qui vous sert de terme de recherche ou cliquer dessus dans la liste qui apparaît. Lorsque vous cliquez dans le champs de [[recherche]], vous pouvez cliquer directement sur l'opérateur `tag:` puis choisir votre mot-clé.
+2. La deuxième façon de s'y prendre consiste à cliquer sur un mot-clé lorsqu'il apparaît dans une note ou dans la liste du [[volet des mots-clés]].  
+
+## Les arborescences de mots-clés
+
+Les arborescences de mots-clés correspondent à la possibilité de les organiser de façon hiérarchique, comme les dossiers qu'on met les uns dans les autres. Cela peut par exemple permettre de le trouver plus facilement et de filtrer de façon plus efficiente les mots-clés ou les notes qui s'affichent. 
+
+Pour créer une arborescence de mots-clés, il faut utiliser la touche slash `/` pour séparer les différents tags. 
+> Exemple : #Inbox_/_à_lire 
+> 
+> Les underscores `_` que vous pouvez voir dans cet exemple servent à remplacer les espaces afin de les aérer un peu pour les rendre plus visibles.
+>
+> Si vous cliquez sur le tags utilisé dans cet exemple, cela démarrera une recherche de toutes les notes qui ont le mot-clé #Inbox_/_à_lire mais pas ceux qui ont un seul des deux mots-clés. 
+> Faire une recherche avec le tag #Inbox_ démarrerait une recherche prenant en compte toutes les notes qui l'ont y compris celles qui ont #Inbox_/_à_lire ou un autre mot-clé à la suite de #Inbox_ comme par exemple #Inbox_/_en_cours_de_lecture.
+>
+> Attention, l'usage des symbole `-` ou `_` dans les mots-clés fait que ce sont totalement d'autres tags. Ainsi, si vous avez une note avec le tag #Inbox_/_à_lire, une autre avec le tag #Inbox-/-à-lire, une autre avec le tag #Inbox/ALire, ou encore une autre qui mélange ces différentes façon de l'écrire, ils seront considérés par des tags différents et ne donneront pas les mêmes résultats. Cela peut donner lieu à des doublons dans le [[volet des mots-clés]], comme on peut le voir sur cette capture d'écran : ![[tags-doublons.png]]

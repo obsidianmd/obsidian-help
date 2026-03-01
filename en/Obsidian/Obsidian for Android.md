@@ -2,6 +2,7 @@
 permalink: android
 aliases:
   - Android
+  - Obsidian/Android app
 ---
 
 The Obsidian mobile app for Android brings powerful note-taking capabilities to your Android device. You can download it from [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) or as an [APK file](https://obsidian.md/download).
