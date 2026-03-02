@@ -17,13 +17,13 @@ I denne guide kan du lære, hvordan du aktiverer [[Introduktion til Obsidian Pub
 ## Trin 2: Aktiver Obsidian Publish
 
 1. Åben **Indstillinger**
-2. Klik på **Kerne plugins** i venstre sidebar
+2. Klik på **Kerne plugins** i venstre sidepanel
 3. Aktiver **Publish**
 
 ## Trin 3: Opret et nyt websted
 
 1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
-2. Angiv stiten (URL'en) til dit websted under **Websteds ID**. F.eks. vil et websted med ID `mit-fantastiske-websted` blive tilgængeligt på internetadressen `publish.obsidian.md/mit-fantastiske-websted`
+2. Angiv stiten (URL'en) til dit websted under **Websteds ID**. Fx. vil et websted med ID `mit-fantastiske-websted` blive tilgængeligt på internetadressen `publish.obsidian.md/mit-fantastiske-websted`
 3. Klik **Opret**
 
 ## Trin 4: Angiv et navn til webstedet

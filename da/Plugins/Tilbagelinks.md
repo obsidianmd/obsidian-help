@@ -1,3 +1,6 @@
+---
+permalink: plugins/tilbagelinks
+---
 Med tilbagelinks pluginnet kan du se alle _tilbagelinks_ i det aktive dokument.
 
 Et tilbagelink for en note er et link fra en anden note, som linker til noten. I det følgende eksempel indholder noten "De tre bevægelseslove" et link til noten "Isaac Newton". Det korresponderende tilbagelink linker fra noten "Isaac Newton" tilbage til noten "De tre bevægelseslove":
@@ -35,4 +38,4 @@ Tilbagelinks panelet har følgende muligheder:
 Du kan vise en aktiv notes tilbagelinks  med at klikke på **Tilbagelinks** (link med venstre pil ikonet) i det højre sidepanel.
 
 > [!note]
-> Hvis du ikke kan se tilbagelinks fanen, kan du gøre den synlig ved at åbne [[Kommandopalette|kommandopaletten]] og køre kommandoen: **Tilbagelinks: Vis tilbagelinks panel**
+> Hvis du ikke kan se tilbagelinks fanen, kan du gøre den synlig ved at åbne [[Kommandopaletten|kommandopaletten]] og køre kommandoen: **Tilbagelinks: Vis tilbagelinks panel**

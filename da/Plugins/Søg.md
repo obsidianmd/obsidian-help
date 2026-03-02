@@ -1,3 +1,6 @@
+---
+permalink: plugins/søg
+---
 Du kan benytte søge pluginnet til at finde filer i din boks.
 
 Som standard kan du finde **Søg** i venstre sidepanel (Forstørrelsesikonet). Du kan også åbne **Søg** ved at trykke `Ctrl+Skift+F` (eller `Cmd+Skift+F` på macOS).
@@ -8,7 +11,7 @@ Som standard kan du finde **Søg** i venstre sidepanel (Forstørrelsesikonet). D
 ## Søgetermer
 
 Et søgeterm er ord eller fraser, som du skriver i søgefeltet. Du kan lære at skrive effektive søgetermer, så du hurtigt kan finde det du søger efter selv i store bokse.
-Der vil blive søgt efter et match i hver fil for hvert ord i en søgeterm. For at søge efter en eksakt frase, skal du omslutte søgeordene med citationstegn, f.eks. `"star wars"`.  Hvis du skal søge efter en eksakt frase, der indeholder citationstegn, så kan du benytte baglæns skråstreger (`\`) før hver citationstegn, f.eks. `"de sagde \"hej\" til hinanden"`.
+Der vil blive søgt efter et match i hver fil for hvert ord i en søgeterm. For at søge efter en eksakt frase, skal du omslutte søgeordene med citationstegn, fx. `"star wars"`.  Hvis du skal søge efter en eksakt frase, der indeholder citationstegn, så kan du benytte baglæns skråstreger (`\`) før hver citationstegn, fx. `"de sagde \"hej\" til hinanden"`.
 
 Du kan kontrollere om en søgning skal finde filer der indeholder _alle_ ord i din søgefrase eller blot _nogle_ af dem:
 
@@ -34,7 +37,7 @@ For at udelukke et ord fra søgeresultater kan du tilføje en bindestreg (`-`) f
 
 Du kan anvende søgeoperatorer til at filtrere din søgning og derved foretage en mere præcis søgning.
 
-Nogle operatorer tillader dig endda at indlejre søgetermer i parenteser, f.eks. `task:(opkald OR email)`
+Nogle operatorer tillader dig endda at indlejre søgetermer i parenteser, fx. `task:(opkald OR email)`
 
 | Søgeoperator | Beskrivelse                                                                                                                                                                                                          |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -51,12 +54,13 @@ Nogle operatorer tillader dig endda at indlejre søgetermer i parenteser, f.eks.
 | `task-todo:`    | Søg efter tekst i en uafsluttet opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste]].<p/>Eksempel: `task-todo:opkald`.                                                                                      |
 | `task-done:`    | Søg efter tekst i en afsluttet opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste]].<p/>Eksempel: `task-done:opkald`.                                                                                         |
 
+## Søg efter egenskaber
 
 ## Brug af regulære udtryk i søgetermer
 
 Et regulært udtryk er et sæt af tegn, som beskriver et tekstmønster. For at anvende regulære udtryk i dine søgetermer skal du omkranse udtrykket med slash (`/`).
 
-- `/\d{4}-\d{2}-\d{2}/` matcher en ISO 8601 dato, f.eks., 2022-01-01.
+- `/\d{4}-\d{2}-\d{2}/` matcher en ISO 8601 dato, fx., 2022-01-01.
 
 Du kan endda kombinere regulære udtryk med søge operatorer;
 
@@ -88,7 +92,7 @@ For at indlejre søgeresultater i en note skal du tilføje en `query` kodeblok:
 indlejer OR søg
 ```</code></pre>
 
-F.eks.
+Fx.
 
 > [!note]
 > [[Introduction to Obsidian Publish|Obsidian Publish]] inderstøtter ikke indlejrede søgeresultater. For at se et eksempel skal du åbne Obsidian hjælpen lokalt i Obsidian.

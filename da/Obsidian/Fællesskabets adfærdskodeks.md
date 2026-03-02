@@ -1,3 +1,10 @@
+---
+description: Denne side beskriver i detaljer de regler som gælder i alle Obsidian online fællesskaber.
+mobile: true
+permalink: fællesskabets-adfærdkodeks
+publish: true
+---
+
 ## Reglerne
 
 Vi tolererer ikke følgende adfærd:
@@ -7,15 +14,15 @@ Vi tolererer ikke følgende adfærd:
 Brugere, som begår følgende overtrædelser, vil øjblikkeligt blive udelukket fra de officielle Obsidian fællesskabs kanaler:
 
 - **Chikane**: inklusiv anstødelige verbale kommentarer relateret til køn, seksuel orientering, handicap, fysisk udseende, kropsstørrelse, race, eller religion, såvel som seksuelle billeder i det offenlige rum, bevidst intimidering, stalking, forfølgning, chikanerende billeder eller optagelse, upassende fysisk kontakt, eller uønsket seksuel eller romantisk opmærksomhed
-- **Trusler**: True nogen fysisk eller verbalt. F.eks. true med at offentliggøre sensitiv information om en nogens personlig liv
+- **Trusler**: True nogen fysisk eller verbalt. Fx. true med at offentliggøre sensitiv information om en nogens personlig liv
 
 ### Andre overtrædelser
 
 Brugere, som begår disse overtrædelser, vil få sendt en advarsel. Gentagne overtrædelser vil resultere i, at brugeren bliver udelukket fra  de officielle Obsidian fællesskabs kanaler:
 
-- **Grov diskrimination**: Skrive eller sige ting, som er åbentlyst racistiske, sexistiske, homofobiske osv. F.eks. argumenter om at folk med et bestemt køn, race eller religion er mindre intelligente. Små fejl i samtaler er ikke en overtrædelse af adfærdskodetkset. Men at gentage ytringer efter at man er blevet gjort opmærksom på overtrædelsen, eller at modsætte sig eller argumentere med en, som har påpeget at du diskriminere, betragtes som en mindre overtrædelse
-- **Aggressivitet**: Bevidst at forsøge at får folk til at føle sig dårlige, skælde ud, håne andre eller forsøge at udelukke nogen. F.eks. at forælle nogen, at de ikke er en rigtig  programmør eller at de ikke hører til her
-- **Være særlig ubehagelig**: f.eks. hvis vi bliver informeret om irriterende eller uhøftlig adfærd fra flere medlemmer ^432ea1
+- **Grov diskrimination**: Skrive eller sige ting, som er åbentlyst racistiske, sexistiske, homofobiske osv. Fx. argumenter om at folk med et bestemt køn, race eller religion er mindre intelligente. Små fejl i samtaler er ikke en overtrædelse af adfærdskodetkset. Men at gentage ytringer efter at man er blevet gjort opmærksom på overtrædelsen, eller at modsætte sig eller argumentere med en, som har påpeget at du diskriminere, betragtes som en mindre overtrædelse
+- **Aggressivitet**: Bevidst at forsøge at får folk til at føle sig dårlige, skælde ud, håne andre eller forsøge at udelukke nogen. Fx. at forælle nogen, at de ikke er en rigtig  programmør eller at de ikke hører til her
+- **Være særlig ubehagelig**: fx. hvis vi bliver informeret om irriterende eller uhøftlig adfærd fra flere medlemmer ^432ea1
 - **Beder om opmærksomhed fra medlemmer af Obsidian udviklingsteamet**: Det inkluderer uopfordret tagging, "pinging", eller at skirve beskeder direkte til udviklere eller moderatorer med spørgsmål, fejlrapporter, og funktionsanmodninger. Selvom vi gerne vil hjælpe alle, så har vi et stort fællesskab, og teamets opmærksomhed er rettet mod kritiske forhold. Du kan "pinge" elller sende direkte meddelelser til medlemmer, hvis det handler om sikkerhedsrelaterede problemer eller for at rapportere krænkelser af sællesskabets adfærdskodeks. Eller skriv om problemet i de passende kanaler i  vores forum eller på vores Discord server
 
 ### Anden adfærd

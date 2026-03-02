@@ -1,4 +1,0 @@
-Indstillingerne kan findes ved at klikke på tandhjulsikonet i nederste venstre hjørne, eller ved at trykke `Ctrl/Cmd-,`. De fleste indstillinger er rimelig selvforklarende, men der er nogle beskrivelser, som kan være til hjælp.
-
-- De fleste indstillinger har slå til/fra-knapper. Hvis der er flere detaljer til en indstilling, har mange et tandhjulsikon ved siden af til yderligere indstillinger. F.eks. er der et sådant ved siden af stavekontrol til/fra-knappen, som viser den brugerdefinerede ordbog, så du kan fjerne ord, du ved en fejl har tilføjet. (Note: Virker ikke i nuværende version af Obsidian)
-- Når plug-ins aktiveres vil deres indstillinger, hvis de har det, blive vist som en fane i indstillingerne nederst under "Plug-in indstillinger". F.eks. hvis du har "Daily Note" aktiveret vil der være en indstillingsfane, hvor du kan konfigurere plug-in'et.

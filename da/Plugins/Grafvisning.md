@@ -1,3 +1,6 @@
+---
+permalink: plugins/grafvisning
+---
 Grafvisning lader dig visualisere sammenhænget mellem dine noter i din boks.
 
 For at åbne grafvisning skal du klikke på **Åben grafvisning** i [[Båndmenu|båndmenuen]].

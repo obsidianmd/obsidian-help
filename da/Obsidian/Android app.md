@@ -1,17 +1,29 @@
-Denne artikel er forældet og er her kun for at forhindre at ødelægge links i dokumentationen. Få mere at vide om mobil versionen her: [[Synkroniser dine noter på tværs af enheder]].
+---
+permalink: android
+---
+For at synkronisere dine noter på Android kan du læse guiden: [[Synkroniser dine noter på tværs af enheder]].
 
-## Synkronisering
+## Boksplacering
 
-Du kan finde information om synkronisering af din boks på Android her: [[Synkroniser dine noter på tværs af enheder#Synkronisering af noter på Android enheder|Synkronisering af noter på Android enheder]].
+Når du starter Obsidian for første gang på Android, bliver du spurgt hvor du vil gemme dine data. Du kan vælge **enhedslager** (anbefalet) eller **app lager**.
 
-## Adgangsrettigheder
-Når du starter Obsidian har du måske lagt mærke til, at den spørger om tilladelse til at tilgå din enheds filer og medier.
+### Enhedslager
 
-I den ideelle verden ville vi foretrække kun at bede om adgang til de boksmapper, som du vælger. Men, Andorids privat-venlige filtillladelses API (også kaldet "scoped storage") har nogle få restriktioner som gør det umuligt for Obsidian til at fungere ordentlig, hvis ikke vi har fuld adgang.
-   
-De to største forhindringer er:
+Dine data bliver gemt på en delt placring på din enhed, hvis du vælger muligheden **enhedslager**. Det tillader at andre apps pg services kan tilgå din Obsidian boks, såsom tredjeparts [[Synkroniser dine noter på tværs af enheder|synkroniserings]] værktøjer.
 
-- "Scoped storage" udfører mange ekstra sikkerhedstjek for hver tilgang til en fil hvilket skaber en signifikant nedgang i ydeevne, når Obsidian åbnes og bruges.
-- "Scoped storage" tilbyder ikke en mulighed for at overvåge filændringer fra eksterne apps, hvilket er kritisk når man benytter Obsidian med et tredjeparts synkroniseringsværktøj.
+Det er den anbefalede mulighed fordi den tilbyder bedre kompabilitet med synkronseringsværktøjer og sikrer at dine data er indtakte selvom du afinstallerer appen. Denne mulighed kræver dog yderligere tilladelser til at tilgå dine enheds filer.
 
-Google giver specifikt instruktioner til udviklere af den slags apps at benytte en speciel tilladelse. Obsidian tilhører to af kategorierne i denne liste af undtagelser: "dokument håndterings apps", og "filsøgning på enheden". [Læs mere om det her.](https://developer.android.com/training/data-storage/manage-all-files).
+På grund af begrænsninger på Android, vil Obsidian bede om tilladelse til at tilgå "alle filer" for at kunne fungere pålidelig. Google anbefaler dette selv for apps, der som Obsidian fungerer som "dokumenthåndterings apps". [Lær mere](https://developer.android.com/training/data-storage/manage-all-files).
+
+Obsidian anvender kun denne tilladelse til at hjælpe dig med at tilgå dine data på din enhed. Dine data er ikke tilgændelig for os. For at lære mere om, hvordan du beskytter dine data og privatsikkerhed, kan du besøge vores [Sikkerhedsside](https://obsidian.md/security).
+
+### App lager
+
+Dine data bliver gemt i Obsidians private app lager, hvis du vælger muligheden **app lager**.
+
+Dette er en god metode, hvis du ikke anvender nogle eksterne synkroniseringsværktøjer og foretrækker en strammere sikkerhed omkring dine noter.
+
+Med denne metode kan du benytte [[Introduktion til Obsidian Sync|Obsidian Sync]] og tredjeparts synkroniseringsplugins, som er tilgængelige via [[Fællesskabsplugins|Fællesskabsplugins]], men du kan ikke anvende værktøjer som Syncthing, som kræver adgang til delt lager.
+
+> [!warning] Hvis du afinstallerer Obsidian og har benyttet denne metode, vil dine noter blive slettet.
+> Hvis du benytter **App lager** metoden, vil dine boksdata altså blive slettet, hvis du afinstallerer appen. Din Obsidian boks på andre enheden, vil ikke blive slettet.

@@ -1,3 +1,6 @@
+---
+permalink: plugins/slash-kommandoer
+---
 Slash kommandoer tillader dig at udføre kommandoer inde fra editoren ved at skrive en skråstreg (`/`, også kaldet slash), i begyndelsen af en linje eller efter et mellemrum.
 
 Sådan kører du kommandoer ved hjælp af slash kammandoer:
@@ -10,4 +13,4 @@ Sådan kører du kommandoer ved hjælp af slash kammandoer:
 For at afslutte en slash kommando søgning uden at udføre en kommando kan du trykke `Esc` eller på `Mellemrum` tasten.
 
 > [!TIP] Fuzzy matching
-> Ligesom [[Kommandopalette|kommandopaletten]] understøtter slash kommandoer fuzzy matching som gør dig i stand til at søge efter kommandoer selv hvis du ikke kender deres præcise navn. Du kan f.eks. skrive "gnf" for at finde **Gem nuværende fil** kommandoen.
+> Ligesom [[Kommandopaletten|kommandopaletten]] understøtter slash kommandoer fuzzy matching som gør dig i stand til at søge efter kommandoer selv hvis du ikke kender deres præcise navn. Du kan fx. skrive "gnf" for at finde **Gem nuværende fil** kommandoen.

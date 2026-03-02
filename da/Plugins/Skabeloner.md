@@ -1,3 +1,6 @@
+---
+permalink: plugins/skabeloner
+---
 Du kan benytte skabeloner til at indsætte foruddefineredet tekst ind i din aktive note.
 
 ## Indstil din skabelonmappe
@@ -26,9 +29,9 @@ Du kan tilføje dynamisk information til dine skabeloner ved at benytte _skabelo
 
 Både `{{date}}` og `{{time}}` variablerne tillader dig at kunne ændre standard formatet ved at angive en _formatteringssyntaks_.
 
-For at angive en formattering skal du tilføje et kolon efterfulgt af en tekst [formatteret i Moment.js formatet](https://momentjs.com/docs/#/displaying/format/), f.eks. `{{date:YYYY-MM-DD}}`.
+For at angive en formattering skal du tilføje et kolon efterfulgt af en tekst [formatteret i Moment.js formatet](https://momentjs.com/docs/#/displaying/format/), fx. `{{date:YYYY-MM-DD}}`.
 
-Du kan anvende `{{date}}` og `{{time}}` med formattering uafhængigt af hinanden, f.eks. `{{time:YYYY-MM-DD}}`.
+Du kan anvende `{{date}}` og `{{time}}` med formattering uafhængigt af hinanden, fx. `{{time:YYYY-MM-DD}}`.
 
 Du kan ændre standard dato- og tidsformaterne under **Indstillinger → Skabeloner → Datoformat** og **Indstillinger → Skabeloner → Tidsformat**.
 

@@ -10,12 +10,12 @@ Når du migrerer til CLoudFlare, vil du automatisk beholde alle dine eksisterend
 
 Obsidian Publish brugere opsætter typisk deres indhold på et rod domæne (`mitwebsted.dk`) eller på et umiddelbart underdomæne (`noter.mitwebsted.dk`).
 
-**VloudFlare:**
+**CloudFlare:**
 
 1. Åben ClouFlare p ådet domæne, som du vil tilføje til Obsidian Publish, såsom `mitwebsted.dk` uanset, om du vil have et underdomæne som `noter.mitwebsted.dk`
 2. Gå til **DNS** og klik på **Add Record**
 3. Vælg **CNAME**
-4. I **name** skriver du dit domæne eller underdomæne, f.eks. `noter.mitwebsted.dk`
+4. I **name** skriver du dit domæne eller underdomæne, fx. `noter.mitwebsted.dk`
 5. Skriv `publish-main.obsidian.md`i **target**. Du skal ikke skrive din personlige under URL her. Obsidian Publish håndterer dette fra din konfiguration
 6. Gå til **SSL/TLS** og sæt SSL/TLS krypteringstilstanden til "Full" for at konfigurere SSL/TLS certifikatet automatisk
 
@@ -44,7 +44,7 @@ Hvis du allerede hoster et websted på dit eget domæne eller underdomæne, kan 
 
 Proxy alle anmodninger under denne URL sti til `https://publish.obsidian.md/serve?url=mitwebsted.dk/mine-noter/...` og **konfigurer webstedsindstillingerne  i Obsidian til den samme URL** ved at opsætte **Brugerdefineret domæne** til `mitwebsted.dk/mine-noter`.
 
-Du kan også opsætte Obsidian Publish på et af dine underdomæner. F.eks. `https://mitwebsted.dk/my-notes/`. Du skal hoste din egen server og proxy alle requests til vores server på `https://publish.obsidian.md/` for at kunne gøre dette.
+Du kan også opsætte Obsidian Publish på et af dine underdomæner. Fx. `https://mitwebsted.dk/my-notes/`. Du skal hoste din egen server og proxy alle requests til vores server på `https://publish.obsidian.md/` for at kunne gøre dette.
 
 ### NGINX
 

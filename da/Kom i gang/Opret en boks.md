@@ -1,3 +1,6 @@
+---
+permalink: boks
+---
 En boks er en mappe i dit lokale filsystem hvor Obsidian gemmer dine noter. Du kan gemme alle dine noter i en boks, eller oprette flere bokse for hver af dine forskellige projekter.
 
 Første gang du åbner Obsdidian vil du blive bedt om at tilføje en by boks ved hjælp af [[Brugergrænseflade/Boksskifter|Boks skifteren]].
@@ -18,3 +21,5 @@ Hvis du allerede har en mappe, som du vil benytte som din boks skal du:
 1. Klikke på **Åben** knappen til højre for **Åben mappe som boks**
 2. I filbrowseren vælger du den mappe, som du vil benytte
 3. Klik derefter på **Åben**
+
+Hvis du vil vide mere om hvordan bokse virker kan du læse guiden om [[Hvordan Obsidian gemmer data|hvordan Obsidian gemmer data]].
