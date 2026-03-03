@@ -47,16 +47,6 @@ To log out and clear stored credentials:
 ob logout
 ```
 
-### Environment variable
-
-For non-interactive use (CI, scripts, servers), set the `OBSIDIAN_AUTH_TOKEN` environment variable instead of using `ob login`:
-
-```shell
-export OBSIDIAN_AUTH_TOKEN="your-auth-token"
-```
-
-When set, all commands that require authentication use this token automatically.
-
 ## Services
 
 - [[Headless Sync]]: use [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the desktop app.

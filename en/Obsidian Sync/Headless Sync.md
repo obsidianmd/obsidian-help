@@ -1,6 +1,8 @@
 ---
 description: Obsidian Sync offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
 permalink: sync/headless
+cssclasses:
+  - reference
 ---
 [[Introduction to Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
 
@@ -37,16 +39,6 @@ ob sync
 # Run continuous sync (watches for changes)
 ob sync --continuous
 ```
-
-### Environment variable
-
-For non-interactive use (CI, scripts, servers), set the `OBSIDIAN_AUTH_TOKEN` environment variable instead of using `ob login`:
-
-```shell
-export OBSIDIAN_AUTH_TOKEN="your-auth-token"
-```
-
-When set, all commands that require authentication use this token automatically.
 
 ## Commands
 
@@ -110,15 +102,16 @@ View or change [[Sync settings and selective syncing|sync settings]] for a vault
 ob sync-config [--path <local-path>] [options]
 ```
 
-| Option | Description |
-| --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--conflict-strategy` | `merge` or `conflict` |
-| `--file-types` | Attachment types to sync: `image`, `audio`, `video`, `pdf`, `unsupported` (comma-separated, empty to clear) |
-| `--configs` | Config categories to sync: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (comma-separated, empty to disable config syncing) |
-| `--excluded-folders` | Folders to exclude (comma-separated, empty to clear) |
-| `--device-name` | Device name shown in [[Version history\|sync version history]] |
-| `--config-dir` | [[Configuration folder\|Config directory]] name (default: `.obsidian`) |
+| Option                | Description                                                                                                                                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--path`              | Local vault path (default: current directory)                                                                                                                                                                  |
+| `--mode`              | Sync mode: `bidirectional` (default), `pull-only` (only download, ignore local changes), or `mirror-remote` (only download, revert local changes)                                                              |
+| `--conflict-strategy` | `merge` or `conflict`                                                                                                                                                                                          |
+| `--file-types`        | Attachment types to sync: `image`, `audio`, `video`, `pdf`, `unsupported` (comma-separated, empty to clear)                                                                                                    |
+| `--configs`           | Config categories to sync: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (comma-separated, empty to disable config syncing) |
+| `--excluded-folders`  | Folders to exclude (comma-separated, empty to clear)                                                                                                                                                           |
+| `--device-name`       | Device name to identify this client in the sync version history                                                                                                                                                |
+| `--config-dir`        | Config directory name (default: `.obsidian`)                                                                                                                                                                   |
 
 ### `ob sync-status`
 

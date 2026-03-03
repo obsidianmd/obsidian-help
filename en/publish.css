@@ -341,6 +341,35 @@ img[src$="#outline"] {
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="292.4" height="292.4"%3E%3Cpath fill="%23FFF" opacity="0.4" d="M287 69.4a17.6 17.6 0 0 0-13-5.4H18.4c-5 0-9.3 1.8-12.9 5.4A17.6 17.6 0 0 0 0 82.2c0 5 1.8 9.3 5.4 12.9l128 127.9c3.6 3.6 7.8 5.4 12.8 5.4s9.2-1.8 12.8-5.4L287 95c3.5-3.5 5.4-7.8 5.4-12.8 0-5-1.9-9.2-5.5-12.8z"/%3E%3C/svg%3E');
 }
 
+.reference {
+  --table-column-first-border-width: 0;
+  --table-column-last-border-width: 0;
+  --table-row-last-border-width: 0;
+  --table-header-border-width: 0;
+  --table-row-background-hover: var(--background-secondary);
+}
+
+.reference .HyperMD-table-row,
+.reference table {
+  --code-background: transparent;
+}
+
+.reference table {
+  width: 100%;
+}
+
+.reference .HyperMD-table-row,
+.reference table td:first-child {
+  --code-normal: var(--color-cyan);
+}
+
+.reference table th {
+  --table-white-space: nowrap;
+}
+.reference table th:first-child {
+  min-width: 200px;
+}
+
 @media screen and (max-width: 750px) {
   .site-header-text {
 	display: none;
