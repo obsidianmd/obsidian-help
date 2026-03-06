@@ -21,7 +21,7 @@ Enable Obsidian CLI in Obsidian:
 2. Enable **Command line interface**.
 3. Follow the prompt to register Obsidian CLI.
 
-On Windows you will also need to run the `.com` file, available to [[Catalyst license|Catalyst]] members on Discord. See [[#Troubleshooting]] for help.
+If you run into issues installing Obsidian CLI see [[#Troubleshooting]].
 
 ## Get started
 
