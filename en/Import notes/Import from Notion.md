@@ -16,7 +16,7 @@ To access your Notion data via the API you need an integration token. This step 
 
 The token is a long string of numbers and letters typically starting with `ntn_...` that will allow you to download your data from Notion.
 
-1. Sign into your [Notion Integrations](https://www.notion.so/profile/integrations/) dashboard.
+1. Sign into your [Notion Integrations](https://www.notion.so/profile/integrations/internal) dashboard.
 2. Choose **New integration**.
 
 ![[notion-integration.png#interface]]
