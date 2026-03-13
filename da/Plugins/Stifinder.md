@@ -1,3 +1,6 @@
+---
+permalink: plugins/stifinder
+---
 Med stifinderen kan du håndtere filer og mapper i din boks. Du kan gennemse noter og andre [[Accepterede filformater|accepterede filformater]] i din boks og udføre mange almindelige filoperationer:
 
 - Oprette, slette og omdøbe filer og mapper

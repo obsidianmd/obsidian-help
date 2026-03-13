@@ -2,7 +2,7 @@
 alias: [Obsidian Publish]
 ---
 
-Oblisian Publis er en cloudbaseret service, hvor du kan udgive dine noter på internettet.
+Obsidian Publish er en cloudbaseret service, hvor du kan udgive dine noter på internettet.
 
 Vælg de noter, som du vil dele med verden, og rk "Udgiv", og vi udgive det til 
 `publish.obsidian.md/dit-websted`.

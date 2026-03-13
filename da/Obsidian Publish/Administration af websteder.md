@@ -8,7 +8,7 @@ Et websted er en samling noter, som er hostet af Obsidian Publish og sjort tilg�
 
 1. Klik på **Udgiv ændringer** (papirflyver ikonet) i båndmenuen
 2. Klik på **Skift websted** (pile ikonet), hvis du allerede har et eksisterende websted
-3. Skriv den sti, som du ønsker for dit websted, i **Rediger websteds ID**. F.eks. vil et websted med ID `mit-fantastiske-websted` blive gjort tilgængeligt på `publish.obsidian.md/mit-fantastiske-websted`
+3. Skriv den sti, som du ønsker for dit websted, i **Rediger websteds ID**. Fx. vil et websted med ID `mit-fantastiske-websted` blive gjort tilgængeligt på `publish.obsidian.md/mit-fantastiske-websted`
 4. Klik **Opret**
 
 ## Slet et eksisterende websted

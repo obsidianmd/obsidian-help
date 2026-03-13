@@ -15,7 +15,7 @@ Hvis du har et spørgsmål om, hvordan man benytter Obsidian, eller vil lære an
 - [Tilmeld dig vores Discord server](https://discord.gg/obsidianmd)
 - [Besøg vores forum](https://forum.obsidian.md/)
 
-## Fejlrapportering og funktionsanmodninger
+### Fejlrapportering og funktionsanmodninger
 
 > [!important]
 > Før du anmoder om en ny funktion eller rapporterer en fejl, så se grundigt efter om andre ikke allerede har gjort det.

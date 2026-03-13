@@ -1,3 +1,6 @@
+---
+permalink: plugins/filgenoprettelse
+---
 Filgenoprettelse er et kerne plugin som kan hjælpe dig med at genoprette dine data i tilfælde af uforsætlig datatab ved at tage øjebliksbilleder af dine noter.
 
 For at ikke at det skal tage for meget lagerplads gemmer Obsidian kun øjebliksbilleder i et bestemt antal dage før den sletter de ældste.
