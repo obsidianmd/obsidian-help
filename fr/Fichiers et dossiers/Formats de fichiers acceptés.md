@@ -1,6 +1,6 @@
 ---
 permalink: file-formats
-description: This page describes the accepted file formats within Obsidian.
+description: Cette page décrit les formats de fichiers acceptés dans Obsidian.
 publish: true
 mobile: true
 aliases:

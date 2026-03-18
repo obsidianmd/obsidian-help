@@ -1,6 +1,8 @@
 ---
 permalink: publish/domains
-description: "You can set up a custom domain or subdomain for your\_Obsidian Publish\_site."
+description: >-
+  Vous pouvez configurer un domaine ou un sous-domaine personnalisé pour votre
+  site Obsidian Publish.
 mobile: true
 localized: '2026-03-18'
 aliases:

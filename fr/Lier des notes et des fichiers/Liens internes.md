@@ -3,8 +3,8 @@ permalink: links
 cssclasses:
   - soft-embed
 description: >-
-  Learn how to link to notes, attachments, and other files from your notes,
-  using internal links.
+  Découvrez comment créer des liens vers des notes, des pièces jointes et
+  d'autres fichiers depuis vos notes, à l'aide de liens internes.
 publish: true
 mobile: true
 aliases:

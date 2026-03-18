@@ -1003,7 +1003,6 @@ Move a file or folder=Déplacer un fichier ou un dossier
 
 [plugins/format-converter]
 Supported formats=Formats pris en charge
-[[Properties]]=[[Propriétés]]
 
 [plugins/templates]
 Set your template folder=Définir votre dossier de modèles
@@ -1296,3 +1295,18 @@ Install a new theme=Installer un nouveau thème
 Update themes=Mettre à jour les thèmes
 Uninstall an existing theme=Désinstaller un thème existant
 Learn more=En savoir plus
+
+[sync/version-history]
+Sync history=Historique de synchronisation
+Show Sync history=Afficher l'historique de synchronisation
+Enable via Command palette=Activer via la palette de commandes
+Enable via Hotkey=Activer via un raccourci clavier
+Version history=Historique des versions
+Notes and attachments=Notes et pièces jointes
+View version history of a file=Consulter l'historique des versions d'un fichier
+View version history of a deleted or renamed file=Consulter l'historique des versions d'un fichier supprimé ou renommé
+Restore a previous version of a file=Restaurer une version précédente d'un fichier
+Restore a deleted file=Restaurer un fichier supprimé
+Settings history=Historique des paramètres
+View version history of a setting=Consulter l'historique des versions d'un paramètre
+Restore a previous version of a setting=Restaurer une version précédente d'un paramètre

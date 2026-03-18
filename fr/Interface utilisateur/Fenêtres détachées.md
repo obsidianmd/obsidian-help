@@ -1,6 +1,8 @@
 ---
 permalink: pop-out-windows
-description: Learn how to open files in separate pop-out windows.
+description: >-
+  Découvrez comment ouvrir des fichiers dans des fenêtres contextuelles
+  séparées.
 localized: '2026-03-18'
 aliases:
   - Pop-out windows

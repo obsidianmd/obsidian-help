@@ -1,8 +1,8 @@
 ---
 permalink: plugins/outgoing-links
 description: >-
-  Outgoing links is a core plugin that shows links from the active note at a
-  glance, as well as potential links to be made.
+  Liens sortants est un plugin principal qui affiche en un coup d'œil les liens
+  de la note active, ainsi que les liens potentiels à créer.
 publish: true
 mobile: false
 localized: '2026-03-18'

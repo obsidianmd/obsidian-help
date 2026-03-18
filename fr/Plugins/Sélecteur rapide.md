@@ -1,8 +1,8 @@
 ---
 permalink: plugins/quick-switcher
 description: >-
-  Quick switcher is a core plugin that lets you search and open notes using only
-  your keyboard.
+  Sélecteur rapide est un plugin principal qui vous permet de rechercher et
+  d'ouvrir des notes en utilisant uniquement votre clavier.
 aliases:
   - Plugins/Modules principaux/Sélecteur rapide
   - Quick switcher

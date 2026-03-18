@@ -3,8 +3,9 @@ permalink: mobile
 cssclasses:
   - list-cards
 description: >-
-  Learn about mobile-specific features in Obsidian, including the mobile
-  toolbar, quick actions, and navigation bar.
+  Découvrez les fonctionnalités spécifiques aux appareils mobiles dans Obsidian,
+  notamment la barre d'outils mobile, les actions rapides et la barre de
+  navigation.
 publish: true
 mobile: true
 localized: '2026-03-18'

@@ -1,6 +1,8 @@
 ---
 permalink: style-guide
-description: This page explains the style guide for writing our support documentation.
+description: >-
+  Cette page explique le guide de style pour la rédaction de notre documentation
+  d'assistance.
 publish: true
 mobile: true
 localized: '2026-03-18'

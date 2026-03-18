@@ -1,6 +1,6 @@
 ---
 permalink: data-storage
-description: This page explains how Obsidian stores its data on your device.
+description: Cette page explique comment Obsidian stocke ses données sur votre appareil.
 publish: true
 mobile: true
 aliases:

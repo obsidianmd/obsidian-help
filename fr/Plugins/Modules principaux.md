@@ -4,8 +4,8 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 description: >-
-  This page lists the core plugins that come installed with Obsidian, and
-  community plugins they also maintain.
+  Cette page répertorie les plugins principaux installés avec Obsidian, ainsi
+  que les plugins communautaires qu'ils maintiennent également.
 publish: true
 mobile: true
 aliases:

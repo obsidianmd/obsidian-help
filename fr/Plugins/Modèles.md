@@ -3,8 +3,8 @@ permalink: plugins/templates
 cssclasses:
   - soft-embed
 description: >-
-  Templates is a Core plugins|core plugin that lets you insert pre-defined
-  snippets of text into your active note.
+  Modèles est un plugin principal qui vous permet d'insérer des extraits de
+  texte prédéfinis dans votre note active.
 publish: true
 mobile: true
 aliases:

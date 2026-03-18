@@ -1,6 +1,8 @@
 ---
 permalink: web-clipper/logic
-description: 'Use conditionals, loops, and variable assignment in Web Clipper templates.'
+description: >-
+  Utilisez des conditions, des boucles et l'affectation de variables dans les
+  modèles de Web Clipper.
 localized: '2026-03-18'
 aliases:
   - Logic

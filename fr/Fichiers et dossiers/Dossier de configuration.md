@@ -1,8 +1,8 @@
 ---
 permalink: configuration-folder
 description: >-
-  Learn how to access and manage your configuration folder on desktop and mobile
-  devices.
+  Découvrez comment accéder à votre dossier de configuration et le gérer sur les
+  appareils de bureau et mobiles.
 publish: true
 mobile: true
 localized: '2026-03-18'

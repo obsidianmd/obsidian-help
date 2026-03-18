@@ -1,8 +1,8 @@
 ---
 permalink: ribbon
 description: >-
-  Learn how to use the ribbon, a space for common commands in Obsidian, and
-  customize it on desktop and mobile.
+  Découvrez comment utiliser le ruban, un espace dédié aux commandes courantes
+  dans Obsidian, et comment le personnaliser sur ordinateur et mobile.
 publish: true
 mobile: true
 localized: '2026-03-18'

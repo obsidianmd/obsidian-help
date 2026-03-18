@@ -1,6 +1,6 @@
 ---
 permalink: sync/plans
-description: Learn about the different plan options we have available for Obsidian Sync.
+description: Découvrez les différentes options d'abonnement disponibles pour Obsidian Sync.
 publish: true
 mobile: true
 localized: '2026-03-18'
@@ -18,7 +18,7 @@ Voici une comparaison entre le forfait Standard et le forfait Plus :
 | Coffres synchronisés                                         | 1             | 10              |
 | Taille maximale de fichier                                   | 5 Mo          | 200 Mo          |
 | Stockage total                                               | 1 Go          | 10 Go à 100 Go  |
-| [[Version history]]                                          | 1 mois        | 12 mois         |
+| [[Historique des versions]]                                          | 1 mois        | 12 mois         |
 | Appareils                                                    | Illimités     | Illimités       |
 | [[Collaborer sur un coffre partagé\|Coffres partagés]]       | Oui           | Oui             |
 
@@ -26,7 +26,7 @@ Voici une comparaison entre le forfait Standard et le forfait Plus :
 
 La quantité de données que vous pouvez stocker avec [[Introduction à Obsidian Sync|Obsidian Sync]] dépend de votre forfait d'abonnement. Avec le forfait Sync Plus, vous pouvez acheter du stockage supplémentaire jusqu'à 100 Go via [le tableau de bord de votre compte](https://obsidian.md/account/sync). Consultez les [[Questions fréquentes]] pour plus de détails.
 
-Il existe une limite de stockage unique au niveau du compte pour toutes les notes de l'ensemble de vos coffres. L'[[Version history|historique des versions]] et les [[Pièces jointes|pièces jointes]] sont également comptabilisés dans la limite de stockage de votre compte.
+Il existe une limite de stockage unique au niveau du compte pour toutes les notes de l'ensemble de vos coffres. L'[[Historique des versions|historique des versions]] et les [[Pièces jointes|pièces jointes]] sont également comptabilisés dans la limite de stockage de votre compte.
 
 Lorsque vous atteignez la limite de stockage de votre compte, le module Sync cesse de synchroniser les fichiers et vous êtes invité à nettoyer votre ou vos coffre(s) distant(s).
 
@@ -75,6 +75,6 @@ Si vous passez de Sync Plus à Sync Standard, vous devrez également réduire le
 
 ### Préserver l'historique des versions
 
-Les pièces jointes sont conservées dans votre [[Version history|historique des versions]] pendant un maximum de deux semaines. Si vous prévoyez de rétrograder dans un avenir proche, vous pouvez commencer par supprimer les pièces jointes de votre coffre local.
+Les pièces jointes sont conservées dans votre [[Historique des versions|historique des versions]] pendant un maximum de deux semaines. Si vous prévoyez de rétrograder dans un avenir proche, vous pouvez commencer par supprimer les pièces jointes de votre coffre local.
 
 Après deux semaines, celles-ci seront purgées du coffre distant et ne seront plus comptabilisées dans votre limite de stockage. À ce moment-là, vous pourrez rétrograder votre forfait tout en préservant l'historique des versions pour les autres types de fichiers, tels que les fichiers Markdown.

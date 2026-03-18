@@ -1,6 +1,8 @@
 ---
 permalink: sync/collaborate
-description: This page details how you can collaborate with other Obsidian Sync users.
+description: >-
+  Cette page détaille comment vous pouvez collaborer avec d'autres utilisateurs
+  d'Obsidian Sync.
 publish: true
 mobile: true
 localized: '2026-03-18'
@@ -43,7 +45,7 @@ Les permissions granulaires ne sont pas encore prises en charge. Tous les collab
 
 Les coffres partagés permettent aux équipes de travailler ensemble sur un ensemble de fichiers, cependant Obsidian ne prend pas encore en charge l'édition collaborative en temps réel sur le même fichier. Vous ne verrez pas le curseur de l'autre utilisateur, et ses modifications n'apparaîtront qu'une fois les changements synchronisés.
 
-Si plusieurs utilisateurs modifient le même fichier en même temps, [[Résoudre les problèmes d'Obsidian Sync#Résolution des conflits|les modifications seront fusionnées]] pendant le processus de synchronisation. Les modifications peuvent être consultées et restaurées à l'aide de l'[[Version history|Historique des versions]].
+Si plusieurs utilisateurs modifient le même fichier en même temps, [[Résoudre les problèmes d'Obsidian Sync#Résolution des conflits|les modifications seront fusionnées]] pendant le processus de synchronisation. Les modifications peuvent être consultées et restaurées à l'aide de l'[[Historique des versions|Historique des versions]].
 
 ![[version-history-collaboration.png]]^version-history-image
 

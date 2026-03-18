@@ -3,8 +3,9 @@ permalink: sync/setup
 cssclasses:
   - soft-embed
 description: >-
-  You've purchased Obsidian Sync and are ready to get started. This guide will
-  help you set up and adjust your Obsidian Sync settings for daily use.
+  Vous avez acheté Obsidian Sync et êtes prêt à commencer. Ce guide vous aidera
+  à configurer et ajuster vos paramètres Obsidian Sync pour une utilisation
+  quotidienne.
 publish: true
 mobile: true
 localized: '2026-03-18'
@@ -183,6 +184,6 @@ Après avoir sélectionné un emplacement, votre centre de données **ne peut pa
 Voici quelques documents suggérés à lire ensuite.
 
 - Découvrez-en plus sur la [[Paramètres de Sync et synchronisation sélective|sélection des fichiers et paramètres à synchroniser]].
-- Apprenez ce qui se passe si votre coffre distant [[Version history|se remplit]].
+- Apprenez ce qui se passe si votre coffre distant [[Historique des versions|se remplit]].
 - [[Collaborer sur un coffre partagé]] avec un autre utilisateur d'Obsidian Sync.
 - Consultez la [[Questions fréquentes|FAQ de Sync]] pour obtenir des réponses aux questions courantes.

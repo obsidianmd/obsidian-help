@@ -4,8 +4,8 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 description: >-
-  Obsidian Sync is an add-on service that allows you to privately sync your
-  notes across devices.
+  Obsidian Sync est un service complémentaire qui vous permet de synchroniser
+  vos notes de manière privée entre vos appareils.
 publish: true
 mobile: true
 localized: '2026-03-18'
@@ -26,7 +26,7 @@ aliases:
 	- Découvrez les forfaits d'abonnement Sync.
 - [[Forfaits et limites de stockage|Stockage du coffre distant]]
 	- Gérez le stockage de votre coffre distant.
-- [[Version history]]
+- [[Historique des versions]]
 	- Consultez ou restaurez des versions précédentes d'une note.
 - [[Icône de statut et messages]]
 	- Aperçu du journal de Sync et des icônes de statut.

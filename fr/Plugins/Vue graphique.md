@@ -1,8 +1,8 @@
 ---
 permalink: plugins/graph
 description: >-
-  Graph view is a core plugin that lets you visualize the relationships between
-  the notes in your vault.
+  Vue graphique est un plugin principal qui vous permet de visualiser les
+  relations entre les notes de votre coffre.
 publish: true
 mobile: true
 localized: '2026-03-18'

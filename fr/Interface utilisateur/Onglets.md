@@ -1,8 +1,8 @@
 ---
 permalink: tabs
 description: >-
-  Learn how to open, organize, and manage tabs in Obsidian, including pinning,
-  stacking, and linked views.
+  Découvrez comment ouvrir, organiser et gérer les onglets dans Obsidian, y
+  compris l'épinglage, l'empilement et les vues liées.
 publish: true
 mobile: true
 aliases:

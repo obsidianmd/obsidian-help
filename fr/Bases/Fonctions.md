@@ -1,8 +1,8 @@
 ---
 permalink: bases/functions
 description: >-
-  This page details the functions used in Obsidian Bases to manipulate data from
-  properties in filters and formulas.
+  Cette page détaille les fonctions utilisées dans Obsidian Bases pour manipuler
+  les données des propriétés dans les filtres et les formules.
 publish: true
 mobile: true
 localized: '2026-03-18'

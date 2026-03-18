@@ -1,8 +1,8 @@
 ---
 permalink: snippets
 description: >-
-  Learn how to change parts of the Obsidian app’s appearance without creating a
-  full theme.
+  Apprenez à modifier certains aspects de l'apparence de l'application Obsidian
+  sans créer un thème complet.
 publish: true
 mobile: true
 aliases:

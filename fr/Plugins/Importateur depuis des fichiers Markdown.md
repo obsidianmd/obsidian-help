@@ -1,8 +1,8 @@
 ---
 permalink: plugins/format-converter
 description: >-
-  Format converter is a core plugin that lets you convert Markdown from other
-  applications to Obsidian format.
+  Le convertisseur de format est un plugin principal qui vous permet de
+  convertir le Markdown provenant d'autres applications au format Obsidian.
 publish: true
 mobile: true
 aliases:

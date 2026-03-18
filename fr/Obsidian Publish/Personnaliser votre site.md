@@ -1,6 +1,8 @@
 ---
 permalink: publish/customize
-description: Learn how to customize the appearance and style of your Obsidian Publish site.
+description: >-
+  Découvrez comment personnaliser l'apparence et le style de votre site Obsidian
+  Publish.
 publish: true
 localized: '2026-03-18'
 aliases:

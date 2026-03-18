@@ -1,8 +1,8 @@
 ---
 permalink: callouts
 description: >-
-  This page details how to use callouts to include additional content without
-  breaking the flow of your notes.
+  Cette page explique comment utiliser les encadrés pour inclure du contenu
+  supplémentaire sans interrompre le fil de vos notes.
 publish: true
 mobile: true
 localized: '2026-03-18'

@@ -3,8 +3,8 @@ permalink: sync/troubleshoot
 cssclasses:
   - soft-embed
 description: >-
-  This page lists uncommon issues you may encounter with Obsidian Sync and how
-  to resolve them.
+  Cette page répertorie les problèmes peu courants que vous pouvez rencontrer
+  avec Obsidian Sync et comment les résoudre.
 publish: true
 mobile: true
 localized: '2026-03-18'

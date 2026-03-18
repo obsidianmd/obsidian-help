@@ -1,8 +1,8 @@
 ---
 permalink: sync/faq
 description: >-
-  This page lists some of the common questions related to questions and
-  limitations for Obsidian Sync.
+  Cette page répertorie certaines des questions courantes liées aux
+  interrogations et limitations d'Obsidian Sync.
 publish: true
 mobile: true
 localized: '2026-03-18'
@@ -29,7 +29,7 @@ Vous pouvez ajouter des options de synchronisation supplémentaires pour les PDF
 
 ### De combien d'espace de stockage est-ce que je dispose ?
 
-La limite de stockage dépend de votre [[Forfaits et limites de stockage#Forfaits|forfait Sync]] Obsidian. La quantité maximale de stockage est de 100 Go. Cette limite de stockage inclut l'[[Version history|historique des versions]].
+La limite de stockage dépend de votre [[Forfaits et limites de stockage#Forfaits|forfait Sync]] Obsidian. La quantité maximale de stockage est de 100 Go. Cette limite de stockage inclut l'[[Historique des versions|historique des versions]].
 
 Vous pouvez consulter l'**Utilisation du stockage** dans l'application Obsidian en allant dans **[[Paramètres]] → Sync**.
 
@@ -71,7 +71,7 @@ Voici les questions fréquemment posées sur la conservation des données par Ob
 
 ### Combien de temps conservez-vous l'historique des versions ?
 
-L'[[Version history|historique des versions]] dépend de votre [[Forfaits et limites de stockage|forfait Obsidian Sync]]. Avec le forfait Standard, vos notes sont conservées pendant 1 mois. Avec le forfait Plus, vos notes sont conservées pendant 12 mois. Après cette période, les versions plus anciennes sont supprimées.
+L'[[Historique des versions|historique des versions]] dépend de votre [[Forfaits et limites de stockage|forfait Obsidian Sync]]. Avec le forfait Standard, vos notes sont conservées pendant 1 mois. Avec le forfait Plus, vos notes sont conservées pendant 12 mois. Après cette période, les versions plus anciennes sont supprimées.
 
 Les versions plus anciennes des [[Pièces jointes|pièces jointes]] sont conservées pendant deux semaines.
 

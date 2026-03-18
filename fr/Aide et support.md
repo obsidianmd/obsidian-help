@@ -1,8 +1,8 @@
 ---
 permalink: resources
 description: >-
-  Find support resources, report security or community violations, and learn how
-  to contribute to Obsidian.
+  Trouvez des ressources d'assistance, signalez des violations de sécurité ou de
+  la communauté, et découvrez comment contribuer à Obsidian.
 publish: true
 mobile: true
 localized: '2026-03-18'

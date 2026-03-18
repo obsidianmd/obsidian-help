@@ -1,6 +1,6 @@
 ---
 permalink: publish/publish
-description: Learn how to publish your content using Obsidian Publish
+description: Découvrez comment publier votre contenu à l'aide d'Obsidian Publish.
 publish: true
 mobile: true
 localized: '2026-03-18'

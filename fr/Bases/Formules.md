@@ -1,9 +1,9 @@
 ---
 permalink: formulas
 description: >-
-  Formulas allow you to create calculated properties using data from other
-  properties. You can perform calculations, manipulate text, work with dates,
-  and more.
+  Les formules vous permettent de créer des propriétés calculées à partir des
+  données d'autres propriétés. Vous pouvez effectuer des calculs, manipuler du
+  texte, travailler avec des dates, et bien plus encore.
 localized: '2026-03-18'
 aliases:
   - Formulas

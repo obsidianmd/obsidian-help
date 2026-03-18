@@ -1,6 +1,8 @@
 ---
 permalink: syntax
-description: 'Learn how to apply basic formatting to your notes in Obsidian, using Markdown.'
+description: >-
+  Apprenez à appliquer une mise en forme de base à vos notes dans Obsidian en
+  utilisant le Markdown.
 publish: true
 mobile: true
 aliases:

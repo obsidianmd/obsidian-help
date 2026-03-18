@@ -1,6 +1,8 @@
 ---
 permalink: community-plugins
-description: Learn how to extend Obsidian with plugins built by the community.
+description: >-
+  Apprenez à étendre les fonctionnalités d'Obsidian avec des plugins créés par
+  la communauté.
 mobile: false
 localized: '2026-03-18'
 aliases:

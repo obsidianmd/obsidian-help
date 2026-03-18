@@ -2,7 +2,7 @@
 permalink: sync-notes
 cssclasses:
   - soft-embed
-description: How to sync your Obsidian notes across devices and platforms.
+description: Comment synchroniser vos notes Obsidian entre vos appareils et plateformes.
 publish: true
 mobile: true
 localized: '2026-03-18'

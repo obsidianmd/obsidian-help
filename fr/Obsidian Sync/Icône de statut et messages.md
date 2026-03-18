@@ -1,15 +1,15 @@
 ---
 permalink: sync/messages
 description: >-
-  This page explains the Obsidian Sync status icons and provides details about
-  the sync activity log.
+  Cette page explique les icônes d'état d'Obsidian Sync et fournit des détails
+  sur le journal d'activité de synchronisation.
 publish: true
 mobile: true
 localized: '2026-03-18'
 aliases:
   - Status icon and messages
 ---
-Obsidian Sync fournit plusieurs éléments pour indiquer l'état de la synchronisation, principalement l'[[#Icône de statut de Sync]] et le [[#Journal d'activité de Sync]]. Les détails concernant le contrôle de version dans Obsidian Sync sont couverts dans la page [[Version history]].
+Obsidian Sync fournit plusieurs éléments pour indiquer l'état de la synchronisation, principalement l'[[#Icône de statut de Sync]] et le [[#Journal d'activité de Sync]]. Les détails concernant le contrôle de version dans Obsidian Sync sont couverts dans la page [[Historique des versions]].
 
 ## Icône de statut de Sync
 
@@ -22,9 +22,9 @@ L'icône de statut de Sync se trouve dans la [[Barre d'état]] sur la version de
 
 Cliquer ou appuyer sur l'icône ouvre un menu contextuel avec les options suivantes :
 - ![[obsidian-icon-sync-paused.svg#icon]] Pause (ou ![[lucide-circle-play.svg#icon]] Reprendre si en pause)
-- ![[lucide-history.svg#icon]] [[Version history]] (Grisé si vous ne consultez pas une note)
+- ![[lucide-history.svg#icon]] [[Historique des versions]] (Grisé si vous ne consultez pas une note)
 - ![[lucide-align-left.svg#icon]] Ouvrir le [[#Journal d'activité de Sync|journal de Sync]]
-- ![[lucide-trash-2.svg#icon]] [[Version history#Restaurer un fichier supprimé|Fichiers supprimés]]
+- ![[lucide-trash-2.svg#icon]] [[Historique des versions#Restaurer un fichier supprimé|Fichiers supprimés]]
 - ![[lucide-cog.svg#icon]] [[Paramètres de Sync et synchronisation sélective|Paramètres de Sync]]
 
 ## Journal d'activité de Sync
@@ -67,7 +67,7 @@ Obsidian a établi une connexion et compare le coffre local avec le coffre dista
 - Le coffre local et le coffre distant sont entièrement synchronisés.
 
 **Merging conflicted file**
-Un conflit a été détecté pendant la synchronisation, et le fichier a été fusionné plutôt qu'écrasé. Consultez [[Résoudre les problèmes d'Obsidian Sync#Résolution des conflits|résolution des conflits]] pour plus d'informations. Si la fusion n'est pas souhaitée, vous pouvez restaurer les versions précédentes via [[Version history]] ou [[Récupération de fichier]].
+Un conflit a été détecté pendant la synchronisation, et le fichier a été fusionné plutôt qu'écrasé. Consultez [[Résoudre les problèmes d'Obsidian Sync#Résolution des conflits|résolution des conflits]] pour plus d'informations. Si la fusion n'est pas souhaitée, vous pouvez restaurer les versions précédentes via [[Historique des versions]] ou [[Récupération de fichier]].
 
 **Rejected server change**
 Les modifications sur le coffre distant sont plus anciennes que la version sur votre appareil local, donc la version locale est conservée et la modification distante est ignorée.

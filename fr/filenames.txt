@@ -530,6 +530,10 @@ translation=Questions fréquentes
 original=Headless Sync
 translation=Sync sans interface
 
+[file.sync/version-history]
+original=Version history
+translation=Historique des versions
+
 [file.sync/messages]
 original=Status icon and messages
 translation=Icône de statut et messages

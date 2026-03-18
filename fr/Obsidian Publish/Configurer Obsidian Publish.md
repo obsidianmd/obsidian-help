@@ -1,8 +1,8 @@
 ---
 permalink: publish/setup
 description: >-
-  In this guide, you'll enable Obsidian Publish for your vault, create a site,
-  and publish your notes to it.
+  Dans ce guide, vous activerez Obsidian Publish pour votre coffre, créerez un
+  site et y publierez vos notes.
 mobile: true
 localized: '2026-03-18'
 aliases:

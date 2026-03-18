@@ -1,8 +1,8 @@
 ---
 permalink: sync/settings
 description: >-
-  This page explains the Sync settings and guides you in selecting which files
-  to sync.
+  Cette page explique les paramètres de Sync et vous guide dans le choix des
+  fichiers à synchroniser.
 publish: true
 mobile: true
 localized: '2026-03-18'
@@ -29,7 +29,7 @@ Attribuez un nom unique à l'appareil en cours de synchronisation. Cela aide à 
 Choisissez comment résoudre les conflits lorsque vous modifiez un fichier sur plusieurs appareils. Ce paramètre est spécifique à l'appareil, tout comme la [[#Synchronisation sélective]].
 
 **Fichiers supprimés**
-Contient un bouton pour **Voir** ou **Restaurer** les fichiers supprimés. Pour plus de détails, consultez [[Version history]].
+Contient un bouton pour **Voir** ou **Restaurer** les fichiers supprimés. Pour plus de détails, consultez [[Historique des versions]].
 
 **Utilisation du stockage**
 Affiche une barre de progression montrant quelle part de votre stockage de synchronisation est utilisée.

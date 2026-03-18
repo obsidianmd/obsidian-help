@@ -1,8 +1,8 @@
 ---
 permalink: plugins/properties
 description: >-
-  Properties view is a core plugin that adds two sidebar views that you can use
-  to manage Properties.
+  Vue des propriétés est un plugin principal qui ajoute deux vues dans la barre
+  latérale que vous pouvez utiliser pour gérer les Propriétés.
 publish: true
 mobile: true
 localized: '2026-03-18'

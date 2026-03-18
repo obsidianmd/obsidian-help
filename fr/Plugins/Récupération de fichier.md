@@ -1,8 +1,9 @@
 ---
 permalink: plugins/file-recovery
 description: >-
-  File Recovery helps protect your work from unintentional data loss by
-  automatically saving snapshots of your notes at regular intervals.
+  Récupération de fichiers aide à protéger votre travail contre la perte de
+  données involontaire en enregistrant automatiquement des instantanés de vos
+  notes à intervalles réguliers.
 publish: true
 mobile: true
 localized: '2026-03-18'

@@ -1,8 +1,8 @@
 ---
 permalink: plugins/file-explorer
 description: >-
-  File explorer is a core plugin that lets you manage files and folders inside
-  your vault.
+  L'explorateur de fichiers est un plugin principal qui vous permet de gérer les
+  fichiers et les dossiers à l'intérieur de votre coffre.
 publish: true
 mobile: true
 aliases:

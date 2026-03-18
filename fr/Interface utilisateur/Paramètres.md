@@ -1,6 +1,6 @@
 ---
 permalink: settings
-description: Learn how to customize Obsidian through the Settings interface.
+description: Découvrez comment personnaliser Obsidian via l'interface des Paramètres.
 publish: true
 mobile: true
 aliases:

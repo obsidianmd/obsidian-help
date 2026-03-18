@@ -12,7 +12,7 @@ Par défaut, Obsidian stocke vos notes **localement** sur votre appareil, et non
 
 ## La synchronisation n'est pas une sauvegarde
 
-Des services comme [[Introduction à Obsidian Sync|Obsidian Sync]], iCloud, OneDrive et Dropbox vous aident à synchroniser vos notes entre différents appareils. Bien qu'ils puissent offrir des fonctionnalités comme la [[Version history|restauration de notes]], **ils ne sont pas conçus pour les sauvegardes**. La synchronisation maintient vos notes à jour, mais elle ne protège pas contre la perte de données.
+Des services comme [[Introduction à Obsidian Sync|Obsidian Sync]], iCloud, OneDrive et Dropbox vous aident à synchroniser vos notes entre différents appareils. Bien qu'ils puissent offrir des fonctionnalités comme la [[Historique des versions|restauration de notes]], **ils ne sont pas conçus pour les sauvegardes**. La synchronisation maintient vos notes à jour, mais elle ne protège pas contre la perte de données.
 
 - **Synchronisation :** La synchronisation garantit que vos fichiers sont identiques sur tous les appareils. Lorsque vous modifiez un fichier sur un appareil, il est mis à jour sur tous les appareils synchronisés. Les services de synchronisation n'ont pas d'appareil « principal ».
 - **Sauvegarde :** Une sauvegarde enregistre une copie de vos données dans un emplacement différent pour aider à les récupérer en cas de perte ou de corruption de données. Les sauvegardes ne sont pas destinées aux mises à jour en temps réel ou à la collaboration.

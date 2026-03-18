@@ -1,6 +1,6 @@
 ---
 permalink: bases/syntax
-description: This page provides an introduction to Bases syntax in Obsidian.
+description: Cette page fournit une introduction à la syntaxe de Bases dans Obsidian.
 publish: true
 mobile: true
 localized: '2026-03-18'

@@ -1,8 +1,8 @@
 ---
 permalink: folding
 description: >-
-  Learn how to get a better overview of large notes by using folding to hide
-  parts of the note
+  Apprenez à obtenir une meilleure vue d'ensemble des notes volumineuses en
+  utilisant le pliage pour masquer des parties de la note.
 publish: true
 mobile: false
 aliases:

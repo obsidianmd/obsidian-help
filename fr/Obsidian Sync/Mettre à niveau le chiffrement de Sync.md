@@ -2,7 +2,9 @@
 permalink: sync/migrate
 cssclasses:
   - soft-embed
-description: 'Move your Sync vault to a different region, perform and encryption upgrade.'
+description: >-
+  Déplacez votre coffre Sync vers une région différente, effectuez une mise à
+  niveau du chiffrement.
 publish: true
 mobile: true
 localized: '2026-03-18'
@@ -33,7 +35,7 @@ Avant de continuer, créez une [[Sauvegarder vos fichiers Obsidian|sauvegarde]] 
 > Lorsque vous migrez un coffre distant, vos données seront remplacées. Cela signifie :
 > 
 > 1. Les données distantes seront supprimées des serveurs Obsidian, et les données du coffre seront re-téléversées à leur place.
-> 2. Tout l'[[Version history|historique des versions]] du coffre sera perdu.
+> 2. Tout l'[[Historique des versions|historique des versions]] du coffre sera perdu.
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Dans la barre latérale, sélectionnez **Sync**.

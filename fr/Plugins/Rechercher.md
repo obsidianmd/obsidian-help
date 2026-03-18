@@ -1,8 +1,9 @@
 ---
 permalink: plugins/search
 description: >-
-  Search is a core plugin that helps you find data in your Obsidian vault by
-  using search terms and operators to narrow down results.
+  Recherche est un plugin principal qui vous aide à trouver des données dans
+  votre coffre Obsidian en utilisant des termes de recherche et des opérateurs
+  pour affiner les résultats.
 publish: true
 mobile: true
 aliases:

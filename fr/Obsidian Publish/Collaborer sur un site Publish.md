@@ -1,8 +1,8 @@
 ---
 permalink: publish/collaborate
 description: >-
-  Learn how to collaborate with other Obsidian users on your Obsidian Publish
-  site.
+  Découvrez comment collaborer avec d'autres utilisateurs d'Obsidian sur votre
+  site Obsidian Publish.
 publish: true
 mobile: true
 localized: '2026-03-18'

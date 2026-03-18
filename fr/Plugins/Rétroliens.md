@@ -1,6 +1,8 @@
 ---
 permalink: plugins/backlinks
-description: 'With the Backlinks plugin, you can see all the backlinks for the active note.'
+description: >-
+  Avec le plugin Liens retour, vous pouvez voir tous les liens retour de la note
+  active.
 publish: true
 mobile: false
 aliases:

@@ -1,6 +1,6 @@
 ---
 permalink: plugins/word-count
-description: Learn about the Word Count core plugin.
+description: Découvrez le plugin principal Compteur de mots.
 aliases:
   - Plugins/Word count
   - Word count

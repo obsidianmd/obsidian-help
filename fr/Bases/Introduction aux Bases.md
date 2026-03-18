@@ -4,8 +4,9 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 description: >-
-  Create database-like views of your notes, formatted as tables or cards. Edit,
-  sort, and filter files using their properties.
+  Créez des vues de type base de données de vos notes, formatées sous forme de
+  tableaux ou de cartes. Modifiez, triez et filtrez les fichiers à l'aide de
+  leurs propriétés.
 localized: '2026-03-18'
 aliases:
   - Introduction to Bases

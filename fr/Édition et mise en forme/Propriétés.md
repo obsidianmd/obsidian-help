@@ -3,8 +3,9 @@ permalink: properties
 cssclasses:
   - soft-embed
 description: >-
-  Properties allow you to organize information about a note. Properties contain
-  structured data such as text, links, dates, checkboxes, and numbers.
+  Les propriétés vous permettent d'organiser les informations relatives à une
+  note. Les propriétés contiennent des données structurées telles que du texte,
+  des liens, des dates, des cases à cocher et des nombres.
 publish: true
 mobile: false
 localized: '2026-03-18'
@@ -275,7 +276,7 @@ Obsidian est fourni avec un ensemble de propriétés par défaut :
 
 | Propriété    | Type  | Description                                                           |
 | ------------ | ----- | --------------------------------------------------------------------- |
-| `tags`       | Liste | Voir [[Editing and formatting/Tags\|Mots-clés]].                     |
+| `tags`       | Liste | Voir [[Mots-clés]].                                                  |
 | `aliases`    | Liste | Voir [[Alias]].                                                      |
 | `cssclasses` | Liste | Permet de styliser des notes individuelles à l'aide d'[[Extraits CSS]]. |
 

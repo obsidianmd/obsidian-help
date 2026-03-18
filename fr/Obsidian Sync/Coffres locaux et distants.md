@@ -3,8 +3,8 @@ permalink: sync/vault-types
 cssclasses:
   - soft-embed
 description: >-
-  This page describes the differences between local and remote vaults in
-  practice.
+  Cette page décrit les différences pratiques entre les coffres locaux et les
+  coffres distants.
 publish: true
 mobile: true
 localized: '2026-03-18'
