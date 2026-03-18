@@ -1,8 +1,8 @@
 ---
 permalink: syntax
 description: >-
-  Apprenez à appliquer une mise en forme de base à vos notes dans Obsidian en
-  utilisant le Markdown.
+  Apprenez à appliquer la mise en forme de base à vos notes dans Obsidian, en
+  utilisant Markdown.
 publish: true
 mobile: true
 aliases:
@@ -10,7 +10,7 @@ aliases:
   - Basic formatting syntax
 localized: '2026-03-18'
 ---
-Apprenez à appliquer une mise en forme de base à vos notes, en utilisant [Markdown](https://daringfireball.net/projects/markdown/). Pour une syntaxe de mise en forme plus avancée, consultez [[Syntaxe de mise en forme avancée]].
+Apprenez à appliquer la mise en forme de base à vos notes, en utilisant [Markdown](https://daringfireball.net/projects/markdown/). Pour une syntaxe de mise en forme plus avancée, consultez [[Syntaxe de mise en forme avancée]].
 
 ## Paragraphes
 
@@ -29,7 +29,7 @@ Ceci est un autre paragraphe.
 Une ligne vide entre les lignes de texte crée des paragraphes séparés. C'est le comportement par défaut en Markdown.
 
 > [!tip]- Espaces multiples
-> Les espaces vides adjacents multiples au sein et entre les paragraphes sont réduits à un seul espace lorsqu'ils sont affichés en [[Vues et mode d'édition#Mode lecture|mode lecture]] ou sur les sites [[Introduction à Obsidian Publish|Obsidian Publish]].
+> Les espaces adjacents multiples au sein des paragraphes et entre eux sont réduits à un seul espace lorsqu'ils sont affichés en [[Vues et mode d'édition#Mode lecture|mode lecture]] ou sur les sites [[Introduction à Obsidian Publish|Obsidian Publish]].
 > 
 > ```md
 > Plusieurs          espaces          adjacents
@@ -49,15 +49,15 @@ Une ligne vide entre les lignes de texte crée des paragraphes séparés. C'est 
 
 ### Sauts de ligne
 
-Par défaut dans Obsidian, appuyer une fois sur `Entrée` crée une nouvelle ligne dans votre note, mais ceci est traité comme une *continuation* du même paragraphe dans le rendu, suivant le comportement typique de Markdown. Pour insérer un saut de ligne *à l'intérieur* d'un paragraphe sans commencer un nouveau paragraphe, vous pouvez soit :
+Par défaut dans Obsidian, appuyer une fois sur `Entrée` crée une nouvelle ligne dans votre note, mais celle-ci est traitée comme une *continuation* du même paragraphe dans le rendu, conformément au comportement typique de Markdown. Pour insérer un saut de ligne *à l'intérieur* d'un paragraphe sans commencer un nouveau paragraphe, vous pouvez soit :
 
 - Ajouter **deux espaces** à la fin d'une ligne avant d'appuyer sur `Entrée`, ou
 - Utiliser le raccourci `Maj+Entrée` pour insérer directement un saut de ligne.
 
 > [!question]- Pourquoi plusieurs appuis sur `Entrée` ne créent-ils pas plus de sauts de ligne en mode lecture ?
-> En Markdown, un seul `Entrée` est ignoré, et plusieurs appuis consécutifs sur `Entrée` ne produisent qu'un seul nouveau paragraphe. Ce comportement est conforme à la règle de retour à la ligne souple de Markdown, où les lignes vides supplémentaires ne génèrent pas de sauts de ligne ou de paragraphes additionnels — elles sont réduites en une seule séparation de paragraphe. C'est ainsi que Markdown gère le texte par défaut, garantissant que les paragraphes s'enchaînent naturellement sans coupures inattendues.
+> En Markdown, un seul `Entrée` est ignoré, et plusieurs appuis consécutifs sur `Entrée` ne produisent qu'un seul nouveau paragraphe. Ce comportement est conforme à la règle de retour à la ligne souple de Markdown, où les lignes vides supplémentaires ne génèrent pas de sauts de ligne ou de paragraphes additionnels — ils sont réduits en une seule coupure de paragraphe. C'est ainsi que Markdown gère le texte par défaut, garantissant que les paragraphes s'enchaînent naturellement sans coupures inattendues.
 
-Obsidian inclut un paramètre **[[Paramètres#Sauts de ligne stricts|Sauts de ligne stricts]]**, qui fait qu'Obsidian suit la spécification Markdown standard pour les sauts de ligne.
+Obsidian inclut un paramètre **[[Paramètres#Sauts de ligne stricts|Sauts de ligne stricts]]**, qui fait en sorte qu'Obsidian suive la spécification standard de Markdown pour les sauts de ligne.
 
 Pour activer cette fonctionnalité :
 
@@ -65,9 +65,9 @@ Pour activer cette fonctionnalité :
 2. Allez dans l'onglet **Éditeur**.
 3. Activez **Sauts de ligne stricts**.
 
-Lorsque les **Sauts de ligne stricts** sont activés dans Obsidian, les sauts de ligne ont trois comportements distincts selon la façon dont les lignes sont séparées :
+Lorsque **Sauts de ligne stricts** est activé dans Obsidian, les sauts de ligne ont trois comportements distincts selon la façon dont les lignes sont séparées :
 
-**Retour simple sans espaces** : un seul `Entrée` sans espaces de fin combinera les deux lignes séparées en une seule ligne lors du rendu.
+**Retour simple sans espaces** : un seul `Entrée` sans espaces en fin de ligne combine les deux lignes séparées en une seule ligne lors du rendu.
 
 ```md
 ligne un
@@ -78,7 +78,7 @@ S'affiche comme :
 
 ligne un ligne deux
 
-**Retour simple avec deux espaces de fin ou plus** : si vous ajoutez deux espaces ou plus à la fin de la première ligne avant d'appuyer sur `Entrée`, les deux lignes restent dans le même paragraphe, mais sont séparées par un saut de ligne (élément HTML `<br>`). Nous utiliserons deux tirets bas pour représenter les espaces dans cet exemple.
+**Retour simple avec deux espaces ou plus en fin de ligne** : si vous ajoutez deux espaces ou plus à la fin de la première ligne avant d'appuyer sur `Entrée`, les deux lignes restent dans le même paragraphe, mais sont séparées par un saut de ligne (élément HTML `<br>`). Nous utiliserons deux tirets bas pour représenter les espaces dans cet exemple.
 
 ```md
 ligne trois__  
@@ -90,7 +90,7 @@ S'affiche comme :
 ligne trois<br>
 ligne quatre
 
-**Double retour (avec ou sans espaces de fin)** : appuyer deux fois (ou plus) sur `Entrée` sépare les lignes en deux paragraphes distincts (éléments HTML `<p>`), que vous ajoutiez ou non des espaces à la fin de la première ligne.
+**Double retour (avec ou sans espaces en fin de ligne)** : appuyer deux fois (ou plus) sur `Entrée` sépare les lignes en deux paragraphes distincts (éléments HTML `<p>`), que vous ajoutiez ou non des espaces à la fin de la première ligne.
 
 ```md
 ligne cinq
@@ -105,24 +105,24 @@ S'affiche comme :
 
 ## Entêtes
 
-Pour créer une entête, ajoutez jusqu'à six symboles `#` avant le texte de votre entête. Le nombre de symboles `#` détermine le niveau de l'entête (comme indiqué dans le [[Plan]]).
+Pour créer un entête, ajoutez jusqu'à six symboles `#` avant le texte de votre entête. Le nombre de symboles `#` définit le niveau de l'entête (comme indiqué dans le [[Plan]]).
 
 ```md
-# Ceci est une entête 1
-## Ceci est une entête 2
-### Ceci est une entête 3
-#### Ceci est une entête 4
-##### Ceci est une entête 5
-###### Ceci est une entête 6
+# Ceci est un entête 1
+## Ceci est un entête 2
+### Ceci est un entête 3
+#### Ceci est un entête 4
+##### Ceci est un entête 5
+###### Ceci est un entête 6
 ```
 
-%% These headings use HTML to avoid cluttering the Outline/Table of contents %%
-<h1>Ceci est une entête 1</h1>
-<h2>Ceci est une entête 2</h2>
-<h3>Ceci est une entête 3</h3>
-<h4>Ceci est une entête 4</h4>
-<h5>Ceci est une entête 5</h5>
-<h6>Ceci est une entête 6</h6>
+%% Ces entêtes utilisent du HTML pour ne pas encombrer le Plan/Table des matières %%
+<h1>Ceci est un entête 1</h1>
+<h2>Ceci est un entête 2</h2>
+<h3>Ceci est un entête 3</h3>
+<h4>Ceci est un entête 4</h4>
+<h5>Ceci est un entête 5</h5>
+<h6>Ceci est un entête 6</h6>
 
 ## Gras, italique, surlignage
 
@@ -190,7 +190,7 @@ Vous pouvez également échapper l'URL en l'entourant de chevrons (`< >`).
 
 ## Images externes
 
-Vous pouvez ajouter des images avec des URL externes, en ajoutant un symbole `!` avant un [[#Liens externes|lien externe]].
+Vous pouvez ajouter des images avec des URL externes en ajoutant un symbole `!` devant un [[#Liens externes|lien externe]].
 
 ```md
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
@@ -210,7 +210,7 @@ Si vous ne spécifiez que la largeur, l'image est redimensionnée selon son rapp
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-> [!tip]-
+> [!tip]- Astuce
 > Si vous souhaitez ajouter une image depuis votre coffre, vous pouvez également [[Incorporer des fichiers#Incorporer une image dans une note|incorporer une image dans une note]].
 
 ## Citations
@@ -218,16 +218,16 @@ Si vous ne spécifiez que la largeur, l'image est redimensionnée selon son rapp
 Vous pouvez citer du texte en ajoutant un symbole `>` avant le texte.
 
 ```md
-> Les êtres humains font face à des problèmes toujours plus complexes et urgents, et leur efficacité à résoudre ces problèmes est une question critique pour la stabilité et le progrès continu de la société.
+> Les êtres humains font face à des problèmes de plus en plus complexes et urgents, et leur efficacité à traiter ces problèmes est une question critique pour la stabilité et le progrès continu de la société.
 
 \- Doug Engelbart, 1961
 ```
 
-> Les êtres humains font face à des problèmes toujours plus complexes et urgents, et leur efficacité à résoudre ces problèmes est une question critique pour la stabilité et le progrès continu de la société.
+> Les êtres humains font face à des problèmes de plus en plus complexes et urgents, et leur efficacité à traiter ces problèmes est une question critique pour la stabilité et le progrès continu de la société.
 
 \- Doug Engelbart, 1961
 
-> [!tip]-
+> [!tip]- Astuce
 > Vous pouvez transformer votre citation en [[Callouts|encadré]] en ajoutant `[!info]` comme première ligne d'une citation.
 
 ## Listes
@@ -281,20 +281,20 @@ Vous pouvez utiliser `Maj+Entrée` pour insérer un [[#Sauts de ligne|saut de li
 
 ### Listes de tâches
 
-Pour créer une liste de tâches, commencez chaque élément de liste par un tiret et un espace suivis de `[ ]`.
+Pour créer une liste de tâches, commencez chaque élément par un tiret et un espace suivis de `[ ]`.
 
 ```md
 - [x] Ceci est une tâche terminée.
-- [ ] Ceci est une tâche incomplète.
+- [ ] Ceci est une tâche non terminée.
 ```
 
 - [x] Ceci est une tâche terminée.
-- [ ] Ceci est une tâche incomplète.
+- [ ] Ceci est une tâche non terminée.
 
 Vous pouvez cocher une tâche en mode lecture en sélectionnant la case à cocher.
 
-> [!tip]-
-> Vous pouvez utiliser n'importe quel caractère à l'intérieur des crochets pour la marquer comme terminée.
+> [!tip]- Astuce
+> Vous pouvez utiliser n'importe quel caractère entre les crochets pour marquer la tâche comme terminée.
 >
 > ```md
 > - [x] Lait
@@ -308,9 +308,9 @@ Vous pouvez cocher une tâche en mode lecture en sélectionnant la case à coche
 
 ### Listes imbriquées
 
-Vous pouvez imbriquer tout type de liste — ordonnée, non ordonnée ou liste de tâches — sous tout autre type de liste.
+Vous pouvez imbriquer n'importe quel type de liste — ordonnée, non ordonnée ou liste de tâches — sous n'importe quel autre type de liste.
 
-Pour créer une liste imbriquée, indentez un ou plusieurs éléments de liste. Vous pouvez mélanger les types de listes dans une structure imbriquée :
+Pour créer une liste imbriquée, indentez un ou plusieurs éléments de liste. Vous pouvez mélanger les types de listes au sein d'une structure imbriquée :
 
 ```md
 1. Premier élément de liste
@@ -324,7 +324,7 @@ Pour créer une liste imbriquée, indentez un ou plusieurs éléments de liste. 
 2. Deuxième élément de liste
    - Élément imbriqué non ordonné
 
-De même, vous pouvez créer une liste de tâches imbriquée en indentant un ou plusieurs éléments de liste :
+De même, vous pouvez créer une liste de tâches imbriquée en indentant un ou plusieurs éléments :
 
 ```md
 - [ ] Tâche 1
@@ -342,7 +342,7 @@ Utilisez `Tab` ou `Maj+Tab` pour indenter ou désindenter les éléments de list
 
 ## Ligne horizontale
 
-Vous pouvez utiliser trois étoiles ou plus `***`, tirets `---` ou tirets bas `___` sur une ligne seule pour ajouter une barre horizontale. Vous pouvez également séparer les symboles par des espaces.
+Vous pouvez utiliser trois étoiles `***` ou plus, des tirets `---` ou des tirets bas `___` sur une ligne seule pour ajouter une barre horizontale. Vous pouvez également séparer les symboles par des espaces.
 
 ```md
 ***
@@ -360,23 +360,23 @@ _ _ _
 
 ## Code
 
-Vous pouvez mettre en forme du code en ligne au sein d'une phrase, ou dans son propre bloc.
+Vous pouvez mettre en forme du code soit en ligne au sein d'une phrase, soit dans son propre bloc.
 
 ### Code en ligne
 
 Vous pouvez mettre en forme du code au sein d'une phrase en utilisant des accents graves simples.
 
 ```md
-Le texte entre `accents graves` sur une ligne sera mis en forme comme du code.
+Le texte entre `accents graves` sur une ligne sera formaté comme du code.
 ```
 
-Le texte entre `accents graves` sur une ligne sera mis en forme comme du code.
+Le texte entre `accents graves` sur une ligne sera formaté comme du code.
 
 Si vous souhaitez mettre des accents graves dans un bloc de code en ligne, entourez-le de doubles accents graves comme ceci : code en ligne ``avec un accent grave ` à l'intérieur``.
 
 ### Blocs de code
 
-Pour mettre en forme du code sous forme de bloc, encadrez-le avec trois accents graves ou trois tildes.
+Pour mettre en forme du code sous forme de bloc, encadrez-le de trois accents graves ou de trois tildes.
 
 ~~~
 `````
@@ -423,9 +423,9 @@ Obsidian utilise Prism pour la coloration syntaxique. Pour plus d'informations, 
 
 #### Blocs de code imbriqués
 
-Lorsque vous devez inclure un bloc de code à l'intérieur d'un autre bloc de code (par exemple, pour documenter l'utilisation des blocs de code), vous pouvez utiliser plus de trois accents graves ou tildes pour le bloc de code extérieur.
+Lorsque vous devez inclure un bloc de code à l'intérieur d'un autre bloc de code (par exemple, lors de la documentation de l'utilisation des blocs de code), vous pouvez utiliser plus de trois accents graves ou tildes pour le bloc de code externe.
 
-Pour imbriquer des blocs de code, utilisez quatre accents graves (ou tildes) ou plus pour le bloc extérieur, tandis que le bloc intérieur en utilise trois :
+Pour imbriquer des blocs de code, utilisez quatre accents graves (ou tildes) ou plus pour le bloc externe, tandis que le bloc interne en utilise trois :
 `````md
 ````md
 Voici comment créer un bloc de code :
@@ -435,7 +435,7 @@ console.log("Hello world")
 ````
 `````
 
-Vous pouvez également mélanger accents graves et tildes. Cela est particulièrement utile lorsque vous travaillez avec du code qui génère d'autres blocs de code :
+Vous pouvez également mélanger les accents graves et les tildes. C'est particulièrement utile lorsque vous travaillez avec du code qui génère d'autres blocs de code :
 `````md
 ````md
 ```dataviewjs
@@ -449,7 +449,7 @@ graph TD
 ````
 `````
 
-Le principe clé est que le bloc de code extérieur doit utiliser **plus** de caractères de clôture (accents graves ou tildes) que tout bloc de code intérieur, ou utiliser un type de caractère de clôture différent.
+Le principe clé est que le bloc de code externe doit utiliser **plus** de caractères de délimitation (accents graves ou tildes) que tout bloc de code interne, ou utiliser un type de caractère de délimitation différent.
 
 ## Notes de bas de page
 
@@ -463,17 +463,17 @@ Ceci est une simple note de bas de page[^1].
 [^1]: Ceci est le texte référencé.
 [^2]: Ajoutez 2 espaces au début de chaque nouvelle ligne.
   Cela vous permet d'écrire des notes de bas de page sur plusieurs lignes.
-[^note]: Les notes de bas de page nommées apparaissent toujours sous forme de numéros, mais peuvent faciliter l'identification et le lien des références.
+[^note]: Les notes de bas de page nommées apparaissent toujours sous forme de numéros, mais peuvent faciliter l'identification et la liaison des références.
 ```
 
-Vous pouvez également insérer des notes de bas de page en ligne dans une phrase. Notez que l'accent circonflexe se place en dehors des crochets.
+Vous pouvez également intégrer des notes de bas de page en ligne dans une phrase. Notez que l'accent circonflexe se place à l'extérieur des crochets.
 
 ```md
 Vous pouvez également utiliser des notes de bas de page en ligne. ^[Ceci est une note de bas de page en ligne.]
 ```
 
-> [!note]
-> Les notes de bas de page en ligne ne fonctionnent qu'en mode lecture, pas en aperçu en direct.
+> [!note] Note
+> Les notes de bas de page en ligne fonctionnent uniquement en mode lecture, pas en aperçu en direct.
 
 ## Commentaires
 
@@ -483,9 +483,9 @@ Vous pouvez ajouter des commentaires en entourant le texte avec `%%`. Les commen
 Ceci est un commentaire %%en ligne%%.
 
 %%
-Ceci est un commentaire en bloc.
+Ceci est un commentaire bloc.
 
-Les commentaires en bloc peuvent s'étendre sur plusieurs lignes.
+Les commentaires blocs peuvent s'étendre sur plusieurs lignes.
 %%
 ```
 
@@ -508,7 +508,7 @@ Dans certains cas, vous pouvez avoir besoin d'afficher des caractères spéciaux
 
 \*Ce texte ne sera pas en italique\*.
 
-Lorsque vous travaillez avec des listes numérotées, vous pouvez avoir besoin d'échapper le point après le numéro pour empêcher la mise en forme automatique de liste. Placez la barre oblique inverse (`\`) avant le point, **pas** avant le numéro.
+Lorsque vous travaillez avec des listes numérotées, vous pouvez avoir besoin d'échapper le point après le nombre pour empêcher la mise en forme automatique de liste. Placez la barre oblique inverse (`\`) avant le point, **pas** avant le nombre.
 
 ```md
 1\. Ceci ne sera pas un élément de liste.
@@ -518,6 +518,6 @@ Lorsque vous travaillez avec des listes numérotées, vous pouvez avoir besoin d
 
 ## En savoir plus
 
-Pour découvrir une syntaxe de mise en forme plus avancée, comme les tableaux, les diagrammes et les expressions mathématiques, consultez [[Syntaxe de mise en forme avancée]].
+Pour en savoir plus sur la syntaxe de mise en forme avancée, comme les tableaux, les diagrammes et les expressions mathématiques, consultez [[Syntaxe de mise en forme avancée]].
 
 Pour en savoir plus sur la façon dont Obsidian analyse le Markdown, consultez [[Obsidian Flavored Markdown]].

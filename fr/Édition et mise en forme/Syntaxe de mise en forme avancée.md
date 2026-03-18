@@ -4,7 +4,7 @@ localized: '2026-03-18'
 aliases:
   - Advanced formatting syntax
 ---
-Apprenez à ajouter une syntaxe de mise en forme avancée à vos notes.
+Apprenez comment ajouter une syntaxe de mise en forme avancée à vos notes.
 
 ## Tableaux
 
@@ -22,7 +22,7 @@ Vous pouvez créer des tableaux en utilisant des barres verticales (`|`) pour s�
 | Max    | Planck |
 | Marie  | Curie  |
 
-Bien que les barres verticales de chaque côté du tableau soient optionnelles, il est recommandé de les inclure pour une meilleure lisibilité.
+Bien que les barres verticales de chaque côté du tableau soient optionnelles, il est recommandé de les inclure pour améliorer la lisibilité.
 
 > [!tip] En _aperçu en direct_, vous pouvez faire un clic droit sur un tableau pour ajouter ou supprimer des colonnes et des lignes. Vous pouvez également les trier et les déplacer à l'aide du menu contextuel.
 
@@ -48,10 +48,10 @@ Marie | Curie
 
 Vous pouvez utiliser la [[Syntaxe de mise en forme de base]] pour styliser le contenu d'un tableau.
 
-| Première colonne    | Deuxième colonne                                      |
-| ------------------- | ----------------------------------------------------- |
-| [[Liens internes]]  | Lien vers un fichier _dans_ votre **coffre**.         |
-| [[Incorporer des fichiers]] | ![[Engelbart.jpg\|100]]                        |
+| Première colonne     | Deuxième colonne                                    |
+| -------------------- | --------------------------------------------------- |
+| [[Liens internes]]   | Lien vers un fichier _à l'intérieur_ de votre **coffre**. |
+| [[Incorporer des fichiers]] | ![[Engelbart.jpg\|100]]                       |
 
 > [!note] Barres verticales dans les tableaux
 > Si vous souhaitez utiliser des [[Alias|alias]], ou [[Syntaxe de mise en forme de base#Images externes|redimensionner une image]] dans votre tableau, vous devez ajouter un `\` avant la barre verticale.
@@ -80,10 +80,10 @@ Contenu | Contenu | Contenu
 
 ## Diagrammes
 
-Vous pouvez ajouter des diagrammes et des graphiques à vos notes en utilisant [Mermaid](https://mermaid-js.github.io/). Mermaid prend en charge une gamme de diagrammes, tels que les [organigrammes](https://mermaid.js.org/syntax/flowchart.html), les [diagrammes de séquence](https://mermaid.js.org/syntax/sequenceDiagram.html) et les [chronologies](https://mermaid.js.org/syntax/timeline.html).
+Vous pouvez ajouter des diagrammes et des graphiques à vos notes en utilisant [Mermaid](https://mermaid-js.github.io/). Mermaid prend en charge une variété de diagrammes, tels que les [diagrammes de flux](https://mermaid.js.org/syntax/flowchart.html), les [diagrammes de séquence](https://mermaid.js.org/syntax/sequenceDiagram.html) et les [chronologies](https://mermaid.js.org/syntax/timeline.html).
 
-> [!tip]
-> Vous pouvez également essayer l'[éditeur en direct](https://mermaid-js.github.io/mermaid-live-editor) de Mermaid pour vous aider à construire des diagrammes avant de les inclure dans vos notes.
+> [!tip] Astuce
+> Vous pouvez également essayer l'[éditeur en ligne](https://mermaid-js.github.io/mermaid-live-editor) de Mermaid pour vous aider à construire des diagrammes avant de les inclure dans vos notes.
 
 Pour ajouter un diagramme Mermaid, créez un [[Syntaxe de mise en forme de base#Blocs de code|bloc de code]] `mermaid`.
 
@@ -141,8 +141,8 @@ Biology --> Chemistry
 class Biology,Chemistry internal-link;
 ```
 
-> [!note]
-> Les liens internes des diagrammes n'apparaissent pas dans la [[Vue graphique]].
+> [!note] Note
+> Les liens internes provenant des diagrammes n'apparaissent pas dans la [[Vue graphique]].
 
 Si vous avez de nombreux nœuds dans vos diagrammes, vous pouvez utiliser l'extrait suivant.
 
@@ -159,16 +159,16 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 ````
 
-De cette façon, chaque nœud lettre devient un lien interne, avec le [texte du nœud](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) comme texte du lien.
+De cette façon, chaque nœud représenté par une lettre devient un lien interne, avec le [texte du nœud](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) comme texte du lien.
 
-> [!note]
+> [!note] Note
 > Si vous utilisez des caractères spéciaux dans les noms de vos notes, vous devez mettre le nom de la note entre guillemets doubles.
 >
 > ```
 > class "⨳ special character" internal-link
 > ```
 >
-> Ou, `A["⨳ special character"]`.
+> Ou bien, `A["⨳ special character"]`.
 
 Pour plus d'informations sur la création de diagrammes, consultez la [documentation officielle de Mermaid](https://mermaid.js.org/intro/).
 
@@ -192,7 +192,7 @@ c & d
 \end{vmatrix}=ad-bc
 $$
 
-Vous pouvez également insérer des expressions mathématiques en ligne en les entourant de symboles `$`.
+Vous pouvez également intégrer des expressions mathématiques en ligne en les entourant de symboles `$`.
 
 ```md
 Voici une expression mathématique en ligne $e^{2i\pi} = 1$.
@@ -202,4 +202,4 @@ Voici une expression mathématique en ligne $e^{2i\pi} = 1$.
 
 Pour plus d'informations sur la syntaxe, consultez le [tutoriel de base et référence rapide MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-Pour une liste des packages MathJax pris en charge, consultez la [liste des extensions TeX/LaTeX](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+Pour une liste des paquets MathJax pris en charge, consultez la [liste des extensions TeX/LaTeX](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).

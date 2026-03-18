@@ -5,12 +5,12 @@ aliases:
   - Early access versions
 localized: '2026-03-18'
 ---
-Accédez en avant-première aux prochaines versions en activant les _versions en accès anticipé_. Les versions en accès anticipé sont uniquement disponibles pour les utilisateurs disposant d'une [[Licence Catalyst]].
+Obtenez un accès anticipé aux prochaines versions en activant les _versions en accès anticipé_. Les versions en accès anticipé sont uniquement disponibles pour les utilisateurs disposant d'une [[Licence Catalyst]].
 
-> [!warning]
-> Les versions en accès anticipé sont des versions bêta. Elles incluent de nouvelles fonctionnalités mais peuvent être moins stables. N'activez pas les versions en accès anticipé si vous préférez une expérience plus fiable.
+> [!warning] Avertissement
+> Les versions en accès anticipé sont des versions bêta. Elles incluent de nouvelles fonctionnalités, mais peuvent être moins stables. N'activez pas les versions en accès anticipé si vous préférez une expérience plus fiable.
 > 
-> Sachez que les développeurs de modules complémentaires et de thèmes reçoivent les versions en accès anticipé en même temps que tout le monde. Soyez patients avec les développeurs qui doivent effectuer des mises à jour pour prendre en charge les nouvelles fonctionnalités.
+> Sachez que les développeurs de modules complémentaires et de thèmes reçoivent les versions en accès anticipé en même temps que tout le monde. Soyez patient avec les développeurs qui doivent effectuer des mises à jour pour prendre en charge les nouvelles fonctionnalités.
 
 ## Activer les versions en accès anticipé sur ordinateur
 
@@ -26,7 +26,7 @@ Pour recevoir les versions en accès anticipé dès qu'elles sont disponibles, s
 8. Sous **Application**, activez **Recevoir les versions en accès anticipé**.
 9. Cliquez sur **Vérifier les mises à jour** puis sur **Relancer**.
 
-## Installer les versions en accès anticipé sur les appareils mobiles
+## Installer les versions en accès anticipé sur appareils mobiles
 
 Pour trouver les instructions d'installation des versions en accès anticipé sur votre appareil mobile, suivez ces étapes :
 
@@ -37,14 +37,14 @@ Pour trouver les instructions d'installation des versions en accès anticipé su
 
 ## Signaler des problèmes et autres retours
 
-Si vous découvrez un problème dans une version en accès anticipé, pensez à le signaler à l'équipe d'Obsidian. Avant de signaler un problème, effectuez une recherche sur le [forum](https://forum.obsidian.md/) ou Discord pour vérifier si quelqu'un l'a déjà signalé.
+Si vous découvrez un problème dans une version en accès anticipé, pensez à le signaler à l'équipe d'Obsidian. Avant de signaler un problème, recherchez sur le [forum](https://forum.obsidian.md/) ou sur Discord si quelqu'un l'a déjà signalé.
 
 Pour signaler un problème, utilisez l'un des canaux suivants :
 
 - Sur Discord, signalez le problème dans le canal `#insider-release` correspondant.
-- Sur le forum, créez un nouveau sujet dans [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
+- Sur le forum, créez un nouveau sujet sous [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
 
-Lorsque vous signalez un problème, indiquez la version du build et le système d'exploitation sur lequel vous l'exécutez. Vous pouvez trouver la version du build dans **[[Paramètres]] → À propos → Application → Version actuelle**.
+Lorsque vous signalez un problème, indiquez la version du build et le système d'exploitation sur lequel vous l'exécutez. Vous pouvez trouver la version du build sous **[[Paramètres]] → À propos → Application → Version actuelle**.
 
 ## Revenir aux versions publiques sur ordinateur
 

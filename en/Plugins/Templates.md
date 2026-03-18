@@ -33,7 +33,7 @@ You can use `{{date}}` and `{{time}}` interchangeably with format strings, for e
 
 You can change the default date and time formats under **[[Settings]] → Templates → Date format** and **[[Settings]] → Templates → Time format**.
 
-> [!tip]
+> [!tip] Tip
 > You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
 
 ## Create a template

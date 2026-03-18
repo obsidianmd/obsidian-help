@@ -8,8 +8,8 @@ aliases:
 
 Pour utiliser les analytiques sur votre site [[Introduction à Obsidian Publish|Obsidian Publish]], vous avez besoin d'un [[Domaines personnalisés|domaine personnalisé]].
 
-> [!important]
-> Avant d'activer les analytiques, assurez-vous que vos lois et réglementations locales vous autorisent à suivre vos visiteurs. Selon les outils que vous utilisez, vous pourriez avoir besoin d'ajouter une bannière de consentement à votre site.
+> [!important] Important
+> Avant d'activer les analytiques, assurez-vous que les lois et réglementations locales vous autorisent à suivre vos visiteurs. Selon les outils que vous utilisez, il peut être nécessaire d'ajouter une bannière de consentement à votre site.
 
 ## Google Analytics
 
@@ -23,7 +23,7 @@ Pour utiliser Google Tag Manager au lieu de Google Analytics, utilisez du JavaSc
 
 ## Plausible, Fathom et autres services d'analytiques
 
-Vous pouvez ajouter la plupart des services d'analytiques à votre site via votre fichier [[Personnaliser votre site|publish.js]]. Assurez-vous de remplacer `yourdomain.com` par votre domaine, et le `src` du script par le script de votre fournisseur d'analytiques.
+Vous pouvez ajouter la plupart des services d'analytiques à votre site via votre fichier [[Personnaliser votre site|publish.js]]. Assurez-vous de remplacer `yourdomain.com` par votre domaine, et le `src` du script par le script fourni par votre fournisseur d'analytiques.
 
 Voici un exemple utilisant [Plausible Analytics](https://plausible.io/)
 
@@ -35,7 +35,7 @@ analyticsScript.src = 'https://plausible.io/js/plausible.js';
 document.head.appendChild(analyticsScript);
 ```
 
- La même approche peut être utilisée pour [Fathom Analytics](https://usefathom.com/). Notez le changement de `data-domain` à `data-site` — différents fournisseurs d'analytiques peuvent avoir un format différent pour l'insertion du script.
+La même approche peut être utilisée pour [Fathom Analytics](https://usefathom.com/). Notez le changement de `data-domain` à `data-site` — différents fournisseurs d'analytiques peuvent avoir un format différent pour l'insertion du script.
 
 ```javascript
 var fathom = analyticsScript.createElement('script');
@@ -47,4 +47,4 @@ document.head.appendChild(analyticsScript);
 
 ## Dépannage
 
-Pour vérifier que votre site utilise bien votre service d'analytiques, désactivez toute extension de navigateur bloquant les publicités, comme uBlock Origin, qui pourrait empêcher le script de suivi de s'exécuter.
+Pour vérifier que votre site utilise bien votre service d'analytiques, désactivez les extensions de navigateur bloquant les publicités, telles que uBlock Origin, qui pourraient empêcher l'exécution du script de suivi.

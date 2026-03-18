@@ -14,16 +14,16 @@ Pour exécuter une commande depuis la palette de commandes :
 3. Naviguez jusqu'à la commande à l'aide des touches fléchées.
 4. Appuyez sur `Entrée`.
 
-> [!tip]
-> La palette de commandes prend en charge la _correspondance approximative_, ce qui vous permet de rechercher des commandes même si vous ne connaissez pas leur nom exact. Par exemple, taper « scf » trouvera la commande **S**auvegarder le fi**c**hier actuel (**S**ave **c**urrent **f**ile).
+> [!tip] Astuce
+> La palette de commandes prend en charge la _correspondance approximative_, vous permettant de rechercher des commandes même si vous ne connaissez pas leur nom exact. Par exemple, taper « elf » trouvera la commande **E**nregistrer **l**e **f**ichier courant.
 
-À partir de la **version 1.8.3**, les commandes récemment utilisées apparaissent en haut de la palette de commandes. Cependant, ces commandes récemment utilisées sont toujours soumises à l'algorithme de _correspondance approximative_. Lorsque vous commencez à filtrer, les commandes plus courtes seront priorisées par rapport à celles récemment utilisées.
+Depuis la **version 1.8.3**, les commandes récemment utilisées apparaissent en haut de la palette de commandes. Cependant, ces commandes récemment utilisées restent soumises à l'algorithme de _correspondance approximative_. Lorsque vous commencez à filtrer, les commandes plus courtes seront prioritaires par rapport aux commandes récemment utilisées.
 
 ## Commandes épinglées
 
 Vous pouvez épingler les commandes fréquemment utilisées en haut de la palette de commandes pour y accéder rapidement sans avoir à taper leur nom.
 
-> [!tip]
+> [!tip] Astuce
 > Si vous souhaitez exécuter rapidement des commandes fréquemment utilisées, vous pouvez également [[Raccourcis clavier#Définir des raccourcis clavier|définir des raccourcis clavier]] pour celles-ci.
 
 ### Épingler une commande

@@ -8,24 +8,24 @@ localized: '2026-03-18'
 aliases:
   - Custom domains
 ---
-Vous pouvez configurer un domaine ou sous-domaine personnalisé pour votre site [[Introduction à Obsidian Publish|Obsidian Publish]].
+Vous pouvez configurer un domaine ou un sous-domaine personnalisé pour votre site [[Introduction à Obsidian Publish|Obsidian Publish]].
 
-> [!warning]
+> [!warning] Avertissement
 > Pour le moment, nous ne prenons en charge la configuration de domaines personnalisés qu'avec les méthodes suivantes :
 >
-> - [[#Configurer avec CloudFlare]] en utilisant le [mode Full](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/).
-> - [[#Configurer avec un proxy]]
+> - [[#Configuration avec CloudFlare]] en utilisant le [mode Full](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/).
+> - [[#Configuration avec un proxy]]
 > 
-> Nous n'avons pas encore de moyen de provisionner un certificat SSL en votre nom.
+> Nous n'avons pas encore la possibilité de provisionner un certificat SSL en votre nom.
 
-## Configurer avec CloudFlare
+## Configuration avec CloudFlare
 
-La façon la plus simple de configurer un domaine ou sous-domaine personnalisé est de créer un compte [CloudFlare](https://cloudflare.com) et de laisser CloudFlare gérer le DNS de votre domaine.
+La façon la plus simple de configurer un domaine ou un sous-domaine personnalisé est de créer un compte [CloudFlare](https://cloudflare.com) et de laisser CloudFlare gérer le DNS de votre domaine.
 
 Les étapes suivantes utilisent CloudFlare pour configurer un domaine personnalisé pour votre site Obsidian Publish, que ce soit avec un domaine racine (`monsite.com`) ou un sous-domaine (`notes.monsite.com`).
 
-> [!important]
-> CloudFlare est le **seul fournisseur officiellement pris en charge** pour la configuration de domaines personnalisés. Utiliser les instructions suivantes avec tout autre fournisseur ne fonctionnera probablement pas.
+> [!important] Important
+> CloudFlare est le **seul fournisseur officiellement pris en charge** pour la configuration de domaines personnalisés. Utiliser les instructions suivantes avec un autre fournisseur ne fonctionnera probablement pas.
 
 **CloudFlare :**
 
@@ -33,11 +33,11 @@ Les étapes suivantes utilisent CloudFlare pour configurer un domaine personnali
 2. Allez dans **DNS** et cliquez sur **Add Record**.
 3. Sélectionnez **CNAME**.
 4. Dans **name**, entrez votre domaine ou sous-domaine, par exemple `notes.monsite.com`.
-5. Dans **target**, entrez `publish-main.obsidian.md`. N'incluez pas votre sous-URL personnelle dans cette valeur. Obsidian Publish gère cela depuis votre configuration.
+5. Dans **target**, entrez `publish-main.obsidian.md`. N'incluez pas votre sous-URL personnelle dans cette valeur. Obsidian Publish gère cela à partir de votre configuration.
 6. Assurez-vous que le **proxy status** est activé. Il devrait être activé par défaut.
-7. Allez dans **SSL/TLS** et définissez le mode de chiffrement SSL/TLS sur "Full" pour configurer le certificat SSL/TLS automatiquement.
+7. Allez dans **SSL/TLS** et définissez le mode de chiffrement SSL/TLS sur « Full » pour configurer automatiquement le certificat SSL/TLS.
 
-> [!note]
+> [!note] Remarque
 > Pour rediriger à la fois `monsite.com` et `www.monsite.com` vers Obsidian Publish, vous devez créer une [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) avec les paramètres suivants :
 >
 > - URL match : `www.monsite.com/*`
@@ -52,20 +52,20 @@ Les étapes suivantes utilisent CloudFlare pour configurer un domaine personnali
 2. Dans le [[Ruban]] à gauche, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
 3. Sous **Publier les modifications**, sélectionnez **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
 4. À côté de **Custom domain**, sélectionnez **Configure**.
-5. Dans **Custom URL**, entrez l'URL de votre domaine ou sous-domaine. Assurez-vous de ne pas mettre `www.` dans le champ d'URL personnalisée.
+5. Dans **Custom URL**, entrez l'URL de votre domaine ou sous-domaine. Veillez à ne pas mettre `www.` dans le champ de l'URL personnalisée.
 
-> [!note]
-> Si la configuration de votre domaine personnalisé aboutit à une boucle de redirection, il est probable que le mode de chiffrement dans CloudFlare ait été défini sur "Flexible" au lieu de "Full".
+> [!note] Remarque
+> Si la configuration de votre domaine personnalisé aboutit à une boucle de redirection, c'est probablement parce que le mode de chiffrement dans CloudFlare a été défini sur « Flexible » au lieu de « Full ».
 
-## Configurer avec un proxy
+## Configuration avec un proxy
 
 Vous pouvez également configurer SSL/TLS pour votre domaine personnalisé en utilisant votre propre serveur web.
 
 Si vous hébergez déjà un site web sous votre domaine ou sous-domaine, vous pouvez aussi utiliser cette option et configurer votre site web pour charger votre site Obsidian Publish sous un chemin d'URL spécifique, au lieu d'héberger le site complet.
 
-Transférez toutes les requêtes sous ce chemin d'URL vers `https://publish.obsidian.md/serve?url=monsite.com/mes-notes/...` et configurez les options du site dans Obsidian avec le même chemin d'URL, en définissant **Custom URL** sur `monsite.com/mes-notes`.
+Redirigez toutes les requêtes sous ce chemin d'URL vers `https://publish.obsidian.md/serve?url=monsite.com/mes-notes/...` et configurez les options du site dans Obsidian sur le même chemin d'URL, en définissant **Custom URL** sur `monsite.com/mes-notes`.
 
-Vous pouvez également configurer Obsidian Publish comme sous-URL d'un site que vous possédez. Par exemple, `https://monsite.com/mes-notes/`. Pour cela, vous devez héberger votre propre serveur et transférer toutes les requêtes vers notre serveur à `https://publish.obsidian.md/`.
+Vous pouvez également configurer Obsidian Publish comme une sous-URL d'un site que vous possédez. Par exemple, `https://monsite.com/mes-notes/`. Pour cela, vous devez héberger votre propre serveur et rediriger toutes les requêtes vers notre serveur à `https://publish.obsidian.md/`.
 
 Les exemples de configuration de proxy suivants ne sont pas exhaustifs, mais fournissent des méthodes courantes pour cette implémentation.
 
@@ -101,8 +101,8 @@ RewriteEngine  on
 RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.com/my-notes/$1"  [L,P]
 ```
 
-> [!note]
-> `mod_rewrite` doit être activé, et vous devrez peut-être également configurer [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache)
+> [!note] Remarque
+> `mod_rewrite` doit être activé, et vous devrez peut-être aussi configurer [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache).
 
 ### Netlify
 
@@ -188,4 +188,4 @@ Si vous souhaitez rediriger vos visiteurs depuis l'ancien site `publish.obsidian
 
 ## Dépannage
 
-Une fois votre domaine personnalisé configuré, si vous avez visité votre site depuis votre ancien lien `https://publish.obsidian.md/slug`, vous devrez peut-être vider le cache de votre navigateur pour que certaines fonctionnalités (comme les polices, les graphiques ou l'accès par mot de passe) fonctionnent correctement. Cela est dû aux restrictions de sécurité inter-domaines imposées par les navigateurs modernes. La bonne nouvelle est que les lecteurs de votre site ne devraient jamais rencontrer ce problème si vous ne laissez les visiteurs utiliser que votre domaine personnalisé.
+Une fois votre domaine personnalisé configuré, si vous avez visité votre site depuis votre ancien lien `https://publish.obsidian.md/slug`, vous devrez peut-être vider le cache de votre navigateur pour que certains éléments (comme les polices, les graphiques ou l'accès par mot de passe) fonctionnent correctement. Cela est dû aux restrictions de sécurité inter-domaines imposées par les navigateurs modernes. La bonne nouvelle est que les lecteurs de votre site ne devraient jamais rencontrer ce problème si vous ne leur donnez accès qu'à votre domaine personnalisé.

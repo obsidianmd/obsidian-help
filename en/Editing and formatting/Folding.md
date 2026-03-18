@@ -17,7 +17,7 @@ To toggle all sections at the same time, use the following commands:
 - To collapse all sections, open the [[Command palette]], and then select **Fold all headings and lists**.
 - To expand all sections, open the [[Command palette]], and then select **Unfold all headings and lists**.
 
-> [!tip]
+> [!tip] Tip
 > If you prefer to fold using your keyboard, you can assign [[Hotkeys|hotkeys]] to the **Fold less** and **Fold more** commands.
 >
 > - **Fold less** unfolds the section at the text cursor.

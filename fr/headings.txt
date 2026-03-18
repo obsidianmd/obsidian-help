@@ -546,9 +546,9 @@ Embed search results=Intégrer des résultats de recherche
 
 [links]
 Supported formats for internal links=Formats pris en charge pour les liens internes
-Link to a file=Créer un lien vers un fichier
-Link to a heading in a note=Créer un lien vers un entête dans une note
-Link to a block in a note=Créer un lien vers un bloc dans une note
+Link to a file=Lier un fichier
+Link to a heading in a note=Lier un entête dans une note
+Link to a block in a note=Lier un bloc dans une note
 Change the link display text=Modifier le texte d'affichage du lien
 Preview a linked file=Prévisualiser un fichier lié
 
@@ -613,7 +613,7 @@ Spotlight integration=Intégration de Spotlight
 
 [early-access]
 Enable early access versions for desktop=Activer les versions en accès anticipé sur ordinateur
-Install early access versions on mobile devices=Installer les versions en accès anticipé sur les appareils mobiles
+Install early access versions on mobile devices=Installer les versions en accès anticipé sur appareils mobiles
 Report issues and other feedback=Signaler des problèmes et autres retours
 Switch back to public versions on desktop=Revenir aux versions publiques sur ordinateur
 Switch back to public versions on mobile=Revenir aux versions publiques sur mobile
@@ -651,8 +651,8 @@ Select notes to publish=Sélectionner les notes à publier
 Next steps=Prochaines étapes
 
 [publish/domains]
-Set up using CloudFlare=Configurer avec CloudFlare
-Set up using a proxy=Configurer avec un proxy
+Set up using CloudFlare=Configuration avec CloudFlare
+Set up using a proxy=Configuration avec un proxy
 Supported HTTP X-Headers=En-têtes HTTP X pris en charge
 Redirect old site to custom domain=Rediriger l'ancien site vers le domaine personnalisé
 Troubleshoot=Dépannage
@@ -946,28 +946,28 @@ Security=Sécurité
 [plugins/canvas]
 Create a new canvas=Créer un nouveau canvas
 Add cards=Ajouter des cartes
-Add text cards=Ajouter des cartes texte
+Add text cards=Ajouter des cartes de texte
 Add cards from notes=Ajouter des cartes depuis des notes
 Add cards from media=Ajouter des cartes depuis des médias
 Add cards from web pages=Ajouter des cartes depuis des pages web
 Add cards from folders=Ajouter des cartes depuis des dossiers
 Edit a card=Modifier une carte
 Delete a card=Supprimer une carte
-Swap cards=Échanger des cartes
+Swap cards=Remplacer des cartes
 Select cards=Sélectionner des cartes
 Arrange cards=Disposer les cartes
 Resize a card=Redimensionner une carte
 Connect cards=Connecter des cartes
 Connect two cards=Connecter deux cartes
 Disconnect two cards=Déconnecter deux cartes
-Connect a card to a different card=Connecter une carte à une carte différente
-Navigate a connection=Naviguer une connexion
-Add a label to a connection=Ajouter un libellé à une connexion
+Connect a card to a different card=Connecter une carte à une autre carte
+Navigate a connection=Naviguer dans une connexion
+Add a label to a connection=Ajouter une étiquette à une connexion
 Change the color of a card or connection=Changer la couleur d'une carte ou d'une connexion
-Group cards=Grouper des cartes
-Group selected cards=Grouper les cartes sélectionnées
+Group cards=Regrouper des cartes
+Group selected cards=Regrouper les cartes sélectionnées
 Navigate the canvas=Naviguer dans le canvas
-Pan the canvas=Panoramiquer le canvas
+Pan the canvas=Panoramiquer dans le canvas
 Zoom the canvas=Zoomer dans le canvas
 Zoom to fit=Zoom pour tout afficher
 Zoom to selection=Zoom sur la sélection
@@ -977,7 +977,7 @@ Advanced tips=Astuces avancées
 [plugins/note-composer]
 Merge notes=Fusionner des notes
 Extract note=Extraire une note
-Template file=Fichier de modèle
+Template file=Fichier modèle
 
 [plugins/unique-note]
 Create a unique note=Créer une note unique
@@ -1003,6 +1003,7 @@ Move a file or folder=Déplacer un fichier ou un dossier
 
 [plugins/format-converter]
 Supported formats=Formats pris en charge
+[[Properties]]=[[Propriétés]]
 
 [plugins/templates]
 Set your template folder=Définir votre dossier de modèles
@@ -1034,11 +1035,11 @@ Embed search results in a note=Intégrer les résultats de recherche dans une no
 [plugins/file-recovery]
 Recover a snapshot=Récupérer un instantané
 Clear snapshot history=Effacer l'historique des instantanés
-Storage and performance=Stockage et performances
+Storage and performance=Stockage et performance
 
 [plugins/backlinks]
 Show backlinks=Afficher les liens retour
-View backlinks for a note=Voir les liens retour d'une note
+View backlinks for a note=Afficher les liens retour d'une note
 See backlinks of a specific note=Voir les liens retour d'une note spécifique
 Show backlinks in a note=Afficher les liens retour dans une note
 

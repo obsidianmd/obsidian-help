@@ -1,17 +1,15 @@
 ---
 permalink: community-plugins
-description: >-
-  Apprenez à étendre les fonctionnalités d'Obsidian avec des plugins créés par
-  la communauté.
+description: Découvrez comment étendre Obsidian avec des modules créés par la communauté.
 mobile: false
 localized: '2026-03-18'
 aliases:
   - Community plugins
 ---
-Apprenez à étendre Obsidian avec des modules créés par la communauté. Utilisez des modules pour adapter Obsidian à vos besoins spécifiques, comme la prise en charge de formats de fichiers supplémentaires ou l'intégration avec un service tiers.
+Découvrez comment étendre Obsidian avec des modules créés par la communauté. Utilisez des modules pour adapter Obsidian à vos besoins spécifiques, comme la prise en charge de formats de fichiers supplémentaires ou l'intégration avec un service tiers.
 
-> [!warning]
-> Les modules complémentaires exécutent du code tiers en votre nom, ce qui pourrait potentiellement être nuisible. Pour en savoir plus sur ce que l'équipe d'Obsidian fait pour prévenir les modules malveillants, consultez [[Sécurité des plugins]].
+> [!warning] Avertissement
+> Les modules complémentaires exécutent du code tiers en votre nom qui pourrait potentiellement causer des dommages. Pour en savoir plus sur ce que l'équipe d'Obsidian fait pour prévenir les modules nuisibles, consultez [[Sécurité des plugins]].
 
 ## Parcourir les modules complémentaires
 
@@ -19,7 +17,7 @@ Apprenez à étendre Obsidian avec des modules créés par la communauté. Utili
 2. Sélectionnez **Activer les modules complémentaires**. Pour plus d'informations, consultez [[Sécurité des plugins#Mode restreint|Mode restreint]].
 3. Sélectionnez **Parcourir** pour lister tous les modules complémentaires disponibles.
 
-Utilisez la zone de texte pour filtrer les modules en fonction de leur nom, de leur auteur et de leur description.
+Utilisez la zone de texte pour filtrer les modules en fonction de leur nom, auteur et description.
 
 Vous pouvez également parcourir les modules disponibles dans votre navigateur en vous rendant sur [obsidian.md/plugins](https://obsidian.md/plugins).
 
@@ -59,16 +57,16 @@ Pour mettre à jour un module individuel :
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Dans le menu latéral, sélectionnez **Modules complémentaires**.
-3. Sous **Modules installés**, sélectionnez l'icône corbeille ( ![[lucide-trash-2.svg#icon]] ) à côté du module que vous souhaitez désinstaller.
+3. Sous **Modules installés**, sélectionnez l'icône de la corbeille ( ![[lucide-trash-2.svg#icon]] ) à côté du module que vous souhaitez désinstaller.
 4. Sélectionnez **Désinstaller** pour confirmer.
 
 ## Gérer les modules installés
 
 Sous **[[Paramètres]] → Modules complémentaires → Modules installés**, chaque module dispose de plusieurs icônes pour le gérer :
 
-- **[[Paramètres]]** ( ![[lucide-settings.svg#icon]] ) — Ouvrir la page de paramètres du module s'il dispose d'options configurables.
+- **[[Paramètres]]** ( ![[lucide-settings.svg#icon]] ) — Ouvrir la page des paramètres du module s'il dispose d'options configurables.
 - **[[Raccourcis clavier]]** ( ![[lucide-plus-circle.svg#icon]] ) — Définir des raccourcis clavier pour les commandes du module.
-- **Financement** ( ![[lucide-heart.svg#icon]] ) — Voir l'URL de financement de l'auteur du module pour soutenir son travail.
+- **Financement** ( ![[lucide-heart.svg#icon]] ) — Afficher l'URL de financement de l'auteur du module pour soutenir son travail.
 - **Désinstaller** ( ![[lucide-trash-2.svg#icon]] ) — Supprimer le module de votre coffre.
 - **Basculer** — Activer ou désactiver le module sans le désinstaller.
 
@@ -80,4 +78,4 @@ Vous pouvez également :
 
 ## En savoir plus
 
-Prêt à créer votre propre module complémentaire ? Apprenez comment [créer un module](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+Prêt à créer votre propre module complémentaire ? Découvrez comment [créer un module](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).

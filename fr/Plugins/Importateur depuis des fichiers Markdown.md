@@ -1,8 +1,9 @@
 ---
 permalink: plugins/format-converter
 description: >-
-  Le convertisseur de format est un plugin principal qui vous permet de
-  convertir le Markdown provenant d'autres applications au format Obsidian.
+  Importateur depuis des fichiers Markdown est un module principal qui vous
+  permet de convertir du Markdown provenant d'autres applications au format
+  Obsidian.
 publish: true
 mobile: true
 aliases:
@@ -10,9 +11,9 @@ aliases:
   - Format converter
 localized: '2026-03-18'
 ---
-[[Importateur depuis des fichiers Markdown]] est un [[Modules principaux|module principal]] qui vous permet de convertir du Markdown provenant d'autres applications au format Obsidian. Il vous permet également de convertir certaines [[Propriétés]] vers les nouveaux formats requis.
+Importateur depuis des fichiers Markdown est un [[Modules principaux|module principal]] qui vous permet de convertir du Markdown provenant d'autres applications au format Obsidian. Il vous permet également de convertir certaines [[Propriétés]] vers les nouveaux formats requis.
 
-> [!warning]
+> [!warning] Avertissement
 > L'importateur depuis des fichiers Markdown convertit l'intégralité de votre coffre en fonction de vos paramètres. [[Sauvegarder vos fichiers Obsidian|Sauvegardez vos fichiers Obsidian]] avant d'effectuer la conversion.
 
 Pour convertir toutes les notes de votre coffre :
@@ -43,8 +44,8 @@ L'importateur depuis des fichiers Markdown peut convertir la syntaxe Bear suivan
 
 L'importateur depuis des fichiers Markdown peut convertir la syntaxe Zettelkasten suivante :
 
-- **Liens complets** : Convertit `[[UID]]` en `[[UID File Name]]`
-- **Liens simplifiés** : Convertit `[[UID]]` en `[[UID File Name|File Name]]`
+- **Liens complets** : Convertit `[[UID]]` en `[[UID Nom du fichier]]`
+- **Liens simplifiés** : Convertit `[[UID]]` en `[[UID Nom du fichier|Nom du fichier]]`
 
 ### [[Propriétés]]
 
@@ -55,12 +56,12 @@ Depuis Obsidian `1.9.3`, l'importateur depuis des fichiers Markdown peut convert
 ```yaml
 # Avant
 
-alias: My Note Title
+alias: Mon titre de note
 
 # Après
 
 aliases:
-  - My Note Title
+  - Mon titre de note
 ```
 
 **Mots-clés**
@@ -68,12 +69,12 @@ aliases:
 ```yaml
 # Avant
 
-tag: project, important
+tag: projet, important
 
 # Après
 
 tags:
-  - project
+  - projet
   - important
 ```
 
@@ -82,10 +83,10 @@ tags:
 ```yaml
 # Avant
 
-cssclass: custom-style
+cssclass: style-personnalisé
 
 # Après
 
 cssclasses:
-  - custom-style
+  - style-personnalisé
 ```

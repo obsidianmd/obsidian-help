@@ -8,7 +8,7 @@ permalink: publish/domains
 
 You can set up a custom domain or subdomain for your [[Introduction to Obsidian Publish|Obsidian Publish]] site.
 
-> [!warning]
+> [!warning] Warning
 > At the moment, we only support configuring custom domains using the following methods:
 >
 > - [[#Set up using CloudFlare]] using [Full mode](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/).
@@ -22,7 +22,7 @@ The easiest way to set up a custom domain or subdomain is to create a [CloudFlar
 
 The following steps use CloudFlare to configure a custom domain for your Obsidian Publish site, either using a root domain (`mysite.com`) or a subdomain (`notes.mysite.com`).
 
-> [!important]
+> [!important] Important
 > CloudFlare is the **only officially supported provider** for setting up custom domains. Using the following instructions with any other providers will likely not work.
 
 **CloudFlare:**
@@ -35,7 +35,7 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 6. Make sure that **proxy status** is enabled. It should be enabled by default.
 7. Go to **SSL/TLS** and set the SSL/TLS encryption mode to "Full" to configure the SSL/TLS certificate automatically.
 
-> [!note]
+> [!note] Note
 > To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
 >
 > - URL match: `www.mysite.com/*`
@@ -52,7 +52,7 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 4. Next to **Custom domain**, select **Configure**.
 5. In **Custom URL**, enter the URL to your domain or subdomain. Make sure to not put `www.` in the custom URL box.
 
-> [!note]
+> [!note] Note
 > If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare has been set to "Flexible" instead of "Full".
 
 ## Set up using a proxy
@@ -99,7 +99,7 @@ RewriteEngine  on
 RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.com/my-notes/$1"  [L,P]
 ```
 
-> [!note]
+> [!note] Note
 > `mod_rewrite` must be enabled, and you may also need to configure [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache)
 
 ### Netlify

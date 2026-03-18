@@ -7,7 +7,7 @@ permalink: community-plugins
 ---
 Learn how to extend Obsidian with plugins built by the community. Use plugins to adapt Obsidian to fit your specific needs, such as support for additional file formats or integrating with a third-party service.
 
-> [!warning]
+> [!warning] Warning
 > Community plugins run third-party code on your behalf that could potentially do harm. To learn more about what the Obsidian team does to prevent harmful plugins, refer to [[Plugin security]].
 
 ## Browse community plugins

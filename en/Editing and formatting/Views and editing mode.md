@@ -16,7 +16,7 @@ Obsidian lets you control how you read and edit notes written in Markdown using 
 - **Views** toggle between reading and editing your notes.
 - **Modes** control how Markdown appears while you're editing.
 
-> [!note]
+> [!note] Note
 > By default, Obsidian opens new tabs in editing mode. You can change this under **[[Settings]] → Editor → Default view for new tabs**.
 
 ## Reading view
@@ -29,7 +29,7 @@ To switch to *Reading view*:
 - Or click the interactive status icon ( ![[lucide-edit-3.svg#icon]] or ![[lucide-code-xml.svg#icon]] ) in the status bar and select **Reading view**.
 - Or press `Ctrl+E` (`Cmd+E` on macOS).
 
-> [!note]
+> [!note] Note
 > Enable **[[Settings]] → Appearance → Show tab title bar** to see the view switcher icon.  
 > 
 > If that is disabled, turn on **[[Settings]] → Editor → Show editing mode in status bar** to toggle views from the status bar.
@@ -54,7 +54,7 @@ To switch to *Live Preview*:
 - Or press `Ctrl+E` (`Cmd+E` on macOS).
 - Or use the [[Command palette|command]] **Toggle Reading view**.
 
-> [!note]
+> [!note] Note
 > By default, editing view is set to *Live Preview*. You can change this under **[[Settings]] → Editor → Default editing mode**.
 
 > [!tip] In many cases, Live Preview can eliminate the need to switch to [[#Reading view]].
@@ -66,7 +66,7 @@ To switch to *Live Preview*:
 To switch to *Source mode*:
 - Click the interactive status icon ( ![[lucide-book-icon.svg#icon]] or ![[lucide-edit-3.svg#icon]] ) in the status bar and select **Source mode**.
 
-> [!note]
+> [!note] Note
 > By default, editing view is set to *Live Preview*. Change this to *Source mode* under **[[Settings]] → Editor → Default editing mode**.
 > 
 > To switch to *Source mode*, now additionally you can:

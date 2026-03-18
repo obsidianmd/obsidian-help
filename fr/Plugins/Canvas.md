@@ -2,9 +2,9 @@
 permalink: plugins/canvas
 localized: '2026-03-18'
 ---
-Canvas est un [[Modules principaux|module principal]] pour la prise de notes visuelle. Il vous offre un espace infini pour disposer vos notes et les connecter à d'autres notes, pièces jointes et pages web.
+Canvas est un [[Modules principaux|module principal]] pour la prise de notes visuelle. Il vous offre un espace infini pour disposer vos notes et les relier à d'autres notes, pièces jointes et pages web.
 
-La prise de notes visuelle vous aide à donner du sens à vos notes en les organisant dans un espace 2D. Connectez les notes avec des lignes et regroupez les notes liées pour mieux comprendre les relations entre elles.
+La prise de notes visuelle vous aide à donner du sens à vos notes en les organisant dans un espace 2D. Reliez les notes avec des lignes et regroupez les notes liées pour mieux comprendre les relations entre elles.
 
 Les données Canvas que vous créez dans Obsidian sont enregistrées sous forme de fichiers `.canvas` utilisant le format de fichier ouvert [JSON Canvas](https://jsoncanvas.org/).
 
@@ -31,25 +31,25 @@ Pour commencer à utiliser Canvas, vous devez d'abord créer un fichier pour con
 
 ## Ajouter des cartes
 
-Vous pouvez glisser des fichiers dans votre canvas depuis Obsidian ou depuis d'autres applications. Par exemple, des fichiers Markdown, des images, de l'audio, des PDF, ou même des types de fichiers non reconnus.
+Vous pouvez glisser des fichiers dans votre canvas depuis Obsidian ou depuis d'autres applications. Par exemple, des fichiers Markdown, des images, des fichiers audio, des PDF, ou même des types de fichiers non reconnus.
 
-### Ajouter des cartes texte
+### Ajouter des cartes de texte
 
-Vous pouvez ajouter des cartes contenant uniquement du texte qui ne référencent pas un fichier. Vous pouvez utiliser le Markdown, les liens et les blocs de code comme dans une note.
+Vous pouvez ajouter des cartes contenant uniquement du texte qui ne référencent pas un fichier. Vous pouvez utiliser Markdown, des liens et des blocs de code comme dans une note.
 
-Pour ajouter une nouvelle carte texte à votre canvas :
+Pour ajouter une nouvelle carte de texte à votre canvas :
 
 - Sélectionnez ou glissez l'icône de fichier vierge en bas du canvas.
 
-Vous pouvez également ajouter des cartes texte en double-cliquant sur le canvas.
+Vous pouvez également ajouter des cartes de texte en double-cliquant sur le canvas.
 
-Pour convertir une carte texte en fichier :
+Pour convertir une carte de texte en fichier :
 
-1. Faites un clic droit sur la carte texte puis sélectionnez **Convertir en fichier...**.
+1. Faites un clic droit sur la carte de texte puis sélectionnez **Convertir en fichier...**.
 2. Entrez le nom de la note puis sélectionnez **Enregistrer**.
 
-> [!note]
-> Les cartes contenant uniquement du texte n'apparaissent pas dans les [[Rétroliens]]. Pour les faire apparaître, vous devez les convertir en fichier.
+> [!note] Note
+> Les cartes de texte uniquement n'apparaissent pas dans les [[Rétroliens]]. Pour qu'elles apparaissent, vous devez les convertir en fichier.
 
 ### Ajouter des cartes depuis des notes
 
@@ -88,7 +88,7 @@ Pour intégrer une page web dans votre canvas :
 
 Vous pouvez également sélectionner une URL dans votre navigateur puis la glisser dans le canvas pour l'intégrer dans une carte.
 
-Pour ouvrir la page web dans votre navigateur, appuyez sur `Ctrl` (ou `Cmd` sur macOS) et sélectionnez le libellé de la carte. Ou, faites un clic droit sur la carte et sélectionnez **Ouvrir dans le navigateur**.
+Pour ouvrir la page web dans votre navigateur, appuyez sur `Ctrl` (ou `Cmd` sur macOS) et sélectionnez l'étiquette de la carte. Ou, faites un clic droit sur la carte et sélectionnez **Ouvrir dans le navigateur**.
 
 ### Ajouter des cartes depuis des dossiers
 
@@ -96,24 +96,24 @@ Glissez un dossier depuis l'explorateur de fichiers pour ajouter tous les fichie
 
 ### Modifier une carte
 
-Double-cliquez sur une carte texte ou note pour commencer à la modifier. Cliquez en dehors de la carte pour arrêter la modification. Vous pouvez également appuyer sur `Échap` pour arrêter de modifier une carte.
+Double-cliquez sur une carte de texte ou de note pour commencer à la modifier. Cliquez en dehors de la carte pour arrêter la modification. Vous pouvez également appuyer sur `Échap` pour arrêter la modification d'une carte.
 
-Vous pouvez aussi modifier une carte en faisant un clic droit dessus et en sélectionnant **Modifier**.
+Vous pouvez également modifier une carte en faisant un clic droit dessus et en sélectionnant **Modifier**.
 
 ### Supprimer une carte
 
 Supprimez les cartes sélectionnées en faisant un clic droit sur l'une d'entre elles, puis en sélectionnant **Supprimer**. Ou, appuyez sur `Retour arrière` (ou `Suppr` sur macOS).
 
-Vous pouvez également sélectionner **Retirer** ( ![[lucide-trash-2.svg#icon]] ) dans les contrôles de sélection au-dessus de votre sélection.
+Vous pouvez également sélectionner **Supprimer** ( ![[lucide-trash-2.svg#icon]] ) dans les contrôles de sélection au-dessus de votre sélection.
 
-### Échanger des cartes
+### Remplacer des cartes
 
-Vous pouvez échanger une carte note ou média contre une autre carte du même type.
+Vous pouvez remplacer une carte de note ou de média par une autre carte du même type.
 
-Pour échanger une carte note :
+Pour remplacer une carte de note :
 
 1. Faites un clic droit sur la carte que vous souhaitez remplacer.
-2. Sélectionnez **Échanger le fichier**.
+2. Sélectionnez **Remplacer le fichier**.
 3. Sélectionnez la note par laquelle vous souhaitez la remplacer.
 
 ## Sélectionner des cartes
@@ -132,7 +132,7 @@ Glissez une carte sélectionnée pour la déplacer.
 
 Appuyez sur `Alt` (ou `Option` sur macOS) et glissez pour dupliquer la sélection.
 
-Vous pouvez appuyer sur `Maj` pendant le glissement pour ne vous déplacer que dans une seule direction.
+Vous pouvez appuyer sur `Maj` pendant le déplacement pour ne bouger que dans une seule direction.
 
 Appuyez sur `Espace` pendant le déplacement d'une sélection pour désactiver l'alignement automatique.
 
@@ -144,20 +144,20 @@ Glissez l'un des bords d'une carte pour la redimensionner.
 
 Vous pouvez appuyer sur `Espace` pendant le redimensionnement pour désactiver l'alignement automatique.
 
-Pour maintenir le rapport d'aspect lors du redimensionnement, appuyez sur `Maj` pendant le redimensionnement.
+Pour conserver le rapport hauteur/largeur lors du redimensionnement, appuyez sur `Maj` pendant le redimensionnement.
 
 ## Connecter des cartes
 
-Tracez des lignes entre les cartes pour créer des relations entre elles. Utilisez des couleurs et des libellés pour décrire comment elles sont liées les unes aux autres.
+Tracez des lignes entre les cartes pour créer des relations entre elles. Utilisez des couleurs et des étiquettes pour décrire comment elles sont liées les unes aux autres.
 
 ### Connecter deux cartes
 
-Pour connecter deux cartes avec une ligne dirigée :
+Pour connecter deux cartes avec une ligne orientée :
 
 1. Survolez le curseur sur l'un des bords d'une carte jusqu'à ce qu'un cercle plein apparaisse.
 2. Glissez le cercle vers le bord d'une autre carte pour les connecter.
 
-> [!tip]
+> [!tip] Astuce
 > Si vous glissez la ligne sans la connecter à une autre carte, vous pouvez ensuite ajouter la carte à laquelle vous souhaitez la connecter.
 
 ### Déconnecter deux cartes
@@ -165,49 +165,49 @@ Pour connecter deux cartes avec une ligne dirigée :
 Pour supprimer la connexion entre deux cartes :
 
 1. Survolez le curseur sur une ligne de connexion jusqu'à ce que deux petits cercles apparaissent sur la ligne.
-2. Glissez l'un des cercles hors de la carte sans le connecter à une autre.
+2. Glissez l'un des cercles depuis la carte sans le connecter à une autre.
 
-Vous pouvez également déconnecter deux cartes en faisant un clic droit sur la ligne entre elles, puis en sélectionnant **Retirer**. Ou, en sélectionnant la ligne puis en appuyant sur `Retour arrière` (ou `Suppr` sur macOS).
+Vous pouvez également déconnecter deux cartes en faisant un clic droit sur la ligne entre elles, puis en sélectionnant **Supprimer**. Ou, en sélectionnant la ligne puis en appuyant sur `Retour arrière` (ou `Suppr` sur macOS).
 
-### Connecter une carte à une carte différente
+### Connecter une carte à une autre carte
 
 Pour déplacer l'une des extrémités d'une ligne de connexion :
 
 1. Survolez le curseur sur une ligne de connexion jusqu'à ce que deux petits cercles apparaissent sur la ligne.
-2. Glissez le cercle de l'extrémité que vous souhaitez reconnecter vers une autre carte.
+2. Glissez le cercle au-dessus de l'extrémité que vous souhaitez reconnecter, vers une autre carte.
 
-### Naviguer une connexion
+### Naviguer dans une connexion
 
 Si deux cartes connectées sont éloignées, vous pouvez naviguer vers la source ou la cible de la connexion en faisant un clic droit sur la ligne puis en sélectionnant **Aller à la cible** ou **Aller à la source**.
 
-### Ajouter un libellé à une connexion
+### Ajouter une étiquette à une connexion
 
-Vous pouvez ajouter un libellé à une ligne pour décrire la relation entre deux cartes.
+Vous pouvez ajouter une étiquette à une ligne pour décrire la relation entre deux cartes.
 
 Pour étiqueter une connexion :
 
 1. Double-cliquez sur la ligne.
-2. Entrez le libellé puis appuyez sur `Échap` ou cliquez n'importe où sur le canvas.
+2. Entrez l'étiquette puis appuyez sur `Échap` ou cliquez n'importe où sur le canvas.
 
-Vous pouvez également étiqueter une connexion en la sélectionnant puis en sélectionnant **Modifier le libellé** dans les contrôles de sélection.
+Vous pouvez également étiqueter une connexion en la sélectionnant puis en sélectionnant **Modifier l'étiquette** dans les contrôles de sélection.
 
-Pour modifier le libellé d'une connexion, double-cliquez sur la ligne, ou faites un clic droit sur la ligne puis sélectionnez **Modifier le libellé**.
+Pour modifier l'étiquette d'une connexion, double-cliquez sur la ligne, ou faites un clic droit sur la ligne puis sélectionnez **Modifier l'étiquette**.
 
 ### Changer la couleur d'une carte ou d'une connexion
 
-1. Sélectionnez les cartes ou connexions que vous souhaitez colorer.
+1. Sélectionnez les cartes ou connexions que vous souhaitez colorier.
 2. Dans les contrôles de sélection, sélectionnez **Définir la couleur** ( ![[lucide-palette.svg#icon]] ).
 3. Sélectionnez une couleur.
 
-## Grouper des cartes
+## Regrouper des cartes
 
-### Grouper les cartes sélectionnées
+### Regrouper les cartes sélectionnées
 
 Pour créer un groupe vide :
 
 - Faites un clic droit sur le canvas puis sélectionnez **Créer un groupe**.
 
-Pour grouper des cartes liées :
+Pour regrouper des cartes liées :
 
 1. Sélectionnez les cartes.
 2. Faites un clic droit sur l'une des cartes sélectionnées puis sélectionnez **Créer un groupe**.
@@ -216,31 +216,31 @@ Pour grouper des cartes liées :
 
 ## Naviguer dans le canvas
 
-Au fur et à mesure que vous ajoutez des cartes à votre canvas, vous devez comprendre comment naviguer dans le canvas pour en observer une partie. Apprenez à panoramiquer et zoomer pour vous déplacer aisément dans le canvas.
+Au fur et à mesure que vous ajoutez des cartes à votre canvas, vous voudrez comprendre comment naviguer dans le canvas pour en observer une partie. Apprenez à panoramiquer et zoomer pour vous déplacer dans le canvas avec aisance.
 
-### Panoramiquer le canvas
+### Panoramiquer dans le canvas
 
-Pour déplacer le canvas verticalement et horizontalement, également appelé _panoramique_, vous pouvez utiliser l'une des approches suivantes :
+Pour déplacer le canvas verticalement et horizontalement, aussi appelé _panoramique_, vous pouvez utiliser l'une des approches suivantes :
 
 - Appuyez sur `Espace` et glissez le canvas.
 - Glissez le canvas en utilisant le bouton central de la souris.
-- Faites défiler la souris pour panoramiquer verticalement, et appuyez sur `Maj` en faisant défiler pour panoramiquer horizontalement.
+- Faites défiler la molette de la souris pour panoramiquer verticalement, et appuyez sur `Maj` en faisant défiler pour panoramiquer horizontalement.
 
 ### Zoomer dans le canvas
 
-Pour zoomer dans le canvas, appuyez sur `Espace` ou `Ctrl` (ou `Cmd` sur macOS) et faites défiler avec la molette de la souris. Ou, sélectionnez **Zoom avant** ( ![[lucide-plus.svg#icon]] ) et **Zoom arrière** ( ![[lucide-minus.svg#icon]] ) dans les contrôles de zoom en haut à droite.
+Pour zoomer dans le canvas, appuyez sur `Espace` ou `Ctrl` (ou `Cmd` sur macOS) et faites défiler la molette de la souris. Ou, sélectionnez **Zoom avant** ( ![[lucide-plus.svg#icon]] ) et **Zoom arrière** ( ![[lucide-minus.svg#icon]] ) dans les contrôles de zoom en haut à droite.
 
 #### Zoom pour tout afficher
 
-Pour zoomer le canvas de sorte que chaque élément soit visible, sélectionnez **Zoom pour tout afficher** ( ![[lucide-maximize.svg#icon]] ). Ou, utilisez le raccourci clavier `Maj+1`.
+Pour zoomer le canvas afin que chaque élément soit visible, sélectionnez **Zoom pour tout afficher** ( ![[lucide-maximize.svg#icon]] ). Ou, utilisez le raccourci clavier `Maj+1`.
 
 #### Zoom sur la sélection
 
-Pour zoomer le canvas de sorte que tous les éléments sélectionnés soient visibles, faites un clic droit sur une carte sélectionnée puis sélectionnez **Zoom sur la sélection**. Ou, utilisez un raccourci clavier en appuyant sur `Maj+2`.
+Pour zoomer le canvas afin que tous les éléments sélectionnés soient visibles, faites un clic droit sur une carte sélectionnée puis sélectionnez **Zoom sur la sélection**. Ou, utilisez un raccourci clavier en appuyant sur `Maj+2`.
 
 #### Réinitialiser le zoom
 
-Pour revenir au niveau de zoom par défaut, sélectionnez **Réinitialiser le zoom** dans les contrôles de zoom en haut à droite.
+Pour rétablir le niveau de zoom par défaut, sélectionnez **Réinitialiser le zoom** dans les contrôles de zoom en haut à droite.
 
 ## Astuces avancées
 

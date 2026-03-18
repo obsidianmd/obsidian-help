@@ -208,7 +208,7 @@ If you only specify the width, the image scales according to its original aspect
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-> [!tip]-
+> [!tip]- Tip
 > If you want to add an image from inside your vault, you can also [[Embed files#Embed an image in a note|embed an image in a note]].
 
 ## Quotes
@@ -225,7 +225,7 @@ You can quote text by adding a `>` symbols before the text.
 
 \- Doug Engelbart, 1961
 
-> [!tip]-
+> [!tip]- Tip
 > You can turn your quote into a [[Callouts|callout]] by adding `[!info]` as the first line in a quote.
 
 ## Lists
@@ -291,7 +291,7 @@ To create a task list, start each list item with a hyphen and space followed by 
 
 You can toggle a task in Reading view by selecting the checkbox.
 
-> [!tip]-
+> [!tip]- Tip
 > You can use any character inside the brackets to mark it as complete.
 >
 > ```md
@@ -470,7 +470,7 @@ You can also inline footnotes in a sentence. Note that the caret goes outside th
 You can also use inline footnotes. ^[This is an inline footnote.]
 ```
 
-> [!note]
+> [!note] Note
 > Inline footnotes only work in reading view, not in Live Preview.
 
 ## Comments

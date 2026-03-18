@@ -40,5 +40,5 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 
 The plugin can import Journal metadata as frontmatter, such as _state-of-mind_, _contacts_, _location_, and _workout-route_.
 
-> [!note]
+> [!note] Note
 > The plugin does not import resources. Attachments like photos, videos, and audio recordings are ignored.

@@ -6,16 +6,16 @@ aliases:
 ---
 Apprenez à utiliser l'élément HTML [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) pour intégrer des pages web dans vos notes.
 
-Pour intégrer une page web, ajoutez le code suivant dans votre note et remplacez le texte indicatif par l'URL de la page web que vous souhaitez intégrer :
+Pour intégrer une page web, ajoutez ce qui suit dans votre note et remplacez le texte indicatif par l'URL de la page web que vous souhaitez intégrer :
 
 ```html
 <iframe src="INSÉREZ VOTRE URL ICI"></iframe>
 ```
 
-> [!note]
-> Certains sites web ne vous permettent pas de les intégrer. À la place, ils peuvent fournir des URL destinées à leur intégration. Si le site web ne prend pas en charge l'intégration, essayez de rechercher le nom du site web suivi de « embed iframe ». Par exemple, « youtube embed iframe ».
+> [!note] Note
+> Certains sites web ne vous permettent pas de les intégrer. Ils peuvent à la place fournir des URL destinées à leur intégration. Si le site web ne prend pas en charge l'intégration, essayez de rechercher le nom du site suivi de « embed iframe ». Par exemple, « youtube embed iframe ».
 
-> [!tip]
+> [!tip] Astuce
 > Si vous utilisez [[Canvas]], vous pouvez intégrer une page web dans une carte. Pour plus d'informations, consultez [[Canvas#Ajouter des cartes depuis des pages web]].
 
 ## Intégrer une vidéo YouTube

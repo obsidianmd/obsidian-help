@@ -25,7 +25,7 @@ Obsidian supports the following link formats:
 
 The examples above are equivalent, and they appear the same way in the editor and links to the same note.
 
-> [!note]
+> [!note] Note
 > When using the Markdown format, make sure to [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the link destination. For example, blank spaces become `%20`.
 
 By default, due to its more compact format, Obsidian generates links using the Wikilink format. If interoperability is important to you, you can disable Wikilinks and use Markdown links instead.
@@ -168,7 +168,7 @@ This method is helpful for one-off situations where you want to change how a lin
 
 For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 laws]]`, adding "3 laws" as an alias lets you type just that — no need to add custom display text each time.
 
-> [!tip]
+> [!tip] Tip
 > Use [[#Change the link display text|link display text]] when you want to customize how a link looks *in a specific place*.  
 > 
 > Use [[Aliases|aliases]] when you want to refer to the same note using *different names* throughout your vault.
@@ -176,7 +176,7 @@ For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 la
 
 ## Preview a linked file
 
-> [!note]
+> [!note] Note
 > To preview linked files, you first need to enable [[Page preview]].
 
 To preview a linked file, hover over an internal link. While in editing mode, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
