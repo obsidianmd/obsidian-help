@@ -1,47 +1,46 @@
 ---
 permalink: updates
-localized: null
+localized: '2026-03-18'
 aliases:
   - Update Obsidian
 ---
+Le processus de mise à jour d'Obsidian diffère entre les appareils mobiles et de bureau.
 
-Obsidian's updating process is different on mobile and desktop devices.
+Obsidian sur les appareils de bureau vérifie régulièrement la présence de nouvelles mises à jour. Si les mises à jour automatiques sont activées, l'application se mettra à jour au redémarrage. Obsidian nécessite des [[#Mises à jour du programme d'installation|mises à jour périodiques du programme d'installation]], qui requièrent de télécharger et d'exécuter le programme d'installation.
 
-Obsidian on desktop devices regularly checks for new updates. If automatic updates are enabled, the application will update on restart. Obsidian needs periodic [[#Installer updates|installer updates]], which require downloading and running the installer.
+Sur les appareils mobiles, Obsidian est mis à jour via la boutique d'applications de l'appareil. La version du programme d'installation est identique à la version de l'application. Obsidian ne propose pas de mise à jour automatique.
 
-On mobile devices, Obsidian is updated through the device's app store. The installer version is the same as the app version. Obsidian does not feature auto-update.
+## Vérifier les mises à jour et consulter la version
 
-## Check for updates and view version
+Ouvrez **[[Paramètres|Paramètres]] → Général**.
 
-Open **[[Settings]] → General**.
-
-You can find the current versions of the app and installer at the top of the page.
+Vous trouverez les versions actuelles de l'application et du programme d'installation en haut de la page.
 
 ![[application-installer-current-version.png#interface]]
 
-To check for updates, select **Check for updates**. If there are new updates, Obsidian will offer to relaunch. Select **Relaunch** to apply any available updates.
+Pour vérifier les mises à jour, sélectionnez **Vérifier les mises à jour**. S'il y a de nouvelles mises à jour, Obsidian proposera de redémarrer. Sélectionnez **Redémarrer** pour appliquer les mises à jour disponibles.
 
-## Disable automatic updates
+## Désactiver les mises à jour automatiques
 
-If you prefer to update Obsidian manually, you can disable automatic updates.
+Si vous préférez mettre à jour Obsidian manuellement, vous pouvez désactiver les mises à jour automatiques.
 
-1. Open **[[Settings]] → General**.
-2. Disable **Automatic updates**.
+1. Ouvrez **[[Paramètres|Paramètres]] → Général**.
+2. Désactivez **Mises à jour automatiques**.
 
-## Installer updates
+## Mises à jour du programme d'installation
 
-On desktop, Obsidian's [release notes](https://obsidian.md/changelog/) will inform you when you need to update the installer version of Obsidian to keep things working. This is the version of Electron, the framework on which Obsidian is built, and it cannot be updated by the automatic update process. 
+Sur bureau, les [notes de version](https://obsidian.md/changelog/) d'Obsidian vous informeront lorsque vous devez mettre à jour la version du programme d'installation d'Obsidian pour que tout continue de fonctionner. Il s'agit de la version d'Electron, le framework sur lequel Obsidian est construit, et elle ne peut pas être mise à jour par le processus de mise à jour automatique.
 
-A community plugin or theme may require an installer update to access newer features that are not available in older versions of Electron, and may ask you to update the installer version of Obsidian before Obsidian itself asks.
+Un module complémentaire ou un thème peut nécessiter une mise à jour du programme d'installation pour accéder à des fonctionnalités plus récentes qui ne sont pas disponibles dans les anciennes versions d'Electron, et peut vous demander de mettre à jour la version du programme d'installation d'Obsidian avant qu'Obsidian lui-même ne le demande.
 
-To update the installer version of Obsidian:
+Pour mettre à jour la version du programme d'installation d'Obsidian :
 
-1. Navigate to https://obsidian.md/download.
-2. Select the **Download** button.
-3. Close Obsidian, if open.
-4. Proceed as detailed in [[Download and install Obsidian]].
+1. Rendez-vous sur https://obsidian.md/download.
+2. Sélectionnez le bouton **Télécharger**.
+3. Fermez Obsidian, s'il est ouvert.
+4. Procédez comme indiqué dans [[Télécharger et installer Obsidian|Télécharger et installer Obsidian]].
 
-Your installer update is now complete.
+La mise à jour de votre programme d'installation est maintenant terminée.
 
 > [!tip] 
-> You **do not** need to uninstall Obsidian to update the installer version.
+> Vous n'avez **pas** besoin de désinstaller Obsidian pour mettre à jour la version du programme d'installation.

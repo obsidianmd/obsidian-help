@@ -20,7 +20,7 @@ To embed a web page, add the following in your note and replace the placeholder 
 
 ## Embed a YouTube video
 
-To embed a YouTube video, use the same Markdown syntax as [[Basic formatting syntax#External images|external images]]:
+To embed a YouTube video, use the same Markdown syntax as [[Syntaxe de mise en forme de base#External images|external images]]:
 
 ```md
 ![](https://www.youtube.com/watch?v=NnTvZWp5Q7o)
@@ -30,7 +30,7 @@ To embed a YouTube video, use the same Markdown syntax as [[Basic formatting syn
 
 ## Embed a tweet
 
-To embed a tweet, use the same Markdown syntax as [[Basic formatting syntax#External images|external images]]:
+To embed a tweet, use the same Markdown syntax as [[Syntaxe de mise en forme de base#External images|external images]]:
 
 ```md
 ![](https://twitter.com/obsdmd/status/1580548874246443010)

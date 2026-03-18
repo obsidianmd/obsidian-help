@@ -11,13 +11,13 @@ If you want to reference a file using different names, consider adding _aliases_
 
 Use aliases for things like acronyms, nicknames, or to refer to a note in a different language.
 
-If you're only trying to change how a link looks in one place, see how to [[Internal links#Change the link display text|Change the link display text]] instead.
+If you're only trying to change how a link looks in one place, see how to [[Liens internes#Change the link display text|Change the link display text]] instead.
 
-![[Internal links#^callout-internal-links-link-text]]
+![[Liens internes#^callout-internal-links-link-text]]
 
 ## Add an alias to a note
 
-To add an alias for a note, add `aliases` property in the note [[Properties]]. Aliases should always be formatted as a list in YAML.
+To add an alias for a note, add `aliases` property in the note [[Propriétés]]. Aliases should always be formatted as a list in YAML.
 
 ```md
 ---
@@ -34,7 +34,7 @@ aliases:
 
 To link to a note using an alias:
 
-1. Start typing the alias in an [[Internal links|internal link]]. Any alias shows up in the list of suggestions, with a curved arrow icon next to it.
+1. Start typing the alias in an [[Liens internes|internal link]]. Any alias shows up in the list of suggestions, with a curved arrow icon next to it.
 2. Press `Enter` to select the alias.
 
 Obsidian creates the link with the alias as its custom display text, for example `[[Artificial Intelligence|AI]]`.
@@ -44,8 +44,8 @@ Obsidian creates the link with the alias as its custom display text, for example
 
 ## Find unlinked mentions for an alias
 
-By using [[Backlinks]], you can find unlinked mentions of aliases.
+By using [[Liens retour]], you can find unlinked mentions of aliases.
 
 For example, after setting "AI" as an alias for "Artificial intelligence", you can see mentions of "AI" in other notes.
 
-If you link an unlinked mention to an alias, Obsidian turns the mention into an [[Internal links|internal link]] with the alias as its display text.
+If you link an unlinked mention to an alias, Obsidian turns the mention into an [[Liens internes|internal link]] with the alias as its display text.

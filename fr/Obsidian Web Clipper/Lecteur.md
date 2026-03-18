@@ -4,7 +4,7 @@ localized: null
 aliases:
   - Reader
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] includes a built-in reading mode called Reader that strips away clutter from web pages, presenting only the main article content in a clean, readable format.
+[[Introduction à Obsidian Web Clipper|Web Clipper]] includes a built-in reading mode called Reader that strips away clutter from web pages, presenting only the main article content in a clean, readable format.
 
 ## Activate reading mode
 

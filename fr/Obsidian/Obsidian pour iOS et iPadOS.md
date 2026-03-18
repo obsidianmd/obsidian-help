@@ -10,7 +10,7 @@ This page covers iOS-specific features including widgets, Siri integration, and 
 
 ## Sync
 
-For information on syncing notes between devices, please see [[Sync your notes across devices]].
+For information on syncing notes between devices, please see [[Synchroniser vos notes entre appareils]].
 
 ## Widgets
 

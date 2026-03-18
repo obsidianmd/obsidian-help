@@ -12,15 +12,15 @@ Our [Security](https://obsidian.md/security) page compiles information about how
 
 Obsidian is designed to function as an offline and standalone application. Obsidian also supports custom plugins and themes. Additionally, we provide both official and unofficial support for various file syncing services.
 
-If you do not intend to use community plugins or themes, or [[Introduction to Obsidian Sync|Obsidian Sync]] or [[Introduction to Obsidian Publish|Obsidian Publish]], your standard procedures for securing applications will apply. However, if you plan to use any of these features, we recommend thoroughly evaluating their suitability for your workplace.
+If you do not intend to use community plugins or themes, or [[Introduction à Obsidian Sync|Obsidian Sync]] or [[Introduction à Obsidian Publish|Obsidian Publish]], your standard procedures for securing applications will apply. However, if you plan to use any of these features, we recommend thoroughly evaluating their suitability for your workplace.
 
 ## Community plugins and themes
 
-Please review the [[Plugin security]] page in addition to this section. 
+Please review the [[Sécurité des plugins]] page in addition to this section. 
 
 The Obsidian teams reviews all community plugins and themes submitted to the official directory, via our [releases repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). We do not review community items which have not been submitted to the official directory.
 
-We do not have a community store for [[CSS snippets]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
+We do not have a community store for [[Extraits CSS]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
 
 We require bundling of assets in CSS snippets and themes. However, we have made an exception for [Google Fonts](https://fonts.google.com/) to maintain performance on mobile devices, where the impact of bundling fonts is more noticeable.
 
@@ -61,17 +61,17 @@ Obsidian makes network requests to both `github.com` and `raw.githubuserconte
 ### Account security
 
 **Does Obsidian support Single Sign-On (SSO)?**
-Obsidian does not support SSO. In most use cases, Obsidian does not require an account or sign-on in your workplace, unless you are using [[Introduction to Obsidian Publish|Obsidian Publish]] or [[Introduction to Obsidian Sync|Obsidian Sync]].
+Obsidian does not support SSO. In most use cases, Obsidian does not require an account or sign-on in your workplace, unless you are using [[Introduction à Obsidian Publish|Obsidian Publish]] or [[Introduction à Obsidian Sync|Obsidian Sync]].
 
 **Does Obsidian support Multi-Factor Authentication (MFA)?**
-Obsidian supports [[2-factor authentication]] (2FA) for Obsidian accounts, but it does not support 2FA for opening and using the base application. Users of [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]] who have 2FA enabled will be required to confirm their 2FA key when they first log into the application.
+Obsidian supports [[Authentification à 2 facteurs]] (2FA) for Obsidian accounts, but it does not support 2FA for opening and using the base application. Users of [[Introduction à Obsidian Sync|Obsidian Sync]] and [[Introduction à Obsidian Publish|Obsidian Publish]] who have 2FA enabled will be required to confirm their 2FA key when they first log into the application.
 
 ### Assessments and certifications
 
 **Will you accept security assessments from our company?**
 We require a minimum quoted purchase order amount before considering completing a security assessment. These assessments are often time-consuming and may not be applicable to offline applications like Obsidian, as they are typically geared towards cloud-based services.
 
-However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee. Please contact [[Help and support#Contact Obsidian support|Obsidian support]] to inquire about this option.
+However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee. Please contact [[Aide et support#Contacter l'assistance Obsidian|Obsidian support]] to inquire about this option.
 
 **Do you have any recognized certifications related to Information Security or quality standards, such as ISO27001, NIST, COBIT, or other ISO or CSA certifications?**
 Not at this time. It may be something we explore in the future, but for now, our focus is on our [security audits](https://obsidian.md/security).

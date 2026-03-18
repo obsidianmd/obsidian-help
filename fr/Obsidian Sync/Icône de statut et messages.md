@@ -14,19 +14,19 @@ Obsidian Sync provides several elements to indicate sync status, mainly the [[#S
 
 ## Sync status icon
 
-The Sync status icon is located in the [[Status bar]] on the desktop version and in the [[Sidebar#Open hidden sidebars|right sidebar]] on mobile and tablet. The icon reflects various sync states:
+The Sync status icon is located in the [[Barre d'état]] on the desktop version and in the [[Barre latérale#Open hidden sidebars|right sidebar]] on mobile and tablet. The icon reflects various sync states:
 
 - ![[obsidian-icon-sync-synced.svg#icon]] **Synced**: Obsidian Sync has fully synced your files. This icon is typically green.
 - ![[obsidian-icon-sync-syncing.svg#icon]] **Syncing**: Obsidian is currently updating the remote vault. This icon is usually purple.
 - ![[obsidian-icon-sync-paused.svg#icon]] **Paused**: Syncing has been paused, but Obsidian is still connected to the remote vault. The icon is typically purple.
-- ![[obsidian-icon-sync-disconnected.svg#icon]] **Disconnected**: The Sync core plugin is active, but the [[Local and remote vaults|local vault]] is not connected to a remote vault. This icon is typically red.
+- ![[obsidian-icon-sync-disconnected.svg#icon]] **Disconnected**: The Sync core plugin is active, but the [[Coffres locaux et distants|local vault]] is not connected to a remote vault. This icon is typically red.
 
 Clicking or tapping the icon opens a context menu with the following options:
 - ![[obsidian-icon-sync-paused.svg#icon]] Pause (or ![[lucide-circle-play.svg#icon]] Resume if paused)
 - ![[lucide-history.svg#icon]] [[Version history]] (Greyed out if not viewing a note)
 - ![[lucide-align-left.svg#icon]] Open [[#Sync activity log|Sync log]]
 - ![[lucide-trash-2.svg#icon]] [[Version history#Restore a deleted file|Deleted files]]
-- ![[lucide-cog.svg#icon]] [[Sync settings and selective syncing|Sync settings]]
+- ![[lucide-cog.svg#icon]] [[Paramètres de Sync et synchronisation sélective|Sync settings]]
 
 ## Sync activity log
 
@@ -34,7 +34,7 @@ Obsidian Sync includes a detailed sync log that tracks all interactions between 
 
 **Access the activity log:**
 - Click the sync status icon in the status bar
-- Go to **[[Settings]] → Sync → Activity log**
+- Go to **[[Paramètres]] → Sync → Activity log**
 - Use **Command palette → Sync: Open activity log**
 
 The log provides timestamps and details for each sync operation, making it useful for troubleshooting sync issues.
@@ -50,25 +50,25 @@ The log categorizes messages into the following types:
 
 You can filter the Sync log by **All**, **Errors**, **Skipped**, and **Merge Conflicts**. Additionally, you can search the Sync log using the search box in the Sync window.
 
-> [!summary] We have included some of the likely messages you have come across below. The list is not exhaustive. If you are experiencing an issue and have a sync log message you are not sure about, [[Help and support#Contact Obsidian support|contact Obsidian support]].
+> [!summary] We have included some of the likely messages you have come across below. The list is not exhaustive. If you are experiencing an issue and have a sync log message you are not sure about, [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]].
 
 ### General messages
 
 These are common day-to-day messages you might encounter. 
 
 **Connecting to server**  
-Obsidian is trying to connect to your remote vault's [[Obsidian Sync/Security and privacy#Where can I find my current Sync server and where is it hosted?|Sync server]].
+Obsidian is trying to connect to your remote vault's [[Obsidian Sync/Sécurité et confidentialité#Where can I find my current Sync server and where is it hosted?|Sync server]].
 
 **Connected to server. Detecting changes...**  
 Obsidian has established a connection and is comparing the local vault with the remote vault to determine if changes are needed.
 
-> [!info] This message can also indicate other potential Sync issues. If you see it repeatedly and believe there are still items to sync, [[Help and support#Contact Obsidian support|contact Obsidian support]].
+> [!info] This message can also indicate other potential Sync issues. If you see it repeatedly and believe there are still items to sync, [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]].
 
 **Fully synced**  
 - The local and remote vaults are fully synchronized.
 
 **Merging conflicted file**  
-A conflict was detected during syncing, and the file was merged rather than overwritten. See [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]] for more information. If the merge is unwanted, you can restore previous versions via [[Version history]] or [[File recovery]].
+A conflict was detected during syncing, and the file was merged rather than overwritten. See [[Résoudre les problèmes d'Obsidian Sync#Conflict resolution|conflict resolution]] for more information. If the merge is unwanted, you can restore previous versions via [[Version history]] or [[Récupération de fichiers]].
 
 **Rejected server change**  
 The changes on the remote vault are older than the version on your local device, so the local version is kept and the remote change is ignored. 
@@ -95,10 +95,10 @@ Note that this also includes files with multiple periods `.` in their name on An
 These are messages related to a change in your subscription or account. 
 
 **Vault limit exceeded**  
-Your account has exceeded the [[Frequently asked questions#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
+Your account has exceeded the [[Questions fréquentes#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
 
 To reduce vault size:
-1. Open **[[Settings]] → Sync**.
+1. Open **[[Paramètres]] → Sync**.
 2. Use the options under **Vault size over limit** to remove large files.
 
 **Vault not found**  
@@ -110,7 +110,7 @@ This error may occur in these cases:
 2. The sync subscription was inactive for over 30 days, causing the remote vault to be removed.
 3. The subscription was canceled or refunded, resulting in the remote vault's deletion.
  
-In these cases, you'll need to [[Set up Obsidian Sync#Disconnect from a remote vault|disconnect from the remote vault]] and [[Set up Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring your local data is preserved.
+In these cases, you'll need to [[Configurer Obsidian Sync#Disconnect from a remote vault|disconnect from the remote vault]] and [[Configurer Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring your local data is preserved.
 
 **Failed to authenticate: Your subscription to Obsidian Sync has expired**  
 Your account is now in a fully expired status as we were unable to process the payment on file. 
@@ -119,9 +119,9 @@ To continue using Obsidian Sync, you will need to resubscribe within [your accou
 
 **Failed to authenticate: Not logged in**
 
-Obsidian Sync has detected that you are not currently logged in. You will need to log back in on the app in the [[Settings#General#Account|Account]] section of **[[Settings]]**.
+Obsidian Sync has detected that you are not currently logged in. You will need to log back in on the app in the [[Paramètres#General#Account|Account]] section of **[[Paramètres]]**.
 
-In some cases, a community plugin can also prevent Obsidian Sync from being able to confirm your account's login status. Please enter **[[Plugin security#Restricted mode|Restricted mode]]** and try again. 
+In some cases, a community plugin can also prevent Obsidian Sync from being able to confirm your account's login status. Please enter **[[Sécurité des plugins#Restricted mode|Restricted mode]]** and try again. 
 
 ### Network messages
 

@@ -8,24 +8,40 @@ mobile: false
 aliases:
   - How to/Créer des notes
   - Create your first note
+localized: '2026-03-18'
 ---
-Les notes peuvent être créées principalement de deux manières différentes, selon votre façon de travailler :
-1. **Approche "La Note d'abord"**. Si vous avez besoin de créer une note, vous pouvez le faire dans l'[[explorateur de fichiers]], ou avec le raccourci clavier `Ctrl / Cmd + N`. Vous pouvez également, si vous avez laissé activée l'extension [[Palette de commandes]] (elle est activée par défaut), appuyez sur `Ctrl / Cmd-p` et tapez "Créer une nouvelle note", puis validez en cliquant sur Entrer.
-2. **Approche "Le Lien d'abord"**. Si vous aimez créer librement des notes au fil de l'écriture, utilisez simplement un [[Liens internes|lien interne]] pour créer un lien vers le nom de la note que vous voulez créer plus tard (elle n'a pas besoin d'exister au moment de la création du lien). Pour écrire dans la note nouvellement créée, cliquez simplement sur le nom du lien. Elle sera automatiquement créée dans votre dossier et prête à la saisie !
+Les notes dans Obsidian sont stockées sous forme de fichiers en texte brut. Cela signifie que vos données sont durables et ne sont pas enfermées dans un format propriétaire. En rédigeant vos notes en texte brut, elles survivront à toute application — même à Obsidian.
 
-Après sa création, le titre de la note apparaîtra dans l'auto-complétion du lien interne. Vous n'avez donc pas besoin de taper le nom de la note à chaque fois. Lorsque vous tapez `[[` une fenêtre contextuelle apparaîtra montrant toutes les notes de votre dossier. Tapez simplement jusqu'à ce que vous voyiez celui que vous voulez, et appuyez sur « **Retour** » ou cliquez dessus, et le nom sera automatiquement complété.
+## Créer une nouvelle note
 
-Si vous avez déjà des dossiers configurés dans l'[[explorateur de fichiers]], vous pouvez faire un clic droit sur un dossier pour créer des notes ou des dossier à l'intérieur de celui-ci.
+Pour créer une nouvelle note :
 
-Il existe également des boutons en haut de l'explorateur de fichiers pour créer de nouvelles notes ou dossiers :
-![[Créer_une_nouvelle_note.png]]
-![[Créer_un_nouveau_dossier.png]]
+1. Appuyez sur `Ctrl+N` (ou `Cmd+N` sur macOS) sur votre clavier.
+2. Tapez « Obsidian » comme nom de votre note et appuyez sur `Entrée`.
+3. Copiez et collez le texte suivant dans votre note :
 
-Obsidian enregistre automatiquement votre note deux secondes après l'arrêt de la saisie ou après la fermeture d'un volet. Vous pouvez également enregistrer manuellement à tout moment en tapant `Ctrl / Cmd-S`   
+```md
+Obsidian est l'application d'écriture privée et flexible qui s'adapte à votre façon de penser.
+```
 
----
+![[Gérer les notes#^blockquote-system-limitation]]
 
-### Voir également :
-- [[Gérer les notes]]
-- [[Formater vos notes]] 
-- [[Liens internes]] 
+## Mettre en forme du texte
+
+Obsidian prend en charge la syntaxe [[Syntaxe de mise en forme de base|Markdown]] pour mettre du texte en gras, en italique, et ajouter des liens et des entêtes.
+
+1. Copiez et collez le texte suivant en haut de la note Obsidian :
+
+   > \# Affûtez votre pensée.
+
+   Le symbole dièse (`#`) transforme une ligne de texte en entête.
+
+2. Dans votre note, sélectionnez n'importe quel texte et appuyez sur `Ctrl+B` (ou `Cmd+B` sur macOS) pour le mettre en **gras**.
+
+Pour en savoir plus sur la mise en forme de vos notes avec Markdown, consultez [[Syntaxe de mise en forme de base|Syntaxe de mise en forme de base]].
+
+## En savoir plus
+
+Découvrez comment [[Lier des notes|lier des notes]] pour créer un réseau de pensées connectées.
+
+Vous pouvez également consulter le [[Coffre bac à sable|coffre de démonstration]] pour explorer d'autres fonctionnalités de l'application.

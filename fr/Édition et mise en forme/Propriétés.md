@@ -12,14 +12,14 @@ aliases:
   - Properties
 ---
 
-Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
+Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers. Properties can also be used in combination with [[Plugins communautaires]] that can do useful things with your structured data.
 
 ## Add properties to a note
 
 There are several ways to add a property to a note:
 
-- Use the **Add file property** [[Command palette|command]].
-- Use the **`Cmd/Ctrl+;`** [[Hotkeys|hotkey]].
+- Use the **Add file property** [[Palette de commandes|command]].
+- Use the **`Cmd/Ctrl+;`** [[Raccourcis clavier|hotkey]].
 - Choose **Add file property** from the **More actions** menu (brought up by the three dots icon or by right-clicking the tab).
 - Type `---` at the very beginning of a file.
 
@@ -31,7 +31,7 @@ Once you choose the property name, you can give it a value.
 
 ### Property types
 
-In addition to a name and value, properties also have a _type_. A property's type determines what kind of values it can store and how Obsidian handles them. To change the type of a property, click the type icon next to the property name and select a different option. You can also manage property types using the [[Properties view]] core plugin.
+In addition to a name and value, properties also have a _type_. A property's type determines what kind of values it can store and how Obsidian handles them. To change the type of a property, click the type icon next to the property name and select a different option. You can also manage property types using the [[Vue des propriétés]] core plugin.
 
 Obsidian supports the following property types:
 
@@ -49,36 +49,36 @@ Once a property type is assigned to a property name, all properties with that na
 
 ### Search properties
 
-Properties have their own [[Search|search syntax]] that you can use alongside other search terms and operators. [[Search#Search properties|See search syntax for properties]].
+Properties have their own [[Recherche|search syntax]] that you can use alongside other search terms and operators. [[Recherche#Search properties|See search syntax for properties]].
 
 ### Templates
 
-You can add properties to [[Plugins/Templates|Templates]].
+You can add properties to [[Plugins/Modèles|Templates]].
 
 When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template. ^templates-properties
 
 ### Rename properties
 
-You can rename a property by right-clicking it in the [[Properties view|All properties view]].
+You can rename a property by right-clicking it in the [[Vue des propriétés|All properties view]].
 
 ### Display modes
 
-You can change how properties are displayed in your note by going to  **[[Settings]] → Editor → Properties in document**. The options are:
+You can change how properties are displayed in your note by going to  **[[Paramètres]] → Editor → Properties in document**. The options are:
 
 - **Visible** (default) – displays properties at the top of the note, if there are any.
-- **Hidden** – hides properties, can still be displayed in the sidebar via [[Properties view]].
+- **Hidden** – hides properties, can still be displayed in the sidebar via [[Vue des propriétés]].
 - **Source** – displays properties in plain text YAML format.
 
 ### CSS snippets
 
-You can use [[CSS snippets]] to change the appearance of specific notes.
+You can use [[Extraits CSS]] to change the appearance of specific notes.
 
 ### Not supported
 
 A few features are not currently supported in Obsidian:
 
-- **Nested properties**: To view nested properties, we recommend using the [[Views and editing mode#Source mode|source mode]].
-- **Bulk-editing properties**: For in-depth bulk editing outside of [[Properties view]], we recommend using bulk-editing tools like VSCode, scripts, and community plugins.
+- **Nested properties**: To view nested properties, we recommend using the [[Vues et mode d'édition#Source mode|source mode]].
+- **Bulk-editing properties**: For in-depth bulk editing outside of [[Vue des propriétés]], we recommend using bulk-editing tools like VSCode, scripts, and community plugins.
 - **Markdown in properties**: This is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
 
 ## Hotkeys
@@ -150,7 +150,7 @@ Values can be [[#Text|text]], [[#Number|numbers]], [[#Checkbox|checkboxes]], [[#
 
 Text properties contain a single line of text. Markdown formatting is not rendered in text properties. Hashtags do not create tags when used in text properties.
 
-Text properties can contain URLs and [[Internal links]] using the `[[Link]]` syntax. [[Internal links]] in text properties must be surrounded with quotes. Obsidian will automatically add these if you manually enter internal links into properties, but be careful to add them when using templating plugins.
+Text properties can contain URLs and [[Liens internes]] using the `[[Link]]` syntax. [[Liens internes]] in text properties must be surrounded with quotes. Obsidian will automatically add these if you manually enter internal links into properties, but be careful to add them when using templating plugins.
 
 ```yaml
 ---
@@ -164,7 +164,7 @@ url: https://www.example.com
 
 List properties contain multiple values. Each value in a list appears on its own line, preceded by a hyphen (-) and a space.
 
-List values can contain text, numbers, and [[Internal links]]. When using [[Internal links]] in list properties, surround them with quotes.
+List values can contain text, numbers, and [[Liens internes]]. When using [[Liens internes]] in list properties, surround them with quotes.
 
 ```yaml
 ---
@@ -213,7 +213,7 @@ date: 2020-08-21
 The date picker follows your operating system's default date and time format. You can change it in your system preferences: 
 
 > [!info]- Windows
-> **[[Settings]] → Time & Language → Language & Region → Regional Format → Change Formats**
+> **[[Paramètres]] → Time & Language → Language & Region → Regional Format → Change Formats**
 > 
 > ![[Windows-OS-DateTime.png#interface]]
 
@@ -222,9 +222,9 @@ The date picker follows your operating system's default date and time format. Yo
 > 
 > ![[Mac-OS-DateTime.png|450]]
 
-With the [[Daily notes]] plugin enabled, the date property will additionally function as an internal link to the corresponding daily note for that date.
+With the [[Notes quotidiennes]] plugin enabled, the date property will additionally function as an internal link to the corresponding daily note for that date.
 
-![[Daily notes#^daily-notes-date]]
+![[Notes quotidiennes#^daily-notes-date]]
 
 ### Date & time
 
@@ -253,7 +253,7 @@ tags:
 ---
 ```
 
-The `tags` property is one of Obsidian's [[#Default properties]]. See [[Tags]] for more information about using tags in Obsidian.
+The `tags` property is one of Obsidian's [[#Default properties]]. See [[Étiquettes]] for more information about using tags in Obsidian.
 
 ### JSON properties
 
@@ -277,20 +277,20 @@ Obsidian comes with a set of default properties:
 | Property     | Type | Description                                                  |
 | ------------ | ---- | ------------------------------------------------------------ |
 | `tags`       | List | See [[Editing and formatting/Tags\|Tags]].                   |
-| `aliases`    | List | See [[Aliases]].                                             |
-| `cssclasses` | List | Allows you to style individual notes using [[CSS snippets]]. |
+| `aliases`    | List | See [[Alias]].                                             |
+| `cssclasses` | List | Allows you to style individual notes using [[Extraits CSS]]. |
 
 ### Properties for Obsidian Publish
 
-The following default properties can be used with [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following default properties can be used with [[Introduction à Obsidian Publish|Obsidian Publish]]:
 
 | Property      | Description                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publish your content#Automatically select notes to publish\|Automatically select notes to publish]]. |
+| `publish`     | See [[Publier votre contenu#Automatically select notes to publish\|Automatically select notes to publish]]. |
 | `permalink`   | See [[Permalinks\|Permalinks]].                                                                            |
-| `description` | See [[Social media link previews#Description\|Description]].                                               |
-| `image`       | See [[Social media link previews#Image\|Image]].                                                           |
-| `cover`       | See [[Social media link previews#Image\|Image]].                                                           |
+| `description` | See [[Aperçus de liens sur les réseaux sociaux#Description\|Description]].                                               |
+| `image`       | See [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                           |
+| `cover`       | See [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                           |
 
 ### Deprecated properties
 
@@ -302,4 +302,4 @@ These properties were deprecated in Obsidian 1.4 and should be replaced with the
 | `alias` | Deprecated alias for `aliases`. |
 | `cssclass` | Deprecated alias for `cssclasses`. |
 
-> [!tip] If you need to convert your files in your vault to the [[#Default properties]] format, you can use [[Format converter]] to change your vault en masse.
+> [!tip] If you need to convert your files in your vault to the [[#Default properties]] format, you can use [[Convertisseur de format]] to change your vault en masse.

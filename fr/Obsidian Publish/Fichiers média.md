@@ -6,9 +6,9 @@ localized: null
 aliases:
   - Media files
 ---
-[[Introduction to Obsidian Publish|Obsidian Publish]] lets you host notes and various media types, including images and video clips, with a limit of 4 GB per site. For more details, please refer to our [[Accepted file formats|accepted file formats]].
+[[Introduction à Obsidian Publish|Obsidian Publish]] lets you host notes and various media types, including images and video clips, with a limit of 4 GB per site. For more details, please refer to our [[Formats de fichiers acceptés|accepted file formats]].
 
-![[Publish limitations#^publish-media-limit]]
+![[Limitations de Publish#^publish-media-limit]]
 
 This page provides tips to help you optimize your media files hosted on Publish.
 
@@ -16,9 +16,9 @@ This page provides tips to help you optimize your media files hosted on Publish.
 
 When uploading images directly to Publish, it's best to use `.svg`, `.webp`, and `.png` formats. We also recommend optimizing all images to reduce their file size while preserving visual quality.
 
-![[Style guide#Optimization]]
+![[Guide de style#Optimization]]
 
-If you're using an external service to host an image, we still recommend sizing the image as needed according to our [[Embed files#Embed an image in a note|embedding instructions]].
+If you're using an external service to host an image, we still recommend sizing the image as needed according to our [[Incorporer des fichiers#Embed an image in a note|embedding instructions]].
 
 ## PDFs
 

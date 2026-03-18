@@ -8,14 +8,14 @@ aliases:
   - Publish your content
 ---
 
-This page explains how to manage your published content. To learn how to customize your site's styling, see [[Customize your site]].
+This page explains how to manage your published content. To learn how to customize your site's styling, see [[Personnaliser votre site]].
 
 ## Prerequisites
 
 - An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
 - An active Obsidian Publish subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/publish).
-- The **Publish** core plugin is [[Set up Obsidian Publish#Enable Obsidian Publish|enabled]].
-- A [[Manage sites#Create a new site|Publish site]] is created.
+- The **Publish** core plugin is [[Configurer Obsidian Publish#Enable Obsidian Publish|enabled]].
+- A [[Gérer les sites#Create a new site|Publish site]] is created.
 
 ## Publish notes
 
@@ -54,11 +54,11 @@ Before publishing, review the updated selection to ensure it doesn’t include a
 
 ## Automatically select data to publish
 
-Set `publish: true` in the [[Properties]] of a note to automatically include it for publishing as either a new or changed note.
+Set `publish: true` in the [[Propriétés]] of a note to automatically include it for publishing as either a new or changed note.
 
 You can also automatically select notes and linked images in specific folders by adding them as **Included** folders:
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**.
+1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Palette de commandes]] and type **Publish: Publish changes...**.
 2. Select the **Manage publish filters** (![[lucide-filter.svg#icon]]) icon.
 3. In the **Included folders** section, select **Manage**.
 4. Choose the folders you want to include from the suggester.
@@ -67,11 +67,11 @@ You can also automatically select notes and linked images in specific folders by
 
 ### Ignore data
 
-To ignore a note in Obsidian Publish, set `publish: false` in the [[Properties]] of the note. The note no longer appears in the list of notes to publish.
+To ignore a note in Obsidian Publish, set `publish: false` in the [[Propriétés]] of the note. The note no longer appears in the list of notes to publish.
 
 You can also auto-ignore notes and images in specific folders by adding them as **Excluded** folders:
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**.
+1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Palette de commandes]] and type **Publish: Publish changes...**.
 2. Select the **Manage publish filters** (![[lucide-filter.svg#icon]]) icon.
 3. In the **Excluded folders** section, select **Manage**.
 4. Choose the folders you want to exclude from the suggester.

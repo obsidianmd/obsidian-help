@@ -16,11 +16,11 @@ Files can only be moved between windows associated with the same vault.
 
 **File explorer:**
 
-In the [[File explorer]], right-click a note and select **Open in new window**.
+In the [[Explorateur de fichiers]], right-click a note and select **Open in new window**.
 
 **Command palette:**
 
-In the [[Command palette]], select **Open current tab in new window**.
+In the [[Palette de commandes]], select **Open current tab in new window**.
 
 **Tab:**
 
@@ -32,11 +32,11 @@ Right-click a tab and select **Open in new window**. Alternatively, select **M
 
 **File explorer:**
 
-In the [[File explorer]], drag the file to a tab group in the destination window.
+In the [[Explorateur de fichiers]], drag the file to a tab group in the destination window.
 
 **Command palette:**
 
-In the [[Command palette]], select **Move current tab in new window**.
+In the [[Palette de commandes]], select **Move current tab in new window**.
 
 **Tab:**
 

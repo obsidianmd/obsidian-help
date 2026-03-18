@@ -1,0 +1,197 @@
+[resources]
+Questions and advice=Questions et conseils
+Report bugs and request features=Signaler des bugs et demander des fonctionnalités
+Collect debug information=Collecter les informations de débogage
+Check startup time=Vérifier le temps de démarrage
+Capture console logs=Capturer les journaux de la console
+Contact Obsidian support=Contacter l'assistance Obsidian
+Report a security issue=Signaler un problème de sécurité
+Report a Code of Conduct violation=Signaler une violation du Code de conduite
+Contributing to Obsidian=Contribuer à Obsidian
+
+[bases/create-base]
+Create a new base=Créer une nouvelle base
+Embed a base=Intégrer une base
+Embed a base file=Intégrer un fichier base
+Embed a base as a code block=Intégrer une base sous forme de bloc de code
+
+[bases/views/map]
+Install the Maps plugin=Installer le module Maps
+Example=Exemple
+Settings=Paramètres
+Markers=Marqueurs
+Coordinates=Coordonnées
+Icons=Icônes
+Use a formula to define icons=Utiliser une formule pour définir les icônes
+Colors=Couleurs
+Background=Arrière-plan
+Map tiles=Tuiles de carte
+Useful links=Liens utiles
+Tips=Astuces
+Troubleshooting=Résolution de problèmes
+
+[bases/views/cards]
+Settings=Paramètres
+Card size=Taille des cartes
+Image property=Propriété d'image
+Image fit=Ajustement de l'image
+Image aspect ratio=Ratio d'aspect de l'image
+
+[bases/views/list]
+Settings=Paramètres
+Markers=Marqueurs
+Indent properties=Indenter les propriétés
+Separators=Séparateurs
+
+[bases/views/table]
+Settings=Paramètres
+Row height=Hauteur des lignes
+Summaries=Résumés
+Add a summary=Ajouter un résumé
+Built-in summaries=Résumés intégrés
+All property types=Tous les types de propriétés
+Numbers=Nombres
+Checkbox=Case à cocher
+Custom summaries=Résumés personnalisés
+Shortcuts=Raccourcis
+
+[bases/functions]
+Global=Globales
+Any=Quelconque
+Fields=Champs
+String=Chaîne de caractères
+Number=Nombre
+List=Liste
+Link=Lien
+File=Fichier
+Object=Objet
+Regular expression=Expression régulière
+
+[formulas]
+What formulas can do=Ce que les formules peuvent faire
+Create a formula property=Créer une propriété de formule
+Write a formula=Écrire une formule
+Reference properties=Référencer des propriétés
+Use operators=Utiliser des opérateurs
+Use functions=Utiliser des fonctions
+Formula examples=Exemples de formules
+Calculate a deadline=Calculer une échéance
+Display overdue status=Afficher le statut de retard
+Format currency=Formater une devise
+Count list items=Compter les éléments d'une liste
+Calculate priority score=Calculer un score de priorité
+Combine text fields=Combiner des champs texte
+Calculate total cost=Calculer le coût total
+Data types=Types de données
+Reference other formulas=Référencer d'autres formules
+
+[bases]
+How to use bases=Comment utiliser les bases
+View types=Types de vues
+
+[bases/syntax]
+Example=Exemple
+Filters=Filtres
+Formulas=Formules
+Properties=Propriétés
+Summaries=Résumés
+Default Summary Formulas=Formules de résumé par défaut
+Views=Vues
+Note properties=Propriétés de note
+File properties=Propriétés de fichier
+Access properties with `this`=Accéder aux propriétés avec `this`
+Operators=Opérateurs
+Arithmetic operators=Opérateurs arithmétiques
+Date arithmetic=Arithmétique de dates
+Comparison operators=Opérateurs de comparaison
+Boolean operators=Opérateurs booléens
+Functions=Fonctions
+Strings, numbers, and booleans=Chaînes, nombres et booléens
+Dates and durations=Dates et durées
+Objects and lists=Objets et listes
+Files and links=Fichiers et liens
+
+[bases/views]
+Toolbar=Barre d'outils
+Add and switch views=Ajouter et basculer entre les vues
+View settings=Paramètres de vue
+Layout=Disposition
+Filters=Filtres
+Components of a filter=Composants d'un filtre
+Conjunctions=Conjonctions
+Filter groups=Groupes de filtres
+Advanced filter editor=Éditeur de filtre avancé
+Sort and group results=Trier et regrouper les résultats
+Add a sort=Ajouter un tri
+Remove a sort=Supprimer un tri
+Limit, copy, and export results=Limiter, copier et exporter les résultats
+Limit results=Limiter les résultats
+Copy to clipboard=Copier dans le presse-papiers
+Export CSV=Exporter en CSV
+Embed a view=Intégrer une vue
+
+[mobile]
+Widgets, shortcuts, and Siri=Widgets, raccourcis et Siri
+Mobile toolbar=Barre d'outils mobile
+Customize mobile toolbar=Personnaliser la barre d'outils mobile
+Add command to mobile toolbar=Ajouter une commande à la barre d'outils mobile
+Quick Action=Action rapide
+Customize Quick Action=Personnaliser l'action rapide
+Navigation bar=Barre de navigation
+Go back or forward=Revenir en arrière ou avancer
+Create or find note=Créer ou trouver une note
+Tab management=Gestion des onglets
+Ribbon actions=Actions du ruban
+Sidebars=Barres latérales
+
+[sandbox]
+Opening the sandbox vault=Ouvrir le coffre de démonstration
+Close the sandbox vault=Fermer le coffre de démonstration
+
+[vault]
+Create empty vault=Créer un coffre vide
+Open existing folder=Ouvrir un dossier existant
+
+[create-note]
+Create a new note=Créer une nouvelle note
+Formatting text=Mettre en forme du texte
+Learn more=En savoir plus
+
+[glossary]
+Attachment=Pièce jointe
+Command=Commande
+Embed=Intégration
+Frontmatter=Métadonnées
+Graph=Graphe
+Hotkey=Raccourci clavier
+Link=Lien
+Main area=Zone principale
+Plugin=Module
+Pop-out window=Fenêtre détachée
+Property=Propriété
+Ribbon=Ruban
+Sidebar=Barre latérale
+Snippet=Extrait css
+Status bar=Barre d'état
+Tab=Onglet
+Tab group=Groupe d'onglets
+Tag=Mot-clé
+Theme=Thème
+Vault=Coffre
+Remote vault=Coffre distant
+View=Vue
+
+[import]
+Import from other apps and file formats=Importer depuis d'autres applications et formats de fichiers
+More formats=Autres formats
+
+[link-notes]
+Create a link=Créer un lien
+Create a link to a non-existing note=Créer un lien vers une note inexistante
+Navigate between notes=Naviguer entre les notes
+Learn more=En savoir plus
+
+[updates]
+Check for updates and view version=Vérifier les mises à jour et consulter la version
+Disable automatic updates=Désactiver les mises à jour automatiques
+Installer updates=Mises à jour du programme d'installation

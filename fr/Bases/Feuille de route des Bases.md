@@ -1,7 +1,7 @@
 ---
 permalink: bases/roadmap
-localized: null
+localized: '2026-03-18'
 aliases:
   - Bases roadmap
 ---
-The [[Introduction to Bases|Bases]] plugin is still in development. We expect many changes and improvements to Bases over the coming months, and longer than usual [[Early access versions|early access]] phases. [See roadmap.](https://obsidian.md/roadmap/)
+Le module [[Introduction aux Bases|Bases]] est encore en cours de développement. Nous prévoyons de nombreuses modifications et améliorations de Bases au cours des prochains mois, ainsi que des phases d'[[Versions en accès anticipé|accès anticipé]] plus longues que d'habitude. [Voir la feuille de route.](https://obsidian.md/roadmap/)

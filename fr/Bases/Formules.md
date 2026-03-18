@@ -4,183 +4,183 @@ description: >-
   Formulas allow you to create calculated properties using data from other
   properties. You can perform calculations, manipulate text, work with dates,
   and more.
-localized: null
+localized: '2026-03-18'
 aliases:
   - Formulas
 ---
-Formulas allow you to create calculated properties in [[Introduction to Bases|Bases]] using data from other [[Properties|properties]]. You can perform calculations, manipulate text, work with dates, and more. 
+Les formules vous permettent de créer des propriétés calculées dans les [[Introduction aux Bases|Bases]] en utilisant les données d'autres [[Propriétés|propriétés]]. Vous pouvez effectuer des calculs, manipuler du texte, travailler avec des dates, et bien plus encore.
 
-## What formulas can do
+## Ce que les formules peuvent faire
 
-Formulas can help you:
+Les formules peuvent vous aider à :
 
-- **Calculate values**, add prices, compute totals, or perform math operations.
-- **Manipulate text**, combine strings, change case, or extract substrings.
-- **Work with dates**, calculate time differences, format dates, or determine deadlines.
-- **Apply logic**, use conditional statements to display different values.
-- **Process lists**, filter, sort, map, or aggregate list data.
+- **Calculer des valeurs**, additionner des prix, calculer des totaux ou effectuer des opérations mathématiques.
+- **Manipuler du texte**, combiner des chaînes, changer la casse ou extraire des sous-chaînes.
+- **Travailler avec des dates**, calculer des différences de temps, formater des dates ou déterminer des échéances.
+- **Appliquer de la logique**, utiliser des instructions conditionnelles pour afficher différentes valeurs.
+- **Traiter des listes**, filtrer, trier, transformer ou agréger des données de liste.
 
-## Create a formula property
+## Créer une propriété de formule
 
-To create a formula property:
+Pour créer une propriété de formule :
 
-1. In your base, click **Properties** in the toolbar.
-2. Click **Add formula** at the bottom of the menu.
-3. Enter a name for your formula property.
-4. Type your formula in the **Formula** field.
-5. Close the dialog.
+1. Dans votre base, cliquez sur **Propriétés** dans la barre d'outils.
+2. Cliquez sur **Ajouter une formule** en bas du menu.
+3. Saisissez un nom pour votre propriété de formule.
+4. Tapez votre formule dans le champ **Formule**.
+5. Fermez la boîte de dialogue.
 
-The formula editor will autocomplete [[Functions|function]] and property names as you type to validate your formula syntax. A green checkmark appears when your formula is valid.
+L'éditeur de formules propose la complétion automatique des noms de [[Fonctions|fonctions]] et de propriétés au fur et à mesure de votre saisie pour valider la syntaxe de votre formule. Une coche verte apparaît lorsque votre formule est valide.
 
-Once created, you can use a formula property like any other property in your base. Add it to [[Views|views]], use it in filters, sort by it, and more.
+Une fois créée, vous pouvez utiliser une propriété de formule comme n'importe quelle autre propriété dans votre base. Ajoutez-la à des [[Vues|vues]], utilisez-la dans des filtres, triez par celle-ci, et plus encore.
 
-## Write a formula
+## Écrire une formule
 
-In the formula editor, type an expression using properties, operators, and functions.
+Dans l'éditeur de formules, tapez une expression utilisant des propriétés, des opérateurs et des fonctions.
 
-### Reference properties
+### Référencer des propriétés
 
-You can reference different types of properties in your formulas:
+Vous pouvez référencer différents types de propriétés dans vos formules :
 
-- **Note properties** — Properties from a note's [[Properties|frontmatter]].
-- **File properties** — Built-in properties like `file.name`, `file.size`, or `file.mtime`.
-- **Formula properties** — Other formulas using `formula.formula_name`.
+- **Propriétés de note** — Propriétés issues des [[Propriétés|métadonnées]] d'une note.
+- **Propriétés de fichier** — Propriétés intégrées comme `file.name`, `file.size` ou `file.mtime`.
+- **Propriétés de formule** — Autres formules utilisant `formula.nom_de_la_formule`.
 
-**Examples:**
+**Exemples :**
 
-- `price * quantity` — multiply two note properties
-- `file.name + " - " + description` — combine file name with a note property
-- `formula.price_per_unit * 1.1` — use another formula property
+- `price * quantity` — multiplier deux propriétés de note
+- `file.name + " - " + description` — combiner le nom de fichier avec une propriété de note
+- `formula.price_per_unit * 1.1` — utiliser une autre propriété de formule
 
-### Use operators
+### Utiliser des opérateurs
 
-**Arithmetic operators** perform math on numbers:
+Les **opérateurs arithmétiques** effectuent des calculs sur les nombres :
 
-- `price + tax` — add
-- `price - discount` — subtract
-- `price * quantity` — multiply
-- `price / quantity` — divide
-- `(part / whole) * 100` — use parentheses for order of operations
+- `price + tax` — addition
+- `price - discount` — soustraction
+- `price * quantity` — multiplication
+- `price / quantity` — division
+- `(part / whole) * 100` — utiliser des parenthèses pour l'ordre des opérations
 
-**Comparison operators** compare values:
+Les **opérateurs de comparaison** comparent des valeurs :
 
-- `price > 100` — greater than
-- `age < 18` — less than
-- `status == "Done"` — equals
-- `status != "Done"` — not equals
-- `file.mtime > now() - '7d'` — compare dates
+- `price > 100` — supérieur à
+- `age < 18` — inférieur à
+- `status == "Done"` — égal à
+- `status != "Done"` — différent de
+- `file.mtime > now() - '7d'` — comparer des dates
 
-**Boolean operators** combine logical conditions:
+Les **opérateurs booléens** combinent des conditions logiques :
 
-- `!completed` — not
-- `price > 0 && quantity > 0` — and
-- `urgent || important` — or
+- `!completed` — non
+- `price > 0 && quantity > 0` — et
+- `urgent || important` — ou
 
-Learn more in [[Bases syntax#Operators|Bases syntax]].
+En savoir plus dans [[Syntaxe des Bases#Opérateurs|Bases syntax]].
 
-### Use functions
+### Utiliser des fonctions
 
-Functions perform operations on values. The available functions depend on the type of value you're working with. See the complete list of [[Functions]].
+Les fonctions effectuent des opérations sur des valeurs. Les fonctions disponibles dépendent du type de valeur avec lequel vous travaillez. Consultez la liste complète des [[Fonctions]].
 
-**Common function categories:**
+**Catégories courantes de fonctions :**
 
-- **Global functions** — `if()`, `now()`, `date()`, `link()`, `max()`, `min()`
-- **String functions** — `contains()`, `replace()`, `split()`, `lower()`, `title()`
-- **Number functions** — `round()`, `ceil()`, `floor()`, `abs()`, `toFixed()`
-- **Date functions** — `format()`, `relative()`, `date()`, `time()`
-- **List functions** — `filter()`, `map()`, `sort()`, `join()`, `unique()`
+- **Fonctions globales** — `if()`, `now()`, `date()`, `link()`, `max()`, `min()`
+- **Fonctions de chaîne** — `contains()`, `replace()`, `split()`, `lower()`, `title()`
+- **Fonctions numériques** — `round()`, `ceil()`, `floor()`, `abs()`, `toFixed()`
+- **Fonctions de date** — `format()`, `relative()`, `date()`, `time()`
+- **Fonctions de liste** — `filter()`, `map()`, `sort()`, `join()`, `unique()`
 
-**Examples:**
+**Exemples :**
 
-- `if(price, "$" + price.toFixed(2), "")` to define a conditional with number formatting.
-- `file.name.lower()` to convert to lowercase.
-- `tags.contains("urgent")` to check if the tags list contains a value.
-- `due_date.format("YYYY-MM-DD")` to format a date.
+- `if(price, "$" + price.toFixed(2), "")` pour définir une condition avec formatage numérique.
+- `file.name.lower()` pour convertir en minuscules.
+- `tags.contains("urgent")` pour vérifier si la liste de mots-clés contient une valeur.
+- `due_date.format("YYYY-MM-DD")` pour formater une date.
 
-## Formula examples
+## Exemples de formules
 
-### Calculate a deadline
+### Calculer une échéance
 
-Set a project's due date as 2 weeks after the start date:
+Définir la date d'échéance d'un projet à 2 semaines après la date de début :
 
 ```js
 start_date + "2w"
 ```
 
-### Display overdue status
+### Afficher le statut de retard
 
-Show "Overdue" if the due date has passed and status is not "Done":
+Afficher "En retard" si la date d'échéance est dépassée et que le statut n'est pas "Terminé" :
 
 ```js
 if(due_date < now() && status != "Done", "Overdue", "")
 ```
 
-### Format currency
+### Formater une devise
 
-Display a price with 2 decimal places and currency symbol:
+Afficher un prix avec 2 décimales et un symbole monétaire :
 
 ```js
 if(price, "$" + price.toFixed(2), "")
 ```
 
-### Count list items
+### Compter les éléments d'une liste
 
-Count the number of items in a list property:
+Compter le nombre d'éléments dans une propriété de liste :
 
 ```js
 tasks.length
 ```
 
-### Calculate priority score
+### Calculer un score de priorité
 
-Combine multiple factors into a priority score:
+Combiner plusieurs facteurs en un score de priorité :
 
 ```js
 (impact * urgency) / effort
 ```
 
-### Combine text fields
+### Combiner des champs texte
 
-Create a full name from first and last name:
+Créer un nom complet à partir du prénom et du nom de famille :
 
 ```js
 first_name + " " + last_name
 ```
 
-### Calculate total cost
+### Calculer le coût total
 
-Multiply monthly cost by number of months owned:
+Multiplier le coût mensuel par le nombre de mois de possession :
 
 ```js
 monthlyUses * formula.Owned.round()
 ```
 
-## Data types
+## Types de données
 
-Formulas work with different types of data:
+Les formules fonctionnent avec différents types de données :
 
-- **Strings** — Text enclosed in quotes: `"hello"` or `'world'`
-- **Numbers** — Numeric values: `42`, `3.14`, `(2 + 2)`
-- **Booleans** — True or false: `true`, `false`
-- **Dates** — Created with `date()`, `today()`, or `now()`
-- **Lists** — Collections of values: `[1, 2, 3]`
-- **Objects** — Key-value pairs: `{"name": "value"}`
+- **Chaînes** — Texte entre guillemets : `"hello"` ou `'world'`
+- **Nombres** — Valeurs numériques : `42`, `3.14`, `(2 + 2)`
+- **Booléens** — Vrai ou faux : `true`, `false`
+- **Dates** — Créées avec `date()`, `today()` ou `now()`
+- **Listes** — Collections de valeurs : `[1, 2, 3]`
+- **Objets** — Paires clé-valeur : `{"name": "value"}`
 
-The output type of a formula is determined by the data and functions used.
+Le type de sortie d'une formule est déterminé par les données et les fonctions utilisées.
 
-## Reference other formulas
+## Référencer d'autres formules
 
-Formulas can reference other formulas, creating derived calculations. For example, if you have a formula called `price_per_unit`:
+Les formules peuvent référencer d'autres formules, créant ainsi des calculs dérivés. Par exemple, si vous avez une formule appelée `price_per_unit` :
 
 ```js
 price / quantity
 ```
 
-You can reference it in another formula:
+Vous pouvez la référencer dans une autre formule :
 
 ```js
 formula.price_per_unit * 1.1
 ```
 
-> [!warning] Avoid circular references
-> A formula cannot reference itself directly or indirectly through other formulas.
+> [!warning] Évitez les références circulaires
+> Une formule ne peut pas se référencer elle-même directement ou indirectement à travers d'autres formules.

@@ -1,31 +1,31 @@
 ---
 permalink: bases/views/list
-localized: null
+localized: '2026-03-18'
 aliases:
   - List view
 ---
-List is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+La liste est un type de [[Vues|vue]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]].
 
-Select ![[lucide-list.svg#icon]]  **List** from the view menu to display files as a [[Basic formatting syntax#Lists|list]] with bulleted or numbered markers.
+Sélectionnez ![[lucide-list.svg#icon]]  **Liste** dans le menu des vues pour afficher les fichiers sous forme de [[Syntaxe de mise en forme de base#Lists|liste]] avec des puces ou des numéros.
 
-## Settings
+## Paramètres
 
-List view settings can be configured in [[Views#View settings|View settings]].
+Les paramètres de la vue liste peuvent être configurés dans les [[Vues#Paramètres de vue|Paramètres de vue]].
 
-- Markers: bullets, numbers or none
-- Indent properties
-- Separators for properties
+- Marqueurs : puces, numéros ou aucun
+- Indenter les propriétés
+- Séparateurs pour les propriétés
 
-### Markers
+### Marqueurs
 
-Choose the type of list marker your want to use: bullets, numbers, or none.
+Choisissez le type de marqueur de liste que vous souhaitez utiliser : puces, numéros ou aucun.
 
-### Indent properties
+### Indenter les propriétés
 
-When toggled on, any properties you select in the **Properties** menu will be displayed as indented items for the primary list item.
+Lorsque cette option est activée, toutes les propriétés que vous sélectionnez dans le menu **Propriétés** seront affichées comme éléments indentés sous l'élément principal de la liste.
 
-To change your primary list item, move a property in the **Properties** menu to the top, by dragging it or using the `Alt + Up/Down` shortcut.
+Pour modifier votre élément principal de liste, déplacez une propriété dans le menu **Propriétés** vers le haut, en la glissant ou en utilisant le raccourci `Alt + Haut/Bas`.
 
-### Separators
+### Séparateurs
 
-When **nested properties** is toggled off, this setting defines a character to separate the properties for each list item. Defaults to a comma.
+Lorsque **propriétés imbriquées** est désactivé, ce paramètre définit un caractère pour séparer les propriétés de chaque élément de liste. Par défaut, une virgule.

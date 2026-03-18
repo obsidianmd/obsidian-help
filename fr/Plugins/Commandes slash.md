@@ -4,7 +4,7 @@ localized: null
 aliases:
   - Slash commands
 ---
-Slash commands is a [[Core plugins|core plugin]] that lets you perform commands in the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
+Slash commands is a [[Plugins principaux|core plugin]] that lets you perform commands in the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
 
 To run a command using Slash commands:
 
@@ -16,4 +16,4 @@ To run a command using Slash commands:
 To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
 
 > [!TIP] Fuzzy matching
-> Like the [[Command palette]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.
+> Like the [[Palette de commandes]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.

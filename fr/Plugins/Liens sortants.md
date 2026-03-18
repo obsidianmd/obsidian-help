@@ -9,15 +9,15 @@ localized: null
 aliases:
   - Outgoing links
 ---
-Outgoing links is a [[Core plugins|core plugin]] that shows links from the active note at a glance, as well as potential links to be made. It's similar to the [[Backlinks]] plugin, which instead shows you _incoming_ links to the active note.
+Outgoing links is a [[Plugins principaux|core plugin]] that shows links from the active note at a glance, as well as potential links to be made. It's similar to the [[Liens retour]] plugin, which instead shows you _incoming_ links to the active note.
 
 The Outgoing links tab ( ![[obsidian-icon-links-going-out.svg#icon]] ) is available in the right sidebar and contains the following sections:
 
 - **Links** lists all links in the active note. Click a link to open the linked note.
-- **Unlinked mentions** lists any text in the active note that matches the name or [[Aliases|alias]] of another note in your vault. Unlinked mentions helps you discover links you aren't aware of yet.
+- **Unlinked mentions** lists any text in the active note that matches the name or [[Alias|alias]] of another note in your vault. Unlinked mentions helps you discover links you aren't aware of yet.
 
 > [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Unlinked mentions.
+> Files matching your [[Paramètres#Excluded files|Excluded files]] patterns will not appear in Unlinked mentions.
 
 To create a link from an unlinked mention, click the button with the note's name.
 

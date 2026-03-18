@@ -8,21 +8,21 @@ There are many ways to drag and drop elements in Obsidian. This includes tabs, f
 
 ### Drag tabs
 
-- You can [[Tabs#Arrange tabs|arrange tabs]] and split tab groups in the main content area and in [[Sidebar|sidebars]].
+- You can [[Onglets#Arrange tabs|arrange tabs]] and split tab groups in the main content area and in [[Barre latérale|sidebars]].
 
 ### Drag sources
 
-- You can drag a file, or multiple files from the [[file explorer]].
-- You can drag a file from a [[search]] result.
-- You can drag a file from [[backlinks]] or unlinked references.
+- You can drag a file, or multiple files from the [[Explorateur de fichiers]].
+- You can drag a file from a [[Recherche]] result.
+- You can drag a file from [[Liens retour]] or unlinked references.
 - You can drag a file from a link inside the note, in preview mode.
 
 ### Drop destinations
 
 - You can drop a file on a tab header to open the file there. Hold `Alt` (or `Shift` on macOS) to drop anywhere in the tab.
-- You can drop a file on a folder in the [[file explorer]] to move the file there.
+- You can drop a file on a folder in the [[Explorateur de fichiers]] to move the file there.
 - You can drop a file into an editor to insert it as a link. The generated link also follows your preferences, such as relative paths, or using Markdown links.
-- You can drop a file on the [[Bookmarks]] tab to bookmark it.
+- You can drop a file on the [[Signets]] tab to bookmark it.
 
 ### Dragging from outside Obsidian
 

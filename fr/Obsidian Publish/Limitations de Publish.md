@@ -9,7 +9,7 @@ aliases:
 
 ## Community plugins
 
-Obsidian Publish has minimal support for [[Community plugins]]. 
+Obsidian Publish has minimal support for [[Plugins communautaires]]. 
 
 Plugins which output in raw markdown, such as the Waypoint plugin, are compatible with Publish because they do not require the application to render their data. 
 
@@ -19,11 +19,11 @@ Whereas a plugin that requires a plugin codeblock to render, such as Dataview or
 
 Publish offers basic color customization for its graph view using CSS. You can modify the node colors in your `publish.css` file by utilizing the [Graph View CSS variables](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
 
-Note that the published graph does not support the comprehensive sorting and viewing options available in the application's [[Graph view]].
+Note that the published graph does not support the comprehensive sorting and viewing options available in the application's [[Vue graphique]].
 
 ## Media files
 
-Obsidian Publish is not optimized for streaming video or large audio files. We include some best practices for handling your [[Media files|media files]] in these documents. 
+Obsidian Publish is not optimized for streaming video or large audio files. We include some best practices for handling your [[Fichiers média|media files]] in these documents. 
 
 To improve the experience for your visitors, we recommend that you instead use a video hosting service, such as YouTube or Vimeo.
 
@@ -47,5 +47,5 @@ After searching the above for matches, the search will then include plain text o
 
 To improve the searchability of your published site, it is recommended to use descriptive file names, incorporate multiple aliases, and select header names that accurately reflect the content.
 
-Additionally, Publish does not currently support the application's [[Search#Embed search results in a note|embedded search results]] feature.
+Additionally, Publish does not currently support the application's [[Recherche#Embed search results in a note|embedded search results]] feature.
 

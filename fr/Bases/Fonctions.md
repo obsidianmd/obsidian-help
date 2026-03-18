@@ -5,618 +5,617 @@ description: >-
   properties in filters and formulas.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Functions
 ---
+Les fonctions sont utilisées dans les [[Introduction aux Bases|bases]] pour manipuler les données des [[Propriétés|propriétés]] dans les [[Vues#Filtres|filtres]] et les [[Formules|formules]]. Consultez la référence de la [[Syntaxe des Bases|syntaxe des bases]] pour en savoir plus sur l'utilisation des fonctions.
 
-Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[properties]] in [[Views#Filters|filters]] and [[formulas]]. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
+En dehors des fonctions [[Fonctions#Globales|globales]], la plupart des fonctions dépendent du type de valeur que vous souhaitez modifier :
 
-Aside from [[Functions#Global|Global]] functions, most functions depend on the type of value you want to modify:
+- [[Fonctions#Quelconque|Quelconque]]
+- [[Fonctions#Date|Date]]
+- [[Fonctions#Chaîne de caractères|Chaîne de caractères]]
+- [[Fonctions#Nombre|Nombre]]
+- [[Fonctions#Liste|Liste]]
+- [[Fonctions#Lien|Lien]]
+- [[Fonctions#Fichier|Fichier]]
+- [[Fonctions#Objet|Objet]]
+- [[Fonctions#Expression régulière|Expression régulière]]
 
-- [[Functions#Any|Any]]
-- [[Functions#Date|Date]]
-- [[Functions#String|String]]
-- [[Functions#Number|Number]]
-- [[Functions#List|List]]
-- [[Functions#Link|Link]]
-- [[Functions#File|File]]
-- [[Functions#Object|Object]]
-- [[Functions#Regular expression|Regular expression]]
+## Globales
 
-## Global
-
-Global functions are used without a type.
+Les fonctions globales s'utilisent sans type.
 
 ### `escapeHTML()`
 
 `escapeHTML(html: string): string`
 
-- Escapes special characters in a string to make it safe for inclusion in HTML.
+- Échappe les caractères spéciaux dans une chaîne pour la rendre sûre à inclure dans du HTML.
 
 ### `date()`
 
 `date(date: string): date`
 
-- `date(string): date` parses the provided string and returns a date object.
-- The `date` string should be in the format `YYYY-MM-DD HH:mm:ss`.
+- `date(string): date` analyse la chaîne fournie et retourne un objet date.
+- La chaîne `date` doit être au format `YYYY-MM-DD HH:mm:ss`.
 
 ### `duration()`
 
 `duration(value: string): duration`
 
-- Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
-- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but they do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
-- When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
+- Analyse une chaîne en tant que durée. Consultez la [[Syntaxe des Bases#Arithmétique de dates|section arithmétique de dates]] pour le format de la chaîne `value`.
+- Les durées n'ont pas besoin d'être explicitement analysées lors d'opérations arithmétiques sur les dates (par exemple, `now() + '1d'`), mais elles le doivent lors d'opérations arithmétiques sur les durées (par exemple, `now() + (duration('1d') * 2)`).
+- Lors d'opérations arithmétiques entre durées et scalaires, la durée doit être à gauche. Par exemple `duration('5h') * 2`, au lieu de `2 * duration('5h')`.
 
 ### `file()`
 
 `file(path: string | file | url): file`
 
-- Returns a file object for the given file or path.
-- Example: `file(link("[[filename]]"))` or `file("path to file")`.
+- Retourne un objet fichier pour le fichier ou le chemin donné.
+- Exemple : `file(link("[[filename]]"))` ou `file("path to file")`.
 
 ### `html()`
 
 `html(html: string): html`
 
-- Converts a string into a code snippet that renders as HTML.
+- Convertit une chaîne en un extrait de code qui s'affiche en HTML.
 
 ### `if()`
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` is the condition to be evaluated.
-- `trueResult` is the output if condition is true.
-- `falseResult` is the optional output if the condition is false. If it is not given, then it is assumed to be `null`.
-- Returns the `trueResult` if `condition` is true, or is a truthy value, or `falseResult` otherwise.
-- Example: `if(isModified, "Modified", "Unmodified")`
+- `condition` est la condition à évaluer.
+- `trueResult` est la sortie si la condition est vraie.
+- `falseResult` est la sortie optionnelle si la condition est fausse. Si elle n'est pas fournie, elle est considérée comme `null`.
+- Retourne `trueResult` si `condition` est vraie, ou est une valeur évaluée comme vraie, ou `falseResult` sinon.
+- Exemple : `if(isModified, "Modified", "Unmodified")`
 
 ### `image()`
 
 `image(path: string | file | url): image`
 
-- Returns an image object which will render the image in the view.
-- Example: `image(image-property)` or `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Retourne un objet image qui affiche l'image dans la vue.
+- Exemple : `image(image-property)` ou `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
 
 ### `icon()`
 
 `icon(name: string): icon`
 
-- Returns a value that will render as an icon in a view. The icon name must match a supported Lucide icon.
-- Example: `icon("arrow-right")`.
+- Retourne une valeur qui s'affiche sous forme d'icône dans une vue. Le nom de l'icône doit correspondre à une icône Lucide prise en charge.
+- Exemple : `icon("arrow-right")`.
 
 ### `link()`
 
 `link(path: string | file, display?: value): Link`
 
-- Parses a string `path` and returns a Link object that renders as a link to the path given.
-- Optionally provide the `display` parameter to change what text the link says.
+- Analyse une chaîne `path` et retourne un objet Link qui s'affiche comme un lien vers le chemin donné.
+- Fournissez optionnellement le paramètre `display` pour modifier le texte affiché par le lien.
 
 ### `list()`
 
 `list(element: any): List`
 
-- If the provided element is a list, return it unmodified.
-- Otherwise, wraps the provided `element` in a list, creating a list with a single element.
-- This function can be helpful when a property contains a mixture of strings or lists across the vault.
-- Example: `list("value")` returns `["value"]`.
+- Si l'élément fourni est une liste, la retourne sans modification.
+- Sinon, enveloppe l'`element` fourni dans une liste, créant une liste avec un seul élément.
+- Cette fonction peut être utile lorsqu'une propriété contient un mélange de chaînes ou de listes dans le coffre.
+- Exemple : `list("value")` retourne `["value"]`.
 
 ### `max()`
 
 `max(value1: number, value2: number...): number`
 
-- Returns the largest of all the provided numbers.
+- Retourne le plus grand de tous les nombres fournis.
 
 ### `min()`
 
 `min(value1: number, value2: number...): number`
 
-- Returns the smallest of all the provided numbers.
+- Retourne le plus petit de tous les nombres fournis.
 
 ### `now()`
 
 `now(): date`
 
-- `now()` returns a date object representing the current moment.
+- `now()` retourne un objet date représentant l'instant présent.
 
 ### `number()`
 
 `number(input: any): number`
 
-- Attempt to return the provided value as a number.
-- Date objects will be returned as milliseconds since the unix epoch.
-- Booleans will return a 1 or 0.
-- Strings will be parsed into a number and return an error if the result is invalid.
-- Example, `number("3.4")` returns `3.4`.
+- Tente de retourner la valeur fournie sous forme de nombre.
+- Les objets date sont retournés en millisecondes depuis l'époque Unix.
+- Les booléens retournent 1 ou 0.
+- Les chaînes sont analysées en nombre et retournent une erreur si le résultat est invalide.
+- Exemple : `number("3.4")` retourne `3.4`.
 
 ### `duration()`
 
 `duration(value: string): duration`
 
-- Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
-- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but they do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
-- When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
+- Analyse une chaîne en tant que durée. Consultez la [[Syntaxe des Bases#Arithmétique de dates|section arithmétique de dates]] pour le format de la chaîne `value`.
+- Les durées n'ont pas besoin d'être explicitement analysées lors d'opérations arithmétiques sur les dates (par exemple, `now() + '1d'`), mais elles le doivent lors d'opérations arithmétiques sur les durées (par exemple, `now() + (duration('1d') * 2)`).
+- Lors d'opérations arithmétiques entre durées et scalaires, la durée doit être à gauche. Par exemple `duration('5h') * 2`, au lieu de `2 * duration('5h')`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` returns a date object representing the current date. The time portion is set to zero.
+- `today()` retourne un objet date représentant la date du jour. La partie horaire est définie à zéro.
 
-## Any
+## Quelconque
 
-Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), lists (e.g. `[1,2,3]`), objects, and more.
+Fonctions utilisables avec n'importe quelle valeur. Cela inclut les chaînes de caractères (par ex. `"hello"`), les nombres (par ex. `42`), les listes (par ex. `[1,2,3]`), les objets, et plus encore.
 
 ### `isTruthy()`
 
 `any.isTruthy(): boolean`
 
-- Return the value coerced into a boolean.
-- Example: `1.isTruthy()` returns `true`.
+- Retourne la valeur convertie en booléen.
+- Exemple : `1.isTruthy()` retourne `true`.
 
 ### `isType()`
 
 `any.isType(type: string): boolean`
 
-- Returns true if the value is of the provided type.
-- Example: `"example".isType("string")` and `true.isType("boolean")` both return true.
+- Retourne vrai si la valeur est du type fourni.
+- Exemple : `"example".isType("string")` et `true.isType("boolean")` retournent tous deux vrai.
 
 ### `toString()`
 
 `any.toString(): string`
 
-- Returns the string representation of any value.
-- Example: `123.toString()` returns `"123"`.
+- Retourne la représentation sous forme de chaîne de n'importe quelle valeur.
+- Exemple : `123.toString()` retourne `"123"`.
 
 ## Date
 
-Functions you can use with a date and time such as `date("2025-05-27")`. Date comparisons can be done using [[Bases syntax#Date arithmetic|date arithmetic]].
+Fonctions utilisables avec une date et une heure telles que `date("2025-05-27")`. Les comparaisons de dates peuvent être effectuées en utilisant l'[[Syntaxe des Bases#Arithmétique de dates|arithmétique de dates]].
 
-### Fields
+### Champs
 
-The following fields are available for dates:
+Les champs suivants sont disponibles pour les dates :
 
-| Field              | Type     | Description                  |
-| ------------------ | -------- | ---------------------------- |
-| `date.year`        | `number` | The year of the date         |
-| `date.month`       | `number` | The month of the date (1–12) |
-| `date.day`         | `number` | The day of the month         |
-| `date.hour`        | `number` | The hour (0–23)              |
-| `date.minute`      | `number` | The minute (0–59)            |
-| `date.second`      | `number` | The second (0–59)            |
-| `date.millisecond` | `number` | The millisecond (0–999)      |
+| Champ              | Type     | Description                       |
+| ------------------ | -------- | --------------------------------- |
+| `date.year`        | `number` | L'année de la date                |
+| `date.month`       | `number` | Le mois de la date (1–12)         |
+| `date.day`         | `number` | Le jour du mois                   |
+| `date.hour`        | `number` | L'heure (0–23)                    |
+| `date.minute`      | `number` | La minute (0–59)                  |
+| `date.second`      | `number` | La seconde (0–59)                 |
+| `date.millisecond` | `number` | La milliseconde (0–999)           |
 
 ### `date()`
 
 `date.date(): date`
 
-- Returns a date object with the time removed.
-- Example: `now().date().format("YYYY-MM-DD HH:mm:ss")` returns a string such as "2025-12-31 00:00:00"
+- Retourne un objet date sans la partie horaire.
+- Exemple : `now().date().format("YYYY-MM-DD HH:mm:ss")` retourne une chaîne telle que "2025-12-31 00:00:00"
 
 ### `format()`
 
 `date.format(format: string): string`
 
-- `format` is the format string (e.g., `"YYYY-MM-DD"`).
-- Returns the date formatted as specified by a Moment.js format string.
-- Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
+- `format` est la chaîne de format (par ex., `"YYYY-MM-DD"`).
+- Retourne la date formatée selon une chaîne de format Moment.js.
+- Exemple : `date.format("YYYY-MM-DD")` retourne `"2025-05-27"`.
 
 ### `time()`
 
 `date.time(): string`
 
-- Returns the time.
-- Example: `now().time()` returns a string such as "23:59:59"
+- Retourne l'heure.
+- Exemple : `now().time()` retourne une chaîne telle que "23:59:59"
 
 ### `relative()`
 
 `date.relative(): string`
 
-- Returns a readable comparison of the date to the current datetime.
-- Example: `file.mtime.relative()` returns a value such as `3 days ago`.
+- Retourne une comparaison lisible de la date par rapport à la date et l'heure actuelles.
+- Exemple : `file.mtime.relative()` retourne une valeur telle que `3 days ago`.
 
 ### `isEmpty()`
 
 `date.isEmpty(): boolean`
 
-- Returns false.
+- Retourne faux.
 
-## String
+## Chaîne de caractères
 
-Functions you can use with a sequence of characters such as `"hello"`.
+Fonctions utilisables avec une séquence de caractères telle que `"hello"`.
 
-### Fields
+### Champs
 
-| Field           | Type     | Description                            |
-| --------------- | -------- | -------------------------------------- |
-| `string.length` | `number` | The number of characters in the string |
+| Champ           | Type     | Description                                       |
+| --------------- | -------- | ------------------------------------------------- |
+| `string.length` | `number` | Le nombre de caractères dans la chaîne            |
 
 ### `contains()`
 
 `string.contains(value: string): boolean`
 
-- `value` is the substring to search for.
-- Returns true if the string contains `value`.
-- Example: `"hello".contains("ell")` returns `true`.
+- `value` est la sous-chaîne à rechercher.
+- Retourne vrai si la chaîne contient `value`.
+- Exemple : `"hello".contains("ell")` retourne `true`.
 
 ### `containsAll()`
 
 `string.containsAll(...values: string): boolean`
 
-- `values` are one or more substrings to search for.
-- Returns true if the string contains all of the `values`.
-- Example: `"hello".containsAll("h", "e")` returns `true`.
+- `values` sont une ou plusieurs sous-chaînes à rechercher.
+- Retourne vrai si la chaîne contient toutes les `values`.
+- Exemple : `"hello".containsAll("h", "e")` retourne `true`.
 
 ### `containsAny()`
 
 `string.containsAny(...values: string): boolean`
 
-- `values` are one or more substrings to search for.
-- Returns true if the string contains at least one of the `values`.
-- Example: `"hello".containsAny("x", "y", "e")` returns `true`.
+- `values` sont une ou plusieurs sous-chaînes à rechercher.
+- Retourne vrai si la chaîne contient au moins une des `values`.
+- Exemple : `"hello".containsAny("x", "y", "e")` retourne `true`.
 
 ### `endsWith()`
 
 `string.endsWith(query: string): boolean`
 
-- `query` is the string to check at the end.
-- Returns true if this string ends with `query`.
-- Example: `"hello".endsWith("lo")` returns `true`.
+- `query` est la chaîne à vérifier à la fin.
+- Retourne vrai si cette chaîne se termine par `query`.
+- Exemple : `"hello".endsWith("lo")` retourne `true`.
 
 ### `isEmpty()`
 
 `string.isEmpty(): boolean`
 
-- Returns true if the string has no characters, or is not present.
-- Example: `"Hello world".isEmpty()` returns `false`.
-- Example: `"".isEmpty()` returns `true`.
+- Retourne vrai si la chaîne n'a aucun caractère, ou n'est pas présente.
+- Exemple : `"Hello world".isEmpty()` retourne `false`.
+- Exemple : `"".isEmpty()` retourne `true`.
 
 ### `lower()`
 
 `string.lower(): string`
 
-- Returns the string converted to lower case.
+- Retourne la chaîne convertie en minuscules.
 
 ### `replace()`
 
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
-- `pattern` is the value to search for in the target string.
-- `replacement` is the value to replace found patterns with.
-- If `pattern` is a string, all occurrences of the pattern will be replaced.
-- If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
-- Example: `""a:b:c:d".replace(/:/, "-")` returns `"a-b,c,d"`, where as `"a:b:c:d".replace(/:/g, "-")` returns `"a-b-c-d"`.
+- `pattern` est la valeur à rechercher dans la chaîne cible.
+- `replacement` est la valeur par laquelle remplacer les occurrences trouvées.
+- Si `pattern` est une chaîne, toutes les occurrences du motif seront remplacées.
+- Si `pattern` est une Regexp, le drapeau `g` détermine si seule la première ou toutes les occurrences sont remplacées.
+- Exemple : `""a:b:c:d".replace(/:/, "-")` retourne `"a-b,c,d"`, alors que `"a:b:c:d".replace(/:/g, "-")` retourne `"a-b-c-d"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
-- `count` is the number of times to repeat the string.
-- Example: `"123".repeat(2)` returns `"123123"`
+- `count` est le nombre de fois que la chaîne doit être répétée.
+- Exemple : `"123".repeat(2)` retourne `"123123"`
 
 ### `reverse()`
 
 `string.reverse(): string`
 
-- Reverses the string.
-- Example: `"hello".reverse()` returns `"olleh"`.
+- Inverse la chaîne.
+- Exemple : `"hello".reverse()` retourne `"olleh"`.
 
 ### `slice()`
 
 `string.slice(start: number, end?: number): string`
 
-- `start` is the inclusive start index.
-- `end` is the optional exclusive end index.
-- Returns a substring from `start` (inclusive) to `end` (exclusive).
-- Example: `"hello".slice(1, 4)` returns `"ell"`.
-- If `end` is omitted, slices to the end of the string.
+- `start` est l'index de début inclusif.
+- `end` est l'index de fin exclusif optionnel.
+- Retourne une sous-chaîne de `start` (inclusif) à `end` (exclusif).
+- Exemple : `"hello".slice(1, 4)` retourne `"ell"`.
+- Si `end` est omis, extrait jusqu'à la fin de la chaîne.
 
 ### `split()`
 
 `string.split(separator: string | Regexp, n?: number): list`
 
-- `separator` is the delimiter for splitting the string.
-- `n` is an optional number. If provided, the result will have the first `n` elements.
-- Returns an list of substrings.
-- Example: `"a,b,c,d".split(",", 3)` or `"a,b,c,d".split(/,/, 3)` returns `["a", "b", "c"]`.
+- `separator` est le délimiteur pour diviser la chaîne.
+- `n` est un nombre optionnel. S'il est fourni, le résultat contiendra les `n` premiers éléments.
+- Retourne une liste de sous-chaînes.
+- Exemple : `"a,b,c,d".split(",", 3)` ou `"a,b,c,d".split(/,/, 3)` retourne `["a", "b", "c"]`.
 
 ### `startsWith()`
 
 `string.startsWith(query: string): boolean`
 
-- `query` is the string to check at the beginning.
-- Returns true if this string starts with `query`.
-- Example: `"hello".startsWith("he")` returns `true`.
+- `query` est la chaîne à vérifier au début.
+- Retourne vrai si cette chaîne commence par `query`.
+- Exemple : `"hello".startsWith("he")` retourne `true`.
 
 ### `title()`
 
 `string.title(): string`
 
-- Converts the string to title case (first letter of each word capitalized).
-- Example: `"hello world".title()` returns `"Hello World"`.
+- Convertit la chaîne en casse de titre (première lettre de chaque mot en majuscule).
+- Exemple : `"hello world".title()` retourne `"Hello World"`.
 
 ### `trim()`
 
 `string.trim(): string`
 
-- Removes whitespace from both ends of the string.
-- Example: `"  hi  ".trim()` returns `"hi"`.
+- Supprime les espaces aux deux extrémités de la chaîne.
+- Exemple : `"  hi  ".trim()` retourne `"hi"`.
 
-## Number
+## Nombre
 
-Functions you can use with numeric values such as `42`, `3.14`.
+Fonctions utilisables avec des valeurs numériques telles que `42`, `3.14`.
 
 ### `abs()`
 
 `number.abs(): number`
 
-- Returns the absolute value of the number.
-- Example: `(-5).abs()` returns `5`.
+- Retourne la valeur absolue du nombre.
+- Exemple : `(-5).abs()` retourne `5`.
 
 ### `ceil()`
 
 `number.ceil(): number`
 
-- Rounds the number up to the nearest integer.
-- Example: `(2.1).ceil()` returns `3`.
+- Arrondit le nombre à l'entier supérieur.
+- Exemple : `(2.1).ceil()` retourne `3`.
 
 ### `floor()`
 
 `number.floor(): number`
 
-- Rounds the number down to the nearest integer.
-- Example: `(2.9).floor()` returns `2`.
+- Arrondit le nombre à l'entier inférieur.
+- Exemple : `(2.9).floor()` retourne `2`.
 
 ### `isEmpty()`
 
 `number.isEmpty(): boolean`
 
-- Returns true if the number is not present.
-- Example: `5.isEmpty()` returns `false`.
+- Retourne vrai si le nombre n'est pas présent.
+- Exemple : `5.isEmpty()` retourne `false`.
 
 ### `round()`
 
 `number.round(digits: number): number`
 
-- Rounds the number to the nearest integer.
-- Optionally, provided a `digits` parameter to round to that number of decimal digits.
-- Example: `(2.5).round()` returns `3`, and `(2.3333).round(2)` returns `2.33`.
+- Arrondit le nombre à l'entier le plus proche.
+- Optionnellement, fournissez un paramètre `digits` pour arrondir à ce nombre de décimales.
+- Exemple : `(2.5).round()` retourne `3`, et `(2.3333).round(2)` retourne `2.33`.
 
 ### `toFixed()`
 
 `number.toFixed(precision: number): string`
 
-- `precision` is the number of decimal places.
-- Returns a string with the number in fixed-point notation.
-- Example: `(3.14159).toFixed(2)` returns `"3.14"`.
+- `precision` est le nombre de décimales.
+- Retourne une chaîne avec le nombre en notation à virgule fixe.
+- Exemple : `(3.14159).toFixed(2)` retourne `"3.14"`.
 
-## List
+## Liste
 
-Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
+Fonctions utilisables avec une liste ordonnée d'éléments telle que `[1, 2, 3]`.
 
-### Fields
+### Champs
 
-| Field         | Type     | Description                        |
-| ------------- | -------- | ---------------------------------- |
-| `list.length` | `number` | The number of elements in the list |
+| Champ         | Type     | Description                            |
+| ------------- | -------- | -------------------------------------- |
+| `list.length` | `number` | Le nombre d'éléments dans la liste     |
 
 ### `contains()`
 
 `list.contains(value: any): boolean`
 
-- `value` is the element to search for.
-- Returns true if the list contains `value`.
-- Example: `[1,2,3].contains(2)` returns `true`.
+- `value` est l'élément à rechercher.
+- Retourne vrai si la liste contient `value`.
+- Exemple : `[1,2,3].contains(2)` retourne `true`.
 
 ### `containsAll()`
 
 `list.containsAll(...values: any): boolean`
 
-- `values` are one or more elements to search for.
-- Returns true if the list contains all of the `values`.
-- Example: `[1,2,3].containsAll(2,3)` returns `true`.
+- `values` sont un ou plusieurs éléments à rechercher.
+- Retourne vrai si la liste contient toutes les `values`.
+- Exemple : `[1,2,3].containsAll(2,3)` retourne `true`.
 
 ### `containsAny()`
 
 `list.containsAny(...values: any): boolean`
 
-- `values` are one or more elements to search for.
-- Returns true if the list contains at least one of the `values`.
-- Example: `[1,2,3].containsAny(3,4)` returns `true`.
+- `values` sont un ou plusieurs éléments à rechercher.
+- Retourne vrai si la liste contient au moins une des `values`.
+- Exemple : `[1,2,3].containsAny(3,4)` retourne `true`.
 
 ### `filter()`
 
 `list.filter(value: Boolean): list`
 
-- Filter the elements of this list by calling a filter function, which uses the variables `index` and `value`, and returns a boolean value for whether the element should be kept.
-- `value` is the value of an item in the list.
-- `index` is the index of the current value.
-- Example: `[1,2,3,4].filter(value > 2)` returns `[3,4]`.
+- Filtre les éléments de cette liste en appelant une fonction de filtre, qui utilise les variables `index` et `value`, et retourne une valeur booléenne indiquant si l'élément doit être conservé.
+- `value` est la valeur d'un élément de la liste.
+- `index` est l'index de la valeur courante.
+- Exemple : `[1,2,3,4].filter(value > 2)` retourne `[3,4]`.
 
 ### `flat()`
 
 `list.flat(): list`
 
-- Flattens nested list into a single list.
-- Example: `[1,[2,3]].flat()` returns `[1,2,3]`.
+- Aplatit une liste imbriquée en une seule liste.
+- Exemple : `[1,[2,3]].flat()` retourne `[1,2,3]`.
 
 ### `isEmpty()`
 
 `list.isEmpty(): boolean`
 
-- Returns true if the list has no elements.
-- Example: `[1,2,3].isEmpty()` returns `false`.
+- Retourne vrai si la liste n'a aucun élément.
+- Exemple : `[1,2,3].isEmpty()` retourne `false`.
 
 ### `join()`
 
 `list.join(separator: string): string`
 
-- `separator` is the string to insert between elements.
-- Joins all list elements into a single string.
-- Example: `[1,2,3].join(",")` returns `"1,2,3"`.
+- `separator` est la chaîne à insérer entre les éléments.
+- Joint tous les éléments de la liste en une seule chaîne.
+- Exemple : `[1,2,3].join(",")` retourne `"1,2,3"`.
 
 ### `map()`
 
 `list.map(value: Any): list`
 
-- Transform each element of this list by calling a conversion function, which uses the variables `index` and `value`, and returns the new value to be placed in the list.
-- `value` is the value of an item in the list.
-- `index` is the index of the current value.
-- Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
+- Transforme chaque élément de cette liste en appelant une fonction de conversion, qui utilise les variables `index` et `value`, et retourne la nouvelle valeur à placer dans la liste.
+- `value` est la valeur d'un élément de la liste.
+- `index` est l'index de la valeur courante.
+- Exemple : `[1,2,3,4].map(value + 1)` retourne `[2,3,4,5]`.
 
 ### `reduce()`
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Reduce the elements of this list into a single value by running an expression for each element. The expression can use the variables `index`, `value`, and `acc` (the accumulator), and should return the next accumulator value.
-- `expression` is evaluated for every element in the list.
-- `value` is the value of the current item in the list.
-- `index` is the index of the current item.
-- `acc` is the accumulated value so far.
-- Example (sum): `[1,2,3].reduce(acc + value, 0)` returns `6`.
-- Example (max): `values.filter(value.isType("number")).reduce(if(acc == null || value > acc, value, acc), null)` returns the largest number, or `null` if none.
+- Réduit les éléments de cette liste en une seule valeur en exécutant une expression pour chaque élément. L'expression peut utiliser les variables `index`, `value` et `acc` (l'accumulateur), et doit retourner la prochaine valeur de l'accumulateur.
+- `expression` est évaluée pour chaque élément de la liste.
+- `value` est la valeur de l'élément courant de la liste.
+- `index` est l'index de l'élément courant.
+- `acc` est la valeur accumulée jusqu'ici.
+- Exemple (somme) : `[1,2,3].reduce(acc + value, 0)` retourne `6`.
+- Exemple (max) : `values.filter(value.isType("number")).reduce(if(acc == null || value > acc, value, acc), null)` retourne le plus grand nombre, ou `null` s'il n'y en a aucun.
 
 ### `reverse()`
 
 `list.reverse(): list`
 
-- Reverses the list in place.
-- Example: `[1,2,3].reverse()` returns `[3,2,1]`.
+- Inverse la liste sur place.
+- Exemple : `[1,2,3].reverse()` retourne `[3,2,1]`.
 
 ### `slice()`
 
 `list.slice(start: number, end?: number): list`
 
-- `start` is the inclusive start index.
-- `end` is the optional exclusive end index.
-- Returns a shallow copy of a portion of the list from `start` (inclusive) to `end` (exclusive).
-- Example: `[1,2,3,4].slice(1,3)` returns `[2,3]`.
-- If `end` is omitted, slices to the end of the list.
+- `start` est l'index de début inclusif.
+- `end` est l'index de fin exclusif optionnel.
+- Retourne une copie superficielle d'une portion de la liste de `start` (inclusif) à `end` (exclusif).
+- Exemple : `[1,2,3,4].slice(1,3)` retourne `[2,3]`.
+- Si `end` est omis, extrait jusqu'à la fin de la liste.
 
 ### `sort()`
 
 `list.sort(): list`
 
-- Sorts list elements from smallest to largest.
-- Example: `[3, 1, 2].sort()` returns `[1, 2, 3]`.
-- Example: `["c", "a", "b"].sort()` returns `["a", "b", "c"]`.
+- Trie les éléments de la liste du plus petit au plus grand.
+- Exemple : `[3, 1, 2].sort()` retourne `[1, 2, 3]`.
+- Exemple : `["c", "a", "b"].sort()` retourne `["a", "b", "c"]`.
 
 ### `unique()`
 
 `list.unique(): list`
 
-- Removes duplicate elements.
-- Example: `[1,2,2,3].unique()` returns `[1,2,3]`.
+- Supprime les éléments en double.
+- Exemple : `[1,2,2,3].unique()` retourne `[1,2,3]`.
 
-## Link
+## Lien
 
-Functions you can use on a link. Links can be created from a file (`file.asLink()`) or a path (`link("path")`).
+Fonctions utilisables sur un lien. Les liens peuvent être créés à partir d'un fichier (`file.asLink()`) ou d'un chemin (`link("path")`).
 
 ### `asFile()`
 
 `link.asFile(): file`
 
-- Returns a file object if the link refers to a valid local file.
-- Example: `link("[[filename]]").asFile()`
+- Retourne un objet fichier si le lien fait référence à un fichier local valide.
+- Exemple : `link("[[filename]]").asFile()`
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Returns whether the file represented by the `link` has a link to `file`.
+- Retourne si le fichier représenté par le `link` possède un lien vers `file`.
 
-## File
+## Fichier
 
-Functions you can use with file in the vault.
+Fonctions utilisables avec un fichier du coffre.
 
-### Fields
+### Champs
 
-The following fields are available for files:
+Les champs suivants sont disponibles pour les fichiers :
 
-| Field             | Type     | Description                                             |
-| ----------------- | -------- | ------------------------------------------------------- |
-| `file.name`       | `string` | The name of this file.                                  |
-| `file.basename`   | `string` | The name of this file without the file extension.       |
-| `file.path`       | `string` | The full path to this file, relative to the vault root. |
-| `file.folder`     | `string` | The full path to the parent folder.                     |
-| `file.ext`        | `string` | The file extension for this file.                       |
-| `file.size`       | `number` | The size of this file, in bytes.                        |
-| `file.properties` | `object` | The note properties for this file.                      |
-| `file.tags`       | `list`   | The tags for this file. Includes inline tags.           |
-| `file.links`      | `list`   | The internal links within this file.                    |
-| `file.ctime`      | `date`   | Timestamp of when this file was created.                |
-| `file.mtime`      | `date`   | Timestamp of when this file was last modified.          |
+| Champ             | Type     | Description                                                        |
+| ----------------- | -------- | ------------------------------------------------------------------ |
+| `file.name`       | `string` | Le nom de ce fichier.                                              |
+| `file.basename`   | `string` | Le nom de ce fichier sans l'extension.                             |
+| `file.path`       | `string` | Le chemin complet vers ce fichier, relatif à la racine du coffre.  |
+| `file.folder`     | `string` | Le chemin complet vers le dossier parent.                          |
+| `file.ext`        | `string` | L'extension de ce fichier.                                         |
+| `file.size`       | `number` | La taille de ce fichier, en octets.                                |
+| `file.properties` | `object` | Les propriétés de la note pour ce fichier.                         |
+| `file.tags`       | `list`   | Les mots-clés de ce fichier. Inclut les mots-clés en ligne.       |
+| `file.links`      | `list`   | Les liens internes dans ce fichier.                                |
+| `file.ctime`      | `date`   | Horodatage de la création de ce fichier.                           |
+| `file.mtime`      | `date`   | Horodatage de la dernière modification de ce fichier.              |
 
 ### `asLink()`
 
 `file.asLink(display?: string): Link`
 
-- `display` optional display text for the link.
-- Returns a Link object that renders as a functioning link.
-- Example: `file.asLink()`
+- `display` texte d'affichage optionnel pour le lien.
+- Retourne un objet Link qui s'affiche comme un lien fonctionnel.
+- Exemple : `file.asLink()`
 
 ### `hasLink()`
 
 `file.hasLink(otherFile: file | string): boolean`
 
-- `otherFile` is another file object or string path to check.
-- Returns true if `file` links to `otherFile`.
-- Example: `file.hasLink(otherFile)` returns `true` if there’s a link from `file` to `otherFile`.
+- `otherFile` est un autre objet fichier ou un chemin sous forme de chaîne à vérifier.
+- Retourne vrai si `file` a un lien vers `otherFile`.
+- Exemple : `file.hasLink(otherFile)` retourne `true` s'il existe un lien de `file` vers `otherFile`.
 
 ### `hasProperty()`
 
 `file.hasProperty(name: string): boolean`
 
-- Returns true if the note has the given file property.
+- Retourne vrai si la note possède la propriété de fichier donnée.
 
 ### `hasTag()`
 
 `file.hasTag(...values: string): boolean`
 
-- `values` are one or more tag names.
-- Returns true if the file has any of the tags in `values`.
-- Example: `file.hasTag("tag1", "tag2")` returns `true` if the file has tag `#tag1` or `#tag2`. It also includes any [[Tags#Nested tags|nested tags]], such as `#tag1/a` or `#tag2/b`.
+- `values` sont un ou plusieurs noms de mots-clés.
+- Retourne vrai si le fichier possède l'un des mots-clés dans `values`.
+- Exemple : `file.hasTag("tag1", "tag2")` retourne `true` si le fichier possède le mot-clé `#tag1` ou `#tag2`. Cela inclut également tous les [[Étiquettes#Nested tags|mots-clés imbriqués]], tels que `#tag1/a` ou `#tag2/b`.
 
 ### `inFolder()`
 
 `file.inFolder(folder: string): boolean`
 
-- `folder` is the folder name to check.
-- Returns true if the file is in the specified folder or one of its sub-folders.
-- Example: `file.inFolder("notes")` returns `true`.
+- `folder` est le nom du dossier à vérifier.
+- Retourne vrai si le fichier se trouve dans le dossier spécifié ou l'un de ses sous-dossiers.
+- Exemple : `file.inFolder("notes")` retourne `true`.
 
-## Object
+## Objet
 
-Functions you can use with a collection of key-value pairs such as `{"a": 1, "b": 2}`.
+Fonctions utilisables avec une collection de paires clé-valeur telle que `{"a": 1, "b": 2}`.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
-- Returns true if the object has no own properties.
-- Example: `{}.isEmpty()` returns `true`.
+- Retourne vrai si l'objet n'a pas de propriétés propres.
+- Exemple : `{}.isEmpty()` retourne `true`.
 
 ### `keys()`
 
 `object.keys(): list`
 
-- Returns a list containing the keys of the object.
+- Retourne une liste contenant les clés de l'objet.
 
 ### `values()`
 
 `object.values(): list`
 
-- Returns a list containing the values of the object.
+- Retourne une liste contenant les valeurs de l'objet.
 
-## Regular expression
+## Expression régulière
 
-Functions you can use with a regular expression pattern. Example: `/abc/`.
+Fonctions utilisables avec un motif d'expression régulière. Exemple : `/abc/`.
 
 ### `matches()`
 
 `regexp.matches(value: string): boolean`
 
-- `value` is the string to test.
-- Returns true if the regular expression matches `value`.
-- Example: `/abc/.matches("abcde")` returns `true`.
+- `value` est la chaîne à tester.
+- Retourne vrai si l'expression régulière correspond à `value`.
+- Exemple : `/abc/.matches("abcde")` retourne `true`.

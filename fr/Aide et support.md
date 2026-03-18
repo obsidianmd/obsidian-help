@@ -5,103 +5,102 @@ description: >-
   to contribute to Obsidian.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Help and support
 ---
+Trouvez des ressources d'assistance, signalez des problèmes de sécurité ou des violations communautaires, et apprenez comment contribuer à Obsidian.
 
-Find support resources, report security or community violations, and learn how to contribute to Obsidian.
+## Questions et conseils
 
-## Questions and advice
+Si vous avez une question sur l'utilisation d'Obsidian, ou si vous souhaitez faire connaissance avec d'autres utilisateurs d'Obsidian, vous pouvez rejoindre l'un de nos canaux communautaires :
 
-If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
+- [[Coffre bac à sable|Explorer le coffre de démonstration]]
+- [Rejoindre notre serveur Discord](https://discord.gg/obsidianmd)
+- [Visiter le forum](https://forum.obsidian.md/)
 
-- [[Sandbox vault|Explore the Sandbox vault]]
-- [Join our Discord server](https://discord.gg/obsidianmd)
-- [Visit the forum](https://forum.obsidian.md/)
+### Signaler des bugs et demander des fonctionnalités
 
-### Report bugs and request features
+> [!tip]- Vérifiez d'abord les doublons
+> Avant de demander une nouvelle fonctionnalité ou de signaler un bug, veuillez parcourir les autres publications pour vous assurer que personne ne l'a déjà soumis.
 
-> [!tip]- Check for duplicates first
-> Before you request a new feature or report a bug, please look through the other posts to make sure someone else hasn't already submitted it.
+Si vous souhaitez suggérer une fonctionnalité dans Obsidian, rendez-vous sur [Demandes de fonctionnalités](https://forum.obsidian.md/c/feature-requests/8).
 
-If you want to suggest a feature in Obsidian, head over to [Feature requests](https://forum.obsidian.md/c/feature-requests/8).
+Si vous souhaitez signaler un bug dans Obsidian, rendez-vous sur [Rapports de bugs](https://forum.obsidian.md/c/bug-reports/7). Les rapports de bugs sont déplacés vers le [Cimetière des bugs](https://forum.obsidian.md/c/bug-graveyard/12) une fois résolus.
 
-If you want to report a bug in Obsidian, head over to [Bug reports](https://forum.obsidian.md/c/bug-reports/7). Bug reports are moved to the [Bug graveyard](https://forum.obsidian.md/c/bug-graveyard/12) once they're resolved.
+### Collecter les informations de débogage
 
-### Collect debug information
+Lorsque vous rencontrez un bug ou avez besoin de l'aide de l'[[#Contacter l'assistance Obsidian|assistance Obsidian]], fournir les informations de débogage peut être très utile. Voici comment les obtenir :
 
-When you encounter a bug or need assistance from [[#Contact Obsidian support|Obsidian support]], providing debug information can be very helpful. Here's how to obtain it:
+1. Ouvrez la [[Palette de commandes|palette de commandes]].
+2. Tapez **Show debug info**.
+3. Sélectionnez l'option **Show debug info** mise en surbrillance.
+4. Sélectionnez **Copy to clipboard**.
+5. Collez les informations copiées dans votre rapport de bug ou votre courriel à l'assistance Obsidian.
 
-1. Open the [[Command palette]].
-2. Type **Show debug info**.
-3. Select the highlighted **Show debug info** option.
-4. Select **Copy to clipboard**.
-5. Paste the copied information into your bug report or Obsidian support email.
+### Vérifier le temps de démarrage
 
-### Check startup time
+Vous pouvez vérifier combien de temps Obsidian met à démarrer en utilisant la fonctionnalité **Startup time**.
 
-You can check how long Obsidian takes to start by using the **Startup time** feature.
+1. Ouvrez **[[Paramètres|Paramètres]] → Général → Avancé**.
+2. À côté de **Notify if startup takes longer than expected**, sélectionnez l'**icône de minuterie**.
+3. Une fenêtre **Startup time** apparaîtra, affichant des informations de chronométrage détaillées :
+   - **Total app startup** : temps de lancement global.
+   - **Initialization** : temps passé à charger l'application elle-même.
+   - **Vault** : temps de chargement des fichiers de votre coffre.
+   - **Workspace** : temps de restauration des onglets et de la disposition.
+   - **Core plugins** : temps utilisé par les modules principaux actifs.
+4. Vous pouvez sélectionner **Copy to clipboard** pour copier le rapport à des fins de dépannage ou de partage.
 
-1. Open **[[Settings]] → General → Advanced**.
-2. Next to **Notify if startup takes longer than expected**, select the **timer icon**.
-3. A **Startup time** window will appear, showing detailed timing information:
-   - **Total app startup**: Overall launch time.
-   - **Initialization**: Time spent loading the app itself.
-   - **Vault**: Time to load your vault files.
-   - **Workspace**: Time to restore tabs and layout.
-   - **Core plugins**: Time used by active core plugins.
-4. You can select **Copy to clipboard** to copy the report for troubleshooting or sharing.
+De plus, vous pouvez activer **Notify if startup takes longer than expected** pour recevoir un avertissement si le démarrage est anormalement lent.
 
-Additionally, you can toggle **Notify if startup takes longer than expected** to receive a warning if startup is unusually slow.
+### Capturer les journaux de la console
 
-### Capture console logs
+Lorsque vous devez signaler un bug lié à un module Obsidian ou lorsque l'[[#Contacter l'assistance Obsidian|assistance Obsidian]] vous demande de fournir des informations de journal, vous devrez peut-être accéder à la console Obsidian depuis l'application Obsidian. Voici comment procéder selon votre système d'exploitation :
 
-When you need to report a bug related to an Obsidian plugin or when requested by [[#Contact Obsidian support|Obsidian support]] to provide log information, you may need to access the Obsidian console from within the Obsidian application. Here’s how to do it based on your operating system:
+- **Windows/Linux** : `Ctrl+Shift+I`
+- **macOS** : `Command+Option+I`
 
-- **Windows/Linux**: `Ctrl+Shift+I`
-- **macOS**: `Command+Option+I`
+> [!info]+ Méthode d'accès alternative
+> Si vous utilisez le style de cadre de fenêtre **Obsidian frame**, vous pouvez également accéder à la console Obsidian via le menu du titre.
 
-> [!info]+ Alternative access method
-> If using the **Obsidian frame** Window frame style, you can also access the Obsidian console via the title menu. 
+Une fois la console de développement ouverte :
 
-Once you've opened the developer console:
-
-1. Select **console** in the top menu.
-2. Choose the **errors** side menu option. Any errors will be displayed as `# errors`.
-3. Select one of the red error messages.
-4. Choose the option to **Save as...** This will save all the errors in the console.
-5. Save the log file to your device.
-6. Attach the log file to your bug report or Obsidian support email.
+1. Sélectionnez **console** dans le menu supérieur.
+2. Choisissez l'option du menu latéral **errors**. Les erreurs éventuelles seront affichées sous la forme `# errors`.
+3. Sélectionnez l'un des messages d'erreur en rouge.
+4. Choisissez l'option **Save as...** Cela sauvegardera toutes les erreurs de la console.
+5. Enregistrez le fichier journal sur votre appareil.
+6. Joignez le fichier journal à votre rapport de bug ou votre courriel à l'assistance Obsidian.
 
 ![[help-support-console-menu.png#interface|600]]
 
-> [!warning]+ Mobile console access
-> Mobile devices and tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) to automatically generate the console log data in a markdown note.
+> [!warning]+ Accès à la console sur mobile
+> Les appareils mobiles et les tablettes ont un accès limité à leurs consoles de développement. Pour ces utilisateurs, nous recommandons d'utiliser le module complémentaire [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) pour générer automatiquement les données du journal de la console dans une note Markdown.
 
-### Contact Obsidian support
+### Contacter l'assistance Obsidian
 
-Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
+Obsidian offre une assistance par courriel uniquement pour les demandes concernant les [[Licence commerciale|licences commerciales]], votre compte, le paiement et les services complémentaires ([[Introduction à Obsidian Sync|Obsidian Sync]] et [[Introduction à Obsidian Publish|Obsidian Publish]]). Si vous avez besoin d'aide sur l'un de ces sujets, [envoyez un courriel à l'équipe Obsidian](mailto:support@obsidian.md).
 
-## Report a security issue
+## Signaler un problème de sécurité
 
-If you've discovered a security issue in Obsidian, or if you suspect that a plugin is malicious, please [email the Obsidian team](mailto:support@obsidian.md).
+Si vous avez découvert un problème de sécurité dans Obsidian, ou si vous soupçonnez qu'un module est malveillant, veuillez [envoyer un courriel à l'équipe Obsidian](mailto:support@obsidian.md).
 
-## Report a Code of Conduct violation
+## Signaler une violation du Code de conduite
 
-Whether you're a victim or witness of a violation of our [[Community code of conduct]], you can report the incident to our moderator team
+Que vous soyez victime ou témoin d'une violation de notre [[Code de conduite de la communauté|Code de conduite communautaire]], vous pouvez signaler l'incident à notre équipe de modération.
 
-Report the incident on one of the following community channels:
+Signalez l'incident sur l'un des canaux communautaires suivants :
 
-- [[Community code of conduct#Report on Discord|Report on Discord]]
-- [[Community code of conduct#Report on the forum|Report on the forum]]
+- [[Code de conduite de la communauté#Report on Discord|Signaler sur Discord]]
+- [[Code de conduite de la communauté#Report on the forum|Signaler sur le forum]]
 
-## Contributing to Obsidian
+## Contribuer à Obsidian
 
-Interested in applying some skills and free time to Obsidian? Here is where we could really use your assistance:
+Vous souhaitez mettre vos compétences et votre temps libre au service d'Obsidian ? Voici les domaines où nous avons vraiment besoin de votre aide :
 
-- Help your fellow Obsidian users out by answering questions on our [discord server](https://discord.gg/obsidianmd), our [forum](https://forum.obsidian.md/), or the [ObsidianMD](https://old.reddit.com/r/ObsidianMD/) reddit.
-- [[Developers]], we could really use your help on expanding our [Obsidian Developer Documentation](https://github.com/obsidianmd/obsidian-developer-docs). 
-- Do you know any written language besides English? Consider assisting with our [[Translations]] into other languages.
-- Is there something in these help docs that are out of date, or confusing? Grab the [[Style guide]] and submit an [issue and pull request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
-- If able, you can [[Financial contributions|financially contribute]] by utilizing one of our paid add-ons. 
+- Aidez vos collègues utilisateurs d'Obsidian en répondant aux questions sur notre [serveur Discord](https://discord.gg/obsidianmd), notre [forum](https://forum.obsidian.md/), ou le reddit [ObsidianMD](https://old.reddit.com/r/ObsidianMD/).
+- [[Développeurs|Développeurs]], nous avons vraiment besoin de votre aide pour enrichir notre [Documentation pour développeurs Obsidian](https://github.com/obsidianmd/obsidian-developer-docs).
+- Connaissez-vous une langue écrite autre que l'anglais ? Envisagez de contribuer à nos [[Traductions|Traductions]] dans d'autres langues.
+- Y a-t-il quelque chose dans cette documentation d'aide qui est obsolète ou confus ? Consultez le [[Guide de style|Guide de style]] et soumettez un [ticket et une pull request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+- Si vous le pouvez, vous pouvez [[Contributions financières|contribuer financièrement]] en utilisant l'un de nos services complémentaires payants.

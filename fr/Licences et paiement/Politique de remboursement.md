@@ -8,17 +8,17 @@ aliases:
 ---
 We offer full refunds within 7 days of purchase with no questions asked for the following services:
 
-- [[Introduction to Obsidian Publish|Obsidian Publish]]
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Introduction à Obsidian Publish|Obsidian Publish]]
+- [[Introduction à Obsidian Sync|Obsidian Sync]]
 
 > [!Warning] Non-refundable purchases
 > Some purchases are **not** refundable:
 > 
-> - [[Catalyst license|Catalyst licenses]] and [[Commercial license|Commercial licenses]] are not refundable. They are intended to support Obsidian development and are not services.
-> - [[Obsidian Credit]] is not refundable because credit can be transferred to another account.
+> - [[Licence Catalyst|Catalyst licenses]] and [[Licence commerciale|Commercial licenses]] are not refundable. They are intended to support Obsidian development and are not services.
+> - [[Crédit Obsidian]] is not refundable because credit can be transferred to another account.
 
 > [!tip] Talk to a human
-> If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, [[Help and support#Contact Obsidian support|contact Obsidian support]].
+> If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]].
 
 ## Request a refund
 
@@ -36,7 +36,7 @@ Refunding an Obsidian Sync or Obsidian Publish subscription results in the delet
 No, your data is retained in such cases for 30 days. If you do not resubscribe within that period, your remote vault or publish site data will be deleted. Your local data will remain unaffected.
 
 **If I qualify for a discount but have paid for my subscription in the past 7 days, what should I do?**
-Please contact [[Help and support#Contact Obsidian support|Obsidian support]] so we can assess your options.
+Please contact [[Aide et support#Contacter l'assistance Obsidian|Obsidian support]] so we can assess your options.
 ^discount-then-refund
 
 **I purchased my subscription a few weeks ago and now qualify for a discount. Can I get a partial refund?**

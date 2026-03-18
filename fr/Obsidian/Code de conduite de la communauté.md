@@ -55,7 +55,7 @@ This is a large and active community. Please be respectful of others' attention 
 
 **Community plugins and themes**: For bug reports and feature requests, please open a GitHub issue rather than pinging the developer in Discord.
 
-**Security concerns**: If you have a security issue to report about the application, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+**Security concerns**: If you have a security issue to report about the application, please [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]].
 
 Instructions for reporting violations of our code of conduct can be found below in [[#Report violations]]. We appreciate your cooperation in following these guidelines to maintain a positive and respectful environment within the Obsidian community.
 
@@ -77,7 +77,7 @@ Campaigning is continuously making the same requests. This applies to both featu
 
 #### Excessive self promotion
 
-We encourage sharing what you’ve made for Obsidian—guides, videos, utilities, tools, and more. It’s awesome to see what folks in the community are creating. As a content creator, it’s natural to link to your own work, and we provide a place for that in the `#content-update` channel on our [[Help and support#Questions and advice|Discord]].
+We encourage sharing what you’ve made for Obsidian—guides, videos, utilities, tools, and more. It’s awesome to see what folks in the community are creating. As a content creator, it’s natural to link to your own work, and we provide a place for that in the `#content-update` channel on our [[Aide et support#Questions et conseils|Discord]].
 
 But there are limits.
 
@@ -121,7 +121,7 @@ The Code of Conduct is enforced by our moderators, but we can’t monitor every 
 
 Even if you’re not directly involved, you’re encouraged to report any concerning behavior. We’ll keep your identity as confidential as possible.
 
-If your report is related to a security concern with Obsidian itself, please [[Help and support#Contact Obsidian support|email Obsidian support]] directly.
+If your report is related to a security concern with Obsidian itself, please [[Aide et support#Contacter l'assistance Obsidian|email Obsidian support]] directly.
 
 ### Report on Discord
 
@@ -148,7 +148,7 @@ If our moderators witness or receive a report about [[#other offenses]], we will
 
 ## Appealing a ban
 
-If you believe you were banned in error, you may [[Help and support#Contact Obsidian support|contact Obsidian support]] with your Discord, Forum, or Reddit username, along with the date of the ban. A member of the Obsidian team will review your case with the moderating team and provide a decision once the review is complete.
+If you believe you were banned in error, you may [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]] with your Discord, Forum, or Reddit username, along with the date of the ban. A member of the Obsidian team will review your case with the moderating team and provide a decision once the review is complete.
 
 Please note that all appeal decisions are final and cannot be further appealed.
 

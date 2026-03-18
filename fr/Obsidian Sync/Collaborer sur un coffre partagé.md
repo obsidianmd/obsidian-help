@@ -7,11 +7,11 @@ localized: null
 aliases:
   - Collaborate on a shared vault
 ---
-With [[Introduction to Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team.
+With [[Introduction à Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team.
 
-All collaborators must have an active Sync subscription to access a shared vault. Joining a shared vault does not count towards your [[Frequently asked questions#How many remote vaults can I have?|vault limit]].
+All collaborators must have an active Sync subscription to access a shared vault. Joining a shared vault does not count towards your [[Questions fréquentes#How many remote vaults can I have?|vault limit]].
 
-If the remote vault is [[Obsidian Sync/Security and privacy|end-to-end encrypted]], collaborators must enter the encryption password when they set up the vault.
+If the remote vault is [[Obsidian Sync/Sécurité et confidentialité|end-to-end encrypted]], collaborators must enter the encryption password when they set up the vault.
 
 ## Manage users
 
@@ -19,7 +19,7 @@ If the remote vault is [[Obsidian Sync/Security and privacy|end-to-end encrypted
 
 To invite a user to share a remote vault:
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. In the side menu, select **Sync**.
 3. Next to **Remote vault**, select **Manage**.
 4. Next to the remote vault you want to share, select **Manage sharing** ( ![[lucide-users.svg#icon]] ).
@@ -28,7 +28,7 @@ To invite a user to share a remote vault:
 
 ### Remove users
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. In the side menu, select **Sync**.
 3. Next to **Remote vault**, select **Manage**.
 4. Next to the user you want to remove access from, select **Remove user** ( ![[lucide-x.svg#icon]] ).
@@ -43,15 +43,15 @@ Fine-grained permissions are not supported yet. All collaborators receive the sa
 
 Shared vaults allow teams to work together on a set of files, however Obsidian does not yet support collaborative live editing on the same file. You will not see the other user's cursor, and their edits will only appear once the changes are synced.
 
-If multiple users are editing the same file at the same time, [[Troubleshoot Obsidian Sync#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Version history]].
+If multiple users are editing the same file at the same time, [[Résoudre les problèmes d'Obsidian Sync#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Version history]].
 
 ![[version-history-collaboration.png]]^version-history-image
 
 ## Limitations
 
-Be aware that Obsidian Sync has [[Frequently asked questions|Limitations]] that may affect your team:
+Be aware that Obsidian Sync has [[Questions fréquentes|Limitations]] that may affect your team:
 
 - The maximum number of collaborators on a shared vault is 20 users.
-- The maximum file size for attachments depends on the [[Plans and storage limits|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
+- The maximum file size for attachments depends on the [[Forfaits et limites de stockage|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
 
-Learn more about [[Syncing for teams]].
+Learn more about [[Sync pour les équipes]].

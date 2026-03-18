@@ -10,7 +10,7 @@ aliases:
   - Configuration folder
 ---
 
-Obsidian's configuration folder contains all the settings files pertaining to your [[Manage vaults|vault]].
+Obsidian's configuration folder contains all the settings files pertaining to your [[Gérer les coffres|vault]].
 
 By default, your configuration folder is named `.obsidian` and placed in the vault folder. When using a syncing service, or if you wish to test different profiles in the same vault, you may want to change your config folder. 
 
@@ -46,7 +46,7 @@ To access the `.obsidian` folder on Android:
 
 To set your config folder:
 
-1. Open **[[Settings]] → Files and Links**.
+1. Open **[[Paramètres]] → Files and Links**.
 2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-awesome`.
 3. Relaunch Obsidian to have the changes take effect. 
 

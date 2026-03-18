@@ -10,9 +10,9 @@ aliases:
   - Sidebar
 ---
 
-Obsidian has two sidebars: a left sidebar and a right sidebar. Sidebars hold tabs created by plugins, such as [[Backlinks]], [[Outgoing links]], and the [[File explorer]]. On desktop, you can also drag notes into the sidebar to keep them visible alongside your main editor. 
+Obsidian has two sidebars: a left sidebar and a right sidebar. Sidebars hold tabs created by plugins, such as [[Liens retour]], [[Liens sortants]], and the [[Explorateur de fichiers]]. On desktop, you can also drag notes into the sidebar to keep them visible alongside your main editor. 
 
-On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
+On desktop and larger tablets, the left sidebar includes the [[Ruban]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
 
 ## Open hidden sidebars
 
@@ -26,7 +26,7 @@ On mobile and smaller tablets, you can open hidden sidebars in the following way
 
 - Swipe left or right
 - Select the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) icon (left sidebar only)
-- Use the *Toggle left* or *Toggle right* [[Command palette]] options. 
+- Use the *Toggle left* or *Toggle right* [[Palette de commandes]] options. 
 
 ## Tabs
 
@@ -41,8 +41,8 @@ In each pane, you can only see one tab at any given moment. Some actions automat
 There are several ways to add tabs to your sidebars:
 
 - **Enable a plugin**: Many plugins automatically create sidebar tabs when enabled. Go to **Settings → Community plugins** (or **Core plugins**) and enable the plugin for the tab you want.
-- **Run a command**: Use the [[Command palette]] to search for commands that open specific tabs. For example, search for "Backlinks" or "Outgoing links" to open those tabs.
-- **Drag a note** (desktop only): On desktop, you can drag a note from the [[File explorer]] or from an editor tab into the sidebar to open it there.
+- **Run a command**: Use the [[Palette de commandes]] to search for commands that open specific tabs. For example, search for "Backlinks" or "Outgoing links" to open those tabs.
+- **Drag a note** (desktop only): On desktop, you can drag a note from the [[Explorateur de fichiers]] or from an editor tab into the sidebar to open it there.
 
 If you've closed a tab and want to get it back, these same methods will reopen it.
 
@@ -65,9 +65,9 @@ To pin or unpin a tab to the sidebar, drag the tab over to or from the sidebar.
 The behavior of a pinned tab within the sidebar depends on its content type:
 
 - **Notes and Bases**: A pinned note or base tab stays in place. New notes open as separate tabs in the main editor instead of replacing the pinned tab.
-- **Panes** (like [[Backlinks]] or [[Outgoing links]]): A pinned pane stays focused on the last selected note. Selecting a different note does not update the pinned pane.
+- **Panes** (like [[Liens retour]] or [[Liens sortants]]): A pinned pane stays focused on the last selected note. Selecting a different note does not update the pinned pane.
 
-For information about pinning tabs in the main editor, see [[Tabs#Pin a tab|Pin a tab]].
+For information about pinning tabs in the main editor, see [[Onglets#Pin a tab|Pin a tab]].
 
 ## Tab groups
 

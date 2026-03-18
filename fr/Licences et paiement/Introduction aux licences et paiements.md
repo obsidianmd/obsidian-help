@@ -9,18 +9,18 @@ aliases:
 ---
 Obsidian offers several services and licenses available for purchase.
 
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Introduction à Obsidian Sync|Obsidian Sync]]
 	- Sync notes across devices.
-- [[Introduction to Obsidian Publish|Obsidian Publish]]
+- [[Introduction à Obsidian Publish|Obsidian Publish]]
 	- Publish notes to the web.
-- [[Obsidian Credit]]
+- [[Crédit Obsidian]]
 	- Purchase and Gift Obsidian services.
-- [[Commercial license]]
+- [[Licence commerciale]]
 	- Support Obsidian and become a featured organization.
-- [[Catalyst license]]
+- [[Licence Catalyst]]
 	- Support Obsidian and get early access versions.
 
- [[Education and non-profit discount|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Refund policy]] for more information.
+ [[Réduction éducation et associations|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Politique de remboursement]] for more information.
 
 ## Purchase a service or license
 

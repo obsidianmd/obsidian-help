@@ -10,25 +10,25 @@ localized: null
 
 Use callouts to include additional content without breaking the flow of your notes.
 
-To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]]. Callouts are also supported natively on [[Introduction to Obsidian Publish|Obsidian Publish]].
+To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]]. Callouts are also supported natively on [[Introduction à Obsidian Publish|Obsidian Publish]].
 
 ```markdown
 > [!info] Here's a callout title
 > Here's a callout block.
-> It supports **Markdown**, [[Internal link|Wikilinks]], and [[Embed files|embeds]]!
+> It supports **Markdown**, [[Internal link|Wikilinks]], and [[Incorporer des fichiers|embeds]]!
 > ![[Engelbart.jpg]]
 ```
 
 > [!info] Here's a callout title
 > Here's a callout block.
-> It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embed files|embeds]]!
+> It supports **Markdown**, [[Liens internes|Wikilinks]] and [[Incorporer des fichiers|embeds]]!
 > ![[Engelbart.jpg]]
 
-You can insert a default `[!note]` callout using the `Insert callout` [[Command palette|command]]. The cursor automatically positions in the callout name field, letting you delete the default name and type a new one before editing the content.
+You can insert a default `[!note]` callout using the `Insert callout` [[Palette de commandes|command]]. The cursor automatically positions in the callout name field, letting you delete the default name and type a new one before editing the content.
 
 To wrap existing content in a callout, select the text (including lists, code blocks, etc.) and run the `Insert callout` command. The selected content will be automatically enclosed in the callout.
 
-In [[Views and editing mode#Live Preview|Live Preview]], you can also right-click the callout name to change the callout type.
+In [[Vues et mode d'édition#Live Preview|Live Preview]], you can also right-click the callout name to change the callout type.
 
 
 ### Change the title
@@ -81,7 +81,7 @@ You can nest callouts in multiple levels.
 
 ### Customize callouts
 
-[[CSS snippets]] and [[Community plugins]] can define custom callouts, or even overwrite the default configuration.
+[[Extraits CSS]] and [[Plugins communautaires]] can define custom callouts, or even overwrite the default configuration.
 
 To define a custom callout, create the following CSS block:
 
@@ -99,7 +99,7 @@ The value of the `data-callout` attribute is the type identifier you want to use
 
 > [!warning] Note about lucide icon versions
 > Obsidian updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.
-> ![[Credits#^lucide]]
+> ![[Crédits#^lucide]]
 
 > [!tip] SVG icons
 > Instead of using a Lucide icon, you can also use a SVG element as the callout icon.

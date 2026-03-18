@@ -6,7 +6,7 @@ aliases:
 ---
 ## Prerequisites
 
-To use analytics on your [[Introduction to Obsidian Publish|Obsidian Publish]] site, you need a [[Custom domains|custom domain]].
+To use analytics on your [[Introduction à Obsidian Publish|Obsidian Publish]] site, you need a [[Domaines personnalisés|custom domain]].
 
 > [!important]
 > Before you enable analytics, make sure that your local laws and regulations allow you to track your visitors. Depending the tools you use, you may need to add a consent banner to your site.
@@ -23,7 +23,7 @@ To use Google Tag Manager instead of Google Analytics, use custom JavaScript to 
 
 ## Plausible, Fathom, and other analytics services
 
-You can add most analytics services to your site via your [[Customize your site|publish.js]] file. Make sure to replace `yourdomain.com` with your domain, and the script `src` with the script from your analytics provide.
+You can add most analytics services to your site via your [[Personnaliser votre site|publish.js]] file. Make sure to replace `yourdomain.com` with your domain, and the script `src` with the script from your analytics provide.
 
 Here is an example using [Plausible Analytics](https://plausible.io/)
 

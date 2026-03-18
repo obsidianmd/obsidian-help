@@ -4,7 +4,7 @@ localized: null
 aliases:
   - Filters
 ---
-Filters allow you to modify [[variables]] in [[Obsidian Web Clipper/Templates|Web Clipper templates]]. Filters are applied to variables using the syntax `{{variable|filter}}`.
+Filters allow you to modify [[variables]] in [[Obsidian Web Clipper/Modèles|Web Clipper templates]]. Filters are applied to variables using the syntax `{{variable|filter}}`.
 
 - Filters work for any kind of [[Variables|variable]] including `prompt`, `meta`, `selector`, and `schema` variables.
 - Filters can be chained, e.g. `{{variable|filter1|filter2}}`, and are applied in the order they are added.
@@ -118,7 +118,7 @@ Converts a value to uppercase, e.g. `"hello world"|upper` returns `"HELLO WORLD"
 
 ## Text formatting
 
-Apply [[Basic formatting syntax]] and [[Advanced formatting syntax]] to text.
+Apply [[Syntaxe de mise en forme de base]] and [[Syntaxe de mise en forme avancée]] to text.
 
 ### `blockquote` 
 
@@ -156,7 +156,7 @@ Converts strings, arrays, or objects into Markdown image syntax.
 
 ### `link`
 
-Converts strings, arrays, or objects into Markdown link syntax (not to be confused with [[Filters#`wikilink`|wikilink]]).
+Converts strings, arrays, or objects into Markdown link syntax (not to be confused with [[Filtres#`wikilink`|wikilink]]).
 
 - For strings: `"url"|link:"author"` returns `[author](url)`.
 - For arrays: `["url1","url2"]|link:"author"` returns an array of Markdown links with the same text for all links.
@@ -173,7 +173,7 @@ Converts an array to a Markdown list.
 
 ### `table`
 
-Converts an array or array of objects into a [[Advanced formatting syntax#Tables|Markdown table]]:
+Converts an array or array of objects into a [[Syntaxe de mise en forme avancée#Tables|Markdown table]]:
 
 - For an array of objects, it uses the object keys as headers.
 - For an array of arrays, it creates a table with each nested array as a row.
@@ -182,7 +182,7 @@ Converts an array or array of objects into a [[Advanced formatting syntax#Tables
 
 ### `wikilink`
 
-Converts strings, arrays, or objects into Obsidian [[Link notes|wikilink]] syntax.
+Converts strings, arrays, or objects into Obsidian [[Lier des notes|wikilink]] syntax.
 
 - For strings: `"page"|wikilink` returns `[[page]]`.
 - For strings with alias: `"page"|wikilink:"alias"` returns `[[page|alias]]`.

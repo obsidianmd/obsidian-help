@@ -7,7 +7,7 @@ aliases:
 
 This page lists default keyboard shortcuts for navigating and editing text in Obsidian. These shortcuts are provided by your operating system or the framework Obsidian is built on, and cannot be customized within Obsidian.
 
-For customizable keyboard shortcuts for Obsidian commands, see [[Hotkeys]].
+For customizable keyboard shortcuts for Obsidian commands, see [[Raccourcis clavier]].
 
 ## Windows and Linux shortcuts
 

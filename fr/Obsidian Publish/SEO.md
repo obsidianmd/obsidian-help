@@ -2,13 +2,13 @@
 permalink: publish/seo
 localized: null
 ---
-[[Introduction to Obsidian Publish|Obsidian Publish]] sites are automatically optimized for search engines and [[Social media link previews|social sharing cards]]. You can also customize page metadata with descriptions, permalinks, and images.
+[[Introduction à Obsidian Publish|Obsidian Publish]] sites are automatically optimized for search engines and [[Aperçus de liens sur les réseaux sociaux|social sharing cards]]. You can also customize page metadata with descriptions, permalinks, and images.
 
-Note that you can disallow search engine indexing, in your [[Manage sites#Site Options|site options]].
+Note that you can disallow search engine indexing, in your [[Gérer les sites#Site Options|site options]].
 
 ### Google Search Console
 
-To track SEO with Google, register your site on [Google Search Console](https://search.google.com/search-console). You can also follow our recommended steps to [[Analytics|set up Google Analytics]].
+To track SEO with Google, register your site on [Google Search Console](https://search.google.com/search-console). You can also follow our recommended steps to [[Analytiques|set up Google Analytics]].
 
 ### Sitemap
 
@@ -20,16 +20,16 @@ https://help.obsidian.md/rss.xml
 
 ### Permalinks
 
-Consider using [[Permalinks]] to define permanent URLs on your site.
+Consider using [[Permaliens]] to define permanent URLs on your site.
 
 ### Metadata
 
-Page metadata can be customized using [[Properties#Properties for Obsidian Publish|Properties]], which can be useful for [[Social media link previews|social sharing cards]].
+Page metadata can be customized using [[Propriétés#Properties for Obsidian Publish|Properties]], which can be useful for [[Aperçus de liens sur les réseaux sociaux|social sharing cards]].
 
 | Property      | Description                                                                                                       |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publish your content#Automatically select notes to publish\|Automatically select notes to publish]]. |
+| `publish`     | See [[Publier votre contenu#Automatically select notes to publish\|Automatically select notes to publish]]. |
 | `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
-| `description` | See [[Social media link previews#Description\|Description]].                                                      |
-| `image`       | See [[Social media link previews#Image\|Image]].                                                                  |
-| `cover`       | See [[Social media link previews#Image\|Image]].                                                                  |
+| `description` | See [[Aperçus de liens sur les réseaux sociaux#Description\|Description]].                                                      |
+| `image`       | See [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                                  |
+| `cover`       | See [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                                  |

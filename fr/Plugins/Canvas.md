@@ -2,7 +2,7 @@
 permalink: plugins/canvas
 localized: null
 ---
-Canvas is a [[Core plugins|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
+Canvas is a [[Plugins principaux|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
 
 Visual note-taking helps you to make sense of your notes by organizing them in a 2D space. Connect notes with lines and group related notes together to better understand the relationship between them.
 
@@ -14,12 +14,12 @@ To start using Canvas, you first need to create a file to hold your canvas. You 
 
 **Command palette:**
 
-1. Open the [[Command palette]].
+1. Open the [[Palette de commandes]].
 2. Select **Canvas: Create new canvas** to create a canvas in the same folder as the active file.
 
 **File explorer:**
 
-- In the [[File explorer]], right-click the folder you want to create the canvas in.
+- In the [[Explorateur de fichiers]], right-click the folder you want to create the canvas in.
 - Select **New canvas**.
 
 **Ribbon:**
@@ -49,7 +49,7 @@ To convert a text card to a file:
 2. Enter the note name and then select **Save**.
 
 > [!note]
-> Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
+> Text-only cards don't appear in [[Liens retour]]. To make them appear, you need to convert them to a file.
 
 ### Add cards from notes
 
@@ -63,7 +63,7 @@ You can also add notes from the canvas context menu:
 1. Right-click the canvas and then select **Add note from vault**.
 2. Select the note you want to add.
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+Or, you can add them to the canvas by dragging the file from the [[Explorateur de fichiers]].
 
 ### Add cards from media
 
@@ -77,7 +77,7 @@ You can also add media from the canvas context menu:
 1. Right-click the canvas and then select **Add media from vault**.
 2. Select the media file you want to add.
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+Or, you can add them to the canvas by dragging the file from the [[Explorateur de fichiers]].
 
 ### Add cards from web pages
 

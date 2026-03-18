@@ -1,41 +1,41 @@
 ---
 permalink: bases/views/cards
-localized: null
+localized: '2026-03-18'
 aliases:
   - Cards view
 ---
-Cards is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+Cartes est un type d'[[Vues|affichage]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]].
 
-Select ![[lucide-layout-grid.svg#icon]]  **Cards** from the view menu to display files as a gallery-like grid layout with optional cover images.
+Sélectionnez ![[lucide-layout-grid.svg#icon]]  **Cartes** depuis le menu d'affichage pour présenter les fichiers sous forme de grille de type galerie avec des images de couverture optionnelles.
 
-## Settings
+## Paramètres
 
-Card view settings can be configured in [[Views#View settings|View settings]].
+Les paramètres de l'affichage Cartes peuvent être configurés dans les [[Vues#Paramètres d'affichage|Paramètres d'affichage]].
 
-- Card size
-- Image property
-- Image fit
-- Image aspect ration
+- Taille des cartes
+- Propriété d'image
+- Ajustement de l'image
+- Ratio d'aspect de l'image
 
-### Card size
+### Taille des cartes
 
-Defines the width of a card.
+Définit la largeur d'une carte.
 
-### Image property
+### Propriété d'image
 
-Cards support an optional cover image, which is [[Properties|property]] that's displayed as an image at the top of the card. The property can be any of the following:
+Les cartes prennent en charge une image de couverture optionnelle, qui est une [[Propriétés|propriété]] affichée sous forme d'image en haut de la carte. La propriété peut être l'une des suivantes :
 
-- A link to a local [[Attachments|attachment]] `"[[link/to/attachment.jpg]]"`
-- An external link (URL)
-- A hex color code (`#000000`)
+- Un lien vers une [[Pièces jointes|pièce jointe]] locale `"[[lien/vers/piece-jointe.jpg]]"`
+- Un lien externe (URL)
+- Un code couleur hexadécimal (`#000000`)
 
-### Image fit
+### Ajustement de l'image
 
-If you have an image property configured, this option will determine how the image should be displayed in the card.
+Si vous avez configuré une propriété d'image, cette option détermine comment l'image doit être affichée dans la carte.
 
-- **Cover:** The image fills the card's content box. If it does not fit, the image will be cropped.
-- **Contain:** The image is scaled until it fits within the card's content box. The image will not be cropped.
+- **Couvrir :** L'image remplit la zone de contenu de la carte. Si elle ne tient pas, l'image sera recadrée.
+- **Contenir :** L'image est mise à l'échelle jusqu'à ce qu'elle tienne dans la zone de contenu de la carte. L'image ne sera pas recadrée.
 
-### Image aspect ratio
+### Ratio d'aspect de l'image
 
-The height of the cover image is determined by its aspect ratio. The default aspect ratio is 1:1 meaning all your images will be square. Adjust this option to make the image shorter or taller.
+La hauteur de l'image de couverture est déterminée par son ratio d'aspect. Le ratio d'aspect par défaut est 1:1, ce qui signifie que toutes vos images seront carrées. Ajustez cette option pour rendre l'image plus courte ou plus haute.

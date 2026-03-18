@@ -6,40 +6,40 @@ cssclasses:
 description: >-
   Create database-like views of your notes, formatted as tables or cards. Edit,
   sort, and filter files using their properties.
-localized: null
+localized: '2026-03-18'
 aliases:
   - Introduction to Bases
 ---
-Bases is a [[Core plugins|core plugin]] that lets you create database-like views of your notes. Using a base you can view, edit, sort, and filter files and their [[Properties|properties]]. Bases can help you organize everything from projects to travel plans, reading lists, and more.
+Bases est un [[Plugins principaux|module principal]] qui vous permet de créer des vues similaires à des bases de données pour vos notes. En utilisant une base, vous pouvez afficher, modifier, trier et filtrer des fichiers et leurs [[Propriétés|propriétés]]. Les bases peuvent vous aider à organiser tout, des projets aux plans de voyage, listes de lecture, et bien plus encore.
 
-Each base can have several [[Views|views]] with different layouts such as tables and cards. Below is an example of table view where each row is a file, and each column is a property of that file.
+Chaque base peut avoir plusieurs [[Vues|vues]] avec différentes dispositions telles que des tableaux et des cartes. Ci-dessous un exemple de vue en tableau où chaque ligne est un fichier, et chaque colonne est une propriété de ce fichier.
 
-![Example of a base showing a table view with a list of books](bases-noshadow.png#interface)
+![Exemple d'une base affichant une vue en tableau avec une liste de livres](bases-noshadow.png#interface)
 
-All the data in Obsidian Bases is stored in your local [[Basic formatting syntax|Markdown]] files and their [[properties]]. The views are described by the [[Bases syntax]], which can be saved as a `.base` file or [[Create a base#Embed a base|embedded]] in code blocks within your Markdown files.
+Toutes les données dans Obsidian Bases sont stockées dans vos fichiers [[Syntaxe de mise en forme de base|Markdown]] locaux et leurs [[Propriétés|propriétés]]. Les vues sont décrites par la [[Syntaxe des Bases|syntaxe Bases]], qui peut être enregistrée comme fichier `.base` ou [[Créer une base#Intégrer une base|intégrée]] dans des blocs de code au sein de vos fichiers Markdown.
 
-## How to use bases
+## Comment utiliser les bases
 
-- [[Create a base]]
-	- Learn how to create and embed a base.
-- [[Views]]
-	- Explore layouts, filter, sort, and group properties.
-- [[Formulas]]
-	- Create calculations using data from other properties.
-- [[Functions]]
-	- Functions you can use in formulas and filters.
-- [[Bases syntax]]
-	- How base files are formatted.
+- [[Créer une base|Créer une base]]
+	- Apprenez comment créer et intégrer une base.
+- [[Vues|Vues]]
+	- Explorez les dispositions, filtrez, triez et regroupez les propriétés.
+- [[Formules|Formules]]
+	- Créez des calculs à partir des données d'autres propriétés.
+- [[Fonctions|Fonctions]]
+	- Fonctions utilisables dans les formules et les filtres.
+- [[Syntaxe des Bases|Syntaxe Bases]]
+	- Comment les fichiers base sont formatés.
 
-## View types
+## Types de vues
 
-View can be displayed with different layouts. Additional layouts can be added by [[Community plugins]].
+Les vues peuvent être affichées avec différentes dispositions. Des dispositions supplémentaires peuvent être ajoutées par les [[Plugins communautaires|modules complémentaires]].
 
-- [[Table view|Table]]
-	- Display files as rows with columns that show properties of those files.
-- [[List view|List]]
-	- Display files as a list with bulleted or numbered markers.
-- [[Cards view|Cards]]
-	- Display files as a grid. Lets you create gallery-like views with images.
-- [[Map view|Map]]
-	- Display files as pins on an interactive map.
+- [[Vue tableau|Tableau]]
+	- Affichez les fichiers sous forme de lignes avec des colonnes montrant les propriétés de ces fichiers.
+- [[Vue liste|Liste]]
+	- Affichez les fichiers sous forme de liste avec des marqueurs à puces ou numérotés.
+- [[Vue cartes|Cartes]]
+	- Affichez les fichiers sous forme de grille. Permet de créer des vues de type galerie avec des images.
+- [[Vue carte|Carte]]
+	- Affichez les fichiers sous forme d'épingles sur une carte interactive.

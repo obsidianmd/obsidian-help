@@ -12,7 +12,7 @@ Currently, Importer only supports migrating from Apple Notes on macOS. It is not
 
 You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.
@@ -43,5 +43,5 @@ Apple does not provide a native option to export your notes. However several thi
 
 Depending on the tool you used, the export may be in Markdown format or HTML format. Follow instructions based on the file format you exported to: 
 
-- [[Import HTML files]]
-- [[Import Markdown files]]
+- [[Importer des fichiers HTML]]
+- [[Importer des fichiers Markdown]]

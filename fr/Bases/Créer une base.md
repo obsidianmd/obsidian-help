@@ -1,38 +1,38 @@
 ---
 permalink: bases/create-base
-localized: null
+localized: '2026-03-18'
 aliases:
   - Create a base
 ---
-[[Introduction to Bases|Bases]] let you create database-like views of your notes. Here's how you can create a base and embed it in a note. Every base can have one or more [[Views|views]] to display information in different ways.
+[[Introduction aux Bases|Les bases]] vous permettent de créer des vues de type base de données de vos notes. Voici comment créer une base et l'intégrer dans une note. Chaque base peut avoir une ou plusieurs [[Vues|vues]] pour afficher les informations de différentes manières.
 
-## Create a new base
+## Créer une nouvelle base
 
-**Command palette:**
+**Palette de commandes :**
 
-1. Open the **Command palette**.
-2. Select
-	- **Bases: Create new base** to create a base in the same folder as the active file.
-	- **Bases: Insert new base** to create a base and embed it in the current file.
+1. Ouvrez la **palette de commandes**.
+2. Sélectionnez
+	- **Bases: Create new base** pour créer une base dans le même dossier que le fichier actif.
+	- **Bases: Insert new base** pour créer une base et l'intégrer dans le fichier courant.
 
-**File explorer:**
+**Explorateur de fichiers :**
 
-1. In the File explorer, right-click the folder you want to create the base in.
-2. Select **New base**.
+1. Dans l'explorateur de fichiers, faites un clic droit sur le dossier dans lequel vous souhaitez créer la base.
+2. Sélectionnez **New base**.
 
-**Ribbon:**
+**Ruban :**
 
-- In the vertical ribbon menu, select **Create new base** to create a base in the same folder as the active file.
+- Dans le menu vertical du ruban, sélectionnez **Create new base** pour créer une base dans le même dossier que le fichier actif.
 
-## Embed a base
+## Intégrer une base
 
-### Embed a base file
+### Intégrer un fichier base
 
-You can embed base files in [[Embed files|any other file]] using the `![[File.base]]` syntax. To specify the default view use `![[File.base#View]]`.
+Vous pouvez intégrer des fichiers base dans [[Incorporer des fichiers|n'importe quel autre fichier]] en utilisant la syntaxe `![[Fichier.base]]`. Pour spécifier la vue par défaut, utilisez `![[Fichier.base#Vue]]`.
 
-### Embed a base as a code block
+### Intégrer une base sous forme de bloc de code
 
-Bases can also embedded directly into a note using a `base` code block and the [[Bases syntax|bases syntax]]. 
+Les bases peuvent également être intégrées directement dans une note en utilisant un bloc de code `base` et la [[Syntaxe des Bases|syntaxe des bases]].
 
 ~~~yaml
 ```base
@@ -44,4 +44,3 @@ views:
     name: Table
 ```
 ~~~
-

@@ -15,7 +15,7 @@ Il vous permet de convertir d'autres variantes du format Markdown et d'autres co
 
 Actuellement, vous pouvez convertir:
 
-- Roam - les #tags en [[tags]]
+- Roam - les #tags en [[Étiquettes]]
 - Roam - les `^^highlight^^` en  `==highlight==`
 - Zettelkasten - les liens `[[UID]]` en liens complets `[[UID File Name]]`
 - Zettelkasten - les liens `[[UID]]` en liens formatés `[[UID File Name|File Name]]`, qui n'afficherons que `File Name`

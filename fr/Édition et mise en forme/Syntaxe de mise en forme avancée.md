@@ -26,7 +26,7 @@ While the vertical bars on either side of the table are optional, including them
 
 > [!tip] In _Live Preview_, you can right-click a table to add or delete columns and rows. You can also sort and move them using the context menu.
 
-You can insert a table using the **Insert Table** command from the [[Command palette|Command Palette]] or by right-clicking and selecting _Insert → Table_. This will give you a basic, editable table:
+You can insert a table using the **Insert Table** command from the [[Palette de commandes|Command Palette]] or by right-clicking and selecting _Insert → Table_. This will give you a basic, editable table:
 
 ```md
 |     |     |
@@ -46,15 +46,15 @@ Marie | Curie
 
 ### Format content within a table
 
-You can use [[basic formatting syntax]] to style content within a table.
+You can use [[Syntaxe de mise en forme de base]] to style content within a table.
 
 | First column       | Second column                           |
 | ------------------ | --------------------------------------- |
-| [[Internal links]] | Link to a file _within_ your **vault**. |
-| [[Embed files]]    | ![[Engelbart.jpg\|100]]                 |
+| [[Liens internes]] | Link to a file _within_ your **vault**. |
+| [[Incorporer des fichiers]]    | ![[Engelbart.jpg\|100]]                 |
 
 > [!note] Vertical bars in tables
-> If you want to use [[aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
+> If you want to use [[Alias]], or to [[Syntaxe de mise en forme de base#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
 >
 > ```md
 > First column | Second column
@@ -85,7 +85,7 @@ You can add diagrams and charts to your notes, using [Mermaid](https://mermaid-j
 > [!tip]
 > You can also try Mermaid's [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) to help you build diagrams before you include them in your notes.
 
-To add a Mermaid diagram, create a `mermaid` [[Basic formatting syntax#Code blocks|code block]].
+To add a Mermaid diagram, create a `mermaid` [[Syntaxe de mise en forme de base#Code blocks|code block]].
 
 ````md
 ```mermaid
@@ -121,7 +121,7 @@ Biology --> Chemistry
 
 ### Linking files in a diagram
 
-You can create [[internal links]] in your diagrams by attaching the `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes) to your nodes.
+You can create [[Liens internes]] in your diagrams by attaching the `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes) to your nodes.
 
 ````md
 ```mermaid
@@ -142,7 +142,7 @@ class Biology,Chemistry internal-link;
 ```
 
 > [!note]
-> Internal links from diagrams don't show up in the [[Graph view]].
+> Internal links from diagrams don't show up in the [[Vue graphique]].
 
 If you have many nodes in your diagrams, you can use the following snippet.
 

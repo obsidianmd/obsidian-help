@@ -8,7 +8,7 @@ mobile: true
 localized: null
 ---
 
-Obsidian strives for maximum capability without breaking any existing formats. As a result, we use a combination of flavors of [[Basic formatting syntax|Markdown]].
+Obsidian strives for maximum capability without breaking any existing formats. As a result, we use a combination of flavors of [[Syntaxe de mise en forme de base|Markdown]].
 
 Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/), and [LaTeX](https://www.latex-project.org/). 
 
@@ -27,16 +27,16 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 
 | Syntax          | Description                                                           |
 | --------------- | --------------------------------------------------------------------- |
-| `[[Link]]`      | [[Internal links]]                                                    |
-| `![[Link]]`     | [[Embed files]]                                                       |
-| `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]        |
-| `^id`           | [[Internal links#Link to a block in a note\|Defining a block]]        |
-| `[^id]`         | [[Basic formatting syntax#Footnotes\|Footnotes]]                      |
-| `%%Text%%`      | [[Basic formatting syntax#Comments\|Comments]]                        |
-| `~~Text~~`      | [[Basic formatting syntax#Bold, italics, highlights\|Strikethroughs]] |
-| `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|Highlights]]     |
-| `` ``` ``       | [[Basic formatting syntax#Code blocks\|Code blocks]]                  |
-| `- [ ]`         | [[Basic formatting syntax#Task lists\|Incomplete task]]               |
-| `- [x]`         | [[Basic formatting syntax#Task lists\|Completed task]]                |
+| `[[Link]]`      | [[Liens internes]]                                                    |
+| `![[Link]]`     | [[Incorporer des fichiers]]                                                       |
+| `![[Link#^id]]` | [[Liens internes#Link to a block in a note\|Block references]]        |
+| `^id`           | [[Liens internes#Link to a block in a note\|Defining a block]]        |
+| `[^id]`         | [[Syntaxe de mise en forme de base#Footnotes\|Footnotes]]                      |
+| `%%Text%%`      | [[Syntaxe de mise en forme de base#Comments\|Comments]]                        |
+| `~~Text~~`      | [[Syntaxe de mise en forme de base#Bold, italics, highlights\|Strikethroughs]] |
+| `==Text==`      | [[Syntaxe de mise en forme de base#Bold, italics, highlights\|Highlights]]     |
+| `` ``` ``       | [[Syntaxe de mise en forme de base#Code blocks\|Code blocks]]                  |
+| `- [ ]`         | [[Syntaxe de mise en forme de base#Task lists\|Incomplete task]]               |
+| `- [x]`         | [[Syntaxe de mise en forme de base#Task lists\|Completed task]]                |
 | `> [!note]`     | [[Callouts]]                                                          |
-| (see link)      | [[Advanced formatting syntax#Tables\|Tables]]                         |
+| (see link)      | [[Syntaxe de mise en forme avancée#Tables\|Tables]]                         |

@@ -1,103 +1,103 @@
 ---
 permalink: bases/views/table
-localized: null
+localized: '2026-03-18'
 aliases:
   - Table view
 ---
-Table is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+Le tableau est un type de [[Vues|vue]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]].
 
-Select ![[lucide-table.svg#icon]]  **Table** from the view menu to display files as a table with a row for each file, and columns for [[Properties]] of that file.
+Sélectionnez ![[lucide-table.svg#icon]]  **Tableau** dans le menu des vues pour afficher les fichiers sous forme de tableau avec une ligne par fichier et des colonnes pour les [[Propriétés|propriétés]] de ce fichier.
 
-![Example of a base showing a table view with a list of books](bases-noshadow.png#interface)
+![Exemple d'une base affichant une vue tableau avec une liste de livres](bases-noshadow.png#interface)
 
-## Settings
+## Paramètres
 
-Table view settings can be configured in [[Views#View settings|View settings]].
+Les paramètres de la vue tableau peuvent être configurés dans les [[Vues#Paramètres de la vue|Paramètres de la vue]].
 
-### Row height
+### Hauteur des lignes
 
-Row height lets you display more information. Choose between **short**, **medium**, **tall**, and **extra tall**.
+La hauteur des lignes vous permet d'afficher plus d'informations. Choisissez entre **courte**, **moyenne**, **grande** et **très grande**.
 
-## Summaries
+## Résumés
 
-You can add summaries to a table column to quickly calculate values like totals, averages, or counts for the rows currently visible in the view.
+Vous pouvez ajouter des résumés à une colonne de tableau pour calculer rapidement des valeurs comme des totaux, des moyennes ou des décomptes pour les lignes actuellement visibles dans la vue.
 
-Summaries are tied to the view, not the base. Each view can show different summaries for the same column.
+Les résumés sont liés à la vue, pas à la base. Chaque vue peut afficher des résumés différents pour la même colonne.
 
-### Add a summary
+### Ajouter un résumé
 
-1. Right-click the column header in a table view.
-2. Select ![[lucide-calculator.svg#icon]] **Summarize…**.
-3. Choose one of the built-in summary functions, or select ![[lucide-square-function.svg#icon]] **Add summary** to define your own.
+1. Faites un clic droit sur l'en-tête de colonne dans une vue tableau.
+2. Sélectionnez ![[lucide-calculator.svg#icon]] **Résumer…**.
+3. Choisissez l'une des fonctions de résumé intégrées, ou sélectionnez ![[lucide-square-function.svg#icon]] **Ajouter un résumé** pour définir le vôtre.
 
-The summary appears at the bottom of the column. When results are [[Views#Sort and group results|grouped]] the summary for each group is displayed at the top of the group.
+Le résumé apparaît en bas de la colonne. Lorsque les résultats sont [[Vues#Trier et regrouper les résultats|regroupés]], le résumé de chaque groupe est affiché en haut du groupe.
 
-Once the summary bar is added you can add more summaries for other columns by clicking the summary cell. The summary bar is hidden if all summaries are removed.
+Une fois la barre de résumé ajoutée, vous pouvez ajouter d'autres résumés pour d'autres colonnes en cliquant sur la cellule de résumé. La barre de résumé est masquée si tous les résumés sont supprimés.
 
-### Built-in summaries
+### Résumés intégrés
 
-The following summaries are available by default. Options may vary depending on the property type.
+Les résumés suivants sont disponibles par défaut. Les options peuvent varier selon le type de propriété.
 
-#### All property types
+#### Tous les types de propriétés
 
-- **Empty**: count of rows with no value.
-- **Filled**: count of rows with a value.
-- **Unique**: number of distinct values.
+- **Vide** : nombre de lignes sans valeur.
+- **Rempli** : nombre de lignes avec une valeur.
+- **Unique** : nombre de valeurs distinctes.
 
-#### Numbers
+#### Nombres
 
-- **Average**: average of all numeric values.
-- **Max**: largest value.
-- **Median**: median value.
-- **Min**: smallest value.
-- **Range**: difference between max and min.
-- **Stddev**: standard deviation.
-- **Sum**: total of all values.
+- **Moyenne** : moyenne de toutes les valeurs numériques.
+- **Max** : plus grande valeur.
+- **Médiane** : valeur médiane.
+- **Min** : plus petite valeur.
+- **Étendue** : différence entre le max et le min.
+- **Écart-type** : écart-type.
+- **Somme** : total de toutes les valeurs.
 
 #### Dates
 
-- **Earliest**: the smallest/oldest date.
-- **Latest**: the largest/most recent date.
-- **Range**: difference between earliest and latest.
+- **La plus ancienne** : la date la plus petite/ancienne.
+- **La plus récente** : la date la plus grande/récente.
+- **Étendue** : différence entre la plus ancienne et la plus récente.
 
-#### Checkbox
+#### Case à cocher
 
-- **Checked**: number of rows where the checkbox is on.
-- **Unchecked**: number of rows where the checkbox is off.
+- **Cochée** : nombre de lignes où la case à cocher est activée.
+- **Non cochée** : nombre de lignes où la case à cocher est désactivée.
 
-### Custom summaries
+### Résumés personnalisés
 
-You can define your own summary using a formula:
+Vous pouvez définir votre propre résumé à l'aide d'une formule :
 
-1. In the ![[lucide-calculator.svg#icon]] **Summarize…** menu, choose ![[lucide-square-function.svg#icon]] **Add summary**.
-2. Give the summary a name.
-3. Enter a formula. The formula runs over the list of values in that column (for example, using a [[Functions|function]] like `values.reduce(...)`).
-4. Save the summary.
+1. Dans le menu ![[lucide-calculator.svg#icon]] **Résumer…**, choisissez ![[lucide-square-function.svg#icon]] **Ajouter un résumé**.
+2. Donnez un nom au résumé.
+3. Entrez une formule. La formule s'exécute sur la liste des valeurs de cette colonne (par exemple, en utilisant une [[Fonctions|fonction]] comme `values.reduce(...)`).
+4. Enregistrez le résumé.
 
-Custom summaries are useful when you need a calculation that isn’t covered by the built-in options.
+Les résumés personnalisés sont utiles lorsque vous avez besoin d'un calcul qui n'est pas couvert par les options intégrées.
 
-## Shortcuts
+## Raccourcis
 
-You can quickly move around a table view using the following mouse and [[Editing shortcuts|keyboard shortcuts]].
+Vous pouvez vous déplacer rapidement dans une vue tableau à l'aide de la souris et des [[Raccourcis d'édition|raccourcis clavier]] suivants.
 
-- Shift-click creates a cell selection.
-- Right-click a cell selection to access additional actions for those files. 
+- Maj-clic crée une sélection de cellules.
+- Faites un clic droit sur une sélection de cellules pour accéder à des actions supplémentaires pour ces fichiers.
 
-| Action                                                                                                          | Shortcut            | macOS              |
-| --------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ |
-| Copy the selected cells                                                                                         | `Ctrl+C`            | `Cmd+C`            |
-| Paste the selected cells                                                                                        | `Ctrl+V`            | `Cmd+V`            |
-| Undo changes to properties                                                                                      | `Ctrl+Z`            | `Cmd+Z`            |
-| Redo changes to properties                                                                                      | `Ctrl+Shift+Z`      | `Cmd+Shift+Z`      |
-| Select all cells in the current group                                                                           | `Ctrl+A`            | `Cmd+A`            |
-| Select all cells in a given direction                                                                           | `Ctrl+Shift+Arrow`  | `Ctrl+Shift+Arrow` |
-| Select the column                                                                                               | `Ctrl+Space`        |                    |
-| Select the row                                                                                                  | `Shift+Space`       |                    |
-| Focus the current cell — for checkboxes, this toggles the checkbox, for formulas, this opens the formula editor | `Enter`             |                    |
-| Go to the first column                                                                                          | `Home`              |                    |
-| Go to the last column                                                                                           | `End`               |                    |
-| Navigate up and down by page height                                                                             | `PageUp`,`PageDown` |                    |
-| Clear the current cell selection                                                                                | `Esc`               |                    |
-| Clear the current cells                                                                                         | `Backspace`         |                    |
-| Go to the next cell                                                                                             | `Tab`               |                    |
-| Go to the previous cell                                                                                         | `Shift-Tab`         |                    |
+| Action                                                                                                                                                           | Raccourci            | macOS               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------- |
+| Copier les cellules sélectionnées                                                                                                                                | `Ctrl+C`             | `Cmd+C`             |
+| Coller les cellules sélectionnées                                                                                                                                | `Ctrl+V`             | `Cmd+V`             |
+| Annuler les modifications des propriétés                                                                                                                         | `Ctrl+Z`             | `Cmd+Z`             |
+| Rétablir les modifications des propriétés                                                                                                                        | `Ctrl+Shift+Z`       | `Cmd+Shift+Z`       |
+| Sélectionner toutes les cellules du groupe actuel                                                                                                                | `Ctrl+A`             | `Cmd+A`             |
+| Sélectionner toutes les cellules dans une direction donnée                                                                                                       | `Ctrl+Shift+Flèche`  | `Ctrl+Shift+Flèche` |
+| Sélectionner la colonne                                                                                                                                          | `Ctrl+Espace`        |                     |
+| Sélectionner la ligne                                                                                                                                            | `Shift+Espace`       |                     |
+| Activer la cellule actuelle — pour les cases à cocher, cela bascule la case, pour les formules, cela ouvre l'éditeur de formules                                | `Entrée`             |                     |
+| Aller à la première colonne                                                                                                                                      | `Début`              |                     |
+| Aller à la dernière colonne                                                                                                                                      | `Fin`                |                     |
+| Naviguer vers le haut et le bas par hauteur de page                                                                                                              | `PageHaut`,`PageBas` |                     |
+| Effacer la sélection de cellules actuelle                                                                                                                        | `Échap`              |                     |
+| Effacer les cellules actuelles                                                                                                                                   | `Retour arrière`     |                     |
+| Aller à la cellule suivante                                                                                                                                      | `Tab`                |                     |
+| Aller à la cellule précédente                                                                                                                                    | `Shift-Tab`          |                     |

@@ -4,7 +4,7 @@ localized: null
 aliases:
   - Social media link previews
 ---
-Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Properties]], you can customize how your notes appear in the preview.
+Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Propriétés]], you can customize how your notes appear in the preview.
 
 > [!warning]
 > The tags overridden in this section are **only** visible by web crawlers. Regular web browsers are served the unmodified page for performance.

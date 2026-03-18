@@ -1,25 +1,25 @@
 ---
 permalink: bases/views/map
-localized: null
+localized: '2026-03-18'
 aliases:
   - Map view
 ---
-Map is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]]. It requires installing the [Maps plugin](obsidian://show-plugin?id=maps).
+La carte est un type de [[Vues|vue]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]]. Elle nécessite l'installation du [module Maps](obsidian://show-plugin?id=maps).
 
-Select ![[lucide-map.svg#icon]]  **Map** from the view menu to display files as an interactive map with markers for each file, and a preview that displays properties of that file.
+Sélectionnez ![[lucide-map.svg#icon]]  **Carte** depuis le menu des vues pour afficher les fichiers sous forme de carte interactive avec des marqueurs pour chaque fichier, et un aperçu qui affiche les propriétés de ce fichier.
 
 ![[bases-map-places.png#interface]]
 
-## Install the Maps plugin
+## Installer le module Maps
 
-Map views require Obsidian 1.10. The [Maps plugin](obsidian://show-plugin?id=maps) is an official [[Community plugins|community plugin]] that you can download separately.
+Les vues carte nécessitent Obsidian 1.10. Le [module Maps](obsidian://show-plugin?id=maps) est un [[Plugins communautaires|module complémentaire]] officiel que vous pouvez télécharger séparément.
 
-1. Follow instructions in [[Community plugins#Install a community plugin]]
-2. Download and enable [Maps](obsidian://show-plugin?id=maps) from the list
+1. Suivez les instructions dans [[Plugins communautaires#Install a community plugin|Modules complémentaires > Installer un module complémentaire]]
+2. Téléchargez et activez [Maps](obsidian://show-plugin?id=maps) depuis la liste
 
-## Example
+## Exemple
 
-To start, try creating a note called **Eiffel Tower** and copy the following properties into it:
+Pour commencer, essayez de créer une note appelée **Tour Eiffel** et copiez-y les propriétés suivantes :
 
 ```yaml
 ---
@@ -33,98 +33,98 @@ tags:
 ---
 ```
 
-Here's what the code above means:
+Voici ce que signifie le code ci-dessus :
 
-| Property      | Value                    |                                                                                                                                                      |
-| ------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `coordinates` | `48.85837`<br>`2.294481` | Coordinates are stored as `latitude, longitude`. You can get coordinates by right-clicking a location on the map and selecting **Copy coordinates**. |
-| `icon`        | `landmark`               | The name of an icon from the [Lucide library](https://lucide.dev/).                                                                                  |
-| `color`       | `red`                    | A valid CSS value: hex, RGB, named color, etc.                                                                                                       |
-| `tags`        | `places`                 | The tag we'll use to find map markers in our base.                                                                                                   |
-Now create a map view with a filter for the tag `places` and set marker coordinates, icon, and color using the properties listed above. 
+| Propriété     | Valeur                   |                                                                                                                                                                     |
+| ------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `coordinates` | `48.85837`<br>`2.294481` | Les coordonnées sont stockées sous forme `latitude, longitude`. Vous pouvez obtenir les coordonnées en faisant un clic droit sur un emplacement de la carte et en sélectionnant **Copier les coordonnées**. |
+| `icon`        | `landmark`               | Le nom d'une icône de la [bibliothèque Lucide](https://lucide.dev/).                                                                                                |
+| `color`       | `red`                    | Une valeur CSS valide : hex, RGB, couleur nommée, etc.                                                                                                               |
+| `tags`        | `places`                 | Le mot-clé que nous utiliserons pour trouver les marqueurs de carte dans notre base.                                                                                 |
+Créez maintenant une vue carte avec un filtre pour le mot-clé `places` et définissez les coordonnées des marqueurs, l'icône et la couleur en utilisant les propriétés listées ci-dessus.
 
-You can also open these [example files](https://github.com/obsidianmd/obsidian-maps/tree/master/examples) in Obsidian to see working map views with markers, icons, and colors already configured.
+Vous pouvez également ouvrir ces [fichiers d'exemple](https://github.com/obsidianmd/obsidian-maps/tree/master/examples) dans Obsidian pour voir des vues carte fonctionnelles avec des marqueurs, des icônes et des couleurs déjà configurés.
 
-## Settings
+## Paramètres
 
-Map view settings can be configured in [[Views#View settings|View settings]].
+Les paramètres de la vue carte peuvent être configurés dans les [[Vues#Paramètres de vue|Paramètres de vue]].
 
-- Embedded height
-- Center coordinates
-- Zoom constraints
-- Marker coordinates, color, and icon
-- Background
+- Hauteur intégrée
+- Coordonnées du centre
+- Contraintes de zoom
+- Coordonnées, couleur et icône des marqueurs
+- Arrière-plan
 
-### Markers
+### Marqueurs
 
-#### Coordinates
+#### Coordonnées
 
-To display pins on the map go to the [[Views#View settings|view settings]] and select a **marker coordinates** property. The property must contain latitude and longitude coordinates. The following formats are accepted:
+Pour afficher des épingles sur la carte, allez dans les [[Vues#Paramètres de vue|paramètres de vue]] et sélectionnez une propriété **coordonnées du marqueur**. La propriété doit contenir des coordonnées de latitude et longitude. Les formats suivants sont acceptés :
 
 ```yaml
-# Text property
+# Propriété texte
 coordinates: "lat, lng"
 
-# List property
+# Propriété liste
 coordinates:
   - "lat"
   - "lng"
 ```
 
-If you store coordinates as separate `latitude` and `longitude` properties you can combine them with a [[Bases syntax#Formulas|formula]] property by defining it as an array of coordinates using the following formula: `[latitude, longitude]`.
+Si vous stockez les coordonnées sous forme de propriétés `latitude` et `longitude` séparées, vous pouvez les combiner avec une propriété de [[Syntaxe des Bases#Formules|formule]] en la définissant comme un tableau de coordonnées avec la formule suivante : `[latitude, longitude]`.
 
-#### Icons
+#### Icônes
 
-Add icons to markers by defining a **marker icons** property. For example, you can add a property called `icon` to your notes and give it values like `landmark` or `utensils` from Obsidian's built-in [Lucide library](https://lucide.dev/icons/).
+Ajoutez des icônes aux marqueurs en définissant une propriété **icônes de marqueur**. Par exemple, vous pouvez ajouter une propriété appelée `icon` à vos notes et lui donner des valeurs comme `landmark` ou `utensils` depuis la [bibliothèque Lucide](https://lucide.dev/icons/) intégrée à Obsidian.
 
-##### Use a formula to define icons
+##### Utiliser une formule pour définir les icônes
 
-Let's say you want all restaurants to have the same icon on the map:
+Supposons que vous vouliez que tous les restaurants aient la même icône sur la carte :
 
-1. Create a note called **Restaurants** and add a property called `icon` with the value `utensils`. 
-2. Give restaurant notes a property called `type` that links to the `[[Restaurants]]` note.
-3. Add a formula property called `Type icon` to your base with the following code:
+1. Créez une note appelée **Restaurants** et ajoutez une propriété appelée `icon` avec la valeur `utensils`.
+2. Donnez aux notes de restaurants une propriété appelée `type` qui renvoie vers la note `[[Restaurants]]`.
+3. Ajoutez une propriété de formule appelée `Type icon` à votre base avec le code suivant :
 	```js
 	list(type)[0].asFile().properties.icon
 	```
-4. Choose the `Type icon` as your marker icon in the view settings.
+4. Choisissez `Type icon` comme icône de marqueur dans les paramètres de vue.
 
-Voilà! Now your map will display icons from the the *type* of the place, not the place itself.
+Et voilà ! Maintenant votre carte affichera les icônes du *type* du lieu, et non du lieu lui-même.
 
-#### Colors
+#### Couleurs
 
-Set the color of markers. Accepts values as RGB `rgb(0,0,0)`, HEX `#000`, or CSS variables like `var(--color-blue)`. Like in the icon example above you can use a formula property to define colors dynamically.
+Définissez la couleur des marqueurs. Accepte les valeurs en RGB `rgb(0,0,0)`, HEX `#000`, ou en variables CSS comme `var(--color-blue)`. Comme dans l'exemple d'icône ci-dessus, vous pouvez utiliser une propriété de formule pour définir les couleurs de manière dynamique.
 
-### Background
+### Arrière-plan
 
-#### Map tiles
+#### Tuiles de carte
 
-Map tiles are a standard way to display digital maps. There are several services you can use to customize maps with unique styles, colors, and fonts. Maps support both raster and vector tiles, and accepts most tile URLs, including TileJSON URLs.
+Les tuiles de carte sont un moyen standard d'afficher des cartes numériques. Il existe plusieurs services que vous pouvez utiliser pour personnaliser les cartes avec des styles, couleurs et polices uniques. Maps prend en charge les tuiles raster et vectorielles, et accepte la plupart des URL de tuiles, y compris les URL TileJSON.
 
-[OpenFreeMap](https://openfreemap.org/) offers a few styles you can use for free. Try using one of the following URLs in the **Map tiles** setting:
+[OpenFreeMap](https://openfreemap.org/) propose quelques styles que vous pouvez utiliser gratuitement. Essayez d'utiliser l'une des URL suivantes dans le paramètre **Tuiles de carte** :
 
-| Name     | URL                                              |
+| Nom      | URL                                              |
 | -------- | ------------------------------------------------ |
 | Dark     | `https://tiles.openfreemap.org/styles/dark`      |
 | Positron | `https://tiles.openfreemap.org/styles/positron`  |
 | Liberty  | ``https://tiles.openfreemap.org/styles/liberty`` |
-#### Useful links
+#### Liens utiles
 
-- [Maputnik](https://maputnik.github.io/) for customizing map tiles.
-- [Protomaps](https://protomaps.com/) for self-hosting map tiles.
-- Other hosted services with free tiers include [MapTiler](https://www.maptiler.com/) and [Mapbox](https://www.mapbox.com/).
+- [Maputnik](https://maputnik.github.io/) pour personnaliser les tuiles de carte.
+- [Protomaps](https://protomaps.com/) pour héberger vous-même les tuiles de carte.
+- D'autres services hébergés avec des offres gratuites incluent [MapTiler](https://www.maptiler.com/) et [Mapbox](https://www.mapbox.com/).
 
 
-## Tips
+## Astuces
 
-You can link to popular mapping services using [[Formulas]]. For example your pin can show a link to Google Maps using the following formula:
+Vous pouvez créer des liens vers des services de cartographie populaires en utilisant les [[Formules|Formules]]. Par exemple, votre épingle peut afficher un lien vers Google Maps avec la formule suivante :
 
 ```js
 link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google Maps")
 ```
 
-## Troubleshooting
+## Résolution de problèmes
 
-If the map appears blank when you first load the Maps plugin, try [[Update Obsidian|updating the Obsidian installer version]].
+Si la carte apparaît vide lorsque vous chargez le module Maps pour la première fois, essayez de [[Mettre à jour Obsidian|mettre à jour la version du programme d'installation d'Obsidian]].
 
-The [Maps plugin](https://github.com/obsidianmd/obsidian-maps) is open source. You can help by contributing bug reports, feature requests and pull requests.
+Le [module Maps](https://github.com/obsidianmd/obsidian-maps) est open source. Vous pouvez contribuer en soumettant des rapports de bogues, des demandes de fonctionnalités et des pull requests.

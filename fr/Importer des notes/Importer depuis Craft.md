@@ -19,7 +19,7 @@ Depending on the number of notes you have in Craft, this process may take a whil
 
 ## Import your Craft data into Obsidian
 
-From here you can follow the [[Import Markdown files]] instructions.
+From here you can follow the [[Importer des fichiers Markdown]] instructions.
 
 ## Troubleshooting
 

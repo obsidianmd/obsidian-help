@@ -6,11 +6,11 @@ localized: null
 aliases:
   - Customize your site
 ---
-This page explains how you can customize how your [[Introduction to Obsidian Publish|Obsidian Publish]] site looks and feels.
+This page explains how you can customize how your [[Introduction à Obsidian Publish|Obsidian Publish]] site looks and feels.
 
 ## Static assets
 
-You can customize your site by [[Publish your content#Publish notes|publishing]] the following files to your site:
+You can customize your site by [[Publier votre contenu#Publish notes|publishing]] the following files to your site:
 
 - `publish.css` to add custom CSS
 - `publish.js` to add custom JavaScript
@@ -22,7 +22,7 @@ You can customize your site by [[Publish your content#Publish notes|publishing]]
 - Since Obsidian doesn't support CSS or JavaScript files, you need to use another application to create and edit them.
 - Both `publish.css` and `publish.js` must be located in the root directory (`/`) of your vault.
 - By default, `publish.css` and `publish.js` don't appear in the file explorer, but you can still publish them from the **Publish changes** dialog.
-- To use custom JavaScript with `publish.js`, you need to [[Custom domains]].
+- To use custom JavaScript with `publish.js`, you need to [[Domaines personnalisés]].
 
 For favicons, Obsidian Publish supports the following naming conventions, where `32` represents the icon's dimensions in pixels:
 
@@ -52,12 +52,12 @@ To use one of the community themes for your site:
 4. Copy the CSS file for the theme you want to use for your site.
 5. Paste the file into the root folder of your vault.
 6. Rename the CSS file to `publish.css`.
-7. [[Publish your content#Publish notes|Publish]] `publish.css`.
+7. [[Publier votre contenu#Publish notes|Publish]] `publish.css`.
 
 **Notes:**
 
 - If the style doesn’t update within a few minutes, try refreshing your browser cache.
-- You can switch between light and dark mode in the [[Manage sites#View site options|site options]].
+- You can switch between light and dark mode in the [[Gérer les sites#View site options|site options]].
 - Many community themes use **Style Settings** for custom styling, but these settings do not work on Obsidian Publish.
 
 > [!tip] Developing themes
@@ -67,15 +67,15 @@ To use one of the community themes for your site:
 
 You can toggle several UI features for your site, such as the graph view or a table of contents.
 
-Browse the available UI features under the **Reading experience** and **Components** sections in the [[Manage sites#View site options|site options]]
+Browse the available UI features under the **Reading experience** and **Components** sections in the [[Gérer les sites#View site options|site options]]
 
 ### Customize navigation
 
-Within Obsidian Publish, you have the ability to customize the navigation order and display of files and folders within the Publish [[File explorer]]. Navigation items are listed in published order by default. Notes not published will not appear within this pane.
+Within Obsidian Publish, you have the ability to customize the navigation order and display of files and folders within the Publish [[Explorateur de fichiers]]. Navigation items are listed in published order by default. Notes not published will not appear within this pane.
 
 #### Accessing Customize navigation options
 
-1. In [[Ribbon]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**
+1. In [[Ruban]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Palette de commandes]] and type **Publish: Publish changes...**
 2. In the **Publish changes** dialog, select **Change site options** ( ![[lucide-cog.svg#icon]] ).
 3. Under **Components settings**, next to **Customize navigation**, select the **manage** button. 
 

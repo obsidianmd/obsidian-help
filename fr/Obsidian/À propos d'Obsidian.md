@@ -49,7 +49,7 @@ La prise de note est vraiment une activité personnelle. Naturellement, il n'y a
 
 En plus de cela, vous pouvez ajouter des blocs de construction isolés et indépendants pour rajouter des fonctionnalités à votre prise de notes :
 - Si vous prenez des notes en cours, l'[[enregistreur]], et les différents [[modules complémentaires]] servant à faire des [[flashcards|Faire des flashcards avec Obsidian]] et des [[cartes mentales|Faire des cartes mentales avec Obsidian]] ainsi que le langage LaTeX pour les maths peuvent être utiles. Faites des recherches sur internet pour en savoir plus, vous trouverez beaucoup de choses utiles ;
-- Si vous prenez des notes au travail, [[Slides|le diaporama]] (utile aussi pour les étudiants ayant une présentation orale à faire) et les [[rétroliens]] peuvent vous aider.
+- Si vous prenez des notes au travail, [[Diapositives|le diaporama]] (utile aussi pour les étudiants ayant une présentation orale à faire) et les [[rétroliens]] peuvent vous aider.
 - Si vous faites de la recherche ou que vous avez un mémoire à rédiger, la [[vue graphique] et [[le compteur de mots]] peuvent se révéler essentiels à votre boîte à outils.
 
 Les modules ne sont pas la solution miracle pour résoudre tous les problèmes mais ils vous permettrons d'aller toujours plus loin avec Obsidian, pas besoin de changer de logiciel, vous pouvez faire évoluer votre environnement numérique de travail à votre guise. Dans un premier temps, nous vous conseillons une utilisations minimaliste pour prendre Obsidian en main. Vous entendrez parler de pléthore de modules tous très intéressants, mais trop de complexité dès le début peut vous compliquer la tâche plutôt que de la simplifier. 

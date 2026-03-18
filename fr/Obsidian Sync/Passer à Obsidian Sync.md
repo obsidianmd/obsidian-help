@@ -12,7 +12,7 @@ aliases:
 Learn how to transition from your current syncing solution to Obsidian Sync.
 
 > [!warning] Avoid using multiple solutions to sync the same files
-> We [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|do not recommend]] using Obsidian Sync alongside cloud storage services (e.g. iCloud, Dropbox, OneDrive, Google Drive) as this can cause conflicts. However, cloud storage services may play a role in your [[Back up your Obsidian files|backup]] strategy.
+> We [[Questions fréquentes#Can I use a third-party sync with Obsidian Sync?|do not recommend]] using Obsidian Sync alongside cloud storage services (e.g. iCloud, Dropbox, OneDrive, Google Drive) as this can cause conflicts. However, cloud storage services may play a role in your [[Sauvegarder vos fichiers Obsidian|backup]] strategy.
 
 ## Move your vault out of your third-party syncing service or cloud storage
 
@@ -40,7 +40,7 @@ To avoid conflicts with syncing services, we recommend storing your Obsidian vau
 
 ## Move your vault using Obsidian on desktop
 
-![[Manage vaults#Move vault to a different folder]]
+![[Gérer les coffres#Move vault to a different folder]]
 
 ## Move your vault on mobile
 
@@ -54,9 +54,9 @@ Android filesystems vary greatly by device, but generally, follow the same steps
 
 To move an existing iCloud vault to your device, follow these steps:
 
-> [!note] If you already have the data on another device and have set up Obsidian Sync, it's recommended to [[Set up Obsidian Sync#Sync a remote vault on another device|set up a new local vault from Sync]] instead.
+> [!note] If you already have the data on another device and have set up Obsidian Sync, it's recommended to [[Configurer Obsidian Sync#Sync a remote vault on another device|set up a new local vault from Sync]] instead.
 
-- [[Back up your Obsidian files|Back up]] your vault.
+- [[Sauvegarder vos fichiers Obsidian|Back up]] your vault.
 - Create a new vault on your device, ensuring **Save in iCloud Drive** is disabled.
 - Force quit the Obsidian app on all devices to pause Sync.
 - Open the **Files** app on your iOS/iPadOS device.
@@ -69,5 +69,5 @@ Once you reopen Obsidian, the vault should show a vault icon instead of a cloud 
 
 ## Next steps
 
-- Looking to get started with Obsidian Sync? [[Set up Obsidian Sync]]
-- Still need assistance? Check out [[Troubleshoot Obsidian Sync]]
+- Looking to get started with Obsidian Sync? [[Configurer Obsidian Sync]]
+- Still need assistance? Check out [[Résoudre les problèmes d'Obsidian Sync]]

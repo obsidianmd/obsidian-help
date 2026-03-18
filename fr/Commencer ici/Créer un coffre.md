@@ -1,30 +1,30 @@
 ---
 permalink: vault
-localized: null
+localized: '2026-03-18'
 aliases:
   - Create a vault
 ---
-A vault is a folder on your local file system where Obsidian stores your notes. You can keep all your notes in one vault, or create several vaults for each of your different projects.
+Un coffre est un dossier sur votre système de fichiers local où Obsidian stocke vos notes. Vous pouvez conserver toutes vos notes dans un seul coffre, ou créer plusieurs coffres pour chacun de vos différents projets.
 
-The first time you open Obsidian, you'll be asked to add a new vault. You have two options, either create a new empty vault, or use an existing folder.
+La première fois que vous ouvrez Obsidian, il vous sera demandé d'ajouter un nouveau coffre. Vous avez deux options : créer un nouveau coffre vide, ou utiliser un dossier existant.
 
-## Create empty vault
+## Créer un coffre vide
 
-To create a new empty vault:
+Pour créer un nouveau coffre vide :
 
-1. To the right of **Create new vault**, click **Create**.
-2. In **Vault name**, enter the name of your vault.
-3. Click **Browse** to select where your new vault will be created.
-4. Click **Create**.
+1. À droite de **Créer un nouveau coffre**, cliquez sur **Créer**.
+2. Dans **Nom du coffre**, entrez le nom de votre coffre.
+3. Cliquez sur **Parcourir** pour sélectionner l'emplacement où votre nouveau coffre sera créé.
+4. Cliquez sur **Créer**.
 
-## Open existing folder
+## Ouvrir un dossier existant
 
-If you already have a folder that you want to use as your vault:
+Si vous avez déjà un dossier que vous souhaitez utiliser comme coffre :
 
-1. To the right of **Open folder as vault**, click **Open**.
-2. In the file browser, select the folder you want to use as your vault.
-3. Click **Open**.
+1. À droite de **Ouvrir un dossier comme coffre**, cliquez sur **Ouvrir**.
+2. Dans l'explorateur de fichiers, sélectionnez le dossier que vous souhaitez utiliser comme coffre.
+3. Cliquez sur **Ouvrir**.
 
-If you want to know more about how vaults work, learn how [[How Obsidian stores data]].
+Si vous voulez en savoir plus sur le fonctionnement des coffres, découvrez [[Comment Obsidian stocke les données|comment Obsidian stocke les données]].
 
-Now that you've set up your vault, you're ready to [[Create your first note]].
+Maintenant que vous avez configuré votre coffre, vous êtes prêt à [[Créer votre première note|créer votre première note]].

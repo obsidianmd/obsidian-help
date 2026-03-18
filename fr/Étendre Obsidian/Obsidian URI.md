@@ -88,7 +88,7 @@ The `new` action, creates a new note in the vault, optionally with some content.
 
 ## Create or open daily note
 
-The `daily` action creates or opens your daily note. The [[Daily notes]] plugin must be enabled.
+The `daily` action creates or opens your daily note. The [[Notes quotidiennes]] plugin must be enabled.
 
 ### Examples
 
@@ -101,7 +101,7 @@ The `daily` action accepts the same parameters as the `new` action.
 
 ## Unique Note
 
-The `unique` action creates a new unique note in the vault. The [[en/Plugins/Unique note creator|Unique note creator]] plugin must be enabled.
+The `unique` action creates a new unique note in the vault. The [[en/Plugins/Créateur de note unique|Unique note creator]] plugin must be enabled.
 
 ### Examples
 
@@ -120,14 +120,14 @@ The `unique` action creates a new unique note in the vault. The [[en/Plugins/Uni
 
 ## Open search
 
-The `search` action opens [[Search]] in the specified vault, and optionally perform a search term.
+The `search` action opens [[Recherche]] in the specified vault, and optionally perform a search term.
 
 ### Examples
 
 - `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens [[Search]].
+  This opens the vault `my vault`, and opens [[Recherche]].
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  This opens the vault `my vault`, opens [[Search]], and performs a search for `Obsidian`.
+  This opens the vault `my vault`, opens [[Recherche]], and performs a search for `Obsidian`.
 
 ### Parameters
 
@@ -136,7 +136,7 @@ The `search` action opens [[Search]] in the specified vault, and optionally perf
 
 ## Open Vault Manager
 
-The `choose-vault` action opens the [[Manage vaults|vault manager]].
+The `choose-vault` action opens the [[Gérer les coffres|vault manager]].
 
 ### Examples
 

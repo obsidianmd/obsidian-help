@@ -54,7 +54,7 @@ _To allow device-specific configuration, Obsidian Sync doesn't sync its own sett
 - Prefer "sidebar" over "side bar".
 - Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
 
-When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**[[Settings]] → Community plugins**".
+When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**[[Paramètres]] → Community plugins**".
 
 ### Notes, files, and folders
 
@@ -83,13 +83,13 @@ Hyphenate directional terms when using them as adjectives. Avoid hyphenation whe
 
 **Recommended:**
 
-- Select **[[Settings]]** in the bottom-left corner.
-- Select **[[Settings]]** in the bottom left.
+- Select **[[Paramètres]]** in the bottom-left corner.
+- Select **[[Paramètres]]** in the bottom left.
 
 **Not recommended:**
 
-- Select **[[Settings]]** in the bottom left corner.
-- Select **[[Settings]]** in the bottom-left.
+- Select **[[Paramètres]]** in the bottom left corner.
+- Select **[[Paramètres]]** in the bottom-left.
 
 Prefer "upper-left" and "upper-right" over "top-left" and "top-right".
 
@@ -221,7 +221,7 @@ Use em dashes (—) to separate bolded terms from their descriptions in bullet l
 
 **Not recommended:**
 
-- [[Create a base]] — Learn how to create and embed a base.
+- [[Créer une base]] — Learn how to create and embed a base.
 
 ### Images
 
@@ -298,7 +298,7 @@ Use internal wiki links (`[[Note name]]`) liberally to help users navigate relat
 
 **Example:**
 
-First mention: "Learn about [[Introduction to Obsidian Sync|Obsidian Sync]] to keep your vault updated across devices."
+First mention: "Learn about [[Introduction à Obsidian Sync|Obsidian Sync]] to keep your vault updated across devices."
 Later mention: "You can configure Sync for each device separately."
 
 ### Platform-specific content
@@ -322,7 +322,7 @@ On the desktop version, you can customize the ribbon as follows:
 
 In the mobile version, you can customize the ribbon through settings:
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. Navigate to **Appearance**.
 3. Click **Manage** under **Ribbon menu**.
 ```
@@ -336,12 +336,12 @@ Include icons and images when they make it easier to explain things that are har
 
 - The image should make the text it accompanies easier to understand.
 
- **Example**: Once enabled, the [[Word count]] plugin will create a new entry on your bottom statusbar.
+ **Example**: Once enabled, the [[Compteur de mots]] plugin will create a new entry on your bottom statusbar.
  
 ![[Style-guide-zoomed-example.png#interface|300]]
 
 - Images should be in either `.png` or `.svg` format.
-- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embed files#Embed an image in a note|embedding an image in a note]].
+- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Incorporer des fichiers#Embed an image in a note|embedding an image in a note]].
 - In rare cases, you may want to place especially large or complex images in a [[Callouts#Foldable callouts|folded callout]]. 
 - For pop-up windows or modals, the image should show the entire Obsidian application window.
  ![[Style-guide-modal-example.png#interface]]
@@ -414,7 +414,7 @@ The second image lacks the outline anchor tag.
 
 ### Optimization
 
-Images slow the loading time of the page, and take valuable [[Introduction to Obsidian Publish|Publish]] storage space. Optimizing images allows a reduction in file size, but maintains the visual integrity of the image. 
+Images slow the loading time of the page, and take valuable [[Introduction à Obsidian Publish|Publish]] storage space. Optimizing images allows a reduction in file size, but maintains the visual integrity of the image. 
 
 Both images and icons should be optimized.
 
@@ -432,13 +432,13 @@ Both images and icons should be optimized.
 
 Before submitting your Pull Request, please check for any broken links in the documentation of the translation you are working on, and correct them. Broken links can occur naturally over time, so verifying their accuracy helps maintain the quality of the documentation.
 
-You can check for broken links using [[Community plugins]] or tools available in your IDE.
+You can check for broken links using [[Plugins communautaires]] or tools available in your IDE.
 
 ### Descriptions
 
-This documentation is edited on GitHub and hosted online via [[Introduction to Obsidian Publish|Obsidian Publish]], which includes [[Social media link previews#Description|descriptions]] for social cards and other [[SEO]] elements.
+This documentation is edited on GitHub and hosted online via [[Introduction à Obsidian Publish|Obsidian Publish]], which includes [[Aperçus de liens sur les réseaux sociaux#Description|descriptions]] for social cards and other [[SEO]] elements.
 
-If the page you are working on does not have a `description` [[Properties|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page's content.
+If the page you are working on does not have a `description` [[Propriétés|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page's content.
 
 **Good**: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
 **Could be tweaked**: Learn how to create templates that automatically capture and organize metadata from web pages with Web Clipper.

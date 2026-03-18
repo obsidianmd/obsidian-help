@@ -4,7 +4,7 @@ localized: null
 aliases:
   - Workspaces
 ---
-Workspaces is a [[Core plugins|core plugin]] that  lets you manage and switch between different application layouts depending on your task, for example journaling, reading, or writing.
+Workspaces is a [[Plugins principaux|core plugin]] that  lets you manage and switch between different application layouts depending on your task, for example journaling, reading, or writing.
 
 A workspace contains information about open files and tabs, and the width and visibility of each sidebar.
 
@@ -18,7 +18,7 @@ A workspace contains information about open files and tabs, and the width and vi
 
 **Command palette:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Palette de commandes]].
 2. Search for the **Manage workspace layouts** command.
 3. Press `Enter` with the command selected.
 4. Enter a name for the workspace.
@@ -35,7 +35,7 @@ To update an existing workspace, save the workspace with the same name as the wo
 
 **Command palette:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Palette de commandes]].
 2. Search for the **Manage workspace layouts** command.
 3. Press `Enter` with the command selected.
 4. Select the workspace to load.
@@ -49,7 +49,7 @@ To update an existing workspace, save the workspace with the same name as the wo
 
 **Command palette:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Palette de commandes]].
 2. Search for the **Manage workspace layouts** command.
 3. Press `Enter` with the command selected.
 4. Next to the workspace you want to delete, select **Delete layout** ( ![[lucide-x.svg#icon]] ).

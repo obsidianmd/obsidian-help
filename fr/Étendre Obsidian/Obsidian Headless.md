@@ -5,7 +5,7 @@ description: >-
   vaults without the desktop app.
 localized: null
 ---
-Obsidian Headless **(open beta)** is a headless client for Obsidian services. It lets you [[Headless Sync|sync vaults]] from the command line without the desktop app, with all the speed, privacy, and end-to-end encryption benefits of [[Introduction to Obsidian Sync|Obsidian Sync]].
+Obsidian Headless **(open beta)** is a headless client for Obsidian services. It lets you [[Sync sans interface|sync vaults]] from the command line without the desktop app, with all the speed, privacy, and end-to-end encryption benefits of [[Introduction à Obsidian Sync|Obsidian Sync]].
 
 Reasons you might use Obsidian Headless:
 
@@ -50,4 +50,4 @@ ob logout
 
 ## Services
 
-- [[Headless Sync]]: use [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the desktop app.
+- [[Sync sans interface]]: use [[Introduction à Obsidian Sync|Obsidian Sync]] from the command line without the desktop app.

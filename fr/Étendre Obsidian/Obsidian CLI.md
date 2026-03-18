@@ -10,11 +10,11 @@ Anything you can do in Obsidian you can do from the command line. Obsidian CLI e
 ![[obsidian-cli.mp4#interface]]
 
 > [!warning] Requires Obsidian 1.12 installer
-> Using the CLI requires the Obsidian 1.12 installer. See the [[Update Obsidian#Installer updates|installer version update guide]].
+> Using the CLI requires the Obsidian 1.12 installer. See the [[Mettre à jour Obsidian#Mises à jour du programme d'installation|installer version update guide]].
 
 ## Install Obsidian CLI
 
-Upgrade to the latest [[Update Obsidian|Obsidian installer version]] (1.11.7) and the latest [[Early access versions|early access version]] (1.12.x).
+Upgrade to the latest [[Mettre à jour Obsidian|Obsidian installer version]] (1.11.7) and the latest [[Versions en accès anticipé|early access version]] (1.12.x).
 
 Enable Obsidian CLI in Obsidian:
 
@@ -152,7 +152,7 @@ In the TUI, use `vault:open <name>` or `<id>` to switch to a different vault.
 
 Many commands accept `file` and `path` parameters to target a specific file. If neither is provided, the command defaults to the active file.
 
-- `file=<name>` resolves the file using the same link resolution as [[Internal links|wikilinks]], matching by file name without requiring the full path or extension.
+- `file=<name>` resolves the file using the same link resolution as [[Liens internes|wikilinks]], matching by file name without requiring the full path or extension.
 - `path=<path>` requires the exact path from the vault root, e.g. `folder/note.md`.
 
 ```shell
@@ -196,7 +196,7 @@ Restart the app.
 
 ## Bases
 
-Commands for [[Introduction to Bases|Bases]].
+Commands for [[Introduction aux Bases|Bases]].
 
 ### `bases`
 
@@ -234,7 +234,7 @@ format=json|csv|tsv|md|paths   # output format (default: json)
 
 ## Bookmarks
 
-Commands for [[Bookmarks]].
+Commands for [[Signets]].
 
 ### `bookmarks`
 
@@ -261,7 +261,7 @@ title=<title>      # bookmark title
 
 ## Command palette
 
-Commands for [[Command palette]] and [[Hotkeys]]. This includes all commands registered by plugins.
+Commands for [[Palette de commandes]] and [[Raccourcis clavier]]. This includes all commands registered by plugins.
 
 ### `commands`
 
@@ -301,7 +301,7 @@ verbose            # show if custom or default
 
 ## Daily notes
 
-Commands for [[Daily notes]].
+Commands for [[Notes quotidiennes]].
 
 ### `daily`
 
@@ -347,7 +347,7 @@ open               # open file after adding
 
 ### `diff`
 
-List or compare versions from local [[File recovery]] and [[Introduction to Obsidian Sync|Sync]]. Versions are numbered from newest to oldest.
+List or compare versions from local [[Récupération de fichiers]] and [[Introduction à Obsidian Sync|Sync]]. Versions are numbered from newest to oldest.
 
 ```bash
 file=<name>          # file name
@@ -378,7 +378,7 @@ diff filter=sync
 
 ### `history`
 
-List versions from [[File recovery]] only. See [[#Sync|sync:history]] for the equivalent Sync command.
+List versions from [[Récupération de fichiers]] only. See [[#Sync|sync:history]] for the equivalent Sync command.
 
 ```bash
 file=<name>        # file name
@@ -531,7 +531,7 @@ inline             # prepend without newline
 
 ### `move`
 
-Move or rename a file (default: active file). This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
+Move or rename a file (default: active file). This will automatically update [[Liens internes]] if turned on in your [[Paramètres#Automatically update internal links|vault settings]].
 
 ```bash
 file=<name>        # file name
@@ -541,7 +541,7 @@ to=<path>          # (required) destination folder or path
 
 ### `rename`
 
-Rename a file (default: active file). The file extension is preserved automatically if omitted from the new name. Use [[#`move`|move]] to rename and move a file at the same time. This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
+Rename a file (default: active file). The file extension is preserved automatically if omitted from the new name. Use [[#`move`|move]] to rename and move a file at the same time. This will automatically update [[Liens internes]] if turned on in your [[Paramètres#Automatically update internal links|vault settings]].
 
 ```bash
 file=<name>        # file name
@@ -562,7 +562,7 @@ permanent          # skip trash, delete permanently
 
 ## Links
 
-Commands for [[Backlinks]] and [[Outgoing links]].
+Commands for [[Liens retour]] and [[Liens sortants]].
 
 ### `backlinks`
 
@@ -617,7 +617,7 @@ total              # return dead-end count
 
 ## Outline
 
-Commands for [[Outline]].
+Commands for [[Plan]].
 
 ### `outline`
 
@@ -633,7 +633,7 @@ total              # return heading count
 
 ## Plugins
 
-Commands for [[Core plugins]] and [[Community plugins]].
+Commands for [[Plugins principaux]] and [[Plugins communautaires]].
 
 ### `plugins`
 
@@ -720,7 +720,7 @@ id=<id>            # (required) plugin ID
 
 ## Properties
 
-Commands related to [[Properties]].
+Commands related to [[Propriétés]].
 
 ### `aliases`
 
@@ -785,7 +785,7 @@ path=<path>        # file path
 
 ## Publish
 
-Commands for [[Introduction to Obsidian Publish|Obsidian Publish]].
+Commands for [[Introduction à Obsidian Publish|Obsidian Publish]].
 
 ### `publish:site`
 
@@ -841,7 +841,7 @@ path=<path>        # file path
 
 ## Random notes
 
-Commands for [[Random note]].
+Commands for [[Note aléatoire]].
 
 ### `random`
 
@@ -863,7 +863,7 @@ folder=<path>      # limit to folder
 
 ## Search
 
-Commands for [[Search]].
+Commands for [[Recherche]].
 
 ### `search`
 
@@ -902,10 +902,10 @@ query=<text>       # initial search query
 
 ## Sync
 
-Commands for [[Introduction to Obsidian Sync|Obsidian Sync]].
+Commands for [[Introduction à Obsidian Sync|Obsidian Sync]].
 
 > [!tip] Sync without the desktop app
-> These commands control Sync within the running Obsidian app. To sync vaults from the command line without the desktop app, see [[Headless Sync]].
+> These commands control Sync within the running Obsidian app. To sync vaults from the command line without the desktop app, see [[Sync sans interface]].
 
 ### `sync`
 
@@ -970,7 +970,7 @@ total              # return deleted file count
 
 ## Tags
 
-Commands for [[Tags]].
+Commands for [[Étiquettes]].
 
 ### `tags`
 
@@ -1085,7 +1085,7 @@ task daily line=3 done            # Mark daily note task as done
 
 ## Templates
 
-Commands for [[Plugins/Templates|Templates]].
+Commands for [[Plugins/Modèles|Templates]].
 
 ### `templates`
 
@@ -1120,7 +1120,7 @@ name=<template>    # (required) template name
 
 ## Themes and snippets
 
-Commands for [[Themes]] and [[CSS snippets]].
+Commands for [[Thèmes]] and [[Extraits CSS]].
 
 ### `themes`
 
@@ -1190,7 +1190,7 @@ name=<name>        # (required) snippet name
 
 ## Unique notes
 
-Commands for [[Unique note creator]].
+Commands for [[Créateur de note unique]].
 
 ### `unique`
 
@@ -1233,7 +1233,7 @@ name=<name>        # (required) vault name
 
 ## Web viewer
 
-Commands for [[Web viewer]].
+Commands for [[Visionneuse web]].
 
 ### `web`
 
@@ -1247,7 +1247,7 @@ newtab             # open in new tab
 
 ## Wordcount
 
-Commands for [[Word count]].
+Commands for [[Compteur de mots]].
 
 ### `wordcount`
 
@@ -1263,7 +1263,7 @@ characters         # return character count only
 
 ## Workspace
 
-Commands for [[Workspace]] and the [[Workspaces]] plugin.
+Commands for [[Espace de travail]] and the [[Espaces de travail]] plugin.
 
 ### `workspace`
 
@@ -1333,7 +1333,7 @@ total              # return recent file count
 
 ## Developer commands
 
-Commands to help you develop [[Community plugins]] and [[Themes]]. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
+Commands to help you develop [[Plugins communautaires]] and [[Thèmes]]. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
 
 ### `devtools`
 
@@ -1478,13 +1478,13 @@ These shortcuts are available in the [[#Use the terminal interface|TUI]].
 
 If you are having trouble running Obsidian CLI:
 
-- Make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.12.4 or above).
+- Make sure you are using the latest [[Mettre à jour Obsidian|Obsidian installer version]] (1.12.4 or above).
 - Restart your terminal after registering the CLI for the PATH changes to take effect.
 - Obsidian must be running. The CLI connects to the running Obsidian instance. If Obsidian is not running, the first CLI command should launch the app.
 
 ### Windows
 
-Obsidian CLI on Windows requires the Obsidian 1.12.4+ installer. See [[Update Obsidian|Installer version update]].
+Obsidian CLI on Windows requires the Obsidian 1.12.4+ installer. See [[Mettre à jour Obsidian|Installer version update]].
 
 Windows uses a terminal redirector that connects Obsidian to stdin/stdout properly. This is necessary because Obsidian normally runs as a GUI app which is incompatible with terminal outputs on Windows. When you install Obsidian 1.12.4+ the `Obsidian.com` terminal redirector will be added in the folder where you installed the `Obsidian.exe` file.
 

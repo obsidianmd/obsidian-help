@@ -1,125 +1,125 @@
 ---
 permalink: glossary
-localized: null
+localized: '2026-03-18'
 aliases:
   - Glossary
 ---
-This glossary includes common Obsidian terminology.
+Ce glossaire regroupe la terminologie courante d'Obsidian.
 
 ## Alias
 
-An **alias** is a type of [[#property]] that defines alternative names for a [[#note]].
+Un **alias** est un type de [[#Propriété|propriété]] qui définit des noms alternatifs pour une [[#Note|note]].
 
-## Attachment
+## Pièce jointe
 
-An **attachment** is an [[Accepted file formats|accepted file format]] that was created outside of the vault and added later.
+Une **pièce jointe** est un [[Formats de fichiers acceptés|format de fichier accepté]] qui a été créé en dehors du coffre et ajouté ultérieurement.
 
-## Command
+## Commande
 
-A **command** is an action that can be performed either by selecting it from the [[Command palette]] or by assigning it to a [[#hotkey]].
+Une **commande** est une action qui peut être exécutée soit en la sélectionnant depuis la [[Palette de commandes|palette de commandes]], soit en lui attribuant un [[#Raccourci clavier|raccourci clavier]].
 
-## Embed
+## Intégration
 
-**Embedding** means replacing a reference to external content with the content itself, for example to include an image in your note. See also [[Embed files]].
+L'**intégration** consiste à remplacer une référence à un contenu externe par le contenu lui-même, par exemple pour inclure une image dans votre note. Voir aussi [[Incorporer des fichiers|Intégrer des fichiers]].
 
-## Frontmatter
+## Métadonnées
 
-Frontmatter is a way to define [[#property|properties]] by adding [YAML](https://yaml.org/) or [JSON](https://www.json.org/) at the top of the note. See also [[Properties#Property format|Property format]].
+Les métadonnées sont un moyen de définir des [[#Propriété|propriétés]] en ajoutant du [YAML](https://yaml.org/) ou du [JSON](https://www.json.org/) en haut de la note. Voir aussi [[Propriétés#Property format|Format des propriétés]].
 
-## Graph
+## Graphe
 
-A **graph** is a visualization that highlights connections between [[#note|notes]]. See also [[Graph view]].
+Un **graphe** est une visualisation qui met en évidence les connexions entre les [[#Note|notes]]. Voir aussi [[Vue graphique|Vue graphique]].
 
-## Hotkey
+## Raccourci clavier
 
-A **hotkey** is a keyboard shortcut for a [[#command]]. See also [[Hotkeys]] and [[Hotkeys|How to/Use hotkeys]].
+Un **raccourci clavier** est un raccourci au clavier pour une [[#Commande|commande]]. Voir aussi [[Raccourcis clavier|Raccourcis clavier]] et [[Raccourcis clavier|Comment utiliser les raccourcis clavier]].
 
-## Link
+## Lien
 
-A **link** references another note or file. An [[Internal links|internal link]] points to a file located in the current vault. An [[Basic formatting syntax#External links|external link]] points to a location outside the vault, typically a web page.
+Un **lien** fait référence à une autre note ou un autre fichier. Un [[Liens internes|lien interne]] pointe vers un fichier situé dans le coffre actuel. Un [[Syntaxe de mise en forme de base#External links|lien externe]] pointe vers un emplacement en dehors du coffre, généralement une page web.
 
-## Main area
+## Zone principale
 
-The **main area** is the central area of the Obsidian app, where you primarily edit [[#note|notes]].
+La **zone principale** est la zone centrale de l'application Obsidian, où vous modifiez principalement vos [[#Note|notes]].
 
 ## Markdown
 
-Markdown is a markup language for formatting text and the primary file format used for notes in Obsidian, `.md` files. See also [[Basic formatting syntax]].
+Markdown est un langage de balisage pour la mise en forme du texte et le format de fichier principal utilisé pour les notes dans Obsidian, les fichiers `.md`. Voir aussi [[Syntaxe de mise en forme de base|Syntaxe de mise en forme de base]].
 
 ## Note
 
-A **note** is a Markdown file inside a [[#vault]].
+Une **note** est un fichier Markdown à l'intérieur d'un [[#Coffre|coffre]].
 
-## Plugin
+## Module
 
-A **plugin** extends Obsidian with additional features.
+Un **module** étend Obsidian avec des fonctionnalités supplémentaires.
 
-- [[Core plugins]] are written by the Obsidian team and included by default.
-- [[Community plugins]] are written by third-party plugin developers and need to be [[Community plugins#Install a community plugin|installed]] before you can use them.
+- Les [[Plugins principaux|modules principaux]] sont écrits par l'équipe d'Obsidian et inclus par défaut.
+- Les [[Plugins communautaires|modules complémentaires]] sont écrits par des développeurs tiers et doivent être [[Plugins communautaires#Install a community plugin|installés]] avant de pouvoir être utilisés.
 
-You can [build your own plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+Vous pouvez [créer votre propre module](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
-## Pop-out window
+## Fenêtre détachée
 
-By default, all notes within a vault opens in the same app window. A **pop-out window** lets you open notes from the same vault in separate windows, for example to display on a second screen.
+Par défaut, toutes les notes d'un coffre s'ouvrent dans la même fenêtre d'application. Une **fenêtre détachée** vous permet d'ouvrir des notes du même coffre dans des fenêtres séparées, par exemple pour les afficher sur un second écran.
 
-See also [[Pop-out windows]].
+Voir aussi [[Fenêtres détachées|Fenêtres détachées]].
 
-## Property
+## Propriété
 
-[[Properties|Properties]] define additional information about a note, such as a due date or author.
+Les [[Propriétés|propriétés]] définissent des informations supplémentaires sur une note, comme une date d'échéance ou un auteur.
 
-## Ribbon
+## Ruban
 
-The **ribbon** functions as a container for frequently used action icons. 
+Le **ruban** sert de conteneur pour les icônes d'actions fréquemment utilisées.
 
-In the desktop version, it's the vertical area situated on the far left. 
+Dans la version de bureau, il s'agit de la zone verticale située à l'extrême gauche.
 
-In the mobile version, it's represented by a menu button ( ![[lucide-menu.svg#icon]] ) on the [[#status bar|status bar]].
+Dans la version mobile, il est représenté par un bouton de menu ( ![[lucide-menu.svg#icon]] ) dans la [[#Barre d'état|barre d'état]].
 
-## Sidebar
+## Barre latérale
 
-An area that contains supporting [[#view|views]] organized as [[#tab|tabs]]. A sidebar can be split into multiple [[#tab group|tab groups]]. 
+Une zone qui contient des [[#Vue|vues]] auxiliaires organisées sous forme d'[[#Onglet|onglets]]. Une barre latérale peut être divisée en plusieurs [[#Groupe d'onglets|groupes d'onglets]].
 
-Obsidian desktop has two sidebars, one on each side of the [[#main area]]. Both sidebars can be accessed by icons in the upper-left and upper-right corners in the Obsidian app, in addition to swiping left or right. The upper-right icon must be held to open the window.
+Obsidian sur bureau dispose de deux barres latérales, une de chaque côté de la [[#Zone principale|zone principale]]. Les deux barres latérales sont accessibles par des icônes dans les coins supérieur gauche et supérieur droit de l'application Obsidian, en plus du balayage vers la gauche ou la droite. L'icône en haut à droite doit être maintenue pour ouvrir la fenêtre.
 
-## Snippet
+## Extrait css
 
-A **snippet**, or [[CSS snippets|CSS snippet]], changes the appearance of Obsidian, just like a [[#theme]]. Unlike themes, you can apply multiple snippets at the same time.
+Un **extrait css**, ou [[Extraits CSS|extrait CSS]], modifie l'apparence d'Obsidian, tout comme un [[#Thème|thème]]. Contrairement aux thèmes, vous pouvez appliquer plusieurs extraits css en même temps.
 
-## Status bar
+## Barre d'état
 
-The **status bar** in the Obsidian application shows you essential statistics and statuses. In the desktop version, you'll find it in the bottom-right corner, while on mobile devices, it's positioned along the bottom of the app.
+La **barre d'état** de l'application Obsidian vous affiche des statistiques et des états essentiels. Dans la version de bureau, vous la trouverez dans le coin inférieur droit, tandis que sur les appareils mobiles, elle est positionnée le long du bas de l'application.
 
 
-## Tab
+## Onglet
 
-A **tab** contains a [[#view]]. Tabs can be repositioned within the [[#main area]] and the [[#sidebar|sidebars]]. See also [[Tabs]].
+Un **onglet** contient une [[#Vue|vue]]. Les onglets peuvent être repositionnés dans la [[#Zone principale|zone principale]] et les [[#Barre latérale|barres latérales]]. Voir aussi [[Onglets|Onglets]].
 
-## Tab group
+## Groupe d'onglets
 
-A **tab group** is a collection of [[#tab|tabs]] in the [[#main area]]. Tabs in a tab group can be stacked.
+Un **groupe d'onglets** est un ensemble d'[[#Onglet|onglets]] dans la [[#Zone principale|zone principale]]. Les onglets d'un groupe d'onglets peuvent être empilés.
 
-## Tag
+## Mot-clé
 
-A **tag** is a word that starts with a hash (`#`), for example `#book`. Tags are primarily used to find related [[#note|notes]].
+Un **mot-clé** est un mot qui commence par un croisillon (`#`), par exemple `#livre`. Les mots-clés sont principalement utilisés pour trouver des [[#Note|notes]] connexes.
 
-## Theme
+## Thème
 
-A **theme** changes the appearance of the Obsidian app using [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). You can override parts of a theme using [[#snippet|snippets]].
+Un **thème** modifie l'apparence de l'application Obsidian en utilisant le [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). Vous pouvez remplacer certaines parties d'un thème en utilisant des [[#Extrait css|extraits css]].
 
-## Vault
+## Coffre
 
-`Aliases: local vault, local data`
+`Aliases: coffre local, données locales`
 
-A **vault** is a folder on your file system which contains [[#note|notes]] and an `.obsidian` folder with Obsidian-specific configuration. See also [[How Obsidian stores data]].
+Un **coffre** est un dossier sur votre système de fichiers qui contient des [[#Note|notes]] et un dossier `.obsidian` avec la configuration spécifique à Obsidian. Voir aussi [[Comment Obsidian stocke les données|Comment Obsidian stocke les données]].
 
-### Remote vault
+### Coffre distant
 
-`Aliases: Remote data`
+`Aliases: Données distantes`
 
-A [[Local and remote vaults|remote vault]] is a copy of your local vault that is maintained with [[Introduction to Obsidian Sync|Obsidian Sync]]. The remote vault data is updated based on changes to local data. 
+Un [[Coffres locaux et distants|coffre distant]] est une copie de votre coffre local qui est maintenue avec [[Introduction à Obsidian Sync|Obsidian Sync]]. Les données du coffre distant sont mises à jour en fonction des modifications apportées aux données locales.
 
-## View
+## Vue
 
-A **view** displays information, for example the [[Search|Search view]].
+Une **vue** affiche des informations, par exemple la [[Recherche|vue de recherche]].

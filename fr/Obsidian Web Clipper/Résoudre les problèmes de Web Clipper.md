@@ -4,7 +4,7 @@ localized: null
 aliases:
   - Troubleshoot Web Clipper
 ---
-If you encounter issues with [[Introduction to Obsidian Web Clipper|Web Clipper]] you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repo](https://github.com/obsidianmd/obsidian-clipper).
+If you encounter issues with [[Introduction à Obsidian Web Clipper|Web Clipper]] you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repo](https://github.com/obsidianmd/obsidian-clipper).
 
 ## General
 
@@ -17,14 +17,14 @@ Web Clipper uses [Defuddle](https://github.com/kepano/defuddle) to capture only 
 To bypass Defuddle in Web Clipper use the following methods:
 
 - Select text, or use `Cmd/Ctrl+A` to select all text.
-- [[Highlight web pages|Highlight content]] to choose exactly what you want to capture.
-- Use a [[Obsidian Web Clipper/Templates|custom template]] for the site.
+- [[Surligner des pages web|Highlight content]] to choose exactly what you want to capture.
+- Use a [[Obsidian Web Clipper/Modèles|custom template]] for the site.
 
 ### No content appears in Obsidian
 
 If you don't see any content in Obsidian when you click **Add to Obsidian**:
 
-- Check for errors in the Obsidian [[Help and support#Capture console logs|developer console]].
+- Check for errors in the Obsidian [[Aide et support#Capturer les journaux de la console|developer console]].
 - Check that your vault name in Web Clipper settings exactly matches your *vault name* in Obsidian *not the vault path*.
 - Check that the folder name is correctly formatted.
 
@@ -73,10 +73,10 @@ To enable the Web Clipper extension for Safari:
 
 To allow Web Clipper to run on all websites:
 
-1. Go to iOS **[[Settings]]** →  **Apps** →  **Safari** →  **Extensions**.
+1. Go to iOS **[[Paramètres]]** →  **Apps** →  **Safari** →  **Extensions**.
 2. Under **Permissions** allow it to run on all websites.
 
 To allow Obsidian to always receive Web Clipper content:
 
-1. Go to iOS **[[Settings]]** →  **Apps** →  **Obsidian**.
+1. Go to iOS **[[Paramètres]]** →  **Apps** →  **Obsidian**.
 2. Set **Paste from other apps** to **Allow**.

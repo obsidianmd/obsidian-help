@@ -28,7 +28,7 @@ Follow the instructions for [Print and export entries in Journal on Mac](https:/
 
 You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.

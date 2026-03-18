@@ -7,7 +7,7 @@ aliases:
   - Custom domains
 ---
 
-You can set up a custom domain or subdomain for your [[Introduction to Obsidian Publish|Obsidian Publish]] site.
+You can set up a custom domain or subdomain for your [[Introduction à Obsidian Publish|Obsidian Publish]] site.
 
 > [!warning]
 > At the moment, we only support configuring custom domains using the following methods:
@@ -48,7 +48,7 @@ The following steps use CloudFlare to configure a custom domain for your Obsidia
 **Obsidian:**
 
 1. Open Obsidian on your computer.
-2. In the [[Ribbon]] at the left, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
+2. In the [[Ruban]] at the left, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
 3. Under **Publish changes**, select **Change site options** ( ![[lucide-cog.svg#icon]] ).
 4. Next to **Custom domain**, select **Configure**.
 5. In **Custom URL**, enter the URL to your domain or subdomain. Make sure to not put `www.` in the custom URL box.

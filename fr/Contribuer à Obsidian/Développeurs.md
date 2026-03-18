@@ -8,7 +8,7 @@ If you are a developer you can contribute to Obsidian in various ways.
 
 ### Plugins and themes
 
-You can develop [[Community plugins]] and [[Themes]] using Typescript and CSS. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
+You can develop [[Plugins communautaires]] and [[Thèmes]] using Typescript and CSS. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
 
 ### Open source projects
 

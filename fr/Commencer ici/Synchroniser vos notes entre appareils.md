@@ -14,11 +14,11 @@ Obsidian stores notes locally on your device so you always have access to them, 
 
 This guide covers common sync methods, including tips to avoid data loss and ensure a smooth experience.
 
-We also recommend reading our [[Back up your Obsidian files|backup guide]] to protect your data.
+We also recommend reading our [[Sauvegarder vos fichiers Obsidian|backup guide]] to protect your data.
 
 ## Syncing methods
 
-With Obsidian your data is simply stored as files in a folder called a [[Local and remote vaults|vault]]. This means there are many ways to sync your data.
+With Obsidian your data is simply stored as files in a folder called a [[Coffres locaux et distants|vault]]. This means there are many ways to sync your data.
 
 These are a few commonly used sync methods reported by members of the [Obsidian Community](https://obsidian.md/community):
 
@@ -31,11 +31,11 @@ These are a few commonly used sync methods reported by members of the [Obsidian 
 
 **Recommended systems**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
 
-The most straightforward and officially supported sync method is our first-party solution: [[Introduction to Obsidian Sync|Obsidian Sync]].
+The most straightforward and officially supported sync method is our first-party solution: [[Introduction à Obsidian Sync|Obsidian Sync]].
 
 Obsidian Sync keeps your vaults synced across all devices by using an off-site remote vault to make copies of your data. A local copy remains on your devices at all times.
 
-Follow the [[Set up Obsidian Sync|setup guide]] to configure Obsidian Sync.
+Follow the [[Configurer Obsidian Sync|setup guide]] to configure Obsidian Sync.
 
 ## iCloud
 
@@ -60,7 +60,7 @@ iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive
         3. Toggle on **Store in iCloud**.
         4. Tap **Create**.
 - **Open the vault on another Apple device**: 
-    - On another macOS or iOS device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to **iCloud Drive → Obsidian**.
+    - On another macOS or iOS device, open **Obsidian**, go to the [[Gérer les coffres|Vault switcher]], and select **Open folder as vault**. Navigate to **iCloud Drive → Obsidian**.
 
 > [!warning]+ iOS and iPadOS folder location
 > When using iCloud on mobile devices, ensure your vault is stored in the correct location: `iCloud Drive/Obsidian/[Your Vault Name]`.
@@ -95,7 +95,7 @@ iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive
      2. Create a new folder (e.g., \"Obsidian Vault\").
      3. Open **Obsidian**, select **Create new vault**, and select the OneDrive folder.
 3. **Open the vault on another device**:
-   - On another device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to **OneDrive → Documents**.
+   - On another device, open **Obsidian**, go to the [[Gérer les coffres|Vault switcher]], and select **Open folder as vault**. Navigate to **OneDrive → Documents**.
 
 > [!info] Android syncing
 > OneDrive may not function well for Android syncing. Consider using apps like [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) or [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
@@ -124,11 +124,11 @@ iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive
         2. Create a new folder (e.g., \"Obsidian Vault\").
         3. Open **Obsidian**, select **Create new vault**, and select the Google Drive folder.
 3. **Open the vault on another device**:
-    - On another device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to your Google Drive folder.
+    - On another device, open **Obsidian**, go to the [[Gérer les coffres|Vault switcher]], and select **Open folder as vault**. Navigate to your Google Drive folder.
 
 > [!tip] Best practices
 > - Set vault files to **Available Offline** in Google Drive to avoid syncing issues due to offloading.
-> - For iOS, consider alternative methods like [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]], or use the **Remotely Save** plugin.
+> - For iOS, consider alternative methods like [[Introduction à Obsidian Sync|Obsidian Sync]], [[#iCloud]], or use the **Remotely Save** plugin.
 
 ## Syncthing
 
@@ -150,7 +150,7 @@ Syncthing is a decentralized file synchronization tool that doesn't rely on clou
      2. Ensure the same folder is selected on all devices.
      3. Configure folder syncing preferences (e.g., **Send & Receive** for bidirectional syncing).
 3. **Open the vault in Obsidian**:
-   - Once the folder is synced across devices, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**.
+   - Once the folder is synced across devices, open **Obsidian**, go to the [[Gérer les coffres|Vault switcher]], and select **Open folder as vault**.
 
 > [!info] Device availability
 > Syncthing works best when at least one device is always on to ensure continuous syncing.
@@ -185,7 +185,7 @@ Syncthing is a decentralized file synchronization tool that doesn't rely on clou
 ## iPhone and iPad syncing
 
 **Recommended options**:
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Introduction à Obsidian Sync|Obsidian Sync]]
 - [[#iCloud]]
 
 > [!info] Avoid mixing sync services
@@ -235,4 +235,4 @@ If services like OneDrive or iCloud offload files (e.g., using **Files On-Demand
 
 **How do I manage different configurations for my vaults?**
 
-Obsidian allows you to customize the configuration folder per device using the [[Configuration folder|Config folders]] feature.
+Obsidian allows you to customize the configuration folder per device using the [[Dossier de configuration|Config folders]] feature.

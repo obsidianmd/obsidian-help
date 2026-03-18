@@ -8,7 +8,7 @@ Obsidian lets you easily migrate your notes from Notion using the [[Importer|Imp
 
 Obsidian offers two ways to import your Notion data:
 
-1. **API import** preserves your entire workspace including Databases and formulas which are converted to [[Introduction to Bases|Bases]], but requires a Notion integration token and an internet connection.
+1. **API import** preserves your entire workspace including Databases and formulas which are converted to [[Introduction aux Bases|Bases]], but requires a Notion integration token and an internet connection.
 2. **File import** does not preserve Databases but does not require an API token or internet connection.
 
 ## API import
@@ -45,7 +45,7 @@ You can now convert your data using Obsidian Importer.
 
 You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.
@@ -83,7 +83,7 @@ File import is alternative way to import your Notion data. This method does not 
 
 To prepare your data for import, you will need to export your entire workspace using Notion's HTML export format. We recommend that you do not use Notion's Markdown export as it omits important data. You must have admin access to the Notion workspace to export all workspace content.
 
-1. Go to **[[Settings]]** at the top of the Notion sidebar.
+1. Go to **[[Paramètres]]** at the top of the Notion sidebar.
 2. Under **Workspace** select **General**.
 3. Find and select **Export all workspace content**.
 4. Under **Export format** select **HTML**.
@@ -99,7 +99,7 @@ To prepare your data for import, you will need to export your entire workspace u
 
 You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.

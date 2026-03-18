@@ -9,7 +9,7 @@ aliases:
 
 Learn how you can embed other notes and media into your notes. By embedding files in your notes, you can reuse content across your vault.
 
-To embed a file in your vault, add an exclamation mark (`!`) in front of an [[Internal links|Internal link]]. You can embed files in any of the [[Accepted file formats]].
+To embed a file in your vault, add an exclamation mark (`!`) in front of an [[Liens internes|Internal link]]. You can embed files in any of the [[Formats de fichiers acceptés]].
 
 > [!tip] Drag and Drop embed  
 > On desktop, you can also drag and drop supported files directly into your note to embed them automatically.
@@ -19,18 +19,18 @@ To embed a file in your vault, add an exclamation mark (`!`) in front of an [[In
 To embed a note:
 
 ```md
-![[Internal links]]
+![[Liens internes]]
 ```
 
-You can also embed links to [[Internal links#Link to a heading in a note|headings]] and [[Internal links#Link to a block in a note|blocks]].
+You can also embed links to [[Liens internes#Link to a heading in a note|headings]] and [[Liens internes#Link to a block in a note|blocks]].
 
 ```md
-![[Internal links#^b15695]]
+![[Liens internes#^b15695]]
 ```
 
 The text below is an example of an embedded block:
 
-![[Internal links#^b15695]]
+![[Liens internes#^b15695]]
 
 ## Embed an image in a note
 
@@ -92,7 +92,7 @@ You can also specify the height in pixels for the embedded PDF viewer, by adding
 
 ## Embed a list in a note
 
-To embed a list from a different note, first add a [[Internal links#Link to a block in a note|block identifier]] to your list:
+To embed a list from a different note, first add a [[Liens internes#Link to a block in a note|block identifier]] to your list:
 
 ```md
 
@@ -110,4 +110,4 @@ Then link to the list using the block identifier:
 
 ## Embed search results 
 
-![[Search#Embed search results in a note]]
+![[Recherche#Embed search results in a note]]

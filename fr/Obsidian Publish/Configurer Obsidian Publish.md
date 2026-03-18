@@ -8,7 +8,7 @@ localized: null
 aliases:
   - Set up Obsidian Publish
 ---
-In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
+In this guide, you'll enable [[Introduction à Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish
 
 ## Log in with your Obsidian account
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. In the sidebar, select **General**.
 3. Under **Account → Your account**, select **Log in**.
 4. In **Email**, enter your email.
@@ -26,7 +26,7 @@ In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish
 
 ## Enable Obsidian Publish
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. In the sidebar, select **Core plugins**.
 3. Enable **Publish**.
 
@@ -36,7 +36,7 @@ You can access Publish through the following options: the command palette, a hot
 
 #### Open via Command palette
 
-> [!info] This option requires the [[Command palette]] core plugin to be enabled.
+> [!info] This option requires the [[Palette de commandes]] core plugin to be enabled.
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
@@ -48,7 +48,7 @@ The **Publish changes** window will appear in a new pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
+1. Open the [[Ruban]] ( ![[lucide-menu.svg#icon]] ).
 2. Open the **Command palette** ( ![[lucide-terminal.svg#icon]] ).
 3. Type "Publish".
 4. Select the **Publish: Publish changes...** option.
@@ -57,27 +57,27 @@ The **Publish changes** menu will appear as a slide-up.
 
 #### Open via hotkey
 
-1. Open **[[Settings]]**.
+1. Open **[[Paramètres]]**.
 2. In the **Options** category, select **Hotkeys**.
 3. In the hotkey search bar, type "Publish".
 4. Next to **Publish: Publish changes...**, assign your preferred hotkey.
-5. Close **[[Settings]]**.
+5. Close **[[Paramètres]]**.
 6. Use your hotkey to open **Publish changes**.
 
 #### Open via ribbon
 
-You can also access Obsidian Publish via the [[ribbon]].
+You can also access Obsidian Publish via the [[Ruban]].
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the left [[Sidebar]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
+1. Open the left [[Barre latérale]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
 2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.
 
 The **Publish changes** window will appear in a new pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
+1. Open the [[Ruban]] ( ![[lucide-menu.svg#icon]] ).
 2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.
 
 The **Publish changes** menu will appear as a slide-up.
@@ -94,7 +94,7 @@ The **Publish changes** menu will appear as a slide-up.
 3. In **Site name**, under **General**, enter the name of your site.
 4. Select **Save site settings**.
 
-> [!abstract] **Further reading**: [[Manage sites]], [[Customize your site]]
+> [!abstract] **Further reading**: [[Gérer les sites]], [[Personnaliser votre site]]
  
 ## Select notes to publish
 
@@ -103,13 +103,13 @@ The **Publish changes** menu will appear as a slide-up.
 3. Choose the notes you want to publish.
 4. Select **Publish**.
 
-> [!abstract] **Further reading**: [[Publish your content]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
+> [!abstract] **Further reading**: [[Publier votre contenu]], [[Obsidian Publish/Sécurité et confidentialité|Security and privacy]], [[Limitations de Publish|Publish limitations]]
 
 You've configured an Obsidian Publish site and published your first notes. Head over to the site address you configured earlier in this guide, and start sharing it with your readers.
 
 ## Next steps
 
 Now that you've published your first notes, you might want to:
-- Set up a custom domain for your site: [[Custom domains]]
-- Learn about advanced site customization: [[Customize your site]]
-- Find out how to add social media cards: [[Social media link previews]]
+- Set up a custom domain for your site: [[Domaines personnalisés]]
+- Learn about advanced site customization: [[Personnaliser votre site]]
+- Find out how to add social media cards: [[Aperçus de liens sur les réseaux sociaux]]

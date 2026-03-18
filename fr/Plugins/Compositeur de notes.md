@@ -4,7 +4,7 @@ localized: null
 aliases:
   - Note composer
 ---
-Note composer is a [[Core plugins|core plugin]] that lets you merge two notes or extract part of a note into a new note.
+Note composer is a [[Plugins principaux|core plugin]] that lets you merge two notes or extract part of a note into a new note.
 
 ## Merge notes
 
@@ -27,13 +27,13 @@ To merge the active note with another note in your vault:
 
 **Command palette**
 
-1. Open the [[Command palette]].
+1. Open the [[Palette de commandes]].
 2. Select **Note composer: Merge current file with another file...**.
 3. Select the note you want to merge into.
 4. Click **Merge** to confirm.
 
 > [!tip]
-> By default, Note composer asks you to confirm when merging notes. If you disable the confirmation, and you merge a note by mistake, you can still recover it with the [[File recovery]] plugin.
+> By default, Note composer asks you to confirm when merging notes. If you disable the confirmation, and you merge a note by mistake, you can still recover it with the [[Récupération de fichiers]] plugin.
 
 ## Extract note
 
@@ -55,12 +55,12 @@ To extract text into a new note:
 **Command palette**
 
 1. While in the **Editing view**, select the text you want to extract.
-2. Open the [[Command palette]].
+2. Open the [[Palette de commandes]].
 3. Select **Note composer: Extract current selection...**.
 4. Select the note you want to extract into.
 
 > [!tip]
-> By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Embed files|embed]] the destination note, or to leave nothing behind.
+> By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Incorporer des fichiers|embed]] the destination note, or to leave nothing behind.
 
 ## Template file
 

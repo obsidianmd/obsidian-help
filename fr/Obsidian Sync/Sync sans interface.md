@@ -10,9 +10,9 @@ localized: null
 aliases:
   - Headless Sync
 ---
-[[Introduction to Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
+[[Introduction à Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
 
-Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app. Headless Sync uses the same [[Security and privacy|encryption and privacy protections]] as the desktop app, including end-to-end encryption.
+Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction à Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app. Headless Sync uses the same [[Sécurité et confidentialité|encryption and privacy protections]] as the desktop app, including end-to-end encryption.
 
 ## Quick start
 
@@ -26,7 +26,7 @@ Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
 npm install -g obsidian-headless
 ```
 
-You must have an active [[Plans and storage limits|Obsidian Sync subscription]].
+You must have an active [[Forfaits et limites de stockage|Obsidian Sync subscription]].
 
 ```shell
 # Login
@@ -102,7 +102,7 @@ ob sync [--path <local-path>] [--continuous]
 
 ### `ob sync-config`
 
-View or change [[Sync settings and selective syncing|sync settings]] for a vault. Run with no options to display the current configuration.
+View or change [[Paramètres de Sync et synchronisation sélective|sync settings]] for a vault. Run with no options to display the current configuration.
 
 ```
 ob sync-config [--path <local-path>] [options]
