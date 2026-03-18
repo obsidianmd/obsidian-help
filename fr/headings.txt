@@ -28,7 +28,7 @@ Background=Arrière-plan
 Map tiles=Tuiles de carte
 Useful links=Liens utiles
 Tips=Astuces
-Troubleshooting=Résolution de problèmes
+Troubleshooting=Dépannage
 
 [bases/views/cards]
 Settings=Paramètres
@@ -113,8 +113,8 @@ Files and links=Fichiers et liens
 
 [bases/views]
 Toolbar=Barre d'outils
-Add and switch views=Ajouter et basculer entre les vues
-View settings=Paramètres de vue
+Add and switch views=Ajouter et changer de vue
+View settings=Paramètres de la vue
 Layout=Disposition
 Filters=Filtres
 Components of a filter=Composants d'un filtre
@@ -171,7 +171,7 @@ Pop-out window=Fenêtre détachée
 Property=Propriété
 Ribbon=Ruban
 Sidebar=Barre latérale
-Snippet=Extrait css
+Snippet=Extrait CSS
 Status bar=Barre d'état
 Tab=Onglet
 Tab group=Groupe d'onglets
@@ -195,3 +195,7 @@ Learn more=En savoir plus
 Check for updates and view version=Vérifier les mises à jour et consulter la version
 Disable automatic updates=Désactiver les mises à jour automatiques
 Installer updates=Mises à jour du programme d'installation
+
+[plugins]
+All core plugins=Tous les modules principaux
+Other plugins=Autres modules

@@ -8,9 +8,9 @@ mobile: false
 aliases:
   - How to/Créer des notes
   - Create your first note
-localized: '2026-03-18'
+localized: null
 ---
-Les notes dans Obsidian sont stockées sous forme de fichiers en texte brut. Cela signifie que vos données sont durables et ne sont pas enfermées dans un format propriétaire. En rédigeant vos notes en texte brut, elles survivront à toute application — même à Obsidian.
+Les notes dans Obsidian sont stockées sous forme de fichiers en texte brut. Cela signifie que vos données sont durables et ne sont pas enfermées dans un format propriétaire. En écrivant vos notes en texte brut, elles survivront à n'importe quelle application — même Obsidian elle-même.
 
 ## Créer une nouvelle note
 
@@ -36,12 +36,12 @@ Obsidian prend en charge la syntaxe [[Syntaxe de mise en forme de base|Markdown]
 
    Le symbole dièse (`#`) transforme une ligne de texte en entête.
 
-2. Dans votre note, sélectionnez n'importe quel texte et appuyez sur `Ctrl+B` (ou `Cmd+B` sur macOS) pour le mettre en **gras**.
+2. Dans votre note, sélectionnez n'importe quel texte et appuyez sur `Ctrl+B` (ou `Cmd+B` sur macOS) pour le mettre en gras.
 
-Pour en savoir plus sur la mise en forme de vos notes avec Markdown, consultez [[Syntaxe de mise en forme de base|Syntaxe de mise en forme de base]].
+Pour en savoir plus sur la mise en forme de vos notes avec Markdown, consultez [[Syntaxe de mise en forme de base]].
 
 ## En savoir plus
 
-Découvrez comment [[Lier des notes|lier des notes]] pour créer un réseau de pensées connectées.
+Apprenez à [[Lier des notes|lier des notes]] pour créer un réseau de pensées connectées.
 
-Vous pouvez également consulter le [[Coffre bac à sable|coffre de démonstration]] pour explorer d'autres fonctionnalités de l'application.
+Vous pouvez également consulter le [[Coffre bac à sable]] pour explorer d'autres fonctionnalités de l'application.

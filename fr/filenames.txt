@@ -88,7 +88,7 @@ translation=Code de conduite de la communauté
 
 [file.community-plugins]
 original=Community plugins
-translation=Plugins communautaires
+translation=Modules complémentaires
 
 [file.configuration-folder]
 original=Configuration folder
@@ -152,7 +152,7 @@ translation=Contributions financières
 
 [file.folding]
 original=Folding
-translation=Pliage
+translation=Plier
 
 [file.formulas]
 original=Formulas
@@ -288,7 +288,7 @@ translation=Sécurité des plugins
 
 [file.plugins]
 original=Core plugins
-translation=Plugins principaux
+translation=Modules principaux
 
 [file.plugins/audio-recorder]
 original=Audio recorder
@@ -296,7 +296,7 @@ translation=Enregistreur audio
 
 [file.plugins/backlinks]
 original=Backlinks
-translation=Liens retour
+translation=Rétroliens
 
 [file.plugins/bookmarks]
 original=Bookmarks
@@ -320,11 +320,11 @@ translation=Explorateur de fichiers
 
 [file.plugins/file-recovery]
 original=File recovery
-translation=Récupération de fichiers
+translation=Récupération de fichier
 
 [file.plugins/format-converter]
 original=Format converter
-translation=Convertisseur de format
+translation=Importateur depuis des fichiers Markdown
 
 [file.plugins/graph]
 original=Graph view
@@ -336,7 +336,7 @@ translation=Importer
 
 [file.plugins/note-composer]
 original=Note composer
-translation=Compositeur de notes
+translation=Compositeur de note
 
 [file.plugins/outgoing-links]
 original=Outgoing links
@@ -364,11 +364,11 @@ translation=Note aléatoire
 
 [file.plugins/search]
 original=Search
-translation=Recherche
+translation=Rechercher
 
 [file.plugins/slash-commands]
 original=Slash commands
-translation=Commandes slash
+translation=Commandes Slash
 
 [file.plugins/slides]
 original=Slides
@@ -376,7 +376,7 @@ translation=Diapositives
 
 [file.plugins/tags]
 original=Tags view
-translation=Vue des étiquettes
+translation=Volet de mots-clés
 
 [file.plugins/templates]
 original=Templates
@@ -388,11 +388,11 @@ translation=Créateur de note unique
 
 [file.plugins/web-viewer]
 original=Web viewer
-translation=Visionneuse web
+translation=Afficheur web
 
 [file.plugins/word-count]
 original=Word count
-translation=Compteur de mots
+translation=Nombre de mots
 
 [file.plugins/workspaces]
 original=Workspaces
@@ -484,7 +484,7 @@ translation=Taxe de vente
 
 [file.sandbox]
 original=Sandbox vault
-translation=Coffre bac à sable
+translation=Coffre de test
 
 [file.settings]
 original=Settings
@@ -580,7 +580,7 @@ translation=Onglets
 
 [file.tags]
 original=Tags
-translation=Étiquettes
+translation=Mots-clés
 
 [file.teams]
 original=Obsidian for teams

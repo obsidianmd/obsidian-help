@@ -4,13 +4,13 @@ localized: '2026-03-18'
 aliases:
   - Cards view
 ---
-Cartes est un type d'[[Vues|affichage]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]].
+Cartes est un type de [[Vues|vue]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]].
 
-Sélectionnez ![[lucide-layout-grid.svg#icon]]  **Cartes** depuis le menu d'affichage pour présenter les fichiers sous forme de grille de type galerie avec des images de couverture optionnelles.
+Sélectionnez ![[lucide-layout-grid.svg#icon]]  **Cartes** dans le menu de vue pour afficher les fichiers sous forme de grille de type galerie avec des images de couverture optionnelles.
 
 ## Paramètres
 
-Les paramètres de l'affichage Cartes peuvent être configurés dans les [[Vues#Paramètres d'affichage|Paramètres d'affichage]].
+Les paramètres de la vue cartes peuvent être configurés dans les [[Vues#Paramètres de vue|Paramètres de vue]].
 
 - Taille des cartes
 - Propriété d'image
@@ -23,7 +23,7 @@ Définit la largeur d'une carte.
 
 ### Propriété d'image
 
-Les cartes prennent en charge une image de couverture optionnelle, qui est une [[Propriétés|propriété]] affichée sous forme d'image en haut de la carte. La propriété peut être l'une des suivantes :
+Les cartes prennent en charge une image de couverture optionnelle, qui est une [[Propriétés|propriété]] affichée sous forme d'image en haut de la carte. La propriété peut être l'un des éléments suivants :
 
 - Un lien vers une [[Pièces jointes|pièce jointe]] locale `"[[lien/vers/piece-jointe.jpg]]"`
 - Un lien externe (URL)
@@ -33,8 +33,8 @@ Les cartes prennent en charge une image de couverture optionnelle, qui est une [
 
 Si vous avez configuré une propriété d'image, cette option détermine comment l'image doit être affichée dans la carte.
 
-- **Couvrir :** L'image remplit la zone de contenu de la carte. Si elle ne tient pas, l'image sera recadrée.
-- **Contenir :** L'image est mise à l'échelle jusqu'à ce qu'elle tienne dans la zone de contenu de la carte. L'image ne sera pas recadrée.
+- **Couverture :** L'image remplit la zone de contenu de la carte. Si elle ne tient pas, l'image sera recadrée.
+- **Contenir :** L'image est mise à l'échelle jusqu'à tenir dans la zone de contenu de la carte. L'image ne sera pas recadrée.
 
 ### Ratio d'aspect de l'image
 

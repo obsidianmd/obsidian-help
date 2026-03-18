@@ -4,7 +4,7 @@ localized: '2026-03-18'
 aliases:
   - Create a base
 ---
-[[Introduction aux Bases|Les bases]] vous permettent de créer des vues de type base de données de vos notes. Voici comment créer une base et l'intégrer dans une note. Chaque base peut avoir une ou plusieurs [[Vues|vues]] pour afficher les informations de différentes manières.
+Les [[Introduction aux Bases|Bases]] vous permettent de créer des vues de type base de données de vos notes. Voici comment créer une base et l'intégrer dans une note. Chaque base peut avoir une ou plusieurs [[Vues|vues]] pour afficher les informations de différentes manières.
 
 ## Créer une nouvelle base
 
@@ -13,7 +13,7 @@ aliases:
 1. Ouvrez la **palette de commandes**.
 2. Sélectionnez
 	- **Bases: Create new base** pour créer une base dans le même dossier que le fichier actif.
-	- **Bases: Insert new base** pour créer une base et l'intégrer dans le fichier courant.
+	- **Bases: Insert new base** pour créer une base et l'intégrer dans le fichier actuel.
 
 **Explorateur de fichiers :**
 

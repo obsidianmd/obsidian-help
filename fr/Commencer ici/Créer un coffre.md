@@ -1,12 +1,12 @@
 ---
 permalink: vault
-localized: '2026-03-18'
+localized: null
 aliases:
   - Create a vault
 ---
 Un coffre est un dossier sur votre système de fichiers local où Obsidian stocke vos notes. Vous pouvez conserver toutes vos notes dans un seul coffre, ou créer plusieurs coffres pour chacun de vos différents projets.
 
-La première fois que vous ouvrez Obsidian, il vous sera demandé d'ajouter un nouveau coffre. Vous avez deux options : créer un nouveau coffre vide, ou utiliser un dossier existant.
+La première fois que vous ouvrez Obsidian, il vous sera demandé d'ajouter un nouveau coffre. Vous avez deux options : créer un nouveau coffre vide ou utiliser un dossier existant.
 
 ## Créer un coffre vide
 
@@ -25,6 +25,6 @@ Si vous avez déjà un dossier que vous souhaitez utiliser comme coffre :
 2. Dans l'explorateur de fichiers, sélectionnez le dossier que vous souhaitez utiliser comme coffre.
 3. Cliquez sur **Ouvrir**.
 
-Si vous voulez en savoir plus sur le fonctionnement des coffres, découvrez [[Comment Obsidian stocke les données|comment Obsidian stocke les données]].
+Si vous souhaitez en savoir plus sur le fonctionnement des coffres, découvrez [[Comment Obsidian stocke les données]].
 
-Maintenant que vous avez configuré votre coffre, vous êtes prêt à [[Créer votre première note|créer votre première note]].
+Maintenant que vous avez configuré votre coffre, vous êtes prêt à [[Créer votre première note]].

@@ -5,9 +5,9 @@ cssclasses:
 aliases:
   - How to/Importer des notes
   - Import notes
-localized: '2026-03-18'
+localized: null
 ---
-Les applications vont et viennent, mais vos données devraient perdurer. Obsidian utilise des fichiers Markdown en texte brut non propriétaires stockés localement sur votre appareil. Vous avez un contrôle total sur vos données, ce qui signifie que vous pouvez utiliser Obsidian hors ligne et passer facilement à une autre application si vous en avez besoin.
+Les applications vont et viennent, mais vos données doivent perdurer. Obsidian utilise des fichiers Markdown en texte brut non propriétaires stockés localement sur votre appareil. Vous avez un contrôle total sur vos données, ce qui signifie que vous pouvez utiliser Obsidian hors ligne et passer facilement à une autre application si vous en avez besoin.
 
 ## Importer depuis d'autres applications et formats de fichiers
 
@@ -21,7 +21,7 @@ Les applications vont et viennent, mais vos données devraient perdurer. Obsidia
 - <span class="icon-app icon-craft"></span> [[Importer depuis Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importer depuis Roam Research|Roam Research]]
 - <span class="icon-app icon-html"></span> [[Importer des fichiers HTML|Fichiers HTML]]
-- <span class="icon-app icon-md"></span> [[Importer des fichiers CSV|Fichiers CSV]]
+- <span class="icon-app icon-md"></span> [[Importer des fichiers CSV]]
 - <span class="icon-app icon-md"></span> [[Importer des fichiers Markdown|Fichiers Markdown]]
 - <span class="icon-app icon-md"></span> [[Importer des fichiers Textbundle|Fichiers Textbundle]]
 - <span class="icon-app icon-md"></span> [[Importer des notes Zettelkasten|Notes Zettelkasten]]

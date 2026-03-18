@@ -4,7 +4,7 @@ localized: null
 aliases:
   - Sandbox vault
 ---
-Le **coffre de démonstration d'Obsidian** est une fonctionnalité qui vous permet d'explorer diverses fonctionnalités sans affecter vos données existantes. Ce coffre est utile à la fois comme outil d'apprentissage et pour le débogage de problèmes. Il permet de déterminer si un problème est causé par un module, un thème ou l'application elle-même.
+Le **coffre de démonstration d'Obsidian** est une fonctionnalité qui vous permet d'explorer diverses fonctionnalités sans affecter vos données existantes. Ce coffre est utile à la fois comme outil d'apprentissage et pour déboguer des problèmes. Il aide à déterminer si un problème est causé par un module, un thème ou l'application elle-même.
 
 > [!note] Le coffre de démonstration n'est pas disponible sur les appareils mobiles. Cependant, vous pouvez en télécharger une copie depuis le dépôt [Obsidian Help](https://github.com/obsidianmd/obsidian-help) pour l'utiliser sur mobile.
 

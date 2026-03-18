@@ -4,7 +4,7 @@ description: >-
   Formulas allow you to create calculated properties using data from other
   properties. You can perform calculations, manipulate text, work with dates,
   and more.
-localized: '2026-03-18'
+localized: null
 aliases:
   - Formulas
 ---
@@ -15,10 +15,10 @@ Les formules vous permettent de créer des propriétés calculées dans les [[In
 Les formules peuvent vous aider à :
 
 - **Calculer des valeurs**, additionner des prix, calculer des totaux ou effectuer des opérations mathématiques.
-- **Manipuler du texte**, combiner des chaînes, changer la casse ou extraire des sous-chaînes.
+- **Manipuler du texte**, combiner des chaînes de caractères, changer la casse ou extraire des sous-chaînes.
 - **Travailler avec des dates**, calculer des différences de temps, formater des dates ou déterminer des échéances.
 - **Appliquer de la logique**, utiliser des instructions conditionnelles pour afficher différentes valeurs.
-- **Traiter des listes**, filtrer, trier, transformer ou agréger des données de liste.
+- **Traiter des listes**, filtrer, trier, transformer ou agréger des données de listes.
 
 ## Créer une propriété de formule
 
@@ -30,9 +30,9 @@ Pour créer une propriété de formule :
 4. Tapez votre formule dans le champ **Formule**.
 5. Fermez la boîte de dialogue.
 
-L'éditeur de formules propose la complétion automatique des noms de [[Fonctions|fonctions]] et de propriétés au fur et à mesure de votre saisie pour valider la syntaxe de votre formule. Une coche verte apparaît lorsque votre formule est valide.
+L'éditeur de formules complètera automatiquement les noms de [[Fonctions|fonctions]] et de propriétés au fur et à mesure de votre saisie pour valider la syntaxe de votre formule. Une coche verte apparaît lorsque votre formule est valide.
 
-Une fois créée, vous pouvez utiliser une propriété de formule comme n'importe quelle autre propriété dans votre base. Ajoutez-la à des [[Vues|vues]], utilisez-la dans des filtres, triez par celle-ci, et plus encore.
+Une fois créée, vous pouvez utiliser une propriété de formule comme n'importe quelle autre propriété dans votre base. Ajoutez-la aux [[Vues|vues]], utilisez-la dans les filtres, triez par cette propriété, et plus encore.
 
 ## Écrire une formule
 
@@ -42,9 +42,9 @@ Dans l'éditeur de formules, tapez une expression utilisant des propriétés, de
 
 Vous pouvez référencer différents types de propriétés dans vos formules :
 
-- **Propriétés de note** — Propriétés issues des [[Propriétés|métadonnées]] d'une note.
+- **Propriétés de note** — Propriétés provenant des [[Propriétés|métadonnées]] d'une note.
 - **Propriétés de fichier** — Propriétés intégrées comme `file.name`, `file.size` ou `file.mtime`.
-- **Propriétés de formule** — Autres formules utilisant `formula.nom_de_la_formule`.
+- **Propriétés de formule** — D'autres formules en utilisant `formula.nom_de_la_formule`.
 
 **Exemples :**
 
@@ -56,10 +56,10 @@ Vous pouvez référencer différents types de propriétés dans vos formules :
 
 Les **opérateurs arithmétiques** effectuent des calculs sur les nombres :
 
-- `price + tax` — addition
-- `price - discount` — soustraction
-- `price * quantity` — multiplication
-- `price / quantity` — division
+- `price + tax` — additionner
+- `price - discount` — soustraire
+- `price * quantity` — multiplier
+- `price / quantity` — diviser
 - `(part / whole) * 100` — utiliser des parenthèses pour l'ordre des opérations
 
 Les **opérateurs de comparaison** comparent des valeurs :
@@ -76,13 +76,13 @@ Les **opérateurs booléens** combinent des conditions logiques :
 - `price > 0 && quantity > 0` — et
 - `urgent || important` — ou
 
-En savoir plus dans [[Syntaxe des Bases#Opérateurs|Bases syntax]].
+En savoir plus dans [[Syntaxe des Bases#Opérateurs|Syntaxe des Bases]].
 
 ### Utiliser des fonctions
 
 Les fonctions effectuent des opérations sur des valeurs. Les fonctions disponibles dépendent du type de valeur avec lequel vous travaillez. Consultez la liste complète des [[Fonctions]].
 
-**Catégories courantes de fonctions :**
+**Catégories de fonctions courantes :**
 
 - **Fonctions globales** — `if()`, `now()`, `date()`, `link()`, `max()`, `min()`
 - **Fonctions de chaîne** — `contains()`, `replace()`, `split()`, `lower()`, `title()`
@@ -92,7 +92,7 @@ Les fonctions effectuent des opérations sur des valeurs. Les fonctions disponib
 
 **Exemples :**
 
-- `if(price, "$" + price.toFixed(2), "")` pour définir une condition avec formatage numérique.
+- `if(price, "$" + price.toFixed(2), "")` pour définir une condition avec formatage de nombre.
 - `file.name.lower()` pour convertir en minuscules.
 - `tags.contains("urgent")` pour vérifier si la liste de mots-clés contient une valeur.
 - `due_date.format("YYYY-MM-DD")` pour formater une date.
@@ -109,7 +109,7 @@ start_date + "2w"
 
 ### Afficher le statut de retard
 
-Afficher "En retard" si la date d'échéance est dépassée et que le statut n'est pas "Terminé" :
+Afficher « En retard » si la date d'échéance est dépassée et que le statut n'est pas « Done » :
 
 ```js
 if(due_date < now() && status != "Done", "Overdue", "")
@@ -117,7 +117,7 @@ if(due_date < now() && status != "Done", "Overdue", "")
 
 ### Formater une devise
 
-Afficher un prix avec 2 décimales et un symbole monétaire :
+Afficher un prix avec 2 décimales et un symbole de devise :
 
 ```js
 if(price, "$" + price.toFixed(2), "")
@@ -159,7 +159,7 @@ monthlyUses * formula.Owned.round()
 
 Les formules fonctionnent avec différents types de données :
 
-- **Chaînes** — Texte entre guillemets : `"hello"` ou `'world'`
+- **Chaînes de caractères** — Texte entre guillemets : `"hello"` ou `'world'`
 - **Nombres** — Valeurs numériques : `42`, `3.14`, `(2 + 2)`
 - **Booléens** — Vrai ou faux : `true`, `false`
 - **Dates** — Créées avec `date()`, `today()` ou `now()`
