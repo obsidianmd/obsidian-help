@@ -29,7 +29,7 @@ To merge the active note with another note in your vault:
 3. Select the note you want to merge into.
 4. Click **Merge** to confirm.
 
-> [!tip]
+> [!tip] Tip
 > By default, Note composer asks you to confirm when merging notes. If you disable the confirmation, and you merge a note by mistake, you can still recover it with the [[File recovery]] plugin.
 
 ## Extract note
@@ -56,7 +56,7 @@ To extract text into a new note:
 3. Select **Note composer: Extract current selection...**.
 4. Select the note you want to extract into.
 
-> [!tip]
+> [!tip] Tip
 > By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Embed files|embed]] the destination note, or to leave nothing behind.
 
 ## Template file

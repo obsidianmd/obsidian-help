@@ -9,5 +9,9 @@ Thumbs.db
 
 .obsidian
 
+.env
+scripts/node_modules
+scripts/package-lock.json
+
 .idea/
 .css.map

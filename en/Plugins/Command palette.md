@@ -10,7 +10,7 @@ To run a command from the Command palette:
 3. Navigate to the command using the arrow keys.
 4. Press `Enter`.
 
-> [!tip]
+> [!tip] Tip
 > The Command palette supports _fuzzy matching_, allowing you to search for commands even if you don't know their exact names. For example, typing "scf" will find the **S**ave **c**urrent **f**ile command.
 
 As of **version 1.8.3**, recently used commands appear at the top of the Command palette. However, these recently used commands are still subject to the _fuzzy matching_ algorithm. When you start filtering, shorter commands will be prioritized over recently used ones.
@@ -19,7 +19,7 @@ As of **version 1.8.3**, recently used commands appear at the top of the Command
 
 You can pin frequently used commands at the top of the Command palette to quickly access them without having to type their name.
 
-> [!tip]
+> [!tip] Tip
 > If you want to quickly run frequently used commands, you can also [[Hotkeys#Setting hotkeys|set hotkeys]] for them.
 
 ### Pin a command

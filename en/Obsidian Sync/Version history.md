@@ -1,4 +1,5 @@
 ---
+permalink: sync/version-history
 aliases:
   - Sync history
   - Sync Sidebar

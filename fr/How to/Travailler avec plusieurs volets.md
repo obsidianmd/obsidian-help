@@ -1,9 +1,0 @@
-Dans Obsidian chaque note est affichée dans son propre onglet. Ceux-ci peuvent être divisés, dupliqués ou déplacés pour créer l'espace de travail dont vous avez besoin.
-
-La disposition des onglets peut être réorganisée en les faisant glisser en haut de l'interface. Glisser-déposer sur l'un ou l'autre des quatre côtés d'un volet existant crée une division horizontale ou verticale, et glisser-déposer au milieu permute les positions avec le volet cible.
-
-![[Travailler avec plusieurs notes#^8bd62f]]
-
-Les volets peuvent également être déplacés vers les barres latérales et les barres latérales peuvent être repositionnées de la même manière. Un glisser-déposer en haut ou en bas de la barre latérale créera une division horizontale, et un glisser-déposer au milieu créera une division verticale. Vous pouvez, par exemple, déplacer l'[[explorateur de fichiers]] et effectuer une recherche sur le côté droit avec la barre latérale des [[rétroliens]]. Ou vous pouvez avoir une note à laquelle vous faites souvent référence, comme une table des matières ou votre [[Notes quotidiennes|note quotidienne]], positionnée dans l'une des barres latérales, pendant que vous naviguez librement dans l'éditeur. Les fichiers peuvent toujours être modifiés dans la barre latérale, ce qui peut être un endroit utile pour conserver une liste de liens en cours d'exécution ou une checklist en cours. Cela peut également être très utile lorsque vous travaillez avec des [[rétroliens]].
-
-Les onglets peuvent être liés manuellement les uns aux autres en utilisant le **menu Plus d'options** (l'icône à trois points dans le coin supérieur droit du volet). Vous pouvez également, depuis le **menu Plus d'options**, ouvrir les [[rétroliens]] d'une note spécifique, ce qui ne sera lié qu'à ce fichier. Il y a une option équivalente dans la [[palette de commandes]].

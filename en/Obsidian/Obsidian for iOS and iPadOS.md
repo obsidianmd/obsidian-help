@@ -17,7 +17,7 @@ For information on syncing notes between devices, please see [[Sync your notes a
 
 Obsidian for iOS offers several widgets to take quick actions on your vault.
 
-> [!note]
+> [!note] Note
 > Widgets are available on iOS and iPadOS 18 and higher.
 > Widgets are not available when using "Require Face ID" to unlock the app.
 

@@ -81,7 +81,7 @@ Content | Content | Content
 
 You can add diagrams and charts to your notes, using [Mermaid](https://mermaid-js.github.io/). Mermaid supports a range of diagrams, such as [flow charts](https://mermaid.js.org/syntax/flowchart.html), [sequence diagrams](https://mermaid.js.org/syntax/sequenceDiagram.html), and [timelines](https://mermaid.js.org/syntax/timeline.html).
 
-> [!tip]
+> [!tip] Tip
 > You can also try Mermaid's [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) to help you build diagrams before you include them in your notes.
 
 To add a Mermaid diagram, create a `mermaid` [[Basic formatting syntax#Code blocks|code block]].
@@ -140,7 +140,7 @@ Biology --> Chemistry
 class Biology,Chemistry internal-link;
 ```
 
-> [!note]
+> [!note] Note
 > Internal links from diagrams don't show up in the [[Graph view]].
 
 If you have many nodes in your diagrams, you can use the following snippet.
@@ -160,7 +160,7 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 
 This way, each letter node becomes an internal link, with the [node text](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) as the link text.
 
-> [!note]
+> [!note] Note
 > If you use special characters in your note names, you need to put the note name in double quotes.
 >
 > ```

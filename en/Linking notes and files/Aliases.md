@@ -40,7 +40,7 @@ To link to a note using an alias:
 
 Obsidian creates the link with the alias as its custom display text, for example `[[Artificial Intelligence|AI]]`.
 
-> [!note]
+> [!note] Note
 > Rather than just using the alias as the link destination (`[[AI]]`), Obsidian uses the `[[Artificial Intelligence|AI]]` link format to ensure interoperability with other applications using the Wikilink format.
 
 ## Find unlinked mentions for an alias

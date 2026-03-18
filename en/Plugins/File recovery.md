@@ -10,7 +10,7 @@ File recovery is a [[Core plugins|core plugin]] that protects your work from acc
 
 To avoid taking up [[#Storage and performance|too much space]], Obsidian keeps snapshots for a certain number of days before deleting them. Snapshots capture the full content of your files, not just changes, allowing you to restore any previous version.
 
-> [!info]+
+> [!info]+ Info
 > By default, snapshots are saved a minimum of 5 minutes from each other, and kept for 7 days. You can configure both intervals under **[[Settings]] → Core plugins → File recovery**.
 
 Snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.

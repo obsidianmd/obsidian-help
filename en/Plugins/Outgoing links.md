@@ -17,7 +17,7 @@ The Outgoing links tab ( ![[obsidian-icon-links-going-out.svg#icon]] ) is availa
 
 To create a link from an unlinked mention, click the button with the note's name.
 
-> [!tip]
+> [!tip] Tip
 > Unlinked mentions can refer to different notes with the same name. To show the full path of the note, hover over the button with the note's name.
 
 > [!note] Code blocks

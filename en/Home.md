@@ -1,7 +1,6 @@
 ---
 aliases:
   - Start here
-  - Obsidian/Index
 cssclasses:
   - list-cards
   - hide-title

@@ -47,7 +47,7 @@ To convert a text card to a file:
 1. Right-click the text card and then select **Convert to file...**.
 2. Enter the note name and then select **Save**.
 
-> [!note]
+> [!note] Note
 > Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
 
 ### Add cards from notes
@@ -156,7 +156,7 @@ To connect two cards with a directed line:
 1. Hover the cursor over one of the edges of a card until you see a filled circle.
 2. Drag the circle to the edge of a different card to connect them.
 
-> [!tip]
+> [!tip] Tip
 > If you drag the line without connecting it to another card, you can then add the card you want to connect it to.
 
 ### Disconnect two cards
