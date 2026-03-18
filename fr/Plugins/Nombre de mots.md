@@ -4,9 +4,10 @@ description: Learn about the Word Count core plugin.
 aliases:
   - Plugins/Word count
   - Word count
+localized: '2026-03-18'
 ---
-# Nombre de mots
+Nombre de mots est un [[Modules principaux|module principal]] qui affiche le nombre de mots et de caractères de la note active.
 
-Le nombre de mots est un simple plugin qui montre le nombre de mots de votre note actuelle dans la barre d'état inférieure.
+Sur ordinateur, le nombre de mots apparaît dans la [[Barre d'état|barre d'état]]. Sur mobile, le nombre de mots apparaît en haut de la barre latérale droite.
 
-Cela fonctionne aussi pour les caractères CJK (chinois, japonais et coréen), dans lesquels les mots ne sont pas séparés par des espaces mais plutôt collés ensemble.
+Nombre de mots prend en charge les langues CJK (chinois, japonais et coréen), qui n'utilisent pas d'espaces pour séparer les mots.

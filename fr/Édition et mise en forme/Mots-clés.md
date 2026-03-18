@@ -1,16 +1,16 @@
 ---
 permalink: tags
-localized: null
+localized: '2026-03-18'
 aliases:
   - Tags
 ---
-Tags are keywords or topics that help you quickly find the notes you want.
+Les mots-clés sont des termes ou des sujets qui vous aident à retrouver rapidement les notes que vous cherchez.
 
-## Add a tag to a note
+## Ajouter un mot-clé à une note
 
-To create a tag, enter a hash symbol (`#`) in the editor, followed by a keyword. For example, `#meeting`.
+Pour créer un mot-clé, saisissez un symbole dièse (`#`) dans l'éditeur, suivi d'un terme. Par exemple, `#réunion`.
 
-You can also add tags using the `tags` [[Propriétés|property]]. Tags in YAML should always be formatted as a list:
+Vous pouvez également ajouter des mots-clés à l'aide de la [[Propriétés|propriété]] `tags`. Les mots-clés en YAML doivent toujours être formatés sous forme de liste :
 
 ```yaml
 ---
@@ -20,43 +20,43 @@ tags:
 ---
 ```
 
-## Find notes using tags
+## Trouver des notes à l'aide de mots-clés
 
-To find notes using the [[Recherche]] plugin, use the `tag` [[Recherche#Search operators|search operator]] in your search term, for example `tag:#meeting`.
+Pour trouver des notes à l'aide du module [[Rechercher]], utilisez l'[[Rechercher#Opérateurs de recherche|opérateur de recherche]] `tag` dans votre terme de recherche, par exemple `tag:#réunion`.
 
-You can also search for tags by clicking on them in your notes.
+Vous pouvez également rechercher des mots-clés en cliquant dessus dans vos notes.
 
-To find notes using the [[Vue des étiquettes|Tags view]] plugin, select **Tags: Show tags** in the [[Palette de commandes]], and then select the tag you want to search for.
+Pour trouver des notes à l'aide du module [[Volet de mots-clés]], sélectionnez **Tags: Show tags** dans la [[Palette de commandes]], puis sélectionnez le mot-clé que vous souhaitez rechercher.
 
-## Nested tags
+## Mots-clés imbriqués
 
-Nested tags define tag hierarchies that make it easier to find and filter related tags.
+Les mots-clés imbriqués définissent des hiérarchies de mots-clés qui facilitent la recherche et le filtrage de mots-clés connexes.
 
-Create nested tags by using forward slashes (`/`) in the tag name, for example `#inbox/to-read` and `#inbox/processing`.
+Créez des mots-clés imbriqués en utilisant des barres obliques (`/`) dans le nom du mot-clé, par exemple `#inbox/à-lire` et `#inbox/en-cours`.
 
-- In [[Recherche]], `tag:inbox` will match `#inbox` as well as all nested tags such as `#inbox/to-read`.  
-- In the [[Vue des étiquettes]], nested tags are shown as belonging to their parent tag.  
-- In [[Introduction aux Bases|Bases]], nested tags are recognized by the [[Fonctions#hasTag|`hasTag`]] function, so `file.hasTag("a")` will match both `#a` and `#a/b`.  
+- Dans [[Rechercher]], `tag:inbox` correspondra à `#inbox` ainsi qu'à tous les mots-clés imbriqués tels que `#inbox/à-lire`.
+- Dans le [[Volet de mots-clés]], les mots-clés imbriqués sont affichés comme appartenant à leur mot-clé parent.
+- Dans les [[Introduction aux Bases|Bases]], les mots-clés imbriqués sont reconnus par la fonction [[Fonctions#hasTag|`hasTag`]], ainsi `file.hasTag("a")` correspondra à la fois à `#a` et `#a/b`.
 
-## Tag format
+## Format des mots-clés
 
-You can use any of the following characters in your tags:
+Vous pouvez utiliser n'importe lequel des caractères suivants dans vos mots-clés :
 
-- Alphabetical letters
-- Numbers
-- Underscore (`_`)
-- Hyphen (`-`)
-- Forward slash (`/`) for [[#Nested tags]]
+- Lettres alphabétiques
+- Chiffres
+- Tiret bas (`_`)
+- Tiret (`-`)
+- Barre oblique (`/`) pour les [[#Mots-clés imbriqués]]
 
-Tags must contain at least one non-numerical character. For example, #1984 isn't a valid tag, but #y1984 is.
+Les mots-clés doivent contenir au moins un caractère non numérique. Par exemple, #1984 n'est pas un mot-clé valide, mais #y1984 l'est.
 
-Tags are case-insensitive. For example, #tag and #TAG will be treated as identical.
+Les mots-clés ne sont pas sensibles à la casse. Par exemple, #tag et #TAG seront traités comme identiques.
 
-> [!note] 
-> Tags will display with the casing they are first created with in the [[Vue des étiquettes]]. 
-> For example, creating #Tag and then #TAG will display #Tag for both. 
+> [!note]
+> Les mots-clés s'affichent avec la casse utilisée lors de leur première création dans le [[Volet de mots-clés]].
+> Par exemple, créer #Tag puis #TAG affichera #Tag pour les deux.
 
-Tags can't contain blank spaces. To separate two or more words, you can instead use the following formats:
+Les mots-clés ne peuvent pas contenir d'espaces. Pour séparer deux mots ou plus, vous pouvez utiliser les formats suivants :
 
 - #camelCase
 - #PascalCase

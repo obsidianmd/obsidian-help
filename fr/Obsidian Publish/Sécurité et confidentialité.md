@@ -1,54 +1,54 @@
 ---
 permalink: publish/security
-localized: null
+localized: '2026-03-18'
 aliases:
   - Security and privacy
 ---
-You can choose the notes you want to publish to [[Introduction à Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
+Vous pouvez choisir les notes que vous souhaitez publier sur [[Introduction à Obsidian Publish|Obsidian Publish]]. Le reste de vos notes reste en sécurité dans votre coffre.
 
-Only the notes you choose to publish are sent to Obsidian's servers, and any notes you unpublish are removed.
+Seules les notes que vous choisissez de publier sont envoyées aux serveurs d'Obsidian, et toutes les notes que vous dépubliez sont supprimées.
 
-## Password protection
+## Protection par mot de passe
 
-For improved access control on your publish site, apply a site password. Visitors will be prompted for a password when attempting to access it. If you decide to remove the site password later, the entire site will become visible to the public again.
+Pour un meilleur contrôle d'accès sur votre site Publish, appliquez un mot de passe de site. Les visiteurs seront invités à saisir un mot de passe lorsqu'ils tenteront d'y accéder. Si vous décidez de supprimer le mot de passe du site par la suite, l'ensemble du site redeviendra visible par le public.
 
-> [!warning] Individual password protection for published notes is currently not supported.
+> [!warning] La protection individuelle par mot de passe pour les notes publiées n'est actuellement pas prise en charge.
 
-### Add a site password
+### Ajouter un mot de passe de site
 
-1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
-2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-4. Click **New password**.
-5. In **Password**, enter a password for your site.
-6. (Optional) In **Nickname**, enter a nickname for the password, for example, the person you want to give site access to.
-7. Click **Add this password**.
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
+2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+3. Sous **Autres paramètres du site**, à côté de **Mots de passe**, cliquez sur **Gérer**.
+4. Cliquez sur **Nouveau mot de passe**.
+5. Dans **Mot de passe**, saisissez un mot de passe pour votre site.
+6. (Facultatif) Dans **Surnom**, saisissez un surnom pour le mot de passe, par exemple, la personne à qui vous souhaitez donner accès au site.
+7. Cliquez sur **Ajouter ce mot de passe**.
 
-### Remove a site password
+### Supprimer un mot de passe de site
 
-1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
-2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-5. Click the cross-icon next to the password you want to delete.
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
+2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+3. Sous **Autres paramètres du site**, à côté de **Mots de passe**, cliquez sur **Gérer**.
+5. Cliquez sur l'icône en forme de croix à côté du mot de passe que vous souhaitez supprimer.
 
-## Data collection
-### Visitor data
+## Collecte de données
+### Données des visiteurs
 
-By default, Obsidian Publish **does not** collect visitor data, store cookies, or process personal information. However you can implement analytics or log other user data by [[Personnaliser votre site|customizing your site]].
+Par défaut, Obsidian Publish **ne collecte pas** les données des visiteurs, ne stocke pas de cookies et ne traite pas d'informations personnelles. Cependant, vous pouvez implémenter des analytiques ou enregistrer d'autres données utilisateur en [[Personnaliser votre site|personnalisant votre site]].
 
-As the site owner, you are responsible for complying with GDPR and privacy regulations in your region. This includes creating your own notification banner, which can be implemented using publish.js, and adding a privacy policy page to your site.
+En tant que propriétaire du site, vous êtes responsable du respect du RGPD et des réglementations en matière de confidentialité dans votre région. Cela inclut la création de votre propre bannière de notification, qui peut être implémentée à l'aide de publish.js, et l'ajout d'une page de politique de confidentialité à votre site.
 
-## Access
+## Accès
 
-Obsidian contracts with [Cloudflare](https://www.cloudflare.com) to provide site hosting for our Publish sites. The servers are hosted in San Francisco, CA.
+Obsidian a un contrat avec [Cloudflare](https://www.cloudflare.com) pour fournir l'hébergement de nos sites Publish. Les serveurs sont hébergés à San Francisco, CA.
 
-### Managing access to Obsidian Publish on your network
+### Gérer l'accès à Obsidian Publish sur votre réseau
 
-To regulate access to Obsidian Publish on your network, you need to manage the following domains:
+Pour réguler l'accès à Obsidian Publish sur votre réseau, vous devez gérer les domaines suivants :
 
-- Frontend: `publish.obsidian.md`
-- Backend: `publish-main.obsidian.md`
+- Frontend : `publish.obsidian.md`
+- Backend : `publish-main.obsidian.md`
 
-Additionally, the backend services employ the following subdomains: `publish-xx.obsidian.md`, where `xx` is a number ranging from `1 - 100`.
+De plus, les services backend utilisent les sous-domaines suivants : `publish-xx.obsidian.md`, où `xx` est un nombre allant de `1 à 100`.
 
-> [!tip] If your firewall system supports it, we recommend whitelisting `publish-*.obsidian.md` to accommodate our continuous expansion of subdomains.
+> [!tip] Si votre système de pare-feu le prend en charge, nous recommandons d'ajouter `publish-*.obsidian.md` à la liste blanche pour s'adapter à notre expansion continue des sous-domaines.

@@ -2,38 +2,38 @@
 permalink: publish/media
 cssclasses:
   - soft-embed
-localized: null
+localized: '2026-03-18'
 aliases:
   - Media files
 ---
-[[Introduction à Obsidian Publish|Obsidian Publish]] lets you host notes and various media types, including images and video clips, with a limit of 4 GB per site. For more details, please refer to our [[Formats de fichiers acceptés|accepted file formats]].
+[[Introduction à Obsidian Publish|Obsidian Publish]] vous permet d'héberger des notes et divers types de médias, y compris des images et des clips vidéo, avec une limite de 4 Go par site. Pour plus de détails, veuillez consulter nos [[Formats de fichiers acceptés|formats de fichiers acceptés]].
 
 ![[Limitations de Publish#^publish-media-limit]]
 
-This page provides tips to help you optimize your media files hosted on Publish.
+Cette page fournit des conseils pour vous aider à optimiser vos fichiers média hébergés sur Publish.
 
 ## Images
 
-When uploading images directly to Publish, it's best to use `.svg`, `.webp`, and `.png` formats. We also recommend optimizing all images to reduce their file size while preserving visual quality.
+Lorsque vous téléversez des images directement sur Publish, il est préférable d'utiliser les formats `.svg`, `.webp` et `.png`. Nous recommandons également d'optimiser toutes les images pour réduire leur taille de fichier tout en préservant la qualité visuelle.
 
-![[Guide de style#Optimization]]
+![[Guide de style#Optimisation]]
 
-If you're using an external service to host an image, we still recommend sizing the image as needed according to our [[Incorporer des fichiers#Embed an image in a note|embedding instructions]].
+Si vous utilisez un service externe pour héberger une image, nous recommandons tout de même de dimensionner l'image selon nos [[Incorporer des fichiers#Intégrer une image dans une note|instructions d'intégration]].
 
-## PDFs
+## PDF
 
-PDFs come in various sizes and complexities. To optimize the performance of embedded PDFs in Publish, we recommend [compressing the files](https://www.adobe.com/acrobat/hub/how-to-make-pdfs-smaller.html) and removing any unnecessary images. Most PDF editors offer these capabilities.
+Les PDF sont de tailles et de complexités variées. Pour optimiser les performances des PDF intégrés dans Publish, nous recommandons de [compresser les fichiers](https://www.adobe.com/acrobat/hub/how-to-make-pdfs-smaller.html) et de supprimer toutes les images inutiles. La plupart des éditeurs PDF offrent ces fonctionnalités.
 
-## Videos and audio
+## Vidéos et audio
 
-Publish is not optimized for hosting large videos, GIFs, or audio files. Embedding internally hosted and linked videos is not recommended if you plan to host numerous files of these types.
+Publish n'est pas optimisé pour héberger de grandes vidéos, GIF ou fichiers audio. L'intégration de vidéos hébergées et liées en interne n'est pas recommandée si vous prévoyez d'héberger de nombreux fichiers de ces types.
 
-For hosting a limited number of files, we recommend using the following formats:
+Pour héberger un nombre limité de fichiers, nous recommandons d'utiliser les formats suivants :
 
-**Video**
+**Vidéo**
 - `.mp4`
 - `.webm`
-- `.hevc` or `.av1` _(Note: Not widely supported)_
+- `.hevc` ou `.av1` _(Note : Pas largement pris en charge)_
 
 Audio
 - `.aac`

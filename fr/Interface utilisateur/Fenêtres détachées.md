@@ -1,43 +1,42 @@
 ---
 permalink: pop-out-windows
 description: Learn how to open files in separate pop-out windows.
-localized: null
+localized: '2026-03-18'
 aliases:
   - Pop-out windows
 ---
+> [!compatibility] Cette fonctionnalité est uniquement disponible sur ordinateur.
 
-> [!compatibility] This feature is only available on Desktop.
+Vous pouvez ouvrir des _fenêtres détachées_ séparées dans Obsidian. Chaque fenêtre détachée est associée à la fenêtre de coffre correspondante. Si vous fermez une fenêtre de coffre, toutes ses fenêtres détachées se fermeront également.
 
-You can open separate _pop-out_ windows in Obsidian. Each pop-out window is associated with its respective vault window. If you close a vault window, all of its pop-out windows will close as well.
+Les fichiers ne peuvent être déplacés qu'entre des fenêtres associées au même coffre.
 
-Files can only be moved between windows associated with the same vault.
+## Ouvrir un fichier dans une nouvelle fenêtre
 
-## Open a file in a new window
+**Explorateur de fichiers :**
 
-**File explorer:**
+Dans l'[[Explorateur de fichiers]], faites un clic droit sur une note et sélectionnez **Ouvrir dans une nouvelle fenêtre**.
 
-In the [[Explorateur de fichiers]], right-click a note and select **Open in new window**.
+**Palette de commandes :**
 
-**Command palette:**
+Dans la [[Palette de commandes]], sélectionnez **Ouvrir l'onglet actif dans une nouvelle fenêtre**.
 
-In the [[Palette de commandes]], select **Open current tab in new window**.
+**Onglet :**
 
-**Tab:**
+Faites un clic droit sur un onglet et sélectionnez **Ouvrir dans une nouvelle fenêtre**. Vous pouvez également sélectionner **Plus d'options** ( ![[lucide-ellipsis-vertical.svg#icon]] ) dans le coin supérieur droit de l'éditeur, puis choisir **Ouvrir dans une nouvelle fenêtre**.
 
-Right-click a tab and select **Open in new window**. Alternatively, select **More options** ( ![[lucide-ellipsis-vertical.svg#icon]] ) in the upper-right corner of the editor, then choose **Open in new window**.
+> [!tip] Vous pouvez également faire un clic droit sur un lien dans l'éditeur et sélectionner **Ouvrir dans une nouvelle fenêtre**.
 
-> [!tip] You can also right-click a link in the editor and select **Open in new window**.
+## Déplacer un fichier vers une autre fenêtre
 
-## Move a file to a different window
+**Explorateur de fichiers :**
 
-**File explorer:**
+Dans l'[[Explorateur de fichiers]], glissez le fichier vers un groupe d'onglets dans la fenêtre de destination.
 
-In the [[Explorateur de fichiers]], drag the file to a tab group in the destination window.
+**Palette de commandes :**
 
-**Command palette:**
+Dans la [[Palette de commandes]], sélectionnez **Déplacer l'onglet actif dans une nouvelle fenêtre**.
 
-In the [[Palette de commandes]], select **Move current tab in new window**.
+**Onglet :**
 
-**Tab:**
-
-Drag the tab to a tab group in the destination window. Alternatively, right-click a tab and select **Move to new window**.
+Glissez l'onglet vers un groupe d'onglets dans la fenêtre de destination. Vous pouvez également faire un clic droit sur un onglet et sélectionner **Déplacer vers une nouvelle fenêtre**.

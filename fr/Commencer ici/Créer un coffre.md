@@ -1,6 +1,6 @@
 ---
 permalink: vault
-localized: null
+localized: '2026-03-18'
 aliases:
   - Create a vault
 ---
@@ -25,6 +25,6 @@ Si vous avez déjà un dossier que vous souhaitez utiliser comme coffre :
 2. Dans l'explorateur de fichiers, sélectionnez le dossier que vous souhaitez utiliser comme coffre.
 3. Cliquez sur **Ouvrir**.
 
-Si vous souhaitez en savoir plus sur le fonctionnement des coffres, découvrez [[Comment Obsidian stocke les données]].
+Si vous voulez en savoir plus sur le fonctionnement des coffres, découvrez [[Comment Obsidian stocke les données]].
 
 Maintenant que vous avez configuré votre coffre, vous êtes prêt à [[Créer votre première note]].

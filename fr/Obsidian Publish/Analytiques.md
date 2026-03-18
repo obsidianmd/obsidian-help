@@ -1,31 +1,31 @@
 ---
 permalink: publish/analytics
-localized: null
+localized: '2026-03-18'
 aliases:
   - Analytics
 ---
-## Prerequisites
+## Prérequis
 
-To use analytics on your [[Introduction à Obsidian Publish|Obsidian Publish]] site, you need a [[Domaines personnalisés|custom domain]].
+Pour utiliser les analytiques sur votre site [[Introduction à Obsidian Publish|Obsidian Publish]], vous avez besoin d'un [[Domaines personnalisés|domaine personnalisé]].
 
 > [!important]
-> Before you enable analytics, make sure that your local laws and regulations allow you to track your visitors. Depending the tools you use, you may need to add a consent banner to your site.
+> Avant d'activer les analytiques, assurez-vous que vos lois et réglementations locales vous autorisent à suivre vos visiteurs. Selon les outils que vous utilisez, vous pourriez avoir besoin d'ajouter une bannière de consentement à votre site.
 
 ## Google Analytics
 
-To enable Google Analytics for your Obsidian Publish site:
+Pour activer Google Analytics sur votre site Obsidian Publish :
 
-1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
-2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
-3. In **Google Analytics tracking code**, enter your tracking code.
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
+2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+3. Dans **Code de suivi Google Analytics**, entrez votre code de suivi.
 
-To use Google Tag Manager instead of Google Analytics, use custom JavaScript to add your own scripts.
+Pour utiliser Google Tag Manager au lieu de Google Analytics, utilisez du JavaScript personnalisé pour ajouter vos propres scripts.
 
-## Plausible, Fathom, and other analytics services
+## Plausible, Fathom et autres services d'analytiques
 
-You can add most analytics services to your site via your [[Personnaliser votre site|publish.js]] file. Make sure to replace `yourdomain.com` with your domain, and the script `src` with the script from your analytics provide.
+Vous pouvez ajouter la plupart des services d'analytiques à votre site via votre fichier [[Personnaliser votre site|publish.js]]. Assurez-vous de remplacer `yourdomain.com` par votre domaine, et le `src` du script par le script de votre fournisseur d'analytiques.
 
-Here is an example using [Plausible Analytics](https://plausible.io/)
+Voici un exemple utilisant [Plausible Analytics](https://plausible.io/)
 
 ```js
 var analyticsScript = document.createElement('script');
@@ -35,7 +35,7 @@ analyticsScript.src = 'https://plausible.io/js/plausible.js';
 document.head.appendChild(analyticsScript);
 ```
 
- The same approach can be used for [Fathom Analytics](https://usefathom.com/). Note the change from `data-domain` to `data-site` — different analytics providers may have a different format for how the script should be inserted.
+ La même approche peut être utilisée pour [Fathom Analytics](https://usefathom.com/). Notez le changement de `data-domain` à `data-site` — différents fournisseurs d'analytiques peuvent avoir un format différent pour l'insertion du script.
 
 ```javascript
 var fathom = analyticsScript.createElement('script');
@@ -45,6 +45,6 @@ analyticsScript.src = 'https://cdn.usefathom.com/script.js';
 document.head.appendChild(analyticsScript);
 ```
 
-## Troubleshooting
+## Dépannage
 
-To verify that your site is using your analytics service, disable any ad-blocking browser extensions, such as uBlock Origin, that may block the tracking script from running.
+Pour vérifier que votre site utilise bien votre service d'analytiques, désactivez toute extension de navigateur bloquant les publicités, comme uBlock Origin, qui pourrait empêcher le script de suivi de s'exécuter.

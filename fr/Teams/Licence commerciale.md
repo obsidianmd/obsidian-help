@@ -1,84 +1,83 @@
 ---
 permalink: teams/license
-localized: null
+localized: '2026-03-18'
 aliases:
   - Commercial license
 ---
-Obsidian is free to use and is 100% user-supported. Organizations can choose to support Obsidian by purchasing Commercial licenses.
+Obsidian est gratuit et entièrement soutenu par ses utilisateurs. Les organisations peuvent choisir de soutenir Obsidian en achetant des licences commerciales.
 
-Organizations that support Obsidian can be featured on our [Enterprise page](https://obsidian.md/enterprise/) by purchasing 25 or more licenses.
+Les organisations qui soutiennent Obsidian peuvent être mises en avant sur notre [page Entreprise](https://obsidian.md/enterprise/) en achetant 25 licences ou plus.
 
-Commercial licenses **are not** eligible for a refund per our [[Politique de remboursement]].
+Les licences commerciales **ne sont pas** éligibles au remboursement conformément à notre [[Politique de remboursement]].
 
-## Purchase a commercial license
+## Acheter une licence commerciale
 
-Obsidian offers two methods for [purchasing](https://obsidian.md/pricing) a commercial license.
+Obsidian propose deux méthodes pour [acheter](https://obsidian.md/pricing) une licence commerciale.
 
-**Purchasing using an Obsidian account**
+**Achat via un compte Obsidian**
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account/commercial).
-2. Go to the **License** section.
-3. Click **Buy license** and select the number of seats to purchase.
-4. Complete the payment process.
-5. Your license key will be displayed and can be activated using the steps below.
+1. Connectez-vous ou créez [votre compte Obsidian](https://obsidian.md/account/commercial).
+2. Accédez à la section **License**.
+3. Cliquez sur **Buy license** et sélectionnez le nombre de postes à acheter.
+4. Complétez le processus de paiement.
+5. Votre clé de licence sera affichée et pourra être activée en suivant les étapes ci-dessous.
 
-If you need an invoice for this transaction, you can [[Introduction aux licences et paiements#Generate an invoice|generate an invoice]].
+Si vous avez besoin d'une facture pour cette transaction, vous pouvez [[Introduction aux licences et paiements#Générer une facture|générer une facture]].
 
-**Purchasing using a purchase order**
+**Achat via un bon de commande**
 
-For purchases using a purchase order (PO), contact [[Aide et support#Contacter l'assistance Obsidian|Obsidian support]].
+Pour les achats via un bon de commande, contactez l'[[Aide et support#Contacter l'assistance Obsidian|assistance Obsidian]].
 
-Your PO must include:
+Votre bon de commande doit inclure :
 
-- Legal Name of Your Company ("bill to" name)
-- Billing Address
-- VAT Number (optional)
-- Payment Terms (default is NET 30 days)
-- PO/Reference Number
-- Delivery Email for Licenses
-- Invoice Email for POs
-- **Preferred Payment Method**: Wire/ACH, Credit Card, or PayPal
+- Raison sociale de votre entreprise (nom de facturation)
+- Adresse de facturation
+- Numéro de TVA (facultatif)
+- Conditions de paiement (par défaut NET 30 jours)
+- Numéro de bon de commande/référence
+- Adresse électronique de livraison des licences
+- Adresse électronique pour les bons de commande
+- **Mode de paiement préféré** : virement/ACH, carte bancaire ou PayPal
 
-> [!info] Purchasing a commercial license does not include [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish), or a [Catalyst license](https://obsidian.md/account/catalyst).
+> [!info] L'achat d'une licence commerciale n'inclut pas [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish), ni une [licence Catalyst](https://obsidian.md/account/catalyst).
 
-## Apply a commercial license
+## Appliquer une licence commerciale
 
-To optionally apply a commercial license to your Obsidian installation follow the steps below. Note that applying a commercial license does not provide any functional benefits within the app.
+Pour appliquer facultativement une licence commerciale à votre installation d'Obsidian, suivez les étapes ci-dessous. Notez que l'application d'une licence commerciale ne fournit aucun avantage fonctionnel au sein de l'application.
 
-1. Open the Obsidian app.
-2. Go to **[[Paramètres]] → General → Commercial license**.
-3. Click **Activate** and enter your license key.
-4. You're done! The app is now licensed for commercial use.
+1. Ouvrez l'application Obsidian.
+2. Allez dans **[[Paramètres]] → Général → Licence commerciale**.
+3. Cliquez sur **Activer** et entrez votre clé de licence.
+4. C'est terminé ! L'application est désormais licenciée pour un usage commercial.
 
-## Supporting organizations
+## Organisations qui soutiennent Obsidian
 
-If your organization has purchased at least 25 commercial licenses, you can request to be featured as a [supporting organization](https://obsidian.md/enterprise/). If you would like your organization to be added or removed from the page, please [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]].
+Si votre organisation a acheté au moins 25 licences commerciales, vous pouvez demander à figurer en tant qu'[organisation soutenant Obsidian](https://obsidian.md/enterprise/). Si vous souhaitez que votre organisation soit ajoutée ou retirée de la page, veuillez [[Aide et support#Contacter l'assistance Obsidian|contacter l'assistance Obsidian]].
 
-Your logo should be provided as an SVG file, filling a 32 by 32 pixel square, and using only white, with no background color.
+Votre logo doit être fourni sous forme de fichier SVG, remplissant un carré de 32 par 32 pixels, et utilisant uniquement du blanc, sans couleur d'arrière-plan.
 
-## Frequently asked questions
+## Questions fréquentes
 
-**Can I buy a license for myself, or do I have to ask my company to buy it for me?**
-Yes. You can buy a license for yourself by going to your [Account dashboard](https://obsidian.md/account/commercial). Most companies allow you to submit an expense report for the purchase.
+**Puis-je acheter une licence pour moi-même, ou dois-je demander à mon entreprise de l'acheter pour moi ?**
+Oui. Vous pouvez acheter une licence pour vous-même en accédant à votre [tableau de bord de compte](https://obsidian.md/account/commercial). La plupart des entreprises vous permettent de soumettre une note de frais pour cet achat.
 
-Some companies may have a different procurement process. Reach out to your IT department to determine their specific procedures. 
+Certaines entreprises peuvent avoir un processus d'approvisionnement différent. Contactez votre service informatique pour connaître leurs procédures spécifiques.
 
-**What business name should I use if I'm purchasing the license myself?**
-Use your company's name for the license if you expect to be reimbursed by your company. 
+**Quel nom d'entreprise dois-je utiliser si j'achète la licence moi-même ?**
+Utilisez le nom de votre entreprise pour la licence si vous comptez être remboursé par votre entreprise.
 
-Otherwise, use your legal name as the business name.
+Sinon, utilisez votre nom légal comme nom d'entreprise.
 
-**Can I purchase a commercial license for multiple employees?**
-Yes. You can purchase multiple commercial license seats through your [Account dashboard](https://obsidian.md/account/commercial). There is no need for each employee to have their own Obsidian account, you can use a single admin account to purchase all the seats.
+**Puis-je acheter une licence commerciale pour plusieurs employés ?**
+Oui. Vous pouvez acheter plusieurs postes de licence commerciale via votre [tableau de bord de compte](https://obsidian.md/account/commercial). Il n'est pas nécessaire que chaque employé ait son propre compte Obsidian, vous pouvez utiliser un seul compte administrateur pour acheter tous les postes.
 
-After purchasing the license, you will receive a license key which you can send to employees to activate their license — see instructions above to activate the license.
+Après l'achat de la licence, vous recevrez une clé de licence que vous pourrez envoyer aux employés pour activer leur licence — consultez les instructions ci-dessus pour activer la licence.
 
-**Am I required to purchase a commercial license for every employee?**
-No. Obsidian is 100% free to use and so there is no minimum seat count purchase required. 
+**Suis-je obligé d'acheter une licence commerciale pour chaque employé ?**
+Non. Obsidian est 100 % gratuit et il n'y a donc aucun nombre minimum de postes à acheter.
 
-**Can I use the commercial license I purchased on both my work phone and work computer?**
-Yes. The commercial license is charged per seat count, not per device. This means you can use the same license key on all your individual work devices.
+**Puis-je utiliser la licence commerciale que j'ai achetée à la fois sur mon téléphone professionnel et mon ordinateur professionnel ?**
+Oui. La licence commerciale est facturée par nombre de postes, et non par appareil. Cela signifie que vous pouvez utiliser la même clé de licence sur tous vos appareils professionnels individuels.
 
-**I work in a highly secure environment, in an air-gapped network. How do I apply my commercial license?**
-In such specialized environments, you don't need to apply the commercial license directly to your installation.
-
+**Je travaille dans un environnement hautement sécurisé, sur un réseau isolé. Comment puis-je appliquer ma licence commerciale ?**
+Dans de tels environnements spécialisés, vous n'avez pas besoin d'appliquer la licence commerciale directement à votre installation.

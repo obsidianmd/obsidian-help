@@ -3,79 +3,78 @@ permalink: sync/plans
 description: Learn about the different plan options we have available for Obsidian Sync.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Plans and storage limits
 ---
+## Forfaits
 
-## Plans
+Pour synchroniser vos notes avec [[Introduction à Obsidian Sync|Obsidian Sync]], vous avez besoin d'un forfait d'abonnement. Vous pouvez acheter un forfait Sync en vous connectant à [votre compte](https://obsidian.md/account/sync). Consultez la [page de présentation de Sync](https://obsidian.md/sync) pour les tarifs.
 
-To sync your notes with [[Introduction à Obsidian Sync|Obsidian Sync]] you need a subscription plan. You can purchase a Sync plan by logging into [your account](https://obsidian.md/account/sync). See the [Sync landing page](https://obsidian.md/sync) for pricing.
+Voici une comparaison entre le forfait Standard et le forfait Plus :
 
-Below is a comparison between the Standard plan and Plus plan:
+|                                                              | Sync Standard | Sync Plus       |
+| ------------------------------------------------------------ | ------------- | --------------- |
+| Coffres synchronisés                                         | 1             | 10              |
+| Taille maximale de fichier                                   | 5 Mo          | 200 Mo          |
+| Stockage total                                               | 1 Go          | 10 Go à 100 Go  |
+| [[Version history]]                                          | 1 mois        | 12 mois         |
+| Appareils                                                    | Illimités     | Illimités       |
+| [[Collaborer sur un coffre partagé\|Coffres partagés]]       | Oui           | Oui             |
 
-|                                                  | Sync Standard | Sync Plus       |
-| ------------------------------------------------ | ------------- | --------------- |
-| Synced vaults                                    | 1             | 10              |
-| Maximum file size                                | 5 MB          | 200 MB          |
-| Total storage                                    | 1 GB          | 10 GB to 100 GB |
-| [[Version history]]                              | 1 month       | 12 months       |
-| Devices                                          | Unlimited     | Unlimited       |
-| [[Collaborate on a shared vault\|Shared vaults]] | Yes           | Yes             |
+## Limites de stockage
 
-## Storage limits
+La quantité de données que vous pouvez stocker avec [[Introduction à Obsidian Sync|Obsidian Sync]] dépend de votre forfait d'abonnement. Avec le forfait Sync Plus, vous pouvez acheter du stockage supplémentaire jusqu'à 100 Go via [le tableau de bord de votre compte](https://obsidian.md/account/sync). Consultez les [[Questions fréquentes]] pour plus de détails.
 
-The amount of data you can store using [[Introduction à Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via [your account dashboard](https://obsidian.md/account/sync). See [[Questions fréquentes]] for more details.
+Il existe une limite de stockage unique au niveau du compte pour toutes les notes de l'ensemble de vos coffres. L'[[Version history|historique des versions]] et les [[Pièces jointes|pièces jointes]] sont également comptabilisés dans la limite de stockage de votre compte.
 
-There is a single account-wide storage limit for all notes across your vaults. [[Version history]] and [[Pièces jointes]] are also counted towards your account's storage limit.
+Lorsque vous atteignez la limite de stockage de votre compte, le module Sync cesse de synchroniser les fichiers et vous êtes invité à nettoyer votre ou vos coffre(s) distant(s).
 
-When you reach your account's storage limit, the Sync plugin will cease syncing files, and you will be prompted to prune your remote vault(s).
+### Identifier et supprimer les fichiers volumineux
 
-### Identify and delete large files
+Pour identifier et supprimer les fichiers volumineux du coffre :
 
-To identify and delete large files from the vault:
+1. Ouvrez **[[Paramètres]] → Sync**.
+2. Sélectionnez **View largest files** à côté de **Vault size over limit**.
+	1. Si vous ne voyez pas **Vault size over limit**, cela signifie ==que vous n'avez pas encore atteint la limite de taille==.
+3. Fermez la fenêtre **View largest files**.
+4. Supprimez certains des fichiers volumineux dont vous n'avez plus besoin.
+5. Attendez qu'Obsidian Sync termine la tâche. Cela peut prendre un certain temps.
+6. Ouvrez **[[Paramètres]] → Sync**.
+7. Sélectionnez **Prune** à côté de **Vault size over limit**. Cela supprimera les fichiers supprimés du coffre distant pour libérer de l'espace.
 
-1. Open **[[Paramètres]] → Sync**.
-2. Select **View largest files** next to **Vault size over limit**. 
-	1. If you don’t see **Vault size over limit**, it means ==you haven’t hit the size limit== yet.
-3. Close the **View largest files** modal.
-4. Delete some of the large files you no longer need.
-5. Wait for Obsidian sync to finish the task. This can take a while.
-6. Open **[[Paramètres]] → Sync**.
-7. Select **Prune** next to **Vault size over limit**. This will remove the deleted files from the remote vault to free up space.
+Une fois le nettoyage synchronisé avec le serveur, Obsidian Sync devrait reprendre son fonctionnement.
 
-After the prune syncs to the server, Obsidian Sync should resume functioning.
+### Créer un nouveau coffre distant
 
-### Create a new remote vault
+Vous pouvez **créer un nouveau coffre distant** pour exclure les fichiers volumineux avant la synchronisation. L'historique des versions de vos fichiers sera réinitialisé si vous créez un nouveau coffre distant. Assurez-vous de ne pas avoir besoin de l'historique des versions pour les anciens fichiers avant de continuer.
 
-You can **create a new remote vault** to exclude large files before syncing. The version history for your files will be reset if you create a new remote vault. Please be sure that you don’t need version history for older files before proceeding.
+Pour synchroniser vers un nouveau coffre distant, suivez ces étapes :
 
-To sync to a new remote vault, follow these steps:
+1. Ouvrez **[[Paramètres]] → Sync**.
+2. Sélectionnez **Manage** à côté de **Remote vault**.
+3. Choisissez **Create new vault** et suivez les étapes pour le créer. Si vous n'avez plus de coffres disponibles, vous devrez peut-être d'abord [[Configurer Obsidian Sync#Déconnecter un coffre distant|déconnecter]] le coffre distant actuel et le [[Configurer Obsidian Sync#Supprimer un coffre distant|supprimer]].
+4. Configurez les fichiers exclus avant de commencer la synchronisation vers le nouveau coffre distant.
+5. Redémarrez Obsidian pour appliquer vos modifications.
+6. Ouvrez **[[Paramètres]] → Sync**.
+7. Sélectionnez reprendre pour commencer la synchronisation vers le nouveau coffre distant.
 
-1. Open **[[Paramètres]] → Sync**.
-2. Select **Manage** next to **Remote vault**.
-3. Choose **Create new vault** and follow the steps to create it. If you run out of vaults, you might need to [[Configurer Obsidian Sync#Disconnect from a remote vault|disconnect]] from the current remote vault and [[Configurer Obsidian Sync#Delete a remote vault|delete]] it first.
-4. Set up excluded files before you start syncing to the new remote vault.
-5. Restart Obsidian to apply your changes.
-6. Open **[[Paramètres]] → Sync**.
-7. Select resume to start syncing to the new remote vault.
+Le nouveau coffre distant devrait être plus petit que le précédent, en raison de l'absence d'historique des versions et des fichiers exclus.
 
-The new remote vault should be smaller than the previous vault, because of the absence of version history and excluded files.
+## Mettre à niveau votre forfait
 
-## Upgrade your plan
+Vous pouvez mettre à niveau votre forfait en vous connectant au [tableau de bord de votre compte](https://obsidian.md/account/sync). De là, vous pourrez passer de Sync Standard à Sync Plus et augmenter le stockage jusqu'à 100 Go.
 
-You can upgrade your plan by logging into [your account dashboard](https://obsidian.md/account/sync). From there you will be able to upgrade your plan from Sync Standard to Sync Plus, and increase storage up to 100 GB.
+## Rétrograder votre forfait
 
-## Downgrade your plan
+Si vous souhaitez rétrograder votre forfait Sync mais que votre utilisation de stockage dépasse la limite du nouveau forfait, vous devrez libérer de l'espace dans votre coffre distant. Actuellement, il n'existe pas de méthode directe pour supprimer rapidement des fichiers spécifiques d'un coffre distant existant. Cela est dû au fait que les pièces jointes sont conservées dans l'historique des versions pendant un maximum de deux semaines, et l'historique des versions est comptabilisé dans votre limite de stockage.
 
-If you want to downgrade your Sync plan but your storage use exceeds the new plan's limit, you will need to free up space in your remote vault. Currently, there's no direct method to remove specific files from an existing remote vault quickly. This is because attachments are retained in version history for up to two weeks, and version history counts towards your storage limit.
+Le moyen le plus rapide de réduire votre utilisation de stockage Sync est de créer un nouveau coffre distant avec les pièces jointes désactivées, puis de supprimer l'ancien coffre distant qui dépasse les limites de stockage. Sachez que vous perdrez l'historique des versions en procédant ainsi.
 
-The quickest way to reduce your Sync storage usage is to create a new remote vault with attachments disabled, then delete the old remote vault that exceeds the storage limits. Be aware that you will lose version history by doing this.
+Si vous passez de Sync Plus à Sync Standard, vous devrez également réduire le nombre de coffres présents à un seul avant que la rétrogradation ne soit autorisée.
 
-If you are downgrading from Sync Plus to Sync Standard, you'll also need to reduce the number of vaults present to one before the downgrade will be permitted.
+### Préserver l'historique des versions
 
-### Preserve version history
+Les pièces jointes sont conservées dans votre [[Version history|historique des versions]] pendant un maximum de deux semaines. Si vous prévoyez de rétrograder dans un avenir proche, vous pouvez commencer par supprimer les pièces jointes de votre coffre local.
 
-Attachments are held in your [[version history]] for up to two weeks. If you plan to downgrade in the near future, you can start by removing attachments from your local vault. 
-
-After two weeks these will be purged from the remote vault and will no longer count towards your storage limit. At this point you will be able to downgrade your plan while preserving the version history for other file types, such as Markdown files.
+Après deux semaines, celles-ci seront purgées du coffre distant et ne seront plus comptabilisées dans votre limite de stockage. À ce moment-là, vous pourrez rétrograder votre forfait tout en préservant l'historique des versions pour les autres types de fichiers, tels que les fichiers Markdown.

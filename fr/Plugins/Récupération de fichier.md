@@ -5,50 +5,48 @@ description: >-
   automatically saving snapshots of your notes at regular intervals.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - File recovery
 ---
+La Récupération de fichier est un [[Modules principaux|module principal]] qui protège votre travail contre les suppressions accidentelles, la corruption de fichiers ou les modifications indésirables en sauvegardant automatiquement des instantanés complets de vos notes à intervalles réguliers. La Récupération de fichier n'est pas une solution de sauvegarde complète, et nous recommandons également de [[Sauvegarder vos fichiers Obsidian|sauvegarder]] vos fichiers Obsidian séparément.
 
-File recovery is a [[Plugins principaux|core plugin]] that protects your work from accidental deletions, file corruption, or unwanted changes by automatically saving complete snapshots of your notes at regular intervals. File recovery is not a complete backup solution, and we recommend also [[Sauvegarder vos fichiers Obsidian|backing up]] your Obsidian files separately.
-
-To avoid taking up [[#Storage and performance|too much space]], Obsidian keeps snapshots for a certain number of days before deleting them. Snapshots capture the full content of your files, not just changes, allowing you to restore any previous version.
+Pour éviter d'occuper [[#Stockage et performances|trop d'espace]], Obsidian conserve les instantanés pendant un certain nombre de jours avant de les supprimer. Les instantanés capturent le contenu intégral de vos fichiers, pas seulement les modifications, ce qui vous permet de restaurer n'importe quelle version précédente.
 
 > [!info]+
-> By default, snapshots are saved a minimum of 5 minutes from each other, and kept for 7 days. You can configure both intervals under **[[Paramètres]] → Core plugins → File recovery**.
+> Par défaut, les instantanés sont sauvegardés au minimum toutes les 5 minutes, et conservés pendant 7 jours. Vous pouvez configurer les deux intervalles sous **[[Paramètres]] → Modules principaux → Récupération de fichier**.
 
-Snapshots are kept in the [[Comment Obsidian stocke les données#Global settings|Global settings]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
+Les instantanés sont conservés dans les [[Comment Obsidian stocke les données#Paramètres globaux|Paramètres globaux]], en dehors du coffre, pour pallier les pertes de données liées au coffre. Cela signifie que les instantanés sont stockés avec le chemin absolu vers la note. Si vous avez déplacé votre coffre récemment, vous devrez peut-être le replacer à l'emplacement où il se trouvait lorsque l'instantané a été pris.
 
-> [!tip] If you are using [[Introduction à Obsidian Sync|Obsidian Sync]] or [[Synchroniser vos notes entre appareils|other syncing services]], File recovery snapshots will not sync between devices. Snapshots are device-specific and remain local to each device.
+> [!tip] Si vous utilisez [[Introduction à Obsidian Sync|Obsidian Sync]] ou [[Synchroniser vos notes entre appareils|d'autres services de synchronisation]], les instantanés de la Récupération de fichier ne seront pas synchronisés entre les appareils. Les instantanés sont spécifiques à chaque appareil et restent locaux.
 
-## Recover a snapshot
+## Récupérer un instantané
 
-1. Open **[[Paramètres]]**.
-2. In the sidebar, select **File recovery** under **Core plugins**.
-3. Under **Snapshots**, select **View**.
-4. In the file name field, start typing the name of the file you want to recover, and you will see a suggestion list.
-5. Select the file, press Enter, and you'll see a list of snapshots available.
-6. Select the snapshot you want to recover.
-    1. If you wish to copy and paste into a new note, select the **Copy** button.
-    2. If you wish to restore the file completely, select the **Restore** button.
-7. You can optionally show the differences between snapshots by toggling **Show changes**. This displays what content was added, removed, or modified between snapshot versions.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans la barre latérale, sélectionnez **Récupération de fichier** sous **Modules principaux**.
+3. Sous **Instantanés**, sélectionnez **Afficher**.
+4. Dans le champ de nom de fichier, commencez à taper le nom du fichier que vous souhaitez récupérer, et vous verrez une liste de suggestions.
+5. Sélectionnez le fichier, appuyez sur Entrée, et vous verrez une liste des instantanés disponibles.
+6. Sélectionnez l'instantané que vous souhaitez récupérer.
+    1. Si vous souhaitez copier et coller dans une nouvelle note, sélectionnez le bouton **Copier**.
+    2. Si vous souhaitez restaurer complètement le fichier, sélectionnez le bouton **Restaurer**.
+7. Vous pouvez optionnellement afficher les différences entre les instantanés en activant **Afficher les modifications**. Cela affiche le contenu ajouté, supprimé ou modifié entre les versions des instantanés.
 
-## Clear snapshot history
+## Effacer l'historique des instantanés
 
-> [!danger] Clearing the snapshot history irreversibly deletes all snapshots in your vault.
+> [!danger] Effacer l'historique des instantanés supprime irréversiblement tous les instantanés de votre coffre.
 
-1. Open **[[Paramètres]]**.
-2. In the sidebar, select **File recovery** under **Core plugins**.
-3. Under **Clear history**, select **Clear**.
-4. Confirm that you want to delete all snapshots, by clicking **Clear**.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans la barre latérale, sélectionnez **Récupération de fichier** sous **Modules principaux**.
+3. Sous **Effacer l'historique**, sélectionnez **Effacer**.
+4. Confirmez que vous souhaitez supprimer tous les instantanés en cliquant sur **Effacer**.
 
-## Storage and performance
+## Stockage et performances
 
-File recovery snapshots typically use minimal disk space, as they only store changed files. However, in vaults with many large files or frequent edits, snapshots can accumulate over time. Monitor your storage usage and adjust the retention period if needed.
+Les instantanés de la Récupération de fichier utilisent généralement un espace disque minimal, car seuls les fichiers modifiés sont stockés. Cependant, dans les coffres contenant de nombreux fichiers volumineux ou des modifications fréquentes, les instantanés peuvent s'accumuler avec le temps. Surveillez votre utilisation du stockage et ajustez la période de rétention si nécessaire.
 
 ## Limitations
 
-- **Apple lockdown mode**: This feature is unavailable on Apple devices with [Lockdown mode](https://support.apple.com/en-us/105120) enabled unless Obsidian is exempted.
-- **File types**: Only `.md` and `.canvas` files can be restored using File recovery.
-- **Vault location**: If you move your vault to a different location without using the [[Gérer les coffres#Move vault to a different folder|vault switcher]], existing snapshots may not be accessible.
-
+- **Mode Isolement d'Apple** : Cette fonctionnalité n'est pas disponible sur les appareils Apple avec le [mode Isolement](https://support.apple.com/en-us/105120) activé, sauf si Obsidian en est exempté.
+- **Types de fichiers** : Seuls les fichiers `.md` et `.canvas` peuvent être restaurés avec la Récupération de fichier.
+- **Emplacement du coffre** : Si vous déplacez votre coffre vers un emplacement différent sans utiliser le [[Gérer les coffres#Déplacer le coffre vers un autre dossier|sélecteur de coffre]], les instantanés existants peuvent ne pas être accessibles.

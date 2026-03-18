@@ -2,47 +2,47 @@
 permalink: discounts
 cssclasses:
   - soft-embed
-localized: null
+localized: '2026-03-18'
 aliases:
   - Education and non-profit discount
 ---
-Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services [[Introduction à Obsidian Sync|Obsidian Sync]] and [[Introduction à Obsidian Publish|Obsidian Publish]].
+Obsidian offre actuellement deux types de réductions : éducation et associations. Elles vous donnent toutes deux 40 % de réduction sur nos services complémentaires [[Introduction à Obsidian Sync|Obsidian Sync]] et [[Introduction à Obsidian Publish|Obsidian Publish]].
 
-## How to apply
+## Comment faire une demande
 
-1. Go to [your account dashboard](https://obsidian.md/account/billing).
-2. Under **Billing**, find the **Discount** section, and click on the **Apply** link.
-3. Select a discount type depending on your situation, fill out your **educational or organization email** (not your account email).
-4. Click **Send application**.
-5. In your school or organization email inbox, you should get an email from us to verify your email address. Click on the link to verify.
-6. You might get instantly approved for the discount. If not, our team will try to review your application within 3 business days.
-7. You’ll get an email when your discount gets approved.
+1. Rendez-vous sur [le tableau de bord de votre compte](https://obsidian.md/account/billing).
+2. Sous **Facturation**, trouvez la section **Réduction**, et cliquez sur le lien **Appliquer**.
+3. Sélectionnez un type de réduction selon votre situation, renseignez votre **adresse électronique éducative ou d'organisation** (pas l'adresse électronique de votre compte).
+4. Cliquez sur **Envoyer la demande**.
+5. Dans la boîte de réception de votre adresse électronique scolaire ou d'organisation, vous devriez recevoir un courriel de notre part pour vérifier votre adresse électronique. Cliquez sur le lien pour la vérifier.
+6. Votre réduction peut être approuvée instantanément. Sinon, notre équipe essaiera d'examiner votre demande sous 3 jours ouvrés.
+7. Vous recevrez un courriel lorsque votre réduction sera approuvée.
 
-Congratulations! Now you’ll see the discount when you try to purchase Obsidian Sync or Publish.
+Félicitations ! Vous verrez désormais la réduction lorsque vous essaierez d'acheter Obsidian Sync ou Publish.
 
-## How to renew
+## Comment renouveler
 
-Once you have an active discount, you can see how it will expire under **Billing → Discount** of [your account](https://obsidian.md/account/billing).
+Une fois que vous avez une réduction active, vous pouvez voir quand elle expirera sous **Facturation → Réduction** de [votre compte](https://obsidian.md/account/billing).
 
-A week before your discount expires, you will get an email reminder to renew it. You can follow the same steps in "[[#How to apply]]" to renew the discount, if you still qualify for it.
+Une semaine avant l'expiration de votre réduction, vous recevrez un courriel de rappel pour la renouveler. Vous pouvez suivre les mêmes étapes que dans « [[#Comment faire une demande]] » pour renouveler la réduction, si vous y êtes toujours éligible.
 
-## Frequently asked questions
+## Questions fréquentes
 
-**Who is eligible?**
-If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount. If you run or work at a non-profit organization, you generally qualify for non-profit discount.
+**Qui est éligible ?**
+Si vous êtes étudiant ou membre du personnel d'un établissement d'enseignement comme une université ou un lycée, vous êtes généralement éligible à la réduction éducation. Si vous dirigez ou travaillez dans une organisation à but non lucratif, vous êtes généralement éligible à la réduction associations.
 
-**How long does the application process take?**
-If your application isn't approved instantly after verifying your email, our team will review it. It will take up to 3 business days. No need to check again, we will send an email when your account is approved. Thank you for your patience!
+**Combien de temps prend le processus de demande ?**
+Si votre demande n'est pas approuvée instantanément après la vérification de votre adresse électronique, notre équipe l'examinera. Cela prendra jusqu'à 3 jours ouvrés. Pas besoin de vérifier à nouveau, nous vous enverrons un courriel lorsque votre compte sera approuvé. Merci pour votre patience !
 
-**Do these discounts work with early bird pricing?**
-Thanks for being an early bird! None of these discounts stack with the early bird pricing, as early bird is likely the highest discount we’ll ever give out.
+**Ces réductions fonctionnent-elles avec les tarifs early bird ?**
+Merci d'être un early bird ! Aucune de ces réductions n'est cumulable avec le tarif early bird, car le tarif early bird est probablement la réduction la plus élevée que nous offrirons jamais.
 
-If you’re already an early bird, there’s generally no point in applying for discounts. But keep in mind that early bird pricing is separate for Sync and Publish, so if you missed early bird pricing for one of them, you may still want to apply for a discount.
+Si vous êtes déjà un early bird, il n'y a généralement pas d'intérêt à demander des réductions. Mais gardez à l'esprit que le tarif early bird est distinct pour Sync et Publish, donc si vous avez manqué le tarif early bird pour l'un d'entre eux, vous pouvez tout de même demander une réduction.
 
-**What if my educational or non-profit organization doesn't provide an email address?**
-In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Aide et support#Contacter l'assistance Obsidian|Obsidian support]]. Be sure to include your Obsidian account email address too. Our team will review your application and get back to you. Thank you for your patience!
+**Que faire si mon établissement d'enseignement ou mon organisation à but non lucratif ne fournit pas d'adresse électronique ?**
+Dans ce cas, vous pouvez envoyer d'autres formes de vérification comme une carte d'étudiant, un relevé de notes ou une carte d'employé à l'[[Aide et support#Contacter l'assistance Obsidian|assistance Obsidian]]. Assurez-vous d'inclure également l'adresse électronique de votre compte Obsidian. Notre équipe examinera votre demande et vous répondra. Merci pour votre patience !
 
-### Refunds
+### Remboursements
 
 ![[Politique de remboursement#^discount-then-refund]]
 

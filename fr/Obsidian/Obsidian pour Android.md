@@ -1,103 +1,102 @@
 ---
 permalink: android
-localized: null
+localized: '2026-03-18'
 aliases:
   - Obsidian for Android
 ---
+L'application mobile Obsidian pour Android apporte de puissantes capacités de prise de notes sur votre appareil Android. Vous pouvez la télécharger depuis [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) ou en tant que [fichier APK](https://obsidian.md/download).
+Elle prend en charge Android version 5.1 et supérieure.
 
-The Obsidian mobile app for Android brings powerful note-taking capabilities to your Android device. You can download it from [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) or as an [APK file](https://obsidian.md/download).
-It supports Android versions 5.1 and above.
+Cette page couvre les fonctionnalités spécifiques à Android, notamment les widgets, l'intégration aux Réglages rapides et les raccourcis.
 
-This page covers Android-specific features including widgets, Quick Settings integration, and shortcuts.
+## Synchronisation
 
-## Sync
+Pour synchroniser vos notes avec Obsidian sur Android, consultez [[Synchroniser vos notes entre appareils]].
 
-To sync your notes with Obsidian on Android see [[Synchroniser vos notes entre appareils]].
+## Emplacement du coffre
 
-## Vault location
+Lorsque vous lancez Obsidian sur Android, il vous sera demandé de choisir où les données de votre coffre doivent être stockées. Vous pouvez choisir le **stockage de l'appareil** (recommandé) ou le **stockage de l'application**.
 
-When you launch Obsidian on Android, you'll be asked to choose where your vault data should be stored. You can choose **device storage** (recommended) or **app storage**.
+### Stockage de l'appareil
 
-### Device storage
+Avec l'option **stockage de l'appareil**, vos données sont stockées dans un emplacement partagé sur votre appareil. Cela permet à votre coffre Obsidian d'être accessible par d'autres applications et services, comme des outils de [[Synchroniser vos notes entre appareils|synchronisation]] tiers.
 
-With the **device storage** option, your data is stored in a shared location on your device. This allows your Obsidian vault to be accessed by other apps and services, such as third-party [[Synchroniser vos notes entre appareils|sync]] tools.
+C'est l'option recommandée car elle offre une meilleure compatibilité avec les outils de synchronisation et garantit que vos données persistent même si vous désinstallez l'application. Cependant, cette option nécessite des autorisations supplémentaires pour accéder aux fichiers de votre appareil.
 
-This is the recommended option because it offers better compatibility with sync tools and ensures your data persists even if you uninstall the app. However, this option requires additional permissions to access your device's files.
+En raison des limitations d'Android, Obsidian demandera l'accès « Tous les fichiers » pour fonctionner de manière fiable. Google recommande cela pour les applications comme Obsidian qui sont considérées comme des « applications de gestion de documents ». [En savoir plus](https://developer.android.com/training/data-storage/manage-all-files).
 
-Due to limitations with Android, Obsidian will request "All files" access to function reliably. Google recommends this for apps like Obsidian which are considered "document management apps". [Learn more](https://developer.android.com/training/data-storage/manage-all-files).
+L'application utilise uniquement cette autorisation pour vous aider à accéder à vos données sur votre appareil. Vos données ne nous sont jamais accessibles. Pour en savoir plus sur la façon dont nous protégeons vos données et assurons votre confidentialité, visitez notre [page Sécurité](https://obsidian.md/security).
 
-The app only uses this permission to help you access your data on your device. Your data is never accessible to us. To learn more about how we protect your data and ensure your privacy, visit our [Security page](https://obsidian.md/security).
+### Stockage de l'application
 
-### App storage
+Avec l'option **stockage de l'application**, vos données sont stockées dans le stockage privé de l'application Obsidian. Cela isole vos données des autres applications pour une confidentialité accrue.
 
-With the **app storage** option, your data is stored in Obsidian’s private app storage. This keeps your data isolated from other apps for added privacy.
+C'est une bonne option si vous n'utilisez pas d'outils de synchronisation externes et préférez un cloisonnement plus strict au niveau de l'application pour vos notes.
 
-This is a good option if you're not using any external sync tools and prefer tighter app-level sandboxing for your notes.
+Avec cette option, vous pouvez utiliser [[Introduction à Obsidian Sync|Obsidian Sync]] et les modules de synchronisation tiers disponibles via les [[Modules complémentaires]], mais vous ne pouvez pas utiliser des outils comme Syncthing qui reposent sur le stockage partagé.
 
-With this option you can use [[Introduction à Obsidian Sync|Obsidian Sync]] and third-party syncing plugins available through [[Plugins communautaires]], but you cannot use tools like Syncthing that rely on shared storage.
-
-> [!warning] Uninstalling Obsidian will delete your local notes if you are using app storage
-> If you use the **App storage** option your local vault data will be deleted if you uninstall the app. Your Obsidian vault data on other devices will not be deleted.
+> [!warning] La désinstallation d'Obsidian supprimera vos notes locales si vous utilisez le stockage de l'application
+> Si vous utilisez l'option **Stockage de l'application**, les données locales de votre coffre seront supprimées si vous désinstallez l'application. Les données de votre coffre Obsidian sur les autres appareils ne seront pas supprimées.
 
 ## Widgets
 
-Obsidian for Android offers several widget options to quickly access your vaults and notes from your home screen. Available widgets include:
+Obsidian pour Android propose plusieurs options de widgets pour accéder rapidement à vos coffres et notes depuis votre écran d'accueil. Les widgets disponibles incluent :
 
-- **Open Note** — Open a specific note
-- **New Note** — Create a new note
-- **Search** — Launch a search query
-- **Daily Note** — Open your daily note
-- **Open Obsidian** — Launch the app
-
-> [!note]
-> These widgets are static, and do not show any previews of the selected note or vault.
-
-To add widgets to your home screen:
-1. Tap and hold anywhere on your home screen
-2. Select "Widgets"
-3. Find Obsidian, then select a widget that you want to use.
+- **Ouvrir une note** — Ouvrir une note spécifique
+- **Nouvelle note** — Créer une nouvelle note
+- **Rechercher** — Lancer une requête de recherche
+- **Note quotidienne** — Ouvrir votre note quotidienne
+- **Ouvrir Obsidian** — Lancer l'application
 
 > [!note]
-> Obsidian widgets can be resized. To resize a widget, tap and hold it, then drag the resizing handles.
+> Ces widgets sont statiques et n'affichent aucun aperçu de la note ou du coffre sélectionné.
 
-You can add multiple widgets of the same type to open different files or trigger different search queries. 
-
-To configure a widget, long-press it on your home screen, then find an "Edit" or "Configure" option. This will allow you to specify the specific parameters required for that widget's on-tap action to work, like File or Path, Search Query, and Vault Name.
-
-See this [Google Support article](https://support.google.com/android/answer/9450271?hl=en) for more information on Android Widgets.
-
-## Quick Settings tiles
-
-Requires Android 7.0 or higher.
-
-Add an Obsidian Quick Settings tile for fast access to the app from your notification shade. Works on your Home Screen and Lock Screen.
+Pour ajouter des widgets à votre écran d'accueil :
+1. Appuyez longuement n'importe où sur votre écran d'accueil
+2. Sélectionnez « Widgets »
+3. Trouvez Obsidian, puis sélectionnez le widget que vous souhaitez utiliser.
 
 > [!note]
-> Unlike app widgets, you can only add one Quick Settings tile of the same type.
+> Les widgets Obsidian peuvent être redimensionnés. Pour redimensionner un widget, appuyez longuement dessus, puis faites glisser les poignées de redimensionnement.
 
-To add a quick settings tile to your notification shade:
+Vous pouvez ajouter plusieurs widgets du même type pour ouvrir différents fichiers ou déclencher différentes requêtes de recherche.
 
-1. Access your notification shade, typically by swiping down from your status bar. Note: you may need to swipe one more time in order to see more options.
-2. In the Quick Settings tiles, select "Edit" - this is usually the same section where toggles like Wi-Fi, Bluetooth, and Orientation Lock are located.
-3. Find and select an Obsidian Quick Settings tile, then rearrange it to your liking.
-4. To configure a Quick Settings tile, tap and hold it to bring up the configuration screen.
+Pour configurer un widget, appuyez longuement dessus sur votre écran d'accueil, puis trouvez l'option « Modifier » ou « Configurer ». Cela vous permettra de spécifier les paramètres requis pour que l'action au toucher du widget fonctionne, comme le fichier ou le chemin, la requête de recherche et le nom du coffre.
 
-See this  [Google Support article](https://support.google.com/android/answer/9083864?hl=en) for more information on Android Quick Settings.
+Consultez cet [article d'assistance Google](https://support.google.com/android/answer/9450271?hl=en) pour plus d'informations sur les widgets Android.
 
-## Shortcuts
+## Tuiles de Réglages rapides
 
-Requires Android 7.1 or higher.
+Nécessite Android 7.0 ou supérieur.
 
-Obsidian provides app shortcuts that can be accessed in several ways:
-
-- Long-press the Obsidian app icon
-- Drag the shortcut icon to your home screen
-- Access via the search bar on your launcher (available on most device vendors)
-
-Available shortcuts:
-
-- **Open note** — Open a specific note in your vault
-- **Daily note** — Jump directly to today's daily note
+Ajoutez une tuile de Réglages rapides Obsidian pour un accès rapide à l'application depuis votre volet de notifications. Fonctionne sur votre écran d'accueil et votre écran de verrouillage.
 
 > [!note]
-> Shortcuts in Obsidian 1.11 are not configurable and will be overhauled in later versions to offer more dynamic options tailored to your specific notes.
+> Contrairement aux widgets d'application, vous ne pouvez ajouter qu'une seule tuile de Réglages rapides du même type.
+
+Pour ajouter une tuile de réglages rapides à votre volet de notifications :
+
+1. Accédez à votre volet de notifications, généralement en balayant vers le bas depuis votre barre d'état. Remarque : vous devrez peut-être balayer une fois de plus pour voir plus d'options.
+2. Dans les tuiles de Réglages rapides, sélectionnez « Modifier » — c'est généralement la même section où se trouvent les bascules comme Wi-Fi, Bluetooth et Verrouillage de l'orientation.
+3. Trouvez et sélectionnez une tuile de Réglages rapides Obsidian, puis réorganisez-la à votre convenance.
+4. Pour configurer une tuile de Réglages rapides, appuyez longuement dessus pour afficher l'écran de configuration.
+
+Consultez cet [article d'assistance Google](https://support.google.com/android/answer/9083864?hl=en) pour plus d'informations sur les Réglages rapides Android.
+
+## Raccourcis
+
+Nécessite Android 7.1 ou supérieur.
+
+Obsidian fournit des raccourcis d'application accessibles de plusieurs façons :
+
+- Appui long sur l'icône de l'application Obsidian
+- Glisser l'icône du raccourci vers votre écran d'accueil
+- Accès via la barre de recherche de votre lanceur (disponible chez la plupart des fabricants d'appareils)
+
+Raccourcis disponibles :
+
+- **Ouvrir une note** — Ouvrir une note spécifique dans votre coffre
+- **Note quotidienne** — Accéder directement à la note quotidienne du jour
+
+> [!note]
+> Les raccourcis dans Obsidian 1.11 ne sont pas configurables et seront refondus dans les versions ultérieures pour offrir des options plus dynamiques adaptées à vos notes spécifiques.

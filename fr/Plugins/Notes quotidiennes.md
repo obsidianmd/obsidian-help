@@ -3,35 +3,50 @@ permalink: plugins/daily-notes
 aliases:
   - Plugins/Modules principaux/Notes quotidiennes
   - Daily notes
+localized: '2026-03-18'
 ---
-# Notes quotidiennes
+Notes quotidiennes est un [[Modules principaux|module principal]] qui ouvre une note basée sur la date du jour, ou la crée si elle n'existe pas. Utilisez les notes quotidiennes pour créer des journaux, des listes de tâches ou des relevés quotidiens de vos découvertes de la journée.
 
-Note quotidienne est un [[Modules principaux|module principal]] qui crée une nouvelle note qui sera automatiquement nommée avec la date actuelle. Si elle existe déjà, il ouvrira cette note. C'est un moyen utile de tenir un journal quotidien, faire une liste de tâches ou une liste de liens vers des notes que vous avez créées un jour spécifique.
+Pour ouvrir la note quotidienne du jour, vous pouvez :
 
-Le format de date et le dossier par défaut pour Note quotidienne peuvent être définis dans **[[Paramètres]] → [[Modules principaux]]**, en cliquant sur l'engrenage qui se trouve à côté du nom du module lorsque celui-ci est activé (bouton à droite). Le format de date par défaut est "AAAA-MM-JJ" (format ISO). Ce format signifie qu'une liste de notes quotidiennes, classées par ordre alphabétique, le sera également par ordre chronologique.
+- Cliquer sur **Ouvrir la note quotidienne** ( ![[lucide-calendar.svg#icon]] ) dans le [[Ruban|ruban]].
+- Exécuter **Ouvrir la note quotidienne** depuis la [[Palette de commandes]].
+- [[Raccourcis clavier#Définir des raccourcis clavier|Utiliser un raccourci clavier]] pour la commande **Ouvrir la note quotidienne**.
 
-Vous pouvez également définir un fichier modèle pour les notes quotidiennes. Ce fichier sera copié dans votre note quotidienne lors de sa création, c'est donc un bon endroit pour mettre des balises ou des liens que vous utilisez tous les jours.
+Par défaut, Obsidian crée une nouvelle note vide nommée d'après la date du jour au format AAAA-MM-JJ.
 
-Vous pouvez créer une note quotidienne soit en cliquant sur l'icône de calendrier dans le panneau de gauche, soit avec la [[palette de commandes]]. Vous pouvez également définir un [[Raccourcis clavier|raccourci clavier]] dans les [[paramètres]].
+> [!tip] Si vous préférez que vos notes quotidiennes soient dans un dossier séparé, vous pouvez définir l'<u>emplacement des nouveaux fichiers</u> dans les options du module pour changer l'endroit où Obsidian crée les nouvelles notes quotidiennes.
 
-
-> [!NOTE] Créer des sous-dossiers automatiquement
-> Vous pouvez automatiser l'organisation de vos notes quotidiennes dans des sous-dossiers dont le nom se base sur le **format de date**.
+> [!example]- Sous-dossiers automatiques
+> Vous pouvez organiser automatiquement vos notes quotidiennes dans des dossiers en utilisant la fonctionnalité **Format de date**.
 > 
-> Vous pouvez explorer les options possibles de formatage dans la documentation [momentJS](https://momentjs.com/docs/#/displaying/format/). 
+> Par exemple, si vous définissez le format de date comme `YYYY/MMMM/YYYY-MMM-DD`, vos notes seront créées sous la forme `2023/January/2023-Jan-01`. 
+> 
+> Vous pouvez explorer davantage d'options de formatage sur le site de documentation de [momentJS](https://momentjs.com/docs/#/displaying/format/).
 
-## Créer un modèle de note quotidienne
+## Créer une note quotidienne à partir d'un modèle
 
-Si vos notes quotidienne ont la même structure, vous pouvez-vous utiliser un [[Modèles|modèle]] pour leur ajouter automatiquement des informations prédéfinies lors de leur création. 
+Si vos notes quotidiennes ont la même structure, vous pouvez utiliser un [[Plugins/Modèles|modèle]] pour ajouter du contenu prédéfini à vos notes quotidiennes lors de leur création.
 
-Voici les étapes à suivre pour cela :
-1. Créez une nouvelle note que vous nommerez "Modèle de notes quotidienne" avec à l'intérieur du texte que vous voulez retrouver dans chacune de vos notes quotidienne. Cela peut par exemple être la date du jours, des titres, des items de [[propriétés]], etc. ;
-2. Ouvrez les [[paramètres]] ;
-3. Dans la barre latérale, cliquez sur **Notes quotidiennes** sous **[[Modules principaux]]** (s'il n'est pas activé, il  ne sera pas visible dans la barre latérale) ;
-4. Dans la fenêtre qui s'ouvre, à côté de **"Emplacement du fichier de modèle"**, inscrivez le chemin d'emplacement du fichier qui vous servira de modèle (Par exemple : Notes quotidiennes/Modèles/Modèle-1). 
+1. Créez une nouvelle note nommée « Modèle quotidien » avec le texte suivant (ou tout ce qui vous convient !) :
 
-Le logiciel Utilisera le modèle correspondant la prochaine fois que vous créerez une note quotidienne. 
+   ```md
+   # {{date:YYYY-MM-DD}}
 
-## Les notes quotidiennes et les propriétés
+   ## Tâches
 
-Quand le module notes quotidiennes est activé et qu'une [[propriété]] de date est présente dans une note, Obsidian va automatiquement tenter de générer un lien vers la note quotidienne correspondant à ce jours spécifique. Le liens sera alors visible dans l'[[aperçu direct]]  de la [[propriété]] en question. 
+   - [ ]
+   ```
+
+2. Ouvrez les **[[Paramètres]]**.
+3. Dans la barre latérale, cliquez sur **Notes quotidiennes** sous **Options des modules**.
+4. Dans le champ texte à côté de **Emplacement du fichier modèle**, sélectionnez la note « Modèle quotidien ».
+
+Obsidian utilisera le modèle la prochaine fois que vous créerez une nouvelle note quotidienne.
+
+## Notes quotidiennes et propriétés
+
+Lorsque le module Notes quotidiennes est activé et qu'une propriété de date est présente dans une note, Obsidian tentera automatiquement de générer un lien vers la note quotidienne correspondant à ce jour spécifique. Par exemple, si une note intitulée `example.md` contient une propriété de date comme `2023-01-01`, cette date se transformera en lien cliquable dans la section d'[[Vues et mode d'édition#Aperçu en direct|aperçu en direct]].
+
+![[daily-notes-and-date-properties.png#interface|300]]
+^daily-notes-date

@@ -47,9 +47,9 @@ Apprenez les bases de la prise de notes avec Obsidian :
 
 Avec des milliers de plugins et de thèmes, vous pouvez adapter Obsidian à votre façon de penser.
 
-- [[Plugins principaux|Modules principaux]]
+- [[Modules principaux]]
 	- Choisissez les fonctionnalités intégrées d'Obsidian que vous souhaitez activer ou désactiver.
-- [[Plugins communautaires|Plugins communautaires]]
+- [[Modules complémentaires]]
 	- Ajoutez de nouveaux flux de travail et capacités grâce aux fonctionnalités créées par la communauté.
 - [[Thèmes|Thèmes]]
 	- Personnalisez l'apparence d'Obsidian avec des palettes de couleurs créées par la communauté.

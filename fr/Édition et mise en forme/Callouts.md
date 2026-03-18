@@ -5,85 +5,84 @@ description: >-
   breaking the flow of your notes.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 ---
+Utilisez les encadrés pour inclure du contenu supplémentaire sans interrompre le fil de vos notes.
 
-Use callouts to include additional content without breaking the flow of your notes.
-
-To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]]. Callouts are also supported natively on [[Introduction à Obsidian Publish|Obsidian Publish]].
+Pour créer un encadré, ajoutez `[!info]` à la première ligne d'un bloc de citation, où `info` est l'_identifiant de type_. L'identifiant de type détermine l'apparence et le comportement de l'encadré. Pour voir tous les types disponibles, consultez [[#Types pris en charge]]. Les encadrés sont également pris en charge nativement sur [[Introduction à Obsidian Publish|Obsidian Publish]].
 
 ```markdown
-> [!info] Here's a callout title
-> Here's a callout block.
-> It supports **Markdown**, [[Internal link|Wikilinks]], and [[Incorporer des fichiers|embeds]]!
+> [!info] Voici un titre d'encadré
+> Voici un bloc d'encadré.
+> Il prend en charge le **Markdown**, les [[Liens internes|liens wiki]] et les [[Incorporer des fichiers|intégrations]] !
 > ![[Engelbart.jpg]]
 ```
 
-> [!info] Here's a callout title
-> Here's a callout block.
-> It supports **Markdown**, [[Liens internes|Wikilinks]] and [[Incorporer des fichiers|embeds]]!
+> [!info] Voici un titre d'encadré
+> Voici un bloc d'encadré.
+> Il prend en charge le **Markdown**, les [[Liens internes|liens wiki]] et les [[Incorporer des fichiers|intégrations]] !
 > ![[Engelbart.jpg]]
 
-You can insert a default `[!note]` callout using the `Insert callout` [[Palette de commandes|command]]. The cursor automatically positions in the callout name field, letting you delete the default name and type a new one before editing the content.
+Vous pouvez insérer un encadré `[!note]` par défaut en utilisant la [[Palette de commandes|commande]] `Insérer un encadré`. Le curseur se positionne automatiquement dans le champ du nom de l'encadré, vous permettant de supprimer le nom par défaut et d'en saisir un nouveau avant de modifier le contenu.
 
-To wrap existing content in a callout, select the text (including lists, code blocks, etc.) and run the `Insert callout` command. The selected content will be automatically enclosed in the callout.
+Pour envelopper du contenu existant dans un encadré, sélectionnez le texte (y compris les listes, blocs de code, etc.) et exécutez la commande `Insérer un encadré`. Le contenu sélectionné sera automatiquement inclus dans l'encadré.
 
-In [[Vues et mode d'édition#Live Preview|Live Preview]], you can also right-click the callout name to change the callout type.
+En [[Vues et mode d'édition#Aperçu en direct|aperçu en direct]], vous pouvez également faire un clic droit sur le nom de l'encadré pour changer le type d'encadré.
 
 
-### Change the title
+### Modifier le titre
 
-By default, the title of the callout is its type identifier in title case. You can change it by adding text after the type identifier:
-
-```markdown
-> [!tip] Callouts can have custom titles
-> Like this one.
-```
-
-> [!tip] Callouts can have custom titles
-> Like this one.
-
-You can even omit the body to create title-only callouts:
+Par défaut, le titre de l'encadré est son identifiant de type avec une majuscule initiale. Vous pouvez le modifier en ajoutant du texte après l'identifiant de type :
 
 ```markdown
-> [!tip] Title-only callout
+> [!tip] Les encadrés peuvent avoir des titres personnalisés
+> Comme celui-ci.
 ```
 
-> [!tip] Title-only callout
+> [!tip] Les encadrés peuvent avoir des titres personnalisés
+> Comme celui-ci.
 
-### Foldable callouts
-
-You can make a callout foldable by adding a plus (`+`) or a minus (`-`) directly after the type identifier.
-
-A plus sign expands the callout by default, and a minus sign collapses it instead.
+Vous pouvez même omettre le corps pour créer des encadrés composés uniquement d'un titre :
 
 ```markdown
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
+> [!tip] Encadré avec titre uniquement
 ```
 
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when collapsed.
+> [!tip] Encadré avec titre uniquement
 
-### Nested callouts
+### Encadrés pliables
 
-You can nest callouts in multiple levels.
+Vous pouvez rendre un encadré pliable en ajoutant un plus (`+`) ou un moins (`-`) directement après l'identifiant de type.
+
+Un signe plus déplie l'encadré par défaut, tandis qu'un signe moins le plie.
 
 ```markdown
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
+> [!faq]- Les encadrés sont-ils pliables ?
+> Oui ! Dans un encadré pliable, le contenu est masqué lorsque l'encadré est plié.
 ```
 
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
+> [!faq]- Les encadrés sont-ils pliables ?
+> Oui ! Dans un encadré pliable, le contenu est masqué lorsqu'il est plié.
 
-### Customize callouts
+### Encadrés imbriqués
 
-[[Extraits CSS]] and [[Plugins communautaires]] can define custom callouts, or even overwrite the default configuration.
+Vous pouvez imbriquer des encadrés sur plusieurs niveaux.
 
-To define a custom callout, create the following CSS block:
+```markdown
+> [!question] Les encadrés peuvent-ils être imbriqués ?
+> > [!todo] Oui, ils le peuvent.
+> > > [!example] Vous pouvez même utiliser plusieurs niveaux d'imbrication.
+```
+
+> [!question] Les encadrés peuvent-ils être imbriqués ?
+> > [!todo] Oui, ils le peuvent.
+> > > [!example] Vous pouvez même utiliser plusieurs niveaux d'imbrication.
+
+### Personnaliser les encadrés
+
+Les [[Extraits CSS]] et les [[Modules complémentaires]] peuvent définir des encadrés personnalisés, ou même remplacer la configuration par défaut.
+
+Pour définir un encadré personnalisé, créez le bloc CSS suivant :
 
 ```css
 .callout[data-callout="custom-question-type"] {
@@ -92,29 +91,29 @@ To define a custom callout, create the following CSS block:
 }
 ```
 
-The value of the `data-callout` attribute is the type identifier you want to use, for example `[!custom-question-type]`.
+La valeur de l'attribut `data-callout` est l'identifiant de type que vous souhaitez utiliser, par exemple `[!custom-question-type]`.
 
-- `--callout-color` defines the background color using numbers (0–255) for red, green, and blue.
-- `--callout-icon` can be an icon ID from [lucide.dev](https://lucide.dev), or an SVG element. 
+- `--callout-color` définit la couleur d'arrière-plan en utilisant des nombres (0–255) pour le rouge, le vert et le bleu.
+- `--callout-icon` peut être un identifiant d'icône provenant de [lucide.dev](https://lucide.dev), ou un élément SVG.
 
-> [!warning] Note about lucide icon versions
-> Obsidian updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.
+> [!warning] Note concernant les versions des icônes Lucide
+> Obsidian met à jour périodiquement les icônes Lucide. La version actuelle incluse est indiquée ci-dessous ; utilisez ces icônes ou des versions antérieures dans les encadrés personnalisés.
 > ![[Crédits#^lucide]]
 
-> [!tip] SVG icons
-> Instead of using a Lucide icon, you can also use a SVG element as the callout icon.
+> [!tip] Icônes SVG
+> Au lieu d'utiliser une icône Lucide, vous pouvez également utiliser un élément SVG comme icône d'encadré.
 >
 > ```css
-> --callout-icon: '<svg>...custom svg...</svg>';
+> --callout-icon: '<svg>...svg personnalisé...</svg>';
 > ```
 
-### Supported types
+### Types pris en charge
 
-You can use several callout types and aliases. Each type comes with a different background color and icon.
+Vous pouvez utiliser plusieurs types d'encadrés et alias. Chaque type est accompagné d'une couleur d'arrière-plan et d'une icône différentes.
 
-To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`. Callout types can also be changed by right-clicking a callout in Live Preview mode.
+Pour utiliser ces styles par défaut, remplacez `info` dans les exemples par l'un de ces types, comme `[!tip]` ou `[!warning]`. Les types d'encadrés peuvent également être modifiés en faisant un clic droit sur un encadré en mode aperçu en direct.
 
-Unless you [[#Customize callouts]], any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
+Sauf si vous [[#Personnaliser les encadrés|personnalisez les encadrés]], tout type non pris en charge utilise par défaut le type `note`. L'identifiant de type est insensible à la casse.
 
 > [!note]
 > ```md
@@ -130,7 +129,7 @@ Unless you [[#Customize callouts]], any unsupported type defaults to the `note` 
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `summary`, `tldr`
+Alias : `summary`, `tldr`
 
 ---
 
@@ -156,7 +155,7 @@ Aliases: `summary`, `tldr`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `hint`, `important`
+Alias : `hint`, `important`
 
 ---
 
@@ -166,7 +165,7 @@ Aliases: `hint`, `important`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `check`, `done`
+Alias : `check`, `done`
 
 ---
 
@@ -176,7 +175,7 @@ Aliases: `check`, `done`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `help`, `faq`
+Alias : `help`, `faq`
 
 ---
 
@@ -186,7 +185,7 @@ Aliases: `help`, `faq`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `caution`, `attention`
+Alias : `caution`, `attention`
 
 ---
 
@@ -196,7 +195,7 @@ Aliases: `caution`, `attention`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `fail`, `missing`
+Alias : `fail`, `missing`
 
 ---
 
@@ -206,7 +205,7 @@ Aliases: `fail`, `missing`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Alias: `error`
+Alias : `error`
 
 ---
 
@@ -232,4 +231,4 @@ Alias: `error`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Alias: `cite`
+Alias : `cite`

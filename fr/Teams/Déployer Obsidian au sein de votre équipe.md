@@ -2,54 +2,54 @@
 permalink: teams/deploy
 cssclasses:
   - soft-embed
-localized: null
+localized: '2026-03-18'
 aliases:
   - Deploy Obsidian across your team
 ---
-Obsidian runs as a local application on each of your team member's devices. It is designed to work both online and offline, securely and privately, and give you total control over your team's data. Obsidian is not available as a web-based application, therefore you will need to deploy the app to your team members.
+Obsidian fonctionne comme une application locale sur chacun des appareils de vos membres d'équipe. Il est conçu pour fonctionner en ligne comme hors ligne, de manière sécurisée et confidentielle, et vous donner un contrôle total sur les données de votre équipe. Obsidian n'est pas disponible en tant qu'application web, vous devrez donc déployer l'application auprès de vos membres d'équipe.
 
-## Install and update Obsidian
+## Installer et mettre à jour Obsidian
 
-Your team can download Obsidian from our [Download page](https://obsidian.md/download). Releases are also available on our [GitHub releases page](https://github.com/obsidianmd/obsidian-releases/releases) which includes links to [the changelog](https://obsidian.md/changelog/).
+Votre équipe peut télécharger Obsidian depuis notre [page de téléchargement](https://obsidian.md/download). Les versions sont également disponibles sur notre [page de versions GitHub](https://github.com/obsidianmd/obsidian-releases/releases) qui inclut des liens vers [le journal des modifications](https://obsidian.md/changelog/).
 
-> [!tip] For Windows users who need a system installer, the Universal `.exe` includes the option to install Obsidian for all users.
+> [!tip] Pour les utilisateurs Windows qui ont besoin d'un programme d'installation système, le `.exe` universel inclut l'option d'installer Obsidian pour tous les utilisateurs.
 
-If automatic updates are enabled in the app, future versions will be installed automatically when users restart Obsidian. Additionally, we recommend periodically performing [[Mettre à jour Obsidian#Mises à jour du programme d'installation|installer updates]] to receive the latest updates to the Electron framework, including security fixes.
+Si les mises à jour automatiques sont activées dans l'application, les futures versions seront installées automatiquement lorsque les utilisateurs redémarrent Obsidian. De plus, nous recommandons d'effectuer périodiquement des [[Mettre à jour Obsidian#Mises à jour du programme d'installation|mises à jour du programme d'installation]] pour recevoir les dernières mises à jour du framework Electron, y compris les correctifs de sécurité.
 
-If you are looking how to limit network access to Obsidian during this process, review [[Considérations de sécurité pour les équipes#Network and access|network and access]].
+Si vous cherchez comment limiter l'accès réseau à Obsidian pendant ce processus, consultez [[Considérations de sécurité pour les équipes#Réseau et accès|réseau et accès]].
 
-## Customizing Obsidian
+## Personnaliser Obsidian
 
-Obsidian is easy to modify to suit your team's needs. With an extensive API and a large ecosystem of users, Obsidian offers access to numerous plugins, themes, and complementary tools.
+Obsidian est facile à modifier pour répondre aux besoins de votre équipe. Avec une API étendue et un large écosystème d'utilisateurs, Obsidian offre l'accès à de nombreux modules, thèmes et outils complémentaires.
 
-For security-related questions concerning these topics, please refer to [[Considérations de sécurité pour les équipes]].
+Pour les questions liées à la sécurité concernant ces sujets, veuillez consulter [[Considérations de sécurité pour les équipes]].
 
-### Configuration folders
+### Dossiers de configuration
 
-The [[Dossier de configuration]] is where an Obsidian [[Glossaire#Coffre|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[Dossier de configuration#Changing your configuration folder|change the configuration folder]] name according to your preference.
+Le [[Dossier de configuration]] est l'endroit où un [[Glossaire#Coffre|coffre]] Obsidian stocke ses paramètres d'application. Par défaut, ce dossier est nommé `.obsidian`, mais vous avez la possibilité de [[Dossier de configuration#Modifier votre dossier de configuration|modifier le nom du dossier de configuration]] selon vos préférences.
 
-We recommend creating a standardized template of the configuration folder to be deployed across your team's devices.
+Nous recommandons de créer un modèle standardisé du dossier de configuration à déployer sur les appareils de votre équipe.
 
-### Plugins
+### Modules
 
-[[Plugins principaux]] are optional features created by the Obsidian team. These features are integrated in the core application codebase and can be turned on or off.
+Les [[Modules principaux]] sont des fonctionnalités optionnelles créées par l'équipe Obsidian. Ces fonctionnalités sont intégrées dans le code de l'application principale et peuvent être activées ou désactivées.
 
-[[Plugins communautaires]] are third-party features added to the Obsidian application, and can be installed via the community directory. Third-party plugins leverage the [Obsidian API](https://github.com/obsidianmd/obsidian-api). Plugins are located in the `.obsidian/plugins` folder within a vault, and can be installed manually at this location.
+Les [[Modules complémentaires]] sont des fonctionnalités tierces ajoutées à l'application Obsidian, et peuvent être installés via le répertoire communautaire. Les modules tiers exploitent l'[API Obsidian](https://github.com/obsidianmd/obsidian-api). Les modules sont situés dans le dossier `.obsidian/plugins` au sein d'un coffre, et peuvent être installés manuellement à cet emplacement.
 
-### Themes and snippets
+### Thèmes et extraits
 
-[[Thèmes]] visually alter the Obsidian interface. Like plugins, themes can be downloaded from our community directory. Themes are located in the `.obsidian/themes` folder within a vault.
+Les [[Thèmes]] modifient visuellement l'interface d'Obsidian. Comme les modules, les thèmes peuvent être téléchargés depuis notre répertoire communautaire. Les thèmes sont situés dans le dossier `.obsidian/themes` au sein d'un coffre.
 
-[[Extraits CSS|Snippets]] are small `.css` files that visually modify aspects of the Obsidian interface. In some cases, it can also add functional enhancements. Snippets are located in the `.obsidian/snippets` folder within a vault.
+Les [[Extraits CSS|Extraits]] sont de petits fichiers `.css` qui modifient visuellement des aspects de l'interface d'Obsidian. Dans certains cas, ils peuvent également ajouter des améliorations fonctionnelles. Les extraits sont situés dans le dossier `.obsidian/snippets` au sein d'un coffre.
 
-## Frequently asked questions
+## Questions fréquentes
 
-For questions about account management and security, please refer to [[Considérations de sécurité pour les équipes#Account security|account security]].
+Pour les questions sur la gestion des comptes et la sécurité, veuillez consulter [[Considérations de sécurité pour les équipes#Sécurité des comptes|sécurité des comptes]].
 
-### Deployment
+### Déploiement
 
-**Can I deploy licenses across multiple installations?**
-Currently, we do not support deploying licenses via a deployment script, such as in a `.json` file. If you're interested in this feature for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**Puis-je déployer des licences sur plusieurs installations ?**
+Actuellement, nous ne prenons pas en charge le déploiement de licences via un script de déploiement, comme dans un fichier `.json`. Si cette fonctionnalité vous intéresse pour votre équipe, veuillez soumettre une [demande de fonctionnalité](https://forum.obsidian.md/c/feature-requests/8).
 
-**Can Obsidian lock certain features or configurations via a setting or an application flag?**
-Currently you can do this by blocking edit access to the `.obsidian` folder, or specific files and folders within it, described above. If you're interested in more access controls for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**Obsidian peut-il verrouiller certaines fonctionnalités ou configurations via un paramètre ou un indicateur d'application ?**
+Actuellement, vous pouvez le faire en bloquant l'accès en écriture au dossier `.obsidian`, ou à des fichiers et dossiers spécifiques en son sein, décrits ci-dessus. Si vous souhaitez davantage de contrôles d'accès pour votre équipe, veuillez soumettre une [demande de fonctionnalité](https://forum.obsidian.md/c/feature-requests/8).

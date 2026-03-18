@@ -1,49 +1,49 @@
 ---
 permalink: appearance
-localized: null
+localized: '2026-03-18'
 aliases:
   - Appearance
 ---
-### Color scheme
+### Schéma de couleurs
 
-Obsidian comes with two color schemes, light and dark. By default, the color scheme is set to adapt to your operating system. You can change this by going to **[[Paramètres]] → Appearance**.
+Obsidian propose deux schémas de couleurs, clair et sombre. Par défaut, le schéma de couleurs s'adapte à votre système d'exploitation. Vous pouvez le modifier en allant dans **[[Paramètres]] → Apparence**.
 
-### Custom themes
+### Thèmes personnalisés
 
-You can change the appearance of Obsidian by using [[Thèmes|custom themes]]. Browse hundreds of community-made themes by going to **[[Paramètres]] → Appearance**, then click **Manage** to view and install themes.
+Vous pouvez modifier l'apparence d'Obsidian en utilisant des [[Thèmes|thèmes personnalisés]]. Parcourez des centaines de thèmes créés par la communauté en allant dans **[[Paramètres]] → Apparence**, puis cliquez sur **Gérer** pour afficher et installer des thèmes.
 
-You can also tweak themes using [[Extraits CSS]] and [build your own theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) .
+Vous pouvez également ajuster les thèmes à l'aide d'[[Extraits CSS|extraits CSS]] et [créer votre propre thème](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 
-### Custom app icon
+### Icône d'application personnalisée
 
-You can change the Obsidian desktop app icon. Try the icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/) to customize the icon colors to your liking.
+Vous pouvez modifier l'icône de l'application de bureau Obsidian. Essayez l'éditeur d'icônes présenté sur [notre blog](https://obsidian.md/blog/new-obsidian-icon/) pour personnaliser les couleurs de l'icône selon vos préférences.
 
-To change the Obsidian app icon, follow these steps:
+Pour modifier l'icône de l'application Obsidian, suivez ces étapes :
 
-1. Open **[[Paramètres]]**.
-2. Select **Appearance** on the left.
-3. Scroll down to the **Advanced** section.
-4. Under **Custom app icon** click **Choose** .
-5. Pick your desired icon from your filesystem.  Accepted file formats are `.icns`, `.ico`, `.png`, and `.svg`.
-6. Click **Relaunch**.
-7. After Obsidian restarts, your new icon should appear in the taskbar on desktop and on your screen on mobile.
+1. Ouvrez les **[[Paramètres]]**.
+2. Sélectionnez **Apparence** sur la gauche.
+3. Faites défiler jusqu'à la section **Avancé**.
+4. Sous **Icône d'application personnalisée**, cliquez sur **Choisir**.
+5. Sélectionnez l'icône souhaitée depuis votre système de fichiers. Les formats de fichiers acceptés sont `.icns`, `.ico`, `.png` et `.svg`.
+6. Cliquez sur **Relancer**.
+7. Après le redémarrage d'Obsidian, votre nouvelle icône devrait apparaître dans la barre des tâches sur ordinateur et sur votre écran sur mobile.
 
-> [!tip] Custom app icon in the  Windows taskbar 
-> For certain Windows operating systems, an extra step may be needed to adjust the custom app icon in the taskbar.
+> [!tip] Icône d'application personnalisée dans la barre des tâches Windows
+> Pour certains systèmes d'exploitation Windows, une étape supplémentaire peut être nécessaire pour ajuster l'icône d'application personnalisée dans la barre des tâches.
 > 
-> Follow these steps:
-> - Right-click the Obsidian icon on your taskbar or desktop shortcut.
-> - Right-click the name Obsidian (skip this step for the desktop icon).
-> - Choose **Properties**.
-> - Click **Change Icon**.
-> - Locate the icon on your file system.
-> - Click **OK**.
+> Suivez ces étapes :
+> - Faites un clic droit sur l'icône Obsidian dans votre barre des tâches ou sur le raccourci du bureau.
+> - Faites un clic droit sur le nom Obsidian (ignorez cette étape pour l'icône du bureau).
+> - Choisissez **Propriétés**.
+> - Cliquez sur **Changer d'icône**.
+> - Localisez l'icône sur votre système de fichiers.
+> - Cliquez sur **OK**.
 > 
-> Afterward, you have the option to either restart `explorer.exe` within the task manager or restart your computer to apply the changes you made.
+> Ensuite, vous avez la possibilité soit de redémarrer `explorer.exe` dans le gestionnaire des tâches, soit de redémarrer votre ordinateur pour appliquer les modifications effectuées.
 
-### Translucency
+### Translucidité
 
-On MacOS you can make the Obsidian window translucent by enabling this option in the settings **Appearance** tab.
+Sur MacOS, vous pouvez rendre la fenêtre d'Obsidian translucide en activant cette option dans l'onglet **Apparence** des paramètres.
 
-> [!info]- Windows and translucency
-> The Obsidian team removed translucency in Windows for version 1.15.11 due to Electron's removal of the feature.
+> [!info]- Windows et translucidité
+> L'équipe d'Obsidian a supprimé la translucidité sous Windows à partir de la version 1.15.11 en raison de la suppression de cette fonctionnalité par Electron.

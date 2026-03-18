@@ -1,55 +1,55 @@
 ---
 permalink: plugins/workspaces
-localized: null
+localized: '2026-03-18'
 aliases:
   - Workspaces
 ---
-Workspaces is a [[Plugins principaux|core plugin]] that  lets you manage and switch between different application layouts depending on your task, for example journaling, reading, or writing.
+Espaces de travail est un [[Modules principaux|module principal]] qui vous permet de gérer et de basculer entre différentes dispositions de l'application selon votre tâche, par exemple la tenue d'un journal, la lecture ou l'écriture.
 
-A workspace contains information about open files and tabs, and the width and visibility of each sidebar.
+Un espace de travail contient des informations sur les fichiers et onglets ouverts, ainsi que la largeur et la visibilité de chaque barre latérale.
 
-## Save a workspace
+## Enregistrer un espace de travail
 
-**Ribbon:**
+**Ruban :**
 
-1. In the ribbon, click **Manage workspace layouts** ( ![[lucide-panels-top-left.svg#icon]] ).
-2. Enter a name for the workspace.
-3. Select **Save**.
+1. Dans le ruban, cliquez sur **Gérer les dispositions d'espace de travail** ( ![[lucide-panels-top-left.svg#icon]] ).
+2. Entrez un nom pour l'espace de travail.
+3. Sélectionnez **Enregistrer**.
 
-**Command palette:**
+**Palette de commandes :**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Palette de commandes]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Enter a name for the workspace.
-5. Select **Save**.
+1. Appuyez sur `Ctrl+P` (ou `Cmd+P` sur macOS) pour ouvrir la [[Palette de commandes]].
+2. Recherchez la commande **Gérer les dispositions d'espace de travail**.
+3. Appuyez sur `Entrée` avec la commande sélectionnée.
+4. Entrez un nom pour l'espace de travail.
+5. Sélectionnez **Enregistrer**.
 
-To update an existing workspace, save the workspace with the same name as the workspace you want to update.
+Pour mettre à jour un espace de travail existant, enregistrez l'espace de travail avec le même nom que celui que vous souhaitez mettre à jour.
 
-## Load a workspace
+## Charger un espace de travail
 
-**Ribbon:**
+**Ruban :**
 
-1. In the ribbon, click **Manage workspace layouts**  ( ![[lucide-panels-top-left.svg#icon]] ).
-2. Next to the workspace you want to load, select **Load**.
+1. Dans le ruban, cliquez sur **Gérer les dispositions d'espace de travail** ( ![[lucide-panels-top-left.svg#icon]] ).
+2. À côté de l'espace de travail que vous souhaitez charger, sélectionnez **Charger**.
 
-**Command palette:**
+**Palette de commandes :**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Palette de commandes]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Select the workspace to load.
+1. Appuyez sur `Ctrl+P` (ou `Cmd+P` sur macOS) pour ouvrir la [[Palette de commandes]].
+2. Recherchez la commande **Gérer les dispositions d'espace de travail**.
+3. Appuyez sur `Entrée` avec la commande sélectionnée.
+4. Sélectionnez l'espace de travail à charger.
 
-## Delete a workspace
+## Supprimer un espace de travail
 
-**Ribbon:**
+**Ruban :**
 
-1. In the ribbon, click **Manage workspace layouts**  ( ![[lucide-panels-top-left.svg#icon]] ).
-2. Next to the workspace you want to delete, select **Delete layout** ( ![[lucide-x.svg#icon]] ).
+1. Dans le ruban, cliquez sur **Gérer les dispositions d'espace de travail** ( ![[lucide-panels-top-left.svg#icon]] ).
+2. À côté de l'espace de travail que vous souhaitez supprimer, sélectionnez **Supprimer la disposition** ( ![[lucide-x.svg#icon]] ).
 
-**Command palette:**
+**Palette de commandes :**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Palette de commandes]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Next to the workspace you want to delete, select **Delete layout** ( ![[lucide-x.svg#icon]] ).
+1. Appuyez sur `Ctrl+P` (ou `Cmd+P` sur macOS) pour ouvrir la [[Palette de commandes]].
+2. Recherchez la commande **Gérer les dispositions d'espace de travail**.
+3. Appuyez sur `Entrée` avec la commande sélectionnée.
+4. À côté de l'espace de travail que vous souhaitez supprimer, sélectionnez **Supprimer la disposition** ( ![[lucide-x.svg#icon]] ).

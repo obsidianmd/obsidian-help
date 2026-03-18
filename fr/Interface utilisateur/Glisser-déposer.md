@@ -1,34 +1,34 @@
 ---
 permalink: drag-and-drop
-localized: null
+localized: '2026-03-18'
 aliases:
   - Drag and drop
 ---
-There are many ways to drag and drop elements in Obsidian. This includes tabs, files, folders, and content.
+Il existe de nombreuses façons de glisser-déposer des éléments dans Obsidian. Cela inclut les onglets, les fichiers, les dossiers et le contenu.
 
-### Drag tabs
+### Glisser des onglets
 
-- You can [[Onglets#Arrange tabs|arrange tabs]] and split tab groups in the main content area and in [[Barre latérale|sidebars]].
+- Vous pouvez [[Onglets#Disposer les onglets|disposer les onglets]] et diviser les groupes d'onglets dans la zone de contenu principale et dans les [[Barre latérale|barres latérales]].
 
-### Drag sources
+### Sources de glissement
 
-- You can drag a file, or multiple files from the [[Explorateur de fichiers]].
-- You can drag a file from a [[Recherche]] result.
-- You can drag a file from [[Liens retour]] or unlinked references.
-- You can drag a file from a link inside the note, in preview mode.
+- Vous pouvez glisser un fichier, ou plusieurs fichiers depuis l'[[Explorateur de fichiers|explorateur de fichiers]].
+- Vous pouvez glisser un fichier depuis un résultat de [[Rechercher|recherche]].
+- Vous pouvez glisser un fichier depuis les [[Rétroliens|rétroliens]] ou les références non liées.
+- Vous pouvez glisser un fichier depuis un lien à l'intérieur de la note, en mode lecture.
 
-### Drop destinations
+### Destinations de dépôt
 
-- You can drop a file on a tab header to open the file there. Hold `Alt` (or `Shift` on macOS) to drop anywhere in the tab.
-- You can drop a file on a folder in the [[Explorateur de fichiers]] to move the file there.
-- You can drop a file into an editor to insert it as a link. The generated link also follows your preferences, such as relative paths, or using Markdown links.
-- You can drop a file on the [[Signets]] tab to bookmark it.
+- Vous pouvez déposer un fichier sur l'en-tête d'un onglet pour y ouvrir le fichier. Maintenez `Alt` (ou `Maj` sur macOS) pour déposer n'importe où dans l'onglet.
+- Vous pouvez déposer un fichier sur un dossier dans l'[[Explorateur de fichiers|explorateur de fichiers]] pour y déplacer le fichier.
+- Vous pouvez déposer un fichier dans un éditeur pour l'insérer en tant que lien. Le lien généré respecte également vos préférences, telles que les chemins relatifs ou l'utilisation de liens Markdown.
+- Vous pouvez déposer un fichier sur l'onglet [[Signets]] pour l'ajouter aux signets.
 
-### Dragging from outside Obsidian
+### Glisser depuis l'extérieur d'Obsidian
 
-- You can drag any HTML content from the browser into Obsidian to automatically convert them into Markdown
-- You can drag and drop any files from your native file explorer to have Obsidian import (make a copy of) those files in your vault's attachment folder and insert them as internal links. Hold `Ctrl` on Windows/Linux or `Option` on macOS to create `file:///` absolute links to those files instead of importing a copy.
+- Vous pouvez glisser n'importe quel contenu HTML depuis le navigateur vers Obsidian pour le convertir automatiquement en Markdown.
+- Vous pouvez glisser-déposer n'importe quels fichiers depuis votre explorateur de fichiers natif pour qu'Obsidian importe (fasse une copie de) ces fichiers dans le dossier de pièces jointes de votre coffre et les insère en tant que liens internes. Maintenez `Ctrl` sous Windows/Linux ou `Option` sous macOS pour créer des liens absolus `file:///` vers ces fichiers au lieu d'importer une copie.
 
-### Dropping files outside Obsidian
+### Déposer des fichiers en dehors d'Obsidian
 
-- This creates an `obsidian://` URL in the external application for the Obsidian note that you dragged.
+- Cela crée une URL `obsidian://` dans l'application externe pour la note Obsidian que vous avez glissée.

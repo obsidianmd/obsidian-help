@@ -1,26 +1,26 @@
 ---
 permalink: embed-web-pages
-localized: null
+localized: '2026-03-18'
 aliases:
   - Embed web pages
 ---
-Learn how to use the [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) HTML element to embed web pages in your notes.
+Apprenez à utiliser l'élément HTML [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) pour intégrer des pages web dans vos notes.
 
-To embed a web page, add the following in your note and replace the placeholder text with the URL of the web page you want to embed:
+Pour intégrer une page web, ajoutez le code suivant dans votre note et remplacez le texte indicatif par l'URL de la page web que vous souhaitez intégrer :
 
 ```html
-<iframe src="INSERT YOUR URL HERE"></iframe>
+<iframe src="INSÉREZ VOTRE URL ICI"></iframe>
 ```
 
 > [!note]
-> Some websites don't allow you to embed them. Instead, they may provide URLs that are meant for embedding them. If the website doesn't support embedding, try searching for the name of the website followed by "embed iframe". For example, "youtube embed iframe".
+> Certains sites web ne vous permettent pas de les intégrer. À la place, ils peuvent fournir des URL destinées à leur intégration. Si le site web ne prend pas en charge l'intégration, essayez de rechercher le nom du site web suivi de « embed iframe ». Par exemple, « youtube embed iframe ».
 
 > [!tip]
-> If you're using [[Canvas]], you can embed a web page in a card. For more information, refer to [[Canvas#Add cards from web pages]].
+> Si vous utilisez [[Canvas]], vous pouvez intégrer une page web dans une carte. Pour plus d'informations, consultez [[Canvas#Ajouter des cartes depuis des pages web]].
 
-## Embed a YouTube video
+## Intégrer une vidéo YouTube
 
-To embed a YouTube video, use the same Markdown syntax as [[Syntaxe de mise en forme de base#External images|external images]]:
+Pour intégrer une vidéo YouTube, utilisez la même syntaxe Markdown que pour les [[Syntaxe de mise en forme de base#Images externes|images externes]] :
 
 ```md
 ![](https://www.youtube.com/watch?v=NnTvZWp5Q7o)
@@ -28,9 +28,9 @@ To embed a YouTube video, use the same Markdown syntax as [[Syntaxe de mise en f
 
 ![](https://www.youtube.com/watch?v=NnTvZWp5Q7o)
 
-## Embed a tweet
+## Intégrer un tweet
 
-To embed a tweet, use the same Markdown syntax as [[Syntaxe de mise en forme de base#External images|external images]]:
+Pour intégrer un tweet, utilisez la même syntaxe Markdown que pour les [[Syntaxe de mise en forme de base#Images externes|images externes]] :
 
 ```md
 ![](https://twitter.com/obsdmd/status/1580548874246443010)

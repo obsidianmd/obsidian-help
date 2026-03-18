@@ -1,14 +1,14 @@
 ---
 permalink: credits
-localized: null
+localized: '2026-03-18'
 aliases:
   - Credits
 ---
-Names aren't listed by amount of contribution, but alphabetically (or at least we try!).
+Les noms ne sont pas classés par ordre de contribution, mais par ordre alphabétique (du moins nous essayons !).
 
-## Team
+## Équipe
 
-### Development
+### Développement
 
 - Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
 - liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span> <span class='flair mod-pop'>Plugin API Master</span> <span class='flair mod-pop'>Volcano Veteran</span>
@@ -16,13 +16,13 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 - tgrosinger ([Tony Grosinger](https://grosinger.net))
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
 
-### Product & Operations
+### Produit & Opérations
 
 - Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
 - kepano ([Steph Ango](https://stephanango.com/))
 - Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Sorcerous Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
 
-## Moderators
+## Modérateurs
 
 - argentum<span class='flair mod-pop'>Team Little Silvers</span> <span class='flair mod-pop'>Linux master</span> <span class='flair mod-pop'>Zotero master</span> ^a4b3a2
 - cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
@@ -37,72 +37,72 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair mod-pop'>Templater Templar</span><span class='flair mod-pop'>Board Gamer</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
 
-### Retired
+### Retraités
 
 - Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
 - mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 
-## Plugin inspirations
+## Inspirations de modules
 
-Credits to these plugin developers for pioneering functionality that were adapted into Obsidian:
+Merci à ces développeurs de modules pour avoir été les pionniers de fonctionnalités qui ont été adaptées dans Obsidian :
 
-- pjeby for the Hotkey Helper plugin
-- javalent for the Admonition plugin
-- NothingIsLost for CodeMirror 6 improvements
-- mgmeyers for the Indentation Guides plugin
-- blacksmithgu for Dataview
+- pjeby pour le module Hotkey Helper
+- javalent pour le module Admonition
+- NothingIsLost pour les améliorations de CodeMirror 6
+- mgmeyers pour le module Indentation Guides
+- blacksmithgu pour Dataview
 
-## Builds
+## Compilations
 
-- jstone for maintaining our builds on flathub
-- adamgibbins and ran-dall for maintaining our builds on homebrew
+- jstone pour la maintenance de nos compilations sur flathub
+- adamgibbins et ran-dall pour la maintenance de nos compilations sur homebrew
 
-## Translators
+## Traducteurs
 
-- Andrea Brandi (Italian)
-- Anne-Katrin aka Mephi (German)
-- bongudth (Vietnamese)
-- canzi-teacher, 蚕子 (Simplified Chinese)
-- cor-bee, Ілля Пишняк (Ukrainian)
-- cvyl, Mikka (Dutch)
-- Daniel Mathiot (French)
-- Diego Tres (Brazilian Portuguese)
-- Haitham Mohamed (Arabic)
-- Henrik Falk (Danish)
-- Joffrey Schroeder (French) 
-- JxhnnyUt8h (Russian)
-- k-andzhanovskii, Константин Анджановский (Russian)
-- lisachev, Сергей Лисачев (Russian)
-- mafsi, Patrick Danilevici (Romanian)
-- Manuel Arias Almada (Spanish)
-- Muhammad Mauli Mubassari (Indonesian)
-- Olivier Anthonioz (French) 
-- Ryooo，睿悠ryooo (Chinese Simplified)
-- Sakvipubp Suy (Khmer)
-- smilorent, Silviu Lorenț (Romanian)
-- Solyta Teng (Khmer)
-- taksas, 中山 拓海 (Japanese)
-- VKondakoff, Валерий Кондаков (Russian)
-- yo-goto, ぱだわん (Japanese)
-- Zachary Shirmohammadli (Persian) 
+- Andrea Brandi (italien)
+- Anne-Katrin aka Mephi (allemand)
+- bongudth (vietnamien)
+- canzi-teacher, 蚕子 (chinois simplifié)
+- cor-bee, Ілля Пишняк (ukrainien)
+- cvyl, Mikka (néerlandais)
+- Daniel Mathiot (français)
+- Diego Tres (portugais brésilien)
+- Haitham Mohamed (arabe)
+- Henrik Falk (danois)
+- Joffrey Schroeder (français) 
+- JxhnnyUt8h (russe)
+- k-andzhanovskii, Константин Анджановский (russe)
+- lisachev, Сергей Лисачев (russe)
+- mafsi, Patrick Danilevici (roumain)
+- Manuel Arias Almada (espagnol)
+- Muhammad Mauli Mubassari (indonésien)
+- Olivier Anthonioz (français) 
+- Ryooo，睿悠ryooo (chinois simplifié)
+- Sakvipubp Suy (khmer)
+- smilorent, Silviu Lorenț (roumain)
+- Solyta Teng (khmer)
+- taksas, 中山 拓海 (japonais)
+- VKondakoff, Валерий Кондаков (russe)
+- yo-goto, ぱだわん (japonais)
+- Zachary Shirmohammadli (persan) 
 
 ## Documentation
 
-The first version of the help vault was written by Silver. Later part of it was written by [@mediapathic](http://mediapathic.net), with a big help from Reggie. We also got corrections from the many pairs of eyes in the Discord and forum community.
+La première version du coffre d'aide a été rédigée par Silver. Une partie ultérieure a été rédigée par [@mediapathic](http://mediapathic.net), avec une aide précieuse de Reggie. Nous avons également reçu des corrections de la part des nombreux regards attentifs de la communauté Discord et du forum.
 
-The docs was maintained by [Marcus Olsson](https://marcus.se.net/) for a while. Currently it’s maintained by the Obsidian team.
+La documentation a été maintenue par [Marcus Olsson](https://marcus.se.net/) pendant un certain temps. Actuellement, elle est maintenue par l'équipe Obsidian.
 
-We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/). Issues are welcome.
+Nous acceptons désormais les pull requests pour le coffre d'aide dans [notre dépôt de documentation](https://github.com/obsidianmd/obsidian-docs/). Les signalements de problèmes sont les bienvenus.
 
-### Add your name
+### Ajouter votre nom
 
-If you're a translator, please make a pull request to add "Your Name (contributed language)" to the section above. Please keep the list of names alphabetical, thanks!
+Si vous êtes traducteur, veuillez faire une pull request pour ajouter « Votre nom (langue contribuée) » à la section ci-dessus. Veuillez garder la liste des noms par ordre alphabétique, merci !
 
-If your name isn't in English and can't be alphabetically listed, use this format: `your-github-username, [your name in your language] (Language name)`.
+Si votre nom n'est pas en anglais et ne peut pas être classé par ordre alphabétique, utilisez ce format : `votre-nom-d'utilisateur-github, [votre nom dans votre langue] (Nom de la langue)`.
 
-## Third party acknowledgements
+## Remerciements aux tiers
 
-Obsidian uses the open source libraries below (in alphabetical order):
+Obsidian utilise les bibliothèques open source ci-dessous (par ordre alphabétique) :
 
 ### Capacitor
 
@@ -212,10 +212,10 @@ Version `2.7.0`
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>
 
-## Previous logo
+## Ancien logo
 
-The Obsidian logo used before v1.3.5 was adapted from:
+Le logo d'Obsidian utilisé avant la version v1.3.5 a été adapté à partir de :
 
 [Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
-By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
-License: Attribution 3.0 Unported (CC BY 3.0)
+Par [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
+Licence : Attribution 3.0 Unported (CC BY 3.0)

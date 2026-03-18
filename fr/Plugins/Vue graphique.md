@@ -5,90 +5,90 @@ description: >-
   the notes in your vault.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Graph view
 ---
-Graph view is a [[Plugins principaux|core plugin]] that lets you visualize the relationships between the notes in your vault.
+La vue graphique est un [[Modules principaux|module principal]] qui vous permet de visualiser les relations entre les notes de votre coffre.
 
-To open the Graph view, click **Open graph view** in the [[Ruban]].
+Pour ouvrir la vue graphique, cliquez sur **Ouvrir la vue graphique** dans le [[Ruban]].
 
-- Circles represent notes, or _nodes_.
-- Lines represent [[Liens internes]] between two nodes.
+- Les cercles représentent les notes, ou _nœuds_.
+- Les lignes représentent les [[Liens internes]] entre deux nœuds.
 
-The more nodes that reference a given node, the bigger it gets.
+Plus un nœud donné est référencé par d'autres nœuds, plus il devient gros.
 
-To interact with notes in the graph:
+Pour interagir avec les notes dans le graphique :
 
-- Hover over each circle to highlight that note's connections.
-- Click a note in the graph to open that note.
-- Right-click a note to open a context menu with the actions available for that note.
+- Survolez chaque cercle pour mettre en évidence les connexions de cette note.
+- Cliquez sur une note dans le graphique pour ouvrir cette note.
+- Faites un clic droit sur une note pour ouvrir un menu contextuel avec les actions disponibles pour cette note.
 
-To navigate around the graph:
+Pour naviguer dans le graphique :
 
-- Zoom in and out using the scroll wheel on your mouse, or using the `+` and `-` keys.
-- Move the graph around by dragging it with your mouse cursor, or using the arrow keys.
+- Effectuez un zoom avant et arrière à l'aide de la molette de votre souris, ou en utilisant les touches `+` et `-`.
+- Déplacez le graphique en le glissant avec le curseur de votre souris, ou en utilisant les touches fléchées.
 
-You can hold Shift while using the keyboard to speed up the movements.
+Vous pouvez maintenir Maj enfoncé tout en utilisant le clavier pour accélérer les mouvements.
 
-## Settings
+## Paramètres
 
-To open the graph settings, click the cog icon in the upper-right corner of the graph view.
+Pour ouvrir les paramètres du graphique, cliquez sur l'icône d'engrenage dans le coin supérieur droit de la vue graphique.
 
-Click **Restore default settings** in the upper-right corner of the settings box to reset any changes you make.
+Cliquez sur **Restaurer les paramètres par défaut** dans le coin supérieur droit de la boîte de paramètres pour réinitialiser toutes les modifications que vous avez effectuées.
 
-### Filters
+### Filtres
 
-This section controls what nodes to show in the graph.
+Cette section contrôle quels nœuds afficher dans le graphique.
 
-- **Search files** lets you filter notes based on a search term. To learn about how you can write more advanced search terms, refer to [[Recherche]].
-- **Tags** toggles whether to show tags in the graph.
-- **Attachments** toggles whether to show attachments in the graph.
-- **Existing files only** toggles whether to show notes that exists in your vault. Since a note doesn't need to exist to link to it, this can help limit your graph to notes that you actually have in your vault.
-- **Orphans** toggles whether to show notes without any links.
+- **Rechercher des fichiers** vous permet de filtrer les notes en fonction d'un terme de recherche. Pour savoir comment rédiger des termes de recherche plus avancés, consultez [[Rechercher]].
+- **Mots-clés** active ou désactive l'affichage des mots-clés dans le graphique.
+- **Pièces jointes** active ou désactive l'affichage des pièces jointes dans le graphique.
+- **Fichiers existants uniquement** active ou désactive l'affichage limité aux notes qui existent dans votre coffre. Puisqu'une note n'a pas besoin d'exister pour qu'on puisse y faire un lien, cela peut aider à limiter votre graphique aux notes que vous avez réellement dans votre coffre.
+- **Orphelins** active ou désactive l'affichage des notes sans aucun lien.
 
-> [!info] Excluded files
-> Files matching your [[Paramètres#Excluded files|Excluded files]] patterns will not appear in Graph view.
+> [!info] Fichiers exclus
+> Les fichiers correspondant à vos motifs de [[Paramètres#Fichiers exclus|fichiers exclus]] n'apparaîtront pas dans la vue graphique.
 
-### Groups
+### Groupes
 
-Create groups of notes to distinguish them from each other using color.
+Créez des groupes de notes pour les distinguer les unes des autres à l'aide de couleurs.
 
-To create a new group:
+Pour créer un nouveau groupe :
 
-1. Click **New group**.
-2. In the search box, type a search term for the notes you want to add to the group.
-3. Click the colored circle to give the group a color.
+1. Cliquez sur **Nouveau groupe**.
+2. Dans la boîte de recherche, tapez un terme de recherche pour les notes que vous souhaitez ajouter au groupe.
+3. Cliquez sur le cercle coloré pour attribuer une couleur au groupe.
 
-To learn about how you can write more advanced search terms, refer to [[Recherche]].
+Pour savoir comment rédiger des termes de recherche plus avancés, consultez [[Rechercher]].
 
-### Display
+### Affichage
 
-This section controls how to visualize nodes and links in the graph.
+Cette section contrôle comment visualiser les nœuds et les liens dans le graphique.
 
-- **Arrows** toggles whether to show the direction of each link.
-- **Text fade threshold** controls the text transparency for the name of each note.
-- **Node size** controls the size of the circle representing each note.
-- **Link thickness** controls the line width for each link.
-- **Animate** starts a [[#Start a time-lapse animation|time-lapse animation]].
+- **Flèches** active ou désactive l'affichage de la direction de chaque lien.
+- **Seuil d'effacement du texte** contrôle la transparence du texte pour le nom de chaque note.
+- **Taille des nœuds** contrôle la taille du cercle représentant chaque note.
+- **Épaisseur des liens** contrôle la largeur de la ligne pour chaque lien.
+- **Animer** démarre une [[#Démarrer une animation en accéléré|animation en accéléré]].
 
 ### Forces
 
-This section controls the forces that act on each node in the graph.
+Cette section contrôle les forces qui agissent sur chaque nœud dans le graphique.
 
-- **Center force** controls how compact the graph is. A higher value creates a more circular graph.
-- **Repel force** controls how much a node pushes other nodes away from it.
-- **Link force** controls the pull on each link. If the link was a rubber band, the link force controls how tight or loose the band is.
-- **Link distance** controls the length of the lines between each note.
+- **Force centrale** contrôle la compacité du graphique. Une valeur plus élevée crée un graphique plus circulaire.
+- **Force de répulsion** contrôle à quel point un nœud repousse les autres nœuds.
+- **Force de liaison** contrôle la traction sur chaque lien. Si le lien était un élastique, la force de liaison contrôle à quel point l'élastique est tendu ou lâche.
+- **Distance de liaison** contrôle la longueur des lignes entre chaque note.
 
-## Start a time-lapse animation
+## Démarrer une animation en accéléré
 
-Notes and attachments appear in chronological order based on their creation time.
+Les notes et les pièces jointes apparaissent dans l'ordre chronologique en fonction de leur date de création.
 
 ![[obsidian-graph-view.png#interface]]
 
-## Local Graph
+## Graphique local
 
-To open a local Graph view, use the **Open local graph** command. While the Graph view shows all notes in your vault, a local Graph view shows you notes connected to the active note.
+Pour ouvrir une vue graphique locale, utilisez la commande **Ouvrir le graphique local**. Alors que la vue graphique affiche toutes les notes de votre coffre, une vue graphique locale vous montre les notes connectées à la note active.
 
-The local Graph view can use all of the [[#Settings]] available to the global Graph view. Additionally, you can change the depth of the local graph. Each level of depth will show notes connected to the notes revealed at the previous depth. To control local Graph depth, use the slider at the top of the local Graph Filter Settings panel.
+La vue graphique locale peut utiliser tous les [[#Paramètres]] disponibles pour la vue graphique globale. De plus, vous pouvez modifier la profondeur du graphique local. Chaque niveau de profondeur affichera les notes connectées aux notes révélées au niveau de profondeur précédent. Pour contrôler la profondeur du graphique local, utilisez le curseur en haut du panneau des paramètres de filtre du graphique local.

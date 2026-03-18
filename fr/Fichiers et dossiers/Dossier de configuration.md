@@ -5,49 +5,48 @@ description: >-
   devices.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Configuration folder
 ---
+Le dossier de configuration d'Obsidian contient tous les fichiers de paramètres relatifs à votre [[Gérer les coffres|coffre]].
 
-Obsidian's configuration folder contains all the settings files pertaining to your [[Gérer les coffres|vault]].
+Par défaut, votre dossier de configuration est nommé `.obsidian` et placé dans le dossier du coffre. Lorsque vous utilisez un service de synchronisation, ou si vous souhaitez tester différents profils dans le même coffre, vous pouvez changer votre dossier de configuration.
 
-By default, your configuration folder is named `.obsidian` and placed in the vault folder. When using a syncing service, or if you wish to test different profiles in the same vault, you may want to change your config folder. 
+## Accéder à votre dossier de configuration
 
-## Access your configuration folder
+### Bureau
 
-### Desktop
-
-On desktop, the `.obsidian` folder is located in your vault folder. You can access it through your system file manager.
+Sur bureau, le dossier `.obsidian` se trouve dans votre dossier de coffre. Vous pouvez y accéder via le gestionnaire de fichiers de votre système.
 
 ### Mobile
 
-Accessing the configuration folder differs by platform:
+L'accès au dossier de configuration diffère selon la plateforme :
 
-**iOS and iPadOS**
+**iOS et iPadOS**
 
-There is no default way to access the `.obsidian` folder on iOS or iPadOS. To view and edit hidden files and folders, you'll need a third-party app such as:
+Il n'existe pas de moyen par défaut d'accéder au dossier `.obsidian` sur iOS ou iPadOS. Pour afficher et modifier les fichiers et dossiers cachés, vous aurez besoin d'une application tierce telle que :
 
-- **Taio** — Free app with basic features for viewing and editing folder and file names.
-- **Textastic** — Paid app with advanced file editing capabilities.
+- **Taio** — Application gratuite avec des fonctionnalités de base pour afficher et modifier les noms de dossiers et de fichiers.
+- **Textastic** — Application payante avec des capacités avancées d'édition de fichiers.
 
 **Android**
 
-To access the `.obsidian` folder on Android:
+Pour accéder au dossier `.obsidian` sur Android :
 
-1. Open your system file manager.
-2. Enable the "Show hidden files" toggle in the settings.
-3. Navigate to your vault folder. The `.obsidian` folder will appear at the top level.
+1. Ouvrez le gestionnaire de fichiers de votre système.
+2. Activez l'option « Afficher les fichiers cachés » dans les paramètres.
+3. Naviguez jusqu'au dossier de votre coffre. Le dossier `.obsidian` apparaîtra au niveau supérieur.
 
-> [!tip]- Alternative file managers
-> If your default file manager doesn't have a "Show hidden files" option, install a file manager app that includes this feature.
+> [!tip]- Gestionnaires de fichiers alternatifs
+> Si votre gestionnaire de fichiers par défaut ne dispose pas d'une option « Afficher les fichiers cachés », installez une application de gestion de fichiers incluant cette fonctionnalité.
 
-## Change your configuration folder
+## Changer votre dossier de configuration
 
-To set your config folder:
+Pour définir votre dossier de configuration :
 
-1. Open **[[Paramètres]] → Files and Links**.
-2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-awesome`.
-3. Relaunch Obsidian to have the changes take effect. 
+1. Ouvrez **[[Paramètres]] → Fichiers et liens**.
+2. Dans **Remplacer le dossier de configuration**, saisissez le nom de votre profil, en commençant par un point (`.`). Par exemple, `.obsidian-awesome`.
+3. Relancez Obsidian pour que les modifications prennent effet.
 
-> [!info] Any settings within your config folder will not transfer to your new config folder. However, your prior config folder will remain within your vault folder.
+> [!info] Les paramètres de votre dossier de configuration ne seront pas transférés vers votre nouveau dossier de configuration. Cependant, votre ancien dossier de configuration restera dans le dossier de votre coffre.

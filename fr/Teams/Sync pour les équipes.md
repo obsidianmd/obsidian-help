@@ -2,43 +2,43 @@
 permalink: teams/sync
 cssclasses:
   - soft-embed
-localized: null
+localized: '2026-03-18'
 aliases:
   - Syncing for teams
 ---
-Obsidian is designed to work both online and offline and give you total control over your team's data. To share data across your team, you will need to choose a sync solution.
+Obsidian est conçu pour fonctionner à la fois en ligne et hors ligne et vous donner un contrôle total sur les données de votre équipe. Pour partager des données au sein de votre équipe, vous devrez choisir une solution de synchronisation.
 
-## Syncing tools and services
+## Outils et services de synchronisation
 
-Obsidian offers an official service called [[Introduction à Obsidian Sync|Obsidian Sync]] which provides end-to-end encrypted syncing for small teams up to 20 users.
+Obsidian propose un service officiel appelé [[Introduction à Obsidian Sync|Obsidian Sync]] qui fournit une synchronisation avec chiffrement de bout en bout pour les petites équipes jusqu'à 20 utilisateurs.
 
-Because Obsidian stores your data in plain text `.md` files, there are numerous options available to [[Synchroniser vos notes entre appareils|sync data across devices]] and control access to your team's data. This can include version control systems such as Git, network attached storage systems, and many services such as Dropbox, Google Drive, and more.
+Comme Obsidian stocke vos données dans des fichiers `.md` en texte brut, de nombreuses options sont disponibles pour [[Synchroniser vos notes entre appareils|synchroniser les données entre appareils]] et contrôler l'accès aux données de votre équipe. Cela peut inclure des systèmes de contrôle de version comme Git, des systèmes de stockage en réseau (NAS), ainsi que de nombreux services tels que Dropbox, Google Drive, et bien d'autres.
 
-## Obsidian Sync for teams
+## Obsidian Sync pour les équipes
 
-With [[Introduction à Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team. 
+Avec [[Introduction à Obsidian Sync|Obsidian Sync]], vous pouvez collaborer sur un coffre partagé avec votre équipe.
 
-All collaborators **must have an active Sync subscription** to access a shared vault. Joining a shared vault does not count towards your [[Forfaits et limites de stockage#Plans|remote vault limit]]. Note that Obsidian Sync is not included with the [[Licence commerciale]] and must be purchased separately.
+Tous les collaborateurs **doivent disposer d'un abonnement Sync actif** pour accéder à un coffre partagé. Rejoindre un coffre partagé ne compte pas dans votre [[Forfaits et limites de stockage#Forfaits|limite de coffres distants]]. Notez qu'Obsidian Sync n'est pas inclus avec la [[Licence commerciale]] et doit être acheté séparément.
 
-If the remote vault is [[Obsidian Sync/Sécurité et confidentialité#Encryption|end-to-end encrypted]], collaborators must enter the encryption password when they first access the shared remote vault.
+Si le coffre distant est [[Obsidian Sync/Sécurité et confidentialité#Chiffrement|chiffré de bout en bout]], les collaborateurs doivent saisir le mot de passe de chiffrement lors de leur premier accès au coffre distant partagé.
 
 
-![[Collaborer sur un coffre partagé#Manage users|Collaboration]]
+![[Collaborer sur un coffre partagé#Gérer les utilisateurs|Collaboration]]
 
-![[Collaborer sur un coffre partagé#Collaborate with your team|Collaboration]]
+![[Collaborer sur un coffre partagé#Collaborer avec votre équipe|Collaboration]]
 
 ![[Collaborer sur un coffre partagé#Limitations|Collaboration]]
 
-## Security
+## Sécurité
 
-![[Obsidian Sync/Sécurité et confidentialité#Hosting|Security and privacy]]
-![[Obsidian Sync/Sécurité et confidentialité#What encryption do you use?|Security and privacy]]
-![[Obsidian Sync/Sécurité et confidentialité#Has Obsidian completed a third-party security audit?|Security and privacy]]
+![[Obsidian Sync/Sécurité et confidentialité#Hébergement|Sécurité et confidentialité]]
+![[Obsidian Sync/Sécurité et confidentialité#Quel chiffrement utilisez-vous ?|Sécurité et confidentialité]]
+![[Obsidian Sync/Sécurité et confidentialité#Obsidian a-t-il fait l'objet d'un audit de sécurité par un tiers ?|Sécurité et confidentialité]]
 
-## Frequently asked questions
+## Questions fréquentes
 
-**Can I purchase one Sync subscription and use it for my team?**
-If you are a team of one person, yes, you can use the Sync subscription for that team member. However, if you have multiple team members, each member will need their own Obsidian Sync subscription to access and share remote vaults.
+**Puis-je acheter un seul abonnement Sync et l'utiliser pour mon équipe ?**
+Si votre équipe se compose d'une seule personne, oui, vous pouvez utiliser l'abonnement Sync pour ce membre de l'équipe. Cependant, si vous avez plusieurs membres dans votre équipe, chaque membre aura besoin de son propre abonnement Obsidian Sync pour accéder aux coffres distants et les partager.
 
-**Do you have an on-premises Sync server?**
-Obsidian Sync does not have an on-premises solution at this time. Feel free to add your use case to [this feature request](https://forum.obsidian.md/t/obsidian-sync-self-hosted-server/20975) thread.
+**Disposez-vous d'un serveur Sync auto-hébergé ?**
+Obsidian Sync ne propose pas de solution auto-hébergée pour le moment. N'hésitez pas à ajouter votre cas d'usage dans [ce fil de demande de fonctionnalité](https://forum.obsidian.md/t/obsidian-sync-self-hosted-server/20975).

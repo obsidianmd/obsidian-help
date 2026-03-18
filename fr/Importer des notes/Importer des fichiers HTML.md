@@ -1,27 +1,27 @@
 ---
 permalink: import/html
-localized: null
+localized: '2026-03-18'
 aliases:
   - Import HTML files
 ---
-Obsidian lets you easily import individual HTML files and entire folders of HTML files using the official [[Importer|Importer plugin]]. This is useful if you want to save whole websites to [[Obsidian Flavored Markdown|Markdown]] format, or if you want to import data from a tool that exports to HTML. 
+Obsidian vous permet d'importer facilement des fichiers HTML individuels et des dossiers entiers de fichiers HTML à l'aide du [[Importer|plugin Importer]] officiel. Cela est utile si vous souhaitez enregistrer des sites web entiers au format [[Obsidian Flavored Markdown|Markdown]], ou si vous souhaitez importer des données depuis un outil qui exporte en HTML.
 
-If you are importing notes from a specific app, you may want to first review the list of apps supported by [[Importer|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.
+Si vous importez des notes depuis une application spécifique, vous pouvez d'abord consulter la liste des applications prises en charge par le [[Importer|plugin Importer]] pour vérifier s'il existe un convertisseur spécifique qui préservera mieux les données que vous migrez.
 
-## Import HTML data into Obsidian
+## Importer des données HTML dans Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Paramètres]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **HTML (.html).**
-6. Select the location of your HTML files or folders.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. Ouvrez les **[[Paramètres]]**.
+2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activez le module Importer.
+4. Ouvrez le module **Importer** en utilisant la palette de commandes ou l'icône du ruban.
+5. Sous **Format de fichier**, choisissez **HTML (.html).**
+6. Sélectionnez l'emplacement de vos fichiers ou dossiers HTML.
+7. Cliquez sur **Importer** et attendez que l'importation soit terminée.
+8. C'est terminé !
 
-### Import settings
+### Paramètres d'importation
 
-- **Attachment size limit**: Skip importing attachments larger than the specified size.
-- **Minimum image size**: Skip importing images smaller than the specified size in either dimension. Can be used to skip icons and logos.
+- **Limite de taille des pièces jointes** : ignore l'importation des pièces jointes dépassant la taille spécifiée.
+- **Taille minimale des images** : ignore l'importation des images dont l'une des dimensions est inférieure à la taille spécifiée. Peut être utilisé pour ignorer les icônes et les logos.

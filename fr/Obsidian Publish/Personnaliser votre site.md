@@ -2,35 +2,35 @@
 permalink: publish/customize
 description: Learn how to customize the appearance and style of your Obsidian Publish site.
 publish: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Customize your site
 ---
-This page explains how you can customize how your [[Introduction à Obsidian Publish|Obsidian Publish]] site looks and feels.
+Cette page explique comment vous pouvez personnaliser l'apparence et le comportement de votre site [[Introduction à Obsidian Publish|Obsidian Publish]].
 
-## Static assets
+## Ressources statiques
 
-You can customize your site by [[Publier votre contenu#Publish notes|publishing]] the following files to your site:
+Vous pouvez personnaliser votre site en [[Publier votre contenu#Publier des notes|publiant]] les fichiers suivants sur votre site :
 
-- `publish.css` to add custom CSS
-- `publish.js` to add custom JavaScript
-- `favicon-32x32.png` to set the favicon
+- `publish.css` pour ajouter du CSS personnalisé
+- `publish.js` pour ajouter du JavaScript personnalisé
+- `favicon-32x32.png` pour définir le favicon
 
-**Notes:**
+**Remarques :**
 
-- [CSS variables for Publish](https://docs.obsidian.md/Reference/CSS+variables/Publish/Publish) can be found on on our Documentation site.
-- Since Obsidian doesn't support CSS or JavaScript files, you need to use another application to create and edit them.
-- Both `publish.css` and `publish.js` must be located in the root directory (`/`) of your vault.
-- By default, `publish.css` and `publish.js` don't appear in the file explorer, but you can still publish them from the **Publish changes** dialog.
-- To use custom JavaScript with `publish.js`, you need to [[Domaines personnalisés]].
+- Les [variables CSS pour Publish](https://docs.obsidian.md/Reference/CSS+variables/Publish/Publish) sont disponibles sur notre site de documentation.
+- Comme Obsidian ne prend pas en charge les fichiers CSS ou JavaScript, vous devez utiliser une autre application pour les créer et les modifier.
+- Les fichiers `publish.css` et `publish.js` doivent être situés dans le répertoire racine (`/`) de votre coffre.
+- Par défaut, `publish.css` et `publish.js` n'apparaissent pas dans l'explorateur de fichiers, mais vous pouvez tout de même les publier depuis la boîte de dialogue **Publier les modifications**.
+- Pour utiliser du JavaScript personnalisé avec `publish.js`, vous devez configurer un [[Domaines personnalisés|domaine personnalisé]].
 
-For favicons, Obsidian Publish supports the following naming conventions, where `32` represents the icon's dimensions in pixels:
+Pour les favicons, Obsidian Publish prend en charge les conventions de nommage suivantes, où `32` représente les dimensions de l'icône en pixels :
 
 - `favicon-32.png`
 - `favicon-32x32.png`
 - `favicon.ico`
 
-We recommend that you provide one or more of the following dimensions:
+Nous vous recommandons de fournir une ou plusieurs des dimensions suivantes :
 
 - `favicon-32x32.png`
 - `favicon-128x128.png`
@@ -40,80 +40,80 @@ We recommend that you provide one or more of the following dimensions:
 - `favicon-192x192.png`
 - `favicon-196x196.png`
 
-You have flexibility in placing favicons anywhere within the vault, as long as they are published to your site.
+Vous avez la liberté de placer les favicons n'importe où dans le coffre, tant qu'ils sont publiés sur votre site.
 
-## Use a community theme
+## Utiliser un thème communautaire
 
-To use one of the community themes for your site:
+Pour utiliser l'un des thèmes communautaires pour votre site :
 
-1. Open your vault in the default file explorer for your OS.
-2. Go to the vault settings folder (default: `.obsidian`).
-3. Open the `themes` folder.
-4. Copy the CSS file for the theme you want to use for your site.
-5. Paste the file into the root folder of your vault.
-6. Rename the CSS file to `publish.css`.
-7. [[Publier votre contenu#Publish notes|Publish]] `publish.css`.
+1. Ouvrez votre coffre dans l'explorateur de fichiers par défaut de votre système d'exploitation.
+2. Accédez au dossier de paramètres du coffre (par défaut : `.obsidian`).
+3. Ouvrez le dossier `themes`.
+4. Copiez le fichier CSS du thème que vous souhaitez utiliser pour votre site.
+5. Collez le fichier dans le dossier racine de votre coffre.
+6. Renommez le fichier CSS en `publish.css`.
+7. [[Publier votre contenu#Publier des notes|Publiez]] `publish.css`.
 
-**Notes:**
+**Remarques :**
 
-- If the style doesn’t update within a few minutes, try refreshing your browser cache.
-- You can switch between light and dark mode in the [[Gérer les sites#View site options|site options]].
-- Many community themes use **Style Settings** for custom styling, but these settings do not work on Obsidian Publish.
+- Si le style ne se met pas à jour dans les minutes qui suivent, essayez de vider le cache de votre navigateur.
+- Vous pouvez basculer entre le mode clair et le mode sombre dans les [[Gérer les sites#Options d'affichage du site|options du site]].
+- De nombreux thèmes communautaires utilisent **Style Settings** pour la personnalisation du style, mais ces paramètres ne fonctionnent pas sur Obsidian Publish.
 
-> [!tip] Developing themes
-> Can't find the theme for you? Learn how to [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme) yourself.
+> [!tip] Développer des thèmes
+> Vous ne trouvez pas le thème qu'il vous faut ? Apprenez à [créer un thème Publish](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme) vous-même.
 
-## Enable UI features
+## Activer des fonctionnalités d'interface
 
-You can toggle several UI features for your site, such as the graph view or a table of contents.
+Vous pouvez activer ou désactiver plusieurs fonctionnalités d'interface pour votre site, comme la vue graphique ou une table des matières.
 
-Browse the available UI features under the **Reading experience** and **Components** sections in the [[Gérer les sites#View site options|site options]]
+Parcourez les fonctionnalités d'interface disponibles dans les sections **Expérience de lecture** et **Composants** des [[Gérer les sites#Options d'affichage du site|options du site]].
 
-### Customize navigation
+### Personnaliser la navigation
 
-Within Obsidian Publish, you have the ability to customize the navigation order and display of files and folders within the Publish [[Explorateur de fichiers]]. Navigation items are listed in published order by default. Notes not published will not appear within this pane.
+Dans Obsidian Publish, vous avez la possibilité de personnaliser l'ordre de navigation et l'affichage des fichiers et dossiers dans l'[[Explorateur de fichiers]] de Publish. Les éléments de navigation sont listés dans l'ordre de publication par défaut. Les notes non publiées n'apparaîtront pas dans ce panneau.
 
-#### Accessing Customize navigation options
+#### Accéder aux options de personnalisation de la navigation
 
-1. In [[Ruban]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Palette de commandes]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, select **Change site options** ( ![[lucide-cog.svg#icon]] ).
-3. Under **Components settings**, next to **Customize navigation**, select the **manage** button. 
+1. Dans le [[Ruban]], sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
+2. Dans la boîte de dialogue **Publier les modifications**, sélectionnez **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+3. Sous **Paramètres des composants**, à côté de **Personnaliser la navigation**, sélectionnez le bouton **gérer**.
 
-A new pop-up window titled **Navigation** will appear over your **Change site options** window.
+Une nouvelle fenêtre pop-up intitulée **Navigation** apparaîtra au-dessus de votre fenêtre **Modifier les options du site**.
 
-#### Adjust navigation items
+#### Ajuster les éléments de navigation
 
-In the section labeled **Navigation preview**, you can adjust the display order of your published content.
+Dans la section intitulée **Aperçu de la navigation**, vous pouvez ajuster l'ordre d'affichage de votre contenu publié.
 
-1. Select the folder or note you want to adjust.
-2. Drag the note or folder up or down until it is your desired place.
-3. In the lower right of the **Navigation** window, select **Done**. 
+1. Sélectionnez le dossier ou la note que vous souhaitez ajuster.
+2. Glissez la note ou le dossier vers le haut ou le bas jusqu'à l'emplacement souhaité.
+3. Dans le coin inférieur droit de la fenêtre **Navigation**, sélectionnez **Terminé**.
 
-Publish will send your navigation changes to your site. 
+Publish enverra vos modifications de navigation à votre site.
 
-#### Hide and unhide navigation items
+#### Masquer et afficher des éléments de navigation
 
-If there are notes or folders you have published, but you do not want visible within your Navigation, you can opt to hide those items instead. 
+S'il y a des notes ou des dossiers que vous avez publiés mais que vous ne souhaitez pas rendre visibles dans votre navigation, vous pouvez choisir de masquer ces éléments.
 
-1. Select the folder or note you want to adjust.
-2. Right click and select **Hide in navigation**. The item should now disappear from the **Navigation preview**.
-3. In the lower right of the **Navigation** window, select **Done**. 
+1. Sélectionnez le dossier ou la note que vous souhaitez ajuster.
+2. Faites un clic droit et sélectionnez **Masquer dans la navigation**. L'élément devrait maintenant disparaître de l'**Aperçu de la navigation**.
+3. Dans le coin inférieur droit de la fenêtre **Navigation**, sélectionnez **Terminé**.
 
-Publish will send your navigation changes to your site. 
+Publish enverra vos modifications de navigation à votre site.
 
-> [!tip] You can **Show hidden** files by selecting the checkbox to the right of the **Navigation Preview** title
+> [!tip] Vous pouvez **Afficher les éléments masqués** en cochant la case à droite du titre **Aperçu de la navigation**.
 
 ## FAQ
 
-**Can I move files from one folder to another within the Navigation?**
+**Puis-je déplacer des fichiers d'un dossier à un autre dans la navigation ?**
 
-No. The file navigation structure for notes within folders needs to be maintained. You can adjust note order within folders (including the vault root), and folder order within other folders. 
+Non. La structure de navigation des fichiers pour les notes au sein des dossiers doit être maintenue. Vous pouvez ajuster l'ordre des notes au sein des dossiers (y compris la racine du coffre), et l'ordre des dossiers au sein d'autres dossiers.
 
-**Can I edit the order of multiple notes and folders before selecting Done?**
+**Puis-je modifier l'ordre de plusieurs notes et dossiers avant de sélectionner Terminé ?**
 
-Yes.
+Oui.
 
-**How do I revert these changes?**
+**Comment puis-je annuler ces modifications ?**
 
-- **Display order**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Navigation item display order**. This will restore your navigation items to alphabetical order.
-- **Hidden status**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Hide pages or folders from navigation**. This will restore your hidden navigation items to a visible state.
+- **Ordre d'affichage** : Sélectionnez l'icône **Restaurer les valeurs par défaut** (flèche de rotation dans le sens antihoraire) à côté de **Ordre d'affichage des éléments de navigation**. Cela restaurera vos éléments de navigation dans l'ordre alphabétique.
+- **État masqué** : Sélectionnez l'icône **Restaurer les valeurs par défaut** (flèche de rotation dans le sens antihoraire) à côté de **Masquer des pages ou dossiers de la navigation**. Cela rendra à nouveau visibles vos éléments de navigation masqués.

@@ -1,385 +1,385 @@
 ---
 permalink: web-clipper/filters
-localized: null
+localized: '2026-03-18'
 aliases:
   - Filters
 ---
-Filters allow you to modify [[variables]] in [[Obsidian Web Clipper/Modèles|Web Clipper templates]]. Filters are applied to variables using the syntax `{{variable|filter}}`.
+Les filtres vous permettent de modifier les [[variables]] dans les [[Obsidian Web Clipper/Modèles|modèles de Web Clipper]]. Les filtres sont appliqués aux variables en utilisant la syntaxe `{{variable|filtre}}`.
 
-- Filters work for any kind of [[Variables|variable]] including `prompt`, `meta`, `selector`, and `schema` variables.
-- Filters can be chained, e.g. `{{variable|filter1|filter2}}`, and are applied in the order they are added.
+- Les filtres fonctionnent pour tout type de [[Variables|variable]] incluant les variables `prompt`, `meta`, `selector` et `schema`.
+- Les filtres peuvent être enchaînés, par ex. `{{variable|filtre1|filtre2}}`, et sont appliqués dans l'ordre où ils sont ajoutés.
 
 ## Dates
 
-Convert and modify dates.
+Convertir et modifier les dates.
 
 ### `date`
 
-Converts a date to the specified format, [see reference](https://day.js.org/docs/en/display/format).
+Convertit une date au format spécifié, [voir la référence](https://day.js.org/docs/en/display/format).
 
-- `{{date|date:"YYYY-MM-DD"}}` converts the current date to "YYYY-MM-DD".
-- Use `date:("outputFormat", "inputFormat")` to specify the input format, e.g. `"12/01/2024"|date:("YYYY-MM-DD", "MM/DD/YYYY")` parses "12/01/2024" and returns `"2024-12-01"`.
+- `{{date|date:"YYYY-MM-DD"}}` convertit la date actuelle en "YYYY-MM-DD".
+- Utilisez `date:("formatSortie", "formatEntrée")` pour spécifier le format d'entrée, par ex. `"12/01/2024"|date:("YYYY-MM-DD", "MM/DD/YYYY")` analyse "12/01/2024" et renvoie `"2024-12-01"`.
 
-### `date_modify` 
+### `date_modify`
 
-Modifies a date by adding or subtracting a specified amount of time, [see reference](https://day.js.org/docs/en/manipulate/add).
+Modifie une date en ajoutant ou soustrayant une quantité de temps spécifiée, [voir la référence](https://day.js.org/docs/en/manipulate/add).
 
-- `"2024-12-01"|date_modify:"+1 year"` returns `"2025-12-01"`
-- `"2024-12-01"|date_modify:"- 2 months"` returns `"2024-10-01"`
+- `"2024-12-01"|date_modify:"+1 year"` renvoie `"2025-12-01"`
+- `"2024-12-01"|date_modify:"- 2 months"` renvoie `"2024-10-01"`
 
 ### `duration`
 
-Converts ISO 8601 duration strings or seconds into formatted time strings. Uses tokens: `HH` (padded hours), `H` (hours), `mm` (padded minutes), `m` (minutes), `ss` (padded seconds), `s` (seconds).
+Convertit les chaînes de durée ISO 8601 ou les secondes en chaînes de temps formatées. Utilise les jetons : `HH` (heures avec zéro), `H` (heures), `mm` (minutes avec zéro), `m` (minutes), `ss` (secondes avec zéro), `s` (secondes).
 
-- `"PT1H30M"|duration:"HH:mm:ss"` returns `"01:30:00"`.
-- `"3665"|duration:"H:mm:ss"` returns `"1:01:05"`.
-- Setting `duration` without any parameters uses `HH:mm:ss` over 1 hour, `mm:ss` under 1 hour.
-- Supports both ISO 8601 duration strings (e.g., `PT6702S`, `PT1H30M`) and plain seconds.
+- `"PT1H30M"|duration:"HH:mm:ss"` renvoie `"01:30:00"`.
+- `"3665"|duration:"H:mm:ss"` renvoie `"1:01:05"`.
+- Définir `duration` sans paramètre utilise `HH:mm:ss` au-delà d'1 heure, `mm:ss` en dessous d'1 heure.
+- Prend en charge les chaînes de durée ISO 8601 (par ex., `PT6702S`, `PT1H30M`) et les secondes simples.
 
-## Text conversion and capitalization
+## Conversion de texte et capitalisation
 
-Convert text strings from one format to another.
+Convertir les chaînes de texte d'un format à un autre.
 
 ### `camel`
 
-Converts text to `camelCase`.
+Convertit le texte en `camelCase`.
 
 ### `capitalize`
 
-Capitalizes the first character of the value and converts the rest to lowercase, e.g. `"hELLO wORLD"|capitalize` returns `"Hello world"`.
+Met en majuscule le premier caractère de la valeur et convertit le reste en minuscules, par ex. `"hELLO wORLD"|capitalize` renvoie `"Hello world"`.
 
 ### `decode_uri`
 
-Decodes a URI-encoded string, e.g. `"%E4%BD%A0%E5%A5%BD"|decode_uri` returns `"你好"`.
+Décode une chaîne encodée en URI, par ex. `"%E4%BD%A0%E5%A5%BD"|decode_uri` renvoie `"你好"`.
 
-- `"hello%20world"|decode_uri` returns `"hello world"`.
-- Returns the original string if decoding fails (e.g. malformed URI sequences).
+- `"hello%20world"|decode_uri` renvoie `"hello world"`.
+- Renvoie la chaîne originale si le décodage échoue (par ex. séquences URI malformées).
 
 ### `kebab`
 
-Converts text to `kebab-case`.
+Convertit le texte en `kebab-case`.
 
 ### `lower`
 
-Converts text to `lowercase`.
+Convertit le texte en `minuscules`.
 
 ### `pascal`
 
-Converts text to `PascalCase`.
+Convertit le texte en `PascalCase`.
 
 ### `replace`
 
-Replaces occurrences of specified text:
+Remplace les occurrences du texte spécifié :
 
-- Simple replacement: `"hello!"|replace:",":""` removes all commas.
-- Multiple replacements: `"hello world"|replace:("e":"a","o":"0")` returns `"hall0 w0rld"`.
-- Replacements are applied in the order they are specified.
-- To remove specified text, use `""` as the replacement value.
-- Special characters including `: | { } ( ) ' "` should be escaped with a backslash when used in the search term, e.g. `\:` to search for a literal colon.
+- Remplacement simple : `"hello!"|replace:",":""` supprime toutes les virgules.
+- Remplacements multiples : `"hello world"|replace:("e":"a","o":"0")` renvoie `"hall0 w0rld"`.
+- Les remplacements sont appliqués dans l'ordre où ils sont spécifiés.
+- Pour supprimer le texte spécifié, utilisez `""` comme valeur de remplacement.
+- Les caractères spéciaux incluant `: | { } ( ) ' "` doivent être échappés avec une barre oblique inverse lorsqu'ils sont utilisés dans le terme de recherche, par ex. `\:` pour rechercher un deux-points littéral.
 
-Regex is supported using JavaScript regex syntax:
+Les expressions régulières sont prises en charge via la syntaxe regex JavaScript :
 
-- Replace all vowels: `"hello world"|replace:"/[aeiou]/g":"*"` → `"h*ll* w*rld".`
-- Case-insensitive: `"HELLO world"|replace:"/hello/i":"hi"` → `"hi world".`
-- Multiple regex: `"hello world"|replace:("/[aeiou]/g":"*","/\s+/":"-")` → `"h*ll*-w*rld"`.
-- Available flags: `g` (global), `i` (case-insensitive), `m` (multiline), `s` (dotAll), `u` (unicode), `y` (sticky).
+- Remplacer toutes les voyelles : `"hello world"|replace:"/[aeiou]/g":"*"` → `"h*ll* w*rld".`
+- Insensible à la casse : `"HELLO world"|replace:"/hello/i":"hi"` → `"hi world".`
+- Expressions régulières multiples : `"hello world"|replace:("/[aeiou]/g":"*","/\s+/":"-")` → `"h*ll*-w*rld"`.
+- Drapeaux disponibles : `g` (global), `i` (insensible à la casse), `m` (multiligne), `s` (dotAll), `u` (unicode), `y` (sticky).
 
 ### `safe_name`
 
-Converts text to a safe file name.
+Convertit le texte en un nom de fichier sûr.
 
-- By default, `safe_name` applies the most conservative sanitization rules.
-- OS-specific rules can be applied with `safe_name:os` where `os` can be `windows`, `mac`, or `linux` to only apply the rules for that operating system.
+- Par défaut, `safe_name` applique les règles de nettoyage les plus conservatrices.
+- Des règles spécifiques au système d'exploitation peuvent être appliquées avec `safe_name:os` où `os` peut être `windows`, `mac` ou `linux` pour n'appliquer que les règles de ce système d'exploitation.
 
 ### `snake`
 
-Converts text to `snake_case`.
+Convertit le texte en `snake_case`.
 
 ### `title`
 
-Converts text to `Title Case`, e.g. `"hello world"|title` returns `"Hello World"`.
+Convertit le texte en `Casse De Titre`, par ex. `"hello world"|title` renvoie `"Hello World"`.
 
 ### `trim`
 
-Removes white space from both ends of a string.
+Supprime les espaces blancs aux deux extrémités d'une chaîne.
 
-- `"  hello world  "|trim` returns `"hello world"`.
+- `"  hello world  "|trim` renvoie `"hello world"`.
 
 ### `uncamel`
 
-Converts camelCase or PascalCase to space-separated words, which you can further format with other filters like `title` or `capitalize`.
+Convertit le camelCase ou PascalCase en mots séparés par des espaces, que vous pouvez ensuite formater avec d'autres filtres comme `title` ou `capitalize`.
 
-- `"camelCase"|uncamel` returns `"camel case"`.
-- `"PascalCase"|uncamel` returns `"pascal case"`.
+- `"camelCase"|uncamel` renvoie `"camel case"`.
+- `"PascalCase"|uncamel` renvoie `"pascal case"`.
 
 ### `upper`
 
-Converts a value to uppercase, e.g. `"hello world"|upper` returns `"HELLO WORLD"`.
+Convertit une valeur en majuscules, par ex. `"hello world"|upper` renvoie `"HELLO WORLD"`.
 
-## Text formatting
+## Mise en forme du texte
 
-Apply [[Syntaxe de mise en forme de base]] and [[Syntaxe de mise en forme avancée]] to text.
+Appliquer la [[Syntaxe de mise en forme de base]] et la [[Syntaxe de mise en forme avancée]] au texte.
 
-### `blockquote` 
+### `blockquote`
 
-Adds a Markdown quote prefix (`> `) to each line of the input.
+Ajoute un préfixe de citation Markdown (`> `) à chaque ligne de l'entrée.
 
 ### `callout`
 
-Creates a [[Callouts|callout]] with optional parameters: `{{variable|callout:("type", "title", foldState)}}`
+Crée un [[Callouts|encadré]] avec des paramètres optionnels : `{{variable|callout:("type", "titre", étatPli)}}`
 
-- `type` is the callout type, and defaults to "info"
-- `title` is the callout title, and defaults to empty
-- `foldState` is a boolean to set the fold state (true for folded, false for unfolded, null for not foldable)
+- `type` est le type d'encadré, par défaut "info"
+- `titre` est le titre de l'encadré, par défaut vide
+- `étatPli` est un booléen pour définir l'état de pliage (true pour plié, false pour déplié, null pour non pliable)
 
 ### `footnote`
 
-Converts an array or object into a list of Markdown footnotes.
+Convertit un tableau ou un objet en une liste de notes de bas de page Markdown.
 
-- For arrays: `["first item","second item"]|footnote` returns: `[^1]: first item` etc.
-- For objects: `{"First Note": "Content 1", "Second Note": "Content 2"}|footnote` returns: `[^first-note]: Content 1` etc.
+- Pour les tableaux : `["first item","second item"]|footnote` renvoie : `[^1]: first item` etc.
+- Pour les objets : `{"First Note": "Content 1", "Second Note": "Content 2"}|footnote` renvoie : `[^first-note]: Content 1` etc.
 
 ### `fragment_link`
 
-Converts strings and arrays into [text fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments) links. Defaults to "link" for the link text.
+Convertit les chaînes et les tableaux en liens de [fragment de texte](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments). Par défaut, utilise "link" comme texte du lien.
 
-- `highlights|fragment_link` returns `Highlight content [link](text-fragment-url)`
-- `highlights|fragment_link:"custom title"` returns `Highlight content [custom title](text-fragment-url)`
+- `highlights|fragment_link` renvoie `Contenu surligné [link](text-fragment-url)`
+- `highlights|fragment_link:"custom title"` renvoie `Contenu surligné [custom title](text-fragment-url)`
 
-### `image` 
+### `image`
 
-Converts strings, arrays, or objects into Markdown image syntax.
+Convertit les chaînes, tableaux ou objets en syntaxe d'image Markdown.
 
-- For strings: `"image.jpg"|image:"alt text"` returns `![alt text](image.jpg)`.
-- For arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` returns an array of Markdown image strings with the same alt text for all images.
-- For objects: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returns Markdown image strings with alt text from the object keys.
+- Pour les chaînes : `"image.jpg"|image:"texte alt"` renvoie `![texte alt](image.jpg)`.
+- Pour les tableaux : `["image1.jpg","image2.jpg"]|image:"texte alt"` renvoie un tableau de chaînes d'images Markdown avec le même texte alt pour toutes les images.
+- Pour les objets : `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` renvoie des chaînes d'images Markdown avec le texte alt provenant des clés de l'objet.
 
 ### `link`
 
-Converts strings, arrays, or objects into Markdown link syntax (not to be confused with [[Filtres#`wikilink`|wikilink]]).
+Convertit les chaînes, tableaux ou objets en syntaxe de lien Markdown (à ne pas confondre avec [[Filtres#`wikilink`|wikilink]]).
 
-- For strings: `"url"|link:"author"` returns `[author](url)`.
-- For arrays: `["url1","url2"]|link:"author"` returns an array of Markdown links with the same text for all links.
-- For objects: `{"url1": "Author 1", "url2": "Author 2"}|link` returns Markdown links with the text that matches the object keys.
+- Pour les chaînes : `"url"|link:"auteur"` renvoie `[auteur](url)`.
+- Pour les tableaux : `["url1","url2"]|link:"auteur"` renvoie un tableau de liens Markdown avec le même texte pour tous les liens.
+- Pour les objets : `{"url1": "Auteur 1", "url2": "Auteur 2"}|link` renvoie des liens Markdown avec le texte correspondant aux clés de l'objet.
 
 ### `list`
 
-Converts an array to a Markdown list.
+Convertit un tableau en liste Markdown.
 
-- `list` to convert to a bullet list.
-- `list:task` to convert to a task list.
-- `list:numbered` to convert to a numbered list.
-- `list:numbered-task` to convert to a task list with numbers.
+- `list` pour convertir en liste à puces.
+- `list:task` pour convertir en liste de contrôle.
+- `list:numbered` pour convertir en liste numérotée.
+- `list:numbered-task` pour convertir en liste de contrôle numérotée.
 
 ### `table`
 
-Converts an array or array of objects into a [[Syntaxe de mise en forme avancée#Tables|Markdown table]]:
+Convertit un tableau ou un tableau d'objets en [[Syntaxe de mise en forme avancée#Tableaux|tableau Markdown]] :
 
-- For an array of objects, it uses the object keys as headers.
-- For an array of arrays, it creates a table with each nested array as a row.
-- For a simple array, it creates a single-column table with "Value" as the header.
-- Custom column headers can be specified using: `table:("Column 1", "Column 2", "Column 3")`. When used with a simple array, it automatically breaks the data into rows based on the number of columns specified.
+- Pour un tableau d'objets, il utilise les clés de l'objet comme en-têtes.
+- Pour un tableau de tableaux, il crée un tableau avec chaque tableau imbriqué comme ligne.
+- Pour un tableau simple, il crée un tableau à une seule colonne avec "Value" comme en-tête.
+- Des en-têtes de colonnes personnalisés peuvent être spécifiés avec : `table:("Colonne 1", "Colonne 2", "Colonne 3")`. Lorsqu'il est utilisé avec un tableau simple, il répartit automatiquement les données en lignes en fonction du nombre de colonnes spécifiées.
 
 ### `wikilink`
 
-Converts strings, arrays, or objects into Obsidian [[Lier des notes|wikilink]] syntax.
+Convertit les chaînes, tableaux ou objets en syntaxe de [[Lier des notes|lien wiki]] Obsidian.
 
-- For strings: `"page"|wikilink` returns `[[page]]`.
-- For strings with alias: `"page"|wikilink:"alias"` returns `[[page|alias]]`.
-- For arrays: `["page1","page2"]|wikilink` returns an array of wikilinks without aliases.
-- For arrays with alias: `["page1","page2"]|wikilink:"alias"` returns an array of wikilinks with the same alias for all links.
-- For objects: `{"page1": "alias1", "page2": "alias2"}|wikilink` returns wikilinks with the keys as page names and values as aliases.
+- Pour les chaînes : `"page"|wikilink` renvoie `[[page]]`.
+- Pour les chaînes avec alias : `"page"|wikilink:"alias"` renvoie `[[page|alias]]`.
+- Pour les tableaux : `["page1","page2"]|wikilink` renvoie un tableau de liens wiki sans alias.
+- Pour les tableaux avec alias : `["page1","page2"]|wikilink:"alias"` renvoie un tableau de liens wiki avec le même alias pour tous les liens.
+- Pour les objets : `{"page1": "alias1", "page2": "alias2"}|wikilink` renvoie des liens wiki avec les clés comme noms de pages et les valeurs comme alias.
 
-## Numbers
+## Nombres
 
 ### `calc`
 
-Performs basic arithmetic operations on numbers.
+Effectue des opérations arithmétiques de base sur les nombres.
 
-- Supports operators: `+`, `-`, `*`, `/`, `**` (or `^`) for exponentiation.
-- Example: `5|calc:"+10"` returns `15`.
-- Example: `2|calc:"**3"` returns `8` (2 cubed).
-- Returns the original string if the input is not a number.
+- Opérateurs pris en charge : `+`, `-`, `*`, `/`, `**` (ou `^`) pour l'exponentiation.
+- Exemple : `5|calc:"+10"` renvoie `15`.
+- Exemple : `2|calc:"**3"` renvoie `8` (2 au cube).
+- Renvoie la chaîne originale si l'entrée n'est pas un nombre.
 
 ### `length`
 
-Returns the length of strings, arrays, or number of keys in objects.
+Renvoie la longueur des chaînes, tableaux ou le nombre de clés dans les objets.
 
-- For strings: `"hello"|length` returns `5`.
-- For arrays: `["a","b","c"]|length` returns `3`.
-- For objects: `{"a":1,"b":2}|length` returns `2`.
+- Pour les chaînes : `"hello"|length` renvoie `5`.
+- Pour les tableaux : `["a","b","c"]|length` renvoie `3`.
+- Pour les objets : `{"a":1,"b":2}|length` renvoie `2`.
 
 ### `round`
 
-Rounds a number to the nearest integer or to a specified number of decimal places.
+Arrondit un nombre à l'entier le plus proche ou à un nombre spécifié de décimales.
 
-- Without parameters: `3.7|round` returns `4`.
-- With decimal places specified: `3.14159|round:2` returns `3.14`.
+- Sans paramètres : `3.7|round` renvoie `4`.
+- Avec un nombre de décimales spécifié : `3.14159|round:2` renvoie `3.14`.
 
-## HTML processing
+## Traitement HTML
 
-Process HTML content and convert HTML to Markdown. Note that your input [[Variables|variable]] must contain HTML content, e.g. using `{{fullHtml}}`, `{{contentHtml}}` or a `{{selectorHtml:}}` variable.
+Traiter le contenu HTML et convertir le HTML en Markdown. Notez que votre [[Variables|variable]] d'entrée doit contenir du contenu HTML, par ex. en utilisant `{{fullHtml}}`, `{{contentHtml}}` ou une variable `{{selectorHtml:}}`.
 
-### `markdown` 
+### `markdown`
 
-Converts a string to an [[Obsidian Flavored Markdown]] formatted string.
+Convertit une chaîne en une chaîne formatée en [[Obsidian Flavored Markdown]].
 
-- Useful when combined with variables that return HTML such as `{{contentHtml}}`, `{{fullHtml}}`, and selector variables like `{{selectorHtml:cssSelector}}`.
+- Utile lorsqu'il est combiné avec des variables qui renvoient du HTML telles que `{{contentHtml}}`, `{{fullHtml}}` et des variables de sélecteur comme `{{selectorHtml:sélecteurCss}}`.
 
-### `remove_attr` 
+### `remove_attr`
 
-Removes only the specified HTML attributes from tags.
+Supprime uniquement les attributs HTML spécifiés des balises.
 
-- Example: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returns `<div id="example">Content</div>`.
-- Multiple attributes: `{{fullHtml|remove_attr:("class,style,id")}}`
+- Exemple : `"<div class="test" id="example">Contenu</div>"|remove_attr:"class"` renvoie `<div id="example">Contenu</div>`.
+- Attributs multiples : `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
 
-Removes the specified HTML elements and their content from a string.
+Supprime les éléments HTML spécifiés et leur contenu d'une chaîne.
 
-- Supports tag name, class, or id, e.g. `{{fullHtml|remove_html:("img,.class-name,#element-id")}}`
-- To remove only HTML tags or attributes without removing the content use the `strip_tags` or `strip_attr` filters.
+- Prend en charge le nom de balise, la classe ou l'id, par ex. `{{fullHtml|remove_html:("img,.class-name,#element-id")}}`
+- Pour supprimer uniquement les balises ou attributs HTML sans supprimer le contenu, utilisez les filtres `strip_tags` ou `strip_attr`.
 
-### `remove_tags` 
+### `remove_tags`
 
-Removes only the specified HTML tags. Keeps the content of the tags.
+Supprime uniquement les balises HTML spécifiées. Conserve le contenu des balises.
 
-- Example: `"<p>Hello <b>world</b>!</p>"|remove_tags:"b"` returns `"<p>Hello world!</p>"`.
-- Multiple tags: `{{fullHtml|remove_tags:("a,em,strong")}}`
+- Exemple : `"<p>Hello <b>world</b>!</p>"|remove_tags:"b"` renvoie `"<p>Hello world!</p>"`.
+- Balises multiples : `{{fullHtml|remove_tags:("a,em,strong")}}`
 
 ### `replace_tags`
 
-Replaces HTML tags, maintaining the content and attributes of the tag.
+Remplace les balises HTML, en conservant le contenu et les attributs de la balise.
 
-- `{{fullHtml|replace_tags:"strong":"h2"}}` replaces all `<strong>` tags with `<h2>`.
+- `{{fullHtml|replace_tags:"strong":"h2"}}` remplace toutes les balises `<strong>` par `<h2>`.
 
 ### `strip_attr`
 
-Removes **all** HTML attributes from a string.
+Supprime **tous** les attributs HTML d'une chaîne.
 
-- Use `strip_attr:("class, id")` to keep specific attributes.
-- Example: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returns `<div id="example">Content</div>`.
+- Utilisez `strip_attr:("class, id")` pour conserver des attributs spécifiques.
+- Exemple : `"<div class="test" id="example">Contenu</div>"|strip_attr:("class")` renvoie `<div id="example">Contenu</div>`.
 
 ### `strip_md`
 
-Removes **all** Markdown formatting and returns a plain text string, e.g. turning `**text**` into `text`.
+Supprime **toute** la mise en forme Markdown et renvoie une chaîne en texte brut, par ex. transforme `**texte**` en `texte`.
 
-- Turns formatted text into unformatted plain text, including bold, italic, highlights, headers, code, blockquotes, tables, task lists, and wikilinks.
-- Entirely removes tables, footnotes, images, and HTML elements.
+- Transforme le texte formaté en texte brut non formaté, incluant le gras, l'italique, le surlignage, les entêtes, le code, les blocs de citation, les tableaux, les listes de contrôle et les liens wiki.
+- Supprime entièrement les tableaux, les notes de bas de page, les images et les éléments HTML.
 
 ### `strip_tags`
 
-Removes **all** HTML tags from a string. Content within the tag is preserved.
+Supprime **toutes** les balises HTML d'une chaîne. Le contenu à l'intérieur de la balise est conservé.
 
-- Use `strip_tags:("p,strong,em")` to keep specific tags.
-- Example: `"<p>Hello <b>world</b>!</p>"|strip_tags:("b")` returns `Hello <b>world</b>!`.
+- Utilisez `strip_tags:("p,strong,em")` pour conserver des balises spécifiques.
+- Exemple : `"<p>Hello <b>world</b>!</p>"|strip_tags:("b")` renvoie `Hello <b>world</b>!`.
 
-## Arrays and objects
+## Tableaux et objets
 
-Process arrays and objects.
+Traiter les tableaux et les objets.
 
-### `first` 
+### `first`
 
-Returns the first element of an array as a string.
+Renvoie le premier élément d'un tableau sous forme de chaîne.
 
-- `["a","b","c"]|first` returns `"a"`.
-- If the input is not an array, it returns the input unchanged.
+- `["a","b","c"]|first` renvoie `"a"`.
+- Si l'entrée n'est pas un tableau, elle est renvoyée telle quelle.
 
 ### `join`
 
-Combines elements of an array into a string.
+Combine les éléments d'un tableau en une chaîne.
 
-- `["a","b","c"]|join` returns `"a,b,c"`.
-- A custom separator can be specified: `["a","b","c"]|join:" "` returns `"a b c"`. Use `join:"\n"` to separate elements with a line break.
-- It can be useful after `split` or `slice`: `"a,b,c,d"|split:","|slice:1,3|join:" "` returns `"b c"`.
+- `["a","b","c"]|join` renvoie `"a,b,c"`.
+- Un séparateur personnalisé peut être spécifié : `["a","b","c"]|join:" "` renvoie `"a b c"`. Utilisez `join:"\n"` pour séparer les éléments par un saut de ligne.
+- Il peut être utile après `split` ou `slice` : `"a,b,c,d"|split:","|slice:1,3|join:" "` renvoie `"b c"`.
 
 ### `last`
 
-Returns the last element of an array as a string.
+Renvoie le dernier élément d'un tableau sous forme de chaîne.
 
-- `["a","b","c"]|last` returns `"c"`.
-- If the input is not an array, it returns the input unchanged.
+- `["a","b","c"]|last` renvoie `"c"`.
+- Si l'entrée n'est pas un tableau, elle est renvoyée telle quelle.
 
 ### `map`
 
-Applies a transformation to each element of an array using the syntax `map:item => item.property` or `map:item => item.nested.property` for nested properties.
+Applique une transformation à chaque élément d'un tableau en utilisant la syntaxe `map:item => item.propriété` ou `map:item => item.propriété.imbriquée` pour les propriétés imbriquées.
 
-- `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => item.gem` returns `["obsidian", "amethyst"]`.
-- Use parentheses for object literals and complex expressions: `map:item => ({key: value})`, e.g.: `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => ({name: item.gem, color: item.color})`  returns `[{name: "obsidian", color: "black"}, {name: "amethyst", color: "purple"}]`.
+- `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => item.gem` renvoie `["obsidian", "amethyst"]`.
+- Utilisez des parenthèses pour les littéraux d'objet et les expressions complexes : `map:item => ({clé: valeur})`, par ex. : `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => ({name: item.gem, color: item.color})` renvoie `[{name: "obsidian", color: "black"}, {name: "amethyst", color: "purple"}]`.
 
-String literals are also supported, e.g. `["rock", "pop"]|map:item => "genres/${item}"` returns `["genres/rock", "genres/pop"]`.
+Les littéraux de chaîne sont également pris en charge, par ex. `["rock", "pop"]|map:item => "genres/${item}"` renvoie `["genres/rock", "genres/pop"]`.
 
-Combine `map` with the `template` filter, e.g. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`. For string literal maps, use `${str}` in the template, e.g. `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"`.
+Combinez `map` avec le filtre `template`, par ex. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`. Pour les littéraux de chaîne mappés, utilisez `${str}` dans le modèle, par ex. `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"`.
 
-Note: Built-in filters cannot be used inside `map`. This means that, for example, trimming each value of an array cannot be done with `map`.
+Remarque : Les filtres intégrés ne peuvent pas être utilisés à l'intérieur de `map`. Cela signifie que, par exemple, le nettoyage de chaque valeur d'un tableau ne peut pas être fait avec `map`.
 
 ### `merge`
 
-Adds new values to an array.
+Ajoute de nouvelles valeurs à un tableau.
 
-- For arrays: `["a","b"]|merge:("c","d")` returns `["a","b","c","d"]`.
-- Single value: `["a","b"]|merge:"c"` returns `["a","b","c"]`.
-- If input is not an array, it creates a new array: `"a"|merge:("b","c")` returns `["a","b","c"]`.
-- Values can be quoted: `["a"]|merge:('b,"c,d",e')` returns `["a","b","c,d","e"]`.
+- Pour les tableaux : `["a","b"]|merge:("c","d")` renvoie `["a","b","c","d"]`.
+- Valeur unique : `["a","b"]|merge:"c"` renvoie `["a","b","c"]`.
+- Si l'entrée n'est pas un tableau, il crée un nouveau tableau : `"a"|merge:("b","c")` renvoie `["a","b","c"]`.
+- Les valeurs peuvent être entre guillemets : `["a"]|merge:('b,"c,d",e')` renvoie `["a","b","c,d","e"]`.
 
 ### `nth`
 
-Keeps nth items in an array using CSS-style nth-child syntax and group patterns. All positions are 1-based (first item is position 1).
+Conserve les éléments en n-ième position dans un tableau en utilisant la syntaxe de style CSS nth-child et les motifs de groupe. Toutes les positions sont basées sur 1 (le premier élément est en position 1).
 
-- `array|nth:3` keeps only the 3rd element.
-- `array|nth:3n` keeps every 3rd element (3, 6, 9, etc.).
-- `array|nth:n+3` keeps the 3rd and all following elements.
+- `array|nth:3` ne conserve que le 3e élément.
+- `array|nth:3n` conserve chaque 3e élément (3, 6, 9, etc.).
+- `array|nth:n+3` conserve le 3e élément et tous les suivants.
 
-Group pattern syntax for repeating structures:
+Syntaxe des motifs de groupe pour les structures répétitives :
 
-- `array|nth:1,2,3:5` keeps positions 1, 2, 3 from each group of 5 items. Example: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` returns `[1,2,3,6,7,8]`.
+- `array|nth:1,2,3:5` conserve les positions 1, 2, 3 de chaque groupe de 5 éléments. Exemple : `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` renvoie `[1,2,3,6,7,8]`.
 
 ### `object`
 
-Manipulates object data:
+Manipule les données d'objet :
 
-- `object:array` converts an object to an array of key-value pairs.
-- `object:keys` returns an array of the object's keys.
-- `object:values` returns an array of the object's values.
-- Example: `{"a":1,"b":2}|object:array` returns `[["a",1],["b",2]]`.
+- `object:array` convertit un objet en un tableau de paires clé-valeur.
+- `object:keys` renvoie un tableau des clés de l'objet.
+- `object:values` renvoie un tableau des valeurs de l'objet.
+- Exemple : `{"a":1,"b":2}|object:array` renvoie `[["a",1],["b",2]]`.
 
 ### `slice`
 
-Extracts a portion of a string or array.
+Extrait une portion d'une chaîne ou d'un tableau.
 
-- For strings: `"hello"|slice:1,4` returns `"ell"`.
-- For arrays: `["a","b","c","d"]|slice:1,3` returns `["b","c"]`.
-- If only one parameter is provided, it slices from that index to the end: `"hello"|slice:2` returns `"llo"`.
-- Negative indices count from the end: `"hello"|slice:-3` returns `"llo"`.
-- The second parameter is exclusive: `"hello"|slice:1,4` includes characters at indices 1, 2, and 3.
-- Using a negative second parameter excludes elements from the end: `"hello"|slice:0,-2` returns `"hel"`.
+- Pour les chaînes : `"hello"|slice:1,4` renvoie `"ell"`.
+- Pour les tableaux : `["a","b","c","d"]|slice:1,3` renvoie `["b","c"]`.
+- Si un seul paramètre est fourni, il extrait depuis cet index jusqu'à la fin : `"hello"|slice:2` renvoie `"llo"`.
+- Les indices négatifs comptent depuis la fin : `"hello"|slice:-3` renvoie `"llo"`.
+- Le second paramètre est exclusif : `"hello"|slice:1,4` inclut les caractères aux indices 1, 2 et 3.
+- L'utilisation d'un second paramètre négatif exclut les éléments depuis la fin : `"hello"|slice:0,-2` renvoie `"hel"`.
 
 ### `split`
 
-Divides a string into an array of substrings.
+Divise une chaîne en un tableau de sous-chaînes.
 
-- `"a,b,c"|split:","` returns `["a","b","c"]`.
-- `"hello world"|split:" "` returns `["hello","world"]`.
-- If no separator is provided, it splits on every character: `"hello"|split` returns `["h","e","l","l","o"]`.
-- Regular expressions can be used as separators: `"a1b2c3"|split:[0-9]` returns `["a","b","c"]`.
+- `"a,b,c"|split:","` renvoie `["a","b","c"]`.
+- `"hello world"|split:" "` renvoie `["hello","world"]`.
+- Si aucun séparateur n'est fourni, il divise sur chaque caractère : `"hello"|split` renvoie `["h","e","l","l","o"]`.
+- Les expressions régulières peuvent être utilisées comme séparateurs : `"a1b2c3"|split:[0-9]` renvoie `["a","b","c"]`.
 
 ### `template`
 
-Applies a template string to an object or array of objects, using the syntax `object|template:"Template with ${variable}"`.
+Applique une chaîne de modèle à un objet ou un tableau d'objets, en utilisant la syntaxe `objet|template:"Modèle avec ${variable}"`.
 
-- Access nested properties: `{"gem":{"name":"Obsidian"}}|template:"${gem.name}"` returns `"Obsidian"`.
-- For objects: `{"gem":"obsidian","hardness":5}|template:"${gem} has a hardness of ${hardness}"` returns `"obsidian has a hardness of 5"`.
-- For arrays: `[{"gem":"obsidian","hardness":5},{"gem":"amethyst","hardness":7}]|template:"- ${gem} has a hardness of ${hardness}\n"` returns a formatted list.
+- Accès aux propriétés imbriquées : `{"gem":{"name":"Obsidian"}}|template:"${gem.name}"` renvoie `"Obsidian"`.
+- Pour les objets : `{"gem":"obsidian","hardness":5}|template:"${gem} has a hardness of ${hardness}"` renvoie `"obsidian has a hardness of 5"`.
+- Pour les tableaux : `[{"gem":"obsidian","hardness":5},{"gem":"amethyst","hardness":7}]|template:"- ${gem} has a hardness of ${hardness}\n"` renvoie une liste formatée.
 
-Works with string literals from `map` using `${str}`:
+Fonctionne avec les littéraux de chaîne issus de `map` en utilisant `${str}` :
 
-- Example: `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"` returns a formatted list.
+- Exemple : `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"` renvoie une liste formatée.
 
 ### `unique`
 
-Removes duplicate values from arrays and objects.
+Supprime les valeurs en double des tableaux et des objets.
 
-- For arrays of primitives: `[1,2,2,3,3]|unique` returns `[1,2,3]`.
-- For arrays of objects: `[{"a":1},{"b":2},{"a":1}]|unique` returns `[{"a":1},{"b":2}]`.
-- For objects it removes properties with duplicate values, keeping the last occurrence's key.
-- For strings it returns the input unchanged.
+- Pour les tableaux de primitives : `[1,2,2,3,3]|unique` renvoie `[1,2,3]`.
+- Pour les tableaux d'objets : `[{"a":1},{"b":2},{"a":1}]|unique` renvoie `[{"a":1},{"b":2}]`.
+- Pour les objets, il supprime les propriétés ayant des valeurs en double, en conservant la clé de la dernière occurrence.
+- Pour les chaînes, il renvoie l'entrée telle quelle.

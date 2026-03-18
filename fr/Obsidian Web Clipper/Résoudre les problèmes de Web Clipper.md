@@ -1,47 +1,47 @@
 ---
 permalink: web-clipper/troubleshoot
-localized: null
+localized: '2026-03-18'
 aliases:
   - Troubleshoot Web Clipper
 ---
-If you encounter issues with [[Introduction à Obsidian Web Clipper|Web Clipper]] you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repo](https://github.com/obsidianmd/obsidian-clipper).
+Si vous rencontrez des problèmes avec [[Introduction à Obsidian Web Clipper|Web Clipper]], vous pouvez obtenir de l'aide via le [canal Discord officiel](https://discord.com/channels/686053708261228577/1285652864089198672). Vous pouvez également signaler des bugs sur le [dépôt GitHub](https://github.com/obsidianmd/obsidian-clipper).
 
-## General
+## Général
 
-### Some content is missing
+### Du contenu est manquant
 
-By default, Web Clipper tries to intelligently capture content from the page. However it may not be successful in doing so across all websites.
+Par défaut, Web Clipper essaie de capturer intelligemment le contenu de la page. Cependant, il peut ne pas y parvenir sur tous les sites web.
 
-Web Clipper uses [Defuddle](https://github.com/kepano/defuddle) to capture only the main content of the page. This excludes header, footer, and other elements, but sometimes it can be overly conservative and remove content that you want to keep. You can [report bugs](https://github.com/kepano/defuddle) to Defuddle.
+Web Clipper utilise [Defuddle](https://github.com/kepano/defuddle) pour capturer uniquement le contenu principal de la page. Cela exclut l'en-tête, le pied de page et d'autres éléments, mais il peut parfois être trop conservateur et supprimer du contenu que vous souhaitez conserver. Vous pouvez [signaler des bugs](https://github.com/kepano/defuddle) à Defuddle.
 
-To bypass Defuddle in Web Clipper use the following methods:
+Pour contourner Defuddle dans Web Clipper, utilisez les méthodes suivantes :
 
-- Select text, or use `Cmd/Ctrl+A` to select all text.
-- [[Surligner des pages web|Highlight content]] to choose exactly what you want to capture.
-- Use a [[Obsidian Web Clipper/Modèles|custom template]] for the site.
+- Sélectionnez du texte, ou utilisez `Cmd/Ctrl+A` pour sélectionner tout le texte.
+- [[Surligner des pages web|Surlignez du contenu]] pour choisir exactement ce que vous souhaitez capturer.
+- Utilisez un [[Obsidian Web Clipper/Modèles|modèle personnalisé]] pour le site.
 
-### No content appears in Obsidian
+### Aucun contenu n'apparaît dans Obsidian
 
-If you don't see any content in Obsidian when you click **Add to Obsidian**:
+Si vous ne voyez aucun contenu dans Obsidian lorsque vous cliquez sur **Ajouter à Obsidian** :
 
-- Check for errors in the Obsidian [[Aide et support#Capturer les journaux de la console|developer console]].
-- Check that your vault name in Web Clipper settings exactly matches your *vault name* in Obsidian *not the vault path*.
-- Check that the folder name is correctly formatted.
+- Vérifiez les erreurs dans la [[Aide et support#Capturer les journaux de la console|console développeur]] d'Obsidian.
+- Vérifiez que le nom de votre coffre dans les paramètres de Web Clipper correspond exactement au *nom du coffre* dans Obsidian, *et non au chemin du coffre*.
+- Vérifiez que le nom du dossier est correctement formaté.
 
 ## Linux
 
-#### Obsidian does not open
+#### Obsidian ne s'ouvre pas
 
-- Make sure the [[Obsidian URI]] protocol [[Obsidian URI#Register Obsidian URI|is registered]].
-- If you are using Firefox you may need to [register it the browser settings](https://kb.mozillazine.org/Register_protocol).
+- Assurez-vous que le protocole [[Obsidian URI]] [[Obsidian URI#Enregistrer le protocole URI Obsidian|est enregistré]].
+- Si vous utilisez Firefox, vous devrez peut-être [l'enregistrer dans les paramètres du navigateur](https://kb.mozillazine.org/Register_protocol).
 
-#### Obsidian opens but only the file name is saved
+#### Obsidian s'ouvre mais seul le nom du fichier est enregistré
 
-It is likely that Obsidian cannot access your clipboard. Clipboard access is necessary to pass data from your browser to Obsidian. Your configuration can affect how apps are sandboxed, and clipboard permissions.
+Il est probable qu'Obsidian ne puisse pas accéder à votre presse-papiers. L'accès au presse-papiers est nécessaire pour transmettre les données de votre navigateur à Obsidian. Votre configuration peut affecter la façon dont les applications sont isolées, ainsi que les permissions du presse-papiers.
 
-If you use Wayland, make sure that Obsidian has the permissions to read the clipboard when the app is not focused. This preference may be in your tiling window manager, e.g. Hyprland or Sway.
+Si vous utilisez Wayland, assurez-vous qu'Obsidian a les permissions de lire le presse-papiers lorsque l'application n'est pas au premier plan. Cette préférence peut se trouver dans votre gestionnaire de fenêtres en mosaïque, par exemple Hyprland ou Sway.
 
-If you use Hyprland:
+Si vous utilisez Hyprland :
 
 ```ini
 # ~/.config/hypr/hyprland.conf
@@ -50,33 +50,33 @@ misc {
 }
 ```
 
-If you use Sway:
+Si vous utilisez Sway :
 
 ```ini
 # ~/.config/sway/config
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- If you use Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download).
-- If you use KDE go to to **System Settings** → **Window Management** → **Window Rules** and allow Obsidian to take focus, [[web-clipper-kde.png|see screenshot]].
-- As a fallback, try switching to **Legacy mode** in **Web Clipper Settings** → **General**. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.
+- Si vous utilisez Flatpak, essayez une [version d'Obsidian officiellement supportée](https://obsidian.md/download).
+- Si vous utilisez KDE, allez dans **Paramètres système** → **Gestion des fenêtres** → **Règles de fenêtres** et autorisez Obsidian à prendre le focus, [[web-clipper-kde.png|voir la capture d'écran]].
+- En dernier recours, essayez de passer en **Mode legacy** dans **Paramètres de Web Clipper** → **Général**. Cela contournera le presse-papiers et enregistrera le contenu directement via URI. Notez que cela limitera le nombre de caractères pouvant être capturés selon votre navigateur et votre distribution Linux.
 
-## iOS and iPadOS
+## iOS et iPadOS
 
-To enable the Web Clipper extension for Safari:
+Pour activer l'extension Web Clipper pour Safari :
 
-1. Go to Safari, tap the leftmost button in the browser URL bar, it looks like a rectangle with lines beneath it.
-2. Tap **Manage Extensions**.
-3. Enable **Obsidian Web Clipper** in the Extensions list.
-4. Exit the menu.
-5. To use the extension **tap the puzzle piece icon** in the URL bar.
+1. Allez dans Safari, appuyez sur le bouton le plus à gauche dans la barre d'URL du navigateur, qui ressemble à un rectangle avec des lignes en dessous.
+2. Appuyez sur **Gérer les extensions**.
+3. Activez **Obsidian Web Clipper** dans la liste des extensions.
+4. Quittez le menu.
+5. Pour utiliser l'extension, **appuyez sur l'icône de pièce de puzzle** dans la barre d'URL.
 
-To allow Web Clipper to run on all websites:
+Pour autoriser Web Clipper à fonctionner sur tous les sites web :
 
-1. Go to iOS **[[Paramètres]]** →  **Apps** →  **Safari** →  **Extensions**.
-2. Under **Permissions** allow it to run on all websites.
+1. Allez dans **[[Paramètres]]** iOS → **Apps** → **Safari** → **Extensions**.
+2. Sous **Permissions**, autorisez-le à fonctionner sur tous les sites web.
 
-To allow Obsidian to always receive Web Clipper content:
+Pour autoriser Obsidian à toujours recevoir le contenu de Web Clipper :
 
-1. Go to iOS **[[Paramètres]]** →  **Apps** →  **Obsidian**.
-2. Set **Paste from other apps** to **Allow**.
+1. Allez dans **[[Paramètres]]** iOS → **Apps** → **Obsidian**.
+2. Définissez **Coller depuis d'autres apps** sur **Autoriser**.

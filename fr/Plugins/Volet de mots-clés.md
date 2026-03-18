@@ -3,18 +3,18 @@ permalink: plugins/tags
 aliases:
   - Plugins/Modules principaux/Volet des Mots-clés
   - Tags view
+localized: '2026-03-18'
 ---
-Le volet des [[mots-clés]] (ou tags) est un [[Modules principaux|module principal]] qui vous permet d'avoir une vue d'ensemble de tous les tags que vous utilisez dans votre coffre. Il se trouve par défaut dans le volet rétractable de droite, mais vous pouvez le mettre ailleurs selon votre convenance. 
+Le volet de mots-clés est un [[Modules principaux|module principal]] qui liste tous les mots-clés dans votre coffre et le nombre de notes pour chaque mot-clé.
 
-Vous pouvez agir sur l'affichage des [[mots-clés]] de plusieurs façon différentes qui sont similaires à ce qu'il est possible de faire avec l'[[explorateur de fichiers]] :
-- **Modifier l'ordre de tri :** 
-	- Ordre alphabétique de A à Z et inversement ;
-	- Fréquence d'utilisation croissante et décroissante.
-- **Afficher les mots-clés imbriqués :** cliquer sur ce bouton va rendre possible l'ouverture ou la fermeture des arborescences de [[mots-clés|tags]] de façon individuelle ou la désactiver. 
-- **Tout développer / replier** : ouverture ou fermeture de toutes les arborescences en même temps. Pour avoir la possibilité de les ouvrir individuellement avec la fonctionnalité précédente, il faut d'abord que celle-ci soit en position "tout replier".
-- **Filtre de recherche** : permet de faire une recherche textuelle parmi les [[mots-clés|tags]] pour n'afficher que ceux correspondant à certains mots.
+Cliquez sur un mot-clé pour le rechercher à l'aide de la [[Rechercher|Recherche]].
 
-En cliquant sur un [[mots-clés|mot-clé]], qu'il soit dans cette liste ou ailleurs comme dans une note, cela génère automatiquement une [[recherche]] ne prenant en compte que des [[mots-clés]] dans l'affichage des résultats.  Notez que vous pouvez faire cela à la main avec la syntaxe `tags:`. 
+Pour ajouter ou retirer un mot-clé du terme de recherche, cliquez sur le mot-clé en maintenant `Ctrl` (ou `Cmd` sur macOS).
 
-> [!NOTE] Utiliser les mots-clés avec les propriétés
-> Pour rendre votre utilisation des mots-clés plus efficace, consultez la page sur les [[propriétés]]. 
+Le module propose les options suivantes :
+
+- **Modifier l'ordre de tri** détermine s'il faut trier les mots-clés par **Nom du mot-clé** ou par **Fréquence**.
+- **Afficher les mots-clés imbriqués** permet d'afficher les mots-clés imbriqués sous forme d'arbre ou de liste plate.
+- **Tout déplier** et **Tout plier** déplient et plient la hiérarchie des mots-clés imbriqués.
+
+Vous pouvez choisir de déplier ou plier chaque niveau imbriqué séparément en cliquant sur la flèche à côté de celui-ci.

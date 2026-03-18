@@ -5,80 +5,79 @@ description: >-
   groups.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Sidebar
 ---
+Obsidian possède deux barres latérales : une barre latérale gauche et une barre latérale droite. Les barres latérales contiennent des onglets créés par des modules, tels que [[Rétroliens]], [[Liens sortants]] et l'[[Explorateur de fichiers]]. Sur ordinateur, vous pouvez également glisser des notes dans la barre latérale pour les garder visibles à côté de votre éditeur principal.
 
-Obsidian has two sidebars: a left sidebar and a right sidebar. Sidebars hold tabs created by plugins, such as [[Liens retour]], [[Liens sortants]], and the [[Explorateur de fichiers]]. On desktop, you can also drag notes into the sidebar to keep them visible alongside your main editor. 
+Sur ordinateur et sur les grandes tablettes, la barre latérale gauche inclut le [[Ruban]]. Sur mobile et sur les tablettes plus petites, les barres latérales sont [[#Ouvrir les barres latérales masquées|réduites par défaut]].
 
-On desktop and larger tablets, the left sidebar includes the [[Ruban]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
+## Ouvrir les barres latérales masquées
 
-## Open hidden sidebars
+### Ordinateur et grandes tablettes
 
-### Desktop and larger tablets
+Sur ordinateur et sur les grandes tablettes, ouvrez une barre latérale réduite en sélectionnant l'icône d'expansion gauche ( ![[obsidian-icon-side-bar-left.svg#icon]] ) ou d'expansion droite ( ![[obsidian-icon-side-bar-right.svg#icon]] ).
 
-On desktop and larger tablets, open a collapsed sidebar by selecting the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) or right expand ( ![[obsidian-icon-side-bar-right.svg#icon]] ) icon.
+### Mobile et petites tablettes
 
-### Mobile and smaller tablets
+Sur mobile et sur les tablettes plus petites, vous pouvez ouvrir les barres latérales masquées de la manière suivante :
 
-On mobile and smaller tablets, you can open hidden sidebars in the following ways:
+- Balayer vers la gauche ou la droite
+- Sélectionner l'icône d'expansion gauche ( ![[obsidian-icon-side-bar-left.svg#icon]] ) (barre latérale gauche uniquement)
+- Utiliser les options *Basculer gauche* ou *Basculer droite* de la [[Palette de commandes]].
 
-- Swipe left or right
-- Select the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) icon (left sidebar only)
-- Use the *Toggle left* or *Toggle right* [[Palette de commandes]] options. 
+## Onglets
 
-## Tabs
+Par défaut, les modules créent de nouveaux onglets au lieu de nouveaux [[#Groupes d'onglets]].
 
-By default, plugins create new tabs instead of new [[#Tab groups]].
+Vous pouvez basculer entre les onglets en sélectionnant l'icône. Une infobulle apparaît pour vous aider à identifier les onglets.
 
-You can switch between tabs by selecting on the icon. A tooltip appears to help you identify tabs.
+Dans chaque panneau, vous ne pouvez voir qu'un seul onglet à la fois. Certaines actions affichent automatiquement un onglet. Par exemple, lorsque vous sélectionnez un mot-clé, son onglet s'ouvre.
 
-In each pane, you can only see one tab at any given moment. Some actions automatically bring a tab into view. For example, when you select a tag, its tab opens.
+### Ouvrir ou rouvrir des onglets
 
-### Open or reopen tabs
+Il existe plusieurs façons d'ajouter des onglets à vos barres latérales :
 
-There are several ways to add tabs to your sidebars:
+- **Activer un module** : De nombreux modules créent automatiquement des onglets dans la barre latérale lorsqu'ils sont activés. Allez dans **Paramètres → Modules complémentaires** (ou **Modules principaux**) et activez le module correspondant à l'onglet souhaité.
+- **Exécuter une commande** : Utilisez la [[Palette de commandes]] pour rechercher des commandes qui ouvrent des onglets spécifiques. Par exemple, recherchez « Rétroliens » ou « Liens sortants » pour ouvrir ces onglets.
+- **Glisser une note** (ordinateur uniquement) : Sur ordinateur, vous pouvez glisser une note depuis l'[[Explorateur de fichiers]] ou depuis un onglet de l'éditeur vers la barre latérale pour l'y ouvrir.
 
-- **Enable a plugin**: Many plugins automatically create sidebar tabs when enabled. Go to **Settings → Community plugins** (or **Core plugins**) and enable the plugin for the tab you want.
-- **Run a command**: Use the [[Palette de commandes]] to search for commands that open specific tabs. For example, search for "Backlinks" or "Outgoing links" to open those tabs.
-- **Drag a note** (desktop only): On desktop, you can drag a note from the [[Explorateur de fichiers]] or from an editor tab into the sidebar to open it there.
+Si vous avez fermé un onglet et souhaitez le récupérer, ces mêmes méthodes permettront de le rouvrir.
 
-If you've closed a tab and want to get it back, these same methods will reopen it.
+### Fermer des onglets
 
-### Close tabs
+Certains onglets peuvent être fermés via le menu contextuel, d'autres non. Si vous ne souhaitez pas voir un onglet qui ne peut pas être fermé, envisagez de désactiver le module correspondant ou de réduire la barre latérale en sélectionnant l'icône de flèche.
 
-Some tabs can be closed via the right-click menu, while others cannot. If you don't want to see a tab that can't be closed, consider disabling the relevant plugin or collapsing the sidebar by selecting the arrow icon.
+### Réorganiser les onglets
 
-### Rearrange tabs
+Vous pouvez glisser-déposer les icônes d'onglets pour les réorganiser au sein d'un groupe d'onglets.
 
-You can drag and drop tab icons to rearrange them within a group of tabs.
+Sur ordinateur, vous pouvez également glisser des onglets depuis la barre latérale vers la zone de l'éditeur principal pour les y ouvrir.
 
-On desktop, you can also drag tabs from the sidebar into the main editor area to open them there.
+### Épingler des onglets
 
-### Pin tabs
+Vous pouvez épingler un onglet dans la barre latérale pour contrôler comment il se met à jour lorsque vous interagissez avec d'autres parties de l'application.
 
-You can pin a tab in the sidebar to control how it updates when you interact with other parts of the app.
+Pour épingler ou désépingler un onglet dans la barre latérale, glissez l'onglet vers ou depuis la barre latérale.
 
-To pin or unpin a tab to the sidebar, drag the tab over to or from the sidebar. 
+Le comportement d'un onglet épinglé dans la barre latérale dépend de son type de contenu :
 
-The behavior of a pinned tab within the sidebar depends on its content type:
+- **Notes et Bases** : Un onglet de note ou de base épinglé reste en place. Les nouvelles notes s'ouvrent dans des onglets séparés dans l'éditeur principal au lieu de remplacer l'onglet épinglé.
+- **Panneaux** (comme [[Rétroliens]] ou [[Liens sortants]]) : Un panneau épinglé reste focalisé sur la dernière note sélectionnée. Sélectionner une note différente ne met pas à jour le panneau épinglé.
 
-- **Notes and Bases**: A pinned note or base tab stays in place. New notes open as separate tabs in the main editor instead of replacing the pinned tab.
-- **Panes** (like [[Liens retour]] or [[Liens sortants]]): A pinned pane stays focused on the last selected note. Selecting a different note does not update the pinned pane.
+Pour des informations sur l'épinglage des onglets dans l'éditeur principal, consultez [[Onglets#Épingler un onglet|Épingler un onglet]].
 
-For information about pinning tabs in the main editor, see [[Onglets#Pin a tab|Pin a tab]].
+## Groupes d'onglets
 
-## Tab groups
+Vous pouvez avoir plusieurs groupes d'onglets dans la barre latérale.
 
-You can have multiple tab groups in the sidebar.
+### Créer des groupes d'onglets
 
-### Create tab groups
+Pour créer un nouveau groupe d'onglets, glissez l'icône d'un onglet au-dessus ou en dessous d'un groupe d'onglets existant. La zone en surbrillance indique où le nouveau groupe d'onglets sera créé.
 
-To create a new tab group, drag the icon of a tab above or below a current tab group. The highlighted area indicates where the new tab group will be created.
+### Fermer des groupes d'onglets
 
-### Close tab groups
+Pour fermer un groupe d'onglets, vous pouvez [[#Fermer des onglets|fermer tous les onglets qu'il contient]], ou glisser tous les onglets du groupe par leurs icônes et les déposer dans des groupes d'onglets existants.
 
-To close a tab group, you can [[#Close tabs|close all tabs in it]], or drag all tabs in the group by their icons and drop them into existing tab groups.
-
-When only the tab area of a tab group is highlighted, the tab being dragged will merge with other tabs in that group.
+Lorsque seule la zone d'onglets d'un groupe est en surbrillance, l'onglet glissé sera fusionné avec les autres onglets de ce groupe.

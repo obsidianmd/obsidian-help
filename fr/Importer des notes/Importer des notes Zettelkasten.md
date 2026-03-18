@@ -1,24 +1,24 @@
 ---
 permalink: import/zettelkasten
-localized: null
+localized: '2026-03-18'
 aliases:
   - Import Zettelkasten notes
 ---
-If you've been using the Zettelkasten method to name and link your notes, you may need to convert links from `[[UID]]` to `[[UID My note title]]`.
+Si vous avez utilisé la méthode Zettelkasten pour nommer et lier vos notes, vous devrez peut-être convertir les liens de `[[UID]]` à `[[UID Titre de ma note]]`.
 
-For example, if you have a note with the name `202301011230 My note title` and link to it from another note using only the UID, `[[202301011230]]`. Since Obsidian uses the full name of the note to resolve internal links, links like these will break.
+Par exemple, si vous avez une note nommée `202301011230 Titre de ma note` et que vous y faites référence depuis une autre note en utilisant uniquement l'UID, `[[202301011230]]`. Comme Obsidian utilise le nom complet de la note pour résoudre les liens internes, des liens comme ceux-ci ne fonctionneront plus.
 
-To update all `[[UID]]` links in your vault to use the full name of the note instead, use the [[Convertisseur de format]].
+Pour mettre à jour tous les liens `[[UID]]` de votre coffre afin d'utiliser le nom complet de la note, utilisez le module [[Importateur depuis des fichiers Markdown]].
 
-1. Open **[[Paramètres]]**.
-2. Under **Core plugins**, enable **Format converter** and close the Settings window.
-3. In the ribbon, on the left side of the app window, select **Open format convert** ( ![[lucide-binary.svg#icon]] ).
-4. Enable **Zettelkasten link fixer**.
-5. Select **Start conversion**. This will convert all the notes in your entire vault.
+1. Ouvrez les **[[Paramètres]]**.
+2. Sous **Modules principaux**, activez **Importateur depuis des fichiers Markdown** et fermez la fenêtre des Paramètres.
+3. Dans le ruban, sur le côté gauche de la fenêtre de l'application, sélectionnez **Ouvrir le convertisseur de format** ( ![[lucide-binary.svg#icon]] ).
+4. Activez **Correcteur de liens Zettelkasten**.
+5. Sélectionnez **Démarrer la conversion**. Cela convertira toutes les notes de l'intégralité de votre coffre.
 
-> [!tip] Zettelkasten link beautifier
-> [[Convertisseur de format]] can also beautify your links by removing the UID from the display name. For example, `[[UID]]` converts to `[[UID My note title|My note title]]`.
+> [!tip] Embellisseur de liens Zettelkasten
+> Le module [[Importateur depuis des fichiers Markdown]] peut également embellir vos liens en supprimant l'UID du nom affiché. Par exemple, `[[UID]]` est converti en `[[UID Titre de ma note|Titre de ma note]]`.
 >
-> To beautify your Zettelkasten links, enable **Zettelkasten link beautifier** in the format converter window.
+> Pour embellir vos liens Zettelkasten, activez **Embellisseur de liens Zettelkasten** dans la fenêtre du convertisseur de format.
 
-You can also use the [[Créateur de note unique]] to create Zettelkasten notes in Obsidian.
+Vous pouvez également utiliser le [[Créateur de note unique]] pour créer des notes Zettelkasten dans Obsidian.

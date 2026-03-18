@@ -1,47 +1,47 @@
 ---
 permalink: import/apple-notes
-localized: null
+localized: '2026-03-18'
 aliases:
   - Import from Apple Notes
 ---
-Obsidian lets you easily migrate your notes from Apple Notes using the [[Importer|Importer plugin]]. This will convert your Apple Notes data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian vous permet de migrer facilement vos notes depuis Apple Notes en utilisant le [[Importer|plugin Importer]]. Cela convertira vos données Apple Notes en fichiers Markdown durables, que vous pouvez utiliser avec Obsidian et de nombreuses autres applications.
 
-Currently, Importer only supports migrating from Apple Notes on macOS. It is not available on iOS yet.
+Actuellement, Importer ne prend en charge la migration depuis Apple Notes que sur macOS. Il n'est pas encore disponible sur iOS.
 
-## Import Apple Notes data into Obsidian
+## Importer les données Apple Notes dans Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du plugin officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Paramètres]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Apple Notes**.
-6. Click **Import**.
-7. Click **Open** on the popup that appears titled `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
-8. Wait until import is complete. 
-9. You're done!
+1. Ouvrez les **[[Paramètres]]**.
+2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activez le plugin Importer.
+4. Ouvrez le plugin **Importer** en utilisant la palette de commandes ou l'icône du ruban.
+5. Sous **Format de fichier**, choisissez **Apple Notes**.
+6. Cliquez sur **Importer**.
+7. Cliquez sur **Ouvrir** dans la fenêtre contextuelle qui apparaît, intitulée `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
+8. Attendez que l'importation soit terminée.
+9. C'est terminé !
 
-## Supported content
+## Contenu pris en charge
 
-The Obsidian Importer plugin supports virtually all Apple Notes content types. This includes tables, images, drawings, scans, PDFs, and links introduced in iOS 17.
+Le plugin Obsidian Importer prend en charge la quasi-totalité des types de contenu Apple Notes. Cela inclut les tableaux, les images, les dessins, les numérisations, les PDF et les liens introduits dans iOS 17.
 
 > [!Warning]
-> Password-protected notes are encrypted by Apple, so must be unlocked before importing them. Any locked notes will be skipped.
+> Les notes protégées par mot de passe sont chiffrées par Apple et doivent donc être déverrouillées avant d'être importées. Toutes les notes verrouillées seront ignorées.
 
-### Scans
+### Numérisations
 
-Apple stores scans in a variety of formats depending on how they were created. To preserve the original data, this means they'll be exported differently.
+Apple stocke les numérisations dans différents formats selon la façon dont elles ont été créées. Pour préserver les données originales, cela signifie qu'elles seront exportées différemment.
 
-* Scans created or viewed on older versions of macOS or iOS will be exported as a series of uncropped images.
-* Scans created or viewed on newer versions of macOS or iOS will usually be exported as cropped images.
-* Scans that have been edited using the features introduced in iOS 17 will usually be exported as PDFs.
+* Les numérisations créées ou consultées sur des versions plus anciennes de macOS ou iOS seront exportées sous forme d'une série d'images non recadrées.
+* Les numérisations créées ou consultées sur des versions plus récentes de macOS ou iOS seront généralement exportées sous forme d'images recadrées.
+* Les numérisations qui ont été modifiées à l'aide des fonctionnalités introduites dans iOS 17 seront généralement exportées en tant que PDF.
 
-## Alternate export methods
+## Méthodes d'exportation alternatives
 
-Apple does not provide a native option to export your notes. However several third-party tools exist such as [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) by Chintan Ghate. Please be aware that most tools are limited in what data they will export from Apple Notes and might not provide the most compatible output data. These tools work best if your Apple Notes are primarily text-only, and have few attachments or special features such as drawings and scans.
+Apple ne fournit pas d'option native pour exporter vos notes. Cependant, plusieurs outils tiers existent, comme [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) de Chintan Ghate. Veuillez noter que la plupart des outils sont limités dans les données qu'ils exportent depuis Apple Notes et pourraient ne pas fournir les données de sortie les plus compatibles. Ces outils fonctionnent mieux si vos notes Apple Notes sont principalement constituées de texte, avec peu de pièces jointes ou de fonctionnalités spéciales comme les dessins et les numérisations.
 
-Depending on the tool you used, the export may be in Markdown format or HTML format. Follow instructions based on the file format you exported to: 
+Selon l'outil que vous avez utilisé, l'exportation peut être au format Markdown ou au format HTML. Suivez les instructions en fonction du format de fichier vers lequel vous avez exporté :
 
 - [[Importer des fichiers HTML]]
 - [[Importer des fichiers Markdown]]

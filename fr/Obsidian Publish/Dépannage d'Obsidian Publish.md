@@ -5,35 +5,34 @@ description: >-
   Obsidian Publish
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Troubleshoot Obsidian Publish
 ---
-This page lists common issues you might encounter with [[Introduction à Obsidian Publish|Obsidian Publish]] and how to address them.
+Cette page répertorie les problèmes courants que vous pourriez rencontrer avec [[Introduction à Obsidian Publish|Obsidian Publish]] et comment les résoudre.
 
-Be sure to review [[Fichiers média]] and [[Limitations de Publish|Publish limitations]] first.
+Assurez-vous de consulter d'abord [[Fichiers média]] et [[Limitations de Publish|Limitations de Publish]].
 
-## General
+## Général
 
-### Publishing notes
+### Publication de notes
 
-**I am receiving a hash error when trying to publish a note.**
+**Je reçois une erreur de hachage lorsque j'essaie de publier une note.**
 
-Are you using a [[Plugins communautaires|community plugin]] that edits the file's modified time upon update? If so, this plugin may be conflicting with Publish. Please issue a bug report to the plugin developer to resolve the issue.
+Utilisez-vous un [[Modules complémentaires|module complémentaire]] qui modifie la date de modification du fichier lors de la mise à jour ? Si c'est le cas, ce module peut entrer en conflit avec Publish. Veuillez signaler un bug au développeur du module pour résoudre le problème.
 
-**I am receiving an odd network error, and I have a very large Publish site.**
+**Je reçois une erreur réseau inhabituelle, et j'ai un très grand site Publish.**
 
-It is likely we need to examine your database. Please [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]] for assistance.
+Il est probable que nous devions examiner votre base de données. Veuillez [[Aide et support#Contacter l'assistance Obsidian|contacter l'assistance Obsidian]] pour obtenir de l'aide.
 
-## CSS and themes
+## CSS et thèmes
 
-**My CSS in my [[Dossier de configuration]] does not work on Publish. Why?**
+**Mon CSS dans mon [[Dossier de configuration]] ne fonctionne pas sur Publish. Pourquoi ?**
 
-Publish does not read from the configuration folder. Instead, you'll need to create a `publish.css` file in the top-level directory of your publishing vault. You can learn more about this in [[Personnaliser votre site]].
+Publish ne lit pas le dossier de configuration. À la place, vous devez créer un fichier `publish.css` dans le répertoire racine de votre coffre de publication. Vous pouvez en apprendre davantage à ce sujet dans [[Personnaliser votre site]].
 
-**My CSS does not look the same on Publish as it does in the app. Why?**
+**Mon CSS ne s'affiche pas de la même manière sur Publish que dans l'application. Pourquoi ?**
 
-Obsidian Publish's CSS is not exactly the same as in the application. We recommend [developing any CSS and themes](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes)specifically for Publish from the ground up.
+Le CSS d'Obsidian Publish n'est pas exactement le même que celui de l'application. Nous recommandons de [développer tout CSS et thème](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes) spécifiquement pour Publish en partant de zéro.
 
-In _general_, what works for [[Vues et mode d'édition#Reading view|Reading view]] has a strong likelihood of working on Publish.
-
+En _général_, ce qui fonctionne pour le [[Vues et mode d'édition#Mode lecture|mode lecture]] a de fortes chances de fonctionner sur Publish.

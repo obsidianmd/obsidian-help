@@ -2,76 +2,76 @@
 permalink: teams/security
 cssclasses:
   - soft-embed
-localized: null
+localized: '2026-03-18'
 aliases:
   - Security considerations for teams
 ---
-Our [Security](https://obsidian.md/security) page compiles information about how Obsidian approaches protecting your data. It is also the home for security audits completed by third parties.
+Notre page [Sécurité](https://obsidian.md/security) compile les informations sur la manière dont Obsidian aborde la protection de vos données. C'est également le lieu où sont publiés les audits de sécurité réalisés par des tiers.
 
-## Considerations
+## Considérations
 
-Obsidian is designed to function as an offline and standalone application. Obsidian also supports custom plugins and themes. Additionally, we provide both official and unofficial support for various file syncing services.
+Obsidian est conçu pour fonctionner comme une application hors ligne et autonome. Obsidian prend également en charge les modules complémentaires et les thèmes personnalisés. De plus, nous fournissons un support officiel et non officiel pour divers services de synchronisation de fichiers.
 
-If you do not intend to use community plugins or themes, or [[Introduction à Obsidian Sync|Obsidian Sync]] or [[Introduction à Obsidian Publish|Obsidian Publish]], your standard procedures for securing applications will apply. However, if you plan to use any of these features, we recommend thoroughly evaluating their suitability for your workplace.
+Si vous n'avez pas l'intention d'utiliser des modules complémentaires ou des thèmes, ni [[Introduction à Obsidian Sync|Obsidian Sync]] ou [[Introduction à Obsidian Publish|Obsidian Publish]], vos procédures standard de sécurisation des applications s'appliqueront. Cependant, si vous prévoyez d'utiliser l'une de ces fonctionnalités, nous vous recommandons d'évaluer soigneusement leur adéquation à votre environnement de travail.
 
-## Community plugins and themes
+## Modules complémentaires et thèmes
 
-Please review the [[Sécurité des plugins]] page in addition to this section. 
+Veuillez consulter la page [[Sécurité des plugins]] en complément de cette section.
 
-The Obsidian teams reviews all community plugins and themes submitted to the official directory, via our [releases repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). We do not review community items which have not been submitted to the official directory.
+L'équipe Obsidian examine tous les modules complémentaires et thèmes soumis au répertoire officiel, via notre [dépôt de publications](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Nous n'examinons pas les éléments communautaires qui n'ont pas été soumis au répertoire officiel.
 
-We do not have a community store for [[Extraits CSS]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
+Nous ne disposons pas d'une boutique communautaire pour les [[Extraits CSS]]. Ces fichiers sont généralement obtenus au sein de notre [Communauté Obsidian](https://obsidian.md/community) ou à partir de dépôts GitHub publics.
 
-We require bundling of assets in CSS snippets and themes. However, we have made an exception for [Google Fonts](https://fonts.google.com/) to maintain performance on mobile devices, where the impact of bundling fonts is more noticeable.
+Nous exigeons le regroupement des ressources dans les extraits CSS et les thèmes. Cependant, nous avons fait une exception pour [Google Fonts](https://fonts.google.com/) afin de maintenir les performances sur les appareils mobiles, où l'impact du regroupement des polices est plus perceptible.
 
-## Network and access
+## Réseau et accès
 
-While prioritizing the local-first approach of our application, Obsidian does make network calls based on the services and features you use. These network connections can be disabled via a domain firewall or application lockdown.
+Tout en privilégiant l'approche locale de notre application, Obsidian effectue des appels réseau en fonction des services et fonctionnalités que vous utilisez. Ces connexions réseau peuvent être désactivées via un pare-feu de domaine ou un verrouillage de l'application.
 
-Obsidian makes these network connections on HTTPS port 443.
+Obsidian établit ces connexions réseau sur le port HTTPS 443.
 
-The following is a list of network connections Obsidian makes.
+Voici la liste des connexions réseau qu'Obsidian effectue.
 
-### Obsidian-sourced connections
+### Connexions provenant d'Obsidian
 
-- **Early access updates**: Uses `releases.obsidian.md`.
-- **Account and license management**: When accessing your Obsidian account in Settings and applying a Commercial License, we call `api.obsidian.md`.
-- **Obsidian Sync**: Used for syncing your notes across devices.
-	- `sync-xx.obsidian.md`, where `xx` is a number between 01-100.
-- **Obsidian Publish**:
-    1. Backend: `publish-main.obsidian.md` and `publish-xx.obsidian.md`, where `xx` is a number.
-    2. Frontend: `publish.obsidian.md`.
+- **Mises à jour en accès anticipé** : Utilise `releases.obsidian.md`.
+- **Gestion du compte et des licences** : Lors de l'accès à votre compte Obsidian dans les Paramètres et de l'application d'une licence commerciale, nous appelons `api.obsidian.md`.
+- **Obsidian Sync** : Utilisé pour synchroniser vos notes entre appareils.
+	- `sync-xx.obsidian.md`, où `xx` est un nombre entre 01 et 100.
+- **Obsidian Publish** :
+    1. Backend : `publish-main.obsidian.md` et `publish-xx.obsidian.md`, où `xx` est un nombre.
+    2. Frontend : `publish.obsidian.md`.
 
-### GitHub-sourced connections
+### Connexions provenant de GitHub
 
-Obsidian makes network requests to both `github.com` and `raw.githubusercontent.com`.
+Obsidian effectue des requêtes réseau vers `github.com` et `raw.githubusercontent.com`.
 
-- **Public releases**: If automatic updates are enabled, Obsidian checks GitHub for public releases.
-- **Third-party themes and plugins**:
-    - A check is performed once every 12 hours from the app's startup time to fetch a file hosted on GitHub used for "plugin deprecations." This file helps remotely disable specific versions of plugins known to malfunction, cause data loss, or potentially be vulnerable or malicious.
-    - Enabled plugins may generate network traffic outside Obsidian and GitHub's control.
+- **Publications publiques** : Si les mises à jour automatiques sont activées, Obsidian vérifie sur GitHub les publications publiques.
+- **Thèmes et modules complémentaires tiers** :
+    - Une vérification est effectuée toutes les 12 heures à partir du démarrage de l'application pour récupérer un fichier hébergé sur GitHub utilisé pour les « dépréciations de modules ». Ce fichier permet de désactiver à distance des versions spécifiques de modules connus pour mal fonctionner, provoquer des pertes de données, ou être potentiellement vulnérables ou malveillants.
+    - Les modules activés peuvent générer du trafic réseau échappant au contrôle d'Obsidian et de GitHub.
 
-### Other connections
+### Autres connexions
 
-- **Embedded online content**: When opening notes that embed online content, such as an image (`![cat](https://upload.wikimedia.org/wikipedia/commons/0/0b/Cat_poster_1.jpg)`).
-- **DNS requests**: If a hostname needs to be resolved before establishing a connection, including DNS over HTTPS. Refer to [Chromium's documentation](https://source.chromium.org/chromium/chromium/src/+/main:net/dns/public/doh_provider_entry.cc;l=120?q=chrome.cloudflare-dns.com&ss=chromium) for more information.
+- **Contenu en ligne intégré** : Lors de l'ouverture de notes qui intègrent du contenu en ligne, comme une image (`![chat](https://upload.wikimedia.org/wikipedia/commons/0/0b/Cat_poster_1.jpg)`).
+- **Requêtes DNS** : Si un nom d'hôte doit être résolu avant d'établir une connexion, y compris le DNS over HTTPS. Consultez la [documentation de Chromium](https://source.chromium.org/chromium/chromium/src/+/main:net/dns/public/doh_provider_entry.cc;l=120?q=chrome.cloudflare-dns.com&ss=chromium) pour plus d'informations.
 
-## Frequently asked questions
+## Questions fréquentes
 
-### Account security
+### Sécurité du compte
 
-**Does Obsidian support Single Sign-On (SSO)?**
-Obsidian does not support SSO. In most use cases, Obsidian does not require an account or sign-on in your workplace, unless you are using [[Introduction à Obsidian Publish|Obsidian Publish]] or [[Introduction à Obsidian Sync|Obsidian Sync]].
+**Obsidian prend-il en charge l'authentification unique (SSO) ?**
+Obsidian ne prend pas en charge le SSO. Dans la plupart des cas d'utilisation, Obsidian ne nécessite pas de compte ni de connexion sur votre lieu de travail, sauf si vous utilisez [[Introduction à Obsidian Publish|Obsidian Publish]] ou [[Introduction à Obsidian Sync|Obsidian Sync]].
 
-**Does Obsidian support Multi-Factor Authentication (MFA)?**
-Obsidian supports [[Authentification à 2 facteurs]] (2FA) for Obsidian accounts, but it does not support 2FA for opening and using the base application. Users of [[Introduction à Obsidian Sync|Obsidian Sync]] and [[Introduction à Obsidian Publish|Obsidian Publish]] who have 2FA enabled will be required to confirm their 2FA key when they first log into the application.
+**Obsidian prend-il en charge l'authentification multi-facteurs (MFA) ?**
+Obsidian prend en charge l'[[Authentification à 2 facteurs|authentification à 2 facteurs]] (2FA) pour les comptes Obsidian, mais ne prend pas en charge la 2FA pour l'ouverture et l'utilisation de l'application de base. Les utilisateurs d'[[Introduction à Obsidian Sync|Obsidian Sync]] et d'[[Introduction à Obsidian Publish|Obsidian Publish]] ayant activé la 2FA devront confirmer leur clé 2FA lors de leur première connexion à l'application.
 
-### Assessments and certifications
+### Évaluations et certifications
 
-**Will you accept security assessments from our company?**
-We require a minimum quoted purchase order amount before considering completing a security assessment. These assessments are often time-consuming and may not be applicable to offline applications like Obsidian, as they are typically geared towards cloud-based services.
+**Acceptez-vous les évaluations de sécurité de notre entreprise ?**
+Nous exigeons un montant minimum de bon de commande avant d'envisager de compléter une évaluation de sécurité. Ces évaluations sont souvent chronophages et peuvent ne pas être applicables aux applications hors ligne comme Obsidian, car elles sont généralement conçues pour les services basés sur le cloud.
 
-However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee. Please contact [[Aide et support#Contacter l'assistance Obsidian|Obsidian support]] to inquire about this option.
+Cependant, vous pouvez renoncer à ce montant minimum de bon de commande en acceptant de payer des honoraires de provision. Veuillez contacter l'[[Aide et support#Contacter l'assistance Obsidian|assistance Obsidian]] pour vous renseigner sur cette option.
 
-**Do you have any recognized certifications related to Information Security or quality standards, such as ISO27001, NIST, COBIT, or other ISO or CSA certifications?**
-Not at this time. It may be something we explore in the future, but for now, our focus is on our [security audits](https://obsidian.md/security).
+**Disposez-vous de certifications reconnues en matière de sécurité de l'information ou de normes de qualité, telles que ISO27001, NIST, COBIT, ou d'autres certifications ISO ou CSA ?**
+Pas pour le moment. C'est quelque chose que nous pourrions explorer à l'avenir, mais pour l'instant, notre attention se porte sur nos [audits de sécurité](https://obsidian.md/security).

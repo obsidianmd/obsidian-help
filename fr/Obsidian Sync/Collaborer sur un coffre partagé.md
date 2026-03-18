@@ -3,55 +3,55 @@ permalink: sync/collaborate
 description: This page details how you can collaborate with other Obsidian Sync users.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Collaborate on a shared vault
 ---
-With [[Introduction à Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team.
+Avec [[Introduction à Obsidian Sync|Obsidian Sync]], vous pouvez collaborer sur un coffre partagé avec votre équipe.
 
-All collaborators must have an active Sync subscription to access a shared vault. Joining a shared vault does not count towards your [[Questions fréquentes#How many remote vaults can I have?|vault limit]].
+Tous les collaborateurs doivent disposer d'un abonnement Sync actif pour accéder à un coffre partagé. Rejoindre un coffre partagé ne compte pas dans votre [[Questions fréquentes#Combien de coffres distants puis-je avoir ?|limite de coffres]].
 
-If the remote vault is [[Obsidian Sync/Sécurité et confidentialité|end-to-end encrypted]], collaborators must enter the encryption password when they set up the vault.
+Si le coffre distant est [[Sécurité et confidentialité|chiffré de bout en bout]], les collaborateurs doivent saisir le mot de passe de chiffrement lors de la configuration du coffre.
 
-## Manage users
+## Gérer les utilisateurs
 
-### Add users
+### Ajouter des utilisateurs
 
-To invite a user to share a remote vault:
+Pour inviter un utilisateur à partager un coffre distant :
 
-1. Open **[[Paramètres]]**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the remote vault you want to share, select **Manage sharing** ( ![[lucide-users.svg#icon]] ).
-5. In **Invite user**, enter the email of the user you want to invite.
-6. Select **Add**.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans le menu latéral, sélectionnez **Sync**.
+3. À côté de **Coffre distant**, sélectionnez **Gérer**.
+4. À côté du coffre distant que vous souhaitez partager, sélectionnez **Gérer le partage** ( ![[lucide-users.svg#icon]] ).
+5. Dans **Inviter un utilisateur**, saisissez l'adresse électronique de l'utilisateur que vous souhaitez inviter.
+6. Sélectionnez **Ajouter**.
 
-### Remove users
+### Supprimer des utilisateurs
 
-1. Open **[[Paramètres]]**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the user you want to remove access from, select **Remove user** ( ![[lucide-x.svg#icon]] ).
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans le menu latéral, sélectionnez **Sync**.
+3. À côté de **Coffre distant**, sélectionnez **Gérer**.
+4. À côté de l'utilisateur dont vous souhaitez supprimer l'accès, sélectionnez **Supprimer l'utilisateur** ( ![[lucide-x.svg#icon]] ).
 
-## Collaborate with your team
+## Collaborer avec votre équipe
 
 ### Permissions
 
-Fine-grained permissions are not supported yet. All collaborators receive the same permissions as the vault owner, with one exception: only the vault owner can invite collaborators.
+Les permissions granulaires ne sont pas encore prises en charge. Tous les collaborateurs reçoivent les mêmes permissions que le propriétaire du coffre, à une exception près : seul le propriétaire du coffre peut inviter des collaborateurs.
 
-### Live editing
+### Édition en temps réel
 
-Shared vaults allow teams to work together on a set of files, however Obsidian does not yet support collaborative live editing on the same file. You will not see the other user's cursor, and their edits will only appear once the changes are synced.
+Les coffres partagés permettent aux équipes de travailler ensemble sur un ensemble de fichiers, cependant Obsidian ne prend pas encore en charge l'édition collaborative en temps réel sur le même fichier. Vous ne verrez pas le curseur de l'autre utilisateur, et ses modifications n'apparaîtront qu'une fois les changements synchronisés.
 
-If multiple users are editing the same file at the same time, [[Résoudre les problèmes d'Obsidian Sync#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Version history]].
+Si plusieurs utilisateurs modifient le même fichier en même temps, [[Résoudre les problèmes d'Obsidian Sync#Résolution des conflits|les modifications seront fusionnées]] pendant le processus de synchronisation. Les modifications peuvent être consultées et restaurées à l'aide de l'[[Version history|Historique des versions]].
 
 ![[version-history-collaboration.png]]^version-history-image
 
 ## Limitations
 
-Be aware that Obsidian Sync has [[Questions fréquentes|Limitations]] that may affect your team:
+Sachez qu'Obsidian Sync a des [[Questions fréquentes|limitations]] qui peuvent affecter votre équipe :
 
-- The maximum number of collaborators on a shared vault is 20 users.
-- The maximum file size for attachments depends on the [[Forfaits et limites de stockage|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
+- Le nombre maximum de collaborateurs sur un coffre partagé est de 20 utilisateurs.
+- La taille maximale des fichiers pour les pièces jointes dépend du [[Forfaits et limites de stockage|forfait]] de l'hôte de votre coffre distant, avec 5 Mo pour le forfait Standard et 200 Mo pour le forfait Plus.
 
-Learn more about [[Sync pour les équipes]].
+En savoir plus sur [[Sync pour les équipes]].

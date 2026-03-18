@@ -7,182 +7,182 @@ description: >-
   help you set up and adjust your Obsidian Sync settings for daily use.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Set up Obsidian Sync
 ---
-You purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+Vous avez acheté Obsidian Sync et êtes prêt à commencer. Ce guide vous aidera à configurer et ajuster vos paramètres Obsidian Sync pour une utilisation quotidienne.
 
-- **New to Obsidian Sync?** See: [[#Set up Obsidian Sync for the first time]]
-- **Connecting a second device?** See: [[#Sync a remote vault on another device]]
-- **Need to make changes?** See: [[#Manage your remote vaults]]
+- **Nouveau sur Obsidian Sync ?** Voir : [[#Configurer Obsidian Sync pour la première fois]]
+- **Connecter un second appareil ?** Voir : [[#Synchroniser un coffre distant sur un autre appareil]]
+- **Besoin de faire des modifications ?** Voir : [[#Gérer vos coffres distants]]
 
-## Set up Obsidian Sync for the first time
+## Configurer Obsidian Sync pour la première fois
 
-In this section, you'll create a new [[Coffres locaux et distants|remote vault]] and connect it to an existing local vault. You don't need to create a new, empty local vault to use Obsidian Sync for this purpose.
+Dans cette section, vous allez créer un nouveau [[Coffres locaux et distants|coffre distant]] et le connecter à un coffre local existant. Vous n'avez pas besoin de créer un nouveau coffre local vide pour utiliser Obsidian Sync à cette fin.
 
-> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Questions fréquentes#Can I use a third-party sync with Obsidian Sync?|this]] and [[Passer à Obsidian Sync]] before proceeding.
+> [!info] Votre coffre actuel se trouve-t-il dans un dossier iCloud, OneDrive, Dropbox ou un autre service de synchronisation ? Si **oui**, ou si vous n'êtes **pas sûr**, veuillez lire [[Questions fréquentes#Puis-je utiliser un service de synchronisation tiers avec Obsidian Sync ?|ceci]] et [[Passer à Obsidian Sync]] avant de poursuivre.
 
-**Prerequisites**
+**Prérequis**
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
-- An active Obsidian Sync [[Forfaits et limites de stockage|subscription]]. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/sync).
-- **Recommended**: A [[Sauvegarder vos fichiers Obsidian|backup system]] in place for your Obsidian files. A syncing service is not a backup. 
+- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
+- Un abonnement Obsidian Sync [[Forfaits et limites de stockage|actif]]. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/account/sync).
+- **Recommandé** : Un [[Sauvegarder vos fichiers Obsidian|système de sauvegarde]] en place pour vos fichiers Obsidian. Un service de synchronisation n'est pas une sauvegarde.
 
-### Log in with your Obsidian account
+### Se connecter avec votre compte Obsidian
 
-1. Open **[[Paramètres]]**.
-2. In the sidebar, select **General**.
-3. Under **Account → Your Account**, select **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Select **Login**.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans la barre latérale, sélectionnez **Général**.
+3. Sous **Compte → Votre compte**, sélectionnez **Se connecter**.
+4. Dans **Adresse électronique**, entrez votre adresse électronique.
+5. Dans **Mot de passe**, entrez votre mot de passe.
+6. Sélectionnez **Se connecter**.
 
-### Enable Obsidian Sync
+### Activer Obsidian Sync
 
-1. Open **[[Paramètres]]**.
-2. In the sidebar under **Options**, select **Core Plugins**.
-3. Toggle **Sync**.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans la barre latérale sous **Options**, sélectionnez **Modules principaux**.
+3. Activez **Sync**.
 
-### Create a new remote vault
+### Créer un nouveau coffre distant
 
-1. Open **[[Paramètres]]**.
-2. In the sidebar, select **Sync**.
-3. Next to **Remote vault**, select **Choose**.
-4. Select **Create new vault**.
-5. In **Vault name**, enter the name of the remote vault.
-6. In **Region**, choose your server [[#Regional sync servers|region]] for your remote vault. 
-7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Sécurité et confidentialité]].
-8. Select **Create**.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans la barre latérale, sélectionnez **Sync**.
+3. À côté de **Coffre distant**, sélectionnez **Choisir**.
+4. Sélectionnez **Créer un nouveau coffre**.
+5. Dans **Nom du coffre**, entrez le nom du coffre distant.
+6. Dans **Région**, choisissez la [[#Serveurs de synchronisation régionaux|région]] de votre serveur pour votre coffre distant.
+7. Dans **Mot de passe de chiffrement**, choisissez un mot de passe pour votre coffre. Cela crée un coffre avec chiffrement de bout en bout. Le mot de passe du coffre est distinct de votre compte Obsidian et peut être différent pour chacun de vos coffres. Pour plus d'informations, consultez [[Sécurité et confidentialité]].
+8. Sélectionnez **Créer**.
 
-### Connect to a remote vault
+### Se connecter à un coffre distant
 
-1. Select **Connect** next to your newly created vault.
-2. Enter the password you configured for the vault in the **Encryption password** field if you opted into [[Obsidian Sync/Sécurité et confidentialité#What does end-to-end encryption mean?|end-to-end encryption]].
-3. Select **Unlock vault**.
-4. **Do not start syncing yet.** Check your sync settings in [[#Adjust Obsidian Sync settings|adjust Obsidian Sync settings]].
-    - If you wish to start syncing immediately, move onto [[#Begin syncing with Obsidian Sync|begin syncing with Obsidian Sync]].
-5. If you haven't already, close or dismiss the pop-up window prompting you to **Exclude Folders** and **Start Syncing**. Proceed to the next step.
+1. Sélectionnez **Connecter** à côté de votre coffre nouvellement créé.
+2. Entrez le mot de passe que vous avez configuré pour le coffre dans le champ **Mot de passe de chiffrement** si vous avez opté pour le [[Obsidian Sync/Sécurité et confidentialité#Que signifie le chiffrement de bout en bout ?|chiffrement de bout en bout]].
+3. Sélectionnez **Déverrouiller le coffre**.
+4. **Ne commencez pas encore la synchronisation.** Vérifiez vos paramètres de synchronisation dans [[#Ajuster les paramètres d'Obsidian Sync|ajuster les paramètres d'Obsidian Sync]].
+    - Si vous souhaitez commencer la synchronisation immédiatement, passez à [[#Commencer la synchronisation avec Obsidian Sync|commencer la synchronisation avec Obsidian Sync]].
+5. Si vous ne l'avez pas encore fait, fermez ou ignorez la fenêtre contextuelle vous invitant à **Exclure des dossiers** et **Commencer la synchronisation**. Passez à l'étape suivante.
 
-#### Adjust Obsidian Sync settings
+#### Ajuster les paramètres d'Obsidian Sync
 
-1. Navigate to **[[Paramètres]]** → **Sync** if needed.
-2. If a device name has not been added, add one to make reading your Sync logs easier!
-3. Toggle the settings under **Selective Sync** and **Vault configuration sync** to indicate which items should be synced to and from the remote vault.
-    - **Note**: If you recently disconnected from a remote vault and are reconnecting without an application restart, some settings may already be toggled on.
-4. If you make changes to any settings, restart Obsidian completely.
-5. Once Obsidian is restarted, return to **[[Paramètres]]** → **Sync**.
+1. Naviguez vers **[[Paramètres]]** → **Sync** si nécessaire.
+2. Si aucun nom d'appareil n'a été ajouté, ajoutez-en un pour faciliter la lecture de vos journaux de synchronisation !
+3. Activez ou désactivez les paramètres sous **Synchronisation sélective** et **Synchronisation de la configuration du coffre** pour indiquer quels éléments doivent être synchronisés vers et depuis le coffre distant.
+    - **Note** : Si vous vous êtes récemment déconnecté d'un coffre distant et que vous vous reconnectez sans avoir redémarré l'application, certains paramètres peuvent déjà être activés.
+4. Si vous modifiez des paramètres, redémarrez complètement Obsidian.
+5. Une fois Obsidian redémarré, retournez dans **[[Paramètres]]** → **Sync**.
 
-#### Begin syncing with Obsidian Sync
+#### Commencer la synchronisation avec Obsidian Sync
 
-If you are beginning syncing after connecting to a remote vault, you will see a **Start Syncing** button. Select this button to begin syncing.
+Si vous commencez la synchronisation après vous être connecté à un coffre distant, vous verrez un bouton **Commencer la synchronisation**. Sélectionnez ce bouton pour lancer la synchronisation.
 
-If you are beginning syncing after adjusting Obsidian Sync's settings and restarting the application, you will see a **Resume** button within Sync's settings. Select this button to begin syncing.
+Si vous commencez la synchronisation après avoir ajusté les paramètres d'Obsidian Sync et redémarré l'application, vous verrez un bouton **Reprendre** dans les paramètres de Sync. Sélectionnez ce bouton pour lancer la synchronisation.
 
-> [!done] Syncing status
-> When Obsidian Sync completes, a green circle with a checkmark ( ![[obsidian-icon-sync-synced.svg#icon]] ) appears in the bottom-right corner (desktop) or in the right sidebar (mobile). The Sync log will also display "Fully Synced" as one its most recent message.
+> [!done] Statut de la synchronisation
+> Lorsqu'Obsidian Sync a terminé, un cercle vert avec une coche ( ![[obsidian-icon-sync-synced.svg#icon]] ) apparaît dans le coin inférieur droit (bureau) ou dans la barre latérale droite (mobile). Le journal de synchronisation affichera également « Fully Synced » comme l'un de ses messages les plus récents.
 >
-> For more details on sync statuses, refer to [[Icône de statut et messages]].
+> Pour plus de détails sur les statuts de synchronisation, consultez [[Icône de statut et messages]].
 ^obsidian-sync-status
 
-To connect other devices to your newly created and synced remote vault, move onto [[Configurer Obsidian Sync#Sync a remote vault on another device|Sync a remote vault on another device]].
+Pour connecter d'autres appareils à votre coffre distant nouvellement créé et synchronisé, passez à [[Configurer Obsidian Sync#Synchroniser un coffre distant sur un autre appareil|Synchroniser un coffre distant sur un autre appareil]].
 
-To learn more about settings and files, move onto [[Paramètres de Sync et synchronisation sélective]].
+Pour en savoir plus sur les paramètres et les fichiers, passez à [[Paramètres de Sync et synchronisation sélective]].
 
-## Sync a remote vault on another device
+## Synchroniser un coffre distant sur un autre appareil
 
-In this section, you have already created a remote vault, and uploaded data to it. Now, you want to connect your other devices to it. 
+Dans cette section, vous avez déjà créé un coffre distant et y avez téléversé des données. Maintenant, vous souhaitez y connecter vos autres appareils.
 
-**Prerequisites**
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Sync subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account).
-- Sync enabled within the [[Plugins principaux]] settings. 
-- An active remote vault. If you have not yet made one, please create a [[Configurer Obsidian Sync#Create a new remote vault|remote vault]] first.
-- **Recommended**: A [[Sauvegarder vos fichiers Obsidian|backup system]] in place for your Obsidian files on your most-used device. A syncing service is not a backup. 
+**Prérequis**
+- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/account#mode=signup).
+- Un abonnement Obsidian Sync actif. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/account).
+- Sync activé dans les paramètres des [[Modules principaux]].
+- Un coffre distant actif. Si vous n'en avez pas encore créé un, veuillez d'abord créer un [[Configurer Obsidian Sync#Créer un nouveau coffre distant|coffre distant]].
+- **Recommandé** : Un [[Sauvegarder vos fichiers Obsidian|système de sauvegarde]] en place pour vos fichiers Obsidian sur votre appareil le plus utilisé. Un service de synchronisation n'est pas une sauvegarde.
 
-### Sync your vault from the vault switcher
+### Synchroniser votre coffre depuis le sélecteur de coffres
 
-If you have freshly installed Obsidian, when you open the program you will be presented with the [[Gérer les coffres|Vault switcher]]. To create a new local vault from the contents of a remote vault, you will want to perform the following steps.
+Si vous venez d'installer Obsidian, lorsque vous ouvrez le programme, le [[Gérer les coffres|sélecteur de coffres]] vous sera présenté. Pour créer un nouveau coffre local à partir du contenu d'un coffre distant, suivez les étapes suivantes.
 
-1. Open Obsidian (assuming this is your first time opening it)
-2. Select one of the options depending upon your installation:
-	1. **Desktop**: In the section that says Open vault from Obsidian Sync, choose **Setup**
-	2. **Mobile/Tablet**: **Setup Obsidian Sync**
-3. Login with your Obsidian User account
-	1. If [[Authentification à 2 facteurs|2FA]] is set up, enter your 2FA code.
-4. You will be asked to choose which remote vault you want to sync to this device. Select **Connect**.
-5. You will be asked to choose a name for the local vault that will be created on the device to hold this data. Enter the name of your choice. 
-	1. If you use [[Obsidian URI]]s, you will want to use the same name as the local vault on your other device. 
-6. Select **Create**.
-7. The remove vaults window will pop-up momentary as Obsidian Sync connects to your server and validates the subscription. It will then present you a *Setup Connection* window. 
-	1. It is highly recommended that you close or swipe down from this window, and [[#Adjust Obsidian Sync settings|adjust Obsidian Sync settings]] first.
-	2. If you change any Sync Settings, please reload or restart Obsidian.
+1. Ouvrez Obsidian (en supposant que c'est la première fois que vous l'ouvrez)
+2. Sélectionnez l'une des options selon votre installation :
+	1. **Bureau** : Dans la section qui indique Ouvrir un coffre depuis Obsidian Sync, choisissez **Configurer**
+	2. **Mobile/Tablette** : **Configurer Obsidian Sync**
+3. Connectez-vous avec votre compte utilisateur Obsidian
+	1. Si l'[[Authentification à 2 facteurs|A2F]] est configurée, entrez votre code A2F.
+4. On vous demandera de choisir quel coffre distant vous souhaitez synchroniser sur cet appareil. Sélectionnez **Connecter**.
+5. On vous demandera de choisir un nom pour le coffre local qui sera créé sur l'appareil pour contenir ces données. Entrez le nom de votre choix.
+	1. Si vous utilisez des [[Obsidian URI]], vous voudrez utiliser le même nom que le coffre local sur votre autre appareil.
+6. Sélectionnez **Créer**.
+7. La fenêtre des coffres distants apparaîtra momentanément pendant qu'Obsidian Sync se connecte à votre serveur et valide l'abonnement. Elle vous présentera ensuite une fenêtre *Configuration de la connexion*.
+	1. Il est fortement recommandé de fermer ou de faire glisser vers le bas cette fenêtre, et d'[[#Ajuster les paramètres d'Obsidian Sync|ajuster les paramètres d'Obsidian Sync]] d'abord.
+	2. Si vous modifiez des paramètres de Sync, veuillez recharger ou redémarrer Obsidian.
 
-### Sync your vault from Obsidian Settings
+### Synchroniser votre coffre depuis les paramètres d'Obsidian
 
-If you have already created a local vault on this device, and you want to connect this local vault to a remote vault, the instructions are very similar to [[#Set up Obsidian Sync for the first time]].
+Si vous avez déjà créé un coffre local sur cet appareil et que vous souhaitez connecter ce coffre local à un coffre distant, les instructions sont très similaires à [[#Configurer Obsidian Sync pour la première fois]].
 
-![[Configurer Obsidian Sync#Log in with your Obsidian account]]
+![[Configurer Obsidian Sync#Se connecter avec votre compte Obsidian]]
 
-![[Configurer Obsidian Sync#Enable Obsidian Sync]]
+![[Configurer Obsidian Sync#Activer Obsidian Sync]]
 
-#### Connect to a remote vault
+#### Se connecter à un coffre distant
 
-1. Open **[[Paramètres]]**.
-2. In the sidebar, select **Sync**.
-3. Next to **Pick remote vault**, click **Choose**.
-4. Click **Connect** next to the remote vault you want to connect to.
-5. In **Encryption password**, enter the password for your vault, if you have one.
-6. You will be prompted to start Syncing. It is recommended to wait and adjust your sync settings first. If you do want to sync the entire vault to the device as is, you may **Start Syncing**. 
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans la barre latérale, sélectionnez **Sync**.
+3. À côté de **Choisir un coffre distant**, cliquez sur **Choisir**.
+4. Cliquez sur **Connecter** à côté du coffre distant auquel vous souhaitez vous connecter.
+5. Dans **Mot de passe de chiffrement**, entrez le mot de passe de votre coffre, si vous en avez un.
+6. Vous serez invité à commencer la synchronisation. Il est recommandé d'attendre et d'ajuster d'abord vos paramètres de synchronisation. Si vous souhaitez synchroniser l'ensemble du coffre sur l'appareil tel quel, vous pouvez **Commencer la synchronisation**.
 
-> [!warning] If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding. Conflicts will be resolved through [[Résoudre les problèmes d'Obsidian Sync#Conflict resolution|Sync's conflict resolution]].
+> [!warning] Si le coffre sur votre appareil contient déjà des notes (non recommandé), vous serez averti que ces notes seront fusionnées avant de poursuivre. Les conflits seront résolus via la [[Résoudre les problèmes d'Obsidian Sync#Résolution de conflits|résolution de conflits de Sync]].
 
-![[Configurer Obsidian Sync#Adjust Obsidian Sync settings]]
+![[Configurer Obsidian Sync#Ajuster les paramètres d'Obsidian Sync]]
 
-![[Configurer Obsidian Sync#Begin syncing with Obsidian Sync]]
+![[Configurer Obsidian Sync#Commencer la synchronisation avec Obsidian Sync]]
 
-## Manage your remote vaults
+## Gérer vos coffres distants
 
-You have created and connected to a remote vault. You may have also synced this remote vault to multiple devices. This section goes over some of the other common instructions you may need in managing this remote vault.
+Vous avez créé et vous êtes connecté à un coffre distant. Vous avez peut-être également synchronisé ce coffre distant sur plusieurs appareils. Cette section couvre certaines des autres instructions courantes dont vous pourriez avoir besoin pour gérer ce coffre distant.
 
-### Disconnect from a remote vault
+### Se déconnecter d'un coffre distant
 
-1. Open Obsidian's **[[Paramètres]]**.
-2. Select **Sync** in the sidebar.
-3. Click the **Disconnect** button next to Remote vaults.
+1. Ouvrez les **[[Paramètres]]** d'Obsidian.
+2. Sélectionnez **Sync** dans la barre latérale.
+3. Cliquez sur le bouton **Déconnecter** à côté de Coffres distants.
 
-You are now disconnected from the remote vault and are no longer syncing on this device.
+Vous êtes maintenant déconnecté du coffre distant et ne synchronisez plus sur cet appareil.
 
-### Delete a remote vault
+### Supprimer un coffre distant
 
-> [!tip] Deleting a remote vault will not delete your local data on your device.
+> [!tip] La suppression d'un coffre distant ne supprimera pas vos données locales sur votre appareil.
 
-1. Open **[[Paramètres]]**.
-2. In the sidebar, select **Sync**.
-3. Select **Manage** next to Remote vaults. A window will open with your list of remote vaults.
-4. Select the trash can icon ( ![[lucide-trash-2.svg#icon]] ) next to the remote vault you want to delete.
-5. Confirm the deletion by selecting the red **Delete** button.
-6. Your remote vault has been deleted.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans la barre latérale, sélectionnez **Sync**.
+3. Sélectionnez **Gérer** à côté de Coffres distants. Une fenêtre s'ouvrira avec la liste de vos coffres distants.
+4. Sélectionnez l'icône de la corbeille ( ![[lucide-trash-2.svg#icon]] ) à côté du coffre distant que vous souhaitez supprimer.
+5. Confirmez la suppression en sélectionnant le bouton rouge **Supprimer**.
+6. Votre coffre distant a été supprimé.
 
-> [!info] If there is no trash can icon visible you may need to first disconnect from the remote vault. Once disconnected, select the **Choose** button to open the list of remote vaults.
+> [!info] Si aucune icône de corbeille n'est visible, vous devrez peut-être d'abord vous déconnecter du coffre distant. Une fois déconnecté, sélectionnez le bouton **Choisir** pour ouvrir la liste des coffres distants.
 
-### Regional sync servers
+### Serveurs de synchronisation régionaux
 
-Obsidian Sync lets you choose the hosting location for your remote vault. If you're using version `1.4.16` or older of Obsidian, the location will be automatically chosen for you.
+Obsidian Sync vous permet de choisir l'emplacement d'hébergement de votre coffre distant. Si vous utilisez la version `1.4.16` ou antérieure d'Obsidian, l'emplacement sera automatiquement choisi pour vous.
 
-If you're unsure where your current vault's region is, check out [[Obsidian Sync/Sécurité et confidentialité#Where can I find my current Sync server and where is it hosted?|Where can I find my current Sync server and where is it hosted?]] for guidance.
+Si vous n'êtes pas sûr de la région de votre coffre actuel, consultez [[Obsidian Sync/Sécurité et confidentialité#Où puis-je trouver mon serveur Sync actuel et où est-il hébergé ?|Où puis-je trouver mon serveur Sync actuel et où est-il hébergé ?]] pour obtenir des indications.
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
-After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Régions de Sync|follow vault Sync regions guide]].
+Après avoir sélectionné un emplacement, votre centre de données **ne peut pas** être déplacé vers un autre serveur sans retéléverser vos données. Pour changer de région, suivez le [[Régions de Sync|guide des régions de Sync des coffres]].
 
 ![[Obsidian Sync/Sécurité et confidentialité#^sync-geo-regions]]
 
-## Next steps
+## Prochaines étapes
 
-Here are some suggested documents to read next.
+Voici quelques documents suggérés à lire ensuite.
 
-- Explore more about [[Paramètres de Sync et synchronisation sélective|selecting files and settings to sync]].
-- Learn what happens if your remote vault [[Version history|fill up]].
-- [[Collaborer sur un coffre partagé]] with another Obsidian Sync user.
-- Check out the [[Questions fréquentes|Sync FAQ]] for some answers to common questions.
+- Découvrez-en plus sur la [[Paramètres de Sync et synchronisation sélective|sélection des fichiers et paramètres à synchroniser]].
+- Apprenez ce qui se passe si votre coffre distant [[Version history|se remplit]].
+- [[Collaborer sur un coffre partagé]] avec un autre utilisateur d'Obsidian Sync.
+- Consultez la [[Questions fréquentes|FAQ de Sync]] pour obtenir des réponses aux questions courantes.

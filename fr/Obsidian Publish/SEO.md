@@ -1,35 +1,35 @@
 ---
 permalink: publish/seo
-localized: null
+localized: '2026-03-18'
 ---
-[[Introduction à Obsidian Publish|Obsidian Publish]] sites are automatically optimized for search engines and [[Aperçus de liens sur les réseaux sociaux|social sharing cards]]. You can also customize page metadata with descriptions, permalinks, and images.
+Les sites [[Introduction à Obsidian Publish|Obsidian Publish]] sont automatiquement optimisés pour les moteurs de recherche et les [[Aperçus de liens sur les réseaux sociaux|cartes de partage social]]. Vous pouvez également personnaliser les métadonnées des pages avec des descriptions, des permaliens et des images.
 
-Note that you can disallow search engine indexing, in your [[Gérer les sites#Site Options|site options]].
+Notez que vous pouvez interdire l'indexation par les moteurs de recherche dans vos [[Gérer les sites#Options du site|options du site]].
 
 ### Google Search Console
 
-To track SEO with Google, register your site on [Google Search Console](https://search.google.com/search-console). You can also follow our recommended steps to [[Analytiques|set up Google Analytics]].
+Pour suivre le référencement avec Google, enregistrez votre site sur [Google Search Console](https://search.google.com/search-console). Vous pouvez également suivre nos étapes recommandées pour [[Analytiques|configurer Google Analytics]].
 
-### Sitemap
+### Plan du site
 
-The sitemap for your Publish site is available at `/sitemap.xml`, for example:
+Le plan du site de votre site Publish est disponible à `/sitemap.xml`, par exemple :
 https://help.obsidian.md/sitemap.xml
 
-The sitemap is also available as an RSS feed at `/rss.xml`:
+Le plan du site est également disponible sous forme de flux RSS à `/rss.xml` :
 https://help.obsidian.md/rss.xml
 
-### Permalinks
+### Permaliens
 
-Consider using [[Permaliens]] to define permanent URLs on your site.
+Envisagez d'utiliser les [[Permaliens]] pour définir des URL permanentes sur votre site.
 
-### Metadata
+### Métadonnées
 
-Page metadata can be customized using [[Propriétés#Properties for Obsidian Publish|Properties]], which can be useful for [[Aperçus de liens sur les réseaux sociaux|social sharing cards]].
+Les métadonnées des pages peuvent être personnalisées à l'aide des [[Propriétés#Propriétés pour Obsidian Publish|propriétés]], ce qui peut être utile pour les [[Aperçus de liens sur les réseaux sociaux|cartes de partage social]].
 
-| Property      | Description                                                                                                       |
+| Propriété     | Description                                                                                                       |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publier votre contenu#Automatically select notes to publish\|Automatically select notes to publish]]. |
-| `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
-| `description` | See [[Aperçus de liens sur les réseaux sociaux#Description\|Description]].                                                      |
-| `image`       | See [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                                  |
-| `cover`       | See [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                                  |
+| `publish`     | Voir [[Publier votre contenu#Sélectionner automatiquement les notes à publier\|Sélectionner automatiquement les notes à publier]]. |
+| `permalink`   | Voir [[Permaliens\|Permaliens]].                                                                                  |
+| `description` | Voir [[Aperçus de liens sur les réseaux sociaux#Description\|Description]].                                       |
+| `image`       | Voir [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                   |
+| `cover`       | Voir [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                   |

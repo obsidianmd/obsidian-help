@@ -5,83 +5,82 @@ description: >-
   limitations for Obsidian Sync.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Frequently asked questions
 ---
+Cette page liste certaines des questions courantes relatives aux interrogations et limitations d'[[Introduction à Obsidian Sync|Obsidian Sync]].
 
-This page lists some of the common questions related to questions and limitations for [[Introduction à Obsidian Sync|Obsidian Sync]].
+## Général
 
-## General
+### Quels systèmes d'exploitation Obsidian Sync prend-il en charge ?
 
-### What operating systems does Obsidian Sync support?
+Obsidian Sync prend en charge toutes les plateformes sur lesquelles Obsidian peut fonctionner. Actuellement, cela inclut Windows, macOS, Linux, Android et iOS.
 
-Obsidian Sync supports every platform that Obsidian can run on. Currently that means Windows, macOS, Linux, Android and iOS.
+### Obsidian fonctionne-t-il avec le mode Isolement d'Apple ?
 
-### Does Obsidian work with Apple's Lockdown Mode?
+Obsidian peut être utilisé en [mode Isolement](https://support.apple.com/en-us/105120) à condition qu'Obsidian soit ajouté en tant qu'exclusion.
 
-Obsidian can be used in [Lockdown Mode](https://support.apple.com/en-us/105120) as long as Obsidian is added as an exclusion.
+### Quel type de données est synchronisé ?
 
-### What type of data is synced?
+Par défaut, vos notes Obsidian, vos images et votre [[Dossier de configuration]] sont synchronisés.
 
-By default your Obsidian notes, images, and your [[Dossier de configuration]] are synced. 
+Vous pouvez ajouter des options de synchronisation supplémentaires pour les PDF, fichiers audio, fichiers vidéo et autres fichiers lorsque vous [[Paramètres de Sync et synchronisation sélective|configurez la synchronisation sélective]].
 
-You can add additional syncing options of PDF's, audio files, video files, and other files when you [[Paramètres de Sync et synchronisation sélective]].
+### De combien d'espace de stockage est-ce que je dispose ?
 
-### How much storage do I have?
+La limite de stockage dépend de votre [[Forfaits et limites de stockage#Forfaits|forfait Sync]] Obsidian. La quantité maximale de stockage est de 100 Go. Cette limite de stockage inclut l'[[Version history|historique des versions]].
 
-The storage limit depends on your Obsidian [[Forfaits et limites de stockage#Plans|Sync plan]]. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
+Vous pouvez consulter l'**Utilisation du stockage** dans l'application Obsidian en allant dans **[[Paramètres]] → Sync**.
 
-You can view **Storage usage** in the Obsidian app by going to **[[Paramètres]] → Sync**.
+### Combien de coffres distants puis-je avoir ?
 
-### How many remote vaults can I have?  
+Le nombre de coffres distants que vous pouvez avoir est déterminé par votre [[Forfaits et limites de stockage#Forfaits|forfait Sync]]. Le forfait Standard inclut 1 coffre, le forfait Plus inclut 10 coffres. Les coffres partagés avec vous ne comptent pas dans votre limite de coffres.
 
-The number of remote vaults you can have is determined based on your [[Forfaits et limites de stockage#Plans|Sync plan]]. The Standard plan includes 1 vault, the Plus plan includes 10 vaults. Vaults shared with you do not count towards your vault limit.
+### Quelle taille peut avoir chaque coffre distant ?
 
-### How large can each remote vault be?
+Il n'y a pas de limite par coffre. La limite de stockage est liée à votre compte utilisé et peut être répartie sur tous vos coffres.
 
-There is no per-vault limit. The storage limit is tied to your used account and can be applied across all your vaults.
+### Avec combien de personnes puis-je partager un coffre distant ?
 
-### How many people can I share a remote vault with?
+Vous pouvez [[Collaborer sur un coffre partagé|partager un coffre distant]] avec jusqu'à 20 personnes.
 
-You can [[Collaborer sur un coffre partagé|share a remote vault]] with up to 20 people.
+### Quelle taille peut avoir chaque fichier ?
 
-### How large can each file be?
+La taille maximale des fichiers dépend de votre [[Forfaits et limites de stockage|forfait Obsidian Sync]]. Pour le forfait Standard, la limite est de 5 Mo. Pour le forfait Plus, la limite est de 200 Mo par fichier.
 
-The maximum file size depends on your [[Forfaits et limites de stockage|Obsidian Sync plan]]. For the Standard plan the limit is 5 MB. For the Plus plan the limit is 200 MB per file.
+### Mes données sont-elles synchronisées en arrière-plan ?
 
-### Is my data being synced in the background?
+Non, les fichiers ne sont synchronisés que lorsqu'Obsidian est en cours d'exécution.
 
-No, files are only synced when Obsidian is running.
+### Obsidian Sync recharge-t-il mes paramètres en temps réel ?
 
-### Does Obsidian Sync live-reload my settings?
+Obsidian Sync peut recharger automatiquement certains paramètres, mais il existe des limitations. Pour plus de détails, consultez [[Paramètres de Sync et synchronisation sélective#Rechargement des paramètres|Rechargement des paramètres]].
 
-Obsidian Sync can automatically reload certain settings, but there are some limitations. For more details, refer to [[Paramètres de Sync et synchronisation sélective#Reloading of settings|Reloading of settings]].
+### Puis-je utiliser un service de synchronisation tiers avec Obsidian Sync ?
 
-### Can I use a third-party sync with Obsidian Sync?
+Nous ne recommandons pas d'utiliser un service de synchronisation tiers en parallèle d'Obsidian Sync. L'utilisation d'un service tiers et d'Obsidian Sync sur plusieurs appareils peut entraîner des conflits, résultant en des fichiers dupliqués ou corrompus.
 
-We do not recommend using a third-party sync service alongside Obsidian Sync. Using the a third-party service and Obsidian Sync on multiple devices can lead to conflicts, resulting in duplicate or corrupted files.
+Les services de stockage cloud comme OneDrive et Dropbox proposent des fonctionnalités « Fichiers à la demande » ou « Fichiers en ligne uniquement », qui téléchargent les fichiers uniquement lorsque nécessaire et les suppriment localement pour économiser de l'espace. Cependant, comme ces fichiers ne sont pas toujours disponibles localement, Obsidian Sync les interprétera comme supprimés, entraînant leur suppression de votre coffre distant.
 
-Cloud storage services like OneDrive and Dropbox offer "Files on-demand" or "Online-only files" features, which download files only when needed and remove them locally to save space. However, since these files are not always available locally, Obsidian Sync will interpret them as deleted, leading to their removal from your remote vault.
- 
-To avoid these issues, disable on-demand downloads when using Obsidian Sync with services like OneDrive or Dropbox. You will need to ensure that the third-party service settings are configured to always keep files on the device.
+Pour éviter ces problèmes, désactivez les téléchargements à la demande lorsque vous utilisez Obsidian Sync avec des services comme OneDrive ou Dropbox. Vous devrez vous assurer que les paramètres du service tiers sont configurés pour toujours conserver les fichiers sur l'appareil.
 
-## Data retention
+## Conservation des données
 
-These are commonly asked questions on Obsidian's data retention. For more in depth answers, see [[Obsidian Sync/Sécurité et confidentialité|Security and privacy]].
+Voici les questions fréquemment posées sur la conservation des données par Obsidian. Pour des réponses plus détaillées, consultez [[Sécurité et confidentialité|Sécurité et confidentialité]].
 
-### How long do you keep the version history?
+### Combien de temps conservez-vous l'historique des versions ?
 
-[[Version history]] depends on your [[Forfaits et limites de stockage|Obsidian Sync plan]]. On the Standard plan your notes are retained for 1 month. On the Plus plan your notes are retained for 12 months. After this period of time the older versions are deleted.
+L'[[Version history|historique des versions]] dépend de votre [[Forfaits et limites de stockage|forfait Obsidian Sync]]. Avec le forfait Standard, vos notes sont conservées pendant 1 mois. Avec le forfait Plus, vos notes sont conservées pendant 12 mois. Après cette période, les versions plus anciennes sont supprimées.
 
-Older versions of [[Pièces jointes|attachments]] are stored for two weeks.
+Les versions plus anciennes des [[Pièces jointes|pièces jointes]] sont conservées pendant deux semaines.
 
-### How long do you keep my data after my subscription expires?
+### Combien de temps conservez-vous mes données après l'expiration de mon abonnement ?
 
-We keep data in your remote vaults, including version history, for one month after your subscription expires. Any local vaults on your devices are unaffected.
+Nous conservons les données de vos coffres distants, y compris l'historique des versions, pendant un mois après l'expiration de votre abonnement. Les coffres locaux sur vos appareils ne sont pas affectés.
 
-As long as you renew within one month, there should be no impact on your usage. If you renew after a month, when your remote vaults have been removed, you can [[Configurer Obsidian Sync|create a new remote vault]] and connect your local vault.
+Tant que vous renouvelez dans le mois, il ne devrait y avoir aucun impact sur votre utilisation. Si vous renouvelez après un mois, lorsque vos coffres distants ont été supprimés, vous pouvez [[Configurer Obsidian Sync|créer un nouveau coffre distant]] et connecter votre coffre local.
 
-### Do you keep my data if I refund my subscription service?
+### Conservez-vous mes données si je me fais rembourser mon abonnement ?
 
-No. The data is deleted immediately from Obsidian Sync servers. Data in your [[Coffres locaux et distants|local vault]] is not affected.
+Non. Les données sont supprimées immédiatement des serveurs Obsidian Sync. Les données de votre [[Coffres locaux et distants|coffre local]] ne sont pas affectées.

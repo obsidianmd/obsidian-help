@@ -5,20 +5,19 @@ description: >-
   to manage Properties.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Properties view
 ---
+Vue des propriétés est un [[Modules principaux|module principal]] qui ajoute deux vues dans la barre latérale que vous pouvez utiliser pour gérer les [[Propriétés]] :
 
-Properties view is a [[Plugins principaux|core plugin]] that adds two sidebar views that you can use to manage [[Propriétés]]:
+- **Propriétés du fichier** affiche une vue des propriétés de la note active.
+- **Toutes les propriétés** affiche une liste de toutes les propriétés de votre coffre et leur type.
 
-- **File properties** shows a view of the properties for the active note.
-- **All properties** shows a list of all the properties in your vault and their type.
+## Vue de toutes les propriétés
 
-## All properties view
+Avec la vue « Toutes les propriétés », vous pouvez :
 
-With the "All properties" view you can:
-
-- Sort properties by name or by frequency (total number of uses in your vault).
-- Click a property to open [[Recherche]] view with the [[Recherche#Search properties|property search]] syntax pre-filled.
-- Right-click a property to rename it globally.
+- Trier les propriétés par nom ou par fréquence (nombre total d'utilisations dans votre coffre).
+- Cliquer sur une propriété pour ouvrir la vue [[Rechercher]] avec la syntaxe de [[Rechercher#Rechercher des propriétés|recherche de propriétés]] pré-remplie.
+- Faire un clic droit sur une propriété pour la renommer globalement.

@@ -5,69 +5,69 @@ cssclasses:
 description: Learn how to transition from your current syncing solution to Obsidian Sync.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Switch to Obsidian Sync
 ---
-Learn how to transition from your current syncing solution to Obsidian Sync.
+Découvrez comment passer de votre solution de synchronisation actuelle à Obsidian Sync.
 
-> [!warning] Avoid using multiple solutions to sync the same files
-> We [[Questions fréquentes#Can I use a third-party sync with Obsidian Sync?|do not recommend]] using Obsidian Sync alongside cloud storage services (e.g. iCloud, Dropbox, OneDrive, Google Drive) as this can cause conflicts. However, cloud storage services may play a role in your [[Sauvegarder vos fichiers Obsidian|backup]] strategy.
+> [!warning] Évitez d'utiliser plusieurs solutions pour synchroniser les mêmes fichiers
+> Nous [[Questions fréquentes#Puis-je utiliser un service de synchronisation tiers avec Obsidian Sync ?|ne recommandons pas]] d'utiliser Obsidian Sync en parallèle de services de stockage en nuage (par ex. iCloud, Dropbox, OneDrive, Google Drive) car cela peut provoquer des conflits. Cependant, les services de stockage en nuage peuvent jouer un rôle dans votre stratégie de [[Sauvegarder vos fichiers Obsidian|sauvegarde]].
 
-## Move your vault out of your third-party syncing service or cloud storage
+## Déplacer votre coffre hors de votre service de synchronisation tiers ou de stockage en nuage
 
-If your vault is stored in any of the following locations, it's likely being synced by a third-party service:
+Si votre coffre est stocké dans l'un des emplacements suivants, il est probablement synchronisé par un service tiers :
 
-- **Windows**: `C:\Users\Username\Desktop` or `C:\Users\Username\Documents`
-- **macOS**: `/users/username/Desktop` or `/users/username/Documents`
-- **iOS**: The **iCloud** folder within the Files app
-- **Other**: Any folder under a syncing service, such as `Drive/my-vault`, `Dropbox/my-vault`, `pSync/my-vault`, etc.
+- **Windows** : `C:\Users\Username\Desktop` ou `C:\Users\Username\Documents`
+- **macOS** : `/users/username/Desktop` ou `/users/username/Documents`
+- **iOS** : Le dossier **iCloud** dans l'application Fichiers
+- **Autre** : Tout dossier sous un service de synchronisation, comme `Drive/my-vault`, `Dropbox/my-vault`, `pSync/my-vault`, etc.
 
-While Android and Linux tend to have fewer issues with this, it's still worth checking your vault location on these devices.
+Bien qu'Android et Linux posent généralement moins de problèmes à ce niveau, il est tout de même utile de vérifier l'emplacement de votre coffre sur ces appareils.
 
-> [!tip] If your current local vault is connected to a remote vault, Obsidian will try to detect if the vault is in a syncing service. If it is, you will see a message at the top of Obsidian Sync's settings.
+> [!tip] Si votre coffre local actuel est connecté à un coffre distant, Obsidian essaiera de détecter si le coffre se trouve dans un service de synchronisation. Si c'est le cas, un message apparaîtra en haut des paramètres d'Obsidian Sync.
 
-To avoid conflicts with syncing services, we recommend storing your Obsidian vaults in the following locations:
+Pour éviter les conflits avec les services de synchronisation, nous recommandons de stocker vos coffres Obsidian aux emplacements suivants :
 
-- **Windows**: Recommended locations in order:
-    1. `D:\` or any other non-C, non-network drive on your device
-    2. `C:\Vaults` (if you have permissions to use the C:\ drive)
-    3. `C:\Users\Username\Vaults` (if you must keep your vault within C:\Users\Username, make sure OneDrive is set not to remove files. OneDrive is generally less aggressive outside of `Desktop` and `Documents` folders.)
-- **macOS**: `/users/username/vaults`
-- **Linux**: No specific recommendation due to the variety of filesystems. Just ensure that Obsidian has full read/write access and that no syncing service manages the folder.
-- **iOS/iPadOS**: Store the vault **On My iPhone** or **On the Device**.
-- **Android**: Use the `Documents/` folder on your device.
+- **Windows** : Emplacements recommandés par ordre de préférence :
+    1. `D:\` ou tout autre lecteur non-C et non réseau sur votre appareil
+    2. `C:\Vaults` (si vous avez les permissions pour utiliser le lecteur C:\)
+    3. `C:\Users\Username\Vaults` (si vous devez garder votre coffre dans C:\Users\Username, assurez-vous que OneDrive est configuré pour ne pas supprimer les fichiers. OneDrive est généralement moins intrusif en dehors des dossiers `Desktop` et `Documents`.)
+- **macOS** : `/users/username/vaults`
+- **Linux** : Pas de recommandation spécifique en raison de la variété des systèmes de fichiers. Assurez-vous simplement qu'Obsidian dispose d'un accès complet en lecture/écriture et qu'aucun service de synchronisation ne gère le dossier.
+- **iOS/iPadOS** : Stockez le coffre dans **Sur mon iPhone** ou **Sur l'appareil**.
+- **Android** : Utilisez le dossier `Documents/` sur votre appareil.
 
-## Move your vault using Obsidian on desktop
+## Déplacer votre coffre avec Obsidian sur ordinateur
 
-![[Gérer les coffres#Move vault to a different folder]]
+![[Gérer les coffres#Déplacer un coffre vers un autre dossier]]
 
-## Move your vault on mobile
+## Déplacer votre coffre sur mobile
 
-On mobile devices, Obsidian operates in a sandboxed environment, meaning you cannot move vaults within the app like you can on desktop.
+Sur les appareils mobiles, Obsidian fonctionne dans un environnement cloisonné, ce qui signifie que vous ne pouvez pas déplacer les coffres depuis l'application comme sur ordinateur.
 
 ### Android
 
-Android filesystems vary greatly by device, but generally, follow the same steps as you would to move your vault manually, ensuring it is removed from any syncing service on your device.
+Les systèmes de fichiers Android varient considérablement selon les appareils, mais en général, suivez les mêmes étapes que pour déplacer votre coffre manuellement, en vous assurant qu'il est retiré de tout service de synchronisation sur votre appareil.
 
-### iOS and iPadOS
+### iOS et iPadOS
 
-To move an existing iCloud vault to your device, follow these steps:
+Pour déplacer un coffre iCloud existant vers votre appareil, suivez ces étapes :
 
-> [!note] If you already have the data on another device and have set up Obsidian Sync, it's recommended to [[Configurer Obsidian Sync#Sync a remote vault on another device|set up a new local vault from Sync]] instead.
+> [!note] Si vous avez déjà les données sur un autre appareil et avez configuré Obsidian Sync, il est recommandé de [[Configurer Obsidian Sync#Synchroniser un coffre distant sur un autre appareil|configurer un nouveau coffre local depuis Sync]] à la place.
 
-- [[Sauvegarder vos fichiers Obsidian|Back up]] your vault.
-- Create a new vault on your device, ensuring **Save in iCloud Drive** is disabled.
-- Force quit the Obsidian app on all devices to pause Sync.
-- Open the **Files** app on your iOS/iPadOS device.
-- Long-press the vault folder under **iCloud Drive → Obsidian**, then select **Move**.
-- Move the vault to **On My iPhone/Device → Obsidian** and confirm that it's now visible.
-- Tap **Copy**.
-- Return to **iCloud Drive → Obsidian** and delete the old vault folder.
+- [[Sauvegarder vos fichiers Obsidian|Sauvegardez]] votre coffre.
+- Créez un nouveau coffre sur votre appareil, en vous assurant que **Enregistrer dans iCloud Drive** est désactivé.
+- Forcez la fermeture de l'application Obsidian sur tous les appareils pour mettre Sync en pause.
+- Ouvrez l'application **Fichiers** sur votre appareil iOS/iPadOS.
+- Appuyez longuement sur le dossier du coffre sous **iCloud Drive → Obsidian**, puis sélectionnez **Déplacer**.
+- Déplacez le coffre vers **Sur mon iPhone/Appareil → Obsidian** et confirmez qu'il est maintenant visible.
+- Appuyez sur **Copier**.
+- Retournez dans **iCloud Drive → Obsidian** et supprimez l'ancien dossier du coffre.
 
-Once you reopen Obsidian, the vault should show a vault icon instead of a cloud icon, confirming it is no longer in iCloud Drive. Obsidian Sync will also no longer display the warning message within its settings.
+Lorsque vous rouvrirez Obsidian, le coffre devrait afficher une icône de coffre au lieu d'une icône de nuage, confirmant qu'il n'est plus dans iCloud Drive. Obsidian Sync n'affichera également plus le message d'avertissement dans ses paramètres.
 
-## Next steps
+## Étapes suivantes
 
-- Looking to get started with Obsidian Sync? [[Configurer Obsidian Sync]]
-- Still need assistance? Check out [[Résoudre les problèmes d'Obsidian Sync]]
+- Vous souhaitez démarrer avec Obsidian Sync ? [[Configurer Obsidian Sync]]
+- Vous avez encore besoin d'aide ? Consultez [[Résoudre les problèmes d'Obsidian Sync]]

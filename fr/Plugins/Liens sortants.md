@@ -5,25 +5,24 @@ description: >-
   glance, as well as potential links to be made.
 publish: true
 mobile: false
-localized: null
+localized: '2026-03-18'
 aliases:
   - Outgoing links
 ---
-Outgoing links is a [[Plugins principaux|core plugin]] that shows links from the active note at a glance, as well as potential links to be made. It's similar to the [[Liens retour]] plugin, which instead shows you _incoming_ links to the active note.
+Les liens sortants sont un [[Modules principaux|module principal]] qui affiche en un coup d'œil les liens depuis la note active, ainsi que les liens potentiels à créer. Ce module est similaire au module [[Rétroliens]], qui vous montre au contraire les liens _entrants_ vers la note active.
 
-The Outgoing links tab ( ![[obsidian-icon-links-going-out.svg#icon]] ) is available in the right sidebar and contains the following sections:
+L'onglet Liens sortants ( ![[obsidian-icon-links-going-out.svg#icon]] ) est disponible dans la barre latérale droite et contient les sections suivantes :
 
-- **Links** lists all links in the active note. Click a link to open the linked note.
-- **Unlinked mentions** lists any text in the active note that matches the name or [[Alias|alias]] of another note in your vault. Unlinked mentions helps you discover links you aren't aware of yet.
+- **Liens** liste tous les liens dans la note active. Cliquez sur un lien pour ouvrir la note liée.
+- **Mentions non liées** liste tout texte dans la note active correspondant au nom ou à l'[[Alias|alias]] d'une autre note dans votre coffre. Les mentions non liées vous aident à découvrir des liens dont vous n'aviez pas encore connaissance.
 
-> [!info] Excluded files
-> Files matching your [[Paramètres#Excluded files|Excluded files]] patterns will not appear in Unlinked mentions.
+> [!info] Fichiers exclus
+> Les fichiers correspondant à vos modèles de [[Paramètres#Fichiers exclus|Fichiers exclus]] n'apparaîtront pas dans les Mentions non liées.
 
-To create a link from an unlinked mention, click the button with the note's name.
+Pour créer un lien à partir d'une mention non liée, cliquez sur le bouton portant le nom de la note.
 
 > [!tip]
-> Unlinked mentions can refer to different notes with the same name. To show the full path of the note, hover over the button with the note's name.
+> Les mentions non liées peuvent faire référence à différentes notes portant le même nom. Pour afficher le chemin complet de la note, survolez le bouton portant le nom de la note.
 
-> [!note] Code blocks
-> While you can create a link from an unlinked mention inside a code block, due to the nature of code blocks, links don't show up under the Links section.
-
+> [!note] Blocs de code
+> Bien que vous puissiez créer un lien à partir d'une mention non liée à l'intérieur d'un bloc de code, en raison de la nature des blocs de code, les liens n'apparaissent pas dans la section Liens.

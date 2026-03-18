@@ -6,19 +6,50 @@ mobile: true
 aliases:
   - Advanced Use/Comment Obsidian stocke vos données
   - How Obsidian stores data
+localized: '2026-03-18'
 ---
-Nous pensons que [[Traduction d'Obsidian/Traduits/3 Proposées/Obsidian#En quoi sommes-nous différents ?|vos données sont toujours vôtres, et toujours sous votre contrôle]]. Vos notes sont sauvegardées en format markdown, un format de fichiers basé sur du texte brut, et devraient alors être lisible dans le futur par n'importe quel ordinateur pouvant traiter du fichier texte. Vous pouvez éditer vos notes librement sur d'autres applications, qu'elles soient ouvertes conjointement avec Obsidian ou pas.
+Obsidian stocke vos notes sous forme de fichiers en texte brut au [[Syntaxe de mise en forme de base|format Markdown]] dans un _coffre_. Un coffre est un dossier sur votre système de fichiers local, incluant tous ses sous-dossiers.
 
-Toutefois, il y a certaines données utiles pour l'application qui ne sont pas sauvegardées en markdown. Obsidian crée un dossier appelé `.obsidian` à la racine de chaque coffre que vous créez. Il contient toute votre configuration, allant de vos [[raccourcis clavier]] à vos [[modules complémentaires]]. Dans la plupart des systèmes, un dossier commençant par un point est invisible, donc vous n'allez probablement jamais le voir, à moins de le chercher activement. Si vous supprimez le dossier `.obsidian`, aucune de vos notes ne sera supprimée, mais vous perdrez la configuration de tous vos paramètres et tous les modules installés disparaîtrons. Il sera automatiquement recréé lorsque vous ouvrirez votre coffre sur Obsidian une nouvelle fois. 
+Comme les notes sont des fichiers en texte brut, vous pouvez utiliser d'autres éditeurs de texte et gestionnaires de fichiers pour modifier et gérer vos notes. Obsidian rafraîchit automatiquement votre coffre pour prendre en compte les modifications externes.
 
-Si vous utilisez `.git`, il est probablement mieux d'ignorer le répertoire `.obsidian`. En effet, le cache se met à jour si fréquemment que vos commits peuvent vite devenir lourds. Nous n'avons toutefois constaté aucun problème en le laissant inclus sur git.
+Vous pouvez créer un coffre partout où votre système d'exploitation le permet. Obsidian se synchronise avec [[Introduction à Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git et de nombreux autres services tiers.
 
-Si vous utilisez un css personnalisé, Obsidian crée un dossier appelé `obsidian.css` à la racine de votre coffre. Pour plus de détails, vous pouvez consulter la page [[CSS personnalisés]]. 
+Vous pouvez ouvrir plusieurs dossiers comme des coffres individuels, par exemple pour séparer les notes professionnelles et scolaires.
 
-Obsidian sauvegarde aussi quelques informations dans le dossier système. Le fichier en question est propre à chaque système d'expoloitation. 
-Sur Mac, c'est  `/Users/yourusername/Library/Application Support/obsidian`. 
-Sur Windows, c'est `%APPDATA%\Obsidian\`.
-Et sur Linux, c'est `$XDG_CONFIG_HOME/obsidian/` ou `~/.config/obsidian/`. 
-Par conséquent, nous recommandons de ne pas créer un coffre dans ces dossiers.
+> [!warning] Coffres dans des coffres
+> Comme les [[Liens internes]] sont locaux à un coffre, nous vous recommandons de ne pas créer de coffres à l'intérieur d'autres coffres. Les liens pourraient ne pas être mis à jour correctement.
 
-Mis à part cela, vous pouvez créer un coffre n'importe où dans votre système d'exploitation, aux endroits où ce dernier le permet. Les fichiers d'Obsidian peuvent se synchroniser avec Dropbox, iCloud, OneDrive, git, et tous les autres services de synchronisation que nous avons essayé jusqu'à présent.
+## Paramètres du coffre
+
+Obsidian crée un [[Dossier de configuration|dossier de configuration]] `.obsidian` dans le dossier racine du coffre, qui contient les préférences spécifiques à ce coffre, telles que les [[Raccourcis clavier|raccourcis clavier]], les [[Thèmes|thèmes]] et les [[Modules complémentaires|modules complémentaires]].
+
+Par défaut, la plupart des systèmes d'exploitation masquent les dossiers dont le nom commence par un point (`.`), vous devrez donc peut-être modifier les paramètres de votre gestionnaire de fichiers pour le voir.
+
+- **macOS** : Dans le Finder, appuyez sur `Cmd+Maj+.` (point) pour afficher les fichiers cachés.
+- **Windows** : [Afficher les fichiers cachés](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)
++ **GNU/Linux** : Dans la plupart des explorateurs de fichiers, appuyez sur `Ctrl + h` pour afficher les fichiers cachés.
+
+> [!tip] Ajouter `.obsidian` à Git
+> Les fichiers `.obsidian/workspace.json` et `.obsidian/workspaces.json` stockent la disposition actuelle de l'espace de travail et sont mis à jour chaque fois que vous ouvrez un nouveau fichier. Si vous utilisez [Git](https://git-scm.com) pour gérer votre coffre, vous pourriez vouloir ajouter ces fichiers au `.gitignore`.
+
+## Paramètres globaux
+
+Obsidian stocke les paramètres globaux dans un dossier système. L'emplacement de ce dossier système dépend du système d'exploitation que vous utilisez.
+
+- **macOS** : `/Users/votrenom/Library/Application Support/obsidian`
+- **Windows** : `%APPDATA%\Obsidian\`
+- **Linux** : `$XDG_CONFIG_HOME/obsidian/` ou `~/.config/obsidian/`
+
+> [!warning] Ne créez pas de coffre dans le dossier système. Cela pourrait entraîner une corruption ou une perte de données.
+
+## IndexedDB
+
+IndexedDB est une base de données côté client de bas niveau qu'Obsidian utilise pour le stockage en arrière-plan. Elle aide à maintenir l'état des connexions [[Introduction à Obsidian Sync|Obsidian Sync]] et préserve le [[#Cache des métadonnées]] lorsque l'application est fermée.
+
+> [!warning] Si le [mode Isolement](<https://support.apple.com/en-us/105120>) d'Apple est activé et qu'Obsidian n'est pas exclu, ces fichiers de base de données ne seront pas sauvegardés, nécessitant une réindexation à chaque démarrage de l'application.
+
+### Cache des métadonnées
+
+Afin de fournir une expérience rapide lors de l'utilisation de l'application, Obsidian maintient un enregistrement local des métadonnées concernant les fichiers de votre coffre, appelé **cache des métadonnées**. Ces métadonnées alimentent de nombreuses fonctionnalités de l'application, de la vue graphique à la vue du plan.
+
+Obsidian maintient ce cache synchronisé avec les fichiers de votre coffre, mais il est possible que les données se désynchronisent par rapport aux fichiers sous-jacents. Si cela se produit dans votre coffre, vous pouvez reconstruire votre cache des métadonnées depuis les paramètres de l'application dans la section *Fichiers et liens*.

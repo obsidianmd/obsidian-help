@@ -1,19 +1,19 @@
 ---
 permalink: plugins/slash-commands
-localized: null
+localized: '2026-03-18'
 aliases:
   - Slash commands
 ---
-Slash commands is a [[Plugins principaux|core plugin]] that lets you perform commands in the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
+Les commandes slash sont un [[Modules principaux|module principal]] qui vous permet d'exécuter des commandes dans l'éditeur en tapant une barre oblique (`/`) au début d'une ligne ou après un espace vide.
 
-To run a command using Slash commands:
+Pour exécuter une commande à l'aide des commandes slash :
 
-1. In the editor, type a forward slash (`/`).
-2. Enter the name of the command you want to run to search the list of available commands.
-3. Navigate to the command using the arrow keys.
-4. Press Enter.
+1. Dans l'éditeur, tapez une barre oblique (`/`).
+2. Saisissez le nom de la commande que vous souhaitez exécuter pour rechercher dans la liste des commandes disponibles.
+3. Naviguez jusqu'à la commande à l'aide des touches fléchées.
+4. Appuyez sur Entrée.
 
-To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
+Pour quitter la recherche de commande slash sans exécuter de commande, appuyez sur `Échap` ou la touche `Espace`.
 
-> [!TIP] Fuzzy matching
-> Like the [[Palette de commandes]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.
+> [!TIP] Correspondance floue
+> Comme la [[Palette de commandes]], les commandes slash prennent en charge la correspondance floue, ce qui vous permet de rechercher des commandes même si vous ne connaissez pas leur nom exact. Par exemple, tapez « scf » pour trouver la commande **Save current file**.

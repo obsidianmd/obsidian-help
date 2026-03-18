@@ -3,118 +3,117 @@ permalink: sync/security
 description: Learn about the security and privacy considerations for Obsidian Sync.
 publish: true
 mobile: false
-localized: null
+localized: '2026-03-18'
 aliases:
   - Security and privacy
 ---
+## Chiffrement
 
-## Encryption
+Pour votre sécurité, [[Introduction à Obsidian Sync|Obsidian Sync]] chiffre votre [[Coffres locaux et distants|coffre distant]] et toutes les communications avec les serveurs d'Obsidian.
 
-For your safety, [[Introduction à Obsidian Sync|Obsidian Sync]] encrypts your [[Coffres locaux et distants|remote vault]] and all communication with Obsidian's servers.
+Lorsque vous créez un nouveau coffre distant, vous avez deux options :
 
-When you create a new remote vault, you have two options:
+- **Chiffrement de bout en bout (par défaut)** offre la sécurité la plus forte mais nécessite que vous conserviez votre mot de passe de chiffrement en lieu sûr. Cela garantit que personne — pas même l'équipe Obsidian — ne peut accéder à vos notes.
+- **Chiffrement standard** utilise une clé de chiffrement gérée par Obsidian pour protéger vos données en transit et sur notre serveur.
 
-- **End-to-end encryption (default)** offers the strongest security but requires you to safely store your encryption password. This guarantees that no one — not even the Obsidian team — can access your notes.
-- **Standard encryption** uses an encryption key managed by Obsidian to protect your data in transit and on our server. 
+Nous recommandons le chiffrement de bout en bout pour tous les utilisateurs car c'est l'option la plus privée et la plus sécurisée. Cependant, sachez que si vous oubliez ou perdez votre mot de passe de chiffrement, vos données restent chiffrées et inutilisables pour toujours. Nous ne sommes pas en mesure de récupérer votre mot de passe, ni vos données chiffrées.
 
-We recommend end-to-end encryption for all users as it is the most private and secure option. However, be aware that if you forget or lose your encryption password, your data remains encrypted and unusable forever. We're not able to recover your password, or any encrypted data for you.
+Votre choix ne concerne que votre coffre distant. Obsidian ne chiffre pas votre coffre local.
 
-Your choice only affects your remote vault. Obsidian doesn't encrypt your local vault.
+### Que signifie le chiffrement de bout en bout ?
 
-### What does end-to-end encryption mean?
+Le chiffrement de bout en bout signifie que les données sont chiffrées dès qu'elles quittent votre appareil, et ne peuvent être déchiffrées qu'à l'aide de votre clé de chiffrement une fois de retour sur l'un de vos appareils.
 
-End-to-end encryption means that the data is encrypted from the moment it leaves your device, and can only be decrypted using your encryption key once it's back on one of your devices.
+Nous ne pouvons pas lire vos données. Pas plus que d'éventuels espions, tels que votre fournisseur d'accès à Internet.
 
-We can't read your data. Neither can any potential eavesdroppers, such as your internet service provider.
+Dans le cas rare d'une compromission complète du serveur, vos données restent chiffrées — personne ne peut déchiffrer vos fichiers sans connaître votre mot de passe.
 
-In the rare case of a complete server breach, your data remains encrypted—no one can decrypt your files without knowing your password.
+### Quels sont les risques liés à l'utilisation du chiffrement standard ?
 
-### What are the risks of using standard encryption?
+Le chiffrement standard est fondamentalement moins sécurisé que le chiffrement de bout en bout, mais il peut être une option pratique si vous ne vous attendez pas à ce que les données que vous synchronisez soient totalement privées. Par exemple, si votre coffre synchronisé est [[Introduction à Obsidian Publish|publié]] sur un site web public comme ce site d'aide, alors le chiffrement de bout en bout n'est pas nécessaire.
 
-Standard encryption is fundamentally less secure than end-to-end encryption, but it can be a convenient option if you do not expect the data you are syncing to be completely private. For example, if your synced vault is [[Introduction à Obsidian Publish|published]] to a public website like this Help site, then end-to-end encryption is not necessary.
+Le chiffrement standard est la même méthode de chiffrement utilisée par les entreprises de stockage cloud et les plateformes de logiciel en tant que service, telles que Google Docs, Dropbox et iCloud (sans Protection avancée des données). Votre clé de chiffrement est générée par l'application et utilisée pour protéger vos données en transit et sur le serveur. Parce que la clé de chiffrement est stockée sur les serveurs de l'entreprise, elle peut être utilisée pour déchiffrer vos données, par exemple dans le cas où l'entreprise est soumise à un mandat de perquisition, ou dans le cas où vous souhaitez accéder à vos données via un navigateur web.
 
-Standard encryption is the same method of encryption used by cloud storage companies and software-as-a-service platforms, such as Google Docs, Dropbox, and iCloud (without Advanced Data Protection). Your encryption key is generated by the app and used to protect your data in transit and on the server. Because the encryption key is stored on company servers, it can be used to decrypt your data, e.g. in a case where the company is subject to a search warrant, or in a case where you want to access your data via a web browser.
+Le chiffrement de bout en bout garantit qu'Obsidian ne peut jamais accéder à vos données et devrait toujours être utilisé pour synchroniser des données que vous souhaitez garder totalement privées et sécurisées.
 
-End-to-end encryption guarantees that Obsidian can never access your data and should always be used to sync data that you wish to remain completely private and secure.
+### Quel chiffrement utilisez-vous ?
 
-### What encryption do you use?
+Pour la sécurité des données, nous mettons en œuvre des protocoles de chiffrement conformes aux normes de l'industrie. Plus précisément, nous utilisons [AES-256](https://www.nist.gov/publications/advanced-encryption-standard-aes-0), la norme de chiffrement la plus robuste, largement employée dans des contextes tels que la banque en ligne. Le processus de chiffrement implique les détails techniques suivants :
 
-For data security, we implement industry-standard encryption protocols. Specifically, we use [AES-256](https://www.nist.gov/publications/advanced-encryption-standard-aes-0), the strongest encryption standard, widely employed in contexts such as online banking. The encryption process involves the following technical details:
+- **Fonction de dérivation de clé :** [scrypt](https://en.wikipedia.org/wiki/Scrypt) avec sel
+- **Algorithme de chiffrement :** AES-256 utilisant [Galois/Counter Mode (GCM)](https://en.wikipedia.org/wiki/Galois/Counter_Mode)
 
-- **Key derivation function:** [scrypt](https://en.wikipedia.org/wiki/Scrypt) with salt
-- **Encryption algorithm:** AES-256 using [Galois/Counter Mode (GCM)](https://en.wikipedia.org/wiki/Galois/Counter_Mode)
+### Puis-je vérifier que mes données sont chiffrées de bout en bout ?
 
-### Can I verify that my data is end-to-end encrypted?
+Oui. Consultez notre guide, [comment vérifier le chiffrement de bout en bout d'Obsidian Sync](https://obsidian.md/blog/verify-obsidian-sync-encryption/). Ce guide fournit des instructions étape par étape pour que vous puissiez vérifier sans avoir à faire confiance le chiffrement de bout en bout de vos données lorsqu'elles sont envoyées et reçues via les serveurs de Sync.
 
-Yes. See our guide, [how to verify Obsidian Sync's end-to-end encryption](https://obsidian.md/blog/verify-obsidian-sync-encryption/). This guide provide step-by-step instructions for you to trustlessly verify the end-to-end encryption of your data when it is sent and received via Sync servers.
+### Obsidian a-t-il fait l'objet d'un audit de sécurité par un tiers ?
 
-### Has Obsidian completed a third-party security audit?
+Oui. Obsidian a été audité de manière indépendante. Visitez notre [page Sécurité](https://obsidian.md/security) pour consulter les rapports d'audit. Des audits réguliers par des sociétés de sécurité tierces garantissent que le code et les procédures d'Obsidian respectent les normes de sécurité les plus élevées.
 
-Yes. Obsidian has been independently audited. Visit our [Security page](https://obsidian.md/security) to view audit reports. Regular audits by third-party security firms ensure that Obsidian code and procedures meet the highest security standards.
+### Que se passe-t-il si j'oublie mon mot de passe de chiffrement ?
 
-### What happens if I forget my encryption password?
+Si vous perdez ou oubliez votre mot de passe de chiffrement, vous ne pourrez plus connecter de coffres supplémentaires à votre coffre distant. Comme le mot de passe de chiffrement n'est sauvegardé nulle part, il est perdu à jamais.
 
-If you ever lose or forget the encryption password, you won't be able to connect additional vaults to your remote vault. Since the encryption password isn't saved anywhere, it's forever lost.
+Vos données, cependant, sont généralement stockées en toute sécurité localement sur chacun de vos appareils.
 
-Your data, however, is usually safely stored locally on each of your devices.
+Pour continuer à utiliser Obsidian Sync, nous vous suggérons d'effectuer une reconfiguration complète afin de pouvoir ajouter de nouveaux appareils à votre système Sync :
 
-To continue using Obsidian Sync, we suggest doing a full re-setup to be able to add new devices to your Sync system:
+1. Faites une sauvegarde complète du coffre sur votre appareil principal, au cas où quelque chose tournerait mal. Cela peut être aussi simple que de copier le dossier du coffre, ou de créer un fichier zip à partir du coffre.
+2. Déconnectez le coffre distant sur chacun de vos appareils. Pour cela, allez dans **[[Paramètres]] → Sync → Choisir un coffre distant → Déconnecter**.
+3. [[Configurer Obsidian Sync#Créer un nouveau coffre distant|Créez un nouveau coffre distant]] sur votre appareil principal depuis la même page des Paramètres. Optionnellement, vous pouvez supprimer le coffre distant précédent puisque vous n'avez de toute façon plus le mot de passe. (Vous devrez peut-être supprimer le coffre distant précédent si vous avez atteint la [[Questions fréquentes#Combien de coffres distants puis-je avoir ?|limite de coffres]])
+4. Attendez que votre appareil principal se synchronise. Observez l'indicateur de synchronisation en bas à droite de l'écran jusqu'à ce qu'il affiche une coche verte.
+5. Connectez chacun de vos appareils au même coffre distant nouvellement créé. Lors de la connexion, un avertissement concernant la fusion des coffres s'affichera, c'est normal et vous pouvez continuer. Attendez que chaque appareil soit entièrement synchronisé avant de passer au suivant. Cela réduit les risques de problèmes.
+6. Maintenant, tous vos appareils devraient être connectés au nouveau coffre distant.
 
-1. Make a full vault backup on your primary device, just in case something goes wrong. This can be as simple as making a copy of the vault folder, or creating a zip file from the vault.
-2. Disconnect the remote vault in each of your devices. This can be done by going to **[[Paramètres]] → Sync → Pick remote vault → Disconnect**.
-3. [[Configurer Obsidian Sync#Create a new remote vault|Create a new remote vault]] on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the [[Questions fréquentes#How many remote vaults can I have?|vault limit]])
-4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
-5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
-6. Now all your devices should be connected to the new remote vault.
+## Hébergement
 
-## Hosting
+### Où hébergez-vous les serveurs pour Obsidian Sync ?
 
-### Where do you host the servers for Obsidian Sync?
+Nos centres de données, alimentés par [DigitalOcean](https://www.digitalocean.com), offrent des options d'hébergement de coffres distants géo-régionaux dans les emplacements suivants :
 
-Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provide geo-regional remote vault hosting options in the following locations:
-
-> [!abstract] Sync regions
-> **Automatic**: Your data center is chosen based on your IP location, at the time when you first set it up.
+> [!abstract] Régions de Sync
+> **Automatique** : Votre centre de données est choisi en fonction de la localisation de votre IP, au moment de la première configuration.
 > 
-> **Asia**: Singapore
-> **Europe**: Frankfurt, Germany
-> **North America**: San Francisco, USA 
-> **Oceania**: Sydney, Australia
+> **Asie** : Singapour
+> **Europe** : Francfort, Allemagne
+> **Amérique du Nord** : San Francisco, États-Unis
+> **Océanie** : Sydney, Australie
 ^sync-geo-regions
 
-### Where can I find my current Sync server and where is it hosted?
+### Où puis-je trouver mon serveur Sync actuel et où est-il hébergé ?
 
-To locate your Obsidian Sync server, follow these steps:
-1. Go to **[[Paramètres]]** → **Sync** → **Copy Debug Info**.
-2. Paste the copied information into a note or file.
-3. Look for a line similar to this: `Host server: wss://sync-xx.obsidian.md`
+Pour localiser votre serveur Obsidian Sync, suivez ces étapes :
+1. Allez dans **[[Paramètres]]** → **Sync** → **Copier les informations de débogage**.
+2. Collez les informations copiées dans une note ou un fichier.
+3. Recherchez une ligne similaire à celle-ci : `Host server: wss://sync-xx.obsidian.md`
 
-This line indicates the server where your remote vault is hosted. For more details on the server's locations and uptime, visit our [status page](https://status.obsidian.md/).
+Cette ligne indique le serveur où votre coffre distant est hébergé. Pour plus de détails sur l'emplacement du serveur et sa disponibilité, visitez notre [page de statut](https://status.obsidian.md/).
 
-## Network and access
+## Réseau et accès
 
-### Managing access to Obsidian Sync on your network
+### Gérer l'accès à Obsidian Sync sur votre réseau
 
-To regulate access to Obsidian Sync on your network, you need to manage the following domains:
+Pour réguler l'accès à Obsidian Sync sur votre réseau, vous devez gérer les domaines suivants :
 
 `sync-xx.obsidian.md`
 
-The `xx` in this case represents a number ranging from `1 - 100`.
+Le `xx` dans ce cas représente un nombre allant de `1 à 100`.
 
-> [!tip] If your firewall system supports it, we recommend whitelisting `sync-*.obsidian.md` to account for the continuous growth in subdomain numbers.
+> [!tip] Si votre système de pare-feu le permet, nous recommandons d'ajouter `sync-*.obsidian.md` à la liste blanche pour tenir compte de la croissance continue du nombre de sous-domaines.
 
 ## Limitations
 
-Obsidian Sync is designed to keep your notes private and secure. To deliver fast, reliable sync and efficient storage across devices, we make some deliberate trade-offs in how encryption is applied.
+Obsidian Sync est conçu pour garder vos notes privées et sécurisées. Pour offrir une synchronisation rapide, fiable et un stockage efficace entre les appareils, nous faisons des compromis délibérés dans la façon dont le chiffrement est appliqué.
 
-### Deterministic file-hash encryption
+### Chiffrement déterministe des empreintes de fichiers
 
-We encrypt file hashes deterministically: the same file content, using the same encryption key and salt, always produces the same encrypted hash on the server. This helps Sync detect duplicates and avoid re-uploading or re-storing identical data, which saves bandwidth and remote storage, especially in version history or when large files repeat.
+Nous chiffrons les empreintes de fichiers de manière déterministe : le même contenu de fichier, avec la même clé de chiffrement et le même sel, produit toujours la même empreinte chiffrée sur le serveur. Cela aide Sync à détecter les doublons et à éviter de re-télécharger ou re-stocker des données identiques, ce qui économise la bande passante et le stockage distant, en particulier dans l'historique des versions ou lorsque de gros fichiers sont répétés.
 
-However, if an attacker compromises a Sync server, and they have a separate way to force a user to upload files of their choosing, then the attacker could force the user to upload specific files and determine if the file matches against a file the user has previously uploaded.
+Cependant, si un attaquant compromet un serveur Sync, et qu'il dispose d'un moyen séparé pour forcer un utilisateur à télécharger des fichiers de son choix, alors l'attaquant pourrait forcer l'utilisateur à télécharger des fichiers spécifiques et déterminer si le fichier correspond à un fichier que l'utilisateur a précédemment téléchargé.
 
-### No cryptographic binding between path and content
+### Pas de liaison cryptographique entre le chemin et le contenu
 
-Some metadata is not end-to-end encrypted: which device uploaded or deleted a file, when it was uploaded, and the *mapping* between encrypted file paths and encrypted content. This data is readable by the server so it can route changes, determine the version history for a file, and keep devices in sync.
+Certaines métadonnées ne sont pas chiffrées de bout en bout : quel appareil a téléchargé ou supprimé un fichier, quand il a été téléchargé, et la *correspondance* entre les chemins de fichiers chiffrés et le contenu chiffré. Ces données sont lisibles par le serveur pour qu'il puisse acheminer les modifications, déterminer l'historique des versions d'un fichier et maintenir les appareils synchronisés.
 
-If a Sync server were compromised, an attacker could tamper with that mapping, causing the contents of one encrypted file to be delivered under a different file path. This doesn’t reveal your plaintext data, it remains encrypted.
+Si un serveur Sync était compromis, un attaquant pourrait altérer cette correspondance, faisant en sorte que le contenu d'un fichier chiffré soit livré sous un chemin de fichier différent. Cela ne révèle pas vos données en clair, elles restent chiffrées.

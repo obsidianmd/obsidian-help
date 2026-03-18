@@ -8,13 +8,28 @@ mobile: true
 aliases:
   - How to/Travailler avec plusieurs volets
   - Workspace
+localized: '2026-03-18'
 ---
-Dans Obsidian chaque note est affichée dans son propre onglet. Ceux-ci peuvent être divisés, dupliqués ou déplacés pour créer l'espace de travail dont vous avez besoin.
+L'espace de travail est le conteneur principal de tous les composants qui constituent l'interface d'Obsidian. Il se compose de différents éléments disposés autour de vos notes, vous permettant de personnaliser la façon dont vous visualisez et interagissez avec votre contenu.
 
-La disposition des onglets peut être réorganisée en les faisant glisser en haut de l'interface. Glisser-déposer sur l'un ou l'autre des quatre côtés d'un volet existant crée une division horizontale ou verticale, et glisser-déposer au milieu permute les positions avec le volet cible.
+## Bureau
 
-![[Travailler avec plusieurs notes#^8bd62f]]
+Dans l'application de bureau Obsidian, l'espace de travail comprend :
 
-Les volets peuvent également être déplacés vers les barres latérales et les barres latérales peuvent être repositionnées de la même manière. Un glisser-déposer en haut ou en bas de la barre latérale créera une division horizontale, et un glisser-déposer au milieu créera une division verticale. Vous pouvez, par exemple, déplacer l'[[explorateur de fichiers]] et effectuer une recherche sur le côté droit avec la barre latérale des [[rétroliens]]. Ou vous pouvez avoir une note à laquelle vous faites souvent référence, comme une table des matières ou votre [[Notes quotidiennes|note quotidienne]], positionnée dans l'une des barres latérales, pendant que vous naviguez librement dans l'éditeur. Les fichiers peuvent toujours être modifiés dans la barre latérale, ce qui peut être un endroit utile pour conserver une liste de liens en cours d'exécution ou une checklist en cours. Cela peut également être très utile lorsque vous travaillez avec des [[rétroliens]].
+- Le [[Ruban]] disposé verticalement sur le côté gauche de l'application
+- Les [[Barre latérale|barres latérales]] à gauche et à droite (peuvent être repliées)
+    - Les [[Barre latérale#Groupes d'onglets|groupes d'onglets de la barre latérale]] (peuvent être divisés verticalement)
+    - Les [[Barre latérale#Onglets|onglets de la barre latérale]]
+- Les [[Onglets#Organiser vos onglets et fenêtres|groupes d'onglets]] dans la zone de contenu centrale (peuvent être divisés verticalement ou horizontalement)
+    - Les [[Onglets]]
+- La [[Barre d'état]] dans le coin inférieur droit
 
-Les onglets peuvent être liés manuellement les uns aux autres en utilisant le **menu Plus d'options** (l'icône à trois points dans le coin supérieur droit du volet). Vous pouvez également, depuis le **menu Plus d'options**, ouvrir les [[rétroliens]] d'une note spécifique, ce qui ne sera lié qu'à ce fichier. Il y a une option équivalente dans la [[palette de commandes]].
+## Mobile
+
+Dans l'application mobile Obsidian, l'espace de travail comprend :
+
+- Les [[Onglets]] gérés depuis le compteur d'onglets dans la [[Application mobile#Barre de navigation|barre de navigation]]
+- Les [[Barre latérale|barres latérales]] (ouvertes par des gestes de balayage gauche et droit)
+- La [[Application mobile#Barre de navigation|barre de navigation]] en bas de l'écran
+- Le [[Ruban|menu du ruban]] dans la barre de navigation (contient des actions personnalisables)
+- La [[Application mobile|barre d'outils de l'éditeur]] au-dessus du clavier lors de l'édition

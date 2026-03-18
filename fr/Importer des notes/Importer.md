@@ -9,9 +9,17 @@ mobile: true
 aliases:
   - Plugins/Module d'importation
   - Importer
+localized: '2026-03-18'
 ---
-Le module d'importation vous aide à migrer vos fichiers vers Obsidian depuis un grand nombre d'applications et formats. Pour en savoir plus sur la marche à suivre, consultez la note [[Importer des notes]]. Il s'agit d'un [[Modules complémentaires|module complémentaire]] officiel. Cela veut dire qu'il a été conçu par l'équipe Obsidian avec la contribution de membres de notre communauté d'utilisateurs pour construire le [code source ouvert](https://github.com/obsidianmd/obsidian-importer). Si vous le souhaitez, vous pouvez également contribuer au développement de ce module en ajoutant des formats qui ne seraient pas encore pris en charge. Pour cela, consultez le [guide de contribution](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md). 
+Importer vous aide à migrer vers Obsidian depuis diverses applications et formats. Consultez le guide [[Importer des notes]] pour plus de détails.
 
-Obsidian propose deux façons d'importer vos données :
-1. **Clé API :** Cette méthode permet de préserver tout votre espace de travail, mais nécessite une clé d'intégration ainsi qu'une connection internet et est un peu plus difficile que la deuxième.
-2. **Importation du fichier :** c'est une méthode plus simple car elle ne requiert pas de clé API ni de connexion internet, mais qui ne préserve pas certains type de fichiers (comme les bases de données Notion). 
+Importer est un [[Modules complémentaires|module complémentaire]] officiel créé par l'équipe Obsidian, avec des contributions à [notre code open source](https://github.com/obsidianmd/obsidian-importer). Vous pouvez contribuer en ajoutant des formats d'importation supplémentaires. [Voir le guide de contribution.](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md)
+
+## Installer Importer
+
+1. Suivez les instructions dans [[Modules complémentaires#Installer un module complémentaire]]
+2. Téléchargez et activez [Importer](obsidian://show-plugin?id=obsidian-importer) depuis la liste
+
+![[Importer des notes#Importer depuis d'autres applications et formats de fichiers]]
+
+![[Importer des notes#Plus de formats]]

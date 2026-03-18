@@ -1,51 +1,49 @@
 ---
 permalink: publish/limitations
-localized: null
+localized: '2026-03-18'
 aliases:
   - Publish limitations
 ---
+> [!tip] Les membres de notre formidable communauté ont trouvé des solutions de contournement pour certaines de ces limitations. Pour plus d'informations, veuillez consulter notre fil [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582) sur les forums d'Obsidian.
 
-> [!tip] Members of our awesome community have devised workarounds for some of these limitations. For more information, please visit our [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582) thread on the Obsidian forums.
+## Modules complémentaires
 
-## Community plugins
+Obsidian Publish offre un support minimal pour les [[Modules complémentaires]].
 
-Obsidian Publish has minimal support for [[Plugins communautaires]]. 
+Les modules qui produisent du Markdown brut, comme le plugin Waypoint, sont compatibles avec Publish car ils ne nécessitent pas l'application pour afficher leurs données.
 
-Plugins which output in raw markdown, such as the Waypoint plugin, are compatible with Publish because they do not require the application to render their data. 
+En revanche, un module qui nécessite un bloc de code spécifique pour s'afficher, comme Dataview ou Fantasy Statblocks, ne fonctionnera pas par défaut dans Publish.
 
-Whereas a plugin that requires a plugin codeblock to render, such as Dataview or Fantasy Statblocks, will not work by default in Publish. 
+## Graphe
 
-## Graph
+Publish offre une personnalisation basique des couleurs pour sa vue graphique à l'aide de CSS. Vous pouvez modifier les couleurs des nœuds dans votre fichier `publish.css` en utilisant les [variables CSS de la vue graphique](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
 
-Publish offers basic color customization for its graph view using CSS. You can modify the node colors in your `publish.css` file by utilizing the [Graph View CSS variables](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
+Notez que le graphe publié ne prend pas en charge les options complètes de tri et d'affichage disponibles dans la [[Vue graphique]] de l'application.
 
-Note that the published graph does not support the comprehensive sorting and viewing options available in the application's [[Vue graphique]].
+## Fichiers média
 
-## Media files
+Obsidian Publish n'est pas optimisé pour la diffusion en streaming de vidéos ou de fichiers audio volumineux. Nous incluons quelques bonnes pratiques pour gérer vos [[Fichiers média|fichiers média]] dans ces documents.
 
-Obsidian Publish is not optimized for streaming video or large audio files. We include some best practices for handling your [[Fichiers média|media files]] in these documents. 
+Pour améliorer l'expérience de vos visiteurs, nous vous recommandons d'utiliser plutôt un service d'hébergement vidéo, tel que YouTube ou Vimeo.
 
-To improve the experience for your visitors, we recommend that you instead use a video hosting service, such as YouTube or Vimeo.
+Vous pouvez téléverser des fichiers d'une taille **allant jusqu'à 50 Mo** sur votre site Publish. ^publish-media-limit
 
-You can upload files **up to 50mb** in size to your Publish site. ^publish-media-limit
+## PDF
 
-## PDFs
+Sur les appareils mobiles, les tablettes et les ordinateurs avec de petits écrans, vous pouvez rencontrer des problèmes où un PDF intégré ne se charge pas ou seule la première page est affichée. Cela est dû aux limitations du moteur de rendu PDF sur les appareils mobiles.
 
-On mobile devices, tablets, and computers with small screens, you may encounter issues where an embedded PDF won't load or only the first page is displayed. This is due to limitations with the PDF Renderer on mobile devices. 
+Pour du contenu destiné aux utilisateurs mobiles, nous suggérons de fournir des liens vers des PDF hébergés en externe ou d'inclure des liens internes permettant aux utilisateurs de télécharger le PDF directement sur leur appareil.
 
-For content aimed at mobile users, we suggest providing links to PDFs hosted externally or including internal links that allow users to download the PDF directly to their device.
+## Recherche
 
-## Search
+Publish offre un support basique pour la recherche en texte brut dans le contenu publié. La priorité des résultats de recherche est donnée aux :
 
-Publish has basic support for searching plain text in published content. Preference for search results is given to:
+- Noms de fichiers
+- Alias
+- Noms d'entêtes
 
-- File names
-- Aliases
-- Header names
+Après avoir recherché des correspondances dans les éléments ci-dessus, la recherche inclura ensuite le texte brut des notes publiées.
 
-After searching the above for matches, the search will then include plain text of the published notes.
+Pour améliorer la recherche sur votre site publié, il est recommandé d'utiliser des noms de fichiers descriptifs, d'incorporer plusieurs alias et de choisir des noms d'entêtes qui reflètent fidèlement le contenu.
 
-To improve the searchability of your published site, it is recommended to use descriptive file names, incorporate multiple aliases, and select header names that accurately reflect the content.
-
-Additionally, Publish does not currently support the application's [[Recherche#Embed search results in a note|embedded search results]] feature.
-
+De plus, Publish ne prend actuellement pas en charge la fonctionnalité [[Rechercher#Intégrer les résultats de recherche dans une note|d'intégration des résultats de recherche]] de l'application.

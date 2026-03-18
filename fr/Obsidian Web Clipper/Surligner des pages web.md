@@ -3,26 +3,34 @@ permalink: web-clipper/highlight
 aliases:
   - Plugins/Web Clipper/Surligner du contenu
   - Highlight web pages
+localized: '2026-03-18'
 ---
-Le Web clipper vous permet de surligner le texte d'une page Web et de sélectionner les éléments que vous voulez sauvegarder dans Obsidian. Vos surlignages sont sauvegardés, donc vous pouvez les modifier quand vous retournez sur une page déjà surlignée. Les surlignages peuvent être sauvegardés dans Obsidian quand vous ouvrez l'extension. 
+[[Introduction à Obsidian Web Clipper|Web Clipper]] vous permet de surligner du texte sur des pages web, et de sélectionner les éléments que vous souhaitez enregistrer dans Obsidian. Vos surlignages sont sauvegardés, ce qui vous permet de les retrouver lorsque vous retournez sur une page.
 
-### Activer le surligneur
+Les surlignages peuvent être [[Capturer des pages web|capturés]] et enregistrés dans Obsidian lorsque vous ouvrez l'extension.
 
-Vous pouvez activer le surlignage de plusieurs façons en fonction de votre navigateur : 
-- Avec l'icône du surligneur dans la palette de l'extension ; 
-- Avec les raccourcis clavier ;
-- Avec le menu contextuel, en cliquant-droit sur la page Web que vous êtes en train de consulter. 
+## Activer le surligneur
 
- Une fois que le surlignage est activé, vous pouvez sélectionner du texte, des images et d'autres éléments que vous souhaitez surligner. 
- 
-### Paramètres du surligneur
+Vous pouvez activer le surlignage de plusieurs manières, selon votre navigateur :
 
-Vous pouvez changer le comportement du surligneur en allant dans les paramètres du Web clipper. À cet endroit vous pouvez aussi exporter vos surlignages en fichier ``.json``. 
+- L'icône du surligneur dans le panneau de l'extension.
+- Les raccourcis clavier, pour activer l'extension depuis votre clavier.
+- Le menu contextuel, en faisant un clic droit sur la page web que vous visitez.
 
-Il y a trois options différentes de surlignage qui peuvent être insérées dans les notes du clipper via la variable `{{content}}` :
-- Surligner le contenu de la page — ajouter les surlignages directement au texte avec la syntaxe ` ==surligner== ` ;
-- **Remplacer le contenu de la page** — renvoie une liste des éléments mis en évidence, sans aucun contenu de la page ; 
-- **Annuler le surlignage** — récupérer le contenu original de la page sans surlignages. 
+Une fois le surlignage activé, vous pouvez sélectionner du texte, des images et des éléments que vous souhaitez surligner.
 
-Vous pouvez ajouter des surlignages directement à vos templates en utilisant la variable `{{highlights}}`
-> Exemple : `{{highlights|map: item → item.text|join:"\n\n"}}`
+## Paramètres du surligneur
+
+Vous pouvez modifier le comportement du surligneur en accédant aux paramètres de Web Clipper. Vous pouvez également y exporter vos surlignages dans un fichier `.json`.
+
+Il existe trois options pour l'insertion des surlignages dans votre note capturée via la [[Variables|variable]] `{{content}}` :
+
+- **Surligner le contenu de la page** — ajoute les surlignages directement dans le texte avec la [[Obsidian Flavored Markdown|syntaxe]] `==surlignage==`.
+- **Remplacer le contenu de la page** — renvoie une liste de surlignages, sans le contenu de la page.
+- **Ne rien faire** — renvoie le contenu original sans surlignages.
+
+Vous pouvez ajouter des surlignages directement dans votre modèle en utilisant la variable `{{highlights}}`, par exemple :
+
+```
+{{highlights|map: item => item.text|join:"\n\n"}}
+```

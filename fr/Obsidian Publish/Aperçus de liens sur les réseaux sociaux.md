@@ -1,32 +1,32 @@
 ---
 permalink: publish/social-share
-localized: null
+localized: '2026-03-18'
 aliases:
   - Social media link previews
 ---
-Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Propriétés]], you can customize how your notes appear in the preview.
+De nombreux réseaux sociaux affichent un aperçu enrichi de votre site web lorsqu'un utilisateur partage un lien vers celui-ci. En utilisant les [[Propriétés]], vous pouvez personnaliser l'apparence de vos notes dans l'aperçu.
 
 > [!warning]
-> The tags overridden in this section are **only** visible by web crawlers. Regular web browsers are served the unmodified page for performance.
+> Les balises remplacées dans cette section sont **uniquement** visibles par les robots d'indexation. Les navigateurs web classiques reçoivent la page non modifiée pour des raisons de performance.
 
 ## Description
 
-Obsidian automatically generates a description based on the note content, but you can provide your own using `description`.
+Obsidian génère automatiquement une description basée sur le contenu de la note, mais vous pouvez fournir la vôtre en utilisant `description`.
 
 ```yaml
 ---
-description: An introduction to our solar system.
+description: Une introduction à notre système solaire.
 ---
 ```
 
-> [!note] Meta tags
-> `description` overrides the auto-generated description in `<meta name="description" content="...">` and the equivalents for `og:description` and `twitter:description`.
+> [!note] Balises meta
+> `description` remplace la description générée automatiquement dans `<meta name="description" content="...">` et les équivalents pour `og:description` et `twitter:description`.
 
 ## Image
 
-You can use a custom image for the link preview, by adding `image` or `cover` with a path to the image. The image must be uploaded to Publish. 
+Vous pouvez utiliser une image personnalisée pour l'aperçu du lien, en ajoutant `image` ou `cover` avec un chemin vers l'image. L'image doit être téléversée sur Publish.
 
-The path can be an absolute path from the root of your vault:
+Le chemin peut être un chemin absolu depuis la racine de votre coffre :
 
 ```yaml
 ---
@@ -35,7 +35,7 @@ cover: "Attachments/Cover image.png"
 ```
 
 
-The path to the image is case sensitive. In our prior example, we have a path to an image named `Cover image.png`. The below path will not work, because it is using the wrong case.
+Le chemin vers l'image est sensible à la casse. Dans notre exemple précédent, nous avons un chemin vers une image nommée `Cover image.png`. Le chemin ci-dessous ne fonctionnera pas, car la casse est incorrecte.
 
 ```yaml
 ---
@@ -44,7 +44,7 @@ cover: "Attachments/cover Image.png"
 ```
 
 
-In place of an absolute path in your vault, you may also use an external url:
+À la place d'un chemin absolu dans votre coffre, vous pouvez également utiliser une URL externe :
 
 ```yaml
 ---
@@ -53,7 +53,7 @@ image: "https://example.com/cover%20image.png"
 ```
 
 
-`image` and `cover` are identical. Only use one of them.
+`image` et `cover` sont identiques. N'utilisez qu'un seul des deux.
 
-> [!note] Meta tags
-> `image` and `cover` overrides the auto-generated image in `<meta property="og:image" content="...">`.
+> [!note] Balises meta
+> `image` et `cover` remplacent l'image générée automatiquement dans `<meta property="og:image" content="...">`.

@@ -2,80 +2,80 @@
 permalink: community-plugins
 description: Learn how to extend Obsidian with plugins built by the community.
 mobile: false
-localized: null
+localized: '2026-03-18'
 aliases:
   - Community plugins
 ---
-Learn how to extend Obsidian with plugins built by the community. Use plugins to adapt Obsidian to fit your specific needs, such as support for additional file formats or integrating with a third-party service.
+Apprenez à étendre Obsidian avec des modules créés par la communauté. Utilisez des modules pour adapter Obsidian à vos besoins spécifiques, comme la prise en charge de formats de fichiers supplémentaires ou l'intégration avec un service tiers.
 
 > [!warning]
-> Community plugins run third-party code on your behalf that could potentially do harm. To learn more about what the Obsidian team does to prevent harmful plugins, refer to [[Sécurité des plugins]].
+> Les modules complémentaires exécutent du code tiers en votre nom, ce qui pourrait potentiellement être nuisible. Pour en savoir plus sur ce que l'équipe d'Obsidian fait pour prévenir les modules malveillants, consultez [[Sécurité des plugins]].
 
-## Browse community plugins
+## Parcourir les modules complémentaires
 
-1. Open **[[Paramètres]]**.
-2. Select **Turn on community plugins**. For more information, refer to [[Sécurité des plugins#Restricted mode|Restricted Mode]].
-3. Select **Browse** to list all available community plugins.
+1. Ouvrez les **[[Paramètres]]**.
+2. Sélectionnez **Activer les modules complémentaires**. Pour plus d'informations, consultez [[Sécurité des plugins#Mode restreint|Mode restreint]].
+3. Sélectionnez **Parcourir** pour lister tous les modules complémentaires disponibles.
 
-Use the text box to filter plugins based on their name, author, and description.
+Utilisez la zone de texte pour filtrer les modules en fonction de leur nom, de leur auteur et de leur description.
 
-You can also browse available plugins in your browser, by heading to [obsidian.md/plugins](https://obsidian.md/plugins).
+Vous pouvez également parcourir les modules disponibles dans votre navigateur en vous rendant sur [obsidian.md/plugins](https://obsidian.md/plugins).
 
-## Install a community plugin
+## Installer un module complémentaire
 
-To install a community plugin, you must first turn off [[Sécurité des plugins#Restricted mode|Restricted Mode]].
+Pour installer un module complémentaire, vous devez d'abord désactiver le [[Sécurité des plugins#Mode restreint|mode restreint]].
 
-1. Open **[[Paramètres]]**.
-2. In the side menu, select **Community plugins**.
-3. Select **Browse** to explore available community plugins.
-4. Select the plugin you want to install.
-5. Select **Install**.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans le menu latéral, sélectionnez **Modules complémentaires**.
+3. Sélectionnez **Parcourir** pour explorer les modules complémentaires disponibles.
+4. Sélectionnez le module que vous souhaitez installer.
+5. Sélectionnez **Installer**.
 
-To use an installed plugin, you need to enable it.
+Pour utiliser un module installé, vous devez l'activer.
 
-## Enable a community plugin
+## Activer un module complémentaire
 
-Either select **Enable** directly after installing it, or enable it from the list of Community plugins under **[[Paramètres]] → Community plugins → Installed plugins**.
+Sélectionnez **Activer** directement après l'installation, ou activez-le depuis la liste des modules complémentaires sous **[[Paramètres]] → Modules complémentaires → Modules installés**.
 
-## Update plugins
+## Mettre à jour les modules
 
-For security purposes, community plugins don't update automatically. You can either update all plugins at once, or update individual plugins.
+Pour des raisons de sécurité, les modules complémentaires ne se mettent pas à jour automatiquement. Vous pouvez soit mettre à jour tous les modules en une fois, soit mettre à jour des modules individuellement.
 
-To update all your plugins:
+Pour mettre à jour tous vos modules :
 
-1. Open **[[Paramètres]]**.
-2. Under **Community plugins → Current plugins**, select **Check for updates**.
-3. If updates are available, select **Update all**.
+1. Ouvrez les **[[Paramètres]]**.
+2. Sous **Modules complémentaires → Modules actuels**, sélectionnez **Vérifier les mises à jour**.
+3. Si des mises à jour sont disponibles, sélectionnez **Tout mettre à jour**.
 
-To update an individual plugin:
+Pour mettre à jour un module individuel :
 
-1. Open **[[Paramètres]]**.
-2. Under **Community plugins → Current plugins**, select **Check for updates**.
-3. Under **Installed plugins**, select **Update** next to the plugin you want to update.
+1. Ouvrez les **[[Paramètres]]**.
+2. Sous **Modules complémentaires → Modules actuels**, sélectionnez **Vérifier les mises à jour**.
+3. Sous **Modules installés**, sélectionnez **Mettre à jour** à côté du module que vous souhaitez mettre à jour.
 
-## Uninstall a community plugin
+## Désinstaller un module complémentaire
 
-1. Open **[[Paramètres]]**.
-2. In the side menu, select **Community plugins**.
-3. Under **Installed plugins**, select the trash ( ![[lucide-trash-2.svg#icon]] ) icon next to the plugin you want to uninstall.
-4. Select **Uninstall** to confirm.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans le menu latéral, sélectionnez **Modules complémentaires**.
+3. Sous **Modules installés**, sélectionnez l'icône corbeille ( ![[lucide-trash-2.svg#icon]] ) à côté du module que vous souhaitez désinstaller.
+4. Sélectionnez **Désinstaller** pour confirmer.
 
-## Manage installed plugins
+## Gérer les modules installés
 
-Under **[[Paramètres]] → Community plugins → Installed plugins**, each plugin has several icons for managing it:
+Sous **[[Paramètres]] → Modules complémentaires → Modules installés**, chaque module dispose de plusieurs icônes pour le gérer :
 
-- **[[Paramètres]]** ( ![[lucide-settings.svg#icon]] ) — Open the plugin's settings page if it has configurable options.
-- **[[Raccourcis clavier]]** ( ![[lucide-plus-circle.svg#icon]] ) — Set keyboard shortcuts for the plugin's commands.
-- **Funding** ( ![[lucide-heart.svg#icon]] ) — View the plugin author's funding URL to support their work.
-- **Uninstall** ( ![[lucide-trash-2.svg#icon]] ) — Remove the plugin from your vault.
-- **Toggle** — Enable or disable the plugin without uninstalling it.
+- **[[Paramètres]]** ( ![[lucide-settings.svg#icon]] ) — Ouvrir la page de paramètres du module s'il dispose d'options configurables.
+- **[[Raccourcis clavier]]** ( ![[lucide-plus-circle.svg#icon]] ) — Définir des raccourcis clavier pour les commandes du module.
+- **Financement** ( ![[lucide-heart.svg#icon]] ) — Voir l'URL de financement de l'auteur du module pour soutenir son travail.
+- **Désinstaller** ( ![[lucide-trash-2.svg#icon]] ) — Supprimer le module de votre coffre.
+- **Basculer** — Activer ou désactiver le module sans le désinstaller.
 
-You can also:
+Vous pouvez également :
 
-- Select the **refresh** icon to reload all plugins.
-- Select the **folder** ( ![[lucide-folder-open.svg#icon]] ) icon to open the plugins folder in your [[Dossier de configuration|configuration folder]].
-- Use the **search bar** to filter plugins by name.
+- Sélectionner l'icône **actualiser** pour recharger tous les modules.
+- Sélectionner l'icône **dossier** ( ![[lucide-folder-open.svg#icon]] ) pour ouvrir le dossier des modules dans votre [[Dossier de configuration|dossier de configuration]].
+- Utiliser la **barre de recherche** pour filtrer les modules par nom.
 
-## Learn more
+## En savoir plus
 
-Ready to build your own community plugin? Learn how to [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+Prêt à créer votre propre module complémentaire ? Apprenez comment [créer un module](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).

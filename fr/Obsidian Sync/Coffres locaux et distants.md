@@ -7,39 +7,38 @@ description: >-
   practice.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Local and remote vaults
 ---
+Si vous souhaitez utiliser vos notes sur différents appareils, l'une des options qui s'offre à vous est de [[Synchroniser vos notes entre appareils]]. Obsidian propose un tel service, [[Introduction à Obsidian Sync|Obsidian Sync]], qui fonctionne différemment des autres services de synchronisation, comme [[Synchroniser vos notes entre appareils#iCloud|iCloud]] et [[Synchroniser vos notes entre appareils#OneDrive|OneDrive]].
 
-If you want to use your notes on different devices, one of the options you have is to [[Synchroniser vos notes entre appareils]]. Obsidian offers one such service, [[Introduction à Obsidian Sync|Obsidian Sync]], that works differently than other syncing services, like [[Synchroniser vos notes entre appareils#iCloud|iCloud]] and [[Synchroniser vos notes entre appareils#OneDrive|OneDrive]].
+Voici quelques termes clés :
 
-Here are some key terms:
+- Un **coffre** est un dossier sur votre système de fichiers qui contient des notes et un dossier `.obsidian` avec la configuration spécifique à Obsidian.
+- Un **coffre local** est la copie de votre coffre qui existe sur chacun de vos appareils. Lorsque vous utilisez des services de synchronisation, vous connectez ces coffres locaux pour activer la synchronisation.
+- Un **coffre distant** est un stockage centralisé auquel les coffres locaux se connectent directement via Obsidian Sync.
 
-- A **vault** is a folder on your file system which contains notes and an `.obsidian` folder with Obsidian-specific configuration.
-- A **local vault** is the copy of your vault that exists on each of your devices. When using sync services, you connect these local vaults to enable synchronization.
-- A **remote vault** is centralized storage that local vaults connect to directly through Obsidian Sync.
+Il existe deux approches courantes de synchronisation :
 
-There are two common approaches to syncing:
+- **[[#Services de synchronisation basés sur les fichiers]]** : Les coffres locaux doivent se trouver dans des dossiers surveillés, la synchronisation se fait via le système de fichiers
+- **[[#Obsidian Sync|Coffres distants]]** : Stockage centralisé auquel les coffres locaux se connectent directement via Obsidian
 
-- **[[#File-based sync services]]**: Local vaults must be in monitored folders, sync happens through the file system
-- **[[#Obsidian Sync|Remote vaults]]**: Centralized storage that local vaults connect to directly through Obsidian
+## Services de synchronisation basés sur les fichiers
 
-## File-based sync services
+Des services comme Dropbox, Google Drive, iCloud et OneDrive sont basés sur les dossiers. Ces services surveillent des dossiers spécifiques et synchronisent automatiquement tous les fichiers qui y sont placés. Les fichiers doivent se trouver dans les dossiers désignés par le service cloud pour être synchronisés. Avec les services de synchronisation basés sur les fichiers, votre coffre local agit simplement comme un autre dossier surveillé. Il n'y a pas de coffre distant dédié — à la place, le stockage cloud sert de relais, copiant les fichiers entre les coffres locaux sur différents appareils.
 
-Services like Dropbox, Google Drive, iCloud, and OneDrive are folder-based. These services monitor specific folders and automatically sync any files placed within them. Files must be in the designated cloud-service folders to sync. With file-based sync services, your local vault acts as just another folder being monitored. There is no dedicated remote vault - instead, the cloud storage serves as a passthrough, copying files between local vaults on different devices.
-
-The diagram below shows a simplified version of how these services work:
+Le diagramme ci-dessous montre une version simplifiée du fonctionnement de ces services :
 
 ```mermaid
 graph TD
-    A[Your active device - file change]
-    B[Sync client detects change]
-    C[Upload to cloud storage]
-    D[Cloud storage]
-    E[Other devices check for updates]
-    F[Download Changes]
-    G[Other device updated]
+    A[Votre appareil actif - modification de fichier]
+    B[Le client de synchronisation détecte le changement]
+    C[Téléversement vers le stockage cloud]
+    D[Stockage cloud]
+    E[Les autres appareils vérifient les mises à jour]
+    F[Téléchargement des modifications]
+    G[Autre appareil mis à jour]
     
     A --> B
     B --> C
@@ -56,32 +55,32 @@ graph TD
     style G fill:#a1dab4
 ```
 
-If the cloud service has background syncing, then some of these processes may be happening even when you are not actively using the applications to view the files. These services monitor specific folders and automatically sync any files placed within them. Files must be in the designated cloud-service folders to sync.
+Si le service cloud dispose d'une synchronisation en arrière-plan, certains de ces processus peuvent se produire même lorsque vous n'utilisez pas activement les applications pour consulter les fichiers. Ces services surveillent des dossiers spécifiques et synchronisent automatiquement tous les fichiers qui y sont placés. Les fichiers doivent se trouver dans les dossiers désignés par le service cloud pour être synchronisés.
 
 ## Obsidian Sync
 
-Obsidian Sync allows you to create a remote vault that serves as centralized storage through its [[Introduction à Obsidian Sync|Obsidian Sync]] service. This allows you to choose almost any folder on any of your devices to store your files - whether on an external hard drive, in `C:\`, or in App storage on Android.
+Obsidian Sync vous permet de créer un coffre distant qui sert de stockage centralisé via son service [[Introduction à Obsidian Sync|Obsidian Sync]]. Cela vous permet de choisir presque n'importe quel dossier sur n'importe lequel de vos appareils pour stocker vos fichiers — que ce soit sur un disque dur externe, dans `C:\`, ou dans le stockage de l'application sur Android.
 
-However, we do have a list of recommended locations for your local vault if you also use [[#File-based sync services]] on the same device - mainly, anywhere that is not in a [[Passer à Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage|third-party syncing service]].
+Cependant, nous avons une liste d'emplacements recommandés pour votre coffre local si vous utilisez également des [[#Services de synchronisation basés sur les fichiers]] sur le même appareil — principalement, n'importe quel emplacement qui ne se trouve pas dans un [[Passer à Obsidian Sync#Déplacez votre coffre hors de votre service de synchronisation tiers ou de votre stockage cloud|service de synchronisation tiers]].
 
-The diagram below shows a simplified version of how Obsidian Sync works:
+Le diagramme ci-dessous montre une version simplifiée du fonctionnement d'Obsidian Sync :
 
 ```mermaid
 graph TD
-   D[Local Vault A]
-   L[Local Vault B]
-   S[Remote Vault]
-   P[Local Vault C]
-   T[Local Vault D]
+   D[Coffre local A]
+   L[Coffre local B]
+   S[Coffre distant]
+   P[Coffre local C]
+   T[Coffre local D]
    
-   D -->|Upload| S
-   S -->|Download| D
-   L -->|Upload| S
-   S -->|Download| L
-   P -->|Upload| S
-   S -->|Download| P
-   T -->|Upload| S
-   S -->|Download| T
+   D -->|Téléverser| S
+   S -->|Télécharger| D
+   L -->|Téléverser| S
+   S -->|Télécharger| L
+   P -->|Téléverser| S
+   S -->|Télécharger| P
+   T -->|Téléverser| S
+   S -->|Télécharger| T
    
    style D fill:#c6dbef
    style L fill:#dadaeb
@@ -90,26 +89,26 @@ graph TD
    style T fill:#fdcc8a
 ```
 
-The strength of this system becomes more apparent with more device types. [[#File-based sync services]] can be implemented inconsistently across operating systems, and mobile devices have their own rules with how applications can be sandboxed and power throttled, which makes it much harder for traditional file-based services to work seamlessly.
+La force de ce système devient plus évidente avec davantage de types d'appareils. Les [[#Services de synchronisation basés sur les fichiers]] peuvent être implémentés de manière incohérente selon les systèmes d'exploitation, et les appareils mobiles ont leurs propres règles concernant le sandboxing des applications et la limitation de puissance, ce qui rend beaucoup plus difficile le fonctionnement fluide des services traditionnels basés sur les fichiers.
 
-With Obsidian Sync, the service handles synchronization directly through the application, providing consistent behavior regardless of device type or operating system limitations, while prioritizing keeping a local copy of your data as a [[Sauvegarder vos fichiers Obsidian|soft backup]].
+Avec Obsidian Sync, le service gère la synchronisation directement via l'application, offrant un comportement cohérent quel que soit le type d'appareil ou les limitations du système d'exploitation, tout en donnant la priorité à la conservation d'une copie locale de vos données comme [[Sauvegarder vos fichiers Obsidian|sauvegarde légère]].
 
-### Sync behavior
+### Comportement de la synchronisation
 
-When you make changes to files in your local vault, Obsidian Sync detects these changes and uploads them to the remote vault. Other devices connected to the same remote vault will then download these changes and apply them to their local vaults. Obsidian Sync tracks changes at the file level and only transfers the files that have been modified, rather than syncing entire folders. This reduces bandwidth usage and sync time.
+Lorsque vous apportez des modifications aux fichiers de votre coffre local, Obsidian Sync détecte ces changements et les téléverse vers le coffre distant. Les autres appareils connectés au même coffre distant téléchargent ensuite ces modifications et les appliquent à leurs coffres locaux. Obsidian Sync suit les modifications au niveau des fichiers et ne transfère que les fichiers qui ont été modifiés, plutôt que de synchroniser des dossiers entiers. Cela réduit l'utilisation de la bande passante et le temps de synchronisation.
 
-When conflicts occur or when you need to control which files sync, Obsidian Sync provides specific mechanisms to handle these situations:
+Lorsque des conflits surviennent ou que vous devez contrôler quels fichiers se synchronisent, Obsidian Sync fournit des mécanismes spécifiques pour gérer ces situations :
 
-![[Résoudre les problèmes d'Obsidian Sync#Conflict resolution|Conflict resolution]]
+![[Résoudre les problèmes d'Obsidian Sync#Résolution des conflits|Résolution des conflits]]
 
-![[Paramètres de Sync et synchronisation sélective#Selective syncing#Exclude a folder from syncing]]
+![[Paramètres de Sync et synchronisation sélective#Synchronisation sélective#Exclure un dossier de la synchronisation]]
 
-### Offline behavior
+### Comportement hors ligne
 
-Changes made while offline are queued and sync automatically when your device reconnects to the internet and Obsidian is open. Your local vault remains fully functional during offline periods.
+Les modifications effectuées hors ligne sont mises en file d'attente et se synchronisent automatiquement lorsque votre appareil se reconnecte à internet et qu'Obsidian est ouvert. Votre coffre local reste entièrement fonctionnel pendant les périodes hors ligne.
 
-## Next steps
+## Étapes suivantes
 
-- [[Configurer Obsidian Sync]] to get started with remote vaults.
-- [[Passer à Obsidian Sync]] if you're currently using file-based sync and want to use Obsidian Sync.
-- [[Synchroniser vos notes entre appareils|Explore other sync options]] if you're still deciding.
+- [[Configurer Obsidian Sync]] pour commencer avec les coffres distants.
+- [[Passer à Obsidian Sync]] si vous utilisez actuellement une synchronisation basée sur les fichiers et souhaitez utiliser Obsidian Sync.
+- [[Synchroniser vos notes entre appareils|Explorer d'autres options de synchronisation]] si vous êtes encore en phase de décision.

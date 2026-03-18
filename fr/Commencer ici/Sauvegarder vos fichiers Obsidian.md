@@ -1,70 +1,70 @@
 ---
 permalink: backup
-localized: null
+localized: '2026-03-18'
 aliases:
   - Back up your Obsidian files
 ---
-If you haven't backed up your computer yet, start now! Obsidian's [[Récupération de fichiers]] plugin is useful but limited. It can only recover a certain amount of data, and it stores recovery information per device. For more robust protection, we recommend that you implement a proper backup system.
+Si vous n'avez pas encore sauvegardé votre ordinateur, commencez maintenant ! Le module [[Récupération de fichier]] d'Obsidian est utile mais limité. Il ne peut récupérer qu'une certaine quantité de données, et il stocke les informations de récupération par appareil. Pour une protection plus robuste, nous vous recommandons de mettre en place un véritable système de sauvegarde.
 
-**Why back up your data?**
+**Pourquoi sauvegarder vos données ?**
 
-By default, Obsidian stores your notes **locally** on your device, not in the cloud. This means the [data is fully yours](https://obsidian.md/about), giving you control over it. However, local storage can be affected by issues like corruption or data loss. It is never a matter of if, but when. Backing up your data protects against these inevitabilities and ensures you maintain control of your notes.
+Par défaut, Obsidian stocke vos notes **localement** sur votre appareil, et non dans le cloud. Cela signifie que les [données vous appartiennent entièrement](https://obsidian.md/about), vous donnant le contrôle sur celles-ci. Cependant, le stockage local peut être affecté par des problèmes tels que la corruption ou la perte de données. Ce n'est jamais une question de savoir si cela arrivera, mais quand. Sauvegarder vos données vous protège contre ces inévitabilités et vous assure de garder le contrôle de vos notes.
 
-## Syncing is not a backup
+## La synchronisation n'est pas une sauvegarde
 
-Services like [[Introduction à Obsidian Sync|Obsidian Sync]], iCloud, OneDrive, and Dropbox help you sync your notes across different devices. While they may offer features like [[Version history|note restoration]], **they are not designed for backups**. Syncing keeps your notes updated, but it doesn’t protect against data loss.
+Des services comme [[Introduction à Obsidian Sync|Obsidian Sync]], iCloud, OneDrive et Dropbox vous aident à synchroniser vos notes entre différents appareils. Bien qu'ils puissent offrir des fonctionnalités comme la [[Version history|restauration de notes]], **ils ne sont pas conçus pour les sauvegardes**. La synchronisation maintient vos notes à jour, mais elle ne protège pas contre la perte de données.
 
-- **Sync:** Syncing ensures your files are the same on all devices. When you change a file on one device, it updates on all synced devices. Syncing services do not have a "primary" device.
-- **Backup:** A backup saves a copy of your data in a different location to help recover it in case of data loss or corruption. Backups are not meant for real-time updates or collaboration.
+- **Synchronisation :** La synchronisation garantit que vos fichiers sont identiques sur tous les appareils. Lorsque vous modifiez un fichier sur un appareil, il est mis à jour sur tous les appareils synchronisés. Les services de synchronisation n'ont pas d'appareil « principal ».
+- **Sauvegarde :** Une sauvegarde enregistre une copie de vos données dans un emplacement différent pour aider à les récupérer en cas de perte ou de corruption de données. Les sauvegardes ne sont pas destinées aux mises à jour en temps réel ou à la collaboration.
 
-To properly back up your vault, use a dedicated backup tool that creates a one-way copy of your data. This tool will send your data to a safe backup location without changing the data on your device.
+Pour sauvegarder correctement votre coffre, utilisez un outil de sauvegarde dédié qui crée une copie unidirectionnelle de vos données. Cet outil enverra vos données vers un emplacement de sauvegarde sûr sans modifier les données sur votre appareil.
 
-If you use multiple devices with syncing, choose **one device** to be your backup device. This is usually your main or "primary" device, the one you use the most. Note that most syncing services do not recognize any device as "primary"; this is just a concept to help you manage backups.
+Si vous utilisez plusieurs appareils avec la synchronisation, choisissez **un seul appareil** comme appareil de sauvegarde. C'est généralement votre appareil principal, celui que vous utilisez le plus. Notez que la plupart des services de synchronisation ne reconnaissent aucun appareil comme « principal » ; c'est simplement un concept pour vous aider à gérer les sauvegardes.
 
-> [!Example] You use Obsidian Sync on your laptop, tablet, phone, and work desktop. You mostly use your vault on your work desktop, sometimes on your laptop, and rarely on your tablet or phone. In this case, your work desktop would be your "primary device" for backup.
+> [!Example] Vous utilisez Obsidian Sync sur votre ordinateur portable, votre tablette, votre téléphone et votre ordinateur de bureau professionnel. Vous utilisez principalement votre coffre sur votre ordinateur de bureau professionnel, parfois sur votre ordinateur portable, et rarement sur votre tablette ou votre téléphone. Dans ce cas, votre ordinateur de bureau professionnel serait votre « appareil principal » pour la sauvegarde.
 
-## Use community plugins
+## Utiliser des modules complémentaires
 
-While the Obsidian Team cannot officially endorse any specific plugin, we recognize two community plugins that have become popular among users for backing up their files:
+Bien que l'équipe d'Obsidian ne puisse officiellement recommander aucun module spécifique, nous reconnaissons deux modules complémentaires qui sont devenus populaires auprès des utilisateurs pour sauvegarder leurs fichiers :
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Use this plugin to back up your vault by committing its contents to a [Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). It's an effective way to version control your notes and ensure their safety on a remote server. However, please be aware that your data may be stored on an [[#Use cloud-based services|external hosting platform]] using this method.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** This plugin lets you create local copies of your vault in a folder of your choice, with options for archival. You can even use a syncing folder, like a Dropbox folder, to combine local and cloud backups. This method **pairs well** with the backup options described below.
+- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git) :** Utilisez ce module pour sauvegarder votre coffre en validant son contenu dans un [dépôt Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). C'est un moyen efficace de versionner vos notes et d'assurer leur sécurité sur un serveur distant. Cependant, sachez que vos données peuvent être stockées sur une [[#Utiliser des services cloud|plateforme d'hébergement externe]] avec cette méthode.
+- **[Local Backup](https://obsidian.md/plugins?id=local-backup) :** Ce module vous permet de créer des copies locales de votre coffre dans un dossier de votre choix, avec des options d'archivage. Vous pouvez même utiliser un dossier de synchronisation, comme un dossier Dropbox, pour combiner sauvegardes locales et cloud. Cette méthode **se combine bien** avec les options de sauvegarde décrites ci-dessous.
 
-## Use cloud-based services
+## Utiliser des services cloud
 
-> [!info] It is not recommended that you keep your vault location in your chosen backup service.
+> [!info] Il n'est pas recommandé de placer l'emplacement de votre coffre dans le service de sauvegarde choisi.
 
-Keeping your backup in the cloud is an alternative and a complement to physical data storage, instead of an external hard drive or USB stick. An external hard drive or USB stick can be lost or damaged. The biggest advantage of storing files in the cloud is that they are available anytime, anywhere. The downside is, most backup services are owned by a private company.
+Conserver votre sauvegarde dans le cloud est une alternative et un complément au stockage physique de données, à la place d'un disque dur externe ou d'une clé USB. Un disque dur externe ou une clé USB peut être perdu ou endommagé. Le plus grand avantage du stockage de fichiers dans le cloud est qu'ils sont disponibles à tout moment, partout. L'inconvénient est que la plupart des services de sauvegarde appartiennent à une entreprise privée.
 
-In terms of security, you should always pay close attention to access and security with cloud backups. [Worldbackupday](https://www.worldbackupday.com/en) keeps an up-to-date list of online backup services to consider using.
+En matière de sécurité, vous devriez toujours porter une attention particulière aux accès et à la sécurité avec les sauvegardes cloud. [Worldbackupday](https://www.worldbackupday.com/en) maintient une liste à jour de services de sauvegarde en ligne à envisager.
 
-## Use external drives
+## Utiliser des disques externes
 
-**Hard drives and SSD drives**
-External hard drive backups are still valuable in an increasing cloud-based world, and are mainly used for data storage and computer backups. The biggest disadvantage of an external drive is that the drive can break down or get lost. The biggest advantage is that the storage space only needs to be purchased once. Using an external hard drive is often combined with a [[#Use computer backups|computer backup]].
+**Disques durs et SSD**
+Les sauvegardes sur disque dur externe restent précieuses dans un monde de plus en plus tourné vers le cloud, et sont principalement utilisées pour le stockage de données et les sauvegardes d'ordinateur. Le plus grand inconvénient d'un disque externe est qu'il peut tomber en panne ou être perdu. Le plus grand avantage est que l'espace de stockage ne doit être acheté qu'une seule fois. L'utilisation d'un disque dur externe est souvent combinée avec une [[#Utiliser les sauvegardes de l'ordinateur|sauvegarde de l'ordinateur]].
 
-**USB flash drives**
-Flash drives (also called thumb drives, memory sticks, or pen drives) are a simple and effective method for quick backups.
+**Clés USB**
+Les clés USB (également appelées clés mémoire ou lecteurs flash) sont une méthode simple et efficace pour des sauvegardes rapides.
 
-1. Insert the flash drive into your computer or laptop.
-2. Ensure the device is recognized and mounted in your file system. If necessary, format the flash drive to be compatible with your filesystem.
-3. Copy your vault folder from its current location onto the flash drive.
-4. Safely unmount the flash drive.
-5. Remove the flash drive from your device.
+1. Insérez la clé USB dans votre ordinateur ou ordinateur portable.
+2. Assurez-vous que l'appareil est reconnu et monté dans votre système de fichiers. Si nécessaire, formatez la clé USB pour qu'elle soit compatible avec votre système de fichiers.
+3. Copiez le dossier de votre coffre depuis son emplacement actuel vers la clé USB.
+4. Démontez la clé USB en toute sécurité.
+5. Retirez la clé USB de votre appareil.
 
-**NAS backup**
-For experienced users, backing up data on a NAS (Network Attached Storage) server is a good and secure method, as it has multiple hard drives and additional recovery mechanisms.
+**Sauvegarde NAS**
+Pour les utilisateurs expérimentés, sauvegarder les données sur un serveur NAS (Network Attached Storage) est une méthode sûre et sécurisée, car il dispose de plusieurs disques durs et de mécanismes de récupération supplémentaires.
 
-> [!tip] If your external drive contains sensitive information, it is recommended to keep the external drive secure, such as in a secured room.
+> [!tip] Si votre disque externe contient des informations sensibles, il est recommandé de le conserver en lieu sûr, comme dans une pièce sécurisée.
 
-## Use computer backups
+## Utiliser les sauvegardes de l'ordinateur
 
-Your operating system itself offer the ability to help create backups, whether online in the cloud, or in an external drive.
+Votre système d'exploitation offre lui-même la possibilité de créer des sauvegardes, que ce soit en ligne dans le cloud ou sur un disque externe.
 
-- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Backup with OneDrive or an external drive.
-- **[Mac](https://support.apple.com/en-us/104984)**: Backup to an external device with Time Machine.
-- **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` to a directory or drive of choice.
+- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)** : Sauvegarde avec OneDrive ou un disque externe.
+- **[Mac](https://support.apple.com/en-us/104984)** : Sauvegarde sur un appareil externe avec Time Machine.
+- **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)** : `rsync` vers un répertoire ou un disque de votre choix.
 
-## Next steps
+## Prochaines étapes
 
-This help page provides a brief overview of backup options, but it's not exhaustive. For more in-depth information, visit [Worldbackupday.com](https://www.worldbackupday.com/en) or ask other Obsidian users in [our community](https://obsidian.md/community) about their backup strategies!
+Cette page d'aide offre un bref aperçu des options de sauvegarde, mais elle n'est pas exhaustive. Pour des informations plus approfondies, visitez [Worldbackupday.com](https://www.worldbackupday.com/en) ou demandez à d'autres utilisateurs d'Obsidian dans [notre communauté](https://obsidian.md/community) quelles sont leurs stratégies de sauvegarde !

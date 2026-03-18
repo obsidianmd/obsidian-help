@@ -3,155 +3,154 @@ permalink: community-code-of-conduct
 description: This page details the rules that apply to all Obsidian community spaces.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Community code of conduct
 ---
+## Les règles
 
-## The rules
+Les comportements suivants ne sont pas tolérés au sein des canaux officiels de la communauté Obsidian, y compris le [Forum](https://forum.obsidian.md), [Discord](https://discord.gg/obsidianmd) et [Reddit](https://reddit.com/r/ObsidianMD).
 
-The following behaviors are not tolerated within the official Obsidian community channels, including the [Forum](https://forum.obsidian.md), [Discord](https://discord.gg/obsidianmd), and [Reddit](https://reddit.com/r/ObsidianMD).
+### Infractions graves
 
-### Serious offenses
+Les utilisateurs commettant ces infractions seront immédiatement bannis de tous les canaux officiels de la communauté Obsidian. Des mises en sourdine temporaires peuvent être appliquées pendant le traitement du bannissement.
 
-Users committing these offenses will be immediately banned from all official Obsidian community channels. Timeouts may be applied while the ban is being processed.
+#### Harcèlement
 
-#### Harassment
+Le harcèlement inclut les commentaires verbaux offensants liés au genre, à l'orientation sexuelle, au handicap, à l'apparence physique, à la corpulence, à la race ou à la religion, ainsi que les images à caractère sexuel dans les espaces publics, l'intimidation délibérée, le harcèlement obsessionnel, la filature, la photographie ou l'enregistrement intrusif, les contacts physiques inappropriés et les avances sexuelles ou romantiques non désirées.
 
-Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, or religion, as well as sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, inappropriate physical contact, and unwelcome sexual or romantic attention.
+#### Menaces
 
-#### Threats
+Nous ne tolérons aucune menace, qu'elle soit physique ou verbale. Par exemple, menacer de divulguer des informations sensibles sur la vie personnelle de quelqu'un.
 
-We don't tolerate any threats, physically or verbally. For example, threatening to publicize sensitive information about someone's personal life.
+#### Discriminations flagrantes
 
-#### Blatant -isms
+Cela inclut dire des choses explicitement racistes, sexistes, homophobes, etc. Par exemple, affirmer que certaines personnes sont moins intelligentes en raison de leur genre, de leur race ou de leur religion. Les petites erreurs commises dans une conversation ne constituent pas des violations du code de conduite. Cependant, répéter quelque chose après qu'on vous l'a signalé, ou provoquer ou argumenter avec quelqu'un qui a relevé votre discrimination subtile est considéré comme une infraction mineure.
 
-This includes saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation aren't code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
+### Autres infractions
 
-### Other offenses
+Les utilisateurs qui commettent ces infractions recevront une mise en sourdine temporaire et/ou un avertissement. Les violations répétées ou le refus de se conformer peuvent entraîner un bannissement des canaux officiels de la communauté Obsidian.
 
-Users who commit these offenses will receive a timeout and/or a warning. Repeated violations or failure to comply may result in a ban from official Obsidian community channels.
+Exemples d'**autres infractions** :
 
-Examples of **Other offenses** include:
+- L'utilisation d'images inappropriées, y compris dans l'avatar d'un membre de la communauté
+- L'utilisation d'un langage inapproprié ou de grossièretés, y compris dans le pseudonyme d'un membre de la communauté
 
-- The use of inappropriate images, including in a community member's avatar
-- The use of inappropriate language or profanity, including in a community member's nickname
+#### Agressivité
 
-#### Belligerence
+L'agressivité consiste à tenter délibérément de faire du mal aux autres, à les insulter, à les cibler pour les ridiculiser ou les exclure. Par exemple, dire à quelqu'un qu'il n'est pas un vrai programmeur ou qu'il n'a pas sa place ici.
 
-Belligerence is deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they're not a real programmer or that they don't belong.
+#### Être particulièrement désagréable
 
-#### Being especially unpleasant
+Par exemple, si nous avons reçu des signalements de plusieurs membres concernant un comportement agaçant ou impoli.
 
-For example, if we've received reports from multiple members of annoying or rude behavior.
+#### Messages non sollicités aux membres de la communauté
 
-#### Unsolicited messages to community members
+Il s'agit d'une communauté vaste et active. Veuillez respecter l'attention et le temps des autres en évitant les mentions, les « pings » ou les messages directs non sollicités au personnel, aux modérateurs et aux autres membres de la communauté pour des questions générales, des rapports de bugs ou des demandes de fonctionnalités. Cette directive sera appliquée dans l'esprit de la règle.
 
-This is a large and active community. Please be respectful of others' attention and time by avoiding unsolicited tagging, "pinging", or direct messaging of staff, moderators, and fellow community members for general questions, bug reports, or feature requests. This guideline will be enforced on a spirit-of-the-rule basis.
+**Quand un ping est approprié** : Ne mentionnez les membres de la communauté que lorsque vous répondez à leurs messages ou lorsqu'ils ont explicitement demandé à être notifiés sur des sujets spécifiques.
 
-**When pinging is appropriate**: Only ping community members when replying to their messages or when they have explicitly requested to be notified about specific topics.
+**Messages directs** : N'envoyez des messages directs que si vous avez reçu une autorisation explicite publiquement sur le serveur.
 
-**Direct messages**: Only send direct messages if you have received explicit permission to do so publicly in the server.
+**Modules complémentaires et thèmes** : Pour les rapports de bugs et les demandes de fonctionnalités, veuillez ouvrir un ticket sur GitHub plutôt que de mentionner le développeur sur Discord.
 
-**Community plugins and themes**: For bug reports and feature requests, please open a GitHub issue rather than pinging the developer in Discord.
+**Problèmes de sécurité** : Si vous avez un problème de sécurité à signaler concernant l'application, veuillez [[Aide et support#Contacter l'assistance Obsidian|contacter l'assistance Obsidian]].
 
-**Security concerns**: If you have a security issue to report about the application, please [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]].
+Les instructions pour signaler les violations de notre code de conduite se trouvent ci-dessous dans [[#Signaler les violations]]. Nous apprécions votre coopération dans le respect de ces directives afin de maintenir un environnement positif et respectueux au sein de la communauté Obsidian.
 
-Instructions for reporting violations of our code of conduct can be found below in [[#Report violations]]. We appreciate your cooperation in following these guidelines to maintain a positive and respectful environment within the Obsidian community.
+### Autres comportements
 
-### Other behaviors
-
-The following behaviors, while not resulting in an immediate ban or warning, are strongly discouraged. Engaging in them may lead to a timeout and a reminder to review this code of conduct. Additionally, these actions greatly increase the risk of [[#being especially unpleasant]].
+Les comportements suivants, bien qu'ils n'entraînent pas de bannissement ou d'avertissement immédiat, sont fortement déconseillés. S'y adonner peut entraîner une mise en sourdine temporaire et un rappel de consulter ce code de conduite. De plus, ces actions augmentent considérablement le risque d'[[#être particulièrement désagréable]].
 
 #### Sea-lioning
 
-[Sea-lioning](https://en.wikipedia.org/wiki/Sealioning) means continuously pursuing an agenda by questioning and provoking other members. Individual provocations and questions are often perfectly acceptable, but in the case of sea-lioning, they accumulate to unhealthy levels, creating a hostile and negative conversation.
+Le [sea-lioning](https://en.wikipedia.org/wiki/Sealioning) consiste à poursuivre continuellement un objectif en questionnant et en provoquant les autres membres. Les provocations et questions individuelles sont souvent parfaitement acceptables, mais dans le cas du sea-lioning, elles s'accumulent à des niveaux malsains, créant une conversation hostile et négative.
 
-#### "Feed me"
+#### « Nourrissez-moi »
 
-"Feed me" means asking others to solve problems for you without putting in any effort yourself. This is particularly egregious when the problem-solving is non-trivial and yet the user begs for someone else to do the work for them.
+« Nourrissez-moi » signifie demander aux autres de résoudre vos problèmes sans faire le moindre effort vous-même. C'est particulièrement flagrant lorsque la résolution du problème n'est pas triviale et que l'utilisateur supplie quelqu'un d'autre de faire le travail à sa place.
 
-#### Campaigning
+#### Faire campagne
 
-Campaigning is continuously making the same requests. This applies to both feature requests and to requests for help. Don't post the same question in multiple places in short time frames, and don't ask developers for the same features or bug fixes repeatedly.
+Faire campagne signifie formuler continuellement les mêmes demandes. Cela s'applique aussi bien aux demandes de fonctionnalités qu'aux demandes d'aide. Ne publiez pas la même question à plusieurs endroits dans un court laps de temps, et ne demandez pas aux développeurs les mêmes fonctionnalités ou corrections de bugs de manière répétée.
 
-#### Excessive self promotion
+#### Auto-promotion excessive
 
-We encourage sharing what you’ve made for Obsidian—guides, videos, utilities, tools, and more. It’s awesome to see what folks in the community are creating. As a content creator, it’s natural to link to your own work, and we provide a place for that in the `#content-update` channel on our [[Aide et support#Questions et conseils|Discord]].
+Nous encourageons le partage de ce que vous avez créé pour Obsidian — guides, vidéos, utilitaires, outils et plus encore. C'est formidable de voir ce que les membres de la communauté créent. En tant que créateur de contenu, il est naturel de partager des liens vers votre propre travail, et nous mettons à disposition un espace pour cela dans le canal `#content-update` sur notre [[Aide et support#Questions et conseils|Discord]].
 
-But there are limits.
+Mais il y a des limites.
 
-**Exclusive** self-promotion refers to promoting or linking your own (or others’) content or initiatives without otherwise participating in the community. If your only purpose here is to drop links or solicit attention for external projects, we won’t allow it. Depending on the situation, links may be removed and warnings may be given.
+L'auto-promotion **exclusive** consiste à promouvoir ou partager des liens vers votre propre contenu (ou celui d'autres personnes) ou des initiatives sans participer autrement à la communauté. Si votre seul objectif ici est de déposer des liens ou de solliciter l'attention pour des projets externes, nous ne le permettrons pas. Selon la situation, les liens pourront être supprimés et des avertissements pourront être donnés.
 
-**Excessive** self-promotion is a judgment call made by moderators and staff. We expect folks to engage meaningfully before promoting their work. Please be respectful—when in doubt, participate more than you promote. We reserve the right to remove content that doesn’t align with this guideline.
+L'auto-promotion **excessive** est une appréciation laissée aux modérateurs et au personnel. Nous attendons des membres qu'ils s'impliquent de manière significative avant de promouvoir leur travail. Soyez respectueux — en cas de doute, participez plus que vous ne promouvez. Nous nous réservons le droit de supprimer le contenu qui ne respecte pas cette directive.
 
-Promotional content must also be relevant to Obsidian. That includes anything that supports, enhances, or integrates with Obsidian—but not unrelated personal projects.
+Le contenu promotionnel doit également être pertinent par rapport à Obsidian. Cela inclut tout ce qui soutient, améliore ou s'intègre à Obsidian — mais pas les projets personnels sans rapport.
 
-Lastly, paid content will always receive additional scrutiny, as the potential for conflict of interest is higher.
+Enfin, le contenu payant fera toujours l'objet d'un examen plus attentif, car le potentiel de conflit d'intérêts est plus élevé.
 
-#### Spamming
+#### Spam
 
-Do not directly message any of our community member without asking for consent first. It's okay to ask publicly if you have a question.
+N'envoyez pas de message direct à un membre de notre communauté sans demander son consentement au préalable. Vous pouvez poser la question publiquement.
 
-Similarly, posting invite links (e.g. to other Discord servers, unrelated communities, or private groups) is not allowed. These often come across as spammy, derail discussion, and create moderation issues.
+De même, publier des liens d'invitation (par exemple vers d'autres serveurs Discord, des communautés sans rapport ou des groupes privés) n'est pas autorisé. Ces liens sont souvent perçus comme du spam, dévient les discussions et créent des problèmes de modération.
 
-## Encouraged behaviors
+## Comportements encouragés
 
-Over the years of running the official Obsidian community channels, we've noticed some behaviors that positively contribute to the community.
+Au fil des années de gestion des canaux officiels de la communauté Obsidian, nous avons remarqué certains comportements qui contribuent positivement à la communauté.
 
-If you're looking to improve your communication skills as well as becoming a better community citizen, consider doing the following:
+Si vous souhaitez améliorer vos compétences en communication et devenir un meilleur citoyen de la communauté, envisagez de faire ce qui suit :
 
-- **Try before asking**: before asking for help, please first try searching the help docs and Discord/forum history to see if the question has already been asked. Help others help you, by sharing what you've already tried.
-- **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Don't judge others for their choices.
-- **Step away when heated**: the community is a place for us to grow together, not a debate competition. If a discussion escalates into an argument, try your best to step away and leave the conversation.
+- **Essayez avant de demander** : avant de demander de l'aide, veuillez d'abord essayer de chercher dans la documentation d'aide et l'historique de Discord/du forum pour voir si la question a déjà été posée. Aidez les autres à vous aider en partageant ce que vous avez déjà essayé.
+- **Gardez l'esprit ouvert** : en raison de la grande personnalisation possible d'Obsidian, certaines personnes peuvent avoir une configuration ou un flux de travail complètement différent du vôtre. Ne jugez pas les autres pour leurs choix.
+- **Prenez du recul quand la tension monte** : la communauté est un lieu pour grandir ensemble, pas une compétition de débat. Si une discussion dégénère en dispute, faites de votre mieux pour prendre du recul et quitter la conversation.
 
 ## Motivation
 
-We at Obsidian want to create the best community for knowledge management. We want everyone to be able to seek help, help others, and share their experience, without fear or embarrassment.
+Chez Obsidian, nous souhaitons créer la meilleure communauté pour la gestion des connaissances. Nous voulons que chacun puisse chercher de l'aide, aider les autres et partager son expérience, sans crainte ni embarras.
 
-In order to get there, all of our members are expected to be nice to each other in all interactions, whether it's on our Discord server or on our forum.
+Pour y parvenir, tous nos membres sont tenus d'être aimables les uns envers les autres dans toutes les interactions, que ce soit sur notre serveur Discord ou sur notre forum.
 
-"Be nice" is a vague instruction, though. To make sure we're on the same page what's nice and what's not, we've adopted the code of conduct above.
+« Soyez aimable » est cependant une instruction vague. Pour nous assurer que nous sommes sur la même longueur d'onde quant à ce qui est aimable et ce qui ne l'est pas, nous avons adopté le code de conduite ci-dessus.
 
-As the community grows, we can't rely on all members to be nice, although the vast majority of our members show exceptional respect towards each other. Adopting a more formal code of conduct — and enforcing it — helps maintain a vital and healthy community.
+À mesure que la communauté grandit, nous ne pouvons pas compter sur le fait que tous les membres soient aimables, bien que la grande majorité de nos membres fassent preuve d'un respect exceptionnel les uns envers les autres. L'adoption d'un code de conduite plus formel — et son application — contribue à maintenir une communauté dynamique et saine.
 
-## Report violations
+## Signaler les violations
 
-The Code of Conduct is enforced by our moderators, but we can’t monitor every interaction across the official Obsidian community channels. That’s why we rely on members like you to help us maintain a respectful and welcoming space by reporting any violations you witness.
+Le code de conduite est appliqué par nos modérateurs, mais nous ne pouvons pas surveiller chaque interaction sur les canaux officiels de la communauté Obsidian. C'est pourquoi nous comptons sur des membres comme vous pour nous aider à maintenir un espace respectueux et accueillant en signalant toute violation dont vous êtes témoin.
 
-Even if you’re not directly involved, you’re encouraged to report any concerning behavior. We’ll keep your identity as confidential as possible.
+Même si vous n'êtes pas directement impliqué, nous vous encourageons à signaler tout comportement préoccupant. Nous garderons votre identité aussi confidentielle que possible.
 
-If your report is related to a security concern with Obsidian itself, please [[Aide et support#Contacter l'assistance Obsidian|email Obsidian support]] directly.
+Si votre signalement concerne un problème de sécurité avec Obsidian lui-même, veuillez [[Aide et support#Contacter l'assistance Obsidian|envoyer un courriel à l'assistance Obsidian]] directement.
 
-### Report on Discord
+### Signaler sur Discord
 
-In any channel (preferably the one where the issue occurred), type:
-`/moderation report @username [brief reason here]` Your message will disappear immediately, and a report will be sent to the moderation team.
+Dans n'importe quel canal (de préférence celui où le problème s'est produit), tapez :
+`/moderation report @nom_utilisateur [brève raison ici]` Votre message disparaîtra immédiatement et un signalement sera envoyé à l'équipe de modération.
 
-You can also use the Discord App Launcher button (the four-shapes icon in the chat bar) to access Carl-bot’s moderation commands if you’re unsure of the exact syntax.
+Vous pouvez également utiliser le bouton du lanceur d'applications Discord (l'icône à quatre formes dans la barre de discussion) pour accéder aux commandes de modération de Carl-bot si vous n'êtes pas sûr de la syntaxe exacte.
 
-If the `/moderation report` command doesn’t work, you can also send a direct message to the **OMG Moderators** bot. Just make sure your DMs are enabled for the server so the bot can respond.
+Si la commande `/moderation report` ne fonctionne pas, vous pouvez également envoyer un message direct au bot **OMG Moderators**. Assurez-vous simplement que vos messages privés sont activés pour le serveur afin que le bot puisse répondre.
 
-### Report on the forum
+### Signaler sur le forum
 
-Please flag the relevant conversation with a reason, and our moderators will investigate.
+Veuillez signaler la conversation concernée avec une raison, et nos modérateurs enquêteront.
 
-## Enforcement
+## Application
 
-> [!abstract] Summary
-> A verified serious offense results in an immediate ban.
-> A verified other offense results in a warning; after that a second verified violation results in a ban.
+> [!abstract] Résumé
+> Une infraction grave vérifiée entraîne un bannissement immédiat.
+> Une autre infraction vérifiée entraîne un avertissement ; après quoi une seconde violation vérifiée entraîne un bannissement.
 
-If our moderators witness or receive a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened. If verified, they will be removed from the official Obsidian community channels.
+Si nos modérateurs sont témoins ou reçoivent un signalement concernant des [[#infractions graves]], nous contacterons le contrevenant pour avoir une conversation avec lui et vérifier ce qui s'est passé. Si les faits sont vérifiés, il sera exclu des canaux officiels de la communauté Obsidian.
 
-If our moderators witness or receive a report about [[#other offenses]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from the official Obsidian community channels.
+Si nos modérateurs sont témoins ou reçoivent un signalement concernant d'[[#autres infractions]], nous contacterons le membre concerné pour lui expliquer pourquoi son comportement était inacceptable, et l'avertirons qu'une seconde violation du code de conduite entraînera son exclusion des canaux officiels de la communauté Obsidian.
 
-## Appealing a ban
+## Faire appel d'un bannissement
 
-If you believe you were banned in error, you may [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]] with your Discord, Forum, or Reddit username, along with the date of the ban. A member of the Obsidian team will review your case with the moderating team and provide a decision once the review is complete.
+Si vous pensez avoir été banni par erreur, vous pouvez [[Aide et support#Contacter l'assistance Obsidian|contacter l'assistance Obsidian]] avec votre nom d'utilisateur Discord, Forum ou Reddit, ainsi que la date du bannissement. Un membre de l'équipe Obsidian examinera votre cas avec l'équipe de modération et fournira une décision une fois l'examen terminé.
 
-Please note that all appeal decisions are final and cannot be further appealed.
+Veuillez noter que toutes les décisions d'appel sont définitives et ne peuvent pas faire l'objet d'un nouvel appel.
 
-## Credits
+## Crédits
 
-Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https://www.recurse.com/code-of-conduct).
+Notre code de conduite est largement basé sur le [Code de conduite du Recurse Center](https://www.recurse.com/code-of-conduct).

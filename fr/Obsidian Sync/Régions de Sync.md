@@ -5,35 +5,35 @@ cssclasses:
 description: Move your Sync vault to a different region.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Sync regions
 ---
-When you create a [[Coffres locaux et distants|remote vault]] through [[Introduction à Obsidian Sync|Obsidian Sync]] your data is encrypted and stored on one of Obsidian's regional Sync servers. This guide explains how to move your Sync vault to a different regional server.
+Lorsque vous créez un [[Coffres locaux et distants|coffre distant]] via [[Introduction à Obsidian Sync|Obsidian Sync]], vos données sont chiffrées et stockées sur l'un des serveurs régionaux de Sync d'Obsidian. Ce guide explique comment déplacer votre coffre Sync vers un serveur régional différent.
 
-## Available regions
+## Régions disponibles
 
-The following regions are available with Obsidian Sync. We recommend using **Automatic** or choosing a location close to you to reduce latency and make the syncing process faster.
+Les régions suivantes sont disponibles avec Obsidian Sync. Nous recommandons d'utiliser **Automatique** ou de choisir un emplacement proche de vous pour réduire la latence et accélérer le processus de synchronisation.
 
 ![[Obsidian Sync/Sécurité et confidentialité#^sync-geo-regions]]
 
-## Change Sync region
+## Changer de région Sync
 
-To change your remote vault's region, you will need to recreate your vault on a different Sync server. Note you can also change regions by using the [[Mettre à niveau le chiffrement de Sync]] migration assistant, if your remote vault is on an older version.
+Pour changer la région de votre coffre distant, vous devrez recréer votre coffre sur un serveur Sync différent. Notez que vous pouvez également changer de région en utilisant l'assistant de migration [[Mettre à niveau le chiffrement de Sync]], si votre coffre distant est sur une version plus ancienne.
 
-> [!danger] Migrations are destructive
+> [!danger] Les migrations sont destructives
 > 
-> **Always [[Sauvegarder vos fichiers Obsidian|back up]] your vault before proceeding with a migration.**
+> **[[Sauvegarder vos fichiers Obsidian|Sauvegardez]] toujours votre coffre avant de procéder à une migration.**
 > 
-> When you migrate a remote vault your data will be replaced. This means:
+> Lorsque vous migrez un coffre distant, vos données seront remplacées. Cela signifie :
 > 
-> 1. Remote data will be removed from Obsidian servers, and vault data will be re-uploaded in its place.
-> 2. All [[Version history|version history]] for the vault will be lost.
+> 1. Les données distantes seront supprimées des serveurs Obsidian, et les données du coffre seront re-téléversées à leur place.
+> 2. Tout l'[[Version history|historique des versions]] du coffre sera perdu.
 
-![[Configurer Obsidian Sync#Disconnect from a remote vault]]
+![[Configurer Obsidian Sync#Se déconnecter d'un coffre distant]]
 
-If you are on the [[Forfaits et limites de stockage|Standard Plan]], you will also need to [[#Delete a remote vault|delete your remote vault]] before proceeding.
+Si vous êtes sur le [[Forfaits et limites de stockage|forfait Standard]], vous devrez également [[#Supprimer un coffre distant|supprimer votre coffre distant]] avant de continuer.
 
-![[Configurer Obsidian Sync#Create a new remote vault]]
+![[Configurer Obsidian Sync#Créer un nouveau coffre distant]]
 
-Additionally, you can [[#Delete a remote vault|delete your old remote vault]] once you have confirmed transition to your new remote vault and its region.
+De plus, vous pouvez [[#Supprimer un coffre distant|supprimer votre ancien coffre distant]] une fois que vous avez confirmé la transition vers votre nouveau coffre distant et sa région.

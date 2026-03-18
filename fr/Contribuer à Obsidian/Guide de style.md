@@ -3,458 +3,457 @@ permalink: style-guide
 description: This page explains the style guide for writing our support documentation.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Style guide
 ---
+La documentation d'Obsidian suit les directives de style listées sur cette page. Ces directives sont basées sur les meilleures pratiques de l'industrie, en particulier le [guide de style de documentation pour développeurs de Google](<https://developers.google.com/style>) et le [guide de style de Microsoft](https://learn.microsoft.com/en-us/style-guide/). Pour les cas particuliers non couverts ci-dessous, consultez ces guides externes comme références secondaires.
 
-The Obsidian documentation follows the style guidelines listed on this page. These guidelines are based on industry best practices, particularly the [Google developer documentation style guide](<https://developers.google.com/style>) and [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/). For edge cases not covered below, consult those external guides as secondary references.
-
-> [!tip]- Contribute
-> Most of the documentation existed before this style guide did.
+> [!tip]- Contribuer
+> La majeure partie de la documentation existait avant ce guide de style.
 > 
-> If you find any violations of this style guide, please [create an issue](https://github.com/obsidianmd/obsidian-docs/issues/new) and submit a pull request to [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
+> Si vous trouvez des violations de ce guide de style, veuillez [créer un ticket](https://github.com/obsidianmd/obsidian-docs/issues/new) et soumettre une pull request à [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
 
-## Terminology and grammar
+## Terminologie et grammaire
 
-### Language style
+### Style linguistique
 
-For our English documentation, it is recommended to use [Global English](https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html) to better serve our worldwide audience and to assist with [[#Translations]]. This means:
+Pour notre documentation en anglais, il est recommandé d'utiliser l'[anglais international](https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html) pour mieux servir notre audience mondiale et faciliter les [[#Traductions]]. Cela signifie :
 
-- Avoiding idioms and culturally-specific expressions
-- Using active voice and direct sentence construction
-- Preferring simple, common words over complex terminology
-- Being explicit rather than implied
-- For spelling conventions, use American English (e.g., 'organize' not 'organise').
+- Éviter les expressions idiomatiques et culturellement spécifiques
+- Utiliser la voix active et des constructions de phrases directes
+- Préférer des mots simples et courants plutôt qu'une terminologie complexe
+- Être explicite plutôt qu'implicite
+- Pour les conventions orthographiques, utiliser l'anglais américain (par ex., 'organize' et non 'organise').
 
-### Terms
+### Termes
 
-- Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
-- Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
-- Prefer "sync" or "syncing" over "synchronise" or "synchronising".
-- Prefer "search term" over "search query".
-- Prefer "heading" over "header" when referring to a text that introduces a section.
-- Prefer "maximum" over "max" and "minimum" over "min".
+- Préférer « raccourci clavier » plutôt que « hotkey ». Utiliser Raccourci clavier lorsqu'on fait référence à la fonctionnalité spécifique.
+- Préférer « l'application Obsidian » sur mobile, et « l'application Obsidian » sur bureau.
+- Préférer « sync » ou « synchronisation » plutôt que « synchroniser » lorsqu'on désigne le processus.
+- Préférer « terme de recherche » plutôt que « requête de recherche ».
+- Préférer « entête » plutôt que « en-tête » lorsqu'on fait référence à un texte qui introduit une section.
+- Préférer « maximum » plutôt que « max » et « minimum » plutôt que « min ».
 
-### Product names
+### Noms de produits
 
-Obsidian product names start with "Obsidian", for example "Obsidian Publish" and "Obsidian Sync".
+Les noms de produits Obsidian commencent par « Obsidian », par exemple « Obsidian Publish » et « Obsidian Sync ».
 
-If a paragraph becomes overly repetitive, you can use the short form in subsequent references.
+Si un paragraphe devient trop répétitif, vous pouvez utiliser la forme courte dans les références suivantes.
 
-For example:
+Par exemple :
 
-_To allow device-specific configuration, Obsidian Sync doesn't sync its own settings. You need to configure Sync for each of your devices._
+_Pour permettre une configuration spécifique à chaque appareil, Obsidian Sync ne synchronise pas ses propres paramètres. Vous devez configurer Sync pour chacun de vos appareils._
 
-### UI and interactions
+### Interface utilisateur et interactions
 
-- Use **bold** to indicate button text
-- Prefer "select" over "tap" or "click".
-	- For mobile-specific instructions, "tap" is acceptable when describing touch interactions as "click" is not available.
-- Prefer "sidebar" over "side bar".
-- Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
+- Utiliser le **gras** pour indiquer le texte des boutons.
+- Préférer « sélectionnez » plutôt que « appuyez sur » ou « cliquez sur ».
+	- Pour les instructions spécifiques au mobile, « appuyez sur » est acceptable pour décrire les interactions tactiles car « cliquez » n'est pas disponible.
+- Préférer « barre latérale » plutôt que « barre de côté ».
+- Préférer « exécutez » plutôt que « invoquez » lorsqu'on fait référence à des commandes ou des actions.
 
-When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**[[Paramètres]] → Community plugins**".
+Lorsqu'on fait référence à plusieurs interactions d'interface dans une séquence, utilisez le symbole → (U+2192). Par exemple, « **[[Paramètres]] → Modules complémentaires** ».
 
-### Notes, files, and folders
+### Notes, fichiers et dossiers
 
-- Use "note" when referring to a Markdown file in the vault.
-- Use "file" when referring to other file extensions than Markdown.
-- Prefer "note name" over "note title".
-- Prefer "active note" over "current note".
-- Prefer "folder" over "directory".
-- Prefer "file type" over "file format", unless specifically referring to the data format of the file content.
+- Utilisez « note » lorsque vous faites référence à un fichier Markdown dans le coffre.
+- Utilisez « fichier » lorsque vous faites référence à d'autres extensions de fichiers que Markdown.
+- Préférer « nom de la note » plutôt que « titre de la note ».
+- Préférer « note active » plutôt que « note actuelle ».
+- Préférer « dossier » plutôt que « répertoire ».
+- Préférer « type de fichier » plutôt que « format de fichier », sauf si vous faites spécifiquement référence au format de données du contenu du fichier.
 
-When moving between notes, use "open" if the destination is hidden, and "switch" if both source and destination notes are open in separate splits.
+Lorsque vous naviguez entre les notes, utilisez « ouvrir » si la destination est masquée, et « basculer » si la note source et la note de destination sont toutes deux ouvertes dans des panneaux séparés.
 
-### Reference documentation for settings
+### Documentation de référence pour les paramètres
 
-When possible, any settings should be documented within Obsidian using a descriptive text. Avoid documenting a specific setting in Obsidian Help unless:
+Dans la mesure du possible, tout paramètre devrait être documenté dans Obsidian à l'aide d'un texte descriptif. Évitez de documenter un paramètre spécifique dans l'aide d'Obsidian sauf si :
 
-- It requires more in-depth knowledge on how and when to use it.
-- It's commonly misused or asked about.
-- It _drastically_ changes the user experience.
+- Il nécessite des connaissances plus approfondies sur comment et quand l'utiliser.
+- Il est couramment mal utilisé ou fait l'objet de questions fréquentes.
+- Il modifie _radicalement_ l'expérience utilisateur.
 
-Consider using a tip callout if you want to draw attention to a specific setting.
+Envisagez d'utiliser un encadré de type astuce si vous souhaitez attirer l'attention sur un paramètre spécifique.
 
-### Directional terms
+### Termes directionnels
 
-Hyphenate directional terms when using them as adjectives. Avoid hyphenation when direction is used as a noun.
+Utilisez un trait d'union pour les termes directionnels lorsqu'ils sont utilisés comme adjectifs. Évitez le trait d'union lorsque la direction est utilisée comme nom.
 
-**Recommended:**
+**Recommandé :**
 
-- Select **[[Paramètres]]** in the bottom-left corner.
-- Select **[[Paramètres]]** in the bottom left.
+- Sélectionnez **[[Paramètres]]** dans le coin inférieur gauche.
+- Sélectionnez **[[Paramètres]]** en bas à gauche.
 
-**Not recommended:**
+**Non recommandé :**
 
-- Select **[[Paramètres]]** in the bottom left corner.
-- Select **[[Paramètres]]** in the bottom-left.
+- Sélectionnez **[[Paramètres]]** dans le coin inférieur-gauche.
+- Sélectionnez **[[Paramètres]]** dans l'inférieur gauche.
 
-Prefer "upper-left" and "upper-right" over "top-left" and "top-right".
+Préférer « supérieur gauche » et « supérieur droit » plutôt que « haut gauche » et « haut droit ».
 
-Don't indicate a direction when referring to settings. The location of the settings control depends on the device.
+N'indiquez pas de direction lorsque vous faites référence aux paramètres. L'emplacement du contrôle des paramètres dépend de l'appareil.
 
-**Recommended:**
+**Recommandé :**
 
-- Next to **Pick remote vault**, select **Choose**.
+- À côté de **Choisir le coffre distant**, sélectionnez **Choisir**.
 
-**Not recommended:**
+**Non recommandé :**
 
-- To the right of **Pick remote vault**, select **Choose**.
+- À droite de **Choisir le coffre distant**, sélectionnez **Choisir**.
 
-When describing vertical direction in UI elements, use "above" and "below" for spatial relationships. Avoid "up" and "down" as they're ambiguous in different contexts.
+Lorsque vous décrivez une direction verticale dans les éléments d'interface, utilisez « au-dessus » et « en dessous » pour les relations spatiales. Évitez « en haut » et « en bas » car ils sont ambigus dans différents contextes.
 
-**Recommended:**
+**Recommandé :**
 
-- The search box appears above the file list.
-- Additional options are available below.
+- La barre de recherche apparaît au-dessus de la liste des fichiers.
+- Des options supplémentaires sont disponibles en dessous.
 
-**Not recommended:**
+**Non recommandé :**
 
-- The search box is up from the file list.
-- More options are down below.
+- La barre de recherche est en haut de la liste des fichiers.
+- Plus d'options sont en bas.
 
 ### Instructions
 
-Use imperatives for the names of guides, section headings, and step-by-step instructions. The imperative mood is concise and action-oriented, which is more straightforward for users following instructions.
+Utilisez l'impératif pour les noms de guides, les entêtes de sections et les instructions pas à pas. L'impératif est concis et orienté vers l'action, ce qui est plus direct pour les utilisateurs qui suivent des instructions.
 
-- Prefer "Set up" over "Setting up"
-- Prefer "Move a file" over "Moving a file"
-- Prefer "Import your notes" over "Importing your notes"
+- Préférer « Configurer » plutôt que « Configuration de »
+- Préférer « Déplacer un fichier » plutôt que « Déplacement d'un fichier »
+- Préférer « Importer vos notes » plutôt que « Importation de vos notes »
 
-### Sentence case
+### Casse de phrase
 
-Prefer *sentence case* over *title case* for headings, buttons, and titles. When referencing UI elements always match the case of the text in the UI.
+Préférer la *casse de phrase* plutôt que la *casse de titre* pour les entêtes, boutons et titres. Lorsque vous faites référence à des éléments d'interface, respectez toujours la casse du texte dans l'interface.
 
-**Recommended:**
+**Recommandé :**
 
-- How Obsidian stores data
+- Comment Obsidian stocke les données
 
-**Not recommended:**
+**Non recommandé :**
 
-- How Obsidian Stores Data
+- Comment Obsidian Stocke Les Données
 
-### Examples
+### Exemples
 
-Prefer realistic examples over nonsense terms.
+Préférer des exemples réalistes plutôt que des termes absurdes.
 
-**Recommended:**
+**Recommandé :**
 
-- `task:(call OR schedule)`
+- `task:(appeler OR planifier)`
 
-**Not recommended:**
+**Non recommandé :**
 
 - `task:(foo OR bar)`
 
-### Key names and keyboard shortcuts
+### Noms de touches et raccourcis clavier
 
-When referring to keyboard keys and shortcuts, use consistent notation.
+Lorsque vous faites référence aux touches du clavier et aux raccourcis, utilisez une notation cohérente.
 
-**Individual key names:**
+**Noms de touches individuelles :**
 
-When referring to a character on the keyboard by name, add the character between parentheses right after the name.
+Lorsque vous faites référence à un caractère du clavier par son nom, ajoutez le caractère entre parenthèses juste après le nom.
 
-**Recommended:**
+**Recommandé :**
 
-- Press the hyphen (-) key to add a dash.
-- Use the question mark (?) to search.
+- Appuyez sur la touche tiret (-) pour ajouter un tiret.
+- Utilisez le point d'interrogation (?) pour rechercher.
 
-**Not recommended:**
+**Non recommandé :**
 
-- Press the hyphen key to add a dash.
-- Use the ? to search.
-- Add a `-` in front of the word.
+- Appuyez sur la touche tiret pour ajouter un tiret.
+- Utilisez le ? pour rechercher.
+- Ajoutez un `-` devant le mot.
 
-**Keyboard shortcuts:**
+**Raccourcis clavier :**
 
-Format keyboard shortcuts with no spaces around the plus sign. When a shortcut differs between operating systems, specify both.
+Formatez les raccourcis clavier sans espaces autour du signe plus. Lorsqu'un raccourci diffère entre les systèmes d'exploitation, précisez les deux.
 
-**Recommended:**
+**Recommandé :**
 
-- Press `Ctrl+Z` (Windows) or `Command+Z` (macOS) to undo.
-- Press `Escape` to close this window.
-- Use `Tab` to move between fields.
+- Appuyez sur `Ctrl+Z` (Windows) ou `Command+Z` (macOS) pour annuler.
+- Appuyez sur `Escape` pour fermer cette fenêtre.
+- Utilisez `Tab` pour naviguer entre les champs.
 
-**Not recommended:**
+**Non recommandé :**
 
-- Press `Cmd+Z` to undo.
-- Press `Ctrl + Z` (with spaces) to undo.
-- Press `Ctrl/Cmd+Z` to undo.
+- Appuyez sur `Cmd+Z` pour annuler.
+- Appuyez sur `Ctrl + Z` (avec des espaces) pour annuler.
+- Appuyez sur `Ctrl/Cmd+Z` pour annuler.
 
-For shortcuts that are identical across all platforms, you don't need to specify the OS. If you're unsure whether a shortcut differs by platform, specify the OS to be safe. Windows and Linux typically use the same shortcuts.
+Pour les raccourcis identiques sur toutes les plateformes, il n'est pas nécessaire de préciser le système d'exploitation. Si vous n'êtes pas sûr qu'un raccourci diffère selon la plateforme, précisez le système d'exploitation par précaution. Windows et Linux utilisent généralement les mêmes raccourcis.
 
 ### Markdown
 
-Use newlines between Markdown blocks:
+Utilisez des sauts de ligne entre les blocs Markdown :
 
-**Recommended:**
-
-```md
-# Heading 1
-
-This is a section.
-
-1. First item
-2. Second item
-3. Third item
-```
-
-**Not recommended:**
+**Recommandé :**
 
 ```md
-# Heading 1
-This is a section.
-1. First item
-2. Second item
-3. Third item
+# Entête 1
+
+Ceci est une section.
+
+1. Premier élément
+2. Deuxième élément
+3. Troisième élément
 ```
 
-**Em dashes in lists:**
+**Non recommandé :**
 
-Use em dashes (—) to separate bolded terms from their descriptions in bullet lists. Do not use em dashes in simple nested bullet lists with links.
+```md
+# Entête 1
+Ceci est une section.
+1. Premier élément
+2. Deuxième élément
+3. Troisième élément
+```
 
-**Recommended:**
+**Tirets cadratins dans les listes :**
 
-- **View menu** — create, edit, and switch views.
-- **Calculate values** — add prices, compute totals, or perform math operations.
+Utilisez des tirets cadratins (—) pour séparer les termes en gras de leurs descriptions dans les listes à puces. N'utilisez pas de tirets cadratins dans les listes imbriquées simples avec des liens.
 
-**Not recommended:**
+**Recommandé :**
 
-- [[Créer une base]] — Learn how to create and embed a base.
+- **Menu d'affichage** — créer, modifier et changer de vue.
+- **Calculer des valeurs** — ajouter des prix, calculer des totaux ou effectuer des opérations mathématiques.
+
+**Non recommandé :**
+
+- [[Créer une base]] — Apprenez à créer et intégrer une base.
 
 ### Images
 
-Use "**width** x **height** pixels" for describing image or screen dimensions.
+Utilisez « **largeur** x **hauteur** pixels » pour décrire les dimensions d'images ou d'écrans.
 
-**Example:**
+**Exemple :**
 
-Recommended image dimensions: 1920 x 1080 pixels.
+Dimensions d'image recommandées : 1920 x 1080 pixels.
 
-## Information structure
+## Structure de l'information
 
-### Callout types
+### Types d'encadrés
 
-Use callouts strategically to highlight specific types of information:
+Utilisez les encadrés de manière stratégique pour mettre en évidence des types d'informations spécifiques :
 
-**Tip** (`[!tip]-`) - Practical advice or best practices that enhance the user's workflow. Use for shortcuts, workarounds, or non-essential but helpful information. These callouts start out collapsed.
+**Astuce** (`[!tip]-`) - Conseils pratiques ou bonnes pratiques qui améliorent le flux de travail de l'utilisateur. À utiliser pour les raccourcis, les solutions de contournement ou les informations utiles mais non essentielles. Ces encadrés sont repliés par défaut.
 
-**Info** (`[!info]+`) - Additional context, background information, or clarifications. Use when information adds understanding but isn't required to complete a task. These callouts start out open.
+**Info** (`[!info]+`) - Contexte supplémentaire, informations de fond ou clarifications. À utiliser lorsque l'information ajoute de la compréhension mais n'est pas nécessaire pour accomplir une tâche. Ces encadrés sont dépliés par défaut.
 
-**Warning** (`[!warning]+`) - Important cautions that prevent data loss, errors, or unintended consequences. Use sparingly for genuinely risky situations. These callouts should never be collapsed.
+**Avertissement** (`[!warning]+`) - Mises en garde importantes qui préviennent la perte de données, les erreurs ou les conséquences non souhaitées. À utiliser avec parcimonie pour les situations véritablement risquées. Ces encadrés ne doivent jamais être repliés.
 
-**Example** (`[!example]-`) - General asides or supplementary details. Use for tangential information that some users may find relevant. These callouts start out collapsed.
+**Exemple** (`[!example]-`) - Remarques générales ou détails complémentaires. À utiliser pour les informations tangentielles que certains utilisateurs pourraient trouver pertinentes. Ces encadrés sont repliés par défaut.
 
-**Examples:**
+**Exemples :**
 ```md
-> [!tip]- Use keyboard shortcuts
-> You can speed up your workflow by memorizing the most-used shortcuts.
+> [!tip]- Utiliser les raccourcis clavier
+> Vous pouvez accélérer votre flux de travail en mémorisant les raccourcis les plus utilisés.
 
-> [!info]+ This is a paid addon
-> This feature requires a paid subscription to use.
+> [!info]+ Ceci est un module payant
+> Cette fonctionnalité nécessite un abonnement payant pour être utilisée.
 
-> [!warning]+ This action cannot be undone
-> Deleting a vault is permanent. Consider exporting your notes first.
+> [!warning]+ Cette action est irréversible
+> La suppression d'un coffre est permanente. Pensez d'abord à exporter vos notes.
 
-> [!example]- Advanced usage
-> You can also configure this setting via the Graph menu.
+> [!example]- Utilisation avancée
+> Vous pouvez également configurer ce paramètre via le menu du graphe.
 ```
 
-### Lists vs. prose
+### Listes vs. prose
 
-Use lists when presenting discrete items that don't have strong sequential or causal relationships. Use prose and paragraphs when items build on each other, require explanation, or benefit from narrative flow.
+Utilisez des listes lorsque vous présentez des éléments distincts qui n'ont pas de relations séquentielles ou causales fortes. Utilisez de la prose et des paragraphes lorsque les éléments s'appuient les uns sur les autres, nécessitent des explications ou bénéficient d'un flux narratif.
 
-**Use a list for:**
-- A set of unrelated features
-- Installation requirements
-- Configuration options
-- Troubleshooting steps
+**Utilisez une liste pour :**
+- Un ensemble de fonctionnalités sans rapport entre elles
+- Les prérequis d'installation
+- Les options de configuration
+- Les étapes de dépannage
 
-**Use prose for:**
-- Explanations of how something works
-- Workflows with dependencies
-- Conceptual overviews
-- Guidance requiring context
+**Utilisez de la prose pour :**
+- Les explications sur le fonctionnement de quelque chose
+- Les flux de travail avec des dépendances
+- Les aperçus conceptuels
+- Les conseils nécessitant du contexte
 
-### Tables
+### Tableaux
 
-Use tables to compare features, versions, or related data points where alignment aids understanding. Avoid tables for simple lists or single-column data.
+Utilisez des tableaux pour comparer des fonctionnalités, des versions ou des points de données associés où l'alignement facilite la compréhension. Évitez les tableaux pour les listes simples ou les données à une seule colonne.
 
-**Good use case:**
+**Bon cas d'utilisation :**
 
-| Feature | Mobile | Desktop |
-|---------|--------|---------|
-| Sync | Yes | Yes |
-| Plugins | No | Yes |
-| Themes | Limited | Full |
+| Fonctionnalité | Mobile | Bureau |
+|----------------|--------|--------|
+| Sync | Oui | Oui |
+| Modules | Non | Oui |
+| Thèmes | Limité | Complet |
 
-### Cross-references
+### Références croisées
 
-Use internal wiki links (`[[Note name]]`) liberally to help users navigate related topics. However, avoid over-linking:
+Utilisez des liens wiki internes (`[[Nom de la note]]`) généreusement pour aider les utilisateurs à naviguer vers les sujets connexes. Cependant, évitez de créer trop de liens :
 
-- Don't link the same term multiple times in a single page
-- Link only when the referenced page provides significant added context
-- Use descriptive link text when helpful: `[[Note name#Section|descriptive text]]`
+- Ne liez pas le même terme plusieurs fois sur une même page
+- Créez un lien uniquement lorsque la page référencée fournit un contexte supplémentaire significatif
+- Utilisez un texte de lien descriptif quand c'est utile : `[[Nom de la note#Section|texte descriptif]]`
 
-**Example:**
+**Exemple :**
 
-First mention: "Learn about [[Introduction à Obsidian Sync|Obsidian Sync]] to keep your vault updated across devices."
-Later mention: "You can configure Sync for each device separately."
+Première mention : « Découvrez [[Introduction à Obsidian Sync|Obsidian Sync]] pour garder votre coffre à jour sur tous vos appareils. »
+Mention ultérieure : « Vous pouvez configurer Sync pour chaque appareil séparément. »
 
-### Platform-specific content
+### Contenu spécifique à une plateforme
 
-When documenting features that differ between platforms, use section headings to organize the content.
+Lorsque vous documentez des fonctionnalités qui diffèrent entre les plateformes, utilisez des entêtes de section pour organiser le contenu.
 
-Use `Desktop` and `Mobile` as subsection headings to separate platform-specific instructions or features.
+Utilisez `Bureau` et `Mobile` comme entêtes de sous-section pour séparer les instructions ou fonctionnalités spécifiques à chaque plateforme.
 
-**Recommended:**
+**Recommandé :**
 ```md
-## Customizing the ribbon
+## Personnaliser le ruban
 
-### Desktop
+### Bureau
 
-On the desktop version, you can customize the ribbon as follows:
+Sur la version bureau, vous pouvez personnaliser le ruban comme suit :
 
-- Rearrange the order of ribbon actions by dragging and dropping the icons.
-- To hide specific actions, right-click on an empty space and uncheck the actions you want to hide.
+- Réorganisez l'ordre des actions du ruban en glissant-déposant les icônes.
+- Pour masquer des actions spécifiques, faites un clic droit sur un espace vide et décochez les actions que vous souhaitez masquer.
 
 ### Mobile
 
-In the mobile version, you can customize the ribbon through settings:
+Sur la version mobile, vous pouvez personnaliser le ruban via les paramètres :
 
-1. Open **[[Paramètres]]**.
-2. Navigate to **Appearance**.
-3. Click **Manage** under **Ribbon menu**.
+1. Ouvrez les **[[Paramètres]]**.
+2. Accédez à **Apparence**.
+3. Sélectionnez **Gérer** sous **Menu du ruban**.
 ```
 
-> [!info]+ When to create sections?
-> Only create separate sections if content significantly differs. If instructions are largely the same with minor variations, use inline notes instead.
+> [!info]+ Quand créer des sections ?
+> Créez des sections séparées uniquement si le contenu diffère de manière significative. Si les instructions sont largement identiques avec des variations mineures, utilisez plutôt des notes en ligne.
 
-## Icons and images
+## Icônes et images
 
-Include icons and images when they make it easier to explain things that are hard to describe with words, or when you need to show important parts of the Obsidian application. You can save images in the `Attachments` folder.
+Incluez des icônes et des images lorsqu'elles facilitent l'explication de choses difficiles à décrire avec des mots, ou lorsque vous devez montrer des parties importantes de l'application Obsidian. Vous pouvez enregistrer les images dans le dossier `Attachments`.
 
-- The image should make the text it accompanies easier to understand.
+- L'image doit rendre le texte qu'elle accompagne plus facile à comprendre.
 
- **Example**: Once enabled, the [[Compteur de mots]] plugin will create a new entry on your bottom statusbar.
+ **Exemple** : Une fois activé, le module [[Nombre de mots]] créera une nouvelle entrée dans votre barre d'état en bas de l'écran.
  
 ![[Style-guide-zoomed-example.png#interface|300]]
 
-- Images should be in either `.png` or `.svg` format.
-- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Incorporer des fichiers#Embed an image in a note|embedding an image in a note]].
-- In rare cases, you may want to place especially large or complex images in a [[Callouts#Foldable callouts|folded callout]]. 
-- For pop-up windows or modals, the image should show the entire Obsidian application window.
+- Les images doivent être au format `.png` ou `.svg`.
+- Si une image semble trop grande dans la note, réduisez-la en dehors d'Obsidian, ou ajustez ses dimensions comme expliqué dans [[Incorporer des fichiers#Intégrer une image dans une note|l'intégration d'une image dans une note]].
+- Dans de rares cas, vous pouvez placer des images particulièrement grandes ou complexes dans un [[Callouts#Encadrés pliables|encadré replié]].
+- Pour les fenêtres pop-up ou les modales, l'image doit montrer l'intégralité de la fenêtre de l'application Obsidian.
  ![[Style-guide-modal-example.png#interface]]
 
-### Icons
+### Icônes
 
-[Lucide](https://lucide.dev/icons/) and custom Obsidian icons can be used alongside detailed elements to provide a visual representation of a feature.
+Les icônes [Lucide](https://lucide.dev/icons/) et les icônes personnalisées d'Obsidian peuvent être utilisées aux côtés d'éléments détaillés pour fournir une représentation visuelle d'une fonctionnalité.
 
-**Example:** In the ribbon on the left, select **Create new canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) to create a canvas in the same folder as the active file.
+**Exemple :** Dans le ruban à gauche, sélectionnez **Créer un nouveau canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) pour créer un canvas dans le même dossier que le fichier actif.
 
-**Guidelines for icons**
+**Directives pour les icônes**
 
-- Store icons in the `Attachments/icons` folder.
-- Add the prefix `lucide-` before the Lucide icon name.
-- Add the prefix `obsidian-icon-` before the Obsidian icon name.
+- Stockez les icônes dans le dossier `Attachments/icons`.
+- Ajoutez le préfixe `lucide-` avant le nom de l'icône Lucide.
+- Ajoutez le préfixe `obsidian-icon-` avant le nom de l'icône Obsidian.
 
-**Example:** The icon for creating a new canvas should be named `lucide-layout-dashboard`.
+**Exemple :** L'icône pour créer un nouveau canvas devrait être nommée `lucide-layout-dashboard`.
 
-- Use the SVG version of the icons available.
-- Icons should be `18` pixels in width, `18` pixels in height, and have a stroke width of `1.5`. You can adjust these settings in the SVG data.
+- Utilisez la version SVG des icônes disponibles.
+- Les icônes doivent avoir une largeur de `18` pixels, une hauteur de `18` pixels et une épaisseur de trait de `1.5`. Vous pouvez ajuster ces paramètres dans les données SVG.
 
-> [!info]- Adjusting size and stroke in an SVG
+> [!info]- Ajuster la taille et le trait dans un SVG
 > ```html
-> <svg xmlns="http://www.w3.org/2000/svg" width="WIDTH" height="HEIGHT" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="STROKE-WIDTH" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+> <svg xmlns="http://www.w3.org/2000/svg" width="LARGEUR" height="HAUTEUR" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="ÉPAISSEUR-DE-TRAIT" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
 >```
 
-- Utilize the `icon` anchor in embedded images, to tweak the spacing around the icon so that it aligns neatly with the text in the vicinity.
-- Icons should be surrounded by parenthesis. ( ![[lucide-cog.svg#icon]] )
+- Utilisez l'ancre `icon` dans les images intégrées, pour ajuster l'espacement autour de l'icône afin qu'elle s'aligne proprement avec le texte environnant.
+- Les icônes doivent être entourées de parenthèses. ( ![[lucide-cog.svg#icon]] )
 
-**Example**: `( ![[lucide-cog.svg#icon]] )`
+**Exemple** : `( ![[lucide-cog.svg#icon]] )`
 
-### Image anchor tags
+### Balises d'ancrage pour les images
 
-Image anchors tags are available to add decorative changes to the embedded images. 
+Les balises d'ancrage pour les images sont disponibles pour ajouter des modifications décoratives aux images intégrées.
 
-> [!warning] Live preview warning
-> The icon anchor tags will not display correctly in **Live preview.** Use **Reading view** to confirm the anchor tag has been applied. 
+> [!warning] Avertissement pour l'aperçu en direct
+> Les balises d'ancrage pour les icônes ne s'afficheront pas correctement en **aperçu en direct.** Utilisez le **mode lecture** pour confirmer que la balise d'ancrage a été appliquée.
 
-**Icon**
+**Icône**
 
 `![[lucide-menu.svg#icon]]`
 
-The icon anchor tag ensures correct vertical alignment for icons used to indicate interface elements.
+La balise d'ancrage icône assure un alignement vertical correct pour les icônes utilisées pour indiquer les éléments d'interface.
 
-The first menu icon uses the anchor tag ( ![[lucide-menu.svg#icon]] ), while the second menu icon ( ![[lucide-menu.svg]] ) does not.
+La première icône de menu utilise la balise d'ancrage ( ![[lucide-menu.svg#icon]] ), tandis que la seconde icône de menu ( ![[lucide-menu.svg]] ) ne l'utilise pas.
 
 **Interface**
 
 `![[Vault picker.png#interface]]`
 
-The interface anchor tag adds a decorative box shadow around the image. In the first image, the interface anchor tag is applied.
+La balise d'ancrage interface ajoute une ombre portée décorative autour de l'image. Dans la première image, la balise d'ancrage interface est appliquée.
 ![[Vault picker.png#interface]]
-In contrast, the second image does not have the interface anchor applied.
+En revanche, la seconde image n'a pas l'ancrage interface appliqué.
 
 ![[Vault picker.png]]
 
-**Outline**
+**Contour**
 
 `![[Backlinks.png#outline]]`
 
-The outline anchor tag adds a subtle border around the image. In the first image, the outline anchor tag is applied. 
+La balise d'ancrage contour ajoute une bordure subtile autour de l'image. Dans la première image, la balise d'ancrage contour est appliquée.
 
-> [!tip] Observe the lower left of the image to see the difference.
+> [!tip] Observez le coin inférieur gauche de l'image pour voir la différence.
 
 ![[Backlinks.png#outline]]
 
-The second image lacks the outline anchor tag.
+La seconde image n'a pas la balise d'ancrage contour.
 
 ![[Backlinks.png]]
 
-### Optimization
+### Optimisation
 
-Images slow the loading time of the page, and take valuable [[Introduction à Obsidian Publish|Publish]] storage space. Optimizing images allows a reduction in file size, but maintains the visual integrity of the image. 
+Les images ralentissent le temps de chargement de la page et occupent un espace de stockage précieux sur [[Introduction à Obsidian Publish|Publish]]. L'optimisation des images permet de réduire la taille des fichiers tout en maintenant l'intégrité visuelle de l'image.
 
-Both images and icons should be optimized.
+Les images et les icônes doivent être optimisées.
 
-> [!info] Tools for optimizing images
-> Here are a some recommended programs for reducing the size of your images.
-> - **Windows:** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
-> - **macOS:** [ImageOptim](https://imageoptim.com/)
+> [!info] Outils pour optimiser les images
+> Voici quelques programmes recommandés pour réduire la taille de vos images.
+> - **Windows :** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
+> - **macOS :** [ImageOptim](https://imageoptim.com/)
 > - **Linux/Unix** [Trimage](https://trimage.org)
 > 
-> We recommend an optimization rate of 65-75%.
+> Nous recommandons un taux d'optimisation de 65-75 %.
 
-## Layout
+## Mise en page
 
-### Broken links
+### Liens cassés
 
-Before submitting your Pull Request, please check for any broken links in the documentation of the translation you are working on, and correct them. Broken links can occur naturally over time, so verifying their accuracy helps maintain the quality of the documentation.
+Avant de soumettre votre Pull Request, veuillez vérifier s'il y a des liens cassés dans la documentation de la traduction sur laquelle vous travaillez, et corrigez-les. Les liens cassés peuvent apparaître naturellement au fil du temps, donc vérifier leur exactitude aide à maintenir la qualité de la documentation.
 
-You can check for broken links using [[Plugins communautaires]] or tools available in your IDE.
+Vous pouvez vérifier les liens cassés en utilisant des [[Modules complémentaires]] ou des outils disponibles dans votre IDE.
 
 ### Descriptions
 
-This documentation is edited on GitHub and hosted online via [[Introduction à Obsidian Publish|Obsidian Publish]], which includes [[Aperçus de liens sur les réseaux sociaux#Description|descriptions]] for social cards and other [[SEO]] elements.
+Cette documentation est éditée sur GitHub et hébergée en ligne via [[Introduction à Obsidian Publish|Obsidian Publish]], qui inclut des [[Aperçus de liens sur les réseaux sociaux#Description|descriptions]] pour les cartes sociales et d'autres éléments [[SEO]].
 
-If the page you are working on does not have a `description` [[Propriétés|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page's content.
+Si la page sur laquelle vous travaillez n'a pas de [[Propriétés|propriété]] `description`, veuillez en ajouter une. La description doit faire 150 caractères ou moins et fournir un résumé objectif du contenu de la page.
 
-**Good**: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
-**Could be tweaked**: Learn how to create templates that automatically capture and organize metadata from web pages with Web Clipper.
+**Bon** : Apprenez à créer des modèles qui capturent et organisent automatiquement les métadonnées de pages web avec Web Clipper.
+**À améliorer** : Apprenez comment créer des modèles qui capturent et organisent automatiquement les métadonnées issues de pages web avec Web Clipper.
 
 ### Directions
 
-When writing or rewriting [[#Instructions]] on how to perform an action within the app, be sure to include steps for both the mobile and desktop versions.
+Lorsque vous rédigez ou réécrivez des [[#Instructions]] sur la façon d'effectuer une action dans l'application, assurez-vous d'inclure les étapes pour les versions mobile et bureau.
 
-If you do not have access to a mobile or desktop device, please mention this when submitting your Pull Request.
+Si vous n'avez pas accès à un appareil mobile ou de bureau, veuillez le mentionner lors de la soumission de votre Pull Request.
 
-## Translations
+## Traductions
 
-  Translate the entirety of the content when completing a translation. This includes and is not limited to:
+Traduisez l'intégralité du contenu lors d'une traduction. Cela inclut, sans s'y limiter :
 
-- Note names
-- Folder names
-- Aliases
-- Attachment names
-- Alt link text
+- Les noms des notes
+- Les noms des dossiers
+- Les alias
+- Les noms des pièces jointes
+- Le texte alternatif des liens

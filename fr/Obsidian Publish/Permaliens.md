@@ -1,24 +1,24 @@
 ---
 permalink: publish/permalinks
-localized: null
+localized: '2026-03-18'
 aliases:
   - Permalinks
 ---
-You can rename the URL to your notes, using _permalinks_.
+Vous pouvez renommer l'URL de vos notes en utilisant des _permaliens_.
 
-For example, you can turn this:
+Par exemple, vous pouvez transformer ceci :
 
 ```
 https://publish.obsidian.md/username/Company/About+us
 ```
 
-Into this:
+En ceci :
 
 ```
 https://publish.obsidian.md/username/about
 ```
 
-To create a permalink for a note, add the `permalink` property to your [[Propriétés]].
+Pour créer un permalien pour une note, ajoutez la propriété `permalink` à vos [[Propriétés]].
 
 ```yaml
 ---
@@ -26,42 +26,42 @@ permalink: about
 ---
 ```
 
-If someone visits a note using the original URL, they'll be automatically redirected to the permalink.
+Si quelqu'un visite une note en utilisant l'URL d'origine, la personne sera automatiquement redirigée vers le permalien.
 
-## Redirect old notes
+## Rediriger d'anciennes notes
 
-Renaming and removing notes is a natural part of maintaining a living vault. While Obsidian automatically updates links when you move a note within your local vault, other websites may still link to your old notes on your published [[Introduction à Obsidian Publish|Obsidian Publish]] site. You can redirect readers from one note to another.
+Renommer et supprimer des notes fait naturellement partie de l'entretien d'un coffre vivant. Bien qu'Obsidian mette automatiquement à jour les liens lorsque vous déplacez une note dans votre coffre local, d'autres sites web peuvent encore pointer vers vos anciennes notes sur votre site [[Introduction à Obsidian Publish|Obsidian Publish]]. Vous pouvez rediriger les lecteurs d'une note vers une autre.
 
-Imagine you want to move a note from one folder to another:
+Imaginons que vous souhaitiez déplacer une note d'un dossier à un autre :
 
 - **Guides**
-  - ~~Making friends.md~~ (removed)
-- **Tutorials**
-  - *How to make friends.md* (added)
+  - ~~Se faire des amis.md~~ (supprimé)
+- **Tutoriels**
+  - *Comment se faire des amis.md* (ajouté)
 
-After you move the note, Obsidian automatically updates all links within the vault. However, if you publish the change to your Publish site, any links to `/Guides/Making+friends` will result in a 404.
+Après avoir déplacé la note, Obsidian met automatiquement à jour tous les liens dans le coffre. Cependant, si vous publiez la modification sur votre site Publish, tous les liens vers `/Guides/Se+faire+des+amis` aboutiront à une erreur 404.
 
-To redirect readers from `/Guides/Making+friends` to `/Tutorials/How+to+make+friends`, you need to add an [[Alias|alias]] in `How to make friends.md`, the note you want to redirect to.
+Pour rediriger les lecteurs de `/Guides/Se+faire+des+amis` vers `/Tutoriels/Comment+se+faire+des+amis`, vous devez ajouter un [[Alias|alias]] dans `Comment se faire des amis.md`, la note vers laquelle vous souhaitez rediriger.
 
 ```md
 ---
-alias: Guides/Making friends
+alias: Guides/Se faire des amis
 ---
 
-# How to make friends
+# Comment se faire des amis
 ```
 
 > [!important]
-> Make sure that you include the full path to the old note in the alias. While using only the note name as an alias works in your local vault, Publish needs the full path to the note to be able to redirect to it.
+> Assurez-vous d'inclure le chemin complet vers l'ancienne note dans l'alias. Bien que l'utilisation du seul nom de la note comme alias fonctionne dans votre coffre local, Publish a besoin du chemin complet de la note pour pouvoir effectuer la redirection.
 
-You can redirect multiple notes by adding an alias for each.
+Vous pouvez rediriger plusieurs notes en ajoutant un alias pour chacune.
 
 ```md
 ---
 aliases: 
-  - Guides/Making friends
-  - Developing friendships
+  - Guides/Se faire des amis
+  - Développer des amitiés
 ---
 
-# How to make friends
+# Comment se faire des amis
 ```

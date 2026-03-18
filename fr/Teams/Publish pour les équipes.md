@@ -2,36 +2,35 @@
 permalink: teams/publish
 cssclasses:
   - soft-embed
-localized: null
+localized: '2026-03-18'
 aliases:
   - Publishing for teams
 ---
-Obsidian makes it easy to create and edit wikis, knowledge bases, documentation, and other types of websites. It can be used as an editing tool or CMS for both internal and external sites.
+Obsidian facilite la création et l'édition de wikis, de bases de connaissances, de documentation et d'autres types de sites web. Il peut être utilisé comme outil d'édition ou CMS pour des sites internes comme externes.
 
-## Publishing tools and services
+## Outils et services de publication
 
-You can create public and private sites using the official [[Introduction à Obsidian Publish|Obsidian Publish]] service, and publish directly from the Obsidian app.
+Vous pouvez créer des sites publics et privés en utilisant le service officiel [[Introduction à Obsidian Publish|Obsidian Publish]], et publier directement depuis l'application Obsidian.
 
-Obsidian also works with a variety of third-party publishing tools. Obsidian is compatible with most static site generators (SSGs) such as Jekyll, Hugo, Astro, and Quartz. Community plugins allow you to publish to other services such as Confluence, Jira, and more.
+Obsidian fonctionne également avec une variété d'outils de publication tiers. Obsidian est compatible avec la plupart des générateurs de sites statiques (SSG) tels que Jekyll, Hugo, Astro et Quartz. Les modules complémentaires vous permettent de publier vers d'autres services tels que Confluence, Jira, et plus encore.
 
-## Advanced collaboration for Obsidian Publish
+## Collaboration avancée pour Obsidian Publish
 
-For more information on setting up an [[Introduction à Obsidian Publish|Obsidian Publish]] site, please review the following articles:
+Pour plus d'informations sur la configuration d'un site [[Introduction à Obsidian Publish|Obsidian Publish]], veuillez consulter les articles suivants :
 
 - [[Introduction à Obsidian Publish]]
 - [[Collaborer sur un site Publish]]
 - [[Limitations de Publish]]
 
-If you are part of a larger team, you may need to pair Obsidian Publish with a more advanced version control system, such as Git. You can combine Publish with an external version control system, or use it in conjunction with a syncing service like [[Introduction à Obsidian Sync|Obsidian Sync]] to keep changes in sync across multiple users.
+Si vous faites partie d'une équipe plus importante, vous devrez peut-être associer Obsidian Publish à un système de contrôle de version plus avancé, tel que Git. Vous pouvez combiner Publish avec un système de contrôle de version externe, ou l'utiliser conjointement avec un service de synchronisation comme [[Introduction à Obsidian Sync|Obsidian Sync]] pour garder les modifications synchronisées entre plusieurs utilisateurs.
 
-For example, this documentation site is hosted and Obsidian Publish and version control is managed via a public [GitHub repository](https://github.com/obsidianmd/obsidian-help).
+Par exemple, ce site de documentation est hébergé sur Obsidian Publish et le contrôle de version est géré via un [dépôt GitHub](https://github.com/obsidianmd/obsidian-help) public.
 
-### Media
+### Médias
 
-Obsidian Publish is designed to primarily process plain text files and smaller images, presenting them on a website for viewing. Obsidian Publish is not designed to host large file size media, such as high-resolution image galleries and videos. For this we recommend hosting your assets on a dedicated CDN.
+Obsidian Publish est conçu pour traiter principalement des fichiers en texte brut et des images de petite taille, en les présentant sur un site web pour consultation. Obsidian Publish n'est pas conçu pour héberger des médias volumineux, tels que des galeries d'images haute résolution et des vidéos. Pour cela, nous recommandons d'héberger vos ressources sur un CDN dédié.
 
-### Frequently asked questions
+### Questions fréquentes
 
-**Does every employee need to purchase a Publish subscription?**
-No. Only the site owner needs to purchase an Obsidian Publish subscription.
-
+**Chaque employé doit-il acheter un abonnement Publish ?**
+Non. Seul le propriétaire du site doit acheter un abonnement Obsidian Publish.

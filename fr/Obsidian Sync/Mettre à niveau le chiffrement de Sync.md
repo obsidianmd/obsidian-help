@@ -5,41 +5,41 @@ cssclasses:
 description: 'Move your Sync vault to a different region, perform and encryption upgrade.'
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Upgrade Sync encryption
 ---
-By default Obsidian Sync uses [[Obsidian Sync/Sécurité et confidentialité#Encryption|end-to-end encryption]] for all your data. This guarantees that no one — not even the Obsidian team — can access your notes.
+Par défaut, Obsidian Sync utilise le [[Sécurité et confidentialité#Chiffrement|chiffrement de bout en bout]] pour toutes vos données. Cela garantit que personne — pas même l'équipe Obsidian — ne peut accéder à vos notes.
 
-Obsidian occasionally upgrades Sync encryption to maintain the highest [[Obsidian Sync/Sécurité et confidentialité|security]] standards. If an encryption upgrade is available you will see an option titled **Upgrade vault encryption** in **Obsidian Settings → Sync**. This process also allows you to change your [[Régions de Sync|Sync region]].
+Obsidian met occasionnellement à niveau le chiffrement de Sync pour maintenir les standards de [[Sécurité et confidentialité|sécurité]] les plus élevés. Si une mise à niveau du chiffrement est disponible, vous verrez une option intitulée **Mettre à niveau le chiffrement du coffre** dans **Paramètres Obsidian → Sync**. Ce processus vous permet également de changer votre [[Régions de Sync|région de Sync]].
 
-## Encryption versions
+## Versions de chiffrement
 
-All new vaults automatically use the latest encryption. Existing vaults can be upgraded using the migration assistant. Note that all devices must be using an Obsidian app version that supports the Sync encryption version you are migrating to.
+Tous les nouveaux coffres utilisent automatiquement le dernier chiffrement. Les coffres existants peuvent être mis à niveau à l'aide de l'assistant de migration. Notez que tous les appareils doivent utiliser une version de l'application Obsidian qui prend en charge la version de chiffrement de Sync vers laquelle vous migrez.
 
-| Release date                                                            | Sync version | Minimum app version |
-| ----------------------------------------------------------------------- | ------------ | ------------------- |
-| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3            | 1.8.3               |
-| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0            | 0.9.21              |
+| Date de publication                                                     | Version de Sync | Version minimale de l'application |
+| ----------------------------------------------------------------------- | --------------- | --------------------------------- |
+| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3               | 1.8.3                             |
+| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0               | 0.9.21                            |
 
-## Upgrade encryption with the migration assistant
+## Mettre à niveau le chiffrement avec l'assistant de migration
 
-Before you proceed, create a [[Sauvegarder vos fichiers Obsidian|backup]] of your vault to prevent any potential data loss. This process will permanently delete all data in your remote vault with the old encryption, including the version history.
+Avant de continuer, créez une [[Sauvegarder vos fichiers Obsidian|sauvegarde]] de votre coffre pour éviter toute perte potentielle de données. Ce processus supprimera définitivement toutes les données de votre coffre distant avec l'ancien chiffrement, y compris l'historique des versions.
 
-> [!danger] Migrations are destructive
+> [!danger] Les migrations sont destructrices
 > 
-> **Always [[Sauvegarder vos fichiers Obsidian|back up]] your vault before proceeding with a migration.**
+> **[[Sauvegarder vos fichiers Obsidian|Sauvegardez]] toujours votre coffre avant de procéder à une migration.**
 > 
-> When you migrate a remote vault your data will be replaced. This means:
+> Lorsque vous migrez un coffre distant, vos données seront remplacées. Cela signifie :
 > 
-> 1. Remote data will be removed from Obsidian servers, and vault data will be re-uploaded in its place.
-> 2. All [[Version history|version history]] for the vault will be lost.
+> 1. Les données distantes seront supprimées des serveurs Obsidian, et les données du coffre seront re-téléversées à leur place.
+> 2. Tout l'[[Version history|historique des versions]] du coffre sera perdu.
 
-1. Open **[[Paramètres]]**.
-2. In the sidebar, select **Sync**.
-3. Click **Upgrade vault**. This option will only be visible if an upgrade is available for your remote vault.
-4. Double check your backups and click **Continue**.
-5. In **Vault name**, enter the name of the remote vault.
-6. In **Region**, choose your server [[#Regional sync servers|region]] for your remote vault. 
-7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Sécurité et confidentialité]].
-8. Once you re-upload your data with the new encryption, re-connect to the new Sync vault on your other devices.
+1. Ouvrez les **[[Paramètres]]**.
+2. Dans la barre latérale, sélectionnez **Sync**.
+3. Cliquez sur **Mettre à niveau le coffre**. Cette option ne sera visible que si une mise à niveau est disponible pour votre coffre distant.
+4. Vérifiez vos sauvegardes et cliquez sur **Continuer**.
+5. Dans **Nom du coffre**, entrez le nom du coffre distant.
+6. Dans **Région**, choisissez la [[#Serveurs de synchronisation régionaux|région]] du serveur pour votre coffre distant.
+7. Dans **Mot de passe de chiffrement**, choisissez un mot de passe pour votre coffre. Cela crée un coffre avec chiffrement de bout en bout. Le mot de passe du coffre est distinct de votre compte Obsidian et peut être différent pour chacun de vos coffres. Pour plus d'informations, consultez [[Sécurité et confidentialité]].
+8. Une fois vos données re-téléversées avec le nouveau chiffrement, reconnectez-vous au nouveau coffre Sync sur vos autres appareils.

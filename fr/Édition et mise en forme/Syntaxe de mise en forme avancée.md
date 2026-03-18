@@ -1,32 +1,32 @@
 ---
 permalink: advanced-syntax
-localized: null
+localized: '2026-03-18'
 aliases:
   - Advanced formatting syntax
 ---
-Learn how to add advanced formatting syntax to your notes.
+Apprenez à ajouter une syntaxe de mise en forme avancée à vos notes.
 
-## Tables
+## Tableaux
 
-You can create tables using vertical bars (`|`) to separate columns and hyphens (`-`) to define headers. Here's an example:
+Vous pouvez créer des tableaux en utilisant des barres verticales (`|`) pour séparer les colonnes et des tirets (`-`) pour définir les entêtes. Voici un exemple :
 
 ```md
-| First name | Last name |
-| ---------- | --------- |
-| Max        | Planck    |
-| Marie      | Curie     |
+| Prénom | Nom    |
+| ------ | ------ |
+| Max    | Planck |
+| Marie  | Curie  |
 ```
 
-| First name | Last name |
-| ---------- | --------- |
-| Max        | Planck    |
-| Marie      | Curie     |
+| Prénom | Nom    |
+| ------ | ------ |
+| Max    | Planck |
+| Marie  | Curie  |
 
-While the vertical bars on either side of the table are optional, including them is recommended for readability.
+Bien que les barres verticales de chaque côté du tableau soient optionnelles, il est recommandé de les inclure pour une meilleure lisibilité.
 
-> [!tip] In _Live Preview_, you can right-click a table to add or delete columns and rows. You can also sort and move them using the context menu.
+> [!tip] En _aperçu en direct_, vous pouvez faire un clic droit sur un tableau pour ajouter ou supprimer des colonnes et des lignes. Vous pouvez également les trier et les déplacer à l'aide du menu contextuel.
 
-You can insert a table using the **Insert Table** command from the [[Palette de commandes|Command Palette]] or by right-clicking and selecting _Insert → Table_. This will give you a basic, editable table:
+Vous pouvez insérer un tableau en utilisant la commande **Insérer un tableau** depuis la [[Palette de commandes]] ou en faisant un clic droit et en sélectionnant _Insérer → Tableau_. Cela vous donnera un tableau basique et modifiable :
 
 ```md
 |     |     |
@@ -34,58 +34,58 @@ You can insert a table using the **Insert Table** command from the [[Palette d
 |     |     |
 ```
 
-Note that cells don't need perfect alignment, but the header row must contain at least two hyphens:
+Notez que les cellules n'ont pas besoin d'être parfaitement alignées, mais la ligne d'entête doit contenir au moins deux tirets :
 
 ```md
-First name | Last name
+Prénom | Nom
 -- | --
 Max | Planck
 Marie | Curie
 ```
 
 
-### Format content within a table
+### Mettre en forme le contenu d'un tableau
 
-You can use [[Syntaxe de mise en forme de base]] to style content within a table.
+Vous pouvez utiliser la [[Syntaxe de mise en forme de base]] pour styliser le contenu d'un tableau.
 
-| First column       | Second column                           |
-| ------------------ | --------------------------------------- |
-| [[Liens internes]] | Link to a file _within_ your **vault**. |
-| [[Incorporer des fichiers]]    | ![[Engelbart.jpg\|100]]                 |
+| Première colonne    | Deuxième colonne                                      |
+| ------------------- | ----------------------------------------------------- |
+| [[Liens internes]]  | Lien vers un fichier _dans_ votre **coffre**.         |
+| [[Incorporer des fichiers]] | ![[Engelbart.jpg\|100]]                        |
 
-> [!note] Vertical bars in tables
-> If you want to use [[Alias]], or to [[Syntaxe de mise en forme de base#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
+> [!note] Barres verticales dans les tableaux
+> Si vous souhaitez utiliser des [[Alias|alias]], ou [[Syntaxe de mise en forme de base#Images externes|redimensionner une image]] dans votre tableau, vous devez ajouter un `\` avant la barre verticale.
 >
 > ```md
-> First column | Second column
+> Première colonne | Deuxième colonne
 > -- | --
-> [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
+> [[Syntaxe de mise en forme de base\|Syntaxe Markdown]] | ![[Engelbart.jpg\|200]]
 > ```
 >
-> First column | Second column
+> Première colonne | Deuxième colonne
 > -- | --
-> [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
+> [[Syntaxe de mise en forme de base\|Syntaxe Markdown]] | ![[Engelbart.jpg\|200]]
 
-Align text in columns by adding colons (`:`) to the header row. You can also align content in _Live Preview_ via the context menu.
+Alignez le texte dans les colonnes en ajoutant des deux-points (`:`) à la ligne d'entête. Vous pouvez également aligner le contenu en _aperçu en direct_ via le menu contextuel.
 
 ```md
-Left-aligned text | Center-aligned text | Right-aligned text
+Texte aligné à gauche | Texte centré | Texte aligné à droite
 :-- | :--: | --:
-Content | Content | Content
+Contenu | Contenu | Contenu
 ```
 
-Left-aligned text | Center-aligned text | Right-aligned text
+Texte aligné à gauche | Texte centré | Texte aligné à droite
 :-- | :--: | --:
-Content | Content | Content
+Contenu | Contenu | Contenu
 
-## Diagram
+## Diagrammes
 
-You can add diagrams and charts to your notes, using [Mermaid](https://mermaid-js.github.io/). Mermaid supports a range of diagrams, such as [flow charts](https://mermaid.js.org/syntax/flowchart.html), [sequence diagrams](https://mermaid.js.org/syntax/sequenceDiagram.html), and [timelines](https://mermaid.js.org/syntax/timeline.html).
+Vous pouvez ajouter des diagrammes et des graphiques à vos notes en utilisant [Mermaid](https://mermaid-js.github.io/). Mermaid prend en charge une gamme de diagrammes, tels que les [organigrammes](https://mermaid.js.org/syntax/flowchart.html), les [diagrammes de séquence](https://mermaid.js.org/syntax/sequenceDiagram.html) et les [chronologies](https://mermaid.js.org/syntax/timeline.html).
 
 > [!tip]
-> You can also try Mermaid's [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) to help you build diagrams before you include them in your notes.
+> Vous pouvez également essayer l'[éditeur en direct](https://mermaid-js.github.io/mermaid-live-editor) de Mermaid pour vous aider à construire des diagrammes avant de les inclure dans vos notes.
 
-To add a Mermaid diagram, create a `mermaid` [[Syntaxe de mise en forme de base#Code blocks|code block]].
+Pour ajouter un diagramme Mermaid, créez un [[Syntaxe de mise en forme de base#Blocs de code|bloc de code]] `mermaid`.
 
 ````md
 ```mermaid
@@ -119,9 +119,9 @@ graph TD
 Biology --> Chemistry
 ```
 
-### Linking files in a diagram
+### Lier des fichiers dans un diagramme
 
-You can create [[Liens internes]] in your diagrams by attaching the `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes) to your nodes.
+Vous pouvez créer des [[Liens internes|liens internes]] dans vos diagrammes en attachant la [classe](https://mermaid.js.org/syntax/flowchart.html#classes) `internal-link` à vos nœuds.
 
 ````md
 ```mermaid
@@ -142,9 +142,9 @@ class Biology,Chemistry internal-link;
 ```
 
 > [!note]
-> Internal links from diagrams don't show up in the [[Vue graphique]].
+> Les liens internes des diagrammes n'apparaissent pas dans la [[Vue graphique]].
 
-If you have many nodes in your diagrams, you can use the following snippet.
+Si vous avez de nombreux nœuds dans vos diagrammes, vous pouvez utiliser l'extrait suivant.
 
 ````md
 ```mermaid
@@ -159,24 +159,24 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 ````
 
-This way, each letter node becomes an internal link, with the [node text](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) as the link text.
+De cette façon, chaque nœud lettre devient un lien interne, avec le [texte du nœud](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) comme texte du lien.
 
 > [!note]
-> If you use special characters in your note names, you need to put the note name in double quotes.
+> Si vous utilisez des caractères spéciaux dans les noms de vos notes, vous devez mettre le nom de la note entre guillemets doubles.
 >
 > ```
 > class "⨳ special character" internal-link
 > ```
 >
-> Or, `A["⨳ special character"]`.
+> Ou, `A["⨳ special character"]`.
 
-For more information about creating diagrams, refer to the [official Mermaid docs](https://mermaid.js.org/intro/).
+Pour plus d'informations sur la création de diagrammes, consultez la [documentation officielle de Mermaid](https://mermaid.js.org/intro/).
 
-## Math
+## Mathématiques
 
-You can add math expressions to your notes using [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) and the LaTeX notation.
+Vous pouvez ajouter des expressions mathématiques à vos notes en utilisant [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) et la notation LaTeX.
 
-To add a MathJax expression to your note, surround it with double dollar signs (`$$`).
+Pour ajouter une expression MathJax à votre note, entourez-la de doubles signes dollar (`$$`).
 
 ```md
 $$
@@ -192,14 +192,14 @@ c & d
 \end{vmatrix}=ad-bc
 $$
 
-You can also inline math expressions by wrapping it in `$` symbols.
+Vous pouvez également insérer des expressions mathématiques en ligne en les entourant de symboles `$`.
 
 ```md
-This is an inline math expression $e^{2i\pi} = 1$.
+Voici une expression mathématique en ligne $e^{2i\pi} = 1$.
 ```
 
-This is an inline math expression $e^{2i\pi} = 1$.
+Voici une expression mathématique en ligne $e^{2i\pi} = 1$.
 
-For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+Pour plus d'informations sur la syntaxe, consultez le [tutoriel de base et référence rapide MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+Pour une liste des packages MathJax pris en charge, consultez la [liste des extensions TeX/LaTeX](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).

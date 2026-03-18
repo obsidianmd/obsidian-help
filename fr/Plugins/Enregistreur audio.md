@@ -3,12 +3,20 @@ permalink: plugins/audio-recorder
 aliases:
   - Plugins/Modules principaux/Enregistreur audio
   - Audio recorder
+localized: '2026-03-18'
 ---
-# Enregistreur audio
+L'Enregistreur audio est un [[Modules principaux|module principal]] qui vous permet d'enregistrer et de sauvegarder de l'audio dans une note Obsidian. Avec le module Enregistreur audio, vous pouvez enregistrer les détails d'un cours, d'une réunion ou d'autres situations importantes où vous ne pouvez pas taper assez vite.
 
-L'enregistreur audio est un [[module principal|Modules principaux]] qui vous permet de faire un enregistrement sans quitter Obsidian. Il est utile pour les notes de cours et de réunion lorsque vous ne pouvez pas suivre pour une quelconque raison, ou pour enregistrer des discussions importantes afin de ne manquer aucun détail.
+> [!note]
+> Avant de commencer, assurez-vous que votre ordinateur dispose d'un microphone configuré et prêt à l'emploi.
 
-Pour l'utiliser, cliquez simplement sur l'icône du microphone dans le panneau de gauche (![[icone-micro.svg]]) Le microphone deviendra coloré pendant l'enregistrement.
+## Enregistrer de l'audio dans une note
 
-Cliquez à nouveau dessus pour terminer l'enregistrement. Le fichier audio est maintenant enregistré dans votre [[coffre]] et sera intégré à la fin de votre note actuelle.
+1. Créez une nouvelle note ou ouvrez une note existante.
+2. Dans le ruban, cliquez sur **Démarrer/arrêter l'enregistrement** ( ![[lucide-mic.svg#icon]] ) pour commencer l'enregistrement. L'enregistrement démarre dès que l'icône change de couleur.
+3. Cliquez à nouveau sur l'icône pour arrêter l'enregistrement et l'ajouter à votre note.
 
+Obsidian sauvegarde le fichier audio enregistré dans votre coffre et l'[[Incorporer des fichiers|intègre]] à la fin de la note active.
+
+> [!note]
+> Les enregistrements audio restent dans votre coffre même après les avoir retirés de votre note. Si vous souhaitez supprimer l'enregistrement de votre ordinateur, vous pouvez utiliser l'[[Explorateur de fichiers]] pour supprimer le fichier.

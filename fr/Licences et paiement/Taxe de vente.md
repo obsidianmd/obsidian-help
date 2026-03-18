@@ -1,37 +1,36 @@
 ---
 permalink: sales-tax
-localized: null
+localized: '2026-03-18'
 aliases:
   - Sales tax
 ---
-In some jurisdictions, Obsidian is required to collect sales taxes on behalf of customers purchasing software licenses and services. Sales taxes may apply to [[Licence commerciale|Commercial licenses]], [[Introduction à Obsidian Sync|Obsidian Sync]], and [[Introduction à Obsidian Publish|Obsidian Publish]]. Sales taxes generally do not apply to [[Crédit Obsidian]] and [[Licence Catalyst|Catalyst]] though exceptions do apply.
+Dans certaines juridictions, Obsidian est tenu de collecter les taxes de vente pour le compte des clients qui achètent des licences logicielles et des services. Les taxes de vente peuvent s'appliquer aux [[Licence commerciale|licences commerciales]], à [[Introduction à Obsidian Sync|Obsidian Sync]] et à [[Introduction à Obsidian Publish|Obsidian Publish]]. Les taxes de vente ne s'appliquent généralement pas au [[Crédit Obsidian]] et à [[Licence Catalyst|Catalyst]], bien que des exceptions puissent s'appliquer.
 
-To determine the taxes applied to your purchase, we use the country and postal code you provide at checkout or in the Billing section of your dashboard. This information is stored on your account so that we can accurately charge sales tax if there is a change in tax law or other requirements that obligate us to do so.
+Pour déterminer les taxes appliquées à votre achat, nous utilisons le pays et le code postal que vous fournissez lors du paiement ou dans la section Facturation de votre tableau de bord. Ces informations sont stockées sur votre compte afin que nous puissions facturer correctement les taxes de vente en cas de changement de législation fiscale ou d'autres exigences nous obligeant à le faire.
 
-## Tax exemption
+## Exonération fiscale
 
-Depending on your country and status, you may be exempt from taxes by submitting your Tax Identification Number (TIN), VAT Number, VAT ID, or tax exemption certificate.
+Selon votre pays et votre statut, vous pouvez être exonéré de taxes en soumettant votre numéro d'identification fiscale (NIF), numéro de TVA, identifiant TVA ou certificat d'exonération fiscale.
 
-You can apply for a tax exemption via the Billing section of your [Account dashboard](https://obsidian.md/account/billing). If your application is approved, future purchases will not be charged taxes.
+Vous pouvez demander une exonération fiscale via la section Facturation de votre [tableau de bord de compte](https://obsidian.md/account/billing). Si votre demande est approuvée, les achats futurs ne seront pas soumis aux taxes.
 
-### Applying for an exemption
+### Demander une exonération
 
-1. Log into your [Obsidian account](https://obsidian.md/account/billing).
-2. Navigate to the [Billing](https://obsidian.md/account/billing) section.
-3. To the right of _Tax Exemption_, select the **Manage** button.
-4. In the pop-up window:
-    1. Enter your country.
-    2. Enter your postal code, if applicable.
+1. Connectez-vous à votre [compte Obsidian](https://obsidian.md/account/billing).
+2. Accédez à la section [Facturation](https://obsidian.md/account/billing).
+3. À droite de _Tax Exemption_, sélectionnez le bouton **Manage**.
+4. Dans la fenêtre contextuelle :
+    1. Entrez votre pays.
+    2. Entrez votre code postal, le cas échéant.
 
-Depending on your country, you may be required to submit a VAT number, or tax exemption certificate.
+Selon votre pays, il peut vous être demandé de soumettre un numéro de TVA ou un certificat d'exonération fiscale.
 
-- VAT number
-	- Enter your VAT number and select **Save** to submit your application.
-- Tax exemption certificate
-	1. Under _Tax exemption certificate_, select the **Browse** button to choose your sales tax exemption certificate from your device. Ensure the file is in `.pdf` format and is less than 3 MB.
-	2. After choosing the file, select **Upload** to submit your application.
+- Numéro de TVA
+	- Entrez votre numéro de TVA et sélectionnez **Save** pour soumettre votre demande.
+- Certificat d'exonération fiscale
+	1. Sous _Tax exemption certificate_, sélectionnez le bouton **Browse** pour choisir votre certificat d'exonération fiscale depuis votre appareil. Assurez-vous que le fichier est au format `.pdf` et fait moins de 3 Mo.
+	2. Après avoir choisi le fichier, sélectionnez **Upload** pour soumettre votre demande.
 
-The verification process may be instantaneous depending on your location. Once approved, future purchases will not be charged taxes.
+Le processus de vérification peut être instantané selon votre localisation. Une fois approuvé, les achats futurs ne seront pas soumis aux taxes.
 
-> [!note] Note: applying for a tax exemption will also update your billing address to the postal code you chose.
-
+> [!note] Remarque : demander une exonération fiscale mettra également à jour votre adresse de facturation avec le code postal que vous avez choisi.

@@ -6,59 +6,59 @@ description: >-
   Obsidian Sync offers a headless client to sync vaults without using the
   desktop app. Useful for CI pipelines, agents, and automated workflows. Sync
   the latest changes or keep files continuously up to date.
-localized: null
+localized: '2026-03-18'
 aliases:
   - Headless Sync
 ---
-[[Introduction à Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
+[[Introduction à Obsidian Sync|Obsidian Sync]] propose un client sans interface pour synchroniser des coffres sans utiliser l'application de bureau. Utile pour les pipelines CI, les agents et les flux de travail automatisés. Synchronisez les dernières modifications ou maintenez les fichiers continuellement à jour.
 
-Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction à Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app. Headless Sync uses the same [[Sécurité et confidentialité|encryption and privacy protections]] as the desktop app, including end-to-end encryption.
+Installez [[Sync sans interface|Obsidian Headless]] **(bêta ouverte)** pour interagir avec [[Introduction à Obsidian Sync|Obsidian Sync]] depuis la ligne de commande sans l'application de bureau Obsidian. Sync sans interface utilise les mêmes [[Sécurité et confidentialité|protections de chiffrement et de confidentialité]] que l'application de bureau, y compris le chiffrement de bout en bout.
 
-## Quick start
+## Démarrage rapide
 
-> [!error] Back up your data before you start
-> 1. Always back up your data before you start in case anything unexpected happens.
-> 2. Do not use *both* the desktop app Sync and Headless Sync on the same device, as it can cause data conflicts. Only use one sync method per device.
+> [!error] Sauvegardez vos données avant de commencer
+> 1. Sauvegardez toujours vos données avant de commencer au cas où quelque chose d'inattendu se produirait.
+> 2. N'utilisez pas *simultanément* la synchronisation de l'application de bureau et Sync sans interface sur le même appareil, car cela peut provoquer des conflits de données. N'utilisez qu'une seule méthode de synchronisation par appareil.
 
-Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
+Installez [[Sync sans interface|Obsidian Headless]] **(bêta ouverte)** :
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-You must have an active [[Forfaits et limites de stockage|Obsidian Sync subscription]].
+Vous devez disposer d'un [[Forfaits et limites de stockage|abonnement Obsidian Sync]] actif.
 
 ```shell
-# Login
+# Se connecter
 ob login
 
-# List your remote vaults
+# Lister vos coffres distants
 ob sync-list-remote
 
-# Set up a vault for syncing
+# Configurer un coffre pour la synchronisation
 cd ~/vaults/my-vault
 ob sync-setup --vault "My Vault"
 
-# Run a one-time sync
+# Exécuter une synchronisation unique
 ob sync
 
-# Run continuous sync (watches for changes)
+# Exécuter une synchronisation continue (surveille les modifications)
 ob sync --continuous
 ```
 
-## Commands
+## Commandes
 
 ### `ob sync-list-remote`
 
-List all remote vaults available to your account, including shared vaults.
+Liste tous les coffres distants disponibles pour votre compte, y compris les coffres partagés.
 
 ### `ob sync-list-local`
 
-List locally configured vaults and their paths.
+Liste les coffres configurés localement et leurs chemins.
 
 ### `ob sync-create-remote`
 
-Create a new remote vault.
+Crée un nouveau coffre distant.
 
 ```
 ob sync-create-remote --name "Vault Name" [--encryption <standard|e2ee>] [--password <password>] [--region <region>]
@@ -66,14 +66,14 @@ ob sync-create-remote --name "Vault Name" [--encryption <standard|e2ee>] [--pass
 
 | Option | Description |
 | --- | --- |
-| `--name` | Vault name (required) |
-| `--encryption` | `standard` for managed encryption, `e2ee` for end-to-end encryption |
-| `--password` | End-to-end encryption password (prompted if omitted) |
-| `--region` | Server [[Sync regions\|region]] (automatic if omitted) |
+| `--name` | Nom du coffre (requis) |
+| `--encryption` | `standard` pour le chiffrement géré, `e2ee` pour le chiffrement de bout en bout |
+| `--password` | Mot de passe de chiffrement de bout en bout (demandé si omis) |
+| `--region` | [[Régions de Sync\|Région]] du serveur (automatique si omis) |
 
 ### `ob sync-setup`
 
-Set up sync between a local vault and a remote vault.
+Configure la synchronisation entre un coffre local et un coffre distant.
 
 ```
 ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>] [--device-name <name>] [--config-dir <name>]
@@ -81,15 +81,15 @@ ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>]
 
 | Option | Description |
 | --- | --- |
-| `--vault` | Remote vault ID or name (required) |
-| `--path` | Local directory (default: current directory) |
-| `--password` | E2E encryption password (prompted if omitted) |
-| `--device-name` | Device name shown in [[Version history\|sync version history]] |
-| `--config-dir` | [[Configuration folder\|Config directory]] name (default: `.obsidian`) |
+| `--vault` | ID ou nom du coffre distant (requis) |
+| `--path` | Répertoire local (par défaut : répertoire courant) |
+| `--password` | Mot de passe de chiffrement de bout en bout (demandé si omis) |
+| `--device-name` | Nom de l'appareil affiché dans l'[[Version history\|historique des versions de synchronisation]] |
+| `--config-dir` | Nom du [[Dossier de configuration\|dossier de configuration]] (par défaut : `.obsidian`) |
 
 ### `ob sync`
 
-Run sync for a configured vault.
+Exécute la synchronisation pour un coffre configuré.
 
 ```
 ob sync [--path <local-path>] [--continuous]
@@ -97,31 +97,31 @@ ob sync [--path <local-path>] [--continuous]
 
 | Option | Description |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--continuous` | Run continuously, watching for changes |
+| `--path` | Chemin du coffre local (par défaut : répertoire courant) |
+| `--continuous` | Exécuter en continu, en surveillant les modifications |
 
 ### `ob sync-config`
 
-View or change [[Paramètres de Sync et synchronisation sélective|sync settings]] for a vault. Run with no options to display the current configuration.
+Affiche ou modifie les [[Paramètres de Sync et synchronisation sélective|paramètres de synchronisation]] d'un coffre. Exécutez sans options pour afficher la configuration actuelle.
 
 ```
 ob sync-config [--path <local-path>] [options]
 ```
 
-| Option                | Description                                                                                                                                                                                                    |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--path`              | Local vault path (default: current directory)                                                                                                                                                                  |
-| `--mode`              | Sync mode: `bidirectional` (default), `pull-only` (only download, ignore local changes), or `mirror-remote` (only download, revert local changes)                                                              |
-| `--conflict-strategy` | `merge` or `conflict`                                                                                                                                                                                          |
-| `--file-types`        | Attachment types to sync: `image`, `audio`, `video`, `pdf`, `unsupported` (comma-separated, empty to clear)                                                                                                    |
-| `--configs`           | Config categories to sync: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (comma-separated, empty to disable config syncing) |
-| `--excluded-folders`  | Folders to exclude (comma-separated, empty to clear)                                                                                                                                                           |
-| `--device-name`       | Device name to identify this client in the sync version history                                                                                                                                                |
-| `--config-dir`        | Config directory name (default: `.obsidian`)                                                                                                                                                                   |
+| Option                | Description                                                                                                                                                                                                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `--path`              | Chemin du coffre local (par défaut : répertoire courant)                                                                                                                                                                             |
+| `--mode`              | Mode de synchronisation : `bidirectional` (par défaut), `pull-only` (téléchargement uniquement, ignore les modifications locales), ou `mirror-remote` (téléchargement uniquement, annule les modifications locales)                   |
+| `--conflict-strategy` | `merge` ou `conflict`                                                                                                                                                                                                                |
+| `--file-types`        | Types de pièces jointes à synchroniser : `image`, `audio`, `video`, `pdf`, `unsupported` (séparés par des virgules, vide pour effacer)                                                                                               |
+| `--configs`           | Catégories de configuration à synchroniser : `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (séparés par des virgules, vide pour désactiver la synchronisation de la configuration) |
+| `--excluded-folders`  | Dossiers à exclure (séparés par des virgules, vide pour effacer)                                                                                                                                                                     |
+| `--device-name`       | Nom de l'appareil pour identifier ce client dans l'historique des versions de synchronisation                                                                                                                                        |
+| `--config-dir`        | Nom du dossier de configuration (par défaut : `.obsidian`)                                                                                                                                                                           |
 
 ### `ob sync-status`
 
-Show sync status and configuration for a vault.
+Affiche le statut de synchronisation et la configuration d'un coffre.
 
 ```
 ob sync-status [--path <local-path>]
@@ -129,21 +129,21 @@ ob sync-status [--path <local-path>]
 
 ### `ob sync-unlink`
 
-Disconnect a vault from sync and remove stored credentials.
+Déconnecte un coffre de la synchronisation et supprime les identifiants stockés.
 
 ```
 ob sync-unlink [--path <local-path>]
 ```
 
-## Native modules
+## Modules natifs
 
-Obsidian Headless includes a prebuilt native addon for setting file creation time (birthtime) on Windows and macOS. This preserves original creation timestamps when downloading files from the server.
+Obsidian Headless inclut un addon natif précompilé pour définir la date de création de fichier (birthtime) sur Windows et macOS. Cela préserve les horodatages de création originaux lors du téléchargement de fichiers depuis le serveur.
 
-The addon targets N-API version 3, so the compiled binaries are ABI-stable and work across Node.js versions without recompilation.
+L'addon cible la version 3 de N-API, de sorte que les binaires compilés sont stables au niveau ABI et fonctionnent avec différentes versions de Node.js sans recompilation.
 
-On Linux, birthtime is not supported — the addon is not included and sync operates normally without it.
+Sur Linux, le birthtime n'est pas pris en charge — l'addon n'est pas inclus et la synchronisation fonctionne normalement sans celui-ci.
 
-Prebuilt binaries are included for:
+Les binaires précompilés sont inclus pour :
 
 - `win32-x64`
 - `win32-arm64`

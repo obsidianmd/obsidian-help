@@ -8,49 +8,47 @@ description: >-
   notes across devices.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Introduction to Obsidian Sync
 ---
+[Obsidian Sync](https://obsidian.md/sync) est un service complémentaire qui vous permet de synchroniser vos notes de manière privée entre vos appareils.
 
-[Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to privately sync your notes across devices.
-
-## How to use Obsidian Sync
+## Comment utiliser Obsidian Sync
 
 - [[Configurer Obsidian Sync]]
-	- Set up Sync on all your devices.
-- [[Passer à Obsidian Sync|Switch to Obsidian Sync]]
-	- Prepare your Obsidian vault to use Sync.
-- [[Paramètres de Sync et synchronisation sélective|Selective sync]]
-	- Configure which files and settings to sync.
+	- Configurez Sync sur tous vos appareils.
+- [[Passer à Obsidian Sync|Passer à Obsidian Sync]]
+	- Préparez votre coffre Obsidian pour utiliser Sync.
+- [[Paramètres de Sync et synchronisation sélective|Synchronisation sélective]]
+	- Configurez quels fichiers et paramètres synchroniser.
 - [[Forfaits et limites de stockage]]
-	- Learn about Sync subscription plans.
-- [[Forfaits et limites de stockage|Remote vault storage]]
-	- Manage your remote vault storage.
+	- Découvrez les forfaits d'abonnement Sync.
+- [[Forfaits et limites de stockage|Stockage du coffre distant]]
+	- Gérez le stockage de votre coffre distant.
 - [[Version history]]
-	- View or restore previous versions of a note.
+	- Consultez ou restaurez des versions précédentes d'une note.
 - [[Icône de statut et messages]]
-	- Overview of the Sync log and status icons.
+	- Aperçu du journal de Sync et des icônes de statut.
 - [[Sécurité et confidentialité]]
-	- How Obsidian keeps your Sync data safe.
+	- Comment Obsidian protège vos données Sync.
 - [[Collaborer sur un coffre partagé|Collaboration]]
-	- Add team members to a shared vault.
+	- Ajoutez des membres d'équipe à un coffre partagé.
 - [[Sauvegarder vos fichiers Obsidian]]
-	- Back up your vault using third-party tools.
+	- Sauvegardez votre coffre à l'aide d'outils tiers.
 - [[Régions de Sync]]
-	- Move your Sync vault to a different regional server.
+	- Déplacez votre coffre Sync vers un serveur régional différent.
 - [[Sync sans interface]]
-	- Sync your vaults from the command line without the desktop app.
+	- Synchronisez vos coffres depuis la ligne de commande sans l'application de bureau.
 - [[Résoudre les problèmes d'Obsidian Sync]]
-	- Common syncing issues and solutions.
+	- Problèmes de synchronisation courants et solutions.
 
 ## Important
 
-If you are using Obsidian Sync alongside other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, please [[Sauvegarder vos fichiers Obsidian]] to prevent sync conflicts. We strongly recommend [[Passer à Obsidian Sync|fully migrating to Obsidian Sync]].
+Si vous utilisez Obsidian Sync en parallèle d'autres fournisseurs de stockage cloud, tels que Dropbox, Google Drive ou OneDrive, veuillez [[Sauvegarder vos fichiers Obsidian]] pour éviter les conflits de synchronisation. Nous recommandons fortement de [[Passer à Obsidian Sync|migrer entièrement vers Obsidian Sync]].
 
-See [[Questions fréquentes]] for frequently asked questions, and more details about Obsidian Sync.
+Consultez les [[Questions fréquentes]] pour les questions fréquemment posées, et plus de détails sur Obsidian Sync.
 
-> [!warning] This feature is unavailable on Apple devices with [Lockdown mode](https://support.apple.com/en-us/105120) enabled unless Obsidian is exempted.
+> [!warning] Cette fonctionnalité n'est pas disponible sur les appareils Apple avec le [mode Isolement](https://support.apple.com/en-us/105120) activé, sauf si Obsidian en est exempté.
 
-Are you having unexpected interruptions in your Sync service? Check the [server status](https://status.obsidian.md) here.
- 
+Rencontrez-vous des interruptions inattendues de votre service Sync ? Vérifiez le [statut du serveur](https://status.obsidian.md) ici.

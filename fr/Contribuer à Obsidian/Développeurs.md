@@ -1,31 +1,31 @@
 ---
 permalink: developers
-localized: null
+localized: '2026-03-18'
 aliases:
   - Developers
 ---
-If you are a developer you can contribute to Obsidian in various ways.
+Si vous êtes développeur, vous pouvez contribuer à Obsidian de différentes manières.
 
-### Plugins and themes
+### Modules et thèmes
 
-You can develop [[Plugins communautaires]] and [[Thèmes]] using Typescript and CSS. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
+Vous pouvez développer des [[Modules complémentaires]] et des [[Thèmes]] en utilisant Typescript et CSS. Pour en savoir plus, rendez-vous sur la [documentation pour développeurs Obsidian](https://docs.obsidian.md).
 
-### Open source projects
+### Projets open source
 
-Obsidian develops and maintains several open source projects. You can submit pull requests with bug fixes and enhancements to the following GitHub repositories:
+Obsidian développe et maintient plusieurs projets open source. Vous pouvez soumettre des pull requests avec des corrections de bugs et des améliorations aux dépôts GitHub suivants :
 
-- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), an open file format for infinite canvas data.
-- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), a plugin that converts data from a wide variety of formats to plain text Markdown files.
-- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), a plugin that displays maps in Obsidian Bases.
-- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), a browser extension for highlighting and capturing web pages to plain text Markdown files.
-- [Defuddle](https://github.com/kepano/defuddle) (MIT) the HTML-to-Markdown parser used by Obsidian Web Clipper.
+- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), un format de fichier ouvert pour les données de canevas infini.
+- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), un module qui convertit des données depuis une grande variété de formats en fichiers Markdown en texte brut.
+- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), un module qui affiche des cartes dans les Bases Obsidian.
+- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), une extension de navigateur pour surligner et capturer des pages web en fichiers Markdown en texte brut.
+- [Defuddle](https://github.com/kepano/defuddle) (MIT), le convertisseur HTML vers Markdown utilisé par Obsidian Web Clipper.
 
 ### Documentation
 
-To help improve our [developer documentation](https://docs.obsidian.md/Home), submit a pull request to the [obsidian-developer-docs](https://github.com/obsidianmd/obsidian-developer-docs) repository.
+Pour aider à améliorer notre [documentation pour développeurs](https://docs.obsidian.md/Home), soumettez une pull request au dépôt [obsidian-developer-docs](https://github.com/obsidianmd/obsidian-developer-docs).
 
-To help improve this documentation, submit a pull request to the [obsidian-help](https://github.com/obsidianmd/obsidian-help) repository.
+Pour aider à améliorer cette documentation, soumettez une pull request au dépôt [obsidian-help](https://github.com/obsidianmd/obsidian-help).
 
-### Community
+### Communauté
 
-The [plugin-dev](https://discord.com/channels/686053708261228577/840286264964022302) channel on our official Discord server is where you can discuss plugin development and help other developers with their plugins.
+Le canal [plugin-dev](https://discord.com/channels/686053708261228577/840286264964022302) sur notre serveur Discord officiel est l'endroit où vous pouvez discuter du développement de modules et aider d'autres développeurs avec leurs modules.

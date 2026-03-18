@@ -1,192 +1,192 @@
 ---
 permalink: uri
-localized: null
+localized: '2026-03-18'
 ---
-Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note. Obsidian URI enables automation and cross-app workflows.
+L'URI Obsidian est un protocole URI personnalisé pris en charge par Obsidian qui vous permet de déclencher diverses actions, telles qu'ouvrir une note ou créer une note. L'URI Obsidian permet l'automatisation et les flux de travail inter-applications.
 
-## URI format
+## Format d'URI
 
-Obsidian URIs use the following format:
+Les URI Obsidian utilisent le format suivant :
 
 ```
 obsidian://action?param1=value&param2=value
 ```
 
-The `action` parameter is the action that you would like to perform. Available actions include:
+Le paramètre `action` est l'action que vous souhaitez effectuer. Les actions disponibles incluent :
 
-- `open` to open a note.
-- `new` to create or add to an existing note.
-- `daily` to create or open your daily note.
-- `unique` to create a new unique note.
-- `search` to open a search.
-- `choose-vault` to open the vault manager.
+- `open` pour ouvrir une note.
+- `new` pour créer ou ajouter du contenu à une note existante.
+- `daily` pour créer ou ouvrir votre note quotidienne.
+- `unique` pour créer une nouvelle note unique.
+- `search` pour ouvrir une recherche.
+- `choose-vault` pour ouvrir le gestionnaire de coffres.
 
-> [!warning] Encoding
-> Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+> [!warning] Encodage
+> Assurez-vous que vos valeurs sont correctement encodées en URI. Par exemple, les barres obliques `/` doivent être encodées en `%2F` et les espaces doivent être encodés en `%20`.
 > 
- This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding).
+ C'est particulièrement important car un caractère « réservé » mal encodé peut empêcher l'interprétation correcte de l'URI. [Voir ici pour plus de détails](https://en.wikipedia.org/wiki/Percent-encoding).
 
-## Open note
+## Ouvrir une note
 
-The `open` action opens an Obsidian vault, or opens a file within that vault.
+L'action `open` ouvre un coffre Obsidian, ou ouvre un fichier dans ce coffre.
 
-### Examples
+### Exemples
 
 - `obsidian://open?vault=my%20vault`
-  This opens the vault `my vault`. If the vault is already open, focus on the window.
+  Cela ouvre le coffre `my vault`. Si le coffre est déjà ouvert, le focus est mis sur la fenêtre.
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-  This opens the vault identified by the ID `ef6ca3e3b524d22f`.
+  Cela ouvre le coffre identifié par l'id `ef6ca3e3b524d22f`.
 - `obsidian://open?vault=my%20vault&file=my%20note`
-  This opens the note `my note.md` in the vault `my vault`, assuming the file exists.
+  Cela ouvre la note `my note.md` dans le coffre `my vault`, à condition que le fichier existe.
 - `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-  This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
+  Cela recherchera tout coffre contenant le chemin `/home/user/my vault/path/to/my note`. Ensuite, le reste du chemin est transmis au paramètre `file`. Par exemple, si un coffre existe à `/home/user/my vault`, alors cela serait équivalent au paramètre `file` défini à `path/to/my note`.
 
 
-> [!tip] Open a heading or block
-> With proper URI encoding, you can navigate to a heading or block within a note. `Note%23Heading` would navigate to the heading called "Heading", whereas `Note%23%5EBlock` would navigate to the block called "Block".
+> [!tip] Ouvrir un entête ou un bloc
+> Avec un encodage URI correct, vous pouvez naviguer vers un entête ou un bloc dans une note. `Note%23Heading` naviguerait vers l'entête appelé « Heading », tandis que `Note%23%5EBlock` naviguerait vers le bloc appelé « Block ».
 
-### Parameters
+### Paramètres
 
-- `vault` can be either the vault name or the vault ID[^1].
-- `file` can be either a file name, or a path from the vault root to the specified file. If the file extension is `md`, the extension can be omitted.
-- `path` an absolute file system path to a file.
-  - Using this parameter will override both `vault` and `file`.
-  - This will cause the app to search for the most specific vault which contains the specified file path.
-  - Then the rest of the path replaces the `file` parameter.
-- `prepend` will add to the top of the file and attempt to merge properties.
-- `append` will add to the end of the file and also attempt to merge properties.
-- `paneType` (optional) determines where the note will be opened in the UI.
-  - if not present, the last active tab is replaced.
-  - `paneType=tab` open in a new tab.
-  - `paneType=split` open in a new tab group.
-  - `paneType=window` open in a pop-out window (Desktop only).
+- `vault` peut être soit le nom du coffre, soit l'id du coffre[^1].
+- `file` peut être soit un nom de fichier, soit un chemin depuis la racine du coffre vers le fichier spécifié. Si l'extension du fichier est `md`, l'extension peut être omise.
+- `path` un chemin absolu du système de fichiers vers un fichier.
+  - L'utilisation de ce paramètre remplacera à la fois `vault` et `file`.
+  - L'application recherchera le coffre le plus spécifique contenant le chemin de fichier spécifié.
+  - Ensuite, le reste du chemin remplace le paramètre `file`.
+- `prepend` ajoutera du contenu en haut du fichier et tentera de fusionner les propriétés.
+- `append` ajoutera du contenu à la fin du fichier et tentera également de fusionner les propriétés.
+- `paneType` (optionnel) détermine où la note sera ouverte dans l'interface.
+  - s'il n'est pas présent, le dernier onglet actif est remplacé.
+  - `paneType=tab` ouvre dans un nouvel onglet.
+  - `paneType=split` ouvre dans un nouveau groupe d'onglets.
+  - `paneType=window` ouvre dans une fenêtre détachée (bureau uniquement).
 
-## Create note
+## Créer une note
 
-The `new` action, creates a new note in the vault, optionally with some content.
+L'action `new` crée une nouvelle note dans le coffre, éventuellement avec du contenu.
 
-### Examples
+### Exemples
 
 - `obsidian://new?vault=my%20vault&name=my%20note`
-  This opens the vault `my vault`, and creates a new note called `my note`.
+  Cela ouvre le coffre `my vault` et crée une nouvelle note appelée `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-  This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+  Cela ouvre le coffre `my vault` et crée une nouvelle note à `path/to/my note`.
 
-### Parameters
+### Paramètres
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
-- `file` a vault absolute path, including the name. Will override `name` if specified.
-- `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `silent` (optional) include this parameter if you don't want to open the new note.
-- `append` (optional) include this parameter to append to an existing file if one exists.
-- `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` peut être soit le nom du coffre, soit l'id du coffre[^1]. Identique à l'action `open`.
+- `name` le nom du fichier à créer. Si cela est spécifié, l'emplacement du fichier sera choisi en fonction de vos préférences « Emplacement par défaut pour les nouvelles notes ».
+- `file` un chemin absolu dans le coffre, incluant le nom. Remplacera `name` si spécifié.
+- `path` un chemin absolu global. Fonctionne de manière similaire à l'option `path` dans l'action `open`, qui remplacera à la fois `vault` et `file`.
+- `paneType` (optionnel) détermine où la note sera ouverte dans l'interface. Identique à l'action `open`.
+- `content` (optionnel) le contenu de la note.
+- `clipboard` (optionnel) utilise le contenu du presse-papiers au lieu de spécifier `content`.
+- `silent` (optionnel) incluez ce paramètre si vous ne voulez pas ouvrir la nouvelle note.
+- `append` (optionnel) incluez ce paramètre pour ajouter du contenu à un fichier existant si un tel fichier existe.
+- `overwrite` (optionnel) écrase un fichier existant si un tel fichier existe, mais uniquement si `append` n'est pas défini.
+- `x-success` (optionnel) voir [[#Utiliser les paramètres x-callback-url]].
 
-## Create or open daily note
+## Créer ou ouvrir une note quotidienne
 
-The `daily` action creates or opens your daily note. The [[Notes quotidiennes]] plugin must be enabled.
+L'action `daily` crée ou ouvre votre note quotidienne. Le module [[Notes quotidiennes]] doit être activé.
 
-### Examples
+### Exemples
 
 - `obsidian://daily?vault=my%20vault`
-  This opens the vault `my vault`, and creates or opens the daily note.
+  Cela ouvre le coffre `my vault` et crée ou ouvre la note quotidienne.
 
-### Parameters
+### Paramètres
 
-The `daily` action accepts the same parameters as the `new` action.
+L'action `daily` accepte les mêmes paramètres que l'action `new`.
 
-## Unique Note
+## Note unique
 
-The `unique` action creates a new unique note in the vault. The [[en/Plugins/Créateur de note unique|Unique note creator]] plugin must be enabled.
+L'action `unique` crée une nouvelle note unique dans le coffre. Le module [[Créateur de note unique]] doit être activé.
 
-### Examples
+### Exemples
 
 - `obsidian://unique?vault=my%20vault`
-  This opens the vault `my vault`, and creates a new unique note.
+  Cela ouvre le coffre `my vault` et crée une nouvelle note unique.
 - - `obsidian://unique?vault=my%20vault&content=Hello%20World`
-  This opens the vault `my vault`, and creates a new unique note with the content `Hello World`.
+  Cela ouvre le coffre `my vault` et crée une nouvelle note unique avec le contenu `Hello World`.
 
-### Parameters
+### Paramètres
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` peut être soit le nom du coffre, soit l'id du coffre[^1]. Identique à l'action `open`.
+- `paneType` (optionnel) détermine où la note sera ouverte dans l'interface. Identique à l'action `open`.
+- `content` (optionnel) le contenu de la note.
+- `clipboard` (optionnel) utilise le contenu du presse-papiers au lieu de spécifier `content`.
+- `x-success` (optionnel) voir [[#Utiliser les paramètres x-callback-url]].
 
-## Open search
+## Ouvrir la recherche
 
-The `search` action opens [[Recherche]] in the specified vault, and optionally perform a search term.
+L'action `search` ouvre [[Rechercher]] dans le coffre spécifié, et effectue éventuellement une recherche.
 
-### Examples
+### Exemples
 
 - `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens [[Recherche]].
+  Cela ouvre le coffre `my vault` et ouvre [[Rechercher]].
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  This opens the vault `my vault`, opens [[Recherche]], and performs a search for `Obsidian`.
+  Cela ouvre le coffre `my vault`, ouvre [[Rechercher]] et effectue une recherche pour `Obsidian`.
 
-### Parameters
+### Paramètres
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `query` (optional) The search term to perform.
+- `vault` peut être soit le nom du coffre, soit l'id du coffre[^1]. Identique à l'action `open`.
+- `query` (optionnel) le terme de recherche à exécuter.
 
-## Open Vault Manager
+## Ouvrir le gestionnaire de coffres
 
-The `choose-vault` action opens the [[Gérer les coffres|vault manager]].
+L'action `choose-vault` ouvre le [[Gérer les coffres|gestionnaire de coffres]].
 
-### Examples
+### Exemples
 
 - `obsidian://choose-vault`
 
-## Integrate with Hook
+## Intégration avec Hook
 
-This Obsidian URI action is to be used with [Hook](https://hookproductivity.com/). 
+Cette action URI Obsidian est destinée à être utilisée avec [Hook](https://hookproductivity.com/).
 
-### Example
+### Exemple
 
 `obsidian://hook-get-address`
 
-### Parameters
+### Paramètres
 
-- `vault` (optional) can be either the vault name, or the vault ID[^1]. If not provided, the current or last focused vault will be used.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
-- `x-error` (optional) see [[#Use x-callback-url parameters]].
+- `vault` (optionnel) peut être soit le nom du coffre, soit l'id du coffre[^1]. S'il n'est pas fourni, le coffre actuel ou le dernier coffre ayant le focus sera utilisé.
+- `x-success` (optionnel) voir [[#Utiliser les paramètres x-callback-url]].
+- `x-error` (optionnel) voir [[#Utiliser les paramètres x-callback-url]].
 
-If `x-success` is defined, this API will use it as the x-callback-url. Otherwise, it will copy a Markdown link of the current focused note to the clipboard, as an `obsidian://open` URL.
+Si `x-success` est défini, cette API l'utilisera comme x-callback-url. Sinon, elle copiera un lien Markdown de la note actuellement active dans le presse-papiers, sous forme d'URL `obsidian://open`.
 
-## Use x-callback-url parameters
+## Utiliser les paramètres x-callback-url
 
-Some endpoints will accept the x-callback-url parameters `x-success` and `x-error`. When it's provided, Obsidian will provide the following to the `x-success` callback:
+Certains points d'accès acceptent les paramètres x-callback-url `x-success` et `x-error`. Lorsqu'ils sont fournis, Obsidian transmettra les informations suivantes au callback `x-success` :
 
-- `name` the name of the file, without the file extension.
-- `url` the `obsidian://` URI for this file.
-- `file` (desktop only) the `file://` URL for this file.
+- `name` le nom du fichier, sans l'extension de fichier.
+- `url` l'URI `obsidian://` pour ce fichier.
+- `file` (bureau uniquement) l'URL `file://` pour ce fichier.
 
-For example, if Obsidian receives
-`obsidian://.....x-success=myapp://x-callback-url`, the response would be `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
+Par exemple, si Obsidian reçoit
+`obsidian://.....x-success=myapp://x-callback-url`, la réponse serait `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
 
-## Shorthand formats
+## Formats abrégés
 
-In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+En plus des formats ci-dessus, deux formats « abrégés » supplémentaires sont disponibles pour ouvrir des coffres et des fichiers :
 
-1. `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`.
-2. `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
+1. `obsidian://vault/my vault/my note` est équivalent à `obsidian://open?vault=my%20vault&file=my%20note`.
+2. `obsidian:///absolute/path/to/my note` est équivalent à `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
 
-## Troubleshooting
+## Dépannage
 
-### Register Obsidian URI
+### Enregistrer le protocole URI Obsidian
 
-On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
+Sur Windows et macOS, exécuter l'application une fois devrait suffire pour enregistrer le protocole URI Obsidian sur votre ordinateur.
 
-On Linux, it is a much more involved process:
+Sur Linux, le processus est beaucoup plus complexe :
 
-1. Ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
-2. Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-3. If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
+1. Assurez-vous de créer un fichier `obsidian.desktop`. [Voir ici pour plus de détails](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
+2. Assurez-vous que votre fichier desktop spécifie le champ `Exec` comme `Exec=executable %u`. Le `%u` est utilisé pour transmettre les URI `obsidian://` à l'application.
+3. Si vous utilisez le programme d'installation AppImage, vous devrez peut-être le décompresser en utilisant `Obsidian-x.y.z.AppImage --appimage-extract`. Assurez-vous ensuite que la directive `Exec` pointe vers l'exécutable décompressé.
 
 
-[^1]: Vault ID is the random 16-character code assigned to the vault, for example `ef6ca3e3b524d22f`. This ID is unique per folder on your computer. The ID can be found by opening the vault switcher and clicking "Copy vault ID" in the context menu for the desired vault.
+[^1]: L'id du coffre est le code aléatoire de 16 caractères attribué au coffre, par exemple `ef6ca3e3b524d22f`. Cet id est unique par dossier sur votre ordinateur. L'id peut être trouvé en ouvrant le sélecteur de coffres et en cliquant sur « Copier l'ID du coffre » dans le menu contextuel du coffre souhaité.

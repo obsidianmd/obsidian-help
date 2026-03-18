@@ -1,15 +1,15 @@
 ---
 permalink: financial-contributions
-localized: null
+localized: '2026-03-18'
 aliases:
   - Financial contributions
 ---
-This page explains the ways you can support the development of Obsidian financially.
+Cette page explique les différentes manières dont vous pouvez soutenir financièrement le développement d'Obsidian.
 
-One of the best ways to support the team is through one or more of our paid products.
+L'une des meilleures façons de soutenir l'équipe est d'utiliser un ou plusieurs de nos produits payants.
 
-- If you need to sync notes across your devices, consider a subscription for [[Introduction à Obsidian Sync|Obsidian Sync]].
-- If you want to publish your notes to the world, consider a subscription for [[Introduction à Obsidian Publish|Obsidian Publish]].
-- If you use Obsidian at work, consider supporting Obsidian by purchasing a [[Licence commerciale|Commercial license]].
+- Si vous avez besoin de synchroniser vos notes entre vos appareils, envisagez un abonnement à [[Introduction à Obsidian Sync|Obsidian Sync]].
+- Si vous souhaitez publier vos notes au monde entier, envisagez un abonnement à [[Introduction à Obsidian Publish|Obsidian Publish]].
+- Si vous utilisez Obsidian au travail, envisagez de soutenir Obsidian en achetant une [[Licence commerciale|licence commerciale]].
 
-We understand that you might not be interested in any of our other paid products right now, though we'd love to know how we can change that! If you still want to support Obsidian, consider getting a [[Licence Catalyst]].
+Nous comprenons que vous ne soyez peut-être pas intéressé par nos autres produits payants pour le moment, mais nous aimerions savoir comment changer cela ! Si vous souhaitez tout de même soutenir Obsidian, envisagez d'obtenir une [[Licence Catalyst]].

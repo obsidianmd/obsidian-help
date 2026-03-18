@@ -3,60 +3,59 @@ permalink: payment
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-localized: null
+localized: '2026-03-18'
 aliases:
   - Introduction to licenses and payment
 ---
-Obsidian offers several services and licenses available for purchase.
+Obsidian propose plusieurs services et licences disponibles à l'achat.
 
 - [[Introduction à Obsidian Sync|Obsidian Sync]]
-	- Sync notes across devices.
+	- Synchronisez vos notes entre appareils.
 - [[Introduction à Obsidian Publish|Obsidian Publish]]
-	- Publish notes to the web.
+	- Publiez vos notes sur le web.
 - [[Crédit Obsidian]]
-	- Purchase and Gift Obsidian services.
+	- Achetez et offrez des services Obsidian.
 - [[Licence commerciale]]
-	- Support Obsidian and become a featured organization.
+	- Soutenez Obsidian et devenez une organisation mise en avant.
 - [[Licence Catalyst]]
-	- Support Obsidian and get early access versions.
+	- Soutenez Obsidian et accédez aux versions en accès anticipé.
 
- [[Réduction éducation et associations|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Politique de remboursement]] for more information.
+ Des [[Réduction éducation et associations|réductions]] sont disponibles pour Obsidian Sync et Publish pour les organisations éducatives et les associations. Consultez notre [[Politique de remboursement]] pour plus d'informations.
 
-## Purchase a service or license
+## Acheter un service ou une licence
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account).
-2. Navigate to the section corresponding to the item you wish to purchase:
-    1. **Obsidian Sync** can be found in the **Sync** section.
-    2. **Obsidian Publish** can be found in the **Publish** section.
-    3. **Obsidian Credit** can be found in the **Billing** section.
-    4. **Commercial licenses** can be found in the **License** section.
-    5. **Catalyst licenses** can be found in the **Catalyst** section.
-3. Click the purple **Buy** button to proceed with your purchase.
+1. Connectez-vous ou créez [votre compte Obsidian](https://obsidian.md/account).
+2. Naviguez vers la section correspondant à l'élément que vous souhaitez acheter :
+    1. **Obsidian Sync** se trouve dans la section **Sync**.
+    2. **Obsidian Publish** se trouve dans la section **Publish**.
+    3. **Crédit Obsidian** se trouve dans la section **Billing**.
+    4. **Les licences commerciales** se trouvent dans la section **License**.
+    5. **Les licences Catalyst** se trouvent dans la section **Catalyst**.
+3. Cliquez sur le bouton violet **Buy** pour procéder à votre achat.
 
-We accept the following payment methods: Stripe, PayPal, WeChat, and AliPay.
+Nous acceptons les moyens de paiement suivants : Stripe, PayPal, WeChat et AliPay.
 
-> [!info] PayPal and fees
-> PayPal purchases will be processed in Canadian Dollars (CAD). You may incur a foreign transaction fee from your card issuer, and PayPal may charge a currency conversion fee.
+> [!info] PayPal et frais
+> Les achats via PayPal seront traités en dollars canadiens (CAD). Votre émetteur de carte peut appliquer des frais de transaction internationale, et PayPal peut facturer des frais de conversion de devise.
 
-After completing your payment, you will receive a receipt from the service through which you made the purchase.
+Après avoir effectué votre paiement, vous recevrez un reçu du service par lequel vous avez réalisé l'achat.
 
-## Generate an invoice
+## Générer une facture
 
-Obsidian generates an invoice for all purchases within your account. To retrieve your invoice:
+Obsidian génère une facture pour tous les achats effectués depuis votre compte. Pour récupérer votre facture :
 
-1. Log in to [your Obsidian account](https://obsidian.md/account/billing).
-2. Go to the **Billing** section.
-3. Next to **Invoices and refunds**, select **View**.
-    1. If multiple invoices are available, select the invoice you want to review and click **View** or **Download**.
+1. Connectez-vous à [votre compte Obsidian](https://obsidian.md/account/billing).
+2. Rendez-vous dans la section **Billing**.
+3. À côté de **Invoices and refunds**, sélectionnez **View**.
+    1. Si plusieurs factures sont disponibles, sélectionnez la facture que vous souhaitez consulter et cliquez sur **View** ou **Download**.
 
-### Editing an invoice
+### Modifier une facture
 
-If you need to edit information on the invoice, such as the billing address or VAT number, follow these steps:
+Si vous devez modifier des informations sur la facture, comme l'adresse de facturation ou le numéro de TVA, suivez ces étapes :
 
-1. Log in to [your Obsidian account](https://obsidian.md/account/billing).
-2. Navigate to the **Billing** section.
-3. Next to **Invoices and refunds**, select **View**.
-    1. If multiple invoices are available, select the invoice you want to review and click **View**.
-4. In the **Bill To:** section, the text box will be editable.
-5. Make your edits, and then you can download your updated invoice.
-
+1. Connectez-vous à [votre compte Obsidian](https://obsidian.md/account/billing).
+2. Naviguez vers la section **Billing**.
+3. À côté de **Invoices and refunds**, sélectionnez **View**.
+    1. Si plusieurs factures sont disponibles, sélectionnez la facture que vous souhaitez consulter et cliquez sur **View**.
+4. Dans la section **Bill To:**, le champ de texte sera modifiable.
+5. Effectuez vos modifications, puis vous pourrez télécharger votre facture mise à jour.

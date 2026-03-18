@@ -3,33 +3,33 @@ permalink: link-notes
 aliases:
   - How to/Prise de note basique
   - Link notes
-localized: null
+localized: '2026-03-18'
 ---
-Bien qu'Obsidian soit excellent pour prendre des notes, la véritable puissance d'Obsidian réside dans la possibilité de lier vos notes entre elles. En comprenant comment une information est reliée à une autre, vous pouvez améliorer votre capacité à les mémoriser et à développer des réflexions plus profondes. Dans ce guide, vous apprendrez à créer et à naviguer entre les liens dans Obsidian.
+Bien qu'Obsidian soit excellent pour prendre des notes, la véritable puissance d'Obsidian réside dans la possibilité de lier vos notes entre elles. En comprenant comment une information est reliée à une autre, vous pouvez améliorer votre capacité à les mémoriser et à former des réflexions plus profondes. Dans ce guide, vous apprendrez comment créer et naviguer entre les liens dans Obsidian.
 
 ## Créer un lien
 
-Dans cette étape, vous allez créer deux notes et les lier ensemble en utilisant la \[\[syntaxe à double crochets\]\].
+Dans cette étape, vous allez créer deux notes et les lier ensemble en utilisant la \[\[syntaxe à doubles crochets\]\].
 
 1. [[Créer votre première note|Créez une note]] avec le nom « Trois lois du mouvement » :
 
-   > Les lois du mouvement sont trois lois énoncées par Isaac Newton, qui décrivent la relation entre le mouvement d'un objet et les forces qui agissent sur lui.
+   > Les lois du mouvement sont trois lois énoncées par Isaac Newton, qui décrivent la relation entre le mouvement d'un objet et les forces agissant sur lui.
 
-2. Créez une autre note avec le nom « Loi de l'inertie » avec le texte suivant :
+2. Créez une autre note avec le nom « Loi d'inertie » avec le texte suivant :
 
-   > La loi de l'inertie est l'une des
+   > La loi d'inertie est l'une des
 
 3. À la fin de la phrase, appuyez deux fois sur le crochet gauche (`[`) sur votre clavier.
 4. Tapez « trois » pour trouver la première note que vous avez créée.
 5. Appuyez sur `Entrée` pour créer un lien vers la note en surbrillance.
 
-   > La loi de l'inertie est l'une des \[\[Trois lois du mouvement\]\]
+   > La loi d'inertie est l'une des \[\[Trois lois du mouvement\]\]
 
 Ouvrez la note « Trois lois du mouvement » en cliquant sur le lien tout en appuyant sur `Ctrl` (ou `Cmd` sur macOS).
 
 ## Créer un lien vers une note inexistante
 
-Vous pouvez créer des liens vers des notes qui n'existent pas encore, pour approfondir un sujet ultérieurement.
+Vous pouvez créer des liens vers des notes qui n'existent pas encore, pour les cas où vous souhaitez approfondir un sujet ultérieurement.
 
 1. Dans votre note « Trois lois du mouvement », sélectionnez le texte « Isaac Newton ».
 2. Appuyez deux fois sur le crochet gauche (`[`) sur votre clavier pour créer un lien. Le second lien a une couleur plus atténuée pour indiquer que la note n'existe pas encore.
@@ -51,13 +51,13 @@ Une autre façon de naviguer entre vos notes est d'utiliser une représentation 
 1. Dans le coin supérieur droit de la note, cliquez sur **Plus d'options** (![[lucide-more-horizontal.svg#icon]]).
 2. Sélectionnez **Ouvrir la vue liée**.
 3. Sélectionnez **Ouvrir le graphe local**.
-4. Cliquez sur n'importe quel nœud du graphe pour accéder à cette note.
+4. Cliquez sur n'importe quel nœud du graphe pour naviguer vers cette note.
 
 **Mobile**
 1. En haut de la note, sélectionnez **Plus d'options** (![[lucide-more-horizontal.svg#icon]]).
 2. Sélectionnez **Ouvrir le graphe local**.
-3. Cliquez sur n'importe quel nœud du graphe pour accéder à cette note.
+3. Cliquez sur n'importe quel nœud du graphe pour naviguer vers cette note.
 
 ## En savoir plus
 
-Comprendre comment vos notes sont connectées devient de plus en plus difficile à mesure que votre coffre grandit. Apprenez à utiliser la [[Vue graphique|vue graphique]] pour obtenir des perspectives plus profondes à partir de votre base de connaissances.
+Comprendre comment vos notes sont connectées devient de plus en plus difficile à mesure que votre coffre grandit. Apprenez à utiliser la [[Vue graphique|vue graphique]] pour obtenir des réflexions plus profondes à partir de votre base de connaissances.

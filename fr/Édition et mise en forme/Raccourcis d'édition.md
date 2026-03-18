@@ -1,135 +1,134 @@
 ---
 permalink: editing-shortcuts
-localized: null
+localized: '2026-03-18'
 aliases:
   - Editing shortcuts
 ---
+Cette page répertorie les raccourcis clavier par défaut pour naviguer et éditer du texte dans Obsidian. Ces raccourcis sont fournis par votre système d'exploitation ou le framework sur lequel Obsidian est construit, et ne peuvent pas être personnalisés dans Obsidian.
 
-This page lists default keyboard shortcuts for navigating and editing text in Obsidian. These shortcuts are provided by your operating system or the framework Obsidian is built on, and cannot be customized within Obsidian.
+Pour les raccourcis clavier personnalisables des commandes Obsidian, consultez [[Raccourcis clavier]].
 
-For customizable keyboard shortcuts for Obsidian commands, see [[Raccourcis clavier]].
+## Raccourcis Windows et Linux
 
-## Windows and Linux shortcuts
+### Actions courantes
 
-### Common actions
-
-| Action | Shortcut |
+| Action | Raccourci |
 |-|-|
-| Copy | `Ctrl+C` |
-| Cut | `Ctrl+X` |
-| Paste | `Ctrl+V` |
-| Paste without formatting | `Ctrl+Shift+V` |
-| Undo | `Ctrl+Z` |
-| Redo | `Ctrl+Shift+Z` or `Ctrl+Y` |
-| Copy paragraph | `Ctrl+C` (with no selected text) |
-| Cut paragraph | `Ctrl+X` (with no selected text) |
+| Copier | `Ctrl+C` |
+| Couper | `Ctrl+X` |
+| Coller | `Ctrl+V` |
+| Coller sans mise en forme | `Ctrl+Shift+V` |
+| Annuler | `Ctrl+Z` |
+| Rétablir | `Ctrl+Shift+Z` ou `Ctrl+Y` |
+| Copier le paragraphe | `Ctrl+C` (sans texte sélectionné) |
+| Couper le paragraphe | `Ctrl+X` (sans texte sélectionné) |
 
-### Text editing
+### Édition de texte
 
-| Action | Shortcut |
+| Action | Raccourci |
 |-|-|
-| Insert new line| `Enter` |
-| Delete the previous character | `Backspace` |
-| Delete the next character | `Delete` |
-| Delete the previous word | `Ctrl+Backspace` |
-| Delete the next word | `Ctrl+Delete` |
-| Delete the current line | `Ctrl+Shift+K` (with no selected text) |
+| Insérer une nouvelle ligne | `Enter` |
+| Supprimer le caractère précédent | `Backspace` |
+| Supprimer le caractère suivant | `Delete` |
+| Supprimer le mot précédent | `Ctrl+Backspace` |
+| Supprimer le mot suivant | `Ctrl+Delete` |
+| Supprimer la ligne actuelle | `Ctrl+Shift+K` (sans texte sélectionné) |
 
-### Text navigation
+### Navigation dans le texte
 
-| Action | Shortcut |
+| Action | Raccourci |
 |-|-|
-| Move the cursor one character | `Left/→` |
-| Move the cursor to the beginning of the previous word | `Ctrl+←` |
-| Move the cursor to the end of the next word | `Ctrl+→` |
-| Move the cursor to the beginning of the current line | `Home` |
-| Move the cursor to the end of the current line | `End` |
-| Move the cursor to the previous line | `↑` |
-| Move the cursor to the next line | `↓` |
-| Move the cursor to the beginning of the note | `Ctrl+Home` |
-| Move the cursor to the end of the note | `Ctrl+End` |
-| Move the cursor up one page | `Page up` |
-| Move the cursor down one page | `Page down` |
+| Déplacer le curseur d'un caractère | `Left/→` |
+| Déplacer le curseur au début du mot précédent | `Ctrl+←` |
+| Déplacer le curseur à la fin du mot suivant | `Ctrl+→` |
+| Déplacer le curseur au début de la ligne actuelle | `Home` |
+| Déplacer le curseur à la fin de la ligne actuelle | `End` |
+| Déplacer le curseur à la ligne précédente | `↑` |
+| Déplacer le curseur à la ligne suivante | `↓` |
+| Déplacer le curseur au début de la note | `Ctrl+Home` |
+| Déplacer le curseur à la fin de la note | `Ctrl+End` |
+| Déplacer le curseur d'une page vers le haut | `Page up` |
+| Déplacer le curseur d'une page vers le bas | `Page down` |
 
-### Text selection
+### Sélection de texte
 
-| Action | Shortcut |
+| Action | Raccourci |
 |-|-|
-| Simplify selection | `Escape` |
-| Select all | `Ctrl+A` |
-| Extend selection one character | `Shift+Left/→` |
-| Extend selection to the beginning of the previous word | `Ctrl+Shift+←` |
-| Extend selection to the end of the next word | `Ctrl+Shift+→` |
-| Extend selection to the beginning of the current line | `Shift+Home` |
-| Extend selection to the end of the current line | `Shift+End` |
-| Extend selection to the beginning of the note | `Ctrl+Shift+Home` |
-| Extend selection to the end of the note | `Ctrl+Shift+End` |
-| Extend selection one page up | `Shift+Page up` |
-| Extend selection one page down | `Shift+Page down` |
+| Simplifier la sélection | `Escape` |
+| Tout sélectionner | `Ctrl+A` |
+| Étendre la sélection d'un caractère | `Shift+Left/→` |
+| Étendre la sélection au début du mot précédent | `Ctrl+Shift+←` |
+| Étendre la sélection à la fin du mot suivant | `Ctrl+Shift+→` |
+| Étendre la sélection au début de la ligne actuelle | `Shift+Home` |
+| Étendre la sélection à la fin de la ligne actuelle | `Shift+End` |
+| Étendre la sélection au début de la note | `Ctrl+Shift+Home` |
+| Étendre la sélection à la fin de la note | `Ctrl+Shift+End` |
+| Étendre la sélection d'une page vers le haut | `Shift+Page up` |
+| Étendre la sélection d'une page vers le bas | `Shift+Page down` |
 
-## macOS shortcuts
+## Raccourcis macOS
 
-### Common actions
+### Actions courantes
 
-| Action | Shortcut |
+| Action | Raccourci |
 |-|-|
-| Copy | `Cmd+C` |
-| Cut | `Cmd+X` |
-| Paste | `Cmd+V` |
-| Paste without formatting | `Cmd+Shift+V` |
-| Undo | `Cmd+Z` |
-| Redo | `Cmd+Shift+Z` |
-| Copy paragraph | `Cmd+C` (with no selected text) |
-| Cut paragraph | `Cmd+X` (with no selected text) |
+| Copier | `Cmd+C` |
+| Couper | `Cmd+X` |
+| Coller | `Cmd+V` |
+| Coller sans mise en forme | `Cmd+Shift+V` |
+| Annuler | `Cmd+Z` |
+| Rétablir | `Cmd+Shift+Z` |
+| Copier le paragraphe | `Cmd+C` (sans texte sélectionné) |
+| Couper le paragraphe | `Cmd+X` (sans texte sélectionné) |
 
-### Text formatting
+### Mise en forme du texte
 
-| Action | Shortcut |
+| Action | Raccourci |
 | ---- | ---- |
-| Bold text | `Cmd+B` |
-| Italic text | `Cmd+I` |
+| Texte en gras | `Cmd+B` |
+| Texte en italique | `Cmd+I` |
 
-### Text editing
+### Édition de texte
 
-| Action | Shortcut |
+| Action | Raccourci |
 |-|-|
-| Insert new line| `Enter` |
-| Delete the previous character | `Backspace` |
-| Delete the next character | `Delete` |
-| Delete the previous word | `Option+Backspace` |
-| Delete the next word | `Option+Delete` |
-| Delete to the beginning of the current line | `Cmd+Backspace` |
-| Delete to the end of the current line | `Cmd+Delete` |
-| Delete the current line | `Cmd+Shift+K` (with no selected text) |
+| Insérer une nouvelle ligne | `Enter` |
+| Supprimer le caractère précédent | `Backspace` |
+| Supprimer le caractère suivant | `Delete` |
+| Supprimer le mot précédent | `Option+Backspace` |
+| Supprimer le mot suivant | `Option+Delete` |
+| Supprimer jusqu'au début de la ligne actuelle | `Cmd+Backspace` |
+| Supprimer jusqu'à la fin de la ligne actuelle | `Cmd+Delete` |
+| Supprimer la ligne actuelle | `Cmd+Shift+K` (sans texte sélectionné) |
 
-### Text navigation
+### Navigation dans le texte
 
-| Action | Shortcut |
+| Action | Raccourci |
 |-|-|
-| Move the cursor one character | `Left/→` |
-| Move the cursor to the beginning of the previous word | `Option+←` |
-| Move the cursor to the end of the next word | `Option+→` |
-| Move the cursor to the beginning of the current line | `Cmd+←` |
-| Move the cursor to the end of the current line | `Cmd+→` |
-| Move the cursor to the previous line | `↑` |
-| Move the cursor to the next line | `↓` |
-| Move the cursor to the beginning of the note | `Cmd+↑` |
-| Move the cursor to the end of the note | `Cmd+↓` |
-| Move the cursor up one page | `Fn+↑` |
-| Move the cursor down one page | `Fn+↓` |
+| Déplacer le curseur d'un caractère | `Left/→` |
+| Déplacer le curseur au début du mot précédent | `Option+←` |
+| Déplacer le curseur à la fin du mot suivant | `Option+→` |
+| Déplacer le curseur au début de la ligne actuelle | `Cmd+←` |
+| Déplacer le curseur à la fin de la ligne actuelle | `Cmd+→` |
+| Déplacer le curseur à la ligne précédente | `↑` |
+| Déplacer le curseur à la ligne suivante | `↓` |
+| Déplacer le curseur au début de la note | `Cmd+↑` |
+| Déplacer le curseur à la fin de la note | `Cmd+↓` |
+| Déplacer le curseur d'une page vers le haut | `Fn+↑` |
+| Déplacer le curseur d'une page vers le bas | `Fn+↓` |
 
-### Text selection
+### Sélection de texte
 
-| Action                                                 | Shortcut                   |
+| Action                                                 | Raccourci                   |
 | ------------------------------------------------------ | -------------------------- |
-| Simplify selection                                     | `Escape`                   |
-| Select all                                             | `Cmd+A`                    |
-| Extend selection one character                         | `Shift+Left/→`   |
-| Extend selection to the beginning of the previous word | `Option+Shift+←`  |
-| Extend selection to the end of the next word           | `Option+Shift+→` |
-| Extend selection to the beginning of the current line  | `Cmd+Shift+←`              |
-| Extend selection to the end of the current line        | `Cmd+Shift+→`    |
-| Extend selection to the beginning of the note          | `Cmd+Shift+↑`       |
-| Extend selection to the end of the note                | `Cmd+Shift+↓`     |
-| Extend selection one page up                           | `Ctrl+Shift+↑`      |
-| Extend selection one page down                         | `Ctrl+Shift+↓`    |
+| Simplifier la sélection                                     | `Escape`                   |
+| Tout sélectionner                                             | `Cmd+A`                    |
+| Étendre la sélection d'un caractère                         | `Shift+Left/→`   |
+| Étendre la sélection au début du mot précédent | `Option+Shift+←`  |
+| Étendre la sélection à la fin du mot suivant           | `Option+Shift+→` |
+| Étendre la sélection au début de la ligne actuelle  | `Cmd+Shift+←`              |
+| Étendre la sélection à la fin de la ligne actuelle        | `Cmd+Shift+→`    |
+| Étendre la sélection au début de la note          | `Cmd+Shift+↑`       |
+| Étendre la sélection à la fin de la note                | `Cmd+Shift+↓`     |
+| Étendre la sélection d'une page vers le haut                           | `Ctrl+Shift+↑`      |
+| Étendre la sélection d'une page vers le bas                         | `Ctrl+Shift+↓`    |

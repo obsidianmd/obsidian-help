@@ -8,22 +8,21 @@ mobile: false
 aliases:
   - How to/Listes dépliantes
   - Folding
+localized: '2026-03-18'
 ---
-# Listes dépliantes
+Apprenez à obtenir une meilleure vue d'ensemble de vos grandes notes en utilisant le _pliage_ pour masquer certaines parties de la note. Le pliage est utile lorsque vous créez des plans pour vos notes et lorsque vous souhaitez vous concentrer sur ce sur quoi vous travaillez en ce moment.
 
-Les listes dépliantes sont un outil très puissant pour organiser l'information ou écrire, afin d'être bien concentré sur votre travail. 
+Vous pouvez plier les entêtes et les listes indentées en survolant avec le curseur de la souris la section que vous souhaitez plier, puis en sélectionnant la flèche sur la gauche. Les sections pliées affichent une flèche, que vous les survoliez ou non.
 
-Obsidian offre la possibilité de plier les titres formatés en markdown et les listes ayant des sous-listes (listes indentées). À gauche de chaque titre, il y a une flèche pointant vers le bas qui apparaît quand vous y glissez la souris. Si vous cliquez dessus, cela va plier tout ce qui se trouve sous ce titre, et si vous cliquez à nouveau, cela va déplier le titre pour faire réapparaître le contenu. Cela peut être appliqué à de multiples niveau de titres markdown et niveaux de listes indentées. Si vous n'aimez pas cela, vous pouvez désactiver cette fonction dans les Paramètres. 
+Le pliage est activé par défaut. Pour désactiver le pliage, ouvrez **[[Paramètres]]** → **Éditeur**, puis désactivez **Plier l'indentation** ou **Plier les entêtes**, selon vos besoins.
 
-## Par exemple
+Pour basculer toutes les sections en même temps, utilisez les commandes suivantes :
 
-1. Catégories d'éléments
-	- Une sous-catégorie
-2. Seconde catégorie
-	1. Sous-catégorie
-	2. Sous catégorie
-		1. Un élément
-		2. Un autre élément
-	3. Sous catégorie
+- Pour réduire toutes les sections, ouvrez la [[Palette de commandes]], puis sélectionnez **Plier toutes les entêtes et listes**.
+- Pour développer toutes les sections, ouvrez la [[Palette de commandes]], puis sélectionnez **Déplier toutes les entêtes et listes**.
 
-Pour passer aisément d'une liste numérotée à une liste à points (ou inversement) comme dans la deuxième ligne de cet exemple, il vous est recommandé d'utiliser des [[raccourcis clavier]] que vous pouvez créer dans les [[Paramètres]]. 
+> [!tip]
+> Si vous préférez plier à l'aide de votre clavier, vous pouvez assigner des [[Raccourcis clavier]] aux commandes **Plier moins** et **Plier plus**.
+>
+> - **Plier moins** déplie la section au niveau du curseur de texte.
+> - **Plier plus** plie la section ou la liste qui contient le curseur de texte.

@@ -7,134 +7,133 @@ description: >-
   structured data such as text, links, dates, checkboxes, and numbers.
 publish: true
 mobile: false
-localized: null
+localized: '2026-03-18'
 aliases:
   - Properties
 ---
+Les propriétés vous permettent d'organiser les informations relatives à une note. Les propriétés contiennent des données structurées telles que du texte, des liens, des dates, des cases à cocher et des nombres. Les propriétés peuvent également être utilisées en combinaison avec des [[Modules complémentaires]] capables d'exploiter vos données structurées.
 
-Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers. Properties can also be used in combination with [[Plugins communautaires]] that can do useful things with your structured data.
+## Ajouter des propriétés à une note
 
-## Add properties to a note
+Il existe plusieurs façons d'ajouter une propriété à une note :
 
-There are several ways to add a property to a note:
+- Utiliser la [[Palette de commandes|commande]] **Ajouter une propriété de fichier**.
+- Utiliser le [[Raccourcis clavier|raccourci clavier]] **`Cmd/Ctrl+;`**.
+- Choisir **Ajouter une propriété de fichier** dans le menu **Plus d'actions** (accessible via l'icône des trois points ou en faisant un clic droit sur l'onglet).
+- Taper `---` tout au début d'un fichier.
 
-- Use the **Add file property** [[Palette de commandes|command]].
-- Use the **`Cmd/Ctrl+;`** [[Raccourcis clavier|hotkey]].
-- Choose **Add file property** from the **More actions** menu (brought up by the three dots icon or by right-clicking the tab).
-- Type `---` at the very beginning of a file.
+Une fois que vous avez ajouté une propriété, une ligne apparaît en haut du fichier avec deux champs : le _nom_ de la propriété et la _valeur_ de la propriété.
 
-Once you add a property, a row will appear at the top of the file with two inputs: the property _name_ and the property _value_.
+Pour le nom, vous pouvez choisir ce que vous voulez. Obsidian fournit plusieurs propriétés par défaut : `tags`, `cssclasses` et `aliases`.
 
-For the name, you can choose anything you like. Obsidian provides several default properties: `tags`, `cssclasses`, and `aliases`.
+Une fois le nom de la propriété choisi, vous pouvez lui attribuer une valeur.
 
-Once you choose the property name, you can give it a value.
+### Types de propriétés
 
-### Property types
+En plus d'un nom et d'une valeur, les propriétés ont également un _type_. Le type d'une propriété détermine le genre de valeurs qu'elle peut stocker et la façon dont Obsidian les traite. Pour changer le type d'une propriété, cliquez sur l'icône de type à côté du nom de la propriété et sélectionnez une option différente. Vous pouvez également gérer les types de propriétés à l'aide du module principal [[Vue des propriétés]].
 
-In addition to a name and value, properties also have a _type_. A property's type determines what kind of values it can store and how Obsidian handles them. To change the type of a property, click the type icon next to the property name and select a different option. You can also manage property types using the [[Vue des propriétés]] core plugin.
+Obsidian prend en charge les types de propriétés suivants :
 
-Obsidian supports the following property types:
-
-- **[[#Text]]**
-- **[[#List]]**
-- **[[#Number]]**
-- **[[#Checkbox]]**
+- **[[#Texte]]**
+- **[[#Liste]]**
+- **[[#Nombre]]**
+- **[[#Case à cocher]]**
 - **[[#Date]]**
-- **[[#Date & time]]**
-- **[[#Tags]]**
+- **[[#Date et heure]]**
+- **[[#Mots-clés]]**
 
-Once a property type is assigned to a property name, all properties with that name across your vault will use the same type.
+Une fois qu'un type de propriété est attribué à un nom de propriété, toutes les propriétés portant ce nom dans votre coffre utiliseront le même type.
 
-## Advanced uses
+## Utilisations avancées
 
-### Search properties
+### Rechercher des propriétés
 
-Properties have their own [[Recherche|search syntax]] that you can use alongside other search terms and operators. [[Recherche#Search properties|See search syntax for properties]].
+Les propriétés disposent de leur propre [[Rechercher|syntaxe de recherche]] que vous pouvez utiliser avec d'autres termes et opérateurs de recherche. [[Rechercher#Rechercher des propriétés|Voir la syntaxe de recherche pour les propriétés]].
 
-### Templates
+### Modèles
 
-You can add properties to [[Plugins/Modèles|Templates]].
+Vous pouvez ajouter des propriétés aux [[Plugins/Modèles|Modèles]].
 
-When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template. ^templates-properties
+Lorsque vous insérez un modèle dans la note active, toutes les propriétés du modèle sont ajoutées à la note. Obsidian fusionne également toutes les propriétés existantes dans votre note avec les propriétés du modèle. ^templates-properties
 
-### Rename properties
+### Renommer des propriétés
 
-You can rename a property by right-clicking it in the [[Vue des propriétés|All properties view]].
+Vous pouvez renommer une propriété en faisant un clic droit dessus dans la [[Vue des propriétés|vue de toutes les propriétés]].
 
-### Display modes
+### Modes d'affichage
 
-You can change how properties are displayed in your note by going to  **[[Paramètres]] → Editor → Properties in document**. The options are:
+Vous pouvez changer la façon dont les propriétés sont affichées dans votre note en allant dans **[[Paramètres]] → Éditeur → Propriétés dans le document**. Les options sont :
 
-- **Visible** (default) – displays properties at the top of the note, if there are any.
-- **Hidden** – hides properties, can still be displayed in the sidebar via [[Vue des propriétés]].
-- **Source** – displays properties in plain text YAML format.
+- **Visible** (par défaut) – affiche les propriétés en haut de la note, s'il y en a.
+- **Masqué** – masque les propriétés, qui peuvent toujours être affichées dans la barre latérale via la [[Vue des propriétés]].
+- **Source** – affiche les propriétés au format YAML en texte brut.
 
-### CSS snippets
+### Extraits CSS
 
-You can use [[Extraits CSS]] to change the appearance of specific notes.
+Vous pouvez utiliser les [[Extraits CSS]] pour modifier l'apparence de notes spécifiques.
 
-### Not supported
+### Fonctionnalités non prises en charge
 
-A few features are not currently supported in Obsidian:
+Quelques fonctionnalités ne sont actuellement pas prises en charge dans Obsidian :
 
-- **Nested properties**: To view nested properties, we recommend using the [[Vues et mode d'édition#Source mode|source mode]].
-- **Bulk-editing properties**: For in-depth bulk editing outside of [[Vue des propriétés]], we recommend using bulk-editing tools like VSCode, scripts, and community plugins.
-- **Markdown in properties**: This is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
+- **Propriétés imbriquées** : Pour visualiser les propriétés imbriquées, nous recommandons d'utiliser le [[Vues et mode d'édition#Mode source|mode source]].
+- **Modification en masse des propriétés** : Pour une modification en masse approfondie en dehors de la [[Vue des propriétés]], nous recommandons d'utiliser des outils de modification en masse comme VSCode, des scripts et des modules complémentaires.
+- **Markdown dans les propriétés** : C'est une limitation intentionnelle car les propriétés sont conçues pour de petites informations atomiques lisibles à la fois par les humains et les machines.
 
-## Hotkeys
+## Raccourcis clavier
 
-### Add a property
+### Ajouter une propriété
 
-| Action | Hotkey |
+| Action | Raccourci clavier |
 |---|---|
-|Add new property|`Cmd + ;`|
+|Ajouter une nouvelle propriété|`Cmd + ;`|
 
-### Navigate between properties
+### Naviguer entre les propriétés
 
-When a property is focused 
+Lorsqu'une propriété est sélectionnée
 
-| Action | Hotkey |
+| Action | Raccourci clavier |
 |---|---|
-|Focus next property|`Down arrow` or `Tab`|
-|Focus previous property|`Up arrow` or `Shift+Tab`|
-|Jump to editor|`Alt+Down arrow`|
+|Sélectionner la propriété suivante|`Flèche bas` ou `Tab`|
+|Sélectionner la propriété précédente|`Flèche haut` ou `Maj+Tab`|
+|Aller à l'éditeur|`Alt+Flèche bas`|
 
-### Select properties
+### Sélectionner des propriétés
 
-| Action | Hotkey |
+| Action | Raccourci clavier |
 |---|---|
-|Extend selection upwards|`Shift+Up arrow`|
-|Extend selection downwards|`Shift+Down arrow`|
-|Select all|`Cmd+A`|
+|Étendre la sélection vers le haut|`Maj+Flèche haut`|
+|Étendre la sélection vers le bas|`Maj+Flèche bas`|
+|Tout sélectionner|`Cmd+A`|
 
-### Edit properties
+### Modifier des propriétés
 
-| Action | Hotkey |
+| Action | Raccourci clavier |
 |---|---|
-|Edit property name|`Left arrow`|
-|Edit property value|`Right arrow`|
-|Focus property|`Escape`|
-|Delete property|`Cmd+Backspace`<br><br>if any properties are selected, it will delete the selection instead.|
-|Undo|`Cmd+Z`|
-|Redo|`Cmd+Shift+Z`|
+|Modifier le nom de la propriété|`Flèche gauche`|
+|Modifier la valeur de la propriété|`Flèche droite`|
+|Sélectionner la propriété|`Échap`|
+|Supprimer la propriété|`Cmd+Retour arrière`<br><br>si des propriétés sont sélectionnées, la sélection sera supprimée à la place.|
+|Annuler|`Cmd+Z`|
+|Rétablir|`Cmd+Maj+Z`|
 
-### Vim (advanced)
+### Vim (avancé)
 
-| Action | Hotkey |
+| Action | Raccourci clavier |
 |---|---|
-|Move down|`j`|
-|Move up|`k`|
-|Focus key|`h`|
-|Focus value|`l`|
-|Focus value (Cursor at end)|`A`|
-|Focus value (Cursor at beginning)|`i`|
-|Create new property|`o`|
+|Descendre|`j`|
+|Monter|`k`|
+|Sélectionner la clé|`h`|
+|Sélectionner la valeur|`l`|
+|Sélectionner la valeur (curseur à la fin)|`A`|
+|Sélectionner la valeur (curseur au début)|`i`|
+|Créer une nouvelle propriété|`o`|
 
-## Property format
+## Format des propriétés
 
-Properties are stored in [YAML](https://yaml.org/) format at the top of the file. YAML is a popular format that is easy for both humans and computers to read.
+Les propriétés sont stockées au format [YAML](https://yaml.org/) en haut du fichier. YAML est un format populaire facile à lire pour les humains comme pour les ordinateurs.
 
-Property names are separated from their values by a colon followed by a space:
+Les noms de propriétés sont séparés de leurs valeurs par un deux-points suivi d'un espace :
 
 ```yaml
 ---
@@ -142,15 +141,15 @@ name: value
 ---
 ```
 
-While the order of each name-value pair doesn't matter, each name must be unique within a note. For example, you can't have more than one `tags` property.
+Bien que l'ordre des paires nom-valeur n'ait pas d'importance, chaque nom doit être unique au sein d'une note. Par exemple, vous ne pouvez pas avoir plus d'une propriété `tags`.
 
-Values can be [[#Text|text]], [[#Number|numbers]], [[#Checkbox|checkboxes]], [[#Date|dates]], [[#Date & time|dates and times]], or [[#List|lists]].
+Les valeurs peuvent être du [[#Texte|texte]], des [[#Nombre|nombres]], des [[#Case à cocher|cases à cocher]], des [[#Date|dates]], des [[#Date et heure|dates et heures]] ou des [[#Liste|listes]].
 
-### Text
+### Texte
 
-Text properties contain a single line of text. Markdown formatting is not rendered in text properties. Hashtags do not create tags when used in text properties.
+Les propriétés de type texte contiennent une seule ligne de texte. La mise en forme Markdown n'est pas rendue dans les propriétés de type texte. Les hashtags ne créent pas de mots-clés lorsqu'ils sont utilisés dans les propriétés de type texte.
 
-Text properties can contain URLs and [[Liens internes]] using the `[[Link]]` syntax. [[Liens internes]] in text properties must be surrounded with quotes. Obsidian will automatically add these if you manually enter internal links into properties, but be careful to add them when using templating plugins.
+Les propriétés de type texte peuvent contenir des URL et des [[Liens internes]] en utilisant la syntaxe `[[Lien]]`. Les [[Liens internes]] dans les propriétés de type texte doivent être entourés de guillemets. Obsidian les ajoutera automatiquement si vous saisissez manuellement des liens internes dans les propriétés, mais veillez à les ajouter lorsque vous utilisez des modules de modèles.
 
 ```yaml
 ---
@@ -160,11 +159,11 @@ url: https://www.example.com
 ---
 ```
 
-### List
+### Liste
 
-List properties contain multiple values. Each value in a list appears on its own line, preceded by a hyphen (-) and a space.
+Les propriétés de type liste contiennent plusieurs valeurs. Chaque valeur d'une liste apparaît sur sa propre ligne, précédée d'un tiret (-) et d'un espace.
 
-List values can contain text, numbers, and [[Liens internes]]. When using [[Liens internes]] in list properties, surround them with quotes.
+Les valeurs de liste peuvent contenir du texte, des nombres et des [[Liens internes]]. Lorsque vous utilisez des [[Liens internes]] dans les propriétés de type liste, entourez-les de guillemets.
 
 ```yaml
 ---
@@ -178,9 +177,9 @@ links:
 ---
 ```
 
-### Number
+### Nombre
 
-Number type properties must always be a literal number, not an expression with operators. Integers and decimals are both allowed.
+Les propriétés de type nombre doivent toujours être un nombre littéral, pas une expression avec des opérateurs. Les entiers et les décimaux sont tous deux acceptés.
 
 ```yaml
 ---
@@ -189,20 +188,20 @@ pie: 3.14
 ---
 ```
 
-### Checkbox
+### Case à cocher
 
-Checkbox properties are either `true` or `false`. In Live Preview, this displays as a checkbox.
+Les propriétés de type case à cocher sont soit `true`, soit `false`. En aperçu en direct, cela s'affiche sous forme de case à cocher.
 
 ```yaml
 ---
 favorite: true
 reply: false
-last: # Inderminate value; often treated as false
+last: # Valeur indéterminée ; souvent traitée comme false
 ```
 
 ### Date
 
-Date properties are stored in the following format: 
+Les propriétés de type date sont stockées dans le format suivant :
 
 ```yaml
 ---
@@ -210,25 +209,25 @@ date: 2020-08-21
 ---
 ```
 
-The date picker follows your operating system's default date and time format. You can change it in your system preferences: 
+Le sélecteur de date suit le format de date et d'heure par défaut de votre système d'exploitation. Vous pouvez le modifier dans les préférences de votre système :
 
 > [!info]- Windows
-> **[[Paramètres]] → Time & Language → Language & Region → Regional Format → Change Formats**
+> **[[Paramètres]] → Heure et langue → Langue et région → Format régional → Modifier les formats**
 > 
 > ![[Windows-OS-DateTime.png#interface]]
 
 > [!info]- Mac OS
-> **System Preferences → Language and Region → Date format**
+> **Préférences Système → Langue et région → Format de date**
 > 
 > ![[Mac-OS-DateTime.png|450]]
 
-With the [[Notes quotidiennes]] plugin enabled, the date property will additionally function as an internal link to the corresponding daily note for that date.
+Avec le module [[Notes quotidiennes]] activé, la propriété de date fonctionnera en plus comme un lien interne vers la note quotidienne correspondant à cette date.
 
 ![[Notes quotidiennes#^daily-notes-date]]
 
-### Date & time
+### Date et heure
 
-Date & time properties include both a date and a specific time, stored in the following format:
+Les propriétés de type date et heure incluent à la fois une date et une heure spécifique, stockées dans le format suivant :
 
 ```yaml
 ---
@@ -236,13 +235,13 @@ time: 2020-08-21T10:30:00
 ---
 ```
 
-Like [[#Date|date properties]], the date and time picker follows your operating system's default format. You can change it in your system preferences.
+Comme pour les [[#Date|propriétés de type date]], le sélecteur de date et d'heure suit le format par défaut de votre système d'exploitation. Vous pouvez le modifier dans les préférences de votre système.
 
-### Tags
+### Mots-clés
 
-Tags properties are a special property type used exclusively by the `tags` property. This property type cannot be assigned to other properties.
+Les propriétés de type mots-clés sont un type de propriété spécial utilisé exclusivement par la propriété `tags`. Ce type de propriété ne peut pas être attribué à d'autres propriétés.
 
-Tags properties are formatted as a list, with each tag on its own line preceded by a hyphen (-) and a space. 
+Les propriétés de type mots-clés sont formatées sous forme de liste, chaque mot-clé sur sa propre ligne précédé d'un tiret (-) et d'un espace.
 
 ```yaml
 ---
@@ -253,11 +252,11 @@ tags:
 ---
 ```
 
-The `tags` property is one of Obsidian's [[#Default properties]]. See [[Étiquettes]] for more information about using tags in Obsidian.
+La propriété `tags` est l'une des [[#Propriétés par défaut]] d'Obsidian. Consultez [[Mots-clés]] pour plus d'informations sur l'utilisation des mots-clés dans Obsidian.
 
-### JSON properties
+### Propriétés JSON
 
-While we recommend using YAML to define properties, you can also define properties using [JSON](https://www.json.org/):
+Bien que nous recommandions d'utiliser YAML pour définir les propriétés, vous pouvez également les définir en utilisant [JSON](https://www.json.org/) :
 
 ```json
 ---
@@ -268,38 +267,38 @@ While we recommend using YAML to define properties, you can also define properti
 ---
 ```
 
-Note that the JSON block will be read, interpreted, and saved as YAML.
+Notez que le bloc JSON sera lu, interprété et enregistré en YAML.
 
-## Default properties
+## Propriétés par défaut
 
-Obsidian comes with a set of default properties:
+Obsidian est fourni avec un ensemble de propriétés par défaut :
 
-| Property     | Type | Description                                                  |
-| ------------ | ---- | ------------------------------------------------------------ |
-| `tags`       | List | See [[Editing and formatting/Tags\|Tags]].                   |
-| `aliases`    | List | See [[Alias]].                                             |
-| `cssclasses` | List | Allows you to style individual notes using [[Extraits CSS]]. |
+| Propriété    | Type  | Description                                                           |
+| ------------ | ----- | --------------------------------------------------------------------- |
+| `tags`       | Liste | Voir [[Editing and formatting/Tags\|Mots-clés]].                     |
+| `aliases`    | Liste | Voir [[Alias]].                                                      |
+| `cssclasses` | Liste | Permet de styliser des notes individuelles à l'aide d'[[Extraits CSS]]. |
 
-### Properties for Obsidian Publish
+### Propriétés pour Obsidian Publish
 
-The following default properties can be used with [[Introduction à Obsidian Publish|Obsidian Publish]]:
+Les propriétés par défaut suivantes peuvent être utilisées avec [[Introduction à Obsidian Publish|Obsidian Publish]] :
 
-| Property      | Description                                                                                                |
-| ------------- | ---------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publier votre contenu#Automatically select notes to publish\|Automatically select notes to publish]]. |
-| `permalink`   | See [[Permalinks\|Permalinks]].                                                                            |
-| `description` | See [[Aperçus de liens sur les réseaux sociaux#Description\|Description]].                                               |
-| `image`       | See [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                           |
-| `cover`       | See [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                           |
+| Propriété     | Description                                                                                                              |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `publish`     | Voir [[Publier votre contenu#Sélectionner automatiquement les notes à publier\|Sélectionner automatiquement les notes à publier]]. |
+| `permalink`   | Voir [[Permaliens\|Permaliens]].                                                                                        |
+| `description` | Voir [[Aperçus de liens sur les réseaux sociaux#Description\|Description]].                                              |
+| `image`       | Voir [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                          |
+| `cover`       | Voir [[Aperçus de liens sur les réseaux sociaux#Image\|Image]].                                                          |
 
-### Deprecated properties
+### Propriétés obsolètes
 
-These properties were deprecated in Obsidian 1.4 and should be replaced with their modern equivalents. Support for them as [[#Default properties]] is dropped in Obsidian 1.9.
+Ces propriétés ont été rendues obsolètes dans Obsidian 1.4 et doivent être remplacées par leurs équivalents modernes. Leur prise en charge en tant que [[#Propriétés par défaut]] est abandonnée dans Obsidian 1.9.
 
-| Property | Description |
-|-|-|
-| `tag` | Deprecated alias for `tags`. |
-| `alias` | Deprecated alias for `aliases`. |
-| `cssclass` | Deprecated alias for `cssclasses`. |
+| Propriété  | Description                              |
+| ---------- | ---------------------------------------- |
+| `tag`      | Alias obsolète pour `tags`.              |
+| `alias`    | Alias obsolète pour `aliases`.           |
+| `cssclass` | Alias obsolète pour `cssclasses`.        |
 
-> [!tip] If you need to convert your files in your vault to the [[#Default properties]] format, you can use [[Convertisseur de format]] to change your vault en masse.
+> [!tip] Si vous devez convertir les fichiers de votre coffre au format des [[#Propriétés par défaut]], vous pouvez utiliser l'[[Importateur depuis des fichiers Markdown]] pour modifier votre coffre en masse.

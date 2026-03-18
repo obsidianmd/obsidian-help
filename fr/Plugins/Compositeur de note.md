@@ -1,76 +1,76 @@
 ---
 permalink: plugins/note-composer
-localized: null
+localized: '2026-03-18'
 aliases:
   - Note composer
 ---
-Note composer is a [[Plugins principaux|core plugin]] that lets you merge two notes or extract part of a note into a new note.
+Le Compositeur de note est un [[Modules principaux|module principal]] qui vous permet de fusionner deux notes ou d'extraire une partie d'une note dans une nouvelle note.
 
-## Merge notes
+## Fusionner des notes
 
-Merging notes adds a note to another and removes the first one. Note composer updates all links to reference the merged note.
+La fusion de notes ajoute une note à une autre et supprime la première. Le Compositeur de note met à jour tous les liens pour qu'ils référencent la note fusionnée.
 
-When you select the note to merge into, you can choose between the following methods:
+Lorsque vous sélectionnez la note dans laquelle fusionner, vous pouvez choisir entre les méthodes suivantes :
 
-- `Enter`: Adds the source note at the _end_ to the destination note.
-- `Shift+Enter`: Adds the source note at the _start_ of the destination note.
-- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the content of the source note.
+- `Entrée` : Ajoute la note source à la _fin_ de la note de destination.
+- `Maj+Entrée` : Ajoute la note source au _début_ de la note de destination.
+- `Ctrl+Entrée` (ou `Cmd+Entrée` sur macOS) : Crée une nouvelle note avec le contenu de la note source.
 
-To merge the active note with another note in your vault:
+Pour fusionner la note active avec une autre note de votre coffre :
 
-**File explorer**
+**Explorateur de fichiers**
 
-1. In the File explorer, right-click the note you want to merge.
-2. Click **Merge entire file with...**.
-3. Select the note you want to merge into.
-4. Click **Merge** to confirm.
+1. Dans l'explorateur de fichiers, faites un clic droit sur la note que vous souhaitez fusionner.
+2. Cliquez sur **Fusionner le fichier entier avec...**.
+3. Sélectionnez la note dans laquelle vous souhaitez fusionner.
+4. Cliquez sur **Fusionner** pour confirmer.
 
-**Command palette**
+**Palette de commandes**
 
-1. Open the [[Palette de commandes]].
-2. Select **Note composer: Merge current file with another file...**.
-3. Select the note you want to merge into.
-4. Click **Merge** to confirm.
-
-> [!tip]
-> By default, Note composer asks you to confirm when merging notes. If you disable the confirmation, and you merge a note by mistake, you can still recover it with the [[Récupération de fichiers]] plugin.
-
-## Extract note
-
-When you select the note to extract the selection into, you can choose between the following methods:
-
-- `Enter`: Adds the selected text at the _end_ to the destination note.
-- `Shift+Enter`: Adds the selected text at the _start_ of the destination note.
-- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the selected text.
-
-To extract text into a new note:
-
-**Editor**
-
-1. While in the **Editing view**, select the text you want to extract.
-2. Right-click the selected text.
-3. Click **Extract current selection...**.
-4. Select the note you want to extract into.
-
-**Command palette**
-
-1. While in the **Editing view**, select the text you want to extract.
-2. Open the [[Palette de commandes]].
-3. Select **Note composer: Extract current selection...**.
-4. Select the note you want to extract into.
+1. Ouvrez la [[Palette de commandes]].
+2. Sélectionnez **Compositeur de note : Fusionner le fichier courant avec un autre fichier...**.
+3. Sélectionnez la note dans laquelle vous souhaitez fusionner.
+4. Cliquez sur **Fusionner** pour confirmer.
 
 > [!tip]
-> By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Incorporer des fichiers|embed]] the destination note, or to leave nothing behind.
+> Par défaut, le Compositeur de note vous demande de confirmer lors de la fusion de notes. Si vous désactivez la confirmation et que vous fusionnez une note par erreur, vous pouvez toujours la récupérer avec le module [[Récupération de fichier]].
 
-## Template file
+## Extraire une note
 
-By configuring a template, you can customize the content before you add it to the new note. To use a template, enter a **Template file location** in the plugin settings.
+Lorsque vous sélectionnez la note dans laquelle extraire la sélection, vous pouvez choisir entre les méthodes suivantes :
 
-The template can contain the following variables:
+- `Entrée` : Ajoute le texte sélectionné à la _fin_ de la note de destination.
+- `Maj+Entrée` : Ajoute le texte sélectionné au _début_ de la note de destination.
+- `Ctrl+Entrée` (ou `Cmd+Entrée` sur macOS) : Crée une nouvelle note avec le texte sélectionné.
+
+Pour extraire du texte dans une nouvelle note :
+
+**Éditeur**
+
+1. En **mode d'édition**, sélectionnez le texte que vous souhaitez extraire.
+2. Faites un clic droit sur le texte sélectionné.
+3. Cliquez sur **Extraire la sélection courante...**.
+4. Sélectionnez la note dans laquelle vous souhaitez extraire.
+
+**Palette de commandes**
+
+1. En **mode d'édition**, sélectionnez le texte que vous souhaitez extraire.
+2. Ouvrez la [[Palette de commandes]].
+3. Sélectionnez **Compositeur de note : Extraire la sélection courante...**.
+4. Sélectionnez la note dans laquelle vous souhaitez extraire.
+
+> [!tip]
+> Par défaut, le Compositeur de note remplace le texte extrait par un lien vers la note de destination. Dans les paramètres, vous pouvez également choisir d'[[Incorporer des fichiers|intégrer]] la note de destination à la place, ou de ne rien laisser.
+
+## Fichier de modèle
+
+En configurant un modèle, vous pouvez personnaliser le contenu avant de l'ajouter à la nouvelle note. Pour utiliser un modèle, saisissez un **Emplacement du fichier de modèle** dans les paramètres du module.
+
+Le modèle peut contenir les variables suivantes :
 
 | Variable          | Description                                                                                                                                              |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `{{content}}`     | The content to merge, or the extracted text selection. If you don't include this variable, Note composer adds the content at the bottom of the template. |
-| `{{fromTitle}}`   | Name of the source note.                                                                                                                                 |
-| `{{newTitle}}`    | Name of the destination note. For example, to add the file name as a heading at the top of the file.                                                     |
-| `{{date:FORMAT}}` | Creation date of the new note. For example, `{{date:YYYY-MM-DD}}`.                                                                                       |
+| `{{content}}`     | Le contenu à fusionner, ou le texte sélectionné extrait. Si vous n'incluez pas cette variable, le Compositeur de note ajoute le contenu en bas du modèle. |
+| `{{fromTitle}}`   | Nom de la note source.                                                                                                                                   |
+| `{{newTitle}}`    | Nom de la note de destination. Par exemple, pour ajouter le nom du fichier comme entête en haut du fichier.                                              |
+| `{{date:FORMAT}}` | Date de création de la nouvelle note. Par exemple, `{{date:YYYY-MM-DD}}`.                                                                                |

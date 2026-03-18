@@ -3,80 +3,79 @@ permalink: publish/publish
 description: Learn how to publish your content using Obsidian Publish
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Publish your content
 ---
+Cette page explique comment gérer votre contenu publié. Pour apprendre à personnaliser le style de votre site, consultez [[Personnaliser votre site]].
 
-This page explains how to manage your published content. To learn how to customize your site's styling, see [[Personnaliser votre site]].
+## Prérequis
 
-## Prerequisites
+- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
+- Un abonnement Obsidian Publish actif. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/account/publish).
+- Le module principal **Publish** est [[Configurer Obsidian Publish#Activer Obsidian Publish|activé]].
+- Un [[Gérer les sites#Créer un nouveau site|site Publish]] est créé.
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- An active Obsidian Publish subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/publish).
-- The **Publish** core plugin is [[Configurer Obsidian Publish#Enable Obsidian Publish|enabled]].
-- A [[Gérer les sites#Create a new site|Publish site]] is created.
+## Publier des notes
 
-## Publish notes
+1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]).
+2. Dans la boîte de dialogue **Publier les modifications**, sélectionnez **NOUVEAU** pour afficher toutes les notes non publiées.
+3. Sélectionnez les notes que vous souhaitez publier.
+4. Sélectionnez **Publier**.
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]).
-2. In the **Publish changes** dialog, select **NEW** to view all unpublished notes.
-3. Select the notes you want to publish.
-4. Select **Publish**.
+## Dépublier des notes
 
-## Unpublish notes
+Les notes restent dans votre coffre local même après les avoir dépubliées.
 
-Notes remain in your local vault even after you unpublish them.
+1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]).
+2. Dans la boîte de dialogue **Publier les modifications**, sélectionnez **INCHANGÉ** pour afficher toutes les notes publiées.
+3. Sélectionnez les notes que vous souhaitez dépublier.
+4. Sélectionnez **Publier**.
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]).
-2. In the **Publish changes** dialog, select **UNCHANGED** to view all published notes.
-3. Select the notes you want to unpublish.
-4. Select **Publish**.
+## Mettre à jour une note publiée
 
-## Update a published note
+1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]).
+2. Dans la boîte de dialogue **Publier les modifications**, sélectionnez **MODIFIÉ** pour afficher toutes les notes modifiées depuis la dernière publication.
+3. Sélectionnez les notes que vous souhaitez mettre à jour.
+4. Sélectionnez **Publier**.
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]).
-2. In the **Publish changes** dialog, select **CHANGED** to view all modified notes since the last publish.
-3. Select the notes you want to update.
-4. Select **Publish**.
+> [!hint] La suppression des notes renommées ou retirées ainsi que des images de Publish se fait à cette étape. Vous devez cocher manuellement la case pour supprimer ces données, car elle n'est pas automatiquement sélectionnée par mesure de sécurité.
 
-> [!hint] Deleting renamed or removed notes and images from Publish happens in this step. You must manually select the checkbox to delete this data, as it is not automatically selected for safety.
+## Publier les données liées
 
-## Publish linked data
+Lors de la publication de notes contenant des liens vers d'autres notes ou des images intégrées, des liens brisés peuvent survenir si les notes liées ne sont pas également publiées. **Obsidian Publish** aide à prévenir cela en sélectionnant automatiquement les médias liés aux notes que vous avez déjà choisies.
 
-When publishing notes containing links to other notes or embedded images, broken links may occur unless the linked notes are also published. **Obsidian Publish** helps prevent this by automatically selecting media linked from the notes you’ve already chosen.
+Pour inclure toutes les notes liées, sélectionnez **Ajouter les liens** dans la boîte de dialogue **Publier les modifications**.
 
-To include all linked notes, select **Add linked** in the **Publish changes** dialog.
+Avant de publier, vérifiez la sélection mise à jour pour vous assurer qu'elle n'inclut pas de données que vous n'êtes pas prêt à publier.
 
-Before publishing, review the updated selection to ensure it doesn’t include any data you’re not ready to publish.
+> [!tip] La fonction **Ajouter les liens** respecte les exclusions définies dans [[#Ignorer des données]].
 
-> [!tip] The **Add linked** function respects any exclusions defined in [[#Ignore data]].
+## Sélectionner automatiquement les données à publier
 
-## Automatically select data to publish
+Définissez `publish: true` dans les [[Propriétés]] d'une note pour l'inclure automatiquement à la publication en tant que note nouvelle ou modifiée.
 
-Set `publish: true` in the [[Propriétés]] of a note to automatically include it for publishing as either a new or changed note.
+Vous pouvez également sélectionner automatiquement des notes et des images liées dans des dossiers spécifiques en les ajoutant comme dossiers **Inclus** :
 
-You can also automatically select notes and linked images in specific folders by adding them as **Included** folders:
+1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**.
+2. Sélectionnez l'icône **Gérer les filtres de publication** (![[lucide-filter.svg#icon]]).
+3. Dans la section **Dossiers inclus**, sélectionnez **Gérer**.
+4. Choisissez les dossiers que vous souhaitez inclure dans le sélecteur.
+5. Le dossier est ajouté à la liste des inclusions.
+6. Sélectionnez **Terminé** lorsque vous avez fini.
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Palette de commandes]] and type **Publish: Publish changes...**.
-2. Select the **Manage publish filters** (![[lucide-filter.svg#icon]]) icon.
-3. In the **Included folders** section, select **Manage**.
-4. Choose the folders you want to include from the suggester.
-5. The folder is added to the included list.
-6. Select **Done** when finished.
+### Ignorer des données
 
-### Ignore data
+Pour ignorer une note dans Obsidian Publish, définissez `publish: false` dans les [[Propriétés]] de la note. La note n'apparaîtra plus dans la liste des notes à publier.
 
-To ignore a note in Obsidian Publish, set `publish: false` in the [[Propriétés]] of the note. The note no longer appears in the list of notes to publish.
+Vous pouvez également ignorer automatiquement des notes et des images dans des dossiers spécifiques en les ajoutant comme dossiers **Exclus** :
 
-You can also auto-ignore notes and images in specific folders by adding them as **Excluded** folders:
+1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**.
+2. Sélectionnez l'icône **Gérer les filtres de publication** (![[lucide-filter.svg#icon]]).
+3. Dans la section **Dossiers exclus**, sélectionnez **Gérer**.
+4. Choisissez les dossiers que vous souhaitez exclure dans le sélecteur.
+5. Le dossier est ajouté à la liste des exclusions.
+6. Sélectionnez **Terminé** lorsque vous avez fini.
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Palette de commandes]] and type **Publish: Publish changes...**.
-2. Select the **Manage publish filters** (![[lucide-filter.svg#icon]]) icon.
-3. In the **Excluded folders** section, select **Manage**.
-4. Choose the folders you want to exclude from the suggester.
-5. The folder is added to the excluded list.
-6. Select **Done** when finished.
-
-> [!note] `publish: true` overrides excluded folders
-> If a file has `publish: true`, it will still be published even if it is in a folder or filter that is excluded. This is because `publish: true` gives more specific control.
+> [!note] `publish: true` prévaut sur les dossiers exclus
+> Si un fichier a `publish: true`, il sera quand même publié même s'il se trouve dans un dossier ou un filtre exclu. Cela s'explique par le fait que `publish: true` offre un contrôle plus spécifique.

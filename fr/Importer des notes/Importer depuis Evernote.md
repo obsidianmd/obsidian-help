@@ -1,60 +1,60 @@
 ---
 permalink: import/evernote
-localized: null
+localized: '2026-03-18'
 aliases:
   - Import from Evernote
 ---
-Obsidian lets you easily migrate your notes from Evernote using the [[Importer|Importer plugin]]. This will convert your Evernote data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian vous permet de migrer facilement vos notes depuis Evernote en utilisant le [[Importer|plugin Importer]]. Celui-ci convertira vos données Evernote en fichiers Markdown durables, que vous pourrez utiliser avec Obsidian et de nombreuses autres applications.
 
-## Export your data from Evernote
+## Exporter vos données depuis Evernote
 
-Obsidian uses Evernote's export format `.enex` files.
+Obsidian utilise le format d'export d'Evernote, les fichiers `.enex`.
 
-You can find Evernote's instructions for exporting your data [on Evernote's website](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). This method lets you export entire notebooks in the desktop client.
+Vous pouvez trouver les instructions d'Evernote pour exporter vos données [sur le site web d'Evernote](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). Cette méthode vous permet d'exporter des carnets entiers dans le client de bureau.
 
-1. Go to the Notebooks screen.
-2. Click on **More actions** ( `•••` ) and choose **Export Notebook...**
-3. Select **ENEX** as the file format.
-3. Choose a location for your exported `.enex` file.
+1. Accédez à l'écran des carnets.
+2. Cliquez sur **Plus d'actions** ( `•••` ) et choisissez **Exporter le carnet...**
+3. Sélectionnez **ENEX** comme format de fichier.
+3. Choisissez un emplacement pour votre fichier `.enex` exporté.
 
-## Import your Evernote data into Obsidian
+## Importer vos données Evernote dans Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Paramètres]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Evernote (.enex)**.
-6. Select the location of your Evernote backup file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. Ouvrez les **[[Paramètres]]**.
+2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activez le module Importer.
+4. Ouvrez le module **Importer** en utilisant la palette de commandes ou l'icône du ruban.
+5. Sous **Format de fichier**, choisissez **Evernote (.enex)**.
+6. Sélectionnez l'emplacement de votre fichier de sauvegarde Evernote.
+7. Cliquez sur **Importer** et attendez que l'importation soit terminée.
+8. C'est terminé !
 
-## Advanced import options
+## Options d'importation avancées
 
-### Maintain tag hierarchy
+### Maintenir la hiérarchie des mots-clés
 
-Evernote export does not keep the tag hierarchy. To keep your tag hierarchy, you can "flatten" tags separated by "/". For example, assuming that you have the following tag structure: 
+L'export Evernote ne conserve pas la hiérarchie des mots-clés. Pour conserver votre hiérarchie de mots-clés, vous pouvez « aplatir » les mots-clés séparés par « / ». Par exemple, en supposant que vous avez la structure de mots-clés suivante :
 
 ```
-ParentTag
-    ChildTag
+MotCléParent
+    MotCléEnfant
 ```
 
-What you need to do to keep tags related in Obsidian is:
+Ce que vous devez faire pour garder les mots-clés liés dans Obsidian est :
 
-1. Right-click on the ChildTag.
-2. Select "Rename."
-3. Rename it as `ParentTag/ChildTag`.
+1. Faites un clic droit sur le MotCléEnfant.
+2. Sélectionnez « Renommer ».
+3. Renommez-le en `MotCléParent/MotCléEnfant`.
 
-### Handling notebook stacks
+### Gérer les piles de carnets
 
-Since the export process is limited to single notebooks, the default export file lacks information about notebook stacks. However, the importer can recognize patterns in the enex file name to recreate notebook stacks as folders.
+Comme le processus d'export est limité à des carnets individuels, le fichier d'export par défaut ne contient pas d'informations sur les piles de carnets. Cependant, l'importateur peut reconnaître des motifs dans le nom du fichier enex pour recréer les piles de carnets sous forme de dossiers.
 
-Assuming that you have a notebook called ```NotebookA``` in a stack called ```Stack1```, you can recreate a notebook stack by renaming the enex file to ```Stack1@@@NotebookA```.
+En supposant que vous avez un carnet appelé ```CarnetA``` dans une pile appelée ```Pile1```, vous pouvez recréer une pile de carnets en renommant le fichier enex en ```Pile1@@@CarnetA```.
 
-This results in the converted notes being generated within the Stack1/NotebookA folder.
+Cela entraîne la génération des notes converties dans le dossier Pile1/CarnetA.
 
-### More options
+### Plus d'options
 
-For more advanced import options from Evernote you can also try [importing via Yarle](https://github.com/akosbalasko/yarle).
+Pour des options d'importation plus avancées depuis Evernote, vous pouvez également essayer [l'importation via Yarle](https://github.com/akosbalasko/yarle).

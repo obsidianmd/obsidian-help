@@ -1,19 +1,19 @@
 ---
 permalink: web-clipper/logic
 description: 'Use conditionals, loops, and variable assignment in Web Clipper templates.'
-localized: null
+localized: '2026-03-18'
 aliases:
   - Logic
 ---
-[[Introduction à Obsidian Web Clipper|Web Clipper]] supports template logic for conditionals, loops, and variable assignment. This syntax is inspired by [Twig](https://twig.symfony.com/) and [Liquid](https://shopify.github.io/liquid/) templating languages.
+[[Introduction à Obsidian Web Clipper|Web Clipper]] prend en charge la logique de modèles pour les conditionnels, les boucles et l'assignation de variables. Cette syntaxe est inspirée des langages de modèles [Twig](https://twig.symfony.com/) et [Liquid](https://shopify.github.io/liquid/).
 
 
-> [!warning] Requires the latest version
-> Logic features require Obsidian Web Clipper 1.0.0 which has not been approved on all extension stores yet.
+> [!warning] Nécessite la dernière version
+> Les fonctionnalités de logique nécessitent Obsidian Web Clipper 1.0.0 qui n'a pas encore été approuvé sur toutes les boutiques d'extensions.
 
-## Conditionals
+## Conditionnels
 
-Use `{% if %}` to conditionally include content based on variables or expressions.
+Utilisez `{% if %}` pour inclure conditionnellement du contenu en fonction de variables ou d'expressions.
 
 ```twig
 {% if author %}
@@ -21,7 +21,7 @@ Author: {{author}}
 {% endif %}
 ```
 
-Use `{% else %}` to provide fallback content, and `{% elseif %}` to chain multiple conditions:
+Utilisez `{% else %}` pour fournir un contenu de repli, et `{% elseif %}` pour chaîner plusieurs conditions :
 
 ```twig
 {% if status == "published" %}
@@ -33,49 +33,49 @@ Unknown status
 {% endif %}
 ```
 
-### Comparison operators
+### Opérateurs de comparaison
 
-The following comparison operators are supported:
+Les opérateurs de comparaison suivants sont pris en charge :
 
-| Operator | Description |
+| Opérateur | Description |
 |----------|-------------|
-| `==` | Equal to |
-| `!=` | Not equal to |
-| `>` | Greater than |
-| `<` | Less than |
-| `>=` | Greater than or equal to |
-| `<=` | Less than or equal to |
-| `contains` | Check if string contains substring, or array contains value |
+| `==` | Égal à |
+| `!=` | Différent de |
+| `>` | Supérieur à |
+| `<` | Inférieur à |
+| `>=` | Supérieur ou égal à |
+| `<=` | Inférieur ou égal à |
+| `contains` | Vérifie si une chaîne contient une sous-chaîne, ou si un tableau contient une valeur |
 
-Examples:
-- `{% if title == "Home" %}` — string equality
-- `{% if price >= 100 %}` — numeric comparison
-- `{% if title contains "Review" %}` — substring check
-- `{% if tags contains "important" %}` — array membership
+Exemples :
+- `{% if title == "Home" %}` — égalité de chaînes
+- `{% if price >= 100 %}` — comparaison numérique
+- `{% if title contains "Review" %}` — vérification de sous-chaîne
+- `{% if tags contains "important" %}` — appartenance à un tableau
 
-### Logical operators
+### Opérateurs logiques
 
-Combine conditions using logical operators:
+Combinez des conditions à l'aide d'opérateurs logiques :
 
-| Operator | Alternative | Description                         |
-| -------- | ----------- | ----------------------------------- |
-| `and`    | `&&`        | Both conditions must be true        |
-| `or`     | \|\|        | At least one condition must be true |
-| `not`    | `!`         | Negates a condition                 |
+| Opérateur | Alternative | Description                                  |
+| --------- | ----------- | -------------------------------------------- |
+| `and`     | `&&`        | Les deux conditions doivent être vraies       |
+| `or`      | \|\|        | Au moins une condition doit être vraie        |
+| `not`     | `!`         | Inverse une condition                         |
 
-Examples:
-- `{% if author and published %}` — both must exist
-- `{% if draft or archived %}` — either condition
-- `{% if not hidden %}` — negation
-- `{% if (premium or featured) and published %}` — grouped conditions
+Exemples :
+- `{% if author and published %}` — les deux doivent exister
+- `{% if draft or archived %}` — l'une ou l'autre condition
+- `{% if not hidden %}` — négation
+- `{% if (premium or featured) and published %}` — conditions groupées
 
-### Truthiness
+### Évaluation de véracité
 
-When a variable is used without a comparison operator, it's evaluated for "truthiness":
+Lorsqu'une variable est utilisée sans opérateur de comparaison, elle est évaluée selon sa « véracité » :
 
-- `false`, `null`, `undefined`, empty string `""`, and `0` are considered **falsy**.
-- Empty arrays `[]` are considered **falsy**.
-- Everything else is **truthy**.
+- `false`, `null`, `undefined`, chaîne vide `""` et `0` sont considérés comme **faux**.
+- Les tableaux vides `[]` sont considérés comme **faux**.
+- Tout le reste est considéré comme **vrai**.
 
 ```twig
 {% if content %}
@@ -83,68 +83,68 @@ Has content
 {% endif %}
 ```
 
-## Assign a variable
+## Assigner une variable
 
-Use `{% set %}` to create or modify variables within your template:
+Utilisez `{% set %}` pour créer ou modifier des variables dans votre modèle :
 
 ```twig
 {% set slug = title|lower|replace:" ":"-" %}
 File: {{slug}}.md
 ```
 
-Variables can be set to:
-- Other variables: `{% set name = author %}`
-- Literals: `{% set count = 5 %}` or `{% set label = "Draft" %}`
-- Expressions with filters: `{% set excerpt = content|truncate:100 %}`
-- Selector results: `{% set comments = selector:.comment %}`
+Les variables peuvent être définies à partir de :
+- Autres variables : `{% set name = author %}`
+- Littéraux : `{% set count = 5 %}` ou `{% set label = "Draft" %}`
+- Expressions avec filtres : `{% set excerpt = content|truncate:100 %}`
+- Résultats de sélecteurs : `{% set comments = selector:.comment %}`
 
-Variables set with `{% set %}` can be used in subsequent template logic and in `{{variable}}` output.
+Les variables définies avec `{% set %}` peuvent être utilisées dans la logique de modèle suivante et dans les sorties `{{variable}}`.
 
-## Fallbacks
+## Valeurs de repli
 
-Use the `??` operator to provide fallback values when a variable is empty or undefined:
+Utilisez l'opérateur `??` pour fournir des valeurs de repli lorsqu'une variable est vide ou indéfinie :
 
 ```twig
 {{title ?? "Untitled"}}
 ```
 
-If `title` is empty, undefined, or falsy, the fallback value `"Untitled"` will be used instead.
+Si `title` est vide, indéfini ou faux, la valeur de repli `"Untitled"` sera utilisée à la place.
 
-This is a shorthand for the equivalent `if` statement:
+C'est un raccourci pour l'instruction `if` équivalente :
 
 ```twig
 {% if title %}{{title}}{% else %}Untitled{% endif %}
 ```
 
-### Chaining fallbacks
+### Chaîner les valeurs de repli
 
-You can chain multiple fallbacks:
+Vous pouvez chaîner plusieurs valeurs de repli :
 
 ```twig
 {{title ?? headline ?? "No title"}}
 ```
 
-This will use `title` if available, otherwise `headline`, otherwise the string `"No title"`.
+Cela utilisera `title` si disponible, sinon `headline`, sinon la chaîne `"No title"`.
 
-### With filters
+### Avec des filtres
 
-Filters bind more tightly than `??`, so filters are applied before the fallback check:
+Les filtres ont une priorité plus élevée que `??`, donc les filtres sont appliqués avant la vérification de repli :
 
 ```twig
 {{title|upper ?? "UNTITLED"}}
 ```
 
-This applies `upper` to `title` first, then falls back to `"UNTITLED"` if the result is empty. To apply filters to the fallback value, use parentheses or separate expressions:
+Cela applique `upper` à `title` d'abord, puis utilise la valeur de repli `"UNTITLED"` si le résultat est vide. Pour appliquer des filtres à la valeur de repli, utilisez des parenthèses ou des expressions séparées :
 
 ```twig
 {{title ?? "Untitled"|lower}}
 ```
 
-This will use `title` if available, otherwise apply `lower` to the fallback, resulting in `"untitled"`.
+Cela utilisera `title` si disponible, sinon appliquera `lower` à la valeur de repli, donnant `"untitled"`.
 
-## Loops
+## Boucles
 
-Use `{% for %}` to iterate over arrays:
+Utilisez `{% for %}` pour itérer sur des tableaux :
 
 ```twig
 {% for item in schema:author %}
@@ -152,24 +152,24 @@ Use `{% for %}` to iterate over arrays:
 {% endfor %}
 ```
 
-### Loop sources
+### Sources de boucle
 
-You can loop over:
-- Schema arrays: `{% for item in schema:author %}`
-- Selector results: `{% for comment in selector:.comment %}`
-- Variables set earlier: `{% set items = selector:.item %}{% for item in items %}`
+Vous pouvez itérer sur :
+- Des tableaux de schéma : `{% for item in schema:author %}`
+- Des résultats de sélecteurs : `{% for comment in selector:.comment %}`
+- Des variables définies précédemment : `{% set items = selector:.item %}{% for item in items %}`
 
-### Loop variables
+### Variables de boucle
 
-Inside a loop, you have access to a `loop` object with the following properties:
+À l'intérieur d'une boucle, vous avez accès à un objet `loop` avec les propriétés suivantes :
 
 | Variable | Description |
 |----------|-------------|
-| `loop.index` | Current iteration (1-indexed) |
-| `loop.index0` | Current iteration (0-indexed) |
-| `loop.first` | `true` if first iteration |
-| `loop.last` | `true` if last iteration |
-| `loop.length` | Total number of items |
+| `loop.index` | Itération courante (indexé à 1) |
+| `loop.index0` | Itération courante (indexé à 0) |
+| `loop.first` | `true` si première itération |
+| `loop.last` | `true` si dernière itération |
+| `loop.length` | Nombre total d'éléments |
 
 ```twig
 {% for tag in tags %}
@@ -178,7 +178,7 @@ Inside a loop, you have access to a `loop` object with the following properties:
 {% endfor %}
 ```
 
-For backwards compatibility, you can also use `item_index` (where `item` is your iterator variable name) to get the 0-indexed position:
+Pour la rétrocompatibilité, vous pouvez également utiliser `item_index` (où `item` est le nom de votre variable d'itération) pour obtenir la position indexée à 0 :
 
 ```twig
 {% for tag in tags %}
@@ -186,16 +186,16 @@ For backwards compatibility, you can also use `item_index` (where `item` is your
 {% endfor %}
 ```
 
-### Accessing array items by index
+### Accéder aux éléments d'un tableau par index
 
-Use bracket notation to access array elements by index:
+Utilisez la notation entre crochets pour accéder aux éléments d'un tableau par index :
 
 ```twig
 {{items[0]}}
 {{items[loop.index0]}}
 ```
 
-This is useful when you need to access items from multiple arrays in parallel:
+Cela est utile lorsque vous devez accéder à des éléments de plusieurs tableaux en parallèle :
 
 ```twig
 {% set transcripts = selector:.transcript-text %}
@@ -206,16 +206,16 @@ This is useful when you need to access items from multiple arrays in parallel:
 {% endfor %}
 ```
 
-Bracket notation also works with object properties:
+La notation entre crochets fonctionne également avec les propriétés d'objets :
 
 ```twig
 {{user["name"]}}
 {{data["my-key"]}}
 ```
 
-### Nested loops
+### Boucles imbriquées
 
-Loops can be nested for complex data structures:
+Les boucles peuvent être imbriquées pour des structures de données complexes :
 
 ```twig
 {% for section in sections %}
@@ -226,9 +226,9 @@ Loops can be nested for complex data structures:
 {% endfor %}
 ```
 
-## Combine logic
+## Combiner la logique
 
-Conditionals and loops can be combined:
+Les conditionnels et les boucles peuvent être combinés :
 
 ```twig
 {% for item in items %}
@@ -238,11 +238,11 @@ Conditionals and loops can be combined:
 {% endfor %}
 ```
 
-## Evaluation order
+## Ordre d'évaluation
 
-Template logic is processed in the following order:
+La logique de modèle est traitée dans l'ordre suivant :
 
-1. **Template logic** — `{% if %}`, `{% for %}`, `{% set %}`, and `{{variables}}` are evaluated first
-2. **Prompt variables** — [[Variables#Prompt variables|Prompt variables]] like `{{"summarize this"|prompt}}` are sent to the Interpreter after template logic is complete
+1. **Logique de modèle** — `{% if %}`, `{% for %}`, `{% set %}` et `{{variables}}` sont évalués en premier
+2. **Variables de prompt** — Les [[Variables#Variables de prompt|variables de prompt]] comme `{{"summarize this"|prompt}}` sont envoyées à l'interpréteur après que la logique de modèle est terminée
 
-This means you can use template logic to construct prompts dynamically, but prompt results are not available for use in conditionals or loops.
+Cela signifie que vous pouvez utiliser la logique de modèle pour construire des prompts dynamiquement, mais les résultats des prompts ne sont pas disponibles pour une utilisation dans les conditionnels ou les boucles.

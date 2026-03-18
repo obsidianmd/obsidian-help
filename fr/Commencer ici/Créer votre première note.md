@@ -8,9 +8,9 @@ mobile: false
 aliases:
   - How to/Créer des notes
   - Create your first note
-localized: null
+localized: '2026-03-18'
 ---
-Les notes dans Obsidian sont stockées sous forme de fichiers en texte brut. Cela signifie que vos données sont durables et ne sont pas enfermées dans un format propriétaire. En écrivant vos notes en texte brut, elles survivront à n'importe quelle application — même Obsidian elle-même.
+Les notes dans Obsidian sont stockées en texte brut. Cela signifie que vos données sont durables et ne sont pas enfermées dans un format propriétaire. En écrivant vos notes en texte brut, elles survivront à n'importe quelle application — même Obsidian.
 
 ## Créer une nouvelle note
 
@@ -44,4 +44,4 @@ Pour en savoir plus sur la mise en forme de vos notes avec Markdown, consultez [
 
 Apprenez à [[Lier des notes|lier des notes]] pour créer un réseau de pensées connectées.
 
-Vous pouvez également consulter le [[Coffre bac à sable]] pour explorer d'autres fonctionnalités de l'application.
+Vous pouvez également consulter le [[Coffre de test]] pour explorer d'autres fonctionnalités de l'application.

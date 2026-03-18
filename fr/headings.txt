@@ -102,26 +102,26 @@ File properties=Propriétés de fichier
 Access properties with `this`=Accéder aux propriétés avec `this`
 Operators=Opérateurs
 Arithmetic operators=Opérateurs arithmétiques
-Date arithmetic=Arithmétique de dates
+Date arithmetic=Arithmétique des dates
 Comparison operators=Opérateurs de comparaison
 Boolean operators=Opérateurs booléens
 Functions=Fonctions
-Strings, numbers, and booleans=Chaînes, nombres et booléens
+Strings, numbers, and booleans=Chaînes de caractères, nombres et booléens
 Dates and durations=Dates et durées
 Objects and lists=Objets et listes
 Files and links=Fichiers et liens
 
 [bases/views]
 Toolbar=Barre d'outils
-Add and switch views=Ajouter et changer de vue
-View settings=Paramètres de la vue
+Add and switch views=Ajouter et basculer entre les vues
+View settings=Paramètres de vue
 Layout=Disposition
 Filters=Filtres
 Components of a filter=Composants d'un filtre
 Conjunctions=Conjonctions
 Filter groups=Groupes de filtres
-Advanced filter editor=Éditeur de filtre avancé
-Sort and group results=Trier et regrouper les résultats
+Advanced filter editor=Éditeur de filtres avancé
+Sort and group results=Trier et grouper les résultats
 Add a sort=Ajouter un tri
 Remove a sort=Supprimer un tri
 Limit, copy, and export results=Limiter, copier et exporter les résultats
@@ -162,7 +162,7 @@ Attachment=Pièce jointe
 Command=Commande
 Embed=Intégration
 Frontmatter=Métadonnées
-Graph=Graphe
+Graph=Graphique
 Hotkey=Raccourci clavier
 Link=Lien
 Main area=Zone principale
@@ -171,7 +171,7 @@ Pop-out window=Fenêtre détachée
 Property=Propriété
 Ribbon=Ruban
 Sidebar=Barre latérale
-Snippet=Extrait CSS
+Snippet=Extrait
 Status bar=Barre d'état
 Tab=Onglet
 Tab group=Groupe d'onglets
@@ -192,10 +192,1107 @@ Navigate between notes=Naviguer entre les notes
 Learn more=En savoir plus
 
 [updates]
-Check for updates and view version=Vérifier les mises à jour et consulter la version
+Check for updates and view version=Vérifier les mises à jour et afficher la version
 Disable automatic updates=Désactiver les mises à jour automatiques
 Installer updates=Mises à jour du programme d'installation
 
 [plugins]
 All core plugins=Tous les modules principaux
 Other plugins=Autres modules
+
+[backup]
+Syncing is not a backup=La synchronisation n'est pas une sauvegarde
+Use community plugins=Utiliser des modules complémentaires
+Use cloud-based services=Utiliser des services cloud
+Use external drives=Utiliser des disques externes
+Use computer backups=Utiliser les sauvegardes de l'ordinateur
+Next steps=Prochaines étapes
+
+[sync-notes]
+Syncing methods=Méthodes de synchronisation
+iPhone and iPad syncing=Synchronisation iPhone et iPad
+Frequently asked questions=Questions fréquentes
+
+[install]
+Install Obsidian on Windows=Installer Obsidian sur Windows
+Install Obsidian on macOS=Installer Obsidian sur macOS
+Install Obsidian on Linux=Installer Obsidian sur Linux
+Install Obsidian using Snap=Installer Obsidian avec Snap
+Install Obsidian using AppImage=Installer Obsidian avec AppImage
+Install Obsidian using Flatpak=Installer Obsidian avec Flatpak
+Install Obsidian on Android=Installer Obsidian sur Android
+Install Obsidian on iPhone and iPad=Installer Obsidian sur iPhone et iPad
+
+[developers]
+Plugins and themes=Modules et thèmes
+Open source projects=Projets open source
+Community=Communauté
+
+[style-guide]
+Terminology and grammar=Terminologie et grammaire
+Language style=Style linguistique
+Terms=Termes
+Product names=Noms de produits
+UI and interactions=Interface utilisateur et interactions
+Notes, files, and folders=Notes, fichiers et dossiers
+Reference documentation for settings=Documentation de référence pour les paramètres
+Directional terms=Termes directionnels
+Sentence case=Casse de phrase
+Examples=Exemples
+Key names and keyboard shortcuts=Noms de touches et raccourcis clavier
+Information structure=Structure de l'information
+Callout types=Types d'encadrés
+Lists vs. prose=Listes vs. prose
+Tables=Tableaux
+Cross-references=Références croisées
+Platform-specific content=Contenu spécifique à une plateforme
+Icons and images=Icônes et images
+Icons=Icônes
+Image anchor tags=Balises d'ancrage pour les images
+Optimization=Optimisation
+Layout=Mise en page
+Broken links=Liens cassés
+Translations=Traductions
+
+[data-storage]
+Vault settings=Paramètres du coffre
+Global settings=Paramètres globaux
+Metadata cache=Cache des métadonnées
+
+[configuration-folder]
+Access your configuration folder=Accéder à votre dossier de configuration
+Desktop=Bureau
+Change your configuration folder=Changer votre dossier de configuration
+
+[file-formats]
+Embed files=Incorporer des fichiers
+
+[manage-vaults]
+Create new vault=Créer un nouveau coffre
+Create vault from an existing folder=Créer un coffre à partir d'un dossier existant
+Rename vault=Renommer un coffre
+Move vault to a different folder=Déplacer un coffre vers un autre dossier
+Remove vault=Retirer un coffre
+Transfer settings to another vault=Transférer les paramètres vers un autre coffre
+
+[manage-notes]
+Create a new note=Créer une nouvelle note
+Rename a note=Renommer une note
+Delete a note=Supprimer une note
+
+[import/apple-journal]
+Export your data from Apple Journal=Exporter vos données depuis Apple Journal
+On iPhone=Sur iPhone
+On Mac (Tahoe)=Sur Mac (Tahoe)
+Import Apple Journal data into Obsidian=Importer les données Apple Journal dans Obsidian
+Supported content=Contenu pris en charge
+
+[import/apple-notes]
+Import Apple Notes data into Obsidian=Importer les données Apple Notes dans Obsidian
+Supported content=Contenu pris en charge
+Scans=Numérisations
+Alternate export methods=Méthodes d'exportation alternatives
+
+[import/bear]
+Export your data from Bear=Exporter vos données depuis Bear
+Import your Bear data into Obsidian=Importer vos données Bear dans Obsidian
+
+[import/craft]
+Export your data from Craft=Exporter vos données depuis Craft
+Import your Craft data into Obsidian=Importer vos données Craft dans Obsidian
+Troubleshooting=Dépannage
+
+[import/evernote]
+Export your data from Evernote=Exporter vos données depuis Evernote
+Import your Evernote data into Obsidian=Importer vos données Evernote dans Obsidian
+Advanced import options=Options d'importation avancées
+Maintain tag hierarchy=Maintenir la hiérarchie des mots-clés
+Handling notebook stacks=Gérer les piles de carnets
+More options=Plus d'options
+
+[import/google-keep]
+Export your data from Google Keep=Exporter vos données depuis Google Keep
+Import your Google Keep data into Obsidian=Importer vos données Google Keep dans Obsidian
+Supported features=Fonctionnalités prises en charge
+
+[import/onenote]
+Import your OneNote data into Obsidian=Importer vos données OneNote dans Obsidian
+Troubleshooting=Dépannage
+No sections or notebooks appear=Aucune section ou aucun bloc-notes n'apparaît
+Imported notes are empty or missing content=Les notes importées sont vides ou ont du contenu manquant
+Privacy=Confidentialité
+
+[import/notion]
+API import=Import par API
+Create a Notion API integration token=Créer un jeton d'intégration API Notion
+Import your Notion data via API=Importer vos données Notion via l'API
+File import=Import par fichier
+Export your data from Notion=Exporter vos données depuis Notion
+Import your Notion .zip file=Importer votre fichier .zip Notion
+Troubleshooting=Dépannage
+Importing large workspaces=Importer de grands espaces de travail
+
+[import/roam]
+Export your data from Roam Research=Exporter vos données depuis Roam Research
+Import your Roam Research data into Obsidian=Importer vos données Roam Research dans Obsidian
+
+[import/csv]
+Create notes from CSV data in Obsidian=Créer des notes à partir de données CSV dans Obsidian
+Configure how CSV fields are imported=Configurer comment les champs CSV sont importés
+
+[import/html]
+Import HTML data into Obsidian=Importer des données HTML dans Obsidian
+Import settings=Paramètres d'importation
+
+[import/markdown]
+Converting from other flavors of Markdown=Conversion depuis d'autres variantes de Markdown
+
+[import/textbundle]
+Import Textbundle files into Obsidian=Importer des fichiers Textbundle dans Obsidian
+Troubleshooting=Dépannage
+No files are selected for import=Aucun fichier n'est sélectionné pour l'importation
+
+[plugins/importer]
+Install Importer=Installer Importer
+
+[appearance]
+Color scheme=Schéma de couleurs
+Custom themes=Thèmes personnalisés
+Custom app icon=Icône d'application personnalisée
+Translucency=Translucidité
+
+[sidebar]
+Open hidden sidebars=Ouvrir les barres latérales masquées
+Desktop and larger tablets=Ordinateur et grandes tablettes
+Mobile and smaller tablets=Mobile et petites tablettes
+Tabs=Onglets
+Open or reopen tabs=Ouvrir ou rouvrir des onglets
+Close tabs=Fermer des onglets
+Rearrange tabs=Réorganiser les onglets
+Pin tabs=Épingler des onglets
+Tab groups=Groupes d'onglets
+Create tab groups=Créer des groupes d'onglets
+Close tab groups=Fermer des groupes d'onglets
+
+[workspace]
+Desktop=Bureau
+
+[pop-out-windows]
+Open a file in a new window=Ouvrir un fichier dans une nouvelle fenêtre
+Move a file to a different window=Déplacer un fichier vers une autre fenêtre
+
+[drag-and-drop]
+Drag tabs=Glisser des onglets
+Drag sources=Sources de glissement
+Drop destinations=Destinations de dépôt
+Dragging from outside Obsidian=Glisser depuis l'extérieur d'Obsidian
+Dropping files outside Obsidian=Déposer des fichiers en dehors d'Obsidian
+
+[tabs]
+Open a new tab=Ouvrir un nouvel onglet
+Open a link=Ouvrir un lien
+Organize your tabs and windows=Organiser vos onglets et fenêtres
+Arrange tabs=Organiser les onglets
+Split a tab group=Diviser un groupe d'onglets
+Resize a tab group=Redimensionner un groupe d'onglets
+Move tab to a new window=Déplacer un onglet vers une nouvelle fenêtre
+Move a tab to a different window=Déplacer un onglet vers une autre fenêtre
+Pin a tab=Épingler un onglet
+Switch to a different tab=Basculer vers un autre onglet
+Stack tab groups=Empiler les groupes d'onglets
+Linked views=Vues liées
+Save layouts=Enregistrer les dispositions
+
+[settings]
+Open Settings=Ouvrir les paramètres
+Desktop=Bureau
+Settings organization=Organisation des paramètres
+General=Général
+Version and updates=Version et mises à jour
+Language=Langue
+Help=Aide
+Account=Compte
+Advanced=Avancé
+Notify if startup takes longer than expected=Notifier si le démarrage prend plus de temps que prévu
+Editor=Éditeur
+Always focus new tabs=Toujours mettre le focus sur les nouveaux onglets
+Default view for new tabs=Vue par défaut pour les nouveaux onglets
+Default editing mode=Mode d'édition par défaut
+Show editing mode in status bar=Afficher le mode d'édition dans la barre d'état
+Display=Affichage
+Readable line length=Longueur de ligne lisible
+Strict line breaks=Sauts de ligne stricts
+Properties in document=Propriétés dans le document
+Fold heading=Plier les entêtes
+Fold indent=Plier l'indentation
+Show line numbers=Afficher les numéros de ligne
+Show indentation guides=Afficher les guides d'indentation
+Right-to-left (RTL)=De droite à gauche (RTL)
+Auto-pair brackets=Appariement automatique des crochets
+Auto-pair Markdown syntax=Appariement automatique de la syntaxe Markdown
+Smart lists=Listes intelligentes
+Indent using tabs=Indenter avec des tabulations
+Convert pasted HTML to Markdown=Convertir le HTML collé en Markdown
+Behavior=Comportement
+Spellcheck=Vérification orthographique
+Spellcheck languages=Langues de vérification orthographique
+Indent visual width=Largeur visuelle de l'indentation
+Vim key bindings=Raccourcis Vim
+Files and links=Fichiers et liens
+Default location for new notes=Emplacement par défaut pour les nouvelles notes
+Default location for new attachments=Emplacement par défaut pour les nouvelles pièces jointes
+Links=Liens
+New link format=Format des nouveaux liens
+Automatically update internal links=Mettre à jour automatiquement les liens internes
+Use Wikilinks=Utiliser les liens wiki
+Show all file types=Afficher tous les types de fichiers
+Trash=Corbeille
+Confirm file deletion=Confirmer la suppression de fichier
+Deleted files=Fichiers supprimés
+Excluded files=Fichiers exclus
+Override config folder=Remplacer le dossier de configuration
+Allow URI callbacks=Autoriser les rappels URI
+Rebuild vault cache=Reconstruire le cache du coffre
+Appearance=Apparence
+Base color scheme=Schéma de couleurs de base
+Accent color=Couleur d'accentuation
+Themes=Thèmes
+Current community themes=Thèmes communautaires actuels
+Font=Police
+Interface font=Police de l'interface
+Text font=Police du texte
+Monospace font=Police à chasse fixe
+Font size=Taille de la police
+Quick font size adjustment=Ajustement rapide de la taille de police
+Show inline title=Afficher le titre en ligne
+Show tab title bar=Afficher la barre de titre des onglets
+Show ribbon=Afficher le ruban
+Ribbon menu configuration=Configuration du menu du ruban
+Zoom level=Niveau de zoom
+Native menus=Menus natifs
+Window frame style=Style de cadre de fenêtre
+Custom app icon=Icône d'application personnalisée
+Translucent window=Fenêtre translucide
+Hardware acceleration=Accélération matérielle
+CSS snippets=Extraits CSS
+Hotkeys=Raccourcis clavier
+Core plugins=Modules principaux
+Community plugins=Modules complémentaires
+Restricted mode=Mode restreint
+Current plugins=Modules actuels
+Installed plugins=Modules installés
+
+[hotkeys]
+View hotkeys=Voir les raccourcis clavier
+Set a hotkey=Définir un raccourci clavier
+Remove a hotkey=Supprimer un raccourci clavier
+Filter hotkeys=Filtrer les raccourcis clavier
+Non-US keyboard layouts=Dispositions de clavier non américaines
+Default keyboard shortcuts=Raccourcis clavier par défaut
+
+[ribbon]
+Customize the ribbon=Personnaliser le ruban
+Desktop=Ordinateur
+Hide the ribbon=Masquer le ruban
+Show the ribbon=Afficher le ruban
+Quick access=Accès rapide
+Rearrange and visibility=Réorganisation et visibilité
+
+[credit]
+Add credit=Ajouter du crédit
+Gifting=Offrir
+Give Obsidian Credit=Donner du Crédit Obsidian
+Receiving Obsidian Credit=Recevoir du Crédit Obsidian
+
+[payment]
+Purchase a service or license=Acheter un service ou une licence
+Generate an invoice=Générer une facture
+Editing an invoice=Modifier une facture
+
+[catalyst]
+Catalyst tiers=Niveaux Catalyst
+Access Catalyst benefits=Accéder aux avantages Catalyst
+Get your forum badge=Obtenir votre badge de forum
+Get your Discord badge=Obtenir votre badge Discord
+Join our Insider channels=Rejoindre nos canaux Insider
+Enable early access versions=Activer les versions en accès anticipé
+
+[refunds]
+Request a refund=Demander un remboursement
+Frequently asked questions=Questions fréquentes
+
+[discounts]
+How to apply=Comment faire une demande
+How to renew=Comment renouveler
+Frequently asked questions=Questions fréquentes
+Refunds=Remboursements
+
+[sales-tax]
+Tax exemption=Exonération fiscale
+Applying for an exemption=Demander une exonération
+
+[aliases]
+Add an alias to a note=Ajouter un alias à une note
+Link to a note using an alias=Lier une note en utilisant un alias
+Find unlinked mentions for an alias=Trouver les mentions non liées pour un alias
+
+[embeds]
+Embed a note in another note=Intégrer une note dans une autre note
+Embed an image in a note=Intégrer une image dans une note
+Embed an audio file in a note=Intégrer un fichier audio dans une note
+Embed a PDF in a note=Intégrer un PDF dans une note
+Embed a list in a note=Intégrer une liste dans une note
+Embed search results=Intégrer des résultats de recherche
+
+[links]
+Supported formats for internal links=Formats pris en charge pour les liens internes
+Link to a file=Créer un lien vers un fichier
+Link to a heading in a note=Créer un lien vers un entête dans une note
+Link to a block in a note=Créer un lien vers un bloc dans une note
+Change the link display text=Modifier le texte d'affichage du lien
+Preview a linked file=Prévisualiser un fichier lié
+
+[2fa]
+Enable 2FA=Activer la 2FA
+Generate recovery codes=Générer des codes de récupération
+Disable 2FA=Désactiver la 2FA
+
+[community-code-of-conduct]
+The rules=Les règles
+Serious offenses=Infractions graves
+Harassment=Harcèlement
+Threats=Menaces
+Blatant -isms=Discriminations flagrantes
+Other offenses=Autres infractions
+Belligerence=Agressivité
+Being especially unpleasant=Être particulièrement désagréable
+Unsolicited messages to community members=Messages non sollicités aux membres de la communauté
+Other behaviors=Autres comportements
+"Feed me"=« Nourrissez-moi »
+Campaigning=Faire campagne
+Excessive self promotion=Auto-promotion excessive
+Spamming=Spam
+Encouraged behaviors=Comportements encouragés
+Report violations=Signaler les violations
+Report on Discord=Signaler sur Discord
+Report on the forum=Signaler sur le forum
+Enforcement=Application
+Appealing a ban=Faire appel d'un bannissement
+Credits=Crédits
+
+[credits]
+Team=Équipe
+Development=Développement
+Product & Operations=Produit & Opérations
+Moderators=Modérateurs
+Retired=Retraités
+Plugin inspirations=Inspirations de modules
+Builds=Compilations
+Translators=Traducteurs
+Add your name=Ajouter votre nom
+Third party acknowledgements=Remerciements aux tiers
+Previous logo=Ancien logo
+
+[android]
+Sync=Synchronisation
+Vault location=Emplacement du coffre
+Device storage=Stockage de l'appareil
+App storage=Stockage de l'application
+Quick Settings tiles=Tuiles de Réglages rapides
+Shortcuts=Raccourcis
+
+[ios]
+Sync=Synchronisation
+Lock Screen and Control Center widgets=Widgets de l'écran de verrouillage et du Centre de contrôle
+Home Screen widgets=Widgets de l'écran d'accueil
+Customizing widgets=Personnaliser les widgets
+Shortcuts=Raccourcis
+Share Sheet Extension=Extension de la feuille de partage
+Siri integration=Intégration de Siri
+Spotlight integration=Intégration de Spotlight
+
+[early-access]
+Enable early access versions for desktop=Activer les versions en accès anticipé sur ordinateur
+Install early access versions on mobile devices=Installer les versions en accès anticipé sur les appareils mobiles
+Report issues and other feedback=Signaler des problèmes et autres retours
+Switch back to public versions on desktop=Revenir aux versions publiques sur ordinateur
+Switch back to public versions on mobile=Revenir aux versions publiques sur mobile
+
+[obsidian]
+What is Obsidian=Qu'est-ce qu'Obsidian
+How we're different=Ce qui nous différencie
+You own and control your data=Vous possédez et contrôlez vos données
+Links are first-class citizens=Les liens sont des éléments de premier ordre
+Your own toolkit=Votre propre boîte à outils
+Follow our development=Suivez notre développement
+
+[publish/analytics]
+Prerequisites=Prérequis
+Plausible, Fathom, and other analytics services=Plausible, Fathom et autres services d'analytiques
+Troubleshooting=Dépannage
+
+[publish/collaborate]
+Add a collaborator to a site=Ajouter un collaborateur à un site
+Remove a collaborator from a site=Retirer un collaborateur d'un site
+Sync changes between collaborators=Synchroniser les modifications entre collaborateurs
+Permissions=Autorisations
+
+[publish/setup]
+Prerequisites=Prérequis
+Log in with your Obsidian account=Se connecter avec votre compte Obsidian
+Enable Obsidian Publish=Activer Obsidian Publish
+Open Publish=Ouvrir Publish
+Open via Command palette=Ouvrir via la palette de commandes
+Open via hotkey=Ouvrir via un raccourci clavier
+Open via ribbon=Ouvrir via le ruban
+Create a new site=Créer un nouveau site
+Set a site name=Définir un nom de site
+Select notes to publish=Sélectionner les notes à publier
+Next steps=Prochaines étapes
+
+[publish/domains]
+Set up using CloudFlare=Configurer avec CloudFlare
+Set up using a proxy=Configurer avec un proxy
+Supported HTTP X-Headers=En-têtes HTTP X pris en charge
+Redirect old site to custom domain=Rediriger l'ancien site vers le domaine personnalisé
+Troubleshoot=Dépannage
+
+[publish/troubleshoot]
+General=Général
+Publishing notes=Publication de notes
+CSS and themes=CSS et thèmes
+
+[publish/media]
+PDFs=PDF
+Videos and audio=Vidéos et audio
+
+[publish/sites]
+Create a new site=Créer un nouveau site
+Delete an existing site=Supprimer un site existant
+Switch between sites=Basculer entre les sites
+Change the site ID=Modifier l'identifiant du site
+View site options=Voir les options du site
+Site options=Options du site
+General=Général
+Appearance=Apparence
+Reading experience=Expérience de lecture
+Components=Composants
+Other site settings=Autres paramètres du site
+
+[publish]
+How to use Obsidian Publish=Comment utiliser Obsidian Publish
+
+[publish/limitations]
+Community plugins=Modules complémentaires
+Graph=Graphe
+Media files=Fichiers média
+PDFs=PDF
+Search=Recherche
+
+[publish/permalinks]
+Redirect old notes=Rediriger d'anciennes notes
+
+[publish/customize]
+Static assets=Ressources statiques
+Use a community theme=Utiliser un thème communautaire
+Enable UI features=Activer des fonctionnalités d'interface
+Customize navigation=Personnaliser la navigation
+Accessing Customize navigation options=Accéder aux options de personnalisation de la navigation
+Adjust navigation items=Ajuster les éléments de navigation
+Hide and unhide navigation items=Masquer et afficher des éléments de navigation
+
+[publish/publish]
+Prerequisites=Prérequis
+Publish notes=Publier des notes
+Unpublish notes=Dépublier des notes
+Update a published note=Mettre à jour une note publiée
+Publish linked data=Publier les données liées
+Automatically select data to publish=Sélectionner automatiquement les données à publier
+Ignore data=Ignorer des données
+
+[publish/seo]
+Sitemap=Plan du site
+Permalinks=Permaliens
+Metadata=Métadonnées
+
+[publish/security]
+Password protection=Protection par mot de passe
+Add a site password=Ajouter un mot de passe de site
+Remove a site password=Supprimer un mot de passe de site
+Data collection=Collecte de données
+Visitor data=Données des visiteurs
+Access=Accès
+Managing access to Obsidian Publish on your network=Gérer l'accès à Obsidian Publish sur votre réseau
+
+[sync/vault-types]
+File-based sync services=Services de synchronisation basés sur les fichiers
+Sync behavior=Comportement de la synchronisation
+Offline behavior=Comportement hors ligne
+Next steps=Étapes suivantes
+
+[sync/collaborate]
+Manage users=Gérer les utilisateurs
+Add users=Ajouter des utilisateurs
+Remove users=Supprimer des utilisateurs
+Collaborate with your team=Collaborer avec votre équipe
+Live editing=Édition en temps réel
+
+[sync/setup]
+Set up Obsidian Sync for the first time=Configurer Obsidian Sync pour la première fois
+Log in with your Obsidian account=Se connecter avec votre compte Obsidian
+Enable Obsidian Sync=Activer Obsidian Sync
+Create a new remote vault=Créer un nouveau coffre distant
+Connect to a remote vault=Se connecter à un coffre distant
+Adjust Obsidian Sync settings=Ajuster les paramètres d'Obsidian Sync
+Begin syncing with Obsidian Sync=Commencer la synchronisation avec Obsidian Sync
+Sync a remote vault on another device=Synchroniser un coffre distant sur un autre appareil
+Sync your vault from the vault switcher=Synchroniser votre coffre depuis le sélecteur de coffres
+Sync your vault from Obsidian Settings=Synchroniser votre coffre depuis les paramètres d'Obsidian
+Manage your remote vaults=Gérer vos coffres distants
+Disconnect from a remote vault=Se déconnecter d'un coffre distant
+Delete a remote vault=Supprimer un coffre distant
+Regional sync servers=Serveurs de synchronisation régionaux
+Next steps=Prochaines étapes
+
+[sync/plans]
+Plans=Forfaits
+Storage limits=Limites de stockage
+Identify and delete large files=Identifier et supprimer les fichiers volumineux
+Create a new remote vault=Créer un nouveau coffre distant
+Upgrade your plan=Mettre à niveau votre forfait
+Downgrade your plan=Rétrograder votre forfait
+Preserve version history=Préserver l'historique des versions
+
+[sync/messages]
+Sync status icon=Icône de statut de Sync
+Sync activity log=Journal d'activité de Sync
+General messages=Messages généraux
+Error messages=Messages d'erreur
+Skipped messages=Messages de fichiers ignorés
+Account messages=Messages de compte
+Network messages=Messages réseau
+
+[sync]
+How to use Obsidian Sync=Comment utiliser Obsidian Sync
+
+[sync/migrate]
+Encryption versions=Versions de chiffrement
+Upgrade encryption with the migration assistant=Mettre à niveau le chiffrement avec l'assistant de migration
+
+[sync/settings]
+Sync settings=Paramètres de Sync
+Conflict resolution=Résolution des conflits
+Selective syncing=Synchronisation sélective
+Change the file types you want to sync=Modifier les types de fichiers à synchroniser
+Exclude a folder from syncing=Exclure un dossier de la synchronisation
+Always excluded from sync=Toujours exclus de la synchronisation
+File recovery snapshots=Instantanés de récupération de fichier
+Hidden files and folders=Fichiers et dossiers cachés
+Updating your synced vault settings=Mettre à jour les paramètres de votre coffre synchronisé
+Primary device=Appareil principal
+Secondary device(s)=Appareil(s) secondaire(s)
+Reloading of settings=Rechargement des paramètres
+Settings profiles=Profils de paramètres
+Create a settings profile=Créer un profil de paramètres
+
+[sync/switch]
+Move your vault out of your third-party syncing service or cloud storage=Déplacer votre coffre hors de votre service de synchronisation tiers ou de stockage en nuage
+Move your vault using Obsidian on desktop=Déplacer votre coffre avec Obsidian sur ordinateur
+Move your vault on mobile=Déplacer votre coffre sur mobile
+iOS and iPadOS=iOS et iPadOS
+Next steps=Étapes suivantes
+
+[sync/faq]
+General=Général
+What operating systems does Obsidian Sync support?=Quels systèmes d'exploitation Obsidian Sync prend-il en charge ?
+Does Obsidian work with Apple's Lockdown Mode?=Obsidian fonctionne-t-il avec le mode Isolement d'Apple ?
+What type of data is synced?=Quel type de données est synchronisé ?
+How much storage do I have?=De combien d'espace de stockage est-ce que je dispose ?
+How many remote vaults can I have?=Combien de coffres distants puis-je avoir ?
+How large can each remote vault be?=Quelle taille peut avoir chaque coffre distant ?
+How many people can I share a remote vault with?=Avec combien de personnes puis-je partager un coffre distant ?
+How large can each file be?=Quelle taille peut avoir chaque fichier ?
+Is my data being synced in the background?=Mes données sont-elles synchronisées en arrière-plan ?
+Does Obsidian Sync live-reload my settings?=Obsidian Sync recharge-t-il mes paramètres en temps réel ?
+Can I use a third-party sync with Obsidian Sync?=Puis-je utiliser un service de synchronisation tiers avec Obsidian Sync ?
+Data retention=Conservation des données
+How long do you keep the version history?=Combien de temps conservez-vous l'historique des versions ?
+How long do you keep my data after my subscription expires?=Combien de temps conservez-vous mes données après l'expiration de mon abonnement ?
+Do you keep my data if I refund my subscription service?=Conservez-vous mes données si je me fais rembourser mon abonnement ?
+
+[sync/region]
+Available regions=Régions disponibles
+Change Sync region=Changer de région Sync
+
+[sync/troubleshoot]
+General=Général
+Conflict resolution=Résolution de conflits
+How Obsidian Sync handles conflicts=Comment Obsidian Sync gère les conflits
+Conflict resolution options=Options de résolution de conflits
+Sync deleted a note I just created on two devices=Sync a supprimé une note que je venais de créer sur deux appareils
+Sync will not sync my plugins and settings updates=Sync ne synchronise pas mes mises à jour de modules et de paramètres
+My files keep disappearing from Sync as soon as I restore it=Mes fichiers disparaissent de Sync dès que je les restaure
+
+[sync/headless]
+Quick start=Démarrage rapide
+Commands=Commandes
+Native modules=Modules natifs
+
+[sync/security]
+Encryption=Chiffrement
+What does end-to-end encryption mean?=Que signifie le chiffrement de bout en bout ?
+What are the risks of using standard encryption?=Quels sont les risques liés à l'utilisation du chiffrement standard ?
+What encryption do you use?=Quel chiffrement utilisez-vous ?
+Can I verify that my data is end-to-end encrypted?=Puis-je vérifier que mes données sont chiffrées de bout en bout ?
+Has Obsidian completed a third-party security audit?=Obsidian a-t-il fait l'objet d'un audit de sécurité par un tiers ?
+What happens if I forget my encryption password?=Que se passe-t-il si j'oublie mon mot de passe de chiffrement ?
+Hosting=Hébergement
+Where do you host the servers for Obsidian Sync?=Où hébergez-vous les serveurs pour Obsidian Sync ?
+Where can I find my current Sync server and where is it hosted?=Où puis-je trouver mon serveur Sync actuel et où est-il hébergé ?
+Network and access=Réseau et accès
+Managing access to Obsidian Sync on your network=Gérer l'accès à Obsidian Sync sur votre réseau
+Deterministic file-hash encryption=Chiffrement déterministe des empreintes de fichiers
+No cryptographic binding between path and content=Pas de liaison cryptographique entre le chemin et le contenu
+
+[web-clipper/capture]
+Capture a page=Capturer une page
+Download images=Télécharger les images
+Hotkeys=Raccourcis clavier
+Interface functionality=Fonctionnalités de l'interface
+
+[web-clipper/filters]
+Text conversion and capitalization=Conversion de texte et capitalisation
+Text formatting=Mise en forme du texte
+Numbers=Nombres
+HTML processing=Traitement HTML
+Arrays and objects=Tableaux et objets
+
+[web-clipper/interpreter]
+Examples of prompts=Exemples de prompts
+Get started=Premiers pas
+How it works=Comment ça fonctionne
+Context=Contexte
+Models=Modèles
+Preset providers=Fournisseurs prédéfinis
+Choosing a model=Choisir un modèle
+Custom providers and models=Fournisseurs et modèles personnalisés
+Local models=Modèles locaux
+
+[web-clipper]
+Install Web Clipper=Installer Web Clipper
+How to use Web Clipper=Comment utiliser Web Clipper
+Privacy=Confidentialité
+
+[web-clipper/reader]
+Activate reading mode=Activer le mode lecture
+How it works=Comment ça fonctionne
+Customize the reading view=Personnaliser la vue de lecture
+
+[web-clipper/logic]
+Conditionals=Conditionnels
+Comparison operators=Opérateurs de comparaison
+Logical operators=Opérateurs logiques
+Truthiness=Évaluation de véracité
+Assign a variable=Assigner une variable
+Fallbacks=Valeurs de repli
+Chaining fallbacks=Chaîner les valeurs de repli
+With filters=Avec des filtres
+Loops=Boucles
+Loop sources=Sources de boucle
+Loop variables=Variables de boucle
+Accessing array items by index=Accéder aux éléments d'un tableau par index
+Nested loops=Boucles imbriquées
+Combine logic=Combiner la logique
+Evaluation order=Ordre d'évaluation
+
+[web-clipper/templates]
+Create or edit a template=Créer ou modifier un modèle
+Import and export Web Clipper templates=Importer et exporter des modèles Web Clipper
+Template settings=Paramètres de modèle
+Behavior=Comportement
+Automatically trigger a template=Déclencher automatiquement un modèle
+Simple URL matching=Correspondance d'URL simple
+Regular expression matching=Correspondance par expression régulière
+Schema.org matching=Correspondance schema.org
+Interpreter context=Contexte de l'interpréteur
+
+[web-clipper/troubleshoot]
+General=Général
+Some content is missing=Du contenu est manquant
+No content appears in Obsidian=Aucun contenu n'apparaît dans Obsidian
+Obsidian does not open=Obsidian ne s'ouvre pas
+Obsidian opens but only the file name is saved=Obsidian s'ouvre mais seul le nom du fichier est enregistré
+iOS and iPadOS=iOS et iPadOS
+
+[web-clipper/highlight]
+Turn on highlighter=Activer le surligneur
+Highlighter settings=Paramètres du surligneur
+
+[web-clipper/variables]
+Preset variables=Variables prédéfinies
+Prompt variables=Variables d'invite
+When to use prompt variables=Quand utiliser les variables d'invite
+Examples=Exemples
+Meta variables=Variables meta
+Selector variables=Variables de sélecteur
+Schema.org variables=Variables Schema.org
+
+[plugins/web-viewer]
+Reader view=Mode lecture
+Save to vault=Enregistrer dans le coffre
+Ad blocking=Blocage des publicités
+Security=Sécurité
+
+[plugins/canvas]
+Create a new canvas=Créer un nouveau canvas
+Add cards=Ajouter des cartes
+Add text cards=Ajouter des cartes texte
+Add cards from notes=Ajouter des cartes depuis des notes
+Add cards from media=Ajouter des cartes depuis des médias
+Add cards from web pages=Ajouter des cartes depuis des pages web
+Add cards from folders=Ajouter des cartes depuis des dossiers
+Edit a card=Modifier une carte
+Delete a card=Supprimer une carte
+Swap cards=Échanger des cartes
+Select cards=Sélectionner des cartes
+Arrange cards=Disposer les cartes
+Resize a card=Redimensionner une carte
+Connect cards=Connecter des cartes
+Connect two cards=Connecter deux cartes
+Disconnect two cards=Déconnecter deux cartes
+Connect a card to a different card=Connecter une carte à une carte différente
+Navigate a connection=Naviguer une connexion
+Add a label to a connection=Ajouter un libellé à une connexion
+Change the color of a card or connection=Changer la couleur d'une carte ou d'une connexion
+Group cards=Grouper des cartes
+Group selected cards=Grouper les cartes sélectionnées
+Navigate the canvas=Naviguer dans le canvas
+Pan the canvas=Panoramiquer le canvas
+Zoom the canvas=Zoomer dans le canvas
+Zoom to fit=Zoom pour tout afficher
+Zoom to selection=Zoom sur la sélection
+Reset zoom=Réinitialiser le zoom
+Advanced tips=Astuces avancées
+
+[plugins/note-composer]
+Merge notes=Fusionner des notes
+Extract note=Extraire une note
+Template file=Fichier de modèle
+
+[plugins/unique-note]
+Create a unique note=Créer une note unique
+Create unique notes from a template=Créer des notes uniques à partir d'un modèle
+
+[plugins/audio-recorder]
+Record audio in a note=Enregistrer de l'audio dans une note
+
+[plugins/workspaces]
+Save a workspace=Enregistrer un espace de travail
+Load a workspace=Charger un espace de travail
+Delete a workspace=Supprimer un espace de travail
+
+[plugins/file-explorer]
+Create a new note=Créer une nouvelle note
+Create a new folder=Créer un nouveau dossier
+Change sort order=Modifier l'ordre de tri
+Auto-reveal active file=Révéler automatiquement le fichier actif
+Expand or collapse all folders=Déplier ou plier tous les dossiers
+Delete a file or folder=Supprimer un fichier ou un dossier
+Rename a file or folder=Renommer un fichier ou un dossier
+Move a file or folder=Déplacer un fichier ou un dossier
+
+[plugins/format-converter]
+Supported formats=Formats pris en charge
+[[Properties]]=[[Propriétés]]
+
+[plugins/templates]
+Set your template folder=Définir votre dossier de modèles
+Template variables=Variables de modèle
+Create a template=Créer un modèle
+Insert a template into the active note=Insérer un modèle dans la note active
+Template properties=Propriétés de modèle
+
+[plugins/daily-notes]
+Create a daily note from template=Créer une note quotidienne à partir d'un modèle
+Daily notes and properties=Notes quotidiennes et propriétés
+
+[plugins/command-palette]
+Pinned commands=Commandes épinglées
+Pin a command=Épingler une commande
+Unpin a command=Désépingler une commande
+
+[plugins/search]
+Search terms=Termes de recherche
+Search operators=Opérateurs de recherche
+Search properties=Rechercher dans les propriétés
+Change case sensitivity=Modifier la sensibilité à la casse
+Change result sort order=Modifier l'ordre de tri des résultats
+Copy search results=Copier les résultats de recherche
+Use regular expressions=Utiliser des expressions régulières
+Configure search settings=Configurer les paramètres de recherche
+Embed search results in a note=Intégrer les résultats de recherche dans une note
+
+[plugins/file-recovery]
+Recover a snapshot=Récupérer un instantané
+Clear snapshot history=Effacer l'historique des instantanés
+Storage and performance=Stockage et performances
+
+[plugins/backlinks]
+Show backlinks=Afficher les liens retour
+View backlinks for a note=Voir les liens retour d'une note
+See backlinks of a specific note=Voir les liens retour d'une note spécifique
+Show backlinks in a note=Afficher les liens retour dans une note
+
+[plugins/bookmarks]
+Add a bookmark=Ajouter un signet
+Remove a bookmark=Supprimer un signet
+Add a bookmark group=Ajouter un groupe de signets
+Remove a bookmark group=Supprimer un groupe de signets
+Bookmark multiple files=Mettre plusieurs fichiers en signet
+
+[plugins/quick-switcher]
+Open Quick switcher=Ouvrir le sélecteur rapide
+Open a note with Quick switcher=Ouvrir une note avec le sélecteur rapide
+
+[plugins/properties]
+All properties view=Vue de toutes les propriétés
+
+[plugins/graph]
+Settings=Paramètres
+Filters=Filtres
+Groups=Groupes
+Display=Affichage
+Start a time-lapse animation=Démarrer une animation en accéléré
+Local Graph=Graphique local
+
+[teams/security]
+Considerations=Considérations
+Community plugins and themes=Modules complémentaires et thèmes
+Network and access=Réseau et accès
+Obsidian-sourced connections=Connexions provenant d'Obsidian
+GitHub-sourced connections=Connexions provenant de GitHub
+Other connections=Autres connexions
+Frequently asked questions=Questions fréquentes
+Account security=Sécurité du compte
+Assessments and certifications=Évaluations et certifications
+
+[teams/deploy]
+Install and update Obsidian=Installer et mettre à jour Obsidian
+Customizing Obsidian=Personnaliser Obsidian
+Configuration folders=Dossiers de configuration
+Plugins=Modules
+Themes and snippets=Thèmes et extraits
+Frequently asked questions=Questions fréquentes
+Deployment=Déploiement
+
+[teams/license]
+Purchase a commercial license=Acheter une licence commerciale
+Apply a commercial license=Appliquer une licence commerciale
+Supporting organizations=Organisations qui soutiennent Obsidian
+Frequently asked questions=Questions fréquentes
+
+[teams]
+Use Obsidian with your team=Utiliser Obsidian avec votre équipe
+Important resources=Ressources importantes
+
+[teams/publish]
+Publishing tools and services=Outils et services de publication
+Advanced collaboration for Obsidian Publish=Collaboration avancée pour Obsidian Publish
+Media=Médias
+Frequently asked questions=Questions fréquentes
+
+[teams/sync]
+Syncing tools and services=Outils et services de synchronisation
+Obsidian Sync for teams=Obsidian Sync pour les équipes
+Security=Sécurité
+Frequently asked questions=Questions fréquentes
+
+[callouts]
+Change the title=Modifier le titre
+Foldable callouts=Encadrés pliables
+Nested callouts=Encadrés imbriqués
+Customize callouts=Personnaliser les encadrés
+Supported types=Types pris en charge
+
+[multiple-cursors]
+Rectangular selection=Sélection rectangulaire
+
+[embed-web-pages]
+Embed a YouTube video=Intégrer une vidéo YouTube
+Embed a tweet=Intégrer un tweet
+
+[tags]
+Add a tag to a note=Ajouter un mot-clé à une note
+Find notes using tags=Trouver des notes à l'aide de mots-clés
+Nested tags=Mots-clés imbriqués
+Tag format=Format des mots-clés
+
+[obsidian-flavored-markdown]
+Supported Markdown extensions=Extensions Markdown prises en charge
+
+[attachments]
+Add an attachment=Ajouter une pièce jointe
+Change default attachment location=Modifier l'emplacement par défaut des pièces jointes
+
+[properties]
+Add properties to a note=Ajouter des propriétés à une note
+Property types=Types de propriétés
+Advanced uses=Utilisations avancées
+Search properties=Rechercher des propriétés
+Templates=Modèles
+Rename properties=Renommer des propriétés
+Display modes=Modes d'affichage
+CSS snippets=Extraits CSS
+Not supported=Fonctionnalités non prises en charge
+Hotkeys=Raccourcis clavier
+Add a property=Ajouter une propriété
+Navigate between properties=Naviguer entre les propriétés
+Select properties=Sélectionner des propriétés
+Edit properties=Modifier des propriétés
+Vim (advanced)=Vim (avancé)
+Property format=Format des propriétés
+Text=Texte
+List=Liste
+Number=Nombre
+Checkbox=Case à cocher
+Date & time=Date et heure
+Tags=Mots-clés
+JSON properties=Propriétés JSON
+Default properties=Propriétés par défaut
+Properties for Obsidian Publish=Propriétés pour Obsidian Publish
+Deprecated properties=Propriétés obsolètes
+
+[editing-shortcuts]
+Windows and Linux shortcuts=Raccourcis Windows et Linux
+Common actions=Actions courantes
+Text editing=Édition de texte
+Text navigation=Navigation dans le texte
+Text selection=Sélection de texte
+macOS shortcuts=Raccourcis macOS
+Text formatting=Mise en forme du texte
+
+[advanced-syntax]
+Tables=Tableaux
+Format content within a table=Mettre en forme le contenu d'un tableau
+Diagram=Diagrammes
+Linking files in a diagram=Lier des fichiers dans un diagramme
+Math=Mathématiques
+
+[syntax]
+Paragraphs=Paragraphes
+Line breaks=Sauts de ligne
+Headings=Entêtes
+Bold, italics, highlights=Gras, italique, surlignage
+Internal links=Liens internes
+External links=Liens externes
+Escape blank spaces in links=Échapper les espaces dans les liens
+External images=Images externes
+Quotes=Citations
+Lists=Listes
+Task lists=Listes de tâches
+Nesting lists=Listes imbriquées
+Horizontal rule=Ligne horizontale
+Inline code=Code en ligne
+Code blocks=Blocs de code
+Nesting code blocks=Blocs de code imbriqués
+Footnotes=Notes de bas de page
+Comments=Commentaires
+Escaping Markdown Syntax=Échapper la syntaxe Markdown
+Learn more=En savoir plus
+
+[edit-and-read]
+Reading view=Mode lecture
+Editing view=Mode d'édition
+Live Preview=Aperçu en direct
+Source mode=Mode source
+
+[snippets]
+Adding a snippet=Ajouter un extrait
+Writing CSS for Obsidian=Écrire du CSS pour Obsidian
+Learn more=En savoir plus
+
+[community-plugins]
+Browse community plugins=Parcourir les modules complémentaires
+Install a community plugin=Installer un module complémentaire
+Enable a community plugin=Activer un module complémentaire
+Update plugins=Mettre à jour les modules
+Uninstall a community plugin=Désinstaller un module complémentaire
+Manage installed plugins=Gérer les modules installés
+Learn more=En savoir plus
+
+[cli]
+Install Obsidian CLI=Installer Obsidian CLI
+Get started=Premiers pas
+Run a command=Exécuter une commande
+Use the terminal interface=Utiliser l'interface en terminal
+Examples=Exemples
+Everyday use=Utilisation quotidienne
+For developers=Pour les développeurs
+How to=Comment faire
+Use parameters and flags=Utiliser les paramètres et les drapeaux
+Target a vault=Cibler un coffre
+Target a file=Cibler un fichier
+Copy output=Copier la sortie
+General commands=Commandes générales
+Bookmarks=Signets
+Command palette=Palette de commandes
+Daily notes=Notes quotidiennes
+File history=Historique des fichiers
+Files and folders=Fichiers et dossiers
+Links=Liens
+Outline=Plan
+Plugins=Modules
+Properties=Propriétés
+Random notes=Notes aléatoires
+Search=Recherche
+Tags=Mots-clés
+Tasks=Tâches
+Templates=Modèles
+Themes and snippets=Thèmes et extraits
+Unique notes=Notes uniques
+Vault=Coffre
+Web viewer=Visionneuse web
+Wordcount=Nombre de mots
+Workspace=Espace de travail
+Developer commands=Commandes pour développeurs
+Keyboard shortcuts=Raccourcis clavier
+Editing=Édition
+Autocomplete=Complétion automatique
+History=Historique
+Other=Autres
+Troubleshooting=Dépannage
+Alternate shells=Shells alternatifs
+
+[headless]
+Install=Installation
+Authentication=Authentification
+Log in=Se connecter
+
+[uri]
+URI format=Format d'URI
+Open note=Ouvrir une note
+Examples=Exemples
+Parameters=Paramètres
+Create note=Créer une note
+Create or open daily note=Créer ou ouvrir une note quotidienne
+Unique Note=Note unique
+Open search=Ouvrir la recherche
+Open Vault Manager=Ouvrir le gestionnaire de coffres
+Integrate with Hook=Intégration avec Hook
+Example=Exemple
+Use x-callback-url parameters=Utiliser les paramètres x-callback-url
+Shorthand formats=Formats abrégés
+Troubleshooting=Dépannage
+Register Obsidian URI=Enregistrer le protocole URI Obsidian
+
+[plugin-security]
+Restricted mode=Mode restreint
+Plugin capabilities=Capacités des modules
+Plugin review process=Processus d'examen des modules
+
+[themes]
+Browse themes=Parcourir les thèmes
+Install a new theme=Installer un nouveau thème
+Update themes=Mettre à jour les thèmes
+Uninstall an existing theme=Désinstaller un thème existant
+Learn more=En savoir plus

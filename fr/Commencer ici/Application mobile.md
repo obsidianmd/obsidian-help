@@ -7,17 +7,17 @@ description: >-
   toolbar, quick actions, and navigation bar.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Mobile app
 ---
-Les applications mobiles d'Obsidian sont disponibles pour [[Obsidian pour iOS et iPadOS|iOS et iPadOS]] et [[Obsidian pour Android|Android]]. Vous pouvez les télécharger depuis l'[Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) et [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
+Les applications mobiles Obsidian sont disponibles pour [[Obsidian pour iOS et iPadOS|iOS et iPadOS]] et [[Obsidian pour Android|Android]]. Vous pouvez les télécharger depuis l'[Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) et [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
 
-Obsidian fonctionne de manière similaire sur mobile et sur ordinateur, mais possède quelques fonctionnalités uniques telles que les widgets, la barre d'outils et l'action rapide.
+Obsidian fonctionne de manière similaire sur mobile et sur ordinateur, mais dispose de quelques fonctionnalités uniques comme les widgets, la barre d'outils et l'action rapide.
 
 ## Widgets, raccourcis et Siri
 
-Pour les fonctionnalités spécifiques à chaque système d'exploitation, consultez les pages suivantes :
+Pour les fonctionnalités spécifiques au système d'exploitation, consultez les pages suivantes :
 
 - [[Obsidian pour iOS et iPadOS|iOS et iPadOS]]
 - [[Obsidian pour Android|Android]]
@@ -25,12 +25,12 @@ Pour les fonctionnalités spécifiques à chaque système d'exploitation, consul
 
 ## Barre d'outils mobile
 
-La barre d'outils mobile est une barre de personnalisation pour l'édition des notes.
+La barre d'outils mobile est une barre d'outils personnalisable pour l'édition de notes.
 
 Lorsque vous éditez une note, vous remarquerez une rangée d'icônes en bas de l'application. La disposition par défaut des actions offre un accès rapide aux fonctionnalités couramment utilisées. Vous pouvez également les personnaliser.
 
 > [!tip] Faire défiler la barre d'outils
-> Si vous avez beaucoup d'actions dans la barre d'outils, vous pouvez glisser vers la gauche et la droite sur la barre d'outils pour afficher plus d'actions.
+> Si vous avez beaucoup d'actions sur la barre d'outils, vous pouvez balayer vers la gauche et la droite sur la barre d'outils pour révéler plus d'actions.
 
 ### Personnaliser la barre d'outils mobile
 
@@ -56,7 +56,7 @@ En plus de cela, vous pouvez ajouter des commandes globales comme « Changer de 
 
 ## Action rapide
 
-Sur l'application mobile, vous pouvez définir une action qui se déclenche en tirant vers le bas depuis le haut de l'application, de manière similaire au geste de rafraîchissement sur les applications de réseaux sociaux.
+Sur l'application mobile, vous pouvez définir une action qui est invoquée en tirant vers le bas depuis le haut de l'application, de manière similaire au geste de rafraîchissement sur les applications de réseaux sociaux.
 
 L'action rapide ouvre par défaut la [[Palette de commandes]].
 
@@ -69,11 +69,11 @@ L'action rapide ouvre par défaut la [[Palette de commandes]].
 5. Sélectionnez la commande que vous souhaitez définir.
 6. Fermez la page des paramètres.
 
-Maintenant, lorsque vous tirez vers le bas depuis le haut, la nouvelle action rapide sera déclenchée.
+Désormais, lorsque vous tirerez vers le bas depuis le haut, la nouvelle action rapide sera invoquée.
 
 ## Barre de navigation
 
-La barre de navigation sur mobile vous aide à naviguer dans l'application. La barre de navigation s'affiche lorsque vous n'êtes pas en train d'éditer dans l'application.
+La barre de navigation sur mobile vous aide à naviguer dans l'application. La barre de navigation s'affiche lorsque vous n'êtes pas en mode édition.
 
 Avec l'option **Basculer le clavier** de la barre d'outils, vous pouvez fermer la barre d'outils mobile et passer à la barre de navigation à la place.
 
@@ -87,13 +87,13 @@ L'icône centrale en forme de plus dans un cercle vous permet de créer une nouv
 
 ### Gestion des onglets
 
-La deuxième icône en partant de la droite vous indique combien d'onglets sont actuellement ouverts. L'icône ressemble à un nombre dans un cadre et indique le nombre d'onglets ouverts.
+La deuxième icône en partant de la droite vous indique combien d'onglets sont actuellement ouverts. L'icône ressemble à un nombre dans un cadre et indique combien d'onglets sont ouverts.
 
 Lorsque vous appuyez dessus, vous pouvez basculer vers n'importe quel onglet ouvert. Vous pouvez également ouvrir un nouvel onglet.
 
 ### Actions du ruban
 
-L'application mobile ne possède pas de [[Ruban]]. À la place, les actions du ruban sont disponibles lorsque vous appuyez sur **Ouvrir le menu** ( ![[lucide-menu.svg#icon]] ), la dernière option de la barre de navigation.
+L'application mobile n'a pas de [[Ruban]]. À la place, les actions du ruban sont disponibles lorsque vous appuyez sur **Ouvrir le menu** ( ![[lucide-menu.svg#icon]] ), la dernière option de la barre de navigation.
 
 ### Barres latérales
 

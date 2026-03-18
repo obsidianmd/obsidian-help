@@ -5,132 +5,131 @@ description: >-
   the sync activity log.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Status icon and messages
 ---
+Obsidian Sync fournit plusieurs éléments pour indiquer l'état de la synchronisation, principalement l'[[#Icône de statut de Sync]] et le [[#Journal d'activité de Sync]]. Les détails concernant le contrôle de version dans Obsidian Sync sont couverts dans la page [[Version history]].
 
-Obsidian Sync provides several elements to indicate sync status, mainly the [[#Sync status icon]] and [[#Sync activity log]]. Details about version control in Obsidian Sync are covered in the [[Version history]] page.
+## Icône de statut de Sync
 
-## Sync status icon
+L'icône de statut de Sync se trouve dans la [[Barre d'état]] sur la version de bureau et dans la [[Barre latérale#Ouvrir les barres latérales masquées|barre latérale droite]] sur mobile et tablette. L'icône reflète différents états de synchronisation :
 
-The Sync status icon is located in the [[Barre d'état]] on the desktop version and in the [[Barre latérale#Open hidden sidebars|right sidebar]] on mobile and tablet. The icon reflects various sync states:
+- ![[obsidian-icon-sync-synced.svg#icon]] **Synchronisé** : Obsidian Sync a entièrement synchronisé vos fichiers. Cette icône est généralement verte.
+- ![[obsidian-icon-sync-syncing.svg#icon]] **Synchronisation en cours** : Obsidian est en train de mettre à jour le coffre distant. Cette icône est généralement violette.
+- ![[obsidian-icon-sync-paused.svg#icon]] **En pause** : La synchronisation a été mise en pause, mais Obsidian est toujours connecté au coffre distant. L'icône est généralement violette.
+- ![[obsidian-icon-sync-disconnected.svg#icon]] **Déconnecté** : Le module principal Sync est actif, mais le [[Coffres locaux et distants|coffre local]] n'est pas connecté à un coffre distant. Cette icône est généralement rouge.
 
-- ![[obsidian-icon-sync-synced.svg#icon]] **Synced**: Obsidian Sync has fully synced your files. This icon is typically green.
-- ![[obsidian-icon-sync-syncing.svg#icon]] **Syncing**: Obsidian is currently updating the remote vault. This icon is usually purple.
-- ![[obsidian-icon-sync-paused.svg#icon]] **Paused**: Syncing has been paused, but Obsidian is still connected to the remote vault. The icon is typically purple.
-- ![[obsidian-icon-sync-disconnected.svg#icon]] **Disconnected**: The Sync core plugin is active, but the [[Coffres locaux et distants|local vault]] is not connected to a remote vault. This icon is typically red.
+Cliquer ou appuyer sur l'icône ouvre un menu contextuel avec les options suivantes :
+- ![[obsidian-icon-sync-paused.svg#icon]] Pause (ou ![[lucide-circle-play.svg#icon]] Reprendre si en pause)
+- ![[lucide-history.svg#icon]] [[Version history]] (Grisé si vous ne consultez pas une note)
+- ![[lucide-align-left.svg#icon]] Ouvrir le [[#Journal d'activité de Sync|journal de Sync]]
+- ![[lucide-trash-2.svg#icon]] [[Version history#Restaurer un fichier supprimé|Fichiers supprimés]]
+- ![[lucide-cog.svg#icon]] [[Paramètres de Sync et synchronisation sélective|Paramètres de Sync]]
 
-Clicking or tapping the icon opens a context menu with the following options:
-- ![[obsidian-icon-sync-paused.svg#icon]] Pause (or ![[lucide-circle-play.svg#icon]] Resume if paused)
-- ![[lucide-history.svg#icon]] [[Version history]] (Greyed out if not viewing a note)
-- ![[lucide-align-left.svg#icon]] Open [[#Sync activity log|Sync log]]
-- ![[lucide-trash-2.svg#icon]] [[Version history#Restore a deleted file|Deleted files]]
-- ![[lucide-cog.svg#icon]] [[Paramètres de Sync et synchronisation sélective|Sync settings]]
+## Journal d'activité de Sync
 
-## Sync activity log
+Obsidian Sync inclut un journal de synchronisation détaillé qui suit toutes les interactions entre vos fichiers locaux et le coffre distant. Le journal affiche les envois, les téléchargements, les suppressions et tout problème comme les conflits de fusion ou les problèmes de connectivité.
 
-Obsidian Sync includes a detailed sync log that tracks all interactions between your local files and the remote vault. The log shows uploads, downloads, deletions, and any issues like merge conflicts or connectivity problems.
+**Accéder au journal d'activité :**
+- Cliquez sur l'icône de statut de synchronisation dans la barre d'état
+- Allez dans **[[Paramètres]] → Sync → Journal d'activité**
+- Utilisez **Palette de commandes → Sync : Ouvrir le journal d'activité**
 
-**Access the activity log:**
-- Click the sync status icon in the status bar
-- Go to **[[Paramètres]] → Sync → Activity log**
-- Use **Command palette → Sync: Open activity log**
+Le journal fournit des horodatages et des détails pour chaque opération de synchronisation, ce qui le rend utile pour résoudre les problèmes de synchronisation.
 
-The log provides timestamps and details for each sync operation, making it useful for troubleshooting sync issues.
+> [!warning] Le journal de Sync n'est pas conservé après la fermeture d'Obsidian. Si vous rencontrez un problème, assurez-vous de copier le journal _avant_ de fermer l'application.
 
-> [!warning] The Sync log does not persist after Obsidian is closed. If you encounter an issue, ensure you copy the log _before_ closing the app.
+Le journal catégorise les messages dans les types suivants :
 
-The log categorizes messages into the following types:
+- [[#Messages généraux]]
+- [[#Messages d'erreur]]
+- [[#Messages de fichiers ignorés]]
+- [[#Messages de compte]]
 
-- [[#General messages]]
-- [[#Error messages]]
-- [[#Skipped messages]]
-- [[#Account messages]]
+Vous pouvez filtrer le journal de Sync par **Tous**, **Erreurs**, **Ignorés** et **Conflits de fusion**. De plus, vous pouvez rechercher dans le journal de Sync en utilisant la barre de recherche dans la fenêtre Sync.
 
-You can filter the Sync log by **All**, **Errors**, **Skipped**, and **Merge Conflicts**. Additionally, you can search the Sync log using the search box in the Sync window.
+> [!summary] Nous avons inclus ci-dessous certains des messages que vous avez probablement rencontrés. La liste n'est pas exhaustive. Si vous rencontrez un problème et avez un message du journal de synchronisation dont vous n'êtes pas sûr, [[Aide et support#Contacter l'assistance Obsidian|contactez l'assistance Obsidian]].
 
-> [!summary] We have included some of the likely messages you have come across below. The list is not exhaustive. If you are experiencing an issue and have a sync log message you are not sure about, [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]].
+### Messages généraux
 
-### General messages
+Ce sont les messages courants que vous pouvez rencontrer au quotidien.
 
-These are common day-to-day messages you might encounter. 
+**Connecting to server**
+Obsidian essaie de se connecter au [[Obsidian Sync/Sécurité et confidentialité#Où puis-je trouver mon serveur Sync actuel et où est-il hébergé ?|serveur Sync]] de votre coffre distant.
 
-**Connecting to server**  
-Obsidian is trying to connect to your remote vault's [[Obsidian Sync/Sécurité et confidentialité#Where can I find my current Sync server and where is it hosted?|Sync server]].
+**Connected to server. Detecting changes...**
+Obsidian a établi une connexion et compare le coffre local avec le coffre distant pour déterminer si des modifications sont nécessaires.
 
-**Connected to server. Detecting changes...**  
-Obsidian has established a connection and is comparing the local vault with the remote vault to determine if changes are needed.
+> [!info] Ce message peut également indiquer d'autres problèmes potentiels de Sync. Si vous le voyez de manière répétée et pensez qu'il reste des éléments à synchroniser, [[Aide et support#Contacter l'assistance Obsidian|contactez l'assistance Obsidian]].
 
-> [!info] This message can also indicate other potential Sync issues. If you see it repeatedly and believe there are still items to sync, [[Aide et support#Contacter l'assistance Obsidian|contact Obsidian support]].
+**Fully synced**
+- Le coffre local et le coffre distant sont entièrement synchronisés.
 
-**Fully synced**  
-- The local and remote vaults are fully synchronized.
+**Merging conflicted file**
+Un conflit a été détecté pendant la synchronisation, et le fichier a été fusionné plutôt qu'écrasé. Consultez [[Résoudre les problèmes d'Obsidian Sync#Résolution des conflits|résolution des conflits]] pour plus d'informations. Si la fusion n'est pas souhaitée, vous pouvez restaurer les versions précédentes via [[Version history]] ou [[Récupération de fichier]].
 
-**Merging conflicted file**  
-A conflict was detected during syncing, and the file was merged rather than overwritten. See [[Résoudre les problèmes d'Obsidian Sync#Conflict resolution|conflict resolution]] for more information. If the merge is unwanted, you can restore previous versions via [[Version history]] or [[Récupération de fichiers]].
+**Rejected server change**
+Les modifications sur le coffre distant sont plus anciennes que la version sur votre appareil local, donc la version locale est conservée et la modification distante est ignorée.
 
-**Rejected server change**  
-The changes on the remote vault are older than the version on your local device, so the local version is kept and the remote change is ignored. 
+### Messages d'erreur
 
-### Error messages
+Ce sont des messages détaillant une erreur lors de la synchronisation d'un fichier.
 
-These are messages detailing an error in syncing a file.
+**Out of memory**
+Ce problème survient généralement sur les appareils mobiles lorsqu'il n'y a pas suffisamment d'espace de stockage ou de mémoire disponible pour télécharger un fichier. C'est le plus courant avec les fichiers volumineux, tels que les vidéos.
 
-**Out of memory**  
-This issue typically occurs on mobile devices when there isn't enough storage space or memory available to download a file. It's most common with large files, such as videos.
+### Messages de fichiers ignorés
 
-### Skipped messages
-
-These are messages detailing what was skipped, and potentially why. 
+Ce sont des messages détaillant ce qui a été ignoré, et potentiellement pourquoi.
 
 **Unable to download file with illegal name**
 
-The file contains a [special character or naming convention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) that is not allowed on the receiving operating system. For ease, you can rename the file on it's source device to remove all special characters but `-` and `_`.
+Le fichier contient un [caractère spécial ou une convention de nommage](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) qui n'est pas autorisé sur le système d'exploitation de destination. Pour simplifier, vous pouvez renommer le fichier sur son appareil source pour supprimer tous les caractères spéciaux sauf `-` et `_`.
 
-Note that this also includes files with multiple periods `.` in their name on Android devices. 
+Notez que cela inclut également les fichiers avec plusieurs points `.` dans leur nom sur les appareils Android.
 
-### Account messages
+### Messages de compte
 
-These are messages related to a change in your subscription or account. 
+Ce sont des messages liés à un changement dans votre abonnement ou votre compte.
 
-**Vault limit exceeded**  
-Your account has exceeded the [[Questions fréquentes#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
+**Vault limit exceeded**
+Votre compte a dépassé la [[Questions fréquentes#Quelle est la taille maximale de chaque coffre distant|taille de stockage maximale]]. Les pièces jointes et l'historique des versions contribuent à cette taille. Même si votre coffre semble plus petit que la limite, les anciennes versions et fichiers peuvent la dépasser.
 
-To reduce vault size:
-1. Open **[[Paramètres]] → Sync**.
-2. Use the options under **Vault size over limit** to remove large files.
+Pour réduire la taille du coffre :
+1. Ouvrez **[[Paramètres]] → Sync**.
+2. Utilisez les options sous **Taille du coffre dépassée** pour supprimer les fichiers volumineux.
 
-**Vault not found**  
+**Vault not found**
 `{"res":"err","msg":"Vault not found."}`
 
-This error may occur in these cases:
+Cette erreur peut survenir dans les cas suivants :
 
-1. The vault was deleted from another device.
-2. The sync subscription was inactive for over 30 days, causing the remote vault to be removed.
-3. The subscription was canceled or refunded, resulting in the remote vault's deletion.
- 
-In these cases, you'll need to [[Configurer Obsidian Sync#Disconnect from a remote vault|disconnect from the remote vault]] and [[Configurer Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring your local data is preserved.
+1. Le coffre a été supprimé depuis un autre appareil.
+2. L'abonnement de synchronisation était inactif depuis plus de 30 jours, entraînant la suppression du coffre distant.
+3. L'abonnement a été annulé ou remboursé, entraînant la suppression du coffre distant.
 
-**Failed to authenticate: Your subscription to Obsidian Sync has expired**  
-Your account is now in a fully expired status as we were unable to process the payment on file. 
+Dans ces cas, vous devrez [[Configurer Obsidian Sync#Se déconnecter d'un coffre distant|vous déconnecter du coffre distant]] et [[Configurer Obsidian Sync#Créer un nouveau coffre distant|créer un nouveau coffre distant]], en vous assurant que vos données locales sont préservées.
 
-To continue using Obsidian Sync, you will need to resubscribe within [your account](https://obsidian.md/account/sync).
+**Failed to authenticate: Your subscription to Obsidian Sync has expired**
+Votre compte est maintenant dans un état d'expiration complète car nous n'avons pas pu traiter le paiement enregistré.
+
+Pour continuer à utiliser Obsidian Sync, vous devrez vous réabonner dans [votre compte](https://obsidian.md/account/sync).
 
 **Failed to authenticate: Not logged in**
 
-Obsidian Sync has detected that you are not currently logged in. You will need to log back in on the app in the [[Paramètres#General#Account|Account]] section of **[[Paramètres]]**.
+Obsidian Sync a détecté que vous n'êtes pas actuellement connecté. Vous devrez vous reconnecter dans l'application dans la section [[Paramètres#Général#Compte|Compte]] des **[[Paramètres]]**.
 
-In some cases, a community plugin can also prevent Obsidian Sync from being able to confirm your account's login status. Please enter **[[Sécurité des plugins#Restricted mode|Restricted mode]]** and try again. 
+Dans certains cas, un module complémentaire peut également empêcher Obsidian Sync de confirmer l'état de connexion de votre compte. Veuillez passer en **[[Sécurité des plugins#Mode restreint|mode restreint]]** et réessayer.
 
-### Network messages
+### Messages réseau
 
 **Disconnected from server**
 `Unable to connect to server`
 
-Obsidian Sync has disconnected from the Sync server for an unknown reason. Sync will attempt to reconnect to the server periodically.
+Obsidian Sync s'est déconnecté du serveur Sync pour une raison inconnue. Sync tentera de se reconnecter au serveur périodiquement.
 
-On iOS, this message displays as the following error:
+Sur iOS, ce message s'affiche sous la forme de l'erreur suivante :
 `Null is not an object (evaluating 'this.socket.send')`
 
-It means exactly the same as the `Unable to connect to server` message, and is not in any way indication that something else is wrong. 
+Cela signifie exactement la même chose que le message `Unable to connect to server`, et n'indique en aucun cas qu'autre chose ne va pas.

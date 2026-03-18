@@ -1,31 +1,31 @@
 ---
 permalink: attachments
-localized: null
+localized: '2026-03-18'
 aliases:
   - Attachments
 ---
-You can import [[Formats de fichiers acceptés]], or _attachments_, to your vault, such as images, audio files, or PDFs. Attachments are regular files that you can access using your file system. Attachments can be [[Incorporer des fichiers|embedded]].
+Vous pouvez importer des [[Formats de fichiers acceptés]], ou _pièces jointes_, dans votre coffre, comme des images, des fichiers audio ou des PDF. Les pièces jointes sont des fichiers ordinaires auxquels vous pouvez accéder via votre système de fichiers. Les pièces jointes peuvent être [[Incorporer des fichiers|intégrées]].
 
-## Add an attachment
+## Ajouter une pièce jointe
 
-You can add attachments to your vault in multiple ways. Only [[Formats de fichiers acceptés]] can be added.
+Vous pouvez ajouter des pièces jointes à votre coffre de plusieurs manières. Seuls les [[Formats de fichiers acceptés]] peuvent être ajoutés.
 
-> [!todo]- Copy and paste attachments
-> You can paste attachments directly into your notes. Obsidian creates a file with the pasted content in the default attachment location and [[Incorporer des fichiers|embeds]] it in the note.
+> [!todo]- Copier et coller des pièces jointes
+> Vous pouvez coller des pièces jointes directement dans vos notes. Obsidian crée un fichier avec le contenu collé dans l'emplacement par défaut des pièces jointes et l'[[Incorporer des fichiers|intègre]] dans la note.
 
-> [!todo]- Drag and drop attachments
-> If you drag a file from your file system into an open editor, Obsidian copies the file to the default attachment location and [[Incorporer des fichiers|embeds]] it in the note.
+> [!todo]- Glisser-déposer des pièces jointes
+> Si vous glissez un fichier depuis votre système de fichiers dans un éditeur ouvert, Obsidian copie le fichier dans l'emplacement par défaut des pièces jointes et l'[[Incorporer des fichiers|intègre]] dans la note.
 
- > [!todo]- Download attachments to vault folder
- > You can download an attachment directly to your vault, for example if you  [[Importer des notes#Autres formats|import from your browser]], or from other apps that saves files directly to your file system.
+ > [!todo]- Télécharger des pièces jointes dans le dossier du coffre
+ > Vous pouvez télécharger une pièce jointe directement dans votre coffre, par exemple si vous [[Importer des notes#Autres formats|importez depuis votre navigateur]], ou depuis d'autres applications qui enregistrent les fichiers directement dans votre système de fichiers.
 
-## Change default attachment location
+## Modifier l'emplacement par défaut des pièces jointes
 
-By default, attachments are added to the root of your vault.
+Par défaut, les pièces jointes sont ajoutées à la racine de votre coffre.
 
-You can change the default attachment location under **[[Paramètres]] → Files & Links → Default location for new attachments**.
+Vous pouvez modifier l'emplacement par défaut des pièces jointes dans **[[Paramètres]] → Fichiers & Liens → Emplacement par défaut pour les nouvelles pièces jointes**.
 
-- **Vault folder** adds the attachment to the root of your vault.
-- **In the folder specified below** adds the attachment to a specified folder.
-- **Same folder as current file** adds the attachment to the same folder as the note you added it to.
-- **In subfolder under current folder** adds attachments to a specified folder next to the note you added the attachment to. If it doesn't exist, Obsidian creates it when you add an attachment.
+- **Dossier du coffre** ajoute la pièce jointe à la racine de votre coffre.
+- **Dans le dossier spécifié ci-dessous** ajoute la pièce jointe dans un dossier spécifié.
+- **Même dossier que le fichier actuel** ajoute la pièce jointe dans le même dossier que la note à laquelle vous l'avez ajoutée.
+- **Dans un sous-dossier du dossier actuel** ajoute les pièces jointes dans un dossier spécifié à côté de la note à laquelle vous avez ajouté la pièce jointe. S'il n'existe pas, Obsidian le crée lorsque vous ajoutez une pièce jointe.

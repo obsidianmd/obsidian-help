@@ -1,32 +1,32 @@
 ---
 permalink: import/bear
-localized: null
+localized: '2026-03-18'
 aliases:
   - Import from Bear
 ---
-Obsidian lets you easily migrate your notes from Bear using the [[Importer|Importer plugin]]. This will convert your Bear data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian vous permet de migrer facilement vos notes depuis Bear à l'aide du [[Importer|module Importer]]. Cela convertira vos données Bear en fichiers Markdown durables, que vous pourrez utiliser avec Obsidian et de nombreuses autres applications.
 
-## Export your data from Bear
+## Exporter vos données depuis Bear
 
-Obsidian uses Bear's backup format `.bear2bk` files. You can find Bear's instructions for creating the backup [on Bear's website](https://bear.app/faq/backup-restore/). 
+Obsidian utilise le format de sauvegarde Bear sous forme de fichiers `.bear2bk`. Vous pouvez trouver les instructions de Bear pour créer une sauvegarde [sur le site web de Bear](https://bear.app/faq/backup-restore/).
 
-1. Open Bear.
-2. Create a backup
-	1. On macOS: **File** → **Backup notes**.
-	2. On iOS: click the more menu (⋮) at the top of the sidebar and choose **Backup all notes**.
-3. Choose a location for your backup file.
-4. Click **Export notes**.
-5. You should now have one `.bear2bk` file that contains all your notes.
+1. Ouvrez Bear.
+2. Créez une sauvegarde
+	1. Sur macOS : **Fichier** → **Sauvegarder les notes**.
+	2. Sur iOS : cliquez sur le menu supplémentaire (⋮) en haut de la barre latérale et choisissez **Sauvegarder toutes les notes**.
+3. Choisissez un emplacement pour votre fichier de sauvegarde.
+4. Cliquez sur **Exporter les notes**.
+5. Vous devriez maintenant avoir un fichier `.bear2bk` contenant toutes vos notes.
 
-## Import your Bear data into Obsidian
+## Importer vos données Bear dans Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Paramètres]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Bear (.bear2bk)**.
-6. Select the location of your Bear backup file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. Ouvrez les **[[Paramètres]]**.
+2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activez le module Importer.
+4. Ouvrez le module **Importer** en utilisant la palette de commandes ou l'icône du ruban.
+5. Sous **Format de fichier**, choisissez **Bear (.bear2bk)**.
+6. Sélectionnez l'emplacement de votre fichier de sauvegarde Bear.
+7. Cliquez sur **Importer** et attendez que l'importation soit terminée.
+8. C'est terminé !

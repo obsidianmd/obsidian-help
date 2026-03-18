@@ -5,51 +5,50 @@ description: >-
   site.
 publish: true
 mobile: true
-localized: null
+localized: '2026-03-18'
 aliases:
   - Collaborate on a Publish site
 ---
-Learn how to collaborate on your [[Introduction à Obsidian Publish|Obsidian Publish]] site with other Obsidian users. By adding your friends and colleagues as collaborators, they can publish changes to your site.
+Apprenez à collaborer sur votre site [[Introduction à Obsidian Publish|Obsidian Publish]] avec d'autres utilisateurs d'Obsidian. En ajoutant vos amis et collègues en tant que collaborateurs, ils peuvent publier des modifications sur votre site.
 
-Only the site owner needs an active subscription for Obsidian Publish. Collaborators only need an [Obsidian account](https://obsidian.md/account).
+Seul le propriétaire du site a besoin d'un abonnement actif à Obsidian Publish. Les collaborateurs n'ont besoin que d'un [compte Obsidian](https://obsidian.md/account).
 
-> [!warning] Before you publish changes to a shared site, make sure to [[#Sync changes between collaborators|sync changes between collaborators]]. Otherwise, you risk overwriting changes from other collaborators.
+> [!warning] Avant de publier des modifications sur un site partagé, assurez-vous de [[#Synchroniser les modifications entre collaborateurs|synchroniser les modifications entre collaborateurs]]. Sinon, vous risquez d'écraser les modifications d'autres collaborateurs.
 
-## Add a collaborator to a site
+## Ajouter un collaborateur à un site
 
-1. In [[Ruban]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Palette de commandes]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. Next to **Site collaboration**, select **Manage**.
-4. In **Invite user**, enter the email of the collaborator.
-5. Select **Add**.
+1. Dans le [[Ruban]], sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
+2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ![[lucide-cog.svg#icon]].
+3. À côté de **Collaboration sur le site**, sélectionnez **Gérer**.
+4. Dans **Inviter un utilisateur**, entrez l'adresse électronique du collaborateur.
+5. Sélectionnez **Ajouter**.
 
-## Remove a collaborator from a site
+## Retirer un collaborateur d'un site
 
-1. In [[Ruban]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Palette de commandes]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
-3. Next to **Site collaboration**, select **Manage**.
-4. Next to the collaborator you want to remove, select **Remove user** ( ![[lucide-x.svg#icon]]).
+1. Dans le [[Ruban]], sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
+2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+3. À côté de **Collaboration sur le site**, sélectionnez **Gérer**.
+4. À côté du collaborateur que vous souhaitez retirer, sélectionnez **Supprimer l'utilisateur** ( ![[lucide-x.svg#icon]]).
 
-## Sync changes between collaborators
+## Synchroniser les modifications entre collaborateurs
 
-Obsidian Publish doesn't sync published changes between local vaults automatically. Instead, collaborators need to manually sync changes from other collaborators.
+Obsidian Publish ne synchronise pas automatiquement les modifications publiées entre les coffres locaux. Les collaborateurs doivent plutôt synchroniser manuellement les modifications des autres collaborateurs.
 
-To update a local note with changes from the live site:
+Pour mettre à jour une note locale avec les modifications du site en ligne :
 
-1. In [[Ruban]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Palette de commandes]] and type **Publish: Publish changes...**
-2. Right-click or long-press the change you want to sync, and then select **Use live version**. **This will overwrite the note in your local vault.**
+1. Dans le [[Ruban]], sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
+2. Faites un clic droit ou un appui long sur la modification que vous souhaitez synchroniser, puis sélectionnez **Utiliser la version en ligne**. **Cela écrasera la note dans votre coffre local.**
 
-> [!tip] We recommend that you use another tool to sync changes between vaults, such as [[Introduction à Obsidian Sync|Obsidian Sync]] or [git](https://git-scm.com/).
+> [!tip] Nous recommandons d'utiliser un autre outil pour synchroniser les modifications entre les coffres, comme [[Introduction à Obsidian Sync|Obsidian Sync]] ou [git](https://git-scm.com/).
 
-## Permissions
+## Autorisations
 
-The following table lists the available site permissions for owners and collaborators:
+Le tableau suivant répertorie les autorisations de site disponibles pour les propriétaires et les collaborateurs :
 
-| Action                             | Collaborator | Owner |
-|------------------------------------|:------------:|:-----:|
-| Publish new pages                  | ✓            | ✓     |
-| Publish changes to published pages | ✓            | ✓     |
-| Unpublish pages                    | ✓            | ✓     |
-| Configure site options             |              | ✓     |
-| Manage permissions                 |              | ✓     |
-
+| Action                                          | Collaborateur | Propriétaire |
+|-------------------------------------------------|:-------------:|:------------:|
+| Publier de nouvelles pages                      | ✓             | ✓            |
+| Publier des modifications sur les pages publiées | ✓             | ✓            |
+| Dépublier des pages                             | ✓             | ✓            |
+| Configurer les options du site                  |               | ✓            |
+| Gérer les autorisations                         |               | ✓            |

@@ -2,22 +2,21 @@
 permalink: aliases
 cssclasses:
   - soft-embed
-localized: null
+localized: '2026-03-18'
 aliases:
   - Aliases
 ---
+Si vous souhaitez référencer un fichier en utilisant différents noms, envisagez d'ajouter des _alias_ à la note. Un alias est un nom alternatif pour une note.
 
-If you want to reference a file using different names, consider adding _aliases_ to the note. An alias is an alternative name for a note.
+Utilisez les alias pour des choses comme les acronymes, les surnoms, ou pour faire référence à une note dans une langue différente.
 
-Use aliases for things like acronyms, nicknames, or to refer to a note in a different language.
-
-If you're only trying to change how a link looks in one place, see how to [[Liens internes#Change the link display text|Change the link display text]] instead.
+Si vous souhaitez uniquement changer l'apparence d'un lien à un seul endroit, voyez plutôt comment [[Liens internes#Modifier le texte affiché du lien|Modifier le texte affiché du lien]].
 
 ![[Liens internes#^callout-internal-links-link-text]]
 
-## Add an alias to a note
+## Ajouter un alias à une note
 
-To add an alias for a note, add `aliases` property in the note [[Propriétés]]. Aliases should always be formatted as a list in YAML.
+Pour ajouter un alias à une note, ajoutez la propriété `aliases` dans les [[Propriétés]] de la note. Les alias doivent toujours être formatés sous forme de liste en YAML.
 
 ```md
 ---
@@ -30,22 +29,22 @@ aliases:
 # Dog
 ```
 
-## Link to a note using an alias
+## Lier une note en utilisant un alias
 
-To link to a note using an alias:
+Pour lier une note en utilisant un alias :
 
-1. Start typing the alias in an [[Liens internes|internal link]]. Any alias shows up in the list of suggestions, with a curved arrow icon next to it.
-2. Press `Enter` to select the alias.
+1. Commencez à taper l'alias dans un [[Liens internes|lien interne]]. Tout alias apparaît dans la liste de suggestions, avec une icône de flèche courbée à côté.
+2. Appuyez sur `Entrée` pour sélectionner l'alias.
 
-Obsidian creates the link with the alias as its custom display text, for example `[[Artificial Intelligence|AI]]`.
+Obsidian crée le lien avec l'alias comme texte d'affichage personnalisé, par exemple `[[Artificial Intelligence|AI]]`.
 
 > [!note]
-> Rather than just using the alias as the link destination (`[[AI]]`), Obsidian uses the `[[Artificial Intelligence|AI]]` link format to ensure interoperability with other applications using the Wikilink format.
+> Plutôt que d'utiliser simplement l'alias comme destination du lien (`[[AI]]`), Obsidian utilise le format de lien `[[Artificial Intelligence|AI]]` pour garantir l'interopérabilité avec d'autres applications utilisant le format lien wiki.
 
-## Find unlinked mentions for an alias
+## Trouver les mentions non liées pour un alias
 
-By using [[Liens retour]], you can find unlinked mentions of aliases.
+En utilisant les [[Rétroliens]], vous pouvez trouver les mentions non liées des alias.
 
-For example, after setting "AI" as an alias for "Artificial intelligence", you can see mentions of "AI" in other notes.
+Par exemple, après avoir défini « AI » comme alias pour « Artificial intelligence », vous pouvez voir les mentions de « AI » dans d'autres notes.
 
-If you link an unlinked mention to an alias, Obsidian turns the mention into an [[Liens internes|internal link]] with the alias as its display text.
+Si vous liez une mention non liée à un alias, Obsidian transforme la mention en [[Liens internes|lien interne]] avec l'alias comme texte d'affichage.

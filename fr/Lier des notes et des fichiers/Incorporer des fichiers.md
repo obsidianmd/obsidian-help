@@ -2,39 +2,38 @@
 permalink: embeds
 cssclasses:
   - soft-embed
-localized: null
+localized: '2026-03-18'
 aliases:
   - Embed files
 ---
+Découvrez comment intégrer d'autres notes et fichiers multimédias dans vos notes. En intégrant des fichiers dans vos notes, vous pouvez réutiliser du contenu à travers votre coffre.
 
-Learn how you can embed other notes and media into your notes. By embedding files in your notes, you can reuse content across your vault.
+Pour intégrer un fichier de votre coffre, ajoutez un point d'exclamation (`!`) devant un [[Liens internes|lien interne]]. Vous pouvez intégrer des fichiers dans n'importe lequel des [[Formats de fichiers acceptés]].
 
-To embed a file in your vault, add an exclamation mark (`!`) in front of an [[Liens internes|Internal link]]. You can embed files in any of the [[Formats de fichiers acceptés]].
+> [!tip] Intégration par glisser-déposer
+> Sur ordinateur, vous pouvez également glisser-déposer les fichiers pris en charge directement dans votre note pour les intégrer automatiquement.
 
-> [!tip] Drag and Drop embed  
-> On desktop, you can also drag and drop supported files directly into your note to embed them automatically.
+## Intégrer une note dans une autre note
 
-## Embed a note in another note
-
-To embed a note:
+Pour intégrer une note :
 
 ```md
 ![[Liens internes]]
 ```
 
-You can also embed links to [[Liens internes#Link to a heading in a note|headings]] and [[Liens internes#Link to a block in a note|blocks]].
+Vous pouvez également intégrer des liens vers des [[Liens internes#Lier un entête dans une note|entêtes]] et des [[Liens internes#Lier un bloc dans une note|blocs]].
 
 ```md
 ![[Liens internes#^b15695]]
 ```
 
-The text below is an example of an embedded block:
+Le texte ci-dessous est un exemple de bloc intégré :
 
 ![[Liens internes#^b15695]]
 
-## Embed an image in a note
+## Intégrer une image dans une note
 
-To embed an image:
+Pour intégrer une image :
 
 ```md
 ![[Engelbart.jpg]]
@@ -42,17 +41,17 @@ To embed an image:
 
 ![[Engelbart.jpg#outline]]
 
-You can change the image dimensions, by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
+Vous pouvez modifier les dimensions de l'image en ajoutant `|640x480` à la destination du lien, où 640 est la largeur et 480 est la hauteur.
 
 ```md
 ![[Engelbart.jpg|100x145]]
 ```
 
-If you only specify the width, the image scales according to its original aspect ratio. For example, `![[Engelbart.jpg|100]]`.
+Si vous ne spécifiez que la largeur, l'image est redimensionnée en respectant ses proportions d'origine. Par exemple, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-You can also embed an externally hosted image by using a markdown link. You can control the width and height the same way as a wikilink. 
+Vous pouvez également intégrer une image hébergée en externe en utilisant un lien Markdown. Vous pouvez contrôler la largeur et la hauteur de la même manière qu'avec un lien wiki.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -60,9 +59,9 @@ You can also embed an externally hosted image by using a markdown link. You can 
 
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
 
-## Embed an audio file in a note
+## Intégrer un fichier audio dans une note
 
-To embed an audio file:
+Pour intégrer un fichier audio :
 
 ```md
 ![[Excerpt from Mother of All Demos (1968).ogg]]
@@ -70,44 +69,44 @@ To embed an audio file:
 
 ![[Excerpt from Mother of All Demos (1968).ogg]]
 
-## Embed a PDF in a note
+## Intégrer un PDF dans une note
 
-To embed a PDF:
+Pour intégrer un PDF :
 
 ```md
 ![[Document.pdf]]
 ```
 
-You can also open a specific page in the PDF, by adding `#page=N` to the link destination, where `N` is the number of the page:
+Vous pouvez également ouvrir une page spécifique du PDF en ajoutant `#page=N` à la destination du lien, où `N` est le numéro de la page :
 
 ```md
 ![[Document.pdf#page=3]]
 ```
 
-You can also specify the height in pixels for the embedded PDF viewer, by adding `#height=[number]` to the link. For example:
+Vous pouvez aussi spécifier la hauteur en pixels du lecteur PDF intégré en ajoutant `#height=[nombre]` à la destination du lien. Par exemple :
 
 ```md
 ![[Document.pdf#height=400]]
 ```
 
-## Embed a list in a note
+## Intégrer une liste dans une note
 
-To embed a list from a different note, first add a [[Liens internes#Link to a block in a note|block identifier]] to your list:
+Pour intégrer une liste provenant d'une autre note, ajoutez d'abord un [[Liens internes#Lier un bloc dans une note|identifiant de bloc]] à votre liste :
 
 ```md
 
-- list item 1
-- list item 2
+- élément de liste 1
+- élément de liste 2
 
 ^my-list-id
 ```
 
-Then link to the list using the block identifier:
+Puis créez un lien vers la liste en utilisant l'identifiant de bloc :
 
 ```md
-![[My note#^my-list-id]]
+![[Ma note#^my-list-id]]
 ```
 
-## Embed search results 
+## Intégrer des résultats de recherche
 
-![[Recherche#Embed search results in a note]]
+![[Rechercher#Intégrer des résultats de recherche dans une note]]

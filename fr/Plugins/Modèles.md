@@ -10,37 +10,79 @@ mobile: true
 aliases:
   - Plugins/Templates
   - Templates
+localized: '2026-03-18'
 ---
-The Templates plugin lets you quickly insert snippets of text into your current note.
+Modèles est un [[Modules principaux|module principal]] qui vous permet d'insérer des extraits de texte prédéfinis dans votre note active.
 
-### Set up template folder
+## Définir votre dossier de modèles
 
-Each template snippet is just a normal Markdown note, like everything else in Obsidian.
+1. Dans le coin inférieur gauche, cliquez sur **[[Paramètres]]** ( ![[lucide-cog.svg#icon]] ).
+2. Sous **Modules principaux → Modèles → Emplacement du dossier de modèles**, saisissez le dossier contenant vos modèles.
 
-To designate template files, put them into a folder, and choose that folder in Settings → Templates → "Template folder location" after enabling the plugin
+## Variables de modèle
 
-### Insert a template
+Vous pouvez ajouter des informations dynamiques à vos modèles en utilisant des _variables de modèle_. Lorsque vous insérez un modèle contenant une variable de modèle, Modèles la remplace par sa valeur correspondante.
 
-After setting up the folder location, using the ribbon icon to insert the template. As always, you can also set a hotkey for this option, or use the command palette to access it.
+| Variable    | Description                                              |
+|-------------|----------------------------------------------------------|
+| `{{title}}` | Titre de la note active.                                 |
+| `{{date}}`  | Date du jour. **Format par défaut :** `YYYY-MM-DD`.     |
+| `{{time}}`  | Heure actuelle. **Format par défaut :** `HH:mm`.        |
 
-The template snippet will be inserted in the current caret position, with special text replaced by their actual value at the time of the insertion (see below).
+`{{date}}` et `{{time}}` vous permettent tous deux de modifier le format par défaut à l'aide d'une _chaîne de format_.
 
-### Insert date and time
+Pour définir une chaîne de format, ajoutez deux-points (`:`) suivis d'une chaîne de [jetons de format Moment.js](https://momentjs.com/docs/#/displaying/format/), par exemple `{{date:YYYY-MM-DD}}`.
 
-In the plugin settings of Template, you can also set a date format and a time format.
+Vous pouvez utiliser `{{date}}` et `{{time}}` de manière interchangeable avec des chaînes de format, par exemple `{{time:YYYY-MM-DD}}`.
 
-After setting these formats, `{{date}}` and `{{time}}` in the template files will be replaced by the formatting current time.
+Vous pouvez modifier les formats de date et d'heure par défaut sous **[[Paramètres]] → Modèles → Format de date** et **[[Paramètres]] → Modèles → Format d'heure**.
 
-For formatting syntax documentation, [please see here](https://momentjs.com/docs/#/displaying/format/).
+> [!tip]
+> Vous pouvez également utiliser les variables de modèle `{{date}}` et `{{time}}` dans les modules [[Notes quotidiennes]] et [[Créateur de note unique]].
 
-_Tip: if you want to have two date formats or two time formats, you can use the other `{{time}}` as the second `{{date}}`, or `{{date}}` as the second `{{time}}`._
+## Créer un modèle
 
-### One-off date formats
+Dans le [[#Définir votre dossier de modèles|dossier de modèles]], [[Gérer les notes#Créer une nouvelle note|créez une note]] contenant le texte que vous souhaitez voir apparaître lorsque vous utilisez le modèle. Vous pouvez utiliser des [[#Variables de modèle|variables de modèle]] pour du texte dynamique comme la date du jour.
 
-In addition to `{{date}}` and `{{time}}`, which will work in all template files, you can also write `{{date:YYYY-MM-DD}}` to insert a date with a certain format just once. This will override the `{{date}}` format. Anything after `:` will be considered part of the date format.
+Par exemple, voici un modèle pour des notes d'étude :
 
-`{{time:HH:mm}}` works similarly.
+```markdown
+---
+topic: 
+date: "{{date}}"
+course: 
+tags:
+  - studies
+---
 
-### Using custom date formats elsewhere
+# {{title}}
 
-Currently, dates like `{{date:YYYY-MM-DD}}` and `{{time:HH:mm}}` also work in the template file of the [[Notes quotidiennes]] and [[Zettelkasten prefixer]] plugins. However, `{{date}}` and `{{time}}` do not work yet.
+## Concepts clés
+
+
+## Détails importants
+
+
+## Exemples
+
+
+## Questions
+- 
+
+## Résumé
+
+
+## Sujets connexes
+- [[]]
+```
+
+## Insérer un modèle dans la note active
+
+**Important :** Pour insérer un modèle, vous devez d'abord [[#Définir votre dossier de modèles]].
+
+1. Dans le ruban, cliquez sur **Insérer un modèle**.
+2. Sélectionnez le modèle à insérer à la position du curseur dans la note active.
+
+## Propriétés de modèle
+
+![[Propriétés#^templates-properties]]

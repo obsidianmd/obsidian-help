@@ -1,48 +1,47 @@
 ---
 permalink: themes
-localized: null
+localized: '2026-03-18'
 aliases:
   - Themes
 ---
+Apprenez à modifier l'apparence d'Obsidian en utilisant des thèmes créés par la communauté.
 
-Learn how to change the look and feel of Obsidian using themes built by the community.
+## Parcourir les thèmes
 
-## Browse themes
+1. Ouvrez les **[[Paramètres]]**.
+2. Sous **Apparence → Thèmes**, sélectionnez **Gérer** pour lister tous les thèmes communautaires disponibles.
 
-1. Open **[[Paramètres]]**.
-2. Under **Appearance → Themes**, select **Manage** to list all available community themes.
+## Installer un nouveau thème
 
-## Install a new theme
+1. Ouvrez les **[[Paramètres]]**.
+2. Sous **Apparence → Thèmes**, sélectionnez **Gérer**.
+3. Sélectionnez le thème que vous souhaitez utiliser, puis sélectionnez **Installer et utiliser**.
 
-1. Open **[[Paramètres]]**.
-2. Under **Appearance → Themes**, select **Manage**.
-3. Select the theme you want to use, and then select **Install and use**.
+Obsidian installe le thème et l'applique immédiatement. Pour revenir au thème par défaut, sélectionnez **Cesser d'utiliser ce thème**.
 
-Obsidian installs the theme and immediately applies it. To revert back to the default theme, select **Stop using this theme**.
+## Mettre à jour les thèmes
 
-## Update themes
+Les thèmes ne se mettent pas à jour automatiquement. Vous pouvez soit mettre à jour tous les thèmes en une fois, soit mettre à jour des thèmes individuellement.
 
-Themes don't update automatically. You can either update all themes at once, or update individual themes.
+Pour mettre à jour tous vos thèmes :
 
-To update all your themes:
+1. Ouvrez les **[[Paramètres]]**.
+2. Sous **Apparence → Thèmes communautaires actuels**, sélectionnez **Vérifier les mises à jour**.
+3. Si des mises à jour sont disponibles, sélectionnez **Tout mettre à jour**.
 
-1. Open **[[Paramètres]]**.
-2. Under **Appearance → Current community themes**, select **Check for updates**.
-3. If updates are available, select **Update all**.
+Pour mettre à jour un thème individuel :
 
-To update an individual theme:
+1. Ouvrez les **[[Paramètres]]**.
+2. Sous **Apparence → Thèmes**, sélectionnez **Gérer**.
+3. Sélectionnez le thème que vous souhaitez mettre à jour, puis sélectionnez **Vérifier les mises à jour**.
+4. Si une mise à jour est disponible, sélectionnez **Mettre à jour**.
 
-1. Open **[[Paramètres]]**.
-2. Under **Appearance → Themes**, select **Manage**.
-3. Select the theme you want to update, and then select **Check for updates**.
-4. If an update is available, select **Update**.
+## Désinstaller un thème existant
 
-## Uninstall an existing theme
+1. Ouvrez les **[[Paramètres]]**.
+2. Sous **Apparence → Thèmes**, sélectionnez **Gérer**.
+3. Sélectionnez le thème que vous souhaitez supprimer, puis sélectionnez **Désinstaller**.
 
-1. Open **[[Paramètres]]**.
-2. Under **Appearance → Themes**, select **Manage**.
-3. Select the theme you want to use, and then select **Uninstall**.
+## En savoir plus
 
-## Learn more
-
-Ready to build your own theme? Learn how to [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) or create [[Extraits CSS]].
+Prêt à créer votre propre thème ? Apprenez comment [créer un thème](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) ou créez des [[Extraits CSS|extraits CSS]].

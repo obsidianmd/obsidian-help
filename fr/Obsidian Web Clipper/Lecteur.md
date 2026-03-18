@@ -1,37 +1,37 @@
 ---
 permalink: web-clipper/reader
-localized: null
+localized: '2026-03-18'
 aliases:
   - Reader
 ---
-[[Introduction à Obsidian Web Clipper|Web Clipper]] includes a built-in reading mode called Reader that strips away clutter from web pages, presenting only the main article content in a clean, readable format.
+[[Introduction à Obsidian Web Clipper|Web Clipper]] inclut un mode lecture intégré appelé Lecteur qui élimine les éléments superflus des pages web, présentant uniquement le contenu principal de l'article dans un format propre et lisible.
 
-## Activate reading mode
+## Activer le mode lecture
 
-You can activate Reader in several ways:
+Vous pouvez activer le Lecteur de plusieurs manières :
 
-- The **book icon** in the extension panel header.
-- Keyboard shortcut `Alt+Shift+R`, customizable in the extension settings.
-- Toggling reader mode again will restore the original page.
+- L'**icône de livre** dans l'en-tête du panneau de l'extension.
+- Le raccourci clavier `Alt+Shift+R`, personnalisable dans les paramètres de l'extension.
+- Activer à nouveau le mode lecture restaure la page originale.
 
-## How it works
+## Comment ça fonctionne
 
-Reader extracts the main content from the page. The original page is replaced with a clean reading view that includes:
+Le Lecteur extrait le contenu principal de la page. La page originale est remplacée par une vue de lecture épurée qui inclut :
 
-- The article title, author, publication date, and source domain.
-- The main article content, with images and formatting preserved.
-- An outline in the sidebar for articles with multiple headings.
-- Syntax highlighting for code blocks.
-- Footnote popovers that display inline when clicked.
+- Le titre de l'article, l'auteur, la date de publication et le domaine source.
+- Le contenu principal de l'article, avec les images et la mise en forme préservées.
+- Un plan dans la barre latérale pour les articles comportant plusieurs entêtes.
+- La coloration syntaxique pour les blocs de code.
+- Des fenêtres contextuelles pour les notes de bas de page qui s'affichent en ligne lorsqu'on clique dessus.
 
-## Customize the reading view
+## Personnaliser la vue de lecture
 
-Reader mode includes a hidden settings bar that you can display by hovering the top right corner of the page with controls to customize the reading experience.
+Le mode Lecteur comprend une barre de paramètres masquée que vous pouvez afficher en survolant le coin supérieur droit de la page, avec des contrôles pour personnaliser l'expérience de lecture.
 
-| Setting           | Description                                                                                |
-| ----------------- | ------------------------------------------------------------------------------------------ |
-| Font size         | Adjust the text size.                                                                      |
-| Line width        | Maximum width of the content area.                                                         |
-| Line height       | Spacing between lines.                                                                     |
-| Color&nbsp;scheme |                                                                                            |
-| Theme             | Automatic follows your system preference. Or choose to always use light mode or dark mode. |
+| Paramètre              | Description                                                                                                     |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Taille de police        | Ajuster la taille du texte.                                                                                     |
+| Largeur de ligne        | Largeur maximale de la zone de contenu.                                                                         |
+| Hauteur de ligne        | Espacement entre les lignes.                                                                                    |
+| Jeu&nbsp;de&nbsp;couleurs |                                                                                                              |
+| Thème                   | Automatique suit les préférences de votre système. Ou choisissez de toujours utiliser le mode clair ou sombre. |

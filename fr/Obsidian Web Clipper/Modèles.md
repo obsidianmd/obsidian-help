@@ -6,61 +6,66 @@ description: >-
 aliases:
   - Plugins/Web Clipper/Créer des templates
   - Templates
+localized: '2026-03-18'
 ---
-Le [[Introduction au Web Clipper d'Obsidian|Web clipper]] vous permet de créer des templates qui enregistrent et organisent automatiquement les métadonnées d'une page Web. Des exemples de templates sont disponibles sur [Github](https://github.com/kepano/clipper-templates). 
+[[Introduction à Obsidian Web Clipper|Web Clipper]] vous permet de créer des modèles qui capturent et organisent automatiquement les métadonnées des pages web. Des exemples de modèles sont disponibles dans le [dépôt clipper-templates](https://github.com/kepano/clipper-templates).
 
-### Créer ou éditer des templates
+## Créer ou modifier un modèle
 
-Les templates utilisent des variables et des filtres qui vous permettent de personnaliser la manière dont le contenu sera enregistré.
+Pour **créer** un modèle, allez dans les paramètres de Web Clipper et cliquez sur le bouton **New template** dans la barre latérale. Vous pouvez également **dupliquer** un modèle dans le menu **More** en haut à droite.
 
-Pour **créer** une template, aller dan les **Paramètres du Web clipper** et cliquez sur **Nouvelle template** dans la barre latérale. Vous pouvez aussi **dupliquer** une template dans le menu **Plus d'actions** dans le coin situé en haut à droite. 
+Pour **modifier** un modèle, choisissez un modèle dans la barre latérale. Vos modifications seront enregistrées automatiquement.
 
-Pour **éditer** une template, choisissez-en une dans la barre latérale avant de commencer à l'éditer. Vos changements seront automatiquement sauvegardés.
+Les modèles utilisent les [[Variables]] et les [[Filtres]], qui vous permettent d'adapter la façon dont le contenu sera enregistré.
 
-### Importer et exporter des templates
+## Importer et exporter des modèles Web Clipper
 
-Pour importer une template, suivez ces instructions : 
-1. Ouvrez l'extension et cliquez sur l'icône des **Paramètres** ;
-2. Sélectionnez une template dans la liste ;
-3. Cliquez sur **Importer** en haut à droite ou faites un glisser-déposer du fichier `.json` de la template. 
+Pour importer un modèle :
 
-Pour exporter une template, cliquez sur **Exporter** en haut à droite. Cela va télécharger le fichier  `.json` de la template. Vous pouvez aussi copier dans le presse-papier les données de la template via le menu **Plus**. 
+1. Ouvrez l'extension et cliquez sur l'icône d'engrenage **[[Paramètres]]**.
+2. Allez sur n'importe quel modèle dans la liste.
+3. Cliquez sur **Import** en haut à droite ou glissez-déposez votre ou vos fichiers de modèle `.json` n'importe où dans la zone de modèle.
 
-### Paramétrer les templates
+Pour exporter un modèle, cliquez sur **Export** en haut à droite. Cela téléchargera le fichier `.json` du modèle. Vous pouvez également copier les données du modèle dans votre presse-papiers via le menu **More**.
 
-#### Comportement
+## Paramètres de modèle
 
-Cela définit comment le contenu du enregistré avec le Web clipper sera ajouté à votre coffre Obsidian :
-- **Créer une nouvelle note** ;
-- **Ajouter à une note existante**, en haut ou tout en bas ;
-- **Ajouter à une note quotidienne**, en haut à droite (requiert d'activer le plugin [[notes quotidiennes]]). 
+### Comportement
 
-#### Activer une template automatiquement
+Définissez comment le contenu de Web Clipper sera ajouté dans Obsidian :
 
-L'activation automatique d'une template vous permet de d'en sélectionner une automatiquement en fonction de la page URL que vous êtes en train de consulter ou en fonction des données de [schema.org](https://schema.org/). Vous pouvez définir de multiples règles pour chaque template, séparées par une nouvelle ligne. 
+- **Créer une nouvelle note**
+- **Ajouter à une note existante**, en haut ou en bas
+- **Ajouter à la note quotidienne**, en haut ou en bas (nécessite que le module [[Notes quotidiennes|notes quotidiennes]] soit activé)
 
-La première ligne dans votre liste de templates indique laquelle est utilisée. Vous pouvez modifier leur ordre dans la liste en les faisant glisser de haut en bas dans les paramètres du Web clipper. 
+### Déclencher automatiquement un modèle
 
-##### Correspondance d'URL simple
+Les déclencheurs de modèle vous permettent de sélectionner automatiquement un modèle en fonction de l'URL de la page courante ou des données [schema.org](https://schema.org/). Vous pouvez définir plusieurs règles pour chaque modèle, séparées par un retour à la ligne.
 
-La correspondance simple déclenche une template si l'URL de la page commence par le pattern choisi. 
-	*Par exemple, `https://obsidian.md` activerait une template avec tous les URL commençant par ce texte.* 
+La première correspondance dans votre liste de modèles détermine quel modèle est utilisé. Vous pouvez faire glisser les modèles vers le haut ou vers le bas dans les paramètres de Web Clipper pour modifier l'ordre dans lequel les modèles sont comparés.
 
-##### Correspondance d'expression fréquente
+#### Correspondance d'URL simple
 
-Vous pouvez activer des templates sur la base d'URL plus complexes utilisant des expression fréquente. Encadrez l'expression entre des barres obliques (`/`). N'oubliez pas d'enlever les caractères spéciaux (comme par exemple `.` et `/`) avec une barre obliqué inversée (``\``). 
-	Exemple : `/^https:\/\/www\.imdb\.com\/title\/tt\d+\/reference\/?$/` activerait une template pour chaque page de référence du site IMBD. 
+La correspondance simple déclenche un modèle si l'URL de la page courante *commence par* le motif donné. Par exemple :
 
-##### Correspondance avec les données de Schema.org
+- `https://obsidian.md` correspondra à toute URL commençant par ce texte.
 
-Vous pouvez activer des templates en vous basant sur les données du site [schema.org](https://schema.org/) présentes sur la page que vous consultez. Pour cela, utilisez le préfixe `schema:` suivi de la clé de schéma que vous souhaitez. Vous pouvez, si vous le souhaitez, préciser une valeur attendue. 
-	Exemples :
-		-  ``schema:@Recipe`` activera une template sur les pages dont le type de schéma est "Recipe" ;
-		- `schema:@Recipe.name` activera une template sur les pages où`` @Recipe.name`` est présent dans le schéma ;
-		- `schema:@Recipe.name=Cookie` activera une template sur les pages où le schéma `` @Recipe.name`` est "Cookie". 
+#### Correspondance par expression régulière
 
-Les valeurs de schema.org peuvent aussi être utilisées pour préremplir les données dans les templates. 
+Vous pouvez déclencher des modèles en fonction de motifs d'URL plus complexes en utilisant des expressions régulières. Entourez votre motif d'expression régulière de barres obliques (`/`). N'oubliez pas d'échapper les caractères spéciaux dans les motifs d'expressions régulières (comme `.` et `/`) avec une barre oblique inversée (`\`). Par exemple :
 
-#### Le contexte de l'interpréteur
+- `/^https:\/\/www\.imdb\.com\/title\/tt\d+\/reference\/?$/` correspondra à toute page de référence IMDB.
 
-quand [[L'outil Interpréteur|l'interpréteur]] est activé, vous pouvez utiliser des variables de prompts pour extraire le contenu d'une page avec du langage naturel. Pour chaque template, vous pouvez définir le contexte auquel l'interpréteur a accès. 
+#### Correspondance schema.org
+
+Vous pouvez déclencher des modèles en fonction des données [schema.org](https://schema.org/) présentes sur la page. Utilisez le préfixe `schema:` suivi de la clé de schéma que vous souhaitez faire correspondre. Vous pouvez optionnellement spécifier une valeur attendue. Par exemple :
+
+- `schema:@Recipe` correspondra aux pages dont le type de schéma est « Recipe ».
+- `schema:@Recipe.name` correspondra aux pages où `@Recipe.name` est présent.
+- `schema:@Recipe.name=Cookie` correspondra aux pages où `@Recipe.name` est « Cookie ».
+
+Les valeurs schema.org peuvent également être utilisées pour [[Variables#Variables schema.org|pré-remplir des données dans les modèles]].
+
+### Contexte de l'interpréteur
+
+Lorsque l'[[Interpréter des pages web|interpréteur]] est activé, vous pouvez utiliser les [[Variables#Variables de prompt|variables de prompt]] pour extraire le contenu des pages en langage naturel. Pour chaque modèle, vous pouvez définir le [[Interpréter des pages web#Contexte|contexte]] auquel l'interpréteur a accès.

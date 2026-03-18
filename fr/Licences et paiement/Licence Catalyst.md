@@ -3,54 +3,56 @@ permalink: catalyst
 aliases:
   - Advanced Use/Licence Catalyst
   - Catalyst license
+localized: '2026-03-18'
 ---
-La licence Catalyst consiste en la réalisation d'un paiement unique qui vous donne un accès privilégié aux versions beta des mises à jours avant qu'elles ne soient officiellement ajoutées au logiciel. Cela permet de soutenir le développement d'Obsidian à la fois financièrement et en envoyant des retours au développeurs pour leur dire ce qu'il faudrait améliorer. Pour prendre votre licence Catalyst, [cliquez ici](https://obsidian.md/auth?returnto=%2Fbuy%2Fcatalyst). 
+La licence Catalyst est un achat unique qui vous donne un accès anticipé aux versions bêta et contribue à soutenir le développement continu d'Obsidian. Vous pouvez soutenir Obsidian en [achetant une licence Catalyst](https://obsidian.md/buy/catalyst).
 
-Concrètement, en prenant une licence Catalyst, les avantages dont vous bénéficierez sont : 
-- Accès en avant-première aux [[Licence Catalyst#Activer l'accès aux versions Beta|nouvelles versions]] d'Obsidian ; 
-- Accès exclusif au [[Licence Catalyst#Rejoindre notre canal Insider|canal "Insider"]] de notre communauté en ligne ;
-- L'obtention de badges exclusifs sur notre [[Licence Catalyst#Recevoir votre badge sur le forum|forum en ligne]] et dans notre [[Licence Catalyst#Recevoir votre badge Discord|communauté Discord]]. 
-# Les trois versions de Catalyst
+Les avantages incluent :
 
-Les trois versions de Catalyst sont respectivement basées sur le montant que vous payez. De la moins chère à la plus chère, il y a la *Catalyst Insider*, la *Catalyst Supporter*, et la *Catalyst VIP*.
+- Accès anticipé aux [[#Activer les versions en accès anticipé|nouvelles versions]] d'Obsidian
+- Accès aux [[#Rejoindre nos canaux Insider|canaux Insider]] exclusifs.
+- Des [[#Obtenir votre badge de forum|badges de forum]] et des [[#Obtenir votre badge Discord|badges Discord]] exclusifs.
 
-| **Bénéfices**                                                                                                 | **Insider** | **Supporter** |  **VIP**  |
-| :------------------------------------------------------------------------------------------------------------ | :---------: | :-----------: | :-------: |
-| Accès e avant-première aux nouvelles mises à jours                                                            |      ✓      |       ✓       |     ✓     |
-| Accès exclusif aux canaux consacrés au développement de l'application,`#insider-desktop` et `#insider-mobile` |      ✓      |       ✓       |     ✓     |
-| Accès au canal exclusif `#vip-lounge`                                                                         |             |       ✓       |     ✓     |
-| Badge Insider                                                                                                 |      ✓      |               |           |
-| Badge Supporter                                                                                               |             |       ✓       |           |
-| Badge VIP                                                                                                     |             |               |     ✓     |
-| **Prix (USD)**                                                                                                |  **25 $**   |   **50 $**    | **100 $** |
+## Niveaux Catalyst
+
+Il existe trois niveaux de Catalyst en fonction du montant de votre contribution : *Insider*, *Supporter* et *VIP*.
+
+| Avantages                                                                                       | Insider | Supporter |   VIP    |
+| ----------------------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
+| Accès anticipé aux nouvelles versions                                                           |    ✓    |     ✓     |    ✓     |
+| Accès aux canaux de développement exclusifs, `#insider-desktop` et `#insider-mobile`            |    ✓    |     ✓     |    ✓     |
+| Accès au canal salon exclusif, `#vip-lounge`                                                    |         |     ✓     |    ✓     |
+| Badge Insider                                                                                   |    ✓    |           |          |
+| Badge Supporter                                                                                 |         |     ✓     |          |
+| Badge VIP                                                                                       |         |           |    ✓     |
+| **Contribution (USD)**                                                                          | **25$** |  **50$**  | **100$** |
 
 
-> [!INFO] Mettre à niveau votre licence Catalyst
-> Si vous possédez déjà une licence Catalyst, vous pouvez la mettre à niveau vers une version plus élevée en payant la différence de prix entre celle que vous avez déjà payé et la nouvelle que vous souhaitez obtenir. 
+> [!info] Mettre à niveau votre niveau Catalyst
+> Si vous possédez déjà une licence Catalyst, vous pouvez passer à un niveau Catalyst supérieur en payant la différence de prix entre votre niveau actuel et le nouveau niveau.
 
-# Accéder aux bénéfices Catalyst
+## Accéder aux avantages Catalyst
 
-Une fois que vous avez souscris à une licence Catalyst, vous pouvez bénéficier d'une série de plusieurs avantages. Nous allons vous expliquer ci-dessous comment les activer. 
+Une fois que vous avez acheté une licence Catalyst, vous pouvez accéder à une gamme d'avantages. Découvrez ici comment les activer.
 
-## Recevoir votre badge sur le forum
+### Obtenir votre badge de forum
 
-> **À savoir avant de commencer :** pour connecter votre compte Obsidian à votre compte du forum, il vous faut utiliser la même adresse email pour les deux comptes. 
+**Remarque :** Pour connecter votre compte Obsidian et votre compte de forum, vous devez utiliser la même adresse électronique pour les deux comptes.
 
-Voici les étapes à suivre : 
-1. Si ce n'est pas encore fait, inscrivez-vous sur notre [forum en ligne](https://forum.obsidian.md/) ;
-2. Rendez-vous au [tableau de bord de votre compte Obsidian](https://obsidian.md/auth?returnto=%2Faccount%2Fcatalyst) ;
-3. Sous **Catalyst**, sélectionnez **Get forum badge**. 
-## Recevoir votre badge Discord
+1. Si ce n'est pas déjà fait, rejoignez notre [forum](https://forum.obsidian.md/).
+2. Rendez-vous sur le [tableau de bord de votre compte Obsidian](https://obsidian.md/account/catalyst).
+3. Sous **Catalyst**, sélectionnez **Get forum badge**.
 
-Voici les étapes à suivre : 
-1. Si ce n'est pas encore fait, inscrivez-vous sur notre [forum en ligne](https://forum.obsidian.md/) ;
-2. Rendez-vous au [tableau de bord de votre compte Obsidian](https://obsidian.md/auth?returnto=%2Faccount%2Fcatalyst) ;
-3. Sous **Catalyst**, sélectionnez **Get Discord badge**. 
+### Obtenir votre badge Discord
 
-## Rejoindre notre canal Insider
+1. Si ce n'est pas déjà fait, rejoignez notre [serveur Discord](https://discord.gg/veuWUTm).
+2. Rendez-vous sur le [tableau de bord de votre compte Obsidian](https://obsidian.md/account/catalyst).
+3. Sous **Catalyst**, sélectionnez **Get Discord badge**.
 
-Les membres Insiders peuvent chatter avec l'équipe d'Obsidian et les autres membres Insiders dans notre salon Discord exclusivement dédié à ce programme. Vous le rejoindrez automatiquement après avoir obtenu votre [[Licence Catalyst#Recevoir votre badge Discord|badge Discord]]. 
+### Rejoindre nos canaux Insider
 
-## Activer l'accès aux versions Beta
+Les Insiders peuvent discuter avec l'équipe Obsidian et d'autres Insiders dans nos canaux Discord exclusifs. Vous rejoignez automatiquement les canaux Insider après avoir [[#Obtenir votre badge Discord|obtenu votre badge Discord]].
 
-Pour savoir comment activer l'accès aux versions Beta, consultez notre page [[Versions Beta]]. 
+### Activer les versions en accès anticipé
+
+Découvrez comment recevoir les [[Versions en accès anticipé]].
