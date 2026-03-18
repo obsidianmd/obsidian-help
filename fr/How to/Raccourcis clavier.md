@@ -2,6 +2,7 @@
 permalink: hotkeys
 aliases:
   - How to/Raccourcis clavier
+  - Hotkeys
 ---
 Si vous avez activé la [[Palette de commandes]], vous pouvez utiliser `Ctrl / Cmd + P` pour l'afficher et faire apparaître toutes les commandes actuellement disponibles ainsi que leurs raccourcis clavier.
 

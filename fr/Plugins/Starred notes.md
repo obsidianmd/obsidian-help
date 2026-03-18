@@ -2,6 +2,7 @@
 permalink: plugins/bookmarks
 aliases:
   - Plugins/Starred notes
+  - Bookmarks
 ---
 # Notes favorites
 

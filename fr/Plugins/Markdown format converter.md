@@ -7,6 +7,7 @@ publish: true
 mobile: true
 aliases:
   - Plugins/Markdown format converter
+  - Format converter
 ---
 # Convertisseur de format Markdown
 

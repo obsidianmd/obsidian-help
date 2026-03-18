@@ -2,6 +2,7 @@
 permalink: plugins/outline
 aliases:
   - Plugins/Modules principaux/Plan
+  - Outline
 ---
 Plan est un [[Modules principaux|module principal]] qui fait la liste de tous les titres présents dans la note que vous consultez. Le plan se trouve par défaut dans le **volet rétractable de droite**, mais vous pouvez le déplacer par glisser-déposer si vous le souhaitez.
 

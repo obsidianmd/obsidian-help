@@ -5,6 +5,7 @@ publish: true
 mobile: true
 aliases:
   - How to/Formater vos notes
+  - Basic formatting syntax
 ---
 [[Obsidian]] est un logiciel de prise de notes et un logiciel de gestion des connaissances basé sur le format Markdown.
 

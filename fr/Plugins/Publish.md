@@ -5,6 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 aliases:
   - Plugins/Publish
+  - Introduction to Obsidian Publish
 ---
 The Publish plugin lets you publish notes from your vault onto your site, all from within the Obsidian app.
 

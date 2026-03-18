@@ -5,6 +5,7 @@ description: >-
   your keyboard.
 aliases:
   - Plugins/Modules principaux/Sélecteur rapide
+  - Quick switcher
 ---
 Le sélecteur rapide est un [[Modules principaux|module principal]] qui vous permet de d'ouvrir de nouvelles notes et même d'en créer de manière fluide et rapide.
 

@@ -10,6 +10,7 @@ publish: true
 mobile: true
 aliases:
   - Plugins/Modules principaux/Modules principaux
+  - Core plugins
 ---
 Cette page référence les modules principaux, lesquels sont pré-installés lorsque vous téléchargez Obsidian. Les modules principaux sont officiellement créés et mis à jours par l'équipe d'Obsidian, et inclus dans l'application.
 

@@ -5,6 +5,7 @@ publish: true
 mobile: true
 aliases:
   - Advanced Use/Formats acceptés
+  - Accepted file formats
 ---
 Obsidian reconnaît immédiatement les formats de fichiers suivants : 
 

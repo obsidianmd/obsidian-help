@@ -7,6 +7,7 @@ publish: true
 mobile: true
 aliases:
   - How to/Travailler avec plusieurs notes
+  - Tabs
 ---
 Vous pouvez modifier et afficher plusieurs fichiers en même temps dans Obsidian.
 

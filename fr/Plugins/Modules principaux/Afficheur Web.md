@@ -2,6 +2,7 @@
 permalink: plugins/web-viewer
 aliases:
   - Plugins/Modules principaux/Afficheur Web
+  - Web viewer
 ---
 L'afficheur Web est un [[Modules principaux|module principal]] vous permettant d'ouvrir des pages internet directement dans l'interface d'Obsidian. Cela vous permet de lire du contenu, de naviguer et faire des recherches sans avoir besoin de quitter le logiciel et de visualiser une page Web à côté d'une note Obsidian plus facilement en les faisant apparaître dans deux [[Travailler avec plusieurs volets|volets]] distincts.
 

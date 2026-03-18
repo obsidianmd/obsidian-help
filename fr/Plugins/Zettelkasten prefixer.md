@@ -2,6 +2,7 @@
 permalink: plugins/unique-note
 aliases:
   - Plugins/Zettelkasten prefixer
+  - Unique note creator
 ---
 # Préfixeur Zettelkasten
 

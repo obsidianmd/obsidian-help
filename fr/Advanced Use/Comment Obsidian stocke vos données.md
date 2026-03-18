@@ -5,6 +5,7 @@ publish: true
 mobile: true
 aliases:
   - Advanced Use/Comment Obsidian stocke vos données
+  - How Obsidian stores data
 ---
 Nous pensons que [[Traduction d'Obsidian/Traduits/3 Proposées/Obsidian#En quoi sommes-nous différents ?|vos données sont toujours vôtres, et toujours sous votre contrôle]]. Vos notes sont sauvegardées en format markdown, un format de fichiers basé sur du texte brut, et devraient alors être lisible dans le futur par n'importe quel ordinateur pouvant traiter du fichier texte. Vous pouvez éditer vos notes librement sur d'autres applications, qu'elles soient ouvertes conjointement avec Obsidian ou pas.
 

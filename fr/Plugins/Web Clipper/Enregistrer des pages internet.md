@@ -2,6 +2,7 @@
 permalink: web-clipper/capture
 aliases:
   - Plugins/Web Clipper/Enregistrer des pages internet
+  - Clip web pages
 ---
 Une fois que vous avez installé l'extension navigateur du [[Introduction au Web Clipper d'Obsidian|web clipper]], vous pouvez y accéder de différentes façons en fonction du navigateur que vous utilisez :
 1. L'icône Obsidian dans la barre d'outils du navigateur ; 

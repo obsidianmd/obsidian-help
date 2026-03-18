@@ -5,6 +5,7 @@ publish: true
 mobile: false
 aliases:
   - Plugins/Modules principaux/Module des rétroliens
+  - Backlinks
 ---
 Le module des **rétroliens** (ou des **occurrences liées**) est un [[Modules principaux|module principal]] qui montre comment la note que vous êtes en train de consulter est référencée dans d'autres notes. Après l'avoir activé, vous verrez le nombre de liens dirigés vers cette note dans la barre latérale droite.
 

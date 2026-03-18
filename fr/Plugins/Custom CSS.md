@@ -7,6 +7,7 @@ publish: true
 mobile: true
 aliases:
   - Plugins/Custom CSS
+  - CSS snippets
 ---
 # CSS personnalisé
 

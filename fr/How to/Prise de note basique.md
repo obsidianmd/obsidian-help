@@ -2,6 +2,7 @@
 permalink: link-notes
 aliases:
   - How to/Prise de note basique
+  - Link notes
 ---
 # Démarrage
 

@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

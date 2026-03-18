@@ -2,6 +2,7 @@
 permalink: plugins/audio-recorder
 aliases:
   - Plugins/Modules principaux/Enregistreur audio
+  - Audio recorder
 ---
 # Enregistreur audio
 

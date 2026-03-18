@@ -7,6 +7,7 @@ publish: true
 mobile: false
 aliases:
   - How to/Listes dépliantes
+  - Folding
 ---
 # Listes dépliantes
 

@@ -2,6 +2,7 @@
 permalink: translations
 aliases:
   - Advanced Use/Contribuer sur Obsidian
+  - Translations
 ---
 Nous vous remercions de l'intérêt que vous portez à Obsidian en contribuant à son développement !
 

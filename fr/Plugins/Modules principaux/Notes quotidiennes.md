@@ -2,6 +2,7 @@
 permalink: plugins/daily-notes
 aliases:
   - Plugins/Modules principaux/Notes quotidiennes
+  - Daily notes
 ---
 # Notes quotidiennes
 

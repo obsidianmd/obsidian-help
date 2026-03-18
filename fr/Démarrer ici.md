@@ -1,52 +1,76 @@
 ---
-permalink: /
+aliases:
+  - Démarrer ici
+  - Obsidian/Index
+  - Home
 cssclasses:
   - list-cards
   - hide-title
   - list-cards-mobile-full
-aliases:
-  - Démarrer ici
+permalink: /
+localized: 2026-03-18T00:00:00.000Z
 ---
-Bonjour ! Je suis une note dans votre coffre.
+# Aide Obsidian
 
-En même temps, je suis aussi juste un fichier sur votre disque dur. Tout est en texte brut, donc vous n'avez pas à vous inquiéter de me perdre au cas où [[Obsidian]] disparaîtrait un jour.
+Bienvenue sur le site officiel d'aide d'Obsidian, où vous trouverez des conseils et des guides sur l'utilisation d'[Obsidian](https://obsidian.md). Pour la documentation de l'API, consultez la [documentation développeur Obsidian](https://docs.obsidian.md/).
 
-## Démarrage rapide
+Vous pouvez consulter ce site dans plusieurs langues :
 
-Si vous êtes pressé, voici quelques liens à consulter pour commencer immédiatement :
+<select class="dropdown select-location">
+<option value="">English</option>
+<option value="https://publish.obsidian.md/help-ar">العربية</option>
+<option value="https://publish.obsidian.md/help-da">Dansk</option>
+<option value="https://publish.obsidian.md/help-es">Español</option>
+<option value="https://publish.obsidian.md/help-fr">Français</option>
+<option value="https://publish.obsidian.md/help-it">Italiano</option>
+<option value="https://publish.obsidian.md/help-ja">日本語</option>
+<option value="https://publish.obsidian.md/help-km">Phéasa Khmêr</option>
+<option value="https://publish.obsidian.md/help-ko">한국어</option>
+<option value="https://publish.obsidian.md/help-pt-br">Português</option>
+<option value="https://publish.obsidian.md/help-ru">Русский</option>
+<option value="https://publish.obsidian.md/help-vi">Tiếng Việt</option>
+<option value="https://publish.obsidian.md/help-zh">中文</option>
+</select>
 
-- La [[palette de commandes]] contient la plupart des commandes dont vous avez besoin pour utiliser Obsidian. Appuyez simplement sur `Ctrl/Cmd-P` et commencez à taper ;
-- [[Créer des notes|Créer de nouvelles notes]] ;
-- Créer des [[Liens internes]] ;
-- Utiliser le format Markdown pour [[Formater vos notes|mettre en forme vos notes]] ;
-- [[Fichiers incrémentés|Inclure des fichiers]] dan vos notes (ou y inclure d'autres notes) ;
-- Utiliser les [[raccourcis clavier]] ;
-- [[Travailler avec plusieurs notes|Ouvrir plusieurs fichiers côte à côte]] ;
-- Enrichir Obsidian avec des [[modules complémentaires]] (ou plugins). Plusieurs d'entre eux sont disponibles par défaut et peuvent être activés/désactivés selon vos besoins.
+## Premiers pas
 
-Si vous souhaitez une introduction plus approfondie, y compris un peu sur notre philosophie, allez consulter la note [[Obsidian]].
+Apprenez les bases de la prise de notes avec Obsidian :
 
-Si vous aimeriez une présentation en douceur ou si vous voulez simplement démarrer mais que vous ne savez pas par où commencer, dirigez-vous vers la page [[Prise de note basique]]. 
+1. [[Download and install Obsidian|Télécharger et installer Obsidian]]
+2. [[Create a vault|Créer un coffre]]
+3. [[Create your first note|Créer votre première note]]
+4. [[Link notes|Lier des notes]]
+5. [[Import notes|Importer des notes]]
+6. [[Sync your notes across devices|Synchroniser vos notes sur tous vos appareils]]
 
-Si vous avez pris une [licence Catalyst](https://obsidian.md/pricing) et que vous voulez profiter des versions bêta de l'application, consultez la note pour les [[version Beta|membres Beta]].
+## Étendre Obsidian
 
-## Comment utiliser Obsidian ?
+Avec des milliers de plugins et de thèmes, vous pouvez adapter Obsidian à votre façon de penser.
 
-Obsidian est un outil qui peut être utilisé de différentes façons, allant d'une simple liste de notes à un système de gestion des connaissances très puissant. Nous vous suggérons de commencer à votre propre rythme et d'en faire l'outil dont vous avez besoin.
+- [[Core plugins|Modules principaux]]
+	- Choisissez les fonctionnalités intégrées d'Obsidian que vous souhaitez activer ou désactiver.
+- [[Community plugins|Plugins communautaires]]
+	- Ajoutez de nouveaux flux de travail et capacités grâce aux fonctionnalités créées par la communauté.
+- [[Themes|Thèmes]]
+	- Personnalisez l'apparence d'Obsidian avec des palettes de couleurs créées par la communauté.
+- [[CSS snippets|Extraits CSS]]
+	- Apportez de petites modifications à l'interface en complément de votre thème Obsidian.
+- [[Introduction to Obsidian Web Clipper|Web Clipper]]
+	- Surlignez des pages web et enregistrez du contenu dans Obsidian grâce à notre extension de navigateur.
+- [[Obsidian CLI]]
+	- Contrôlez Obsidian depuis votre terminal via l'interface en ligne de commande.
 
-**Voici quelques façons de commencer :**
+## Services complémentaires
 
-Si vous voulez simplement commencer à prendre des notes, allez consulter la note [[Prise de note basique]]. 
+- [[Introduction to Obsidian Sync|Obsidian Sync]]
+	- Une façon sûre et sécurisée de synchroniser vos notes sur tous vos appareils et systèmes d'exploitation.
+- [[Introduction to Obsidian Publish|Obsidian Publish]]
+	- Publiez vos notes sous forme de wiki, base de connaissances, documentation ou jardin numérique.
 
-Si vous avez déjà une collection de notes au format Markdown, choisissez simplement d'en faire votre coffre. Cliquez sur l'icône du coffre-fort dans le coin inférieur gauche, sélectionnez  "Open folder as a Vault" et indiquez le dossier où se trouvent vos notes.
+## Contribuer
 
-Si vous avez des notes issues de ==Roam Research==, ==Notion,== ou bien d'autres applications, [[Importer des notes|voici comment les importer]].
+Si vous trouvez des erreurs ou des informations manquantes sur ce site, vous pouvez contribuer des améliorations et des traductions via [le dépôt GitHub](https://github.com/obsidianmd/obsidian-docs/).
 
-Si vous aimeriez en savoir plus sur Obsidian, vous pouvez [[Obsidian|lire notre histoire]].
+Si vous souhaitez contribuer financièrement à Obsidian, envisagez une [[Catalyst license|licence Catalyst]] qui offre un accès anticipé aux versions bêta, ou une [[Commercial license|licence commerciale]] pour témoigner du soutien de votre organisation.
 
-Au fait, sentez-vous libre d'éditer ces pages d'aide mais sachez que lorsque vous cliquerez sur Paramètres => Aide => Ouvrir l'aide, vos modifications seront perdues. Alors n'écrivez dans la documentation d'aide rien que vous voudriez conserver.
-
-## J'ai des questions
-
-Si vous avez des questions, venez nous rejoindre dans [notre communauté](https://obsidian.md/community). Nous avons un salon Discord actif et des forums communautaires qui sont généralement très utiles.
-Si vous voulez participer au développement d'Obsidian, vous pouvez faire un tour sur notre page [GitHub](https://github.com/obsidianmd). Notez toutefois que cela n'aura d'intérêt pour vous seulement si vous connaissez déjà bien Obsidian. 
+Consultez les [[Credits|Crédits]] pour découvrir toutes les personnes formidables qui rendent Obsidian possible.

@@ -5,6 +5,7 @@ publish: true
 mobile: false
 aliases:
   - How to/Gérer les notes
+  - Manage notes
 ---
 Vous pouvez  gérer vos notes, fichiers et dossiers de plusieurs façons, en utilisant des [[raccourcis clavier]], la [[palette de commandes]], ou l'[[explorateur de fichiers]]. 
 

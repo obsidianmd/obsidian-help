@@ -9,6 +9,7 @@ publish: true
 mobile: true
 aliases:
   - How to/Liens internes
+  - Internal links
 ---
 Les liens internes sont l'épine dorsale de votre réseau de connaissances. C'est en créant des liens entre les fichiers de votre coffre que vous constituerez votre réseau de connaissances. ^c6d720
 

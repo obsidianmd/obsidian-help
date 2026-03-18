@@ -2,6 +2,7 @@
 permalink: edit-and-read
 aliases:
   - How to/Modes édition et aperçu
+  - Views and editing mode
 ---
 # Modes édition et aperçu
 

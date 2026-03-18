@@ -2,6 +2,7 @@
 permalink: obsidian
 aliases:
   - Obsidian
+  - About Obsidian
 ---
 ## Qu'est-ce que Obsidian ?
 

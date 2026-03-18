@@ -8,6 +8,7 @@ publish: true
 mobile: true
 aliases:
   - Plugins/Module d'importation
+  - Importer
 ---
 Le module d'importation vous aide à migrer vos fichiers vers Obsidian depuis un grand nombre d'applications et formats. Pour en savoir plus sur la marche à suivre, consultez la note [[Importer des notes]]. Il s'agit d'un [[Modules complémentaires|module complémentaire]] officiel. Cela veut dire qu'il a été conçu par l'équipe Obsidian avec la contribution de membres de notre communauté d'utilisateurs pour construire le [code source ouvert](https://github.com/obsidianmd/obsidian-importer). Si vous le souhaitez, vous pouvez également contribuer au développement de ce module en ajoutant des formats qui ne seraient pas encore pris en charge. Pour cela, consultez le [guide de contribution](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md). 
 

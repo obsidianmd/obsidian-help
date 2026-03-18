@@ -5,6 +5,7 @@ description: >-
   automatically with Web Clipper.
 aliases:
   - Plugins/Web Clipper/Créer des templates
+  - Templates
 ---
 Le [[Introduction au Web Clipper d'Obsidian|Web clipper]] vous permet de créer des templates qui enregistrent et organisent automatiquement les métadonnées d'une page Web. Des exemples de templates sont disponibles sur [Github](https://github.com/kepano/clipper-templates). 
 

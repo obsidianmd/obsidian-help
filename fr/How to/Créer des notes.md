@@ -7,6 +7,7 @@ publish: true
 mobile: false
 aliases:
   - How to/Créer des notes
+  - Create your first note
 ---
 Les notes peuvent être créées principalement de deux manières différentes, selon votre façon de travailler :
 1. **Approche "La Note d'abord"**. Si vous avez besoin de créer une note, vous pouvez le faire dans l'[[explorateur de fichiers]], ou avec le raccourci clavier `Ctrl / Cmd + N`. Vous pouvez également, si vous avez laissé activée l'extension [[Palette de commandes]] (elle est activée par défaut), appuyez sur `Ctrl / Cmd-p` et tapez "Créer une nouvelle note", puis validez en cliquant sur Entrer.

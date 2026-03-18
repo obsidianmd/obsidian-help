@@ -7,6 +7,7 @@ publish: true
 mobile: true
 aliases:
   - Plugins/Open in default app
+  - File explorer
 ---
 # Ouvrir dans l'application par défaut
 

@@ -2,6 +2,7 @@
 permalink: catalyst
 aliases:
   - Advanced Use/Licence Catalyst
+  - Catalyst license
 ---
 La licence Catalyst consiste en la réalisation d'un paiement unique qui vous donne un accès privilégié aux versions beta des mises à jours avant qu'elles ne soient officiellement ajoutées au logiciel. Cela permet de soutenir le développement d'Obsidian à la fois financièrement et en envoyant des retours au développeurs pour leur dire ce qu'il faudrait améliorer. Pour prendre votre licence Catalyst, [cliquez ici](https://obsidian.md/auth?returnto=%2Fbuy%2Fcatalyst). 
 

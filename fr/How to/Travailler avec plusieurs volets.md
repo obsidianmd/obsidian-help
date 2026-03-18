@@ -7,6 +7,7 @@ publish: true
 mobile: true
 aliases:
   - How to/Travailler avec plusieurs volets
+  - Workspace
 ---
 Dans Obsidian chaque note est affichée dans son propre onglet. Ceux-ci peuvent être divisés, dupliqués ou déplacés pour créer l'espace de travail dont vous avez besoin.
 
