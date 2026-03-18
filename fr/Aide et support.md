@@ -1,0 +1,107 @@
+---
+permalink: resources
+description: >-
+  Find support resources, report security or community violations, and learn how
+  to contribute to Obsidian.
+publish: true
+mobile: true
+localized: null
+aliases:
+  - Help and support
+---
+
+Find support resources, report security or community violations, and learn how to contribute to Obsidian.
+
+## Questions and advice
+
+If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
+
+- [[Sandbox vault|Explore the Sandbox vault]]
+- [Join our Discord server](https://discord.gg/obsidianmd)
+- [Visit the forum](https://forum.obsidian.md/)
+
+### Report bugs and request features
+
+> [!tip]- Check for duplicates first
+> Before you request a new feature or report a bug, please look through the other posts to make sure someone else hasn't already submitted it.
+
+If you want to suggest a feature in Obsidian, head over to [Feature requests](https://forum.obsidian.md/c/feature-requests/8).
+
+If you want to report a bug in Obsidian, head over to [Bug reports](https://forum.obsidian.md/c/bug-reports/7). Bug reports are moved to the [Bug graveyard](https://forum.obsidian.md/c/bug-graveyard/12) once they're resolved.
+
+### Collect debug information
+
+When you encounter a bug or need assistance from [[#Contact Obsidian support|Obsidian support]], providing debug information can be very helpful. Here's how to obtain it:
+
+1. Open the [[Command palette]].
+2. Type **Show debug info**.
+3. Select the highlighted **Show debug info** option.
+4. Select **Copy to clipboard**.
+5. Paste the copied information into your bug report or Obsidian support email.
+
+### Check startup time
+
+You can check how long Obsidian takes to start by using the **Startup time** feature.
+
+1. Open **[[Settings]] → General → Advanced**.
+2. Next to **Notify if startup takes longer than expected**, select the **timer icon**.
+3. A **Startup time** window will appear, showing detailed timing information:
+   - **Total app startup**: Overall launch time.
+   - **Initialization**: Time spent loading the app itself.
+   - **Vault**: Time to load your vault files.
+   - **Workspace**: Time to restore tabs and layout.
+   - **Core plugins**: Time used by active core plugins.
+4. You can select **Copy to clipboard** to copy the report for troubleshooting or sharing.
+
+Additionally, you can toggle **Notify if startup takes longer than expected** to receive a warning if startup is unusually slow.
+
+### Capture console logs
+
+When you need to report a bug related to an Obsidian plugin or when requested by [[#Contact Obsidian support|Obsidian support]] to provide log information, you may need to access the Obsidian console from within the Obsidian application. Here’s how to do it based on your operating system:
+
+- **Windows/Linux**: `Ctrl+Shift+I`
+- **macOS**: `Command+Option+I`
+
+> [!info]+ Alternative access method
+> If using the **Obsidian frame** Window frame style, you can also access the Obsidian console via the title menu. 
+
+Once you've opened the developer console:
+
+1. Select **console** in the top menu.
+2. Choose the **errors** side menu option. Any errors will be displayed as `# errors`.
+3. Select one of the red error messages.
+4. Choose the option to **Save as...** This will save all the errors in the console.
+5. Save the log file to your device.
+6. Attach the log file to your bug report or Obsidian support email.
+
+![[help-support-console-menu.png#interface|600]]
+
+> [!warning]+ Mobile console access
+> Mobile devices and tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) to automatically generate the console log data in a markdown note.
+
+### Contact Obsidian support
+
+Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
+
+## Report a security issue
+
+If you've discovered a security issue in Obsidian, or if you suspect that a plugin is malicious, please [email the Obsidian team](mailto:support@obsidian.md).
+
+## Report a Code of Conduct violation
+
+Whether you're a victim or witness of a violation of our [[Community code of conduct]], you can report the incident to our moderator team
+
+Report the incident on one of the following community channels:
+
+- [[Community code of conduct#Report on Discord|Report on Discord]]
+- [[Community code of conduct#Report on the forum|Report on the forum]]
+
+## Contributing to Obsidian
+
+Interested in applying some skills and free time to Obsidian? Here is where we could really use your assistance:
+
+- Help your fellow Obsidian users out by answering questions on our [discord server](https://discord.gg/obsidianmd), our [forum](https://forum.obsidian.md/), or the [ObsidianMD](https://old.reddit.com/r/ObsidianMD/) reddit.
+- [[Developers]], we could really use your help on expanding our [Obsidian Developer Documentation](https://github.com/obsidianmd/obsidian-developer-docs). 
+- Do you know any written language besides English? Consider assisting with our [[Translations]] into other languages.
+- Is there something in these help docs that are out of date, or confusing? Grab the [[Style guide]] and submit an [issue and pull request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+- If able, you can [[Financial contributions|financially contribute]] by utilizing one of our paid add-ons. 
