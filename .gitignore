@@ -12,6 +12,7 @@ Thumbs.db
 .env
 scripts/node_modules
 scripts/package-lock.json
+scripts/llm-config.json
 
 .idea/
 .css.map

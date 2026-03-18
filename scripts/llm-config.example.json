@@ -1,0 +1,5 @@
+{
+  "model": "claude-opus-4-6",
+  "termsPath": "../../obsidian-translations/terms.txt",
+  "delayMs": 1000
+}
