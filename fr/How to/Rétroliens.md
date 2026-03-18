@@ -1,3 +1,11 @@
+---
+permalink: plugins/backlinks
+description: 'With the Backlinks plugin, you can see all the backlinks for the active note.'
+publish: true
+mobile: false
+aliases:
+  - How to/Rétroliens
+---
 Les rétroliens sont l'une des fonctionnalités les plus puissantes d'Obsidian. Ils vous permettent de voir quels sont les liens venant d'autres notes qui pointent vers la note que vous être en train de consulter. Notez qu'il s'agit de l'un des [[modules principaux]] d'Obsidian. Il est activé par défaut, mais vous pouvez le désactiver si vous le souhaitez en allant dans les **Paramètres des Modules principaux**. 
 
 # Comment voir les rétroliens d'une note ?

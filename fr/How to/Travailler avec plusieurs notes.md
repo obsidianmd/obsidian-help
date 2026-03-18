@@ -1,3 +1,13 @@
+---
+permalink: tabs
+description: >-
+  Learn how to open, organize, and manage tabs in Obsidian, including pinning,
+  stacking, and linked views.
+publish: true
+mobile: true
+aliases:
+  - How to/Travailler avec plusieurs notes
+---
 Vous pouvez modifier et afficher plusieurs fichiers en même temps dans Obsidian.
 
 Afin d'utiliser efficacement la disposition fractionnée, voici quelques principes qu'il vous sera utile de connaître pour commencer :

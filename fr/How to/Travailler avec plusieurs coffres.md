@@ -1,3 +1,8 @@
+---
+permalink: manage-vaults
+aliases:
+  - How to/Travailler avec plusieurs coffres
+---
 Chaque ensemble de notes dans Obsidian est appelé  un *"coffre"*. Ce coffre correspond à un dossier principal appelé *"dossier racine"* (un terme qu'on rencontre parfois quand on modifie certains paramètres). Le dossier racine, ou coffre, contient tous les fichiers et dossiers qui apparaîtrons quand vous entrerez dans votre coffre. En ce moment, vous vous trouvez dans le coffre `Aide d'Obsidian`, qui est simplement un coffre inclus avec le logiciel.
 
 Vous pouvez ouvrir un autre coffre n'importe où sur votre ordinateur, et il mémorisera ses propres paramètres et modules. Ceci est utile, par exemple, si vous avez un coffre dans lequel vous conservez des notes, et un autre dans lequel vous rédigez de longs documents.

@@ -1,3 +1,8 @@
+---
+permalink: early-access
+aliases:
+  - Advanced Use/Versions Beta
+---
 Si vous avez souscris à une [[licence Catalyst]], vous avez accès aux nouvelles mise à jours avant leur mise à disposition sur le site Internet pour tout le monde. 
 
 

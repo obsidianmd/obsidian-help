@@ -1,3 +1,11 @@
+---
+permalink: data-storage
+description: This page explains how Obsidian stores its data on your device.
+publish: true
+mobile: true
+aliases:
+  - Advanced Use/Comment Obsidian stocke vos données
+---
 Nous pensons que [[Traduction d'Obsidian/Traduits/3 Proposées/Obsidian#En quoi sommes-nous différents ?|vos données sont toujours vôtres, et toujours sous votre contrôle]]. Vos notes sont sauvegardées en format markdown, un format de fichiers basé sur du texte brut, et devraient alors être lisible dans le futur par n'importe quel ordinateur pouvant traiter du fichier texte. Vous pouvez éditer vos notes librement sur d'autres applications, qu'elles soient ouvertes conjointement avec Obsidian ou pas.
 
 Toutefois, il y a certaines données utiles pour l'application qui ne sont pas sauvegardées en markdown. Obsidian crée un dossier appelé `.obsidian` à la racine de chaque coffre que vous créez. Il contient toute votre configuration, allant de vos [[raccourcis clavier]] à vos [[modules complémentaires]]. Dans la plupart des systèmes, un dossier commençant par un point est invisible, donc vous n'allez probablement jamais le voir, à moins de le chercher activement. Si vous supprimez le dossier `.obsidian`, aucune de vos notes ne sera supprimée, mais vous perdrez la configuration de tous vos paramètres et tous les modules installés disparaîtrons. Il sera automatiquement recréé lorsque vous ouvrirez votre coffre sur Obsidian une nouvelle fois. 

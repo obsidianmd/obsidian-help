@@ -1,3 +1,8 @@
+---
+permalink: plugins/bookmarks
+aliases:
+  - Plugins/Starred notes
+---
 # Notes favorites
 
 Les notes favorites sont un moyen pratique de garder les notes importantes à portée de main. L'activation du plugin créera une icône en forme d'étoile sur le panneau de gauche, qui affichera une liste de notes favorites. 

@@ -1,3 +1,11 @@
+---
+permalink: web-clipper
+cssclasses:
+  - list-cards
+  - list-cards-mobile-full
+aliases:
+  - Plugins/Web Clipper/Introduction au Web Clipper d'Obsidian
+---
 Le web clipper d'Obsidian est une extension de navigateur internet gratuite qui vous permet de surligner, annoter et sauvegarder dans votre coffre des le contenu des pages internet.
 
 > [!warning] Nécessite Obsidian 1.7.2 ou version antérieure

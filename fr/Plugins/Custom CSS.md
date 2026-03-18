@@ -1,3 +1,13 @@
+---
+permalink: snippets
+description: >-
+  Learn how to change parts of the Obsidian app’s appearance without creating a
+  full theme.
+publish: true
+mobile: true
+aliases:
+  - Plugins/Custom CSS
+---
 # CSS personnalisé
 
 Lorsqu'il est activé, Obsidian recherchera un fichier appelé `obsidian.css` dans le répertoire racine de votre coffre-fort, et s'il existe, l'applique à l'application elle-même.

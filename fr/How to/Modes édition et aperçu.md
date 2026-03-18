@@ -1,3 +1,8 @@
+---
+permalink: edit-and-read
+aliases:
+  - How to/Modes édition et aperçu
+---
 # Modes édition et aperçu
 
 Dans Obsidian, un document peut être visualisé en mode édition ou en mode aperçu. En mode édition, vous verrez l'affichage Markdown de base, mais certaines choses, comme la coloration syntaxique du code et les fichiers intégrés, n'apparaîtront qu'en mode aperçu. Notamment, toutes les images que vous intégrez ne seront visibles qu'en mode aperçu.

@@ -1,3 +1,8 @@
+---
+permalink: plugins/audio-recorder
+aliases:
+  - Plugins/Modules principaux/Enregistreur audio
+---
 # Enregistreur audio
 
 L'enregistreur audio est un [[module principal|Modules principaux]] qui vous permet de faire un enregistrement sans quitter Obsidian. Il est utile pour les notes de cours et de réunion lorsque vous ne pouvez pas suivre pour une quelconque raison, ou pour enregistrer des discussions importantes afin de ne manquer aucun détail.

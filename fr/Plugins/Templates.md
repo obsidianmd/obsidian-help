@@ -1,3 +1,15 @@
+---
+permalink: plugins/templates
+cssclasses:
+  - soft-embed
+description: >-
+  Templates is a Core plugins|core plugin that lets you insert pre-defined
+  snippets of text into your active note.
+publish: true
+mobile: true
+aliases:
+  - Plugins/Templates
+---
 The Templates plugin lets you quickly insert snippets of text into your current note.
 
 ### Set up template folder

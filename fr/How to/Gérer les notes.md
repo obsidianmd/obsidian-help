@@ -1,3 +1,11 @@
+---
+permalink: manage-notes
+description: null
+publish: true
+mobile: false
+aliases:
+  - How to/Gérer les notes
+---
 Vous pouvez  gérer vos notes, fichiers et dossiers de plusieurs façons, en utilisant des [[raccourcis clavier]], la [[palette de commandes]], ou l'[[explorateur de fichiers]]. 
 
 # Créer une nouvelle note

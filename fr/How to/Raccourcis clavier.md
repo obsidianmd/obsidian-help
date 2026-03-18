@@ -1,3 +1,8 @@
+---
+permalink: hotkeys
+aliases:
+  - How to/Raccourcis clavier
+---
 Si vous avez activé la [[Palette de commandes]], vous pouvez utiliser `Ctrl / Cmd + P` pour l'afficher et faire apparaître toutes les commandes actuellement disponibles ainsi que leurs raccourcis clavier.
 
 La plupart des raccourcis clavier peuvent être redéfinis selon vos besoins dans **[[Paramètres]] => Raccourcis clavier**.

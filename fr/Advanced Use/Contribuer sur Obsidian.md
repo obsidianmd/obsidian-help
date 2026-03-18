@@ -1,3 +1,8 @@
+---
+permalink: translations
+aliases:
+  - Advanced Use/Contribuer sur Obsidian
+---
 Nous vous remercions de l'intérêt que vous portez à Obsidian en contribuant à son développement !
 
 Il y a trois manières principales de contribuer :

@@ -1,3 +1,8 @@
+---
+permalink: link-notes
+aliases:
+  - How to/Prise de note basique
+---
 # Démarrage
 
 Si vous venez d'ouvrir Obsidian, vous devriez voir deux documents à cet emplacement. Dans le volet de gauche un fichier texte que vous pouvez modifier en utilisant la syntaxe Markdown. Dans le volet droit un _Aperçu_ du même fichier texte si vous deviez l'exporter au format HTML ou en tant que document PDF. Remarquez que certaines choses sont différentes dans Aperçu, le plus évident étant que les liens ne sont pas entre crochets. Pour ouvrir un lien, cliquez dessus dans le volet Aperçu. Vous pouvez également ouvrir les liens dans le volet Editeur, en maintenant `Ctrl / Cmd` et en cliquant sur le lien. Si vous souhaitez revenir à la page sur laquelle vous étiez auparavant, cliquez sur la flèche "précédent" en haut à gauche du cadre d'affichage de la note pour activer la commande "Naviguer en arrière". Vous pouvez faire le chemin inverse avec la flèche "suivant" qui se situe juste à côté (commande "Naviguer vers l'avant"). Vous pouvez aussi faire cela en utilisant le raccourci `Ctrl / Cmd-alt-Flèche Gauche` pour revenir à la note précédente et le racourci `Ctrl / Cmd-alt-Flèche Droite` pour revenir à la note suivante.

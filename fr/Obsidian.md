@@ -1,3 +1,8 @@
+---
+permalink: obsidian
+aliases:
+  - Obsidian
+---
 ## Qu'est-ce que Obsidian ?
 
 Obsidian est à la fois un éditeur Markdown et une application de base de connaissances.

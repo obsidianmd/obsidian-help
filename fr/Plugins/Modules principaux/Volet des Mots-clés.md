@@ -1,3 +1,8 @@
+---
+permalink: plugins/tags
+aliases:
+  - Plugins/Modules principaux/Volet des Mots-clés
+---
 Le volet des [[mots-clés]] (ou tags) est un [[Modules principaux|module principal]] qui vous permet d'avoir une vue d'ensemble de tous les tags que vous utilisez dans votre coffre. Il se trouve par défaut dans le volet rétractable de droite, mais vous pouvez le mettre ailleurs selon votre convenance. 
 
 Vous pouvez agir sur l'affichage des [[mots-clés]] de plusieurs façon différentes qui sont similaires à ce qu'il est possible de faire avec l'[[explorateur de fichiers]] :

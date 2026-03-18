@@ -1,3 +1,13 @@
+---
+permalink: folding
+description: >-
+  Learn how to get a better overview of large notes by using folding to hide
+  parts of the note
+publish: true
+mobile: false
+aliases:
+  - How to/Listes dépliantes
+---
 # Listes dépliantes
 
 Les listes dépliantes sont un outil très puissant pour organiser l'information ou écrire, afin d'être bien concentré sur votre travail. 

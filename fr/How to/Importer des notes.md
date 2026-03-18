@@ -1,3 +1,10 @@
+---
+permalink: import
+cssclasses:
+  - list-cards
+aliases:
+  - How to/Importer des notes
+---
 Les applications vont et viennes, mais vos données devraient toujours rester utilisables. Obsidian utilise le format de fichiers texte non-propriétaire "Markdown" pour un stockage local dans votre machine. Ainsi, vous avez un contrôle total sur toutes vos données, ce qui signifie que vous pouvez utiliser Obsidian en étant hors ligne et passer facilement à une autre application  quand vous en avez besoin. 
 
 Il y a quelques différences de fonctionnement entre les divers [Systèmes de Gestion des Connaissances Personnelle](https://fr.wikipedia.org/wiki/Gestion_des_connaissances_personnelles) (*Personnal Knowledge Management*, ou *PKM*) et les outils de prise de notes classiques, ce qui entraîne parfois quelques difficultés dans la migration entre eux. Pour la plupart d'entre eux, si vos notes peuvent être converties au format Markdown, cela fonctionnera assez bien dans Obsidian. Mais certains éléments, comme les balises et les liens, peuvent être plus délicats.

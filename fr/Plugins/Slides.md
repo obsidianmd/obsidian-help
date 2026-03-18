@@ -1,3 +1,8 @@
+---
+permalink: plugins/slides
+aliases:
+  - Plugins/Slides
+---
 # Diapositives
 
 Slides vous permet de faire des présentations simples directement dans Obsidian.

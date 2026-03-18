@@ -1,3 +1,9 @@
+---
+permalink: plugins/word-count
+description: Learn about the Word Count core plugin.
+aliases:
+  - Plugins/Word count
+---
 # Nombre de mots
 
 Le nombre de mots est un simple plugin qui montre le nombre de mots de votre note actuelle dans la barre d'état inférieure.

@@ -1,3 +1,11 @@
+---
+permalink: publish
+cssclasses:
+  - list-cards
+  - list-cards-mobile-full
+aliases:
+  - Plugins/Publish
+---
 The Publish plugin lets you publish notes from your vault onto your site, all from within the Obsidian app.
 
 For more information about the Obsidian Publish™ service, what's included, how it works, and privacy, see the [[Obsidian Publish]] add-on service.

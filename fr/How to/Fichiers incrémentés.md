@@ -1,3 +1,8 @@
+---
+permalink: plugins/unique-note
+aliases:
+  - How to/Fichiers incrémentés
+---
 Vous pouvez incrémenter des fichiers en tant que pièces-jointes dans vos notes, c'est-à-dire les inclures à l'intérieur en rendant leur contenu visible. C'est possible avec toutes sortes de fichiers utilisant un format universel (par exemple : .md ; .png ; .pdf ; .mp3 ; .mp4 ; etc.). Que ces fichiers soient du texte, de l'image, de la vidéo ou même du son, le principe est toujours le même : utilisez la syntaxe `[[nom de fichier.png]]` pour les images ; `[[nom de fichier.md]]` pour les notes Obsidian ; `[[nom de fichier.pdf]]` pour les documents PDF, etc. Vous pouvez aussi faire cela avec un glisser-déposer depuis l'[[explorateur de fichiers]], ce qui permet de ne pas passer par la syntaxe précédemment décrite.  ^812a39
 
 Voici un exemple avec une image : ![[montagnes.avif]] Photo de [Jonny Gios](https://unsplash.com/fr/@supergios) sur [Unsplash](https://unsplash.com/fr). 

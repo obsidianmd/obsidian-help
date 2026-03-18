@@ -1,3 +1,13 @@
+---
+permalink: create-note
+cssclasses:
+  - soft-embed
+description: null
+publish: true
+mobile: false
+aliases:
+  - How to/Créer des notes
+---
 Les notes peuvent être créées principalement de deux manières différentes, selon votre façon de travailler :
 1. **Approche "La Note d'abord"**. Si vous avez besoin de créer une note, vous pouvez le faire dans l'[[explorateur de fichiers]], ou avec le raccourci clavier `Ctrl / Cmd + N`. Vous pouvez également, si vous avez laissé activée l'extension [[Palette de commandes]] (elle est activée par défaut), appuyez sur `Ctrl / Cmd-p` et tapez "Créer une nouvelle note", puis validez en cliquant sur Entrer.
 2. **Approche "Le Lien d'abord"**. Si vous aimez créer librement des notes au fil de l'écriture, utilisez simplement un [[Liens internes|lien interne]] pour créer un lien vers le nom de la note que vous voulez créer plus tard (elle n'a pas besoin d'exister au moment de la création du lien). Pour écrire dans la note nouvellement créée, cliquez simplement sur le nom du lien. Elle sera automatiquement créée dans votre dossier et prête à la saisie !

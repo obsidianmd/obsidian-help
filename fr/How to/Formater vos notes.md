@@ -1,3 +1,11 @@
+---
+permalink: syntax
+description: 'Learn how to apply basic formatting to your notes in Obsidian, using Markdown.'
+publish: true
+mobile: true
+aliases:
+  - How to/Formater vos notes
+---
 [[Obsidian]] est un logiciel de prise de notes et un logiciel de gestion des connaissances basé sur le format Markdown.
 
 Le logiciel supporte actuellement tous les formats listés ci-dessous :

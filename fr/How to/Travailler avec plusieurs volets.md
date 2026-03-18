@@ -1,3 +1,13 @@
+---
+permalink: workspace
+description: >-
+  Learn about the Obsidian workspace and its core components on desktop and
+  mobile.
+publish: true
+mobile: true
+aliases:
+  - How to/Travailler avec plusieurs volets
+---
 Dans Obsidian chaque note est affichée dans son propre onglet. Ceux-ci peuvent être divisés, dupliqués ou déplacés pour créer l'espace de travail dont vous avez besoin.
 
 La disposition des onglets peut être réorganisée en les faisant glisser en haut de l'interface. Glisser-déposer sur l'un ou l'autre des quatre côtés d'un volet existant crée une division horizontale ou verticale, et glisser-déposer au milieu permute les positions avec le volet cible.

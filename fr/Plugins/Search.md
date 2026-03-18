@@ -1,3 +1,13 @@
+---
+permalink: plugins/search
+description: >-
+  Search is a core plugin that helps you find data in your Obsidian vault by
+  using search terms and operators to narrow down results.
+publish: true
+mobile: true
+aliases:
+  - Plugins/Search
+---
 # Recherches
 
 ![[search.png]]

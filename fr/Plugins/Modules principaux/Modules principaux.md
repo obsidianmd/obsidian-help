@@ -1,3 +1,16 @@
+---
+permalink: plugins
+cssclasses:
+  - list-cards
+  - list-cards-mobile-full
+description: >-
+  This page lists the core plugins that come installed with Obsidian, and
+  community plugins they also maintain.
+publish: true
+mobile: true
+aliases:
+  - Plugins/Modules principaux/Modules principaux
+---
 Cette page référence les modules principaux, lesquels sont pré-installés lorsque vous téléchargez Obsidian. Les modules principaux sont officiellement créés et mis à jours par l'équipe d'Obsidian, et inclus dans l'application.
 
 Certains modules principaux sont désactivés par défaut. Vous pouvez les activer dans **[[Paramètres]]** **→** **Plugins principaux.** 

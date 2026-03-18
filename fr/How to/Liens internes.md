@@ -1,3 +1,15 @@
+---
+permalink: links
+cssclasses:
+  - soft-embed
+description: >-
+  Learn how to link to notes, attachments, and other files from your notes,
+  using internal links.
+publish: true
+mobile: true
+aliases:
+  - How to/Liens internes
+---
 Les liens internes sont l'épine dorsale de votre réseau de connaissances. C'est en créant des liens entre les fichiers de votre coffre que vous constituerez votre réseau de connaissances. ^c6d720
 
 Obsidian actualise automatiquement les liens internes dans votre coffre lorsque vous les renommez. Si vous préférez que le logiciel vous demande à chaque fois si vous souhaitez actualiser le lien, vous pouvez désactiver cela en allant dans :

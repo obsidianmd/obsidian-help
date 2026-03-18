@@ -1,3 +1,8 @@
+---
+permalink: plugins/page-preview
+aliases:
+  - Plugins/Modules principaux/Aperçu de page
+---
 L'aperçu de la page est un [[Modules principaux|module principal]] vous permettant de prévisualiser une page lorsque vous survolez un lien interne avec le curseur de la souris, sans avoir à l'ouvrir.
 
 Pour prévisualiser une page, appuyer sur la touche `Ctrl / Cmd` tout en plaçant la souris au-dessus d'un [[liens internes|lien interne]] sans cliquer dessus. Cela fonctionne dans le corps de texte d'une note (en [[Modes édition et aperçu|mode édition et en mode aperçu]]), dans l'[[explorateur de fichiers]] dans les résultats de la fonction [[recherche]], dans l'entête des onglets, dans la vue des [[propriétés]], les signets, le module [[Bases]], le module [[Kanban]] et la [[vue graphique]]. 

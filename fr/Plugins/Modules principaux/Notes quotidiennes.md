@@ -1,3 +1,8 @@
+---
+permalink: plugins/daily-notes
+aliases:
+  - Plugins/Modules principaux/Notes quotidiennes
+---
 # Notes quotidiennes
 
 Note quotidienne est un [[Modules principaux|module principal]] qui crée une nouvelle note qui sera automatiquement nommée avec la date actuelle. Si elle existe déjà, il ouvrira cette note. C'est un moyen utile de tenir un journal quotidien, faire une liste de tâches ou une liste de liens vers des notes que vous avez créées un jour spécifique.

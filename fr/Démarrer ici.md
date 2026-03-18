@@ -1,3 +1,12 @@
+---
+permalink: /
+cssclasses:
+  - list-cards
+  - hide-title
+  - list-cards-mobile-full
+aliases:
+  - Démarrer ici
+---
 Bonjour ! Je suis une note dans votre coffre.
 
 En même temps, je suis aussi juste un fichier sur votre disque dur. Tout est en texte brut, donc vous n'avez pas à vous inquiéter de me perdre au cas où [[Obsidian]] disparaîtrait un jour.

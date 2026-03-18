@@ -1,3 +1,11 @@
+---
+permalink: file-formats
+description: This page describes the accepted file formats within Obsidian.
+publish: true
+mobile: true
+aliases:
+  - Advanced Use/Formats acceptés
+---
 Obsidian reconnaît immédiatement les formats de fichiers suivants : 
 
 1. fichiers Markdown : `md`

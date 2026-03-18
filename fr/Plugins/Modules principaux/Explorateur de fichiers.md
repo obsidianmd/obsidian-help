@@ -1,3 +1,13 @@
+---
+permalink: plugins/file-explorer
+description: >-
+  File explorer is a core plugin that lets you manage files and folders inside
+  your vault.
+publish: true
+mobile: true
+aliases:
+  - Plugins/Modules principaux/Explorateur de fichiers
+---
 # Explorateur de fichiers
 L'explorateur de fichiers affiche [[Formats acceptés | la liste des fichiers que Obsidian peut reconnaître]] dans votre coffre-fort. Vous pouvez ouvrir des notes, [[Create notes | créer des notes]] et des dossiers et [[Rename notes | renommer des notes]].
 
