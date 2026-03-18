@@ -1,6 +1,11 @@
 ---
 aliases:
   - CSS snippets
+  - 扩展 Obsidian/CSS 代码片段
+permalink: snippets
+localized:
+publish: true
+mobile: true
 ---
 
 CSS 代码片段可以让你快速修改 Obsidian 的外观，而无需[开发一个主题](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)。

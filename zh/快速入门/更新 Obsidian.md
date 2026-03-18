@@ -1,6 +1,9 @@
 ---
 aliases:
   - Update Obsidian
+  - 快速入门/更新 Obsidian
+permalink: updates
+localized:
 ---
 
 Obsidian 会定期自动检查更新。当有更新时，重新启动应用程序即可完成更新。

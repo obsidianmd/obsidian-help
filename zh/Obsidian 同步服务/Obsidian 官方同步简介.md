@@ -3,9 +3,14 @@ aliases:
   - Obsidian Sync
   - Introduction to Obsidian Sync
   - 官方同步
+  - Obsidian 同步服务/Obsidian 官方同步简介
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+permalink: sync
+localized:
+publish: true
+mobile: true
 ---
 
 [Obsidian 官方同步](https://obsidian.md/sync) 是 Obsidian 的附加服务，它可以让你在多台设备间安全保密地同步笔记。

@@ -1,6 +1,10 @@
 ---
 aliases:
   - Obsidian
+  - Obsidian/关于 Obsidian
+  - About Obsidian
+permalink: obsidian
+localized:
 ---
 
 ## 什么是 Obsidian

@@ -3,6 +3,9 @@ aliases:
   - Licenses & Payment/Catalyst license
   - 许可证与付款/Catalyst 许可证
   - Catalyst license
+  - 许可证与支付/Catalyst 个人许可证
+permalink: catalyst
+localized:
 ---
 
 对个人来说，Obsidian 是免费使用的，但你可以通过购买 _Catalyst_ 许可证来支持 Obsidian 的开发。

@@ -1,6 +1,11 @@
 ---
 aliases:
   - How Obsidian stores data
+  - 文件与文件夹/Obsidian 的储存机制
+permalink: data-storage
+localized:
+publish: true
+mobile: true
 ---
 
 Obsidian 将你的笔记以 [[基本格式语法|Markdown]] 纯文本文件形式存储在仓库中。仓库是你本地文件系统上的一个文件夹，包括了其下的所有子文件夹。

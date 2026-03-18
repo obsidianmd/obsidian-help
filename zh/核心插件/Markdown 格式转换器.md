@@ -2,6 +2,11 @@
 aliases:
   - Format converter
   - 格式转换器
+  - 核心插件/Markdown 格式转换器
+permalink: plugins/format-converter
+localized:
+publish: true
+mobile: true
 ---
 
 Markdown 格式转换器可以将其他应用程序中的 Markdown 语法转换为 Obsidian 风格的语法。

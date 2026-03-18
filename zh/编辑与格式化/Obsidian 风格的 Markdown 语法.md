@@ -1,6 +1,11 @@
 ---
 aliases:
   - Obsidian Flavored Markdown
+  - 编辑与格式化/Obsidian 风格的 Markdown 语法
+permalink: obsidian-flavored-markdown
+localized:
+publish: true
+mobile: true
 ---
 
 Obsidian 致力于在不新增语法的情况下尽可能实现所有功能。因此，我们使用了多种风格的[[基本格式语法|Markdown 语法]]。
