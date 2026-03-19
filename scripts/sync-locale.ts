@@ -296,14 +296,16 @@ for (const absPath of collectAllMd(localeDir)) {
 }
 
 // ─── Root asset sync (publish.js, publish.css, favicons, etc.) ───────────────
-// Copy any non-markdown file at the en/ root that's missing from the locale root.
+// Copy any non-markdown file at the en/ root to the locale root, overwriting if changed.
 
 for (const entry of fs.readdirSync(enDir, { withFileTypes: true })) {
   if (!entry.isFile() || entry.name.endsWith(".md") || entry.name.startsWith(".")) continue;
   const src = path.join(enDir, entry.name);
   const dest = path.join(localeDir, entry.name);
-  if (!fs.existsSync(dest)) {
-    console.log(`  ASSET   ${entry.name}`);
+  const srcContent = fs.readFileSync(src);
+  const destContent = fs.existsSync(dest) ? fs.readFileSync(dest) : null;
+  if (!destContent || !srcContent.equals(destContent)) {
+    console.log(`  ASSET   ${entry.name}${destContent ? " (updated)" : ""}`);
     if (!dryRun) fs.copyFileSync(src, dest);
   }
 }

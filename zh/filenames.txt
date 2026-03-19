@@ -728,11 +728,11 @@ translation=Obsidian
 
 [folder.Obsidian Publish]
 original=Obsidian Publish
-translation=Obsidian 发布服务
+translation=Obsidian Publish
 
 [folder.Obsidian Sync]
 original=Obsidian Sync
-translation=Obsidian 同步服务
+translation=Obsidian Sync
 
 [folder.Obsidian Web Clipper]
 original=Obsidian Web Clipper
