@@ -3,7 +3,7 @@ aliases:
   - Obsidian URI
   - 扩展 Obsidian/Obsidian URI
 permalink: uri
-localized:
+localized: 2024-07-10
 ---
 
 Obsidian URI 是 Obsidian 自定义的 URI 协议，可以触发各种操作，比如打开笔记或创建笔记。

@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: bases/views/cards
+aliases:
+  - Bases/Layouts/Cards view
 ---
 Cards is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
 

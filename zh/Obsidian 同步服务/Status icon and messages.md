@@ -6,6 +6,8 @@ mobile: true
 description: >-
   This page explains the Obsidian Sync status icons and provides details about
   the sync activity log.
+aliases:
+  - Obsidian 同步服务/Status icon and messages
 ---
 
 Obsidian Sync provides several elements to indicate sync status, mainly the [[#Sync status icon]] and [[#Sync activity log]]. Details about version control in Obsidian Sync are covered in the [[Version history]] page.

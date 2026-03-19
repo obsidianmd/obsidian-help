@@ -4,6 +4,8 @@ permalink: bases/syntax
 publish: true
 mobile: true
 description: This page provides an introduction to Bases syntax in Obsidian.
+aliases:
+  - Bases/Bases syntax
 ---
 
 When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.

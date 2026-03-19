@@ -6,6 +6,8 @@ cssclasses:
 publish: true
 mobile: true
 description: Learn how to transition from your current syncing solution to Obsidian Sync.
+aliases:
+  - Obsidian 同步服务/Switch to Obsidian Sync
 ---
 Learn how to transition from your current syncing solution to Obsidian Sync.
 

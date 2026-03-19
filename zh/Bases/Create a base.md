@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: bases/create-base
+aliases:
+  - Bases/Create a base
 ---
 [[Introduction to Bases|Bases]] let you create database-like views of your notes. Here's how you can create a base and embed it in a note. Every base can have one or more [[Views|views]] to display information in different ways.
 

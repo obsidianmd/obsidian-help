@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: plugins/web-viewer
+aliases:
+  - 核心插件/Web viewer
 ---
 Web viewer is a [[Core plugins|core plugin]] that lets you open external links within Obsidian on desktop. This lets you reading link content without leaving the app and makes multitasking on web research projects easier.
 

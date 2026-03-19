@@ -2,6 +2,8 @@
 permalink: import/markdown
 aliases:
   - Import Markdown files
+  - 导入笔记/导入 Markdown 文件
+localized: 2024-07-10
 ---
 
 由于 Obsidian 使用Markdown（`.md`）文件作为笔记的主要格式，这使得将Markdown 文件导入 Obsidian 变得非常简单。许多应用程序支持将数据导出为Markdown 文件。

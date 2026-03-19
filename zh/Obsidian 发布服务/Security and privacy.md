@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: publish/security
+aliases:
+  - Obsidian 发布服务/Security and privacy
 ---
 You can choose the notes you want to publish to [[Introduction to Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
 

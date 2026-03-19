@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: publish/seo
+aliases:
+  - Obsidian 发布服务/SEO
 ---
 [[Introduction to Obsidian Publish|Obsidian Publish]] sites are automatically optimized for search engines and [[Social media link previews|social sharing cards]]. You can also customize page metadata with descriptions, permalinks, and images.
 

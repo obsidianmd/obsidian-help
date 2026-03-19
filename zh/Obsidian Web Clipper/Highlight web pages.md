@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: web-clipper/highlight
+aliases:
+  - Obsidian Web Clipper/Highlight web pages
 ---
 [[Introduction to Obsidian Web Clipper|Web Clipper]] lets you highlight text on web pages, and select the elements you want to save to Obsidian. Your highlights are saved, so you can revisit them when you return to a page.
 

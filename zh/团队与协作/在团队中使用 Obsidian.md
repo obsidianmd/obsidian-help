@@ -7,7 +7,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: teams
-localized:
+localized: 2024-07-10
 ---
 Obsidian 可以作为个人的笔记软件使用，也可以作为团队的协作工具使用。
 

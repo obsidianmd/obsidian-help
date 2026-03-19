@@ -3,7 +3,7 @@ aliases:
   - How Obsidian stores data
   - 文件与文件夹/Obsidian 的储存机制
 permalink: data-storage
-localized:
+localized: 2024-11-28
 publish: true
 mobile: true
 ---

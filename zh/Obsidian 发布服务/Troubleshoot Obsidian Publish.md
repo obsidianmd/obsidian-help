@@ -6,6 +6,8 @@ mobile: true
 description: >-
   This page details some common problems that you may run into when using
   Obsidian Publish
+aliases:
+  - Obsidian 发布服务/Troubleshoot Obsidian Publish
 ---
 This page lists common issues you might encounter with [[Introduction to Obsidian Publish|Obsidian Publish]] and how to address them.
 

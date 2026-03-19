@@ -2,6 +2,8 @@
 localized:
 permalink: cli
 description: Anything you can do in Obsidian can be done from the command line.
+aliases:
+  - 扩展 Obsidian/Obsidian CLI
 ---
 Obsidian CLI is a command line interface that lets you control Obsidian from your terminal for scripting, automation, and integration with external tools.
 

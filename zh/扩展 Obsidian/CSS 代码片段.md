@@ -3,7 +3,7 @@ aliases:
   - CSS snippets
   - 扩展 Obsidian/CSS 代码片段
 permalink: snippets
-localized:
+localized: 2024-07-10
 publish: true
 mobile: true
 ---

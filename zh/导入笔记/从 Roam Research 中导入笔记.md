@@ -2,6 +2,8 @@
 permalink: import/roam
 aliases:
   - Import from Roam Research
+  - 导入笔记/从 Roam Research 中导入笔记
+localized: 2024-07-10
 ---
 
 在 Obsidian 中，你可以使用[[迁移助手|Importer插件]]轻松迁移 Roam Research 笔记。这将把你 Roam Research 中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。

@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: bases/views/map
+aliases:
+  - Bases/Layouts/Map view
 ---
 Map is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]]. It requires installing the [Maps plugin](obsidian://show-plugin?id=maps).
 

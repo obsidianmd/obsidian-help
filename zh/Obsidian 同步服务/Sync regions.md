@@ -6,6 +6,8 @@ cssclasses:
 publish: true
 mobile: true
 description: Move your Sync vault to a different region.
+aliases:
+  - Obsidian 同步服务/Sync regions
 ---
 When you create a [[Local and remote vaults|remote vault]] through [[Introduction to Obsidian Sync|Obsidian Sync]] your data is encrypted and stored on one of Obsidian's regional Sync servers. This guide explains how to move your Sync vault to a different regional server.
 

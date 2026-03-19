@@ -4,6 +4,8 @@ permalink: settings
 publish: true
 mobile: true
 description: Learn how to customize Obsidian through the Settings interface.
+aliases:
+  - 用户界面/Settings
 ---
 
 Settings allow you to customize your Obsidian experience. Configure general options, editor preferences, appearance, keyboard shortcuts, and manage both core and community plugins.

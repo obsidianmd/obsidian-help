@@ -6,6 +6,8 @@ mobile: true
 description: >-
   This page details the functions used in Obsidian Bases to manipulate data from
   properties in filters and formulas.
+aliases:
+  - Bases/Functions
 ---
 
 Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[properties]] in [[Views#Filters|filters]] and [[formulas]]. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.

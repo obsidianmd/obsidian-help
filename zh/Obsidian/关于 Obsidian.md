@@ -4,7 +4,7 @@ aliases:
   - Obsidian/关于 Obsidian
   - About Obsidian
 permalink: obsidian
-localized:
+localized: 2024-07-10
 ---
 
 ## 什么是 Obsidian

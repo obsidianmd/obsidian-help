@@ -6,6 +6,8 @@ cssclasses:
 publish: true
 mobile: true
 description: 'Move your Sync vault to a different region, perform and encryption upgrade.'
+aliases:
+  - Obsidian 同步服务/Upgrade Sync encryption
 ---
 By default Obsidian Sync uses [[Obsidian Sync/Security and privacy#Encryption|end-to-end encryption]] for all your data. This guarantees that no one — not even the Obsidian team — can access your notes.
 

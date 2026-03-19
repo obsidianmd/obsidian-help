@@ -30,6 +30,46 @@ translation=附件
 original=Back up your Obsidian files
 translation=备份笔记
 
+[file.bases]
+original=Introduction to Bases
+translation=Introduction to Bases
+
+[file.bases/create-base]
+original=Create a base
+translation=Create a base
+
+[file.bases/functions]
+original=Functions
+translation=Functions
+
+[file.bases/roadmap]
+original=Bases roadmap
+translation=Bases roadmap
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Bases syntax
+
+[file.bases/views]
+original=Views
+translation=Views
+
+[file.bases/views/cards]
+original=Cards view
+translation=Cards view
+
+[file.bases/views/list]
+original=List view
+translation=List view
+
+[file.bases/views/map]
+original=Map view
+translation=Map view
+
+[file.bases/views/table]
+original=Table view
+translation=Table view
+
 [file.callouts]
 original=Callouts
 translation=标注
@@ -37,6 +77,10 @@ translation=标注
 [file.catalyst]
 original=Catalyst license
 translation=Catalyst 个人许可证
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
 
 [file.community-code-of-conduct]
 original=Community code of conduct
@@ -110,9 +154,17 @@ translation=捐赠
 original=Folding
 translation=折叠
 
+[file.formulas]
+original=Formulas
+translation=Formulas
+
 [file.glossary]
 original=Glossary
 translation=术语表
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
 
 [file.hotkeys]
 original=Hotkeys
@@ -122,6 +174,10 @@ translation=快捷键
 original=Import notes
 translation=导入笔记
 
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Import from Apple Journal
+
 [file.import/apple-notes]
 original=Import from Apple Notes
 translation=从苹果备忘录中导入笔记
@@ -129,6 +185,14 @@ translation=从苹果备忘录中导入笔记
 [file.import/bear]
 original=Import from Bear
 translation=从熊掌记中导入笔记
+
+[file.import/craft]
+original=Import from Craft
+translation=Import from Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=Import CSV files
 
 [file.import/evernote]
 original=Import from Evernote
@@ -157,6 +221,10 @@ translation=从 Microsoft OneNote 中导入笔记
 [file.import/roam]
 original=Import from Roam Research
 translation=从 Roam Research 中导入笔记
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Import Textbundle files
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -306,6 +374,10 @@ translation=斜杠命令
 original=Slides
 translation=幻灯片
 
+[file.plugins/tags]
+original=Tags view
+translation=Tags view
+
 [file.plugins/templates]
 original=Templates
 translation=模板
@@ -313,6 +385,10 @@ translation=模板
 [file.plugins/unique-note]
 original=Unique note creator
 translation=时间戳笔记生成器
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Web viewer
 
 [file.plugins/word-count]
 original=Word count
@@ -358,9 +434,21 @@ translation=发布功能展望
 original=Media files
 translation=发布媒体文件
 
+[file.publish/permalinks]
+original=Permalinks
+translation=Permalinks
+
 [file.publish/publish]
 original=Publish your content
 translation=发布笔记与取消发布
+
+[file.publish/security]
+original=Security and privacy
+translation=Security and privacy
+
+[file.publish/seo]
+original=SEO
+translation=SEO
 
 [file.publish/setup]
 original=Set up Obsidian Publish
@@ -374,6 +462,10 @@ translation=管理网站
 original=Social media link previews
 translation=自定义分享链接
 
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Troubleshoot Obsidian Publish
+
 [file.refunds]
 original=Refund policy
 translation=退款政策
@@ -385,6 +477,18 @@ translation=帮助与支持
 [file.ribbon]
 original=Ribbon
 translation=功能区
+
+[file.sales-tax]
+original=Sales tax
+translation=Sales tax
+
+[file.sandbox]
+original=Sandbox vault
+translation=Sandbox vault
+
+[file.settings]
+original=Settings
+translation=Settings
 
 [file.sidebar]
 original=Sidebar
@@ -422,13 +526,25 @@ translation=共享远程仓库进行协作
 original=Frequently asked questions
 translation=同步常见问题
 
+[file.sync/headless]
+original=Headless Sync
+translation=Headless Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Status icon and messages
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Upgrade Sync encryption
+
 [file.sync/plans]
 original=Plans and storage limits
 translation=订阅计划与容量限制
 
-[file.sync/security]
-original=Security and privacy
-translation=网站的安全与隐私
+[file.sync/region]
+original=Sync regions
+translation=Sync regions
 
 [file.sync/security]
 original=Security and privacy
@@ -441,6 +557,10 @@ translation=同步文件和设置
 [file.sync/setup]
 original=Set up Obsidian Sync
 translation=启动同步服务
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Switch to Obsidian Sync
 
 [file.sync/troubleshoot]
 original=Troubleshoot Obsidian Sync
@@ -464,10 +584,6 @@ translation=标签页
 
 [file.tags]
 original=Tags
-translation=标签列表
-
-[file.tags]
-original=Tags
 translation=标签
 
 [file.teams]
@@ -481,6 +597,10 @@ translation=在团队中部署 Obsidian
 [file.teams/license]
 original=Commercial license
 translation=商用许可证
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publishing for teams
 
 [file.teams/security]
 original=Security considerations for teams
@@ -509,6 +629,46 @@ translation=Obsidian URI
 [file.vault]
 original=Create a vault
 translation=创建仓库
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Introduction to Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Clip web pages
+
+[file.web-clipper/filters]
+original=Filters
+translation=Filters
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Highlight web pages
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Interpret web pages
+
+[file.web-clipper/logic]
+original=Logic
+translation=Logic
+
+[file.web-clipper/reader]
+original=Reader
+translation=Reader
+
+[file.web-clipper/templates]
+original=Templates
+translation=Templates
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Troubleshoot Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=Variables
 
 [file.workspace]
 original=Workspace

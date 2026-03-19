@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: bases/views/table
+aliases:
+  - Bases/Layouts/Table view
 ---
 Table is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
 

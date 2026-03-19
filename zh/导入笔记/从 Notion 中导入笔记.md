@@ -2,6 +2,8 @@
 permalink: import/notion
 aliases:
   - Import from Notion
+  - 导入笔记/从 Notion 中导入笔记
+localized: 2024-07-10
 ---
 
 使用[[迁移助手|Importer插件]]，你可以轻松将笔记从 Notion 迁移到 Obsidian。这将把你 Notion 中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。

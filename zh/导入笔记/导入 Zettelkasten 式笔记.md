@@ -2,6 +2,8 @@
 permalink: import/zettelkasten
 aliases:
   - Import Zettelkasten notes
+  - 导入笔记/导入 Zettelkasten 式笔记
+localized: 2024-07-10
 ---
 
 如果你一直在使用 Zettelkasten 方法来命名和链接笔记，那么你可能需要将链接从 `[[UID]]` 转换为 `[[UID 笔记标题]]`。

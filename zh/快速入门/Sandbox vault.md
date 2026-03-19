@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: sandbox
+aliases:
+  - 快速入门/Sandbox vault
 ---
 **Obsidian’s sandbox vault** is a feature that lets you explore various functionalities without affecting your existing data. This vault is helpful both as a learning tool and for debugging issues. It helps determine if a problem is caused by a plugin, theme, or the application itself.
 

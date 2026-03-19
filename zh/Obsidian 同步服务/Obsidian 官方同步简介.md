@@ -8,7 +8,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: sync
-localized:
+localized: 2024-07-10
 publish: true
 mobile: true
 ---

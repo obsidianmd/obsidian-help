@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: bases/views
+aliases:
+  - Bases/Views
 ---
 Views allow you to organize the information in a [[Introduction to Bases|Base]] in multiple ways. A base can contain several views, and each view can have a unique configuration to display, sort, and filter files.
 

@@ -2,6 +2,8 @@
 permalink: import/evernote
 aliases:
   - Import from Evernote
+  - 导入笔记/从 Evernote 中导入笔记
+localized: 2024-07-10
 ---
 
 使用[[迁移助手|Importer插件]]，你可以轻松将 Evernote 中的笔记迁移至Obsidian。这将把你 Evernote 中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。

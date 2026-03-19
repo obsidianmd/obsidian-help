@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: plugins/tags
+aliases:
+  - 核心插件/Tags view
 ---
 Tags view is a [[Core plugins|core plugin]] that lists all tags in your vault and the number of notes for each tag.
 

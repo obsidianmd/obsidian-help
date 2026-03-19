@@ -5,7 +5,7 @@ aliases:
   - Deploy Obsidian across your team
   - 团队与协作/在团队中部署 Obsidian
 permalink: teams/deploy
-localized:
+localized: 2024-07-10
 ---
 Obsidian 作为一个本地应用程序运行在每个团队成员的设备上。它可以用于在线和离线工作，安全且私密，你可以完全掌控团队的数据。由于 Obsidian 不是在线应用，因此你需要将 Obsidian 部署到团队成员的设备上。
 

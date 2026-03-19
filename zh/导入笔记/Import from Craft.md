@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: import/craft
+aliases:
+  - 导入笔记/Import from Craft
 ---
 Obsidian lets you migrate your notes from Craft. This will convert your Craft data to durable Markdown files, that you can use with Obsidian and many other apps.
 

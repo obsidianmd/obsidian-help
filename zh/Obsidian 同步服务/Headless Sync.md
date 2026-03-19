@@ -7,6 +7,8 @@ description: >-
   Obsidian Sync offers a headless client to sync vaults without using the
   desktop app. Useful for CI pipelines, agents, and automated workflows. Sync
   the latest changes or keep files continuously up to date.
+aliases:
+  - Obsidian 同步服务/Headless Sync
 ---
 [[Introduction to Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
 

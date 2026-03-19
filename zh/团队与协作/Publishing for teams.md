@@ -3,6 +3,8 @@ localized:
 permalink: teams/publish
 cssclasses:
   - soft-embed
+aliases:
+  - 团队与协作/Publishing for teams
 ---
 Obsidian makes it easy to create and edit wikis, knowledge bases, documentation, and other types of websites. It can be used as an editing tool or CMS for both internal and external sites.
 

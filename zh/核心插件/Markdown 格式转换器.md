@@ -4,7 +4,7 @@ aliases:
   - 格式转换器
   - 核心插件/Markdown 格式转换器
 permalink: plugins/format-converter
-localized:
+localized: 2024-07-10
 publish: true
 mobile: true
 ---

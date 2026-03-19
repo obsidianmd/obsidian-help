@@ -6,7 +6,7 @@ aliases:
   - gifting
   - 许可证与支付/Obsidian 积分
 permalink: credit
-localized:
+localized: 2024-07-10
 ---
 
 Obsidian 积分可以用来购买 Obsidian 提供的所有产品和服务。

@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: bases/views/list
+aliases:
+  - Bases/Layouts/List view
 ---
 List is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
 

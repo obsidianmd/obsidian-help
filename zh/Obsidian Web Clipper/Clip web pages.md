@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: web-clipper/capture
+aliases:
+  - Obsidian Web Clipper/Clip web pages
 ---
 Once you install the [[Introduction to Obsidian Web Clipper|Web Clipper]] browser extension, you can access it in several ways, depending on your browser:
 

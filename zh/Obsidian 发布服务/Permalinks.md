@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: publish/permalinks
+aliases:
+  - Obsidian 发布服务/Permalinks
 ---
 You can rename the URL to your notes, using _permalinks_.
 

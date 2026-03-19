@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: web-clipper/reader
+aliases:
+  - Obsidian Web Clipper/Reader
 ---
 [[Introduction to Obsidian Web Clipper|Web Clipper]] includes a built-in reading mode called Reader that strips away clutter from web pages, presenting only the main article content in a clean, readable format.
 

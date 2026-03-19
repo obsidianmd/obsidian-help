@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: web-clipper/filters
+aliases:
+  - Obsidian Web Clipper/Filters
 ---
 Filters allow you to modify [[variables]] in [[Obsidian Web Clipper/Templates|Web Clipper templates]]. Filters are applied to variables using the syntax `{{variable|filter}}`.
 

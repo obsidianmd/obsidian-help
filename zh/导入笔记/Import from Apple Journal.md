@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: import/apple-journal
+aliases:
+  - 导入笔记/Import from Apple Journal
 ---
 Obsidian lets you easily migrate your journal entries from Apple Journal using the [[Importer|Importer plugin]]. 
 This will convert your journals to durable Markdown files, that you can use with Obsidian and many other apps.

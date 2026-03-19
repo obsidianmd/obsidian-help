@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: sales-tax
+aliases:
+  - 许可证与支付/Sales tax
 ---
 In some jurisdictions, Obsidian is required to collect sales taxes on behalf of customers purchasing software licenses and services. Sales taxes may apply to [[Commercial license|Commercial licenses]], [[Introduction to Obsidian Sync|Obsidian Sync]], and [[Introduction to Obsidian Publish|Obsidian Publish]]. Sales taxes generally do not apply to [[Obsidian Credit]] and [[Catalyst license|Catalyst]] though exceptions do apply.
 

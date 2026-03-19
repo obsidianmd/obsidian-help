@@ -1,6 +1,8 @@
 ---
 localized:
 permalink: import/textbundle
+aliases:
+  - 导入笔记/Import Textbundle files
 ---
 Obsidian lets you easily import [Textbundle](https://textbundle.org/) files using the official [[Importer|Importer plugin]].
 

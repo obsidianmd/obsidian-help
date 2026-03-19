@@ -3,7 +3,7 @@ aliases:
   - Obsidian Flavored Markdown
   - 编辑与格式化/Obsidian 风格的 Markdown 语法
 permalink: obsidian-flavored-markdown
-localized:
+localized: 2025-08-14
 publish: true
 mobile: true
 ---
