@@ -3,7 +3,6 @@ aliases:
   - Obsidian URI
   - 扩展 Obsidian/Obsidian URI
 permalink: uri
-localized: 2026-03-19
 ---
 Obsidian URI 是 Obsidian 支持的自定义 URI 协议，可以让你触发各种操作，例如打开笔记或创建笔记。Obsidian URI 使自动化和跨应用工作流成为可能。
 

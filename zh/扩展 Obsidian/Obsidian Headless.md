@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: headless
 description: Obsidian Headless 是 Obsidian 服务的命令行客户端。无需桌面应用即可同步你的仓库。
 aliases:

@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: uri
 aliases:
   - 高度なトピック/Obsidian URIの利用

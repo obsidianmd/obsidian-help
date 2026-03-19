@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/textbundle
 ---
 Obsidianでは、公式の[[インポーター|インポータープラグイン]]を使用して[Textbundle](https://textbundle.org/)ファイルを簡単にインポートできます。

@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/zettelkasten
 ---
 Zettelkastenメソッドを使用してノートの命名やリンクを行ってきた場合、リンクを `[[UID]]` から `[[UID My note title]]` に変換する必要があるかもしれません。

@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: publish/troubleshoot
 publish: true
 mobile: true

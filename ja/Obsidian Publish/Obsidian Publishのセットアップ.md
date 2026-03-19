@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: publish/setup
 mobile: true
 description: このガイドでは、保管庫でObsidian Publishを有効化し、サイトを作成して、ノートを公開します。

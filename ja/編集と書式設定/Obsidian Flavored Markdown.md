@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true

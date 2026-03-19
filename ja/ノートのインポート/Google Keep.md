@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/google-keep
 ---
 Obsidianでは、[[インポーター|インポータープラグイン]]を使用してGoogle Keepからノートを簡単に移行できます。Google Keepのデータは耐久性のあるMarkdownファイルに変換され、Obsidianやその他の多くのアプリで使用できます。

@@ -7,7 +7,6 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: sync
-localized: 2026-03-19
 publish: true
 mobile: true
 description: Obsidian Sync 是一项附加服务，允许你在不同设备之间私密地同步笔记。

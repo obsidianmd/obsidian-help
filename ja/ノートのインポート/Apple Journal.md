@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/apple-journal
 ---
 Obsidianでは、[[インポーター|インポータープラグイン]]を使用してApple Journalのジャーナルエントリを簡単に移行できます。

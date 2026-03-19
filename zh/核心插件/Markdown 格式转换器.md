@@ -4,7 +4,6 @@ aliases:
   - 格式转换器
   - 核心插件/Markdown 格式转换器
 permalink: plugins/format-converter
-localized: 2026-03-19
 publish: true
 mobile: true
 description: Markdown 格式转换器是一个核心插件，可以将其他应用中的 Markdown 转换为 Obsidian 格式。

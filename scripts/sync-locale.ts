@@ -163,10 +163,7 @@ function frontmatterChanged(
 }
 
 function writeFile(filePath: string, fm: Record<string, unknown>, content: string) {
-  const newContent = matter.stringify(content, fm)
-    .replace(/^localized: null$/m, "localized:")
-    .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
-    .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
+  const newContent = matter.stringify(content, fm);
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, newContent, "utf8");
 }
@@ -227,7 +224,7 @@ for (const [permalink, enInfo] of enFiles) {
     const stubAbsPath = path.join(localeDir, stubRelPath);
 
     // Build stub frontmatter: copy EN fields, mark as unlocalized
-    const stubFm: Record<string, unknown> = { localized: null };
+    const stubFm: Record<string, unknown> = { localized: false };
     for (const field of STUB_FIELDS) {
       if (field in enInfo.frontmatter) {
         stubFm[field] = enInfo.frontmatter[field];

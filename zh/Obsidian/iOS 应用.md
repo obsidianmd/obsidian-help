@@ -4,7 +4,6 @@ aliases:
   - Obsidian/iOS 应用
   - Obsidian for iOS and iPadOS
 permalink: ios
-localized: 2026-03-19
 ---
 Obsidian 移动端应用适用于 iOS 和 iPadOS，为你的 iPhone 和 iPad 带来强大的笔记功能。你可以从 [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) 下载。
 

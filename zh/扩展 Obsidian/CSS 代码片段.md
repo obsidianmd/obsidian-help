@@ -3,7 +3,6 @@ aliases:
   - CSS snippets
   - 扩展 Obsidian/CSS 代码片段
 permalink: snippets
-localized: 2026-03-19
 publish: true
 mobile: true
 description: 学习如何在不创建完整主题的情况下更改 Obsidian 应用的外观。

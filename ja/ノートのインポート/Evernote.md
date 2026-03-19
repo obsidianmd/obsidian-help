@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/evernote
 ---
 Obsidianでは、[[インポーター|インポータープラグイン]]を使用してEvernoteからノートを簡単に移行できます。これにより、Evernoteのデータが耐久性のあるMarkdownファイルに変換され、Obsidianやその他多くのアプリで使用できるようになります。

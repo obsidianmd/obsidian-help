@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/csv
 ---
 ObsidianではCSVファイルからデータをインポートすることができます。これには公式の[[インポーター|インポータープラグイン]]を使用します。Excel、Google Sheets、Numbers、Notion、Airtableなどのアプリに表形式で保存されているデータがある場合に便利です。

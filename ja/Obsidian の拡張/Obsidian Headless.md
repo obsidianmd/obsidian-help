@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: headless
 description: Obsidian Headlessは、Obsidianサービス用のコマンドラインクライアントです。デスクトップアプリなしで保管庫を同期できます。
 ---

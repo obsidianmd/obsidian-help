@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: publish/limitations
 ---
 > [!tip] 素晴らしいコミュニティのメンバーが、これらの制限事項に対する回避策を考案しています。詳しくは、Obsidianフォーラムの[Publishリソース](https://forum.obsidian.md/t/obsidian-publish-resources/74582)スレッドをアクセスしてください。

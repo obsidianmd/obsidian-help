@@ -5,7 +5,6 @@ aliases:
   - gifting
   - 许可证与支付/Obsidian 积分
 permalink: credit
-localized: 2026-03-19
 ---
 Obsidian 积分是一种预付积分，可以提前购买并用于支付任何 Obsidian 服务或许可证。Obsidian 积分可以[[#赠送|赠送]]给其他 Obsidian 用户，例如朋友、家人和同事。
 

@@ -3,7 +3,6 @@ aliases:
   - Update Obsidian
   - 快速入门/更新 Obsidian
 permalink: updates
-localized: 2026-03-19
 ---
 Obsidian 在移动端和桌面端的更新方式有所不同。
 

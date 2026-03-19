@@ -4,7 +4,6 @@ aliases:
   - Catalyst license
   - 许可证与支付/Catalyst 个人许可证
 permalink: catalyst
-localized: 2026-03-19
 ---
 Catalyst 许可证是一次性购买的许可证，它让你能够抢先体验测试版本，并帮助支持 Obsidian 的持续开发。你可以通过[购买 Catalyst 许可证](https://obsidian.md/zh/buy/catalyst)来支持 Obsidian。
 

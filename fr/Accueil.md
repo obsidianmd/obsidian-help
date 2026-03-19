@@ -7,7 +7,6 @@ cssclasses:
   - hide-title
   - list-cards-mobile-full
 permalink: /
-localized: 2026-03-18T00:00:00.000Z
 ---
 # Aide Obsidian
 

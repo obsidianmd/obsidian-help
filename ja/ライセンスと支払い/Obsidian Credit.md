@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: credit
 ---
 ObsidianクレジットはObsidianのサービスやライセンスの購入に使用できるプリペイドクレジットです。ObsidianクレジットはObsidianを使用している友人、家族、同僚などに[[#ギフト|ギフト]]として贈ることができます。

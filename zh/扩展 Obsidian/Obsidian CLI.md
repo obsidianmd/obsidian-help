@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: cli
 description: 在 Obsidian 中能做的任何事情，都可以通过命令行完成。
 aliases:

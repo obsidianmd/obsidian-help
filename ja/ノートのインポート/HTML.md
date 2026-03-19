@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/html
 ---
 Obsidianでは、公式の[[インポーター|インポータープラグイン]]を使用して、個々のHTMLファイルやHTMLファイルのフォルダ全体を簡単にインポートできます。これはウェブサイト全体を[[Obsidian Flavored Markdown|Markdown]]フォーマットで保存したい場合や、HTMLにエクスポートするツールからデータをインポートしたい場合に便利です。

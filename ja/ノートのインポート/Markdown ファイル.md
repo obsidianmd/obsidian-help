@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/markdown
 ---
 Obsidianはノートの主要フォーマットとしてMarkdown `.md` ファイルを使用します。そのため、MarkdownファイルをObsidianにインポートするのは簡単です。多くのアプリがMarkdownファイルを編集したり、このフォーマットにエクスポートしたりできます。

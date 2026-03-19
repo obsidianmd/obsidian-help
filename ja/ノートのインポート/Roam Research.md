@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/roam
 ---
 Obsidianでは、[[インポーター|インポータープラグイン]]を使用して、Roam Researchからノートを簡単に移行できます。Roamのデータは耐久性のあるMarkdownファイルに変換され、Obsidianやその他多くのアプリで使用できます。

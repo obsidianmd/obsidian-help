@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: cli
 description: Obsidianで行えることはすべてコマンドラインから実行できます。
 ---

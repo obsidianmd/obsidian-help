@@ -1,29 +1,25 @@
 ---
-localized:
 permalink: html
 publish: true
 mobile: true
-description: >-
-  Learn how to use HTML in Obsidian, including limitations with Markdown
-  rendering, and HTML block requirements.
+description: ObsidianでHTMLを使用する方法（Markdownレンダリングの制限やHTMLブロックの要件を含む）について学びます。
 ---
-
-Obsidian supports HTML to allow you to display your notes the way you want, or even [[Embed web pages|embed web pages]]. Allowing HTML inside your notes comes with risks. To prevent malicious code from doing harm, Obsidian _sanitizes_ any HTML in your notes. 
+Obsidianはノートを思い通りに表示したり、[[ウェブページの埋め込み|ウェブページを埋め込む]]ためにHTMLをサポートしています。ノート内でHTMLを許可することにはリスクが伴います。悪意のあるコードによる被害を防ぐため、Obsidianはノート内のHTMLを_サニタイズ_します。
 
 > [!example] 
-> The `<script>` element normally lets you run JavaScript whenever it loads. If Obsidian didn't sanitize HTML, an attacker could convince you to paste a text containing JavaScript that extracts sensitive information from your computer and sends it back to them.
+> `<script>`要素は通常、読み込み時にJavaScriptを実行することができます。ObsidianがHTMLをサニタイズしなければ、攻撃者はコンピュータから機密情報を抽出して送信するJavaScriptを含むテキストを貼り付けるようあなたを騙す可能性があります。
 
-That said, since Markdown syntax does not support all forms of styling, using sanitized HTML can be yet another way of enhancing the quality of your notes. We've included some of the more common usages of HTML.
+とはいえ、Markdown構文はすべてのスタイリングをサポートしているわけではないため、サニタイズされたHTMLを使用することで、ノートの品質をさらに向上させることができます。ここでは、HTMLのより一般的な使用方法をいくつか紹介します。
 
-## HTML limitations
+## HTMLの制限事項
 
-Obsidian has specific limitations when using HTML in your notes:
+Obsidianでは、ノート内でHTMLを使用する際に特定の制限があります：
 
-### No Markdown inside HTML
+### HTML内でMarkdownは使えない
 
-Obsidian does not render Markdown syntax inside HTML elements. This is an intentional design choice for performance optimization and to keep parser complexity low when managing large documents.
+ObsidianはHTML要素内のMarkdown構文をレンダリングしません。これはパフォーマンスの最適化と、大きなドキュメントを管理する際のパーサーの複雑さを低く保つための意図的な設計上の選択です。
 
-For example, this will not work as expected:
+例えば、以下は期待通りに動作しません：
 
 ```md
 <div>
@@ -31,11 +27,11 @@ This **will not** be bold and this `will not` be code.
 </div>
 ```
 
-### HTML blocks must be self-contained
+### HTMLブロックは自己完結している必要がある
 
-HTML blocks must be complete and cannot contain blank lines within them. Blank lines will break the HTML block.
+HTMLブロックは完全であり、その中に空行を含むことはできません。空行があるとHTMLブロックが壊れます。
 
-This will work:
+これは動作します：
 
 ```md
 <table>
@@ -45,7 +41,7 @@ This will work:
 </table>
 ```
 
-This will not work correctly:
+これは正しく動作しません：
 
 ```md
 <table>
@@ -59,29 +55,28 @@ This will not work correctly:
 </table>
 ```
 
-### When Markdown appears to work in HTML
+### HTML内でMarkdownが動作しているように見える場合
 
-Some inline HTML tags like `<span>` or `<a>` have limited functionality and may appear to render Markdown, but this is not actually what's happening. The Markdown is being processed outside of the HTML context.
+`<span>`や`<a>`などの一部のインラインHTMLタグは機能が限定されており、Markdownをレンダリングしているように見えることがありますが、実際にはそうではありません。MarkdownはHTMLのコンテキストの外で処理されています。
 
-For more details on how Obsidian handles Markdown, see [[Obsidian Flavored Markdown]].
+ObsidianがMarkdownをどのように処理するかの詳細については、[[Obsidian Flavored Markdown]]を参照してください。
 
-## Common HTML usage
+## HTMLの一般的な使用方法
 
-> [!info] More details on using `<iframe>` can be found in [[Embed web pages]].
+> [!info] `<iframe>`の使用についての詳細は[[ウェブページの埋め込み]]を参照してください。
 
-### Comments
+### コメント
 
-[[Basic formatting syntax#Comments|Markdown comments]] are the preferred way of adding hidden comments within your notes. However some methods of converting Markdown notes, such as [Pandoc](https://pandoc.org), have limited support of Markdown comments. In those instances, you can use a `<!-- HTML Comment -->` instead!
+[[基本的な書式構文#コメント|Markdownコメント]]は、ノート内に非表示のコメントを追加する推奨方法です。しかし、[Pandoc](https://pandoc.org)などのMarkdownノートを変換する一部の方法では、Markdownコメントのサポートが限定的です。そのような場合は、代わりに`<!-- HTML Comment -->`を使用できます！
 
-### Underline
+### 下線
 
-If you need to quickly underline an item in your notes, you can use `<u>Example</u>` to create <u>your underlined text</u>.
+ノート内のテキストにすばやく下線を引きたい場合は、`<u>Example</u>`を使って<u>下線付きテキスト</u>を作成できます。
 
 ### Span/Div
 
-Span and div tags can be used to apply custom classes from a [[CSS snippets|CSS snippet]], or custom defined styling, onto a selected area of text. For example, using `<span style="font-family: cursive">your text</span>` can allow you to quickly <span style="font-family: cursive">change your font</span>.
+spanタグとdivタグは、[[CSSスニペット]]のカスタムクラスやカスタム定義のスタイリングを、選択したテキスト領域に適用するために使用できます。例えば、`<span style="font-family: cursive">your text</span>`を使うと、すばやく<span style="font-family: cursive">フォントを変更</span>できます。
 
-## Strikethrough
+## 取り消し線
 
-Need to strike <s>some text</s>? Use `<s>this</s>` to strike it out.
-
+<s>テキスト</s>に取り消し線を引きたいですか？`<s>this</s>`を使って取り消し線を引きましょう。

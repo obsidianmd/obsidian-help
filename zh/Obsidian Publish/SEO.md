@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: publish/seo
 aliases:
   - Obsidian 发布服务/SEO

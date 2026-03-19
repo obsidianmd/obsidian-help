@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/craft
 ---
 Obsidianでは、Craftからノートを移行できます。この機能により、CraftのデータをMarkdownファイルに変換し、Obsidianやその他多くのアプリで利用できるようになります。

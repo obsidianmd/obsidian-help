@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/notion
 ---
 Obsidianでは、[[インポーター|インポータープラグイン]]を使用してNotionからノートを簡単に移行できます。Notionのデータは、Obsidianやその他多くのアプリでオフラインでも使える耐久性のあるMarkdownファイルに変換されます。

@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/textbundle
 aliases:
   - 导入笔记/Import Textbundle files

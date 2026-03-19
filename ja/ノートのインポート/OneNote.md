@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/onenote
 ---
 Obsidianでは、[[インポーター|インポータープラグイン]]を使用してMicrosoft OneNoteからノートを簡単に移行できます。これにより、OneNoteのデータが耐久性のあるMarkdownファイルに変換され、Obsidianやその他多くのアプリで使用できるようになります。

@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: bases/create-base
 aliases:
   - Bases/Create a base

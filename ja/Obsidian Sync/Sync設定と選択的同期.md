@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: sync/settings
 publish: true
 mobile: true

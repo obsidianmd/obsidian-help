@@ -1367,3 +1367,13 @@ Format content within a table=表内のコンテンツの書式設定
 Diagram=ダイアグラム
 Linking files in a diagram=ダイアグラム内でファイルをリンクする
 Math=数学
+
+[html]
+HTML limitations=HTMLの制限事項
+No Markdown inside HTML=HTML内でMarkdownは使えない
+HTML blocks must be self-contained=HTMLブロックは自己完結している必要がある
+When Markdown appears to work in HTML=HTML内でMarkdownが動作しているように見える場合
+Common HTML usage=HTMLの一般的な使用方法
+Comments=コメント
+Underline=下線
+Strikethrough=取り消し線

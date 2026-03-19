@@ -20,7 +20,6 @@
 
 import fs from "fs";
 import path from "path";
-import { execSync } from "child_process";
 import matter from "gray-matter";
 
 // Load .env from repo root
@@ -40,7 +39,6 @@ const SCRIPTS_DIR = import.meta.dirname;
 const args = process.argv.slice(2);
 const locale = args[0];
 const dryRun = args.includes("--dry-run");
-const verify = args.includes("--verify");
 const fixLinksOnly = args.includes("--fix-links");
 const translateDescriptions = args.includes("--translate-descriptions");
 const fileArgIdx = args.indexOf("--file");
@@ -49,7 +47,7 @@ const limitArgIdx = args.indexOf("--limit");
 const limit = limitArgIdx !== -1 ? parseInt(args[limitArgIdx + 1], 10) : Infinity;
 
 if (!locale) {
-  console.error("Usage: npx tsx scripts/translate-locale.ts <locale> [--verify] [--fix-links] [--dry-run] [--file <path>]");
+  console.error("Usage: npx tsx scripts/translate-locale.ts <locale> [--fix-links] [--dry-run] [--file <path>]");
   process.exit(1);
 }
 
@@ -457,58 +455,6 @@ function collectEnFiles(): Map<string, { relPath: string; content: string }> {
   return map;
 }
 
-// ─── Verify staleness ────────────────────────────────────────────────────────
-
-function checkStale(enRelPath: string, localizedDate: string): boolean {
-  try {
-    const result = execSync(
-      `git log --after="${localizedDate}" --format="%H" -- "en/${enRelPath}"`,
-      { cwd: ROOT, encoding: "utf8" }
-    ).trim();
-    return result.length > 0;
-  } catch {
-    return false;
-  }
-}
-
-// Get the git diff of an EN file since a given date (for patch mode)
-function getEnDiffSince(enRelPath: string, since: string): string {
-  try {
-    // Find the last commit before or on the localized date
-    const base = execSync(
-      `git log --format="%H" -1 --before="${since}T23:59:59" -- "en/${enRelPath}"`,
-      { cwd: ROOT, encoding: "utf8" }
-    ).trim();
-    if (!base) return "";
-    return execSync(
-      `git diff ${base} HEAD -- "en/${enRelPath}"`,
-      { cwd: ROOT, encoding: "utf8" }
-    ).trim();
-  } catch {
-    return "";
-  }
-}
-
-function buildPatchPrompt(langCode: string, glossary: string, linkRef: string): string {
-  const langName = LANGUAGE_NAMES[langCode] ?? langCode;
-  return `You are a professional translator for Obsidian Help documentation. A ${langName} translation exists for this page, but the English source has been updated. Apply the changes shown in the diff to the existing translation.
-
-RULES:
-1. Only change what the diff requires — do NOT re-translate unaffected text
-2. For added lines (+): translate into ${langName} and insert at the correct location
-3. For removed lines (-): remove the corresponding ${langName} text
-4. Context lines (no prefix) show where changes belong — do not change them
-5. Never translate: Obsidian, Obsidian Sync, Obsidian Publish, Obsidian Web Clipper, Markdown, CSS, API, Canvas
-6. Wikilink targets: use the LINK REFERENCE to translate [[EN name]] → locale name; preserve unlisted targets exactly
-7. Preserve all HTML, callout syntax, code blocks, URLs exactly
-8. Do NOT include frontmatter in your output
-9. Do NOT wrap your response in markdown code fences
-10. Return ONLY the complete updated ${langName} markdown content
-
-${linkRef ? `LINK REFERENCE:\n${linkRef}` : ""}
-${glossary ? `\nGLOSSARY (use consistently):\n${glossary}` : ""}`;
-}
-
 // ─── Translate a file ─────────────────────────────────────────────────────────
 
 async function translateFile(
@@ -519,36 +465,9 @@ async function translateFile(
   headingsMap: HeadingsMap,
   basenameToPermalink: Map<string, string>,
   enToLocale: Map<string, string>,
-  enDescription?: string,
-  patchPrompt?: string
+  enDescription?: string
 ): Promise<void> {
-  const isPatch = !!patchPrompt && !!file.frontmatter["needs-retranslation"];
-
-  if (isPatch) {
-    const rawDate = file.frontmatter.localized;
-    const localizedDate = rawDate instanceof Date ? rawDate.toISOString().slice(0, 10) : String(rawDate);
-    const diff = getEnDiffSince(file.enRelPath, localizedDate);
-    if (!diff) {
-      // No diff found (e.g. pre-git history) — fall back to full re-translation
-      console.log(`  Translating  ${file.relPath} (no diff available, full retranslation)`);
-    } else {
-      // Count changed lines to decide: patch vs full re-translation
-      const changedLines = diff.split("\n").filter(l => l.startsWith("+") || l.startsWith("-")).length;
-      const totalLines = enContent.split("\n").length;
-      if (changedLines <= totalLines * 0.4) {
-        console.log(`  Patching     ${file.relPath} (${changedLines} line(s) changed)`);
-        if (dryRun) return;
-        const userMessage = `CURRENT ${(LANGUAGE_NAMES[locale] ?? locale).toUpperCase()} TRANSLATION:\n${file.content.trim()}\n\nENGLISH DIFF:\n${diff}`;
-        const raw = await callLLM(config, patchPrompt, userMessage);
-        await saveTranslated(file, raw, enContent, enDescription, headingsMap, basenameToPermalink, enToLocale);
-        return;
-      }
-      console.log(`  Translating  ${file.relPath} (large diff ${changedLines}L, full retranslation)`);
-    }
-  } else {
-    console.log(`  Translating  ${file.relPath}`);
-  }
-
+  console.log(`  Translating  ${file.relPath}`);
   if (dryRun) return;
 
   const userMessage = enDescription
@@ -595,14 +514,12 @@ async function saveTranslated(
   const headingFixed = fixHeadingLinks(translated, headingsMap, basenameToPermalink);
   const fixed = fixFilenameLinks(headingFixed, enToLocale);
 
-  // Write file back with updated frontmatter; clear needs-retranslation
-  const today = new Date().toISOString().slice(0, 10);
-  const newFm = { ...file.frontmatter, localized: today };
+  // Write file back with updated frontmatter; clear localized stub marker and needs-retranslation
+  const newFm = { ...file.frontmatter };
+  delete newFm["localized"];
   delete newFm["needs-retranslation"];
   if (frDescription) newFm.description = frDescription;
-  const newContent = matter.stringify(fixed, newFm)
-    .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
-    .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
+  const newContent = matter.stringify(fixed, newFm);
   fs.writeFileSync(file.absPath, newContent, "utf8");
 
   console.log(`    ✓ saved (${Object.keys(newEntries).length} heading(s) mapped)`);
@@ -622,9 +539,7 @@ function runFixLinks(headingsMap: HeadingsMap, basenameToPermalink: Map<string, 
         const headingFixed = fixHeadingLinks(parsed.content, headingsMap, basenameToPermalink);
         const updated = fixFilenameLinks(headingFixed, enToLocale);
         if (updated !== parsed.content) {
-          const newContent = matter.stringify(updated, parsed.data)
-            .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
-            .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
+          const newContent = matter.stringify(updated, parsed.data);
           if (!dryRun) fs.writeFileSync(full, newContent, "utf8");
           const rel = path.relative(localeDir, full);
           console.log(`  FIX-LINKS  ${rel}`);
@@ -667,7 +582,7 @@ async function main() {
   // Batch-translates the `description` frontmatter field for all already-localized files.
   if (translateDescriptions) {
     const localeFiles = collectLocaleFiles(enFiles);
-    const toUpdate = localeFiles.filter(f => f.frontmatter.localized);
+    const toUpdate = localeFiles.filter(f => f.frontmatter.localized !== false);
     console.log(`Translating descriptions for ${toUpdate.length} localized file(s)...\n`);
 
     // Build batches of up to 50 descriptions per LLM call
@@ -702,9 +617,7 @@ async function main() {
         const raw2 = fs.readFileSync(f.absPath, "utf8");
         const parsed = matter(raw2);
         const newFm = { ...parsed.data, description: frDesc };
-        const descContent = matter.stringify(parsed.content, newFm)
-          .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
-          .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
+        const descContent = matter.stringify(parsed.content, newFm);
         fs.writeFileSync(f.absPath, descContent, "utf8");
         console.log(`  DESC  ${f.relPath}`);
         updated++;
@@ -719,41 +632,11 @@ async function main() {
   }
 
   // ── Collect locale files ──
-  let localeFiles = collectLocaleFiles(enFiles);
-
-  // ── Verify mode: mark stale translations ──
-  if (verify) {
-    console.log(`Checking for stale translations in ${locale}/...\n`);
-    let staleCount = 0;
-    for (const file of localeFiles) {
-      const raw = file.frontmatter.localized;
-      if (!raw) continue; // already unlocalized
-      if (file.frontmatter["needs-retranslation"]) continue; // already flagged
-      // gray-matter may parse YYYY-MM-DD as a Date object
-      const localizedDate = raw instanceof Date ? raw.toISOString().slice(0, 10) : String(raw);
-      if (checkStale(file.enRelPath, localizedDate)) {
-        console.log(`  STALE  ${file.relPath} (EN changed after ${localizedDate})`);
-        if (!dryRun) {
-          // Preserve the date for diff-based patching; just flag it
-          const rawDate = file.frontmatter.localized;
-          const localizedStr = rawDate instanceof Date ? rawDate.toISOString().slice(0, 10) : rawDate;
-          const newFm = { ...file.frontmatter, localized: localizedStr, "needs-retranslation": true };
-          const newContent = matter.stringify(file.content, newFm)
-            .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
-            .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
-          fs.writeFileSync(file.absPath, newContent, "utf8");
-        }
-        staleCount++;
-      }
-    }
-    console.log(`\n${staleCount} file(s) marked stale.\n`);
-    // Reload after marking stale
-    localeFiles = collectLocaleFiles(enFiles);
-  }
+  const localeFiles = collectLocaleFiles(enFiles);
 
   // ── Filter to files needing translation ──
-  // Includes never-translated (localized: null) and stale (needs-retranslation: true)
-  let toTranslate = localeFiles.filter(f => !f.frontmatter.localized || f.frontmatter["needs-retranslation"]);
+  // Includes stubs (localized: null) and manually flagged (needs-retranslation: true)
+  let toTranslate = localeFiles.filter(f => f.frontmatter.localized === false || f.frontmatter["needs-retranslation"]);
   if (isFinite(limit)) toTranslate = toTranslate.slice(0, limit);
   if (singleFile) {
     toTranslate = toTranslate.filter(f => f.relPath === singleFile);
@@ -780,8 +663,7 @@ async function main() {
       // Build per-file prompts with supplementary glossary filtered to terms in this file's content
       const fileGlossary = buildGlossaryString(glossary, enContent + " " + (enDesc ?? ""));
       const systemPrompt = buildSystemPrompt(locale, fileGlossary, linkRef);
-      const patchPrompt = buildPatchPrompt(locale, fileGlossary, linkRef);
-      await translateFile(file, enContent, config, systemPrompt, headingsMap, basenameToPermalink, enToLocale, enDesc, patchPrompt);
+      await translateFile(file, enContent, config, systemPrompt, headingsMap, basenameToPermalink, enToLocale, enDesc);
       done++;
     } catch (err) {
       console.error(`  ERROR  ${file.relPath}: ${err}`);

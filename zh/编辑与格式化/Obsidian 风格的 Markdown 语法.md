@@ -3,7 +3,6 @@ aliases:
   - Obsidian Flavored Markdown
   - 编辑与格式化/Obsidian 风格的 Markdown 语法
 permalink: obsidian-flavored-markdown
-localized: 2026-03-19
 publish: true
 mobile: true
 description: 了解 Obsidian 风格的 Markdown 语法，包括支持的扩展以及 Markdown 与 HTML 元素的交互方式。

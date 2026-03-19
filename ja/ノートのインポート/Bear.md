@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/bear
 ---
 Obsidianでは、[[インポーター|インポータープラグイン]]を使用してBearからノートを簡単に移行できます。Bearのデータは耐久性のあるMarkdownファイルに変換され、Obsidianやその他の多くのアプリで使用できます。

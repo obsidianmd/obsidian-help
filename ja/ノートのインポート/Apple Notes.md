@@ -1,5 +1,4 @@
 ---
-localized: 2026-03-19
 permalink: import/apple-notes
 ---
 Obsidianでは、[[インポーター|インポータープラグイン]]を使用してApple Notesからノートを簡単に移行できます。Apple Notesのデータは耐久性のあるMarkdownファイルに変換され、Obsidianやその他多くのアプリで使用できるようになります。
