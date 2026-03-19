@@ -10,7 +10,7 @@ Thumbs.db
 .obsidian
 
 .env
-scripts/node_modules
+node_modules
 scripts/package-lock.json
 scripts/llm-config.json
 
