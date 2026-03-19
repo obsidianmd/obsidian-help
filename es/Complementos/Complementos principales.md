@@ -24,7 +24,7 @@ El equipo de Obsidian también mantiene el desarrollo de ciertos [[#Otros comple
 
 - [[Grabadora de audio]]
 	- Graba y guarda grabaciones de audio directamente en una nota.
-- [[Enlaces entrantes]]
+- [[Enlace de retorno]]
 	- Ve todos los enlaces y menciones no enlazadas de una nota.
 - [[Introducción a Bases|Bases]]
 	- Crea vistas personalizadas que te permiten editar, ordenar y filtrar archivos usando sus propiedades.
