@@ -46,6 +46,10 @@ You can use any of the following characters in your tags:
 - Underscore (`_`)
 - Hyphen (`-`)
 - Forward slash (`/`) for [[#Nested tags]]
+- Unicode characters, including emojis and other symbols
+
+> [!note] 
+> While older documentation listed only letters, numbers, `_`, `-`, and `/`, Obsidian also allows emojis and other Unicode characters in tags.
 
 Tags must contain at least one non-numerical character. For example, #1984 isn't a valid tag, but #y1984 is.
 
