@@ -1,127 +1,126 @@
 ---
-localized:
+localized: 2026-03-19
 permalink: sync/headless
 cssclasses:
   - reference
 description: >-
-  Obsidian Sync offers a headless client to sync vaults without using the
-  desktop app. Useful for CI pipelines, agents, and automated workflows. Sync
-  the latest changes or keep files continuously up to date.
+  Obsidian Sync 提供了一个无头客户端，可以在不使用桌面应用的情况下同步仓库。适用于 CI
+  流水线、代理程序和自动化工作流。同步最新更改或持续保持文件为最新状态。
 aliases:
   - Obsidian 同步服务/Headless Sync
 ---
-[[Introduction to Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
+[[Obsidian 官方同步简介|Obsidian Sync]] 提供了一个无头客户端，可以在不使用桌面应用的情况下同步仓库。适用于 CI 流水线、代理程序和自动化工作流。同步最新更改或持续保持文件为最新状态。
 
-Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app. Headless Sync uses the same [[Security and privacy|encryption and privacy protections]] as the desktop app, including end-to-end encryption.
+安装 [[Obsidian Headless]]**（公开测试版）**，以便在不使用 Obsidian 桌面应用的情况下通过命令行与 [[Obsidian 官方同步简介|Obsidian Sync]] 进行交互。无头同步使用与桌面应用相同的[[同步安全和隐私|加密和隐私保护机制]]，包括端到端加密。
 
-## Quick start
+## 快速开始
 
-> [!error] Back up your data before you start
-> 1. Always back up your data before you start in case anything unexpected happens.
-> 2. Do not use *both* the desktop app Sync and Headless Sync on the same device, as it can cause data conflicts. Only use one sync method per device.
+> [!error] 开始之前请备份你的数据
+> 1. 请务必在开始之前备份数据，以防出现意外情况。
+> 2. 请勿在同一设备上同时使用桌面应用同步和无头同步，否则可能导致数据冲突。每台设备只应使用一种同步方式。
 
-Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
+安装 [[Obsidian Headless|Obsidian Headless]]**（公开测试版）**：
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-You must have an active [[Plans and storage limits|Obsidian Sync subscription]].
+你必须拥有一个有效的 [[订阅计划与容量限制|Obsidian Sync 订阅]]。
 
 ```shell
-# Login
+# 登录
 ob login
 
-# List your remote vaults
+# 列出你的远程仓库
 ob sync-list-remote
 
-# Set up a vault for syncing
+# 设置仓库进行同步
 cd ~/vaults/my-vault
 ob sync-setup --vault "My Vault"
 
-# Run a one-time sync
+# 执行一次性同步
 ob sync
 
-# Run continuous sync (watches for changes)
+# 执行持续同步（监视更改）
 ob sync --continuous
 ```
 
-## Commands
+## 命令
 
 ### `ob sync-list-remote`
 
-List all remote vaults available to your account, including shared vaults.
+列出你的账户可用的所有远程仓库，包括分享的仓库。
 
 ### `ob sync-list-local`
 
-List locally configured vaults and their paths.
+列出本地已配置的仓库及其路径。
 
 ### `ob sync-create-remote`
 
-Create a new remote vault.
+创建一个新的远程仓库。
 
 ```
 ob sync-create-remote --name "Vault Name" [--encryption <standard|e2ee>] [--password <password>] [--region <region>]
 ```
 
-| Option | Description |
+| 选项 | 描述 |
 | --- | --- |
-| `--name` | Vault name (required) |
-| `--encryption` | `standard` for managed encryption, `e2ee` for end-to-end encryption |
-| `--password` | End-to-end encryption password (prompted if omitted) |
-| `--region` | Server [[Sync regions\|region]] (automatic if omitted) |
+| `--name` | 远程仓库名称（必填） |
+| `--encryption` | `standard` 为托管加密，`e2ee` 为端到端加密 |
+| `--password` | 端到端加密密码（省略时会提示输入） |
+| `--region` | 服务器[[Sync regions\|区域]]（省略时自动选择） |
 
 ### `ob sync-setup`
 
-Set up sync between a local vault and a remote vault.
+设置本地仓库与远程仓库之间的同步。
 
 ```
 ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>] [--device-name <name>] [--config-dir <name>]
 ```
 
-| Option | Description |
+| 选项 | 描述 |
 | --- | --- |
-| `--vault` | Remote vault ID or name (required) |
-| `--path` | Local directory (default: current directory) |
-| `--password` | E2E encryption password (prompted if omitted) |
-| `--device-name` | Device name shown in [[Version history\|sync version history]] |
-| `--config-dir` | [[Configuration folder\|Config directory]] name (default: `.obsidian`) |
+| `--vault` | 远程仓库 ID 或名称（必填） |
+| `--path` | 本地目录（默认：当前目录） |
+| `--password` | 端到端加密密码（省略时会提示输入） |
+| `--device-name` | 在[[版本历史|同步版本历史]]中显示的设备名称 |
+| `--config-dir` | [[设置文件夹|设置文件夹]]名称（默认：`.obsidian`） |
 
 ### `ob sync`
 
-Run sync for a configured vault.
+为已配置的仓库运行同步。
 
 ```
 ob sync [--path <local-path>] [--continuous]
 ```
 
-| Option | Description |
+| 选项 | 描述 |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--continuous` | Run continuously, watching for changes |
+| `--path` | 本地仓库路径（默认：当前目录） |
+| `--continuous` | 持续运行，监视更改 |
 
 ### `ob sync-config`
 
-View or change [[Sync settings and selective syncing|sync settings]] for a vault. Run with no options to display the current configuration.
+查看或更改仓库的[[同步文件和设置|同步设置]]。不带选项运行时将显示当前配置。
 
 ```
 ob sync-config [--path <local-path>] [options]
 ```
 
-| Option                | Description                                                                                                                                                                                                    |
+| 选项                  | 描述                                                                                                                                                                                                           |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--path`              | Local vault path (default: current directory)                                                                                                                                                                  |
-| `--mode`              | Sync mode: `bidirectional` (default), `pull-only` (only download, ignore local changes), or `mirror-remote` (only download, revert local changes)                                                              |
-| `--conflict-strategy` | `merge` or `conflict`                                                                                                                                                                                          |
-| `--file-types`        | Attachment types to sync: `image`, `audio`, `video`, `pdf`, `unsupported` (comma-separated, empty to clear)                                                                                                    |
-| `--configs`           | Config categories to sync: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (comma-separated, empty to disable config syncing) |
-| `--excluded-folders`  | Folders to exclude (comma-separated, empty to clear)                                                                                                                                                           |
-| `--device-name`       | Device name to identify this client in the sync version history                                                                                                                                                |
-| `--config-dir`        | Config directory name (default: `.obsidian`)                                                                                                                                                                   |
+| `--path`              | 本地仓库路径（默认：当前目录）                                                                                                                                                                                  |
+| `--mode`              | 同步模式：`bidirectional`（双向，默认）、`pull-only`（仅下载，忽略本地更改）或 `mirror-remote`（仅下载，还原本地更改）                                                                                              |
+| `--conflict-strategy` | `merge`（合并）或 `conflict`（冲突）                                                                                                                                                                             |
+| `--file-types`        | 要同步的附件类型：`image`、`audio`、`video`、`pdf`、`unsupported`（逗号分隔，留空则清除）                                                                                                                          |
+| `--configs`           | 要同步的设置类别：`app`、`appearance`、`appearance-data`、`hotkey`、`core-plugin`、`core-plugin-data`、`community-plugin`、`community-plugin-data`（逗号分隔，留空则禁用设置同步）                                    |
+| `--excluded-folders`  | 要排除的文件夹（逗号分隔，留空则清除）                                                                                                                                                                           |
+| `--device-name`       | 用于在同步版本历史中标识此客户端的设备名称                                                                                                                                                                        |
+| `--config-dir`        | 设置文件夹名称（默认：`.obsidian`）                                                                                                                                                                              |
 
 ### `ob sync-status`
 
-Show sync status and configuration for a vault.
+显示仓库的同步状态和配置。
 
 ```
 ob sync-status [--path <local-path>]
@@ -129,21 +128,21 @@ ob sync-status [--path <local-path>]
 
 ### `ob sync-unlink`
 
-Disconnect a vault from sync and remove stored credentials.
+断开仓库的同步连接并移除已存储的凭据。
 
 ```
 ob sync-unlink [--path <local-path>]
 ```
 
-## Native modules
+## 原生模块
 
-Obsidian Headless includes a prebuilt native addon for setting file creation time (birthtime) on Windows and macOS. This preserves original creation timestamps when downloading files from the server.
+Obsidian Headless 包含一个预编译的原生扩展，用于在 Windows 和 macOS 上设置文件创建时间（birthtime）。这可以在从服务器下载文件时保留原始的创建时间戳。
 
-The addon targets N-API version 3, so the compiled binaries are ABI-stable and work across Node.js versions without recompilation.
+该扩展以 N-API 版本 3 为目标，因此编译后的二进制文件具有 ABI 稳定性，可在不同 Node.js 版本间使用而无需重新编译。
 
-On Linux, birthtime is not supported — the addon is not included and sync operates normally without it.
+在 Linux 上，不支持 birthtime——该扩展不会包含在内，同步功能可以正常运行，不受影响。
 
-Prebuilt binaries are included for:
+预编译二进制文件包含以下平台：
 
 - `win32-x64`
 - `win32-arm64`

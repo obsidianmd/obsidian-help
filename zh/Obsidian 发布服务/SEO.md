@@ -1,37 +1,37 @@
 ---
-localized:
+localized: 2026-03-19
 permalink: publish/seo
 aliases:
   - Obsidian 发布服务/SEO
 ---
-[[Introduction to Obsidian Publish|Obsidian Publish]] sites are automatically optimized for search engines and [[Social media link previews|social sharing cards]]. You can also customize page metadata with descriptions, permalinks, and images.
+[[发布服务简介|Obsidian Publish]] 网站会自动针对搜索引擎和[[自定义分享链接|社交分享卡片]]进行优化。你还可以通过描述、永久链接和图片来自定义页面元数据。
 
-Note that you can disallow search engine indexing, in your [[Manage sites#Site Options|site options]].
+请注意，你可以在[[管理网站#网站设置|网站设置]]中禁止搜索引擎索引。
 
 ### Google Search Console
 
-To track SEO with Google, register your site on [Google Search Console](https://search.google.com/search-console). You can also follow our recommended steps to [[Analytics|set up Google Analytics]].
+要通过 Google 跟踪 SEO，请在 [Google Search Console](https://search.google.com/search-console) 上注册你的网站。你也可以按照我们推荐的步骤来[[启用谷歌分析|设置 Google Analytics]]。
 
-### Sitemap
+### 站点地图
 
-The sitemap for your Publish site is available at `/sitemap.xml`, for example:
+你的 Publish 网站的站点地图可通过 `/sitemap.xml` 访问，例如：
 https://help.obsidian.md/sitemap.xml
 
-The sitemap is also available as an RSS feed at `/rss.xml`:
+站点地图也可以通过 `/rss.xml` 以 RSS 订阅源的形式访问：
 https://help.obsidian.md/rss.xml
 
-### Permalinks
+### 永久链接
 
-Consider using [[Permalinks]] to define permanent URLs on your site.
+建议使用 [[Permalinks]] 来为你的网站定义永久 URL。
 
-### Metadata
+### 元数据
 
-Page metadata can be customized using [[Properties#Properties for Obsidian Publish|Properties]], which can be useful for [[Social media link previews|social sharing cards]].
+页面元数据可以通过[[属性#Obsidian Publish 的属性|属性]]进行自定义，这对于[[自定义分享链接|社交分享卡片]]非常有用。
 
-| Property      | Description                                                                                                       |
+| 属性            | 描述                                                                                                              |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publish your content#Automatically select notes to publish\|Automatically select notes to publish]]. |
-| `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
-| `description` | See [[Social media link previews#Description\|Description]].                                                      |
-| `image`       | See [[Social media link previews#Image\|Image]].                                                                  |
-| `cover`       | See [[Social media link previews#Image\|Image]].                                                                  |
+| `publish`     | 参见[[发布笔记与取消发布#自动选择要发布的笔记\|自动选择要发布的笔记]]。 |
+| `permalink`   | 参见 [[Permalinks\|永久链接]]。                                                                                   |
+| `description` | 参见[[自定义分享链接#描述\|描述]]。                                                      |
+| `image`       | 参见[[自定义分享链接#图片\|图片]]。                                                                  |
+| `cover`       | 参见[[自定义分享链接#图片\|图片]]。                                                                  |

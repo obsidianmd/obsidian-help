@@ -1,0 +1,436 @@
+[bases/syntax]
+Example=示例
+Filters=筛选
+Formulas=公式
+Properties=属性
+Summaries=汇总
+Default Summary Formulas=默认汇总公式
+Views=视图
+Note properties=笔记属性
+File properties=文件属性
+Access properties with `this`=使用 `this` 访问属性
+Operators=运算符
+Arithmetic operators=算术运算符
+Date arithmetic=日期运算
+Comparison operators=比较运算符
+Boolean operators=布尔运算符
+Functions=函数
+Types=类型
+Strings, numbers, and booleans=字符串、数字和布尔值
+Dates and durations=日期和持续时间
+Objects and lists=对象和列表
+Files and links=文件和链接
+
+[bases/create-base]
+Create a new base=新建数据库
+Embed a base=嵌入数据库
+Embed a base file=嵌入数据库文件
+Embed a base as a code block=以代码块形式嵌入数据库
+
+[formulas]
+What formulas can do=公式能做什么
+Create a formula property=创建公式属性
+Write a formula=编写公式
+Reference properties=引用属性
+Use operators=使用运算符
+Use functions=使用函数
+Formula examples=公式示例
+Calculate a deadline=计算截止日期
+Display overdue status=显示逾期状态
+Format currency=格式化货币
+Count list items=计算列表项数
+Calculate priority score=计算优先级分数
+Combine text fields=合并文本字段
+Calculate total cost=计算总费用
+Data types=数据类型
+Reference other formulas=引用其他公式
+
+[bases/functions]
+Global=全局
+Any=任意类型
+Date=日期
+Fields=字段
+String=字符串
+Number=数字
+List=列表
+Link=链接
+File=文件
+Object=对象
+Regular expression=正则表达式
+
+[bases]
+How to use bases=如何使用数据库
+View types=视图类型
+
+[bases/views/cards]
+Settings=设置
+Card size=卡片大小
+Image property=图像属性
+Image fit=图像适配
+Image aspect ratio=图像宽高比
+
+[bases/views/list]
+Settings=设置
+Markers=项目符号
+Indent properties=属性缩进显示
+Separators=分隔符
+
+[bases/views/map]
+Install the Maps plugin=安装 Maps 插件
+Example=示例
+Settings=设置
+Markers=标记
+Coordinates=坐标
+Icons=图标
+Use a formula to define icons=使用公式定义图标
+Colors=颜色
+Background=背景
+Map tiles=地图瓦片
+Useful links=实用链接
+Tips=提示
+Troubleshooting=故障排查
+
+[bases/views/table]
+Settings=设置
+Row height=行高
+Summaries=汇总
+Add a summary=添加汇总
+Built-in summaries=内置汇总
+All property types=所有属性类型
+Numbers=数字
+Dates=日期
+Checkbox=复选框
+Custom summaries=自定义汇总
+Shortcuts=快捷键
+
+[bases/views]
+Toolbar=工具栏
+Add and switch views=添加和切换视图
+View settings=视图设置
+Layout=布局
+Filters=筛选
+Components of a filter=筛选器的组成部分
+Conjunctions=连接条件
+Filter groups=筛选组
+Advanced filter editor=高级筛选编辑器
+Sort and group results=排序和分组结果
+Add a sort=添加排序
+Remove a sort=移除排序
+Limit, copy, and export results=限制、复制和导出结果
+Limit results=限制结果
+Copy to clipboard=复制到剪贴板
+Export CSV=导出 CSV
+Embed a view=嵌入视图
+
+[web-clipper/capture]
+Capture a page=捕获页面
+Download images=下载图片
+Hotkeys=快捷键
+Interface functionality=界面功能
+
+[web-clipper/filters]
+Dates=日期
+Text conversion and capitalization=文本转换与大小写
+Text formatting=文本格式化
+Numbers=数字
+HTML processing=HTML 处理
+Arrays and objects=数组和对象
+
+[web-clipper/highlight]
+Turn on highlighter=开启高亮工具
+Highlighter settings=高亮工具设置
+
+[web-clipper/interpreter]
+Examples of prompts=提示词示例
+Get started=开始使用
+How it works=工作原理
+Context=上下文
+Models=模型
+Preset providers=预设提供商
+Choosing a model=选择模型
+Custom providers and models=自定义提供商和模型
+Local models=本地模型
+
+[web-clipper]
+Install Web Clipper=安装 Obsidian Web Clipper
+How to use Web Clipper=如何使用 Obsidian Web Clipper
+Privacy=隐私
+
+[web-clipper/logic]
+Conditionals=条件判断
+Comparison operators=比较运算符
+Logical operators=逻辑运算符
+Truthiness=真值判断
+Assign a variable=变量赋值
+Fallbacks=回退值
+Chaining fallbacks=链式回退
+With filters=与过滤器配合使用
+Loops=循环
+Loop sources=循环数据源
+Loop variables=循环变量
+Accessing array items by index=通过索引访问数组元素
+Nested loops=嵌套循环
+Combine logic=组合逻辑
+Evaluation order=执行顺序
+
+[web-clipper/reader]
+Activate reading mode=激活阅读模式
+How it works=工作原理
+Customize the reading view=自定义阅读视图
+
+[web-clipper/templates]
+Create or edit a template=创建或编辑模板
+Import and export Web Clipper templates=导入和导出 Web Clipper 模板
+Template settings=模板设置
+Behavior=行为
+Automatically trigger a template=自动触发模板
+Simple URL matching=简单 URL 匹配
+Regular expression matching=正则表达式匹配
+Schema.org matching=Schema.org 匹配
+Interpreter context=解释器上下文
+
+[web-clipper/troubleshoot]
+General=常规
+Some content is missing=部分内容缺失
+No content appears in Obsidian=Obsidian 中没有出现任何内容
+Obsidian does not open=Obsidian 无法打开
+Obsidian opens but only the file name is saved=Obsidian 打开了但只保存了文件名
+iOS and iPadOS=iOS 和 iPadOS
+
+[web-clipper/variables]
+Preset variables=预设变量
+Prompt variables=提示变量
+When to use prompt variables=何时使用提示变量
+Examples=示例
+Meta variables=Meta 变量
+Selector variables=选择器变量
+Schema.org variables=Schema.org 变量
+
+[publish/permalinks]
+Redirect old notes=重定向旧笔记
+
+[publish/seo]
+Sitemap=站点地图
+Permalinks=永久链接
+Metadata=元数据
+
+[publish/security]
+Password protection=密码保护
+Add a site password=添加网站密码
+Remove a site password=移除网站密码
+Data collection=数据收集
+Visitor data=访客数据
+Access=访问
+Managing access to Obsidian Publish on your network=在你的网络中管理对 Obsidian Publish 的访问
+
+[publish/troubleshoot]
+General=常规
+Publishing notes=发布笔记
+CSS and themes=CSS 和主题
+
+[sync/headless]
+Quick start=快速开始
+Commands=命令
+Native modules=原生模块
+
+[sync/messages]
+Sync status icon=同步状态图标
+Sync activity log=同步日志
+General messages=常规消息
+Error messages=错误消息
+Skipped messages=已跳过消息
+Account messages=账户消息
+Network messages=网络消息
+
+[sync/switch]
+Move your vault out of your third-party syncing service or cloud storage=将仓库移出第三方同步服务或云存储
+Move your vault using Obsidian on desktop=在桌面端使用 Obsidian 移动仓库
+Move your vault on mobile=在移动端移动仓库
+iOS and iPadOS=iOS 和 iPadOS
+Next steps=后续步骤
+
+[sync/region]
+Available regions=可用区域
+Change Sync region=更改同步区域
+
+[sync/migrate]
+Encryption versions=加密版本
+Upgrade encryption with the migration assistant=使用迁移助手升级加密
+
+[teams/publish]
+Publishing tools and services=发布工具和服务
+Advanced collaboration for Obsidian Publish=Obsidian Publish 的高级协作功能
+Media=媒体文件
+Frequently asked questions=常见问题
+
+[import/csv]
+Create notes from CSV data in Obsidian=在 Obsidian 中从 CSV 数据创建笔记
+Configure how CSV fields are imported=配置 CSV 字段的导入方式
+
+[import/textbundle]
+Import Textbundle files into Obsidian=将 Textbundle 文件导入 Obsidian
+Troubleshooting=故障排查
+No files are selected for import=没有文件被选中进行导入
+
+[import/apple-journal]
+Export your data from Apple Journal=从 Apple Journal 导出数据
+On iPhone=在 iPhone 上
+On Mac (Tahoe)=在 Mac（Tahoe）上
+Import Apple Journal data into Obsidian=将 Apple Journal 数据导入 Obsidian
+Supported content=支持的内容
+
+[import/craft]
+Export your data from Craft=从 Craft 导出数据
+Import your Craft data into Obsidian=将 Craft 数据导入 Obsidian
+Troubleshooting=故障排查
+
+[plugins/importer]
+Install Importer=安装迁移助手
+
+[sandbox]
+Opening the sandbox vault=打开沙箱仓库
+Close the sandbox vault=关闭沙箱仓库
+
+[cli]
+Install Obsidian CLI=安装 Obsidian CLI
+Get started=快速上手
+Run a command=执行命令
+Use the terminal interface=使用终端界面
+Examples=示例
+Everyday use=日常使用
+For developers=面向开发者
+How to=操作指南
+Use parameters and flags=使用参数和标志
+Target a vault=指定仓库
+Target a file=指定文件
+Copy output=复制输出
+General commands=通用命令
+Bases=数据库
+Bookmarks=书签
+Command palette=命令面板
+Daily notes=日记
+File history=文件历史
+Files and folders=文件和文件夹
+Links=链接
+Outline=大纲
+Plugins=插件
+Properties=属性
+Publish=发布
+Random notes=随机笔记
+Search=搜索
+Sync=同步
+Tags=标签
+Tasks=任务
+Templates=模板
+Themes and snippets=主题和片段
+Unique notes=时间戳笔记
+Vault=仓库
+Web viewer=网页浏览器
+Wordcount=字数统计
+Workspace=工作区
+Developer commands=开发者命令
+Keyboard shortcuts=键盘快捷键
+Navigation=导航
+Editing=编辑
+Autocomplete=自动补全
+History=历史
+Other=其他
+Troubleshooting=故障排查
+Alternate shells=其他 shell
+
+[headless]
+Install=安装
+Authentication=身份验证
+Log in=登录
+Services=服务
+
+[plugins/web-viewer]
+Reader view=阅读视图
+Save to vault=保存到仓库
+Ad blocking=广告拦截
+Security=安全性
+
+[settings]
+Open Settings=打开设置
+Desktop=桌面端
+Mobile=移动端
+Settings organization=设置结构
+General=常规
+Version and updates=版本与更新
+Language=语言
+Help=帮助
+Account=账户
+Advanced=高级
+Notify if startup takes longer than expected=应用启动缓慢时进行通知
+Editor=编辑器
+Always focus new tabs=始终聚焦新标签页
+Default view for new tabs=新标签页的默认视图
+Default editing mode=默认编辑模式
+Show editing mode in status bar=视图状态
+Display=外观
+Readable line length=限制行宽
+Strict line breaks=严格换行
+Properties in document=笔记属性
+Fold heading=折叠标题
+Fold indent=折叠缩进
+Show line numbers=行号
+Show indentation guides=缩进参考线
+Right-to-left (RTL)=从右到左 (RTL)
+Auto-pair brackets=自动补全英文标点符号
+Auto-pair Markdown syntax=自动补全 Markdown 语法
+Smart lists=智能列表
+Indent using tabs=使用制表符
+Convert pasted HTML to Markdown=自动转换 HTML
+Behavior=行为
+Spellcheck=拼写检查
+Spellcheck languages=拼写检查语言
+Indent visual width=制表符宽度
+Vim key bindings=Vim 模式
+Files and links=文件与链接
+Default location for new notes=新建笔记的存放位置
+Default location for new attachments=附件默认存放路径
+Links=链接
+New link format=内部链接类型
+Automatically update internal links=始终更新内部链接
+Use Wikilinks=使用 Wiki 链接
+Show all file types=显示所有类型文件
+Trash=回收站
+Confirm file deletion=确认文件删除
+Deleted files=已删除文件
+Excluded files=忽略文件
+Override config folder=切换设置文件夹
+Allow URI callbacks=启用 URI 回调
+Rebuild vault cache=重建仓库缓存
+Appearance=外观
+Base color scheme=基础颜色
+Accent color=主题色
+Themes=主题
+Current community themes=已安装主题
+Font=字体
+Interface font=界面字体
+Text font=正文字体
+Monospace font=代码字体
+Font size=字体大小
+Quick font size adjustment=快速调整字体大小
+Interface=界面
+Show inline title=行内标题
+Show tab title bar=显示标签页标题栏
+Show ribbon=显示功能区
+Ribbon menu configuration=功能区设置
+Zoom level=缩放比例
+Native menus=原生菜单
+Window frame style=窗口边框样式
+Custom app icon=自定义应用图标
+Translucent window=半透明效果
+Hardware acceleration=硬件加速
+CSS snippets=CSS 代码片段
+Hotkeys=快捷键
+Core plugins=核心插件
+Community plugins=第三方插件
+Restricted mode=受限模式
+Current plugins=插件安装情况
+Installed plugins=已安装插件
+
+[sales-tax]
+Tax exemption=税收豁免
+Applying for an exemption=申请豁免

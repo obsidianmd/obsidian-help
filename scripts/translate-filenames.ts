@@ -269,8 +269,9 @@ async function main() {
     }
   }
 
-  const missingFolders = folders.filter(f => !existing.folders[f]);
-  const missingFiles = files.filter(f => !existing.files[f.permalink]);
+  // Consider an entry untranslated if it's missing OR if translation still equals the EN original
+  const missingFolders = folders.filter(f => !existing.folders[f] || existing.folders[f] === f);
+  const missingFiles = files.filter(f => !existing.files[f.permalink] || existing.files[f.permalink] === f.basename);
 
   console.log(`${folders.length} folders (${missingFolders.length} untranslated)`);
   console.log(`${files.length} files (${missingFiles.length} untranslated)\n`);
