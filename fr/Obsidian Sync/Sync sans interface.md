@@ -84,7 +84,7 @@ ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>]
 | `--vault` | ID ou nom du coffre distant (requis) |
 | `--path` | Répertoire local (par défaut : répertoire courant) |
 | `--password` | Mot de passe de chiffrement de bout en bout (demandé si omis) |
-| `--device-name` | Nom de l'appareil affiché dans l'[[Version history\|historique des versions de synchronisation]] |
+| `--device-name` | Nom de l'appareil affiché dans l'[[Historique des versions\|historique des versions de synchronisation]] |
 | `--config-dir` | Nom du [[Dossier de configuration\|dossier de configuration]] (par défaut : `.obsidian`) |
 
 ### `ob sync`

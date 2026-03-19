@@ -1,14 +1,13 @@
 ---
 permalink: 2fa
 localized: '2026-03-18'
-
 ---
 Si vous avez un [compte Obsidian](https://obsidian.md/fr/account), vous pouvez activer l'authentification à deux facteurs (2FA) pour protéger votre compte avec une étape de vérification supplémentaire.
 
 ## Activer la 2FA
 
 - Connectez-vous à [votre compte Obsidian](https://obsidian.md/fr/account/profile) depuis votre navigateur web.
-- Dans la section **Profile**, allez à **2-factor authentication** et sélectionnez **Enable**.
+- Dans la section **Profile**, allez à **Authentification à 2 facteurs** et sélectionnez **Enable**.
 - Une fenêtre contextuelle apparaîtra pour vous inviter à connecter une application d'authentification avec soit un **QR code**, soit une **clé de configuration**.
 
 > [!hint]- Applications d'authentification populaires
@@ -32,7 +31,7 @@ Votre 2FA est maintenant configurée.
 Si vous avez activé la 2FA avant que les codes de récupération ne soient disponibles, ou si vous souhaitez renouveler vos codes de récupération, suivez ces étapes :
 
 - Connectez-vous à [votre compte Obsidian](https://obsidian.md/fr/account/profile) depuis votre navigateur web.
-- À côté de 2-factor authentication, sélectionnez **Refresh recovery codes**.
+- À côté de Authentification à 2 facteurs, sélectionnez **Refresh recovery codes**.
 - Dans la fenêtre contextuelle, entrez votre **mot de passe** et votre **code d'authentification à 6 chiffres**.
 - Une fenêtre de confirmation affichera vos codes de récupération. Vous avez deux options :
     - **Copy recovery codes** : Copier les codes pour les coller ailleurs.
@@ -44,13 +43,13 @@ Vous pouvez utiliser un code de récupération **une seule fois** à la place de
 ## Désactiver la 2FA
 
 - Connectez-vous à [votre compte Obsidian](https://obsidian.md/fr/account/profile) depuis votre navigateur web.
-- Dans la section **Profile**, allez à **2-factor authentication** et sélectionnez **Disable**.
+- Dans la section **Profile**, allez à **Authentification à 2 facteurs** et sélectionnez **Disable**.
 - Entrez votre mot de passe Obsidian.
 - Entrez le code à six chiffres actuel depuis votre application d'authentification.
 - Sélectionnez **Disable 2FA**.
 - Vous serez redirigé vers l'écran de gestion du compte.
 
-Le paramètre **2-factor authentication** affichera à nouveau un bouton **Enable**, indiquant que la 2FA a été désactivée.
+Le paramètre **Authentification à 2 facteurs** affichera à nouveau un bouton **Enable**, indiquant que la 2FA a été désactivée.
 
 ## FAQ
 
