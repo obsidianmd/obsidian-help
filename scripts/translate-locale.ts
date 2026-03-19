@@ -572,7 +572,8 @@ async function saveTranslated(
   const newFm = { ...file.frontmatter, localized: today };
   delete newFm["needs-retranslation"];
   if (frDescription) newFm.description = frDescription;
-  const newContent = matter.stringify(fixed, newFm);
+  const newContent = matter.stringify(fixed, newFm)
+    .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1");
   fs.writeFileSync(file.absPath, newContent, "utf8");
 
   console.log(`    ✓ saved (${Object.keys(newEntries).length} heading(s) mapped)`);
