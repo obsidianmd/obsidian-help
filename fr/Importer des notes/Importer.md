@@ -9,7 +9,7 @@ description: >-
 publish: true
 mobile: true
 aliases:
-  - Plugins/Module d'importation
+  - Modules/Module d'importation
 localized: '2026-03-18'
 ---
 Importer vous aide à migrer vers Obsidian depuis diverses applications et formats. Consultez le guide [[Importer des notes]] pour plus de détails.

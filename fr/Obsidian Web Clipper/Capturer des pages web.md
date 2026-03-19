@@ -1,7 +1,7 @@
 ---
 permalink: web-clipper/capture
 aliases:
-  - Plugins/Web Clipper/Enregistrer des pages internet
+  - Modules/Web Clipper/Enregistrer des pages internet
 localized: '2026-03-18'
 ---
 Une fois l'extension de navigateur [[Introduction à Obsidian Web Clipper|Web Clipper]] installée, vous pouvez y accéder de plusieurs façons, selon votre navigateur :

@@ -8,7 +8,7 @@ description: >-
 publish: true
 mobile: true
 aliases:
-  - Plugins/Templates
+  - Modules/Templates
 localized: '2026-03-18'
 ---
 Modèles est un [[Modules principaux|module principal]] qui vous permet d'insérer des extraits de texte prédéfinis dans votre note active.

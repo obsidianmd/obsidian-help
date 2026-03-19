@@ -4,7 +4,7 @@ description: >-
   Apprenez à créer des modèles qui capturent et organisent automatiquement les
   métadonnées des pages web avec Web Clipper.
 aliases:
-  - Plugins/Web Clipper/Créer des templates
+  - Modules/Web Clipper/Créer des templates
 localized: '2026-03-18'
 ---
 [[Introduction à Obsidian Web Clipper|Web Clipper]] vous permet de créer des modèles qui capturent et organisent automatiquement les métadonnées des pages web. Des exemples de modèles sont disponibles dans le [dépôt clipper-templates](https://github.com/kepano/clipper-templates).

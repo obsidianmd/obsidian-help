@@ -15,7 +15,7 @@ En revanche, un module qui nécessite un bloc de code spécifique pour s'affiche
 
 ## Graphe
 
-Publish offre une personnalisation basique des couleurs pour sa vue graphique à l'aide de CSS. Vous pouvez modifier les couleurs des nœuds dans votre fichier `publish.css` en utilisant les [variables CSS de la vue graphique](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
+Publish offre une personnalisation basique des couleurs pour sa vue graphique à l'aide de CSS. Vous pouvez modifier les couleurs des nœuds dans votre fichier `publish.css` en utilisant les [variables CSS de la vue graphique](https://docs.obsidian.md/Reference/CSS+variables/Modules/Graph).
 
 Notez que le graphe publié ne prend pas en charge les options complètes de tri et d'affichage disponibles dans la [[Vue graphique]] de l'application.
 

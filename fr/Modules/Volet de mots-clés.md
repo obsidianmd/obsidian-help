@@ -1,7 +1,7 @@
 ---
 permalink: plugins/tags
 aliases:
-  - Plugins/Modules principaux/Volet des Mots-clés
+  - Modules/Modules principaux/Volet des Mots-clés
 localized: '2026-03-18'
 ---
 Le volet de mots-clés est un [[Modules principaux|module principal]] qui liste tous les mots-clés dans votre coffre et le nombre de notes pour chaque mot-clé.

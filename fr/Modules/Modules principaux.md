@@ -9,7 +9,7 @@ description: >-
 publish: true
 mobile: true
 aliases:
-  - Plugins/Modules principaux/Modules principaux
+  - Modules/Modules principaux/Modules principaux
 localized: '2026-03-18'
 ---
 Cette page liste les modules principaux installés avec Obsidian. Les modules principaux sont officiellement développés et maintenus par l'équipe d'Obsidian, et sont inclus dans l'application.
@@ -71,7 +71,7 @@ L'équipe d'Obsidian assure également le développement de certains [[#Autres m
 	- Synchronisez vos notes entre vos appareils.
 - [[Volet de mots-clés|Vue des mots-clés]]
 	- Listez tous les mots-clés de votre coffre.
-- [[Plugins/Modèles|Modèles]]
+- [[Modules/Modèles|Modèles]]
 	- Insérez du contenu prédéfini dans vos notes.
 - [[Créateur de note unique]]
 	- Créez une note unique avec un titre horodaté.

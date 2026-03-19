@@ -738,6 +738,10 @@ translation=Obsidian Sync
 original=Obsidian Web Clipper
 translation=Obsidian Web Clipper
 
+[folder.Plugins]
+original=Plugins
+translation=Modules
+
 [folder.Teams]
 original=Teams
 translation=Équipes

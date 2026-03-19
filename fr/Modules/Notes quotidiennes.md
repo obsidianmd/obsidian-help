@@ -1,7 +1,7 @@
 ---
 permalink: plugins/daily-notes
 aliases:
-  - Plugins/Modules principaux/Notes quotidiennes
+  - Modules/Modules principaux/Notes quotidiennes
 localized: '2026-03-18'
 ---
 Notes quotidiennes est un [[Modules principaux|module principal]] qui ouvre une note basée sur la date du jour, ou la crée si elle n'existe pas. Utilisez les notes quotidiennes pour créer des journaux, des listes de tâches ou des relevés quotidiens de vos découvertes de la journée.
@@ -25,7 +25,7 @@ Par défaut, Obsidian crée une nouvelle note vide nommée d'après la date du j
 
 ## Créer une note quotidienne à partir d'un modèle
 
-Si vos notes quotidiennes ont la même structure, vous pouvez utiliser un [[Plugins/Modèles|modèle]] pour ajouter du contenu prédéfini à vos notes quotidiennes lors de leur création.
+Si vos notes quotidiennes ont la même structure, vous pouvez utiliser un [[Modules/Modèles|modèle]] pour ajouter du contenu prédéfini à vos notes quotidiennes lors de leur création.
 
 1. Créez une nouvelle note nommée « Modèle quotidien » avec le texte suivant (ou tout ce qui vous convient !) :
 

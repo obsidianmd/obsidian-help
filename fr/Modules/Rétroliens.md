@@ -6,7 +6,7 @@ description: >-
 publish: true
 mobile: false
 aliases:
-  - Plugins/Modules principaux/Module des rétroliens
+  - Modules/Modules principaux/Module des rétroliens
 localized: '2026-03-18'
 ---
 Avec le module [[Modules principaux|Rétroliens]], vous pouvez voir tous les _liens retour_ de la note active.

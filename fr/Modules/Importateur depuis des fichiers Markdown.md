@@ -7,7 +7,7 @@ description: >-
 publish: true
 mobile: true
 aliases:
-  - Plugins/Markdown format converter
+  - Modules/Markdown format converter
 localized: '2026-03-18'
 ---
 Importateur depuis des fichiers Markdown est un [[Modules principaux|module principal]] qui vous permet de convertir du Markdown provenant d'autres applications au format Obsidian. Il vous permet également de convertir certaines [[Propriétés]] vers les nouveaux formats requis.

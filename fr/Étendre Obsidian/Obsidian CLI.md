@@ -1087,7 +1087,7 @@ task daily line=3 done             # Marquer une tâche de la note quotidienne c
 
 ## Modèles
 
-Commandes pour les [[Plugins/Modèles|Modèles]].
+Commandes pour les [[Modules/Modèles|Modèles]].
 
 ### `templates`
 

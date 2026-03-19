@@ -6,7 +6,7 @@ description: >-
 publish: true
 mobile: true
 aliases:
-  - Plugins/Custom CSS
+  - Modules/Custom CSS
 localized: '2026-03-18'
 ---
 Apprenez à modifier certains aspects de l'apparence de l'application Obsidian sans avoir besoin de [construire un thème](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).

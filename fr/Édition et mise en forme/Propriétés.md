@@ -52,7 +52,7 @@ Les propriétés disposent de leur propre [[Rechercher|syntaxe de recherche]] qu
 
 ### Modèles
 
-Vous pouvez ajouter des propriétés aux [[Plugins/Modèles|Modèles]].
+Vous pouvez ajouter des propriétés aux [[Modules/Modèles|Modèles]].
 
 Lorsque vous insérez un modèle dans la note active, toutes les propriétés du modèle sont ajoutées à la note. Obsidian fusionne également toutes les propriétés existantes dans votre note avec les propriétés du modèle. ^templates-properties
 
