@@ -10,7 +10,6 @@ publish: true
 mobile: true
 aliases:
   - Plugins/Modules principaux/Modules principaux
-  - Core plugins
 localized: '2026-03-18'
 ---
 Cette page liste les modules principaux installés avec Obsidian. Les modules principaux sont officiellement développés et maintenus par l'équipe d'Obsidian, et sont inclus dans l'application.

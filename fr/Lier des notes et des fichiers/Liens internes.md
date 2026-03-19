@@ -9,7 +9,6 @@ publish: true
 mobile: true
 aliases:
   - How to/Liens internes
-  - Internal links
 localized: '2026-03-18'
 ---
 Apprenez à créer des liens vers des notes, des pièces jointes et d'autres fichiers depuis vos notes, à l'aide de _liens internes_. En liant vos notes, vous pouvez créer un réseau de connaissances. ^b15695

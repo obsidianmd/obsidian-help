@@ -2,7 +2,6 @@
 permalink: early-access
 aliases:
   - Advanced Use/Versions Beta
-  - Early access versions
 localized: '2026-03-18'
 ---
 Obtenez un accès anticipé aux prochaines versions en activant les _versions en accès anticipé_. Les versions en accès anticipé sont uniquement disponibles pour les utilisateurs disposant d'une [[Licence Catalyst]].

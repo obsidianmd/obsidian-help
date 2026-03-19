@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Ribbon
+
 ---
 Le ruban fonctionne comme un espace pour les commandes courantes dans Obsidian.
 

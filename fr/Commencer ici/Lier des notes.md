@@ -2,7 +2,6 @@
 permalink: link-notes
 aliases:
   - How to/Prise de note basique
-  - Link notes
 localized: '2026-03-18'
 ---
 Bien qu'Obsidian soit excellent pour prendre des notes, la véritable puissance d'Obsidian réside dans la possibilité de lier vos notes entre elles. En comprenant comment une information est reliée à une autre, vous pouvez améliorer votre capacité à les mémoriser et à former des réflexions plus profondes. Dans ce guide, vous apprendrez comment créer et naviguer entre les liens dans Obsidian.

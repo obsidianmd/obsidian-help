@@ -1,8 +1,7 @@
 ---
 permalink: import/csv
 localized: '2026-03-18'
-aliases:
-  - Import CSV files
+
 ---
 Obsidian vous permet d'importer des données depuis des fichiers CSV à l'aide du [[Importer des notes|module Importer]] officiel. C'est utile si vous avez des données tabulaires stockées dans des applications telles qu'Excel, Google Sheets, Numbers, Notion ou Airtable.
 

@@ -5,8 +5,7 @@ description: >-
   données d'autres propriétés. Vous pouvez effectuer des calculs, manipuler du
   texte, travailler avec des dates, et bien plus encore.
 localized: '2026-03-18'
-aliases:
-  - Formulas
+
 ---
 Les formules vous permettent de créer des propriétés calculées dans les [[Introduction aux Bases|Bases]] en utilisant les données d'autres [[Propriétés|propriétés]]. Vous pouvez effectuer des calculs, manipuler du texte, travailler avec des dates, et bien plus encore.
 

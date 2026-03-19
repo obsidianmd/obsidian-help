@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Collaborate on a Publish site
+
 ---
 Apprenez à collaborer sur votre site [[Introduction à Obsidian Publish|Obsidian Publish]] avec d'autres utilisateurs d'Obsidian. En ajoutant vos amis et collègues en tant que collaborateurs, ils peuvent publier des modifications sur votre site.
 

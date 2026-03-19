@@ -137,40 +137,68 @@ function saveHeadingsTxt(data: HeadingsMap) {
 
 // ─── Glossary ────────────────────────────────────────────────────────────────
 
-function loadGlossary(termsPath: string, langCode: string): string {
-  if (!fs.existsSync(termsPath)) {
-    console.warn(`  [warn] terms.txt not found at ${termsPath}, skipping glossary`);
-    return "";
-  }
-  const content = fs.readFileSync(termsPath, "utf8");
-  const lines = content.split("\n");
+interface Glossary {
+  /** Always-included terms from terms.txt, formatted as "key (desc) = translation" lines. */
+  fixed: string;
+  /** Supplementary UI terms from translations/{langCode}.txt; filtered per file to keep prompts lean. */
+  supplementary: Map<string, string>;
+}
 
-  // Parse [description] and [langCode] sections
+function loadGlossary(termsPath: string, langCode: string): Glossary {
+  // --- Primary: terms.txt ([description] + [langCode] sections) ---
   const descriptions: Record<string, string> = {};
-  const translations: Record<string, string> = {};
-  let section = "";
+  const primary: Record<string, string> = {};
 
-  for (const line of lines) {
-    const trimmed = line.trim();
-    if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
-      section = trimmed.slice(1, -1);
-      continue;
+  if (!fs.existsSync(termsPath)) {
+    console.warn(`  [warn] terms.txt not found at ${termsPath}, skipping primary glossary`);
+  } else {
+    let section = "";
+    for (const line of fs.readFileSync(termsPath, "utf8").split("\n")) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith("[") && trimmed.endsWith("]")) { section = trimmed.slice(1, -1); continue; }
+      const eq = trimmed.indexOf("=");
+      if (eq === -1) continue;
+      const k = trimmed.slice(0, eq), v = trimmed.slice(eq + 1);
+      if (section === "description") descriptions[k] = v;
+      else if (section === langCode && v) primary[k] = v;
     }
-    const eq = trimmed.indexOf("=");
-    if (eq === -1) continue;
-    const k = trimmed.slice(0, eq);
-    const v = trimmed.slice(eq + 1);
-    if (section === "description") descriptions[k] = v;
-    else if (section === langCode && v) translations[k] = v;
   }
 
-  if (Object.keys(translations).length === 0) return "";
-
-  const lines2 = Object.entries(translations).map(([k, v]) => {
+  const fixed = Object.entries(primary).map(([k, v]) => {
     const desc = descriptions[k] ? ` (${descriptions[k]})` : "";
     return `${k}${desc} = ${v}`;
-  });
-  return lines2.join("\n");
+  }).join("\n");
+
+  // --- Supplementary: translations/{langCode}.txt (original= / translation= pairs) ---
+  // Keyed by lowercased English original; filtered per-file before inclusion in prompts.
+  const supplementary = new Map<string, string>();
+  const translationsFile = path.join(path.dirname(termsPath), "translations", `${langCode}.txt`);
+  if (fs.existsSync(translationsFile)) {
+    let original = "";
+    for (const line of fs.readFileSync(translationsFile, "utf8").split("\n")) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith("[") && trimmed.endsWith("]")) { original = ""; continue; }
+      const eq = trimmed.indexOf("=");
+      if (eq === -1) continue;
+      const k = trimmed.slice(0, eq), v = trimmed.slice(eq + 1);
+      if (k === "original") { original = v.toLowerCase(); }
+      else if (k === "translation" && v && original && !primary[original]) {
+        supplementary.set(original, v);
+      }
+    }
+  }
+
+  return { fixed, supplementary };
+}
+
+/** Build a glossary string for a specific file, filtering supplementary terms to those present in the content. */
+function buildGlossaryString(glossary: Glossary, content: string): string {
+  const lower = content.toLowerCase();
+  const sup = [...glossary.supplementary.entries()]
+    .filter(([key]) => lower.includes(key))
+    .map(([k, v]) => `${k} = ${v}`)
+    .join("\n");
+  return [glossary.fixed, sup].filter(Boolean).join("\n");
 }
 
 // ─── Headings ─────────────────────────────────────────────────────────────────
@@ -572,7 +600,9 @@ async function saveTranslated(
   const newFm = { ...file.frontmatter, localized: today };
   delete newFm["needs-retranslation"];
   if (frDescription) newFm.description = frDescription;
-  const newContent = matter.stringify(fixed, newFm);
+  const newContent = matter.stringify(fixed, newFm)
+    .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
+    .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
   fs.writeFileSync(file.absPath, newContent, "utf8");
 
   console.log(`    ✓ saved (${Object.keys(newEntries).length} heading(s) mapped)`);
@@ -614,7 +644,7 @@ async function main() {
     : path.resolve(ROOT, "../obsidian-translations/terms.txt");
 
   const glossary = loadGlossary(termsPath, locale);
-  if (glossary) console.log(`Loaded glossary (${glossary.split("\n").length} terms)`);
+  console.log(`Loaded glossary (${glossary.fixed.split("\n").filter(Boolean).length} primary + ${glossary.supplementary.size} supplementary terms)`);
 
   const enFiles = collectEnFiles();
   const headingsMap = loadHeadingsTxt();
@@ -623,8 +653,6 @@ async function main() {
   const enToLocale = buildEnToLocaleBasename(enFiles, filenamesMap);
   const linkRef = buildLinkReference(enFiles, filenamesMap);
   if (enToLocale.size > 0) console.log(`Loaded filenames.txt (${enToLocale.size} filename mappings)`);
-  const systemPrompt = buildSystemPrompt(locale, glossary, linkRef);
-  const patchPrompt = buildPatchPrompt(locale, glossary, linkRef);
 
   // ── Fix-links only mode ──
   if (fixLinksOnly) {
@@ -702,8 +730,11 @@ async function main() {
         console.log(`  STALE  ${file.relPath} (EN changed after ${localizedDate})`);
         if (!dryRun) {
           // Preserve the date for diff-based patching; just flag it
-          const newFm = { ...file.frontmatter, "needs-retranslation": true };
-          const newContent = matter.stringify(file.content, newFm);
+          const rawDate = file.frontmatter.localized;
+          const localizedStr = rawDate instanceof Date ? rawDate.toISOString().slice(0, 10) : rawDate;
+          const newFm = { ...file.frontmatter, localized: localizedStr, "needs-retranslation": true };
+          const newContent = matter.stringify(file.content, newFm)
+            .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1");
           fs.writeFileSync(file.absPath, newContent, "utf8");
         }
         staleCount++;
@@ -740,6 +771,10 @@ async function main() {
     try {
       const enFm = matter(fs.readFileSync(path.join(enDir, file.enRelPath), "utf8")).data;
       const enDesc = enFm?.description as string | undefined;
+      // Build per-file prompts with supplementary glossary filtered to terms in this file's content
+      const fileGlossary = buildGlossaryString(glossary, enContent + " " + (enDesc ?? ""));
+      const systemPrompt = buildSystemPrompt(locale, fileGlossary, linkRef);
+      const patchPrompt = buildPatchPrompt(locale, fileGlossary, linkRef);
       await translateFile(file, enContent, config, systemPrompt, headingsMap, basenameToPermalink, enToLocale, enDesc, patchPrompt);
       done++;
     } catch (err) {

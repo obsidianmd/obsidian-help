@@ -1,8 +1,7 @@
 ---
 permalink: bases/views/cards
 localized: '2026-03-18'
-aliases:
-  - Cards view
+
 ---
 Cartes est un type de [[Vues|vue]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]].
 

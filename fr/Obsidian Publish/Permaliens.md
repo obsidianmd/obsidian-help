@@ -1,8 +1,7 @@
 ---
 permalink: publish/permalinks
 localized: '2026-03-18'
-aliases:
-  - Permalinks
+
 ---
 Vous pouvez renommer l'URL de vos notes en utilisant des _permaliens_.
 

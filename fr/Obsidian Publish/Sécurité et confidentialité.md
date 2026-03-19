@@ -1,8 +1,7 @@
 ---
 permalink: publish/security
 localized: '2026-03-18'
-aliases:
-  - Security and privacy
+
 ---
 Vous pouvez choisir les notes que vous souhaitez publier sur [[Introduction à Obsidian Publish|Obsidian Publish]]. Le reste de vos notes reste en sécurité dans votre coffre.
 

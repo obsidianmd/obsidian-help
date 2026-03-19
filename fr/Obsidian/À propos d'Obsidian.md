@@ -2,7 +2,6 @@
 permalink: obsidian
 aliases:
   - Obsidian
-  - About Obsidian
 localized: '2026-03-18'
 ---
 ## Qu'est-ce qu'Obsidian

@@ -1,8 +1,7 @@
 ---
 permalink: backup
 localized: '2026-03-18'
-aliases:
-  - Back up your Obsidian files
+
 ---
 Si vous n'avez pas encore sauvegardé votre ordinateur, commencez maintenant ! Le module [[Récupération de fichier]] d'Obsidian est utile mais limité. Il ne peut récupérer qu'une certaine quantité de données, et il stocke les informations de récupération par appareil. Pour une protection plus robuste, nous vous recommandons de mettre en place un véritable système de sauvegarde.
 

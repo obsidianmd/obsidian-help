@@ -2,7 +2,6 @@
 permalink: hotkeys
 aliases:
   - How to/Raccourcis clavier
-  - Hotkeys
 localized: '2026-03-18'
 ---
 Les raccourcis clavier sont des combinaisons de touches personnalisables pour les commandes Obsidian. Vous pouvez assigner n'importe quelle combinaison de touches pour déclencher des commandes comme ouvrir des fichiers, insérer des modèles ou activer des modules.

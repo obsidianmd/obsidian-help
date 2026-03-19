@@ -2,7 +2,6 @@
 permalink: edit-and-read
 aliases:
   - How to/Modes édition et aperçu
-  - Views and editing mode
 localized: '2026-03-18'
 ---
 Obsidian vous permet de contrôler la manière dont vous lisez et modifiez vos notes écrites en Markdown en utilisant des _vues_ et des _modes_.

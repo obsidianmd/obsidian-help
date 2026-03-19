@@ -7,7 +7,6 @@ publish: true
 mobile: false
 aliases:
   - How to/Créer des notes
-  - Create your first note
 localized: '2026-03-18'
 ---
 Les notes dans Obsidian sont stockées en texte brut. Cela signifie que vos données sont durables et ne sont pas enfermées dans un format propriétaire. En écrivant vos notes en texte brut, elles survivront à n'importe quelle application — même Obsidian.

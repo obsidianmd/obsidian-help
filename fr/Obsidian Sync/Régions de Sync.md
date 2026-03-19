@@ -6,8 +6,7 @@ description: Déplacez votre coffre Sync vers une région différente.
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Sync regions
+
 ---
 Lorsque vous créez un [[Coffres locaux et distants|coffre distant]] via [[Introduction à Obsidian Sync|Obsidian Sync]], vos données sont chiffrées et stockées sur l'un des serveurs régionaux de Sync d'Obsidian. Ce guide explique comment déplacer votre coffre Sync vers un serveur régional différent.
 

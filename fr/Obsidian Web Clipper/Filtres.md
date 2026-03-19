@@ -1,8 +1,7 @@
 ---
 permalink: web-clipper/filters
 localized: '2026-03-18'
-aliases:
-  - Filters
+
 ---
 Les filtres vous permettent de modifier les [[variables]] dans les [[Obsidian Web Clipper/Modèles|modèles de Web Clipper]]. Les filtres sont appliqués aux variables en utilisant la syntaxe `{{variable|filtre}}`.
 

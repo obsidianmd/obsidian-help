@@ -1,8 +1,7 @@
 ---
 permalink: import/markdown
 localized: '2026-03-18'
-aliases:
-  - Import Markdown files
+
 ---
 Obsidian utilise des fichiers Markdown `.md` comme format principal pour les notes. Cela facilite l'importation de fichiers Markdown dans Obsidian. De nombreuses applications peuvent éditer des fichiers Markdown ou exporter vers ce format.
 

@@ -1,8 +1,7 @@
 ---
 permalink: bases/create-base
 localized: '2026-03-18'
-aliases:
-  - Create a base
+
 ---
 Les [[Introduction aux Bases|Bases]] vous permettent de créer des vues de type base de données de vos notes. Voici comment créer une base et l'intégrer dans une note. Chaque base peut avoir une ou plusieurs [[Vues|vues]] pour afficher les informations de différentes manières.
 

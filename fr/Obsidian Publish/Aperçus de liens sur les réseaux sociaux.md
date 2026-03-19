@@ -1,8 +1,7 @@
 ---
 permalink: publish/social-share
 localized: '2026-03-18'
-aliases:
-  - Social media link previews
+
 ---
 De nombreux réseaux sociaux affichent un aperçu enrichi de votre site web lorsqu'un utilisateur partage un lien vers celui-ci. En utilisant les [[Propriétés]], vous pouvez personnaliser la façon dont vos notes apparaissent dans l'aperçu.
 

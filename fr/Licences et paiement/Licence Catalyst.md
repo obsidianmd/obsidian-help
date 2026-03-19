@@ -2,7 +2,6 @@
 permalink: catalyst
 aliases:
   - Advanced Use/Licence Catalyst
-  - Catalyst license
 localized: '2026-03-18'
 ---
 La licence Catalyst est un achat unique qui vous donne un accès anticipé aux versions bêta et contribue à soutenir le développement continu d'Obsidian. Vous pouvez soutenir Obsidian en [achetant une licence Catalyst](https://obsidian.md/buy/catalyst).

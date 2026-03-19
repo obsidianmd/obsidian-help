@@ -1,8 +1,7 @@
 ---
 permalink: bases/views
 localized: '2026-03-18'
-aliases:
-  - Views
+
 ---
 Les vues vous permettent d'organiser l'information dans une [[Introduction aux Bases|Base]] de multiples façons. Une base peut contenir plusieurs vues, et chaque vue peut avoir une configuration unique pour afficher, trier et filtrer les fichiers.
 

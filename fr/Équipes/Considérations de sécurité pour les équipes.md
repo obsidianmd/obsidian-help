@@ -3,8 +3,7 @@ permalink: teams/security
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-aliases:
-  - Security considerations for teams
+
 ---
 Notre page [Sécurité](https://obsidian.md/security) compile les informations sur la manière dont Obsidian aborde la protection de vos données. C'est également le lieu où sont publiés les audits de sécurité réalisés par des tiers.
 

@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Configuration folder
+
 ---
 Le dossier de configuration d'Obsidian contient tous les fichiers de paramètres relatifs à votre [[Gérer les coffres|coffre]].
 

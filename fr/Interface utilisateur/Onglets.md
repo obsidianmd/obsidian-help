@@ -7,7 +7,6 @@ publish: true
 mobile: true
 aliases:
   - How to/Travailler avec plusieurs notes
-  - Tabs
 localized: '2026-03-18'
 ---
 Les onglets dans Obsidian fonctionnent de manière très similaire aux onglets d'autres applications, comme les navigateurs web.

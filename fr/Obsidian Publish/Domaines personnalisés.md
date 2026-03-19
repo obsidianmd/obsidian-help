@@ -5,8 +5,7 @@ description: >-
   site Obsidian Publish.
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Custom domains
+
 ---
 Vous pouvez configurer un domaine ou un sous-domaine personnalisé pour votre site [[Introduction à Obsidian Publish|Obsidian Publish]].
 

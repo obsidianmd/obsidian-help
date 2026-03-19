@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: false
 localized: '2026-03-18'
-aliases:
-  - Outgoing links
+
 ---
 Liens sortants est un [[Modules principaux|module principal]] qui affiche en un coup d'œil les liens depuis la note active, ainsi que les liens potentiels à créer. Il est similaire au module [[Rétroliens]], qui affiche quant à lui les liens _entrants_ vers la note active.
 

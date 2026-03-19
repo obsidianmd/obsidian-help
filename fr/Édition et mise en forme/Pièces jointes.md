@@ -1,8 +1,7 @@
 ---
 permalink: attachments
 localized: '2026-03-18'
-aliases:
-  - Attachments
+
 ---
 Vous pouvez importer des [[Formats de fichiers acceptés]], ou _pièces jointes_, dans votre coffre, comme des images, des fichiers audio ou des PDF. Les pièces jointes sont des fichiers ordinaires auxquels vous pouvez accéder via votre système de fichiers. Les pièces jointes peuvent être [[Incorporer des fichiers|intégrées]].
 

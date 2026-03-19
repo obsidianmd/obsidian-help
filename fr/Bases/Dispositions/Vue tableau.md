@@ -1,8 +1,7 @@
 ---
 permalink: bases/views/table
 localized: '2026-03-18'
-aliases:
-  - Table view
+
 ---
 Le tableau est un type de [[Vues|vue]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]].
 

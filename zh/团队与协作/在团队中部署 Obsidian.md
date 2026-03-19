@@ -3,14 +3,17 @@ cssclasses:
   - soft-embed
 aliases:
   - Deploy Obsidian across your team
+  - 团队与协作/在团队中部署 Obsidian
+permalink: teams/deploy
+localized: 2026-03-19
 ---
 Obsidian 作为一个本地应用程序运行在每个团队成员的设备上。它可以用于在线和离线工作，安全且私密，你可以完全掌控团队的数据。由于 Obsidian 不是在线应用，因此你需要将 Obsidian 部署到团队成员的设备上。
 
 ## 安装和更新 Obsidian
 
-团队成员可以从我们的 [下载页面](https://obsidian.md/download) 下载 Obsidian。历史发布版本也可以在我们的 [GitHub 发布页面](https://github.com/obsidianmd/obsidian-releases/releases)上找到，其中包括 [更新日志](https://obsidian.md/changelog) 的链接。
+团队成员可以从我们的 [下载页面](https://obsidian.md/zh/download) 下载 Obsidian。历史发布版本也可以在我们的 [GitHub 发布页面](https://github.com/obsidianmd/obsidian-releases/releases)上找到，其中包括 [更新日志](https://obsidian.md/zh/changelog/) 的链接。
 
-> [!tip] 对于需要在所有账户上安装 Obsidian 的 Windows 用户，请使用发布页面上的 `-allusers.exe` 文件进行安装。
+> [!tip] 对于需要系统安装程序的 Windows 用户，通用版 `.exe` 包含为所有用户安装 Obsidian 的选项。
 
 如果 Obsidian 中启用了自动更新，用户重新启动 Obsidian 时将自动安装新版本。此外，我们建议定期 [[更新 Obsidian#安装程序更新|更新安装程序]]以获取最新的 Electron 框架，从而获得包括安全修复在内的一系列改进。
 
@@ -50,4 +53,4 @@ Obsidian 易于根据团队需求进行修改。凭借广泛的 API 和庞大的
 目前，我们不支持通过部署脚本（例如 `.json` 文件）部署许可证。如果你的团队需要这个功能，请向我们提交 [功能请求](https://forum.obsidian.md/c/feature-requests/8)。
 
 **Obsidian 是否可以通过设置锁定某些功能或设置？**
-目前还不能。如果你的团队需要这个功能，请向我们提交 [功能请求](https://forum.obsidian.md/c/feature-requests/8)。
+目前你可以通过阻止对 `.obsidian` 文件夹或其中特定文件和文件夹的编辑权限来实现这一点，如上所述。如果你的团队需要更多的访问控制功能，请向我们提交 [功能请求](https://forum.obsidian.md/c/feature-requests/8)。

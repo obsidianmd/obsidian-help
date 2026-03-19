@@ -3,8 +3,7 @@ permalink: publish/media
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-aliases:
-  - Media files
+
 ---
 [[Introduction à Obsidian Publish|Obsidian Publish]] vous permet d'héberger des notes et divers types de médias, y compris des images et des clips vidéo, avec une limite de 4 Go par site. Pour plus de détails, veuillez consulter nos [[Formats de fichiers acceptés|formats de fichiers acceptés]].
 

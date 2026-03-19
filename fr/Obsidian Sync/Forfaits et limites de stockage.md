@@ -4,8 +4,7 @@ description: Découvrez les différentes options d'abonnement disponibles pour O
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Plans and storage limits
+
 ---
 ## Forfaits
 

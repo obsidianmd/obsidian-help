@@ -1,8 +1,7 @@
 ---
 permalink: themes
 localized: '2026-03-18'
-aliases:
-  - Themes
+
 ---
 Apprenez à modifier l'apparence d'Obsidian en utilisant des thèmes créés par la communauté.
 

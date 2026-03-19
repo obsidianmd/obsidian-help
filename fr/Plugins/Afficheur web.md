@@ -2,7 +2,6 @@
 permalink: plugins/web-viewer
 aliases:
   - Plugins/Modules principaux/Afficheur Web
-  - Web viewer
 localized: '2026-03-18'
 ---
 La visionneuse web est un [[Modules principaux|module principal]] qui vous permet d'ouvrir des liens externes dans Obsidian sur ordinateur. Cela vous permet de lire le contenu des liens sans quitter l'application et facilite le multitâche dans les projets de recherche web.

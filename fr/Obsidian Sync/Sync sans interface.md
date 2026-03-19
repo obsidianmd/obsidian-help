@@ -8,8 +8,7 @@ description: >-
   les flux de travail automatisés. Synchronisez les dernières modifications ou
   maintenez les fichiers continuellement à jour.
 localized: '2026-03-18'
-aliases:
-  - Headless Sync
+
 ---
 [[Introduction à Obsidian Sync|Obsidian Sync]] propose un client sans interface pour synchroniser des coffres sans utiliser l'application de bureau. Utile pour les pipelines CI, les agents et les flux de travail automatisés. Synchronisez les dernières modifications ou maintenez les fichiers continuellement à jour.
 

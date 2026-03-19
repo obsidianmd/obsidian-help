@@ -1,8 +1,7 @@
 ---
 permalink: tags
 localized: '2026-03-18'
-aliases:
-  - Tags
+
 ---
 Les mots-clés sont des termes ou des sujets qui vous aident à retrouver rapidement les notes que vous cherchez.
 

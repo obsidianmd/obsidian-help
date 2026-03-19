@@ -3,8 +3,7 @@ permalink: teams/deploy
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-aliases:
-  - Deploy Obsidian across your team
+
 ---
 Obsidian fonctionne comme une application locale sur chacun des appareils de vos membres d'équipe. Il est conçu pour fonctionner en ligne comme hors ligne, de manière sécurisée et confidentielle, et vous donner un contrôle total sur les données de votre équipe. Obsidian n'est pas disponible en tant qu'application web, vous devrez donc déployer l'application auprès de vos membres d'équipe.
 

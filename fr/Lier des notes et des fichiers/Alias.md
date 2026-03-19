@@ -3,8 +3,7 @@ permalink: aliases
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-aliases:
-  - Aliases
+
 ---
 Si vous souhaitez référencer un fichier en utilisant différents noms, envisagez d'ajouter des _alias_ à la note. Un alias est un nom alternatif pour une note.
 

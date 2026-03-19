@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: false
 localized: '2026-03-18'
-aliases:
-  - Security and privacy
+
 ---
 ## Chiffrement
 

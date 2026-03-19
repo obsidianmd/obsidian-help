@@ -9,8 +9,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Introduction to Obsidian Sync
+
 ---
 [Obsidian Sync](https://obsidian.md/sync) est un service complémentaire qui vous permet de synchroniser vos notes de manière privée entre vos appareils.
 

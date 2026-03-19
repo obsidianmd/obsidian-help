@@ -1,8 +1,7 @@
 ---
 permalink: publish/limitations
 localized: '2026-03-18'
-aliases:
-  - Publish limitations
+
 ---
 > [!tip] Les membres de notre formidable communauté ont trouvé des solutions de contournement pour certaines de ces limitations. Pour plus d'informations, veuillez consulter notre fil [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582) sur les forums d'Obsidian.
 

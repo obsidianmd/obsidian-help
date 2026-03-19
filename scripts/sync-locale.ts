@@ -125,7 +125,8 @@ function collectFiles(dir: string): Map<string, FileInfo> {
 
 function buildFrontmatter(
   enFm: Record<string, unknown>,
-  localeFm: Record<string, unknown>
+  localeFm: Record<string, unknown>,
+  enBasename: string
 ): Record<string, unknown> {
   const result: Record<string, unknown> = { ...localeFm };
 
@@ -138,12 +139,18 @@ function buildFrontmatter(
     }
   }
 
-  // Preserve locale-specific fields (never overwrite from EN)
-  if ("aliases" in localeFm) {
-    result.aliases = localeFm.aliases;
+  // Preserve locale aliases, stripping any that came from EN.
+  // Keep: locale-specific aliases + the EN basename (used for wikilink resolution).
+  // Remove: EN frontmatter aliases that leaked in from migration.
+  const enAliasSet = new Set((enFm.aliases as string[] | undefined) ?? []);
+  const localeAliases = (localeFm.aliases as string[] | undefined) ?? [];
+  const filteredAliases = localeAliases.filter(a => !enAliasSet.has(a) || a === enBasename);
+  if (filteredAliases.length > 0) {
+    result.aliases = filteredAliases;
   } else {
     delete result.aliases;
   }
+
   if ("localized" in localeFm) {
     result.localized = localeFm.localized;
   }
@@ -159,7 +166,9 @@ function frontmatterChanged(
 }
 
 function writeFile(filePath: string, fm: Record<string, unknown>, content: string) {
-  const newContent = matter.stringify(content, fm);
+  const newContent = matter.stringify(content, fm)
+    .replace(/^localized: null$/m, "localized:")
+    .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1");
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, newContent, "utf8");
 }
@@ -199,7 +208,8 @@ for (const [permalink, enInfo] of enFiles) {
     }
 
     // Sync frontmatter
-    const newFm = buildFrontmatter(enInfo.frontmatter, localeInfo.frontmatter);
+    const enBasename = path.basename(enInfo.relPath, ".md");
+    const newFm = buildFrontmatter(enInfo.frontmatter, localeInfo.frontmatter, enBasename);
     // If localized is absent or false and content matches EN, mark as unlocalized (null = empty date)
     const isUnlocalized = !localeInfo.frontmatter.localized;
     if (isUnlocalized && localeInfo.content.trim() === enInfo.content.trim()) {
@@ -207,7 +217,6 @@ for (const [permalink, enInfo] of enFiles) {
     }
     // If the locale file has a different filename than EN, add the EN basename as an alias
     // so that [[EN filename]] wikilinks resolve correctly in locale content.
-    const enBasename = path.basename(enInfo.relPath, ".md");
     const localeBasename = path.basename(localeInfo.relPath, ".md");
     if (enBasename !== localeBasename) {
       const aliases = (newFm.aliases as string[] | undefined) ?? [];
@@ -294,14 +303,16 @@ for (const absPath of collectAllMd(localeDir)) {
 }
 
 // ─── Root asset sync (publish.js, publish.css, favicons, etc.) ───────────────
-// Copy any non-markdown file at the en/ root that's missing from the locale root.
+// Copy any non-markdown file at the en/ root to the locale root, overwriting if changed.
 
 for (const entry of fs.readdirSync(enDir, { withFileTypes: true })) {
   if (!entry.isFile() || entry.name.endsWith(".md") || entry.name.startsWith(".")) continue;
   const src = path.join(enDir, entry.name);
   const dest = path.join(localeDir, entry.name);
-  if (!fs.existsSync(dest)) {
-    console.log(`  ASSET   ${entry.name}`);
+  const srcContent = fs.readFileSync(src);
+  const destContent = fs.existsSync(dest) ? fs.readFileSync(dest) : null;
+  if (!destContent || !srcContent.equals(destContent)) {
+    console.log(`  ASSET   ${entry.name}${destContent ? " (updated)" : ""}`);
     if (!dryRun) fs.copyFileSync(src, dest);
   }
 }
@@ -333,6 +344,28 @@ if (fs.existsSync(enAttachDir)) {
     }
   }
   syncAttachments(enAttachDir, localeAttachDir);
+}
+
+// ─── Unknown folder detection ─────────────────────────────────────────────────
+// Warn about folders in the locale root that have no counterpart in en/ and
+// aren't locale-specific files (filenames.txt, headings.txt, etc.)
+
+const LOCALE_ONLY_FILES = new Set(["filenames.txt", "headings.txt"]);
+const enRootDirs = new Set(
+  fs.readdirSync(enDir, { withFileTypes: true })
+    .filter(e => e.isDirectory() && !e.name.startsWith("."))
+    .map(e => e.name)
+);
+// Also allow translated folder names (values from filenamesMap)
+const translatedFolderNames = new Set(Object.values(filenamesMap.folders));
+
+for (const entry of fs.readdirSync(localeDir, { withFileTypes: true })) {
+  if (entry.name.startsWith(".")) continue;
+  if (entry.isFile() && LOCALE_ONLY_FILES.has(entry.name)) continue;
+  if (!entry.isDirectory()) continue;
+  if (enRootDirs.has(entry.name)) continue;
+  if (translatedFolderNames.has(entry.name)) continue;
+  console.log(`  UNKNOWN DIR  ${entry.name}  (not in en/ and not a known locale folder — consider deleting)`);
 }
 
 console.log(`\n--- Summary ---`);

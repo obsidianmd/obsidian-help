@@ -4,8 +4,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 localized: '2026-03-18'
-aliases:
-  - Obsidian for teams
+
 ---
 Obsidian peut être utilisé comme application de prise de notes individuelle et comme outil de collaboration pour votre équipe.
 

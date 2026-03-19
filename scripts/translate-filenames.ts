@@ -146,7 +146,7 @@ function saveFilenamesTxt(map: FilenamesMap) {
 // ─── Collect EN names ─────────────────────────────────────────────────────────
 
 // Folders that are proper nouns / technical — don't translate
-const SKIP_FOLDERS = new Set(["Attachments", "Bases", "Plugins", "Teams"]);
+const SKIP_FOLDERS = new Set(["Attachments", "Bases", "Obsidian Publish", "Obsidian Sync", "Plugins", "Teams"]);
 
 interface EnFile {
   permalink: string;
@@ -222,7 +222,7 @@ async function translateFolders(
 ): Promise<Record<string, string>> {
   const system = `You are translating Obsidian Help documentation folder names to ${langName}.
 RULES:
-1. Never translate: Obsidian, Sync, Publish, Markdown, CSS, API, Canvas, Plugins, Teams, Bases, Attachments
+1. Never translate brand names or technical terms: "Obsidian Sync", "Obsidian Publish", "Obsidian Web Clipper", Obsidian, Sync, Publish, Markdown, CSS, API, Canvas, Plugins, Teams, Bases, Attachments
 2. Keep translations concise — these are folder names
 3. Return ONLY a valid JSON object: { "EN folder": "FR folder" }`;
 
@@ -269,8 +269,9 @@ async function main() {
     }
   }
 
-  const missingFolders = folders.filter(f => !existing.folders[f]);
-  const missingFiles = files.filter(f => !existing.files[f.permalink]);
+  // Consider an entry untranslated if it's missing OR if translation still equals the EN original
+  const missingFolders = folders.filter(f => !existing.folders[f] || existing.folders[f] === f);
+  const missingFiles = files.filter(f => !existing.files[f.permalink] || existing.files[f.permalink] === f.basename);
 
   console.log(`${folders.length} folders (${missingFolders.length} untranslated)`);
   console.log(`${files.length} files (${missingFiles.length} untranslated)\n`);

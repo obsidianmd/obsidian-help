@@ -3,8 +3,7 @@ permalink: teams/sync
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-aliases:
-  - Syncing for teams
+
 ---
 Obsidian est conçu pour fonctionner à la fois en ligne et hors ligne et vous donner un contrôle total sur les données de votre équipe. Pour partager des données au sein de votre équipe, vous devrez choisir une solution de synchronisation.
 

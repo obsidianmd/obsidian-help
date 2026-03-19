@@ -2,7 +2,6 @@
 permalink: web-clipper/interpreter
 aliases:
   - Plugins/Web Clipper/L'outil Interpréteur
-  - Interpret web pages
 localized: '2026-03-18'
 ---
 Interpreter est une fonctionnalité de [[Introduction à Obsidian Web Clipper|Web Clipper]] qui vous permet d'interagir avec des pages web en utilisant le langage naturel. Interpreter vous aide à capturer et modifier les données que vous souhaitez enregistrer dans Obsidian. Par exemple :

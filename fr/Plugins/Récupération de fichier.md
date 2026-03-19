@@ -7,8 +7,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - File recovery
+
 ---
 Récupération de fichier est un [[Modules principaux|module principal]] qui protège votre travail contre les suppressions accidentelles, la corruption de fichiers ou les modifications indésirables en enregistrant automatiquement des instantanés complets de vos notes à intervalles réguliers. Récupération de fichier n'est pas une solution de sauvegarde complète, et nous recommandons également de [[Sauvegarder vos fichiers Obsidian|sauvegarder]] vos fichiers Obsidian séparément.
 

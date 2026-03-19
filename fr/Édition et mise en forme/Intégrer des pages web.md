@@ -1,8 +1,7 @@
 ---
 permalink: embed-web-pages
 localized: '2026-03-18'
-aliases:
-  - Embed web pages
+
 ---
 Apprenez à utiliser l'élément HTML [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) pour intégrer des pages web dans vos notes.
 

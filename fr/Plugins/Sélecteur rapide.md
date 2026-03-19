@@ -5,7 +5,6 @@ description: >-
   d'ouvrir des notes en utilisant uniquement votre clavier.
 aliases:
   - Plugins/Modules principaux/Sélecteur rapide
-  - Quick switcher
 localized: '2026-03-18'
 ---
 Le sélecteur rapide est un [[Modules principaux|module principal]] qui vous permet de rechercher et d'ouvrir des notes en utilisant uniquement votre clavier.

@@ -2,7 +2,6 @@
 permalink: plugins/audio-recorder
 aliases:
   - Plugins/Modules principaux/Enregistreur audio
-  - Audio recorder
 localized: '2026-03-18'
 ---
 L'enregistreur audio est un [[Modules principaux|module principal]] qui vous permet d'enregistrer et de sauvegarder de l'audio dans une note Obsidian. Avec le module Enregistreur audio, vous pouvez capturer les détails d'un cours, d'une réunion ou d'autres situations importantes où vous ne pouvez pas taper assez vite.

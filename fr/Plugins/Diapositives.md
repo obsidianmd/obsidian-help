@@ -2,7 +2,6 @@
 permalink: plugins/slides
 aliases:
   - Plugins/Slides
-  - Slides
 localized: '2026-03-18'
 ---
 Diapositives est un [[Modules principaux|module principal]] qui vous permet de créer des présentations à partir de vos notes. Pour démarrer une présentation :

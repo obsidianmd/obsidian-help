@@ -1,8 +1,7 @@
 ---
 permalink: sales-tax
 localized: '2026-03-18'
-aliases:
-  - Sales tax
+
 ---
 Dans certaines juridictions, Obsidian est tenu de collecter les taxes de vente pour le compte des clients qui achètent des licences logicielles et des services. Les taxes de vente peuvent s'appliquer aux [[Licence commerciale|licences commerciales]], à [[Introduction à Obsidian Sync|Obsidian Sync]] et à [[Introduction à Obsidian Publish|Obsidian Publish]]. Les taxes de vente ne s'appliquent généralement pas au [[Crédit Obsidian]] et à [[Licence Catalyst|Catalyst]], bien que des exceptions puissent s'appliquer.
 

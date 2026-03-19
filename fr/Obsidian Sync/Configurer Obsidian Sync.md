@@ -9,8 +9,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Set up Obsidian Sync
+
 ---
 Vous avez acheté Obsidian Sync et êtes prêt à commencer. Ce guide vous aidera à configurer et ajuster vos paramètres Obsidian Sync pour une utilisation quotidienne.
 

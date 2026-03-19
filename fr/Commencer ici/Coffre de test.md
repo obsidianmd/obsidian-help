@@ -1,8 +1,7 @@
 ---
 permalink: sandbox
 localized: '2026-03-18'
-aliases:
-  - Sandbox vault
+
 ---
 Le **coffre de démonstration d'Obsidian** est une fonctionnalité qui vous permet d'explorer diverses fonctionnalités sans affecter vos données existantes. Ce coffre est utile à la fois comme outil d'apprentissage et pour déboguer des problèmes. Il aide à déterminer si un problème est causé par un module, un thème ou l'application elle-même.
 

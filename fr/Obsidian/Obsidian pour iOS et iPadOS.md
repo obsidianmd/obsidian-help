@@ -1,8 +1,7 @@
 ---
 permalink: ios
 localized: '2026-03-18'
-aliases:
-  - Obsidian for iOS and iPadOS
+
 ---
 L'application mobile Obsidian pour iOS et iPadOS apporte de puissantes capacités de prise de notes à votre iPhone et iPad. Vous pouvez la télécharger depuis l'[Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
 

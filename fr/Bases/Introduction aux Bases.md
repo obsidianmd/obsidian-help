@@ -8,8 +8,7 @@ description: >-
   tableaux ou de cartes. Modifiez, triez et filtrez les fichiers à l'aide de
   leurs propriétés.
 localized: '2026-03-18'
-aliases:
-  - Introduction to Bases
+
 ---
 Bases est un [[Modules principaux|module principal]] qui vous permet de créer des vues de type base de données de vos notes. En utilisant une base, vous pouvez afficher, modifier, trier et filtrer des fichiers et leurs [[Propriétés|propriétés]]. Les Bases peuvent vous aider à organiser aussi bien des projets que des plans de voyage, des listes de lecture, et bien plus encore.
 

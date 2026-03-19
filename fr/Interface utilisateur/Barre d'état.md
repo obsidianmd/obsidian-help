@@ -1,8 +1,7 @@
 ---
 permalink: status-bar
 localized: '2026-03-18'
-aliases:
-  - Status bar
+
 ---
 La barre d'état affiche de petites informations dans le coin inférieur droit de la fenêtre. Cela inclut des informations utiles sur le fichier actuel, le coffre actuel ou l'état actuel comme l'heure et la date.
 

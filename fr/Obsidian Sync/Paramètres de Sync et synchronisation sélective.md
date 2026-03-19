@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Sync settings and selective syncing
+
 ---
 Lorsque vous [[Forfaits et limites de stockage#Créer un nouveau coffre distant|créez un coffre distant]] et que vous vous y [[Configurer Obsidian Sync#Se connecter à un coffre distant|connectez]], le module principal Sync devient l'endroit pour gérer votre coffre distant.
 

@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Help and support
+
 ---
 Trouvez des ressources d'assistance, signalez des problèmes de sécurité ou des violations des règles de la communauté, et découvrez comment contribuer à Obsidian.
 

@@ -3,8 +3,7 @@ permalink: teams/publish
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-aliases:
-  - Publishing for teams
+
 ---
 Obsidian facilite la création et l'édition de wikis, de bases de connaissances, de documentation et d'autres types de sites web. Il peut être utilisé comme outil d'édition ou CMS pour des sites internes comme externes.
 

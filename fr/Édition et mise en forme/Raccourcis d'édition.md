@@ -1,8 +1,7 @@
 ---
 permalink: editing-shortcuts
 localized: '2026-03-18'
-aliases:
-  - Editing shortcuts
+
 ---
 Cette page répertorie les raccourcis clavier par défaut pour naviguer et éditer du texte dans Obsidian. Ces raccourcis sont fournis par votre système d'exploitation ou le framework sur lequel Obsidian est construit, et ne peuvent pas être personnalisés dans Obsidian.
 

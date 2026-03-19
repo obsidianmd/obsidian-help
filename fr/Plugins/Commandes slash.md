@@ -1,8 +1,7 @@
 ---
 permalink: plugins/slash-commands
 localized: '2026-03-18'
-aliases:
-  - Slash commands
+
 ---
 Les commandes slash sont un [[Modules principaux|module principal]] qui vous permet d'exécuter des commandes dans l'éditeur en tapant une barre oblique (`/`) au début d'une ligne ou après un espace vide.
 

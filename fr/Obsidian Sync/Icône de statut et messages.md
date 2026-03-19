@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Status icon and messages
+
 ---
 Obsidian Sync fournit plusieurs éléments pour indiquer l'état de la synchronisation, principalement l'[[#Icône de statut de Sync]] et le [[#Journal d'activité de Sync]]. Les détails concernant le contrôle de version dans Obsidian Sync sont couverts dans la page [[Historique des versions]].
 

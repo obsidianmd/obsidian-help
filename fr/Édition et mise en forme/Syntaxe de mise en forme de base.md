@@ -7,7 +7,6 @@ publish: true
 mobile: true
 aliases:
   - How to/Formater vos notes
-  - Basic formatting syntax
 localized: '2026-03-18'
 ---
 Apprenez à appliquer la mise en forme de base à vos notes, en utilisant [Markdown](https://daringfireball.net/projects/markdown/). Pour une syntaxe de mise en forme plus avancée, consultez [[Syntaxe de mise en forme avancée]].

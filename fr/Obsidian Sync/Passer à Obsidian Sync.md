@@ -8,8 +8,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Switch to Obsidian Sync
+
 ---
 Découvrez comment passer de votre solution de synchronisation actuelle à Obsidian Sync.
 

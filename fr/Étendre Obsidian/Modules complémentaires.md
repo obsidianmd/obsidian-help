@@ -3,8 +3,7 @@ permalink: community-plugins
 description: Découvrez comment étendre Obsidian avec des modules créés par la communauté.
 mobile: false
 localized: '2026-03-18'
-aliases:
-  - Community plugins
+
 ---
 Découvrez comment étendre Obsidian avec des modules créés par la communauté. Utilisez des modules pour adapter Obsidian à vos besoins spécifiques, comme la prise en charge de formats de fichiers supplémentaires ou l'intégration avec un service tiers.
 

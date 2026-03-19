@@ -1,8 +1,7 @@
 ---
 permalink: install
 localized: '2026-03-18'
-aliases:
-  - Download and install Obsidian
+
 ---
 Obsidian est disponible sur toutes les principales plateformes de bureau et mobiles. Voici toutes les méthodes prises en charge pour télécharger et installer Obsidian.
 
