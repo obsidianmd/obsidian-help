@@ -48,7 +48,7 @@ npx tsx scripts/lint-locale.ts <locale> --fix    # auto-correct terminology
 ### Step 4 — Publish
 
 ```bash
-cd <locale> && ob publish --all --yes
+ob publish --path <locale> --all --yes
 ```
 
 ## Common scenarios

@@ -1,0 +1,24 @@
+// Locale UI strings — French
+(function () {
+  function apply() {
+    var el;
+    el = document.querySelector('.search-bar');
+    if (!el) return false;
+    el.placeholder = 'Rechercher des pages ou des titres...';
+    el = document.querySelector('.site-footer a');
+    if (el) el.textContent = 'Propulsé par Obsidian Publish';
+    el = document.querySelector('.graph-view-outer span:last-child');
+    if (el) el.textContent = 'Graphe interactif';
+    el = document.querySelector('.graph-expand');
+    if (el) el.setAttribute('aria-label', 'Agrandir');
+    el = document.querySelector('.graph-global');
+    if (el) el.setAttribute('aria-label', 'Graphe global');
+    el = document.querySelector('.outline-view-outer span:last-child');
+    if (el) el.textContent = 'Sur cette page';
+    el = document.querySelector('.backlinks span:last-child');
+    if (el) el.textContent = 'Liens vers cette page';
+    return true;
+  }
+  function poll() { if (!apply()) requestAnimationFrame(poll); }
+  poll();
+})();

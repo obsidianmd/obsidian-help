@@ -296,7 +296,7 @@ translation=Grabadora de audio
 
 [file.plugins/backlinks]
 original=Backlinks
-translation=Backlinks
+translation=Enlace de retorno
 
 [file.plugins/bookmarks]
 original=Bookmarks

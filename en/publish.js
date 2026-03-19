@@ -95,8 +95,9 @@
     return div;
   }
 
-  let sidebarDone = false;
-  let headerDone = false;
+  // Skip switcher injection for locales not in the dropdown
+  let sidebarDone = !current;
+  let headerDone = !current;
 
   function inject() {
     if (!sidebarDone) {
