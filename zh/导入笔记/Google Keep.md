@@ -4,11 +4,11 @@ aliases:
   - Import from Google Keep
 localized: 2026-03-19
 ---
-通过[[迁移助手|Importer插件]]，Obsidian 让你可以轻松地从 Google Keep 迁移笔记。这将把你 Google Keep  中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
+通过 [[迁移助手|Importer插件]]，Obsidian 让你可以轻松地从 Google Keep 迁移笔记。这将把你 Google Keep  中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
 
 ## 从 Google Keep 导出数据
 
-1. 进入[Google Takeout](https://takeout.google.com/settings/takeout)并登录您的Google账号。
+1. 进入 [Google Takeout](https://takeout.google.com/settings/takeout) 并登录您的Google账号。
 2. 点击右上角的**取消全选**。
 3. 滚动页面并从列表中选择**Keep**。
 4. 滚动到页面底部，点击**下一步**。
@@ -19,7 +19,7 @@ localized: 2026-03-19
 
 你需要安装Obsidian 官方的 [[迁移助手|Importer插件]]，你可以[在此处安装](obsidian://show-plugin?id=obsidian-importer)。
 
-1. 打开**[[设置]]**。
+1. 打开 **[[设置]]**。
 2. 进入**社区插件市场**并[安装Importer](obsidian://show-plugin?id=obsidian-importer)。
 3. 启用 Importer 插件。
 4. 使用命令面板或功能区按钮打开**Importer**插件。

@@ -4,7 +4,7 @@ aliases:
   - Import from Roam Research
 localized: 2026-03-19
 ---
-在 Obsidian 中，你可以使用[[迁移助手|Importer插件]]轻松迁移 Roam Research 笔记。这将把你 Roam Research 中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
+在 Obsidian 中，你可以使用 [[迁移助手]] 轻松迁移 Roam Research 笔记。这将把你 Roam Research 中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
 
 ## 从 Roam Research 中导出数据
 
@@ -20,7 +20,7 @@ localized: 2026-03-19
 1. 打开**[[设置]]**。
 2. 进入**社区插件市场**并[安装 Importer](obsidian://show-plugin?id=obsidian-importer)。
 3. 启用 Importer 插件。
-4. 使用命令面板或功能区按钮打开**Importer**插件。
+4. 使用命令面板或功能区按钮打开 **Importer** 插件。
 5. 在**文件格式**下选择**Roam Research (.json).**
 6. 选择你的`.json`文件的位置。
 7. 在**输出文件夹**下，选择你希望导入文件保存在 Obsidian 中的位置。
