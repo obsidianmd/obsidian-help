@@ -1,15 +1,89 @@
-このプラグインを使えば、他の様々なマークダウンフォーマットとリンクをObsidianのフォーマットに変換できます。
-
-今すぐに変換が可能です。
-
-- Roam #タグ を [[タグ]] に変換します。
-- Roam `^^ハイライト^^` を `==ハイライト==` に変換します。
-- Bear `::highlight::` と `==highlight==` に変換します。
-- Zettelkasten `[[UID]]` リンクを `[[UID ファイル名]]` のフルリンクに変換します。
-- Zettelkasten `[[UID]]` リンクを `[[UID ファイル名|ファイル名]]` のプリティリンクに変換し、これは `ファイル名` として単に表示されるようになります。
-
 ---
+localized: 2026-03-19
+permalink: plugins/format-converter
+publish: true
+mobile: true
+description: Markdownフォーマットインポーターは、他のアプリケーションのMarkdownをObsidian形式に変換できるコアプラグインです。
+aliases:
+  - プラグイン/Markdownフォーマットインポーター
+  - プラグイン/フォーマットコンバーター
+---
+Markdownフォーマットインポーターは、他のアプリケーションのMarkdownをObsidian形式に変換できる[[コアプラグイン]]です。また、特定の[[プロパティ]]を新しい必須フォーマットに変換することもできます。
 
-### 関連
+> [!warning] 警告
+> Markdownフォーマットインポーターは、設定に基づいて保管庫全体を変換します。変換を実行する前に[[Obsidianファイルのバックアップ]]を行ってください。
 
-- [[ノートをフォーマットする]]
+保管庫内のすべてのノートを変換するには：
+
+1. [[コマンドパレット]]で**Markdownインポーターを開く**を選択します。これは[[リボン]]の**Markdownインポーターを開く**（ ![[lucide-binary.svg#icon]] ）アイコンからもアクセスできます。
+2. 変換したいフォーマットを有効にします。
+3. **変換を開始する**をクリックします。
+
+詳細については、[[基本的な書式構文]]を参照してください。
+
+## 対応フォーマット
+
+### Roam Research
+
+Markdownフォーマットインポーターは、以下のRoam Research構文を変換できます：
+
+- **タグ**：`#tag` と `#[[tag]]` を `[[tag]]` に変換
+- **ハイライト**：`^^highlight^^` を `==highlight==` に変換
+- **TODOアイテム**：`{{[[TODO]]}}` を `[ ]` に変換
+
+### Bear
+
+Markdownフォーマットインポーターは、以下のBear構文を変換できます：
+
+- **ハイライト**：`::highlight::` を `==highlight==` に変換
+
+### Zettelkasten
+
+Markdownフォーマットインポーターは、以下のZettelkasten構文を変換できます：
+
+- **フルリンク**：`[[UID]]` を `[[UID File Name]]` に変換
+- **プリティリンク**：`[[UID]]` を `[[UID File Name|File Name]]` に変換
+
+### [[プロパティ]]
+
+Obsidian `1.9.3` 以降、Markdownフォーマットインポーターは[[プロパティ#非推奨のプロパティ|非推奨のプロパティ]]フォーマットを現在のフォーマットに変換できます：
+
+**エイリアス**
+
+```yaml
+# 変換前
+
+alias: My Note Title
+
+# 変換後
+
+aliases:
+  - My Note Title
+```
+
+**タグ**
+
+```yaml
+# 変換前
+
+tag: project, important
+
+# 変換後
+
+tags:
+  - project
+  - important
+```
+
+**CSSクラス**
+
+```yaml
+# 変換前
+
+cssclass: custom-style
+
+# 変換後
+
+cssclasses:
+  - custom-style
+```

@@ -1,0 +1,1369 @@
+[bases]
+How to use bases=ベースの使い方
+View types=ビューの種類
+
+[bases/syntax]
+Example=例
+Filters=フィルター
+Formulas=数式
+Properties=プロパティ
+Summaries=要約
+Default Summary Formulas=デフォルトの要約数式
+Views=ビュー
+Note properties=ノートプロパティ
+File properties=ファイルプロパティ
+Access properties with `this`=`this`でプロパティにアクセスする
+Operators=演算子
+Arithmetic operators=算術演算子
+Date arithmetic=日付の算術
+Comparison operators=比較演算子
+Boolean operators=ブール演算子
+Functions=関数
+Types=型
+Strings, numbers, and booleans=文字列、数値、ブール値
+Dates and durations=日付と期間
+Objects and lists=オブジェクトとリスト
+Files and links=ファイルとリンク
+
+[bases/views]
+Toolbar=ツールバー
+Add and switch views=ビューの追加と切り替え
+View settings=ビュー設定
+Layout=レイアウト
+Filters=フィルター
+Components of a filter=フィルターのコンポーネント
+Conjunctions=結合条件
+Filter groups=フィルターグループ
+Advanced filter editor=詳細フィルターエディタ
+Sort and group results=結果の並べ替えとグループ化
+Add a sort=並べ替えの追加
+Remove a sort=並べ替えの削除
+Limit, copy, and export results=結果の制限、コピー、エクスポート
+Limit results=結果の制限
+Copy to clipboard=クリップボードにコピー
+Export CSV=CSVエクスポート
+Embed a view=ビューの埋め込み
+
+[bases/create-base]
+Create a new base=新規ベースを作成
+Embed a base=ベースを埋め込む
+Embed a base file=ベースファイルを埋め込む
+Embed a base as a code block=コードブロックとしてベースを埋め込む
+
+[bases/views/cards]
+Settings=設定
+Card size=カードサイズ
+Image property=画像プロパティ
+Image fit=画像のフィット
+Image aspect ratio=画像のアスペクト比
+
+[bases/views/table]
+Settings=設定
+Row height=行の高さ
+Summaries=要約
+Add a summary=要約の追加
+Built-in summaries=組み込みの要約
+All property types=すべてのプロパティタイプ
+Numbers=数値
+Dates=日付
+Checkbox=チェックボックス
+Custom summaries=カスタム要約
+Shortcuts=ショートカット
+
+[bases/views/map]
+Install the Maps plugin=Mapsプラグインのインストール
+Example=例
+Settings=設定
+Markers=マーカー
+Coordinates=座標
+Icons=アイコン
+Use a formula to define icons=数式を使ってアイコンを定義する
+Colors=色
+Background=背景
+Map tiles=マップタイル
+Useful links=便利なリンク
+Tips=ヒント
+Troubleshooting=トラブルシューティング
+
+[bases/views/list]
+Settings=設定
+Markers=マーカー
+Indent properties=プロパティをインデント
+Separators=区切り文字
+
+[formulas]
+What formulas can do=数式でできること
+Create a formula property=数式プロパティの作成
+Write a formula=数式を書く
+Reference properties=プロパティの参照
+Use operators=演算子を使う
+Use functions=関数を使う
+Formula examples=数式の例
+Calculate a deadline=期限を計算する
+Display overdue status=期限超過ステータスを表示する
+Format currency=通貨をフォーマットする
+Count list items=リスト項目を数える
+Calculate priority score=優先度スコアを計算する
+Combine text fields=テキストフィールドを結合する
+Calculate total cost=総コストを計算する
+Data types=データ型
+Reference other formulas=他の数式を参照する
+
+[bases/functions]
+Global=グローバル
+Date=日付
+Fields=フィールド
+String=文字列
+Number=数値
+List=リスト
+Link=リンク
+File=ファイル
+Object=オブジェクト
+Regular expression=正規表現
+
+[2fa]
+Enable 2FA=2FAの有効化
+Generate recovery codes=リカバリーコードの生成
+Disable 2FA=2FAの無効化
+FAQ=よくある質問
+
+[android]
+Sync=同期
+Vault location=保管庫の場所
+Device storage=デバイスストレージ
+App storage=アプリストレージ
+Widgets=ウィジェット
+Quick Settings tiles=クイック設定タイル
+Shortcuts=ショートカット
+
+[ios]
+Sync=同期
+Widgets=ウィジェット
+Lock Screen and Control Center widgets=ロック画面およびコントロールセンターのウィジェット
+Home Screen widgets=ホーム画面のウィジェット
+Customizing widgets=ウィジェットのカスタマイズ
+Shortcuts=ショートカット
+Share Sheet Extension=共有シート拡張
+Siri integration=Siri連携
+Spotlight integration=Spotlight連携
+
+[obsidian]
+What is Obsidian=Obsidianとは
+How we're different=Obsidianの特徴
+You own and control your data=データの所有と管理は自分自身で
+Links are first-class citizens=リンクは第一級市民
+Your own toolkit=自分だけのツールキット
+Follow our development=開発をフォローする
+
+[credits]
+Team=チーム
+Development=開発
+Product & Operations=プロダクト＆オペレーション
+Moderators=モデレーター
+Retired=退任
+Plugin inspirations=プラグインのインスピレーション
+Builds=ビルド
+Translators=翻訳者
+Documentation=ドキュメント
+Add your name=あなたの名前を追加する
+Third party acknowledgements=サードパーティの謝辞
+Previous logo=以前のロゴ
+
+[community-code-of-conduct]
+The rules=ルール
+Serious offenses=重大な違反
+Harassment=ハラスメント
+Threats=脅迫
+Blatant -isms=明白な差別的発言
+Other offenses=その他の違反
+Belligerence=好戦的な態度
+Being especially unpleasant=特に不快な行為
+Unsolicited messages to community members=コミュニティメンバーへの無断メッセージ
+Other behaviors=その他の行為
+Sea-lioning=シーライオニング
+"Feed me"=「教えてくん」
+Campaigning=しつこい要求
+Excessive self promotion=過度な自己宣伝
+Spamming=スパム行為
+Encouraged behaviors=推奨される行動
+Motivation=動機
+Report violations=違反の報告
+Report on Discord=Discordでの報告
+Report on the forum=フォーラムでの報告
+Enforcement=施行
+Appealing a ban=BANの異議申し立て
+Credits=クレジット
+
+[early-access]
+Enable early access versions for desktop=デスクトップで早期アクセスバージョンを有効にする
+Install early access versions on mobile devices=モバイルデバイスに早期アクセスバージョンをインストールする
+Report issues and other feedback=問題やその他のフィードバックを報告する
+Switch back to public versions on desktop=デスクトップでパブリックバージョンに戻す
+Switch back to public versions on mobile=モバイルでパブリックバージョンに戻す
+
+[publish/setup]
+Prerequisites=前提条件
+Log in with your Obsidian account=Obsidianアカウントでログインする
+Enable Obsidian Publish=Obsidian Publishを有効にする
+Open Publish=Publishを開く
+Open via Command palette=コマンドパレットから開く
+Open via hotkey=ショートカットキーから開く
+Open via ribbon=リボンメニューから開く
+Create a new site=新しいサイトを作成する
+Set a site name=サイト名を設定する
+Select notes to publish=公開するノートを選択する
+Next steps=次のステップ
+
+[publish/troubleshoot]
+General=一般
+Publishing notes=ノートの公開
+CSS and themes=CSSとテーマ
+
+[publish]
+How to use Obsidian Publish=Obsidian Publishの使い方
+
+[sync/troubleshoot]
+General=一般
+Conflict resolution=競合の解決
+How Obsidian Sync handles conflicts=Obsidian Syncの競合の処理方法
+Conflict resolution options=競合の解決オプション
+Sync deleted a note I just created on two devices=Syncが2台のデバイスで作成したノートを削除した
+Sync will not sync my plugins and settings updates=Syncがプラグインや設定のアップデートを同期しない
+My files keep disappearing from Sync as soon as I restore it=ファイルを復元してもSyncからすぐに消えてしまう
+
+[sync/messages]
+Sync status icon=Syncステータスアイコン
+Sync activity log=同期アクティビティログ
+General messages=一般メッセージ
+Error messages=エラーメッセージ
+Skipped messages=スキップメッセージ
+Account messages=アカウントメッセージ
+Network messages=ネットワークメッセージ
+
+[web-clipper/variables]
+Preset variables=プリセット変数
+Prompt variables=プロンプト変数
+When to use prompt variables=プロンプト変数を使用する場面
+Examples=例
+Meta variables=メタ変数
+Selector variables=セレクタ変数
+Schema.org variables=Schema.org変数
+
+[snippets]
+Adding a snippet=スニペットの追加
+Writing CSS for Obsidian=Obsidian向けCSSの記述
+Learn more=詳細を確認
+
+[publish/limitations]
+Community plugins=コミュニティプラグイン
+Graph=グラフ
+Media files=メディアファイル
+PDFs=PDF
+Search=検索
+
+[publish/collaborate]
+Add a collaborator to a site=サイトにコラボレーターを追加する
+Remove a collaborator from a site=サイトからコラボレーターを削除する
+Sync changes between collaborators=コラボレーター間で変更を同期する
+Permissions=権限
+
+[publish/seo]
+Sitemap=サイトマップ
+Permalinks=パーマリンク
+Metadata=メタデータ
+
+[publish/analytics]
+Prerequisites=前提条件
+Google Analytics=Googleアナリティクス
+Plausible, Fathom, and other analytics services=Plausible、Fathom、その他のアナリティクスサービス
+Troubleshooting=トラブルシューティング
+
+[publish/domains]
+Set up using CloudFlare=CloudFlareを使用した設定
+Set up using a proxy=プロキシを使用した設定
+Supported HTTP X-Headers=サポートされるHTTP X-Headers
+Redirect old site to custom domain=旧サイトからカスタムドメインへのリダイレクト
+Troubleshoot=トラブルシューティング
+
+[publish/publish]
+Prerequisites=前提条件
+Publish notes=ノートを公開する
+Unpublish notes=ノートの公開を取り消す
+Update a published note=公開済みノートを更新する
+Publish linked data=リンクされたデータを公開する
+Automatically select data to publish=公開するデータを自動的に選択する
+Ignore data=データを無視する
+
+[publish/customize]
+Static assets=静的アセット
+Use a community theme=コミュニティテーマを使用する
+Enable UI features=UI機能を有効にする
+Customize navigation=ナビゲーションをカスタマイズ
+Accessing Customize navigation options=ナビゲーションのカスタマイズオプションにアクセスする
+Adjust navigation items=ナビゲーションアイテムを調整する
+Hide and unhide navigation items=ナビゲーションアイテムの表示/非表示
+
+[publish/sites]
+Create a new site=新しいサイトの作成
+Delete an existing site=既存のサイトの削除
+Switch between sites=サイト間の切り替え
+Change the site ID=サイトIDの変更
+View site options=サイトオプションの表示
+Site options=サイトオプション
+General=一般
+Appearance=外観
+Reading experience=リーディングエクスペリエンス
+Components=コンポーネント
+Other site settings=他のサイト設定
+
+[publish/security]
+Password protection=パスワード保護
+Add a site password=サイトパスワードの追加
+Remove a site password=サイトパスワードの削除
+Data collection=データ収集
+Visitor data=訪問者データ
+Access=アクセス
+Managing access to Obsidian Publish on your network=ネットワーク上でのObsidian Publishへのアクセス管理
+
+[publish/social-share]
+Description=説明
+Image=画像
+
+[publish/permalinks]
+Redirect old notes=古いノートのリダイレクト
+
+[publish/media]
+Images=画像
+PDFs=PDF
+Videos and audio=動画とオーディオ
+
+[sync/setup]
+Set up Obsidian Sync for the first time=Obsidian Syncの初回セットアップ
+Log in with your Obsidian account=Obsidianアカウントでログインする
+Enable Obsidian Sync=Obsidian Syncを有効化する
+Create a new remote vault=新しいリモート保管庫を作成する
+Connect to a remote vault=リモート保管庫に接続する
+Adjust Obsidian Sync settings=Obsidian Syncの設定を調整する
+Begin syncing with Obsidian Sync=Obsidian Syncで同期を開始する
+Sync a remote vault on another device=別のデバイスでリモート保管庫を同期する
+Sync your vault from the vault switcher=保管庫スイッチャーから保管庫を同期する
+Sync your vault from Obsidian Settings=Obsidianの設定から保管庫を同期する
+Manage your remote vaults=リモート保管庫の管理
+Disconnect from a remote vault=リモート保管庫から切断する
+Delete a remote vault=リモート保管庫を削除する
+Regional sync servers=リージョン別同期サーバー
+Next steps=次のステップ
+
+[sync]
+How to use Obsidian Sync=Obsidian Syncの使い方
+Important=重要
+
+[sync/switch]
+Move your vault out of your third-party syncing service or cloud storage=サードパーティの同期サービスやクラウドストレージから保管庫を移動する
+Move your vault using Obsidian on desktop=デスクトップ版Obsidianで保管庫を移動する
+Move your vault on mobile=モバイルで保管庫を移動する
+iOS and iPadOS=iOSおよびiPadOS
+Next steps=次のステップ
+
+[sync/region]
+Available regions=利用可能なリージョン
+Change Sync region=Sync リージョンの変更
+
+[sync/migrate]
+Encryption versions=暗号化バージョン
+Upgrade encryption with the migration assistant=移行アシスタントで暗号化をアップグレードする
+
+[sync/settings]
+Sync settings=Sync設定
+Conflict resolution=競合の解決
+Selective syncing=選択的同期
+Change the file types you want to sync=同期するファイルタイプを変更する
+Exclude a folder from syncing=フォルダを同期から除外する
+Always excluded from sync=常に同期から除外されるもの
+File recovery snapshots=ファイルリカバリーのスナップショット
+Hidden files and folders=隠しファイルと隠しフォルダ
+Updating your synced vault settings=同期された保管庫の設定を更新する
+Primary device=プライマリデバイス
+Secondary device(s)=セカンダリデバイス
+Reloading of settings=設定の再読み込み
+Settings profiles=設定プロファイル
+Create a settings profile=設定プロファイルを作成する
+
+[sync/faq]
+General=一般
+What operating systems does Obsidian Sync support?=Obsidian Syncはどのオペレーティングシステムに対応していますか？
+Does Obsidian work with Apple's Lockdown Mode?=ObsidianはAppleのロックダウンモードで動作しますか？
+What type of data is synced?=どのような種類のデータが同期されますか？
+How much storage do I have?=どのくらいのストレージがありますか？
+How many remote vaults can I have?=リモート保管庫はいくつ持てますか？
+How large can each remote vault be?=各リモート保管庫の最大サイズはどのくらいですか？
+How many people can I share a remote vault with?=リモート保管庫は何人まで共有できますか？
+How large can each file be?=各ファイルの最大サイズはどのくらいですか？
+Is my data being synced in the background?=データはバックグラウンドで同期されますか？
+Does Obsidian Sync live-reload my settings?=Obsidian Syncは設定をライブリロードしますか？
+Can I use a third-party sync with Obsidian Sync?=サードパーティの同期サービスとObsidian Syncを併用できますか？
+Data retention=データ保持
+How long do you keep the version history?=バージョン履歴はどのくらいの期間保持されますか？
+How long do you keep my data after my subscription expires?=サブスクリプションが期限切れになった後、データはどのくらいの期間保持されますか？
+Do you keep my data if I refund my subscription service?=サブスクリプションサービスを返金した場合、データは保持されますか？
+
+[sync/security]
+Encryption=暗号化
+What does end-to-end encryption mean?=エンドツーエンド暗号化とは何ですか？
+What are the risks of using standard encryption?=標準の暗号化を使用するリスクは何ですか？
+What encryption do you use?=どのような暗号化を使用していますか？
+Can I verify that my data is end-to-end encrypted?=データがエンドツーエンド暗号化されていることを確認できますか？
+Has Obsidian completed a third-party security audit?=Obsidianは第三者によるセキュリティ監査を受けていますか？
+What happens if I forget my encryption password?=暗号化パスワードを忘れた場合はどうなりますか？
+Hosting=ホスティング
+Where do you host the servers for Obsidian Sync?=Obsidian Syncのサーバーはどこにホスティングされていますか？
+Where can I find my current Sync server and where is it hosted?=現在のSyncサーバーとそのホスティング場所はどこで確認できますか？
+Network and access=ネットワークとアクセス
+Managing access to Obsidian Sync on your network=ネットワーク上のObsidian Syncへのアクセス管理
+Limitations=制限事項
+Deterministic file-hash encryption=決定論的ファイルハッシュ暗号化
+No cryptographic binding between path and content=パスとコンテンツ間の暗号学的バインディングなし
+
+[sync/version-history]
+Sync history=Sync履歴
+Show Sync history=Sync履歴を表示する
+Enable via Command palette=コマンドパレットから有効化する
+Enable via Hotkey=ショートカットキーから有効化する
+Version history=バージョン履歴
+Notes and attachments=ノートと添付ファイル
+View version history of a file=ファイルのバージョン履歴を表示する
+View version history of a deleted or renamed file=削除またはリネームされたファイルのバージョン履歴を表示する
+Restore a previous version of a file=ファイルの以前のバージョンを復元する
+Restore a deleted file=削除されたファイルを復元する
+Settings history=設定履歴
+View version history of a setting=設定のバージョン履歴を表示する
+Restore a previous version of a setting=設定の以前のバージョンを復元する
+
+[sync/plans]
+Plans=プラン
+Storage limits=ストレージ制限
+Identify and delete large files=大きなファイルの特定と削除
+Create a new remote vault=新しいリモート保管庫の作成
+Upgrade your plan=プランのアップグレード
+Downgrade your plan=プランのダウングレード
+Preserve version history=バージョン履歴の保持
+
+[sync/headless]
+Quick start=クイックスタート
+Commands=コマンド
+Native modules=ネイティブモジュール
+
+[sync/vault-types]
+File-based sync services=ファイルベースの同期サービス
+Sync behavior=同期の挙動
+Offline behavior=オフライン時の挙動
+Next steps=次のステップ
+
+[sync/collaborate]
+Manage users=ユーザーの管理
+Add users=ユーザーの追加
+Remove users=ユーザーの削除
+Collaborate with your team=チームでの共同作業
+Permissions=権限
+Live editing=ライブ編集
+Limitations=制限事項
+
+[web-clipper]
+Install Web Clipper=Web Clipperのインストール
+How to use Web Clipper=Web Clipperの使い方
+Privacy=プライバシー
+
+[web-clipper/troubleshoot]
+General=一般
+Some content is missing=一部のコンテンツが欠落する
+No content appears in Obsidian=Obsidianにコンテンツが表示されない
+Obsidian does not open=Obsidianが開かない
+Obsidian opens but only the file name is saved=Obsidianは開くがファイル名のみが保存される
+iOS and iPadOS=iOSおよびiPadOS
+
+[web-clipper/capture]
+Capture a page=ページのキャプチャ
+Download images=画像のダウンロード
+Hotkeys=ショートカットキー
+Interface functionality=インターフェースの機能
+
+[web-clipper/highlight]
+Turn on highlighter=ハイライターをオンにする
+Highlighter settings=ハイライターの設定
+
+[web-clipper/interpreter]
+Examples of prompts=プロンプトの例
+Get started=はじめに
+How it works=仕組み
+Context=コンテキスト
+Models=モデル
+Preset providers=プリセットプロバイダー
+Choosing a model=モデルの選択
+Custom providers and models=カスタムプロバイダーとモデル
+Local models=ローカルモデル
+
+[web-clipper/templates]
+Create or edit a template=テンプレートの作成と編集
+Import and export Web Clipper templates=Web Clipperテンプレートのインポートとエクスポート
+Template settings=テンプレート設定
+Behavior=挙動
+Automatically trigger a template=テンプレートの自動トリガー
+Simple URL matching=シンプルURLマッチング
+Regular expression matching=正規表現マッチング
+Schema.org matching=Schema.orgマッチング
+Interpreter context=インタープリターコンテキスト
+
+[web-clipper/filters]
+Dates=日付
+Text conversion and capitalization=テキストの変換と大文字化
+Text formatting=テキストの書式設定
+Numbers=数値
+HTML processing=HTML処理
+Arrays and objects=配列とオブジェクト
+
+[web-clipper/reader]
+Activate reading mode=リーディングモードを有効にする
+How it works=仕組み
+Customize the reading view=リーディングビューをカスタマイズする
+
+[web-clipper/logic]
+Conditionals=条件分岐
+Comparison operators=比較演算子
+Logical operators=論理演算子
+Truthiness=真偽性
+Assign a variable=変数の代入
+Fallbacks=フォールバック
+Chaining fallbacks=フォールバックの連結
+With filters=フィルターとの組み合わせ
+Loops=ループ
+Loop sources=ループのソース
+Loop variables=ループ変数
+Accessing array items by index=インデックスによる配列アイテムへのアクセス
+Nested loops=ネストされたループ
+Combine logic=ロジックの組み合わせ
+Evaluation order=評価順序
+
+[cli]
+Install Obsidian CLI=Obsidian CLIのインストール
+Get started=はじめに
+Run a command=コマンドの実行
+Use the terminal interface=ターミナルインターフェースの使用
+Examples=使用例
+Everyday use=日常的な使用
+For developers=開発者向け
+How to=使い方
+Use parameters and flags=パラメータとフラグの使用
+Target a vault=保管庫の指定
+Target a file=ファイルの指定
+Copy output=出力のコピー
+General commands=一般コマンド
+Bases=ベース
+Bookmarks=ブックマーク
+Command palette=コマンドパレット
+Daily notes=デイリーノート
+File history=ファイル履歴
+Files and folders=ファイルとフォルダ
+Links=リンク
+Outline=アウトライン
+Plugins=プラグイン
+Properties=プロパティ
+Random notes=ランダムノート
+Search=検索
+Tags=タグ
+Tasks=タスク
+Templates=テンプレート
+Themes and snippets=テーマとスニペット
+Unique notes=ユニークノート
+Vault=保管庫
+Web viewer=Webビューア
+Wordcount=ワードカウント
+Workspace=ワークスペース
+Developer commands=開発者コマンド
+Keyboard shortcuts=キーボードショートカット
+Navigation=ナビゲーション
+Editing=編集
+Autocomplete=自動補完
+History=履歴
+Other=その他
+Troubleshooting=トラブルシューティング
+Alternate shells=代替シェル
+
+[headless]
+Install=インストール
+Authentication=認証
+Log in=ログイン
+Services=サービス
+
+[uri]
+URI format=URIフォーマット
+Open note=ノートを開く
+Examples=例
+Parameters=パラメータ
+Create note=ノートを作成する
+Create or open daily note=デイリーノートを作成または開く
+Unique Note=ユニークノート
+Open search=検索を開く
+Open Vault Manager=保管庫マネージャーを開く
+Integrate with Hook=Hookとの連携
+Example=例
+Use x-callback-url parameters=x-callback-urlパラメータを使用する
+Shorthand formats=短縮フォーマット
+Troubleshooting=トラブルシューティング
+Register Obsidian URI=Obsidian URIを登録する
+
+[community-plugins]
+Browse community plugins=コミュニティプラグインを閲覧する
+Install a community plugin=コミュニティプラグインをインストールする
+Enable a community plugin=コミュニティプラグインを有効化する
+Update plugins=プラグインをアップデートする
+Uninstall a community plugin=コミュニティプラグインをアンインストールする
+Manage installed plugins=インストール済みプラグインを管理する
+Learn more=さらに詳しく
+
+[themes]
+Browse themes=テーマを閲覧する
+Install a new theme=新しいテーマをインストールする
+Update themes=テーマをアップデートする
+Uninstall an existing theme=既存のテーマをアンインストールする
+Learn more=さらに詳しく
+
+[plugin-security]
+Restricted mode=制限モード
+Plugin capabilities=プラグインの機能
+Plugin review process=プラグインのレビュープロセス
+
+[style-guide]
+Terminology and grammar=用語と文法
+Language style=言語スタイル
+Terms=用語
+Product names=プロダクト名
+UI and interactions=UIとインタラクション
+Notes, files, and folders=ノート、ファイル、フォルダ
+Reference documentation for settings=設定のリファレンスドキュメント
+Directional terms=方向を示す用語
+Instructions=操作説明
+Sentence case=センテンスケース
+Examples=例
+Key names and keyboard shortcuts=キー名とキーボードショートカット
+Images=画像
+Information structure=情報構造
+Callout types=コールアウトの種類
+Lists vs. prose=リストと文章
+Tables=テーブル
+Cross-references=相互参照
+Platform-specific content=プラットフォーム固有のコンテンツ
+Icons and images=アイコンと画像
+Icons=アイコン
+Image anchor tags=画像アンカータグ
+Optimization=最適化
+Layout=レイアウト
+Broken links=リンク切れ
+Descriptions=説明
+Directions=方向
+Translations=翻訳
+
+[developers]
+Plugins and themes=プラグインとテーマ
+Open source projects=オープンソースプロジェクト
+Documentation=ドキュメント
+Community=コミュニティ
+
+[plugins/canvas]
+Create a new canvas=新しいキャンバスの作成
+Add cards=カードの追加
+Add text cards=テキストカードの追加
+Add cards from notes=ノートからカードを追加
+Add cards from media=メディアからカードを追加
+Add cards from web pages=ウェブページからカードを追加
+Add cards from folders=フォルダからカードを追加
+Edit a card=カードの編集
+Delete a card=カードの削除
+Swap cards=カードの入れ替え
+Select cards=カードの選択
+Arrange cards=カードの配置
+Resize a card=カードのリサイズ
+Connect cards=カードの接続
+Connect two cards=2つのカードを接続する
+Disconnect two cards=2つのカードの接続を解除する
+Connect a card to a different card=カードを別のカードに接続し直す
+Navigate a connection=接続先への移動
+Add a label to a connection=接続にラベルを追加する
+Change the color of a card or connection=カードまたは接続の色を変更する
+Group cards=カードのグループ化
+Group selected cards=選択したカードのグループ化
+Navigate the canvas=キャンバスの操作
+Pan the canvas=キャンバスのパン
+Zoom the canvas=キャンバスの拡大
+Zoom to fit=フィットするようにズーム
+Zoom to selection=選択対象にズーム
+Reset zoom=ズームをリセット
+Advanced tips=高度なヒント
+
+[plugins/web-viewer]
+Reader view=リーダービュー
+Save to vault=保管庫に保存
+Ad blocking=広告ブロック
+Security=セキュリティ
+
+[plugins/audio-recorder]
+Record audio in a note=ノートに音声を録音する
+
+[plugins/quick-switcher]
+Open Quick switcher=クイックスイッチャーを開く
+Open a note with Quick switcher=クイックスイッチャーでノートを開く
+
+[plugins/graph]
+Settings=設定
+Filters=フィルタ
+Groups=グループ
+Display=表示
+Forces=力の強さ
+Start a time-lapse animation=タイムラプスアニメーションの開始
+Local Graph=ローカルグラフ
+
+[plugins]
+All core plugins=すべてのコアプラグイン
+Other plugins=その他のプラグイン
+
+[plugins/command-palette]
+Pinned commands=ピン留めされたコマンド
+Pin a command=コマンドをピン留めする
+Unpin a command=コマンドのピン留めを解除する
+
+[plugins/templates]
+Set your template folder=テンプレートフォルダの設定
+Template variables=テンプレート変数
+Create a template=テンプレートの作成
+Insert a template into the active note=アクティブなノートにテンプレートを挿入する
+Template properties=テンプレートのプロパティ
+
+[plugins/daily-notes]
+Create a daily note from template=テンプレートからデイリーノートを作成する
+Daily notes and properties=デイリーノートとプロパティ
+
+[plugins/note-composer]
+Merge notes=ノートの統合
+Extract note=ノートの抽出
+Template file=テンプレートファイル
+
+[plugins/backlinks]
+Show backlinks=バックリンクを表示
+View backlinks for a note=ノートのバックリンクを表示する
+See backlinks of a specific note=特定のノートのバックリンクを確認する
+Show backlinks in a note=ノート内にバックリンクを表示する
+
+[plugins/file-explorer]
+Create a new note=新しいノートの作成
+Create a new folder=新しいフォルダの作成
+Change sort order=並べ替え順の変更
+Auto-reveal active file=アクティブファイルの自動表示
+Expand or collapse all folders=すべてのフォルダを展開または折りたたむ
+Delete a file or folder=ファイルまたはフォルダの削除
+Rename a file or folder=ファイルまたはフォルダのリネーム
+Move a file or folder=ファイルまたはフォルダの移動
+
+[plugins/file-recovery]
+Recover a snapshot=スナップショットを復元する
+Clear snapshot history=スナップショット履歴をクリアする
+Storage and performance=ストレージとパフォーマンス
+Limitations=制限事項
+
+[plugins/format-converter]
+Supported formats=対応フォーマット
+
+[plugins/bookmarks]
+Add a bookmark=ブックマークを追加
+Remove a bookmark=ブックマークを削除
+Add a bookmark group=ブックマークグループを追加
+Remove a bookmark group=ブックマークグループを削除
+Bookmark multiple files=複数のファイルをブックマーク
+
+[plugins/properties]
+All properties view=すべてのプロパティビュー
+
+[plugins/unique-note]
+Create a unique note=ユニークノートの作成
+Create unique notes from a template=テンプレートからユニークノートを作成する
+
+[plugins/workspaces]
+Save a workspace=ワークスペースを保存する
+Load a workspace=ワークスペースをロードする
+Delete a workspace=ワークスペースを削除する
+
+[plugins/search]
+Search terms=検索語
+Search operators=検索演算子
+Search properties=プロパティの検索
+Change case sensitivity=大文字/小文字の区別を変更する
+Change result sort order=結果の並べ替え順を変更する
+Copy search results=検索結果をコピーする
+Use regular expressions=正規表現を使用する
+Configure search settings=検索設定を設定する
+Embed search results in a note=ノートに検索結果を埋め込む
+
+[teams/security]
+Considerations=考慮事項
+Community plugins and themes=コミュニティプラグインとテーマ
+Network and access=ネットワークとアクセス
+Obsidian-sourced connections=Obsidianからの接続
+GitHub-sourced connections=GitHubからの接続
+Other connections=その他の接続
+Frequently asked questions=よくある質問
+Account security=アカウントセキュリティ
+Assessments and certifications=評価と認証
+
+[teams/deploy]
+Install and update Obsidian=Obsidianのインストールとアップデート
+Customizing Obsidian=Obsidianのカスタマイズ
+Configuration folders=設定フォルダ
+Plugins=プラグイン
+Themes and snippets=テーマとスニペット
+Frequently asked questions=よくある質問
+Deployment=展開
+
+[teams]
+Use Obsidian with your team=チームでObsidianを使用する
+Important resources=重要なリソース
+
+[teams/publish]
+Publishing tools and services=パブリッシュツールとサービス
+Advanced collaboration for Obsidian Publish=Obsidian Publishの高度なコラボレーション
+Media=メディア
+Frequently asked questions=よくある質問
+
+[teams/sync]
+Syncing tools and services=同期ツールとサービス
+Obsidian Sync for teams=チーム向けObsidian Sync
+Security=セキュリティ
+Frequently asked questions=よくある質問
+
+[teams/license]
+Purchase a commercial license=商用ライセンスの購入
+Apply a commercial license=商用ライセンスの適用
+Supporting organizations=サポート組織
+Frequently asked questions=よくある質問
+
+[updates]
+Check for updates and view version=アップデートの確認とバージョンの表示
+Disable automatic updates=自動更新を無効にする
+Installer updates=インストーラーのアップデート
+
+[install]
+Install Obsidian on Windows=WindowsへのObsidianのインストール
+Install Obsidian on macOS=macOSへのObsidianのインストール
+Install Obsidian on Linux=LinuxへのObsidianのインストール
+Install Obsidian using Snap=Snapを使用したObsidianのインストール
+Install Obsidian using AppImage=AppImageを使用したObsidianのインストール
+Install Obsidian using Flatpak=Flatpakを使用したObsidianのインストール
+Install Obsidian on Android=AndroidへのObsidianのインストール
+Install Obsidian on iPhone and iPad=iPhoneおよびiPadへのObsidianのインストール
+
+[backup]
+Syncing is not a backup=同期はバックアップではない
+Use community plugins=コミュニティプラグインを使用する
+Use cloud-based services=クラウドベースのサービスを使用する
+Use external drives=外付けドライブを使用する
+Use computer backups=コンピュータのバックアップを使用する
+Next steps=次のステップ
+
+[sandbox]
+Opening the sandbox vault=サンドボックス保管庫を開く
+Close the sandbox vault=サンドボックス保管庫を閉じる
+
+[sync-notes]
+Syncing methods=同期方法
+iPhone and iPad syncing=iPhoneとiPadの同期
+Frequently asked questions=よくある質問
+
+[import]
+Import from other apps and file formats=他のアプリやファイル形式からのインポート
+More formats=その他の形式
+
+[link-notes]
+Create a link=リンクを作成する
+Create a link to a non-existing note=存在しないノートへのリンクを作成する
+Navigate between notes=ノート間を移動する
+Learn more=さらに詳しく
+
+[mobile]
+Widgets, shortcuts, and Siri=ウィジェット、ショートカット、Siri
+Mobile toolbar=モバイルツールバー
+Customize mobile toolbar=モバイルツールバーのカスタマイズ
+Add command to mobile toolbar=モバイルツールバーにコマンドを追加する
+Quick Action=クイックアクション
+Customize Quick Action=クイックアクションのカスタマイズ
+Navigation bar=ナビゲーションバー
+Go back or forward=戻るまたは進む
+Create or find note=ノートの作成または検索
+Tab management=タブの管理
+Ribbon actions=リボンメニューのアクション
+Sidebars=サイドバー
+
+[vault]
+Create empty vault=空の保管庫を作成する
+Open existing folder=既存のフォルダを開く
+
+[create-note]
+Create a new note=新しいノートを作成する
+Formatting text=テキストのフォーマット
+Learn more=詳細を確認
+
+[glossary]
+Alias=エイリアス
+Attachment=添付ファイル
+Command=コマンド
+Embed=埋め込み
+Frontmatter=フロントマター
+Graph=グラフ
+Hotkey=ショートカットキー
+Link=リンク
+Main area=メインエリア
+Note=ノート
+Plugin=プラグイン
+Pop-out window=ポップアウトウィンドウ
+Property=プロパティ
+Ribbon=リボンメニュー
+Sidebar=サイドバー
+Snippet=スニペット
+Status bar=ステータスバー
+Tab=タブ
+Tab group=タブグループ
+Tag=タグ
+Theme=テーマ
+Vault=保管庫
+Remote vault=リモート保管庫
+View=ビュー
+
+[aliases]
+Add an alias to a note=ノートにエイリアスを追加する
+Link to a note using an alias=エイリアスを使ってノートにリンクする
+Find unlinked mentions for an alias=エイリアスのリンクされていないメンションを見つける
+
+[embeds]
+Embed a note in another note=別のノートにノートを埋め込む
+Embed an image in a note=ノートに画像を埋め込む
+Embed an audio file in a note=ノートに音声ファイルを埋め込む
+Embed a PDF in a note=ノートにPDFを埋め込む
+Embed a list in a note=ノートにリストを埋め込む
+Embed search results=検索結果を埋め込む
+
+[links]
+Supported formats for internal links=内部リンクの対応フォーマット
+Link to a file=ファイルへのリンク
+Link to a heading in a note=ノート内の見出しへのリンク
+Link to a block in a note=ノート内のブロックへのリンク
+Change the link display text=リンクの表示テキストを変更する
+Preview a linked file=リンクされたファイルをプレビューする
+
+[import/apple-journal]
+Export your data from Apple Journal=Apple Journalからデータをエクスポートする
+On iPhone=iPhoneの場合
+On Mac (Tahoe)=Mac（Tahoe）の場合
+Import Apple Journal data into Obsidian=Apple JournalのデータをObsidianにインポートする
+Supported content=サポートされるコンテンツ
+
+[import/apple-notes]
+Import Apple Notes data into Obsidian=Apple NotesのデータをObsidianにインポートする
+Supported content=サポートされるコンテンツ
+Scans=スキャン
+Alternate export methods=代替エクスポート方法
+
+[import/bear]
+Export your data from Bear=Bearからデータをエクスポートする
+Import your Bear data into Obsidian=BearのデータをObsidianにインポートする
+
+[import/csv]
+Create notes from CSV data in Obsidian=ObsidianでCSVデータからノートを作成する
+Configure how CSV fields are imported=CSVフィールドのインポート方法を設定する
+
+[import/craft]
+Export your data from Craft=Craftからデータをエクスポートする
+Import your Craft data into Obsidian=CraftのデータをObsidianにインポートする
+Troubleshooting=トラブルシューティング
+
+[import/evernote]
+Export your data from Evernote=Evernoteからデータをエクスポートする
+Import your Evernote data into Obsidian=EvernoteのデータをObsidianにインポートする
+Advanced import options=高度なインポートオプション
+Maintain tag hierarchy=タグ階層の維持
+Handling notebook stacks=ノートブックスタックの処理
+
+[import/google-keep]
+Export your data from Google Keep=Google Keepからデータをエクスポートする
+Import your Google Keep data into Obsidian=Google KeepのデータをObsidianにインポートする
+Supported features=サポートされている機能
+
+[import/html]
+Import HTML data into Obsidian=HTMLデータをObsidianにインポートする
+Import settings=インポート設定
+
+[import/markdown]
+Converting from other flavors of Markdown=他のMarkdownフレーバーからの変換
+
+[import/onenote]
+Import your OneNote data into Obsidian=OneNoteのデータをObsidianにインポートする
+Troubleshooting=トラブルシューティング
+No sections or notebooks appear=セクションやノートブックが表示されない
+Imported notes are empty or missing content=インポートしたノートが空またはコンテンツが欠落している
+Privacy=プライバシー
+
+[import/notion]
+API import=APIインポート
+Create a Notion API integration token=Notion APIインテグレーショントークンの作成
+Import your Notion data via API=API経由でNotionデータをインポートする
+Limitations=制限事項
+File import=ファイルインポート
+Export your data from Notion=Notionからデータをエクスポートする
+Import your Notion .zip file=Notionの.zipファイルをインポートする
+Troubleshooting=トラブルシューティング
+Importing large workspaces=大規模なワークスペースのインポート
+
+[import/roam]
+Export your data from Roam Research=Roam Researchからデータをエクスポートする
+Import your Roam Research data into Obsidian=Roam ResearchのデータをObsidianにインポートする
+
+[import/textbundle]
+Import Textbundle files into Obsidian=TextbundleファイルをObsidianにインポートする
+Troubleshooting=トラブルシューティング
+No files are selected for import=インポート対象のファイルが選択されない
+
+[plugins/importer]
+Install Importer=インポーターのインストール
+
+[data-storage]
+Vault settings=保管庫の設定
+Global settings=グローバル設定
+Metadata cache=メタデータキャッシュ
+
+[manage-notes]
+Create a new note=新規ノートの作成
+Rename a note=ノートのリネーム
+Delete a note=ノートの削除
+
+[manage-vaults]
+Create new vault=新規保管庫の作成
+Create vault from an existing folder=既存のフォルダから保管庫を作成
+Rename vault=保管庫のリネーム
+Move vault to a different folder=保管庫を別のフォルダに移動
+Remove vault=保管庫の削除
+Transfer settings to another vault=設定を別の保管庫に転送
+
+[file-formats]
+Embed files=ファイルの埋め込み
+
+[configuration-folder]
+Access your configuration folder=設定フォルダへのアクセス
+Desktop=デスクトップ
+Mobile=モバイル
+Change your configuration folder=設定フォルダの変更
+
+[resources]
+Questions and advice=質問とアドバイス
+Report bugs and request features=バグ報告と機能リクエスト
+Collect debug information=デバッグ情報の収集
+Check startup time=起動時間の確認
+Capture console logs=コンソールログの取得
+Contact Obsidian support=Obsidianサポートへの連絡
+Report a security issue=セキュリティの問題を報告する
+Report a Code of Conduct violation=行動規範違反の報告
+Contributing to Obsidian=Obsidianへの貢献
+
+[/]
+Obsidian Help=Obsidian ヘルプ
+Get started=はじめに
+Extend Obsidian=Obsidianを拡張する
+Add-on services=アドオンサービス
+Contribute=貢献する
+
+[sidebar]
+Open hidden sidebars=非表示のサイドバーを開く
+Desktop and larger tablets=デスクトップおよび大きなタブレット
+Mobile and smaller tablets=モバイルおよび小さなタブレット
+Tabs=タブ
+Open or reopen tabs=タブを開くまたは再度開く
+Close tabs=タブを閉じる
+Rearrange tabs=タブを並べ替える
+Pin tabs=タブをピンする
+Tab groups=タブグループ
+Create tab groups=タブグループを作成する
+Close tab groups=タブグループを閉じる
+
+[tabs]
+Open a new tab=新規タブを開く
+Open a link=リンクを開く
+Organize your tabs and windows=タブとウィンドウの整理
+Arrange tabs=タブの配置
+Split a tab group=タブグループの分割
+Resize a tab group=タブグループのサイズ変更
+Move tab to a new window=タブを新規ウィンドウに移動
+Move a tab to a different window=タブを別のウィンドウに移動
+Pin a tab=タブをピンする
+Switch to a different tab=別のタブに切り替える
+Stack tab groups=タブグループのスタック
+Linked views=リンクされたビュー
+Save layouts=レイアウトの保存
+
+[drag-and-drop]
+Drag tabs=タブのドラッグ
+Drag sources=ドラッグのソース
+Drop destinations=ドロップ先
+Dragging from outside Obsidian=Obsidianの外部からのドラッグ
+Dropping files outside Obsidian=Obsidianの外部へのファイルのドロップ
+
+[hotkeys]
+View hotkeys=ホットキーの表示
+Set a hotkey=ホットキーの設定
+Remove a hotkey=ホットキーの削除
+Filter hotkeys=ホットキーのフィルタリング
+Non-US keyboard layouts=US以外のキーボードレイアウト
+Default keyboard shortcuts=デフォルトのキーボードショートカット
+
+[pop-out-windows]
+Open a file in a new window=新しいウィンドウでファイルを開く
+Move a file to a different window=ファイルを別のウィンドウに移動する
+
+[ribbon]
+Actions=アクション
+Customize the ribbon=リボンのカスタマイズ
+Desktop=デスクトップ
+Hide the ribbon=リボンを非表示にする
+Show the ribbon=リボンを表示する
+Mobile=モバイル
+Quick access=クイックアクセス
+Rearrange and visibility=並べ替えと表示
+
+[workspace]
+Desktop=デスクトップ
+Mobile=モバイル
+
+[appearance]
+Color scheme=カラースキーム
+Custom themes=カスタムテーマ
+Custom app icon=カスタムアプリアイコン
+Translucency=半透明効果
+
+[settings]
+Open Settings=設定を開く
+Desktop=デスクトップ
+Mobile=モバイル
+Settings organization=設定の構成
+General=一般
+Version and updates=バージョンとアップデート
+Language=言語
+Help=ヘルプ
+Account=アカウント
+Advanced=高度な設定
+Notify if startup takes longer than expected=起動に時間がかかった場合に通知
+Editor=エディタ
+Always focus new tabs=常に新しいタブにフォーカス
+Default view for new tabs=新規タブのデフォルトビュー
+Default editing mode=デフォルト編集モード
+Show editing mode in status bar=エディタステータス
+Display=表示
+Readable line length=読みやすい行の長さ
+Strict line breaks=厳密な改行
+Properties in document=ドキュメント内プロパティ
+Fold heading=見出しのフォールド
+Fold indent=インデントのフォールド
+Show line numbers=行番号
+Show indentation guides=インデントガイド
+Right-to-left (RTL)=右横書き表示 (RTL)
+Auto-pair brackets=括弧を自動的にペアリング
+Auto-pair Markdown syntax=マークダウン記法を自動的にペアリング
+Smart lists=スマートインデント
+Indent using tabs=タブの使用
+Convert pasted HTML to Markdown=HTMLの自動変換
+Behavior=挙動
+Spellcheck=スペルチェック
+Spellcheck languages=スペルチェックの言語
+Indent visual width=タブの間隔
+Vim key bindings=Vimのキー設定
+Files and links=ファイルとリンク
+Default location for new notes=新規ノートの作成場所
+Default location for new attachments=新規添付ファイルの作成場所
+Links=リンク
+New link format=新規作成するリンクの形式
+Automatically update internal links=内部リンクを毎回更新する
+Use Wikilinks=ウィキリンクの使用
+Show all file types=すべての種類のファイルを表示
+Trash=ゴミ箱
+Confirm file deletion=ファイル削除の確認
+Deleted files=削除されたファイル
+Excluded files=除外ファイル
+Override config folder=設定フォルダの優先を切り替える
+Allow URI callbacks=URIコールバックを許可
+Rebuild vault cache=保管庫のキャッシュを再ビルドする
+Appearance=外観
+Base color scheme=ベーステーマ
+Accent color=アクセントカラー
+Themes=テーマ
+Current community themes=現在のコミュニティテーマ
+Font=フォント
+Interface font=インターフェースフォント
+Text font=テキストフォント
+Monospace font=モノスペースフォント
+Font size=フォントサイズ
+Quick font size adjustment=フォントサイズのクイック調整
+Interface=インターフェース
+Show inline title=インラインタイトルの表示
+Show tab title bar=タブタイトルバーの表示
+Show ribbon=リボンの表示
+Ribbon menu configuration=リボンメニュー
+Zoom level=ズームレベル
+Native menus=ネイティブメニュー
+Window frame style=ウィンドウフレームのスタイル
+Custom app icon=カスタムアプリアイコン
+Translucent window=半透明ウィンドウ
+Hardware acceleration=ハードウェアアクセラレーション
+CSS snippets=CSSスニペット
+Hotkeys=ホットキー
+Core plugins=コアプラグイン
+Community plugins=コミュニティプラグイン
+Restricted mode=制限モード
+Current plugins=現在インストールされているプラグイン
+Installed plugins=インストールされたプラグイン
+
+[catalyst]
+Catalyst tiers=Catalystティア
+Access Catalyst benefits=Catalystの特典へのアクセス
+Get your forum badge=フォーラムバッジの取得
+Get your Discord badge=Discordバッジの取得
+Join our Insider channels=インサイダーチャンネルへの参加
+Enable early access versions=早期アクセスバージョンを有効化する
+
+[credit]
+Add credit=クレジットの追加
+Gifting=ギフト
+Give Obsidian Credit=Obsidianクレジットを贈る
+Receiving Obsidian Credit=Obsidianクレジットの受け取り
+
+[payment]
+Purchase a service or license=サービスやライセンスの購入
+Generate an invoice=請求書の生成
+Editing an invoice=請求書の編集
+
+[discounts]
+How to apply=申請方法
+How to renew=更新方法
+Frequently asked questions=よくある質問
+Refunds=返金
+
+[sales-tax]
+Tax exemption=免税
+Applying for an exemption=免税の申請
+
+[refunds]
+Request a refund=返金のリクエスト
+Frequently asked questions=よくある質問
+
+[obsidian-flavored-markdown]
+Supported Markdown extensions=サポートされているMarkdown拡張機能
+
+[embed-web-pages]
+Embed a YouTube video=YouTube動画を埋め込む
+Embed a tweet=ツイートを埋め込む
+
+[plugins/slides]
+Presentations using Slides=スライドを使ったプレゼンテーション
+Formatting=書式設定
+Slides=スライド
+
+[callouts]
+Change the title=タイトルを変更する
+Foldable callouts=折りたたみ可能なコールアウト
+Nested callouts=ネストされたコールアウト
+Customize callouts=コールアウトのカスタマイズ
+Supported types=サポートされるタイプ
+
+[tags]
+Add a tag to a note=ノートにタグを追加する
+Find notes using tags=タグを使ってノートを検索する
+Nested tags=ネストされたタグ
+Tag format=タグの形式
+
+[edit-and-read]
+Reading view=リーディングビュー
+Editing view=編集ビュー
+Live Preview=ライブプレビュー
+Source mode=ソースモード
+
+[properties]
+Add properties to a note=ノートにプロパティを追加する
+Property types=プロパティタイプ
+Advanced uses=高度な使い方
+Search properties=プロパティを検索する
+Templates=テンプレート
+Rename properties=プロパティのリネーム
+Display modes=表示モード
+CSS snippets=CSSスニペット
+Not supported=未サポート
+Hotkeys=ショートカットキー
+Add a property=プロパティを追加する
+Navigate between properties=プロパティ間を移動する
+Select properties=プロパティを選択する
+Edit properties=プロパティを編集する
+Vim (advanced)=Vim（上級者向け）
+Property format=プロパティの形式
+Text=テキスト
+List=リスト
+Number=数値
+Checkbox=チェックボックス
+Date=日付
+Date & time=日付と時刻
+Tags=タグ
+JSON properties=JSONプロパティ
+Default properties=デフォルトプロパティ
+Properties for Obsidian Publish=Obsidian Publish用のプロパティ
+Deprecated properties=非推奨プロパティ
+
+[multiple-cursors]
+Rectangular selection=矩形選択
+
+[syntax]
+Paragraphs=段落
+Line breaks=改行
+Headings=見出し
+This is a heading 1=これは見出し1です
+This is a heading 2=これは見出し2です
+This is a heading 3=これは見出し3です
+This is a heading 4=これは見出し4です
+This is a heading 5=これは見出し5です
+This is a heading 6=これは見出し6です
+Bold, italics, highlights=ボールド、イタリック、ハイライト
+Internal links=内部リンク
+External links=外部リンク
+Escape blank spaces in links=リンク内の空白スペースのエスケープ
+External images=外部画像
+Quotes=引用
+Lists=リスト
+Task lists=タスクリスト
+Nesting lists=ネストされたリスト
+Horizontal rule=水平線
+Code=コード
+Inline code=インラインコード
+Code blocks=コードブロック
+Nesting code blocks=ネストされたコードブロック
+Footnotes=脚注
+Comments=コメント
+Escaping Markdown Syntax=Markdown構文のエスケープ
+Learn more=さらに詳しく
+
+[attachments]
+Add an attachment=添付ファイルを追加する
+Change default attachment location=デフォルトの添付ファイル保存場所を変更する
+
+[editing-shortcuts]
+Windows and Linux shortcuts=WindowsおよびLinuxのショートカット
+Common actions=一般的な操作
+Text editing=テキスト編集
+Text navigation=テキストナビゲーション
+Text selection=テキスト選択
+macOS shortcuts=macOSのショートカット
+Text formatting=テキスト書式設定
+
+[advanced-syntax]
+Tables=表
+Format content within a table=表内のコンテンツの書式設定
+Diagram=ダイアグラム
+Linking files in a diagram=ダイアグラム内でファイルをリンクする
+Math=数学
