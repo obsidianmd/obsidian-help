@@ -770,7 +770,6 @@ Limitations=制限事項
 
 [plugins/format-converter]
 Supported formats=対応フォーマット
-[[Properties]]=[[プロパティ]]
 
 [plugins/bookmarks]
 Add a bookmark=ブックマークを追加
@@ -1040,3 +1039,331 @@ Metadata cache=メタデータキャッシュ
 Create a new note=新規ノートの作成
 Rename a note=ノートのリネーム
 Delete a note=ノートの削除
+
+[manage-vaults]
+Create new vault=新規保管庫の作成
+Create vault from an existing folder=既存のフォルダから保管庫を作成
+Rename vault=保管庫のリネーム
+Move vault to a different folder=保管庫を別のフォルダに移動
+Remove vault=保管庫の削除
+Transfer settings to another vault=設定を別の保管庫に転送
+
+[file-formats]
+Embed files=ファイルの埋め込み
+
+[configuration-folder]
+Access your configuration folder=設定フォルダへのアクセス
+Desktop=デスクトップ
+Mobile=モバイル
+Change your configuration folder=設定フォルダの変更
+
+[resources]
+Questions and advice=質問とアドバイス
+Report bugs and request features=バグ報告と機能リクエスト
+Collect debug information=デバッグ情報の収集
+Check startup time=起動時間の確認
+Capture console logs=コンソールログの取得
+Contact Obsidian support=Obsidianサポートへの連絡
+Report a security issue=セキュリティの問題を報告する
+Report a Code of Conduct violation=行動規範違反の報告
+Contributing to Obsidian=Obsidianへの貢献
+
+[/]
+Obsidian Help=Obsidian ヘルプ
+Get started=はじめに
+Extend Obsidian=Obsidianを拡張する
+Add-on services=アドオンサービス
+Contribute=貢献する
+
+[sidebar]
+Open hidden sidebars=非表示のサイドバーを開く
+Desktop and larger tablets=デスクトップおよび大きなタブレット
+Mobile and smaller tablets=モバイルおよび小さなタブレット
+Tabs=タブ
+Open or reopen tabs=タブを開くまたは再度開く
+Close tabs=タブを閉じる
+Rearrange tabs=タブを並べ替える
+Pin tabs=タブをピンする
+Tab groups=タブグループ
+Create tab groups=タブグループを作成する
+Close tab groups=タブグループを閉じる
+
+[tabs]
+Open a new tab=新規タブを開く
+Open a link=リンクを開く
+Organize your tabs and windows=タブとウィンドウの整理
+Arrange tabs=タブの配置
+Split a tab group=タブグループの分割
+Resize a tab group=タブグループのサイズ変更
+Move tab to a new window=タブを新規ウィンドウに移動
+Move a tab to a different window=タブを別のウィンドウに移動
+Pin a tab=タブをピンする
+Switch to a different tab=別のタブに切り替える
+Stack tab groups=タブグループのスタック
+Linked views=リンクされたビュー
+Save layouts=レイアウトの保存
+
+[drag-and-drop]
+Drag tabs=タブのドラッグ
+Drag sources=ドラッグのソース
+Drop destinations=ドロップ先
+Dragging from outside Obsidian=Obsidianの外部からのドラッグ
+Dropping files outside Obsidian=Obsidianの外部へのファイルのドロップ
+
+[hotkeys]
+View hotkeys=ホットキーの表示
+Set a hotkey=ホットキーの設定
+Remove a hotkey=ホットキーの削除
+Filter hotkeys=ホットキーのフィルタリング
+Non-US keyboard layouts=US以外のキーボードレイアウト
+Default keyboard shortcuts=デフォルトのキーボードショートカット
+
+[pop-out-windows]
+Open a file in a new window=新しいウィンドウでファイルを開く
+Move a file to a different window=ファイルを別のウィンドウに移動する
+
+[ribbon]
+Actions=アクション
+Customize the ribbon=リボンのカスタマイズ
+Desktop=デスクトップ
+Hide the ribbon=リボンを非表示にする
+Show the ribbon=リボンを表示する
+Mobile=モバイル
+Quick access=クイックアクセス
+Rearrange and visibility=並べ替えと表示
+
+[workspace]
+Desktop=デスクトップ
+Mobile=モバイル
+
+[appearance]
+Color scheme=カラースキーム
+Custom themes=カスタムテーマ
+Custom app icon=カスタムアプリアイコン
+Translucency=半透明効果
+
+[settings]
+Open Settings=設定を開く
+Desktop=デスクトップ
+Mobile=モバイル
+Settings organization=設定の構成
+General=一般
+Version and updates=バージョンとアップデート
+Language=言語
+Help=ヘルプ
+Account=アカウント
+Advanced=高度な設定
+Notify if startup takes longer than expected=起動に時間がかかった場合に通知
+Editor=エディタ
+Always focus new tabs=常に新しいタブにフォーカス
+Default view for new tabs=新規タブのデフォルトビュー
+Default editing mode=デフォルト編集モード
+Show editing mode in status bar=エディタステータス
+Display=表示
+Readable line length=読みやすい行の長さ
+Strict line breaks=厳密な改行
+Properties in document=ドキュメント内プロパティ
+Fold heading=見出しのフォールド
+Fold indent=インデントのフォールド
+Show line numbers=行番号
+Show indentation guides=インデントガイド
+Right-to-left (RTL)=右横書き表示 (RTL)
+Auto-pair brackets=括弧を自動的にペアリング
+Auto-pair Markdown syntax=マークダウン記法を自動的にペアリング
+Smart lists=スマートインデント
+Indent using tabs=タブの使用
+Convert pasted HTML to Markdown=HTMLの自動変換
+Behavior=挙動
+Spellcheck=スペルチェック
+Spellcheck languages=スペルチェックの言語
+Indent visual width=タブの間隔
+Vim key bindings=Vimのキー設定
+Files and links=ファイルとリンク
+Default location for new notes=新規ノートの作成場所
+Default location for new attachments=新規添付ファイルの作成場所
+Links=リンク
+New link format=新規作成するリンクの形式
+Automatically update internal links=内部リンクを毎回更新する
+Use Wikilinks=ウィキリンクの使用
+Show all file types=すべての種類のファイルを表示
+Trash=ゴミ箱
+Confirm file deletion=ファイル削除の確認
+Deleted files=削除されたファイル
+Excluded files=除外ファイル
+Override config folder=設定フォルダの優先を切り替える
+Allow URI callbacks=URIコールバックを許可
+Rebuild vault cache=保管庫のキャッシュを再ビルドする
+Appearance=外観
+Base color scheme=ベーステーマ
+Accent color=アクセントカラー
+Themes=テーマ
+Current community themes=現在のコミュニティテーマ
+Font=フォント
+Interface font=インターフェースフォント
+Text font=テキストフォント
+Monospace font=モノスペースフォント
+Font size=フォントサイズ
+Quick font size adjustment=フォントサイズのクイック調整
+Interface=インターフェース
+Show inline title=インラインタイトルの表示
+Show tab title bar=タブタイトルバーの表示
+Show ribbon=リボンの表示
+Ribbon menu configuration=リボンメニュー
+Zoom level=ズームレベル
+Native menus=ネイティブメニュー
+Window frame style=ウィンドウフレームのスタイル
+Custom app icon=カスタムアプリアイコン
+Translucent window=半透明ウィンドウ
+Hardware acceleration=ハードウェアアクセラレーション
+CSS snippets=CSSスニペット
+Hotkeys=ホットキー
+Core plugins=コアプラグイン
+Community plugins=コミュニティプラグイン
+Restricted mode=制限モード
+Current plugins=現在インストールされているプラグイン
+Installed plugins=インストールされたプラグイン
+
+[catalyst]
+Catalyst tiers=Catalystティア
+Access Catalyst benefits=Catalystの特典へのアクセス
+Get your forum badge=フォーラムバッジの取得
+Get your Discord badge=Discordバッジの取得
+Join our Insider channels=インサイダーチャンネルへの参加
+Enable early access versions=早期アクセスバージョンを有効化する
+
+[credit]
+Add credit=クレジットの追加
+Gifting=ギフト
+Give Obsidian Credit=Obsidianクレジットを贈る
+Receiving Obsidian Credit=Obsidianクレジットの受け取り
+
+[payment]
+Purchase a service or license=サービスやライセンスの購入
+Generate an invoice=請求書の生成
+Editing an invoice=請求書の編集
+
+[discounts]
+How to apply=申請方法
+How to renew=更新方法
+Frequently asked questions=よくある質問
+Refunds=返金
+
+[sales-tax]
+Tax exemption=免税
+Applying for an exemption=免税の申請
+
+[refunds]
+Request a refund=返金のリクエスト
+Frequently asked questions=よくある質問
+
+[obsidian-flavored-markdown]
+Supported Markdown extensions=サポートされているMarkdown拡張機能
+
+[embed-web-pages]
+Embed a YouTube video=YouTube動画を埋め込む
+Embed a tweet=ツイートを埋め込む
+
+[plugins/slides]
+Presentations using Slides=スライドを使ったプレゼンテーション
+Formatting=書式設定
+Slides=スライド
+
+[callouts]
+Change the title=タイトルを変更する
+Foldable callouts=折りたたみ可能なコールアウト
+Nested callouts=ネストされたコールアウト
+Customize callouts=コールアウトのカスタマイズ
+Supported types=サポートされるタイプ
+
+[tags]
+Add a tag to a note=ノートにタグを追加する
+Find notes using tags=タグを使ってノートを検索する
+Nested tags=ネストされたタグ
+Tag format=タグの形式
+
+[edit-and-read]
+Reading view=リーディングビュー
+Editing view=編集ビュー
+Live Preview=ライブプレビュー
+Source mode=ソースモード
+
+[properties]
+Add properties to a note=ノートにプロパティを追加する
+Property types=プロパティタイプ
+Advanced uses=高度な使い方
+Search properties=プロパティを検索する
+Templates=テンプレート
+Rename properties=プロパティのリネーム
+Display modes=表示モード
+CSS snippets=CSSスニペット
+Not supported=未サポート
+Hotkeys=ショートカットキー
+Add a property=プロパティを追加する
+Navigate between properties=プロパティ間を移動する
+Select properties=プロパティを選択する
+Edit properties=プロパティを編集する
+Vim (advanced)=Vim（上級者向け）
+Property format=プロパティの形式
+Text=テキスト
+List=リスト
+Number=数値
+Checkbox=チェックボックス
+Date=日付
+Date & time=日付と時刻
+Tags=タグ
+JSON properties=JSONプロパティ
+Default properties=デフォルトプロパティ
+Properties for Obsidian Publish=Obsidian Publish用のプロパティ
+Deprecated properties=非推奨プロパティ
+
+[multiple-cursors]
+Rectangular selection=矩形選択
+
+[syntax]
+Paragraphs=段落
+Line breaks=改行
+Headings=見出し
+This is a heading 1=これは見出し1です
+This is a heading 2=これは見出し2です
+This is a heading 3=これは見出し3です
+This is a heading 4=これは見出し4です
+This is a heading 5=これは見出し5です
+This is a heading 6=これは見出し6です
+Bold, italics, highlights=ボールド、イタリック、ハイライト
+Internal links=内部リンク
+External links=外部リンク
+Escape blank spaces in links=リンク内の空白スペースのエスケープ
+External images=外部画像
+Quotes=引用
+Lists=リスト
+Task lists=タスクリスト
+Nesting lists=ネストされたリスト
+Horizontal rule=水平線
+Code=コード
+Inline code=インラインコード
+Code blocks=コードブロック
+Nesting code blocks=ネストされたコードブロック
+Footnotes=脚注
+Comments=コメント
+Escaping Markdown Syntax=Markdown構文のエスケープ
+Learn more=さらに詳しく
+
+[attachments]
+Add an attachment=添付ファイルを追加する
+Change default attachment location=デフォルトの添付ファイル保存場所を変更する
+
+[editing-shortcuts]
+Windows and Linux shortcuts=WindowsおよびLinuxのショートカット
+Common actions=一般的な操作
+Text editing=テキスト編集
+Text navigation=テキストナビゲーション
+Text selection=テキスト選択
+macOS shortcuts=macOSのショートカット
+Text formatting=テキスト書式設定
+
+[advanced-syntax]
+Tables=表
+Format content within a table=表内のコンテンツの書式設定
+Diagram=ダイアグラム
+Linking files in a diagram=ダイアグラム内でファイルをリンクする
+Math=数学

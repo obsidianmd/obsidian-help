@@ -718,6 +718,14 @@ translation=ライセンスと支払い
 original=Linking notes and files
 translation=ノートとファイルのリンク
 
+[folder.Plugins]
+original=Plugins
+translation=プラグイン
+
+[folder.Teams]
+original=Teams
+translation=チーム
+
 [folder.Obsidian]
 original=Obsidian
 translation=Obsidian
