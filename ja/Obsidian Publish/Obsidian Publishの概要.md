@@ -4,6 +4,9 @@ permalink: publish
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+aliases:
+  - プラグイン/パブリッシュ
+  - ライセンスとアドオンサービス/Obsidian Publish
 ---
 [Obsidian Publish](https://obsidian.md/publish)は、ノートをWiki、ナレッジベース、ドキュメント、またはデジタルガーデンとして公開できるクラウドベースのホスティングサービスです。
 

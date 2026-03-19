@@ -1,6 +1,8 @@
 ---
 localized: 2026-03-19
 permalink: ios
+aliases:
+  - Obsidian/iOSアプリ
 ---
 iOSおよびiPadOS向けのObsidianモバイルアプリは、iPhoneやiPadに強力なノートテイキング機能をもたらします。[Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)からダウンロードできます。
 

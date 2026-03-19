@@ -1,5 +1,5 @@
 ---
-localized: 2026-03-19T00:00:00.000Z
+localized: 2026-03-19
 permalink: web-clipper/troubleshoot
 ---
 [[Obsidian Web Clipperの紹介|Web Clipper]]で問題が発生した場合は、[公式Discordチャンネル](https://discord.com/channels/686053708261228577/1285652864089198672)でヘルプを得ることができます。また、[GitHubリポジトリ](https://github.com/obsidianmd/obsidian-clipper)でバグを報告することもできます。

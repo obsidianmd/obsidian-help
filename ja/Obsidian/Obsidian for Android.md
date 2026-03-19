@@ -1,6 +1,8 @@
 ---
 localized: 2026-03-19
 permalink: android
+aliases:
+  - Obsidian/Androidアプリ
 ---
 Obsidian Androidアプリは、Androidデバイスに強力なノート作成機能をもたらします。[Google Play](https://play.google.com/store/apps/details?id=md.obsidian)から、または[APKファイル](https://obsidian.md/download)としてダウンロードできます。
 Android 5.1以降に対応しています。

@@ -7,6 +7,8 @@ cssclasses:
 publish: true
 mobile: true
 description: Obsidian Syncは、デバイス間でプライベートにノートを同期できるアドオンサービスです。
+aliases:
+  - ライセンスとアドオンサービス/Obsidian Sync
 ---
 [Obsidian Sync](https://obsidian.md/sync)は、デバイス間でプライベートにノートを同期できるアドオンサービスです。
 

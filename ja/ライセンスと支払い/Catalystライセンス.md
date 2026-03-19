@@ -1,6 +1,8 @@
 ---
 localized: 2026-03-19
 permalink: catalyst
+aliases:
+  - ライセンスとアドオンサービス/カタリストライセンス
 ---
 Catalystライセンスは、ベータバージョンへの早期アクセスを提供し、Obsidianの継続的な開発を支援するための1回限りの購入です。[Catalystライセンスを購入](https://obsidian.md/buy/catalyst)することでObsidianをサポートできます。
 

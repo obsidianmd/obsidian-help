@@ -4,6 +4,9 @@ permalink: snippets
 publish: true
 mobile: true
 description: 完全なテーマを作成せずにObsidianアプリの外観の一部を変更する方法を学びましょう。
+aliases:
+  - ガイド/カスタムスタイルの追加
+  - 高度なトピック/CSSのカスタマイズ
 ---
 [テーマを構築する](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)ことなく、Obsidianアプリの外観の様々な側面を変更する方法を学びましょう。
 

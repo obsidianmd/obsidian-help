@@ -4,6 +4,8 @@ permalink: data-storage
 publish: true
 mobile: true
 description: このページでは、Obsidianがデバイス上でデータをどのように保存するかについて説明します。
+aliases:
+  - 高度なトピック/Obsidianにおけるデータの保存
 ---
 Obsidianはノートを[[基本的な書式構文|Markdownフォーマット]]のプレーンテキストファイルとして_保管庫_に保存します。保管庫はローカルファイルシステム上のフォルダであり、サブフォルダも含まれます。
 

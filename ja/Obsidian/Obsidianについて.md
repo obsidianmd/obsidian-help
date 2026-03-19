@@ -1,6 +1,8 @@
 ---
 localized: 2026-03-19
 permalink: obsidian
+aliases:
+  - Obsidian/Obsidian
 ---
 ## Obsidianとは
 

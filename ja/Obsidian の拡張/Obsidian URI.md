@@ -1,6 +1,8 @@
 ---
 localized: 2026-03-19
 permalink: uri
+aliases:
+  - 高度なトピック/Obsidian URIの利用
 ---
 Obsidian URIは、ObsidianがサポートするカスタムURIプロトコルで、ノートを開いたり作成したりするなど、さまざまなアクションをトリガーできます。Obsidian URIにより、自動化やアプリ間のワークフローが実現できます。
 

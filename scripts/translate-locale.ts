@@ -622,7 +622,9 @@ function runFixLinks(headingsMap: HeadingsMap, basenameToPermalink: Map<string, 
         const headingFixed = fixHeadingLinks(parsed.content, headingsMap, basenameToPermalink);
         const updated = fixFilenameLinks(headingFixed, enToLocale);
         if (updated !== parsed.content) {
-          const newContent = matter.stringify(updated, parsed.data);
+          const newContent = matter.stringify(updated, parsed.data)
+            .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
+            .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
           if (!dryRun) fs.writeFileSync(full, newContent, "utf8");
           const rel = path.relative(localeDir, full);
           console.log(`  FIX-LINKS  ${rel}`);
@@ -700,7 +702,10 @@ async function main() {
         const raw2 = fs.readFileSync(f.absPath, "utf8");
         const parsed = matter(raw2);
         const newFm = { ...parsed.data, description: frDesc };
-        fs.writeFileSync(f.absPath, matter.stringify(parsed.content, newFm), "utf8");
+        const descContent = matter.stringify(parsed.content, newFm)
+          .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
+          .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
+        fs.writeFileSync(f.absPath, descContent, "utf8");
         console.log(`  DESC  ${f.relPath}`);
         updated++;
       }
@@ -734,7 +739,8 @@ async function main() {
           const localizedStr = rawDate instanceof Date ? rawDate.toISOString().slice(0, 10) : rawDate;
           const newFm = { ...file.frontmatter, localized: localizedStr, "needs-retranslation": true };
           const newContent = matter.stringify(file.content, newFm)
-            .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1");
+            .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
+            .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
           fs.writeFileSync(file.absPath, newContent, "utf8");
         }
         staleCount++;

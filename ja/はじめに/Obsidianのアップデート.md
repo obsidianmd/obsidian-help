@@ -1,6 +1,9 @@
 ---
 localized: 2026-03-19
 permalink: updates
+aliases:
+  - ガイド/Obsidianのアップデート
+  - コンセプト/現在のバージョン
 ---
 Obsidianのアップデートプロセスは、モバイルデバイスとデスクトップデバイスで異なります。
 
