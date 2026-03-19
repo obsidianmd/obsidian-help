@@ -30,7 +30,7 @@ Sådan opdaterer du en lokal note med ændringer fra et publiceret websted:
 2. Højreklik på den ændring du vil synkronisere, og vælg derefter **Benyt live version**. **Dette vil overskrive noten i din lokale boks.**
 
 > [!tip]
-> Vi anbefaler, at du anvender et andet værktøj til at synkronisere ændringer mellem bokse, f.eks. [[Introduktion til Obsidian Sync|Obsidian Sync|Obsidian Sync]] eller [git](https://git-scm.com/).
+> Vi anbefaler, at du anvender et andet værktøj til at synkronisere ændringer mellem bokse, fx. [[Introduktion til Obsidian Sync|Obsidian Sync|Obsidian Sync]] eller [git](https://git-scm.com/).
 
 ## Tilladelser
 

@@ -1,5 +1,0 @@
-I Obsidian kan et dokument vises enten i redigeringstilstand eller forhåndsvisningstilstand. I redigeringstilstand kan du se basal markdown gengivet, men nogle ing, så som fremhæving af programmeringskode og indlejrede filer kan kun ses i forhåndsvisningstilstand. Især alle billeder du indlejrer vil kun kunne ses i forhåndsvisningstilstand.
-
-For at skifte mellem forhåndsvisning- og redigeringstilstand skal du klikke på forhåndsvis knappen på notens titelbar. I redigeringstilstand vil der optræde et side ikon og i forhåndsvisningstilstand et blyant ikon. Hvis du trykker `Cmd/Ctrl`- klik på en note vil forhåndvisningen åbne som et [[Sammenkædede paneler|sammenkædet panel]]. Du kan også skifte forhåndsvisningstilstand ved at trykke `Cmd/Ctrl-E`, men den genvejstast kan selvfølgelig ændres.
-
-Hvis du ønsker, at noter som standard skal åbne i forhåndsvisningstilstand i stedet for redigeringstilstand kan du ændre det i [[Kommandopalette|kommandopaletten]]. Du kan også sætte en [[Tastaturgenveje|tastaturgenvej]] for at skifte mellem de forskellige tilstande.

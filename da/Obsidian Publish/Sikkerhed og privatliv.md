@@ -11,7 +11,7 @@ Kun noter, du vælger at udgive, sendes til Obsidians servere, og alle noter, du
 3. Klik på **Administrer** ved siden af **Kodeord** under **Andre webstedsindstillinger**
 4. Klik på **Nyt kodeord**
 5. I tekstfektet ved siden af **Kodeord** skriver du et kodeord for dit websted
-6. (Valgfrit) Skriv et kaldenavn for kodeordet i tekstfeltet ved siden af **Kaldenavn (valgfrit)**, f.eks. navnet på den person, som du vil give adgang til
+6. (Valgfrit) Skriv et kaldenavn for kodeordet i tekstfeltet ved siden af **Kaldenavn (valgfrit)**, fx. navnet på den person, som du vil give adgang til
 7. Klik på **Tilføj dette kodeord**
 
 ## Fjern et kodeord fra dit websted

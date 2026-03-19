@@ -1,4 +1,9 @@
-Denne side beskriver alle de supporterede måder du kan downloade og installere Obsidian på.
+---
+permalink: installation
+---
+Obsidian er tilgængelig på alle større desktoppe og mobile platforme.
+Denne side beskriver alle de supporterede måder du kan downloade og installere 
+Obsidian på.
 
 ## Installation af Obsidian på Windows
 
@@ -38,8 +43,10 @@ Hvis du benytter Linux kan du installere Obsidian på flere måder. Følg instru
 4. I terminalvinduet skal du køre nedenstående kommando for at åbne Obsidian:
    ```bash
    chmod u+x Obsidian-<version>.AppImage
-   ./Obsidian-<version>.AppImage
+   ./Obsidian-<version>.AppImage --no-sandbox
    ```
+
+Note: På Chromebooks skal pakken `libnss3-dev` være installeret ellers kan du få fejlbeskeden: `error while loading shared libraries: libnss3.so: cannot open shared object file: No such file or directory`.
 
 ### Installation af Obsidian ved hjælp af Flatpak
 

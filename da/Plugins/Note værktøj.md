@@ -1,3 +1,6 @@
+---
+permalink: plugins/note-værktøj
+---
 Note værktøjet lader dig flette to noter eller udtrække dele af en note til en ny note.
 
 ## Flette noter
@@ -21,7 +24,7 @@ I **Stifinderen**
 
 I **Kommandopaletten**
 
-1. Åbne [[Kommandopalette|kommandopaletten]]
+1. Åbne [[Kommandopaletten|kommandopaletten]]
 2. Vælge **Note værktøj: Flet nuværende fil med en anden fil...**
 3. Vælge den note du vil flette filen ind i
 4. Klikke på **Flet** for at godkende fletningen
@@ -48,7 +51,7 @@ For at udtrække en teksten til en ny note skal du:
 **Kommandopaletten**
 
 1. I **redigeringstilstand** skal du markere den tekst, som du vil udtrække
-2. Åbne [[Kommandopalette|kommandopaletten]]
+2. Åbne [[Kommandopaletten|kommandopaletten]]
 3. Vælge **Note værktøj: Udtræk nuværende markering...**
 4. Vælge den note, som du til udtrække teksten til
 
@@ -61,9 +64,9 @@ Ved at oprette en skabelon kan du tilpasse indholdet før du tilføjer den til e
 
 Skabelonen kan indeholde følgende variabler:
 
-| Variable          | Description                                                                                                                                              |
+| Variable          | Description                                                                                                                                                                   |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `{{content}}`     | Det inhold, som skal flettes ind, eller den udtrukne valgte tekst. Hvis du ikke inkluderer denne variabel, vil note værktøjet tilføje indholdet til slutningen af skabelonen. |
-| `{{fromTitle}}`   | Navnet på kildenoten.                                                                                                                                 |
-| `{{newTitle}}`    | Navnet på destinationsnoten. F.eks. kan du tilføje filnavnet som en overskrift i begyndelsen af noten.                                                     |
-| `{{date:FORMAT}}` | Den nye notes oprettelsesdato. F.eks., `{{date:YYYY-MM-DD}}`.                                                                                       |
+| `{{fromTitle}}`   | Navnet på kildenoten.                                                                                                                                                         |
+| `{{newTitle}}`    | Navnet på destinationsnoten. Fx. kan du tilføje filnavnet som en overskrift i begyndelsen af noten.                                                                           |
+| `{{date:FORMAT}}` | Den nye notes oprettelsesdato. Fx., `{{date:YYYY-MM-DD}}`.                                                                                                                    |

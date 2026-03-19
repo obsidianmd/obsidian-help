@@ -1,3 +1,6 @@
+---
+permalink: credits
+---
 Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver i det mindste på det!).
 
 ## Teamet
@@ -6,27 +9,35 @@ Navne er ikke listet efter mængden af bidrag, men alfabetisk (eller vi prøver 
 
 - Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
 - liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span> <span class='flair mod-pop'>Plugin API Master</span> <span class='flair mod-pop'>Volcano Veteran</span>
+- joethei ([Johannes Theiner](https://joethei.xyz/)) <span class='flair mod-pop'>Plugin API Master</span>
+- tgrosinger ([Tony Grosinger](https://grosinger.net))
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
-- joethei ([Johannes Theiner](https://joethei.xyz/))
 
 ### Produktion og drift
 
-- Silver (Erica Xu)<span class='flair mod-pop'>Team Little Silvers</span>
-- kepano ([Stephan Ango](https://stephanango.com/))
-- ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))
+- Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
+- kepano ([Steph Ango](https://stephanango.com/))
+- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Sorcerous Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
 
 ## Moderatorer
 
 - argentum<span class='flair mod-pop'>Team Little Silvers</span> <span class='flair mod-pop'>Linux master</span> <span class='flair mod-pop'>Zotero master</span> ^a4b3a2
 - cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
-- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
 - koala<span class='flair mod-pop'>Extreme Bug Finder</span>
 - Leah ([Leah Ferguson](http://leahferguson.com))<span class='flair mod-pop'>Roll for initiative!</span> <span class='flair mod-pop'>Non-techy Apple geek</span>
-- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 - rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair mod-pop'>Forum master</span>
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair mod-pop'>That funny guy</span> <span class='flair mod-pop'>Apple Fanboy</span> <span class='flair mod-pop'>Forum master</span>
 - WhiteNoise<span class='flair mod-pop'>Think Tank</span> <span class='flair mod-pop'>Zotero master</span> <span class='flair mod-pop'>Bug report exterminator</span>
+- CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair mod-pop'>embedded-search ambassador</span>
+- Trainbuffer <span class='flair mod-pop'> ferroequinologist</span> <span class='flair mod-pop'>Travels by rail</span>
+- Roam ([Roman Soriano](https://leftovers.blog/)) <span class='flair mod-pop'>Not <i>that</i> one</span>
+- Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair mod-pop'>Templater Templar</span><span class='flair mod-pop'>Board Gamer</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
+
+### Tidligere moderatorer
+
+- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
+- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 
 ## Plugin inspiration
 
@@ -36,6 +47,7 @@ Vi krediterer følgende plugin udviklere for deres banebrydende funktioner som e
 - javalent for "Admonition" pluginnet
 - NothingIsLost for flere CodeMirror 6 forbedringer
 - mgmeyers for "Indentation Guides" pluginnet
+- blacksmithgu for "Dataview" pluginnet
 
 ## Builds
 
@@ -45,8 +57,11 @@ Vi krediterer følgende plugin udviklere for deres banebrydende funktioner som e
 ## Oversættere
 
 - Andrea Brandi (Italian)
+- Anne-Katrin aka Mephi (German)
 - bongudth (Vietnamese)
 - canzi-teacher, 蚕子 (Simplified Chinese)
+- cor-bee, Ілля Пишняк (Ukrainian)
+- cvyl, Mikka (Dutch)
 - Daniel Mathiot (French)
 - Diego Tres (Brazilian Portuguese)
 - Haitham Mohamed (Arabic)
@@ -59,6 +74,7 @@ Vi krediterer følgende plugin udviklere for deres banebrydende funktioner som e
 - Manuel Arias Almada (Spanish)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
+- Ryooo，睿悠ryooo (Chinese Simplified)
 - Sakvipubp Suy (Khmer)
 - smilorent, Silviu Lorenț (Romanian)
 - Solyta Teng (Khmer)
@@ -75,7 +91,7 @@ Reference dokumentationen på engelsk vedligeholdes på nuværende tidspunkt af 
 
 Vi accepterer nu "pull requests" af hjælpeboksen i [vores dokumentations GIT repository](https://github.com/obsidianmd/obsidian-docs/).
 
-Denne danske version er opdateret: 7. marts 2023
+Denne danske version er opdateret: 1. marts 2026
 
 ### Tilføj dit navn
 
@@ -197,3 +213,11 @@ Copyright JS Foundation and other contributors
 
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>
+
+## Tidligere logo
+
+Obsidian logo før version v1.3.5 blev tilpasset fra:
+
+[Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
+By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
+License: Attribution 3.0 Unported (CC BY 3.0)

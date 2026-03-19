@@ -2,7 +2,7 @@ Denne side gennemgår de mest almindelige problemer, du kan komme ud for, og hvo
 
 ## Konfliktløsninger
 
-En konfliktløsning opstår, når du har lavet ændringer i den samme fil på to eller flere enheder imellem synkroniseringer. F. eks. kan du have foretaget ændringer i en fil på din computer, og før denne ændring når at blive uploaded, har du også ændret den samme fil på din mobil.
+En konfliktløsning opstår, når du har lavet ændringer i den samme fil på to eller flere enheder imellem synkroniseringer. Fx. kan du have foretaget ændringer i en fil på din computer, og før denne ændring når at blive uploaded, har du også ændret den samme fil på din mobil.
 
 Konfliker opstår oftere, hvis du arbejder offline, da der er flere ændringer og længere perioder mellem synkroniseringer.
 
