@@ -320,7 +320,7 @@ translation=ファイルリカバリー
 
 [file.plugins/format-converter]
 original=Format converter
-translation=フォーマットコンバーター
+translation=Markdownフォーマットインポーター
 
 [file.plugins/graph]
 original=Graph view
@@ -372,7 +372,7 @@ translation=スライド
 
 [file.plugins/tags]
 original=Tags view
-translation=タグビュー
+translation=タグペイン
 
 [file.plugins/templates]
 original=Templates

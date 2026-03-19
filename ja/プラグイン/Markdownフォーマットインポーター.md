@@ -6,6 +6,7 @@ mobile: true
 description: Markdownフォーマットインポーターは、他のアプリケーションのMarkdownをObsidian形式に変換できるコアプラグインです。
 aliases:
   - プラグイン/Markdownフォーマットインポーター
+  - プラグイン/フォーマットコンバーター
 ---
 Markdownフォーマットインポーターは、他のアプリケーションのMarkdownをObsidian形式に変換できる[[コアプラグイン]]です。また、特定の[[プロパティ]]を新しい必須フォーマットに変換することもできます。
 
