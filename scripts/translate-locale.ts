@@ -601,7 +601,8 @@ async function saveTranslated(
   delete newFm["needs-retranslation"];
   if (frDescription) newFm.description = frDescription;
   const newContent = matter.stringify(fixed, newFm)
-    .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1");
+    .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
+    .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
   fs.writeFileSync(file.absPath, newContent, "utf8");
 
   console.log(`    ✓ saved (${Object.keys(newEntries).length} heading(s) mapped)`);
@@ -729,8 +730,11 @@ async function main() {
         console.log(`  STALE  ${file.relPath} (EN changed after ${localizedDate})`);
         if (!dryRun) {
           // Preserve the date for diff-based patching; just flag it
-          const newFm = { ...file.frontmatter, "needs-retranslation": true };
-          const newContent = matter.stringify(file.content, newFm);
+          const rawDate = file.frontmatter.localized;
+          const localizedStr = rawDate instanceof Date ? rawDate.toISOString().slice(0, 10) : rawDate;
+          const newFm = { ...file.frontmatter, localized: localizedStr, "needs-retranslation": true };
+          const newContent = matter.stringify(file.content, newFm)
+            .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1");
           fs.writeFileSync(file.absPath, newContent, "utf8");
         }
         staleCount++;
