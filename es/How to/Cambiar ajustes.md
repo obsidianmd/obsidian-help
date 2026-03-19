@@ -1,4 +1,0 @@
-La configuración se puede encontrar haciendo clic en el engranaje en la esquina inferior izquierda, o presionando `Ctrl / Cmd + ,`. La mayoría de ellos se explican por sí mismos, pero aquí hay algunas notas que pueden ser útiles.
-
-- La mayoría de las configuraciones son interruptores de palanca. Si hay más detalles en una configuración, es posible que tenga un engranaje junto al interruptor para configuraciones adicionales. Por ejemplo, el engranaje junto a Corrector ortográfico muestra el diccionario personalizado, por lo que puede eliminar palabras que haya agregado accidentalmente.
-- La habilitación de complementos hará que sus configuraciones aparezcan en la lista de pestañas. Por ejemplo, si tiene habilitado el complemento Daily Note, aparecerá una pestaña de configuración que le permitirá configurarlo aún más.

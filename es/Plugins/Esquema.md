@@ -1,1 +1,0 @@
-El complemento de esquema muestra la lista de encabezados de la nota actual y le permite navegar a otra sección haciendo clic en un encabezado.

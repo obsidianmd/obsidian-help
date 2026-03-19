@@ -1,5 +1,0 @@
-En Obsidian, un documento se puede ver en modo de edición o en modo de vista previa. En el modo de edición, verá una representación básica Markdown, pero ciertas cosas, como el resaltado de sintaxis de código y los archivos incrustados, solo aparecerán en el modo de vista previa. En particular, las imágenes que inserte solo serán visibles en el modo de vista previa.
-
-Para alternar entre los modos de vista previa y edición, haga clic en el botón de vista previa en la barra de título. En el modo de edición, aparecerá como una página; en el modo de vista previa, un lápiz. Si hace clic en `Cmd / Ctrl`, la vista previa se abrirá en un [[Panel vinculado]]. También puede alternar el modo de vista previa presionando `Cmd / Ctrl + E`, pero esta tecla de acceso rápido puede, por supuesto, cambiarse.
-
-Si desea que se abra de forma predeterminada en el modo de vista previa en lugar de en el modo de edición, puede encontrar un interruptor para eso en [[Paleta de comandos]]. También puede establecer un [[Atajo de teclado|Keyboard Shortcut]] para alternar entre estados predeterminados.
