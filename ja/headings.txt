@@ -1035,3 +1035,8 @@ Install Importer=インポーターのインストール
 Vault settings=保管庫の設定
 Global settings=グローバル設定
 Metadata cache=メタデータキャッシュ
+
+[manage-notes]
+Create a new note=新規ノートの作成
+Rename a note=ノートのリネーム
+Delete a note=ノートの削除
