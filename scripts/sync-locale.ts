@@ -125,8 +125,7 @@ function collectFiles(dir: string): Map<string, FileInfo> {
 
 function buildFrontmatter(
   enFm: Record<string, unknown>,
-  localeFm: Record<string, unknown>,
-  enBasename: string
+  localeFm: Record<string, unknown>
 ): Record<string, unknown> {
   const result: Record<string, unknown> = { ...localeFm };
 
@@ -139,12 +138,10 @@ function buildFrontmatter(
     }
   }
 
-  // Preserve locale aliases, stripping any that came from EN.
-  // Keep: locale-specific aliases + the EN basename (used for wikilink resolution).
-  // Remove: EN frontmatter aliases that leaked in from migration.
+  // Preserve locale aliases, stripping any that came from EN frontmatter.
   const enAliasSet = new Set((enFm.aliases as string[] | undefined) ?? []);
   const localeAliases = (localeFm.aliases as string[] | undefined) ?? [];
-  const filteredAliases = localeAliases.filter(a => !enAliasSet.has(a) || a === enBasename);
+  const filteredAliases = localeAliases.filter(a => !enAliasSet.has(a));
   if (filteredAliases.length > 0) {
     result.aliases = filteredAliases;
   } else {
@@ -168,7 +165,8 @@ function frontmatterChanged(
 function writeFile(filePath: string, fm: Record<string, unknown>, content: string) {
   const newContent = matter.stringify(content, fm)
     .replace(/^localized: null$/m, "localized:")
-    .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1");
+    .replace(/^localized: '(\d{4}-\d{2}-\d{2})'$/m, "localized: $1")
+    .replace(/^localized: (\d{4}-\d{2}-\d{2})T[0-9:.Z]+$/m, "localized: $1");
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, newContent, "utf8");
 }
@@ -208,21 +206,11 @@ for (const [permalink, enInfo] of enFiles) {
     }
 
     // Sync frontmatter
-    const enBasename = path.basename(enInfo.relPath, ".md");
-    const newFm = buildFrontmatter(enInfo.frontmatter, localeInfo.frontmatter, enBasename);
+    const newFm = buildFrontmatter(enInfo.frontmatter, localeInfo.frontmatter);
     // If localized is absent or false and content matches EN, mark as unlocalized (null = empty date)
     const isUnlocalized = !localeInfo.frontmatter.localized;
     if (isUnlocalized && localeInfo.content.trim() === enInfo.content.trim()) {
       newFm.localized = null;
-    }
-    // If the locale file has a different filename than EN, add the EN basename as an alias
-    // so that [[EN filename]] wikilinks resolve correctly in locale content.
-    const localeBasename = path.basename(localeInfo.relPath, ".md");
-    if (enBasename !== localeBasename) {
-      const aliases = (newFm.aliases as string[] | undefined) ?? [];
-      if (!aliases.includes(enBasename)) {
-        newFm.aliases = [...aliases, enBasename];
-      }
     }
     if (frontmatterChanged(localeInfo.frontmatter, newFm)) {
       console.log(`  SYNC  ${localeInfo.relPath} (permalink: ${permalink})`);
@@ -245,13 +233,6 @@ for (const [permalink, enInfo] of enFiles) {
         stubFm[field] = enInfo.frontmatter[field];
       }
     }
-    // Add EN basename as alias if the locale filename differs
-    const enBasename = path.basename(enInfo.relPath, ".md");
-    const localeBasename = path.basename(stubRelPath, ".md");
-    if (enBasename !== localeBasename) {
-      stubFm.aliases = [enBasename];
-    }
-
     console.log(`  CREATE  ${stubRelPath} (permalink: ${permalink})`);
     if (!dryRun) {
       writeFile(stubAbsPath, stubFm, enInfo.content);
