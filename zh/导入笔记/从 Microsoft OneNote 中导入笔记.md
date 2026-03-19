@@ -3,16 +3,18 @@ permalink: import/onenote
 aliases:
   - Import from Microsoft OneNote
   - 导入笔记/从 Microsoft OneNote 中导入笔记
-localized: 2024-07-10
+localized: 2026-03-19
 ---
-
 使用[[迁移助手|Importer 插件]]，你可以轻松将 Microsoft OneNote 中的笔记迁移到Obsidian。这将把你 OneNote 中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
+
+> [!Warning]
+> 只有属于你个人账户的笔记本才能导入。共享笔记或来自工作和学校账户的笔记本不受支持。
 
 ## 将 OneNote 数据导入 Obsidian
 
 你需要安装 Obsidian 官方的 [[迁移助手]] 插件，你可以在[这里安装](obsidian://show-plugin?id=obsidian-importer)。
 
-1. 打开 **设置**。
+1. 打开 **[[设置]]**。
 2. 进入 **社区插件市场** 并[安装 Importer](obsidian://show-plugin?id=obsidian-importer)。
 3. 启用 Importer 插件。
 4. 使用命令面板或功能区按钮打开 **Importer** 插件。

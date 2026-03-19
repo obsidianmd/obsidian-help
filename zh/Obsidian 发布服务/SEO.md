@@ -1,5 +1,5 @@
 ---
-localized: 2026-03-19
+localized: 2026-03-19T00:00:00.000Z
 permalink: publish/seo
 aliases:
   - Obsidian 发布服务/SEO
@@ -22,7 +22,7 @@ https://help.obsidian.md/rss.xml
 
 ### 永久链接
 
-建议使用 [[Permalinks]] 来为你的网站定义永久 URL。
+建议使用 [[永久链接]] 来为你的网站定义永久 URL。
 
 ### 元数据
 

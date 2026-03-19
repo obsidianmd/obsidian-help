@@ -434,3 +434,925 @@ Installed plugins=已安装插件
 [sales-tax]
 Tax exemption=税收豁免
 Applying for an exemption=申请豁免
+
+[ios]
+Sync=同步
+Widgets=小组件
+Lock Screen and Control Center widgets=锁定屏幕和控制中心小组件
+Home Screen widgets=主屏幕小组件
+Customizing widgets=自定义小组件
+Shortcuts=快捷指令
+Share Sheet Extension=共享扩展
+Siri integration=Siri 集成
+Spotlight integration=聚焦搜索集成
+
+[2fa]
+Enable 2FA=启用两步验证
+Generate recovery codes=生成恢复码
+Disable 2FA=关闭两步验证
+FAQ=常见问题
+
+[obsidian]
+What is Obsidian=什么是 Obsidian
+How we're different=我们有何不同
+You own and control your data=你拥有并掌控你的数据
+Links are first-class citizens=链接是一等公民
+Your own toolkit=你自己的工具箱
+Follow our development=关注我们的开发进展
+
+[early-access]
+Enable early access versions for desktop=在桌面端启用内部版本
+Install early access versions on mobile devices=在移动设备上安装内部版本
+Report issues and other feedback=报告问题和其他反馈
+Switch back to public versions on desktop=在桌面端切换回公开版本
+Switch back to public versions on mobile=在移动端切换回公开版本
+
+[android]
+Sync=同步
+Vault location=仓库位置
+Device storage=设备存储
+App storage=应用存储
+Widgets=小组件
+Quick Settings tiles=快速设置磁贴
+Shortcuts=快捷方式
+
+[community-code-of-conduct]
+The rules=社区规则
+Serious offenses=严重违规
+Harassment=骚扰
+Threats=威胁
+Blatant -isms=明目张胆的歧视
+Other offenses=其他违规
+Belligerence=挑衅攻击
+Being especially unpleasant=格外令人厌恶
+Unsolicited messages to community members=向社区成员发送未经请求的消息
+Other behaviors=其他行为
+Sea-lioning=海狮式纠缠
+"Feed me"="求投喂"
+Campaigning=反复施压
+Excessive self promotion=过度的自我推广
+Spamming=发送垃圾信息
+Encouraged behaviors=鼓励的行为
+Motivation=初衷
+Report violations=举报违规
+Report on Discord=在 Discord 上举报
+Report on the forum=在论坛上举报
+Enforcement=处理措施
+Appealing a ban=申诉封禁
+Credits=致谢
+
+[credits]
+Team=官方团队
+Development=开发者
+Product & Operations=产品及运营
+Moderators=社区管理
+Retired=已退休
+Plugin inspirations=插件灵感
+Translators=翻译
+Documentation=文档
+Add your name=榜上有名
+Third party acknowledgements=参与贡献的其他组织
+Previous logo=logo
+
+[publish/limitations]
+Community plugins=社区插件
+Graph=图谱
+Media files=媒体文件
+PDFs=PDF 文件
+Search=搜索
+
+[publish/media]
+Images=图片
+PDFs=PDF 文件
+Videos and audio=视频和音频
+
+[publish]
+How to use Obsidian Publish=如何使用发布服务
+
+[publish/publish]
+Prerequisites=前提条件
+Publish notes=发布笔记
+Unpublish notes=取消发布笔记
+Update a published note=更新已发布的笔记
+Publish linked data=发布关联数据
+Automatically select data to publish=自动选择要发布的数据
+Ignore data=忽略数据
+
+[publish/analytics]
+Prerequisites=前提条件
+Google Analytics=谷歌分析
+Plausible, Fathom, and other analytics services=Plausible、Fathom 及其他分析服务
+Troubleshooting=故障排除
+
+[publish/collaborate]
+Add a collaborator to a site=添加协作者到网站
+Remove a collaborator from a site=从网站移除协作者
+Sync changes between collaborators=在协作者之间同步修改
+Permissions=权限
+
+[publish/setup]
+Prerequisites=前提条件
+Log in with your Obsidian account=使用你的 Obsidian 账户登录
+Enable Obsidian Publish=启用 Obsidian Publish
+Open Publish=打开发布
+Open via Command palette=通过命令面板打开
+Open via hotkey=通过快捷键打开
+Open via ribbon=通过功能区打开
+Create a new site=创建新网站
+Set a site name=设置网站名称
+Select notes to publish=选择要发布的笔记
+Next steps=下一步
+
+[publish/sites]
+Create a new site=创建新网站
+Delete an existing site=删除现有网站
+Switch between sites=在网站之间切换
+Change the site ID=更改网站 ID
+View site options=查看网站设置
+Site options=网站设置
+General=常规
+Appearance=外观
+Reading experience=阅读体验
+Components=组件
+Other site settings=其他设置
+
+[publish/social-share]
+Description=摘要
+Image=图片
+
+[publish/domains]
+Set up using CloudFlare=使用 CloudFlare 设置
+Set up using a proxy=使用代理设置
+Supported HTTP X-Headers=支持的 HTTP X-Headers
+Redirect old site to custom domain=将旧网站重定向到自定义域名
+Troubleshoot=故障排除
+
+[publish/customize]
+Static assets=静态资源
+Use a community theme=使用社区主题
+Enable UI features=调整界面功能
+Customize navigation=自定义文件列表
+Accessing Customize navigation options=进入自定义文件列表设置
+Adjust navigation items=调整文件列表顺序
+Hide and unhide navigation items=隐藏和取消隐藏列表项目
+FAQ=常见问题
+
+[sync]
+How to use Obsidian Sync=如何使用 Obsidian Sync
+Important=重要
+
+[sync/collaborate]
+Manage users=管理用户
+Add users=添加用户
+Remove users=移除用户
+Collaborate with your team=与团队协作
+Permissions=权限
+Live editing=实时编辑
+Limitations=限制
+
+[sync/security]
+Encryption=加密
+What does end-to-end encryption mean?=端到端加密意味着什么？
+What are the risks of using standard encryption?=使用标准加密有哪些风险？
+What encryption do you use?=你们使用什么加密方式？
+Can I verify that my data is end-to-end encrypted?=我可以验证我的数据是否经过端到端加密吗？
+Has Obsidian completed a third-party security audit?=Obsidian 是否通过了第三方安全审计？
+What happens if I forget my encryption password?=如果我忘记了加密密码怎么办？
+Hosting=托管
+Where do you host the servers for Obsidian Sync?=Obsidian Sync 的服务器托管在哪里？
+Where can I find my current Sync server and where is it hosted?=如何查找当前的 Sync 服务器及其托管位置？
+Network and access=网络与访问
+Managing access to Obsidian Sync on your network=在你的网络上管理对 Obsidian Sync 的访问
+Limitations=限制
+Deterministic file-hash encryption=确定性文件哈希加密
+No cryptographic binding between path and content=路径与内容之间没有加密绑定
+
+[sync/faq]
+General=常规
+What operating systems does Obsidian Sync support?=Obsidian Sync 支持哪些操作系统？
+Does Obsidian work with Apple's Lockdown Mode?=Obsidian 是否支持 Apple 的锁定模式？
+What type of data is synced?=哪些类型的数据会被同步？
+How much storage do I have?=我有多少存储空间？
+How many remote vaults can I have?=我可以拥有多少个远程仓库？
+How large can each remote vault be?=每个远程仓库可以有多大？
+How many people can I share a remote vault with?=我可以与多少人分享远程仓库？
+How large can each file be?=每个文件可以有多大？
+Is my data being synced in the background?=我的数据是否在后台同步？
+Does Obsidian Sync live-reload my settings?=Obsidian Sync 会实时重新加载我的设置吗？
+Can I use a third-party sync with Obsidian Sync?=我可以将第三方同步与 Obsidian Sync 一起使用吗？
+Data retention=数据保留
+How long do you keep the version history?=版本历史保留多长时间？
+How long do you keep my data after my subscription expires?=订阅到期后，你们会保留我的数据多长时间？
+Do you keep my data if I refund my subscription service?=如果我申请退款，你们会保留我的数据吗？
+
+[sync/settings]
+Sync settings=同步设置
+Conflict resolution=冲突解决方式
+Selective syncing=选择性同步
+Change the file types you want to sync=更改要同步的文件类型
+Exclude a folder from syncing=排除某个文件夹不同步
+Always excluded from sync=始终被排除的内容
+File recovery snapshots=文件恢复快照
+Hidden files and folders=隐藏文件和文件夹
+Updating your synced vault settings=更新已同步仓库的设置
+Primary device=主要设备
+Secondary device(s)=次要设备
+Reloading of settings=设置的重新加载
+Settings profiles=设置配置文件
+Create a settings profile=创建设置配置文件
+
+[sync/setup]
+Set up Obsidian Sync for the first time=首次设置 Obsidian Sync
+Log in with your Obsidian account=使用 Obsidian 账户登录
+Enable Obsidian Sync=启用 Obsidian Sync
+Create a new remote vault=创建新的远程仓库
+Connect to a remote vault=连接到远程仓库
+Adjust Obsidian Sync settings=调整 Obsidian Sync 设置
+Begin syncing with Obsidian Sync=开始使用 Obsidian Sync 同步
+Sync a remote vault on another device=在其他设备上同步远程仓库
+Sync your vault from the vault switcher=从仓库切换器同步仓库
+Sync your vault from Obsidian Settings=从 Obsidian 设置中同步仓库
+Manage your remote vaults=管理远程仓库
+Disconnect from a remote vault=断开远程仓库连接
+Delete a remote vault=删除远程仓库
+Regional sync servers=区域同步服务器
+Next steps=后续步骤
+
+[sync/troubleshoot]
+General=常规问题
+Conflict resolution=冲突解决方式
+How Obsidian Sync handles conflicts=Obsidian Sync 如何处理冲突
+Conflict resolution options=冲突解决方式选项
+Sync deleted a note I just created on two devices=同步删除了我刚在两个设备上创建的笔记
+Sync will not sync my plugins and settings updates=同步服务无法同步我的插件和设置更新
+My files keep disappearing from Sync as soon as I restore it=我的文件在恢复后又从同步中消失了
+
+[sync/vault-types]
+File-based sync services=基于文件的同步服务
+Sync behavior=同步行为
+Offline behavior=离线行为
+Next steps=后续步骤
+
+[sync/version-history]
+Sync history=同步历史
+Show Sync history=显示同步历史
+Enable via Command palette=通过命令面板启用
+Enable via Hotkey=通过快捷键启用
+Version history=版本历史
+Notes and attachments=笔记和附件
+View version history of a file=查看文件的版本历史
+View version history of a deleted or renamed file=查看已删除或已重命名文件的版本历史
+Restore a previous version of a file=恢复文件的先前版本
+Restore a deleted file=恢复已删除的文件
+Settings history=设置历史
+View version history of a setting=查看设置的版本历史
+Restore a previous version of a setting=恢复设置的先前版本
+
+[sync/plans]
+Plans=订阅计划
+Storage limits=存储限制
+Identify and delete large files=识别并删除大文件
+Create a new remote vault=新建远程仓库
+Upgrade your plan=升级你的计划
+Downgrade your plan=降级你的计划
+Preserve version history=保留版本历史
+
+[developers]
+Plugins and themes=插件和主题
+Open source projects=开源项目
+Documentation=文档
+Community=社区
+
+[style-guide]
+Terminology and grammar=术语与语法
+Language style=语言风格
+Terms=用词
+Product names=产品名称
+UI and interactions=界面与交互
+Notes, files, and folders=笔记、文件和文件夹
+Reference documentation for settings=设置的参考文档
+Directional terms=方向性用语
+Instructions=指引
+Sentence case=首字母大写规则
+Examples=示例
+Key names and keyboard shortcuts=按键名称和快捷键
+Images=图片
+Information structure=信息结构
+Callout types=标注类型
+Lists vs. prose=列表与正文
+Tables=表格
+Cross-references=交叉引用
+Platform-specific content=平台特定内容
+Icons and images=图标与图片
+Icons=图标
+Image anchor tags=图片锚点标签
+Optimization=优化
+Layout=排版
+Broken links=失效链接
+Descriptions=描述
+Directions=操作指引
+Translations=翻译
+
+[teams/license]
+Purchase a commercial license=购买商用许可证
+Apply a commercial license=应用商用许可证
+Supporting organizations=支持组织
+Frequently asked questions=常见问题
+
+[teams/security]
+Considerations=考虑事项
+Community plugins and themes=社区插件和主题
+Network and access=网络和访问
+Obsidian-sourced connections=来自 Obsidian 的连接
+GitHub-sourced connections=来自 GitHub 的连接
+Other connections=其他连接
+Frequently asked questions=常见问题解答
+Account security=账户安全
+Assessments and certifications=评估和认证
+
+[teams]
+Use Obsidian with your team=与团队成员一起使用 Obsidian
+Important resources=重要资源
+
+[teams/sync]
+Syncing tools and services=同步工具与服务
+Obsidian Sync for teams=团队使用 Obsidian Sync
+Security=安全性
+Frequently asked questions=常见问题
+
+[teams/deploy]
+Install and update Obsidian=安装和更新 Obsidian
+Customizing Obsidian=定制 Obsidian
+Configuration folders=设置文件夹
+Plugins=插件
+Themes and snippets=主题和片段
+Frequently asked questions=常见问题解答
+Deployment=部署
+
+[import/evernote]
+Export your data from Evernote=从 Evernote 导出数据
+Import your Evernote data into Obsidian=将 Evernote 数据导入Obsidian
+Advanced import options=高级导入选项
+Maintain tag hierarchy=保留标签层次结构
+Handling notebook stacks=处理笔记本组
+More options=更多选项
+
+[import/google-keep]
+Export your data from Google Keep=从 Google Keep 导出数据
+Import your Google Keep data into Obsidian=将Google Keep数据导入Obsidian
+Supported features=导入说明
+
+[import/onenote]
+Import your OneNote data into Obsidian=将 OneNote 数据导入 Obsidian
+Troubleshooting=故障排除
+No sections or notebooks appear=没有显示任何章节或笔记本
+Imported notes are empty or missing content=导入的笔记为空或内容丢失
+Privacy=隐私
+
+[import/notion]
+API import=API 导入
+Create a Notion API integration token=创建 Notion API 集成令牌
+Import your Notion data via API=通过 API 导入 Notion 数据
+Limitations=限制
+File import=文件导入
+Export your data from Notion=从 Notion 导出数据
+Import your Notion .zip file=导入你的 Notion .zip 文件
+Troubleshooting=故障排除
+Importing large workspaces=导入大型工作区
+
+[import/roam]
+Export your data from Roam Research=从 Roam Research 中导出数据
+Import your Roam Research data into Obsidian=将 Roam Research 数据导入 Obsidian
+
+[import/bear]
+Export your data from Bear=从熊掌记导出你的数据
+Import your Bear data into Obsidian=将熊掌记数据导入 Obsidian
+
+[import/apple-notes]
+Import Apple Notes data into Obsidian=将 Apple Notes 数据导入 Obsidian
+Supported content=支持的内容
+Scans=扫描文件
+Alternate export methods=备选的导出方法
+
+[import/html]
+Import HTML data into Obsidian=将 HTML 数据导入 Obsidian
+Import settings=导入设置
+
+[resources]
+Questions and advice=疑问与建议
+Report bugs and request features=报告问题和提交功能请求
+Collect debug information=收集调试信息
+Check startup time=检查启动时间
+Capture console logs=获取控制台日志
+Contact Obsidian support=联系 Obsidian 支持团队
+Report a security issue=报告安全问题
+Report a Code of Conduct violation=报告违反行为准则的行为
+Contributing to Obsidian=为 Obsidian 做贡献
+
+[install]
+Install Obsidian on Windows=在 Windows 上安装 Obsidian
+Install Obsidian on macOS=在 macOS 上安装 Obsidian
+Install Obsidian on Linux=在 Linux 上安装 Obsidian
+Install Obsidian using Snap=使用 Snap 安装 Obsidian
+Install Obsidian using AppImage=使用 AppImage 安装 Obsidian
+Install Obsidian using Flatpak=使用 Flatpak 安装 Obsidian
+Install Obsidian on Android=在 Android 上安装 Obsidian
+Install Obsidian on iPhone and iPad=在 iPhone 和 iPad 上安装 Obsidian
+
+[vault]
+Create empty vault=创建仓库
+Open existing folder=将已有文件夹作为仓库打开
+
+[create-note]
+Create a new note=创建新笔记
+Formatting text=格式化文本
+Learn more=了解更多
+
+[sync-notes]
+Syncing methods=同步方法
+iPhone and iPad syncing=iPhone 和 iPad 同步
+Frequently asked questions=常见问题
+
+[backup]
+Syncing is not a backup=同步不等于备份
+Use community plugins=使用社区插件
+Use cloud-based services=使用云服务
+Use external drives=使用外置存储设备
+Use computer backups=使用电脑备份功能
+Next steps=后续步骤
+
+[import]
+Import from other apps and file formats=如何从其他笔记软件或文件导入笔记
+More formats=更多格式
+
+[updates]
+Check for updates and view version=检查更新与查看版本
+Disable automatic updates=禁用自动更新
+Installer updates=安装程序更新
+
+[glossary]
+Alias=别名
+Attachment=附件
+Command=命令
+Embed=嵌入
+Frontmatter=前置信息
+Graph=关系图谱
+Hotkey=快捷键
+Link=链接
+Main area=主区域
+Note=笔记
+Plugin=插件
+Pop-out window=弹出窗口
+Property=属性
+Ribbon=功能区
+Sidebar=侧边栏
+Snippet=CSS 代码片段
+Status bar=状态栏
+Tab=标签页
+Tab group=标签页组
+Tag=标签
+Theme=主题
+Vault=仓库
+Remote vault=远程仓库
+View=视图
+
+[mobile]
+Widgets, shortcuts, and Siri=小组件、快捷方式和 Siri
+Mobile toolbar=移动端工具栏
+Customize mobile toolbar=自定义移动端工具栏
+Add command to mobile toolbar=向移动端工具栏添加命令
+Quick Action=快捷命令
+Customize Quick Action=自定义快捷命令
+Navigation bar=导航栏
+Go back or forward=返回或前进
+Create or find note=创建或查找笔记
+Tab management=标签页管理
+Ribbon actions=功能区操作
+Sidebars=侧边栏
+
+[link-notes]
+Create a link=创建链接
+Create a link to a non-existing note=创建指向尚未建立笔记的链接
+Navigate between notes=在笔记之间移动
+Learn more=了解更多
+
+[snippets]
+Adding a snippet=添加代码片段
+Writing CSS for Obsidian=为 Obsidian 编写 CSS
+Learn more=了解更多
+
+[uri]
+URI format=URI 格式
+Open note=打开笔记
+Examples=示例
+Parameters=参数
+Create note=创建笔记
+Create or open daily note=创建或打开日记
+Unique Note=时间戳笔记
+Open search=打开搜索
+Open Vault Manager=打开仓库管理器
+Integrate with Hook=与 Hook 集成
+Example=示例
+Use x-callback-url parameters=使用 x-callback-url 参数
+Shorthand formats=简写格式
+Troubleshooting=故障排除
+Register Obsidian URI=注册 Obsidian URI
+
+[themes]
+Browse themes=浏览主题
+Install a new theme=安装新主题
+Update themes=更新主题
+Uninstall an existing theme=卸载已有主题
+Learn more=了解更多
+
+[plugin-security]
+Restricted mode=安全模式
+Plugin capabilities=插件功能
+Plugin review process=插件审核流程
+
+[community-plugins]
+Browse community plugins=浏览社区插件
+Install a community plugin=安装社区插件
+Enable a community plugin=启用社区插件
+Update plugins=更新插件
+Uninstall a community plugin=卸载社区插件
+Manage installed plugins=管理已安装的插件
+Learn more=了解更多
+
+[data-storage]
+Vault settings=仓库设置
+Global settings=全局设置
+Metadata cache=元数据缓存
+
+[file-formats]
+Embed files=嵌入文件
+
+[manage-vaults]
+Create new vault=新建仓库
+Create vault from an existing folder=将现有文件夹作为仓库打开
+Rename vault=重命名仓库
+Move vault to a different folder=将仓库移动到其他文件夹
+Remove vault=移除仓库
+Transfer settings to another vault=将设置转移到另一个仓库
+
+[manage-notes]
+Create a new note=新建笔记
+Rename a note=重命名笔记
+Delete a note=删除笔记
+
+[configuration-folder]
+Access your configuration folder=访问设置文件夹
+Desktop=桌面端
+Mobile=移动端
+Change your configuration folder=更改设置文件夹
+
+[plugins/format-converter]
+Supported formats=支持的格式
+[[Properties]]=[[属性]]
+
+[plugins/bookmarks]
+Add a bookmark=添加书签
+Remove a bookmark=移除书签
+Add a bookmark group=添加书签组
+Remove a bookmark group=移除书签组
+Bookmark multiple files=一次收藏多个文件
+
+[plugins/graph]
+Settings=设置
+Filters=筛选
+Groups=颜色组
+Display=外观
+Forces=力度
+Start a time-lapse animation=关系图谱生长动画
+Local Graph=局部关系图
+
+[plugins/backlinks]
+Show backlinks=显示反向链接
+View backlinks for a note=查看文件的反向链接
+See backlinks of a specific note=在新标签页中查看反向链接列表
+Show backlinks in a note=在标签页中显示反向链接
+
+[plugins/command-palette]
+Pinned commands=置顶命令
+Pin a command=置顶命令
+Unpin a command=取消置顶命令
+
+[plugins/properties]
+All properties view=所有属性视图
+
+[plugins/workspaces]
+Save a workspace=保存工作区布局
+Load a workspace=加载工作区布局
+Delete a workspace=删除工作区布局
+
+[plugins/audio-recorder]
+Record audio in a note=在笔记中录制音频
+
+[plugins/quick-switcher]
+Open Quick switcher=打开快速切换
+Open a note with Quick switcher=使用快速切换打开笔记
+
+[plugins/search]
+Search terms=搜索词
+Search operators=搜索运算符
+Search properties=搜索属性
+Change case sensitivity=更改大小写敏感性
+Change result sort order=更改结果排序顺序
+Copy search results=复制搜索结果
+Use regular expressions=使用正则表达式
+Configure search settings=配置搜索设置
+Embed search results in a note=在笔记中嵌入搜索结果
+
+[plugins/file-explorer]
+Create a new note=创建新笔记
+Create a new folder=创建新文件夹
+Change sort order=更改排序方式
+Auto-reveal active file=自动定位当前文件
+Expand or collapse all folders=展开或收起所有文件夹
+Delete a file or folder=删除文件或文件夹
+Rename a file or folder=重命名文件或文件夹
+Move a file or folder=移动文件或文件夹
+
+[plugins/file-recovery]
+Recover a snapshot=恢复快照
+Clear snapshot history=清空快照历史记录
+Storage and performance=存储与性能
+Limitations=限制
+
+[plugins/daily-notes]
+Create a daily note from template=使用模板创建日记
+Daily notes and properties=日记和属性
+
+[plugins/unique-note]
+Create a unique note=创建时间戳笔记
+Create unique notes from a template=从模板创建时间戳笔记
+
+[plugins]
+All core plugins=所有核心插件
+Other plugins=其他插件
+
+[plugins/templates]
+Set your template folder=设置模板文件夹
+Template variables=模板变量
+Create a template=创建模板
+Insert a template into the active note=将模板插入到当前活动笔记
+Template properties=模板属性
+
+[plugins/canvas]
+Create a new canvas=新建白板
+Add cards=添加卡片
+Add text cards=添加文本卡片
+Add cards from notes=添加笔记卡片
+Add cards from media=添加媒体卡片
+Add cards from web pages=添加网页卡片
+Add cards from folders=添加文件夹内所有文件
+Edit a card=编辑卡片
+Delete a card=移除卡片
+Swap cards=替换卡片内容
+Select cards=选择卡片
+Arrange cards=整理卡片
+Resize a card=调整卡片大小
+Connect cards=连接卡片
+Connect two cards=连接两张卡片
+Disconnect two cards=断开卡片连接
+Connect a card to a different card=更改连接对象
+Navigate a connection=跟随连接
+Add a label to a connection=为连接添加说明
+Change the color of a card or connection=更改卡片或连接线的颜色
+Group cards=卡片编组
+Group selected cards=将所选卡片编组
+Navigate the canvas=浏览白板
+Pan the canvas=平移白板
+Zoom the canvas=缩放白板
+Zoom to fit=自适应缩放
+Zoom to selection=聚焦所选卡片
+Reset zoom=重置缩放
+Advanced tips=高级技巧
+
+[plugins/note-composer]
+Merge notes=合并笔记
+Extract note=移动笔记内容
+Template file=模板文件
+
+[sidebar]
+Open hidden sidebars=展开隐藏的侧边栏
+Desktop and larger tablets=桌面端和较大的平板设备
+Mobile and smaller tablets=移动端和较小的平板设备
+Tabs=标签页
+Open or reopen tabs=打开或重新打开标签页
+Close tabs=关闭标签页
+Rearrange tabs=重新排列标签页
+Pin tabs=锁定标签页
+Tab groups=标签页组
+Create tab groups=创建标签页组
+Close tab groups=关闭标签页组
+
+[ribbon]
+Actions=操作
+Customize the ribbon=自定义功能区
+Desktop=桌面端
+Hide the ribbon=隐藏功能区
+Show the ribbon=显示功能区
+Mobile=移动端
+Quick access=快速访问
+Rearrange and visibility=重新排列与可见性
+
+[appearance]
+Color scheme=基础颜色
+Custom themes=自定义主题
+Custom app icon=自定义图标
+Translucency=半透明度
+
+[workspace]
+Desktop=桌面端
+Mobile=移动端
+
+[pop-out-windows]
+Open a file in a new window=在新窗口中打开文件
+Move a file to a different window=将文件移动到其他窗口
+
+[hotkeys]
+View hotkeys=查看快捷键
+Set a hotkey=设置快捷键
+Remove a hotkey=移除快捷键
+Filter hotkeys=筛选快捷键
+Non-US keyboard layouts=非美式键盘布局
+Default keyboard shortcuts=默认键盘快捷方式
+
+[drag-and-drop]
+Drag tabs=拖动标签页
+Drag sources=拖动文件
+Drop destinations=放置目标
+Dragging from outside Obsidian=从 Obsidian 外部拖动
+Dropping files outside Obsidian=在 Obsidian 外部放置文件
+
+[tabs]
+Open a new tab=打开新标签页
+Open a link=打开链接
+Organize your tabs and windows=组织你的标签页和窗口
+Arrange tabs=排列标签页
+Split a tab group=拆分标签组
+Resize a tab group=调整标签组大小
+Move tab to a new window=将标签页移到新窗口
+Move a tab to a different window=将标签页移到另一个窗口
+Pin a tab=锁定标签页
+Switch to a different tab=切换到不同的标签页
+Stack tab groups=堆叠标签页
+Linked views=关联
+Save layouts=保存布局
+
+[/]
+Obsidian Help=入门指南
+Get started=附加服务
+Extend Obsidian=贡献
+
+[obsidian-flavored-markdown]
+Supported Markdown extensions=支持的 Markdown 扩展
+
+[syntax]
+Paragraphs=段落
+Line breaks=换行
+Headings=标题
+Bold, italics, highlights=加粗、斜体、高亮
+Internal links=内部链接
+External links=外部链接
+Escape blank spaces in links=转义链接中的空格
+External images=外部图片
+Quotes=引用
+Lists=列表
+Task lists=任务列表
+Nesting lists=嵌套列表
+Horizontal rule=分隔线
+Code=代码
+Inline code=行内代码
+Code blocks=代码块
+Nesting code blocks=嵌套代码块
+Footnotes=脚注
+Comments=注释
+Escaping Markdown Syntax=转义 Markdown 语法
+Learn more=了解更多
+
+[multiple-cursors]
+Rectangular selection=矩形选择
+
+[properties]
+Add properties to a note=为笔记添加属性
+Property types=属性类型
+Advanced uses=高级用法
+Search properties=搜索属性
+Templates=模板
+Rename properties=重命名属性
+Display modes=显示模式
+CSS snippets=CSS 代码片段
+Not supported=暂不支持的功能
+Hotkeys=快捷键
+Add a property=添加属性
+Navigate between properties=在属性之间导航
+Select properties=选择属性
+Edit properties=编辑属性
+Vim (advanced)=Vim（高级）
+Property format=属性格式
+Text=文本
+List=列表
+Number=数字
+Checkbox=复选框
+Date=日期
+Date & time=日期 & 时间
+Tags=标签
+JSON properties=JSON 属性
+Default properties=默认属性
+Properties for Obsidian Publish=Obsidian Publish 的属性
+Deprecated properties=已弃用的属性
+
+[embed-web-pages]
+Embed a YouTube video=嵌入 YouTube 视频
+Embed a tweet=嵌入推特内容
+
+[callouts]
+Change the title=修改标题
+Foldable callouts=可折叠标注
+Nested callouts=嵌套标注
+Customize callouts=自定义标注
+Supported types=支持的类型
+
+[tags]
+Add a tag to a note=给笔记添加标签
+Find notes using tags=使用标签查找笔记
+Nested tags=嵌套标签
+Tag format=标签格式
+
+[edit-and-read]
+Reading view=阅读视图
+Editing view=编辑模式
+Live Preview=实时预览
+Source mode=源码模式
+
+[editing-shortcuts]
+Windows and Linux shortcuts=Windows 和 Linux 快捷键
+Common actions=常用操作
+Text editing=文本编辑
+Text navigation=文本导航
+Text selection=文本选择
+macOS shortcuts=macOS 快捷键
+Text formatting=文本格式
+
+[attachments]
+Add an attachment=添加附件
+Change default attachment location=更改默认附件储存位置
+
+[advanced-syntax]
+Tables=表格
+Format content within a table=格式化表格内容
+Diagram=图表
+Linking files in a diagram=在图表中添加链接
+Math=数学公式
+
+[catalyst]
+Catalyst tiers=Catalyst 等级
+Access Catalyst benefits=获取 Catalyst 权益
+Get your forum badge=获取论坛徽章
+Get your Discord badge=获取 Discord 徽章
+Join our Insider channels=加入 Insider 频道
+Enable early access versions=启用内部版本
+
+[credit]
+Add credit=添加积分
+Gifting=赠送
+Give Obsidian Credit=赠送 Obsidian 积分
+Receiving Obsidian Credit=接收 Obsidian 积分
+
+[discounts]
+How to apply=如何申请
+How to renew=如何续签折扣
+Frequently asked questions=常见问题
+Refunds=退款
+
+[payment]
+Purchase a service or license=购买服务或许可证
+Generate an invoice=生成发票
+Editing an invoice=编辑发票
+
+[refunds]
+Request a refund=申请退款
+Frequently asked questions=常见问题
+
+[links]
+Supported formats for internal links=内部链接支持的格式
+Link to a file=链接到文件
+Link to a heading in a note=链接到笔记中的标题
+Link to a block in a note=链接到笔记中的块
+Change the link display text=更改链接的显示文本
+Preview a linked file=预览链接的文件
+
+[aliases]
+Add an alias to a note=为笔记添加别名
+Link to a note using an alias=使用别名链接到笔记
+Find unlinked mentions for an alias=查找别名的潜在链接
+
+[embeds]
+Embed a note in another note=在当前笔记中插入另一篇笔记
+Embed an image in a note=在笔记中插入图片
+Embed an audio file in a note=在笔记中插入音频文件
+Embed a PDF in a note=在笔记中插入 PDF 文件
+Embed a list in a note=在笔记中插入列表
+Embed search results=插入搜索结果

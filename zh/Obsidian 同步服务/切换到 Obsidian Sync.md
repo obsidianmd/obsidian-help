@@ -13,7 +13,7 @@ aliases:
 了解如何从当前的同步方案迁移到 Obsidian Sync。
 
 > [!warning] 避免使用多个方案同步同一批文件
-> 我们[[同步常见问题#Can I use a third-party sync with Obsidian Sync?|不建议]]将 Obsidian Sync 与云存储服务（如 iCloud、Dropbox、OneDrive、Google Drive）同时使用，因为这可能导致冲突。不过，云存储服务可以作为[[备份笔记|备份]]策略的一部分。
+> 我们[[同步常见问题#我可以将第三方同步与 Obsidian Sync 一起使用吗？|不建议]]将 Obsidian Sync 与云存储服务（如 iCloud、Dropbox、OneDrive、Google Drive）同时使用，因为这可能导致冲突。不过，云存储服务可以作为[[备份笔记|备份]]策略的一部分。
 
 ## 将仓库移出第三方同步服务或云存储
 
@@ -41,7 +41,7 @@ aliases:
 
 ## 在桌面端使用 Obsidian 移动仓库
 
-![[管理仓库#Move vault to a different folder]]
+![[管理仓库#将仓库移动到其他文件夹]]
 
 ## 在移动端移动仓库
 

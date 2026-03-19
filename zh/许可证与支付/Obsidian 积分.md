@@ -6,50 +6,47 @@ aliases:
   - gifting
   - 许可证与支付/Obsidian 积分
 permalink: credit
-localized: 2024-07-10
+localized: 2026-03-19
 ---
+Obsidian 积分是一种预付积分，可以提前购买并用于支付任何 Obsidian 服务或许可证。Obsidian 积分可以[[#赠送|赠送]]给其他 Obsidian 用户，例如朋友、家人和同事。
 
-Obsidian 积分可以用来购买 Obsidian 提供的所有产品和服务。
+Obsidian 积分将在任何付款到期之前自动抵扣，包括自动续费。根据我们的[[退款政策]]，Obsidian 积分**不可**退款。
 
-积分一可以在续订产品和服务时使用。
+## 添加积分
 
-积分可以[[#赠送积分|赠送]]给别的 Obsidian 用户。
+1. 登录[你的 Obsidian 账户](https://obsidian.md/account/billing)。
+2. 在 [Billing](https://obsidian.md/account/billing) 部分，找到 **Obsidian Credit**，选择 **Buy credit**。
+3. 输入你想购买的 Obsidian 积分金额。金额以美元为单位。
+4. 继续使用任何支持的支付方式完成积分购买。
 
-但是，积分无法[[退款政策|退款]]。
-
-## 购买积分
-
-1. [在我们的帐户页面](https://obsidian.md/account)登录你的帐户。
-2. 在**Payment & billing → Obsidian Credit**（付款和账单 → Obsidian 积分）下，点击**Add**（购买）。
-3. 输入想购买的 Obsidian 积分数量。积分以美元计算。
-4. 使用任何支持的支付方式支付积分费用。
-
-> [!注意] 销售税
-> 购买积分不收销售税，税费将在购买具体产品和服务时扣除。
+> [!Note] 销售税
+> 适用的[[销售税]]将在你购买产品（如 Obsidian Sync）时收取，而不是在你购买 Obsidian 积分时收取。
 >
-> 如果您打算用积分支付续订费用时，请考虑这一点。
+> 如果你计划使用积分支付自动续费，请注意这一点。
 
-## 赠送礼品
+## 赠送
 
-虽然个人使用 Obsidian 是完全免费的，但你仍然可以向他人赠送 Obsidian 积分，以帮助他们获取像 [[Obsidian 官方同步简介|Obsidian 官方同步]]这样的附加服务，或者获得 [[商用许可证]] 以便他们在工作中使用 Obsidian。
+虽然 Obsidian 完全免费使用，但你可以赠送 Obsidian 积分，帮助他人获取附加服务，如 [[Obsidian 官方同步简介|Obsidian Sync]] 或用于工作中使用 Obsidian 的[[商用许可证|商用许可证]]。
 
-## 赠送积分
+请注意，Obsidian 积分一旦被领取，**不能**再次转赠。原始接收者无法将其转让或分享给其他人。
 
-在 Obsidian 中，你并不能直接向别人赠送某个服务，而是赠送能购买任何服务的 Obsidian 积分。积分就像是一张 Obsidian 礼品卡。
+## 赠送 Obsidian 积分
 
-1. 如果你还没有[[Obsidian 积分]]，你首先需要[[Obsidian 积分|购买积分]]。
-2. 在[账户页面](https://obsidian.md/account)中，点击**Payment & billing → Obsidian Credit**（付款和账单 → Obsidian 积分）下，然后点击**Gift**（赠送）。
-3. 你可以选择直接获得兑换链接，或者让我们通过一封匿名邮件发送给积分接收者。
-4. 点击**发送礼物**完成赠送。
-5. 赠送完成后，你可以在**Payment & billing → Gift history**（支付与账单 → 赠送历史）下查看每个礼物的状态，或取消尚未兑换的礼物。
+在 Obsidian 中，你赠送的不是某个特定产品，而是可用于任何购买的 Obsidian 积分。它类似于 Obsidian 礼品卡。
 
-## 收到积分
+1. 如果你还没有 [[Obsidian 积分]]，你必须先[[Obsidian 积分#添加积分|购买积分]]。
+2. 前往账户的 [Billing](https://obsidian.md/account/billing) 部分，选择 **Send credit**。
+3. 按照说明操作，你可以获取一个兑换链接自行发送，或让我们向接收者发送一封匿名邮件。
+4. 点击 **Send gift** 完成赠送。你将收到一封确认邮件。
+5. 赠送完成后，你可以在 **Billing → Gift history** 下查看。你可以查看每份礼物的状态，并取消尚未被兑换的礼物。
 
-如果你收到了一个兑换链接或一个匿名的电子邮件，请按照以下步骤兑换你的 Obsidian 积分：
+## 接收 Obsidian 积分
 
-1. 登录或创建[你的 Obsidian 账户](https://obsidian.md/account)。
+如果你收到了兑换链接或匿名邮件，请按照以下步骤兑换你的 Obsidian 积分：
+
+1. 登录或创建[你的 Obsidian 账户](https://obsidian.md/account/billing)。
 2. 打开兑换链接或点击邮件中的链接。
-3. 确认你要领取积分。
-4. 积分将会存入你的账户中，随时可供使用。
+3. 确认你要接收积分。
+4. 积分将存入你的账户，可以随时使用。
 
-购买者将收到通知，告知你已成功兑换 Obsidian 积分。
+购买者将收到你已兑换 Obsidian 积分的通知。
