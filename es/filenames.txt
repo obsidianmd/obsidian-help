@@ -730,6 +730,10 @@ translation=Obsidian
 original=Plugins
 translation=Complementos
 
+[folder.Teams]
+original=Teams
+translation=Equipos
+
 [folder.Obsidian Web Clipper]
 original=Obsidian Web Clipper
 translation=Obsidian Web Clipper
