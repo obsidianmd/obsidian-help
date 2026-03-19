@@ -5,8 +5,7 @@ description: >-
   site et y publierez vos notes.
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Set up Obsidian Publish
+
 ---
 Dans ce guide, vous allez activer [[Introduction à Obsidian Publish|Obsidian Publish]] pour votre coffre, créer un site et y publier vos notes.
 

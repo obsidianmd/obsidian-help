@@ -1,8 +1,7 @@
 ---
 permalink: credits
 localized: '2026-03-18'
-aliases:
-  - Credits
+
 ---
 Les noms ne sont pas classés par ordre de contribution, mais par ordre alphabétique (du moins nous essayons !).
 

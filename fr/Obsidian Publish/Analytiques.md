@@ -1,8 +1,7 @@
 ---
 permalink: publish/analytics
 localized: '2026-03-18'
-aliases:
-  - Analytics
+
 ---
 ## Prérequis
 

@@ -1,8 +1,7 @@
 ---
 permalink: publish/sites
 localized: '2026-03-18'
-aliases:
-  - Manage sites
+
 ---
 Cette page explique comment gérer les sites [[Introduction à Obsidian Publish|Obsidian Publish]].
 

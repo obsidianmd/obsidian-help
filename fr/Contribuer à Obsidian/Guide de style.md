@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Style guide
+
 ---
 La documentation d'Obsidian suit les directives de style listées sur cette page. Ces directives sont basées sur les meilleures pratiques de l'industrie, en particulier le [guide de style de documentation pour développeurs de Google](<https://developers.google.com/style>) et le [guide de style de Microsoft](https://learn.microsoft.com/en-us/style-guide/). Pour les cas particuliers non couverts ci-dessous, consultez ces guides externes comme références secondaires.
 

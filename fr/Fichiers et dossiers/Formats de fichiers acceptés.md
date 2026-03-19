@@ -5,7 +5,6 @@ publish: true
 mobile: true
 aliases:
   - Advanced Use/Formats acceptés
-  - Accepted file formats
 localized: '2026-03-18'
 ---
 Obsidian prend en charge les types de fichiers suivants :

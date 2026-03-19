@@ -3,8 +3,7 @@ permalink: embeds
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-aliases:
-  - Embed files
+
 ---
 Découvrez comment intégrer d'autres notes et fichiers multimédias dans vos notes. En intégrant des fichiers dans vos notes, vous pouvez réutiliser du contenu à travers votre coffre.
 

@@ -4,8 +4,7 @@ description: >-
   Découvrez comment ouvrir des fichiers dans des fenêtres contextuelles
   séparées.
 localized: '2026-03-18'
-aliases:
-  - Pop-out windows
+
 ---
 > [!compatibility] Cette fonctionnalité est uniquement disponible sur ordinateur.
 

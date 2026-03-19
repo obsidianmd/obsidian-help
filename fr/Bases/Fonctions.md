@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Functions
+
 ---
 Les fonctions sont utilisées dans les [[Introduction aux Bases|Bases]] pour manipuler les données des [[Propriétés|propriétés]] dans les [[Vues#Filtres|filtres]] et les [[Formules|formules]]. Consultez la référence de la [[Syntaxe des Bases|syntaxe des bases]] pour en savoir plus sur l'utilisation des fonctions.
 

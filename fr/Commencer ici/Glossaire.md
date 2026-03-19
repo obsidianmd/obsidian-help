@@ -1,8 +1,7 @@
 ---
 permalink: glossary
 localized: '2026-03-18'
-aliases:
-  - Glossary
+
 ---
 Ce glossaire comprend la terminologie courante d'Obsidian.
 

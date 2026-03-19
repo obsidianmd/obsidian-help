@@ -1,8 +1,7 @@
 ---
 permalink: developers
 localized: '2026-03-18'
-aliases:
-  - Developers
+
 ---
 Si vous êtes développeur, vous pouvez contribuer à Obsidian de différentes manières.
 

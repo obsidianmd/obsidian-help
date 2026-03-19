@@ -9,8 +9,7 @@ description: >-
   versions de vos notes.
 publish: true
 mobile: true
-aliases:
-  - Version history
+
 ---
 [[Introduction à Obsidian Sync|Obsidian Sync]] vérifie régulièrement les mises à jour de vos [[Paramètres de Sync et synchronisation sélective|fichiers synchronisés]], en conservant un enregistrement de toutes les modifications. Celles-ci sont stockées comme de nouvelles entrées dans l'[[#Historique des versions]]. Ces informations sont accessibles de plusieurs façons :
 

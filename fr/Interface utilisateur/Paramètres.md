@@ -5,7 +5,6 @@ publish: true
 mobile: true
 aliases:
   - How to/Paramètres
-  - Settings
 localized: '2026-03-18'
 ---
 Les paramètres vous permettent de personnaliser votre expérience Obsidian. Configurez les options générales, les préférences de l'éditeur, l'apparence, les raccourcis clavier, et gérez les modules principaux et complémentaires.

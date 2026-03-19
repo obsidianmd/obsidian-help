@@ -1,8 +1,7 @@
 ---
 permalink: android
 localized: '2026-03-18'
-aliases:
-  - Obsidian for Android
+
 ---
 L'application mobile Obsidian pour Android apporte de puissantes capacités de prise de notes à votre appareil Android. Vous pouvez la télécharger depuis [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) ou sous forme de [fichier APK](https://obsidian.md/download).
 Elle prend en charge les versions Android 5.1 et supérieures.

@@ -3,8 +3,7 @@ permalink: refunds
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-aliases:
-  - Refund policy
+
 ---
 Nous offrons des remboursements complets dans les 7 jours suivant l'achat, sans poser de questions, pour les services suivants :
 

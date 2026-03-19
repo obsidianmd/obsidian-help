@@ -1,8 +1,7 @@
 ---
 permalink: plugins/note-composer
 localized: '2026-03-18'
-aliases:
-  - Note composer
+
 ---
 Le Compositeur de note est un [[Modules principaux|module principal]] qui vous permet de fusionner deux notes ou d'extraire une partie d'une note dans une nouvelle note.
 

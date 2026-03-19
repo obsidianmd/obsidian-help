@@ -125,7 +125,8 @@ function collectFiles(dir: string): Map<string, FileInfo> {
 
 function buildFrontmatter(
   enFm: Record<string, unknown>,
-  localeFm: Record<string, unknown>
+  localeFm: Record<string, unknown>,
+  enBasename: string
 ): Record<string, unknown> {
   const result: Record<string, unknown> = { ...localeFm };
 
@@ -138,12 +139,18 @@ function buildFrontmatter(
     }
   }
 
-  // Preserve locale-specific fields (never overwrite from EN)
-  if ("aliases" in localeFm) {
-    result.aliases = localeFm.aliases;
+  // Preserve locale aliases, stripping any that came from EN.
+  // Keep: locale-specific aliases + the EN basename (used for wikilink resolution).
+  // Remove: EN frontmatter aliases that leaked in from migration.
+  const enAliasSet = new Set((enFm.aliases as string[] | undefined) ?? []);
+  const localeAliases = (localeFm.aliases as string[] | undefined) ?? [];
+  const filteredAliases = localeAliases.filter(a => !enAliasSet.has(a) || a === enBasename);
+  if (filteredAliases.length > 0) {
+    result.aliases = filteredAliases;
   } else {
     delete result.aliases;
   }
+
   if ("localized" in localeFm) {
     result.localized = localeFm.localized;
   }
@@ -201,7 +208,8 @@ for (const [permalink, enInfo] of enFiles) {
     }
 
     // Sync frontmatter
-    const newFm = buildFrontmatter(enInfo.frontmatter, localeInfo.frontmatter);
+    const enBasename = path.basename(enInfo.relPath, ".md");
+    const newFm = buildFrontmatter(enInfo.frontmatter, localeInfo.frontmatter, enBasename);
     // If localized is absent or false and content matches EN, mark as unlocalized (null = empty date)
     const isUnlocalized = !localeInfo.frontmatter.localized;
     if (isUnlocalized && localeInfo.content.trim() === enInfo.content.trim()) {
@@ -209,7 +217,6 @@ for (const [permalink, enInfo] of enFiles) {
     }
     // If the locale file has a different filename than EN, add the EN basename as an alias
     // so that [[EN filename]] wikilinks resolve correctly in locale content.
-    const enBasename = path.basename(enInfo.relPath, ".md");
     const localeBasename = path.basename(localeInfo.relPath, ".md");
     if (enBasename !== localeBasename) {
       const aliases = (newFm.aliases as string[] | undefined) ?? [];

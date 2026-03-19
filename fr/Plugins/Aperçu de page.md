@@ -2,7 +2,6 @@
 permalink: plugins/page-preview
 aliases:
   - Plugins/Modules principaux/Aperçu de page
-  - Page preview
 localized: '2026-03-18'
 ---
 Aperçu de page est un [[Modules principaux|module principal]] qui vous permet de prévisualiser une page lorsque vous survolez un lien interne avec le curseur, sans avoir besoin de naviguer vers cette page.

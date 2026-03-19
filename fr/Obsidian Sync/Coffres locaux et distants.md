@@ -8,8 +8,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Local and remote vaults
+
 ---
 Si vous souhaitez utiliser vos notes sur différents appareils, l'une des options qui s'offre à vous est de [[Synchroniser vos notes entre appareils]]. Obsidian propose un tel service, [[Introduction à Obsidian Sync|Obsidian Sync]], qui fonctionne différemment des autres services de synchronisation, comme [[Synchroniser vos notes entre appareils#iCloud|iCloud]] et [[Synchroniser vos notes entre appareils#OneDrive|OneDrive]].
 

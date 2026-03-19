@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Sidebar
+
 ---
 Obsidian possède deux barres latérales : une barre latérale gauche et une barre latérale droite. Les barres latérales contiennent des onglets créés par des modules, tels que [[Rétroliens]], [[Liens sortants]] et l'[[Explorateur de fichiers]]. Sur ordinateur, vous pouvez également glisser des notes dans la barre latérale pour les garder visibles à côté de votre éditeur principal.
 

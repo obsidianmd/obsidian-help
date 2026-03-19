@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Teams
   - Obsidian for teams
   - 团队与协作/在团队中使用 Obsidian
 cssclasses:

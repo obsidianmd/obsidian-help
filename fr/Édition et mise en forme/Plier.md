@@ -7,7 +7,6 @@ publish: true
 mobile: false
 aliases:
   - How to/Listes dépliantes
-  - Folding
 localized: '2026-03-18'
 ---
 Apprenez à obtenir une meilleure vue d'ensemble des notes volumineuses en utilisant le _pliage_ pour masquer des parties de la note. Le pliage est utile lorsque vous créez des plans pour vos notes et lorsque vous souhaitez vous concentrer sur ce sur quoi vous travaillez actuellement.

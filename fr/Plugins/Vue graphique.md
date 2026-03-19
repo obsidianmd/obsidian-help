@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Graph view
+
 ---
 La vue graphique est un [[Modules principaux|module principal]] qui vous permet de visualiser les relations entre les notes de votre coffre.
 

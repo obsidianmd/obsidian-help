@@ -1,8 +1,7 @@
 ---
 permalink: plugins/workspaces
 localized: '2026-03-18'
-aliases:
-  - Workspaces
+
 ---
 Espaces de travail est un [[Modules principaux|module principal]] qui vous permet de gérer et de basculer entre différentes dispositions de l'application selon votre tâche, par exemple la tenue d'un journal, la lecture ou l'écriture.
 

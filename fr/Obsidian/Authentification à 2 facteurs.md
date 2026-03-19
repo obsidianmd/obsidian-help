@@ -1,8 +1,7 @@
 ---
 permalink: 2fa
 localized: '2026-03-18'
-aliases:
-  - 2-factor authentication
+
 ---
 Si vous avez un [compte Obsidian](https://obsidian.md/account), vous pouvez activer l'authentification à deux facteurs (2FA) pour protéger votre compte avec une étape de vérification supplémentaire.
 

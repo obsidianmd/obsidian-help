@@ -1,8 +1,7 @@
 ---
 permalink: plugin-security
 localized: '2026-03-18'
-aliases:
-  - Plugin security
+
 ---
 L'équipe d'Obsidian prend la sécurité au sérieux. Cette page explique les risques liés à l'installation de modules complémentaires, et ce que l'équipe d'Obsidian fait pour y remédier.
 

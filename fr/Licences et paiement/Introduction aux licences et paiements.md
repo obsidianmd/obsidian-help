@@ -4,8 +4,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 localized: '2026-03-18'
-aliases:
-  - Introduction to licenses and payment
+
 ---
 Obsidian propose plusieurs services et licences disponibles à l'achat.
 

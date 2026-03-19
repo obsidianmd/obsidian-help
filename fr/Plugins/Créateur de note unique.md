@@ -2,7 +2,6 @@
 permalink: plugins/unique-note
 aliases:
   - Plugins/Zettelkasten prefixer
-  - Unique note creator
 localized: '2026-03-18'
 ---
 Le Créateur de note unique est un [[Modules principaux|module principal]] qui vous permet de créer des notes avec des noms basés sur l'horodatage, également connues sous le nom de notes Zettelkasten.

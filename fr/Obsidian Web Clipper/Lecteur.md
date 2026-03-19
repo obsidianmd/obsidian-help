@@ -1,8 +1,7 @@
 ---
 permalink: web-clipper/reader
 localized: '2026-03-18'
-aliases:
-  - Reader
+
 ---
 [[Introduction à Obsidian Web Clipper|Web Clipper]] inclut un mode lecture intégré appelé Lecteur qui élimine les éléments superflus des pages web, présentant uniquement le contenu principal de l'article dans un format propre et lisible.
 

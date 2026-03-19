@@ -1,8 +1,7 @@
 ---
 permalink: financial-contributions
 localized: '2026-03-18'
-aliases:
-  - Financial contributions
+
 ---
 Cette page explique les différentes manières dont vous pouvez soutenir financièrement le développement d'Obsidian.
 

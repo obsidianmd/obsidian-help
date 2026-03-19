@@ -9,8 +9,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Mobile app
+
 ---
 Les applications mobiles Obsidian sont disponibles pour [[Obsidian pour iOS et iPadOS|iOS et iPadOS]] et [[Obsidian pour Android|Android]]. Vous pouvez les télécharger depuis l'[Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) et [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
 

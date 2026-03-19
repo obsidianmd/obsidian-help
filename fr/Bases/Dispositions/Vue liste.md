@@ -1,8 +1,7 @@
 ---
 permalink: bases/views/list
 localized: '2026-03-18'
-aliases:
-  - List view
+
 ---
 La vue liste est un type de [[Vues|vue]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]].
 

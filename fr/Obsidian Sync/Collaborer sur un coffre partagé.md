@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Collaborate on a shared vault
+
 ---
 Avec [[Introduction à Obsidian Sync|Obsidian Sync]], vous pouvez collaborer sur un coffre partagé avec votre équipe.
 

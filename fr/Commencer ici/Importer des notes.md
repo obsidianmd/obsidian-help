@@ -4,7 +4,6 @@ cssclasses:
   - list-cards
 aliases:
   - How to/Importer des notes
-  - Import notes
 localized: '2026-03-18'
 ---
 Les applications vont et viennent, mais vos données doivent perdurer. Obsidian utilise des fichiers Markdown en texte brut non propriétaires stockés localement sur votre appareil. Vous avez un contrôle total sur vos données, ce qui signifie que vous pouvez utiliser Obsidian hors ligne et passer facilement à une autre application si vous en avez besoin.

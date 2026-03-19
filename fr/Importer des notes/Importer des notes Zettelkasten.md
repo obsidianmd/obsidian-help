@@ -1,8 +1,7 @@
 ---
 permalink: import/zettelkasten
 localized: '2026-03-18'
-aliases:
-  - Import Zettelkasten notes
+
 ---
 Si vous avez utilisé la méthode Zettelkasten pour nommer et lier vos notes, vous devrez peut-être convertir les liens de `[[UID]]` à `[[UID Titre de ma note]]`.
 

@@ -1,8 +1,7 @@
 ---
 permalink: official-site
 localized: '2026-03-18'
-aliases:
-  - Official website
+
 ---
 Le site officiel d'Obsidian se trouve à l'adresse https://obsidian.md
 

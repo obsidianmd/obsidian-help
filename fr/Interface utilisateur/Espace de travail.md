@@ -7,7 +7,6 @@ publish: true
 mobile: true
 aliases:
   - How to/Travailler avec plusieurs volets
-  - Workspace
 localized: '2026-03-18'
 ---
 L'espace de travail est le conteneur principal de tous les composants qui constituent l'interface d'Obsidian. Il se compose de différents éléments disposés autour de vos notes, vous permettant de personnaliser la façon dont vous visualisez et interagissez avec votre contenu.

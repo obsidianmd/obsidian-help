@@ -1,8 +1,7 @@
 ---
 permalink: import/html
 localized: '2026-03-18'
-aliases:
-  - Import HTML files
+
 ---
 Obsidian vous permet d'importer facilement des fichiers HTML individuels et des dossiers entiers de fichiers HTML à l'aide du [[Importer|plugin Importer]] officiel. Cela est utile si vous souhaitez enregistrer des sites web entiers au format [[Obsidian Flavored Markdown|Markdown]], ou si vous souhaitez importer des données depuis un outil qui exporte en HTML.
 

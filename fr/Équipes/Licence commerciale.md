@@ -1,8 +1,7 @@
 ---
 permalink: teams/license
 localized: '2026-03-18'
-aliases:
-  - Commercial license
+
 ---
 Obsidian est gratuit et entièrement soutenu par ses utilisateurs. Les organisations peuvent choisir de soutenir Obsidian en achetant des licences commerciales.
 

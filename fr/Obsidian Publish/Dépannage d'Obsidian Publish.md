@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Troubleshoot Obsidian Publish
+
 ---
 Cette page répertorie les problèmes courants que vous pourriez rencontrer avec [[Introduction à Obsidian Publish|Obsidian Publish]] et comment les résoudre.
 

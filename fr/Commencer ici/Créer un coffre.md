@@ -1,8 +1,7 @@
 ---
 permalink: vault
 localized: '2026-03-18'
-aliases:
-  - Create a vault
+
 ---
 Un coffre est un dossier sur votre système de fichiers local où Obsidian stocke vos notes. Vous pouvez conserver toutes vos notes dans un seul coffre, ou créer plusieurs coffres pour chacun de vos différents projets.
 

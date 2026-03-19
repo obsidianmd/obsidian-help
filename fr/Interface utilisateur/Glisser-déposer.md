@@ -1,8 +1,7 @@
 ---
 permalink: drag-and-drop
 localized: '2026-03-18'
-aliases:
-  - Drag and drop
+
 ---
 Il existe de nombreuses façons de glisser-déposer des éléments dans Obsidian. Cela inclut les onglets, les fichiers, les dossiers et le contenu.
 

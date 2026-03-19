@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Frequently asked questions
+
 ---
 Cette page liste certaines des questions courantes relatives aux interrogations et limitations d'[[Introduction à Obsidian Sync|Obsidian Sync]].
 

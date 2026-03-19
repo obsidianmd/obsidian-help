@@ -5,7 +5,6 @@ cssclasses:
   - list-cards-mobile-full
 aliases:
   - Plugins/Publish
-  - Introduction to Obsidian Publish
 localized: '2026-03-18'
 ---
 [Obsidian Publish](https://obsidian.md/publish) est un service d'hébergement cloud qui vous permet de publier vos notes sous forme de wiki, de base de connaissances, de documentation ou de jardin numérique.

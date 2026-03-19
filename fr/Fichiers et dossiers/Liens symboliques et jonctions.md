@@ -1,8 +1,7 @@
 ---
 permalink: symlinks
 localized: '2026-03-18'
-aliases:
-  - Symbolic links and junctions
+
 ---
 Vous pouvez utiliser des [liens symboliques](https://en.wikipedia.org/wiki/Symbolic_link) (symlinks) et des [jonctions](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions) dans votre coffre pour stocker des fichiers en dehors du coffre et du [[Comment Obsidian stocke les données#Paramètres globaux|dossier système]].
 

@@ -2,7 +2,6 @@
 permalink: manage-vaults
 aliases:
   - How to/Travailler avec plusieurs coffres
-  - Manage vaults
 localized: '2026-03-18'
 ---
 Un **coffre** est un dossier sur votre système de fichiers qui contient vos notes, vos [[Pièces jointes|pièces jointes]], et le [[Dossier de configuration|dossier de configuration]] avec les paramètres spécifiques à Obsidian. Pour plus d'informations sur les coffres, consultez [[Comment Obsidian stocke les données]].

@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Licenses & Payment/Obsidian Credit
   - 许可证与付款/ Obsidian 积分
   - Obsidian Credit
   - gifting

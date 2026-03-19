@@ -8,8 +8,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Upgrade Sync encryption
+
 ---
 Par défaut, Obsidian Sync utilise le [[Sécurité et confidentialité#Chiffrement|chiffrement de bout en bout]] pour toutes vos données. Cela garantit que personne — pas même l'équipe Obsidian — ne peut accéder à vos notes.
 

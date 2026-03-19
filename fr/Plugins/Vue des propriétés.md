@@ -6,8 +6,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Properties view
+
 ---
 Vue des propriétés est un [[Modules principaux|module principal]] qui ajoute deux vues dans la barre latérale que vous pouvez utiliser pour gérer les [[Propriétés]] :
 

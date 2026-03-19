@@ -5,7 +5,6 @@ publish: true
 mobile: true
 aliases:
   - Advanced Use/Comment Obsidian stocke vos données
-  - How Obsidian stores data
 localized: '2026-03-18'
 ---
 Obsidian stocke vos notes sous forme de fichiers en texte brut au [[Syntaxe de mise en forme de base|format Markdown]] dans un _coffre_. Un coffre est un dossier sur votre système de fichiers local, incluant tous ses sous-dossiers.

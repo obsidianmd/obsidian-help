@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Obsidian Sync
   - Introduction to Obsidian Sync
   - 官方同步
   - Obsidian 同步服务/Obsidian 官方同步简介

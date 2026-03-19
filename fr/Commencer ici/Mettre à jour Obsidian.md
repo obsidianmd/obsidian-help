@@ -1,8 +1,7 @@
 ---
 permalink: updates
 localized: '2026-03-18'
-aliases:
-  - Update Obsidian
+
 ---
 Le processus de mise à jour d'Obsidian diffère entre les appareils mobiles et de bureau.
 

@@ -6,8 +6,7 @@ description: Comment synchroniser vos notes Obsidian entre vos appareils et plat
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Sync your notes across devices
+
 ---
 Obsidian stocke les notes localement sur votre appareil afin que vous y ayez toujours accès, même hors ligne. Pour accéder à vos notes sur plusieurs appareils, vous devez configurer une méthode de synchronisation.
 

@@ -2,7 +2,6 @@
 permalink: plugins/outline
 aliases:
   - Plugins/Modules principaux/Plan
-  - Outline
 localized: '2026-03-18'
 ---
 Le Plan est un [[Modules principaux|module principal]] qui liste les entêtes de la note active.

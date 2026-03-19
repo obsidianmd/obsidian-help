@@ -1,8 +1,7 @@
 ---
 permalink: import/textbundle
 localized: '2026-03-18'
-aliases:
-  - Import Textbundle files
+
 ---
 Obsidian vous permet d'importer facilement des fichiers [Textbundle](https://textbundle.org/) à l'aide du [[Importer|module Importer]] officiel.
 

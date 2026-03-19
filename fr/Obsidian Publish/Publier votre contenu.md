@@ -4,8 +4,7 @@ description: Découvrez comment publier votre contenu à l'aide d'Obsidian Publi
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Publish your content
+
 ---
 Cette page explique comment gérer votre contenu publié. Pour apprendre à personnaliser le style de votre site, consultez [[Personnaliser votre site]].
 

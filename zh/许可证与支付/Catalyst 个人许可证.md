@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Licenses & Payment/Catalyst license
   - 许可证与付款/Catalyst 许可证
   - Catalyst license
   - 许可证与支付/Catalyst 个人许可证

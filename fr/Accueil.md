@@ -2,7 +2,6 @@
 aliases:
   - Démarrer ici
   - Obsidian/Index
-  - Home
 cssclasses:
   - list-cards
   - hide-title

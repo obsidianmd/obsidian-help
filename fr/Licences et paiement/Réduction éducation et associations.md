@@ -3,8 +3,7 @@ permalink: discounts
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-aliases:
-  - Education and non-profit discount
+
 ---
 Obsidian offre actuellement deux types de réductions : éducation et associations. Elles vous donnent toutes deux 40 % de réduction sur nos services complémentaires [[Introduction à Obsidian Sync|Obsidian Sync]] et [[Introduction à Obsidian Publish|Obsidian Publish]].
 

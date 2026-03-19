@@ -1,8 +1,7 @@
 ---
 permalink: appearance
 localized: '2026-03-18'
-aliases:
-  - Appearance
+
 ---
 ### Schéma de couleurs
 

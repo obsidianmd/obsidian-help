@@ -1,8 +1,7 @@
 ---
 permalink: advanced-syntax
 localized: '2026-03-18'
-aliases:
-  - Advanced formatting syntax
+
 ---
 Apprenez comment ajouter une syntaxe de mise en forme avancée à vos notes.
 

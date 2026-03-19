@@ -3,7 +3,6 @@ permalink: plugins/word-count
 description: Découvrez le plugin principal Compteur de mots.
 aliases:
   - Plugins/Word count
-  - Word count
 localized: '2026-03-18'
 ---
 Nombre de mots est un [[Modules principaux|module principal]] qui affiche le nombre de mots et de caractères de la note active.

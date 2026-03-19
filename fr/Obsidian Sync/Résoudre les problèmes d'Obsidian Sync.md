@@ -8,8 +8,7 @@ description: >-
 publish: true
 mobile: true
 localized: '2026-03-18'
-aliases:
-  - Troubleshoot Obsidian Sync
+
 ---
 Cette page répertorie les problèmes rares que vous pouvez rencontrer avec [[Introduction à Obsidian Sync|Obsidian Sync]] et comment les résoudre. Avant de continuer, nous vous recommandons de consulter les pages [[Icône de statut et messages]] et [[Questions fréquentes]].
 
