@@ -25,8 +25,8 @@ Dans cette section, vous allez créer un nouveau [[Coffres locaux et distants|co
 
 **Prérequis**
 
-- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
-- Un abonnement Obsidian Sync [[Forfaits et limites de stockage|actif]]. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/account/sync).
+- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/fr/auth?returnto=%2Faccount%2Fsync#signup).
+- Un abonnement Obsidian Sync [[Forfaits et limites de stockage|actif]]. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/fr/account/sync).
 - **Recommandé** : Un [[Sauvegarder vos fichiers Obsidian|système de sauvegarde]] en place pour vos fichiers Obsidian. Un service de synchronisation n'est pas une sauvegarde.
 
 ### Se connecter avec votre compte Obsidian
@@ -94,8 +94,8 @@ Pour en savoir plus sur les paramètres et les fichiers, passez à [[Paramètres
 Dans cette section, vous avez déjà créé un coffre distant et y avez téléversé des données. Maintenant, vous souhaitez y connecter vos autres appareils.
 
 **Prérequis**
-- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/account#mode=signup).
-- Un abonnement Obsidian Sync actif. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/account).
+- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/fr/account#mode=signup).
+- Un abonnement Obsidian Sync actif. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/fr/account).
 - Sync activé dans les paramètres des [[Modules principaux]].
 - Un coffre distant actif. Si vous n'en avez pas encore créé un, veuillez d'abord créer un [[Configurer Obsidian Sync#Créer un nouveau coffre distant|coffre distant]].
 - **Recommandé** : Un [[Sauvegarder vos fichiers Obsidian|système de sauvegarde]] en place pour vos fichiers Obsidian sur votre appareil le plus utilisé. Un service de synchronisation n'est pas une sauvegarde.

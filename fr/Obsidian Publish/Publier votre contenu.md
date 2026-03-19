@@ -10,8 +10,8 @@ Cette page explique comment gérer votre contenu publié. Pour apprendre à pers
 
 ## Prérequis
 
-- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- Un abonnement Obsidian Publish actif. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/account/publish).
+- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/fr/auth?returnto=%2Faccount%2Fpublish#signup).
+- Un abonnement Obsidian Publish actif. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/fr/account/publish).
 - Le module principal **Publish** est [[Configurer Obsidian Publish#Activer Obsidian Publish|activé]].
 - Un [[Gérer les sites#Créer un nouveau site|site Publish]] est créé.
 

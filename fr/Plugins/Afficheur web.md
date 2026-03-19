@@ -26,6 +26,6 @@ La visionneuse web bloque les publicités par défaut. Vous pouvez personnaliser
 
 Si vous utilisez des modules complémentaires Obsidian tiers, nous vous recommandons d'utiliser votre navigateur principal pour les tâches sensibles et les sites protégés par mot de passe au lieu de la visionneuse web.
 
-La visionneuse web est basée sur la même fonctionnalité [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) qui vous permet d'intégrer des pages web dans [[Canvas]]. La visionneuse web a fait l'objet d'un [audit indépendant](https://obsidian.md/blog/cure53-second-client-audit/) pour vérifier qu'elle a été implémentée de manière sécurisée.
+La visionneuse web est basée sur la même fonctionnalité [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) qui vous permet d'intégrer des pages web dans [[Canvas]]. La visionneuse web a fait l'objet d'un [audit indépendant](https://obsidian.md/fr/blog/cure53-second-client-audit/) pour vérifier qu'elle a été implémentée de manière sécurisée.
 
 Les modules Obsidian [[Sécurité des plugins#Capacités des modules|ne sont pas isolés]] et ont un contrôle approfondi sur l'application. Cette conception permet des fonctionnalités puissantes mais comporte également des compromis en matière de sécurité. Lorsqu'Obsidian est en cours d'exécution, les modules complémentaires tiers ont un accès complet aux cookies de la visionneuse web.

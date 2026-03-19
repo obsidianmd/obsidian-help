@@ -9,7 +9,7 @@ Obsidian fonctionne comme une application locale sur chacun des appareils de vos
 
 ## Installer et mettre à jour Obsidian
 
-Votre équipe peut télécharger Obsidian depuis notre [page de téléchargement](https://obsidian.md/download). Les versions sont également disponibles sur notre [page de versions GitHub](https://github.com/obsidianmd/obsidian-releases/releases) qui inclut des liens vers [le journal des modifications](https://obsidian.md/changelog/).
+Votre équipe peut télécharger Obsidian depuis notre [page de téléchargement](https://obsidian.md/fr/download). Les versions sont également disponibles sur notre [page de versions GitHub](https://github.com/obsidianmd/obsidian-releases/releases) qui inclut des liens vers [le journal des modifications](https://obsidian.md/fr/changelog/).
 
 > [!tip] Pour les utilisateurs Windows qui ont besoin d'un programme d'installation système, le `.exe` universel inclut l'option d'installer Obsidian pour tous les utilisateurs.
 

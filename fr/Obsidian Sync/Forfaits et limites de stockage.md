@@ -8,7 +8,7 @@ localized: '2026-03-18'
 ---
 ## Forfaits
 
-Pour synchroniser vos notes avec [[Introduction à Obsidian Sync|Obsidian Sync]], vous avez besoin d'un forfait d'abonnement. Vous pouvez acheter un forfait Sync en vous connectant à [votre compte](https://obsidian.md/account/sync). Consultez la [page de présentation de Sync](https://obsidian.md/sync) pour les tarifs.
+Pour synchroniser vos notes avec [[Introduction à Obsidian Sync|Obsidian Sync]], vous avez besoin d'un forfait d'abonnement. Vous pouvez acheter un forfait Sync en vous connectant à [votre compte](https://obsidian.md/fr/account/sync). Consultez la [page de présentation de Sync](https://obsidian.md/fr/sync) pour les tarifs.
 
 Voici une comparaison entre le forfait Standard et le forfait Plus :
 
@@ -23,7 +23,7 @@ Voici une comparaison entre le forfait Standard et le forfait Plus :
 
 ## Limites de stockage
 
-La quantité de données que vous pouvez stocker avec [[Introduction à Obsidian Sync|Obsidian Sync]] dépend de votre forfait d'abonnement. Avec le forfait Sync Plus, vous pouvez acheter du stockage supplémentaire jusqu'à 100 Go via [le tableau de bord de votre compte](https://obsidian.md/account/sync). Consultez les [[Questions fréquentes]] pour plus de détails.
+La quantité de données que vous pouvez stocker avec [[Introduction à Obsidian Sync|Obsidian Sync]] dépend de votre forfait d'abonnement. Avec le forfait Sync Plus, vous pouvez acheter du stockage supplémentaire jusqu'à 100 Go via [le tableau de bord de votre compte](https://obsidian.md/fr/account/sync). Consultez les [[Questions fréquentes]] pour plus de détails.
 
 Il existe une limite de stockage unique au niveau du compte pour toutes les notes de l'ensemble de vos coffres. L'[[Historique des versions|historique des versions]] et les [[Pièces jointes|pièces jointes]] sont également comptabilisés dans la limite de stockage de votre compte.
 
@@ -62,7 +62,7 @@ Le nouveau coffre distant devrait être plus petit que le précédent, en raison
 
 ## Mettre à niveau votre forfait
 
-Vous pouvez mettre à niveau votre forfait en vous connectant au [tableau de bord de votre compte](https://obsidian.md/account/sync). De là, vous pourrez passer de Sync Standard à Sync Plus et augmenter le stockage jusqu'à 100 Go.
+Vous pouvez mettre à niveau votre forfait en vous connectant au [tableau de bord de votre compte](https://obsidian.md/fr/account/sync). De là, vous pourrez passer de Sync Standard à Sync Plus et augmenter le stockage jusqu'à 100 Go.
 
 ## Rétrograder votre forfait
 

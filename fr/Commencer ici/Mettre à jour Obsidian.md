@@ -28,13 +28,13 @@ Si vous préférez mettre à jour Obsidian manuellement, vous pouvez désactiver
 
 ## Mises à jour du programme d'installation
 
-Sur bureau, les [notes de version](https://obsidian.md/changelog/) d'Obsidian vous informeront lorsque vous devez mettre à jour la version du programme d'installation d'Obsidian pour que tout continue de fonctionner. Il s'agit de la version d'Electron, le framework sur lequel Obsidian est construit, et elle ne peut pas être mise à jour par le processus de mise à jour automatique.
+Sur bureau, les [notes de version](https://obsidian.md/fr/changelog/) d'Obsidian vous informeront lorsque vous devez mettre à jour la version du programme d'installation d'Obsidian pour que tout continue de fonctionner. Il s'agit de la version d'Electron, le framework sur lequel Obsidian est construit, et elle ne peut pas être mise à jour par le processus de mise à jour automatique.
 
 Un module complémentaire ou un thème peut nécessiter une mise à jour du programme d'installation pour accéder à des fonctionnalités plus récentes qui ne sont pas disponibles dans les anciennes versions d'Electron, et peut vous demander de mettre à jour la version du programme d'installation d'Obsidian avant qu'Obsidian lui-même ne le demande.
 
 Pour mettre à jour la version du programme d'installation d'Obsidian :
 
-1. Rendez-vous sur https://obsidian.md/download.
+1. Rendez-vous sur https://obsidian.md/fr/download.
 2. Sélectionnez le bouton **Télécharger**.
 3. Fermez Obsidian, s'il est ouvert.
 4. Procédez comme indiqué dans [[Télécharger et installer Obsidian]].

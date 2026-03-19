@@ -11,7 +11,7 @@ mobile: true
 localized: '2026-03-18'
 
 ---
-[Obsidian Sync](https://obsidian.md/sync) est un service complémentaire qui vous permet de synchroniser vos notes de manière privée entre vos appareils.
+[Obsidian Sync](https://obsidian.md/fr/sync) est un service complémentaire qui vous permet de synchroniser vos notes de manière privée entre vos appareils.
 
 ## Comment utiliser Obsidian Sync
 

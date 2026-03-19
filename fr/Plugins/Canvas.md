@@ -246,4 +246,4 @@ Pour rétablir le niveau de zoom par défaut, sélectionnez **Réinitialiser le 
 
 Nous avons réalisé quelques courtes vidéos pour démontrer certains cas d'utilisation avancés de Canvas.
 
-Vous pouvez [consulter les 72 astuces ici](https://obsidian.md/canvas#protips). Veuillez noter que les vidéos d'astuces ne sont visibles que sur ordinateur.
+Vous pouvez [consulter les 72 astuces ici](https://obsidian.md/fr/canvas#protips). Veuillez noter que les vidéos d'astuces ne sont visibles que sur ordinateur.

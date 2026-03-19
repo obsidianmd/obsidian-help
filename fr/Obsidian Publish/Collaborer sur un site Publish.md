@@ -10,7 +10,7 @@ localized: '2026-03-18'
 ---
 Apprenez à collaborer sur votre site [[Introduction à Obsidian Publish|Obsidian Publish]] avec d'autres utilisateurs d'Obsidian. En ajoutant vos amis et collègues en tant que collaborateurs, ils peuvent publier des modifications sur votre site.
 
-Seul le propriétaire du site a besoin d'un abonnement actif à Obsidian Publish. Les collaborateurs n'ont besoin que d'un [compte Obsidian](https://obsidian.md/account).
+Seul le propriétaire du site a besoin d'un abonnement actif à Obsidian Publish. Les collaborateurs n'ont besoin que d'un [compte Obsidian](https://obsidian.md/fr/account).
 
 > [!warning] Avant de publier des modifications sur un site partagé, assurez-vous de [[#Synchroniser les modifications entre collaborateurs|synchroniser les modifications entre collaborateurs]]. Sinon, vous risquez d'écraser les modifications d'autres collaborateurs.
 

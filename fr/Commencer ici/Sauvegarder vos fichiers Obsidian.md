@@ -7,7 +7,7 @@ Si vous n'avez pas encore sauvegardé votre ordinateur, commencez maintenant ! L
 
 **Pourquoi sauvegarder vos données ?**
 
-Par défaut, Obsidian stocke vos notes **localement** sur votre appareil, et non dans le cloud. Cela signifie que les [données vous appartiennent entièrement](https://obsidian.md/about), vous donnant le contrôle sur celles-ci. Cependant, le stockage local peut être affecté par des problèmes tels que la corruption ou la perte de données. Ce n'est jamais une question de savoir si cela arrivera, mais quand. Sauvegarder vos données vous protège contre ces inévitabilités et vous assure de garder le contrôle de vos notes.
+Par défaut, Obsidian stocke vos notes **localement** sur votre appareil, et non dans le cloud. Cela signifie que les [données vous appartiennent entièrement](https://obsidian.md/fr/about), vous donnant le contrôle sur celles-ci. Cependant, le stockage local peut être affecté par des problèmes tels que la corruption ou la perte de données. Ce n'est jamais une question de savoir si cela arrivera, mais quand. Sauvegarder vos données vous protège contre ces inévitabilités et vous assure de garder le contrôle de vos notes.
 
 ## La synchronisation n'est pas une sauvegarde
 
@@ -26,8 +26,8 @@ Si vous utilisez plusieurs appareils avec la synchronisation, choisissez **un se
 
 Bien que l'équipe d'Obsidian ne puisse officiellement recommander aucun module spécifique, nous reconnaissons deux modules complémentaires qui sont devenus populaires auprès des utilisateurs pour sauvegarder leurs fichiers :
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git) :** Utilisez ce module pour sauvegarder votre coffre en validant son contenu dans un [dépôt Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). C'est un moyen efficace de versionner vos notes et d'assurer leur sécurité sur un serveur distant. Cependant, sachez que vos données peuvent être stockées sur une [[#Utiliser des services cloud|plateforme d'hébergement externe]] avec cette méthode.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup) :** Ce module vous permet de créer des copies locales de votre coffre dans un dossier de votre choix, avec des options d'archivage. Vous pouvez même utiliser un dossier de synchronisation, comme un dossier Dropbox, pour combiner sauvegardes locales et cloud. Cette méthode **se combine bien** avec les options de sauvegarde décrites ci-dessous.
+- **[Obsidian Git](https://obsidian.md/fr/plugins?id=obsidian-git) :** Utilisez ce module pour sauvegarder votre coffre en validant son contenu dans un [dépôt Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). C'est un moyen efficace de versionner vos notes et d'assurer leur sécurité sur un serveur distant. Cependant, sachez que vos données peuvent être stockées sur une [[#Utiliser des services cloud|plateforme d'hébergement externe]] avec cette méthode.
+- **[Local Backup](https://obsidian.md/fr/plugins?id=local-backup) :** Ce module vous permet de créer des copies locales de votre coffre dans un dossier de votre choix, avec des options d'archivage. Vous pouvez même utiliser un dossier de synchronisation, comme un dossier Dropbox, pour combiner sauvegardes locales et cloud. Cette méthode **se combine bien** avec les options de sauvegarde décrites ci-dessous.
 
 ## Utiliser des services cloud
 
@@ -66,4 +66,4 @@ Votre système d'exploitation offre lui-même la possibilité de créer des sauv
 
 ## Prochaines étapes
 
-Cette page d'aide offre un bref aperçu des options de sauvegarde, mais elle n'est pas exhaustive. Pour des informations plus approfondies, visitez [Worldbackupday.com](https://www.worldbackupday.com/en) ou demandez à d'autres utilisateurs d'Obsidian dans [notre communauté](https://obsidian.md/community) quelles sont leurs stratégies de sauvegarde !
+Cette page d'aide offre un bref aperçu des options de sauvegarde, mais elle n'est pas exhaustive. Pour des informations plus approfondies, visitez [Worldbackupday.com](https://www.worldbackupday.com/en) ou demandez à d'autres utilisateurs d'Obsidian dans [notre communauté](https://obsidian.md/fr/community) quelles sont leurs stratégies de sauvegarde !

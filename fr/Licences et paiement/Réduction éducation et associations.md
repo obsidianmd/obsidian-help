@@ -9,7 +9,7 @@ Obsidian offre actuellement deux types de réductions : éducation et associatio
 
 ## Comment faire une demande
 
-1. Rendez-vous sur [le tableau de bord de votre compte](https://obsidian.md/account/billing).
+1. Rendez-vous sur [le tableau de bord de votre compte](https://obsidian.md/fr/account/billing).
 2. Sous **Facturation**, trouvez la section **Réduction**, et cliquez sur le lien **Appliquer**.
 3. Sélectionnez un type de réduction selon votre situation, renseignez votre **adresse électronique éducative ou d'organisation** (pas l'adresse électronique de votre compte).
 4. Cliquez sur **Envoyer la demande**.
@@ -21,7 +21,7 @@ Félicitations ! Vous verrez désormais la réduction lorsque vous essaierez d'a
 
 ## Comment renouveler
 
-Une fois que vous avez une réduction active, vous pouvez voir quand elle expirera sous **Facturation → Réduction** de [votre compte](https://obsidian.md/account/billing).
+Une fois que vous avez une réduction active, vous pouvez voir quand elle expirera sous **Facturation → Réduction** de [votre compte](https://obsidian.md/fr/account/billing).
 
 Une semaine avant l'expiration de votre réduction, vous recevrez un courriel de rappel pour la renouveler. Vous pouvez suivre les mêmes étapes que dans « [[#Comment faire une demande]] » pour renouveler la réduction, si vous y êtes toujours éligible.
 

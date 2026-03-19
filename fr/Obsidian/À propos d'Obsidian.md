@@ -60,6 +60,6 @@ Nous prenons en charge les [[Extraits CSS]], les [[Thèmes]] et les [[Modules co
 
 ## Suivez notre développement
 
-Curieux de savoir comment nous continuons à faire d'Obsidian le meilleur outil et le plus abouti pour le traitement de la pensée ? Consultez notre [feuille de route](https://obsidian.md/roadmap/) pour voir sur quoi nous travaillons.
+Curieux de savoir comment nous continuons à faire d'Obsidian le meilleur outil et le plus abouti pour le traitement de la pensée ? Consultez notre [feuille de route](https://obsidian.md/fr/roadmap/) pour voir sur quoi nous travaillons.
 
 Notre compte Twitter est [@obsdmd](https://twitter.com/obsdmd), n'hésitez pas à nous suivre. Nous tweetons principalement sur les mises à jour du produit.

@@ -7,7 +7,7 @@ aliases:
   - Plugins/Publish
 localized: '2026-03-18'
 ---
-[Obsidian Publish](https://obsidian.md/publish) est un service d'hébergement cloud qui vous permet de publier vos notes sous forme de wiki, de base de connaissances, de documentation ou de jardin numérique.
+[Obsidian Publish](https://obsidian.md/fr/publish) est un service d'hébergement cloud qui vous permet de publier vos notes sous forme de wiki, de base de connaissances, de documentation ou de jardin numérique.
 
 Sélectionnez les notes que vous souhaitez partager avec le monde, appuyez sur **Publier**, et nous les hébergerons à l'adresse `publish.obsidian.md/your-site`.
 

@@ -33,7 +33,7 @@ La page Général contient les informations de version, les paramètres de mise 
 
 ### Version et mises à jour
 
-Consultez votre version actuelle d'Obsidian et la version du programme d'installation en haut de la page. Sélectionnez **Vérifier les mises à jour** pour rechercher manuellement de nouvelles versions, ou sélectionnez **[Lire le journal des modifications](<https://obsidian.md/changelog/>)** pour consulter les notes de version.
+Consultez votre version actuelle d'Obsidian et la version du programme d'installation en haut de la page. Sélectionnez **Vérifier les mises à jour** pour rechercher manuellement de nouvelles versions, ou sélectionnez **[Lire le journal des modifications](<https://obsidian.md/fr/changelog/>)** pour consulter les notes de version.
 
 **Mises à jour automatiques**
 
@@ -60,7 +60,7 @@ Gérez votre compte Obsidian et vos licences.
 
 **Votre compte**
 
-Consultez les informations de votre compte, incluant le nom d'utilisateur et l'adresse électronique. Sélectionnez **[Gérer](https://obsidian.md/account)** pour accéder aux paramètres du compte, ou sélectionnez **Se déconnecter** pour vous déconnecter de l'application.
+Consultez les informations de votre compte, incluant le nom d'utilisateur et l'adresse électronique. Sélectionnez **[Gérer](https://obsidian.md/fr/account)** pour accéder aux paramètres du compte, ou sélectionnez **Se déconnecter** pour vous déconnecter de l'application.
 
 **Licence Catalyst**
 
@@ -68,7 +68,7 @@ Consultez l'état de votre licence Catalyst. Si vous disposez d'une [[Licence Ca
 
 **Licence commerciale**
 
-Si vous soutenez [Obsidian pour le travail](<https://obsidian.md/blog/free-for-work/>), sélectionnez **Activer** pour entrer une clé de licence commerciale, ou sélectionnez **[Acheter](https://obsidian.md/account/commercial)** pour acquérir une licence. Sélectionnez **[[Licence commerciale|En savoir plus]]** pour des informations sur les licences commerciales.
+Si vous soutenez [Obsidian pour le travail](<https://obsidian.md/fr/blog/free-for-work/>), sélectionnez **Activer** pour entrer une clé de licence commerciale, ou sélectionnez **[Acheter](https://obsidian.md/fr/account/commercial)** pour acquérir une licence. Sélectionnez **[[Licence commerciale|En savoir plus]]** pour des informations sur les licences commerciales.
 
 ### Avancé
 

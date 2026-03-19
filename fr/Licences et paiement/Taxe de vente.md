@@ -11,12 +11,12 @@ Pour déterminer les taxes appliquées à votre achat, nous utilisons le pays et
 
 Selon votre pays et votre statut, vous pouvez être exonéré de taxes en soumettant votre numéro d'identification fiscale (NIF), numéro de TVA, identifiant TVA ou certificat d'exonération fiscale.
 
-Vous pouvez demander une exonération fiscale via la section Facturation de votre [tableau de bord de compte](https://obsidian.md/account/billing). Si votre demande est approuvée, les achats futurs ne seront pas soumis aux taxes.
+Vous pouvez demander une exonération fiscale via la section Facturation de votre [tableau de bord de compte](https://obsidian.md/fr/account/billing). Si votre demande est approuvée, les achats futurs ne seront pas soumis aux taxes.
 
 ### Demander une exonération
 
-1. Connectez-vous à votre [compte Obsidian](https://obsidian.md/account/billing).
-2. Accédez à la section [Facturation](https://obsidian.md/account/billing).
+1. Connectez-vous à votre [compte Obsidian](https://obsidian.md/fr/account/billing).
+2. Accédez à la section [Facturation](https://obsidian.md/fr/account/billing).
 3. À droite de _Tax Exemption_, sélectionnez le bouton **Manage**.
 4. Dans la fenêtre contextuelle :
     1. Entrez votre pays.

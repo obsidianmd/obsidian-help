@@ -113,7 +113,7 @@ Dans ces cas, vous devrez [[Configurer Obsidian Sync#Se déconnecter d'un coffre
 **Failed to authenticate: Your subscription to Obsidian Sync has expired**
 Votre compte est maintenant dans un état d'expiration complète car nous n'avons pas pu traiter le paiement enregistré.
 
-Pour continuer à utiliser Obsidian Sync, vous devrez vous réabonner dans [votre compte](https://obsidian.md/account/sync).
+Pour continuer à utiliser Obsidian Sync, vous devrez vous réabonner dans [votre compte](https://obsidian.md/fr/account/sync).
 
 **Failed to authenticate: Not logged in**
 

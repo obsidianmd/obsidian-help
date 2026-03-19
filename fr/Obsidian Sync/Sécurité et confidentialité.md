@@ -46,11 +46,11 @@ Pour la sécurité des données, nous mettons en œuvre des protocoles de chiffr
 
 ### Puis-je vérifier que mes données sont chiffrées de bout en bout ?
 
-Oui. Consultez notre guide, [comment vérifier le chiffrement de bout en bout d'Obsidian Sync](https://obsidian.md/blog/verify-obsidian-sync-encryption/). Ce guide fournit des instructions étape par étape pour que vous puissiez vérifier sans avoir à faire confiance le chiffrement de bout en bout de vos données lorsqu'elles sont envoyées et reçues via les serveurs de Sync.
+Oui. Consultez notre guide, [comment vérifier le chiffrement de bout en bout d'Obsidian Sync](https://obsidian.md/fr/blog/verify-obsidian-sync-encryption/). Ce guide fournit des instructions étape par étape pour que vous puissiez vérifier sans avoir à faire confiance le chiffrement de bout en bout de vos données lorsqu'elles sont envoyées et reçues via les serveurs de Sync.
 
 ### Obsidian a-t-il fait l'objet d'un audit de sécurité par un tiers ?
 
-Oui. Obsidian a été audité de manière indépendante. Visitez notre [page Sécurité](https://obsidian.md/security) pour consulter les rapports d'audit. Des audits réguliers par des sociétés de sécurité tierces garantissent que le code et les procédures d'Obsidian respectent les normes de sécurité les plus élevées.
+Oui. Obsidian a été audité de manière indépendante. Visitez notre [page Sécurité](https://obsidian.md/fr/security) pour consulter les rapports d'audit. Des audits réguliers par des sociétés de sécurité tierces garantissent que le code et les procédures d'Obsidian respectent les normes de sécurité les plus élevées.
 
 ### Que se passe-t-il si j'oublie mon mot de passe de chiffrement ?
 

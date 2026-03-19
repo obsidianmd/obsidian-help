@@ -23,7 +23,7 @@ Obsidian propose plusieurs services et licences disponibles à l'achat.
 
 ## Acheter un service ou une licence
 
-1. Connectez-vous ou créez [votre compte Obsidian](https://obsidian.md/account).
+1. Connectez-vous ou créez [votre compte Obsidian](https://obsidian.md/fr/account).
 2. Naviguez vers la section correspondant à l'élément que vous souhaitez acheter :
     1. **Obsidian Sync** se trouve dans la section **Sync**.
     2. **Obsidian Publish** se trouve dans la section **Publish**.
@@ -43,7 +43,7 @@ Après avoir effectué votre paiement, vous recevrez un reçu du service par leq
 
 Obsidian génère une facture pour tous les achats effectués depuis votre compte. Pour récupérer votre facture :
 
-1. Connectez-vous à [votre compte Obsidian](https://obsidian.md/account/billing).
+1. Connectez-vous à [votre compte Obsidian](https://obsidian.md/fr/account/billing).
 2. Rendez-vous dans la section **Billing**.
 3. À côté de **Invoices and refunds**, sélectionnez **View**.
     1. Si plusieurs factures sont disponibles, sélectionnez la facture que vous souhaitez consulter et cliquez sur **View** ou **Download**.
@@ -52,7 +52,7 @@ Obsidian génère une facture pour tous les achats effectués depuis votre compt
 
 Si vous devez modifier des informations sur la facture, comme l'adresse de facturation ou le numéro de TVA, suivez ces étapes :
 
-1. Connectez-vous à [votre compte Obsidian](https://obsidian.md/account/billing).
+1. Connectez-vous à [votre compte Obsidian](https://obsidian.md/fr/account/billing).
 2. Naviguez vers la section **Billing**.
 3. À côté de **Invoices and refunds**, sélectionnez **View**.
     1. Si plusieurs factures sont disponibles, sélectionnez la facture que vous souhaitez consulter et cliquez sur **View**.

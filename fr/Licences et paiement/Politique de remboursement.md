@@ -21,7 +21,7 @@ Nous offrons des remboursements complets dans les 7 jours suivant l'achat, sans 
 
 ## Demander un remboursement
 
-1. Connectez-vous à [votre compte Obsidian](https://obsidian.md/account/billing).
+1. Connectez-vous à [votre compte Obsidian](https://obsidian.md/fr/account/billing).
 2. Sous **Facturation → Factures et remboursements**, sélectionnez **Voir**.
 3. À côté des paiements pour lesquels vous souhaitez un remboursement, si vous êtes éligible, vous verrez un lien **Obtenir un remboursement**. Cliquez sur ce lien.
 4. Votre service sera supprimé et tout renouvellement automatique sera également annulé. Si vous confirmez vouloir poursuivre, cliquez sur **Demander un remboursement**.

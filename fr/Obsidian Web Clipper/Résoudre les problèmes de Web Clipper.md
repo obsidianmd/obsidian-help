@@ -56,7 +56,7 @@ Si vous utilisez Sway :
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- Si vous utilisez Flatpak, essayez une [version d'Obsidian officiellement supportée](https://obsidian.md/download).
+- Si vous utilisez Flatpak, essayez une [version d'Obsidian officiellement supportée](https://obsidian.md/fr/download).
 - Si vous utilisez KDE, allez dans **Paramètres système** → **Gestion des fenêtres** → **Règles de fenêtres** et autorisez Obsidian à prendre le focus, [[web-clipper-kde.png|voir la capture d'écran]].
 - En dernier recours, essayez de passer en **Mode legacy** dans **Paramètres de Web Clipper** → **Général**. Cela contournera le presse-papiers et enregistrera le contenu directement via URI. Notez que cela limitera le nombre de caractères pouvant être capturés selon votre navigateur et votre distribution Linux.
 

@@ -20,8 +20,8 @@ Tous les nouveaux coffres utilisent automatiquement le dernier chiffrement. Les 
 
 | Date de publication                                                     | Version de Sync | Version minimale de l'application |
 | ----------------------------------------------------------------------- | --------------- | --------------------------------- |
-| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3               | 1.8.3                             |
-| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0               | 0.9.21                            |
+| [2025-08-22](https://obsidian.md/fr/changelog/2025-08-22-sync/)            | 3               | 1.8.3                             |
+| [2020-12-07](https://obsidian.md/fr/changelog/2020-12-07-desktop-v0.9.21/) | 0               | 0.9.21                            |
 
 ## Mettre à niveau le chiffrement avec l'assistant de migration
 

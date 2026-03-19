@@ -75,7 +75,7 @@ Une fois la console de développement ouverte :
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Accès à la console sur mobile
-> Les appareils mobiles et les tablettes ont un accès limité à leur console de développement. Pour ces utilisateurs, nous recommandons d'utiliser le module complémentaire [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) pour générer automatiquement les données du journal de la console dans une note Markdown.
+> Les appareils mobiles et les tablettes ont un accès limité à leur console de développement. Pour ces utilisateurs, nous recommandons d'utiliser le module complémentaire [Logstravaganza](https://obsidian.md/fr/plugins?id=logstravaganza) pour générer automatiquement les données du journal de la console dans une note Markdown.
 
 ### Contacter l'assistance Obsidian
 

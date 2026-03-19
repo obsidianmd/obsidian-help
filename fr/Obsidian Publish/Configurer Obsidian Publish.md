@@ -11,8 +11,8 @@ Dans ce guide, vous allez activer [[Introduction à Obsidian Publish|Obsidian Pu
 
 ## Prérequis
 
-- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- Un abonnement Obsidian Publish actif. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/account/publish).
+- Un compte Obsidian. Si vous n'en avez pas, [inscrivez-vous maintenant](https://obsidian.md/fr/auth?returnto=%2Faccount%2Fpublish#signup).
+- Un abonnement Obsidian Publish actif. Si vous n'en avez pas, abonnez-vous depuis [le tableau de bord de votre compte](https://obsidian.md/fr/account/publish).
 
 ## Se connecter avec votre compte Obsidian
 

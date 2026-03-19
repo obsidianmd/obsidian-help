@@ -18,7 +18,7 @@ Nous vous recommandons également de lire notre [[Sauvegarder vos fichiers Obsid
 
 Avec Obsidian, vos données sont simplement stockées sous forme de fichiers dans un dossier appelé [[Coffres locaux et distants|coffre]]. Cela signifie qu'il existe de nombreuses façons de synchroniser vos données.
 
-Voici quelques méthodes de synchronisation couramment utilisées, rapportées par les membres de la [communauté Obsidian](https://obsidian.md/community) :
+Voici quelques méthodes de synchronisation couramment utilisées, rapportées par les membres de la [communauté Obsidian](https://obsidian.md/fr/community) :
 
 1. **Synchronisation propriétaire** : [[#Obsidian Sync]]
 2. **Synchronisation cloud tierce** : [[#iCloud]], [[#OneDrive]] et [[#Google Drive]]

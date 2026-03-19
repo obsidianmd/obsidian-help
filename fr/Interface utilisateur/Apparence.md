@@ -15,7 +15,7 @@ Vous pouvez également ajuster les thèmes à l'aide d'[[Extraits CSS|extraits C
 
 ### Icône d'application personnalisée
 
-Vous pouvez modifier l'icône de l'application de bureau Obsidian. Essayez l'éditeur d'icônes présenté sur [notre blog](https://obsidian.md/blog/new-obsidian-icon/) pour personnaliser les couleurs de l'icône selon vos préférences.
+Vous pouvez modifier l'icône de l'application de bureau Obsidian. Essayez l'éditeur d'icônes présenté sur [notre blog](https://obsidian.md/fr/blog/new-obsidian-icon/) pour personnaliser les couleurs de l'icône selon vos préférences.
 
 Pour modifier l'icône de l'application Obsidian, suivez ces étapes :
 
