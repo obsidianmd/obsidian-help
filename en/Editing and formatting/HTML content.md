@@ -2,9 +2,10 @@
 aliases:
   - Advanced topics/HTML sanitization
   - Editing and formatting/Using HTML
+  - Editing and formatting/HTML content
 description: Learn how to use HTML in Obsidian, including limitations with Markdown rendering, and HTML block requirements.
 mobile: true
-permalink:
+permalink: html
 publish: true
 ---
 

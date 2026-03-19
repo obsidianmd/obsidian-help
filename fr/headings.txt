@@ -1003,7 +1003,6 @@ Move a file or folder=Déplacer un fichier ou un dossier
 
 [plugins/format-converter]
 Supported formats=Formats pris en charge
-[[Properties]]=[[Propriétés]]
 
 [plugins/templates]
 Set your template folder=Définir votre dossier de modèles
@@ -1311,3 +1310,13 @@ Restore a deleted file=Restaurer un fichier supprimé
 Settings history=Historique des paramètres
 View version history of a setting=Consulter l'historique des versions d'un paramètre
 Restore a previous version of a setting=Restaurer une version précédente d'un paramètre
+
+[html]
+HTML limitations=Limitations du HTML
+No Markdown inside HTML=Pas de Markdown à l'intérieur du HTML
+HTML blocks must be self-contained=Les blocs HTML doivent être autonomes
+When Markdown appears to work in HTML=Quand le Markdown semble fonctionner dans le HTML
+Common HTML usage=Utilisations courantes du HTML
+Comments=Commentaires
+Underline=Soulignement
+Strikethrough=Texte barré

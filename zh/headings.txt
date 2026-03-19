@@ -1008,7 +1008,6 @@ Change your configuration folder=更改设置文件夹
 
 [plugins/format-converter]
 Supported formats=支持的格式
-[[Properties]]=[[属性]]
 
 [plugins/bookmarks]
 Add a bookmark=添加书签
@@ -1356,3 +1355,13 @@ Embed an audio file in a note=在笔记中插入音频文件
 Embed a PDF in a note=在笔记中插入 PDF 文件
 Embed a list in a note=在笔记中插入列表
 Embed search results=插入搜索结果
+
+[html]
+HTML limitations=HTML 限制
+No Markdown inside HTML=HTML 内不支持 Markdown
+HTML blocks must be self-contained=HTML 块必须是完整的
+When Markdown appears to work in HTML=当 Markdown 看似在 HTML 中生效时
+Common HTML usage=常见 HTML 用法
+Comments=注释
+Underline=下划线
+Strikethrough=删除线

@@ -170,6 +170,10 @@ translation=Obsidian Headless
 original=Hotkeys
 translation=快捷键
 
+[file.html-content]
+original=HTML content
+translation=HTML 内容
+
 [file.import]
 original=Import notes
 translation=导入笔记
