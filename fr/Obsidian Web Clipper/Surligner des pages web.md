@@ -2,6 +2,7 @@
 permalink: web-clipper/highlight
 aliases:
   - Modules/Web Clipper/Surligner du contenu
+  - Plugins/Web Clipper/Surligner du contenu
 localized: '2026-03-18'
 ---
 [[Introduction à Obsidian Web Clipper|Web Clipper]] vous permet de surligner du texte sur des pages web, et de sélectionner les éléments que vous souhaitez enregistrer dans Obsidian. Vos surlignages sont sauvegardés, ce qui vous permet de les retrouver lorsque vous retournez sur une page.

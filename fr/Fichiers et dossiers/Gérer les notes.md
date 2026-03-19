@@ -5,6 +5,7 @@ publish: true
 mobile: false
 aliases:
   - How to/Gérer les notes
+  - Advanced Use/Suppression de fichiers
 localized: '2026-03-18'
 ---
 Vous pouvez gérer les fichiers et dossiers de plusieurs manières, en utilisant les [[Raccourcis clavier]], les [[Palette de commandes|commandes]], ou l'[[Explorateur de fichiers]].

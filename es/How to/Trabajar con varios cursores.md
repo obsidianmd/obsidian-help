@@ -1,3 +1,0 @@
-Si mantienes presionado `Alt` (`option` en mac) y hace clic, puede crear varios cursores. Esto puede resultar útil cuando se modifican muchas líneas de la misma forma, por ejemplo, poniendo `-` al principio de varias líneas para convertirlas en una lista, o agregando `[[` a una serie de enlaces que ha copiado de otro lugar.
-
-Para cancelar varios cursores, haga clic en algún lugar de la nota (sin una tecla modificadora) o presione escape.

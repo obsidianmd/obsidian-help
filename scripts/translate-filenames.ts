@@ -146,7 +146,7 @@ function saveFilenamesTxt(map: FilenamesMap) {
 // ─── Collect EN names ─────────────────────────────────────────────────────────
 
 // Folders that are proper nouns / technical — don't translate
-const SKIP_FOLDERS = new Set(["Attachments", "Bases", "Obsidian Publish", "Obsidian Sync", "Plugins", "Teams"]);
+const SKIP_FOLDERS = new Set(["Attachments", "Bases", "Obsidian Publish", "Obsidian Sync"]);
 
 interface EnFile {
   permalink: string;

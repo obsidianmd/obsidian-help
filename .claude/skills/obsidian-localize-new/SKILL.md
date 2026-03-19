@@ -52,6 +52,26 @@ npx tsx scripts/sync-locale.ts <locale>             # apply
 
 The sync script places files at locale paths (using filenames.txt), adds EN basename as `aliases` when filenames differ, and deletes any orphan locale files.
 
+### Step 2b — Add redirect aliases for old locale paths
+
+If the locale previously had old-format files (before this migration), add backward-compat redirect aliases so old Obsidian Publish URLs continue to resolve.
+
+```bash
+npx tsx scripts/migrate-locale.ts <locale>          # dry run — review matches
+npx tsx scripts/migrate-locale.ts <locale> --apply  # write aliases
+```
+
+For uncertain or unmatched paths, create `<locale>/migration-map.json` with explicit mappings before running `--apply`:
+
+```json
+{
+  "Old/Path without extension": "en-permalink",
+  "Another/Old Path": null
+}
+```
+
+Set a permalink to `null` to skip a path. See `es/migration-map.json` or `fr/migration-map.json` as examples.
+
 ### Step 3 — Translate all stubs
 
 Sends each `localized: null` file to the LLM for full translation. Translates content + description frontmatter.
@@ -95,6 +115,7 @@ cd <locale> && ob publish --all --yes
 - `<locale>/filenames.txt` — permalink → locale filename/folder mapping
 - `<locale>/headings.txt` — EN heading → locale heading mapping (auto-maintained)
 - `scripts/sync-locale.ts` — syncs EN structure to locale
+- `scripts/migrate-locale.ts` — adds redirect aliases from old locale paths
 - `scripts/translate-locale.ts` — LLM translation
 - `scripts/check-links.ts` — broken wikilink checker
 - `scripts/lint-locale.ts` — terminology checker

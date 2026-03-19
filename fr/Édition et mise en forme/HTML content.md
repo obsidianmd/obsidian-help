@@ -5,6 +5,8 @@ mobile: true
 description: >-
   Apprenez à utiliser le HTML dans Obsidian, y compris les limitations du rendu
   Markdown et les exigences des blocs HTML.
+aliases:
+  - Advanced Use/Nettoyage HTML
 ---
 Obsidian prend en charge le HTML pour vous permettre d'afficher vos notes comme vous le souhaitez, ou même d'[[Intégrer des pages web|intégrer des pages web]]. Autoriser le HTML dans vos notes comporte des risques. Pour empêcher du code malveillant de causer des dommages, Obsidian _assainit_ tout le HTML dans vos notes.
 

@@ -2,6 +2,7 @@
 permalink: plugins/daily-notes
 aliases:
   - Modules/Modules principaux/Notes quotidiennes
+  - Plugins/Modules principaux/Notes quotidiennes
 localized: '2026-03-18'
 ---
 Notes quotidiennes est un [[Modules principaux|module principal]] qui ouvre une note basée sur la date du jour, ou la crée si elle n'existe pas. Utilisez les notes quotidiennes pour créer des journaux, des listes de tâches ou des relevés quotidiens de vos découvertes de la journée.
