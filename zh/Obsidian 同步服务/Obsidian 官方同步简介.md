@@ -13,7 +13,7 @@ publish: true
 mobile: true
 description: Obsidian Sync 是一项附加服务，允许你在不同设备之间私密地同步笔记。
 ---
-[Obsidian Sync](https://obsidian.md/sync) 是一项附加服务，允许你在不同设备之间私密地同步笔记。
+[Obsidian Sync](https://obsidian.md/zh/sync) 是一项附加服务，允许你在不同设备之间私密地同步笔记。
 
 ## 如何使用 Obsidian Sync
 

@@ -62,6 +62,6 @@ Obsidian 非常重视这一点，并通过[[内部链接]]和[[关系图谱]]等
 
 ## 关注我们的开发进展
 
-想知道我们是如何持续让 Obsidian 成为最好、最精致的思维处理工具的吗？查看我们的[路线图](https://obsidian.md/roadmap/)，了解我们正在做什么。
+想知道我们是如何持续让 Obsidian 成为最好、最精致的思维处理工具的吗？查看我们的[路线图](https://obsidian.md/zh/roadmap/)，了解我们正在做什么。
 
 我们的 Twitter 账号是 [@obsdmd](https://twitter.com/obsdmd)，欢迎关注。我们主要发布产品更新相关的推文。

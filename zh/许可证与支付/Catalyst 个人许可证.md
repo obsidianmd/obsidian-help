@@ -7,7 +7,7 @@ aliases:
 permalink: catalyst
 localized: 2026-03-19
 ---
-Catalyst 许可证是一次性购买的许可证，它让你能够抢先体验测试版本，并帮助支持 Obsidian 的持续开发。你可以通过[购买 Catalyst 许可证](https://obsidian.md/buy/catalyst)来支持 Obsidian。
+Catalyst 许可证是一次性购买的许可证，它让你能够抢先体验测试版本，并帮助支持 Obsidian 的持续开发。你可以通过[购买 Catalyst 许可证](https://obsidian.md/zh/buy/catalyst)来支持 Obsidian。
 
 购买后你将享有以下权益：
 
@@ -42,13 +42,13 @@ Catalyst 许可证根据你的贡献金额分为三个等级：*Insider*、*Supp
 **注意：** 要关联你的 Obsidian 账户和论坛账户，两个账户必须使用相同的邮箱地址。
 
 1. 如果你还没有注册，请先加入我们的[论坛](https://forum.obsidian.md/)。
-2. 前往你的 [Obsidian 账户管理页面](https://obsidian.md/account/catalyst)。
+2. 前往你的 [Obsidian 账户管理页面](https://obsidian.md/zh/account/catalyst)。
 3. 在 **Catalyst** 下，选择 **Get forum badge**。
 
 ### 获取 Discord 徽章
 
 1. 如果你还没有加入，请先加入我们的 [Discord 服务器](https://discord.gg/veuWUTm)。
-2. 前往你的 [Obsidian 账户管理页面](https://obsidian.md/account/catalyst)。
+2. 前往你的 [Obsidian 账户管理页面](https://obsidian.md/zh/account/catalyst)。
 3. 在 **Catalyst** 下，选择 **Get Discord badge**。
 
 ### 加入 Insider 频道

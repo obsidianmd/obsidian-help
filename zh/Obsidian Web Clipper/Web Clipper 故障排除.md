@@ -58,7 +58,7 @@ misc {
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- 如果你使用 Flatpak，请考虑尝试[官方支持的 Obsidian 版本](https://obsidian.md/download)。
+- 如果你使用 Flatpak，请考虑尝试[官方支持的 Obsidian 版本](https://obsidian.md/zh/download)。
 - 如果你使用 KDE，请前往**系统设置** → **窗口管理** → **窗口规则**，允许 Obsidian 获取焦点，[[web-clipper-kde.png|查看截图]]。
 - 作为备选方案，尝试在 **Web Clipper 设置** → **常规**中切换到**旧版模式**。这将绕过剪贴板，通过 URI 直接保存内容。请注意，这将根据你的浏览器和 Linux 发行版限制可抓取的字符数量。
 

@@ -30,13 +30,13 @@ Obsidian 在移动端和桌面端的更新方式有所不同。
 
 ## 安装程序更新
 
-在桌面端，Obsidian 的[更新说明](https://obsidian.md/changelog/)会在你需要更新 Obsidian 安装程序版本时通知你。这是 Electron（Obsidian 所基于的框架）的版本，无法通过自动更新流程进行更新。
+在桌面端，Obsidian 的[更新说明](https://obsidian.md/zh/changelog/)会在你需要更新 Obsidian 安装程序版本时通知你。这是 Electron（Obsidian 所基于的框架）的版本，无法通过自动更新流程进行更新。
 
 某些社区插件或主题可能需要更新安装程序才能使用旧版 Electron 中不可用的新功能，它们可能会在 Obsidian 本身提示之前要求你更新安装程序版本。
 
 要更新 Obsidian 的安装程序版本：
 
-1. 前往 https://obsidian.md/download。
+1. 前往 https://obsidian.md/zh/download。
 2. 选择**下载**按钮。
 3. 如果 Obsidian 正在运行，请先关闭它。
 4. 按照[[下载与安装]]中的说明进行操作。
