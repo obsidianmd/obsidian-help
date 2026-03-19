@@ -172,59 +172,59 @@ translation=ノートのインポート
 
 [file.import/apple-journal]
 original=Import from Apple Journal
-translation=Apple Journalからのインポート
+translation=Apple Journal
 
 [file.import/apple-notes]
 original=Import from Apple Notes
-translation=Apple Notesからのインポート
+translation=Apple Notes
 
 [file.import/bear]
 original=Import from Bear
-translation=Bearからのインポート
+translation=Bear
 
 [file.import/craft]
 original=Import from Craft
-translation=Craftからのインポート
+translation=Craft
 
 [file.import/csv]
 original=Import CSV files
-translation=CSVファイルのインポート
+translation=CSV
 
 [file.import/evernote]
 original=Import from Evernote
-translation=Evernoteからのインポート
+translation=Evernote
 
 [file.import/google-keep]
 original=Import from Google Keep
-translation=Google Keepからのインポート
+translation=Google Keep
 
 [file.import/html]
 original=Import HTML files
-translation=HTMLファイルのインポート
+translation=HTML
 
 [file.import/markdown]
 original=Import Markdown files
-translation=Markdownファイルのインポート
+translation=Markdown ファイル
 
 [file.import/notion]
 original=Import from Notion
-translation=Notionからのインポート
+translation=Notion
 
 [file.import/onenote]
 original=Import from Microsoft OneNote
-translation=Microsoft OneNoteからのインポート
+translation=OneNote
 
 [file.import/roam]
 original=Import from Roam Research
-translation=Roam Researchからのインポート
+translation=Roam Research
 
 [file.import/textbundle]
 original=Import Textbundle files
-translation=Textbundleファイルのインポート
+translation=Textbundle
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
-translation=Zettelkastenノートのインポート
+translation=Zettelkasten ノート
 
 [file.install]
 original=Download and install Obsidian
