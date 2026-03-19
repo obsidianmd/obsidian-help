@@ -2,7 +2,6 @@
 permalink: import/markdown
 aliases:
   - Import Markdown files
-  - 导入笔记/导入 Markdown 文件
 localized: 2024-07-10
 ---
 

@@ -339,6 +339,28 @@ if (fs.existsSync(enAttachDir)) {
   syncAttachments(enAttachDir, localeAttachDir);
 }
 
+// ─── Unknown folder detection ─────────────────────────────────────────────────
+// Warn about folders in the locale root that have no counterpart in en/ and
+// aren't locale-specific files (filenames.txt, headings.txt, etc.)
+
+const LOCALE_ONLY_FILES = new Set(["filenames.txt", "headings.txt"]);
+const enRootDirs = new Set(
+  fs.readdirSync(enDir, { withFileTypes: true })
+    .filter(e => e.isDirectory() && !e.name.startsWith("."))
+    .map(e => e.name)
+);
+// Also allow translated folder names (values from filenamesMap)
+const translatedFolderNames = new Set(Object.values(filenamesMap.folders));
+
+for (const entry of fs.readdirSync(localeDir, { withFileTypes: true })) {
+  if (entry.name.startsWith(".")) continue;
+  if (entry.isFile() && LOCALE_ONLY_FILES.has(entry.name)) continue;
+  if (!entry.isDirectory()) continue;
+  if (enRootDirs.has(entry.name)) continue;
+  if (translatedFolderNames.has(entry.name)) continue;
+  console.log(`  UNKNOWN DIR  ${entry.name}  (not in en/ and not a known locale folder — consider deleting)`);
+}
+
 console.log(`\n--- Summary ---`);
 console.log(`  Moved (to locale path):       ${moved}`);
 console.log(`  Synced (frontmatter updated): ${synced}`);

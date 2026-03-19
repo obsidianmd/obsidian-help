@@ -2,7 +2,6 @@
 permalink: import/html
 aliases:
   - Import HTML files
-  - 导入笔记/导入 HTML 文件
 localized: 2026-03-19
 ---
 Obsidian 允许你使用官方的 [[迁移助手|Importer插件]] 轻松导入单个 HTML 文件或整个 HTML 文件夹。如果你想将整个网站保存为 [[Obsidian 风格的 Markdown 语法|Markdown]] 格式，或者想要将其他工具的数据导出为 HTML 后再导入 Obsidian，这将非常有用。

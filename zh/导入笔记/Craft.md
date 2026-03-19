@@ -20,7 +20,7 @@ Obsidian 支持从 Craft 中迁移笔记。该功能会将你的 Craft 数据转
 
 ## 将 Craft 数据导入 Obsidian
 
-接下来，你可以按照[[导入 Markdown 文件]]的说明进行操作。
+接下来，你可以按照[[Markdown 文件]]的说明进行操作。
 
 ## 故障排查
 

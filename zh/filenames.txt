@@ -176,59 +176,59 @@ translation=导入笔记
 
 [file.import/apple-journal]
 original=Import from Apple Journal
-translation=从 Apple Journal 导入
+translation=Apple Journal
 
 [file.import/apple-notes]
 original=Import from Apple Notes
-translation=从苹果备忘录中导入笔记
+translation=Apple Notes
 
 [file.import/bear]
 original=Import from Bear
-translation=从熊掌记中导入笔记
+translation=Bear
 
 [file.import/craft]
 original=Import from Craft
-translation=从 Craft 导入
+translation=Craft
 
 [file.import/csv]
 original=Import CSV files
-translation=导入 CSV 文件
+translation=CSV
 
 [file.import/evernote]
 original=Import from Evernote
-translation=从 Evernote 中导入笔记
+translation=Evernote
 
 [file.import/google-keep]
 original=Import from Google Keep
-translation=从 Google Keep 中导入笔记
+translation=Google Keep
 
 [file.import/html]
 original=Import HTML files
-translation=导入 HTML 文件
+translation=HTML
 
 [file.import/markdown]
 original=Import Markdown files
-translation=导入 Markdown 文件
+translation=Markdown 文件
 
 [file.import/notion]
 original=Import from Notion
-translation=从 Notion 中导入笔记
+translation=Notion
 
 [file.import/onenote]
 original=Import from Microsoft OneNote
-translation=从 Microsoft OneNote 中导入笔记
+translation=OneNote
 
 [file.import/roam]
 original=Import from Roam Research
-translation=从 Roam Research 中导入笔记
+translation=Roam Research
 
 [file.import/textbundle]
 original=Import Textbundle files
-translation=导入 Textbundle 文件
+translation=Textbundle
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
-translation=导入 Zettelkasten 式笔记
+translation=Zettelkasten 笔记
 
 [file.install]
 original=Download and install Obsidian
