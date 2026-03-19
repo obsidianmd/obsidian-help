@@ -11,22 +11,6 @@ permalink: /
 
 Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
 
-You can browse this site in several languages:
-
-<select class="dropdown select-location">
-<option value="">English</option>
-<option value="https://publish.obsidian.md/help-ar">العربية</option>
-<option value="https://publish.obsidian.md/help-da">Dansk</option>
-<option value="https://publish.obsidian.md/help-es">Español</option>
-<option value="https://publish.obsidian.md/help-it">Italiano</option>
-<option value="https://publish.obsidian.md/help-ja">日本語</option>
-<option value="https://publish.obsidian.md/help-km">Phéasa Khmêr</option>
-<option value="https://publish.obsidian.md/help-ko">한국어</option>
-<option value="https://publish.obsidian.md/help-pt-br">Português</option>
-<option value="https://publish.obsidian.md/help-ru">Русский</option>
-<option value="https://publish.obsidian.md/help-vi">Tiếng Việt</option>
-<option value="https://publish.obsidian.md/help-zh">中文</option>
-</select>
 
 ## Get started
 

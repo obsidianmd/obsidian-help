@@ -13,23 +13,6 @@ localized: 2026-03-18T00:00:00.000Z
 
 Bienvenue sur le site officiel d'aide d'Obsidian, où vous trouverez des conseils et des guides sur l'utilisation d'[Obsidian](https://obsidian.md). Pour la documentation de l'API, consultez la [documentation développeur Obsidian](https://docs.obsidian.md/).
 
-Vous pouvez consulter ce site dans plusieurs langues :
-
-<select class="dropdown select-location">
-<option value="">English</option>
-<option value="https://publish.obsidian.md/help-ar">العربية</option>
-<option value="https://publish.obsidian.md/help-da">Dansk</option>
-<option value="https://publish.obsidian.md/help-es">Español</option>
-<option value="https://publish.obsidian.md/help-fr">Français</option>
-<option value="https://publish.obsidian.md/help-it">Italiano</option>
-<option value="https://publish.obsidian.md/help-ja">日本語</option>
-<option value="https://publish.obsidian.md/help-km">Phéasa Khmêr</option>
-<option value="https://publish.obsidian.md/help-ko">한국어</option>
-<option value="https://publish.obsidian.md/help-pt-br">Português</option>
-<option value="https://publish.obsidian.md/help-ru">Русский</option>
-<option value="https://publish.obsidian.md/help-vi">Tiếng Việt</option>
-<option value="https://publish.obsidian.md/help-zh">中文</option>
-</select>
 
 ## Premiers pas
 

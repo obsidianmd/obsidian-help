@@ -1,11 +1,113 @@
-publish.registerMarkdownPostProcessor(async (el, ctx) => {
-  const selectElement = el.querySelector('.select-location');
-  if (selectElement) {
-    selectElement.addEventListener('change', function() {
-      var url = this.value;
-      if (url) {
-        window.location = url;
+// Language switcher
+(function () {
+  const LOCALES = [
+    { code: 'en', label: 'English',  base: 'https://help.obsidian.md' },
+    { code: 'fr', label: 'Français', base: 'https://publish.obsidian.md/help-fr' },
+    { code: 'zh', label: '中文',     base: 'https://publish.obsidian.md/help-zh' },
+  ];
+
+  const host = window.location.hostname;
+  const path = window.location.pathname;
+  let currentLocale = 'en';
+  let cleanPath = path;
+  if (host !== 'help.obsidian.md') {
+    for (const loc of ['fr', 'zh']) {
+      if (path.startsWith('/help-' + loc)) {
+        currentLocale = loc;
+        cleanPath = path.slice(('/help-' + loc).length) || '/';
+        break;
       }
+    }
+  }
+
+  const current = LOCALES.find(l => l.code === currentLocale);
+
+  const GLOBE_SVG = '<svg class="lang-switcher-globe" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>';
+  const CHEVRON_SVG = '<svg class="lang-switcher-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+
+  function buildMenu() {
+    const menu = document.createElement('ul');
+    menu.className = 'lang-switcher-menu';
+    menu.style.display = 'none';
+    for (const locale of LOCALES) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = locale.base + cleanPath + window.location.hash;
+      a.textContent = locale.label;
+      if (locale.code === currentLocale) a.className = 'is-active';
+      li.appendChild(a);
+      menu.appendChild(li);
+    }
+    return menu;
+  }
+
+  function attachToggle(btn, menu) {
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menu.style.display = menu.style.display === 'none' ? 'flex' : 'none';
+    });
+    document.addEventListener('click', function () {
+      menu.style.display = 'none';
     });
   }
-});
+
+  function buildSidebarSwitcher() {
+    const div = document.createElement('div');
+    div.className = 'lang-switcher';
+    const btn = document.createElement('button');
+    btn.className = 'lang-switcher-btn';
+    btn.type = 'button';
+    btn.innerHTML = GLOBE_SVG + '<span>' + current.label + '</span>' + CHEVRON_SVG;
+    const menu = buildMenu();
+    attachToggle(btn, menu);
+    div.appendChild(btn);
+    div.appendChild(menu);
+    return div;
+  }
+
+  function buildHeaderSwitcher() {
+    const div = document.createElement('div');
+    div.className = 'lang-switcher lang-switcher-header';
+    const btn = document.createElement('button');
+    btn.className = 'lang-switcher-btn';
+    btn.type = 'button';
+    btn.innerHTML = GLOBE_SVG + '<span>' + currentLocale.toUpperCase() + '</span>' + CHEVRON_SVG;
+    const menu = buildMenu();
+    attachToggle(btn, menu);
+    div.appendChild(btn);
+    div.appendChild(menu);
+    return div;
+  }
+
+  let sidebarDone = false;
+  let headerDone = false;
+
+  function inject() {
+    if (!sidebarDone) {
+      const col = document.querySelector('.site-body-left-column-inner');
+      if (col && !col.querySelector('.lang-switcher')) {
+        const search = col.querySelector('.search-view-outer');
+        const switcher = buildSidebarSwitcher();
+        if (search) col.insertBefore(switcher, search);
+        else col.appendChild(switcher);
+        sidebarDone = true;
+      }
+    }
+    if (!headerDone) {
+      const header = document.querySelector('.site-header');
+      if (header && !header.querySelector('.lang-switcher-header')) {
+        header.appendChild(buildHeaderSwitcher());
+        headerDone = true;
+      }
+    }
+    return sidebarDone && headerDone;
+  }
+
+  function poll() {
+    if (!inject()) {
+      requestAnimationFrame(poll);
+    }
+  }
+
+  poll();
+})();

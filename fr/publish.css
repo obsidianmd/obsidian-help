@@ -380,4 +380,124 @@ img[src$="#outline"] {
   }
 }
 
+/* Language switcher */
+@media screen and (max-width: 750px) {
+  .site-body-left-column .lang-switcher {
+    display: none;
+  }
+}
+
+.lang-switcher {
+  position: relative;
+  margin: 0;
+}
+
+.site-body-left-column .lang-switcher {
+  margin-bottom: var(--size-4-2);
+  margin-inline-end: 18px;
+}
+
+.lang-switcher-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--size-2-2);
+  width: 100%;
+  padding: 0 var(--size-2-3);
+  height: var(--input-height);
+  background: var(--interactive-normal);
+  border: none;
+  border-radius: var(--input-radius);
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: var(--input-shadow);
+  text-align: left;
+}
+
+.lang-switcher-btn:hover {
+  background: var(--interactive-hover);
+  color: var(--text-normal);
+  box-shadow: var(--input-shadow-hover);
+}
+
+.lang-switcher-btn span {
+  flex: 1;
+}
+
+.lang-switcher-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--background-secondary);
+  border: 1px solid var(--color-base-25);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-s);
+  list-style: none;
+  margin: 0;
+  padding: var(--size-2-2);
+  z-index: 100;
+  flex-direction: column;
+  gap: var(--size-2-1);
+  display: flex;
+}
+
+.lang-switcher-menu li {
+  margin: 0;
+}
+
+.lang-switcher-menu a {
+  display: block;
+  padding: var(--size-2-2) var(--size-4-2);
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  text-decoration: none;
+}
+
+.lang-switcher-menu a.is-active,
+.lang-switcher-menu a:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+/* Language switcher — mobile header */
+.lang-switcher-header {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.lang-switcher-header .lang-switcher-btn {
+  width: auto;
+  background: transparent;
+  box-shadow: none;
+  padding: 0 var(--size-2-2);
+  color: var(--text-muted);
+}
+
+.lang-switcher-header .lang-switcher-btn:hover {
+  background: var(--interactive-hover);
+  box-shadow: none;
+}
+
+.lang-switcher-header .lang-switcher-btn span {
+  flex: unset;
+  font-size: 12px;
+  font-weight: 600;
+  font-variant: all-small-caps;
+  letter-spacing: 0.025em;
+}
+
+.lang-switcher-header .lang-switcher-globe {
+  height: 20px;
+  width: 20px;
+}
+
+.lang-switcher-header .lang-switcher-menu {
+  left: auto;
+  right: 0;
+  min-width: 120px;
+}
+
 /*# sourceMappingURL=publish.css.map */
