@@ -1,5 +1,7 @@
 ---
 permalink: appearance
+aliases:
+  - Customization/Apariencia
 ---
 ### Esquema de colores
 

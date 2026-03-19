@@ -1,5 +1,7 @@
 ---
 permalink: plugins/audio-recorder
+aliases:
+  - Plugins/Grabadora de audio
 ---
 La Grabadora de audio es un [[Complementos principales|complemento principal]] que te permite grabar y guardar audio en una nota de Obsidian. Con el complemento de Grabadora de audio, puedes registrar detalles de una conferencia, reunión u otras situaciones importantes en las que no puedes escribir lo suficientemente rápido.
 

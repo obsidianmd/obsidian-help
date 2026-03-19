@@ -1,5 +1,7 @@
 ---
 permalink: catalyst
+aliases:
+  - Licenses & add-on services/Licencia de Catalyst
 ---
 La licencia Catalyst es una compra única que te da acceso anticipado a versiones beta y ayuda a apoyar el desarrollo continuo de Obsidian. Puedes apoyar a Obsidian [comprando una licencia Catalyst](https://obsidian.md/buy/catalyst).
 

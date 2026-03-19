@@ -5,6 +5,9 @@ mobile: false
 description: >-
   Con el complemento de Enlaces entrantes, puedes ver todos los enlaces
   entrantes de la nota activa.
+aliases:
+  - How to/Trabajando con backlinks
+  - Plugins/Backlinks
 ---
 Con el [[Complementos principales|complemento]] de Enlaces entrantes, puedes ver todos los _enlaces entrantes_ de la nota activa.
 

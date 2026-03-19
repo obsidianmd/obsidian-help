@@ -1,5 +1,7 @@
 ---
 permalink: plugins/bookmarks
+aliases:
+  - Plugins/Notas destacadas
 ---
 Marcadores es un [[Complementos principales|complemento principal]] que te permite acceder rápidamente a elementos que usas con frecuencia. Un marcador es un "atajo" que te lleva inmediatamente al elemento marcado.
 

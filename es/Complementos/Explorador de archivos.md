@@ -5,6 +5,8 @@ mobile: true
 description: >-
   Explorador de archivos es un complemento principal que te permite gestionar
   archivos y carpetas dentro de tu bóveda.
+aliases:
+  - Plugins/Explorador de archivos
 ---
 Explorador de archivos es un [[Complementos principales|complemento principal]] que te permite gestionar archivos y carpetas dentro de tu bóveda. Puedes explorar notas y otros [[Formatos de archivo aceptados]] en tu bóveda y realizar muchas operaciones comunes de archivos:
 

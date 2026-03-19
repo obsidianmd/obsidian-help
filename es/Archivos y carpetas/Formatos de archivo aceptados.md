@@ -3,6 +3,8 @@ permalink: file-formats
 publish: true
 mobile: true
 description: Esta página describe los formatos de archivo aceptados dentro de Obsidian.
+aliases:
+  - Advanced topics/Formatos de archivo aceptados
 ---
 Obsidian admite los siguientes tipos de archivo:
 

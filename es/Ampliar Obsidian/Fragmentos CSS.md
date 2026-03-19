@@ -5,6 +5,8 @@ mobile: true
 description: >-
   Aprende cómo cambiar partes de la apariencia de la aplicación Obsidian sin
   crear un tema completo.
+aliases:
+  - How to/Agregar estilos personalizados
 ---
 Aprende cómo modificar aspectos de la apariencia de la aplicación Obsidian sin necesidad de [construir un tema](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 

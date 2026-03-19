@@ -1,5 +1,7 @@
 ---
 permalink: plugins/slides
+aliases:
+  - Plugins/Diapositivas
 ---
 Diapositivas es un [[Complementos principales|complemento principal]] que te permite crear presentaciones a partir de tus notas. Para iniciar una presentación:
 

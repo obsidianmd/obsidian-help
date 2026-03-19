@@ -1,5 +1,7 @@
 ---
 permalink: drag-and-drop
+aliases:
+  - Advanced topics/Arrastrar y soltar
 ---
 Hay muchas formas de arrastrar y soltar elementos en Obsidian. Esto incluye pestañas, archivos, carpetas y contenido.
 

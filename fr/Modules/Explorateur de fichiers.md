@@ -7,6 +7,8 @@ publish: true
 mobile: true
 aliases:
   - Modules/Modules principaux/Explorateur de fichiers
+  - Plugins/Modules principaux/Explorateur de fichiers
+  - Plugins/Open in default app
 localized: '2026-03-18'
 ---
 L'explorateur de fichiers est un [[Modules principaux|module principal]] qui vous permet de gérer les fichiers et dossiers à l'intérieur de votre coffre. Vous pouvez parcourir les notes et autres [[Formats de fichiers acceptés]] de votre coffre et effectuer de nombreuses opérations courantes sur les fichiers :

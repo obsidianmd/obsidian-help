@@ -5,6 +5,8 @@ cssclasses:
 publish: true
 mobile: false
 description: null
+aliases:
+  - How to/Crear notas
 ---
 Las notas en Obsidian se almacenan como archivos de texto sin formato. Esto significa que tus datos son duraderos y no están atrapados en un formato propietario. Al escribir tus notas en texto sin formato, sobrevivirán a cualquier aplicación, incluso al propio Obsidian.
 

@@ -1,5 +1,7 @@
 ---
 permalink: translations
+aliases:
+  - Advanced topics/Contribuyendo a Obsidian
 ---
 Si conoces otro idioma, preferiblemente de forma nativa, puedes ayudar a traducir la interfaz de usuario de Obsidian o la documentación.
 

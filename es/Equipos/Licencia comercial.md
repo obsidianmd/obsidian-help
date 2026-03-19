@@ -1,5 +1,7 @@
 ---
 permalink: teams/license
+aliases:
+  - Licenses & add-on services/Licencia comercial
 ---
 Obsidian es gratuito de usar y está 100% respaldado por los usuarios. Las organizaciones pueden elegir apoyar a Obsidian comprando licencias comerciales.
 

@@ -7,6 +7,9 @@ mobile: true
 description: >-
   Aprende cómo enlazar a notas, adjuntos y otros archivos desde tus notas,
   usando enlaces internos.
+aliases:
+  - How to/Enlace a bloques
+  - How to/Enlace interno
 ---
 Aprende cómo enlazar a notas, adjuntos y otros archivos desde tus notas, usando _enlaces internos_. Al enlazar notas, puedes crear una red de conocimiento. ^b15695
 

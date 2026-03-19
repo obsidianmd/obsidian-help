@@ -1,5 +1,7 @@
 ---
 permalink: attachments
+aliases:
+  - How to/Administrar archivos adjuntos
 ---
 Puedes importar [[Formatos de archivo aceptados]], o _adjuntos_, a tu bóveda, como imágenes, archivos de audio o PDFs. Los adjuntos son archivos regulares a los que puedes acceder usando tu sistema de archivos. Los adjuntos pueden ser [[Incrustar archivos|incrustados]].
 

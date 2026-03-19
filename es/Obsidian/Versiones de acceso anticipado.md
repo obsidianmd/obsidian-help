@@ -1,5 +1,7 @@
 ---
 permalink: early-access
+aliases:
+  - Advanced topics/Compilaciones internas
 ---
 Obtén acceso anticipado a las próximas versiones habilitando las _versiones de acceso anticipado_. Las versiones de acceso anticipado solo están disponibles para usuarios con una [[Licencia Catalyst]].
 

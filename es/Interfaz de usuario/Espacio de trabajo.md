@@ -5,6 +5,8 @@ mobile: true
 description: >-
   Aprende sobre el espacio de trabajo de Obsidian y sus componentes principales
   en escritorio y móvil.
+aliases:
+  - Panes/Panel vinculado
 ---
 El espacio de trabajo es el contenedor principal de todos los componentes que conforman la interfaz de Obsidian. Consiste en diferentes elementos organizados alrededor de tus notas, permitiéndote personalizar cómo visualizas e interactúas con tu contenido.
 

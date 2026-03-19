@@ -1,6 +1,8 @@
 ---
 permalink: plugins/word-count
 description: Aprende sobre el complemento principal Conteo de palabras.
+aliases:
+  - Plugins/Recuento de palabras
 ---
 Conteo de palabras es un [[Complementos principales|complemento principal]] que muestra el número de palabras y caracteres de la nota activa.
 

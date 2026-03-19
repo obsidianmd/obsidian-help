@@ -2,6 +2,7 @@
 permalink: plugins/command-palette
 aliases:
   - Modules/Modules principaux/Palette de commandes
+  - Plugins/Modules principaux/Palette de commandes
 localized: '2026-03-18'
 ---
 Le [[Modules principaux|module]] Palette de commandes vous permet d'exécuter n'importe quelle commande directement depuis votre clavier. Il vous permet également d'explorer toutes les commandes disponibles et leurs [[Raccourcis clavier|raccourcis clavier]].

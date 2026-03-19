@@ -1,5 +1,7 @@
 ---
 permalink: updates
+aliases:
+  - How to/Actualizar Obsidian
 ---
 El proceso de actualización de Obsidian es diferente en dispositivos móviles y de escritorio.
 

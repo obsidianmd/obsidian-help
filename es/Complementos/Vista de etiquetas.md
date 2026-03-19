@@ -1,5 +1,7 @@
 ---
 permalink: plugins/tags
+aliases:
+  - Plugins/Panel de etiquetas
 ---
 El panel de Etiquetas es un [[Complementos principales|complemento principal]] que lista todas las etiquetas en tu bóveda y el número de notas para cada etiqueta.
 

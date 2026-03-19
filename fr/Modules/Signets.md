@@ -2,6 +2,7 @@
 permalink: plugins/bookmarks
 aliases:
   - Modules/Starred notes
+  - Plugins/Starred notes
 localized: '2026-03-18'
 ---
 Signets est un [[Modules principaux|module principal]] qui vous permet d'accéder rapidement aux éléments que vous utilisez souvent. Un signet est un « raccourci » qui vous amène immédiatement à l'élément mis en signet.

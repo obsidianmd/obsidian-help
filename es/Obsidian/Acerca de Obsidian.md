@@ -1,5 +1,7 @@
 ---
 permalink: obsidian
+aliases:
+  - Obsidian/Obsidian
 ---
 ## ¿Qué es Obsidian?
 

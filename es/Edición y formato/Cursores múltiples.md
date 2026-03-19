@@ -1,5 +1,7 @@
 ---
 permalink: multiple-cursors
+aliases:
+  - How to/Trabajar con varios cursores
 ---
 Obsidian te permite editar texto en múltiples lugares al mismo tiempo usando cursores múltiples. Puedes añadir cursores adicionales manteniendo presionado `Alt` (u `Option` en macOS) y seleccionando otra posición en la nota.
 

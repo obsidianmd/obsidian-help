@@ -1,5 +1,7 @@
 ---
 permalink: uri
+aliases:
+  - Advanced topics/Usando URI de Obsidian
 ---
 URI de Obsidian es un protocolo URI personalizado compatible con Obsidian que te permite activar diversas acciones, como abrir una nota o crear una nota. El URI de Obsidian permite la automatización y flujos de trabajo entre aplicaciones.
 

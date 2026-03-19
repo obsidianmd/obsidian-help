@@ -1,5 +1,7 @@
 ---
 permalink: hotkeys
+aliases:
+  - How to/Atajo de teclado
 ---
 Los atajos de teclado son combinaciones de teclas personalizables para los comandos de Obsidian. Puedes asignar cualquier combinación de teclas para ejecutar comandos como abrir archivos, insertar plantillas o activar complementos.
 

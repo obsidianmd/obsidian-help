@@ -8,6 +8,8 @@ description: >-
   Las propiedades permiten organizar información sobre una nota. Las propiedades
   contienen datos estructurados como texto, enlaces, fechas, casillas de
   verificación y números.
+aliases:
+  - Advanced topics/Asunto principal de YAML
 ---
 Las propiedades permiten organizar información sobre una nota. Las propiedades contienen datos estructurados como texto, enlaces, fechas, casillas de verificación y números. Las propiedades también se pueden usar en combinación con [[Complementos de la comunidad]] que pueden hacer cosas útiles con tus datos estructurados.
 

@@ -1,5 +1,7 @@
 ---
 permalink: plugins/unique-note
+aliases:
+  - Plugins/Prefijo Zettelkasten
 ---
 El Creador de notas únicas es un [[Complementos principales|complemento principal]] que te permite crear notas con nombres basados en el tiempo, también conocidas como notas Zettelkasten.
 

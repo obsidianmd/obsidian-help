@@ -3,9 +3,11 @@ permalink: plugins/search
 publish: true
 mobile: true
 description: >-
-  Búsqueda es un complemento principal que te ayuda a encontrar datos en tu bóveda de
-  Obsidian mediante el uso de términos de búsqueda y operadores para acotar
-  resultados.
+  Búsqueda es un complemento principal que te ayuda a encontrar datos en tu
+  bóveda de Obsidian mediante el uso de términos de búsqueda y operadores para
+  acotar resultados.
+aliases:
+  - Plugins/Buscar
 ---
 Búsqueda es un [[Complementos principales|complemento principal]] que te ayuda a encontrar datos en tu bóveda de Obsidian mediante el uso de términos de búsqueda y operadores para acotar resultados.
 

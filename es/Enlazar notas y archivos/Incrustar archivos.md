@@ -2,6 +2,8 @@
 permalink: embeds
 cssclasses:
   - soft-embed
+aliases:
+  - How to/Incrustar archivos
 ---
 DESCRIPTION: Aprende cómo puedes incrustar otras notas y archivos multimedia en tus notas. Al incrustar archivos en tus notas, puedes reutilizar contenido en toda tu bóveda.
 

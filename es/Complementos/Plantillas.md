@@ -5,8 +5,10 @@ cssclasses:
 publish: true
 mobile: true
 description: >-
-  Plantillas es un complemento principal que te permite insertar fragmentos de texto
-  predefinidos en tu nota activa.
+  Plantillas es un complemento principal que te permite insertar fragmentos de
+  texto predefinidos en tu nota activa.
+aliases:
+  - Plugins/Plantillas
 ---
 Plantillas es un [[Complementos principales|complemento principal]] que te permite insertar fragmentos de texto predefinidos en tu nota activa.
 

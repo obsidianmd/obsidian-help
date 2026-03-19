@@ -1,5 +1,7 @@
 ---
 permalink: plugins/command-palette
+aliases:
+  - Plugins/Paleta de comandos
 ---
 El [[Complementos principales|complemento]] de la Paleta de comandos te permite ejecutar cualquier comando directamente desde tu teclado. También te permite explorar todos los comandos disponibles y sus [[Teclas de acceso rápido|atajos de teclado]].
 

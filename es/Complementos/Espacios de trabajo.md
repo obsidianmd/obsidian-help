@@ -1,5 +1,7 @@
 ---
 permalink: plugins/workspaces
+aliases:
+  - Plugins/Espacios de trabajo
 ---
 Espacios de trabajo es un [[Complementos principales|complemento principal]] que te permite gestionar y cambiar entre diferentes disposiciones de la aplicación dependiendo de tu tarea, por ejemplo, llevar un diario, leer o escribir.
 

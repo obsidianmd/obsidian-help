@@ -3,6 +3,9 @@ permalink: publish
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+aliases:
+  - Licenses & add-on services/Obsidian Publish
+  - Plugins/Publish
 ---
 [Obsidian Publish](https://obsidian.md/publish) es un servicio de alojamiento en la nube que te permite publicar tus notas como un wiki, base de conocimiento, documentación o jardín digital.
 

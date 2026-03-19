@@ -2,6 +2,8 @@
 permalink: import
 cssclasses:
   - list-cards
+aliases:
+  - How to/Importar datos
 ---
 Las aplicaciones van y vienen, pero tus datos deberían perdurar. Obsidian utiliza archivos Markdown de texto sin formato no propietarios almacenados localmente en tu dispositivo. Tienes control total sobre tus datos, lo que significa que puedes usar Obsidian sin conexión y cambiar a otra aplicación fácilmente si alguna vez lo necesitas.
 

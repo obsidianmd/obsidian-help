@@ -2,6 +2,8 @@
 permalink: aliases
 cssclasses:
   - soft-embed
+aliases:
+  - How to/Agregar alias a la nota
 ---
 Si deseas hacer referencia a un archivo usando diferentes nombres, considera agregar _alias_ a la nota. Un alias es un nombre alternativo para una nota.
 

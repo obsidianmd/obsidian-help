@@ -3,6 +3,8 @@ permalink: settings
 publish: true
 mobile: true
 description: Aprende cómo personalizar Obsidian a través de la interfaz de Ajustes.
+aliases:
+  - How to/Cambiar ajustes
 ---
 Los ajustes te permiten personalizar tu experiencia con Obsidian. Configura opciones generales, preferencias del editor, apariencia, atajos de teclado, y gestiona tanto los complementos principales como los de la comunidad.
 

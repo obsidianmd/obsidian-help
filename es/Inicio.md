@@ -4,6 +4,8 @@ cssclasses:
   - list-cards
   - hide-title
   - list-cards-mobile-full
+aliases:
+  - Empieza aqui
 ---
 # Ayuda de Obsidian
 

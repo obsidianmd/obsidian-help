@@ -3,6 +3,8 @@ permalink: payment
 cssclasses:
   - list-cards
   - list-cards-mobile-full
+aliases:
+  - Licenses & add-on services/Obsidian Unlimited
 ---
 Obsidian ofrece varios servicios y licencias disponibles para comprar.
 

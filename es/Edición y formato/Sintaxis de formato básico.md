@@ -3,6 +3,8 @@ permalink: syntax
 publish: true
 mobile: true
 description: 'Aprende cómo aplicar formato básico a tus notas en Obsidian, usando Markdown.'
+aliases:
+  - How to/Formatear tus notas
 ---
 Aprende cómo aplicar formato básico a tus notas, usando [Markdown](https://daringfireball.net/projects/markdown/). Para una sintaxis de formato más avanzada, consulta [[Sintaxis de formato avanzado]].
 

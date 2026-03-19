@@ -5,6 +5,8 @@ mobile: true
 description: >-
   Aprende a abrir, organizar y gestionar pestañas en Obsidian, incluyendo fijar,
   apilar y vistas enlazadas.
+aliases:
+  - How to/Trabajar con varias notas
 ---
 Las pestañas en Obsidian funcionan de manera similar a las pestañas de otras aplicaciones, como los navegadores web.
 

@@ -1,5 +1,7 @@
 ---
 permalink: plugins/daily-notes
+aliases:
+  - Plugins/Notas diarias
 ---
 Notas diarias es un [[Complementos principales|complemento principal]] que abre una nota basada en la fecha de hoy, o la crea si no existe. Usa las notas diarias para crear diarios, listas de tareas o registros diarios de cosas que descubriste durante el día.
 

@@ -1,5 +1,7 @@
 ---
 permalink: plugins/outline
+aliases:
+  - Plugins/Esquema
 ---
 Esquema es un [[Complementos principales|complemento principal]] que lista los encabezados en la nota activa.
 

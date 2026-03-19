@@ -5,6 +5,8 @@ mobile: false
 description: >-
   Aprende cómo obtener una mejor visión general de notas grandes usando el
   plegado para ocultar partes de la nota
+aliases:
+  - How to/Plegable
 ---
 Aprende cómo obtener una mejor visión general de notas grandes usando el _plegado_ para ocultar partes de la nota. El plegado es útil cuando creas esquemas para tus notas y cuando quieres enfocarte en lo que estás trabajando en el momento.
 

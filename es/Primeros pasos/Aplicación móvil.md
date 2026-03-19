@@ -7,6 +7,8 @@ mobile: true
 description: >-
   Aprende sobre las funciones específicas para móvil en Obsidian, incluyendo la
   barra de herramientas móvil, acciones rápidas y la barra de navegación.
+aliases:
+  - Obsidian/Obsidian Movil
 ---
 Las aplicaciones móviles de Obsidian están disponibles para [[Obsidian para iOS e iPadOS|iOS e iPadOS]] y [[Obsidian para Android|Android]]. Puedes descargarlas desde la [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) y [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
 

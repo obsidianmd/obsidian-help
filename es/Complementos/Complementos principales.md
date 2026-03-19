@@ -6,8 +6,10 @@ cssclasses:
 publish: true
 mobile: true
 description: >-
-  Esta página lista los complementos principales que vienen instalados con Obsidian,
-  y los complementos de la comunidad que también mantienen.
+  Esta página lista los complementos principales que vienen instalados con
+  Obsidian, y los complementos de la comunidad que también mantienen.
+aliases:
+  - Plugins/Lista de complementos
 ---
 Esta página lista los complementos principales que vienen instalados con Obsidian. Los complementos principales son construidos y mantenidos oficialmente por el equipo de Obsidian, y están incluidos dentro de la aplicación.
 

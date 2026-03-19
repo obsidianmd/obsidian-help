@@ -2,6 +2,8 @@
 permalink: refunds
 cssclasses:
   - soft-embed
+aliases:
+  - Licenses & add-on services/Politica de reembolso
 ---
 Ofrecemos reembolsos completos dentro de los 7 días posteriores a la compra, sin preguntas, para los siguientes servicios:
 

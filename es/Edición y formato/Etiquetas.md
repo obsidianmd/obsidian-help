@@ -1,5 +1,7 @@
 ---
 permalink: tags
+aliases:
+  - How to/Trabajar con etiquetas
 ---
 Las etiquetas son palabras clave o temas que te ayudan a encontrar rápidamente las notas que deseas.
 

@@ -2,6 +2,8 @@
 permalink: community-plugins
 mobile: false
 description: Aprende cómo ampliar Obsidian con complementos creados por la comunidad.
+aliases:
+  - Advanced topics/Complementos de terceros
 ---
 Aprende cómo ampliar Obsidian con complementos creados por la comunidad. Usa complementos para adaptar Obsidian a tus necesidades específicas, como soporte para formatos de archivo adicionales o integración con un servicio de terceros.
 

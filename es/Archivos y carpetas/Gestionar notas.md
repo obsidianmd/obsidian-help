@@ -3,6 +3,9 @@ permalink: manage-notes
 publish: true
 mobile: false
 description: null
+aliases:
+  - Advanced topics/Eliminando archivos
+  - How to/Cambiar el nombre de las notas
 ---
 Puedes gestionar archivos y carpetas de varias maneras, utilizando [[Teclas de acceso rápido]], [[Paleta de comandos|comandos]], o el [[Explorador de archivos]].
 
