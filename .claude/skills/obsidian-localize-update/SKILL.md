@@ -17,7 +17,7 @@ Start each step with `--dry-run` so the user can review before committing.
 
 ### Step 1 — Sync structure from EN
 
-Picks up new EN files (creates stubs) and removes deleted pages. Does NOT touch already-translated content.
+Picks up new EN files (creates stubs), removes deleted pages, and cleans up empty legacy folders. Does NOT touch already-translated content.
 
 ```bash
 npx tsx scripts/sync-locale.ts <locale> --dry-run   # preview
