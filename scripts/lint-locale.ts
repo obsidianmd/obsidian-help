@@ -294,7 +294,7 @@ function applyFixes(absPath: string, issues: Issue[], parsedData: Record<string,
   }
 
   if (changed) {
-    const newContent = matter.stringify(lines.join("\n"), parsedData);
+    const newContent = matter.stringify(lines.join("\n"), parsedData, { lineWidth: -1 });
     fs.writeFileSync(absPath, newContent, "utf8");
   }
   return changed;

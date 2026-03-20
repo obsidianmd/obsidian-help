@@ -531,7 +531,7 @@ async function main() {
         } else {
           console.log(`  REMOVE  ${localeRelPath}`);
           if (!dryRun) {
-            fs.writeFileSync(localeAbsPath, matter.stringify(updated, localeParsed.data), "utf8");
+            fs.writeFileSync(localeAbsPath, matter.stringify(updated, localeParsed.data, { lineWidth: -1 }), "utf8");
           }
           applied++;
         }
@@ -595,7 +595,7 @@ async function main() {
       const updatedContent = await callLLM(llmConfig, systemPrompt, userMessage);
       fs.writeFileSync(
         localeAbsPath,
-        matter.stringify(updatedContent.trim() + "\n", localeParsed.data),
+        matter.stringify(updatedContent.trim() + "\n", localeParsed.data, { lineWidth: -1 }),
         "utf8",
       );
       console.log(`    ✓ updated`);

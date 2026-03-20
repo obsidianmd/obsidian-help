@@ -524,7 +524,7 @@ async function saveTranslated(
   const newFm = { ...file.frontmatter };
   delete newFm["localized"];
   delete newFm["needs-retranslation"];
-  const newContent = matter.stringify(fixed, newFm);
+  const newContent = matter.stringify(fixed, newFm, { lineWidth: -1 });
   fs.writeFileSync(file.absPath, newContent, "utf8");
 
   console.log(`    ✓ saved (${Object.keys(newEntries).length} heading(s) mapped)`);
@@ -544,7 +544,7 @@ function runFixLinks(headingsMap: HeadingsMap, basenameToPermalink: Map<string, 
         const headingFixed = fixHeadingLinks(parsed.content, headingsMap, basenameToPermalink);
         const updated = fixFilenameLinks(headingFixed, enToLocale);
         if (updated !== parsed.content) {
-          const newContent = matter.stringify(updated, parsed.data);
+          const newContent = matter.stringify(updated, parsed.data, { lineWidth: -1 });
           if (!dryRun) fs.writeFileSync(full, newContent, "utf8");
           const rel = path.relative(localeDir, full);
           console.log(`  FIX-LINKS  ${rel}`);
@@ -626,7 +626,7 @@ async function main() {
         const raw2 = fs.readFileSync(f.absPath, "utf8");
         const parsed = matter(raw2);
         const newFm = { ...parsed.data, description: frDesc };
-        const descContent = matter.stringify(parsed.content, newFm);
+        const descContent = matter.stringify(parsed.content, newFm, { lineWidth: -1 });
         fs.writeFileSync(f.absPath, descContent, "utf8");
         console.log(`  DESC  ${f.relPath}`);
         updated++;

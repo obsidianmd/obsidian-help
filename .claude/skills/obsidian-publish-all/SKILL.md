@@ -9,7 +9,14 @@ The working directory is the obsidian-help repo root.
 
 ## Active locales
 
-`en`, `ja`, `pt-br`, `es`, `zh`, `fr`
+- `en`
+- `es`
+- `fr`
+- `it`
+- `ja`
+- `pt-BR`
+- `ru`
+- `zh`
 
 ## Commands
 
