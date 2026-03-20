@@ -1,0 +1,747 @@
+[file./]
+original=Home
+translation=Home
+
+[file.2fa]
+original=2-factor authentication
+translation=Autenticazione a 2 fattori
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Sintassi di formattazione avanzata
+
+[file.aliases]
+original=Aliases
+translation=Alias
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian per Android
+
+[file.appearance]
+original=Appearance
+translation=Aspetto
+
+[file.attachments]
+original=Attachments
+translation=Allegati
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Backup dei file di Obsidian
+
+[file.bases]
+original=Introduction to Bases
+translation=Introduzione a Base
+
+[file.bases/create-base]
+original=Create a base
+translation=Crea una base
+
+[file.bases/functions]
+original=Functions
+translation=Funzioni
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Sintassi di Base
+
+[file.bases/views]
+original=Views
+translation=Viste
+
+[file.bases/views/cards]
+original=Cards view
+translation=Vista schede
+
+[file.bases/views/list]
+original=List view
+translation=Vista lista
+
+[file.bases/views/map]
+original=Map view
+translation=Vista mappa
+
+[file.bases/views/table]
+original=Table view
+translation=Vista tabella
+
+[file.callouts]
+original=Callouts
+translation=Riquadri
+
+[file.catalyst]
+original=Catalyst license
+translation=Licenza Catalyst
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Codice di condotta della comunità
+
+[file.community-plugins]
+original=Community plugins
+translation=Plugin della comunità
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Cartella di configurazione
+
+[file.create-note]
+original=Create your first note
+translation=Crea la tua prima nota
+
+[file.credit]
+original=Obsidian Credit
+translation=Credito Obsidian
+
+[file.credits]
+original=Credits
+translation=Crediti
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Come Obsidian archivia i dati
+
+[file.developers]
+original=Developers
+translation=Sviluppatori
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Sconti per istruzione e non-profit
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Trascina e rilascia
+
+[file.early-access]
+original=Early access versions
+translation=Versioni ad accesso anticipato
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Viste e modalità di modifica
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Scorciatoie di modifica
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Incorporare pagine web
+
+[file.embeds]
+original=Embed files
+translation=Incorporare file
+
+[file.file-formats]
+original=Accepted file formats
+translation=Formati di file accettati
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Contributi finanziari
+
+[file.folding]
+original=Folding
+translation=Comprimi/espandi
+
+[file.formulas]
+original=Formulas
+translation=Formule
+
+[file.glossary]
+original=Glossary
+translation=Glossario
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Tasti di scelta rapida
+
+[file.html]
+original=HTML content
+translation=Contenuto HTML
+
+[file.import]
+original=Import notes
+translation=Importa note
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Importa da Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Importa da Apple Note
+
+[file.import/bear]
+original=Import from Bear
+translation=Importa da Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=Importa da Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=Importa file CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Importa da Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Importa da Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=Importa file HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Importa file Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=Importa da Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Importa da Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Importa da Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Importa file Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Importa note Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=Scarica e installa Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian per iOS e iPadOS
+
+[file.language]
+original=Language settings
+translation=Impostazioni della lingua
+
+[file.link-notes]
+original=Link notes
+translation=Collega le note
+
+[file.links]
+original=Internal links
+translation=Collegamenti interni
+
+[file.manage-notes]
+original=Manage notes
+translation=Gestisci le note
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Gestisci casseforti
+
+[file.mobile]
+original=Mobile app
+translation=App mobile
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Cursori multipli
+
+[file.obsidian]
+original=About Obsidian
+translation=Informazioni su Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Sito web ufficiale
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Introduzione a licenze e pagamenti
+
+[file.plugin-security]
+original=Plugin security
+translation=Sicurezza dei plugin
+
+[file.plugins]
+original=Core plugins
+translation=Plugin principali
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Registratore audio
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Riferimenti
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Segnalibri
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Riquadro comandi
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Note del giorno
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Esplora file
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Recupero file
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Strumento importazione Markdown
+
+[file.plugins/graph]
+original=Graph view
+translation=Vista grafo
+
+[file.plugins/importer]
+original=Importer
+translation=Importatore
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Gestione note
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Collegamenti in uscita
+
+[file.plugins/outline]
+original=Outline
+translation=Struttura
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Anteprima pagina
+
+[file.plugins/properties]
+original=Properties view
+translation=Vista proprietà
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Selezione rapida
+
+[file.plugins/random-note]
+original=Random note
+translation=Note casuali
+
+[file.plugins/search]
+original=Search
+translation=Cerca
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Comandi Slash
+
+[file.plugins/slides]
+original=Slides
+translation=Diapositive
+
+[file.plugins/tags]
+original=Tags view
+translation=Pannello delle etichette
+
+[file.plugins/templates]
+original=Templates
+translation=Modelli
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Note univoche
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Visualizzatore web
+
+[file.plugins/word-count]
+original=Word count
+translation=Conteggio parole
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Aree di lavoro
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Finestre pop-out
+
+[file.properties]
+original=Properties
+translation=Proprietà
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Introduzione a Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=Analisi
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Collaborare su un sito Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=Personalizzare il sito
+
+[file.publish/domains]
+original=Custom domains
+translation=Domini personalizzati
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Limitazioni di Publish
+
+[file.publish/media]
+original=Media files
+translation=File multimediali
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Permalink
+
+[file.publish/publish]
+original=Publish your content
+translation=Pubblicare i contenuti
+
+[file.publish/security]
+original=Security and privacy
+translation=Sicurezza e privacy
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Configurare Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=Gestione siti
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Anteprime link per social media
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Risoluzione dei problemi di Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=Politica di rimborso
+
+[file.resources]
+original=Help and support
+translation=Aiuto e supporto
+
+[file.ribbon]
+original=Ribbon
+translation=Barra multifunzione
+
+[file.sales-tax]
+original=Sales tax
+translation=Imposta sulle vendite
+
+[file.sandbox]
+original=Sandbox vault
+translation=Vault sandbox
+
+[file.settings]
+original=Settings
+translation=Impostazioni
+
+[file.sidebar]
+original=Sidebar
+translation=Barra laterale
+
+[file.snippets]
+original=CSS snippets
+translation=Snippet CSS
+
+[file.status-bar]
+original=Status bar
+translation=Barra di stato
+
+[file.style-guide]
+original=Style guide
+translation=Guida di stile
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Collegamenti simbolici e giunzioni
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Introduzione a Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Sincronizza le note tra dispositivi
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Collaborare su un vault condiviso
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Domande frequenti
+
+[file.sync/headless]
+original=Headless Sync
+translation=Sync headless
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Icona di stato e messaggi
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Aggiornare la crittografia di Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Piani e limiti di archiviazione
+
+[file.sync/region]
+original=Sync regions
+translation=Regioni di Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=Sicurezza e privacy
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Impostazioni sincronizzazione e sincronizzazione selettiva
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Configurare Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Passare a Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Risoluzione problemi di Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Vault locali e remoti
+
+[file.sync/version-history]
+original=Version history
+translation=Cronologia versioni
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Sintassi di formattazione di base
+
+[file.tabs]
+original=Tabs
+translation=Schede
+
+[file.tags]
+original=Tags
+translation=Etichette
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian per team
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Distribuire Obsidian nel proprio team
+
+[file.teams/license]
+original=Commercial license
+translation=Licenza commerciale
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publish per team
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Considerazioni sulla sicurezza per i team
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Sync per team
+
+[file.themes]
+original=Themes
+translation=Temi
+
+[file.translations]
+original=Translations
+translation=Traduzioni
+
+[file.updates]
+original=Update Obsidian
+translation=Aggiorna Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Crea un vault
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Introduzione a Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Acquisire pagine web
+
+[file.web-clipper/filters]
+original=Filters
+translation=Filtri
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Evidenziare pagine web
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Interpretare pagine web
+
+[file.web-clipper/logic]
+original=Logic
+translation=Logica
+
+[file.web-clipper/reader]
+original=Reader
+translation=Lettore
+
+[file.web-clipper/templates]
+original=Templates
+translation=Modelli
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Risoluzione problemi di Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=Variabili
+
+[file.workspace]
+original=Workspace
+translation=Area di lavoro
+
+[folder.audio]
+original=audio
+translation=audio
+
+[folder.Changelog]
+original=Changelog
+translation=Registro delle modifiche
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Contribuire a Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Modifica e formattazione
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Estendere Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=File e cartelle
+
+[folder.Getting started]
+original=Getting started
+translation=Per iniziare
+
+[folder.icons]
+original=icons
+translation=icone
+
+[folder.Import notes]
+original=Import notes
+translation=Importa note
+
+[folder.Layouts]
+original=Layouts
+translation=Layout
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Licenze e pagamento
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Collegamento di note e file
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Plugins
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Interfaccia utente
+
+[folder.video]
+original=video
+translation=video

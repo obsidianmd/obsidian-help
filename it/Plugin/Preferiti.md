@@ -1,3 +1,0 @@
-I Preferiti sono un modo conveniente per tenere a portata di mano le note più importanti. Quando il plugin è abilitato, appare l'icona di una stella sulla barra laterale sinistra che consente di visualizzare l'elenco delle note preferite.
-
-Per aggiungere file ai preferiti sono disponibili diverse opzioni. È possibile fare clic sul file con il tasto destro in Esplora Risorse, fare clic su "Altre opzioni" quando una nota è aperta, digitare "Preferiti" nel [[Riquadro comandi]] o impostare [[Tasti di scelta rapida]].
