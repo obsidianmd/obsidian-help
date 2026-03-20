@@ -3,7 +3,7 @@ permalink: import/markdown
 aliases:
   - Import Markdown files
 ---
-由于 Obsidian 使用Markdown（`.md`）文件作为笔记的主要格式，这使得将Markdown 文件导入 Obsidian 变得非常简单。许多应用程序支持将数据导出为Markdown 文件。
+由于 Obsidian 使用 Markdown（`.md`）文件作为笔记的主要格式，这使得将 Markdown 文件导入 Obsidian 变得非常简单。许多应用程序支持将数据导出为 Markdown 文件。
 
 有几种方法可以将 Markdown 文件添加到 Obsidian 仓库中：
 
@@ -12,4 +12,4 @@ aliases:
 
 ### 调整 Markdown 语法
 
-Obsidian使用[[Obsidian 风格的 Markdown 语法]]。一些应用程序使用略有不同的Markdown 语法。你可以使用 [[Markdown 格式转换器]] 将文件转换为 Obsidian 的Markdown 语法。
+Obsidian 使用 [[Obsidian 风格的 Markdown 语法]]。一些应用程序使用略有不同的 Markdown 语法。你可以使用 [[Markdown 格式转换器]] 将文件转换为 Obsidian 的 Markdown 语法。

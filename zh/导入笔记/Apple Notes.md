@@ -3,13 +3,13 @@ aliases:
   - Import from Apple Notes
 permalink: import/apple-notes
 ---
-你可以借助[[迁移助手|Importer插件]]轻松将笔记从 Apple Notes 中迁移出来。这将把你苹果系统上的备忘录数据转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
+你可以借助 [[迁移助手|Importer 插件]]轻松将笔记从 Apple Notes 中迁移出来。这将把你苹果系统上的备忘录数据转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
 
 目前，该插件仅支持在 macOS 桌面端将笔记从 Apple Notes 迁出。
 
 ## 将 Apple Notes 数据导入 Obsidian
 
-你需要安装官方的Obsidian [[迁移助手]]插件，你可以[在这里安装](obsidian://show-plugin?id=obsidian-importer)。
+你需要安装官方的 Obsidian [[迁移助手]]插件，你可以[在这里安装](obsidian://show-plugin?id=obsidian-importer)。
 
 1. 打开 **[[设置]]**。
 2. 进入 **第三方插件** 并[安装 Importer](obsidian://show-plugin?id=obsidian-importer)。

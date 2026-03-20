@@ -19,12 +19,12 @@ aliases:
 
 ## 将熊掌记数据导入 Obsidian
 
-你需要安装Obsidian 官方的[[迁移助手|Importer 插件]]插件，你可以在[这里安装](obsidian://show-plugin?id=obsidian-importer)。
+你需要安装 Obsidian 官方的 [[迁移助手|Importer 插件]]插件，你可以在[这里安装](obsidian://show-plugin?id=obsidian-importer)。
 
 1. 打开**[[设置]]**。
 2. 进入**社区插件市场**并[安装 Importer](obsidian://show-plugin?id=obsidian-importer)。
 3. 启用 Importer 插件。
-4. 使用命令面板或功能区按钮打开**Importer**插件。
+4. 使用命令面板或功能区按钮打开 **Importer** 插件。
 5. 在**文件格式**下选择**Bear (.bear2bk)**。
 6. 选择你的熊掌记备份文件位置。
 7. 点击**导入**，等待导入完成。

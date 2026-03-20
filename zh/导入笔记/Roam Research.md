@@ -14,7 +14,7 @@ aliases:
 
 ## 将 Roam Research 数据导入 Obsidian
 
-你需要安装Obsidian官方的 [[迁移助手]] 插件，你可以[在这里安装](obsidian://show-plugin?id=obsidian-importer)。
+你需要安装 Obsidian 官方的 [[迁移助手]] 插件，你可以[在这里安装](obsidian://show-plugin?id=obsidian-importer)。
 
 1. 打开**[[设置]]**。
 2. 进入**社区插件市场**并[安装 Importer](obsidian://show-plugin?id=obsidian-importer)。
