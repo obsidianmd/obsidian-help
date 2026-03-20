@@ -4,11 +4,12 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-[Obsidian Publish](https://obsidian.md/publish)는 노트를 위키, 지식 베이스, 문서 또는 디지털 가든으로 게재할 수 있는 클라우드 기반 호스팅 서비스입니다.
 
-세상과 공유하고 싶은 노트를 선택하고 **게재**를 누르면, `publish.obsidian.md/your-site`에서 호스팅됩니다.
+[Obsidian Publish](https://obsidian.md/publish)는 노트를 위키, 지식 베이스, 문서 또는 디지털 가든으로 게재할 수 있는 클라우드 기반 호스팅 서비스예요.
 
-지금 [help.obsidian.md](https://help.obsidian.md)에서 이 글을 읽고 있다면, 이미 Obsidian Publish를 사용하는 사이트를 보고 있는 것입니다! 해당 보관함은 [GitHub](https://github.com/obsidianmd/obsidian-docs)에서 확인할 수 있습니다.
+세상과 공유하고 싶은 노트를 선택하고 **게재**를 누르면, `publish.obsidian.md/your-site`에서 호스팅돼요.
+
+지금 [help.obsidian.md](https://help.obsidian.md)에서 이 글을 읽고 있다면, 이미 Obsidian Publish를 사용하는 사이트를 보고 있는 거예요! 해당 보관함은 [GitHub](https://github.com/obsidianmd/obsidian-docs)에서 확인할 수 있어요.
 
 ## Obsidian Publish 사용 방법
 

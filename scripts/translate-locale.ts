@@ -41,6 +41,7 @@ const locale = args[0];
 const dryRun = args.includes("--dry-run");
 const fixLinksOnly = args.includes("--fix-links");
 const translateDescriptions = args.includes("--translate-descriptions");
+const editMode = args.includes("--edit");
 const fileArgIdx = args.indexOf("--file");
 const singleFile = fileArgIdx !== -1 ? args[fileArgIdx + 1] : null;
 const limitArgIdx = args.indexOf("--limit");
@@ -393,8 +394,28 @@ async function callLLM(config: LLMConfig, systemPrompt: string, userMessage: str
   return result.content[0].text;
 }
 
+const LANGUAGE_NOTES: Record<string, string> = {
+  ko: "Use 해요체 (informal polite register ending in -아요/어요/해요), which is standard in modern Korean software. Do NOT use 합쇼체 (-습니다/-ㅂ니다).",
+};
+
+function buildEditPrompt(langCode: string): string {
+  const langName = LANGUAGE_NAMES[langCode] ?? langCode;
+  const note = LANGUAGE_NOTES[langCode] ?? "";
+  return `You are a professional ${langName} editor. Your task is to convert the speech register of the given ${langName} Markdown page.
+
+${note}
+
+RULES:
+1. Convert ALL verb endings and sentence-final forms to the target register throughout the entire document.
+2. Do NOT change any meaning, content, structure, headings, wikilinks, code blocks, URLs, or formatting.
+3. Do NOT include frontmatter (--- blocks) in your output.
+4. Do NOT wrap your response in markdown code fences.
+5. Return ONLY the edited markdown content, nothing else.`;
+}
+
 function buildSystemPrompt(langCode: string, glossary: string, linkRef: string): string {
   const langName = LANGUAGE_NAMES[langCode] ?? langCode;
+  const langNote = LANGUAGE_NOTES[langCode] ? `\nLANGUAGE NOTE: ${LANGUAGE_NOTES[langCode]}` : "";
   return `You are a professional translator for Obsidian Help documentation. Translate the given Markdown page to ${langName}.
 
 CRITICAL RULES:
@@ -409,6 +430,7 @@ CRITICAL RULES:
 9. Do NOT wrap your response in markdown code fences
 10. Return ONLY the translated markdown content, nothing else
 
+${langNote}
 ${linkRef ? `LINK REFERENCE (translate wikilink targets using these exact ${langName} names):\n${linkRef}` : ""}
 ${glossary ? `\nGLOSSARY (use these translations consistently):\n${glossary}` : ""}`;
 }
@@ -584,6 +606,34 @@ async function main() {
   if (fixLinksOnly) {
     console.log(`Fixing heading links in ${locale}/...\n`);
     runFixLinks(headingsMap, basenameToPermalink, enToLocale);
+    return;
+  }
+
+  // ── Edit mode (register/voice conversion) ──
+  if (editMode) {
+    const editPrompt = buildEditPrompt(locale);
+    const localeFiles = collectLocaleFiles(enFiles);
+    let toEdit = localeFiles.filter(f => f.content.trim());
+    if (singleFile) toEdit = toEdit.filter(f => f.relPath === singleFile);
+    if (isFinite(limit)) toEdit = toEdit.slice(0, limit);
+
+    console.log(`${toEdit.length} file(s) to edit in ${locale}/${dryRun ? " [DRY RUN]" : ""}\n`);
+
+    let done = 0;
+    for (const file of toEdit) {
+      console.log(`  Editing  ${file.relPath}`);
+      if (dryRun) { done++; continue; }
+      try {
+        const raw = await callLLM(config, editPrompt, file.content.trim());
+        const newRaw = matter.stringify("\n" + raw.trim() + "\n", file.frontmatter, { lineWidth: -1 });
+        fs.writeFileSync(file.absPath, newRaw, "utf8");
+        done++;
+      } catch (err) {
+        console.error(`  ERROR  ${file.relPath}: ${err}`);
+      }
+      if (done < toEdit.length) await new Promise(r => setTimeout(r, config.delayMs ?? 1000));
+    }
+    console.log(`\nDone. Edited: ${done}/${toEdit.length}`);
     return;
   }
 
