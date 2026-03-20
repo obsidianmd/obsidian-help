@@ -7,6 +7,7 @@
     { code: 'fr',    label: 'Français',   base: 'https://obsidian.md/fr/help' },
     { code: 'it',    label: 'Italiano',   base: 'https://obsidian.md/it/help' },
     { code: 'ja',    label: '日本語',     base: 'https://obsidian.md/ja/help' },
+    { code: 'ko',    label: '한국어',     base: 'https://obsidian.md/ko/help' },
     { code: 'pt-BR', label: 'Português (Brasil)',  base: 'https://obsidian.md/pt-BR/help' },
     { code: 'ru',    label: 'Русский',    base: 'https://obsidian.md/ru/help' },
     { code: 'zh',    label: '中文',       base: 'https://obsidian.md/zh/help' },
@@ -141,7 +142,7 @@
     if (!el) return false;
     el.placeholder = '페이지 또는 제목 검색...';
     el = document.querySelector('.site-footer a');
-    if (el) el.textContent = 'Obsidian Publish로 제작';
+    if (el) { el.textContent = 'Obsidian Publish 기반'; el.href = 'https://obsidian.md/ko/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');
     if (el) el.textContent = '인터랙티브 그래프';
     el = document.querySelector('.graph-expand');
@@ -151,7 +152,7 @@
     el = document.querySelector('.outline-view-outer span:last-child');
     if (el) el.textContent = '이 페이지에서';
     el = document.querySelector('.backlinks span:last-child');
-    if (el) el.textContent = '이 페이지로의 링크';
+    if (el) el.textContent = '백링크';
     return true;
   }
   function poll() { if (!apply()) requestAnimationFrame(poll); }

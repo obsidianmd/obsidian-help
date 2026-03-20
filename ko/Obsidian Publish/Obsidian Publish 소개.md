@@ -1,18 +1,32 @@
 ---
-aliases: [Obsidian Publish]
+permalink: publish
+cssclasses:
+  - list-cards
+  - list-cards-mobile-full
 ---
+[Obsidian Publish](https://obsidian.md/publish)는 노트를 위키, 지식 베이스, 문서 또는 디지털 가든으로 게재할 수 있는 클라우드 기반 호스팅 서비스입니다.
 
-[Obsidian Publish](https://obsidian.md/publish)는 노트를 위키, 지식 베이스, 문서 또는 디지털 가든으로 출판할 수 있는 클라우드 기반 호스팅 서비스입니다.
+세상과 공유하고 싶은 노트를 선택하고 **게재**를 누르면, `publish.obsidian.md/your-site`에서 호스팅됩니다.
 
-세계와 공유하려는 노트를 선택하고 **출판**를 누르면 해당 노트는 `publish.obsidian.md/your-site`에서 호스팅됩니다.
+지금 [help.obsidian.md](https://help.obsidian.md)에서 이 글을 읽고 있다면, 이미 Obsidian Publish를 사용하는 사이트를 보고 있는 것입니다! 해당 보관함은 [GitHub](https://github.com/obsidianmd/obsidian-docs)에서 확인할 수 있습니다.
 
-[help.obsidian.md](https://help.obsidian.md/)에서 이 페이지를 읽고 있다면 이미 Obsidian Publish를 사용하는 사이트를 보고 있습니다! 해당 보관소는 [GitHub](https://github.com/obsidianmd/obsidian-docs)에서 확인할 수 있습니다.
+## Obsidian Publish 사용 방법
 
-## Learn more
-
-- Obsidian Publish를 처음 사용하는 경우 [[Obsidian Publish 설정]] 방법을 배워보세요.
-- 여러 사이트를 갖고 있는 경우 [[사이트 관리]] 방법을 알아보세요.
-- 다른 공동 작업자와 사이트를 공유하려면 [[Obsidian Publish 사이트에서 협업하기]]을 참조하세요.
-- 사이트의 모양을 사용자 정의하려면 [[사이트 사용자 지정]]를 참조하세요.
-- 노트를 안전하게 보호하는 방법을 알고 싶다면 [[Obsidian Publish/보안 및 개인정보 보호|보안 및 개인정보 보호]]를 참조하세요.
-- 자체 도메인을 사용하려면 [[사용자 정의 도메인 설정]]을 참조하세요.
+- [[Obsidian Publish 설정]]
+	- Obsidian Publish를 시작하세요.
+- [[사이트 관리]]
+	- 여러 Publish 사이트를 관리하는 방법을 알아보세요.
+- [[Publish 사이트에서 협업]]
+	- 공동 작업자와 Publish 사이트를 공유하세요.
+- [[사이트 커스터마이즈]]
+	- Publish 사이트를 커스터마이즈하세요.
+- [[사용자 지정 도메인|사용자 지정 도메인]]
+	- 자체 도메인으로 Publish를 설정하세요.
+- [[고유 링크]]
+	- 페이지의 영구 URL을 정의하세요.
+- [[분석]]
+	- 사이트에 분석을 설정하세요.
+- [[SEO]]
+	- Publish를 위한 검색 엔진 최적화.
+- [[보안 및 개인정보 보호]]
+	- 데이터를 안전하게 보호하는 방법.

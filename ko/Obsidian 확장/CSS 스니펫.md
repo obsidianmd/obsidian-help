@@ -1,31 +1,91 @@
-[Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) 없이 Obsidian 외형의 일부를 수정하는 방법을 배워보세요.
+---
+permalink: snippets
+publish: true
+mobile: true
+description: Learn how to change parts of the Obsidian app’s appearance without creating a full theme.
+---
+[테마를 빌드](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)하지 않고도 Obsidian 앱의 외형을 수정하는 방법을 알아보세요.
 
-CSS는 HTML 문서를 어떻게 표시할지를 설명하는 언어입니다. CSS 스니펫을 추가함으로써 Obsidian 사용자 인터페이스의 일부를 다시 정의할 수 있으며, 이때 제목의 크기 및 색상과 같은 부분을 사용자 정의할 수 있습니다. Obsidian에는 인터페이스 일부를 쉽게 사용자 정의할 수 있도록 [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables)가 포함되어 있습니다.
+> [!tip] [[Obsidian Publish 소개|Obsidian Publish]]의 CSS 처리에 대한 안내를 찾고 있다면 [[사이트 커스터마이즈]]를 확인하세요.
 
-Obsidian은 CSS 스니펫을 보관하는 폴더 내에서 CSS 스니펫을 찾습니다.
+CSS는 HTML의 외형을 제어하는 언어입니다. CSS 스니펫을 추가하면 제목의 크기와 색상 등 Obsidian 사용자 인터페이스의 일부를 변경할 수 있습니다. Obsidian에는 인터페이스를 쉽게 사용자 지정할 수 있도록 도와주는 [CSS 변수](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables)가 있습니다.
 
-CSS 스니펫을 추가하려면 다음 단계를 따르세요.
+Obsidian은 보관함의 [[설정 폴더]] 내에서 CSS 스니펫을 찾습니다.
 
-1. **설정**(Settings)을 엽니다.
-2. **테마 → CSS 스니펫**(Appearance → CSS snippets) 아래에서 **스니펫 폴더 열기**(Open snippets folder) (폴더 아이콘)를 선택합니다.
-3. 스니펫 폴더에서 스니펫을 포함하는 CSS 파일을 만듭니다.
-4. Obsidian에서 **외형 → CSS 스니펫**(Appearance → CSS snippets) 아래에서 **스니펫 다시 로드**(Reload snippets) (새로 고침 아이콘)를 선택하여 목록에서 스니펫을 볼 수 있습니다.
+## 스니펫 추가하기
 
-Obsidian은 CSS 스니펫의 변경 사항을 자동으로 감지하고 스니펫을 저장할 때 적용합니다. 변경 사항이 적용되기 위해 Obsidian을 다시 시작할 필요가 없습니다.
+**데스크톱** ![[lucide-monitor-check.svg#icon]]에서 CSS 스니펫을 추가하려면 다음 단계를 따르세요:
 
-> [!tip] Example: Change text color
-> 예를 들어, 텍스트 색상을 빨간색으로 변경하려면 다음 내용을 포함하는 `snippet.css`라는 파일을 만듭니다.
->
->
+1. **[[설정]]**을 엽니다 ( ![[lucide-settings.svg#icon]] ).
+2. **외형 → CSS 스니펫**에서 **스니펫 폴더 열기** ( ![[lucide-folder-open.svg#icon]] )를 선택합니다.
+3. 스니펫 폴더에서 스니펫이 포함된 CSS 파일을 생성합니다.
+4. Obsidian에서 **외형 → CSS 스니펫**의 **스니펫 다시 불러오기** ( ![[lucide-refresh-cw.svg#icon]] )를 선택하면 목록에 스니펫이 나타납니다.
+5. 토글을 클릭하여 스니펫을 활성화합니다.
+
+**모바일/태블릿** ![[obsidian-icon-smartphone.svg#icon]]에서 CSS 스니펫을 추가하려면 다음 단계를 따르세요:
+
+1. 파일 관리자를 열고 보관함을 찾습니다. 보관함 위치는 _보관함 관리…_ 에서 보관함을 탭하고 경로를 확인하면 됩니다.
+2. [[설정 폴더]]를 열고 `snippets` 폴더가 없으면 생성합니다.
+3. 이 폴더에 CSS 스니펫을 추가합니다.
+4. Obsidian의 **[[설정]]** ( ![[lucide-settings.svg#icon]] )을 엽니다.
+5. 왼쪽에서 **외형**을 선택합니다.
+6. **CSS 스니펫** 섹션까지 스크롤합니다.
+7. **스니펫 다시 불러오기** (![[lucide-refresh-cw.svg#icon]])를 탭하여 목록을 새로고침합니다.
+8. 토글을 탭하여 스니펫을 활성화합니다.
+
+또는 다음과 같은 방법도 있습니다:
+- 동기화 서비스를 사용하여 변경 사항을 [[기기 간 노트 동기화|동기화]]합니다.
+- 커뮤니티 플러그인을 사용하여 Obsidian 내에서 스니펫을 생성합니다.
+
+활성화되면 Obsidian은 CSS 스니펫의 변경 사항을 자동으로 감지하고 파일을 저장할 때 적용합니다.
+
+> [!tip] 변경 사항을 적용하기 위해 Obsidian을 다시 시작할 필요는 없습니다. 그러나 현재 테마나 노트의 변경 사항을 보려면 [[명령어 팔레트]] 명령을 사용하여 저장 없이 Obsidian을 새로고침해야 할 수도 있습니다.
+
+## Obsidian용 CSS 작성하기
+
+Obsidian은 CSS 작성을 더 쉽고 강력하게 만드는 여러 방법을 제공합니다.
+
+Obsidian의 일부를 쉽게 수정할 수 있는 다양한 [CSS 변수](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables)와 하나 또는 여러 노트의 외형을 변경할 수 있는 내장 [[속성#속성 유형|속성 유형]]이 있습니다.
+
+> [!example] 변수
+> 여섯 가지 [[기본 서식 구문#제목|제목 수준]]의 색상을 무지개색으로 변경하려면 다음 내용으로 `headers.css` 파일을 생성하세요:
 >
 > ```css
 > body {
->   --text-normal: red;
+>   --h1-color: red;
+>   --h2-color: orange;
+>   --h3-color: yellow;
+>   --h4-color: green;
+>   --h5-color: blue;
+>   --h6-color: pink;
 > }
 > ```
 
-## Learn more
+> [!example] CSS 클래스
+> 사용자 지정 CSS 클래스 이름(또는 CSS 클래스 목록)을 미리 정의된 [[속성]] `cssclasses`에 할당하여 하나 이상의 노트를 다른 노트와 다르게 보이게 할 수 있습니다.
+> 
+> **CSS**:
+> ```css
+> .red-border img {
+>    border-color: #ff0000;
+> }
+> ```
+> 
+> **YAML/속성**:
+> ```yaml
+> cssclasses:
+>  - red-border
+> ```
+> 
+> `cssclasses` 속성에 `red-border` 값이 포함된 모든 노트에서 이미지가 빨간색 테두리로 표시됩니다.
 
-- CSS에 익숙하지 않다면 Mozilla의 [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)를 참조하세요.
-- Obsidian 스타일링에 대한 추가 팁이 필요하면 [About styling](https://docs.obsidian.md/Reference/CSS+variables/About+styling)를 참조하세요.
+CSS 파일이 유효하고 올바르게 서식이 지정되었는지 확인하려면 [CSS Validation Service](https://jigsaw.w3.org/css-validator/)와 같은 도구로 검증하는 것을 권장합니다. 유효하지 않은 CSS는 작동하지 않습니다.
 
+## 더 알아보기
+
+- CSS를 처음 접하신다면 Mozilla의 [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)를 확인하세요.
+- Obsidian 스타일링에 대한 자세한 정보는 다음을 참고하세요:
+  - [About styling](https://docs.obsidian.md/Reference/CSS+variables/About+styling)
+  - [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
+  - [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme)
+  - [Obsidian CSS Inspector workflow](https://forum.obsidian.md/t/obsidian-css-inspector-workflow/58178)

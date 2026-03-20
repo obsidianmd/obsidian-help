@@ -1,0 +1,1312 @@
+[bases/views/list]
+Settings=설정
+Markers=마커
+Indent properties=속성 들여쓰기
+Separators=구분자
+
+[bases/views/map]
+Install the Maps plugin=Maps 플러그인 설치
+Example=예시
+Settings=설정
+Markers=마커
+Coordinates=좌표
+Icons=아이콘
+Use a formula to define icons=수식을 사용하여 아이콘 정의하기
+Colors=색상
+Background=배경
+Map tiles=지도 타일
+Useful links=유용한 링크
+Tips=팁
+Troubleshooting=문제 해결
+
+[bases/views/cards]
+Settings=설정
+Card size=카드 크기
+Image property=이미지 속성
+Image fit=이미지 맞춤
+Image aspect ratio=이미지 가로/세로 비율
+
+[bases/views/table]
+Settings=설정
+Row height=행 높이
+Summaries=요약
+Add a summary=요약 추가
+Built-in summaries=내장 요약
+All property types=모든 속성 유형
+Numbers=숫자
+Dates=날짜
+Checkbox=체크박스
+Custom summaries=커스텀 요약
+Shortcuts=단축키
+
+[bases/syntax]
+Example=예시
+Filters=필터
+Formulas=수식
+Properties=속성
+Summaries=요약
+Default Summary Formulas=기본 요약 수식
+Views=뷰
+Note properties=노트 속성
+File properties=파일 속성
+Access properties with `this`=`this`로 속성 접근하기
+Operators=연산자
+Arithmetic operators=산술 연산자
+Date arithmetic=날짜 산술
+Comparison operators=비교 연산자
+Boolean operators=불리언 연산자
+Functions=함수
+Types=유형
+Strings, numbers, and booleans=문자열, 숫자, 불리언
+Dates and durations=날짜와 기간
+Objects and lists=객체와 목록
+Files and links=파일과 링크
+
+[bases/create-base]
+Create a new base=새 베이스 생성하기
+Embed a base=베이스 임베드하기
+Embed a base file=베이스 파일 임베드하기
+Embed a base as a code block=코드 블록으로 베이스 임베드하기
+
+[bases]
+How to use bases=베이스 사용하기
+View types=뷰 유형
+
+[bases/views]
+Toolbar=툴바
+Add and switch views=보기 추가 및 전환
+View settings=보기 설정
+Layout=레이아웃
+Filters=필터
+Components of a filter=필터의 구성 요소
+Conjunctions=접속사
+Filter groups=필터 그룹
+Advanced filter editor=고급 필터 편집기
+Sort and group results=결과 정렬 및 그룹화
+Add a sort=정렬 추가
+Remove a sort=정렬 제거
+Limit, copy, and export results=결과 제한, 복사, 내보내기
+Limit results=결과 제한
+Copy to clipboard=클립보드에 복사
+Export CSV=CSV 내보내기
+Embed a view=보기 임베드
+
+[formulas]
+What formulas can do=수식으로 할 수 있는 것
+Create a formula property=수식 속성 생성
+Write a formula=수식 작성
+Reference properties=속성 참조
+Use operators=연산자 사용
+Use functions=함수 사용
+Formula examples=수식 예시
+Calculate a deadline=마감일 계산
+Display overdue status=기한 초과 상태 표시
+Format currency=통화 서식 지정
+Count list items=목록 항목 수 세기
+Calculate priority score=우선순위 점수 계산
+Combine text fields=텍스트 필드 결합
+Calculate total cost=총 비용 계산
+Data types=데이터 유형
+Reference other formulas=다른 수식 참조
+
+[bases/functions]
+Global=전역
+Date=날짜
+Fields=필드
+String=문자열
+Number=숫자
+List=목록
+Link=링크
+File=파일
+Object=객체
+Regular expression=정규 표현식
+
+[2fa]
+Enable 2FA=2FA 활성화
+Generate recovery codes=복구 코드 생성
+Disable 2FA=2FA 비활성화
+
+[android]
+Sync=동기화
+Vault location=보관함 위치
+Device storage=기기 저장소
+App storage=앱 저장소
+Widgets=위젯
+Quick Settings tiles=빠른 설정 타일
+Shortcuts=바로가기
+
+[obsidian]
+What is Obsidian=Obsidian이란
+How we're different=우리가 다른 점
+You own and control your data=데이터를 직접 소유하고 관리합니다
+Links are first-class citizens=링크는 최우선 시민입니다
+Your own toolkit=나만의 도구 모음
+Follow our development=개발 과정을 따라가세요
+
+[ios]
+Sync=동기화
+Widgets=위젯
+Lock Screen and Control Center widgets=잠금 화면 및 제어 센터 위젯
+Home Screen widgets=홈 화면 위젯
+Customizing widgets=위젯 커스터마이즈
+Shortcuts=단축어
+Share Sheet Extension=공유 시트 확장
+Siri integration=Siri 통합
+Spotlight integration=Spotlight 통합
+
+[early-access]
+Enable early access versions for desktop=데스크톱에서 얼리 액세스 버전 활성화하기
+Install early access versions on mobile devices=모바일 기기에서 얼리 액세스 버전 설치하기
+Report issues and other feedback=문제 보고 및 기타 피드백
+Switch back to public versions on desktop=데스크톱에서 공개 버전으로 되돌리기
+Switch back to public versions on mobile=모바일에서 공개 버전으로 되돌리기
+
+[community-code-of-conduct]
+The rules=규칙
+Serious offenses=심각한 위반
+Harassment=괴롭힘
+Threats=위협
+Blatant -isms=노골적인 차별 발언
+Other offenses=기타 위반
+Belligerence=적대적 행동
+Being especially unpleasant=특별히 불쾌한 행동
+Unsolicited messages to community members=커뮤니티 회원에 대한 원치 않는 메시지
+Other behaviors=기타 행동
+Sea-lioning=시라이어닝(Sea-lioning)
+"Feed me"="대신 해주세요"
+Campaigning=반복적 요청
+Excessive self promotion=과도한 자기 홍보
+Spamming=스팸
+Encouraged behaviors=권장 행동
+Motivation=동기
+Report violations=위반 신고
+Report on Discord=Discord에서 신고
+Report on the forum=포럼에서 신고
+Enforcement=시행
+Appealing a ban=차단 이의 제기
+Credits=크레딧
+
+[credits]
+Team=팀
+Development=개발
+Product & Operations=제품 및 운영
+Moderators=모더레이터
+Retired=은퇴
+Plugin inspirations=플러그인 영감
+Builds=빌드
+Translators=번역자
+Documentation=문서
+Add your name=이름 추가하기
+Third party acknowledgements=서드파티 감사의 글
+Previous logo=이전 로고
+
+[publish/troubleshoot]
+General=일반
+Publishing notes=노트 게재
+CSS and themes=CSS 및 테마
+
+[publish/setup]
+Prerequisites=전제 조건
+Log in with your Obsidian account=Obsidian 계정으로 로그인
+Enable Obsidian Publish=Obsidian Publish 활성화
+Open Publish=Publish 열기
+Open via Command palette=명령어 팔레트로 열기
+Open via hotkey=키보드 단축키로 열기
+Open via ribbon=리본으로 열기
+Create a new site=새 사이트 생성
+Set a site name=사이트 이름 설정
+Select notes to publish=게재할 노트 선택
+Next steps=다음 단계
+
+[publish]
+How to use Obsidian Publish=Obsidian Publish 사용 방법
+
+[publish/collaborate]
+Add a collaborator to a site=사이트에 공동 작업자 추가
+Remove a collaborator from a site=사이트에서 공동 작업자 제거
+Sync changes between collaborators=공동 작업자 간 변경 사항 동기화
+Permissions=권한
+
+[publish/limitations]
+Community plugins=커뮤니티 플러그인
+Graph=그래프
+Media files=미디어 파일
+PDFs=PDF
+Search=검색
+
+[publish/seo]
+Sitemap=사이트맵
+Permalinks=고유 링크
+Metadata=메타데이터
+
+[publish/permalinks]
+Redirect old notes=이전 노트 리디렉션
+
+[publish/media]
+Images=이미지
+PDFs=PDF
+Videos and audio=동영상 및 오디오
+
+[publish/security]
+Password protection=비밀번호 보호
+Add a site password=사이트 비밀번호 추가
+Remove a site password=사이트 비밀번호 제거
+Data collection=데이터 수집
+Visitor data=방문자 데이터
+Access=접근
+Managing access to Obsidian Publish on your network=네트워크에서 Obsidian Publish 접근 관리
+
+[publish/analytics]
+Prerequisites=사전 준비
+Plausible, Fathom, and other analytics services=Plausible, Fathom 및 기타 분석 서비스
+Troubleshooting=문제 해결
+
+[publish/domains]
+Set up using CloudFlare=CloudFlare를 사용한 설정
+Set up using a proxy=프록시를 사용한 설정
+Supported HTTP X-Headers=지원되는 HTTP X-Headers
+Redirect old site to custom domain=이전 사이트를 사용자 지정 도메인으로 리디렉션
+Troubleshoot=문제 해결
+
+[publish/sites]
+Create a new site=새 사이트 만들기
+Delete an existing site=기존 사이트 삭제
+Switch between sites=사이트 간 전환
+Change the site ID=사이트 ID 변경
+View site options=사이트 옵션 보기
+Site options=사이트 옵션
+General=일반
+Appearance=외형
+Reading experience=읽는 방식
+Components=구성 요소
+Other site settings=기타 사이트 설정
+
+[publish/customize]
+Static assets=정적 에셋
+Use a community theme=커뮤니티 테마 사용
+Enable UI features=UI 기능 활성화
+Customize navigation=내비게이션 커스터마이즈
+Accessing Customize navigation options=사용자 지정 내비게이션 옵션에 접근하기
+Adjust navigation items=내비게이션 항목 조정
+Hide and unhide navigation items=내비게이션 항목 숨기기 및 숨기기 해제
+
+[publish/social-share]
+Description=설명
+Image=이미지
+
+[publish/publish]
+Prerequisites=전제 조건
+Publish notes=노트 게재
+Unpublish notes=노트 게재 취소
+Update a published note=게재된 노트 업데이트
+Publish linked data=링크된 데이터 게재
+Automatically select data to publish=게재할 데이터 자동 선택
+Ignore data=데이터 무시
+
+[sync/troubleshoot]
+General=일반
+Conflict resolution=충돌 해결
+How Obsidian Sync handles conflicts=Obsidian Sync의 충돌 처리 방식
+Conflict resolution options=충돌 해결 옵션
+Sync deleted a note I just created on two devices=두 기기에서 방금 만든 노트를 Sync가 삭제했습니다
+Sync will not sync my plugins and settings updates=Sync가 플러그인 및 설정 업데이트를 동기화하지 않습니다
+My files keep disappearing from Sync as soon as I restore it=파일을 복원해도 Sync에서 계속 사라집니다
+
+[sync/setup]
+Set up Obsidian Sync for the first time=처음으로 Obsidian Sync 설정하기
+Log in with your Obsidian account=Obsidian 계정으로 로그인하기
+Enable Obsidian Sync=Obsidian Sync 활성화하기
+Create a new remote vault=새 원격 보관함 생성하기
+Connect to a remote vault=원격 보관함에 연결하기
+Adjust Obsidian Sync settings=Obsidian Sync 설정 조정하기
+Begin syncing with Obsidian Sync=Obsidian Sync로 동기화 시작하기
+Sync a remote vault on another device=다른 기기에서 원격 보관함 동기화하기
+Sync your vault from the vault switcher=보관함 전환기에서 보관함 동기화하기
+Sync your vault from Obsidian Settings=Obsidian 설정에서 보관함 동기화하기
+Manage your remote vaults=원격 보관함 관리하기
+Disconnect from a remote vault=원격 보관함에서 연결 해제하기
+Delete a remote vault=원격 보관함 삭제하기
+Regional sync servers=지역별 동기화 서버
+Next steps=다음 단계
+
+[sync]
+How to use Obsidian Sync=Obsidian Sync 사용 방법
+Important=중요
+
+[sync/switch]
+Move your vault out of your third-party syncing service or cloud storage=타사 동기화 서비스 또는 클라우드 저장소에서 보관함 이동하기
+Move your vault using Obsidian on desktop=데스크톱에서 Obsidian을 사용하여 보관함 이동하기
+Move your vault on mobile=모바일에서 보관함 이동하기
+iOS and iPadOS=iOS 및 iPadOS
+Next steps=다음 단계
+
+[sync/collaborate]
+Manage users=사용자 관리
+Add users=사용자 추가
+Remove users=사용자 제거
+Collaborate with your team=팀과 협업하기
+Permissions=권한
+Live editing=실시간 편집
+Limitations=제한 사항
+
+[sync/settings]
+Sync settings=동기화 설정
+Conflict resolution=충돌 해결
+Selective syncing=선택적 동기화
+Change the file types you want to sync=동기화할 파일 유형 변경
+Exclude a folder from syncing=동기화에서 폴더 제외
+Always excluded from sync=항상 동기화에서 제외되는 항목
+File recovery snapshots=파일 복원 스냅샷
+Hidden files and folders=숨김 파일 및 폴더
+Updating your synced vault settings=동기화된 보관함 설정 업데이트
+Primary device=주 기기
+Secondary device(s)=보조 기기
+Reloading of settings=설정 새로고침
+Settings profiles=설정 프로필
+Create a settings profile=설정 프로필 만들기
+
+[sync/region]
+Available regions=사용 가능한 지역
+Change Sync region=Sync 지역 변경
+
+[sync/vault-types]
+File-based sync services=파일 기반 동기화 서비스
+Sync behavior=동기화 동작
+Offline behavior=오프라인 동작
+Next steps=다음 단계
+
+[sync/version-history]
+Sync history=동기화 기록
+Show Sync history=동기화 기록 표시
+Enable via Command palette=명령어 팔레트를 통해 활성화
+Enable via Hotkey=키보드 단축키를 통해 활성화
+Version history=버전 기록
+Notes and attachments=노트 및 첨부 파일
+View version history of a file=파일의 버전 기록 보기
+View version history of a deleted or renamed file=삭제되거나 이름이 변경된 파일의 버전 기록 보기
+Restore a previous version of a file=파일의 이전 버전 복원
+Restore a deleted file=삭제된 파일 복원
+Settings history=설정 기록
+View version history of a setting=설정의 버전 기록 보기
+Restore a previous version of a setting=설정의 이전 버전 복원
+
+[sync/security]
+Encryption=암호화
+What does end-to-end encryption mean?=종단 간 암호화란 무엇인가요?
+What are the risks of using standard encryption?=표준 암호화의 위험성은 무엇인가요?
+What encryption do you use?=어떤 암호화를 사용하나요?
+Can I verify that my data is end-to-end encrypted?=내 데이터가 종단 간 암호화되었는지 확인할 수 있나요?
+Has Obsidian completed a third-party security audit?=Obsidian은 제3자 보안 감사를 완료했나요?
+What happens if I forget my encryption password?=암호화 비밀번호를 잊어버리면 어떻게 되나요?
+Hosting=호스팅
+Where do you host the servers for Obsidian Sync?=Obsidian Sync의 서버는 어디에서 호스팅하나요?
+Where can I find my current Sync server and where is it hosted?=현재 Sync 서버를 찾고 어디에서 호스팅되는지 확인하려면 어떻게 하나요?
+Network and access=네트워크 및 접근
+Managing access to Obsidian Sync on your network=네트워크에서 Obsidian Sync에 대한 접근 관리
+Limitations=제한 사항
+Deterministic file-hash encryption=결정적 파일 해시 암호화
+No cryptographic binding between path and content=경로와 콘텐츠 간의 암호학적 바인딩 없음
+
+[sync/messages]
+Sync status icon=Sync 상태 아이콘
+Sync activity log=Sync 활동 기록
+General messages=일반 메시지
+Error messages=에러 메시지
+Skipped messages=건너뜀 메시지
+Account messages=계정 메시지
+Network messages=네트워크 메시지
+
+[sync/migrate]
+Encryption versions=암호화 버전
+Upgrade encryption with the migration assistant=이동 도우미를 사용한 암호화 업그레이드
+
+[sync/faq]
+General=일반
+What operating systems does Obsidian Sync support?=Obsidian Sync는 어떤 운영 체제를 지원하나요?
+Does Obsidian work with Apple's Lockdown Mode?=Obsidian은 Apple의 잠금 모드에서 작동하나요?
+What type of data is synced?=어떤 유형의 데이터가 동기화되나요?
+How much storage do I have?=얼마나 많은 저장 공간이 있나요?
+How many remote vaults can I have?=원격 보관함은 몇 개까지 가질 수 있나요?
+How large can each remote vault be?=각 원격 보관함의 최대 크기는 얼마인가요?
+How many people can I share a remote vault with?=원격 보관함을 몇 명까지 공유할 수 있나요?
+How large can each file be?=각 파일의 최대 크기는 얼마인가요?
+Is my data being synced in the background?=백그라운드에서 데이터가 동기화되나요?
+Does Obsidian Sync live-reload my settings?=Obsidian Sync는 설정을 실시간으로 다시 불러오나요?
+Can I use a third-party sync with Obsidian Sync?=타사 동기화를 Obsidian Sync와 함께 사용할 수 있나요?
+Data retention=데이터 보존
+How long do you keep the version history?=버전 기록은 얼마나 오래 보관되나요?
+How long do you keep my data after my subscription expires?=구독이 만료된 후 데이터는 얼마나 오래 보관되나요?
+Do you keep my data if I refund my subscription service?=구독 서비스를 환불하면 데이터가 보관되나요?
+
+[sync/plans]
+Plans=플랜
+Storage limits=저장 용량 제한
+Identify and delete large files=큰 파일 식별 및 삭제
+Create a new remote vault=새 원격 보관함 생성
+Upgrade your plan=플랜 업그레이드
+Downgrade your plan=플랜 다운그레이드
+Preserve version history=버전 기록 보존
+
+[sync/headless]
+Quick start=빠른 시작
+Commands=명령
+Native modules=네이티브 모듈
+
+[web-clipper]
+Install Web Clipper=Web Clipper 설치
+How to use Web Clipper=Web Clipper 사용 방법
+Privacy=개인정보 보호
+
+[web-clipper/troubleshoot]
+General=일반
+Some content is missing=일부 콘텐츠가 누락됨
+No content appears in Obsidian=Obsidian에 콘텐츠가 표시되지 않음
+Obsidian does not open=Obsidian이 열리지 않음
+Obsidian opens but only the file name is saved=Obsidian이 열리지만 파일 이름만 저장됨
+iOS and iPadOS=iOS 및 iPadOS
+
+[web-clipper/logic]
+Conditionals=조건문
+Comparison operators=비교 연산자
+Logical operators=논리 연산자
+Truthiness=참 거짓 판별 (Truthiness)
+Assign a variable=변수 할당
+Fallbacks=대체값
+Chaining fallbacks=대체값 체이닝
+With filters=필터와 함께 사용
+Loops=반복문
+Loop sources=반복 소스
+Loop variables=반복 변수
+Accessing array items by index=인덱스로 배열 항목 접근
+Nested loops=중첩 반복문
+Combine logic=로직 결합
+Evaluation order=평가 순서
+
+[web-clipper/reader]
+Activate reading mode=읽기 모드 활성화
+How it works=작동 방식
+Customize the reading view=읽기 뷰 사용자 지정
+
+[web-clipper/variables]
+Preset variables=프리셋 변수
+Prompt variables=프롬프트 변수
+When to use prompt variables=프롬프트 변수를 사용할 때
+Examples=예시
+Meta variables=메타 변수
+Selector variables=선택자 변수
+Schema.org variables=Schema.org 변수
+
+[web-clipper/capture]
+Capture a page=페이지 캡처
+Download images=이미지 다운로드
+Hotkeys=단축키
+Interface functionality=인터페이스 기능
+
+[web-clipper/highlight]
+Turn on highlighter=하이라이터 켜기
+Highlighter settings=하이라이터 설정
+
+[web-clipper/interpreter]
+Examples of prompts=프롬프트 예시
+Get started=시작하기
+How it works=작동 방식
+Context=컨텍스트
+Models=모델
+Preset providers=프리셋 제공자
+Choosing a model=모델 선택하기
+Custom providers and models=커스텀 제공자 및 모델
+Local models=로컬 모델
+
+[web-clipper/templates]
+Create or edit a template=템플릿 생성 또는 편집
+Import and export Web Clipper templates=Web Clipper 템플릿 들여오기 및 내보내기
+Template settings=템플릿 설정
+Behavior=동작
+Automatically trigger a template=자동으로 템플릿 트리거
+Simple URL matching=단순 URL 매칭
+Regular expression matching=정규식 매칭
+Schema.org matching=Schema.org 매칭
+Interpreter context=인터프리터 컨텍스트
+
+[web-clipper/filters]
+Dates=날짜
+Text conversion and capitalization=텍스트 변환 및 대소문자
+Text formatting=텍스트 서식
+Numbers=숫자
+HTML processing=HTML 처리
+Arrays and objects=배열과 객체
+
+[snippets]
+Adding a snippet=스니펫 추가하기
+Writing CSS for Obsidian=Obsidian용 CSS 작성하기
+Learn more=더 알아보기
+
+[cli]
+Install Obsidian CLI=Obsidian CLI 설치
+Get started=시작하기
+Run a command=명령어 실행
+Use the terminal interface=터미널 인터페이스 사용
+Examples=예제
+Everyday use=일상적인 사용
+For developers=개발자용
+How to=사용법
+Use parameters and flags=매개변수와 플래그 사용
+Target a vault=보관함 지정
+Target a file=파일 지정
+Copy output=출력 복사
+General commands=일반 명령어
+Bases=베이스
+Bookmarks=북마크
+Command palette=명령어 팔레트
+Daily notes=일일 노트
+File history=파일 기록
+Files and folders=파일 및 폴더
+Links=링크
+Outline=개요
+Plugins=플러그인
+Properties=속성
+Random notes=무작위 노트
+Search=검색
+Tags=태그
+Tasks=작업
+Templates=템플릿
+Themes and snippets=테마 및 스니펫
+Unique notes=고유 노트
+Vault=보관함
+Web viewer=웹 뷰어
+Wordcount=단어 수
+Workspace=작업 공간
+Developer commands=개발자 명령어
+Keyboard shortcuts=키보드 단축키
+Navigation=내비게이션
+Editing=편집
+Autocomplete=자동 완성
+History=기록
+Other=기타
+Troubleshooting=문제 해결
+Alternate shells=대체 셸
+
+[headless]
+Install=설치
+Authentication=인증
+Log in=로그인
+Services=서비스
+
+[uri]
+URI format=URI 형식
+Open note=노트 열기
+Examples=예시
+Parameters=매개변수
+Create note=노트 생성
+Create or open daily note=일일 노트 생성 또는 열기
+Unique Note=고유 노트
+Open search=검색 열기
+Open Vault Manager=보관함 관리자 열기
+Integrate with Hook=Hook과 통합
+Example=예시
+Use x-callback-url parameters=x-callback-url 매개변수 사용
+Shorthand formats=단축 형식
+Troubleshooting=문제 해결
+Register Obsidian URI=Obsidian URI 등록
+
+[community-plugins]
+Browse community plugins=커뮤니티 플러그인 탐색
+Install a community plugin=커뮤니티 플러그인 설치
+Enable a community plugin=커뮤니티 플러그인 활성화
+Update plugins=플러그인 업데이트
+Uninstall a community plugin=커뮤니티 플러그인 삭제
+Manage installed plugins=설치된 플러그인 관리
+Learn more=더 알아보기
+
+[themes]
+Browse themes=테마 탐색
+Install a new theme=새 테마 설치
+Update themes=테마 업데이트
+Uninstall an existing theme=기존 테마 삭제
+Learn more=더 알아보기
+
+[plugin-security]
+Restricted mode=제한 모드
+Plugin capabilities=플러그인 기능
+Plugin review process=플러그인 검토 과정
+
+[developers]
+Plugins and themes=플러그인 및 테마
+Open source projects=오픈 소스 프로젝트
+Documentation=문서
+Community=커뮤니티
+
+[style-guide]
+Terminology and grammar=용어 및 문법
+Language style=언어 스타일
+Terms=용어
+Product names=제품 이름
+UI and interactions=UI 및 상호작용
+Notes, files, and folders=노트, 파일 및 폴더
+Reference documentation for settings=설정 참조 문서
+Directional terms=방향 용어
+Instructions=지침
+Sentence case=문장형 대소문자
+Examples=예시
+Key names and keyboard shortcuts=키 이름 및 키보드 단축키
+Images=이미지
+Information structure=정보 구조
+Callout types=콜아웃 유형
+Lists vs. prose=목록 vs. 산문
+Tables=표
+Cross-references=상호 참조
+Platform-specific content=플랫폼별 콘텐츠
+Icons and images=아이콘 및 이미지
+Icons=아이콘
+Image anchor tags=이미지 앵커 태그
+Optimization=최적화
+Layout=레이아웃
+Broken links=깨진 링크
+Descriptions=설명
+Directions=방향
+Translations=번역
+
+[plugins/canvas]
+Create a new canvas=새 캔버스 만들기
+Add cards=카드 추가
+Add text cards=텍스트 카드 추가
+Add cards from notes=노트에서 카드 추가
+Add cards from media=미디어에서 카드 추가
+Add cards from web pages=웹 페이지에서 카드 추가
+Add cards from folders=폴더에서 카드 추가
+Edit a card=카드 편집
+Delete a card=카드 삭제
+Swap cards=카드 교체
+Select cards=카드 선택
+Arrange cards=카드 배열
+Resize a card=카드 크기 조절
+Connect cards=카드 연결
+Connect two cards=두 카드 연결
+Disconnect two cards=두 카드 연결 끊기
+Connect a card to a different card=다른 카드에 연결
+Navigate a connection=연결 탐색
+Add a label to a connection=연결에 라벨 추가
+Change the color of a card or connection=카드 또는 연결의 색상 변경
+Group cards=카드 그룹화
+Group selected cards=선택한 카드 그룹화
+Navigate the canvas=캔버스 탐색
+Pan the canvas=캔버스 이동
+Zoom the canvas=캔버스 확대
+Zoom to fit=화면 맞춤 확대
+Zoom to selection=선택 맞춤 확대
+Reset zoom=화면 비율 초기화
+Advanced tips=고급 팁
+
+[plugins/search]
+Search terms=검색어
+Search operators=검색 연산자
+Search properties=속성 검색
+Change case sensitivity=대소문자 구분 변경
+Change result sort order=결과 정렬 순서 변경
+Copy search results=검색 결과 복사
+Use regular expressions=정규식 사용
+Configure search settings=검색 설정 구성
+Embed search results in a note=노트에 검색 결과 임베드
+
+[plugins/unique-note]
+Create a unique note=고유 노트 만들기
+Create unique notes from a template=템플릿으로 고유 노트 만들기
+
+[plugins/graph]
+Settings=설정
+Filters=필터
+Groups=그룹
+Display=표시
+Forces=장력
+Start a time-lapse animation=타임랩스 애니메이션 시작
+Local Graph=로컬 그래프
+
+[plugins/note-composer]
+Merge notes=노트 병합
+Extract note=노트 추출
+Template file=템플릿 파일
+
+[plugins/format-converter]
+Supported formats=지원되는 형식
+[[Properties]]=[[속성]]
+
+[plugins/command-palette]
+Pinned commands=즐겨찾기된 명령어
+Pin a command=명령 고정하기
+Unpin a command=명령 고정 해제하기
+
+[plugins/backlinks]
+Show backlinks=백링크 보기
+View backlinks for a note=노트의 백링크 보기
+See backlinks of a specific note=특정 노트의 백링크 보기
+Show backlinks in a note=노트에서 백링크 표시
+
+[plugins/bookmarks]
+Add a bookmark=북마크 추가
+Remove a bookmark=북마크 제거
+Add a bookmark group=북마크 그룹 추가
+Remove a bookmark group=북마크 그룹 제거
+Bookmark multiple files=여러 파일 북마크하기
+
+[plugins/quick-switcher]
+Open Quick switcher=빠른 전환기 열기
+Open a note with Quick switcher=빠른 전환기로 노트 열기
+
+[plugins/properties]
+All properties view=모든 속성 뷰
+
+[plugins/web-viewer]
+Reader view=리더 뷰
+Save to vault=보관함에 저장
+Ad blocking=광고 차단
+Security=보안
+
+[plugins/audio-recorder]
+Record audio in a note=노트에 오디오 녹음하기
+
+[plugins/daily-notes]
+Create a daily note from template=템플릿으로 일일 노트 생성
+Daily notes and properties=일일 노트와 속성
+
+[plugins/workspaces]
+Save a workspace=작업 공간 저장
+Load a workspace=작업 공간 불러오기
+Delete a workspace=작업 공간 삭제
+
+[plugins]
+All core plugins=모든 코어 플러그인
+Other plugins=기타 플러그인
+
+[plugins/templates]
+Set your template folder=템플릿 폴더 설정
+Template variables=템플릿 변수
+Create a template=템플릿 만들기
+Insert a template into the active note=활성 노트에 템플릿 삽입
+Template properties=템플릿 속성
+
+[plugins/file-recovery]
+Recover a snapshot=스냅샷 복원하기
+Clear snapshot history=스냅샷 기록 지우기
+Storage and performance=저장 공간과 성능
+Limitations=제한 사항
+
+[plugins/file-explorer]
+Create a new note=새 노트 만들기
+Create a new folder=새 폴더 만들기
+Change sort order=정렬 순서 변경
+Auto-reveal active file=활성 파일 자동 표시
+Expand or collapse all folders=모든 폴더 펼치기 또는 접기
+Delete a file or folder=파일 또는 폴더 삭제
+Rename a file or folder=파일 또는 폴더 이름 바꾸기
+Move a file or folder=파일 또는 폴더 이동
+
+[teams/license]
+Purchase a commercial license=상용 라이선스 구매
+Apply a commercial license=상용 라이선스 적용
+Supporting organizations=지원 조직
+Frequently asked questions=자주 묻는 질문
+
+[teams/deploy]
+Install and update Obsidian=Obsidian 설치 및 업데이트
+Customizing Obsidian=Obsidian 커스터마이즈
+Configuration folders=설정 폴더
+Plugins=플러그인
+Themes and snippets=테마 및 스니펫
+Frequently asked questions=자주 묻는 질문
+Deployment=배포
+
+[teams]
+Use Obsidian with your team=팀과 함께 Obsidian 사용하기
+Important resources=중요 자료
+
+[teams/publish]
+Publishing tools and services=게재 도구 및 서비스
+Advanced collaboration for Obsidian Publish=Obsidian Publish를 위한 고급 협업
+Media=미디어
+Frequently asked questions=자주 묻는 질문
+
+[teams/sync]
+Syncing tools and services=동기화 도구 및 서비스
+Obsidian Sync for teams=팀을 위한 Obsidian Sync
+Security=보안
+Frequently asked questions=자주 묻는 질문
+
+[teams/security]
+Considerations=고려 사항
+Community plugins and themes=커뮤니티 플러그인 및 테마
+Network and access=네트워크 및 접근
+Obsidian-sourced connections=Obsidian 소스 연결
+GitHub-sourced connections=GitHub 소스 연결
+Other connections=기타 연결
+Frequently asked questions=자주 묻는 질문
+Account security=계정 보안
+Assessments and certifications=평가 및 인증
+
+[import/apple-journal]
+Export your data from Apple Journal=Apple Journal에서 데이터 내보내기
+On iPhone=iPhone에서
+On Mac (Tahoe)=Mac (Tahoe)에서
+Import Apple Journal data into Obsidian=Apple Journal 데이터를 Obsidian으로 들여오기
+Supported content=지원되는 콘텐츠
+
+[import/csv]
+Create notes from CSV data in Obsidian=Obsidian에서 CSV 데이터로 노트 생성하기
+Configure how CSV fields are imported=CSV 필드 들여오기 방식 설정하기
+
+[import/craft]
+Export your data from Craft=Craft에서 데이터 내보내기
+Import your Craft data into Obsidian=Craft 데이터를 Obsidian으로 들여오기
+Troubleshooting=문제 해결
+
+[plugins/importer]
+Install Importer=Importer 설치
+
+[import/textbundle]
+Import Textbundle files into Obsidian=Textbundle 파일을 Obsidian으로 들여오기
+Troubleshooting=문제 해결
+No files are selected for import=들여오기할 파일이 선택되지 않음
+
+[links]
+Supported formats for internal links=내부 링크의 지원 형식
+Link to a file=파일에 링크하기
+Link to a heading in a note=노트의 제목에 링크하기
+Link to a block in a note=노트의 블록에 링크하기
+Change the link display text=링크 표시 텍스트 변경하기
+Preview a linked file=링크된 파일 미리보기
+
+[aliases]
+Add an alias to a note=노트에 별칭 추가하기
+Link to a note using an alias=별칭을 사용하여 노트에 링크하기
+Find unlinked mentions for an alias=별칭에 대한 링크되지 않은 호출 찾기
+
+[embeds]
+Embed a note in another note=다른 노트에 노트 임베드하기
+Embed an image in a note=노트에 이미지 임베드하기
+Embed an audio file in a note=노트에 오디오 파일 임베드하기
+Embed a PDF in a note=노트에 PDF 임베드하기
+Embed a list in a note=노트에 목록 임베드하기
+Embed search results=검색 결과 임베드하기
+
+[resources]
+Questions and advice=질문 및 조언
+Report bugs and request features=버그 신고 및 기능 요청
+Collect debug information=디버그 정보 수집
+Check startup time=시작 시간 확인
+Capture console logs=콘솔 로그 캡처
+Contact Obsidian support=Obsidian 지원팀에 문의하기
+Report a security issue=보안 문제 신고
+Report a Code of Conduct violation=행동 강령 위반 신고
+Contributing to Obsidian=Obsidian에 기여하기
+
+[catalyst]
+Catalyst tiers=Catalyst 등급
+Access Catalyst benefits=Catalyst 혜택 이용
+Get your forum badge=포럼 배지 받기
+Get your Discord badge=Discord 배지 받기
+Join our Insider channels=Insider 채널 참여
+Enable early access versions=얼리 액세스 버전 활성화
+
+[credit]
+Add credit=크레딧 추가
+Gifting=선물하기
+Give Obsidian Credit=Obsidian 크레딧 보내기
+Receiving Obsidian Credit=Obsidian 크레딧 받기
+
+[discounts]
+How to apply=신청 방법
+How to renew=갱신 방법
+Frequently asked questions=자주 묻는 질문
+Refunds=환불
+
+[payment]
+Purchase a service or license=서비스 또는 라이선스 구매
+Generate an invoice=청구서 생성
+Editing an invoice=청구서 편집
+
+[sales-tax]
+Tax exemption=세금 면제
+Applying for an exemption=면제 신청
+
+[refunds]
+Request a refund=환불 요청
+Frequently asked questions=자주 묻는 질문
+
+[hotkeys]
+View hotkeys=단축키 보기
+Set a hotkey=단축키 설정하기
+Remove a hotkey=단축키 제거하기
+Filter hotkeys=단축키 필터링
+Non-US keyboard layouts=미국식이 아닌 키보드 레이아웃
+Default keyboard shortcuts=기본 키보드 단축키
+
+[drag-and-drop]
+Drag tabs=탭 드래그
+Drag sources=드래그 원본
+Drop destinations=놓기 대상
+Dragging from outside Obsidian=Obsidian 외부에서 드래그
+Dropping files outside Obsidian=Obsidian 외부로 파일 놓기
+
+[ribbon]
+Actions=동작
+Customize the ribbon=리본 커스터마이즈
+Desktop=데스크톱
+Hide the ribbon=리본 숨기기
+Show the ribbon=리본 표시하기
+Mobile=모바일
+Quick access=빠른 접근
+Rearrange and visibility=재배열 및 표시 여부
+
+[sidebar]
+Open hidden sidebars=숨겨진 사이드바 열기
+Desktop and larger tablets=데스크톱 및 큰 태블릿
+Mobile and smaller tablets=모바일 및 작은 태블릿
+Tabs=탭
+Open or reopen tabs=탭 열기 또는 다시 열기
+Close tabs=탭 닫기
+Rearrange tabs=탭 재배열
+Pin tabs=탭 고정
+Tab groups=탭 그룹
+Create tab groups=탭 그룹 만들기
+Close tab groups=탭 그룹 닫기
+
+[settings]
+Open Settings=설정 열기
+Desktop=데스크톱
+Mobile=모바일
+Settings organization=설정 구성
+General=일반
+Version and updates=버전 및 업데이트
+Language=언어
+Help=도움말
+Account=계정
+Advanced=고급 설정
+Notify if startup takes longer than expected=앱 시작이 예상보다 느려질 경우 알리기
+Editor=편집기
+Always focus new tabs=항상 새 탭으로 전환
+Default view for new tabs=새 탭에 사용하는 기본 화면
+Default editing mode=기본 편집 모드
+Show editing mode in status bar=편집기 상태 보기
+Display=표시
+Readable line length=읽기 쉬운 행 길이
+Strict line breaks=엄격한 줄 바꿈
+Properties in document=문서 내 속성
+Fold heading=제목 접기
+Fold indent=들여쓰기 접기
+Show line numbers=줄 번호
+Show indentation guides=들여쓰기 가이드
+Right-to-left (RTL)=오른쪽-왼쪽 방향 (RTL)
+Auto-pair brackets=괄호 자동 닫기
+Auto-pair Markdown syntax=마크다운 문법 자동 닫기
+Smart lists=스마트 들여쓰기
+Indent using tabs=들여쓰기로 탭 사용
+Convert pasted HTML to Markdown=HTML 자동 변환
+Behavior=동작
+Spellcheck=맞춤법 검사
+Spellcheck languages=맞춤법 검사 언어
+Indent visual width=들여쓰기 크기
+Vim key bindings=Vim 키 바인딩 설정
+Files and links=파일 및 링크
+Default location for new notes=새 노트를 생성하는 위치
+Default location for new attachments=새 첨부 파일을 생성할 위치
+Links=링크
+New link format=새로 생성하는 링크 형식
+Automatically update internal links=항상 업데이트되는 내부 링크
+Use Wikilinks=위키 링크 사용
+Show all file types=모든 파일 형식 표시
+Trash=휴지통
+Confirm file deletion=파일 삭제 확인
+Deleted files=삭제된 파일
+Excluded files=제외하는 파일
+Override config folder=설정 폴더 우선순위 전환
+Allow URI callbacks=URI 콜백 허용
+Rebuild vault cache=보관함 캐시 다시 빌드하기
+Appearance=외형
+Base color scheme=기본 테마
+Accent color=강조 색상
+Themes=테마
+Current community themes=현재 커뮤니티 테마
+Font=폰트
+Interface font=인터페이스 폰트
+Text font=텍스트 폰트
+Monospace font=모노스페이스 폰트
+Font size=폰트 크기
+Quick font size adjustment=빠른 폰트 크기 조정
+Interface=인터페이스
+Show inline title=인라인 제목
+Show tab title bar=탭 타이틀바 표시
+Show ribbon=리본 표시하기
+Ribbon menu configuration=리본 메뉴 설정
+Zoom level=배율
+Native menus=네이티브 메뉴
+Window frame style=창 프레임 스타일
+Custom app icon=커스텀 앱 아이콘
+Translucent window=반투명 창
+Hardware acceleration=하드웨어 가속
+CSS snippets=CSS 스니펫
+Hotkeys=단축키
+Core plugins=코어 플러그인
+Community plugins=커뮤니티 플러그인
+Restricted mode=제한 모드
+Current plugins=현재 설치된 플러그인
+Installed plugins=설치된 플러그인
+
+[appearance]
+Color scheme=색상 구성표
+Custom themes=커스텀 테마
+Custom app icon=커스텀 앱 아이콘
+Translucency=반투명도
+
+[workspace]
+Desktop=데스크톱
+Mobile=모바일
+
+[tabs]
+Open a new tab=새 탭 열기
+Open a link=링크 열기
+Organize your tabs and windows=탭과 창 정리하기
+Arrange tabs=탭 배열하기
+Split a tab group=탭 그룹 분할하기
+Resize a tab group=탭 그룹 크기 조절하기
+Move tab to a new window=탭을 새 창으로 이동하기
+Move a tab to a different window=탭을 다른 창으로 이동하기
+Pin a tab=탭 고정하기
+Switch to a different tab=다른 탭으로 전환하기
+Stack tab groups=탭 그룹 스택하기
+Linked views=링크된 화면
+Save layouts=레이아웃 저장하기
+
+[pop-out-windows]
+Open a file in a new window=새 창에서 파일 열기
+Move a file to a different window=다른 창으로 파일 이동하기
+
+[install]
+Install Obsidian on Windows=Windows에서 Obsidian 설치하기
+Install Obsidian on macOS=macOS에서 Obsidian 설치하기
+Install Obsidian on Linux=Linux에서 Obsidian 설치하기
+Install Obsidian using Snap=Snap을 사용하여 Obsidian 설치하기
+Install Obsidian using AppImage=AppImage를 사용하여 Obsidian 설치하기
+Install Obsidian using Flatpak=Flatpak을 사용하여 Obsidian 설치하기
+Install Obsidian on Android=Android에서 Obsidian 설치하기
+Install Obsidian on iPhone and iPad=iPhone 및 iPad에서 Obsidian 설치하기
+
+[updates]
+Check for updates and view version=업데이트 확인 및 버전 보기
+Disable automatic updates=자동 업데이트 비활성화
+Installer updates=설치 프로그램 업데이트
+
+[backup]
+Syncing is not a backup=동기화는 백업이 아닙니다
+Use community plugins=커뮤니티 플러그인 사용
+Use cloud-based services=클라우드 기반 서비스 사용
+Use external drives=외장 드라이브 사용
+Use computer backups=컴퓨터 백업 사용
+Next steps=다음 단계
+
+[sync-notes]
+Syncing methods=동기화 방법
+iPhone and iPad syncing=iPhone 및 iPad 동기화
+Frequently asked questions=자주 묻는 질문
+
+[link-notes]
+Create a link=링크 만들기
+Create a link to a non-existing note=존재하지 않는 노트에 대한 링크 만들기
+Navigate between notes=노트 간 탐색
+Learn more=자세히 알아보기
+
+[mobile]
+Widgets, shortcuts, and Siri=위젯, 단축키 및 Siri
+Mobile toolbar=모바일 툴바
+Customize mobile toolbar=모바일 툴바 커스터마이즈
+Add command to mobile toolbar=모바일 툴바에 명령 추가
+Quick Action=빠른 작업
+Customize Quick Action=빠른 작업 커스터마이즈
+Navigation bar=내비게이션 바
+Go back or forward=뒤로 또는 앞으로
+Create or find note=노트 생성 또는 찾기
+Tab management=탭 관리
+Ribbon actions=리본 작업
+Sidebars=사이드바
+
+[vault]
+Create empty vault=빈 보관함 생성
+Open existing folder=기존 폴더 열기
+
+[sandbox]
+Opening the sandbox vault=샌드박스 보관함 열기
+Close the sandbox vault=샌드박스 보관함 닫기
+
+[glossary]
+Alias=별칭
+Attachment=첨부 파일
+Command=명령
+Embed=임베드
+Frontmatter=프런트매터
+Graph=그래프
+Hotkey=키보드 단축키
+Link=링크
+Main area=메인 영역
+Note=노트
+Plugin=플러그인
+Pop-out window=팝아웃 창
+Property=속성
+Ribbon=리본
+Sidebar=사이드바
+Snippet=스니펫
+Status bar=상태 표시줄
+Tab=탭
+Tab group=탭 그룹
+Tag=태그
+Theme=테마
+Vault=보관함
+Remote vault=원격 보관함
+View=뷰
+
+[create-note]
+Create a new note=새 노트 만들기
+Formatting text=텍스트 서식 지정
+Learn more=자세히 알아보기
+
+[data-storage]
+Vault settings=보관함 설정
+Global settings=전역 설정
+Metadata cache=메타데이터 캐시
+
+[manage-notes]
+Create a new note=새 노트 생성
+Rename a note=노트 이름 바꾸기
+Delete a note=노트 삭제
+
+[manage-vaults]
+Create new vault=새 보관함 생성
+Create vault from an existing folder=기존 폴더에서 보관함 생성
+Rename vault=보관함 이름 바꾸기
+Move vault to a different folder=보관함을 다른 폴더로 이동
+Remove vault=보관함 제거
+Transfer settings to another vault=다른 보관함으로 설정 전달
+
+[configuration-folder]
+Access your configuration folder=설정 폴더 접근하기
+Desktop=데스크톱
+Mobile=모바일
+Change your configuration folder=설정 폴더 변경하기
+
+[file-formats]
+Embed files=파일 임베드
+
+[html]
+HTML limitations=HTML 제한 사항
+No Markdown inside HTML=HTML 내부에서 Markdown 사용 불가
+HTML blocks must be self-contained=HTML 블록은 자체적으로 완결되어야 합니다
+When Markdown appears to work in HTML=HTML에서 Markdown이 작동하는 것처럼 보이는 경우
+Common HTML usage=일반적인 HTML 사용법
+Comments=주석
+Underline=밑줄
+Strikethrough=취소선
+
+[obsidian-flavored-markdown]
+Supported Markdown extensions=지원되는 Markdown 확장 기능
+
+[advanced-syntax]
+Tables=표
+Format content within a table=표 안의 콘텐츠 서식 지정
+Diagram=다이어그램
+Linking files in a diagram=다이어그램에서 파일 연결하기
+Math=수식
+
+[syntax]
+Paragraphs=문단
+Line breaks=줄 바꿈
+Headings=제목
+Bold, italics, highlights=굵게, 기울임꼴, 강조 표시
+Internal links=내부 링크
+External links=외부 링크
+Escape blank spaces in links=링크에서 공백 이스케이프
+External images=외부 이미지
+Quotes=인용
+Lists=목록
+Task lists=작업 목록
+Nesting lists=목록 중첩
+Horizontal rule=수평선
+Code=코드
+Inline code=인라인 코드
+Code blocks=코드 블록
+Nesting code blocks=코드 블록 중첩
+Footnotes=각주
+Comments=주석
+Escaping Markdown Syntax=Markdown 구문 이스케이프
+Learn more=자세히 알아보기
+
+[multiple-cursors]
+Rectangular selection=사각 선택
+
+[edit-and-read]
+Reading view=읽기 보기
+Editing view=편집기
+Live Preview=실시간 미리보기
+Source mode=원본 모드
+
+[properties]
+Add properties to a note=노트에 속성 추가하기
+Property types=속성 유형
+Advanced uses=고급 사용법
+Search properties=속성 검색
+Templates=템플릿
+Rename properties=속성 이름 바꾸기
+Display modes=표시 모드
+CSS snippets=CSS 스니펫
+Not supported=지원되지 않는 기능
+Hotkeys=키보드 단축키
+Add a property=속성 추가
+Navigate between properties=속성 간 이동
+Select properties=속성 선택
+Edit properties=속성 편집
+Vim (advanced)=Vim (고급)
+Property format=속성 형식
+Text=텍스트
+List=목록
+Number=숫자
+Checkbox=체크박스
+Date=날짜
+Date & time=날짜 및 시간
+Tags=태그
+JSON properties=JSON 속성
+Default properties=기본 속성
+Properties for Obsidian Publish=Obsidian Publish용 속성
+Deprecated properties=지원 중단된 속성
+
+[embed-web-pages]
+Embed a YouTube video=YouTube 동영상 삽입
+Embed a tweet=트윗 삽입
+
+[attachments]
+Add an attachment=첨부 파일 추가
+Change default attachment location=기본 첨부 파일 위치 변경
+
+[callouts]
+Change the title=제목 변경
+Foldable callouts=접을 수 있는 콜아웃
+Nested callouts=중첩 콜아웃
+Customize callouts=콜아웃 커스터마이즈
+Supported types=지원 유형
+
+[tags]
+Add a tag to a note=노트에 태그 추가
+Find notes using tags=태그를 사용하여 노트 찾기
+Nested tags=중첩 태그
+Tag format=태그 형식
+
+[editing-shortcuts]
+Windows and Linux shortcuts=Windows 및 Linux 단축키
+Common actions=일반 동작
+Text editing=텍스트 편집
+Text navigation=텍스트 탐색
+Text selection=텍스트 선택
+macOS shortcuts=macOS 단축키
+Text formatting=텍스트 서식
+
+[/]
+Obsidian Help=Obsidian 도움말
+Get started=시작하기
+Extend Obsidian=Obsidian 확장하기
+Add-on services=부가 서비스
+Contribute=기여하기
