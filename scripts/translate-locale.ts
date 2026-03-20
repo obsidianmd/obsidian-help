@@ -660,7 +660,7 @@ async function main() {
 
   // ── Filter to files needing translation ──
   // Includes stubs (localized: null) and manually flagged (needs-retranslation: true)
-  let toTranslate = localeFiles.filter(f => f.frontmatter.localized === false || f.frontmatter["needs-retranslation"]);
+  let toTranslate = localeFiles.filter(f => f.frontmatter.localized === false || f.frontmatter.localized === null || f.frontmatter["needs-retranslation"]);
   if (isFinite(limit)) toTranslate = toTranslate.slice(0, limit);
   if (singleFile) {
     toTranslate = toTranslate.filter(f => f.relPath === singleFile);

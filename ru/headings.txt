@@ -1,0 +1,325 @@
+[bases]
+How to use bases=Как использовать базы данных
+View types=Типы представлений
+
+[bases/views]
+Toolbar=Панель инструментов
+Add and switch views=Добавление и переключение представлений
+View settings=Настройки представления
+Layout=Расположение
+Filters=Фильтры
+Components of a filter=Компоненты фильтра
+Conjunctions=Конъюнкции
+Filter groups=Группы фильтров
+Advanced filter editor=Расширенный редактор фильтров
+Sort and group results=Сортировка и группировка результатов
+Add a sort=Добавление сортировки
+Remove a sort=Удаление сортировки
+Limit, copy, and export results=Ограничение, копирование и экспорт результатов
+Limit results=Ограничение результатов
+Copy to clipboard=Копирование в буфер обмена
+Export CSV=Экспорт в CSV
+Embed a view=Встраивание представления
+
+[bases/views/map]
+Install the Maps plugin=Установка плагина Maps
+Example=Пример
+Settings=Настройки
+Markers=Маркеры
+Coordinates=Координаты
+Icons=Значки
+Use a formula to define icons=Использование формулы для определения значков
+Colors=Цвета
+Background=Фон
+Map tiles=Тайлы карты
+Useful links=Полезные ссылки
+Tips=Советы
+Troubleshooting=Устранение неполадок
+
+[bases/views/cards]
+Settings=Настройки
+Card size=Размер карты
+Image property=Свойство изображения
+Image fit=Подгонка изображения
+Image aspect ratio=Соотношение сторон изображения
+
+[bases/views/list]
+Settings=Настройки
+Markers=Маркеры
+Indent properties=Отступ свойств
+Separators=Разделители
+
+[bases/views/table]
+Settings=Настройки
+Row height=Высота строки
+Summaries=Сводки
+Add a summary=Добавление сводки
+Built-in summaries=Встроенные сводки
+All property types=Все типы свойств
+Numbers=Числа
+Dates=Даты
+Checkbox=Флажок
+Custom summaries=Пользовательские сводки
+Shortcuts=Сочетания клавиш
+
+[bases/syntax]
+Example=Пример
+Filters=Фильтры
+Formulas=Формулы
+Properties=Свойства
+Summaries=Сводки
+Default Summary Formulas=Стандартные формулы сводки
+Views=Виды
+Note properties=Свойства заметки
+File properties=Свойства файла
+Access properties with `this`=Доступ к свойствам через `this`
+Operators=Операторы
+Arithmetic operators=Арифметические операторы
+Date arithmetic=Арифметика дат
+Comparison operators=Операторы сравнения
+Boolean operators=Логические операторы
+Functions=Функции
+Types=Типы
+Strings, numbers, and booleans=Строки, числа и логические значения
+Dates and durations=Даты и длительности
+Objects and lists=Объекты и списки
+Files and links=Файлы и ссылки
+
+[bases/create-base]
+Create a new base=Создание новой базы
+Embed a base=Встраивание базы
+Embed a base file=Встраивание файла базы
+Embed a base as a code block=Встраивание базы в виде блока кода
+
+[formulas]
+What formulas can do=Что могут формулы
+Create a formula property=Создание свойства-формулы
+Write a formula=Написание формулы
+Reference properties=Ссылки на свойства
+Use operators=Использование операторов
+Use functions=Использование функций
+Formula examples=Примеры формул
+Calculate a deadline=Вычисление срока
+Display overdue status=Отображение статуса просрочки
+Format currency=Форматирование валюты
+Count list items=Подсчёт элементов списка
+Calculate priority score=Вычисление приоритета
+Combine text fields=Объединение текстовых полей
+Calculate total cost=Расчёт общей стоимости
+Data types=Типы данных
+Reference other formulas=Ссылки на другие формулы
+
+[bases/functions]
+Global=Глобальные
+Fields=Поля
+Regular expression=Регулярное выражение
+
+[android]
+Sync=Синхронизация
+Vault location=Расположение хранилища
+Device storage=Хранилище устройства
+App storage=Хранилище приложения
+Widgets=Виджеты
+Quick Settings tiles=Плитки быстрых настроек
+Shortcuts=Ярлыки
+
+[ios]
+Sync=Синхронизация
+Widgets=Виджеты
+Lock Screen and Control Center widgets=Виджеты экрана блокировки и Пункта управления
+Home Screen widgets=Виджеты главного экрана
+Customizing widgets=Настройка виджетов
+Shortcuts=Быстрые команды
+Share Sheet Extension=Расширение «Поделиться»
+Siri integration=Интеграция с Siri
+Spotlight integration=Интеграция со Spotlight
+
+[credits]
+Team=Команда
+Development=Разработка
+Product & Operations=Продукт и операции
+Moderators=Модераторы
+Retired=На заслуженном отдыхе
+Plugin inspirations=Вдохновители плагинов
+Builds=Сборки
+Translators=Переводчики
+Documentation=Документация
+Add your name=Добавьте своё имя
+Third party acknowledgements=Благодарности сторонним разработчикам
+Previous logo=Предыдущий логотип
+
+[2fa]
+Enable 2FA=Включение 2FA
+Generate recovery codes=Генерация кодов восстановления
+Disable 2FA=Отключение 2FA
+FAQ=Часто задаваемые вопросы
+
+[community-code-of-conduct]
+The rules=Правила
+Serious offenses=Серьёзные нарушения
+Harassment=Домогательства
+Threats=Угрозы
+Blatant -isms=Явная дискриминация
+Other offenses=Прочие нарушения
+Belligerence=Враждебное поведение
+Being especially unpleasant=Чрезмерно неприятное поведение
+Unsolicited messages to community members=Нежелательные сообщения участникам сообщества
+Other behaviors=Прочее поведение
+Sea-lioning=Навязчивое выспрашивание (sea-lioning)
+"Feed me"=«Сделайте за меня»
+Campaigning=Навязчивые повторные обращения
+Excessive self promotion=Чрезмерное саморекламирование
+Spamming=Спам
+Encouraged behaviors=Поощряемое поведение
+Motivation=Мотивация
+Report violations=Сообщение о нарушениях
+Report on Discord=Сообщение в Discord
+Report on the forum=Сообщение на форуме
+Enforcement=Применение мер
+Appealing a ban=Обжалование блокировки
+Credits=Авторы
+
+[obsidian]
+What is Obsidian=Что такое Obsidian
+How we're different=Чем мы отличаемся
+You own and control your data=Вы владеете своими данными и контролируете их
+Links are first-class citizens=Ссылки — граждане первого класса
+Your own toolkit=Ваш собственный набор инструментов
+Follow our development=Следите за нашей разработкой
+
+[early-access]
+Enable early access versions for desktop=Включение ранних версий на компьютере
+Install early access versions on mobile devices=Установка ранних версий на мобильных устройствах
+Report issues and other feedback=Сообщение о проблемах и другая обратная связь
+Switch back to public versions on desktop=Возврат к публичным версиям на компьютере
+Switch back to public versions on mobile=Возврат к публичным версиям на мобильном устройстве
+
+[publish/seo]
+Sitemap=Карта сайта
+Permalinks=Постоянные ссылки
+Metadata=Метаданные
+
+[publish/analytics]
+Prerequisites=Необходимые условия
+Plausible, Fathom, and other analytics services=Plausible, Fathom и другие сервисы аналитики
+Troubleshooting=Устранение неполадок
+
+[publish/security]
+Password protection=Защита паролем
+Add a site password=Добавление пароля сайта
+Remove a site password=Удаление пароля сайта
+Data collection=Сбор данных
+Visitor data=Данные посетителей
+Access=Доступ
+Managing access to Obsidian Publish on your network=Управление доступом к Obsidian Publish в вашей сети
+
+[publish]
+How to use Obsidian Publish=Как использовать Obsidian Publish
+
+[publish/media]
+Images=Изображения
+PDFs=PDF
+Videos and audio=Видео и аудио
+
+[publish/setup]
+Prerequisites=Предварительные условия
+Log in with your Obsidian account=Войдите с помощью аккаунта Obsidian
+Enable Obsidian Publish=Включите Obsidian Publish
+Open Publish=Откройте Publish
+Open via Command palette=Открытие через палитру команд
+Open via hotkey=Открытие через сочетание клавиш
+Open via ribbon=Открытие через вертикальную панель
+Create a new site=Создание нового сайта
+Set a site name=Установка названия сайта
+Select notes to publish=Выбор заметок для публикации
+Next steps=Дальнейшие шаги
+
+[publish/customize]
+Static assets=Статические ресурсы
+Use a community theme=Использование темы сообщества
+Enable UI features=Включение элементов интерфейса
+Customize navigation=Настройка навигации
+Accessing Customize navigation options=Доступ к настройкам навигации
+Adjust navigation items=Настройка элементов навигации
+Hide and unhide navigation items=Скрытие и отображение элементов навигации
+FAQ=Часто задаваемые вопросы
+
+[publish/limitations]
+Community plugins=Сторонние плагины
+Graph=Граф
+Media files=Медиафайлы
+PDFs=PDF
+Search=Поиск
+
+[publish/domains]
+Set up using CloudFlare=Настройка с помощью CloudFlare
+Set up using a proxy=Настройка с помощью прокси
+Supported HTTP X-Headers=Поддерживаемые HTTP X-заголовки
+Redirect old site to custom domain=Перенаправление старого сайта на пользовательский домен
+Troubleshoot=Устранение неполадок
+
+[publish/permalinks]
+Redirect old notes=Перенаправление старых заметок
+
+[publish/social-share]
+Description=Описание
+Image=Изображение
+
+[publish/publish]
+Prerequisites=Предварительные требования
+Publish notes=Публикация заметок
+Unpublish notes=Снятие заметок с публикации
+Update a published note=Обновление опубликованной заметки
+Publish linked data=Публикация связанных данных
+Automatically select data to publish=Автоматический выбор данных для публикации
+Ignore data=Игнорирование данных
+
+[publish/collaborate]
+Add a collaborator to a site=Добавление соавтора на сайт
+Remove a collaborator from a site=Удаление соавтора с сайта
+Sync changes between collaborators=Синхронизация изменений между соавторами
+Permissions=Разрешения
+
+[publish/sites]
+Create a new site=Создание нового сайта
+Delete an existing site=Удаление существующего сайта
+Switch between sites=Переключение между сайтами
+Change the site ID=Изменение ID сайта
+View site options=Просмотр настроек сайта
+Site options=Настройки сайта
+General=Общие
+Appearance=Внешний вид
+Reading experience=Удобство чтения
+Components=Компоненты
+Other site settings=Прочие настройки сайта
+
+[publish/troubleshoot]
+General=Общие
+Publishing notes=Публикация заметок
+CSS and themes=CSS и темы
+
+[sync/headless]
+Quick start=Быстрый старт
+Commands=Команды
+Native modules=Нативные модули
+
+[sync/security]
+Encryption=Шифрование
+What does end-to-end encryption mean?=Что означает сквозное шифрование?
+What are the risks of using standard encryption?=Какие риски связаны с использованием стандартного шифрования?
+What encryption do you use?=Какое шифрование вы используете?
+Can I verify that my data is end-to-end encrypted?=Могу ли я убедиться, что мои данные зашифрованы сквозным шифрованием?
+Has Obsidian completed a third-party security audit?=Прошёл ли Obsidian сторонний аудит безопасности?
+What happens if I forget my encryption password?=Что произойдёт, если я забуду пароль шифрования?
+Hosting=Хостинг
+Where do you host the servers for Obsidian Sync?=Где расположены серверы Obsidian Sync?
+Where can I find my current Sync server and where is it hosted?=Как узнать текущий сервер Sync и где он расположен?
+Network and access=Сеть и доступ
+Managing access to Obsidian Sync on your network=Управление доступом к Obsidian Sync в вашей сети
+Limitations=Ограничения
+Deterministic file-hash encryption=Детерминированное шифрование хешей файлов
+No cryptographic binding between path and content=Отсутствие криптографической привязки пути к содержимому
+
+[sync]
+How to use Obsidian Sync=Как использовать Obsidian Sync
+Important=Важно

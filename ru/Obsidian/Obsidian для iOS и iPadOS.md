@@ -1,101 +1,98 @@
 ---
-localized: null
 permalink: ios
 aliases:
   - Obsidian for iOS and iPadOS
 ---
-The Obsidian mobile app for iOS and iPadOS brings powerful note-taking capabilities to your iPhone and iPad. You can download it from the [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
+Мобильное приложение Obsidian для iOS и iPadOS обеспечивает мощные возможности ведения заметок на вашем iPhone и iPad. Вы можете загрузить его из [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
 
-This page covers iOS-specific features including widgets, Siri integration, and Shortcuts. 
+На этой странице описаны функции, специфичные для iOS, включая виджеты, интеграцию с Siri и быстрые команды.
 
-## Sync
+## Синхронизация
 
-For information on syncing notes between devices, please see [[Sync your notes across devices]].
+Информацию о синхронизации заметок между устройствами см. в разделе [[Синхронизация заметок между устройствами]].
 
-## Widgets
+## Виджеты
 
-Obsidian for iOS offers several widgets to take quick actions on your vault.
+Obsidian для iOS предлагает несколько виджетов для быстрых действий с вашим хранилищем.
 
-> [!note] Note
-> Widgets are available on iOS and iPadOS 18 and higher.
-> Widgets are not available when using "Require Face ID" to unlock the app.
+> [!note] Примечание
+> Виджеты доступны на iOS и iPadOS 18 и выше.
+> Виджеты недоступны при использовании функции «Требовать Face ID» для разблокировки приложения.
 
 
-### Lock Screen and Control Center widgets
+### Виджеты экрана блокировки и Пункта управления
 
-Lock Screen and Control Center widgets allow you to:
-- Create a new note
-- Open a specific note
-- Open daily note
-- Open search
-- Open Obsidian
+Виджеты экрана блокировки и Пункта управления позволяют:
+- Создать новую заметку
+- Открыть определённую заметку
+- Открыть ежедневную заметку
+- Открыть поиск
+- Открыть Obsidian
 
-### Home Screen widgets
+### Виджеты домашнего экрана
 
-Home Screen widgets allow you to:
-- Create a note
-- View a note
-- Open your daily note
+Виджеты домашнего экрана позволяют:
+- Создать заметку
+- Просмотреть заметку
+- Открыть ежедневную заметку
 
-### Customizing widgets
+### Настройка виджетов
 
-You can customize widgets to suit your workflow, such as choosing which vault to use or specifying a particular note to open.
+Вы можете настроить виджеты под свой рабочий процесс, например, выбрать хранилище или указать конкретную заметку для открытия.
 
-- **Home Screen widgets:** Tap and hold the widget, then select **Edit Widget**.
-- **Lock Screen widgets:** Touch and hold your Lock Screen, tap **Customize**, select the Lock Screen, then tap the widget you want to customize.
-- **Control Center widgets:** Open Control Center, tap the **+** button at the top left to begin editing, then tap the widget you want to customize.
+- **Виджеты домашнего экрана:** нажмите и удерживайте виджет, затем выберите **Редактировать виджет**.
+- **Виджеты экрана блокировки:** нажмите и удерживайте экран блокировки, нажмите **Настроить**, выберите экран блокировки, затем нажмите на виджет, который хотите настроить.
+- **Виджеты Пункта управления:** откройте Пункт управления, нажмите кнопку **+** в левом верхнем углу для начала редактирования, затем нажмите на виджет, который хотите настроить.
 
-**New Note** widget configuration options:
+Параметры конфигурации виджета **Новая заметка**:
 
 ![[ios-new-note-configuration.png|400]]
 
-**View Note** widget configuration options.
+Параметры конфигурации виджета **Просмотр заметки**:
 
 ![[ios-view-note-configuration.png|400]]
 
-## Shortcuts
+## Быстрые команды
 
-Obsidian integrates with Apple's Shortcuts app, allowing you to create powerful automations. Available shortcuts include:
+Obsidian интегрируется с приложением Apple «Быстрые команды», позволяя создавать мощные автоматизации. Доступные команды включают:
 
-- **Open a note** — Open a specific note in your vault
-- **Create a new note** — Create a new note in your vault
-- **Open daily note** — Jump directly to today's daily note
-- **Capture to Daily Note** — Append or prepend text to the daily note without opening the Obsidian app
-- **Capture to Bookmark** — Append or prepend text to a bookmarked note without opening the Obsidian app
+- **Открыть заметку** — открыть определённую заметку в хранилище
+- **Создать новую заметку** — создать новую заметку в хранилище
+- **Открыть ежедневную заметку** — перейти непосредственно к сегодняшней ежедневной заметке
+- **Добавить в ежедневную заметку** — добавить текст в начало или конец ежедневной заметки без открытия приложения Obsidian
+- **Добавить в закладку** — добавить текст в начало или конец заметки из закладок без открытия приложения Obsidian
 
-Capture shortcuts are particularly useful for quick note-taking, as they allow you to add content to a note in the background.
+Команды для быстрого сохранения особенно полезны для оперативного создания заметок, так как они позволяют добавлять содержимое в заметку в фоновом режиме.
 
-## Share Sheet Extension
+## Расширение «Поделиться»
 
-Obsidian offers a Share Sheet Extension that you can use in other apps to send links, text, images, or documents to your Obsidian vault.
+Obsidian предлагает расширение для меню «Поделиться», которое можно использовать в других приложениях для отправки ссылок, текста, изображений или документов в ваше хранилище Obsidian.
 
-To share a link from Safari:
+Чтобы поделиться ссылкой из Safari:
 
-1. Open the webpage in Safari, then tap the **Share** button.
-2. In the Share menu, swipe left across the app row, tap **More**, then tap **Edit**.
-3. Turn on **Obsidian** so it appears in the Share menu.
-4. Tap the **Add** button next to Obsidian to add it to **Favorites**.
-5. (Optional) Drag the **Reorder** button next to Obsidian to change its position in Favorites.
-6. Tap **Done**.
-7. Back in Safari's Share menu, tap **Obsidian**.
-8. When you tap Obsidian, the Obsidian share sheet appears and lets you share the selected content to your vault.
+1. Откройте веб-страницу в Safari, затем нажмите кнопку **Поделиться**.
+2. В меню «Поделиться» проведите влево по строке приложений, нажмите **Ещё**, затем нажмите **Редактировать**.
+3. Включите **Obsidian**, чтобы оно отображалось в меню «Поделиться».
+4. Нажмите кнопку **Добавить** рядом с Obsidian, чтобы добавить его в **Избранное**.
+5. (Необязательно) Перетащите кнопку **Изменить порядок** рядом с Obsidian, чтобы изменить его позицию в Избранном.
+6. Нажмите **Готово**.
+7. Вернувшись в меню «Поделиться» в Safari, нажмите **Obsidian**.
+8. При нажатии на Obsidian появится окно расширения Obsidian, позволяющее отправить выбранное содержимое в ваше хранилище.
 
 ![[ios-share-sheet.png|400]]
 
-## Siri integration
+## Интеграция с Siri
 
-You can use Siri voice commands to interact with Obsidian:
+Вы можете использовать голосовые команды Siri для взаимодействия с Obsidian:
 
-- "Capture using Obsidian"
-- "Capture to Obsidian"
-- "Open my daily note in Obsidian"
-- "Search in Obsidian"
+- «Capture using Obsidian»
+- «Capture to Obsidian»
+- «Open my daily note in Obsidian»
+- «Search in Obsidian»
 
-## Spotlight integration
+## Интеграция со Spotlight
 
-When you search for "Obsidian" in iOS Spotlight, you'll see quick actions:
-- New Note
-- Search
-- Daily Note
-
-
+При поиске «Obsidian» в iOS Spotlight вы увидите быстрые действия:
+- Новая заметка
+- Поиск
+- Ежедневная заметка

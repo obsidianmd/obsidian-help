@@ -1,5 +1,4 @@
 ---
-localized: null
 permalink: sync
 cssclasses:
   - list-cards
@@ -7,50 +6,48 @@ cssclasses:
 publish: true
 mobile: true
 description: >-
-  Obsidian Sync is an add-on service that allows you to privately sync your
-  notes across devices.
+  Obsidian Sync — это дополнительный сервис, который позволяет конфиденциально
+  синхронизировать заметки между устройствами.
 aliases:
   - Introduction to Obsidian Sync
 ---
+[Obsidian Sync](https://obsidian.md/sync) — это дополнительный сервис, который позволяет конфиденциально синхронизировать заметки между устройствами.
 
-[Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to privately sync your notes across devices.
+## Как использовать Obsidian Sync
 
-## How to use Obsidian Sync
-
-- [[Set up Obsidian Sync]]
-	- Set up Sync on all your devices.
-- [[Switch to Obsidian Sync|Switch to Obsidian Sync]]
-	- Prepare your Obsidian vault to use Sync.
-- [[Sync settings and selective syncing|Selective sync]]
-	- Configure which files and settings to sync.
-- [[Plans and storage limits]]
-	- Learn about Sync subscription plans.
-- [[Plans and storage limits|Remote vault storage]]
-	- Manage your remote vault storage.
-- [[Version history]]
-	- View or restore previous versions of a note.
-- [[Status icon and messages]]
-	- Overview of the Sync log and status icons.
-- [[Security and privacy]]
-	- How Obsidian keeps your Sync data safe.
-- [[Collaborate on a shared vault|Collaboration]]
-	- Add team members to a shared vault.
-- [[Back up your Obsidian files]]
-	- Back up your vault using third-party tools.
-- [[Sync regions]]
-	- Move your Sync vault to a different regional server.
+- [[Настройка Obsidian Sync]]
+	- Настройте Sync на всех ваших устройствах.
+- [[Переход на Obsidian Sync|Переход на Obsidian Sync]]
+	- Подготовьте хранилище Obsidian для использования Sync.
+- [[Настройки синхронизации и выборочная синхронизация|Выборочная синхронизация]]
+	- Настройте, какие файлы и настройки синхронизировать.
+- [[Планы и лимиты хранилища]]
+	- Узнайте о планах подписки Sync.
+- [[Планы и лимиты хранилища|Хранилище удалённого хранилища]]
+	- Управляйте хранилищем удалённого хранилища.
+- [[История версий]]
+	- Просматривайте или восстанавливайте предыдущие версии заметки.
+- [[Значок состояния и сообщения]]
+	- Обзор журнала Sync и значков состояния.
+- [[Безопасность и конфиденциальность]]
+	- Как Obsidian обеспечивает безопасность ваших данных Sync.
+- [[Совместная работа в общем хранилище|Совместная работа]]
+	- Добавляйте участников команды в общее хранилище.
+- [[Резервное копирование файлов Obsidian]]
+	- Создавайте резервные копии хранилища с помощью сторонних инструментов.
+- [[Регионы синхронизации]]
+	- Перенесите хранилище Sync на другой региональный сервер.
 - [[Headless Sync]]
-	- Sync your vaults from the command line without the desktop app.
-- [[Troubleshoot Obsidian Sync]]
-	- Common syncing issues and solutions.
+	- Синхронизируйте хранилища из командной строки без настольного приложения.
+- [[Устранение неполадок Obsidian Sync]]
+	- Распространённые проблемы синхронизации и их решения.
 
-## Important
+## Важно
 
-If you are using Obsidian Sync alongside other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, please [[Back up your Obsidian files]] to prevent sync conflicts. We strongly recommend [[Switch to Obsidian Sync|fully migrating to Obsidian Sync]].
+Если вы используете Obsidian Sync совместно с другими облачными хранилищами, такими как Dropbox, Google Drive или OneDrive, пожалуйста, ознакомьтесь с [[Резервное копирование файлов Obsidian|резервным копированием файлов Obsidian]], чтобы предотвратить конфликты синхронизации. Мы настоятельно рекомендуем [[Переход на Obsidian Sync|полностью перейти на Obsidian Sync]].
 
-See [[Frequently asked questions]] for frequently asked questions, and more details about Obsidian Sync.
+Ознакомьтесь с разделом [[Часто задаваемые вопросы]], чтобы найти ответы на часто задаваемые вопросы и узнать больше об Obsidian Sync.
 
-> [!warning] This feature is unavailable on Apple devices with [Lockdown mode](https://support.apple.com/en-us/105120) enabled unless Obsidian is exempted.
+> [!warning] Эта функция недоступна на устройствах Apple с включённым [режимом блокировки](https://support.apple.com/en-us/105120), если Obsidian не добавлен в исключения.
 
-Are you having unexpected interruptions in your Sync service? Check the [server status](https://status.obsidian.md) here.
- 
+Возникают неожиданные перебои в работе сервиса Sync? Проверьте [статус сервера](https://status.obsidian.md) здесь.

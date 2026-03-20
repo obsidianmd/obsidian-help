@@ -1,125 +1,125 @@
 ---
-localized: null
 permalink: sync/headless
 cssclasses:
   - reference
 description: >-
-  Obsidian Sync offers a headless client to sync vaults without using the
-  desktop app. Useful for CI pipelines, agents, and automated workflows. Sync
-  the latest changes or keep files continuously up to date.
+  Obsidian Sync предлагает безголовый клиент для синхронизации хранилищ без
+  использования настольного приложения. Полезно для CI-конвейеров, агентов и
+  автоматизированных рабочих процессов. Синхронизируйте последние изменения или
+  поддерживайте файлы постоянно актуальными.
 ---
-[[Introduction to Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
+[[Введение в Obsidian Sync|Obsidian Sync]] предлагает безголовый клиент для синхронизации хранилищ без использования настольного приложения. Полезно для CI-конвейеров, агентов и автоматизированных рабочих процессов. Синхронизируйте последние изменения или поддерживайте файлы постоянно актуальными.
 
-Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app. Headless Sync uses the same [[Security and privacy|encryption and privacy protections]] as the desktop app, including end-to-end encryption.
+Установите [[Obsidian Headless]] **(открытая бета)**, чтобы взаимодействовать с [[Введение в Obsidian Sync|Obsidian Sync]] из командной строки без настольного приложения Obsidian. Безголовая синхронизация использует те же [[Безопасность и конфиденциальность|средства шифрования и защиты конфиденциальности]], что и настольное приложение, включая сквозное шифрование.
 
-## Quick start
+## Быстрый старт
 
-> [!error] Back up your data before you start
-> 1. Always back up your data before you start in case anything unexpected happens.
-> 2. Do not use *both* the desktop app Sync and Headless Sync on the same device, as it can cause data conflicts. Only use one sync method per device.
+> [!error] Сделайте резервную копию данных перед началом работы
+> 1. Всегда делайте резервную копию данных перед началом работы на случай непредвиденных ситуаций.
+> 2. Не используйте *одновременно* синхронизацию настольного приложения и безголовую синхронизацию на одном устройстве, так как это может привести к конфликтам данных. Используйте только один метод синхронизации на устройство.
 
-Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
+Установите [[Obsidian Headless|Obsidian Headless]] **(открытая бета)**:
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-You must have an active [[Plans and storage limits|Obsidian Sync subscription]].
+У вас должна быть активная [[Планы и лимиты хранилища|подписка на Obsidian Sync]].
 
 ```shell
-# Login
+# Вход
 ob login
 
-# List your remote vaults
+# Список удалённых хранилищ
 ob sync-list-remote
 
-# Set up a vault for syncing
+# Настройка хранилища для синхронизации
 cd ~/vaults/my-vault
 ob sync-setup --vault "My Vault"
 
-# Run a one-time sync
+# Однократная синхронизация
 ob sync
 
-# Run continuous sync (watches for changes)
+# Непрерывная синхронизация (отслеживает изменения)
 ob sync --continuous
 ```
 
-## Commands
+## Команды
 
 ### `ob sync-list-remote`
 
-List all remote vaults available to your account, including shared vaults.
+Список всех удалённых хранилищ, доступных вашему аккаунту, включая общие хранилища.
 
 ### `ob sync-list-local`
 
-List locally configured vaults and their paths.
+Список локально настроенных хранилищ и их путей.
 
 ### `ob sync-create-remote`
 
-Create a new remote vault.
+Создание нового удалённого хранилища.
 
 ```
 ob sync-create-remote --name "Vault Name" [--encryption <standard|e2ee>] [--password <password>] [--region <region>]
 ```
 
-| Option | Description |
+| Опция | Описание |
 | --- | --- |
-| `--name` | Vault name (required) |
-| `--encryption` | `standard` for managed encryption, `e2ee` for end-to-end encryption |
-| `--password` | End-to-end encryption password (prompted if omitted) |
-| `--region` | Server [[Sync regions\|region]] (automatic if omitted) |
+| `--name` | Название хранилища (обязательно) |
+| `--encryption` | `standard` для управляемого шифрования, `e2ee` для сквозного шифрования |
+| `--password` | Пароль сквозного шифрования (запрашивается, если не указан) |
+| `--region` | [[Регионы синхронизации\|Регион]] сервера (автоматически, если не указан) |
 
 ### `ob sync-setup`
 
-Set up sync between a local vault and a remote vault.
+Настройка синхронизации между локальным и удалённым хранилищем.
 
 ```
 ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>] [--device-name <name>] [--config-dir <name>]
 ```
 
-| Option | Description |
+| Опция | Описание |
 | --- | --- |
-| `--vault` | Remote vault ID or name (required) |
-| `--path` | Local directory (default: current directory) |
-| `--password` | E2E encryption password (prompted if omitted) |
-| `--device-name` | Device name shown in [[Version history\|sync version history]] |
-| `--config-dir` | [[Configuration folder\|Config directory]] name (default: `.obsidian`) |
+| `--vault` | Идентификатор или название удалённого хранилища (обязательно) |
+| `--path` | Локальная директория (по умолчанию: текущая директория) |
+| `--password` | Пароль сквозного шифрования (запрашивается, если не указан) |
+| `--device-name` | Имя устройства, отображаемое в [[История версий\|истории версий синхронизации]] |
+| `--config-dir` | Имя [[Папка конфигурации\|папки конфигурации]] (по умолчанию: `.obsidian`) |
 
 ### `ob sync`
 
-Run sync for a configured vault.
+Запуск синхронизации для настроенного хранилища.
 
 ```
 ob sync [--path <local-path>] [--continuous]
 ```
 
-| Option | Description |
+| Опция | Описание |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--continuous` | Run continuously, watching for changes |
+| `--path` | Путь к локальному хранилищу (по умолчанию: текущая директория) |
+| `--continuous` | Непрерывная работа с отслеживанием изменений |
 
 ### `ob sync-config`
 
-View or change [[Sync settings and selective syncing|sync settings]] for a vault. Run with no options to display the current configuration.
+Просмотр или изменение [[Настройки синхронизации и выборочная синхронизация|настроек синхронизации]] хранилища. Запустите без опций для отображения текущей конфигурации.
 
 ```
 ob sync-config [--path <local-path>] [options]
 ```
 
-| Option                | Description                                                                                                                                                                                                    |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--path`              | Local vault path (default: current directory)                                                                                                                                                                  |
-| `--mode`              | Sync mode: `bidirectional` (default), `pull-only` (only download, ignore local changes), or `mirror-remote` (only download, revert local changes)                                                              |
-| `--conflict-strategy` | `merge` or `conflict`                                                                                                                                                                                          |
-| `--file-types`        | Attachment types to sync: `image`, `audio`, `video`, `pdf`, `unsupported` (comma-separated, empty to clear)                                                                                                    |
-| `--configs`           | Config categories to sync: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (comma-separated, empty to disable config syncing) |
-| `--excluded-folders`  | Folders to exclude (comma-separated, empty to clear)                                                                                                                                                           |
-| `--device-name`       | Device name to identify this client in the sync version history                                                                                                                                                |
-| `--config-dir`        | Config directory name (default: `.obsidian`)                                                                                                                                                                   |
+| Опция                 | Описание                                                                                                                                                                                                                        |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--path`              | Путь к локальному хранилищу (по умолчанию: текущая директория)                                                                                                                                                                  |
+| `--mode`              | Режим синхронизации: `bidirectional` (по умолчанию), `pull-only` (только загрузка, игнорирование локальных изменений) или `mirror-remote` (только загрузка, откат локальных изменений)                                            |
+| `--conflict-strategy` | `merge` или `conflict`                                                                                                                                                                                                          |
+| `--file-types`        | Типы вложений для синхронизации: `image`, `audio`, `video`, `pdf`, `unsupported` (через запятую, пустое значение для очистки)                                                                                                    |
+| `--configs`           | Категории конфигурации для синхронизации: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (через запятую, пустое значение для отключения синхронизации конфигурации) |
+| `--excluded-folders`  | Папки для исключения (через запятую, пустое значение для очистки)                                                                                                                                                                |
+| `--device-name`       | Имя устройства для идентификации этого клиента в истории версий синхронизации                                                                                                                                                     |
+| `--config-dir`        | Имя папки конфигурации (по умолчанию: `.obsidian`)                                                                                                                                                                               |
 
 ### `ob sync-status`
 
-Show sync status and configuration for a vault.
+Отображение статуса синхронизации и конфигурации хранилища.
 
 ```
 ob sync-status [--path <local-path>]
@@ -127,21 +127,21 @@ ob sync-status [--path <local-path>]
 
 ### `ob sync-unlink`
 
-Disconnect a vault from sync and remove stored credentials.
+Отключение хранилища от синхронизации и удаление сохранённых учётных данных.
 
 ```
 ob sync-unlink [--path <local-path>]
 ```
 
-## Native modules
+## Нативные модули
 
-Obsidian Headless includes a prebuilt native addon for setting file creation time (birthtime) on Windows and macOS. This preserves original creation timestamps when downloading files from the server.
+Obsidian Headless включает предварительно собранный нативный аддон для установки времени создания файла (birthtime) в Windows и macOS. Это сохраняет оригинальные метки времени создания при загрузке файлов с сервера.
 
-The addon targets N-API version 3, so the compiled binaries are ABI-stable and work across Node.js versions without recompilation.
+Аддон нацелен на N-API версии 3, поэтому скомпилированные бинарные файлы ABI-стабильны и работают с разными версиями Node.js без перекомпиляции.
 
-On Linux, birthtime is not supported — the addon is not included and sync operates normally without it.
+В Linux birthtime не поддерживается — аддон не включён, и синхронизация работает нормально без него.
 
-Prebuilt binaries are included for:
+Предварительно собранные бинарные файлы включены для:
 
 - `win32-x64`
 - `win32-arm64`

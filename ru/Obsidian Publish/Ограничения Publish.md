@@ -1,51 +1,48 @@
 ---
-localized: null
 permalink: publish/limitations
 aliases:
   - Publish limitations
 ---
+> [!tip] Участники нашего замечательного сообщества нашли обходные пути для некоторых из этих ограничений. Для получения дополнительной информации, пожалуйста, посетите тему [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582) на форумах Obsidian.
 
-> [!tip] Members of our awesome community have devised workarounds for some of these limitations. For more information, please visit our [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582) thread on the Obsidian forums.
+## Плагины сообщества
 
-## Community plugins
+Obsidian Publish имеет минимальную поддержку [[Сторонние плагины|плагинов сообщества]].
 
-Obsidian Publish has minimal support for [[Community plugins]]. 
+Плагины, которые выводят данные в формате Markdown, такие как Waypoint, совместимы с Publish, поскольку для отображения их данных не требуется приложение.
 
-Plugins which output in raw markdown, such as the Waypoint plugin, are compatible with Publish because they do not require the application to render their data. 
+В то же время плагины, которым для отображения необходим блок кода плагина, такие как Dataview или Fantasy Statblocks, по умолчанию не будут работать в Publish.
 
-Whereas a plugin that requires a plugin codeblock to render, such as Dataview or Fantasy Statblocks, will not work by default in Publish. 
+## Граф
 
-## Graph
+Publish предлагает базовую настройку цветов для вида графа с помощью CSS. Вы можете изменить цвета узлов в файле `publish.css`, используя [CSS-переменные вида графа](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
 
-Publish offers basic color customization for its graph view using CSS. You can modify the node colors in your `publish.css` file by utilizing the [Graph View CSS variables](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
+Обратите внимание, что опубликованный граф не поддерживает расширенные параметры сортировки и просмотра, доступные в [[Граф|виде графа]] приложения.
 
-Note that the published graph does not support the comprehensive sorting and viewing options available in the application's [[Graph view]].
+## Медиафайлы
 
-## Media files
+Obsidian Publish не оптимизирован для потокового воспроизведения видео или больших аудиофайлов. Мы описываем некоторые лучшие практики работы с [[Медиафайлы|медиафайлами]] в этих документах.
 
-Obsidian Publish is not optimized for streaming video or large audio files. We include some best practices for handling your [[Media files|media files]] in these documents. 
+Для улучшения опыта ваших посетителей мы рекомендуем использовать сервис видеохостинга, например YouTube или Vimeo.
 
-To improve the experience for your visitors, we recommend that you instead use a video hosting service, such as YouTube or Vimeo.
+Вы можете загружать файлы размером **до 50 МБ** на ваш сайт Publish. ^publish-media-limit
 
-You can upload files **up to 50mb** in size to your Publish site. ^publish-media-limit
+## PDF
 
-## PDFs
+На мобильных устройствах, планшетах и компьютерах с маленькими экранами вы можете столкнуться с проблемами, когда встроенный PDF не загружается или отображается только первая страница. Это связано с ограничениями рендеринга PDF на мобильных устройствах.
 
-On mobile devices, tablets, and computers with small screens, you may encounter issues where an embedded PDF won't load or only the first page is displayed. This is due to limitations with the PDF Renderer on mobile devices. 
+Для контента, ориентированного на мобильных пользователей, мы рекомендуем предоставлять ссылки на PDF, размещённые на внешних ресурсах, или включать внутренние ссылки, позволяющие пользователям загрузить PDF непосредственно на своё устройство.
 
-For content aimed at mobile users, we suggest providing links to PDFs hosted externally or including internal links that allow users to download the PDF directly to their device.
+## Поиск
 
-## Search
+Publish имеет базовую поддержку поиска по обычному тексту в опубликованном контенте. Приоритет в результатах поиска отдаётся:
 
-Publish has basic support for searching plain text in published content. Preference for search results is given to:
+- Именам файлов
+- Псевдонимам
+- Названиям заголовков
 
-- File names
-- Aliases
-- Header names
+После поиска совпадений в вышеперечисленном, поиск также включает обычный текст опубликованных заметок.
 
-After searching the above for matches, the search will then include plain text of the published notes.
+Для улучшения возможностей поиска на вашем опубликованном сайте рекомендуется использовать описательные имена файлов, добавлять несколько псевдонимов и выбирать названия заголовков, точно отражающие содержание.
 
-To improve the searchability of your published site, it is recommended to use descriptive file names, incorporate multiple aliases, and select header names that accurately reflect the content.
-
-Additionally, Publish does not currently support the application's [[Search#Embed search results in a note|embedded search results]] feature.
-
+Кроме того, Publish в настоящее время не поддерживает функцию [[Поиск#Встраивание результатов поиска в заметку|встроенных результатов поиска]] приложения.

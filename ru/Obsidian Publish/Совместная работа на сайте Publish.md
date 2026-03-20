@@ -1,55 +1,53 @@
 ---
-localized: null
 permalink: publish/collaborate
 publish: true
 mobile: true
 description: >-
-  Learn how to collaborate with other Obsidian users on your Obsidian Publish
-  site.
+  Узнайте, как совместно работать с другими пользователями Obsidian на вашем
+  сайте Obsidian Publish.
 aliases:
   - Collaborate on a Publish site
 ---
-Learn how to collaborate on your [[Introduction to Obsidian Publish|Obsidian Publish]] site with other Obsidian users. By adding your friends and colleagues as collaborators, they can publish changes to your site.
+Узнайте, как совместно работать на вашем сайте [[Введение в Obsidian Publish|Obsidian Publish]] с другими пользователями Obsidian. Добавив друзей и коллег в качестве соавторов, они смогут публиковать изменения на вашем сайте.
 
-Only the site owner needs an active subscription for Obsidian Publish. Collaborators only need an [Obsidian account](https://obsidian.md/account).
+Только владельцу сайта необходима активная подписка на Obsidian Publish. Соавторам нужен лишь [аккаунт Obsidian](https://obsidian.md/account).
 
-> [!warning] Before you publish changes to a shared site, make sure to [[#Sync changes between collaborators|sync changes between collaborators]]. Otherwise, you risk overwriting changes from other collaborators.
+> [!warning] Прежде чем публиковать изменения на общем сайте, обязательно [[#Синхронизация изменений между соавторами|синхронизируйте изменения между соавторами]]. В противном случае вы рискуете перезаписать изменения других соавторов.
 
-## Add a collaborator to a site
+## Добавление соавтора на сайт
 
-1. In [[Ribbon]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. Next to **Site collaboration**, select **Manage**.
-4. In **Invite user**, enter the email of the collaborator.
-5. Select **Add**.
+1. На [[Лента|вертикальной панели]] нажмите **Публикация изменений** (![[lucide-send.svg#icon]]) или откройте [[Палитра команд|палитру команд]] и введите **Publish: Publish changes...**
+2. В диалоговом окне **Публикация изменений** нажмите **Настройки сайта** ![[lucide-cog.svg#icon]].
+3. Рядом с **Совместная работа** выберите **Настроить**.
+4. В поле **Пригласить пользователя** введите электронную почту соавтора.
+5. Нажмите **Добавить**.
 
-## Remove a collaborator from a site
+## Удаление соавтора с сайта
 
-1. In [[Ribbon]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
-3. Next to **Site collaboration**, select **Manage**.
-4. Next to the collaborator you want to remove, select **Remove user** ( ![[lucide-x.svg#icon]]).
+1. На [[Лента|вертикальной панели]] нажмите **Публикация изменений** (![[lucide-send.svg#icon]]) или откройте [[Палитра команд|палитру команд]] и введите **Publish: Publish changes...**
+2. В диалоговом окне **Публикация изменений** нажмите **Настройки сайта** ( ![[lucide-cog.svg#icon]] ).
+3. Рядом с **Совместная работа** выберите **Настроить**.
+4. Рядом с соавтором, которого вы хотите удалить, выберите **Удалить пользователя** ( ![[lucide-x.svg#icon]]).
 
-## Sync changes between collaborators
+## Синхронизация изменений между соавторами
 
-Obsidian Publish doesn't sync published changes between local vaults automatically. Instead, collaborators need to manually sync changes from other collaborators.
+Obsidian Publish не синхронизирует опубликованные изменения между локальными хранилищами автоматически. Вместо этого соавторам необходимо вручную синхронизировать изменения других соавторов.
 
-To update a local note with changes from the live site:
+Чтобы обновить локальную заметку изменениями с действующего сайта:
 
-1. In [[Ribbon]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**
-2. Right-click or long-press the change you want to sync, and then select **Use live version**. **This will overwrite the note in your local vault.**
+1. На [[Лента|вертикальной панели]] нажмите **Публикация изменений** (![[lucide-send.svg#icon]]) или откройте [[Палитра команд|палитру команд]] и введите **Publish: Publish changes...**
+2. Щёлкните правой кнопкой мыши или нажмите и удерживайте изменение, которое хотите синхронизировать, а затем выберите **Использовать публичную версию**. **Это перезапишет заметку в вашем локальном хранилище.**
 
-> [!tip] We recommend that you use another tool to sync changes between vaults, such as [[Introduction to Obsidian Sync|Obsidian Sync]] or [git](https://git-scm.com/).
+> [!tip] Мы рекомендуем использовать другой инструмент для синхронизации изменений между хранилищами, например [[Введение в Obsidian Sync|Obsidian Sync]] или [git](https://git-scm.com/).
 
-## Permissions
+## Разрешения
 
-The following table lists the available site permissions for owners and collaborators:
+В следующей таблице перечислены доступные разрешения для владельцев и соавторов сайта:
 
-| Action                             | Collaborator | Owner |
-|------------------------------------|:------------:|:-----:|
-| Publish new pages                  | ✓            | ✓     |
-| Publish changes to published pages | ✓            | ✓     |
-| Unpublish pages                    | ✓            | ✓     |
-| Configure site options             |              | ✓     |
-| Manage permissions                 |              | ✓     |
-
+| Действие                                       | Соавтор | Владелец |
+|------------------------------------------------|:-------:|:--------:|
+| Публикация новых страниц                       | ✓       | ✓        |
+| Публикация изменений на опубликованных страницах | ✓       | ✓        |
+| Снятие страниц с публикации                    | ✓       | ✓        |
+| Настройка параметров сайта                     |         | ✓        |
+| Управление разрешениями                        |         | ✓        |

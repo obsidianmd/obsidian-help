@@ -1,35 +1,34 @@
 ---
-localized: null
 permalink: publish/seo
 ---
-[[Introduction to Obsidian Publish|Obsidian Publish]] sites are automatically optimized for search engines and [[Social media link previews|social sharing cards]]. You can also customize page metadata with descriptions, permalinks, and images.
+Сайты [[Введение в Obsidian Publish|Obsidian Publish]] автоматически оптимизируются для поисковых систем и [[Превью ссылок в социальных сетях|карточек для социальных сетей]]. Вы также можете настраивать метаданные страниц с помощью описаний, постоянных ссылок и изображений.
 
-Note that you can disallow search engine indexing, in your [[Manage sites#Site Options|site options]].
+Обратите внимание, что вы можете запретить индексацию поисковикам в [[Управление сайтами#Настройки сайта|настройках сайта]].
 
 ### Google Search Console
 
-To track SEO with Google, register your site on [Google Search Console](https://search.google.com/search-console). You can also follow our recommended steps to [[Analytics|set up Google Analytics]].
+Для отслеживания SEO через Google зарегистрируйте свой сайт в [Google Search Console](https://search.google.com/search-console). Вы также можете следовать нашим рекомендуемым шагам по [[Аналитика|настройке Google Analytics]].
 
-### Sitemap
+### Карта сайта
 
-The sitemap for your Publish site is available at `/sitemap.xml`, for example:
+Карта вашего сайта Publish доступна по адресу `/sitemap.xml`, например:
 https://help.obsidian.md/sitemap.xml
 
-The sitemap is also available as an RSS feed at `/rss.xml`:
+Карта сайта также доступна в виде RSS-ленты по адресу `/rss.xml`:
 https://help.obsidian.md/rss.xml
 
-### Permalinks
+### Постоянные ссылки
 
-Consider using [[Permalinks]] to define permanent URLs on your site.
+Рассмотрите возможность использования [[Постоянные ссылки|постоянных ссылок]] для определения неизменных URL-адресов на вашем сайте.
 
-### Metadata
+### Метаданные
 
-Page metadata can be customized using [[Properties#Properties for Obsidian Publish|Properties]], which can be useful for [[Social media link previews|social sharing cards]].
+Метаданные страниц можно настроить с помощью [[Свойства#Свойства для Obsidian Publish|свойств]], что может быть полезно для [[Превью ссылок в социальных сетях|карточек для социальных сетей]].
 
-| Property      | Description                                                                                                       |
+| Свойство      | Описание                                                                                                          |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publish your content#Automatically select notes to publish\|Automatically select notes to publish]]. |
-| `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
-| `description` | See [[Social media link previews#Description\|Description]].                                                      |
-| `image`       | See [[Social media link previews#Image\|Image]].                                                                  |
-| `cover`       | See [[Social media link previews#Image\|Image]].                                                                  |
+| `publish`     | См. [[Публикация контента#Автоматический выбор заметок для публикации\|Автоматический выбор заметок для публикации]]. |
+| `permalink`   | См. [[Постоянные ссылки\|Постоянные ссылки]].                                                                    |
+| `description` | См. [[Превью ссылок в социальных сетях#Описание\|Описание]].                                                     |
+| `image`       | См. [[Превью ссылок в социальных сетях#Изображение\|Изображение]].                                               |
+| `cover`       | См. [[Превью ссылок в социальных сетях#Изображение\|Изображение]].                                               |

@@ -1,103 +1,101 @@
 ---
-localized: null
 permalink: android
 aliases:
   - Obsidian for Android
 ---
+Мобильное приложение Obsidian для Android предоставляет мощные возможности ведения заметок на вашем устройстве Android. Вы можете загрузить его из [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) или в виде [APK-файла](https://obsidian.md/download).
+Поддерживаются версии Android 5.1 и выше.
 
-The Obsidian mobile app for Android brings powerful note-taking capabilities to your Android device. You can download it from [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) or as an [APK file](https://obsidian.md/download).
-It supports Android versions 5.1 and above.
+На этой странице описаны функции, специфичные для Android, включая виджеты, интеграцию с быстрыми настройками и ярлыки.
 
-This page covers Android-specific features including widgets, Quick Settings integration, and shortcuts.
+## Синхронизация
 
-## Sync
+Чтобы синхронизировать заметки с Obsidian на Android, см. [[Синхронизация заметок между устройствами]].
 
-To sync your notes with Obsidian on Android see [[Sync your notes across devices]].
+## Расположение хранилища
 
-## Vault location
+При запуске Obsidian на Android вам будет предложено выбрать, где хранить данные хранилища. Вы можете выбрать **хранилище устройства** (рекомендуется) или **хранилище приложения**.
 
-When you launch Obsidian on Android, you'll be asked to choose where your vault data should be stored. You can choose **device storage** (recommended) or **app storage**.
+### Хранилище устройства
 
-### Device storage
+При выборе **хранилища устройства** данные сохраняются в общем расположении на вашем устройстве. Это позволяет другим приложениям и сервисам получать доступ к вашему хранилищу Obsidian, например сторонним инструментам [[Синхронизация заметок между устройствами|синхронизации]].
 
-With the **device storage** option, your data is stored in a shared location on your device. This allows your Obsidian vault to be accessed by other apps and services, such as third-party [[Sync your notes across devices|sync]] tools.
+Это рекомендуемый вариант, поскольку он обеспечивает лучшую совместимость с инструментами синхронизации и гарантирует сохранность данных даже при удалении приложения. Однако этот вариант требует дополнительных разрешений для доступа к файлам устройства.
 
-This is the recommended option because it offers better compatibility with sync tools and ensures your data persists even if you uninstall the app. However, this option requires additional permissions to access your device's files.
+Из-за ограничений Android Obsidian запрашивает разрешение «Доступ ко всем файлам» для надёжной работы. Google рекомендует это для приложений, подобных Obsidian, которые считаются «приложениями для управления документами». [Подробнее](https://developer.android.com/training/data-storage/manage-all-files).
 
-Due to limitations with Android, Obsidian will request "All files" access to function reliably. Google recommends this for apps like Obsidian which are considered "document management apps". [Learn more](https://developer.android.com/training/data-storage/manage-all-files).
+Приложение использует это разрешение только для того, чтобы помочь вам получить доступ к вашим данным на устройстве. Ваши данные никогда не доступны нам. Чтобы узнать больше о том, как мы защищаем ваши данные и обеспечиваем конфиденциальность, посетите нашу [страницу безопасности](https://obsidian.md/security).
 
-The app only uses this permission to help you access your data on your device. Your data is never accessible to us. To learn more about how we protect your data and ensure your privacy, visit our [Security page](https://obsidian.md/security).
+### Хранилище приложения
 
-### App storage
+При выборе **хранилища приложения** данные сохраняются в приватном хранилище Obsidian. Это изолирует ваши данные от других приложений для повышения конфиденциальности.
 
-With the **app storage** option, your data is stored in Obsidian’s private app storage. This keeps your data isolated from other apps for added privacy.
+Это хороший вариант, если вы не используете внешние инструменты синхронизации и предпочитаете более строгую изоляцию заметок на уровне приложения.
 
-This is a good option if you're not using any external sync tools and prefer tighter app-level sandboxing for your notes.
+При этом варианте вы можете использовать [[Введение в Obsidian Sync|Obsidian Sync]] и сторонние плагины синхронизации, доступные через [[Сторонние плагины]], но не можете использовать инструменты вроде Syncthing, которые требуют общего хранилища.
 
-With this option you can use [[Introduction to Obsidian Sync|Obsidian Sync]] and third-party syncing plugins available through [[Community plugins]], but you cannot use tools like Syncthing that rely on shared storage.
+> [!warning] Удаление Obsidian приведёт к удалению локальных заметок при использовании хранилища приложения
+> Если вы используете вариант **Хранилище приложения**, локальные данные хранилища будут удалены при удалении приложения. Данные вашего хранилища Obsidian на других устройствах не будут удалены.
 
-> [!warning] Uninstalling Obsidian will delete your local notes if you are using app storage
-> If you use the **App storage** option your local vault data will be deleted if you uninstall the app. Your Obsidian vault data on other devices will not be deleted.
+## Виджеты
 
-## Widgets
+Obsidian для Android предлагает несколько вариантов виджетов для быстрого доступа к хранилищам и заметкам с домашнего экрана. Доступные виджеты:
 
-Obsidian for Android offers several widget options to quickly access your vaults and notes from your home screen. Available widgets include:
+- **Открыть заметку** — открыть определённую заметку
+- **Новая заметка** — создать новую заметку
+- **Поиск** — запустить поисковый запрос
+- **Ежедневная заметка** — открыть ежедневную заметку
+- **Открыть Obsidian** — запустить приложение
 
-- **Open Note** — Open a specific note
-- **New Note** — Create a new note
-- **Search** — Launch a search query
-- **Daily Note** — Open your daily note
-- **Open Obsidian** — Launch the app
+> [!note] Примечание
+> Эти виджеты статические и не показывают предварительный просмотр выбранной заметки или хранилища.
 
-> [!note] Note
-> These widgets are static, and do not show any previews of the selected note or vault.
+Чтобы добавить виджеты на домашний экран:
+1. Нажмите и удерживайте любое место на домашнем экране
+2. Выберите «Виджеты»
+3. Найдите Obsidian, затем выберите нужный виджет.
 
-To add widgets to your home screen:
-1. Tap and hold anywhere on your home screen
-2. Select "Widgets"
-3. Find Obsidian, then select a widget that you want to use.
+> [!note] Примечание
+> Виджеты Obsidian можно изменять в размере. Чтобы изменить размер виджета, нажмите и удерживайте его, затем перетащите маркеры изменения размера.
 
-> [!note] Note
-> Obsidian widgets can be resized. To resize a widget, tap and hold it, then drag the resizing handles.
+Вы можете добавить несколько виджетов одного типа для открытия разных файлов или запуска разных поисковых запросов.
 
-You can add multiple widgets of the same type to open different files or trigger different search queries. 
+Чтобы настроить виджет, нажмите и удерживайте его на домашнем экране, затем найдите опцию «Редактировать» или «Настроить». Это позволит указать конкретные параметры, необходимые для работы действия виджета при нажатии, такие как файл или путь, поисковый запрос и название хранилища.
 
-To configure a widget, long-press it on your home screen, then find an "Edit" or "Configure" option. This will allow you to specify the specific parameters required for that widget's on-tap action to work, like File or Path, Search Query, and Vault Name.
+Дополнительную информацию о виджетах Android см. в этой [статье поддержки Google](https://support.google.com/android/answer/9450271?hl=en).
 
-See this [Google Support article](https://support.google.com/android/answer/9450271?hl=en) for more information on Android Widgets.
+## Плитки быстрых настроек
 
-## Quick Settings tiles
+Требуется Android 7.0 или выше.
 
-Requires Android 7.0 or higher.
+Добавьте плитку быстрых настроек Obsidian для быстрого доступа к приложению из шторки уведомлений. Работает на домашнем экране и экране блокировки.
 
-Add an Obsidian Quick Settings tile for fast access to the app from your notification shade. Works on your Home Screen and Lock Screen.
+> [!note] Примечание
+> В отличие от виджетов, вы можете добавить только одну плитку быстрых настроек одного типа.
 
-> [!note] Note
-> Unlike app widgets, you can only add one Quick Settings tile of the same type.
+Чтобы добавить плитку быстрых настроек в шторку уведомлений:
 
-To add a quick settings tile to your notification shade:
+1. Откройте шторку уведомлений, обычно проведя вниз от строки состояния. Примечание: возможно, потребуется провести ещё раз, чтобы увидеть дополнительные параметры.
+2. В плитках быстрых настроек выберите «Редактировать» — обычно это тот же раздел, где находятся переключатели Wi-Fi, Bluetooth и блокировки ориентации.
+3. Найдите и выберите плитку быстрых настроек Obsidian, затем расположите её по своему усмотрению.
+4. Чтобы настроить плитку быстрых настроек, нажмите и удерживайте её для вызова экрана настройки.
 
-1. Access your notification shade, typically by swiping down from your status bar. Note: you may need to swipe one more time in order to see more options.
-2. In the Quick Settings tiles, select "Edit" - this is usually the same section where toggles like Wi-Fi, Bluetooth, and Orientation Lock are located.
-3. Find and select an Obsidian Quick Settings tile, then rearrange it to your liking.
-4. To configure a Quick Settings tile, tap and hold it to bring up the configuration screen.
+Дополнительную информацию о быстрых настройках Android см. в этой [статье поддержки Google](https://support.google.com/android/answer/9083864?hl=en).
 
-See this  [Google Support article](https://support.google.com/android/answer/9083864?hl=en) for more information on Android Quick Settings.
+## Ярлыки
 
-## Shortcuts
+Требуется Android 7.1 или выше.
 
-Requires Android 7.1 or higher.
+Obsidian предоставляет ярлыки приложения, доступные несколькими способами:
 
-Obsidian provides app shortcuts that can be accessed in several ways:
+- Долгое нажатие на значок приложения Obsidian
+- Перетаскивание значка ярлыка на домашний экран
+- Доступ через строку поиска на лаунчере (доступно у большинства производителей устройств)
 
-- Long-press the Obsidian app icon
-- Drag the shortcut icon to your home screen
-- Access via the search bar on your launcher (available on most device vendors)
+Доступные ярлыки:
 
-Available shortcuts:
+- **Открыть заметку** — открыть определённую заметку в хранилище
+- **Ежедневная заметка** — перейти непосредственно к сегодняшней ежедневной заметке
 
-- **Open note** — Open a specific note in your vault
-- **Daily note** — Jump directly to today's daily note
-
-> [!note] Note
-> Shortcuts in Obsidian 1.11 are not configurable and will be overhauled in later versions to offer more dynamic options tailored to your specific notes.
+> [!note] Примечание
+> Ярлыки в Obsidian 1.11 не настраиваются и будут переработаны в последующих версиях для предоставления более гибких опций, адаптированных к вашим конкретным заметкам.

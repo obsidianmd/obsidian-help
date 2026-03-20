@@ -1,5 +1,4 @@
 ---
-localized: null
 permalink: publish
 cssclasses:
   - list-cards
@@ -7,30 +6,29 @@ cssclasses:
 aliases:
   - Introduction to Obsidian Publish
 ---
+[Obsidian Publish](https://obsidian.md/publish) — это облачный хостинг, который позволяет публиковать ваши заметки в виде вики, базы знаний, документации или цифрового сада.
 
-[Obsidian Publish](https://obsidian.md/publish) is a cloud-based hosting service that lets you publish your notes as a wiki, knowledge base, documentation, or digital garden.
+Выберите заметки, которыми хотите поделиться с миром, нажмите **Опубликовать**, и мы разместим их по адресу `publish.obsidian.md/your-site`.
 
-Select the notes you want to share with the world, press **Publish**, and we'll host it at `publish.obsidian.md/your-site`
+Если вы читаете это на [help.obsidian.md](https://help.obsidian.md), вы уже смотрите на сайт, использующий Obsidian Publish! Вы можете увидеть хранилище на [GitHub](https://github.com/obsidianmd/obsidian-docs).
 
-If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're already looking at a site that uses Obsidian Publish! You can see the vault on [GitHub](https://github.com/obsidianmd/obsidian-docs).
+## Как использовать Obsidian Publish
 
-## How to use Obsidian Publish
-
-- [[Set up Obsidian Publish]]
-	- Get started with Obsidian Publish.
-- [[Manage sites]]
-	- Learn how to manage multiple Publish sites.
-- [[Collaborate on a Publish site]]
-	- Share a Publish site with collaborators.
-- [[Customize your site]]
-	- Customize your Publish site.
-- [[Custom domains|Custom domains]]
-	- Set up Publish with your own domain.
-- [[Permalinks]]
-	- Define permanent URLs for pages.
-- [[Analytics]]
-	- Set up analytics for your site.
+- [[Настройка Obsidian Publish]]
+	- Начало работы с Obsidian Publish.
+- [[Управление сайтами]]
+	- Узнайте, как управлять несколькими сайтами Publish.
+- [[Совместная работа на сайте Publish]]
+	- Поделитесь сайтом Publish с соавторами.
+- [[Настройка сайта]]
+	- Настройте свой сайт Publish.
+- [[Пользовательские домены|Пользовательские домены]]
+	- Настройте Publish с вашим собственным доменом.
+- [[Постоянные ссылки]]
+	- Определите постоянные URL-адреса для страниц.
+- [[Аналитика]]
+	- Настройте аналитику для вашего сайта.
 - [[SEO]]
-	- Search engine optimization for Publish.
-- [[Security and privacy]]
-	- How we keep your data safe.
+	- Поисковая оптимизация для Publish.
+- [[Безопасность и конфиденциальность]]
+	- Как мы обеспечиваем безопасность ваших данных.

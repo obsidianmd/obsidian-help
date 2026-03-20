@@ -1,39 +1,37 @@
 ---
-localized: null
 permalink: publish/troubleshoot
 publish: true
 mobile: true
 description: >-
-  This page details some common problems that you may run into when using
-  Obsidian Publish
+  На этой странице описаны некоторые распространённые проблемы, с которыми вы
+  можете столкнуться при использовании Obsidian Publish
 aliases:
   - Troubleshoot Obsidian Publish
 ---
-This page lists common issues you might encounter with [[Introduction to Obsidian Publish|Obsidian Publish]] and how to address them.
+На этой странице перечислены распространённые проблемы, с которыми вы можете столкнуться при использовании [[Введение в Obsidian Publish|Obsidian Publish]], и способы их решения.
 
-Be sure to review [[Media files]] and [[Publish limitations|Publish limitations]] first.
+Обязательно сначала ознакомьтесь с разделами [[Медиафайлы]] и [[Ограничения Publish|Ограничения Publish]].
 
-## General
+## Общие
 
-### Publishing notes
+### Публикация заметок
 
-**I am receiving a hash error when trying to publish a note.**
+**При попытке опубликовать заметку я получаю ошибку хэша.**
 
-Are you using a [[Community plugins|community plugin]] that edits the file's modified time upon update? If so, this plugin may be conflicting with Publish. Please issue a bug report to the plugin developer to resolve the issue.
+Используете ли вы [[Сторонние плагины|плагин сообщества]], который изменяет дату изменения файла при обновлении? Если да, этот плагин может конфликтовать с Publish. Пожалуйста, отправьте отчёт об ошибке разработчику плагина для решения проблемы.
 
-**I am receiving an odd network error, and I have a very large Publish site.**
+**Я получаю необычную сетевую ошибку, и у меня очень большой сайт на Publish.**
 
-It is likely we need to examine your database. Please [[Help and support#Contact Obsidian support|contact Obsidian support]] for assistance.
+Скорее всего, нам нужно проверить вашу базу данных. Пожалуйста, [[Помощь и поддержка#Связаться с поддержкой Obsidian|свяжитесь с поддержкой Obsidian]] для получения помощи.
 
-## CSS and themes
+## CSS и темы
 
-**My CSS in my [[Configuration folder]] does not work on Publish. Why?**
+**Мой CSS в [[Папка конфигурации|папке конфигурации]] не работает на Publish. Почему?**
 
-Publish does not read from the configuration folder. Instead, you'll need to create a `publish.css` file in the top-level directory of your publishing vault. You can learn more about this in [[Customize your site]].
+Publish не считывает данные из папки конфигурации. Вместо этого вам нужно создать файл `publish.css` в корневом каталоге вашего хранилища для публикации. Подробнее об этом можно узнать в разделе [[Настройка сайта]].
 
-**My CSS does not look the same on Publish as it does in the app. Why?**
+**Мой CSS на Publish выглядит не так, как в приложении. Почему?**
 
-Obsidian Publish's CSS is not exactly the same as in the application. We recommend [developing any CSS and themes](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes)specifically for Publish from the ground up.
+CSS Obsidian Publish не полностью совпадает с CSS в приложении. Мы рекомендуем [разрабатывать любые CSS и темы](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes) специально для Publish с нуля.
 
-In _general_, what works for [[Views and editing mode#Reading view|Reading view]] has a strong likelihood of working on Publish.
-
+В _общем_, то, что работает в [[Режимы просмотра и редактирования#Режим чтения|режиме чтения]], с большой вероятностью будет работать и на Publish.

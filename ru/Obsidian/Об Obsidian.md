@@ -1,65 +1,64 @@
 ---
-localized: null
 permalink: obsidian
 aliases:
   - About Obsidian
 ---
-## What is Obsidian
+## Что такое Obsidian
 
-Obsidian is both a Markdown editor and a knowledge base app.
+Obsidian — это одновременно редактор Markdown и приложение для управления базой знаний.
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing a densely networked knowledge base.
+В самом простом варианте использования вы можете редактировать и просматривать файлы Markdown. Но настоящая сила Obsidian заключается в управлении плотно связанной базой знаний.
 
-How do we start creating a network, you ask? Let's first start making some [[Internal links]]!
+Как начать создавать сеть связей, спросите вы? Давайте для начала создадим несколько [[Внутренние ссылки|внутренних ссылок]]!
 
-## How we're different
+## Чем мы отличаемся
 
-### You own and control your data
+### Вы владеете своими данными и контролируете их
 
-We believe in plain text for something as important as your knowledge base. You don't want to put your own brain over someone else's neck, do you? Treat your second brain the same way.
+Мы убеждены, что обычный текст — лучший формат для такой важной вещи, как ваша база знаний. Вы ведь не хотите доверить свой собственный мозг кому-то другому, правда? Относитесь к своему второму мозгу так же.
 
-Sync is only a utility to facilitate working on multiple devices, the data will always primarily live on your hard disk.
+Синхронизация — это лишь инструмент для удобной работы на нескольких устройствах; данные всегда будут в первую очередь храниться на вашем жёстком диске.
 
-When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
+Когда файловая система заменяет облако, вы получаете гибкие возможности для работы с файлами: можно делать резервные копии с помощью Dropbox, использовать Git для контроля версий или шифровать диск для безопасности. Всё, что работает с вашей файловой системой, будет работать и с вашей базой знаний в Obsidian.
 
-### Links are first-class citizens
+### Ссылки — главный приоритет
 
-Links and connections are crucial to discovering the relations between what we know.
+Ссылки и связи крайне важны для обнаружения взаимосвязей между нашими знаниями.
 
-Obsidian greatly values this, and encourages it with [[Internal links]] and [[Graph view]], among other things.
+Obsidian придаёт этому огромное значение и поощряет такой подход с помощью [[Внутренние ссылки|внутренних ссылок]], [[Граф|вида графа]] и других инструментов.
 
-As John Locke puts it...
+Как говорил Джон Локк...
 
-> The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:
+> Действия ума, посредством которых он проявляет свою власть над простыми идеями, сводятся главным образом к следующим трём:
 >
-> 1. Combining several simple ideas into one compound one, and thus all complex ideas are made.
-> 2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations.
-> 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.
+> 1. Соединение нескольких простых идей в одну составную — так образуются все сложные идеи.
+> 2. Сведение двух идей, простых или сложных, воедино и сопоставление их друг с другом так, чтобы обозревать их одновременно, не объединяя в одну, — так ум получает все свои идеи об отношениях.
+> 3. Обособление идей от всех других идей, сопутствующих им в реальном существовании, — это называется абстрагированием, и так образуются все общие идеи.
 
- \- John Locke, An Essay Concerning Human Understanding (1690)
+ \- Джон Локк, «Опыт о человеческом разумении» (1690)
 
-Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
+Иерархия даёт нам пункт 1, а связывание — пункт 2. Мы пока не уверены, что пункт 3 означает в контексте ведения заметок, но, возможно, это связано с программированием или макросами.
 
-### Your own toolkit
+### Ваш собственный инструментарий
 
-Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
+Ведение заметок — глубоко личное занятие. Естественно, не существует единого универсального решения для всех.
 
-Instead of providing you with an opinionated and assembled product, [[About Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+Вместо того чтобы предлагать вам готовый продукт с навязанной концепцией, [[Об Obsidian|Obsidian]] даёт вам основу и множество функциональных строительных блоков для создания собственного решения.
 
-The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
+Основа — это возможность просматривать файлы, редактировать их и выполнять поиск. Для минималиста этого достаточно.
 
-On top of that, you can add isolated, independent building blocks to add features to your note-taking:
+Поверх этого вы можете добавлять независимые строительные блоки для расширения функциональности ведения заметок:
 
-- If you're taking class notes, [[Audio recorder]] and LaTeX math might be useful;
-- If you're taking work notes, [[Slides]] and [[Backlinks]] may come in handy;
-- If you're a researcher, [[Graph view]] and [[Word count]] might be essential to your toolkit.
+- Если вы конспектируете лекции, [[Диктофон]] и математические формулы LaTeX могут быть полезны;
+- Если вы ведёте рабочие заметки, [[Слайды]] и [[Обратные ссылки]] могут пригодиться;
+- Если вы исследователь, [[Граф|вид графа]] и [[Счётчик слов]] могут стать незаменимыми инструментами.
 
-We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
+Мы не ожидаем, что плагины станут волшебным решением всех проблем, но они приближают нас к идеалу гораздо больше, чем монолитное решение, перегруженное функциями, которые вам не нужны.
 
-We support [[CSS snippets]], [[Themes]], and [[Community plugins]], which enable even more interface customization and support less common use cases.
+Мы поддерживаем [[CSS-сниппеты]], [[Темы]] и [[Сторонние плагины]], которые позволяют ещё глубже настраивать интерфейс и поддерживать менее распространённые сценарии использования.
 
-## Follow our development
+## Следите за нашей разработкой
 
-Curious how we continue to make Obsidian the best and most refined tool for thought-processing? Check out our [roadmap](https://obsidian.md/roadmap/) to see what we're working on.
+Хотите узнать, как мы продолжаем делать Obsidian лучшим и самым совершенным инструментом для работы с мыслями? Ознакомьтесь с нашей [дорожной картой](https://obsidian.md/roadmap/), чтобы увидеть, над чем мы работаем.
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
+Наш аккаунт в Twitter — [@obsdmd](https://twitter.com/obsdmd), подписывайтесь. Мы в основном публикуем новости об обновлениях продукта.

@@ -1,115 +1,114 @@
 ---
-localized: null
 permalink: publish/setup
 mobile: true
 description: >-
-  In this guide, you'll enable Obsidian Publish for your vault, create a site,
-  and publish your notes to it.
+  В этом руководстве вы включите Obsidian Publish для вашего хранилища,
+  создадите сайт и опубликуете на нём свои заметки.
 aliases:
   - Set up Obsidian Publish
 ---
-In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
+В этом руководстве вы включите [[Введение в Obsidian Publish|Obsidian Publish]] для вашего хранилища, создадите сайт и опубликуете на нём свои заметки.
 
-## Prerequisites
+## Предварительные требования
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- An active Obsidian Publish subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/publish).
+- Аккаунт Obsidian. Если у вас его нет, [зарегистрируйтесь](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
+- Активная подписка на Obsidian Publish. Если у вас её нет, оформите подписку в [панели управления аккаунтом](https://obsidian.md/account/publish).
 
-## Log in with your Obsidian account
+## Войдите с помощью аккаунта Obsidian
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **General**.
-3. Under **Account → Your account**, select **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Click **Login**.
+1. Откройте **[[Настройки]]**.
+2. На боковой панели выберите **Общие**.
+3. В разделе **Аккаунт → Ваш аккаунт** нажмите **Войти**.
+4. В поле **Электронная почта** введите свой адрес электронной почты.
+5. В поле **Пароль** введите свой пароль.
+6. Нажмите **Войти**.
 
-## Enable Obsidian Publish
+## Включите Obsidian Publish
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Core plugins**.
-3. Enable **Publish**.
+1. Откройте **[[Настройки]]**.
+2. На боковой панели выберите **Встроенные плагины**.
+3. Включите **Publish**.
 
-### Open Publish
+### Откройте Publish
 
-You can access Publish through the following options: the command palette, a hotkey, or the ribbon.
+Вы можете получить доступ к Publish следующими способами: через палитру команд, сочетание клавиш или вертикальную панель.
 
-#### Open via Command palette
+#### Открытие через палитру команд
 
-> [!info] This option requires the [[Command palette]] core plugin to be enabled.
+> [!info] Для этого варианта необходимо, чтобы основной плагин [[Палитра команд]] был включён.
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
+**Компьютер/планшет** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the **Command palette** ( ![[lucide-terminal.svg#icon]] ).
-2. Type "Publish".
-3. Select the **Publish: Publish changes...** option.
+1. Откройте **Палитру команд** ( ![[lucide-terminal.svg#icon]] ).
+2. Введите «Publish».
+3. Выберите **Publish: Публикация изменений**.
 
-The **Publish changes** window will appear in a new pop-up.
+Окно **Публикация изменений** появится во всплывающем окне.
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+**Мобильный** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
-2. Open the **Command palette** ( ![[lucide-terminal.svg#icon]] ).
-3. Type "Publish".
-4. Select the **Publish: Publish changes...** option.
+1. Откройте [[Лента|вертикальную панель]] ( ![[lucide-menu.svg#icon]] ).
+2. Откройте **Палитру команд** ( ![[lucide-terminal.svg#icon]] ).
+3. Введите «Publish».
+4. Выберите **Publish: Публикация изменений**.
 
-The **Publish changes** menu will appear as a slide-up.
+Меню **Публикация изменений** появится в виде выдвигающейся панели снизу.
 
-#### Open via hotkey
+#### Открытие через сочетание клавиш
 
-1. Open **[[Settings]]**.
-2. In the **Options** category, select **Hotkeys**.
-3. In the hotkey search bar, type "Publish".
-4. Next to **Publish: Publish changes...**, assign your preferred hotkey.
-5. Close **[[Settings]]**.
-6. Use your hotkey to open **Publish changes**.
+1. Откройте **[[Настройки]]**.
+2. В категории **Настройки** выберите **Сочетания клавиш**.
+3. В строке поиска сочетаний клавиш введите «Publish».
+4. Рядом с **Publish: Публикация изменений** назначьте предпочтительное сочетание клавиш.
+5. Закройте **[[Настройки]]**.
+6. Используйте сочетание клавиш, чтобы открыть **Публикацию изменений**.
 
-#### Open via ribbon
+#### Открытие через вертикальную панель
 
-You can also access Obsidian Publish via the [[ribbon]].
+Вы также можете получить доступ к Obsidian Publish через [[Лента|вертикальную панель]].
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
+**Компьютер/планшет** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the left [[Sidebar]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.
+1. Откройте левую [[Боковая панель|боковую панель]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
+2. Нажмите значок **Публикация изменений** ( ![[lucide-send.svg#icon]] ).
 
-The **Publish changes** window will appear in a new pop-up.
+Окно **Публикация изменений** появится во всплывающем окне.
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+**Мобильный** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
-2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.
+1. Откройте [[Лента|вертикальную панель]] ( ![[lucide-menu.svg#icon]] ).
+2. Нажмите значок **Публикация изменений** ( ![[lucide-send.svg#icon]] ).
 
-The **Publish changes** menu will appear as a slide-up.
+Меню **Публикация изменений** появится в виде выдвигающейся панели снизу.
 
-## Create a new site
+## Создание нового сайта
 
-1. [[#Open Publish]]
-2. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from `publish.obsidian.md/my-amazing-site`.
-3. Select **Create**.
-### Set a site name
+1. [[#Откройте Publish]]
+2. В поле **ID сайта** введите путь, который вы хотите использовать для вашего сайта. Например, сайт с идентификатором `my-amazing-site` будет доступен по адресу `publish.obsidian.md/my-amazing-site`.
+3. Нажмите **Создать**.
+### Установка имени сайта
 
-1. [[#Open Publish]]
-2. Select **Change site options** ( ![[lucide-cog.svg#icon]] ).
-3. In **Site name**, under **General**, enter the name of your site.
-4. Select **Save site settings**.
+1. [[#Откройте Publish]]
+2. Нажмите **Настройки сайта** ( ![[lucide-cog.svg#icon]] ).
+3. В поле **Название**, в разделе **Общие**, введите название вашего сайта.
+4. Нажмите **Сохранить**.
 
-> [!abstract] **Further reading**: [[Manage sites]], [[Customize your site]]
+> [!abstract] **Дополнительные материалы**: [[Управление сайтами]], [[Настройка сайта]]
  
-## Select notes to publish
+## Выбор заметок для публикации
 
-1. [[#Open Publish]]
-2. Select **NEW** to view all the notes you haven’t published yet.
-3. Choose the notes you want to publish.
-4. Select **Publish**.
+1. [[#Откройте Publish]]
+2. Нажмите **Создать**, чтобы просмотреть все заметки, которые вы ещё не опубликовали.
+3. Выберите заметки, которые хотите опубликовать.
+4. Нажмите **Опубликовать**.
 
-> [!abstract] **Further reading**: [[Publish your content]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
+> [!abstract] **Дополнительные материалы**: [[Публикация контента]], [[Безопасность и конфиденциальность|Безопасность и конфиденциальность]], [[Ограничения Publish|Ограничения Publish]]
 
-You've configured an Obsidian Publish site and published your first notes. Head over to the site address you configured earlier in this guide, and start sharing it with your readers.
+Вы настроили сайт Obsidian Publish и опубликовали свои первые заметки. Перейдите по адресу сайта, который вы указали ранее в этом руководстве, и начните делиться им с читателями.
 
-## Next steps
+## Следующие шаги
 
-Now that you've published your first notes, you might want to:
-- Set up a custom domain for your site: [[Custom domains]]
-- Learn about advanced site customization: [[Customize your site]]
-- Find out how to add social media cards: [[Social media link previews]]
+Теперь, когда вы опубликовали свои первые заметки, вы можете:
+- Настроить пользовательский домен для вашего сайта: [[Пользовательские домены]]
+- Узнать о расширенной настройке сайта: [[Настройка сайта]]
+- Узнать, как добавить карточки для социальных сетей: [[Превью ссылок в социальных сетях]]
