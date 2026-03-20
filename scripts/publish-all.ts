@@ -12,7 +12,7 @@ import path from "path";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 
-const ACTIVE_LOCALES = ["en", "ja", "pt-br", "es", "zh", "fr"];
+const ACTIVE_LOCALES = ["en", "ja", "pt-br", "es", "zh", "fr", "ru", "it"];
 
 const cliArgs = process.argv.slice(2);
 const dryRun = cliArgs.includes("--dry-run");
