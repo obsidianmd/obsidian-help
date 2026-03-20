@@ -5,14 +5,14 @@ aliases:
 ---
 Obsidian을 사용하면 [[Importer|Importer 플러그인]]을 사용하여 Roam Research에서 노트를 쉽게 마이그레이션할 수 있습니다.
 
-## Export your data from Roam Research
+## Roam Research에서 데이터 내보내기
 
 1. Roam Research에서 오른쪽 상단의 **더 많은 작업** (`•••` 아이콘)을 클릭한 다음 **모두 내보내기**를 선택합니다.
    
    ![[Roam-exporting.png]]
 2. **내보내기 형식**에서 "JSON"을 선택한 다음 **모두 내보내기**를 선택하여 노트와 함께 아카이브를 다운로드합니다.
 
-## Import your Roam Research data into Obsidian
+## Roam Research 데이터를 Obsidian으로 들여오기
 
 공식 Obsidian [[Importer]] 플러그인이 필요하며, 이를 [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)할 수 있습니다.
 

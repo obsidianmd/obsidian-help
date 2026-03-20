@@ -2,7 +2,7 @@
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true
-description: 'Learn about Obsidian Flavored Markdown, including supported extensions and how Markdown interacts with HTML elements.'
+description: '지원되는 확장 기능과 Markdown이 HTML 요소와 상호 작용하는 방식을 포함한 Obsidian 스타일 Markdown에 대해 알아보세요.'
 ---
 Obsidian은 기존 형식을 깨뜨리지 않으면서 최대한의 기능을 제공하기 위해 노력합니다. 그 결과, 다양한 [[기본 서식 구문|Markdown]] 변형을 조합하여 사용합니다.
 
