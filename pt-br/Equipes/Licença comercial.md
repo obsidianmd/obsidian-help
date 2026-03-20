@@ -1,8 +1,6 @@
 ---
 permalink: teams/license
 ---
-DESCRIPTION: Obsidian é gratuito para uso e é 100% apoiado pelos usuários. Organizações podem escolher apoiar o Obsidian comprando Licenças comerciais.
-
 Obsidian é gratuito para uso e é 100% apoiado pelos usuários. Organizações podem escolher apoiar o Obsidian comprando Licenças comerciais.
 
 Organizações que apoiam o Obsidian podem ser apresentadas em nossa [página Enterprise](https://obsidian.md/enterprise/) ao comprar 25 ou mais licenças.

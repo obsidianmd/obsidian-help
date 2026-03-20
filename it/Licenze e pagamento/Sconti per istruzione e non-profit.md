@@ -5,8 +5,6 @@ cssclasses:
 aliases:
   - Education and non-profit discount
 ---
-DESCRIPTION: Obsidian offre attualmente due tipi di sconti: istruzione e organizzazioni non profit. Entrambi offrono il 40% di sconto sui nostri servizi aggiuntivi Obsidian Sync e Obsidian Publish.
-
 Obsidian offre attualmente due tipi di sconti: istruzione e organizzazioni non profit. Entrambi offrono il 40% di sconto sui nostri servizi aggiuntivi [[Introduzione a Obsidian Sync|Obsidian Sync]] e [[Introduzione a Obsidian Publish|Obsidian Publish]].
 
 ## Come fare domanda

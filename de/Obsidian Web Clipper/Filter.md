@@ -1,8 +1,6 @@
 ---
 permalink: web-clipper/filters
 ---
-DESCRIPTION: Filter ermöglichen die Modifikation von Variablen in Web Clipper-Vorlagen.
-
 Filter ermöglichen die Modifikation von [[Variablen]] in [[Obsidian Web Clipper/Vorlagen|Web Clipper-Vorlagen]]. Filter werden auf Variablen mit der Syntax `{{variable|filter}}` angewendet.
 
 - Filter funktionieren für jede Art von [[Variablen|Variable]], einschließlich `prompt`-, `meta`-, `selector`- und `schema`-Variablen.

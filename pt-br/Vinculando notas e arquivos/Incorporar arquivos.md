@@ -5,8 +5,6 @@ cssclasses:
 aliases:
   - Vinculando notas e arquivos/Incorporando arquivos
 ---
-DESCRIPTION: Aprenda como você pode incorporar outras notas e mídias em suas notas. Ao incorporar arquivos em suas notas, você pode reutilizar conteúdo em todo o seu cofre.
-
 Para incorporar um arquivo no seu cofre, adicione um ponto de exclamação (`!`) na frente de um [[Links internos|Link interno]]. Você pode incorporar arquivos em qualquer um dos [[Formatos de arquivo aceitos]].
 
 > [!tip] Incorporar ao arrastar e soltar

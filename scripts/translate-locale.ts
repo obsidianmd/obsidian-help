@@ -407,8 +407,7 @@ CRITICAL RULES:
 7. Preserve embed syntax: ![[file]] and ![[file#heading]] — translate the target using the reference, translate the heading if it appears in this file
 8. Do NOT include frontmatter (--- blocks) in your output
 9. Do NOT wrap your response in markdown code fences
-10. If the input begins with "DESCRIPTION: <text>", translate that short text and return it as the very first line: "DESCRIPTION: <translated>", then a blank line, then the page content
-11. Return ONLY the (optionally prefixed) translated markdown content, nothing else
+10. Return ONLY the translated markdown content, nothing else
 
 ${linkRef ? `LINK REFERENCE (translate wikilink targets using these exact ${langName} names):\n${linkRef}` : ""}
 ${glossary ? `\nGLOSSARY (use these translations consistently):\n${glossary}` : ""}`;
@@ -484,37 +483,24 @@ async function translateFile(
   systemPrompt: string,
   headingsMap: HeadingsMap,
   basenameToPermalink: Map<string, string>,
-  enToLocale: Map<string, string>,
-  enDescription?: string
+  enToLocale: Map<string, string>
 ): Promise<void> {
   console.log(`  Translating  ${file.relPath}`);
   if (dryRun) return;
 
-  const userMessage = enDescription
-    ? `DESCRIPTION: ${enDescription}\n\n${enContent.trim()}`
-    : enContent.trim();
-
-  const raw = await callLLM(config, systemPrompt, userMessage);
-  await saveTranslated(file, raw, enContent, enDescription, headingsMap, basenameToPermalink, enToLocale);
+  const raw = await callLLM(config, systemPrompt, enContent.trim());
+  await saveTranslated(file, raw, enContent, headingsMap, basenameToPermalink, enToLocale);
 }
 
 async function saveTranslated(
   file: FileInfo,
   raw: string,
   enContent: string,
-  enDescription: string | undefined,
   headingsMap: HeadingsMap,
   basenameToPermalink: Map<string, string>,
   enToLocale: Map<string, string>
 ): Promise<void> {
-  // Extract translated description if present
-  let translated = raw;
-  let frDescription: string | undefined;
-  if (enDescription && raw.startsWith("DESCRIPTION: ")) {
-    const nl = raw.indexOf("\n");
-    frDescription = raw.slice("DESCRIPTION: ".length, nl === -1 ? undefined : nl).trim();
-    translated = nl === -1 ? "" : raw.slice(nl + 1).trimStart();
-  }
+  const translated = raw;
 
   // Extract heading mapping (only store headings that changed)
   const enHeadings = extractHeadings(enContent);
@@ -538,7 +524,6 @@ async function saveTranslated(
   const newFm = { ...file.frontmatter };
   delete newFm["localized"];
   delete newFm["needs-retranslation"];
-  if (frDescription) newFm.description = frDescription;
   const newContent = matter.stringify(fixed, newFm);
   fs.writeFileSync(file.absPath, newContent, "utf8");
 
@@ -687,7 +672,7 @@ async function main() {
       // Build per-file prompts with supplementary glossary filtered to terms in this file's content
       const fileGlossary = buildGlossaryString(glossary, enContent + " " + (enDesc ?? ""));
       const systemPrompt = buildSystemPrompt(locale, fileGlossary, linkRef);
-      await translateFile(file, enContent, config, systemPrompt, headingsMap, basenameToPermalink, enToLocale, enDesc);
+      await translateFile(file, enContent, config, systemPrompt, headingsMap, basenameToPermalink, enToLocale);
       done++;
     } catch (err) {
       console.error(`  ERROR  ${file.relPath}: ${err}`);

@@ -5,8 +5,6 @@ cssclasses:
 aliases:
   - Embed files
 ---
-DESCRIPTION: Scopri come puoi incorporare altre note e file multimediali nelle tue note. Incorporando file nelle tue note, puoi riutilizzare i contenuti nella tua cassaforte.
-
 Per incorporare un file nella tua cassaforte, aggiungi un punto esclamativo (`!`) davanti a un [[Collegamenti interni|collegamento interno]]. Puoi incorporare file in qualsiasi dei [[Formati di file accettati]].
 
 > [!tip] Incorpora con trascina e rilascia

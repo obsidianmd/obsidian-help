@@ -5,8 +5,6 @@ cssclasses:
 aliases:
   - How to/Incrustar archivos
 ---
-DESCRIPTION: Aprende cómo puedes incrustar otras notas y archivos multimedia en tus notas. Al incrustar archivos en tus notas, puedes reutilizar contenido en toda tu bóveda.
-
 Para incrustar un archivo en tu bóveda, añade un signo de exclamación (`!`) delante de un [[Enlaces internos|enlace interno]]. Puedes incrustar archivos en cualquiera de los [[Formatos de archivo aceptados]].
 
 > [!tip] Incrustar con arrastrar y soltar

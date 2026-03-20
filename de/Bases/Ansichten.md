@@ -1,8 +1,6 @@
 ---
 permalink: bases/views
 ---
-DESCRIPTION: Ansichten ermöglichen es, Informationen in einer Basis auf verschiedene Weise zu organisieren. Eine Basis kann mehrere Ansichten enthalten, jeweils mit eigener Konfiguration.
-
 Ansichten ermöglichen es, die Informationen in einer [[Einführung in Bases|Basis]] auf verschiedene Weise zu organisieren. Eine Basis kann mehrere Ansichten enthalten, und jede Ansicht kann eine eigene Konfiguration zum Anzeigen, Sortieren und Filtern von Dateien haben.
 
 Zum Beispiel könntest du eine Basis namens „Bücher" erstellen, die separate Ansichten für „Leseliste" und „Kürzlich beendet" hat.

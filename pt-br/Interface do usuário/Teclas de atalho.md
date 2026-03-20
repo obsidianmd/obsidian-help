@@ -1,8 +1,6 @@
 ---
 permalink: hotkeys
 ---
-DESCRIPTION: Teclas de atalho são atalhos de teclado personalizáveis para comandos do Obsidian. Você pode atribuir qualquer combinação de teclas para acionar comandos como abrir arquivos, inserir modelos ou alternar plugins.
-
 Teclas de atalho são diferentes dos [[Atalhos de edição|atalhos de teclado do sistema]] (como `Ctrl+C` para copiar), que são fornecidos pelo seu sistema operacional e não podem ser personalizados no Obsidian.
 
 ## Visualizar teclas de atalho

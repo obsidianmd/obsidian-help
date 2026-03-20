@@ -2,9 +2,7 @@
 permalink: callouts
 publish: true
 mobile: true
-description: >-
-  Diese Seite beschreibt, wie du Hinweisblöcke verwendest, um zusätzliche
-  Inhalte einzufügen, ohne den Fluss deiner Notizen zu unterbrechen.
+description: Diese Seite beschreibt, wie du Hinweisblöcke verwendest, um zusätzliche. Inhalte einzufügen, ohne den Fluss deiner Notizen zu unterbrechen.
 ---
 Verwende Hinweisblöcke, um zusätzliche Inhalte einzufügen, ohne den Fluss deiner Notizen zu unterbrechen.
 

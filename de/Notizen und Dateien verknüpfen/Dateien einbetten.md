@@ -3,8 +3,6 @@ permalink: embeds
 cssclasses:
   - soft-embed
 ---
-DESCRIPTION: Erfahre, wie du andere Notizen und Medien in deine Notizen einbetten kannst. Durch das Einbetten von Dateien in deinen Notizen kannst du Inhalte in deinem Vault wiederverwenden.
-
 Um eine Datei in deinem Vault einzubetten, füge ein Ausrufezeichen (`!`) vor einem [[Interne Links|Internen Link]] hinzu. Du kannst Dateien in allen [[Akzeptierte Dateiformate|akzeptierten Dateiformaten]] einbetten.
 
 > [!tip] Per Drag and Drop einbetten

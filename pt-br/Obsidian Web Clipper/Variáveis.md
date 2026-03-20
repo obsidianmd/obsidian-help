@@ -1,8 +1,6 @@
 ---
 permalink: web-clipper/variables
 ---
-DESCRIPTION: Use variáveis em modelos do Obsidian Web Clipper para preencher automaticamente dados de páginas web.
-
 Os [[Obsidian Web Clipper/Modelos|modelos do Web Clipper]] podem usar variáveis para preencher automaticamente dados da página em um modelo. As variáveis podem ser usadas no **nome da nota**, **destinação da nota**, **propriedades** e **conteúdo da nota**. As variáveis também podem ser modificadas usando [[Filtros|filtros]].
 
 Use o ícone `...` na extensão do [[Introdução ao Obsidian Web Clipper|Web Clipper]] para acessar as variáveis da página atual para uso em modelos. Existem cinco tipos de variáveis que você pode usar:
