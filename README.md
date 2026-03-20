@@ -58,23 +58,6 @@ Replace `<COMMIT_SHA>` with the commit containing the latest changes for the tra
 
 > **Note**: If a translation falls too far behind the English version, we may eventually remove it.
 
-## Roadmap
-
-The Obsidian Help docs have grown considerably over the years. We're working on reorganizing some of the content to make things easier to find and understand.
-
-The docs under the following folders have been updated to the new organization and style guide. If you're working on a translation, these are safe to work on (except for minor updates).
-
-- [x] Contributing to Obsidian
-- [x] Developers
-- [x] Editing and formatting
-- [x] Extending Obsidian
-- [x] Getting started
-- [x] Licenses and payment
-- [x] Obsidian Publish
-- [x] Obsidian Sync
-- [x] Plugins
-
-
 ## Credits
 
 To be featured on the [Credits](https://obsidian.md/help/credits) page, add yourself to the [Credits](https://github.com/obsidianmd/obsidian-help/blob/master/en/Obsidian/Credits.md) file and to the corresponding translation.
