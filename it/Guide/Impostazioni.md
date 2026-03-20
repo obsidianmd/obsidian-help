@@ -1,4 +1,0 @@
-Le Impostazioni possono essere trovate facendo clic sull'icona dell'ingranaggio nell'angolo in basso a sinistra, o premendo `Ctrl/Cmd-,`. La maggior parte di esse non necessitano di spiegazione, ma ecco alcune annotazioni che potrebbero essere utili:
-
-- La maggior parte delle Impostazioni sono interruttori. Quando sono presenti maggiori opzioni, viene mostrata l'icona di un ingranaggio accanto all'interruttore. Per esempio, l'ingranaggio accanto all'opzione Controllo ortografico, rivela che esiste un dizionario personalizzato dal quale è possibile rimuovere le parole aggiunte per sbaglio.
-- Quando si abilita un plugin, nella lista delle impostazioni potrebbe apparire una nuova voce. Per esempio, quando si abilitano i CSS personalizzati, viene aggiunta la voce "Temi della comunità" all'elenco che permette di scegliere un tema CSS personalizzato.

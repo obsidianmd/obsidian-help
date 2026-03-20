@@ -1,3 +1,0 @@
-Per creare cursori multipli, tenere premuto `Alt` e fare clic in un punto dell'editor. Può essere utile quando si vogliono modificare molte righe allo stesso modo, ad esempio per inserire `-` all'inizio di alcune righe per trasformarle in un elenco, o per aggiungere `[[` a una serie di collegamenti copiati altrove.
-
-Per annullare i cursori multipli, fare clic in un altro punto della nota (senza tasto modificatore) o premere Esc.

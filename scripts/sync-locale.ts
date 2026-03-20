@@ -190,8 +190,10 @@ for (const [permalink, enInfo] of enFiles) {
   if (localeInfo) {
     // Check if the file should be moved to its correct locale path
     const expectedRelPath = resolveLocalePath(enInfo.relPath, permalink, filenamesMap);
+    let oldFilenameAlias: string | null = null;
     if (localeInfo.relPath !== expectedRelPath) {
       const expectedAbsPath = path.join(localeDir, expectedRelPath);
+      oldFilenameAlias = path.basename(localeInfo.relPath, ".md");
       console.log(`  MOVE    ${localeInfo.relPath} → ${expectedRelPath}`);
       if (!dryRun) {
         fs.mkdirSync(path.dirname(expectedAbsPath), { recursive: true });
@@ -204,6 +206,13 @@ for (const [permalink, enInfo] of enFiles) {
 
     // Sync frontmatter
     const newFm = buildFrontmatter(enInfo.frontmatter, localeInfo.frontmatter);
+    // When a file is moved, add the old filename as an alias to avoid broken links
+    if (oldFilenameAlias) {
+      const existing = (newFm.aliases as string[] | undefined) ?? [];
+      if (!existing.includes(oldFilenameAlias)) {
+        newFm.aliases = [...existing, oldFilenameAlias];
+      }
+    }
     // If localized is absent or false and content matches EN, mark as unlocalized (null = empty date)
     const isUnlocalized = !localeInfo.frontmatter.localized;
     if (isUnlocalized && localeInfo.content.trim() === enInfo.content.trim()) {
