@@ -2,9 +2,7 @@
 permalink: sync/migrate
 cssclasses:
   - soft-embed
-description: >-
-  Déplacez votre coffre Sync vers une région différente, effectuez une mise à
-  niveau du chiffrement.
+description: Déplacez votre coffre Sync vers une région différente, effectuez une mise à niveau du chiffrement.
 publish: true
 mobile: true
 localized: '2026-03-18'

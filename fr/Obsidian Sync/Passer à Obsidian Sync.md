@@ -2,9 +2,7 @@
 permalink: sync/switch
 cssclasses:
   - soft-embed
-description: >-
-  Découvrez comment effectuer la transition de votre solution de synchronisation
-  actuelle vers Obsidian Sync.
+description: Découvrez comment effectuer la transition de votre solution de synchronisation actuelle vers Obsidian Sync.
 publish: true
 mobile: true
 localized: '2026-03-18'

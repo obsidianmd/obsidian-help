@@ -2,9 +2,7 @@
 permalink: sync/settings
 publish: true
 mobile: true
-description: >-
-  Esta página explica as configurações do Sync e orienta você na seleção de
-  quais arquivos sincronizar.
+description: Esta página explica as configurações do Sync e orienta você na seleção de quais arquivos sincronizar.
 ---
 Quando você [[Planos e limites de armazenamento#Criar um novo cofre remoto|cria um cofre remoto]] e [[Configurar o Obsidian Sync#Conectar a um cofre remoto|conecta-se a ele]], o plugin nativo Sync se torna o local para gerenciar seu cofre remoto.
 

@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Questa pagina descrive le differenze tra cassaforti locali e remote nella
-  pratica.
+description: Questa pagina descrive le differenze tra cassaforti locali e remote nella pratica.
 aliases:
   - Local and remote vaults
 ---

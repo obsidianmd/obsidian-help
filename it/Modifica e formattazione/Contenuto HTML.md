@@ -2,9 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: >-
-  Scopri come usare HTML in Obsidian, incluse le limitazioni con il rendering
-  Markdown e i requisiti dei blocchi HTML.
+description: Scopri come usare HTML in Obsidian, incluse le limitazioni con il rendering Markdown e i requisiti dei blocchi HTML.
 aliases:
   - HTML content
 ---

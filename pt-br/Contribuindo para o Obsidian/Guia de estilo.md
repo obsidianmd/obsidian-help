@@ -2,9 +2,7 @@
 permalink: style-guide
 publish: true
 mobile: true
-description: >-
-  Esta página explica o guia de estilo para escrever nossa documentação de
-  suporte.
+description: Esta página explica o guia de estilo para escrever nossa documentação de suporte.
 aliases:
   - Contribuindo com o Obsidian/Guia de estilo
 ---

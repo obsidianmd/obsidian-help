@@ -3,9 +3,7 @@ permalink: bases
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: >-
-  Crea viste simili a database delle tue note, formattate come tabelle o schede.
-  Modifica, ordina e filtra i file utilizzando le loro proprietà.
+description: Crea viste simili a database delle tue note, formattate come tabelle o schede. Modifica, ordina e filtra i file utilizzando le loro proprietà.
 aliases:
   - Introduction to Bases
 ---

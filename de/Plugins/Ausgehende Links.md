@@ -2,10 +2,7 @@
 permalink: plugins/outgoing-links
 publish: true
 mobile: false
-description: >-
-  Ausgehende Links ist eine Obsidian-Erweiterung, die Links aus der aktiven
-  Notiz auf einen Blick anzeigt sowie potenzielle Links, die erstellt werden
-  könnten.
+description: Ausgehende Links ist eine Obsidian-Erweiterung, die Links aus der aktiven Notiz auf einen Blick anzeigt sowie potenzielle Links, die erstellt werden könnten.
 ---
 Ausgehende Links ist eine [[Obsidian-Erweiterungen|Obsidian-Erweiterung]], die Links aus der aktiven Notiz auf einen Blick anzeigt sowie potenzielle Links, die erstellt werden könnten. Sie ähnelt der [[Rückverweise]]-Erweiterung, die stattdessen _eingehende_ Links zur aktiven Notiz anzeigt.
 

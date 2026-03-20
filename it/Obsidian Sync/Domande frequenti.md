@@ -2,9 +2,7 @@
 permalink: sync/faq
 publish: true
 mobile: true
-description: >-
-  Questa pagina elenca alcune delle domande comuni relative a domande e
-  limitazioni di Obsidian Sync.
+description: Questa pagina elenca alcune delle domande comuni relative a domande e limitazioni di Obsidian Sync.
 aliases:
   - Frequently asked questions
 ---

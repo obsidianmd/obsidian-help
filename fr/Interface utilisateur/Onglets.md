@@ -1,8 +1,6 @@
 ---
 permalink: tabs
-description: >-
-  Découvrez comment ouvrir, organiser et gérer les onglets dans Obsidian, y
-  compris l'épinglage, l'empilement et les vues liées.
+description: Découvrez comment ouvrir, organiser et gérer les onglets dans Obsidian, y compris l'épinglage, l'empilement et les vues liées.
 publish: true
 mobile: true
 aliases:

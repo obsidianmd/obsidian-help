@@ -1,8 +1,6 @@
 ---
 permalink: sync/faq
-description: >-
-  Cette page répertorie certaines des questions courantes liées aux
-  interrogations et limitations d'Obsidian Sync.
+description: Cette page répertorie certaines des questions courantes liées aux interrogations et limitations d'Obsidian Sync.
 publish: true
 mobile: true
 localized: '2026-03-18'

@@ -5,9 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: >-
-  Obsidian Sync ist ein Zusatzdienst, mit dem du deine Notizen privat
-  geräteübergreifend synchronisieren kannst.
+description: Obsidian Sync ist ein Zusatzdienst, mit dem du deine Notizen privat geräteübergreifend synchronisieren kannst.
 ---
 [Obsidian Sync](https://obsidian.md/sync) ist ein Zusatzdienst, mit dem du deine Notizen privat geräteübergreifend synchronisieren kannst.
 

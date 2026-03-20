@@ -2,9 +2,7 @@
 permalink: sync/collaborate
 publish: true
 mobile: true
-description: >-
-  Diese Seite beschreibt, wie du mit anderen Obsidian Sync-Nutzern
-  zusammenarbeiten kannst.
+description: Diese Seite beschreibt, wie du mit anderen Obsidian Sync-Nutzern zusammenarbeiten kannst.
 ---
 Mit [[Einführung in Obsidian Sync|Obsidian Sync]] kannst du mit deinem Team an einem gemeinsamen Vault zusammenarbeiten.
 

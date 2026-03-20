@@ -2,9 +2,7 @@
 permalink: sync/settings
 publish: true
 mobile: true
-description: >-
-  Questa pagina spiega le impostazioni di Sync e guida nella selezione dei file
-  da sincronizzare.
+description: Questa pagina spiega le impostazioni di Sync e guida nella selezione dei file da sincronizzare.
 aliases:
   - Sync settings and selective syncing
 ---

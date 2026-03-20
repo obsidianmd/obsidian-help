@@ -1,9 +1,7 @@
 ---
 permalink: publish/setup
 mobile: true
-description: >-
-  In questa guida, abiliterai Obsidian Publish per la tua cassaforte, creerai un
-  sito e pubblicherai le tue note su di esso.
+description: In questa guida, abiliterai Obsidian Publish per la tua cassaforte, creerai un sito e pubblicherai le tue note su di esso.
 aliases:
   - Set up Obsidian Publish
 ---

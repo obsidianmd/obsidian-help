@@ -2,9 +2,7 @@
 permalink: tabs
 publish: true
 mobile: true
-description: >-
-  Scopri come aprire, organizzare e gestire le schede in Obsidian, inclusi
-  l'appuntamento, la sovrapposizione e le viste collegate.
+description: Scopri come aprire, organizzare e gestire le schede in Obsidian, inclusi l'appuntamento, la sovrapposizione e le viste collegate.
 aliases:
   - Tabs
 ---

@@ -1,9 +1,7 @@
 ---
 permalink: publish/setup
 mobile: true
-description: >-
-  En esta guía, habilitarás Obsidian Publish para tu bóveda, crearás un sitio y
-  publicarás tus notas en él.
+description: En esta guía, habilitarás Obsidian Publish para tu bóveda, crearás un sitio y publicarás tus notas en él.
 ---
 En esta guía, habilitarás [[Introducción a Obsidian Publish|Obsidian Publish]] para tu bóveda, crearás un sitio y publicarás tus notas en él.
 

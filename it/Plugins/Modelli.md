@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Modelli è un plugin principale che consente di inserire frammenti di testo
-  predefiniti nella nota attiva.
+description: Modelli è un plugin principale che consente di inserire frammenti di testo predefiniti nella nota attiva.
 aliases:
   - Templates
 ---

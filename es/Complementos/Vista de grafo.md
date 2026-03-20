@@ -2,9 +2,7 @@
 permalink: plugins/graph
 publish: true
 mobile: true
-description: >-
-  La vista de grafo es un complemento principal que te permite visualizar las
-  relaciones entre las notas de tu bóveda.
+description: La vista de grafo es un complemento principal que te permite visualizar las relaciones entre las notas de tu bóveda.
 ---
 La vista de grafo es un [[Complementos principales|complemento principal]] que te permite visualizar las relaciones entre las notas de tu bóveda.
 

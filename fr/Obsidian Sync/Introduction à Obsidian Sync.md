@@ -3,9 +3,7 @@ permalink: sync
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: >-
-  Obsidian Sync est un service complémentaire qui vous permet de synchroniser
-  vos notes de manière privée entre vos appareils.
+description: Obsidian Sync est un service complémentaire qui vous permet de synchroniser vos notes de manière privée entre vos appareils.
 publish: true
 mobile: true
 localized: '2026-03-18'

@@ -1,8 +1,6 @@
 ---
 permalink: sidebar
-description: >-
-  Découvrez les barres latérales gauche et droite d'Obsidian et comment gérer
-  les onglets et les groupes d'onglets.
+description: Découvrez les barres latérales gauche et droite d'Obsidian et comment gérer les onglets et les groupes d'onglets.
 publish: true
 mobile: true
 localized: '2026-03-18'

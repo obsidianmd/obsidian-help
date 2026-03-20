@@ -2,9 +2,7 @@
 permalink: sync/settings
 publish: true
 mobile: true
-description: >-
-  Esta página explica los ajustes de Sync y te guía en la selección de qué
-  archivos sincronizar.
+description: Esta página explica los ajustes de Sync y te guía en la selección de qué archivos sincronizar.
 ---
 Cuando [[Planes y límites de almacenamiento#Crear una nueva bóveda remota|creas una bóveda remota]] y [[Configurar Obsidian Sync#Conectar a una bóveda remota|te conectas a ella]], el complemento principal de Sync se convierte en el lugar para gestionar tu bóveda remota.
 

@@ -2,10 +2,7 @@
 permalink: properties
 cssclasses:
   - soft-embed
-description: >-
-  Les propriétés vous permettent d'organiser les informations relatives à une
-  note. Les propriétés contiennent des données structurées telles que du texte,
-  des liens, des dates, des cases à cocher et des nombres.
+description: Les propriétés vous permettent d'organiser les informations relatives à une note. Les propriétés contiennent des données structurées telles que du texte, des liens, des dates, des cases à cocher et des nombres.
 publish: true
 mobile: false
 localized: '2026-03-18'

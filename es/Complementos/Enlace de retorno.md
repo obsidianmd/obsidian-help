@@ -2,9 +2,7 @@
 permalink: plugins/backlinks
 publish: true
 mobile: false
-description: >-
-  Con el complemento de Enlace de retorno, puedes ver todos los enlaces de
-  retorno de la nota activa.
+description: Con el complemento de Enlace de retorno, puedes ver todos los enlaces de retorno de la nota activa.
 aliases:
   - How to/Trabajando con backlinks
   - Plugins/Backlinks

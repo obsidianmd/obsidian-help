@@ -2,9 +2,7 @@
 permalink: sync/messages
 publish: true
 mobile: true
-description: >-
-  Diese Seite erklärt die Statussymbole von Obsidian Sync und bietet Details zum
-  Sync-Aktivitätsprotokoll.
+description: Diese Seite erklärt die Statussymbole von Obsidian Sync und bietet Details zum Sync-Aktivitätsprotokoll.
 ---
 Obsidian Sync bietet mehrere Elemente zur Anzeige des Sync-Status, hauptsächlich das [[#Sync-Statussymbol]] und das [[#Sync-Aktivitätsprotokoll]]. Details zur Versionskontrolle in Obsidian Sync werden auf der Seite [[Versionsgeschichte]] behandelt.
 

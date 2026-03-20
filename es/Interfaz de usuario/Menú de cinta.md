@@ -2,9 +2,7 @@
 permalink: ribbon
 publish: true
 mobile: true
-description: >-
-  Aprende a usar el menú de cinta, un espacio para comandos comunes en
-  Obsidian, y a personalizarla en escritorio y móvil.
+description: Aprende a usar el menú de cinta, un espacio para comandos comunes en Obsidian, y a personalizarla en escritorio y móvil.
 ---
 El menú de cinta funciona como un espacio para comandos comunes dentro de Obsidian.
 

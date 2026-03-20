@@ -1,9 +1,6 @@
 ---
 permalink: formulas
-description: >-
-  Le formule consentono di creare proprietà calcolate utilizzando dati da altre
-  proprietà. È possibile eseguire calcoli, manipolare testo, lavorare con le
-  date e altro ancora.
+description: Le formule consentono di creare proprietà calcolate utilizzando dati da altre proprietà. È possibile eseguire calcoli, manipolare testo, lavorare con le date e altro ancora.
 aliases:
   - Formulas
 ---

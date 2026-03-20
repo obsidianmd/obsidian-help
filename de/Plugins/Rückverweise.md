@@ -2,9 +2,7 @@
 permalink: plugins/backlinks
 publish: true
 mobile: false
-description: >-
-  Mit der Rückverweise-Erweiterung kannst du alle Rückverweise für die aktive
-  Notiz anzeigen.
+description: Mit der Rückverweise-Erweiterung kannst du alle Rückverweise für die aktive Notiz anzeigen.
 ---
 Mit der Rückverweise-[[Obsidian-Erweiterungen|Erweiterung]] kannst du alle _Rückverweise_ für die aktive Notiz anzeigen.
 

@@ -3,10 +3,7 @@ localized: '2026-03-18'
 permalink: sync/version-history
 cssclasses:
   - soft-embed
-description: >-
-  Obsidian Sync conserve un historique de toutes les modifications apportées à
-  vos notes et vérifie régulièrement les mises à jour pour créer de nouvelles
-  versions de vos notes.
+description: Obsidian Sync conserve un historique de toutes les modifications apportées à vos notes et vérifie régulièrement les mises à jour pour créer de nouvelles versions de vos notes.
 publish: true
 mobile: true
 

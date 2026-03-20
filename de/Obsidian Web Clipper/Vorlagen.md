@@ -1,8 +1,6 @@
 ---
 permalink: web-clipper/templates
-description: >-
-  Erfahren Sie, wie Sie Vorlagen erstellen, die Metadaten von Webseiten
-  automatisch mit Web Clipper erfassen und organisieren.
+description: Erfahren Sie, wie Sie Vorlagen erstellen, die Metadaten von Webseiten automatisch mit Web Clipper erfassen und organisieren.
 ---
 [[Einführung in Obsidian Web Clipper|Web Clipper]] ermöglicht es Ihnen, Vorlagen zu erstellen, die automatisch Metadaten von Webseiten erfassen und organisieren. Beispielvorlagen sind im [clipper-templates Repo](https://github.com/kepano/clipper-templates) verfügbar.
 

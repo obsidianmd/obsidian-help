@@ -2,9 +2,7 @@
 permalink: style-guide
 publish: true
 mobile: true
-description: >-
-  Questa pagina illustra la guida di stile per la scrittura della nostra
-  documentazione di supporto.
+description: Questa pagina illustra la guida di stile per la scrittura della nostra documentazione di supporto.
 aliases:
   - Style guide
 ---

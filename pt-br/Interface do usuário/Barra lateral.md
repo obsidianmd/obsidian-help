@@ -2,9 +2,7 @@
 permalink: sidebar
 publish: true
 mobile: true
-description: >-
-  Aprenda sobre as barras laterais esquerda e direita do Obsidian e como
-  gerenciar abas e grupos de abas.
+description: Aprenda sobre as barras laterais esquerda e direita do Obsidian e como gerenciar abas e grupos de abas.
 ---
 O Obsidian possui duas barras laterais: uma barra lateral esquerda e uma barra lateral direita. As barras laterais contêm abas criadas por plugins, como [[Links inversos]], [[Links de saída]] e o [[Explorador de arquivos]]. No desktop, você também pode arrastar notas para a barra lateral para mantê-las visíveis ao lado do seu editor principal.
 

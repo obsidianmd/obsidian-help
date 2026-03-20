@@ -2,9 +2,7 @@
 permalink: configuration-folder
 publish: true
 mobile: true
-description: >-
-  Scopri come accedere e gestire la cartella di configurazione su dispositivi
-  desktop e mobile.
+description: Scopri come accedere e gestire la cartella di configurazione su dispositivi desktop e mobile.
 aliases:
   - Configuration folder
 ---

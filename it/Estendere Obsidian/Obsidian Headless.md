@@ -1,8 +1,6 @@
 ---
 permalink: headless
-description: >-
-  Obsidian Headless è un client a riga di comando per i servizi Obsidian.
-  Sincronizza le tue cassaforti senza l'app desktop.
+description: Obsidian Headless è un client a riga di comando per i servizi Obsidian. Sincronizza le tue cassaforti senza l'app desktop.
 ---
 Obsidian Headless **(open beta)** è un client headless per i servizi Obsidian. Ti permette di [[Headless Sync|sincronizzare le cassaforti]] dalla riga di comando senza l'app desktop, con tutti i vantaggi di velocità, privacy e crittografia end-to-end di [[Introduction to Obsidian Sync|Obsidian Sync]].
 

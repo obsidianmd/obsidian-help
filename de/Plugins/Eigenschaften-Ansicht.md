@@ -2,9 +2,7 @@
 permalink: plugins/properties
 publish: true
 mobile: true
-description: >-
-  Die Eigenschaften-Ansicht ist eine integrierte Erweiterung, die zwei
-  Seitenleisten-Ansichten zum Verwalten von Eigenschaften hinzufügt.
+description: Die Eigenschaften-Ansicht ist eine integrierte Erweiterung, die zwei Seitenleisten-Ansichten zum Verwalten von Eigenschaften hinzufügt.
 ---
 Die Eigenschaften-Ansicht ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], die zwei Seitenleisten-Ansichten hinzufügt, mit denen du [[Eigenschaften]] verwalten kannst:
 

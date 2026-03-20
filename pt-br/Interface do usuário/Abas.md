@@ -2,9 +2,7 @@
 permalink: tabs
 publish: true
 mobile: true
-description: >-
-  Aprenda como abrir, organizar e gerenciar abas no Obsidian, incluindo fixar,
-  empilhar e visualizações vinculadas.
+description: Aprenda como abrir, organizar e gerenciar abas no Obsidian, incluindo fixar, empilhar e visualizações vinculadas.
 ---
 As abas no Obsidian funcionam de forma semelhante às abas em outros aplicativos, como navegadores web.
 

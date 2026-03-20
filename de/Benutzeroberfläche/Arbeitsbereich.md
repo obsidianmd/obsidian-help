@@ -2,9 +2,7 @@
 permalink: workspace
 publish: true
 mobile: true
-description: >-
-  Erfahre mehr über den Obsidian-Workspace und seine Kernkomponenten auf Desktop
-  und Mobilgeräten.
+description: Erfahre mehr über den Obsidian-Workspace und seine Kernkomponenten auf Desktop und Mobilgeräten.
 ---
 Der Workspace ist der Hauptcontainer für alle Komponenten, die die Obsidian-Bedienung ausmachen. Er besteht aus verschiedenen Elementen, die um deine Notizen herum angeordnet sind, und ermöglicht es dir, die Anzeige und Interaktion mit deinen Inhalten anzupassen.
 

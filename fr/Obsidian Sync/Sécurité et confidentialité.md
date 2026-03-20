@@ -1,8 +1,6 @@
 ---
 permalink: sync/security
-description: >-
-  Découvrez les considérations de sécurité et de confidentialité pour Obsidian
-  Sync.
+description: Découvrez les considérations de sécurité et de confidentialité pour Obsidian Sync.
 publish: true
 mobile: false
 localized: '2026-03-18'

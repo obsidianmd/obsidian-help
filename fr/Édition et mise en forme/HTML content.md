@@ -2,9 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: >-
-  Apprenez à utiliser le HTML dans Obsidian, y compris les limitations du rendu
-  Markdown et les exigences des blocs HTML.
+description: Apprenez à utiliser le HTML dans Obsidian, y compris les limitations du rendu Markdown et les exigences des blocs HTML.
 aliases:
   - Advanced Use/Nettoyage HTML
 ---

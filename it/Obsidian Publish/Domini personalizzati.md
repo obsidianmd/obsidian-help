@@ -1,9 +1,7 @@
 ---
 permalink: publish/domains
 mobile: true
-description: >-
-  Puoi configurare un dominio o sottodominio personalizzato per il tuo sito
-  Obsidian Publish.
+description: Puoi configurare un dominio o sottodominio personalizzato per il tuo sito Obsidian Publish.
 aliases:
   - Custom domains
 ---

@@ -2,9 +2,7 @@
 permalink: workspace
 publish: true
 mobile: true
-description: >-
-  Aprenda sobre a área de trabalho do Obsidian e seus componentes principais no
-  desktop e no celular.
+description: Aprenda sobre a área de trabalho do Obsidian e seus componentes principais no desktop e no celular.
 ---
 A área de trabalho é o contêiner principal para todos os componentes que compõem a interface do Obsidian. Ela consiste em diferentes elementos organizados ao redor das suas notas, permitindo que você personalize como visualiza e interage com seu conteúdo.
 

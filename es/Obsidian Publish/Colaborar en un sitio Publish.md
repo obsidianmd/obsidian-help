@@ -2,9 +2,7 @@
 permalink: publish/collaborate
 publish: true
 mobile: true
-description: >-
-  Aprende a colaborar con otros usuarios de Obsidian en tu sitio de Obsidian
-  Publish.
+description: Aprende a colaborar con otros usuarios de Obsidian en tu sitio de Obsidian Publish.
 ---
 Aprende a colaborar en tu sitio de [[Introducción a Obsidian Publish|Obsidian Publish]] con otros usuarios de Obsidian. Al agregar a tus amigos y colegas como colaboradores, ellos pueden publicar cambios en tu sitio.
 

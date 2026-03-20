@@ -2,9 +2,7 @@
 permalink: snippets
 publish: true
 mobile: true
-description: >-
-  Узнайте, как изменить отдельные элементы внешнего вида приложения Obsidian без
-  создания полноценной темы.
+description: Узнайте, как изменить отдельные элементы внешнего вида приложения Obsidian без создания полноценной темы.
 aliases:
   - CSS snippets
 ---

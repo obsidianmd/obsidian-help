@@ -1,8 +1,6 @@
 ---
 permalink: folding
-description: >-
-  Apprenez à obtenir une meilleure vue d'ensemble des notes volumineuses en
-  utilisant le pliage pour masquer des parties de la note
+description: Apprenez à obtenir une meilleure vue d'ensemble des notes volumineuses en utilisant le pliage pour masquer des parties de la note
 publish: true
 mobile: false
 aliases:

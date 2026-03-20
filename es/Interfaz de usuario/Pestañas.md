@@ -2,9 +2,7 @@
 permalink: tabs
 publish: true
 mobile: true
-description: >-
-  Aprende a abrir, organizar y gestionar pestañas en Obsidian, incluyendo fijar,
-  apilar y vistas enlazadas.
+description: Aprende a abrir, organizar y gestionar pestañas en Obsidian, incluyendo fijar, apilar y vistas enlazadas.
 aliases:
   - How to/Trabajar con varias notas
 ---

@@ -2,9 +2,7 @@
 permalink: publish/troubleshoot
 publish: true
 mobile: true
-description: >-
-  Esta página detalha alguns problemas comuns que você pode encontrar ao usar o
-  Obsidian Publish
+description: Esta página detalha alguns problemas comuns que você pode encontrar ao usar o Obsidian Publish
 ---
 Esta página lista problemas comuns que você pode encontrar com o [[Introdução ao Obsidian Publish|Obsidian Publish]] e como resolvê-los.
 

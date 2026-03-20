@@ -4,9 +4,7 @@ cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: >-
-  Aprenda sobre os recursos específicos para dispositivos móveis no Obsidian,
-  incluindo a barra de ferramentas móvel, ações rápidas e barra de navegação.
+description: Aprenda sobre os recursos específicos para dispositivos móveis no Obsidian, incluindo a barra de ferramentas móvel, ações rápidas e barra de navegação.
 ---
 Os aplicativos móveis do Obsidian estão disponíveis para [[Obsidian para iOS e iPadOS|iOS e iPadOS]] e [[Obsidian para Android|Android]]. Você pode baixá-los na [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) e no [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
 

@@ -2,9 +2,7 @@
 permalink: sync/messages
 publish: true
 mobile: true
-description: >-
-  Questa pagina spiega le icone di stato di Obsidian Sync e fornisce dettagli
-  sul registro attività di sincronizzazione.
+description: Questa pagina spiega le icone di stato di Obsidian Sync e fornisce dettagli sul registro attività di sincronizzazione.
 aliases:
   - Status icon and messages
 ---

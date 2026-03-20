@@ -1,8 +1,6 @@
 ---
 permalink: plugins/outgoing-links
-description: >-
-  Liens sortants est un module principal qui affiche en un coup d'œil les liens
-  depuis la note active, ainsi que les liens potentiels à créer.
+description: Liens sortants est un module principal qui affiche en un coup d'œil les liens depuis la note active, ainsi que les liens potentiels à créer.
 publish: true
 mobile: false
 localized: '2026-03-18'

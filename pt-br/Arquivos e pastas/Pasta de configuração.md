@@ -2,9 +2,7 @@
 permalink: configuration-folder
 publish: true
 mobile: true
-description: >-
-  Aprenda como acessar e gerenciar sua pasta de configuração em dispositivos
-  desktop e móveis.
+description: Aprenda como acessar e gerenciar sua pasta de configuração em dispositivos desktop e móveis.
 ---
 A pasta de configuração do Obsidian contém todos os arquivos de configurações pertencentes ao seu [[Gerenciar cofres|cofre]].
 

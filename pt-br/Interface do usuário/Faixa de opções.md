@@ -2,9 +2,7 @@
 permalink: ribbon
 publish: true
 mobile: true
-description: >-
-  Aprenda como usar a faixa de opções, um espaço para comandos comuns no
-  Obsidian, e personalizá-la no desktop e no celular.
+description: Aprenda como usar a faixa de opções, um espaço para comandos comuns no Obsidian, e personalizá-la no desktop e no celular.
 ---
 A faixa de opções funciona como um espaço para comandos comuns dentro do Obsidian.
 

@@ -5,9 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: >-
-  Esta página lista os plugins nativos que vêm instalados com o Obsidian, e
-  plugins da comunidade que eles também mantêm.
+description: Esta página lista os plugins nativos que vêm instalados com o Obsidian, e plugins da comunidade que eles também mantêm.
 aliases:
   - Plugins/Plugins essenciais
 ---

@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Erfahre, wie du mit internen Links auf Notizen, Anhänge und andere Dateien in
-  deinen Notizen verweisen kannst.
+description: Erfahre, wie du mit internen Links auf Notizen, Anhänge und andere Dateien in deinen Notizen verweisen kannst.
 ---
 Erfahre, wie du mit _internen Links_ auf Notizen, Anhänge und andere Dateien in deinen Notizen verweisen kannst. Durch das Verknüpfen von Notizen kannst du ein Wissensnetzwerk aufbauen. ^b15695
 

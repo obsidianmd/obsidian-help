@@ -1,8 +1,6 @@
 ---
 permalink: web-clipper/templates
-description: >-
-  Aprende a crear plantillas que capturen y organicen automáticamente los
-  metadatos de páginas web con Web Clipper.
+description: Aprende a crear plantillas que capturen y organicen automáticamente los metadatos de páginas web con Web Clipper.
 ---
 [[Introducción a Obsidian Web Clipper|Web Clipper]] te permite crear plantillas que capturan y organizan automáticamente los metadatos de las páginas web. Puedes encontrar plantillas de ejemplo en el [repositorio clipper-templates](https://github.com/kepano/clipper-templates).
 

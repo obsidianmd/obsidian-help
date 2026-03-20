@@ -4,10 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: >-
-  Eigenschaften ermöglichen es, Informationen über eine Notiz zu organisieren.
-  Eigenschaften enthalten strukturierte Daten wie Text, Links, Daten,
-  Kontrollkästchen und Zahlen.
+description: Eigenschaften ermöglichen es, Informationen über eine Notiz zu organisieren. Eigenschaften enthalten strukturierte Daten wie Text, Links, Daten, Kontrollkästchen und Zahlen.
 ---
 Eigenschaften ermöglichen es, Informationen über eine Notiz zu organisieren. Eigenschaften enthalten strukturierte Daten wie Text, Links, Daten, Kontrollkästchen und Zahlen. Eigenschaften können auch in Kombination mit [[Community-Erweiterungen]] verwendet werden, die nützliche Dinge mit strukturierten Daten tun können.
 

@@ -2,9 +2,7 @@
 permalink: tabs
 publish: true
 mobile: true
-description: >-
-  Erfahren Sie, wie Sie Tabs in Obsidian öffnen, organisieren und verwalten,
-  einschließlich Anheften, Stapeln und verlinkter Ansichten.
+description: Erfahren Sie, wie Sie Tabs in Obsidian öffnen, organisieren und verwalten, einschließlich Anheften, Stapeln und verlinkter Ansichten.
 ---
 Tabs in Obsidian funktionieren ähnlich wie Tabs in anderen Apps, z. B. in Webbrowsern.
 

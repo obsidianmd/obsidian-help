@@ -2,9 +2,7 @@
 permalink: callouts
 publish: true
 mobile: true
-description: >-
-  Esta página detalha como usar frases de destaque para incluir conteúdo
-  adicional sem interromper o fluxo das suas notas.
+description: Esta página detalha como usar frases de destaque para incluir conteúdo adicional sem interromper o fluxo das suas notas.
 ---
 Use frases de destaque para incluir conteúdo adicional sem interromper o fluxo das suas notas.
 

@@ -2,9 +2,7 @@
 permalink: callouts
 publish: true
 mobile: true
-description: >-
-  Esta página detalla cómo usar los recuadros para incluir contenido adicional
-  sin interrumpir el flujo de tus notas.
+description: Esta página detalla cómo usar los recuadros para incluir contenido adicional sin interrumpir el flujo de tus notas.
 ---
 Usa los recuadros para incluir contenido adicional sin interrumpir el flujo de tus notas.
 

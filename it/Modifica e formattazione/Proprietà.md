@@ -4,10 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: >-
-  Le proprietà permettono di organizzare le informazioni su una nota. Le
-  proprietà contengono dati strutturati come testo, collegamenti, date, caselle
-  di controllo e numeri.
+description: Le proprietà permettono di organizzare le informazioni su una nota. Le proprietà contengono dati strutturati come testo, collegamenti, date, caselle di controllo e numeri.
 aliases:
   - Properties
 ---

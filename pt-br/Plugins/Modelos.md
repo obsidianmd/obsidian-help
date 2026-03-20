@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Modelos é um plugin nativo que permite inserir trechos de texto pré-definidos
-  na sua nota ativa.
+description: Modelos é um plugin nativo que permite inserir trechos de texto pré-definidos na sua nota ativa.
 aliases:
   - Plugins/Modelos
 ---

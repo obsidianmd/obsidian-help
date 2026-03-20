@@ -2,9 +2,7 @@
 permalink: plugins/format-converter
 publish: true
 mobile: true
-description: >-
-  El Conversor de formato es un complemento principal que te permite convertir
-  Markdown de otras aplicaciones al formato de Obsidian.
+description: El Conversor de formato es un complemento principal que te permite convertir Markdown de otras aplicaciones al formato de Obsidian.
 aliases:
   - Plugins/Convertidor de formato Markdown
 ---

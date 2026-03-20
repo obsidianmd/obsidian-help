@@ -2,9 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: >-
-  Aprende a usar HTML en Obsidian, incluyendo limitaciones con el renderizado de
-  Markdown y requisitos de bloques HTML.
+description: Aprende a usar HTML en Obsidian, incluyendo limitaciones con el renderizado de Markdown y requisitos de bloques HTML.
 ---
 Obsidian admite HTML para permitirte mostrar tus notas de la manera que desees, o incluso [[Incrustar páginas web|incrustar páginas web]]. Permitir HTML dentro de tus notas conlleva riesgos. Para evitar que código malicioso cause daños, Obsidian _sanitiza_ cualquier HTML en tus notas.
 

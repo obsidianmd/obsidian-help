@@ -2,9 +2,7 @@
 permalink: plugins/graph
 publish: true
 mobile: true
-description: >-
-  Visão de grafo é um plugin nativo que permite visualizar as relações entre as
-  notas em seu cofre.
+description: Visão de grafo é um plugin nativo que permite visualizar as relações entre as notas em seu cofre.
 ---
 Visão de grafo é um [[Plugins nativos|plugin nativo]] que permite visualizar as relações entre as notas em seu cofre.
 

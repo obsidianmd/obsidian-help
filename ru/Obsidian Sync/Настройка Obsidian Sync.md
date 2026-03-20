@@ -4,10 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Вы приобрели Obsidian Sync и готовы начать работу. Это руководство поможет вам
-  настроить Obsidian Sync и адаптировать его параметры для повседневного
-  использования.
+description: Вы приобрели Obsidian Sync и готовы начать работу. Это руководство поможет вам настроить Obsidian Sync и адаптировать его параметры для повседневного использования.
 aliases:
   - Set up Obsidian Sync
 ---

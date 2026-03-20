@@ -2,9 +2,7 @@
 permalink: snippets
 publish: true
 mobile: true
-description: >-
-  Aprenda como modificar partes da aparência do aplicativo Obsidian sem criar um
-  tema completo.
+description: Aprenda como modificar partes da aparência do aplicativo Obsidian sem criar um tema completo.
 aliases:
   - Como/Adicionar estilos personalizados
   - Estendendo o Obsidian/Trechos de CSS

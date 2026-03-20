@@ -2,9 +2,7 @@
 permalink: workspace
 publish: true
 mobile: true
-description: >-
-  Scopri l'area di lavoro di Obsidian e i suoi componenti principali su desktop
-  e mobile.
+description: Scopri l'area di lavoro di Obsidian e i suoi componenti principali su desktop e mobile.
 aliases:
   - Workspace
 ---

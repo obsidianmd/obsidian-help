@@ -2,9 +2,7 @@
 permalink: syntax
 publish: true
 mobile: true
-description: >-
-  Scopri come applicare la formattazione di base alle tue note in Obsidian,
-  utilizzando Markdown.
+description: Scopri come applicare la formattazione di base alle tue note in Obsidian, utilizzando Markdown.
 aliases:
   - Basic formatting syntax
 ---

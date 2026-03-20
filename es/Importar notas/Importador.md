@@ -5,9 +5,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  El Importador te ayuda a migrar a Obsidian desde diversas aplicaciones y
-  formatos.
+description: El Importador te ayuda a migrar a Obsidian desde diversas aplicaciones y formatos.
 ---
 El Importador te ayuda a migrar a Obsidian desde diversas aplicaciones y formatos. Consulta la guía [[Importar notas]] para más detalles.
 

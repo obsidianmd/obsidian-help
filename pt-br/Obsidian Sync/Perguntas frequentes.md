@@ -2,9 +2,7 @@
 permalink: sync/faq
 publish: true
 mobile: true
-description: >-
-  Esta página lista algumas das perguntas comuns relacionadas a dúvidas e
-  limitações do Obsidian Sync.
+description: Esta página lista algumas das perguntas comuns relacionadas a dúvidas e limitações do Obsidian Sync.
 ---
 Esta página lista algumas das perguntas comuns relacionadas a dúvidas e limitações do [[Introdução ao Obsidian Sync|Obsidian Sync]].
 

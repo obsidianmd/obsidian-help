@@ -1,8 +1,6 @@
 ---
 permalink: publish/troubleshoot
-description: >-
-  Cette page détaille certains problèmes courants que vous pouvez rencontrer
-  lors de l'utilisation d'Obsidian Publish.
+description: Cette page détaille certains problèmes courants que vous pouvez rencontrer lors de l'utilisation d'Obsidian Publish.
 publish: true
 mobile: true
 localized: '2026-03-18'

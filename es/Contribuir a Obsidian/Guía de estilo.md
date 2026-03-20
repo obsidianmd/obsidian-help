@@ -2,9 +2,7 @@
 permalink: style-guide
 publish: true
 mobile: true
-description: >-
-  Esta página explica la guía de estilo para escribir nuestra documentación de
-  soporte.
+description: Esta página explica la guía de estilo para escribir nuestra documentación de soporte.
 ---
 La documentación de Obsidian sigue las directrices de estilo listadas en esta página. Estas directrices se basan en las mejores prácticas de la industria, particularmente la [guía de estilo de documentación para desarrolladores de Google](<https://developers.google.com/style>) y la [Guía de estilo de Microsoft](https://learn.microsoft.com/en-us/style-guide/). Para casos especiales no cubiertos a continuación, consulte esas guías externas como referencias secundarias.
 

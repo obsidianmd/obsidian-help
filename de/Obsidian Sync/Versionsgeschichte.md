@@ -4,10 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Obsidian Sync führt ein Protokoll aller Änderungen an deinen Notizen und prüft
-  regelmäßig auf Aktualisierungen, wobei neue Versionen deiner Notizen erstellt
-  werden.
+description: Obsidian Sync führt ein Protokoll aller Änderungen an deinen Notizen und prüft regelmäßig auf Aktualisierungen, wobei neue Versionen deiner Notizen erstellt werden.
 ---
 [[Einführung in Obsidian Sync|Obsidian Sync]] prüft regelmäßig auf Aktualisierungen deiner [[Sync-Einstellungen und selektive Synchronisierung|synchronisierten Dateien]] und führt ein Protokoll aller Änderungen. Diese werden als neue Einträge im [[#Versionsverlauf]] gespeichert. Diese Informationen können auf verschiedene Arten abgerufen werden:
 

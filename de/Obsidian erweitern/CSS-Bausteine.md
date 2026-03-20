@@ -2,9 +2,7 @@
 permalink: snippets
 publish: true
 mobile: true
-description: >-
-  Erfahre, wie du Teile der Darstellung der Obsidian-App ändern kannst, ohne ein
-  vollständiges Thema zu erstellen.
+description: Erfahre, wie du Teile der Darstellung der Obsidian-App ändern kannst, ohne ein vollständiges Thema zu erstellen.
 ---
 Erfahre, wie du Aspekte der Darstellung der Obsidian-Anwendung ändern kannst, ohne ein [Thema erstellen](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) zu müssen.
 

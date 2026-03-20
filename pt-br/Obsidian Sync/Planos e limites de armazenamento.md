@@ -2,9 +2,7 @@
 permalink: sync/plans
 publish: true
 mobile: true
-description: >-
-  Saiba mais sobre as diferentes opções de planos que temos disponíveis para o
-  Obsidian Sync.
+description: Saiba mais sobre as diferentes opções de planos que temos disponíveis para o Obsidian Sync.
 ---
 ## Planos
 

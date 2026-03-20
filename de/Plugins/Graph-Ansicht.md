@@ -2,9 +2,7 @@
 permalink: plugins/graph
 publish: true
 mobile: true
-description: >-
-  Die Graph-Ansicht ist eine integrierte Erweiterung, mit der du die Beziehungen
-  zwischen den Notizen in deinem Vault visualisieren kannst.
+description: Die Graph-Ansicht ist eine integrierte Erweiterung, mit der du die Beziehungen zwischen den Notizen in deinem Vault visualisieren kannst.
 ---
 Die Graph-Ansicht ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], mit der du die Beziehungen zwischen den Notizen in deinem Vault visualisieren kannst.
 

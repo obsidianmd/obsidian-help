@@ -1,8 +1,6 @@
 ---
 permalink: plugins/quick-switcher
-description: >-
-  Selezione rapida è un plugin principale che permette di cercare e aprire note
-  usando solo la tastiera.
+description: Selezione rapida è un plugin principale che permette di cercare e aprire note usando solo la tastiera.
 aliases:
   - Quick switcher
 ---

@@ -2,9 +2,7 @@
 permalink: publish/collaborate
 publish: true
 mobile: true
-description: >-
-  Узнайте, как совместно работать с другими пользователями Obsidian на вашем
-  сайте Obsidian Publish.
+description: Узнайте, как совместно работать с другими пользователями Obsidian на вашем сайте Obsidian Publish.
 aliases:
   - Collaborate on a Publish site
 ---

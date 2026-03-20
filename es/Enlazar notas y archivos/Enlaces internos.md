@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Aprende cómo enlazar a notas, adjuntos y otros archivos desde tus notas,
-  usando enlaces internos.
+description: Aprende cómo enlazar a notas, adjuntos y otros archivos desde tus notas, usando enlaces internos.
 aliases:
   - How to/Enlace a bloques
   - How to/Enlace interno

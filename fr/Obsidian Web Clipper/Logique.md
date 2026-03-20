@@ -1,8 +1,6 @@
 ---
 permalink: web-clipper/logic
-description: >-
-  Utilisez des conditions, des boucles et l'affectation de variables dans les
-  modèles de Web Clipper.
+description: Utilisez des conditions, des boucles et l'affectation de variables dans les modèles de Web Clipper.
 localized: '2026-03-18'
 
 ---

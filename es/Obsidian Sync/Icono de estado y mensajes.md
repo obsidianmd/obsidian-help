@@ -2,9 +2,7 @@
 permalink: sync/messages
 publish: true
 mobile: true
-description: >-
-  Esta página explica los iconos de estado de Obsidian Sync y proporciona
-  detalles sobre el registro de actividad de sincronización.
+description: Esta página explica los iconos de estado de Obsidian Sync y proporciona detalles sobre el registro de actividad de sincronización.
 ---
 Obsidian Sync proporciona varios elementos para indicar el estado de sincronización, principalmente el [[#Icono de estado de Sync]] y el [[#Registro de actividad de Sync]]. Los detalles sobre el control de versiones en Obsidian Sync se cubren en la página [[Historial de versiones]].
 

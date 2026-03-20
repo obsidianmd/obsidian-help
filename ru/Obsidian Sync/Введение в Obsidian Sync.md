@@ -5,9 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: >-
-  Obsidian Sync — это дополнительный сервис, позволяющий конфиденциально
-  синхронизировать заметки между устройствами.
+description: Obsidian Sync — это дополнительный сервис, позволяющий конфиденциально синхронизировать заметки между устройствами.
 aliases:
   - Introduction to Obsidian Sync
 ---

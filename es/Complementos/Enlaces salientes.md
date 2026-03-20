@@ -2,9 +2,7 @@
 permalink: plugins/outgoing-links
 publish: true
 mobile: false
-description: >-
-  Enlaces salientes es un complemento principal que muestra los enlaces de la nota
-  activa de un vistazo, así como posibles enlaces por crear.
+description: Enlaces salientes es un complemento principal que muestra los enlaces de la nota activa de un vistazo, así como posibles enlaces por crear.
 ---
 [[Enlaces salientes]] es un [[Complementos principales|complemento principal]] que muestra los enlaces de la nota activa de un vistazo, así como posibles enlaces por crear. Es similar al complemento de [[Enlaces de retorno]], que en cambio muestra los enlaces _entrantes_ hacia la nota activa.
 

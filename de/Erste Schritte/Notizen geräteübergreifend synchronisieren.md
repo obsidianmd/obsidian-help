@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  So synchronisieren Sie Ihre Obsidian-Notizen über Geräte und Plattformen
-  hinweg.
+description: So synchronisieren Sie Ihre Obsidian-Notizen über Geräte und Plattformen hinweg.
 ---
 Obsidian speichert Notizen lokal auf Ihrem Gerät, sodass Sie jederzeit darauf zugreifen können, auch offline. Um auf Ihre Notizen auf mehreren Geräten zugreifen zu können, müssen Sie eine Synchronisierungsmethode einrichten.
 

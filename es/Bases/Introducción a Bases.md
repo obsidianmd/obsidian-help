@@ -3,9 +3,7 @@ permalink: bases
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: >-
-  Crea vistas tipo base de datos de tus notas, formateadas como tablas o
-  tarjetas. Edita, ordena y filtra archivos usando sus propiedades.
+description: Crea vistas tipo base de datos de tus notas, formateadas como tablas o tarjetas. Edita, ordena y filtra archivos usando sus propiedades.
 ---
 Bases es un [[Complementos principales|complemento principal]] que te permite crear vistas tipo base de datos de tus notas. Usando una base puedes ver, editar, ordenar y filtrar archivos y sus [[Propiedades|propiedades]]. Bases puede ayudarte a organizar todo, desde proyectos hasta planes de viaje, listas de lectura y más.
 

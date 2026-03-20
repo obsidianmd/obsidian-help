@@ -2,9 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: >-
-  Узнайте, как использовать HTML в Obsidian, включая ограничения рендеринга
-  Markdown и требования к HTML-блокам.
+description: Узнайте, как использовать HTML в Obsidian, включая ограничения рендеринга Markdown и требования к HTML-блокам.
 aliases:
   - HTML content
 ---

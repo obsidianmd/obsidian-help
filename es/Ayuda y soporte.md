@@ -2,9 +2,7 @@
 permalink: resources
 publish: true
 mobile: true
-description: >-
-  Encuentra recursos de soporte, reporta problemas de seguridad o violaciones de
-  la comunidad, y aprende cómo contribuir a Obsidian.
+description: Encuentra recursos de soporte, reporta problemas de seguridad o violaciones de la comunidad, y aprende cómo contribuir a Obsidian.
 ---
 Encuentra recursos de soporte, reporta problemas de seguridad o violaciones de la comunidad, y aprende cómo contribuir a Obsidian.
 

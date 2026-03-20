@@ -4,10 +4,7 @@ cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: >-
-  Erfahre mehr über die mobil-spezifischen Funktionen in Obsidian,
-  einschließlich der mobilen Symbolleiste, Schnell-Aktionen und
-  Navigationsleiste.
+description: Erfahre mehr über die mobil-spezifischen Funktionen in Obsidian, einschließlich der mobilen Symbolleiste, Schnell-Aktionen und Navigationsleiste.
 ---
 Die mobilen Obsidian-Apps sind für [[Obsidian für iOS und iPadOS|iOS und iPadOS]] und [[Obsidian für Android|Android]] verfügbar. Du kannst sie im [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) und bei [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) herunterladen.
 

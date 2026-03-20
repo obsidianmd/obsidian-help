@@ -1,8 +1,6 @@
 ---
 permalink: plugins/file-explorer
-description: >-
-  L'explorateur de fichiers est un plugin principal qui vous permet de gérer les
-  fichiers et les dossiers à l'intérieur de votre coffre.
+description: L'explorateur de fichiers est un plugin principal qui vous permet de gérer les fichiers et les dossiers à l'intérieur de votre coffre.
 publish: true
 mobile: true
 aliases:

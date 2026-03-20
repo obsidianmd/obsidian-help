@@ -2,9 +2,7 @@
 permalink: folding
 publish: true
 mobile: false
-description: >-
-  Aprenda como ter uma visão geral melhor de notas grandes usando o dobramento
-  para ocultar partes da nota
+description: Aprenda como ter uma visão geral melhor de notas grandes usando o dobramento para ocultar partes da nota
 ---
 Aprenda como ter uma visão geral melhor de notas grandes usando o _dobramento_ para ocultar partes da nota. O dobramento é útil quando você está criando esquemas para suas notas e quando deseja se concentrar no que está trabalhando no momento.
 

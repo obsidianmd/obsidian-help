@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Erfahren Sie, wie Sie von Ihrer aktuellen Synchronisierungslösung zu Obsidian
-  Sync wechseln.
+description: Erfahren Sie, wie Sie von Ihrer aktuellen Synchronisierungslösung zu Obsidian Sync wechseln.
 ---
 Erfahren Sie, wie Sie von Ihrer aktuellen Synchronisierungslösung zu Obsidian Sync wechseln.
 

@@ -2,10 +2,7 @@
 permalink: plugins/file-recovery
 publish: true
 mobile: true
-description: >-
-  Datenwiederherstellung schützt deine Arbeit vor unbeabsichtigtem Datenverlust,
-  indem automatisch Sicherungskopien deiner Notizen in regelmäßigen Abständen
-  gespeichert werden.
+description: Datenwiederherstellung schützt deine Arbeit vor unbeabsichtigtem Datenverlust, indem automatisch Sicherungskopien deiner Notizen in regelmäßigen Abständen gespeichert werden.
 ---
 Datenwiederherstellung ist eine [[Obsidian-Erweiterungen|Obsidian-Erweiterung]], die deine Arbeit vor versehentlichem Löschen, Dateibeschädigung oder ungewollten Änderungen schützt, indem automatisch vollständige Sicherungskopien deiner Notizen in regelmäßigen Abständen gespeichert werden. Datenwiederherstellung ist keine vollständige Backup-Lösung, und wir empfehlen, deine Obsidian-Dateien zusätzlich [[Obsidian-Dateien sichern|separat zu sichern]].
 

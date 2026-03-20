@@ -2,9 +2,7 @@
 permalink: plugins/file-recovery
 publish: true
 mobile: true
-description: >-
-  Recupero file aiuta a proteggere il tuo lavoro dalla perdita involontaria di
-  dati salvando automaticamente istantanee delle tue note a intervalli regolari.
+description: Recupero file aiuta a proteggere il tuo lavoro dalla perdita involontaria di dati salvando automaticamente istantanee delle tue note a intervalli regolari.
 aliases:
   - File recovery
 ---

@@ -1,9 +1,6 @@
 ---
 permalink: formulas
-description: >-
-  Formeln ermöglichen es dir, berechnete Eigenschaften zu erstellen, die Daten
-  aus anderen Eigenschaften verwenden. Du kannst Berechnungen durchführen, Text
-  manipulieren, mit Daten arbeiten und mehr.
+description: Formeln ermöglichen es dir, berechnete Eigenschaften zu erstellen, die Daten aus anderen Eigenschaften verwenden. Du kannst Berechnungen durchführen, Text manipulieren, mit Daten arbeiten und mehr.
 ---
 Formeln ermöglichen es dir, berechnete Eigenschaften in [[Einführung in Bases|Basen]] zu erstellen, die Daten aus anderen [[Eigenschaften]] verwenden. Du kannst Berechnungen durchführen, Text manipulieren, mit Daten arbeiten und mehr.
 

@@ -2,9 +2,7 @@
 permalink: folding
 publish: true
 mobile: false
-description: >-
-  Scopri come ottenere una migliore panoramica delle note lunghe utilizzando la
-  compressione per nascondere parti della nota
+description: Scopri come ottenere una migliore panoramica delle note lunghe utilizzando la compressione per nascondere parti della nota
 aliases:
   - Folding
 ---

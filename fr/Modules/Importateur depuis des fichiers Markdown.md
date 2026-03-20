@@ -1,9 +1,6 @@
 ---
 permalink: plugins/format-converter
-description: >-
-  Importateur depuis des fichiers Markdown est un module principal qui vous
-  permet de convertir du Markdown provenant d'autres applications au format
-  Obsidian.
+description: Importateur depuis des fichiers Markdown est un module principal qui vous permet de convertir du Markdown provenant d'autres applications au format Obsidian.
 publish: true
 mobile: true
 aliases:

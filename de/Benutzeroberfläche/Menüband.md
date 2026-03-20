@@ -2,9 +2,7 @@
 permalink: ribbon
 publish: true
 mobile: true
-description: >-
-  Erfahren Sie, wie Sie die Werkzeugleiste nutzen, einen Bereich für häufige
-  Befehle in Obsidian, und wie Sie sie auf Desktop und Mobilgeräten anpassen.
+description: Erfahren Sie, wie Sie die Werkzeugleiste nutzen, einen Bereich für häufige Befehle in Obsidian, und wie Sie sie auf Desktop und Mobilgeräten anpassen.
 ---
 Die Werkzeugleiste dient als Bereich für häufige Befehle in Obsidian.
 

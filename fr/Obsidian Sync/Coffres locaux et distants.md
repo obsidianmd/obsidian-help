@@ -2,9 +2,7 @@
 permalink: sync/vault-types
 cssclasses:
   - soft-embed
-description: >-
-  Cette page décrit les différences pratiques entre les coffres locaux et les
-  coffres distants.
+description: Cette page décrit les différences pratiques entre les coffres locaux et les coffres distants.
 publish: true
 mobile: true
 localized: '2026-03-18'

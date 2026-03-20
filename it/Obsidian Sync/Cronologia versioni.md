@@ -4,10 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Obsidian Sync tiene traccia di tutte le modifiche apportate alle note e
-  controlla regolarmente la presenza di aggiornamenti, creando nuove versioni
-  delle note.
+description: Obsidian Sync tiene traccia di tutte le modifiche apportate alle note e controlla regolarmente la presenza di aggiornamenti, creando nuove versioni delle note.
 aliases:
   - Version history
 ---

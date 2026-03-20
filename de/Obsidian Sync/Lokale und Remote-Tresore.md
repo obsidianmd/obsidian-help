@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Diese Seite beschreibt die Unterschiede zwischen lokalen und Remote-Tresoren
-  in der Praxis.
+description: Diese Seite beschreibt die Unterschiede zwischen lokalen und Remote-Tresoren in der Praxis.
 ---
 Wenn du deine Notizen auf verschiedenen Geräten nutzen möchtest, ist eine der Möglichkeiten, die du hast, [[Notizen geräteübergreifend synchronisieren|deine Notizen geräteübergreifend zu synchronisieren]]. Obsidian bietet einen solchen Dienst an, [[Einführung in Obsidian Sync|Obsidian Sync]], der anders funktioniert als andere Synchronisierungsdienste wie [[Notizen geräteübergreifend synchronisieren#iCloud|iCloud]] und [[Notizen geräteübergreifend synchronisieren#OneDrive|OneDrive]].
 

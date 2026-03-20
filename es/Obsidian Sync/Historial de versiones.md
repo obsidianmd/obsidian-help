@@ -4,10 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Obsidian Sync mantiene un registro de todos los cambios realizados en tus
-  notas y verifica regularmente si hay actualizaciones, creando nuevas versiones
-  de tus notas.
+description: Obsidian Sync mantiene un registro de todos los cambios realizados en tus notas y verifica regularmente si hay actualizaciones, creando nuevas versiones de tus notas.
 ---
 [[Introducción a Obsidian Sync|Obsidian Sync]] verifica regularmente si hay actualizaciones en tus [[Ajustes de Sync y sincronización selectiva|archivos sincronizados]], manteniendo un registro de cualquier cambio. Estos se almacenan como nuevas entradas en el [[#Historial de versiones]]. Esta información se puede acceder de varias formas:
 

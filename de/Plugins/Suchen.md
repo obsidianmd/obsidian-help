@@ -2,10 +2,7 @@
 permalink: plugins/search
 publish: true
 mobile: true
-description: >-
-  Die Suche ist eine Obsidian-Erweiterung, die Ihnen hilft, Daten in Ihrem
-  Obsidian-Vault mithilfe von Suchbegriffen und Operatoren zu finden und
-  Ergebnisse einzugrenzen.
+description: Die Suche ist eine Obsidian-Erweiterung, die Ihnen hilft, Daten in Ihrem Obsidian-Vault mithilfe von Suchbegriffen und Operatoren zu finden und Ergebnisse einzugrenzen.
 ---
 Die Suche ist eine [[Obsidian-Erweiterungen|Obsidian-Erweiterung]], die Ihnen hilft, Daten in Ihrem Obsidian-Vault mithilfe von Suchbegriffen und Operatoren zu finden und Ergebnisse einzugrenzen.
 

@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Esta página lista problemas incomuns que você pode encontrar com o Obsidian
-  Sync e como resolvê-los.
+description: Esta página lista problemas incomuns que você pode encontrar com o Obsidian Sync e como resolvê-los.
 ---
 Esta página lista problemas incomuns que você pode encontrar com o [[Introdução ao Obsidian Sync|Obsidian Sync]] e como resolvê-los. Antes de prosseguir, recomendamos revisar as páginas [[Ícone de status e mensagens]] e [[Perguntas frequentes]].
 

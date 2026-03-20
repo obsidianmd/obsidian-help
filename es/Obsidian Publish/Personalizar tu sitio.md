@@ -1,9 +1,7 @@
 ---
 permalink: publish/customize
 publish: true
-description: >-
-  Aprende a personalizar la apariencia y el estilo de tu sitio de Obsidian
-  Publish.
+description: Aprende a personalizar la apariencia y el estilo de tu sitio de Obsidian Publish.
 ---
 Esta página explica cómo puedes personalizar la apariencia y el estilo de tu sitio de [[Introducción a Obsidian Publish|Obsidian Publish]].
 

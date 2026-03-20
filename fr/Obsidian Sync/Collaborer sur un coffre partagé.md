@@ -1,8 +1,6 @@
 ---
 permalink: sync/collaborate
-description: >-
-  Cette page détaille comment vous pouvez collaborer avec d'autres utilisateurs
-  d'Obsidian Sync.
+description: Cette page détaille comment vous pouvez collaborer avec d'autres utilisateurs d'Obsidian Sync.
 publish: true
 mobile: true
 localized: '2026-03-18'

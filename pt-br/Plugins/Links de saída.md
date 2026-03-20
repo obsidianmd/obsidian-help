@@ -2,9 +2,7 @@
 permalink: plugins/outgoing-links
 publish: true
 mobile: false
-description: >-
-  Links de saída é um plugin nativo que mostra links da nota ativa de forma
-  rápida, bem como links potenciais a serem criados.
+description: Links de saída é um plugin nativo que mostra links da nota ativa de forma rápida, bem como links potenciais a serem criados.
 ---
 Links de saída é um [[Plugins nativos|plugin nativo]] que mostra links da nota ativa de forma rápida, bem como links potenciais a serem criados. É semelhante ao plugin [[Links inversos]], que em vez disso mostra os links _recebidos_ para a nota ativa.
 

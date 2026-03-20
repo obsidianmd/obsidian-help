@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Mueve tu bóveda de Sync a una región diferente, realiza una actualización de
-  cifrado.
+description: Mueve tu bóveda de Sync a una región diferente, realiza una actualización de cifrado.
 ---
 Por defecto, Obsidian Sync utiliza [[Obsidian Sync/Seguridad y privacidad#Cifrado|cifrado de extremo a extremo]] para todos tus datos. Esto garantiza que nadie — ni siquiera el equipo de Obsidian — pueda acceder a tus notas.
 

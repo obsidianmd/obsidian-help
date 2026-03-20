@@ -2,9 +2,7 @@
 permalink: plugins/search
 publish: true
 mobile: true
-description: >-
-  Pesquisa é um plugin nativo que ajuda você a encontrar dados no seu cofre do
-  Obsidian usando termos de pesquisa e operadores para refinar resultados.
+description: Pesquisa é um plugin nativo que ajuda você a encontrar dados no seu cofre do Obsidian usando termos de pesquisa e operadores para refinar resultados.
 aliases:
   - Plugins/Busca
 ---

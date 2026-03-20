@@ -2,9 +2,7 @@
 permalink: sync/security
 publish: true
 mobile: false
-description: >-
-  Aprende sobre las consideraciones de seguridad y privacidad para Obsidian
-  Sync.
+description: Aprende sobre las consideraciones de seguridad y privacidad para Obsidian Sync.
 ---
 ## Cifrado
 

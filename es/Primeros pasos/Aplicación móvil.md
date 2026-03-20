@@ -4,9 +4,7 @@ cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: >-
-  Aprende sobre las funciones específicas para móvil en Obsidian, incluyendo la
-  barra de herramientas móvil, acciones rápidas y la barra de navegación.
+description: Aprende sobre las funciones específicas para móvil en Obsidian, incluyendo la barra de herramientas móvil, acciones rápidas y la barra de navegación.
 aliases:
   - Obsidian/Obsidian Movil
 ---

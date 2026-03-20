@@ -2,9 +2,7 @@
 permalink: plugins/backlinks
 publish: true
 mobile: false
-description: >-
-  Con il plugin Riferimenti, puoi visualizzare tutti i backlink per la nota
-  attiva.
+description: Con il plugin Riferimenti, puoi visualizzare tutti i backlink per la nota attiva.
 aliases:
   - Backlinks
 ---

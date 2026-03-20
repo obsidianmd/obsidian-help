@@ -5,9 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: >-
-  Questa pagina elenca i plugin principali installati con Obsidian e i plugin
-  della community mantenuti dal team.
+description: Questa pagina elenca i plugin principali installati con Obsidian e i plugin della community mantenuti dal team.
 aliases:
   - Core plugins
 ---

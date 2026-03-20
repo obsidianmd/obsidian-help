@@ -2,9 +2,7 @@
 permalink: plugins/graph
 publish: true
 mobile: true
-description: >-
-  La vista grafo è un plugin principale che consente di visualizzare le
-  relazioni tra le note nella cassaforte.
+description: La vista grafo è un plugin principale che consente di visualizzare le relazioni tra le note nella cassaforte.
 aliases:
   - Graph view
 ---

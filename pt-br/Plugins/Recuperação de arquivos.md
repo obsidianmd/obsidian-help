@@ -2,10 +2,7 @@
 permalink: plugins/file-recovery
 publish: true
 mobile: true
-description: >-
-  Recuperação de arquivos ajuda a proteger seu trabalho contra perda de dados
-  não intencional, salvando automaticamente versões de suas notas em intervalos
-  regulares.
+description: Recuperação de arquivos ajuda a proteger seu trabalho contra perda de dados não intencional, salvando automaticamente versões de suas notas em intervalos regulares.
 ---
 Recuperação de arquivos é um [[Plugins nativos|plugin nativo]] que protege seu trabalho contra exclusões acidentais, corrupção de arquivos ou alterações indesejadas, salvando automaticamente versões completas de suas notas em intervalos regulares. Recuperação de arquivos não é uma solução completa de backup, e recomendamos também [[Fazer backup dos seus arquivos do Obsidian|fazer backup]] dos seus arquivos do Obsidian separadamente.
 

@@ -2,9 +2,7 @@
 permalink: plugins/file-explorer
 publish: true
 mobile: true
-description: >-
-  O Explorador de arquivos é um plugin nativo que permite gerenciar arquivos e
-  pastas dentro do seu cofre.
+description: O Explorador de arquivos é um plugin nativo que permite gerenciar arquivos e pastas dentro do seu cofre.
 aliases:
   - Plugins/Explorador de arquivos
 ---

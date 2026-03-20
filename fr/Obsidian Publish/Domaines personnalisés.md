@@ -1,8 +1,6 @@
 ---
 permalink: publish/domains
-description: >-
-  Vous pouvez configurer un domaine ou un sous-domaine personnalisé pour votre
-  site Obsidian Publish.
+description: Vous pouvez configurer un domaine ou un sous-domaine personnalisé pour votre site Obsidian Publish.
 mobile: true
 localized: '2026-03-18'
 

@@ -3,10 +3,7 @@ permalink: bases
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: >-
-  Créez des vues de type base de données de vos notes, formatées sous forme de
-  tableaux ou de galeries. Modifiez, triez et filtrez les fichiers à l'aide de
-  leurs propriétés.
+description: Créez des vues de type base de données de vos notes, formatées sous forme de tableaux ou de galeries. Modifiez, triez et filtrez les fichiers à l'aide de leurs propriétés.
 localized: '2026-03-18'
 
 ---

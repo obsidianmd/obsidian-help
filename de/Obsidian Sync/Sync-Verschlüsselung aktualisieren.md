@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Verschiebe deinen Sync-Tresor in eine andere Region und führe ein
-  Verschlüsselungs-Upgrade durch.
+description: Verschiebe deinen Sync-Tresor in eine andere Region und führe ein Verschlüsselungs-Upgrade durch.
 ---
 Standardmäßig verwendet Obsidian Sync [[Obsidian Sync/Sicherheit und Datenschutz#Verschlüsselung|Ende-zu-Ende-Verschlüsselung]] für alle deine Daten. Dies garantiert, dass niemand — nicht einmal das Obsidian-Team — auf deine Notizen zugreifen kann.
 

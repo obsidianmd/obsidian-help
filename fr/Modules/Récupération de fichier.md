@@ -1,9 +1,6 @@
 ---
 permalink: plugins/file-recovery
-description: >-
-  Récupération de fichier aide à protéger votre travail contre la perte
-  involontaire de données en enregistrant automatiquement des instantanés de vos
-  notes à intervalles réguliers.
+description: Récupération de fichier aide à protéger votre travail contre la perte involontaire de données en enregistrant automatiquement des instantanés de vos notes à intervalles réguliers.
 publish: true
 mobile: true
 localized: '2026-03-18'

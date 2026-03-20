@@ -2,9 +2,7 @@
 permalink: sync/collaborate
 publish: true
 mobile: true
-description: >-
-  Esta página detalha como você pode colaborar com outros usuários do Obsidian
-  Sync.
+description: Esta página detalha como você pode colaborar com outros usuários do Obsidian Sync.
 aliases:
   - Obsidian Sync/Compartilhar cofres remotos
 ---

@@ -2,9 +2,7 @@
 permalink: plugins/file-explorer
 publish: true
 mobile: true
-description: >-
-  Esplora file è un plugin principale che consente di gestire file e cartelle
-  all'interno della cassaforte.
+description: Esplora file è un plugin principale che consente di gestire file e cartelle all'interno della cassaforte.
 aliases:
   - File explorer
 ---

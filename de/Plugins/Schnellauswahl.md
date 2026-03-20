@@ -1,8 +1,6 @@
 ---
 permalink: plugins/quick-switcher
-description: >-
-  Die Schnellauswahl ist eine integrierte Erweiterung, mit der du Notizen nur
-  über die Tastatur suchen und öffnen kannst.
+description: Die Schnellauswahl ist eine integrierte Erweiterung, mit der du Notizen nur über die Tastatur suchen und öffnen kannst.
 ---
 Die Schnellauswahl ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], mit der du Notizen nur über die Tastatur suchen und öffnen kannst.
 

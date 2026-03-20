@@ -2,9 +2,7 @@
 permalink: sidebar
 publish: true
 mobile: true
-description: >-
-  Aprende sobre las barras laterales izquierda y derecha de Obsidian y cómo
-  gestionar pestañas y grupos de pestañas.
+description: Aprende sobre las barras laterales izquierda y derecha de Obsidian y cómo gestionar pestañas y grupos de pestañas.
 ---
 Obsidian tiene dos barras laterales: una barra lateral izquierda y una barra lateral derecha. Las barras laterales contienen pestañas creadas por complementos, como [[Enlaces entrantes]], [[Enlaces salientes]] y el [[Explorador de archivos]]. En escritorio, también puedes arrastrar notas a la barra lateral para mantenerlas visibles junto a tu editor principal.
 

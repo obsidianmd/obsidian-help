@@ -1,8 +1,6 @@
 ---
 permalink: plugins/graph
-description: >-
-  Vue graphique est un plugin principal qui vous permet de visualiser les
-  relations entre les notes de votre coffre.
+description: Vue graphique est un plugin principal qui vous permet de visualiser les relations entre les notes de votre coffre.
 publish: true
 mobile: true
 localized: '2026-03-18'

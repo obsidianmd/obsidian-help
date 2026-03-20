@@ -2,9 +2,7 @@
 permalink: configuration-folder
 publish: true
 mobile: true
-description: >-
-  Erfahren Sie, wie Sie auf Ihren Konfigurationsordner auf Desktop- und
-  Mobilgeräten zugreifen und ihn verwalten.
+description: Erfahren Sie, wie Sie auf Ihren Konfigurationsordner auf Desktop- und Mobilgeräten zugreifen und ihn verwalten.
 ---
 Der Konfigurationsordner von Obsidian enthält alle Einstellungsdateien, die zu Ihrem [[Vaults verwalten|Vault]] gehören.
 

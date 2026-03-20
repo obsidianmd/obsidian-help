@@ -2,9 +2,7 @@
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true
-description: >-
-  Узнайте о Markdown в формате Obsidian, включая поддерживаемые расширения и
-  взаимодействие Markdown с HTML-элементами.
+description: Узнайте о Markdown в формате Obsidian, включая поддерживаемые расширения и взаимодействие Markdown с HTML-элементами.
 aliases:
   - Obsidian Flavored Markdown
 ---

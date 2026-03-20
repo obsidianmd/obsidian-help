@@ -1,8 +1,6 @@
 ---
 permalink: sync/messages
-description: >-
-  Cette page explique les icônes d'état d'Obsidian Sync et fournit des détails
-  sur le journal d'activité de synchronisation.
+description: Cette page explique les icônes d'état d'Obsidian Sync et fournit des détails sur le journal d'activité de synchronisation.
 publish: true
 mobile: true
 localized: '2026-03-18'

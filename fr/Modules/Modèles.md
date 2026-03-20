@@ -2,9 +2,7 @@
 permalink: plugins/templates
 cssclasses:
   - soft-embed
-description: >-
-  Modèles est un module principal qui vous permet d'insérer des extraits de
-  texte prédéfinis dans votre note active.
+description: Modèles est un module principal qui vous permet d'insérer des extraits de texte prédéfinis dans votre note active.
 publish: true
 mobile: true
 aliases:

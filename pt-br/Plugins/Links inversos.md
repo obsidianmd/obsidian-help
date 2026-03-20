@@ -2,9 +2,7 @@
 permalink: plugins/backlinks
 publish: true
 mobile: false
-description: >-
-  Com o plugin Links inversos, você pode ver todos os links inversos da nota
-  ativa.
+description: Com o plugin Links inversos, você pode ver todos os links inversos da nota ativa.
 aliases:
   - Plugins/Backlinks
 ---

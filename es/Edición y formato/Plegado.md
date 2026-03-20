@@ -2,9 +2,7 @@
 permalink: folding
 publish: true
 mobile: false
-description: >-
-  Aprende cómo obtener una mejor visión general de notas grandes usando el
-  plegado para ocultar partes de la nota
+description: Aprende cómo obtener una mejor visión general de notas grandes usando el plegado para ocultar partes de la nota
 aliases:
   - How to/Plegable
 ---

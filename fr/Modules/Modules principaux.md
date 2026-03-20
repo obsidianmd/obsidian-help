@@ -3,9 +3,7 @@ permalink: plugins
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: >-
-  Cette page répertorie les plugins principaux installés avec Obsidian, ainsi
-  que les plugins communautaires qu'ils maintiennent également.
+description: Cette page répertorie les plugins principaux installés avec Obsidian, ainsi que les plugins communautaires qu'ils maintiennent également.
 publish: true
 mobile: true
 aliases:

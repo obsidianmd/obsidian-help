@@ -1,9 +1,6 @@
 ---
 permalink: formulas
-description: >-
-  Las fórmulas te permiten crear propiedades calculadas usando datos de otras
-  propiedades. Puedes realizar cálculos, manipular texto, trabajar con fechas y
-  más.
+description: Las fórmulas te permiten crear propiedades calculadas usando datos de otras propiedades. Puedes realizar cálculos, manipular texto, trabajar con fechas y más.
 ---
 Las fórmulas te permiten crear propiedades calculadas en [[Introducción a Bases|Bases]] usando datos de otras [[Propiedades|propiedades]]. Puedes realizar cálculos, manipular texto, trabajar con fechas y más.
 

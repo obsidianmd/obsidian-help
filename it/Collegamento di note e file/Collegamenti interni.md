@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Scopri come collegare note, allegati e altri file dalle tue note, utilizzando
-  i collegamenti interni.
+description: Scopri come collegare note, allegati e altri file dalle tue note, utilizzando i collegamenti interni.
 aliases:
   - Internal links
 ---

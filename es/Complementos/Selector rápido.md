@@ -1,8 +1,6 @@
 ---
 permalink: plugins/quick-switcher
-description: >-
-  El Selector rápido es un complemento principal que te permite buscar y abrir notas
-  usando solo tu teclado.
+description: El Selector rápido es un complemento principal que te permite buscar y abrir notas usando solo tu teclado.
 ---
 El Selector rápido es un [[Complementos principales|complemento principal]] que te permite buscar y abrir notas usando solo tu teclado.
 

@@ -2,9 +2,7 @@
 permalink: syntax
 publish: true
 mobile: true
-description: >-
-  Lerne, wie du grundlegende Formatierungen auf deine Notizen in Obsidian
-  anwendest, unter Verwendung von Markdown.
+description: Lerne, wie du grundlegende Formatierungen auf deine Notizen in Obsidian anwendest, unter Verwendung von Markdown.
 ---
 Lerne, wie du grundlegende Formatierungen auf deine Notizen anwendest, unter Verwendung von [Markdown](https://daringfireball.net/projects/markdown/). Für erweiterte Formatierungssyntax, siehe [[Erweiterte Formatierungssyntax]].
 

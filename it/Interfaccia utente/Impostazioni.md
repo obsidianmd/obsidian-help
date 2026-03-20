@@ -2,9 +2,7 @@
 permalink: settings
 publish: true
 mobile: true
-description: >-
-  Scopri come personalizzare Obsidian attraverso l'interfaccia delle
-  Impostazioni.
+description: Scopri come personalizzare Obsidian attraverso l'interfaccia delle Impostazioni.
 aliases:
   - Settings
 ---

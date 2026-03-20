@@ -2,9 +2,7 @@
 permalink: snippets
 publish: true
 mobile: true
-description: >-
-  Scopri come modificare parti dell'aspetto dell'app Obsidian senza creare un
-  tema completo.
+description: Scopri come modificare parti dell'aspetto dell'app Obsidian senza creare un tema completo.
 aliases:
   - CSS snippets
 ---

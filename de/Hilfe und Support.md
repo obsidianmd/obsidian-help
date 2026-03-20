@@ -2,9 +2,7 @@
 permalink: resources
 publish: true
 mobile: true
-description: >-
-  Finde Support-Ressourcen, melde Sicherheits- oder Community-Verstöße und
-  erfahre, wie du zu Obsidian beitragen kannst.
+description: Finde Support-Ressourcen, melde Sicherheits- oder Community-Verstöße und erfahre, wie du zu Obsidian beitragen kannst.
 ---
 Finde Support-Ressourcen, melde Sicherheits- oder Community-Verstöße und erfahre, wie du zu Obsidian beitragen kannst.
 

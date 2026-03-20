@@ -2,9 +2,7 @@
 permalink: callouts
 publish: true
 mobile: true
-description: >-
-  Questa pagina descrive come utilizzare i riquadri per includere contenuti
-  aggiuntivi senza interrompere il flusso delle note.
+description: Questa pagina descrive come utilizzare i riquadri per includere contenuti aggiuntivi senza interrompere il flusso delle note.
 aliases:
   - Callouts
 ---

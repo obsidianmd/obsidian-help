@@ -2,9 +2,7 @@
 permalink: plugins/file-explorer
 publish: true
 mobile: true
-description: >-
-  Dateiexplorer ist eine integrierte Erweiterung, mit der du Dateien und Ordner
-  in deinem Vault verwalten kannst.
+description: Dateiexplorer ist eine integrierte Erweiterung, mit der du Dateien und Ordner in deinem Vault verwalten kannst.
 ---
 Der Dateiexplorer ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], mit der du Dateien und Ordner in deinem Vault verwalten kannst. Du kannst Notizen und andere [[Akzeptierte Dateiformate]] in deinem Vault durchsuchen und viele gängige Dateioperationen ausführen:
 

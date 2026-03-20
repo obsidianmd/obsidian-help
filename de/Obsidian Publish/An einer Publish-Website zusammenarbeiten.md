@@ -2,9 +2,7 @@
 permalink: publish/collaborate
 publish: true
 mobile: true
-description: >-
-  Erfahre, wie du mit anderen Obsidian-Nutzern auf deiner Obsidian
-  Publish-Website zusammenarbeiten kannst.
+description: Erfahre, wie du mit anderen Obsidian-Nutzern auf deiner Obsidian Publish-Website zusammenarbeiten kannst.
 ---
 Erfahre, wie du auf deiner [[Einführung in Obsidian Publish|Obsidian Publish]]-Website mit anderen Obsidian-Nutzern zusammenarbeiten kannst. Indem du Freunde und Kollegen als Mitarbeiter hinzufügst, können diese Änderungen auf deiner Website veröffentlichen.
 

@@ -2,9 +2,7 @@
 permalink: sync/settings
 publish: true
 mobile: true
-description: >-
-  Diese Seite erklärt die Sync-Einstellungen und hilft dir bei der Auswahl,
-  welche Dateien synchronisiert werden sollen.
+description: Diese Seite erklärt die Sync-Einstellungen und hilft dir bei der Auswahl, welche Dateien synchronisiert werden sollen.
 ---
 Wenn du einen [[Tarife und Speicherlimits#Einen neuen Remote-Tresor erstellen|Remote-Tresor erstellst]] und [[Obsidian Sync einrichten#Mit einem Remote-Tresor verbinden|dich damit verbindest]], wird die integrierte Sync-Erweiterung zum Verwaltungsort für deinen Remote-Tresor.
 

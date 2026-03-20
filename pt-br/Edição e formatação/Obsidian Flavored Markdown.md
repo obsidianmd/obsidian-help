@@ -2,9 +2,7 @@
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true
-description: >-
-  Aprenda sobre o Markdown com sabor Obsidian, incluindo extensões suportadas e
-  como o Markdown interage com elementos HTML.
+description: Aprenda sobre o Markdown com sabor Obsidian, incluindo extensões suportadas e como o Markdown interage com elementos HTML.
 ---
 O Obsidian busca a máxima capacidade sem quebrar nenhum formato existente. Como resultado, utilizamos uma combinação de variantes de [[Sintaxe de formatação básica|Markdown]].
 

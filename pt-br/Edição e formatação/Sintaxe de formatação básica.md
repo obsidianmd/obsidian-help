@@ -2,9 +2,7 @@
 permalink: syntax
 publish: true
 mobile: true
-description: >-
-  Aprenda como aplicar formatação básica às suas notas no Obsidian, usando
-  Markdown.
+description: Aprenda como aplicar formatação básica às suas notas no Obsidian, usando Markdown.
 ---
 Aprenda como aplicar formatação básica às suas notas, usando [Markdown](https://daringfireball.net/projects/markdown/). Para sintaxe de formatação mais avançada, consulte [[Sintaxe de formatação avançada]].
 

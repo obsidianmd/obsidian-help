@@ -4,10 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: >-
-  Las propiedades permiten organizar información sobre una nota. Las propiedades
-  contienen datos estructurados como texto, enlaces, fechas, casillas de
-  verificación y números.
+description: Las propiedades permiten organizar información sobre una nota. Las propiedades contienen datos estructurados como texto, enlaces, fechas, casillas de verificación y números.
 aliases:
   - Advanced topics/Asunto principal de YAML
 ---

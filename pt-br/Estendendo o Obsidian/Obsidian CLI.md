@@ -1,8 +1,6 @@
 ---
 permalink: cli
-description: >-
-  Qualquer coisa que você pode fazer no Obsidian pode ser feita pela linha de
-  comando.
+description: Qualquer coisa que você pode fazer no Obsidian pode ser feita pela linha de comando.
 ---
 O Obsidian CLI é uma interface de linha de comando que permite controlar o Obsidian a partir do seu terminal para scripts, automação e integração com ferramentas externas.
 

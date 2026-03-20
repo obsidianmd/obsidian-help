@@ -4,10 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Du hast Obsidian Sync erworben und möchtest loslegen. Diese Anleitung hilft
-  dir beim Einrichten und Anpassen deiner Obsidian Sync-Einstellungen für den
-  täglichen Gebrauch.
+description: Du hast Obsidian Sync erworben und möchtest loslegen. Diese Anleitung hilft dir beim Einrichten und Anpassen deiner Obsidian Sync-Einstellungen für den täglichen Gebrauch.
 ---
 Du hast Obsidian Sync erworben und möchtest loslegen. Diese Anleitung hilft dir beim Einrichten und Anpassen deiner Obsidian Sync-Einstellungen für den täglichen Gebrauch.
 

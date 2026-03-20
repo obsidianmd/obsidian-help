@@ -1,8 +1,6 @@
 ---
 permalink: pop-out-windows
-description: >-
-  Découvrez comment ouvrir des fichiers dans des fenêtres contextuelles
-  séparées.
+description: Découvrez comment ouvrir des fichiers dans des fenêtres contextuelles séparées.
 localized: '2026-03-18'
 
 ---

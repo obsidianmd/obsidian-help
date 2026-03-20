@@ -2,9 +2,7 @@
 permalink: plugins/format-converter
 publish: true
 mobile: true
-description: >-
-  Strumento importazione Markdown è un plugin principale che consente di
-  convertire il Markdown da altre applicazioni al formato Obsidian.
+description: Strumento importazione Markdown è un plugin principale che consente di convertire il Markdown da altre applicazioni al formato Obsidian.
 aliases:
   - Format converter
 ---

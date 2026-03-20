@@ -5,9 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: >-
-  Esta página lista los complementos principales que vienen instalados con
-  Obsidian, y los complementos de la comunidad que también mantienen.
+description: Esta página lista los complementos principales que vienen instalados con Obsidian, y los complementos de la comunidad que también mantienen.
 aliases:
   - Plugins/Lista de complementos
 ---

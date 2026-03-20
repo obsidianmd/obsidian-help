@@ -4,10 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: >-
-  Propriedades permitem organizar informações sobre uma nota. Propriedades
-  contêm dados estruturados como texto, links, datas, caixas de seleção e
-  números.
+description: Propriedades permitem organizar informações sobre uma nota. Propriedades contêm dados estruturados como texto, links, datas, caixas de seleção e números.
 ---
 Propriedades permitem organizar informações sobre uma nota. Propriedades contêm dados estruturados como texto, links, datas, caixas de seleção e números. Propriedades também podem ser usadas em combinação com [[Plugins da comunidade]] que podem fazer coisas úteis com seus dados estruturados.
 

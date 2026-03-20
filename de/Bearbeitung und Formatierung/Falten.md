@@ -2,9 +2,7 @@
 permalink: folding
 publish: true
 mobile: false
-description: >-
-  Erfahren Sie, wie Sie durch Aus-/Einklappen Teile einer Notiz ausblenden
-  können, um einen besseren Überblick über große Notizen zu erhalten
+description: Erfahren Sie, wie Sie durch Aus-/Einklappen Teile einer Notiz ausblenden können, um einen besseren Überblick über große Notizen zu erhalten
 ---
 Erfahren Sie, wie Sie durch _Aus-/Einklappen_ Teile einer Notiz ausblenden können, um einen besseren Überblick über große Notizen zu erhalten. Das Aus-/Einklappen ist nützlich, wenn Sie Gliederungen für Ihre Notizen erstellen und sich auf das konzentrieren möchten, woran Sie gerade arbeiten.
 

@@ -5,10 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: >-
-  Diese Seite listet die integrierten Erweiterungen auf, die mit Obsidian
-  vorinstalliert sind, sowie Community-Erweiterungen, die ebenfalls vom Team
-  gepflegt werden.
+description: Diese Seite listet die integrierten Erweiterungen auf, die mit Obsidian vorinstalliert sind, sowie Community-Erweiterungen, die ebenfalls vom Team gepflegt werden.
 ---
 Diese Seite listet die integrierten Erweiterungen auf, die mit Obsidian vorinstalliert sind. Integrierte Erweiterungen werden offiziell vom Obsidian-Team entwickelt und unterstützt und sind in der Anwendung enthalten.
 

@@ -1,8 +1,6 @@
 ---
 permalink: obsidian-flavored-markdown
-description: >-
-  Découvrez le Markdown à la sauce Obsidian, y compris les extensions prises en
-  charge et la manière dont le Markdown interagit avec les éléments HTML.
+description: Découvrez le Markdown à la sauce Obsidian, y compris les extensions prises en charge et la manière dont le Markdown interagit avec les éléments HTML.
 publish: true
 mobile: true
 localized: '2026-03-18'

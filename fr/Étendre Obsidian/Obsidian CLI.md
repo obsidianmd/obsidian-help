@@ -1,8 +1,6 @@
 ---
 permalink: cli
-description: >-
-  Tout ce que vous pouvez faire dans Obsidian peut être fait depuis la ligne de
-  commande.
+description: Tout ce que vous pouvez faire dans Obsidian peut être fait depuis la ligne de commande.
 localized: '2026-03-18'
 aliases:
   - Obsidian

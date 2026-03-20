@@ -2,9 +2,7 @@
 permalink: community-code-of-conduct
 publish: true
 mobile: true
-description: >-
-  Esta página detalha as regras que se aplicam a todos os espaços da comunidade
-  Obsidian.
+description: Esta página detalha as regras que se aplicam a todos os espaços da comunidade Obsidian.
 ---
 ## As regras
 

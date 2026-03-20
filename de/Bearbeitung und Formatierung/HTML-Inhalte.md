@@ -2,9 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: >-
-  Erfahre, wie du HTML in Obsidian verwenden kannst, einschließlich
-  Einschränkungen beim Markdown-Rendering und Anforderungen an HTML-Blöcke.
+description: Erfahre, wie du HTML in Obsidian verwenden kannst, einschließlich Einschränkungen beim Markdown-Rendering und Anforderungen an HTML-Blöcke.
 ---
 Obsidian unterstützt HTML, damit du deine Notizen nach deinen Wünschen gestalten oder sogar [[Webseiten einbetten|Webseiten einbetten]] kannst. Die Verwendung von HTML in deinen Notizen birgt Risiken. Um zu verhindern, dass bösartiger Code Schaden anrichtet, _bereinigt_ Obsidian jegliches HTML in deinen Notizen.
 

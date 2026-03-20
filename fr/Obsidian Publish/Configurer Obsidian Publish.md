@@ -1,8 +1,6 @@
 ---
 permalink: publish/setup
-description: >-
-  Dans ce guide, vous activerez Obsidian Publish pour votre coffre, créerez un
-  site et y publierez vos notes.
+description: Dans ce guide, vous activerez Obsidian Publish pour votre coffre, créerez un site et y publierez vos notes.
 mobile: true
 localized: '2026-03-18'
 

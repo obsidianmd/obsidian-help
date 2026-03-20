@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Ha comprado Obsidian Sync y está listo para comenzar. Esta guía le ayudará a
-  configurar y ajustar los ajustes de Obsidian Sync para su uso diario.
+description: Ha comprado Obsidian Sync y está listo para comenzar. Esta guía le ayudará a configurar y ajustar los ajustes de Obsidian Sync para su uso diario.
 ---
 Ha comprado Obsidian Sync y está listo para comenzar. Esta guía le ayudará a configurar y ajustar los ajustes de Obsidian Sync para su uso diario.
 

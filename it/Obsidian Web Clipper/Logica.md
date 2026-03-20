@@ -1,8 +1,6 @@
 ---
 permalink: web-clipper/logic
-description: >-
-  Usa condizionali, cicli e assegnazione di variabili nei modelli di Web
-  Clipper.
+description: Usa condizionali, cicli e assegnazione di variabili nei modelli di Web Clipper.
 aliases:
   - Logic
 ---

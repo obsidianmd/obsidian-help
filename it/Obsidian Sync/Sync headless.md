@@ -2,11 +2,7 @@
 permalink: sync/headless
 cssclasses:
   - reference
-description: >-
-  Obsidian Sync offre un client headless per sincronizzare le cassaforti senza
-  utilizzare l'app desktop. Utile per pipeline CI, agenti e flussi di lavoro
-  automatizzati. Sincronizza le ultime modifiche o mantieni i file costantemente
-  aggiornati.
+description: Obsidian Sync offre un client headless per sincronizzare le cassaforti senza utilizzare l'app desktop. Utile per pipeline CI, agenti e flussi di lavoro automatizzati. Sincronizza le ultime modifiche o mantieni i file costantemente aggiornati.
 aliases:
   - Headless Sync
 ---

@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Mova seu cofre Sync para uma região diferente, realize uma atualização de
-  criptografia.
+description: Mova seu cofre Sync para uma região diferente, realize uma atualização de criptografia.
 ---
 Por padrão, o Obsidian Sync utiliza [[Segurança e privacidade#Criptografia|criptografia de ponta a ponta]] para todos os seus dados. Isso garante que ninguém — nem mesmo a equipe do Obsidian — possa acessar suas notas.
 

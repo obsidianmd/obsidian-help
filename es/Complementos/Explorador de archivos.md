@@ -2,9 +2,7 @@
 permalink: plugins/file-explorer
 publish: true
 mobile: true
-description: >-
-  Explorador de archivos es un complemento principal que te permite gestionar
-  archivos y carpetas dentro de tu bóveda.
+description: Explorador de archivos es un complemento principal que te permite gestionar archivos y carpetas dentro de tu bóveda.
 aliases:
   - Plugins/Explorador de archivos
 ---

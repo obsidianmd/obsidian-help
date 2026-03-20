@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Sposta il tuo vault Sync in una regione diversa ed esegui un aggiornamento
-  della crittografia.
+description: Sposta il tuo vault Sync in una regione diversa ed esegui un aggiornamento della crittografia.
 aliases:
   - Upgrade Sync encryption
 ---

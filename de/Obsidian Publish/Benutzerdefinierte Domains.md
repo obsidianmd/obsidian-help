@@ -1,9 +1,7 @@
 ---
 permalink: publish/domains
 mobile: true
-description: >-
-  Du kannst eine eigene Domain oder Subdomain für deine Obsidian Publish-Website
-  einrichten.
+description: Du kannst eine eigene Domain oder Subdomain für deine Obsidian Publish-Website einrichten.
 ---
 Du kannst eine eigene Domain oder Subdomain für deine [[Einführung in Obsidian Publish|Obsidian Publish]]-Website einrichten.
 

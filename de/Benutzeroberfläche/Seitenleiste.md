@@ -2,9 +2,7 @@
 permalink: sidebar
 publish: true
 mobile: true
-description: >-
-  Erfahre mehr über die linke und rechte Seitenleiste in Obsidian und wie du
-  Tabs und Tab-Gruppen verwaltest.
+description: Erfahre mehr über die linke und rechte Seitenleiste in Obsidian und wie du Tabs und Tab-Gruppen verwaltest.
 ---
 Obsidian hat zwei Seitenleisten: eine linke und eine rechte Seitenleiste. Seitenleisten enthalten Tabs, die von Erweiterungen erstellt werden, wie [[Rückverweise]], [[Ausgehende Links]] und der [[Dateiexplorer]]. Auf dem Desktop kannst du auch Notizen in die Seitenleiste ziehen, damit sie neben deinem Haupteditor sichtbar bleiben.
 

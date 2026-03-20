@@ -1,8 +1,6 @@
 ---
 permalink: headless
-description: >-
-  Obsidian Headless ist ein Kommandozeilen-Client für Obsidian-Dienste.
-  Synchronisiere deine Vaults ohne die Desktop-App.
+description: Obsidian Headless ist ein Kommandozeilen-Client für Obsidian-Dienste. Synchronisiere deine Vaults ohne die Desktop-App.
 ---
 Obsidian Headless **(offene Beta)** ist ein Headless-Client für Obsidian-Dienste. Es ermöglicht dir, [[Headless Sync|Vaults zu synchronisieren]] über die Kommandozeile ohne die Desktop-App, mit allen Vorteilen von Geschwindigkeit, Datenschutz und Ende-zu-Ende-Verschlüsselung von [[Einführung in Obsidian Sync|Obsidian Sync]].
 

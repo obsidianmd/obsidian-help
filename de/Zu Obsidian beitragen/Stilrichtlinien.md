@@ -2,9 +2,7 @@
 permalink: style-guide
 publish: true
 mobile: true
-description: >-
-  Diese Seite erklärt die Stilrichtlinien für das Verfassen unserer
-  Support-Dokumentation.
+description: Diese Seite erklärt die Stilrichtlinien für das Verfassen unserer Support-Dokumentation.
 ---
 Die Obsidian-Dokumentation folgt den auf dieser Seite aufgeführten Stilrichtlinien. Diese Richtlinien basieren auf branchenüblichen Best Practices, insbesondere dem [Google Developer Documentation Style Guide](<https://developers.google.com/style>) und dem [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/). Für Grenzfälle, die nachfolgend nicht abgedeckt werden, nutzen Sie diese externen Leitfäden als sekundäre Referenz.
 

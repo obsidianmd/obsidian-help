@@ -2,9 +2,7 @@
 permalink: bases/functions
 publish: true
 mobile: true
-description: >-
-  Questa pagina descrive le funzioni utilizzate in Obsidian Base per manipolare
-  i dati dalle proprietà nei filtri e nelle formule.
+description: Questa pagina descrive le funzioni utilizzate in Obsidian Base per manipolare i dati dalle proprietà nei filtri e nelle formule.
 aliases:
   - Functions
 ---

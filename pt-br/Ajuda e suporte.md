@@ -2,9 +2,7 @@
 permalink: resources
 publish: true
 mobile: true
-description: >-
-  Encontre recursos de suporte, reporte violações de segurança ou da comunidade
-  e saiba como contribuir para o Obsidian.
+description: Encontre recursos de suporte, reporte violações de segurança ou da comunidade e saiba como contribuir para o Obsidian.
 aliases:
   - Ajuda e suporte
 ---

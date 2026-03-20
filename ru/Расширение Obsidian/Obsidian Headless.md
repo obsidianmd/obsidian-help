@@ -1,8 +1,6 @@
 ---
 permalink: headless
-description: >-
-  Obsidian Headless — клиент командной строки для сервисов Obsidian.
-  Синхронизируйте хранилища без настольного приложения.
+description: Obsidian Headless — клиент командной строки для сервисов Obsidian. Синхронизируйте хранилища без настольного приложения.
 aliases:
   - Obsidian Headless
 ---

@@ -1,8 +1,6 @@
 ---
 permalink: web-clipper/logic
-description: >-
-  Verwende Bedingungen, Schleifen und Variablenzuweisungen in Web
-  Clipper-Vorlagen.
+description: Verwende Bedingungen, Schleifen und Variablenzuweisungen in Web Clipper-Vorlagen.
 ---
 [[Einführung in Obsidian Web Clipper|Web Clipper]] unterstützt Vorlagenlogik für Bedingungen, Schleifen und Variablenzuweisungen. Diese Syntax ist inspiriert von den Vorlagensprachen [Twig](https://twig.symfony.com/) und [Liquid](https://shopify.github.io/liquid/).
 

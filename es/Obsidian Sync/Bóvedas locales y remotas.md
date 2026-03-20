@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Esta página describe las diferencias entre bóvedas locales y remotas en la
-  práctica.
+description: Esta página describe las diferencias entre bóvedas locales y remotas en la práctica.
 ---
 Si deseas usar tus notas en diferentes dispositivos, una de las opciones que tienes es [[Sincronizar notas entre dispositivos]]. Obsidian ofrece un servicio de este tipo, [[Introducción a Obsidian Sync|Obsidian Sync]], que funciona de manera diferente a otros servicios de sincronización, como [[Sincronizar notas entre dispositivos#iCloud|iCloud]] y [[Sincronizar notas entre dispositivos#OneDrive|OneDrive]].
 

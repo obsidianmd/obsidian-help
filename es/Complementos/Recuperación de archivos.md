@@ -2,10 +2,7 @@
 permalink: plugins/file-recovery
 publish: true
 mobile: true
-description: >-
-  La Recuperación de archivos ayuda a proteger tu trabajo de la pérdida
-  involuntaria de datos guardando automáticamente instantáneas de tus notas a
-  intervalos regulares.
+description: La Recuperación de archivos ayuda a proteger tu trabajo de la pérdida involuntaria de datos guardando automáticamente instantáneas de tus notas a intervalos regulares.
 ---
 La recuperación de archivos es un [[Complementos principales|complemento principal]] que protege tu trabajo de eliminaciones accidentales, corrupción de archivos o cambios no deseados al guardar automáticamente instantáneas completas de tus notas a intervalos regulares. La recuperación de archivos no es una solución de respaldo completa, y recomendamos también [[Respaldar tus archivos de Obsidian|respaldar]] tus archivos de Obsidian por separado.
 

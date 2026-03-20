@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Você adquiriu o Obsidian Sync e está pronto para começar. Este guia ajudará
-  você a configurar e ajustar as configurações do Obsidian Sync para uso diário.
+description: Você adquiriu o Obsidian Sync e está pronto para começar. Este guia ajudará você a configurar e ajustar as configurações do Obsidian Sync para uso diário.
 aliases:
   - Obsidian Sync/Configurar Obsidian Sync
   - Obsidian Sync/Configure o Obsidian Sync em outro dispositivo

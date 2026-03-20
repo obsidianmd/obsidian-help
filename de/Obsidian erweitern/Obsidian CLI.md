@@ -1,8 +1,6 @@
 ---
 permalink: cli
-description: >-
-  Alles, was du in Obsidian tun kannst, lässt sich auch über die Befehlszeile
-  erledigen.
+description: Alles, was du in Obsidian tun kannst, lässt sich auch über die Befehlszeile erledigen.
 ---
 Obsidian CLI ist eine Befehlszeilenschnittstelle, mit der du Obsidian von deinem Terminal aus steuern kannst – für Skripte, Automatisierung und Integration mit externen Werkzeugen.
 

@@ -1,8 +1,6 @@
 ---
 permalink: community-code-of-conduct
-description: >-
-  Cette page détaille les règles qui s'appliquent à tous les espaces
-  communautaires d'Obsidian.
+description: Cette page détaille les règles qui s'appliquent à tous les espaces communautaires d'Obsidian.
 publish: true
 mobile: true
 localized: '2026-03-18'

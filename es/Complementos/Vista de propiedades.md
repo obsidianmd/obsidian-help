@@ -2,9 +2,7 @@
 permalink: plugins/properties
 publish: true
 mobile: true
-description: >-
-  Vista de propiedades es un complemento principal que añade dos vistas en la barra
-  lateral que puedes usar para gestionar Propiedades.
+description: Vista de propiedades es un complemento principal que añade dos vistas en la barra lateral que puedes usar para gestionar Propiedades.
 ---
 Vista de propiedades es un [[Complementos principales|complemento principal]] que añade dos vistas en la barra lateral que puedes usar para gestionar [[Propiedades]]:
 

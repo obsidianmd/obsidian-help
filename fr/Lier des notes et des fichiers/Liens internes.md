@@ -2,9 +2,7 @@
 permalink: links
 cssclasses:
   - soft-embed
-description: >-
-  Apprenez à créer des liens vers des notes, des pièces jointes et d'autres
-  fichiers depuis vos notes, à l'aide de liens internes.
+description: Apprenez à créer des liens vers des notes, des pièces jointes et d'autres fichiers depuis vos notes, à l'aide de liens internes.
 publish: true
 mobile: true
 aliases:

@@ -1,8 +1,6 @@
 ---
 permalink: workspace
-description: >-
-  Découvrez l'espace de travail d'Obsidian et ses composants principaux sur
-  ordinateur et mobile.
+description: Découvrez l'espace de travail d'Obsidian et ses composants principaux sur ordinateur et mobile.
 publish: true
 mobile: true
 aliases:

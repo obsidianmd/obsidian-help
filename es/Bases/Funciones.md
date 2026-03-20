@@ -2,9 +2,7 @@
 permalink: bases/functions
 publish: true
 mobile: true
-description: >-
-  Esta página detalla las funciones utilizadas en Obsidian Bases para manipular
-  datos de propiedades en filtros y fórmulas.
+description: Esta página detalla las funciones utilizadas en Obsidian Bases para manipular datos de propiedades en filtros y fórmulas.
 ---
 Las funciones se utilizan en [[Introducción a Bases|Bases]] para manipular datos de [[Propiedades|propiedades]] en [[Vistas#Filtros|filtros]] y [[Fórmulas|fórmulas]]. Consulta la referencia de [[Sintaxis de Bases|sintaxis de Bases]] para aprender más sobre cómo puedes usar las funciones.
 

@@ -2,9 +2,7 @@
 permalink: plugins/properties
 publish: true
 mobile: true
-description: >-
-  Ver propriedades é um plugin nativo que adiciona duas visualizações na barra
-  lateral que você pode usar para administrar Propriedades.
+description: Ver propriedades é um plugin nativo que adiciona duas visualizações na barra lateral que você pode usar para administrar Propriedades.
 ---
 Ver propriedades é um [[Plugins nativos|plugin nativo]] que adiciona duas visualizações na barra lateral que você pode usar para administrar [[Propriedades]]:
 

@@ -2,9 +2,7 @@
 permalink: ribbon
 publish: true
 mobile: true
-description: >-
-  Scopri come usare la barra degli strumenti, uno spazio per i comandi comuni in
-  Obsidian, e come personalizzarla su desktop e mobile.
+description: Scopri come usare la barra degli strumenti, uno spazio per i comandi comuni in Obsidian, e come personalizzarla su desktop e mobile.
 aliases:
   - Ribbon
 ---

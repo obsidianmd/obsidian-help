@@ -3,10 +3,7 @@ permalink: bases
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: >-
-  Crie visualizações semelhantes a bancos de dados das suas notas, formatadas
-  como tabelas ou cartões. Edite, ordene e filtre arquivos usando suas
-  propriedades.
+description: Crie visualizações semelhantes a bancos de dados das suas notas, formatadas como tabelas ou cartões. Edite, ordene e filtre arquivos usando suas propriedades.
 ---
 Bases é um [[Plugins nativos|plugin nativo]] que permite criar visualizações semelhantes a bancos de dados das suas notas. Usando uma base, você pode visualizar, editar, ordenar e filtrar arquivos e suas [[Propriedades|propriedades]]. Bases pode ajudar a organizar tudo, desde projetos até planos de viagem, listas de leitura e muito mais.
 

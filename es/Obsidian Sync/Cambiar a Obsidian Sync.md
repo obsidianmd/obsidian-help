@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Aprende cómo hacer la transición desde tu solución de sincronización actual a
-  Obsidian Sync.
+description: Aprende cómo hacer la transición desde tu solución de sincronización actual a Obsidian Sync.
 ---
 Aprende cómo hacer la transición desde tu solución de sincronización actual a Obsidian Sync.
 

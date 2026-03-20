@@ -2,11 +2,7 @@
 permalink: sync/headless
 cssclasses:
   - reference
-description: >-
-  Obsidian Sync ofrece un cliente sin interfaz gráfica para sincronizar bóvedas
-  sin usar la aplicación de escritorio. Útil para pipelines de CI, agentes y
-  flujos de trabajo automatizados. Sincroniza los últimos cambios o mantén los
-  archivos continuamente actualizados.
+description: Obsidian Sync ofrece un cliente sin interfaz gráfica para sincronizar bóvedas sin usar la aplicación de escritorio. Útil para pipelines de CI, agentes y flujos de trabajo automatizados. Sincroniza los últimos cambios o mantén los archivos continuamente actualizados.
 ---
 [[Introducción a Obsidian Sync|Obsidian Sync]] ofrece un cliente sin interfaz gráfica para sincronizar bóvedas sin usar la aplicación de escritorio. Útil para pipelines de CI, agentes y flujos de trabajo automatizados. Sincroniza los últimos cambios o mantén los archivos continuamente actualizados.
 

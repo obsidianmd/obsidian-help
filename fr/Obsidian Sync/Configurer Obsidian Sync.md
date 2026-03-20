@@ -2,10 +2,7 @@
 permalink: sync/setup
 cssclasses:
   - soft-embed
-description: >-
-  Vous avez acheté Obsidian Sync et êtes prêt à commencer. Ce guide vous aidera
-  à configurer et ajuster vos paramètres Obsidian Sync pour une utilisation
-  quotidienne.
+description: Vous avez acheté Obsidian Sync et êtes prêt à commencer. Ce guide vous aidera à configurer et ajuster vos paramètres Obsidian Sync pour une utilisation quotidienne.
 publish: true
 mobile: true
 localized: '2026-03-18'

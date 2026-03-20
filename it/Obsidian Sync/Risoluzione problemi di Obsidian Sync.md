@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Questa pagina elenca problemi non comuni che potresti riscontrare con Obsidian
-  Sync e come risolverli.
+description: Questa pagina elenca problemi non comuni che potresti riscontrare con Obsidian Sync e come risolverli.
 aliases:
   - Troubleshoot Obsidian Sync
 ---

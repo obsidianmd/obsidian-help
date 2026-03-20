@@ -1,8 +1,6 @@
 ---
 permalink: sync/settings
-description: >-
-  Cette page explique les paramètres de Sync et vous guide dans le choix des
-  fichiers à synchroniser.
+description: Cette page explique les paramètres de Sync et vous guide dans le choix des fichiers à synchroniser.
 publish: true
 mobile: true
 localized: '2026-03-18'

@@ -1,8 +1,6 @@
 ---
 permalink: web-clipper/templates
-description: >-
-  Apprenez à créer des modèles qui capturent et organisent automatiquement les
-  métadonnées des pages web avec Web Clipper.
+description: Apprenez à créer des modèles qui capturent et organisent automatiquement les métadonnées des pages web avec Web Clipper.
 aliases:
   - Modules/Web Clipper/Créer des templates
 localized: '2026-03-18'

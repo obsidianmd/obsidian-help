@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Aprenda como criar links para notas, anexos e outros arquivos a partir das
-  suas notas, usando links internos.
+description: Aprenda como criar links para notas, anexos e outros arquivos a partir das suas notas, usando links internos.
 aliases:
   - Vinculando notas e arquivos/Links internos
 ---

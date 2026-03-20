@@ -1,8 +1,6 @@
 ---
 permalink: plugins/quick-switcher
-description: >-
-  Navegação rápida é um plugin nativo que permite pesquisar e abrir notas usando
-  apenas o teclado.
+description: Navegação rápida é um plugin nativo que permite pesquisar e abrir notas usando apenas o teclado.
 ---
 Navegação rápida é um [[Plugins nativos|plugin nativo]] que permite pesquisar e abrir notas usando apenas o teclado.
 

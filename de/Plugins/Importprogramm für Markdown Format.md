@@ -2,10 +2,7 @@
 permalink: plugins/format-converter
 publish: true
 mobile: true
-description: >-
-  Das Importprogramm für Markdown Format ist eine integrierte Erweiterung, mit
-  der du Markdown aus anderen Anwendungen in das Obsidian-Format konvertieren
-  kannst.
+description: Das Importprogramm für Markdown Format ist eine integrierte Erweiterung, mit der du Markdown aus anderen Anwendungen in das Obsidian-Format konvertieren kannst.
 ---
 Das Importprogramm für Markdown Format ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], mit der du Markdown aus anderen Anwendungen in das Obsidian-Format konvertieren kannst. Außerdem ermöglicht es dir, bestimmte [[Eigenschaften]] in neue erforderliche Formate zu konvertieren.
 

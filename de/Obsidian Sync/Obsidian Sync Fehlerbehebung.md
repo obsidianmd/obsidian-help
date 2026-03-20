@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Diese Seite listet seltene Probleme auf, die bei Obsidian Sync auftreten
-  können, und erklärt, wie sie behoben werden.
+description: Diese Seite listet seltene Probleme auf, die bei Obsidian Sync auftreten können, und erklärt, wie sie behoben werden.
 ---
 Diese Seite listet seltene Probleme auf, die bei [[Einführung in Obsidian Sync|Obsidian Sync]] auftreten können, und erklärt, wie sie behoben werden. Bevor Sie fortfahren, empfehlen wir, die Seiten [[Statussymbol und Meldungen]] und [[Häufig gestellte Fragen]] zu lesen.
 

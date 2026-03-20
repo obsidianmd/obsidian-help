@@ -1,8 +1,6 @@
 ---
 permalink: plugins/backlinks
-description: >-
-  Avec le module Rétroliens, vous pouvez voir tous les liens retour de la note
-  active.
+description: Avec le module Rétroliens, vous pouvez voir tous les liens retour de la note active.
 publish: true
 mobile: false
 aliases:

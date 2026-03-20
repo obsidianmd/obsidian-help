@@ -2,9 +2,7 @@
 permalink: configuration-folder
 publish: true
 mobile: true
-description: >-
-  Aprende cómo acceder y gestionar tu carpeta de configuración en dispositivos
-  de escritorio y móviles.
+description: Aprende cómo acceder y gestionar tu carpeta de configuración en dispositivos de escritorio y móviles.
 ---
 La carpeta de configuración de Obsidian contiene todos los archivos de ajustes pertenecientes a tu [[Gestionar bóvedas|bóveda]].
 

@@ -2,9 +2,7 @@
 permalink: plugins/outgoing-links
 publish: true
 mobile: false
-description: >-
-  Collegamenti in uscita è un plugin principale che mostra a colpo d'occhio i
-  collegamenti dalla nota attiva, così come i potenziali collegamenti da creare.
+description: Collegamenti in uscita è un plugin principale che mostra a colpo d'occhio i collegamenti dalla nota attiva, così come i potenziali collegamenti da creare.
 aliases:
   - Outgoing links
 ---

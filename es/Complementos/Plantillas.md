@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Plantillas es un complemento principal que te permite insertar fragmentos de
-  texto predefinidos en tu nota activa.
+description: Plantillas es un complemento principal que te permite insertar fragmentos de texto predefinidos en tu nota activa.
 aliases:
   - Plugins/Plantillas
 ---

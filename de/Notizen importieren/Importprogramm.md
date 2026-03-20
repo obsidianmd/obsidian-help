@@ -5,9 +5,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Das Importprogramm hilft beim Migrieren zu Obsidian aus verschiedenen Apps und
-  Formaten.
+description: Das Importprogramm hilft beim Migrieren zu Obsidian aus verschiedenen Apps und Formaten.
 ---
 Das Importprogramm hilft beim Migrieren zu Obsidian aus verschiedenen Apps und Formaten. Weitere Details finden Sie im Leitfaden [[Notizen importieren]].
 

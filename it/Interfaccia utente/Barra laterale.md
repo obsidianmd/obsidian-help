@@ -2,9 +2,7 @@
 permalink: sidebar
 publish: true
 mobile: true
-description: >-
-  Scopri le barre laterali sinistra e destra di Obsidian e come gestire schede e
-  gruppi di schede.
+description: Scopri le barre laterali sinistra e destra di Obsidian e come gestire schede e gruppi di schede.
 aliases:
   - Sidebar
 ---

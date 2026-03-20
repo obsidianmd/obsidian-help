@@ -4,9 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: >-
-  Vorlagen ist eine Obsidian-Erweiterungen|integrierte Erweiterung, mit der du
-  vordefinierte Textbausteine in deine aktive Notiz einfügen kannst.
+description: Vorlagen ist eine Obsidian-Erweiterungen|integrierte Erweiterung, mit der du vordefinierte Textbausteine in deine aktive Notiz einfügen kannst.
 ---
 Vorlagen ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], mit der du vordefinierte Textbausteine in deine aktive Notiz einfügen kannst.
 

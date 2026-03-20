@@ -1,9 +1,7 @@
 ---
 permalink: publish/setup
 mobile: true
-description: >-
-  В этом руководстве вы включите Obsidian Publish для вашего хранилища,
-  создадите сайт и опубликуете на нём свои заметки.
+description: В этом руководстве вы включите Obsidian Publish для вашего хранилища, создадите сайт и опубликуете на нём свои заметки.
 aliases:
   - Set up Obsidian Publish
 ---

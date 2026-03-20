@@ -2,9 +2,7 @@
 permalink: workspace
 publish: true
 mobile: true
-description: >-
-  Aprende sobre el espacio de trabajo de Obsidian y sus componentes principales
-  en escritorio y móvil.
+description: Aprende sobre el espacio de trabajo de Obsidian y sus componentes principales en escritorio y móvil.
 aliases:
   - Panes/Panel vinculado
 ---

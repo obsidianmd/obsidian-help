@@ -1,8 +1,6 @@
 ---
 permalink: web-clipper/logic
-description: >-
-  Usa condicionales, bucles y asignación de variables en las plantillas de Web
-  Clipper.
+description: Usa condicionales, bucles y asignación de variables en las plantillas de Web Clipper.
 ---
 [[Introducción a Obsidian Web Clipper|Web Clipper]] soporta lógica de plantillas para condicionales, bucles y asignación de variables. Esta sintaxis está inspirada en los lenguajes de plantillas [Twig](https://twig.symfony.com/) y [Liquid](https://shopify.github.io/liquid/).
 

@@ -3,9 +3,7 @@ permalink: plugins/importer
 cssclasses:
   - list-cards
   - soft-embed
-description: >-
-  Importer vous aide à migrer vers Obsidian depuis diverses applications et
-  formats.
+description: Importer vous aide à migrer vers Obsidian depuis diverses applications et formats.
 publish: true
 mobile: true
 aliases:

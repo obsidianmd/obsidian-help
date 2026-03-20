@@ -2,10 +2,7 @@
 permalink: plugins/search
 publish: true
 mobile: true
-description: >-
-  La Ricerca è un plugin principale che ti aiuta a trovare dati nella tua
-  cassaforte Obsidian utilizzando termini di ricerca e operatori per restringere
-  i risultati.
+description: La Ricerca è un plugin principale che ti aiuta a trovare dati nella tua cassaforte Obsidian utilizzando termini di ricerca e operatori per restringere i risultati.
 aliases:
   - Search
 ---

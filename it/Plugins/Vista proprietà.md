@@ -2,9 +2,7 @@
 permalink: plugins/properties
 publish: true
 mobile: true
-description: >-
-  Vista proprietà è un plugin principale che aggiunge due viste nella barra
-  laterale che puoi utilizzare per gestire le Proprietà.
+description: Vista proprietà è un plugin principale che aggiunge due viste nella barra laterale che puoi utilizzare per gestire le Proprietà.
 aliases:
   - Properties view
 ---

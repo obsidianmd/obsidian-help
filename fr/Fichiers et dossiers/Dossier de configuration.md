@@ -1,8 +1,6 @@
 ---
 permalink: configuration-folder
-description: >-
-  Découvrez comment accéder à votre dossier de configuration et le gérer sur les
-  appareils de bureau et mobiles.
+description: Découvrez comment accéder à votre dossier de configuration et le gérer sur les appareils de bureau et mobiles.
 publish: true
 mobile: true
 localized: '2026-03-18'

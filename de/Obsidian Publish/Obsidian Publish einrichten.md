@@ -1,9 +1,7 @@
 ---
 permalink: publish/setup
 mobile: true
-description: >-
-  In dieser Anleitung aktivierst du Obsidian Publish für deinen Vault, erstellst
-  eine Website und veröffentlichst deine Notizen darauf.
+description: In dieser Anleitung aktivierst du Obsidian Publish für deinen Vault, erstellst eine Website und veröffentlichst deine Notizen darauf.
 ---
 In dieser Anleitung aktivierst du [[Einführung in Obsidian Publish|Obsidian Publish]] für deinen Vault, erstellst eine Website und veröffentlichst deine Notizen darauf.
 
