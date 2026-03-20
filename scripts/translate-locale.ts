@@ -148,7 +148,9 @@ function loadGlossary(termsPath: string, langCode: string): Glossary {
   const primary: Record<string, string> = {};
 
   if (!fs.existsSync(termsPath)) {
-    console.warn(`  [warn] terms.txt not found at ${termsPath}, skipping primary glossary`);
+    console.error(`terms.txt not found at ${termsPath}`);
+    console.error("The obsidian-translations repo must be a sibling directory: ../obsidian-translations/");
+    process.exit(1);
   } else {
     let section = "";
     for (const line of fs.readFileSync(termsPath, "utf8").split("\n")) {
@@ -182,6 +184,24 @@ function loadGlossary(termsPath: string, langCode: string): Glossary {
       if (k === "original") { original = v.toLowerCase(); }
       else if (k === "translation" && v && original && !primary[original]) {
         supplementary.set(original, v);
+      }
+    }
+  }
+
+  // --- Supplementary: obsidian-clipper _locales/{langCode}/messages.json ---
+  // Maps lowercased English message text to the locale translation.
+  const CLIPPER_LOCALE_MAP: Record<string, string> = { zh: "zh_CN", "pt-br": "pt_BR" };
+  const clipperLangCode = CLIPPER_LOCALE_MAP[langCode] ?? langCode;
+  const clipperFile = path.resolve(path.dirname(termsPath), `../obsidian-clipper/src/_locales/${clipperLangCode}/messages.json`);
+  const clipperEnFile = path.resolve(path.dirname(termsPath), `../obsidian-clipper/src/_locales/en/messages.json`);
+  if (fs.existsSync(clipperFile) && fs.existsSync(clipperEnFile)) {
+    const clipperLocale = JSON.parse(fs.readFileSync(clipperFile, "utf8")) as Record<string, { message: string }>;
+    const clipperEn = JSON.parse(fs.readFileSync(clipperEnFile, "utf8")) as Record<string, { message: string }>;
+    for (const [key, enEntry] of Object.entries(clipperEn)) {
+      const enText = enEntry.message?.toLowerCase();
+      const localeEntry = clipperLocale[key];
+      if (enText && localeEntry?.message && !primary[enText] && !supplementary.has(enText)) {
+        supplementary.set(enText, localeEntry.message);
       }
     }
   }
@@ -561,7 +581,11 @@ async function main() {
     : path.resolve(ROOT, "../obsidian-translations/terms.txt");
 
   const glossary = loadGlossary(termsPath, locale);
-  console.log(`Loaded glossary (${glossary.fixed.split("\n").filter(Boolean).length} primary + ${glossary.supplementary.size} supplementary terms)`);
+  const CLIPPER_DISPLAY_MAP: Record<string, string> = { zh: "zh_CN", "pt-br": "pt_BR" };
+  const clipperDisplayCode = CLIPPER_DISPLAY_MAP[locale] ?? locale;
+  const clipperFile = path.resolve(path.dirname(termsPath), `../obsidian-clipper/src/_locales/${clipperDisplayCode}/messages.json`);
+  const clipperNote = fs.existsSync(clipperFile) ? ` + clipper` : "";
+  console.log(`Loaded glossary (${glossary.fixed.split("\n").filter(Boolean).length} primary + ${glossary.supplementary.size} supplementary terms${clipperNote})`);
 
   const enFiles = collectEnFiles();
   const headingsMap = loadHeadingsTxt();

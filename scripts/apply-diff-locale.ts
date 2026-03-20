@@ -101,6 +101,74 @@ const LANGUAGE_NAMES: Record<string, string> = {
   ar: "Arabic", da: "Danish", vi: "Vietnamese", km: "Khmer", id: "Indonesian",
 };
 
+// ─── Glossary ─────────────────────────────────────────────────────────────────
+
+const CLIPPER_LOCALE_MAP: Record<string, string> = { zh: "zh_CN", "pt-br": "pt_BR" };
+
+/**
+ * Load a glossary string for the given locale from obsidian-translations
+ * (terms.txt + translations/<lang>.txt) and obsidian-clipper (_locales).
+ * Returns empty string if repos are absent — glossary is optional here.
+ */
+function loadGlossary(langCode: string): string {
+  const terms = new Map<string, string>(); // lowercase EN → locale
+
+  // --- obsidian-translations/terms.txt ---
+  const termsPath = path.resolve(ROOT, "../obsidian-translations/terms.txt");
+  if (fs.existsSync(termsPath)) {
+    const descriptions: Record<string, string> = {};
+    const primary: Record<string, string> = {};
+    let section = "";
+    for (const line of fs.readFileSync(termsPath, "utf8").split("\n")) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith("[") && trimmed.endsWith("]")) { section = trimmed.slice(1, -1); continue; }
+      const eq = trimmed.indexOf("=");
+      if (eq === -1) continue;
+      const k = trimmed.slice(0, eq), v = trimmed.slice(eq + 1);
+      if (section === "description") descriptions[k] = v;
+      else if (section === langCode && v) primary[k] = v;
+    }
+    for (const [k, v] of Object.entries(primary)) {
+      const desc = descriptions[k] ? ` (${descriptions[k]})` : "";
+      terms.set(`${k}${desc}`, v);
+    }
+  }
+
+  // --- obsidian-translations/translations/<lang>.txt ---
+  const translationsFile = path.resolve(ROOT, `../obsidian-translations/translations/${langCode}.txt`);
+  if (fs.existsSync(translationsFile)) {
+    let original = "";
+    for (const line of fs.readFileSync(translationsFile, "utf8").split("\n")) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith("[") && trimmed.endsWith("]")) { original = ""; continue; }
+      const eq = trimmed.indexOf("=");
+      if (eq === -1) continue;
+      const k = trimmed.slice(0, eq), v = trimmed.slice(eq + 1);
+      if (k === "original") { original = v; }
+      else if (k === "translation" && v && original && !terms.has(original.toLowerCase())) {
+        terms.set(original.toLowerCase(), v);
+      }
+    }
+  }
+
+  // --- obsidian-clipper/src/_locales/<lang>/messages.json ---
+  const clipperCode = CLIPPER_LOCALE_MAP[langCode] ?? langCode;
+  const clipperEn = path.resolve(ROOT, "../obsidian-clipper/src/_locales/en/messages.json");
+  const clipperLang = path.resolve(ROOT, `../obsidian-clipper/src/_locales/${clipperCode}/messages.json`);
+  if (fs.existsSync(clipperEn) && fs.existsSync(clipperLang)) {
+    const en = JSON.parse(fs.readFileSync(clipperEn, "utf8")) as Record<string, { message: string }>;
+    const loc = JSON.parse(fs.readFileSync(clipperLang, "utf8")) as Record<string, { message: string }>;
+    for (const [key, { message: enMsg }] of Object.entries(en)) {
+      const locMsg = loc[key]?.message;
+      if (locMsg && locMsg !== enMsg && !terms.has(enMsg.toLowerCase())) {
+        terms.set(enMsg.toLowerCase(), locMsg);
+      }
+    }
+  }
+
+  return [...terms.entries()].map(([k, v]) => `${k} = ${v}`).join("\n");
+}
+
 // ─── Git helpers ──────────────────────────────────────────────────────────────
 
 function getGitDiff(): string {
@@ -499,13 +567,17 @@ async function main() {
 
       const oldEnContent = matter(oldRaw).content;
       const langName = LANGUAGE_NAMES[locale] ?? locale;
+      const glossary = loadGlossary(locale);
 
-      const systemPrompt = `You are applying a content change from an updated English source to an existing ${langName} translation of Obsidian Help documentation.
-Apply the equivalent of the English change to the ${langName} content. Only change what corresponds to the English diff. Preserve all other translated content exactly.
-- For removals: identify and remove the equivalent ${langName} passage
-- For additions: translate the new English content and insert it at the correct position
-- For modifications: update the corresponding ${langName} passage
-Return ONLY the updated ${langName} markdown content. No frontmatter, no code fences, no explanation.`;
+      const systemPrompt = [
+        `You are applying a content change from an updated English source to an existing ${langName} translation of Obsidian Help documentation.`,
+        `Apply the equivalent of the English change to the ${langName} content. Only change what corresponds to the English diff. Preserve all other translated content exactly.`,
+        `- For removals: identify and remove the equivalent ${langName} passage`,
+        `- For additions: translate the new English content and insert it at the correct position`,
+        `- For modifications: update the corresponding ${langName} passage`,
+        `Return ONLY the updated ${langName} markdown content. No frontmatter, no code fences, no explanation.`,
+        glossary ? `\nGLOSSARY (use these translations for Obsidian UI terms):\n${glossary}` : "",
+      ].filter(Boolean).join("\n");
 
       const userMessage = [
         "ENGLISH BEFORE:",
