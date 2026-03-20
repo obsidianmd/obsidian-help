@@ -6,9 +6,6 @@ cssclasses:
 ---
 Obsidian Web Clipperは、ページをハイライトしてウェブコンテンツを保管庫に保存できる無料のブラウザ拡張機能です。
 
-> [!warning]- Obsidian 1.7.2以上が必要です
-> Web Clipperは、Obsidian 1.7.2で[[Obsidian URI]]に追加された機能に依存しています。Obsidian 1.7.2以上をお使いください。
-
 ## Web Clipperのインストール
 
 お使いのブラウザの公式ディレクトリからObsidian Web Clipper拡張機能を入手してください：

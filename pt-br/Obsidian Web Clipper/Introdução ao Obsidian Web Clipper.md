@@ -6,9 +6,6 @@ cssclasses:
 ---
 Obsidian Web Clipper é uma extensão de navegador gratuita que permite destacar páginas e salvar conteúdo da web no seu cofre.
 
-> [!warning]- Requer Obsidian 1.7.2 ou superior
-> O Web Clipper depende de funcionalidades adicionadas ao [[Obsidian URI]] no Obsidian 1.7.2. Certifique-se de que está usando o Obsidian 1.7.2 ou superior.
-
 ## Instalar o Web Clipper
 
 Obtenha a extensão Obsidian Web Clipper no diretório oficial do seu navegador:

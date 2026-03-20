@@ -9,9 +9,6 @@ permalink: web-clipper
 ---
 Obsidian Web Clipper is a free browser extension that lets you highlight pages and save web content to your vault.
 
-> [!warning]- Requires Obsidian 1.7.2 or above
-> Web Clipper relies on features added to [[Obsidian URI]] in Obsidian 1.7.2. Please make sure you're using Obsidian 1.7.2 or above.
-
 ## Install Web Clipper
 
 Get the Obsidian Web Clipper extension from the official directory for your browser:

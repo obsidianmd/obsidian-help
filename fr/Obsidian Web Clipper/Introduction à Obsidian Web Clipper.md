@@ -10,9 +10,6 @@ localized: '2026-03-18'
 ---
 Obsidian Web Clipper est une extension de navigateur gratuite qui vous permet de surligner des pages et de sauvegarder du contenu web dans votre coffre.
 
-> [!warning]- Nécessite Obsidian 1.7.2 ou supérieur
-> Web Clipper s'appuie sur des fonctionnalités ajoutées à [[Obsidian URI]] dans Obsidian 1.7.2. Veuillez vous assurer que vous utilisez Obsidian 1.7.2 ou supérieur.
-
 ## Installer Web Clipper
 
 Obtenez l'extension Obsidian Web Clipper depuis le répertoire officiel de votre navigateur :

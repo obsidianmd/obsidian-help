@@ -9,9 +9,6 @@ aliases:
 ---
 Obsidian Web Clipper 是一款免费的浏览器扩展，可让你高亮页面并将网页内容保存到你的仓库中。
 
-> [!warning]- 需要 Obsidian 1.7.2 或更高版本
-> Obsidian Web Clipper 依赖于 Obsidian 1.7.2 中新增的 [[Obsidian URI]] 功能。请确保你使用的是 Obsidian 1.7.2 或更高版本。
-
 ## 安装 Obsidian Web Clipper
 
 从你所使用浏览器的官方扩展商店获取 Obsidian Web Clipper 扩展：
