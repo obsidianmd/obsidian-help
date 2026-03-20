@@ -12,7 +12,7 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 | `ar`     | https://obsidian.md/ar/help/    |
 | `da`     | https://obsidian.md/da/help/    |
 | `es`     | https://obsidian.md/es/help/    |
-| `fr`     | https://obsidian.md/es/help/    |
+| `fr`     | https://obsidian.md/fr/help/    |
 | `it`     | https://obsidian.md/it/help/    |
 | `ja`     | https://obsidian.md/ja/help/    |
 | `ko`     | https://obsidian.md/ko/help/    |
