@@ -56,19 +56,19 @@ translation=Vues
 
 [file.bases/views/cards]
 original=Cards view
-translation=Vue cartes
+translation=Galerie
 
 [file.bases/views/list]
 original=List view
-translation=Vue liste
+translation=Liste
 
 [file.bases/views/map]
 original=Map view
-translation=Vue carte
+translation=Carte
 
 [file.bases/views/table]
 original=Table view
-translation=Vue tableau
+translation=Tableau
 
 [file.callouts]
 original=Callouts

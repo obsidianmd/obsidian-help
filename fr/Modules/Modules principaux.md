@@ -89,5 +89,5 @@ L'équipe d'Obsidian maintient également des modules disponibles via le magasin
 
 - [[Importer]]
 	- Convertissez des fichiers depuis diverses applications et formats vers Obsidian.
-- [[Vue carte|Cartes]]
+- [[Galerie]]
 	- Ajoutez une vue carte à Obsidian Bases.
