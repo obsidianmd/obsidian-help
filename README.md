@@ -1,24 +1,24 @@
 # Obsidian Help
 
-This repository contains the source for the [Obsidian Help docs](https://help.obsidian.md/), along with the translations for each supported language.
+This repository contains the source for the [Obsidian Help docs](https://obsidian.md/help/), along with the translations for each supported language.
 
 ⚠ Please do not open issues about Obsidian bug reports or feature requests here. Your issue will be closed and you'll be redirected to the forum.
 
-The docs for each language are stand-alone vaults with a corresponding [Obsidian Publish](https://help.obsidian.md/Obsidian+Publish/Introduction+to+Obsidian+Publish) site.
+The docs for each language are stand-alone vaults with a corresponding [Obsidian Publish](https://obsidian.md/help/publish) site.
 
-| Language | URL                                     |
-| -------- | --------------------------------------- |
-| `en`     | https://help.obsidian.md/               |
-| `ar`     | https://publish.obsidian.md/help-ar/    |
-| `da`     | https://publish.obsidian.md/help-da/    |
-| `es`     | https://publish.obsidian.md/help-es/    |
-| `it`     | https://publish.obsidian.md/help-it/    |
-| `ja`     | https://publish.obsidian.md/help-ja/    |
-| `ko`     | https://publish.obsidian.md/help-ko/    |
-| `pt-br`  | https://publish.obsidian.md/help-pt-br/ |
-| `ru`     | https://publish.obsidian.md/help-ru/    |
-| `vi`     | https://publish.obsidian.md/help-vi/    |
-| `zh`     | https://publish.obsidian.md/help-zh/    |
+| Language | URL                             |
+| -------- | --------------------------------|
+| `en`     | https://obsidian.md/help/       |
+| `ar`     | https://obsidian.md/ar/help/    |
+| `da`     | https://obsidian.md/da/help/    |
+| `es`     | https://obsidian.md/es/help/    |
+| `it`     | https://obsidian.md/it/help/    |
+| `ja`     | https://obsidian.md/ja/help/    |
+| `ko`     | https://obsidian.md/ko/help/    |
+| `pt-BR`  | https://obsidian.md/pt-BR/help/ |
+| `ru`     | https://obsidian.md/ru/help/    |
+| `vi`     | https://obsidian.md/vi/help/    |
+| `zh`     | https://obsidian.md/zh/help/    |
 
 ## Contribute
 
@@ -33,7 +33,7 @@ You can contribute in several ways:
 - **Fix typos and mistakes**: If you want to fix a typo or other small modifications, you can submit a pull request. For smaller edits, you can use the GitHub web interface instead of cloning the repository.
 - **Add missing or outdated content**: If you want to contribute missing or outdated content, please [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new) before you start working on it.
 
-Any contributions to the English docs must follow our [Style guide](https://help.obsidian.md/Contributing+to+Obsidian/Style+guide).
+Any contributions to the English docs must follow our [Style guide](https://obsidian.md/help/style-guide).
 
 ## Translations
 
@@ -76,10 +76,10 @@ The docs under the following folders have been updated to the new organization a
 
 ## Credits
 
-To be featured on the [Credits](https://help.obsidian.md/Obsidian/Credits) page, add yourself to the [Credits](https://github.com/obsidianmd/obsidian-help/blob/master/en/Obsidian/Credits.md) file and to the corresponding translation.
+To be featured on the [Credits](https://obsidian.md/help/credits) page, add yourself to the [Credits](https://github.com/obsidianmd/obsidian-help/blob/master/en/Obsidian/Credits.md) file and to the corresponding translation.
 
 ## Additional resource
 
-- [Style guide](https://help.obsidian.md/Contributing+to+Obsidian/Style+guide)
-- [Translations](https://help.obsidian.md/Contributing+to+Obsidian/Translations)
+- [Style guide](https://obsidian.md/help/style-guide)
+- [Translations](https://obsidian.md/help/translations)
 
