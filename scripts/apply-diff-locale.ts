@@ -368,23 +368,28 @@ function tryStructuralRemovals(localeContent: string, hunks: HunkLine[][]): stri
   return current;
 }
 
-// ─── Find locale file by permalink ────────────────────────────────────────────
+// ─── Locale file index ────────────────────────────────────────────────────────
 
-function findLocaleFile(permalink: string): string | null {
-  function walk(dir: string): string | null {
+/** permalink → { absPath, parsed } for every translated .md file in the locale */
+interface LocaleEntry { absPath: string; parsed: matter.GrayMatterFile<string>; }
+
+function buildLocaleIndex(): Map<string, LocaleEntry> {
+  const index = new Map<string, LocaleEntry>();
+  function walk(dir: string) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       const full = path.join(dir, entry.name);
       if (entry.isDirectory()) {
-        const r = walk(full);
-        if (r) return r;
+        walk(full);
       } else if (entry.isFile() && entry.name.endsWith(".md")) {
         const raw = fs.readFileSync(full, "utf8");
-        if (matter(raw).data?.permalink === permalink) return full;
+        const parsed = matter(raw);
+        const permalink = parsed.data?.permalink;
+        if (permalink) index.set(permalink as string, { absPath: full, parsed });
       }
     }
-    return null;
   }
-  return walk(localeDir);
+  walk(localeDir);
+  return index;
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -405,20 +410,23 @@ async function main() {
   console.log(`Applying EN diff to ${locale}/ (dry-run: ${dryRun})\n`);
 
   const llmConfig = tryLoadConfig();
+  const localeIndex = buildLocaleIndex();
   let applied = 0;
   let skipped = 0;
 
   for (const fileDiff of fileDiffs) {
     const enAbsPath = path.join(enDir, fileDiff.enRelPath);
 
-    // Deleted files are handled by sync-locale
-    if (!fs.existsSync(enAbsPath)) {
+    let enParsed: matter.GrayMatterFile<string>;
+    try {
+      enParsed = matter(fs.readFileSync(enAbsPath, "utf8"));
+    } catch {
+      // Deleted files are handled by sync-locale
       console.log(`  SKIP  en/${fileDiff.enRelPath} (deleted — run sync-locale)`);
       skipped++;
       continue;
     }
 
-    const enParsed = matter(fs.readFileSync(enAbsPath, "utf8"));
     const permalink = enParsed.data?.permalink as string | undefined;
     if (!permalink) {
       console.log(`  SKIP  en/${fileDiff.enRelPath} (no permalink)`);
@@ -426,15 +434,14 @@ async function main() {
       continue;
     }
 
-    const localeAbsPath = findLocaleFile(permalink);
-    if (!localeAbsPath) {
+    const localeEntry = localeIndex.get(permalink);
+    if (!localeEntry) {
       console.log(`  SKIP  en/${fileDiff.enRelPath} (no locale file for permalink: ${permalink})`);
       skipped++;
       continue;
     }
 
-    const localeRaw = fs.readFileSync(localeAbsPath, "utf8");
-    const localeParsed = matter(localeRaw);
+    const { absPath: localeAbsPath, parsed: localeParsed } = localeEntry;
     const localeRelPath = path.relative(localeDir, localeAbsPath);
 
     // Skip stubs — translate-locale handles them
