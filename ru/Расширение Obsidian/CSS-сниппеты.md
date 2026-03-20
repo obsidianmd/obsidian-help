@@ -1,59 +1,58 @@
 ---
-localized: null
 permalink: snippets
 publish: true
 mobile: true
 description: >-
-  Learn how to change parts of the Obsidian app’s appearance without creating a
-  full theme.
+  Узнайте, как изменить отдельные элементы внешнего вида приложения Obsidian без
+  создания полноценной темы.
 aliases:
   - CSS snippets
 ---
-Learn how to modify aspects of the Obsidian application's appearance without needing to [build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme). 
+Узнайте, как изменить отдельные аспекты внешнего вида приложения Obsidian без необходимости [создавать тему](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 
-> [!tip] If you're looking for guidance on handling CSS for [[Introduction to Obsidian Publish|Obsidian Publish]], be sure to review [[Customize your site]].
+> [!tip] Если вам нужна информация о работе с CSS для [[Введение в Obsidian Publish|Obsidian Publish]], обязательно ознакомьтесь с разделом [[Настройка сайта]].
 
-CSS is a language that controls how HTML looks. By adding CSS snippets, you can change parts of the Obsidian user interface, like the size and color of headings. Obsidian has [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) that help you customize the interface easily.
+CSS — это язык, который управляет внешним видом HTML. Добавляя CSS-сниппеты, вы можете изменять элементы пользовательского интерфейса Obsidian, например размер и цвет заголовков. В Obsidian есть [CSS-переменные](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables), которые помогают легко настраивать интерфейс.
 
-Obsidian looks for CSS snippets inside the vault's [[Configuration folder|configuration folder]].
+Obsidian ищет CSS-сниппеты в [[Папка конфигурации|папке конфигурации]] хранилища.
 
-## Adding a snippet
+## Добавление сниппета
 
-To add a CSS snippet on **Desktop** ![[lucide-monitor-check.svg#icon]], follow these steps:
+Чтобы добавить CSS-сниппет на **компьютере** ![[lucide-monitor-check.svg#icon]], выполните следующие шаги:
 
-1. Open **[[Settings]]** ( ![[lucide-settings.svg#icon]] ).
-2. Under **Appearance → CSS snippets**, select **Open snippets folder** ( ![[lucide-folder-open.svg#icon]] ).
-3. In the snippets folder, create a CSS file that contains your snippet.
-4. In Obsidian, under **Appearance → CSS snippets**, select **Reload snippets** ( ![[lucide-refresh-cw.svg#icon]] ) to see the snippet in the list.
-5. Enable snippet by clicking the toggle.
+1. Откройте **[[Настройки]]** ( ![[lucide-settings.svg#icon]] ).
+2. В разделе **Внешний вид → Фрагменты CSS кода** нажмите **Открыть папку с фрагментами** ( ![[lucide-folder-open.svg#icon]] ).
+3. В папке фрагментов создайте CSS-файл, содержащий ваш сниппет.
+4. В Obsidian в разделе **Внешний вид → Фрагменты CSS кода** нажмите **Обновить список фрагментов** ( ![[lucide-refresh-cw.svg#icon]] ), чтобы увидеть сниппет в списке.
+5. Включите сниппет, нажав на переключатель.
 
-To add a CSS snippet on **Mobile/Tablet** ![[obsidian-icon-smartphone.svg#icon]], you can follow these steps:
+Чтобы добавить CSS-сниппет на **мобильном устройстве/планшете** ![[obsidian-icon-smartphone.svg#icon]], выполните следующие шаги:
 
-1. Open a file manager and find your vault. You can check the vault’s location in _Manage vaults…_ by tapping your vault and looking at the path.
-2. Open the [[Configuration folder]] and create a folder called `snippets` if it doesn’t exist.
-3. Add your CSS snippet to this folder.
-4. Open Obsidian's **[[Settings]]** ( ![[lucide-settings.svg#icon]] ).
-5. Select **Appearance** on the left.
-6. Scroll down to the **CSS snippets** section.
-7. Tap **Reload snippets** (![[lucide-refresh-cw.svg#icon]]) to refresh the list.
-8. Tap the toggle to enable the snippet.
+1. Откройте файловый менеджер и найдите ваше хранилище. Вы можете проверить расположение хранилища в разделе _Управление хранилищами…_, нажав на ваше хранилище и посмотрев путь.
+2. Откройте [[Папка конфигурации|папку конфигурации]] и создайте папку `snippets`, если она не существует.
+3. Добавьте ваш CSS-сниппет в эту папку.
+4. Откройте **[[Настройки]]** Obsidian ( ![[lucide-settings.svg#icon]] ).
+5. Выберите **Внешний вид** слева.
+6. Прокрутите вниз до раздела **Фрагменты CSS кода**.
+7. Нажмите **Обновить список фрагментов** (![[lucide-refresh-cw.svg#icon]]), чтобы обновить список.
+8. Нажмите на переключатель, чтобы включить сниппет.
 
-Alternately, you can
-- [[Sync your notes across devices|Sync]] any changes with your syncing service.
-- Use a community plugin to create a snippet from within Obsidian. 
+Кроме того, вы можете:
+- [[Синхронизация заметок между устройствами|Синхронизировать]] любые изменения с помощью вашего сервиса синхронизации.
+- Использовать плагин сообщества для создания сниппета прямо из Obsidian.
 
-Once enabled, Obsidian will automatically detect changes to CSS snippets and apply them when you save the file. 
+После включения Obsidian будет автоматически обнаруживать изменения в CSS-сниппетах и применять их при сохранении файла.
 
-> [!tip] You don’t need to restart Obsidian for changes to take effect. However, you might need to use the [[Command palette]] command to Reload Obsidian without saving to see changes in the current theme or note.
+> [!tip] Вам не нужно перезапускать Obsidian, чтобы изменения вступили в силу. Однако может потребоваться использовать команду [[Палитра команд|палитры команд]] «Перезагрузить Obsidian без сохранения», чтобы увидеть изменения в текущей теме или заметке.
 
-## Writing CSS for Obsidian
+## Написание CSS для Obsidian
 
-Obsidian offers several methods that make writing CSS easier and more powerful.
+Obsidian предлагает несколько методов, которые упрощают и расширяют возможности написания CSS.
 
-It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) to easily modify parts of Obsidian and a built-in [[Properties#Property types|property type]] to change the appearance of one or several notes.
+В нём есть множество [CSS-переменных](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) для удобного изменения элементов Obsidian, а также встроенный [[Свойства#Тип свойства|тип свойства]] для изменения внешнего вида одной или нескольких заметок.
 
-> [!example] Variables
-> Create a file called `headers.css` with the following content to change the colors of the six [[Basic formatting syntax#Headings|heading levels]] to a rainbow:
+> [!example] Переменные
+> Создайте файл `headers.css` со следующим содержимым, чтобы изменить цвета шести [[Основной синтаксис форматирования#Заголовки|уровней заголовков]] на радужные:
 >
 > ```css
 > body {
@@ -66,8 +65,8 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > }
 > ```
 
-> [!example] CSS classes
-> Assign the name of a custom CSS class (or a list of CSS classes) to a predefined [[Properties|property]] `cssclasses` to make one or more notes look different from others.
+> [!example] CSS-классы
+> Назначьте имя пользовательского CSS-класса (или список CSS-классов) предустановленному [[Свойства|свойству]] `cssclasses`, чтобы одна или несколько заметок выглядели иначе, чем остальные.
 > 
 > **CSS**:
 > ```css
@@ -76,20 +75,20 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > }
 > ```
 > 
-> **YAML/Properties**:
+> **YAML/Свойства**:
 > ```yaml
 > cssclasses:
 >  - red-border
 > ```
 > 
-> In every note that contains the value `red-border` in the `cssclasses` property, images are displayed with a red border.
+> В каждой заметке, содержащей значение `red-border` в свойстве `cssclasses`, изображения будут отображаться с красной рамкой.
 
-To ensure that the CSS file is valid and formatted correctly, we advise validating it with a tool like [CSS Validation Service](https://jigsaw.w3.org/css-validator/), as invalid CSS will not work.
+Чтобы убедиться, что CSS-файл валиден и правильно отформатирован, рекомендуем проверить его с помощью инструмента, такого как [CSS Validation Service](https://jigsaw.w3.org/css-validator/), поскольку невалидный CSS работать не будет.
 
-## Learn more
+## Подробнее
 
-- If you're new to CSS, check out [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
-- For more information about styling Obsidian, see:
+- Если вы новичок в CSS, ознакомьтесь с руководством [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) от Mozilla.
+- Для получения дополнительной информации о стилизации Obsidian смотрите:
   - [About styling](https://docs.obsidian.md/Reference/CSS+variables/About+styling)
   - [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
   - [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme)

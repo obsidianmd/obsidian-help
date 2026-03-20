@@ -1,5 +1,4 @@
 ---
-localized: null
 permalink: teams
 cssclasses:
   - list-cards
@@ -7,32 +6,32 @@ cssclasses:
 aliases:
   - Obsidian for teams
 ---
-Obsidian can be used as a note-taking application for individuals, and as a collaboration tool for your team.
+Obsidian можно использовать как приложение для ведения заметок для личного пользования, а также как инструмент для совместной работы в команде.
 
-## Use Obsidian with your team
+## Использование Obsidian в команде
 
-- [[Commercial license]]
-	- Support Obsidian by purchasing a commercial license.
-- [[Deploy Obsidian across your team|Deploy Obsidian]]
-	- How to install, update, and customize Obsidian across your team.
-- [[Syncing for teams]]
-	- How to sync data across your team.
-- [[Publishing for teams]]
-	- How to publish data from your team's vault.
+- [[Коммерческая лицензия]]
+	- Поддержите Obsidian, приобретя коммерческую лицензию.
+- [[Развёртывание Obsidian в команде|Развёртывание Obsidian]]
+	- Как установить, обновить и настроить Obsidian для вашей команды.
+- [[Синхронизация для команд]]
+	- Как синхронизировать данные в команде.
+- [[Публикация для команд]]
+	- Как публиковать данные из хранилища вашей команды.
 
-## Important resources
+## Важные ресурсы
 
-Below are important links to relevant parts of our main website, and are listed here for quick access. 
+Ниже приведены важные ссылки на соответствующие разделы нашего основного сайта, размещённые здесь для быстрого доступа.
 
-- [Purchase our products](https://obsidian.md/pricing)
-	- Purchase a Commercial license, Sync, or Publish
-- [Report a bug](https://forum.obsidian.md/c/bug-reports/7)
-	- Report an application issue
-- [Request a new feature](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
-	- Report a feature request
-- [License overview](https://obsidian.md/license)
-	- Review our license overview in plain English
-- [Terms of Service](https://obsidian.md/terms)
-	- Review our latest Terms of Service
-- [Privacy Policy](https://obsidian.md/privacy)
-	- Review our privacy policy
+- [Приобрести наши продукты](https://obsidian.md/pricing)
+	- Приобретите коммерческую лицензию, Sync или Publish
+- [Сообщить об ошибке](https://forum.obsidian.md/c/bug-reports/7)
+	- Сообщите о проблеме в приложении
+- [Запросить новую функцию](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
+	- Отправьте запрос на новую функцию
+- [Обзор лицензии](https://obsidian.md/license)
+	- Ознакомьтесь с обзором нашей лицензии простым языком
+- [Условия использования](https://obsidian.md/terms)
+	- Ознакомьтесь с актуальными Условиями использования
+- [Политика конфиденциальности](https://obsidian.md/privacy)
+	- Ознакомьтесь с нашей политикой конфиденциальности

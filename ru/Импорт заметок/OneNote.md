@@ -1,54 +1,53 @@
 ---
-localized: null
 permalink: import/onenote
 aliases:
   - Import from Microsoft OneNote
 ---
-Obsidian lets you easily migrate your notes from Microsoft OneNote using the [[Importer|Importer plugin]]. This will convert your OneNote data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian позволяет легко перенести заметки из Microsoft OneNote с помощью [[Импортёр|плагина Импортёр]]. Он преобразует данные OneNote в долговечные файлы Markdown, которые можно использовать в Obsidian и многих других приложениях.
 
 > [!Warning]
-> Only notebooks owned by your personal account can be imported. Shared notes, or accounts from work and school accounts are not supported.
+> Можно импортировать только записные книжки, принадлежащие вашему личному аккаунту. Общие заметки, а также аккаунты рабочих и учебных организаций не поддерживаются.
 
-## Import your OneNote data into Obsidian
+## Импорт данных OneNote в Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Вам понадобится официальный плагин Obsidian [[Импортёр]], который можно [установить здесь](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Microsoft OneNote**.
-6. Click **Sign in** to open your web browser to the Microsoft sign-in page. Enter the credentials for your Microsoft account which contains your OneNote Notebooks. More information about the Microsoft sign-in process is available below.
-7. Click **Accept** to grant Obsidian permission to view your OneNote Notebooks.
-8. Click **Open Link** to allow your browser to redirect you to the Obsidian app.
-9. In the Obsidian app, the Importer dialog will now display that you are signed in and list your OneNote Notebooks and Sections. Check the sections you wish to import.
+1. Откройте **[[Настройки]]**.
+2. Перейдите в раздел **Плагины сообщества** и [установите Импортёр](obsidian://show-plugin?id=obsidian-importer).
+3. Включите плагин Импортёр.
+4. Откройте плагин **Импортёр** с помощью палитры команд или значка на вертикальной панели.
+5. В поле **Формат файла** выберите **Microsoft OneNote**.
+6. Нажмите **Войти**, чтобы открыть веб-браузер на странице входа Microsoft. Введите учётные данные аккаунта Microsoft, в котором хранятся ваши записные книжки OneNote. Дополнительная информация о процессе входа через Microsoft приведена ниже.
+7. Нажмите **Принять**, чтобы предоставить Obsidian разрешение на просмотр ваших записных книжек OneNote.
+8. Нажмите **Открыть ссылку**, чтобы разрешить браузеру перенаправить вас в приложение Obsidian.
+9. В приложении Obsidian диалоговое окно Импортёра отобразит, что вы вошли в систему, и покажет список ваших записных книжек и разделов OneNote. Отметьте разделы, которые хотите импортировать.
 
 ![[OneNote-Importer-Select-Sections.png]]
 
-10. Click **Import** and wait until import is complete.
-11. You're done!
+10. Нажмите **Импорт** и дождитесь завершения импорта.
+11. Готово!
 
-## Troubleshooting
+## Устранение неполадок
 
-### No sections or notebooks appear
+### Разделы или записные книжки не отображаются
 
-Make sure that the notebooks you're trying to import are synced to OneDrive and visible in OneNote Web. They must be owned by you (shared notebooks written by others are unsupported).
+Убедитесь, что записные книжки, которые вы пытаетесь импортировать, синхронизированы с OneDrive и видны в OneNote Web. Они должны принадлежать вам (общие записные книжки других пользователей не поддерживаются).
 
-If a specific section is missing, make sure it's not a locked section — those are invisible without removing the lock first.
+Если определённый раздел отсутствует, убедитесь, что он не заблокирован — заблокированные разделы невидимы без предварительного снятия блокировки.
 
-### Imported notes are empty or missing content
+### Импортированные заметки пусты или в них отсутствует содержимое
 
-This issue may occur on notebooks that you rarely use. To solve the issue follow these steps:
+Эта проблема может возникать с записными книжками, которые вы редко используете. Для её решения выполните следующие шаги:
 
-1. Open [OneNote Web](https://onenote.com/notebooks) in your browser.
-2. **Right click** on the Notebooks which are missing content.
-3. Select **Export Notebook** from the menu.
-4. **Unzip** the file you've just downloaded into a folder.
-5. Upload your OneNote notebooks [here](https://www.onenote.com/notebooks/exportimport?toImport=true).
-6. Open **Obsidian Importer** and try importing again
+1. Откройте [OneNote Web](https://onenote.com/notebooks) в браузере.
+2. **Щёлкните правой кнопкой мыши** по записным книжкам, в которых отсутствует содержимое.
+3. Выберите **Экспортировать записную книжку** из меню.
+4. **Распакуйте** загруженный файл в папку.
+5. Загрузите ваши записные книжки OneNote [сюда](https://www.onenote.com/notebooks/exportimport?toImport=true).
+6. Откройте **Obsidian Импортёр** и попробуйте выполнить импорт снова.
 
-If you've followed these tips and your issue remains unresolved, it's possible that there is a temporary problem with Microsoft servers. If that's the case, wait a few minutes and try again. If the problem persists, please open an issue on the [Obsidian Importer GitHub repository](https://github.com/obsidianmd/obsidian-importer/issues).
+Если вы выполнили все рекомендации и проблема не решена, возможно, это временная проблема с серверами Microsoft. В этом случае подождите несколько минут и попробуйте снова. Если проблема сохраняется, создайте отчёт об ошибке в [репозитории Obsidian Importer на GitHub](https://github.com/obsidianmd/obsidian-importer/issues).
 
-## Privacy
+## Конфиденциальность
 
-The Obsidian Importer plugin uses [OAuth](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) to authenticate with your Microsoft account and import your OneNote notebooks. This grants a short term access token to your account which is used only from your computer and is never stored. After the import completes you may optionally revoke the token from the [Microsoft apps & services page](https://account.live.com/consent/Manage). 
+Плагин Obsidian Импортёр использует [OAuth](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) для аутентификации с вашим аккаунтом Microsoft и импорта записных книжек OneNote. Это предоставляет краткосрочный токен доступа к вашему аккаунту, который используется только с вашего компьютера и никогда не сохраняется. После завершения импорта вы можете при желании отозвать токен на [странице приложений и служб Microsoft](https://account.live.com/consent/Manage).

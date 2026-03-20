@@ -1,47 +1,46 @@
 ---
-localized: null
 permalink: import/apple-journal
 aliases:
   - Import from Apple Journal
 ---
-Obsidian lets you easily migrate your journal entries from Apple Journal using the [[Importer|Importer plugin]]. 
-This will convert your journals to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian позволяет легко перенести записи из Apple Journal с помощью [[Импортёр|плагина Импортёр]].
+Это преобразует ваши записи в надёжные файлы Markdown, которые можно использовать с Obsidian и многими другими приложениями.
 
-## Export your data from Apple Journal
+## Экспорт данных из Apple Journal
 
-### On iPhone
-Follow the instructions for [Print and export entries in Journal on iPhone](https://support.apple.com/guide/iphone/print-and-export-entries-iph4cad323fe/ios#iph1edf66806):
+### На iPhone
+Следуйте инструкциям из раздела [Печать и экспорт записей в Journal на iPhone](https://support.apple.com/guide/iphone/print-and-export-entries-iph4cad323fe/ios#iph1edf66806):
 
-1. Go to the Journal app on your iPhone.
-2. Choose a journal or tap All Entries.
-3. Tap the More button at the top of the screen.
-4. Tap Export, then choose Export.
-5. Choose a location, then tap the Selected button.
+1. Откройте приложение Journal на iPhone.
+2. Выберите журнал или нажмите «Все записи».
+3. Нажмите кнопку «Ещё» в верхней части экрана.
+4. Нажмите «Экспорт», затем выберите «Экспорт».
+5. Выберите расположение, затем нажмите кнопку «Выбрано».
 
-### On Mac (Tahoe)
-Follow the instructions for [Print and export entries in Journal on Mac](https://support.apple.com/guide/journal/print-and-export-entries-dev883fc2329/mac#devc24a8f09a):
+### На Mac (Tahoe)
+Следуйте инструкциям из раздела [Печать и экспорт записей в Journal на Mac](https://support.apple.com/guide/journal/print-and-export-entries-dev883fc2329/mac#devc24a8f09a):
 
-1. Go to the Journal app on your Mac.
-2. Go to File > Export, then choose Export.
+1. Откройте приложение Journal на Mac.
+2. Перейдите в «Файл» > «Экспорт», затем выберите «Экспорт».
 
-## Import Apple Journal data into Obsidian
+## Импорт данных Apple Journal в Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Вам потребуется официальный плагин Obsidian [[Импортёр]], который можно [установить здесь](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format**, choose **Apple Journal (HTML Export)**.
-6. In **Files to import**, select the folder with exported data, usually _AppleJournalEntries_, or individual files from _Entries_.
-7. Review and edit the other import options.
-8. Select Import and wait until import is complete
-9. You're done!
+1. Откройте **[[Настройки]]**.
+2. Перейдите в раздел **Плагины сообщества** и [установите Импортёр](obsidian://show-plugin?id=obsidian-importer).
+3. Включите плагин Импортёр.
+4. Откройте плагин **Импортёр** с помощью палитры команд или значка на вертикальной панели.
+5. В поле **Формат файла** выберите **Apple Journal (HTML Export)**.
+6. В поле **Файлы для импорта** выберите папку с экспортированными данными, обычно _AppleJournalEntries_, или отдельные файлы из _Entries_.
+7. Просмотрите и при необходимости измените другие параметры импорта.
+8. Нажмите «Импорт» и дождитесь завершения процесса.
+9. Готово!
 
 
-## Supported content
+## Поддерживаемое содержимое
 
-The plugin can import Journal metadata as frontmatter, such as _state-of-mind_, _contacts_, _location_, and _workout-route_.
+Плагин может импортировать метаданные Journal как начальные метаданные, такие как _state-of-mind_, _contacts_, _location_ и _workout-route_.
 
-> [!note] Note
-> The plugin does not import resources. Attachments like photos, videos, and audio recordings are ignored.
+> [!note] Примечание
+> Плагин не импортирует ресурсы. Вложения, такие как фотографии, видео и аудиозаписи, игнорируются.

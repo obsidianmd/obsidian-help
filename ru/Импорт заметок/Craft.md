@@ -1,26 +1,25 @@
 ---
-localized: null
 permalink: import/craft
 aliases:
   - Import from Craft
 ---
-Obsidian lets you migrate your notes from Craft. This will convert your Craft data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian позволяет перенести ваши заметки из Craft. Данные Craft будут преобразованы в долговечные файлы Markdown, которые можно использовать в Obsidian и многих других приложениях.
 
-## Export your data from Craft
+## Экспорт данных из Craft
 
-Open the Craft app on your desktop computer:
+Откройте приложение Craft на вашем настольном компьютере:
 
-1. Go to the "Organize", or "All Documents" view
-2. Click on the three-dot menu
-3. Select the Export option.
-4. Choose Markdown.
+1. Перейдите в раздел «Organize» или «All Documents».
+2. Нажмите на меню с тремя точками.
+3. Выберите опцию Export.
+4. Выберите Markdown.
 
-Depending on the number of notes you have in Craft, this process may take a while.
+В зависимости от количества заметок в Craft, этот процесс может занять некоторое время.
 
-## Import your Craft data into Obsidian
+## Импорт данных Craft в Obsidian
 
-From here you can follow the [[Import Markdown files]] instructions.
+Далее следуйте инструкциям из раздела [[Markdown|Импорт файлов Markdown]].
 
-## Troubleshooting
+## Устранение неполадок
 
-Craft Docs uses non-standard syntax for certain links. You can find resources to migrate those on the [Importer GitHub repo](https://github.com/obsidianmd/obsidian-importer/issues/27).
+Craft Docs использует нестандартный синтаксис для некоторых ссылок. Ресурсы для их миграции можно найти в [репозитории Importer на GitHub](https://github.com/obsidianmd/obsidian-importer/issues/27).

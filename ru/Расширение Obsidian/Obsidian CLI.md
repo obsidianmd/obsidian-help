@@ -1,171 +1,170 @@
 ---
-localized: null
 permalink: cli
-description: Anything you can do in Obsidian can be done from the command line.
+description: 'Всё, что вы можете сделать в Obsidian, можно сделать из командной строки.'
 aliases:
   - Obsidian CLI
 ---
-Obsidian CLI is a command line interface that lets you control Obsidian from your terminal for scripting, automation, and integration with external tools.
+Obsidian CLI — это интерфейс командной строки, который позволяет управлять Obsidian из терминала для создания скриптов, автоматизации и интеграции с внешними инструментами.
 
-Anything you can do in Obsidian you can do from the command line. Obsidian CLI even includes [[#Developer commands|developer commands]] to access developer tools, inspect elements, take screenshots, reload plugins, and more.
+Всё, что вы можете сделать в Obsidian, можно сделать из командной строки. Obsidian CLI даже включает [[#Команды для разработчиков|команды для разработчиков]] для доступа к инструментам разработчика, инспектирования элементов, создания скриншотов, перезагрузки плагинов и многого другого.
 
 ![[obsidian-cli.mp4#interface]]
 
-> [!warning] Requires Obsidian 1.12 installer
-> Using the CLI requires the Obsidian 1.12 installer. See the [[Update Obsidian#Installer updates|installer version update guide]].
+> [!warning] Требуется установщик Obsidian 1.12
+> Для использования CLI требуется установщик Obsidian 1.12. См. [[Обновление Obsidian#Обновление установщика|руководство по обновлению установщика]].
 
-## Install Obsidian CLI
+## Установка Obsidian CLI
 
-Upgrade to the latest [[Update Obsidian|Obsidian installer version]] (1.11.7) and the latest [[Early access versions|early access version]] (1.12.x).
+Обновитесь до последней [[Обновление Obsidian|версии установщика Obsidian]] (1.11.7) и последней [[Ранние версии|ранней версии]] (1.12.x).
 
-Enable Obsidian CLI in Obsidian:
+Включите Obsidian CLI в Obsidian:
 
-1. Go to **Settings** → **General**.
-2. Enable **Command line interface**.
-3. Follow the prompt to register Obsidian CLI.
+1. Перейдите в **Настройки** → **Общие**.
+2. Включите **Интерфейс командной строки**.
+3. Следуйте подсказкам для регистрации Obsidian CLI.
 
-If you run into issues installing Obsidian CLI see [[#Troubleshooting]].
+Если у вас возникли проблемы с установкой Obsidian CLI, см. раздел [[#Устранение неполадок]].
 
-## Get started
+## Начало работы
 
-Obsidian CLI supports both single commands and a terminal user interface (TUI) with interactive help and autocomplete.
+Obsidian CLI поддерживает как отдельные команды, так и терминальный пользовательский интерфейс (TUI) с интерактивной справкой и автодополнением.
 
-> [!info] Obsidian app must be running
-> Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
+> [!info] Приложение Obsidian должно быть запущено
+> Obsidian CLI требует, чтобы приложение Obsidian было запущено. Если Obsidian не запущен, первая выполненная команда запустит Obsidian.
 >
-> Looking to sync without the desktop app? See [[Obsidian Headless|Obsidian Headless]].
+> Хотите синхронизировать без настольного приложения? См. [[Obsidian Headless|Obsidian Headless]].
 
-### Run a command
+### Выполнение команды
 
-Run an individual command without opening the TUI:
+Выполните отдельную команду без открытия TUI:
 
 ```shell
-# Run the help command
+# Выполнить команду помощи
 obsidian help
 ```
 
-### Use the terminal interface
+### Использование терминального интерфейса
 
-Use the TUI by entering `obsidian`. Subsequent commands can be entered without `obsidian`.
+Используйте TUI, введя `obsidian`. Последующие команды можно вводить без `obsidian`.
 
 ```shell
-# Open the TUI, then run help
+# Открыть TUI, затем выполнить help
 obsidian
 help
 ```
 
-The TUI supports autocomplete, command history, and reverse search. Use `Ctrl+R` to search your command history. See [[#Keyboard shortcuts]] for all available shortcuts.
+TUI поддерживает автодополнение, историю команд и обратный поиск. Используйте `Ctrl+R` для поиска по истории команд. См. раздел [[#Сочетания клавиш]] для всех доступных сочетаний.
 
-## Examples
+## Примеры
 
-Here are a few examples of what Obsidian CLI can do.
+Вот несколько примеров того, что может делать Obsidian CLI.
 
-### Everyday use
+### Повседневное использование
 
 ```shell
-# Open today's daily note
+# Открыть сегодняшнюю ежедневную заметку
 obsidian daily
 
-# Add a task to your daily note
-obsidian daily:append content="- [ ] Buy groceries"
+# Добавить задачу в ежедневную заметку
+obsidian daily:append content="- [ ] Купить продукты"
 
-# Search your vault
-obsidian search query="meeting notes"
+# Поиск по хранилищу
+obsidian search query="заметки совещаний"
 
-# Read the active file
+# Прочитать активный файл
 obsidian read
 
-# List all tasks from your daily note
+# Список всех задач из ежедневной заметки
 obsidian tasks daily
 
-# Create a new note from a template
-obsidian create name="Trip to Paris" template=Travel
+# Создать новую заметку из шаблона
+obsidian create name="Поездка в Париж" template=Travel
 
-# List all tags in your vault with counts
+# Список всех тегов в хранилище с количеством
 obsidian tags counts
 
-# Compare two versions of a file
+# Сравнить две версии файла
 obsidian diff file=README from=1 to=3
 ```
 
-### For developers
+### Для разработчиков
 
-Many [[#Developer commands]] are available for plugin and theme development. These commands allow agentic coding tools to automatically test and debug.
+Для разработки плагинов и тем доступны многие [[#Команды для разработчиков|команды для разработчиков]]. Эти команды позволяют агентным инструментам кодирования автоматически тестировать и отлаживать.
 
 ```shell
-# Open developer tools
+# Открыть инструменты разработчика
 obsidian devtools
 
-# Reload a community plugin you're developing
+# Перезагрузить разрабатываемый плагин сообщества
 obsidian plugin:reload id=my-plugin
 
-# Take a screenshot of the app
+# Сделать скриншот приложения
 obsidian dev:screenshot path=screenshot.png
 
-# Run JavaScript in the app console
+# Выполнить JavaScript в консоли приложения
 obsidian eval code="app.vault.getFiles().length"
 ```
 
-## How to
+## Практические руководства
 
-### Use parameters and flags
+### Использование параметров и флагов
 
-Commands can use **parameters** and **flags**. Most commands do not require any parameters or flags. Required parameters are marked as `required`. For example:
+Команды могут использовать **параметры** и **флаги**. Большинство команд не требуют параметров или флагов. Обязательные параметры помечены как `required`. Например:
 
 ```shell
-# Create a new note using the default "Untitled" name
+# Создать новую заметку с именем по умолчанию «Без названия»
 obsidian create
 ```
 
-A **parameter** takes a value, written as `parameter=value`. If the value has spaces, wrap it in quotes:
+**Параметр** принимает значение и записывается как `parameter=value`. Если значение содержит пробелы, оберните его в кавычки:
 
 ```shell
-# Create a new note called "Note" with content "Hello world"
+# Создать новую заметку с именем «Note» и содержимым «Hello world»
 obsidian create name=Note content="Hello world"
 ```
 
-A **flag** is a boolean switch with no value. Include it to turn it on, for example `open` and `overwrite` are flags:
+**Флаг** — это логический переключатель без значения. Включите его, чтобы активировать, например `open` и `overwrite` — это флаги:
 
 ```shell
-# Create a note and open it
+# Создать заметку и открыть её
 obsidian create name=Note content="Hello" open overwrite
 ```
 
-For multiline content use `\n` for newline. Use `\t` for tab.
+Для многострочного содержимого используйте `\n` для перевода строки. Используйте `\t` для табуляции.
 
 ```bash
-obsidian create name=Note content="# Title\n\nBody text"
+obsidian create name=Note content="# Заголовок\n\nОсновной текст"
 ```
 
-### Target a vault
+### Выбор хранилища
 
-If your terminal's current working directory is a vault folder, that vault is used by default. Otherwise, the currently active vault is used.
+Если текущий рабочий каталог вашего терминала является папкой хранилища, это хранилище используется по умолчанию. В противном случае используется текущее активное хранилище.
 
-Use `vault=<name>` or `vault=<id>` to target a specific vault. This must be the first parameter before your command:
+Используйте `vault=<name>` или `vault=<id>` для выбора конкретного хранилища. Этот параметр должен быть первым перед командой:
 
 ```shell
 obsidian vault=Notes daily
 obsidian vault="My Vault" search query="test"
 ```
 
-In the TUI, use `vault:open <name>` or `<id>` to switch to a different vault.
+В TUI используйте `vault:open <name>` или `<id>` для переключения на другое хранилище.
 
-### Target a file
+### Выбор файла
 
-Many commands accept `file` and `path` parameters to target a specific file. If neither is provided, the command defaults to the active file.
+Многие команды принимают параметры `file` и `path` для указания конкретного файла. Если ни один из них не указан, команда по умолчанию работает с активным файлом.
 
-- `file=<name>` resolves the file using the same link resolution as [[Internal links|wikilinks]], matching by file name without requiring the full path or extension.
-- `path=<path>` requires the exact path from the vault root, e.g. `folder/note.md`.
+- `file=<name>` разрешает файл, используя то же разрешение ссылок, что и [[Внутренние ссылки|wiki-ссылки]], сопоставляя по имени файла без необходимости указания полного пути или расширения.
+- `path=<path>` требует точный путь от корня хранилища, например `folder/note.md`.
 
 ```shell
-# These are equivalent if "Recipe.md" is the only file with that name
+# Эти команды эквивалентны, если «Recipe.md» — единственный файл с таким именем
 obsidian read file=Recipe
 obsidian read path="Templates/Recipe.md"
 ```
 
-### Copy output
+### Копирование вывода
 
-Add `--copy` to any command to copy the output to the clipboard:
+Добавьте `--copy` к любой команде, чтобы скопировать вывод в буфер обмена:
 
 ```shell
 read --copy
@@ -173,265 +172,265 @@ search query="TODO" --copy
 ```
 
 
-## General commands
+## Общие команды
 
 ### `help`
 
-Show list of all available commands.
+Показать список всех доступных команд.
 
-| Parameter   | Description                       |
-| ----------- | --------------------------------- |
-| `<command>` | Show help for a specific command. |
+| Параметр    | Описание                                   |
+| ----------- | ------------------------------------------ |
+| `<command>` | Показать справку для конкретной команды.   |
 
 ### `version`
 
-Show Obsidian version.
+Показать версию Obsidian.
 
 ### `reload`
 
-Reload the app window.
+Перезагрузить окно приложения.
 
 ### `restart`
 
-Restart the app.
+Перезапустить приложение.
 
 
-## Bases
+## Базы данных
 
-Commands for [[Introduction to Bases|Bases]].
+Команды для [[Введение в Базы|Баз данных]].
 
 ### `bases`
 
-List all `.base` files in the vault.
+Список всех файлов `.base` в хранилище.
 
 ### `base:views`
 
-List views in the current base file.
+Список представлений в текущем файле базы.
 
 ### `base:create`
 
-Create a new item in a base. Defaults to the active base view if no file is specified.
+Создать новый элемент в базе. По умолчанию используется активное представление базы, если файл не указан.
 
 ```bash
-file=<name>        # base file name
-path=<path>        # base file path
-view=<name>        # view name
-name=<name>        # new file name
-content=<text>     # initial content
+file=<name>        # имя файла базы
+path=<path>        # путь к файлу базы
+view=<name>        # название представления
+name=<name>        # имя нового файла
+content=<text>     # начальное содержимое
 
-open               # open file after creating
-newtab             # open in new tab
+open               # открыть файл после создания
+newtab             # открыть в новой вкладке
 ```
 
 ### `base:query`
 
-Query a base and return results.
+Запрос к базе и возврат результатов.
 
 ```bash
-file=<name>                    # base file name
-path=<path>                    # base file path
-view=<name>                    # view name to query
-format=json|csv|tsv|md|paths   # output format (default: json)
+file=<name>                    # имя файла базы
+path=<path>                    # путь к файлу базы
+view=<name>                    # название представления для запроса
+format=json|csv|tsv|md|paths   # формат вывода (по умолчанию: json)
 ```
 
-## Bookmarks
+## Закладки
 
-Commands for [[Bookmarks]].
+Команды для [[Закладки|Закладок]].
 
 ### `bookmarks`
 
-List bookmarks.
+Список закладок.
 
 ```bash
-total              # return bookmark count
-verbose            # include bookmark types
-format=json|tsv|csv  # output format (default: tsv)
+total              # вернуть количество закладок
+verbose            # включить типы закладок
+format=json|tsv|csv  # формат вывода (по умолчанию: tsv)
 ```
 
 ### `bookmark`
 
-Add a bookmark.
+Добавить закладку.
 
 ```bash
-file=<path>        # file to bookmark
-subpath=<subpath>  # subpath (heading or block) within file
-folder=<path>      # folder to bookmark
-search=<query>     # search query to bookmark
-url=<url>          # URL to bookmark
-title=<title>      # bookmark title
+file=<path>        # файл для закладки
+subpath=<subpath>  # подпуть (заголовок или блок) внутри файла
+folder=<path>      # папка для закладки
+search=<query>     # поисковый запрос для закладки
+url=<url>          # URL для закладки
+title=<title>      # название закладки
 ```
 
-## Command palette
+## Палитра команд
 
-Commands for [[Command palette]] and [[Hotkeys]]. This includes all commands registered by plugins.
+Команды для [[Палитра команд|Палитры команд]] и [[Горячие клавиши|Горячих клавиш]]. Включает все команды, зарегистрированные плагинами.
 
 ### `commands`
 
-List available command IDs.
+Список доступных идентификаторов команд.
 
 ```bash
-filter=<prefix>    # filter by ID prefix
+filter=<prefix>    # фильтр по префиксу ID
 ```
 
 ### `command`
 
-Execute an Obsidian command.
+Выполнить команду Obsidian.
 
 ```bash
-id=<command-id>    # (required) command ID to execute
+id=<command-id>    # (required) ID команды для выполнения
 ```
 
 ### `hotkeys`
 
-List hotkeys for all commands.
+Список сочетаний клавиш для всех команд.
 
 ```bash
-total              # return hotkey count
-verbose            # show if hotkey is custom
-format=json|tsv|csv  # output format (default: tsv)
+total              # вернуть количество сочетаний клавиш
+verbose            # показать, является ли сочетание пользовательским
+format=json|tsv|csv  # формат вывода (по умолчанию: tsv)
 ```
 
 ### `hotkey`
 
-Get hotkey for a command.
+Получить сочетание клавиш для команды.
 
 ```bash
-id=<command-id>    # (required) command ID
+id=<command-id>    # (required) ID команды
 
-verbose            # show if custom or default
+verbose            # показать, пользовательское или стандартное
 ```
 
-## Daily notes
+## Ежедневные заметки
 
-Commands for [[Daily notes]].
+Команды для [[Ежедневные заметки|Ежедневных заметок]].
 
 ### `daily`
 
-Open daily note.
+Открыть ежедневную заметку.
 
 ```bash
-paneType=tab|split|window    # pane type to open in
+paneType=tab|split|window    # тип панели для открытия
 ```
 
 ### `daily:path`
 
-Get daily note path. Returns the expected path even if the file hasn't been created yet.
+Получить путь к ежедневной заметке. Возвращает ожидаемый путь, даже если файл ещё не создан.
 
 ### `daily:read`
 
-Read daily note contents.
+Прочитать содержимое ежедневной заметки.
 
 ### `daily:append`
 
-Append content to daily note.
+Добавить содержимое в конец ежедневной заметки.
 
 ```bash
-content=<text>     # (required) content to append
-paneType=tab|split|window    # pane type to open in
+content=<text>     # (required) содержимое для добавления
+paneType=tab|split|window    # тип панели для открытия
 
-inline             # append without newline
-open               # open file after adding
+inline             # добавить без перевода строки
+open               # открыть файл после добавления
 ```
 
 ### `daily:prepend`
 
-Prepend content to daily note.
+Добавить содержимое в начало ежедневной заметки.
 
 ```bash
-content=<text>     # (required) content to prepend
-paneType=tab|split|window    # pane type to open in
+content=<text>     # (required) содержимое для добавления в начало
+paneType=tab|split|window    # тип панели для открытия
 
-inline             # prepend without newline
-open               # open file after adding
+inline             # добавить без перевода строки
+open               # открыть файл после добавления
 ```
 
-## File history
+## История файлов
 
 ### `diff`
 
-List or compare versions from local [[File recovery]] and [[Introduction to Obsidian Sync|Sync]]. Versions are numbered from newest to oldest.
+Список или сравнение версий из локального [[Восстановление файлов|Восстановления файлов]] и [[Введение в Obsidian Sync|Sync]]. Версии нумеруются от новых к старым.
 
 ```bash
-file=<name>          # file name
-path=<path>          # file path
-from=<n>             # version number to diff from
-to=<n>               # version number to diff to
-filter=local|sync    # filter by version source
+file=<name>          # имя файла
+path=<path>          # путь к файлу
+from=<n>             # номер версии для сравнения (от)
+to=<n>               # номер версии для сравнения (до)
+filter=local|sync    # фильтр по источнику версии
 ```
 
-**Examples:**
+**Примеры:**
 
 ```shell
-# List all versions of the active file
+# Список всех версий активного файла
 diff
 
-# List all versions of a specific file
+# Список всех версий конкретного файла
 diff file=Recipe
 
-# Compare the latest version to the current file
+# Сравнить последнюю версию с текущим файлом
 diff file=Recipe from=1
 
-# Compare two versions
+# Сравнить две версии
 diff file=Recipe from=2 to=1
 
-# Only show Sync versions
+# Показать только версии Sync
 diff filter=sync
 ```
 
 ### `history`
 
-List versions from [[File recovery]] only. See [[#Sync|sync:history]] for the equivalent Sync command.
+Список версий только из [[Восстановление файлов|Восстановления файлов]]. См. [[#Sync|sync:history]] для аналогичной команды Sync.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 ```
 
 ### `history:list`
 
-List all files with local history.
+Список всех файлов с локальной историей.
 
 ### `history:read`
 
-Read a local history version.
+Прочитать версию из локальной истории.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # version number (default: 1)
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+version=<n>        # номер версии (по умолчанию: 1)
 ```
 
 ### `history:restore`
 
-Restore a local history version.
+Восстановить версию из локальной истории.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # (required) version number
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+version=<n>        # (required) номер версии
 ```
 
 ### `history:open`
 
-Open file recovery.
+Открыть восстановление файлов.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 ```
 
-## Files and folders
+## Файлы и папки
 
 ### `file`
 
-Show file info (default: active file).
+Показать информацию о файле (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 ```
 
-Example:
+Пример:
 
 ```
 path       Notes/Recipe.md
@@ -444,1118 +443,1118 @@ modified   1700001000000
 
 ### `files`
 
-List files in the vault.
+Список файлов в хранилище.
 
 ```bash
-folder=<path>      # filter by folder
-ext=<extension>    # filter by extension
+folder=<path>      # фильтр по папке
+ext=<extension>    # фильтр по расширению
 
-total              # return file count
+total              # вернуть количество файлов
 ```
 
 ### `folder`
 
-Show folder info.
+Показать информацию о папке.
 
 ```bash
-path=<path>              # (required) folder path
-info=files|folders|size  # return specific info only
+path=<path>              # (required) путь к папке
+info=files|folders|size  # вернуть только конкретную информацию
 ```
 
 ### `folders`
 
-List folders in the vault.
+Список папок в хранилище.
 
 ```bash
-folder=<path>      # filter by parent folder
+folder=<path>      # фильтр по родительской папке
 
-total              # return folder count
+total              # вернуть количество папок
 ```
 
 ### `open`
 
-Open a file.
+Открыть файл.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 
-newtab             # open in new tab
+newtab             # открыть в новой вкладке
 ```
 
 ### `create`
 
-Create or overwrite a file.
+Создать или перезаписать файл.
 
 ```bash
-name=<name>        # file name
-path=<path>        # file path
-content=<text>     # initial content
-template=<name>    # template to use
+name=<name>        # имя файла
+path=<path>        # путь к файлу
+content=<text>     # начальное содержимое
+template=<name>    # используемый шаблон
 
-overwrite          # overwrite if file exists
-open               # open file after creating
-newtab             # open in new tab
+overwrite          # перезаписать, если файл существует
+open               # открыть файл после создания
+newtab             # открыть в новой вкладке
 ```
 
 ### `read`
 
-Read file contents (default: active file).
+Прочитать содержимое файла (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 ```
 
 ### `append`
 
-Append content to a file (default: active file).
+Добавить содержимое в конец файла (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-content=<text>     # (required) content to append
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+content=<text>     # (required) содержимое для добавления
 
-inline             # append without newline
+inline             # добавить без перевода строки
 ```
 
 ### `prepend`
 
-Prepend content after frontmatter (default: active file).
+Добавить содержимое после начальных метаданных (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-content=<text>     # (required) content to prepend
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+content=<text>     # (required) содержимое для добавления в начало
 
-inline             # prepend without newline
+inline             # добавить без перевода строки
 ```
 
 ### `move`
 
-Move or rename a file (default: active file). This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
+Переместить или переименовать файл (по умолчанию: активный файл). Внутренние ссылки будут автоматически обновлены, если это включено в [[Настройки#Всегда обновлять внутренние ссылки|настройках хранилища]].
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-to=<path>          # (required) destination folder or path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+to=<path>          # (required) целевая папка или путь
 ```
 
 ### `rename`
 
-Rename a file (default: active file). The file extension is preserved automatically if omitted from the new name. Use [[#`move`|move]] to rename and move a file at the same time. This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
+Переименовать файл (по умолчанию: активный файл). Расширение файла сохраняется автоматически, если не указано в новом имени. Используйте [[#`move`|move]] для одновременного переименования и перемещения файла. Внутренние ссылки будут автоматически обновлены, если это включено в [[Настройки#Всегда обновлять внутренние ссылки|настройках хранилища]].
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-name=<name>        # (required) new file name
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+name=<name>        # (required) новое имя файла
 ```
 
 ### `delete`
 
-Delete a file (default: active file, trash by default).
+Удалить файл (по умолчанию: активный файл, в корзину).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 
-permanent          # skip trash, delete permanently
+permanent          # пропустить корзину, удалить навсегда
 ```
 
-## Links
+## Ссылки
 
-Commands for [[Backlinks]] and [[Outgoing links]].
+Команды для [[Обратные ссылки|Обратных ссылок]] и [[Исходящие ссылки|Исходящих ссылок]].
 
 ### `backlinks`
 
-List backlinks to a file (default: active file).
+Список обратных ссылок на файл (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # target file name
-path=<path>        # target file path
+file=<name>        # имя целевого файла
+path=<path>        # путь к целевому файлу
 
-counts             # include link counts
-total              # return backlink count
-format=json|tsv|csv  # output format (default: tsv)
+counts             # включить количество ссылок
+total              # вернуть количество обратных ссылок
+format=json|tsv|csv  # формат вывода (по умолчанию: tsv)
 ```
 
 ### `links`
 
-List outgoing links from a file (default: active file).
+Список исходящих ссылок из файла (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 
-total              # return link count
+total              # вернуть количество ссылок
 ```
 
 ### `unresolved`
 
-List unresolved links in vault.
+Список неразрешённых ссылок в хранилище.
 
 ```bash
-total              # return unresolved link count
-counts             # include link counts
-verbose            # include source files
-format=json|tsv|csv  # output format (default: tsv)
+total              # вернуть количество неразрешённых ссылок
+counts             # включить количество ссылок
+verbose            # включить исходные файлы
+format=json|tsv|csv  # формат вывода (по умолчанию: tsv)
 ```
 
 ### `orphans`
 
-List files with no incoming links.
+Список файлов без входящих ссылок.
 
 ```bash
-total              # return orphan count
+total              # вернуть количество файлов-сирот
 ```
 
 ### `deadends`
 
-List files with no outgoing links.
+Список файлов без исходящих ссылок.
 
 ```bash
-total              # return dead-end count
+total              # вернуть количество тупиковых файлов
 ```
 
-## Outline
+## Структура
 
-Commands for [[Outline]].
+Команды для [[Структура|Структуры]].
 
 ### `outline`
 
-Show headings for the current file.
+Показать заголовки текущего файла.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-format=tree|md|json  # output format (default: tree)
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+format=tree|md|json  # формат вывода (по умолчанию: tree)
 
-total              # return heading count
+total              # вернуть количество заголовков
 ```
 
-## Plugins
+## Плагины
 
-Commands for [[Core plugins]] and [[Community plugins]].
+Команды для [[Основные плагины|Основных плагинов]] и [[Сторонние плагины|Сторонних плагинов]].
 
 ### `plugins`
 
-List installed plugins.
+Список установленных плагинов.
 
 ```bash
-filter=core|community  # filter by plugin type
+filter=core|community  # фильтр по типу плагина
 
-versions               # include version numbers
-format=json|tsv|csv    # output format (default: tsv)
+versions               # включить номера версий
+format=json|tsv|csv    # формат вывода (по умолчанию: tsv)
 ```
 
 ### `plugins:enabled`
 
-List enabled plugins.
+Список включённых плагинов.
 
 ```bash
-filter=core|community  # filter by plugin type
+filter=core|community  # фильтр по типу плагина
 
-versions               # include version numbers
-format=json|tsv|csv    # output format (default: tsv)
+versions               # включить номера версий
+format=json|tsv|csv    # формат вывода (по умолчанию: tsv)
 ```
 
 ### `plugins:restrict`
 
-Toggle or check restricted mode.
+Переключить или проверить ограниченный режим.
 
 ```bash
-on                 # enable restricted mode
-off                # disable restricted mode
+on                 # включить ограниченный режим
+off                # отключить ограниченный режим
 ```
 
 ### `plugin`
 
-Get plugin info.
+Получить информацию о плагине.
 
 ```bash
-id=<plugin-id>     # (required) plugin ID
+id=<plugin-id>     # (required) ID плагина
 ```
 
 ### `plugin:enable`
 
-Enable a plugin.
+Включить плагин.
 
 ```bash
-id=<id>                # (required) plugin ID
-filter=core|community  # plugin type
+id=<id>                # (required) ID плагина
+filter=core|community  # тип плагина
 ```
 
 ### `plugin:disable`
 
-Disable a plugin.
+Отключить плагин.
 
 ```bash
-id=<id>                # (required) plugin ID
-filter=core|community  # plugin type
+id=<id>                # (required) ID плагина
+filter=core|community  # тип плагина
 ```
 
 ### `plugin:install`
 
-Install a community plugin.
+Установить плагин сообщества.
 
 ```bash
-id=<id>            # (required) plugin ID
+id=<id>            # (required) ID плагина
 
-enable             # enable after install
+enable             # включить после установки
 ```
 
 ### `plugin:uninstall`
 
-Uninstall a community plugin.
+Удалить плагин сообщества.
 
 ```bash
-id=<id>            # (required) plugin ID
+id=<id>            # (required) ID плагина
 ```
 
 ### `plugin:reload`
 
-Reload a plugin (for developers).
+Перезагрузить плагин (для разработчиков).
 
 ```bash
-id=<id>            # (required) plugin ID
+id=<id>            # (required) ID плагина
 ```
 
-## Properties
+## Свойства
 
-Commands related to [[Properties]].
+Команды, связанные со [[Свойства|Свойствами]].
 
 ### `aliases`
 
-List aliases in the vault. Use `active` or `file`/`path` to show aliases for a specific file.
+Список псевдонимов в хранилище. Используйте `active` или `file`/`path` для отображения псевдонимов конкретного файла.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 
-total              # return alias count
-verbose            # include file paths
-active             # show aliases for active file
+total              # вернуть количество псевдонимов
+verbose            # включить пути к файлам
+active             # показать псевдонимы активного файла
 ```
 
 ### `properties`
 
-List properties in the vault. Use `active` or `file`/`path` to show properties for a specific file.
+Список свойств в хранилище. Используйте `active` или `file`/`path` для отображения свойств конкретного файла.
 
 ```bash
-file=<name>        # show properties for file
-path=<path>        # show properties for path
-name=<name>        # get specific property count
-sort=count         # sort by count (default: name)
-format=yaml|json|tsv  # output format (default: yaml)
+file=<name>        # показать свойства файла
+path=<path>        # показать свойства по пути
+name=<name>        # получить количество конкретного свойства
+sort=count         # сортировать по количеству (по умолчанию: имя)
+format=yaml|json|tsv  # формат вывода (по умолчанию: yaml)
 
-total              # return property count
-counts             # include occurrence counts
-active             # show properties for active file
+total              # вернуть количество свойств
+counts             # включить количество вхождений
+active             # показать свойства активного файла
 ```
 
 ### `property:set`
 
-Set a property on a file (default: active file).
+Установить свойство файла (по умолчанию: активный файл).
 
 ```bash
-name=<name>                                    # (required) property name
-value=<value>                                  # (required) property value
-type=text|list|number|checkbox|date|datetime   # property type
-file=<name>                                    # file name
-path=<path>                                    # file path
+name=<name>                                    # (required) название свойства
+value=<value>                                  # (required) значение свойства
+type=text|list|number|checkbox|date|datetime   # тип свойства
+file=<name>                                    # имя файла
+path=<path>                                    # путь к файлу
 ```
 
 ### `property:remove`
 
-Remove a property from a file (default: active file).
+Удалить свойство из файла (по умолчанию: активный файл).
 
 ```bash
-name=<name>        # (required) property name
-file=<name>        # file name
-path=<path>        # file path
+name=<name>        # (required) название свойства
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 ```
 
 ### `property:read`
 
-Read a property value from a file (default: active file).
+Прочитать значение свойства из файла (по умолчанию: активный файл).
 
 ```bash
-name=<name>        # (required) property name
-file=<name>        # file name
-path=<path>        # file path
+name=<name>        # (required) название свойства
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 ```
 
 ## Publish
 
-Commands for [[Introduction to Obsidian Publish|Obsidian Publish]].
+Команды для [[Введение в Obsidian Publish|Obsidian Publish]].
 
 ### `publish:site`
 
-Show publish site info (slug, URL).
+Показать информацию о сайте Publish (slug, URL).
 
 ### `publish:list`
 
-List published files.
+Список опубликованных файлов.
 
 ```bash
-total              # return published file count
+total              # вернуть количество опубликованных файлов
 ```
 
 ### `publish:status`
 
-List publish changes.
+Список изменений для публикации.
 
 ```bash
-total              # return change count
-new                # show new files only
-changed            # show changed files only
-deleted            # show deleted files only
+total              # вернуть количество изменений
+new                # показать только новые файлы
+changed            # показать только изменённые файлы
+deleted            # показать только удалённые файлы
 ```
 
 ### `publish:add`
 
-Publish a file or all changed files (default: active file).
+Опубликовать файл или все изменённые файлы (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 
-changed            # publish all changed files
+changed            # опубликовать все изменённые файлы
 ```
 
 ### `publish:remove`
 
-Unpublish a file (default: active file).
+Снять публикацию файла (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 ```
 
 ### `publish:open`
 
-Open file on published site (default: active file).
+Открыть файл на опубликованном сайте (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 ```
 
-## Random notes
+## Случайные заметки
 
-Commands for [[Random note]].
+Команды для [[Случайная заметка|Случайной заметки]].
 
 ### `random`
 
-Open a random note.
+Открыть случайную заметку.
 
 ```bash
-folder=<path>      # limit to folder
+folder=<path>      # ограничить папкой
 
-newtab             # open in new tab
+newtab             # открыть в новой вкладке
 ```
 
 ### `random:read`
 
-Read a random note (includes path).
+Прочитать случайную заметку (включает путь).
 
 ```bash
-folder=<path>      # limit to folder
+folder=<path>      # ограничить папкой
 ```
 
-## Search
+## Поиск
 
-Commands for [[Search]].
+Команды для [[Поиск|Поиска]].
 
 ### `search`
 
-Search vault for text. Returns matching file paths.
+Поиск текста в хранилище. Возвращает пути к совпавшим файлам.
 
 ```bash
-query=<text>       # (required) search query
-path=<folder>      # limit to folder
-limit=<n>          # max files
-format=text|json   # output format (default: text)
+query=<text>       # (required) поисковый запрос
+path=<folder>      # ограничить папкой
+limit=<n>          # максимальное количество файлов
+format=text|json   # формат вывода (по умолчанию: text)
 
-total              # return match count
-case               # case sensitive
+total              # вернуть количество совпадений
+case               # с учётом регистра
 ```
 
 ### `search:context`
 
-Search with matching line context. Returns grep-style `path:line: text` output.
+Поиск с контекстом совпавших строк. Возвращает вывод в стиле grep: `путь:строка: текст`.
 
 ```bash
-query=<text>       # (required) search query
-path=<folder>      # limit to folder
-limit=<n>          # max files
-format=text|json   # output format (default: text)
+query=<text>       # (required) поисковый запрос
+path=<folder>      # ограничить папкой
+limit=<n>          # максимальное количество файлов
+format=text|json   # формат вывода (по умолчанию: text)
 
-case               # case sensitive
+case               # с учётом регистра
 ```
 
 ### `search:open`
 
-Open search view.
+Открыть представление поиска.
 
 ```bash
-query=<text>       # initial search query
+query=<text>       # начальный поисковый запрос
 ```
 
 ## Sync
 
-Commands for [[Introduction to Obsidian Sync|Obsidian Sync]].
+Команды для [[Введение в Obsidian Sync|Obsidian Sync]].
 
-> [!tip] Sync without the desktop app
-> These commands control Sync within the running Obsidian app. To sync vaults from the command line without the desktop app, see [[Headless Sync]].
+> [!tip] Синхронизация без настольного приложения
+> Эти команды управляют Sync в запущенном приложении Obsidian. Для синхронизации хранилищ из командной строки без настольного приложения см. [[Headless Sync]].
 
 ### `sync`
 
-Pause or resume sync.
+Приостановить или возобновить синхронизацию.
 
 ```bash
-on                 # resume sync
-off                # pause sync
+on                 # возобновить синхронизацию
+off                # приостановить синхронизацию
 ```
 
 ### `sync:status`
 
-Show sync status and usage.
+Показать статус синхронизации и использование.
 
 ### `sync:history`
 
-List sync version history for a file (default: active file).
+Список истории версий Sync для файла (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 
-total              # return version count
+total              # вернуть количество версий
 ```
 
 ### `sync:read`
 
-Read a sync version (default: active file).
+Прочитать версию Sync (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # (required) version number
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+version=<n>        # (required) номер версии
 ```
 
 ### `sync:restore`
 
-Restore a sync version (default: active file).
+Восстановить версию Sync (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # (required) version number
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+version=<n>        # (required) номер версии
 ```
 
 ### `sync:open`
 
-Open sync history (default: active file).
+Открыть историю синхронизации (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 ```
 
 ### `sync:deleted`
 
-List deleted files in sync.
+Список удалённых файлов в Sync.
 
 ```bash
-total              # return deleted file count
+total              # вернуть количество удалённых файлов
 ```
 
-## Tags
+## Теги
 
-Commands for [[Tags]].
+Команды для [[Теги|Тегов]].
 
 ### `tags`
 
-List tags in the vault. Use `active` or `file`/`path` to show tags for a specific file.
+Список тегов в хранилище. Используйте `active` или `file`/`path` для отображения тегов конкретного файла.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-sort=count         # sort by count (default: name)
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+sort=count         # сортировать по количеству (по умолчанию: имя)
 
-total              # return tag count
-counts             # include tag counts
-format=json|tsv|csv  # output format (default: tsv)
-active             # show tags for active file
+total              # вернуть количество тегов
+counts             # включить количество тегов
+format=json|tsv|csv  # формат вывода (по умолчанию: tsv)
+active             # показать теги активного файла
 ```
 
 ### `tag`
 
-Get tag info.
+Получить информацию о теге.
 
 ```bash
-name=<tag>         # (required) tag name
+name=<tag>         # (required) имя тега
 
-total              # return occurrence count
-verbose            # include file list and count
+total              # вернуть количество вхождений
+verbose            # включить список файлов и количество
 ```
 
-## Tasks
+## Задачи
 
-Commands for task management.
+Команды для управления задачами.
 
 ### `tasks`
 
-List tasks in the vault. Use `active` or `file`/`path` to show tasks for a specific file.
+Список задач в хранилище. Используйте `active` или `file`/`path` для отображения задач конкретного файла.
 
 ```bash
-file=<name>        # filter by file name
-path=<path>        # filter by file path
-status="<char>"    # filter by status character
+file=<name>        # фильтр по имени файла
+path=<path>        # фильтр по пути к файлу
+status="<char>"    # фильтр по символу статуса
 
-total              # return task count
-done               # show completed tasks
-todo               # show incomplete tasks
-verbose            # group by file with line numbers
-format=json|tsv|csv  # output format (default: text)
-active             # show tasks for active file
-daily              # show tasks from daily note
+total              # вернуть количество задач
+done               # показать выполненные задачи
+todo               # показать невыполненные задачи
+verbose            # группировать по файлам с номерами строк
+format=json|tsv|csv  # формат вывода (по умолчанию: text)
+active             # показать задачи активного файла
+daily              # показать задачи из ежедневной заметки
 ```
 
-**Examples:**
+**Примеры:**
 
 ```bash
-# List all tasks in the vault
+# Список всех задач в хранилище
 tasks
 
-# List incomplete tasks in the vault
+# Список невыполненных задач в хранилище
 tasks todo
 
-# List completed tasks from a specific file
+# Список выполненных задач из конкретного файла
 tasks file=Recipe done
 
-# List tasks from today's daily note
+# Список задач из сегодняшней ежедневной заметки
 tasks daily
 
-# Count tasks in daily note
+# Подсчёт задач в ежедневной заметке
 tasks daily total
 
-# List tasks with file paths and line numbers
+# Список задач с путями к файлам и номерами строк
 tasks verbose
 
-# Filter by custom status (quote special chars)
+# Фильтр по пользовательскому статусу (экранируйте спецсимволы)
 tasks 'status=?'
 ```
 
 ### `task`
 
-Show or update a task.
+Показать или обновить задачу.
 
 ```bash
-ref=<path:line>    # task reference (path:line)
-file=<name>        # file name
-path=<path>        # file path
-line=<n>           # line number
-status="<char>"    # set status character
+ref=<path:line>    # ссылка на задачу (путь:строка)
+file=<name>        # имя файла
+path=<path>        # путь к файлу
+line=<n>           # номер строки
+status="<char>"    # установить символ статуса
 
-toggle             # toggle task status
-daily              # daily note
-done               # mark as done
-todo               # mark as todo
+toggle             # переключить статус задачи
+daily              # ежедневная заметка
+done               # отметить как выполненную
+todo               # отметить как невыполненную
 ```
 
-**Examples:**
+**Примеры:**
 
 ```bash
-# Show task info
+# Показать информацию о задаче
 task file=Recipe line=8
 task ref="Recipe.md:8"
 
-# Toggle task completion
+# Переключить выполнение задачи
 task ref="Recipe.md:8" toggle
 
-# Toggle task in daily note
+# Переключить задачу в ежедневной заметке
 task daily line=3 toggle
 
-# Set task status
+# Установить статус задачи
 task file=Recipe line=8 done      # → [x]
 task file=Recipe line=8 todo      # → [ ]
 task file=Recipe line=8 status=-  # → [-]
-task daily line=3 done            # Mark daily note task as done
+task daily line=3 done            # Отметить задачу в ежедневной заметке как выполненную
 ```
 
 
-## Templates
+## Шаблоны
 
-Commands for [[Plugins/Templates|Templates]].
+Команды для [[Plugins/Шаблоны|Шаблонов]].
 
 ### `templates`
 
-List templates.
+Список шаблонов.
 
 ```bash
-total              # return template count
+total              # вернуть количество шаблонов
 ```
 
 ### `template:read`
 
-Read template content.
+Прочитать содержимое шаблона.
 
 ```bash
-name=<template>    # (required) template name
-title=<title>      # title for variable resolution
+name=<template>    # (required) название шаблона
+title=<title>      # заголовок для разрешения переменных
 
-resolve            # resolve template variables
+resolve            # разрешить переменные шаблона
 ```
 
 ### `template:insert`
 
-Insert template into active file.
+Вставить шаблон в активный файл.
 
 ```bash
-name=<template>    # (required) template name
+name=<template>    # (required) название шаблона
 ```
 
-**Notes:**
-- `resolve` option processes `{{date}}`, `{{time}}`, `{{title}}` variables
-- Use `create path=<path> template=<name>` to create a file with a template
+**Примечания:**
+- Параметр `resolve` обрабатывает переменные `{{date}}`, `{{time}}`, `{{title}}`
+- Используйте `create path=<path> template=<name>` для создания файла с шаблоном
 
-## Themes and snippets
+## Темы и фрагменты
 
-Commands for [[Themes]] and [[CSS snippets]].
+Команды для [[Темы|Тем]] и [[CSS-сниппеты|CSS-сниппетов]].
 
 ### `themes`
 
-List installed themes.
+Список установленных тем.
 
 ```bash
-versions           # include version numbers
+versions           # включить номера версий
 ```
 
 ### `theme`
 
-Show active theme or get info.
+Показать активную тему или получить информацию.
 
 ```bash
-name=<name>        # theme name for details
+name=<name>        # название темы для подробностей
 ```
 
 ### `theme:set`
 
-Set active theme.
+Установить активную тему.
 
 ```bash
-name=<name>        # (required) theme name (empty for default)
+name=<name>        # (required) название темы (пустое для темы по умолчанию)
 ```
 
 ### `theme:install`
 
-Install a community theme.
+Установить тему сообщества.
 
 ```bash
-name=<name>        # (required) theme name
+name=<name>        # (required) название темы
 
-enable             # activate after install
+enable             # активировать после установки
 ```
 
 ### `theme:uninstall`
 
-Uninstall a theme.
+Удалить тему.
 
 ```bash
-name=<name>        # (required) theme name
+name=<name>        # (required) название темы
 ```
 
 ### `snippets`
 
-List installed CSS snippets.
+Список установленных CSS-сниппетов.
 
 ### `snippets:enabled`
 
-List enabled CSS snippets.
+Список включённых CSS-сниппетов.
 
 ### `snippet:enable`
 
-Enable a CSS snippet.
+Включить CSS-сниппет.
 
 ```bash
-name=<name>        # (required) snippet name
+name=<name>        # (required) название сниппета
 ```
 
 ### `snippet:disable`
 
-Disable a CSS snippet.
+Отключить CSS-сниппет.
 
 ```bash
-name=<name>        # (required) snippet name
+name=<name>        # (required) название сниппета
 ```
 
-## Unique notes
+## Уникальные заметки
 
-Commands for [[Unique note creator]].
+Команды для [[Создатель уникальных заметок|Создателя уникальных заметок]].
 
 ### `unique`
 
-Create unique note.
+Создать уникальную заметку.
 
 ```bash
-name=<text>        # note name
-content=<text>     # initial content
-paneType=tab|split|window    # pane type to open in
+name=<text>        # название заметки
+content=<text>     # начальное содержимое
+paneType=tab|split|window    # тип панели для открытия
 
-open               # open file after creating
+open               # открыть файл после создания
 ```
 
-## Vault
+## Хранилище
 
 ### `vault`
 
-Show vault info.
+Показать информацию о хранилище.
 
 ```bash
-info=name|path|files|folders|size  # return specific info only
+info=name|path|files|folders|size  # вернуть только конкретную информацию
 ```
 
 ### `vaults`
 
-List known vaults.
+Список известных хранилищ.
 
 ```bash
-total              # return vault count
-verbose            # include vault paths
+total              # вернуть количество хранилищ
+verbose            # включить пути к хранилищам
 ```
 
 ### `vault:open`
 
-Switch to a different vault (TUI only).
+Переключиться на другое хранилище (только в TUI).
 
 ```bash
-name=<name>        # (required) vault name
+name=<name>        # (required) название хранилища
 ```
 
-## Web viewer
+## Веб-просмотр
 
-Commands for [[Web viewer]].
+Команды для [[Веб-просмотр|Веб-просмотра]].
 
 ### `web`
 
-Open URL in web viewer.
+Открыть URL в веб-просмотрщике.
 
 ```bash
-url=<url>          # (required) URL to open
+url=<url>          # (required) URL для открытия
 
-newtab             # open in new tab
+newtab             # открыть в новой вкладке
 ```
 
-## Wordcount
+## Счётчик слов
 
-Commands for [[Word count]].
+Команды для [[Счётчик слов|Счётчика слов]].
 
 ### `wordcount`
 
-Count words and characters (default: active file).
+Подсчитать слова и символы (по умолчанию: активный файл).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # имя файла
+path=<path>        # путь к файлу
 
-words              # return word count only
-characters         # return character count only
+words              # вернуть только количество слов
+characters         # вернуть только количество символов
 ```
 
-## Workspace
+## Рабочее пространство
 
-Commands for [[Workspace]] and the [[Workspaces]] plugin.
+Команды для [[Рабочее пространство|Рабочего пространства]] и плагина [[Рабочие пространства|Рабочие пространства]].
 
 ### `workspace`
 
-Show workspace tree.
+Показать дерево рабочего пространства.
 
 ```bash
-ids                # include workspace item IDs
+ids                # включить ID элементов рабочего пространства
 ```
 
 ### `workspaces`
 
-List saved workspaces.
+Список сохранённых рабочих пространств.
 
 ```bash
-total              # return workspace count
+total              # вернуть количество рабочих пространств
 ```
 
 ### `workspace:save`
 
-Save current layout as workspace.
+Сохранить текущую компоновку как рабочее пространство.
 
 ```bash
-name=<name>        # workspace name
+name=<name>        # название рабочего пространства
 ```
 
 ### `workspace:load`
 
-Load a saved workspace.
+Загрузить сохранённое рабочее пространство.
 
 ```bash
-name=<name>        # (required) workspace name
+name=<name>        # (required) название рабочего пространства
 ```
 
 ### `workspace:delete`
 
-Delete a saved workspace.
+Удалить сохранённое рабочее пространство.
 
 ```bash
-name=<name>        # (required) workspace name
+name=<name>        # (required) название рабочего пространства
 ```
 
 ### `tabs`
 
-List open tabs.
+Список открытых вкладок.
 
 ```bash
-ids                # include tab IDs
+ids                # включить ID вкладок
 ```
 
 ### `tab:open`
 
-Open a new tab.
+Открыть новую вкладку.
 
 ```bash
-group=<id>         # tab group ID
-file=<path>        # file to open
-view=<type>        # view type to open
+group=<id>         # ID группы вкладок
+file=<path>        # файл для открытия
+view=<type>        # тип представления для открытия
 ```
 
 ### `recents`
 
-List recently opened files.
+Список недавно открытых файлов.
 
 ```bash
-total              # return recent file count
+total              # вернуть количество недавних файлов
 ```
 
-## Developer commands
+## Команды для разработчиков
 
-Commands to help you develop [[Community plugins]] and [[Themes]]. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
+Команды для разработки [[Сторонние плагины|Сторонних плагинов]] и [[Темы|Тем]]. Подробнее на сайте [документации для разработчиков Obsidian](https://docs.obsidian.md).
 
 ### `devtools`
 
-Toggle Electron dev tools.
+Переключить инструменты разработчика Electron.
 
 ### `dev:debug`
 
-Attach/detach Chrome DevTools Protocol debugger.
+Подключить/отключить отладчик Chrome DevTools Protocol.
 
 ```bash
-on                 # attach debugger
-off                # detach debugger
+on                 # подключить отладчик
+off                # отключить отладчик
 ```
 
 ### `dev:cdp`
 
-Run a Chrome DevTools Protocol command.
+Выполнить команду Chrome DevTools Protocol.
 
 ```bash
-method=<CDP.method>  # (required) CDP method to call
-params=<json>        # method parameters as JSON
+method=<CDP.method>  # (required) метод CDP для вызова
+params=<json>        # параметры метода в формате JSON
 ```
 
 ### `dev:errors`
 
-Show captured JavaScript errors.
+Показать перехваченные ошибки JavaScript.
 
 ```bash
-clear              # clear the error buffer
+clear              # очистить буфер ошибок
 ```
 
 ### `dev:screenshot`
 
-Take a screenshot (returns base64 PNG).
+Сделать скриншот (возвращает PNG в base64).
 
 ```bash
-path=<filename>    # output file path
+path=<filename>    # путь к выходному файлу
 ```
 
 ### `dev:console`
 
-Show captured console messages.
+Показать перехваченные сообщения консоли.
 
 ```bash
-limit=<n>                        # max messages to show (default 50)
-level=log|warn|error|info|debug  # filter by log level
+limit=<n>                        # максимальное количество сообщений (по умолчанию 50)
+level=log|warn|error|info|debug  # фильтр по уровню логирования
 
-clear                            # clear the console buffer
+clear                            # очистить буфер консоли
 ```
 
 ### `dev:css`
 
-Inspect CSS with source locations.
+Инспектировать CSS с указанием расположения в исходном коде.
 
 ```bash
-selector=<css>     # (required) CSS selector
-prop=<name>        # filter by property name
+selector=<css>     # (required) CSS-селектор
+prop=<name>        # фильтр по названию свойства
 ```
 
 ### `dev:dom`
 
-Query DOM elements.
+Запрос элементов DOM.
 
 ```bash
-selector=<css>     # (required) CSS selector
-attr=<name>        # get attribute value
-css=<prop>         # get CSS property value
+selector=<css>     # (required) CSS-селектор
+attr=<name>        # получить значение атрибута
+css=<prop>         # получить значение CSS-свойства
 
-total              # return element count
-text               # return text content
-inner              # return innerHTML instead of outerHTML
-all                # return all matches instead of first
+total              # вернуть количество элементов
+text               # вернуть текстовое содержимое
+inner              # вернуть innerHTML вместо outerHTML
+all                # вернуть все совпадения вместо первого
 ```
 
 ### `dev:mobile`
 
-Toggle mobile emulation.
+Переключить эмуляцию мобильного устройства.
 
 ```bash
-on                 # enable mobile emulation
-off                # disable mobile emulation
+on                 # включить эмуляцию мобильного устройства
+off                # отключить эмуляцию мобильного устройства
 ```
 
 ### `eval`
 
-Execute JavaScript and return result.
+Выполнить JavaScript и вернуть результат.
 
 ```bash
-code=<javascript>  # (required) JavaScript code to execute
+code=<javascript>  # (required) JavaScript-код для выполнения
 ```
 
-## Keyboard shortcuts
+## Сочетания клавиш
 
-These shortcuts are available in the [[#Use the terminal interface|TUI]].
+Эти сочетания клавиш доступны в [[#Использование терминального интерфейса|TUI]].
 
-### Navigation
+### Навигация
 
-| Action                                                | Shortcut       |
-| ----------------------------------------------------- | -------------- |
-| Move cursor left                                      | `←` / `Ctrl+B` |
-| Move cursor right (accepts suggestion at end of line) | `→` / `Ctrl+F` |
-| Jump to start of line                                 | `Ctrl+A`       |
-| Jump to end of line                                   | `Ctrl+E`       |
-| Move back one word                                    | `Alt+B`        |
-| Move forward one word                                 | `Alt+F`        |
+| Действие                                                    | Сочетание        |
+| ----------------------------------------------------------- | ---------------- |
+| Переместить курсор влево                                    | `←` / `Ctrl+B`  |
+| Переместить курсор вправо (принять подсказку в конце строки)| `→` / `Ctrl+F`  |
+| Перейти в начало строки                                     | `Ctrl+A`         |
+| Перейти в конец строки                                      | `Ctrl+E`         |
+| Переместить на одно слово назад                             | `Alt+B`          |
+| Переместить на одно слово вперёд                            | `Alt+F`          |
 
-### Editing
+### Редактирование
 
-| Action                  | Shortcut                   |
-| ----------------------- | -------------------------- |
-| Delete to start of line | `Ctrl+U`                   |
-| Delete to end of line   | `Ctrl+K`                   |
-| Delete previous word    | `Ctrl+W` / `Alt+Backspace` |
+| Действие                       | Сочетание                    |
+| ------------------------------ | ---------------------------- |
+| Удалить до начала строки       | `Ctrl+U`                     |
+| Удалить до конца строки        | `Ctrl+K`                     |
+| Удалить предыдущее слово       | `Ctrl+W` / `Alt+Backspace`   |
 
-### Autocomplete
+### Автодополнение
 
-| Action                                             | Shortcut    |
-| -------------------------------------------------- | ----------- |
-| Enter suggestion mode / accept selected suggestion | `Tab`       |
-| Exit suggestion mode                               | `Shift+Tab` |
-| Enter suggestion mode (from fresh input)           | `↓`         |
-| Accept first/selected suggestion (at end of line)  | `→`         |
+| Действие                                                     | Сочетание     |
+| ------------------------------------------------------------ | ------------- |
+| Войти в режим подсказок / принять выбранную подсказку        | `Tab`         |
+| Выйти из режима подсказок                                    | `Shift+Tab`   |
+| Войти в режим подсказок (при новом вводе)                    | `↓`           |
+| Принять первую/выбранную подсказку (в конце строки)          | `→`           |
 
-### History
+### История
 
-| Action                                                     | Shortcut       |
-| ---------------------------------------------------------- | -------------- |
-| Previous history entry / navigate suggestions up           | `↑` / `Ctrl+P` |
-| Next history entry / navigate suggestions down             | `↓` / `Ctrl+N` |
-| Reverse history search (type to filter, `Ctrl+R` to cycle) | `Ctrl+R`       |
+| Действие                                                                | Сочетание        |
+| ----------------------------------------------------------------------- | ---------------- |
+| Предыдущая запись истории / навигация по подсказкам вверх               | `↑` / `Ctrl+P`  |
+| Следующая запись истории / навигация по подсказкам вниз                 | `↓` / `Ctrl+N`  |
+| Обратный поиск по истории (введите для фильтрации, `Ctrl+R` для цикла) | `Ctrl+R`         |
 
-### Other
+### Прочее
 
-| Action                                                 | Shortcut            |
-| ------------------------------------------------------ | ------------------- |
-| Execute command or accept suggestion                   | `Enter`             |
-| Undo autocomplete / exit suggestion mode / clear input | `Escape`            |
-| Clear screen                                           | `Ctrl+L`            |
-| Exit                                                   | `Ctrl+C` / `Ctrl+D` |
+| Действие                                                                | Сочетание             |
+| ----------------------------------------------------------------------- | --------------------- |
+| Выполнить команду или принять подсказку                                 | `Enter`               |
+| Отменить автодополнение / выйти из режима подсказок / очистить ввод    | `Escape`              |
+| Очистить экран                                                          | `Ctrl+L`              |
+| Выход                                                                   | `Ctrl+C` / `Ctrl+D`  |
 
-## Troubleshooting
+## Устранение неполадок
 
-If you are having trouble running Obsidian CLI:
+Если у вас возникли проблемы с запуском Obsidian CLI:
 
-- Make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.12.4 or above).
-- Restart your terminal after registering the CLI for the PATH changes to take effect.
-- Obsidian must be running. The CLI connects to the running Obsidian instance. If Obsidian is not running, the first CLI command should launch the app.
+- Убедитесь, что вы используете последнюю [[Обновление Obsidian|версию установщика Obsidian]] (1.12.4 или выше).
+- Перезапустите терминал после регистрации CLI, чтобы изменения PATH вступили в силу.
+- Obsidian должен быть запущен. CLI подключается к запущенному экземпляру Obsidian. Если Obsidian не запущен, первая команда CLI должна запустить приложение.
 
 ### Windows
 
-Obsidian CLI on Windows requires the Obsidian 1.12.4+ installer. See [[Update Obsidian|Installer version update]].
+Obsidian CLI на Windows требует установщик Obsidian 1.12.4+. См. [[Обновление Obsidian|Обновление версии установщика]].
 
-Windows uses a terminal redirector that connects Obsidian to stdin/stdout properly. This is necessary because Obsidian normally runs as a GUI app which is incompatible with terminal outputs on Windows. When you install Obsidian 1.12.4+ the `Obsidian.com` terminal redirector will be added in the folder where you installed the `Obsidian.exe` file.
+Windows использует терминальный перенаправитель, который правильно подключает Obsidian к stdin/stdout. Это необходимо, потому что Obsidian обычно работает как GUI-приложение, которое несовместимо с терминальным выводом в Windows. При установке Obsidian 1.12.4+ файл терминального перенаправителя `Obsidian.com` будет добавлен в папку, где установлен файл `Obsidian.exe`.
 
 ### macOS
 
-The CLI registration adds the Obsidian binary directory to your PATH via `~/.zprofile`. If you are having trouble, check the following:
+Регистрация CLI добавляет директорию бинарных файлов Obsidian в ваш PATH через `~/.zprofile`. Если у вас возникли проблемы, проверьте следующее:
 
-Your `~/.zprofile` file should contain the following line. If it's missing, you can add it manually:
+Ваш файл `~/.zprofile` должен содержать следующую строку. Если она отсутствует, вы можете добавить её вручную:
 
 ```
 export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 ```
 
-#### Alternate shells
+#### Альтернативные оболочки
 
-The CLI registration only modifies `~/.zprofile`, which is used by zsh (the default macOS shell). If you use a different shell, add the Obsidian binary directory to your shell's configuration file manually:
+Регистрация CLI изменяет только `~/.zprofile`, который используется zsh (оболочкой macOS по умолчанию). Если вы используете другую оболочку, добавьте директорию бинарных файлов Obsidian в конфигурационный файл вашей оболочки вручную:
 
-- Bash: add `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` to `~/.bash_profile`
-- Fish: run `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
+- Bash: добавьте `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` в `~/.bash_profile`
+- Fish: выполните `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
 
 
 ### Linux
 
-The CLI registration creates a symlink at `/usr/local/bin/obsidian` pointing to the Obsidian binary (requires sudo). 
+Регистрация CLI создаёт символическую ссылку в `/usr/local/bin/obsidian`, указывающую на бинарный файл Obsidian (требуется sudo).
 
 #### AppImage
 
-For AppImage installs, the symlink points to the `.AppImage` file instead of the internal binary, since the mount path changes each launch. If sudo fails, the symlink is created at `~/.local/bin/obsidian` as a fallback. If you are having trouble, check the following.
+Для установок AppImage символическая ссылка указывает на файл `.AppImage` вместо внутреннего бинарного файла, так как путь монтирования меняется при каждом запуске. Если sudo не удаётся, символическая ссылка создаётся в `~/.local/bin/obsidian` в качестве запасного варианта. Если у вас возникли проблемы, проверьте следующее.
 
-Check that the symlink exists and points to the correct binary:
+Убедитесь, что символическая ссылка существует и указывает на правильный бинарный файл:
 
 ```
 ls -l /usr/local/bin/obsidian
 ```
 
-If the symlink is missing, create it manually:
+Если символическая ссылка отсутствует, создайте её вручную:
 
 ```
 sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
 ```
 
-I the symlink was created in `~/.local/bin/` instead, make sure that directory is in your PATH. Add the following to your `~/.bashrc` or `~/.zshrc`:
+Если символическая ссылка была создана в `~/.local/bin/`, убедитесь, что эта директория находится в вашем PATH. Добавьте следующее в ваш `~/.bashrc` или `~/.zshrc`:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-If the symlink breaks after moving or renaming the `.AppImage` file, re-register the CLI or update the symlink manually.
+Если символическая ссылка сломалась после перемещения или переименования файла `.AppImage`, повторно зарегистрируйте CLI или обновите символическую ссылку вручную.
 
 #### Snap
 
-The Snap package stores insider build data in its own user data directory. If the CLI doesn't detect the insider `.asar`, set `XDG_CONFIG_HOME` to point to the Snap config path:
+Пакет Snap хранит данные сборки Insider в собственной директории пользовательских данных. Если CLI не обнаруживает `.asar` сборки Insider, установите `XDG_CONFIG_HOME` на путь конфигурации Snap:
 
 ```
 export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
 ```
 
-Add this to your `~/.bashrc` or `~/.zshrc` to make it persistent.
+Добавьте это в ваш `~/.bashrc` или `~/.zshrc`, чтобы сделать настройку постоянной.
 
 
 #### Flatpak
 
-Obsidian tries to do this automatically, but below are the manual instructions. If it is a system install:
+Obsidian пытается сделать это автоматически, но ниже приведены инструкции для ручной настройки. Если это системная установка:
 
 ```
 ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
 ```
 
-If it is a user install:
+Если это пользовательская установка:
 
 ```
 ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian

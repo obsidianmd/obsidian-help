@@ -1,70 +1,69 @@
 ---
-localized: null
 permalink: backup
 aliases:
   - Back up your Obsidian files
 ---
-If you haven't backed up your computer yet, start now! Obsidian's [[File recovery]] plugin is useful but limited. It can only recover a certain amount of data, and it stores recovery information per device. For more robust protection, we recommend that you implement a proper backup system.
+Если вы ещё не делали резервное копирование компьютера, начните прямо сейчас! Плагин [[Восстановление файлов]] в Obsidian полезен, но ограничен. Он может восстановить лишь определённый объём данных и хранит информацию для восстановления на каждом устройстве отдельно. Для более надёжной защиты мы рекомендуем внедрить полноценную систему резервного копирования.
 
-**Why back up your data?**
+**Зачем нужно резервное копирование данных?**
 
-By default, Obsidian stores your notes **locally** on your device, not in the cloud. This means the [data is fully yours](https://obsidian.md/about), giving you control over it. However, local storage can be affected by issues like corruption or data loss. It is never a matter of if, but when. Backing up your data protects against these inevitabilities and ensures you maintain control of your notes.
+По умолчанию Obsidian хранит ваши заметки **локально** на вашем устройстве, а не в облаке. Это означает, что [данные полностью принадлежат вам](https://obsidian.md/about), предоставляя вам контроль над ними. Однако локальное хранение может быть подвержено таким проблемам, как повреждение данных или их потеря. Вопрос не в том, произойдёт ли это, а в том, когда. Резервное копирование защищает от этих неизбежных ситуаций и обеспечивает сохранность ваших заметок.
 
-## Syncing is not a backup
+## Синхронизация — это не резервное копирование
 
-Services like [[Introduction to Obsidian Sync|Obsidian Sync]], iCloud, OneDrive, and Dropbox help you sync your notes across different devices. While they may offer features like [[Version history|note restoration]], **they are not designed for backups**. Syncing keeps your notes updated, but it doesn’t protect against data loss.
+Сервисы вроде [[Введение в Obsidian Sync|Obsidian Sync]], iCloud, OneDrive и Dropbox помогают синхронизировать заметки между различными устройствами. Хотя они могут предлагать такие функции, как [[История версий|восстановление заметок]], **они не предназначены для резервного копирования**. Синхронизация поддерживает актуальность заметок, но не защищает от потери данных.
 
-- **Sync:** Syncing ensures your files are the same on all devices. When you change a file on one device, it updates on all synced devices. Syncing services do not have a "primary" device.
-- **Backup:** A backup saves a copy of your data in a different location to help recover it in case of data loss or corruption. Backups are not meant for real-time updates or collaboration.
+- **Синхронизация:** Синхронизация обеспечивает одинаковое состояние файлов на всех устройствах. Когда вы изменяете файл на одном устройстве, он обновляется на всех синхронизированных устройствах. У сервисов синхронизации нет «основного» устройства.
+- **Резервное копирование:** Резервное копирование сохраняет копию ваших данных в другом месте, чтобы помочь восстановить их в случае потери или повреждения. Резервные копии не предназначены для обновления в реальном времени или совместной работы.
 
-To properly back up your vault, use a dedicated backup tool that creates a one-way copy of your data. This tool will send your data to a safe backup location without changing the data on your device.
+Для правильного резервного копирования хранилища используйте специализированный инструмент, который создаёт одностороннюю копию данных. Такой инструмент отправит ваши данные в безопасное место хранения резервных копий, не изменяя данные на вашем устройстве.
 
-If you use multiple devices with syncing, choose **one device** to be your backup device. This is usually your main or "primary" device, the one you use the most. Note that most syncing services do not recognize any device as "primary"; this is just a concept to help you manage backups.
+Если вы используете несколько устройств с синхронизацией, выберите **одно устройство** в качестве устройства для резервного копирования. Обычно это ваше основное, или «главное», устройство — то, которое вы используете чаще всего. Обратите внимание, что большинство сервисов синхронизации не выделяют какое-либо устройство как «основное»; это лишь концепция, помогающая вам управлять резервным копированием.
 
-> [!Example] You use Obsidian Sync on your laptop, tablet, phone, and work desktop. You mostly use your vault on your work desktop, sometimes on your laptop, and rarely on your tablet or phone. In this case, your work desktop would be your "primary device" for backup.
+> [!Example] Вы используете Obsidian Sync на ноутбуке, планшете, телефоне и рабочем настольном компьютере. Чаще всего вы работаете с хранилищем на рабочем компьютере, иногда на ноутбуке и редко на планшете или телефоне. В этом случае рабочий компьютер будет вашим «основным устройством» для резервного копирования.
 
-## Use community plugins
+## Использование плагинов сообщества
 
-While the Obsidian Team cannot officially endorse any specific plugin, we recognize two community plugins that have become popular among users for backing up their files:
+Хотя команда Obsidian не может официально рекомендовать какой-либо конкретный плагин, мы отмечаем два плагина сообщества, которые стали популярными среди пользователей для резервного копирования файлов:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Use this plugin to back up your vault by committing its contents to a [Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). It's an effective way to version control your notes and ensure their safety on a remote server. However, please be aware that your data may be stored on an [[#Use cloud-based services|external hosting platform]] using this method.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** This plugin lets you create local copies of your vault in a folder of your choice, with options for archival. You can even use a syncing folder, like a Dropbox folder, to combine local and cloud backups. This method **pairs well** with the backup options described below.
+- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Используйте этот плагин для резервного копирования хранилища путём коммита его содержимого в [репозиторий Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Это эффективный способ контроля версий заметок и обеспечения их сохранности на удалённом сервере. Однако учтите, что при этом методе ваши данные могут храниться на [[#Использование облачных сервисов|внешней хостинговой платформе]].
+- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Этот плагин позволяет создавать локальные копии хранилища в выбранной вами папке с возможностью архивации. Вы даже можете использовать папку синхронизации, например папку Dropbox, чтобы совместить локальное и облачное резервное копирование. Этот метод **хорошо сочетается** с вариантами резервного копирования, описанными ниже.
 
-## Use cloud-based services
+## Использование облачных сервисов
 
-> [!info] It is not recommended that you keep your vault location in your chosen backup service.
+> [!info] Не рекомендуется размещать хранилище непосредственно в папке выбранного сервиса резервного копирования.
 
-Keeping your backup in the cloud is an alternative and a complement to physical data storage, instead of an external hard drive or USB stick. An external hard drive or USB stick can be lost or damaged. The biggest advantage of storing files in the cloud is that they are available anytime, anywhere. The downside is, most backup services are owned by a private company.
+Хранение резервных копий в облаке является альтернативой и дополнением к физическому хранению данных, заменяя внешний жёсткий диск или USB-накопитель. Внешний жёсткий диск или USB-накопитель может быть потерян или повреждён. Главное преимущество хранения файлов в облаке — они доступны в любое время и в любом месте. Недостаток в том, что большинство сервисов резервного копирования принадлежат частным компаниям.
 
-In terms of security, you should always pay close attention to access and security with cloud backups. [Worldbackupday](https://www.worldbackupday.com/en) keeps an up-to-date list of online backup services to consider using.
+С точки зрения безопасности вам следует всегда уделять пристальное внимание доступу и защите облачных резервных копий. На сайте [Worldbackupday](https://www.worldbackupday.com/en) представлен актуальный список онлайн-сервисов резервного копирования, которые стоит рассмотреть.
 
-## Use external drives
+## Использование внешних накопителей
 
-**Hard drives and SSD drives**
-External hard drive backups are still valuable in an increasing cloud-based world, and are mainly used for data storage and computer backups. The biggest disadvantage of an external drive is that the drive can break down or get lost. The biggest advantage is that the storage space only needs to be purchased once. Using an external hard drive is often combined with a [[#Use computer backups|computer backup]].
+**Жёсткие диски и SSD-накопители**
+Резервное копирование на внешние жёсткие диски по-прежнему ценно во всё более облачном мире и используется в основном для хранения данных и резервного копирования компьютеров. Главный недостаток внешнего накопителя — он может сломаться или потеряться. Главное преимущество — место для хранения нужно приобрести лишь один раз. Использование внешнего жёсткого диска часто сочетается с [[#Использование резервного копирования компьютера|резервным копированием компьютера]].
 
-**USB flash drives**
-Flash drives (also called thumb drives, memory sticks, or pen drives) are a simple and effective method for quick backups.
+**USB-флеш-накопители**
+Флеш-накопители (также называемые флешками или картами памяти) — это простой и эффективный метод быстрого резервного копирования.
 
-1. Insert the flash drive into your computer or laptop.
-2. Ensure the device is recognized and mounted in your file system. If necessary, format the flash drive to be compatible with your filesystem.
-3. Copy your vault folder from its current location onto the flash drive.
-4. Safely unmount the flash drive.
-5. Remove the flash drive from your device.
+1. Вставьте флеш-накопитель в компьютер или ноутбук.
+2. Убедитесь, что устройство распознано и подключено в файловой системе. При необходимости отформатируйте флеш-накопитель для совместимости с вашей файловой системой.
+3. Скопируйте папку хранилища из текущего расположения на флеш-накопитель.
+4. Безопасно извлеките флеш-накопитель.
+5. Отсоедините флеш-накопитель от устройства.
 
-**NAS backup**
-For experienced users, backing up data on a NAS (Network Attached Storage) server is a good and secure method, as it has multiple hard drives and additional recovery mechanisms.
+**Резервное копирование на NAS**
+Для опытных пользователей резервное копирование данных на NAS-сервер (сетевое хранилище) — надёжный и безопасный метод, поскольку он использует несколько жёстких дисков и дополнительные механизмы восстановления.
 
-> [!tip] If your external drive contains sensitive information, it is recommended to keep the external drive secure, such as in a secured room.
+> [!tip] Если на вашем внешнем накопителе хранится конфиденциальная информация, рекомендуется хранить его в безопасном месте, например в защищённом помещении.
 
-## Use computer backups
+## Использование резервного копирования компьютера
 
-Your operating system itself offer the ability to help create backups, whether online in the cloud, or in an external drive.
+Ваша операционная система сама предоставляет возможности для создания резервных копий — как в облако, так и на внешний накопитель.
 
-- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Backup with OneDrive or an external drive.
-- **[Mac](https://support.apple.com/en-us/104984)**: Backup to an external device with Time Machine.
-- **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` to a directory or drive of choice.
+- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Резервное копирование с помощью OneDrive или на внешний накопитель.
+- **[Mac](https://support.apple.com/en-us/104984)**: Резервное копирование на внешнее устройство с помощью Time Machine.
+- **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` в выбранную директорию или на накопитель.
 
-## Next steps
+## Дальнейшие шаги
 
-This help page provides a brief overview of backup options, but it's not exhaustive. For more in-depth information, visit [Worldbackupday.com](https://www.worldbackupday.com/en) or ask other Obsidian users in [our community](https://obsidian.md/community) about their backup strategies!
+Эта страница помощи предоставляет краткий обзор вариантов резервного копирования, но она не исчерпывающая. Для более подробной информации посетите [Worldbackupday.com](https://www.worldbackupday.com/en) или спросите других пользователей Obsidian в [нашем сообществе](https://obsidian.md/community) об их стратегиях резервного копирования!

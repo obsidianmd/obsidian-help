@@ -1,48 +1,47 @@
 ---
-localized: null
 permalink: credit
 aliases:
   - Obsidian Credit
 ---
-Obsidian Credit is a type of prepaid credit that can be bought in advance and applied toward purchases of any Obsidian service or license. Obsidian Credit can be [[#Gifting|gifted]] to other Obsidian users, such as friends, family, and coworkers.
+Кредиты Obsidian — это вид предоплатного кредита, который можно купить заранее и использовать для покупки любых сервисов или лицензий Obsidian. Кредитами Obsidian можно [[#Подарки|поделиться]] с другими пользователями Obsidian — друзьями, родственниками и коллегами.
 
-Obsidian Credit will be applied before any payment is due, including auto-renewals. Obsidian Credit **is not** eligible for a refund per our [[Refund policy]].
+Кредиты Obsidian будут списаны до любого платежа, включая автоматические продления. Кредиты Obsidian **не подлежат** возврату согласно нашей [[Политика возврата средств|Политике возврата средств]].
 
-## Add credit
+## Добавление кредитов
 
-1. Log into [your Obsidian account](https://obsidian.md/account/billing).
-2. In the [Billing](https://obsidian.md/account/billing) section, go to **Obsidian Credit** and choose **Buy credit**.
-3. Enter the amount of Obsidian Credit you want to buy. The amount is in US dollars.
-4. Proceed to pay for the credit with any of the supported payment methods.
+1. Войдите в [свой аккаунт Obsidian](https://obsidian.md/account/billing).
+2. В разделе [Billing](https://obsidian.md/account/billing) перейдите к **Obsidian Credit** и выберите **Buy credit**.
+3. Введите сумму кредитов Obsidian, которую хотите приобрести. Сумма указывается в долларах США.
+4. Оплатите кредиты любым из поддерживаемых способов оплаты.
 
-> [!Note] Sales tax
-> Any applicable [[sales tax]] will be charged when you make a purchase of a product, such as Obsidian Sync, not when you buy Obsidian Credit.
+> [!Note] Налог с продаж
+> Соответствующий [[Налог с продаж|налог с продаж]] взимается при покупке продукта, например Obsidian Sync, а не при покупке кредитов Obsidian.
 >
-> If you plan to cover auto-renewals with your credit, please keep this factor in mind.
+> Если вы планируете покрывать автоматические продления за счёт кредитов, имейте это в виду.
 
-## Gifting
+## Подарки
 
-Although Obsidian is completely free to use, you can give the gift of Obsidian Credit to help someone get an add-on service like [[Introduction to Obsidian Sync|Obsidian Sync]] or a [[Commercial license|Commercial license]] for using Obsidian at work.
+Хотя Obsidian полностью бесплатен в использовании, вы можете подарить кредиты Obsidian, чтобы помочь кому-то получить дополнительный сервис, например [[Введение в Obsidian Sync|Obsidian Sync]], или [[Коммерческая лицензия|коммерческую лицензию]] для использования Obsidian на работе.
 
-Please note that Obsidian Credit **cannot** be re-gifted once claimed. The original recipient will not be able to transfer or share it with others.
+Обратите внимание, что кредиты Obsidian **нельзя** передарить после получения. Первоначальный получатель не сможет передать их или поделиться ими с другими.
 
-## Give Obsidian Credit
+## Отправка кредитов Obsidian
 
-In Obsidian, you don't gift a particular product, but rather Obsidian Credit that can be used towards anything. It's like an Obsidian gift card.
+В Obsidian вы дарите не конкретный продукт, а кредиты Obsidian, которые можно потратить на что угодно. Это работает как подарочная карта Obsidian.
 
-1. If you don't already have [[Obsidian Credit]], you must first [[Obsidian Credit#Add credit|purchase credit]].
-2. Go to the [Billing](https://obsidian.md/account/billing) section of your account, and choose **Send credit**.
-3. Follow the instructions to either get a redeem link to send yourself, or have us send an anonymized email to the recipient.
-4. Click **Send gift** to complete the gifting. You will be sent an email confirmation.
-5. After you send out a gift, you can view it under **Billing → Gift history**. You can see the status of each gift, and cancel the ones that haven't been redeemed yet.
+1. Если у вас ещё нет [[Кредиты Obsidian|кредитов Obsidian]], сначала необходимо [[Кредиты Obsidian#Добавление кредитов|приобрести кредиты]].
+2. Перейдите в раздел [Billing](https://obsidian.md/account/billing) вашего аккаунта и выберите **Send credit**.
+3. Следуйте инструкциям, чтобы получить ссылку для активации, которую вы отправите самостоятельно, или чтобы мы отправили анонимное письмо получателю.
+4. Нажмите **Send gift**, чтобы завершить отправку подарка. Вам будет отправлено письмо с подтверждением.
+5. После отправки подарка вы можете просмотреть его в разделе **Billing → Gift history**. Там отображается статус каждого подарка, и вы можете отменить те, которые ещё не были активированы.
 
-## Receiving Obsidian Credit
+## Получение кредитов Obsidian
 
-If you have received a redemption link or an anonymized email, follow these steps to redeem your Obsidian Credit:
+Если вы получили ссылку для активации или анонимное письмо, выполните следующие действия для активации кредитов Obsidian:
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account/billing).
-2. Open the redemption link or click the link in your email.
-3. Confirm that you want to receive the credits.
-4. The credits will be deposited within your account, ready to be used.
+1. Войдите или создайте [свой аккаунт Obsidian](https://obsidian.md/account/billing).
+2. Откройте ссылку для активации или перейдите по ссылке в письме.
+3. Подтвердите, что хотите получить кредиты.
+4. Кредиты будут зачислены на ваш аккаунт и готовы к использованию.
 
-The purchaser will be notified that you have redeemed the Obsidian Credit.
+Покупатель получит уведомление о том, что вы активировали кредиты Obsidian.

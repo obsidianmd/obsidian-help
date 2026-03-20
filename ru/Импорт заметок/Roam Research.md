@@ -1,32 +1,30 @@
 ---
-localized: null
 permalink: import/roam
 aliases:
   - Import from Roam Research
 ---
-Obsidian lets you easily migrate your notes from Roam Research  using the [[Importer|Importer plugin]]. This will convert your Roam data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian позволяет легко перенести ваши заметки из Roam Research с помощью [[Импортёр|плагина Импортёр]]. Он преобразует ваши данные Roam в долговечные файлы Markdown, которые можно использовать в Obsidian и многих других приложениях.
 
-## Export your data from Roam Research
+## Экспорт данных из Roam Research
 
-1. In Roam Research, click on **More actions** ( `•••` ) in the upper-right corner, and then select **Export All**.
+1. В Roam Research нажмите на **Ещё** ( `•••` ) в правом верхнем углу, а затем выберите **Export All**.
    
    ![[Roam-exporting.png#interface]]
-2. In **Export Format**, select "JSON", and then select **Export All** to download an archive with your notes.
+2. В поле **Export Format** выберите «JSON», а затем нажмите **Export All**, чтобы скачать архив с вашими заметками.
 
-## Import your Roam Research data into Obsidian
+## Импорт данных Roam Research в Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Вам понадобится официальный плагин Obsidian [[Импортёр]], который можно [установить здесь](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Roam Research (.json).**
-6. Select the location of your `.json` file.
-7. Under **Output folder**, choose where your files should import.
-8. If you want to also import attachments, toggle **Download all attachments**.
-9. Click **Import** and wait until import is complete.
-10. You're done!
+1. Откройте **[[Настройки]]**.
+2. Перейдите в раздел **Плагины сообщества** и [установите Импортёр](obsidian://show-plugin?id=obsidian-importer).
+3. Включите плагин Импортёр.
+4. Откройте плагин **Импортёр** с помощью палитры команд или значка на вертикальной панели.
+5. В поле **Формат файла** выберите **Roam Research (.json).**
+6. Укажите расположение вашего файла `.json`.
+7. В поле **Папка для сохранения** выберите, куда следует импортировать файлы.
+8. Если вы хотите также импортировать вложения, включите опцию **Загрузить все вложения**.
+9. Нажмите **Импорт** и дождитесь завершения импорта.
+10. Готово!
 
 ![[Roam-Importer-importing.png]]
-

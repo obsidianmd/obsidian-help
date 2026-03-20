@@ -1,57 +1,56 @@
 ---
-localized: null
 permalink: catalyst
 aliases:
   - Catalyst license
 ---
-The Catalyst license is a one-time purchase that gives you early access to beta versions and helps support continued development of Obsidian. You can support Obsidian by [purchasing a Catalyst license](https://obsidian.md/buy/catalyst). 
+Лицензия Catalyst — это единоразовая покупка, которая даёт вам ранний доступ к бета-версиям и помогает поддерживать дальнейшую разработку Obsidian. Вы можете поддержать Obsidian, [приобретя лицензию Catalyst](https://obsidian.md/buy/catalyst).
 
-Benefits include:
+Преимущества включают:
 
-- Early access to [[#Enable early access versions|new versions]] of Obsidian
-- Access to exclusive [[#Join our Insider channels|Insider channels]].
-- Exclusive [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
+- Ранний доступ к [[#Включение ранних версий|новым версиям]] Obsidian
+- Доступ к эксклюзивным [[#Присоединяйтесь к каналам Insider|каналам Insider]].
+- Эксклюзивные [[#Получение значка на форуме|значки на форуме]] и [[#Получение значка в Discord|значки в Discord]].
 
-## Catalyst tiers
+## Уровни Catalyst
 
-There are three tiers of Catalyst based on the amount you contribute: *Insider*, *Supporter*, and *VIP*.
+Существует три уровня Catalyst в зависимости от суммы вашего вклада: *Insider*, *Supporter* и *VIP*.
 
-| Benefits                                                                           | Insider | Supporter |   VIP    |
+| Преимущества                                                                       | Insider | Supporter |   VIP    |
 | ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Early access to new versions                                                       |    ✓    |     ✓     |    ✓     |
-| Access to exclusive development channels, `#insider-desktop` and `#insider-mobile` |    ✓    |     ✓     |    ✓     |
-| Access to exclusive lounge channel, `#vip-lounge`                                  |         |     ✓     |    ✓     |
-| Insider badge                                                                      |    ✓    |           |          |
-| Supporter badge                                                                    |         |     ✓     |          |
-| VIP badge                                                                          |         |           |    ✓     |
-| **Contribution (USD)**                                                             | **$25** |  **$50**  | **$100** |
+| Ранний доступ к новым версиям                                                      |    ✓    |     ✓     |    ✓     |
+| Доступ к эксклюзивным каналам разработки, `#insider-desktop` и `#insider-mobile`   |    ✓    |     ✓     |    ✓     |
+| Доступ к эксклюзивному каналу `#vip-lounge`                                        |         |     ✓     |    ✓     |
+| Значок Insider                                                                     |    ✓    |           |          |
+| Значок Supporter                                                                   |         |     ✓     |          |
+| Значок VIP                                                                         |         |           |    ✓     |
+| **Вклад (USD)**                                                                    | **$25** |  **$50**  | **$100** |
 
 
-> [!info] Upgrade your Catalyst tier
-> If you already own a Catalyst license, you can upgrade to a higher Catalyst tier by paying the price difference between your current and the new tier.
+> [!info] Повышение уровня Catalyst
+> Если у вас уже есть лицензия Catalyst, вы можете повысить уровень Catalyst, оплатив разницу в стоимости между вашим текущим и новым уровнем.
 
-## Access Catalyst benefits
+## Доступ к преимуществам Catalyst
 
-Once you've purchased a Catalyst license, you can access a range of benefits. Learn how to enable them here.
+После приобретения лицензии Catalyst вы можете воспользоваться рядом преимуществ. Узнайте, как их активировать, ниже.
 
-### Get your forum badge
+### Получение значка на форуме
 
-**Note:** To connect your Obsidian account and your forum account, you must use the same email address for both accounts.
+**Примечание:** Чтобы связать ваш аккаунт Obsidian и аккаунт на форуме, необходимо использовать одну и ту же электронную почту для обоих аккаунтов.
 
-1. If you haven't already, join our [forum](https://forum.obsidian.md/).
-2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
-3. Under **Catalyst**, select **Get forum badge**.
+1. Если вы ещё этого не сделали, присоединяйтесь к нашему [форуму](https://forum.obsidian.md/).
+2. Перейдите в [панель управления аккаунтом Obsidian](https://obsidian.md/account/catalyst).
+3. В разделе **Catalyst** выберите **Get forum badge**.
 
-### Get your Discord badge
+### Получение значка в Discord
 
-1. If you haven't already, join our [Discord server](https://discord.gg/veuWUTm).
-2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
-3. Under **Catalyst**, select **Get Discord badge**.
+1. Если вы ещё этого не сделали, присоединяйтесь к нашему [серверу Discord](https://discord.gg/veuWUTm).
+2. Перейдите в [панель управления аккаунтом Obsidian](https://obsidian.md/account/catalyst).
+3. В разделе **Catalyst** выберите **Get Discord badge**.
 
-### Join our Insider channels
+### Присоединяйтесь к каналам Insider
 
-Insiders can chat with the Obsidian team and other Insiders in our exclusive Discord channels. You automatically join the Insider channels after you [[#Get your Discord badge]].
+Участники Insider могут общаться с командой Obsidian и другими участниками Insider в наших эксклюзивных каналах Discord. Вы автоматически присоединитесь к каналам Insider после того, как [[#Получение значка в Discord|получите значок в Discord]].
 
-### Enable early access versions
+### Включение ранних версий
 
-Learn how to receive [[Early access versions]].
+Узнайте, как получить [[Ранние версии|ранние версии]].

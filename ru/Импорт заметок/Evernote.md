@@ -1,60 +1,59 @@
 ---
-localized: null
 permalink: import/evernote
 aliases:
   - Import from Evernote
 ---
-Obsidian lets you easily migrate your notes from Evernote using the [[Importer|Importer plugin]]. This will convert your Evernote data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian позволяет легко перенести ваши заметки из Evernote с помощью [[Импортёр|плагина Импортёр]]. Он преобразует ваши данные Evernote в надёжные файлы Markdown, которые можно использовать с Obsidian и многими другими приложениями.
 
-## Export your data from Evernote
+## Экспорт данных из Evernote
 
-Obsidian uses Evernote's export format `.enex` files.
+Obsidian использует формат экспорта Evernote — файлы `.enex`.
 
-You can find Evernote's instructions for exporting your data [on Evernote's website](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). This method lets you export entire notebooks in the desktop client.
+Инструкции по экспорту данных можно найти [на сайте Evernote](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). Этот метод позволяет экспортировать целые блокноты в настольном клиенте.
 
-1. Go to the Notebooks screen.
-2. Click on **More actions** ( `•••` ) and choose **Export Notebook...**
-3. Select **ENEX** as the file format.
-3. Choose a location for your exported `.enex` file.
+1. Перейдите на экран «Блокноты».
+2. Нажмите **Ещё** ( `•••` ) и выберите **Экспорт блокнота...**
+3. Выберите **ENEX** в качестве формата файла.
+3. Укажите расположение для экспортируемого файла `.enex`.
 
-## Import your Evernote data into Obsidian
+## Импорт данных Evernote в Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Вам потребуется официальный плагин Obsidian [[Импортёр]], который можно [установить здесь](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Evernote (.enex)**.
-6. Select the location of your Evernote backup file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. Откройте **[[Настройки]]**.
+2. Перейдите в **Плагины сообщества** и [установите Импортёр](obsidian://show-plugin?id=obsidian-importer).
+3. Включите плагин Импортёр.
+4. Откройте плагин **Импортёр** с помощью палитры команд или значка на вертикальной панели.
+5. В разделе **Формат файла** выберите **Evernote (.enex)**.
+6. Укажите расположение файла резервной копии Evernote.
+7. Нажмите **Импорт** и дождитесь завершения импорта.
+8. Готово!
 
-## Advanced import options
+## Расширенные настройки импорта
 
-### Maintain tag hierarchy
+### Сохранение иерархии тегов
 
-Evernote export does not keep the tag hierarchy. To keep your tag hierarchy, you can "flatten" tags separated by "/". For example, assuming that you have the following tag structure: 
+Экспорт из Evernote не сохраняет иерархию тегов. Чтобы сохранить иерархию тегов, вы можете «сплющить» теги, разделив их символом «/». Например, допустим, у вас следующая структура тегов:
 
 ```
 ParentTag
     ChildTag
 ```
 
-What you need to do to keep tags related in Obsidian is:
+Чтобы сохранить связь тегов в Obsidian, нужно сделать следующее:
 
-1. Right-click on the ChildTag.
-2. Select "Rename."
-3. Rename it as `ParentTag/ChildTag`.
+1. Щёлкните правой кнопкой мыши по ChildTag.
+2. Выберите «Переименовать».
+3. Переименуйте его в `ParentTag/ChildTag`.
 
-### Handling notebook stacks
+### Обработка стопок блокнотов
 
-Since the export process is limited to single notebooks, the default export file lacks information about notebook stacks. However, the importer can recognize patterns in the enex file name to recreate notebook stacks as folders.
+Поскольку процесс экспорта ограничен отдельными блокнотами, файл экспорта по умолчанию не содержит информации о стопках блокнотов. Однако импортёр может распознавать шаблоны в имени файла enex для воссоздания стопок блокнотов в виде папок.
 
-Assuming that you have a notebook called ```NotebookA``` in a stack called ```Stack1```, you can recreate a notebook stack by renaming the enex file to ```Stack1@@@NotebookA```.
+Допустим, у вас есть блокнот ```NotebookA``` в стопке ```Stack1```. Вы можете воссоздать стопку блокнотов, переименовав файл enex в ```Stack1@@@NotebookA```.
 
-This results in the converted notes being generated within the Stack1/NotebookA folder.
+В результате преобразованные заметки будут сгенерированы в папке Stack1/NotebookA.
 
-### More options
+### Дополнительные возможности
 
-For more advanced import options from Evernote you can also try [importing via Yarle](https://github.com/akosbalasko/yarle).
+Для более продвинутых вариантов импорта из Evernote вы также можете попробовать [импорт через Yarle](https://github.com/akosbalasko/yarle).

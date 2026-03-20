@@ -1,16 +1,15 @@
 ---
-localized: null
 permalink: import/markdown
 aliases:
   - Import Markdown files
 ---
-Obsidian uses Markdown `.md` files as the primary format for notes. This makes it easy to import Markdown files into Obsidian. Many apps can edit Markdown files or export to this format.
+Obsidian использует файлы Markdown `.md` в качестве основного формата для заметок. Это позволяет легко импортировать файлы Markdown в Obsidian. Многие приложения могут редактировать файлы Markdown или экспортировать в этот формат.
 
-There are several ways to add Markdown files to your Obsidian vault:
+Существует несколько способов добавить файлы Markdown в ваше хранилище Obsidian:
 
-1. Drag and drop files or folders into the [[File explorer]] window
-2. Use your system file browser (e.g. Windows Explorer or Finder on macOS), and move your files directly into the Obsidian vault folder.
+1. Перетащите файлы или папки в окно [[Файловый менеджер|файлового менеджера]]
+2. Используйте системный файловый менеджер (например, Проводник Windows или Finder на macOS) и переместите файлы непосредственно в папку хранилища Obsidian.
 
-### Converting from other flavors of Markdown
+### Конвертация из других разновидностей Markdown
 
-Obsidian uses [[Obsidian Flavored Markdown]]. Some apps use slightly different Markdown syntax. You can use [[Format converter]] to convert your files to Obsidian's Markdown syntax. 
+Obsidian использует [[Obsidian Flavored Markdown]]. Некоторые приложения используют немного отличающийся синтаксис Markdown. Вы можете использовать [[Конвертер форматов]], чтобы преобразовать ваши файлы в синтаксис Markdown, используемый в Obsidian.

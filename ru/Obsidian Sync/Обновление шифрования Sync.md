@@ -1,45 +1,44 @@
 ---
-localized: null
 permalink: sync/migrate
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: 'Move your Sync vault to a different region, perform and encryption upgrade.'
+description: Перенос хранилища Sync в другой регион и обновление шифрования.
 aliases:
   - Upgrade Sync encryption
 ---
-By default Obsidian Sync uses [[Obsidian Sync/Security and privacy#Encryption|end-to-end encryption]] for all your data. This guarantees that no one — not even the Obsidian team — can access your notes.
+По умолчанию Obsidian Sync использует [[Безопасность и конфиденциальность#Шифрование|сквозное шифрование]] для всех ваших данных. Это гарантирует, что никто — даже команда Obsidian — не сможет получить доступ к вашим заметкам.
 
-Obsidian occasionally upgrades Sync encryption to maintain the highest [[Obsidian Sync/Security and privacy|security]] standards. If an encryption upgrade is available you will see an option titled **Upgrade vault encryption** in **Obsidian Settings → Sync**. This process also allows you to change your [[Sync regions|Sync region]].
+Obsidian периодически обновляет шифрование Sync для поддержания высочайших стандартов [[Безопасность и конфиденциальность|безопасности]]. Если доступно обновление шифрования, вы увидите опцию **Обновите шифрование хранилища** в **Настройки Obsidian → Sync**. Этот процесс также позволяет изменить [[Регионы синхронизации|регион синхронизации]].
 
-## Encryption versions
+## Версии шифрования
 
-All new vaults automatically use the latest encryption. Existing vaults can be upgraded using the migration assistant. Note that all devices must be using an Obsidian app version that supports the Sync encryption version you are migrating to.
+Все новые хранилища автоматически используют последнюю версию шифрования. Существующие хранилища можно обновить с помощью помощника миграции. Обратите внимание, что все устройства должны использовать версию приложения Obsidian, поддерживающую ту версию шифрования Sync, на которую вы мигрируете.
 
-| Release date                                                            | Sync version | Minimum app version |
-| ----------------------------------------------------------------------- | ------------ | ------------------- |
-| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3            | 1.8.3               |
-| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0            | 0.9.21              |
+| Дата выпуска                                                            | Версия Sync | Минимальная версия приложения |
+| ----------------------------------------------------------------------- | ----------- | ----------------------------- |
+| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3           | 1.8.3                         |
+| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0           | 0.9.21                        |
 
-## Upgrade encryption with the migration assistant
+## Обновление шифрования с помощью помощника миграции
 
-Before you proceed, create a [[Back up your Obsidian files|backup]] of your vault to prevent any potential data loss. This process will permanently delete all data in your remote vault with the old encryption, including the version history.
+Прежде чем продолжить, создайте [[Резервное копирование файлов Obsidian|резервную копию]] вашего хранилища, чтобы предотвратить возможную потерю данных. Этот процесс безвозвратно удалит все данные в вашем удалённом хранилище со старым шифрованием, включая историю версий.
 
-> [!danger] Migrations are destructive
+> [!danger] Миграция является деструктивной
 > 
-> **Always [[Back up your Obsidian files|back up]] your vault before proceeding with a migration.**
+> **Всегда создавайте [[Резервное копирование файлов Obsidian|резервную копию]] хранилища перед миграцией.**
 > 
-> When you migrate a remote vault your data will be replaced. This means:
+> При миграции удалённого хранилища ваши данные будут заменены. Это означает:
 > 
-> 1. Remote data will be removed from Obsidian servers, and vault data will be re-uploaded in its place.
-> 2. All [[Version history|version history]] for the vault will be lost.
+> 1. Удалённые данные будут удалены с серверов Obsidian, а данные хранилища будут загружены заново на их место.
+> 2. Вся [[История версий|история версий]] хранилища будет утрачена.
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Click **Upgrade vault**. This option will only be visible if an upgrade is available for your remote vault.
-4. Double check your backups and click **Continue**.
-5. In **Vault name**, enter the name of the remote vault.
-6. In **Region**, choose your server [[#Regional sync servers|region]] for your remote vault. 
-7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
-8. Once you re-upload your data with the new encryption, re-connect to the new Sync vault on your other devices.
+1. Откройте **[[Настройки]]**.
+2. На боковой панели выберите **Sync**.
+3. Нажмите **Обновить хранилище**. Эта опция будет видна только если для вашего удалённого хранилища доступно обновление.
+4. Убедитесь, что у вас есть резервные копии, и нажмите **Продолжить**.
+5. В поле **Название** введите имя удалённого хранилища.
+6. В поле **Регион** выберите [[#Региональные серверы синхронизации|регион]] сервера для вашего удалённого хранилища.
+7. В поле **Пароль шифрования** задайте пароль для вашего хранилища. Это создаст хранилище со сквозным шифрованием. Пароль хранилища не связан с вашим аккаунтом Obsidian и может быть разным для каждого из ваших хранилищ. Подробнее см. [[Безопасность и конфиденциальность]].
+8. После повторной загрузки данных с новым шифрованием подключитесь к новому хранилищу Sync на других устройствах.

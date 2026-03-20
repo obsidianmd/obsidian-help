@@ -1,188 +1,188 @@
 ---
-localized: null
 permalink: sync/setup
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
 description: >-
-  You've purchased Obsidian Sync and are ready to get started. This guide will
-  help you set up and adjust your Obsidian Sync settings for daily use.
+  Вы приобрели Obsidian Sync и готовы начать работу. Это руководство поможет вам
+  настроить Obsidian Sync и адаптировать его параметры для повседневного
+  использования.
 aliases:
   - Set up Obsidian Sync
 ---
-You purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+Вы приобрели Obsidian Sync и готовы начать работу. Это руководство поможет вам настроить Obsidian Sync и адаптировать его параметры для повседневного использования.
 
-- **New to Obsidian Sync?** See: [[#Set up Obsidian Sync for the first time]]
-- **Connecting a second device?** See: [[#Sync a remote vault on another device]]
-- **Need to make changes?** See: [[#Manage your remote vaults]]
+- **Впервые используете Obsidian Sync?** См.: [[#Первоначальная настройка Obsidian Sync]]
+- **Подключаете второе устройство?** См.: [[#Синхронизация удалённого хранилища на другом устройстве]]
+- **Нужно внести изменения?** См.: [[#Управление удалёнными хранилищами]]
 
-## Set up Obsidian Sync for the first time
+## Первоначальная настройка Obsidian Sync
 
-In this section, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new, empty local vault to use Obsidian Sync for this purpose.
+В этом разделе вы создадите новое [[Локальные и удалённые хранилища|удалённое хранилище]] и подключите его к существующему локальному хранилищу. Для этого не нужно создавать новое пустое локальное хранилище.
 
-> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|this]] and [[Switch to Obsidian Sync]] before proceeding.
+> [!info] Находится ли ваше текущее хранилище в папке iCloud, OneDrive, Dropbox или другого сервиса синхронизации? Если **да** или вы **не уверены**, пожалуйста, прочитайте [[Часто задаваемые вопросы#Могу ли я использовать стороннюю синхронизацию вместе с Obsidian Sync?|это]] и [[Переход на Obsidian Sync]] перед тем, как продолжить.
 
-**Prerequisites**
+**Предварительные условия**
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
-- An active Obsidian Sync [[Plans and storage limits|subscription]]. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/sync).
-- **Recommended**: A [[Back up your Obsidian files|backup system]] in place for your Obsidian files. A syncing service is not a backup. 
+- Аккаунт Obsidian. Если у вас его нет, [зарегистрируйтесь](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
+- Активная [[Планы и лимиты хранилища|подписка]] на Obsidian Sync. Если у вас её нет, оформите подписку на [панели управления аккаунтом](https://obsidian.md/account/sync).
+- **Рекомендуется**: наличие [[Резервное копирование файлов Obsidian|системы резервного копирования]] для ваших файлов Obsidian. Сервис синхронизации не является резервной копией.
 
-### Log in with your Obsidian account
+### Вход в аккаунт Obsidian
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **General**.
-3. Under **Account → Your Account**, select **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Select **Login**.
+1. Откройте **[[Настройки]]**.
+2. На боковой панели выберите **Общие**.
+3. В разделе **Аккаунт → Ваш аккаунт** нажмите **Войти**.
+4. В поле **Электронная почта** введите свой адрес электронной почты.
+5. В поле **Пароль** введите свой пароль.
+6. Нажмите **Войти**.
 
-### Enable Obsidian Sync
+### Включение Obsidian Sync
 
-1. Open **[[Settings]]**.
-2. In the sidebar under **Options**, select **Core Plugins**.
-3. Toggle **Sync**.
+1. Откройте **[[Настройки]]**.
+2. На боковой панели в разделе **Настройки** выберите **Встроенные плагины**.
+3. Включите **Синхронизация**.
 
-### Create a new remote vault
+### Создание нового удалённого хранилища
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Next to **Remote vault**, select **Choose**.
-4. Select **Create new vault**.
-5. In **Vault name**, enter the name of the remote vault.
-6. In **Region**, choose your server [[#Regional sync servers|region]] for your remote vault. 
-7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
-8. Select **Create**.
+1. Откройте **[[Настройки]]**.
+2. На боковой панели выберите **Синхронизация**.
+3. Рядом с **Удалённое хранилище** нажмите **Выбрать**.
+4. Нажмите **Новое хранилище**.
+5. В поле **Название** введите название удалённого хранилища.
+6. В поле **Регион** выберите [[#Региональные серверы синхронизации|регион]] сервера для вашего удалённого хранилища.
+7. В поле **Пароль шифрования** выберите пароль для вашего хранилища. Это создаст хранилище со сквозным шифрованием. Пароль хранилища отличается от пароля вашего аккаунта Obsidian и может быть разным для каждого из ваших хранилищ. Подробнее см. в разделе [[Безопасность и конфиденциальность]].
+8. Нажмите **Создать**.
 
-### Connect to a remote vault
+### Подключение к удалённому хранилищу
 
-1. Select **Connect** next to your newly created vault.
-2. Enter the password you configured for the vault in the **Encryption password** field if you opted into [[Obsidian Sync/Security and privacy#What does end-to-end encryption mean?|end-to-end encryption]].
-3. Select **Unlock vault**.
-4. **Do not start syncing yet.** Check your sync settings in [[#Adjust Obsidian Sync settings|adjust Obsidian Sync settings]].
-    - If you wish to start syncing immediately, move onto [[#Begin syncing with Obsidian Sync|begin syncing with Obsidian Sync]].
-5. If you haven't already, close or dismiss the pop-up window prompting you to **Exclude Folders** and **Start Syncing**. Proceed to the next step.
+1. Нажмите **Подключить** рядом с только что созданным хранилищем.
+2. Введите пароль, который вы настроили для хранилища, в поле **Пароль шифрования**, если вы выбрали [[Obsidian Sync/Безопасность и конфиденциальность#Что означает сквозное шифрование?|сквозное шифрование]].
+3. Нажмите **Открыть**.
+4. **Не начинайте синхронизацию сразу.** Проверьте настройки синхронизации в разделе [[#Настройка параметров Obsidian Sync|настройка параметров Obsidian Sync]].
+    - Если вы хотите начать синхронизацию немедленно, перейдите к разделу [[#Начало синхронизации с Obsidian Sync|начало синхронизации с Obsidian Sync]].
+5. Если вы ещё не сделали этого, закройте или отклоните всплывающее окно с предложением **Исключить папки** и **Начать синхронизацию**. Перейдите к следующему шагу.
 
-#### Adjust Obsidian Sync settings
+#### Настройка параметров Obsidian Sync
 
-1. Navigate to **[[Settings]]** → **Sync** if needed.
-2. If a device name has not been added, add one to make reading your Sync logs easier!
-3. Toggle the settings under **Selective Sync** and **Vault configuration sync** to indicate which items should be synced to and from the remote vault.
-    - **Note**: If you recently disconnected from a remote vault and are reconnecting without an application restart, some settings may already be toggled on.
-4. If you make changes to any settings, restart Obsidian completely.
-5. Once Obsidian is restarted, return to **[[Settings]]** → **Sync**.
+1. При необходимости перейдите в **[[Настройки]]** → **Синхронизация**.
+2. Если имя устройства не добавлено, добавьте его, чтобы журнал синхронизации было удобнее читать!
+3. Включите или выключите параметры в разделах **Выборочная синхронизация** и **Настройка синхронизации хранилища**, чтобы указать, какие элементы должны синхронизироваться с удалённым хранилищем и обратно.
+    - **Примечание**: Если вы недавно отключились от удалённого хранилища и подключаетесь заново без перезапуска приложения, некоторые настройки могут быть уже включены.
+4. Если вы изменили какие-либо настройки, полностью перезапустите Obsidian.
+5. После перезапуска Obsidian вернитесь в **[[Настройки]]** → **Синхронизация**.
 
-#### Begin syncing with Obsidian Sync
+#### Начало синхронизации с Obsidian Sync
 
-If you are beginning syncing after connecting to a remote vault, you will see a **Start Syncing** button. Select this button to begin syncing.
+Если вы начинаете синхронизацию после подключения к удалённому хранилищу, вы увидите кнопку **Начать синхронизацию**. Нажмите эту кнопку, чтобы начать синхронизацию.
 
-If you are beginning syncing after adjusting Obsidian Sync's settings and restarting the application, you will see a **Resume** button within Sync's settings. Select this button to begin syncing.
+Если вы начинаете синхронизацию после настройки параметров Obsidian Sync и перезапуска приложения, вы увидите кнопку **Возобновить** в настройках синхронизации. Нажмите эту кнопку, чтобы начать синхронизацию.
 
-> [!done] Syncing status
-> When Obsidian Sync completes, a green circle with a checkmark ( ![[obsidian-icon-sync-synced.svg#icon]] ) appears in the bottom-right corner (desktop) or in the right sidebar (mobile). The Sync log will also display "Fully Synced" as one its most recent message.
+> [!done] Статус синхронизации
+> Когда Obsidian Sync завершит синхронизацию, в правом нижнем углу (на ПК) или на правой боковой панели (на мобильном устройстве) появится зелёный кружок с галочкой ( ![[obsidian-icon-sync-synced.svg#icon]] ). В журнале синхронизации также отобразится сообщение «Полностью синхронизировано» как одно из последних.
 >
-> For more details on sync statuses, refer to [[Status icon and messages]].
+> Подробнее о статусах синхронизации см. в разделе [[Значок состояния и сообщения]].
 ^obsidian-sync-status
 
-To connect other devices to your newly created and synced remote vault, move onto [[Set up Obsidian Sync#Sync a remote vault on another device|Sync a remote vault on another device]].
+Чтобы подключить другие устройства к только что созданному и синхронизированному удалённому хранилищу, перейдите к разделу [[Настройка Obsidian Sync#Синхронизация удалённого хранилища на другом устройстве|Синхронизация удалённого хранилища на другом устройстве]].
 
-To learn more about settings and files, move onto [[Sync settings and selective syncing]].
+Чтобы узнать больше о настройках и файлах, перейдите к разделу [[Настройки синхронизации и выборочная синхронизация]].
 
-## Sync a remote vault on another device
+## Синхронизация удалённого хранилища на другом устройстве
 
-In this section, you have already created a remote vault, and uploaded data to it. Now, you want to connect your other devices to it. 
+В этом разделе предполагается, что вы уже создали удалённое хранилище и загрузили в него данные. Теперь вы хотите подключить к нему другие устройства.
 
-**Prerequisites**
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Sync subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account).
-- Sync enabled within the [[Core plugins]] settings. 
-- An active remote vault. If you have not yet made one, please create a [[Set up Obsidian Sync#Create a new remote vault|remote vault]] first.
-- **Recommended**: A [[Back up your Obsidian files|backup system]] in place for your Obsidian files on your most-used device. A syncing service is not a backup. 
+**Предварительные условия**
+- Аккаунт Obsidian. Если у вас его нет, [зарегистрируйтесь](https://obsidian.md/account#mode=signup).
+- Активная подписка на Obsidian Sync. Если у вас её нет, оформите подписку на [панели управления аккаунтом](https://obsidian.md/account).
+- Синхронизация включена в настройках [[Основные плагины|основных плагинов]].
+- Активное удалённое хранилище. Если вы ещё не создали его, сначала создайте [[Настройка Obsidian Sync#Создание нового удалённого хранилища|удалённое хранилище]].
+- **Рекомендуется**: наличие [[Резервное копирование файлов Obsidian|системы резервного копирования]] для файлов Obsidian на вашем основном устройстве. Сервис синхронизации не является резервной копией.
 
-### Sync your vault from the vault switcher
+### Синхронизация хранилища из переключателя хранилищ
 
-If you have freshly installed Obsidian, when you open the program you will be presented with the [[Manage vaults|Vault switcher]]. To create a new local vault from the contents of a remote vault, you will want to perform the following steps.
+Если вы только что установили Obsidian, при запуске программы вам будет показан [[Управление хранилищами|переключатель хранилищ]]. Чтобы создать новое локальное хранилище из содержимого удалённого хранилища, выполните следующие шаги.
 
-1. Open Obsidian (assuming this is your first time opening it)
-2. Select one of the options depending upon your installation:
-	1. **Desktop**: In the section that says Open vault from Obsidian Sync, choose **Setup**
-	2. **Mobile/Tablet**: **Setup Obsidian Sync**
-3. Login with your Obsidian User account
-	1. If [[2-factor authentication|2FA]] is set up, enter your 2FA code.
-4. You will be asked to choose which remote vault you want to sync to this device. Select **Connect**.
-5. You will be asked to choose a name for the local vault that will be created on the device to hold this data. Enter the name of your choice. 
-	1. If you use [[Obsidian URI]]s, you will want to use the same name as the local vault on your other device. 
-6. Select **Create**.
-7. The remove vaults window will pop-up momentary as Obsidian Sync connects to your server and validates the subscription. It will then present you a *Setup Connection* window. 
-	1. It is highly recommended that you close or swipe down from this window, and [[#Adjust Obsidian Sync settings|adjust Obsidian Sync settings]] first.
-	2. If you change any Sync Settings, please reload or restart Obsidian.
+1. Откройте Obsidian (предполагается, что вы открываете его впервые)
+2. Выберите один из вариантов в зависимости от вашей платформы:
+	1. **ПК**: В разделе «Подключить к Obsidian Sync» выберите **Настроить**
+	2. **Мобильное устройство/Планшет**: **Настроить Obsidian Sync**
+3. Войдите в свой аккаунт Obsidian
+	1. Если настроена [[Двухфакторная аутентификация|двухфакторная аутентификация]], введите код 2FA.
+4. Вам будет предложено выбрать, какое удалённое хранилище вы хотите синхронизировать с этим устройством. Нажмите **Подключить**.
+5. Вам будет предложено выбрать имя для локального хранилища, которое будет создано на устройстве для хранения этих данных. Введите желаемое имя.
+	1. Если вы используете [[Obsidian URI]], рекомендуется использовать то же имя, что и у локального хранилища на другом устройстве.
+6. Нажмите **Создать**.
+7. На мгновение появится окно удалённых хранилищ, пока Obsidian Sync подключается к серверу и проверяет подписку. Затем будет показано окно *Настройки соединения*.
+	1. Настоятельно рекомендуется закрыть это окно или смахнуть его вниз и сначала [[#Настройка параметров Obsidian Sync|настроить параметры Obsidian Sync]].
+	2. Если вы изменили какие-либо настройки синхронизации, перезагрузите или перезапустите Obsidian.
 
-### Sync your vault from Obsidian Settings
+### Синхронизация хранилища через настройки Obsidian
 
-If you have already created a local vault on this device, and you want to connect this local vault to a remote vault, the instructions are very similar to [[#Set up Obsidian Sync for the first time]].
+Если вы уже создали локальное хранилище на этом устройстве и хотите подключить его к удалённому хранилищу, инструкции очень похожи на [[#Первоначальная настройка Obsidian Sync]].
 
-![[Set up Obsidian Sync#Log in with your Obsidian account]]
+![[Настройка Obsidian Sync#Вход в аккаунт Obsidian]]
 
-![[Set up Obsidian Sync#Enable Obsidian Sync]]
+![[Настройка Obsidian Sync#Включение Obsidian Sync]]
 
-#### Connect to a remote vault
+#### Подключение к удалённому хранилищу
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Next to **Pick remote vault**, click **Choose**.
-4. Click **Connect** next to the remote vault you want to connect to.
-5. In **Encryption password**, enter the password for your vault, if you have one.
-6. You will be prompted to start Syncing. It is recommended to wait and adjust your sync settings first. If you do want to sync the entire vault to the device as is, you may **Start Syncing**. 
+1. Откройте **[[Настройки]]**.
+2. На боковой панели выберите **Синхронизация**.
+3. Рядом с **Выбрать удалённое хранилище** нажмите **Выбрать**.
+4. Нажмите **Подключить** рядом с удалённым хранилищем, к которому хотите подключиться.
+5. В поле **Пароль шифрования** введите пароль для вашего хранилища, если он установлен.
+6. Вам будет предложено начать синхронизацию. Рекомендуется подождать и сначала настроить параметры синхронизации. Если вы хотите синхронизировать всё хранилище на устройство как есть, нажмите **Начать синхронизацию**.
 
-> [!warning] If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding. Conflicts will be resolved through [[Troubleshoot Obsidian Sync#Conflict resolution|Sync's conflict resolution]].
+> [!warning] Если хранилище на вашем устройстве уже содержит заметки (не рекомендуется), вы получите предупреждение о том, что эти заметки будут объединены перед продолжением. Конфликты будут разрешены с помощью [[Устранение неполадок Obsidian Sync#Разрешение конфликтов|механизма разрешения конфликтов Sync]].
 
-![[Set up Obsidian Sync#Adjust Obsidian Sync settings]]
+![[Настройка Obsidian Sync#Настройка параметров Obsidian Sync]]
 
-![[Set up Obsidian Sync#Begin syncing with Obsidian Sync]]
+![[Настройка Obsidian Sync#Начало синхронизации с Obsidian Sync]]
 
-## Manage your remote vaults
+## Управление удалёнными хранилищами
 
-You have created and connected to a remote vault. You may have also synced this remote vault to multiple devices. This section goes over some of the other common instructions you may need in managing this remote vault.
+Вы создали удалённое хранилище и подключились к нему. Возможно, вы также синхронизировали это удалённое хранилище с несколькими устройствами. В этом разделе описаны некоторые другие распространённые инструкции, которые могут понадобиться для управления удалённым хранилищем.
 
-### Disconnect from a remote vault
+### Отключение от удалённого хранилища
 
-1. Open Obsidian's **[[Settings]]**.
-2. Select **Sync** in the sidebar.
-3. Click the **Disconnect** button next to Remote vaults.
+1. Откройте **[[Настройки]]** Obsidian.
+2. На боковой панели выберите **Синхронизация**.
+3. Нажмите кнопку **Отключить** рядом с «Удалённые хранилища».
 
-You are now disconnected from the remote vault and are no longer syncing on this device.
+Теперь вы отключены от удалённого хранилища и больше не синхронизируетесь на этом устройстве.
 
-### Delete a remote vault
+### Удаление удалённого хранилища
 
-> [!tip] Deleting a remote vault will not delete your local data on your device.
+> [!tip] Удаление удалённого хранилища не удаляет ваши локальные данные на устройстве.
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Select **Manage** next to Remote vaults. A window will open with your list of remote vaults.
-4. Select the trash can icon ( ![[lucide-trash-2.svg#icon]] ) next to the remote vault you want to delete.
-5. Confirm the deletion by selecting the red **Delete** button.
-6. Your remote vault has been deleted.
+1. Откройте **[[Настройки]]**.
+2. На боковой панели выберите **Синхронизация**.
+3. Нажмите **Настроить** рядом с «Удалённые хранилища». Откроется окно со списком ваших удалённых хранилищ.
+4. Нажмите значок корзины ( ![[lucide-trash-2.svg#icon]] ) рядом с удалённым хранилищем, которое хотите удалить.
+5. Подтвердите удаление, нажав красную кнопку **Удалить**.
+6. Ваше удалённое хранилище удалено.
 
-> [!info] If there is no trash can icon visible you may need to first disconnect from the remote vault. Once disconnected, select the **Choose** button to open the list of remote vaults.
+> [!info] Если значок корзины не отображается, возможно, сначала нужно отключиться от удалённого хранилища. После отключения нажмите кнопку **Выбрать**, чтобы открыть список удалённых хранилищ.
 
-### Regional sync servers
+### Региональные серверы синхронизации
 
-Obsidian Sync lets you choose the hosting location for your remote vault. If you're using version `1.4.16` or older of Obsidian, the location will be automatically chosen for you.
+Obsidian Sync позволяет выбрать местоположение хостинга для вашего удалённого хранилища. Если вы используете Obsidian версии `1.4.16` или более ранней, местоположение будет выбрано автоматически.
 
-If you're unsure where your current vault's region is, check out [[Obsidian Sync/Security and privacy#Where can I find my current Sync server and where is it hosted?|Where can I find my current Sync server and where is it hosted?]] for guidance.
+Если вы не уверены, в каком регионе находится ваше текущее хранилище, ознакомьтесь с разделом [[Obsidian Sync/Безопасность и конфиденциальность#Где я могу узнать свой текущий сервер Sync и где он расположен?|Где найти текущий сервер Sync и где он размещён?]].
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
-After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Sync regions|follow vault Sync regions guide]].
+После выбора местоположения ваш центр обработки данных **невозможно** перенести на другой сервер без повторной загрузки данных. Чтобы изменить регион, следуйте [[Регионы синхронизации|руководству по регионам Sync]].
 
-![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
+![[Obsidian Sync/Безопасность и конфиденциальность#^sync-geo-regions]]
 
-## Next steps
+## Дальнейшие шаги
 
-Here are some suggested documents to read next.
+Вот несколько рекомендуемых документов для дальнейшего чтения.
 
-- Explore more about [[Sync settings and selective syncing|selecting files and settings to sync]].
-- Learn what happens if your remote vault [[Version history|fill up]].
-- [[Collaborate on a shared vault]] with another Obsidian Sync user.
-- Check out the [[Frequently asked questions|Sync FAQ]] for some answers to common questions.
+- Узнайте больше о [[Настройки синхронизации и выборочная синхронизация|выборе файлов и настроек для синхронизации]].
+- Узнайте, что происходит, когда ваше удалённое хранилище [[История версий|заполняется]].
+- [[Совместная работа в общем хранилище]] с другим пользователем Obsidian Sync.
+- Ознакомьтесь с [[Часто задаваемые вопросы|часто задаваемыми вопросами по Sync]] для ответов на распространённые вопросы.

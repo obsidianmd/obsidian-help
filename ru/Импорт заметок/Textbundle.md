@@ -1,30 +1,29 @@
 ---
-localized: null
 permalink: import/textbundle
 aliases:
   - Import Textbundle files
 ---
-Obsidian lets you easily import [Textbundle](https://textbundle.org/) files using the official [[Importer|Importer plugin]].
+Obsidian позволяет легко импортировать файлы [Textbundle](https://textbundle.org/) с помощью официального [[Импортёр|плагина Импортёр]].
 
-If you are importing notes from a specific app, you may want to first review the list of apps supported by [[Importer|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.
+Если вы импортируете заметки из конкретного приложения, рекомендуется сначала ознакомиться со списком приложений, поддерживаемых [[Импортёр|плагином Импортёр]], чтобы проверить, существует ли специальный конвертер, который лучше сохранит переносимые данные.
 
-The Textbundle format bundles Markdown text and all referenced images into a single file, providing a more seamless way to move out of a sandboxed application. Textbundle export is supported by [many apps](https://textbundle.org/), including Agenda, Craft, Taio, Ulysses, Zettlr, and more.
+Формат Textbundle объединяет текст в формате Markdown и все связанные изображения в один файл, обеспечивая более удобный способ экспорта данных из изолированных приложений. Экспорт в формате Textbundle поддерживается [многими приложениями](https://textbundle.org/), включая Agenda, Craft, Taio, Ulysses, Zettlr и другие.
 
-## Import Textbundle files into Obsidian
+## Импорт файлов Textbundle в Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Вам понадобится официальный плагин Obsidian [[Импортёр]], который можно [установить здесь](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Textbundle (.textbundle, .textpack).**
-6. Select the location of your Textbundle or Textpack files. Zip files are also supported.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. Откройте **[[Настройки]]**.
+2. Перейдите в раздел **Плагины сообщества** и [установите Импортёр](obsidian://show-plugin?id=obsidian-importer).
+3. Включите плагин Импортёр.
+4. Откройте плагин **Импортёр** с помощью палитры команд или значка на вертикальной панели.
+5. В разделе **Формат файла** выберите **Textbundle (.textbundle, .textpack).**
+6. Укажите расположение ваших файлов Textbundle или Textpack. Zip-файлы также поддерживаются.
+7. Нажмите **Импорт** и дождитесь завершения импорта.
+8. Готово!
 
-## Troubleshooting
+## Устранение неполадок
 
-### No files are selected for import
+### Файлы для импорта не выбраны
 
-The Textbundle import can only import one Textbundle file at a time, and only on Mac devices. Instead, you may compress all of the Textbundle files you wish to import into a single .zip file and import this instead from any device.
+Импорт Textbundle позволяет импортировать только один файл Textbundle за раз и только на устройствах Mac. Вместо этого вы можете сжать все файлы Textbundle, которые хотите импортировать, в один .zip-файл и импортировать его с любого устройства.

@@ -1,24 +1,23 @@
 ---
-localized: null
 permalink: import/zettelkasten
 aliases:
   - Import Zettelkasten notes
 ---
-If you've been using the Zettelkasten method to name and link your notes, you may need to convert links from `[[UID]]` to `[[UID My note title]]`.
+Если вы использовали метод Zettelkasten для именования и связывания заметок, вам может потребоваться преобразовать ссылки из формата `[[UID]]` в `[[UID Название моей заметки]]`.
 
-For example, if you have a note with the name `202301011230 My note title` and link to it from another note using only the UID, `[[202301011230]]`. Since Obsidian uses the full name of the note to resolve internal links, links like these will break.
+Например, если у вас есть заметка с именем `202301011230 Название моей заметки` и вы ссылаетесь на неё из другой заметки, используя только UID, `[[202301011230]]`. Поскольку Obsidian использует полное имя заметки для разрешения внутренних ссылок, подобные ссылки перестанут работать.
 
-To update all `[[UID]]` links in your vault to use the full name of the note instead, use the [[Format converter]].
+Чтобы обновить все ссылки формата `[[UID]]` в вашем хранилище, заменив их полными именами заметок, используйте [[Конвертер форматов]].
 
-1. Open **[[Settings]]**.
-2. Under **Core plugins**, enable **Format converter** and close the Settings window.
-3. In the ribbon, on the left side of the app window, select **Open format convert** ( ![[lucide-binary.svg#icon]] ).
-4. Enable **Zettelkasten link fixer**.
-5. Select **Start conversion**. This will convert all the notes in your entire vault.
+1. Откройте **[[Настройки]]**.
+2. В разделе **Встроенные плагины** включите **Импорт Markdown-файлов** и закройте окно настроек.
+3. На вертикальной панели в левой части окна приложения нажмите **Open format convert** ( ![[lucide-binary.svg#icon]] ).
+4. Включите **Исправить ссылки на Zettelkasten-заметки**.
+5. Нажмите **Начать конвертацию**. Это преобразует все заметки во всём хранилище.
 
-> [!tip] Zettelkasten link beautifier
-> [[Format converter]] can also beautify your links by removing the UID from the display name. For example, `[[UID]]` converts to `[[UID My note title|My note title]]`.
+> [!tip] Исправить и отформатировать ссылки на Zettelkasten-заметки
+> [[Конвертер форматов]] также может улучшить внешний вид ваших ссылок, удалив UID из отображаемого имени. Например, `[[UID]]` преобразуется в `[[UID Название моей заметки|Название моей заметки]]`.
 >
-> To beautify your Zettelkasten links, enable **Zettelkasten link beautifier** in the format converter window.
+> Чтобы улучшить внешний вид ваших Zettelkasten-ссылок, включите **Исправить и отформатировать ссылки на Zettelkasten-заметки** в окне конвертера форматов.
 
-You can also use the [[Unique note creator]] to create Zettelkasten notes in Obsidian.
+Вы также можете использовать [[Создатель уникальных заметок]] для создания Zettelkasten-заметок в Obsidian.

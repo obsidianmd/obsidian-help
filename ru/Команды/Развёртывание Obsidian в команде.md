@@ -1,55 +1,54 @@
 ---
-localized: null
 permalink: teams/deploy
 cssclasses:
   - soft-embed
 aliases:
   - Deploy Obsidian across your team
 ---
-Obsidian runs as a local application on each of your team member's devices. It is designed to work both online and offline, securely and privately, and give you total control over your team's data. Obsidian is not available as a web-based application, therefore you will need to deploy the app to your team members.
+Obsidian работает как локальное приложение на устройствах каждого члена вашей команды. Оно спроектировано для работы как в онлайн-, так и в офлайн-режиме, безопасно и конфиденциально, предоставляя вам полный контроль над данными команды. Obsidian не доступен в виде веб-приложения, поэтому вам потребуется развернуть приложение для членов вашей команды.
 
-## Install and update Obsidian
+## Установка и обновление Obsidian
 
-Your team can download Obsidian from our [Download page](https://obsidian.md/download). Releases are also available on our [GitHub releases page](https://github.com/obsidianmd/obsidian-releases/releases) which includes links to [the changelog](https://obsidian.md/changelog/).
+Ваша команда может загрузить Obsidian с нашей [страницы загрузки](https://obsidian.md/download). Релизы также доступны на нашей [странице релизов GitHub](https://github.com/obsidianmd/obsidian-releases/releases), которая включает ссылки на [журнал изменений](https://obsidian.md/changelog/).
 
-> [!tip] For Windows users who need a system installer, the Universal `.exe` includes the option to install Obsidian for all users.
+> [!tip] Для пользователей Windows, которым нужен системный установщик, универсальный `.exe` включает возможность установки Obsidian для всех пользователей.
 
-If automatic updates are enabled in the app, future versions will be installed automatically when users restart Obsidian. Additionally, we recommend periodically performing [[Update Obsidian#Installer updates|installer updates]] to receive the latest updates to the Electron framework, including security fixes.
+Если в приложении включены автоматические обновления, будущие версии будут устанавливаться автоматически при перезапуске Obsidian пользователями. Кроме того, мы рекомендуем периодически выполнять [[Обновление Obsidian#Обновления установщика|обновления установщика]], чтобы получать последние обновления фреймворка Electron, включая исправления безопасности.
 
-If you are looking how to limit network access to Obsidian during this process, review [[Security considerations for teams#Network and access|network and access]].
+Если вы хотите узнать, как ограничить сетевой доступ к Obsidian в ходе этого процесса, ознакомьтесь с разделом [[Безопасность для команд#Сеть и доступ|сеть и доступ]].
 
-## Customizing Obsidian
+## Настройка Obsidian
 
-Obsidian is easy to modify to suit your team's needs. With an extensive API and a large ecosystem of users, Obsidian offers access to numerous plugins, themes, and complementary tools.
+Obsidian легко адаптировать под нужды вашей команды. Благодаря обширному API и большой экосистеме пользователей Obsidian предоставляет доступ к многочисленным плагинам, темам и дополнительным инструментам.
 
-For security-related questions concerning these topics, please refer to [[Security considerations for teams]].
+По вопросам безопасности, связанным с этими темами, обратитесь к разделу [[Безопасность для команд]].
 
-### Configuration folders
+### Папки конфигурации
 
-The [[Configuration folder]] is where an Obsidian [[Glossary#Vault|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[Configuration folder#Changing your configuration folder|change the configuration folder]] name according to your preference.
+[[Папка конфигурации]] — это место, где [[Словарь#Хранилище|хранилище]] Obsidian сохраняет настройки приложения. По умолчанию эта папка называется `.obsidian`, но вы можете [[Папка конфигурации#Изменение папки конфигурации|изменить имя папки конфигурации]] по своему усмотрению.
 
-We recommend creating a standardized template of the configuration folder to be deployed across your team's devices.
+Мы рекомендуем создать стандартизированный шаблон папки конфигурации для развёртывания на устройствах вашей команды.
 
-### Plugins
+### Плагины
 
-[[Core plugins]] are optional features created by the Obsidian team. These features are integrated in the core application codebase and can be turned on or off.
+[[Основные плагины]] — это дополнительные функции, созданные командой Obsidian. Эти функции интегрированы в основной код приложения и могут быть включены или отключены.
 
-[[Community plugins]] are third-party features added to the Obsidian application, and can be installed via the community directory. Third-party plugins leverage the [Obsidian API](https://github.com/obsidianmd/obsidian-api). Plugins are located in the `.obsidian/plugins` folder within a vault, and can be installed manually at this location.
+[[Сторонние плагины]] — это сторонние функции, добавляемые в приложение Obsidian, которые можно установить через каталог сообщества. Сторонние плагины используют [Obsidian API](https://github.com/obsidianmd/obsidian-api). Плагины расположены в папке `.obsidian/plugins` внутри хранилища и могут быть установлены вручную в этом расположении.
 
-### Themes and snippets
+### Темы и фрагменты
 
-[[Themes]] visually alter the Obsidian interface. Like plugins, themes can be downloaded from our community directory. Themes are located in the `.obsidian/themes` folder within a vault.
+[[Темы]] визуально изменяют интерфейс Obsidian. Как и плагины, темы можно загрузить из каталога сообщества. Темы расположены в папке `.obsidian/themes` внутри хранилища.
 
-[[CSS snippets|Snippets]] are small `.css` files that visually modify aspects of the Obsidian interface. In some cases, it can also add functional enhancements. Snippets are located in the `.obsidian/snippets` folder within a vault.
+[[CSS-сниппеты|Фрагменты]] — это небольшие файлы `.css`, которые визуально изменяют аспекты интерфейса Obsidian. В некоторых случаях они также могут добавлять функциональные улучшения. Фрагменты расположены в папке `.obsidian/snippets` внутри хранилища.
 
-## Frequently asked questions
+## Часто задаваемые вопросы
 
-For questions about account management and security, please refer to [[Security considerations for teams#Account security|account security]].
+По вопросам управления аккаунтами и безопасности обратитесь к разделу [[Безопасность для команд#Безопасность аккаунта|безопасность аккаунта]].
 
-### Deployment
+### Развёртывание
 
-**Can I deploy licenses across multiple installations?**
-Currently, we do not support deploying licenses via a deployment script, such as in a `.json` file. If you're interested in this feature for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**Можно ли развернуть лицензии на нескольких установках?**
+В настоящее время мы не поддерживаем развёртывание лицензий с помощью скрипта, например, в файле `.json`. Если вас интересует эта функция для вашей команды, пожалуйста, отправьте [запрос на функцию](https://forum.obsidian.md/c/feature-requests/8).
 
-**Can Obsidian lock certain features or configurations via a setting or an application flag?**
-Currently you can do this by blocking edit access to the `.obsidian` folder, or specific files and folders within it, described above. If you're interested in more access controls for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**Может ли Obsidian заблокировать определённые функции или конфигурации через настройку или флаг приложения?**
+В настоящее время это можно сделать, заблокировав доступ на редактирование к папке `.obsidian` или к определённым файлам и папкам внутри неё, как описано выше. Если вас интересуют дополнительные средства контроля доступа для вашей команды, пожалуйста, отправьте [запрос на функцию](https://forum.obsidian.md/c/feature-requests/8).

@@ -1,23 +1,21 @@
 ---
-localized: null
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true
 description: >-
-  Learn about Obsidian Flavored Markdown, including supported extensions and how
-  Markdown interacts with HTML elements.
+  Узнайте о Markdown в формате Obsidian, включая поддерживаемые расширения и
+  взаимодействие Markdown с HTML-элементами.
 aliases:
   - Obsidian Flavored Markdown
 ---
+Obsidian стремится к максимальной функциональности, не нарушая существующих форматов. В результате мы используем комбинацию различных вариантов [[Основной синтаксис форматирования|Markdown]].
 
-Obsidian strives for maximum capability without breaking any existing formats. As a result, we use a combination of flavors of [[Basic formatting syntax|Markdown]].
+Obsidian поддерживает [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/) и [LaTeX](https://www.latex-project.org/).
 
-Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/), and [LaTeX](https://www.latex-project.org/). 
-
-> [!tip]- Markdown inside HTML
-> Obsidian does not render Markdown syntax inside HTML elements. This is an intentional design choice for performance optimization and to keep parser complexity low when managing large documents.
+> [!tip]- Markdown внутри HTML
+> Obsidian не обрабатывает синтаксис Markdown внутри HTML-элементов. Это намеренное конструктивное решение для оптимизации производительности и снижения сложности парсера при работе с большими документами.
 >
-> For example, Markdown formatting like `**bold**` or `` `code` `` will not be processed inside `<div>`, `<span>`, `<table>`, or any other HTML tags.
+> Например, форматирование Markdown, такое как `**bold**` или `` `code` ``, не будет обрабатываться внутри тегов `<div>`, `<span>`, `<table>` или любых других HTML-тегов.
 >
 > ```md
 > <div>
@@ -25,20 +23,20 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 > </div>
 > ```
 
-### Supported Markdown extensions
+### Поддерживаемые расширения Markdown
 
-| Syntax          | Description                                                           |
-| --------------- | --------------------------------------------------------------------- |
-| `[[Link]]`      | [[Internal links]]                                                    |
-| `![[Link]]`     | [[Embed files]]                                                       |
-| `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]        |
-| `^id`           | [[Internal links#Link to a block in a note\|Defining a block]]        |
-| `[^id]`         | [[Basic formatting syntax#Footnotes\|Footnotes]]                      |
-| `%%Text%%`      | [[Basic formatting syntax#Comments\|Comments]]                        |
-| `~~Text~~`      | [[Basic formatting syntax#Bold, italics, highlights\|Strikethroughs]] |
-| `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|Highlights]]     |
-| `` ``` ``       | [[Basic formatting syntax#Code blocks\|Code blocks]]                  |
-| `- [ ]`         | [[Basic formatting syntax#Task lists\|Incomplete task]]               |
-| `- [x]`         | [[Basic formatting syntax#Task lists\|Completed task]]                |
-| `> [!note]`     | [[Callouts]]                                                          |
-| (see link)      | [[Advanced formatting syntax#Tables\|Tables]]                         |
+| Синтаксис       | Описание                                                                                    |
+| --------------- | ------------------------------------------------------------------------------------------- |
+| `[[Link]]`      | [[Внутренние ссылки]]                                                                       |
+| `![[Link]]`     | [[Встраивание файлов]]                                                                      |
+| `![[Link#^id]]` | [[Внутренние ссылки#Ссылка на блок в заметке\|Ссылки на блоки]]                             |
+| `^id`           | [[Внутренние ссылки#Ссылка на блок в заметке\|Определение блока]]                           |
+| `[^id]`         | [[Основной синтаксис форматирования#Сноски\|Сноски]]                                        |
+| `%%Text%%`      | [[Основной синтаксис форматирования#Комментарии\|Комментарии]]                              |
+| `~~Text~~`      | [[Основной синтаксис форматирования#Жирный, курсив, выделение\|Зачёркнутый текст]]          |
+| `==Text==`      | [[Основной синтаксис форматирования#Жирный, курсив, выделение\|Выделение]]                  |
+| `` ``` ``       | [[Основной синтаксис форматирования#Блоки кода\|Блоки кода]]                                |
+| `- [ ]`         | [[Основной синтаксис форматирования#Списки задач\|Незавершённая задача]]                     |
+| `- [x]`         | [[Основной синтаксис форматирования#Списки задач\|Завершённая задача]]                       |
+| `> [!note]`     | [[Выноски]]                                                                                 |
+| (см. ссылку)    | [[Расширенный синтаксис форматирования#Таблицы\|Таблицы]]                                   |

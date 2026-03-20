@@ -1,194 +1,193 @@
 ---
-localized: null
 permalink: uri
 aliases:
   - Obsidian URI
 ---
-Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note. Obsidian URI enables automation and cross-app workflows.
+Obsidian URI — это пользовательский протокол URI, поддерживаемый Obsidian, который позволяет запускать различные действия, такие как открытие заметки или создание заметки. Obsidian URI обеспечивает автоматизацию и межпрограммные рабочие процессы.
 
-## URI format
+## Формат URI
 
-Obsidian URIs use the following format:
+URI Obsidian используют следующий формат:
 
 ```
 obsidian://action?param1=value&param2=value
 ```
 
-The `action` parameter is the action that you would like to perform. Available actions include:
+Параметр `action` — это действие, которое вы хотите выполнить. Доступные действия включают:
 
-- `open` to open a note.
-- `new` to create or add to an existing note.
-- `daily` to create or open your daily note.
-- `unique` to create a new unique note.
-- `search` to open a search.
-- `choose-vault` to open the vault manager.
+- `open` — открыть заметку.
+- `new` — создать или дополнить существующую заметку.
+- `daily` — создать или открыть ежедневную заметку.
+- `unique` — создать новую уникальную заметку.
+- `search` — открыть поиск.
+- `choose-vault` — открыть менеджер хранилищ.
 
-> [!warning] Encoding
-> Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+> [!warning] Кодирование
+> Убедитесь, что ваши значения правильно закодированы в URI. Например, символы косой черты `/` должны быть закодированы как `%2F`, а пробелы — как `%20`.
 > 
- This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding).
+> Это особенно важно, поскольку неправильно закодированный «зарезервированный» символ может нарушить интерпретацию URI. [Подробности см. здесь](https://en.wikipedia.org/wiki/Percent-encoding).
 
-## Open note
+## Открытие заметки
 
-The `open` action opens an Obsidian vault, or opens a file within that vault.
+Действие `open` открывает хранилище Obsidian или файл в этом хранилище.
 
-### Examples
+### Примеры
 
 - `obsidian://open?vault=my%20vault`
-  This opens the vault `my vault`. If the vault is already open, focus on the window.
+  Открывает хранилище `my vault`. Если хранилище уже открыто, фокусируется на его окне.
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-  This opens the vault identified by the ID `ef6ca3e3b524d22f`.
+  Открывает хранилище с идентификатором `ef6ca3e3b524d22f`.
 - `obsidian://open?vault=my%20vault&file=my%20note`
-  This opens the note `my note.md` in the vault `my vault`, assuming the file exists.
+  Открывает заметку `my note.md` в хранилище `my vault`, если файл существует.
 - `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-  This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
+  Будет искать любое хранилище, содержащее путь `/home/user/my vault/path/to/my note`. Затем остальная часть пути передаётся в параметр `file`. Например, если хранилище существует по пути `/home/user/my vault`, то это будет эквивалентно параметру `file`, установленному как `path/to/my note`.
 
 
-> [!tip] Open a heading or block
-> With proper URI encoding, you can navigate to a heading or block within a note. `Note%23Heading` would navigate to the heading called "Heading", whereas `Note%23%5EBlock` would navigate to the block called "Block".
+> [!tip] Открытие заголовка или блока
+> С правильной кодировкой URI вы можете перейти к заголовку или блоку внутри заметки. `Note%23Heading` перейдёт к заголовку «Heading», тогда как `Note%23%5EBlock` перейдёт к блоку «Block».
 
-### Parameters
+### Параметры
 
-- `vault` can be either the vault name or the vault ID[^1].
-- `file` can be either a file name, or a path from the vault root to the specified file. If the file extension is `md`, the extension can be omitted.
-- `path` an absolute file system path to a file.
-  - Using this parameter will override both `vault` and `file`.
-  - This will cause the app to search for the most specific vault which contains the specified file path.
-  - Then the rest of the path replaces the `file` parameter.
-- `prepend` will add to the top of the file and attempt to merge properties.
-- `append` will add to the end of the file and also attempt to merge properties.
-- `paneType` (optional) determines where the note will be opened in the UI.
-  - if not present, the last active tab is replaced.
-  - `paneType=tab` open in a new tab.
-  - `paneType=split` open in a new tab group.
-  - `paneType=window` open in a pop-out window (Desktop only).
+- `vault` — может быть либо именем хранилища, либо идентификатором хранилища[^1].
+- `file` — может быть либо именем файла, либо путём от корня хранилища к указанному файлу. Если расширение файла — `md`, расширение можно опустить.
+- `path` — абсолютный путь к файлу в файловой системе.
+  - Использование этого параметра переопределяет как `vault`, так и `file`.
+  - Приложение будет искать наиболее подходящее хранилище, содержащее указанный путь к файлу.
+  - Затем остальная часть пути заменяет параметр `file`.
+- `prepend` — добавит содержимое в начало файла и попытается объединить свойства.
+- `append` — добавит содержимое в конец файла и также попытается объединить свойства.
+- `paneType` (необязательно) — определяет, где заметка будет открыта в интерфейсе.
+  - если не указан, заменяется последняя активная вкладка.
+  - `paneType=tab` — открыть в новой вкладке.
+  - `paneType=split` — открыть в новой группе вкладок.
+  - `paneType=window` — открыть во всплывающем окне (только для десктопа).
 
-## Create note
+## Создание заметки
 
-The `new` action, creates a new note in the vault, optionally with some content.
+Действие `new` создаёт новую заметку в хранилище, при необходимости с определённым содержимым.
 
-### Examples
+### Примеры
 
 - `obsidian://new?vault=my%20vault&name=my%20note`
-  This opens the vault `my vault`, and creates a new note called `my note`.
+  Открывает хранилище `my vault` и создаёт новую заметку с именем `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-  This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+  Открывает хранилище `my vault` и создаёт новую заметку по пути `path/to/my note`.
 
-### Parameters
+### Параметры
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
-- `file` a vault absolute path, including the name. Will override `name` if specified.
-- `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `silent` (optional) include this parameter if you don't want to open the new note.
-- `append` (optional) include this parameter to append to an existing file if one exists.
-- `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` — может быть либо именем хранилища, либо идентификатором хранилища[^1]. Аналогично действию `open`.
+- `name` — имя создаваемого файла. Если указано, расположение файла будет выбрано на основе ваших настроек «Место для новых заметок по умолчанию».
+- `file` — абсолютный путь внутри хранилища, включая имя. Переопределяет `name`, если указан.
+- `path` — глобальный абсолютный путь. Работает аналогично параметру `path` в действии `open`, переопределяя как `vault`, так и `file`.
+- `paneType` (необязательно) — определяет, где заметка будет открыта в интерфейсе. Аналогично действию `open`.
+- `content` (необязательно) — содержимое заметки.
+- `clipboard` (необязательно) — использовать содержимое буфера обмена вместо указания `content`.
+- `silent` (необязательно) — включите этот параметр, если не хотите открывать новую заметку.
+- `append` (необязательно) — включите этот параметр для добавления к существующему файлу, если он существует.
+- `overwrite` (необязательно) — перезаписать существующий файл, если он существует, но только если `append` не установлен.
+- `x-success` (необязательно) — см. [[#Использование параметров x-callback-url]].
 
-## Create or open daily note
+## Создание или открытие ежедневной заметки
 
-The `daily` action creates or opens your daily note. The [[Daily notes]] plugin must be enabled.
+Действие `daily` создаёт или открывает вашу ежедневную заметку. Плагин [[Ежедневные заметки]] должен быть включён.
 
-### Examples
+### Примеры
 
 - `obsidian://daily?vault=my%20vault`
-  This opens the vault `my vault`, and creates or opens the daily note.
+  Открывает хранилище `my vault` и создаёт или открывает ежедневную заметку.
 
-### Parameters
+### Параметры
 
-The `daily` action accepts the same parameters as the `new` action.
+Действие `daily` принимает те же параметры, что и действие `new`.
 
-## Unique Note
+## Уникальная заметка
 
-The `unique` action creates a new unique note in the vault. The [[en/Plugins/Unique note creator|Unique note creator]] plugin must be enabled.
+Действие `unique` создаёт новую уникальную заметку в хранилище. Плагин [[Создатель уникальных заметок|Создатель уникальных заметок]] должен быть включён.
 
-### Examples
+### Примеры
 
 - `obsidian://unique?vault=my%20vault`
-  This opens the vault `my vault`, and creates a new unique note.
+  Открывает хранилище `my vault` и создаёт новую уникальную заметку.
 - - `obsidian://unique?vault=my%20vault&content=Hello%20World`
-  This opens the vault `my vault`, and creates a new unique note with the content `Hello World`.
+  Открывает хранилище `my vault` и создаёт новую уникальную заметку с содержимым `Hello World`.
 
-### Parameters
+### Параметры
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` — может быть либо именем хранилища, либо идентификатором хранилища[^1]. Аналогично действию `open`.
+- `paneType` (необязательно) — определяет, где заметка будет открыта в интерфейсе. Аналогично действию `open`.
+- `content` (необязательно) — содержимое заметки.
+- `clipboard` (необязательно) — использовать содержимое буфера обмена вместо указания `content`.
+- `x-success` (необязательно) — см. [[#Использование параметров x-callback-url]].
 
-## Open search
+## Открытие поиска
 
-The `search` action opens [[Search]] in the specified vault, and optionally perform a search term.
+Действие `search` открывает [[Поиск]] в указанном хранилище и при необходимости выполняет поисковый запрос.
 
-### Examples
+### Примеры
 
 - `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens [[Search]].
+  Открывает хранилище `my vault` и открывает [[Поиск]].
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  This opens the vault `my vault`, opens [[Search]], and performs a search for `Obsidian`.
+  Открывает хранилище `my vault`, открывает [[Поиск]] и выполняет поиск по запросу `Obsidian`.
 
-### Parameters
+### Параметры
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `query` (optional) The search term to perform.
+- `vault` — может быть либо именем хранилища, либо идентификатором хранилища[^1]. Аналогично действию `open`.
+- `query` (необязательно) — поисковый запрос для выполнения.
 
-## Open Vault Manager
+## Открытие менеджера хранилищ
 
-The `choose-vault` action opens the [[Manage vaults|vault manager]].
+Действие `choose-vault` открывает [[Управление хранилищами|менеджер хранилищ]].
 
-### Examples
+### Примеры
 
 - `obsidian://choose-vault`
 
-## Integrate with Hook
+## Интеграция с Hook
 
-This Obsidian URI action is to be used with [Hook](https://hookproductivity.com/). 
+Это действие Obsidian URI предназначено для использования с [Hook](https://hookproductivity.com/).
 
-### Example
+### Пример
 
 `obsidian://hook-get-address`
 
-### Parameters
+### Параметры
 
-- `vault` (optional) can be either the vault name, or the vault ID[^1]. If not provided, the current or last focused vault will be used.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
-- `x-error` (optional) see [[#Use x-callback-url parameters]].
+- `vault` (необязательно) — может быть либо именем хранилища, либо идентификатором хранилища[^1]. Если не указан, будет использоваться текущее или последнее активное хранилище.
+- `x-success` (необязательно) — см. [[#Использование параметров x-callback-url]].
+- `x-error` (необязательно) — см. [[#Использование параметров x-callback-url]].
 
-If `x-success` is defined, this API will use it as the x-callback-url. Otherwise, it will copy a Markdown link of the current focused note to the clipboard, as an `obsidian://open` URL.
+Если `x-success` определён, этот API будет использовать его как x-callback-url. В противном случае в буфер обмена будет скопирована Markdown-ссылка на текущую активную заметку в виде URL `obsidian://open`.
 
-## Use x-callback-url parameters
+## Использование параметров x-callback-url
 
-Some endpoints will accept the x-callback-url parameters `x-success` and `x-error`. When it's provided, Obsidian will provide the following to the `x-success` callback:
+Некоторые конечные точки принимают параметры x-callback-url: `x-success` и `x-error`. Когда они указаны, Obsidian передаёт следующее в обратный вызов `x-success`:
 
-- `name` the name of the file, without the file extension.
-- `url` the `obsidian://` URI for this file.
-- `file` (desktop only) the `file://` URL for this file.
+- `name` — имя файла без расширения.
+- `url` — URI `obsidian://` для этого файла.
+- `file` (только для десктопа) — URL `file://` для этого файла.
 
-For example, if Obsidian receives
-`obsidian://.....x-success=myapp://x-callback-url`, the response would be `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
+Например, если Obsidian получит
+`obsidian://.....x-success=myapp://x-callback-url`, ответом будет `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
 
-## Shorthand formats
+## Сокращённые форматы
 
-In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+В дополнение к форматам выше, доступны два «сокращённых» формата для открытия хранилищ и файлов:
 
-1. `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`.
-2. `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
+1. `obsidian://vault/my vault/my note` эквивалентно `obsidian://open?vault=my%20vault&file=my%20note`.
+2. `obsidian:///absolute/path/to/my note` эквивалентно `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
 
-## Troubleshooting
+## Устранение неполадок
 
-### Register Obsidian URI
+### Регистрация Obsidian URI
 
-On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
+На Windows и macOS достаточно один раз запустить приложение, чтобы зарегистрировать протокол Obsidian URI на вашем компьютере.
 
-On Linux, it is a much more involved process:
+На Linux этот процесс значительно сложнее:
 
-1. Ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
-2. Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-3. If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
+1. Убедитесь, что вы создали файл `obsidian.desktop`. [Подробности см. здесь](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
+2. Убедитесь, что ваш desktop-файл указывает поле `Exec` как `Exec=executable %u`. Параметр `%u` используется для передачи URI `obsidian://` в приложение.
+3. Если вы используете установщик AppImage, вам может потребоваться распаковать его с помощью `Obsidian-x.y.z.AppImage --appimage-extract`. Затем убедитесь, что директива `Exec` указывает на распакованный исполняемый файл.
 
 
-[^1]: Vault ID is the random 16-character code assigned to the vault, for example `ef6ca3e3b524d22f`. This ID is unique per folder on your computer. The ID can be found by opening the vault switcher and clicking "Copy vault ID" in the context menu for the desired vault.
+[^1]: Идентификатор хранилища — это случайный 16-символьный код, присвоенный хранилищу, например `ef6ca3e3b524d22f`. Этот идентификатор уникален для каждой папки на вашем компьютере. Идентификатор можно найти, открыв переключатель хранилищ и нажав «Скопировать ID хранилища» в контекстном меню нужного хранилища.

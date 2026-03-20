@@ -1,5 +1,4 @@
 ---
-localized: null
 permalink: web-clipper
 cssclasses:
   - list-cards
@@ -7,42 +6,42 @@ cssclasses:
 aliases:
   - Introduction to Obsidian Web Clipper
 ---
-Obsidian Web Clipper is a free browser extension that lets you highlight pages and save web content to your vault.
+Obsidian Web Clipper — это бесплатное расширение для браузера, которое позволяет выделять страницы и сохранять веб-контент в ваше хранилище.
 
-## Install Web Clipper
+## Установка Web Clipper
 
-Get the Obsidian Web Clipper extension from the official directory for your browser:
+Получите расширение Obsidian Web Clipper из официального каталога для вашего браузера:
 
 - [Chrome Web Store](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)
-	- For Chrome, Brave, Arc, Orion, and other Chromium-based browsers.
+	- Для Chrome, Brave, Arc, Orion и других браузеров на основе Chromium.
 - [Firefox Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/web-clipper-obsidian/)
-	- For Firefox and Firefox Mobile.
+	- Для Firefox и Firefox Mobile.
 - [Safari Extensions](https://apps.apple.com/us/app/obsidian-web-clipper/id6720708363)
-	- For macOS, iOS, and iPadOS.
+	- Для macOS, iOS и iPadOS.
 - [Edge Add-Ons](https://microsoftedge.microsoft.com/addons/detail/obsidian-web-clipper/eigdjhmgnaaeaonimdklocfekkaanfme)
-	- For Microsoft Edge.
+	- Для Microsoft Edge.
 
-## How to use Web Clipper
+## Как использовать Web Clipper
 
-- [[Clip web pages]]
-	- Get started and learn how to save content from pages.
-- [[Highlight web pages|Highlighter]]
-	- Highlight important passages and select elements you want to save.
-- [[Reader|Reader]]
-	- Read web pages in a clean, distraction-free view.
-- [[Interpret web pages|Interpreter]]
-	- Use natural language prompts to capture and modify data on a page.
-- [[Troubleshoot Web Clipper|Troubleshooting]]
-	- Resolve common issues with Web Clipper.
-- [[Obsidian Web Clipper/Templates|Templates]]
-	- Create custom templates for specific websites.
-- [[Variables]]
-	- Pre-populate page data in your template.
-- [[Filters]]
-	- Modify the output of template variables.
-- [[Logic]]
-	- Use conditionals, loops, and set variables in templates.
+- [[Сохранение веб-страниц]]
+	- Начните работу и узнайте, как сохранять контент со страниц.
+- [[Выделение на веб-страницах|Маркер]]
+	- Выделяйте важные фрагменты и выбирайте элементы, которые хотите сохранить.
+- [[Режим чтения|Читатель]]
+	- Читайте веб-страницы в чистом, свободном от отвлекающих факторов представлении.
+- [[Интерпретация веб-страниц|Интерпретатор]]
+	- Используйте запросы на естественном языке для захвата и изменения данных на странице.
+- [[Устранение неполадок Web Clipper|Устранение неполадок]]
+	- Решение распространённых проблем с Web Clipper.
+- [[Obsidian Web Clipper/Шаблоны|Шаблоны]]
+	- Создавайте пользовательские шаблоны для определённых веб-сайтов.
+- [[Переменные]]
+	- Предварительно заполняйте данные страницы в вашем шаблоне.
+- [[Фильтры]]
+	- Изменяйте вывод переменных шаблона.
+- [[Логика]]
+	- Используйте условия, циклы и задавайте переменные в шаблонах.
 
-## Privacy
+## Конфиденциальность
 
-Obsidian Web Clipper saves content locally to your Obsidian vault and follows our [privacy policy](https://obsidian.md/privacy). Your data is not collected, and we do not gather any usage metrics. The code is [open source](https://github.com/obsidianmd/obsidian-clipper) and auditable.
+Obsidian Web Clipper сохраняет контент локально в ваше хранилище Obsidian и следует нашей [политике конфиденциальности](https://obsidian.md/privacy). Ваши данные не собираются, и мы не отслеживаем никаких метрик использования. Код является [открытым](https://github.com/obsidianmd/obsidian-clipper) и доступен для аудита.

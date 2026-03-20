@@ -1,47 +1,46 @@
 ---
-localized: null
 permalink: web-clipper/troubleshoot
 aliases:
   - Troubleshoot Web Clipper
 ---
-If you encounter issues with [[Introduction to Obsidian Web Clipper|Web Clipper]] you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repo](https://github.com/obsidianmd/obsidian-clipper).
+Если вы столкнулись с проблемами при использовании [[Введение в Obsidian Web Clipper|Web Clipper]], вы можете получить помощь через [официальный канал Discord](https://discord.com/channels/686053708261228577/1285652864089198672). Также вы можете сообщить об ошибках в [репозитории GitHub](https://github.com/obsidianmd/obsidian-clipper).
 
-## General
+## Общее
 
-### Some content is missing
+### Часть содержимого отсутствует
 
-By default, Web Clipper tries to intelligently capture content from the page. However it may not be successful in doing so across all websites.
+По умолчанию Web Clipper пытается интеллектуально захватывать содержимое страницы. Однако это может работать не на всех сайтах.
 
-Web Clipper uses [Defuddle](https://github.com/kepano/defuddle) to capture only the main content of the page. This excludes header, footer, and other elements, but sometimes it can be overly conservative and remove content that you want to keep. You can [report bugs](https://github.com/kepano/defuddle) to Defuddle.
+Web Clipper использует [Defuddle](https://github.com/kepano/defuddle) для захвата только основного содержимого страницы. Это исключает заголовок, подвал и другие элементы, но иногда алгоритм может быть слишком консервативным и удалять содержимое, которое вы хотите сохранить. Вы можете [сообщить об ошибках](https://github.com/kepano/defuddle) в Defuddle.
 
-To bypass Defuddle in Web Clipper use the following methods:
+Чтобы обойти Defuddle в Web Clipper, используйте следующие методы:
 
-- Select text, or use `Cmd/Ctrl+A` to select all text.
-- [[Highlight web pages|Highlight content]] to choose exactly what you want to capture.
-- Use a [[Obsidian Web Clipper/Templates|custom template]] for the site.
+- Выделите текст или используйте `Cmd/Ctrl+A`, чтобы выбрать весь текст.
+- [[Выделение на веб-страницах|Выделите содержимое]], чтобы точно выбрать то, что вы хотите захватить.
+- Используйте [[Obsidian Web Clipper/Шаблоны|пользовательский шаблон]] для сайта.
 
-### No content appears in Obsidian
+### Содержимое не отображается в Obsidian
 
-If you don't see any content in Obsidian when you click **Add to Obsidian**:
+Если вы не видите содержимое в Obsidian при нажатии **Добавить в Obsidian**:
 
-- Check for errors in the Obsidian [[Help and support#Capture console logs|developer console]].
-- Check that your vault name in Web Clipper settings exactly matches your *vault name* in Obsidian *not the vault path*.
-- Check that the folder name is correctly formatted.
+- Проверьте наличие ошибок в [[Помощь и поддержка#Сбор логов консоли|консоли разработчика]] Obsidian.
+- Убедитесь, что имя хранилища в настройках Web Clipper точно совпадает с *названием хранилища* в Obsidian, а *не с путём к хранилищу*.
+- Убедитесь, что имя папки указано в правильном формате.
 
 ## Linux
 
-#### Obsidian does not open
+#### Obsidian не открывается
 
-- Make sure the [[Obsidian URI]] protocol [[Obsidian URI#Register Obsidian URI|is registered]].
-- If you are using Firefox you may need to [register it the browser settings](https://kb.mozillazine.org/Register_protocol).
+- Убедитесь, что протокол [[Obsidian URI]] [[Obsidian URI#Регистрация Obsidian URI|зарегистрирован]].
+- Если вы используете Firefox, вам может потребоваться [зарегистрировать его в настройках браузера](https://kb.mozillazine.org/Register_protocol).
 
-#### Obsidian opens but only the file name is saved
+#### Obsidian открывается, но сохраняется только имя файла
 
-It is likely that Obsidian cannot access your clipboard. Clipboard access is necessary to pass data from your browser to Obsidian. Your configuration can affect how apps are sandboxed, and clipboard permissions.
+Вероятно, Obsidian не может получить доступ к буферу обмена. Доступ к буферу обмена необходим для передачи данных из браузера в Obsidian. Ваша конфигурация может влиять на то, как приложения изолируются в песочнице, и на разрешения буфера обмена.
 
-If you use Wayland, make sure that Obsidian has the permissions to read the clipboard when the app is not focused. This preference may be in your tiling window manager, e.g. Hyprland or Sway.
+Если вы используете Wayland, убедитесь, что у Obsidian есть разрешения на чтение буфера обмена, когда приложение не в фокусе. Эта настройка может находиться в вашем тайлинговом оконном менеджере, например Hyprland или Sway.
 
-If you use Hyprland:
+Если вы используете Hyprland:
 
 ```ini
 # ~/.config/hypr/hyprland.conf
@@ -50,33 +49,33 @@ misc {
 }
 ```
 
-If you use Sway:
+Если вы используете Sway:
 
 ```ini
 # ~/.config/sway/config
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- If you use Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download).
-- If you use KDE go to to **System Settings** → **Window Management** → **Window Rules** and allow Obsidian to take focus, [[web-clipper-kde.png|see screenshot]].
-- As a fallback, try switching to **Legacy mode** in **Web Clipper Settings** → **General**. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.
+- Если вы используете Flatpak, попробуйте [официально поддерживаемую версию Obsidian](https://obsidian.md/download).
+- Если вы используете KDE, перейдите в **Параметры системы** → **Управление окнами** → **Правила окон** и разрешите Obsidian захватывать фокус, [[web-clipper-kde.png|см. скриншот]].
+- В качестве запасного варианта попробуйте переключиться на **Режим совместимости** в **Настройки Web Clipper** → **Общие**. Это обойдёт буфер обмена и сохранит содержимое напрямую через URI. Обратите внимание, что это ограничит количество символов, которые можно захватить, в зависимости от вашего браузера и дистрибутива Linux.
 
-## iOS and iPadOS
+## iOS и iPadOS
 
-To enable the Web Clipper extension for Safari:
+Чтобы включить расширение Web Clipper для Safari:
 
-1. Go to Safari, tap the leftmost button in the browser URL bar, it looks like a rectangle with lines beneath it.
-2. Tap **Manage Extensions**.
-3. Enable **Obsidian Web Clipper** in the Extensions list.
-4. Exit the menu.
-5. To use the extension **tap the puzzle piece icon** in the URL bar.
+1. Откройте Safari, нажмите на крайнюю левую кнопку в адресной строке браузера — она выглядит как прямоугольник с линиями под ним.
+2. Нажмите **Управление расширениями**.
+3. Включите **Obsidian Web Clipper** в списке расширений.
+4. Выйдите из меню.
+5. Чтобы использовать расширение, **нажмите на значок пазла** в адресной строке.
 
-To allow Web Clipper to run on all websites:
+Чтобы разрешить Web Clipper работать на всех сайтах:
 
-1. Go to iOS **[[Settings]]** →  **Apps** →  **Safari** →  **Extensions**.
-2. Under **Permissions** allow it to run on all websites.
+1. Перейдите в **[[Настройки]]** iOS → **Приложения** → **Safari** → **Расширения**.
+2. В разделе **Разрешения** разрешите работу на всех сайтах.
 
-To allow Obsidian to always receive Web Clipper content:
+Чтобы Obsidian всегда мог получать содержимое от Web Clipper:
 
-1. Go to iOS **[[Settings]]** →  **Apps** →  **Obsidian**.
-2. Set **Paste from other apps** to **Allow**.
+1. Перейдите в **[[Настройки]]** iOS → **Приложения** → **Obsidian**.
+2. Установите для параметра **Вставка из других приложений** значение **Разрешить**.

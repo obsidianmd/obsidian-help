@@ -1,55 +1,54 @@
 ---
-localized: null
 permalink: headless
 description: >-
-  Obsidian Headless is a command line client for Obsidian services. Sync your
-  vaults without the desktop app.
+  Obsidian Headless — клиент командной строки для сервисов Obsidian.
+  Синхронизируйте хранилища без настольного приложения.
 aliases:
   - Obsidian Headless
 ---
-Obsidian Headless **(open beta)** is a headless client for Obsidian services. It lets you [[Headless Sync|sync vaults]] from the command line without the desktop app, with all the speed, privacy, and end-to-end encryption benefits of [[Introduction to Obsidian Sync|Obsidian Sync]].
+Obsidian Headless **(открытая бета)** — это headless-клиент для сервисов Obsidian. Он позволяет [[Headless Sync|синхронизировать хранилища]] из командной строки без настольного приложения, сохраняя все преимущества скорости, конфиденциальности и сквозного шифрования [[Введение в Obsidian Sync|Obsidian Sync]].
 
-Reasons you might use Obsidian Headless:
+Причины, по которым вам может пригодиться Obsidian Headless:
 
-- Automate remote backups.
-- Automate publishing a website.
-- Give agentic tools access to a vault without access to your full computer.
-- Sync a shared team vault to a server that feeds other tools.
-- Run scheduled automations e.g. aggregate daily notes into weekly summaries, auto-tag, etc.
+- Автоматизация удалённого резервного копирования.
+- Автоматизация публикации веб-сайта.
+- Предоставление агентным инструментам доступа к хранилищу без доступа ко всему компьютеру.
+- Синхронизация общего командного хранилища с сервером, который передаёт данные другим инструментам.
+- Запуск запланированных автоматизаций, например, объединение ежедневных заметок в еженедельные отчёты, автоматическая расстановка тегов и т. д.
 
-> [!info] Obsidian Headless vs Obsidian CLI
-> [[Obsidian CLI]] controls the Obsidian desktop app from your terminal. Obsidian Headless is a standalone client that runs independently, no desktop app required.
+> [!info] Obsidian Headless и Obsidian CLI
+> [[Obsidian CLI]] управляет настольным приложением Obsidian из терминала. Obsidian Headless — это автономный клиент, работающий независимо, без необходимости в настольном приложении.
 
-## Install
+## Установка
 
-Obsidian Headless **(open beta)** requires Node.js 22 or later. Install it from [npm](https://www.npmjs.com/package/obsidian-headless):
+Obsidian Headless **(открытая бета)** требует Node.js 22 или новее. Установите его из [npm](https://www.npmjs.com/package/obsidian-headless):
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-## Authentication
+## Аутентификация
 
-### Log in
+### Вход
 
 ```shell
 ob login
 ```
 
-If already logged in, `ob login` displays your account info. To switch accounts, pass `--email` and/or `--password` to log in again.
+Если вы уже вошли в систему, `ob login` отображает информацию о вашем аккаунте. Чтобы сменить аккаунт, передайте `--email` и/или `--password` для повторного входа.
 
 ```
 ob login [--email <email>] [--password <password>] [--mfa <code>]
 ```
 
-All options are interactive when omitted — email and password are prompted, and 2FA is requested automatically if enabled on the account.
+Все параметры запрашиваются интерактивно, если не указаны — электронная почта и пароль будут запрошены, а двухфакторная аутентификация запрашивается автоматически, если она включена для аккаунта.
 
-To log out and clear stored credentials:
+Чтобы выйти из системы и очистить сохранённые учётные данные:
 
 ```shell
 ob logout
 ```
 
-## Services
+## Сервисы
 
-- [[Headless Sync]]: use [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the desktop app.
+- [[Headless Sync]]: использование [[Введение в Obsidian Sync|Obsidian Sync]] из командной строки без настольного приложения.

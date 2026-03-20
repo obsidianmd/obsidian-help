@@ -1,251 +1,250 @@
 ---
-localized: null
 permalink: plugins/canvas
 aliases:
   - Canvas
 ---
-Canvas is a [[Core plugins|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
+Canvas — это [[Основные плагины|основной плагин]] для визуального ведения заметок. Он предоставляет бесконечное пространство для размещения заметок и соединения их с другими заметками, вложениями и веб-страницами.
 
-Visual note-taking helps you to make sense of your notes by organizing them in a 2D space. Connect notes with lines and group related notes together to better understand the relationship between them.
+Визуальное ведение заметок помогает вам осмыслить свои записи, организуя их в двумерном пространстве. Соединяйте заметки линиями и группируйте связанные заметки вместе, чтобы лучше понять взаимосвязи между ними.
 
-Canvas data you create in Obsidian is saved as `.canvas` files using the open file format [JSON Canvas](https://jsoncanvas.org/).
+Данные Canvas, которые вы создаёте в Obsidian, сохраняются в файлах `.canvas` с использованием открытого формата [JSON Canvas](https://jsoncanvas.org/).
 
-## Create a new canvas
+## Создание нового холста
 
-To start using Canvas, you first need to create a file to hold your canvas. You can create a new canvas using the following methods.
+Чтобы начать использовать Canvas, сначала нужно создать файл для хранения вашего холста. Вы можете создать новый холст следующими способами.
 
-**Command palette:**
+**Палитра команд:**
 
-1. Open the [[Command palette]].
-2. Select **Canvas: Create new canvas** to create a canvas in the same folder as the active file.
+1. Откройте [[Палитра команд|палитру команд]].
+2. Выберите **Canvas: Создать новый холст**, чтобы создать холст в той же папке, что и текущий файл.
 
-**File explorer:**
+**Файловый менеджер:**
 
-- In the [[File explorer]], right-click the folder you want to create the canvas in.
-- Select **New canvas**.
+- В [[Файловый менеджер|файловом менеджере]] щёлкните правой кнопкой мыши по папке, в которой вы хотите создать холст.
+- Выберите **Новый холст**.
 
-**Ribbon:**
+**Вертикальная панель:**
 
-- In the vertical ribbon menu, select **Create new canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) to create a canvas in the same folder as the active file.
+- На вертикальной панели выберите **Создать новый холст** ( ![[lucide-layout-dashboard.svg#icon]] ), чтобы создать холст в той же папке, что и текущий файл.
 
-> [!note]  The .canvas file extension
-> Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
+> [!note] Расширение файла .canvas
+> Obsidian хранит данные вашего холста в файлах `.canvas` с использованием открытого формата файлов [JSON Canvas](https://jsoncanvas.org/).
 
-## Add cards
+## Добавление карточек
 
-You can drag files into your canvas from Obsidian or from other applications. For example, Markdown files, images, audio, PDFs, or even unrecognized file types.
+Вы можете перетаскивать файлы на холст из Obsidian или из других приложений. Например, файлы Markdown, изображения, аудио, PDF или даже файлы неизвестных типов.
 
-### Add text cards
+### Добавление текстовых карточек
 
-You can add text-only cards that don't reference a file. You can use Markdown, links, and code blocks just like in a note.
+Вы можете добавлять карточки только с текстом, не ссылающиеся на файл. В них можно использовать Markdown, ссылки и блоки кода, как и в обычной заметке.
 
-To add a new text card to your canvas:
+Чтобы добавить новую текстовую карточку на холст:
 
-- Select or drag the blank file icon at the bottom of the canvas.
+- Выберите или перетащите значок пустого файла в нижней части холста.
 
-You can also add text cards by double-clicking on the canvas.
+Вы также можете добавить текстовые карточки двойным щелчком по холсту.
 
-To convert a text card to a file:
+Чтобы конвертировать текстовую карточку в файл:
 
-1. Right-click the text card and then select **Convert to file...**.
-2. Enter the note name and then select **Save**.
+1. Щёлкните правой кнопкой мыши по текстовой карточке и выберите **Конвертировать в файл...**.
+2. Введите название заметки и нажмите **Сохранить**.
 
-> [!note] Note
-> Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
+> [!note] Примечание
+> Текстовые карточки не отображаются в [[Обратные ссылки|обратных ссылках]]. Чтобы они отображались, необходимо конвертировать их в файл.
 
-### Add cards from notes
+### Добавление карточек из заметок
 
-To add a note from your vault to your canvas:
+Чтобы добавить заметку из хранилища на холст:
 
-1. Select or drag the document icon at the bottom of the canvas.
-2. Select the note you want to add.
+1. Выберите или перетащите значок документа в нижней части холста.
+2. Выберите заметку, которую хотите добавить.
 
-You can also add notes from the canvas context menu:
+Вы также можете добавить заметки из контекстного меню холста:
 
-1. Right-click the canvas and then select **Add note from vault**.
-2. Select the note you want to add.
+1. Щёлкните правой кнопкой мыши по холсту и выберите **Добавить заметку из хранилища**.
+2. Выберите заметку, которую хотите добавить.
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+Или перетащите файл на холст из [[Файловый менеджер|файлового менеджера]].
 
-### Add cards from media
+### Добавление карточек из медиафайлов
 
-To add media from your vault to your canvas:
+Чтобы добавить медиафайл из хранилища на холст:
 
-1. Select or drag the image file icon at the bottom of the canvas.
-2. Select the media file you want to add.
+1. Выберите или перетащите значок файла изображения в нижней части холста.
+2. Выберите медиафайл, который хотите добавить.
 
-You can also add media from the canvas context menu:
+Вы также можете добавить медиафайлы из контекстного меню холста:
 
-1. Right-click the canvas and then select **Add media from vault**.
-2. Select the media file you want to add.
+1. Щёлкните правой кнопкой мыши по холсту и выберите **Добавить медиафайл из хранилища**.
+2. Выберите медиафайл, который хотите добавить.
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+Или перетащите файл на холст из [[Файловый менеджер|файлового менеджера]].
 
-### Add cards from web pages
+### Добавление карточек из веб-страниц
 
-To embed a web page in your canvas:
+Чтобы встроить веб-страницу на холст:
 
-1. Right-click the canvas and then select **Add web page**.
-2. Enter the URL to the web page and then select **Save**.
+1. Щёлкните правой кнопкой мыши по холсту и выберите **Добавить веб-страницу**.
+2. Введите URL веб-страницы и нажмите **Сохранить**.
 
-You can also select a URL in your browser and then drag it into the canvas to embed it in a card.
+Вы также можете выделить URL в браузере и перетащить его на холст, чтобы встроить в карточку.
 
-To open the web page in your browser, press `Ctrl` (or `Cmd` on macOS) and select the card label. Or, right-click the card and select **Open in browser**.
+Чтобы открыть веб-страницу в браузере, нажмите `Ctrl` (или `Cmd` на macOS) и выберите подпись карточки. Или щёлкните правой кнопкой мыши по карточке и выберите **Открыть в браузере**.
 
-### Add cards from folders
+### Добавление карточек из папок
 
-Drag a folder from the file explorer to add all files in that folder to the canvas.
+Перетащите папку из файлового менеджера, чтобы добавить все файлы из этой папки на холст.
 
-### Edit a card
+### Редактирование карточки
 
-Double-click on a text or note card to start editing it. Click outside the card to stop editing it. You can also press `Escape` to stop editing a card.
+Дважды щёлкните по текстовой карточке или карточке заметки, чтобы начать её редактирование. Щёлкните за пределами карточки, чтобы завершить редактирование. Вы также можете нажать `Escape`, чтобы прекратить редактирование карточки.
 
-You can also edit a card by right-clicking it and selecting **Edit**.
+Карточку также можно отредактировать, щёлкнув по ней правой кнопкой мыши и выбрав **Редактировать**.
 
-### Delete a card
+### Удаление карточки
 
-Remove selected cards by right-clicking any of them, and then selecting **Delete**. Or, press `Backspace` (or `Delete` on macOS).
+Удалите выбранные карточки, щёлкнув правой кнопкой мыши по любой из них и выбрав **Удалить**. Или нажмите `Backspace` (или `Delete` на macOS).
 
-You can also select **Remove** ( ![[lucide-trash-2.svg#icon]] ) in the selection controls above your selection.
+Вы также можете выбрать **Убрать** ( ![[lucide-trash-2.svg#icon]] ) в элементах управления выделением над вашим выделением.
 
-### Swap cards
+### Замена карточек
 
-You can swap a note or media card for another card of the same type.
+Вы можете заменить карточку заметки или медиафайла на другую карточку того же типа.
 
-To swap a note card:
+Чтобы заменить карточку заметки:
 
-1. Right-click the card you want to replace.
-2. Select **Swap file**.
-3. Select the note you want to replace with.
+1. Щёлкните правой кнопкой мыши по карточке, которую хотите заменить.
+2. Выберите **Заменить файл**.
+3. Выберите заметку, на которую хотите заменить.
 
-## Select cards
+## Выделение карточек
 
-Select cards in the canvas by clicking on them. You can select multiple cards by dragging a selection around them.
+Выделяйте карточки на холсте, щёлкая по ним. Вы можете выделить несколько карточек, обведя их рамкой выделения.
 
-You can also add and remove cards from an existing selection by pressing `Shift` and selecting them.
+Вы также можете добавлять и убирать карточки из существующего выделения, удерживая `Shift` и щёлкая по ним.
 
-Press `Ctrl+a` (or `Cmd+a` on macOS) to select all cards in the canvas.
+Нажмите `Ctrl+a` (или `Cmd+a` на macOS), чтобы выделить все карточки на холсте.
 
-To scroll the content of a card, you first need to select it.
+Чтобы прокрутить содержимое карточки, сначала необходимо её выделить.
 
-### Arrange cards
+### Распределение карточек
 
-Drag a selected card to move it.
+Перетащите выделенную карточку, чтобы переместить её.
 
-Press `Alt` (or `Option` on macOS) and drag to duplicate the selection.
+Нажмите `Alt` (или `Option` на macOS) и перетащите, чтобы дублировать выделение.
 
-You can press `Shift` while dragging to only move in one direction.
+Удерживайте `Shift` при перетаскивании, чтобы перемещать только в одном направлении.
 
-Press `Space` while moving a selection to disable snapping.
+Нажмите `Space` при перемещении выделения, чтобы отключить привязку.
 
-Selecting a card moves it to the front.
+При выделении карточка перемещается на передний план.
 
-### Resize a card
+### Изменение размера карточки
 
-Drag any of a card's edges to resize it.
+Перетащите любой край карточки, чтобы изменить её размер.
 
-You can press `Space` while resizing to disable snapping.
+Нажмите `Space` при изменении размера, чтобы отключить привязку.
 
-To maintain the aspect ratio while resizing, press `Shift` while resizing.
+Чтобы сохранить соотношение сторон при изменении размера, удерживайте `Shift`.
 
-## Connect cards
+## Соединение карточек
 
-Draw lines between cards to create relationships between them. Use colors and labels to describe how they relate to each other.
+Рисуйте линии между карточками, чтобы создать связи между ними. Используйте цвета и подписи, чтобы описать, как они связаны друг с другом.
 
-### Connect two cards
+### Соединение двух карточек
 
-To connect two cards with a directed line:
+Чтобы соединить две карточки направленной линией:
 
-1. Hover the cursor over one of the edges of a card until you see a filled circle.
-2. Drag the circle to the edge of a different card to connect them.
+1. Наведите курсор на один из краёв карточки, пока не появится заполненный круг.
+2. Перетащите круг к краю другой карточки, чтобы соединить их.
 
-> [!tip] Tip
-> If you drag the line without connecting it to another card, you can then add the card you want to connect it to.
+> [!tip] Подсказка
+> Если вы перетащите линию, не соединив её с другой карточкой, вы сможете затем добавить карточку, к которой хотите её подключить.
 
-### Disconnect two cards
+### Разъединение двух карточек
 
-To remove the connection between two cards:
+Чтобы удалить связь между двумя карточками:
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-2. Drag one of the circles from the card without connecting it to another.
+1. Наведите курсор на линию соединения, пока на линии не появятся два маленьких круга.
+2. Перетащите один из кругов от карточки, не соединяя его с другой.
 
-You can also disconnect two cards by right-clicking the line between them, and then selecting **Remove**. Or, by selecting the line and then pressing `Backspace` (or `Delete` on macOS).
+Вы также можете разъединить две карточки, щёлкнув правой кнопкой мыши по линии между ними и выбрав **Убрать**. Или выделите линию и нажмите `Backspace` (или `Delete` на macOS).
 
-### Connect a card to a different card
+### Подключение карточки к другой карточке
 
-To move one of the ends of a connection line:
+Чтобы переместить один из концов линии соединения:
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-2. Drag the circle over the end you want to reconnect, to another card.
+1. Наведите курсор на линию соединения, пока на линии не появятся два маленьких круга.
+2. Перетащите круг на том конце, который хотите переподключить, к другой карточке.
 
-### Navigate a connection
+### Навигация по соединению
 
-If two connected cards are far apart, you can navigate to the source or the target of the connection by right-clicking the line and then select **Go to target** or **Go to source**.
+Если две соединённые карточки находятся далеко друг от друга, вы можете перейти к источнику или цели соединения, щёлкнув правой кнопкой мыши по линии и выбрав **Перейти к цели** или **Перейти к источнику**.
 
-### Add a label to a connection
+### Добавление подписи к соединению
 
-You can add a label to a line to describe the relationship between two cards.
+Вы можете добавить подпись к линии, чтобы описать связь между двумя карточками.
 
-To label a connection:
+Чтобы подписать соединение:
 
-1. Double-click the line.
-2. Enter the label and then press `Escape` or click anywhere on the canvas.
+1. Дважды щёлкните по линии.
+2. Введите подпись, затем нажмите `Escape` или щёлкните в любом месте холста.
 
-You can also label a connection by selecting it and then selecting **Edit label** from the selection controls.
+Вы также можете подписать соединение, выделив его и выбрав **Редактировать подпись** в элементах управления выделением.
 
-To edit a connection label, double-click on the line, or right-click the line and then select **Edit label**.
+Чтобы отредактировать подпись соединения, дважды щёлкните по линии или щёлкните правой кнопкой мыши по линии и выберите **Редактировать подпись**.
 
-### Change the color of a card or connection
+### Изменение цвета карточки или соединения
 
-1. Select the cards or connections you want to color.
-2. In the selection controls, select **Set color** ( ![[lucide-palette.svg#icon]] ).
-3. Select a color.
+1. Выделите карточки или соединения, которые хотите раскрасить.
+2. В элементах управления выделением выберите **Задать цвет** ( ![[lucide-palette.svg#icon]] ).
+3. Выберите цвет.
 
-## Group cards
+## Группировка карточек
 
-### Group selected cards
+### Группировка выделенных карточек
 
-To create an empty group:
+Чтобы создать пустую группу:
 
-- Right-click the canvas and then select **Create group**.
+- Щёлкните правой кнопкой мыши по холсту и выберите **Создать группу**.
 
-To group related cards:
+Чтобы сгруппировать связанные карточки:
 
-1. Select the cards.
-2. Right-click any of the selected cards and then select **Create group**.
+1. Выделите карточки.
+2. Щёлкните правой кнопкой мыши по любой из выделенных карточек и выберите **Создать группу**.
 
-**Rename group:** Double-click the name of the group to edit it, and then press `Enter` to save.
+**Переименование группы:** Дважды щёлкните по названию группы, чтобы отредактировать его, затем нажмите `Enter` для сохранения.
 
-## Navigate the canvas
+## Навигация по холсту
 
-As you start adding more cards to your canvas, you want to understand how you can navigate the canvas to look at a part of it. Learn how to pan and zoom to move across the canvas with ease.
+По мере добавления карточек на холст вам понадобится навигация для просмотра его различных частей. Узнайте, как позиционировать и масштабировать холст для удобного перемещения.
 
-### Pan the canvas
+### Позиционирование холста
 
-To move the canvas vertically and horizontally, also known as _panning_, you can use any of the following approaches:
+Чтобы перемещать холст вертикально и горизонтально (панорамирование), используйте любой из следующих способов:
 
-- Press `Space` and drag the canvas.
-- Drag the canvas using the middle-mouse button.
-- Scroll the mouse to pan vertically, and press `Shift` while scrolling to pan horizontally.
+- Нажмите `Space` и перетащите холст.
+- Перетащите холст средней кнопкой мыши.
+- Прокручивайте колесо мыши для вертикального перемещения и удерживайте `Shift` при прокрутке для горизонтального перемещения.
 
-### Zoom the canvas
+### Масштабирование холста
 
-To zoom the canvas, press `Space`  or `Ctrl` (or `Cmd` on macOS) and scroll using the mouse wheel. Or, select **Zoom in** ( ![[lucide-plus.svg#icon]] ) and **Zoom out** ( ![[lucide-minus.svg#icon]] ) from the zoom controls in the upper-right corner.
+Чтобы масштабировать холст, нажмите `Space` или `Ctrl` (или `Cmd` на macOS) и прокрутите колесо мыши. Или выберите **Увеличить** ( ![[lucide-plus.svg#icon]] ) и **Уменьшить** ( ![[lucide-minus.svg#icon]] ) в элементах управления масштабом в правом верхнем углу.
 
-#### Zoom to fit
+#### Вписать все объекты в экран
 
-To zoom the canvas so that every item is visible, select **Zoom to fit** ( ![[lucide-maximize.svg#icon]] ). Or, use the keyboard shortcut, `Shift+1`.
+Чтобы масштабировать холст так, чтобы все элементы были видны, выберите **Вписать все объекты в экран** ( ![[lucide-maximize.svg#icon]] ). Или используйте сочетание клавиш `Shift+1`.
 
-#### Zoom to selection
+#### Масштабировать выделенное
 
-To zoom the canvas so that all selected items are visible, right-click a selected card and then select **Zoom to selection**. Or, use a keyboard shortcut by pressing `Shift+2`.
+Чтобы масштабировать холст так, чтобы все выделенные элементы были видны, щёлкните правой кнопкой мыши по выделенной карточке и выберите **Масштабировать выделенное**. Или используйте сочетание клавиш `Shift+2`.
 
-#### Reset zoom
+#### Исходный размер
 
-To change the zoom level back to the default, select **Reset zoom** in the zoom controls in the upper-right corner.
+Чтобы вернуть уровень масштабирования к значению по умолчанию, выберите **Исходный размер** в элементах управления масштабом в правом верхнем углу.
 
-## Advanced tips
+## Дополнительные советы
 
-We have made some quick videos to demonstrate some advanced use cases of Canvas.
+Мы подготовили несколько коротких видеороликов, демонстрирующих продвинутые сценарии использования Canvas.
 
-You can [check out all 72 tips here](https://obsidian.md/canvas#protips). Please note that the tip videos are only visible on desktop.
+Вы можете [посмотреть все 72 совета здесь](https://obsidian.md/canvas#protips). Обратите внимание, что видеосоветы доступны только в настольной версии.

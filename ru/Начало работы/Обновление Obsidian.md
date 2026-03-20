@@ -1,47 +1,45 @@
 ---
-localized: null
 permalink: updates
 aliases:
   - Update Obsidian
 ---
+Процесс обновления Obsidian различается на мобильных и настольных устройствах.
 
-Obsidian's updating process is different on mobile and desktop devices.
+Obsidian на настольных устройствах регулярно проверяет наличие новых обновлений. Если автоматические обновления включены, приложение обновится при перезапуске. Obsidian периодически требует [[#Обновление установщика|обновления установщика]], для чего необходимо скачать и запустить установщик.
 
-Obsidian on desktop devices regularly checks for new updates. If automatic updates are enabled, the application will update on restart. Obsidian needs periodic [[#Installer updates|installer updates]], which require downloading and running the installer.
+На мобильных устройствах Obsidian обновляется через магазин приложений устройства. Версия установщика совпадает с версией приложения. В Obsidian нет функции автоматического обновления.
 
-On mobile devices, Obsidian is updated through the device's app store. The installer version is the same as the app version. Obsidian does not feature auto-update.
+## Проверка обновлений и просмотр версии
 
-## Check for updates and view version
+Откройте **[[Настройки]] → Общие**.
 
-Open **[[Settings]] → General**.
-
-You can find the current versions of the app and installer at the top of the page.
+В верхней части страницы вы найдёте текущие версии приложения и установщика.
 
 ![[application-installer-current-version.png#interface]]
 
-To check for updates, select **Check for updates**. If there are new updates, Obsidian will offer to relaunch. Select **Relaunch** to apply any available updates.
+Чтобы проверить обновления, нажмите **Проверить обновления**. Если доступны новые обновления, Obsidian предложит перезапуститься. Нажмите **Перезапустить**, чтобы применить доступные обновления.
 
-## Disable automatic updates
+## Отключение автоматических обновлений
 
-If you prefer to update Obsidian manually, you can disable automatic updates.
+Если вы предпочитаете обновлять Obsidian вручную, вы можете отключить автоматические обновления.
 
-1. Open **[[Settings]] → General**.
-2. Disable **Automatic updates**.
+1. Откройте **[[Настройки]] → Общие**.
+2. Отключите **Автоматические обновления**.
 
-## Installer updates
+## Обновление установщика
 
-On desktop, Obsidian's [release notes](https://obsidian.md/changelog/) will inform you when you need to update the installer version of Obsidian to keep things working. This is the version of Electron, the framework on which Obsidian is built, and it cannot be updated by the automatic update process. 
+На настольных устройствах [примечания к выпуску](https://obsidian.md/changelog/) Obsidian сообщат вам, когда необходимо обновить версию установщика Obsidian для корректной работы. Это версия Electron — фреймворка, на котором построен Obsidian, — и она не может быть обновлена в процессе автоматического обновления.
 
-A community plugin or theme may require an installer update to access newer features that are not available in older versions of Electron, and may ask you to update the installer version of Obsidian before Obsidian itself asks.
+Плагин сообщества или тема могут требовать обновления установщика для доступа к новым функциям, недоступным в более ранних версиях Electron, и могут попросить вас обновить версию установщика Obsidian раньше, чем это сделает сам Obsidian.
 
-To update the installer version of Obsidian:
+Чтобы обновить версию установщика Obsidian:
 
-1. Navigate to https://obsidian.md/download.
-2. Select the **Download** button.
-3. Close Obsidian, if open.
-4. Proceed as detailed in [[Download and install Obsidian]].
+1. Перейдите по адресу https://obsidian.md/download.
+2. Нажмите кнопку **Загрузить**.
+3. Закройте Obsidian, если приложение открыто.
+4. Выполните действия, описанные в разделе [[Загрузка и установка Obsidian]].
 
-Your installer update is now complete.
+Обновление установщика завершено.
 
 > [!tip] 
-> You **do not** need to uninstall Obsidian to update the installer version.
+> Вам **не нужно** удалять Obsidian для обновления версии установщика.
