@@ -348,13 +348,48 @@ const enRootDirs = new Set(
 // Also allow translated folder names (values from filenamesMap)
 const translatedFolderNames = new Set(Object.values(filenamesMap.folders));
 
-for (const entry of fs.readdirSync(localeDir, { withFileTypes: true })) {
-  if (entry.name.startsWith(".")) continue;
-  if (entry.isFile() && LOCALE_ONLY_FILES.has(entry.name)) continue;
-  if (!entry.isDirectory()) continue;
-  if (enRootDirs.has(entry.name)) continue;
-  if (translatedFolderNames.has(entry.name)) continue;
-  console.log(`  UNKNOWN DIR  ${entry.name}  (not in en/ and not a known locale folder — consider deleting)`);
+// Delete empty legacy dirs: any directory (at any depth) that is not a
+// canonical locale path and contains no .md files with a valid permalink.
+// This safely removes old locale-named folders left over after orphan deletion
+// without risking removal of folders that were just populated by a MOVE.
+let deletedDirs = 0;
+
+function hasMdWithPermalink(dir: string): boolean {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      if (hasMdWithPermalink(full)) return true;
+    } else if (entry.isFile() && entry.name.endsWith(".md")) {
+      const raw = fs.readFileSync(full, "utf8");
+      const parsed = matter(raw);
+      if (parsed.data?.permalink) return true;
+    }
+  }
+  return false;
+}
+
+// Collect all dirs that are not canonical and not protected, deepest first
+function collectLegacyDirs(dir: string, depth: number): string[] {
+  const results: string[] = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (!entry.isDirectory() || entry.name.startsWith(".")) continue;
+    const full = path.join(dir, entry.name);
+    const name = entry.name;
+    // At root level, skip known canonical dirs
+    if (depth === 0 && (enRootDirs.has(name) || translatedFolderNames.has(name))) continue;
+    // Recurse first (deepest dirs collected first for safe deletion)
+    results.push(...collectLegacyDirs(full, depth + 1));
+    results.push(full);
+  }
+  return results;
+}
+
+for (const dir of collectLegacyDirs(localeDir, 0)) {
+  if (hasMdWithPermalink(dir)) continue;
+  const rel = path.relative(localeDir, dir);
+  console.log(`  DELETE DIR  ${rel} (empty legacy folder)`);
+  if (!dryRun) fs.rmSync(dir, { recursive: true });
+  deletedDirs++;
 }
 
 console.log(`\n--- Summary ---`);
@@ -364,6 +399,7 @@ console.log(`  Created (new stubs):          ${created}`);
 console.log(`  Unchanged:                    ${unchanged}`);
 console.log(`  Attachments copied:           ${attachCopied}`);
 console.log(`  Deleted (orphans):            ${deleted}`);
+console.log(`  Deleted (empty dirs):         ${deletedDirs}`);
 if (dryRun) {
   console.log("\n[DRY RUN] No files were written.");
 }
