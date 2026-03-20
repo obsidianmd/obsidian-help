@@ -1,0 +1,16 @@
+---
+permalink: symlinks
+---
+Du kannst [symbolische Verknüpfungen](https://de.wikipedia.org/wiki/Symbolische_Verkn%C3%BCpfung) (Symlinks) und [Junctions](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions) in deinem Vault verwenden, um Dateien außerhalb des Vaults und des [[Wie Obsidian Daten speichert#Globale Einstellungen|Systemordners]] zu speichern.
+
+> [!danger] Verwendung auf eigenes Risiko
+> Wir raten dringend davon ab, symbolische Verknüpfungen zu verwenden. Durch die Nutzung von symbolischen Verknüpfungen und Junctions in deinem Vault riskierst du den Verlust oder die Beschädigung deiner Daten oder einen Absturz von Obsidian. Stelle sicher, dass du regelmäßige Sicherungen deines Vaults und deiner Einstellungen durchführst.
+
+Im Folgenden findest du einige Einschränkungen oder bekannte Probleme, die du beachten solltest:
+
+- Symlink-Schleifen sind nicht zulässig, um einen Absturz von Obsidian durch eine Endlosschleife zu verhindern.
+- Symlink-Ziele müssen vollständig disjunkt vom Vault-Stammverzeichnis oder anderen Symlink-Zielen sein. Disjunkt bedeutet, dass ein Ordner keinen anderen enthält und umgekehrt. Obsidian ignoriert jede symbolische Verknüpfung zu einem übergeordneten Ordner des Vaults oder von einem Ordner im Vault zu einem anderen Ordner im selben Vault. Dies ist eine Schutzmaßnahme, die sicherstellt, dass du keine doppelten Dateien in deinem Vault erhältst, die zu mehrdeutigen Links führen könnten.
+- Symlinks funktionieren möglicherweise nicht gut mit Obsidian Sync oder _jeder anderen Art von Synchronisierung_. Wenn das Ziel einer symbolischen Verknüpfung selbst ein Ordner ist, der von einem anderen Obsidian-Vault synchronisiert wird, können (potenziell) Sync-Konflikte oder Datenverlust auftreten. Einige Sync-Tools wie Git folgen symbolischen Verknüpfungen nicht, sondern synchronisieren den _Pfad_, auf den die symbolische Verknüpfung zeigt, was zu unerwünschten Ergebnissen führen kann, wenn du deinen Vault auf diese Weise mit anderen Personen teilst.
+- Der Dateimanager von Obsidian kann keine Dateien über Gerätegrenzen hinweg verschieben. Wenn du also eine symbolische Verknüpfung zu einem Ordner auf einem anderen Laufwerk als deinem Vault erstellst, kannst du keine Dateien zwischen diesem Ordner und anderen Ordnern mit dem Dateiexplorer von Obsidian ziehen. (Du musst für solche Verschiebungen den Explorer deines Betriebssystems verwenden. Obsidian wird die Verschiebung als Löschung und Erstellung einer neuen Datei betrachten. Außerdem werden _keine_ Links aktualisiert, die vom Pfad dieser Datei abhängig sind.)
+- Datei-Symlinks (im Gegensatz zu Ordner-Symlinks) _können_ funktionieren, werden aber derzeit nicht offiziell unterstützt. Änderungen, die außerhalb von Obsidian vorgenommen werden, werden nicht überwacht. Wenn du die Datei direkt änderst, erkennt Obsidian die Änderung nicht, aktualisiert die Suchindizes nicht usw.
+- Das Erstellen symbolischer Verknüpfungen für Inhalte im `.obsidian/`-Ordner, um diese zwischen Vaults zu teilen, **birgt ein hohes Risiko, deine Einstellungen zu beschädigen**, es sei denn, du weißt _wirklich_, was du tust. Wenn du dich für diesen Weg entscheidest, solltest du zumindest Sicherungen haben.

@@ -2,6 +2,7 @@
 (function () {
   const LOCALES = [
     { code: 'en',    label: 'English',    base: 'https://obsidian.md/help' },
+    { code: 'de',    label: 'Deutsch',    base: 'https://obsidian.md/de/help' },
     { code: 'es',    label: 'Español',    base: 'https://obsidian.md/es/help' },
     { code: 'fr',    label: 'Français',   base: 'https://obsidian.md/fr/help' },
     { code: 'ja',    label: '日本語',     base: 'https://obsidian.md/ja/help' },
