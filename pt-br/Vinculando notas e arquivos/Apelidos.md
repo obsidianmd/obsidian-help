@@ -1,65 +1,49 @@
 ---
+permalink: aliases
+cssclasses:
+  - soft-embed
 aliases:
-- pseudônimo
-- apelido
-- Como/Adicionar aliases à nota
+  - Vinculando notas e arquivos/Apelidos
 ---
+Se você deseja referenciar um arquivo usando nomes diferentes, considere adicionar _apelidos_ à nota. Um apelido é um nome alternativo para uma nota.
 
-Se quiser fazer referência a um arquivo usando nomes diferentes, considere adicionar _aliases_ à nota. Um alias é um nome alternativo para uma nota.
+Use apelidos para coisas como acrônimos, abreviações, ou para se referir a uma nota em um idioma diferente.
 
-Use pseudônimos para coisas como acrônimos, apelidos ou para se referir a uma nota em um idioma diferente.
+Se você está apenas tentando mudar a aparência de um link em um lugar específico, veja como [[Links internos#Alterar o texto de exibição do link|Alterar o texto de exibição do link]].
 
-## Adicione um alias a uma nota
+![[Links internos#^callout-internal-links-link-text]]
 
-Para adicionar um alias para uma nota, adicione uma propriedade `alias`, ou `aliases`, na nota [[Metadata|início]]:
+## Adicionar um apelido a uma nota
 
-```md
----
-aliases: Doggo
----
-
-# Cachorro
-```
-
-Você pode adicionar vários aliases usando vírgulas:
-
-```md
----
-pseudônimos: Doggo, Woofer, Yapper
----
-
-# Cachorro
-```
-
-Ou você também pode adicionar vários aliases usando uma matriz YAML:
+Para adicionar um apelido a uma nota, adicione a propriedade `aliases` nas [[Propriedades]] da nota. Os apelidos devem sempre ser formatados como uma lista em YAML.
 
 ```md
 ---
 aliases:
-   - Cachorro
-   - Woofer
-   - Yapper
+  - Doggo
+  - Woofer
+  - Yapper
 ---
 
-# Cachorro
+# Dog
 ```
 
-## Link para uma nota usando um alias
+## Vincular a uma nota usando um apelido
 
-Para vincular a uma nota usando um alias:
+Para vincular a uma nota usando um apelido:
 
-1. Comece digitando o alias em um [[Links internos|link interno]]. Qualquer alias aparece na lista de sugestões, com um ícone de seta curva ao lado dele.
-2. Pressione `Enter` para selecionar o alias.
+1. Comece a digitar o apelido em um [[Links internos|link interno]]. Qualquer apelido aparecerá na lista de sugestões, com um ícone de seta curva ao lado.
+2. Pressione `Enter` para selecionar o apelido.
 
-Obsidian cria o link com o alias como seu texto de exibição personalizado, por exemplo `[[Artificial Intelligence|AI]]`.
+O Obsidian cria o link com o apelido como seu texto de exibição personalizado, por exemplo `[[Inteligência Artificial|IA]]`.
 
-> [!nota]
-> Em vez de apenas usar o alias como o destino do link (`[[AI]]`), a Obsidian usa o formato de link `[[Inteligência Artificial|AI]]` para garantir a interoperabilidade com outros aplicativos usando o formato Wikilink.
+> [!note] Nota
+> Em vez de apenas usar o apelido como destino do link (`[[IA]]`), o Obsidian usa o formato de link `[[Inteligência Artificial|IA]]` para garantir a interoperabilidade com outros aplicativos que usam o formato de link wiki.
 
-## Encontre menções não vinculadas para um alias
+## Encontrar menções desvinculadas de um apelido
 
-Ao usar [[Backlinks]], você pode encontrar menções não vinculadas de pseudônimos.
+Usando [[Links inversos]], você pode encontrar menções desvinculadas de apelidos.
 
-Por exemplo, depois de definir "AI" como um alias para "Inteligência artificial", você pode ver menções a "AI" em outras notas.
+Por exemplo, após definir "IA" como um apelido para "Inteligência artificial", você pode ver menções de "IA" em outras notas.
 
-Se você vincular uma menção não vinculada a um alias, o Obsidian transforma a menção em um [[Links internos|link interno]] com o alias como texto de exibição.
+Se você vincular uma menção desvinculada a um apelido, o Obsidian transforma a menção em um [[Links internos|link interno]] com o apelido como seu texto de exibição.

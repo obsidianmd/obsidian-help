@@ -1,71 +1,63 @@
 ---
+permalink: tags
 aliases:
-- Como/Trabalhar com tags
+  - Plugins/Tags
 ---
+Etiquetas são palavras-chave ou tópicos que ajudam você a encontrar rapidamente as notas que deseja.
 
-Tags são palavras-chave ou tópicos que ajudam você a encontrar rapidamente as notas que deseja.
+## Adicionar uma etiqueta a uma nota
 
-## Adicione uma etiqueta a uma nota
+Para criar uma etiqueta, digite um símbolo de cerquilha (`#`) no editor, seguido de uma palavra-chave. Por exemplo, `#reunião`.
 
-Para criar uma tag, insira um símbolo de hashtag (#) no editor, seguido de uma palavra-chave. Por exemplo, `#reunião`.
-
-Você também pode adicionar a tag ao [[Metadata]]:
+Você também pode adicionar etiquetas usando a [[Propriedades|propriedade]] `tags`. Etiquetas em YAML devem sempre ser formatadas como uma lista:
 
 ```yaml
 ---
-etiqueta: reunião
+tags:
+  - receita
+  - culinária
 ---
 ```
 
-Ou adicione várias tags:
+## Encontrar notas usando etiquetas
 
-```yaml
----
-Tag:
-   - receita
-   - culinária
----
-```
+Para encontrar notas usando o plugin [[Pesquisa]], use o [[Pesquisa#Operadores de pesquisa|operador de pesquisa]] `tag` no seu termo de busca, por exemplo `tag:#reunião`.
 
-Você também pode adicionar várias tags em uma única linha, separando-as com vírgulas:
+Você também pode buscar tags clicando nelas em suas notas.
 
-```yaml
----
-tags: receita, cozinhar
----
-```
+Para encontrar notas usando o plugin [[Visão de tags|Painel de etiquetas]], selecione **Etiquetas: Mostrar painel de etiquetas** na [[Paleta de comandos]], e então selecione a etiqueta que deseja buscar.
 
-## Encontre notas usando tags
+## Etiquetas aninhadas
 
-Para encontrar notas usando o plug-in [[Busca]], use a tag `[[Search#Search operator|search operator]] em seu termo de pesquisa, por exemplo `tag:#meeting`.
+Etiquetas aninhadas definem hierarquias de etiquetas que facilitam encontrar e filtrar etiquetas relacionadas.
 
-Você também pode pesquisar tags clicando nelas em suas anotações.
+Crie etiquetas aninhadas usando barras (`/`) no nome da etiqueta, por exemplo `#caixa-entrada/para-ler` e `#caixa-entrada/processando`.
 
-Para encontrar notas usando o plug-in [[Plugins/Tags|Tags]], selecione **Tags: Show tags** na [[Paleta de comandos]] e selecione a tag que deseja pesquisar.
+- Na [[Pesquisa]], `tag:caixa-entrada` corresponderá a `#caixa-entrada` bem como a todas as etiquetas aninhadas, como `#caixa-entrada/para-ler`.
+- No [[Visão de tags|Painel de etiquetas]], etiquetas aninhadas são exibidas como pertencentes à sua etiqueta pai.
+- No [[Introdução ao Bases|Bases]], etiquetas aninhadas são reconhecidas pela função [[Funções#hasTag|`hasTag`]], então `file.hasTag("a")` corresponderá tanto a `#a` quanto a `#a/b`.
 
-## Tags aninhadas
+## Formato de etiqueta
 
-Tags aninhadas definem hierarquias de tags que facilitam a localização e filtragem de tags relacionadas.
-
-Crie tags aninhadas usando barras (`/`) no nome da tag, por exemplo `#inbox/to-read` e `#inbox/processing`.
-
-Ambos os plugins [[Busca]] e [[Plugins/Tags|Tags]] suportam tags aninhadas.
-
-## Formato da etiqueta
-
-Você pode usar qualquer um dos seguintes caracteres em suas tags:
+Você pode usar qualquer um dos seguintes caracteres em suas etiquetas:
 
 - Letras alfabéticas
 - Números
 - Sublinhado (`_`)
 - Hífen (`-`)
-- Barra (`/`) para [[#Tags aninhadas]]
+- Barra (`/`) para [[#Etiquetas aninhadas]]
 
-As tags devem conter pelo menos um caractere não numérico. Por exemplo, #1984 não é uma tag válida, mas #y1984 é.
+Etiquetas devem conter pelo menos um caractere não numérico. Por exemplo, #1984 não é uma etiqueta válida, mas #y1984 é.
 
-As tags não podem conter espaços em branco. Para separar duas ou mais palavras, você pode usar os seguintes formatos:
+Etiquetas não diferenciam maiúsculas de minúsculas. Por exemplo, #etiqueta e #ETIQUETA serão tratadas como idênticas.
 
-- #CamelCase
-- #PascalCase See More
+> [!note]
+> As etiquetas serão exibidas com a capitalização com que foram criadas pela primeira vez no [[Visão de tags|Painel de etiquetas]].
+> Por exemplo, criar #Etiqueta e depois #ETIQUETA exibirá #Etiqueta para ambas.
+
+Etiquetas não podem conter espaços em branco. Para separar duas ou mais palavras, você pode usar os seguintes formatos:
+
+- #camelCase
+- #PascalCase
 - #snake_case
 - #kebab-case

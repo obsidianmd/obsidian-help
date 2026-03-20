@@ -1,15 +1,25 @@
-The Outgoing links plugin shows the links from the active note at a glance, as well as potential links to be made. It's similar to the [[Backlinks]] plugin, which instead shows you _incoming_ links to the active note.
+---
+permalink: plugins/outgoing-links
+publish: true
+mobile: false
+description: >-
+  Links de saída é um plugin nativo que mostra links da nota ativa de forma
+  rápida, bem como links potenciais a serem criados.
+---
+Links de saída é um [[Plugins nativos|plugin nativo]] que mostra links da nota ativa de forma rápida, bem como links potenciais a serem criados. É semelhante ao plugin [[Links inversos]], que em vez disso mostra os links _recebidos_ para a nota ativa.
 
-The Outgoing links pane (link with right arrow icon) is available in the right sidebar and contains the following sections:
+A aba Links de saída ( ![[obsidian-icon-links-going-out.svg#icon]] ) está disponível na barra lateral direita e contém as seguintes seções:
 
-- **Links** lists all links in the active note. Click a link to open the linked note.
-- **Unlinked mentions** lists any text in the active note that matches the name or [[Apelidos|alias]] of another note in your vault. Unlinked mentions helps you discover links you aren't aware of yet.
+- **Links** lista todos os links na nota ativa. Clique em um link para abrir a nota vinculada.
+- **Menções desvinculadas** lista qualquer texto na nota ativa que corresponda ao nome ou [[Apelidos|apelido]] de outra nota no seu cofre. Menções desvinculadas ajudam você a descobrir links dos quais você ainda não tem conhecimento.
 
-To create a link from an unlinked mention, click the button with the note's name.
+> [!info] Arquivos excluídos
+> Arquivos que correspondem aos seus padrões de [[Configurações#Arquivos excluídos|Arquivos excluídos]] não aparecerão em Menções desvinculadas.
 
-> [!tip]
-> Unlinked mentions can refer to different notes with the same name. To show the full path of the note, hover over the button with the note's name.
+Para criar um link a partir de uma menção desvinculada, clique no botão com o nome da nota.
 
-> [!note] Code blocks
-> While you can create a link from an unlinked mention inside a code block, due to the nature of code blocks, links don't show up under the Links section.
+> [!tip] Dica
+> Menções desvinculadas podem se referir a diferentes notas com o mesmo nome. Para mostrar o caminho completo da nota, passe o cursor sobre o botão com o nome da nota.
 
+> [!note] Blocos de código
+> Embora você possa criar um link a partir de uma menção desvinculada dentro de um bloco de código, devido à natureza dos blocos de código, os links não aparecem na seção Links.

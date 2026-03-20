@@ -1,188 +1,202 @@
-Saiba como adicionar sintaxe de formatação avançada às suas notas.
+---
+permalink: advanced-syntax
+---
+Aprenda como adicionar sintaxe de formatação avançada às suas notas.
 
 ## Tabelas
 
-Você pode criar tabelas usando barras verticais (`|`) e hífens (`-`). As barras verticais separam as colunas e os hífens definem o cabeçalho da coluna.
+Você pode criar tabelas usando barras verticais (`|`) para separar colunas e hifens (`-`) para definir cabeçalhos. Aqui está um exemplo:
 
 ```md
-| Primeiro nome | Sobrenome |
-| ---------- | ---------- |
-| máx | Plano |
-| Maria | curie |
+| Primeiro nome | Último nome |
+| ------------- | ----------- |
+| Max           | Planck      |
+| Marie         | Curie       |
 ```
 
-| Primeiro nome | Sobrenome |
-| ---------- | ---------- |
-| máx | Plano |
-| Maria | curie |
+| Primeiro nome | Último nome |
+| ------------- | ----------- |
+| Max           | Planck      |
+| Marie         | Curie       |
 
-As barras verticais ou qualquer um dos lados da mesa são opcionais.
+Embora as barras verticais em cada lado da tabela sejam opcionais, incluí-las é recomendado para melhor legibilidade.
 
-As células não precisam estar perfeitamente alinhadas com as colunas. Cada linha de cabeçalho deve ter pelo menos dois hífens.
+> [!tip] Na _Visualização ao vivo_, você pode clicar com o botão direito em uma tabela para adicionar ou excluir colunas e linhas. Você também pode ordená-las e movê-las usando o menu de contexto.
+
+Você pode inserir uma tabela usando o comando **Inserir tabela** da [[Paleta de comandos]] ou clicando com o botão direito e selecionando _Inserir → Tabela_. Isso lhe dará uma tabela básica e editável:
 
 ```md
-Primeiro nome | Sobrenome
+|     |     |
+| --- | --- |
+|     |     |
+```
+
+Note que as células não precisam estar perfeitamente alinhadas, mas a linha de cabeçalho deve conter pelo menos dois hifens:
+
+```md
+Primeiro nome | Último nome
 -- | --
-máx | Planck
-Maria | curie
+Max | Planck
+Marie | Curie
 ```
+
 
 ### Formatar conteúdo dentro de uma tabela
 
-Você pode usar [[Sintaxe de formatação básica]] para estilizar o conteúdo dentro de uma tabela.
+Você pode usar a [[Sintaxe de formatação básica]] para estilizar o conteúdo dentro de uma tabela.
 
-Primeira coluna | Segunda coluna
--- | --
-[[Links internos]] | Link para um arquivo _dentro_ do seu **cofre**.
-[[Incorporando arquivos]] | ![[og-image.png\|200]]
+| Primeira coluna    | Segunda coluna                                       |
+| ------------------ | ---------------------------------------------------- |
+| [[Links internos]] | Link para um arquivo _dentro_ do seu **cofre**. |
+| [[Incorporar arquivos]]    | ![[Engelbart.jpg\|100]]                         |
 
 > [!note] Barras verticais em tabelas
-> Se você quiser usar [[Apelidos]], ou [[Sintaxe de formatação básica#External images|resize an image]] em sua tabela, você precisa adicionar um `\` antes da barra vertical.
+> Se você quiser usar [[Apelidos|apelidos]], ou [[Sintaxe de formatação básica#Imagens externas|redimensionar uma imagem]] na sua tabela, você precisa adicionar uma `\` antes da barra vertical.
 >
 > ```md
 > Primeira coluna | Segunda coluna
 > -- | --
-> [[Sintaxe de formatação básica\|Sintaxe de Markdown]] | ![[og-image.png\|200]]
+> [[Sintaxe de formatação básica\|Sintaxe Markdown]] | ![[Engelbart.jpg\|200]]
 > ```
 >
 > Primeira coluna | Segunda coluna
 > -- | --
-> [[Sintaxe de formatação básica|Sintaxe Markdown]] | ![[og-image.png\|200]]
+> [[Sintaxe de formatação básica\|Sintaxe Markdown]] | ![[Engelbart.jpg\|200]]
 
-Você pode alinhar o texto à esquerda, à direita ou ao centro de uma coluna adicionando dois pontos (`:`) à linha do cabeçalho.
+Alinhe o texto nas colunas adicionando dois-pontos (`:`) à linha de cabeçalho. Você também pode alinhar o conteúdo na _Visualização ao vivo_ pelo menu de contexto.
 
 ```md
-Texto alinhado à esquerda | Texto alinhado ao centro | Texto alinhado à direita
+Texto alinhado à esquerda | Texto centralizado | Texto alinhado à direita
 :-- | :--: | --:
-Conteúdo | Conteúdo | Contente
+Conteúdo | Conteúdo | Conteúdo
 ```
 
-Texto alinhado à esquerda | Texto alinhado ao centro | Texto alinhado à direita
+Texto alinhado à esquerda | Texto centralizado | Texto alinhado à direita
 :-- | :--: | --:
-Conteúdo | Conteúdo | Contente
+Conteúdo | Conteúdo | Conteúdo
 
 ## Diagrama
 
-Você pode adicionar diagramas e gráficos às suas anotações, usando [Mermaid](https://mermaid-js.github.io/). O Mermaid suporta uma variedade de diagramas, como [fluxogramas](https://mermaid.js.org/syntax/flowchart.html), [diagramas de sequência](https://mermaid.js.org/syntax/sequenceDiagram. html) e [linhas do tempo](https://mermaid.js.org/syntax/timeline.html).
+Você pode adicionar diagramas e gráficos às suas notas, usando [Mermaid](https://mermaid-js.github.io/). O Mermaid suporta uma variedade de diagramas, como [fluxogramas](https://mermaid.js.org/syntax/flowchart.html), [diagramas de sequência](https://mermaid.js.org/syntax/sequenceDiagram.html) e [linhas do tempo](https://mermaid.js.org/syntax/timeline.html).
 
-> [!dica]
-> Você também pode experimentar o [Live Editor] da Mermaid (https://mermaid-js.github.io/mermaid-live-editor) para ajudá-lo a criar diagramas antes de incluí-los em suas anotações.
+> [!tip] Dica
+> Você também pode experimentar o [Editor ao Vivo](https://mermaid-js.github.io/mermaid-live-editor) do Mermaid para ajudá-lo a construir diagramas antes de incluí-los nas suas notas.
 
-Para adicionar um diagrama de sereia, crie uma `sereia` [[Sintaxe de formatação básica#Code blocks|code block]].
+Para adicionar um diagrama Mermaid, crie um [[Sintaxe de formatação básica#Blocos de código|bloco de código]] `mermaid`.
 
 ````md
-```sereia
-diagrama de sequência
-     Alice->>+John: Olá John, tudo bem?
-     Alice->>+John: John, você pode me ouvir?
-     John->>-Alice: Oi Alice, estou te ouvindo!
-     John-->>-Alice: Eu me sinto ótimo!
+```mermaid
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
 ```
 ````
 
-```sereia
-diagrama de sequência
-     Alice->>+John: Olá John, tudo bem?
-     Alice->>+John: John, você pode me ouvir?
-     John->>-Alice: Oi Alice, estou te ouvindo!
-     John-->>-Alice: Eu me sinto ótimo!
+```mermaid
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
 ```
 
 ````md
-```sereia
-gráfico TD
+```mermaid
+graph TD
 
-Biologia --> Química
+Biology --> Chemistry
 ```
 ````
 
-```sereia
-gráfico TD
+```mermaid
+graph TD
 
-Biologia --> Química
+Biology --> Chemistry
 ```
 
 ### Vinculando arquivos em um diagrama
 
-Você pode criar [[Links internos]] em seus diagramas anexando a [classe](https://mermaid.js.org/syntax/flowchart.html#classes) `internal-link` aos seus nós.
+Você pode criar [[Links internos|links internos]] nos seus diagramas anexando a [classe](https://mermaid.js.org/syntax/flowchart.html#classes) `internal-link` aos seus nós.
 
 ````md
-```sereia
-gráfico TD
+```mermaid
+graph TD
 
-Biologia --> Química
+Biology --> Chemistry
 
-classe Biologia, Química link interno;
+class Biology,Chemistry internal-link;
 ```
 ````
 
-```sereia
-gráfico TD
+```mermaid
+graph TD
 
-Biologia --> Química
+Biology --> Chemistry
 
-classe Biologia, Química link interno;
+class Biology,Chemistry internal-link;
 ```
 
-> [!nota]
-> Os links internos dos diagramas não aparecem na [[Visualização de gráfico]].
+> [!note] Nota
+> Links internos de diagramas não aparecem na [[Visão de grafo]].
 
-Se você tiver muitos nós em seus diagramas, poderá usar o trecho a seguir.
+Se você tem muitos nós nos seus diagramas, pode usar o seguinte trecho.
 
 ````md
-```sereia
-gráfico TD
+```mermaid
+graph TD
 
-A[Biologia]
-B[Química]
+A[Biology]
+B[Chemistry]
 
 A --> B
 
-classe A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y ,Z link interno;
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 ````
 
 Dessa forma, cada nó de letra se torna um link interno, com o [texto do nó](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) como o texto do link.
 
-> [!nota]
-> Se você usar caracteres especiais em seus nomes de nota, você precisa colocar o nome da nota entre aspas duplas.
+> [!note] Nota
+> Se você usar caracteres especiais nos nomes das suas notas, precisa colocar o nome da nota entre aspas duplas.
 >
 > ```
-> class "⨳ caractere especial" link interno
+> class "⨳ special character" internal-link
 > ```
 >
-> Ou, `A["⨳ caractere especial"]`.
+> Ou, `A["⨳ special character"]`.
 
-Para obter mais informações sobre como criar diagramas, consulte os [documentos oficiais da Mermaid](https://mermaid.js.org/intro/).
+Para mais informações sobre a criação de diagramas, consulte a [documentação oficial do Mermaid](https://mermaid.js.org/intro/).
 
-## Matemática
+## Equação
 
-Você pode adicionar expressões matemáticas às suas anotações usando [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) e a notação LaTeX.
+Você pode adicionar expressões matemáticas às suas notas usando [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) e a notação LaTeX.
 
-Para adicionar uma expressão MathJax à sua nota, coloque-a entre cifrões duplos (`$$`).
+Para adicionar uma expressão MathJax à sua nota, envolva-a com cifrões duplos (`$$`).
 
 ```md
 $$
 \begin{vmatrix}a & b\\
-cd
+c & d
 \end{vmatrix}=ad-bc
 $$
 ```
 
 $$
 \begin{vmatrix}a & b\\
-cd
+c & d
 \end{vmatrix}=ad-bc
 $$
 
-Você também pode incorporar expressões matemáticas envolvendo-as em símbolos `$`.
+Você também pode usar expressões matemáticas inline envolvendo-as com símbolos `$`.
 
 ```md
-Esta é uma expressão matemática em linha $e^{2i\pi} = 1$.
+Esta é uma expressão matemática inline $e^{2i\pi} = 1$.
 ```
 
-Esta é uma expressão matemática em linha $e^{2i\pi} = 1$.
+Esta é uma expressão matemática inline $e^{2i\pi} = 1$.
 
-Para obter mais informações sobre a sintaxe, consulte [Tutorial básico e referência rápida do MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+Para mais informações sobre a sintaxe, consulte o [tutorial básico e referência rápida do MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-Para obter uma lista de pacotes MathJax suportados, consulte [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+Para uma lista de pacotes MathJax suportados, consulte a [Lista de Extensões TeX/LaTeX](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).

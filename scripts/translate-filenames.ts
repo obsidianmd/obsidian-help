@@ -186,6 +186,50 @@ const LANGUAGE_NAMES: Record<string, string> = {
   ar: "Arabic", da: "Danish", vi: "Vietnamese", km: "Khmer", id: "Indonesian",
 };
 
+// Locale dir names that differ from their obsidian-translations file names
+const LOCALE_TO_TRANSLATIONS_FILE: Record<string, string> = {
+  "pt-br": "pt-BR",
+  "km": "kh",
+};
+
+const PRESERVE_EN = new Set([
+  "Obsidian", "Sync", "Publish", "Canvas", "Markdown", "CSS", "API",
+  "Zettelkasten", "URI", "CLI", "Bases",
+]);
+
+/**
+ * Load official plugin name translations from obsidian-translations.
+ * Returns a glossary string like "Backlinks = Links inversos\n..." or "".
+ */
+function loadPluginNameGlossary(localeCode: string): string {
+  const fileBase = LOCALE_TO_TRANSLATIONS_FILE[localeCode] ?? localeCode;
+  const translationsFile = path.resolve(
+    ROOT, "../obsidian-translations/translations", `${fileBase}.txt`
+  );
+  if (!fs.existsSync(translationsFile)) return "";
+
+  const pluginNameKey = /^plugins\.[^.]+\.name$/;
+  const lines = fs.readFileSync(translationsFile, "utf8").split("\n");
+  const entries: string[] = [];
+  let key = "", original = "";
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
+      key = trimmed.slice(1, -1);
+      original = "";
+    } else if (trimmed.startsWith("original=")) {
+      original = trimmed.slice("original=".length);
+    } else if (trimmed.startsWith("translation=") && pluginNameKey.test(key)) {
+      const translation = trimmed.slice("translation=".length);
+      if (translation && translation !== original && !PRESERVE_EN.has(original)) {
+        entries.push(`${original} = ${translation}`);
+      }
+    }
+  }
+  return entries.join("\n");
+}
+
 async function callLLM(config: LLMConfig, system: string, user: string): Promise<string> {
   const res = await fetch(config.apiEndpoint, {
     method: "POST",
@@ -234,7 +278,8 @@ RULES:
 async function translateFiles(
   config: LLMConfig,
   files: EnFile[],
-  langName: string
+  langName: string,
+  glossary: string,
 ): Promise<Record<string, string>> {
   // Send permalink + EN basename to LLM, get back { permalink: FR filename }
   const input = Object.fromEntries(files.map(f => [f.permalink, f.basename]));
@@ -247,7 +292,10 @@ RULES:
 1. Never translate: Obsidian, Sync, Publish, Markdown, CSS, API, Canvas, Zettelkasten, URI, CLI
 2. Keep translations concise — these are file names, not sentences
 3. Do NOT include .md extension
-4. Return ONLY a valid JSON object: { "permalink": "French filename" }`;
+4. Return ONLY a valid JSON object: { "permalink": "French filename" }${glossary ? `
+
+OFFICIAL PLUGIN NAME TRANSLATIONS (use these exactly — do not translate differently):
+${glossary}` : ""}`;
 
   const result = await callLLM(config, system,
     `Translate these Obsidian Help file names to ${langName}. Keys are permalinks (keep them as keys), values are English names to translate:\n${JSON.stringify(input, null, 2)}`);
@@ -259,6 +307,8 @@ RULES:
 async function main() {
   const config = loadConfig();
   const langName = LANGUAGE_NAMES[locale] ?? locale;
+  const glossary = loadPluginNameGlossary(locale);
+  if (glossary) console.log(`Loaded plugin name glossary (${glossary.split("\n").length} terms)`);
   const { files, folders } = collectEn();
   const existing = loadFilenamesTxt();
 
@@ -302,7 +352,7 @@ async function main() {
     for (let i = 0; i < missingFiles.length; i += BATCH) {
       const batch = missingFiles.slice(i, i + BATCH);
       console.log(`\nTranslating files ${i + 1}–${i + batch.length} of ${missingFiles.length}...`);
-      const translated = await translateFiles(config, batch, langName);
+      const translated = await translateFiles(config, batch, langName, glossary);
       for (const [permalink, frName] of Object.entries(translated)) {
         existing.files[permalink] = frName;
         const enName = batch.find(f => f.permalink === permalink)?.basename ?? permalink;

@@ -1,5 +1,0 @@
-Em obsidiana, um documento pode ser visualizado no modo de edição ou na visualização de leitura. No modo de edição, você verá a renderização básica do Markdown, mas certas coisas, como realce de sintaxe de código e arquivos incorporados, só aparecerão na visualização de leitura. Mais notavelmente, todas as imagens que você incorporar serão visíveis apenas na exibição de leitura.
-
-Para alternar entre a visualização de leitura e o modo de edição, clique no botão de visualização de leitura na barra de título. No modo de edição, aparecerá como uma página; na visão de leitura, um lápis. Se você clicar em `Cmd/Ctrl`, a visualização de leitura será aberta em um [[Painel vinculado]]. Você também pode alternar a visualização de leitura pressionando `Cmd/Ctrl-E`, mas esta tecla de atalho pode, é claro, ser alterada.
-
-Se você deseja abrir por padrão na visualização de leitura em vez do modo de edição, uma alternância para isso pode ser encontrada na [[paleta de comandos]]. Você também pode definir uma [[Tecla de atalho personalizada|hotkey]] para alternar entre os estados padrão.
