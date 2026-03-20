@@ -1,32 +1,39 @@
-Obsidian gives you access to many of the commands in Obsidian directly from your keyboard. The Command palette lets you run any command from the same interactive window. You can also explore the all available commands and their respective keyboard shortcuts.
+---
+permalink: plugins/command-palette
+aliases:
+  - Plugins/Paleta de comandos
+---
+O plugin de [[Plugins nativos|Paleta de comandos]] permite executar qualquer comando diretamente do seu teclado. Ele também permite explorar todos os comandos disponíveis e seus [[Teclas de atalho|atalhos de teclado]].
 
-To run a command from the Command palette:
+Para executar um comando a partir da Paleta de comandos:
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the Command palette.
-2. Type the name of the command you want to run.
-3. Navigate to the command using the arrow keys.
-4. Press `Enter`.
+1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a Paleta de comandos. Você também pode abri-la a partir do [[Faixa de opções|Menu lateral]] com o ícone da Paleta de comandos ( ![[lucide-terminal.svg#icon]] ).
+2. Digite o nome do comando que deseja executar.
+3. Navegue até o comando usando as teclas de seta.
+4. Pressione `Enter`.
 
-> [!tip]
-> The Command palette supports _fuzzy matching_, which lets you search commands even if you don't know their exact names. For example, type "scf" to find the "**S**ave **c**urrent **f**ile" command.
+> [!tip] Dica
+> A Paleta de comandos suporta _correspondência aproximada_, permitindo buscar comandos mesmo que você não saiba seus nomes exatos. Por exemplo, digitar "saa" encontrará o comando **S**alvar **a**rquivo **a**tual.
 
-## Pinned commands
+A partir da **versão 1.8.3**, os comandos usados recentemente aparecem no topo da Paleta de comandos. No entanto, esses comandos recentes ainda estão sujeitos ao algoritmo de _correspondência aproximada_. Quando você começa a filtrar, comandos mais curtos serão priorizados sobre os usados recentemente.
 
-You can pin frequently used commands at the top of the Command palette to quickly access them without having to type their name.
+## Comandos salvos
 
-> [!tip]
-> If you want to quickly run frequently used commands, you can also [[Teclas de atalho personalizadas#Setting hotkeys|set hotkeys]] for them.
+Você pode fixar comandos usados frequentemente no topo da Paleta de comandos para acessá-los rapidamente sem precisar digitar seus nomes.
 
-### Pin a command
+> [!tip] Dica
+> Se você deseja executar rapidamente comandos usados com frequência, também pode [[Teclas de atalho#Definir teclas de atalho|definir teclas de atalho]] para eles.
 
-1. Open **Settings**.
-2. In the sidebar, click **Command palette** under **Plugin options**.
-3. Next to **New pinned command**, click **Select a command**.
-4. Select the command you want to pin from the list.
-5. Press `Enter`.
+### Fixar um comando
 
-### Unpin a command
+1. Abra **[[Configurações]]**.
+2. Na barra lateral, clique em **Paleta de comandos** em **Configurações de plugin**.
+3. Ao lado de **Novo comando salvo**, clique em **Selecionar um comando**.
+4. Selecione o comando que deseja fixar na lista.
+5. Pressione `Enter`.
 
-1. Open **Settings**.
-2. In the sidebar, click **Command palette** under **Plugin options**.
-3. Under **Pinned commands**, click the cross icon next to the command you want to unpin.
+### Desafixar um comando
+
+1. Abra **[[Configurações]]**.
+2. Na barra lateral, clique em **Paleta de comandos** em **Configurações de plugin**.
+3. Em **Comandos salvos**, clique no ícone de cruz ao lado do comando que deseja desafixar.

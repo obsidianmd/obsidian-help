@@ -1,3 +1,6 @@
-The Random note plugin opens a random note within your vault. Rediscover notes to add new insights, or link to recently added notes.
+---
+permalink: plugins/random-note
+---
+Nota aleatória é um [[Plugins nativos|plugin nativo]] que abre uma nota aleatória dentro do seu cofre. Redescubra notas para adicionar novos insights, ou vincule a notas adicionadas recentemente.
 
-To open a random note, click **Open random note** (die icon) in the [[Fita]].
+Para abrir uma nota aleatória, clique em **Abrir nota aleatória** ( ![[obsidian-icon-dice.svg#icon]] ) no [[Faixa de opções|Menu lateral]].

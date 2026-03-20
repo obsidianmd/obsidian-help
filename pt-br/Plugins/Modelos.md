@@ -1,34 +1,86 @@
-You can use Templates to insert pre-defined snippets of text into your active note.
+---
+permalink: plugins/templates
+cssclasses:
+  - soft-embed
+publish: true
+mobile: true
+description: >-
+  Modelos é um plugin nativo que permite inserir trechos de texto pré-definidos
+  na sua nota ativa.
+aliases:
+  - Plugins/Modelos
+---
+Modelos é um [[Plugins nativos|plugin nativo]] que permite inserir trechos de texto pré-definidos na sua nota ativa.
 
-## Set your template folder
+## Defina sua pasta de modelos
 
-1. In the bottom-left corner, click **Settings** (cog icon).
-2. Under **Core plugins > Templates > Template folder location**, enter the folder containing your templates.
+1. No canto inferior esquerdo, clique em **[[Configurações]]** ( ![[lucide-cog.svg#icon]] ).
+2. Em **Plugins nativos → Modelos → Localização da pasta de modelos**, insira a pasta que contém seus modelos.
 
-## Insert a template into the active note
+## Variáveis de modelo
 
-**Important:**  To insert a template, you need to first [[#Set your template folder]].
+Você pode adicionar informações dinâmicas aos seus modelos, usando _variáveis de modelo_. Quando você insere um modelo contendo uma variável de modelo, o plugin Modelos a substitui pelo seu valor correspondente.
 
-1. In the ribbon, click **Insert template**.
-2. Select the template to insert at the cursor position in the active note.
+| Variável    | Descrição                                             |
+|-------------|-------------------------------------------------------|
+| `{{title}}` | Título da nota ativa.                                 |
+| `{{date}}`  | Data de hoje. **Formato padrão:** `YYYY-MM-DD`.       |
+| `{{time}}`  | Horário atual. **Formato padrão:** `HH:mm`.           |
 
-## Template variables
+Tanto `{{date}}` quanto `{{time}}` permitem que você altere o formato padrão usando uma _string de formato_.
 
-You can add dynamic information to your templates, using _template variables_. When you insert a template containing a template variable, Templates replaces it with its corresponding value.
+Para definir uma string de formato, adicione dois-pontos (`:`) seguidos de uma string de [tokens de formato do Moment.js](https://momentjs.com/docs/#/displaying/format/), por exemplo `{{date:YYYY-MM-DD}}`.
 
-| Variable    | Description                                     |
-|-------------|-------------------------------------------------|
-| `{{title}}` | Title of the active note.                       |
-| `{{date}}`  | Today's date. **Default format:** `YYYY-MM-DD`. |
-| `{{time}}`  | Current time. **Default format:** `HH:mm`.      |
+Você pode usar `{{date}}` e `{{time}}` de forma intercambiável com strings de formato, por exemplo `{{time:YYYY-MM-DD}}`.
 
-Both `{{date}}` and `{{time}}` allow you to change the default format using a _format string_.
+Você pode alterar os formatos padrão de data e hora em **[[Configurações]] → Modelos → Formato da data** e **[[Configurações]] → Modelos → Formato do horário**.
 
-To set a format string, add a colon (`:`) followed by a string of [Moment.js format tokens](https://momentjs.com/docs/#/displaying/format/), for example `{{date:YYYY-MM-DD}}`.
+> [!tip] Dica
+> Você também pode usar as variáveis de modelo `{{date}}` e `{{time}}` nos plugins [[Notas diárias]] e [[Criador de nota única]].
 
-You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
+## Criar um modelo
 
-You can change the default date and time formats under **Settings > Templates > Date format** and **Settings > Templates > Time format**.
+Na [[#Defina sua pasta de modelos|pasta de modelos]], [[Gerenciar notas#Criar uma nova nota|crie uma nota]] contendo o texto que você deseja que apareça quando usar o modelo. Você pode usar [[#Variáveis de modelo|variáveis de modelo]] para texto dinâmico como a data atual.
 
-> [!tip]
-> You can also use the `{{date}}` and `{{time}}` template variables in the [[Notas diárias]] and [[Criador de notas únicas]] plugins.
+Por exemplo, aqui está um modelo para notas de estudo:
+
+```markdown
+---
+topic: 
+date: "{{date}}"
+course: 
+tags:
+  - studies
+---
+
+# {{title}}
+
+## Conceitos-Chave
+
+
+## Detalhes Importantes
+
+
+## Exemplos
+
+
+## Questões
+- 
+
+## Resumo
+
+
+## Tópicos Relacionados
+- [[]]
+```
+
+## Inserir um modelo na nota ativa
+
+**Importante:** Para inserir um modelo, você precisa primeiro [[#Defina sua pasta de modelos]].
+
+1. No menu lateral, clique em **Inserir modelo**.
+2. Selecione o modelo para inserir na posição do cursor na nota ativa.
+
+## Propriedades de modelo
+
+![[Propriedades#^templates-properties]]

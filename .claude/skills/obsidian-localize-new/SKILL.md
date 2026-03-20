@@ -43,7 +43,7 @@ This uses the LLM to propose locale filenames. Review the output with the user b
 
 ### Step 2 — Sync stubs from EN
 
-Creates a stub `.md` file for every EN page that doesn't yet exist in the locale. Stubs contain EN frontmatter + EN content as placeholder, marked `localized: null`.
+Creates a stub `.md` file for every EN page that doesn't yet exist in the locale. Stubs contain EN frontmatter + EN content as placeholder, marked `localized: false`.
 
 ```bash
 npx tsx scripts/sync-locale.ts <locale> --dry-run   # preview first
@@ -72,6 +72,14 @@ For uncertain or unmatched paths, create `<locale>/migration-map.json` with expl
 
 Set a permalink to `null` to skip a path. See `es/migration-map.json` or `fr/migration-map.json` as examples.
 
+Since `filenames.txt` is created in this session and not yet committed, the script can't auto-detect the pre-migration commit. Pass the last commit that touched the locale:
+
+```bash
+git log --oneline -- <locale>/   # find last commit
+npx tsx scripts/migrate-locale.ts <locale> --commit <sha>
+npx tsx scripts/migrate-locale.ts <locale> --commit <sha> --apply
+```
+
 ### Step 3 — Translate all stubs
 
 Sends each `localized: null` file to the LLM for full translation. Translates content + description frontmatter.
@@ -96,7 +104,62 @@ npx tsx scripts/lint-locale.ts <locale> --fix   # auto-correct
 
 Fix any broken wikilinks before publishing. The lint script cross-references official plugin/feature names from obsidian-translations.
 
-### Step 5 — Publish
+### Step 5 — Add publish UI strings and language switcher
+
+Create `<locale>/publish.strings.js` with translated UI strings for the Publish site. Use official app strings from `../obsidian-translations/translations/<lang>.txt` for accuracy:
+
+```js
+// Locale UI strings — <Language>
+(function () {
+  function apply() {
+    var el;
+    el = document.querySelector('.search-bar');
+    if (!el) return false;
+    el.placeholder = '<Search pages or headings...>';
+    el = document.querySelector('.site-footer a');
+    if (el) el.textContent = '<Powered by Obsidian Publish>';
+    el = document.querySelector('.graph-view-outer span:last-child');
+    if (el) el.textContent = '<Interactive graph>';
+    el = document.querySelector('.graph-expand');
+    if (el) el.setAttribute('aria-label', '<Expand>');
+    el = document.querySelector('.graph-global');
+    if (el) el.setAttribute('aria-label', '<Global graph>');
+    el = document.querySelector('.outline-view-outer span:last-child');
+    if (el) el.textContent = '<On this page>';
+    el = document.querySelector('.backlinks span:last-child');
+    if (el) el.textContent = '<Backlinks>';
+    return true;
+  }
+  function poll() { if (!apply()) requestAnimationFrame(poll); }
+  poll();
+})();
+```
+
+Then add the locale to `en/publish.js` LOCALES array (keep alphabetical, `zh` last) and sync to all locales:
+
+```bash
+# Edit en/publish.js — add entry to LOCALES array
+npx tsx scripts/build-publish-js.ts <locale>   # bootstrap locale's publish.js (first time)
+npx tsx scripts/build-publish-js.ts            # sync to all locales
+```
+
+Label conventions: use the native language name, e.g. `Português (Brasil)` for pt-BR, `Español` for es. Use the correct locale code (e.g. `pt-BR` not `pt-br`) to match the Obsidian Publish URL.
+
+After publishing each locale, also publish `en/` — it hosts `publish.js` too:
+
+```bash
+cd en && ob publish --all --yes
+```
+
+### Step 6 — Sync nav order
+
+```bash
+npx tsx scripts/localize-nav-order.ts <locale>
+```
+
+This reads the EN nav order from Obsidian Publish site options and writes the translated equivalent for the locale. No publish needed — it updates site options directly via `ob publish-site-options`.
+
+### Step 7 — Publish
 
 ```bash
 cd <locale> && ob publish --all --yes
@@ -106,6 +169,7 @@ cd <locale> && ob publish --all --yes
 
 - `ANTHROPIC_API_KEY` must be set, or `scripts/llm-config.json` must exist
 - The LLM never translates: Obsidian, Sync, Publish, Canvas, Markdown, CSS, API
+- `translate-filenames.ts` automatically loads official plugin name translations from `../obsidian-translations/translations/<lang>.txt` and passes them to the LLM — this prevents mismatches between filename and content translations (e.g. "Backlinks" vs "Links inversos")
 - Callout types (`[!warning]`) include explicit titles in EN source — these get translated automatically
 - `description` frontmatter is translated alongside content
 - Always run `check-links` before publishing
@@ -119,3 +183,6 @@ cd <locale> && ob publish --all --yes
 - `scripts/translate-locale.ts` — LLM translation
 - `scripts/check-links.ts` — broken wikilink checker
 - `scripts/lint-locale.ts` — terminology checker
+- `<locale>/publish.strings.js` — locale UI strings for Publish site (search, footer, graph, outline, backlinks labels)
+- `scripts/build-publish-js.ts` — concatenates publish.strings.js into publish.js and syncs to all locales
+- `scripts/localize-nav-order.ts` — translates EN nav order to locale paths via Obsidian Publish site options

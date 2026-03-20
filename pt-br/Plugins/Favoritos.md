@@ -1,113 +1,127 @@
 ---
-alias: Plugins/Starred
+permalink: plugins/bookmarks
+aliases:
+  - Plugins/Favoritos
 ---
+Favoritos é um [[Plugins nativos|plugin nativo]] que permite acessar rapidamente itens que você usa com frequência. Um favorito é um "atalho" que te leva imediatamente ao item marcado.
 
-Bookmarks let you quickly access items that you use often. A bookmark is a "shortcut" that immediately takes you the bookmarked item.
+Você pode adicionar favoritos aos seguintes itens:
 
-You can add bookmarks to the following:
+- Arquivos
+- Pastas
+- Grafos
+- Pesquisas
+- Cabeçalhos
+- Blocos
+- Links
 
-- Files
-- Folders
-- Graphs
-- Searches
-- Headings
-- Blocks
+Abra um favorito selecionando-o na aba de Favoritos.
 
-Open a bookmark by selecting it in the Bookmarks tab.
+Você pode reordenar favoritos selecionando-os e arrastando-os.
 
-You can reorder bookmarks by selecting and dragging them.
+Você pode marcar itens como favoritos e organizá-los em _grupos de marcadores_ para encontrá-los mais facilmente. Você pode expandir e recolher grupos de marcadores para mostrar ou ocultar os favoritos dentro deles.
 
-You can bookmark items and organize them into _bookmark groups_ to find them easier. You can expand and collapse bookmark groups to show or hide the bookmarks in them.
-
-> [!todo]- Show bookmarks
-> You can find your bookmarked items by clicking **Bookmarks** (bookmark icon) in the left sidebar.
+> [!todo]- Mostrar marcadores
+> Você pode encontrar seus itens marcados clicando em **Favoritos** ( ![[lucide-bookmark.svg#icon]] ) na barra lateral esquerda.
 >
-> Or, open the Bookmarks tab by running **Bookmarks: Show bookmarks** from the [[Paleta de comandos]].
+> Ou abra a aba de Favoritos executando **Favoritos: Mostrar marcadores** a partir da [[Paleta de comandos]].
 
-## Add a bookmark
+## Adicionar um marcador
 
-Adding a bookmark opens the **Add bookmark** dialog where you can set an optional title and assign it to a bookmark group.
+Adicionar um marcador abre o diálogo **Adicionar marcador** onde você pode definir um título opcional e atribuí-lo a um grupo de marcadores.
 
-When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instead lets you edit the bookmark.
+Quando você marca um item como favorito, **Adicionar marcador** se torna **Editar marcador** e permite editar o marcador.
 
-> [!todo]- Bookmark a file
+> [!todo]- Marcar um arquivo como favorito
 >
-> **Bookmarks**:
+> **Favoritos**:
 >
-> - Select **Bookmark the active tab** (bookmark with plus icon) at the top of the Bookmarks tab.
+> - Selecione **Marcar a aba ativa como favorita** ( ![[lucide-bookmark-plus.svg#icon]] ) no topo da aba de Favoritos.
 >
-> **File explorer**:
+> **Explorador de arquivos**:
 >
-> - Right-click a file in [[Explorador de arquivos]] and click **Bookmark**.
+> - Clique com o botão direito em um arquivo no [[Explorador de arquivos]] e clique em **Marcador**.
 >
-> **Command palette**:
+> **Paleta de comandos**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
-> 2. Search for the **Bookmark** command.
-> 3. Press `Enter` with the command selected to add a bookmark.
+> 1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[Paleta de comandos]].
+> 2. Pesquise pelo comando **Marcador**.
+> 3. Pressione `Enter` com o comando selecionado para adicionar um marcador.
 
-> [!todo]- Bookmark a folder
+> [!todo]- Marcar uma pasta como favorita
 >
-> **File explorer**:
+> **Explorador de arquivos**:
 >
-> - Right-click a folder in [[Explorador de arquivos]] and click **Bookmark**.
+> - Clique com o botão direito em uma pasta no [[Explorador de arquivos]] e clique em **Marcador**.
 
-> [!todo]- Bookmark a search term
+> [!todo]- Marcar um termo de pesquisa como favorito
 >
-> **Search**:
+> **Pesquisa**:
 >
-> 1. Enter a [[Busca#Search terms|search term]].
-> 2. Under the search field, select the three dots icon next to the number of results.
-> 3. Select **Bookmark**.
+> 1. Insira um [[Pesquisa#Termos de pesquisa|termo de pesquisa]].
+> 2. Abaixo do campo de pesquisa, selecione o ícone de três pontos ao lado do número de resultados.
+> 3. Selecione **Marcador**.
 
-> [!todo]- Bookmark a graph
-> To bookmark a graph, right-click the tab with the graph view and select **Bookmark**.
+> [!todo]- Marcar um grafo como favorito
+> Para marcar um grafo como favorito, clique com o botão direito na aba com a visão de grafo e selecione **Marcador**.
 >
-> You can't bookmark local graphs.
+> Você não pode marcar grafos locais como favoritos.
 
-> [!todo]- Bookmark a heading
-> To bookmark a heading, right-click the heading and select **Bookmark this heading**.
+> [!todo]- Marcar um cabeçalho como favorito
+> Para marcar um cabeçalho como favorito, clique com o botão direito no cabeçalho e selecione **Marcar este cabeçalho como favorito**.
 >
-> **Command palette**:
+> **Paleta de comandos**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
-> 2. Select the **Bookmark heading under cursor** command.
+> 1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[Paleta de comandos]].
+> 2. Selecione o comando **Marcar cabeçalho sob o cursor como favorito**.
 
-> [!todo]- Bookmark a block
+> [!todo]- Marcar um bloco como favorito
 >
-> **Command palette**:
+> **Paleta de comandos**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
-> 2. Select the **Bookmark block under cursor** command.
+> 1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[Paleta de comandos]].
+> 2. Selecione o comando **Marcar bloco sob o cursor como favorito**.
 
-## Remove a bookmark
+> [!todo]- Marcar um link como favorito
+>
+> 1. Ative o [[Visualizador web]] nos [[Plugins nativos]].
+> 2. Abra o [[Visualizador web]] e navegue até o link que deseja marcar como favorito.
+> 3. Na barra de endereço, selecione o ícone de três pontos ao lado do ícone do leitor.
+> 4. Selecione **Marcador**.
+>
+> **Paleta de comandos**:
+>
+> 1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) dentro do painel do [[Visualizador web]] para abrir a [[Paleta de comandos]].
+> 2. Selecione o comando **Marcador**.
 
-In the Bookmarks tab, right-click the bookmark and select **Remove**.
+## Remover um marcador
 
-You can also remove a bookmark from the **Edit bookmark** dialog.
+Na aba de Favoritos, clique com o botão direito no marcador e selecione **Remover**.
 
-## Add a bookmark group
+Você também pode remover um marcador a partir do diálogo **Editar marcador**.
 
-**Bookmarks**:
+## Adicionar um grupo de marcadores
 
-- Select **New bookmark group** (folder with plus icon) at the top of the Bookmarks tab.
+**Favoritos**:
 
-To move a bookmark to another group, select and drag it to the group you want to move it to.
+- Selecione **Novo grupo de marcadores** ( ![[lucide-folder-plus.svg#icon]] ) no topo da aba de Favoritos.
 
-## Remove a bookmark group
+Para mover um marcador para outro grupo, selecione-o e arraste-o para o grupo para o qual deseja movê-lo.
 
-To remove a bookmark group and all bookmarks in it, right-click the bookmark group and select **Remove**.
+## Remover um grupo de marcadores
 
-## Bookmark multiple files
+Para remover um grupo de marcadores e todos os marcadores dentro dele, clique com o botão direito no grupo de marcadores e selecione **Remover**.
 
-You can add multiple bookmarks at the same time.
+## Marcar múltiplos arquivos como favoritos
 
-**File explorer**:
+Você pode adicionar múltiplos marcadores ao mesmo tempo.
 
-1. Select multiple files by pressing `Alt` and selecting each file, or press `Shift` to select a range of files.
-2. Right-click one of the selected files and then select **Bookmark**.
+**Explorador de arquivos**:
 
-**Tab group options**:
+1. Selecione múltiplos arquivos pressionando `Alt` e selecionando cada arquivo, ou pressione `Shift` para selecionar um intervalo de arquivos.
+2. Clique com o botão direito em um dos arquivos selecionados e selecione **Marcador**.
 
-1. In the upper-right corner of a tab group, select the down arrow.
-2. Select **Bookmark 3 tabs**, where 3 is the number of tabs in the tab group.
+**Opções do grupo de abas**:
+
+1. No canto superior direito de um grupo de abas, selecione a seta para baixo.
+2. Selecione **Marcar 3 abas como favoritas**, onde 3 é o número de abas no grupo de abas.
