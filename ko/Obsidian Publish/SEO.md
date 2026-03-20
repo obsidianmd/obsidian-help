@@ -1,21 +1,20 @@
 ---
 permalink: publish/seo
 ---
+[[Obsidian Publish 소개|Obsidian Publish]] 사이트는 검색 엔진 및 [[소셜 미디어 링크 미리보기|소셜 공유 카드]]에 자동으로 최적화됩니다. 또한 설명, 고유 링크, 이미지를 사용하여 페이지 메타데이터를 사용자 지정할 수 있습니다.
 
-[[Obsidian Publish 소개|Obsidian Publish]] 사이트는 검색 엔진 및 [[소셜 미디어 링크 미리보기|소셜 공유 카드]]에 자동으로 최적화돼요. 또한 설명, 고유 링크, 이미지를 사용하여 페이지 메타데이터를 커스터마이즈할 수 있어요.
-
-[[사이트 관리#사이트 옵션|사이트 옵션]]에서 검색 엔진 인덱싱을 사용하지 않도록 설정할 수도 있어요.
+[[사이트 관리#사이트 옵션|사이트 옵션]]에서 검색 엔진 인덱싱을 사용하지 않도록 설정할 수도 있습니다.
 
 ### Google Search Console
 
-Google에서 SEO를 추적하려면 [Google Search Console](https://search.google.com/search-console)에 사이트를 등록하세요. 또한 [[분석|Google Analytics 설정]]을 위한 추천 단계를 따를 수 있어요.
+Google에서 SEO를 추적하려면 [Google Search Console](https://search.google.com/search-console)에 사이트를 등록하세요. 또한 [[분석|Google Analytics 설정]]을 위한 추천 단계를 따를 수 있습니다.
 
 ### 사이트맵
 
-Publish 사이트의 사이트맵은 `/sitemap.xml`에서 사용할 수 있어요. 예시:
+Publish 사이트의 사이트맵은 `/sitemap.xml`에서 사용할 수 있습니다. 예시:
 https://help.obsidian.md/sitemap.xml
 
-사이트맵은 `/rss.xml`에서 RSS 피드로도 사용할 수 있어요:
+사이트맵은 `/rss.xml`에서 RSS 피드로도 사용할 수 있습니다:
 https://help.obsidian.md/rss.xml
 
 ### 고유 링크
@@ -24,7 +23,7 @@ https://help.obsidian.md/rss.xml
 
 ### 메타데이터
 
-페이지 메타데이터는 [[속성#Obsidian Publish용 속성|속성]]을 사용하여 커스터마이즈할 수 있으며, 이는 [[소셜 미디어 링크 미리보기|소셜 공유 카드]]에 유용할 수 있어요.
+페이지 메타데이터는 [[속성#Obsidian Publish용 속성|속성]]을 사용하여 사용자 지정할 수 있으며, 이는 [[소셜 미디어 링크 미리보기|소셜 공유 카드]]에 유용할 수 있습니다.
 
 | 속성            | 설명                                                                                                              |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |

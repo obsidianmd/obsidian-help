@@ -7,8 +7,7 @@ publish: true
 mobile: true
 description: Obsidian Sync is an add-on service that allows you to privately sync your notes across devices.
 ---
-
-[Obsidian Sync](https://obsidian.md/sync)는 기기 간에 노트를 비공개로 동기화할 수 있는 부가 서비스예요.
+[Obsidian Sync](https://obsidian.md/sync)는 여러 기기에서 노트를 비공개로 동기화할 수 있는 부가 서비스입니다.
 
 ## Obsidian Sync 사용 방법
 
@@ -25,26 +24,26 @@ description: Obsidian Sync is an add-on service that allows you to privately syn
 - [[버전 기록]]
 	- 노트의 이전 버전을 확인하거나 복원하세요.
 - [[상태 아이콘 및 메시지]]
-	- Sync 기록 및 상태 아이콘 개요예요.
+	- Sync 로그와 상태 아이콘을 살펴보세요.
 - [[보안 및 개인정보 보호]]
-	- Obsidian이 Sync 데이터를 안전하게 보호하는 방법이에요.
+	- Obsidian이 Sync 데이터를 보호하는 방식을 알아보세요.
 - [[공유 보관함에서 협업하기|협업]]
 	- 공유 보관함에 팀원을 추가하세요.
 - [[Obsidian 파일 백업]]
-	- 서드파티 도구를 사용하여 보관함을 백업하세요.
+	- 타사 도구를 사용하여 보관함을 백업하세요.
 - [[동기화 지역]]
 	- Sync 보관함을 다른 지역 서버로 이동하세요.
 - [[헤드리스 Sync]]
 	- 데스크톱 앱 없이 명령줄에서 보관함을 동기화하세요.
 - [[Obsidian Sync 문제 해결]]
-	- 일반적인 동기화 문제와 해결 방법이에요.
+	- 일반적인 동기화 문제와 해결 방법을 알아보세요.
 
 ## 중요
 
-Obsidian Sync를 Dropbox, Google Drive, OneDrive 등 다른 클라우드 스토리지 제공자와 함께 사용하는 경우, 동기화 충돌을 방지하기 위해 [[Obsidian 파일 백업|Obsidian 파일을 백업]]해 주세요. [[Obsidian Sync로 전환하기|Obsidian Sync로 완전히 전환]]하는 것을 강력히 권장해요.
+Obsidian Sync를 Dropbox, Google Drive, OneDrive 등 다른 클라우드 저장소 서비스와 함께 사용하는 경우, 동기화 충돌을 방지하기 위해 [[Obsidian 파일 백업|Obsidian 파일을 백업]]해 주세요. [[Obsidian Sync로 전환하기|Obsidian Sync로 완전히 전환]]하는 것을 강력히 권장합니다.
 
 자주 묻는 질문과 Obsidian Sync에 대한 자세한 내용은 [[자주 묻는 질문]]을 참조하세요.
 
-> [!warning] 이 기능은 [잠금 모드](https://support.apple.com/en-us/105120)가 활성화된 Apple 기기에서 Obsidian이 예외로 설정되지 않으면 사용할 수 없어요.
+> [!warning] 이 기능은 [잠금 모드](https://support.apple.com/en-us/105120)가 활성화된 Apple 기기에서 Obsidian이 예외로 설정되지 않으면 사용할 수 없습니다.
 
 Sync 서비스에 예기치 않은 중단이 발생하고 있나요? [서버 상태](https://status.obsidian.md)를 확인해 보세요.
