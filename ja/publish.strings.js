@@ -6,7 +6,7 @@
     if (!el) return false;
     el.placeholder = 'ページや見出しを検索...';
     el = document.querySelector('.site-footer a');
-    if (el) el.textContent = 'Obsidian Publish で作成';
+    if (el) { el.textContent = 'Obsidian Publish で作成'; el.href = 'https://obsidian.md/ja/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');
     if (el) el.textContent = 'インタラクティブグラフ';
     el = document.querySelector('.graph-expand');

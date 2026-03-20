@@ -6,7 +6,7 @@
     if (!el) return false;
     el.placeholder = 'Buscar páginas o encabezados...';
     el = document.querySelector('.site-footer a');
-    if (el) el.textContent = 'Desarrollado con Obsidian Publish';
+    if (el) { el.textContent = 'Desarrollado con Obsidian Publish'; el.href = 'https://obsidian.md/es/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');
     if (el) el.textContent = 'Gráfico interactivo';
     el = document.querySelector('.graph-expand');

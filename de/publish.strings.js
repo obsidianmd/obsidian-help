@@ -6,7 +6,7 @@
     if (!el) return false;
     el.placeholder = 'Seiten oder Überschriften suchen...';
     el = document.querySelector('.site-footer a');
-    if (el) el.textContent = 'Erstellt mit Obsidian Publish';
+    if (el) { el.textContent = 'Erstellt mit Obsidian Publish'; el.href = 'https://obsidian.md/de/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');
     if (el) el.textContent = 'Interaktiver Graph';
     el = document.querySelector('.graph-expand');

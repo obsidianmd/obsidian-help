@@ -139,7 +139,7 @@
     if (!el) return false;
     el.placeholder = '搜索页面或标题...';
     el = document.querySelector('.site-footer a');
-    if (el) el.textContent = '由 Obsidian Publish 驱动';
+    if (el) { el.textContent = '由 Obsidian Publish 驱动'; el.href = 'https://obsidian.md/zh/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');
     if (el) el.textContent = '关系图谱';
     el = document.querySelector('.graph-expand');
