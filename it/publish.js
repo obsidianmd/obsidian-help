@@ -5,6 +5,7 @@
     { code: 'de',    label: 'Deutsch',    base: 'https://obsidian.md/de/help' },
     { code: 'es',    label: 'Español',    base: 'https://obsidian.md/es/help' },
     { code: 'fr',    label: 'Français',   base: 'https://obsidian.md/fr/help' },
+    { code: 'it',    label: 'Italiano',   base: 'https://obsidian.md/it/help' },
     { code: 'ja',    label: '日本語',     base: 'https://obsidian.md/ja/help' },
     { code: 'pt-BR', label: 'Português (Brasil)',  base: 'https://obsidian.md/pt-BR/help' },
     { code: 'zh',    label: '中文',       base: 'https://obsidian.md/zh/help' },
@@ -128,5 +129,30 @@
     }
   }
 
+  poll();
+})();
+
+// Locale UI strings — Italian
+(function () {
+  function apply() {
+    var el;
+    el = document.querySelector('.search-bar');
+    if (!el) return false;
+    el.placeholder = 'Cerca pagine o intestazioni...';
+    el = document.querySelector('.site-footer a');
+    if (el) { el.textContent = 'Realizzato con Obsidian Publish'; el.href = 'https://obsidian.md/it/publish'; }
+    el = document.querySelector('.graph-view-outer span:last-child');
+    if (el) el.textContent = 'Grafo interattivo';
+    el = document.querySelector('.graph-expand');
+    if (el) el.setAttribute('aria-label', 'Espandi');
+    el = document.querySelector('.graph-global');
+    if (el) el.setAttribute('aria-label', 'Grafo globale');
+    el = document.querySelector('.outline-view-outer span:last-child');
+    if (el) el.textContent = 'In questa pagina';
+    el = document.querySelector('.backlinks span:last-child');
+    if (el) el.textContent = 'Riferimenti';
+    return true;
+  }
+  function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
 })();
