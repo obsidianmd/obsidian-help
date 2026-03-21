@@ -217,6 +217,15 @@ for (const [permalink, enInfo] of enFiles) {
         newFm.aliases = [...existing, oldFilenameAlias];
       }
     }
+    // When permalink changes, preserve old permalink as alias so Publish redirects old URLs
+    const oldPermalink = localeInfo.frontmatter.permalink as string | undefined;
+    const newPermalink = newFm.permalink as string | undefined;
+    if (oldPermalink && newPermalink && oldPermalink !== newPermalink) {
+      const existing = (newFm.aliases as string[] | undefined) ?? [];
+      if (!existing.includes(oldPermalink)) {
+        newFm.aliases = [oldPermalink, ...existing];
+      }
+    }
     // If localized is absent or false and content matches EN, mark as unlocalized (null = empty date)
     const isUnlocalized = !localeInfo.frontmatter.localized;
     if (isUnlocalized && localeInfo.content.trim() === enInfo.content.trim()) {

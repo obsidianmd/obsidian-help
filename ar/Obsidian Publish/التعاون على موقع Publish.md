@@ -2,7 +2,7 @@
 permalink: publish/collaborate
 publish: true
 mobile: true
-description: Learn how to collaborate with other Obsidian users on your Obsidian Publish site.
+description: تعلّم كيفية التعاون مع مستخدمي Obsidian الآخرين على موقع Obsidian Publish الخاص بك.
 aliases:
   - Collaborate on a Publish site
 ---

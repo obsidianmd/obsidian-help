@@ -4,8 +4,9 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+description: لقد اشتريت Obsidian Sync وأنت مستعد للبدء. سيساعدك هذا الدليل في إعداد وضبط إعدادات Obsidian Sync للاستخدام اليومي.
 aliases:
+  - obsidian-sync/set-up-obsidian-sync
   - Set up Obsidian Sync
 ---
 لقد اشتريت Obsidian Sync وأنت مستعد للبدء. سيساعدك هذا الدليل في إعداد وضبط إعدادات Obsidian Sync للاستخدام اليومي.

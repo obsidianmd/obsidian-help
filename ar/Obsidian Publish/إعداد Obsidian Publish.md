@@ -1,8 +1,9 @@
 ---
 permalink: publish/setup
 mobile: true
-description: 'In this guide, you''ll enable Obsidian Publish for your vault, create a site, and publish your notes to it.'
+description: في هذا الدليل، ستقوم بتفعيل خدمة Obsidian Publish لخزنتك، وإنشاء موقع، ونشر ملاحظاتك عليه.
 aliases:
+  - obsidian-publish/set-up-obsidian-publish
   - Set up Obsidian Publish
 ---
 في هذا الدليل، ستقوم بتمكين [[مقدمة عن Obsidian Publish|Obsidian Publish]] لخزنتك، وإنشاء موقع، ونشر ملاحظاتك عليه.

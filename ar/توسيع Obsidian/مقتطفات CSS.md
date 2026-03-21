@@ -2,8 +2,9 @@
 permalink: snippets
 publish: true
 mobile: true
-description: Learn how to change parts of the Obsidian app’s appearance without creating a full theme.
+description: تعرّف على كيفية تغيير أجزاء من مظهر تطبيق Obsidian دون إنشاء سمة كاملة.
 aliases:
+  - extending-obsidian/css-snippets
   - CSS snippets
 ---
 تعلّم كيفية تعديل جوانب مظهر تطبيق Obsidian دون الحاجة إلى [بناء سمة](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).

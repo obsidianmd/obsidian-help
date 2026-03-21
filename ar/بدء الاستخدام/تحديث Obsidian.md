@@ -1,6 +1,7 @@
 ---
 permalink: updates
 aliases:
+  - getting-started/update-obsidian
   - Update Obsidian
 ---
 تختلف عملية تحديث Obsidian بين أجهزة الهاتف المحمول وأجهزة سطح المكتب.

@@ -1,6 +1,6 @@
 ---
 permalink: headless
-description: Obsidian Headless is a command line client for Obsidian services. Sync your vaults without the desktop app.
+description: Obsidian Headless هو عميل سطر أوامر لخدمات Obsidian. قم بمزامنة خزناتك دون الحاجة إلى تطبيق سطح المكتب.
 aliases:
   - Obsidian Headless
 ---

@@ -1,6 +1,6 @@
 ---
 permalink: cli
-description: Anything you can do in Obsidian can be done from the command line.
+description: أي شيء يمكنك القيام به في Obsidian يمكن تنفيذه من سطر الأوامر.
 aliases:
   - Obsidian CLI
 ---

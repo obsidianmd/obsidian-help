@@ -2,7 +2,7 @@
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true
-description: 'Learn about Obsidian Flavored Markdown, including supported extensions and how Markdown interacts with HTML elements.'
+description: تعرّف على نكهة Obsidian من Markdown، بما في ذلك الإضافات المدعومة وكيفية تفاعل Markdown مع عناصر HTML.
 aliases:
   - Obsidian Flavored Markdown
 ---

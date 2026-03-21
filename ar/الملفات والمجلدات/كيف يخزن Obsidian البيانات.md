@@ -2,8 +2,9 @@
 permalink: data-storage
 publish: true
 mobile: true
-description: This page explains how Obsidian stores its data on your device.
+description: تشرح هذه الصفحة كيفية تخزين Obsidian لبياناته على جهازك.
 aliases:
+  - files-and-folders/how-obsidian-stores-data
   - How Obsidian stores data
 ---
 يخزن Obsidian ملاحظاتك كملفات [[صيغة التنسيق الأساسي|نص عادي بتنسيق Markdown]] في _خزنة_. الخزنة هي مجلد في نظام الملفات المحلي لديك، بما في ذلك أي مجلدات فرعية.

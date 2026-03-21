@@ -1,6 +1,7 @@
 ---
 permalink: credit
 aliases:
+  - licenses-and-payment/obsidian-credit
   - Obsidian Credit
 ---
 رصيد Obsidian هو نوع من الرصيد المدفوع مسبقاً يمكن شراؤه مقدماً وتطبيقه على مشتريات أي خدمة أو ترخيص من Obsidian. يمكن [[#الإهداء|إهداء]] رصيد Obsidian لمستخدمي Obsidian الآخرين، مثل الأصدقاء والعائلة وزملاء العمل.

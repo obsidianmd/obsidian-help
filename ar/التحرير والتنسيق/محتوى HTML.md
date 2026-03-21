@@ -2,7 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: 'Learn how to use HTML in Obsidian, including limitations with Markdown rendering, and HTML block requirements.'
+description: تعلّم كيفية استخدام HTML في Obsidian، بما في ذلك القيود المتعلقة بعرض Markdown ومتطلبات كتل HTML.
 aliases:
   - HTML content
 ---

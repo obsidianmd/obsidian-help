@@ -1,6 +1,7 @@
 ---
 permalink: catalyst
 aliases:
+  - licenses-and-payment/catalyst-license
   - Catalyst license
 ---
 ترخيص Catalyst هو عملية شراء لمرة واحدة تمنحك وصولاً مبكراً إلى الإصدارات التجريبية وتساعد في دعم التطوير المستمر لـ Obsidian. يمكنك دعم Obsidian عن طريق [شراء ترخيص Catalyst](https://obsidian.md/buy/catalyst).

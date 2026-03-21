@@ -4,8 +4,9 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: This page lists uncommon issues you may encounter with Obsidian Sync and how to resolve them.
+description: تسرد هذه الصفحة المشكلات غير الشائعة التي قد تواجهها مع Obsidian Sync وكيفية حلها.
 aliases:
+  - obsidian-sync/troubleshoot-obsidian-sync
   - Troubleshoot Obsidian Sync
 ---
 تسرد هذه الصفحة المشكلات غير الشائعة التي قد تواجهها مع [[مقدمة عن Obsidian Sync|Obsidian Sync]] وكيفية حلها. قبل المتابعة، نوصي بمراجعة صفحتي [[أيقونة الحالة والرسائل]] و[[الأسئلة الشائعة]].

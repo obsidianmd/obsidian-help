@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Move your Sync vault to a different region.
+description: انقل خزنة المزامنة الخاصة بك إلى منطقة مختلفة.
 aliases:
   - Sync regions
 ---

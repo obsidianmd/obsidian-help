@@ -2,7 +2,7 @@
 permalink: publish/troubleshoot
 publish: true
 mobile: true
-description: This page details some common problems that you may run into when using Obsidian Publish
+description: تشرح هذه الصفحة بعض المشكلات الشائعة التي قد تواجهها عند استخدام Obsidian Publish.
 aliases:
   - Troubleshoot Obsidian Publish
 ---

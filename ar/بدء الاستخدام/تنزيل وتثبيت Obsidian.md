@@ -1,6 +1,7 @@
 ---
 permalink: install
 aliases:
+  - getting-started/download-and-install-obsidian
   - Download and install Obsidian
 ---
 Obsidian متاح لجميع أنظمة التشغيل الرئيسية على سطح المكتب والهاتف المحمول. فيما يلي جميع الطرق المدعومة لتنزيل وتثبيت Obsidian.
