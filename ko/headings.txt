@@ -138,8 +138,8 @@ Shortcuts=바로가기
 [obsidian]
 What is Obsidian=Obsidian이란
 How we're different=우리가 다른 점
-You own and control your data=데이터를 직접 소유하고 관리합니다
-Links are first-class citizens=링크는 최우선 시민입니다
+You own and control your data=데이터를 직접 소유하고 관리
+Links are first-class citizens=링크는 핵심 요소
 Your own toolkit=나만의 도구 모음
 Follow our development=개발 과정을 따라가세요
 
@@ -148,7 +148,7 @@ Sync=동기화
 Widgets=위젯
 Lock Screen and Control Center widgets=잠금 화면 및 제어 센터 위젯
 Home Screen widgets=홈 화면 위젯
-Customizing widgets=위젯 커스터마이즈
+Customizing widgets=위젯 사용자 지정
 Shortcuts=단축어
 Share Sheet Extension=공유 시트 확장
 Siri integration=Siri 통합
@@ -197,7 +197,7 @@ Builds=빌드
 Translators=번역자
 Documentation=문서
 Add your name=이름 추가하기
-Third party acknowledgements=서드파티 감사의 글
+Third party acknowledgements=타사 감사의 글
 Previous logo=이전 로고
 
 [publish/troubleshoot]
@@ -285,7 +285,7 @@ Other site settings=기타 사이트 설정
 Static assets=정적 에셋
 Use a community theme=커뮤니티 테마 사용
 Enable UI features=UI 기능 활성화
-Customize navigation=내비게이션 커스터마이즈
+Customize navigation=내비게이션 사용자 지정
 Accessing Customize navigation options=사용자 지정 내비게이션 옵션에 접근하기
 Adjust navigation items=내비게이션 항목 조정
 Hide and unhide navigation items=내비게이션 항목 숨기기 및 숨기기 해제
@@ -808,7 +808,7 @@ Frequently asked questions=자주 묻는 질문
 
 [teams/deploy]
 Install and update Obsidian=Obsidian 설치 및 업데이트
-Customizing Obsidian=Obsidian 커스터마이즈
+Customizing Obsidian=Obsidian 사용자 지정
 Configuration folders=설정 폴더
 Plugins=플러그인
 Themes and snippets=테마 및 스니펫
@@ -948,7 +948,7 @@ Dropping files outside Obsidian=Obsidian 외부로 파일 놓기
 
 [ribbon]
 Actions=동작
-Customize the ribbon=리본 커스터마이즈
+Customize the ribbon=리본 사용자 지정
 Desktop=데스크톱
 Hide the ribbon=리본 숨기기
 Show the ribbon=리본 표시하기
@@ -1116,10 +1116,10 @@ Learn more=자세히 알아보기
 [mobile]
 Widgets, shortcuts, and Siri=위젯, 단축키 및 Siri
 Mobile toolbar=모바일 툴바
-Customize mobile toolbar=모바일 툴바 커스터마이즈
+Customize mobile toolbar=모바일 툴바 사용자 지정
 Add command to mobile toolbar=모바일 툴바에 명령 추가
 Quick Action=빠른 작업
-Customize Quick Action=빠른 작업 커스터마이즈
+Customize Quick Action=빠른 작업 사용자 지정
 Navigation bar=내비게이션 바
 Go back or forward=뒤로 또는 앞으로
 Create or find note=노트 생성 또는 찾기
@@ -1286,7 +1286,7 @@ Change default attachment location=기본 첨부 파일 위치 변경
 Change the title=제목 변경
 Foldable callouts=접을 수 있는 콜아웃
 Nested callouts=중첩 콜아웃
-Customize callouts=콜아웃 커스터마이즈
+Customize callouts=콜아웃 사용자 지정
 Supported types=지원 유형
 
 [tags]

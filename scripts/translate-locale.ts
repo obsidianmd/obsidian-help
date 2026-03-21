@@ -395,7 +395,7 @@ async function callLLM(config: LLMConfig, systemPrompt: string, userMessage: str
 }
 
 const LANGUAGE_NOTES: Record<string, string> = {
-  ko: "Use 해요체 (informal polite register ending in -아요/어요/해요), which is standard in modern Korean software. Do NOT use 합쇼체 (-습니다/-ㅂ니다).",
+  ko: "Use 해요체 (endings: -아요/어요/해요/이에요/예요). This is modern Korean product documentation — polite, practical, and low-emotion. Do NOT use 합니다체 (-습니다/-ㅂ니다). Do NOT use chatty, blog-style, or marketing-style Korean either. Target register: calm docs voice, like a well-written product manual in 해요체.",
 };
 
 function buildEditPrompt(langCode: string): string {

@@ -4,15 +4,16 @@ cssclasses:
   - reference
 description: 'Obsidian Sync offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.'
 ---
-[[Obsidian Sync 소개|Obsidian Sync]]는 데스크톱 앱을 사용하지 않고 보관함을 동기화할 수 있는 헤드리스 클라이언트를 제공합니다. CI 파이프라인, 에이전트, 자동화된 워크플로우에 유용합니다. 최신 변경 사항을 동기화하거나 파일을 지속적으로 최신 상태로 유지할 수 있습니다.
 
-[[헤드리스 Sync|Obsidian Headless]] **(오픈 베타)**를 설치하면 Obsidian 데스크톱 앱 없이 명령줄에서 [[Obsidian Sync 소개|Obsidian Sync]]와 상호작용할 수 있습니다. 헤드리스 Sync는 종단 간 암호화를 포함하여 데스크톱 앱과 동일한 [[보안 및 개인정보 보호|암호화 및 개인정보 보호]]를 사용합니다.
+[[Obsidian Sync 소개|Obsidian Sync]]는 데스크톱 앱을 사용하지 않고 보관함을 동기화할 수 있는 헤드리스 클라이언트를 제공해요. CI 파이프라인, 에이전트, 자동화된 워크플로우에 유용해요. 최신 변경 사항을 동기화하거나 파일을 지속적으로 최신 상태로 유지할 수 있어요.
+
+[[헤드리스 Sync|Obsidian Headless]] **(오픈 베타)**를 설치하면 Obsidian 데스크톱 앱 없이 명령줄에서 [[Obsidian Sync 소개|Obsidian Sync]]와 상호작용할 수 있어요. 헤드리스 Sync는 종단 간 암호화를 포함하여 데스크톱 앱과 동일한 [[보안 및 개인정보 보호|암호화 및 개인정보 보호]]를 사용해요.
 
 ## 빠른 시작
 
 > [!error] 시작하기 전에 데이터를 백업하세요
 > 1. 예기치 않은 상황에 대비하여 시작하기 전에 항상 데이터를 백업하세요.
-> 2. 동일한 기기에서 데스크톱 앱 동기화와 헤드리스 동기화를 *동시에* 사용하지 마세요. 데이터 충돌이 발생할 수 있습니다. 기기당 하나의 동기화 방법만 사용하세요.
+> 2. 동일한 기기에서 데스크톱 앱 동기화와 헤드리스 동기화를 *동시에* 사용하지 마세요. 데이터 충돌이 발생할 수 있어요. 기기당 하나의 동기화 방법만 사용하세요.
 
 [[헤드리스 Sync|Obsidian Headless]] **(오픈 베타)** 설치:
 
@@ -20,7 +21,7 @@ description: 'Obsidian Sync offers a headless client to sync vaults without usin
 npm install -g obsidian-headless
 ```
 
-활성화된 [[플랜 및 저장 용량 제한|Obsidian Sync 구독]]이 필요합니다.
+활성화된 [[플랜 및 저장 용량 제한|Obsidian Sync 구독]]이 필요해요.
 
 ```shell
 # 로그인
@@ -44,15 +45,15 @@ ob sync --continuous
 
 ### `ob sync-list-remote`
 
-공유 보관함을 포함하여 계정에서 사용 가능한 모든 원격 보관함을 나열합니다.
+공유 보관함을 포함하여 계정에서 사용 가능한 모든 원격 보관함을 나열해요.
 
 ### `ob sync-list-local`
 
-로컬에 설정된 보관함과 경로를 나열합니다.
+로컬에 설정된 보관함과 경로를 나열해요.
 
 ### `ob sync-create-remote`
 
-새 원격 보관함을 생성합니다.
+새 원격 보관함을 생성해요.
 
 ```
 ob sync-create-remote --name "Vault Name" [--encryption <standard|e2ee>] [--password <password>] [--region <region>]
@@ -67,7 +68,7 @@ ob sync-create-remote --name "Vault Name" [--encryption <standard|e2ee>] [--pass
 
 ### `ob sync-setup`
 
-로컬 보관함과 원격 보관함 간의 동기화를 설정합니다.
+로컬 보관함과 원격 보관함 간의 동기화를 설정해요.
 
 ```
 ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>] [--device-name <name>] [--config-dir <name>]
@@ -83,7 +84,7 @@ ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>]
 
 ### `ob sync`
 
-설정된 보관함에 대해 동기화를 실행합니다.
+설정된 보관함에 대해 동기화를 실행해요.
 
 ```
 ob sync [--path <local-path>] [--continuous]
@@ -96,7 +97,7 @@ ob sync [--path <local-path>] [--continuous]
 
 ### `ob sync-config`
 
-보관함의 [[동기화 설정 및 선택적 동기화|동기화 설정]]을 확인하거나 변경합니다. 옵션 없이 실행하면 현재 설정을 표시합니다.
+보관함의 [[동기화 설정 및 선택적 동기화|동기화 설정]]을 확인하거나 변경해요. 옵션 없이 실행하면 현재 설정을 표시해요.
 
 ```
 ob sync-config [--path <local-path>] [options]
@@ -115,7 +116,7 @@ ob sync-config [--path <local-path>] [options]
 
 ### `ob sync-status`
 
-보관함의 동기화 상태 및 설정을 표시합니다.
+보관함의 동기화 상태 및 설정을 표시해요.
 
 ```
 ob sync-status [--path <local-path>]
@@ -123,7 +124,7 @@ ob sync-status [--path <local-path>]
 
 ### `ob sync-unlink`
 
-보관함의 동기화 연결을 해제하고 저장된 자격 증명을 제거합니다.
+보관함의 동기화 연결을 해제하고 저장된 자격 증명을 제거해요.
 
 ```
 ob sync-unlink [--path <local-path>]
@@ -131,13 +132,13 @@ ob sync-unlink [--path <local-path>]
 
 ## 네이티브 모듈
 
-Obsidian Headless에는 Windows와 macOS에서 파일 생성 시간(birthtime)을 설정하기 위한 사전 빌드된 네이티브 애드온이 포함되어 있습니다. 이를 통해 서버에서 파일을 다운로드할 때 원래 생성 타임스탬프가 보존됩니다.
+Obsidian Headless에는 Windows와 macOS에서 파일 생성 시간(birthtime)을 설정하기 위한 사전 빌드된 네이티브 애드온이 포함되어 있어요. 이를 통해 서버에서 파일을 다운로드할 때 원래 생성 타임스탬프가 보존돼요.
 
-이 애드온은 N-API 버전 3을 대상으로 하므로, 컴파일된 바이너리는 ABI가 안정적이며 재컴파일 없이 여러 Node.js 버전에서 작동합니다.
+이 애드온은 N-API 버전 3을 대상으로 하므로, 컴파일된 바이너리는 ABI가 안정적이며 재컴파일 없이 여러 Node.js 버전에서 작동해요.
 
-Linux에서는 birthtime이 지원되지 않아 애드온이 포함되지 않으며, 동기화는 이 기능 없이 정상적으로 작동합니다.
+Linux에서는 birthtime이 지원되지 않아 애드온이 포함되지 않으며, 동기화는 이 기능 없이 정상적으로 작동해요.
 
-사전 빌드된 바이너리는 다음 플랫폼에 포함되어 있습니다:
+사전 빌드된 바이너리는 다음 플랫폼에 포함되어 있어요:
 
 - `win32-x64`
 - `win32-arm64`
