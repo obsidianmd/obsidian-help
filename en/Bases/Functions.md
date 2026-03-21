@@ -140,6 +140,13 @@ Global functions are used without a type.
 
 - `today()` returns a date object representing the current date. The time portion is set to zero.
 
+### `random()`
+
+`random(): number`
+
+- `random()` returns a random number between 0 and 1.
+- The number generation refreshes whenever a view is loaded, so navigating between views changes the random number.
+
 ## Any
 
 Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), lists (e.g. `[1,2,3]`), objects, and more.
