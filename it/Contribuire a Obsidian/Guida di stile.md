@@ -219,7 +219,7 @@ Usare i trattini lunghi (—) per separare i termini in grassetto dalle loro des
 
 **Non consigliato:**
 
-- [[Creare una base]] — Scopri come creare e incorporare una base.
+- [[Crea una base]] — Scopri come creare e incorporare una base.
 
 ### Immagini
 
@@ -430,11 +430,11 @@ Sia le immagini che le icone dovrebbero essere ottimizzate.
 
 Prima di inviare la tua Pull Request, controlla eventuali collegamenti interrotti nella documentazione della traduzione su cui stai lavorando e correggili. I collegamenti interrotti possono verificarsi naturalmente nel tempo, quindi verificarne l'accuratezza aiuta a mantenere la qualità della documentazione.
 
-Puoi verificare i collegamenti interrotti usando [[Plugin della community|plugin della community]] o strumenti disponibili nel tuo IDE.
+Puoi verificare i collegamenti interrotti usando [[Plugin della comunità|plugin della community]] o strumenti disponibili nel tuo IDE.
 
 ### Descrizioni
 
-Questa documentazione viene modificata su GitHub e pubblicata online tramite [[Introduzione a Obsidian Publish|Obsidian Publish]], che include [[Anteprime dei link per i social media#Descrizione|descrizioni]] per le schede social e altri elementi [[SEO]].
+Questa documentazione viene modificata su GitHub e pubblicata online tramite [[Introduzione a Obsidian Publish|Obsidian Publish]], che include [[Anteprime link per social media#Descrizione|descrizioni]] per le schede social e altri elementi [[SEO]].
 
 Se la pagina su cui stai lavorando non ha una [[Proprietà|proprietà]] `description`, aggiungine una. La descrizione dovrebbe essere di 150 caratteri o meno e fornire un riepilogo obiettivo del contenuto della pagina.
 

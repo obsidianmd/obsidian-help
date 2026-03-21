@@ -1084,7 +1084,7 @@ task daily line=3 done             # Segna come completata l'attività nella not
 
 ## Modelli
 
-Comandi per i [[Plugins/Templates|Modelli]].
+Comandi per i [[Modelli|Modelli]].
 
 ### `templates`
 

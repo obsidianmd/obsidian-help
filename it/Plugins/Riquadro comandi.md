@@ -7,7 +7,7 @@ Il [[Plugin principali|plugin]] Tavolozza dei comandi consente di eseguire quals
 
 Per eseguire un comando dalla tavolozza dei comandi:
 
-1. Premere `Ctrl+P` (o `Cmd+P` su macOS) per aprire la tavolozza dei comandi. È possibile aprirla anche dalla [[Barra degli strumenti]] con l'icona Tavolozza dei comandi ( ![[lucide-terminal.svg#icon]] ).
+1. Premere `Ctrl+P` (o `Cmd+P` su macOS) per aprire la tavolozza dei comandi. È possibile aprirla anche dalla [[Barra multifunzione]] con l'icona Tavolozza dei comandi ( ![[lucide-terminal.svg#icon]] ).
 2. Digitare il nome del comando che si desidera eseguire.
 3. Navigare fino al comando utilizzando i tasti freccia.
 4. Premere `Invio`.

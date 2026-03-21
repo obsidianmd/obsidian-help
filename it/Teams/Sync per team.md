@@ -11,7 +11,7 @@ Obsidian è progettato per funzionare sia online che offline e per darti il cont
 
 Obsidian offre un servizio ufficiale chiamato [[Introduzione a Obsidian Sync|Obsidian Sync]] che fornisce sincronizzazione con crittografia end-to-end per piccoli team fino a 20 utenti.
 
-Poiché Obsidian archivia i tuoi dati in file `.md` in testo normale, sono disponibili numerose opzioni per [[Sincronizzare le note tra dispositivi|sincronizzare i dati tra dispositivi]] e controllare l'accesso ai dati del tuo team. Queste possono includere sistemi di controllo di versione come Git, sistemi di archiviazione collegati in rete e molti servizi come Dropbox, Google Drive e altri.
+Poiché Obsidian archivia i tuoi dati in file `.md` in testo normale, sono disponibili numerose opzioni per [[Sincronizza le note tra dispositivi|sincronizzare i dati tra dispositivi]] e controllare l'accesso ai dati del tuo team. Queste possono includere sistemi di controllo di versione come Git, sistemi di archiviazione collegati in rete e molti servizi come Dropbox, Google Drive e altri.
 
 ## Obsidian Sync per i team
 
@@ -22,11 +22,11 @@ Tutti i collaboratori **devono avere un abbonamento Sync attivo** per accedere a
 Se il caveau remoto è [[Obsidian Sync/Sicurezza e privacy#Crittografia|crittografato end-to-end]], i collaboratori devono inserire la password di crittografia quando accedono per la prima volta al caveau remoto condiviso.
 
 
-![[Collaborare su una cassaforte condivisa#Gestire gli utenti|Collaborazione]]
+![[Collaborare su un vault condiviso#Gestire gli utenti|Collaborazione]]
 
-![[Collaborare su una cassaforte condivisa#Collaborare con il tuo team|Collaborazione]]
+![[Collaborare su un vault condiviso#Collaborare con il tuo team|Collaborazione]]
 
-![[Collaborare su una cassaforte condivisa#Limitazioni|Collaborazione]]
+![[Collaborare su un vault condiviso#Limitazioni|Collaborazione]]
 
 ## Sicurezza
 

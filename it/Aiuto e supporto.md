@@ -29,7 +29,7 @@ Se vuoi segnalare un bug in Obsidian, vai su [Segnalazioni di bug](https://forum
 
 Quando riscontri un bug o hai bisogno di assistenza dal [[#Contattare il supporto Obsidian|supporto Obsidian]], fornire informazioni di debug può essere molto utile. Ecco come ottenerle:
 
-1. Apri la [[Tavolozza dei comandi]].
+1. Apri la [[Riquadro comandi]].
 2. Digita **Mostra informazioni di debug**.
 3. Seleziona l'opzione evidenziata **Mostra informazioni di debug**.
 4. Seleziona **Copia negli Appunti**.
@@ -85,12 +85,12 @@ Se hai scoperto un problema di sicurezza in Obsidian, o se sospetti che un plugi
 
 ## Segnalare una violazione del Codice di Condotta
 
-Che tu sia vittima o testimone di una violazione del nostro [[Codice di condotta della community]], puoi segnalare l'incidente al nostro team di moderatori.
+Che tu sia vittima o testimone di una violazione del nostro [[Codice di condotta della comunità]], puoi segnalare l'incidente al nostro team di moderatori.
 
 Segnala l'incidente su uno dei seguenti canali della community:
 
-- [[Codice di condotta della community#Segnalare su Discord|Segnalare su Discord]]
-- [[Codice di condotta della community#Segnalare sul forum|Segnalare sul forum]]
+- [[Codice di condotta della comunità#Segnalare su Discord|Segnalare su Discord]]
+- [[Codice di condotta della comunità#Segnalare sul forum|Segnalare sul forum]]
 
 ## Contribuire a Obsidian
 

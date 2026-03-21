@@ -19,7 +19,7 @@ Obsidian offre diversi servizi e licenze disponibili per l'acquisto.
 - [[Licenza Catalyst]]
 	- Supporta Obsidian e ottieni l'accesso anticipato alle versioni.
 
- Sono disponibili [[Sconti per istruzione e organizzazioni non-profit|Sconti]] per Obsidian Sync e Publish per organizzazioni educative e non-profit. Consulta la nostra [[Politica di rimborso]] per maggiori informazioni.
+ Sono disponibili [[Sconti per istruzione e non-profit|Sconti]] per Obsidian Sync e Publish per organizzazioni educative e non-profit. Consulta la nostra [[Politica di rimborso]] per maggiori informazioni.
 
 ## Acquistare un servizio o una licenza
 

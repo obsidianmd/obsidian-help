@@ -50,7 +50,7 @@ La base es poder ver archivos, editarlos y buscar en ellos. Para el minimalista,
 Además de eso, puedes agregar bloques de construcción aislados e independientes para añadir funcionalidades a tu toma de notas:
 
 - Si estás tomando notas de clase, la [[Grabadora de audio]] y las matemáticas LaTeX pueden ser útiles;
-- Si estás tomando notas de trabajo, las [[Diapositivas]] y los [[Backlinks|enlaces de retorno]] pueden resultar prácticos;
+- Si estás tomando notas de trabajo, las [[Diapositivas]] y los [[Enlace de retorno|enlaces de retorno]] pueden resultar prácticos;
 - Si eres investigador, la [[Vista de grafo]] y el [[Contador de palabras]] pueden ser esenciales en tu conjunto de herramientas.
 
 No esperamos que los complementos sean la solución mágica para todos los problemas, pero nos acercan más que una solución monolítica, sin todas las funciones que no necesitas saturando la interfaz.

@@ -48,7 +48,7 @@ Para convertir una tarjeta de texto en un archivo:
 2. Ingresa el nombre de la nota y selecciona **Guardar**.
 
 > [!note] Nota
-> Las tarjetas de solo texto no aparecen en [[Enlaces entrantes]]. Para que aparezcan, necesitas convertirlas en un archivo.
+> Las tarjetas de solo texto no aparecen en [[Enlace de retorno]]. Para que aparezcan, necesitas convertirlas en un archivo.
 
 ### Agregar tarjetas desde notas
 

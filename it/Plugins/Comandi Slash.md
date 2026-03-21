@@ -15,4 +15,4 @@ Per eseguire un comando utilizzando i comandi slash:
 Per uscire dalla ricerca dei comandi slash senza eseguire un comando, premi `Esc` o il tasto `Spazio`.
 
 > [!TIP] Corrispondenza approssimativa
-> Come la [[Tavolozza dei comandi]], i comandi slash supportano la corrispondenza approssimativa che consente di cercare comandi anche se non se ne conosce il nome esatto. Ad esempio, digita "sfa" per trovare il comando **Salva file attuale**.
+> Come la [[Riquadro comandi]], i comandi slash supportano la corrispondenza approssimativa che consente di cercare comandi anche se non se ne conosce il nome esatto. Ad esempio, digita "sfa" per trovare il comando **Salva file attuale**.

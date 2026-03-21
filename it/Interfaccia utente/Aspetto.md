@@ -9,7 +9,7 @@ Obsidian include due schemi di colori, chiaro e scuro. Per impostazione predefin
 
 ### Temi personalizzati
 
-È possibile modificare l'aspetto di Obsidian utilizzando [[temi personalizzati|temi personalizzati]]. Sfoglia centinaia di temi creati dalla community andando su **[[Impostazioni]] → Aspetto**, quindi fai clic su **Gestisci** per visualizzare e installare i temi.
+È possibile modificare l'aspetto di Obsidian utilizzando [[Temi|temi personalizzati]]. Sfoglia centinaia di temi creati dalla community andando su **[[Impostazioni]] → Aspetto**, quindi fai clic su **Gestisci** per visualizzare e installare i temi.
 
 È inoltre possibile personalizzare i temi utilizzando gli [[Snippet CSS]] e [creare il proprio tema](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 

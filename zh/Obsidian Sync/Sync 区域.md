@@ -15,7 +15,7 @@ aliases:
 
 以下区域可用于 Obsidian Sync。我们建议使用**自动**选项，或选择离你较近的位置，以减少延迟并加快同步速度。
 
-![[Obsidian 同步服务/同步安全和隐私#^sync-geo-regions]]
+![[同步安全和隐私#^sync-geo-regions]]
 
 ## 更改同步区域
 

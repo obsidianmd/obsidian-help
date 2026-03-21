@@ -8,7 +8,7 @@ aliases:
 ---
 Obsidian ha due barre laterali: una barra laterale sinistra e una barra laterale destra. Le barre laterali contengono schede create dai plugin, come [[Backlinks]], [[Outgoing links]] e l'[[Esplora file]]. Su desktop, è anche possibile trascinare le note nella barra laterale per mantenerle visibili accanto all'editor principale.
 
-Su desktop e tablet più grandi, la barra laterale sinistra include la [[Barra degli strumenti]]. Su mobile e tablet più piccoli, le barre laterali sono [[#Aprire le barre laterali nascoste|compresse per impostazione predefinita]].
+Su desktop e tablet più grandi, la barra laterale sinistra include la [[Barra multifunzione]]. Su mobile e tablet più piccoli, le barre laterali sono [[#Aprire le barre laterali nascoste|compresse per impostazione predefinita]].
 
 ## Aprire le barre laterali nascoste
 
@@ -22,7 +22,7 @@ Su mobile e tablet più piccoli, è possibile aprire le barre laterali nascoste 
 
 - Scorrere a sinistra o a destra
 - Selezionare l'icona espandi sinistra ( ![[obsidian-icon-side-bar-left.svg#icon]] ) (solo barra laterale sinistra)
-- Utilizzare le opzioni *Attiva/disattiva sinistra* o *Attiva/disattiva destra* dalla [[Tavolozza dei comandi]].
+- Utilizzare le opzioni *Attiva/disattiva sinistra* o *Attiva/disattiva destra* dalla [[Riquadro comandi]].
 
 ## Schede
 
@@ -37,7 +37,7 @@ In ogni pannello, è possibile visualizzare solo una scheda alla volta. Alcune a
 Esistono diversi modi per aggiungere schede alle barre laterali:
 
 - **Abilitare un plugin**: Molti plugin creano automaticamente schede nella barra laterale quando vengono abilitati. Andare su **Impostazioni → Plugin della comunità** (o **Plugin principali**) e abilitare il plugin per la scheda desiderata.
-- **Eseguire un comando**: Utilizzare la [[Tavolozza dei comandi]] per cercare comandi che aprono schede specifiche. Ad esempio, cercare "Backlinks" o "Outgoing links" per aprire quelle schede.
+- **Eseguire un comando**: Utilizzare la [[Riquadro comandi]] per cercare comandi che aprono schede specifiche. Ad esempio, cercare "Backlinks" o "Outgoing links" per aprire quelle schede.
 - **Trascinare una nota** (solo desktop): Su desktop, è possibile trascinare una nota dall'[[Esplora file]] o da una scheda dell'editor nella barra laterale per aprirla lì.
 
 Se una scheda è stata chiusa e si desidera recuperarla, gli stessi metodi la riapriranno.

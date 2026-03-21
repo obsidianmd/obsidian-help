@@ -13,7 +13,7 @@ Per salvare una pagina in Obsidian, fare clic sul pulsante **Aggiungi a Obsidian
 
 ## Catturare una pagina
 
-Quando si apre l'estensione, Web Clipper estrae i dati dalla pagina web corrente seguendo le impostazioni nel [[Obsidian Web Clipper/Templates|modello]]. È possibile creare modelli personalizzati e personalizzare l'output utilizzando [[variables|variabili]] e [[filters|filtri]].
+Quando si apre l'estensione, Web Clipper estrae i dati dalla pagina web corrente seguendo le impostazioni nel [[Modelli|modello]]. È possibile creare modelli personalizzati e personalizzare l'output utilizzando [[variables|variabili]] e [[filters|filtri]].
 
 Per impostazione predefinita, Web Clipper tenta di estrarre in modo intelligente solo il contenuto principale dell'articolo, escludendo gli altri elementi della pagina. Tuttavia, è possibile sovrascrivere questo comportamento nei seguenti modi:
 
@@ -48,7 +48,7 @@ L'interfaccia di Web Clipper è divisa in quattro sezioni:
 
 Le funzionalità dell'intestazione includono:
 
-- Menu a tendina **Modello** per passare tra i [[Obsidian Web Clipper/Templates|modelli]] salvati aggiunti nelle impostazioni di Web Clipper.
+- Menu a tendina **Modello** per passare tra i [[Modelli|modelli]] salvati aggiunti nelle impostazioni di Web Clipper.
 - Pulsante **Più (...)** per visualizzare le variabili della pagina utilizzabili nei modelli.
 - Pulsante **Evidenziatore** per attivare l'[[Highlight web pages|evidenziazione]].
 - Pulsante **Ingranaggio** per aprire le impostazioni di Web Clipper.

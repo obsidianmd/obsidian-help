@@ -10,7 +10,7 @@ L'Interprete è una funzionalità di [[Introduction to Obsidian Web Clipper|Web 
 - Convertire testo da un formato a un altro.
 - Tradurre testo in una lingua diversa.
 
-L'Interprete sfrutta modelli linguistici per elaborare le informazioni su una pagina web e restituire risultati utilizzando le [[Variables|Variabili]] che puoi aggiungere ai tuoi [[Obsidian Web Clipper/Templates|Modelli di Web Clipper]].
+L'Interprete sfrutta modelli linguistici per elaborare le informazioni su una pagina web e restituire risultati utilizzando le [[Variables|Variabili]] che puoi aggiungere ai tuoi [[Modelli|Modelli di Web Clipper]].
 
 ![[web-clipper-interpreter-demo.mp4#interface]]
 
@@ -31,7 +31,7 @@ L'Interprete funziona con quasi tutti i fornitori di modelli linguistici, compre
 1. Vai alla sezione **Interprete** nelle impostazioni di Web Clipper.
 2. Attiva **Abilita interprete**.
 3. Configura il tuo fornitore e il modello, vedi la sezione [[Interpret web pages#Modelli|modelli]] qui sotto.
-4. Aggiungi [[Variables|variabili prompt]] ai tuoi [[Obsidian Web Clipper/Templates|modelli]].
+4. Aggiungi [[Variables|variabili prompt]] ai tuoi [[Modelli|modelli]].
 5. Se il tuo modello include variabili prompt, la sezione Interprete sarà visibile quando [[Clip web pages|catturi una pagina]]. Fai clic su **interpretare** per elaborare le variabili prompt.
 
 ## Come funziona
@@ -48,7 +48,7 @@ Il termine *contesto* si riferisce ai dati della pagina che l'Interprete utilizz
 
 Per impostazione predefinita, l'Interprete utilizza l'intero HTML della pagina come contesto, tuttavia questo può rendere i prompt più lenti e costosi del necessario.
 
-Puoi sovrascrivere il contesto predefinito nelle **Impostazioni avanzate** dell'Interprete e definire il contesto per [[Obsidian Web Clipper/Templates|modello]].
+Puoi sovrascrivere il contesto predefinito nelle **Impostazioni avanzate** dell'Interprete e definire il contesto per [[Modelli|modello]].
 
 Per definire un contesto più mirato, usa le [[Variables#Variabili selettore|variabili selettore]] (o altri tipi di variabili) per interpretare una sezione della pagina. Ad esempio, potresti usare la seguente variabile selettore nel contesto dell'Interprete del tuo modello:
 

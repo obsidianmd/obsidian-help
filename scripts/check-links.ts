@@ -50,7 +50,7 @@ interface FileInfo {
   relPath: string;
   basename: string;     // filename without .md
   aliases: string[];
-  localized: boolean;
+  isStub: boolean;      // true if localized: false (untranslated stub)
   content: string;
 }
 
@@ -66,8 +66,8 @@ function collectFiles(dir: string): FileInfo[] {
         const relPath = path.relative(dir, full);
         const basename = entry.name.slice(0, -3);
         const aliases = (parsed.data?.aliases as string[] | undefined) ?? [];
-        const localized = !!parsed.data?.localized;
-        results.push({ absPath: full, relPath, basename, aliases, localized, content: parsed.content });
+        const isStub = parsed.data?.localized === false;
+        results.push({ absPath: full, relPath, basename, aliases, isStub, content: parsed.content });
       }
     }
   }
@@ -130,7 +130,7 @@ const WIKILINK_RE = /\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g;
 const broken: BrokenLink[] = [];
 
 for (const f of files) {
-  if (!f.localized) continue; // only check translated files
+  if (f.isStub) continue; // skip untranslated stubs (localized: false)
 
   const lines = f.content.split("\n");
   let inCode = false;

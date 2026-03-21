@@ -55,7 +55,7 @@ In questa sezione, creerai un nuovo [[Local and remote vaults|caveau remoto]] e 
 ### Connettersi a un caveau remoto
 
 1. Seleziona **Connetti** accanto al vault appena creato.
-2. Inserisci la password configurata per il vault nel campo **Password di crittografia** se hai optato per la [[Obsidian Sync/Security and privacy#Cosa significa crittografia end-to-end?|crittografia end-to-end]].
+2. Inserisci la password configurata per il vault nel campo **Password di crittografia** se hai optato per la [[Obsidian Sync/Sicurezza e privacy#Cosa significa crittografia end-to-end?|crittografia end-to-end]].
 3. Seleziona **Sblocca vault**.
 4. **Non avviare ancora la sincronizzazione.** Controlla le impostazioni di sincronizzazione in [[#Regolare le impostazioni di Obsidian Sync|regolare le impostazioni di Obsidian Sync]].
     - Se desideri avviare la sincronizzazione immediatamente, passa a [[#Iniziare la sincronizzazione con Obsidian Sync|iniziare la sincronizzazione con Obsidian Sync]].
@@ -167,13 +167,13 @@ Ora sei disconnesso dal caveau remoto e non stai più sincronizzando su questo d
 
 Obsidian Sync ti permette di scegliere la posizione di hosting per il tuo caveau remoto. Se stai utilizzando la versione `1.4.16` o precedente di Obsidian, la posizione verrà scelta automaticamente per te.
 
-Se non sei sicuro di quale sia la regione del tuo vault attuale, consulta [[Obsidian Sync/Security and privacy#Dove posso trovare il mio attuale server Sync e dove è ospitato?|Dove posso trovare il mio server Sync attuale e dove è ospitato?]] per una guida.
+Se non sei sicuro di quale sia la regione del tuo vault attuale, consulta [[Obsidian Sync/Sicurezza e privacy#Dove posso trovare il mio attuale server Sync e dove è ospitato?|Dove posso trovare il mio server Sync attuale e dove è ospitato?]] per una guida.
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
 Dopo aver selezionato una posizione, il tuo data center **non può** essere spostato su un server diverso senza ricaricare i tuoi dati. Per cambiare regione, segui la [[Sync regions|guida alle regioni Sync dei vault]].
 
-![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
+![[Obsidian Sync/Sicurezza e privacy#^sync-geo-regions]]
 
 ## Passaggi successivi
 

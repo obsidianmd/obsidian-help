@@ -55,7 +55,7 @@ Oltre a queste, è possibile aggiungere comandi globali come "Cambia tema".
 
 Nell'app mobile, è possibile definire un'azione che viene eseguita tirando verso il basso dalla parte superiore dell'app, in modo simile a come si effettua l'aggiornamento nelle app dei social media.
 
-L'azione rapida è impostata per aprire la [[Tavolozza dei comandi]] per impostazione predefinita.
+L'azione rapida è impostata per aprire la [[Riquadro comandi]] per impostazione predefinita.
 
 ### Personalizzare l'azione rapida
 
@@ -80,7 +80,7 @@ Nella barra di navigazione, le prime due opzioni permettono di andare indietro (
 
 ### Creare o trovare una nota
 
-L'icona centrale con il segno più in un cerchio permette di creare una nuova nota o passare a una nota esistente. Questo equivale ad aprire il [[Selettore rapido]].
+L'icona centrale con il segno più in un cerchio permette di creare una nuova nota o passare a una nota esistente. Questo equivale ad aprire il [[Selezione rapida]].
 
 ### Gestione delle schede
 
@@ -90,7 +90,7 @@ Toccandola, sarà possibile passare a qualsiasi scheda aperta. È anche possibil
 
 ### Azioni della barra degli strumenti
 
-L'app mobile non ha la [[Barra degli strumenti]]. Al suo posto, le azioni della barra degli strumenti saranno disponibili toccando **Apri menu** ( ![[lucide-menu.svg#icon]] ), l'ultima opzione nella barra di navigazione.
+L'app mobile non ha la [[Barra multifunzione]]. Al suo posto, le azioni della barra degli strumenti saranno disponibili toccando **Apri menu** ( ![[lucide-menu.svg#icon]] ), l'ultima opzione nella barra di navigazione.
 
 ### Barre laterali
 

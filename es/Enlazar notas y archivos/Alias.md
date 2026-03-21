@@ -42,7 +42,7 @@ Obsidian crea el enlace con el alias como su texto mostrado personalizado, por e
 
 ## Encontrar menciones no enlazadas para un alias
 
-Usando [[Enlaces entrantes]], puedes encontrar menciones no enlazadas de alias.
+Usando [[Enlace de retorno]], puedes encontrar menciones no enlazadas de alias.
 
 Por ejemplo, después de establecer "AI" como alias de "Artificial intelligence", puedes ver menciones de "AI" en otras notas.
 

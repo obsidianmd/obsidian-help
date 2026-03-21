@@ -16,7 +16,7 @@ Su mobile, è possibile accedere alle [[App mobile#Azioni della barra degli stru
 
 Ogni azione è rappresentata da un'icona nella barra degli strumenti. Passando il mouse su queste icone verrà visualizzato un suggerimento, mentre selezionandole si attiverà l'azione associata. Su mobile, è possibile toccare queste icone per attivarle.
 
-1. Apri il **[[Gestire le casseforti|Selettore cassaforte]]** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
+1. Apri il **[[Gestisci casseforti|Selettore cassaforte]]** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
 2. Accedi all'**aiuto** ( ![[lucide-help-circle.svg#icon]] ).
 3. Apri le **[[Impostazioni]]** ( ![[lucide-settings.svg#icon]] ).
 

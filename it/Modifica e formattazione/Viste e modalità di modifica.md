@@ -44,7 +44,7 @@ Per passare all'*Anteprima dal vivo*:
 - Fai clic sul selettore vista ( ![[lucide-edit-3.svg#icon]] ) nell'angolo in alto a destra dell'editor.
 - Oppure fai clic sull'icona interattiva di stato ( ![[lucide-book-icon.svg#icon]] o ![[lucide-code-xml.svg#icon]] ) nella barra di stato e seleziona **Anteprima dal vivo**.
 - Oppure premi `Ctrl+E` (`Cmd+E` su macOS).
-- Oppure usa il [[Tavolozza dei comandi|comando]] **Passa a modalità Modifica/Lettura**.
+- Oppure usa il [[Riquadro comandi|comando]] **Passa a modalità Modifica/Lettura**.
 
 > [!note] Nota
 > Per impostazione predefinita, la vista di modifica è impostata su *Anteprima dal vivo*. Puoi cambiare questa impostazione in **[[Impostazioni]] → Editor → Modalità di modifica predefinita**.
@@ -65,7 +65,7 @@ Per passare alla *Modalità sorgente*:
 > 
 > - Fare clic sul selettore vista ( ![[lucide-edit-3.svg#icon]] ) nell'angolo in alto a destra della nota.
 > - Oppure premere `Ctrl+E` (`Cmd+E` su macOS).
-> - Oppure usare il [[Tavolozza dei comandi|comando]] **Passa a modalità Modifica/Lettura**.
+> - Oppure usare il [[Riquadro comandi|comando]] **Passa a modalità Modifica/Lettura**.
 
 > [!tip] Cambiare *Modalità di modifica*
-> Per alternare rapidamente tra *Anteprima dal vivo* e *Modalità sorgente*, puoi impostare una [[Scorciatoie da tastiera|scorciatoia da tastiera]] per il [[Tavolozza dei comandi|comando]] **Passa a modalità Anteprima/Codice sorgente**.
+> Per alternare rapidamente tra *Anteprima dal vivo* e *Modalità sorgente*, puoi impostare una [[Tasti di scelta rapida|scorciatoia da tastiera]] per il [[Riquadro comandi|comando]] **Passa a modalità Anteprima/Codice sorgente**.

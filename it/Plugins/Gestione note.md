@@ -26,7 +26,7 @@ Per unire la nota attiva con un'altra nota nella cassaforte:
 
 **Tavolozza dei comandi**
 
-1. Apri la [[Tavolozza dei comandi]].
+1. Apri la [[Riquadro comandi]].
 2. Seleziona **Gestione note: Unisci file attuale con un altro file...**.
 3. Seleziona la nota in cui desideri unire.
 4. Fai clic su **Unisci** per confermare.
@@ -54,7 +54,7 @@ Per estrarre il testo in una nuova nota:
 **Tavolozza dei comandi**
 
 1. Nella vista **Modifica**, seleziona il testo che desideri estrarre.
-2. Apri la [[Tavolozza dei comandi]].
+2. Apri la [[Riquadro comandi]].
 3. Seleziona **Gestione note: Estrai selezione attuale...**.
 4. Seleziona la nota in cui desideri estrarre.
 

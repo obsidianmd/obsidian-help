@@ -11,7 +11,7 @@ Diapositive è un [[Plugin principali|plugin principale]] che ti permette di cre
 
 **Tavolozza dei comandi:**
 
-1. Premi `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Tavolozza dei comandi]].
+1. Premi `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Riquadro comandi]].
 2. Cerca il comando **Avvia presentazione**.
 3. Premi `Invio` con il comando selezionato per avviare una presentazione utilizzando la nota attiva.
 

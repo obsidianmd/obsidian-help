@@ -6,7 +6,7 @@ description: Scopri come accedere e gestire la cartella di configurazione su dis
 aliases:
   - Configuration folder
 ---
-La cartella di configurazione di Obsidian contiene tutti i file di impostazioni relativi alla tua [[Gestire le casseforti|cassaforte]].
+La cartella di configurazione di Obsidian contiene tutti i file di impostazioni relativi alla tua [[Gestisci casseforti|cassaforte]].
 
 Per impostazione predefinita, la cartella di configurazione si chiama `.obsidian` e si trova nella cartella della cassaforte. Quando si utilizza un servizio di sincronizzazione, o se si desidera testare profili diversi nella stessa cassaforte, potrebbe essere utile cambiare la cartella di configurazione.
 

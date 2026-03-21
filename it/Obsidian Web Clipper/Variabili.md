@@ -3,7 +3,7 @@ permalink: web-clipper/variables
 aliases:
   - Variables
 ---
-I [[Obsidian Web Clipper/Templates|modelli di Web Clipper]] possono utilizzare variabili per pre-popolare automaticamente i dati dalla pagina in un modello. Le variabili possono essere utilizzate nel **nome della nota**, nella **posizione della nota**, nelle **proprietà** e nel **contenuto della nota**. Le variabili possono anche essere modificate utilizzando i [[Filters|filtri]].
+I [[Modelli|modelli di Web Clipper]] possono utilizzare variabili per pre-popolare automaticamente i dati dalla pagina in un modello. Le variabili possono essere utilizzate nel **nome della nota**, nella **posizione della nota**, nelle **proprietà** e nel **contenuto della nota**. Le variabili possono anche essere modificate utilizzando i [[Filters|filtri]].
 
 Usa l'icona `...` nell'estensione [[Introduction to Obsidian Web Clipper|Web Clipper]] per accedere alle variabili della pagina corrente da utilizzare nei modelli. Ci sono cinque tipi di variabili utilizzabili:
 
@@ -54,7 +54,7 @@ A differenza di altri tipi di variabili, le variabili prompt devono essere elabo
 
 È preferibile *non* utilizzare le variabili prompt se i dati che si desidera estrarre sono in un formato coerente che potrebbe essere estratto con altri tipi di variabili.
 
-D'altra parte, le variabili prompt possono essere utili se i dati che si desidera estrarre sono in un formato *incoerente* tra i siti web. Ad esempio, puoi creare un [[Obsidian Web Clipper/Templates|modello]] per salvare libri che sia indipendente dal sito del libro. Variabili prompt come `{{"autore del libro"}}` funzioneranno su qualsiasi sito di libri, mentre le variabili selettore funzionano tipicamente solo per un singolo sito.
+D'altra parte, le variabili prompt possono essere utili se i dati che si desidera estrarre sono in un formato *incoerente* tra i siti web. Ad esempio, puoi creare un [[Modelli|modello]] per salvare libri che sia indipendente dal sito del libro. Variabili prompt come `{{"autore del libro"}}` funzioneranno su qualsiasi sito di libri, mentre le variabili selettore funzionano tipicamente solo per un singolo sito.
 
 ### Esempi
 
@@ -91,7 +91,7 @@ La sintassi è `{{selector:selettoreCss?attributo}}`, dove `?attributo` è opzio
 - I selettori CSS annidati e i combinatori sono supportati se è necessaria maggiore specificità.
 - Se più elementi corrispondono al selettore, viene restituito un array, che puoi elaborare con i [[Filters#Array e oggetti|filtri per array e oggetti]] come `join` o `map`.
 
-Le variabili selettore possono anche essere utilizzate direttamente nella [[Templates#Template logic|logica dei modelli]]:
+Le variabili selettore possono anche essere utilizzate direttamente nella [[Logic|logica dei modelli]]:
 
 - Nei cicli: `{% for comment in selector:.comment %}...{% endfor %}`
 - Nelle condizioni: `{% if selector:.premium-badge %}...{% endif %}`
@@ -99,7 +99,7 @@ Le variabili selettore possono anche essere utilizzate direttamente nella [[Temp
 
 ## Variabili Schema.org
 
-Le variabili schema permettono di estrarre dati da [schema.org](https://schema.org/) JSON-LD nella pagina. I dati schema.org possono anche essere utilizzati per [[Obsidian Web Clipper/Templates#Schema.org matching|attivare automaticamente un modello]].
+Le variabili schema permettono di estrarre dati da [schema.org](https://schema.org/) JSON-LD nella pagina. I dati schema.org possono anche essere utilizzati per [[Modelli#Schema.org matching|attivare automaticamente un modello]].
 
 - `{{schema:@Tipo:chiave}}` restituisce il valore della chiave dallo schema.
 - `{{schema:@Tipo:genitore.figlio}}` restituisce il valore di una proprietà annidata.

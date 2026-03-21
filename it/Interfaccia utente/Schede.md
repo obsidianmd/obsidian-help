@@ -111,7 +111,7 @@ Le _viste collegate_ sono schede che fanno riferimento a una scheda diversa. Qua
 Per le schede delle note, puoi usare i seguenti plugin come viste collegate:
 
 - [[Vista grafo]] (locale)
-- [[Backlink]]
+- [[Riferimenti]]
 - [[Struttura]]
 
 Per aprire una vista collegata per una scheda nota:

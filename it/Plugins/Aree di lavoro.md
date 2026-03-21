@@ -17,7 +17,7 @@ Un'area di lavoro contiene informazioni sui file e le schede aperti, nonché sul
 
 **Tavolozza dei comandi:**
 
-1. Premere `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Tavolozza dei comandi]].
+1. Premere `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Riquadro comandi]].
 2. Cercare il comando **Gestisci layout delle aree di lavoro**.
 3. Premere `Invio` con il comando selezionato.
 4. Inserire un nome per l'area di lavoro.
@@ -34,7 +34,7 @@ Per aggiornare un'area di lavoro esistente, salvare l'area di lavoro con lo stes
 
 **Tavolozza dei comandi:**
 
-1. Premere `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Tavolozza dei comandi]].
+1. Premere `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Riquadro comandi]].
 2. Cercare il comando **Gestisci layout delle aree di lavoro**.
 3. Premere `Invio` con il comando selezionato.
 4. Selezionare l'area di lavoro da caricare.
@@ -48,7 +48,7 @@ Per aggiornare un'area di lavoro esistente, salvare l'area di lavoro con lo stes
 
 **Tavolozza dei comandi:**
 
-1. Premere `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Tavolozza dei comandi]].
+1. Premere `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Riquadro comandi]].
 2. Cercare il comando **Gestisci layout delle aree di lavoro**.
 3. Premere `Invio` con il comando selezionato.
 4. Accanto all'area di lavoro che si desidera eliminare, selezionare **Cancella layout** ( ![[lucide-x.svg#icon]] ).

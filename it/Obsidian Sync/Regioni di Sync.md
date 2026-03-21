@@ -8,13 +8,13 @@ description: Sposta la tua cassaforte Sync in una regione diversa.
 aliases:
   - Sync regions
 ---
-Quando crei un [[Cassaforti locali e remote|caveau remoto]] tramite [[Introduzione a Obsidian Sync|Obsidian Sync]], i tuoi dati vengono crittografati e archiviati su uno dei server Sync regionali di Obsidian. Questa guida spiega come spostare la tua cassaforte Sync su un server regionale diverso.
+Quando crei un [[Vault locali e remoti|caveau remoto]] tramite [[Introduzione a Obsidian Sync|Obsidian Sync]], i tuoi dati vengono crittografati e archiviati su uno dei server Sync regionali di Obsidian. Questa guida spiega come spostare la tua cassaforte Sync su un server regionale diverso.
 
 ## Regioni disponibili
 
 Le seguenti regioni sono disponibili con Obsidian Sync. Raccomandiamo di utilizzare **Automatica** o di scegliere una posizione vicina a te per ridurre la latenza e rendere il processo di sincronizzazione più veloce.
 
-![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
+![[Obsidian Sync/Sicurezza e privacy#^sync-geo-regions]]
 
 ## Modificare la regione Sync
 
@@ -22,7 +22,7 @@ Per cambiare la regione del tuo caveau remoto, dovrai ricreare la tua cassaforte
 
 > [!danger] Le migrazioni sono distruttive
 > 
-> **Esegui sempre un [[Eseguire il backup dei file di Obsidian|backup]] della tua cassaforte prima di procedere con una migrazione.**
+> **Esegui sempre un [[Backup dei file di Obsidian|backup]] della tua cassaforte prima di procedere con una migrazione.**
 > 
 > Quando migri un caveau remoto, i tuoi dati verranno sostituiti. Questo significa che:
 > 

@@ -49,7 +49,7 @@ Las propiedades tienen su propia [[Búsqueda|sintaxis de búsqueda]] que puedes 
 
 ### Plantillas
 
-Puedes añadir propiedades a las [[Plugins/Plantillas|Plantillas]].
+Puedes añadir propiedades a las [[Plantillas|Plantillas]].
 
 Cuando insertas una plantilla en la nota activa, todas las propiedades de la plantilla se añadirán a la nota. Obsidian también fusionará cualquier propiedad que exista en tu nota con las propiedades de la plantilla. ^templates-properties
 
@@ -272,7 +272,7 @@ Obsidian viene con un conjunto de propiedades predeterminadas:
 
 | Propiedad    | Tipo  | Descripción                                                  |
 | ------------ | ----- | ------------------------------------------------------------ |
-| `tags`       | Lista | Ver [[Editing and formatting/Tags\|Etiquetas]].             |
+| `tags`       | Lista | Ver [[Etiquetas\|Etiquetas]].             |
 | `aliases`    | Lista | Ver [[Alias]].                                               |
 | `cssclasses` | Lista | Permite dar estilo a notas individuales usando [[Fragmentos CSS]]. |
 

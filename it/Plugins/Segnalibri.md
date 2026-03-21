@@ -24,7 +24,7 @@ Puoi aggiungere segnalibri agli elementi e organizzarli in _gruppi di segnalibri
 > [!todo]- Mostra segnalibri
 > Puoi trovare gli elementi contrassegnati facendo clic su **Segnalibri** ( ![[lucide-bookmark.svg#icon]] ) nella barra laterale sinistra.
 >
-> Oppure, apri la scheda Segnalibri eseguendo **Segnalibri: Mostra segnalibri** dalla [[Tavolozza dei comandi]].
+> Oppure, apri la scheda Segnalibri eseguendo **Segnalibri: Mostra segnalibri** dalla [[Riquadro comandi]].
 
 ## Aggiungi un segnalibro
 
@@ -44,7 +44,7 @@ Quando aggiungi un segnalibro a un elemento, **Aggiungi segnalibro** diventa **M
 >
 > **Tavolozza dei comandi**:
 >
-> 1. Premi `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Tavolozza dei comandi]].
+> 1. Premi `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Riquadro comandi]].
 > 2. Cerca il comando **Aggiungi segnalibro**.
 > 3. Premi `Invio` con il comando selezionato per aggiungere un segnalibro.
 
@@ -72,14 +72,14 @@ Quando aggiungi un segnalibro a un elemento, **Aggiungi segnalibro** diventa **M
 >
 > **Tavolozza dei comandi**:
 >
-> 1. Premi `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Tavolozza dei comandi]].
+> 1. Premi `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Riquadro comandi]].
 > 2. Seleziona il comando **Aggiungi segnalibro all'intestazione sotto il cursore**.
 
 > [!todo]- Aggiungere un segnalibro a un blocco
 >
 > **Tavolozza dei comandi**:
 >
-> 1. Premi `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Tavolozza dei comandi]].
+> 1. Premi `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Riquadro comandi]].
 > 2. Seleziona il comando **Aggiungi segnalibro al blocco sotto il cursore**.
 
 > [!todo]- Aggiungere un segnalibro a un collegamento
@@ -91,7 +91,7 @@ Quando aggiungi un segnalibro a un elemento, **Aggiungi segnalibro** diventa **M
 >
 > **Tavolozza dei comandi**:
 >
-> 1. Premi `Ctrl+P` (o `Cmd+P` su macOS) all'interno del pannello del [[Visualizzatore web]] per aprire la [[Tavolozza dei comandi]].
+> 1. Premi `Ctrl+P` (o `Cmd+P` su macOS) all'interno del pannello del [[Visualizzatore web]] per aprire la [[Riquadro comandi]].
 > 2. Seleziona il comando **Aggiungi segnalibro**.
 
 ## Rimuovi un segnalibro

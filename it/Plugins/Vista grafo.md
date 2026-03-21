@@ -8,7 +8,7 @@ aliases:
 ---
 La vista grafo è un [[Plugin principali|plugin principale]] che consente di visualizzare le relazioni tra le note nella cassaforte.
 
-Per aprire la vista grafo, fare clic su **Apri vista grafo** nella [[Barra degli strumenti]].
+Per aprire la vista grafo, fare clic su **Apri vista grafo** nella [[Barra multifunzione]].
 
 - I cerchi rappresentano le note, o _nodi_.
 - Le linee rappresentano i [[Collegamenti interni]] tra due nodi.

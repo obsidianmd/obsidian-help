@@ -3,7 +3,7 @@ permalink: web-clipper/filters
 aliases:
   - Filters
 ---
-I filtri consentono di modificare le [[variables|variabili]] nei [[Obsidian Web Clipper/Templates|modelli di Web Clipper]]. I filtri vengono applicati alle variabili usando la sintassi `{{variable|filter}}`.
+I filtri consentono di modificare le [[variables|variabili]] nei [[Modelli|modelli di Web Clipper]]. I filtri vengono applicati alle variabili usando la sintassi `{{variable|filter}}`.
 
 - I filtri funzionano per qualsiasi tipo di [[Variables|variabile]], incluse le variabili `prompt`, `meta`, `selector` e `schema`.
 - I filtri possono essere concatenati, ad es. `{{variable|filter1|filter2}}`, e vengono applicati nell'ordine in cui sono aggiunti.

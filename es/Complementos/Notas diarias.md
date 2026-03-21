@@ -24,7 +24,7 @@ De forma predeterminada, Obsidian crea una nueva nota vacía con el nombre de la
 
 ## Crear una nota diaria desde una plantilla
 
-Si tus notas diarias tienen la misma estructura, puedes usar una [[Plugins/Plantillas|plantilla]] para agregar contenido predefinido a tus notas diarias cuando las crees.
+Si tus notas diarias tienen la misma estructura, puedes usar una [[Plantillas|plantilla]] para agregar contenido predefinido a tus notas diarias cuando las crees.
 
 1. Crea una nueva nota llamada "Plantilla diaria" con el siguiente texto (¡o lo que tenga sentido para ti!):
 

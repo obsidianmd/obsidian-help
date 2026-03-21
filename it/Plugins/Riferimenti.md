@@ -40,7 +40,7 @@ Fornisce le seguenti opzioni:
 Per visualizzare i backlink per la nota attiva, fai clic sulla scheda **Riferimenti** ( ![[obsidian-icon-links-coming-in.svg#icon]] ) nella barra laterale destra.
 
 > [!note] Nota
-> Se non riesci a vedere la scheda Riferimenti, puoi renderla visibile aprendo la [[Tavolozza dei comandi]] ed eseguendo il comando **Riferimenti: Mostra riferimenti**.
+> Se non riesci a vedere la scheda Riferimenti, puoi renderla visibile aprendo la [[Riquadro comandi]] ed eseguendo il comando **Riferimenti: Mostra riferimenti**.
 
 > [!info] File esclusi
 > I file che corrispondono ai tuoi pattern [[Settings#File esclusi|File esclusi]] non appariranno nelle Menzioni scollegate.
@@ -51,7 +51,7 @@ La scheda dei backlink elenca i backlink per la nota attiva e si aggiorna quando
 
 Per aprire una scheda di backlink collegata:
 
-1. Apri la [[Tavolozza dei comandi]].
+1. Apri la [[Riquadro comandi]].
 2. Seleziona **Riferimenti: Apri riferimenti per il file attuale**.
 
 Si apre una scheda separata accanto alla tua nota attiva. La scheda mostra un'icona di collegamento per indicare che è collegata a una nota.
@@ -62,7 +62,7 @@ Invece di mostrare i backlink in una scheda separata, puoi mostrarli in fondo al
 
 Per mostrare i backlink in una nota:
 
-1. Apri la [[Tavolozza dei comandi]].
+1. Apri la [[Riquadro comandi]].
 2. Seleziona **Riferimenti: Attiva/disattiva riferimenti nel documento**.
 
 Oppure, abilita **Riferimenti nel documento** nelle opzioni del plugin Riferimenti per attivare automaticamente i backlink quando apri una nuova nota.

@@ -236,7 +236,7 @@ Determine o que fazer com arquivos após os deletar. As opções incluem:
 
 #### Arquivos excluídos
 
-Os arquivos excluídos serão ocultados na [[Pesquisa]], [[Visão de grafo]] e Menções desvinculadas ([[Backlinks]] e [[Links de saída]]), e menos perceptíveis no [[Alternador rápido]] e sugestões de links. Selecione **Administrar** para configurar arquivos excluídos.
+Os arquivos excluídos serão ocultados na [[Pesquisa]], [[Visão de grafo]] e Menções desvinculadas ([[Links inversos]] e [[Links de saída]]), e menos perceptíveis no [[Alternador rápido]] e sugestões de links. Selecione **Administrar** para configurar arquivos excluídos.
 
 #### Sobrescrever pasta de configuração
 

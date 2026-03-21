@@ -19,7 +19,7 @@ Puoi aprire più cartelle come cassaforti individuali, ad esempio per separare l
 
 ## Impostazioni della cassaforte
 
-Obsidian crea una [[cartella di configurazione]] `.obsidian` nella cartella radice della cassaforte, che contiene le preferenze specifiche di quella cassaforte, come [[scorciatoie da tastiera]], [[temi]] e [[plugin della community]].
+Obsidian crea una [[cartella di configurazione]] `.obsidian` nella cartella radice della cassaforte, che contiene le preferenze specifiche di quella cassaforte, come [[Tasti di scelta rapida]], [[temi]] e [[Plugin della comunità]].
 
 Per impostazione predefinita, la maggior parte dei sistemi operativi nasconde le cartelle che iniziano con un punto (`.`), quindi potrebbe essere necessario aggiornare le impostazioni del gestore di file per visualizzarla.
 

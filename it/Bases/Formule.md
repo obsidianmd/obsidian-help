@@ -4,7 +4,7 @@ description: Le formule consentono di creare proprietà calcolate utilizzando da
 aliases:
   - Formulas
 ---
-Le formule consentono di creare proprietà calcolate nelle [[Introduzione alle Base|Base]] utilizzando dati da altre [[Proprietà|proprietà]]. È possibile eseguire calcoli, manipolare testo, lavorare con le date e altro ancora.
+Le formule consentono di creare proprietà calcolate nelle [[Introduzione a Base|Base]] utilizzando dati da altre [[Proprietà|proprietà]]. È possibile eseguire calcoli, manipolare testo, lavorare con le date e altro ancora.
 
 ## Cosa possono fare le formule
 
@@ -72,7 +72,7 @@ Puoi fare riferimento a diversi tipi di proprietà nelle formule:
 - `price > 0 && quantity > 0` — e
 - `urgent || important` — o
 
-Scopri di più in [[Sintassi delle Base#Operatori|Sintassi delle Base]].
+Scopri di più in [[Sintassi di Base#Operatori|Sintassi delle Base]].
 
 ### Utilizzare le funzioni
 

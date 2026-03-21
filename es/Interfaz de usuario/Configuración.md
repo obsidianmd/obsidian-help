@@ -238,7 +238,7 @@ Qué hacer con los archivos eliminados. Las opciones incluyen:
 
 #### Archivos excluidos
 
-Los archivos excluidos se ocultarán en la [[Búsqueda]], [[Vista de grafo]] y Menciones no enlazadas ([[Backlinks]] y [[Enlaces salientes]]), y serán menos visibles en el [[Selector rápido]] y las sugerencias de enlaces. Selecciona **Administrar** para configurar los archivos excluidos.
+Los archivos excluidos se ocultarán en la [[Búsqueda]], [[Vista de grafo]] y Menciones no enlazadas ([[Enlace de retorno]] y [[Enlaces salientes]]), y serán menos visibles en el [[Selector rápido]] y las sugerencias de enlaces. Selecciona **Administrar** para configurar los archivos excluidos.
 
 #### Anular la carpeta de configuración
 

@@ -68,7 +68,7 @@ El equipo de Obsidian también mantiene el desarrollo de ciertos [[#Otros comple
 	- Sincroniza tus notas entre dispositivos.
 - [[Vista de etiquetas|Vista de etiquetas]]
 	- Lista todas las etiquetas en tu bóveda.
-- [[Plugins/Plantillas|Plantillas]]
+- [[Plantillas|Plantillas]]
 	- Inserta contenido predefinido en tus notas.
 - [[Creador de nota única]]
 	- Crea una nota única usando un título con código de tiempo.

@@ -8,7 +8,7 @@ description: Obsidian Sync tiene traccia di tutte le modifiche apportate alle no
 aliases:
   - Version history
 ---
-[[Introduzione a Obsidian Sync|Obsidian Sync]] controlla regolarmente la presenza di aggiornamenti nei [[Impostazioni di Sync e sincronizzazione selettiva|file sincronizzati]], tenendo traccia di eventuali modifiche. Queste vengono archiviate come nuove voci nella [[#Cronologia versioni]]. È possibile accedere a queste informazioni in diversi modi:
+[[Introduzione a Obsidian Sync|Obsidian Sync]] controlla regolarmente la presenza di aggiornamenti nei [[Impostazioni sincronizzazione e sincronizzazione selettiva|file sincronizzati]], tenendo traccia di eventuali modifiche. Queste vengono archiviate come nuove voci nella [[#Cronologia versioni]]. È possibile accedere a queste informazioni in diversi modi:
 
 - [[#Cronologia Sync]]
 - [[#Cronologia versioni]]
@@ -22,7 +22,7 @@ La cronologia Sync (o barra laterale Sync), introdotta nella versione 1.7 di Obs
 Nella barra laterale, è possibile selezionare un elemento per aprire il relativo file nella finestra attiva. Gli elementi dispongono anche di menu contestuali, che consentono di eseguire azioni come spostare il file o visualizzare la sua [[#Note e allegati|Cronologia versioni]].
 
 > [!compatibility] Funzionalità solo per desktop
-> Quando si passa il mouse su un file sincronizzato nella barra laterale, è possibile vedere chi ha modificato il file per ultimo. Questo è particolarmente utile se si sta [[Collaborare su una cassaforte condivisa|collaborando]] su una cassaforte condivisa.
+> Quando si passa il mouse su un file sincronizzato nella barra laterale, è possibile vedere chi ha modificato il file per ultimo. Questo è particolarmente utile se si sta [[Collaborare su un vault condiviso|collaborando]] su una cassaforte condivisa.
 
 > [!tip] 
 > Le impostazioni e gli elementi eliminati non appariranno nella barra laterale della cronologia Sync. Questi possono essere trovati nella [[#Note e allegati|Cronologia versioni]].
@@ -33,7 +33,7 @@ Quando si abilita il plugin principale [[Introduzione a Obsidian Sync|Sync]], la
 
 #### Abilitare tramite tavolozza dei comandi
 
-> [!info] Questa opzione richiede che il plugin principale [[Tavolozza dei comandi]] sia abilitato.
+> [!info] Questa opzione richiede che il plugin principale [[Riquadro comandi]] sia abilitato.
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
@@ -45,7 +45,7 @@ La cronologia Sync apparirà nella [[Barra laterale|barra laterale destra]].
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Aprire la [[Barra degli strumenti]] ( ![[lucide-menu.svg#icon]] ).
+1. Aprire la [[Barra multifunzione]] ( ![[lucide-menu.svg#icon]] ).
 2. Aprire la **Tavolozza dei comandi**. ( ![[lucide-terminal.svg#icon]] )
 3. Digitare "Sync".
 4. Selezionare l'opzione "Sync: Visualizza cronologia Sync".
@@ -67,7 +67,7 @@ Il periodo di conservazione della cronologia delle versioni dipende dal [[Piani 
 
 Per gli [[Allegati|allegati]], le versioni più vecchie vengono conservate per <u>due settimane</u>.
 
-![[Collaborare su una cassaforte condivisa#^version-history-image]]
+![[Collaborare su un vault condiviso#^version-history-image]]
 
 ### Note e allegati
 

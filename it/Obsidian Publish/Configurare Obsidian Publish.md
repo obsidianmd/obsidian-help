@@ -33,7 +33,7 @@ Puoi accedere a Publish attraverso le seguenti opzioni: la tavolozza dei comandi
 
 #### Apri tramite la tavolozza dei comandi
 
-> [!info] Questa opzione richiede che il plugin principale [[Tavolozza dei comandi]] sia abilitato.
+> [!info] Questa opzione richiede che il plugin principale [[Riquadro comandi]] sia abilitato.
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
@@ -45,7 +45,7 @@ La finestra **Pubblica modifiche** apparirà in un nuovo pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Apri la [[Barra degli strumenti]] ( ![[lucide-menu.svg#icon]] ).
+1. Apri la [[Barra multifunzione]] ( ![[lucide-menu.svg#icon]] ).
 2. Apri la **Tavolozza dei comandi** ( ![[lucide-terminal.svg#icon]] ).
 3. Digita "Publish".
 4. Seleziona l'opzione **Publish: Pubblica modifiche**.
@@ -63,7 +63,7 @@ Il menu **Pubblica modifiche** apparirà come un pannello scorrevole dal basso.
 
 #### Apri tramite barra degli strumenti
 
-Puoi anche accedere a Obsidian Publish tramite la [[Barra degli strumenti|barra degli strumenti]].
+Puoi anche accedere a Obsidian Publish tramite la [[Barra multifunzione|barra degli strumenti]].
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
@@ -74,7 +74,7 @@ La finestra **Pubblica modifiche** apparirà in un nuovo pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Apri la [[Barra degli strumenti]] ( ![[lucide-menu.svg#icon]] ).
+1. Apri la [[Barra multifunzione]] ( ![[lucide-menu.svg#icon]] ).
 2. Seleziona l'icona **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
 
 Il menu **Pubblica modifiche** apparirà come un pannello scorrevole dal basso.
@@ -91,7 +91,7 @@ Il menu **Pubblica modifiche** apparirà come un pannello scorrevole dal basso.
 3. In **Nome sito**, sotto **Generale**, inserisci il nome del tuo sito.
 4. Seleziona **Salva opzioni sito**.
 
-> [!abstract] **Ulteriori letture**: [[Gestione siti]], [[Personalizza il tuo sito]]
+> [!abstract] **Ulteriori letture**: [[Gestione siti]], [[Personalizzare il sito]]
  
 ## Seleziona le note da pubblicare
 
@@ -100,13 +100,13 @@ Il menu **Pubblica modifiche** apparirà come un pannello scorrevole dal basso.
 3. Scegli le note che vuoi pubblicare.
 4. Seleziona **Pubblica**.
 
-> [!abstract] **Ulteriori letture**: [[Pubblica i tuoi contenuti]], [[Obsidian Publish/Sicurezza e privacy|Sicurezza e privacy]], [[Limitazioni di Publish|Limitazioni di Publish]]
+> [!abstract] **Ulteriori letture**: [[Pubblicare i contenuti]], [[Obsidian Publish/Sicurezza e privacy|Sicurezza e privacy]], [[Limitazioni di Publish|Limitazioni di Publish]]
 
 Hai configurato un sito Obsidian Publish e pubblicato le tue prime note. Vai all'indirizzo del sito che hai configurato in precedenza in questa guida e inizia a condividerlo con i tuoi lettori.
 
 ## Prossimi passi
 
 Ora che hai pubblicato le tue prime note, potresti voler:
-- Configurare un dominio personalizzato per il tuo sito: [[Dominio personalizzato]]
-- Scoprire la personalizzazione avanzata del sito: [[Personalizza il tuo sito]]
-- Imparare come aggiungere schede per i social media: [[Anteprime dei link per i social media]]
+- Configurare un dominio personalizzato per il tuo sito: [[Domini personalizzati]]
+- Scoprire la personalizzazione avanzata del sito: [[Personalizzare il sito]]
+- Imparare come aggiungere schede per i social media: [[Anteprime link per social media]]

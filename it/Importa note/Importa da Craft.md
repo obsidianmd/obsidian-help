@@ -18,7 +18,7 @@ A seconda del numero di note che hai in Craft, questo processo potrebbe richiede
 
 ## Importa i tuoi dati di Craft in Obsidian
 
-Da qui puoi seguire le istruzioni per [[Importare file Markdown]].
+Da qui puoi seguire le istruzioni per [[Importa file Markdown]].
 
 ## Risoluzione dei problemi
 

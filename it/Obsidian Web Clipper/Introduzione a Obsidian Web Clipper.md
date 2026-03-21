@@ -33,7 +33,7 @@ Ottieni l'estensione Obsidian Web Clipper dalla directory ufficiale del tuo brow
 	- Usa prompt in linguaggio naturale per catturare e modificare i dati di una pagina.
 - [[Troubleshoot Web Clipper|Risoluzione dei problemi]]
 	- Risolvi problemi comuni con Web Clipper.
-- [[Obsidian Web Clipper/Templates|Modelli]]
+- [[Modelli|Modelli]]
 	- Crea modelli personalizzati per siti web specifici.
 - [[Variables|Variabili]]
 	- Precompila i dati della pagina nel tuo modello.

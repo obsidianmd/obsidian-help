@@ -37,7 +37,7 @@ Per aggiornare la versione del programma di installazione di Obsidian:
 1. Vai a https://obsidian.md/download.
 2. Seleziona il pulsante **Scarica**.
 3. Chiudi Obsidian, se è aperto.
-4. Procedi come descritto in [[Scaricare e installare Obsidian]].
+4. Procedi come descritto in [[Scarica e installa Obsidian]].
 
 L'aggiornamento del programma di installazione è ora completato.
 

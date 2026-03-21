@@ -22,11 +22,11 @@ Obsidian può essere utilizzato in [Modalità di isolamento](https://support.app
 
 Per impostazione predefinita vengono sincronizzate le note di Obsidian, le immagini e la [[Cartella di configurazione|cartella di configurazione]].
 
-È possibile aggiungere opzioni di sincronizzazione aggiuntive per PDF, file audio, file video e altri file tramite [[Impostazioni di sincronizzazione e sincronizzazione selettiva|Impostazioni sincronizzazione e sincronizzazione selettiva]].
+È possibile aggiungere opzioni di sincronizzazione aggiuntive per PDF, file audio, file video e altri file tramite [[Impostazioni sincronizzazione e sincronizzazione selettiva|Impostazioni sincronizzazione e sincronizzazione selettiva]].
 
 ### Quanto spazio di archiviazione ho a disposizione?
 
-Il limite di archiviazione dipende dal [[Piani e limiti di archiviazione#Piani|piano Sync]] di Obsidian. La quantità massima di archiviazione è 100 GB. Questo limite include la [[Cronologia delle versioni|cronologia versioni]].
+Il limite di archiviazione dipende dal [[Piani e limiti di archiviazione#Piani|piano Sync]] di Obsidian. La quantità massima di archiviazione è 100 GB. Questo limite include la [[Cronologia versioni|cronologia versioni]].
 
 È possibile visualizzare la **Dimensione vault** nell'app Obsidian andando su **[[Impostazioni]] → Sync**.
 
@@ -40,7 +40,7 @@ Non esiste un limite per singola cassaforte. Il limite di archiviazione è legat
 
 ### Con quante persone posso condividere un caveau remoto?
 
-È possibile [[Collaborare su una cassaforte condivisa|condividere un caveau remoto]] con un massimo di 20 persone.
+È possibile [[Collaborare su un vault condiviso|condividere un caveau remoto]] con un massimo di 20 persone.
 
 ### Quanto può essere grande ciascun file?
 
@@ -52,7 +52,7 @@ No, i file vengono sincronizzati solo quando Obsidian è in esecuzione.
 
 ### Obsidian Sync ricarica le impostazioni in tempo reale?
 
-Obsidian Sync può ricaricare automaticamente alcune impostazioni, ma ci sono delle limitazioni. Per maggiori dettagli, consulta [[Impostazioni di sincronizzazione e sincronizzazione selettiva#Ricaricamento delle impostazioni|Ricaricamento delle impostazioni]].
+Obsidian Sync può ricaricare automaticamente alcune impostazioni, ma ci sono delle limitazioni. Per maggiori dettagli, consulta [[Impostazioni sincronizzazione e sincronizzazione selettiva#Ricaricamento delle impostazioni|Ricaricamento delle impostazioni]].
 
 ### Posso usare un sync di terze parti con Obsidian Sync?
 
@@ -68,7 +68,7 @@ Queste sono domande frequenti sulla conservazione dei dati di Obsidian. Per risp
 
 ### Per quanto tempo conservate la cronologia delle versioni?
 
-La [[Cronologia delle versioni]] dipende dal [[Piani e limiti di archiviazione|piano Obsidian Sync]]. Con il piano Standard le note vengono conservate per 1 mese. Con il piano Plus le note vengono conservate per 12 mesi. Dopo questo periodo di tempo le versioni più vecchie vengono eliminate.
+La [[Cronologia versioni]] dipende dal [[Piani e limiti di archiviazione|piano Obsidian Sync]]. Con il piano Standard le note vengono conservate per 1 mese. Con il piano Plus le note vengono conservate per 12 mesi. Dopo questo periodo di tempo le versioni più vecchie vengono eliminate.
 
 Le versioni più vecchie degli [[Allegati|allegati]] vengono conservate per due settimane.
 
@@ -80,4 +80,4 @@ A condizione che il rinnovo avvenga entro un mese, non dovrebbero esserci impatt
 
 ### Conservate i miei dati se richiedo un rimborso dell'abbonamento?
 
-No. I dati vengono eliminati immediatamente dai server di Obsidian Sync. I dati nella [[Cassaforti locali e remote|cassaforte locale]] non vengono influenzati.
+No. I dati vengono eliminati immediatamente dai server di Obsidian Sync. I dati nella [[Vault locali e remoti|cassaforte locale]] non vengono influenzati.

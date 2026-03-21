@@ -42,7 +42,7 @@ Obsidian crea il collegamento con l'alias come testo visualizzato personalizzato
 
 ## Trovare menzioni scollegate per un alias
 
-Utilizzando i [[Backlink]], è possibile trovare menzioni scollegate degli alias.
+Utilizzando i [[Riferimenti]], è possibile trovare menzioni scollegate degli alias.
 
 Ad esempio, dopo aver impostato "AI" come alias per "Artificial intelligence", è possibile vedere le menzioni di "AI" in altre note.
 

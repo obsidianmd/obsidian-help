@@ -561,7 +561,7 @@ permanent          # omitir papelera, eliminar permanentemente
 
 ## Enlaces
 
-Comandos para [[Backlinks]] y [[Enlaces salientes]].
+Comandos para [[Enlace de retorno]] y [[Enlaces salientes]].
 
 ### `backlinks`
 
@@ -1084,7 +1084,7 @@ task daily line=3 done            # Marcar tarea de nota diaria como hecha
 
 ## Plantillas
 
-Comandos para [[Plugins/Plantillas|Plantillas]].
+Comandos para [[Plantillas|Plantillas]].
 
 ### `templates`
 

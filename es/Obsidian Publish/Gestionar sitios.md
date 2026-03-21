@@ -81,7 +81,7 @@ Un sitio es una colección de notas alojada por Obsidian Publish y disponible en
 | Mostrar barra de búsqueda  | Alternador | Habilita o deshabilita una barra de búsqueda en tu sitio.                                                                                                            |
 | Mostrar vista gráfica       | Alternador | Habilita o deshabilita la vista de gráfico en la barra lateral derecha de tu sitio.                                                                                  |
 | Mostrar tabla de contenidos | Alternador | Habilita o deshabilita la vista de [[Esquema\|Tabla de contenidos]] en tu sitio.                                                                                     |
-| Mostrar enlaces entrantes   | Alternador | Habilita o deshabilita los [[Backlinks]] en tu sitio.                                                                                                                |
+| Mostrar enlaces entrantes   | Alternador | Habilita o deshabilita los [[Enlace de retorno]] en tu sitio.                                                                                                                |
 
 ### Otros ajustes de la página web
 

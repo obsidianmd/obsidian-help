@@ -13,7 +13,7 @@ Il tuo team può scaricare Obsidian dalla nostra [pagina di download](https://ob
 
 > [!tip] Per gli utenti Windows che necessitano di un programma di installazione di sistema, l'`.exe` universale include l'opzione per installare Obsidian per tutti gli utenti.
 
-Se gli aggiornamenti automatici sono abilitati nell'app, le versioni future verranno installate automaticamente quando gli utenti riavviano Obsidian. Inoltre, raccomandiamo di eseguire periodicamente [[Aggiornare Obsidian#Aggiornamenti del programma di installazione|aggiornamenti del programma di installazione]] per ricevere gli ultimi aggiornamenti del framework Electron, incluse le correzioni di sicurezza.
+Se gli aggiornamenti automatici sono abilitati nell'app, le versioni future verranno installate automaticamente quando gli utenti riavviano Obsidian. Inoltre, raccomandiamo di eseguire periodicamente [[Aggiorna Obsidian#Aggiornamenti del programma di installazione|aggiornamenti del programma di installazione]] per ricevere gli ultimi aggiornamenti del framework Electron, incluse le correzioni di sicurezza.
 
 Se stai cercando come limitare l'accesso di rete a Obsidian durante questo processo, consulta [[Considerazioni sulla sicurezza per i team#Rete e accesso|rete e accesso]].
 

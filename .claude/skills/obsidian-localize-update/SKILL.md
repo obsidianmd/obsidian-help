@@ -68,6 +68,30 @@ npx tsx scripts/build-publish-js.ts [locale ...]   # omit locale to rebuild all
 ob publish --path <locale> --all --yes
 ```
 
+## Diff-based updates (working from a base commit)
+
+When the user provides a base commit, **inspect the diff first** before deciding what action to take:
+
+```bash
+git show <commit> --stat          # what files changed
+git show <commit>                 # exact line-level changes
+```
+
+Categorize each changed EN file by the nature of its changes, then act accordingly:
+
+| Change type | Action |
+|-------------|--------|
+| Wikilink/anchor fix only (target or anchor changed, display text unchanged) | Apply the same link fix surgically to each locale file — do NOT retranslate |
+| Display text of a wikilink changed (e.g. "notes" → "data") | Apply surgically: update both anchor and display text using the locale's `headings.txt` for the correct translation |
+| EN page renamed (wikilinks now point to a different file) | Update wikilinks in locale files to point to the locale equivalent of the new EN filename |
+| Prose/content changed | Flag affected locale files with `needs-retranslation: true`, then run translate-locale |
+| New page added | sync-locale creates a stub; translate-locale translates it |
+| Page deleted | sync-locale removes the locale file |
+
+**Never use `needs-retranslation: true` for wikilink-only changes.** Re-translating an entire file to fix a link destroys existing translation work.
+
+When applying surgical link fixes: find the locale equivalent file by matching the `permalink` field, then apply the exact diff pattern to that file.
+
 ## Common scenarios
 
 **A new EN page was added** → sync-locale creates a stub, translate-locale translates it.
@@ -75,6 +99,8 @@ ob publish --path <locale> --all --yes
 **An EN page was deleted** → sync-locale deletes the locale file.
 
 **A specific page needs re-translation** → add `needs-retranslation: true` to its frontmatter, then run translate-locale.
+
+**EN wikilinks/anchors corrected** → inspect each change, apply surgically to locale files. Check if the old pattern actually appears in locale files before assuming it does.
 
 **EN nav order changed** → run `localize-nav-order.ts` for affected locales.
 

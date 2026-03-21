@@ -247,7 +247,7 @@ tags:
 ---
 ```
 
-A propriedade `tags` é uma das [[#Propriedades padrão]] do Obsidian. Veja [[Editing and formatting/Tags|Tags]] para mais informações sobre o uso de tags no Obsidian.
+A propriedade `tags` é uma das [[#Propriedades padrão]] do Obsidian. Veja [[Tags|Tags]] para mais informações sobre o uso de tags no Obsidian.
 
 ### Propriedades JSON
 
@@ -270,7 +270,7 @@ O Obsidian vem com um conjunto de propriedades padrão:
 
 | Propriedade  | Tipo  | Descrição                                                    |
 | ------------ | ----- | ------------------------------------------------------------ |
-| `tags`       | Lista | Veja [[Editing and formatting/Tags\|Tags]].                 |
+| `tags`       | Lista | Veja [[Tags\|Tags]].                 |
 | `aliases`    | Lista | Veja [[Apelidos]].                                          |
 | `cssclasses` | Lista | Permite estilizar notas individuais usando [[Trechos CSS]]. |
 

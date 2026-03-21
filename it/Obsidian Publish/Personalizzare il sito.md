@@ -21,7 +21,7 @@ Puoi personalizzare il tuo sito [[Pubblicare i contenuti#Pubblicare le note|pubb
 - Poiché Obsidian non supporta i file CSS o JavaScript, è necessario utilizzare un'altra applicazione per crearli e modificarli.
 - Sia `publish.css` che `publish.js` devono trovarsi nella directory principale (`/`) della cassaforte.
 - Per impostazione predefinita, `publish.css` e `publish.js` non appaiono nell'esplora file, ma è comunque possibile pubblicarli dalla finestra di dialogo **Pubblica modifiche**.
-- Per utilizzare JavaScript personalizzato con `publish.js`, è necessario configurare un [[Dominio personalizzato]].
+- Per utilizzare JavaScript personalizzato con `publish.js`, è necessario configurare un [[Domini personalizzati]].
 
 Per le favicon, Obsidian Publish supporta le seguenti convenzioni di denominazione, dove `32` rappresenta le dimensioni dell'icona in pixel:
 
@@ -74,7 +74,7 @@ All'interno di Obsidian Publish, hai la possibilità di personalizzare l'ordine 
 
 #### Accedere alle opzioni di Personalizza navigazione
 
-1. Nella [[Barra degli strumenti]], seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]) oppure apri la [[Tavolozza dei comandi]] e digita **Publish: Pubblica modifiche...**
+1. Nella [[Barra multifunzione]], seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]) oppure apri la [[Riquadro comandi]] e digita **Publish: Pubblica modifiche...**
 2. Nella finestra di dialogo **Pubblica modifiche**, seleziona **Modifica le opzioni del sito** ( ![[lucide-cog.svg#icon]] ).
 3. In **Impostazioni componenti**, accanto a **Personalizza navigazione**, seleziona il pulsante **Gestisci**.
 

@@ -4,7 +4,7 @@ publish: true
 mobile: false
 description: Enlaces salientes es un complemento principal que muestra los enlaces de la nota activa de un vistazo, así como posibles enlaces por crear.
 ---
-[[Enlaces salientes]] es un [[Complementos principales|complemento principal]] que muestra los enlaces de la nota activa de un vistazo, así como posibles enlaces por crear. Es similar al complemento de [[Enlaces de retorno]], que en cambio muestra los enlaces _entrantes_ hacia la nota activa.
+[[Enlaces salientes]] es un [[Complementos principales|complemento principal]] que muestra los enlaces de la nota activa de un vistazo, así como posibles enlaces por crear. Es similar al complemento de [[Enlace de retorno]], que en cambio muestra los enlaces _entrantes_ hacia la nota activa.
 
 La pestaña de Enlaces salientes ( ![[obsidian-icon-links-going-out.svg#icon]] ) está disponible en la barra lateral derecha y contiene las siguientes secciones:
 

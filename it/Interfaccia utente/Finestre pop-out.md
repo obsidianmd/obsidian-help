@@ -18,7 +18,7 @@ Nell'[[Esplora file]], fare clic con il pulsante destro su una nota e selezionar
 
 **Tavolozza dei comandi:**
 
-Nella [[Tavolozza dei comandi]], selezionare **Apri pannello in una nuova finestra**.
+Nella [[Riquadro comandi]], selezionare **Apri pannello in una nuova finestra**.
 
 **Scheda:**
 
@@ -34,7 +34,7 @@ Nell'[[Esplora file]], trascinare il file in un gruppo di schede nella finestra 
 
 **Tavolozza dei comandi:**
 
-Nella [[Tavolozza dei comandi]], selezionare **Sposta pannello in una nuova finestra**.
+Nella [[Riquadro comandi]], selezionare **Sposta pannello in una nuova finestra**.
 
 **Scheda:**
 

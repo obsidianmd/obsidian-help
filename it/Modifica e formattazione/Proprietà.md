@@ -14,7 +14,8 @@ Le proprietà permettono di organizzare le informazioni su una nota. Le propriet
 
 Esistono diversi modi per aggiungere una proprietà a una nota:
 
-- Usare il [[Tavolozza dei comandi|comando]] **Aggiungi proprietà al file**.
+
+- Usare il [[Riquadro comandi|comando]] **Aggiungi proprietà al file**.
 - Usare la [[Tasti di scelta rapida|scorciatoia da tastiera]] **`Cmd/Ctrl+;`**.
 - Scegliere **Aggiungi proprietà al file** dal menu **Altre opzioni** (accessibile tramite l'icona dei tre punti o facendo clic destro sulla scheda).
 - Digitare `---` all'inizio del file.
@@ -272,7 +273,7 @@ Obsidian include un set di proprietà predefinite:
 
 | Proprietà    | Tipo   | Descrizione                                                      |
 | ------------ | ------ | ---------------------------------------------------------------- |
-| `tags`       | Elenco | Vedi [[Editing and formatting/Tags\|Etichette]].                 |
+| `tags`       | Elenco | Vedi [[Etichette\|Etichette]].                 |
 | `aliases`    | Elenco | Vedi [[Alias]].                                                  |
 | `cssclasses` | Elenco | Permette di personalizzare l'aspetto di singole note usando gli [[Snippet CSS]]. |
 
@@ -282,7 +283,7 @@ Le seguenti proprietà predefinite possono essere usate con [[Introduction to Ob
 
 | Proprietà     | Descrizione                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
-| `publish`     | Vedi [[Publish your content#Automatically select notes to publish\|Selezionare automaticamente le note da pubblicare]]. |
+| `publish`     | Vedi [[Publish your content#Automatically select data to publish\|Selezionare automaticamente i dati da pubblicare]]. |
 | `permalink`   | Vedi [[Permalinks\|Permalink]].                                                                            |
 | `description` | Vedi [[Social media link previews#Description\|Descrizione]].                                              |
 | `image`       | Vedi [[Social media link previews#Image\|Immagine]].                                                       |

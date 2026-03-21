@@ -24,7 +24,7 @@ Per impostazione predefinita, Obsidian crea una nuova nota vuota con il nome del
 
 ## Creare una nota del giorno da un modello
 
-Se le tue note del giorno hanno la stessa struttura, puoi utilizzare un [[Plugins/Templates|modello]] per aggiungere contenuto predefinito alle note del giorno quando le crei.
+Se le tue note del giorno hanno la stessa struttura, puoi utilizzare un [[Modelli|modello]] per aggiungere contenuto predefinito alle note del giorno quando le crei.
 
 1. Crea una nuova nota chiamata "Modello giornaliero" con il seguente testo (o qualsiasi cosa abbia senso per te!):
 

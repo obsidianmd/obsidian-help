@@ -68,7 +68,7 @@ Il team di Obsidian mantiene anche lo sviluppo di alcuni [[#Altri plugin|plugin 
 	- Sincronizza le tue note tra i dispositivi.
 - [[Tags view|Pannello delle etichette]]
 	- Elenca tutte le etichette nella tua cassaforte.
-- [[Plugins/Templates|Modelli]]
+- [[Modelli|Modelli]]
 	- Inserisci contenuti predefiniti nelle tue note.
 - [[Unique note creator|Note univoche]]
 	- Crea una nota univoca usando un titolo con codice temporale.

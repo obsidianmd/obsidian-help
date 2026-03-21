@@ -19,7 +19,7 @@ Di seguito un confronto tra il piano Standard e il piano Plus:
 | Spazio di archiviazione totale                   | 1 GB          | Da 10 GB a 100 GB |
 | [[Cronologia versioni]]                          | 1 mese        | 12 mesi         |
 | Dispositivi                                      | Illimitati    | Illimitati      |
-| [[Collaborare su una cassaforte condivisa\|Cassaforti condivise]] | Sì            | Sì              |
+| [[Collaborare su un vault condiviso\|Cassaforti condivise]] | Sì            | Sì              |
 
 ## Limiti di archiviazione
 

@@ -6,7 +6,7 @@ description: Questa pagina descrive le funzioni utilizzate in Obsidian Base per 
 aliases:
   - Functions
 ---
-Le funzioni vengono utilizzate in [[Introduzione alle Base|Base]] per manipolare i dati dalle [[Proprietà|proprietà]] nei [[Viste#Filtri|filtri]] e nelle [[Formule|formule]]. Consulta il riferimento alla [[Sintassi delle Base|sintassi delle Base]] per scoprire di più su come puoi utilizzare le funzioni.
+Le funzioni vengono utilizzate in [[Introduzione a Base|Base]] per manipolare i dati dalle [[Proprietà|proprietà]] nei [[Viste#Filtri|filtri]] e nelle [[Formule|formule]]. Consulta il riferimento alla [[Sintassi di Base|sintassi delle Base]] per scoprire di più su come puoi utilizzare le funzioni.
 
 Oltre alle funzioni [[Functions#Globali|Globali]], la maggior parte delle funzioni dipende dal tipo di valore che vuoi modificare:
 
@@ -41,7 +41,7 @@ Le funzioni globali vengono utilizzate senza un tipo.
 
 `duration(value: string): duration`
 
-- Analizza una stringa come durata. Consulta la [[Sintassi delle Base#Aritmetica delle date|sezione sull'aritmetica delle date]] per il formato della stringa `value`.
+- Analizza una stringa come durata. Consulta la [[Sintassi di Base#Aritmetica delle date|sezione sull'aritmetica delle date]] per il formato della stringa `value`.
 - Le durate non devono essere analizzate esplicitamente quando si eseguono operazioni aritmetiche sulle date (ad esempio, `now() + '1d'`), ma devono esserlo quando si eseguono operazioni aritmetiche sulle durate (ad esempio, `now() + (duration('1d') * 2)`).
 - Quando si eseguono operazioni aritmetiche sulle durate con scalari, la durata deve essere a sinistra. Ad esempio `duration('5h') * 2`, anziché `2 * duration('5h')`.
 
@@ -130,7 +130,7 @@ Le funzioni globali vengono utilizzate senza un tipo.
 
 `duration(value: string): duration`
 
-- Analizza una stringa come durata. Consulta la [[Sintassi delle Base#Aritmetica delle date|sezione sull'aritmetica delle date]] per il formato della stringa `value`.
+- Analizza una stringa come durata. Consulta la [[Sintassi di Base#Aritmetica delle date|sezione sull'aritmetica delle date]] per il formato della stringa `value`.
 - Le durate non devono essere analizzate esplicitamente quando si eseguono operazioni aritmetiche sulle date (ad esempio, `now() + '1d'`), ma devono esserlo quando si eseguono operazioni aritmetiche sulle durate (ad esempio, `now() + (duration('1d') * 2)`).
 - Quando si eseguono operazioni aritmetiche sulle durate con scalari, la durata deve essere a sinistra. Ad esempio `duration('5h') * 2`, anziché `2 * duration('5h')`.
 
@@ -167,7 +167,7 @@ Funzioni che puoi utilizzare con qualsiasi valore. Questo include stringhe (es. 
 
 ## Data
 
-Funzioni che puoi utilizzare con una data e ora come `date("2025-05-27")`. I confronti tra date possono essere effettuati utilizzando l'[[Sintassi delle Base#Aritmetica delle date|aritmetica delle date]].
+Funzioni che puoi utilizzare con una data e ora come `date("2025-05-27")`. I confronti tra date possono essere effettuati utilizzando l'[[Sintassi di Base#Aritmetica delle date|aritmetica delle date]].
 
 ### Campi
 

@@ -33,7 +33,7 @@ A partire da Obsidian 1.9.7, puoi scegliere come gestire i conflitti. Per config
 
 1. Apri **[[Impostazioni]]**.
 2. Nella barra laterale, seleziona **Sync**.
-3. Sotto **[[Impostazioni di Sync e sincronizzazione selettiva#Risoluzione dei conflitti|Risoluzione dei conflitti]]**, scegli l'opzione preferita:
+3. Sotto **[[Impostazioni sincronizzazione e sincronizzazione selettiva#Risoluzione dei conflitti|Risoluzione dei conflitti]]**, scegli l'opzione preferita:
    - **Unisci automaticamente** (predefinito): Obsidian Sync combina tutte le modifiche da diversi dispositivi in un unico file. Questo salva tutte le modifiche, ma a volte potrebbe creare testo duplicato o problemi di formattazione. Dovrai correggerli manualmente.
    - **Crea file di conflitto**: Quando Obsidian trova modifiche in conflitto, crea un file di conflitto separato invece di unire automaticamente. Puoi quindi rivedere entrambe le versioni e unirle manualmente. Questo ti dà il pieno controllo sul risultato finale.
 

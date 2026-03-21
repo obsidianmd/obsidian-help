@@ -22,7 +22,7 @@ Per creare una nuova nota:
 Obsidian è l'app di scrittura privata e flessibile che si adatta al tuo modo di pensare.
 ```
 
-![[Gestire le note#^blockquote-system-limitation]]
+![[Gestisci le note#^blockquote-system-limitation]]
 
 ## Formattare il testo
 
@@ -40,6 +40,6 @@ Per saperne di più su come formattare le note usando Markdown, consulta [[Sinta
 
 ## Scopri di più
 
-Scopri come [[Collegare le note|collegare le note]] per creare una rete di pensieri connessi.
+Scopri come [[Collegamenti interni|collegare le note]] per creare una rete di pensieri connessi.
 
 Potresti anche voler esplorare il [[Vault sandbox]] per scoprire altre funzionalità dell'applicazione.

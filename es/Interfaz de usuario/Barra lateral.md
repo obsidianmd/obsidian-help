@@ -4,7 +4,7 @@ publish: true
 mobile: true
 description: Aprende sobre las barras laterales izquierda y derecha de Obsidian y cómo gestionar pestañas y grupos de pestañas.
 ---
-Obsidian tiene dos barras laterales: una barra lateral izquierda y una barra lateral derecha. Las barras laterales contienen pestañas creadas por complementos, como [[Enlaces entrantes]], [[Enlaces salientes]] y el [[Explorador de archivos]]. En escritorio, también puedes arrastrar notas a la barra lateral para mantenerlas visibles junto a tu editor principal.
+Obsidian tiene dos barras laterales: una barra lateral izquierda y una barra lateral derecha. Las barras laterales contienen pestañas creadas por complementos, como [[Enlace de retorno]], [[Enlaces salientes]] y el [[Explorador de archivos]]. En escritorio, también puedes arrastrar notas a la barra lateral para mantenerlas visibles junto a tu editor principal.
 
 En escritorio y tabletas más grandes, la barra lateral izquierda incluye la [[Menú de cinta]]. En móvil y tabletas más pequeñas, las barras laterales están [[#Abrir barras laterales ocultas|contraídas por defecto]].
 
@@ -59,7 +59,7 @@ Para fijar o desfijar una pestaña de la barra lateral, arrastra la pestaña hac
 El comportamiento de una pestaña fijada dentro de la barra lateral depende de su tipo de contenido:
 
 - **Notas y Bases**: Una pestaña fijada de nota o base permanece en su lugar. Las nuevas notas se abren como pestañas separadas en el editor principal en lugar de reemplazar la pestaña fijada.
-- **Paneles** (como [[Enlaces entrantes]] o [[Enlaces salientes]]): Un panel fijado permanece enfocado en la última nota seleccionada. Seleccionar una nota diferente no actualiza el panel fijado.
+- **Paneles** (como [[Enlace de retorno]] o [[Enlaces salientes]]): Un panel fijado permanece enfocado en la última nota seleccionada. Seleccionar una nota diferente no actualiza el panel fijado.
 
 Para información sobre fijar pestañas en el editor principal, consulta [[Pestañas#Fijar una pestaña|Fijar una pestaña]].
 

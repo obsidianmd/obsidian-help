@@ -42,7 +42,7 @@ I permessi granulari non sono ancora supportati. Tutti i collaboratori ricevono 
 
 Le cassaforti condivise consentono ai team di lavorare insieme su un insieme di file, tuttavia Obsidian non supporta ancora la modifica collaborativa in tempo reale sullo stesso file. Non vedrai il cursore dell'altro utente e le sue modifiche appariranno solo dopo la sincronizzazione.
 
-Se più utenti stanno modificando lo stesso file contemporaneamente, le [[Risoluzione dei problemi di Obsidian Sync#Risoluzione dei conflitti|modifiche verranno unite]] durante il processo di sincronizzazione. Le modifiche possono essere visualizzate e ripristinate utilizzando la [[Cronologia versioni]].
+Se più utenti stanno modificando lo stesso file contemporaneamente, le [[Risoluzione problemi di Obsidian Sync#Risoluzione dei conflitti|modifiche verranno unite]] durante il processo di sincronizzazione. Le modifiche possono essere visualizzate e ripristinate utilizzando la [[Cronologia versioni]].
 
 ![[version-history-collaboration.png]]^version-history-image
 
@@ -53,4 +53,4 @@ Tieni presente che Obsidian Sync ha delle [[Domande frequenti|limitazioni]] che 
 - Il numero massimo di collaboratori su una cassaforte condivisa è di 20 utenti.
 - La dimensione massima dei file per gli allegati dipende dal [[Piani e limiti di archiviazione|piano]] dell'host del tuo caveau remoto, con 5 MB per il Piano Standard e 200 MB per il Piano Plus.
 
-Scopri di più sulla [[Sincronizzazione per i team]].
+Scopri di più sulla [[Sync per team]].

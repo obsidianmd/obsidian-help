@@ -7,17 +7,6 @@ Publish all active locales to Obsidian Publish.
 
 The working directory is the obsidian-help repo root.
 
-## Active locales
-
-- `en`
-- `es`
-- `fr`
-- `it`
-- `ja`
-- `pt-BR`
-- `ru`
-- `zh`
-
 ## Commands
 
 ```bash

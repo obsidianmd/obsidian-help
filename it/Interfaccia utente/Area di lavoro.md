@@ -12,7 +12,7 @@ L'area di lavoro è il contenitore principale per tutti i componenti che compong
 
 Nell'app desktop di Obsidian l'area di lavoro include:
 
-- [[Barra degli strumenti]] disposta verticalmente sul lato sinistro dell'app
+- [[Barra multifunzione]] disposta verticalmente sul lato sinistro dell'app
 - [[Barra laterale|Barre laterali]] sui lati sinistro e destro (possono essere compresse)
     - [[Barra laterale#Gruppi di schede|Gruppi di schede della barra laterale]] (possono essere divisi verticalmente)
     - [[Barra laterale#Schede|Schede della barra laterale]]
@@ -27,5 +27,5 @@ Nell'app mobile di Obsidian l'area di lavoro include:
 - [[Schede]] gestite dal contatore delle schede nella [[App mobile#Barra di navigazione|Barra di navigazione]]
 - [[Barra laterale|Barre laterali]] (aperte tramite gesti di scorrimento verso sinistra e destra)
 - [[App mobile#Barra di navigazione|Barra di navigazione]] nella parte inferiore dello schermo
-- [[Barra degli strumenti|Configurazione barra multifunzione]] nella barra di navigazione (contiene azioni personalizzabili)
+- [[Barra multifunzione|Configurazione barra multifunzione]] nella barra di navigazione (contiene azioni personalizzabili)
 - [[App mobile|Barra degli strumenti dell'editor]] sopra la tastiera durante la modifica

@@ -83,7 +83,7 @@ Um site é uma coleção de notas hospedada pelo Obsidian Publish e disponível 
 | Mostrar barra de pesquisa    | Toggle | Ativa ou desativa uma barra de pesquisa no seu site.                                                                                                    |
 | Mostrar visualização em gráfico | Toggle | Ativa ou desativa a visualização em gráfico na barra lateral direita do seu site.                                                                    |
 | Mostrar índice               | Toggle | Ativa ou desativa a visualização do [[Sumário\|Índice]] no seu site.                                                                                    |
-| Mostrar links inversos       | Toggle | Ativa ou desativa [[Backlinks]] no seu site.                                                                                                            |
+| Mostrar links inversos       | Toggle | Ativa ou desativa [[Links inversos]] no seu site.                                                                                                            |
 
 ### Outras configurações do site
 

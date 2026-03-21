@@ -80,7 +80,7 @@ ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>]
 | `--vault` | ID o nome del caveau remoto (obbligatorio) |
 | `--path` | Directory locale (predefinito: directory corrente) |
 | `--password` | Password di crittografia E2E (richiesta se omessa) |
-| `--device-name` | Nome dispositivo mostrato nella [[Cronologia delle versioni\|cronologia delle versioni di Sync]] |
+| `--device-name` | Nome dispositivo mostrato nella [[Cronologia versioni\|cronologia delle versioni di Sync]] |
 | `--config-dir` | Nome della [[Cartella di configurazione\|directory di configurazione]] (predefinito: `.obsidian`) |
 
 ### `ob sync`
@@ -98,7 +98,7 @@ ob sync [--path <local-path>] [--continuous]
 
 ### `ob sync-config`
 
-Visualizza o modifica le [[Impostazioni di Sync e sincronizzazione selettiva|impostazioni di sincronizzazione]] per una cassaforte. Esegui senza opzioni per visualizzare la configurazione corrente.
+Visualizza o modifica le [[Impostazioni sincronizzazione e sincronizzazione selettiva|impostazioni di sincronizzazione]] per una cassaforte. Esegui senza opzioni per visualizzare la configurazione corrente.
 
 ```
 ob sync-config [--path <local-path>] [options]

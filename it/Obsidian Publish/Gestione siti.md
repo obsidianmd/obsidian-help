@@ -89,5 +89,5 @@ Un sito è una raccolta di note ospitata da Obsidian Publish e disponibile onlin
 
 | Opzione                                    | Tipo     | Descrizione                                                                                                            |
 | ------------------------------------------ | -------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Password                                   | Pulsante | [[Obsidian Publish/Security and privacy#Add a site password\|Imposta una password]] per limitare l'accesso all'intero sito. |
+| Password                                   | Pulsante | [[Obsidian Publish/Sicurezza e privacy#Add a site password\|Imposta una password]] per limitare l'accesso all'intero sito. |
 | Codice di monitoraggio Google Analytics    | Input    | **Solo per URL con dominio personalizzato**. Inserisci qui il codice di monitoraggio Google Analytics del tuo sito.    |

@@ -27,4 +27,4 @@ Per impostazione predefinita, le nuove note univoche sono vuote. Per utilizzare 
 - Nella barra laterale, fai clic su **Plugin principali → Note univoche**.
 - In **Posizione file modello**, inserisci il file che desideri utilizzare come modello.
 
-Per ulteriori informazioni su come scrivere modelli, consulta [[Plugins/Templates|Modelli]].
+Per ulteriori informazioni su come scrivere modelli, consulta [[Modelli|Modelli]].

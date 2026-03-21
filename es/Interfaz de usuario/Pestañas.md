@@ -111,7 +111,7 @@ Las _vistas enlazadas_ son pestañas que hacen referencia a otra pestaña difere
 Para pestañas de notas, puedes usar los siguientes complementos como vistas enlazadas:
 
 - [[Vista de grafo|Vista de grafo]] (local)
-- [[Enlaces entrantes]]
+- [[Enlace de retorno]]
 - [[Esquema]]
 
 Para abrir una vista enlazada de una pestaña de nota:

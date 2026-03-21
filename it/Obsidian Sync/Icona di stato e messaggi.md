@@ -53,7 +53,7 @@ Puoi filtrare il registro di Sync per **Tutti**, **Errori**, **Saltati** e **Uni
 Questi sono messaggi comuni che potresti incontrare quotidianamente.
 
 **Connecting to server**
-Obsidian sta tentando di connettersi al [[Obsidian Sync/Security and privacy#Dove posso trovare il mio server Sync attuale e dove è ospitato?|server Sync]] del tuo caveau remoto.
+Obsidian sta tentando di connettersi al [[Obsidian Sync/Sicurezza e privacy#Dove posso trovare il mio server Sync attuale e dove è ospitato?|server Sync]] del tuo caveau remoto.
 
 **Connected to server. Detecting changes...**
 Obsidian ha stabilito una connessione e sta confrontando la cassaforte locale con il caveau remoto per determinare se sono necessarie modifiche.

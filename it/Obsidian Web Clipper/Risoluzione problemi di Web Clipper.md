@@ -17,7 +17,7 @@ Per bypassare Defuddle in Web Clipper usa i seguenti metodi:
 
 - Seleziona il testo, o usa `Cmd/Ctrl+A` per selezionare tutto il testo.
 - [[Highlight web pages|Evidenzia i contenuti]] per scegliere esattamente cosa vuoi catturare.
-- Usa un [[Obsidian Web Clipper/Templates|modello personalizzato]] per il sito.
+- Usa un [[Modelli|modello personalizzato]] per il sito.
 
 ### Nessun contenuto appare in Obsidian
 

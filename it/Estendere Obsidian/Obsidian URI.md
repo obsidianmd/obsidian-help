@@ -100,7 +100,7 @@ L'azione `daily` accetta gli stessi parametri dell'azione `new`.
 
 ## Nota univoca
 
-L'azione `unique` crea una nuova nota univoca nella cassaforte. Il plugin [[en/Plugins/Unique note creator|Note univoche]] deve essere abilitato.
+L'azione `unique` crea una nuova nota univoca nella cassaforte. Il plugin [[Note univoche|Note univoche]] deve essere abilitato.
 
 ### Esempi
 

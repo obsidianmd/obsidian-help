@@ -36,12 +36,12 @@ Per aggiungere un frammento CSS su **Mobile/Tablet** ![[obsidian-icon-smartphone
 8. Tocca l'interruttore per abilitare il frammento.
 
 In alternativa, puoi
-- [[Sincronizzare le note tra dispositivi|Sincronizzare]] qualsiasi modifica con il tuo servizio di sincronizzazione.
+- [[Sincronizza le note tra dispositivi|Sincronizzare]] qualsiasi modifica con il tuo servizio di sincronizzazione.
 - Utilizzare un plugin della community per creare un frammento direttamente da Obsidian.
 
 Una volta abilitato, Obsidian rileverà automaticamente le modifiche ai frammenti CSS e le applicherà quando salvi il file.
 
-> [!tip] Non è necessario riavviare Obsidian perché le modifiche abbiano effetto. Tuttavia, potrebbe essere necessario utilizzare il comando della [[Tavolozza dei comandi]] per ricaricare Obsidian senza salvare per vedere le modifiche nel tema o nella nota corrente.
+> [!tip] Non è necessario riavviare Obsidian perché le modifiche abbiano effetto. Tuttavia, potrebbe essere necessario utilizzare il comando della [[Riquadro comandi]] per ricaricare Obsidian senza salvare per vedere le modifiche nel tema o nella nota corrente.
 
 ## Scrivere CSS per Obsidian
 
