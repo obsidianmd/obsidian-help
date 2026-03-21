@@ -1,32 +1,94 @@
 ---
-permalink: extending-obsidian/css-snippets
+permalink: snippets
+publish: true
+mobile: true
+description: تعرّف على كيفية تغيير أجزاء من مظهر تطبيق Obsidian دون إنشاء سمة كاملة.
+aliases:
+  - extending-obsidian/css-snippets
+  - CSS snippets
 ---
+تعلم كيفية تعديل جوانب مظهر تطبيق Obsidian دون الحاجة إلى [إنشاء سمة](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 
-تعلم كيفية تعديل ملامح مظهر Obsidian بدون الحاجة إلى [بناء سمة](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
+> [!tip] إذا كنت تبحث عن إرشادات حول التعامل مع CSS لـ [[مقدمة عن Obsidian Publish|Obsidian Publish]]، فتأكد من مراجعة [[تخصيص موقعك]].
 
-CSS هي لغة تصف كيفية عرض مستند HTML.من خلال إضافة مقتطفات CSS، يمكنك إعادة تعريف أجزاء من واجهة مستخدم Obsidian، مثل حجم ولون العناوين. يتضمن Obsidian [متغيرات CSS](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) يمكنك استخدامها لتخصيص أجزاء من واجهة المستخدم بسهولة.
+CSS هي لغة تتحكم في مظهر HTML. بإضافة مقتطفات CSS، يمكنك تغيير أجزاء من واجهة مستخدم Obsidian، مثل حجم ولون العناوين. يحتوي Obsidian على [متغيرات CSS](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) تساعدك على تخصيص الواجهة بسهولة.
 
-يبحث Obsidian عن مقتطفات CSS داخل مجلد تكوين القبو.
+يبحث Obsidian عن مقتطفات CSS داخل [[مجلد الإعدادات]] الخاص بالخزنة.
 
-لإضافة مقتطف CSS، اتبع هذه الخطوات:
+## إضافة مقتطف
 
-1. افتح **Settings**.
-2. ضمن **Appearance → CSS snippets**، حدد **Open snippets folder** (أيقونة المجلد).
-3. في مجلد المقتطفات، أنشئ ملف CSS يحتوي على المقتطفات.
-4. في Obsidian، ضمن **Appearance → CSS snippets**، حدد **Reload snippets** (أيقونة التحديث) لرؤية المقتطف في القائمة.
+لإضافة مقتطف CSS على **سطح المكتب** ![[lucide-monitor-check.svg#icon]]، اتبع الخطوات التالية:
 
-يكتشف Obsidian التغييرات في مقتطفات CSS تلقائيًا ويطبقها عند حفظ مقتطف. لا يلزم إعادة تشغيل Obsidian لتطبيق التغييرات.
+1. افتح **[[الإعدادات]]** ( ![[lucide-settings.svg#icon]] ).
+2. ضمن **المظهر ← مقتطفات CSS**، اختر **فتح مجلد المقتطفات** ( ![[lucide-folder-open.svg#icon]] ).
+3. في مجلد المقتطفات، أنشئ ملف CSS يحتوي على المقتطف الخاص بك.
+4. في Obsidian، ضمن **المظهر ← مقتطفات CSS**، اختر **إعادة تحميل المقتطفات** ( ![[lucide-refresh-cw.svg#icon]] ) لرؤية المقتطف في القائمة.
+5. قم بتمكين المقتطف بالنقر على زر التبديل.
 
-> [!تلميح] مثال: تغيير لون نص
-> على سبيل المثال، أنشئ ملفًا يُسمى `snippet.css` بالمحتوى التالي لتغيير لون النص إلى الأحمر:
+لإضافة مقتطف CSS على **الهاتف المحمول/الجهاز اللوحي** ![[obsidian-icon-smartphone.svg#icon]]، يمكنك اتباع الخطوات التالية:
+
+1. افتح مدير الملفات وابحث عن خزنتك. يمكنك التحقق من موقع الخزنة في _إدارة الخزنات…_ بالنقر على خزنتك والاطلاع على المسار.
+2. افتح [[مجلد الإعدادات]] وأنشئ مجلدًا باسم `snippets` إذا لم يكن موجودًا.
+3. أضف مقتطف CSS الخاص بك إلى هذا المجلد.
+4. افتح **[[الإعدادات]]** في Obsidian ( ![[lucide-settings.svg#icon]] ).
+5. اختر **المظهر** من الجانب.
+6. مرر لأسفل إلى قسم **مقتطفات CSS**.
+7. انقر على **إعادة تحميل المقتطفات** (![[lucide-refresh-cw.svg#icon]]) لتحديث القائمة.
+8. انقر على زر التبديل لتمكين المقتطف.
+
+بدلاً من ذلك، يمكنك
+- [[مزامنة ملاحظاتك عبر الأجهزة|مزامنة]] أي تغييرات باستخدام خدمة المزامنة الخاصة بك.
+- استخدام إضافة مجتمعية لإنشاء مقتطف من داخل Obsidian.
+
+بمجرد التمكين، سيكتشف Obsidian تلقائيًا التغييرات على مقتطفات CSS ويطبقها عند حفظ الملف.
+
+> [!tip] لا تحتاج إلى إعادة تشغيل Obsidian لتصبح التغييرات سارية المفعول. ومع ذلك، قد تحتاج إلى استخدام أمر [[لوحة الأوامر]] لإعادة تحميل Obsidian بدون حفظ لرؤية التغييرات في السمة أو الملاحظة الحالية.
+
+## كتابة CSS لـ Obsidian
+
+يقدم Obsidian عدة طرق تجعل كتابة CSS أسهل وأكثر قوة.
+
+يحتوي على مجموعة من [متغيرات CSS](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) لتعديل أجزاء من Obsidian بسهولة و[[الخصائص#أنواع الخصائص|نوع خاصية]] مدمج لتغيير مظهر ملاحظة واحدة أو عدة ملاحظات.
+
+> [!example] المتغيرات
+> أنشئ ملفًا باسم `headers.css` بالمحتوى التالي لتغيير ألوان [[صيغة التنسيق الأساسي#العناوين|مستويات العناوين]] الستة إلى ألوان قوس قزح:
 >
 > ```css
 > body {
-> 	--text-normal: red;
+>   --h1-color: red;
+>   --h2-color: orange;
+>   --h3-color: yellow;
+>   --h4-color: green;
+>   --h5-color: blue;
+>   --h6-color: pink;
 > }
 > ```
 
-## تعرف على المزيد
+> [!example] فئات CSS
+> عيّن اسم فئة CSS مخصصة (أو قائمة من فئات CSS) لـ [[الخصائص|خاصية]] محددة مسبقًا `cssclasses` لجعل ملاحظة واحدة أو أكثر تبدو مختلفة عن غيرها.
+> 
+> **CSS**:
+> ```css
+> .red-border img {
+>    border-color: #ff0000;
+> }
+> ```
+> 
+> **YAML/الخصائص**:
+> ```yaml
+> cssclasses:
+>  - red-border
+> ```
+> 
+> في كل ملاحظة تحتوي على القيمة `red-border` في خاصية `cssclasses`، يتم عرض الصور بإطار أحمر.
 
-- إذا كنت جديدًا على CSS، راجع [تعلّم تنسيق HTML باستخدام CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) من Mozilla.
-- إذا كنت ترغب في المزيد من النصائح حول تنسيق Obsidian، راجع [بناء السمات](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
+لضمان صحة ملف CSS وتنسيقه بشكل صحيح، ننصح بالتحقق منه باستخدام أداة مثل [خدمة التحقق من CSS](https://jigsaw.w3.org/css-validator/)، حيث أن CSS غير الصالح لن يعمل.
+
+## تعلم المزيد
+
+- إذا كنت جديدًا على CSS، تحقق من [تعلم تنسيق HTML باستخدام CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) من Mozilla.
+- لمزيد من المعلومات حول تنسيق Obsidian، راجع:
+  - [حول التنسيق](https://docs.obsidian.md/Reference/CSS+variables/About+styling)
+  - [إنشاء سمة](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
+  - [إنشاء سمة Publish](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme)
+  - [سير عمل فاحص CSS في Obsidian](https://forum.obsidian.md/t/obsidian-css-inspector-workflow/58178)

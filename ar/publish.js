@@ -2,6 +2,7 @@
 (function () {
   const LOCALES = [
     { code: 'en',    label: 'English',    base: 'https://obsidian.md/help' },
+    { code: 'ar',    label: 'العربية',   base: 'https://obsidian.md/ar/help' },
     { code: 'de',    label: 'Deutsch',    base: 'https://obsidian.md/de/help' },
     { code: 'es',    label: 'Español',    base: 'https://obsidian.md/es/help' },
     { code: 'fr',    label: 'Français',   base: 'https://obsidian.md/fr/help' },
@@ -142,7 +143,7 @@
     if (!el) return false;
     el.placeholder = 'ابحث عن صفحات أو عناوين...';
     el = document.querySelector('.site-footer a');
-    if (el) el.textContent = 'مدعوم بواسطة Obsidian Publish';
+    if (el) { el.textContent = 'مدعوم بواسطة Obsidian Publish'; el.href = 'https://obsidian.md/ar/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');
     if (el) el.textContent = 'رسم بياني تفاعلي';
     el = document.querySelector('.graph-expand');

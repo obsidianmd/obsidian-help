@@ -1,0 +1,17 @@
+---
+permalink: import/markdown
+aliases:
+  - استيراد ملفات Markdown
+  - Import Markdown files
+---
+
+يستخدم Obsidian ملفات التنسيق <code dir="ltr">.md</code> باعتبارها التنسيق الأساسي للملاحظات. وهذا يسهل استيراد ملفات تنسيق Markdown إلى Obsidian. تستطيع العديد من التطبيقات تحرير ملفات تنسيق Markdown أو تصديرها بهذا التنسيق.
+
+هناك عدة طرق لإضافة ملفات تنسيق Markdown إلى قبو Obsidian:
+
+1. قم بسحب وإسقاط الملفات أو المجلدات إلى نافذة [[مستكشف الملفات]].
+2. استخدم مستكشف ملفات النظام الخاص بك (مثل Windows Explorer أو Finder على macOS)، وانقل ملفاتك مباشرةً إلى مجلد قبو Obsidian.
+
+### التحويل من تنسيقات Markdown الأخرى
+
+Obsidian يستخدم [[Obsidian Flavored Markdown]]. تستخدم بعض التطبيقات تنسيق Markdown بصيغ قليلة مختلفة. يمكنك استخدام [[الإعدادات]] لتحويل ملفاتك إلى صيغ Markdown خاصة بـ Obsidian.

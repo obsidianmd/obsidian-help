@@ -1,0 +1,747 @@
+[file./]
+original=Home
+translation=الرئيسية
+
+[file.2fa]
+original=2-factor authentication
+translation=المصادقة الثنائية
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=صيغة التنسيق المتقدم
+
+[file.aliases]
+original=Aliases
+translation=أسماء مستعارة
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian لنظام Android
+
+[file.appearance]
+original=Appearance
+translation=المظهر
+
+[file.attachments]
+original=Attachments
+translation=المرفقات
+
+[file.backup]
+original=Back up your Obsidian files
+translation=النسخ الاحتياطي لملفات Obsidian
+
+[file.bases]
+original=Introduction to Bases
+translation=مقدمة إلى قواعد البيانات
+
+[file.bases/create-base]
+original=Create a base
+translation=إنشاء قاعدة بيانات
+
+[file.bases/functions]
+original=Functions
+translation=الدوال
+
+[file.bases/syntax]
+original=Bases syntax
+translation=صيغة قواعد البيانات
+
+[file.bases/views]
+original=Views
+translation=العروض
+
+[file.bases/views/cards]
+original=Cards view
+translation=عرض البطاقات
+
+[file.bases/views/list]
+original=List view
+translation=عرض القائمة
+
+[file.bases/views/map]
+original=Map view
+translation=عرض الخريطة
+
+[file.bases/views/table]
+original=Table view
+translation=عرض الجدول
+
+[file.callouts]
+original=Callouts
+translation=القصاصات
+
+[file.catalyst]
+original=Catalyst license
+translation=ترخيص Catalyst
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=قواعد سلوك المجتمع
+
+[file.community-plugins]
+original=Community plugins
+translation=إضافات المجتمع
+
+[file.configuration-folder]
+original=Configuration folder
+translation=مجلد الإعدادات
+
+[file.create-note]
+original=Create your first note
+translation=أنشئ ملاحظتك الأولى
+
+[file.credit]
+original=Obsidian Credit
+translation=رصيد Obsidian
+
+[file.credits]
+original=Credits
+translation=شكر وتقدير
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=كيف يخزن Obsidian البيانات
+
+[file.developers]
+original=Developers
+translation=المطورون
+
+[file.discounts]
+original=Education and non-profit discount
+translation=خصم التعليم والمنظمات غير الربحية
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=السحب والإفلات
+
+[file.early-access]
+original=Early access versions
+translation=إصدارات الوصول المبكر
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=العروض ووضع التحرير
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=اختصارات التحرير
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=تضمين صفحات الويب
+
+[file.embeds]
+original=Embed files
+translation=تضمين الملفات
+
+[file.file-formats]
+original=Accepted file formats
+translation=تنسيقات الملفات المقبولة
+
+[file.financial-contributions]
+original=Financial contributions
+translation=المساهمات المالية
+
+[file.folding]
+original=Folding
+translation=الطي
+
+[file.formulas]
+original=Formulas
+translation=المعادلات
+
+[file.glossary]
+original=Glossary
+translation=المصطلحات
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=اختصارات لوحة المفاتيح
+
+[file.html]
+original=HTML content
+translation=محتوى HTML
+
+[file.import]
+original=Import notes
+translation=استيراد الملاحظات
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=استيراد من Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=استيراد من  Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=استيراد من  Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=استيراد من Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=استيراد ملفات CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=استيراد من  Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=استيراد من Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=استيراد ملفات HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=استيراد ملفات Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=استيراد من Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=استيراد من Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=استيراد من Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=استيراد ملفات Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=استيراد ملاحظات Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=تنزيل وتثبيت Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian لنظام iOS و iPadOS
+
+[file.language]
+original=Language settings
+translation=إعدادات اللغة
+
+[file.link-notes]
+original=Link notes
+translation=ربط الملاحظات
+
+[file.links]
+original=Internal links
+translation=روابط داخلية
+
+[file.manage-notes]
+original=Manage notes
+translation=إدارة الملاحظات
+
+[file.manage-vaults]
+original=Manage vaults
+translation=إدارة الخزنات
+
+[file.mobile]
+original=Mobile app
+translation=تطبيق الهاتف
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=المؤشرات المتعددة
+
+[file.obsidian]
+original=About Obsidian
+translation=Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=الموقع الرسمي
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=مقدمة عن التراخيص والدفع
+
+[file.plugin-security]
+original=Plugin security
+translation=أمان الإضافات
+
+[file.plugins]
+original=Core plugins
+translation=الإضافات الأساسية
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=مسجل الصوت
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=الروابط الخلفية
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=الإشارات المرجعية
+
+[file.plugins/canvas]
+original=Canvas
+translation=اللوحة
+
+[file.plugins/command-palette]
+original=Command palette
+translation=لوحة الأوامر
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=الملاحظات اليومية
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=مستكشف الملفات
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=استرداد الملف
+
+[file.plugins/format-converter]
+original=Format converter
+translation=محول التنسيقات
+
+[file.plugins/graph]
+original=Graph view
+translation=العرض البياني
+
+[file.plugins/importer]
+original=Importer
+translation=المستورد
+
+[file.plugins/note-composer]
+original=Note composer
+translation=ملحن الملاحظات
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=الروابط الصادرة
+
+[file.plugins/outline]
+original=Outline
+translation=المخطط
+
+[file.plugins/page-preview]
+original=Page preview
+translation=معاينة الصفحة
+
+[file.plugins/properties]
+original=Properties view
+translation=عرض الخصائص
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=المبدل السريع
+
+[file.plugins/random-note]
+original=Random note
+translation=ملاحظة عشوائية
+
+[file.plugins/search]
+original=Search
+translation=البحث
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=أوامر الشرطة المائلة
+
+[file.plugins/slides]
+original=Slides
+translation=الشرائح
+
+[file.plugins/tags]
+original=Tags view
+translation=الوسوم
+
+[file.plugins/templates]
+original=Templates
+translation=القوالب
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=مُنشئ الملاحظات الفريدة
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=عارض الويب
+
+[file.plugins/word-count]
+original=Word count
+translation=عداد الكلمات
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=مساحات العمل
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=النوافذ المنبثقة
+
+[file.properties]
+original=Properties
+translation=الخصائص
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=مقدمة عن Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=التحليلات
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=التعاون على موقع Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=تخصيص موقعك
+
+[file.publish/domains]
+original=Custom domains
+translation=نطاقات مخصصة
+
+[file.publish/limitations]
+original=Publish limitations
+translation=قيود Publish
+
+[file.publish/media]
+original=Media files
+translation=ملفات الوسائط
+
+[file.publish/permalinks]
+original=Permalinks
+translation=الروابط الدائمة
+
+[file.publish/publish]
+original=Publish your content
+translation=نشر المحتوى الخاص بك
+
+[file.publish/security]
+original=Security and privacy
+translation=الأمان والخصوصية
+
+[file.publish/seo]
+original=SEO
+translation=تحسين محركات البحث
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=إعداد Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=إدارة المواقع
+
+[file.publish/social-share]
+original=Social media link previews
+translation=معاينات روابط وسائل التواصل الاجتماعي
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=استكشاف أخطاء Obsidian Publish وإصلاحها
+
+[file.refunds]
+original=Refund policy
+translation=سياسة الاسترداد
+
+[file.resources]
+original=Help and support
+translation=المساعدة والدعم
+
+[file.ribbon]
+original=Ribbon
+translation=شريط
+
+[file.sales-tax]
+original=Sales tax
+translation=ضريبة المبيعات
+
+[file.sandbox]
+original=Sandbox vault
+translation=خزنة تجريبية
+
+[file.settings]
+original=Settings
+translation=الإعدادات
+
+[file.sidebar]
+original=Sidebar
+translation=الشريط الجانبي
+
+[file.snippets]
+original=CSS snippets
+translation=مقتطفات CSS
+
+[file.status-bar]
+original=Status bar
+translation=شريط الحالة
+
+[file.style-guide]
+original=Style guide
+translation=دليل النمط
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=الروابط الرمزية والتقاطعات
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=مقدمة عن Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=مزامنة ملاحظاتك عبر الأجهزة
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=التعاون على خزنة مشتركة
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=الأسئلة الشائعة
+
+[file.sync/headless]
+original=Headless Sync
+translation=Sync بدون واجهة
+
+[file.sync/messages]
+original=Status icon and messages
+translation=أيقونة الحالة والرسائل
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=ترقية تشفير Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=الخطط وحدود التخزين
+
+[file.sync/region]
+original=Sync regions
+translation=مناطق Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=الأمان والخصوصية
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=إعدادات المزامنة والمزامنة الانتقائية
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=إعداد Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=التحول إلى Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=استكشاف أخطاء Obsidian Sync وإصلاحها
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=الخزائن المحلية والبعيدة
+
+[file.sync/version-history]
+original=Version history
+translation=سجل الإصدارات
+
+[file.syntax]
+original=Basic formatting syntax
+translation=صيغة التنسيق الأساسي
+
+[file.tabs]
+original=Tabs
+translation=علامات التبويب
+
+[file.tags]
+original=Tags
+translation=الوسوم
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian للفِرق
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=نشر Obsidian عبر فريقك
+
+[file.teams/license]
+original=Commercial license
+translation=الترخيص التجاري
+
+[file.teams/publish]
+original=Publishing for teams
+translation=النشر للفِرق
+
+[file.teams/security]
+original=Security considerations for teams
+translation=اعتبارات الأمان للفِرق
+
+[file.teams/sync]
+original=Syncing for teams
+translation=المزامنة للفِرق
+
+[file.themes]
+original=Themes
+translation=السمات
+
+[file.translations]
+original=Translations
+translation=الترجمات
+
+[file.updates]
+original=Update Obsidian
+translation=تحديث Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=أنشئ خزنة
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=مقدمة عن قاصّ أوبسيديان للويب
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=قص صفحات الويب
+
+[file.web-clipper/filters]
+original=Filters
+translation=تصفية
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=تظليل صفحات الويب
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=تفسير صفحات الويب
+
+[file.web-clipper/logic]
+original=Logic
+translation=المنطق
+
+[file.web-clipper/reader]
+original=Reader
+translation=القارئ
+
+[file.web-clipper/templates]
+original=Templates
+translation=القوالب
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=استكشاف أخطاء قاصّ الويب وإصلاحها
+
+[file.web-clipper/variables]
+original=Variables
+translation=المتغيرات
+
+[file.workspace]
+original=Workspace
+translation=مساحة العمل
+
+[folder.audio]
+original=audio
+translation=صوت
+
+[folder.Changelog]
+original=Changelog
+translation=سجل التغييرات
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=المساهمة في Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=التحرير والتنسيق
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=توسيع Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=الملفات والمجلدات
+
+[folder.Getting started]
+original=Getting started
+translation=بدء الاستخدام
+
+[folder.icons]
+original=icons
+translation=أيقونات
+
+[folder.Import notes]
+original=Import notes
+translation=المكوّنات الإضافية
+
+[folder.Layouts]
+original=Layouts
+translation=التخطيطات
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=التراخيص والدفع
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=ربط الملاحظات والملفات
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=المكوّنات الإضافية
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=واجهة المستخدم
+
+[folder.video]
+original=video
+translation=فيديو
