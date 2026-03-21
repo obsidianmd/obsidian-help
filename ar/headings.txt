@@ -1,0 +1,235 @@
+[file-formats]
+Embed files=تضمين الملفات
+
+[sync/collaborate]
+Manage users=إدارة المستخدمين
+Add users=إضافة مستخدمين
+Remove users=إزالة المستخدمين
+Collaborate with your team=التعاون مع فريقك
+Permissions=الأذونات
+Live editing=التحرير المباشر
+Limitations=القيود
+
+[sync/faq]
+General=عام
+What operating systems does Obsidian Sync support?=ما أنظمة التشغيل التي يدعمها Obsidian Sync؟
+Does Obsidian work with Apple's Lockdown Mode?=هل يعمل Obsidian مع وضع القفل (Lockdown Mode) من Apple؟
+What type of data is synced?=ما نوع البيانات التي تتم مزامنتها؟
+How much storage do I have?=ما مقدار مساحة التخزين المتاحة لي؟
+How many remote vaults can I have?=كم عدد الخزنات البعيدة التي يمكنني امتلاكها؟
+How large can each remote vault be?=ما الحجم الأقصى لكل خزنة بعيدة؟
+How many people can I share a remote vault with?=كم عدد الأشخاص الذين يمكنني مشاركة خزنة بعيدة معهم؟
+How large can each file be?=ما الحجم الأقصى لكل ملف؟
+Is my data being synced in the background?=هل تتم مزامنة بياناتي في الخلفية؟
+Does Obsidian Sync live-reload my settings?=هل يقوم Obsidian Sync بإعادة تحميل إعداداتي تلقائيًا؟
+Can I use a third-party sync with Obsidian Sync?=هل يمكنني استخدام مزامنة طرف ثالث مع Obsidian Sync؟
+Data retention=الاحتفاظ بالبيانات
+How long do you keep the version history?=ما مدة الاحتفاظ بسجل الإصدارات؟
+How long do you keep my data after my subscription expires?=ما مدة الاحتفاظ ببياناتي بعد انتهاء اشتراكي؟
+Do you keep my data if I refund my subscription service?=هل تحتفظون ببياناتي إذا استرددت قيمة اشتراكي؟
+
+[sync/headless]
+Quick start=البدء السريع
+Commands=الأوامر
+Native modules=الوحدات الأصلية
+
+[sync]
+How to use Obsidian Sync=كيفية استخدام Obsidian Sync
+Important=هام
+
+[sync/vault-types]
+File-based sync services=خدمات المزامنة القائمة على الملفات
+Sync behavior=سلوك المزامنة
+Offline behavior=السلوك في وضع عدم الاتصال
+Next steps=الخطوات التالية
+
+[sync/plans]
+Plans=الخطط
+Storage limits=حدود التخزين
+Identify and delete large files=تحديد الملفات الكبيرة وحذفها
+Create a new remote vault=إنشاء خزنة بعيدة جديدة
+Upgrade your plan=ترقية خطتك
+Downgrade your plan=تخفيض خطتك
+Preserve version history=الحفاظ على سجل الإصدارات
+
+[sync/security]
+Encryption=التشفير
+What does end-to-end encryption mean?=ماذا يعني التشفير من طرف إلى طرف؟
+What are the risks of using standard encryption?=ما هي مخاطر استخدام التعمية العادية؟
+What encryption do you use?=ما التشفير الذي تستخدمونه؟
+Can I verify that my data is end-to-end encrypted?=هل يمكنني التحقق من أن بياناتي مشفرة من طرف إلى طرف؟
+Has Obsidian completed a third-party security audit?=هل أجرى Obsidian تدقيقًا أمنيًا من طرف ثالث؟
+What happens if I forget my encryption password?=ماذا يحدث إذا نسيت كلمة مرور التشفير الخاصة بي؟
+Hosting=الاستضافة
+Where do you host the servers for Obsidian Sync?=أين تستضيفون خوادم Obsidian Sync؟
+Where can I find my current Sync server and where is it hosted?=أين يمكنني العثور على خادم المزامنة الحالي وأين تتم استضافته؟
+Network and access=الشبكة والوصول
+Managing access to Obsidian Sync on your network=إدارة الوصول إلى Obsidian Sync على شبكتك
+Limitations=القيود
+Deterministic file-hash encryption=تشفير تجزئة الملفات بشكل حتمي
+No cryptographic binding between path and content=عدم وجود ربط تشفيري بين المسار والمحتوى
+
+[sync/setup]
+Set up Obsidian Sync for the first time=إعداد Obsidian Sync لأول مرة
+Log in with your Obsidian account=تسجيل الدخول بحساب Obsidian الخاص بك
+Enable Obsidian Sync=تمكين Obsidian Sync
+Create a new remote vault=إنشاء خزنة بعيدة جديدة
+Connect to a remote vault=الاتصال بخزنة بعيدة
+Adjust Obsidian Sync settings=ضبط إعدادات Obsidian Sync
+Begin syncing with Obsidian Sync=بدء المزامنة مع Obsidian Sync
+Sync a remote vault on another device=مزامنة خزنة بعيدة على جهاز آخر
+Sync your vault from the vault switcher=مزامنة خزنتك من مبدّل الخزنات
+Sync your vault from Obsidian Settings=مزامنة خزنتك من إعدادات Obsidian
+Manage your remote vaults=إدارة الخزنات البعيدة
+Disconnect from a remote vault=قطع الاتصال بخزنة بعيدة
+Delete a remote vault=حذف خزنة بعيدة
+Regional sync servers=خوادم المزامنة الإقليمية
+Next steps=الخطوات التالية
+
+[sync/messages]
+Sync status icon=أيقونة حالة المزامنة
+Sync activity log=سجل نشاط المزامنة
+General messages=الرسائل العامة
+Error messages=رسائل الأخطاء
+Skipped messages=الرسائل المتخطاة
+Account messages=رسائل الحساب
+Network messages=رسائل الشبكة
+
+[sync/switch]
+Move your vault out of your third-party syncing service or cloud storage=انقل خزنتك خارج خدمة مزامنة طرف ثالث أو التخزين السحابي
+Move your vault using Obsidian on desktop=انقل خزنتك باستخدام Obsidian على سطح المكتب
+Move your vault on mobile=انقل خزنتك على الهاتف المحمول
+iOS and iPadOS=iOS وiPadOS
+Next steps=الخطوات التالية
+
+[sync/region]
+Available regions=المناطق المتاحة
+Change Sync region=تغيير منطقة المزامنة
+
+[sync/settings]
+Sync settings=إعدادات المزامنة
+Conflict resolution=حل التعارضات
+Selective syncing=المزامنة الانتقائية
+Change the file types you want to sync=تغيير أنواع الملفات التي تريد مزامنتها
+Exclude a folder from syncing=استثناء مجلد من المزامنة
+Always excluded from sync=المستثنى دائمًا من المزامنة
+File recovery snapshots=لقطات استعادة الملفات
+Hidden files and folders=الملفات والمجلدات المخفية
+Updating your synced vault settings=تحديث إعدادات الخزنة المُزامنة
+Primary device=الجهاز الرئيسي
+Secondary device(s)=الجهاز (الأجهزة) الثانوي
+Reloading of settings=إعادة تحميل الإعدادات
+Settings profiles=ملفات تعريف الإعدادات
+Create a settings profile=إنشاء ملف تعريف إعدادات
+
+[sync/troubleshoot]
+General=عام
+Conflict resolution=حل التعارضات
+How Obsidian Sync handles conflicts=كيف يتعامل Obsidian Sync مع التعارضات
+Conflict resolution options=خيارات حل التعارضات
+Sync deleted a note I just created on two devices=حذفت المزامنة ملاحظة أنشأتها للتو على جهازين
+Sync will not sync my plugins and settings updates=لا تقوم المزامنة بمزامنة تحديثات الإضافات والإعدادات
+My files keep disappearing from Sync as soon as I restore it=تستمر ملفاتي في الاختفاء من المزامنة بمجرد استعادتها
+
+[sync/migrate]
+Encryption versions=إصدارات التشفير
+Upgrade encryption with the migration assistant=ترقية التشفير باستخدام مساعد الترحيل
+
+[sync/version-history]
+Sync history=سجل المزامنة
+Show Sync history=إظهار سجل المزامنة
+Enable via Command palette=التمكين عبر لوحة الأوامر
+Enable via Hotkey=التمكين عبر اختصار لوحة المفاتيح
+Version history=سجل الإصدارات
+Notes and attachments=الملاحظات والمرفقات
+View version history of a file=عرض سجل إصدارات ملف
+View version history of a deleted or renamed file=عرض سجل إصدارات ملف محذوف أو مُعاد تسميته
+Restore a previous version of a file=استعادة إصدار سابق من ملف
+Restore a deleted file=استعادة ملف محذوف
+Settings history=سجل الإعدادات
+View version history of a setting=عرض سجل إصدارات إعداد
+Restore a previous version of a setting=استعادة إصدار سابق من إعداد
+
+[web-clipper/capture]
+Capture a page=التقاط صفحة
+Download images=تنزيل الصور
+Hotkeys=اختصارات لوحة المفاتيح
+Interface functionality=وظائف الواجهة
+
+[web-clipper/filters]
+Dates=التواريخ
+Text conversion and capitalization=تحويل النصوص والأحرف الكبيرة
+Text formatting=تنسيق النصوص
+Numbers=الأرقام
+HTML processing=معالجة HTML
+Arrays and objects=المصفوفات والكائنات
+
+[web-clipper/highlight]
+Turn on highlighter=تشغيل المظلل
+Highlighter settings=إعدادات المظلل
+
+[web-clipper/interpreter]
+Examples of prompts=أمثلة على الأوامر النصية
+Get started=البدء
+How it works=كيف يعمل
+Context=السياق
+Models=النماذج
+Preset providers=المزودون المعدّون مسبقًا
+Choosing a model=اختيار نموذج
+Custom providers and models=المزودون والنماذج المخصصة
+Local models=النماذج المحلية
+
+[web-clipper]
+Install Web Clipper=تثبيت قاصّ الويب
+How to use Web Clipper=كيفية استخدام قاصّ الويب
+Privacy=الخصوصية
+
+[web-clipper/logic]
+Conditionals=الشروط
+Comparison operators=عوامل المقارنة
+Logical operators=العوامل المنطقية
+Truthiness=القيم الصدقية
+Assign a variable=تعيين متغير
+Fallbacks=القيم البديلة
+Chaining fallbacks=ربط القيم البديلة
+With filters=مع المرشحات
+Loops=الحلقات
+Loop sources=مصادر الحلقات
+Loop variables=متغيرات الحلقة
+Accessing array items by index=الوصول إلى عناصر المصفوفة بالفهرس
+Nested loops=الحلقات المتداخلة
+Combine logic=دمج المنطق
+Evaluation order=ترتيب التقييم
+
+[web-clipper/reader]
+Activate reading mode=تفعيل وضع القراءة
+How it works=كيف يعمل
+Customize the reading view=تخصيص عرض القراءة
+
+[web-clipper/templates]
+Create or edit a template=إنشاء قالب أو تحريره
+Import and export Web Clipper templates=استيراد وتصدير قوالب قاصّ أوبسيديان للويب
+Template settings=إعدادات القالب
+Behavior=السلوك
+Automatically trigger a template=تشغيل قالب تلقائيًا
+Simple URL matching=المطابقة البسيطة لعنوان URL
+Regular expression matching=المطابقة بالتعبير النمطي
+Schema.org matching=مطابقة Schema.org
+Interpreter context=سياق المفسر
+
+[web-clipper/troubleshoot]
+General=عام
+Some content is missing=بعض المحتوى مفقود
+No content appears in Obsidian=لا يظهر أي محتوى في Obsidian
+Obsidian does not open=لا يُفتح Obsidian
+Obsidian opens but only the file name is saved=يُفتح Obsidian لكن يتم حفظ اسم الملف فقط
+iOS and iPadOS=iOS و iPadOS
+
+[web-clipper/variables]
+Preset variables=متغيرات الإعداد المسبق
+Prompt variables=متغيرات الطلب
+When to use prompt variables=متى تستخدم متغيرات الطلب
+Examples=أمثلة
+Meta variables=متغيرات Meta
+Selector variables=متغيرات المحدد
+Schema.org variables=متغيرات Schema.org
