@@ -6,7 +6,7 @@
     if (!el) return false;
     el.placeholder = 'ابحث عن صفحات أو عناوين...';
     el = document.querySelector('.site-footer a');
-    if (el) el.textContent = 'مدعوم بواسطة Obsidian Publish';
+    if (el) { el.textContent = 'مدعوم بواسطة Obsidian Publish'; el.href = 'https://obsidian.md/ar/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');
     if (el) el.textContent = 'رسم بياني تفاعلي';
     el = document.querySelector('.graph-expand');
