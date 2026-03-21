@@ -1,0 +1,747 @@
+[file./]
+original=Home
+translation=홈
+
+[file.2fa]
+original=2-factor authentication
+translation=2단계 인증
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=고급 서식 구문
+
+[file.aliases]
+original=Aliases
+translation=별칭
+
+[file.android]
+original=Obsidian for Android
+translation=Android용 Obsidian
+
+[file.appearance]
+original=Appearance
+translation=외형
+
+[file.attachments]
+original=Attachments
+translation=첨부 파일
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Obsidian 파일 백업
+
+[file.bases]
+original=Introduction to Bases
+translation=베이스 소개
+
+[file.bases/create-base]
+original=Create a base
+translation=베이스 생성
+
+[file.bases/functions]
+original=Functions
+translation=함수
+
+[file.bases/syntax]
+original=Bases syntax
+translation=베이스 구문
+
+[file.bases/views]
+original=Views
+translation=보기
+
+[file.bases/views/cards]
+original=Cards view
+translation=카드 뷰
+
+[file.bases/views/list]
+original=List view
+translation=목록 뷰
+
+[file.bases/views/map]
+original=Map view
+translation=지도 뷰
+
+[file.bases/views/table]
+original=Table view
+translation=표 뷰
+
+[file.callouts]
+original=Callouts
+translation=콜아웃
+
+[file.catalyst]
+original=Catalyst license
+translation=Catalyst 라이선스
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=커뮤니티 행동 강령
+
+[file.community-plugins]
+original=Community plugins
+translation=커뮤니티 플러그인
+
+[file.configuration-folder]
+original=Configuration folder
+translation=설정 폴더
+
+[file.create-note]
+original=Create your first note
+translation=첫 번째 노트 만들기
+
+[file.credit]
+original=Obsidian Credit
+translation=Obsidian 크레딧
+
+[file.credits]
+original=Credits
+translation=크레딧
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Obsidian의 데이터 저장 방식
+
+[file.developers]
+original=Developers
+translation=개발자
+
+[file.discounts]
+original=Education and non-profit discount
+translation=교육 및 비영리 할인
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=드래그 앤 드롭
+
+[file.early-access]
+original=Early access versions
+translation=얼리 액세스 버전
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=뷰와 편집 모드
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=편집 단축키
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=웹 페이지 삽입
+
+[file.embeds]
+original=Embed files
+translation=파일 임베드
+
+[file.file-formats]
+original=Accepted file formats
+translation=지원 파일 형식
+
+[file.financial-contributions]
+original=Financial contributions
+translation=재정 기여
+
+[file.folding]
+original=Folding
+translation=접기
+
+[file.formulas]
+original=Formulas
+translation=수식
+
+[file.glossary]
+original=Glossary
+translation=용어집
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=단축키
+
+[file.html]
+original=HTML content
+translation=HTML 콘텐츠
+
+[file.import]
+original=Import notes
+translation=노트 들여오기
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Apple Journal에서 들여오기
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Apple Notes에서 들여오기
+
+[file.import/bear]
+original=Import from Bear
+translation=Bear에서 들여오기
+
+[file.import/craft]
+original=Import from Craft
+translation=Craft에서 들여오기
+
+[file.import/csv]
+original=Import CSV files
+translation=CSV 파일 들여오기
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Evernote에서 들여오기
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Google Keep에서 들여오기
+
+[file.import/html]
+original=Import HTML files
+translation=HTML 파일 들여오기
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Markdown 파일 들여오기
+
+[file.import/notion]
+original=Import from Notion
+translation=Notion에서 들여오기
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Microsoft OneNote에서 들여오기
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Roam Research에서 들여오기
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Textbundle 파일 들여오기
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Zettelkasten 노트 들여오기
+
+[file.install]
+original=Download and install Obsidian
+translation=Obsidian 다운로드 및 설치
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=iOS 및 iPadOS용 Obsidian
+
+[file.language]
+original=Language settings
+translation=언어 설정
+
+[file.link-notes]
+original=Link notes
+translation=노트 연결하기
+
+[file.links]
+original=Internal links
+translation=내부 링크
+
+[file.manage-notes]
+original=Manage notes
+translation=노트 관리
+
+[file.manage-vaults]
+original=Manage vaults
+translation=보관함 관리
+
+[file.mobile]
+original=Mobile app
+translation=모바일 앱
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=다중 커서
+
+[file.obsidian]
+original=About Obsidian
+translation=Obsidian 소개
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian 스타일 Markdown
+
+[file.official-site]
+original=Official website
+translation=공식 웹사이트
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=라이선스 및 결제 소개
+
+[file.plugin-security]
+original=Plugin security
+translation=플러그인 보안
+
+[file.plugins]
+original=Core plugins
+translation=코어 플러그인
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=음성 녹음
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=백링크
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=북마크
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=명령어 팔레트
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=일일 노트
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=파일 탐색기
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=파일 복원
+
+[file.plugins/format-converter]
+original=Format converter
+translation=마크다운 형식 불러오기
+
+[file.plugins/graph]
+original=Graph view
+translation=그래프 뷰
+
+[file.plugins/importer]
+original=Importer
+translation=Importer
+
+[file.plugins/note-composer]
+original=Note composer
+translation=노트 작성기
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=나가는 링크
+
+[file.plugins/outline]
+original=Outline
+translation=개요
+
+[file.plugins/page-preview]
+original=Page preview
+translation=페이지 미리보기
+
+[file.plugins/properties]
+original=Properties view
+translation=속성 화면
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=빠른 전환기
+
+[file.plugins/random-note]
+original=Random note
+translation=무작위 노트
+
+[file.plugins/search]
+original=Search
+translation=검색
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=슬래시 명령어
+
+[file.plugins/slides]
+original=Slides
+translation=슬라이드
+
+[file.plugins/tags]
+original=Tags view
+translation=태그 패널
+
+[file.plugins/templates]
+original=Templates
+translation=템플릿
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=고유 노트 생성
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=웹 뷰어
+
+[file.plugins/word-count]
+original=Word count
+translation=단어 개수
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=작업 공간
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=팝아웃 창
+
+[file.properties]
+original=Properties
+translation=속성
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Obsidian Publish 소개
+
+[file.publish/analytics]
+original=Analytics
+translation=분석
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Publish 사이트에서 협업
+
+[file.publish/customize]
+original=Customize your site
+translation=사이트 사용자 지정
+
+[file.publish/domains]
+original=Custom domains
+translation=사용자 지정 도메인
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Publish 제한 사항
+
+[file.publish/media]
+original=Media files
+translation=미디어 파일
+
+[file.publish/permalinks]
+original=Permalinks
+translation=고유 링크
+
+[file.publish/publish]
+original=Publish your content
+translation=콘텐츠 게재
+
+[file.publish/security]
+original=Security and privacy
+translation=보안 및 개인정보 보호
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Obsidian Publish 설정
+
+[file.publish/sites]
+original=Manage sites
+translation=사이트 관리
+
+[file.publish/social-share]
+original=Social media link previews
+translation=소셜 미디어 링크 미리보기
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Obsidian Publish 문제 해결
+
+[file.refunds]
+original=Refund policy
+translation=환불 정책
+
+[file.resources]
+original=Help and support
+translation=도움말 및 지원
+
+[file.ribbon]
+original=Ribbon
+translation=리본
+
+[file.sales-tax]
+original=Sales tax
+translation=판매세
+
+[file.sandbox]
+original=Sandbox vault
+translation=샌드박스 보관함
+
+[file.settings]
+original=Settings
+translation=설정
+
+[file.sidebar]
+original=Sidebar
+translation=사이드바
+
+[file.snippets]
+original=CSS snippets
+translation=CSS 스니펫
+
+[file.status-bar]
+original=Status bar
+translation=상태 표시줄
+
+[file.style-guide]
+original=Style guide
+translation=스타일 가이드
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=심볼릭 링크와 정션
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Obsidian Sync 소개
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=기기 간 노트 동기화
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=공유 보관함에서 협업하기
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=자주 묻는 질문
+
+[file.sync/headless]
+original=Headless Sync
+translation=헤드리스 Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=상태 아이콘 및 메시지
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=암호화 동기화 업그레이드
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=플랜 및 저장 용량 제한
+
+[file.sync/region]
+original=Sync regions
+translation=동기화 지역
+
+[file.sync/security]
+original=Security and privacy
+translation=보안 및 개인정보 보호
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=동기화 설정 및 선택적 동기화
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Obsidian Sync 설정하기
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Obsidian Sync로 전환하기
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Obsidian Sync 문제 해결
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=로컬 및 원격 보관함
+
+[file.sync/version-history]
+original=Version history
+translation=버전 기록
+
+[file.syntax]
+original=Basic formatting syntax
+translation=기본 서식 구문
+
+[file.tabs]
+original=Tabs
+translation=탭
+
+[file.tags]
+original=Tags
+translation=태그
+
+[file.teams]
+original=Obsidian for teams
+translation=팀을 위한 Obsidian
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=팀 전체에 Obsidian 배포
+
+[file.teams/license]
+original=Commercial license
+translation=상용 라이선스
+
+[file.teams/publish]
+original=Publishing for teams
+translation=팀을 위한 게재
+
+[file.teams/security]
+original=Security considerations for teams
+translation=팀을 위한 보안 고려 사항
+
+[file.teams/sync]
+original=Syncing for teams
+translation=팀을 위한 동기화
+
+[file.themes]
+original=Themes
+translation=테마
+
+[file.translations]
+original=Translations
+translation=번역
+
+[file.updates]
+original=Update Obsidian
+translation=Obsidian 업데이트
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=보관함 생성
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Obsidian Web Clipper 소개
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=웹 페이지 클리핑
+
+[file.web-clipper/filters]
+original=Filters
+translation=필터
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=웹 페이지 하이라이트
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=웹 페이지 해석
+
+[file.web-clipper/logic]
+original=Logic
+translation=로직
+
+[file.web-clipper/reader]
+original=Reader
+translation=리더
+
+[file.web-clipper/templates]
+original=Templates
+translation=템플릿
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Web Clipper 문제 해결
+
+[file.web-clipper/variables]
+original=Variables
+translation=변수
+
+[file.workspace]
+original=Workspace
+translation=작업 공간
+
+[folder.audio]
+original=audio
+translation=오디오
+
+[folder.Changelog]
+original=Changelog
+translation=변경 내역
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Obsidian에 기여하기
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=편집 및 서식
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Obsidian 확장
+
+[folder.Files and folders]
+original=Files and folders
+translation=파일 및 폴더
+
+[folder.Getting started]
+original=Getting started
+translation=시작하기
+
+[folder.icons]
+original=icons
+translation=아이콘
+
+[folder.Import notes]
+original=Import notes
+translation=노트 들여오기
+
+[folder.Layouts]
+original=Layouts
+translation=레이아웃
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=라이선스 및 결제
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=노트 및 파일 링크
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Plugins
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=사용자 인터페이스
+
+[folder.video]
+original=video
+translation=비디오

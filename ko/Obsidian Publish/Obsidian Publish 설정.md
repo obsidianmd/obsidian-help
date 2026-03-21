@@ -1,43 +1,112 @@
-이 안내서에서는 보관소에 [[Obsidian Publish 소개|Obsidian Publish]]를 활성화하고, 사이트를 만들고, 노트를 출판하는 방법을 안내합니다.
+---
+permalink: publish/setup
+mobile: true
+description: 'In this guide, you''ll enable Obsidian Publish for your vault, create a site, and publish your notes to it.'
+---
 
-## Prerequisites
+이 가이드에서는 보관함에 [[Obsidian Publish 소개|Obsidian Publish]]를 활성화하고, 사이트를 생성하고, 노트를 게재하는 방법을 안내해요.
 
-- Obsidian 계정. 계정이 없는 경우, [지금 가입](https://obsidian.md/account#mode=signup)하세요.
-- 활성화된 Obsidian Publish 구독. 구독이 없는 경우, [계정 페이지](https://obsidian.md/account)에서 구독하세요.
+## 전제 조건
 
-## Step 1: Log in with your Obsidian account
+- Obsidian 계정. 계정이 없다면 [회원가입](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup)하세요.
+- 활성화된 Obsidian Publish 구독. 구독이 없다면 [계정 대시보드](https://obsidian.md/account/publish)에서 구독하세요.
 
-1. **설정**을 엽니다.
-2. 사이드바에서 **Obsidian 정보**를 클릭합니다.
-3. **계정 → 내 계정** 아래에서 **로그인**을 클릭합니다.
-4. **이메일**에 이메일 주소를 입력합니다.
-5. **비밀번호**에 비밀번호를 입력합니다.
-6. **로그인**을 클릭합니다.
+## Obsidian 계정으로 로그인
 
-## Step 2: Enable Obsidian Publish
+1. **[[설정]]**을 열어요.
+2. 사이드바에서 **일반**을 선택해요.
+3. **계정 → 내 계정**에서 **로그인**을 선택해요.
+4. **이메일**에 이메일을 입력해요.
+5. **비밀번호**에 비밀번호를 입력해요.
+6. **로그인**을 클릭해요.
 
-1. **설정**을 엽니다.
-2. 사이드바에서 **코어 플러그인**을 클릭합니다.
-3. **출판(Publish)**를 활성화합니다.
+## Obsidian Publish 활성화
 
-## Step 3: Create a new site
+1. **[[설정]]**을 열어요.
+2. 사이드바에서 **코어 플러그인**을 선택해요.
+3. **Publish**를 활성화해요.
 
-1. 응용 프로그램 창 왼쪽의 리본에서 **변경 사항 출판**(종이 비행기 아이콘)를 클릭합니다.
-2. **사이트 ID**에 원하는 사이트 경로를 입력합니다. 예를 들어, `my-amazing-site`라는 ID를 가진 사이트는 publish.obsidian.md/my-amazing-site에서 이용할 수 있습니다.
-3. **생성**를 클릭합니다.
+### Publish 열기
 
-## Step 4: Set a site name
+명령어 팔레트, 키보드 단축키 또는 리본을 통해 Publish에 접근할 수 있어요.
 
-1. **변경 사항 출판** 대화 상자에서 **사이트 옵션 변경**(톱니바퀴 아이콘)을 클릭합니다.
-2. **사이트 이름** 아래의 **일반**에서 사이트의 이름을 입력합니다.
-3. **사이트 설정 저장**을 클릭합니다.
+#### 명령어 팔레트로 열기
 
-## Step 5: Select notes to publish
+> [!info] 이 옵션을 사용하려면 [[명령어 팔레트]] 코어 플러그인이 활성화되어 있어야 해요.
 
-1. **변경 사항 출판** 대화 상자에서 **새로 만들기**(NEW)를 클릭하여 아직 출판하지 않은 모든 노트를 볼 수 있습니다.
-2. 출판할 노트를 선택합니다.
-3. **출판**를 클릭합니다.
+**데스크톱/태블릿** ![[lucide-monitor-check.svg#icon]]
 
-선택한 노트는 이제 귀하의 사이트에서 이용 가능합니다. 자세한 정보는 [[노트 게시 및 게시 취소|출판  및  출판 취소]]를 참조하십시오.
+1. **명령어 팔레트**를 열어요 ( ![[lucide-terminal.svg#icon]] ).
+2. "Publish"를 입력해요.
+3. **Publish: 변경사항 게재...** 옵션을 선택해요.
 
-Obsidian Publish 사이트를 구성하고 첫 번째 노트를 출판했습니다. 이 가이드에서 이전에 구성한 사이트 주소로 이동하여 독자와 공유를 시작하세요.
+**변경사항 게재** 창이 새 팝업으로 나타나요.
+
+**모바일** ![[obsidian-icon-smartphone.svg#icon]]
+
+1. [[리본]]을 열어요 ( ![[lucide-menu.svg#icon]] ).
+2. **명령어 팔레트**를 열어요 ( ![[lucide-terminal.svg#icon]] ).
+3. "Publish"를 입력해요.
+4. **Publish: 변경사항 게재...** 옵션을 선택해요.
+
+**변경사항 게재** 메뉴가 슬라이드업으로 나타나요.
+
+#### 키보드 단축키로 열기
+
+1. **[[설정]]**을 열어요.
+2. **옵션** 카테고리에서 **단축키**를 선택해요.
+3. 단축키 검색창에 "Publish"를 입력해요.
+4. **Publish: 변경사항 게재...** 옆에 원하는 키보드 단축키를 지정해요.
+5. **[[설정]]**을 닫아요.
+6. 키보드 단축키를 사용하여 **변경사항 게재**를 열어요.
+
+#### 리본으로 열기
+
+[[리본]]을 통해서도 Obsidian Publish에 접근할 수 있어요.
+
+**데스크톱/태블릿** ![[lucide-monitor-check.svg#icon]]
+
+1. 왼쪽 [[사이드바]]를 열어요 ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
+2. **변경사항 게재** ( ![[lucide-send.svg#icon]] ) 아이콘을 선택해요.
+
+**변경사항 게재** 창이 새 팝업으로 나타나요.
+
+**모바일** ![[obsidian-icon-smartphone.svg#icon]]
+
+1. [[리본]]을 열어요 ( ![[lucide-menu.svg#icon]] ).
+2. **변경사항 게재** ( ![[lucide-send.svg#icon]] ) 아이콘을 선택해요.
+
+**변경사항 게재** 메뉴가 슬라이드업으로 나타나요.
+
+## 새 사이트 생성
+
+1. [[#Publish 열기]]
+2. **사이트 ID**에 사이트에 사용할 경로를 입력해요. 예를 들어, ID가 `my-amazing-site`인 사이트는 `publish.obsidian.md/my-amazing-site`에서 접근할 수 있어요.
+3. **생성**을 선택해요.
+
+### 사이트 이름 설정
+
+1. [[#Publish 열기]]
+2. **사이트 옵션 변경** ( ![[lucide-cog.svg#icon]] )을 선택해요.
+3. **일반** 아래의 **사이트 이름**에 사이트 이름을 입력해요.
+4. **사이트 설정 저장**을 선택해요.
+
+> [!abstract] **추가 읽기**: [[사이트 관리]], [[사이트 사용자 지정]]
+
+## 게재할 노트 선택
+
+1. [[#Publish 열기]]
+2. **추가**를 선택하여 아직 게재하지 않은 모든 노트를 확인해요.
+3. 게재할 노트를 선택해요.
+4. **게재**를 선택해요.
+
+> [!abstract] **추가 읽기**: [[콘텐츠 게재]], [[보안 및 개인정보 보호|보안 및 개인정보 보호]], [[Publish 제한 사항|Publish 제한 사항]]
+
+Obsidian Publish 사이트를 설정하고 첫 번째 노트를 게재했어요. 이 가이드에서 이전에 설정한 사이트 주소로 이동하여 독자들과 공유해 보세요.
+
+## 다음 단계
+
+첫 번째 노트를 게재했으므로, 다음 작업을 진행할 수 있어요:
+- 사이트에 사용자 지정 도메인 설정하기: [[사용자 지정 도메인]]
+- 고급 사이트 사용자 지정에 대해 알아보기: [[사이트 사용자 지정]]
+- 소셜 미디어 카드 추가 방법 알아보기: [[소셜 미디어 링크 미리보기]]
