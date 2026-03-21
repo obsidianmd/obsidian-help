@@ -39,6 +39,6 @@ Before you proceed, create a [[Back up your Obsidian files|backup]] of your vaul
 3. Click **Upgrade vault**. This option will only be visible if an upgrade is available for your remote vault.
 4. Double check your backups and click **Continue**.
 5. In **Vault name**, enter the name of the remote vault.
-6. In **Region**, choose your server [[#Regional sync servers|region]] for your remote vault. 
+6. In **Region**, choose your server [[Set up Obsidian Sync#Regional sync servers|region]] for your remote vault. 
 7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
 8. Once you re-upload your data with the new encryption, re-connect to the new Sync vault on your other devices.

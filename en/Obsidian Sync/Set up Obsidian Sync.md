@@ -48,7 +48,7 @@ In this section, you'll create a new [[Local and remote vaults|remote vault]] an
 3. Next to **Remote vault**, select **Choose**.
 4. Select **Create new vault**.
 5. In **Vault name**, enter the name of the remote vault.
-6. In **Region**, choose your server [[#Regional sync servers|region]] for your remote vault. 
+6. In **Region**, choose your server [[Set up Obsidian Sync#Regional sync servers|region]] for your remote vault. 
 7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
 8. Select **Create**.
 
