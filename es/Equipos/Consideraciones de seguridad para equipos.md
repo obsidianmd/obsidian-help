@@ -3,7 +3,7 @@ permalink: teams/security
 cssclasses:
   - soft-embed
 ---
-Nuestra página de [Seguridad](https://obsidian.md/security) recopila información sobre cómo Obsidian aborda la protección de tus datos. También es el hogar de las auditorías de seguridad completadas por terceros.
+Nuestra página de [Seguridad](https://obsidian.md/es/security) recopila información sobre cómo Obsidian aborda la protección de tus datos. También es el hogar de las auditorías de seguridad completadas por terceros.
 
 ## Consideraciones
 
@@ -17,7 +17,7 @@ Por favor, revisa la página de [[Seguridad de complementos]] además de esta se
 
 El equipo de Obsidian revisa todos los complementos de la comunidad y temas enviados al directorio oficial, a través de nuestro [repositorio de lanzamientos](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). No revisamos elementos de la comunidad que no hayan sido enviados al directorio oficial.
 
-No tenemos una tienda comunitaria para [[Fragmentos CSS]]. Estos archivos se obtienen típicamente desde nuestra [Comunidad de Obsidian](https://obsidian.md/community) o desde repositorios públicos de GitHub.
+No tenemos una tienda comunitaria para [[Fragmentos CSS]]. Estos archivos se obtienen típicamente desde nuestra [Comunidad de Obsidian](https://obsidian.md/es/community) o desde repositorios públicos de GitHub.
 
 Requerimos el empaquetado de recursos en fragmentos CSS y temas. Sin embargo, hemos hecho una excepción para [Google Fonts](https://fonts.google.com/) para mantener el rendimiento en dispositivos móviles, donde el impacto del empaquetado de fuentes es más notorio.
 
@@ -71,4 +71,4 @@ Requerimos un monto mínimo de orden de compra cotizado antes de considerar comp
 Sin embargo, puedes eximir este monto de orden de compra cotizado aceptando pagar una tarifa de anticipo. Por favor, contacta al [[Ayuda y soporte#Contactar con el soporte de Obsidian|soporte de Obsidian]] para consultar sobre esta opción.
 
 **¿Tienen alguna certificación reconocida relacionada con la Seguridad de la Información o estándares de calidad, como ISO27001, NIST, COBIT, u otras certificaciones ISO o CSA?**
-No en este momento. Es algo que podríamos explorar en el futuro, pero por ahora, nuestro enfoque está en nuestras [auditorías de seguridad](https://obsidian.md/security).
+No en este momento. Es algo que podríamos explorar en el futuro, pero por ahora, nuestro enfoque está en nuestras [auditorías de seguridad](https://obsidian.md/es/security).

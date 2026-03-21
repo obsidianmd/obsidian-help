@@ -5,17 +5,17 @@ aliases:
 ---
 Obsidian es gratuito de usar y está 100% respaldado por los usuarios. Las organizaciones pueden elegir apoyar a Obsidian comprando licencias comerciales.
 
-Las organizaciones que apoyan a Obsidian pueden aparecer en nuestra [página Enterprise](https://obsidian.md/enterprise/) comprando 25 o más licencias.
+Las organizaciones que apoyan a Obsidian pueden aparecer en nuestra [página Enterprise](https://obsidian.md/es/enterprise/) comprando 25 o más licencias.
 
 Las licencias comerciales **no son** elegibles para reembolso según nuestra [[Política de reembolso]].
 
 ## Comprar una licencia comercial
 
-Obsidian ofrece dos métodos para [comprar](https://obsidian.md/pricing) una licencia comercial.
+Obsidian ofrece dos métodos para [comprar](https://obsidian.md/es/pricing) una licencia comercial.
 
 **Comprar usando una cuenta de Obsidian**
 
-1. Inicia sesión o crea [tu cuenta de Obsidian](https://obsidian.md/account/commercial).
+1. Inicia sesión o crea [tu cuenta de Obsidian](https://obsidian.md/es/account/commercial).
 2. Ve a la sección **Licencia**.
 3. Haz clic en **Comprar licencia** y selecciona el número de puestos a comprar.
 4. Completa el proceso de pago.
@@ -38,7 +38,7 @@ Tu OC debe incluir:
 - Correo electrónico de facturación para OC
 - **Método de pago preferido**: Transferencia bancaria/ACH, Tarjeta de crédito o PayPal
 
-> [!info] Comprar una licencia comercial no incluye [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish), ni una [licencia Catalyst](https://obsidian.md/account/catalyst).
+> [!info] Comprar una licencia comercial no incluye [Obsidian Sync](https://obsidian.md/es/sync), [Obsidian Publish](https://obsidian.md/es/publish), ni una [licencia Catalyst](https://obsidian.md/es/account/catalyst).
 
 ## Aplicar una licencia comercial
 
@@ -51,14 +51,14 @@ Para aplicar opcionalmente una licencia comercial a tu instalación de Obsidian,
 
 ## Organizaciones que apoyan
 
-Si tu organización ha comprado al menos 25 licencias comerciales, puedes solicitar aparecer como una [organización que apoya](https://obsidian.md/enterprise/). Si deseas que tu organización sea añadida o eliminada de la página, por favor [[Ayuda y soporte#Contactar al soporte de Obsidian|contacta al soporte de Obsidian]].
+Si tu organización ha comprado al menos 25 licencias comerciales, puedes solicitar aparecer como una [organización que apoya](https://obsidian.md/es/enterprise/). Si deseas que tu organización sea añadida o eliminada de la página, por favor [[Ayuda y soporte#Contactar al soporte de Obsidian|contacta al soporte de Obsidian]].
 
 Tu logotipo debe proporcionarse como un archivo SVG, que llene un cuadrado de 32 por 32 píxeles, y usando solo blanco, sin color de fondo.
 
 ## Preguntas frecuentes
 
 **¿Puedo comprar una licencia para mí mismo, o tengo que pedirle a mi empresa que la compre por mí?**
-Sí. Puedes comprar una licencia para ti mismo yendo a tu [panel de cuenta](https://obsidian.md/account/commercial). La mayoría de las empresas te permiten presentar un informe de gastos por la compra.
+Sí. Puedes comprar una licencia para ti mismo yendo a tu [panel de cuenta](https://obsidian.md/es/account/commercial). La mayoría de las empresas te permiten presentar un informe de gastos por la compra.
 
 Algunas empresas pueden tener un proceso de adquisición diferente. Consulta con tu departamento de TI para determinar sus procedimientos específicos.
 
@@ -68,7 +68,7 @@ Usa el nombre de tu empresa para la licencia si esperas ser reembolsado por tu e
 De lo contrario, usa tu nombre legal como nombre de empresa.
 
 **¿Puedo comprar una licencia comercial para múltiples empleados?**
-Sí. Puedes comprar múltiples puestos de licencia comercial a través de tu [panel de cuenta](https://obsidian.md/account/commercial). No es necesario que cada empleado tenga su propia cuenta de Obsidian, puedes usar una sola cuenta de administrador para comprar todos los puestos.
+Sí. Puedes comprar múltiples puestos de licencia comercial a través de tu [panel de cuenta](https://obsidian.md/es/account/commercial). No es necesario que cada empleado tenga su propia cuenta de Obsidian, puedes usar una sola cuenta de administrador para comprar todos los puestos.
 
 Después de comprar la licencia, recibirás una clave de licencia que puedes enviar a los empleados para activar su licencia — consulta las instrucciones anteriores para activar la licencia.
 

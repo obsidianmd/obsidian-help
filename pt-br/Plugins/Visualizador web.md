@@ -23,6 +23,6 @@ O visualizador web bloqueia anúncios por padrão. Você pode personalizar as re
 
 Se você usa plugins de terceiros do Obsidian, recomendamos usar seu navegador principal para tarefas sensíveis e sites protegidos por senha em vez do visualizador web.
 
-O visualizador web é baseado no mesmo recurso do [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) que permite incorporar páginas web no [[Canvas]]. O visualizador web foi [auditado independentemente](https://obsidian.md/blog/cure53-second-client-audit/) para verificar que foi implementado de forma segura.
+O visualizador web é baseado no mesmo recurso do [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) que permite incorporar páginas web no [[Canvas]]. O visualizador web foi [auditado independentemente](https://obsidian.md/pt-BR/blog/cure53-second-client-audit/) para verificar que foi implementado de forma segura.
 
 Os plugins do Obsidian [[Segurança de plugins#Capacidades dos plugins|não são isolados em sandbox]] e têm controle profundo sobre o aplicativo. Esse design permite funcionalidades poderosas, mas também traz contrapartidas de segurança. Enquanto o Obsidian está em execução, plugins de terceiros têm acesso total aos cookies no visualizador web.

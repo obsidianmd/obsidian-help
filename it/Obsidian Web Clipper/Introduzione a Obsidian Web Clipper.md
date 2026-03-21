@@ -44,4 +44,4 @@ Ottieni l'estensione Obsidian Web Clipper dalla directory ufficiale del tuo brow
 
 ## Privacy
 
-Obsidian Web Clipper salva i contenuti localmente nella tua cassaforte di Obsidian e segue la nostra [informativa sulla privacy](https://obsidian.md/privacy). I tuoi dati non vengono raccolti e non raccogliamo alcuna metrica di utilizzo. Il codice è [open source](https://github.com/obsidianmd/obsidian-clipper) e verificabile.
+Obsidian Web Clipper salva i contenuti localmente nella tua cassaforte di Obsidian e segue la nostra [informativa sulla privacy](https://obsidian.md/it/privacy). I tuoi dati non vengono raccolti e non raccogliamo alcuna metrica di utilizzo. Il codice è [open source](https://github.com/obsidianmd/obsidian-clipper) e verificabile.

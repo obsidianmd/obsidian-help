@@ -4,7 +4,7 @@ aliases:
   - licenses-and-payment/catalyst-license
   - Catalyst license
 ---
-ترخيص Catalyst هو عملية شراء لمرة واحدة تمنحك وصولًا مبكرًا إلى الإصدارات التجريبية وتساعد في دعم التطوير المستمر لـ Obsidian. يمكنك دعم Obsidian عن طريق [شراء ترخيص Catalyst](https://obsidian.md/buy/catalyst).
+ترخيص Catalyst هو عملية شراء لمرة واحدة تمنحك وصولًا مبكرًا إلى الإصدارات التجريبية وتساعد في دعم التطوير المستمر لـ Obsidian. يمكنك دعم Obsidian عن طريق [شراء ترخيص Catalyst](https://obsidian.md/ar/buy/catalyst).
 
 تشمل المزايا:
 
@@ -39,13 +39,13 @@ aliases:
 **ملاحظة:** لربط حساب Obsidian الخاص بك بحساب المنتدى، يجب استخدام نفس عنوان البريد الإلكتروني لكلا الحسابين.
 
 1. إذا لم تكن قد فعلت ذلك بعد، انضم إلى [المنتدى](https://forum.obsidian.md/).
-2. انتقل إلى [لوحة تحكم حساب Obsidian](https://obsidian.md/account/catalyst).
+2. انتقل إلى [لوحة تحكم حساب Obsidian](https://obsidian.md/ar/account/catalyst).
 3. ضمن **Catalyst**، حدد **Get forum badge**.
 
 ### الحصول على شارة Discord
 
 1. إذا لم تكن قد فعلت ذلك بعد، انضم إلى [خادم Discord](https://discord.gg/veuWUTm).
-2. انتقل إلى [لوحة تحكم حساب Obsidian](https://obsidian.md/account/catalyst).
+2. انتقل إلى [لوحة تحكم حساب Obsidian](https://obsidian.md/ar/account/catalyst).
 3. ضمن **Catalyst**، حدد **Get Discord badge**.
 
 ### الانضمام إلى قنوات Insider الحصرية

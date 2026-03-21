@@ -3,7 +3,7 @@ permalink: catalyst
 aliases:
   - Catalyst license
 ---
-Лицензия Catalyst — это единоразовая покупка, которая даёт вам ранний доступ к бета-версиям и помогает поддерживать дальнейшую разработку Obsidian. Вы можете поддержать Obsidian, [приобретя лицензию Catalyst](https://obsidian.md/buy/catalyst).
+Лицензия Catalyst — это единоразовая покупка, которая даёт вам ранний доступ к бета-версиям и помогает поддерживать дальнейшую разработку Obsidian. Вы можете поддержать Obsidian, [приобретя лицензию Catalyst](https://obsidian.md/ru/buy/catalyst).
 
 Преимущества включают:
 
@@ -38,13 +38,13 @@ aliases:
 **Примечание:** Чтобы связать ваш аккаунт Obsidian и аккаунт на форуме, необходимо использовать одну и ту же электронную почту для обоих аккаунтов.
 
 1. Если вы ещё этого не сделали, присоединяйтесь к нашему [форуму](https://forum.obsidian.md/).
-2. Перейдите в [панель управления аккаунтом Obsidian](https://obsidian.md/account/catalyst).
+2. Перейдите в [панель управления аккаунтом Obsidian](https://obsidian.md/ru/account/catalyst).
 3. В разделе **Catalyst** выберите **Get forum badge**.
 
 ### Получение значка в Discord
 
 1. Если вы ещё этого не сделали, присоединяйтесь к нашему [серверу Discord](https://discord.gg/veuWUTm).
-2. Перейдите в [панель управления аккаунтом Obsidian](https://obsidian.md/account/catalyst).
+2. Перейдите в [панель управления аккаунтом Obsidian](https://obsidian.md/ru/account/catalyst).
 3. В разделе **Catalyst** выберите **Get Discord badge**.
 
 ### Присоединяйтесь к каналам Insider

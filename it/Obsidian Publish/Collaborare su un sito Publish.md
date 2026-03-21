@@ -8,7 +8,7 @@ aliases:
 ---
 Scopri come collaborare sul tuo sito [[Introduction to Obsidian Publish|Obsidian Publish]] con altri utenti Obsidian. Aggiungendo amici e colleghi come collaboratori, potranno pubblicare modifiche sul tuo sito.
 
-Solo il proprietario del sito necessita di un abbonamento attivo per Obsidian Publish. I collaboratori hanno bisogno solo di un [account Obsidian](https://obsidian.md/account).
+Solo il proprietario del sito necessita di un abbonamento attivo per Obsidian Publish. I collaboratori hanno bisogno solo di un [account Obsidian](https://obsidian.md/it/account).
 
 > [!warning] Prima di pubblicare modifiche su un sito condiviso, assicurati di [[#Sincronizzare le modifiche tra collaboratori|sincronizzare le modifiche tra collaboratori]]. Altrimenti, rischi di sovrascrivere le modifiche di altri collaboratori.
 

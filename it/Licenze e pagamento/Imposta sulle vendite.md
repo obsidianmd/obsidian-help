@@ -11,12 +11,12 @@ Per determinare le imposte applicate al tuo acquisto, utilizziamo il paese e il 
 
 A seconda del tuo paese e del tuo status, potresti essere esente dalle imposte inviando il tuo Codice Identificativo Fiscale (TIN), numero di partita IVA, ID IVA o certificato di esenzione fiscale.
 
-Puoi richiedere un'esenzione fiscale tramite la sezione Fatturazione della tua [dashboard dell'account](https://obsidian.md/account/billing). Se la tua richiesta viene approvata, gli acquisti futuri non saranno soggetti a imposte.
+Puoi richiedere un'esenzione fiscale tramite la sezione Fatturazione della tua [dashboard dell'account](https://obsidian.md/it/account/billing). Se la tua richiesta viene approvata, gli acquisti futuri non saranno soggetti a imposte.
 
 ### Richiedere un'esenzione
 
-1. Accedi al tuo [account Obsidian](https://obsidian.md/account/billing).
-2. Vai alla sezione [Fatturazione](https://obsidian.md/account/billing).
+1. Accedi al tuo [account Obsidian](https://obsidian.md/it/account/billing).
+2. Vai alla sezione [Fatturazione](https://obsidian.md/it/account/billing).
 3. A destra di _Esenzione fiscale_, seleziona il pulsante **Gestisci**.
 4. Nella finestra pop-up:
     1. Inserisci il tuo paese.

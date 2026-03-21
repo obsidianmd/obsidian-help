@@ -20,8 +20,8 @@ En esta sección, creará una nueva [[Bóvedas locales y remotas|bóveda remota]
 
 **Requisitos previos**
 
-- Una cuenta de Obsidian. Si no tiene una, [regístrese ahora](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
-- Una [[Planes y límites de almacenamiento|suscripción]] activa de Obsidian Sync. Si no tiene una, suscríbase desde [el panel de su cuenta](https://obsidian.md/account/sync).
+- Una cuenta de Obsidian. Si no tiene una, [regístrese ahora](https://obsidian.md/es/auth?returnto=%2Faccount%2Fsync#signup).
+- Una [[Planes y límites de almacenamiento|suscripción]] activa de Obsidian Sync. Si no tiene una, suscríbase desde [el panel de su cuenta](https://obsidian.md/es/account/sync).
 - **Recomendado**: Un [[Respaldar tus archivos de Obsidian|sistema de respaldo]] implementado para sus archivos de Obsidian. Un servicio de sincronización no es un respaldo.
 
 ### Iniciar sesión con su cuenta de Obsidian
@@ -89,8 +89,8 @@ Para aprender más sobre ajustes y archivos, continúe con [[Ajustes de Sync y s
 En esta sección, ya ha creado una bóveda remota y ha subido datos a ella. Ahora, desea conectar sus otros dispositivos a ella.
 
 **Requisitos previos**
-- Una cuenta de Obsidian. Si no tiene una, [regístrese ahora](https://obsidian.md/account#mode=signup).
-- Una suscripción activa de Obsidian Sync. Si no tiene una, suscríbase desde [el panel de su cuenta](https://obsidian.md/account).
+- Una cuenta de Obsidian. Si no tiene una, [regístrese ahora](https://obsidian.md/es/account#mode=signup).
+- Una suscripción activa de Obsidian Sync. Si no tiene una, suscríbase desde [el panel de su cuenta](https://obsidian.md/es/account).
 - Sync activado dentro de los ajustes de [[Complementos principales]].
 - Una bóveda remota activa. Si aún no ha creado una, primero cree una [[Configurar Obsidian Sync#Crear una nueva bóveda remota|bóveda remota]].
 - **Recomendado**: Un [[Respaldar tus archivos de Obsidian|sistema de respaldo]] implementado para sus archivos de Obsidian en su dispositivo más utilizado. Un servicio de sincronización no es un respaldo.

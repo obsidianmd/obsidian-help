@@ -96,4 +96,4 @@ Meeting notes.sync-conflict-20241128-143022.md
 من المحتمل أن تكون هذه المشكلة بسبب إدارة Google أو Android Photos لمرفقاتك. لمنع النظام من تغيير الملفات المستلمة عبر المزامنة، أضف ملف `.nomedia` [إلى خزنتك](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) على جهاز Android الخاص بك.
 
 > [!tip]- استخدم إضافة
-> الإضافة المجتمعية [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) تُسهّل هذا الأمر. قم بتثبيتها على هاتف Android الخاص بك. لاحظ أن ملفات `.nomedia` لا تتم مزامنتها عبر الأجهزة من خلال Obsidian Sync.
+> الإضافة المجتمعية [Android Nomedia](https://obsidian.md/ar/plugins?id=android-nomedia) تُسهّل هذا الأمر. قم بتثبيتها على هاتف Android الخاص بك. لاحظ أن ملفات `.nomedia` لا تتم مزامنتها عبر الأجهزة من خلال Obsidian Sync.

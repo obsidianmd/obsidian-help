@@ -3,7 +3,7 @@ permalink: catalyst
 aliases:
   - Licenses & add-on services/Licencia de Catalyst
 ---
-La licencia Catalyst es una compra única que te da acceso anticipado a versiones beta y ayuda a apoyar el desarrollo continuo de Obsidian. Puedes apoyar a Obsidian [comprando una licencia Catalyst](https://obsidian.md/buy/catalyst).
+La licencia Catalyst es una compra única que te da acceso anticipado a versiones beta y ayuda a apoyar el desarrollo continuo de Obsidian. Puedes apoyar a Obsidian [comprando una licencia Catalyst](https://obsidian.md/es/buy/catalyst).
 
 Los beneficios incluyen:
 
@@ -38,13 +38,13 @@ Una vez que hayas comprado una licencia Catalyst, puedes acceder a una variedad 
 **Nota:** Para conectar tu cuenta de Obsidian y tu cuenta del foro, debes usar el mismo correo electrónico para ambas cuentas.
 
 1. Si aún no lo has hecho, únete a nuestro [foro](https://forum.obsidian.md/).
-2. Ve al [panel de tu cuenta de Obsidian](https://obsidian.md/account/catalyst).
+2. Ve al [panel de tu cuenta de Obsidian](https://obsidian.md/es/account/catalyst).
 3. En **Catalyst**, selecciona **Get forum badge**.
 
 ### Obtener tu insignia de Discord
 
 1. Si aún no lo has hecho, únete a nuestro [servidor de Discord](https://discord.gg/veuWUTm).
-2. Ve al [panel de tu cuenta de Obsidian](https://obsidian.md/account/catalyst).
+2. Ve al [panel de tu cuenta de Obsidian](https://obsidian.md/es/account/catalyst).
 3. En **Catalyst**, selecciona **Get Discord badge**.
 
 ### Unirse a nuestros canales Insider

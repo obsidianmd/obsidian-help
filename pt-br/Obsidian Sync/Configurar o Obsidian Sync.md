@@ -23,8 +23,8 @@ Nesta seção, você criará um novo [[Cofres locais e remotos|cofre remoto]] e 
 
 **Pré-requisitos**
 
-- Uma conta Obsidian. Se você não tem uma, [crie uma conta agora](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
-- Uma [[Planos e limites de armazenamento|assinatura]] ativa do Obsidian Sync. Se você não tem uma, assine pelo [painel da sua conta](https://obsidian.md/account/sync).
+- Uma conta Obsidian. Se você não tem uma, [crie uma conta agora](https://obsidian.md/pt-BR/auth?returnto=%2Faccount%2Fsync#signup).
+- Uma [[Planos e limites de armazenamento|assinatura]] ativa do Obsidian Sync. Se você não tem uma, assine pelo [painel da sua conta](https://obsidian.md/pt-BR/account/sync).
 - **Recomendado**: Um [[Fazer backup dos seus arquivos do Obsidian|sistema de backup]] configurado para seus arquivos do Obsidian. Um serviço de sincronização não é um backup.
 
 ### Entrar com sua conta Obsidian
@@ -92,8 +92,8 @@ Para saber mais sobre configurações e arquivos, prossiga para [[Configuraçõe
 Nesta seção, você já criou um cofre remoto e enviou dados para ele. Agora, você deseja conectar seus outros dispositivos a ele.
 
 **Pré-requisitos**
-- Uma conta Obsidian. Se você não tem uma, [crie uma conta agora](https://obsidian.md/account#mode=signup).
-- Uma assinatura ativa do Obsidian Sync. Se você não tem uma, assine pelo [painel da sua conta](https://obsidian.md/account).
+- Uma conta Obsidian. Se você não tem uma, [crie uma conta agora](https://obsidian.md/pt-BR/account#mode=signup).
+- Uma assinatura ativa do Obsidian Sync. Se você não tem uma, assine pelo [painel da sua conta](https://obsidian.md/pt-BR/account).
 - Sync ativado nas configurações dos [[Plugins nativos]].
 - Um cofre remoto ativo. Se você ainda não criou um, por favor crie um [[Configurar o Obsidian Sync#Criar um novo cofre remoto|cofre remoto]] primeiro.
 - **Recomendado**: Um [[Fazer backup dos seus arquivos do Obsidian|sistema de backup]] configurado para seus arquivos do Obsidian no dispositivo mais utilizado. Um serviço de sincronização não é um backup.

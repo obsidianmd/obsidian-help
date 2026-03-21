@@ -13,7 +13,7 @@ Você também pode ajustar temas usando [[Trechos CSS]] e [criar seu próprio te
 
 ### Ícone customizado
 
-Você pode alterar o ícone do aplicativo Obsidian no desktop. Experimente o editor de ícones apresentado em [nosso blog](https://obsidian.md/blog/new-obsidian-icon/) para personalizar as cores do ícone ao seu gosto.
+Você pode alterar o ícone do aplicativo Obsidian no desktop. Experimente o editor de ícones apresentado em [nosso blog](https://obsidian.md/pt-BR/blog/new-obsidian-icon/) para personalizar as cores do ícone ao seu gosto.
 
 Para alterar o ícone do aplicativo Obsidian, siga estes passos:
 

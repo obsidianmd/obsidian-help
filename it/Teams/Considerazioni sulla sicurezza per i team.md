@@ -5,7 +5,7 @@ cssclasses:
 aliases:
   - Security considerations for teams
 ---
-La nostra pagina [Sicurezza](https://obsidian.md/security) raccoglie informazioni su come Obsidian si occupa della protezione dei tuoi dati. È anche il punto di riferimento per gli audit di sicurezza completati da terze parti.
+La nostra pagina [Sicurezza](https://obsidian.md/it/security) raccoglie informazioni su come Obsidian si occupa della protezione dei tuoi dati. È anche il punto di riferimento per gli audit di sicurezza completati da terze parti.
 
 ## Considerazioni
 
@@ -19,7 +19,7 @@ Si prega di consultare la pagina [[Plugin security|Sicurezza dei plugin]] oltre 
 
 Il team di Obsidian esamina tutti i plugin e i temi della community inviati alla directory ufficiale, tramite il nostro [repository delle release](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Non esaminiamo elementi della community che non sono stati inviati alla directory ufficiale.
 
-Non disponiamo di uno store della community per i [[CSS snippets|frammenti CSS]]. Questi file vengono tipicamente ottenuti dalla nostra [Community di Obsidian](https://obsidian.md/community) o da repository pubblici su GitHub.
+Non disponiamo di uno store della community per i [[CSS snippets|frammenti CSS]]. Questi file vengono tipicamente ottenuti dalla nostra [Community di Obsidian](https://obsidian.md/it/community) o da repository pubblici su GitHub.
 
 Richiediamo il raggruppamento delle risorse nei frammenti CSS e nei temi. Tuttavia, abbiamo fatto un'eccezione per [Google Fonts](https://fonts.google.com/) per mantenere le prestazioni sui dispositivi mobile, dove l'impatto del raggruppamento dei font è più evidente.
 
@@ -73,4 +73,4 @@ Richiediamo un importo minimo di ordine di acquisto preventivato prima di prende
 Tuttavia, è possibile rinunciare a questo importo minimo di ordine di acquisto accettando di pagare una tariffa di anticipo. Si prega di contattare il [[Help and support#Contattare il supporto Obsidian|supporto Obsidian]] per informazioni su questa opzione.
 
 **Disponete di certificazioni riconosciute relative alla Sicurezza delle Informazioni o a standard di qualità, come ISO27001, NIST, COBIT o altre certificazioni ISO o CSA?**
-Non al momento. Potrebbe essere qualcosa che esploreremo in futuro, ma per ora il nostro focus è sugli [audit di sicurezza](https://obsidian.md/security).
+Non al momento. Potrebbe essere qualcosa che esploreremo in futuro, ma per ora il nostro focus è sugli [audit di sicurezza](https://obsidian.md/it/security).

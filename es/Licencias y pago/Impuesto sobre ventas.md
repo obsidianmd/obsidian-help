@@ -9,12 +9,12 @@ Para determinar los impuestos aplicados a su compra, utilizamos el país y el c�
 
 Dependiendo de su país y situación, puede estar exento de impuestos al enviar su Número de Identificación Fiscal (NIF), número de IVA, ID de IVA o certificado de exención fiscal.
 
-Puede solicitar una exención fiscal a través de la sección de Facturación de su [Panel de cuenta](https://obsidian.md/account/billing). Si su solicitud es aprobada, las compras futuras no incluirán impuestos.
+Puede solicitar una exención fiscal a través de la sección de Facturación de su [Panel de cuenta](https://obsidian.md/es/account/billing). Si su solicitud es aprobada, las compras futuras no incluirán impuestos.
 
 ### Solicitar una exención
 
-1. Inicie sesión en su [cuenta de Obsidian](https://obsidian.md/account/billing).
-2. Navegue a la sección de [Facturación](https://obsidian.md/account/billing).
+1. Inicie sesión en su [cuenta de Obsidian](https://obsidian.md/es/account/billing).
+2. Navegue a la sección de [Facturación](https://obsidian.md/es/account/billing).
 3. A la derecha de _Exención fiscal_, seleccione el botón **Administrar**.
 4. En la ventana emergente:
     1. Ingrese su país.

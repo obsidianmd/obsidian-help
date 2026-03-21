@@ -6,7 +6,7 @@ cssclasses:
 aliases:
   - Introduction to Obsidian Publish
 ---
-[Obsidian Publish](https://obsidian.md/publish) هي خدمة استضافة سحابية تتيح لك نشر ملاحظاتك على شكل ويكي، أو قاعدة معرفة، أو توثيق، أو حديقة رقمية.
+[Obsidian Publish](https://obsidian.md/ar/publish) هي خدمة استضافة سحابية تتيح لك نشر ملاحظاتك على شكل ويكي، أو قاعدة معرفة، أو توثيق، أو حديقة رقمية.
 
 اختر الملاحظات التي تريد مشاركتها مع العالم، اضغط **نشر**، وسنستضيفها على `publish.obsidian.md/your-site`
 

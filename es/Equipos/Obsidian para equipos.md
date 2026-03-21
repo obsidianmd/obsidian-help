@@ -21,15 +21,15 @@ Obsidian puede utilizarse como una aplicación de toma de notas para individuos 
 
 A continuación se encuentran enlaces importantes a partes relevantes de nuestro sitio web principal, listados aquí para un acceso rápido.
 
-- [Comprar nuestros productos](https://obsidian.md/pricing)
+- [Comprar nuestros productos](https://obsidian.md/es/pricing)
 	- Comprar una licencia comercial, Sync o Publish
 - [Reportar un error](https://forum.obsidian.md/c/bug-reports/7)
 	- Reportar un problema de la aplicación
 - [Solicitar una nueva función](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
 	- Enviar una solicitud de función
-- [Resumen de la licencia](https://obsidian.md/license)
+- [Resumen de la licencia](https://obsidian.md/es/license)
 	- Revisar nuestro resumen de licencia en lenguaje sencillo
-- [Términos de servicio](https://obsidian.md/terms)
+- [Términos de servicio](https://obsidian.md/es/terms)
 	- Revisar nuestros últimos términos de servicio
-- [Política de privacidad](https://obsidian.md/privacy)
+- [Política de privacidad](https://obsidian.md/es/privacy)
 	- Revisar nuestra política de privacidad

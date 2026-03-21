@@ -59,6 +59,6 @@ Supportiamo gli [[CSS snippets]], i [[Themes]] e i [[Community plugins]], che co
 
 ## Segui il nostro sviluppo
 
-Sei curioso di sapere come continuiamo a rendere Obsidian lo strumento migliore e più raffinato per l'elaborazione del pensiero? Consulta la nostra [roadmap](https://obsidian.md/roadmap/) per vedere a cosa stiamo lavorando.
+Sei curioso di sapere come continuiamo a rendere Obsidian lo strumento migliore e più raffinato per l'elaborazione del pensiero? Consulta la nostra [roadmap](https://obsidian.md/it/roadmap/) per vedere a cosa stiamo lavorando.
 
 Il nostro account Twitter è [@obsdmd](https://twitter.com/obsdmd), sentiti libero di seguirci. Pubblichiamo principalmente aggiornamenti sul prodotto.

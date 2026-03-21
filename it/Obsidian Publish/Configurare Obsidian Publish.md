@@ -9,8 +9,8 @@ In questa guida, abiliterai [[Introduzione a Obsidian Publish|Obsidian Publish]]
 
 ## Prerequisiti
 
-- Un account Obsidian. Se non ne hai uno, [iscriviti ora](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- Un abbonamento attivo a Obsidian Publish. Se non ne hai uno, abbonati dalla [dashboard del tuo account](https://obsidian.md/account/publish).
+- Un account Obsidian. Se non ne hai uno, [iscriviti ora](https://obsidian.md/it/auth?returnto=%2Faccount%2Fpublish#signup).
+- Un abbonamento attivo a Obsidian Publish. Se non ne hai uno, abbonati dalla [dashboard del tuo account](https://obsidian.md/it/account/publish).
 
 ## Accedi con il tuo account Obsidian
 

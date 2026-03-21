@@ -245,4 +245,4 @@ Para cambiar el nivel de zoom al predeterminado, selecciona **Reiniciar zoom** e
 
 Hemos creado algunos vídeos cortos para demostrar algunos casos de uso avanzados de Canvas.
 
-Puedes [ver los 72 consejos aquí](https://obsidian.md/canvas#protips). Ten en cuenta que los vídeos de consejos solo son visibles en escritorio.
+Puedes [ver los 72 consejos aquí](https://obsidian.md/es/canvas#protips). Ten en cuenta que los vídeos de consejos solo son visibles en escritorio.

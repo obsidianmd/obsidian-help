@@ -42,4 +42,4 @@ Obtenha a extensão Obsidian Web Clipper no diretório oficial do seu navegador:
 
 ## Privacidade
 
-O Obsidian Web Clipper salva conteúdo localmente no seu cofre do Obsidian e segue nossa [política de privacidade](https://obsidian.md/privacy). Seus dados não são coletados e não reunimos nenhuma métrica de uso. O código é [código aberto](https://github.com/obsidianmd/obsidian-clipper) e auditável.
+O Obsidian Web Clipper salva conteúdo localmente no seu cofre do Obsidian e segue nossa [política de privacidade](https://obsidian.md/pt-BR/privacy). Seus dados não são coletados e não reunimos nenhuma métrica de uso. O código é [código aberto](https://github.com/obsidianmd/obsidian-clipper) e auditável.

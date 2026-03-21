@@ -10,8 +10,8 @@ Questa pagina spiega come gestire i contenuti pubblicati. Per scoprire come pers
 
 ## Prerequisiti
 
-- Un account Obsidian. Se non ne hai uno, [iscriviti ora](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- Un abbonamento attivo a Obsidian Publish. Se non ne hai uno, sottoscrivi un abbonamento dalla [dashboard del tuo account](https://obsidian.md/account/publish).
+- Un account Obsidian. Se non ne hai uno, [iscriviti ora](https://obsidian.md/it/auth?returnto=%2Faccount%2Fpublish#signup).
+- Un abbonamento attivo a Obsidian Publish. Se non ne hai uno, sottoscrivi un abbonamento dalla [dashboard del tuo account](https://obsidian.md/it/account/publish).
 - Il plugin principale **Pubblica** è [[Set up Obsidian Publish#Abilita Obsidian Publish|abilitato]].
 - Un [[Manage sites#Creare un nuovo sito|sito Publish]] è stato creato.
 

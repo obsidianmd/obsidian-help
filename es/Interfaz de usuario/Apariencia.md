@@ -15,7 +15,7 @@ También puedes ajustar temas usando [[Fragmentos CSS]] y [crear tu propio tema]
 
 ### Ícono personalizado de la aplicación
 
-Puedes cambiar el ícono de la aplicación de escritorio de Obsidian. Prueba el editor de íconos presentado en [nuestro blog](https://obsidian.md/blog/new-obsidian-icon/) para personalizar los colores del ícono a tu gusto.
+Puedes cambiar el ícono de la aplicación de escritorio de Obsidian. Prueba el editor de íconos presentado en [nuestro blog](https://obsidian.md/es/blog/new-obsidian-icon/) para personalizar los colores del ícono a tu gusto.
 
 Para cambiar el ícono de la aplicación Obsidian, sigue estos pasos:
 

@@ -59,6 +59,6 @@ Oferecemos suporte a [[Trechos CSS]], [[Temas]] e [[Plugins da comunidade]], que
 
 ## Acompanhe nosso desenvolvimento
 
-Curioso sobre como continuamos a tornar o Obsidian a melhor e mais refinada ferramenta para processamento de pensamentos? Confira nosso [roadmap](https://obsidian.md/roadmap/) para ver no que estamos trabalhando.
+Curioso sobre como continuamos a tornar o Obsidian a melhor e mais refinada ferramenta para processamento de pensamentos? Confira nosso [roadmap](https://obsidian.md/pt-BR/roadmap/) para ver no que estamos trabalhando.
 
 Nosso perfil no Twitter é [@obsdmd](https://twitter.com/obsdmd), sinta-se à vontade para seguir. Publicamos principalmente sobre atualizações do produto.

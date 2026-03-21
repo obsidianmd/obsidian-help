@@ -6,7 +6,7 @@ description: Aprende sobre las diferentes opciones de planes disponibles para Ob
 ---
 ## Planes
 
-Para sincronizar tus notas con [[Introducción a Obsidian Sync|Obsidian Sync]] necesitas un plan de suscripción. Puedes comprar un plan de Sync iniciando sesión en [tu cuenta](https://obsidian.md/account/sync). Consulta la [página de Sync](https://obsidian.md/sync) para ver los precios.
+Para sincronizar tus notas con [[Introducción a Obsidian Sync|Obsidian Sync]] necesitas un plan de suscripción. Puedes comprar un plan de Sync iniciando sesión en [tu cuenta](https://obsidian.md/es/account/sync). Consulta la [página de Sync](https://obsidian.md/es/sync) para ver los precios.
 
 A continuación se muestra una comparación entre el plan Standard y el plan Plus:
 
@@ -21,7 +21,7 @@ A continuación se muestra una comparación entre el plan Standard y el plan Plu
 
 ## Límites de almacenamiento
 
-La cantidad de datos que puedes almacenar usando [[Introducción a Obsidian Sync|Obsidian Sync]] depende de tu plan de suscripción. Con el plan Sync Plus puedes comprar almacenamiento adicional hasta 100 GB a través del [panel de tu cuenta](https://obsidian.md/account/sync). Consulta [[Preguntas frecuentes]] para más detalles.
+La cantidad de datos que puedes almacenar usando [[Introducción a Obsidian Sync|Obsidian Sync]] depende de tu plan de suscripción. Con el plan Sync Plus puedes comprar almacenamiento adicional hasta 100 GB a través del [panel de tu cuenta](https://obsidian.md/es/account/sync). Consulta [[Preguntas frecuentes]] para más detalles.
 
 Existe un único límite de almacenamiento a nivel de cuenta para todas las notas en tus bóvedas. El [[Historial de versiones]] y los [[Archivos adjuntos|adjuntos]] también cuentan para el límite de almacenamiento de tu cuenta.
 
@@ -60,7 +60,7 @@ La nueva bóveda remota debería ser más pequeña que la anterior, debido a la 
 
 ## Mejorar tu plan
 
-Puedes mejorar tu plan iniciando sesión en el [panel de tu cuenta](https://obsidian.md/account/sync). Desde allí podrás actualizar tu plan de Sync Standard a Sync Plus y aumentar el almacenamiento hasta 100 GB.
+Puedes mejorar tu plan iniciando sesión en el [panel de tu cuenta](https://obsidian.md/es/account/sync). Desde allí podrás actualizar tu plan de Sync Standard a Sync Plus y aumentar el almacenamiento hasta 100 GB.
 
 ## Reducir tu plan
 

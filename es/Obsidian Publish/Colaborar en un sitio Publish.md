@@ -6,7 +6,7 @@ description: Aprende a colaborar con otros usuarios de Obsidian en tu sitio de O
 ---
 Aprende a colaborar en tu sitio de [[Introducción a Obsidian Publish|Obsidian Publish]] con otros usuarios de Obsidian. Al agregar a tus amigos y colegas como colaboradores, ellos pueden publicar cambios en tu sitio.
 
-Solo el propietario del sitio necesita una suscripción activa de Obsidian Publish. Los colaboradores solo necesitan una [cuenta de Obsidian](https://obsidian.md/account).
+Solo el propietario del sitio necesita una suscripción activa de Obsidian Publish. Los colaboradores solo necesitan una [cuenta de Obsidian](https://obsidian.md/es/account).
 
 > [!warning] Antes de publicar cambios en un sitio compartido, asegúrate de [[#Sincronizar cambios entre colaboradores|sincronizar cambios entre colaboradores]]. De lo contrario, corres el riesgo de sobrescribir cambios de otros colaboradores.
 

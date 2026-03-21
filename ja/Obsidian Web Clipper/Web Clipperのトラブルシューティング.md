@@ -54,7 +54,7 @@ Swayを使用している場合：
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- Flatpakを使用している場合は、[Obsidianの公式サポートバージョン](https://obsidian.md/download)を試してみてください。
+- Flatpakを使用している場合は、[Obsidianの公式サポートバージョン](https://obsidian.md/ja/download)を試してみてください。
 - KDEを使用している場合は、**システム設定** → **ウィンドウ管理** → **ウィンドウルール**でObsidianがフォーカスを取得できるようにしてください。[[web-clipper-kde.png|スクリーンショットを参照]]。
 - フォールバックとして、**Web Clipperの設定** → **一般**で**レガシーモード**に切り替えてみてください。これにより、クリップボードをバイパスしてURIから直接コンテンツを保存します。ただし、ブラウザやLinuxディストリビューションによって、クリップできる文字数が制限されることに注意してください。
 

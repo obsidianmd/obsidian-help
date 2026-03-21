@@ -9,12 +9,12 @@ Para determinar os impostos aplicados à sua compra, utilizamos o país e o cód
 
 Dependendo do seu país e status, você pode estar isento de impostos ao enviar seu Número de Identificação Fiscal (TIN), Número de IVA, ID de IVA ou certificado de isenção fiscal.
 
-Você pode solicitar uma isenção fiscal através da seção de Cobrança do seu [Painel da conta](https://obsidian.md/account/billing). Se sua solicitação for aprovada, compras futuras não terão impostos cobrados.
+Você pode solicitar uma isenção fiscal através da seção de Cobrança do seu [Painel da conta](https://obsidian.md/pt-BR/account/billing). Se sua solicitação for aprovada, compras futuras não terão impostos cobrados.
 
 ### Solicitando uma isenção
 
-1. Entre na sua [conta Obsidian](https://obsidian.md/account/billing).
-2. Navegue até a seção de [Cobrança](https://obsidian.md/account/billing).
+1. Entre na sua [conta Obsidian](https://obsidian.md/pt-BR/account/billing).
+2. Navegue até a seção de [Cobrança](https://obsidian.md/pt-BR/account/billing).
 3. À direita de _Isenção Fiscal_, selecione o botão **Administrar**.
 4. Na janela pop-up:
     1. Insira seu país.

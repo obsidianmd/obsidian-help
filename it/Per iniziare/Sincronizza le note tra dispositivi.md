@@ -18,7 +18,7 @@ Si consiglia anche di leggere la [[Back up your Obsidian files|guida al backup]]
 
 Con Obsidian i dati sono semplicemente archiviati come file in una cartella chiamata [[Local and remote vaults|cassaforte]]. Questo significa che esistono molti modi per sincronizzare i dati.
 
-Ecco alcuni metodi di sincronizzazione comunemente utilizzati, segnalati dai membri della [community di Obsidian](https://obsidian.md/community):
+Ecco alcuni metodi di sincronizzazione comunemente utilizzati, segnalati dai membri della [community di Obsidian](https://obsidian.md/it/community):
 
 1. **Sincronizzazione proprietaria**: [[#Obsidian Sync]]
 2. **Sincronizzazione cloud di terze parti**: [[#iCloud]], [[#OneDrive]] e [[#Google Drive]]

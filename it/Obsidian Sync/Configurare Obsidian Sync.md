@@ -22,8 +22,8 @@ In questa sezione, creerai un nuovo [[Local and remote vaults|caveau remoto]] e 
 
 **Prerequisiti**
 
-- Un account Obsidian. Se non ne hai uno, [iscriviti ora](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
-- Un [[Plans and storage limits|abbonamento]] attivo a Obsidian Sync. Se non ne hai uno, abbonati dalla [dashboard del tuo account](https://obsidian.md/account/sync).
+- Un account Obsidian. Se non ne hai uno, [iscriviti ora](https://obsidian.md/it/auth?returnto=%2Faccount%2Fsync#signup).
+- Un [[Plans and storage limits|abbonamento]] attivo a Obsidian Sync. Se non ne hai uno, abbonati dalla [dashboard del tuo account](https://obsidian.md/it/account/sync).
 - **Consigliato**: un [[Back up your Obsidian files|sistema di backup]] attivo per i tuoi file Obsidian. Un servizio di sincronizzazione non è un backup.
 
 ### Accedere con il tuo account Obsidian
@@ -91,8 +91,8 @@ Per saperne di più su impostazioni e file, passa a [[Sync settings and selectiv
 In questa sezione, hai già creato un caveau remoto e caricato dati su di esso. Ora vuoi collegare gli altri tuoi dispositivi ad esso.
 
 **Prerequisiti**
-- Un account Obsidian. Se non ne hai uno, [iscriviti ora](https://obsidian.md/account#mode=signup).
-- Un abbonamento attivo a Obsidian Sync. Se non ne hai uno, abbonati dalla [dashboard del tuo account](https://obsidian.md/account).
+- Un account Obsidian. Se non ne hai uno, [iscriviti ora](https://obsidian.md/it/account#mode=signup).
+- Un abbonamento attivo a Obsidian Sync. Se non ne hai uno, abbonati dalla [dashboard del tuo account](https://obsidian.md/it/account).
 - Sync abilitato nelle impostazioni dei [[Core plugins|Plugin principali]].
 - Un caveau remoto attivo. Se non ne hai ancora creato uno, crea prima un [[Set up Obsidian Sync#Creare un nuovo caveau remoto|caveau remoto]].
 - **Consigliato**: un [[Back up your Obsidian files|sistema di backup]] attivo per i tuoi file Obsidian sul dispositivo più utilizzato. Un servizio di sincronizzazione non è un backup.

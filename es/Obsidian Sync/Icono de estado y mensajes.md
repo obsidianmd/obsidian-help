@@ -109,7 +109,7 @@ En estos casos, necesitarás [[Configurar Obsidian Sync#Desconectar de una bóve
 **Failed to authenticate: Your subscription to Obsidian Sync has expired**
 Tu cuenta está ahora en un estado completamente expirado ya que no pudimos procesar el pago registrado.
 
-Para continuar usando Obsidian Sync, necesitarás volver a suscribirte dentro de [tu cuenta](https://obsidian.md/account/sync).
+Para continuar usando Obsidian Sync, necesitarás volver a suscribirte dentro de [tu cuenta](https://obsidian.md/es/account/sync).
 
 **Failed to authenticate: Not logged in**
 

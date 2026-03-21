@@ -3,11 +3,11 @@ permalink: 2fa
 aliases:
   - 2-factor authentication
 ---
-Se disponi di un [account Obsidian](https://obsidian.md/account) puoi abilitare l'autenticazione a due fattori (2FA) per proteggere il tuo account con un ulteriore passaggio di verifica.
+Se disponi di un [account Obsidian](https://obsidian.md/it/account) puoi abilitare l'autenticazione a due fattori (2FA) per proteggere il tuo account con un ulteriore passaggio di verifica.
 
 ## Abilitare la 2FA
 
-- Accedi al [tuo account Obsidian](https://obsidian.md/account/profile) dal browser web.
+- Accedi al [tuo account Obsidian](https://obsidian.md/it/account/profile) dal browser web.
 - Nella sezione **Profilo**, vai su **2-factor authentication** e seleziona **Abilita**.
 - Apparirà una finestra popup che ti chiederà di collegare un'app di autenticazione tramite un **codice QR** o una **chiave di configurazione**.
 
@@ -31,7 +31,7 @@ La tua 2FA è ora configurata.
 
 Se hai abilitato la 2FA prima che i codici di recupero fossero disponibili, o se desideri aggiornare i tuoi codici di recupero, segui questi passaggi:
 
-- Accedi al [tuo account Obsidian](https://obsidian.md/account/profile) dal browser web.
+- Accedi al [tuo account Obsidian](https://obsidian.md/it/account/profile) dal browser web.
 - Accanto a 2-factor authentication, seleziona **Aggiorna codici di recupero**.
 - Nella finestra popup, inserisci la tua **password** e il **codice a 6 cifre dell'autenticatore**.
 - Una finestra di conferma mostrerà i tuoi codici di recupero. Hai due opzioni:
@@ -43,7 +43,7 @@ Puoi utilizzare un codice di recupero **una sola volta** al posto del **codice a
 
 ## Disabilitare la 2FA
 
-- Accedi al [tuo account Obsidian](https://obsidian.md/account/profile) dal browser web.
+- Accedi al [tuo account Obsidian](https://obsidian.md/it/account/profile) dal browser web.
 - Nella sezione **Profilo**, vai su **2-factor authentication** e seleziona **Disabilita**.
 - Inserisci la tua password di Obsidian.
 - Inserisci il codice a sei cifre attuale dalla tua app di autenticazione.

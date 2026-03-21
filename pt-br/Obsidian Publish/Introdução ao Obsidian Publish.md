@@ -4,7 +4,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-O [Obsidian Publish](https://obsidian.md/publish) é um serviço de hospedagem na nuvem que permite publicar suas notas como uma wiki, base de conhecimento, documentação ou jardim digital.
+O [Obsidian Publish](https://obsidian.md/pt-BR/publish) é um serviço de hospedagem na nuvem que permite publicar suas notas como uma wiki, base de conhecimento, documentação ou jardim digital.
 
 Selecione as notas que deseja compartilhar com o mundo, pressione **Publicar**, e nós hospedaremos em `publish.obsidian.md/your-site`
 

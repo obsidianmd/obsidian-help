@@ -42,11 +42,11 @@ Para la seguridad de los datos, implementamos protocolos de cifrado estándar de
 
 ### ¿Puedo verificar que mis datos están cifrados de extremo a extremo?
 
-Sí. Consulta nuestra guía, [cómo verificar el cifrado de extremo a extremo de Obsidian Sync](https://obsidian.md/blog/verify-obsidian-sync-encryption/). Esta guía proporciona instrucciones paso a paso para que verifiques sin necesidad de confiar el cifrado de extremo a extremo de tus datos cuando se envían y reciben a través de los servidores de Sync.
+Sí. Consulta nuestra guía, [cómo verificar el cifrado de extremo a extremo de Obsidian Sync](https://obsidian.md/es/blog/verify-obsidian-sync-encryption/). Esta guía proporciona instrucciones paso a paso para que verifiques sin necesidad de confiar el cifrado de extremo a extremo de tus datos cuando se envían y reciben a través de los servidores de Sync.
 
 ### ¿Ha completado Obsidian una auditoría de seguridad por terceros?
 
-Sí. Obsidian ha sido auditado de forma independiente. Visita nuestra [página de Seguridad](https://obsidian.md/security) para ver los informes de auditoría. Las auditorías regulares por empresas de seguridad externas aseguran que el código y los procedimientos de Obsidian cumplan con los más altos estándares de seguridad.
+Sí. Obsidian ha sido auditado de forma independiente. Visita nuestra [página de Seguridad](https://obsidian.md/es/security) para ver los informes de auditoría. Las auditorías regulares por empresas de seguridad externas aseguran que el código y los procedimientos de Obsidian cumplan con los más altos estándares de seguridad.
 
 ### ¿Qué sucede si olvido mi contraseña de cifrado?
 

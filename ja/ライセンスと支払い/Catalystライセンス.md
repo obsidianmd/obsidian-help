@@ -3,7 +3,7 @@ permalink: catalyst
 aliases:
   - ライセンスとアドオンサービス/カタリストライセンス
 ---
-Catalystライセンスは、ベータバージョンへの早期アクセスを提供し、Obsidianの継続的な開発を支援するための1回限りの購入です。[Catalystライセンスを購入](https://obsidian.md/buy/catalyst)することでObsidianをサポートできます。
+Catalystライセンスは、ベータバージョンへの早期アクセスを提供し、Obsidianの継続的な開発を支援するための1回限りの購入です。[Catalystライセンスを購入](https://obsidian.md/ja/buy/catalyst)することでObsidianをサポートできます。
 
 特典には以下が含まれます：
 
@@ -38,13 +38,13 @@ Catalystライセンスを購入すると、さまざまな特典にアクセス
 **注意：** Obsidianアカウントとフォーラムアカウントをリンクするには、両方のアカウントで同じメールアドレスを使用する必要があります。
 
 1. まだの場合は、[フォーラム](https://forum.obsidian.md/)に参加してください。
-2. [Obsidianアカウントダッシュボード](https://obsidian.md/account/catalyst)にアクセスしてください。
+2. [Obsidianアカウントダッシュボード](https://obsidian.md/ja/account/catalyst)にアクセスしてください。
 3. **Catalyst**の下にある**Get forum badge**を選択してください。
 
 ### Discordバッジを取得する
 
 1. まだの場合は、[Discordサーバー](https://discord.gg/veuWUTm)に参加してください。
-2. [Obsidianアカウントダッシュボード](https://obsidian.md/account/catalyst)にアクセスしてください。
+2. [Obsidianアカウントダッシュボード](https://obsidian.md/ja/account/catalyst)にアクセスしてください。
 3. **Catalyst**の下にある**Get Discord badge**を選択してください。
 
 ### インサイダーチャンネルに参加する

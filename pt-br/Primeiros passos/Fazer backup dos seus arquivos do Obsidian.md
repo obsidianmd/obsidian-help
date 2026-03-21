@@ -5,7 +5,7 @@ Se você ainda não fez backup do seu computador, comece agora! O plugin [[Recup
 
 **Por que fazer backup dos seus dados?**
 
-Por padrão, o Obsidian armazena suas notas **localmente** no seu dispositivo, não na nuvem. Isso significa que os [dados são totalmente seus](https://obsidian.md/about), dando a você controle sobre eles. No entanto, o armazenamento local pode ser afetado por problemas como corrupção ou perda de dados. Nunca é uma questão de se, mas de quando. Fazer backup dos seus dados protege contra essas inevitabilidades e garante que você mantenha o controle das suas notas.
+Por padrão, o Obsidian armazena suas notas **localmente** no seu dispositivo, não na nuvem. Isso significa que os [dados são totalmente seus](https://obsidian.md/pt-BR/about), dando a você controle sobre eles. No entanto, o armazenamento local pode ser afetado por problemas como corrupção ou perda de dados. Nunca é uma questão de se, mas de quando. Fazer backup dos seus dados protege contra essas inevitabilidades e garante que você mantenha o controle das suas notas.
 
 ## Sincronização não é backup
 
@@ -24,8 +24,8 @@ Se você usa múltiplos dispositivos com sincronização, escolha **um dispositi
 
 Embora a Equipe Obsidian não possa endossar oficialmente nenhum plugin específico, reconhecemos dois plugins da comunidade que se tornaram populares entre os usuários para fazer backup de seus arquivos:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Use este plugin para fazer backup do seu cofre commitando seu conteúdo em um [Repositório Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). É uma forma eficaz de versionar suas notas e garantir sua segurança em um servidor remoto. No entanto, esteja ciente de que seus dados podem ser armazenados em uma [[#Use serviços baseados em nuvem|plataforma de hospedagem externa]] usando este método.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Este plugin permite criar cópias locais do seu cofre em uma pasta de sua escolha, com opções de arquivamento. Você pode até usar uma pasta de sincronização, como uma pasta do Dropbox, para combinar backups locais e na nuvem. Este método **combina bem** com as opções de backup descritas abaixo.
+- **[Obsidian Git](https://obsidian.md/pt-BR/plugins?id=obsidian-git):** Use este plugin para fazer backup do seu cofre commitando seu conteúdo em um [Repositório Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). É uma forma eficaz de versionar suas notas e garantir sua segurança em um servidor remoto. No entanto, esteja ciente de que seus dados podem ser armazenados em uma [[#Use serviços baseados em nuvem|plataforma de hospedagem externa]] usando este método.
+- **[Local Backup](https://obsidian.md/pt-BR/plugins?id=local-backup):** Este plugin permite criar cópias locais do seu cofre em uma pasta de sua escolha, com opções de arquivamento. Você pode até usar uma pasta de sincronização, como uma pasta do Dropbox, para combinar backups locais e na nuvem. Este método **combina bem** com as opções de backup descritas abaixo.
 
 ## Use serviços baseados em nuvem
 
@@ -64,4 +64,4 @@ Seu próprio sistema operacional oferece a capacidade de ajudar a criar backups,
 
 ## Próximos passos
 
-Esta página de ajuda fornece uma visão geral breve das opções de backup, mas não é exaustiva. Para informações mais detalhadas, visite [Worldbackupday.com](https://www.worldbackupday.com/en) ou pergunte a outros usuários do Obsidian em [nossa comunidade](https://obsidian.md/community) sobre suas estratégias de backup!
+Esta página de ajuda fornece uma visão geral breve das opções de backup, mas não é exaustiva. Para informações mais detalhadas, visite [Worldbackupday.com](https://www.worldbackupday.com/en) ou pergunte a outros usuários do Obsidian em [nossa comunidade](https://obsidian.md/pt-BR/community) sobre suas estratégias de backup!

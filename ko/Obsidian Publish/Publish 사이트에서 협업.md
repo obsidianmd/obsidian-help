@@ -7,7 +7,7 @@ description: Learn how to collaborate with other Obsidian users on your Obsidian
 
 다른 Obsidian 사용자와 [[Obsidian Publish 소개|Obsidian Publish]] 사이트에서 협업하는 방법을 알아보세요. 친구와 동료를 공동 작업자로 추가하면, 그들이 사이트에 변경 사항을 게재할 수 있어요.
 
-사이트 소유자만 Obsidian Publish의 활성 구독이 필요해요. 공동 작업자는 [Obsidian 계정](https://obsidian.md/account)만 있으면 돼요.
+사이트 소유자만 Obsidian Publish의 활성 구독이 필요해요. 공동 작업자는 [Obsidian 계정](https://obsidian.md/ko/account)만 있으면 돼요.
 
 > [!warning] 공유 사이트에 변경 사항을 게재하기 전에, 반드시 [[#공동 작업자 간 변경 사항 동기화|공동 작업자 간 변경 사항을 동기화]]하세요. 그렇지 않으면 다른 공동 작업자의 변경 사항을 덮어쓸 위험이 있어요.
 

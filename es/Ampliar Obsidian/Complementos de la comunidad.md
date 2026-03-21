@@ -18,7 +18,7 @@ Aprende cómo ampliar Obsidian con complementos creados por la comunidad. Usa co
 
 Usa el cuadro de texto para filtrar complementos según su nombre, autor y descripción.
 
-También puedes explorar los complementos disponibles en tu navegador, dirigiéndote a [obsidian.md/plugins](https://obsidian.md/plugins).
+También puedes explorar los complementos disponibles en tu navegador, dirigiéndote a [obsidian.md/plugins](https://obsidian.md/es/plugins).
 
 ## Instalar un complemento de la comunidad
 

@@ -56,7 +56,7 @@ Se usi Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- Se usi Flatpak prova una [versione di Obsidian ufficialmente supportata](https://obsidian.md/download).
+- Se usi Flatpak prova una [versione di Obsidian ufficialmente supportata](https://obsidian.md/it/download).
 - Se usi KDE vai in **Impostazioni di sistema** → **Gestione finestre** → **Regole finestre** e consenti a Obsidian di prendere il focus, [[web-clipper-kde.png|vedi screenshot]].
 - Come soluzione alternativa, prova a passare alla **Modalità legacy** in **Impostazioni Web Clipper** → **Generale**. Questo bypassa gli appunti e salva il contenuto direttamente tramite URI. Nota che questo limiterà il numero di caratteri che possono essere catturati a seconda del tuo browser e della distribuzione Linux.
 

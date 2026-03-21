@@ -23,15 +23,15 @@ aliases:
 
 فيما يلي روابط هامة للأجزاء ذات الصلة من موقعنا الرئيسي، وهي مدرجة هنا للوصول السريع.
 
-- [شراء منتجاتنا](https://obsidian.md/pricing)
+- [شراء منتجاتنا](https://obsidian.md/ar/pricing)
 	- شراء ترخيص تجاري أو Obsidian Sync أو Obsidian Publish
 - [الإبلاغ عن خطأ](https://forum.obsidian.md/c/bug-reports/7)
 	- الإبلاغ عن مشكلة في التطبيق
 - [طلب ميزة جديدة](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
 	- تقديم طلب لميزة جديدة
-- [نظرة عامة على الترخيص](https://obsidian.md/license)
+- [نظرة عامة على الترخيص](https://obsidian.md/ar/license)
 	- مراجعة نظرة عامة على الترخيص بلغة بسيطة
-- [شروط الخدمة](https://obsidian.md/terms)
+- [شروط الخدمة](https://obsidian.md/ar/terms)
 	- مراجعة أحدث شروط الخدمة
-- [سياسة الخصوصية](https://obsidian.md/privacy)
+- [سياسة الخصوصية](https://obsidian.md/ar/privacy)
 	- مراجعة سياسة الخصوصية

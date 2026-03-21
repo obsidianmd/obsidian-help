@@ -3,7 +3,7 @@ permalink: android
 aliases:
   - Obsidian for Android
 ---
-يوفر تطبيق Obsidian للهاتف المحمول على Android إمكانيات قوية لتدوين الملاحظات على جهاز Android الخاص بك. يمكنك تنزيله من [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) أو كـ [ملف APK](https://obsidian.md/download).
+يوفر تطبيق Obsidian للهاتف المحمول على Android إمكانيات قوية لتدوين الملاحظات على جهاز Android الخاص بك. يمكنك تنزيله من [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) أو كـ [ملف APK](https://obsidian.md/ar/download).
 يدعم التطبيق إصدارات Android 5.1 وما فوق.
 
 تغطي هذه الصفحة الميزات الخاصة بنظام Android بما في ذلك الودجات، وتكامل الإعدادات السريعة، والاختصارات.
@@ -24,7 +24,7 @@ aliases:
 
 بسبب قيود Android، سيطلب Obsidian إذن "جميع الملفات" ليعمل بشكل موثوق. توصي Google بهذا للتطبيقات مثل Obsidian التي تُعتبر "تطبيقات إدارة المستندات". [تعلم المزيد](https://developer.android.com/training/data-storage/manage-all-files).
 
-يستخدم التطبيق هذا الإذن فقط لمساعدتك في الوصول إلى بياناتك على جهازك. بياناتك لا يمكننا الوصول إليها أبدًا. لمعرفة المزيد حول كيفية حماية بياناتك وضمان خصوصيتك، قم بزيارة [صفحة الأمان](https://obsidian.md/security) الخاصة بنا.
+يستخدم التطبيق هذا الإذن فقط لمساعدتك في الوصول إلى بياناتك على جهازك. بياناتك لا يمكننا الوصول إليها أبدًا. لمعرفة المزيد حول كيفية حماية بياناتك وضمان خصوصيتك، قم بزيارة [صفحة الأمان](https://obsidian.md/ar/security) الخاصة بنا.
 
 ### تخزين التطبيق
 

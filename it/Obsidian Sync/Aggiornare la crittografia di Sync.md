@@ -18,8 +18,8 @@ Tutti i nuovi vault utilizzano automaticamente la crittografia più recente. I v
 
 | Data di rilascio                                                        | Versione Sync | Versione minima dell'app |
 | ----------------------------------------------------------------------- | ------------- | ------------------------ |
-| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3             | 1.8.3                    |
-| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0             | 0.9.21                   |
+| [2025-08-22](https://obsidian.md/it/changelog/2025-08-22-sync/)            | 3             | 1.8.3                    |
+| [2020-12-07](https://obsidian.md/it/changelog/2020-12-07-desktop-v0.9.21/) | 0             | 0.9.21                   |
 
 ## Aggiornare la crittografia con l'assistente alla migrazione
 

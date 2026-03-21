@@ -7,7 +7,7 @@ aliases:
   - Licenses & add-on services/Obsidian Publish
   - Plugins/Publish
 ---
-[Obsidian Publish](https://obsidian.md/publish) es un servicio de alojamiento en la nube que te permite publicar tus notas como un wiki, base de conocimiento, documentación o jardín digital.
+[Obsidian Publish](https://obsidian.md/es/publish) es un servicio de alojamiento en la nube que te permite publicar tus notas como un wiki, base de conocimiento, documentación o jardín digital.
 
 Selecciona las notas que deseas compartir con el mundo, presiona **Publicar**, y las alojaremos en `publish.obsidian.md/your-site`
 

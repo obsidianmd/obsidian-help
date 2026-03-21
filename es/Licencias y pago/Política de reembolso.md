@@ -21,7 +21,7 @@ Ofrecemos reembolsos completos dentro de los 7 días posteriores a la compra, si
 
 ## Solicitar un reembolso
 
-1. Inicia sesión en [tu cuenta de Obsidian](https://obsidian.md/account/billing).
+1. Inicia sesión en [tu cuenta de Obsidian](https://obsidian.md/es/account/billing).
 2. En **Facturación → Facturas y reembolsos**, selecciona **Ver**.
 3. Junto a los pagos para los que deseas un reembolso, si cumples los requisitos, verás un enlace para **Obtener reembolso**. Haz clic en el enlace.
 4. Tu servicio será eliminado y cualquier renovación automática también será cancelada. Si confirmas que deseas proceder, haz clic en **Solicitar reembolso**.

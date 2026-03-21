@@ -42,11 +42,11 @@ Para segurança de dados, implementamos protocolos de criptografia padrão da in
 
 ### Posso verificar se meus dados estão criptografados de ponta a ponta?
 
-Sim. Veja nosso guia, [como verificar a criptografia de ponta a ponta do Obsidian Sync](https://obsidian.md/blog/verify-obsidian-sync-encryption/). Este guia fornece instruções passo a passo para você verificar de forma independente a criptografia de ponta a ponta dos seus dados quando são enviados e recebidos pelos servidores do Sync.
+Sim. Veja nosso guia, [como verificar a criptografia de ponta a ponta do Obsidian Sync](https://obsidian.md/pt-BR/blog/verify-obsidian-sync-encryption/). Este guia fornece instruções passo a passo para você verificar de forma independente a criptografia de ponta a ponta dos seus dados quando são enviados e recebidos pelos servidores do Sync.
 
 ### A Obsidian completou uma auditoria de segurança de terceiros?
 
-Sim. A Obsidian foi auditada de forma independente. Visite nossa [página de Segurança](https://obsidian.md/security) para ver os relatórios de auditoria. Auditorias regulares por empresas de segurança terceirizadas garantem que o código e os procedimentos da Obsidian atendam aos mais altos padrões de segurança.
+Sim. A Obsidian foi auditada de forma independente. Visite nossa [página de Segurança](https://obsidian.md/pt-BR/security) para ver os relatórios de auditoria. Auditorias regulares por empresas de segurança terceirizadas garantem que o código e os procedimentos da Obsidian atendam aos mais altos padrões de segurança.
 
 ### O que acontece se eu esquecer minha senha de criptografia?
 

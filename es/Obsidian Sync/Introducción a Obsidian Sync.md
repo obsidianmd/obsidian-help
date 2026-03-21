@@ -9,7 +9,7 @@ description: Obsidian Sync es un servicio adicional que te permite sincronizar t
 aliases:
   - Licenses & add-on services/Obsidian Sync
 ---
-[Obsidian Sync](https://obsidian.md/sync) es un servicio adicional que te permite sincronizar tus notas de forma privada entre dispositivos.
+[Obsidian Sync](https://obsidian.md/es/sync) es un servicio adicional que te permite sincronizar tus notas de forma privada entre dispositivos.
 
 ## Cómo usar Obsidian Sync
 

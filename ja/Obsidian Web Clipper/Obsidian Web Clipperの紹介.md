@@ -42,4 +42,4 @@ Obsidian Web Clipperは、ページをハイライトしてウェブコンテン
 
 ## プライバシー
 
-Obsidian Web ClipperはコンテンツをローカルのあなたのObsidian保管庫に保存し、当社の[プライバシーポリシー](https://obsidian.md/privacy)に従います。あなたのデータは収集されず、利用状況の指標も一切収集しません。コードは[オープンソース](https://github.com/obsidianmd/obsidian-clipper)であり、監査可能です。
+Obsidian Web ClipperはコンテンツをローカルのあなたのObsidian保管庫に保存し、当社の[プライバシーポリシー](https://obsidian.md/ja/privacy)に従います。あなたのデータは収集されず、利用状況の指標も一切収集しません。コードは[オープンソース](https://github.com/obsidianmd/obsidian-clipper)であり、監査可能です。

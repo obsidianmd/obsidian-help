@@ -8,8 +8,8 @@ description: 'In this guide, you''ll enable Obsidian Publish for your vault, cre
 
 ## 전제 조건
 
-- Obsidian 계정. 계정이 없다면 [회원가입](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup)하세요.
-- 활성화된 Obsidian Publish 구독. 구독이 없다면 [계정 대시보드](https://obsidian.md/account/publish)에서 구독하세요.
+- Obsidian 계정. 계정이 없다면 [회원가입](https://obsidian.md/ko/auth?returnto=%2Faccount%2Fpublish#signup)하세요.
+- 활성화된 Obsidian Publish 구독. 구독이 없다면 [계정 대시보드](https://obsidian.md/ko/account/publish)에서 구독하세요.
 
 ## Obsidian 계정으로 로그인
 

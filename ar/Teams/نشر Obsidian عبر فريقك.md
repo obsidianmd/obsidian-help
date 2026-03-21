@@ -9,7 +9,7 @@ aliases:
 
 ## تثبيت Obsidian وتحديثه
 
-يمكن لفريقك تنزيل Obsidian من [صفحة التنزيل](https://obsidian.md/download) الخاصة بنا. كما تتوفر الإصدارات على [صفحة إصدارات GitHub](https://github.com/obsidianmd/obsidian-releases/releases) التي تتضمن روابط إلى [سجل التغييرات](https://obsidian.md/changelog/).
+يمكن لفريقك تنزيل Obsidian من [صفحة التنزيل](https://obsidian.md/ar/download) الخاصة بنا. كما تتوفر الإصدارات على [صفحة إصدارات GitHub](https://github.com/obsidianmd/obsidian-releases/releases) التي تتضمن روابط إلى [سجل التغييرات](https://obsidian.md/ar/changelog/).
 
 > [!tip] لمستخدمي Windows الذين يحتاجون إلى مُثبّت للنظام، يتضمن ملف `.exe` العام خيار تثبيت Obsidian لجميع المستخدمين.
 

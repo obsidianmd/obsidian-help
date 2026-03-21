@@ -44,11 +44,11 @@ Per la sicurezza dei dati, implementiamo protocolli di crittografia standard del
 
 ### Posso verificare che i miei dati siano crittografati end-to-end?
 
-Sì. Consulta la nostra guida, [come verificare la crittografia end-to-end di Obsidian Sync](https://obsidian.md/blog/verify-obsidian-sync-encryption/). Questa guida fornisce istruzioni passo-passo per verificare in modo trustless la crittografia end-to-end dei tuoi dati quando vengono inviati e ricevuti tramite i server Sync.
+Sì. Consulta la nostra guida, [come verificare la crittografia end-to-end di Obsidian Sync](https://obsidian.md/it/blog/verify-obsidian-sync-encryption/). Questa guida fornisce istruzioni passo-passo per verificare in modo trustless la crittografia end-to-end dei tuoi dati quando vengono inviati e ricevuti tramite i server Sync.
 
 ### Obsidian ha completato un audit di sicurezza di terze parti?
 
-Sì. Obsidian è stato sottoposto a un audit indipendente. Visita la nostra [pagina Sicurezza](https://obsidian.md/security) per consultare i rapporti di audit. Gli audit regolari da parte di aziende di sicurezza di terze parti garantiscono che il codice e le procedure di Obsidian soddisfino i più alti standard di sicurezza.
+Sì. Obsidian è stato sottoposto a un audit indipendente. Visita la nostra [pagina Sicurezza](https://obsidian.md/it/security) per consultare i rapporti di audit. Gli audit regolari da parte di aziende di sicurezza di terze parti garantiscono che il codice e le procedure di Obsidian soddisfino i più alti standard di sicurezza.
 
 ### Cosa succede se dimentico la password di crittografia?
 

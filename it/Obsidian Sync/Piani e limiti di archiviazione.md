@@ -8,7 +8,7 @@ aliases:
 ---
 ## Piani
 
-Per sincronizzare le tue note con [[Introduzione a Obsidian Sync|Obsidian Sync]] hai bisogno di un piano in abbonamento. Puoi acquistare un piano Sync accedendo al [tuo account](https://obsidian.md/account/sync). Consulta la [pagina di Sync](https://obsidian.md/sync) per i prezzi.
+Per sincronizzare le tue note con [[Introduzione a Obsidian Sync|Obsidian Sync]] hai bisogno di un piano in abbonamento. Puoi acquistare un piano Sync accedendo al [tuo account](https://obsidian.md/it/account/sync). Consulta la [pagina di Sync](https://obsidian.md/it/sync) per i prezzi.
 
 Di seguito un confronto tra il piano Standard e il piano Plus:
 
@@ -23,7 +23,7 @@ Di seguito un confronto tra il piano Standard e il piano Plus:
 
 ## Limiti di archiviazione
 
-La quantità di dati che puoi archiviare utilizzando [[Introduzione a Obsidian Sync|Obsidian Sync]] dipende dal tuo piano di abbonamento. Con il piano Sync Plus puoi acquistare spazio di archiviazione aggiuntivo fino a 100 GB tramite la [dashboard del tuo account](https://obsidian.md/account/sync). Consulta le [[Domande frequenti]] per maggiori dettagli.
+La quantità di dati che puoi archiviare utilizzando [[Introduzione a Obsidian Sync|Obsidian Sync]] dipende dal tuo piano di abbonamento. Con il piano Sync Plus puoi acquistare spazio di archiviazione aggiuntivo fino a 100 GB tramite la [dashboard del tuo account](https://obsidian.md/it/account/sync). Consulta le [[Domande frequenti]] per maggiori dettagli.
 
 Esiste un unico limite di archiviazione a livello di account per tutte le note in tutte le cassaforti. Anche la [[Cronologia versioni|cronologia versioni]] e gli [[Allegati|allegati]] vengono conteggiati nel limite di archiviazione del tuo account.
 
@@ -62,7 +62,7 @@ Il nuovo caveau remoto dovrebbe essere più piccolo del precedente, grazie all'a
 
 ## Aggiornare il piano
 
-Puoi aggiornare il tuo piano accedendo alla [dashboard del tuo account](https://obsidian.md/account/sync). Da lì potrai passare da Sync Standard a Sync Plus e aumentare lo spazio di archiviazione fino a 100 GB.
+Puoi aggiornare il tuo piano accedendo alla [dashboard del tuo account](https://obsidian.md/it/account/sync). Da lì potrai passare da Sync Standard a Sync Plus e aumentare lo spazio di archiviazione fino a 100 GB.
 
 ## Declassare il piano
 

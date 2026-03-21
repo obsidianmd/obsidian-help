@@ -21,15 +21,15 @@ O Obsidian pode ser usado como um aplicativo de anotações para indivíduos e c
 
 Abaixo estão links importantes para partes relevantes do nosso site principal, listados aqui para acesso rápido.
 
-- [Comprar nossos produtos](https://obsidian.md/pricing)
+- [Comprar nossos produtos](https://obsidian.md/pt-BR/pricing)
 	- Comprar uma Licença comercial, Sync ou Publish
 - [Reportar um bug](https://forum.obsidian.md/c/bug-reports/7)
 	- Reportar um problema no aplicativo
 - [Solicitar um novo recurso](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
 	- Enviar uma solicitação de recurso
-- [Visão geral da licença](https://obsidian.md/license)
+- [Visão geral da licença](https://obsidian.md/pt-BR/license)
 	- Revise nossa visão geral da licença em linguagem simples
-- [Termos de Serviço](https://obsidian.md/terms)
+- [Termos de Serviço](https://obsidian.md/pt-BR/terms)
 	- Revise nossos Termos de Serviço mais recentes
-- [Política de Privacidade](https://obsidian.md/privacy)
+- [Política de Privacidade](https://obsidian.md/pt-BR/privacy)
 	- Revise nossa política de privacidade

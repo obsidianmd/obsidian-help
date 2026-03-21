@@ -95,4 +95,4 @@ Obsidian [[Часто задаваемые вопросы#Obsidian Sync пере
 Эта проблема, скорее всего, связана с тем, что Google или Android Фото управляют вашими вложениями. Чтобы система не изменяла файлы, полученные через синхронизацию, добавьте файл `.nomedia` [в ваше хранилище](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) на устройстве Android.
 
 > [!tip]- Используйте плагин
-> Плагин сообщества [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) упрощает эту задачу. Установите его на свой телефон Android. Обратите внимание, что файлы `.nomedia` не синхронизируются между устройствами через Obsidian Sync.
+> Плагин сообщества [Android Nomedia](https://obsidian.md/ru/plugins?id=android-nomedia) упрощает эту задачу. Установите его на свой телефон Android. Обратите внимание, что файлы `.nomedia` не синхронизируются между устройствами через Obsidian Sync.

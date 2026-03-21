@@ -9,7 +9,7 @@ description: Obsidian Syncは、デバイス間でプライベートにノート
 aliases:
   - ライセンスとアドオンサービス/Obsidian Sync
 ---
-[Obsidian Sync](https://obsidian.md/sync)は、デバイス間でプライベートにノートを同期できるアドオンサービスです。
+[Obsidian Sync](https://obsidian.md/ja/sync)は、デバイス間でプライベートにノートを同期できるアドオンサービスです。
 
 ## Obsidian Syncの使い方
 

@@ -7,7 +7,7 @@ Se non hai ancora eseguito il backup del tuo computer, inizia ora! Il plugin [[R
 
 **Perché eseguire il backup dei tuoi dati?**
 
-Per impostazione predefinita, Obsidian memorizza le tue note **localmente** sul tuo dispositivo, non nel cloud. Questo significa che i [dati sono completamente tuoi](https://obsidian.md/about), dandoti il controllo su di essi. Tuttavia, l'archiviazione locale può essere soggetta a problemi come corruzione o perdita di dati. Non è mai una questione di se, ma di quando. Eseguire il backup dei tuoi dati protegge da queste inevitabilità e garantisce che tu mantenga il controllo delle tue note.
+Per impostazione predefinita, Obsidian memorizza le tue note **localmente** sul tuo dispositivo, non nel cloud. Questo significa che i [dati sono completamente tuoi](https://obsidian.md/it/about), dandoti il controllo su di essi. Tuttavia, l'archiviazione locale può essere soggetta a problemi come corruzione o perdita di dati. Non è mai una questione di se, ma di quando. Eseguire il backup dei tuoi dati protegge da queste inevitabilità e garantisce che tu mantenga il controllo delle tue note.
 
 ## La sincronizzazione non è un backup
 
@@ -26,8 +26,8 @@ Se usi più dispositivi con la sincronizzazione, scegli **un dispositivo** come 
 
 Sebbene il Team di Obsidian non possa ufficialmente raccomandare alcun plugin specifico, riconosciamo due plugin della community che sono diventati popolari tra gli utenti per il backup dei loro file:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Usa questo plugin per eseguire il backup della tua cassaforte effettuando il commit dei suoi contenuti in un [Repository Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). È un modo efficace per controllare le versioni delle tue note e garantire la loro sicurezza su un server remoto. Tuttavia, tieni presente che i tuoi dati potrebbero essere memorizzati su una [[#Usa servizi basati sul cloud|piattaforma di hosting esterna]] con questo metodo.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Questo plugin ti permette di creare copie locali della tua cassaforte in una cartella a tua scelta, con opzioni per l'archiviazione. Puoi persino usare una cartella di sincronizzazione, come una cartella Dropbox, per combinare backup locali e nel cloud. Questo metodo **si abbina bene** con le opzioni di backup descritte di seguito.
+- **[Obsidian Git](https://obsidian.md/it/plugins?id=obsidian-git):** Usa questo plugin per eseguire il backup della tua cassaforte effettuando il commit dei suoi contenuti in un [Repository Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). È un modo efficace per controllare le versioni delle tue note e garantire la loro sicurezza su un server remoto. Tuttavia, tieni presente che i tuoi dati potrebbero essere memorizzati su una [[#Usa servizi basati sul cloud|piattaforma di hosting esterna]] con questo metodo.
+- **[Local Backup](https://obsidian.md/it/plugins?id=local-backup):** Questo plugin ti permette di creare copie locali della tua cassaforte in una cartella a tua scelta, con opzioni per l'archiviazione. Puoi persino usare una cartella di sincronizzazione, come una cartella Dropbox, per combinare backup locali e nel cloud. Questo metodo **si abbina bene** con le opzioni di backup descritte di seguito.
 
 ## Usa servizi basati sul cloud
 
@@ -66,4 +66,4 @@ Il tuo sistema operativo stesso offre la possibilità di creare backup, sia onli
 
 ## Prossimi passi
 
-Questa pagina di aiuto fornisce una breve panoramica delle opzioni di backup, ma non è esaustiva. Per informazioni più approfondite, visita [Worldbackupday.com](https://www.worldbackupday.com/en) o chiedi ad altri utenti di Obsidian nella [nostra community](https://obsidian.md/community) le loro strategie di backup!
+Questa pagina di aiuto fornisce una breve panoramica delle opzioni di backup, ma non è esaustiva. Per informazioni più approfondite, visita [Worldbackupday.com](https://www.worldbackupday.com/en) o chiedi ad altri utenti di Obsidian nella [nostra community](https://obsidian.md/it/community) le loro strategie di backup!

@@ -1,11 +1,11 @@
 ---
 permalink: 2fa
 ---
-Si tienes una [cuenta de Obsidian](https://obsidian.md/account), puedes activar la autenticación de dos factores (2FA) para proteger tu cuenta con un segundo paso de verificación.
+Si tienes una [cuenta de Obsidian](https://obsidian.md/es/account), puedes activar la autenticación de dos factores (2FA) para proteger tu cuenta con un segundo paso de verificación.
 
 ## Activar 2FA
 
-- Inicia sesión en [tu cuenta de Obsidian](https://obsidian.md/account/profile) desde tu navegador web.
+- Inicia sesión en [tu cuenta de Obsidian](https://obsidian.md/es/account/profile) desde tu navegador web.
 - En la sección **Profile**, ve a **2-factor authentication** y selecciona **Enable**.
 - Aparecerá una ventana emergente que te pedirá conectar una aplicación de autenticación mediante un **código QR** o una **clave de configuración**.
 
@@ -29,7 +29,7 @@ Tu 2FA ya está configurado.
 
 Si activaste 2FA antes de que los códigos de recuperación estuvieran disponibles, o si deseas actualizar tus códigos de recuperación, sigue estos pasos:
 
-- Inicia sesión en [tu cuenta de Obsidian](https://obsidian.md/account/profile) desde tu navegador web.
+- Inicia sesión en [tu cuenta de Obsidian](https://obsidian.md/es/account/profile) desde tu navegador web.
 - Junto a 2-factor authentication, selecciona **Refresh recovery codes**.
 - En la ventana emergente, introduce tu **contraseña** y el **código de 6 dígitos del autenticador**.
 - Una ventana de confirmación mostrará tus códigos de recuperación. Tienes dos opciones:
@@ -41,7 +41,7 @@ Puedes usar un código de recuperación **una sola vez** en lugar de tu **códig
 
 ## Desactivar 2FA
 
-- Inicia sesión en [tu cuenta de Obsidian](https://obsidian.md/account/profile) desde tu navegador web.
+- Inicia sesión en [tu cuenta de Obsidian](https://obsidian.md/es/account/profile) desde tu navegador web.
 - En la sección **Profile**, ve a **2-factor authentication** y selecciona **Disable**.
 - Introduce tu contraseña de Obsidian.
 - Introduce el código de seis dígitos actual de tu aplicación de autenticación.

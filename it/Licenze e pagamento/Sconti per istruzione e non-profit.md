@@ -9,7 +9,7 @@ Obsidian offre attualmente due tipi di sconti: istruzione e organizzazioni non p
 
 ## Come fare domanda
 
-1. Vai alla [dashboard del tuo account](https://obsidian.md/account/billing).
+1. Vai alla [dashboard del tuo account](https://obsidian.md/it/account/billing).
 2. Nella sezione **Fatturazione**, trova la sezione **Sconto** e clicca sul collegamento **Applica**.
 3. Seleziona un tipo di sconto in base alla tua situazione, inserisci il tuo **email educativo o dell'organizzazione** (non l'email del tuo account).
 4. Clicca **Invia domanda**.
@@ -21,7 +21,7 @@ Congratulazioni! Ora vedrai lo sconto quando proverai ad acquistare Obsidian Syn
 
 ## Come rinnovare
 
-Una volta che hai uno sconto attivo, puoi vedere quando scadrà in **Fatturazione → Sconto** del [tuo account](https://obsidian.md/account/billing).
+Una volta che hai uno sconto attivo, puoi vedere quando scadrà in **Fatturazione → Sconto** del [tuo account](https://obsidian.md/it/account/billing).
 
 Una settimana prima della scadenza del tuo sconto, riceverai un'email di promemoria per rinnovarlo. Puoi seguire gli stessi passaggi in "[[#Come fare domanda]]" per rinnovare lo sconto, se ne hai ancora diritto.
 

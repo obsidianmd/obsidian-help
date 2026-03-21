@@ -54,7 +54,7 @@ Si usas Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- Si usas Flatpak considera probar una [versión de Obsidian oficialmente soportada](https://obsidian.md/download).
+- Si usas Flatpak considera probar una [versión de Obsidian oficialmente soportada](https://obsidian.md/es/download).
 - Si usas KDE ve a **Configuración del sistema** → **Gestión de ventanas** → **Reglas de ventanas** y permite que Obsidian tome el foco, [[web-clipper-kde.png|ver captura de pantalla]].
 - Como alternativa, intenta cambiar al **modo Legado** en **Ajustes de Web Clipper** → **General**. Esto omitirá el portapapeles y guardará el contenido directamente a través de URI. Ten en cuenta que esto limitará el número de caracteres que se pueden recortar dependiendo de tu navegador y distribución de Linux.
 

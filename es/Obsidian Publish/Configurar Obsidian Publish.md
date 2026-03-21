@@ -7,8 +7,8 @@ En esta guía, habilitarás [[Introducción a Obsidian Publish|Obsidian Publish]
 
 ## Requisitos previos
 
-- Una cuenta de Obsidian. Si no tienes una, [regístrate ahora](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- Una suscripción activa a Obsidian Publish. Si no tienes una, suscríbete desde [el panel de tu cuenta](https://obsidian.md/account/publish).
+- Una cuenta de Obsidian. Si no tienes una, [regístrate ahora](https://obsidian.md/es/auth?returnto=%2Faccount%2Fpublish#signup).
+- Una suscripción activa a Obsidian Publish. Si no tienes una, suscríbete desde [el panel de tu cuenta](https://obsidian.md/es/account/publish).
 
 ## Iniciar sesión con tu cuenta de Obsidian
 

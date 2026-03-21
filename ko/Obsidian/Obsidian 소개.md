@@ -58,6 +58,6 @@ Obsidian은 [[내부 링크]], [[백링크]], [[그래프 뷰]]를 통해 연결
 
 ## 개발 과정을 따라가세요
 
-[로드맵](https://obsidian.md/roadmap/)에서 현재 작업 중인 내용을 확인할 수 있어요.
+[로드맵](https://obsidian.md/ko/roadmap/)에서 현재 작업 중인 내용을 확인할 수 있어요.
 
 트위터 계정은 [@obsdmd](https://twitter.com/obsdmd)이며, 팔로우해 주세요. 주로 제품 업데이트에 대해 트윗해요.

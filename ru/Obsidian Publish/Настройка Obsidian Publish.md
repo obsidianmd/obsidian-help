@@ -9,8 +9,8 @@ aliases:
 
 ## Предварительные требования
 
-- Аккаунт Obsidian. Если у вас его нет, [зарегистрируйтесь](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- Активная подписка на Obsidian Publish. Если у вас её нет, оформите подписку в [панели управления аккаунтом](https://obsidian.md/account/publish).
+- Аккаунт Obsidian. Если у вас его нет, [зарегистрируйтесь](https://obsidian.md/ru/auth?returnto=%2Faccount%2Fpublish#signup).
+- Активная подписка на Obsidian Publish. Если у вас её нет, оформите подписку в [панели управления аккаунтом](https://obsidian.md/ru/account/publish).
 
 ## Войдите с помощью аккаунта Obsidian
 

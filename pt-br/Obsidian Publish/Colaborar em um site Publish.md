@@ -8,7 +8,7 @@ aliases:
 ---
 Aprenda como colaborar no seu site [[Introdução ao Obsidian Publish|Obsidian Publish]] com outros usuários do Obsidian. Ao adicionar seus amigos e colegas como colaboradores, eles podem publicar mudanças no seu site.
 
-Apenas o proprietário do site precisa de uma assinatura ativa do Obsidian Publish. Os colaboradores precisam apenas de uma [conta Obsidian](https://obsidian.md/account).
+Apenas o proprietário do site precisa de uma assinatura ativa do Obsidian Publish. Os colaboradores precisam apenas de uma [conta Obsidian](https://obsidian.md/pt-BR/account).
 
 > [!warning] Antes de publicar mudanças em um site compartilhado, certifique-se de [[#Sincronizar mudanças entre colaboradores|sincronizar mudanças entre colaboradores]]. Caso contrário, você corre o risco de sobrescrever mudanças de outros colaboradores.
 

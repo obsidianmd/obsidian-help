@@ -10,8 +10,8 @@ Esta página explica como gerenciar seu conteúdo publicado. Para aprender como 
 
 ## Pré-requisitos
 
-- Uma conta Obsidian. Se você não tem uma, [crie uma conta agora](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- Uma assinatura ativa do Obsidian Publish. Se você não tem uma, assine no [painel da sua conta](https://obsidian.md/account/publish).
+- Uma conta Obsidian. Se você não tem uma, [crie uma conta agora](https://obsidian.md/pt-BR/auth?returnto=%2Faccount%2Fpublish#signup).
+- Uma assinatura ativa do Obsidian Publish. Se você não tem uma, assine no [painel da sua conta](https://obsidian.md/pt-BR/account/publish).
 - O plugin nativo **Publish** está [[Configurar o Obsidian Publish#Ativar o Obsidian Publish|ativado]].
 - Um [[Gerenciar sites#Criar um novo site|site Publish]] foi criado.
 

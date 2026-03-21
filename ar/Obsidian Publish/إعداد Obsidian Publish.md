@@ -10,8 +10,8 @@ aliases:
 
 ## المتطلبات الأساسية
 
-- حساب Obsidian. إذا لم يكن لديك حساب، [اشترك الآن](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- اشتراك نشط في Obsidian Publish. إذا لم يكن لديك اشتراك، اشترك من [لوحة تحكم حسابك](https://obsidian.md/account/publish).
+- حساب Obsidian. إذا لم يكن لديك حساب، [اشترك الآن](https://obsidian.md/ar/auth?returnto=%2Faccount%2Fpublish#signup).
+- اشتراك نشط في Obsidian Publish. إذا لم يكن لديك اشتراك، اشترك من [لوحة تحكم حسابك](https://obsidian.md/ar/account/publish).
 
 ## تسجيل الدخول بحساب Obsidian الخاص بك
 

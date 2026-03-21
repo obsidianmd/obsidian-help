@@ -21,7 +21,7 @@ Offriamo rimborsi completi entro 7 giorni dall'acquisto senza domande per i segu
 
 ## Richiedere un rimborso
 
-1. Accedi al [tuo account Obsidian](https://obsidian.md/account/billing).
+1. Accedi al [tuo account Obsidian](https://obsidian.md/it/account/billing).
 2. In **Fatturazione → Fatture e rimborsi**, seleziona **Vista**.
 3. Accanto ai pagamenti per cui si desidera un rimborso, se si ha diritto a un rimborso, sarà visibile un collegamento **Ottieni rimborso**. Fai clic su di esso.
 4. Il servizio verrà rimosso e anche gli eventuali rinnovi automatici saranno annullati. Per confermare, fai clic su **Richiedi rimborso**.

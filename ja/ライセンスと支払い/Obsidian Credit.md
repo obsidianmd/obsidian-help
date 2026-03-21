@@ -7,8 +7,8 @@ Obsidianクレジットは自動更新を含むすべての支払いに先立っ
 
 ## クレジットの追加
 
-1. [Obsidianアカウント](https://obsidian.md/account/billing)にログインします。
-2. [請求](https://obsidian.md/account/billing)セクションで、**Obsidian Credit**の項目から**Buy credit**を選択します。
+1. [Obsidianアカウント](https://obsidian.md/ja/account/billing)にログインします。
+2. [請求](https://obsidian.md/ja/account/billing)セクションで、**Obsidian Credit**の項目から**Buy credit**を選択します。
 3. 購入したいObsidianクレジットの金額を入力します。金額は米ドルです。
 4. サポートされている支払い方法でクレジットの購入を実行します。
 
@@ -28,7 +28,7 @@ Obsidianクレジットは一度受け取ると再度ギフトとして贈るこ
 Obsidianでは、特定の製品をギフトとして贈るのではなく、何にでも使えるObsidianクレジットを贈ります。Obsidianのギフトカードのようなものです。
 
 1. [[Obsidian Credit|Obsidianクレジット]]をまだお持ちでない場合は、まず[[Obsidian Credit#クレジットの追加|クレジットを購入]]してください。
-2. アカウントの[請求](https://obsidian.md/account/billing)セクションに移動し、**Send credit**を選択します。
+2. アカウントの[請求](https://obsidian.md/ja/account/billing)セクションに移動し、**Send credit**を選択します。
 3. 指示に従って、自分で送るための引き換えリンクを取得するか、受取人に匿名メールを送信してもらいます。
 4. **Send gift**をクリックしてギフトの送信を完了します。確認メールが送信されます。
 5. ギフトを送信した後は、**Billing → Gift history**で確認できます。各ギフトのステータスを確認でき、まだ引き換えられていないものはキャンセルすることができます。
@@ -37,7 +37,7 @@ Obsidianでは、特定の製品をギフトとして贈るのではなく、何
 
 引き換えリンクまたは匿名メールを受け取った場合は、以下の手順でObsidianクレジットを引き換えてください：
 
-1. [Obsidianアカウント](https://obsidian.md/account/billing)にログインするか、新規作成します。
+1. [Obsidianアカウント](https://obsidian.md/ja/account/billing)にログインするか、新規作成します。
 2. 引き換えリンクを開くか、メール内のリンクをクリックします。
 3. クレジットを受け取ることを確認します。
 4. クレジットがアカウントに入金され、すぐに使用できるようになります。

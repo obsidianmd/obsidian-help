@@ -7,7 +7,7 @@ aliases:
   - プラグイン/パブリッシュ
   - ライセンスとアドオンサービス/Obsidian Publish
 ---
-[Obsidian Publish](https://obsidian.md/publish)は、ノートをWiki、ナレッジベース、ドキュメント、またはデジタルガーデンとして公開できるクラウドベースのホスティングサービスです。
+[Obsidian Publish](https://obsidian.md/ja/publish)は、ノートをWiki、ナレッジベース、ドキュメント、またはデジタルガーデンとして公開できるクラウドベースのホスティングサービスです。
 
 世界と共有したいノートを選択し、**パブリッシュ**を押すだけで、`publish.obsidian.md/your-site`でホスティングされます。
 

@@ -22,15 +22,15 @@ Obsidian은 개인용 노트 필기 앱으로 사용할 수 있을 뿐만 아니
 
 아래는 공식 웹사이트의 관련 페이지로 연결되는 중요한 링크이며, 빠른 접근을 위해 여기에 정리했어요.
 
-- [제품 구매](https://obsidian.md/pricing)
+- [제품 구매](https://obsidian.md/ko/pricing)
 	- 상용 라이선스, Sync 또는 Publish 구매
 - [버그 신고](https://forum.obsidian.md/c/bug-reports/7)
 	- 앱 문제 신고
 - [새로운 기능 요청](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
 	- 기능 요청 제출
-- [라이선스 개요](https://obsidian.md/license)
+- [라이선스 개요](https://obsidian.md/ko/license)
 	- 쉬운 언어로 작성된 라이선스 개요 확인
-- [서비스 약관](https://obsidian.md/terms)
+- [서비스 약관](https://obsidian.md/ko/terms)
 	- 최신 서비스 약관 확인
-- [개인정보 보호 정책](https://obsidian.md/privacy)
+- [개인정보 보호 정책](https://obsidian.md/ko/privacy)
 	- 개인정보 보호 정책 확인

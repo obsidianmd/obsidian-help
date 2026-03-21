@@ -7,8 +7,8 @@ description: このガイドでは、保管庫でObsidian Publishを有効化し
 
 ## 前提条件
 
-- Obsidianアカウント。お持ちでない場合は、[登録してください](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup)。
-- 有効なObsidian Publishサブスクリプション。お持ちでない場合は、[アカウントダッシュボード](https://obsidian.md/account/publish)から登録してください。
+- Obsidianアカウント。お持ちでない場合は、[登録してください](https://obsidian.md/ja/auth?returnto=%2Faccount%2Fpublish#signup)。
+- 有効なObsidian Publishサブスクリプション。お持ちでない場合は、[アカウントダッシュボード](https://obsidian.md/ja/account/publish)から登録してください。
 
 ## Obsidianアカウントでログインする
 

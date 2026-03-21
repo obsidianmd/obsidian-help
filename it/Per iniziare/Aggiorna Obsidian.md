@@ -28,13 +28,13 @@ Se preferisci aggiornare Obsidian manualmente, puoi disabilitare gli aggiornamen
 
 ## Aggiornamenti del programma di installazione
 
-Su desktop, le [note di rilascio](https://obsidian.md/changelog/) di Obsidian ti informeranno quando è necessario aggiornare la versione del programma di installazione di Obsidian per mantenere tutto funzionante. Questa è la versione di Electron, il framework su cui è costruito Obsidian, e non può essere aggiornata tramite il processo di aggiornamento automatico.
+Su desktop, le [note di rilascio](https://obsidian.md/it/changelog/) di Obsidian ti informeranno quando è necessario aggiornare la versione del programma di installazione di Obsidian per mantenere tutto funzionante. Questa è la versione di Electron, il framework su cui è costruito Obsidian, e non può essere aggiornata tramite il processo di aggiornamento automatico.
 
 Un plugin della community o un tema potrebbe richiedere un aggiornamento del programma di installazione per accedere a funzionalità più recenti non disponibili nelle versioni precedenti di Electron, e potrebbe chiederti di aggiornare la versione del programma di installazione di Obsidian prima che Obsidian stesso lo richieda.
 
 Per aggiornare la versione del programma di installazione di Obsidian:
 
-1. Vai a https://obsidian.md/download.
+1. Vai a https://obsidian.md/it/download.
 2. Seleziona il pulsante **Scarica**.
 3. Chiudi Obsidian, se è aperto.
 4. Procedi come descritto in [[Scarica e installa Obsidian]].

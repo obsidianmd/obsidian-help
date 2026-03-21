@@ -95,4 +95,4 @@ Infine, questo può accadere quando ripristini un file su un dispositivo, ma poi
 Questo problema è probabilmente dovuto a Google o Android Foto che gestiscono i tuoi allegati. Per impedire al sistema di modificare i file ricevuti tramite Sync, aggiungi un [file `.nomedia` alla tua cassaforte](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) sul tuo dispositivo Android.
 
 > [!tip]- Usa un plugin
-> Il plugin della community [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) semplifica questa operazione. Installalo sul tuo telefono Android. Nota che i file `.nomedia` non vengono sincronizzati tra i dispositivi tramite Obsidian Sync.
+> Il plugin della community [Android Nomedia](https://obsidian.md/it/plugins?id=android-nomedia) semplifica questa operazione. Installalo sul tuo telefono Android. Nota che i file `.nomedia` non vengono sincronizzati tra i dispositivi tramite Obsidian Sync.

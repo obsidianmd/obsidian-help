@@ -23,6 +23,6 @@ El visor web bloquea anuncios de forma predeterminada. Puedes personalizar las r
 
 Si usas complementos de Obsidian de terceros, te recomendamos usar tu navegador principal para tareas sensibles y sitios web protegidos con contraseña en lugar del visor web.
 
-El visor web está basado en la misma característica de [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) que te permite incrustar páginas web en [[Canvas]]. El visor web ha sido [auditado de forma independiente](https://obsidian.md/blog/cure53-second-client-audit/) para verificar que ha sido implementado de manera segura.
+El visor web está basado en la misma característica de [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) que te permite incrustar páginas web en [[Canvas]]. El visor web ha sido [auditado de forma independiente](https://obsidian.md/es/blog/cure53-second-client-audit/) para verificar que ha sido implementado de manera segura.
 
 Los complementos de Obsidian [[Seguridad de complementos#Capacidades de los complementos|no están aislados en un sandbox]] y tienen un control profundo sobre la aplicación. Este diseño permite una funcionalidad poderosa pero también conlleva compromisos de seguridad. Mientras Obsidian está en ejecución, los complementos de terceros tienen acceso completo a las cookies en el visor web.

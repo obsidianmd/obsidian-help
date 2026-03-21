@@ -5,7 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 ---
 
-[Obsidian Publish](https://obsidian.md/publish)는 노트를 위키, 지식 베이스, 문서 또는 디지털 가든으로 게재할 수 있는 클라우드 기반 호스팅 서비스예요.
+[Obsidian Publish](https://obsidian.md/ko/publish)는 노트를 위키, 지식 베이스, 문서 또는 디지털 가든으로 게재할 수 있는 클라우드 기반 호스팅 서비스예요.
 
 세상과 공유하고 싶은 노트를 선택하고 **게재**를 누르면, `publish.obsidian.md/your-site`에서 호스팅돼요.
 

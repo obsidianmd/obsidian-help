@@ -9,7 +9,7 @@ description: Obsidian Sync — это дополнительный сервис,
 aliases:
   - Introduction to Obsidian Sync
 ---
-[Obsidian Sync](https://obsidian.md/sync) — это дополнительный сервис, позволяющий конфиденциально синхронизировать заметки между устройствами.
+[Obsidian Sync](https://obsidian.md/ru/sync) — это дополнительный сервис, позволяющий конфиденциально синхронизировать заметки между устройствами.
 
 ## Как использовать Obsidian Sync
 

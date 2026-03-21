@@ -5,14 +5,14 @@ Obsidian está disponible para todas las principales plataformas de escritorio y
 
 ## Instalar Obsidian en Windows
 
-1. Abre tu navegador y ve a [Descargar Obsidian](https://obsidian.md/download).
+1. Abre tu navegador y ve a [Descargar Obsidian](https://obsidian.md/es/download).
 2. En **Windows**, haz clic en **Universal** para descargar el archivo de instalación.
 3. Abre el archivo de instalación y sigue las instrucciones.
 4. Abre Obsidian de la misma forma en que abrirías cualquier otra aplicación.
 
 ## Instalar Obsidian en macOS
 
-1. Abre tu navegador y ve a [Descargar Obsidian](https://obsidian.md/download).
+1. Abre tu navegador y ve a [Descargar Obsidian](https://obsidian.md/es/download).
 2. En **macOS**, haz clic en **Universal** para descargar el archivo de instalación.
 3. Abre el archivo de instalación.
 4. En la ventana que se abre, arrastra Obsidian a la carpeta Aplicaciones.
@@ -24,7 +24,7 @@ Si usas Linux, puedes instalar Obsidian de varias formas. Sigue las instruccione
 
 ### Instalar Obsidian usando Snap
 
-1. Abre tu navegador y ve a [Descargar Obsidian](https://obsidian.md/download).
+1. Abre tu navegador y ve a [Descargar Obsidian](https://obsidian.md/es/download).
 2. En **Linux**, haz clic en **Snap** para descargar el archivo de instalación.
 3. Abre una terminal y navega a la carpeta donde descargaste el archivo de instalación.
 4. En la terminal, ejecuta el siguiente comando para instalar el paquete Snap: (la bandera `--dangerous` es necesaria porque Canonical, la empresa que creó Snap, no revisó nuestro paquete; la bandera `--classic` permite que Obsidian acceda fuera del sandbox, donde se almacenan tus notas)
@@ -37,7 +37,7 @@ Si usas Linux, puedes instalar Obsidian de varias formas. Sigue las instruccione
 
 ### Instalar Obsidian usando AppImage
 
-1. Abre tu navegador y ve a [Descargar Obsidian](https://obsidian.md/download).
+1. Abre tu navegador y ve a [Descargar Obsidian](https://obsidian.md/es/download).
 2. En **Linux**, haz clic en **AppImage** para descargar el archivo de instalación.
 3. Abre una terminal y navega a la carpeta donde descargaste el archivo de instalación.
 4. En la terminal, ejecuta el siguiente comando para abrir Obsidian:
@@ -68,7 +68,7 @@ Nota: En Chromebooks, el paquete `libnss3-dev` debe estar instalado o podrías r
 2. Toca **Instalar** para descargar la aplicación.
 3. Abre Obsidian de la misma forma en que abrirías cualquier otra aplicación.
 
-Opcionalmente, puedes descargar el APK para Android desde la página [Descargar Obsidian](https://obsidian.md/download).
+Opcionalmente, puedes descargar el APK para Android desde la página [Descargar Obsidian](https://obsidian.md/es/download).
 
 ## Instalar Obsidian en iPhone y iPad
 

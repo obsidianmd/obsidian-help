@@ -1,7 +1,7 @@
 ---
 permalink: android
 ---
-La aplicación móvil de Obsidian para Android lleva poderosas capacidades de toma de notas a tu dispositivo Android. Puedes descargarla desde [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) o como un [archivo APK](https://obsidian.md/download).
+La aplicación móvil de Obsidian para Android lleva poderosas capacidades de toma de notas a tu dispositivo Android. Puedes descargarla desde [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) o como un [archivo APK](https://obsidian.md/es/download).
 Es compatible con Android versión 5.1 y superior.
 
 Esta página cubre características específicas de Android, incluyendo widgets, integración con Ajustes rápidos y accesos directos.
@@ -22,7 +22,7 @@ Esta es la opción recomendada porque ofrece mejor compatibilidad con herramient
 
 Debido a limitaciones de Android, Obsidian solicitará acceso a "Todos los archivos" para funcionar de manera confiable. Google recomienda esto para aplicaciones como Obsidian que se consideran "aplicaciones de gestión de documentos". [Aprender más](https://developer.android.com/training/data-storage/manage-all-files).
 
-La aplicación solo usa este permiso para ayudarte a acceder a tus datos en tu dispositivo. Tus datos nunca son accesibles para nosotros. Para conocer más sobre cómo protegemos tus datos y aseguramos tu privacidad, visita nuestra [página de Seguridad](https://obsidian.md/security).
+La aplicación solo usa este permiso para ayudarte a acceder a tus datos en tu dispositivo. Tus datos nunca son accesibles para nosotros. Para conocer más sobre cómo protegemos tus datos y aseguramos tu privacidad, visita nuestra [página de Seguridad](https://obsidian.md/es/security).
 
 ### Almacenamiento de la aplicación
 

@@ -23,15 +23,15 @@ Obsidian può essere utilizzato come applicazione per prendere appunti per singo
 
 Di seguito sono riportati collegamenti importanti a sezioni rilevanti del nostro sito web principale, elencati qui per un accesso rapido.
 
-- [Acquista i nostri prodotti](https://obsidian.md/pricing)
+- [Acquista i nostri prodotti](https://obsidian.md/it/pricing)
 	- Acquista una licenza commerciale, Sync o Publish
 - [Segnala un bug](https://forum.obsidian.md/c/bug-reports/7)
 	- Segnala un problema dell'applicazione
 - [Richiedi una nuova funzionalità](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
 	- Invia una richiesta di funzionalità
-- [Panoramica della licenza](https://obsidian.md/license)
+- [Panoramica della licenza](https://obsidian.md/it/license)
 	- Consulta la panoramica della nostra licenza in linguaggio semplice
-- [Termini di servizio](https://obsidian.md/terms)
+- [Termini di servizio](https://obsidian.md/it/terms)
 	- Consulta i nostri Termini di servizio più recenti
-- [Informativa sulla privacy](https://obsidian.md/privacy)
+- [Informativa sulla privacy](https://obsidian.md/it/privacy)
 	- Consulta la nostra informativa sulla privacy

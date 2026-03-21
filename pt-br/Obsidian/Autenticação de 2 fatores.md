@@ -1,11 +1,11 @@
 ---
 permalink: 2fa
 ---
-Se você tem uma [conta Obsidian](https://obsidian.md/account), pode ativar a autenticação de dois fatores (2FA) para proteger sua conta com uma segunda etapa de verificação.
+Se você tem uma [conta Obsidian](https://obsidian.md/pt-BR/account), pode ativar a autenticação de dois fatores (2FA) para proteger sua conta com uma segunda etapa de verificação.
 
 ## Ativar 2FA
 
-- Entre na [sua conta Obsidian](https://obsidian.md/account/profile) pelo seu navegador web.
+- Entre na [sua conta Obsidian](https://obsidian.md/pt-BR/account/profile) pelo seu navegador web.
 - Na seção **Perfil**, vá até **Autenticação de 2 fatores** e selecione **Ativar**.
 - Uma janela pop-up aparecerá solicitando que você conecte um aplicativo autenticador com um **código QR** ou uma **chave de configuração**.
 
@@ -29,7 +29,7 @@ Seu 2FA está agora configurado.
 
 Se você ativou o 2FA antes dos códigos de recuperação estarem disponíveis, ou se deseja atualizar seus códigos de recuperação, siga estes passos:
 
-- Entre na [sua conta Obsidian](https://obsidian.md/account/profile) pelo seu navegador web.
+- Entre na [sua conta Obsidian](https://obsidian.md/pt-BR/account/profile) pelo seu navegador web.
 - Ao lado de Autenticação de 2 fatores, selecione **Atualizar códigos de recuperação**.
 - Na janela pop-up, insira sua **senha** e o **código de 6 dígitos do autenticador**.
 - Uma janela de confirmação exibirá seus códigos de recuperação. Você tem duas opções:
@@ -41,7 +41,7 @@ Você pode usar um código de recuperação **uma única vez** no lugar do **có
 
 ## Desativar 2FA
 
-- Entre na [sua conta Obsidian](https://obsidian.md/account/profile) pelo seu navegador web.
+- Entre na [sua conta Obsidian](https://obsidian.md/pt-BR/account/profile) pelo seu navegador web.
 - Na seção **Perfil**, vá até **Autenticação de 2 fatores** e selecione **Desativar**.
 - Insira sua senha do Obsidian.
 - Insira o código atual de seis dígitos do seu aplicativo de autenticação.

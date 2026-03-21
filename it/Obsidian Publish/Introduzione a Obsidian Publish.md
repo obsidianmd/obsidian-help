@@ -6,7 +6,7 @@ cssclasses:
 aliases:
   - Introduction to Obsidian Publish
 ---
-[Obsidian Publish](https://obsidian.md/publish) è un servizio di hosting basato su cloud che ti permette di pubblicare le tue note come wiki, base di conoscenza, documentazione o giardino digitale.
+[Obsidian Publish](https://obsidian.md/it/publish) è un servizio di hosting basato su cloud che ti permette di pubblicare le tue note come wiki, base di conoscenza, documentazione o giardino digitale.
 
 Seleziona le note che vuoi condividere con il mondo, premi **Pubblica**, e le ospiteremo su `publish.obsidian.md/your-site`
 

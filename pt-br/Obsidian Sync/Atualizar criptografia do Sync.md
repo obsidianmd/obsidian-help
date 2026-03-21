@@ -16,8 +16,8 @@ Todos os novos cofres utilizam automaticamente a criptografia mais recente. Cofr
 
 | Data de lançamento                                                      | Versão do Sync | Versão mínima do aplicativo |
 | ----------------------------------------------------------------------- | -------------- | --------------------------- |
-| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3              | 1.8.3                       |
-| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0              | 0.9.21                      |
+| [2025-08-22](https://obsidian.md/pt-BR/changelog/2025-08-22-sync/)            | 3              | 1.8.3                       |
+| [2020-12-07](https://obsidian.md/pt-BR/changelog/2020-12-07-desktop-v0.9.21/) | 0              | 0.9.21                      |
 
 ## Atualizar criptografia com o assistente de migração
 

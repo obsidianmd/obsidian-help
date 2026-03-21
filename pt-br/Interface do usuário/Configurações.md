@@ -30,7 +30,7 @@ A página Geral contém informações de versão, configurações de atualizaç�
 
 ### Versão e atualizações
 
-Veja sua versão atual do Obsidian e a versão do instalador no topo da página. Selecione **Verificar por atualizações** para verificar manualmente novas versões, ou selecione **[Ler o changelog](<https://obsidian.md/changelog/>)** para ver as notas de lançamento.
+Veja sua versão atual do Obsidian e a versão do instalador no topo da página. Selecione **Verificar por atualizações** para verificar manualmente novas versões, ou selecione **[Ler o changelog](<https://obsidian.md/pt-BR/changelog/>)** para ver as notas de lançamento.
 
 **Atualizar automaticamente**
 
@@ -57,7 +57,7 @@ Gerencie sua conta e licenças do Obsidian.
 
 **Sua conta**
 
-Veja as informações da sua conta, incluindo nome de usuário e e-mail. Selecione **[Gerenciar](https://obsidian.md/account)** para acessar as configurações da conta, ou selecione **Sair** para desconectar no aplicativo.
+Veja as informações da sua conta, incluindo nome de usuário e e-mail. Selecione **[Gerenciar](https://obsidian.md/pt-BR/account)** para acessar as configurações da conta, ou selecione **Sair** para desconectar no aplicativo.
 
 **Licença Catalyst**
 
@@ -65,7 +65,7 @@ Veja o status da sua licença Catalyst. Se você tem uma [[Licença Catalyst]] a
 
 **Licença comercial**
 
-Se você apoia o [Obsidian para trabalho](<https://obsidian.md/blog/free-for-work/>), selecione **Ativar** para inserir uma chave de licença comercial, ou selecione **[Comprar](https://obsidian.md/account/commercial)** para adquirir uma licença. Selecione **[[Licença comercial|Saiba mais]]** para informações sobre Licenças Comerciais.
+Se você apoia o [Obsidian para trabalho](<https://obsidian.md/pt-BR/blog/free-for-work/>), selecione **Ativar** para inserir uma chave de licença comercial, ou selecione **[Comprar](https://obsidian.md/pt-BR/account/commercial)** para adquirir uma licença. Selecione **[[Licença comercial|Saiba mais]]** para informações sobre Licenças Comerciais.
 
 ### Avançado
 

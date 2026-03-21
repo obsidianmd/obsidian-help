@@ -9,7 +9,7 @@ Obsidian работает как локальное приложение на у
 
 ## Установка и обновление Obsidian
 
-Ваша команда может загрузить Obsidian с нашей [страницы загрузки](https://obsidian.md/download). Релизы также доступны на нашей [странице релизов GitHub](https://github.com/obsidianmd/obsidian-releases/releases), которая включает ссылки на [журнал изменений](https://obsidian.md/changelog/).
+Ваша команда может загрузить Obsidian с нашей [страницы загрузки](https://obsidian.md/ru/download). Релизы также доступны на нашей [странице релизов GitHub](https://github.com/obsidianmd/obsidian-releases/releases), которая включает ссылки на [журнал изменений](https://obsidian.md/ru/changelog/).
 
 > [!tip] Для пользователей Windows, которым нужен системный установщик, универсальный `.exe` включает возможность установки Obsidian для всех пользователей.
 

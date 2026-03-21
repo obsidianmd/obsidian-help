@@ -3,7 +3,7 @@ permalink: teams/security
 cssclasses:
   - soft-embed
 ---
-Nossa página de [Segurança](https://obsidian.md/security) compila informações sobre como o Obsidian aborda a proteção dos seus dados. Ela também é o local onde ficam as auditorias de segurança realizadas por terceiros.
+Nossa página de [Segurança](https://obsidian.md/pt-BR/security) compila informações sobre como o Obsidian aborda a proteção dos seus dados. Ela também é o local onde ficam as auditorias de segurança realizadas por terceiros.
 
 ## Considerações
 
@@ -17,7 +17,7 @@ Por favor, revise a página [[Segurança de plugins]] além desta seção.
 
 A equipe do Obsidian revisa todos os plugins da comunidade e temas enviados ao diretório oficial, por meio do nosso [repositório de lançamentos](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Não revisamos itens da comunidade que não foram enviados ao diretório oficial.
 
-Não temos uma loja comunitária para [[Trechos CSS]]. Esses arquivos são normalmente obtidos dentro da nossa [Comunidade Obsidian](https://obsidian.md/community) ou de repositórios públicos no GitHub.
+Não temos uma loja comunitária para [[Trechos CSS]]. Esses arquivos são normalmente obtidos dentro da nossa [Comunidade Obsidian](https://obsidian.md/pt-BR/community) ou de repositórios públicos no GitHub.
 
 Exigimos o empacotamento de recursos em trechos CSS e temas. No entanto, fizemos uma exceção para o [Google Fonts](https://fonts.google.com/) para manter o desempenho em dispositivos móveis, onde o impacto do empacotamento de fontes é mais perceptível.
 
@@ -71,4 +71,4 @@ Exigimos um valor mínimo de ordem de compra cotada antes de considerar a realiz
 No entanto, você pode dispensar esse valor mínimo de ordem de compra cotada concordando em pagar uma taxa de retenção. Entre em contato com o [[Ajuda e suporte#Contatar o suporte do Obsidian|suporte do Obsidian]] para consultar sobre essa opção.
 
 **Vocês possuem alguma certificação reconhecida relacionada à Segurança da Informação ou padrões de qualidade, como ISO27001, NIST, COBIT, ou outras certificações ISO ou CSA?**
-Não no momento. É algo que podemos explorar no futuro, mas por enquanto, nosso foco está nas nossas [auditorias de segurança](https://obsidian.md/security).
+Não no momento. É algo que podemos explorar no futuro, mas por enquanto, nosso foco está nas nossas [auditorias de segurança](https://obsidian.md/pt-BR/security).

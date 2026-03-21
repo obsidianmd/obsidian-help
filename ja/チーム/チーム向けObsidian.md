@@ -21,15 +21,15 @@ Obsidianは個人向けのノートテイキングアプリケーションとし
 
 以下はメインウェブサイトの関連ページへの重要なリンクです。すぐにアクセスできるようここに掲載しています。
 
-- [製品の購入](https://obsidian.md/pricing)
+- [製品の購入](https://obsidian.md/ja/pricing)
 	- 商用ライセンス、Sync、またはPublishを購入
 - [バグの報告](https://forum.obsidian.md/c/bug-reports/7)
 	- アプリケーションの問題を報告
 - [新機能のリクエスト](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
 	- 機能リクエストを報告
-- [ライセンスの概要](https://obsidian.md/license)
+- [ライセンスの概要](https://obsidian.md/ja/license)
 	- ライセンスの概要をわかりやすい言葉で確認
-- [利用規約](https://obsidian.md/terms)
+- [利用規約](https://obsidian.md/ja/terms)
 	- 最新の利用規約を確認
-- [プライバシーポリシー](https://obsidian.md/privacy)
+- [プライバシーポリシー](https://obsidian.md/ja/privacy)
 	- プライバシーポリシーを確認

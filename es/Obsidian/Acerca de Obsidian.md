@@ -59,6 +59,6 @@ Soportamos [[Fragmentos CSS]], [[Temas]] y [[Complementos de la comunidad]], que
 
 ## Sigue nuestro desarrollo
 
-¿Tienes curiosidad por saber cómo seguimos haciendo de Obsidian la mejor y más refinada herramienta para el procesamiento del pensamiento? Consulta nuestra [hoja de ruta](https://obsidian.md/roadmap/) para ver en qué estamos trabajando.
+¿Tienes curiosidad por saber cómo seguimos haciendo de Obsidian la mejor y más refinada herramienta para el procesamiento del pensamiento? Consulta nuestra [hoja de ruta](https://obsidian.md/es/roadmap/) para ver en qué estamos trabajando.
 
 Nuestra cuenta de Twitter es [@obsdmd](https://twitter.com/obsdmd), no dudes en seguirnos. Principalmente tuiteamos sobre actualizaciones del producto.

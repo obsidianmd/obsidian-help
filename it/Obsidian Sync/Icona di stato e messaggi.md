@@ -111,7 +111,7 @@ In questi casi, dovrai [[Set up Obsidian Sync#Disconnettersi da un caveau remoto
 **Failed to authenticate: Your subscription to Obsidian Sync has expired**
 Il tuo account è ora in stato di scadenza completa poiché non è stato possibile elaborare il pagamento registrato.
 
-Per continuare a utilizzare Obsidian Sync, dovrai riabbonarti dal [tuo account](https://obsidian.md/account/sync).
+Per continuare a utilizzare Obsidian Sync, dovrai riabbonarti dal [tuo account](https://obsidian.md/it/account/sync).
 
 **Failed to authenticate: Not logged in**
 

@@ -245,4 +245,4 @@ Per riportare il livello di zoom al valore predefinito, seleziona **Reimposta zo
 
 Abbiamo realizzato alcuni brevi video per dimostrare alcuni casi d'uso avanzati di Canvas.
 
-Puoi [consultare tutti i 72 suggerimenti qui](https://obsidian.md/canvas#protips). Tieni presente che i video dei suggerimenti sono visibili solo su desktop.
+Puoi [consultare tutti i 72 suggerimenti qui](https://obsidian.md/it/canvas#protips). Tieni presente che i video dei suggerimenti sono visibili solo su desktop.

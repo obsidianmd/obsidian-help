@@ -25,6 +25,6 @@ Il visualizzatore web blocca la pubblicità per impostazione predefinita. Puoi p
 
 Se utilizzi plugin di Obsidian di terze parti, ti consigliamo di usare il tuo browser principale per attività sensibili e siti web protetti da password invece del visualizzatore web.
 
-Il visualizzatore web è basato sulla stessa funzionalità [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) che consente di incorporare pagine web in [[Canvas]]. Il visualizzatore web è stato [sottoposto a un audit indipendente](https://obsidian.md/blog/cure53-second-client-audit/) per verificare che sia stato implementato in modo sicuro.
+Il visualizzatore web è basato sulla stessa funzionalità [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) che consente di incorporare pagine web in [[Canvas]]. Il visualizzatore web è stato [sottoposto a un audit indipendente](https://obsidian.md/it/blog/cure53-second-client-audit/) per verificare che sia stato implementato in modo sicuro.
 
 I plugin di Obsidian [[Plugin security#Funzionalità dei plugin|non sono isolati in sandbox]] e hanno un controllo profondo sull'app. Questo design consente funzionalità potenti ma comporta anche compromessi in termini di sicurezza. Mentre Obsidian è in esecuzione, i plugin di terze parti hanno pieno accesso ai cookie nel visualizzatore web.

@@ -54,7 +54,7 @@ Se você usa Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- Se você usa Flatpak, considere experimentar uma [versão oficialmente suportada do Obsidian](https://obsidian.md/download).
+- Se você usa Flatpak, considere experimentar uma [versão oficialmente suportada do Obsidian](https://obsidian.md/pt-BR/download).
 - Se você usa KDE, vá para **Configurações do Sistema** → **Gerenciamento de Janelas** → **Regras de Janelas** e permita que o Obsidian assuma o foco, [[web-clipper-kde.png|veja captura de tela]].
 - Como alternativa, tente mudar para o **Modo Legado** em **Configurações do Web Clipper** → **Geral**. Isso contornará a área de transferência e salvará o conteúdo diretamente via URI. Note que isso limitará o número de caracteres que podem ser capturados dependendo do seu navegador e distribuição Linux.
 

@@ -16,8 +16,8 @@ Todas las bóvedas nuevas utilizan automáticamente el cifrado más reciente. La
 
 | Fecha de lanzamiento                                                    | Versión de Sync | Versión mínima de la aplicación |
 | ----------------------------------------------------------------------- | --------------- | ------------------------------- |
-| [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3               | 1.8.3                           |
-| [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0               | 0.9.21                          |
+| [2025-08-22](https://obsidian.md/es/changelog/2025-08-22-sync/)            | 3               | 1.8.3                           |
+| [2020-12-07](https://obsidian.md/es/changelog/2020-12-07-desktop-v0.9.21/) | 0               | 0.9.21                          |
 
 ## Actualizar el cifrado con el asistente de migración
 

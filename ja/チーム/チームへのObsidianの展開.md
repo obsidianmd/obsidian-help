@@ -7,7 +7,7 @@ Obsidianはチームメンバーの各デバイス上でローカルアプリケ
 
 ## Obsidianのインストールとアップデート
 
-チームメンバーは[ダウンロードページ](https://obsidian.md/download)からObsidianをダウンロードできます。リリースは[GitHubリリースページ](https://github.com/obsidianmd/obsidian-releases/releases)でも入手でき、[変更履歴](https://obsidian.md/changelog/)へのリンクも含まれています。
+チームメンバーは[ダウンロードページ](https://obsidian.md/ja/download)からObsidianをダウンロードできます。リリースは[GitHubリリースページ](https://github.com/obsidianmd/obsidian-releases/releases)でも入手でき、[変更履歴](https://obsidian.md/ja/changelog/)へのリンクも含まれています。
 
 > [!tip] システムインストーラーが必要なWindowsユーザーの場合、ユニバーサル`.exe`にはすべてのユーザー向けにObsidianをインストールするオプションが含まれています。
 

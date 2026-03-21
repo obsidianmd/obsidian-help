@@ -55,7 +55,7 @@ Sway를 사용하는 경우:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- Flatpak을 사용하는 경우 [공식 지원 Obsidian 버전](https://obsidian.md/download)을 사용해 보세요.
+- Flatpak을 사용하는 경우 [공식 지원 Obsidian 버전](https://obsidian.md/ko/download)을 사용해 보세요.
 - KDE를 사용하는 경우 **시스템 설정** → **창 관리** → **창 규칙**으로 이동하여 Obsidian이 포커스를 가져올 수 있도록 허용하세요. [[web-clipper-kde.png|스크린샷 보기]].
 - 대안으로, **Web Clipper 설정** → **일반**에서 **레거시 모드**로 전환해 보세요. 이렇게 하면 클립보드를 우회하고 URI를 통해 콘텐츠를 직접 저장해요. 단, 브라우저와 Linux 배포판에 따라 클리핑할 수 있는 문자 수가 제한될 수 있어요.
 

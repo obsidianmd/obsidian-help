@@ -9,7 +9,7 @@ description: Obsidian Sync هي خدمة إضافية تتيح لك مزامنة
 aliases:
   - Introduction to Obsidian Sync
 ---
-[Obsidian Sync](https://obsidian.md/sync) هي خدمة إضافية تتيح لك مزامنة ملاحظاتك بشكل خاص عبر الأجهزة.
+[Obsidian Sync](https://obsidian.md/ar/sync) هي خدمة إضافية تتيح لك مزامنة ملاحظاتك بشكل خاص عبر الأجهزة.
 
 ## كيفية استخدام Obsidian Sync
 

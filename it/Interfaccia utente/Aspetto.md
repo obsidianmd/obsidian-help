@@ -15,7 +15,7 @@ Obsidian include due schemi di colori, chiaro e scuro. Per impostazione predefin
 
 ### Icona dell'app personalizzata
 
-È possibile modificare l'icona dell'app desktop di Obsidian. Prova l'editor di icone presente sul [nostro blog](https://obsidian.md/blog/new-obsidian-icon/) per personalizzare i colori dell'icona a tuo piacimento.
+È possibile modificare l'icona dell'app desktop di Obsidian. Prova l'editor di icone presente sul [nostro blog](https://obsidian.md/it/blog/new-obsidian-icon/) per personalizzare i colori dell'icona a tuo piacimento.
 
 Per modificare l'icona dell'app Obsidian, segui questi passaggi:
 

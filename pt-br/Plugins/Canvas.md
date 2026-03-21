@@ -247,4 +247,4 @@ Para retornar o nível de zoom ao padrão, selecione **Redefinir zoom** nos cont
 
 Criamos alguns vídeos rápidos para demonstrar alguns casos de uso avançados do Canvas.
 
-Você pode [conferir todas as 72 dicas aqui](https://obsidian.md/canvas#protips). Observe que os vídeos de dicas só são visíveis no desktop.
+Você pode [conferir todas as 72 dicas aqui](https://obsidian.md/pt-BR/canvas#protips). Observe que os vídeos de dicas só são visíveis no desktop.
