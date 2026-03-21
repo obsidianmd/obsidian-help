@@ -6,7 +6,7 @@ description: Learn how to change parts of the Obsidian app’s appearance withou
 ---
 [테마를 빌드](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)하지 않고도 Obsidian 앱의 외형을 수정하는 방법을 알아보세요.
 
-> [!tip] [[Obsidian Publish 소개|Obsidian Publish]]의 CSS 처리에 대한 안내를 찾고 있다면 [[사이트 커스터마이즈]]를 확인하세요.
+> [!tip] [[Obsidian Publish 소개|Obsidian Publish]]의 CSS 처리에 대한 안내를 찾고 있다면 [[사이트 사용자 지정]]을 확인하세요.
 
 CSS는 HTML의 외형을 제어하는 언어입니다. CSS 스니펫을 추가하면 제목의 크기와 색상 등 Obsidian 사용자 인터페이스의 일부를 변경할 수 있습니다. Obsidian에는 인터페이스를 쉽게 사용자 지정할 수 있도록 도와주는 [CSS 변수](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables)가 있습니다.
 

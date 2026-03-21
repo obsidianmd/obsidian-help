@@ -24,7 +24,7 @@ description: This page details some common problems that you may run into when u
 
 **[[설정 폴더]]에 있는 CSS가 Publish에서 작동하지 않습니다. 왜 그런가요?**
 
-Publish는 설정 폴더에서 읽지 않습니다. 대신, 게재 보관함의 최상위 디렉토리에 `publish.css` 파일을 생성해야 합니다. 이에 대해 [[사이트 커스터마이즈]]에서 자세히 알아볼 수 있습니다.
+Publish는 설정 폴더에서 읽지 않습니다. 대신, 게재 보관함의 최상위 디렉토리에 `publish.css` 파일을 생성해야 합니다. 이에 대해 [[사이트 사용자 지정]]에서 자세히 알아볼 수 있습니다.
 
 **CSS가 앱에서 보이는 것과 Publish에서 다르게 보입니다. 왜 그런가요?**
 
