@@ -20,7 +20,7 @@ As of **version 1.8.3**, recently used commands appear at the top of the Command
 You can pin frequently used commands at the top of the Command palette to quickly access them without having to type their name.
 
 > [!tip] Tip
-> If you want to quickly run frequently used commands, you can also [[Hotkeys#Setting hotkeys|set hotkeys]] for them.
+> If you want to quickly run frequently used commands, you can also [[Hotkeys#Set a hotkey|set hotkeys]] for them.
 
 ### Pin a command
 

@@ -89,7 +89,7 @@ The syntax is `{{selector:cssSelector?attribute}}`, where `?attribute` is option
 - Nested CSS selectors and combinators are supported if you need more specificity.
 - If multiple elements match the selector, an array is returned, which you can process with [[Filters#Arrays and objects|array and object filters]] like `join` or `map`.
 
-Selector variables can also be used directly in [[Templates#Template logic|template logic]]:
+Selector variables can also be used directly in [[Logic|template logic]]:
 
 - In loops: `{% for comment in selector:.comment %}...{% endfor %}`
 - In conditionals: `{% if selector:.premium-badge %}...{% endif %}`

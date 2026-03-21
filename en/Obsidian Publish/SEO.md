@@ -29,7 +29,7 @@ Page metadata can be customized using [[Properties#Properties for Obsidian Publi
 
 | Property      | Description                                                                                                       |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publish your content#Automatically select notes to publish\|Automatically select notes to publish]]. |
+| `publish`     | See [[Publish your content#Automatically select data to publish\|Automatically select data to publish]]. |
 | `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
 | `description` | See [[Social media link previews#Description\|Description]].                                                      |
 | `image`       | See [[Social media link previews#Image\|Image]].                                                                  |
