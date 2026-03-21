@@ -56,17 +56,17 @@ Preserve version history=الحفاظ على سجل الإصدارات
 Encryption=التشفير
 What does end-to-end encryption mean?=ماذا يعني التشفير من طرف إلى طرف؟
 What are the risks of using standard encryption?=ما هي مخاطر استخدام التعمية العادية؟
-What encryption do you use?=ما التشفير الذي تستخدمونه؟
+What encryption do you use?=ما نوع التشفير المستخدم؟
 Can I verify that my data is end-to-end encrypted?=هل يمكنني التحقق من أن بياناتي مشفرة من طرف إلى طرف؟
-Has Obsidian completed a third-party security audit?=هل أجرى Obsidian تدقيقًا أمنيًا من طرف ثالث؟
+Has Obsidian completed a third-party security audit?=هل خضع Obsidian لتدقيق أمني من طرف ثالث؟
 What happens if I forget my encryption password?=ماذا يحدث إذا نسيت كلمة مرور التشفير الخاصة بي؟
 Hosting=الاستضافة
 Where do you host the servers for Obsidian Sync?=أين تستضيفون خوادم Obsidian Sync؟
-Where can I find my current Sync server and where is it hosted?=أين يمكنني العثور على خادم المزامنة الحالي وأين تتم استضافته؟
+Where can I find my current Sync server and where is it hosted?=أين يمكنني العثور على خادم Sync الحالي وأين تتم استضافته؟
 Network and access=الشبكة والوصول
 Managing access to Obsidian Sync on your network=إدارة الوصول إلى Obsidian Sync على شبكتك
 Limitations=القيود
-Deterministic file-hash encryption=تشفير تجزئة الملفات بشكل حتمي
+Deterministic file-hash encryption=تشفير هاش الملفات بشكل حتمي
 No cryptographic binding between path and content=عدم وجود ربط تشفيري بين المسار والمحتوى
 
 [sync/setup]
@@ -78,9 +78,9 @@ Connect to a remote vault=الاتصال بخزنة بعيدة
 Adjust Obsidian Sync settings=ضبط إعدادات Obsidian Sync
 Begin syncing with Obsidian Sync=بدء المزامنة مع Obsidian Sync
 Sync a remote vault on another device=مزامنة خزنة بعيدة على جهاز آخر
-Sync your vault from the vault switcher=مزامنة خزنتك من مبدّل الخزنات
+Sync your vault from the vault switcher=مزامنة خزنتك من مبدّل الخزائن
 Sync your vault from Obsidian Settings=مزامنة خزنتك من إعدادات Obsidian
-Manage your remote vaults=إدارة الخزنات البعيدة
+Manage your remote vaults=إدارة الخزائن البعيدة
 Disconnect from a remote vault=قطع الاتصال بخزنة بعيدة
 Delete a remote vault=حذف خزنة بعيدة
 Regional sync servers=خوادم المزامنة الإقليمية
@@ -128,8 +128,8 @@ Conflict resolution=حل التعارضات
 How Obsidian Sync handles conflicts=كيف يتعامل Obsidian Sync مع التعارضات
 Conflict resolution options=خيارات حل التعارضات
 Sync deleted a note I just created on two devices=حذفت المزامنة ملاحظة أنشأتها للتو على جهازين
-Sync will not sync my plugins and settings updates=لا تقوم المزامنة بمزامنة تحديثات الإضافات والإعدادات
-My files keep disappearing from Sync as soon as I restore it=تستمر ملفاتي في الاختفاء من المزامنة بمجرد استعادتها
+Sync will not sync my plugins and settings updates=لا تقوم المزامنة بمزامنة تحديثات الإضافات والإعدادات الخاصة بي
+My files keep disappearing from Sync as soon as I restore it=ملفاتي تختفي باستمرار من المزامنة بمجرد استعادتها
 
 [sync/migrate]
 Encryption versions=إصدارات التشفير
@@ -233,3 +233,236 @@ Examples=أمثلة
 Meta variables=متغيرات Meta
 Selector variables=متغيرات المحدد
 Schema.org variables=متغيرات Schema.org
+
+[import/notion]
+API import=الاستيراد عبر API
+Create a Notion API integration token=إنشاء رمز تكامل Notion API
+Import your Notion data via API=استيراد بيانات Notion عبر API
+Limitations=القيود
+File import=الاستيراد عبر الملفات
+Export your data from Notion=تصدير بياناتك من Notion
+Import your Notion .zip file=استيراد ملف .zip الخاص بـ Notion
+Troubleshooting=استكشاف الأخطاء وإصلاحها
+Importing large workspaces=استيراد مساحات العمل الكبيرة
+
+[import/apple-notes]
+Import Apple Notes data into Obsidian=استيراد بيانات Apple Notes إلى Obsidian
+Supported content=المحتوى المدعوم
+Scans=المسح الضوئي
+Alternate export methods=طرق تصدير بديلة
+
+[import/evernote]
+Export your data from Evernote=تصدير بياناتك من Evernote
+Import your Evernote data into Obsidian=استيراد بيانات Evernote إلى Obsidian
+Advanced import options=خيارات الاستيراد المتقدمة
+Maintain tag hierarchy=الحفاظ على التسلسل الهرمي للوسوم
+Handling notebook stacks=التعامل مع مجموعات دفاتر الملاحظات
+More options=المزيد من الخيارات
+
+[publish/setup]
+Prerequisites=المتطلبات الأساسية
+Log in with your Obsidian account=تسجيل الدخول بحساب Obsidian الخاص بك
+Enable Obsidian Publish=تمكين Obsidian Publish
+Open Publish=فتح Publish
+Open via Command palette=الفتح عبر لوحة الأوامر
+Open via hotkey=الفتح عبر اختصار لوحة المفاتيح
+Open via ribbon=الفتح عبر الشريط الجانبي
+Create a new site=إنشاء موقع جديد
+Set a site name=تعيين اسم الموقع
+Select notes to publish=اختيار الملاحظات للنشر
+Next steps=الخطوات التالية
+
+[sync-notes]
+Syncing methods=طرق المزامنة
+iPhone and iPad syncing=المزامنة على iPhone وiPad
+Frequently asked questions=الأسئلة الشائعة
+
+[uri]
+URI format=تنسيق URI
+Open note=فتح ملاحظة
+Examples=أمثلة
+Parameters=المعاملات
+Create note=إنشاء ملاحظة
+Create or open daily note=إنشاء أو فتح الملاحظة اليومية
+Unique Note=ملاحظة فريدة
+Open search=فتح البحث
+Open Vault Manager=فتح مدير الخزنات
+Integrate with Hook=التكامل مع Hook
+Example=مثال
+Use x-callback-url parameters=استخدام معاملات x-callback-url
+Shorthand formats=التنسيقات المختصرة
+Troubleshooting=استكشاف الأخطاء وإصلاحها
+Register Obsidian URI=تسجيل Obsidian URI
+
+[snippets]
+Adding a snippet=إضافة مقتطف
+Writing CSS for Obsidian=كتابة CSS لـ Obsidian
+Learn more=تعلم المزيد
+
+[obsidian]
+What is Obsidian=ما هو Obsidian
+How we're different=كيف نختلف عن الآخرين
+You own and control your data=أنت تملك بياناتك وتتحكم فيها
+Links are first-class citizens=الروابط مواطنون من الدرجة الأولى
+Your own toolkit=مجموعة أدواتك الخاصة
+Follow our development=تابع تطويرنا
+
+[publish/sites]
+Create a new site=إنشاء موقع جديد
+Delete an existing site=حذف موقع موجود
+Switch between sites=التبديل بين المواقع
+Change the site ID=تغيير معرف الموقع
+View site options=عرض خيارات الموقع
+Site options=خيارات الموقع
+General=عام
+Appearance=المظهر
+Reading experience=تجربة القراءة
+Components=المكونات
+Other site settings=إعدادات الموقع الأخرى
+
+[publish/customize]
+Static assets=الأصول الثابتة
+Use a community theme=استخدام سمة من المجتمع
+Enable UI features=تمكين ميزات واجهة المستخدم
+Customize navigation=تخصيص التنقل
+Accessing Customize navigation options=الوصول إلى خيارات تخصيص التنقل
+Adjust navigation items=ضبط عناصر التنقل
+Hide and unhide navigation items=إخفاء وإظهار عناصر التنقل
+FAQ=الأسئلة الشائعة
+
+[catalyst]
+Catalyst tiers=مستويات Catalyst
+Access Catalyst benefits=الوصول إلى مزايا Catalyst
+Get your forum badge=الحصول على شارة المنتدى
+Get your Discord badge=الحصول على شارة Discord
+Join our Insider channels=الانضمام إلى قنوات Insider الحصرية
+Enable early access versions=تمكين إصدارات الوصول المبكر
+
+[credit]
+Add credit=إضافة رصيد
+Gifting=الإهداء
+Give Obsidian Credit=منح رصيد Obsidian
+Receiving Obsidian Credit=استلام رصيد Obsidian
+
+[/]
+Obsidian Help=مساعدة Obsidian
+Get started=ابدأ
+Extend Obsidian=وسّع Obsidian
+Add-on services=خدمات إضافية
+Contribute=ساهم
+
+[plugins/file-recovery]
+Recover a snapshot=استعادة لقطة
+Clear snapshot history=مسح سجل اللقطات
+Storage and performance=التخزين والأداء
+Limitations=القيود
+
+[plugins/search]
+Search terms=مصطلحات البحث
+Search operators=عوامل البحث
+Search properties=البحث في الخصائص
+Change case sensitivity=تغيير حساسية حالة الأحرف
+Change result sort order=تغيير ترتيب فرز النتائج
+Copy search results=نسخ نتائج البحث
+Use regular expressions=استخدام التعبيرات النمطية
+Configure search settings=تهيئة إعدادات البحث
+Embed search results in a note=تضمين نتائج البحث في ملاحظة
+
+[plugins/templates]
+Set your template folder=تعيين مجلد القوالب
+Template variables=متغيرات القوالب
+Create a template=إنشاء قالب
+Insert a template into the active note=إدراج قالب في الملاحظة النشطة
+Template properties=خصائص القوالب
+
+[plugins/canvas]
+Create a new canvas=إنشاء لوحة جديدة
+Add cards=إضافة بطاقات
+Add text cards=إضافة بطاقات نصية
+Add cards from notes=إضافة بطاقات من الملاحظات
+Add cards from media=إضافة بطاقات من الوسائط
+Add cards from web pages=إضافة بطاقات من صفحات الويب
+Add cards from folders=إضافة بطاقات من المجلدات
+Edit a card=تحرير بطاقة
+Delete a card=حذف بطاقة
+Swap cards=تبديل البطاقات
+Select cards=تحديد البطاقات
+Arrange cards=ترتيب البطاقات
+Resize a card=تغيير حجم بطاقة
+Connect cards=ربط البطاقات
+Connect two cards=ربط بطاقتين
+Disconnect two cards=فصل بطاقتين
+Connect a card to a different card=ربط بطاقة ببطاقة مختلفة
+Navigate a connection=التنقل عبر اتصال
+Add a label to a connection=إضافة تسمية إلى اتصال
+Change the color of a card or connection=تغيير لون بطاقة أو اتصال
+Group cards=تجميع البطاقات
+Group selected cards=تجميع البطاقات المحددة
+Navigate the canvas=التنقل في اللوحة
+Pan the canvas=تحريك اللوحة
+Zoom the canvas=تكبير اللوحة
+Zoom to fit=تكبير للملائمة
+Zoom to selection=تكبير للمحدد
+Reset zoom=إعادة ضبط التكبير
+Advanced tips=نصائح متقدمة
+
+[plugins/format-converter]
+Supported formats=التنسيقات المدعومة
+
+[plugins/file-explorer]
+Create a new note=إنشاء ملاحظة جديدة
+Create a new folder=إنشاء مجلد جديد
+Change sort order=تغيير ترتيب الفرز
+Auto-reveal active file=الكشف التلقائي عن الملف النشط
+Expand or collapse all folders=توسيع أو طي جميع المجلدات
+Delete a file or folder=حذف ملف أو مجلد
+Rename a file or folder=إعادة تسمية ملف أو مجلد
+Move a file or folder=نقل ملف أو مجلد
+
+[updates]
+Check for updates and view version=التحقق من التحديثات وعرض الإصدار
+Disable automatic updates=تعطيل التحديثات التلقائية
+Installer updates=تحديثات المُثبّت
+
+[mobile]
+Widgets, shortcuts, and Siri=الودجات والاختصارات و Siri
+Mobile toolbar=شريط أدوات الهاتف
+Customize mobile toolbar=تخصيص شريط أدوات الهاتف
+Add command to mobile toolbar=إضافة أمر إلى شريط أدوات الهاتف
+Quick Action=الإجراء السريع
+Customize Quick Action=تخصيص الإجراء السريع
+Navigation bar=شريط التنقل
+Go back or forward=عودة للخلف أو إلى الأمام
+Create or find note=إنشاء أو البحث عن ملاحظة
+Tab management=إدارة علامات التبويب
+Ribbon actions=إجراءات الشريط الجانبي
+Sidebars=الأشرطة الجانبية
+
+[sidebar]
+Open hidden sidebars=فتح الأشرطة الجانبية المخفية
+Desktop and larger tablets=سطح المكتب والأجهزة اللوحية الأكبر حجمًا
+Mobile and smaller tablets=الهاتف المحمول والأجهزة اللوحية الأصغر حجمًا
+Tabs=علامات التبويب
+Open or reopen tabs=فتح أو إعادة فتح علامات التبويب
+Close tabs=إغلاق علامات التبويب
+Rearrange tabs=إعادة ترتيب علامات التبويب
+Pin tabs=تثبيت علامات التبويب
+Tab groups=مجموعات علامات التبويب
+Create tab groups=إنشاء مجموعات علامات التبويب
+Close tab groups=إغلاق مجموعات علامات التبويب
+
+[appearance]
+Color scheme=نظام الألوان
+Custom themes=السمات المخصصة
+Custom app icon=أيقونة التطبيق المخصصة
+Translucency=الشفافية
+
+[ribbon]
+Actions=الإجراءات
+Customize the ribbon=تخصيص الشريط
+Desktop=سطح المكتب
+Hide the ribbon=إخفاء الشريط
+Show the ribbon=إظهار الشريط
+Mobile=الهاتف المحمول
+Quick access=الوصول السريع
+Rearrange and visibility=إعادة الترتيب والرؤية
