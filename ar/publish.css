@@ -162,6 +162,7 @@ img[src$="#outline"] {
 }
 .list-cards div > ul > li a {
   flex-grow: 0;
+  direction: rtl;
 }
 .list-cards div > ul > li a:after {
   content: "";
@@ -199,7 +200,7 @@ img[src$="#outline"] {
 .list-cards .icon-app {
   display: inline-block;
   align-self: center;
-  left: 16px;
+  right: 16px;
   width: 24px;
   height: 24px;
   position: absolute;
@@ -208,7 +209,7 @@ img[src$="#outline"] {
   background-position: center;
 }
 .list-cards .icon-app + a {
-  padding-left: 52px;
+  padding-right: 52px;
   align-self: center;
   line-height: 1.15;
 }
@@ -464,7 +465,7 @@ img[src$="#outline"] {
 
 /* Language switcher — mobile header */
 .lang-switcher-header {
-  margin-left: auto;
+  margin-inline-start: auto;
   flex-shrink: 0;
 }
 
@@ -563,6 +564,7 @@ pre[class*="language-md"] code {
 .site-body-right-column {
 	right: initial;
 	left: 0;
+	padding: 0 16px;
 }
 
 .graph-expand {
@@ -657,8 +659,8 @@ pre[class*="language-md"] code {
 }
 
 .external-link:not(.ltr .external-link) {
-	background-position: center left;
-	padding: 0 0 0 16px;
+	background-position: center inline-end;
+	padding-inline-end: 16px;
 }
 
 a.footnote-backref.footnote-link {

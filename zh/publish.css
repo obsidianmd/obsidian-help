@@ -464,7 +464,7 @@ img[src$="#outline"] {
 
 /* Language switcher — mobile header */
 .lang-switcher-header {
-  margin-left: auto;
+  margin-inline-start: auto;
   flex-shrink: 0;
 }
 
