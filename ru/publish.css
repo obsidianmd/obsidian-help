@@ -44,7 +44,8 @@
 span[src$="#icon"] {
   padding: 1px 4px;
   border-radius: var(--code-radius);
-  background-color: var(--background-secondary);
+  background-color: var(--code-background);
+  border: var(--code-border-width) solid var(--code-border-color);
   margin: 0 0.05em;
 }
 /* Adds proper alignment to icons */
