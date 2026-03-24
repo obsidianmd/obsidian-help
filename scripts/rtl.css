@@ -302,6 +302,10 @@ a.footnote-backref.footnote-link {
 	margin-left: auto;
 }
 
+.list-cards div > ul > li {
+	text-align: right;
+}
+
 @media screen and (max-width: 750px) {
 	.site-body-left-column {
 		padding: 0;
