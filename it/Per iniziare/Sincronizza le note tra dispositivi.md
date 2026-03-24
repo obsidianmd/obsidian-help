@@ -5,8 +5,6 @@ cssclasses:
 publish: true
 mobile: true
 description: Come sincronizzare le note di Obsidian tra dispositivi e piattaforme.
-aliases:
-  - Sync your notes across devices
 ---
 Obsidian archivia le note localmente sul dispositivo, così sono sempre accessibili, anche offline. Per accedere alle note su più dispositivi è necessario configurare un metodo di sincronizzazione.
 

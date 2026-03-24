@@ -3,8 +3,6 @@ permalink: sidebar
 publish: true
 mobile: true
 description: Scopri le barre laterali sinistra e destra di Obsidian e come gestire schede e gruppi di schede.
-aliases:
-  - Sidebar
 ---
 Obsidian ha due barre laterali: una barra laterale sinistra e una barra laterale destra. Le barre laterali contengono schede create dai plugin, come [[Backlinks]], [[Outgoing links]] e l'[[Esplora file]]. Su desktop, è anche possibile trascinare le note nella barra laterale per mantenerle visibili accanto all'editor principale.
 
