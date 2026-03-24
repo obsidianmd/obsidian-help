@@ -540,6 +540,11 @@ body {
 	--link-external-decoration: initial;
 }
 
+.lang-switcher-header .lang-switcher-menu {
+    right: auto;
+    left: 0;
+}
+
 pre,
 .ltr .page-header,
 .ltr h1,
@@ -795,6 +800,7 @@ a.footnote-backref.footnote-link {
 .site-body-right-column {
 	right: initial;
 	left: 0;
+	padding: 0 24px;
 }
 
 .site-footer {
