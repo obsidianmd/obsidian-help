@@ -14,6 +14,7 @@ No topo de uma base há uma barra de ferramentas que permite interagir com as vi
 - ![[lucide-arrow-up-down.svg#icon]] **Ordenar** — ordenar e agrupar arquivos.
 - ![[lucide-list-filter.svg#icon]] **Filtro** — filtrar arquivos.
 - ![[lucide-list.svg#icon]] **Propriedades** — escolher propriedades para exibir e criar [[Fórmulas|fórmulas]].
+- ![[lucide-search.svg#icon]] **Pesquisar** — pesquisar itens usando suas propriedades exibidas.
 - ![[lucide-plus.svg#icon]] **Novo** — criar um novo arquivo na visualização atual.
 
 ## Adicionar e alternar visualizações

@@ -1,7 +1,6 @@
 ---
 permalink: bases/views
 localized: '2026-03-18'
-
 ---
 Les vues vous permettent d'organiser l'information dans une [[Introduction aux Bases|Base]] de multiples façons. Une base peut contenir plusieurs vues, et chaque vue peut avoir une configuration unique pour afficher, trier et filtrer les fichiers.
 
@@ -16,6 +15,7 @@ En haut d'une base se trouve une barre d'outils qui vous permet d'interagir avec
 - ![[lucide-arrow-up-down.svg#icon]] **Trier** — trier et grouper les fichiers.
 - ![[lucide-list-filter.svg#icon]] **Filtre** — filtrer les fichiers.
 - ![[lucide-list.svg#icon]] **Propriétés** — choisir les propriétés à afficher et créer des [[Formules|formules]].
+- ![[lucide-search.svg#icon]] **Rechercher** — rechercher des éléments en utilisant leurs propriétés affichées.
 - ![[lucide-plus.svg#icon]] **Nouveau** — créer un nouveau fichier dans la vue actuelle.
 
 ## Ajouter et basculer entre les vues

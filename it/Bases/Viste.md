@@ -16,6 +16,7 @@ In cima a una base c'è una barra degli strumenti che ti permette di interagire 
 - ![[lucide-arrow-up-down.svg#icon]] **Ordina** — ordina e raggruppa file.
 - ![[lucide-list-filter.svg#icon]] **Filtro** — filtra file.
 - ![[lucide-list.svg#icon]] **Proprietà** — scegli le proprietà da visualizzare e crea [[formulas|formule]].
+- ![[lucide-search.svg#icon]] **Cerca** — cerca elementi usando le proprietà visualizzate.
 - ![[lucide-plus.svg#icon]] **Nuovo** — crea un nuovo file nella vista corrente.
 
 ## Aggiungere e cambiare vista

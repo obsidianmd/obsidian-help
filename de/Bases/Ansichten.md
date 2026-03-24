@@ -14,6 +14,7 @@ Am oberen Rand einer Basis befindet sich eine Symbolleiste, mit der du mit Ansic
 - ![[lucide-arrow-up-down.svg#icon]] **Sortieren** — Dateien sortieren und gruppieren.
 - ![[lucide-list-filter.svg#icon]] **Filter** — Dateien filtern.
 - ![[lucide-list.svg#icon]] **Eigenschaften** — Eigenschaften zur Anzeige auswählen und [[Formeln]] erstellen.
+- ![[lucide-search.svg#icon]] **Suche** — nach Elementen anhand ihrer angezeigten Eigenschaften suchen.
 - ![[lucide-plus.svg#icon]] **Neu** — eine neue Datei in der aktuellen Ansicht erstellen.
 
 ## Ansichten hinzufügen und wechseln

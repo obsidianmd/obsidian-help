@@ -14,6 +14,7 @@ En la parte superior de una base hay una barra de herramientas que te permite in
 - ![[lucide-arrow-up-down.svg#icon]] **Ordenar** — ordenar y agrupar archivos.
 - ![[lucide-list-filter.svg#icon]] **Filtro** — filtrar archivos.
 - ![[lucide-list.svg#icon]] **Propiedades** — elegir propiedades para mostrar y crear [[Fórmulas|fórmulas]].
+- ![[lucide-search.svg#icon]] **Buscar** — buscar elementos usando sus propiedades mostradas.
 - ![[lucide-plus.svg#icon]] **Nuevo** — crear un nuevo archivo en la vista actual.
 
 ## Añadir y cambiar vistas
