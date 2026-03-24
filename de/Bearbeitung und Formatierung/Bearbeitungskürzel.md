@@ -1,7 +1,7 @@
 ---
 permalink: editing-shortcuts
 ---
-Diese Seite listet die Standard-Tastaturkürzel für die Navigation und Bearbeitung von Text in Obsidian auf. Diese Kürzel werden von Ihrem Betriebssystem oder dem Framework, auf dem Obsidian basiert, bereitgestellt und können innerhalb von Obsidian nicht angepasst werden.
+Diese Seite listet die Standard-Tastaturkürzel für die Navigation und Bearbeitung von Text in Obsidian auf. Diese Kürzel werden von deinem Betriebssystem oder dem Framework, auf dem Obsidian basiert, bereitgestellt und können innerhalb von Obsidian nicht angepasst werden.
 
 Für anpassbare Tastaturkürzel für Obsidian-Befehle, siehe [[Tastenkürzel]].
 

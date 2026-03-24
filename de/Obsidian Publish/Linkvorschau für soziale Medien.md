@@ -1,14 +1,14 @@
 ---
 permalink: publish/social-share
 ---
-Viele soziale Netzwerke zeigen eine Rich-Vorschau für Ihre Website an, wenn ein Benutzer einen Link dazu teilt. Mit [[Eigenschaften]] können Sie anpassen, wie Ihre Notizen in der Vorschau erscheinen.
+Viele soziale Netzwerke zeigen eine Rich-Vorschau für deine Website an, wenn ein Benutzer einen Link dazu teilt. Mit [[Eigenschaften]] kannst du anpassen, wie deine Notizen in der Vorschau erscheinen.
 
 > [!warning] Warnung
 > Die in diesem Abschnitt überschriebenen Tags sind **nur** für Web-Crawler sichtbar. Reguläre Webbrowser erhalten aus Leistungsgründen die unveränderte Seite.
 
 ## Beschreibung
 
-Obsidian generiert automatisch eine Beschreibung basierend auf dem Notizinhalt, aber Sie können mit `description` eine eigene angeben.
+Obsidian generiert automatisch eine Beschreibung basierend auf dem Notizinhalt, aber du kannst mit `description` eine eigene angeben.
 
 ```yaml
 ---
@@ -21,9 +21,9 @@ description: Eine Einführung in unser Sonnensystem.
 
 ## Bild
 
-Sie können ein benutzerdefiniertes Bild für die Linkvorschau verwenden, indem Sie `image` oder `cover` mit einem Pfad zum Bild hinzufügen. Das Bild muss auf Publish hochgeladen sein.
+Du kannst ein benutzerdefiniertes Bild für die Linkvorschau verwenden, indem du `image` oder `cover` mit einem Pfad zum Bild hinzufügst. Das Bild muss auf Publish hochgeladen sein.
 
-Der Pfad kann ein absoluter Pfad vom Stammverzeichnis Ihres Vaults sein:
+Der Pfad kann ein absoluter Pfad vom Stammverzeichnis deines Vaults sein:
 
 ```yaml
 ---
@@ -39,7 +39,7 @@ cover: "Attachments/cover Image.png"
 ---
 ```
 
-Anstelle eines absoluten Pfads in Ihrem Vault können Sie auch eine externe URL verwenden:
+Anstelle eines absoluten Pfads in deinem Vault kannst du auch eine externe URL verwenden:
 
 ```yaml
 ---
@@ -47,7 +47,7 @@ image: "https://example.com/cover%20image.png"
 ---
 ```
 
-`image` und `cover` sind identisch. Verwenden Sie nur eines davon.
+`image` und `cover` sind identisch. Verwende nur eines davon.
 
 > [!note] Meta-Tags
 > `image` und `cover` überschreiben das automatisch generierte Bild in `<meta property="og:image" content="...">`.

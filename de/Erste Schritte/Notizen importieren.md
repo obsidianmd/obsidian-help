@@ -3,7 +3,7 @@ permalink: import
 cssclasses:
   - list-cards
 ---
-Apps kommen und gehen, aber Ihre Daten sollten Bestand haben. Obsidian verwendet nicht-proprietäre Markdown-Dateien in reinem Text, die lokal auf Ihrem Gerät gespeichert werden. Sie haben die volle Kontrolle über Ihre Daten, was bedeutet, dass Sie Obsidian offline nutzen und bei Bedarf problemlos zu einer anderen App wechseln können.
+Apps kommen und gehen, aber deine Daten sollten Bestand haben. Obsidian verwendet nicht-proprietäre Markdown-Dateien in reinem Text, die lokal auf deinem Gerät gespeichert werden. Du hast die volle Kontrolle über deine Daten, was bedeutet, dass du Obsidian offline nutzen und bei Bedarf problemlos zu einer anderen App wechseln kannst.
 
 ## Aus anderen Apps und Dateiformaten importieren
 
@@ -24,9 +24,9 @@ Apps kommen und gehen, aber Ihre Daten sollten Bestand haben. Obsidian verwendet
 
 ## Weitere Formate
 
-Ihre App ist nicht dabei? Sie können sie anfordern oder zum [Open-Source-Repository](https://github.com/obsidianmd/obsidian-importer) der [[Importprogramm]]-Erweiterung beitragen.
+Deine App ist nicht dabei? Du kannst sie anfordern oder zum [Open-Source-Repository](https://github.com/obsidianmd/obsidian-importer) der [[Importprogramm]]-Erweiterung beitragen.
 
-Unsere Community hat zusätzliche Anleitungen geteilt, die Ihnen bei der Migration zu Obsidian helfen können:
+Unsere Community hat zusätzliche Anleitungen geteilt, die dir bei der Migration zu Obsidian helfen können:
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)

@@ -1,42 +1,42 @@
 ---
 permalink: web-clipper/interpreter
 ---
-Interpreter ist eine Funktion des [[Einführung in Obsidian Web Clipper|Web Clippers]], mit der Sie über natürliche Sprache mit Webseiten interagieren können. Interpreter hilft Ihnen, Daten zu erfassen und zu modifizieren, die Sie in Obsidian speichern möchten. Zum Beispiel:
+Interpreter ist eine Funktion des [[Einführung in Obsidian Web Clipper|Web Clippers]], mit der du über natürliche Sprache mit Webseiten interagieren kannst. Interpreter hilft dir, Daten zu erfassen und zu modifizieren, die du in Obsidian speichern möchtest. Zum Beispiel:
 
 - Bestimmte Textfragmente extrahieren.
 - Informationen zusammenfassen oder erklären.
 - Text von einem Format in ein anderes konvertieren.
 - Text in eine andere Sprache übersetzen.
 
-Interpreter nutzt Sprachmodelle, um Informationen auf einer Webseite zu verarbeiten und Ergebnisse mithilfe von [[Variablen]] zurückzugeben, die Sie Ihren [[Obsidian Web Clipper/Vorlagen|Web Clipper-Vorlagen]] hinzufügen können.
+Interpreter nutzt Sprachmodelle, um Informationen auf einer Webseite zu verarbeiten und Ergebnisse mithilfe von [[Variablen]] zurückzugeben, die du deinen [[Obsidian Web Clipper/Vorlagen|Web Clipper-Vorlagen]] hinzufügen kannst.
 
 ![[web-clipper-interpreter-demo.mp4#interface]]
 
 ## Beispiele für Prompts
 
-Prompts verwenden die [[Variablen|Variablen]]-Syntax `{{"Ihr Prompt"}}`. Sie können diese Syntax mit jeder Anfrage in natürlicher Sprache verwenden, z. B.
+Prompts verwenden die [[Variablen|Variablen]]-Syntax `{{"dein Prompt"}}`. Du kannst diese Syntax mit jeder Anfrage in natürlicher Sprache verwenden, z. B.
 
 - `{{"a summary of the page"}}` um eine Zusammenfassung der Seite zu extrahieren.
 - `{{"a three bullet point summary, translated to French"}}` um Aufzählungspunkte über die Seite zu extrahieren und sie ins Französische zu übersetzen.
 - `{{"un resumé de la page en trois points"}}` um drei Aufzählungspunkte mit einem Prompt auf Französisch zu extrahieren.
 
-Die Ausgabe Ihrer Prompts kann mit [[Filter|Filtern]] weiter bearbeitet werden. Filter werden verarbeitet, nachdem die Prompt-Antwort vom Modell empfangen wurde. Zum Beispiel: `{{"a summary of the page"|blockquote}}` wandelt die Antwort in ein Blockzitat um.
+Die Ausgabe deiner Prompts kann mit [[Filter|Filtern]] weiter bearbeitet werden. Filter werden verarbeitet, nachdem die Prompt-Antwort vom Modell empfangen wurde. Zum Beispiel: `{{"a summary of the page"|blockquote}}` wandelt die Antwort in ein Blockzitat um.
 
 ## Erste Schritte
 
-Interpreter funktioniert mit fast jedem Sprachmodell-Anbieter, einschließlich Optionen, die privat auf Ihrem Gerät laufen. So richten Sie Interpreter ein:
+Interpreter funktioniert mit fast jedem Sprachmodell-Anbieter, einschließlich Optionen, die privat auf deinem Gerät laufen. So richtest du Interpreter ein:
 
-1. Gehen Sie zum Abschnitt **Interpreter** in den Web Clipper-Einstellungen.
-2. Aktivieren Sie **Interpreter aktivieren**.
-3. Konfigurieren Sie Ihren Anbieter und Ihr Modell, siehe Abschnitt [[Webseiten interpretieren#Modelle|Modelle]] unten.
-4. Fügen Sie [[Variablen|Prompt-Variablen]] zu Ihren [[Obsidian Web Clipper/Vorlagen|Vorlagen]] hinzu.
-5. Wenn Ihre Vorlage Prompt-Variablen enthält, wird der Interpreter-Abschnitt sichtbar, wenn Sie [[Webseiten ausschneiden|eine Seite ausschneiden]]. Klicken Sie auf **Interpretieren**, um die Prompt-Variablen zu verarbeiten.
+1. Gehe zum Abschnitt **Interpreter** in den Web Clipper-Einstellungen.
+2. Aktiviere **Interpreter aktivieren**.
+3. Konfiguriere deinen Anbieter und dein Modell, siehe Abschnitt [[Webseiten interpretieren#Modelle|Modelle]] unten.
+4. Füge [[Variablen|Prompt-Variablen]] zu deinen [[Obsidian Web Clipper/Vorlagen|Vorlagen]] hinzu.
+5. Wenn deine Vorlage Prompt-Variablen enthält, wird der Interpreter-Abschnitt sichtbar, wenn du [[Webseiten ausschneiden|eine Seite ausschneidest]]. Klicke auf **Interpretieren**, um die Prompt-Variablen zu verarbeiten.
 
 ## Funktionsweise
 
-Wenn Interpreter aktiviert ist *und* Ihre Vorlage [[Variablen#Prompt-Variablen|Prompt-Variablen]] enthält, wird ein neuer Interpreter-Abschnitt im Erweiterungsfenster über der Schaltfläche **Zu Obsidian hinzufügen** angezeigt. In diesem Abschnitt können Sie ein Modell auswählen und Interpreter für die aktuelle Seite ausführen.
+Wenn Interpreter aktiviert ist *und* deine Vorlage [[Variablen#Prompt-Variablen|Prompt-Variablen]] enthält, wird ein neuer Interpreter-Abschnitt im Erweiterungsfenster über der Schaltfläche **Zu Obsidian hinzufügen** angezeigt. In diesem Abschnitt kannst du ein Modell auswählen und Interpreter für die aktuelle Seite ausführen.
 
-Wenn Sie auf **Interpretieren** klicken, sendet Interpreter den Seitenkontext an Ihr ausgewähltes Modell, zusammen mit *allen* Prompts in Ihrer Vorlage in einer einzigen Anfrage. Je nach gewähltem Modellanbieter kann dies ein externer Aufruf oder lokal auf Ihrem Gerät sein. Das Modell wertet Ihre Prompts gegen den Seitenkontext aus und gibt seine Antworten zurück. Interpreter ersetzt dann die Prompt-Variablen durch die Antwortdaten.
+Wenn du auf **Interpretieren** klickst, sendet Interpreter den Seitenkontext an dein ausgewähltes Modell, zusammen mit *allen* Prompts in deiner Vorlage in einer einzigen Anfrage. Je nach gewähltem Modellanbieter kann dies ein externer Aufruf oder lokal auf deinem Gerät sein. Das Modell wertet deine Prompts gegen den Seitenkontext aus und gibt seine Antworten zurück. Interpreter ersetzt dann die Prompt-Variablen durch die Antwortdaten.
 
 Der gesamte Prozess kann Millisekunden oder mehr als 30 Sekunden dauern, abhängig vom verwendeten Modell und der zu verarbeitenden Datenmenge.
 
@@ -46,9 +46,9 @@ Der Begriff *Kontext* bezieht sich auf die Seitendaten, die Interpreter zur Vera
 
 Standardmäßig verwendet Interpreter das gesamte HTML der Seite als Kontext, was Prompts jedoch langsamer und teurer als nötig machen kann.
 
-Sie können den Standardkontext in den **Erweiterten Einstellungen** von Interpreter überschreiben und den Kontext pro [[Obsidian Web Clipper/Vorlagen|Vorlage]] definieren.
+Du kannst den Standardkontext in den **Erweiterten Einstellungen** von Interpreter überschreiben und den Kontext pro [[Obsidian Web Clipper/Vorlagen|Vorlage]] definieren.
 
-Um einen gezielteren Kontext zu definieren, verwenden Sie [[Variablen#Selektor-Variablen|Selektor-Variablen]] (oder andere Variablentypen), um einen Abschnitt der Seite zu interpretieren. Zum Beispiel könnten Sie die folgende Selektor-Variable im Interpreter-Kontext Ihrer Vorlage verwenden:
+Um einen gezielteren Kontext zu definieren, verwende [[Variablen#Selektor-Variablen|Selektor-Variablen]] (oder andere Variablentypen), um einen Abschnitt der Seite zu interpretieren. Zum Beispiel könntest du die folgende Selektor-Variable im Interpreter-Kontext deiner Vorlage verwenden:
 
 ```
 {{selectorHtml:#main}}
@@ -59,11 +59,11 @@ Dies würde Interpreter nur auf das `#main`-Element einer Webseite ausführen, f
 ## Modelle
 
 > [!warning] Datenschutz
-> Durch die Nutzung eines Drittanbieter-Modellanbieters stimmen Sie dessen Nutzungsbedingungen und Datenschutzrichtlinie zu. Interpreter-Anfragen werden direkt an den von Ihnen gewählten Anbieter gesendet. Obsidian sammelt oder speichert keine Daten über Ihre Anfragen.
+> Durch die Nutzung eines Drittanbieter-Modellanbieters stimmst du dessen Nutzungsbedingungen und Datenschutzrichtlinie zu. Interpreter-Anfragen werden direkt an den von dir gewählten Anbieter gesendet. Obsidian sammelt oder speichert keine Daten über deine Anfragen.
 
 ### Voreingestellte Anbieter
 
-Interpreter enthält mehrere voreingestellte Anbieter. Um diese Anbieter zu nutzen, benötigen Sie einen API-Schlüssel, den Sie durch Anmelden bei Ihrem Anbieterkonto erhalten. Sie müssen auch entscheiden, welche(s) Modell(e) Sie verwenden möchten.
+Interpreter enthält mehrere voreingestellte Anbieter. Um diese Anbieter zu nutzen, benötigst du einen API-Schlüssel, den du durch Anmelden bei deinem Anbieterkonto erhältst. Du musst auch entscheiden, welche(s) Modell(e) du verwenden möchtest.
 
 | Anbieter           | API-Schlüssel                                                | Modelle                                                                               |
 | ------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -85,7 +85,7 @@ Im Allgemeinen empfehlen wir die Verwendung kleiner Modelle mit Web Clipper, da 
 
 ### Benutzerdefinierte Anbieter und Modelle
 
-Um einen benutzerdefinierten Anbieter und/oder ein Modell hinzuzufügen, gehen Sie zu Web Clipper **[[Einstellungen]]** → **Interpreter**:
+Um einen benutzerdefinierten Anbieter und/oder ein Modell hinzuzufügen, gehe zu Web Clipper **[[Einstellungen]]** → **Interpreter**:
 
 - **Anbieter hinzufügen**, um voreingestellte und benutzerdefinierte Anbieter zu konfigurieren.
 - **Modell hinzufügen**, um voreingestellte und benutzerdefinierte Modelle zu konfigurieren.
@@ -98,9 +98,9 @@ Interpreter kann lokale Modelle verwenden, die mehr Datenschutz und Offline-Komp
 
 #### Ollama
 
-[Ollama](https://ollama.com/) ermöglicht es Ihnen, Sprachmodelle lokal und privat auf Ihrem Gerät auszuführen.
+[Ollama](https://ollama.com/) ermöglicht es dir, Sprachmodelle lokal und privat auf deinem Gerät auszuführen.
 
-Nachdem Sie Ollama heruntergeladen und installiert haben, fügen Sie Ollama über **Anbieter hinzufügen** in den Interpreter-Einstellungen hinzu. Ollama benötigt keinen API-Schlüssel. Wählen Sie dann ein Modell aus der [Modellliste](https://ollama.com/search). Wenn Sie beispielsweise [Llama 3.2](https://ollama.com/library/llama3.2) verwenden möchten, klicken Sie auf **Modell hinzufügen** und geben Sie ein:
+Nachdem du Ollama heruntergeladen und installiert hast, füge Ollama über **Anbieter hinzufügen** in den Interpreter-Einstellungen hinzu. Ollama benötigt keinen API-Schlüssel. Wähle dann ein Modell aus der [Modellliste](https://ollama.com/search). Wenn du beispielsweise [Llama 3.2](https://ollama.com/library/llama3.2) verwenden möchtest, klicke auf **Modell hinzufügen** und gib ein:
 
 - **Anbieter:** Ollama
 - **Anzeigename:** Llama 3.2, dieser Wert ist anpassbar.
@@ -108,15 +108,15 @@ Nachdem Sie Ollama heruntergeladen und installiert haben, fügen Sie Ollama übe
 
 **Den Ollama-Server starten**
 
-Um einer Browser-Erweiterung die Interaktion mit Ollama zu ermöglichen, müssen Sie beim Starten des Servers eine [explizite Anweisung geben](https://github.com/ollama/ollama/issues/2308), da Sie andernfalls einen `403`-Fehler erhalten.
+Um einer Browser-Erweiterung die Interaktion mit Ollama zu ermöglichen, musst du beim Starten des Servers eine [explizite Anweisung geben](https://github.com/ollama/ollama/issues/2308), da du andernfalls einen `403`-Fehler erhältst.
 
-Schließen Sie die Ollama-App und führen Sie den folgenden Befehl in Ihrem Terminal aus. Das Protokoll sollte auf das Erweiterungsprotokoll Ihres Browsers geändert werden, wenn Sie nicht Chrome oder Firefox verwenden.
+Schließe die Ollama-App und führe den folgenden Befehl in deinem Terminal aus. Das Protokoll sollte auf das Erweiterungsprotokoll deines Browsers geändert werden, wenn du nicht Chrome oder Firefox verwendest.
 
 ```
 OLLAMA_ORIGINS=moz-extension://*,chrome-extension://*,safari-web-extension://* ollama serve
 ```
 
-Führen Sie dann Ihr Modell wie gewohnt mit Ollama aus, z. B.
+Führe dann dein Modell wie gewohnt mit Ollama aus, z. B.
 
 ```
 ollama run llama3.2
@@ -124,7 +124,7 @@ ollama run llama3.2
 
 **Kontextlänge**
 
-Das Kontextfenster von Ollama beträgt standardmäßig 2048 Token. Dies ist die maximale Anzahl an Token für die Nachricht und die Antwort. Beim Ausschneiden einer langen Webseite können Sie dieses Limit leicht überschreiten. Ollama schlägt dann stillschweigend fehl und gibt irrelevante Ergebnisse zurück. Einige Optionen:
+Das Kontextfenster von Ollama beträgt standardmäßig 2048 Token. Dies ist die maximale Anzahl an Token für die Nachricht und die Antwort. Beim Ausschneiden einer langen Webseite kannst du dieses Limit leicht überschreiten. Ollama schlägt dann stillschweigend fehl und gibt irrelevante Ergebnisse zurück. Einige Optionen:
 
-- Erhöhen Sie den `num_ctx`-Parameter von Ollama. Beachten Sie, dass ein längerer Kontext mehr Arbeitsspeicher benötigt.
-- Verwenden Sie das Feld [[#Kontext]] in Ihrer Vorlage, um einen gezielteren Abschnitt der Seite bereitzustellen, oder kürzen Sie den Kontext mit einem [[Filter]], z. B. `{{content|slice:0,1000}}`.
+- Erhöhe den `num_ctx`-Parameter von Ollama. Beachte, dass ein längerer Kontext mehr Arbeitsspeicher benötigt.
+- Verwende das Feld [[#Kontext]] in deiner Vorlage, um einen gezielteren Abschnitt der Seite bereitzustellen, oder kürze den Kontext mit einem [[Filter]], z. B. `{{content|slice:0,1000}}`.

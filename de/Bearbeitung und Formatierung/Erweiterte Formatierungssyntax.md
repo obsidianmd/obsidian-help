@@ -1,11 +1,11 @@
 ---
 permalink: advanced-syntax
 ---
-Erfahren Sie, wie Sie erweiterte Formatierungssyntax zu Ihren Notizen hinzufügen können.
+Erfahre, wie du erweiterte Formatierungssyntax zu deinen Notizen hinzufügen kannst.
 
 ## Tabellen
 
-Sie können Tabellen mithilfe von senkrechten Strichen (`|`) zur Spaltentrennung und Bindestrichen (`-`) zur Definition von Überschriften erstellen. Hier ein Beispiel:
+Du kannst Tabellen mithilfe von senkrechten Strichen (`|`) zur Spaltentrennung und Bindestrichen (`-`) zur Definition von Überschriften erstellen. Hier ein Beispiel:
 
 ```md
 | Vorname | Nachname |
@@ -21,9 +21,9 @@ Sie können Tabellen mithilfe von senkrechten Strichen (`|`) zur Spaltentrennung
 
 Die senkrechten Striche an beiden Seiten der Tabelle sind zwar optional, ihre Verwendung wird jedoch für die Lesbarkeit empfohlen.
 
-> [!tip] In der _Live-Vorschau_ können Sie mit der rechten Maustaste auf eine Tabelle klicken, um Spalten und Zeilen hinzuzufügen oder zu löschen. Über das Kontextmenü können Sie diese auch sortieren und verschieben.
+> [!tip] In der _Live-Vorschau_ kannst du mit der rechten Maustaste auf eine Tabelle klicken, um Spalten und Zeilen hinzuzufügen oder zu löschen. Über das Kontextmenü kannst du diese auch sortieren und verschieben.
 
-Sie können eine Tabelle über den Befehl **Tabelle einfügen** aus der [[Befehlspalette]] oder per Rechtsklick und Auswahl von _Einfügen → Tabelle_ einfügen. Dadurch erhalten Sie eine einfache, bearbeitbare Tabelle:
+Du kannst eine Tabelle über den Befehl **Tabelle einfügen** aus der [[Befehlspalette]] oder per Rechtsklick und Auswahl von _Einfügen → Tabelle_ einfügen. Dadurch erhältst du eine einfache, bearbeitbare Tabelle:
 
 ```md
 |     |     |
@@ -31,7 +31,7 @@ Sie können eine Tabelle über den Befehl **Tabelle einfügen** aus der [[Befehl
 |     |     |
 ```
 
-Beachten Sie, dass die Zellen nicht perfekt ausgerichtet sein müssen, aber die Überschriftenzeile mindestens zwei Bindestriche enthalten muss:
+Beachte, dass die Zellen nicht perfekt ausgerichtet sein müssen, aber die Überschriftenzeile mindestens zwei Bindestriche enthalten muss:
 
 ```md
 Vorname | Nachname
@@ -43,15 +43,15 @@ Marie | Curie
 
 ### Inhalte innerhalb einer Tabelle formatieren
 
-Sie können [[Grundlegende Formatierungssyntax|grundlegende Formatierungssyntax]] verwenden, um Inhalte innerhalb einer Tabelle zu gestalten.
+Du kannst [[Grundlegende Formatierungssyntax|grundlegende Formatierungssyntax]] verwenden, um Inhalte innerhalb einer Tabelle zu gestalten.
 
 | Erste Spalte                | Zweite Spalte                                       |
 | --------------------------- | --------------------------------------------------- |
-| [[Interne Links]]          | Link zu einer Datei _innerhalb_ Ihres **Vaults**. |
+| [[Interne Links]]          | Link zu einer Datei _innerhalb_ deines **Vaults**. |
 | [[Dateien einbetten]]       | ![[Engelbart.jpg\|100]]                             |
 
 > [!note] Senkrechte Striche in Tabellen
-> Wenn Sie [[Aliasse]] verwenden oder ein [[Grundlegende Formatierungssyntax#Externe Bilder|Bild vergrößern/verkleinern]] möchten, müssen Sie vor dem senkrechten Strich ein `\` einfügen.
+> Wenn du [[Aliasse]] verwendest oder ein [[Grundlegende Formatierungssyntax#Externe Bilder|Bild vergrößern/verkleinern]] möchtest, musst du vor dem senkrechten Strich ein `\` einfügen.
 >
 > ```md
 > Erste Spalte | Zweite Spalte
@@ -63,7 +63,7 @@ Sie können [[Grundlegende Formatierungssyntax|grundlegende Formatierungssyntax]
 > -- | --
 > [[Grundlegende Formatierungssyntax\|Markdown-Syntax]] | ![[Engelbart.jpg\|200]]
 
-Richten Sie Text in Spalten aus, indem Sie Doppelpunkte (`:`) zur Überschriftenzeile hinzufügen. Sie können Inhalte auch in der _Live-Vorschau_ über das Kontextmenü ausrichten.
+Richte Text in Spalten aus, indem du Doppelpunkte (`:`) zur Überschriftenzeile hinzufügst. Du kannst Inhalte auch in der _Live-Vorschau_ über das Kontextmenü ausrichten.
 
 ```md
 Linksbündiger Text | Zentrierter Text | Rechtsbündiger Text
@@ -77,12 +77,12 @@ Inhalt | Inhalt | Inhalt
 
 ## Diagramme
 
-Sie können Ihren Notizen Diagramme und Grafiken hinzufügen, indem Sie [Mermaid](https://mermaid-js.github.io/) verwenden. Mermaid unterstützt verschiedene Diagrammtypen, wie [Flussdiagramme](https://mermaid.js.org/syntax/flowchart.html), [Sequenzdiagramme](https://mermaid.js.org/syntax/sequenceDiagram.html) und [Zeitleisten](https://mermaid.js.org/syntax/timeline.html).
+Du kannst deinen Notizen Diagramme und Grafiken hinzufügen, indem du [Mermaid](https://mermaid-js.github.io/) verwendest. Mermaid unterstützt verschiedene Diagrammtypen, wie [Flussdiagramme](https://mermaid.js.org/syntax/flowchart.html), [Sequenzdiagramme](https://mermaid.js.org/syntax/sequenceDiagram.html) und [Zeitleisten](https://mermaid.js.org/syntax/timeline.html).
 
 > [!tip] Tipp
-> Sie können auch Mermaids [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) ausprobieren, um Diagramme zu erstellen, bevor Sie sie in Ihre Notizen einfügen.
+> Du kannst auch Mermaids [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) ausprobieren, um Diagramme zu erstellen, bevor du sie in deine Notizen einfügst.
 
-Um ein Mermaid-Diagramm hinzuzufügen, erstellen Sie einen `mermaid`-[[Grundlegende Formatierungssyntax#Quelltext-Blöcke|Quelltext-Block]].
+Um ein Mermaid-Diagramm hinzuzufügen, erstelle einen `mermaid`-[[Grundlegende Formatierungssyntax#Quelltext-Blöcke|Quelltext-Block]].
 
 ````md
 ```mermaid
@@ -118,7 +118,7 @@ Biology --> Chemistry
 
 ### Dateien in einem Diagramm verknüpfen
 
-Sie können [[Interne Links|interne Links]] in Ihren Diagrammen erstellen, indem Sie Ihren Knoten die `internal-link`-[Klasse](https://mermaid.js.org/syntax/flowchart.html#classes) zuweisen.
+Du kannst [[Interne Links|interne Links]] in deinen Diagrammen erstellen, indem du deinen Knoten die `internal-link`-[Klasse](https://mermaid.js.org/syntax/flowchart.html#classes) zuweist.
 
 ````md
 ```mermaid
@@ -141,7 +141,7 @@ class Biology,Chemistry internal-link;
 > [!note] Hinweis
 > Interne Links aus Diagrammen werden nicht in der [[Graph-Ansicht]] angezeigt.
 
-Wenn Ihre Diagramme viele Knoten enthalten, können Sie das folgende Snippet verwenden.
+Wenn deine Diagramme viele Knoten enthalten, kannst du das folgende Snippet verwenden.
 
 ````md
 ```mermaid
@@ -159,7 +159,7 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 Auf diese Weise wird jeder Buchstabenknoten zu einem internen Link, wobei der [Knotentext](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) als Linktext dient.
 
 > [!note] Hinweis
-> Wenn Sie Sonderzeichen in Ihren Notiznamen verwenden, müssen Sie den Notiznamen in doppelte Anführungszeichen setzen.
+> Wenn du Sonderzeichen in deinen Notiznamen verwendest, musst du den Notiznamen in doppelte Anführungszeichen setzen.
 >
 > ```
 > class "⨳ special character" internal-link
@@ -167,13 +167,13 @@ Auf diese Weise wird jeder Buchstabenknoten zu einem internen Link, wobei der [K
 >
 > Oder: `A["⨳ special character"]`.
 
-Weitere Informationen zum Erstellen von Diagrammen finden Sie in der [offiziellen Mermaid-Dokumentation](https://mermaid.js.org/intro/).
+Weitere Informationen zum Erstellen von Diagrammen findest du in der [offiziellen Mermaid-Dokumentation](https://mermaid.js.org/intro/).
 
 ## Mathe
 
-Sie können Ihren Notizen mathematische Ausdrücke hinzufügen, indem Sie [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) und die LaTeX-Notation verwenden.
+Du kannst deinen Notizen mathematische Ausdrücke hinzufügen, indem du [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) und die LaTeX-Notation verwendest.
 
-Um einen MathJax-Ausdruck zu Ihrer Notiz hinzuzufügen, umschließen Sie ihn mit doppelten Dollarzeichen (`$$`).
+Um einen MathJax-Ausdruck zu deiner Notiz hinzuzufügen, umschließe ihn mit doppelten Dollarzeichen (`$$`).
 
 ```md
 $$
@@ -189,7 +189,7 @@ c & d
 \end{vmatrix}=ad-bc
 $$
 
-Sie können mathematische Ausdrücke auch inline einfügen, indem Sie sie mit `$`-Zeichen umschließen.
+Du kannst mathematische Ausdrücke auch inline einfügen, indem du sie mit `$`-Zeichen umschließt.
 
 ```md
 Dies ist ein Inline-Matheausdruck $e^{2i\pi} = 1$.
@@ -197,6 +197,6 @@ Dies ist ein Inline-Matheausdruck $e^{2i\pi} = 1$.
 
 Dies ist ein Inline-Matheausdruck $e^{2i\pi} = 1$.
 
-Weitere Informationen zur Syntax finden Sie unter [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+Weitere Informationen zur Syntax findest du unter [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-Eine Liste der unterstützten MathJax-Pakete finden Sie unter [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+Eine Liste der unterstützten MathJax-Pakete findest du unter [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).

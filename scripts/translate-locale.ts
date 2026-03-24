@@ -395,6 +395,7 @@ async function callLLM(config: LLMConfig, systemPrompt: string, userMessage: str
 }
 
 const LANGUAGE_NOTES: Record<string, string> = {
+  de: "Use informal 'du' (not formal 'Sie') throughout. This matches the voice used on the Obsidian main website. Use 'du/dir/dein/deine' for second-person address, and informal verb conjugations (e.g. 'kannst du', 'klicke', 'wähle', 'öffne'). Never use 'Sie/Ihnen/Ihr/Ihre'. Target register: calm, practical documentation voice — direct and clear, not chatty or formal.",
   ko: "Use 해요체 (endings: -아요/어요/해요/이에요/예요). This is modern Korean product documentation — polite, practical, and low-emotion. Do NOT use 합니다체 (-습니다/-ㅂ니다). Do NOT use chatty, blog-style, or marketing-style Korean either. Target register: calm docs voice, like a well-written product manual in 해요체.",
 };
 

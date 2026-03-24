@@ -21,9 +21,9 @@ Der Parameter `action` ist die Aktion, die ausgeführt werden soll. Verfügbare 
 - `choose-vault` zum Öffnen der Vault-Verwaltung.
 
 > [!warning] Kodierung
-> Stellen Sie sicher, dass Ihre Werte korrekt URI-kodiert sind. Zum Beispiel müssen Schrägstriche `/` als `%2F` und Leerzeichen als `%20` kodiert werden.
-> 
- Dies ist besonders wichtig, da ein falsch kodiertes „reserviertes" Zeichen die Interpretation der URI beeinträchtigen kann. [Weitere Details hier](https://en.wikipedia.org/wiki/Percent-encoding).
+> Stelle sicher, dass deine Werte korrekt URI-kodiert sind. Zum Beispiel müssen Schrägstriche `/` als `%2F` und Leerzeichen als `%20` kodiert werden.
+>
+> Dies ist besonders wichtig, da ein falsch kodiertes „reserviertes" Zeichen die Interpretation der URI beeinträchtigen kann. [Weitere Details hier](https://en.wikipedia.org/wiki/Percent-encoding).
 
 ## Notiz öffnen
 
@@ -42,7 +42,7 @@ Die Aktion `open` öffnet einen Obsidian-Vault oder eine Datei innerhalb dieses 
 
 
 > [!tip] Eine Überschrift oder einen Block öffnen
-> Mit korrekter URI-Kodierung können Sie zu einer Überschrift oder einem Block innerhalb einer Notiz navigieren. `Note%23Heading` navigiert zur Überschrift namens „Heading", während `Note%23%5EBlock` zum Block namens „Block" navigiert.
+> Mit korrekter URI-Kodierung kannst du zu einer Überschrift oder einem Block innerhalb einer Notiz navigieren. `Note%23Heading` navigiert zur Überschrift namens „Heading", während `Note%23%5EBlock` zum Block namens „Block" navigiert.
 
 ### Parameter
 
@@ -80,14 +80,14 @@ Die Aktion `new` erstellt eine neue Notiz im Vault, optional mit Inhalt.
 - `paneType` (optional) bestimmt, wo die Notiz in der Benutzeroberfläche geöffnet wird. Wie bei der Aktion `open`.
 - `content` (optional) der Inhalt der Notiz.
 - `clipboard` (optional) verwendet den Inhalt der Zwischenablage anstelle von `content`.
-- `silent` (optional) fügen Sie diesen Parameter hinzu, wenn die neue Notiz nicht geöffnet werden soll.
-- `append` (optional) fügen Sie diesen Parameter hinzu, um an eine vorhandene Datei anzuhängen, falls eine existiert.
+- `silent` (optional) füge diesen Parameter hinzu, wenn die neue Notiz nicht geöffnet werden soll.
+- `append` (optional) füge diesen Parameter hinzu, um an eine vorhandene Datei anzuhängen, falls eine existiert.
 - `overwrite` (optional) überschreibt eine vorhandene Datei, falls eine existiert, aber nur wenn `append` nicht gesetzt ist.
 - `x-success` (optional) siehe [[#x-callback-url-Parameter verwenden]].
 
 ## Tägliche Notiz erstellen oder öffnen
 
-Die Aktion `daily` erstellt oder öffnet Ihre tägliche Notiz. Die Erweiterung [[Tägliche Notizen]] muss aktiviert sein.
+Die Aktion `daily` erstellt oder öffnet deine tägliche Notiz. Die Erweiterung [[Tägliche Notizen]] muss aktiviert sein.
 
 ### Beispiele
 
@@ -179,13 +179,13 @@ Zusätzlich zu den obigen Formaten gibt es zwei weitere „Kurz"-Formate zum Öf
 
 ### Obsidian URI registrieren
 
-Unter Windows und macOS sollte es ausreichen, die App einmal auszuführen, um das Obsidian-URI-Protokoll auf Ihrem Computer zu registrieren.
+Unter Windows und macOS sollte es ausreichen, die App einmal auszuführen, um das Obsidian-URI-Protokoll auf deinem Computer zu registrieren.
 
 Unter Linux ist der Prozess aufwendiger:
 
-1. Stellen Sie sicher, dass Sie eine `obsidian.desktop`-Datei erstellen. [Weitere Details hier](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
-2. Stellen Sie sicher, dass Ihre Desktop-Datei das Feld `Exec` als `Exec=executable %u` angibt. Das `%u` wird verwendet, um die `obsidian://`-URIs an die App zu übergeben.
-3. Wenn Sie das AppImage-Installationsprogramm verwenden, müssen Sie es möglicherweise mit `Obsidian-x.y.z.AppImage --appimage-extract` entpacken. Stellen Sie dann sicher, dass die `Exec`-Direktive auf die entpackte ausführbare Datei verweist.
+1. Stelle sicher, dass du eine `obsidian.desktop`-Datei erstellst. [Weitere Details hier](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
+2. Stelle sicher, dass deine Desktop-Datei das Feld `Exec` als `Exec=executable %u` angibt. Das `%u` wird verwendet, um die `obsidian://`-URIs an die App zu übergeben.
+3. Wenn du das AppImage-Installationsprogramm verwendest, musst du es möglicherweise mit `Obsidian-x.y.z.AppImage --appimage-extract` entpacken. Stelle dann sicher, dass die `Exec`-Direktive auf die entpackte ausführbare Datei verweist.
 
 
-[^1]: Die Vault-ID ist der zufällige 16-stellige Code, der dem Vault zugewiesen wird, zum Beispiel `ef6ca3e3b524d22f`. Diese ID ist eindeutig pro Ordner auf Ihrem Computer. Die ID kann gefunden werden, indem Sie die Vault-Auswahl öffnen und im Kontextmenü des gewünschten Vaults auf „Vault-ID kopieren" klicken.
+[^1]: Die Vault-ID ist der zufällige 16-stellige Code, der dem Vault zugewiesen wird, zum Beispiel `ef6ca3e3b524d22f`. Diese ID ist eindeutig pro Ordner auf deinem Computer. Die ID kann gefunden werden, indem du die Vault-Auswahl öffnest und im Kontextmenü des gewünschten Vaults auf „Vault-ID kopieren" klickst.

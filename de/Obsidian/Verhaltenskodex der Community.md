@@ -43,17 +43,17 @@ Zum Beispiel, wenn wir Meldungen von mehreren Mitgliedern über störendes oder 
 
 #### Unaufgeforderte Nachrichten an Community-Mitglieder
 
-Dies ist eine große und aktive Community. Bitte respektieren Sie die Aufmerksamkeit und Zeit anderer, indem Sie unaufgefordertes Taggen, „Pingen" oder Direktnachrichten an Mitarbeiter, Moderatoren und andere Community-Mitglieder für allgemeine Fragen, Fehlerberichte oder Feature-Anfragen vermeiden. Diese Richtlinie wird dem Sinn der Regel entsprechend durchgesetzt.
+Dies ist eine große und aktive Community. Bitte respektiere die Aufmerksamkeit und Zeit anderer, indem du unaufgefordertes Taggen, „Pingen" oder Direktnachrichten an Mitarbeiter, Moderatoren und andere Community-Mitglieder für allgemeine Fragen, Fehlerberichte oder Feature-Anfragen vermeidest. Diese Richtlinie wird dem Sinn der Regel entsprechend durchgesetzt.
 
-**Wann Pingen angemessen ist**: Pingen Sie Community-Mitglieder nur, wenn Sie auf deren Nachrichten antworten oder wenn sie ausdrücklich darum gebeten haben, über bestimmte Themen benachrichtigt zu werden.
+**Wann Pingen angemessen ist**: Pinge Community-Mitglieder nur, wenn du auf deren Nachrichten antwortest oder wenn sie ausdrücklich darum gebeten haben, über bestimmte Themen benachrichtigt zu werden.
 
-**Direktnachrichten**: Senden Sie Direktnachrichten nur, wenn Sie dafür öffentlich im Server eine ausdrückliche Erlaubnis erhalten haben.
+**Direktnachrichten**: Sende Direktnachrichten nur, wenn du dafür öffentlich im Server eine ausdrückliche Erlaubnis erhalten hast.
 
-**Community-Erweiterungen und Themen**: Für Fehlerberichte und Feature-Anfragen erstellen Sie bitte ein GitHub-Issue, anstatt den Entwickler in Discord zu pingen.
+**Community-Erweiterungen und Themen**: Für Fehlerberichte und Feature-Anfragen erstelle bitte ein GitHub-Issue, anstatt den Entwickler in Discord zu pingen.
 
-**Sicherheitsbedenken**: Wenn Sie ein Sicherheitsproblem mit der Anwendung melden möchten, [[Hilfe und Support#Obsidian-Support kontaktieren|kontaktieren Sie bitte den Obsidian-Support]].
+**Sicherheitsbedenken**: Wenn du ein Sicherheitsproblem mit der Anwendung melden möchtest, [[Hilfe und Support#Obsidian-Support kontaktieren|kontaktiere bitte den Obsidian-Support]].
 
-Anweisungen zum Melden von Verstößen gegen unseren Verhaltenskodex finden Sie weiter unten unter [[#Verstöße melden]]. Wir schätzen Ihre Mitarbeit bei der Einhaltung dieser Richtlinien, um eine positive und respektvolle Umgebung innerhalb der Obsidian-Community aufrechtzuerhalten.
+Anweisungen zum Melden von Verstößen gegen unseren Verhaltenskodex findest du weiter unten unter [[#Verstöße melden]]. Wir schätzen deine Mitarbeit bei der Einhaltung dieser Richtlinien, um eine positive und respektvolle Umgebung innerhalb der Obsidian-Community aufrechtzuerhalten.
 
 ### Sonstige Verhaltensweisen
 
@@ -69,17 +69,17 @@ Die folgenden Verhaltensweisen führen zwar nicht zu einem sofortigen Ausschluss
 
 #### Kampagnen führen
 
-Kampagnen führen bedeutet, kontinuierlich dieselben Anfragen zu stellen. Dies gilt sowohl für Feature-Anfragen als auch für Hilfeanfragen. Stellen Sie nicht dieselbe Frage in kurzer Zeit an mehreren Stellen und bitten Sie Entwickler nicht wiederholt um dieselben Features oder Fehlerbehebungen.
+Kampagnen führen bedeutet, kontinuierlich dieselben Anfragen zu stellen. Dies gilt sowohl für Feature-Anfragen als auch für Hilfeanfragen. Stelle nicht dieselbe Frage in kurzer Zeit an mehreren Stellen und bitte Entwickler nicht wiederholt um dieselben Features oder Fehlerbehebungen.
 
 #### Übermäßige Eigenwerbung
 
-Wir ermutigen dazu, zu teilen, was Sie für Obsidian erstellt haben – Anleitungen, Videos, Dienstprogramme, Tools und mehr. Es ist großartig zu sehen, was die Community-Mitglieder erschaffen. Als Content-Ersteller ist es selbstverständlich, auf eigene Arbeiten zu verlinken, und wir stellen dafür den Kanal `#content-update` auf unserem [[Hilfe und Support#Fragen und Ratschläge|Discord]] bereit.
+Wir ermutigen dazu, zu teilen, was du für Obsidian erstellt hast – Anleitungen, Videos, Dienstprogramme, Tools und mehr. Es ist großartig zu sehen, was die Community-Mitglieder erschaffen. Als Content-Ersteller ist es selbstverständlich, auf eigene Arbeiten zu verlinken, und wir stellen dafür den Kanal `#content-update` auf unserem [[Hilfe und Support#Fragen und Ratschläge|Discord]] bereit.
 
 Aber es gibt Grenzen.
 
-**Ausschließliche** Eigenwerbung bezieht sich auf das Bewerben oder Verlinken eigener (oder fremder) Inhalte oder Initiativen, ohne anderweitig an der Community teilzunehmen. Wenn Ihr einziger Zweck hier darin besteht, Links zu teilen oder Aufmerksamkeit für externe Projekte zu gewinnen, werden wir das nicht zulassen. Je nach Situation können Links entfernt und Verwarnungen ausgesprochen werden.
+**Ausschließliche** Eigenwerbung bezieht sich auf das Bewerben oder Verlinken eigener (oder fremder) Inhalte oder Initiativen, ohne anderweitig an der Community teilzunehmen. Wenn dein einziger Zweck hier darin besteht, Links zu teilen oder Aufmerksamkeit für externe Projekte zu gewinnen, werden wir das nicht zulassen. Je nach Situation können Links entfernt und Verwarnungen ausgesprochen werden.
 
-**Übermäßige** Eigenwerbung ist eine Ermessensentscheidung der Moderatoren und Mitarbeiter. Wir erwarten, dass Mitglieder sich bedeutungsvoll einbringen, bevor sie ihre Arbeit bewerben. Bitte seien Sie respektvoll – im Zweifelsfall sollten Sie mehr teilnehmen als bewerben. Wir behalten uns das Recht vor, Inhalte zu entfernen, die nicht mit dieser Richtlinie übereinstimmen.
+**Übermäßige** Eigenwerbung ist eine Ermessensentscheidung der Moderatoren und Mitarbeiter. Wir erwarten, dass Mitglieder sich bedeutungsvoll einbringen, bevor sie ihre Arbeit bewerben. Bitte sei respektvoll – im Zweifelsfall solltest du mehr teilnehmen als bewerben. Wir behalten uns das Recht vor, Inhalte zu entfernen, die nicht mit dieser Richtlinie übereinstimmen.
 
 Werbeinhalte müssen außerdem relevant für Obsidian sein. Das umfasst alles, was Obsidian unterstützt, erweitert oder damit integriert – aber nicht unverwandte persönliche Projekte.
 
@@ -87,7 +87,7 @@ Schließlich werden bezahlte Inhalte immer besonders genau geprüft, da das Pote
 
 #### Spam
 
-Senden Sie keine Direktnachrichten an Community-Mitglieder, ohne vorher um Erlaubnis zu fragen. Es ist in Ordnung, öffentlich zu fragen, wenn Sie eine Frage haben.
+Sende keine Direktnachrichten an Community-Mitglieder, ohne vorher um Erlaubnis zu fragen. Es ist in Ordnung, öffentlich zu fragen, wenn du eine Frage hast.
 
 Ebenso ist das Posten von Einladungslinks (z. B. zu anderen Discord-Servern, nicht verwandten Communities oder privaten Gruppen) nicht erlaubt. Diese wirken oft wie Spam, lenken Diskussionen ab und verursachen Moderationsprobleme.
 
@@ -95,11 +95,11 @@ Ebenso ist das Posten von Einladungslinks (z. B. zu anderen Discord-Servern, nic
 
 Im Laufe der Jahre des Betriebs der offiziellen Community-Kanäle von Obsidian haben wir einige Verhaltensweisen beobachtet, die positiv zur Community beitragen.
 
-Wenn Sie Ihre Kommunikationsfähigkeiten verbessern und ein besseres Community-Mitglied werden möchten, ziehen Sie Folgendes in Betracht:
+Wenn du deine Kommunikationsfähigkeiten verbessern und ein besseres Community-Mitglied werden möchtest, ziehe Folgendes in Betracht:
 
-- **Erst versuchen, dann fragen**: Bevor Sie um Hilfe bitten, durchsuchen Sie bitte zunächst die Hilfedokumentation und den Discord-/Forumsverlauf, ob die Frage bereits gestellt wurde. Helfen Sie anderen, Ihnen zu helfen, indem Sie mitteilen, was Sie bereits versucht haben.
-- **Offen bleiben**: Da Obsidian sehr anpassbar ist, haben manche Personen möglicherweise eine völlig andere Einrichtung oder einen anderen Arbeitsablauf als Sie. Verurteilen Sie andere nicht für ihre Entscheidungen.
-- **Bei Aufregung zurücktreten**: Die Community ist ein Ort, an dem wir gemeinsam wachsen, kein Debattierwettbewerb. Wenn eine Diskussion in einen Streit eskaliert, versuchen Sie Ihr Bestes, einen Schritt zurückzutreten und die Unterhaltung zu verlassen.
+- **Erst versuchen, dann fragen**: Bevor du um Hilfe bittest, durchsuche bitte zunächst die Hilfedokumentation und den Discord-/Forumsverlauf, ob die Frage bereits gestellt wurde. Hilf anderen, dir zu helfen, indem du mitteilst, was du bereits versucht hast.
+- **Offen bleiben**: Da Obsidian sehr anpassbar ist, haben manche Personen möglicherweise eine völlig andere Einrichtung oder einen anderen Arbeitsablauf als du. Verurteile andere nicht für ihre Entscheidungen.
+- **Bei Aufregung zurücktreten**: Die Community ist ein Ort, an dem wir gemeinsam wachsen, kein Debattierwettbewerb. Wenn eine Diskussion in einen Streit eskaliert, versuche dein Bestes, einen Schritt zurückzutreten und die Unterhaltung zu verlassen.
 
 ## Motivation
 
@@ -113,24 +113,24 @@ Mit dem Wachstum der Community können wir uns nicht darauf verlassen, dass alle
 
 ## Verstöße melden
 
-Der Verhaltenskodex wird von unseren Moderatoren durchgesetzt, aber wir können nicht jede Interaktion in den offiziellen Community-Kanälen von Obsidian überwachen. Deshalb sind wir auf Mitglieder wie Sie angewiesen, um uns zu helfen, einen respektvollen und einladenden Raum zu erhalten, indem Sie alle Verstöße melden, die Sie beobachten.
+Der Verhaltenskodex wird von unseren Moderatoren durchgesetzt, aber wir können nicht jede Interaktion in den offiziellen Community-Kanälen von Obsidian überwachen. Deshalb sind wir auf Mitglieder wie dich angewiesen, um uns zu helfen, einen respektvollen und einladenden Raum zu erhalten, indem du alle Verstöße meldest, die du beobachtest.
 
-Auch wenn Sie nicht direkt betroffen sind, werden Sie ermutigt, besorgniserregendes Verhalten zu melden. Wir werden Ihre Identität so vertraulich wie möglich behandeln.
+Auch wenn du nicht direkt betroffen bist, wirst du ermutigt, besorgniserregendes Verhalten zu melden. Wir werden deine Identität so vertraulich wie möglich behandeln.
 
-Wenn sich Ihre Meldung auf ein Sicherheitsbedenken bezüglich Obsidian selbst bezieht, [[Hilfe und Support#Obsidian-Support kontaktieren|schreiben Sie bitte direkt eine E-Mail an den Obsidian-Support]].
+Wenn sich deine Meldung auf ein Sicherheitsbedenken bezüglich Obsidian selbst bezieht, [[Hilfe und Support#Obsidian-Support kontaktieren|schreibe bitte direkt eine E-Mail an den Obsidian-Support]].
 
 ### Auf Discord melden
 
-Geben Sie in einem beliebigen Kanal (vorzugsweise dem, in dem der Vorfall stattfand) ein:
-`/moderation report @benutzername [kurzer Grund]` Ihre Nachricht verschwindet sofort und eine Meldung wird an das Moderationsteam gesendet.
+Gib in einem beliebigen Kanal (vorzugsweise dem, in dem der Vorfall stattfand) ein:
+`/moderation report @benutzername [kurzer Grund]` Deine Nachricht verschwindet sofort und eine Meldung wird an das Moderationsteam gesendet.
 
-Sie können auch die Discord-App-Launcher-Schaltfläche (das Vier-Formen-Symbol in der Chatleiste) verwenden, um auf Carl-bots Moderationsbefehle zuzugreifen, wenn Sie sich bei der genauen Syntax unsicher sind.
+Du kannst auch die Discord-App-Launcher-Schaltfläche (das Vier-Formen-Symbol in der Chatleiste) verwenden, um auf Carl-bots Moderationsbefehle zuzugreifen, wenn du dir bei der genauen Syntax unsicher bist.
 
-Falls der Befehl `/moderation report` nicht funktioniert, können Sie auch eine Direktnachricht an den Bot **OMG Moderators** senden. Stellen Sie sicher, dass Ihre Direktnachrichten für den Server aktiviert sind, damit der Bot antworten kann.
+Falls der Befehl `/moderation report` nicht funktioniert, kannst du auch eine Direktnachricht an den Bot **OMG Moderators** senden. Stelle sicher, dass deine Direktnachrichten für den Server aktiviert sind, damit der Bot antworten kann.
 
 ### Im Forum melden
 
-Bitte markieren Sie die betreffende Unterhaltung mit einem Grund, und unsere Moderatoren werden den Fall untersuchen.
+Bitte markiere die betreffende Unterhaltung mit einem Grund, und unsere Moderatoren werden den Fall untersuchen.
 
 ## Durchsetzung
 
@@ -144,9 +144,9 @@ Wenn unsere Moderatoren [[#sonstige Verstöße]] beobachten oder eine Meldung da
 
 ## Einspruch gegen einen Ausschluss
 
-Wenn Sie glauben, irrtümlich ausgeschlossen worden zu sein, können Sie den [[Hilfe und Support#Obsidian-Support kontaktieren|Obsidian-Support kontaktieren]] und Ihren Discord-, Forum- oder Reddit-Benutzernamen sowie das Datum des Ausschlusses angeben. Ein Mitglied des Obsidian-Teams wird Ihren Fall gemeinsam mit dem Moderationsteam prüfen und eine Entscheidung mitteilen, sobald die Prüfung abgeschlossen ist.
+Wenn du glaubst, irrtümlich ausgeschlossen worden zu sein, kannst du den [[Hilfe und Support#Obsidian-Support kontaktieren|Obsidian-Support kontaktieren]] und deinen Discord-, Forum- oder Reddit-Benutzernamen sowie das Datum des Ausschlusses angeben. Ein Mitglied des Obsidian-Teams wird deinen Fall gemeinsam mit dem Moderationsteam prüfen und eine Entscheidung mitteilen, sobald die Prüfung abgeschlossen ist.
 
-Bitte beachten Sie, dass alle Einspruchsentscheidungen endgültig sind und nicht weiter angefochten werden können.
+Bitte beachte, dass alle Einspruchsentscheidungen endgültig sind und nicht weiter angefochten werden können.
 
 ## Danksagungen
 
