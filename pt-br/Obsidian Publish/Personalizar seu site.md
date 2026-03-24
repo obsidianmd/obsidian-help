@@ -74,8 +74,8 @@ Dentro do Obsidian Publish, você tem a capacidade de personalizar a ordem de na
 
 #### Acessando opções de Customizar a navegação
 
-1. Na [[Faixa de opções]], selecione **Publicar mudanças** (![[lucide-send.svg#icon]]) ou abra a [[Paleta de comandos]] e digite **Publish: Publicar mudanças...**
-2. Na caixa de diálogo **Publicar mudanças**, selecione **Alterar configurações do site** ( ![[lucide-cog.svg#icon]] ).
+1. Na [[Faixa de opções]], selecione **Publicar mudanças** ![[lucide-send.svg#icon]] ou abra a [[Paleta de comandos]] e digite **Publish: Publicar mudanças...**
+2. Na caixa de diálogo **Publicar mudanças**, selecione **Alterar configurações do site** ![[lucide-cog.svg#icon]].
 3. Em **Configurações de componentes**, ao lado de **Customizar a navegação**, selecione o botão **Administrar**.
 
 Uma nova janela pop-up intitulada **Navegação** aparecerá sobre a janela **Alterar configurações do site**.

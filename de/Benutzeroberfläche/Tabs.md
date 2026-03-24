@@ -13,7 +13,7 @@ Du kannst in Obsidian so viele Tabs öffnen, wie du möchtest. Du kannst Tabs au
 
 ## Einen neuen Tab öffnen
 
-Wähle oben im Anwendungsfenster neben dem letzten Tab rechts **Neuer Tab** ( ![[lucide-plus.svg#icon]] ). Oder verwende ein Tastaturkürzel:
+Wähle oben im Anwendungsfenster neben dem letzten Tab rechts **Neuer Tab** ![[lucide-plus.svg#icon]]. Oder verwende ein Tastaturkürzel:
 
 - **Windows und Linux:** `Strg+T`
 - **macOS:** `Cmd+T`
@@ -114,7 +114,7 @@ Für Notiz-Tabs kannst du die folgenden Erweiterungen als verlinkte Ansichten ve
 
 Um eine verlinkte Ansicht für einen Notiz-Tab zu öffnen:
 
-1. Wähle **Weitere Optionen** ( ![[lucide-more-horizontal.svg#icon]] ) in der oberen rechten Ecke der Notiz.
+1. Wähle **Weitere Optionen** ![[lucide-more-horizontal.svg#icon]] in der oberen rechten Ecke der Notiz.
 2. Wähle unter **Verlinkte Ansicht öffnen** die gewünschte verlinkte Ansicht.
 
 ## Layouts speichern

@@ -35,7 +35,7 @@ Folgende Optionen stehen zur Verfügung:
 
 ## Rückverweise für eine Notiz anzeigen
 
-Um die Rückverweise für die aktive Notiz anzuzeigen, klicke auf den **Rückverweise**-Tab ( ![[obsidian-icon-links-coming-in.svg#icon]] ) in der rechten Seitenleiste.
+Um die Rückverweise für die aktive Notiz anzuzeigen, klicke auf den **Rückverweise**-Tab ![[obsidian-icon-links-coming-in.svg#icon]] in der rechten Seitenleiste.
 
 > [!note] Hinweis
 > Wenn du den Rückverweise-Tab nicht sehen kannst, kannst du ihn sichtbar machen, indem du die [[Befehlspalette]] öffnest und den Befehl **Rückverweise: Rückverweise anzeigen** ausführst.

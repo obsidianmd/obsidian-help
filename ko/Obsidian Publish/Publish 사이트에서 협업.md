@@ -13,7 +13,7 @@ description: Learn how to collaborate with other Obsidian users on your Obsidian
 
 ## 사이트에 공동 작업자 추가
 
-1. [[리본]]에서 **변경사항 게재** (![[lucide-send.svg#icon]])를 선택하거나 [[명령어 팔레트]]를 열고 **Publish: Publish changes...**를 입력해요.
+1. [[리본]]에서 **변경사항 게재** ![[lucide-send.svg#icon]]를 선택하거나 [[명령어 팔레트]]를 열고 **Publish: Publish changes...**를 입력해요.
 2. **변경사항 게재** 대화 상자에서 **사이트 옵션 변경** ![[lucide-cog.svg#icon]]을 클릭해요.
 3. **사이트 공동 작업** 옆에서 **관리**를 선택해요.
 4. **사용자 초대**에 공동 작업자의 이메일을 입력해요.
@@ -21,10 +21,10 @@ description: Learn how to collaborate with other Obsidian users on your Obsidian
 
 ## 사이트에서 공동 작업자 제거
 
-1. [[리본]]에서 **변경사항 게재** (![[lucide-send.svg#icon]])를 선택하거나 [[명령어 팔레트]]를 열고 **Publish: Publish changes...**를 입력해요.
-2. **변경사항 게재** 대화 상자에서 **사이트 옵션 변경** ( ![[lucide-cog.svg#icon]] )을 클릭해요.
+1. [[리본]]에서 **변경사항 게재** ![[lucide-send.svg#icon]]를 선택하거나 [[명령어 팔레트]]를 열고 **Publish: Publish changes...**를 입력해요.
+2. **변경사항 게재** 대화 상자에서 **사이트 옵션 변경** ![[lucide-cog.svg#icon]]을 클릭해요.
 3. **사이트 공동 작업** 옆에서 **관리**를 선택해요.
-4. 제거하려는 공동 작업자 옆에서 **사용자 제거** ( ![[lucide-x.svg#icon]])를 선택해요.
+4. 제거하려는 공동 작업자 옆에서 **사용자 제거** ![[lucide-x.svg#icon]]를 선택해요.
 
 ## 공동 작업자 간 변경 사항 동기화
 
@@ -32,7 +32,7 @@ Obsidian Publish는 게재된 변경 사항을 로컬 보관함 간에 자동으
 
 라이브 사이트의 변경 사항으로 로컬 노트를 업데이트하려면:
 
-1. [[리본]]에서 **변경사항 게재** (![[lucide-send.svg#icon]])를 선택하거나 [[명령어 팔레트]]를 열고 **Publish: Publish changes...**를 입력해요.
+1. [[리본]]에서 **변경사항 게재** ![[lucide-send.svg#icon]]를 선택하거나 [[명령어 팔레트]]를 열고 **Publish: Publish changes...**를 입력해요.
 2. 동기화하려는 변경 사항을 마우스 오른쪽 버튼으로 클릭하거나 길게 누른 다음, **라이브 버전 사용**을 선택해요. **이렇게 하면 로컬 보관함의 노트가 덮어쓰기돼요.**
 
 > [!tip] 보관함 간 변경 사항을 동기화하려면 [[Obsidian Sync 소개|Obsidian Sync]] 또는 [git](https://git-scm.com/)과 같은 다른 도구를 사용하는 것을 권장해요.

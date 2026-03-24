@@ -56,23 +56,23 @@ Para atualizar um plugin individual:
 
 1. Abra as **[[Configurações]]**.
 2. No menu lateral, selecione **Plugins da comunidade**.
-3. Em **Plugins instalados**, selecione o ícone da lixeira ( ![[lucide-trash-2.svg#icon]] ) ao lado do plugin que deseja desinstalar.
+3. Em **Plugins instalados**, selecione o ícone da lixeira ![[lucide-trash-2.svg#icon]] ao lado do plugin que deseja desinstalar.
 4. Selecione **Desinstalar** para confirmar.
 
 ## Administrar plugins instalados
 
 Em **[[Configurações]] → Plugins da comunidade → Plugins instalados**, cada plugin possui vários ícones para gerenciá-lo:
 
-- **[[Configurações]]** ( ![[lucide-settings.svg#icon]] ) — Abrir a página de configurações do plugin, caso possua opções configuráveis.
-- **[[Teclas de atalho]]** ( ![[lucide-plus-circle.svg#icon]] ) — Definir atalhos de teclado para os comandos do plugin.
-- **Financiamento** ( ![[lucide-heart.svg#icon]] ) — Visualizar a URL de financiamento do autor do plugin para apoiar seu trabalho.
-- **Desinstalar** ( ![[lucide-trash-2.svg#icon]] ) — Remover o plugin do seu cofre.
+- **[[Configurações]]** ![[lucide-settings.svg#icon]] — Abrir a página de configurações do plugin, caso possua opções configuráveis.
+- **[[Teclas de atalho]]** ![[lucide-plus-circle.svg#icon]] — Definir atalhos de teclado para os comandos do plugin.
+- **Financiamento** ![[lucide-heart.svg#icon]] — Visualizar a URL de financiamento do autor do plugin para apoiar seu trabalho.
+- **Desinstalar** ![[lucide-trash-2.svg#icon]] — Remover o plugin do seu cofre.
 - **Alternar** — Ativar ou desativar o plugin sem desinstalá-lo.
 
 Você também pode:
 
 - Selecionar o ícone de **recarregar** para recarregar todos os plugins.
-- Selecionar o ícone de **pasta** ( ![[lucide-folder-open.svg#icon]] ) para abrir a pasta de plugins na sua [[Pasta de configuração|pasta de configuração]].
+- Selecionar o ícone de **pasta** ![[lucide-folder-open.svg#icon]] para abrir a pasta de plugins na sua [[Pasta de configuração|pasta de configuração]].
 - Usar a **barra de pesquisa** para filtrar plugins por nome.
 
 ## Saiba mais

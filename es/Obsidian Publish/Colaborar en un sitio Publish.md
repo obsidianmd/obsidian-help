@@ -12,7 +12,7 @@ Solo el propietario del sitio necesita una suscripción activa de Obsidian Publi
 
 ## Agregar un colaborador a un sitio
 
-1. En la [[Menú de cinta]], selecciona **Publicar cambios** (![[lucide-send.svg#icon]]) o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**
+1. En la [[Menú de cinta]], selecciona **Publicar cambios** ![[lucide-send.svg#icon]] o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**
 2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ![[lucide-cog.svg#icon]].
 3. Junto a **Colaboración de página web**, selecciona **Administrar**.
 4. En **Invitar usuario**, ingresa el correo electrónico del colaborador.
@@ -20,10 +20,10 @@ Solo el propietario del sitio necesita una suscripción activa de Obsidian Publi
 
 ## Eliminar un colaborador de un sitio
 
-1. En la [[Menú de cinta]], selecciona **Publicar cambios** (![[lucide-send.svg#icon]]) o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**
-2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ( ![[lucide-cog.svg#icon]] ).
+1. En la [[Menú de cinta]], selecciona **Publicar cambios** ![[lucide-send.svg#icon]] o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**
+2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ![[lucide-cog.svg#icon]].
 3. Junto a **Colaboración de página web**, selecciona **Administrar**.
-4. Junto al colaborador que deseas eliminar, selecciona **Eliminar usuario** ( ![[lucide-x.svg#icon]]).
+4. Junto al colaborador que deseas eliminar, selecciona **Eliminar usuario** ![[lucide-x.svg#icon]].
 
 ## Sincronizar cambios entre colaboradores
 
@@ -31,7 +31,7 @@ Obsidian Publish no sincroniza automáticamente los cambios publicados entre bó
 
 Para actualizar una nota local con los cambios del sitio en vivo:
 
-1. En la [[Menú de cinta]], selecciona **Publicar cambios** (![[lucide-send.svg#icon]]) o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**
+1. En la [[Menú de cinta]], selecciona **Publicar cambios** ![[lucide-send.svg#icon]] o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**
 2. Haz clic derecho o mantén presionado el cambio que deseas sincronizar, y luego selecciona **Usar versión en vivo**. **Esto sobrescribirá la nota en tu bóveda local.**
 
 > [!tip] Recomendamos que uses otra herramienta para sincronizar cambios entre bóvedas, como [[Introducción a Obsidian Sync|Obsidian Sync]] o [git](https://git-scm.com/).

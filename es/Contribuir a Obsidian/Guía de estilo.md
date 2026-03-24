@@ -346,7 +346,7 @@ Incluye iconos e imágenes cuando faciliten explicar cosas que son difíciles de
 
 Los iconos de [Lucide](https://lucide.dev/icons/) y los iconos personalizados de Obsidian se pueden usar junto con elementos detallados para proporcionar una representación visual de una función.
 
-**Ejemplo:** En el menú de cinta a la izquierda, selecciona **Crear nuevo lienzo** ( ![[lucide-layout-dashboard.svg#icon]] ) para crear un lienzo en la misma carpeta que el archivo activo.
+**Ejemplo:** En el menú de cinta a la izquierda, selecciona **Crear nuevo lienzo** ![[lucide-layout-dashboard.svg#icon]] para crear un lienzo en la misma carpeta que el archivo activo.
 
 **Directrices para iconos**
 
@@ -365,9 +365,9 @@ Los iconos de [Lucide](https://lucide.dev/icons/) y los iconos personalizados de
 >```
 
 - Utiliza el ancla `icon` en imágenes incrustadas, para ajustar el espaciado alrededor del icono de modo que se alinee ordenadamente con el texto cercano.
-- Los iconos deben estar rodeados por paréntesis. ( ![[lucide-cog.svg#icon]] )
+- Los iconos deben estar rodeados por paréntesis. ![[lucide-cog.svg#icon]]
 
-**Ejemplo**: `( ![[lucide-cog.svg#icon]] )`
+**Ejemplo**: `![[lucide-cog.svg#icon]]`
 
 ### Etiquetas de ancla de imagen
 
@@ -382,7 +382,7 @@ Las etiquetas de ancla de imagen están disponibles para agregar cambios decorat
 
 La etiqueta de ancla de icono asegura la alineación vertical correcta para los iconos usados para indicar elementos de interfaz.
 
-El primer icono de menú usa la etiqueta de ancla ( ![[lucide-menu.svg#icon]] ), mientras que el segundo icono de menú ( ![[lucide-menu.svg]] ) no.
+El primer icono de menú usa la etiqueta de ancla ![[lucide-menu.svg#icon]], mientras que el segundo icono de menú ( ![[lucide-menu.svg]] ) no.
 
 **Interfaz**
 

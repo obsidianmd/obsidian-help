@@ -8,15 +8,15 @@ A faixa de opções funciona como um espaço para comandos comuns dentro do Obsi
 
 No desktop, ela está localizada na [[Barra lateral#Abrir barras laterais escondidas|barra lateral esquerda]] e permanece visível mesmo quando a barra lateral esquerda está fechada.
 
-No celular, você pode acessar as [[Aplicativo móvel#Ações da faixa de opções|Ações da faixa de opções]] tocando na **opção Menu** ( ![[lucide-menu.svg#icon]] ) no canto inferior direito do aplicativo quando você não está editando uma nota.
+No celular, você pode acessar as [[Aplicativo móvel#Ações da faixa de opções|Ações da faixa de opções]] tocando na **opção Menu** ![[lucide-menu.svg#icon]] no canto inferior direito do aplicativo quando você não está editando uma nota.
 
 ## Ações
 
 Cada ação é representada por um ícone na faixa de opções. Passar o mouse sobre esses ícones exibirá uma dica de ferramenta, enquanto selecioná-los ativará a ação associada. No celular, você pode tocar nesses ícones para ativá-los.
 
-1. Abrir o **[[Gerenciar cofres|Alternador de cofres]]** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
-2. Acessar a **ajuda** ( ![[lucide-help-circle.svg#icon]] ).
-3. Abrir as **[[Configurações]]** ( ![[lucide-settings.svg#icon]] ).
+1. Abrir o **[[Gerenciar cofres|Alternador de cofres]]** ![[obsidian-icon-vault-switcher.svg#icon]].
+2. Acessar a **ajuda** ![[lucide-help-circle.svg#icon]].
+3. Abrir as **[[Configurações]]** ![[lucide-settings.svg#icon]].
 
 Na versão móvel, você pode configurar uma ação de acesso rápido na faixa de opções. Para mais informações, consulte a [[#Celular|seção móvel]] e [[Aplicativo móvel]].
 
@@ -54,7 +54,7 @@ Se você ocultou a faixa de opções e deseja exibi-la novamente:
 
 Na versão móvel do Obsidian, você pode realizar ações de acesso rápido, reorganizar itens e personalizar o menu da faixa de opções. Para acessar essas personalizações, siga estes passos:
 
-1. Abra as **[[Configurações]]** do Obsidian ( ![[lucide-cog.svg#icon]] ).
+1. Abra as **[[Configurações]]** do Obsidian ![[lucide-cog.svg#icon]].
 2. Navegue até a seção **Aparência**.
 3. Role até as opções **Avançado**.
 4. Selecione o botão **Administrar** sob o item **Configuração da faixa de opções**.
@@ -70,8 +70,8 @@ Por padrão, a opção de acesso rápido está definida como "Abrir o menu later
 
 #### Reorganizar e visibilidade
 
-Para alterar a ordem dos itens no menu da faixa de opções, pressione e segure o botão de **arrastar e soltar** ( ![[lucide-menu.svg#icon]] ) e mova o item selecionado para cima ou para baixo.
+Para alterar a ordem dos itens no menu da faixa de opções, pressione e segure o botão de **arrastar e soltar** ![[lucide-menu.svg#icon]] e mova o item selecionado para cima ou para baixo.
 
-Você pode mostrar ou ocultar itens no menu da faixa de opções usando os botões vermelho **remover** ( ![[lucide-minus-circle.svg#icon]] ) ou verde **adicionar** ( ![[lucide-plus-circle.svg#icon]] ) para alternar sua visibilidade.
+Você pode mostrar ou ocultar itens no menu da faixa de opções usando os botões vermelho **remover** ![[lucide-minus-circle.svg#icon]] ou verde **adicionar** ![[lucide-plus-circle.svg#icon]] para alternar sua visibilidade.
 
  ![[ribbon-rearrange-visibility.jpeg#interface]]

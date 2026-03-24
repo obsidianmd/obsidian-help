@@ -19,7 +19,7 @@ En **boks** er en mappe i dit filsystem som indeholder [[#Note|noter]] og en `.o
 
 I desktop versionen er den lokaliseret helt til venstre i applikationen.
 
-I mobilversionen er den repræsenteret af en menuknap ( ![[lucide-menu.svg#icon]] ) på [[Statusbar|statusbaren]].
+I mobilversionen er den repræsenteret af en menuknap ![[lucide-menu.svg#icon]] på [[Statusbar|statusbaren]].
 
 ## Egenskab
 

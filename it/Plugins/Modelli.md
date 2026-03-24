@@ -12,7 +12,7 @@ Modelli è un [[Core plugins|plugin principale]] che consente di inserire framme
 
 ## Impostare la cartella dei modelli
 
-1. Nell'angolo in basso a sinistra, fare clic su **[[Settings|Impostazioni]]** ( ![[lucide-cog.svg#icon]] ).
+1. Nell'angolo in basso a sinistra, fare clic su **[[Settings|Impostazioni]]** ![[lucide-cog.svg#icon]].
 2. In **Plugin principali → Modelli → Posizione cartella dei modelli**, inserire la cartella contenente i modelli.
 
 ## Variabili dei modelli

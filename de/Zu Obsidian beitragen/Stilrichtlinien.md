@@ -346,7 +346,7 @@ Füge Symbole und Bilder ein, wenn sie es einfacher machen, Dinge zu erklären, 
 
 [Lucide](https://lucide.dev/icons/)- und benutzerdefinierte Obsidian-Symbole können neben detaillierten Elementen verwendet werden, um eine visuelle Darstellung einer Funktion zu bieten.
 
-**Beispiel:** Wähle in der Werkzeugleiste auf der linken Seite **Neuen Canvas erstellen** ( ![[lucide-layout-dashboard.svg#icon]] ), um einen Canvas im selben Ordner wie die aktive Datei zu erstellen.
+**Beispiel:** Wähle in der Werkzeugleiste auf der linken Seite **Neuen Canvas erstellen** ![[lucide-layout-dashboard.svg#icon]], um einen Canvas im selben Ordner wie die aktive Datei zu erstellen.
 
 **Richtlinien für Symbole**
 
@@ -365,9 +365,9 @@ Füge Symbole und Bilder ein, wenn sie es einfacher machen, Dinge zu erklären, 
 >```
 
 - Verwende den `icon`-Anker in eingebetteten Bildern, um den Abstand um das Symbol herum anzupassen, damit es sauber mit dem umgebenden Text ausgerichtet ist.
-- Symbole sollten von Klammern umgeben sein. ( ![[lucide-cog.svg#icon]] )
+- Symbole sollten von Klammern umgeben sein. ![[lucide-cog.svg#icon]]
 
-**Beispiel**: `( ![[lucide-cog.svg#icon]] )`
+**Beispiel**: `![[lucide-cog.svg#icon]]`
 
 ### Bild-Anker-Tags
 
@@ -382,7 +382,7 @@ Bild-Anker-Tags stehen zur Verfügung, um dekorative Änderungen an eingebettete
 
 Der Symbol-Anker-Tag stellt die korrekte vertikale Ausrichtung für Symbole sicher, die zur Kennzeichnung von Schnittstellenelementen verwendet werden.
 
-Das erste Menü-Symbol verwendet den Anker-Tag ( ![[lucide-menu.svg#icon]] ), während das zweite Menü-Symbol ( ![[lucide-menu.svg]] ) dies nicht tut.
+Das erste Menü-Symbol verwendet den Anker-Tag ![[lucide-menu.svg#icon]], während das zweite Menü-Symbol ( ![[lucide-menu.svg]] ) dies nicht tut.
 
 **Oberfläche**
 

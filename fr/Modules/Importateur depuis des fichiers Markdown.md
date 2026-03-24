@@ -15,7 +15,7 @@ Importateur depuis des fichiers Markdown est un [[Modules principaux|module prin
 
 Pour convertir toutes les notes de votre coffre :
 
-1. Dans la [[Palette de commandes]], sélectionnez **Ouvrir l'importateur depuis des fichiers Markdown**. Vous pouvez également y accéder depuis le [[Ruban]] avec l'icône **Ouvrir l'importateur depuis des fichiers Markdown** ( ![[lucide-binary.svg#icon]] ).
+1. Dans la [[Palette de commandes]], sélectionnez **Ouvrir l'importateur depuis des fichiers Markdown**. Vous pouvez également y accéder depuis le [[Ruban]] avec l'icône **Ouvrir l'importateur depuis des fichiers Markdown** ![[lucide-binary.svg#icon]].
 2. Activez les formats que vous souhaitez convertir.
 3. Cliquez sur **Lancer la conversion**.
 

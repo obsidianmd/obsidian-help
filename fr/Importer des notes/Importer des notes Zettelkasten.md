@@ -11,7 +11,7 @@ Pour mettre à jour tous les liens `[[UID]]` de votre coffre afin d'utiliser le 
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Sous **Modules principaux**, activez **Importateur depuis des fichiers Markdown** et fermez la fenêtre des Paramètres.
-3. Dans le ruban, sur le côté gauche de la fenêtre de l'application, sélectionnez **Ouvrir le convertisseur de format** ( ![[lucide-binary.svg#icon]] ).
+3. Dans le ruban, sur le côté gauche de la fenêtre de l'application, sélectionnez **Ouvrir le convertisseur de format** ![[lucide-binary.svg#icon]].
 4. Activez **Correcteur de liens Zettelkasten**.
 5. Sélectionnez **Démarrer la conversion**. Cela convertira toutes les notes de l'intégralité de votre coffre.
 

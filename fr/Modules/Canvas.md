@@ -24,7 +24,7 @@ Pour commencer à utiliser Canvas, vous devez d'abord créer un fichier pour con
 
 **Ruban :**
 
-- Dans le menu vertical du ruban, sélectionnez **Créer un nouveau canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) pour créer un canvas dans le même dossier que le fichier actif.
+- Dans le menu vertical du ruban, sélectionnez **Créer un nouveau canvas** ![[lucide-layout-dashboard.svg#icon]] pour créer un canvas dans le même dossier que le fichier actif.
 
 > [!note] L'extension de fichier .canvas
 > Obsidian stocke vos données canvas sous forme de fichiers `.canvas` utilisant un format de fichier ouvert appelé [JSON Canvas](https://jsoncanvas.org/).
@@ -104,7 +104,7 @@ Vous pouvez également modifier une carte en faisant un clic droit dessus et en 
 
 Supprimez les cartes sélectionnées en faisant un clic droit sur l'une d'entre elles, puis en sélectionnant **Supprimer**. Ou, appuyez sur `Retour arrière` (ou `Suppr` sur macOS).
 
-Vous pouvez également sélectionner **Supprimer** ( ![[lucide-trash-2.svg#icon]] ) dans les contrôles de sélection au-dessus de votre sélection.
+Vous pouvez également sélectionner **Supprimer** ![[lucide-trash-2.svg#icon]] dans les contrôles de sélection au-dessus de votre sélection.
 
 ### Remplacer des cartes
 
@@ -196,7 +196,7 @@ Pour modifier l'étiquette d'une connexion, double-cliquez sur la ligne, ou fait
 ### Changer la couleur d'une carte ou d'une connexion
 
 1. Sélectionnez les cartes ou connexions que vous souhaitez colorier.
-2. Dans les contrôles de sélection, sélectionnez **Définir la couleur** ( ![[lucide-palette.svg#icon]] ).
+2. Dans les contrôles de sélection, sélectionnez **Définir la couleur** ![[lucide-palette.svg#icon]].
 3. Sélectionnez une couleur.
 
 ## Regrouper des cartes
@@ -228,11 +228,11 @@ Pour déplacer le canvas verticalement et horizontalement, aussi appelé _panora
 
 ### Zoomer dans le canvas
 
-Pour zoomer dans le canvas, appuyez sur `Espace` ou `Ctrl` (ou `Cmd` sur macOS) et faites défiler la molette de la souris. Ou, sélectionnez **Zoom avant** ( ![[lucide-plus.svg#icon]] ) et **Zoom arrière** ( ![[lucide-minus.svg#icon]] ) dans les contrôles de zoom en haut à droite.
+Pour zoomer dans le canvas, appuyez sur `Espace` ou `Ctrl` (ou `Cmd` sur macOS) et faites défiler la molette de la souris. Ou, sélectionnez **Zoom avant** ![[lucide-plus.svg#icon]] et **Zoom arrière** ![[lucide-minus.svg#icon]] dans les contrôles de zoom en haut à droite.
 
 #### Zoom pour tout afficher
 
-Pour zoomer le canvas afin que chaque élément soit visible, sélectionnez **Zoom pour tout afficher** ( ![[lucide-maximize.svg#icon]] ). Ou, utilisez le raccourci clavier `Maj+1`.
+Pour zoomer le canvas afin que chaque élément soit visible, sélectionnez **Zoom pour tout afficher** ![[lucide-maximize.svg#icon]]. Ou, utilisez le raccourci clavier `Maj+1`.
 
 #### Zoom sur la sélection
 

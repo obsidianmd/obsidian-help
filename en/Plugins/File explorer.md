@@ -19,7 +19,7 @@ File explorer is a [[Core plugins|core plugin]] that lets you manage files and f
 
 To create a new note in the default location for new notes:
 
-1. Click **New note** ( ![[lucide-pen-line.svg#icon]] ) at the top of the File explorer.
+1. Click **New note** ![[lucide-pen-line.svg#icon]] at the top of the File explorer.
 2. Type the name of the note, and then press Enter.
 
 > [!tip]- Change default location
@@ -34,7 +34,7 @@ To create a new note in a specific folder:
 
 To create a new folder in the root of your vault:
 
-1. Click **New folder** ( ![[lucide-folder-plus.svg#icon]] ) at the top of the File explorer.
+1. Click **New folder** ![[lucide-folder-plus.svg#icon]] at the top of the File explorer.
 2. Type the name of the folder, and then press Enter.
 
 To create a subfolder:
@@ -46,7 +46,7 @@ To create a subfolder:
 
 To change the sort order of your files:
 
-1.  Select **Change sort order** ( ![[lucide-arrow-up-narrow-wide.svg#icon]] ) at the top of the File explorer.
+1.  Select **Change sort order** ![[lucide-arrow-up-narrow-wide.svg#icon]] at the top of the File explorer.
 2. Choose how you want to sort your files. You can sort in ascending or descending order by file name, modified time, or created time.
 
 ## Auto-reveal active file
@@ -55,7 +55,7 @@ When you open a note, File explorer can automatically scroll to and highlight th
 
 To toggle auto-reveal:
 
-- Select **Auto-reveal active file** ( ![[lucide-gallery-vertical.svg#icon]] ) at the top of the File explorer.
+- Select **Auto-reveal active file** ![[lucide-gallery-vertical.svg#icon]] at the top of the File explorer.
 
 When enabled, the File explorer will automatically follow and reveal the currently open note.
 
@@ -65,11 +65,11 @@ You can expand or collapse all folders in the File explorer at once.
 
 To expand all folders:
 
-- Select **Expand all** ( ![[lucide-chevrons-up-down.svg#icon]] ) at the top of the File explorer.
+- Select **Expand all** ![[lucide-chevrons-up-down.svg#icon]] at the top of the File explorer.
 
 To collapse all folders:
 
-- Select **Collapse all** ( ![[lucide-chevrons-down-up.svg#icon]] ) at the top of the File explorer.
+- Select **Collapse all** ![[lucide-chevrons-down-up.svg#icon]] at the top of the File explorer.
 
 ## Delete a file or folder
 

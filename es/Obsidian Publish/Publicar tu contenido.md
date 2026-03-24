@@ -15,7 +15,7 @@ Esta página explica cómo administrar tu contenido publicado. Para aprender a p
 
 ## Publicar notas
 
-1. En la **Menú de cinta**, selecciona **Publicar cambios** (![[lucide-send.svg#icon]]).
+1. En la **Menú de cinta**, selecciona **Publicar cambios** ![[lucide-send.svg#icon]].
 2. En el diálogo **Publicar cambios**, selecciona **NUEVO** para ver todas las notas no publicadas.
 3. Selecciona las notas que deseas publicar.
 4. Selecciona **Publicar**.
@@ -24,14 +24,14 @@ Esta página explica cómo administrar tu contenido publicado. Para aprender a p
 
 Las notas permanecen en tu bóveda local incluso después de despublicarlas.
 
-1. En la **Menú de cinta**, selecciona **Publicar cambios** (![[lucide-send.svg#icon]]).
+1. En la **Menú de cinta**, selecciona **Publicar cambios** ![[lucide-send.svg#icon]].
 2. En el diálogo **Publicar cambios**, selecciona **SIN CAMBIOS** para ver todas las notas publicadas.
 3. Selecciona las notas que deseas despublicar.
 4. Selecciona **Publicar**.
 
 ## Actualizar una nota publicada
 
-1. En la **Menú de cinta**, selecciona **Publicar cambios** (![[lucide-send.svg#icon]]).
+1. En la **Menú de cinta**, selecciona **Publicar cambios** ![[lucide-send.svg#icon]].
 2. En el diálogo **Publicar cambios**, selecciona **CAMBIOS** para ver todas las notas modificadas desde la última publicación.
 3. Selecciona las notas que deseas actualizar.
 4. Selecciona **Publicar**.
@@ -54,8 +54,8 @@ Establece `publish: true` en las [[Propiedades]] de una nota para incluirla auto
 
 También puedes seleccionar automáticamente notas e imágenes enlazadas en carpetas específicas agregándolas como carpetas **Incluidas**:
 
-1. En la **Menú de cinta**, selecciona **Publicar cambios** (![[lucide-send.svg#icon]]) o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**.
-2. Selecciona el icono **Administrar los filtros de publicación** (![[lucide-filter.svg#icon]]).
+1. En la **Menú de cinta**, selecciona **Publicar cambios** ![[lucide-send.svg#icon]] o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**.
+2. Selecciona el icono **Administrar los filtros de publicación** ![[lucide-filter.svg#icon]].
 3. En la sección **Carpetas incluidas**, selecciona **Administrar**.
 4. Elige las carpetas que deseas incluir desde el selector.
 5. La carpeta se añade a la lista de incluidas.
@@ -67,8 +67,8 @@ Para ignorar una nota en Obsidian Publish, establece `publish: false` en las [[P
 
 También puedes ignorar automáticamente notas e imágenes en carpetas específicas agregándolas como carpetas **Excluidas**:
 
-1. En la **Menú de cinta**, selecciona **Publicar cambios** (![[lucide-send.svg#icon]]) o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**.
-2. Selecciona el icono **Administrar los filtros de publicación** (![[lucide-filter.svg#icon]]).
+1. En la **Menú de cinta**, selecciona **Publicar cambios** ![[lucide-send.svg#icon]] o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**.
+2. Selecciona el icono **Administrar los filtros de publicación** ![[lucide-filter.svg#icon]].
 3. En la sección **Carpetas excluidas**, selecciona **Administrar**.
 4. Elige las carpetas que deseas excluir desde el selector.
 5. La carpeta se añade a la lista de excluidas.

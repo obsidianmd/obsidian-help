@@ -9,7 +9,7 @@ Um alle `[[UID]]`-Links in deinem Vault zu aktualisieren und stattdessen den vol
 
 1. Öffne die **[[Einstellungen]]**.
 2. Aktiviere unter **Obsidian-Erweiterungen** das **Importprogramm für Markdown Format** und schließe das Einstellungsfenster.
-3. Wähle in der Werkzeugleiste auf der linken Seite des App-Fensters **Open format convert** ( ![[lucide-binary.svg#icon]] ).
+3. Wähle in der Werkzeugleiste auf der linken Seite des App-Fensters **Open format convert** ![[lucide-binary.svg#icon]].
 4. Aktiviere **Korrekturregel für Zettelkasten-Links**.
 5. Wähle **Konvertierung starten**. Dies konvertiert alle Notizen in deinem gesamten Vault.
 

@@ -23,7 +23,7 @@ Per iniziare a usare Canvas, devi prima creare un file che contenga la tua lavag
 
 **Barra degli strumenti:**
 
-- Nella barra degli strumenti verticale, seleziona **Crea nuova lavagna** ( ![[lucide-layout-dashboard.svg#icon]] ) per creare una lavagna nella stessa cartella del file attivo.
+- Nella barra degli strumenti verticale, seleziona **Crea nuova lavagna** ![[lucide-layout-dashboard.svg#icon]] per creare una lavagna nella stessa cartella del file attivo.
 
 > [!note] L'estensione .canvas
 > Obsidian memorizza i dati della tua lavagna come file `.canvas` utilizzando un formato di file aperto chiamato [JSON Canvas](https://jsoncanvas.org/).
@@ -103,7 +103,7 @@ Puoi anche modificare una scheda facendo clic destro su di essa e selezionando *
 
 Rimuovi le schede selezionate facendo clic destro su una qualsiasi di esse, e poi selezionando **Elimina**. Oppure, premi `Backspace` (o `Delete` su macOS).
 
-Puoi anche selezionare **Rimuovi** ( ![[lucide-trash-2.svg#icon]] ) nei controlli di selezione sopra la tua selezione.
+Puoi anche selezionare **Rimuovi** ![[lucide-trash-2.svg#icon]] nei controlli di selezione sopra la tua selezione.
 
 ### Sostituire le schede
 
@@ -195,7 +195,7 @@ Per modificare l'etichetta di una connessione, fai doppio clic sulla linea, oppu
 ### Cambiare il colore di una scheda o connessione
 
 1. Seleziona le schede o le connessioni a cui vuoi assegnare un colore.
-2. Nei controlli di selezione, seleziona **Imposta colore** ( ![[lucide-palette.svg#icon]] ).
+2. Nei controlli di selezione, seleziona **Imposta colore** ![[lucide-palette.svg#icon]].
 3. Seleziona un colore.
 
 ## Raggruppare le schede
@@ -227,11 +227,11 @@ Per spostare la lavagna verticalmente e orizzontalmente, operazione nota anche c
 
 ### Zoom della lavagna
 
-Per fare lo zoom della lavagna, premi `Space` o `Ctrl` (o `Cmd` su macOS) e scorri con la rotella del mouse. Oppure, seleziona **Ingrandisci** ( ![[lucide-plus.svg#icon]] ) e **Riduci zoom** ( ![[lucide-minus.svg#icon]] ) dai controlli zoom nell'angolo in alto a destra.
+Per fare lo zoom della lavagna, premi `Space` o `Ctrl` (o `Cmd` su macOS) e scorri con la rotella del mouse. Oppure, seleziona **Ingrandisci** ![[lucide-plus.svg#icon]] e **Riduci zoom** ![[lucide-minus.svg#icon]] dai controlli zoom nell'angolo in alto a destra.
 
 #### Adatta alla finestra
 
-Per fare lo zoom della lavagna in modo che ogni elemento sia visibile, seleziona **Adatta alla finestra** ( ![[lucide-maximize.svg#icon]] ). Oppure, usa la scorciatoia da tastiera `Shift+1`.
+Per fare lo zoom della lavagna in modo che ogni elemento sia visibile, seleziona **Adatta alla finestra** ![[lucide-maximize.svg#icon]]. Oppure, usa la scorciatoia da tastiera `Shift+1`.
 
 #### Zoom selezione
 

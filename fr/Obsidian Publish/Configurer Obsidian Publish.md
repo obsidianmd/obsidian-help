@@ -37,7 +37,7 @@ Vous pouvez accéder à Publish via les options suivantes : la palette de comman
 
 **Bureau/Tablette** ![[lucide-monitor-check.svg#icon]]
 
-1. Ouvrez la **Palette de commandes** ( ![[lucide-terminal.svg#icon]] ).
+1. Ouvrez la **Palette de commandes** ![[lucide-terminal.svg#icon]].
 2. Tapez « Publish ».
 3. Sélectionnez l'option **Publish: Publish changes...**.
 
@@ -45,8 +45,8 @@ La fenêtre **Publish changes** apparaîtra dans une nouvelle fenêtre contextue
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Ouvrez le [[Ruban]] ( ![[lucide-menu.svg#icon]] ).
-2. Ouvrez la **Palette de commandes** ( ![[lucide-terminal.svg#icon]] ).
+1. Ouvrez le [[Ruban]] ![[lucide-menu.svg#icon]].
+2. Ouvrez la **Palette de commandes** ![[lucide-terminal.svg#icon]].
 3. Tapez « Publish ».
 4. Sélectionnez l'option **Publish: Publish changes...**.
 
@@ -67,15 +67,15 @@ Vous pouvez également accéder à Obsidian Publish via le [[Ruban|ruban]].
 
 **Bureau/Tablette** ![[lucide-monitor-check.svg#icon]]
 
-1. Ouvrez la [[Barre latérale]] gauche ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Sélectionnez l'icône **Publish changes** ( ![[lucide-send.svg#icon]] ).
+1. Ouvrez la [[Barre latérale]] gauche ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Sélectionnez l'icône **Publish changes** ![[lucide-send.svg#icon]].
 
 La fenêtre **Publish changes** apparaîtra dans une nouvelle fenêtre contextuelle.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Ouvrez le [[Ruban]] ( ![[lucide-menu.svg#icon]] ).
-2. Sélectionnez l'icône **Publish changes** ( ![[lucide-send.svg#icon]] ).
+1. Ouvrez le [[Ruban]] ![[lucide-menu.svg#icon]].
+2. Sélectionnez l'icône **Publish changes** ![[lucide-send.svg#icon]].
 
 Le menu **Publish changes** apparaîtra sous forme de panneau glissant.
 
@@ -87,7 +87,7 @@ Le menu **Publish changes** apparaîtra sous forme de panneau glissant.
 ### Définir un nom de site
 
 1. [[#Ouvrir Publish]]
-2. Sélectionnez **Change site options** ( ![[lucide-cog.svg#icon]] ).
+2. Sélectionnez **Change site options** ![[lucide-cog.svg#icon]].
 3. Dans **Site name**, sous **General**, entrez le nom de votre site.
 4. Sélectionnez **Save site settings**.
 

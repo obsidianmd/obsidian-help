@@ -17,7 +17,7 @@ Cette page explique comment gérer votre contenu publié. Pour apprendre à pers
 
 ## Publier des notes
 
-1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]).
+1. Dans le **ruban**, sélectionnez **Publier les modifications** ![[lucide-send.svg#icon]].
 2. Dans la boîte de dialogue **Publier les modifications**, sélectionnez **NOUVEAU** pour afficher toutes les notes non publiées.
 3. Sélectionnez les notes que vous souhaitez publier.
 4. Sélectionnez **Publier**.
@@ -26,14 +26,14 @@ Cette page explique comment gérer votre contenu publié. Pour apprendre à pers
 
 Les notes restent dans votre coffre local même après les avoir dépubliées.
 
-1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]).
+1. Dans le **ruban**, sélectionnez **Publier les modifications** ![[lucide-send.svg#icon]].
 2. Dans la boîte de dialogue **Publier les modifications**, sélectionnez **INCHANGÉ** pour afficher toutes les notes publiées.
 3. Sélectionnez les notes que vous souhaitez dépublier.
 4. Sélectionnez **Publier**.
 
 ## Mettre à jour une note publiée
 
-1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]).
+1. Dans le **ruban**, sélectionnez **Publier les modifications** ![[lucide-send.svg#icon]].
 2. Dans la boîte de dialogue **Publier les modifications**, sélectionnez **MODIFIÉ** pour afficher toutes les notes modifiées depuis la dernière publication.
 3. Sélectionnez les notes que vous souhaitez mettre à jour.
 4. Sélectionnez **Publier**.
@@ -56,8 +56,8 @@ Définissez `publish: true` dans les [[Propriétés]] d'une note pour l'inclure 
 
 Vous pouvez également sélectionner automatiquement des notes et des images liées dans des dossiers spécifiques en les ajoutant comme dossiers **Inclus** :
 
-1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**.
-2. Sélectionnez l'icône **Gérer les filtres de publication** (![[lucide-filter.svg#icon]]).
+1. Dans le **ruban**, sélectionnez **Publier les modifications** ![[lucide-send.svg#icon]] ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**.
+2. Sélectionnez l'icône **Gérer les filtres de publication** ![[lucide-filter.svg#icon]].
 3. Dans la section **Dossiers inclus**, sélectionnez **Gérer**.
 4. Choisissez les dossiers que vous souhaitez inclure dans le sélecteur.
 5. Le dossier est ajouté à la liste des inclusions.
@@ -69,8 +69,8 @@ Pour ignorer une note dans Obsidian Publish, définissez `publish: false` dans l
 
 Vous pouvez également ignorer automatiquement des notes et des images dans des dossiers spécifiques en les ajoutant comme dossiers **Exclus** :
 
-1. Dans le **ruban**, sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**.
-2. Sélectionnez l'icône **Gérer les filtres de publication** (![[lucide-filter.svg#icon]]).
+1. Dans le **ruban**, sélectionnez **Publier les modifications** ![[lucide-send.svg#icon]] ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**.
+2. Sélectionnez l'icône **Gérer les filtres de publication** ![[lucide-filter.svg#icon]].
 3. Dans la section **Dossiers exclus**, sélectionnez **Gérer**.
 4. Choisissez les dossiers que vous souhaitez exclure dans le sélecteur.
 5. Le dossier est ajouté à la liste des exclusions.

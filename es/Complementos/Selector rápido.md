@@ -8,7 +8,7 @@ El Selector rápido es un [[Complementos principales|complemento principal]] que
 
 Hay varias formas de abrir el Selector rápido cuando está habilitado:
 - Presiona `Ctrl+O` (o `Cmd+O` en macOS) para abrir el Selector rápido;
-- En el menú de cinta, haz clic en **Abrir selector rápido** ( ![[lucide-file-search.svg#icon]] );
+- En el menú de cinta, haz clic en **Abrir selector rápido** ![[lucide-file-search.svg#icon]];
 - En móvil, cuando no estás editando una nota, toca el icono de más en la parte inferior central de la aplicación.
 
 ## Abrir una nota con el Selector rápido

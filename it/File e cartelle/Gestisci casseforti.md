@@ -7,12 +7,12 @@ Una **cassaforte** è una cartella nel tuo file system che contiene le tue note,
 
 Puoi gestire le tue casseforti utilizzando il **Selettore di casseforti**. Il *Profilo cassaforte* si apre la prima volta che avvii Obsidian.
 
-Per aprire il selettore di casseforti da una cassaforte esistente, seleziona **Profilo cassaforte** ( ![[lucide-chevrons-up-down.svg#icon]]) nella parte inferiore della [[Sidebar|barra laterale sinistra]]. Oppure, seleziona **Apri un altro vault** dalla [[command palette|tavolozza dei comandi]].
+Per aprire il selettore di casseforti da una cassaforte esistente, seleziona **Profilo cassaforte** ![[lucide-chevrons-up-down.svg#icon]] nella parte inferiore della [[Sidebar|barra laterale sinistra]]. Oppure, seleziona **Apri un altro vault** dalla [[command palette|tavolozza dei comandi]].
 
 ## Creare una nuova cassaforte
 
 1. Sul tuo computer, apri Obsidian.
-2. In basso a sinistra, seleziona il **Profilo cassaforte** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. In basso a sinistra, seleziona il **Profilo cassaforte** ![[lucide-chevrons-up-down.svg#icon]].
 3. Apparirà un menu contestuale. Seleziona **Gestisci vault...**.
 3. A destra di **Crea nuovo vault**, seleziona **Crea**.
 4. In **Nome vault**, inserisci il nome della tua cassaforte.
@@ -22,7 +22,7 @@ Per aprire il selettore di casseforti da una cassaforte esistente, seleziona **P
 ## Creare una cassaforte da una cartella esistente
 
 1. Sul tuo computer, apri Obsidian.
-2. In basso a sinistra, seleziona il **Profilo cassaforte** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. In basso a sinistra, seleziona il **Profilo cassaforte** ![[lucide-chevrons-up-down.svg#icon]].
 3. Apparirà un menu contestuale. Seleziona **Gestisci vault...**.
 3. A destra di **Apri cartella come vault**, fai clic su **Apri**.
 4. Nel browser dei file, seleziona la cartella che desideri utilizzare come cassaforte.
@@ -36,19 +36,19 @@ Per aprire il selettore di casseforti da una cassaforte esistente, seleziona **P
 Poiché il nome della cassaforte e della cartella sottostante sono gli stessi, rinominare una cassaforte rinomina anche la cartella.
 
 1. Sul tuo computer, apri Obsidian.
-2. In basso a sinistra, seleziona il **Profilo cassaforte** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. In basso a sinistra, seleziona il **Profilo cassaforte** ![[lucide-chevrons-up-down.svg#icon]].
 3. Apparirà un menu contestuale. Seleziona **Gestisci vault...**.
-4. Nell'elenco delle casseforti, seleziona **Altre opzioni** ( ![[lucide-more-horizontal.svg#icon]] ) accanto alla cassaforte che desideri rinominare.
+4. Nell'elenco delle casseforti, seleziona **Altre opzioni** ![[lucide-more-horizontal.svg#icon]] accanto alla cassaforte che desideri rinominare.
 5. Seleziona **Rinomina vault**.
 6. Inserisci il nuovo nome per la cassaforte e premi `Invio`.
 
 ## Spostare una cassaforte in una cartella diversa
 
 1. Sul tuo computer, apri Obsidian.
-2. In basso a sinistra, seleziona il **Profilo cassaforte** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. In basso a sinistra, seleziona il **Profilo cassaforte** ![[lucide-chevrons-up-down.svg#icon]].
 3. Apparirà un menu contestuale. Seleziona **Gestisci vault...**.
 4. Chiudi la finestra della cassaforte corrente, lasciando aperta la finestra **Gestisci casseforti**.
-5. Nell'elenco delle casseforti, seleziona **Altre opzioni** ( ![[lucide-more-horizontal.svg#icon]] ) accanto alla cassaforte che desideri spostare.
+5. Nell'elenco delle casseforti, seleziona **Altre opzioni** ![[lucide-more-horizontal.svg#icon]] accanto alla cassaforte che desideri spostare.
 6. Seleziona **Sposta vault**, quindi seleziona la nuova posizione.
 
 Alcuni sistemi operativi non consentono di spostare la cassaforte con il Selettore di casseforti. In questi casi, dovrai spostare la cassaforte manualmente:
@@ -56,7 +56,7 @@ Alcuni sistemi operativi non consentono di spostare la cassaforte con il Seletto
 1. Chiudi Obsidian.
 2. Sposta la cartella della cassaforte in una nuova posizione, evitando cartelle sincronizzate da altri servizi.
 3. Riapri Obsidian.
-4. Fai clic sull'icona **Profilo cassaforte** in basso a sinistra ( ![[lucide-chevrons-up-down.svg#icon]]).
+4. Fai clic sull'icona **Profilo cassaforte** in basso a sinistra ![[lucide-chevrons-up-down.svg#icon]].
 5. Dal menu a comparsa, seleziona **Gestisci vault...**.
 6. Accanto a **Apri cartella come vault**, fai clic su **Apri**.
 7. Naviga fino alla nuova cartella della cassaforte e selezionala.
@@ -68,9 +68,9 @@ Alcuni sistemi operativi non consentono di spostare la cassaforte con il Seletto
 Rimuovere una cassaforte la rimuove solo dall'elenco delle casseforti.
 
 1. Sul tuo computer, apri Obsidian.
-2. In basso a sinistra, seleziona il **Profilo cassaforte** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. In basso a sinistra, seleziona il **Profilo cassaforte** ![[lucide-chevrons-up-down.svg#icon]].
 3. Apparirà un menu contestuale. Seleziona **Gestisci vault...**.
-4. Nell'elenco delle casseforti, seleziona **Altre opzioni** ( ![[lucide-more-horizontal.svg#icon]]) accanto alla cassaforte che desideri rimuovere.
+4. Nell'elenco delle casseforti, seleziona **Altre opzioni** ![[lucide-more-horizontal.svg#icon]] accanto alla cassaforte che desideri rimuovere.
 5. Seleziona **Rimuovi dalla lista**.
 
 ## Trasferire le impostazioni a un'altra cassaforte

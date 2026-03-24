@@ -11,7 +11,7 @@ Por ejemplo, si creas una nueva nota a las 09:45 del 1 de enero de 2024, el Crea
 
 **Menú de cinta:**
 
-- En el menú de cinta, haz clic en **Crear nueva nota única** ( ![[obsidian-icon-sheets-in-box.svg#icon]] ).
+- En el menú de cinta, haz clic en **Crear nueva nota única** ![[obsidian-icon-sheets-in-box.svg#icon]].
 
 **Paleta de comandos:**
 

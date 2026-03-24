@@ -12,11 +12,11 @@ Le impostazioni permettono di personalizzare l'esperienza con Obsidian. Configur
 
 ### Desktop
 
-Nella [[Sidebar#Aprire le barre laterali nascoste|barra laterale sinistra]], seleziona **[[Settings|Impostazioni]]** ( ![[lucide-cog.svg#icon]] ). È possibile aprire le Impostazioni anche con la [[Command palette|tavolozza dei comandi]].
+Nella [[Sidebar#Aprire le barre laterali nascoste|barra laterale sinistra]], seleziona **[[Settings|Impostazioni]]** ![[lucide-cog.svg#icon]]. È possibile aprire le Impostazioni anche con la [[Command palette|tavolozza dei comandi]].
 
 ### Mobile
 
-Nella barra laterale sinistra, seleziona **[[Settings|Impostazioni]]** ( ![[lucide-cog.svg#icon]] ).
+Nella barra laterale sinistra, seleziona **[[Settings|Impostazioni]]** ![[lucide-cog.svg#icon]].
 
 ## Organizzazione delle impostazioni
 
@@ -73,7 +73,7 @@ Se supporti [Obsidian per il lavoro](<https://obsidian.md/it/blog/free-for-work/
 
 #### Notifica se l'avvio richiede più tempo del previsto
 
-Quando abilitato, Obsidian visualizza una notifica se l'avvio è insolitamente lento. La notifica include informazioni diagnostiche sulla causa del ritardo. Seleziona l'icona del timer ( ![[lucide-timer.svg#icon]] ) accanto a questa impostazione per [[Help and support#Controllare il tempo di avvio|controllare il tempo di avvio]].
+Quando abilitato, Obsidian visualizza una notifica se l'avvio è insolitamente lento. La notifica include informazioni diagnostiche sulla causa del ritardo. Seleziona l'icona del timer ![[lucide-timer.svg#icon]] accanto a questa impostazione per [[Help and support#Controllare il tempo di avvio|controllare il tempo di avvio]].
 
 ## Editor
 
@@ -270,7 +270,7 @@ Scegli un colore d'accento da utilizzare nell'app. Seleziona il selettore di col
 
 ### Temi
 
-Gestisci i [[Themes|temi]] installati e sfoglia i temi della community. Seleziona **Gestisci** per visualizzare e installare temi. Il menu a tendina mostra il tema attualmente attivo. L'icona della cartella ( ![[lucide-folder-open.svg#icon]] ) apre la cartella dei temi nella [[Configuration folder|cartella di configurazione]].
+Gestisci i [[Themes|temi]] installati e sfoglia i temi della community. Seleziona **Gestisci** per visualizzare e installare temi. Il menu a tendina mostra il tema attualmente attivo. L'icona della cartella ![[lucide-folder-open.svg#icon]] apre la cartella dei temi nella [[Configuration folder|cartella di configurazione]].
 
 ### Temi della comunità installati
 
@@ -354,7 +354,7 @@ Attiva l'accelerazione hardware. Utilizza la tua GPU per rendere Obsidian più f
 
 ### Snippet CSS
 
-Gestisci e visualizza gli [[CSS snippets|snippet CSS]] memorizzati nella cassaforte. Gli snippet CSS sono memorizzati in `/vault/.obsidian/snippets/`. Seleziona l'icona di aggiornamento per ricaricare gli snippet, o l'icona della cartella ( ![[lucide-folder-open.svg#icon]] ) per aprire la cartella degli snippet.
+Gestisci e visualizza gli [[CSS snippets|snippet CSS]] memorizzati nella cassaforte. Gli snippet CSS sono memorizzati in `/vault/.obsidian/snippets/`. Seleziona l'icona di aggiornamento per ricaricare gli snippet, o l'icona della cartella ![[lucide-folder-open.svg#icon]] per aprire la cartella degli snippet.
 
 ## Scorciatoie da tastiera
 
@@ -366,7 +366,7 @@ Usa la barra di ricerca per filtrare i comandi e seleziona l'icona del filtro pe
 
 I [[Core plugins|plugin principali]] sono plugin integrati forniti con Obsidian. Ogni plugin aggiunge funzionalità specifiche all'app.
 
-Per abilitare o disabilitare un plugin principale, seleziona l'interruttore accanto al nome del plugin. Seleziona l'icona più ( ![[lucide-plus-circle.svg#icon]] ) per visualizzare le [[Hotkeys|scorciatoie da tastiera]] del plugin. Seleziona l'icona delle impostazioni ( ![[lucide-settings.svg#icon]] ) per aprire la pagina delle impostazioni del plugin.
+Per abilitare o disabilitare un plugin principale, seleziona l'interruttore accanto al nome del plugin. Seleziona l'icona più ![[lucide-plus-circle.svg#icon]] per visualizzare le [[Hotkeys|scorciatoie da tastiera]] del plugin. Seleziona l'icona delle impostazioni ![[lucide-settings.svg#icon]] per aprire la pagina delle impostazioni del plugin.
 
 Usa la barra di ricerca per filtrare i plugin per nome.
 

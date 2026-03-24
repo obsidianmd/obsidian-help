@@ -36,7 +36,7 @@ description: 'In this guide, you''ll enable Obsidian Publish for your vault, cre
 
 **데스크톱/태블릿** ![[lucide-monitor-check.svg#icon]]
 
-1. **명령어 팔레트**를 열어요 ( ![[lucide-terminal.svg#icon]] ).
+1. **명령어 팔레트**를 열어요 ![[lucide-terminal.svg#icon]].
 2. "Publish"를 입력해요.
 3. **Publish: 변경사항 게재...** 옵션을 선택해요.
 
@@ -44,8 +44,8 @@ description: 'In this guide, you''ll enable Obsidian Publish for your vault, cre
 
 **모바일** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. [[리본]]을 열어요 ( ![[lucide-menu.svg#icon]] ).
-2. **명령어 팔레트**를 열어요 ( ![[lucide-terminal.svg#icon]] ).
+1. [[리본]]을 열어요 ![[lucide-menu.svg#icon]].
+2. **명령어 팔레트**를 열어요 ![[lucide-terminal.svg#icon]].
 3. "Publish"를 입력해요.
 4. **Publish: 변경사항 게재...** 옵션을 선택해요.
 
@@ -66,15 +66,15 @@ description: 'In this guide, you''ll enable Obsidian Publish for your vault, cre
 
 **데스크톱/태블릿** ![[lucide-monitor-check.svg#icon]]
 
-1. 왼쪽 [[사이드바]]를 열어요 ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. **변경사항 게재** ( ![[lucide-send.svg#icon]] ) 아이콘을 선택해요.
+1. 왼쪽 [[사이드바]]를 열어요 ![[obsidian-icon-side-bar-left.svg#icon]].
+2. **변경사항 게재** ![[lucide-send.svg#icon]] 아이콘을 선택해요.
 
 **변경사항 게재** 창이 새 팝업으로 나타나요.
 
 **모바일** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. [[리본]]을 열어요 ( ![[lucide-menu.svg#icon]] ).
-2. **변경사항 게재** ( ![[lucide-send.svg#icon]] ) 아이콘을 선택해요.
+1. [[리본]]을 열어요 ![[lucide-menu.svg#icon]].
+2. **변경사항 게재** ![[lucide-send.svg#icon]] 아이콘을 선택해요.
 
 **변경사항 게재** 메뉴가 슬라이드업으로 나타나요.
 
@@ -87,7 +87,7 @@ description: 'In this guide, you''ll enable Obsidian Publish for your vault, cre
 ### 사이트 이름 설정
 
 1. [[#Publish 열기]]
-2. **사이트 옵션 변경** ( ![[lucide-cog.svg#icon]] )을 선택해요.
+2. **사이트 옵션 변경** ![[lucide-cog.svg#icon]]을 선택해요.
 3. **일반** 아래의 **사이트 이름**에 사이트 이름을 입력해요.
 4. **사이트 설정 저장**을 선택해요.
 

@@ -10,7 +10,7 @@ publish: true
 > [!warning]
 > "Formatkonvertering" konverterer hele din boks baseret på dine indstillinger. [[Lav backup af dine Obsidian filer]] før du anvender dplKommandopaletten|kommandopaletteSådan konverterer du alle dine noter i din boks:
 
-1. Vælg **Åbn Markdown-importør** i [[Kommandopaletten|kommandopaletten]]. Denne kommando kan også findes i [[Båndmenu|båndmenuen]] med ikonet ( ![[lucide-binary.svg#icon]] )
+1. Vælg **Åbn Markdown-importør** i [[Kommandopaletten|kommandopaletten]]. Denne kommando kan også findes i [[Båndmenu|båndmenuen]] med ikonet ![[lucide-binary.svg#icon]]
 2. Aktiver de formater, som du vil konvertere
 3. Klik **Start konvertering**
 

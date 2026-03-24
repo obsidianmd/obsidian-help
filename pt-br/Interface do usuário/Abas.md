@@ -13,7 +13,7 @@ Você pode abrir quantas abas quiser no Obsidian. Também é possível organizar
 
 ## Abrir uma nova aba
 
-No topo da janela do aplicativo, ao lado da última aba à direita, selecione **Nova aba** ( ![[lucide-plus.svg#icon]] ). Ou use um atalho de teclado:
+No topo da janela do aplicativo, ao lado da última aba à direita, selecione **Nova aba** ![[lucide-plus.svg#icon]]. Ou use um atalho de teclado:
 
 - **Windows e Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
@@ -114,7 +114,7 @@ Para abas de notas, você pode usar os seguintes plugins como visualizações vi
 
 Para abrir uma visualização vinculada para uma aba de nota:
 
-1. Selecione **Mais opções** ( ![[lucide-more-horizontal.svg#icon]] ) no canto superior direito da nota.
+1. Selecione **Mais opções** ![[lucide-more-horizontal.svg#icon]] no canto superior direito da nota.
 2. Em **Abrir visualização vinculada**, selecione a visualização vinculada que deseja abrir.
 
 ## Salvar leiautes

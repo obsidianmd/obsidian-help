@@ -38,7 +38,7 @@ When you enable the [[Introduction to Obsidian Sync|Sync]] core plugin, Sync his
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the **Command palette**. ( ![[lucide-terminal.svg#icon]] )
+1. Open the **Command palette**. ![[lucide-terminal.svg#icon]]
 2. Type "Sync".
 3. Select the "Sync: Show Sync history" option.
 
@@ -46,8 +46,8 @@ Sync history will then appear in the [[Sidebar|right sidebar]].
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
-2. Open the **Command palette**. ( ![[lucide-terminal.svg#icon]] )
+1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
+2. Open the **Command palette**. ![[lucide-terminal.svg#icon]]
 3. Type "Sync".
 4. Select the "Sync: Show Sync history" option.
 

@@ -12,7 +12,7 @@ Nur der Website-Eigentümer benötigt ein aktives Abonnement für Obsidian Publi
 
 ## Einen Mitarbeiter zu einer Website hinzufügen
 
-1. Wähle in der [[Menüband|Werkzeugleiste]] **Änderungen veröffentlichen** (![[lucide-send.svg#icon]]) oder öffne die [[Befehlspalette]] und gib **Publish: Änderungen veröffentlichen...** ein.
+1. Wähle in der [[Menüband|Werkzeugleiste]] **Änderungen veröffentlichen** ![[lucide-send.svg#icon]] oder öffne die [[Befehlspalette]] und gib **Publish: Änderungen veröffentlichen...** ein.
 2. Klicke im Dialog **Änderungen veröffentlichen** auf **Seiteneinstellungen ändern** ![[lucide-cog.svg#icon]].
 3. Wähle neben **Website-Zusammenarbeit** die Option **Verwalten**.
 4. Gib unter **Nutzer einladen** die E-Mail des Mitarbeiters ein.
@@ -20,10 +20,10 @@ Nur der Website-Eigentümer benötigt ein aktives Abonnement für Obsidian Publi
 
 ## Einen Mitarbeiter von einer Website entfernen
 
-1. Wähle in der [[Menüband|Werkzeugleiste]] **Änderungen veröffentlichen** (![[lucide-send.svg#icon]]) oder öffne die [[Befehlspalette]] und gib **Publish: Änderungen veröffentlichen...** ein.
-2. Klicke im Dialog **Änderungen veröffentlichen** auf **Seiteneinstellungen ändern** ( ![[lucide-cog.svg#icon]] ).
+1. Wähle in der [[Menüband|Werkzeugleiste]] **Änderungen veröffentlichen** ![[lucide-send.svg#icon]] oder öffne die [[Befehlspalette]] und gib **Publish: Änderungen veröffentlichen...** ein.
+2. Klicke im Dialog **Änderungen veröffentlichen** auf **Seiteneinstellungen ändern** ![[lucide-cog.svg#icon]].
 3. Wähle neben **Website-Zusammenarbeit** die Option **Verwalten**.
-4. Wähle neben dem Mitarbeiter, den du entfernen möchtest, **Nutzer entfernen** ( ![[lucide-x.svg#icon]]).
+4. Wähle neben dem Mitarbeiter, den du entfernen möchtest, **Nutzer entfernen** ![[lucide-x.svg#icon]].
 
 ## Änderungen zwischen Mitarbeitern synchronisieren
 
@@ -31,7 +31,7 @@ Obsidian Publish synchronisiert veröffentlichte Änderungen nicht automatisch z
 
 Um eine lokale Notiz mit Änderungen der Live-Website zu aktualisieren:
 
-1. Wähle in der [[Menüband|Werkzeugleiste]] **Änderungen veröffentlichen** (![[lucide-send.svg#icon]]) oder öffne die [[Befehlspalette]] und gib **Publish: Änderungen veröffentlichen...** ein.
+1. Wähle in der [[Menüband|Werkzeugleiste]] **Änderungen veröffentlichen** ![[lucide-send.svg#icon]] oder öffne die [[Befehlspalette]] und gib **Publish: Änderungen veröffentlichen...** ein.
 2. Klicke mit der rechten Maustaste oder drücke lange auf die Änderung, die du synchronisieren möchtest, und wähle dann **Live-Version verwenden**. **Dies überschreibt die Notiz in deinem lokalen Vault.**
 
 > [!tip] Wir empfehlen, ein anderes Werkzeug zur Synchronisierung von Änderungen zwischen Vaults zu verwenden, wie z. B. [[Einführung in Obsidian Sync|Obsidian Sync]] oder [git](https://git-scm.com/).

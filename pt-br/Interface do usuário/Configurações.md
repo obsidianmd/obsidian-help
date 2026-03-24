@@ -10,11 +10,11 @@ As Configurações permitem que você personalize sua experiência com o Obsidia
 
 ### Desktop
 
-Na [[Barra lateral#Abrir barras laterais ocultas|barra lateral esquerda]], selecione **[[Configurações]]** ( ![[lucide-cog.svg#icon]] ). Você também pode abrir as Configurações com a [[Paleta de comandos]].
+Na [[Barra lateral#Abrir barras laterais ocultas|barra lateral esquerda]], selecione **[[Configurações]]** ![[lucide-cog.svg#icon]]. Você também pode abrir as Configurações com a [[Paleta de comandos]].
 
 ### Dispositivo móvel
 
-Na barra lateral esquerda, selecione **[[Configurações]]** ( ![[lucide-cog.svg#icon]] ).
+Na barra lateral esquerda, selecione **[[Configurações]]** ![[lucide-cog.svg#icon]].
 
 ## Organização das configurações
 
@@ -71,7 +71,7 @@ Se você apoia o [Obsidian para trabalho](<https://obsidian.md/pt-BR/blog/free-f
 
 #### Notifique se a inicialização demorar mais do que o esperado
 
-Quando ativado, o Obsidian exibe uma notificação se a inicialização estiver incomumente lenta. A notificação inclui informações de diagnóstico sobre o que está causando o atraso. Selecione o ícone de cronômetro ( ![[lucide-timer.svg#icon]] ) ao lado desta configuração para [[Ajuda e suporte#Verificar tempo de inicialização|verificar seu tempo de inicialização]].
+Quando ativado, o Obsidian exibe uma notificação se a inicialização estiver incomumente lenta. A notificação inclui informações de diagnóstico sobre o que está causando o atraso. Selecione o ícone de cronômetro ![[lucide-timer.svg#icon]] ao lado desta configuração para [[Ajuda e suporte#Verificar tempo de inicialização|verificar seu tempo de inicialização]].
 
 ## Editor
 
@@ -268,7 +268,7 @@ Escolha a cor de destaque usada em todo o app. Selecione o seletor de cores ou o
 
 ### Temas
 
-Gerencie os [[Temas|temas]] instalados e navegue pelos temas da comunidade. Selecione **Administrar** para visualizar e instalar temas. O menu suspenso mostra seu tema atualmente ativo. O ícone de pasta ( ![[lucide-folder-open.svg#icon]] ) abre a pasta de temas na sua [[Pasta de configuração|pasta de configuração]].
+Gerencie os [[Temas|temas]] instalados e navegue pelos temas da comunidade. Selecione **Administrar** para visualizar e instalar temas. O menu suspenso mostra seu tema atualmente ativo. O ícone de pasta ![[lucide-folder-open.svg#icon]] abre a pasta de temas na sua [[Pasta de configuração|pasta de configuração]].
 
 ### Temas da comunidade atuais
 
@@ -352,7 +352,7 @@ Ativa a Aceleração de Hardware, que usa sua GPU para deixar o Obsidian mais fl
 
 ### Fragmentos CSS
 
-Gerencie e visualize [[Trechos CSS|fragmentos CSS]] armazenados no seu cofre. Os Fragmentos CSS são armazenados em `/cofre/.obsidian/snippets/`. Selecione o ícone de atualizar para recarregar os fragmentos, ou o ícone de pasta ( ![[lucide-folder-open.svg#icon]] ) para abrir a pasta de fragmentos.
+Gerencie e visualize [[Trechos CSS|fragmentos CSS]] armazenados no seu cofre. Os Fragmentos CSS são armazenados em `/cofre/.obsidian/snippets/`. Selecione o ícone de atualizar para recarregar os fragmentos, ou o ícone de pasta ![[lucide-folder-open.svg#icon]] para abrir a pasta de fragmentos.
 
 ## Teclas de atalho
 
@@ -364,7 +364,7 @@ Use a barra de pesquisa para filtrar comandos, e selecione o ícone de filtro pa
 
 [[Plugins nativos]] são plugins integrados que vêm com o Obsidian. Cada plugin adiciona funcionalidades específicas ao app.
 
-Para ativar ou desativar um plugin nativo, selecione o alternador ao lado do nome do plugin. Selecione o ícone de mais ( ![[lucide-plus-circle.svg#icon]] ) para visualizar as [[Teclas de atalho]] do plugin. Selecione o ícone de configurações ( ![[lucide-settings.svg#icon]] ) para abrir a página de configurações do plugin.
+Para ativar ou desativar um plugin nativo, selecione o alternador ao lado do nome do plugin. Selecione o ícone de mais ![[lucide-plus-circle.svg#icon]] para visualizar as [[Teclas de atalho]] do plugin. Selecione o ícone de configurações ![[lucide-settings.svg#icon]] para abrir a página de configurações do plugin.
 
 Use a barra de pesquisa para filtrar plugins por nome.
 

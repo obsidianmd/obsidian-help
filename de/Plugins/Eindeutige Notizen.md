@@ -9,7 +9,7 @@ Wenn du beispielsweise am 1. Januar 2024 um 09:45 Uhr eine neue Notiz erstellst,
 
 **Werkzeugleiste:**
 
-- Klicke in der Werkzeugleiste auf **Neue eindeutige Notiz erstellen** ( ![[obsidian-icon-sheets-in-box.svg#icon]] ).
+- Klicke in der Werkzeugleiste auf **Neue eindeutige Notiz erstellen** ![[obsidian-icon-sheets-in-box.svg#icon]].
 
 **Befehlspalette:**
 

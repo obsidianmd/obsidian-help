@@ -12,7 +12,7 @@ Templates is a [[Core plugins|core plugin]] that lets you insert pre-defined sni
 
 ## Set your template folder
 
-1. In the bottom-left corner, click **[[Settings]]** ( ![[lucide-cog.svg#icon]] ).
+1. In the bottom-left corner, click **[[Settings]]** ![[lucide-cog.svg#icon]].
 2. Under **Core plugins → Templates → Template folder location**, enter the folder containing your templates.
 
 ## Template variables

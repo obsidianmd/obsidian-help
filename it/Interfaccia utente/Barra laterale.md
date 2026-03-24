@@ -12,14 +12,14 @@ Su desktop e tablet più grandi, la barra laterale sinistra include la [[Barra m
 
 ### Desktop e tablet più grandi
 
-Su desktop e tablet più grandi, aprire una barra laterale compressa selezionando l'icona espandi sinistra ( ![[obsidian-icon-side-bar-left.svg#icon]] ) o espandi destra ( ![[obsidian-icon-side-bar-right.svg#icon]] ).
+Su desktop e tablet più grandi, aprire una barra laterale compressa selezionando l'icona espandi sinistra ![[obsidian-icon-side-bar-left.svg#icon]] o espandi destra ![[obsidian-icon-side-bar-right.svg#icon]].
 
 ### Mobile e tablet più piccoli
 
 Su mobile e tablet più piccoli, è possibile aprire le barre laterali nascoste nei seguenti modi:
 
 - Scorrere a sinistra o a destra
-- Selezionare l'icona espandi sinistra ( ![[obsidian-icon-side-bar-left.svg#icon]] ) (solo barra laterale sinistra)
+- Selezionare l'icona espandi sinistra ![[obsidian-icon-side-bar-left.svg#icon]] (solo barra laterale sinistra)
 - Utilizzare le opzioni *Attiva/disattiva sinistra* o *Attiva/disattiva destra* dalla [[Riquadro comandi]].
 
 ## Schede

@@ -23,7 +23,7 @@ To start using Canvas, you first need to create a file to hold your canvas. You 
 
 **Ribbon:**
 
-- In the vertical ribbon menu, select **Create new canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) to create a canvas in the same folder as the active file.
+- In the vertical ribbon menu, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
 
 > [!note]  The .canvas file extension
 > Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
@@ -103,7 +103,7 @@ You can also edit a card by right-clicking it and selecting **Edit**.
 
 Remove selected cards by right-clicking any of them, and then selecting **Delete**. Or, press `Backspace` (or `Delete` on macOS).
 
-You can also select **Remove** ( ![[lucide-trash-2.svg#icon]] ) in the selection controls above your selection.
+You can also select **Remove** ![[lucide-trash-2.svg#icon]] in the selection controls above your selection.
 
 ### Swap cards
 
@@ -195,7 +195,7 @@ To edit a connection label, double-click on the line, or right-click the line an
 ### Change the color of a card or connection
 
 1. Select the cards or connections you want to color.
-2. In the selection controls, select **Set color** ( ![[lucide-palette.svg#icon]] ).
+2. In the selection controls, select **Set color** ![[lucide-palette.svg#icon]].
 3. Select a color.
 
 ## Group cards
@@ -227,11 +227,11 @@ To move the canvas vertically and horizontally, also known as _panning_, you can
 
 ### Zoom the canvas
 
-To zoom the canvas, press `Space`  or `Ctrl` (or `Cmd` on macOS) and scroll using the mouse wheel. Or, select **Zoom in** ( ![[lucide-plus.svg#icon]] ) and **Zoom out** ( ![[lucide-minus.svg#icon]] ) from the zoom controls in the upper-right corner.
+To zoom the canvas, press `Space`  or `Ctrl` (or `Cmd` on macOS) and scroll using the mouse wheel. Or, select **Zoom in** ![[lucide-plus.svg#icon]] and **Zoom out** ![[lucide-minus.svg#icon]] from the zoom controls in the upper-right corner.
 
 #### Zoom to fit
 
-To zoom the canvas so that every item is visible, select **Zoom to fit** ( ![[lucide-maximize.svg#icon]] ). Or, use the keyboard shortcut, `Shift+1`.
+To zoom the canvas so that every item is visible, select **Zoom to fit** ![[lucide-maximize.svg#icon]]. Or, use the keyboard shortcut, `Shift+1`.
 
 #### Zoom to selection
 

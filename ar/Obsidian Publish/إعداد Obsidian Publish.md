@@ -38,7 +38,7 @@ aliases:
 
 **سطح المكتب/الجهاز اللوحي** ![[lucide-monitor-check.svg#icon]]
 
-1. افتح **لوحة الأوامر** ( ![[lucide-terminal.svg#icon]] ).
+1. افتح **لوحة الأوامر** ![[lucide-terminal.svg#icon]].
 2. اكتب "Publish".
 3. اختر خيار **Publish: أنشر التغييرات...**.
 
@@ -46,8 +46,8 @@ aliases:
 
 **الهاتف المحمول** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. افتح [[شريط|الشريط الجانبي]] ( ![[lucide-menu.svg#icon]] ).
-2. افتح **لوحة الأوامر** ( ![[lucide-terminal.svg#icon]] ).
+1. افتح [[شريط|الشريط الجانبي]] ![[lucide-menu.svg#icon]].
+2. افتح **لوحة الأوامر** ![[lucide-terminal.svg#icon]].
 3. اكتب "Publish".
 4. اختر خيار **Publish: أنشر التغييرات...**.
 
@@ -68,15 +68,15 @@ aliases:
 
 **سطح المكتب/الجهاز اللوحي** ![[lucide-monitor-check.svg#icon]]
 
-1. افتح [[الشريط الجانبي]] الأيسر ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. اختر أيقونة **نشر التغييرات** ( ![[lucide-send.svg#icon]] ).
+1. افتح [[الشريط الجانبي]] الأيسر ![[obsidian-icon-side-bar-left.svg#icon]].
+2. اختر أيقونة **نشر التغييرات** ![[lucide-send.svg#icon]].
 
 ستظهر نافذة **نشر التغييرات** في نافذة منبثقة جديدة.
 
 **الهاتف المحمول** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. افتح [[شريط|الشريط الجانبي]] ( ![[lucide-menu.svg#icon]] ).
-2. اختر أيقونة **نشر التغييرات** ( ![[lucide-send.svg#icon]] ).
+1. افتح [[شريط|الشريط الجانبي]] ![[lucide-menu.svg#icon]].
+2. اختر أيقونة **نشر التغييرات** ![[lucide-send.svg#icon]].
 
 ستظهر قائمة **نشر التغييرات** كشريحة منزلقة من الأسفل.
 
@@ -88,7 +88,7 @@ aliases:
 ### تعيين اسم الموقع
 
 1. [[#فتح Publish]]
-2. اختر **تغيير خيارات الموقع** ( ![[lucide-cog.svg#icon]] ).
+2. اختر **تغيير خيارات الموقع** ![[lucide-cog.svg#icon]].
 3. في **اسم الموقع**، ضمن **عام**، أدخل اسم موقعك.
 4. اختر **حفظ إعدادات الموقع**.
 

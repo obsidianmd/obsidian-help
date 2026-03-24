@@ -18,7 +18,7 @@ This page explains how to manage your published content. To learn how to customi
 
 ## Publish notes
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]).
+1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]].
 2. In the **Publish changes** dialog, select **NEW** to view all unpublished notes.
 3. Select the notes you want to publish.
 4. Select **Publish**.
@@ -27,14 +27,14 @@ This page explains how to manage your published content. To learn how to customi
 
 Notes remain in your local vault even after you unpublish them.
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]).
+1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]].
 2. In the **Publish changes** dialog, select **UNCHANGED** to view all published notes.
 3. Select the notes you want to unpublish.
 4. Select **Publish**.
 
 ## Update a published note
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]).
+1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]].
 2. In the **Publish changes** dialog, select **CHANGED** to view all modified notes since the last publish.
 3. Select the notes you want to update.
 4. Select **Publish**.
@@ -57,8 +57,8 @@ Set `publish: true` in the [[Properties]] of a note to automatically include it 
 
 You can also automatically select notes and linked images in specific folders by adding them as **Included** folders:
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**.
-2. Select the **Manage publish filters** (![[lucide-filter.svg#icon]]) icon.
+1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**.
+2. Select the **Manage publish filters** ![[lucide-filter.svg#icon]] icon.
 3. In the **Included folders** section, select **Manage**.
 4. Choose the folders you want to include from the suggester.
 5. The folder is added to the included list.
@@ -70,8 +70,8 @@ To ignore a note in Obsidian Publish, set `publish: false` in the [[Properties]]
 
 You can also auto-ignore notes and images in specific folders by adding them as **Excluded** folders:
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**.
-2. Select the **Manage publish filters** (![[lucide-filter.svg#icon]]) icon.
+1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**.
+2. Select the **Manage publish filters** ![[lucide-filter.svg#icon]] icon.
 3. In the **Excluded folders** section, select **Manage**.
 4. Choose the folders you want to exclude from the suggester.
 5. The folder is added to the excluded list.

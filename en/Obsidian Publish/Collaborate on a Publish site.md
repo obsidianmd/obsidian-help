@@ -14,7 +14,7 @@ Only the site owner needs an active subscription for Obsidian Publish. Collabora
 
 ## Add a collaborator to a site
 
-1. In [[Ribbon]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**
+1. In [[Ribbon]], select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**
 2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
 3. Next to **Site collaboration**, select **Manage**.
 4. In **Invite user**, enter the email of the collaborator.
@@ -22,10 +22,10 @@ Only the site owner needs an active subscription for Obsidian Publish. Collabora
 
 ## Remove a collaborator from a site
 
-1. In [[Ribbon]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
+1. In [[Ribbon]], select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**
+2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
 3. Next to **Site collaboration**, select **Manage**.
-4. Next to the collaborator you want to remove, select **Remove user** ( ![[lucide-x.svg#icon]]).
+4. Next to the collaborator you want to remove, select **Remove user** ![[lucide-x.svg#icon]].
 
 ## Sync changes between collaborators
 
@@ -33,7 +33,7 @@ Obsidian Publish doesn't sync published changes between local vaults automatical
 
 To update a local note with changes from the live site:
 
-1. In [[Ribbon]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**
+1. In [[Ribbon]], select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**
 2. Right-click or long-press the change you want to sync, and then select **Use live version**. **This will overwrite the note in your local vault.**
 
 > [!tip] We recommend that you use another tool to sync changes between vaults, such as [[Introduction to Obsidian Sync|Obsidian Sync]] or [git](https://git-scm.com/).

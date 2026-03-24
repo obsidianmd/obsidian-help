@@ -11,7 +11,7 @@ Un'area di lavoro contiene informazioni sui file e le schede aperti, nonché sul
 
 **Barra degli strumenti:**
 
-1. Nella barra degli strumenti, fare clic su **Gestisci layout delle aree di lavoro** ( ![[lucide-panels-top-left.svg#icon]] ).
+1. Nella barra degli strumenti, fare clic su **Gestisci layout delle aree di lavoro** ![[lucide-panels-top-left.svg#icon]].
 2. Inserire un nome per l'area di lavoro.
 3. Selezionare **Salva**.
 
@@ -29,7 +29,7 @@ Per aggiornare un'area di lavoro esistente, salvare l'area di lavoro con lo stes
 
 **Barra degli strumenti:**
 
-1. Nella barra degli strumenti, fare clic su **Gestisci layout delle aree di lavoro** ( ![[lucide-panels-top-left.svg#icon]] ).
+1. Nella barra degli strumenti, fare clic su **Gestisci layout delle aree di lavoro** ![[lucide-panels-top-left.svg#icon]].
 2. Accanto all'area di lavoro che si desidera caricare, selezionare **Carica**.
 
 **Tavolozza dei comandi:**
@@ -43,12 +43,12 @@ Per aggiornare un'area di lavoro esistente, salvare l'area di lavoro con lo stes
 
 **Barra degli strumenti:**
 
-1. Nella barra degli strumenti, fare clic su **Gestisci layout delle aree di lavoro** ( ![[lucide-panels-top-left.svg#icon]] ).
-2. Accanto all'area di lavoro che si desidera eliminare, selezionare **Cancella layout** ( ![[lucide-x.svg#icon]] ).
+1. Nella barra degli strumenti, fare clic su **Gestisci layout delle aree di lavoro** ![[lucide-panels-top-left.svg#icon]].
+2. Accanto all'area di lavoro che si desidera eliminare, selezionare **Cancella layout** ![[lucide-x.svg#icon]].
 
 **Tavolozza dei comandi:**
 
 1. Premere `Ctrl+P` (o `Cmd+P` su macOS) per aprire la [[Riquadro comandi]].
 2. Cercare il comando **Gestisci layout delle aree di lavoro**.
 3. Premere `Invio` con il comando selezionato.
-4. Accanto all'area di lavoro che si desidera eliminare, selezionare **Cancella layout** ( ![[lucide-x.svg#icon]] ).
+4. Accanto all'area di lavoro che si desidera eliminare, selezionare **Cancella layout** ![[lucide-x.svg#icon]].

@@ -21,7 +21,7 @@ Para convidar um usuário para compartilhar um cofre remoto:
 1. Abra **[[Configurações]]**.
 2. No menu lateral, selecione **Sincronização**.
 3. Ao lado de **Cofre remoto**, selecione **Administrar**.
-4. Ao lado do cofre remoto que deseja compartilhar, selecione **Gerenciar compartilhamento** ( ![[lucide-users.svg#icon]] ).
+4. Ao lado do cofre remoto que deseja compartilhar, selecione **Gerenciar compartilhamento** ![[lucide-users.svg#icon]].
 5. Em **Convidar usuário**, insira o e-mail do usuário que deseja convidar.
 6. Selecione **Adicionar**.
 
@@ -30,7 +30,7 @@ Para convidar um usuário para compartilhar um cofre remoto:
 1. Abra **[[Configurações]]**.
 2. No menu lateral, selecione **Sincronização**.
 3. Ao lado de **Cofre remoto**, selecione **Administrar**.
-4. Ao lado do usuário do qual deseja remover o acesso, selecione **Remover usuário** ( ![[lucide-x.svg#icon]] ).
+4. Ao lado do usuário do qual deseja remover o acesso, selecione **Remover usuário** ![[lucide-x.svg#icon]].
 
 ## Colaborar com sua equipe
 

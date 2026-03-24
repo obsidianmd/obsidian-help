@@ -72,7 +72,7 @@ O **menu lateral** funciona como um contêiner para ícones de ações frequente
 
 Na versão desktop, é a área vertical situada na extrema esquerda.
 
-Na versão móvel, é representado por um botão de menu ( ![[lucide-menu.svg#icon]] ) na [[#barra de status|barra de status]].
+Na versão móvel, é representado por um botão de menu ![[lucide-menu.svg#icon]] na [[#barra de status|barra de status]].
 
 ## Barra lateral
 

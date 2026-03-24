@@ -29,7 +29,7 @@ Beim Bearbeiten einer Notiz wird am unteren Rand der App eine Reihe von Symbolen
 
 ### Mobile Symbolleiste anpassen
 
-Tippe in der mobilen Symbolleiste auf **Mobile-Werkzeugleiste bearbeiten** ( ![[lucide-wrench.svg#icon]] ), um die Bedienoberfläche zur Anpassung zu öffnen.
+Tippe in der mobilen Symbolleiste auf **Mobile-Werkzeugleiste bearbeiten** ![[lucide-wrench.svg#icon]], um die Bedienoberfläche zur Anpassung zu öffnen.
 
 Alternativ kannst du dies in den Einstellungen vornehmen.
 
@@ -74,7 +74,7 @@ Mit der Symbolleisten-Option **Tastatur umschalten** kannst du die mobile Symbol
 
 ### Zurück oder Vorwärts
 
-Die ersten beiden Optionen in der Navigationsleiste helfen dir, zurück ( ![[lucide-chevron-left.svg#icon]] ) oder vorwärts ( ![[lucide-chevron-right.svg#icon]] ) zu navigieren. Wenn eine der Optionen nicht verfügbar ist, wird das Symbol ausgegraut dargestellt.
+Die ersten beiden Optionen in der Navigationsleiste helfen dir, zurück ![[lucide-chevron-left.svg#icon]] oder vorwärts ![[lucide-chevron-right.svg#icon]] zu navigieren. Wenn eine der Optionen nicht verfügbar ist, wird das Symbol ausgegraut dargestellt.
 
 ### Notiz erstellen oder finden
 
@@ -88,7 +88,7 @@ Wenn du darauf tippst, kannst du zu jedem geöffneten Tab wechseln. Du kannst au
 
 ### Werkzeugleisten-Aktionen
 
-Die mobile App hat kein [[Menüband]]. Stattdessen sind die Werkzeugleisten-Aktionen verfügbar, wenn du auf **Menü öffnen** ( ![[lucide-menu.svg#icon]] ) tippst, die letzte Option in der Navigationsleiste.
+Die mobile App hat kein [[Menüband]]. Stattdessen sind die Werkzeugleisten-Aktionen verfügbar, wenn du auf **Menü öffnen** ![[lucide-menu.svg#icon]] tippst, die letzte Option in der Navigationsleiste.
 
 ### Seitenleisten
 

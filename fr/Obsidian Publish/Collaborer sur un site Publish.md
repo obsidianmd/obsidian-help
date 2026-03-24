@@ -14,7 +14,7 @@ Seul le propriétaire du site a besoin d'un abonnement actif à Obsidian Publish
 
 ## Ajouter un collaborateur à un site
 
-1. Dans le [[Ruban]], sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
+1. Dans le [[Ruban]], sélectionnez **Publier les modifications** ![[lucide-send.svg#icon]] ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
 2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ![[lucide-cog.svg#icon]].
 3. À côté de **Collaboration sur le site**, sélectionnez **Gérer**.
 4. Dans **Inviter un utilisateur**, entrez l'adresse électronique du collaborateur.
@@ -22,10 +22,10 @@ Seul le propriétaire du site a besoin d'un abonnement actif à Obsidian Publish
 
 ## Retirer un collaborateur d'un site
 
-1. Dans le [[Ruban]], sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
-2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+1. Dans le [[Ruban]], sélectionnez **Publier les modifications** ![[lucide-send.svg#icon]] ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
+2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ![[lucide-cog.svg#icon]].
 3. À côté de **Collaboration sur le site**, sélectionnez **Gérer**.
-4. À côté du collaborateur que vous souhaitez retirer, sélectionnez **Supprimer l'utilisateur** ( ![[lucide-x.svg#icon]]).
+4. À côté du collaborateur que vous souhaitez retirer, sélectionnez **Supprimer l'utilisateur** ![[lucide-x.svg#icon]].
 
 ## Synchroniser les modifications entre collaborateurs
 
@@ -33,7 +33,7 @@ Obsidian Publish ne synchronise pas automatiquement les modifications publiées 
 
 Pour mettre à jour une note locale avec les modifications du site en ligne :
 
-1. Dans le [[Ruban]], sélectionnez **Publier les modifications** (![[lucide-send.svg#icon]]) ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
+1. Dans le [[Ruban]], sélectionnez **Publier les modifications** ![[lucide-send.svg#icon]] ou ouvrez la [[Palette de commandes]] et tapez **Publish: Publish changes...**
 2. Faites un clic droit ou un appui long sur la modification que vous souhaitez synchroniser, puis sélectionnez **Utiliser la version en ligne**. **Cela écrasera la note dans votre coffre local.**
 
 > [!tip] Nous recommandons d'utiliser un autre outil pour synchroniser les modifications entre les coffres, comme [[Introduction à Obsidian Sync|Obsidian Sync]] ou [git](https://git-scm.com/).

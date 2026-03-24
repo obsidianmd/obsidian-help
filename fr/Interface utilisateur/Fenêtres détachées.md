@@ -22,7 +22,7 @@ Dans la [[Palette de commandes]], sélectionnez **Ouvrir l'onglet actif dans une
 
 **Onglet :**
 
-Faites un clic droit sur un onglet et sélectionnez **Ouvrir dans une nouvelle fenêtre**. Vous pouvez également sélectionner **Plus d'options** ( ![[lucide-ellipsis-vertical.svg#icon]] ) dans le coin supérieur droit de l'éditeur, puis choisir **Ouvrir dans une nouvelle fenêtre**.
+Faites un clic droit sur un onglet et sélectionnez **Ouvrir dans une nouvelle fenêtre**. Vous pouvez également sélectionner **Plus d'options** ![[lucide-ellipsis-vertical.svg#icon]] dans le coin supérieur droit de l'éditeur, puis choisir **Ouvrir dans une nouvelle fenêtre**.
 
 > [!tip] Vous pouvez également faire un clic droit sur un lien dans l'éditeur et sélectionner **Ouvrir dans une nouvelle fenêtre**.
 

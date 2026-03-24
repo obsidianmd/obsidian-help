@@ -8,7 +8,7 @@ Quick switcher is a [[Core plugins|core plugin]] that lets you search and open n
 
 There are several ways to open Quick Switcher, when it's enabled:
 - Press `Ctrl+O` (or `Cmd+O` on macOS) to open the Quick switcher;
-- In the ribbon, click **Open Quick switcher** ( ![[lucide-file-search.svg#icon]] );
+- In the ribbon, click **Open Quick switcher** ![[lucide-file-search.svg#icon]];
 - On mobile, when you're not editing a note, tap the plus icon at bottom center of the app.
 
 ## Open a note with Quick switcher

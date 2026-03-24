@@ -14,7 +14,7 @@ Apenas o proprietário do site precisa de uma assinatura ativa do Obsidian Publi
 
 ## Adicionar um colaborador a um site
 
-1. No [[Faixa de opções|Menu lateral]], selecione **Publicar mudanças** (![[lucide-send.svg#icon]]) ou abra a [[Paleta de comandos]] e digite **Publish: Publicar mudanças...**
+1. No [[Faixa de opções|Menu lateral]], selecione **Publicar mudanças** ![[lucide-send.svg#icon]] ou abra a [[Paleta de comandos]] e digite **Publish: Publicar mudanças...**
 2. Na caixa de diálogo **Publicar mudanças**, clique em **Alterar configurações do site** ![[lucide-cog.svg#icon]].
 3. Ao lado de **Colaboração do site**, selecione **Administrar**.
 4. Em **Convidar usuário**, insira o e-mail do colaborador.
@@ -22,10 +22,10 @@ Apenas o proprietário do site precisa de uma assinatura ativa do Obsidian Publi
 
 ## Remover um colaborador de um site
 
-1. No [[Faixa de opções|Menu lateral]], selecione **Publicar mudanças** (![[lucide-send.svg#icon]]) ou abra a [[Paleta de comandos]] e digite **Publish: Publicar mudanças...**
-2. Na caixa de diálogo **Publicar mudanças**, clique em **Alterar configurações do site** ( ![[lucide-cog.svg#icon]] ).
+1. No [[Faixa de opções|Menu lateral]], selecione **Publicar mudanças** ![[lucide-send.svg#icon]] ou abra a [[Paleta de comandos]] e digite **Publish: Publicar mudanças...**
+2. Na caixa de diálogo **Publicar mudanças**, clique em **Alterar configurações do site** ![[lucide-cog.svg#icon]].
 3. Ao lado de **Colaboração do site**, selecione **Administrar**.
-4. Ao lado do colaborador que deseja remover, selecione **Remover usuário** ( ![[lucide-x.svg#icon]]).
+4. Ao lado do colaborador que deseja remover, selecione **Remover usuário** ![[lucide-x.svg#icon]].
 
 ## Sincronizar mudanças entre colaboradores
 
@@ -33,7 +33,7 @@ O Obsidian Publish não sincroniza automaticamente as mudanças publicadas entre
 
 Para atualizar uma nota local com mudanças do site ao vivo:
 
-1. No [[Faixa de opções|Menu lateral]], selecione **Publicar mudanças** (![[lucide-send.svg#icon]]) ou abra a [[Paleta de comandos]] e digite **Publish: Publicar mudanças...**
+1. No [[Faixa de opções|Menu lateral]], selecione **Publicar mudanças** ![[lucide-send.svg#icon]] ou abra a [[Paleta de comandos]] e digite **Publish: Publicar mudanças...**
 2. Clique com o botão direito ou pressione e segure a mudança que deseja sincronizar, e então selecione **Usar a versão ao vivo**. **Isso sobrescreverá a nota no seu cofre local.**
 
 > [!tip] Recomendamos que você use outra ferramenta para sincronizar mudanças entre cofres, como o [[Introdução ao Obsidian Sync|Obsidian Sync]] ou [git](https://git-scm.com/).

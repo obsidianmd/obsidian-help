@@ -6,7 +6,7 @@ description: Die Suche ist eine Obsidian-Erweiterung, die dir hilft, Daten in de
 ---
 Die Suche ist eine [[Obsidian-Erweiterungen|Obsidian-Erweiterung]], die dir hilft, Daten in deinem Obsidian-Vault mithilfe von Suchbegriffen und Operatoren zu finden und Ergebnisse einzugrenzen.
 
-Standardmäßig findest du die Suche in der linken Seitenleiste ( ![[lucide-search.svg#icon]] ). Du kannst die Suche auch mit `Strg+Umschalt+F` (Windows/Linux) oder `Befehl+Umschalt+F` (macOS) öffnen.
+Standardmäßig findest du die Suche in der linken Seitenleiste ![[lucide-search.svg#icon]]. Du kannst die Suche auch mit `Strg+Umschalt+F` (Windows/Linux) oder `Befehl+Umschalt+F` (macOS) öffnen.
 
 - **Ausgewählten Text suchen**: Wenn du Text im Editor markierst und die Suche mit dem Tastenkürzel öffnest, zeigt die Suche dir die Suchergebnisse für den markierten Text an.
 - **Letzte Suchbegriffe durchsuchen**: Öffne die Suche mit einem leeren Suchbegriff, um die letzten Suchbegriffe aufzulisten. Klicke auf einen davon, um den Suchbegriff erneut zu verwenden.
@@ -102,7 +102,7 @@ Sowohl Eigenschaft als auch Wert erlauben Unterabfragen, wie Klammern zur Gruppi
 
 ## Groß-/Kleinschreibung ändern
 
-Standardmäßig sind Suchbegriffe nicht groß-/kleinschreibungsabhängig. Wenn du nach der exakten Schreibweise deines Suchbegriffs suchen möchtest, wähle **Großschreibung beachten** ( ![[obsidian-icon-upper-lowercase.svg#icon]] ) in der Suchleiste.
+Standardmäßig sind Suchbegriffe nicht groß-/kleinschreibungsabhängig. Wenn du nach der exakten Schreibweise deines Suchbegriffs suchen möchtest, wähle **Großschreibung beachten** ![[obsidian-icon-upper-lowercase.svg#icon]] in der Suchleiste.
 
 Diese Einstellung kann umgeschaltet werden. Wenn das Symbol **Großschreibung beachten** hervorgehoben ist, führst du derzeit eine Suche mit Berücksichtigung der Groß-/Kleinschreibung durch.
 
@@ -144,7 +144,7 @@ Weitere Informationen zum Schreiben regulärer Ausdrücke findest du in FreeCode
 
 ## Sucheinstellungen konfigurieren
 
-Um die Suche zu konfigurieren, wähle **Sucheinstellungen** ( ![[lucide-sliders-horizontal.svg#icon]] ) auf der rechten Seite der Suchleiste, um die Umschalter anzuzeigen.
+Um die Suche zu konfigurieren, wähle **Sucheinstellungen** ![[lucide-sliders-horizontal.svg#icon]] auf der rechten Seite der Suchleiste, um die Umschalter anzuzeigen.
 
 | Einstellung                  | Beschreibung                                                                 |
 |------------------------------|-----------------------------------------------------------------------------|

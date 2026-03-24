@@ -5,12 +5,12 @@ Una **bóveda** es una carpeta en tu sistema de archivos que contiene tus notas,
 
 Puedes gestionar tus bóvedas usando el **Selector de bóvedas**. El *Perfil de bóveda* se abre la primera vez que abres Obsidian.
 
-Para abrir el selector de bóvedas desde una bóveda existente, selecciona **Perfil de bóveda** ( ![[lucide-chevrons-up-down.svg#icon]]) en la parte inferior de la [[Barra lateral|barra lateral izquierda]]. O selecciona **Abrir otra bóveda** desde la [[Paleta de comandos|paleta de comandos]].
+Para abrir el selector de bóvedas desde una bóveda existente, selecciona **Perfil de bóveda** ![[lucide-chevrons-up-down.svg#icon]] en la parte inferior de la [[Barra lateral|barra lateral izquierda]]. O selecciona **Abrir otra bóveda** desde la [[Paleta de comandos|paleta de comandos]].
 
 ## Crear nueva bóveda
 
 1. En tu computadora, abre Obsidian.
-2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ![[lucide-chevrons-up-down.svg#icon]].
 3. Aparecerá un menú contextual. Selecciona **Administrar bóvedas...**.
 3. A la derecha de **Crear nueva bóveda**, selecciona **Crear**.
 4. En **Nombre de la bóveda**, ingresa el nombre de tu bóveda.
@@ -20,7 +20,7 @@ Para abrir el selector de bóvedas desde una bóveda existente, selecciona **Per
 ## Crear bóveda desde una carpeta existente
 
 1. En tu computadora, abre Obsidian.
-2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ![[lucide-chevrons-up-down.svg#icon]].
 3. Aparecerá un menú contextual. Selecciona **Administrar bóvedas...**.
 3. A la derecha de **Abrir una carpeta como bóveda**, haz clic en **Abrir**.
 4. En el explorador de archivos, selecciona la carpeta que deseas usar como tu bóveda.
@@ -34,19 +34,19 @@ Para abrir el selector de bóvedas desde una bóveda existente, selecciona **Per
 Dado que el nombre de una bóveda y la carpeta subyacente son los mismos, renombrar una bóveda también renombra la carpeta.
 
 1. En tu computadora, abre Obsidian.
-2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ![[lucide-chevrons-up-down.svg#icon]].
 3. Aparecerá un menú contextual. Selecciona **Administrar bóvedas...**.
-4. En la lista de bóvedas, selecciona **Más opciones** ( ![[lucide-more-horizontal.svg#icon]] ) junto a la bóveda que deseas renombrar.
+4. En la lista de bóvedas, selecciona **Más opciones** ![[lucide-more-horizontal.svg#icon]] junto a la bóveda que deseas renombrar.
 5. Selecciona **Renombrar bóveda**.
 6. Ingresa el nuevo nombre para la bóveda y presiona `Enter`.
 
 ## Mover bóveda a una carpeta diferente
 
 1. En tu computadora, abre Obsidian.
-2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ![[lucide-chevrons-up-down.svg#icon]].
 3. Aparecerá un menú contextual. Selecciona **Administrar bóvedas...**.
 4. Cierra la ventana de la bóveda actual, dejando abierta la ventana de **Gestionar bóvedas**.
-5. En la lista de bóvedas, selecciona **Más opciones** ( ![[lucide-more-horizontal.svg#icon]] ) junto a la bóveda que deseas mover.
+5. En la lista de bóvedas, selecciona **Más opciones** ![[lucide-more-horizontal.svg#icon]] junto a la bóveda que deseas mover.
 6. Selecciona **Mover bóveda** y luego selecciona la nueva ubicación.
 
 Algunos sistemas operativos no permiten mover la bóveda con el Selector de bóvedas. En estos casos, necesitarás mover tu bóveda manualmente:
@@ -54,7 +54,7 @@ Algunos sistemas operativos no permiten mover la bóveda con el Selector de bóv
 1. Cierra Obsidian.
 2. Mueve la carpeta de tu bóveda a una nueva ubicación, evitando carpetas sincronizadas por otros servicios.
 3. Vuelve a abrir Obsidian.
-4. Haz clic en el icono de **Perfil de bóveda** en la parte inferior izquierda ( ![[lucide-chevrons-up-down.svg#icon]]).
+4. Haz clic en el icono de **Perfil de bóveda** en la parte inferior izquierda ![[lucide-chevrons-up-down.svg#icon]].
 5. Desde el menú emergente, selecciona **Administrar bóvedas...**.
 6. Junto a **Abrir una carpeta como bóveda**, haz clic en **Abrir**.
 7. Navega y selecciona la nueva carpeta de tu bóveda.
@@ -66,9 +66,9 @@ Algunos sistemas operativos no permiten mover la bóveda con el Selector de bóv
 Eliminar una bóveda solo la quita de la lista de bóvedas.
 
 1. En tu computadora, abre Obsidian.
-2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. En la parte inferior izquierda, selecciona el **Perfil de bóveda** ![[lucide-chevrons-up-down.svg#icon]].
 3. Aparecerá un menú contextual. Selecciona **Administrar bóvedas...**.
-4. En la lista de bóvedas, selecciona **Más opciones** ( ![[lucide-more-horizontal.svg#icon]]) junto a la bóveda que deseas eliminar.
+4. En la lista de bóvedas, selecciona **Más opciones** ![[lucide-more-horizontal.svg#icon]] junto a la bóveda que deseas eliminar.
 5. Selecciona **Eliminar de la lista**.
 
 ## Transferir ajustes a otra bóveda

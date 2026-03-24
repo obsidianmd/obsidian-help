@@ -11,8 +11,8 @@ Un sito è una raccolta di note ospitata da Obsidian Publish e disponibile onlin
 
 > [!note] Il numero di siti che puoi avere contemporaneamente è determinato dal tuo abbonamento a Obsidian Publish. Prima di creare un nuovo sito, assicurati che il tuo abbonamento lo consenta.
 
-1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
-2. Se hai già un sito esistente, fai clic su **Cambia sito** ( ![[lucide-repeat.svg#icon]] ).
+1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ![[lucide-send.svg#icon]].
+2. Se hai già un sito esistente, fai clic su **Cambia sito** ![[lucide-repeat.svg#icon]].
 3. In **ID sito**, inserisci il percorso desiderato per il tuo sito. Ad esempio, un sito con l'ID `my-amazing-site` è disponibile all'indirizzo publish.obsidian.md/my-amazing-site.
 4. Fai clic su **Crea**.
 
@@ -20,29 +20,29 @@ Un sito è una raccolta di note ospitata da Obsidian Publish e disponibile onlin
 
 > [!note] Le note rimangono nella tua cassaforte anche dopo aver eliminato un sito.
 
-1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
-2. Fai clic su **Cambia sito** ( ![[lucide-repeat.svg#icon]] ).
-3. Fai clic su **Elimina sito** ( ![[lucide-x.svg#icon]] ) a destra del sito che desideri eliminare.
+1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ![[lucide-send.svg#icon]].
+2. Fai clic su **Cambia sito** ![[lucide-repeat.svg#icon]].
+3. Fai clic su **Elimina sito** ![[lucide-x.svg#icon]] a destra del sito che desideri eliminare.
 4. Fai clic su **Elimina** per confermare.
 
 ## Passare da un sito all'altro
 
-1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
-2. Fai clic su **Cambia sito** ( ![[lucide-repeat.svg#icon]] ).
+1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ![[lucide-send.svg#icon]].
+2. Fai clic su **Cambia sito** ![[lucide-repeat.svg#icon]].
 3. Fai clic su **Scegli** a destra del sito a cui desideri passare.
 
 ## Modificare l'ID del sito
 
-1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
-2. Fai clic su **Cambia sito** ( ![[lucide-repeat.svg#icon]] ).
-3. Fai clic su **Modifica l'ID del sito** ( ![[lucide-edit-3.svg#icon]] ) a destra del sito che desideri modificare.
+1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ![[lucide-send.svg#icon]].
+2. Fai clic su **Cambia sito** ![[lucide-repeat.svg#icon]].
+3. Fai clic su **Modifica l'ID del sito** ![[lucide-edit-3.svg#icon]] a destra del sito che desideri modificare.
 4. In **ID sito**, inserisci il nuovo ID per il tuo sito.
 5. Fai clic su **Modifica**.
 
 ## Visualizzare le opzioni del sito
 
-1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
-2. Nella finestra di dialogo **Pubblica modifiche**, fai clic su **Modifica le opzioni del sito** ( ![[lucide-cog.svg#icon]] ).
+1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ![[lucide-send.svg#icon]].
+2. Nella finestra di dialogo **Pubblica modifiche**, fai clic su **Modifica le opzioni del sito** ![[lucide-cog.svg#icon]].
 
 ## Opzioni sito
 

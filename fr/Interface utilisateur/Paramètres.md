@@ -13,11 +13,11 @@ Les paramètres vous permettent de personnaliser votre expérience Obsidian. Con
 
 ### Bureau
 
-Dans la [[Barre latérale#Ouvrir les barres latérales masquées|barre latérale gauche]], sélectionnez **[[Paramètres]]** ( ![[lucide-cog.svg#icon]] ). Vous pouvez également ouvrir les paramètres avec la [[Palette de commandes]].
+Dans la [[Barre latérale#Ouvrir les barres latérales masquées|barre latérale gauche]], sélectionnez **[[Paramètres]]** ![[lucide-cog.svg#icon]]. Vous pouvez également ouvrir les paramètres avec la [[Palette de commandes]].
 
 ### Mobile
 
-Dans la barre latérale gauche, sélectionnez **[[Paramètres]]** ( ![[lucide-cog.svg#icon]] ).
+Dans la barre latérale gauche, sélectionnez **[[Paramètres]]** ![[lucide-cog.svg#icon]].
 
 ## Organisation des paramètres
 
@@ -74,7 +74,7 @@ Si vous soutenez [Obsidian pour le travail](<https://obsidian.md/fr/blog/free-fo
 
 #### Notifier si le démarrage prend plus de temps que prévu
 
-Lorsque cette option est activée, Obsidian affiche une notification si le démarrage est inhabituellement lent. La notification inclut des informations de diagnostic sur la cause du délai. Sélectionnez l'icône du minuteur ( ![[lucide-timer.svg#icon]] ) à côté de ce paramètre pour [[Aide et support#Vérifier le temps de démarrage|vérifier votre temps de démarrage]].
+Lorsque cette option est activée, Obsidian affiche une notification si le démarrage est inhabituellement lent. La notification inclut des informations de diagnostic sur la cause du délai. Sélectionnez l'icône du minuteur ![[lucide-timer.svg#icon]] à côté de ce paramètre pour [[Aide et support#Vérifier le temps de démarrage|vérifier votre temps de démarrage]].
 
 ## Éditeur
 
@@ -271,7 +271,7 @@ Choisissez la couleur d'accentuation utilisée dans toute l'application. Sélect
 
 ### Thèmes
 
-Gérez les [[Thèmes|thèmes]] installés et parcourez les thèmes de la communauté. Sélectionnez **Gérer** pour voir et installer des thèmes. Le menu déroulant affiche votre thème actuellement actif. L'icône de dossier ( ![[lucide-folder-open.svg#icon]] ) ouvre le dossier des thèmes dans votre [[Dossier de configuration|dossier de configuration]].
+Gérez les [[Thèmes|thèmes]] installés et parcourez les thèmes de la communauté. Sélectionnez **Gérer** pour voir et installer des thèmes. Le menu déroulant affiche votre thème actuellement actif. L'icône de dossier ![[lucide-folder-open.svg#icon]] ouvre le dossier des thèmes dans votre [[Dossier de configuration|dossier de configuration]].
 
 ### Thèmes communautaires actuels
 
@@ -355,7 +355,7 @@ Active l'accélération matérielle, qui utilise votre GPU pour rendre Obsidian 
 
 ### Extraits CSS
 
-Gérez et consultez les [[Extraits CSS|extraits CSS]] stockés dans votre coffre. Les extraits CSS sont stockés dans `/coffre/.obsidian/snippets/`. Sélectionnez l'icône d'actualisation pour recharger les extraits, ou l'icône de dossier ( ![[lucide-folder-open.svg#icon]] ) pour ouvrir le dossier des extraits.
+Gérez et consultez les [[Extraits CSS|extraits CSS]] stockés dans votre coffre. Les extraits CSS sont stockés dans `/coffre/.obsidian/snippets/`. Sélectionnez l'icône d'actualisation pour recharger les extraits, ou l'icône de dossier ![[lucide-folder-open.svg#icon]] pour ouvrir le dossier des extraits.
 
 ## Raccourcis clavier
 
@@ -367,7 +367,7 @@ Utilisez la barre de recherche pour filtrer les commandes, et sélectionnez l'ic
 
 Les [[Modules principaux]] sont des modules intégrés fournis avec Obsidian. Chaque module ajoute des fonctionnalités spécifiques à l'application.
 
-Pour activer ou désactiver un module principal, sélectionnez le bouton à bascule à côté du nom du module. Sélectionnez l'icône plus ( ![[lucide-plus-circle.svg#icon]] ) pour voir les [[Raccourcis clavier]] du module. Sélectionnez l'icône de paramètres ( ![[lucide-settings.svg#icon]] ) pour ouvrir la page de paramètres du module.
+Pour activer ou désactiver un module principal, sélectionnez le bouton à bascule à côté du nom du module. Sélectionnez l'icône plus ![[lucide-plus-circle.svg#icon]] pour voir les [[Raccourcis clavier]] du module. Sélectionnez l'icône de paramètres ![[lucide-settings.svg#icon]] pour ouvrir la page de paramètres du module.
 
 Utilisez la barre de recherche pour filtrer les modules par nom.
 

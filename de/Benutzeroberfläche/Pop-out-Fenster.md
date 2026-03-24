@@ -20,7 +20,7 @@ Wähle in der [[Befehlspalette]] den Befehl **Aktiven Tab in neuem Fenster öffn
 
 **Tab:**
 
-Klicke mit der rechten Maustaste auf einen Tab und wähle **In neuem Fenster öffnen**. Alternativ kannst du **Weitere Optionen** ( ![[lucide-ellipsis-vertical.svg#icon]] ) in der oberen rechten Ecke des Editors auswählen und dann **In neuem Fenster öffnen** wählen.
+Klicke mit der rechten Maustaste auf einen Tab und wähle **In neuem Fenster öffnen**. Alternativ kannst du **Weitere Optionen** ![[lucide-ellipsis-vertical.svg#icon]] in der oberen rechten Ecke des Editors auswählen und dann **In neuem Fenster öffnen** wählen.
 
 > [!tip] Du kannst auch mit der rechten Maustaste auf einen Link im Editor klicken und **In neuem Fenster öffnen** auswählen.
 

@@ -14,7 +14,7 @@ Modèles est un [[Modules principaux|module principal]] qui vous permet d'insér
 
 ## Définir votre dossier de modèles
 
-1. Dans le coin inférieur gauche, cliquez sur **[[Paramètres]]** ( ![[lucide-cog.svg#icon]] ).
+1. Dans le coin inférieur gauche, cliquez sur **[[Paramètres]]** ![[lucide-cog.svg#icon]].
 2. Sous **Modules principaux → Modèles → Emplacement du dossier de modèles**, entrez le dossier contenant vos modèles.
 
 ## Variables de modèle

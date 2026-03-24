@@ -7,7 +7,7 @@ Notas diarias es un [[Complementos principales|complemento principal]] que abre 
 
 Para abrir la nota diaria de hoy, puedes:
 
-- Hacer clic en **Abrir la nota de hoy** ( ![[lucide-calendar.svg#icon]] ) en la [[Menú de cinta|menú de cinta]].
+- Hacer clic en **Abrir la nota de hoy** ![[lucide-calendar.svg#icon]] en la [[Menú de cinta|menú de cinta]].
 - Ejecutar **Abrir la nota de hoy** desde la [[Paleta de comandos]].
 - [[Teclas de acceso rápido#Configurar atajos de teclado|Usar un atajo de teclado]] para el comando **Abrir la nota de hoy**.
 

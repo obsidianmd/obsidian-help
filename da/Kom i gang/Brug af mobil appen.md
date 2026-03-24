@@ -16,7 +16,7 @@ Når du redigerer en note vil du lægge mærke til en række ikoner i bunden af 
 
 ### Tilpas mobil værktøjslinjen
 
-I redigeringstilstand kan du vælge **Konfigurer mobil værktøjslinen**  ( ![[lucide-wrench.svg#icon]] ) for at åbne indstillingerne.
+I redigeringstilstand kan du vælge **Konfigurer mobil værktøjslinen**  ![[lucide-wrench.svg#icon]] for at åbne indstillingerne.
 
 Alternativt kan du:
 
@@ -61,7 +61,7 @@ Med **Slå tastatur til/fra**  funktionen på værktøjslinjen kan du lukke vær
 
 ### Gå frem eller tilbage
 
-På navigationslinjen er de to første muligheder tilbage ( ![[lucide-chevron-left.svg#icon]] ) og frem ( ![[lucide-chevron-right.svg#icon]] ). Hvis en af mulighederne ikke er tilgængelig er den gråtonet og kan ikke vælges.
+På navigationslinjen er de to første muligheder tilbage ![[lucide-chevron-left.svg#icon]] og frem ![[lucide-chevron-right.svg#icon]]. Hvis en af mulighederne ikke er tilgængelig er den gråtonet og kan ikke vælges.
 
 ### Opret eller find note
 
@@ -76,4 +76,4 @@ Når du trykker på den, er det muligt at skifte til en af de andre faner. Du ka
 
 ## Båndlinje funktioner
 
-Mobilappen har ingen [[Båndmenu]]. Båndmenuens funktioner er tilgængelig, når du trykker på *Åbn menu** ( ![[lucide-menu.svg#icon]] ), som er den sidste mulighed på navigationsmenuen.
+Mobilappen har ingen [[Båndmenu]]. Båndmenuens funktioner er tilgængelig, når du trykker på *Åbn menu** ![[lucide-menu.svg#icon]], som er den sidste mulighed på navigationsmenuen.

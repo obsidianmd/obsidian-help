@@ -17,7 +17,7 @@ Questa pagina spiega come gestire i contenuti pubblicati. Per scoprire come pers
 
 ## Pubblicare le note
 
-1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]).
+1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]].
 2. Nella finestra di dialogo **Pubblica modifiche**, seleziona **NUOVO** per visualizzare tutte le note non pubblicate.
 3. Seleziona le note che desideri pubblicare.
 4. Seleziona **Pubblica**.
@@ -26,14 +26,14 @@ Questa pagina spiega come gestire i contenuti pubblicati. Per scoprire come pers
 
 Le note rimangono nella cassaforte locale anche dopo aver annullato la loro pubblicazione.
 
-1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]).
+1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]].
 2. Nella finestra di dialogo **Pubblica modifiche**, seleziona **PUBBLICATO** per visualizzare tutte le note pubblicate.
 3. Seleziona le note di cui desideri annullare la pubblicazione.
 4. Seleziona **Pubblica**.
 
 ## Aggiornare una nota pubblicata
 
-1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]).
+1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]].
 2. Nella finestra di dialogo **Pubblica modifiche**, seleziona **MODIFICHE** per visualizzare tutte le note modificate dall'ultima pubblicazione.
 3. Seleziona le note che desideri aggiornare.
 4. Seleziona **Pubblica**.
@@ -56,8 +56,8 @@ Imposta `publish: true` nelle [[Properties|Proprietà]] di una nota per includer
 
 Puoi anche selezionare automaticamente note e immagini collegate in cartelle specifiche aggiungendole come cartelle **Incluse**:
 
-1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]) oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Publish changes...**.
-2. Seleziona l'icona **Gestisci filtri di pubblicazione** (![[lucide-filter.svg#icon]]).
+1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]] oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Publish changes...**.
+2. Seleziona l'icona **Gestisci filtri di pubblicazione** ![[lucide-filter.svg#icon]].
 3. Nella sezione **Cartelle incluse**, seleziona **Gestisci**.
 4. Scegli le cartelle che desideri includere dal suggeritore.
 5. La cartella viene aggiunta all'elenco delle incluse.
@@ -69,8 +69,8 @@ Per ignorare una nota in Obsidian Publish, imposta `publish: false` nelle [[Prop
 
 Puoi anche ignorare automaticamente note e immagini in cartelle specifiche aggiungendole come cartelle **Escluse**:
 
-1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]) oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Publish changes...**.
-2. Seleziona l'icona **Gestisci filtri di pubblicazione** (![[lucide-filter.svg#icon]]).
+1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]] oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Publish changes...**.
+2. Seleziona l'icona **Gestisci filtri di pubblicazione** ![[lucide-filter.svg#icon]].
 3. Nella sezione **Cartelle escluse**, seleziona **Gestisci**.
 4. Scegli le cartelle che desideri escludere dal suggeritore.
 5. La cartella viene aggiunta all'elenco delle escluse.

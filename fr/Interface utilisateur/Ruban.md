@@ -10,15 +10,15 @@ Le ruban fonctionne comme un espace pour les commandes courantes dans Obsidian.
 
 Sur ordinateur, il est situé dans la [[Barre latérale#Ouvrir les barres latérales masquées|barre latérale gauche]] et reste visible même lorsque la barre latérale gauche est fermée.
 
-Sur mobile, vous pouvez accéder aux [[Application mobile#Actions du ruban|actions du ruban]] en appuyant sur l'**option Menu** ( ![[lucide-menu.svg#icon]] ) dans le coin inférieur droit de l'application lorsque vous n'êtes pas en train de modifier une note.
+Sur mobile, vous pouvez accéder aux [[Application mobile#Actions du ruban|actions du ruban]] en appuyant sur l'**option Menu** ![[lucide-menu.svg#icon]] dans le coin inférieur droit de l'application lorsque vous n'êtes pas en train de modifier une note.
 
 ## Actions
 
 Chaque action est représentée par une icône dans le ruban. Le survol de ces icônes affiche une infobulle, tandis que leur sélection active l'action associée. Sur mobile, vous pouvez appuyer sur ces icônes pour les activer.
 
-1. Ouvrir le **[[Gérer les coffres|Sélecteur de coffre]]** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
-2. Accéder à l'**aide** ( ![[lucide-help-circle.svg#icon]] ).
-3. Ouvrir les **[[Paramètres]]** ( ![[lucide-settings.svg#icon]] ).
+1. Ouvrir le **[[Gérer les coffres|Sélecteur de coffre]]** ![[obsidian-icon-vault-switcher.svg#icon]].
+2. Accéder à l'**aide** ![[lucide-help-circle.svg#icon]].
+3. Ouvrir les **[[Paramètres]]** ![[lucide-settings.svg#icon]].
 
 Dans la version mobile, vous pouvez configurer une action d'accès rapide sur le ruban. Pour plus d'informations, consultez la [[#Mobile|section mobile]] et [[Application mobile]].
 
@@ -56,7 +56,7 @@ Si vous avez masqué le ruban et souhaitez l'afficher à nouveau :
 
 Dans la version mobile d'Obsidian, vous pouvez effectuer des actions d'accès rapide, réorganiser les éléments et personnaliser le menu du ruban. Pour accéder à ces personnalisations, suivez ces étapes :
 
-1. Ouvrez les **[[Paramètres]]** d'Obsidian ( ![[lucide-cog.svg#icon]] ).
+1. Ouvrez les **[[Paramètres]]** d'Obsidian ![[lucide-cog.svg#icon]].
 2. Accédez à la section **Apparence**.
 3. Faites défiler jusqu'aux options **Avancé**.
 4. Sélectionnez le bouton **Gérer** sous l'élément **Menu du ruban**.
@@ -72,8 +72,8 @@ Par défaut, l'option d'accès rapide est définie sur « Ouvrir le menu du ruba
 
 #### Réorganisation et visibilité
 
-Pour modifier l'ordre des éléments dans le menu du ruban, appuyez longuement sur le bouton **glisser-déposer** ( ![[lucide-menu.svg#icon]] ) et déplacez l'élément sélectionné vers le haut ou vers le bas.
+Pour modifier l'ordre des éléments dans le menu du ruban, appuyez longuement sur le bouton **glisser-déposer** ![[lucide-menu.svg#icon]] et déplacez l'élément sélectionné vers le haut ou vers le bas.
 
-Vous pouvez afficher ou masquer des éléments dans le menu du ruban en utilisant les boutons rouge **supprimer** ( ![[lucide-minus-circle.svg#icon]] ) ou vert **ajouter** ( ![[lucide-plus-circle.svg#icon]] ) pour basculer leur visibilité.
+Vous pouvez afficher ou masquer des éléments dans le menu du ruban en utilisant les boutons rouge **supprimer** ![[lucide-minus-circle.svg#icon]] ou vert **ajouter** ![[lucide-plus-circle.svg#icon]] pour basculer leur visibilité.
 
  ![[ribbon-rearrange-visibility.jpeg#interface]]

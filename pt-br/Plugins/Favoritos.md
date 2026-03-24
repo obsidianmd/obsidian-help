@@ -22,7 +22,7 @@ Você pode reordenar favoritos selecionando-os e arrastando-os.
 Você pode marcar itens como favoritos e organizá-los em _grupos de marcadores_ para encontrá-los mais facilmente. Você pode expandir e recolher grupos de marcadores para mostrar ou ocultar os favoritos dentro deles.
 
 > [!todo]- Mostrar marcadores
-> Você pode encontrar seus itens marcados clicando em **Favoritos** ( ![[lucide-bookmark.svg#icon]] ) na barra lateral esquerda.
+> Você pode encontrar seus itens marcados clicando em **Favoritos** ![[lucide-bookmark.svg#icon]] na barra lateral esquerda.
 >
 > Ou abra a aba de Favoritos executando **Favoritos: Mostrar marcadores** a partir da [[Paleta de comandos]].
 
@@ -36,7 +36,7 @@ Quando você marca um item como favorito, **Adicionar marcador** se torna **Edit
 >
 > **Favoritos**:
 >
-> - Selecione **Marcar a aba ativa como favorita** ( ![[lucide-bookmark-plus.svg#icon]] ) no topo da aba de Favoritos.
+> - Selecione **Marcar a aba ativa como favorita** ![[lucide-bookmark-plus.svg#icon]] no topo da aba de Favoritos.
 >
 > **Explorador de arquivos**:
 >
@@ -104,7 +104,7 @@ Você também pode remover um marcador a partir do diálogo **Editar marcador**.
 
 **Favoritos**:
 
-- Selecione **Novo grupo de marcadores** ( ![[lucide-folder-plus.svg#icon]] ) no topo da aba de Favoritos.
+- Selecione **Novo grupo de marcadores** ![[lucide-folder-plus.svg#icon]] no topo da aba de Favoritos.
 
 Para mover um marcador para outro grupo, selecione-o e arraste-o para o grupo para o qual deseja movê-lo.
 

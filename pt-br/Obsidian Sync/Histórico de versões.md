@@ -35,7 +35,7 @@ Quando você ativa o plugin nativo [[Introdução ao Obsidian Sync|Sync]], o His
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Abra a **Paleta de comandos**. ( ![[lucide-terminal.svg#icon]] )
+1. Abra a **Paleta de comandos**. ![[lucide-terminal.svg#icon]]
 2. Digite "Sync".
 3. Selecione a opção "Sync: Mostrar o histórico do Sync".
 
@@ -43,8 +43,8 @@ O Histórico do Sync aparecerá na [[Barra lateral|barra lateral direita]].
 
 **Celular** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Abra o [[Faixa de opções|Menu lateral]] ( ![[lucide-menu.svg#icon]] ).
-2. Abra a **Paleta de comandos**. ( ![[lucide-terminal.svg#icon]] )
+1. Abra o [[Faixa de opções|Menu lateral]] ![[lucide-menu.svg#icon]].
+2. Abra a **Paleta de comandos**. ![[lucide-terminal.svg#icon]]
 3. Digite "Sync".
 4. Selecione a opção "Sync: Mostrar o histórico do Sync".
 

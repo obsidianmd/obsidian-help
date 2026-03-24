@@ -13,7 +13,7 @@ El Conversor de formato es un [[Complementos principales|complemento principal]]
 
 Para convertir todas las notas en tu bóveda:
 
-1. En la [[Paleta de comandos]], selecciona **Abrir el importador de Markdown**. También se puede encontrar en la [[Menú de cinta]] con el icono **Abrir el importador de Markdown** ( ![[lucide-binary.svg#icon]] ).
+1. En la [[Paleta de comandos]], selecciona **Abrir el importador de Markdown**. También se puede encontrar en la [[Menú de cinta]] con el icono **Abrir el importador de Markdown** ![[lucide-binary.svg#icon]].
 2. Activa los formatos que deseas convertir.
 3. Haz clic en **Empezar la conversión**.
 

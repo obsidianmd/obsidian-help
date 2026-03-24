@@ -10,11 +10,11 @@ Die Einstellungen ermöglichen es dir, dein Obsidian-Erlebnis anzupassen. Konfig
 
 ### Desktop
 
-Wähle in der [[Seitenleiste#Versteckte Seitenleisten öffnen|linken Seitenleiste]] **[[Einstellungen]]** ( ![[lucide-cog.svg#icon]] ) aus. Du kannst die Einstellungen auch über die [[Befehlspalette]] öffnen.
+Wähle in der [[Seitenleiste#Versteckte Seitenleisten öffnen|linken Seitenleiste]] **[[Einstellungen]]** ![[lucide-cog.svg#icon]] aus. Du kannst die Einstellungen auch über die [[Befehlspalette]] öffnen.
 
 ### Mobil
 
-Wähle in der linken Seitenleiste **[[Einstellungen]]** ( ![[lucide-cog.svg#icon]] ) aus.
+Wähle in der linken Seitenleiste **[[Einstellungen]]** ![[lucide-cog.svg#icon]] aus.
 
 ## Aufbau der Einstellungen
 
@@ -71,7 +71,7 @@ Wenn du [Obsidian bei der Arbeit](<https://obsidian.md/blog/free-for-work/>) unt
 
 #### Benachrichtigen, wenn der Startvorgang ungewöhnlich lange dauert
 
-Wenn aktiviert, zeigt Obsidian eine Benachrichtigung an, wenn der Start ungewöhnlich langsam ist. Die Benachrichtigung enthält Diagnoseinformationen darüber, was die Verzögerung verursacht. Wähle das Timer-Symbol ( ![[lucide-timer.svg#icon]] ) neben dieser Einstellung, um [[Hilfe und Support#Startzeit überprüfen|deine Startzeit zu überprüfen]].
+Wenn aktiviert, zeigt Obsidian eine Benachrichtigung an, wenn der Start ungewöhnlich langsam ist. Die Benachrichtigung enthält Diagnoseinformationen darüber, was die Verzögerung verursacht. Wähle das Timer-Symbol ![[lucide-timer.svg#icon]] neben dieser Einstellung, um [[Hilfe und Support#Startzeit überprüfen|deine Startzeit zu überprüfen]].
 
 ## Editor
 
@@ -268,7 +268,7 @@ Wähle eine Akzentfarbe, die in der gesamten Anwendung verwendet werden soll. W�
 
 ### Themen
 
-Verwalte installierte [[Darstellung|Themen]] und durchsuche Community-Themen. Wähle **Verwalten**, um Themen anzuzeigen und zu installieren. Das Dropdown-Menü zeigt dein aktuell aktives Thema. Das Ordner-Symbol ( ![[lucide-folder-open.svg#icon]] ) öffnet den Themen-Ordner in deinem [[Konfigurationsordner]].
+Verwalte installierte [[Darstellung|Themen]] und durchsuche Community-Themen. Wähle **Verwalten**, um Themen anzuzeigen und zu installieren. Das Dropdown-Menü zeigt dein aktuell aktives Thema. Das Ordner-Symbol ![[lucide-folder-open.svg#icon]] öffnet den Themen-Ordner in deinem [[Konfigurationsordner]].
 
 ### Installierte Community-Themen
 
@@ -352,7 +352,7 @@ Aktiviert die Hardware-Beschleunigung, um Obsidian durch deine GPU flüssiger da
 
 ### CSS-Bausteine
 
-Verwalte und zeige [[CSS-Bausteine|CSS-Snippets]] an, die in deinem Vault gespeichert sind. CSS-Snippets werden in `/vault/.obsidian/snippets/` gespeichert. Wähle das Aktualisieren-Symbol, um Snippets neu zu laden, oder das Ordner-Symbol ( ![[lucide-folder-open.svg#icon]] ), um den Snippets-Ordner zu öffnen.
+Verwalte und zeige [[CSS-Bausteine|CSS-Snippets]] an, die in deinem Vault gespeichert sind. CSS-Snippets werden in `/vault/.obsidian/snippets/` gespeichert. Wähle das Aktualisieren-Symbol, um Snippets neu zu laden, oder das Ordner-Symbol ![[lucide-folder-open.svg#icon]], um den Snippets-Ordner zu öffnen.
 
 ## Tastenkürzel
 
@@ -364,7 +364,7 @@ Verwende die Suchleiste, um Befehle zu filtern, und wähle das Filter-Symbol, um
 
 [[Obsidian-Erweiterungen]] sind integrierte Erweiterungen, die mit Obsidian mitgeliefert werden. Jede Erweiterung fügt der App spezifische Funktionalität hinzu.
 
-Um eine integrierte Erweiterung zu aktivieren oder zu deaktivieren, wähle den Schalter neben dem Erweiterungsnamen. Wähle das Plus-Symbol ( ![[lucide-plus-circle.svg#icon]] ), um die [[Tastenkürzel|Tastenkürzel]] für die Erweiterung anzuzeigen. Wähle das Einstellungen-Symbol ( ![[lucide-settings.svg#icon]] ), um die Einstellungsseite der Erweiterung zu öffnen.
+Um eine integrierte Erweiterung zu aktivieren oder zu deaktivieren, wähle den Schalter neben dem Erweiterungsnamen. Wähle das Plus-Symbol ![[lucide-plus-circle.svg#icon]], um die [[Tastenkürzel|Tastenkürzel]] für die Erweiterung anzuzeigen. Wähle das Einstellungen-Symbol ![[lucide-settings.svg#icon]], um die Einstellungsseite der Erweiterung zu öffnen.
 
 Verwende die Suchleiste, um Erweiterungen nach Namen zu filtern.
 

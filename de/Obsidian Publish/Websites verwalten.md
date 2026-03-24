@@ -9,8 +9,8 @@ Eine Website ist eine Sammlung von Notizen, die von Obsidian Publish gehostet wi
 
 > [!note] Die Anzahl der Websites, die gleichzeitig betrieben werden können, wird durch das Obsidian Publish-Abonnement bestimmt. Bevor eine neue Website erstellt wird, sollte sichergestellt werden, dass das Abonnement dies erlaubt.
 
-1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
-2. Falls bereits eine Website existiert, klicke auf **Seite wechseln** ( ![[lucide-repeat.svg#icon]] ).
+1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
+2. Falls bereits eine Website existiert, klicke auf **Seite wechseln** ![[lucide-repeat.svg#icon]].
 3. Gib unter **Website-ID** den gewünschten Pfad für die Website ein. Beispielsweise ist eine Website mit der ID `my-amazing-site` unter publish.obsidian.md/my-amazing-site verfügbar.
 4. Klicke auf **Erstellen**.
 
@@ -18,29 +18,29 @@ Eine Website ist eine Sammlung von Notizen, die von Obsidian Publish gehostet wi
 
 > [!note] Notizen bleiben im Vault erhalten, auch wenn eine Website gelöscht wird.
 
-1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
-2. Klicke auf **Seite wechseln** ( ![[lucide-repeat.svg#icon]] ).
-3. Klicke auf **Website löschen** ( ![[lucide-x.svg#icon]] ) rechts neben der Website, die gelöscht werden soll.
+1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
+2. Klicke auf **Seite wechseln** ![[lucide-repeat.svg#icon]].
+3. Klicke auf **Website löschen** ![[lucide-x.svg#icon]] rechts neben der Website, die gelöscht werden soll.
 4. Klicke zur Bestätigung auf **Löschen**.
 
 ## Zwischen Websites wechseln
 
-1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
-2. Klicke auf **Seite wechseln** ( ![[lucide-repeat.svg#icon]] ).
+1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
+2. Klicke auf **Seite wechseln** ![[lucide-repeat.svg#icon]].
 3. Klicke auf **Auswählen** rechts neben der Website, zu der gewechselt werden soll.
 
 ## Die Website-ID ändern
 
-1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
-2. Klicke auf **Seite wechseln** ( ![[lucide-repeat.svg#icon]] ).
-3. Klicke auf **Website-ID bearbeiten** ( ![[lucide-edit-3.svg#icon]] ) rechts neben der Website, die bearbeitet werden soll.
+1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
+2. Klicke auf **Seite wechseln** ![[lucide-repeat.svg#icon]].
+3. Klicke auf **Website-ID bearbeiten** ![[lucide-edit-3.svg#icon]] rechts neben der Website, die bearbeitet werden soll.
 4. Gib unter **Website-ID** die neue ID für die Website ein.
 5. Klicke auf **Ändern**.
 
 ## Website-Einstellungen anzeigen
 
-1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
-2. Klicke im Dialog **Änderungen veröffentlichen** auf **Seiteneinstellungen ändern** ( ![[lucide-cog.svg#icon]] ).
+1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
+2. Klicke im Dialog **Änderungen veröffentlichen** auf **Seiteneinstellungen ändern** ![[lucide-cog.svg#icon]].
 
 ## Website-Einstellungen
 

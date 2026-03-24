@@ -21,7 +21,7 @@ Per invitare un utente a condividere un caveau remoto:
 1. Apri le **[[Impostazioni]]**.
 2. Nel menu laterale, seleziona **Sync**.
 3. Accanto a **Caveau remoto**, seleziona **Gestisci**.
-4. Accanto al caveau remoto che desideri condividere, seleziona **Gestisci condivisione** ( ![[lucide-users.svg#icon]] ).
+4. Accanto al caveau remoto che desideri condividere, seleziona **Gestisci condivisione** ![[lucide-users.svg#icon]].
 5. In **Invita utente**, inserisci l'email dell'utente che desideri invitare.
 6. Seleziona **Aggiungi**.
 
@@ -30,7 +30,7 @@ Per invitare un utente a condividere un caveau remoto:
 1. Apri le **[[Impostazioni]]**.
 2. Nel menu laterale, seleziona **Sync**.
 3. Accanto a **Caveau remoto**, seleziona **Gestisci**.
-4. Accanto all'utente a cui desideri rimuovere l'accesso, seleziona **Rimuovi utente** ( ![[lucide-x.svg#icon]] ).
+4. Accanto all'utente a cui desideri rimuovere l'accesso, seleziona **Rimuovi utente** ![[lucide-x.svg#icon]].
 
 ## Collaborare con il tuo team
 

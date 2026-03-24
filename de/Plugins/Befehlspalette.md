@@ -5,7 +5,7 @@ Die Befehlspalette als [[Obsidian-Erweiterungen|Erweiterung]] ermöglicht es, je
 
 Um einen Befehl über die Befehlspalette auszuführen:
 
-1. Drücke `Strg+P` (oder `Cmd+P` unter macOS), um die Befehlspalette zu öffnen. Du kannst sie auch über die [[Menüband|Werkzeugleiste]] mit dem Befehlspaletten-Symbol ( ![[lucide-terminal.svg#icon]] ) öffnen.
+1. Drücke `Strg+P` (oder `Cmd+P` unter macOS), um die Befehlspalette zu öffnen. Du kannst sie auch über die [[Menüband|Werkzeugleiste]] mit dem Befehlspaletten-Symbol ![[lucide-terminal.svg#icon]] öffnen.
 2. Gib den Namen des Befehls ein, den du ausführen möchtest.
 3. Navigiere mit den Pfeiltasten zum gewünschten Befehl.
 4. Drücke `Enter`.

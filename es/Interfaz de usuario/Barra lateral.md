@@ -12,14 +12,14 @@ En escritorio y tabletas más grandes, la barra lateral izquierda incluye la [[M
 
 ### Escritorio y tabletas más grandes
 
-En escritorio y tabletas más grandes, abre una barra lateral contraída seleccionando el icono de expandir izquierda ( ![[obsidian-icon-side-bar-left.svg#icon]] ) o expandir derecha ( ![[obsidian-icon-side-bar-right.svg#icon]] ).
+En escritorio y tabletas más grandes, abre una barra lateral contraída seleccionando el icono de expandir izquierda ![[obsidian-icon-side-bar-left.svg#icon]] o expandir derecha ![[obsidian-icon-side-bar-right.svg#icon]].
 
 ### Móvil y tabletas más pequeñas
 
 En móvil y tabletas más pequeñas, puedes abrir las barras laterales ocultas de las siguientes maneras:
 
 - Deslizar hacia la izquierda o la derecha
-- Seleccionar el icono de expandir izquierda ( ![[obsidian-icon-side-bar-left.svg#icon]] ) (solo barra lateral izquierda)
+- Seleccionar el icono de expandir izquierda ![[obsidian-icon-side-bar-left.svg#icon]] (solo barra lateral izquierda)
 - Usar las opciones *Alternar barra lateral izquierda* o *Alternar barra lateral derecha* de la [[Paleta de comandos]].
 
 ## Pestañas

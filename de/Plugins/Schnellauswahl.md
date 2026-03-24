@@ -8,7 +8,7 @@ Die Schnellauswahl ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], 
 
 Es gibt mehrere Möglichkeiten, die Schnellauswahl zu öffnen, wenn sie aktiviert ist:
 - Drücke `Strg+O` (oder `Cmd+O` unter macOS), um die Schnellauswahl zu öffnen;
-- Klicke in der Werkzeugleiste auf **Schnellauswahl öffnen** ( ![[lucide-file-search.svg#icon]] );
+- Klicke in der Werkzeugleiste auf **Schnellauswahl öffnen** ![[lucide-file-search.svg#icon]];
 - Tippe auf Mobilgeräten, wenn du keine Notiz bearbeitest, auf das Plus-Symbol unten in der Mitte der App.
 
 ## Eine Notiz mit der Schnellauswahl öffnen

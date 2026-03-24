@@ -8,7 +8,7 @@ localized: '2026-03-18'
 ---
 Liens sortants est un [[Modules principaux|module principal]] qui affiche en un coup d'œil les liens depuis la note active, ainsi que les liens potentiels à créer. Il est similaire au module [[Rétroliens]], qui affiche quant à lui les liens _entrants_ vers la note active.
 
-L'onglet Liens sortants ( ![[obsidian-icon-links-going-out.svg#icon]] ) est disponible dans la barre latérale droite et contient les sections suivantes :
+L'onglet Liens sortants ![[obsidian-icon-links-going-out.svg#icon]] est disponible dans la barre latérale droite et contient les sections suivantes :
 
 - **Liens** liste tous les liens dans la note active. Cliquez sur un lien pour ouvrir la note liée.
 - **Mentions non liées** liste tout texte dans la note active qui correspond au nom ou à l'[[Alias|alias]] d'une autre note dans votre coffre. Les mentions non liées vous aident à découvrir des liens dont vous n'aviez pas connaissance.

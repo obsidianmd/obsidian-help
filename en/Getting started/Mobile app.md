@@ -30,7 +30,7 @@ When editing a note, you will notice a row of icons at the bottom of the app. Th
 
 ### Customize mobile toolbar
 
-In the mobile toolbar, tap **Configure mobile toolbar** ( ![[lucide-wrench.svg#icon]] )  to open the interface to customize it.
+In the mobile toolbar, tap **Configure mobile toolbar** ![[lucide-wrench.svg#icon]]  to open the interface to customize it.
 
 Alternatively, you can do it in Settings.
 
@@ -75,7 +75,7 @@ With the **Toggle keyboard** toolbar option, you can close the mobile toolbar an
 
 ### Go back or forward
 
-On the navigation bar, the first two options helps you go back ( ![[lucide-chevron-left.svg#icon]] ) or forward ( ![[lucide-chevron-right.svg#icon]] ). If one of the options is not available, the icon is greyed out.
+On the navigation bar, the first two options helps you go back ![[lucide-chevron-left.svg#icon]] or forward ![[lucide-chevron-right.svg#icon]]. If one of the options is not available, the icon is greyed out.
 
 ### Create or find note
 
@@ -89,7 +89,7 @@ When you tap it, you’ll be able to switch to any open tab. You can also open a
 
 ### Ribbon actions
 
-The mobile app has no [[Ribbon]]. Instead, the ribbon actions will be available when you tap **Open menu** ( ![[lucide-menu.svg#icon]] ), the last option on the navigation bar.
+The mobile app has no [[Ribbon]]. Instead, the ribbon actions will be available when you tap **Open menu** ![[lucide-menu.svg#icon]], the last option on the navigation bar.
 
 ### Sidebars
 

@@ -38,7 +38,7 @@ Il propose les options suivantes :
 
 ## Afficher les liens retour d'une note
 
-Pour afficher les liens retour de la note active, cliquez sur l'onglet **Rétroliens** ( ![[obsidian-icon-links-coming-in.svg#icon]] ) dans la barre latérale droite.
+Pour afficher les liens retour de la note active, cliquez sur l'onglet **Rétroliens** ![[obsidian-icon-links-coming-in.svg#icon]] dans la barre latérale droite.
 
 > [!note] Note
 > Si vous ne voyez pas l'onglet Rétroliens, vous pouvez le rendre visible en ouvrant la [[Palette de commandes]] et en exécutant la commande **Rétroliens : Afficher les liens retour**.

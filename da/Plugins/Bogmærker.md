@@ -20,7 +20,7 @@ Du kan bogmærke information og organisere dem i _bogmærkegrupper_, så du nemm
 Du kan sammenfolde og udfolde _bogmærkegrupper_ for at skjule eller vise indholdet i dem.
 
 > [!todo]- Vis bogmærker
-> Du kan finde dine bogmærker ved at klikke på fanen **Bogmærker** ( ![[lucide-bookmark.svg#icon]] ) øverst i venstre sidepanel.
+> Du kan finde dine bogmærker ved at klikke på fanen **Bogmærker** ![[lucide-bookmark.svg#icon]] øverst i venstre sidepanel.
 >
 > Eller du kan åbne Bogmrærkefanen ved at anvende **Bogmærker: Vis bogmærker** kommandoen fra [[Kommandopaletten|kommandopaletten]].
 
@@ -34,7 +34,7 @@ Når du har bogmærket noget, vil **Tilføj bogmærke** blive til **Redigér bog
 >
 > **Bogmærker**:
 >
-> - Vælg **Bogmærk den aktive fane** ( ![[lucide-bookmark-plus.svg#icon]] ) i toppen af bogmærkefanen.
+> - Vælg **Bogmærk den aktive fane** ![[lucide-bookmark-plus.svg#icon]] i toppen af bogmærkefanen.
 >
 > **Stifinder**:
 >
@@ -90,7 +90,7 @@ Du kan også fjerne et bogmærke fra **Rediger bogmærke** dialogen.
 
 **Bogmærker**:
 
-- Vælg **Nu bogmærkegruppe** ( ![[lucide-folder-plus.svg#icon]] ) i toppen af bogmærkefanen.
+- Vælg **Nu bogmærkegruppe** ![[lucide-folder-plus.svg#icon]] i toppen af bogmærkefanen.
 
 Træk og slip et bogmærke fra en gruppe til en anden, for at flytte et bogmærke til en anden gruppe.
 

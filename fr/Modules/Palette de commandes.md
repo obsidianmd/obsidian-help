@@ -9,7 +9,7 @@ Le [[Modules principaux|module]] Palette de commandes vous permet d'exécuter n'
 
 Pour exécuter une commande depuis la palette de commandes :
 
-1. Appuyez sur `Ctrl+P` (ou `Cmd+P` sur macOS) pour ouvrir la palette de commandes. Vous pouvez également l'ouvrir depuis le [[Ruban]] avec l'icône Palette de commandes ( ![[lucide-terminal.svg#icon]] ).
+1. Appuyez sur `Ctrl+P` (ou `Cmd+P` sur macOS) pour ouvrir la palette de commandes. Vous pouvez également l'ouvrir depuis le [[Ruban]] avec l'icône Palette de commandes ![[lucide-terminal.svg#icon]].
 2. Tapez le nom de la commande que vous souhaitez exécuter.
 3. Naviguez jusqu'à la commande à l'aide des touches fléchées.
 4. Appuyez sur `Entrée`.

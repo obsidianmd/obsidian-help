@@ -193,7 +193,7 @@ Inkluder ikoner og billeder når det er nemmere at forklare noget, som er svært
 
 [Lucide](https://lucide.dev/icons/) og brugerdefinerede Obsidian ikoner kan bruges sideløbende med detaljerede elementer for give en feature bedre visuel repræsentation.
 
-**Eksempel:** In the ribbon on the left, select **Create new canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) to create a canvas in the same folder as the active file.
+**Eksempel:** In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
 
 **Guidelines for Ikoner**
 
@@ -212,9 +212,9 @@ Inkluder ikoner og billeder når det er nemmere at forklare noget, som er svært
 >```
 
 - Brug `ikon`-ankeret i integrerede billeder til at justere afstanden omkring ikonet, så det justeres pænt i forhold til teksten i nærheden
-- Ikoner skal være angives i paranteser. ( ![[lucide-cog.svg#icon]] )
+- Ikoner skal være angives i paranteser. ![[lucide-cog.svg#icon]]
 
-**Eksempel**: `( ![[lucide-cog.svg#icon]] )`
+**Eksempel**: `![[lucide-cog.svg#icon]]`
 
 ### Billed anker tags
 
@@ -229,7 +229,7 @@ Det er muligt at angive billed anker tags for at tilføje ændringer til indlejr
 
 Ikon anker tagget sikrer korrekt vertikal justering for ikoner, der benyttes til at indikere brugergrænseflade elementer.
 
-Det første menu ikon anvender anker tagget ( ![[lucide-menu.svg#icon]] ), mens det andet menu ikon ( ![[lucide-menu.svg]] ) ikke gør det.
+Det første menu ikon anvender anker tagget ![[lucide-menu.svg#icon]], mens det andet menu ikon ( ![[lucide-menu.svg]] ) ikke gør det.
 
 **Brugergrænseflade**
 

@@ -22,7 +22,7 @@ Nella [[Riquadro comandi]], selezionare **Apri pannello in una nuova finestra**.
 
 **Scheda:**
 
-Fare clic con il pulsante destro su una scheda e selezionare **Apri in nuova finestra**. In alternativa, selezionare **Altre opzioni** ( ![[lucide-ellipsis-vertical.svg#icon]] ) nell'angolo in alto a destra dell'editor, quindi scegliere **Apri in nuova finestra**.
+Fare clic con il pulsante destro su una scheda e selezionare **Apri in nuova finestra**. In alternativa, selezionare **Altre opzioni** ![[lucide-ellipsis-vertical.svg#icon]] nell'angolo in alto a destra dell'editor, quindi scegliere **Apri in nuova finestra**.
 
 > [!tip] È anche possibile fare clic con il pulsante destro su un collegamento nell'editor e selezionare **Apri in nuova finestra**.
 

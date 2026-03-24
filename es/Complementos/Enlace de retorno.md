@@ -38,7 +38,7 @@ Proporciona las siguientes opciones:
 
 ## Ver enlaces de retorno de una nota
 
-Para ver los enlaces de retorno de la nota activa, haz clic en la pestaña **Enlace de retorno** ( ![[obsidian-icon-links-coming-in.svg#icon]] ) en la barra lateral derecha.
+Para ver los enlaces de retorno de la nota activa, haz clic en la pestaña **Enlace de retorno** ![[obsidian-icon-links-coming-in.svg#icon]] en la barra lateral derecha.
 
 > [!note] Nota
 > Si no puedes ver la pestaña de Enlace de retorno, puedes hacerla visible abriendo la [[Paleta de comandos]] y ejecutando el comando **Enlace de retorno: Mostrar enlace de retorno**.

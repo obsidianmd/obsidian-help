@@ -10,7 +10,7 @@ Selezione rapida è un [[Plugin principali|plugin principale]] che permette di c
 
 Ci sono diversi modi per aprire la Selezione rapida, quando è abilitata:
 - Premi `Ctrl+O` (o `Cmd+O` su macOS) per aprire la Selezione rapida;
-- Nella barra degli strumenti, fai clic su **Apri selezione rapida** ( ![[lucide-file-search.svg#icon]] );
+- Nella barra degli strumenti, fai clic su **Apri selezione rapida** ![[lucide-file-search.svg#icon]];
 - Su mobile, quando non stai modificando una nota, tocca l'icona più al centro in basso dell'app.
 
 ## Aprire una nota con la Selezione rapida

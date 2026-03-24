@@ -20,7 +20,7 @@ Na [[Paleta de comandos]], selecione **Abrir painel atual em uma nova janela**.
 
 **Aba:**
 
-Clique com o botão direito em uma aba e selecione **Abrir em uma nova janela**. Alternativamente, selecione **Mais opções** ( ![[lucide-ellipsis-vertical.svg#icon]] ) no canto superior direito do editor e escolha **Abrir em uma nova janela**.
+Clique com o botão direito em uma aba e selecione **Abrir em uma nova janela**. Alternativamente, selecione **Mais opções** ![[lucide-ellipsis-vertical.svg#icon]] no canto superior direito do editor e escolha **Abrir em uma nova janela**.
 
 > [!tip] Você também pode clicar com o botão direito em um link no editor e selecionar **Abrir em uma nova janela**.
 

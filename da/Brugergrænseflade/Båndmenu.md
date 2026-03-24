@@ -8,15 +8,15 @@ Båndmenuen er det lodrette område helt til venstre i Obsdian og anvendes til a
 
 I desktopversionen af Obsidian er båndmenuen en del af det venstre [[Sidepanel]] og er altid synlig selv hvis venstre sidepanel er skjult.
 
-I mobilversionen af Obsidian kan du tilgå båndmenuen ved at tappe på **Menuen** ( ![[lucide-menu.svg#icon]] ) i nederste højre hjørne, når du ikke er ved at redigere en note.
+I mobilversionen af Obsidian kan du tilgå båndmenuen ved at tappe på **Menuen** ![[lucide-menu.svg#icon]] i nederste højre hjørne, når du ikke er ved at redigere en note.
 
 ## Handlinger
 
 Hver handling er vist som et ikon i båndmenuen. Føres musemarkøren hen over et ikon vil et værktøjstip blive vist; Et klik eller tryk vil aktivere handlingen.
 
-1. Åbne en ny boks ( ![[obsidian-icon-vault-switcher.svg#icon]] )
-2. Tilgå hjælp (Åbner **Hjælpeboksen** på **Desktop versionen**)  ( ![[lucide-help-circle.svg#icon]] )
-3. Åbne indstillinger ( ![[lucide-settings.svg#icon]] )
+1. Åbne en ny boks ![[obsidian-icon-vault-switcher.svg#icon]]
+2. Tilgå hjælp (Åbner **Hjælpeboksen** på **Desktop versionen**)  ![[lucide-help-circle.svg#icon]]
+3. Åbne indstillinger ![[lucide-settings.svg#icon]]
 
 
 I mobilversionen kan båndmnuen beruges som en hurtig tilgang til en funktion, som kan konfigureres ved at følge instruktionerne i [[#På mobil|mobil afsnittet]] under tilpasning af båndmenuen.
@@ -38,7 +38,7 @@ I desktop versionen kan du tilpasse båndmenuen sådan:
 
 I mobilversionen kan du udføre hurtige handlinger, omarrangere handlinger, og tilpasse en handlings synlighed på båndmenuen. For at tilgå disse tilpasninger, skal du:
 
-1. Åben Obsidians **Indstilinger**  ( ![[lucide-cog.svg#icon]] )
+1. Åben Obsidians **Indstilinger**  ![[lucide-cog.svg#icon]]
 2. Navigere til **Udseende** sektionen
 3. Rul ned til **Grænseflade** sektionen
 4. Klik på **Administrer** knappen under **Båndmenu** punktet
@@ -55,8 +55,8 @@ Hvis du vælger en anden måde som hurtig tilgang:
 
 #### Ændringer i rækkefølgen og synlighed
 
-For at ændre rækkefølgen af handlinger i båndmenuen skal du trykke og holde **Træk og slip** ( ![[lucide-menu.svg#icon]] ) knappen og flytte den valgte handling op eller ned.
+For at ændre rækkefølgen af handlinger i båndmenuen skal du trykke og holde **Træk og slip** ![[lucide-menu.svg#icon]] knappen og flytte den valgte handling op eller ned.
 
-Du kan vise eller skjule handliner i beåndmenuen bed at anvende de røde **Fjern** ( ![[lucide-minus-circle.svg#icon]] ) knapper eller de grønne **Tilføj** ( ![[lucide-plus-circle.svg#icon]] ) knapper for at skifte mellem deres synlighed.
+Du kan vise eller skjule handliner i beåndmenuen bed at anvende de røde **Fjern** ![[lucide-minus-circle.svg#icon]] knapper eller de grønne **Tilføj** ![[lucide-plus-circle.svg#icon]] knapper for at skifte mellem deres synlighed.
 
 ![[ribbon-rearrange-visibility.jpeg#interface]]

@@ -8,7 +8,7 @@ aliases:
 ---
 Búsqueda es un [[Complementos principales|complemento principal]] que te ayuda a encontrar datos en tu bóveda de Obsidian mediante el uso de términos de búsqueda y operadores para acotar resultados.
 
-De forma predeterminada, puedes encontrar Búsqueda en la barra lateral izquierda ( ![[lucide-search.svg#icon]] ). También puedes abrir Búsqueda presionando `Ctrl+Shift+F` (Windows/Linux) o `Command+Shift+F` (macOS).
+De forma predeterminada, puedes encontrar Búsqueda en la barra lateral izquierda ![[lucide-search.svg#icon]]. También puedes abrir Búsqueda presionando `Ctrl+Shift+F` (Windows/Linux) o `Command+Shift+F` (macOS).
 
 - **Buscar texto seleccionado**: Si seleccionas texto en el editor y abres Búsqueda con el atajo de teclado, Búsqueda te muestra los resultados para el texto seleccionado.
 - **Buscar términos recientes**: Abre Búsqueda con un término vacío para ver la lista de términos de búsqueda recientes. Haz clic en cualquiera de ellos para usar el término de búsqueda de nuevo.
@@ -104,7 +104,7 @@ Tanto la propiedad como el valor admiten subconsultas, como paréntesis para agr
 
 ## Cambiar sensibilidad a mayúsculas y minúsculas
 
-De forma predeterminada, los términos de búsqueda no distinguen entre mayúsculas y minúsculas. Si deseas buscar con la capitalización exacta de tu término de búsqueda, selecciona **Coincidir mayúsculas y minúsculas** ( ![[obsidian-icon-upper-lowercase.svg#icon]] ) dentro de la barra de búsqueda.
+De forma predeterminada, los términos de búsqueda no distinguen entre mayúsculas y minúsculas. Si deseas buscar con la capitalización exacta de tu término de búsqueda, selecciona **Coincidir mayúsculas y minúsculas** ![[obsidian-icon-upper-lowercase.svg#icon]] dentro de la barra de búsqueda.
 
 Esta configuración puede alternarse. Si el icono de **Coincidir mayúsculas y minúsculas** está resaltado, significa que actualmente estás realizando una búsqueda sensible a mayúsculas y minúsculas.
 
@@ -146,7 +146,7 @@ Para más información sobre cómo escribir expresiones regulares, consulta la [
 
 ## Configurar ajustes de búsqueda
 
-Para configurar Búsqueda, selecciona **Ajustes de búsqueda** ( ![[lucide-sliders-horizontal.svg#icon]] ) en el lado derecho de la barra de búsqueda para ver las opciones.
+Para configurar Búsqueda, selecciona **Ajustes de búsqueda** ![[lucide-sliders-horizontal.svg#icon]] en el lado derecho de la barra de búsqueda para ver las opciones.
 
 | Ajuste                          | Descripción                                                                 |
 |---------------------------------|-----------------------------------------------------------------------------|

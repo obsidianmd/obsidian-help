@@ -46,8 +46,8 @@ Les étapes suivantes utilisent CloudFlare pour configurer un domaine personnali
 **Obsidian :**
 
 1. Ouvrez Obsidian sur votre ordinateur.
-2. Dans le [[Ruban]] à gauche, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
-3. Sous **Publier les modifications**, sélectionnez **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+2. Dans le [[Ruban]] à gauche, cliquez sur **Publier les modifications** ![[lucide-send.svg#icon]].
+3. Sous **Publier les modifications**, sélectionnez **Modifier les options du site** ![[lucide-cog.svg#icon]].
 4. À côté de **Custom domain**, sélectionnez **Configure**.
 5. Dans **Custom URL**, entrez l'URL de votre domaine ou sous-domaine. Veillez à ne pas mettre `www.` dans le champ de l'URL personnalisée.
 

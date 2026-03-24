@@ -16,7 +16,7 @@ Vous pouvez ouvrir autant d'onglets que vous le souhaitez dans Obsidian. Vous po
 
 ## Ouvrir un nouvel onglet
 
-En haut de la fenêtre de l'application, à côté du dernier onglet sur la droite, sélectionnez **Nouvel onglet** ( ![[lucide-plus.svg#icon]] ). Ou utilisez un raccourci clavier :
+En haut de la fenêtre de l'application, à côté du dernier onglet sur la droite, sélectionnez **Nouvel onglet** ![[lucide-plus.svg#icon]]. Ou utilisez un raccourci clavier :
 
 - **Windows et Linux :** `Ctrl+t`
 - **macOS :** `Cmd+t`
@@ -117,7 +117,7 @@ Pour les onglets de notes, vous pouvez utiliser les modules suivants comme vues 
 
 Pour ouvrir une vue liée pour un onglet de note :
 
-1. Sélectionnez **Plus d'options** ( ![[lucide-more-horizontal.svg#icon]] ) dans le coin supérieur droit de la note.
+1. Sélectionnez **Plus d'options** ![[lucide-more-horizontal.svg#icon]] dans le coin supérieur droit de la note.
 2. Sous **Ouvrir une vue liée**, sélectionnez la vue liée que vous souhaitez ouvrir.
 
 ## Enregistrer les dispositions

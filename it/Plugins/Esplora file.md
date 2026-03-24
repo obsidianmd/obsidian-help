@@ -19,7 +19,7 @@ Esplora file è un [[Plugin principali|plugin principale]] che consente di gesti
 
 Per creare una nuova nota nella posizione predefinita per le nuove note:
 
-1. Fare clic su **Nuova nota** ( ![[lucide-pen-line.svg#icon]] ) nella parte superiore dell'Esplora file.
+1. Fare clic su **Nuova nota** ![[lucide-pen-line.svg#icon]] nella parte superiore dell'Esplora file.
 2. Digitare il nome della nota e premere Invio.
 
 > [!tip]- Modificare la posizione predefinita
@@ -34,7 +34,7 @@ Per creare una nuova nota in una cartella specifica:
 
 Per creare una nuova cartella nella radice della cassaforte:
 
-1. Fare clic su **Nuova cartella** ( ![[lucide-folder-plus.svg#icon]] ) nella parte superiore dell'Esplora file.
+1. Fare clic su **Nuova cartella** ![[lucide-folder-plus.svg#icon]] nella parte superiore dell'Esplora file.
 2. Digitare il nome della cartella e premere Invio.
 
 Per creare una sottocartella:
@@ -46,7 +46,7 @@ Per creare una sottocartella:
 
 Per modificare l'ordinamento dei file:
 
-1.  Selezionare **Ordinamento** ( ![[lucide-arrow-up-narrow-wide.svg#icon]] ) nella parte superiore dell'Esplora file.
+1.  Selezionare **Ordinamento** ![[lucide-arrow-up-narrow-wide.svg#icon]] nella parte superiore dell'Esplora file.
 2. Scegliere come ordinare i file. È possibile ordinare in modo crescente o decrescente per nome del file, data modifica o data creazione.
 
 ## Rivelare automaticamente il file attivo
@@ -55,7 +55,7 @@ Quando si apre una nota, l'Esplora file può scorrere automaticamente fino a que
 
 Per attivare o disattivare la rivelazione automatica:
 
-- Selezionare **Rivela automaticamente il file attivo** ( ![[lucide-gallery-vertical.svg#icon]] ) nella parte superiore dell'Esplora file.
+- Selezionare **Rivela automaticamente il file attivo** ![[lucide-gallery-vertical.svg#icon]] nella parte superiore dell'Esplora file.
 
 Quando abilitato, l'Esplora file seguirà e rivelerà automaticamente la nota attualmente aperta.
 
@@ -65,11 +65,11 @@ Quando abilitato, l'Esplora file seguirà e rivelerà automaticamente la nota at
 
 Per espandere tutte le cartelle:
 
-- Selezionare **Espandi tutto** ( ![[lucide-chevrons-up-down.svg#icon]] ) nella parte superiore dell'Esplora file.
+- Selezionare **Espandi tutto** ![[lucide-chevrons-up-down.svg#icon]] nella parte superiore dell'Esplora file.
 
 Per comprimere tutte le cartelle:
 
-- Selezionare **Comprimi tutto** ( ![[lucide-chevrons-down-up.svg#icon]] ) nella parte superiore dell'Esplora file.
+- Selezionare **Comprimi tutto** ![[lucide-chevrons-down-up.svg#icon]] nella parte superiore dell'Esplora file.
 
 ## Eliminare un file o una cartella
 

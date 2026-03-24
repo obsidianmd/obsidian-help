@@ -13,7 +13,7 @@ O Conversor de formato é um [[Plugins nativos|plugin nativo]] que permite conve
 
 Para converter todas as notas no seu cofre:
 
-1. Na [[Paleta de comandos]], selecione **Abrir importador Markdown**. Isso também pode ser encontrado no [[Faixa de opções|Menu lateral]] com o ícone **Abrir importador Markdown** ( ![[lucide-binary.svg#icon]] ).
+1. Na [[Paleta de comandos]], selecione **Abrir importador Markdown**. Isso também pode ser encontrado no [[Faixa de opções|Menu lateral]] com o ícone **Abrir importador Markdown** ![[lucide-binary.svg#icon]].
 2. Ative os formatos que deseja converter.
 3. Clique em **Começar conversão**.
 

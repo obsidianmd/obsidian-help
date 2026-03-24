@@ -21,7 +21,7 @@ Pour inviter un utilisateur à partager un coffre distant :
 1. Ouvrez les **[[Paramètres]]**.
 2. Dans le menu latéral, sélectionnez **Sync**.
 3. À côté de **Coffre distant**, sélectionnez **Gérer**.
-4. À côté du coffre distant que vous souhaitez partager, sélectionnez **Gérer le partage** ( ![[lucide-users.svg#icon]] ).
+4. À côté du coffre distant que vous souhaitez partager, sélectionnez **Gérer le partage** ![[lucide-users.svg#icon]].
 5. Dans **Inviter un utilisateur**, saisissez l'adresse électronique de l'utilisateur que vous souhaitez inviter.
 6. Sélectionnez **Ajouter**.
 
@@ -30,7 +30,7 @@ Pour inviter un utilisateur à partager un coffre distant :
 1. Ouvrez les **[[Paramètres]]**.
 2. Dans le menu latéral, sélectionnez **Sync**.
 3. À côté de **Coffre distant**, sélectionnez **Gérer**.
-4. À côté de l'utilisateur dont vous souhaitez supprimer l'accès, sélectionnez **Supprimer l'utilisateur** ( ![[lucide-x.svg#icon]] ).
+4. À côté de l'utilisateur dont vous souhaitez supprimer l'accès, sélectionnez **Supprimer l'utilisateur** ![[lucide-x.svg#icon]].
 
 ## Collaborer avec votre équipe
 

@@ -22,7 +22,7 @@ I [[Kommandopaletten|kommandopaletten]] kan du vælge **Åbn nuværende panel i 
 
 **Faner:**
 
-Højreklik på en fane og vælg **Flyt til nyt vindue**. Alternativt kan du klikke på **Flere muligheder** ( ![[lucide-more-horizontal.svg#icon]] ) i det øverste højre hjørne af editoren og vælge **Flyt til nyt vindue**.
+Højreklik på en fane og vælg **Flyt til nyt vindue**. Alternativt kan du klikke på **Flere muligheder** ![[lucide-more-horizontal.svg#icon]] i det øverste højre hjørne af editoren og vælge **Flyt til nyt vindue**.
 
 > [!tip] Du kan også højreklikke på et link i editoren og vælge **Flyt til nyt vindue**.
 

@@ -15,7 +15,7 @@ O *Modo de visualização* exibe sua nota sem a sintaxe Markdown, oferecendo um 
 
 Para alternar para o *Modo de visualização*:
 
-- Clique no alternador de visualização ( ![[lucide-book-icon.svg#icon]] ) no canto superior direito do editor.
+- Clique no alternador de visualização ![[lucide-book-icon.svg#icon]] no canto superior direito do editor.
 - Ou clique no ícone interativo de status ( ![[lucide-edit-3.svg#icon]] ou ![[lucide-code-xml.svg#icon]] ) na barra de status e selecione **Leitura**.
 - Ou pressione `Ctrl+E` (`Cmd+E` no macOS).
 
@@ -39,7 +39,7 @@ A *Visualização ao vivo* mostra texto formatado em linha enquanto oculta a mai
 
 Para alternar para a *Visualização ao vivo*:
 
-- Clique no alternador de visualização ( ![[lucide-edit-3.svg#icon]] ) no canto superior direito do editor.
+- Clique no alternador de visualização ![[lucide-edit-3.svg#icon]] no canto superior direito do editor.
 - Ou clique no ícone interativo de status ( ![[lucide-book-icon.svg#icon]] ou ![[lucide-code-xml.svg#icon]] ) na barra de status e selecione **Visualização ao vivo**.
 - Ou pressione `Ctrl+E` (`Cmd+E` no macOS).
 - Ou use o [[Paleta de comandos|comando]] **Alternar modo de visualização**.
@@ -61,7 +61,7 @@ Para alternar para o *Modo de origem*:
 > 
 > Para alternar para o *Modo de origem*, agora adicionalmente você pode:
 > 
-> - Clicar no alternador de visualização ( ![[lucide-edit-3.svg#icon]] ) no canto superior direito da sua nota.
+> - Clicar no alternador de visualização ![[lucide-edit-3.svg#icon]] no canto superior direito da sua nota.
 > - Ou pressionar `Ctrl+E` (`Cmd+E` no macOS).
 > - Ou usar o [[Paleta de comandos|comando]] **Alternar modo de visualização**.
 

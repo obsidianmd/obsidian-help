@@ -18,10 +18,10 @@ Obsidian cerca i frammenti CSS all'interno della [[Cartella di configurazione|ca
 
 Per aggiungere un frammento CSS su **Desktop** ![[lucide-monitor-check.svg#icon]], segui questi passaggi:
 
-1. Apri le **[[Impostazioni]]** ( ![[lucide-settings.svg#icon]] ).
-2. In **Aspetto → Snippet CSS**, seleziona **Apri cartella snippet** ( ![[lucide-folder-open.svg#icon]] ).
+1. Apri le **[[Impostazioni]]** ![[lucide-settings.svg#icon]].
+2. In **Aspetto → Snippet CSS**, seleziona **Apri cartella snippet** ![[lucide-folder-open.svg#icon]].
 3. Nella cartella degli snippet, crea un file CSS contenente il tuo frammento.
-4. In Obsidian, sotto **Aspetto → Snippet CSS**, seleziona **Ricarica snippet** ( ![[lucide-refresh-cw.svg#icon]] ) per visualizzare il frammento nell'elenco.
+4. In Obsidian, sotto **Aspetto → Snippet CSS**, seleziona **Ricarica snippet** ![[lucide-refresh-cw.svg#icon]] per visualizzare il frammento nell'elenco.
 5. Abilita il frammento facendo clic sull'interruttore.
 
 Per aggiungere un frammento CSS su **Mobile/Tablet** ![[obsidian-icon-smartphone.svg#icon]], puoi seguire questi passaggi:
@@ -29,10 +29,10 @@ Per aggiungere un frammento CSS su **Mobile/Tablet** ![[obsidian-icon-smartphone
 1. Apri un gestore di file e trova la tua cassaforte. Puoi verificare la posizione della cassaforte in _Gestisci casseforti…_ toccando la tua cassaforte e guardando il percorso.
 2. Apri la [[Cartella di configurazione]] e crea una cartella chiamata `snippets` se non esiste.
 3. Aggiungi il tuo frammento CSS a questa cartella.
-4. Apri le **[[Impostazioni]]** di Obsidian ( ![[lucide-settings.svg#icon]] ).
+4. Apri le **[[Impostazioni]]** di Obsidian ![[lucide-settings.svg#icon]].
 5. Seleziona **Aspetto** sulla sinistra.
 6. Scorri verso il basso fino alla sezione **Snippet CSS**.
-7. Tocca **Ricarica snippet** (![[lucide-refresh-cw.svg#icon]]) per aggiornare l'elenco.
+7. Tocca **Ricarica snippet** ![[lucide-refresh-cw.svg#icon]] per aggiornare l'elenco.
 8. Tocca l'interruttore per abilitare il frammento.
 
 In alternativa, puoi

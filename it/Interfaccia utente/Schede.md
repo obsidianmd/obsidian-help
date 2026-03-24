@@ -15,7 +15,7 @@ Puoi aprire quante schede desideri in Obsidian. Puoi anche disporre le schede pe
 
 ## Aprire una nuova scheda
 
-Nella parte superiore della finestra dell'applicazione, accanto all'ultima scheda a destra, seleziona **Nuova scheda** ( ![[lucide-plus.svg#icon]] ). Oppure, usa una scorciatoia da tastiera:
+Nella parte superiore della finestra dell'applicazione, accanto all'ultima scheda a destra, seleziona **Nuova scheda** ![[lucide-plus.svg#icon]]. Oppure, usa una scorciatoia da tastiera:
 
 - **Windows e Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
@@ -116,7 +116,7 @@ Per le schede delle note, puoi usare i seguenti plugin come viste collegate:
 
 Per aprire una vista collegata per una scheda nota:
 
-1. Seleziona **Altre opzioni** ( ![[lucide-more-horizontal.svg#icon]] ) nell'angolo superiore destro della nota.
+1. Seleziona **Altre opzioni** ![[lucide-more-horizontal.svg#icon]] nell'angolo superiore destro della nota.
 2. Sotto **Apri vista collegata**, seleziona la vista collegata che desideri aprire.
 
 ## Salvare i layout

@@ -15,7 +15,7 @@ Der *Lesemodus* zeigt deine Notiz ohne Markdown-Syntax an und bietet ein saubere
 
 Um in den *Lesemodus* zu wechseln:
 
-- Klicke auf den Ansichtsumschalter ( ![[lucide-book-icon.svg#icon]] ) in der oberen rechten Ecke des Editors.
+- Klicke auf den Ansichtsumschalter ![[lucide-book-icon.svg#icon]] in der oberen rechten Ecke des Editors.
 - Oder klicke auf das interaktive Statussymbol ( ![[lucide-edit-3.svg#icon]] oder ![[lucide-code-xml.svg#icon]] ) in der Statusleiste und wähle **Lesemodus**.
 - Oder drücke `Strg+E` (`Cmd+E` unter macOS).
 
@@ -39,7 +39,7 @@ Die *Live-Vorschau* zeigt formatierten Text inline an und verbirgt dabei den Gro
 
 Um zur *Live-Vorschau* zu wechseln:
 
-- Klicke auf den Ansichtsumschalter ( ![[lucide-edit-3.svg#icon]] ) in der oberen rechten Ecke des Editors.
+- Klicke auf den Ansichtsumschalter ![[lucide-edit-3.svg#icon]] in der oberen rechten Ecke des Editors.
 - Oder klicke auf das interaktive Statussymbol ( ![[lucide-book-icon.svg#icon]] oder ![[lucide-code-xml.svg#icon]] ) in der Statusleiste und wähle **Live-Vorschau**.
 - Oder drücke `Strg+E` (`Cmd+E` unter macOS).
 - Oder verwende den [[Befehlspalette|Befehl]] **Editor/Vorschau Modus wechseln**.
@@ -61,7 +61,7 @@ Um zur *Quellcode-Ansicht* zu wechseln:
 > 
 > Um zur *Quellcode-Ansicht* zu wechseln, kannst du nun zusätzlich:
 > 
-> - Auf den Ansichtsumschalter ( ![[lucide-edit-3.svg#icon]] ) in der oberen rechten Ecke deiner Notiz klicken.
+> - Auf den Ansichtsumschalter ![[lucide-edit-3.svg#icon]] in der oberen rechten Ecke deiner Notiz klicken.
 > - Oder `Strg+E` (`Cmd+E` unter macOS) drücken.
 > - Oder den [[Befehlspalette|Befehl]] **Editor/Vorschau Modus wechseln** verwenden.
 

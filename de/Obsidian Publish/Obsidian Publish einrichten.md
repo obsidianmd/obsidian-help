@@ -35,7 +35,7 @@ Du kannst Publish über folgende Optionen aufrufen: die Befehlspalette, ein Tast
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Öffne die **Befehlspalette** ( ![[lucide-terminal.svg#icon]] ).
+1. Öffne die **Befehlspalette** ![[lucide-terminal.svg#icon]].
 2. Gib „Publish" ein.
 3. Wähle die Option **Publish: Änderungen veröffentlichen...**.
 
@@ -43,8 +43,8 @@ Das Fenster **Änderungen veröffentlichen** erscheint in einem neuen Pop-up.
 
 **Mobil** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Öffne die [[Menüband|Werkzeugleiste]] ( ![[lucide-menu.svg#icon]] ).
-2. Öffne die **Befehlspalette** ( ![[lucide-terminal.svg#icon]] ).
+1. Öffne die [[Menüband|Werkzeugleiste]] ![[lucide-menu.svg#icon]].
+2. Öffne die **Befehlspalette** ![[lucide-terminal.svg#icon]].
 3. Gib „Publish" ein.
 4. Wähle die Option **Publish: Änderungen veröffentlichen...**.
 
@@ -65,15 +65,15 @@ Du kannst Obsidian Publish auch über die [[Menüband|Werkzeugleiste]] aufrufen.
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Öffne die linke [[Seitenleiste]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Wähle das Symbol **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
+1. Öffne die linke [[Seitenleiste]] ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Wähle das Symbol **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
 
 Das Fenster **Änderungen veröffentlichen** erscheint in einem neuen Pop-up.
 
 **Mobil** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Öffne die [[Menüband|Werkzeugleiste]] ( ![[lucide-menu.svg#icon]] ).
-2. Wähle das Symbol **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
+1. Öffne die [[Menüband|Werkzeugleiste]] ![[lucide-menu.svg#icon]].
+2. Wähle das Symbol **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
 
 Das Menü **Änderungen veröffentlichen** erscheint als Einblendung von unten.
 
@@ -86,7 +86,7 @@ Das Menü **Änderungen veröffentlichen** erscheint als Einblendung von unten.
 ### Einen Website-Namen festlegen
 
 1. [[#Publish öffnen]]
-2. Wähle **Seiteneinstellungen ändern** ( ![[lucide-cog.svg#icon]] ).
+2. Wähle **Seiteneinstellungen ändern** ![[lucide-cog.svg#icon]].
 3. Gib unter **Name der Website** im Bereich **Allgemein** den Namen deiner Website ein.
 4. Wähle **Seiteneinstellungen speichern**.
 

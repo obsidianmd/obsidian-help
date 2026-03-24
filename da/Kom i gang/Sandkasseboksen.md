@@ -12,8 +12,8 @@ Du kan åbne sandkasseboksen på flere måder. I alle tilfælde åbner den som e
 
 **Venstre sidepanel**
 
-1. Folde **venstre sidepanel** ( ![[obsidian-icon-side-bar-left.svg#icon]] ) ud.
-2. Tryk på **Hjælp** ikonet ( ![[obsidian-icon-help.svg#icon]] ) ved siden af **Boks skifteren
+1. Folde **venstre sidepanel** ![[obsidian-icon-side-bar-left.svg#icon]] ud.
+2. Tryk på **Hjælp** ikonet ![[obsidian-icon-help.svg#icon]] ved siden af **Boks skifteren
 3. Tryk på **Åbn** knappen ved siden af **Sandkasseboks**
 
 **Kommandopaletten**

@@ -72,7 +72,7 @@ The **ribbon** functions as a container for frequently used action icons.
 
 In the desktop version, it's the vertical area situated on the far left. 
 
-In the mobile version, it's represented by a menu button ( ![[lucide-menu.svg#icon]] ) on the [[#status bar|status bar]].
+In the mobile version, it's represented by a menu button ![[lucide-menu.svg#icon]] on the [[#status bar|status bar]].
 
 ## Sidebar
 

@@ -9,7 +9,7 @@ Notes quotidiennes est un [[Modules principaux|module principal]] qui ouvre une 
 
 Pour ouvrir la note quotidienne du jour, vous pouvez :
 
-- Cliquer sur **Ouvrir la note quotidienne** ( ![[lucide-calendar.svg#icon]] ) dans le [[Ruban|ruban]].
+- Cliquer sur **Ouvrir la note quotidienne** ![[lucide-calendar.svg#icon]] dans le [[Ruban|ruban]].
 - Exécuter **Ouvrir la note quotidienne** depuis la [[Palette de commandes]].
 - [[Raccourcis clavier#Définir des raccourcis clavier|Utiliser un raccourci clavier]] pour la commande **Ouvrir la note quotidienne**.
 

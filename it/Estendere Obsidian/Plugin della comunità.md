@@ -56,23 +56,23 @@ Per aggiornare un singolo plugin:
 
 1. Apri **[[Settings|Impostazioni]]**.
 2. Nel menu laterale, seleziona **Plugin della comunità**.
-3. In **Plugin installati**, seleziona l'icona del cestino ( ![[lucide-trash-2.svg#icon]] ) accanto al plugin che desideri disinstallare.
+3. In **Plugin installati**, seleziona l'icona del cestino ![[lucide-trash-2.svg#icon]] accanto al plugin che desideri disinstallare.
 4. Seleziona **Disinstalla** per confermare.
 
 ## Gestisci i plugin installati
 
 In **[[Settings|Impostazioni]] → Plugin della comunità → Plugin installati**, ogni plugin ha diverse icone per la gestione:
 
-- **[[Settings|Impostazioni]]** ( ![[lucide-settings.svg#icon]] ) — Apri la pagina delle impostazioni del plugin se ha opzioni configurabili.
-- **[[Hotkeys|Tasti di scelta rapida]]** ( ![[lucide-plus-circle.svg#icon]] ) — Imposta scorciatoie da tastiera per i comandi del plugin.
-- **Finanziamento** ( ![[lucide-heart.svg#icon]] ) — Visualizza l'URL di finanziamento dell'autore del plugin per supportare il suo lavoro.
-- **Disinstalla** ( ![[lucide-trash-2.svg#icon]] ) — Rimuovi il plugin dalla tua cassaforte.
+- **[[Settings|Impostazioni]]** ![[lucide-settings.svg#icon]] — Apri la pagina delle impostazioni del plugin se ha opzioni configurabili.
+- **[[Hotkeys|Tasti di scelta rapida]]** ![[lucide-plus-circle.svg#icon]] — Imposta scorciatoie da tastiera per i comandi del plugin.
+- **Finanziamento** ![[lucide-heart.svg#icon]] — Visualizza l'URL di finanziamento dell'autore del plugin per supportare il suo lavoro.
+- **Disinstalla** ![[lucide-trash-2.svg#icon]] — Rimuovi il plugin dalla tua cassaforte.
 - **Interruttore** — Abilita o disabilita il plugin senza disinstallarlo.
 
 Puoi anche:
 
 - Selezionare l'icona **aggiorna** per ricaricare tutti i plugin.
-- Selezionare l'icona **cartella** ( ![[lucide-folder-open.svg#icon]] ) per aprire la cartella dei plugin nella tua [[Configuration folder|cartella di configurazione]].
+- Selezionare l'icona **cartella** ![[lucide-folder-open.svg#icon]] per aprire la cartella dei plugin nella tua [[Configuration folder|cartella di configurazione]].
 - Usare la **barra di ricerca** per filtrare i plugin per nome.
 
 ## Scopri di più

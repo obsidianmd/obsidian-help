@@ -14,7 +14,7 @@ Solo il proprietario del sito necessita di un abbonamento attivo per Obsidian Pu
 
 ## Aggiungere un collaboratore a un sito
 
-1. Nella [[Ribbon|barra degli strumenti]], seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]) oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Pubblica modifiche**
+1. Nella [[Ribbon|barra degli strumenti]], seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]] oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Pubblica modifiche**
 2. Nella finestra di dialogo **Pubblica modifiche**, fai clic su **Modifica le opzioni del sito** ![[lucide-cog.svg#icon]].
 3. Accanto a **Collaboratori sito**, seleziona **Gestisci**.
 4. In **Invita utente**, inserisci l'email del collaboratore.
@@ -22,10 +22,10 @@ Solo il proprietario del sito necessita di un abbonamento attivo per Obsidian Pu
 
 ## Rimuovere un collaboratore da un sito
 
-1. Nella [[Ribbon|barra degli strumenti]], seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]) oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Pubblica modifiche**
-2. Nella finestra di dialogo **Pubblica modifiche**, fai clic su **Modifica le opzioni del sito** ( ![[lucide-cog.svg#icon]] ).
+1. Nella [[Ribbon|barra degli strumenti]], seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]] oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Pubblica modifiche**
+2. Nella finestra di dialogo **Pubblica modifiche**, fai clic su **Modifica le opzioni del sito** ![[lucide-cog.svg#icon]].
 3. Accanto a **Collaboratori sito**, seleziona **Gestisci**.
-4. Accanto al collaboratore che vuoi rimuovere, seleziona **Rimuovi utente** ( ![[lucide-x.svg#icon]]).
+4. Accanto al collaboratore che vuoi rimuovere, seleziona **Rimuovi utente** ![[lucide-x.svg#icon]].
 
 ## Sincronizzare le modifiche tra collaboratori
 
@@ -33,7 +33,7 @@ Obsidian Publish non sincronizza automaticamente le modifiche pubblicate tra le 
 
 Per aggiornare una nota locale con le modifiche dal sito live:
 
-1. Nella [[Ribbon|barra degli strumenti]], seleziona **Pubblica modifiche** (![[lucide-send.svg#icon]]) oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Pubblica modifiche**
+1. Nella [[Ribbon|barra degli strumenti]], seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]] oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Pubblica modifiche**
 2. Fai clic con il tasto destro o premi a lungo sulla modifica che vuoi sincronizzare, quindi seleziona **Usa versione live**. **Questo sovrascriverà la nota nella tua cassaforte locale.**
 
 > [!tip] Ti consigliamo di utilizzare un altro strumento per sincronizzare le modifiche tra le cassaforti, come [[Introduction to Obsidian Sync|Obsidian Sync]] o [git](https://git-scm.com/).

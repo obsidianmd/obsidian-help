@@ -22,7 +22,7 @@ L'explorateur de fichiers est un [[Modules principaux|module principal]] qui vou
 
 Pour créer une nouvelle note à l'emplacement par défaut pour les nouvelles notes :
 
-1. Cliquez sur **Nouvelle note** ( ![[lucide-pen-line.svg#icon]] ) en haut de l'explorateur de fichiers.
+1. Cliquez sur **Nouvelle note** ![[lucide-pen-line.svg#icon]] en haut de l'explorateur de fichiers.
 2. Tapez le nom de la note, puis appuyez sur Entrée.
 
 > [!tip]- Modifier l'emplacement par défaut
@@ -37,7 +37,7 @@ Pour créer une nouvelle note dans un dossier spécifique :
 
 Pour créer un nouveau dossier à la racine de votre coffre :
 
-1. Cliquez sur **Nouveau dossier** ( ![[lucide-folder-plus.svg#icon]] ) en haut de l'explorateur de fichiers.
+1. Cliquez sur **Nouveau dossier** ![[lucide-folder-plus.svg#icon]] en haut de l'explorateur de fichiers.
 2. Tapez le nom du dossier, puis appuyez sur Entrée.
 
 Pour créer un sous-dossier :
@@ -49,7 +49,7 @@ Pour créer un sous-dossier :
 
 Pour modifier l'ordre de tri de vos fichiers :
 
-1.  Sélectionnez **Modifier l'ordre de tri** ( ![[lucide-arrow-up-narrow-wide.svg#icon]] ) en haut de l'explorateur de fichiers.
+1.  Sélectionnez **Modifier l'ordre de tri** ![[lucide-arrow-up-narrow-wide.svg#icon]] en haut de l'explorateur de fichiers.
 2. Choisissez comment vous souhaitez trier vos fichiers. Vous pouvez trier par ordre croissant ou décroissant selon le nom du fichier, la date de modification ou la date de création.
 
 ## Révéler automatiquement le fichier actif
@@ -58,7 +58,7 @@ Lorsque vous ouvrez une note, l'explorateur de fichiers peut automatiquement fai
 
 Pour activer ou désactiver la révélation automatique :
 
-- Sélectionnez **Révéler automatiquement le fichier actif** ( ![[lucide-gallery-vertical.svg#icon]] ) en haut de l'explorateur de fichiers.
+- Sélectionnez **Révéler automatiquement le fichier actif** ![[lucide-gallery-vertical.svg#icon]] en haut de l'explorateur de fichiers.
 
 Lorsque cette option est activée, l'explorateur de fichiers suivra et révélera automatiquement la note actuellement ouverte.
 
@@ -68,11 +68,11 @@ Vous pouvez déplier ou plier tous les dossiers de l'explorateur de fichiers en 
 
 Pour déplier tous les dossiers :
 
-- Sélectionnez **Tout déplier** ( ![[lucide-chevrons-up-down.svg#icon]] ) en haut de l'explorateur de fichiers.
+- Sélectionnez **Tout déplier** ![[lucide-chevrons-up-down.svg#icon]] en haut de l'explorateur de fichiers.
 
 Pour plier tous les dossiers :
 
-- Sélectionnez **Tout plier** ( ![[lucide-chevrons-down-up.svg#icon]] ) en haut de l'explorateur de fichiers.
+- Sélectionnez **Tout plier** ![[lucide-chevrons-down-up.svg#icon]] en haut de l'explorateur de fichiers.
 
 ## Supprimer un fichier ou un dossier
 

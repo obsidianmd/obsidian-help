@@ -15,8 +15,8 @@ Per un migliore controllo degli accessi al tuo sito Publish, applica una passwor
 
 ### Aggiungere una password del sito
 
-1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
-2. Nella finestra di dialogo **Pubblica modifiche**, fai clic su **Modifica le opzioni del sito** ( ![[lucide-cog.svg#icon]] ).
+1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ![[lucide-send.svg#icon]].
+2. Nella finestra di dialogo **Pubblica modifiche**, fai clic su **Modifica le opzioni del sito** ![[lucide-cog.svg#icon]].
 3. Sotto **Altre impostazioni**, accanto a **Password**, fai clic su **Gestisci**.
 4. Fai clic su **Nuova password**.
 5. In **Password**, inserisci una password per il tuo sito.
@@ -25,8 +25,8 @@ Per un migliore controllo degli accessi al tuo sito Publish, applica una passwor
 
 ### Rimuovere una password del sito
 
-1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
-2. Nella finestra di dialogo **Pubblica modifiche**, fai clic su **Modifica le opzioni del sito** ( ![[lucide-cog.svg#icon]] ).
+1. Nella barra degli strumenti, a sinistra della finestra dell'applicazione, fai clic su **Pubblica modifiche** ![[lucide-send.svg#icon]].
+2. Nella finestra di dialogo **Pubblica modifiche**, fai clic su **Modifica le opzioni del sito** ![[lucide-cog.svg#icon]].
 3. Sotto **Altre impostazioni**, accanto a **Password**, fai clic su **Gestisci**.
 5. Fai clic sull'icona a croce accanto alla password che desideri eliminare.
 

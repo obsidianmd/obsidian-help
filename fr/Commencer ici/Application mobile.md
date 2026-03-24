@@ -31,7 +31,7 @@ Lorsque vous éditez une note, vous remarquerez une rangée d'icônes en bas de 
 
 ### Personnaliser la barre d'outils mobile
 
-Dans la barre d'outils mobile, appuyez sur **Configurer la barre d'outils mobile** ( ![[lucide-wrench.svg#icon]] ) pour ouvrir l'interface de personnalisation.
+Dans la barre d'outils mobile, appuyez sur **Configurer la barre d'outils mobile** ![[lucide-wrench.svg#icon]] pour ouvrir l'interface de personnalisation.
 
 Vous pouvez également le faire dans les Paramètres.
 
@@ -76,7 +76,7 @@ Avec l'option **Basculer le clavier** de la barre d'outils, vous pouvez fermer l
 
 ### Revenir en arrière ou avancer
 
-Dans la barre de navigation, les deux premières options vous permettent de revenir en arrière ( ![[lucide-chevron-left.svg#icon]] ) ou d'avancer ( ![[lucide-chevron-right.svg#icon]] ). Si l'une des options n'est pas disponible, l'icône est grisée.
+Dans la barre de navigation, les deux premières options vous permettent de revenir en arrière ![[lucide-chevron-left.svg#icon]] ou d'avancer ![[lucide-chevron-right.svg#icon]]. Si l'une des options n'est pas disponible, l'icône est grisée.
 
 ### Créer ou trouver une note
 
@@ -90,7 +90,7 @@ Lorsque vous appuyez dessus, vous pouvez basculer vers n'importe quel onglet ouv
 
 ### Actions du ruban
 
-L'application mobile n'a pas de [[Ruban]]. À la place, les actions du ruban sont disponibles lorsque vous appuyez sur **Ouvrir le menu** ( ![[lucide-menu.svg#icon]] ), la dernière option de la barre de navigation.
+L'application mobile n'a pas de [[Ruban]]. À la place, les actions du ruban sont disponibles lorsque vous appuyez sur **Ouvrir le menu** ![[lucide-menu.svg#icon]], la dernière option de la barre de navigation.
 
 ### Barres latérales
 

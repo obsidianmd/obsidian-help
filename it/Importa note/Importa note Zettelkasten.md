@@ -11,7 +11,7 @@ Per aggiornare tutti i collegamenti `[[UID]]` nella tua cassaforte in modo che u
 
 1. Apri le **[[Impostazioni]]**.
 2. In **Plugin principali**, abilita **Strumento importazione Markdown** e chiudi la finestra delle Impostazioni.
-3. Nella barra degli strumenti, sul lato sinistro della finestra dell'app, seleziona **Apri strumento importazione Markdown** ( ![[lucide-binary.svg#icon]] ).
+3. Nella barra degli strumenti, sul lato sinistro della finestra dell'app, seleziona **Apri strumento importazione Markdown** ![[lucide-binary.svg#icon]].
 4. Abilita **Conversione collegamenti Zettelkasten**.
 5. Seleziona **Avvia conversione**. Questo convertirà tutte le note dell'intera cassaforte.
 

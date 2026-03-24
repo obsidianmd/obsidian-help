@@ -19,7 +19,7 @@ Para invitar a un usuario a compartir una bóveda remota:
 1. Abre **[[Configuración]]**.
 2. En el menú lateral, selecciona **Sync**.
 3. Junto a **Bóveda remota**, selecciona **Administrar**.
-4. Junto a la bóveda remota que deseas compartir, selecciona **Gestionar compartición** ( ![[lucide-users.svg#icon]] ).
+4. Junto a la bóveda remota que deseas compartir, selecciona **Gestionar compartición** ![[lucide-users.svg#icon]].
 5. En **Invitar usuario**, ingresa el correo electrónico del usuario que deseas invitar.
 6. Selecciona **Añadir**.
 
@@ -28,7 +28,7 @@ Para invitar a un usuario a compartir una bóveda remota:
 1. Abre **[[Configuración]]**.
 2. En el menú lateral, selecciona **Sync**.
 3. Junto a **Bóveda remota**, selecciona **Administrar**.
-4. Junto al usuario al que deseas eliminar el acceso, selecciona **Eliminar usuario** ( ![[lucide-x.svg#icon]] ).
+4. Junto al usuario al que deseas eliminar el acceso, selecciona **Eliminar usuario** ![[lucide-x.svg#icon]].
 
 ## Colaborar con tu equipo
 

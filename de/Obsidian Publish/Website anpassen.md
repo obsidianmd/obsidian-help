@@ -72,8 +72,8 @@ Innerhalb von Obsidian Publish hast du die Möglichkeit, die Reihenfolge und Anz
 
 #### Zugriff auf die Optionen zur Navigationsanpassung
 
-1. Wähle in der [[Menüband|Werkzeugleiste]] die Option **Änderungen veröffentlichen** (![[lucide-send.svg#icon]]) oder öffne die [[Befehlspalette]] und gib **Publish: Änderungen veröffentlichen...** ein.
-2. Wähle im Dialog **Änderungen veröffentlichen** die Option **Seiteneinstellungen ändern** ( ![[lucide-cog.svg#icon]] ).
+1. Wähle in der [[Menüband|Werkzeugleiste]] die Option **Änderungen veröffentlichen** ![[lucide-send.svg#icon]] oder öffne die [[Befehlspalette]] und gib **Publish: Änderungen veröffentlichen...** ein.
+2. Wähle im Dialog **Änderungen veröffentlichen** die Option **Seiteneinstellungen ändern** ![[lucide-cog.svg#icon]].
 3. Wähle unter **Komponenten-Einstellungen** neben **Navigation anpassen** die Schaltfläche **Verwalten**.
 
 Ein neues Pop-up-Fenster mit dem Titel **Navigation** erscheint über dem Fenster **Seiteneinstellungen ändern**.

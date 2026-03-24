@@ -12,8 +12,8 @@ Du kannst den Sandbox-Tresor auf verschiedene Weisen öffnen. In allen Fällen w
 
 **Linke Seitenleiste**
 
-1. Klappe die **linke Seitenleiste** aus ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Drücke neben der **Schnellauswahl** auf das **Hilfe**-Symbol ( ![[obsidian-icon-help.svg#icon]] ).
+1. Klappe die **linke Seitenleiste** aus ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Drücke neben der **Schnellauswahl** auf das **Hilfe**-Symbol ![[obsidian-icon-help.svg#icon]].
 3. Wähle **Öffnen** neben der Option **Sandbox-Vault**.
 
 **Befehlspalette**

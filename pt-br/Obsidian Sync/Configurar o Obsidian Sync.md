@@ -78,7 +78,7 @@ Se você está começando a sincronizar após se conectar a um cofre remoto, ver
 Se você está começando a sincronizar após ajustar as configurações do Obsidian Sync e reiniciar o aplicativo, verá um botão **Retomar** dentro das configurações do Sync. Selecione este botão para iniciar a sincronização.
 
 > [!done] Status da sincronização
-> Quando o Obsidian Sync for concluído, um círculo verde com uma marca de verificação ( ![[obsidian-icon-sync-synced.svg#icon]] ) aparece no canto inferior direito (desktop) ou na barra lateral direita (mobile). O log de sincronização também exibirá "Totalmente sincronizado" como uma de suas mensagens mais recentes.
+> Quando o Obsidian Sync for concluído, um círculo verde com uma marca de verificação ![[obsidian-icon-sync-synced.svg#icon]] aparece no canto inferior direito (desktop) ou na barra lateral direita (mobile). O log de sincronização também exibirá "Totalmente sincronizado" como uma de suas mensagens mais recentes.
 >
 > Para mais detalhes sobre os status de sincronização, consulte [[Ícone de status e mensagens]].
 ^obsidian-sync-status
@@ -158,7 +158,7 @@ Você agora está desconectado do cofre remoto e não está mais sincronizando n
 1. Abra **[[Configurações]]**.
 2. Na barra lateral, selecione **Sync**.
 3. Selecione **Administrar** ao lado de Cofres remotos. Uma janela será aberta com sua lista de cofres remotos.
-4. Selecione o ícone de lixeira ( ![[lucide-trash-2.svg#icon]] ) ao lado do cofre remoto que você deseja excluir.
+4. Selecione o ícone de lixeira ![[lucide-trash-2.svg#icon]] ao lado do cofre remoto que você deseja excluir.
 5. Confirme a exclusão selecionando o botão vermelho **Excluir**.
 6. Seu cofre remoto foi excluído.
 

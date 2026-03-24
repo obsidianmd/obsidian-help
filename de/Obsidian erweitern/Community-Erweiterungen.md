@@ -54,23 +54,23 @@ Um eine einzelne Erweiterung zu aktualisieren:
 
 1. Öffne die **[[Einstellungen]]**.
 2. Wähle im Seitenmenü **Community-Erweiterungen**.
-3. Wähle unter **Installierte Erweiterungen** das Papierkorb-Symbol ( ![[lucide-trash-2.svg#icon]] ) neben der Erweiterung, die du deinstallieren möchtest.
+3. Wähle unter **Installierte Erweiterungen** das Papierkorb-Symbol ![[lucide-trash-2.svg#icon]] neben der Erweiterung, die du deinstallieren möchtest.
 4. Wähle **Deinstallieren** zur Bestätigung.
 
 ## Installierte Erweiterungen verwalten
 
 Unter **[[Einstellungen]] → Community-Erweiterungen → Installierte Erweiterungen** hat jede Erweiterung mehrere Symbole zur Verwaltung:
 
-- **[[Einstellungen]]** ( ![[lucide-settings.svg#icon]] ) — Öffne die Einstellungsseite der Erweiterung, wenn sie konfigurierbare Optionen hat.
-- **[[Tastenkürzel]]** ( ![[lucide-plus-circle.svg#icon]] ) — Lege Tastenkürzel für die Befehle der Erweiterung fest.
-- **Finanzierung** ( ![[lucide-heart.svg#icon]] ) — Zeige die Finanzierungs-URL des Erweiterungsautors an, um seine Arbeit zu unterstützen.
-- **Deinstallieren** ( ![[lucide-trash-2.svg#icon]] ) — Entferne die Erweiterung aus deinem Vault.
+- **[[Einstellungen]]** ![[lucide-settings.svg#icon]] — Öffne die Einstellungsseite der Erweiterung, wenn sie konfigurierbare Optionen hat.
+- **[[Tastenkürzel]]** ![[lucide-plus-circle.svg#icon]] — Lege Tastenkürzel für die Befehle der Erweiterung fest.
+- **Finanzierung** ![[lucide-heart.svg#icon]] — Zeige die Finanzierungs-URL des Erweiterungsautors an, um seine Arbeit zu unterstützen.
+- **Deinstallieren** ![[lucide-trash-2.svg#icon]] — Entferne die Erweiterung aus deinem Vault.
 - **Umschalten** — Aktiviere oder deaktiviere die Erweiterung, ohne sie zu deinstallieren.
 
 Du kannst außerdem:
 
 - Das **Aktualisieren**-Symbol wählen, um alle Erweiterungen neu zu laden.
-- Das **Ordner**-Symbol ( ![[lucide-folder-open.svg#icon]] ) wählen, um den Erweiterungsordner in deinem [[Konfigurationsordner]] zu öffnen.
+- Das **Ordner**-Symbol ![[lucide-folder-open.svg#icon]] wählen, um den Erweiterungsordner in deinem [[Konfigurationsordner]] zu öffnen.
 - Die **Suchleiste** verwenden, um Erweiterungen nach Name zu filtern.
 
 ## Erfahre mehr

@@ -44,13 +44,13 @@ Outra forma de navegar entre notas é através dos _links inversos_. Um link inv
 Outra forma de navegar entre suas notas é usando uma representação visual de como suas notas estão conectadas.
 
 **Desktop**
-1. No canto superior direito da nota, clique em **Mais opções** (![[lucide-more-horizontal.svg#icon]]).
+1. No canto superior direito da nota, clique em **Mais opções** ![[lucide-more-horizontal.svg#icon]].
 2. Selecione **Abrir visualização vinculada**.
 3. Selecione **Abrir gráfico local**.
 4. Clique em qualquer um dos nós no gráfico para navegar até essa nota.
 
 **Dispositivo móvel**
-1. No topo da nota, selecione **Mais opções** (![[lucide-more-horizontal.svg#icon]]).
+1. No topo da nota, selecione **Mais opções** ![[lucide-more-horizontal.svg#icon]].
 2. Selecione **Abrir gráfico local**.
 3. Clique em qualquer um dos nós no gráfico para navegar até essa nota.
 

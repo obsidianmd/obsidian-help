@@ -8,7 +8,7 @@ aliases:
 ---
 Collegamenti in uscita è un [[Plugin principali|plugin principale]] che mostra a colpo d'occhio i collegamenti dalla nota attiva, così come i potenziali collegamenti da creare. È simile al plugin [[Backlinks]], che invece mostra i collegamenti _in entrata_ verso la nota attiva.
 
-La scheda Collegamenti in uscita ( ![[obsidian-icon-links-going-out.svg#icon]] ) è disponibile nella barra laterale destra e contiene le seguenti sezioni:
+La scheda Collegamenti in uscita ![[obsidian-icon-links-going-out.svg#icon]] è disponibile nella barra laterale destra e contiene le seguenti sezioni:
 
 - **Collegamenti** elenca tutti i collegamenti nella nota attiva. Fai clic su un collegamento per aprire la nota collegata.
 - **Menzioni scollegate** elenca qualsiasi testo nella nota attiva che corrisponde al nome o all'[[Aliases|alias]] di un'altra nota nella tua cassaforte. Le menzioni scollegate aiutano a scoprire collegamenti di cui non si è ancora a conoscenza.

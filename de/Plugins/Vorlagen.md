@@ -10,7 +10,7 @@ Vorlagen ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], mit der du
 
 ## Vorlagenordner festlegen
 
-1. Klicke in der unteren linken Ecke auf **[[Einstellungen]]** ( ![[lucide-cog.svg#icon]] ).
+1. Klicke in der unteren linken Ecke auf **[[Einstellungen]]** ![[lucide-cog.svg#icon]].
 2. Gib unter **Obsidian-Erweiterungen → Vorlagen → Speicherort für Vorlagen** den Ordner an, der deine Vorlagen enthält.
 
 ## Vorlagenvariablen

@@ -11,7 +11,7 @@ Le sélecteur rapide est un [[Modules principaux|module principal]] qui vous per
 
 Il existe plusieurs façons d'ouvrir le sélecteur rapide, lorsqu'il est activé :
 - Appuyez sur `Ctrl+O` (ou `Cmd+O` sur macOS) pour ouvrir le sélecteur rapide ;
-- Dans le ruban, cliquez sur **Ouvrir le sélecteur rapide** ( ![[lucide-file-search.svg#icon]] ) ;
+- Dans le ruban, cliquez sur **Ouvrir le sélecteur rapide** ![[lucide-file-search.svg#icon]] ;
 - Sur mobile, lorsque vous n'êtes pas en train de modifier une note, appuyez sur l'icône plus en bas au centre de l'application.
 
 ## Ouvrir une note avec le sélecteur rapide

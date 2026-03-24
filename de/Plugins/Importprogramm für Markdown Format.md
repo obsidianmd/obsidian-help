@@ -11,7 +11,7 @@ Das Importprogramm für Markdown Format ist eine [[Obsidian-Erweiterungen|integr
 
 Um alle Notizen in deinem Vault zu konvertieren:
 
-1. Wähle in der [[Befehlspalette]] **Markdown Importprogramm öffnen** aus. Dies ist auch in der [[Menüband|Werkzeugleiste]] über das Symbol **Markdown Importprogramm öffnen** ( ![[lucide-binary.svg#icon]] ) erreichbar.
+1. Wähle in der [[Befehlspalette]] **Markdown Importprogramm öffnen** aus. Dies ist auch in der [[Menüband|Werkzeugleiste]] über das Symbol **Markdown Importprogramm öffnen** ![[lucide-binary.svg#icon]] erreichbar.
 2. Aktiviere die Formate, die du konvertieren möchtest.
 3. Klicke auf **Konvertierung starten**.
 

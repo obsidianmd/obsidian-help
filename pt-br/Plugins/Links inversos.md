@@ -37,7 +37,7 @@ Ele fornece as seguintes opções:
 
 ## Ver links inversos de uma nota
 
-Para ver os links inversos da nota ativa, clique na aba **Links inversos** ( ![[obsidian-icon-links-coming-in.svg#icon]] ) na barra lateral direita.
+Para ver os links inversos da nota ativa, clique na aba **Links inversos** ![[obsidian-icon-links-coming-in.svg#icon]] na barra lateral direita.
 
 > [!note] Nota
 > Se você não conseguir ver a aba Links inversos, pode torná-la visível abrindo a [[Paleta de comandos]] e executando o comando **Links inversos: Mostrar links inversos**.

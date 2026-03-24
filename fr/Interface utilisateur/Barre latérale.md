@@ -14,14 +14,14 @@ Sur ordinateur et sur les grandes tablettes, la barre latérale gauche inclut le
 
 ### Ordinateur et grandes tablettes
 
-Sur ordinateur et sur les grandes tablettes, ouvrez une barre latérale réduite en sélectionnant l'icône d'expansion gauche ( ![[obsidian-icon-side-bar-left.svg#icon]] ) ou d'expansion droite ( ![[obsidian-icon-side-bar-right.svg#icon]] ).
+Sur ordinateur et sur les grandes tablettes, ouvrez une barre latérale réduite en sélectionnant l'icône d'expansion gauche ![[obsidian-icon-side-bar-left.svg#icon]] ou d'expansion droite ![[obsidian-icon-side-bar-right.svg#icon]].
 
 ### Mobile et petites tablettes
 
 Sur mobile et sur les tablettes plus petites, vous pouvez ouvrir les barres latérales masquées de la manière suivante :
 
 - Balayer vers la gauche ou la droite
-- Sélectionner l'icône d'expansion gauche ( ![[obsidian-icon-side-bar-left.svg#icon]] ) (barre latérale gauche uniquement)
+- Sélectionner l'icône d'expansion gauche ![[obsidian-icon-side-bar-left.svg#icon]] (barre latérale gauche uniquement)
 - Utiliser les options *Basculer gauche* ou *Basculer droite* de la [[Palette de commandes]].
 
 ## Onglets

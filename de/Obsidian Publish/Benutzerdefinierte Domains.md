@@ -44,8 +44,8 @@ Die folgenden Schritte verwenden CloudFlare, um eine eigene Domain für deine Ob
 **Obsidian:**
 
 1. Öffne Obsidian auf deinem Computer.
-2. Klicke in der [[Menüband|Werkzeugleiste]] auf der linken Seite auf **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
-3. Wähle unter **Änderungen veröffentlichen** die Option **Seiteneinstellungen ändern** ( ![[lucide-cog.svg#icon]] ).
+2. Klicke in der [[Menüband|Werkzeugleiste]] auf der linken Seite auf **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
+3. Wähle unter **Änderungen veröffentlichen** die Option **Seiteneinstellungen ändern** ![[lucide-cog.svg#icon]].
 4. Wähle neben **Eigene Domain** die Option **Konfigurieren**.
 5. Gib unter **Eigene URL** die URL deiner Domain oder Subdomain ein. Achte darauf, kein `www.` in das Feld für die eigene URL einzugeben.
 

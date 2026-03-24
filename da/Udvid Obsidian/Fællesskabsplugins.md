@@ -54,7 +54,7 @@ Sådan opdaterer du et enkelt plugin:
 
 1. Åben **Indstillinger**.
 2. Vælg fanen **Fællesskabesplugins**
-3. Vælg **Afinstallér** ( ![[lucide-trash-2.svg#icon]] ) under **Installerede plugins**
+3. Vælg **Afinstallér** ![[lucide-trash-2.svg#icon]] under **Installerede plugins**
 4. Vælg **Afinstallér** igen for at bekræfte valget
 
 ## Lær mere

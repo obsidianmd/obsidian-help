@@ -25,7 +25,7 @@ Para começar a usar o Canvas, primeiro você precisa criar um arquivo para arma
 
 **Menu lateral:**
 
-- No menu lateral vertical, selecione **Criar novo canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) para criar um canvas na mesma pasta do arquivo ativo.
+- No menu lateral vertical, selecione **Criar novo canvas** ![[lucide-layout-dashboard.svg#icon]] para criar um canvas na mesma pasta do arquivo ativo.
 
 > [!note] A extensão de arquivo .canvas
 > O Obsidian armazena os dados do seu canvas como arquivos `.canvas` usando um formato de arquivo aberto chamado [JSON Canvas](https://jsoncanvas.org/).
@@ -105,7 +105,7 @@ Você também pode editar um cartão clicando com o botão direito e selecionand
 
 Remova cartões selecionados clicando com o botão direito em qualquer um deles e selecionando **Excluir**. Ou pressione `Backspace` (ou `Delete` no macOS).
 
-Você também pode selecionar **Remover** ( ![[lucide-trash-2.svg#icon]] ) nos controles de seleção acima da sua seleção.
+Você também pode selecionar **Remover** ![[lucide-trash-2.svg#icon]] nos controles de seleção acima da sua seleção.
 
 ### Trocar cartões
 
@@ -197,7 +197,7 @@ Para editar o rótulo de uma conexão, clique duas vezes na linha, ou clique com
 ### Alterar a cor de um cartão ou conexão
 
 1. Selecione os cartões ou conexões que deseja colorir.
-2. Nos controles de seleção, selecione **Definir cor** ( ![[lucide-palette.svg#icon]] ).
+2. Nos controles de seleção, selecione **Definir cor** ![[lucide-palette.svg#icon]].
 3. Selecione uma cor.
 
 ## Agrupar cartões
@@ -229,11 +229,11 @@ Para mover o canvas vertical e horizontalmente, também conhecido como _deslocam
 
 ### Ampliar o canvas
 
-Para ampliar o canvas, pressione `Space` ou `Ctrl` (ou `Cmd` no macOS) e role usando a roda do mouse. Ou selecione **Aumentar zoom** ( ![[lucide-plus.svg#icon]] ) e **Diminuir Zoom** ( ![[lucide-minus.svg#icon]] ) nos controles de zoom no canto superior direito.
+Para ampliar o canvas, pressione `Space` ou `Ctrl` (ou `Cmd` no macOS) e role usando a roda do mouse. Ou selecione **Aumentar zoom** ![[lucide-plus.svg#icon]] e **Diminuir Zoom** ![[lucide-minus.svg#icon]] nos controles de zoom no canto superior direito.
 
 #### Ampliar para caber
 
-Para ampliar o canvas de modo que todos os itens fiquem visíveis, selecione **Ampliar para caber** ( ![[lucide-maximize.svg#icon]] ). Ou use o atalho de teclado `Shift+1`.
+Para ampliar o canvas de modo que todos os itens fiquem visíveis, selecione **Ampliar para caber** ![[lucide-maximize.svg#icon]]. Ou use o atalho de teclado `Shift+1`.
 
 #### Ampliar na seleção
 

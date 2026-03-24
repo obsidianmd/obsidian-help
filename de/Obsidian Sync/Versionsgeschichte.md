@@ -35,7 +35,7 @@ Wenn du die integrierte Erweiterung [[Einführung in Obsidian Sync|Sync]] aktivi
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Öffne die **Befehlspalette**. ( ![[lucide-terminal.svg#icon]] )
+1. Öffne die **Befehlspalette**. ![[lucide-terminal.svg#icon]]
 2. Gib „Sync" ein.
 3. Wähle die Option „Sync: Synchronisierungsverlauf anzeigen".
 
@@ -43,8 +43,8 @@ Der Synchronisierungsverlauf erscheint dann in der [[Seitenleiste|rechten Seiten
 
 **Mobil** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Öffne die [[Menüband|Werkzeugleiste]] ( ![[lucide-menu.svg#icon]] ).
-2. Öffne die **Befehlspalette**. ( ![[lucide-terminal.svg#icon]] )
+1. Öffne die [[Menüband|Werkzeugleiste]] ![[lucide-menu.svg#icon]].
+2. Öffne die **Befehlspalette**. ![[lucide-terminal.svg#icon]]
 3. Gib „Sync" ein.
 4. Wähle die Option „Sync: Synchronisierungsverlauf anzeigen".
 

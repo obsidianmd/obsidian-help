@@ -8,7 +8,7 @@ Du kan åbne lige så mange faner, som du har brug for i Obsidian. Du kan også 
 
 ## Åben en ny fane
 
-Vælg **Ny fane** ( ![[lucide-plus.svg#icon]] ) i toppen af applikationsvinduet til højre for den sidste fane. Eller du kan benytte genvejstasten:
+Vælg **Ny fane** ![[lucide-plus.svg#icon]] i toppen af applikationsvinduet til højre for den sidste fane. Eller du kan benytte genvejstasten:
 
 - **Windows og Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`

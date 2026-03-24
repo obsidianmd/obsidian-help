@@ -44,13 +44,13 @@ Otra forma de navegar entre notas es a través de los _enlaces entrantes_. Un en
 Otra forma de navegar entre tus notas es usando una representación visual de cómo están conectadas tus notas.
 
 **Escritorio**
-1. En la esquina superior derecha de la nota, haz clic en **Más opciones** (![[lucide-more-horizontal.svg#icon]]).
+1. En la esquina superior derecha de la nota, haz clic en **Más opciones** ![[lucide-more-horizontal.svg#icon]].
 2. Selecciona **Abrir en vista enlazada**.
 3. Selecciona **Abrir gráfico local**.
 4. Haz clic en cualquiera de los nodos del gráfico para navegar a esa nota.
 
 **Móvil**
-1. En la parte superior de la nota, selecciona **Más opciones** (![[lucide-more-horizontal.svg#icon]]).
+1. En la parte superior de la nota, selecciona **Más opciones** ![[lucide-more-horizontal.svg#icon]].
 2. Selecciona **Abrir gráfico local**.
 3. Haz clic en cualquiera de los nodos del gráfico para navegar a esa nota.
 

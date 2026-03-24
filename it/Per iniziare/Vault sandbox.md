@@ -14,8 +14,8 @@ Puoi aprire il vault sandbox in diversi modi. In tutti i casi, si apre separatam
 
 **Barra laterale sinistra**
 
-1. Espandi la **barra laterale sinistra** ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Accanto al **selettore della cassaforte**, premi l'icona **Aiuto** ( ![[obsidian-icon-help.svg#icon]] ).
+1. Espandi la **barra laterale sinistra** ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Accanto al **selettore della cassaforte**, premi l'icona **Aiuto** ![[obsidian-icon-help.svg#icon]].
 3. Seleziona **Apri** accanto all'opzione **Vault Sandbox**.
 
 **Tavolozza dei comandi**

@@ -19,10 +19,10 @@ O Obsidian procura fragmentos CSS dentro da [[Pasta de configuração|pasta de c
 
 Para adicionar um fragmento CSS no **Desktop** ![[lucide-monitor-check.svg#icon]], siga estes passos:
 
-1. Abra as **[[Configurações]]** ( ![[lucide-settings.svg#icon]] ).
-2. Em **Aparência → Fragmentos CSS**, selecione **Abrir pasta de fragmentos** ( ![[lucide-folder-open.svg#icon]] ).
+1. Abra as **[[Configurações]]** ![[lucide-settings.svg#icon]].
+2. Em **Aparência → Fragmentos CSS**, selecione **Abrir pasta de fragmentos** ![[lucide-folder-open.svg#icon]].
 3. Na pasta de fragmentos, crie um arquivo CSS que contenha seu fragmento.
-4. No Obsidian, em **Aparência → Fragmentos CSS**, selecione **Recarregar fragmentos** ( ![[lucide-refresh-cw.svg#icon]] ) para ver o fragmento na lista.
+4. No Obsidian, em **Aparência → Fragmentos CSS**, selecione **Recarregar fragmentos** ![[lucide-refresh-cw.svg#icon]] para ver o fragmento na lista.
 5. Ative o fragmento clicando no botão de alternância.
 
 Para adicionar um fragmento CSS no **Celular/Tablet** ![[obsidian-icon-smartphone.svg#icon]], você pode seguir estes passos:
@@ -30,10 +30,10 @@ Para adicionar um fragmento CSS no **Celular/Tablet** ![[obsidian-icon-smartphon
 1. Abra um gerenciador de arquivos e encontre seu cofre. Você pode verificar a localização do cofre em _Gerenciar cofres…_ tocando no seu cofre e verificando o caminho.
 2. Abra a [[Pasta de configuração]] e crie uma pasta chamada `snippets` se ela não existir.
 3. Adicione seu fragmento CSS a esta pasta.
-4. Abra as **[[Configurações]]** do Obsidian ( ![[lucide-settings.svg#icon]] ).
+4. Abra as **[[Configurações]]** do Obsidian ![[lucide-settings.svg#icon]].
 5. Selecione **Aparência** à esquerda.
 6. Role para baixo até a seção **Fragmentos CSS**.
-7. Toque em **Recarregar fragmentos** (![[lucide-refresh-cw.svg#icon]]) para atualizar a lista.
+7. Toque em **Recarregar fragmentos** ![[lucide-refresh-cw.svg#icon]] para atualizar a lista.
 8. Toque no botão de alternância para ativar o fragmento.
 
 Alternativamente, você pode

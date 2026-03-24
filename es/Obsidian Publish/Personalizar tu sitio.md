@@ -72,8 +72,8 @@ Dentro de Obsidian Publish, tienes la capacidad de personalizar el orden de nave
 
 #### Acceder a las opciones de personalizar navegación
 
-1. En la [[Menú de cinta]], selecciona **Publicar cambios** (![[lucide-send.svg#icon]]) o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**
-2. En el diálogo **Publicar cambios**, selecciona **Cambiar ajustes de sitio** ( ![[lucide-cog.svg#icon]] ).
+1. En la [[Menú de cinta]], selecciona **Publicar cambios** ![[lucide-send.svg#icon]] o abre la [[Paleta de comandos]] y escribe **Publish: Publicar cambios...**
+2. En el diálogo **Publicar cambios**, selecciona **Cambiar ajustes de sitio** ![[lucide-cog.svg#icon]].
 3. En **Ajustes de componentes**, junto a **Personalizar navegación**, selecciona el botón **Administrar**.
 
 Aparecerá una nueva ventana emergente titulada **Navegación** sobre tu ventana de **Cambiar ajustes de sitio**.

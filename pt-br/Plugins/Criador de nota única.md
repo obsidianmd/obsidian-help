@@ -9,7 +9,7 @@ Por exemplo, se você criar uma nova nota às 09:45 do dia 1º de janeiro de 202
 
 **Menu lateral:**
 
-- No menu lateral, clique em **Criar nova nota única** ( ![[obsidian-icon-sheets-in-box.svg#icon]] ).
+- No menu lateral, clique em **Criar nova nota única** ![[obsidian-icon-sheets-in-box.svg#icon]].
 
 **Paleta de comandos:**
 

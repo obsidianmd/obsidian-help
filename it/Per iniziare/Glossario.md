@@ -74,7 +74,7 @@ La **barra degli strumenti** funge da contenitore per le icone delle azioni util
 
 Nella versione desktop, è l'area verticale situata all'estrema sinistra.
 
-Nella versione mobile, è rappresentata da un pulsante menu ( ![[lucide-menu.svg#icon]] ) nella [[#Barra di stato|barra di stato]].
+Nella versione mobile, è rappresentata da un pulsante menu ![[lucide-menu.svg#icon]] nella [[#Barra di stato|barra di stato]].
 
 ## Barra laterale
 

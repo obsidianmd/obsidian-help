@@ -37,7 +37,7 @@ Quando si abilita il plugin principale [[Introduzione a Obsidian Sync|Sync]], la
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Aprire la **Tavolozza dei comandi**. ( ![[lucide-terminal.svg#icon]] )
+1. Aprire la **Tavolozza dei comandi**. ![[lucide-terminal.svg#icon]]
 2. Digitare "Sync".
 3. Selezionare l'opzione "Sync: Visualizza cronologia Sync".
 
@@ -45,8 +45,8 @@ La cronologia Sync apparirà nella [[Barra laterale|barra laterale destra]].
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Aprire la [[Barra multifunzione]] ( ![[lucide-menu.svg#icon]] ).
-2. Aprire la **Tavolozza dei comandi**. ( ![[lucide-terminal.svg#icon]] )
+1. Aprire la [[Barra multifunzione]] ![[lucide-menu.svg#icon]].
+2. Aprire la **Tavolozza dei comandi**. ![[lucide-terminal.svg#icon]]
 3. Digitare "Sync".
 4. Selezionare l'opzione "Sync: Visualizza cronologia Sync".
 

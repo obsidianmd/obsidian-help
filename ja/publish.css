@@ -40,12 +40,21 @@
   filter: invert(1); /* Handles icon inversion in dark mode */
 }
 
+
+span[src$="#icon"] {
+  padding: 1px 4px;
+  border-radius: var(--code-radius);
+  background-color: var(--background-secondary);
+  margin: 0 0.05em;
+}
 /* Adds proper alignment to icons */
 span[src$="#icon"] img,
 img[src$="#icon"] {
   vertical-align: text-bottom;
   margin-left: -0.1em;
   margin-right: -0.1em;
+  height: 18px;
+  width: 18px;
   border: none;
   border-radius: 0;
 }

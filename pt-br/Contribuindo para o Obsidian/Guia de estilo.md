@@ -348,7 +348,7 @@ Inclua ícones e imagens quando eles tornarem mais fácil explicar coisas que s�
 
 Ícones do [Lucide](https://lucide.dev/icons/) e ícones personalizados do Obsidian podem ser usados junto a elementos detalhados para fornecer uma representação visual de um recurso.
 
-**Exemplo:** Na faixa de opções à esquerda, selecione **Criar novo canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) para criar um canvas na mesma pasta do arquivo ativo.
+**Exemplo:** Na faixa de opções à esquerda, selecione **Criar novo canvas** ![[lucide-layout-dashboard.svg#icon]] para criar um canvas na mesma pasta do arquivo ativo.
 
 **Diretrizes para ícones**
 
@@ -367,9 +367,9 @@ Inclua ícones e imagens quando eles tornarem mais fácil explicar coisas que s�
 >```
 
 - Utilize a âncora `icon` em imagens incorporadas para ajustar o espaçamento ao redor do ícone para que ele se alinhe corretamente com o texto nas proximidades.
-- Os ícones devem ser cercados por parênteses. ( ![[lucide-cog.svg#icon]] )
+- Os ícones devem ser cercados por parênteses. ![[lucide-cog.svg#icon]]
 
-**Exemplo**: `( ![[lucide-cog.svg#icon]] )`
+**Exemplo**: `![[lucide-cog.svg#icon]]`
 
 ### Tags de âncora de imagem
 
@@ -384,7 +384,7 @@ Tags de âncora de imagem estão disponíveis para adicionar mudanças decorativ
 
 A tag de âncora de ícone garante o alinhamento vertical correto para ícones usados para indicar elementos de interface.
 
-O primeiro ícone de menu usa a tag de âncora ( ![[lucide-menu.svg#icon]] ), enquanto o segundo ícone de menu ( ![[lucide-menu.svg]] ) não usa.
+O primeiro ícone de menu usa a tag de âncora ![[lucide-menu.svg#icon]], enquanto o segundo ícone de menu ( ![[lucide-menu.svg]] ) não usa.
 
 **Interface**
 

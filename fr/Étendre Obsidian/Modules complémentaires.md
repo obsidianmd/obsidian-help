@@ -56,23 +56,23 @@ Pour mettre à jour un module individuel :
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Dans le menu latéral, sélectionnez **Modules complémentaires**.
-3. Sous **Modules installés**, sélectionnez l'icône de la corbeille ( ![[lucide-trash-2.svg#icon]] ) à côté du module que vous souhaitez désinstaller.
+3. Sous **Modules installés**, sélectionnez l'icône de la corbeille ![[lucide-trash-2.svg#icon]] à côté du module que vous souhaitez désinstaller.
 4. Sélectionnez **Désinstaller** pour confirmer.
 
 ## Gérer les modules installés
 
 Sous **[[Paramètres]] → Modules complémentaires → Modules installés**, chaque module dispose de plusieurs icônes pour le gérer :
 
-- **[[Paramètres]]** ( ![[lucide-settings.svg#icon]] ) — Ouvrir la page des paramètres du module s'il dispose d'options configurables.
-- **[[Raccourcis clavier]]** ( ![[lucide-plus-circle.svg#icon]] ) — Définir des raccourcis clavier pour les commandes du module.
-- **Financement** ( ![[lucide-heart.svg#icon]] ) — Afficher l'URL de financement de l'auteur du module pour soutenir son travail.
-- **Désinstaller** ( ![[lucide-trash-2.svg#icon]] ) — Supprimer le module de votre coffre.
+- **[[Paramètres]]** ![[lucide-settings.svg#icon]] — Ouvrir la page des paramètres du module s'il dispose d'options configurables.
+- **[[Raccourcis clavier]]** ![[lucide-plus-circle.svg#icon]] — Définir des raccourcis clavier pour les commandes du module.
+- **Financement** ![[lucide-heart.svg#icon]] — Afficher l'URL de financement de l'auteur du module pour soutenir son travail.
+- **Désinstaller** ![[lucide-trash-2.svg#icon]] — Supprimer le module de votre coffre.
 - **Basculer** — Activer ou désactiver le module sans le désinstaller.
 
 Vous pouvez également :
 
 - Sélectionner l'icône **actualiser** pour recharger tous les modules.
-- Sélectionner l'icône **dossier** ( ![[lucide-folder-open.svg#icon]] ) pour ouvrir le dossier des modules dans votre [[Dossier de configuration|dossier de configuration]].
+- Sélectionner l'icône **dossier** ![[lucide-folder-open.svg#icon]] pour ouvrir le dossier des modules dans votre [[Dossier de configuration|dossier de configuration]].
 - Utiliser la **barre de recherche** pour filtrer les modules par nom.
 
 ## En savoir plus

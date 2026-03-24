@@ -10,7 +10,7 @@ localized: '2026-03-18'
 ---
 Rechercher est un [[Modules principaux|module principal]] qui vous aide à trouver des données dans votre coffre Obsidian en utilisant des termes de recherche et des opérateurs pour affiner les résultats.
 
-Par défaut, vous pouvez trouver Rechercher dans la barre latérale gauche ( ![[lucide-search.svg#icon]] ). Vous pouvez également ouvrir Rechercher en appuyant sur `Ctrl+Shift+F` (Windows/Linux) ou `Command+Shift+F` (macOS).
+Par défaut, vous pouvez trouver Rechercher dans la barre latérale gauche ![[lucide-search.svg#icon]]. Vous pouvez également ouvrir Rechercher en appuyant sur `Ctrl+Shift+F` (Windows/Linux) ou `Command+Shift+F` (macOS).
 
 - **Rechercher le texte sélectionné** : Si vous sélectionnez du texte dans l'éditeur et ouvrez Rechercher avec le raccourci clavier, Rechercher vous affiche les résultats pour le texte sélectionné.
 - **Rechercher des termes récents** : Ouvrez Rechercher avec un terme de recherche vide pour lister les termes de recherche récents. Cliquez sur l'un d'entre eux pour réutiliser le terme de recherche.
@@ -106,7 +106,7 @@ La propriété et la valeur acceptent toutes deux des sous-requêtes, comme les 
 
 ## Modifier la sensibilité à la casse
 
-Par défaut, les termes de recherche ne sont pas sensibles à la casse. Si vous souhaitez rechercher la casse exacte de votre terme de recherche, sélectionnez **Respecter la casse** ( ![[obsidian-icon-upper-lowercase.svg#icon]] ) dans la barre de recherche.
+Par défaut, les termes de recherche ne sont pas sensibles à la casse. Si vous souhaitez rechercher la casse exacte de votre terme de recherche, sélectionnez **Respecter la casse** ![[obsidian-icon-upper-lowercase.svg#icon]] dans la barre de recherche.
 
 Ce paramètre peut être basculé. Si l'icône **Respecter la casse** est mise en surbrillance, cela signifie que vous effectuez actuellement une recherche sensible à la casse.
 
@@ -148,7 +148,7 @@ Pour plus d'informations sur l'écriture d'expressions régulières, consultez l
 
 ## Configurer les paramètres de recherche
 
-Pour configurer Rechercher, sélectionnez **Paramètres de recherche** ( ![[lucide-sliders-horizontal.svg#icon]] ) sur le côté droit de la barre de recherche pour voir les options.
+Pour configurer Rechercher, sélectionnez **Paramètres de recherche** ![[lucide-sliders-horizontal.svg#icon]] sur le côté droit de la barre de recherche pour voir les options.
 
 | Paramètre                 | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|

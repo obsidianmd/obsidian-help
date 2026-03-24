@@ -9,7 +9,7 @@ Gravador de áudio é um [[Plugins nativos|plugin nativo]] que permite gravar e 
 ## Gravar áudio em uma nota
 
 1. Crie uma nova nota ou abra uma nota existente.
-2. No menu lateral, clique em **Começar/parar a gravação de áudio** ( ![[lucide-mic.svg#icon]] ) para iniciar a gravação. A gravação começa assim que o ícone muda de cor.
+2. No menu lateral, clique em **Começar/parar a gravação de áudio** ![[lucide-mic.svg#icon]] para iniciar a gravação. A gravação começa assim que o ícone muda de cor.
 3. Clique no ícone novamente para parar a gravação e adicioná-la à sua nota.
 
 O Obsidian salva o arquivo de áudio gravado no seu cofre e o [[Incorporar arquivos|incorpora]] no final da nota ativa.

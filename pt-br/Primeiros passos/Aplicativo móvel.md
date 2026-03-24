@@ -29,7 +29,7 @@ Ao editar uma nota, você verá uma linha de ícones na parte inferior do aplica
 
 ### Personalizar a barra de ferramentas móvel
 
-Na barra de ferramentas móvel, toque em **Configurar a barra de ferramentas móvel** ( ![[lucide-wrench.svg#icon]] ) para abrir a interface de personalização.
+Na barra de ferramentas móvel, toque em **Configurar a barra de ferramentas móvel** ![[lucide-wrench.svg#icon]] para abrir a interface de personalização.
 
 Alternativamente, você pode fazer isso nas Configurações.
 
@@ -74,7 +74,7 @@ Com a opção **Alternar teclado** da barra de ferramentas, você pode fechar a 
 
 ### Voltar ou avançar
 
-Na barra de navegação, as duas primeiras opções ajudam você a voltar ( ![[lucide-chevron-left.svg#icon]] ) ou avançar ( ![[lucide-chevron-right.svg#icon]] ). Se uma das opções não estiver disponível, o ícone ficará esmaecido.
+Na barra de navegação, as duas primeiras opções ajudam você a voltar ![[lucide-chevron-left.svg#icon]] ou avançar ![[lucide-chevron-right.svg#icon]]. Se uma das opções não estiver disponível, o ícone ficará esmaecido.
 
 ### Criar ou pesquisar nota
 
@@ -88,7 +88,7 @@ Ao tocá-lo, você poderá alternar para qualquer aba aberta. Você também pode
 
 ### Ações do menu lateral
 
-O aplicativo móvel não possui [[Faixa de opções|Menu lateral]]. Em vez disso, as ações do menu lateral estarão disponíveis quando você tocar em **Abrir menu** ( ![[lucide-menu.svg#icon]] ), a última opção na barra de navegação.
+O aplicativo móvel não possui [[Faixa de opções|Menu lateral]]. Em vez disso, as ações do menu lateral estarão disponíveis quando você tocar em **Abrir menu** ![[lucide-menu.svg#icon]], a última opção na barra de navegação.
 
 ### Barras laterais
 

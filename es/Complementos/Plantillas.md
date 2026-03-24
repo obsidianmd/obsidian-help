@@ -12,7 +12,7 @@ Plantillas es un [[Complementos principales|complemento principal]] que te permi
 
 ## Configurar tu carpeta de plantillas
 
-1. En la esquina inferior izquierda, haz clic en **[[Configuración]]** ( ![[lucide-cog.svg#icon]] ).
+1. En la esquina inferior izquierda, haz clic en **[[Configuración]]** ![[lucide-cog.svg#icon]].
 2. En **Complementos principales → Plantillas → Ubicación de la carpeta de plantillas**, introduce la carpeta que contiene tus plantillas.
 
 ## Variables de plantilla

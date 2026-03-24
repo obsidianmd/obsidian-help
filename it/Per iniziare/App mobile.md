@@ -31,7 +31,7 @@ Durante la modifica di una nota, si noterà una riga di icone nella parte inferi
 
 ### Personalizzare la barra degli strumenti mobile
 
-Nella barra degli strumenti mobile, toccare **Configura strumenti mobile** ( ![[lucide-wrench.svg#icon]] ) per aprire l'interfaccia di personalizzazione.
+Nella barra degli strumenti mobile, toccare **Configura strumenti mobile** ![[lucide-wrench.svg#icon]] per aprire l'interfaccia di personalizzazione.
 
 In alternativa, è possibile farlo dalle Impostazioni.
 
@@ -76,7 +76,7 @@ Con l'opzione **Attiva/disattiva tastiera** della barra degli strumenti, è poss
 
 ### Andare indietro o avanti
 
-Nella barra di navigazione, le prime due opzioni permettono di andare indietro ( ![[lucide-chevron-left.svg#icon]] ) o avanti ( ![[lucide-chevron-right.svg#icon]] ). Se una delle opzioni non è disponibile, l'icona appare in grigio.
+Nella barra di navigazione, le prime due opzioni permettono di andare indietro ![[lucide-chevron-left.svg#icon]] o avanti ![[lucide-chevron-right.svg#icon]]. Se una delle opzioni non è disponibile, l'icona appare in grigio.
 
 ### Creare o trovare una nota
 
@@ -90,7 +90,7 @@ Toccandola, sarà possibile passare a qualsiasi scheda aperta. È anche possibil
 
 ### Azioni della barra degli strumenti
 
-L'app mobile non ha la [[Barra multifunzione]]. Al suo posto, le azioni della barra degli strumenti saranno disponibili toccando **Apri menu** ( ![[lucide-menu.svg#icon]] ), l'ultima opzione nella barra di navigazione.
+L'app mobile non ha la [[Barra multifunzione]]. Al suo posto, le azioni della barra degli strumenti saranno disponibili toccando **Apri menu** ![[lucide-menu.svg#icon]], l'ultima opzione nella barra di navigazione.
 
 ### Barre laterali
 

@@ -17,7 +17,7 @@ La *vista lettura* mostra la nota senza la sintassi Markdown, offrendo un format
 
 Per passare alla *vista lettura*:
 
-- Fai clic sul selettore vista ( ![[lucide-book-icon.svg#icon]] ) nell'angolo in alto a destra dell'editor.
+- Fai clic sul selettore vista ![[lucide-book-icon.svg#icon]] nell'angolo in alto a destra dell'editor.
 - Oppure fai clic sull'icona interattiva di stato ( ![[lucide-edit-3.svg#icon]] o ![[lucide-code-xml.svg#icon]] ) nella barra di stato e seleziona **Vista lettura**.
 - Oppure premi `Ctrl+E` (`Cmd+E` su macOS).
 
@@ -41,7 +41,7 @@ L'*Anteprima dal vivo* mostra il testo formattato in linea nascondendo la maggio
 
 Per passare all'*Anteprima dal vivo*:
 
-- Fai clic sul selettore vista ( ![[lucide-edit-3.svg#icon]] ) nell'angolo in alto a destra dell'editor.
+- Fai clic sul selettore vista ![[lucide-edit-3.svg#icon]] nell'angolo in alto a destra dell'editor.
 - Oppure fai clic sull'icona interattiva di stato ( ![[lucide-book-icon.svg#icon]] o ![[lucide-code-xml.svg#icon]] ) nella barra di stato e seleziona **Anteprima dal vivo**.
 - Oppure premi `Ctrl+E` (`Cmd+E` su macOS).
 - Oppure usa il [[Riquadro comandi|comando]] **Passa a modalità Modifica/Lettura**.
@@ -63,7 +63,7 @@ Per passare alla *Modalità sorgente*:
 > 
 > Per passare alla *Modalità sorgente*, ora in aggiunta puoi:
 > 
-> - Fare clic sul selettore vista ( ![[lucide-edit-3.svg#icon]] ) nell'angolo in alto a destra della nota.
+> - Fare clic sul selettore vista ![[lucide-edit-3.svg#icon]] nell'angolo in alto a destra della nota.
 > - Oppure premere `Ctrl+E` (`Cmd+E` su macOS).
 > - Oppure usare il [[Riquadro comandi|comando]] **Passa a modalità Modifica/Lettura**.
 

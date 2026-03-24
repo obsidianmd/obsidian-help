@@ -17,10 +17,10 @@ Obsidian은 보관함의 [[설정 폴더]] 내에서 CSS 스니펫을 찾아요.
 
 **데스크톱** ![[lucide-monitor-check.svg#icon]]에서 CSS 스니펫을 추가하려면 다음 단계를 따르세요:
 
-1. **[[설정]]**을 열어요 ( ![[lucide-settings.svg#icon]] ).
-2. **외형 → CSS 스니펫**에서 **스니펫 폴더 열기** ( ![[lucide-folder-open.svg#icon]] )를 선택해요.
+1. **[[설정]]**을 열어요 ![[lucide-settings.svg#icon]].
+2. **외형 → CSS 스니펫**에서 **스니펫 폴더 열기** ![[lucide-folder-open.svg#icon]]를 선택해요.
 3. 스니펫 폴더에서 스니펫이 포함된 CSS 파일을 생성해요.
-4. Obsidian에서 **외형 → CSS 스니펫**의 **스니펫 다시 불러오기** ( ![[lucide-refresh-cw.svg#icon]] )를 선택하면 목록에 스니펫이 나타나요.
+4. Obsidian에서 **외형 → CSS 스니펫**의 **스니펫 다시 불러오기** ![[lucide-refresh-cw.svg#icon]]를 선택하면 목록에 스니펫이 나타나요.
 5. 토글을 클릭하여 스니펫을 활성화해요.
 
 **모바일/태블릿** ![[obsidian-icon-smartphone.svg#icon]]에서 CSS 스니펫을 추가하려면 다음 단계를 따르세요:
@@ -28,10 +28,10 @@ Obsidian은 보관함의 [[설정 폴더]] 내에서 CSS 스니펫을 찾아요.
 1. 파일 관리자를 열고 보관함을 찾아요. 보관함 위치는 _보관함 관리…_ 에서 보관함을 탭하고 경로를 확인하면 돼요.
 2. [[설정 폴더]]를 열고 `snippets` 폴더가 없으면 생성해요.
 3. 이 폴더에 CSS 스니펫을 추가해요.
-4. Obsidian의 **[[설정]]** ( ![[lucide-settings.svg#icon]] )을 열어요.
+4. Obsidian의 **[[설정]]** ![[lucide-settings.svg#icon]]을 열어요.
 5. 왼쪽에서 **외형**을 선택해요.
 6. **CSS 스니펫** 섹션까지 스크롤해요.
-7. **스니펫 다시 불러오기** (![[lucide-refresh-cw.svg#icon]])를 탭하여 목록을 새로고침해요.
+7. **스니펫 다시 불러오기** ![[lucide-refresh-cw.svg#icon]]를 탭하여 목록을 새로고침해요.
 8. 토글을 탭하여 스니펫을 활성화해요.
 
 또는 다음과 같은 방법도 있어요:

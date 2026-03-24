@@ -72,7 +72,7 @@ La **menú de cinta** funciona como un contenedor para los iconos de acciones fr
 
 En la versión de escritorio, es el área vertical situada en el extremo izquierdo.
 
-En la versión móvil, está representada por un botón de menú ( ![[lucide-menu.svg#icon]] ) en la [[#barra de estado|barra de estado]].
+En la versión móvil, está representada por un botón de menú ![[lucide-menu.svg#icon]] en la [[#barra de estado|barra de estado]].
 
 ## Barra lateral
 

@@ -22,7 +22,7 @@ Puoi riordinare i segnalibri selezionandoli e trascinandoli.
 Puoi aggiungere segnalibri agli elementi e organizzarli in _gruppi di segnalibri_ per trovarli più facilmente. Puoi espandere e comprimere i gruppi di segnalibri per mostrare o nascondere i segnalibri al loro interno.
 
 > [!todo]- Mostra segnalibri
-> Puoi trovare gli elementi contrassegnati facendo clic su **Segnalibri** ( ![[lucide-bookmark.svg#icon]] ) nella barra laterale sinistra.
+> Puoi trovare gli elementi contrassegnati facendo clic su **Segnalibri** ![[lucide-bookmark.svg#icon]] nella barra laterale sinistra.
 >
 > Oppure, apri la scheda Segnalibri eseguendo **Segnalibri: Mostra segnalibri** dalla [[Riquadro comandi]].
 
@@ -36,7 +36,7 @@ Quando aggiungi un segnalibro a un elemento, **Aggiungi segnalibro** diventa **M
 >
 > **Segnalibri**:
 >
-> - Seleziona **Aggiungi la scheda attiva ai segnalibri** ( ![[lucide-bookmark-plus.svg#icon]] ) nella parte superiore della scheda Segnalibri.
+> - Seleziona **Aggiungi la scheda attiva ai segnalibri** ![[lucide-bookmark-plus.svg#icon]] nella parte superiore della scheda Segnalibri.
 >
 > **Esplora file**:
 >
@@ -104,7 +104,7 @@ Puoi anche rimuovere un segnalibro dalla finestra di dialogo **Modifica segnalib
 
 **Segnalibri**:
 
-- Seleziona **Nuovo gruppo segnalibri** ( ![[lucide-folder-plus.svg#icon]] ) nella parte superiore della scheda Segnalibri.
+- Seleziona **Nuovo gruppo segnalibri** ![[lucide-folder-plus.svg#icon]] nella parte superiore della scheda Segnalibri.
 
 Per spostare un segnalibro in un altro gruppo, selezionalo e trascinalo nel gruppo in cui desideri spostarlo.
 

@@ -6,7 +6,7 @@ Daily notes is a [[Core plugins|core plugin]] that opens a note based on today's
 
 To open today's daily note, either:
 
-- Click **Open today's daily note** ( ![[lucide-calendar.svg#icon]] ) in the [[Ribbon|ribbon]].
+- Click **Open today's daily note** ![[lucide-calendar.svg#icon]] in the [[Ribbon|ribbon]].
 - Run **Open today's daily note** from the [[Command palette]].
 - [[Hotkeys#Set a hotkey|Use a hotkey]] for the **Open today's daily note** command.
 

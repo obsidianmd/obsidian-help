@@ -56,23 +56,23 @@ Para actualizar un complemento individual:
 
 1. Abre **[[Configuración]]**.
 2. En el menú lateral, selecciona **Complementos creados por la comunidad**.
-3. En **Complementos instalados**, selecciona el icono de papelera ( ![[lucide-trash-2.svg#icon]] ) junto al complemento que deseas desinstalar.
+3. En **Complementos instalados**, selecciona el icono de papelera ![[lucide-trash-2.svg#icon]] junto al complemento que deseas desinstalar.
 4. Selecciona **Desinstalar** para confirmar.
 
 ## Administrar complementos instalados
 
 En **[[Configuración]] → Complementos creados por la comunidad → Complementos instalados**, cada complemento tiene varios iconos para administrarlo:
 
-- **[[Configuración]]** ( ![[lucide-settings.svg#icon]] ) — Abrir la página de ajustes del complemento si tiene opciones configurables.
-- **[[Teclas de acceso rápido]]** ( ![[lucide-plus-circle.svg#icon]] ) — Establecer atajos de teclado para los comandos del complemento.
-- **Financiación** ( ![[lucide-heart.svg#icon]] ) — Ver la URL de financiación del autor del complemento para apoyar su trabajo.
-- **Desinstalar** ( ![[lucide-trash-2.svg#icon]] ) — Eliminar el complemento de tu bóveda.
+- **[[Configuración]]** ![[lucide-settings.svg#icon]] — Abrir la página de ajustes del complemento si tiene opciones configurables.
+- **[[Teclas de acceso rápido]]** ![[lucide-plus-circle.svg#icon]] — Establecer atajos de teclado para los comandos del complemento.
+- **Financiación** ![[lucide-heart.svg#icon]] — Ver la URL de financiación del autor del complemento para apoyar su trabajo.
+- **Desinstalar** ![[lucide-trash-2.svg#icon]] — Eliminar el complemento de tu bóveda.
 - **Alternar** — Activar o desactivar el complemento sin desinstalarlo.
 
 También puedes:
 
 - Seleccionar el icono de **recargar** para recargar todos los complementos.
-- Seleccionar el icono de **carpeta** ( ![[lucide-folder-open.svg#icon]] ) para abrir la carpeta de complementos en tu [[Carpeta de configuración|carpeta de configuración]].
+- Seleccionar el icono de **carpeta** ![[lucide-folder-open.svg#icon]] para abrir la carpeta de complementos en tu [[Carpeta de configuración|carpeta de configuración]].
 - Usar la **barra de búsqueda** para filtrar complementos por nombre.
 
 ## Aprender más

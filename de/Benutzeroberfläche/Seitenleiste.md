@@ -12,14 +12,14 @@ Auf dem Desktop und größeren Tablets enthält die linke Seitenleiste die [[Men
 
 ### Desktop und größere Tablets
 
-Auf dem Desktop und größeren Tablets öffnest du eine eingeklappte Seitenleiste, indem du auf das Symbol zum Ausklappen links ( ![[obsidian-icon-side-bar-left.svg#icon]] ) oder rechts ( ![[obsidian-icon-side-bar-right.svg#icon]] ) klickst.
+Auf dem Desktop und größeren Tablets öffnest du eine eingeklappte Seitenleiste, indem du auf das Symbol zum Ausklappen links ![[obsidian-icon-side-bar-left.svg#icon]] oder rechts ![[obsidian-icon-side-bar-right.svg#icon]] klickst.
 
 ### Mobilgeräte und kleinere Tablets
 
 Auf Mobilgeräten und kleineren Tablets kannst du nicht sichtbare Seitenleisten auf folgende Weise öffnen:
 
 - Nach links oder rechts wischen
-- Das Symbol zum Ausklappen links ( ![[obsidian-icon-side-bar-left.svg#icon]] ) auswählen (nur linke Seitenleiste)
+- Das Symbol zum Ausklappen links ![[obsidian-icon-side-bar-left.svg#icon]] auswählen (nur linke Seitenleiste)
 - Die Optionen *Linke Seitenleiste umschalten* oder *Rechte Seitenleiste umschalten* in der [[Befehlspalette]] verwenden.
 
 ## Tabs

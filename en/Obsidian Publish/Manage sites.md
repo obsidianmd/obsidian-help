@@ -9,8 +9,8 @@ A site is a collection of notes that's hosted by Obsidian Publish and available 
 
 > [!note] The number of sites that you can have at the same time is determined by your Obsidian Publish subscription. Before you create a new site, make sure that your subscription allows it.
 
-1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
-2. If you already have an existing site, click **Switch site** ( ![[lucide-repeat.svg#icon]] ).
+1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
+2. If you already have an existing site, click **Switch site** ![[lucide-repeat.svg#icon]].
 3. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from publish.obsidian.md/my-amazing-site.
 4. Click **Create**.
 
@@ -18,29 +18,29 @@ A site is a collection of notes that's hosted by Obsidian Publish and available 
 
 > [!note] Notes remain in your vault even after you delete a site.
 
-1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
-2. Click **Switch site** ( ![[lucide-repeat.svg#icon]] ).
-3. Click **Delete site** ( ![[lucide-x.svg#icon]] ) to the right of the site you want to delete.
+1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
+2. Click **Switch site** ![[lucide-repeat.svg#icon]].
+3. Click **Delete site** ![[lucide-x.svg#icon]] to the right of the site you want to delete.
 4. Click **Delete** to confirm.
 
 ## Switch between sites
 
-1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
-2. Click **Switch site** ( ![[lucide-repeat.svg#icon]] ).
+1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
+2. Click **Switch site** ![[lucide-repeat.svg#icon]].
 3. Click **Choose** to the right of the site you want to switch to.
 
 ## Change the site ID
 
-1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
-2. Click **Switch site** ( ![[lucide-repeat.svg#icon]] ).
-3. Click **Edit site ID** ( ![[lucide-edit-3.svg#icon]] ) to the right of the site you want to edit.
+1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
+2. Click **Switch site** ![[lucide-repeat.svg#icon]].
+3. Click **Edit site ID** ![[lucide-edit-3.svg#icon]] to the right of the site you want to edit.
 4. In **Site ID**, enter the new ID for your site.
 5. Click **Change**.
 
 ## View site options
 
-1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
-2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
+1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
+2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
 
 ## Site options
 

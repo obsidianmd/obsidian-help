@@ -8,7 +8,7 @@ aliases:
 ---
 La Ricerca è un [[Plugin principali|plugin principale]] che ti aiuta a trovare dati nella tua cassaforte Obsidian utilizzando termini di ricerca e operatori per restringere i risultati.
 
-Per impostazione predefinita, puoi trovare la Ricerca nella barra laterale sinistra ( ![[lucide-search.svg#icon]] ). Puoi anche aprire la Ricerca premendo `Ctrl+Shift+F` (Windows/Linux) o `Command+Shift+F` (macOS).
+Per impostazione predefinita, puoi trovare la Ricerca nella barra laterale sinistra ![[lucide-search.svg#icon]]. Puoi anche aprire la Ricerca premendo `Ctrl+Shift+F` (Windows/Linux) o `Command+Shift+F` (macOS).
 
 - **Cerca il testo selezionato**: Se selezioni del testo nell'editor e apri la Ricerca con la scorciatoia da tastiera, la Ricerca ti mostra i risultati per il testo selezionato.
 - **Cerca termini di ricerca recenti**: Apri la Ricerca con un termine di ricerca vuoto per elencare i termini di ricerca recenti. Fai clic su uno qualsiasi di essi per utilizzare nuovamente il termine di ricerca.
@@ -104,7 +104,7 @@ Sia la proprietà che il valore consentono sotto-query, come le parentesi per il
 
 ## Cambiare la distinzione maiuscole/minuscole
 
-Per impostazione predefinita, i termini di ricerca non distinguono tra maiuscole e minuscole. Se vuoi cercare con la distinzione esatta delle maiuscole/minuscole del tuo termine di ricerca, seleziona **Maiuscole/minuscole** ( ![[obsidian-icon-upper-lowercase.svg#icon]] ) all'interno della barra di ricerca.
+Per impostazione predefinita, i termini di ricerca non distinguono tra maiuscole e minuscole. Se vuoi cercare con la distinzione esatta delle maiuscole/minuscole del tuo termine di ricerca, seleziona **Maiuscole/minuscole** ![[obsidian-icon-upper-lowercase.svg#icon]] all'interno della barra di ricerca.
 
 Questa impostazione può essere attivata e disattivata. Se l'icona **Maiuscole/minuscole** è evidenziata, significa che stai effettuando una ricerca con distinzione maiuscole/minuscole.
 
@@ -146,7 +146,7 @@ Per maggiori informazioni su come scrivere espressioni regolari, consulta la [gu
 
 ## Configurare le impostazioni di ricerca
 
-Per configurare la Ricerca, seleziona **Impostazioni ricerca** ( ![[lucide-sliders-horizontal.svg#icon]] ) sul lato destro della barra di ricerca per vedere le opzioni.
+Per configurare la Ricerca, seleziona **Impostazioni ricerca** ![[lucide-sliders-horizontal.svg#icon]] sul lato destro della barra di ricerca per vedere le opzioni.
 
 | Impostazione                     | Descrizione                                                                   |
 |----------------------------------|-------------------------------------------------------------------------------|

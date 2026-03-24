@@ -15,8 +15,8 @@ Pour un meilleur contrôle d'accès sur votre site Publish, appliquez un mot de 
 
 ### Ajouter un mot de passe de site
 
-1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
-2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ![[lucide-send.svg#icon]].
+2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ![[lucide-cog.svg#icon]].
 3. Sous **Autres paramètres du site**, à côté de **Mots de passe**, cliquez sur **Gérer**.
 4. Cliquez sur **Nouveau mot de passe**.
 5. Dans **Mot de passe**, saisissez un mot de passe pour votre site.
@@ -25,8 +25,8 @@ Pour un meilleur contrôle d'accès sur votre site Publish, appliquez un mot de 
 
 ### Supprimer un mot de passe de site
 
-1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
-2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ![[lucide-send.svg#icon]].
+2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ![[lucide-cog.svg#icon]].
 3. Sous **Autres paramètres du site**, à côté de **Mots de passe**, cliquez sur **Gérer**.
 5. Cliquez sur l'icône en forme de croix à côté du mot de passe que vous souhaitez supprimer.
 

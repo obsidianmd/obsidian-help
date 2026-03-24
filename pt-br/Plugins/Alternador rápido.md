@@ -8,7 +8,7 @@ Navegação rápida é um [[Plugins nativos|plugin nativo]] que permite pesquisa
 
 Existem várias maneiras de abrir a Navegação rápida, quando está ativada:
 - Pressione `Ctrl+O` (ou `Cmd+O` no macOS) para abrir a Navegação rápida;
-- No menu lateral, clique em **Abrir a troca rápida** ( ![[lucide-file-search.svg#icon]] );
+- No menu lateral, clique em **Abrir a troca rápida** ![[lucide-file-search.svg#icon]];
 - No celular, quando você não está editando uma nota, toque no ícone de mais na parte inferior central do aplicativo.
 
 ## Abrir uma nota com a Navegação rápida

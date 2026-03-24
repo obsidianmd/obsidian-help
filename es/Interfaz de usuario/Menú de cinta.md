@@ -8,15 +8,15 @@ El menú de cinta funciona como un espacio para comandos comunes dentro de Obsid
 
 En escritorio, se encuentra en la [[Barra lateral#Abrir barras laterales ocultas|barra lateral izquierda]] y permanece visible incluso cuando la barra lateral izquierda está cerrada.
 
-En móvil, puedes acceder a las [[Aplicación móvil#Acciones del menú de cinta|acciones del menú de cinta]] tocando la **opción de Menú** ( ![[lucide-menu.svg#icon]] ) en la esquina inferior derecha de la aplicación cuando no estás editando una nota.
+En móvil, puedes acceder a las [[Aplicación móvil#Acciones del menú de cinta|acciones del menú de cinta]] tocando la **opción de Menú** ![[lucide-menu.svg#icon]] en la esquina inferior derecha de la aplicación cuando no estás editando una nota.
 
 ## Acciones
 
 Cada acción está representada por un icono en el menú de cinta. Al pasar el cursor sobre estos iconos se mostrará una descripción emergente, mientras que al seleccionarlos se activará la acción asociada. En móvil, puedes tocar estos iconos para activarlos.
 
-1. Abrir el **[[Gestionar bóvedas|Selector de bóvedas]]** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
-2. Acceder a la **ayuda** ( ![[lucide-help-circle.svg#icon]] ).
-3. Abrir **[[Configuración]]** ( ![[lucide-settings.svg#icon]] ).
+1. Abrir el **[[Gestionar bóvedas|Selector de bóvedas]]** ![[obsidian-icon-vault-switcher.svg#icon]].
+2. Acceder a la **ayuda** ![[lucide-help-circle.svg#icon]].
+3. Abrir **[[Configuración]]** ![[lucide-settings.svg#icon]].
 
 En la versión móvil, puedes configurar una acción de acceso rápido en el menú de cinta. Para más información, consulta la [[#Móvil|sección móvil]] y [[Aplicación móvil]].
 
@@ -54,7 +54,7 @@ Si has ocultado el menú de cinta y deseas mostrarla de nuevo:
 
 En la versión móvil de Obsidian, puedes realizar acciones de acceso rápido, reordenar elementos y personalizar el menú de cinta. Para acceder a estas personalizaciones, sigue estos pasos:
 
-1. Abre los **[[Configuración|Ajustes]]** de Obsidian ( ![[lucide-cog.svg#icon]] ).
+1. Abre los **[[Configuración|Ajustes]]** de Obsidian ![[lucide-cog.svg#icon]].
 2. Navega a la sección de **apariencia**.
 3. Desplázate hacia abajo hasta las opciones **avanzadas**.
 4. Selecciona el botón **Administrar** bajo el elemento **Ajustes del menú de cinta**.
@@ -70,8 +70,8 @@ Por defecto, la opción de acceso rápido está configurada como "Abrir el menú
 
 #### Reordenar y visibilidad
 
-Para cambiar el orden de los elementos en el menú de cinta, mantén presionado el botón de **arrastrar y soltar** ( ![[lucide-menu.svg#icon]] ) y mueve el elemento seleccionado hacia arriba o hacia abajo.
+Para cambiar el orden de los elementos en el menú de cinta, mantén presionado el botón de **arrastrar y soltar** ![[lucide-menu.svg#icon]] y mueve el elemento seleccionado hacia arriba o hacia abajo.
 
-Puedes mostrar u ocultar elementos en el menú de cinta usando los botones rojo de **eliminar** ( ![[lucide-minus-circle.svg#icon]] ) o verde de **añadir** ( ![[lucide-plus-circle.svg#icon]] ) para alternar su visibilidad.
+Puedes mostrar u ocultar elementos en el menú de cinta usando los botones rojo de **eliminar** ![[lucide-minus-circle.svg#icon]] o verde de **añadir** ![[lucide-plus-circle.svg#icon]] para alternar su visibilidad.
 
  ![[ribbon-rearrange-visibility.jpeg#interface]]

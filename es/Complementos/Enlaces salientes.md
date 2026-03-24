@@ -6,7 +6,7 @@ description: Enlaces salientes es un complemento principal que muestra los enlac
 ---
 [[Enlaces salientes]] es un [[Complementos principales|complemento principal]] que muestra los enlaces de la nota activa de un vistazo, así como posibles enlaces por crear. Es similar al complemento de [[Enlace de retorno]], que en cambio muestra los enlaces _entrantes_ hacia la nota activa.
 
-La pestaña de Enlaces salientes ( ![[obsidian-icon-links-going-out.svg#icon]] ) está disponible en la barra lateral derecha y contiene las siguientes secciones:
+La pestaña de Enlaces salientes ![[obsidian-icon-links-going-out.svg#icon]] está disponible en la barra lateral derecha y contiene las siguientes secciones:
 
 - **Enlaces** lista todos los enlaces en la nota activa. Haz clic en un enlace para abrir la nota enlazada.
 - **Menciones no enlazadas** lista cualquier texto en la nota activa que coincida con el nombre o [[Alias|alias]] de otra nota en tu bóveda. Las menciones no enlazadas te ayudan a descubrir enlaces de los que aún no eras consciente.

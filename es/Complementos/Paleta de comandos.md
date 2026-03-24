@@ -7,7 +7,7 @@ El [[Complementos principales|complemento]] de la Paleta de comandos te permite 
 
 Para ejecutar un comando desde la Paleta de comandos:
 
-1. Presiona `Ctrl+P` (o `Cmd+P` en macOS) para abrir la Paleta de comandos. También puedes abrirla desde la [[Menú de cinta]] con el icono de Paleta de comandos ( ![[lucide-terminal.svg#icon]] ).
+1. Presiona `Ctrl+P` (o `Cmd+P` en macOS) para abrir la Paleta de comandos. También puedes abrirla desde la [[Menú de cinta]] con el icono de Paleta de comandos ![[lucide-terminal.svg#icon]].
 2. Escribe el nombre del comando que deseas ejecutar.
 3. Navega hasta el comando usando las teclas de flecha.
 4. Presiona `Enter`.

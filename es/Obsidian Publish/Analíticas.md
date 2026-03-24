@@ -12,8 +12,8 @@ Para usar analíticas en tu sitio de [[Introducción a Obsidian Publish|Obsidian
 
 Para activar Google Analytics en tu sitio de Obsidian Publish:
 
-1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
-2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ( ![[lucide-cog.svg#icon]] ).
+1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ![[lucide-send.svg#icon]].
+2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ![[lucide-cog.svg#icon]].
 3. En **Código de seguimiento de Google Analytics**, introduce tu código de seguimiento.
 
 Para usar Google Tag Manager en lugar de Google Analytics, utiliza JavaScript personalizado para añadir tus propios scripts.

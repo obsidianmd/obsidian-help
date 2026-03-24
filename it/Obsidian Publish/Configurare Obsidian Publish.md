@@ -37,7 +37,7 @@ Puoi accedere a Publish attraverso le seguenti opzioni: la tavolozza dei comandi
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Apri la **Tavolozza dei comandi** ( ![[lucide-terminal.svg#icon]] ).
+1. Apri la **Tavolozza dei comandi** ![[lucide-terminal.svg#icon]].
 2. Digita "Publish".
 3. Seleziona l'opzione **Publish: Pubblica modifiche**.
 
@@ -45,8 +45,8 @@ La finestra **Pubblica modifiche** apparirà in un nuovo pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Apri la [[Barra multifunzione]] ( ![[lucide-menu.svg#icon]] ).
-2. Apri la **Tavolozza dei comandi** ( ![[lucide-terminal.svg#icon]] ).
+1. Apri la [[Barra multifunzione]] ![[lucide-menu.svg#icon]].
+2. Apri la **Tavolozza dei comandi** ![[lucide-terminal.svg#icon]].
 3. Digita "Publish".
 4. Seleziona l'opzione **Publish: Pubblica modifiche**.
 
@@ -67,15 +67,15 @@ Puoi anche accedere a Obsidian Publish tramite la [[Barra multifunzione|barra de
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Apri la [[Barra laterale|barra laterale]] sinistra ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Seleziona l'icona **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
+1. Apri la [[Barra laterale|barra laterale]] sinistra ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Seleziona l'icona **Pubblica modifiche** ![[lucide-send.svg#icon]].
 
 La finestra **Pubblica modifiche** apparirà in un nuovo pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Apri la [[Barra multifunzione]] ( ![[lucide-menu.svg#icon]] ).
-2. Seleziona l'icona **Pubblica modifiche** ( ![[lucide-send.svg#icon]] ).
+1. Apri la [[Barra multifunzione]] ![[lucide-menu.svg#icon]].
+2. Seleziona l'icona **Pubblica modifiche** ![[lucide-send.svg#icon]].
 
 Il menu **Pubblica modifiche** apparirà come un pannello scorrevole dal basso.
 
@@ -87,7 +87,7 @@ Il menu **Pubblica modifiche** apparirà come un pannello scorrevole dal basso.
 ### Imposta un nome per il sito
 
 1. [[#Apri Publish]]
-2. Seleziona **Modifica le opzioni del sito** ( ![[lucide-cog.svg#icon]] ).
+2. Seleziona **Modifica le opzioni del sito** ![[lucide-cog.svg#icon]].
 3. In **Nome sito**, sotto **Generale**, inserisci il nome del tuo sito.
 4. Seleziona **Salva opzioni sito**.
 

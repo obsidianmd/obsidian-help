@@ -10,15 +10,15 @@ La barra degli strumenti funziona come spazio per i comandi comuni all'interno d
 
 Su desktop, si trova nella [[Barra laterale#Aprire le barre laterali nascoste|barra laterale sinistra]] e rimane visibile anche quando la barra laterale sinistra è chiusa.
 
-Su mobile, è possibile accedere alle [[App mobile#Azioni della barra degli strumenti|azioni della barra degli strumenti]] toccando l'**opzione Menu** ( ![[lucide-menu.svg#icon]] ) nell'angolo in basso a destra dell'app quando non si sta modificando una nota.
+Su mobile, è possibile accedere alle [[App mobile#Azioni della barra degli strumenti|azioni della barra degli strumenti]] toccando l'**opzione Menu** ![[lucide-menu.svg#icon]] nell'angolo in basso a destra dell'app quando non si sta modificando una nota.
 
 ## Azioni
 
 Ogni azione è rappresentata da un'icona nella barra degli strumenti. Passando il mouse su queste icone verrà visualizzato un suggerimento, mentre selezionandole si attiverà l'azione associata. Su mobile, è possibile toccare queste icone per attivarle.
 
-1. Apri il **[[Gestisci casseforti|Selettore cassaforte]]** ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
-2. Accedi all'**aiuto** ( ![[lucide-help-circle.svg#icon]] ).
-3. Apri le **[[Impostazioni]]** ( ![[lucide-settings.svg#icon]] ).
+1. Apri il **[[Gestisci casseforti|Selettore cassaforte]]** ![[obsidian-icon-vault-switcher.svg#icon]].
+2. Accedi all'**aiuto** ![[lucide-help-circle.svg#icon]].
+3. Apri le **[[Impostazioni]]** ![[lucide-settings.svg#icon]].
 
 Nella versione mobile, è possibile configurare un'azione di accesso rapido sulla barra degli strumenti. Per ulteriori informazioni, consulta la [[#Mobile|sezione mobile]] e [[App mobile]].
 
@@ -56,7 +56,7 @@ Se la barra degli strumenti è stata nascosta e si desidera visualizzarla nuovam
 
 Nella versione mobile di Obsidian, è possibile eseguire azioni di accesso rapido, riordinare gli elementi e personalizzare il menu della barra degli strumenti. Per accedere a queste personalizzazioni, seguire questi passaggi:
 
-1. Aprire le **[[Impostazioni]]** di Obsidian ( ![[lucide-cog.svg#icon]] ).
+1. Aprire le **[[Impostazioni]]** di Obsidian ![[lucide-cog.svg#icon]].
 2. Navigare alla sezione **Aspetto**.
 3. Scorrere verso il basso fino alle opzioni **Avanzate**.
 4. Selezionare il pulsante **Gestisci** sotto la voce **Configurazione barra multifunzione**.
@@ -72,8 +72,8 @@ Per impostazione predefinita, l'opzione di accesso rapido è impostata su "Apri 
 
 #### Riordinamento e visibilità
 
-Per cambiare l'ordine degli elementi nel menu della barra degli strumenti, tenere premuto il pulsante **trascina e rilascia** ( ![[lucide-menu.svg#icon]] ) e spostare l'elemento selezionato verso l'alto o verso il basso.
+Per cambiare l'ordine degli elementi nel menu della barra degli strumenti, tenere premuto il pulsante **trascina e rilascia** ![[lucide-menu.svg#icon]] e spostare l'elemento selezionato verso l'alto o verso il basso.
 
-È possibile mostrare o nascondere gli elementi nel menu della barra degli strumenti utilizzando i pulsanti rosso **rimuovi** ( ![[lucide-minus-circle.svg#icon]] ) o verde **aggiungi** ( ![[lucide-plus-circle.svg#icon]] ) per alternarne la visibilità.
+È possibile mostrare o nascondere gli elementi nel menu della barra degli strumenti utilizzando i pulsanti rosso **rimuovi** ![[lucide-minus-circle.svg#icon]] o verde **aggiungi** ![[lucide-plus-circle.svg#icon]] per alternarne la visibilità.
  
  ![[ribbon-rearrange-visibility.jpeg#interface]]

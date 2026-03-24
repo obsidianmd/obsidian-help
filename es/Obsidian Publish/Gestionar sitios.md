@@ -9,8 +9,8 @@ Un sitio es una colección de notas alojada por Obsidian Publish y disponible en
 
 > [!note] El número de sitios que puedes tener al mismo tiempo está determinado por tu suscripción a Obsidian Publish. Antes de crear un nuevo sitio, asegúrate de que tu suscripción lo permita.
 
-1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
-2. Si ya tienes un sitio existente, haz clic en **Cambiar sitio** ( ![[lucide-repeat.svg#icon]] ).
+1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ![[lucide-send.svg#icon]].
+2. Si ya tienes un sitio existente, haz clic en **Cambiar sitio** ![[lucide-repeat.svg#icon]].
 3. En **ID de página web**, introduce la ruta que deseas para tu sitio. Por ejemplo, un sitio con el ID `my-amazing-site` estará disponible en publish.obsidian.md/my-amazing-site.
 4. Haz clic en **Crear**.
 
@@ -18,29 +18,29 @@ Un sitio es una colección de notas alojada por Obsidian Publish y disponible en
 
 > [!note] Las notas permanecen en tu bóveda incluso después de eliminar un sitio.
 
-1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
-2. Haz clic en **Cambiar sitio** ( ![[lucide-repeat.svg#icon]] ).
-3. Haz clic en **Eliminar página web** ( ![[lucide-x.svg#icon]] ) a la derecha del sitio que deseas eliminar.
+1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ![[lucide-send.svg#icon]].
+2. Haz clic en **Cambiar sitio** ![[lucide-repeat.svg#icon]].
+3. Haz clic en **Eliminar página web** ![[lucide-x.svg#icon]] a la derecha del sitio que deseas eliminar.
 4. Haz clic en **Eliminar** para confirmar.
 
 ## Cambiar entre sitios
 
-1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
-2. Haz clic en **Cambiar sitio** ( ![[lucide-repeat.svg#icon]] ).
+1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ![[lucide-send.svg#icon]].
+2. Haz clic en **Cambiar sitio** ![[lucide-repeat.svg#icon]].
 3. Haz clic en **Elegir** a la derecha del sitio al que deseas cambiar.
 
 ## Cambiar el ID del sitio
 
-1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
-2. Haz clic en **Cambiar sitio** ( ![[lucide-repeat.svg#icon]] ).
-3. Haz clic en **Editar ID de página web** ( ![[lucide-edit-3.svg#icon]] ) a la derecha del sitio que deseas editar.
+1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ![[lucide-send.svg#icon]].
+2. Haz clic en **Cambiar sitio** ![[lucide-repeat.svg#icon]].
+3. Haz clic en **Editar ID de página web** ![[lucide-edit-3.svg#icon]] a la derecha del sitio que deseas editar.
 4. En **ID de página web**, introduce el nuevo ID para tu sitio.
 5. Haz clic en **Cambio**.
 
 ## Ver opciones del sitio
 
-1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
-2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ( ![[lucide-cog.svg#icon]] ).
+1. En la barra de herramientas, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ![[lucide-send.svg#icon]].
+2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ![[lucide-cog.svg#icon]].
 
 ## Opciones del sitio
 

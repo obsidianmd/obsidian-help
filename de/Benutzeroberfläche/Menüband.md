@@ -8,15 +8,15 @@ Die Werkzeugleiste dient als Bereich für häufige Befehle in Obsidian.
 
 Auf dem Desktop befindet sie sich in der [[Seitenleiste#Verborgene Seitenleisten öffnen|linken Seitenleiste]] und bleibt sichtbar, auch wenn die linke Seitenleiste geschlossen ist.
 
-Auf Mobilgeräten kannst du auf die [[Mobile App#Werkzeugleisten-Aktionen|Werkzeugleisten-Aktionen]] zugreifen, indem du auf die **Menü-Option** ( ![[lucide-menu.svg#icon]] ) in der unteren rechten Ecke der App tippst, wenn du gerade keine Notiz bearbeitest.
+Auf Mobilgeräten kannst du auf die [[Mobile App#Werkzeugleisten-Aktionen|Werkzeugleisten-Aktionen]] zugreifen, indem du auf die **Menü-Option** ![[lucide-menu.svg#icon]] in der unteren rechten Ecke der App tippst, wenn du gerade keine Notiz bearbeitest.
 
 ## Aktionen
 
 Jede Aktion wird durch ein Symbol in der Werkzeugleiste dargestellt. Wenn du mit der Maus über diese Symbole fährst, wird ein Tooltip angezeigt, und durch Auswählen wird die zugehörige Aktion ausgelöst. Auf Mobilgeräten kannst du diese Symbole antippen, um sie zu aktivieren.
 
-1. **[[Vaults verwalten|Vault-Wechsler]]** öffnen ( ![[obsidian-icon-vault-switcher.svg#icon]] ).
-2. Auf **Hilfe** zugreifen ( ![[lucide-help-circle.svg#icon]] ).
-3. **[[Einstellungen]]** öffnen ( ![[lucide-settings.svg#icon]] ).
+1. **[[Vaults verwalten|Vault-Wechsler]]** öffnen ![[obsidian-icon-vault-switcher.svg#icon]].
+2. Auf **Hilfe** zugreifen ![[lucide-help-circle.svg#icon]].
+3. **[[Einstellungen]]** öffnen ![[lucide-settings.svg#icon]].
 
 In der mobilen Version kannst du eine Schnellzugriffsaktion in der Werkzeugleiste konfigurieren. Weitere Informationen findest du im [[#Mobil|Abschnitt für Mobilgeräte]] und unter [[Mobile App]].
 
@@ -54,7 +54,7 @@ Wenn du die Werkzeugleiste ausgeblendet hast und sie wieder anzeigen möchtest:
 
 In der mobilen Version von Obsidian kannst du Schnellzugriffsaktionen durchführen, Elemente neu anordnen und die Werkzeugleisten-Konfiguration anpassen. Um auf diese Anpassungen zuzugreifen, gehe wie folgt vor:
 
-1. Öffne die **[[Einstellungen]]** von Obsidian ( ![[lucide-cog.svg#icon]] ).
+1. Öffne die **[[Einstellungen]]** von Obsidian ![[lucide-cog.svg#icon]].
 2. Navigiere zum Abschnitt **Darstellung**.
 3. Scrolle nach unten zu den **erweiterten** Optionen.
 4. Wähle die Schaltfläche **Verwalten** unter dem Eintrag **Werkzeugleisten-Konfiguration**.
@@ -70,8 +70,8 @@ Standardmäßig ist die Schnellzugriffsoption auf „Werkzeugleiste öffnen" bei
 
 #### Anordnung und Sichtbarkeit
 
-Um die Reihenfolge der Elemente in der Werkzeugleiste zu ändern, halte die **Ziehen-und-Ablegen**-Schaltfläche ( ![[lucide-menu.svg#icon]] ) gedrückt und verschiebe das ausgewählte Element nach oben oder unten.
+Um die Reihenfolge der Elemente in der Werkzeugleiste zu ändern, halte die **Ziehen-und-Ablegen**-Schaltfläche ![[lucide-menu.svg#icon]] gedrückt und verschiebe das ausgewählte Element nach oben oder unten.
 
-Du kannst Elemente in der Werkzeugleiste ein- oder ausblenden, indem du die rote **Entfernen**-Schaltfläche ( ![[lucide-minus-circle.svg#icon]] ) oder die grüne **Hinzufügen**-Schaltfläche ( ![[lucide-plus-circle.svg#icon]] ) verwendest, um deren Sichtbarkeit umzuschalten.
+Du kannst Elemente in der Werkzeugleiste ein- oder ausblenden, indem du die rote **Entfernen**-Schaltfläche ![[lucide-minus-circle.svg#icon]] oder die grüne **Hinzufügen**-Schaltfläche ![[lucide-plus-circle.svg#icon]] verwendest, um deren Sichtbarkeit umzuschalten.
 
  ![[ribbon-rearrange-visibility.jpeg#interface]]

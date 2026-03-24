@@ -35,7 +35,7 @@ Puedes acceder a Publish a través de las siguientes opciones: la paleta de coma
 
 **Escritorio/Tableta** ![[lucide-monitor-check.svg#icon]]
 
-1. Abre la **Paleta de comandos** ( ![[lucide-terminal.svg#icon]] ).
+1. Abre la **Paleta de comandos** ![[lucide-terminal.svg#icon]].
 2. Escribe "Publish".
 3. Selecciona la opción **Publish: Publicar cambios...**.
 
@@ -43,8 +43,8 @@ La ventana **Publicar cambios** aparecerá en una nueva ventana emergente.
 
 **Móvil** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Abre la [[Menú de cinta]] ( ![[lucide-menu.svg#icon]] ).
-2. Abre la **Paleta de comandos** ( ![[lucide-terminal.svg#icon]] ).
+1. Abre la [[Menú de cinta]] ![[lucide-menu.svg#icon]].
+2. Abre la **Paleta de comandos** ![[lucide-terminal.svg#icon]].
 3. Escribe "Publish".
 4. Selecciona la opción **Publish: Publicar cambios...**.
 
@@ -65,15 +65,15 @@ También puedes acceder a Obsidian Publish a través de la [[Menú de cinta|men�
 
 **Escritorio/Tableta** ![[lucide-monitor-check.svg#icon]]
 
-1. Abre la [[Barra lateral]] izquierda ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Selecciona el icono **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
+1. Abre la [[Barra lateral]] izquierda ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Selecciona el icono **Publicar cambios** ![[lucide-send.svg#icon]].
 
 La ventana **Publicar cambios** aparecerá en una nueva ventana emergente.
 
 **Móvil** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Abre la [[Menú de cinta]] ( ![[lucide-menu.svg#icon]] ).
-2. Selecciona el icono **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
+1. Abre la [[Menú de cinta]] ![[lucide-menu.svg#icon]].
+2. Selecciona el icono **Publicar cambios** ![[lucide-send.svg#icon]].
 
 El menú **Publicar cambios** aparecerá como un panel deslizante.
 
@@ -85,7 +85,7 @@ El menú **Publicar cambios** aparecerá como un panel deslizante.
 ### Establecer un nombre de sitio
 
 1. [[#Abrir Publish]]
-2. Selecciona **Cambiar ajustes de sitio** ( ![[lucide-cog.svg#icon]] ).
+2. Selecciona **Cambiar ajustes de sitio** ![[lucide-cog.svg#icon]].
 3. En **Nombre de la página web**, bajo **General**, ingresa el nombre de tu sitio.
 4. Selecciona **Guardar ajustes de sitio**.
 

@@ -9,7 +9,7 @@ Der Audio-Rekorder ist eine [[Obsidian-Erweiterungen|Obsidian-Erweiterung]], mit
 ## Audio in einer Notiz aufnehmen
 
 1. Erstelle eine neue Notiz oder öffne eine vorhandene Notiz.
-2. Klicke in der Werkzeugleiste auf **Audioaufzeichnung starten/stoppen** ( ![[lucide-mic.svg#icon]] ), um die Aufnahme zu starten. Die Aufnahme beginnt, sobald das Symbol die Farbe wechselt.
+2. Klicke in der Werkzeugleiste auf **Audioaufzeichnung starten/stoppen** ![[lucide-mic.svg#icon]], um die Aufnahme zu starten. Die Aufnahme beginnt, sobald das Symbol die Farbe wechselt.
 3. Klicke erneut auf das Symbol, um die Aufnahme zu stoppen und sie deiner Notiz hinzuzufügen.
 
 Obsidian speichert die aufgenommene Audiodatei in deinem Vault und [[Dateien einbetten|bettet]] sie am Ende der aktiven Notiz ein.

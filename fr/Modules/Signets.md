@@ -24,7 +24,7 @@ Vous pouvez réorganiser les signets en les sélectionnant et en les glissant-d�
 Vous pouvez mettre en signet des éléments et les organiser en _groupes de signets_ pour les retrouver plus facilement. Vous pouvez déplier et plier les groupes de signets pour afficher ou masquer les signets qu'ils contiennent.
 
 > [!todo]- Afficher les signets
-> Vous pouvez retrouver vos éléments mis en signet en cliquant sur **Signets** ( ![[lucide-bookmark.svg#icon]] ) dans la barre latérale gauche.
+> Vous pouvez retrouver vos éléments mis en signet en cliquant sur **Signets** ![[lucide-bookmark.svg#icon]] dans la barre latérale gauche.
 >
 > Ou bien, ouvrez l'onglet Signets en exécutant **Signets : Afficher les signets** depuis la [[Palette de commandes]].
 
@@ -38,7 +38,7 @@ Lorsque vous mettez un élément en signet, **Ajouter un signet** devient **Modi
 >
 > **Signets** :
 >
-> - Sélectionnez **Mettre l'onglet actif en signet** ( ![[lucide-bookmark-plus.svg#icon]] ) en haut de l'onglet Signets.
+> - Sélectionnez **Mettre l'onglet actif en signet** ![[lucide-bookmark-plus.svg#icon]] en haut de l'onglet Signets.
 >
 > **Explorateur de fichiers** :
 >
@@ -106,7 +106,7 @@ Vous pouvez également supprimer un signet depuis la boîte de dialogue **Modifi
 
 **Signets** :
 
-- Sélectionnez **Nouveau groupe de signets** ( ![[lucide-folder-plus.svg#icon]] ) en haut de l'onglet Signets.
+- Sélectionnez **Nouveau groupe de signets** ![[lucide-folder-plus.svg#icon]] en haut de l'onglet Signets.
 
 Pour déplacer un signet vers un autre groupe, sélectionnez-le et glissez-le vers le groupe souhaité.
 

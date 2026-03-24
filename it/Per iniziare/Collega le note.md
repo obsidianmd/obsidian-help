@@ -46,13 +46,13 @@ Un altro modo per navigare tra le note è attraverso i _backlink_. Un backlink t
 Un altro modo per navigare tra le note è utilizzare una rappresentazione visiva di come le note sono connesse.
 
 **Desktop**
-1. Nell'angolo in alto a destra della nota, clicca **Altre opzioni** (![[lucide-more-horizontal.svg#icon]]).
+1. Nell'angolo in alto a destra della nota, clicca **Altre opzioni** ![[lucide-more-horizontal.svg#icon]].
 2. Seleziona **Apri vista collegata**.
 3. Seleziona **Apri grafo locale**.
 4. Clicca su qualsiasi nodo nel grafo per navigare a quella nota.
 
 **Mobile**
-1. Nella parte superiore della nota, seleziona **Altre opzioni** (![[lucide-more-horizontal.svg#icon]]).
+1. Nella parte superiore della nota, seleziona **Altre opzioni** ![[lucide-more-horizontal.svg#icon]].
 2. Seleziona **Apri grafo locale**.
 3. Clicca su qualsiasi nodo nel grafo per navigare a quella nota.
 

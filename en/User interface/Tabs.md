@@ -19,7 +19,7 @@ You can open as many tabs as you want in Obsidian. You can also arrange tabs to 
 
 ## Open a new tab
 
-At the top of the application window, next to the last tab on the right, select **New tab** ( ![[lucide-plus.svg#icon]] ). Or, use a keyboard shortcut:
+At the top of the application window, next to the last tab on the right, select **New tab** ![[lucide-plus.svg#icon]]. Or, use a keyboard shortcut:
 
 - **Windows and Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
@@ -120,7 +120,7 @@ For note tabs, you can use the following plugins as linked views:
 
 To open a linked view for a note tab:
 
-1. Select **More options** ( ![[lucide-more-horizontal.svg#icon]] ) in the upper right corner of the note.
+1. Select **More options** ![[lucide-more-horizontal.svg#icon]] in the upper right corner of the note.
 2. Under **Open linked view**, select the linked view you want to open.
 
 ## Save layouts

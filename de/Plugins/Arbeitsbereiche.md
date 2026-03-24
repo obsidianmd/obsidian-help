@@ -9,7 +9,7 @@ Ein Workspace enthält Informationen über geöffnete Dateien und Tabs sowie die
 
 **Werkzeugleiste:**
 
-1. Klicke in der Werkzeugleiste auf **Workspace-Layouts verwalten** ( ![[lucide-panels-top-left.svg#icon]] ).
+1. Klicke in der Werkzeugleiste auf **Workspace-Layouts verwalten** ![[lucide-panels-top-left.svg#icon]].
 2. Gib einen Namen für den Workspace ein.
 3. Wähle **Speichern**.
 
@@ -27,7 +27,7 @@ Um einen bestehenden Workspace zu aktualisieren, speichere den Workspace mit dem
 
 **Werkzeugleiste:**
 
-1. Klicke in der Werkzeugleiste auf **Workspace-Layouts verwalten** ( ![[lucide-panels-top-left.svg#icon]] ).
+1. Klicke in der Werkzeugleiste auf **Workspace-Layouts verwalten** ![[lucide-panels-top-left.svg#icon]].
 2. Wähle neben dem Workspace, den du laden möchtest, **Laden**.
 
 **Befehlspalette:**
@@ -41,12 +41,12 @@ Um einen bestehenden Workspace zu aktualisieren, speichere den Workspace mit dem
 
 **Werkzeugleiste:**
 
-1. Klicke in der Werkzeugleiste auf **Workspace-Layouts verwalten** ( ![[lucide-panels-top-left.svg#icon]] ).
-2. Wähle neben dem Workspace, den du löschen möchtest, **Layout löschen** ( ![[lucide-x.svg#icon]] ).
+1. Klicke in der Werkzeugleiste auf **Workspace-Layouts verwalten** ![[lucide-panels-top-left.svg#icon]].
+2. Wähle neben dem Workspace, den du löschen möchtest, **Layout löschen** ![[lucide-x.svg#icon]].
 
 **Befehlspalette:**
 
 1. Drücke `Strg+P` (oder `Cmd+P` unter macOS), um die [[Befehlspalette]] zu öffnen.
 2. Suche nach dem Befehl **Workspace-Layouts verwalten**.
 3. Drücke `Enter`, wenn der Befehl ausgewählt ist.
-4. Wähle neben dem Workspace, den du löschen möchtest, **Layout löschen** ( ![[lucide-x.svg#icon]] ).
+4. Wähle neben dem Workspace, den du löschen möchtest, **Layout löschen** ![[lucide-x.svg#icon]].

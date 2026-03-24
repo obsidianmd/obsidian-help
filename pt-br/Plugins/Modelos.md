@@ -12,7 +12,7 @@ Modelos é um [[Plugins nativos|plugin nativo]] que permite inserir trechos de t
 
 ## Defina sua pasta de modelos
 
-1. No canto inferior esquerdo, clique em **[[Configurações]]** ( ![[lucide-cog.svg#icon]] ).
+1. No canto inferior esquerdo, clique em **[[Configurações]]** ![[lucide-cog.svg#icon]].
 2. Em **Plugins nativos → Modelos → Localização da pasta de modelos**, insira a pasta que contém seus modelos.
 
 ## Variáveis de modelo

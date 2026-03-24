@@ -13,8 +13,8 @@ Para mejorar el control de acceso en tu sitio Publish, aplica una contraseña de
 
 ### Añadir una contraseña de sitio
 
-1. En el menú de cinta, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
-2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ( ![[lucide-cog.svg#icon]] ).
+1. En el menú de cinta, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ![[lucide-send.svg#icon]].
+2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ![[lucide-cog.svg#icon]].
 3. En **Otros ajustes de la página web**, junto a **Contraseñas**, haz clic en **Administrar**.
 4. Haz clic en **Nueva contraseña**.
 5. En **Contraseña**, introduce una contraseña para tu sitio.
@@ -23,8 +23,8 @@ Para mejorar el control de acceso en tu sitio Publish, aplica una contraseña de
 
 ### Eliminar una contraseña de sitio
 
-1. En el menú de cinta, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ( ![[lucide-send.svg#icon]] ).
-2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ( ![[lucide-cog.svg#icon]] ).
+1. En el menú de cinta, a la izquierda de la ventana de la aplicación, haz clic en **Publicar cambios** ![[lucide-send.svg#icon]].
+2. En el diálogo **Publicar cambios**, haz clic en **Cambiar ajustes de sitio** ![[lucide-cog.svg#icon]].
 3. En **Otros ajustes de la página web**, junto a **Contraseñas**, haz clic en **Administrar**.
 5. Haz clic en el icono de cruz junto a la contraseña que deseas eliminar.
 

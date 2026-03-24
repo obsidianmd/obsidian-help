@@ -17,7 +17,7 @@ Der Dateiexplorer ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], m
 
 Um eine neue Notiz am Standardordner für neue Notizen zu erstellen:
 
-1. Klicke auf **Neue Notiz** ( ![[lucide-pen-line.svg#icon]] ) oben im Dateiexplorer.
+1. Klicke auf **Neue Notiz** ![[lucide-pen-line.svg#icon]] oben im Dateiexplorer.
 2. Gib den Namen der Notiz ein und drücke dann Enter.
 
 > [!tip]- Standardordner ändern
@@ -32,7 +32,7 @@ Um eine neue Notiz in einem bestimmten Ordner zu erstellen:
 
 Um einen neuen Ordner im Stammverzeichnis deines Vaults zu erstellen:
 
-1. Klicke auf **Neuer Ordner** ( ![[lucide-folder-plus.svg#icon]] ) oben im Dateiexplorer.
+1. Klicke auf **Neuer Ordner** ![[lucide-folder-plus.svg#icon]] oben im Dateiexplorer.
 2. Gib den Namen des Ordners ein und drücke dann Enter.
 
 Um einen Unterordner zu erstellen:
@@ -44,7 +44,7 @@ Um einen Unterordner zu erstellen:
 
 Um die Sortierreihenfolge deiner Dateien zu ändern:
 
-1.  Wähle **Sortierreihenfolge ändern** ( ![[lucide-arrow-up-narrow-wide.svg#icon]] ) oben im Dateiexplorer.
+1.  Wähle **Sortierreihenfolge ändern** ![[lucide-arrow-up-narrow-wide.svg#icon]] oben im Dateiexplorer.
 2. Wähle aus, wie du deine Dateien sortieren möchtest. Du kannst in aufsteigender oder absteigender Reihenfolge nach Dateiname, Änderungsdatum oder Erstellungsdatum sortieren.
 
 ## Aktive Datei automatisch anzeigen
@@ -53,7 +53,7 @@ Wenn du eine Notiz öffnest, kann der Dateiexplorer automatisch zu dieser Notiz 
 
 Um die automatische Anzeige umzuschalten:
 
-- Wähle **Aktive Datei automatisch anzeigen** ( ![[lucide-gallery-vertical.svg#icon]] ) oben im Dateiexplorer.
+- Wähle **Aktive Datei automatisch anzeigen** ![[lucide-gallery-vertical.svg#icon]] oben im Dateiexplorer.
 
 Wenn aktiviert, folgt der Dateiexplorer automatisch der aktuell geöffneten Notiz und zeigt sie an.
 
@@ -63,11 +63,11 @@ Du kannst alle Ordner im Dateiexplorer auf einmal ausklappen oder einklappen.
 
 Um alle Ordner auszuklappen:
 
-- Wähle **Alle ausklappen** ( ![[lucide-chevrons-up-down.svg#icon]] ) oben im Dateiexplorer.
+- Wähle **Alle ausklappen** ![[lucide-chevrons-up-down.svg#icon]] oben im Dateiexplorer.
 
 Um alle Ordner einzuklappen:
 
-- Wähle **Alle einklappen** ( ![[lucide-chevrons-down-up.svg#icon]] ) oben im Dateiexplorer.
+- Wähle **Alle einklappen** ![[lucide-chevrons-down-up.svg#icon]] oben im Dateiexplorer.
 
 ## Eine Datei oder einen Ordner löschen
 

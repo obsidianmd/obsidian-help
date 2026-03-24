@@ -12,8 +12,8 @@ Puedes abrir la bóveda de pruebas de varias formas. En todos los casos, se abre
 
 **Barra lateral izquierda**
 
-1. Expande la **barra lateral izquierda** ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Junto al **selector de bóvedas**, presiona el icono de **Ayuda** ( ![[obsidian-icon-help.svg#icon]] ).
+1. Expande la **barra lateral izquierda** ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Junto al **selector de bóvedas**, presiona el icono de **Ayuda** ![[obsidian-icon-help.svg#icon]].
 3. Selecciona **Abrir** junto a la opción **Bóveda de Prueba**.
 
 **Paleta de comandos**

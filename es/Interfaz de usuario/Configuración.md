@@ -12,11 +12,11 @@ Los ajustes te permiten personalizar tu experiencia con Obsidian. Configura opci
 
 ### Escritorio
 
-En la [[Barra lateral#Abrir barras laterales ocultas|barra lateral izquierda]], selecciona **[[Configuración]]** ( ![[lucide-cog.svg#icon]] ). También puedes abrir los Ajustes con la [[Paleta de comandos]].
+En la [[Barra lateral#Abrir barras laterales ocultas|barra lateral izquierda]], selecciona **[[Configuración]]** ![[lucide-cog.svg#icon]]. También puedes abrir los Ajustes con la [[Paleta de comandos]].
 
 ### Móvil
 
-En la barra lateral izquierda, selecciona **[[Configuración]]** ( ![[lucide-cog.svg#icon]] ).
+En la barra lateral izquierda, selecciona **[[Configuración]]** ![[lucide-cog.svg#icon]].
 
 ## Organización de los ajustes
 
@@ -73,7 +73,7 @@ Si usas [Obsidian para el trabajo](<https://obsidian.md/es/blog/free-for-work/>)
 
 #### Notificar si la apertura tarda más de lo esperado
 
-Cuando está habilitado, Obsidian muestra una notificación si el inicio es inusualmente lento. La notificación incluye información diagnóstica sobre qué está causando la demora. Selecciona el icono de temporizador ( ![[lucide-timer.svg#icon]] ) junto a este ajuste para [[Ayuda y soporte#Verificar tiempo de inicio|verificar tu tiempo de inicio]].
+Cuando está habilitado, Obsidian muestra una notificación si el inicio es inusualmente lento. La notificación incluye información diagnóstica sobre qué está causando la demora. Selecciona el icono de temporizador ![[lucide-timer.svg#icon]] junto a este ajuste para [[Ayuda y soporte#Verificar tiempo de inicio|verificar tu tiempo de inicio]].
 
 ## Editor
 
@@ -270,7 +270,7 @@ Elige el color acentuado usado en toda la aplicación. Selecciona el selector de
 
 ### Temas
 
-Gestiona los [[Temas|temas]] instalados y explora los temas de la comunidad. Selecciona **Administrar** para ver e instalar temas. El menú desplegable muestra tu tema activo actualmente. El icono de carpeta ( ![[lucide-folder-open.svg#icon]] ) abre la carpeta de temas en tu [[Carpeta de configuración|carpeta de configuración]].
+Gestiona los [[Temas|temas]] instalados y explora los temas de la comunidad. Selecciona **Administrar** para ver e instalar temas. El menú desplegable muestra tu tema activo actualmente. El icono de carpeta ![[lucide-folder-open.svg#icon]] abre la carpeta de temas en tu [[Carpeta de configuración|carpeta de configuración]].
 
 ### Temas de la comunidad instalados
 
@@ -354,7 +354,7 @@ Activa la aceleración de hardware, que usa tu GPU para hacer que Obsidian sea m
 
 ### Fragmentos CSS
 
-Gestiona y visualiza los [[Fragmentos CSS|fragmentos CSS]] almacenados en tu bóveda. Los fragmentos CSS se almacenan en `/bóveda/.obsidian/snippets/`. Selecciona el icono de actualizar para recargar los fragmentos, o el icono de carpeta ( ![[lucide-folder-open.svg#icon]] ) para abrir la carpeta de fragmentos.
+Gestiona y visualiza los [[Fragmentos CSS|fragmentos CSS]] almacenados en tu bóveda. Los fragmentos CSS se almacenan en `/bóveda/.obsidian/snippets/`. Selecciona el icono de actualizar para recargar los fragmentos, o el icono de carpeta ![[lucide-folder-open.svg#icon]] para abrir la carpeta de fragmentos.
 
 ## Atajos de teclado
 
@@ -366,7 +366,7 @@ Usa la barra de búsqueda para filtrar comandos, y selecciona el icono de filtro
 
 Los [[Complementos principales]] son complementos integrados que vienen con Obsidian. Cada complemento añade funcionalidad específica a la aplicación.
 
-Para habilitar o deshabilitar un complemento principal, selecciona el conmutador junto al nombre del complemento. Selecciona el icono de más ( ![[lucide-plus-circle.svg#icon]] ) para ver los [[Teclas de acceso rápido|atajos de teclado]] del complemento. Selecciona el icono de ajustes ( ![[lucide-settings.svg#icon]] ) para abrir la página de ajustes del complemento.
+Para habilitar o deshabilitar un complemento principal, selecciona el conmutador junto al nombre del complemento. Selecciona el icono de más ![[lucide-plus-circle.svg#icon]] para ver los [[Teclas de acceso rápido|atajos de teclado]] del complemento. Selecciona el icono de ajustes ![[lucide-settings.svg#icon]] para abrir la página de ajustes del complemento.
 
 Usa la barra de búsqueda para filtrar complementos por nombre.
 

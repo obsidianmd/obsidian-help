@@ -14,8 +14,8 @@ Vous pouvez ouvrir le coffre de démonstration de plusieurs façons. Dans tous l
 
 **Barre latérale gauche**
 
-1. Développez la **barre latérale gauche** ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. À côté du **sélecteur de coffre**, appuyez sur l'icône **Aide** ( ![[obsidian-icon-help.svg#icon]] ).
+1. Développez la **barre latérale gauche** ![[obsidian-icon-side-bar-left.svg#icon]].
+2. À côté du **sélecteur de coffre**, appuyez sur l'icône **Aide** ![[obsidian-icon-help.svg#icon]].
 3. Sélectionnez **Ouvrir** à côté de l'option **Coffre de démonstration**.
 
 **Palette de commandes**

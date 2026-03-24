@@ -11,7 +11,7 @@ Un espace de travail contient des informations sur les fichiers et onglets ouver
 
 **Ruban :**
 
-1. Dans le ruban, cliquez sur **Gérer les dispositions d'espace de travail** ( ![[lucide-panels-top-left.svg#icon]] ).
+1. Dans le ruban, cliquez sur **Gérer les dispositions d'espace de travail** ![[lucide-panels-top-left.svg#icon]].
 2. Entrez un nom pour l'espace de travail.
 3. Sélectionnez **Enregistrer**.
 
@@ -29,7 +29,7 @@ Pour mettre à jour un espace de travail existant, enregistrez l'espace de trava
 
 **Ruban :**
 
-1. Dans le ruban, cliquez sur **Gérer les dispositions d'espace de travail** ( ![[lucide-panels-top-left.svg#icon]] ).
+1. Dans le ruban, cliquez sur **Gérer les dispositions d'espace de travail** ![[lucide-panels-top-left.svg#icon]].
 2. À côté de l'espace de travail que vous souhaitez charger, sélectionnez **Charger**.
 
 **Palette de commandes :**
@@ -43,12 +43,12 @@ Pour mettre à jour un espace de travail existant, enregistrez l'espace de trava
 
 **Ruban :**
 
-1. Dans le ruban, cliquez sur **Gérer les dispositions d'espace de travail** ( ![[lucide-panels-top-left.svg#icon]] ).
-2. À côté de l'espace de travail que vous souhaitez supprimer, sélectionnez **Supprimer la disposition** ( ![[lucide-x.svg#icon]] ).
+1. Dans le ruban, cliquez sur **Gérer les dispositions d'espace de travail** ![[lucide-panels-top-left.svg#icon]].
+2. À côté de l'espace de travail que vous souhaitez supprimer, sélectionnez **Supprimer la disposition** ![[lucide-x.svg#icon]].
 
 **Palette de commandes :**
 
 1. Appuyez sur `Ctrl+P` (ou `Cmd+P` sur macOS) pour ouvrir la [[Palette de commandes]].
 2. Recherchez la commande **Gérer les dispositions d'espace de travail**.
 3. Appuyez sur `Entrée` avec la commande sélectionnée.
-4. À côté de l'espace de travail que vous souhaitez supprimer, sélectionnez **Supprimer la disposition** ( ![[lucide-x.svg#icon]] ).
+4. À côté de l'espace de travail que vous souhaitez supprimer, sélectionnez **Supprimer la disposition** ![[lucide-x.svg#icon]].

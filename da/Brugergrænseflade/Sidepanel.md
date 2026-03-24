@@ -6,9 +6,9 @@ Obsidian har et sidepanel til venstre og et til højre. I desktop versionen og s
 
 ## Åben skjulte sidepaneler
 
-I desktop versione og på større tablets: Åben et skjult sidepanel ved at klikke på det venstre vis ikon ( ![[obsidian-icon-side-bar-left.svg#icon]] ) eller det højre vis ikon ( ![[obsidian-icon-side-bar-right.svg#icon]] ).
+I desktop versione og på større tablets: Åben et skjult sidepanel ved at klikke på det venstre vis ikon ![[obsidian-icon-side-bar-left.svg#icon]] eller det højre vis ikon ![[obsidian-icon-side-bar-right.svg#icon]].
 
-På mobil eller små tablets: Stryg til venstre eller højre, eller tryk på venstre vis ikon ( ![[obsidian-icon-side-bar-left.svg#icon]] ), eller tryk langt tid på note menuen ( ![[lucide-ellipsis-vertical.svg#icon]] ).
+På mobil eller små tablets: Stryg til venstre eller højre, eller tryk på venstre vis ikon ![[obsidian-icon-side-bar-left.svg#icon]], eller tryk langt tid på note menuen ![[lucide-ellipsis-vertical.svg#icon]].
 
 
 ## Faner

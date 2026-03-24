@@ -72,7 +72,7 @@ Die **Werkzeugleiste** dient als Container für häufig verwendete Aktionssymbol
 
 In der Desktop-Version ist sie der vertikale Bereich ganz links.
 
-In der mobilen Version wird sie durch eine Menü-Schaltfläche ( ![[lucide-menu.svg#icon]] ) in der [[#Statusleiste]] dargestellt.
+In der mobilen Version wird sie durch eine Menü-Schaltfläche ![[lucide-menu.svg#icon]] in der [[#Statusleiste]] dargestellt.
 
 ## Seitenleiste
 

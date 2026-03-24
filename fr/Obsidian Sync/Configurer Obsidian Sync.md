@@ -77,7 +77,7 @@ Si vous commencez la synchronisation après vous être connecté à un coffre di
 Si vous commencez la synchronisation après avoir ajusté les paramètres d'Obsidian Sync et redémarré l'application, vous verrez un bouton **Reprendre** dans les paramètres de Sync. Sélectionnez ce bouton pour lancer la synchronisation.
 
 > [!done] Statut de la synchronisation
-> Lorsqu'Obsidian Sync a terminé, un cercle vert avec une coche ( ![[obsidian-icon-sync-synced.svg#icon]] ) apparaît dans le coin inférieur droit (bureau) ou dans la barre latérale droite (mobile). Le journal de synchronisation affichera également « Fully Synced » comme l'un de ses messages les plus récents.
+> Lorsqu'Obsidian Sync a terminé, un cercle vert avec une coche ![[obsidian-icon-sync-synced.svg#icon]] apparaît dans le coin inférieur droit (bureau) ou dans la barre latérale droite (mobile). Le journal de synchronisation affichera également « Fully Synced » comme l'un de ses messages les plus récents.
 >
 > Pour plus de détails sur les statuts de synchronisation, consultez [[Icône de statut et messages]].
 ^obsidian-sync-status
@@ -157,7 +157,7 @@ Vous êtes maintenant déconnecté du coffre distant et ne synchronisez plus sur
 1. Ouvrez les **[[Paramètres]]**.
 2. Dans la barre latérale, sélectionnez **Sync**.
 3. Sélectionnez **Gérer** à côté de Coffres distants. Une fenêtre s'ouvrira avec la liste de vos coffres distants.
-4. Sélectionnez l'icône de la corbeille ( ![[lucide-trash-2.svg#icon]] ) à côté du coffre distant que vous souhaitez supprimer.
+4. Sélectionnez l'icône de la corbeille ![[lucide-trash-2.svg#icon]] à côté du coffre distant que vous souhaitez supprimer.
 5. Confirmez la suppression en sélectionnant le bouton rouge **Supprimer**.
 6. Votre coffre distant a été supprimé.
 

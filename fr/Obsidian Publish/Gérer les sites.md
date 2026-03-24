@@ -11,8 +11,8 @@ Un site est une collection de notes hébergée par Obsidian Publish et disponibl
 
 > [!note] Le nombre de sites que vous pouvez avoir simultanément est déterminé par votre abonnement Obsidian Publish. Avant de créer un nouveau site, assurez-vous que votre abonnement le permet.
 
-1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
-2. Si vous avez déjà un site existant, cliquez sur **Changer de site** ( ![[lucide-repeat.svg#icon]] ).
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ![[lucide-send.svg#icon]].
+2. Si vous avez déjà un site existant, cliquez sur **Changer de site** ![[lucide-repeat.svg#icon]].
 3. Dans **Identifiant du site**, entrez le chemin souhaité pour votre site. Par exemple, un site avec l'identifiant `my-amazing-site` est disponible à l'adresse publish.obsidian.md/my-amazing-site.
 4. Cliquez sur **Créer**.
 
@@ -20,29 +20,29 @@ Un site est une collection de notes hébergée par Obsidian Publish et disponibl
 
 > [!note] Les notes restent dans votre coffre même après la suppression d'un site.
 
-1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
-2. Cliquez sur **Changer de site** ( ![[lucide-repeat.svg#icon]] ).
-3. Cliquez sur **Supprimer le site** ( ![[lucide-x.svg#icon]] ) à droite du site que vous souhaitez supprimer.
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ![[lucide-send.svg#icon]].
+2. Cliquez sur **Changer de site** ![[lucide-repeat.svg#icon]].
+3. Cliquez sur **Supprimer le site** ![[lucide-x.svg#icon]] à droite du site que vous souhaitez supprimer.
 4. Cliquez sur **Supprimer** pour confirmer.
 
 ## Basculer entre les sites
 
-1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
-2. Cliquez sur **Changer de site** ( ![[lucide-repeat.svg#icon]] ).
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ![[lucide-send.svg#icon]].
+2. Cliquez sur **Changer de site** ![[lucide-repeat.svg#icon]].
 3. Cliquez sur **Choisir** à droite du site vers lequel vous souhaitez basculer.
 
 ## Modifier l'identifiant du site
 
-1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
-2. Cliquez sur **Changer de site** ( ![[lucide-repeat.svg#icon]] ).
-3. Cliquez sur **Modifier l'identifiant du site** ( ![[lucide-edit-3.svg#icon]] ) à droite du site que vous souhaitez modifier.
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ![[lucide-send.svg#icon]].
+2. Cliquez sur **Changer de site** ![[lucide-repeat.svg#icon]].
+3. Cliquez sur **Modifier l'identifiant du site** ![[lucide-edit-3.svg#icon]] à droite du site que vous souhaitez modifier.
 4. Dans **Identifiant du site**, entrez le nouvel identifiant pour votre site.
 5. Cliquez sur **Modifier**.
 
 ## Voir les options du site
 
-1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ( ![[lucide-send.svg#icon]] ).
-2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ( ![[lucide-cog.svg#icon]] ).
+1. Dans le ruban, à gauche de la fenêtre de l'application, cliquez sur **Publier les modifications** ![[lucide-send.svg#icon]].
+2. Dans la boîte de dialogue **Publier les modifications**, cliquez sur **Modifier les options du site** ![[lucide-cog.svg#icon]].
 
 ## Options du site
 

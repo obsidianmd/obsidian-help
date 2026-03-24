@@ -9,7 +9,7 @@ Para actualizar todos los enlaces `[[UID]]` en tu bóveda para que usen el nombr
 
 1. Abre **[[Configuración]]**.
 2. En **Complementos principales**, activa **Importador de formato Markdown** y cierra la ventana de Ajustes.
-3. En el menú de cinta, en el lado izquierdo de la ventana de la aplicación, selecciona **Open format convert** ( ![[lucide-binary.svg#icon]] ).
+3. En el menú de cinta, en el lado izquierdo de la ventana de la aplicación, selecciona **Open format convert** ![[lucide-binary.svg#icon]].
 4. Activa **Corrector de enlaces de Zettelkasten**.
 5. Selecciona **Empezar la conversión**. Esto convertirá todas las notas en toda tu bóveda.
 

@@ -12,7 +12,7 @@ Obsidian lader dig kontrollere, hvordan du læser og redigerer noter skrevet i M
 *Læsningsviewet* viser dine noter uden Markdown syntaks, så du har et fuld læsbart format.
 
 Sådan skifter du til *Læsningsview*:
-- Vælg viewskifteren (![[lucide-book-icon.svg#icon]]) i øverste højre hjørne af editoren
+- Vælg viewskifteren ![[lucide-book-icon.svg#icon]] i øverste højre hjørne af editoren
 - eller, tryk `Ctrl+E` (`Cmd+E` på macOS)
 
 > [!note]
@@ -25,7 +25,7 @@ Sådan skifter du til *Læsningsview*:
 *Redigeringsviewet* lader dig lave ændringer i dine noter. Det indlkuderer to redigeringstilstande: *Live forhåndsvisning* og *Kildetilstand*.
 
 For at skifte til *Redigeringsviewet*:
-- Vælg viewskifteren (![[lucide-edit-3.svg#icon]])
+- Vælg viewskifteren ![[lucide-edit-3.svg#icon]]
 - eller, tryk `Ctrl+E` (`Cmd+E` på macOS) igen
 - Eller anvend [[Kommandopaletten|kommandoen]] **Skift mellem læsning og redigering**
 

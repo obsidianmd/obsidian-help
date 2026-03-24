@@ -20,10 +20,10 @@ Obsidian recherche les extraits CSS dans le [[Dossier de configuration|dossier d
 
 Pour ajouter un extrait CSS sur **ordinateur** ![[lucide-monitor-check.svg#icon]], suivez ces étapes :
 
-1. Ouvrez les **[[Paramètres]]** ( ![[lucide-settings.svg#icon]] ).
-2. Sous **Apparence → Extraits CSS**, sélectionnez **Ouvrir le dossier des extraits** ( ![[lucide-folder-open.svg#icon]] ).
+1. Ouvrez les **[[Paramètres]]** ![[lucide-settings.svg#icon]].
+2. Sous **Apparence → Extraits CSS**, sélectionnez **Ouvrir le dossier des extraits** ![[lucide-folder-open.svg#icon]].
 3. Dans le dossier des extraits, créez un fichier CSS contenant votre extrait.
-4. Dans Obsidian, sous **Apparence → Extraits CSS**, sélectionnez **Recharger les extraits** ( ![[lucide-refresh-cw.svg#icon]] ) pour voir l'extrait dans la liste.
+4. Dans Obsidian, sous **Apparence → Extraits CSS**, sélectionnez **Recharger les extraits** ![[lucide-refresh-cw.svg#icon]] pour voir l'extrait dans la liste.
 5. Activez l'extrait en cliquant sur le bouton bascule.
 
 Pour ajouter un extrait CSS sur **mobile/tablette** ![[obsidian-icon-smartphone.svg#icon]], vous pouvez suivre ces étapes :
@@ -31,10 +31,10 @@ Pour ajouter un extrait CSS sur **mobile/tablette** ![[obsidian-icon-smartphone.
 1. Ouvrez un gestionnaire de fichiers et trouvez votre coffre. Vous pouvez vérifier l'emplacement du coffre dans _Gérer les coffres…_ en appuyant sur votre coffre et en regardant le chemin.
 2. Ouvrez le [[Dossier de configuration]] et créez un dossier appelé `snippets` s'il n'existe pas.
 3. Ajoutez votre extrait CSS dans ce dossier.
-4. Ouvrez les **[[Paramètres]]** d'Obsidian ( ![[lucide-settings.svg#icon]] ).
+4. Ouvrez les **[[Paramètres]]** d'Obsidian ![[lucide-settings.svg#icon]].
 5. Sélectionnez **Apparence** à gauche.
 6. Faites défiler jusqu'à la section **Extraits CSS**.
-7. Appuyez sur **Recharger les extraits** (![[lucide-refresh-cw.svg#icon]]) pour rafraîchir la liste.
+7. Appuyez sur **Recharger les extraits** ![[lucide-refresh-cw.svg#icon]] pour rafraîchir la liste.
 8. Appuyez sur le bouton bascule pour activer l'extrait.
 
 Alternativement, vous pouvez :

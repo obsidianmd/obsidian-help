@@ -5,7 +5,7 @@ Tägliche Notizen ist eine [[Obsidian-Erweiterungen|Obsidian-Erweiterung]], die 
 
 Um die heutige Tägliche Notiz zu öffnen, kannst du entweder:
 
-- Auf **Heutige Notiz öffnen** ( ![[lucide-calendar.svg#icon]] ) in der [[Menüband|Werkzeugleiste]] klicken.
+- Auf **Heutige Notiz öffnen** ![[lucide-calendar.svg#icon]] in der [[Menüband|Werkzeugleiste]] klicken.
 - **Heutige Notiz öffnen** über die [[Befehlspalette]] ausführen.
 - Ein [[Tastenkürzel#Tastenkombinationen festlegen|Tastenkürzel verwenden]] für den Befehl **Heutige Notiz öffnen**.
 

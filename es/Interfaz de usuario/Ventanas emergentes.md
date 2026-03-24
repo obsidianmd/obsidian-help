@@ -20,7 +20,7 @@ En la [[Paleta de comandos]], selecciona **Abrir panel actual en una ventana nue
 
 **Pestaña:**
 
-Haz clic derecho en una pestaña y selecciona **Abrir en una nueva ventana**. Alternativamente, selecciona **Más opciones** ( ![[lucide-ellipsis-vertical.svg#icon]] ) en la esquina superior derecha del editor, luego elige **Abrir en una nueva ventana**.
+Haz clic derecho en una pestaña y selecciona **Abrir en una nueva ventana**. Alternativamente, selecciona **Más opciones** ![[lucide-ellipsis-vertical.svg#icon]] en la esquina superior derecha del editor, luego elige **Abrir en una nueva ventana**.
 
 > [!tip] También puedes hacer clic derecho en un enlace en el editor y seleccionar **Abrir en una nueva ventana**.
 

@@ -31,7 +31,7 @@ Al editar una nota, notarás una fila de iconos en la parte inferior de la aplic
 
 ### Personalizar la barra de herramientas móvil
 
-En la barra de herramientas móvil, toca **Configurar la barra de herramientas móvil** ( ![[lucide-wrench.svg#icon]] ) para abrir la interfaz de personalización.
+En la barra de herramientas móvil, toca **Configurar la barra de herramientas móvil** ![[lucide-wrench.svg#icon]] para abrir la interfaz de personalización.
 
 Alternativamente, puedes hacerlo desde los Ajustes.
 
@@ -76,7 +76,7 @@ Con la opción **Alternar teclado** de la barra de herramientas, puedes cerrar l
 
 ### Regresar o avanzar
 
-En la barra de navegación, las dos primeras opciones te ayudan a regresar ( ![[lucide-chevron-left.svg#icon]] ) o avanzar ( ![[lucide-chevron-right.svg#icon]] ). Si una de las opciones no está disponible, el icono aparece en gris.
+En la barra de navegación, las dos primeras opciones te ayudan a regresar ![[lucide-chevron-left.svg#icon]] o avanzar ![[lucide-chevron-right.svg#icon]]. Si una de las opciones no está disponible, el icono aparece en gris.
 
 ### Crear o buscar nota
 
@@ -90,7 +90,7 @@ Cuando lo toques, podrás cambiar a cualquier pestaña abierta. También puedes 
 
 ### Acciones del menú de cinta
 
-La aplicación móvil no tiene [[Menú de cinta]]. En su lugar, las acciones del menú de cinta estarán disponibles al tocar **Abrir menú** ( ![[lucide-menu.svg#icon]] ), la última opción en la barra de navegación.
+La aplicación móvil no tiene [[Menú de cinta]]. En su lugar, las acciones del menú de cinta estarán disponibles al tocar **Abrir menú** ![[lucide-menu.svg#icon]], la última opción en la barra de navegación.
 
 ### Barras laterales
 

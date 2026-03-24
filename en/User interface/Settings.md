@@ -13,11 +13,11 @@ Settings allow you to customize your Obsidian experience. Configure general opti
 
 ### Desktop
 
-In the [[Sidebar#Open hidden sidebars|left sidebar]], select **[[Settings]]** ( ![[lucide-cog.svg#icon]] ). You can also open Settings with the [[Command palette]].
+In the [[Sidebar#Open hidden sidebars|left sidebar]], select **[[Settings]]** ![[lucide-cog.svg#icon]]. You can also open Settings with the [[Command palette]].
 
 ### Mobile
 
-In the left sidebar, select **[[Settings]]** ( ![[lucide-cog.svg#icon]] ).
+In the left sidebar, select **[[Settings]]** ![[lucide-cog.svg#icon]].
 
 ## Settings organization
 
@@ -74,7 +74,7 @@ If you support [Obsidian for work](<https://obsidian.md/blog/free-for-work/>), s
 
 #### Notify if startup takes longer than expected
 
-When enabled, Obsidian displays a notification if startup is unusually slow. The notification includes diagnostic information about what's causing the delay. Select the timer icon ( ![[lucide-timer.svg#icon]] ) next to this setting to [[Help and support#Check startup time|check your startup time]].
+When enabled, Obsidian displays a notification if startup is unusually slow. The notification includes diagnostic information about what's causing the delay. Select the timer icon ![[lucide-timer.svg#icon]] next to this setting to [[Help and support#Check startup time|check your startup time]].
 
 ## Editor
 
@@ -271,7 +271,7 @@ Choose the accent color used throughout the app. Select the color picker or rese
 
 ### Themes
 
-Manage installed [[Themes|themes]] and browse community themes. Select **Manage** to view and install themes. The dropdown shows your currently active theme. The folder icon ( ![[lucide-folder-open.svg#icon]] ) opens the themes folder in your [[Configuration folder|configuration folder]].
+Manage installed [[Themes|themes]] and browse community themes. Select **Manage** to view and install themes. The dropdown shows your currently active theme. The folder icon ![[lucide-folder-open.svg#icon]] opens the themes folder in your [[Configuration folder|configuration folder]].
 
 ### Current community themes
 
@@ -355,7 +355,7 @@ Turns on Hardware Acceleration, which uses your GPU to make Obsidian smoother. I
 
 ### CSS snippets
 
-Manage and view [[CSS snippets|CSS snippets]] stored in your vault. CSS Snippets are stored in `/vault/.obsidian/snippets/`. Select the refresh icon to reload snippets, or the folder icon ( ![[lucide-folder-open.svg#icon]] ) to open the snippets folder.
+Manage and view [[CSS snippets|CSS snippets]] stored in your vault. CSS Snippets are stored in `/vault/.obsidian/snippets/`. Select the refresh icon to reload snippets, or the folder icon ![[lucide-folder-open.svg#icon]] to open the snippets folder.
 
 ## Hotkeys
 
@@ -367,7 +367,7 @@ Use the search bar to filter commands, and select the filter icon to show only c
 
 [[Core plugins]] are built-in plugins that come with Obsidian. Each plugin adds specific functionality to the app.
 
-To enable or disable a core plugin, select the toggle next to the plugin name. Select the plus ( ![[lucide-plus-circle.svg#icon]] ) icon to view the [[Hotkeys]] for the plugin. Select the settings ( ![[lucide-settings.svg#icon]] ) icon to open the plugin's settings page.
+To enable or disable a core plugin, select the toggle next to the plugin name. Select the plus ![[lucide-plus-circle.svg#icon]] icon to view the [[Hotkeys]] for the plugin. Select the settings ![[lucide-settings.svg#icon]] icon to open the plugin's settings page.
 
 Use the search bar to filter plugins by name.
 

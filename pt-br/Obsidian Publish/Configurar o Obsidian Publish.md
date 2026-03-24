@@ -35,7 +35,7 @@ Você pode acessar o Publish através das seguintes opções: a paleta de comand
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Abra a **Paleta de comandos** ( ![[lucide-terminal.svg#icon]] ).
+1. Abra a **Paleta de comandos** ![[lucide-terminal.svg#icon]].
 2. Digite "Publish".
 3. Selecione a opção **Publish: Publicar mudanças...**.
 
@@ -43,8 +43,8 @@ A janela **Publicar mudanças** aparecerá em um novo pop-up.
 
 **Celular** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Abra o [[Faixa de opções|Menu lateral]] ( ![[lucide-menu.svg#icon]] ).
-2. Abra a **Paleta de comandos** ( ![[lucide-terminal.svg#icon]] ).
+1. Abra o [[Faixa de opções|Menu lateral]] ![[lucide-menu.svg#icon]].
+2. Abra a **Paleta de comandos** ![[lucide-terminal.svg#icon]].
 3. Digite "Publish".
 4. Selecione a opção **Publish: Publicar mudanças...**.
 
@@ -65,15 +65,15 @@ Você também pode acessar o Obsidian Publish pelo [[Faixa de opções|menu late
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Abra a [[Barra lateral]] esquerda ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Selecione o ícone **Publicar mudanças** ( ![[lucide-send.svg#icon]] ).
+1. Abra a [[Barra lateral]] esquerda ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Selecione o ícone **Publicar mudanças** ![[lucide-send.svg#icon]].
 
 A janela **Publicar mudanças** aparecerá em um novo pop-up.
 
 **Celular** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Abra o [[Faixa de opções|Menu lateral]] ( ![[lucide-menu.svg#icon]] ).
-2. Selecione o ícone **Publicar mudanças** ( ![[lucide-send.svg#icon]] ).
+1. Abra o [[Faixa de opções|Menu lateral]] ![[lucide-menu.svg#icon]].
+2. Selecione o ícone **Publicar mudanças** ![[lucide-send.svg#icon]].
 
 O menu **Publicar mudanças** aparecerá como um painel deslizante.
 
@@ -85,7 +85,7 @@ O menu **Publicar mudanças** aparecerá como um painel deslizante.
 ### Definir um nome de site
 
 1. [[#Abrir o Publish]]
-2. Selecione **Alterar configurações do site** ( ![[lucide-cog.svg#icon]] ).
+2. Selecione **Alterar configurações do site** ![[lucide-cog.svg#icon]].
 3. Em **Nome do site**, em **Geral**, insira o nome do seu site.
 4. Selecione **Salvar configurações de site**.
 

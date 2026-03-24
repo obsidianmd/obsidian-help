@@ -7,7 +7,7 @@ Note del giorno è un [[Plugin principali|plugin principale]] che apre una nota 
 
 Per aprire la nota del giorno, puoi:
 
-- Fare clic su **Apri nota del giorno** ( ![[lucide-calendar.svg#icon]] ) nella [[Ribbon|barra degli strumenti]].
+- Fare clic su **Apri nota del giorno** ![[lucide-calendar.svg#icon]] nella [[Ribbon|barra degli strumenti]].
 - Eseguire **Apri nota del giorno** dalla [[Command palette|tavolozza dei comandi]].
 - [[Hotkeys#Impostare le scorciatoie da tastiera|Usare una scorciatoia da tastiera]] per il comando **Apri nota del giorno**.
 

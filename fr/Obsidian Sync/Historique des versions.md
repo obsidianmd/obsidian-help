@@ -37,7 +37,7 @@ Lorsque vous activez le module principal [[Introduction à Obsidian Sync|Sync]],
 
 **Bureau/Tablette** ![[lucide-monitor-check.svg#icon]]
 
-1. Ouvrez la **palette de commandes**. ( ![[lucide-terminal.svg#icon]] )
+1. Ouvrez la **palette de commandes**. ![[lucide-terminal.svg#icon]]
 2. Tapez « Sync ».
 3. Sélectionnez l'option « Sync : Afficher l'historique de synchronisation ».
 
@@ -45,8 +45,8 @@ L'historique de synchronisation apparaîtra alors dans la [[Barre latérale|barr
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Ouvrez le [[Ruban]] ( ![[lucide-menu.svg#icon]] ).
-2. Ouvrez la **palette de commandes**. ( ![[lucide-terminal.svg#icon]] )
+1. Ouvrez le [[Ruban]] ![[lucide-menu.svg#icon]].
+2. Ouvrez la **palette de commandes**. ![[lucide-terminal.svg#icon]]
 3. Tapez « Sync ».
 4. Sélectionnez l'option « Sync : Afficher l'historique de synchronisation ».
 

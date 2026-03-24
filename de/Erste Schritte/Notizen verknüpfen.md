@@ -44,13 +44,13 @@ Eine weitere Möglichkeit, zwischen Notizen zu navigieren, sind _Rückverweise_.
 Eine weitere Möglichkeit, zwischen deinen Notizen zu navigieren, ist eine visuelle Darstellung der Verbindungen zwischen deinen Notizen.
 
 **Desktop**
-1. Klicke in der oberen rechten Ecke der Notiz auf **Weitere Optionen** (![[lucide-more-horizontal.svg#icon]]).
+1. Klicke in der oberen rechten Ecke der Notiz auf **Weitere Optionen** ![[lucide-more-horizontal.svg#icon]].
 2. Wähle **Verlinkte Ansicht öffnen**.
 3. Wähle **Lokalen Graphen öffnen**.
 4. Klicke auf einen beliebigen Knoten im Graphen, um zu dieser Notiz zu navigieren.
 
 **Mobil**
-1. Wähle oben in der Notiz **Weitere Optionen** (![[lucide-more-horizontal.svg#icon]]).
+1. Wähle oben in der Notiz **Weitere Optionen** ![[lucide-more-horizontal.svg#icon]].
 2. Wähle **Lokalen Graphen öffnen**.
 3. Klicke auf einen beliebigen Knoten im Graphen, um zu dieser Notiz zu navigieren.
 

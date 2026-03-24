@@ -75,7 +75,7 @@ Si está iniciando la sincronización después de conectarse a una bóveda remot
 Si está iniciando la sincronización después de ajustar los ajustes de Obsidian Sync y reiniciar la aplicación, verá un botón **Continuar** dentro de los ajustes de Sync. Seleccione este botón para comenzar a sincronizar.
 
 > [!done] Estado de sincronización
-> Cuando Obsidian Sync se completa, un círculo verde con una marca de verificación ( ![[obsidian-icon-sync-synced.svg#icon]] ) aparece en la esquina inferior derecha (escritorio) o en la barra lateral derecha (móvil). El registro de sincronización también mostrará "Completamente sincronizado" como uno de sus mensajes más recientes.
+> Cuando Obsidian Sync se completa, un círculo verde con una marca de verificación ![[obsidian-icon-sync-synced.svg#icon]] aparece en la esquina inferior derecha (escritorio) o en la barra lateral derecha (móvil). El registro de sincronización también mostrará "Completamente sincronizado" como uno de sus mensajes más recientes.
 >
 > Para más detalles sobre los estados de sincronización, consulte [[Icono de estado y mensajes]].
 ^obsidian-sync-status
@@ -155,7 +155,7 @@ Ahora está desconectado de la bóveda remota y ya no está sincronizando en est
 1. Abra **[[Configuración]]**.
 2. En la barra lateral, seleccione **Sync**.
 3. Seleccione **Administrar** junto a Bóvedas remotas. Se abrirá una ventana con su lista de bóvedas remotas.
-4. Seleccione el icono de papelera ( ![[lucide-trash-2.svg#icon]] ) junto a la bóveda remota que desea eliminar.
+4. Seleccione el icono de papelera ![[lucide-trash-2.svg#icon]] junto a la bóveda remota que desea eliminar.
 5. Confirme la eliminación seleccionando el botón rojo **Eliminar**.
 6. Su bóveda remota ha sido eliminada.
 

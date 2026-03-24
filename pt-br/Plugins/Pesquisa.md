@@ -8,7 +8,7 @@ aliases:
 ---
 Pesquisa é um [[Plugins nativos|plugin nativo]] que ajuda você a encontrar dados no seu cofre do Obsidian usando termos de pesquisa e operadores para refinar resultados.
 
-Por padrão, você pode encontrar a Pesquisa na barra lateral esquerda ( ![[lucide-search.svg#icon]] ). Você também pode abrir a Pesquisa pressionando `Ctrl+Shift+F` (Windows/Linux) ou `Command+Shift+F` (macOS).
+Por padrão, você pode encontrar a Pesquisa na barra lateral esquerda ![[lucide-search.svg#icon]]. Você também pode abrir a Pesquisa pressionando `Ctrl+Shift+F` (Windows/Linux) ou `Command+Shift+F` (macOS).
 
 - **Pesquisar texto selecionado**: Se você selecionar texto no editor e abrir a Pesquisa com o atalho de teclado, a Pesquisa mostrará os resultados para o texto selecionado.
 - **Pesquisar termos recentes**: Abra a Pesquisa com um termo vazio para listar os termos de pesquisa recentes. Clique em qualquer um deles para usar o termo de pesquisa novamente.
@@ -104,7 +104,7 @@ Tanto propriedade quanto valor permitem subconsultas, como parênteses para agru
 
 ## Alterar sensibilidade a maiúsculas/minúsculas
 
-Por padrão, os termos de pesquisa não diferenciam maiúsculas de minúsculas. Se você quiser pesquisar com a capitalização exata do seu termo de pesquisa, selecione **Correspondência** ( ![[obsidian-icon-upper-lowercase.svg#icon]] ) dentro da barra de pesquisa.
+Por padrão, os termos de pesquisa não diferenciam maiúsculas de minúsculas. Se você quiser pesquisar com a capitalização exata do seu termo de pesquisa, selecione **Correspondência** ![[obsidian-icon-upper-lowercase.svg#icon]] dentro da barra de pesquisa.
 
 Esta configuração pode ser alternada. Se o ícone de **Correspondência** estiver destacado, significa que você está fazendo uma pesquisa sensível a maiúsculas/minúsculas.
 
@@ -146,7 +146,7 @@ Para mais informações sobre como escrever expressões regulares, consulte o [g
 
 ## Configurar as configurações de pesquisa
 
-Para configurar a Pesquisa, selecione **Configurações de pesquisa** ( ![[lucide-sliders-horizontal.svg#icon]] ) no lado direito da barra de pesquisa para ver as opções.
+Para configurar a Pesquisa, selecione **Configurações de pesquisa** ![[lucide-sliders-horizontal.svg#icon]] no lado direito da barra de pesquisa para ver as opções.
 
 | Configuração                  | Descrição                                                                        |
 |-------------------------------|----------------------------------------------------------------------------------|

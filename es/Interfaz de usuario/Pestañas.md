@@ -15,7 +15,7 @@ Puedes abrir tantas pestañas como desees en Obsidian. También puedes organizar
 
 ## Abrir una nueva pestaña
 
-En la parte superior de la ventana de la aplicación, junto a la última pestaña a la derecha, selecciona **Nueva pestaña** ( ![[lucide-plus.svg#icon]] ). O utiliza un atajo de teclado:
+En la parte superior de la ventana de la aplicación, junto a la última pestaña a la derecha, selecciona **Nueva pestaña** ![[lucide-plus.svg#icon]]. O utiliza un atajo de teclado:
 
 - **Windows y Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
@@ -116,7 +116,7 @@ Para pestañas de notas, puedes usar los siguientes complementos como vistas enl
 
 Para abrir una vista enlazada de una pestaña de nota:
 
-1. Selecciona **Más opciones** ( ![[lucide-more-horizontal.svg#icon]] ) en la esquina superior derecha de la nota.
+1. Selecciona **Más opciones** ![[lucide-more-horizontal.svg#icon]] en la esquina superior derecha de la nota.
 2. En **Abrir en vista enlazada**, selecciona la vista enlazada que deseas abrir.
 
 ## Guardar disposiciones

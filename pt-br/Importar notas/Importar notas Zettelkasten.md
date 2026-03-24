@@ -9,7 +9,7 @@ Para atualizar todos os links `[[UID]]` no seu cofre para usar o nome completo d
 
 1. Abra as **[[Configurações]]**.
 2. Em **Plugins nativos**, ative o **Importador de formato Markdown** e feche a janela de Configurações.
-3. No menu lateral, no lado esquerdo da janela do aplicativo, selecione **Abrir conversor de formato** ( ![[lucide-binary.svg#icon]] ).
+3. No menu lateral, no lado esquerdo da janela do aplicativo, selecione **Abrir conversor de formato** ![[lucide-binary.svg#icon]].
 4. Ative o **Conversor de links Zettelkasten**.
 5. Selecione **Começar conversão**. Isso converterá todas as notas em todo o seu cofre.
 

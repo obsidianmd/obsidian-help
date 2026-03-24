@@ -74,7 +74,7 @@ Le **ruban** fonctionne comme un conteneur pour les icônes d'actions fréquemme
 
 Dans la version bureau, il s'agit de la zone verticale située à l'extrême gauche.
 
-Dans la version mobile, il est représenté par un bouton de menu ( ![[lucide-menu.svg#icon]] ) dans la [[#barre d'état]].
+Dans la version mobile, il est représenté par un bouton de menu ![[lucide-menu.svg#icon]] dans la [[#barre d'état]].
 
 ## Barre latérale
 

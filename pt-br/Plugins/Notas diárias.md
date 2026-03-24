@@ -5,7 +5,7 @@ Notas diárias é um [[Plugins nativos|plugin nativo]] que abre uma nota baseada
 
 Para abrir a nota diária de hoje, faça uma das seguintes opções:
 
-- Clique em **Abrir a nota de hoje** ( ![[lucide-calendar.svg#icon]] ) no [[Faixa de opções|menu lateral]].
+- Clique em **Abrir a nota de hoje** ![[lucide-calendar.svg#icon]] no [[Faixa de opções|menu lateral]].
 - Execute **Abrir a nota de hoje** a partir da [[Paleta de comandos]].
 - [[Teclas de atalho#Definir teclas de atalho|Use uma tecla de atalho]] para o comando **Abrir a nota de hoje**.
 

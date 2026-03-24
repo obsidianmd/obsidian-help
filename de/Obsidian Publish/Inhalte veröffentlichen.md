@@ -15,7 +15,7 @@ Diese Seite erklärt, wie du deine veröffentlichten Inhalte verwaltest. Um zu e
 
 ## Notizen veröffentlichen
 
-1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** (![[lucide-send.svg#icon]]).
+1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
 2. Wähle im Dialog **Änderungen veröffentlichen** die Option **NEU**, um alle unveröffentlichten Notizen anzuzeigen.
 3. Wähle die Notizen aus, die du veröffentlichen möchtest.
 4. Wähle **Veröffentlichen**.
@@ -24,14 +24,14 @@ Diese Seite erklärt, wie du deine veröffentlichten Inhalte verwaltest. Um zu e
 
 Notizen bleiben in deinem lokalen Vault, auch nachdem du sie zurückgezogen hast.
 
-1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** (![[lucide-send.svg#icon]]).
+1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
 2. Wähle im Dialog **Änderungen veröffentlichen** die Option **UNVERÄNDERT**, um alle veröffentlichten Notizen anzuzeigen.
 3. Wähle die Notizen aus, die du zurückziehen möchtest.
 4. Wähle **Veröffentlichen**.
 
 ## Eine veröffentlichte Notiz aktualisieren
 
-1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** (![[lucide-send.svg#icon]]).
+1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
 2. Wähle im Dialog **Änderungen veröffentlichen** die Option **GEÄNDERT**, um alle seit der letzten Veröffentlichung geänderten Notizen anzuzeigen.
 3. Wähle die Notizen aus, die du aktualisieren möchtest.
 4. Wähle **Veröffentlichen**.
@@ -54,8 +54,8 @@ Setze `publish: true` in den [[Eigenschaften]] einer Notiz, um sie automatisch a
 
 Du kannst auch automatisch Notizen und verknüpfte Bilder in bestimmten Ordnern auswählen, indem du sie als **Enthaltene** Ordner hinzufügst:
 
-1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** (![[lucide-send.svg#icon]]) oder öffne die [[Befehlspalette]] und tippe **Publish: Änderungen veröffentlichen...**.
-2. Wähle das Symbol **Publish-Filter verwalten** (![[lucide-filter.svg#icon]]).
+1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** ![[lucide-send.svg#icon]] oder öffne die [[Befehlspalette]] und tippe **Publish: Änderungen veröffentlichen...**.
+2. Wähle das Symbol **Publish-Filter verwalten** ![[lucide-filter.svg#icon]].
 3. Wähle im Abschnitt **Enthaltene Ordner** die Option **Verwalten**.
 4. Wähle die Ordner aus, die du einschließen möchtest.
 5. Der Ordner wird zur Liste der enthaltenen Ordner hinzugefügt.
@@ -67,8 +67,8 @@ Um eine Notiz in Obsidian Publish zu ignorieren, setze `publish: false` in den [
 
 Du kannst auch automatisch Notizen und Bilder in bestimmten Ordnern ignorieren, indem du sie als **Ausgeschlossene** Ordner hinzufügst:
 
-1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** (![[lucide-send.svg#icon]]) oder öffne die [[Befehlspalette]] und tippe **Publish: Änderungen veröffentlichen...**.
-2. Wähle das Symbol **Publish-Filter verwalten** (![[lucide-filter.svg#icon]]).
+1. Wähle in der **Werkzeugleiste** die Option **Änderungen veröffentlichen** ![[lucide-send.svg#icon]] oder öffne die [[Befehlspalette]] und tippe **Publish: Änderungen veröffentlichen...**.
+2. Wähle das Symbol **Publish-Filter verwalten** ![[lucide-filter.svg#icon]].
 3. Wähle im Abschnitt **Ausgeschlossene Ordner** die Option **Verwalten**.
 4. Wähle die Ordner aus, die du ausschließen möchtest.
 5. Der Ordner wird zur Liste der ausgeschlossenen Ordner hinzugefügt.

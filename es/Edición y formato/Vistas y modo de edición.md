@@ -15,7 +15,7 @@ La *vista de lectura* muestra tu nota sin la sintaxis Markdown, ofreciendo un fo
 
 Para cambiar a la *vista de lectura*:
 
-- Haz clic en el selector de vista ( ![[lucide-book-icon.svg#icon]] ) en la esquina superior derecha del editor.
+- Haz clic en el selector de vista ![[lucide-book-icon.svg#icon]] en la esquina superior derecha del editor.
 - O haz clic en el icono de estado interactivo ( ![[lucide-edit-3.svg#icon]] o ![[lucide-code-xml.svg#icon]] ) en la barra de estado y selecciona **Vista de lectura**.
 - O presiona `Ctrl+E` (`Cmd+E` en macOS).
 
@@ -39,7 +39,7 @@ La *vista previa en vivo* muestra texto formateado en línea mientras oculta la 
 
 Para cambiar a *vista previa en vivo*:
 
-- Haz clic en el selector de vista ( ![[lucide-edit-3.svg#icon]] ) en la esquina superior derecha del editor.
+- Haz clic en el selector de vista ![[lucide-edit-3.svg#icon]] en la esquina superior derecha del editor.
 - O haz clic en el icono de estado interactivo ( ![[lucide-book-icon.svg#icon]] o ![[lucide-code-xml.svg#icon]] ) en la barra de estado y selecciona **Vista previa en vivo**.
 - O presiona `Ctrl+E` (`Cmd+E` en macOS).
 - O usa el [[Paleta de comandos|comando]] **Alternar entre modo edición y vista previa**.
@@ -61,7 +61,7 @@ Para cambiar al *modo de código fuente*:
 > 
 > Para cambiar al *modo de código fuente*, ahora adicionalmente puedes:
 > 
-> - Hacer clic en el selector de vista ( ![[lucide-edit-3.svg#icon]] ) en la esquina superior derecha de tu nota.
+> - Hacer clic en el selector de vista ![[lucide-edit-3.svg#icon]] en la esquina superior derecha de tu nota.
 > - O presionar `Ctrl+E` (`Cmd+E` en macOS).
 > - O usar el [[Paleta de comandos|comando]] **Alternar entre modo edición y vista previa**.
 

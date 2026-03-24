@@ -25,7 +25,7 @@ Obsidian lets you control how you read and edit notes written in Markdown using 
 
 To switch to *Reading view*:
 
-- Click the view switcher ( ![[lucide-book-icon.svg#icon]] ) in the upper-right corner of the editor.
+- Click the view switcher ![[lucide-book-icon.svg#icon]] in the upper-right corner of the editor.
 - Or click the interactive status icon ( ![[lucide-edit-3.svg#icon]] or ![[lucide-code-xml.svg#icon]] ) in the status bar and select **Reading view**.
 - Or press `Ctrl+E` (`Cmd+E` on macOS).
 
@@ -49,7 +49,7 @@ While in *Editing view*, the *Editing mode* defines, how Markdown is displayed. 
 
 To switch to *Live Preview*:
 
-- Click the view switcher ( ![[lucide-edit-3.svg#icon]] ) in the upper-right corner of the editor.
+- Click the view switcher ![[lucide-edit-3.svg#icon]] in the upper-right corner of the editor.
 - Or click the interactive status icon ( ![[lucide-book-icon.svg#icon]] or ![[lucide-code-xml.svg#icon]] ) in the status bar and select **Live Preview**.
 - Or press `Ctrl+E` (`Cmd+E` on macOS).
 - Or use the [[Command palette|command]] **Toggle Reading view**.
@@ -71,7 +71,7 @@ To switch to *Source mode*:
 > 
 > To switch to *Source mode*, now additionally you can:
 > 
-> - Click the view switcher ( ![[lucide-edit-3.svg#icon]] ) in the upper right corner of your note.
+> - Click the view switcher ![[lucide-edit-3.svg#icon]] in the upper right corner of your note.
 > - Or press `Ctrl+E` (`Cmd+E` on macOS).
 > - Or use the [[Command palette|command]] **Toggle Reading view**.
 

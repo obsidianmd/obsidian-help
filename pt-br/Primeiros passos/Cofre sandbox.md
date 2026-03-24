@@ -12,8 +12,8 @@ Você pode abrir o cofre sandbox de várias maneiras. Em todos os casos, ele abr
 
 **Barra lateral esquerda**
 
-1. Expanda a **barra lateral esquerda** ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Ao lado do **alternador de cofres**, pressione o ícone de **Ajuda** ( ![[obsidian-icon-help.svg#icon]] ).
+1. Expanda a **barra lateral esquerda** ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Ao lado do **alternador de cofres**, pressione o ícone de **Ajuda** ![[obsidian-icon-help.svg#icon]].
 3. Selecione **Abrir** ao lado da opção **Cofre sandbox**.
 
 **Paleta de comandos**

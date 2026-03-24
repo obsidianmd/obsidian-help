@@ -16,10 +16,10 @@ Obsidian sucht nach CSS-Snippets im [[Konfigurationsordner]] des Vaults.
 
 Um ein CSS-Snippet auf dem **Desktop** ![[lucide-monitor-check.svg#icon]] hinzuzufügen, befolge diese Schritte:
 
-1. Öffne die **[[Einstellungen]]** ( ![[lucide-settings.svg#icon]] ).
-2. Wähle unter **Darstellung → CSS-Bausteine** die Option **CSS-Baustein-Ordner öffnen** ( ![[lucide-folder-open.svg#icon]] ).
+1. Öffne die **[[Einstellungen]]** ![[lucide-settings.svg#icon]].
+2. Wähle unter **Darstellung → CSS-Bausteine** die Option **CSS-Baustein-Ordner öffnen** ![[lucide-folder-open.svg#icon]].
 3. Erstelle im Snippets-Ordner eine CSS-Datei mit deinem Snippet.
-4. Wähle in Obsidian unter **Darstellung → CSS-Bausteine** die Option **CSS-Bausteine neu laden** ( ![[lucide-refresh-cw.svg#icon]] ), um das Snippet in der Liste zu sehen.
+4. Wähle in Obsidian unter **Darstellung → CSS-Bausteine** die Option **CSS-Bausteine neu laden** ![[lucide-refresh-cw.svg#icon]], um das Snippet in der Liste zu sehen.
 5. Aktiviere das Snippet, indem du auf den Schalter klickst.
 
 Um ein CSS-Snippet auf **Mobilgeräten/Tablets** ![[obsidian-icon-smartphone.svg#icon]] hinzuzufügen, kannst du diese Schritte befolgen:
@@ -27,10 +27,10 @@ Um ein CSS-Snippet auf **Mobilgeräten/Tablets** ![[obsidian-icon-smartphone.svg
 1. Öffne einen Dateimanager und finde deinen Vault. Du kannst den Speicherort des Vaults unter _Vaults verwalten…_ überprüfen, indem du auf deinen Vault tippst und den Pfad anschaust.
 2. Öffne den [[Konfigurationsordner]] und erstelle einen Ordner namens `snippets`, falls er noch nicht existiert.
 3. Füge dein CSS-Snippet in diesen Ordner ein.
-4. Öffne die **[[Einstellungen]]** von Obsidian ( ![[lucide-settings.svg#icon]] ).
+4. Öffne die **[[Einstellungen]]** von Obsidian ![[lucide-settings.svg#icon]].
 5. Wähle links **Darstellung** aus.
 6. Scrolle nach unten zum Abschnitt **CSS-Bausteine**.
-7. Tippe auf **CSS-Bausteine neu laden** (![[lucide-refresh-cw.svg#icon]]), um die Liste zu aktualisieren.
+7. Tippe auf **CSS-Bausteine neu laden** ![[lucide-refresh-cw.svg#icon]], um die Liste zu aktualisieren.
 8. Tippe auf den Schalter, um das Snippet zu aktivieren.
 
 Alternativ kannst du

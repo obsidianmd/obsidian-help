@@ -47,13 +47,13 @@ Une autre façon de naviguer entre les notes est d'utiliser les _liens retour_. 
 Une autre façon de naviguer entre vos notes est d'utiliser une représentation visuelle de la manière dont vos notes sont connectées.
 
 **Bureau**
-1. Dans le coin supérieur droit de la note, cliquez sur **Plus d'options** (![[lucide-more-horizontal.svg#icon]]).
+1. Dans le coin supérieur droit de la note, cliquez sur **Plus d'options** ![[lucide-more-horizontal.svg#icon]].
 2. Sélectionnez **Ouvrir la vue liée**.
 3. Sélectionnez **Ouvrir le graphe local**.
 4. Cliquez sur n'importe quel nœud du graphe pour naviguer vers cette note.
 
 **Mobile**
-1. En haut de la note, sélectionnez **Plus d'options** (![[lucide-more-horizontal.svg#icon]]).
+1. En haut de la note, sélectionnez **Plus d'options** ![[lucide-more-horizontal.svg#icon]].
 2. Sélectionnez **Ouvrir le graphe local**.
 3. Cliquez sur n'importe quel nœud du graphe pour naviguer vers cette note.
 

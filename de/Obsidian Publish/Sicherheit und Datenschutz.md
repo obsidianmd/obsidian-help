@@ -13,8 +13,8 @@ Für eine verbesserte Zugriffskontrolle auf deiner Publish-Website kannst du ein
 
 ### Ein Website-Passwort hinzufügen
 
-1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
-2. Klicke im Dialog **Änderungen veröffentlichen** auf **Seiteneinstellungen ändern** ( ![[lucide-cog.svg#icon]] ).
+1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
+2. Klicke im Dialog **Änderungen veröffentlichen** auf **Seiteneinstellungen ändern** ![[lucide-cog.svg#icon]].
 3. Klicke unter **Sonstige Seiteneinstellungen** neben **Passwörter** auf **Verwalten**.
 4. Klicke auf **Neues Passwort**.
 5. Gib unter **Passwort** ein Passwort für deine Website ein.
@@ -23,8 +23,8 @@ Für eine verbesserte Zugriffskontrolle auf deiner Publish-Website kannst du ein
 
 ### Ein Website-Passwort entfernen
 
-1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ( ![[lucide-send.svg#icon]] ).
-2. Klicke im Dialog **Änderungen veröffentlichen** auf **Seiteneinstellungen ändern** ( ![[lucide-cog.svg#icon]] ).
+1. Klicke in der Werkzeugleiste links im Anwendungsfenster auf **Änderungen veröffentlichen** ![[lucide-send.svg#icon]].
+2. Klicke im Dialog **Änderungen veröffentlichen** auf **Seiteneinstellungen ändern** ![[lucide-cog.svg#icon]].
 3. Klicke unter **Sonstige Seiteneinstellungen** neben **Passwörter** auf **Verwalten**.
 5. Klicke auf das Kreuz-Symbol neben dem Passwort, das du löschen möchtest.
 

@@ -13,7 +13,7 @@ Par exemple, si vous créez une nouvelle note à 09:45 le 1er janvier 2024, le C
 
 **Ruban :**
 
-- Dans le ruban, cliquez sur **Créer une nouvelle note unique** ( ![[obsidian-icon-sheets-in-box.svg#icon]] ).
+- Dans le ruban, cliquez sur **Créer une nouvelle note unique** ![[obsidian-icon-sheets-in-box.svg#icon]].
 
 **Palette de commandes :**
 

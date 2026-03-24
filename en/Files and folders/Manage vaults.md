@@ -9,12 +9,12 @@ A **vault** is a folder on your file system which contains your notes, [[attachm
 
 You can manage your vaults using the **Vault switcher**. The *Vault profile* opens the first time you open Obsidian.
 
-To open the vault switcher from an existing vault, select **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]) at the bottom of the [[Sidebar|left sidebar]]. Or, select **Open another vault** from the [[command palette]].
+To open the vault switcher from an existing vault, select **Vault profile** ![[lucide-chevrons-up-down.svg#icon]] at the bottom of the [[Sidebar|left sidebar]]. Or, select **Open another vault** from the [[command palette]].
 
 ## Create new vault
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
 3. A context menu will pop up. Select **Manage Vaults...**.
 3. To the right of **Create new vault**, select **Create**.
 4. In **Vault name**, enter the name of your vault.
@@ -24,7 +24,7 @@ To open the vault switcher from an existing vault, select **Vault profile** ( ![
 ## Create vault from an existing folder
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
 3. A context menu will pop up. Select **Manage Vaults...**.
 3. At the right of **Open folder as vault**, click **Open**.
 4. In the file browser, select the folder you want to use as your vault.
@@ -38,19 +38,19 @@ To open the vault switcher from an existing vault, select **Vault profile** ( ![
 Since the name of a vault and the underlying folder are the same, renaming a vault also renames the folder.
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
 3. A context menu will pop up. Select **Manage Vaults...**.
-4. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg#icon]] ) next to the vault you want to rename.
+4. In the vault list, select **More options** ![[lucide-more-horizontal.svg#icon]] next to the vault you want to rename.
 5. Select **Rename vault**.
 6. Enter the new name for the vault, and press `Enter`.
 
 ## Move vault to a different folder
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
 3. A context menu will pop up. Select **Manage Vaults...**.
 4. Close the current vault window, leaving the **Manage Vaults** window open.
-5. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg#icon]] ) next to the vault you want to move.
+5. In the vault list, select **More options** ![[lucide-more-horizontal.svg#icon]] next to the vault you want to move.
 6. Select **Move vault**, and then select the new location.
 
 Some operating systems do not allow the vault to be moved with the Vault Switcher. In these cases, you will need to move your vault manually:
@@ -58,7 +58,7 @@ Some operating systems do not allow the vault to be moved with the Vault Switche
 1. Close Obsidian.
 2. Move your vault folder to a new location, avoiding folders synced by other services.
 3. Reopen Obsidian.
-4. Click the **Vault profile** icon at the bottom left ( ![[lucide-chevrons-up-down.svg#icon]]).
+4. Click the **Vault profile** icon at the bottom left ![[lucide-chevrons-up-down.svg#icon]].
 5. From the pop-up menu, select **Manage Vaults...**.
 6. Next to **Open folder as vault**, click **Open**.
 7. Navigate to and select your new vault folder.
@@ -70,9 +70,9 @@ Some operating systems do not allow the vault to be moved with the Vault Switche
 Removing a vault only removes it from the vault list. 
 
 1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]).
+2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
 3. A context menu will pop up. Select **Manage Vaults...**.
-4. In the vault list, select **More options** ( ![[lucide-more-horizontal.svg#icon]]) next to the vault you want to move.
+4. In the vault list, select **More options** ![[lucide-more-horizontal.svg#icon]] next to the vault you want to move.
 5. Select **Remove from list**.
 
 ## Transfer settings to another vault

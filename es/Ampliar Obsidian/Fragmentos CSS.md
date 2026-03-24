@@ -18,10 +18,10 @@ Obsidian busca fragmentos CSS dentro de la [[Carpeta de configuración|carpeta d
 
 Para añadir un fragmento CSS en **Escritorio** ![[lucide-monitor-check.svg#icon]], sigue estos pasos:
 
-1. Abre **[[Configuración]]** ( ![[lucide-settings.svg#icon]] ).
-2. En **Apariencia → Fragmentos de CSS**, selecciona **Abrir carpeta de fragmentos de CSS** ( ![[lucide-folder-open.svg#icon]] ).
+1. Abre **[[Configuración]]** ![[lucide-settings.svg#icon]].
+2. En **Apariencia → Fragmentos de CSS**, selecciona **Abrir carpeta de fragmentos de CSS** ![[lucide-folder-open.svg#icon]].
 3. En la carpeta de fragmentos, crea un archivo CSS que contenga tu fragmento.
-4. En Obsidian, en **Apariencia → Fragmentos de CSS**, selecciona **Recargar fragmentos de CSS** ( ![[lucide-refresh-cw.svg#icon]] ) para ver el fragmento en la lista.
+4. En Obsidian, en **Apariencia → Fragmentos de CSS**, selecciona **Recargar fragmentos de CSS** ![[lucide-refresh-cw.svg#icon]] para ver el fragmento en la lista.
 5. Activa el fragmento haciendo clic en el interruptor.
 
 Para añadir un fragmento CSS en **Móvil/Tableta** ![[obsidian-icon-smartphone.svg#icon]], puedes seguir estos pasos:
@@ -29,10 +29,10 @@ Para añadir un fragmento CSS en **Móvil/Tableta** ![[obsidian-icon-smartphone.
 1. Abre un administrador de archivos y encuentra tu bóveda. Puedes verificar la ubicación de la bóveda en _Gestionar bóvedas…_ tocando tu bóveda y mirando la ruta.
 2. Abre la [[Carpeta de configuración]] y crea una carpeta llamada `snippets` si no existe.
 3. Añade tu fragmento CSS a esta carpeta.
-4. Abre los **[[Configuración|Ajustes]]** de Obsidian ( ![[lucide-settings.svg#icon]] ).
+4. Abre los **[[Configuración|Ajustes]]** de Obsidian ![[lucide-settings.svg#icon]].
 5. Selecciona **Apariencia** a la izquierda.
 6. Desplázate hacia abajo hasta la sección **Fragmentos de CSS**.
-7. Toca **Recargar fragmentos de CSS** (![[lucide-refresh-cw.svg#icon]]) para actualizar la lista.
+7. Toca **Recargar fragmentos de CSS** ![[lucide-refresh-cw.svg#icon]] para actualizar la lista.
 8. Toca el interruptor para activar el fragmento.
 
 Alternativamente, puedes

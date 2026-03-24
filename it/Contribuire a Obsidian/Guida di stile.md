@@ -348,7 +348,7 @@ Includere icone e immagini quando rendono più facile spiegare concetti difficil
 
 Le icone [Lucide](https://lucide.dev/icons/) e le icone personalizzate di Obsidian possono essere usate accanto a elementi dettagliati per fornire una rappresentazione visiva di una funzionalità.
 
-**Esempio:** Nella barra degli strumenti a sinistra, seleziona **Crea nuova lavagna** ( ![[lucide-layout-dashboard.svg#icon]] ) per creare un Canvas nella stessa cartella del file attivo.
+**Esempio:** Nella barra degli strumenti a sinistra, seleziona **Crea nuova lavagna** ![[lucide-layout-dashboard.svg#icon]] per creare un Canvas nella stessa cartella del file attivo.
 
 **Linee guida per le icone**
 
@@ -367,9 +367,9 @@ Le icone [Lucide](https://lucide.dev/icons/) e le icone personalizzate di Obsidi
 >```
 
 - Utilizzare l'ancora `icon` nelle immagini incorporate, per regolare la spaziatura attorno all'icona in modo che si allinei ordinatamente con il testo circostante.
-- Le icone dovrebbero essere racchiuse tra parentesi. ( ![[lucide-cog.svg#icon]] )
+- Le icone dovrebbero essere racchiuse tra parentesi. ![[lucide-cog.svg#icon]]
 
-**Esempio**: `( ![[lucide-cog.svg#icon]] )`
+**Esempio**: `![[lucide-cog.svg#icon]]`
 
 ### Tag ancora per le immagini
 
@@ -384,7 +384,7 @@ I tag ancora per le immagini sono disponibili per aggiungere modifiche decorativ
 
 Il tag ancora icona garantisce il corretto allineamento verticale per le icone usate per indicare elementi dell'interfaccia.
 
-La prima icona menu usa il tag ancora ( ![[lucide-menu.svg#icon]] ), mentre la seconda icona menu ( ![[lucide-menu.svg]] ) no.
+La prima icona menu usa il tag ancora ![[lucide-menu.svg#icon]], mentre la seconda icona menu ( ![[lucide-menu.svg]] ) no.
 
 **Interfaccia**
 

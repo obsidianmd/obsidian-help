@@ -17,9 +17,9 @@ Obsidian leder efter CSS kodestykker in boksens [[Konfigurationsmappen|konfigura
 På **desktop** ![[lucide-monitor-check.svg#icon]] skal du følge disse trin:
 
 1. Åben **Indstillinger**
-2. Vælg **Åbn mappe med CSS kodestykker** ( ![[lucide-folder-plus.svg#icon]] ) under **Udseende → CSS kodestykker**
+2. Vælg **Åbn mappe med CSS kodestykker** ![[lucide-folder-plus.svg#icon]] under **Udseende → CSS kodestykker**
 3. Opret en CSS fil i mappen, der indeholder dit CSS kodestykke
-4. Vælg **Genindlæs CSS kodestykker** ( ![[lucide-refresh-cw.svg#icon]] ) under **Udseende → CSS kodestykker** for at den i listen
+4. Vælg **Genindlæs CSS kodestykker** ![[lucide-refresh-cw.svg#icon]] under **Udseende → CSS kodestykker** for at den i listen
 5. Aktivér CSS kodestykket ved at slå det til
 
 På **mobil/tablet** ![[obsidian-icon-smartphone.svg#icon]] skal du følge disse trin:
@@ -27,10 +27,10 @@ På **mobil/tablet** ![[obsidian-icon-smartphone.svg#icon]] skal du følge disse
 1. Åben en stifinder og find din boks. Du kan tjekke boksens placering i _Håndtér bokse_ ved at trykke på din boks og se på stien
 2. Åben [[Koonfigurationsmappen]] og opret en mappe med navnet `snippets`, hvis den ikke findes
 3. Tilføj dit CSS kodestykke til mappen
-4. Åben **Indstillinger** (![[lucide-cog.svg#icon]]) i Obsidian
+4. Åben **Indstillinger** ![[lucide-cog.svg#icon]] i Obsidian
 5. Vælg **Udseende** til venstre
 6. Rul ned til sektionen: **CSS kodestykker**
-7. Tryk **Genindlæs CSS kodestykker** (![[lucide-refresh-cw.svg#icon]]) for at opfriske listen
+7. Tryk **Genindlæs CSS kodestykker** ![[lucide-refresh-cw.svg#icon]] for at opfriske listen
 8. Tryk på skifteknappen for at aktivere CSS kodestykket
 
 Du kan alternativt:

@@ -12,14 +12,14 @@ No desktop e em tablets maiores, a barra lateral esquerda inclui o [[Faixa de op
 
 ### Desktop e tablets maiores
 
-No desktop e em tablets maiores, abra uma barra lateral recolhida selecionando o ícone de expandir à esquerda ( ![[obsidian-icon-side-bar-left.svg#icon]] ) ou expandir à direita ( ![[obsidian-icon-side-bar-right.svg#icon]] ).
+No desktop e em tablets maiores, abra uma barra lateral recolhida selecionando o ícone de expandir à esquerda ![[obsidian-icon-side-bar-left.svg#icon]] ou expandir à direita ![[obsidian-icon-side-bar-right.svg#icon]].
 
 ### Dispositivos móveis e tablets menores
 
 Em dispositivos móveis e tablets menores, você pode abrir barras laterais escondidas das seguintes maneiras:
 
 - Deslize para a esquerda ou direita
-- Selecione o ícone de expandir à esquerda ( ![[obsidian-icon-side-bar-left.svg#icon]] ) (apenas barra lateral esquerda)
+- Selecione o ícone de expandir à esquerda ![[obsidian-icon-side-bar-left.svg#icon]] (apenas barra lateral esquerda)
 - Use as opções *Alternar para a barra lateral à esquerda* ou *Alternar para a barra lateral à direita* na [[Paleta de comandos]].
 
 ## Abas

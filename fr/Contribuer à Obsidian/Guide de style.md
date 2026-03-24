@@ -348,7 +348,7 @@ Incluez des icônes et des images lorsqu'elles facilitent l'explication de chose
 
 Les icônes [Lucide](https://lucide.dev/icons/) et les icônes personnalisées d'Obsidian peuvent être utilisées aux côtés d'éléments détaillés pour fournir une représentation visuelle d'une fonctionnalité.
 
-**Exemple :** Dans le ruban à gauche, sélectionnez **Créer un nouveau canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) pour créer un canvas dans le même dossier que le fichier actif.
+**Exemple :** Dans le ruban à gauche, sélectionnez **Créer un nouveau canvas** ![[lucide-layout-dashboard.svg#icon]] pour créer un canvas dans le même dossier que le fichier actif.
 
 **Directives pour les icônes**
 
@@ -367,9 +367,9 @@ Les icônes [Lucide](https://lucide.dev/icons/) et les icônes personnalisées d
 >```
 
 - Utilisez l'ancre `icon` dans les images intégrées, pour ajuster l'espacement autour de l'icône afin qu'elle s'aligne proprement avec le texte environnant.
-- Les icônes doivent être entourées de parenthèses. ( ![[lucide-cog.svg#icon]] )
+- Les icônes doivent être entourées de parenthèses. ![[lucide-cog.svg#icon]]
 
-**Exemple** : `( ![[lucide-cog.svg#icon]] )`
+**Exemple** : `![[lucide-cog.svg#icon]]`
 
 ### Balises d'ancrage pour les images
 
@@ -384,7 +384,7 @@ Les balises d'ancrage pour les images sont disponibles pour ajouter des modifica
 
 La balise d'ancrage icône assure un alignement vertical correct pour les icônes utilisées pour indiquer les éléments d'interface.
 
-La première icône de menu utilise la balise d'ancrage ( ![[lucide-menu.svg#icon]] ), tandis que la seconde icône de menu ( ![[lucide-menu.svg]] ) ne l'utilise pas.
+La première icône de menu utilise la balise d'ancrage ![[lucide-menu.svg#icon]], tandis que la seconde icône de menu ( ![[lucide-menu.svg]] ) ne l'utilise pas.
 
 **Interface**
 

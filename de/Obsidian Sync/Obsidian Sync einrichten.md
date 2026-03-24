@@ -75,7 +75,7 @@ Wenn du die Synchronisierung nach dem Verbinden mit einem Remote-Tresor startest
 Wenn du die Synchronisierung nach dem Anpassen der Obsidian Sync-Einstellungen und dem Neustart der Anwendung startest, siehst du eine Schaltfläche **Fortfahren** in den Sync-Einstellungen. Wähle diese Schaltfläche, um die Synchronisierung zu beginnen.
 
 > [!done] Synchronisierungsstatus
-> Wenn Obsidian Sync abgeschlossen ist, erscheint ein grüner Kreis mit einem Häkchen ( ![[obsidian-icon-sync-synced.svg#icon]] ) in der unteren rechten Ecke (Desktop) oder in der rechten Seitenleiste (mobil). Das Sync-Log zeigt ebenfalls „Fully Synced" als eine seiner neuesten Meldungen an.
+> Wenn Obsidian Sync abgeschlossen ist, erscheint ein grüner Kreis mit einem Häkchen ![[obsidian-icon-sync-synced.svg#icon]] in der unteren rechten Ecke (Desktop) oder in der rechten Seitenleiste (mobil). Das Sync-Log zeigt ebenfalls „Fully Synced" als eine seiner neuesten Meldungen an.
 >
 > Weitere Details zu Sync-Status findest du unter [[Statussymbol und Meldungen]].
 ^obsidian-sync-status
@@ -155,7 +155,7 @@ Du bist jetzt vom Remote-Tresor getrennt und synchronisierst auf diesem Gerät n
 1. Öffne die **[[Einstellungen]]**.
 2. Wähle in der Seitenleiste **Sync**.
 3. Wähle **Verwalten** neben Remote-Tresore. Ein Fenster mit deiner Liste der Remote-Tresore wird geöffnet.
-4. Wähle das Papierkorb-Symbol ( ![[lucide-trash-2.svg#icon]] ) neben dem Remote-Tresor, den du löschen möchtest.
+4. Wähle das Papierkorb-Symbol ![[lucide-trash-2.svg#icon]] neben dem Remote-Tresor, den du löschen möchtest.
 5. Bestätige das Löschen, indem du die rote Schaltfläche **Löschen** wählst.
 6. Dein Remote-Tresor wurde gelöscht.
 

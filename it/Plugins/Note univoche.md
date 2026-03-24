@@ -11,7 +11,7 @@ Ad esempio, se crei una nuova nota alle 09:45 del 1° gennaio 2024, Note univoch
 
 **Barra degli strumenti:**
 
-- Nella barra degli strumenti, fai clic su **Nuova nota univoca** ( ![[obsidian-icon-sheets-in-box.svg#icon]] ).
+- Nella barra degli strumenti, fai clic su **Nuova nota univoca** ![[obsidian-icon-sheets-in-box.svg#icon]].
 
 **Tavolozza dei comandi:**
 

@@ -22,7 +22,7 @@ Puedes reordenar los marcadores seleccionándolos y arrastrándolos.
 Puedes marcar elementos y organizarlos en _grupos de marcadores_ para encontrarlos más fácilmente. Puedes expandir y contraer los grupos de marcadores para mostrar u ocultar los marcadores que contienen.
 
 > [!todo]- Mostrar marcadores
-> Puedes encontrar tus elementos marcados haciendo clic en **Marcadores** ( ![[lucide-bookmark.svg#icon]] ) en la barra lateral izquierda.
+> Puedes encontrar tus elementos marcados haciendo clic en **Marcadores** ![[lucide-bookmark.svg#icon]] en la barra lateral izquierda.
 >
 > O abre la pestaña de Marcadores ejecutando **Marcadores: Mostrar marcadores** desde la [[Paleta de comandos]].
 
@@ -36,7 +36,7 @@ Cuando marcas un elemento, **Añadir marcador** se convierte en **Editar marcado
 >
 > **Marcadores**:
 >
-> - Selecciona **Marcar la pestaña activa** ( ![[lucide-bookmark-plus.svg#icon]] ) en la parte superior de la pestaña de Marcadores.
+> - Selecciona **Marcar la pestaña activa** ![[lucide-bookmark-plus.svg#icon]] en la parte superior de la pestaña de Marcadores.
 >
 > **Explorador de archivos**:
 >
@@ -104,7 +104,7 @@ También puedes eliminar un marcador desde el diálogo **Editar marcador**.
 
 **Marcadores**:
 
-- Selecciona **Nuevo grupo de marcadores** ( ![[lucide-folder-plus.svg#icon]] ) en la parte superior de la pestaña de Marcadores.
+- Selecciona **Nuevo grupo de marcadores** ![[lucide-folder-plus.svg#icon]] en la parte superior de la pestaña de Marcadores.
 
 Para mover un marcador a otro grupo, selecciónalo y arrástralo al grupo al que deseas moverlo.
 

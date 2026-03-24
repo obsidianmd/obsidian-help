@@ -19,7 +19,7 @@ Um einen Nutzer einzuladen, einen Remote-Tresor zu teilen:
 1. Öffne die **[[Einstellungen]]**.
 2. Wähle im Seitenmenü **Sync**.
 3. Wähle neben **Remote-Tresor** die Option **Verwalten**.
-4. Wähle neben dem Remote-Tresor, den du teilen möchtest, **Freigabe verwalten** ( ![[lucide-users.svg#icon]] ).
+4. Wähle neben dem Remote-Tresor, den du teilen möchtest, **Freigabe verwalten** ![[lucide-users.svg#icon]].
 5. Gib unter **Nutzer einladen** die E-Mail des Nutzers ein, den du einladen möchtest.
 6. Wähle **Hinzufügen**.
 
@@ -28,7 +28,7 @@ Um einen Nutzer einzuladen, einen Remote-Tresor zu teilen:
 1. Öffne die **[[Einstellungen]]**.
 2. Wähle im Seitenmenü **Sync**.
 3. Wähle neben **Remote-Tresor** die Option **Verwalten**.
-4. Wähle neben dem Nutzer, dem du den Zugriff entziehen möchtest, **Nutzer entfernen** ( ![[lucide-x.svg#icon]] ).
+4. Wähle neben dem Nutzer, dem du den Zugriff entziehen möchtest, **Nutzer entfernen** ![[lucide-x.svg#icon]].
 
 ## Mit deinem Team zusammenarbeiten
 

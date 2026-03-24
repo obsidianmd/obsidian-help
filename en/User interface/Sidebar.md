@@ -17,14 +17,14 @@ On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobi
 
 ### Desktop and larger tablets
 
-On desktop and larger tablets, open a collapsed sidebar by selecting the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) or right expand ( ![[obsidian-icon-side-bar-right.svg#icon]] ) icon.
+On desktop and larger tablets, open a collapsed sidebar by selecting the left expand ![[obsidian-icon-side-bar-left.svg#icon]] or right expand ![[obsidian-icon-side-bar-right.svg#icon]] icon.
 
 ### Mobile and smaller tablets
 
 On mobile and smaller tablets, you can open hidden sidebars in the following ways:
 
 - Swipe left or right
-- Select the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) icon (left sidebar only)
+- Select the left expand ![[obsidian-icon-side-bar-left.svg#icon]] icon (left sidebar only)
 - Use the *Toggle left* or *Toggle right* [[Command palette]] options. 
 
 ## Tabs

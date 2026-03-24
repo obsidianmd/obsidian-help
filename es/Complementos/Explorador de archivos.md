@@ -19,7 +19,7 @@ Explorador de archivos es un [[Complementos principales|complemento principal]] 
 
 Para crear una nueva nota en la ubicación predeterminada para nuevas notas:
 
-1. Haz clic en **Nueva nota** ( ![[lucide-pen-line.svg#icon]] ) en la parte superior del Explorador de archivos.
+1. Haz clic en **Nueva nota** ![[lucide-pen-line.svg#icon]] en la parte superior del Explorador de archivos.
 2. Escribe el nombre de la nota y luego presiona Enter.
 
 > [!tip]- Cambiar la ubicación predeterminada
@@ -34,7 +34,7 @@ Para crear una nueva nota en una carpeta específica:
 
 Para crear una nueva carpeta en la raíz de tu bóveda:
 
-1. Haz clic en **Nueva carpeta** ( ![[lucide-folder-plus.svg#icon]] ) en la parte superior del Explorador de archivos.
+1. Haz clic en **Nueva carpeta** ![[lucide-folder-plus.svg#icon]] en la parte superior del Explorador de archivos.
 2. Escribe el nombre de la carpeta y luego presiona Enter.
 
 Para crear una subcarpeta:
@@ -46,7 +46,7 @@ Para crear una subcarpeta:
 
 Para cambiar el orden de clasificación de tus archivos:
 
-1.  Selecciona **Cambiar el orden** ( ![[lucide-arrow-up-narrow-wide.svg#icon]] ) en la parte superior del Explorador de archivos.
+1.  Selecciona **Cambiar el orden** ![[lucide-arrow-up-narrow-wide.svg#icon]] en la parte superior del Explorador de archivos.
 2. Elige cómo deseas ordenar tus archivos. Puedes ordenar de forma ascendente o descendente por nombre de archivo, fecha de modificación o fecha de creación.
 
 ## Mostrar automáticamente el archivo activo
@@ -55,7 +55,7 @@ Cuando abres una nota, el Explorador de archivos puede desplazarse automáticame
 
 Para activar o desactivar la función de mostrar automáticamente:
 
-- Selecciona **Mostrar automáticamente el archivo activo** ( ![[lucide-gallery-vertical.svg#icon]] ) en la parte superior del Explorador de archivos.
+- Selecciona **Mostrar automáticamente el archivo activo** ![[lucide-gallery-vertical.svg#icon]] en la parte superior del Explorador de archivos.
 
 Cuando está habilitado, el Explorador de archivos seguirá y mostrará automáticamente la nota actualmente abierta.
 
@@ -65,11 +65,11 @@ Puedes expandir o contraer todas las carpetas en el Explorador de archivos a la 
 
 Para expandir todas las carpetas:
 
-- Selecciona **Expandir todo** ( ![[lucide-chevrons-up-down.svg#icon]] ) en la parte superior del Explorador de archivos.
+- Selecciona **Expandir todo** ![[lucide-chevrons-up-down.svg#icon]] en la parte superior del Explorador de archivos.
 
 Para contraer todas las carpetas:
 
-- Selecciona **Colapsar todo** ( ![[lucide-chevrons-down-up.svg#icon]] ) en la parte superior del Explorador de archivos.
+- Selecciona **Colapsar todo** ![[lucide-chevrons-down-up.svg#icon]] en la parte superior del Explorador de archivos.
 
 ## Eliminar un archivo o carpeta
 

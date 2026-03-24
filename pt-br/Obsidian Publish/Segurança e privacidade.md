@@ -13,8 +13,8 @@ Para um controle de acesso aprimorado no seu site Publish, aplique uma senha ao 
 
 ### Adicionar uma senha ao site
 
-1. No menu lateral, à esquerda da janela do aplicativo, clique em **Publicar alterações** ( ![[lucide-send.svg#icon]] ).
-2. Na caixa de diálogo **Publicar alterações**, clique em **Alterar configurações do site** ( ![[lucide-cog.svg#icon]] ).
+1. No menu lateral, à esquerda da janela do aplicativo, clique em **Publicar alterações** ![[lucide-send.svg#icon]].
+2. Na caixa de diálogo **Publicar alterações**, clique em **Alterar configurações do site** ![[lucide-cog.svg#icon]].
 3. Em **Outras configurações do site**, ao lado de **Senhas**, clique em **Administrar**.
 4. Clique em **Nova senha**.
 5. Em **Senha**, insira uma senha para o seu site.
@@ -23,8 +23,8 @@ Para um controle de acesso aprimorado no seu site Publish, aplique uma senha ao 
 
 ### Remover uma senha do site
 
-1. No menu lateral, à esquerda da janela do aplicativo, clique em **Publicar alterações** ( ![[lucide-send.svg#icon]] ).
-2. Na caixa de diálogo **Publicar alterações**, clique em **Alterar configurações do site** ( ![[lucide-cog.svg#icon]] ).
+1. No menu lateral, à esquerda da janela do aplicativo, clique em **Publicar alterações** ![[lucide-send.svg#icon]].
+2. Na caixa de diálogo **Publicar alterações**, clique em **Alterar configurações do site** ![[lucide-cog.svg#icon]].
 3. Em **Outras configurações do site**, ao lado de **Senhas**, clique em **Administrar**.
 5. Clique no ícone de cruz ao lado da senha que deseja excluir.
 

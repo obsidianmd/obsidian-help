@@ -23,7 +23,7 @@ Para comenzar a usar Canvas, primero necesitas crear un archivo que contenga tu 
 
 **Menú de cinta:**
 
-- En el menú vertical del menú de cinta, selecciona **Crear nuevo lienzo** ( ![[lucide-layout-dashboard.svg#icon]] ) para crear un lienzo en la misma carpeta que el archivo activo.
+- En el menú vertical del menú de cinta, selecciona **Crear nuevo lienzo** ![[lucide-layout-dashboard.svg#icon]] para crear un lienzo en la misma carpeta que el archivo activo.
 
 > [!note] La extensión de archivo .canvas
 > Obsidian almacena los datos de tu lienzo como archivos `.canvas` usando un formato de archivo abierto llamado [JSON Canvas](https://jsoncanvas.org/).
@@ -103,7 +103,7 @@ También puedes editar una tarjeta haciendo clic derecho en ella y seleccionando
 
 Elimina las tarjetas seleccionadas haciendo clic derecho en cualquiera de ellas y seleccionando **Eliminar**. O presiona `Backspace` (o `Delete` en macOS).
 
-También puedes seleccionar **Eliminar** ( ![[lucide-trash-2.svg#icon]] ) en los controles de selección sobre tu selección.
+También puedes seleccionar **Eliminar** ![[lucide-trash-2.svg#icon]] en los controles de selección sobre tu selección.
 
 ### Intercambiar tarjetas
 
@@ -195,7 +195,7 @@ Para editar la etiqueta de una conexión, haz doble clic en la línea, o haz cli
 ### Cambiar el color de una tarjeta o conexión
 
 1. Selecciona las tarjetas o conexiones que deseas colorear.
-2. En los controles de selección, selecciona **Definir color** ( ![[lucide-palette.svg#icon]] ).
+2. En los controles de selección, selecciona **Definir color** ![[lucide-palette.svg#icon]].
 3. Selecciona un color.
 
 ## Agrupar tarjetas
@@ -227,11 +227,11 @@ Para mover el lienzo vertical y horizontalmente, también conocido como _panear_
 
 ### Ampliar el lienzo
 
-Para ampliar el lienzo, presiona `Space` o `Ctrl` (o `Cmd` en macOS) y desplaza usando la rueda del ratón. O selecciona **Acercar** ( ![[lucide-plus.svg#icon]] ) y **Alejar** ( ![[lucide-minus.svg#icon]] ) en los controles de zoom en la esquina superior derecha.
+Para ampliar el lienzo, presiona `Space` o `Ctrl` (o `Cmd` en macOS) y desplaza usando la rueda del ratón. O selecciona **Acercar** ![[lucide-plus.svg#icon]] y **Alejar** ![[lucide-minus.svg#icon]] en los controles de zoom en la esquina superior derecha.
 
 #### Acercar para ajustar
 
-Para ampliar el lienzo de modo que todos los elementos sean visibles, selecciona **Acercar para ajustar** ( ![[lucide-maximize.svg#icon]] ). O usa el atajo de teclado `Shift+1`.
+Para ampliar el lienzo de modo que todos los elementos sean visibles, selecciona **Acercar para ajustar** ![[lucide-maximize.svg#icon]]. O usa el atajo de teclado `Shift+1`.
 
 #### Acercar a la selección
 

@@ -23,7 +23,7 @@ Um Canvas zu verwenden, musst du zunächst eine Datei für deinen Canvas erstell
 
 **Werkzeugleiste:**
 
-- Wähle in der vertikalen Werkzeugleiste **Neuen Canvas erstellen** ( ![[lucide-layout-dashboard.svg#icon]] ), um einen Canvas im selben Ordner wie die aktive Datei zu erstellen.
+- Wähle in der vertikalen Werkzeugleiste **Neuen Canvas erstellen** ![[lucide-layout-dashboard.svg#icon]], um einen Canvas im selben Ordner wie die aktive Datei zu erstellen.
 
 > [!note] Die Dateiendung .canvas
 > Obsidian speichert deine Canvas-Daten als `.canvas`-Dateien in einem offenen Dateiformat namens [JSON Canvas](https://jsoncanvas.org/).
@@ -103,7 +103,7 @@ Du kannst eine Karte auch bearbeiten, indem du mit der rechten Maustaste darauf 
 
 Entferne ausgewählte Karten, indem du mit der rechten Maustaste auf eine davon klickst und dann **Löschen** wählst. Oder drücke die `Rücktaste` (oder `Entf` unter macOS).
 
-Du kannst auch **Entfernen** ( ![[lucide-trash-2.svg#icon]] ) in den Auswahlsteuerelementen über deiner Auswahl wählen.
+Du kannst auch **Entfernen** ![[lucide-trash-2.svg#icon]] in den Auswahlsteuerelementen über deiner Auswahl wählen.
 
 ### Karten austauschen
 
@@ -195,7 +195,7 @@ Um eine Verbindungsbeschriftung zu bearbeiten, doppelklicke auf die Linie, oder 
 ### Die Farbe einer Karte oder Verbindung ändern
 
 1. Wähle die Karten oder Verbindungen aus, die du einfärben möchtest.
-2. Wähle in den Auswahlsteuerelementen **Farbe wählen** ( ![[lucide-palette.svg#icon]] ).
+2. Wähle in den Auswahlsteuerelementen **Farbe wählen** ![[lucide-palette.svg#icon]].
 3. Wähle eine Farbe.
 
 ## Karten gruppieren
@@ -227,11 +227,11 @@ Um den Canvas vertikal und horizontal zu bewegen, auch bekannt als _Verschieben_
 
 ### Den Canvas vergrößern
 
-Um den Canvas zu vergrößern, drücke `Leertaste` oder `Strg` (oder `Cmd` unter macOS) und scrolle mit dem Mausrad. Oder wähle **Vergrößern** ( ![[lucide-plus.svg#icon]] ) und **Verkleinern** ( ![[lucide-minus.svg#icon]] ) in den Zoom-Steuerelementen in der oberen rechten Ecke.
+Um den Canvas zu vergrößern, drücke `Leertaste` oder `Strg` (oder `Cmd` unter macOS) und scrolle mit dem Mausrad. Oder wähle **Vergrößern** ![[lucide-plus.svg#icon]] und **Verkleinern** ![[lucide-minus.svg#icon]] in den Zoom-Steuerelementen in der oberen rechten Ecke.
 
 #### Vergrößerung anpassen
 
-Um den Canvas so zu zoomen, dass jedes Element sichtbar ist, wähle **Vergrößerung anpassen** ( ![[lucide-maximize.svg#icon]] ). Oder verwende das Tastenkürzel `Shift+1`.
+Um den Canvas so zu zoomen, dass jedes Element sichtbar ist, wähle **Vergrößerung anpassen** ![[lucide-maximize.svg#icon]]. Oder verwende das Tastenkürzel `Shift+1`.
 
 #### Auf Auswahl zoomen
 

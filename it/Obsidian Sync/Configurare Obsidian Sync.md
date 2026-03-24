@@ -77,7 +77,7 @@ Se stai iniziando la sincronizzazione dopo esserti connesso a un caveau remoto, 
 Se stai iniziando la sincronizzazione dopo aver regolato le impostazioni di Obsidian Sync e riavviato l'applicazione, vedrai un pulsante **Riprendi** nelle impostazioni di Sync. Seleziona questo pulsante per iniziare la sincronizzazione.
 
 > [!done] Stato della sincronizzazione
-> Quando Obsidian Sync completa la sincronizzazione, un cerchio verde con un segno di spunta ( ![[obsidian-icon-sync-synced.svg#icon]] ) appare nell'angolo in basso a destra (desktop) o nella barra laterale destra (mobile). Il registro di Sync mostrerà anche "Completamente sincronizzato" come uno dei messaggi più recenti.
+> Quando Obsidian Sync completa la sincronizzazione, un cerchio verde con un segno di spunta ![[obsidian-icon-sync-synced.svg#icon]] appare nell'angolo in basso a destra (desktop) o nella barra laterale destra (mobile). Il registro di Sync mostrerà anche "Completamente sincronizzato" come uno dei messaggi più recenti.
 >
 > Per maggiori dettagli sugli stati di sincronizzazione, consulta [[Status icon and messages]].
 ^obsidian-sync-status
@@ -157,7 +157,7 @@ Ora sei disconnesso dal caveau remoto e non stai più sincronizzando su questo d
 1. Apri le **[[Settings|Impostazioni]]**.
 2. Nella barra laterale, seleziona **Sync**.
 3. Seleziona **Gestisci** accanto a Vault remoti. Si aprirà una finestra con l'elenco dei tuoi caveau remoti.
-4. Seleziona l'icona del cestino ( ![[lucide-trash-2.svg#icon]] ) accanto al caveau remoto che vuoi eliminare.
+4. Seleziona l'icona del cestino ![[lucide-trash-2.svg#icon]] accanto al caveau remoto che vuoi eliminare.
 5. Conferma l'eliminazione selezionando il pulsante rosso **Elimina**.
 6. Il tuo caveau remoto è stato eliminato.
 

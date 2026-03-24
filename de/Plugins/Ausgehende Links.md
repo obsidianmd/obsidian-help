@@ -6,7 +6,7 @@ description: Ausgehende Links ist eine Obsidian-Erweiterung, die Links aus der a
 ---
 Ausgehende Links ist eine [[Obsidian-Erweiterungen|Obsidian-Erweiterung]], die Links aus der aktiven Notiz auf einen Blick anzeigt sowie potenzielle Links, die erstellt werden könnten. Sie ähnelt der [[Rückverweise]]-Erweiterung, die stattdessen _eingehende_ Links zur aktiven Notiz anzeigt.
 
-Der Tab „Ausgehende Links" ( ![[obsidian-icon-links-going-out.svg#icon]] ) ist in der rechten Seitenleiste verfügbar und enthält die folgenden Abschnitte:
+Der Tab „Ausgehende Links" ![[obsidian-icon-links-going-out.svg#icon]] ist in der rechten Seitenleiste verfügbar und enthält die folgenden Abschnitte:
 
 - **Links** listet alle Links in der aktiven Notiz auf. Klicke auf einen Link, um die verknüpfte Notiz zu öffnen.
 - **Nicht verlinkte Erwähnungen** listet jeden Text in der aktiven Notiz auf, der mit dem Namen oder [[Aliasse|Alias]] einer anderen Notiz in deinem Vault übereinstimmt. Nicht verlinkte Erwähnungen helfen dir, Links zu entdecken, die dir noch nicht bekannt sind.

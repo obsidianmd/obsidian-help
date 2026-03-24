@@ -13,7 +13,7 @@ Strumento importazione Markdown è un [[Plugin principali|plugin principale]] ch
 
 Per convertire tutte le note nella cassaforte:
 
-1. Nella [[Riquadro comandi|tavolozza dei comandi]], seleziona **Apri importazione Markdown**. È possibile accedervi anche dalla [[Ribbon|barra degli strumenti]] con l'icona **Apri importazione Markdown** ( ![[lucide-binary.svg#icon]] ).
+1. Nella [[Riquadro comandi|tavolozza dei comandi]], seleziona **Apri importazione Markdown**. È possibile accedervi anche dalla [[Ribbon|barra degli strumenti]] con l'icona **Apri importazione Markdown** ![[lucide-binary.svg#icon]].
 2. Abilita i formati che desideri convertire.
 3. Fai clic su **Avvia conversione**.
 

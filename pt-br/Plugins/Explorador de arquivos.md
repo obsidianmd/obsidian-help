@@ -19,7 +19,7 @@ O Explorador de arquivos é um [[Plugins nativos|plugin nativo]] que permite ger
 
 Para criar uma nova nota no local padrão para novas notas:
 
-1. Clique em **Nova nota** ( ![[lucide-pen-line.svg#icon]] ) no topo do Explorador de arquivos.
+1. Clique em **Nova nota** ![[lucide-pen-line.svg#icon]] no topo do Explorador de arquivos.
 2. Digite o nome da nota e pressione Enter.
 
 > [!tip]- Alterar o local padrão
@@ -34,7 +34,7 @@ Para criar uma nova nota em uma pasta específica:
 
 Para criar uma nova pasta na raiz do seu cofre:
 
-1. Clique em **Nova pasta** ( ![[lucide-folder-plus.svg#icon]] ) no topo do Explorador de arquivos.
+1. Clique em **Nova pasta** ![[lucide-folder-plus.svg#icon]] no topo do Explorador de arquivos.
 2. Digite o nome da pasta e pressione Enter.
 
 Para criar uma subpasta:
@@ -46,7 +46,7 @@ Para criar uma subpasta:
 
 Para mudar a ordenação dos seus arquivos:
 
-1.  Selecione **Mudar ordenação** ( ![[lucide-arrow-up-narrow-wide.svg#icon]] ) no topo do Explorador de arquivos.
+1.  Selecione **Mudar ordenação** ![[lucide-arrow-up-narrow-wide.svg#icon]] no topo do Explorador de arquivos.
 2. Escolha como deseja ordenar seus arquivos. Você pode ordenar em ordem crescente ou decrescente por nome, horário de modificação ou horário de criação.
 
 ## Revelar automaticamente o arquivo ativo
@@ -55,7 +55,7 @@ Quando você abre uma nota, o Explorador de arquivos pode rolar automaticamente 
 
 Para alternar a revelação automática:
 
-- Selecione **Revelar automaticamente arquivo ativo** ( ![[lucide-gallery-vertical.svg#icon]] ) no topo do Explorador de arquivos.
+- Selecione **Revelar automaticamente arquivo ativo** ![[lucide-gallery-vertical.svg#icon]] no topo do Explorador de arquivos.
 
 Quando ativado, o Explorador de arquivos seguirá e revelará automaticamente a nota atualmente aberta.
 
@@ -65,11 +65,11 @@ Você pode expandir ou recolher todas as pastas no Explorador de arquivos de uma
 
 Para expandir todas as pastas:
 
-- Selecione **Expandir tudo** ( ![[lucide-chevrons-up-down.svg#icon]] ) no topo do Explorador de arquivos.
+- Selecione **Expandir tudo** ![[lucide-chevrons-up-down.svg#icon]] no topo do Explorador de arquivos.
 
 Para recolher todas as pastas:
 
-- Selecione **Recolher todos** ( ![[lucide-chevrons-down-up.svg#icon]] ) no topo do Explorador de arquivos.
+- Selecione **Recolher todos** ![[lucide-chevrons-down-up.svg#icon]] no topo do Explorador de arquivos.
 
 ## Excluir um arquivo ou pasta
 

@@ -20,7 +20,7 @@ Du kannst Lesezeichen neu anordnen, indem du sie auswählst und ziehst.
 Du kannst Elemente als Lesezeichen speichern und in _Lesezeichen-Gruppen_ organisieren, um sie leichter zu finden. Du kannst Lesezeichen-Gruppen aus- und einklappen, um die darin enthaltenen Lesezeichen anzuzeigen oder auszublenden.
 
 > [!todo]- Lesezeichen anzeigen
-> Du findest deine als Lesezeichen gesetzten Elemente, indem du auf **Lesezeichen** ( ![[lucide-bookmark.svg#icon]] ) in der linken Seitenleiste klickst.
+> Du findest deine als Lesezeichen gesetzten Elemente, indem du auf **Lesezeichen** ![[lucide-bookmark.svg#icon]] in der linken Seitenleiste klickst.
 >
 > Oder öffne den Lesezeichen-Tab, indem du **Lesezeichen: Zeige Lesezeichen** über die [[Befehlspalette]] ausführst.
 
@@ -34,7 +34,7 @@ Wenn du ein Element als Lesezeichen gesetzt hast, wird **Lesezeichen hinzufügen
 >
 > **Lesezeichen**:
 >
-> - Wähle **Aktiven Tab als Lesezeichen setzen** ( ![[lucide-bookmark-plus.svg#icon]] ) oben im Lesezeichen-Tab.
+> - Wähle **Aktiven Tab als Lesezeichen setzen** ![[lucide-bookmark-plus.svg#icon]] oben im Lesezeichen-Tab.
 >
 > **Dateiexplorer**:
 >
@@ -102,7 +102,7 @@ Du kannst ein Lesezeichen auch über den Dialog **Lesezeichen bearbeiten** entfe
 
 **Lesezeichen**:
 
-- Wähle **Neue Lesezeichen-Gruppe** ( ![[lucide-folder-plus.svg#icon]] ) oben im Lesezeichen-Tab.
+- Wähle **Neue Lesezeichen-Gruppe** ![[lucide-folder-plus.svg#icon]] oben im Lesezeichen-Tab.
 
 Um ein Lesezeichen in eine andere Gruppe zu verschieben, wähle es aus und ziehe es in die gewünschte Gruppe.
 

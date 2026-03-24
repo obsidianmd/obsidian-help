@@ -7,7 +7,7 @@ O plugin de [[Plugins nativos|Paleta de comandos]] permite executar qualquer com
 
 Para executar um comando a partir da Paleta de comandos:
 
-1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a Paleta de comandos. Você também pode abri-la a partir do [[Faixa de opções|Menu lateral]] com o ícone da Paleta de comandos ( ![[lucide-terminal.svg#icon]] ).
+1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a Paleta de comandos. Você também pode abri-la a partir do [[Faixa de opções|Menu lateral]] com o ícone da Paleta de comandos ![[lucide-terminal.svg#icon]].
 2. Digite o nome do comando que deseja executar.
 3. Navegue até o comando usando as teclas de seta.
 4. Pressione `Enter`.

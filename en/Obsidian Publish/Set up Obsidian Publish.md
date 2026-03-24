@@ -35,7 +35,7 @@ You can access Publish through the following options: the command palette, a hot
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the **Command palette** ( ![[lucide-terminal.svg#icon]] ).
+1. Open the **Command palette** ![[lucide-terminal.svg#icon]].
 2. Type "Publish".
 3. Select the **Publish: Publish changes...** option.
 
@@ -43,8 +43,8 @@ The **Publish changes** window will appear in a new pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
-2. Open the **Command palette** ( ![[lucide-terminal.svg#icon]] ).
+1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
+2. Open the **Command palette** ![[lucide-terminal.svg#icon]].
 3. Type "Publish".
 4. Select the **Publish: Publish changes...** option.
 
@@ -65,15 +65,15 @@ You can also access Obsidian Publish via the [[ribbon]].
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the left [[Sidebar]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
-2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.
+1. Open the left [[Sidebar]] ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Select the **Publish changes** ![[lucide-send.svg#icon]] icon.
 
 The **Publish changes** window will appear in a new pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
-2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.
+1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
+2. Select the **Publish changes** ![[lucide-send.svg#icon]] icon.
 
 The **Publish changes** menu will appear as a slide-up.
 
@@ -85,7 +85,7 @@ The **Publish changes** menu will appear as a slide-up.
 ### Set a site name
 
 1. [[#Open Publish]]
-2. Select **Change site options** ( ![[lucide-cog.svg#icon]] ).
+2. Select **Change site options** ![[lucide-cog.svg#icon]].
 3. In **Site name**, under **General**, enter the name of your site.
 4. Select **Save site settings**.
 

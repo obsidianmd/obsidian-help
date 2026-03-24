@@ -37,7 +37,7 @@ Fornisce le seguenti opzioni:
 
 ## Visualizza i backlink per una nota
 
-Per visualizzare i backlink per la nota attiva, fai clic sulla scheda **Riferimenti** ( ![[obsidian-icon-links-coming-in.svg#icon]] ) nella barra laterale destra.
+Per visualizzare i backlink per la nota attiva, fai clic sulla scheda **Riferimenti** ![[obsidian-icon-links-coming-in.svg#icon]] nella barra laterale destra.
 
 > [!note] Nota
 > Se non riesci a vedere la scheda Riferimenti, puoi renderla visibile aprendo la [[Riquadro comandi]] ed eseguendo il comando **Riferimenti: Mostra riferimenti**.
