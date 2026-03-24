@@ -2,6 +2,7 @@
 permalink: import/csv
 aliases:
   - Import CSV files
+  - استيراد ملفات CSV
 ---
 # إنشاء ملاحظات من بيانات CSV في Obsidian
 

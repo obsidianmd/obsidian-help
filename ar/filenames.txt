@@ -708,7 +708,7 @@ translation=أيقونات
 
 [folder.Import notes]
 original=Import notes
-translation=المكوّنات الإضافية
+translation=استيراد الملاحظات
 
 [folder.Layouts]
 original=Layouts
