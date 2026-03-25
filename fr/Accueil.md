@@ -26,7 +26,7 @@ Apprenez les bases de la prise de notes avec Obsidian :
 
 ## Étendre Obsidian
 
-Avec des milliers de plugins et de thèmes, vous pouvez adapter Obsidian à votre façon de penser.
+Avec des milliers de modules et de thèmes, vous pouvez adapter Obsidian à votre façon de penser.
 
 - [[Modules principaux]]
 	- Choisissez les fonctionnalités intégrées d'Obsidian que vous souhaitez activer ou désactiver.

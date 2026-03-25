@@ -9,7 +9,7 @@ localized: '2026-03-18'
 
 Obsidian Publish offre un support minimal pour les [[Modules complémentaires]].
 
-Les modules qui produisent du Markdown brut, comme le plugin Waypoint, sont compatibles avec Publish car ils ne nécessitent pas l'application pour afficher leurs données.
+Les modules qui produisent du Markdown brut, comme le module Waypoint, sont compatibles avec Publish car ils ne nécessitent pas l'application pour afficher leurs données.
 
 En revanche, un module qui nécessite un bloc de code spécifique pour s'afficher, comme Dataview ou Fantasy Statblocks, ne fonctionnera pas par défaut dans Publish.
 

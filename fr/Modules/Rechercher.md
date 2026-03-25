@@ -1,12 +1,12 @@
 ---
 permalink: plugins/search
-description: Recherche est un plugin principal qui vous aide à trouver des données dans votre coffre Obsidian en utilisant des termes de recherche et des opérateurs pour affiner les résultats.
+description: Recherche est un module principal qui vous aide à trouver des données dans votre coffre Obsidian en utilisant des termes de recherche et des opérateurs pour affiner les résultats.
 publish: true
 mobile: true
 aliases:
   - Modules/Search
   - Plugins/Search
-localized: '2026-03-18'
+localized: 2026-03-18
 ---
 Rechercher est un [[Modules principaux|module principal]] qui vous aide à trouver des données dans votre coffre Obsidian en utilisant des termes de recherche et des opérateurs pour affiner les résultats.
 

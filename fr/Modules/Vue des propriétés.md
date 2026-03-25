@@ -1,10 +1,9 @@
 ---
 permalink: plugins/properties
-description: Vue des propriétés est un plugin principal qui ajoute deux vues dans la barre latérale que vous pouvez utiliser pour gérer les Propriétés.
+description: Vue des propriétés est un module principal qui ajoute deux vues dans la barre latérale que vous pouvez utiliser pour gérer les Propriétés.
 publish: true
 mobile: true
-localized: '2026-03-18'
-
+localized: 2026-03-18
 ---
 Vue des propriétés est un [[Modules principaux|module principal]] qui ajoute deux vues dans la barre latérale que vous pouvez utiliser pour gérer les [[Propriétés]] :
 

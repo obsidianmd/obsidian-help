@@ -3,7 +3,7 @@ permalink: import/notion
 localized: '2026-03-18'
 
 ---
-Obsidian vous permet de migrer facilement vos notes depuis Notion en utilisant le [[Importer|plugin Importer]]. Cela convertira vos données Notion en fichiers Markdown durables que vous pouvez utiliser hors ligne avec Obsidian et de nombreuses autres applications.
+Obsidian vous permet de migrer facilement vos notes depuis Notion en utilisant le [[Importer|module Importer]]. Cela convertira vos données Notion en fichiers Markdown durables que vous pouvez utiliser hors ligne avec Obsidian et de nombreuses autres applications.
 
 Obsidian propose deux façons d'importer vos données Notion :
 

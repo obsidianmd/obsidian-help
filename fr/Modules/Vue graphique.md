@@ -1,10 +1,9 @@
 ---
 permalink: plugins/graph
-description: Vue graphique est un plugin principal qui vous permet de visualiser les relations entre les notes de votre coffre.
+description: Vue graphique est un module principal qui vous permet de visualiser les relations entre les notes de votre coffre.
 publish: true
 mobile: true
-localized: '2026-03-18'
-
+localized: 2026-03-18
 ---
 La vue graphique est un [[Modules principaux|module principal]] qui vous permet de visualiser les relations entre les notes de votre coffre.
 

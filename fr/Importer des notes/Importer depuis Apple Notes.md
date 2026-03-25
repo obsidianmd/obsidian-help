@@ -3,18 +3,18 @@ permalink: import/apple-notes
 localized: '2026-03-18'
 
 ---
-Obsidian vous permet de migrer facilement vos notes depuis Apple Notes en utilisant le [[Importer|plugin Importer]]. Cela convertira vos données Apple Notes en fichiers Markdown durables, que vous pouvez utiliser avec Obsidian et de nombreuses autres applications.
+Obsidian vous permet de migrer facilement vos notes depuis Apple Notes en utilisant le [[Importer|module Importer]]. Cela convertira vos données Apple Notes en fichiers Markdown durables, que vous pouvez utiliser avec Obsidian et de nombreuses autres applications.
 
 Actuellement, Importer ne prend en charge la migration depuis Apple Notes que sur macOS. Il n'est pas encore disponible sur iOS.
 
 ## Importer les données Apple Notes dans Obsidian
 
-Vous aurez besoin du plugin officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Activez le plugin Importer.
-4. Ouvrez le plugin **Importer** en utilisant la palette de commandes ou l'icône du ruban.
+3. Activez le module Importer.
+4. Ouvrez le module **Importer** en utilisant la palette de commandes ou l'icône du ruban.
 5. Sous **Format de fichier**, choisissez **Apple Notes**.
 6. Cliquez sur **Importer**.
 7. Cliquez sur **Ouvrir** dans la fenêtre contextuelle qui apparaît, intitulée `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
@@ -23,7 +23,7 @@ Vous aurez besoin du plugin officiel Obsidian [[Importer]], que vous pouvez [ins
 
 ## Contenu pris en charge
 
-Le plugin Obsidian Importer prend en charge la quasi-totalité des types de contenu Apple Notes. Cela inclut les tableaux, les images, les dessins, les numérisations, les PDF et les liens introduits dans iOS 17.
+Le module Obsidian Importer prend en charge la quasi-totalité des types de contenu Apple Notes. Cela inclut les tableaux, les images, les dessins, les numérisations, les PDF et les liens introduits dans iOS 17.
 
 > [!Warning]
 > Les notes protégées par mot de passe sont chiffrées par Apple et doivent donc être déverrouillées avant d'être importées. Toutes les notes verrouillées seront ignorées.
