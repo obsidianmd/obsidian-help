@@ -8,13 +8,13 @@ Tìm hiểu cách thêm cú pháp định dạng nâng cao vào ghi chú của b
 Bạn có thể tạo bảng bằng cách sử dụng dấu gạch đứng (`|`) để phân tách các cột và dấu gạch nối (`-`) để xác định tiêu đề. Đây là một ví dụ:
 
 ```md
-| First name | Last name |
+| Tên | Họ |
 | ---------- | --------- |
 | Max        | Planck    |
 | Marie      | Curie     |
 ```
 
-| First name | Last name |
+| Tên | Họ |
 | ---------- | --------- |
 | Max        | Planck    |
 | Marie      | Curie     |
@@ -34,7 +34,7 @@ Bạn có thể chèn bảng bằng lệnh **Chèn bảng** từ [[Khay lệnh|B
 Lưu ý rằng các ô không cần căn chỉnh hoàn hảo, nhưng hàng tiêu đề phải chứa ít nhất hai dấu gạch nối:
 
 ```md
-First name | Last name
+Tên | Họ
 -- | --
 Max | Planck
 Marie | Curie
@@ -45,7 +45,7 @@ Marie | Curie
 
 Bạn có thể sử dụng [[Cú pháp định dạng cơ bản]] để tạo kiểu cho nội dung bên trong bảng.
 
-| First column       | Second column                           |
+| Cột đầu tiên       | Cột thứ hai                           |
 | ------------------ | --------------------------------------- |
 | [[Liên kết nội bộ]] | Liên kết đến một tệp _bên trong_ **kho** của bạn. |
 | [[Nhúng tệp]]    | ![[Engelbart.jpg\|100]]                 |
@@ -54,12 +54,12 @@ Bạn có thể sử dụng [[Cú pháp định dạng cơ bản]] để tạo k
 > Nếu bạn muốn sử dụng [[Bí danh|bí danh]], hoặc [[Cú pháp định dạng cơ bản#Hình ảnh bên ngoài|thay đổi kích thước hình ảnh]] trong bảng, bạn cần thêm `\` trước dấu gạch đứng.
 >
 > ```md
-> First column | Second column
+> Cột đầu tiên | Cột thứ hai
 > -- | --
 > [[Cú pháp định dạng cơ bản\|Cú pháp Markdown]] | ![[Engelbart.jpg\|200]]
 > ```
 >
-> First column | Second column
+> Cột đầu tiên | Cột thứ hai
 > -- | --
 > [[Cú pháp định dạng cơ bản\|Cú pháp Markdown]] | ![[Engelbart.jpg\|200]]
 
