@@ -600,6 +600,43 @@ function runFixLinks(headingsMap: HeadingsMap, basenameToPermalink: Map<string, 
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
+async function translateDescriptionFields(files: FileInfo[], config: LLMConfig): Promise<void> {
+  console.log(`\nTranslating descriptions for ${files.length} file(s)...\n`);
+  const BATCH = 50;
+  let updated = 0;
+  for (let start = 0; start < files.length; start += BATCH) {
+    const batch = files.slice(start, start + BATCH);
+    const entries = batch.map(f => {
+      const enFm = matter(fs.readFileSync(path.join(enDir, f.enRelPath), "utf8")).data;
+      return { file: f, enDesc: (enFm?.description as string | undefined) ?? "" };
+    }).filter(e => e.enDesc);
+    if (entries.length === 0) continue;
+
+    const numbered = entries.map((e, i) => `${i + 1}. ${e.enDesc}`).join("\n");
+    const userMsg = `Translate each of the following Obsidian Help page descriptions to ${LANGUAGE_NAMES[locale] ?? locale}. Return them numbered in the same order, one per line, as "N. <translated description>". Do not add any other text.\n\n${numbered}`;
+
+    if (dryRun) {
+      for (const e of entries) console.log(`  [dry-run] DESC  ${e.file.relPath}`);
+      continue;
+    }
+
+    const raw = await callLLM(config, "You are a professional translator.", userMsg);
+    const translated = raw.split("\n").filter(l => /^\d+\./.test(l.trim()));
+    for (let i = 0; i < entries.length && i < translated.length; i++) {
+      const frDesc = translated[i].replace(/^\d+\.\s*/, "").trim();
+      if (!frDesc) continue;
+      const f = entries[i].file;
+      const parsed = matter(fs.readFileSync(f.absPath, "utf8"));
+      const newFm = { ...parsed.data, description: frDesc };
+      fs.writeFileSync(f.absPath, matter.stringify(parsed.content, newFm, { lineWidth: -1 }), "utf8");
+      console.log(`  DESC  ${f.relPath}`);
+      updated++;
+    }
+    if (start + BATCH < files.length) await new Promise(r => setTimeout(r, config.delayMs ?? 1000));
+  }
+  console.log(`\nUpdated descriptions: ${updated}`);
+}
+
 async function main() {
   const config = loadConfig();
   const termsPath = config.termsPath
@@ -661,51 +698,7 @@ async function main() {
   if (translateDescriptions) {
     const localeFiles = collectLocaleFiles(enFiles);
     const toUpdate = localeFiles.filter(f => f.frontmatter.localized !== false);
-    console.log(`Translating descriptions for ${toUpdate.length} localized file(s)...\n`);
-
-    // Build batches of up to 50 descriptions per LLM call
-    const BATCH = 50;
-    let updated = 0;
-    for (let start = 0; start < toUpdate.length; start += BATCH) {
-      const batch = toUpdate.slice(start, start + BATCH);
-
-      // Build numbered list of EN descriptions
-      const entries = batch.map((f, i) => {
-        const enFm = matter(fs.readFileSync(path.join(enDir, f.enRelPath), "utf8")).data;
-        return { file: f, enDesc: (enFm?.description as string | undefined) ?? "" };
-      }).filter(e => e.enDesc);
-
-      if (entries.length === 0) continue;
-
-      const numbered = entries.map((e, i) => `${i + 1}. ${e.enDesc}`).join("\n");
-      const userMsg = `Translate each of the following Obsidian Help page descriptions to ${LANGUAGE_NAMES[locale] ?? locale}. Return them numbered in the same order, one per line, as "N. <translated description>". Do not add any other text.\n\n${numbered}`;
-
-      if (dryRun) {
-        for (const e of entries) console.log(`  [dry-run] ${e.file.relPath}`);
-        continue;
-      }
-
-      const raw = await callLLM(config, "You are a professional translator.", userMsg);
-      const translated = raw.split("\n").filter(l => /^\d+\./.test(l.trim()));
-
-      for (let i = 0; i < entries.length && i < translated.length; i++) {
-        const frDesc = translated[i].replace(/^\d+\.\s*/, "").trim();
-        if (!frDesc) continue;
-        const f = entries[i].file;
-        const raw2 = fs.readFileSync(f.absPath, "utf8");
-        const parsed = matter(raw2);
-        const newFm = { ...parsed.data, description: frDesc };
-        const descContent = matter.stringify(parsed.content, newFm, { lineWidth: -1 });
-        fs.writeFileSync(f.absPath, descContent, "utf8");
-        console.log(`  DESC  ${f.relPath}`);
-        updated++;
-      }
-
-      if (start + BATCH < toUpdate.length) {
-        await new Promise(r => setTimeout(r, config.delayMs ?? 1000));
-      }
-    }
-    console.log(`\nUpdated descriptions: ${updated}`);
+    await translateDescriptionFields(toUpdate, config);
     return;
   }
 
@@ -728,6 +721,7 @@ async function main() {
 
   // ── Translate ──
   let done = 0;
+  const translated: FileInfo[] = [];
   for (const file of toTranslate) {
     const enContent = enFiles.get(file.permalink)?.content ?? "";
     if (!enContent.trim()) {
@@ -742,6 +736,7 @@ async function main() {
       const fileGlossary = buildGlossaryString(glossary, enContent + " " + (enDesc ?? ""));
       const systemPrompt = buildSystemPrompt(locale, fileGlossary, linkRef);
       await translateFile(file, enContent, config, systemPrompt, headingsMap, basenameToPermalink, enToLocale);
+      translated.push(file);
       done++;
     } catch (err) {
       console.error(`  ERROR  ${file.relPath}: ${err}`);
@@ -756,6 +751,11 @@ async function main() {
   if (!dryRun && (Object.keys(headingsMap).length > 0 || enToLocale.size > 0)) {
     console.log(`\nRunning link fix pass...`);
     runFixLinks(headingsMap, basenameToPermalink, enToLocale);
+  }
+
+  // ── Translate descriptions for just-translated files ──
+  if (translated.length > 0) {
+    await translateDescriptionFields(translated, config);
   }
 
   console.log(`\nDone. Translated: ${done}/${toTranslate.length}`);

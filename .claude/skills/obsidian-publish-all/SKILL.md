@@ -26,3 +26,4 @@ npx tsx scripts/publish-all.ts fr ja zh
 - The script runs `ob publish --path <locale> --all --yes` for each locale sequentially.
 - If a locale fails, the script continues with the remaining locales and exits with a non-zero code at the end.
 - To publish a single locale manually: `ob publish --path <locale> --all --yes`
+- Active locales are defined in `scripts/locales.json` — this is the single source of truth. Do not edit `en/publish.js` or `publish-all.ts` directly to add/remove locales; edit `locales.json` and run `npx tsx scripts/build-publish-js.ts` to regenerate.

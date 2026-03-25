@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=Trang chủ
+
+[file.2fa]
+original=2-factor authentication
+translation=Xác thực 2 yếu tố
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Cú pháp định dạng nâng cao
+
+[file.aliases]
+original=Aliases
+translation=Bí danh
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian cho Android
+
+[file.appearance]
+original=Appearance
+translation=Giao diện
+
+[file.attachments]
+original=Attachments
+translation=Tệp đính kèm
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Sao lưu tệp Obsidian của bạn
+
+[file.bases]
+original=Introduction to Bases
+translation=Giới thiệu về Cơ sở
+
+[file.bases/create-base]
+original=Create a base
+translation=Tạo một cơ sở
+
+[file.bases/functions]
+original=Functions
+translation=Hàm
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Cú pháp Cơ sở
+
+[file.bases/views]
+original=Views
+translation=Các chế độ xem
+
+[file.bases/views/cards]
+original=Cards view
+translation=Chế độ xem thẻ
+
+[file.bases/views/list]
+original=List view
+translation=Chế độ xem danh sách
+
+[file.bases/views/map]
+original=Map view
+translation=Chế độ xem bản đồ
+
+[file.bases/views/table]
+original=Table view
+translation=Chế độ xem bảng
+
+[file.callouts]
+original=Callouts
+translation=Khung ghi chú
+
+[file.catalyst]
+original=Catalyst license
+translation=Bản quyền Catalyst
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Quy tắc ứng xử cộng đồng
+
+[file.community-plugins]
+original=Community plugins
+translation=Phần mở rộng từ cộng đồng
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Thư mục cấu hình
+
+[file.create-note]
+original=Create your first note
+translation=Tạo ghi chú đầu tiên của bạn
+
+[file.credit]
+original=Obsidian Credit
+translation=Tín dụng Obsidian
+
+[file.credits]
+original=Credits
+translation=Ghi công
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Cách Obsidian lưu trữ dữ liệu
+
+[file.developers]
+original=Developers
+translation=Nhà phát triển
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Giảm giá cho giáo dục và phi lợi nhuận
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Kéo và thả
+
+[file.early-access]
+original=Early access versions
+translation=Phiên bản truy cập sớm
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Các chế độ xem và chế độ chỉnh sửa
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Phím tắt chỉnh sửa
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Nhúng trang web
+
+[file.embeds]
+original=Embed files
+translation=Nhúng tệp
+
+[file.file-formats]
+original=Accepted file formats
+translation=Định dạng tệp được hỗ trợ
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Đóng góp tài chính
+
+[file.folding]
+original=Folding
+translation=Thu gọn
+
+[file.formulas]
+original=Formulas
+translation=Công thức
+
+[file.glossary]
+original=Glossary
+translation=Thuật ngữ
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Phím tắt
+
+[file.html]
+original=HTML content
+translation=Nội dung HTML
+
+[file.import]
+original=Import notes
+translation=Nhập ghi chú
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Nhập từ Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Nhập từ Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=Nhập từ Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=Nhập từ Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=Nhập tệp CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Nhập từ Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Nhập từ Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=Nhập tệp HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Nhập tệp Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=Nhập từ Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Nhập từ Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Nhập từ Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Nhập tệp Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Nhập ghi chú Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=Tải xuống và cài đặt Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian cho iOS và iPadOS
+
+[file.language]
+original=Language settings
+translation=Cài đặt ngôn ngữ
+
+[file.link-notes]
+original=Link notes
+translation=Liên kết ghi chú
+
+[file.links]
+original=Internal links
+translation=Liên kết nội bộ
+
+[file.manage-notes]
+original=Manage notes
+translation=Quản lý ghi chú
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Quản lý kho
+
+[file.mobile]
+original=Mobile app
+translation=Ứng dụng di động
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Nhiều con trỏ
+
+[file.obsidian]
+original=About Obsidian
+translation=Giới thiệu về Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Trang web chính thức
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Giới thiệu về bản quyền và thanh toán
+
+[file.plugin-security]
+original=Plugin security
+translation=Bảo mật plugin
+
+[file.plugins]
+original=Core plugins
+translation=Plugin cốt lõi
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Máy ghi âm
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Liên kết đến
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Đánh dấu
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Khay lệnh
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Ghi chú hàng ngày
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Trình quản lý tệp
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Khôi phục tập tin
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Bộ chuyển đổi định dạng Markdown
+
+[file.plugins/graph]
+original=Graph view
+translation=Xem biểu đồ
+
+[file.plugins/importer]
+original=Importer
+translation=Trình nhập
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Trình soạn thảo ghi chú
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Liên kết đi ra
+
+[file.plugins/outline]
+original=Outline
+translation=Đề cương
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Xem trước trang
+
+[file.plugins/properties]
+original=Properties view
+translation=Xem thuộc tính
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Bộ chuyển đổi nhanh
+
+[file.plugins/random-note]
+original=Random note
+translation=Ghi chú ngẫu nhiên
+
+[file.plugins/search]
+original=Search
+translation=Tìm kiếm
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Lệnh gạch chéo
+
+[file.plugins/slides]
+original=Slides
+translation=Trang trình chiếu
+
+[file.plugins/tags]
+original=Tags view
+translation=Cửa sổ thẻ
+
+[file.plugins/templates]
+original=Templates
+translation=Mẫu
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Tạo ghi chú duy nhất
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Trình xem web
+
+[file.plugins/word-count]
+original=Word count
+translation=Số từ
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Khung làm việc
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Cửa sổ bật ra
+
+[file.properties]
+original=Properties
+translation=Thuộc tính
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Giới thiệu về Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=Phân tích
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Cộng tác trên trang Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=Tùy chỉnh trang web của bạn
+
+[file.publish/domains]
+original=Custom domains
+translation=Tên miền tùy chỉnh
+
+[file.publish/headless]
+original=Headless Publish
+translation=Publish không giao diện
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Giới hạn của Publish
+
+[file.publish/media]
+original=Media files
+translation=Tệp phương tiện
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Liên kết cố định
+
+[file.publish/publish]
+original=Publish your content
+translation=Xuất bản nội dung của bạn
+
+[file.publish/security]
+original=Security and privacy
+translation=Bảo mật và quyền riêng tư
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Thiết lập Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=Quản lý trang web
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Xem trước liên kết mạng xã hội
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Khắc phục sự cố Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=Chính sách hoàn tiền
+
+[file.resources]
+original=Help and support
+translation=Trợ giúp và hỗ trợ
+
+[file.ribbon]
+original=Ribbon
+translation=Thanh công cụ
+
+[file.sales-tax]
+original=Sales tax
+translation=Thuế bán hàng
+
+[file.sandbox]
+original=Sandbox vault
+translation=Khối lưu trữ sandbox
+
+[file.settings]
+original=Settings
+translation=Cài đặt
+
+[file.sidebar]
+original=Sidebar
+translation=Thanh bên
+
+[file.snippets]
+original=CSS snippets
+translation=Mẩu CSS
+
+[file.status-bar]
+original=Status bar
+translation=Thanh trạng thái
+
+[file.style-guide]
+original=Style guide
+translation=Hướng dẫn kiểu dáng
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Liên kết tượng trưng và junction
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Giới thiệu về Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Đồng bộ hóa ghi chú giữa các thiết bị
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Cộng tác trên kho lưu trữ được chia sẻ
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Câu hỏi thường gặp
+
+[file.sync/headless]
+original=Headless Sync
+translation=Đồng bộ hóa không giao diện
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Biểu tượng và thông báo trạng thái
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Nâng cấp mã hóa Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Gói và giới hạn lưu trữ
+
+[file.sync/region]
+original=Sync regions
+translation=Khu vực Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=Bảo mật và quyền riêng tư
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Cài đặt đồng bộ và đồng bộ hóa chọn lọc
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Thiết lập Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Chuyển sang Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Khắc phục sự cố Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Kho lưu trữ cục bộ và từ xa
+
+[file.sync/version-history]
+original=Version history
+translation=Lịch sử phiên bản
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Cú pháp định dạng cơ bản
+
+[file.tabs]
+original=Tabs
+translation=Thẻ
+
+[file.tags]
+original=Tags
+translation=Thẻ
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian cho nhóm
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Triển khai Obsidian cho nhóm của bạn
+
+[file.teams/license]
+original=Commercial license
+translation=Bản quyền thương mại
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Xuất bản cho nhóm
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Cân nhắc bảo mật cho nhóm
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Đồng bộ hóa cho nhóm
+
+[file.themes]
+original=Themes
+translation=Chủ đề
+
+[file.translations]
+original=Translations
+translation=Bản dịch
+
+[file.updates]
+original=Update Obsidian
+translation=Cập nhật Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Tạo một kho
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Giới thiệu về Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Cắt trang web
+
+[file.web-clipper/filters]
+original=Filters
+translation=Bộ lọc
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Tô Màu trang web
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Thông dịch trang web
+
+[file.web-clipper/logic]
+original=Logic
+translation=Logic
+
+[file.web-clipper/reader]
+original=Reader
+translation=Đọc
+
+[file.web-clipper/templates]
+original=Templates
+translation=Mẫu
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Khắc phục sự cố Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=Biến
+
+[file.workspace]
+original=Workspace
+translation=Không gian làm việc
+
+[folder.audio]
+original=audio
+translation=âm thanh
+
+[folder.Changelog]
+original=Changelog
+translation=Nhật ký thay đổi
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Đóng góp cho Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Chỉnh sửa và định dạng
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Mở rộng Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=Tệp và thư mục
+
+[folder.Getting started]
+original=Getting started
+translation=Bắt đầu
+
+[folder.icons]
+original=icons
+translation=biểu tượng
+
+[folder.Import notes]
+original=Import notes
+translation=Nhập ghi chú
+
+[folder.Layouts]
+original=Layouts
+translation=Bố cục
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Bản quyền và thanh toán
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Liên kết ghi chú và tệp
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Plugins
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Giao diện người dùng
+
+[folder.video]
+original=video
+translation=video

@@ -1,0 +1,4111 @@
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Cài đặt plugin Maps
+
+[heading.bases/Example]
+original=Example
+translation=Ví dụ
+
+[heading.bases/Settings]
+original=Settings
+translation=Cài đặt
+
+[heading.bases/Markers]
+original=Markers
+translation=Dấu đánh dấu
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=Tọa độ
+
+[heading.bases/Icons]
+original=Icons
+translation=Biểu tượng
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Sử dụng công thức để định nghĩa biểu tượng
+
+[heading.bases/Colors]
+original=Colors
+translation=Màu sắc
+
+[heading.bases/Background]
+original=Background
+translation=Nền
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=Ô bản đồ
+
+[heading.bases/Useful links]
+original=Useful links
+translation=Liên kết hữu ích
+
+[heading.bases/Tips]
+original=Tips
+translation=Mẹo
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=Khắc phục sự cố
+
+[heading.bases/Row height]
+original=Row height
+translation=Chiều cao hàng
+
+[heading.bases/Summaries]
+original=Summaries
+translation=Tóm tắt
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=Thêm tóm tắt
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=Tóm tắt có sẵn
+
+[heading.bases/All property types]
+original=All property types
+translation=Tất cả loại thuộc tính
+
+[heading.bases/Numbers]
+original=Numbers
+translation=Số
+
+[heading.bases/Dates]
+original=Dates
+translation=Ngày
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=Hộp kiểm
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=Tóm tắt tùy chỉnh
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=Phím tắt
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=Thụt lề thuộc tính
+
+[heading.bases/Separators]
+original=Separators
+translation=Dấu phân cách
+
+[heading.bases/Card size]
+original=Card size
+translation=Kích thước thẻ
+
+[heading.bases/Image property]
+original=Image property
+translation=Thuộc tính hình ảnh
+
+[heading.bases/Image fit]
+original=Image fit
+translation=Vừa khung hình ảnh
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=Tỷ lệ khung hình
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Cách sử dụng cơ sở
+
+[heading.bases/View types]
+original=View types
+translation=Loại chế độ xem
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=Thanh công cụ
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=Thêm và chuyển đổi chế độ xem
+
+[heading.bases/View settings]
+original=View settings
+translation=Cài đặt chế độ xem
+
+[heading.bases/Layout]
+original=Layout
+translation=Bố cục
+
+[heading.bases/Filters]
+original=Filters
+translation=Bộ lọc
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=Các thành phần của bộ lọc
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=Liên từ
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=Nhóm bộ lọc
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=Trình chỉnh sửa bộ lọc nâng cao
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=Sắp xếp và nhóm kết quả
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=Thêm sắp xếp
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=Xóa sắp xếp
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Giới hạn, sao chép và xuất kết quả
+
+[heading.bases/Limit results]
+original=Limit results
+translation=Giới hạn kết quả
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=Sao chép vào clipboard
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=Xuất CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=Nhúng chế độ xem
+
+[heading.bases/Formulas]
+original=Formulas
+translation=Công thức
+
+[heading.bases/Properties]
+original=Properties
+translation=Thuộc tính
+
+[heading.bases/Default Summary Formulas]
+original=Default Summary Formulas
+translation=Công thức tóm tắt mặc định
+
+[heading.bases/Views]
+original=Views
+translation=Chế độ xem
+
+[heading.bases/Note properties]
+original=Note properties
+translation=Thuộc tính ghi chú
+
+[heading.bases/File properties]
+original=File properties
+translation=Thuộc tính tệp
+
+[heading.bases/Access properties with `this`]
+original=Access properties with `this`
+translation=Truy cập thuộc tính với `this`
+
+[heading.bases/Operators]
+original=Operators
+translation=Toán tử
+
+[heading.bases/Arithmetic operators]
+original=Arithmetic operators
+translation=Toán tử số học
+
+[heading.bases/Date arithmetic]
+original=Date arithmetic
+translation=Phép tính ngày tháng
+
+[heading.bases/Comparison operators]
+original=Comparison operators
+translation=Toán tử so sánh
+
+[heading.bases/Boolean operators]
+original=Boolean operators
+translation=Toán tử logic
+
+[heading.bases/Functions]
+original=Functions
+translation=Hàm
+
+[heading.bases/Types]
+original=Types
+translation=Kiểu dữ liệu
+
+[heading.bases/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=Chuỗi, số và boolean
+
+[heading.bases/Dates and durations]
+original=Dates and durations
+translation=Ngày và khoảng thời gian
+
+[heading.bases/Objects and lists]
+original=Objects and lists
+translation=Đối tượng và danh sách
+
+[heading.bases/Files and links]
+original=Files and links
+translation=Tệp và liên kết
+
+[heading.bases/Global]
+original=Global
+translation=Toàn cục
+
+[heading.bases/Any]
+original=Any
+translation=Bất kỳ
+
+[heading.bases/Date]
+original=Date
+translation=Ngày
+
+[heading.bases/Fields]
+original=Fields
+translation=Trường
+
+[heading.bases/String]
+original=String
+translation=Chuỗi
+
+[heading.bases/Number]
+original=Number
+translation=Số
+
+[heading.bases/List]
+original=List
+translation=Danh sách
+
+[heading.bases/Link]
+original=Link
+translation=Liên kết
+
+[heading.bases/File]
+original=File
+translation=Tệp
+
+[heading.bases/Object]
+original=Object
+translation=Đối tượng
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=Biểu thức chính quy
+
+[heading.bases/Create a new base]
+original=Create a new base
+translation=Tạo cơ sở mới
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=Nhúng một cơ sở
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=Nhúng tệp cơ sở
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Nhúng cơ sở dưới dạng khối mã
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=Công thức có thể làm gì
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=Tạo thuộc tính công thức
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=Viết công thức
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=Tham chiếu thuộc tính
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=Sử dụng toán tử
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=Sử dụng hàm
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=Ví dụ công thức
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=Tính thời hạn
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=Hiển thị trạng thái quá hạn
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=Định dạng tiền tệ
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=Đếm mục trong danh sách
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=Tính điểm ưu tiên
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=Kết hợp các trường văn bản
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=Tính tổng chi phí
+
+[heading.formulas/Data types]
+original=Data types
+translation=Kiểu dữ liệu
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=Tham chiếu công thức khác
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=Các cấp bậc Catalyst
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=Truy cập các lợi ích Catalyst
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=Nhận huy hiệu diễn đàn
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=Nhận huy hiệu Discord
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=Tham gia kênh Insider
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=Kích hoạt phiên bản truy cập sớm
+
+[heading.payment/Purchase a service or license]
+original=Purchase a service or license
+translation=Mua dịch vụ hoặc bản quyền
+
+[heading.payment/Generate an invoice]
+original=Generate an invoice
+translation=Tạo hóa đơn
+
+[heading.payment/Editing an invoice]
+original=Editing an invoice
+translation=Chỉnh sửa hóa đơn
+
+[heading.sales-tax/Tax exemption]
+original=Tax exemption
+translation=Miễn thuế
+
+[heading.sales-tax/Applying for an exemption]
+original=Applying for an exemption
+translation=Đăng ký miễn thuế
+
+[heading.credit/Add credit]
+original=Add credit
+translation=Thêm tín dụng
+
+[heading.credit/Gifting]
+original=Gifting
+translation=Tặng quà
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=Tặng Tín dụng Obsidian
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=Nhận Tín dụng Obsidian
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=Kiểm tra cập nhật và xem phiên bản
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=Vô hiệu hóa tự động cập nhật
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=Cập nhật trình cài đặt
+
+[heading.sandbox/Opening the sandbox vault]
+original=Opening the sandbox vault
+translation=Mở kho sandbox
+
+[heading.sandbox/Close the sandbox vault]
+original=Close the sandbox vault
+translation=Đóng kho sandbox
+
+[heading.link-notes/Create a link]
+original=Create a link
+translation=Tạo một liên kết
+
+[heading.link-notes/Create a link to a non-existing note]
+original=Create a link to a non-existing note
+translation=Tạo liên kết đến ghi chú chưa tồn tại
+
+[heading.link-notes/Navigate between notes]
+original=Navigate between notes
+translation=Điều hướng giữa các ghi chú
+
+[heading.link-notes/Learn more]
+original=Learn more
+translation=Tìm hiểu thêm
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=Nhập từ các ứng dụng và định dạng tệp khác
+
+[heading.import/More formats]
+original=More formats
+translation=Thêm định dạng
+
+[heading.import/Create notes from CSV data in Obsidian]
+original=Create notes from CSV data in Obsidian
+translation=Tạo ghi chú từ dữ liệu CSV trong Obsidian
+
+[heading.import/Configure how CSV fields are imported]
+original=Configure how CSV fields are imported
+translation=Cấu hình cách các trường CSV được nhập
+
+[heading.import/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=Nhập dữ liệu HTML vào Obsidian
+
+[heading.import/Import settings]
+original=Import settings
+translation=Nhập cài đặt
+
+[heading.import/Converting from other flavors of Markdown]
+original=Converting from other flavors of Markdown
+translation=Chuyển đổi từ các phiên bản Markdown khác
+
+[heading.import/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=Nhập tệp Textbundle vào Obsidian
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Khắc phục sự cố
+
+[heading.import/No files are selected for import]
+original=No files are selected for import
+translation=Không có tệp nào được chọn để nhập
+
+[heading.import/Export your data from Apple Journal]
+original=Export your data from Apple Journal
+translation=Xuất dữ liệu từ Apple Journal
+
+[heading.import/On iPhone]
+original=On iPhone
+translation=Trên iPhone
+
+[heading.import/On Mac (Tahoe)]
+original=On Mac (Tahoe)
+translation=Trên Mac (Tahoe)
+
+[heading.import/Import Apple Journal data into Obsidian]
+original=Import Apple Journal data into Obsidian
+translation=Nhập dữ liệu Apple Journal vào Obsidian
+
+[heading.import/Supported content]
+original=Supported content
+translation=Nội dung được hỗ trợ
+
+[heading.import/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=Nhập dữ liệu Apple Notes vào Obsidian
+
+[heading.import/Scans]
+original=Scans
+translation=Bản quét
+
+[heading.import/Alternate export methods]
+original=Alternate export methods
+translation=Phương pháp xuất thay thế
+
+[heading.import/Export your data from Bear]
+original=Export your data from Bear
+translation=Xuất dữ liệu từ Bear
+
+[heading.import/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=Nhập dữ liệu Bear vào Obsidian
+
+[heading.import/Export your data from Craft]
+original=Export your data from Craft
+translation=Xuất dữ liệu từ Craft
+
+[heading.import/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=Nhập dữ liệu Craft vào Obsidian
+
+[heading.import/Export your data from Evernote]
+original=Export your data from Evernote
+translation=Xuất dữ liệu từ Evernote
+
+[heading.import/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=Nhập dữ liệu Evernote vào Obsidian
+
+[heading.import/Advanced import options]
+original=Advanced import options
+translation=Tùy chọn nhập nâng cao
+
+[heading.import/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=Duy trì phân cấp thẻ
+
+[heading.import/Handling notebook stacks]
+original=Handling notebook stacks
+translation=Xử lý ngăn xếp sổ tay
+
+[heading.import/More options]
+original=More options
+translation=Tùy chọn khác
+
+[heading.import/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=Xuất dữ liệu từ Google Keep
+
+[heading.import/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=Nhập dữ liệu Google Keep vào Obsidian
+
+[heading.import/Supported features]
+original=Supported features
+translation=Các tính năng được hỗ trợ
+
+[heading.import/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=Nhập dữ liệu OneNote vào Obsidian
+
+[heading.import/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=Không có phần hoặc sổ tay nào xuất hiện
+
+[heading.import/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=Ghi chú đã nhập bị trống hoặc thiếu nội dung
+
+[heading.import/Privacy]
+original=Privacy
+translation=Quyền riêng tư
+
+[heading.import/API import]
+original=API import
+translation=Nhập qua API
+
+[heading.import/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=Tạo token tích hợp Notion API
+
+[heading.import/Import your Notion data via API]
+original=Import your Notion data via API
+translation=Nhập dữ liệu Notion qua API
+
+[heading.import/Limitations]
+original=Limitations
+translation=Hạn chế
+
+[heading.import/File import]
+original=File import
+translation=Nhập qua tệp
+
+[heading.import/Export your data from Notion]
+original=Export your data from Notion
+translation=Xuất dữ liệu từ Notion
+
+[heading.import/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=Nhập tệp .zip Notion của bạn
+
+[heading.import/Importing large workspaces]
+original=Importing large workspaces
+translation=Nhập không gian làm việc lớn
+
+[heading.import/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=Xuất dữ liệu từ Roam Research
+
+[heading.import/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=Nhập dữ liệu Roam Research vào Obsidian
+
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=Đồng bộ hóa không phải là sao lưu
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=Sử dụng plugin cộng đồng
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=Sử dụng dịch vụ đám mây
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=Sử dụng ổ lưu trữ ngoài
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=Sử dụng sao lưu máy tính
+
+[heading.backup/Next steps]
+original=Next steps
+translation=Bước tiếp theo
+
+[heading.glossary/Alias]
+original=Alias
+translation=Bí danh
+
+[heading.glossary/Attachment]
+original=Attachment
+translation=Tệp đính kèm
+
+[heading.glossary/Command]
+original=Command
+translation=Lệnh
+
+[heading.glossary/Embed]
+original=Embed
+translation=Nhúng
+
+[heading.glossary/Frontmatter]
+original=Frontmatter
+translation=Siêu dữ liệu đầu tệp
+
+[heading.glossary/Graph]
+original=Graph
+translation=Đồ thị
+
+[heading.glossary/Hotkey]
+original=Hotkey
+translation=Phím tắt
+
+[heading.glossary/Link]
+original=Link
+translation=Liên kết
+
+[heading.glossary/Main area]
+original=Main area
+translation=Khu vực chính
+
+[heading.glossary/Note]
+original=Note
+translation=Ghi chú
+
+[heading.glossary/Pop-out window]
+original=Pop-out window
+translation=Cửa sổ bật ra
+
+[heading.glossary/Property]
+original=Property
+translation=Thuộc tính
+
+[heading.glossary/Ribbon]
+original=Ribbon
+translation=Thanh công cụ
+
+[heading.glossary/Sidebar]
+original=Sidebar
+translation=Thanh bên
+
+[heading.glossary/Snippet]
+original=Snippet
+translation=Đoạn trích
+
+[heading.glossary/Status bar]
+original=Status bar
+translation=Thanh trạng thái
+
+[heading.glossary/Tab]
+original=Tab
+translation=Thẻ
+
+[heading.glossary/Tab group]
+original=Tab group
+translation=Nhóm thẻ
+
+[heading.glossary/Tag]
+original=Tag
+translation=Thẻ gắn
+
+[heading.glossary/Theme]
+original=Theme
+translation=Chủ đề
+
+[heading.glossary/Vault]
+original=Vault
+translation=Kho
+
+[heading.glossary/Remote vault]
+original=Remote vault
+translation=Kho từ xa
+
+[heading.glossary/View]
+original=View
+translation=Chế độ xem
+
+[heading.create-note/Create a new note]
+original=Create a new note
+translation=Tạo một ghi chú mới
+
+[heading.create-note/Formatting text]
+original=Formatting text
+translation=Định dạng văn bản
+
+[heading.create-note/Learn more]
+original=Learn more
+translation=Tìm hiểu thêm
+
+[heading.vault/Create empty vault]
+original=Create empty vault
+translation=Tạo kho trống
+
+[heading.vault/Open existing folder]
+original=Open existing folder
+translation=Mở thư mục hiện có
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=Cài đặt Obsidian trên Windows
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=Cài đặt Obsidian trên macOS
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=Cài đặt Obsidian trên Linux
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=Cài đặt Obsidian bằng Snap
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=Cài đặt Obsidian bằng AppImage
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=Cài đặt Obsidian bằng Flatpak
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=Cài đặt Obsidian trên Android
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=Cài đặt Obsidian trên iPhone và iPad
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=Các phương pháp đồng bộ hóa
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=Đồng bộ hóa iPhone và iPad
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=Câu hỏi thường gặp
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=Widget, phím tắt và Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=Thanh công cụ di động
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=Tùy chỉnh thanh công cụ di động
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=Thêm lệnh vào thanh công cụ di động
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=Hành động nhanh
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=Tùy chỉnh Hành động nhanh
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=Thanh điều hướng
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=Quay lại hoặc tiến
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=Tạo hoặc tìm ghi chú
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=Quản lý thẻ
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=Hành động thanh công cụ
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=Thanh bên
+
+[heading.edit-and-read/Reading view]
+original=Reading view
+translation=Chế độ đọc
+
+[heading.edit-and-read/Editing view]
+original=Editing view
+translation=Chế độ chỉnh sửa
+
+[heading.edit-and-read/Live Preview]
+original=Live Preview
+translation=Xem trước trực tiếp
+
+[heading.edit-and-read/Source mode]
+original=Source mode
+translation=Chế độ nguồn
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=Đoạn văn
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=Ngắt dòng
+
+[heading.syntax/Headings]
+original=Headings
+translation=Tiêu đề
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=In đậm, in nghiêng, tô sáng
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=Liên kết nội bộ
+
+[heading.syntax/External links]
+original=External links
+translation=Liên kết bên ngoài
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=Thoát khoảng trắng trong liên kết
+
+[heading.syntax/External images]
+original=External images
+translation=Hình ảnh bên ngoài
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=Trích dẫn
+
+[heading.syntax/Lists]
+original=Lists
+translation=Danh sách
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=Danh sách công việc
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=Danh sách lồng nhau
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=Đường kẻ ngang
+
+[heading.syntax/Code]
+original=Code
+translation=Mã
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=Mã nội tuyến
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=Khối mã
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=Lồng khối mã
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=Chú thích
+
+[heading.syntax/Comments]
+original=Comments
+translation=Bình luận
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=Thoát cú pháp Markdown
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=Tìm hiểu thêm
+
+[heading.advanced-syntax/Tables]
+original=Tables
+translation=Bảng
+
+[heading.advanced-syntax/Format content within a table]
+original=Format content within a table
+translation=Định dạng nội dung trong bảng
+
+[heading.advanced-syntax/Diagram]
+original=Diagram
+translation=Sơ đồ
+
+[heading.advanced-syntax/Linking files in a diagram]
+original=Linking files in a diagram
+translation=Liên kết tệp trong sơ đồ
+
+[heading.advanced-syntax/Math]
+original=Math
+translation=Toán học
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=Thay đổi tiêu đề
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=Khung ghi chú có thể thu gọn
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=Khung ghi chú lồng nhau
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=Tùy chỉnh khung ghi chú
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=Các kiểu được hỗ trợ
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=Chọn hình chữ nhật
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=Nhúng video YouTube
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=Nhúng một tweet
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=Giới hạn HTML
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=Không dùng Markdown bên trong HTML
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=Các khối HTML phải hoàn chỉnh
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=Khi Markdown có vẻ hoạt động trong HTML
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=Cách sử dụng HTML phổ biến
+
+[heading.html/Comments]
+original=Comments
+translation=Bình luận
+
+[heading.html/Underline]
+original=Underline
+translation=Gạch chân
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=Gạch ngang
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=Các phần mở rộng Markdown được hỗ trợ
+
+[heading.editing-shortcuts/Windows and Linux shortcuts]
+original=Windows and Linux shortcuts
+translation=Phím tắt Windows và Linux
+
+[heading.editing-shortcuts/Common actions]
+original=Common actions
+translation=Thao tác phổ biến
+
+[heading.editing-shortcuts/Text editing]
+original=Text editing
+translation=Chỉnh sửa văn bản
+
+[heading.editing-shortcuts/Text navigation]
+original=Text navigation
+translation=Điều hướng văn bản
+
+[heading.editing-shortcuts/Text selection]
+original=Text selection
+translation=Chọn văn bản
+
+[heading.editing-shortcuts/macOS shortcuts]
+original=macOS shortcuts
+translation=Phím tắt macOS
+
+[heading.editing-shortcuts/Text formatting]
+original=Text formatting
+translation=Định dạng văn bản
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=Thêm thuộc tính vào ghi chú
+
+[heading.properties/Property types]
+original=Property types
+translation=Loại thuộc tính
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=Sử dụng nâng cao
+
+[heading.properties/Search properties]
+original=Search properties
+translation=Tìm kiếm thuộc tính
+
+[heading.properties/Templates]
+original=Templates
+translation=Mẫu
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=Đổi tên thuộc tính
+
+[heading.properties/Display modes]
+original=Display modes
+translation=Chế độ hiển thị
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=Mẩu CSS
+
+[heading.properties/Not supported]
+original=Not supported
+translation=Chưa được hỗ trợ
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=Phím tắt
+
+[heading.properties/Add a property]
+original=Add a property
+translation=Thêm thuộc tính
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=Di chuyển giữa các thuộc tính
+
+[heading.properties/Select properties]
+original=Select properties
+translation=Chọn thuộc tính
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=Chỉnh sửa thuộc tính
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim (nâng cao)
+
+[heading.properties/Property format]
+original=Property format
+translation=Định dạng thuộc tính
+
+[heading.properties/Text]
+original=Text
+translation=Chữ
+
+[heading.properties/List]
+original=List
+translation=Danh sách
+
+[heading.properties/Number]
+original=Number
+translation=Số
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=Hộp kiểm
+
+[heading.properties/Date]
+original=Date
+translation=Ngày
+
+[heading.properties/Date & time]
+original=Date & time
+translation=Ngày tháng
+
+[heading.properties/Tags]
+original=Tags
+translation=Thẻ
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=Thuộc tính JSON
+
+[heading.properties/Default properties]
+original=Default properties
+translation=Thuộc tính mặc định
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=Thuộc tính cho Obsidian Publish
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=Thuộc tính không còn được sử dụng
+
+[heading.tags/Add a tag to a note]
+original=Add a tag to a note
+translation=Thêm thẻ vào ghi chú
+
+[heading.tags/Find notes using tags]
+original=Find notes using tags
+translation=Tìm ghi chú bằng thẻ
+
+[heading.tags/Nested tags]
+original=Nested tags
+translation=Thẻ lồng nhau
+
+[heading.tags/Tag format]
+original=Tag format
+translation=Định dạng thẻ
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=Thêm tệp đính kèm
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=Thay đổi vị trí tệp đính kèm mặc định
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=Mở Cài đặt
+
+[heading.settings/Desktop]
+original=Desktop
+translation=Máy tính
+
+[heading.settings/Mobile]
+original=Mobile
+translation=Di động
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=Tổ chức cài đặt
+
+[heading.settings/General]
+original=General
+translation=Chung
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=Phiên bản và cập nhật
+
+[heading.settings/Language]
+original=Language
+translation=Ngôn ngữ
+
+[heading.settings/Help]
+original=Help
+translation=Trợ giúp
+
+[heading.settings/Account]
+original=Account
+translation=Tài khoản
+
+[heading.settings/Advanced]
+original=Advanced
+translation=Nâng cao
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=Thông báo nếu khởi động lâu hơn dự kiến
+
+[heading.settings/Editor]
+original=Editor
+translation=Trình chỉnh sửa
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=Luôn tập trung vào tab mới
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=Giao diện mặc định cho tab mới
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=Chế độ chỉnh sửa mặc định
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=Trạng thái trình soạn thảo
+
+[heading.settings/Display]
+original=Display
+translation=Hiển thị
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=Độ dài dòng dễ đọc
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=Ngắt dòng nghiêm ngặt
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=Thuộc tính trong tài liệu
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=Thu gọn tiêu đề
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=Thu gọn thụt đầu dòng
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=Số dòng
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=Đường dẫn thụt lề
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=Hướng văn bản từ phải sang trái (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=Tự động ghép cặp dấu ngoặc đơn
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=Tự động ghép cặp cú pháp Markdown
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=Thụt đầu dòng thông minh cho danh sách
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=Sử dụng tab
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=Tự động chuyển đổi HTML
+
+[heading.settings/Behavior]
+original=Behavior
+translation=Hành vi
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=Kiểm tra chính tả
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=Ngôn ngữ kiểm tra chính tả
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=Kích thước tab
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Phím tắt Vim
+
+[heading.settings/Files and links]
+original=Files and links
+translation=Tệp và liên kết
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=Vị trí mặc định cho ghi chú mới
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=Vị trí mặc định cho đính kèm mới
+
+[heading.settings/Links]
+original=Links
+translation=Liên kết
+
+[heading.settings/New link format]
+original=New link format
+translation=Định dạng liên kết mới
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=Luôn cập nhật liên kết nội bộ
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=Sử dụng Wikilink
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=Hiển thị tất cả các loại tệp
+
+[heading.settings/Trash]
+original=Trash
+translation=Thùng rác
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=Xác nhận xóa tệp
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=Các tập tin đã xóa
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=Tệp bị loại trừ
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=Ghi đè thư mục cấu hình
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=Cho phép callback URI
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=Xây dựng lại bộ nhớ đệm kho
+
+[heading.settings/Appearance]
+original=Appearance
+translation=Giao diện
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=Chủ đề cơ bản
+
+[heading.settings/Accent color]
+original=Accent color
+translation=Màu nhấn
+
+[heading.settings/Themes]
+original=Themes
+translation=Chủ đề
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=Các chủ đề cộng đồng hiện tại
+
+[heading.settings/Font]
+original=Font
+translation=Phông chữ
+
+[heading.settings/Interface font]
+original=Interface font
+translation=Phông chữ giao diện
+
+[heading.settings/Text font]
+original=Text font
+translation=Phông chữ văn bản
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=Phông chữ không chia khoảng
+
+[heading.settings/Font size]
+original=Font size
+translation=Cỡ chữ
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=Điều chỉnh nhanh cỡ chữ
+
+[heading.settings/Interface]
+original=Interface
+translation=Giao diện
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=Tiêu đề nội tuyến
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=Hiển thị thanh tiêu đề tab
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=Hiển thị Ribbon
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=Cấu hình Ribbon
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=Tỷ lệ thu phóng
+
+[heading.settings/Native menus]
+original=Native menus
+translation=Các menu hệ thống
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=Kiểu khung cửa sổ
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=Biểu tượng ứng dụng tùy chỉnh
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=Cửa sổ trong suốt
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=Tăng tốc phần cứng
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=Mẩu CSS
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=Phím tắt
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=Plugin cốt lõi
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=Phần mở rộng từ cộng đồng
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=Chế độ hạn chế
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=Các plugin hiện tại
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=Các plugin đã cài đặt
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=Mở tệp trong cửa sổ mới
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=Di chuyển tệp sang cửa sổ khác
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=Bảng màu
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=Chủ đề tùy chỉnh
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=Biểu tượng ứng dụng tùy chỉnh
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=Trong suốt
+
+[heading.workspace/Desktop]
+original=Desktop
+translation=Máy tính để bàn
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=Di động
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=Kéo thẻ
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=Nguồn kéo
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=Đích thả
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=Kéo từ bên ngoài Obsidian
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=Thả tệp ra ngoài Obsidian
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=Xem phím tắt
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=Thiết lập phím tắt
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=Xóa phím tắt
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=Lọc phím tắt
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=Bố cục bàn phím không phải US
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=Phím tắt bàn phím mặc định
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=Mở thanh bên ẩn
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=Máy tính để bàn và máy tính bảng lớn hơn
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=Di động và máy tính bảng nhỏ hơn
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=Thẻ
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=Mở hoặc mở lại thẻ
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=Đóng thẻ
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=Sắp xếp lại thẻ
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=Ghim thẻ
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=Nhóm thẻ
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=Tạo nhóm thẻ
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=Đóng nhóm thẻ
+
+[heading.ribbon/Actions]
+original=Actions
+translation=Các hành động
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=Tùy chỉnh thanh công cụ
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=Máy tính
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=Ẩn thanh công cụ
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=Hiển thị thanh công cụ
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=Di động
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=Truy cập nhanh
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=Sắp xếp lại và hiển thị
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=Mở thẻ mới
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=Mở một liên kết
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=Sắp xếp thẻ và cửa sổ
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=Sắp xếp thẻ
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=Chia nhóm thẻ
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=Thay đổi kích thước nhóm thẻ
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=Di chuyển thẻ sang cửa sổ mới
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=Di chuyển thẻ sang cửa sổ khác
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=Ghim thẻ
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=Chuyển sang thẻ khác
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=Xếp chồng nhóm thẻ
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=Chế độ xem liên kết
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=Lưu bố cục
+
+[heading.aliases/Add an alias to a note]
+original=Add an alias to a note
+translation=Thêm bí danh vào ghi chú
+
+[heading.aliases/Link to a note using an alias]
+original=Link to a note using an alias
+translation=Liên kết đến ghi chú bằng bí danh
+
+[heading.aliases/Find unlinked mentions for an alias]
+original=Find unlinked mentions for an alias
+translation=Tìm các lưu ý không liên kết cho bí danh
+
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=Các định dạng được hỗ trợ cho liên kết nội bộ
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=Liên kết đến một tệp
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=Liên kết đến một tiêu đề trong ghi chú
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=Liên kết đến một khối trong ghi chú
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=Thay đổi văn bản hiển thị của liên kết
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=Xem trước tệp được liên kết
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=Nhúng ghi chú vào ghi chú khác
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=Nhúng hình ảnh vào ghi chú
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=Nhúng tệp âm thanh vào ghi chú
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=Nhúng PDF vào ghi chú
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=Nhúng danh sách vào ghi chú
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=Nhúng kết quả tìm kiếm
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=Chế độ hạn chế
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=Khả năng của plugin
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=Quy trình xét duyệt plugin
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=Duyệt chủ đề
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=Cài đặt chủ đề mới
+
+[heading.themes/Update themes]
+original=Update themes
+translation=Cập nhật chủ đề
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=Gỡ bỏ chủ đề hiện có
+
+[heading.themes/Learn more]
+original=Learn more
+translation=Tìm hiểu thêm
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=Thêm đoạn trích
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=Viết CSS cho Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=Tìm hiểu thêm
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Cài đặt Obsidian CLI
+
+[heading.cli/Get started]
+original=Get started
+translation=Bắt đầu
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Chạy một lệnh
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=Sử dụng giao diện terminal
+
+[heading.cli/Examples]
+original=Examples
+translation=Ví dụ
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Sử dụng hàng ngày
+
+[heading.cli/For developers]
+original=For developers
+translation=Dành cho nhà phát triển
+
+[heading.cli/How to]
+original=How to
+translation=Hướng dẫn
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Sử dụng tham số và cờ
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Chỉ định kho
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Chỉ định tệp
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Sao chép đầu ra
+
+[heading.cli/General commands]
+original=General commands
+translation=Lệnh chung
+
+[heading.cli/Bases]
+original=Bases
+translation=Cơ sở
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Đánh dấu
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Bảng lệnh
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Ghi chú hàng ngày
+
+[heading.cli/File history]
+original=File history
+translation=Lịch sử tệp
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Tệp và thư mục
+
+[heading.cli/Links]
+original=Links
+translation=Liên kết
+
+[heading.cli/Outline]
+original=Outline
+translation=Dàn ý
+
+[heading.cli/Plugins]
+original=Plugins
+translation=Plugin
+
+[heading.cli/Properties]
+original=Properties
+translation=Thuộc tính
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Ghi chú ngẫu nhiên
+
+[heading.cli/Search]
+original=Search
+translation=Tìm kiếm
+
+[heading.cli/Tags]
+original=Tags
+translation=Thẻ
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Tác vụ
+
+[heading.cli/Templates]
+original=Templates
+translation=Mẫu
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Chủ đề và đoạn trích
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Ghi chú duy nhất
+
+[heading.cli/Vault]
+original=Vault
+translation=Kho
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Trình xem web
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Đếm từ
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Không gian làm việc
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Lệnh dành cho nhà phát triển
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Phím tắt
+
+[heading.cli/Navigation]
+original=Navigation
+translation=Điều hướng
+
+[heading.cli/Editing]
+original=Editing
+translation=Chỉnh sửa
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Tự động hoàn tất
+
+[heading.cli/History]
+original=History
+translation=Lịch sử
+
+[heading.cli/Other]
+original=Other
+translation=Khác
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Khắc phục sự cố
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Shell thay thế
+
+[heading.headless/Install]
+original=Install
+translation=Cài đặt
+
+[heading.headless/Authentication]
+original=Authentication
+translation=Xác thực
+
+[heading.headless/Log in]
+original=Log in
+translation=Đăng nhập
+
+[heading.headless/Services]
+original=Services
+translation=Dịch vụ
+
+[heading.uri/URI format]
+original=URI format
+translation=Định dạng URI
+
+[heading.uri/Open note]
+original=Open note
+translation=Mở ghi chú
+
+[heading.uri/Examples]
+original=Examples
+translation=Ví dụ
+
+[heading.uri/Parameters]
+original=Parameters
+translation=Tham số
+
+[heading.uri/Create note]
+original=Create note
+translation=Tạo ghi chú
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=Tạo hoặc mở ghi chú hằng ngày
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=Ghi chú duy nhất
+
+[heading.uri/Open search]
+original=Open search
+translation=Mở tìm kiếm
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=Mở Trình quản lý kho
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Tích hợp với Hook
+
+[heading.uri/Example]
+original=Example
+translation=Ví dụ
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=Sử dụng tham số x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=Định dạng viết tắt
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=Khắc phục sự cố
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Đăng ký Obsidian URI
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=Duyệt plugin cộng đồng
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=Cài đặt plugin cộng đồng
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=Kích hoạt plugin cộng đồng
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=Cập nhật plugin
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=Gỡ bỏ cài đặt plugin cộng đồng
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=Quản lý plugin đã cài đặt
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=Tìm hiểu thêm
+
+[heading.plugins/Install Importer]
+original=Install Importer
+translation=Cài đặt Trình nhập
+
+[heading.plugins/Open Quick switcher]
+original=Open Quick switcher
+translation=Mở trình chuyển nhanh
+
+[heading.plugins/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=Mở ghi chú bằng trình chuyển nhanh
+
+[heading.plugins/Supported formats]
+original=Supported formats
+translation=Các định dạng được hỗ trợ
+
+[heading.plugins/[[Properties]]]
+original=[[Properties]]
+translation=[[Thuộc tính]]
+
+[heading.plugins/Create a new canvas]
+original=Create a new canvas
+translation=Tạo một canvas mới
+
+[heading.plugins/Add cards]
+original=Add cards
+translation=Thêm thẻ
+
+[heading.plugins/Add text cards]
+original=Add text cards
+translation=Thêm thẻ văn bản
+
+[heading.plugins/Add cards from notes]
+original=Add cards from notes
+translation=Thêm thẻ từ ghi chú
+
+[heading.plugins/Add cards from media]
+original=Add cards from media
+translation=Thêm thẻ từ phương tiện
+
+[heading.plugins/Add cards from web pages]
+original=Add cards from web pages
+translation=Thêm thẻ từ trang web
+
+[heading.plugins/Add cards from folders]
+original=Add cards from folders
+translation=Thêm thẻ từ thư mục
+
+[heading.plugins/Edit a card]
+original=Edit a card
+translation=Chỉnh sửa thẻ
+
+[heading.plugins/Delete a card]
+original=Delete a card
+translation=Xóa thẻ
+
+[heading.plugins/Swap cards]
+original=Swap cards
+translation=Hoán đổi thẻ
+
+[heading.plugins/Select cards]
+original=Select cards
+translation=Chọn thẻ
+
+[heading.plugins/Arrange cards]
+original=Arrange cards
+translation=Sắp xếp thẻ
+
+[heading.plugins/Resize a card]
+original=Resize a card
+translation=Thay đổi kích thước thẻ
+
+[heading.plugins/Connect cards]
+original=Connect cards
+translation=Kết nối thẻ
+
+[heading.plugins/Connect two cards]
+original=Connect two cards
+translation=Kết nối hai thẻ
+
+[heading.plugins/Disconnect two cards]
+original=Disconnect two cards
+translation=Ngắt kết nối hai thẻ
+
+[heading.plugins/Connect a card to a different card]
+original=Connect a card to a different card
+translation=Kết nối thẻ với thẻ khác
+
+[heading.plugins/Navigate a connection]
+original=Navigate a connection
+translation=Điều hướng kết nối
+
+[heading.plugins/Add a label to a connection]
+original=Add a label to a connection
+translation=Thêm nhãn cho kết nối
+
+[heading.plugins/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=Thay đổi màu của thẻ hoặc kết nối
+
+[heading.plugins/Group cards]
+original=Group cards
+translation=Nhóm thẻ
+
+[heading.plugins/Group selected cards]
+original=Group selected cards
+translation=Nhóm các thẻ đã chọn
+
+[heading.plugins/Navigate the canvas]
+original=Navigate the canvas
+translation=Điều hướng canvas
+
+[heading.plugins/Pan the canvas]
+original=Pan the canvas
+translation=Di chuyển canvas
+
+[heading.plugins/Zoom the canvas]
+original=Zoom the canvas
+translation=Phóng to canvas
+
+[heading.plugins/Zoom to fit]
+original=Zoom to fit
+translation=Thu phóng để vừa khung
+
+[heading.plugins/Zoom to selection]
+original=Zoom to selection
+translation=Thu phóng theo vùng chọn
+
+[heading.plugins/Reset zoom]
+original=Reset zoom
+translation=Đặt lại phóng to/thu nhỏ
+
+[heading.plugins/Advanced tips]
+original=Advanced tips
+translation=Mẹo nâng cao
+
+[heading.plugins/Create a daily note from template]
+original=Create a daily note from template
+translation=Tạo ghi chú hàng ngày từ mẫu
+
+[heading.plugins/Daily notes and properties]
+original=Daily notes and properties
+translation=Ghi chú hàng ngày và thuộc tính
+
+[heading.plugins/Pinned commands]
+original=Pinned commands
+translation=Lệnh được ghim
+
+[heading.plugins/Pin a command]
+original=Pin a command
+translation=Ghim một lệnh
+
+[heading.plugins/Unpin a command]
+original=Unpin a command
+translation=Bỏ ghim một lệnh
+
+[heading.plugins/Save a workspace]
+original=Save a workspace
+translation=Lưu một không gian làm việc
+
+[heading.plugins/Load a workspace]
+original=Load a workspace
+translation=Tải một không gian làm việc
+
+[heading.plugins/Delete a workspace]
+original=Delete a workspace
+translation=Xóa một không gian làm việc
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=Tất cả plugin cốt lõi
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=Các plugin khác
+
+[heading.plugins/Recover a snapshot]
+original=Recover a snapshot
+translation=Khôi phục một ảnh chụp nhanh
+
+[heading.plugins/Clear snapshot history]
+original=Clear snapshot history
+translation=Xóa lịch sử ảnh chụp nhanh
+
+[heading.plugins/Storage and performance]
+original=Storage and performance
+translation=Lưu trữ và hiệu suất
+
+[heading.plugins/Limitations]
+original=Limitations
+translation=Giới hạn
+
+[heading.plugins/Show backlinks]
+original=Show backlinks
+translation=Hiển thị các liên kết trả về
+
+[heading.plugins/View backlinks for a note]
+original=View backlinks for a note
+translation=Xem liên kết ngược cho một ghi chú
+
+[heading.plugins/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=Xem liên kết ngược của một ghi chú cụ thể
+
+[heading.plugins/Show backlinks in a note]
+original=Show backlinks in a note
+translation=Hiển thị liên kết ngược trong ghi chú
+
+[heading.plugins/Record audio in a note]
+original=Record audio in a note
+translation=Ghi âm trong một ghi chú
+
+[heading.plugins/Set your template folder]
+original=Set your template folder
+translation=Thiết lập thư mục mẫu
+
+[heading.plugins/Template variables]
+original=Template variables
+translation=Biến mẫu
+
+[heading.plugins/Create a template]
+original=Create a template
+translation=Tạo một mẫu
+
+[heading.plugins/Insert a template into the active note]
+original=Insert a template into the active note
+translation=Chèn mẫu vào ghi chú đang hoạt động
+
+[heading.plugins/Template properties]
+original=Template properties
+translation=Thuộc tính mẫu
+
+[heading.plugins/Create a new note]
+original=Create a new note
+translation=Tạo ghi chú mới
+
+[heading.plugins/Create a new folder]
+original=Create a new folder
+translation=Tạo thư mục mới
+
+[heading.plugins/Change sort order]
+original=Change sort order
+translation=Thay đổi thứ tự sắp xếp
+
+[heading.plugins/Auto-reveal active file]
+original=Auto-reveal active file
+translation=Tự động hiện tệp đang hoạt động
+
+[heading.plugins/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=Mở rộng hoặc thu gọn tất cả thư mục
+
+[heading.plugins/Delete a file or folder]
+original=Delete a file or folder
+translation=Xóa tệp hoặc thư mục
+
+[heading.plugins/Rename a file or folder]
+original=Rename a file or folder
+translation=Đổi tên tệp hoặc thư mục
+
+[heading.plugins/Move a file or folder]
+original=Move a file or folder
+translation=Di chuyển tệp hoặc thư mục
+
+[heading.plugins/Merge notes]
+original=Merge notes
+translation=Hợp nhất ghi chú
+
+[heading.plugins/Extract note]
+original=Extract note
+translation=Trích xuất ghi chú
+
+[heading.plugins/Template file]
+original=Template file
+translation=Tệp mẫu
+
+[heading.plugins/Reader view]
+original=Reader view
+translation=Chế độ đọc
+
+[heading.plugins/Save to vault]
+original=Save to vault
+translation=Lưu vào kho
+
+[heading.plugins/Ad blocking]
+original=Ad blocking
+translation=Chặn quảng cáo
+
+[heading.plugins/Security]
+original=Security
+translation=Bảo mật
+
+[heading.plugins/Search terms]
+original=Search terms
+translation=Từ khóa tìm kiếm
+
+[heading.plugins/Search operators]
+original=Search operators
+translation=Toán tử tìm kiếm
+
+[heading.plugins/Search properties]
+original=Search properties
+translation=Tìm kiếm thuộc tính
+
+[heading.plugins/Change case sensitivity]
+original=Change case sensitivity
+translation=Thay đổi phân biệt chữ hoa/thường
+
+[heading.plugins/Change result sort order]
+original=Change result sort order
+translation=Thay đổi thứ tự sắp xếp kết quả
+
+[heading.plugins/Copy search results]
+original=Copy search results
+translation=Sao chép kết quả tìm kiếm
+
+[heading.plugins/Use regular expressions]
+original=Use regular expressions
+translation=Sử dụng biểu thức chính quy
+
+[heading.plugins/Configure search settings]
+original=Configure search settings
+translation=Cấu hình cài đặt tìm kiếm
+
+[heading.plugins/Embed search results in a note]
+original=Embed search results in a note
+translation=Nhúng kết quả tìm kiếm vào ghi chú
+
+[heading.plugins/Create a unique note]
+original=Create a unique note
+translation=Tạo một ghi chú duy nhất
+
+[heading.plugins/Create unique notes from a template]
+original=Create unique notes from a template
+translation=Tạo ghi chú duy nhất từ mẫu
+
+[heading.plugins/Settings]
+original=Settings
+translation=Cài đặt
+
+[heading.plugins/Filters]
+original=Filters
+translation=Bộ lọc
+
+[heading.plugins/Groups]
+original=Groups
+translation=Nhóm
+
+[heading.plugins/Display]
+original=Display
+translation=Hiển thị
+
+[heading.plugins/Forces]
+original=Forces
+translation=Lực
+
+[heading.plugins/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=Bắt đầu hoạt ảnh theo thời gian
+
+[heading.plugins/Local Graph]
+original=Local Graph
+translation=Đồ thị cục bộ
+
+[heading.plugins/All properties view]
+original=All properties view
+translation=Chế độ xem tất cả thuộc tính
+
+[heading.plugins/Add a bookmark]
+original=Add a bookmark
+translation=Thêm dấu trang
+
+[heading.plugins/Remove a bookmark]
+original=Remove a bookmark
+translation=Xóa dấu trang
+
+[heading.plugins/Add a bookmark group]
+original=Add a bookmark group
+translation=Thêm nhóm đánh dấu
+
+[heading.plugins/Remove a bookmark group]
+original=Remove a bookmark group
+translation=Xóa nhóm đánh dấu
+
+[heading.plugins/Bookmark multiple files]
+original=Bookmark multiple files
+translation=Đánh dấu nhiều tệp
+
+[heading.credits/Team]
+original=Team
+translation=Nhóm
+
+[heading.credits/Development]
+original=Development
+translation=Phát triển
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=Sản phẩm & Vận hành
+
+[heading.credits/Moderators]
+original=Moderators
+translation=Người điều hành
+
+[heading.credits/Retired]
+original=Retired
+translation=Đã nghỉ
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=Cảm hứng từ plugin
+
+[heading.credits/Builds]
+original=Builds
+translation=Bản dựng
+
+[heading.credits/Translators]
+original=Translators
+translation=Người dịch
+
+[heading.credits/Documentation]
+original=Documentation
+translation=Tài liệu
+
+[heading.credits/Add your name]
+original=Add your name
+translation=Thêm tên của bạn
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=Ghi nhận bên thứ ba
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=Logo trước đây
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=Obsidian là gì
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=Chúng tôi khác biệt như thế nào
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=Bạn sở hữu và kiểm soát dữ liệu của mình
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=Liên kết là công dân hạng nhất
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=Bộ công cụ của riêng bạn
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=Theo dõi quá trình phát triển của chúng tôi
+
+[heading.android/Sync]
+original=Sync
+translation=Đồng bộ hóa
+
+[heading.android/Vault location]
+original=Vault location
+translation=Vị trí kho
+
+[heading.android/Device storage]
+original=Device storage
+translation=Bộ nhớ thiết bị
+
+[heading.android/App storage]
+original=App storage
+translation=Bộ nhớ ứng dụng
+
+[heading.android/Widgets]
+original=Widgets
+translation=Widget
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=Ô Cài đặt nhanh
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=Lối tắt
+
+[heading.ios/Sync]
+original=Sync
+translation=Đồng bộ hóa
+
+[heading.ios/Widgets]
+original=Widgets
+translation=Widget
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=Widget Màn hình khóa và Trung tâm điều khiển
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=Widget Màn hình chính
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=Tùy chỉnh widget
+
+[heading.ios/Shortcuts]
+original=Shortcuts
+translation=Phím tắt
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=Tiện ích mở rộng Share Sheet
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=Tích hợp Siri
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=Tích hợp Spotlight
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=Bật bản dựng Insider cho máy tính
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=Cài đặt bản dựng Insider trên thiết bị di động
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=Báo cáo sự cố và phản hồi khác
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=Chuyển về phiên bản công khai trên máy tính
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=Chuyển về phiên bản công khai trên thiết bị di động
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=Các quy tắc
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=Vi phạm nghiêm trọng
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=Quấy rối
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=Đe dọa
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=Phân biệt đối xử rõ ràng
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=Các vi phạm khác
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=Gây hấn
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=Đặc biệt khó chịu
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=Tin nhắn không được yêu cầu gửi đến thành viên cộng đồng
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=Các hành vi khác
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation="Cho tôi ăn"
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=Vận động
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=Tự quảng cáo quá mức
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=Spam
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=Hành vi được khuyến khích
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=Động lực
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=Báo cáo vi phạm
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=Báo cáo trên Discord
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=Báo cáo trên diễn đàn
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=Thực thi
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=Kháng cáo lệnh cấm
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=Ghi công
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=Kích hoạt 2FA
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=Tạo mã khôi phục
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=Vô hiệu hóa 2FA
+
+[heading.2fa/FAQ]
+original=FAQ
+translation=Câu hỏi thường gặp
+
+[heading.publish/Password protection]
+original=Password protection
+translation=Bảo vệ bằng mật khẩu
+
+[heading.publish/Add a site password]
+original=Add a site password
+translation=Thêm mật khẩu trang web
+
+[heading.publish/Remove a site password]
+original=Remove a site password
+translation=Xóa mật khẩu trang web
+
+[heading.publish/Data collection]
+original=Data collection
+translation=Thu thập dữ liệu
+
+[heading.publish/Visitor data]
+original=Visitor data
+translation=Dữ liệu khách truy cập
+
+[heading.publish/Access]
+original=Access
+translation=Truy cập
+
+[heading.publish/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=Quản lý truy cập Obsidian Publish trên mạng của bạn
+
+[heading.publish/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=Thêm cộng tác viên vào trang web
+
+[heading.publish/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=Xóa cộng tác viên khỏi trang web
+
+[heading.publish/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=Đồng bộ hóa thay đổi giữa các cộng tác viên
+
+[heading.publish/Permissions]
+original=Permissions
+translation=Quyền hạn
+
+[heading.publish/Community plugins]
+original=Community plugins
+translation=Phần mở rộng từ cộng đồng
+
+[heading.publish/Graph]
+original=Graph
+translation=Đồ thị
+
+[heading.publish/Media files]
+original=Media files
+translation=Tệp phương tiện
+
+[heading.publish/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/Search]
+original=Search
+translation=Tìm kiếm
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=Cách sử dụng Obsidian Publish
+
+[heading.publish/General]
+original=General
+translation=Chung
+
+[heading.publish/Publishing notes]
+original=Publishing notes
+translation=Xuất bản ghi chú
+
+[heading.publish/CSS and themes]
+original=CSS and themes
+translation=CSS và chủ đề
+
+[heading.publish/Redirect old notes]
+original=Redirect old notes
+translation=Chuyển hướng ghi chú cũ
+
+[heading.publish/Prerequisites]
+original=Prerequisites
+translation=Yêu cầu trước
+
+[heading.publish/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible, Fathom và các dịch vụ phân tích khác
+
+[heading.publish/Troubleshooting]
+original=Troubleshooting
+translation=Khắc phục sự cố
+
+[heading.publish/Quick start]
+original=Quick start
+translation=Bắt đầu nhanh
+
+[heading.publish/Commands]
+original=Commands
+translation=Các lệnh
+
+[heading.publish/Create a new site]
+original=Create a new site
+translation=Tạo trang web mới
+
+[heading.publish/Delete an existing site]
+original=Delete an existing site
+translation=Xóa trang web hiện có
+
+[heading.publish/Switch between sites]
+original=Switch between sites
+translation=Chuyển đổi giữa các trang web
+
+[heading.publish/Change the site ID]
+original=Change the site ID
+translation=Thay đổi ID trang web
+
+[heading.publish/View site options]
+original=View site options
+translation=Xem cài đặt trang web
+
+[heading.publish/Site options]
+original=Site options
+translation=Cài đặt trang web
+
+[heading.publish/Appearance]
+original=Appearance
+translation=Giao diện
+
+[heading.publish/Reading experience]
+original=Reading experience
+translation=Trải nghiệm đọc
+
+[heading.publish/Components]
+original=Components
+translation=Các thành phần
+
+[heading.publish/Other site settings]
+original=Other site settings
+translation=Các cài đặt khác của trang web
+
+[heading.publish/Sitemap]
+original=Sitemap
+translation=Sơ đồ trang web
+
+[heading.publish/Permalinks]
+original=Permalinks
+translation=Liên kết cố định
+
+[heading.publish/Metadata]
+original=Metadata
+translation=Siêu dữ liệu
+
+[heading.publish/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Đăng nhập bằng tài khoản Obsidian của bạn
+
+[heading.publish/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=Kích hoạt Obsidian Publish
+
+[heading.publish/Open Publish]
+original=Open Publish
+translation=Mở Publish
+
+[heading.publish/Open via Command palette]
+original=Open via Command palette
+translation=Mở qua Bảng lệnh
+
+[heading.publish/Open via hotkey]
+original=Open via hotkey
+translation=Mở qua phím tắt
+
+[heading.publish/Open via ribbon]
+original=Open via ribbon
+translation=Mở qua thanh công cụ
+
+[heading.publish/Set a site name]
+original=Set a site name
+translation=Đặt tên trang web
+
+[heading.publish/Select notes to publish]
+original=Select notes to publish
+translation=Chọn ghi chú để xuất bản
+
+[heading.publish/Next steps]
+original=Next steps
+translation=Bước tiếp theo
+
+[heading.publish/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=Thiết lập bằng CloudFlare
+
+[heading.publish/Set up using a proxy]
+original=Set up using a proxy
+translation=Thiết lập bằng proxy
+
+[heading.publish/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=Các HTTP X-Header được hỗ trợ
+
+[heading.publish/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=Chuyển hướng trang cũ sang tên miền tùy chỉnh
+
+[heading.publish/Troubleshoot]
+original=Troubleshoot
+translation=Khắc phục sự cố
+
+[heading.publish/Static assets]
+original=Static assets
+translation=Tài nguyên tĩnh
+
+[heading.publish/Use a community theme]
+original=Use a community theme
+translation=Sử dụng chủ đề cộng đồng
+
+[heading.publish/Enable UI features]
+original=Enable UI features
+translation=Bật các tính năng giao diện
+
+[heading.publish/Customize navigation]
+original=Customize navigation
+translation=Tùy chỉnh điều hướng
+
+[heading.publish/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=Truy cập tùy chọn Tùy chỉnh điều hướng
+
+[heading.publish/Adjust navigation items]
+original=Adjust navigation items
+translation=Điều chỉnh các mục điều hướng
+
+[heading.publish/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=Ẩn và hiện các mục điều hướng
+
+[heading.publish/FAQ]
+original=FAQ
+translation=Câu hỏi thường gặp
+
+[heading.publish/Images]
+original=Images
+translation=Hình ảnh
+
+[heading.publish/Videos and audio]
+original=Videos and audio
+translation=Video và âm thanh
+
+[heading.publish/Description]
+original=Description
+translation=Mô tả
+
+[heading.publish/Image]
+original=Image
+translation=Hình ảnh
+
+[heading.publish/Publish notes]
+original=Publish notes
+translation=Xuất bản ghi chú
+
+[heading.publish/Unpublish notes]
+original=Unpublish notes
+translation=Hủy xuất bản ghi chú
+
+[heading.publish/Update a published note]
+original=Update a published note
+translation=Cập nhật ghi chú đã xuất bản
+
+[heading.publish/Publish linked data]
+original=Publish linked data
+translation=Xuất bản dữ liệu được liên kết
+
+[heading.publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=Tự động chọn dữ liệu để xuất bản
+
+[heading.publish/Ignore data]
+original=Ignore data
+translation=Bỏ qua dữ liệu
+
+[heading.sync/Sync status icon]
+original=Sync status icon
+translation=Biểu tượng trạng thái đồng bộ
+
+[heading.sync/Sync activity log]
+original=Sync activity log
+translation=Nhật ký hoạt động đồng bộ
+
+[heading.sync/General messages]
+original=General messages
+translation=Thông báo chung
+
+[heading.sync/Error messages]
+original=Error messages
+translation=Thông báo lỗi
+
+[heading.sync/Skipped messages]
+original=Skipped messages
+translation=Thông báo bỏ qua
+
+[heading.sync/Account messages]
+original=Account messages
+translation=Thông báo tài khoản
+
+[heading.sync/Network messages]
+original=Network messages
+translation=Thông báo mạng
+
+[heading.sync/Encryption]
+original=Encryption
+translation=Mã hóa
+
+[heading.sync/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=Mã hóa đầu cuối nghĩa là gì?
+
+[heading.sync/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=Rủi ro khi sử dụng mã hóa tiêu chuẩn là gì?
+
+[heading.sync/What encryption do you use?]
+original=What encryption do you use?
+translation=Bạn sử dụng loại mã hóa nào?
+
+[heading.sync/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=Tôi có thể xác minh dữ liệu của mình được mã hóa đầu cuối không?
+
+[heading.sync/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=Obsidian đã hoàn thành kiểm toán bảo mật bên thứ ba chưa?
+
+[heading.sync/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=Điều gì xảy ra nếu tôi quên mật khẩu mã hóa?
+
+[heading.sync/Hosting]
+original=Hosting
+translation=Lưu trữ
+
+[heading.sync/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=Máy chủ Obsidian Sync được lưu trữ ở đâu?
+
+[heading.sync/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=Tôi có thể tìm máy chủ Sync hiện tại ở đâu và nó được lưu trữ tại đâu?
+
+[heading.sync/Network and access]
+original=Network and access
+translation=Mạng và truy cập
+
+[heading.sync/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=Quản lý truy cập Obsidian Sync trên mạng của bạn
+
+[heading.sync/Limitations]
+original=Limitations
+translation=Giới hạn
+
+[heading.sync/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=Mã hóa hash tệp xác định
+
+[heading.sync/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=Không có ràng buộc mật mã giữa đường dẫn và nội dung
+
+[heading.sync/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=Di chuyển kho ra khỏi dịch vụ đồng bộ bên thứ ba hoặc lưu trữ đám mây
+
+[heading.sync/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=Di chuyển kho bằng Obsidian trên máy tính
+
+[heading.sync/Move your vault on mobile]
+original=Move your vault on mobile
+translation=Di chuyển kho trên di động
+
+[heading.sync/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS và iPadOS
+
+[heading.sync/Next steps]
+original=Next steps
+translation=Bước tiếp theo
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=Cách sử dụng Obsidian Sync
+
+[heading.sync/Important]
+original=Important
+translation=Quan trọng
+
+[heading.sync/Sync settings]
+original=Sync settings
+translation=Cài đặt đồng bộ
+
+[heading.sync/Conflict resolution]
+original=Conflict resolution
+translation=Giải quyết xung đột
+
+[heading.sync/Selective syncing]
+original=Selective syncing
+translation=Đồng bộ hóa chọn lọc
+
+[heading.sync/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=Thay đổi các loại tệp bạn muốn đồng bộ
+
+[heading.sync/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=Loại trừ một thư mục khỏi đồng bộ
+
+[heading.sync/Always excluded from sync]
+original=Always excluded from sync
+translation=Luôn bị loại trừ khỏi đồng bộ
+
+[heading.sync/File recovery snapshots]
+original=File recovery snapshots
+translation=Các snapshot khôi phục tập tin
+
+[heading.sync/Hidden files and folders]
+original=Hidden files and folders
+translation=Tệp và thư mục ẩn
+
+[heading.sync/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=Cập nhật cài đặt kho đã đồng bộ
+
+[heading.sync/Primary device]
+original=Primary device
+translation=Thiết bị chính
+
+[heading.sync/Secondary device(s)]
+original=Secondary device(s)
+translation=Thiết bị phụ
+
+[heading.sync/Reloading of settings]
+original=Reloading of settings
+translation=Tải lại cài đặt
+
+[heading.sync/Settings profiles]
+original=Settings profiles
+translation=Hồ sơ cài đặt
+
+[heading.sync/Create a settings profile]
+original=Create a settings profile
+translation=Tạo hồ sơ cài đặt
+
+[heading.sync/General]
+original=General
+translation=Chung
+
+[heading.sync/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Obsidian Sync hỗ trợ những hệ điều hành nào?
+
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Obsidian có hoạt động với Chế độ Khóa (Lockdown Mode) của Apple không?
+
+[heading.sync/What type of data is synced?]
+original=What type of data is synced?
+translation=Loại dữ liệu nào được đồng bộ?
+
+[heading.sync/How much storage do I have?]
+original=How much storage do I have?
+translation=Tôi có bao nhiêu dung lượng lưu trữ?
+
+[heading.sync/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=Tôi có thể có bao nhiêu kho từ xa?
+
+[heading.sync/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=Mỗi kho từ xa có thể lớn bao nhiêu?
+
+[heading.sync/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=Tôi có thể chia sẻ kho từ xa với bao nhiêu người?
+
+[heading.sync/How large can each file be?]
+original=How large can each file be?
+translation=Mỗi tệp có thể lớn bao nhiêu?
+
+[heading.sync/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=Dữ liệu của tôi có được đồng bộ trong nền không?
+
+[heading.sync/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Obsidian Sync có tải lại cài đặt theo thời gian thực không?
+
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=Tôi có thể sử dụng đồng bộ bên thứ ba cùng với Obsidian Sync không?
+
+[heading.sync/Data retention]
+original=Data retention
+translation=Lưu giữ dữ liệu
+
+[heading.sync/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=Bạn lưu giữ lịch sử phiên bản trong bao lâu?
+
+[heading.sync/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=Bạn lưu giữ dữ liệu của tôi trong bao lâu sau khi gói đăng ký hết hạn?
+
+[heading.sync/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=Bạn có giữ dữ liệu của tôi nếu tôi hoàn tiền dịch vụ đăng ký không?
+
+[heading.sync/Manage users]
+original=Manage users
+translation=Quản lý người dùng
+
+[heading.sync/Add users]
+original=Add users
+translation=Thêm người dùng
+
+[heading.sync/Remove users]
+original=Remove users
+translation=Xóa người dùng
+
+[heading.sync/Collaborate with your team]
+original=Collaborate with your team
+translation=Cộng tác với nhóm của bạn
+
+[heading.sync/Permissions]
+original=Permissions
+translation=Quyền hạn
+
+[heading.sync/Live editing]
+original=Live editing
+translation=Chỉnh sửa trực tiếp
+
+[heading.sync/Plans]
+original=Plans
+translation=Các gói
+
+[heading.sync/Storage limits]
+original=Storage limits
+translation=Giới hạn lưu trữ
+
+[heading.sync/Identify and delete large files]
+original=Identify and delete large files
+translation=Xác định và xóa các tệp lớn
+
+[heading.sync/Create a new remote vault]
+original=Create a new remote vault
+translation=Tạo kho từ xa mới
+
+[heading.sync/Upgrade your plan]
+original=Upgrade your plan
+translation=Nâng cấp gói của bạn
+
+[heading.sync/Downgrade your plan]
+original=Downgrade your plan
+translation=Hạ cấp gói của bạn
+
+[heading.sync/Preserve version history]
+original=Preserve version history
+translation=Bảo toàn lịch sử phiên bản
+
+[heading.sync/File-based sync services]
+original=File-based sync services
+translation=Dịch vụ đồng bộ dựa trên tệp
+
+[heading.sync/Sync behavior]
+original=Sync behavior
+translation=Hành vi đồng bộ hóa
+
+[heading.sync/Offline behavior]
+original=Offline behavior
+translation=Hành vi ngoại tuyến
+
+[heading.sync/Available regions]
+original=Available regions
+translation=Các khu vực khả dụng
+
+[heading.sync/Change Sync region]
+original=Change Sync region
+translation=Thay đổi khu vực Sync
+
+[heading.sync/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Cách Obsidian Sync xử lý xung đột
+
+[heading.sync/Conflict resolution options]
+original=Conflict resolution options
+translation=Tùy chọn giải quyết xung đột
+
+[heading.sync/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync đã xóa một ghi chú tôi vừa tạo trên hai thiết bị
+
+[heading.sync/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync không đồng bộ các cập nhật plugin và cài đặt của tôi
+
+[heading.sync/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=Các tệp của tôi liên tục biến mất khỏi Sync ngay khi tôi khôi phục chúng
+
+[heading.sync/Sync history]
+original=Sync history
+translation=Lịch sử Sync
+
+[heading.sync/Show Sync history]
+original=Show Sync history
+translation=Hiển thị lịch sử Sync
+
+[heading.sync/Enable via Command palette]
+original=Enable via Command palette
+translation=Kích hoạt qua Bảng lệnh
+
+[heading.sync/Enable via Hotkey]
+original=Enable via Hotkey
+translation=Kích hoạt qua Phím tắt
+
+[heading.sync/Version history]
+original=Version history
+translation=Lịch sử phiên bản
+
+[heading.sync/Notes and attachments]
+original=Notes and attachments
+translation=Ghi chú và tệp đính kèm
+
+[heading.sync/View version history of a file]
+original=View version history of a file
+translation=Xem lịch sử phiên bản của một tệp
+
+[heading.sync/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=Xem lịch sử phiên bản của tệp đã xóa hoặc đổi tên
+
+[heading.sync/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=Khôi phục phiên bản trước của một tệp
+
+[heading.sync/Restore a deleted file]
+original=Restore a deleted file
+translation=Khôi phục tệp đã xóa
+
+[heading.sync/Settings history]
+original=Settings history
+translation=Lịch sử cài đặt
+
+[heading.sync/View version history of a setting]
+original=View version history of a setting
+translation=Xem lịch sử phiên bản của một cài đặt
+
+[heading.sync/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=Khôi phục phiên bản trước của một cài đặt
+
+[heading.sync/Encryption versions]
+original=Encryption versions
+translation=Các phiên bản mã hóa
+
+[heading.sync/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=Nâng cấp mã hóa với trợ lý di chuyển
+
+[heading.sync/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=Thiết lập Obsidian Sync lần đầu tiên
+
+[heading.sync/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Đăng nhập bằng tài khoản Obsidian của bạn
+
+[heading.sync/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=Kích hoạt Obsidian Sync
+
+[heading.sync/Connect to a remote vault]
+original=Connect to a remote vault
+translation=Kết nối với kho từ xa
+
+[heading.sync/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=Điều chỉnh cài đặt Obsidian Sync
+
+[heading.sync/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=Bắt đầu đồng bộ với Obsidian Sync
+
+[heading.sync/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=Đồng bộ kho từ xa trên thiết bị khác
+
+[heading.sync/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=Đồng bộ kho từ trình chuyển đổi kho
+
+[heading.sync/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=Đồng bộ kho từ Cài đặt Obsidian
+
+[heading.sync/Manage your remote vaults]
+original=Manage your remote vaults
+translation=Quản lý kho từ xa của bạn
+
+[heading.sync/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=Ngắt kết nối khỏi kho từ xa
+
+[heading.sync/Delete a remote vault]
+original=Delete a remote vault
+translation=Xóa kho từ xa
+
+[heading.sync/Regional sync servers]
+original=Regional sync servers
+translation=Máy chủ đồng bộ khu vực
+
+[heading.sync/Quick start]
+original=Quick start
+translation=Bắt đầu nhanh
+
+[heading.sync/Commands]
+original=Commands
+translation=Các lệnh
+
+[heading.sync/Native modules]
+original=Native modules
+translation=Module gốc
+
+[heading.web-clipper/Preset variables]
+original=Preset variables
+translation=Biến cài đặt trước
+
+[heading.web-clipper/Prompt variables]
+original=Prompt variables
+translation=Biến gợi ý
+
+[heading.web-clipper/When to use prompt variables]
+original=When to use prompt variables
+translation=Khi nào sử dụng biến gợi ý
+
+[heading.web-clipper/Examples]
+original=Examples
+translation=Ví dụ
+
+[heading.web-clipper/Meta variables]
+original=Meta variables
+translation=Biến meta
+
+[heading.web-clipper/Selector variables]
+original=Selector variables
+translation=Biến bộ chọn
+
+[heading.web-clipper/Schema.org variables]
+original=Schema.org variables
+translation=Biến Schema.org
+
+[heading.web-clipper/Dates]
+original=Dates
+translation=Ngày tháng
+
+[heading.web-clipper/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=Chuyển đổi và viết hoa chữ
+
+[heading.web-clipper/Text formatting]
+original=Text formatting
+translation=Định dạng văn bản
+
+[heading.web-clipper/Numbers]
+original=Numbers
+translation=Số
+
+[heading.web-clipper/HTML processing]
+original=HTML processing
+translation=Xử lý HTML
+
+[heading.web-clipper/Arrays and objects]
+original=Arrays and objects
+translation=Mảng và đối tượng
+
+[heading.web-clipper/Capture a page]
+original=Capture a page
+translation=Chụp một trang
+
+[heading.web-clipper/Download images]
+original=Download images
+translation=Tải xuống hình ảnh
+
+[heading.web-clipper/Hotkeys]
+original=Hotkeys
+translation=Phím tắt
+
+[heading.web-clipper/Interface functionality]
+original=Interface functionality
+translation=Chức năng giao diện
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=Cài đặt Web Clipper
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=Cách sử dụng Web Clipper
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=Quyền riêng tư
+
+[heading.web-clipper/General]
+original=General
+translation=Chung
+
+[heading.web-clipper/Some content is missing]
+original=Some content is missing
+translation=Một số nội dung bị thiếu
+
+[heading.web-clipper/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=Không có nội dung xuất hiện trong Obsidian
+
+[heading.web-clipper/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian không mở được
+
+[heading.web-clipper/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian mở nhưng chỉ lưu tên tệp
+
+[heading.web-clipper/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS và iPadOS
+
+[heading.web-clipper/Conditionals]
+original=Conditionals
+translation=Điều kiện
+
+[heading.web-clipper/Comparison operators]
+original=Comparison operators
+translation=Toán tử so sánh
+
+[heading.web-clipper/Logical operators]
+original=Logical operators
+translation=Toán tử logic
+
+[heading.web-clipper/Truthiness]
+original=Truthiness
+translation=Tính đúng/sai
+
+[heading.web-clipper/Assign a variable]
+original=Assign a variable
+translation=Gán biến
+
+[heading.web-clipper/Fallbacks]
+original=Fallbacks
+translation=Giá trị dự phòng
+
+[heading.web-clipper/Chaining fallbacks]
+original=Chaining fallbacks
+translation=Nối chuỗi giá trị dự phòng
+
+[heading.web-clipper/With filters]
+original=With filters
+translation=Với bộ lọc
+
+[heading.web-clipper/Loops]
+original=Loops
+translation=Vòng lặp
+
+[heading.web-clipper/Loop sources]
+original=Loop sources
+translation=Nguồn vòng lặp
+
+[heading.web-clipper/Loop variables]
+original=Loop variables
+translation=Biến vòng lặp
+
+[heading.web-clipper/Accessing array items by index]
+original=Accessing array items by index
+translation=Truy cập phần tử mảng theo chỉ số
+
+[heading.web-clipper/Nested loops]
+original=Nested loops
+translation=Vòng lặp lồng nhau
+
+[heading.web-clipper/Combine logic]
+original=Combine logic
+translation=Kết hợp logic
+
+[heading.web-clipper/Evaluation order]
+original=Evaluation order
+translation=Thứ tự đánh giá
+
+[heading.web-clipper/Create or edit a template]
+original=Create or edit a template
+translation=Tạo mới hoặc chỉnh sửa một mẫu
+
+[heading.web-clipper/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=Nhập và xuất mẫu Web Clipper
+
+[heading.web-clipper/Template settings]
+original=Template settings
+translation=Cài đặt mẫu
+
+[heading.web-clipper/Behavior]
+original=Behavior
+translation=Hành vi
+
+[heading.web-clipper/Automatically trigger a template]
+original=Automatically trigger a template
+translation=Tự động kích hoạt một mẫu
+
+[heading.web-clipper/Simple URL matching]
+original=Simple URL matching
+translation=Khớp URL đơn giản
+
+[heading.web-clipper/Regular expression matching]
+original=Regular expression matching
+translation=Khớp bằng biểu thức chính quy
+
+[heading.web-clipper/Schema.org matching]
+original=Schema.org matching
+translation=Khớp Schema.org
+
+[heading.web-clipper/Interpreter context]
+original=Interpreter context
+translation=Ngữ cảnh thông dịch
+
+[heading.web-clipper/Examples of prompts]
+original=Examples of prompts
+translation=Ví dụ về câu lệnh
+
+[heading.web-clipper/Get started]
+original=Get started
+translation=Bắt đầu
+
+[heading.web-clipper/How it works]
+original=How it works
+translation=Cách hoạt động
+
+[heading.web-clipper/Context]
+original=Context
+translation=Ngữ cảnh
+
+[heading.web-clipper/Models]
+original=Models
+translation=Mô hình
+
+[heading.web-clipper/Preset providers]
+original=Preset providers
+translation=Nhà cung cấp cài đặt trước
+
+[heading.web-clipper/Choosing a model]
+original=Choosing a model
+translation=Chọn mô hình
+
+[heading.web-clipper/Custom providers and models]
+original=Custom providers and models
+translation=Nhà cung cấp và mô hình tùy chỉnh
+
+[heading.web-clipper/Local models]
+original=Local models
+translation=Mô hình cục bộ
+
+[heading.web-clipper/Turn on highlighter]
+original=Turn on highlighter
+translation=Bật đánh dấu
+
+[heading.web-clipper/Highlighter settings]
+original=Highlighter settings
+translation=Cài đặt đánh dấu
+
+[heading.web-clipper/Activate reading mode]
+original=Activate reading mode
+translation=Kích hoạt chế độ đọc
+
+[heading.web-clipper/Customize the reading view]
+original=Customize the reading view
+translation=Tùy chỉnh giao diện đọc
+
+[heading.teams/Purchase a commercial license]
+original=Purchase a commercial license
+translation=Mua giấy phép thương mại
+
+[heading.teams/Apply a commercial license]
+original=Apply a commercial license
+translation=Áp dụng giấy phép thương mại
+
+[heading.teams/Supporting organizations]
+original=Supporting organizations
+translation=Các tổ chức hỗ trợ
+
+[heading.teams/Frequently asked questions]
+original=Frequently asked questions
+translation=Câu hỏi thường gặp
+
+[heading.teams/Considerations]
+original=Considerations
+translation=Các cân nhắc
+
+[heading.teams/Community plugins and themes]
+original=Community plugins and themes
+translation=Plugin cộng đồng và chủ đề
+
+[heading.teams/Network and access]
+original=Network and access
+translation=Mạng và quyền truy cập
+
+[heading.teams/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=Kết nối từ Obsidian
+
+[heading.teams/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=Kết nối từ GitHub
+
+[heading.teams/Other connections]
+original=Other connections
+translation=Kết nối khác
+
+[heading.teams/Account security]
+original=Account security
+translation=Bảo mật tài khoản
+
+[heading.teams/Assessments and certifications]
+original=Assessments and certifications
+translation=Đánh giá và chứng nhận
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=Sử dụng Obsidian với nhóm của bạn
+
+[heading.teams/Important resources]
+original=Important resources
+translation=Tài nguyên quan trọng
+
+[heading.teams/Install and update Obsidian]
+original=Install and update Obsidian
+translation=Cài đặt và cập nhật Obsidian
+
+[heading.teams/Customizing Obsidian]
+original=Customizing Obsidian
+translation=Tùy chỉnh Obsidian
+
+[heading.teams/Configuration folders]
+original=Configuration folders
+translation=Thư mục cấu hình
+
+[heading.teams/Plugins]
+original=Plugins
+translation=Plugin
+
+[heading.teams/Themes and snippets]
+original=Themes and snippets
+translation=Chủ đề và đoạn trích
+
+[heading.teams/Deployment]
+original=Deployment
+translation=Triển khai
+
+[heading.teams/Publishing tools and services]
+original=Publishing tools and services
+translation=Công cụ và dịch vụ xuất bản
+
+[heading.teams/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=Cộng tác nâng cao cho Obsidian Publish
+
+[heading.teams/Media]
+original=Media
+translation=Phương tiện
+
+[heading.teams/Syncing tools and services]
+original=Syncing tools and services
+translation=Công cụ và dịch vụ đồng bộ hóa
+
+[heading.teams/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=Obsidian Sync cho nhóm
+
+[heading.teams/Security]
+original=Security
+translation=Bảo mật
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=Câu hỏi và lời khuyên
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=Báo cáo lỗi và yêu cầu tính năng
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=Thu thập thông tin gỡ lỗi
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=Kiểm tra thời gian khởi động
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=Ghi lại nhật ký bảng điều khiển
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=Liên hệ hỗ trợ Obsidian
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=Báo cáo vấn đề bảo mật
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=Báo cáo vi phạm Quy tắc ứng xử
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Đóng góp cho Obsidian
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=Cài đặt kho
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=Cài đặt toàn cục
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=Bộ nhớ đệm siêu dữ liệu
+
+[heading.manage-notes/Create a new note]
+original=Create a new note
+translation=Tạo ghi chú mới
+
+[heading.manage-notes/Rename a note]
+original=Rename a note
+translation=Đổi tên ghi chú
+
+[heading.manage-notes/Delete a note]
+original=Delete a note
+translation=Xóa ghi chú
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=Tạo kho mới
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=Tạo kho từ một thư mục hiện có
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=Đổi tên kho
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=Di chuyển kho đến thư mục khác
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=Xóa kho
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=Chuyển cài đặt sang kho khác
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=Truy cập thư mục cấu hình của bạn
+
+[heading.configuration-folder/Desktop]
+original=Desktop
+translation=Máy tính
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=Di động
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=Thay đổi thư mục cấu hình của bạn
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=Nhúng tệp
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=Thuật ngữ và ngữ pháp
+
+[heading.style-guide/Language style]
+original=Language style
+translation=Phong cách ngôn ngữ
+
+[heading.style-guide/Terms]
+original=Terms
+translation=Thuật ngữ
+
+[heading.style-guide/Product names]
+original=Product names
+translation=Tên sản phẩm
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=Giao diện người dùng và tương tác
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=Ghi chú, tệp và thư mục
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=Tài liệu tham khảo cho cài đặt
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=Thuật ngữ chỉ hướng
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=Hướng dẫn
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=Viết hoa kiểu câu
+
+[heading.style-guide/Examples]
+original=Examples
+translation=Ví dụ
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=Tên phím và phím tắt
+
+[heading.style-guide/Images]
+original=Images
+translation=Hình ảnh
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=Cấu trúc thông tin
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=Các loại khung ghi chú
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=Danh sách so với văn xuôi
+
+[heading.style-guide/Tables]
+original=Tables
+translation=Bảng
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=Tham chiếu chéo
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=Nội dung dành riêng cho nền tảng
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=Biểu tượng và hình ảnh
+
+[heading.style-guide/Icons]
+original=Icons
+translation=Biểu tượng
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=Thẻ anchor cho hình ảnh
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=Tối ưu hóa
+
+[heading.style-guide/Layout]
+original=Layout
+translation=Bố cục
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=Liên kết bị hỏng
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=Mô tả
+
+[heading.style-guide/Directions]
+original=Directions
+translation=Hướng dẫn
+
+[heading.style-guide/Translations]
+original=Translations
+translation=Bản dịch
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=Plugin và chủ đề
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=Các dự án mã nguồn mở
+
+[heading.developers/Documentation]
+original=Documentation
+translation=Tài liệu
+
+[heading.developers/Community]
+original=Community
+translation=Cộng đồng

@@ -1,1 +1,0 @@
-Obsidian làm sạch HTML vì lý do bảo mật. Vì nó chạy cục bộ, các lỗ hổng tập lệnh là một vấn đề nghiêm trọng hơn so với các ứng dụng web. Do đó, chúng có thể khắt khe hơn một chút so với những gì bạn đã quen làm và bạn có thể gặp sự cố nếu cố gắng thực hiện những việc như nhúng thẻ `<script>` vào ghi chú. Tuy nhiên, đại đa số mọi người sẽ không bao giờ gặp phải vấn đề này.
