@@ -10,15 +10,15 @@ Scopri come ottenere una migliore panoramica delle note lunghe utilizzando la _c
 
 Puoi comprimere intestazioni ed elenchi indentati passando il cursore del mouse sulla sezione che vuoi comprimere, e poi selezionando la freccia sulla sinistra. Le sezioni compresse mostrano una freccia indipendentemente dal passaggio del mouse.
 
-La compressione è attivata per impostazione predefinita. Per disattivare la compressione, apri **[[Settings|Impostazioni]]** → **Editor**, e poi disattiva **Comprimi indentazioni** o **Comprimi intestazioni**, a seconda delle tue esigenze.
+La compressione è attivata per impostazione predefinita. Per disattivare la compressione, apri **[[Impostazioni|Impostazioni]]** → **Editor**, e poi disattiva **Comprimi indentazioni** o **Comprimi intestazioni**, a seconda delle tue esigenze.
 
 Per attivare/disattivare tutte le sezioni contemporaneamente, usa i seguenti comandi:
 
-- Per comprimere tutte le sezioni, apri la [[Command palette|tavolozza dei comandi]], e poi seleziona **Comprimi tutte le intestazioni e le liste**.
-- Per espandere tutte le sezioni, apri la [[Command palette|tavolozza dei comandi]], e poi seleziona **Espandi tutte le intestazioni e le liste**.
+- Per comprimere tutte le sezioni, apri la [[Riquadro comandi|tavolozza dei comandi]], e poi seleziona **Comprimi tutte le intestazioni e le liste**.
+- Per espandere tutte le sezioni, apri la [[Riquadro comandi|tavolozza dei comandi]], e poi seleziona **Espandi tutte le intestazioni e le liste**.
 
 > [!tip] Suggerimento
-> Se preferisci comprimere usando la tastiera, puoi assegnare [[Hotkeys|scorciatoie da tastiera]] ai comandi **Piega di meno** e **Piega di più**.
+> Se preferisci comprimere usando la tastiera, puoi assegnare [[Tasti di scelta rapida|scorciatoie da tastiera]] ai comandi **Piega di meno** e **Piega di più**.
 >
 > - **Piega di meno** espande la sezione in corrispondenza del cursore di testo.
 > - **Piega di più** comprime la sezione o l'elenco che contiene il cursore di testo.

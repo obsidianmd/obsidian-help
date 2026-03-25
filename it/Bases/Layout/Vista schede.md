@@ -3,13 +3,13 @@ permalink: bases/views/cards
 aliases:
   - Cards view
 ---
-Schede è un tipo di [[Views|vista]] che puoi utilizzare in [[Introduction to Bases|Base]].
+Schede è un tipo di [[Viste|vista]] che puoi utilizzare in [[Introduzione a Base|Base]].
 
 Seleziona ![[lucide-layout-grid.svg#icon]]  **Schede** dal menu delle viste per visualizzare i file in un layout a griglia simile a una galleria con immagini di copertina opzionali.
 
 ## Impostazioni
 
-Le impostazioni della vista Schede possono essere configurate nelle [[Views#Impostazioni della vista|impostazioni della vista]].
+Le impostazioni della vista Schede possono essere configurate nelle [[Viste#Impostazioni della vista|impostazioni della vista]].
 
 - Dimensione scheda
 - Proprietà immagine
@@ -22,9 +22,9 @@ Definisce la larghezza di una scheda.
 
 ### Proprietà immagine
 
-Le Schede supportano un'immagine di copertina opzionale, ovvero una [[Properties|proprietà]] che viene visualizzata come immagine nella parte superiore della scheda. La proprietà può essere una delle seguenti:
+Le Schede supportano un'immagine di copertina opzionale, ovvero una [[Proprietà|proprietà]] che viene visualizzata come immagine nella parte superiore della scheda. La proprietà può essere una delle seguenti:
 
-- Un collegamento a un [[Attachments|allegato]] locale `"[[collegamento/all/allegato.jpg]]"`
+- Un collegamento a un [[Allegati|allegato]] locale `"[[collegamento/all/allegato.jpg]]"`
 - Un collegamento esterno (URL)
 - Un codice colore esadecimale (`#000000`)
 

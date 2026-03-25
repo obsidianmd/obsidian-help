@@ -33,4 +33,4 @@ Puoi aprire la nota selezionata in una nuova scheda premendo `Ctrl+Invio` (o `Cm
 
 
 > [!info] File esclusi
-> I file che corrispondono ai tuoi modelli di [[Settings#File esclusi|File esclusi]] hanno una priorità inferiore nei risultati della Selezione rapida.
+> I file che corrispondono ai tuoi modelli di [[Impostazioni#File esclusi|File esclusi]] hanno una priorità inferiore nei risultati della Selezione rapida.

@@ -9,19 +9,19 @@ Obsidian semplifica la creazione e la modifica di wiki, basi di conoscenza, docu
 
 ## Strumenti e servizi di pubblicazione
 
-Puoi creare siti pubblici e privati utilizzando il servizio ufficiale [[Introduction to Obsidian Publish|Obsidian Publish]], e pubblicare direttamente dall'app Obsidian.
+Puoi creare siti pubblici e privati utilizzando il servizio ufficiale [[Introduzione a Obsidian Publish|Obsidian Publish]], e pubblicare direttamente dall'app Obsidian.
 
 Obsidian funziona anche con una varietà di strumenti di pubblicazione di terze parti. Obsidian è compatibile con la maggior parte dei generatori di siti statici (SSG) come Jekyll, Hugo, Astro e Quartz. I plugin della community permettono di pubblicare su altri servizi come Confluence, Jira e altri.
 
 ## Collaborazione avanzata per Obsidian Publish
 
-Per maggiori informazioni sulla configurazione di un sito [[Introduction to Obsidian Publish|Obsidian Publish]], consulta i seguenti articoli:
+Per maggiori informazioni sulla configurazione di un sito [[Introduzione a Obsidian Publish|Obsidian Publish]], consulta i seguenti articoli:
 
-- [[Introduction to Obsidian Publish]]
-- [[Collaborate on a Publish site]]
-- [[Publish limitations]]
+- [[Introduzione a Obsidian Publish]]
+- [[Collaborare su un sito Publish]]
+- [[Limitazioni di Publish]]
 
-Se fai parte di un team più grande, potrebbe essere necessario abbinare Obsidian Publish a un sistema di controllo versione più avanzato, come Git. Puoi combinare Publish con un sistema di controllo versione esterno, o utilizzarlo insieme a un servizio di sincronizzazione come [[Introduction to Obsidian Sync|Obsidian Sync]] per mantenere le modifiche sincronizzate tra più utenti.
+Se fai parte di un team più grande, potrebbe essere necessario abbinare Obsidian Publish a un sistema di controllo versione più avanzato, come Git. Puoi combinare Publish con un sistema di controllo versione esterno, o utilizzarlo insieme a un servizio di sincronizzazione come [[Introduzione a Obsidian Sync|Obsidian Sync]] per mantenere le modifiche sincronizzate tra più utenti.
 
 Ad esempio, questo sito di documentazione è ospitato su Obsidian Publish e il controllo versione è gestito tramite un [repository GitHub](https://github.com/obsidianmd/obsidian-help) pubblico.
 

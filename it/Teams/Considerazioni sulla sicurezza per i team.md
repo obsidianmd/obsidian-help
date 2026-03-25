@@ -11,15 +11,15 @@ La nostra pagina [Sicurezza](https://obsidian.md/it/security) raccoglie informaz
 
 Obsidian è progettato per funzionare come un'applicazione offline e autonoma. Obsidian supporta anche plugin e temi personalizzati. Inoltre, forniamo supporto sia ufficiale che non ufficiale per vari servizi di sincronizzazione file.
 
-Se non si intende utilizzare plugin o temi della community, né [[Introduction to Obsidian Sync|Obsidian Sync]] né [[Introduction to Obsidian Publish|Obsidian Publish]], si applicano le procedure standard per la protezione delle applicazioni. Tuttavia, se si prevede di utilizzare una qualsiasi di queste funzionalità, si consiglia di valutarne attentamente l'idoneità per il proprio ambiente di lavoro.
+Se non si intende utilizzare plugin o temi della community, né [[Introduzione a Obsidian Sync|Obsidian Sync]] né [[Introduzione a Obsidian Publish|Obsidian Publish]], si applicano le procedure standard per la protezione delle applicazioni. Tuttavia, se si prevede di utilizzare una qualsiasi di queste funzionalità, si consiglia di valutarne attentamente l'idoneità per il proprio ambiente di lavoro.
 
 ## Plugin e temi della community
 
-Si prega di consultare la pagina [[Plugin security|Sicurezza dei plugin]] oltre a questa sezione.
+Si prega di consultare la pagina [[Sicurezza dei plugin|Sicurezza dei plugin]] oltre a questa sezione.
 
 Il team di Obsidian esamina tutti i plugin e i temi della community inviati alla directory ufficiale, tramite il nostro [repository delle release](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Non esaminiamo elementi della community che non sono stati inviati alla directory ufficiale.
 
-Non disponiamo di uno store della community per i [[CSS snippets|frammenti CSS]]. Questi file vengono tipicamente ottenuti dalla nostra [Community di Obsidian](https://obsidian.md/it/community) o da repository pubblici su GitHub.
+Non disponiamo di uno store della community per i [[Snippet CSS|frammenti CSS]]. Questi file vengono tipicamente ottenuti dalla nostra [Community di Obsidian](https://obsidian.md/it/community) o da repository pubblici su GitHub.
 
 Richiediamo il raggruppamento delle risorse nei frammenti CSS e nei temi. Tuttavia, abbiamo fatto un'eccezione per [Google Fonts](https://fonts.google.com/) per mantenere le prestazioni sui dispositivi mobile, dove l'impatto del raggruppamento dei font è più evidente.
 
@@ -60,17 +60,17 @@ Obsidian effettua richieste di rete sia verso `github.com` che verso `raw.github
 ### Sicurezza dell'account
 
 **Obsidian supporta il Single Sign-On (SSO)?**
-Obsidian non supporta l'SSO. Nella maggior parte dei casi d'uso, Obsidian non richiede un account o un accesso nel proprio ambiente di lavoro, a meno che non si utilizzi [[Introduction to Obsidian Publish|Obsidian Publish]] o [[Introduction to Obsidian Sync|Obsidian Sync]].
+Obsidian non supporta l'SSO. Nella maggior parte dei casi d'uso, Obsidian non richiede un account o un accesso nel proprio ambiente di lavoro, a meno che non si utilizzi [[Introduzione a Obsidian Publish|Obsidian Publish]] o [[Introduzione a Obsidian Sync|Obsidian Sync]].
 
 **Obsidian supporta l'Autenticazione Multi-Fattore (MFA)?**
-Obsidian supporta l'[[2-factor authentication|autenticazione a 2 fattori]] (2FA) per gli account Obsidian, ma non supporta la 2FA per l'apertura e l'utilizzo dell'applicazione base. Gli utenti di [[Introduction to Obsidian Sync|Obsidian Sync]] e [[Introduction to Obsidian Publish|Obsidian Publish]] che hanno la 2FA abilitata dovranno confermare la propria chiave 2FA al primo accesso all'applicazione.
+Obsidian supporta l'[[Autenticazione a 2 fattori|autenticazione a 2 fattori]] (2FA) per gli account Obsidian, ma non supporta la 2FA per l'apertura e l'utilizzo dell'applicazione base. Gli utenti di [[Introduzione a Obsidian Sync|Obsidian Sync]] e [[Introduzione a Obsidian Publish|Obsidian Publish]] che hanno la 2FA abilitata dovranno confermare la propria chiave 2FA al primo accesso all'applicazione.
 
 ### Valutazioni e certificazioni
 
 **Accettate valutazioni di sicurezza dalla nostra azienda?**
 Richiediamo un importo minimo di ordine di acquisto preventivato prima di prendere in considerazione il completamento di una valutazione di sicurezza. Queste valutazioni richiedono spesso molto tempo e potrebbero non essere applicabili ad applicazioni offline come Obsidian, poiché sono tipicamente orientate a servizi basati sul cloud.
 
-Tuttavia, è possibile rinunciare a questo importo minimo di ordine di acquisto accettando di pagare una tariffa di anticipo. Si prega di contattare il [[Help and support#Contattare il supporto Obsidian|supporto Obsidian]] per informazioni su questa opzione.
+Tuttavia, è possibile rinunciare a questo importo minimo di ordine di acquisto accettando di pagare una tariffa di anticipo. Si prega di contattare il [[Aiuto e supporto#Contattare il supporto Obsidian|supporto Obsidian]] per informazioni su questa opzione.
 
 **Disponete di certificazioni riconosciute relative alla Sicurezza delle Informazioni o a standard di qualità, come ISO27001, NIST, COBIT o altre certificazioni ISO o CSA?**
 Non al momento. Potrebbe essere qualcosa che esploreremo in futuro, ma per ora il nostro focus è sugli [audit di sicurezza](https://obsidian.md/it/security).

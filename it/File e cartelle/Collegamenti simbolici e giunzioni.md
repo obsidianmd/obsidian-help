@@ -3,7 +3,7 @@ permalink: symlinks
 aliases:
   - Symbolic links and junctions
 ---
-Puoi utilizzare [collegamenti simbolici](https://en.wikipedia.org/wiki/Symbolic_link) (symlink) e [giunzioni](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions) nella tua cassaforte per archiviare file al di fuori della cassaforte e della [[How Obsidian stores data#Impostazioni globali|cartella di sistema]].
+Puoi utilizzare [collegamenti simbolici](https://en.wikipedia.org/wiki/Symbolic_link) (symlink) e [giunzioni](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions) nella tua cassaforte per archiviare file al di fuori della cassaforte e della [[Come Obsidian archivia i dati#Impostazioni globali|cartella di sistema]].
 
 > [!danger] Utilizzare a proprio rischio
 > Sconsigliamo vivamente l'uso di collegamenti simbolici. Utilizzando collegamenti simbolici e giunzioni nella tua cassaforte, rischi di perdere o corrompere i tuoi dati, o di causare il crash di Obsidian. Assicurati di eseguire regolarmente backup della tua cassaforte e delle impostazioni.

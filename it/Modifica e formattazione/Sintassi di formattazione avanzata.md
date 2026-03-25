@@ -25,7 +25,7 @@ Sebbene le barre verticali ai lati della tabella siano opzionali, è consigliabi
 
 > [!tip] Nell'_anteprima dal vivo_, puoi fare clic destro su una tabella per aggiungere o eliminare colonne e righe. Puoi anche ordinarle e spostarle utilizzando il menu contestuale.
 
-Puoi inserire una tabella utilizzando il comando **Inserisci tabella** dalla [[Command palette|Tavolozza dei comandi]] o facendo clic destro e selezionando _Inserisci → Tabella_. Questo ti fornirà una tabella base e modificabile:
+Puoi inserire una tabella utilizzando il comando **Inserisci tabella** dalla [[Riquadro comandi|Tavolozza dei comandi]] o facendo clic destro e selezionando _Inserisci → Tabella_. Questo ti fornirà una tabella base e modificabile:
 
 ```md
 |     |     |
@@ -45,15 +45,15 @@ Marie | Curie
 
 ### Formattare il contenuto all'interno di una tabella
 
-Puoi utilizzare la [[basic formatting syntax|sintassi di formattazione di base]] per stilizzare il contenuto all'interno di una tabella.
+Puoi utilizzare la [[Sintassi di formattazione di base|sintassi di formattazione di base]] per stilizzare il contenuto all'interno di una tabella.
 
 | Prima colonna          | Seconda colonna                                       |
 | ---------------------- | ----------------------------------------------------- |
-| [[Internal links]]     | Collegamento a un file _all'interno_ della **cassaforte**. |
-| [[Embed files]]        | ![[Engelbart.jpg\|100]]                               |
+| [[Collegamenti interni]]     | Collegamento a un file _all'interno_ della **cassaforte**. |
+| [[Incorporare file]]        | ![[Engelbart.jpg\|100]]                               |
 
 > [!note] Barre verticali nelle tabelle
-> Se vuoi utilizzare gli [[aliases|alias]], o [[Basic formatting syntax#Immagini esterne|ridimensionare un'immagine]] nella tua tabella, devi aggiungere un `\` prima della barra verticale.
+> Se vuoi utilizzare gli [[Alias|alias]], o [[Sintassi di formattazione di base#Immagini esterne|ridimensionare un'immagine]] nella tua tabella, devi aggiungere un `\` prima della barra verticale.
 >
 > ```md
 > Prima colonna | Seconda colonna
@@ -84,7 +84,7 @@ Puoi aggiungere diagrammi e grafici alle tue note utilizzando [Mermaid](https://
 > [!tip] Suggerimento
 > Puoi anche provare l'[Editor dal vivo](https://mermaid-js.github.io/mermaid-live-editor) di Mermaid per costruire i diagrammi prima di includerli nelle tue note.
 
-Per aggiungere un diagramma Mermaid, crea un [[Basic formatting syntax#Blocchi di codice|blocco di codice]] `mermaid`.
+Per aggiungere un diagramma Mermaid, crea un [[Sintassi di formattazione di base#Blocchi di codice|blocco di codice]] `mermaid`.
 
 ````md
 ```mermaid
@@ -120,7 +120,7 @@ Biology --> Chemistry
 
 ### Collegare file in un diagramma
 
-Puoi creare [[internal links|collegamenti interni]] nei tuoi diagrammi associando la [classe](https://mermaid.js.org/syntax/flowchart.html#classes) `internal-link` ai tuoi nodi.
+Puoi creare [[Collegamenti interni|collegamenti interni]] nei tuoi diagrammi associando la [classe](https://mermaid.js.org/syntax/flowchart.html#classes) `internal-link` ai tuoi nodi.
 
 ````md
 ```mermaid
@@ -141,7 +141,7 @@ class Biology,Chemistry internal-link;
 ```
 
 > [!note] Nota
-> I collegamenti interni dai diagrammi non vengono visualizzati nella [[Graph view|Vista grafo]].
+> I collegamenti interni dai diagrammi non vengono visualizzati nella [[Vista grafo|Vista grafo]].
 
 Se hai molti nodi nei tuoi diagrammi, puoi utilizzare il seguente frammento.
 

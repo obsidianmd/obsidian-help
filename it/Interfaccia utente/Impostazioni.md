@@ -12,19 +12,19 @@ Le impostazioni permettono di personalizzare l'esperienza con Obsidian. Configur
 
 ### Desktop
 
-Nella [[Sidebar#Aprire le barre laterali nascoste|barra laterale sinistra]], seleziona **[[Settings|Impostazioni]]** ![[lucide-cog.svg#icon]]. È possibile aprire le Impostazioni anche con la [[Command palette|tavolozza dei comandi]].
+Nella [[Barra laterale#Aprire le barre laterali nascoste|barra laterale sinistra]], seleziona **[[Impostazioni|Impostazioni]]** ![[lucide-cog.svg#icon]]. È possibile aprire le Impostazioni anche con la [[Riquadro comandi|tavolozza dei comandi]].
 
 ### Mobile
 
-Nella barra laterale sinistra, seleziona **[[Settings|Impostazioni]]** ![[lucide-cog.svg#icon]].
+Nella barra laterale sinistra, seleziona **[[Impostazioni|Impostazioni]]** ![[lucide-cog.svg#icon]].
 
 ## Organizzazione delle impostazioni
 
 Le impostazioni sono organizzate nelle seguenti categorie:
 
 - **Opzioni** — Impostazioni principali dell'applicazione tra cui [[#Generale]], [[#Editor]], [[#File e collegamenti]], [[#Aspetto]] e [[#Scorciatoie da tastiera]].
-- **[[Core plugins|Plugin principali]]** — Plugin integrati forniti con Obsidian.
-- **[[Community plugins|Plugin della community]]** — Plugin di terze parti installati dalla community.
+- **[[Plugin principali|Plugin principali]]** — Plugin integrati forniti con Obsidian.
+- **[[Plugin della comunità|Plugin della community]]** — Plugin di terze parti installati dalla community.
 
 ## Generale
 
@@ -40,14 +40,14 @@ Quando abilitato, Obsidian verifica automaticamente la disponibilità di nuove v
 
 **Ricevi versioni insider**
 
-Aggiornamento automatico alle ultime [[Early access versions|versioni ad accesso anticipato]]. Queste versioni includono nuove funzionalità ma potrebbero essere meno stabili.
+Aggiornamento automatico alle ultime [[Versioni ad accesso anticipato|versioni ad accesso anticipato]]. Queste versioni includono nuove funzionalità ma potrebbero essere meno stabili.
 
 > [!info]+ Licenza Catalyst richiesta
-> Questa opzione è disponibile solo per gli utenti con una [[Catalyst license|licenza Catalyst]].
+> Questa opzione è disponibile solo per gli utenti con una [[Licenza Catalyst|licenza Catalyst]].
 
 ### Lingua
 
-Seleziona la lingua preferita per l'interfaccia di Obsidian. Seleziona **[[Translations|Scopri come aggiungere una nuova lingua a Obsidian]]** per contribuire a una traduzione.
+Seleziona la lingua preferita per l'interfaccia di Obsidian. Seleziona **[[Traduzioni|Scopri come aggiungere una nuova lingua a Obsidian]]** per contribuire a una traduzione.
 
 ### Aiuto
 
@@ -63,17 +63,17 @@ Visualizza le informazioni del tuo account, inclusi nome utente ed email. Selezi
 
 **Licenza Catalyst**
 
-Visualizza lo stato della tua licenza Catalyst. Se possiedi una [[Catalyst license|licenza Catalyst]] attiva, il livello della licenza viene mostrato qui.
+Visualizza lo stato della tua licenza Catalyst. Se possiedi una [[Licenza Catalyst|licenza Catalyst]] attiva, il livello della licenza viene mostrato qui.
 
 **Licenza commerciale**
 
-Se supporti [Obsidian per il lavoro](<https://obsidian.md/it/blog/free-for-work/>), seleziona **Attiva** per inserire una chiave di licenza commerciale, oppure seleziona **[Acquista](https://obsidian.md/it/account/commercial)** per comprare una licenza. Seleziona **[[Commercial license|Scopri di più]]** per informazioni sulle licenze commerciali.
+Se supporti [Obsidian per il lavoro](<https://obsidian.md/it/blog/free-for-work/>), seleziona **Attiva** per inserire una chiave di licenza commerciale, oppure seleziona **[Acquista](https://obsidian.md/it/account/commercial)** per comprare una licenza. Seleziona **[[Licenza commerciale|Scopri di più]]** per informazioni sulle licenze commerciali.
 
 ### Avanzate
 
 #### Notifica se l'avvio richiede più tempo del previsto
 
-Quando abilitato, Obsidian visualizza una notifica se l'avvio è insolitamente lento. La notifica include informazioni diagnostiche sulla causa del ritardo. Seleziona l'icona del timer ![[lucide-timer.svg#icon]] accanto a questa impostazione per [[Help and support#Controllare il tempo di avvio|controllare il tempo di avvio]].
+Quando abilitato, Obsidian visualizza una notifica se l'avvio è insolitamente lento. La notifica include informazioni diagnostiche sulla causa del ritardo. Seleziona l'icona del timer ![[lucide-timer.svg#icon]] accanto a questa impostazione per [[Aiuto e supporto#Controllare il tempo di avvio|controllare il tempo di avvio]].
 
 ## Editor
 
@@ -85,15 +85,15 @@ Quando apri un collegamento in una nuova scheda, passa subito alla nuova scheda.
 
 ### Visualizzazione predefinita per le nuove schede
 
-La visualizzazione predefinita con cui viene aperta una nuova scheda di file Markdown. Scegli tra [[Views and editing mode#Vista lettura|Vista lettura]] o [[Views and editing mode#Modifica|Modifica]].
+La visualizzazione predefinita con cui viene aperta una nuova scheda di file Markdown. Scegli tra [[Viste e modalità di modifica#Vista lettura|Vista lettura]] o [[Viste e modalità di modifica#Modifica|Modifica]].
 
 ### Modalità di modifica predefinita
 
-La modalità di modifica predefinita con cui aprire una nuova scheda. Scegli tra [[Views and editing mode#Anteprima dal vivo|Anteprima dal vivo]] o [[Views and editing mode#Modalità sorgente|Modalità sorgente]].
+La modalità di modifica predefinita con cui aprire una nuova scheda. Scegli tra [[Viste e modalità di modifica#Anteprima dal vivo|Anteprima dal vivo]] o [[Viste e modalità di modifica#Modalità sorgente|Modalità sorgente]].
 
 ### Stato dell'editor
 
-Mostra il selettore della modalità di modifica nella [[Status bar|barra di stato]].
+Mostra il selettore della modalità di modifica nella [[Barra di stato|barra di stato]].
 
 ### Aspetto
 
@@ -103,19 +103,19 @@ Limita la lunghezza massima delle righe. Mostra meno contenuti sullo schermo ma 
 
 #### Non mostrare interruzioni di riga singole
 
-Le specifiche Markdown ignorano le [[Basic formatting syntax#Interruzioni di riga|interruzioni di riga]] singole nella vista lettura. Disattiva questa opzione per rendere visibili le interruzioni di riga singole.
+Le specifiche Markdown ignorano le [[Sintassi di formattazione di base#Interruzioni di riga|interruzioni di riga]] singole nella vista lettura. Disattiva questa opzione per rendere visibili le interruzioni di riga singole.
 
 #### Proprietà nel documento
 
-Scegli come vengono visualizzate le [[Properties|proprietà]] nella parte superiore delle note. Seleziona **Codice** per mostrare le proprietà come YAML grezzo.
+Scegli come vengono visualizzate le [[Proprietà|proprietà]] nella parte superiore delle note. Seleziona **Codice** per mostrare le proprietà come YAML grezzo.
 
 #### Comprimi intestazioni
 
-[[Folding|Comprimi]] tutto il contenuto sotto un'intestazione selezionando l'icona di compressione accanto ad essa.
+[[Comprimi/espandi|Comprimi]] tutto il contenuto sotto un'intestazione selezionando l'icona di compressione accanto ad essa.
 
 ### Comprimi indentazioni
 
-[[Folding|Comprimi]] parte di un'indentazione, come gli elenchi, selezionando l'icona di compressione.
+[[Comprimi/espandi|Comprimi]] parte di un'indentazione, come gli elenchi, selezionando l'icona di compressione.
 
 #### Numeri di riga
 
@@ -191,7 +191,7 @@ Indica dove inserire le note appena create. Le opzioni includono:
 
 ### Posizione predefinita dei nuovi allegati
 
-Dove vengono inseriti i nuovi [[Attachments|allegati]]. Le opzioni includono:
+Dove vengono inseriti i nuovi [[Allegati|allegati]]. Le opzioni includono:
 
 - **Cartella principale del vault** — Gli allegati vengono inseriti nella radice della cassaforte.
 - **Cartella personalizzata** — Gli allegati vengono inseriti in una cartella specifica a tua scelta.
@@ -202,7 +202,7 @@ Dove vengono inseriti i nuovi [[Attachments|allegati]]. Le opzioni includono:
 
 #### Formato dei nuovi collegamenti
 
-Quale formato di collegamento inserire durante la generazione automatica dei [[Internal links|collegamenti interni]]. Le opzioni includono:
+Quale formato di collegamento inserire durante la generazione automatica dei [[Collegamenti interni|collegamenti interni]]. Le opzioni includono:
 
 - **Percorso più breve** — Usa il percorso univoco più breve verso il file collegato.
 - **Percorso relativo al file** — Usa un percorso relativo al file corrente.
@@ -238,11 +238,11 @@ Indica cosa fare con i file dopo averli eliminati. Le opzioni includono:
 
 #### File esclusi
 
-I file esclusi vengono nascosti in [[Search|Cerca]], [[Graph View|vista grafo]] e Menzioni scollegate ([[Backlinks|Riferimenti]] e [[Outgoing links|Collegamenti in uscita]]), e sono meno visibili nel [[Quick Switcher |selettore rapido]] e nei suggerimenti dei collegamenti. Seleziona **Gestisci** per configurare i file esclusi.
+I file esclusi vengono nascosti in [[Cerca|Cerca]], [[Vista grafo|vista grafo]] e Menzioni scollegate ([[Riferimenti|Riferimenti]] e [[Collegamenti in uscita|Collegamenti in uscita]]), e sono meno visibili nel [[Selezione rapida|selettore rapido]] e nei suggerimenti dei collegamenti. Seleziona **Gestisci** per configurare i file esclusi.
 
 #### Cambia cartella di configurazione
 
-Usa una [[Configuration folder|cartella di configurazione]] diversa da quella predefinita. Deve iniziare con un punto.
+Usa una [[Cartella di configurazione|cartella di configurazione]] diversa da quella predefinita. Deve iniziare con un punto.
 
 #### Abilita callback URI
 
@@ -250,7 +250,7 @@ Abilita l'uso di x-callback-url tramite x-success o x-error durante la gestione 
 
 #### Ricostruisci cache del vault
 
-Ricostruisce la [[How Obsidian stores data#Cache dei metadati|cache dei metadati]] della cassaforte. La ricostruzione della cache potrebbe richiedere da pochi secondi a qualche minuto a seconda della dimensione della cassaforte. Seleziona **Ricostruisci** per avviare il processo.
+Ricostruisce la [[Come Obsidian archivia i dati#Cache dei metadati|cache dei metadati]] della cassaforte. La ricostruzione della cache potrebbe richiedere da pochi secondi a qualche minuto a seconda della dimensione della cassaforte. Seleziona **Ricostruisci** per avviare il processo.
 
 ## Aspetto
 
@@ -270,7 +270,7 @@ Scegli un colore d'accento da utilizzare nell'app. Seleziona il selettore di col
 
 ### Temi
 
-Gestisci i [[Themes|temi]] installati e sfoglia i temi della community. Seleziona **Gestisci** per visualizzare e installare temi. Il menu a tendina mostra il tema attualmente attivo. L'icona della cartella ![[lucide-folder-open.svg#icon]] apre la cartella dei temi nella [[Configuration folder|cartella di configurazione]].
+Gestisci i [[Temi|temi]] installati e sfoglia i temi della community. Seleziona **Gestisci** per visualizzare e installare temi. Il menu a tendina mostra il tema attualmente attivo. L'icona della cartella ![[lucide-folder-open.svg#icon]] apre la cartella dei temi nella [[Cartella di configurazione|cartella di configurazione]].
 
 ### Temi della comunità installati
 
@@ -310,14 +310,14 @@ Visualizza intestazione nella parte superiore di ogni scheda.
 
 #### Mostra barra multifunzione
 
-Visualizza la barra degli strumenti verticale sul lato della finestra. Scopri di più sulla [[Ribbon|barra degli strumenti]].
+Visualizza la barra degli strumenti verticale sul lato della finestra. Scopri di più sulla [[Barra multifunzione|barra degli strumenti]].
 
 #### Configurazione barra multifunzione
 
 Configura i pulsanti visualizzati nella barra laterale primaria. Seleziona **Gestisci** per personalizzare.
 
 > [!info]+ Configurazione barra multifunzione su mobile
-> Su mobile, la personalizzazione della barra multifunzione funziona in modo diverso. Consulta [[Ribbon#Mobile|Personalizzazione della barra multifunzione su mobile]] per i dettagli.
+> Su mobile, la personalizzazione della barra multifunzione funziona in modo diverso. Consulta [[Barra multifunzione#Mobile|Personalizzazione della barra multifunzione su mobile]] per i dettagli.
 
 ### Avanzate
 
@@ -339,14 +339,14 @@ Seleziona lo stile della cornice delle finestre di Obsidian. Riavviare l'app per
 
 #### Icona dell'app personalizzata
 
-Imposta icona personalizzata per l'applicazione. Seleziona **Scegli** per selezionare un file icona (`.icns`, `.ico`, `.png` o `.svg`). Scopri di più sulle [[Appearance#Icona dell'app personalizzata|icone personalizzate dell'app]].
+Imposta icona personalizzata per l'applicazione. Seleziona **Scegli** per selezionare un file icona (`.icns`, `.ico`, `.png` o `.svg`). Scopri di più sulle [[Aspetto#Icona dell'app personalizzata|icone personalizzate dell'app]].
 
 #### Finestra Traslucida
 
 Attiva l'effetto di traslucenza per aumentare il senso di profondità. Rende meglio in modalità scura. Non supportato su Linux.
 
 > [!info]+ Solo macOS
-> Questa funzionalità è progettata principalmente per macOS. Scopri di più sulla [[Appearance#Trasparenza|traslucenza]].
+> Questa funzionalità è progettata principalmente per macOS. Scopri di più sulla [[Aspetto#Trasparenza|traslucenza]].
 
 #### Accelerazione hardware
 
@@ -354,29 +354,29 @@ Attiva l'accelerazione hardware. Utilizza la tua GPU per rendere Obsidian più f
 
 ### Snippet CSS
 
-Gestisci e visualizza gli [[CSS snippets|snippet CSS]] memorizzati nella cassaforte. Gli snippet CSS sono memorizzati in `/vault/.obsidian/snippets/`. Seleziona l'icona di aggiornamento per ricaricare gli snippet, o l'icona della cartella ![[lucide-folder-open.svg#icon]] per aprire la cartella degli snippet.
+Gestisci e visualizza gli [[Snippet CSS|snippet CSS]] memorizzati nella cassaforte. Gli snippet CSS sono memorizzati in `/vault/.obsidian/snippets/`. Seleziona l'icona di aggiornamento per ricaricare gli snippet, o l'icona della cartella ![[lucide-folder-open.svg#icon]] per aprire la cartella degli snippet.
 
 ## Scorciatoie da tastiera
 
-La pagina [[Hotkeys|Scorciatoie da tastiera]] permette di visualizzare, impostare e personalizzare le [[Editing shortcuts|scorciatoie da tastiera]] per i comandi in Obsidian.
+La pagina [[Tasti di scelta rapida|Scorciatoie da tastiera]] permette di visualizzare, impostare e personalizzare le [[Scorciatoie di modifica|scorciatoie da tastiera]] per i comandi in Obsidian.
 
 Usa la barra di ricerca per filtrare i comandi e seleziona l'icona del filtro per mostrare solo i comandi con scorciatoie assegnate. Per aggiungere una scorciatoia, seleziona l'icona più (+) accanto a un comando. Per rimuovere una scorciatoia, seleziona l'icona X accanto alla combinazione di tasti.
 
 ## Plugin principali
 
-I [[Core plugins|plugin principali]] sono plugin integrati forniti con Obsidian. Ogni plugin aggiunge funzionalità specifiche all'app.
+I [[Plugin principali|plugin principali]] sono plugin integrati forniti con Obsidian. Ogni plugin aggiunge funzionalità specifiche all'app.
 
-Per abilitare o disabilitare un plugin principale, seleziona l'interruttore accanto al nome del plugin. Seleziona l'icona più ![[lucide-plus-circle.svg#icon]] per visualizzare le [[Hotkeys|scorciatoie da tastiera]] del plugin. Seleziona l'icona delle impostazioni ![[lucide-settings.svg#icon]] per aprire la pagina delle impostazioni del plugin.
+Per abilitare o disabilitare un plugin principale, seleziona l'interruttore accanto al nome del plugin. Seleziona l'icona più ![[lucide-plus-circle.svg#icon]] per visualizzare le [[Tasti di scelta rapida|scorciatoie da tastiera]] del plugin. Seleziona l'icona delle impostazioni ![[lucide-settings.svg#icon]] per aprire la pagina delle impostazioni del plugin.
 
 Usa la barra di ricerca per filtrare i plugin per nome.
 
 ## Plugin della community
 
-I [[Community plugins|plugin della community]] sono plugin di terze parti creati dalla community di Obsidian. Sfoglia e installa plugin selezionando **Sfoglia**.
+I [[Plugin della comunità|plugin della community]] sono plugin di terze parti creati dalla community di Obsidian. Sfoglia e installa plugin selezionando **Sfoglia**.
 
 ### Modalità con restrizioni
 
-La [[Plugin security#Modalità con restrizioni|modalità con restrizioni]] disabilita tutti i plugin della community per sicurezza. Seleziona **Attiva** per abilitare la modalità con restrizioni.
+La [[Sicurezza dei plugin#Modalità con restrizioni|modalità con restrizioni]] disabilita tutti i plugin della community per sicurezza. Seleziona **Attiva** per abilitare la modalità con restrizioni.
 
 ### Plugin installati
 

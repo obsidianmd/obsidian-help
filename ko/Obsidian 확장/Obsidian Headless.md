@@ -49,3 +49,4 @@ ob logout
 ## 서비스
 
 - [[헤드리스 Sync]]: 데스크톱 앱 없이 명령줄에서 [[Obsidian Sync 소개|Obsidian Sync]]를 사용해요.
+- [[Headless Publish]]: 데스크톱 앱 없이 명령줄에서 [[Obsidian Publish 소개|Obsidian Publish]]를 사용해요.

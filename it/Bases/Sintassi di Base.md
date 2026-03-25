@@ -6,9 +6,9 @@ description: Questa pagina fornisce un'introduzione alla sintassi di Base in Obs
 aliases:
   - Bases syntax
 ---
-Quando [[Create a base|crei una base]] in Obsidian, viene salvata come file `.base`. Le basi vengono tipicamente modificate utilizzando l'interfaccia dell'app, ma la sintassi può anche essere modificata manualmente e incorporata in un blocco di codice.
+Quando [[Crea una base|crei una base]] in Obsidian, viene salvata come file `.base`. Le basi vengono tipicamente modificate utilizzando l'interfaccia dell'app, ma la sintassi può anche essere modificata manualmente e incorporata in un blocco di codice.
 
-La sintassi delle [[Introduction to Bases|Base]] definisce [[Views|Viste]], filtri e [[formulas|formule]]. Le basi devono essere YAML valido conforme allo schema definito di seguito.
+La sintassi delle [[Introduzione a Base|Base]] definisce [[Viste|Viste]], filtri e [[Formule|formule]]. Le basi devono essere YAML valido conforme allo schema definito di seguito.
 
 ## Esempio
 
@@ -85,13 +85,13 @@ Queste due sezioni sono funzionalmente equivalenti e quando vengono valutate per
 La sezione `filters` contiene una singola istruzione di filtro come stringa, oppure un oggetto filtro definito ricorsivamente. Gli oggetti filtro possono contenere uno tra `and`, `or` o `not`. Queste chiavi sono un elenco eterogeneo di altri oggetti filtro o istruzioni di filtro sotto forma di stringhe. Un'istruzione di filtro è una riga che restituisce un valore vero o falso quando applicata a una nota. Può essere una delle seguenti:
 
 - Un confronto di base che utilizza operatori aritmetici standard.
-- Una funzione. Diverse [[Functions|Funzioni]] sono integrate, e i plugin possono aggiungere funzioni aggiuntive.
+- Una funzione. Diverse [[Funzioni|Funzioni]] sono integrate, e i plugin possono aggiungere funzioni aggiuntive.
 
 La sintassi e le funzioni disponibili per filtri e formule sono le stesse.
 
 ### Formule
 
-La sezione `formulas` definisce le [[Formulas|proprietà formula]] che possono essere visualizzate in tutte le viste del file base.
+La sezione `formulas` definisce le [[Formule|proprietà formula]] che possono essere visualizzate in tutte le viste del file base.
 
 ```yaml
 formulas:
@@ -99,7 +99,7 @@ formulas:
   ppu: "(price / age).toFixed(2)"
 ```
 
-Le proprietà formula supportano operatori aritmetici di base e una varietà di [[Functions|Funzioni]] integrate. In futuro, i plugin potranno aggiungere funzioni da utilizzare nelle formule.
+Le proprietà formula supportano operatori aritmetici di base e una varietà di [[Funzioni|Funzioni]] integrate. In futuro, i plugin potranno aggiungere funzioni da utilizzare nelle formule.
 
 Puoi fare riferimento alle proprietà in modi diversi a seconda del loro tipo:
 
@@ -199,7 +199,7 @@ views:
 - `groupBy` specifica una proprietà e una direzione di ordinamento. Il valore della proprietà specificata per ogni riga viene utilizzato per inserire la riga in gruppi.
 - `summaries` mappa i nomi delle proprietà a un riepilogo con nome. I riepiloghi eseguono un'aggregazione sulla proprietà in tutte le righe.
 
-Le [[Views|Viste]] possono aggiungere dati aggiuntivi per memorizzare qualsiasi informazione necessaria a mantenere lo stato o a visualizzare correttamente, tuttavia gli autori di plugin dovrebbero fare attenzione a non utilizzare chiavi già in uso dal plugin principale Base. Ad esempio, una vista tabella può utilizzare questo per limitare il numero di righe o per selezionare quale colonna viene utilizzata per ordinare le righe e in quale direzione. Un tipo di vista diverso come una mappa potrebbe utilizzare questo per mappare quale proprietà nella nota corrisponde a latitudine e longitudine e quale proprietà dovrebbe essere visualizzata come titolo del segnaposto.
+Le [[Viste|Viste]] possono aggiungere dati aggiuntivi per memorizzare qualsiasi informazione necessaria a mantenere lo stato o a visualizzare correttamente, tuttavia gli autori di plugin dovrebbero fare attenzione a non utilizzare chiavi già in uso dal plugin principale Base. Ad esempio, una vista tabella può utilizzare questo per limitare il numero di righe o per selezionare quale colonna viene utilizzata per ordinare le righe e in quale direzione. Un tipo di vista diverso come una mappa potrebbe utilizzare questo per mappare quale proprietà nella nota corrisponde a latitudine e longitudine e quale proprietà dovrebbe essere visualizzata come titolo del segnaposto.
 
 In futuro, le API consentiranno alle viste di leggere e scrivere questi valori, permettendo alla vista di costruire la propria interfaccia per la configurazione.
 
@@ -213,11 +213,11 @@ Ci sono tre tipi di proprietà utilizzate nelle basi:
 
 ### Proprietà della nota
 
-Le [[Properties|proprietà della nota]] sono disponibili solo per i file Markdown e sono memorizzate nei metadati iniziali YAML di ogni nota. Queste proprietà possono essere accessibili utilizzando il formato `note.author` o semplicemente `author` come abbreviazione.
+Le [[Proprietà|proprietà della nota]] sono disponibili solo per i file Markdown e sono memorizzate nei metadati iniziali YAML di ogni nota. Queste proprietà possono essere accessibili utilizzando il formato `note.author` o semplicemente `author` come abbreviazione.
 
 ### Proprietà del file
 
-Le proprietà del file si riferiscono al file attualmente in fase di test o valutazione. Le proprietà del file sono disponibili per tutti i [[Accepted file formats|tipi di file]], inclusi gli allegati.
+Le proprietà del file si riferiscono al file attualmente in fase di test o valutazione. Le proprietà del file sono disponibili per tutti i [[Formati di file accettati|tipi di file]], inclusi gli allegati.
 
 Ad esempio, un filtro `file.ext == "md"` sarà vero per tutti i file Markdown e falso altrimenti.
 
@@ -278,7 +278,7 @@ Le date possono essere modificate aggiungendo e sottraendo durate. Le unità di 
 
 Per modificare o spostare oggetti Date, usa l'operatore `+` o `-` con una stringa di durata. Ad esempio, `date + "1M"` aggiunge 1 mese alla data, mentre `date - "2h"` sottrae 2 ore dalla data.
 
-La [[Functions|funzione]] globale `today()` può essere utilizzata per ottenere la data corrente, e `now()` può essere utilizzata per ottenere la data corrente con l'ora.
+La [[Funzioni|funzione]] globale `today()` può essere utilizzata per ottenere la data corrente, e `now()` può essere utilizzata per ottenere la data corrente con l'ora.
 
 - `now() + "1 day"` restituisce un datetime esattamente 24 ore dal momento dell'esecuzione.
 - `file.mtime > now() - "1 week"` restituisce `true` se il file è stato modificato nell'ultima settimana.
@@ -312,7 +312,7 @@ Gli operatori booleani possono essere utilizzati per combinare o invertire valor
 
 ## Funzioni
 
-Consulta l'[[Functions|elenco delle funzioni]] che possono essere utilizzate nelle formule e nei [[Views|filtri]].
+Consulta l'[[Funzioni|elenco delle funzioni]] che possono essere utilizzate nelle formule e nei [[Viste|filtri]].
 
 ## Tipi
 
@@ -328,13 +328,13 @@ Stringhe, numeri e booleani sono valori "primitivi" che non richiedono una funzi
 
 ### Date e durate
 
-Le date rappresentano una data specifica, o una data e un'ora a seconda della funzione utilizzata per crearle, o del tipo che è stato assegnato alla [[Properties|proprietà]].
+Le date rappresentano una data specifica, o una data e un'ora a seconda della funzione utilizzata per crearle, o del tipo che è stato assegnato alla [[Proprietà|proprietà]].
 
 - Per costruire una data, usa la funzione `date`, ad esempio `date("2025-01-01 12:00:00")`
 - Per modificare una data, aggiungi o rimuovi una durata, ad esempio `now() + "1 hour"` o `today() + "7d"`
 - Confronta le date usando operatori di confronto (ad esempio `>` o `<`) e operatori aritmetici (ad esempio, `(now() + "1d") - now()` restituisce `86400000` millisecondi.)
 - Per estrarre porzioni di una data, usa i campi disponibili (`now().hour`), o una funzione di comodo (`now.time()`).
-- Molti altri [[Functions|campi e funzioni]] sono disponibili sugli oggetti data.
+- Molti altri [[Funzioni|campi e funzioni]] sono disponibili sugli oggetti data.
 
 ### Oggetti ed elenchi
 
@@ -344,9 +344,9 @@ Le date rappresentano una data specifica, o una data e un'ora a seconda della fu
 
 ### File e collegamenti
 
-I [[Link notes|collegamenti wiki]] nelle [[Properties|proprietà dei metadati iniziali]] vengono automaticamente riconosciuti come oggetti Link. I collegamenti verranno visualizzati come collegamento cliccabile nella [[Views|vista]].
+I [[Collega le note|collegamenti wiki]] nelle [[Proprietà|proprietà dei metadati iniziali]] vengono automaticamente riconosciuti come oggetti Link. I collegamenti verranno visualizzati come collegamento cliccabile nella [[Viste|vista]].
 
-- Per costruire un collegamento, usa la [[Functions|funzione]] globale `link`, ad esempio `link("filename")` o `link("https://obsidian.md")`.
+- Per costruire un collegamento, usa la [[Funzioni|funzione]] globale `link`, ad esempio `link("filename")` o `link("https://obsidian.md")`.
 - Puoi creare un collegamento da qualsiasi stringa, ad esempio `link(file.ctime.date().toString())`.
 - Per impostare il testo visualizzato, passa una stringa opzionale o un'icona come secondo parametro, ad esempio `link("filename", "display")` o `link("filename", icon("plus"))`.
 

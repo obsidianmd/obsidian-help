@@ -4,7 +4,7 @@ publish: true
 mobile: true
 description: Scopri le barre laterali sinistra e destra di Obsidian e come gestire schede e gruppi di schede.
 ---
-Obsidian ha due barre laterali: una barra laterale sinistra e una barra laterale destra. Le barre laterali contengono schede create dai plugin, come [[Backlinks]], [[Outgoing links]] e l'[[Esplora file]]. Su desktop, è anche possibile trascinare le note nella barra laterale per mantenerle visibili accanto all'editor principale.
+Obsidian ha due barre laterali: una barra laterale sinistra e una barra laterale destra. Le barre laterali contengono schede create dai plugin, come [[Riferimenti]], [[Collegamenti in uscita]] e l'[[Esplora file]]. Su desktop, è anche possibile trascinare le note nella barra laterale per mantenerle visibili accanto all'editor principale.
 
 Su desktop e tablet più grandi, la barra laterale sinistra include la [[Barra multifunzione]]. Su mobile e tablet più piccoli, le barre laterali sono [[#Aprire le barre laterali nascoste|compresse per impostazione predefinita]].
 
@@ -59,7 +59,7 @@ Per appuntare o sbloccare una scheda nella barra laterale, trascinare la scheda 
 Il comportamento di una scheda appuntata nella barra laterale dipende dal tipo di contenuto:
 
 - **Note e Base**: Una nota o scheda base appuntata rimane al suo posto. Le nuove note si aprono come schede separate nell'editor principale invece di sostituire la scheda appuntata.
-- **Pannelli** (come [[Backlinks]] o [[Outgoing links]]): Un pannello appuntato rimane focalizzato sull'ultima nota selezionata. Selezionare una nota diversa non aggiorna il pannello appuntato.
+- **Pannelli** (come [[Riferimenti]] o [[Collegamenti in uscita]]): Un pannello appuntato rimane focalizzato sull'ultima nota selezionata. Selezionare una nota diversa non aggiorna il pannello appuntato.
 
 Per informazioni sull'appuntare schede nell'editor principale, consultare [[Schede#Appuntare una scheda|Appuntare una scheda]].
 

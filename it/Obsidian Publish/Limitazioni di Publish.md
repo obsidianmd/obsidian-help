@@ -7,7 +7,7 @@ aliases:
 
 ## Plugin della community
 
-Obsidian Publish offre un supporto minimo per i [[Community plugins|Plugin della comunità]].
+Obsidian Publish offre un supporto minimo per i [[Plugin della comunità|Plugin della comunità]].
 
 I plugin che producono output in Markdown grezzo, come il plugin Waypoint, sono compatibili con Publish perché non richiedono l'app per visualizzare i loro dati.
 
@@ -17,11 +17,11 @@ Invece, un plugin che richiede un blocco di codice specifico per la visualizzazi
 
 Publish offre una personalizzazione basilare dei colori per la sua vista grafo tramite CSS. Puoi modificare i colori dei nodi nel tuo file `publish.css` utilizzando le [variabili CSS della Vista Grafo](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
 
-Nota che il grafo pubblicato non supporta le opzioni complete di ordinamento e visualizzazione disponibili nella [[Graph view|vista grafo]] dell'app.
+Nota che il grafo pubblicato non supporta le opzioni complete di ordinamento e visualizzazione disponibili nella [[Vista grafo|vista grafo]] dell'app.
 
 ## File multimediali
 
-Obsidian Publish non è ottimizzato per lo streaming video o per file audio di grandi dimensioni. Includiamo alcune buone pratiche per la gestione dei tuoi [[Media files|file multimediali]] in questa documentazione.
+Obsidian Publish non è ottimizzato per lo streaming video o per file audio di grandi dimensioni. Includiamo alcune buone pratiche per la gestione dei tuoi [[File multimediali|file multimediali]] in questa documentazione.
 
 Per migliorare l'esperienza dei tuoi visitatori, ti consigliamo di utilizzare invece un servizio di hosting video, come YouTube o Vimeo.
 
@@ -45,4 +45,4 @@ Dopo aver cercato corrispondenze nei campi sopra indicati, la ricerca includerà
 
 Per migliorare la ricercabilità del tuo sito pubblicato, si consiglia di utilizzare nomi di file descrittivi, incorporare più alias e selezionare nomi di intestazione che riflettano accuratamente il contenuto.
 
-Inoltre, Publish attualmente non supporta la funzionalità dei [[Search#Incorporare i risultati di ricerca in una nota|risultati di ricerca incorporati]] dell'app.
+Inoltre, Publish attualmente non supporta la funzionalità dei [[Cerca#Incorporare i risultati di ricerca in una nota|risultati di ricerca incorporati]] dell'app.

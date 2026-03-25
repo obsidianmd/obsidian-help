@@ -58,7 +58,7 @@ Quando aggiungi un segnalibro a un elemento, **Aggiungi segnalibro** diventa **M
 >
 > **Cerca**:
 >
-> 1. Inserisci un [[Search#Termini di ricerca|termine di ricerca]].
+> 1. Inserisci un [[Cerca#Termini di ricerca|termine di ricerca]].
 > 2. Sotto il campo di ricerca, seleziona l'icona dei tre puntini accanto al numero di risultati.
 > 3. Seleziona **Aggiungi segnalibro**.
 

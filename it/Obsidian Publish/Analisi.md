@@ -5,7 +5,7 @@ aliases:
 ---
 ## Prerequisiti
 
-Per utilizzare le analisi sul tuo sito [[Introduction to Obsidian Publish|Obsidian Publish]], è necessario un [[Custom domains|dominio personalizzato]].
+Per utilizzare le analisi sul tuo sito [[Introduzione a Obsidian Publish|Obsidian Publish]], è necessario un [[Domini personalizzati|dominio personalizzato]].
 
 > [!important] Importante
 > Prima di abilitare le analisi, assicurati che le leggi e i regolamenti locali ti consentano di tracciare i visitatori. A seconda degli strumenti che utilizzi, potrebbe essere necessario aggiungere un banner per il consenso al tuo sito.
@@ -22,7 +22,7 @@ Per utilizzare Google Tag Manager al posto di Google Analytics, usa JavaScript p
 
 ## Plausible, Fathom e altri servizi di analisi
 
-Puoi aggiungere la maggior parte dei servizi di analisi al tuo sito tramite il file [[Customize your site|publish.js]]. Assicurati di sostituire `yourdomain.com` con il tuo dominio e lo `src` dello script con lo script del tuo fornitore di analisi.
+Puoi aggiungere la maggior parte dei servizi di analisi al tuo sito tramite il file [[Personalizzare il sito|publish.js]]. Assicurati di sostituire `yourdomain.com` con il tuo dominio e lo `src` dello script con lo script del tuo fornitore di analisi.
 
 Ecco un esempio utilizzando [Plausible Analytics](https://plausible.io/)
 

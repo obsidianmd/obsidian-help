@@ -3,13 +3,13 @@ permalink: bases/views/list
 aliases:
   - List view
 ---
-Elenco è un tipo di [[Views|vista]] che puoi utilizzare in [[Introduction to Bases|Base]].
+Elenco è un tipo di [[Viste|vista]] che puoi utilizzare in [[Introduzione a Base|Base]].
 
-Seleziona ![[lucide-list.svg#icon]]  **Elenco** dal menu delle viste per visualizzare i file come un [[Basic formatting syntax#Elenchi|elenco]] con marcatori a punti elenco o numerati.
+Seleziona ![[lucide-list.svg#icon]]  **Elenco** dal menu delle viste per visualizzare i file come un [[Sintassi di formattazione di base#Elenchi|elenco]] con marcatori a punti elenco o numerati.
 
 ## Impostazioni
 
-Le impostazioni della vista elenco possono essere configurate nelle [[Views#Impostazioni della vista|Impostazioni della vista]].
+Le impostazioni della vista elenco possono essere configurate nelle [[Viste#Impostazioni della vista|Impostazioni della vista]].
 
 - Marcatori: punti elenco, numero o nessuno
 - Rientra proprietà

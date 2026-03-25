@@ -53,4 +53,4 @@ Gli Insider possono chattare con il team di Obsidian e altri Insider nei nostri 
 
 ### Abilitare le versioni ad accesso anticipato
 
-Scopri come ricevere le [[Early access versions|versioni ad accesso anticipato]].
+Scopri come ricevere le [[Versioni ad accesso anticipato|versioni ad accesso anticipato]].

@@ -8,7 +8,7 @@ description: Questa pagina descrive le differenze tra cassaforti locali e remote
 aliases:
   - Local and remote vaults
 ---
-Se vuoi utilizzare le tue note su diversi dispositivi, una delle opzioni a disposizione è [[Sync your notes across devices|Sincronizzare le note tra dispositivi]]. Obsidian offre un servizio di questo tipo, [[Introduction to Obsidian Sync|Obsidian Sync]], che funziona in modo diverso rispetto ad altri servizi di sincronizzazione, come [[Sync your notes across devices#iCloud|iCloud]] e [[Sync your notes across devices#OneDrive|OneDrive]].
+Se vuoi utilizzare le tue note su diversi dispositivi, una delle opzioni a disposizione è [[Sincronizza le note tra dispositivi|Sincronizzare le note tra dispositivi]]. Obsidian offre un servizio di questo tipo, [[Introduzione a Obsidian Sync|Obsidian Sync]], che funziona in modo diverso rispetto ad altri servizi di sincronizzazione, come [[Sincronizza le note tra dispositivi#iCloud|iCloud]] e [[Sincronizza le note tra dispositivi#OneDrive|OneDrive]].
 
 Ecco alcuni termini chiave:
 
@@ -56,9 +56,9 @@ Se il servizio cloud dispone di sincronizzazione in background, alcuni di questi
 
 ## Obsidian Sync
 
-Obsidian Sync consente di creare un caveau remoto che funge da archiviazione centralizzata tramite il servizio [[Introduction to Obsidian Sync|Obsidian Sync]]. Questo permette di scegliere quasi qualsiasi cartella su qualsiasi dispositivo per archiviare i propri file, che sia su un disco rigido esterno, in `C:\` o nell'archiviazione dell'app su Android.
+Obsidian Sync consente di creare un caveau remoto che funge da archiviazione centralizzata tramite il servizio [[Introduzione a Obsidian Sync|Obsidian Sync]]. Questo permette di scegliere quasi qualsiasi cartella su qualsiasi dispositivo per archiviare i propri file, che sia su un disco rigido esterno, in `C:\` o nell'archiviazione dell'app su Android.
 
-Tuttavia, abbiamo un elenco di posizioni consigliate per la cassaforte locale se si utilizzano anche [[#Servizi di sincronizzazione basati su file]] sullo stesso dispositivo, principalmente qualsiasi posizione che non si trovi in un [[Switch to Obsidian Sync#Spostare la cassaforte fuori dal servizio di sincronizzazione di terze parti o dall'archiviazione cloud|servizio di sincronizzazione di terze parti]].
+Tuttavia, abbiamo un elenco di posizioni consigliate per la cassaforte locale se si utilizzano anche [[#Servizi di sincronizzazione basati su file]] sullo stesso dispositivo, principalmente qualsiasi posizione che non si trovi in un [[Passare a Obsidian Sync#Spostare la cassaforte fuori dal servizio di sincronizzazione di terze parti o dall'archiviazione cloud|servizio di sincronizzazione di terze parti]].
 
 Il diagramma seguente mostra una versione semplificata di come funziona Obsidian Sync:
 
@@ -88,7 +88,7 @@ graph TD
 
 La forza di questo sistema diventa più evidente con un maggior numero di tipi di dispositivi. I [[#Servizi di sincronizzazione basati su file]] possono essere implementati in modo inconsistente tra i sistemi operativi, e i dispositivi mobile hanno le proprie regole riguardo al sandboxing delle applicazioni e alla limitazione dell'energia, il che rende molto più difficile per i servizi tradizionali basati su file funzionare in modo fluido.
 
-Con Obsidian Sync, il servizio gestisce la sincronizzazione direttamente attraverso l'applicazione, fornendo un comportamento coerente indipendentemente dal tipo di dispositivo o dalle limitazioni del sistema operativo, dando al contempo priorità al mantenimento di una copia locale dei dati come [[Back up your Obsidian files|backup leggero]].
+Con Obsidian Sync, il servizio gestisce la sincronizzazione direttamente attraverso l'applicazione, fornendo un comportamento coerente indipendentemente dal tipo di dispositivo o dalle limitazioni del sistema operativo, dando al contempo priorità al mantenimento di una copia locale dei dati come [[Backup dei file di Obsidian|backup leggero]].
 
 ### Comportamento della sincronizzazione
 
@@ -96,9 +96,9 @@ Quando si apportano modifiche ai file nella cassaforte locale, Obsidian Sync ril
 
 Quando si verificano conflitti o quando è necessario controllare quali file sincronizzare, Obsidian Sync fornisce meccanismi specifici per gestire queste situazioni:
 
-![[Troubleshoot Obsidian Sync#Risoluzione dei conflitti|Risoluzione dei conflitti]]
+![[Risoluzione problemi di Obsidian Sync#Risoluzione dei conflitti|Risoluzione dei conflitti]]
 
-![[Sync settings and selective syncing#Sincronizzazione selettiva#Escludi una cartella dalla sincronizzazione]]
+![[Impostazioni sincronizzazione e sincronizzazione selettiva#Sincronizzazione selettiva#Escludi una cartella dalla sincronizzazione]]
 
 ### Comportamento offline
 
@@ -106,6 +106,6 @@ Le modifiche effettuate mentre si è offline vengono messe in coda e sincronizza
 
 ## Passaggi successivi
 
-- [[Set up Obsidian Sync|Configura Obsidian Sync]] per iniziare con i caveau remoti.
-- [[Switch to Obsidian Sync|Passa a Obsidian Sync]] se attualmente utilizzi la sincronizzazione basata su file e vuoi usare Obsidian Sync.
-- [[Sync your notes across devices|Esplora altre opzioni di sincronizzazione]] se stai ancora decidendo.
+- [[Configurare Obsidian Sync|Configura Obsidian Sync]] per iniziare con i caveau remoti.
+- [[Passare a Obsidian Sync|Passa a Obsidian Sync]] se attualmente utilizzi la sincronizzazione basata su file e vuoi usare Obsidian Sync.
+- [[Sincronizza le note tra dispositivi|Esplora altre opzioni di sincronizzazione]] se stai ancora decidendo.

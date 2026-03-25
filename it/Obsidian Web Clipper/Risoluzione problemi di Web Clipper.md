@@ -3,7 +3,7 @@ permalink: web-clipper/troubleshoot
 aliases:
   - Troubleshoot Web Clipper
 ---
-Se riscontri problemi con [[Introduction to Obsidian Web Clipper|Web Clipper]] puoi ottenere aiuto tramite il [canale Discord ufficiale](https://discord.com/channels/686053708261228577/1285652864089198672). Puoi anche segnalare bug nel [repository GitHub](https://github.com/obsidianmd/obsidian-clipper).
+Se riscontri problemi con [[Introduzione a Obsidian Web Clipper|Web Clipper]] puoi ottenere aiuto tramite il [canale Discord ufficiale](https://discord.com/channels/686053708261228577/1285652864089198672). Puoi anche segnalare bug nel [repository GitHub](https://github.com/obsidianmd/obsidian-clipper).
 
 ## Generale
 
@@ -16,14 +16,14 @@ Web Clipper utilizza [Defuddle](https://github.com/kepano/defuddle) per catturar
 Per bypassare Defuddle in Web Clipper usa i seguenti metodi:
 
 - Seleziona il testo, o usa `Cmd/Ctrl+A` per selezionare tutto il testo.
-- [[Highlight web pages|Evidenzia i contenuti]] per scegliere esattamente cosa vuoi catturare.
+- [[Evidenziare pagine web|Evidenzia i contenuti]] per scegliere esattamente cosa vuoi catturare.
 - Usa un [[Modelli|modello personalizzato]] per il sito.
 
 ### Nessun contenuto appare in Obsidian
 
 Se non vedi alcun contenuto in Obsidian quando clicchi **Aggiungi a Obsidian**:
 
-- Controlla gli errori nella [[Help and support#Catturare i log della console|console per sviluppatori]] di Obsidian.
+- Controlla gli errori nella [[Aiuto e supporto#Catturare i log della console|console per sviluppatori]] di Obsidian.
 - Verifica che il nome della cassaforte nelle impostazioni di Web Clipper corrisponda esattamente al *nome della cassaforte* in Obsidian, *non al percorso della cassaforte*.
 - Verifica che il nome della cartella sia formattato correttamente.
 
@@ -72,10 +72,10 @@ Per abilitare l'estensione Web Clipper per Safari:
 
 Per consentire a Web Clipper di funzionare su tutti i siti web:
 
-1. Vai nelle **[[Settings|Impostazioni]]** di iOS → **App** → **Safari** → **Estensioni**.
+1. Vai nelle **[[Impostazioni|Impostazioni]]** di iOS → **App** → **Safari** → **Estensioni**.
 2. Sotto **Permessi** consenti l'esecuzione su tutti i siti web.
 
 Per consentire a Obsidian di ricevere sempre i contenuti di Web Clipper:
 
-1. Vai nelle **[[Settings|Impostazioni]]** di iOS → **App** → **Obsidian**.
+1. Vai nelle **[[Impostazioni|Impostazioni]]** di iOS → **App** → **Obsidian**.
 2. Imposta **Incolla da altre app** su **Consenti**.

@@ -3,16 +3,16 @@ permalink: import/onenote
 aliases:
   - Import from Microsoft OneNote
 ---
-Obsidian ti permette di migrare facilmente le tue note da Microsoft OneNote utilizzando il [[Importer|plugin Importer]]. Questo convertirà i tuoi dati di OneNote in file Markdown durevoli, che puoi utilizzare con Obsidian e molte altre app.
+Obsidian ti permette di migrare facilmente le tue note da Microsoft OneNote utilizzando il [[Importatore|plugin Importer]]. Questo convertirà i tuoi dati di OneNote in file Markdown durevoli, che puoi utilizzare con Obsidian e molte altre app.
 
 > [!Warning]
 > Possono essere importati solo i taccuini di proprietà del tuo account personale. Le note condivise o gli account di lavoro e scolastici non sono supportati.
 
 ## Importa i tuoi dati di OneNote in Obsidian
 
-Avrai bisogno del plugin ufficiale di Obsidian [[Importer]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
+Avrai bisogno del plugin ufficiale di Obsidian [[Importatore]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
 
-1. Apri **[[Settings|Impostazioni]]**.
+1. Apri **[[Impostazioni|Impostazioni]]**.
 2. Vai su **Plugin della comunità** e [installa Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Abilita il plugin Importer.
 4. Apri il plugin **Importer** utilizzando la tavolozza dei comandi o l'icona nella barra degli strumenti.

@@ -11,7 +11,7 @@ aliases:
 Scopri come effettuare la transizione dalla tua soluzione di sincronizzazione attuale a Obsidian Sync.
 
 > [!warning] Evitare l'uso di più soluzioni per sincronizzare gli stessi file
-> [[Frequently asked questions#Posso usare un sync di terze parti con Obsidian Sync?|Non raccomandiamo]] l'uso di Obsidian Sync insieme a servizi di archiviazione cloud (ad es. iCloud, Dropbox, OneDrive, Google Drive) poiché ciò può causare conflitti. Tuttavia, i servizi di archiviazione cloud possono avere un ruolo nella tua strategia di [[Back up your Obsidian files|backup]].
+> [[Domande frequenti#Posso usare un sync di terze parti con Obsidian Sync?|Non raccomandiamo]] l'uso di Obsidian Sync insieme a servizi di archiviazione cloud (ad es. iCloud, Dropbox, OneDrive, Google Drive) poiché ciò può causare conflitti. Tuttavia, i servizi di archiviazione cloud possono avere un ruolo nella tua strategia di [[Backup dei file di Obsidian|backup]].
 
 ## Spostare la cassaforte fuori dal servizio di sincronizzazione di terze parti o dall'archiviazione cloud
 
@@ -39,7 +39,7 @@ Per evitare conflitti con i servizi di sincronizzazione, raccomandiamo di archiv
 
 ## Spostare la cassaforte usando Obsidian su desktop
 
-![[Manage vaults#Spostare la cassaforte in una cartella diversa]]
+![[Gestisci casseforti#Spostare la cassaforte in una cartella diversa]]
 
 ## Spostare la cassaforte su mobile
 
@@ -53,9 +53,9 @@ I filesystem Android variano molto da dispositivo a dispositivo, ma in generale,
 
 Per spostare una cassaforte iCloud esistente sul dispositivo, seguire questi passaggi:
 
-> [!note] Se i dati sono già presenti su un altro dispositivo ed è stato configurato Obsidian Sync, si consiglia di [[Set up Obsidian Sync#Sincronizzare un caveau remoto su un altro dispositivo|configurare una nuova cassaforte locale da Sync]].
+> [!note] Se i dati sono già presenti su un altro dispositivo ed è stato configurato Obsidian Sync, si consiglia di [[Configurare Obsidian Sync#Sincronizzare un caveau remoto su un altro dispositivo|configurare una nuova cassaforte locale da Sync]].
 
-- Eseguire il [[Back up your Obsidian files|backup]] della cassaforte.
+- Eseguire il [[Backup dei file di Obsidian|backup]] della cassaforte.
 - Creare una nuova cassaforte sul dispositivo, assicurandosi che **Salva in iCloud Drive** sia disabilitato.
 - Forzare la chiusura dell'app Obsidian su tutti i dispositivi per mettere in pausa Sync.
 - Aprire l'app **File** sul dispositivo iOS/iPadOS.
@@ -68,5 +68,5 @@ Una volta riaperto Obsidian, la cassaforte dovrebbe mostrare un'icona di cassafo
 
 ## Passaggi successivi
 
-- Vuoi iniziare con Obsidian Sync? [[Set up Obsidian Sync]]
-- Hai ancora bisogno di assistenza? Consulta [[Troubleshoot Obsidian Sync]]
+- Vuoi iniziare con Obsidian Sync? [[Configurare Obsidian Sync]]
+- Hai ancora bisogno di assistenza? Consulta [[Risoluzione problemi di Obsidian Sync]]

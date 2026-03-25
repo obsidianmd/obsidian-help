@@ -3,7 +3,7 @@ permalink: web-clipper/reader
 aliases:
   - Reader
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] include una modalità di lettura integrata chiamata Lettore che rimuove gli elementi superflui dalle pagine web, presentando solo il contenuto principale dell'articolo in un formato pulito e leggibile.
+[[Introduzione a Obsidian Web Clipper|Web Clipper]] include una modalità di lettura integrata chiamata Lettore che rimuove gli elementi superflui dalle pagine web, presentando solo il contenuto principale dell'articolo in un formato pulito e leggibile.
 
 ## Attivare la modalità di lettura
 

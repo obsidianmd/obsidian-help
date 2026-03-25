@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: Le proprietà permettono di organizzare le informazioni su una nota. Le proprietà contengono dati strutturati come testo, collegamenti, date, caselle di controllo e numeri.
+description: 'Le proprietà permettono di organizzare le informazioni su una nota. Le proprietà contengono dati strutturati come testo, collegamenti, date, caselle di controllo e numeri.'
 aliases:
   - Properties
 ---
@@ -279,15 +279,15 @@ Obsidian include un set di proprietà predefinite:
 
 ### Proprietà per Obsidian Publish
 
-Le seguenti proprietà predefinite possono essere usate con [[Introduction to Obsidian Publish|Obsidian Publish]]:
+Le seguenti proprietà predefinite possono essere usate con [[Introduzione a Obsidian Publish|Obsidian Publish]]:
 
 | Proprietà     | Descrizione                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
-| `publish`     | Vedi [[Publish your content#Automatically select data to publish\|Selezionare automaticamente i dati da pubblicare]]. |
+| `publish`     | Vedi [[Pubblicare i contenuti#Automatically select data to publish\|Selezionare automaticamente i dati da pubblicare]]. |
 | `permalink`   | Vedi [[Permalinks\|Permalink]].                                                                            |
-| `description` | Vedi [[Social media link previews#Description\|Descrizione]].                                              |
-| `image`       | Vedi [[Social media link previews#Image\|Immagine]].                                                       |
-| `cover`       | Vedi [[Social media link previews#Image\|Immagine]].                                                       |
+| `description` | Vedi [[Anteprime link per social media#Description\|Descrizione]].                                              |
+| `image`       | Vedi [[Anteprime link per social media#Image\|Immagine]].                                                       |
+| `cover`       | Vedi [[Anteprime link per social media#Image\|Immagine]].                                                       |
 
 ### Proprietà deprecate
 

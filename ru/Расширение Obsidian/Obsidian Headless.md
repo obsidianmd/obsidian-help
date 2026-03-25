@@ -50,3 +50,4 @@ ob logout
 ## Сервисы
 
 - [[Headless Sync]]: использование [[Введение в Obsidian Sync|Obsidian Sync]] из командной строки без настольного приложения.
+- [[Headless Publish]]: использование [[Введение в Obsidian Publish|Obsidian Publish]] из командной строки без настольного приложения.

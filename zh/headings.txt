@@ -1365,3 +1365,7 @@ Common HTML usage=常见 HTML 用法
 Comments=注释
 Underline=下划线
 Strikethrough=删除线
+
+[publish/headless]
+Quick start=快速开始
+Commands=命令

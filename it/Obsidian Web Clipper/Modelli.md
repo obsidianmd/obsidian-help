@@ -4,7 +4,7 @@ description: Impara a creare modelli che catturano e organizzano automaticamente
 aliases:
   - Templates
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] ti permette di creare modelli che catturano e organizzano automaticamente i metadati dalle pagine web. Modelli di esempio sono disponibili nel [repository clipper-templates](https://github.com/kepano/clipper-templates).
+[[Introduzione a Obsidian Web Clipper|Web Clipper]] ti permette di creare modelli che catturano e organizzano automaticamente i metadati dalle pagine web. Modelli di esempio sono disponibili nel [repository clipper-templates](https://github.com/kepano/clipper-templates).
 
 ## Crea o modifica un modello
 
@@ -12,13 +12,13 @@ Per **creare** un modello vai nelle impostazioni di Web Clipper e clicca il puls
 
 Per **modificare** un modello scegli un modello dalla barra laterale. Le tue modifiche verranno salvate automaticamente.
 
-I modelli utilizzano [[Variables|Variabili]] e [[Filters|Filtri]], che ti permettono di personalizzare come il contenuto verrà salvato.
+I modelli utilizzano [[Variabili|Variabili]] e [[Filtri|Filtri]], che ti permettono di personalizzare come il contenuto verrà salvato.
 
 ## Importa ed esporta modelli di Web Clipper
 
 Per importare un modello:
 
-1. Apri l'estensione e clicca l'icona ingranaggio delle **[[Settings|Impostazioni]]**.
+1. Apri l'estensione e clicca l'icona ingranaggio delle **[[Impostazioni|Impostazioni]]**.
 2. Vai a qualsiasi modello nell'elenco.
 3. Clicca **Importa** in alto a destra oppure trascina e rilascia i tuoi file `.json` del modello in qualsiasi punto dell'area del modello.
 
@@ -32,7 +32,7 @@ Definisci come il contenuto di Web Clipper verrà aggiunto a Obsidian:
 
 - **Crea una nuova nota**
 - **Aggiungi a una nota esistente**, in cima o in fondo
-- **Aggiungi alla nota quotidiana**, in cima o in fondo (richiede che il plugin [[daily notes|note del giorno]] sia attivo)
+- **Aggiungi alla nota quotidiana**, in cima o in fondo (richiede che il plugin [[Note del giorno|note del giorno]] sia attivo)
 
 ### Attivare automaticamente un modello
 
@@ -60,8 +60,8 @@ Puoi attivare modelli basandoti sui dati [schema.org](https://schema.org/) prese
 - `schema:@Recipe.name` corrisponderà alle pagine dove `@Recipe.name` è presente.
 - `schema:@Recipe.name=Cookie` corrisponderà alle pagine dove `@Recipe.name` è "Cookie".
 
-I valori schema.org possono anche essere usati per [[Variables#Variabili Schema.org|pre-popolare i dati nei modelli]].
+I valori schema.org possono anche essere usati per [[Variabili#Variabili Schema.org|pre-popolare i dati nei modelli]].
 
 ### Contesto dell'interprete
 
-Quando l'[[Interpret web pages|Interprete]] è abilitato, puoi usare le [[Variables#Variabili prompt|variabili prompt]] per estrarre il contenuto della pagina con linguaggio naturale. Per ogni modello puoi definire il [[Interpret web pages#Contesto|contesto]] a cui l'Interprete ha accesso.
+Quando l'[[Interpretare pagine web|Interprete]] è abilitato, puoi usare le [[Variabili#Variabili prompt|variabili prompt]] per estrarre il contenuto della pagina con linguaggio naturale. Per ogni modello puoi definire il [[Interpretare pagine web#Contesto|contesto]] a cui l'Interprete ha accesso.

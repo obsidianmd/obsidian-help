@@ -3,7 +3,7 @@ permalink: plugins/outline
 aliases:
   - Outline
 ---
-Struttura è un [[Core plugins|plugin principale]] che elenca le intestazioni nella nota attiva.
+Struttura è un [[Plugin principali|plugin principale]] che elenca le intestazioni nella nota attiva.
 
 Per selezionare quella sezione nella nota, fai clic sull'intestazione nella struttura.
 

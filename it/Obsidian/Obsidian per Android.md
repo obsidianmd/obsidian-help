@@ -10,7 +10,7 @@ Questa pagina tratta le funzionalità specifiche di Android, inclusi widget, int
 
 ## Sync
 
-Per sincronizzare le tue note con Obsidian su Android consulta [[Sync your notes across devices|Sincronizzare le note tra dispositivi]].
+Per sincronizzare le tue note con Obsidian su Android consulta [[Sincronizza le note tra dispositivi|Sincronizzare le note tra dispositivi]].
 
 ## Posizione del vault
 
@@ -18,7 +18,7 @@ Quando avvii Obsidian su Android, ti verrà chiesto di scegliere dove archiviare
 
 ### Archiviazione del dispositivo
 
-Con l'opzione **archiviazione del dispositivo**, i tuoi dati vengono archiviati in una posizione condivisa sul tuo dispositivo. Questo permette alla tua cassaforte Obsidian di essere accessibile da altre app e servizi, come strumenti di [[Sync your notes across devices|sync]] di terze parti.
+Con l'opzione **archiviazione del dispositivo**, i tuoi dati vengono archiviati in una posizione condivisa sul tuo dispositivo. Questo permette alla tua cassaforte Obsidian di essere accessibile da altre app e servizi, come strumenti di [[Sincronizza le note tra dispositivi|sync]] di terze parti.
 
 Questa è l'opzione consigliata perché offre una migliore compatibilità con gli strumenti di sincronizzazione e garantisce che i tuoi dati persistano anche se disinstalli l'app. Tuttavia, questa opzione richiede permessi aggiuntivi per accedere ai file del tuo dispositivo.
 
@@ -32,7 +32,7 @@ Con l'opzione **archiviazione dell'app**, i tuoi dati vengono archiviati nell'ar
 
 Questa è una buona opzione se non stai utilizzando strumenti di sincronizzazione esterni e preferisci un sandboxing più stretto a livello di app per le tue note.
 
-Con questa opzione puoi utilizzare [[Introduction to Obsidian Sync|Obsidian Sync]] e plugin di sincronizzazione di terze parti disponibili tramite i [[Community plugins|Plugin della comunità]], ma non puoi utilizzare strumenti come Syncthing che si basano sull'archiviazione condivisa.
+Con questa opzione puoi utilizzare [[Introduzione a Obsidian Sync|Obsidian Sync]] e plugin di sincronizzazione di terze parti disponibili tramite i [[Plugin della comunità|Plugin della comunità]], ma non puoi utilizzare strumenti come Syncthing che si basano sull'archiviazione condivisa.
 
 > [!warning] Disinstallare Obsidian eliminerà le tue note locali se stai utilizzando l'archiviazione dell'app
 > Se utilizzi l'opzione **Archiviazione dell'app** i dati locali della tua cassaforte verranno eliminati se disinstalli l'app. I dati della tua cassaforte Obsidian su altri dispositivi non verranno eliminati.

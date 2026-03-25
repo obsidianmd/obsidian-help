@@ -8,25 +8,25 @@ aliases:
 ---
 Usa i riquadri per includere contenuti aggiuntivi senza interrompere il flusso delle note.
 
-Per creare un riquadro, aggiungi `[!info]` alla prima riga di una citazione in blocco, dove `info` è l'_identificatore di tipo_. L'identificatore di tipo determina l'aspetto e il comportamento del riquadro. Per visualizzare tutti i tipi disponibili, consulta [[#Tipi supportati]]. I riquadri sono supportati nativamente anche su [[Introduction to Obsidian Publish|Obsidian Publish]].
+Per creare un riquadro, aggiungi `[!info]` alla prima riga di una citazione in blocco, dove `info` è l'_identificatore di tipo_. L'identificatore di tipo determina l'aspetto e il comportamento del riquadro. Per visualizzare tutti i tipi disponibili, consulta [[#Tipi supportati]]. I riquadri sono supportati nativamente anche su [[Introduzione a Obsidian Publish|Obsidian Publish]].
 
 ```markdown
 > [!info] Ecco un titolo del riquadro
 > Ecco un blocco riquadro.
-> Supporta **Markdown**, [[Internal link|collegamenti wiki]] e [[Embed files|incorporamenti]]!
+> Supporta **Markdown**, [[Internal link|collegamenti wiki]] e [[Incorporare file|incorporamenti]]!
 > ![[Engelbart.jpg]]
 ```
 
 > [!info] Ecco un titolo del riquadro
 > Ecco un blocco riquadro.
-> Supporta **Markdown**, [[Internal links|collegamenti wiki]] e [[Embed files|incorporamenti]]!
+> Supporta **Markdown**, [[Collegamenti interni|collegamenti wiki]] e [[Incorporare file|incorporamenti]]!
 > ![[Engelbart.jpg]]
 
-Puoi inserire un riquadro `[!note]` predefinito usando il [[Command palette|comando]] `Inserisci callout`. Il cursore si posiziona automaticamente nel campo del nome del riquadro, permettendoti di eliminare il nome predefinito e digitarne uno nuovo prima di modificare il contenuto.
+Puoi inserire un riquadro `[!note]` predefinito usando il [[Riquadro comandi|comando]] `Inserisci callout`. Il cursore si posiziona automaticamente nel campo del nome del riquadro, permettendoti di eliminare il nome predefinito e digitarne uno nuovo prima di modificare il contenuto.
 
 Per racchiudere contenuti esistenti in un riquadro, seleziona il testo (inclusi elenchi, blocchi di codice, ecc.) ed esegui il comando `Inserisci callout`. Il contenuto selezionato verrà automaticamente racchiuso nel riquadro.
 
-In [[Views and editing mode#Anteprima dal vivo|Anteprima dal vivo]], puoi anche fare clic destro sul nome del riquadro per cambiare il tipo di riquadro.
+In [[Viste e modalità di modifica#Anteprima dal vivo|Anteprima dal vivo]], puoi anche fare clic destro sul nome del riquadro per cambiare il tipo di riquadro.
 
 
 ### Cambiare il titolo
@@ -79,7 +79,7 @@ Puoi annidare i riquadri su più livelli.
 
 ### Personalizzare i riquadri
 
-[[CSS snippets|Snippet CSS]] e [[Community plugins|Plugin della comunità]] possono definire riquadri personalizzati o anche sovrascrivere la configurazione predefinita.
+[[Snippet CSS|Snippet CSS]] e [[Plugin della comunità|Plugin della comunità]] possono definire riquadri personalizzati o anche sovrascrivere la configurazione predefinita.
 
 Per definire un riquadro personalizzato, crea il seguente blocco CSS:
 
@@ -97,7 +97,7 @@ Il valore dell'attributo `data-callout` è l'identificatore di tipo che desideri
 
 > [!warning] Nota sulle versioni delle icone lucide
 > Obsidian aggiorna periodicamente le icone Lucide. La versione attuale inclusa è mostrata di seguito; usa queste o icone precedenti nei riquadri personalizzati.
-> ![[Credits#^lucide]]
+> ![[Crediti#^lucide]]
 
 > [!tip] Icone SVG
 > Invece di usare un'icona Lucide, puoi anche usare un elemento SVG come icona del riquadro.

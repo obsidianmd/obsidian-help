@@ -3,7 +3,7 @@ permalink: bases/create-base
 aliases:
   - Create a base
 ---
-[[Introduction to Bases|Base]] consente di creare viste simili a database delle proprie note. Ecco come creare una base e incorporarla in una nota. Ogni base può avere una o più [[Views|viste]] per visualizzare le informazioni in modi diversi.
+[[Introduzione a Base|Base]] consente di creare viste simili a database delle proprie note. Ecco come creare una base e incorporarla in una nota. Ogni base può avere una o più [[Viste|viste]] per visualizzare le informazioni in modi diversi.
 
 ## Crea una nuova Base
 
@@ -27,11 +27,11 @@ aliases:
 
 ### Incorporare un file base
 
-È possibile incorporare file base in [[Embed files|qualsiasi altro file]] utilizzando la sintassi `![[File.base]]`. Per specificare la vista predefinita utilizzare `![[File.base#Vista]]`.
+È possibile incorporare file base in [[Incorporare file|qualsiasi altro file]] utilizzando la sintassi `![[File.base]]`. Per specificare la vista predefinita utilizzare `![[File.base#Vista]]`.
 
 ### Incorporare una base come blocco di codice
 
-Le basi possono anche essere incorporate direttamente in una nota utilizzando un blocco di codice `base` e la [[Bases syntax|sintassi delle basi]].
+Le basi possono anche essere incorporate direttamente in una nota utilizzando un blocco di codice `base` e la [[Sintassi di Base|sintassi delle basi]].
 
 ~~~yaml
 ```base

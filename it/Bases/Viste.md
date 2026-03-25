@@ -3,7 +3,7 @@ permalink: bases/views
 aliases:
   - Views
 ---
-Le viste ti permettono di organizzare le informazioni in una [[Introduction to Bases|Base]] in diversi modi. Una base può contenere diverse viste, e ciascuna vista può avere una configurazione unica per visualizzare, ordinare e filtrare i file.
+Le viste ti permettono di organizzare le informazioni in una [[Introduzione a Base|Base]] in diversi modi. Una base può contenere diverse viste, e ciascuna vista può avere una configurazione unica per visualizzare, ordinare e filtrare i file.
 
 Ad esempio, potresti voler creare una base chiamata "Libri" con viste separate per "Lista di lettura" e "Finiti di recente".
 
@@ -15,7 +15,7 @@ In cima a una base c'è una barra degli strumenti che ti permette di interagire 
 - **Risultati** — limita, copia ed esporta file.
 - ![[lucide-arrow-up-down.svg#icon]] **Ordina** — ordina e raggruppa file.
 - ![[lucide-list-filter.svg#icon]] **Filtro** — filtra file.
-- ![[lucide-list.svg#icon]] **Proprietà** — scegli le proprietà da visualizzare e crea [[formulas|formule]].
+- ![[lucide-list.svg#icon]] **Proprietà** — scegli le proprietà da visualizzare e crea [[Formule|formule]].
 - ![[lucide-search.svg#icon]] **Cerca** — cerca elementi usando le proprietà visualizzate.
 - ![[lucide-plus.svg#icon]] **Nuovo** — crea un nuovo file nella vista corrente.
 
@@ -24,7 +24,7 @@ In cima a una base c'è una barra degli strumenti che ti permette di interagire 
 Ci sono due modi per aggiungere una vista a una base:
 
 - Fai clic sul nome della vista in alto a sinistra e seleziona ![[lucide-plus.svg#icon]] **Aggiungi vista**.
-- Usa la [[command palette|tavolozza dei comandi]] e seleziona **Base: Aggiungi vista**.
+- Usa la [[Riquadro comandi|tavolozza dei comandi]] e seleziona **Base: Aggiungi vista**.
 
 La prima vista nel tuo elenco di viste verrà caricata per impostazione predefinita. Trascina le viste tramite la loro icona per cambiarne l'ordine.
 
@@ -39,13 +39,13 @@ In alternativa, fai *clic destro* sul nome della vista nella barra degli strumen
 
 ## Layout
 
-Le viste possono essere visualizzate con diversi layout, tra cui ![[lucide-table.svg#icon]] **tabella**, ![[lucide-list.svg#icon]] **elenco**, ![[lucide-layout-grid.svg#icon]] **schede**, e ![[lucide-map.svg#icon]] **mappa**. Layout aggiuntivi possono essere aggiunti tramite [[Community plugins|Plugin della comunità]]. Alcuni layout sono ancora in fase di sviluppo e richiedono le [[early access versions|versioni ad accesso anticipato]] di Obsidian.
+Le viste possono essere visualizzate con diversi layout, tra cui ![[lucide-table.svg#icon]] **tabella**, ![[lucide-list.svg#icon]] **elenco**, ![[lucide-layout-grid.svg#icon]] **schede**, e ![[lucide-map.svg#icon]] **mappa**. Layout aggiuntivi possono essere aggiunti tramite [[Plugin della comunità|Plugin della comunità]]. Alcuni layout sono ancora in fase di sviluppo e richiedono le [[Versioni ad accesso anticipato|versioni ad accesso anticipato]] di Obsidian.
 
 | Layout                          | Descrizione                                                                                                                        | Versione&nbsp;app |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
 | [[Table view\|Tabella]]         | Visualizza i file come righe in una tabella. Le colonne vengono popolate dalle [[Properties\|proprietà]] nelle tue note.           | 1.9               |
 | [[Cards view\|Schede]]          | Visualizza i file come una griglia di schede. Ti permette di creare viste simili a gallerie con immagini.                          | 1.9               |
-| [[List view\|Elenco]]           | Visualizza i file come un [[Basic formatting syntax#Lists\|elenco]] con marcatori puntati o numerati.                             | 1.10              |
+| [[List view\|Elenco]]           | Visualizza i file come un [[Sintassi di formattazione di base#Lists\|elenco]] con marcatori puntati o numerati.                             | 1.10              |
 | [[Map view\|Mappa]]             | Visualizza i file come segnaposti su una mappa interattiva. Richiede il plugin Mappe.                                             | 1.10              |
 
 
@@ -53,7 +53,7 @@ Le viste possono essere visualizzate con diversi layout, tra cui ![[lucide-table
 
 Apri il menu ![[lucide-list-filter.svg#icon]] **Filtro** in cima a una base per aggiungere filtri.
 
-Una base senza filtri mostra tutti i file nella tua cassaforte. I filtri restringono i risultati per mostrare solo i file che soddisfano criteri specifici. Ad esempio, puoi usare i filtri per visualizzare solo i file con una specifica [[Tags|etichetta]] o all'interno di una cartella specifica. Sono disponibili molti tipi di filtro.
+Una base senza filtri mostra tutti i file nella tua cassaforte. I filtri restringono i risultati per mostrare solo i file che soddisfano criteri specifici. Ad esempio, puoi usare i filtri per visualizzare solo i file con una specifica [[Etichette|etichetta]] o all'interno di una cartella specifica. Sono disponibili molti tipi di filtro.
 
 I filtri possono essere applicati a tutte le viste in una base, o solo a una singola vista scegliendo tra le due sezioni nel menu ![[lucide-list-filter.svg#icon]] **Filtro**.
 
@@ -64,9 +64,9 @@ I filtri possono essere applicati a tutte le viste in una base, o solo a una sin
 
 I filtri hanno tre componenti:
 
-1. **Proprietà** — ti permette di scegliere una [[Properties|proprietà]] nella tua cassaforte, incluse le [[Bases syntax#Proprietà del file|proprietà file]].
+1. **Proprietà** — ti permette di scegliere una [[Proprietà|proprietà]] nella tua cassaforte, incluse le [[Sintassi di Base#Proprietà del file|proprietà file]].
 2. **Operatore** — ti permette di scegliere come confrontare le condizioni. L'elenco degli operatori disponibili dipende dal tipo di proprietà (testo, data, numero, ecc.)
-3. **Valore** — ti permette di scegliere il valore con cui stai confrontando. I valori possono includere operazioni matematiche e [[Functions|funzioni]].
+3. **Valore** — ti permette di scegliere il valore con cui stai confrontando. I valori possono includere operazioni matematiche e [[Funzioni|funzioni]].
 
 #### Congiunzioni
 
@@ -80,7 +80,7 @@ I gruppi di filtri ti permettono di creare logiche più complesse creando combin
 
 #### Editor filtro avanzato
 
-Fai clic sul pulsante codice ![[lucide-code-xml.svg#icon]] per usare l'editor **filtro avanzato**. Questo mostra la [[Bases syntax|sintassi]] grezza del filtro e può essere usato con [[Functions|funzioni]] più complesse che non possono essere visualizzate tramite l'interfaccia punta e clicca.
+Fai clic sul pulsante codice ![[lucide-code-xml.svg#icon]] per usare l'editor **filtro avanzato**. Questo mostra la [[Sintassi di Base|sintassi]] grezza del filtro e può essere usato con [[Funzioni|funzioni]] più complesse che non possono essere visualizzate tramite l'interfaccia punta e clicca.
 
 ## Ordinare e raggruppare i risultati
 
@@ -123,6 +123,6 @@ Questa azione salva un CSV della tua vista corrente.
 
 ## Incorporare una vista
 
-Puoi incorporare file base in [[Embed files|qualsiasi altro file]] usando la sintassi `![[File.base]]`. Verrà usata la prima vista nell'elenco. Puoi cambiare l'ordine trascinando le viste nel menu vista.
+Puoi incorporare file base in [[Incorporare file|qualsiasi altro file]] usando la sintassi `![[File.base]]`. Verrà usata la prima vista nell'elenco. Puoi cambiare l'ordine trascinando le viste nel menu vista.
 
 Per specificare la vista predefinita per un incorporamento usa `![[File.base#Vista]]`.

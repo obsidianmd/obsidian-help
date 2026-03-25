@@ -7,7 +7,7 @@ Obsidian è gratuito e supportato al 100% dagli utenti. Le organizzazioni posson
 
 Le organizzazioni che supportano Obsidian possono essere presentate nella nostra [pagina Enterprise](https://obsidian.md/it/enterprise/) acquistando 25 o più licenze.
 
-Le licenze commerciali **non sono** idonee al rimborso secondo la nostra [[Refund policy|Politica di rimborso]].
+Le licenze commerciali **non sono** idonee al rimborso secondo la nostra [[Politica di rimborso|Politica di rimborso]].
 
 ## Acquistare una licenza commerciale
 
@@ -21,11 +21,11 @@ Obsidian offre due metodi per [acquistare](https://obsidian.md/it/pricing) una l
 4. Completa il processo di pagamento.
 5. La tua chiave di licenza verrà visualizzata e potrà essere attivata seguendo i passaggi indicati di seguito.
 
-Se hai bisogno di una fattura per questa transazione, puoi [[Introduction to licenses and payment#Generare una fattura|generare una fattura]].
+Se hai bisogno di una fattura per questa transazione, puoi [[Introduzione a licenze e pagamenti#Generare una fattura|generare una fattura]].
 
 **Acquisto tramite ordine di acquisto**
 
-Per acquisti tramite ordine di acquisto (PO), contatta il [[Help and support#Contattare il supporto Obsidian|supporto Obsidian]].
+Per acquisti tramite ordine di acquisto (PO), contatta il [[Aiuto e supporto#Contattare il supporto Obsidian|supporto Obsidian]].
 
 Il tuo PO deve includere:
 
@@ -45,13 +45,13 @@ Il tuo PO deve includere:
 Per applicare facoltativamente una licenza commerciale alla tua installazione di Obsidian, segui i passaggi indicati di seguito. Nota che applicare una licenza commerciale non fornisce alcun beneficio funzionale all'interno dell'app.
 
 1. Apri l'app Obsidian.
-2. Vai su **[[Settings|Impostazioni]] → Generale → Licenza commerciale**.
+2. Vai su **[[Impostazioni|Impostazioni]] → Generale → Licenza commerciale**.
 3. Clicca su **Attiva** e inserisci la tua chiave di licenza.
 4. Fatto! L'app è ora con licenza per uso commerciale.
 
 ## Organizzazioni che supportano
 
-Se la tua organizzazione ha acquistato almeno 25 licenze commerciali, puoi richiedere di essere presentata come [organizzazione sostenitrice](https://obsidian.md/it/enterprise/). Se desideri che la tua organizzazione venga aggiunta o rimossa dalla pagina, [[Help and support#Contattare il supporto Obsidian|contatta il supporto Obsidian]].
+Se la tua organizzazione ha acquistato almeno 25 licenze commerciali, puoi richiedere di essere presentata come [organizzazione sostenitrice](https://obsidian.md/it/enterprise/). Se desideri che la tua organizzazione venga aggiunta o rimossa dalla pagina, [[Aiuto e supporto#Contattare il supporto Obsidian|contatta il supporto Obsidian]].
 
 Il tuo logo deve essere fornito come file SVG, che riempia un quadrato di 32 per 32 pixel, utilizzando solo il colore bianco, senza colore di sfondo.
 

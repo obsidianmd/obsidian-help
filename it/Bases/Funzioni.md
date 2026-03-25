@@ -8,17 +8,17 @@ aliases:
 ---
 Le funzioni vengono utilizzate in [[Introduzione a Base|Base]] per manipolare i dati dalle [[Proprietà|proprietà]] nei [[Viste#Filtri|filtri]] e nelle [[Formule|formule]]. Consulta il riferimento alla [[Sintassi di Base|sintassi delle Base]] per scoprire di più su come puoi utilizzare le funzioni.
 
-Oltre alle funzioni [[Functions#Globali|Globali]], la maggior parte delle funzioni dipende dal tipo di valore che vuoi modificare:
+Oltre alle funzioni [[Funzioni#Globali|Globali]], la maggior parte delle funzioni dipende dal tipo di valore che vuoi modificare:
 
-- [[Functions#Qualsiasi|Qualsiasi]]
-- [[Functions#Data|Data]]
-- [[Functions#Stringa|Stringa]]
-- [[Functions#Numero|Numero]]
-- [[Functions#Elenco|Elenco]]
-- [[Functions#Collegamento|Collegamento]]
-- [[Functions#File|File]]
-- [[Functions#Oggetto|Oggetto]]
-- [[Functions#Espressione regolare|Espressione regolare]]
+- [[Funzioni#Qualsiasi|Qualsiasi]]
+- [[Funzioni#Data|Data]]
+- [[Funzioni#Stringa|Stringa]]
+- [[Funzioni#Numero|Numero]]
+- [[Funzioni#Elenco|Elenco]]
+- [[Funzioni#Collegamento|Collegamento]]
+- [[Funzioni#File|File]]
+- [[Funzioni#Oggetto|Oggetto]]
+- [[Funzioni#Espressione regolare|Espressione regolare]]
 
 ## Globali
 

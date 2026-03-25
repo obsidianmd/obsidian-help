@@ -2,11 +2,11 @@
 permalink: syntax
 publish: true
 mobile: true
-description: Scopri come applicare la formattazione di base alle tue note in Obsidian, utilizzando Markdown.
+description: 'Scopri come applicare la formattazione di base alle tue note in Obsidian, utilizzando Markdown.'
 aliases:
   - Basic formatting syntax
 ---
-Scopri come applicare la formattazione di base alle tue note, utilizzando [Markdown](https://daringfireball.net/projects/markdown/). Per una sintassi di formattazione più avanzata, consulta [[Advanced formatting syntax|Sintassi di formattazione avanzata]].
+Scopri come applicare la formattazione di base alle tue note, utilizzando [Markdown](https://daringfireball.net/projects/markdown/). Per una sintassi di formattazione più avanzata, consulta [[Sintassi di formattazione avanzata|Sintassi di formattazione avanzata]].
 
 ## Paragrafi
 
@@ -25,7 +25,7 @@ Questo è un altro paragrafo.
 Una riga vuota tra le righe di testo crea paragrafi separati. Questo è il comportamento predefinito in Markdown.
 
 > [!tip]- Spazi vuoti multipli
-> Più spazi vuoti adiacenti all'interno e tra i paragrafi vengono compressi in un singolo spazio quando visualizzati nella [[Views and editing mode#Vista lettura|vista lettura]] o sui siti di [[Introduction to Obsidian Publish|Obsidian Publish]].
+> Più spazi vuoti adiacenti all'interno e tra i paragrafi vengono compressi in un singolo spazio quando visualizzati nella [[Viste e modalità di modifica#Vista lettura|vista lettura]] o sui siti di [[Introduzione a Obsidian Publish|Obsidian Publish]].
 > 
 > ```md
 > Più          spazi          adiacenti
@@ -53,11 +53,11 @@ Per impostazione predefinita in Obsidian, premere `Invio` una volta crea una nuo
 > [!question]- Perché premere `Invio` più volte non crea più interruzioni di riga nella vista lettura?
 > In Markdown, un singolo `Invio` viene ignorato e più `Invio` consecutivi producono solo un nuovo paragrafo. Questo comportamento è conforme alla regola di soft wrap di Markdown, dove le righe vuote extra non generano interruzioni di riga o paragrafi aggiuntivi — vengono compressi in una singola interruzione di paragrafo. Questo è il modo in cui Markdown gestisce il testo per impostazione predefinita, assicurando che i paragrafi scorrano naturalmente senza interruzioni impreviste.
 
-Obsidian include un'impostazione **[[Settings#Non mostrare interruzioni di riga singole|Non mostrare interruzioni di riga singole]]**, che fa seguire a Obsidian la specifica standard di Markdown per le interruzioni di riga.
+Obsidian include un'impostazione **[[Impostazioni#Non mostrare interruzioni di riga singole|Non mostrare interruzioni di riga singole]]**, che fa seguire a Obsidian la specifica standard di Markdown per le interruzioni di riga.
 
 Per abilitare questa funzionalità:
 
-1. Apri le **[[Settings|Impostazioni]]**.
+1. Apri le **[[Impostazioni|Impostazioni]]**.
 2. Vai alla scheda **Editor**.
 3. Abilita **Non mostrare interruzioni di riga singole**.
 
@@ -101,7 +101,7 @@ Viene renderizzato come:
 
 ## Intestazioni
 
-Per creare un'intestazione, aggiungi fino a sei simboli `#` prima del testo dell'intestazione. Il numero di simboli `#` definisce il livello dell'intestazione (come mostrato nella [[Outline|Struttura]]).
+Per creare un'intestazione, aggiungi fino a sei simboli `#` prima del testo dell'intestazione. Il numero di simboli `#` definisce il livello dell'intestazione (come mostrato nella [[Struttura|Struttura]]).
 
 ```md
 # Questa è un'intestazione 1
@@ -122,7 +122,7 @@ Per creare un'intestazione, aggiungi fino a sei simboli `#` prima del testo dell
 
 ## Grassetto, corsivo, evidenziazione
 
-La formattazione del testo può essere applicata anche utilizzando le [[Editing shortcuts|scorciatoie di modifica]].
+La formattazione del testo può essere applicata anche utilizzando le [[Scorciatoie di modifica|scorciatoie di modifica]].
 
 | Stile | Sintassi | Esempio | Risultato |
 |-|-|-|-|
@@ -149,7 +149,7 @@ La formattazione può essere forzata a essere visualizzata come testo normale ag
 
 ## Collegamenti interni
 
-Obsidian supporta due formati per i [[internal links|collegamenti interni]] tra le note:
+Obsidian supporta due formati per i [[Collegamenti interni|collegamenti interni]] tra le note:
 
 - Collegamento wiki: `[[Tre leggi del moto]]`
 - Markdown: `[Tre leggi del moto](Tre%20leggi%20del%20moto.md)`
@@ -207,7 +207,7 @@ Se specifichi solo la larghezza, l'immagine viene ridimensionata in base al suo 
 ```
 
 > [!tip]- Suggerimento
-> Se vuoi aggiungere un'immagine dalla tua cassaforte, puoi anche [[Embed files#Incorporare un'immagine in una nota|incorporare un'immagine in una nota]].
+> Se vuoi aggiungere un'immagine dalla tua cassaforte, puoi anche [[Incorporare file#Incorporare un'immagine in una nota|incorporare un'immagine in una nota]].
 
 ## Citazioni
 
@@ -224,7 +224,7 @@ Puoi citare del testo aggiungendo un simbolo `>` prima del testo.
 \- Doug Engelbart, 1961
 
 > [!tip]- Suggerimento
-> Puoi trasformare la tua citazione in un [[Callouts|riquadro]] aggiungendo `[!info]` come prima riga in una citazione.
+> Puoi trasformare la tua citazione in un [[Riquadri|riquadro]] aggiungendo `[!info]` come prima riga in una citazione.
 
 ## Elenchi
 
@@ -415,7 +415,7 @@ function fancyAlert(arg) {
 Obsidian usa Prism per l'evidenziazione della sintassi. Per maggiori informazioni, consulta [Linguaggi supportati](https://prismjs.com/#supported-languages).
 
 > [!info]+ PrismJS e viste di modifica
-> La [[Views and editing mode#Modalità sorgente|modalità sorgente]] e l'[[Views and editing mode#Anteprima dal vivo|anteprima dal vivo]] non supportano PrismJS e potrebbero renderizzare l'evidenziazione della sintassi in modo diverso.
+> La [[Viste e modalità di modifica#Modalità sorgente|modalità sorgente]] e l'[[Viste e modalità di modifica#Anteprima dal vivo|anteprima dal vivo]] non supportano PrismJS e potrebbero renderizzare l'evidenziazione della sintassi in modo diverso.
 
 #### Annidare blocchi di codice
 
@@ -514,6 +514,6 @@ Quando lavori con elenchi numerati, potresti dover fare l'escape del punto dopo 
 
 ## Scopri di più
 
-Per approfondire la sintassi di formattazione avanzata, come tabelle, diagrammi ed espressioni matematiche, consulta [[Advanced formatting syntax|Sintassi di formattazione avanzata]].
+Per approfondire la sintassi di formattazione avanzata, come tabelle, diagrammi ed espressioni matematiche, consulta [[Sintassi di formattazione avanzata|Sintassi di formattazione avanzata]].
 
 Per saperne di più su come Obsidian analizza il Markdown, consulta [[Obsidian Flavored Markdown]].

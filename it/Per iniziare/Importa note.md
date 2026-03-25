@@ -9,24 +9,24 @@ Le app vanno e vengono, ma i tuoi dati dovrebbero durare. Obsidian utilizza file
 
 ## Importa da altre app e formati di file
 
-- <span class="icon-app icon-notion"></span> [[Import from Notion|Notion]]
-- <span class="icon-app icon-onenote"></span> [[Import from Microsoft OneNote|Microsoft OneNote]]
-- <span class="icon-app icon-evernote"></span> [[Import from Evernote|Evernote]]
-- <span class="icon-app icon-apple-notes"></span> [[Import from Apple Notes|Apple Notes]]
-- <span class="icon-app icon-apple-journal"></span> [[Import from Apple Journal|Apple Journal]]
-- <span class="icon-app icon-google-keep"></span> [[Import from Google Keep|Google Keep]]
-- <span class="icon-app icon-bear"></span> [[Import from Bear|Bear]]
-- <span class="icon-app icon-craft"></span> [[Import from Craft|Craft]]
-- <span class="icon-app icon-roam"></span> [[Import from Roam Research|Roam Research]]
-- <span class="icon-app icon-html"></span> [[Import HTML files|File HTML]]
-- <span class="icon-app icon-md"></span> [[Import CSV files|File CSV]]
-- <span class="icon-app icon-md"></span> [[Import Markdown files|File Markdown]]
-- <span class="icon-app icon-md"></span> [[Import Textbundle files|File Textbundle]]
-- <span class="icon-app icon-md"></span> [[Import Zettelkasten notes|Note Zettelkasten]]
+- <span class="icon-app icon-notion"></span> [[Importa da Notion|Notion]]
+- <span class="icon-app icon-onenote"></span> [[Importa da Microsoft OneNote|Microsoft OneNote]]
+- <span class="icon-app icon-evernote"></span> [[Importa da Evernote|Evernote]]
+- <span class="icon-app icon-apple-notes"></span> [[Importa da Apple Note|Apple Notes]]
+- <span class="icon-app icon-apple-journal"></span> [[Importa da Apple Journal|Apple Journal]]
+- <span class="icon-app icon-google-keep"></span> [[Importa da Google Keep|Google Keep]]
+- <span class="icon-app icon-bear"></span> [[Importa da Bear|Bear]]
+- <span class="icon-app icon-craft"></span> [[Importa da Craft|Craft]]
+- <span class="icon-app icon-roam"></span> [[Importa da Roam Research|Roam Research]]
+- <span class="icon-app icon-html"></span> [[Importa file HTML|File HTML]]
+- <span class="icon-app icon-md"></span> [[Importa file CSV|File CSV]]
+- <span class="icon-app icon-md"></span> [[Importa file Markdown|File Markdown]]
+- <span class="icon-app icon-md"></span> [[Importa file Textbundle|File Textbundle]]
+- <span class="icon-app icon-md"></span> [[Importa note Zettelkasten|Note Zettelkasten]]
 
 ## Altri formati
 
-Non vedi la tua app? Puoi richiederla o contribuire al [repository open-source](https://github.com/obsidianmd/obsidian-importer) del plugin [[Importer]].
+Non vedi la tua app? Puoi richiederla o contribuire al [repository open-source](https://github.com/obsidianmd/obsidian-importer) del plugin [[Importatore]].
 
 Guide aggiuntive sono state condivise dalla nostra community che potrebbero aiutarti a migrare verso Obsidian:
 

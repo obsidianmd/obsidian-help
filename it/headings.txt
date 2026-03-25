@@ -1107,7 +1107,6 @@ Limitations=Limitazioni
 
 [plugins/format-converter]
 Supported formats=Formati supportati
-[[Properties]]=[[Proprietà]]
 
 [plugins/graph]
 Settings=Impostazioni
@@ -1341,3 +1340,7 @@ Switch to a different tab=Passare a una scheda diversa
 Stack tab groups=Sovrapporre gruppi di schede
 Linked views=Viste collegate
 Save layouts=Salvare i layout
+
+[publish/headless]
+Quick start=Avvio rapido
+Commands=Comandi

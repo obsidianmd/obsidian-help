@@ -50,3 +50,4 @@ ob logout
 ## الخدمات
 
 - [[Sync بدون واجهة]]: استخدم [[مقدمة عن Obsidian Sync|Obsidian Sync]] من سطر الأوامر دون الحاجة لتطبيق سطح المكتب.
+- [[Headless Publish]]: استخدم [[مقدمة عن Obsidian Publish|Obsidian Publish]] من سطر الأوامر دون الحاجة لتطبيق سطح المكتب.

@@ -5,9 +5,9 @@ cssclasses:
 aliases:
   - Media files
 ---
-[[Introduction to Obsidian Publish|Obsidian Publish]] ti consente di ospitare note e vari tipi di file multimediali, incluse immagini e videoclip, con un limite di 4 GB per sito. Per maggiori dettagli, consulta i nostri [[Accepted file formats|formati di file accettati]].
+[[Introduzione a Obsidian Publish|Obsidian Publish]] ti consente di ospitare note e vari tipi di file multimediali, incluse immagini e videoclip, con un limite di 4 GB per sito. Per maggiori dettagli, consulta i nostri [[Formati di file accettati|formati di file accettati]].
 
-![[Publish limitations#^publish-media-limit]]
+![[Limitazioni di Publish#^publish-media-limit]]
 
 Questa pagina fornisce suggerimenti per aiutarti a ottimizzare i file multimediali ospitati su Publish.
 
@@ -15,9 +15,9 @@ Questa pagina fornisce suggerimenti per aiutarti a ottimizzare i file multimedia
 
 Quando carichi immagini direttamente su Publish, è preferibile utilizzare i formati `.svg`, `.webp` e `.png`. Raccomandiamo inoltre di ottimizzare tutte le immagini per ridurne la dimensione file preservando la qualità visiva.
 
-![[Style guide#Ottimizzazione]]
+![[Guida di stile#Ottimizzazione]]
 
-Se utilizzi un servizio esterno per ospitare un'immagine, raccomandiamo comunque di dimensionare l'immagine secondo necessità seguendo le nostre [[Embed files#Incorporare un'immagine in una nota|istruzioni per l'incorporamento]].
+Se utilizzi un servizio esterno per ospitare un'immagine, raccomandiamo comunque di dimensionare l'immagine secondo necessità seguendo le nostre [[Incorporare file#Incorporare un'immagine in una nota|istruzioni per l'incorporamento]].
 
 ## PDF
 

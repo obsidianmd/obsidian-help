@@ -23,23 +23,23 @@ Ottieni l'estensione Obsidian Web Clipper dalla directory ufficiale del tuo brow
 
 ## Come utilizzare Web Clipper
 
-- [[Clip web pages|Catturare pagine web]]
+- [[Acquisire pagine web|Catturare pagine web]]
 	- Inizia e scopri come salvare contenuti dalle pagine.
-- [[Highlight web pages|Evidenziatore]]
+- [[Evidenziare pagine web|Evidenziatore]]
 	- Evidenzia passaggi importanti e seleziona gli elementi che desideri salvare.
-- [[Reader|Lettore]]
+- [[Lettore|Lettore]]
 	- Leggi le pagine web in una vista pulita e priva di distrazioni.
-- [[Interpret web pages|Interprete]]
+- [[Interpretare pagine web|Interprete]]
 	- Usa prompt in linguaggio naturale per catturare e modificare i dati di una pagina.
-- [[Troubleshoot Web Clipper|Risoluzione dei problemi]]
+- [[Risoluzione problemi di Web Clipper|Risoluzione dei problemi]]
 	- Risolvi problemi comuni con Web Clipper.
 - [[Modelli|Modelli]]
 	- Crea modelli personalizzati per siti web specifici.
-- [[Variables|Variabili]]
+- [[Variabili|Variabili]]
 	- Precompila i dati della pagina nel tuo modello.
-- [[Filters|Filtri]]
+- [[Filtri|Filtri]]
 	- Modifica l'output delle variabili del modello.
-- [[Logic|Logica]]
+- [[Logica|Logica]]
 	- Usa condizionali, cicli e imposta variabili nei modelli.
 
 ## Privacy

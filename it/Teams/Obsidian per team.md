@@ -10,13 +10,13 @@ Obsidian può essere utilizzato come applicazione per prendere appunti per singo
 
 ## Utilizzare Obsidian con il tuo team
 
-- [[Commercial license|Licenza commerciale]]
+- [[Licenza commerciale|Licenza commerciale]]
 	- Supporta Obsidian acquistando una licenza commerciale.
-- [[Deploy Obsidian across your team|Distribuire Obsidian]]
+- [[Distribuire Obsidian nel proprio team|Distribuire Obsidian]]
 	- Come installare, aggiornare e personalizzare Obsidian nel tuo team.
-- [[Syncing for teams|Sincronizzazione per i team]]
+- [[Sync per team|Sincronizzazione per i team]]
 	- Come sincronizzare i dati nel tuo team.
-- [[Publishing for teams|Pubblicazione per i team]]
+- [[Publish per team|Pubblicazione per i team]]
 	- Come pubblicare dati dalla cassaforte del tuo team.
 
 ## Risorse importanti

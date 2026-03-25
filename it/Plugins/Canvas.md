@@ -1,7 +1,7 @@
 ---
 permalink: plugins/canvas
 ---
-Canvas è un [[Core plugins|plugin principale]] per prendere appunti in modo visuale. Ti offre spazio infinito per disporre le note e collegarle ad altre note, allegati e pagine web.
+Canvas è un [[Plugin principali|plugin principale]] per prendere appunti in modo visuale. Ti offre spazio infinito per disporre le note e collegarle ad altre note, allegati e pagine web.
 
 Prendere appunti visivamente ti aiuta a dare un senso alle tue note organizzandole in uno spazio 2D. Collega le note con linee e raggruppa quelle correlate per comprendere meglio le relazioni tra di esse.
 
@@ -13,12 +13,12 @@ Per iniziare a usare Canvas, devi prima creare un file che contenga la tua lavag
 
 **Tavolozza dei comandi:**
 
-1. Apri la [[Command palette|tavolozza dei comandi]].
+1. Apri la [[Riquadro comandi|tavolozza dei comandi]].
 2. Seleziona **Canvas: Crea nuova lavagna** per creare una lavagna nella stessa cartella del file attivo.
 
 **Esplora file:**
 
-- Nell'[[File explorer|esplora file]], fai clic destro sulla cartella in cui vuoi creare la lavagna.
+- Nell'[[Esplora file|esplora file]], fai clic destro sulla cartella in cui vuoi creare la lavagna.
 - Seleziona **Nuova lavagna**.
 
 **Barra degli strumenti:**
@@ -48,7 +48,7 @@ Per convertire una scheda di testo in un file:
 2. Inserisci il nome della nota e poi seleziona **Salva**.
 
 > [!note] Nota
-> Le schede di solo testo non compaiono nei [[Backlinks|Riferimenti]]. Per farle comparire, devi convertirle in un file.
+> Le schede di solo testo non compaiono nei [[Riferimenti|Riferimenti]]. Per farle comparire, devi convertirle in un file.
 
 ### Aggiungere schede da note
 
@@ -62,7 +62,7 @@ Puoi anche aggiungere note dal menu contestuale della lavagna:
 1. Fai clic destro sulla lavagna e poi seleziona **Aggiungi nota dal vault**.
 2. Seleziona la nota che vuoi aggiungere.
 
-Oppure, puoi aggiungerle alla lavagna trascinando il file dall'[[File explorer|esplora file]].
+Oppure, puoi aggiungerle alla lavagna trascinando il file dall'[[Esplora file|esplora file]].
 
 ### Aggiungere schede da media
 
@@ -76,7 +76,7 @@ Puoi anche aggiungere media dal menu contestuale della lavagna:
 1. Fai clic destro sulla lavagna e poi seleziona **Aggiungi file multimediale dal vault**.
 2. Seleziona il file multimediale che vuoi aggiungere.
 
-Oppure, puoi aggiungerli alla lavagna trascinando il file dall'[[File explorer|esplora file]].
+Oppure, puoi aggiungerli alla lavagna trascinando il file dall'[[Esplora file|esplora file]].
 
 ### Aggiungere schede da pagine web
 

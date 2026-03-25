@@ -6,7 +6,7 @@ description: Esplora file è un plugin principale che consente di gestire file e
 aliases:
   - File explorer
 ---
-Esplora file è un [[Plugin principali|plugin principale]] che consente di gestire file e cartelle all'interno della cassaforte. È possibile sfogliare le note e altri [[Accepted file formats|formati di file accettati]] nella cassaforte ed eseguire molte operazioni comuni sui file:
+Esplora file è un [[Plugin principali|plugin principale]] che consente di gestire file e cartelle all'interno della cassaforte. È possibile sfogliare le note e altri [[Formati di file accettati|formati di file accettati]] nella cassaforte ed eseguire molte operazioni comuni sui file:
 
 - Creare, eliminare e rinominare file e cartelle.
 - Spostare file e cartelle con il trascinamento.
@@ -23,7 +23,7 @@ Per creare una nuova nota nella posizione predefinita per le nuove note:
 2. Digitare il nome della nota e premere Invio.
 
 > [!tip]- Modificare la posizione predefinita
-> È possibile modificare la posizione predefinita per le nuove note in **[[Settings|Impostazioni]] → [[Settings#File e collegamenti|File e collegamenti]] → [[Settings#Posizione predefinita delle note|Posizione predefinita delle note]]**.
+> È possibile modificare la posizione predefinita per le nuove note in **[[Impostazioni|Impostazioni]] → [[Impostazioni#File e collegamenti|File e collegamenti]] → [[Impostazioni#Posizione predefinita delle note|Posizione predefinita delle note]]**.
 
 Per creare una nuova nota in una cartella specifica:
 
@@ -76,14 +76,14 @@ Per comprimere tutte le cartelle:
 1. Fare clic con il tasto destro sul file da eliminare, quindi fare clic su **Elimina**.
 2. Se viene richiesto di confermare l'eliminazione del file, fare clic su **Elimina**.
 
-Per ulteriori informazioni, consultare [[Manage notes#Eliminare una nota|Eliminare una nota]].
+Per ulteriori informazioni, consultare [[Gestisci le note#Eliminare una nota|Eliminare una nota]].
 
 ## Rinominare un file o una cartella
 
 1. Fare clic con il tasto destro sul file da rinominare, quindi fare clic su **Rinomina**.
 2. Digitare il nuovo nome e premere Invio.
 
-Per ulteriori informazioni, consultare [[Manage notes#Rinominare una nota|Rinominare una nota]].
+Per ulteriori informazioni, consultare [[Gestisci le note#Rinominare una nota|Rinominare una nota]].
 
 ## Spostare un file o una cartella
 

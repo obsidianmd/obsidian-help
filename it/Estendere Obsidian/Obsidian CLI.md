@@ -9,11 +9,11 @@ Qualsiasi cosa tu possa fare in Obsidian puoi farla dalla riga di comando. Obsid
 ![[obsidian-cli.mp4#interface]]
 
 > [!warning] Richiede il programma di installazione di Obsidian 1.12
-> L'utilizzo della CLI richiede il programma di installazione di Obsidian 1.12. Consulta la [[Update Obsidian#Aggiornamenti del programma di installazione|guida all'aggiornamento della versione del programma di installazione]].
+> L'utilizzo della CLI richiede il programma di installazione di Obsidian 1.12. Consulta la [[Aggiorna Obsidian#Aggiornamenti del programma di installazione|guida all'aggiornamento della versione del programma di installazione]].
 
 ## Installare Obsidian CLI
 
-Aggiorna all'ultima [[Update Obsidian|versione del programma di installazione di Obsidian]] (1.11.7) e all'ultima [[Early access versions|versione ad accesso anticipato]] (1.12.x).
+Aggiorna all'ultima [[Aggiorna Obsidian|versione del programma di installazione di Obsidian]] (1.11.7) e all'ultima [[Versioni ad accesso anticipato|versione ad accesso anticipato]] (1.12.x).
 
 Abilita Obsidian CLI in Obsidian:
 
@@ -151,7 +151,7 @@ Nella TUI, usa `vault:open <nome>` o `<id>` per passare a una cassaforte diversa
 
 Molti comandi accettano parametri `file` e `path` per specificare un file. Se nessuno dei due viene fornito, il comando usa il file attivo per impostazione predefinita.
 
-- `file=<nome>` risolve il file usando la stessa risoluzione dei [[Internal links|collegamenti wiki]], corrispondendo per nome file senza richiedere il percorso completo o l'estensione.
+- `file=<nome>` risolve il file usando la stessa risoluzione dei [[Collegamenti interni|collegamenti wiki]], corrispondendo per nome file senza richiedere il percorso completo o l'estensione.
 - `path=<percorso>` richiede il percorso esatto dalla radice della cassaforte, es. `cartella/nota.md`.
 
 ```shell
@@ -195,7 +195,7 @@ Riavvia l'app.
 
 ## Base
 
-Comandi per [[Introduction to Bases|Base]].
+Comandi per [[Introduzione a Base|Base]].
 
 ### `bases`
 
@@ -233,7 +233,7 @@ format=json|csv|tsv|md|paths   # formato di output (predefinito: json)
 
 ## Segnalibri
 
-Comandi per [[Bookmarks|Segnalibri]].
+Comandi per [[Segnalibri|Segnalibri]].
 
 ### `bookmarks`
 
@@ -260,7 +260,7 @@ title=<title>      # titolo del segnalibro
 
 ## Tavolozza dei comandi
 
-Comandi per la [[Command palette|tavolozza dei comandi]] e le [[Hotkeys|scorciatoie da tastiera]]. Questo include tutti i comandi registrati dai plugin.
+Comandi per la [[Riquadro comandi|tavolozza dei comandi]] e le [[Tasti di scelta rapida|scorciatoie da tastiera]]. Questo include tutti i comandi registrati dai plugin.
 
 ### `commands`
 
@@ -300,7 +300,7 @@ verbose            # mostra se personalizzata o predefinita
 
 ## Note quotidiane
 
-Comandi per le [[Daily notes|note quotidiane]].
+Comandi per le [[Note del giorno|note quotidiane]].
 
 ### `daily`
 
@@ -346,7 +346,7 @@ open               # apri il file dopo l'aggiunta
 
 ### `diff`
 
-Elenca o confronta versioni dal [[File recovery|Recupero file]] locale e da [[Introduction to Obsidian Sync|Sync]]. Le versioni sono numerate dalla più recente alla più vecchia.
+Elenca o confronta versioni dal [[Recupero file|Recupero file]] locale e da [[Introduzione a Obsidian Sync|Sync]]. Le versioni sono numerate dalla più recente alla più vecchia.
 
 ```bash
 file=<name>          # nome del file
@@ -377,7 +377,7 @@ diff filter=sync
 
 ### `history`
 
-Elenca le versioni solo dal [[File recovery|Recupero file]]. Consulta [[#Sync|sync:history]] per il comando Sync equivalente.
+Elenca le versioni solo dal [[Recupero file|Recupero file]]. Consulta [[#Sync|sync:history]] per il comando Sync equivalente.
 
 ```bash
 file=<name>        # nome del file
@@ -530,7 +530,7 @@ inline             # aggiungi senza a capo
 
 ### `move`
 
-Sposta o rinomina un file (predefinito: file attivo). I [[Internal links|collegamenti interni]] verranno aggiornati automaticamente se attivato nelle [[Settings#Aggiorna sempre collegamenti interni|impostazioni della cassaforte]].
+Sposta o rinomina un file (predefinito: file attivo). I [[Collegamenti interni|collegamenti interni]] verranno aggiornati automaticamente se attivato nelle [[Impostazioni#Aggiorna sempre collegamenti interni|impostazioni della cassaforte]].
 
 ```bash
 file=<name>        # nome del file
@@ -540,7 +540,7 @@ to=<path>          # (required) cartella o percorso di destinazione
 
 ### `rename`
 
-Rinomina un file (predefinito: file attivo). L'estensione del file viene preservata automaticamente se omessa dal nuovo nome. Usa [[#`move`|move]] per rinominare e spostare un file contemporaneamente. I [[Internal links|collegamenti interni]] verranno aggiornati automaticamente se attivato nelle [[Settings#Aggiorna sempre collegamenti interni|impostazioni della cassaforte]].
+Rinomina un file (predefinito: file attivo). L'estensione del file viene preservata automaticamente se omessa dal nuovo nome. Usa [[#`move`|move]] per rinominare e spostare un file contemporaneamente. I [[Collegamenti interni|collegamenti interni]] verranno aggiornati automaticamente se attivato nelle [[Impostazioni#Aggiorna sempre collegamenti interni|impostazioni della cassaforte]].
 
 ```bash
 file=<name>        # nome del file
@@ -561,7 +561,7 @@ permanent          # salta il cestino, elimina permanentemente
 
 ## Collegamenti
 
-Comandi per i [[Backlinks|backlink]] e i [[Outgoing links|collegamenti in uscita]].
+Comandi per i [[Riferimenti|backlink]] e i [[Collegamenti in uscita|collegamenti in uscita]].
 
 ### `backlinks`
 
@@ -616,7 +616,7 @@ total              # restituisce il conteggio dei vicoli ciechi
 
 ## Struttura
 
-Comandi per la [[Outline|Struttura]].
+Comandi per la [[Struttura|Struttura]].
 
 ### `outline`
 
@@ -632,7 +632,7 @@ total              # restituisce il conteggio delle intestazioni
 
 ## Plugin
 
-Comandi per i [[Core plugins|plugin principali]] e i [[Community plugins|plugin della community]].
+Comandi per i [[Plugin principali|plugin principali]] e i [[Plugin della comunità|plugin della community]].
 
 ### `plugins`
 
@@ -719,7 +719,7 @@ id=<id>            # (required) ID del plugin
 
 ## Proprietà
 
-Comandi relativi alle [[Properties|proprietà]].
+Comandi relativi alle [[Proprietà|proprietà]].
 
 ### `aliases`
 
@@ -784,7 +784,7 @@ path=<path>        # percorso del file
 
 ## Publish
 
-Comandi per [[Introduction to Obsidian Publish|Obsidian Publish]].
+Comandi per [[Introduzione a Obsidian Publish|Obsidian Publish]].
 
 ### `publish:site`
 
@@ -840,7 +840,7 @@ path=<path>        # percorso del file
 
 ## Note casuali
 
-Comandi per [[Random note|Note casuali]].
+Comandi per [[Note casuali|Note casuali]].
 
 ### `random`
 
@@ -862,7 +862,7 @@ folder=<path>      # limita a una cartella
 
 ## Ricerca
 
-Comandi per la [[Search|Ricerca]].
+Comandi per la [[Cerca|Ricerca]].
 
 ### `search`
 
@@ -901,10 +901,10 @@ query=<text>       # query di ricerca iniziale
 
 ## Sync
 
-Comandi per [[Introduction to Obsidian Sync|Obsidian Sync]].
+Comandi per [[Introduzione a Obsidian Sync|Obsidian Sync]].
 
 > [!tip] Sincronizzare senza l'app desktop
-> Questi comandi controllano Sync all'interno dell'app Obsidian in esecuzione. Per sincronizzare le cassaforti dalla riga di comando senza l'app desktop, consulta [[Headless Sync]].
+> Questi comandi controllano Sync all'interno dell'app Obsidian in esecuzione. Per sincronizzare le cassaforti dalla riga di comando senza l'app desktop, consulta [[Sync headless]].
 
 ### `sync`
 
@@ -969,7 +969,7 @@ total              # restituisce il conteggio dei file eliminati
 
 ## Etichette
 
-Comandi per le [[Tags|Etichette]].
+Comandi per le [[Etichette|Etichette]].
 
 ### `tags`
 
@@ -1119,7 +1119,7 @@ name=<template>    # (required) nome del modello
 
 ## Temi e frammenti
 
-Comandi per i [[Themes|Temi]] e i [[CSS snippets|frammenti CSS]].
+Comandi per i [[Temi|Temi]] e i [[Snippet CSS|frammenti CSS]].
 
 ### `themes`
 
@@ -1189,7 +1189,7 @@ name=<name>        # (required) nome del frammento
 
 ## Note univoche
 
-Comandi per [[Unique note creator|Note univoche]].
+Comandi per [[Note univoche|Note univoche]].
 
 ### `unique`
 
@@ -1232,7 +1232,7 @@ name=<name>        # (required) nome della cassaforte
 
 ## Visualizzatore web
 
-Comandi per il [[Web viewer|Visualizzatore web]].
+Comandi per il [[Visualizzatore web|Visualizzatore web]].
 
 ### `web`
 
@@ -1246,7 +1246,7 @@ newtab             # apri in una nuova scheda
 
 ## Conteggio parole
 
-Comandi per il [[Word count|Conteggio parole]].
+Comandi per il [[Conteggio parole|Conteggio parole]].
 
 ### `wordcount`
 
@@ -1262,7 +1262,7 @@ characters         # restituisce solo il conteggio dei caratteri
 
 ## Area di lavoro
 
-Comandi per l'[[Workspace|Area di lavoro]] e il plugin [[Workspaces|Aree di lavoro]].
+Comandi per l'[[Area di lavoro|Area di lavoro]] e il plugin [[Aree di lavoro|Aree di lavoro]].
 
 ### `workspace`
 
@@ -1332,7 +1332,7 @@ total              # restituisce il conteggio dei file recenti
 
 ## Comandi per sviluppatori
 
-Comandi per aiutarti a sviluppare [[Community plugins|plugin della community]] e [[Themes|Temi]]. Scopri di più visitando la [Documentazione per sviluppatori Obsidian](https://docs.obsidian.md).
+Comandi per aiutarti a sviluppare [[Plugin della comunità|plugin della community]] e [[Temi|Temi]]. Scopri di più visitando la [Documentazione per sviluppatori Obsidian](https://docs.obsidian.md).
 
 ### `devtools`
 
@@ -1477,13 +1477,13 @@ Queste scorciatoie sono disponibili nella [[#Usare l'interfaccia terminale|TUI]]
 
 Se hai problemi nell'esecuzione di Obsidian CLI:
 
-- Assicurati di usare l'ultima [[Update Obsidian|versione del programma di installazione di Obsidian]] (1.12.4 o superiore).
+- Assicurati di usare l'ultima [[Aggiorna Obsidian|versione del programma di installazione di Obsidian]] (1.12.4 o superiore).
 - Riavvia il terminale dopo aver registrato la CLI affinché le modifiche al PATH abbiano effetto.
 - Obsidian deve essere in esecuzione. La CLI si connette all'istanza Obsidian in esecuzione. Se Obsidian non è in esecuzione, il primo comando CLI dovrebbe avviare l'app.
 
 ### Windows
 
-Obsidian CLI su Windows richiede il programma di installazione di Obsidian 1.12.4+. Consulta [[Update Obsidian|Aggiornamento della versione del programma di installazione]].
+Obsidian CLI su Windows richiede il programma di installazione di Obsidian 1.12.4+. Consulta [[Aggiorna Obsidian|Aggiornamento della versione del programma di installazione]].
 
 Windows utilizza un redirector terminale che connette Obsidian a stdin/stdout correttamente. Questo è necessario perché Obsidian normalmente viene eseguito come app GUI, incompatibile con gli output del terminale su Windows. Quando installi Obsidian 1.12.4+ il redirector terminale `Obsidian.com` verrà aggiunto nella cartella in cui hai installato il file `Obsidian.exe`.
 

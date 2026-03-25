@@ -3,15 +3,15 @@ permalink: bases/views/table
 aliases:
   - Table view
 ---
-Tabella è un tipo di [[Views|vista]] che puoi usare in [[Introduction to Bases|Base]].
+Tabella è un tipo di [[Viste|vista]] che puoi usare in [[Introduzione a Base|Base]].
 
-Seleziona ![[lucide-table.svg#icon]]  **Tabella** dal menu delle viste per visualizzare i file come una tabella con una riga per ogni file e colonne per le [[Properties|proprietà]] di quel file.
+Seleziona ![[lucide-table.svg#icon]]  **Tabella** dal menu delle viste per visualizzare i file come una tabella con una riga per ogni file e colonne per le [[Proprietà|proprietà]] di quel file.
 
 ![Esempio di una base che mostra una vista tabella con un elenco di libri](bases-noshadow.png#interface)
 
 ## Impostazioni
 
-Le impostazioni della vista tabella possono essere configurate nelle [[Views#Impostazioni della vista|Impostazioni della vista]].
+Le impostazioni della vista tabella possono essere configurate nelle [[Viste#Impostazioni della vista|Impostazioni della vista]].
 
 ### Altezza riga
 
@@ -29,7 +29,7 @@ I riepiloghi sono legati alla vista, non alla base. Ogni vista può mostrare rie
 2. Seleziona ![[lucide-calculator.svg#icon]] **Riepiloga…**.
 3. Scegli una delle funzioni di riepilogo integrate, oppure seleziona ![[lucide-square-function.svg#icon]] **Aggiungi riepilogo** per definirne una personalizzata.
 
-Il riepilogo appare nella parte inferiore della colonna. Quando i risultati sono [[Views#Ordinare e raggruppare i risultati|raggruppati]], il riepilogo per ogni gruppo viene mostrato nella parte superiore del gruppo.
+Il riepilogo appare nella parte inferiore della colonna. Quando i risultati sono [[Viste#Ordinare e raggruppare i risultati|raggruppati]], il riepilogo per ogni gruppo viene mostrato nella parte superiore del gruppo.
 
 Una volta aggiunta la barra di riepilogo, puoi aggiungere altri riepiloghi per altre colonne facendo clic sulla cella di riepilogo. La barra di riepilogo viene nascosta se tutti i riepiloghi vengono rimossi.
 
@@ -70,14 +70,14 @@ Puoi definire il tuo riepilogo utilizzando una formula:
 
 1. Nel menu ![[lucide-calculator.svg#icon]] **Riepiloga…**, scegli ![[lucide-square-function.svg#icon]] **Aggiungi riepilogo**.
 2. Assegna un nome al riepilogo.
-3. Inserisci una formula. La formula viene eseguita sull'elenco di valori in quella colonna (ad esempio, utilizzando una [[Functions|funzione]] come `values.reduce(...)`).
+3. Inserisci una formula. La formula viene eseguita sull'elenco di valori in quella colonna (ad esempio, utilizzando una [[Funzioni|funzione]] come `values.reduce(...)`).
 4. Salva il riepilogo.
 
 I riepiloghi personalizzati sono utili quando hai bisogno di un calcolo non coperto dalle opzioni integrate.
 
 ## Scorciatoie
 
-Puoi muoverti rapidamente in una vista tabella utilizzando le seguenti scorciatoie del mouse e della [[Editing shortcuts|tastiera]].
+Puoi muoverti rapidamente in una vista tabella utilizzando le seguenti scorciatoie del mouse e della [[Scorciatoie di modifica|tastiera]].
 
 - Shift-clic crea una selezione di celle.
 - Fai clic destro su una selezione di celle per accedere ad azioni aggiuntive per quei file.

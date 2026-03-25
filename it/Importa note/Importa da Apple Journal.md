@@ -3,7 +3,7 @@ permalink: import/apple-journal
 aliases:
   - Import from Apple Journal
 ---
-Obsidian ti permette di migrare facilmente le voci del tuo diario da Apple Journal utilizzando il [[Importer|plugin Importer]].
+Obsidian ti permette di migrare facilmente le voci del tuo diario da Apple Journal utilizzando il [[Importatore|plugin Importer]].
 Questo convertirà i tuoi diari in file Markdown durevoli, che potrai utilizzare con Obsidian e molte altre app.
 
 ## Esporta i tuoi dati da Apple Journal
@@ -25,9 +25,9 @@ Segui le istruzioni per [Stampare ed esportare le voci in Diario su Mac](https:/
 
 ## Importa i dati di Apple Journal in Obsidian
 
-Avrai bisogno del plugin ufficiale Obsidian [[Importer]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
+Avrai bisogno del plugin ufficiale Obsidian [[Importatore]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
 
-1. Apri **[[Settings|Impostazioni]]**.
+1. Apri **[[Impostazioni|Impostazioni]]**.
 2. Vai su **Plugin della comunità** e [installa Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Abilita il plugin Importer.
 4. Apri il plugin **Importer** utilizzando la tavolozza dei comandi o l'icona nella barra degli strumenti.

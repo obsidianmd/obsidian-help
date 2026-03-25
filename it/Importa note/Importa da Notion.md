@@ -3,11 +3,11 @@ permalink: import/notion
 aliases:
   - Import from Notion
 ---
-Obsidian ti permette di migrare facilmente le tue note da Notion utilizzando il [[Importer|plugin Importer]]. Questo convertirà i tuoi dati di Notion in file Markdown durevoli che puoi usare offline con Obsidian e molte altre app.
+Obsidian ti permette di migrare facilmente le tue note da Notion utilizzando il [[Importatore|plugin Importer]]. Questo convertirà i tuoi dati di Notion in file Markdown durevoli che puoi usare offline con Obsidian e molte altre app.
 
 Obsidian offre due modi per importare i tuoi dati da Notion:
 
-1. **Importazione via API** preserva l'intero spazio di lavoro inclusi i Database e le formule che vengono convertiti in [[Introduction to Bases|Base]], ma richiede un token di integrazione Notion e una connessione internet.
+1. **Importazione via API** preserva l'intero spazio di lavoro inclusi i Database e le formule che vengono convertiti in [[Introduzione a Base|Base]], ma richiede un token di integrazione Notion e una connessione internet.
 2. **Importazione da file** non preserva i Database ma non richiede un token API o una connessione internet.
 
 ## Importazione via API
@@ -42,9 +42,9 @@ Ora puoi convertire i tuoi dati usando Obsidian Importer.
 
 ### Importare i dati da Notion tramite API
 
-Avrai bisogno del plugin ufficiale Obsidian [[Importer]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
+Avrai bisogno del plugin ufficiale Obsidian [[Importatore]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
 
-1. Apri le **[[Settings|Impostazioni]]**.
+1. Apri le **[[Impostazioni|Impostazioni]]**.
 2. Vai su **Plugin della comunità** e [installa Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Abilita il plugin Importer.
 4. Apri il plugin **Importer** usando la tavolozza dei comandi o l'icona nella barra degli strumenti.
@@ -82,7 +82,7 @@ L'importazione da file è un modo alternativo per importare i tuoi dati da Notio
 
 Per preparare i tuoi dati all'importazione, dovrai esportare l'intero spazio di lavoro usando il formato di esportazione HTML di Notion. Ti consigliamo di non usare l'esportazione Markdown di Notion poiché omette dati importanti. Devi avere accesso da amministratore allo spazio di lavoro Notion per esportare tutto il contenuto.
 
-1. Vai su **[[Settings|Impostazioni]]** nella parte superiore della barra laterale di Notion.
+1. Vai su **[[Impostazioni|Impostazioni]]** nella parte superiore della barra laterale di Notion.
 2. In **Workspace** seleziona **Generale**.
 3. Trova e seleziona **Export all workspace content**.
 4. In **Export format** seleziona **HTML**.
@@ -96,9 +96,9 @@ Per preparare i tuoi dati all'importazione, dovrai esportare l'intero spazio di 
 
 ### Importare il file .zip di Notion
 
-Avrai bisogno del plugin ufficiale Obsidian [[Importer]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
+Avrai bisogno del plugin ufficiale Obsidian [[Importatore]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
 
-1. Apri le **[[Settings|Impostazioni]]**.
+1. Apri le **[[Impostazioni|Impostazioni]]**.
 2. Vai su **Plugin della comunità** e [installa Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Abilita il plugin Importer.
 4. Apri il plugin **Importer** usando la tavolozza dei comandi o l'icona nella barra degli strumenti.

@@ -48,3 +48,4 @@ ob logout
 ## Dienste
 
 - [[Headless Sync]]: Nutze [[Einführung in Obsidian Sync|Obsidian Sync]] über die Kommandozeile ohne die Desktop-App.
+- [[Headless Publish]]: Nutze [[Einführung in Obsidian Publish|Obsidian Publish]] über die Kommandozeile ohne die Desktop-App.

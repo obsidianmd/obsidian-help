@@ -9,15 +9,15 @@ aliases:
 Strumento importazione Markdown è un [[Plugin principali|plugin principale]] che consente di convertire il Markdown da altre applicazioni al formato Obsidian. Permette inoltre di convertire determinate [[Proprietà|Proprietà]] nei nuovi formati richiesti.
 
 > [!warning] Avvertimento
-> Lo Strumento importazione Markdown converte l'intera cassaforte in base alle impostazioni. [[Back up your Obsidian files|Esegui un backup dei file di Obsidian]] prima di effettuare la conversione.
+> Lo Strumento importazione Markdown converte l'intera cassaforte in base alle impostazioni. [[Backup dei file di Obsidian|Esegui un backup dei file di Obsidian]] prima di effettuare la conversione.
 
 Per convertire tutte le note nella cassaforte:
 
-1. Nella [[Riquadro comandi|tavolozza dei comandi]], seleziona **Apri importazione Markdown**. È possibile accedervi anche dalla [[Ribbon|barra degli strumenti]] con l'icona **Apri importazione Markdown** ![[lucide-binary.svg#icon]].
+1. Nella [[Riquadro comandi|tavolozza dei comandi]], seleziona **Apri importazione Markdown**. È possibile accedervi anche dalla [[Barra multifunzione|barra degli strumenti]] con l'icona **Apri importazione Markdown** ![[lucide-binary.svg#icon]].
 2. Abilita i formati che desideri convertire.
 3. Fai clic su **Avvia conversione**.
 
-Per ulteriori informazioni, consulta [[Basic formatting syntax|Sintassi di formattazione di base]].
+Per ulteriori informazioni, consulta [[Sintassi di formattazione di base|Sintassi di formattazione di base]].
 
 ## Formati supportati
 
@@ -44,7 +44,7 @@ Lo Strumento importazione Markdown può convertire la seguente sintassi Zettelka
 
 ### [[Proprietà]]
 
-A partire da Obsidian `1.9.3`, lo Strumento importazione Markdown può convertire i formati delle [[Properties#Proprietà deprecate|proprietà deprecate]] nel formato attuale:
+A partire da Obsidian `1.9.3`, lo Strumento importazione Markdown può convertire i formati delle [[Proprietà#Proprietà deprecate|proprietà deprecate]] nel formato attuale:
 
 **Alias**
 

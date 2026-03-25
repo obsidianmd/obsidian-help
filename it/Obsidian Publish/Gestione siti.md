@@ -3,9 +3,9 @@ permalink: publish/sites
 aliases:
   - Manage sites
 ---
-Questa pagina spiega come gestire i siti [[Introduction to Obsidian Publish|Obsidian Publish]].
+Questa pagina spiega come gestire i siti [[Introduzione a Obsidian Publish|Obsidian Publish]].
 
-Un sito è una raccolta di note ospitata da Obsidian Publish e disponibile online, tramite un indirizzo Obsidian Publish o un [[Custom domains|dominio personalizzato]].
+Un sito è una raccolta di note ospitata da Obsidian Publish e disponibile online, tramite un indirizzo Obsidian Publish o un [[Domini personalizzati|dominio personalizzato]].
 
 ## Creare un nuovo sito
 
@@ -52,9 +52,9 @@ Un sito è una raccolta di note ospitata da Obsidian Publish e disponibile onlin
 | --------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Nome sito                                           | Input   | Il nome pubblico e il titolo del tuo sito Obsidian Publish.                                                                           |
 | File homepage                                       | Input   | La posizione del file Markdown che desideri utilizzare come pagina di destinazione.                                                   |
-| Logo                                                | Input   | L'immagine che desideri utilizzare come banner del sito. L'immagine deve [[Publish your content#Publish notes\|essere pubblicata]].   |
+| Logo                                                | Input   | L'immagine che desideri utilizzare come banner del sito. L'immagine deve [[Pubblicare i contenuti#Publish notes\|essere pubblicata]].   |
 | Collaboratori sito                                  | Pulsante| Dichiara altri utenti a cui vuoi concedere l'accesso per modificare le note pubblicate. Gli utenti devono avere un account Obsidian.  |
-| Dominio personalizzato                              | Pulsante| [[Custom domains]]                                                                                                                    |
+| Dominio personalizzato                              | Pulsante| [[Domini personalizzati]]                                                                                                                    |
 | Non consentire l'indicizzazione nei motore di ricerca | Toggle  | Impedisce ai motori di ricerca rispettosi di indicizzare il tuo sito aggiungendo un file `robots.txt`.                                |
 
 ### Aspetto
@@ -72,18 +72,18 @@ Un sito è una raccolta di note ospitata da Obsidian Publish e disponibile onlin
 | Nascondi titolo della pagina             | Toggle | Abilita o disabilita la visualizzazione del titolo in linea di una nota pubblicata.                                 |
 | Migliora leggibilità delle righe         | Toggle | Abilita o disabilita la leggibilità delle righe all'interno del tuo sito.                                          |
 | Non mostrare interruzioni di riga singole | Toggle | Abilita o disabilita la visualizzazione delle interruzioni di riga singole sul tuo sito.                           |
-| Usa finestre scorrevoli                  | Toggle | Abilita o disabilita le [[Tabs#Stack tab groups\|schede impilate]] sul tuo sito.                                    |
+| Usa finestre scorrevoli                  | Toggle | Abilita o disabilita le [[Schede#Stack tab groups\|schede impilate]] sul tuo sito.                                    |
 
 ### Componenti
 
 | Opzione                   | Tipo     | Descrizione                                                                                                                                        |
 |---------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mostra navigazione        | Toggle   | Abilita o disabilita la vista [[File explorer]] sul tuo sito Publish.                                                                              |
-| Personalizza navigazione  | Pulsante | [[Customize your site#Customize navigation\|Personalizza]] l'ordine in cui i file vengono elencati se **Mostra navigazione** è attivato.           |
+| Mostra navigazione        | Toggle   | Abilita o disabilita la vista [[Esplora file]] sul tuo sito Publish.                                                                              |
+| Personalizza navigazione  | Pulsante | [[Personalizzare il sito#Customize navigation\|Personalizza]] l'ordine in cui i file vengono elencati se **Mostra navigazione** è attivato.           |
 | Mostra barra di ricerca   | Toggle   | Abilita o disabilita una barra di ricerca sul tuo sito.                                                                                           |
 | Mostra grafo              | Toggle   | Abilita o disabilita la vista grafo nella barra laterale destra del tuo sito.                                                                     |
 | Mostra indice             | Toggle   | Abilita o disabilita la vista [[Outline\|Indice]] sul tuo sito.                                                                                   |
-| Mostra riferimenti        | Toggle   | Abilita o disabilita i [[Backlinks]] sul tuo sito.                                                                                                |
+| Mostra riferimenti        | Toggle   | Abilita o disabilita i [[Riferimenti]] sul tuo sito.                                                                                                |
 
 ### Altre impostazioni
 

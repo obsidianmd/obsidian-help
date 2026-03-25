@@ -3,7 +3,7 @@ permalink: import/bear
 aliases:
   - Import from Bear
 ---
-Obsidian ti permette di migrare facilmente le tue note da Bear utilizzando il [[Importer|plugin Importer]]. Questo convertirà i tuoi dati di Bear in file Markdown durevoli, che potrai utilizzare con Obsidian e molte altre app.
+Obsidian ti permette di migrare facilmente le tue note da Bear utilizzando il [[Importatore|plugin Importer]]. Questo convertirà i tuoi dati di Bear in file Markdown durevoli, che potrai utilizzare con Obsidian e molte altre app.
 
 ## Esporta i tuoi dati da Bear
 
@@ -19,9 +19,9 @@ Obsidian utilizza il formato di backup di Bear, i file `.bear2bk`. Puoi trovare 
 
 ## Importa i tuoi dati di Bear in Obsidian
 
-Avrai bisogno del plugin ufficiale di Obsidian [[Importer]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
+Avrai bisogno del plugin ufficiale di Obsidian [[Importatore]], che puoi [installare qui](obsidian://show-plugin?id=obsidian-importer).
 
-1. Apri **[[Settings|Impostazioni]]**.
+1. Apri **[[Impostazioni|Impostazioni]]**.
 2. Vai su **Plugin della comunità** e [installa Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Abilita il plugin Importer.
 4. Apri il plugin **Importer** utilizzando la tavolozza dei comandi o l'icona nella barra degli strumenti.

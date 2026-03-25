@@ -6,14 +6,14 @@ description: Scopri come pubblicare i tuoi contenuti utilizzando Obsidian Publis
 aliases:
   - Publish your content
 ---
-Questa pagina spiega come gestire i contenuti pubblicati. Per scoprire come personalizzare lo stile del tuo sito, consulta [[Customize your site|Personalizzare il sito]].
+Questa pagina spiega come gestire i contenuti pubblicati. Per scoprire come personalizzare lo stile del tuo sito, consulta [[Personalizzare il sito|Personalizzare il sito]].
 
 ## Prerequisiti
 
 - Un account Obsidian. Se non ne hai uno, [iscriviti ora](https://obsidian.md/it/auth?returnto=%2Faccount%2Fpublish#signup).
 - Un abbonamento attivo a Obsidian Publish. Se non ne hai uno, sottoscrivi un abbonamento dalla [dashboard del tuo account](https://obsidian.md/it/account/publish).
-- Il plugin principale **Pubblica** è [[Set up Obsidian Publish#Abilita Obsidian Publish|abilitato]].
-- Un [[Manage sites#Creare un nuovo sito|sito Publish]] è stato creato.
+- Il plugin principale **Pubblica** è [[Configurare Obsidian Publish#Abilita Obsidian Publish|abilitato]].
+- Un [[Gestione siti#Creare un nuovo sito|sito Publish]] è stato creato.
 
 ## Pubblicare le note
 
@@ -52,11 +52,11 @@ Prima di pubblicare, controlla la selezione aggiornata per assicurarti che non i
 
 ## Selezionare automaticamente i dati da pubblicare
 
-Imposta `publish: true` nelle [[Properties|Proprietà]] di una nota per includerla automaticamente nella pubblicazione come nota nuova o modificata.
+Imposta `publish: true` nelle [[Proprietà|Proprietà]] di una nota per includerla automaticamente nella pubblicazione come nota nuova o modificata.
 
 Puoi anche selezionare automaticamente note e immagini collegate in cartelle specifiche aggiungendole come cartelle **Incluse**:
 
-1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]] oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Publish changes...**.
+1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]] oppure apri la [[Riquadro comandi|tavolozza dei comandi]] e digita **Publish: Publish changes...**.
 2. Seleziona l'icona **Gestisci filtri di pubblicazione** ![[lucide-filter.svg#icon]].
 3. Nella sezione **Cartelle incluse**, seleziona **Gestisci**.
 4. Scegli le cartelle che desideri includere dal suggeritore.
@@ -65,11 +65,11 @@ Puoi anche selezionare automaticamente note e immagini collegate in cartelle spe
 
 ### Ignorare i dati
 
-Per ignorare una nota in Obsidian Publish, imposta `publish: false` nelle [[Properties|Proprietà]] della nota. La nota non apparirà più nell'elenco delle note da pubblicare.
+Per ignorare una nota in Obsidian Publish, imposta `publish: false` nelle [[Proprietà|Proprietà]] della nota. La nota non apparirà più nell'elenco delle note da pubblicare.
 
 Puoi anche ignorare automaticamente note e immagini in cartelle specifiche aggiungendole come cartelle **Escluse**:
 
-1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]] oppure apri la [[Command palette|tavolozza dei comandi]] e digita **Publish: Publish changes...**.
+1. Nella **barra degli strumenti**, seleziona **Pubblica modifiche** ![[lucide-send.svg#icon]] oppure apri la [[Riquadro comandi|tavolozza dei comandi]] e digita **Publish: Publish changes...**.
 2. Seleziona l'icona **Gestisci filtri di pubblicazione** ![[lucide-filter.svg#icon]].
 3. Nella sezione **Cartelle escluse**, seleziona **Gestisci**.
 4. Scegli le cartelle che desideri escludere dal suggeritore.

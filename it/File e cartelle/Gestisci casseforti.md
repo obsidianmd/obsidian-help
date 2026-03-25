@@ -3,11 +3,11 @@ permalink: manage-vaults
 aliases:
   - Manage vaults
 ---
-Una **cassaforte** è una cartella nel tuo file system che contiene le tue note, gli [[Allegati|allegati]] e la [[configuration folder|cartella di configurazione]] con le impostazioni specifiche di Obsidian. Per ulteriori informazioni sulle casseforti, consulta [[How Obsidian stores data|Come Obsidian archivia i dati]].
+Una **cassaforte** è una cartella nel tuo file system che contiene le tue note, gli [[Allegati|allegati]] e la [[Cartella di configurazione|cartella di configurazione]] con le impostazioni specifiche di Obsidian. Per ulteriori informazioni sulle casseforti, consulta [[Come Obsidian archivia i dati|Come Obsidian archivia i dati]].
 
 Puoi gestire le tue casseforti utilizzando il **Selettore di casseforti**. Il *Profilo cassaforte* si apre la prima volta che avvii Obsidian.
 
-Per aprire il selettore di casseforti da una cassaforte esistente, seleziona **Profilo cassaforte** ![[lucide-chevrons-up-down.svg#icon]] nella parte inferiore della [[Sidebar|barra laterale sinistra]]. Oppure, seleziona **Apri un altro vault** dalla [[command palette|tavolozza dei comandi]].
+Per aprire il selettore di casseforti da una cassaforte esistente, seleziona **Profilo cassaforte** ![[lucide-chevrons-up-down.svg#icon]] nella parte inferiore della [[Barra laterale|barra laterale sinistra]]. Oppure, seleziona **Apri un altro vault** dalla [[Riquadro comandi|tavolozza dei comandi]].
 
 ## Creare una nuova cassaforte
 
@@ -29,7 +29,7 @@ Per aprire il selettore di casseforti da una cassaforte esistente, seleziona **P
 5. Fai clic su **Apri**.
 
 > [!tip] Aprire una cassaforte da Obsidian Sync
-> Se desideri aprire un caveau remoto utilizzando Obsidian Sync, consulta [[Set up Obsidian Sync|Configurare Obsidian Sync]].
+> Se desideri aprire un caveau remoto utilizzando Obsidian Sync, consulta [[Configurare Obsidian Sync|Configurare Obsidian Sync]].
 
 ## Rinominare una cassaforte
 
@@ -61,7 +61,7 @@ Alcuni sistemi operativi non consentono di spostare la cassaforte con il Seletto
 6. Accanto a **Apri cartella come vault**, fai clic su **Apri**.
 7. Naviga fino alla nuova cartella della cassaforte e selezionala.
 8. Fai clic su **Apri**.
-9. Verifica che il contenuto della cassaforte sia invariato. Se necessario, riabilita i plugin della community navigando su **[[Settings|Impostazioni]] → Plugin della comunità → Disattiva modalità con restrizioni**.
+9. Verifica che il contenuto della cassaforte sia invariato. Se necessario, riabilita i plugin della community navigando su **[[Impostazioni|Impostazioni]] → Plugin della comunità → Disattiva modalità con restrizioni**.
 
 ## Rimuovere una cassaforte
 
@@ -80,4 +80,4 @@ Per utilizzare le stesse impostazioni in un'altra cassaforte, usa il tuo file ma
 Potrebbe essere necessario riavviare Obsidian per applicare le modifiche.
 
 > [!note] Dove si trova la cartella `.obsidian`?
-> Per impostazione predefinita, la maggior parte dei sistemi operativi nasconde le cartelle che iniziano con un punto (`.`). Per ulteriori informazioni sulla cartella `.obsidian` e su come accedervi, consulta [[How Obsidian stores data#Impostazioni della cassaforte|impostazioni della cassaforte]] e [[Configuration folder|cartelle di configurazione]].
+> Per impostazione predefinita, la maggior parte dei sistemi operativi nasconde le cartelle che iniziano con un punto (`.`). Per ulteriori informazioni sulla cartella `.obsidian` e su come accedervi, consulta [[Come Obsidian archivia i dati#Impostazioni della cassaforte|impostazioni della cassaforte]] e [[Cartella di configurazione|cartelle di configurazione]].

@@ -2,7 +2,7 @@
 permalink: resources
 publish: true
 mobile: true
-description: Trova risorse di supporto, segnala problemi di sicurezza o violazioni della community e scopri come contribuire a Obsidian.
+description: 'Trova risorse di supporto, segnala problemi di sicurezza o violazioni della community e scopri come contribuire a Obsidian.'
 aliases:
   - Help and support
 ---
@@ -97,7 +97,7 @@ Segnala l'incidente su uno dei seguenti canali della community:
 Sei interessato a mettere a disposizione le tue competenze e il tuo tempo libero per Obsidian? Ecco dove potremmo davvero aver bisogno del tuo aiuto:
 
 - Aiuta i tuoi colleghi utenti di Obsidian rispondendo alle domande sul nostro [server Discord](https://discord.gg/obsidianmd), sul nostro [forum](https://forum.obsidian.md/), o sul reddit [ObsidianMD](https://old.reddit.com/r/ObsidianMD/).
-- [[Developers|Sviluppatori]], potremmo davvero aver bisogno del vostro aiuto per espandere la nostra [Documentazione per sviluppatori Obsidian](https://github.com/obsidianmd/obsidian-developer-docs).
+- [[Sviluppatori|Sviluppatori]], potremmo davvero aver bisogno del vostro aiuto per espandere la nostra [Documentazione per sviluppatori Obsidian](https://github.com/obsidianmd/obsidian-developer-docs).
 - Conosci qualche lingua scritta oltre all'inglese? Considera di contribuire alle nostre [[Traduzioni]] in altre lingue.
 - C'è qualcosa in questa documentazione di aiuto che è obsoleto o confuso? Consulta la [[Guida di stile]] e invia una [issue e pull request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 - Se puoi, puoi [[Contributi finanziari|contribuire finanziariamente]] utilizzando uno dei nostri servizi aggiuntivi a pagamento.

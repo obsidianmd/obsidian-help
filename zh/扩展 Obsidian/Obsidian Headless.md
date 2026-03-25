@@ -50,3 +50,4 @@ ob logout
 ## 服务
 
 - [[Headless Sync]]：通过命令行使用 [[Obsidian 官方同步简介|Obsidian Sync]]，无需桌面应用。
+- [[Headless Publish]]：通过命令行使用 [[发布服务简介|Obsidian Publish]]，无需桌面应用。

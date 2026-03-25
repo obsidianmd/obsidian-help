@@ -75,13 +75,13 @@ Alcuni operatori consentono anche di aggiungere un termine di ricerca annidato t
 | `line:`              | Trova file che contengono almeno una riga corrispondente a `x`.<p/>Esempio: `line:(mix flour)`.<p/><br>**Nota:** Usare `-line` nega la ricerca, il che significa che troverà file dove nessuna riga corrisponde a `x`.                                                                                             |
 | `block:`             | Trova corrispondenze nello stesso blocco.<p/>Esempio: `block:(dog cat)`.<p/>**Nota**: Poiché `block:` richiede alla Ricerca di analizzare il contenuto Markdown in ogni file, può far richiedere più tempo al termine di ricerca per completarsi.                                                                   |
 | `section:`           | Trova corrispondenze nella stessa sezione (testo tra due intestazioni).<p/>Esempio: `section:(dog cat)`.                                                                                                                                                                                                           |
-| `task:`              | Trova corrispondenze in un'[[Basic formatting syntax#Task lists\|attività]] blocco per blocco.<p/>Esempio: `task:call`.                                                                                                                                                                                            |
-| `task-todo:`         | Trova corrispondenze in un'[[Basic formatting syntax#Task lists\|attività]] *non completata* blocco per blocco.<p/>Esempio: `task-todo:call`.                                                                                                                                                                      |
-| `task-done:`         | Trova corrispondenze in un'[[Basic formatting syntax#Task lists\|attività]] *completata* blocco per blocco.<p/>Esempio: `task-done:call`.                                                                                                                                                                          |
+| `task:`              | Trova corrispondenze in un'[[Sintassi di formattazione di base#Task lists\|attività]] blocco per blocco.<p/>Esempio: `task:call`.                                                                                                                                                                                            |
+| `task-todo:`         | Trova corrispondenze in un'[[Sintassi di formattazione di base#Task lists\|attività]] *non completata* blocco per blocco.<p/>Esempio: `task-todo:call`.                                                                                                                                                                      |
+| `task-done:`         | Trova corrispondenze in un'[[Sintassi di formattazione di base#Task lists\|attività]] *completata* blocco per blocco.<p/>Esempio: `task-done:call`.                                                                                                                                                                          |
 
 ## Ricerca nelle proprietà
 
-Puoi usare i dati memorizzati nelle [[Properties|Proprietà]] nei tuoi termini di ricerca.
+Puoi usare i dati memorizzati nelle [[Proprietà|Proprietà]] nei tuoi termini di ricerca.
 
 Usa le parentesi quadre attorno al nome di una proprietà `[property]` per restituire file con quella proprietà:
 
@@ -164,6 +164,6 @@ embed OR search
 ```
 ````
 
-[[Introduction to Obsidian Publish|Obsidian Publish]] non supporta i [[Publish limitations#Cerca|risultati di ricerca]] incorporati. Per vedere un esempio renderizzato dal vivo, usa il blocco di codice sopra all'interno della tua cassaforte.
+[[Introduzione a Obsidian Publish|Obsidian Publish]] non supporta i [[Limitazioni di Publish#Cerca|risultati di ricerca]] incorporati. Per vedere un esempio renderizzato dal vivo, usa il blocco di codice sopra all'interno della tua cassaforte.
 
 ![[search-query-rendered.png]]

@@ -1377,3 +1377,7 @@ Common HTML usage=HTMLの一般的な使用方法
 Comments=コメント
 Underline=下線
 Strikethrough=取り消し線
+
+[publish/headless]
+Quick start=クイックスタート
+Commands=コマンド

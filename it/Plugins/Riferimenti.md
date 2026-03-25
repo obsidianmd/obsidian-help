@@ -2,7 +2,7 @@
 permalink: plugins/backlinks
 publish: true
 mobile: false
-description: Con il plugin Riferimenti, puoi visualizzare tutti i backlink per la nota attiva.
+description: 'Con il plugin Riferimenti, puoi visualizzare tutti i backlink per la nota attiva.'
 aliases:
   - Backlinks
 ---
@@ -33,7 +33,7 @@ Fornisce le seguenti opzioni:
 - **Comprimi risultati** attiva o disattiva l'espansione di ogni nota per mostrare le menzioni al suo interno.
 - **Mostra più contesto** attiva o disattiva la visualizzazione del paragrafo completo che contiene la menzione oppure lo tronca.
 - **Ordinamento** determina come ordinare le menzioni.
-- **Mostra filtro di ricerca** attiva o disattiva un campo di testo che consente di filtrare le menzioni. Per ulteriori informazioni su come costruire un termine di ricerca, consulta [[Search]].
+- **Mostra filtro di ricerca** attiva o disattiva un campo di testo che consente di filtrare le menzioni. Per ulteriori informazioni su come costruire un termine di ricerca, consulta [[Cerca]].
 
 ## Visualizza i backlink per una nota
 
@@ -43,7 +43,7 @@ Per visualizzare i backlink per la nota attiva, fai clic sulla scheda **Riferime
 > Se non riesci a vedere la scheda Riferimenti, puoi renderla visibile aprendo la [[Riquadro comandi]] ed eseguendo il comando **Riferimenti: Mostra riferimenti**.
 
 > [!info] File esclusi
-> I file che corrispondono ai tuoi pattern [[Settings#File esclusi|File esclusi]] non appariranno nelle Menzioni scollegate.
+> I file che corrispondono ai tuoi pattern [[Impostazioni#File esclusi|File esclusi]] non appariranno nelle Menzioni scollegate.
 
 ## Vedi i backlink di una nota specifica
 

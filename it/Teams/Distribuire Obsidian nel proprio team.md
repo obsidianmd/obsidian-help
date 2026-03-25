@@ -25,7 +25,7 @@ Per domande relative alla sicurezza riguardanti questi argomenti, fai riferiment
 
 ### Cartelle di configurazione
 
-La [[Cartella di configurazione]] è dove una [[Glossario#Vault|cassaforte]] di Obsidian memorizza le impostazioni dell'applicazione. Per impostazione predefinita, questa cartella si chiama `.obsidian`, ma hai la flessibilità di [[Cartella di configurazione#Cambiare la cartella di configurazione|cambiare la cartella di configurazione]] secondo le tue preferenze.
+La [[Cartella di configurazione]] è dove una [[Glossario#Cassaforte|cassaforte]] di Obsidian memorizza le impostazioni dell'applicazione. Per impostazione predefinita, questa cartella si chiama `.obsidian`, ma hai la flessibilità di [[Cartella di configurazione#Cambiare la cartella di configurazione|cambiare la cartella di configurazione]] secondo le tue preferenze.
 
 Raccomandiamo di creare un modello standardizzato della cartella di configurazione da distribuire sui dispositivi del tuo team.
 

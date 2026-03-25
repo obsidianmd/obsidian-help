@@ -1,10 +1,10 @@
 ---
 permalink: web-clipper/logic
-description: Usa condizionali, cicli e assegnazione di variabili nei modelli di Web Clipper.
+description: 'Usa condizionali, cicli e assegnazione di variabili nei modelli di Web Clipper.'
 aliases:
   - Logic
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] supporta la logica dei modelli per condizionali, cicli e assegnazione di variabili. Questa sintassi è ispirata ai linguaggi di templating [Twig](https://twig.symfony.com/) e [Liquid](https://shopify.github.io/liquid/).
+[[Introduzione a Obsidian Web Clipper|Web Clipper]] supporta la logica dei modelli per condizionali, cicli e assegnazione di variabili. Questa sintassi è ispirata ai linguaggi di templating [Twig](https://twig.symfony.com/) e [Liquid](https://shopify.github.io/liquid/).
 
 
 > [!warning] Richiede l'ultima versione
@@ -242,6 +242,6 @@ Condizionali e cicli possono essere combinati:
 La logica del modello viene elaborata nel seguente ordine:
 
 1. **Logica del modello** — `{% if %}`, `{% for %}`, `{% set %}` e `{{variables}}` vengono valutati per primi
-2. **Variabili prompt** — Le [[Variables#Variabili prompt|variabili prompt]] come `{{"summarize this"|prompt}}` vengono inviate all'Interprete dopo il completamento della logica del modello
+2. **Variabili prompt** — Le [[Variabili#Variabili prompt|variabili prompt]] come `{{"summarize this"|prompt}}` vengono inviate all'Interprete dopo il completamento della logica del modello
 
 Questo significa che puoi usare la logica del modello per costruire prompt in modo dinamico, ma i risultati dei prompt non sono disponibili per l'uso in condizionali o cicli.

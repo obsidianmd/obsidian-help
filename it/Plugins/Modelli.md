@@ -8,11 +8,11 @@ description: Modelli è un plugin principale che consente di inserire frammenti 
 aliases:
   - Templates
 ---
-Modelli è un [[Core plugins|plugin principale]] che consente di inserire frammenti di testo predefiniti nella nota attiva.
+Modelli è un [[Plugin principali|plugin principale]] che consente di inserire frammenti di testo predefiniti nella nota attiva.
 
 ## Impostare la cartella dei modelli
 
-1. Nell'angolo in basso a sinistra, fare clic su **[[Settings|Impostazioni]]** ![[lucide-cog.svg#icon]].
+1. Nell'angolo in basso a sinistra, fare clic su **[[Impostazioni|Impostazioni]]** ![[lucide-cog.svg#icon]].
 2. In **Plugin principali → Modelli → Posizione cartella dei modelli**, inserire la cartella contenente i modelli.
 
 ## Variabili dei modelli
@@ -31,14 +31,14 @@ Per impostare una stringa di formato, aggiungere i due punti (`:`) seguiti da un
 
 È possibile usare `{{date}}` e `{{time}}` in modo intercambiabile con le stringhe di formato, ad esempio `{{time:YYYY-MM-DD}}`.
 
-È possibile modificare i formati predefiniti di data e ora in **[[Settings|Impostazioni]] → Modelli → Formato data** e **[[Settings|Impostazioni]] → Modelli → Formato ora**.
+È possibile modificare i formati predefiniti di data e ora in **[[Impostazioni|Impostazioni]] → Modelli → Formato data** e **[[Impostazioni|Impostazioni]] → Modelli → Formato ora**.
 
 > [!tip] Suggerimento
-> È possibile utilizzare le variabili dei modelli `{{date}}` e `{{time}}` anche nei plugin [[Daily notes|Note del giorno]] e [[Unique note creator|Note univoche]].
+> È possibile utilizzare le variabili dei modelli `{{date}}` e `{{time}}` anche nei plugin [[Note del giorno|Note del giorno]] e [[Note univoche|Note univoche]].
 
 ## Creare un modello
 
-Nella [[#Impostare la cartella dei modelli|cartella dei modelli]], [[Manage notes#Creare una nuova nota|creare una nota]] contenente il testo che si desidera far apparire quando si utilizza il modello. È possibile usare le [[#Variabili dei modelli|variabili dei modelli]] per il testo dinamico come la data corrente.
+Nella [[#Impostare la cartella dei modelli|cartella dei modelli]], [[Gestisci le note#Creare una nuova nota|creare una nota]] contenente il testo che si desidera far apparire quando si utilizza il modello. È possibile usare le [[#Variabili dei modelli|variabili dei modelli]] per il testo dinamico come la data corrente.
 
 Ad esempio, ecco un modello per appunti di studio:
 
@@ -81,4 +81,4 @@ tags:
 
 ## Proprietà dei modelli
 
-![[Properties#^templates-properties]]
+![[Proprietà#^templates-properties]]

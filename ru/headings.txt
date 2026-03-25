@@ -990,7 +990,6 @@ Template file=Файл шаблона
 
 [plugins/format-converter]
 Supported formats=Поддерживаемые форматы
-[[Properties]]=[[Свойства]]
 
 [plugins/backlinks]
 Show backlinks=Отображение обратных ссылок
@@ -1346,3 +1345,7 @@ Transfer settings to another vault=Перенос настроек в друго
 Vault settings=Настройки хранилища
 Global settings=Глобальные настройки
 Metadata cache=Кэш метаданных
+
+[publish/headless]
+Quick start=Быстрый старт
+Commands=Команды

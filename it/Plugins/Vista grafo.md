@@ -38,14 +38,14 @@ Fare clic su **Ripristina impostazioni predefinite** nell'angolo in alto a destr
 
 Questa sezione controlla quali nodi mostrare nel grafo.
 
-- **Cerca file** consente di filtrare le note in base a un termine di ricerca. Per informazioni su come scrivere termini di ricerca più avanzati, consultare [[Search]].
+- **Cerca file** consente di filtrare le note in base a un termine di ricerca. Per informazioni su come scrivere termini di ricerca più avanzati, consultare [[Cerca]].
 - **Etichetta** attiva o disattiva la visualizzazione delle etichette nel grafo.
 - **Allegati** attiva o disattiva la visualizzazione degli allegati nel grafo.
 - **Solo file esistenti** attiva o disattiva la visualizzazione delle sole note che esistono nella cassaforte. Poiché una nota non deve necessariamente esistere per poterla collegare, questa opzione può aiutare a limitare il grafo alle note effettivamente presenti nella cassaforte.
 - **Orfani** attiva o disattiva la visualizzazione delle note senza alcun collegamento.
 
 > [!info] File esclusi
-> I file corrispondenti ai pattern dei [[Settings#File esclusi|File esclusi]] non appariranno nella vista grafo.
+> I file corrispondenti ai pattern dei [[Impostazioni#File esclusi|File esclusi]] non appariranno nella vista grafo.
 
 ### Gruppi
 
@@ -57,7 +57,7 @@ Per creare un nuovo gruppo:
 2. Nella casella di ricerca, digitare un termine di ricerca per le note da aggiungere al gruppo.
 3. Fare clic sul cerchio colorato per assegnare un colore al gruppo.
 
-Per informazioni su come scrivere termini di ricerca più avanzati, consultare [[Search]].
+Per informazioni su come scrivere termini di ricerca più avanzati, consultare [[Cerca]].
 
 ### Aspetto
 

@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Scopri come collegare note, allegati e altri file dalle tue note, utilizzando i collegamenti interni.
+description: 'Scopri come collegare note, allegati e altri file dalle tue note, utilizzando i collegamenti interni.'
 aliases:
   - Internal links
 ---
@@ -12,7 +12,7 @@ Scopri come collegare note, allegati e altri file dalle tue note, utilizzando i 
 
 Obsidian può aggiornare automaticamente i collegamenti interni nella tua cassaforte quando rinomini un file. Se preferisci ricevere una richiesta di conferma, puoi disabilitare questa opzione in:
 
-**[[Settings|Impostazioni]]** → **[[Settings#File e collegamenti|File e collegamenti]]** → **[[Settings#Aggiorna sempre collegamenti interni|Aggiorna sempre collegamenti interni]]**.
+**[[Impostazioni|Impostazioni]]** → **[[Impostazioni#File e collegamenti|File e collegamenti]]** → **[[Impostazioni#Aggiorna sempre collegamenti interni|Aggiorna sempre collegamenti interni]]**.
 
 ## Formati supportati per i collegamenti interni
 
@@ -30,7 +30,7 @@ Per impostazione predefinita, grazie al suo formato più compatto, Obsidian gene
 
 Per utilizzare il formato Markdown:
 
-1. Apri **[[Settings|Impostazioni]]**.
+1. Apri **[[Impostazioni|Impostazioni]]**.
 2. In **File e collegamenti**, disabilita **Usa \[\[Wikilinks\]\]**.
 
 Anche se disabiliti il formato collegamento wiki, puoi comunque completare automaticamente i collegamenti digitando due parentesi quadre `[[`. Quando selezioni uno dei file suggeriti, Obsidian genera invece un collegamento Markdown.
@@ -48,14 +48,14 @@ Per creare un collegamento nella vista Modifica, utilizza uno dei seguenti metod
 - Seleziona del testo nell'editor e poi digita `[[`.
 - Apri la [[Command palette|tavolozza dei comandi]] e poi seleziona Aggiungi collegamento interno.
 
-![[Quick switcher#^search-autocomplete-large]]
+![[Selezione rapida#^search-autocomplete-large]]
 
-Sebbene sia possibile collegare qualsiasi tipo tra i [[Accepted file formats|formati di file accettati]], i collegamenti a formati di file diversi da Markdown necessitano di includere un'estensione, come `[[Figure 1.png]]`.
+Sebbene sia possibile collegare qualsiasi tipo tra i [[Formati di file accettati|formati di file accettati]], i collegamenti a formati di file diversi da Markdown necessitano di includere un'estensione, come `[[Figure 1.png]]`.
 
-> [!tip] Prefissare un collegamento interno con un punto esclamativo (!) consente di incorporare il contenuto collegato. Per maggiori dettagli, consulta [[Embed Files|Incorporare file]].
+> [!tip] Prefissare un collegamento interno con un punto esclamativo (!) consente di incorporare il contenuto collegato. Per maggiori dettagli, consulta [[Incorporare file|Incorporare file]].
 
 > [!info] File esclusi
-> I file che corrispondono ai modelli dei tuoi [[Settings#File esclusi|File esclusi]] vengono deprioritizzati nei suggerimenti di collegamento quando si creano collegamenti interni.
+> I file che corrispondono ai modelli dei tuoi [[Impostazioni#File esclusi|File esclusi]] vengono deprioritizzati nei suggerimenti di collegamento quando si creano collegamenti interni.
 
 ## Collegare un'intestazione in una nota
 
@@ -71,13 +71,13 @@ Ad esempio, `[[#Anteprima di un file collegato]]` creerà un collegamento a [[#A
 
 Per collegare un'intestazione in un'altra nota, aggiungi un cancelletto (`#`) alla fine della destinazione del collegamento, seguito dal testo dell'intestazione.
 
-Ad esempio, `[[About Obsidian#I collegamenti sono elementi di prima classe]]` creerà un collegamento a [[About Obsidian#I collegamenti sono elementi di prima classe]].
+Ad esempio, `[[Informazioni su Obsidian#I collegamenti sono elementi di prima classe]]` creerà un collegamento a [[Informazioni su Obsidian#I collegamenti sono elementi di prima classe]].
 
 **Collegamento a sotto-intestazioni**
 
 Puoi aggiungere più simboli cancelletto per ogni sotto-intestazione.
 
-Ad esempio, `[[Help and support#Questions and advice#Report bugs and request features]]` creerà un collegamento a [[Help and support#Questions and advice#Report bugs and request features]].
+Ad esempio, `[[Aiuto e supporto#Questions and advice#Report bugs and request features]]` creerà un collegamento a [[Aiuto e supporto#Questions and advice#Report bugs and request features]].
 
 **Ricerca di intestazioni nell'intera cassaforte**
 
@@ -162,19 +162,19 @@ Usa `[Testo visualizzato](URL collegamento)` per personalizzare l'aspetto del co
 - `[Nome personalizzato](Example.md)` appare come [Nome personalizzato](Example.md)
 - `[Nome sezione](Example.md#Details)` appare come [Nome sezione](Example.md#Details)
 
-Questo metodo è utile per situazioni occasionali in cui vuoi cambiare l'aspetto di un collegamento in un contesto specifico. Se desideri impostare un nome di collegamento alternativo che puoi riutilizzare in tutta la cassaforte, considera l'uso di un [[Aliases|alias]].
+Questo metodo è utile per situazioni occasionali in cui vuoi cambiare l'aspetto di un collegamento in un contesto specifico. Se desideri impostare un nome di collegamento alternativo che puoi riutilizzare in tutta la cassaforte, considera l'uso di un [[Alias|alias]].
 
 Ad esempio, se ti riferisci regolarmente a `[[Three laws of motion]]` come `[[The 3 laws]]`, aggiungere "3 laws" come alias ti permette di digitare solo quello, senza dover aggiungere testo visualizzato personalizzato ogni volta.
 
 > [!tip] Suggerimento
 > Usa il [[#Cambiare il testo visualizzato del collegamento|testo visualizzato del collegamento]] quando vuoi personalizzare l'aspetto di un collegamento *in un punto specifico*.
 > 
-> Usa gli [[Aliases|alias]] quando vuoi riferirti alla stessa nota usando *nomi diversi* in tutta la cassaforte.
+> Usa gli [[Alias|alias]] quando vuoi riferirti alla stessa nota usando *nomi diversi* in tutta la cassaforte.
 ^callout-internal-links-link-text
 
 ## Anteprima di un file collegato
 
 > [!note] Nota
-> Per visualizzare l'anteprima dei file collegati, devi prima abilitare [[Page preview|Anteprima pagina]].
+> Per visualizzare l'anteprima dei file collegati, devi prima abilitare [[Anteprima pagina|Anteprima pagina]].
 
 Per visualizzare l'anteprima di un file collegato, passa il cursore su un collegamento interno. In modalità di modifica, premi `Ctrl` (o `Cmd` su macOS) mentre passi il cursore sul collegamento. Un'anteprima del contenuto del file appare accanto al cursore.

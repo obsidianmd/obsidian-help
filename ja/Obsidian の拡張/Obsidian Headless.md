@@ -48,3 +48,4 @@ ob logout
 ## サービス
 
 - [[ヘッドレスSync]]：デスクトップアプリなしでコマンドラインから[[Obsidian Syncの紹介|Obsidian Sync]]を使用できます。
+- [[Headless Publish]]：デスクトップアプリなしでコマンドラインから[[Obsidian Publishの概要|Obsidian Publish]]を使用できます。

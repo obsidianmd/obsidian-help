@@ -728,7 +728,6 @@ Template file=템플릿 파일
 
 [plugins/format-converter]
 Supported formats=지원되는 형식
-[[Properties]]=[[속성]]
 
 [plugins/command-palette]
 Pinned commands=즐겨찾기된 명령어
@@ -1310,3 +1309,7 @@ Get started=시작하기
 Extend Obsidian=Obsidian 확장하기
 Add-on services=부가 서비스
 Contribute=기여하기
+
+[publish/headless]
+Quick start=빠른 시작
+Commands=명령

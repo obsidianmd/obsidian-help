@@ -10,11 +10,11 @@ Obsidian archivia le note localmente sul dispositivo, così sono sempre accessib
 
 Questa guida illustra i metodi di sincronizzazione più comuni, inclusi suggerimenti per evitare la perdita di dati e garantire un'esperienza fluida.
 
-Si consiglia anche di leggere la [[Back up your Obsidian files|guida al backup]] per proteggere i propri dati.
+Si consiglia anche di leggere la [[Backup dei file di Obsidian|guida al backup]] per proteggere i propri dati.
 
 ## Metodi di sincronizzazione
 
-Con Obsidian i dati sono semplicemente archiviati come file in una cartella chiamata [[Local and remote vaults|cassaforte]]. Questo significa che esistono molti modi per sincronizzare i dati.
+Con Obsidian i dati sono semplicemente archiviati come file in una cartella chiamata [[Vault locali e remoti|cassaforte]]. Questo significa che esistono molti modi per sincronizzare i dati.
 
 Ecco alcuni metodi di sincronizzazione comunemente utilizzati, segnalati dai membri della [community di Obsidian](https://obsidian.md/it/community):
 
@@ -27,11 +27,11 @@ Ecco alcuni metodi di sincronizzazione comunemente utilizzati, segnalati dai mem
 
 **Sistemi consigliati**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
 
-Il metodo di sincronizzazione più diretto e ufficialmente supportato è la soluzione proprietaria: [[Introduction to Obsidian Sync|Obsidian Sync]].
+Il metodo di sincronizzazione più diretto e ufficialmente supportato è la soluzione proprietaria: [[Introduzione a Obsidian Sync|Obsidian Sync]].
 
 Obsidian Sync mantiene le casseforti sincronizzate su tutti i dispositivi utilizzando un caveau remoto esterno per creare copie dei dati. Una copia locale rimane sempre sui dispositivi.
 
-Seguire la [[Set up Obsidian Sync|guida alla configurazione]] per configurare Obsidian Sync.
+Seguire la [[Configurare Obsidian Sync|guida alla configurazione]] per configurare Obsidian Sync.
 
 ## iCloud
 
@@ -56,7 +56,7 @@ iCloud può essere utilizzato per sincronizzare le casseforti tra iOS e macOS. T
         3. Attivare **Archivia in iCloud**.
         4. Toccare **Crea**.
 - **Aprire la cassaforte su un altro dispositivo Apple**:
-    - Su un altro dispositivo macOS o iOS, aprire **Obsidian**, andare al [[Manage vaults|Selettore cassaforti]] e selezionare **Apri cartella come vault**. Navigare fino a **iCloud Drive → Obsidian**.
+    - Su un altro dispositivo macOS o iOS, aprire **Obsidian**, andare al [[Gestisci casseforti|Selettore cassaforti]] e selezionare **Apri cartella come vault**. Navigare fino a **iCloud Drive → Obsidian**.
 
 > [!warning]+ Posizione della cartella su iOS e iPadOS
 > Quando si utilizza iCloud sui dispositivi mobile, assicurarsi che la cassaforte sia archiviata nella posizione corretta: `iCloud Drive/Obsidian/[Nome della cassaforte]`.
@@ -91,7 +91,7 @@ iCloud può essere utilizzato per sincronizzare le casseforti tra iOS e macOS. T
      2. Creare una nuova cartella (es. \"Obsidian Vault\").
      3. Aprire **Obsidian**, selezionare **Crea nuovo vault** e selezionare la cartella di OneDrive.
 3. **Aprire la cassaforte su un altro dispositivo**:
-   - Su un altro dispositivo, aprire **Obsidian**, andare al [[Manage vaults|Selettore cassaforti]] e selezionare **Apri cartella come vault**. Navigare fino a **OneDrive → Documenti**.
+   - Su un altro dispositivo, aprire **Obsidian**, andare al [[Gestisci casseforti|Selettore cassaforti]] e selezionare **Apri cartella come vault**. Navigare fino a **OneDrive → Documenti**.
 
 > [!info] Sincronizzazione su Android
 > OneDrive potrebbe non funzionare bene per la sincronizzazione su Android. Considerare l'utilizzo di app come [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) o [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
@@ -120,11 +120,11 @@ iCloud può essere utilizzato per sincronizzare le casseforti tra iOS e macOS. T
         2. Creare una nuova cartella (es. \"Obsidian Vault\").
         3. Aprire **Obsidian**, selezionare **Crea nuovo vault** e selezionare la cartella di Google Drive.
 3. **Aprire la cassaforte su un altro dispositivo**:
-    - Su un altro dispositivo, aprire **Obsidian**, andare al [[Manage vaults|Selettore cassaforti]] e selezionare **Apri cartella come vault**. Navigare fino alla propria cartella Google Drive.
+    - Su un altro dispositivo, aprire **Obsidian**, andare al [[Gestisci casseforti|Selettore cassaforti]] e selezionare **Apri cartella come vault**. Navigare fino alla propria cartella Google Drive.
 
 > [!tip] Buone pratiche
 > - Impostare i file della cassaforte come **Disponibili offline** in Google Drive per evitare problemi di sincronizzazione dovuti allo scaricamento dei file.
-> - Per iOS, considerare metodi alternativi come [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]], o utilizzare il plugin **Remotely Save**.
+> - Per iOS, considerare metodi alternativi come [[Introduzione a Obsidian Sync|Obsidian Sync]], [[#iCloud]], o utilizzare il plugin **Remotely Save**.
 
 ## Syncthing
 
@@ -146,7 +146,7 @@ Syncthing è uno strumento di sincronizzazione file decentralizzato che non si b
      2. Assicurarsi che la stessa cartella sia selezionata su tutti i dispositivi.
      3. Configurare le preferenze di sincronizzazione della cartella (es. **Invio e ricezione** per la sincronizzazione bidirezionale).
 3. **Aprire la cassaforte in Obsidian**:
-   - Una volta che la cartella è sincronizzata tra i dispositivi, aprire **Obsidian**, andare al [[Manage vaults|Selettore cassaforti]] e selezionare **Apri cartella come vault**.
+   - Una volta che la cartella è sincronizzata tra i dispositivi, aprire **Obsidian**, andare al [[Gestisci casseforti|Selettore cassaforti]] e selezionare **Apri cartella come vault**.
 
 > [!info] Disponibilità dei dispositivi
 > Syncthing funziona meglio quando almeno un dispositivo è sempre acceso per garantire una sincronizzazione continua.
@@ -181,7 +181,7 @@ Syncthing è uno strumento di sincronizzazione file decentralizzato che non si b
 ## Sincronizzazione iPhone e iPad
 
 **Opzioni consigliate**:
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Introduzione a Obsidian Sync|Obsidian Sync]]
 - [[#iCloud]]
 
 > [!info] Evitare di combinare servizi di sincronizzazione
@@ -231,4 +231,4 @@ Se servizi come OneDrive o iCloud scaricano i file dal dispositivo (es. utilizza
 
 **Come posso gestire configurazioni diverse per le mie casseforti?**
 
-Obsidian permette di personalizzare la cartella di configurazione per dispositivo utilizzando la funzionalità [[Configuration folder|Cartelle di configurazione]].
+Obsidian permette di personalizzare la cartella di configurazione per dispositivo utilizzando la funzionalità [[Cartella di configurazione|Cartelle di configurazione]].

@@ -3,21 +3,21 @@ permalink: web-clipper/variables
 aliases:
   - Variables
 ---
-I [[Modelli|modelli di Web Clipper]] possono utilizzare variabili per pre-popolare automaticamente i dati dalla pagina in un modello. Le variabili possono essere utilizzate nel **nome della nota**, nella **posizione della nota**, nelle **proprietà** e nel **contenuto della nota**. Le variabili possono anche essere modificate utilizzando i [[Filters|filtri]].
+I [[Modelli|modelli di Web Clipper]] possono utilizzare variabili per pre-popolare automaticamente i dati dalla pagina in un modello. Le variabili possono essere utilizzate nel **nome della nota**, nella **posizione della nota**, nelle **proprietà** e nel **contenuto della nota**. Le variabili possono anche essere modificate utilizzando i [[Filtri|filtri]].
 
-Usa l'icona `...` nell'estensione [[Introduction to Obsidian Web Clipper|Web Clipper]] per accedere alle variabili della pagina corrente da utilizzare nei modelli. Ci sono cinque tipi di variabili utilizzabili:
+Usa l'icona `...` nell'estensione [[Introduzione a Obsidian Web Clipper|Web Clipper]] per accedere alle variabili della pagina corrente da utilizzare nei modelli. Ci sono cinque tipi di variabili utilizzabili:
 
-- [[Variables#Variabili preset|Variabili preset]]
-- [[Variables#Variabili prompt|Variabili prompt]]
-- [[Variables#Variabili meta|Variabili meta]]
-- [[Variables#Variabili selettore|Variabili selettore]]
-- [[Variables#Variabili Schema.org|Variabili Schema.org]]
+- [[Variabili#Variabili preset|Variabili preset]]
+- [[Variabili#Variabili prompt|Variabili prompt]]
+- [[Variabili#Variabili meta|Variabili meta]]
+- [[Variabili#Variabili selettore|Variabili selettore]]
+- [[Variabili#Variabili Schema.org|Variabili Schema.org]]
 
 ## Variabili preset
 
 Le variabili preset vengono generate automaticamente in base al contenuto della pagina. Generalmente funzionano per la maggior parte dei siti web.
 
-La variabile principale per il contenuto è `{{content}}`, che contiene il contenuto dell'articolo, o le [[Highlight web pages|evidenziazioni]], o la selezione se è presente del testo selezionato nella pagina. Nota che `{{content}}` tenta di estrarre il contenuto principale della pagina, che potrebbe non essere sempre ciò che desideri. In tal caso, puoi utilizzare altre variabili preset o variabili selettore per estrarre il contenuto necessario.
+La variabile principale per il contenuto è `{{content}}`, che contiene il contenuto dell'articolo, o le [[Evidenziare pagine web|evidenziazioni]], o la selezione se è presente del testo selezionato nella pagina. Nota che `{{content}}` tenta di estrarre il contenuto principale della pagina, che potrebbe non essere sempre ciò che desideri. In tal caso, puoi utilizzare altre variabili preset o variabili selettore per estrarre il contenuto necessario.
 
 | Variabile            | Descrizione                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
@@ -42,15 +42,15 @@ La variabile principale per il contenuto è `{{content}}`, che contiene il conte
 
 ## Variabili prompt
 
-Le variabili prompt sfruttano i modelli linguistici per estrarre e modificare i dati utilizzando il linguaggio naturale. Le variabili prompt richiedono che l'[[Interpret web pages|Interprete]] sia abilitato e configurato.
+Le variabili prompt sfruttano i modelli linguistici per estrarre e modificare i dati utilizzando il linguaggio naturale. Le variabili prompt richiedono che l'[[Interpretare pagine web|Interprete]] sia abilitato e configurato.
 
-Le variabili prompt utilizzano la sintassi `{{"un riepilogo della pagina"}}`. Le virgolette doppie attorno al prompt sono importanti e distinguono i prompt dalle variabili preset. Le risposte dei prompt possono essere post-elaborate con i [[Filters|filtri]], ad esempio `{{"un riepilogo della pagina"|blockquote}}`.
+Le variabili prompt utilizzano la sintassi `{{"un riepilogo della pagina"}}`. Le virgolette doppie attorno al prompt sono importanti e distinguono i prompt dalle variabili preset. Le risposte dei prompt possono essere post-elaborate con i [[Filtri|filtri]], ad esempio `{{"un riepilogo della pagina"|blockquote}}`.
 
 ### Quando utilizzare le variabili prompt
 
-Le variabili prompt hanno il vantaggio di essere estremamente flessibili e facili da scrivere, tuttavia presentano diversi compromessi: sono più lente da eseguire e possono avere considerazioni di costo e privacy a seconda del [[Interpret web pages#Modelli|fornitore]] scelto.
+Le variabili prompt hanno il vantaggio di essere estremamente flessibili e facili da scrivere, tuttavia presentano diversi compromessi: sono più lente da eseguire e possono avere considerazioni di costo e privacy a seconda del [[Interpretare pagine web#Modelli|fornitore]] scelto.
 
-A differenza di altri tipi di variabili, le variabili prompt devono essere elaborate da un modello linguistico esterno, quindi vengono sostituite solo dopo che l'[[Interpret web pages|Interprete]] è stato eseguito.
+A differenza di altri tipi di variabili, le variabili prompt devono essere elaborate da un modello linguistico esterno, quindi vengono sostituite solo dopo che l'[[Interpretare pagine web|Interprete]] è stato eseguito.
 
 È preferibile *non* utilizzare le variabili prompt se i dati che si desidera estrarre sono in un formato coerente che potrebbe essere estratto con altri tipi di variabili.
 
@@ -63,7 +63,7 @@ I prompt possono utilizzare quasi qualsiasi query in linguaggio naturale. A seco
 - `{{"un riepilogo in tre punti elenco, tradotto in francese"}}` per estrarre punti elenco sulla pagina e tradurli in francese.
 - `{{"un resumé de la page en trois points"}}` per estrarre tre punti elenco utilizzando un prompt in francese.
 
-I prompt possono trasformare il contenuto della pagina in JSON manipolabile con i [[Filters|filtri]]. Ad esempio:
+I prompt possono trasformare il contenuto della pagina in JSON manipolabile con i [[Filtri|filtri]]. Ad esempio:
 
 ```
 {{"return a JSON object for each tweet, that includes the author, tweet_text, date in YYYY-MM-DD format, and images array (if there are any)"|map:tweet => ({text: tweet.tweet_text, author: tweet.author, date: tweet.date})|template:"${text}\n— [[@${author}]], [[${date}]]\n"}}
@@ -87,11 +87,11 @@ La sintassi è `{{selector:selettoreCss?attributo}}`, dove `?attributo` è opzio
 - `{{selector:.author}}` restituisce il contenuto testuale di qualsiasi elemento `.author` nella pagina.
 - `{{selector:img.hero?src}}` restituisce l'attributo `src` dell'immagine con classe `hero`.
 - `{{selector:a.main-link?href}}` restituisce l'attributo `href` del tag anchor con classe `main-link`.
-- `{{selectorHtml:body|markdown}}` restituisce l'intero HTML dell'elemento `body`, convertito in Markdown utilizzando il [[Filters#Elaborazione HTML|filtro]] `markdown`.
+- `{{selectorHtml:body|markdown}}` restituisce l'intero HTML dell'elemento `body`, convertito in Markdown utilizzando il [[Filtri#Elaborazione HTML|filtro]] `markdown`.
 - I selettori CSS annidati e i combinatori sono supportati se è necessaria maggiore specificità.
-- Se più elementi corrispondono al selettore, viene restituito un array, che puoi elaborare con i [[Filters#Array e oggetti|filtri per array e oggetti]] come `join` o `map`.
+- Se più elementi corrispondono al selettore, viene restituito un array, che puoi elaborare con i [[Filtri#Array e oggetti|filtri per array e oggetti]] come `join` o `map`.
 
-Le variabili selettore possono anche essere utilizzate direttamente nella [[Logic|logica dei modelli]]:
+Le variabili selettore possono anche essere utilizzate direttamente nella [[Logica|logica dei modelli]]:
 
 - Nei cicli: `{% for comment in selector:.comment %}...{% endfor %}`
 - Nelle condizioni: `{% if selector:.premium-badge %}...{% endif %}`

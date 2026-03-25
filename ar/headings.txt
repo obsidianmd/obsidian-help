@@ -466,3 +466,7 @@ Show the ribbon=إظهار الشريط
 Mobile=الهاتف المحمول
 Quick access=الوصول السريع
 Rearrange and visibility=إعادة الترتيب والرؤية
+
+[publish/headless]
+Quick start=البدء السريع
+Commands=الأوامر

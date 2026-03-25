@@ -1320,3 +1320,7 @@ Common HTML usage=Utilisations courantes du HTML
 Comments=Commentaires
 Underline=Soulignement
 Strikethrough=Texte barré
+
+[publish/headless]
+Quick start=Démarrage rapide
+Commands=Commandes

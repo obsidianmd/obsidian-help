@@ -3,26 +3,26 @@ permalink: web-clipper/interpreter
 aliases:
   - Interpret web pages
 ---
-L'Interprete è una funzionalità di [[Introduction to Obsidian Web Clipper|Web Clipper]] che ti permette di interagire con le pagine web utilizzando il linguaggio naturale. L'Interprete ti aiuta a catturare e modificare i dati che vuoi salvare in Obsidian. Ad esempio:
+L'Interprete è una funzionalità di [[Introduzione a Obsidian Web Clipper|Web Clipper]] che ti permette di interagire con le pagine web utilizzando il linguaggio naturale. L'Interprete ti aiuta a catturare e modificare i dati che vuoi salvare in Obsidian. Ad esempio:
 
 - Estrarre frammenti di testo specifici.
 - Riassumere o spiegare informazioni.
 - Convertire testo da un formato a un altro.
 - Tradurre testo in una lingua diversa.
 
-L'Interprete sfrutta modelli linguistici per elaborare le informazioni su una pagina web e restituire risultati utilizzando le [[Variables|Variabili]] che puoi aggiungere ai tuoi [[Modelli|Modelli di Web Clipper]].
+L'Interprete sfrutta modelli linguistici per elaborare le informazioni su una pagina web e restituire risultati utilizzando le [[Variabili|Variabili]] che puoi aggiungere ai tuoi [[Modelli|Modelli di Web Clipper]].
 
 ![[web-clipper-interpreter-demo.mp4#interface]]
 
 ## Esempi di prompt
 
-I prompt utilizzano la sintassi delle [[Variables|variabili]] `{{"il tuo prompt"}}`. Puoi utilizzare questa sintassi con qualsiasi query in linguaggio naturale, ad esempio:
+I prompt utilizzano la sintassi delle [[Variabili|variabili]] `{{"il tuo prompt"}}`. Puoi utilizzare questa sintassi con qualsiasi query in linguaggio naturale, ad esempio:
 
 - `{{"a summary of the page"}}` per estrarre un riepilogo della pagina.
 - `{{"a three bullet point summary, translated to French"}}` per estrarre punti elenco sulla pagina e tradurli in francese.
 - `{{"un resumé de la page en trois points"}}` per estrarre tre punti elenco utilizzando un prompt in francese.
 
-L'output dei tuoi prompt può essere ulteriormente manipolato utilizzando i [[Filters|Filtri]]. I filtri vengono elaborati dopo che la risposta del prompt è stata ricevuta dal modello. Ad esempio: `{{"a summary of the page"|blockquote}}` trasformerà la risposta in una citazione in blocco.
+L'output dei tuoi prompt può essere ulteriormente manipolato utilizzando i [[Filtri|Filtri]]. I filtri vengono elaborati dopo che la risposta del prompt è stata ricevuta dal modello. Ad esempio: `{{"a summary of the page"|blockquote}}` trasformerà la risposta in una citazione in blocco.
 
 ## Per iniziare
 
@@ -30,13 +30,13 @@ L'Interprete funziona con quasi tutti i fornitori di modelli linguistici, compre
 
 1. Vai alla sezione **Interprete** nelle impostazioni di Web Clipper.
 2. Attiva **Abilita interprete**.
-3. Configura il tuo fornitore e il modello, vedi la sezione [[Interpret web pages#Modelli|modelli]] qui sotto.
-4. Aggiungi [[Variables|variabili prompt]] ai tuoi [[Modelli|modelli]].
-5. Se il tuo modello include variabili prompt, la sezione Interprete sarà visibile quando [[Clip web pages|catturi una pagina]]. Fai clic su **interpretare** per elaborare le variabili prompt.
+3. Configura il tuo fornitore e il modello, vedi la sezione [[Interpretare pagine web#Modelli|modelli]] qui sotto.
+4. Aggiungi [[Variabili|variabili prompt]] ai tuoi [[Modelli|modelli]].
+5. Se il tuo modello include variabili prompt, la sezione Interprete sarà visibile quando [[Acquisire pagine web|catturi una pagina]]. Fai clic su **interpretare** per elaborare le variabili prompt.
 
 ## Come funziona
 
-Quando l'Interprete è abilitato *e* il tuo modello contiene [[Variables#Variabili prompt|variabili prompt]], una nuova sezione Interprete viene visualizzata nella finestra dell'estensione, sopra il pulsante **Aggiungi a Obsidian**. Questa sezione ti permette di selezionare un modello ed eseguire l'Interprete per la pagina corrente.
+Quando l'Interprete è abilitato *e* il tuo modello contiene [[Variabili#Variabili prompt|variabili prompt]], una nuova sezione Interprete viene visualizzata nella finestra dell'estensione, sopra il pulsante **Aggiungi a Obsidian**. Questa sezione ti permette di selezionare un modello ed eseguire l'Interprete per la pagina corrente.
 
 Quando fai clic su **interpretare**, l'Interprete invia il contesto della pagina al modello selezionato, insieme a *tutti* i prompt nel tuo modello in un'unica richiesta. A seconda del fornitore del modello che scegli, questa può essere una chiamata esterna o locale al tuo dispositivo. Il modello valuta i tuoi prompt rispetto al contesto della pagina e restituisce le sue risposte. L'Interprete quindi sostituisce le variabili prompt con i dati della risposta.
 
@@ -50,13 +50,13 @@ Per impostazione predefinita, l'Interprete utilizza l'intero HTML della pagina c
 
 Puoi sovrascrivere il contesto predefinito nelle **Impostazioni avanzate** dell'Interprete e definire il contesto per [[Modelli|modello]].
 
-Per definire un contesto più mirato, usa le [[Variables#Variabili selettore|variabili selettore]] (o altri tipi di variabili) per interpretare una sezione della pagina. Ad esempio, potresti usare la seguente variabile selettore nel contesto dell'Interprete del tuo modello:
+Per definire un contesto più mirato, usa le [[Variabili#Variabili selettore|variabili selettore]] (o altri tipi di variabili) per interpretare una sezione della pagina. Ad esempio, potresti usare la seguente variabile selettore nel contesto dell'Interprete del tuo modello:
 
 ```
 {{selectorHtml:#main}}
 ```
 
-Questo eseguirebbe l'Interprete solo sull'elemento `#main` di una pagina web, se esiste. I [[Filters#Elaborazione HTML|filtri di elaborazione HTML]] come `remove_html`, `strip_tags` e `strip_attr` possono essere utili per ridurre ulteriormente la lunghezza del contesto e velocizzare l'elaborazione.
+Questo eseguirebbe l'Interprete solo sull'elemento `#main` di una pagina web, se esiste. I [[Filtri#Elaborazione HTML|filtri di elaborazione HTML]] come `remove_html`, `strip_tags` e `strip_attr` possono essere utili per ridurre ulteriormente la lunghezza del contesto e velocizzare l'elaborazione.
 
 ## Modelli
 
@@ -87,7 +87,7 @@ In generale raccomandiamo di utilizzare modelli piccoli con Web Clipper perché 
 
 ### Fornitori e modelli personalizzati
 
-Per aggiungere un fornitore e/o modello personalizzato vai in **[[Settings|Impostazioni]]** di Web Clipper → **Interprete**:
+Per aggiungere un fornitore e/o modello personalizzato vai in **[[Impostazioni|Impostazioni]]** di Web Clipper → **Interprete**:
 
 - **Aggiungi fornitore** per configurare fornitori preconfigurati e personalizzati.
 - **Aggiungi modello** per configurare modelli preconfigurati e personalizzati.
@@ -129,4 +129,4 @@ ollama run llama3.2
 La finestra di contesto di Ollama è impostata per impostazione predefinita a 2048 token. Questo è il numero massimo di token per il messaggio e la risposta. Quando catturi una pagina web lunga puoi facilmente superare questo limite. Ollama fallirà silenziosamente e restituirà risultati irrilevanti. Alcune opzioni:
 
 - Aumentare il parametro `num_ctx` di Ollama. Tieni presente che un contesto più lungo richiede più memoria.
-- Usa il campo [[#Contesto]] nel tuo modello per fornire una sezione più mirata della pagina, oppure taglia il contesto usando un [[Filters|filtro]], ad esempio `{{content|slice:0,1000}}`.
+- Usa il campo [[#Contesto]] nel tuo modello per fornire una sezione più mirata della pagina, oppure taglia il contesto usando un [[Filtri|filtro]], ad esempio `{{content|slice:0,1000}}`.

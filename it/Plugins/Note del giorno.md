@@ -7,9 +7,9 @@ Note del giorno è un [[Plugin principali|plugin principale]] che apre una nota 
 
 Per aprire la nota del giorno, puoi:
 
-- Fare clic su **Apri nota del giorno** ![[lucide-calendar.svg#icon]] nella [[Ribbon|barra degli strumenti]].
-- Eseguire **Apri nota del giorno** dalla [[Command palette|tavolozza dei comandi]].
-- [[Hotkeys#Impostare le scorciatoie da tastiera|Usare una scorciatoia da tastiera]] per il comando **Apri nota del giorno**.
+- Fare clic su **Apri nota del giorno** ![[lucide-calendar.svg#icon]] nella [[Barra multifunzione|barra degli strumenti]].
+- Eseguire **Apri nota del giorno** dalla [[Riquadro comandi|tavolozza dei comandi]].
+- [[Tasti di scelta rapida#Impostare le scorciatoie da tastiera|Usare una scorciatoia da tastiera]] per il comando **Apri nota del giorno**.
 
 Per impostazione predefinita, Obsidian crea una nuova nota vuota con il nome della data odierna nel formato AAAA-MM-GG.
 
@@ -36,7 +36,7 @@ Se le tue note del giorno hanno la stessa struttura, puoi utilizzare un [[Modell
    - [ ]
    ```
 
-2. Apri le **[[Settings|Impostazioni]]**.
+2. Apri le **[[Impostazioni|Impostazioni]]**.
 3. Nella barra laterale, fai clic su **Note del giorno** sotto **Opzioni plugin**.
 4. Nella casella di testo accanto a **Posizione file modello**, seleziona la nota "Modello giornaliero".
 
@@ -44,7 +44,7 @@ Obsidian utilizzerà il modello la prossima volta che creerai una nuova nota del
 
 ## Note del giorno e proprietà
 
-Quando il plugin Note del giorno è attivato ed è presente una proprietà data all'interno di qualsiasi nota, Obsidian tenterà automaticamente di generare un collegamento alla nota del giorno per quel giorno specifico. Ad esempio, se una nota intitolata `esempio.md` include una proprietà data come `2023-01-01`, questa data si trasformerà in un collegamento cliccabile nella sezione [[Views and editing mode#Anteprima dal vivo|anteprima dal vivo]].
+Quando il plugin Note del giorno è attivato ed è presente una proprietà data all'interno di qualsiasi nota, Obsidian tenterà automaticamente di generare un collegamento alla nota del giorno per quel giorno specifico. Ad esempio, se una nota intitolata `esempio.md` include una proprietà data come `2023-01-01`, questa data si trasformerà in un collegamento cliccabile nella sezione [[Viste e modalità di modifica#Anteprima dal vivo|anteprima dal vivo]].
 
 ![[daily-notes-and-date-properties.png#interface|300]]
 ^daily-notes-date

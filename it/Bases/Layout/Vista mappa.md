@@ -3,7 +3,7 @@ permalink: bases/views/map
 aliases:
   - Map view
 ---
-Mappa è un tipo di [[Views|vista]] che puoi utilizzare in [[Introduction to Bases|Base]]. Richiede l'installazione del [plugin Maps](obsidian://show-plugin?id=maps).
+Mappa è un tipo di [[Viste|vista]] che puoi utilizzare in [[Introduzione a Base|Base]]. Richiede l'installazione del [plugin Maps](obsidian://show-plugin?id=maps).
 
 Seleziona ![[lucide-map.svg#icon]]  **Mappa** dal menu delle viste per visualizzare i file come una mappa interattiva con marcatori per ogni file e un'anteprima che mostra le proprietà di quel file.
 
@@ -11,9 +11,9 @@ Seleziona ![[lucide-map.svg#icon]]  **Mappa** dal menu delle viste per visualizz
 
 ## Installare il plugin Maps
 
-Le viste mappa richiedono Obsidian 1.10. Il [plugin Maps](obsidian://show-plugin?id=maps) è un [[Community plugins|plugin della community]] ufficiale che puoi scaricare separatamente.
+Le viste mappa richiedono Obsidian 1.10. Il [plugin Maps](obsidian://show-plugin?id=maps) è un [[Plugin della comunità|plugin della community]] ufficiale che puoi scaricare separatamente.
 
-1. Segui le istruzioni in [[Community plugins#Installa un plugin della community]]
+1. Segui le istruzioni in [[Plugin della comunità#Installa un plugin della community]]
 2. Scarica e abilita [Maps](obsidian://show-plugin?id=maps) dall'elenco
 
 ## Esempio
@@ -46,7 +46,7 @@ Puoi anche aprire questi [file di esempio](https://github.com/obsidianmd/obsidia
 
 ## Impostazioni
 
-Le impostazioni della vista mappa possono essere configurate nelle [[Views#Impostazioni della vista|Impostazioni della vista]].
+Le impostazioni della vista mappa possono essere configurate nelle [[Viste#Impostazioni della vista|Impostazioni della vista]].
 
 - Altezza incorporata
 - Coordinate centrali
@@ -58,7 +58,7 @@ Le impostazioni della vista mappa possono essere configurate nelle [[Views#Impos
 
 #### Coordinate
 
-Per visualizzare i segnaposto sulla mappa vai nelle [[Views#Impostazioni della vista|impostazioni della vista]] e seleziona una proprietà **coordinate marcatore**. La proprietà deve contenere coordinate di latitudine e longitudine. Sono accettati i seguenti formati:
+Per visualizzare i segnaposto sulla mappa vai nelle [[Viste#Impostazioni della vista|impostazioni della vista]] e seleziona una proprietà **coordinate marcatore**. La proprietà deve contenere coordinate di latitudine e longitudine. Sono accettati i seguenti formati:
 
 ```yaml
 # Proprietà testo
@@ -70,7 +70,7 @@ coordinates:
   - "lng"
 ```
 
-Se memorizzi le coordinate come proprietà separate `latitude` e `longitude` puoi combinarle con una proprietà [[Bases syntax#Formule|formula]] definendola come un array di coordinate utilizzando la seguente formula: `[latitude, longitude]`.
+Se memorizzi le coordinate come proprietà separate `latitude` e `longitude` puoi combinarle con una proprietà [[Sintassi di Base#Formule|formula]] definendola come un array di coordinate utilizzando la seguente formula: `[latitude, longitude]`.
 
 #### Icone
 
@@ -116,7 +116,7 @@ I tile della mappa sono un modo standard per visualizzare mappe digitali. Esisto
 
 ## Suggerimenti
 
-Puoi creare collegamenti ai servizi di mappe più diffusi utilizzando le [[Formulas|Formule]]. Ad esempio il tuo segnaposto può mostrare un collegamento a Google Maps utilizzando la seguente formula:
+Puoi creare collegamenti ai servizi di mappe più diffusi utilizzando le [[Formule|Formule]]. Ad esempio il tuo segnaposto può mostrare un collegamento a Google Maps utilizzando la seguente formula:
 
 ```js
 link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google Maps")
@@ -124,6 +124,6 @@ link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google 
 
 ## Risoluzione dei problemi
 
-Se la mappa appare vuota quando carichi per la prima volta il plugin Maps, prova ad [[Update Obsidian|aggiornare la versione del programma di installazione di Obsidian]].
+Se la mappa appare vuota quando carichi per la prima volta il plugin Maps, prova ad [[Aggiorna Obsidian|aggiornare la versione del programma di installazione di Obsidian]].
 
 Il [plugin Maps](https://github.com/obsidianmd/obsidian-maps) è open source. Puoi contribuire segnalando bug, richiedendo funzionalità e inviando pull request.

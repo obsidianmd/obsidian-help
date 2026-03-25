@@ -53,7 +53,7 @@ Questa è una community grande e attiva. Vi chiediamo di rispettare l'attenzione
 
 **Plugin della community e temi**: Per segnalazioni di bug e richieste di funzionalità, aprite una issue su GitHub anziché taggare lo sviluppatore su Discord.
 
-**Problemi di sicurezza**: Se avete un problema di sicurezza da segnalare riguardo all'applicazione, [[Help and support#Contattare il supporto Obsidian|contattate il supporto di Obsidian]].
+**Problemi di sicurezza**: Se avete un problema di sicurezza da segnalare riguardo all'applicazione, [[Aiuto e supporto#Contattare il supporto Obsidian|contattate il supporto di Obsidian]].
 
 Le istruzioni per segnalare violazioni del nostro codice di condotta si trovano di seguito in [[#Segnalare violazioni]]. Apprezziamo la vostra collaborazione nel seguire queste linee guida per mantenere un ambiente positivo e rispettoso all'interno della community di Obsidian.
 
@@ -75,7 +75,7 @@ L'insistenza ripetuta consiste nel fare continuamente le stesse richieste. Quest
 
 #### Auto-promozione eccessiva
 
-Incoraggiamo la condivisione di ciò che avete creato per Obsidian: guide, video, utilità, strumenti e altro. È fantastico vedere cosa creano le persone nella community. Come creatore di contenuti, è naturale condividere collegamenti al proprio lavoro, e forniamo uno spazio per questo nel canale `#content-update` sul nostro [[Help and support#Domande e consigli|Discord]].
+Incoraggiamo la condivisione di ciò che avete creato per Obsidian: guide, video, utilità, strumenti e altro. È fantastico vedere cosa creano le persone nella community. Come creatore di contenuti, è naturale condividere collegamenti al proprio lavoro, e forniamo uno spazio per questo nel canale `#content-update` sul nostro [[Aiuto e supporto#Domande e consigli|Discord]].
 
 Ma ci sono dei limiti.
 
@@ -119,7 +119,7 @@ Il Codice di Condotta è applicato dai nostri moderatori, ma non possiamo monito
 
 Anche se non siete direttamente coinvolti, vi incoraggiamo a segnalare qualsiasi comportamento preoccupante. Manterremo la vostra identità il più riservata possibile.
 
-Se la vostra segnalazione riguarda un problema di sicurezza con Obsidian stesso, [[Help and support#Contattare il supporto Obsidian|inviate un'email al supporto di Obsidian]] direttamente.
+Se la vostra segnalazione riguarda un problema di sicurezza con Obsidian stesso, [[Aiuto e supporto#Contattare il supporto Obsidian|inviate un'email al supporto di Obsidian]] direttamente.
 
 ### Segnalare su Discord
 
@@ -146,7 +146,7 @@ Se i nostri moderatori assistono o ricevono una segnalazione riguardo ad [[#Altr
 
 ## Appello contro un ban
 
-Se ritenete di essere stati bannati per errore, potete [[Help and support#Contattare il supporto Obsidian|contattare il supporto di Obsidian]] con il vostro nome utente Discord, Forum o Reddit, insieme alla data del ban. Un membro del team di Obsidian esaminerà il vostro caso con il team di moderazione e fornirà una decisione una volta completata la revisione.
+Se ritenete di essere stati bannati per errore, potete [[Aiuto e supporto#Contattare il supporto Obsidian|contattare il supporto di Obsidian]] con il vostro nome utente Discord, Forum o Reddit, insieme alla data del ban. Un membro del team di Obsidian esaminerà il vostro caso con il team di moderazione e fornirà una decisione una volta completata la revisione.
 
 Si prega di notare che tutte le decisioni sugli appelli sono definitive e non possono essere ulteriormente appellate.
 

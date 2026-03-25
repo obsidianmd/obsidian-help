@@ -9,7 +9,7 @@ Obsidian è sia un editor Markdown che un'app per la gestione della base di cono
 
 Utilizzato nel modo più semplice, è possibile modificare e visualizzare in anteprima i file Markdown. Ma il suo vero potere risiede nella gestione di una base di conoscenza densamente interconnessa.
 
-Come si inizia a creare una rete? Cominciamo innanzitutto a creare alcuni [[Internal links]]!
+Come si inizia a creare una rete? Cominciamo innanzitutto a creare alcuni [[Collegamenti interni]]!
 
 ## In cosa siamo diversi
 
@@ -25,7 +25,7 @@ Quando il file system sostituisce il cloud, hai opzioni flessibili per lavorare 
 
 I collegamenti e le connessioni sono fondamentali per scoprire le relazioni tra ciò che sappiamo.
 
-Obsidian attribuisce grande valore a questo aspetto e lo incoraggia con i [[Internal links]] e la [[Graph view]], tra le altre cose.
+Obsidian attribuisce grande valore a questo aspetto e lo incoraggia con i [[Collegamenti interni]] e la [[Vista grafo]], tra le altre cose.
 
 Come dice John Locke...
 
@@ -43,19 +43,19 @@ La gerarchia ci fornisce il punto 1, e i collegamenti ci forniscono il punto 2. 
 
 Prendere appunti è un'attività altamente personale. Naturalmente non esiste un'unica soluzione onnicomprensiva per tutti.
 
-Invece di fornirti un prodotto preconfezionato e rigido, [[About Obsidian]] ti offre una base e numerosi blocchi funzionali per scoprire e costruire la tua soluzione personale.
+Invece di fornirti un prodotto preconfezionato e rigido, [[Informazioni su Obsidian]] ti offre una base e numerosi blocchi funzionali per scoprire e costruire la tua soluzione personale.
 
 La base consiste nel poter visualizzare i file, modificarli e cercarli. Per il minimalista, questo è sufficiente.
 
 In aggiunta, puoi inserire blocchi isolati e indipendenti per aggiungere funzionalità alla tua presa di appunti:
 
-- Se prendi appunti durante le lezioni, il [[Audio recorder]] e la matematica LaTeX potrebbero essere utili;
-- Se prendi appunti di lavoro, le [[Slides]] e i [[Backlinks]] possono tornare comodi;
-- Se sei un ricercatore, la [[Graph view]] e il [[Word count]] potrebbero essere essenziali nel tuo kit di strumenti.
+- Se prendi appunti durante le lezioni, il [[Registratore audio]] e la matematica LaTeX potrebbero essere utili;
+- Se prendi appunti di lavoro, le [[Diapositive]] e i [[Riferimenti]] possono tornare comodi;
+- Se sei un ricercatore, la [[Vista grafo]] e il [[Conteggio parole]] potrebbero essere essenziali nel tuo kit di strumenti.
 
 Non ci aspettiamo che i plugin siano la soluzione miracolosa a tutti i problemi, ma ci avvicinano molto più di una soluzione monolitica, senza tutte le funzionalità superflue che ingombrano l'interfaccia.
 
-Supportiamo gli [[CSS snippets]], i [[Themes]] e i [[Community plugins]], che consentono un'ulteriore personalizzazione dell'interfaccia e supportano casi d'uso meno comuni.
+Supportiamo gli [[Snippet CSS]], i [[Temi]] e i [[Plugin della comunità]], che consentono un'ulteriore personalizzazione dell'interfaccia e supportano casi d'uso meno comuni.
 
 ## Segui il nostro sviluppo
 

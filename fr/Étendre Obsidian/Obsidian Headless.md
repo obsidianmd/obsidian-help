@@ -49,3 +49,4 @@ ob logout
 ## Services
 
 - [[Sync sans interface]] : utilisez [[Introduction à Obsidian Sync|Obsidian Sync]] depuis la ligne de commande sans l'application de bureau.
+- [[Headless Publish]] : utilisez [[Introduction à Obsidian Publish|Obsidian Publish]] depuis la ligne de commande sans l'application de bureau.

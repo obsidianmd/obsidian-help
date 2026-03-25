@@ -87,7 +87,7 @@ L'azione `new` crea una nuova nota nella cassaforte, opzionalmente con del conte
 
 ## Creare o aprire la nota quotidiana
 
-L'azione `daily` crea o apre la nota quotidiana. Il plugin [[Daily notes|Note del giorno]] deve essere abilitato.
+L'azione `daily` crea o apre la nota quotidiana. Il plugin [[Note del giorno|Note del giorno]] deve essere abilitato.
 
 ### Esempi
 
@@ -119,14 +119,14 @@ L'azione `unique` crea una nuova nota univoca nella cassaforte. Il plugin [[Note
 
 ## Aprire la ricerca
 
-L'azione `search` apre [[Search|Cerca]] nella cassaforte specificata, e opzionalmente esegue una ricerca.
+L'azione `search` apre [[Cerca|Cerca]] nella cassaforte specificata, e opzionalmente esegue una ricerca.
 
 ### Esempi
 
 - `obsidian://search?vault=my%20vault`
-  Questo apre la cassaforte `my vault` e apre [[Search|Cerca]].
+  Questo apre la cassaforte `my vault` e apre [[Cerca|Cerca]].
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  Questo apre la cassaforte `my vault`, apre [[Search|Cerca]] ed esegue una ricerca per `Obsidian`.
+  Questo apre la cassaforte `my vault`, apre [[Cerca|Cerca]] ed esegue una ricerca per `Obsidian`.
 
 ### Parametri
 
@@ -135,7 +135,7 @@ L'azione `search` apre [[Search|Cerca]] nella cassaforte specificata, e opzional
 
 ## Aprire il gestore delle casseforti
 
-L'azione `choose-vault` apre il [[Manage vaults|gestore delle casseforti]].
+L'azione `choose-vault` apre il [[Gestisci casseforti|gestore delle casseforti]].
 
 ### Esempi
 

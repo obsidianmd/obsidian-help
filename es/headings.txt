@@ -1349,3 +1349,7 @@ Syncing tools and services=Herramientas y servicios de sincronización
 Obsidian Sync for teams=Obsidian Sync para equipos
 Security=Seguridad
 Frequently asked questions=Preguntas frecuentes
+
+[publish/headless]
+Quick start=Inicio rápido
+Commands=Comandos

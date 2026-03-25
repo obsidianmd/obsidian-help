@@ -7,13 +7,13 @@ Ci sono molti modi per trascinare e rilasciare elementi in Obsidian. Questo incl
 
 ### Trascinare schede
 
-- È possibile [[Tabs#Disporre le schede|disporre le schede]] e dividere i gruppi di schede nell'area di contenuto principale e nelle [[Sidebar|barre laterali]].
+- È possibile [[Schede#Disporre le schede|disporre le schede]] e dividere i gruppi di schede nell'area di contenuto principale e nelle [[Barra laterale|barre laterali]].
 
 ### Sorgenti di trascinamento
 
 - È possibile trascinare un file, o più file, dall'[[esplora file]].
-- È possibile trascinare un file da un risultato di [[search|ricerca]].
-- È possibile trascinare un file da [[backlinks|riferimenti]] o riferimenti non collegati.
+- È possibile trascinare un file da un risultato di [[Cerca|ricerca]].
+- È possibile trascinare un file da [[Riferimenti|riferimenti]] o riferimenti non collegati.
 - È possibile trascinare un file da un collegamento all'interno della nota, in modalità anteprima.
 
 ### Destinazioni di rilascio
@@ -21,7 +21,7 @@ Ci sono molti modi per trascinare e rilasciare elementi in Obsidian. Questo incl
 - È possibile rilasciare un file sull'intestazione di una scheda per aprire il file lì. Tenere premuto `Alt` (o `Shift` su macOS) per rilasciare in qualsiasi punto della scheda.
 - È possibile rilasciare un file su una cartella nell'[[esplora file]] per spostare il file lì.
 - È possibile rilasciare un file in un editor per inserirlo come collegamento. Il collegamento generato segue anche le proprie preferenze, come i percorsi relativi o l'uso di collegamenti Markdown.
-- È possibile rilasciare un file sulla scheda [[Bookmarks|Segnalibri]] per aggiungerlo ai segnalibri.
+- È possibile rilasciare un file sulla scheda [[Segnalibri|Segnalibri]] per aggiungerlo ai segnalibri.
 
 ### Trascinamento dall'esterno di Obsidian
 

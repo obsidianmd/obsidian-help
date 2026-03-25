@@ -3,9 +3,9 @@ permalink: web-clipper/filters
 aliases:
   - Filters
 ---
-I filtri consentono di modificare le [[variables|variabili]] nei [[Modelli|modelli di Web Clipper]]. I filtri vengono applicati alle variabili usando la sintassi `{{variable|filter}}`.
+I filtri consentono di modificare le [[Variabili|variabili]] nei [[Modelli|modelli di Web Clipper]]. I filtri vengono applicati alle variabili usando la sintassi `{{variable|filter}}`.
 
-- I filtri funzionano per qualsiasi tipo di [[Variables|variabile]], incluse le variabili `prompt`, `meta`, `selector` e `schema`.
+- I filtri funzionano per qualsiasi tipo di [[Variabili|variabile]], incluse le variabili `prompt`, `meta`, `selector` e `schema`.
 - I filtri possono essere concatenati, ad es. `{{variable|filter1|filter2}}`, e vengono applicati nell'ordine in cui sono aggiunti.
 
 ## Date
@@ -117,7 +117,7 @@ Converte un valore in maiuscolo, ad es. `"hello world"|upper` restituisce `"HELL
 
 ## Formattazione del testo
 
-Applica la [[Basic formatting syntax|Sintassi di formattazione di base]] e la [[Advanced formatting syntax|Sintassi di formattazione avanzata]] al testo.
+Applica la [[Sintassi di formattazione di base|Sintassi di formattazione di base]] e la [[Sintassi di formattazione avanzata|Sintassi di formattazione avanzata]] al testo.
 
 ### `blockquote`
 
@@ -125,7 +125,7 @@ Aggiunge un prefisso di citazione Markdown (`> `) a ogni riga dell'input.
 
 ### `callout`
 
-Crea un [[Callouts|riquadro]] con parametri opzionali: `{{variable|callout:("type", "title", foldState)}}`
+Crea un [[Riquadri|riquadro]] con parametri opzionali: `{{variable|callout:("type", "title", foldState)}}`
 
 - `type` è il tipo di riquadro e il valore predefinito è "info"
 - `title` è il titolo del riquadro e il valore predefinito è vuoto
@@ -155,7 +155,7 @@ Converte stringhe, array o oggetti nella sintassi immagine Markdown.
 
 ### `link`
 
-Converte stringhe, array o oggetti nella sintassi collegamento Markdown (da non confondere con [[Filters#`wikilink`|wikilink]]).
+Converte stringhe, array o oggetti nella sintassi collegamento Markdown (da non confondere con [[Filtri#`wikilink`|wikilink]]).
 
 - Per le stringhe: `"url"|link:"author"` restituisce `[author](url)`.
 - Per gli array: `["url1","url2"]|link:"author"` restituisce un array di collegamenti Markdown con lo stesso testo per tutti i collegamenti.
@@ -172,7 +172,7 @@ Converte un array in un elenco Markdown.
 
 ### `table`
 
-Converte un array o un array di oggetti in una [[Advanced formatting syntax#Tabelle|tabella Markdown]]:
+Converte un array o un array di oggetti in una [[Sintassi di formattazione avanzata#Tabelle|tabella Markdown]]:
 
 - Per un array di oggetti, usa le chiavi dell'oggetto come intestazioni.
 - Per un array di array, crea una tabella con ogni array annidato come riga.
@@ -181,7 +181,7 @@ Converte un array o un array di oggetti in una [[Advanced formatting syntax#Tabe
 
 ### `wikilink`
 
-Converte stringhe, array o oggetti nella sintassi [[Link notes|collegamento wiki]] di Obsidian.
+Converte stringhe, array o oggetti nella sintassi [[Collega le note|collegamento wiki]] di Obsidian.
 
 - Per le stringhe: `"page"|wikilink` restituisce `[[page]]`.
 - Per le stringhe con alias: `"page"|wikilink:"alias"` restituisce `[[page|alias]]`.
@@ -217,7 +217,7 @@ Arrotonda un numero all'intero più vicino o a un numero specificato di cifre de
 
 ## Elaborazione HTML
 
-Elabora contenuto HTML e converti HTML in Markdown. Nota che la [[Variables|variabile]] di input deve contenere contenuto HTML, ad es. usando `{{fullHtml}}`, `{{contentHtml}}` o una variabile `{{selectorHtml:}}`.
+Elabora contenuto HTML e converti HTML in Markdown. Nota che la [[Variabili|variabile]] di input deve contenere contenuto HTML, ad es. usando `{{fullHtml}}`, `{{contentHtml}}` o una variabile `{{selectorHtml:}}`.
 
 ### `markdown`
 

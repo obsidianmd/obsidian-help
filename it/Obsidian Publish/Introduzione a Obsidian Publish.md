@@ -14,21 +14,21 @@ Se stai leggendo questo su [help.obsidian.md](https://help.obsidian.md), stai gi
 
 ## Come usare Obsidian Publish
 
-- [[Set up Obsidian Publish|Configurare Obsidian Publish]]
+- [[Configurare Obsidian Publish|Configurare Obsidian Publish]]
 	- Inizia a usare Obsidian Publish.
-- [[Manage sites|Gestione siti]]
+- [[Gestione siti|Gestione siti]]
 	- Scopri come gestire più siti Publish.
-- [[Collaborate on a Publish site|Collaborare su un sito Publish]]
+- [[Collaborare su un sito Publish|Collaborare su un sito Publish]]
 	- Condividi un sito Publish con i collaboratori.
-- [[Customize your site|Personalizzare il tuo sito]]
+- [[Personalizzare il sito|Personalizzare il tuo sito]]
 	- Personalizza il tuo sito Publish.
-- [[Custom domains|Dominio personalizzato]]
+- [[Domini personalizzati|Dominio personalizzato]]
 	- Configura Publish con il tuo dominio.
-- [[Permalinks|Permalink]]
+- [[Permalink|Permalink]]
 	- Definisci URL permanenti per le pagine.
-- [[Analytics|Analisi]]
+- [[Analisi|Analisi]]
 	- Configura le analisi per il tuo sito.
 - [[SEO]]
 	- Ottimizzazione per i motori di ricerca per Publish.
-- [[Security and privacy|Sicurezza e privacy]]
+- [[Sicurezza e privacy|Sicurezza e privacy]]
 	- Come proteggiamo i tuoi dati.

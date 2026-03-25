@@ -9,7 +9,7 @@ Questa pagina illustra le funzionalità specifiche di iOS, tra cui widget, integ
 
 ## Sync
 
-Per informazioni sulla sincronizzazione delle note tra dispositivi, consulta [[Sync your notes across devices|Sincronizzare le note tra dispositivi]].
+Per informazioni sulla sincronizzazione delle note tra dispositivi, consulta [[Sincronizza le note tra dispositivi|Sincronizzare le note tra dispositivi]].
 
 ## Widget
 

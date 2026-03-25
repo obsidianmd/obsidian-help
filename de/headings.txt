@@ -1179,7 +1179,6 @@ Local Graph=Lokaler Graph
 
 [plugins/format-converter]
 Supported formats=Unterstützte Formate
-[[Properties]]=[[Eigenschaften]]
 
 [plugins]
 All core plugins=Alle Obsidian-Erweiterungen
@@ -1317,3 +1316,7 @@ Broken links=Defekte Links
 Descriptions=Beschreibungen
 Directions=Richtungen
 Translations=Übersetzungen
+
+[publish/headless]
+Quick start=Schnellstart
+Commands=Befehle
