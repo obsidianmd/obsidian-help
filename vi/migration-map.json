@@ -1,0 +1,11 @@
+{
+  "Obsidian/Index": "/",
+  "Obsidian/Obsidian": "obsidian",
+  "Obsidian/Obsidian Mobile": "mobile",
+  "Plugin/List of plugins": "plugins",
+  "Plugin/Zettelkasten prefixer": "plugins/unique-note",
+  "Plugin/Starred notes": "plugins/bookmarks",
+  "Plugin/Open in default app": null,
+  "Plugin/Tag pane": "plugins/tags",
+  "Plugin/Publish": "publish"
+}
