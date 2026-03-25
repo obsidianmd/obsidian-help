@@ -1,7 +1,7 @@
 ---
 permalink: publish/domains
 mobile: true
-description: "You can set up a custom domain or subdomain for your\_Obsidian Publish\_site."
+description: Bạn có thể thiết lập tên miền tùy chỉnh hoặc tên miền phụ cho trang Obsidian Publish của bạn.
 ---
 Bạn có thể thiết lập tên miền tùy chỉnh hoặc tên miền phụ cho trang [[Giới thiệu về Obsidian Publish|Obsidian Publish]] của bạn.
 

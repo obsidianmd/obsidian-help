@@ -1,6 +1,6 @@
 ---
 permalink: headless
-description: Obsidian Headless is a command line client for Obsidian services. Sync your vaults without the desktop app.
+description: Obsidian Headless là một ứng dụng dòng lệnh dành cho các dịch vụ Obsidian. Đồng bộ hóa kho ghi chú của bạn mà không cần ứng dụng máy tính.
 ---
 Obsidian Headless **(bản beta mở)** là một client không giao diện cho các dịch vụ Obsidian. Nó cho phép bạn [[Đồng bộ hóa không giao diện|đồng bộ kho]] từ dòng lệnh mà không cần ứng dụng máy tính, với tất cả tốc độ, quyền riêng tư và lợi ích mã hóa đầu cuối của [[Giới thiệu về Obsidian Sync|Obsidian Sync]].
 

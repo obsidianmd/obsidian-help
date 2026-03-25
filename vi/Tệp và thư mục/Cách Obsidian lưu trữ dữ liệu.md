@@ -2,7 +2,7 @@
 permalink: data-storage
 publish: true
 mobile: true
-description: This page explains how Obsidian stores its data on your device.
+description: Trang này giải thích cách Obsidian lưu trữ dữ liệu trên thiết bị của bạn.
 ---
 Obsidian lưu trữ ghi chú của bạn dưới dạng tệp văn bản thuần được [[Cú pháp định dạng cơ bản|định dạng Markdown]] trong một _kho_. Kho là một thư mục trên hệ thống tệp cục bộ của bạn, bao gồm cả các thư mục con.
 

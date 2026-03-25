@@ -2,7 +2,7 @@
 permalink: plugins/file-recovery
 publish: true
 mobile: true
-description: File Recovery helps protect your work from unintentional data loss by automatically saving snapshots of your notes at regular intervals.
+description: File Recovery giúp bảo vệ công việc của bạn khỏi mất dữ liệu ngoài ý muốn bằng cách tự động lưu các bản chụp nhanh ghi chú của bạn theo khoảng thời gian đều đặn.
 aliases:
   - Plugin/File recovery
 ---

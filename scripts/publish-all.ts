@@ -9,12 +9,15 @@
  */
 
 import { execSync } from "child_process";
+import fs from "fs";
 import path from "path";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const SCRIPTS_DIR = import.meta.dirname;
 
-const ACTIVE_LOCALES = ["en", "ar", "de", "ja", "pt-br", "es", "ko", "zh", "fr", "ru", "it"];
+type LocaleDef = { code: string; dir?: string; label: string; base: string };
+const localeDefs: LocaleDef[] = JSON.parse(fs.readFileSync(path.join(SCRIPTS_DIR, "locales.json"), "utf8"));
+const ACTIVE_LOCALES = localeDefs.map(l => l.dir ?? l.code);
 
 const cliArgs = process.argv.slice(2);
 const dryRun = cliArgs.includes("--dry-run");

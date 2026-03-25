@@ -3,7 +3,7 @@ permalink: bases
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: 'Create database-like views of your notes, formatted as tables or cards. Edit, sort, and filter files using their properties.'
+description: 'Tạo các chế độ xem dạng cơ sở dữ liệu cho ghi chú của bạn, được định dạng dưới dạng bảng hoặc thẻ. Chỉnh sửa, sắp xếp và lọc tệp bằng các thuộc tính của chúng.'
 ---
 Cơ sở là một [[Plugin cốt lõi|plugin cốt lõi]] cho phép bạn tạo các chế độ xem giống cơ sở dữ liệu cho ghi chú của mình. Sử dụng cơ sở, bạn có thể xem, chỉnh sửa, sắp xếp và lọc tệp cùng [[Thuộc tính|thuộc tính]] của chúng. Cơ sở có thể giúp bạn tổ chức mọi thứ từ dự án đến kế hoạch du lịch, danh sách đọc và nhiều hơn nữa.
 

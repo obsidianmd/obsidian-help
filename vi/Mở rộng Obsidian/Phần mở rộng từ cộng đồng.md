@@ -1,7 +1,7 @@
 ---
 permalink: community-plugins
 mobile: false
-description: Learn how to extend Obsidian with plugins built by the community.
+description: Tìm hiểu cách mở rộng Obsidian với các plugin được xây dựng bởi cộng đồng.
 ---
 Tìm hiểu cách mở rộng Obsidian với các plugin được xây dựng bởi cộng đồng. Sử dụng plugin để điều chỉnh Obsidian phù hợp với nhu cầu cụ thể của bạn, chẳng hạn như hỗ trợ thêm các định dạng tệp bổ sung hoặc tích hợp với dịch vụ bên thứ ba.
 

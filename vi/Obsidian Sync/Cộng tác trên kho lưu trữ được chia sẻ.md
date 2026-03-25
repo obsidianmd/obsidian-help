@@ -2,7 +2,7 @@
 permalink: sync/collaborate
 publish: true
 mobile: true
-description: This page details how you can collaborate with other Obsidian Sync users.
+description: Trang này trình bày chi tiết cách bạn có thể cộng tác với những người dùng Obsidian Sync khác.
 ---
 Với [[Giới thiệu về Obsidian Sync|Obsidian Sync]], bạn có thể cộng tác trên một kho được chia sẻ với nhóm của mình.
 

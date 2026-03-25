@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: This page describes the differences between local and remote vaults in practice.
+description: Trang này mô tả sự khác biệt giữa kho lưu trữ cục bộ và kho lưu trữ từ xa trong thực tế.
 ---
 Nếu bạn muốn sử dụng ghi chú trên các thiết bị khác nhau, một trong những lựa chọn bạn có là [[Đồng bộ hóa ghi chú giữa các thiết bị]]. Obsidian cung cấp một dịch vụ như vậy, [[Giới thiệu về Obsidian Sync|Obsidian Sync]], hoạt động khác với các dịch vụ đồng bộ hóa khác, như [[Đồng bộ hóa ghi chú giữa các thiết bị#iCloud|iCloud]] và [[Đồng bộ hóa ghi chú giữa các thiết bị#OneDrive|OneDrive]].
 

@@ -4,7 +4,7 @@ cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: 'Learn about mobile-specific features in Obsidian, including the mobile toolbar, quick actions, and navigation bar.'
+description: 'Tìm hiểu về các tính năng dành riêng cho thiết bị di động trong Obsidian, bao gồm thanh công cụ di động, thao tác nhanh và thanh điều hướng.'
 aliases:
   - Obsidian/Obsidian Mobile
   - Obsidian/Mobile app beta

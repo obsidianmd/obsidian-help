@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: 'Move your Sync vault to a different region, perform and encryption upgrade.'
+description: 'Di chuyển kho Sync của bạn sang một khu vực khác, thực hiện nâng cấp mã hóa.'
 ---
 Theo mặc định, Obsidian Sync sử dụng [[Obsidian Sync/Bảo mật và quyền riêng tư#Mã hóa|mã hóa đầu cuối]] cho tất cả dữ liệu của bạn. Điều này đảm bảo rằng không ai — kể cả đội ngũ Obsidian — có thể truy cập ghi chú của bạn.
 

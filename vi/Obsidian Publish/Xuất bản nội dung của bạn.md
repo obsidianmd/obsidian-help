@@ -2,7 +2,7 @@
 permalink: publish/publish
 publish: true
 mobile: true
-description: Learn how to publish your content using Obsidian Publish
+description: Tìm hiểu cách xuất bản nội dung của bạn bằng Obsidian Publish.
 ---
 Trang này giải thích cách quản lý nội dung đã xuất bản của bạn. Để tìm hiểu cách tùy chỉnh kiểu dáng trang web, xem [[Tùy chỉnh trang web của bạn]].
 

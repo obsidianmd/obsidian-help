@@ -1,7 +1,7 @@
 ---
 permalink: publish/customize
 publish: true
-description: Learn how to customize the appearance and style of your Obsidian Publish site.
+description: Tìm hiểu cách tùy chỉnh giao diện và phong cách của trang Obsidian Publish của bạn.
 ---
 Trang này giải thích cách bạn có thể tùy chỉnh giao diện và trải nghiệm của trang [[Giới thiệu về Obsidian Publish|Obsidian Publish]] của bạn.
 

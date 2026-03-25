@@ -2,7 +2,7 @@
 permalink: sync/faq
 publish: true
 mobile: true
-description: This page lists some of the common questions related to questions and limitations for Obsidian Sync.
+description: Trang này liệt kê một số câu hỏi thường gặp liên quan đến các thắc mắc và giới hạn của Obsidian Sync.
 ---
 Trang này liệt kê một số câu hỏi phổ biến liên quan đến các thắc mắc và giới hạn của [[Giới thiệu về Obsidian Sync|Obsidian Sync]].
 

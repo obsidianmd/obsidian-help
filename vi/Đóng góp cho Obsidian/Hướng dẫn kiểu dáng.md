@@ -2,7 +2,7 @@
 permalink: style-guide
 publish: true
 mobile: true
-description: This page explains the style guide for writing our support documentation.
+description: Trang này giải thích hướng dẫn về phong cách viết cho tài liệu hỗ trợ của chúng tôi.
 ---
 Tài liệu của Obsidian tuân theo các hướng dẫn kiểu dáng được liệt kê trên trang này. Các hướng dẫn này dựa trên các phương pháp tốt nhất trong ngành, đặc biệt là [Hướng dẫn kiểu tài liệu phát triển của Google](https://developers.google.com/style) và [Hướng dẫn kiểu của Microsoft](https://learn.microsoft.com/en-us/style-guide/). Đối với các trường hợp không được đề cập bên dưới, hãy tham khảo các hướng dẫn bên ngoài đó như tài liệu tham khảo phụ.
 

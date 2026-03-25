@@ -2,7 +2,7 @@
 permalink: bases/functions
 publish: true
 mobile: true
-description: This page details the functions used in Obsidian Bases to manipulate data from properties in filters and formulas.
+description: Trang này trình bày chi tiết các hàm được sử dụng trong Obsidian Bases để thao tác dữ liệu từ các thuộc tính trong bộ lọc và công thức.
 ---
 Các hàm được sử dụng trong [[Giới thiệu về Cơ sở|Cơ sở]] để thao tác dữ liệu từ [[Thuộc tính|thuộc tính]] trong [[Các chế độ xem#Bộ lọc|bộ lọc]] và [[Công thức|công thức]]. Xem tham chiếu [[Cú pháp Cơ sở|cú pháp cơ sở]] để tìm hiểu thêm về cách bạn có thể sử dụng các hàm.
 

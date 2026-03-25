@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Move your Sync vault to a different region.
+description: Di chuyển kho Sync của bạn sang một khu vực khác.
 ---
 Khi bạn tạo một [[Kho lưu trữ cục bộ và từ xa|kho từ xa]] thông qua [[Giới thiệu về Obsidian Sync|Obsidian Sync]], dữ liệu của bạn được mã hóa và lưu trữ trên một trong các máy chủ Sync khu vực của Obsidian. Hướng dẫn này giải thích cách di chuyển kho Sync của bạn sang một máy chủ khu vực khác.
 

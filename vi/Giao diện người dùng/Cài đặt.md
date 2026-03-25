@@ -2,7 +2,7 @@
 permalink: settings
 publish: true
 mobile: true
-description: Learn how to customize Obsidian through the Settings interface.
+description: Tìm hiểu cách tùy chỉnh Obsidian thông qua giao diện Cài đặt.
 ---
 Cài đặt cho phép bạn tùy chỉnh trải nghiệm Obsidian của mình. Cấu hình các tùy chọn chung, tùy chọn trình chỉnh sửa, giao diện, phím tắt, và quản lý cả plugin cốt lõi lẫn plugin cộng đồng.
 

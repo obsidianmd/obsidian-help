@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: 'Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers.'
+description: 'Thuộc tính cho phép bạn tổ chức thông tin về một ghi chú. Thuộc tính chứa dữ liệu có cấu trúc như văn bản, liên kết, ngày tháng, hộp kiểm và số.'
 ---
 Thuộc tính cho phép bạn tổ chức thông tin về một ghi chú. Thuộc tính chứa dữ liệu có cấu trúc như chữ, liên kết, ngày, hộp kiểm và số. Thuộc tính cũng có thể được sử dụng kết hợp với [[Phần mở rộng từ cộng đồng]] có thể thực hiện những việc hữu ích với dữ liệu có cấu trúc của bạn.
 

@@ -2,7 +2,7 @@
 permalink: sync/headless
 cssclasses:
   - reference
-description: 'Obsidian Sync offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.'
+description: 'Obsidian Sync cung cấp một ứng dụng khách headless để đồng bộ kho lưu trữ mà không cần sử dụng ứng dụng desktop. Hữu ích cho các pipeline CI, agent và quy trình tự động. Đồng bộ các thay đổi mới nhất hoặc giữ các tệp được cập nhật liên tục.'
 ---
 [[Giới thiệu về Obsidian Sync|Obsidian Sync]] cung cấp một ứng dụng không giao diện để đồng bộ hóa kho mà không cần sử dụng ứng dụng máy tính. Hữu ích cho quy trình CI, tác nhân và các luồng công việc tự động. Đồng bộ hóa các thay đổi mới nhất hoặc giữ tệp liên tục được cập nhật.
 

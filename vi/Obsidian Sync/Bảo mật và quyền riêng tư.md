@@ -2,7 +2,7 @@
 permalink: sync/security
 publish: true
 mobile: false
-description: Learn about the security and privacy considerations for Obsidian Sync.
+description: Tìm hiểu về các cân nhắc bảo mật và quyền riêng tư cho Obsidian Sync.
 ---
 ## Mã hóa
 

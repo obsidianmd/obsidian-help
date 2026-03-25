@@ -2,7 +2,7 @@
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true
-description: 'Learn about Obsidian Flavored Markdown, including supported extensions and how Markdown interacts with HTML elements.'
+description: 'Tìm hiểu về Obsidian Flavored Markdown, bao gồm các phần mở rộng được hỗ trợ và cách Markdown tương tác với các phần tử HTML.'
 ---
 Obsidian hướng đến khả năng tối đa mà không phá vỡ bất kỳ định dạng hiện có nào. Do đó, chúng tôi sử dụng sự kết hợp của nhiều biến thể [[Cú pháp định dạng cơ bản|Markdown]].
 

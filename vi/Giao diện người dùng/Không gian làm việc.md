@@ -2,7 +2,7 @@
 permalink: workspace
 publish: true
 mobile: true
-description: Learn about the Obsidian workspace and its core components on desktop and mobile.
+description: Tìm hiểu về không gian làm việc của Obsidian và các thành phần cốt lõi của nó trên máy tính để bàn và thiết bị di động.
 ---
 Không gian làm việc là vùng chứa chính cho tất cả các thành phần tạo nên giao diện Obsidian. Nó bao gồm các phần tử khác nhau được sắp xếp xung quanh ghi chú của bạn, cho phép bạn tùy chỉnh cách xem và tương tác với nội dung.
 

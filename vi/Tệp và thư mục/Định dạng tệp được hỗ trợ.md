@@ -2,7 +2,7 @@
 permalink: file-formats
 publish: true
 mobile: true
-description: This page describes the accepted file formats within Obsidian.
+description: Trang này mô tả các định dạng tệp được hỗ trợ trong Obsidian.
 ---
 Obsidian hỗ trợ các loại tệp sau:
 

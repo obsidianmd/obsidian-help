@@ -1,7 +1,7 @@
 ---
 permalink: publish/setup
 mobile: true
-description: 'In this guide, you''ll enable Obsidian Publish for your vault, create a site, and publish your notes to it.'
+description: 'Trong hướng dẫn này, bạn sẽ kích hoạt Obsidian Publish cho kho ghi chú của mình, tạo một trang web và xuất bản ghi chú lên đó.'
 ---
 Trong hướng dẫn này, bạn sẽ kích hoạt [[Giới thiệu về Obsidian Publish|Obsidian Publish]] cho kho của bạn, tạo một trang web và xuất bản ghi chú lên đó.
 

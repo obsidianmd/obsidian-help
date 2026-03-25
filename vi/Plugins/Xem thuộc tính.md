@@ -2,7 +2,7 @@
 permalink: plugins/properties
 publish: true
 mobile: true
-description: Properties view is a core plugin that adds two sidebar views that you can use to manage Properties.
+description: Properties view là plugin cốt lõi bổ sung hai chế độ xem thanh bên mà bạn có thể sử dụng để quản lý Thuộc tính.
 ---
 Xem thuộc tính là một [[Plugin cốt lõi|plugin cốt lõi]] bổ sung hai chế độ xem thanh bên mà bạn có thể sử dụng để quản lý [[Thuộc tính]]:
 

@@ -2,7 +2,7 @@
 permalink: plugins/outgoing-links
 publish: true
 mobile: false
-description: 'Outgoing links is a core plugin that shows links from the active note at a glance, as well as potential links to be made.'
+description: 'Outgoing links là plugin cốt lõi hiển thị nhanh các liên kết từ ghi chú đang hoạt động, cũng như các liên kết tiềm năng có thể tạo.'
 aliases:
   - Plugin/Outgoing links
 ---

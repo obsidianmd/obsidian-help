@@ -1,6 +1,6 @@
 ---
 permalink: plugins/quick-switcher
-description: Quick switcher is a core plugin that lets you search and open notes using only your keyboard.
+description: Quick switcher là plugin cốt lõi cho phép bạn tìm kiếm và mở ghi chú chỉ bằng bàn phím.
 aliases:
   - Plugin/Quick switcher
 ---

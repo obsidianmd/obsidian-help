@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+description: Bạn đã mua Obsidian Sync và sẵn sàng bắt đầu. Hướng dẫn này sẽ giúp bạn thiết lập và điều chỉnh các cài đặt Obsidian Sync cho việc sử dụng hàng ngày.
 ---
 Bạn đã mua Obsidian Sync và sẵn sàng bắt đầu. Hướng dẫn này sẽ giúp bạn thiết lập và điều chỉnh cài đặt Obsidian Sync cho việc sử dụng hàng ngày.
 

@@ -2,7 +2,7 @@
 permalink: community-code-of-conduct
 publish: true
 mobile: true
-description: This page details the rules that apply to all Obsidian community spaces.
+description: Trang này trình bày chi tiết các quy tắc áp dụng cho tất cả các không gian cộng đồng Obsidian.
 ---
 ## Các quy tắc
 

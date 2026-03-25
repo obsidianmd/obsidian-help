@@ -2,7 +2,7 @@
 permalink: tabs
 publish: true
 mobile: true
-description: 'Learn how to open, organize, and manage tabs in Obsidian, including pinning, stacking, and linked views.'
+description: 'Tìm hiểu cách mở, sắp xếp và quản lý các tab trong Obsidian, bao gồm ghim, xếp chồng và liên kết các chế độ xem.'
 ---
 Thẻ trong Obsidian hoạt động tương tự như thẻ trong các ứng dụng khác, chẳng hạn như trình duyệt web.
 

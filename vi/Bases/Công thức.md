@@ -1,6 +1,6 @@
 ---
 permalink: formulas
-description: 'Formulas allow you to create calculated properties using data from other properties. You can perform calculations, manipulate text, work with dates, and more.'
+description: 'Công thức cho phép bạn tạo các thuộc tính được tính toán bằng cách sử dụng dữ liệu từ các thuộc tính khác. Bạn có thể thực hiện phép tính, thao tác với văn bản, làm việc với ngày tháng và nhiều hơn nữa.'
 ---
 Công thức cho phép bạn tạo các thuộc tính được tính toán trong [[Giới thiệu về Cơ sở|Cơ sở]] sử dụng dữ liệu từ các [[Thuộc tính|thuộc tính]] khác. Bạn có thể thực hiện các phép tính, thao tác với văn bản, làm việc với ngày tháng và nhiều hơn nữa.
 

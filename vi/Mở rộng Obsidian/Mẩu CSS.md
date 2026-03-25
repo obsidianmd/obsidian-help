@@ -2,7 +2,7 @@
 permalink: snippets
 publish: true
 mobile: true
-description: Learn how to change parts of the Obsidian app’s appearance without creating a full theme.
+description: Tìm hiểu cách thay đổi một số phần giao diện của ứng dụng Obsidian mà không cần tạo một chủ đề hoàn chỉnh.
 ---
 Tìm hiểu cách thay đổi các khía cạnh giao diện của ứng dụng Obsidian mà không cần [xây dựng một chủ đề](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 

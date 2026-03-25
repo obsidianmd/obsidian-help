@@ -2,7 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: 'Learn how to use HTML in Obsidian, including limitations with Markdown rendering, and HTML block requirements.'
+description: 'Tìm hiểu cách sử dụng HTML trong Obsidian, bao gồm các hạn chế với việc hiển thị Markdown và các yêu cầu về khối HTML.'
 ---
 Obsidian hỗ trợ HTML để cho phép bạn hiển thị ghi chú theo cách bạn muốn, hoặc thậm chí [[Nhúng trang web|nhúng trang web]]. Việc cho phép HTML bên trong ghi chú của bạn đi kèm với rủi ro. Để ngăn mã độc gây hại, Obsidian _làm sạch_ mọi HTML trong ghi chú của bạn.
 

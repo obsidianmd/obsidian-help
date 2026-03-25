@@ -1,6 +1,6 @@
 ---
 permalink: cli
-description: Anything you can do in Obsidian can be done from the command line.
+description: Mọi thao tác bạn có thể thực hiện trong Obsidian đều có thể được thực hiện từ dòng lệnh.
 ---
 Obsidian CLI là một giao diện dòng lệnh cho phép bạn điều khiển Obsidian từ terminal để viết kịch bản, tự động hóa và tích hợp với các công cụ bên ngoài.
 

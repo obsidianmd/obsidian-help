@@ -2,7 +2,7 @@
 permalink: plugins/backlinks
 publish: true
 mobile: false
-description: 'With the Backlinks plugin, you can see all the backlinks for the active note.'
+description: 'Với plugin Backlinks, bạn có thể xem tất cả các liên kết ngược cho ghi chú đang hoạt động.'
 aliases:
   - Plugin/Backlinks
 ---

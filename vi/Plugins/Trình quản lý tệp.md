@@ -2,7 +2,7 @@
 permalink: plugins/file-explorer
 publish: true
 mobile: true
-description: File explorer is a core plugin that lets you manage files and folders inside your vault.
+description: File explorer là plugin cốt lõi cho phép bạn quản lý các tệp và thư mục bên trong kho lưu trữ của bạn.
 aliases:
   - Plugin/File explorer
 ---

@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Obsidian Sync keeps a record of all changes made to your notes and regularly checks for updates and creates new versions of your notes.
+description: Obsidian Sync lưu lại bản ghi của tất cả các thay đổi được thực hiện trên ghi chú của bạn và thường xuyên kiểm tra cập nhật cũng như tạo các phiên bản mới cho ghi chú của bạn.
 ---
 [[Giới thiệu về Obsidian Sync|Obsidian Sync]] thường xuyên kiểm tra các cập nhật cho [[Cài đặt đồng bộ và đồng bộ hóa chọn lọc|các tệp đã đồng bộ]] của bạn, lưu lại bản ghi về mọi thay đổi. Những thay đổi này được lưu trữ dưới dạng các mục mới trong [[#Lịch sử phiên bản]]. Thông tin này có thể được truy cập theo một vài cách:
 

@@ -2,7 +2,7 @@
 permalink: sync/messages
 publish: true
 mobile: true
-description: This page explains the Obsidian Sync status icons and provides details about the sync activity log.
+description: Trang này giải thích các biểu tượng trạng thái của Obsidian Sync và cung cấp chi tiết về nhật ký hoạt động đồng bộ.
 ---
 Obsidian Sync cung cấp một số yếu tố để chỉ báo trạng thái đồng bộ, chủ yếu là [[#Biểu tượng trạng thái đồng bộ]] và [[#Nhật ký hoạt động đồng bộ]]. Chi tiết về kiểm soát phiên bản trong Obsidian Sync được trình bày trong trang [[Lịch sử phiên bản]].
 

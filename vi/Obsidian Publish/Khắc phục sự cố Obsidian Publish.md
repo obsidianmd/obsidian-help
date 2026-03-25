@@ -2,7 +2,7 @@
 permalink: publish/troubleshoot
 publish: true
 mobile: true
-description: This page details some common problems that you may run into when using Obsidian Publish
+description: Trang này trình bày chi tiết một số vấn đề thường gặp mà bạn có thể gặp phải khi sử dụng Obsidian Publish.
 ---
 Trang này liệt kê các sự cố thường gặp bạn có thể gặp phải với [[Giới thiệu về Obsidian Publish|Obsidian Publish]] và cách khắc phục chúng.
 

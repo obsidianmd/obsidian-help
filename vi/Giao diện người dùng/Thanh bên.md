@@ -2,7 +2,7 @@
 permalink: sidebar
 publish: true
 mobile: true
-description: Learn about Obsidian's left and right sidebars and how to manage tabs and tab groups.
+description: Tìm hiểu về thanh bên trái và phải của Obsidian cũng như cách quản lý các tab và nhóm tab.
 ---
 Obsidian có hai thanh bên: thanh bên trái và thanh bên phải. Các thanh bên chứa các thẻ được tạo bởi các plugin, chẳng hạn như [[Liên kết đến]], [[Liên kết đi ra]] và [[Trình quản lý tệp]]. Trên máy tính để bàn, bạn cũng có thể kéo ghi chú vào thanh bên để giữ chúng hiển thị cùng với trình chỉnh sửa chính.
 

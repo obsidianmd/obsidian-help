@@ -2,7 +2,7 @@
 permalink: sync/settings
 publish: true
 mobile: true
-description: This page explains the Sync settings and guides you in selecting which files to sync.
+description: Trang này giải thích các cài đặt Sync và hướng dẫn bạn chọn những tệp nào cần đồng bộ.
 ---
 Khi bạn [[Gói và giới hạn lưu trữ#Tạo kho từ xa mới|tạo kho từ xa]] và [[Thiết lập Obsidian Sync#Kết nối với kho từ xa|kết nối với nó]], plugin cốt lõi Sync sẽ trở thành nơi quản lý kho từ xa của bạn.
 

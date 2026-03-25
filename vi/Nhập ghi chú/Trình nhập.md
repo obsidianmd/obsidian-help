@@ -5,7 +5,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Importer helps you migrate to Obsidian from various apps and formats.
+description: Importer giúp bạn chuyển đổi sang Obsidian từ các ứng dụng và định dạng khác nhau.
 ---
 Trình nhập giúp bạn di chuyển sang Obsidian từ nhiều ứng dụng và định dạng khác nhau. Xem hướng dẫn [[Nhập ghi chú]] để biết chi tiết.
 

@@ -1,6 +1,6 @@
 ---
 permalink: plugins/word-count
-description: Learn about the Word Count core plugin.
+description: Tìm hiểu về plugin cốt lõi Word Count.
 aliases:
   - Plugin/Word count
 ---

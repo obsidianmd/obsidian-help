@@ -2,7 +2,7 @@
 permalink: plugins/graph
 publish: true
 mobile: true
-description: Graph view is a core plugin that lets you visualize the relationships between the notes in your vault.
+description: Graph view là plugin cốt lõi cho phép bạn trực quan hóa các mối quan hệ giữa các ghi chú trong kho lưu trữ của bạn.
 aliases:
   - Plugin/Graph view
 ---

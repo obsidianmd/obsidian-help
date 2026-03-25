@@ -2,7 +2,7 @@
 permalink: ribbon
 publish: true
 mobile: true
-description: 'Learn how to use the ribbon, a space for common commands in Obsidian, and customize it on desktop and mobile.'
+description: 'Tìm hiểu cách sử dụng ribbon, một khu vực dành cho các lệnh thường dùng trong Obsidian, và tùy chỉnh nó trên máy tính để bàn và thiết bị di động.'
 ---
 Thanh công cụ đóng vai trò là nơi chứa các lệnh thường dùng trong Obsidian.
 

@@ -2,7 +2,7 @@
 permalink: publish/collaborate
 publish: true
 mobile: true
-description: Learn how to collaborate with other Obsidian users on your Obsidian Publish site.
+description: Tìm hiểu cách cộng tác với những người dùng Obsidian khác trên trang Obsidian Publish của bạn.
 ---
 Tìm hiểu cách cộng tác trên trang [[Giới thiệu về Obsidian Publish|Obsidian Publish]] của bạn với những người dùng Obsidian khác. Bằng cách thêm bạn bè và đồng nghiệp làm cộng tác viên, họ có thể xuất bản các thay đổi lên trang web của bạn.
 

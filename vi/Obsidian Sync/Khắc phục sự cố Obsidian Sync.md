@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: This page lists uncommon issues you may encounter with Obsidian Sync and how to resolve them.
+description: Trang này liệt kê các sự cố không phổ biến mà bạn có thể gặp phải với Obsidian Sync và cách khắc phục chúng.
 ---
 Trang này liệt kê các vấn đề không phổ biến mà bạn có thể gặp phải với [[Giới thiệu về Obsidian Sync|Obsidian Sync]] và cách giải quyết chúng. Trước khi tiếp tục, chúng tôi khuyên bạn nên xem lại các trang [[Biểu tượng và thông báo trạng thái]] và [[Câu hỏi thường gặp]].
 

@@ -2,7 +2,7 @@
 permalink: callouts
 publish: true
 mobile: true
-description: This page details how to use callouts to include additional content without breaking the flow of your notes.
+description: Trang này trình bày chi tiết cách sử dụng callout để thêm nội dung bổ sung mà không làm gián đoạn luồng ghi chú của bạn.
 ---
 Sử dụng khung ghi chú để thêm nội dung bổ sung mà không làm gián đoạn mạch ghi chú của bạn.
 

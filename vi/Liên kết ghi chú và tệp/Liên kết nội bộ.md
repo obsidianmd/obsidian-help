@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: 'Learn how to link to notes, attachments, and other files from your notes, using internal links.'
+description: 'Tìm hiểu cách liên kết đến ghi chú, tệp đính kèm và các tệp khác từ ghi chú của bạn, sử dụng liên kết nội bộ.'
 ---
 Tìm hiểu cách liên kết đến ghi chú, tệp đính kèm và các tệp khác từ ghi chú của bạn, sử dụng _liên kết nội bộ_. Bằng cách liên kết các ghi chú, bạn có thể tạo một mạng lưới kiến thức. ^b15695
 

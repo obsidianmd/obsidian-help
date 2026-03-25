@@ -2,7 +2,7 @@
 permalink: syntax
 publish: true
 mobile: true
-description: 'Learn how to apply basic formatting to your notes in Obsidian, using Markdown.'
+description: Tìm hiểu cách áp dụng định dạng cơ bản cho ghi chú của bạn trong Obsidian bằng Markdown.
 ---
 Tìm hiểu cách áp dụng định dạng cơ bản cho ghi chú của bạn, sử dụng [Markdown](https://daringfireball.net/projects/markdown/). Để biết cú pháp định dạng nâng cao hơn, hãy tham khảo [[Cú pháp định dạng nâng cao]].
 

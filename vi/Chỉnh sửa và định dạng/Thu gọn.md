@@ -2,7 +2,7 @@
 permalink: folding
 publish: true
 mobile: false
-description: Learn how to get a better overview of large notes by using folding to hide parts of the note
+description: Tìm hiểu cách có cái nhìn tổng quan tốt hơn về các ghi chú dài bằng cách sử dụng tính năng gấp để ẩn các phần của ghi chú.
 ---
 Tìm hiểu cách có cái nhìn tổng quan tốt hơn về các ghi chú dài bằng cách sử dụng _thu gọn_ để ẩn các phần của ghi chú. Thu gọn hữu ích khi tạo dàn ý cho ghi chú của bạn và khi bạn muốn tập trung vào những gì bạn đang làm việc tại thời điểm hiện tại.
 

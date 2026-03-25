@@ -1,6 +1,6 @@
 ---
 permalink: web-clipper/templates
-description: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
+description: Tìm hiểu cách tạo các mẫu để thu thập và sắp xếp siêu dữ liệu trang web một cách tự động với Web Clipper.
 aliases:
   - Plugin/Templates
 ---

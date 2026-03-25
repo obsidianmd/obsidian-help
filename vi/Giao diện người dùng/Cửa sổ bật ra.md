@@ -1,6 +1,6 @@
 ---
 permalink: pop-out-windows
-description: Learn how to open files in separate pop-out windows.
+description: Tìm hiểu cách mở tệp trong các cửa sổ bật ra riêng biệt.
 ---
 > [!compatibility] Tính năng này chỉ khả dụng trên Máy tính.
 

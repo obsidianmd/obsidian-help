@@ -82,11 +82,16 @@ npx tsx scripts/migrate-locale.ts <locale> --commit <sha> --apply
 
 ### Step 3 — Translate all stubs
 
-Sends each `localized: null` file to the LLM for full translation. Translates content + description frontmatter.
+Sends each `localized: false` file to the LLM for full translation. After translating the body, descriptions are automatically translated in a batched pass.
 
 ```bash
 npx tsx scripts/translate-locale.ts <locale> --dry-run   # preview count
 npx tsx scripts/translate-locale.ts <locale>             # translate all
+```
+
+To re-translate descriptions for already-localized files (e.g. after EN descriptions changed):
+```bash
+npx tsx scripts/translate-locale.ts <locale> --translate-descriptions
 ```
 
 Translate in batches if the locale is large:
@@ -135,26 +140,32 @@ Create `<locale>/publish.strings.js` with translated UI strings for the Publish 
 })();
 ```
 
-Then add the locale to `en/publish.js` LOCALES array (keep alphabetical, `zh` last) and sync to all locales:
+Add the locale to `scripts/locales.json` (single source of truth — keep alphabetical, `zh` last). Then build:
 
 ```bash
-# Edit en/publish.js — add entry to LOCALES array
+# Edit scripts/locales.json — add entry { "code": "xx", "label": "Native Name", "base": "https://obsidian.md/xx/help" }
+# For locales where the directory name differs from the URL code (e.g. pt-BR → pt-br), add a "dir" field
 npx tsx scripts/build-publish-js.ts <locale>   # bootstrap locale's publish.js (first time)
-npx tsx scripts/build-publish-js.ts            # sync to all locales
+npx tsx scripts/build-publish-js.ts            # sync to all locales (also regenerates en/publish.js)
 ```
 
 Label conventions: use the native language name, e.g. `Português (Brasil)` for pt-BR, `Español` for es. Use the correct locale code (e.g. `pt-BR` not `pt-br`) to match the Obsidian Publish URL.
 
-After publishing each locale, also publish `en/` — it hosts `publish.js` too:
-
-```bash
-cd en && ob publish --all --yes
-```
-
 ### Step 6 — Publish
+
+Publish the new locale, then republish **all other active locales** (so they pick up the updated language switcher in `publish.js`), and also publish `en/`:
 
 ```bash
 cd <locale> && ob publish --all --yes
+cd ../en && ob publish --all --yes
+# Republish all other locales to push the updated language switcher:
+for locale in ar de ja pt-br es ko zh fr ru it; do cd ../$locale && ob publish --all --yes; done
+```
+
+Or use the publish-all script (it handles nav order too):
+
+```bash
+npx tsx scripts/publish-all.ts
 ```
 
 ## Notes
@@ -176,5 +187,6 @@ cd <locale> && ob publish --all --yes
 - `scripts/check-links.ts` — broken wikilink checker
 - `scripts/check-terms.ts` — terminology checker
 - `<locale>/publish.strings.js` — locale UI strings for Publish site (search, footer, graph, outline, backlinks labels)
-- `scripts/build-publish-js.ts` — concatenates publish.strings.js into publish.js and syncs to all locales
+- `scripts/locales.json` — **single source of truth** for active locales (code, label, base URL, optional dir)
+- `scripts/build-publish-js.ts` — reads locales.json, regenerates LOCALES block in en/publish.js, concatenates publish.strings.js into each locale's publish.js
 - `scripts/sync-nav-order.ts` — translates EN nav order to locale paths; run automatically by `publish-all.ts`

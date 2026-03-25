@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Learn how to transition from your current syncing solution to Obsidian Sync.
+description: Tìm hiểu cách chuyển đổi từ giải pháp đồng bộ hiện tại của bạn sang Obsidian Sync.
 ---
 Tìm hiểu cách chuyển đổi từ giải pháp đồng bộ hóa hiện tại của bạn sang Obsidian Sync.
 

@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: How to sync your Obsidian notes across devices and platforms.
+description: Cách đồng bộ ghi chú Obsidian của bạn trên các thiết bị và nền tảng.
 ---
 Obsidian lưu trữ ghi chú trên thiết bị của bạn nên bạn luôn có thể truy cập chúng, ngay cả khi ngoại tuyến. Để truy cập ghi chú trên nhiều thiết bị, bạn cần thiết lập phương thức đồng bộ hóa.
 

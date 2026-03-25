@@ -1,6 +1,6 @@
 ---
 permalink: web-clipper/logic
-description: 'Use conditionals, loops, and variable assignment in Web Clipper templates.'
+description: 'Sử dụng câu lệnh điều kiện, vòng lặp và gán biến trong các mẫu Web Clipper.'
 ---
 [[Giới thiệu về Obsidian Web Clipper|Web Clipper]] hỗ trợ logic mẫu cho điều kiện, vòng lặp và gán biến. Cú pháp này được lấy cảm hứng từ các ngôn ngữ mẫu [Twig](https://twig.symfony.com/) và [Liquid](https://shopify.github.io/liquid/).
 

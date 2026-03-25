@@ -2,7 +2,7 @@
 permalink: resources
 publish: true
 mobile: true
-description: 'Find support resources, report security or community violations, and learn how to contribute to Obsidian.'
+description: 'Tìm các tài nguyên hỗ trợ, báo cáo vi phạm bảo mật hoặc vi phạm cộng đồng, và tìm hiểu cách đóng góp cho Obsidian.'
 ---
 Tìm tài nguyên hỗ trợ, báo cáo vi phạm bảo mật hoặc vi phạm cộng đồng, và tìm hiểu cách đóng góp cho Obsidian.
 

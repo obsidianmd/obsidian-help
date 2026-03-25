@@ -2,7 +2,7 @@
 permalink: sync/plans
 publish: true
 mobile: true
-description: Learn about the different plan options we have available for Obsidian Sync.
+description: Tìm hiểu về các tùy chọn gói dịch vụ khác nhau mà chúng tôi cung cấp cho Obsidian Sync.
 ---
 ## Các gói
 

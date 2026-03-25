@@ -5,7 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: 'This page lists the core plugins that come installed with Obsidian, and community plugins they also maintain.'
+description: Trang này liệt kê các plugin cốt lõi được cài đặt sẵn cùng Obsidian và các plugin cộng đồng mà họ cũng duy trì.
 aliases:
   - Plugin/List of plugins
 ---

@@ -5,7 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: Obsidian Sync is an add-on service that allows you to privately sync your notes across devices.
+description: Obsidian Sync là dịch vụ bổ sung cho phép bạn đồng bộ ghi chú một cách riêng tư giữa các thiết bị.
 ---
 [Obsidian Sync](https://obsidian.md/sync) là dịch vụ bổ sung cho phép bạn đồng bộ hóa ghi chú một cách riêng tư giữa các thiết bị.
 

@@ -2,7 +2,7 @@
 permalink: configuration-folder
 publish: true
 mobile: true
-description: Learn how to access and manage your configuration folder on desktop and mobile devices.
+description: Tìm hiểu cách truy cập và quản lý thư mục cấu hình trên thiết bị máy tính để bàn và thiết bị di động.
 ---
 Thư mục cấu hình của Obsidian chứa tất cả các tệp cài đặt liên quan đến [[Quản lý kho|kho]] của bạn.
 

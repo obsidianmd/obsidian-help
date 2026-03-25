@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Templates is a Core plugins|core plugin that lets you insert pre-defined snippets of text into your active note.
+description: Templates là plugin cốt lõi cho phép bạn chèn các đoạn văn bản được định nghĩa sẵn vào ghi chú đang hoạt động.
 ---
 Mẫu là một [[Plugin cốt lõi|plugin cốt lõi]] cho phép bạn chèn các đoạn văn bản được định nghĩa sẵn vào ghi chú đang hoạt động.
 

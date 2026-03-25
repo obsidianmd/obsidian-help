@@ -2,7 +2,7 @@
 permalink: bases/syntax
 publish: true
 mobile: true
-description: This page provides an introduction to Bases syntax in Obsidian.
+description: Trang này cung cấp phần giới thiệu về cú pháp Bases trong Obsidian.
 ---
 Khi bạn [[Tạo một cơ sở|tạo một cơ sở]] trong Obsidian, nó được lưu dưới dạng tệp `.base`. Cơ sở thường được chỉnh sửa bằng giao diện ứng dụng, nhưng cú pháp cũng có thể được chỉnh sửa thủ công và nhúng trong một khối mã.
 
