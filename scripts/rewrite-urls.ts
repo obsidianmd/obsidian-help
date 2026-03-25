@@ -1,12 +1,12 @@
 #!/usr/bin/env tsx
 /**
- * localize-urls.ts
+ * rewrite-urls.ts
  * Rewrites https://obsidian.md/ links to https://obsidian.md/<locale>/
  * in all markdown files in a locale directory.
  *
  * Usage:
- *   npx tsx scripts/localize-urls.ts <locale> [--dry-run]
- *   npx tsx scripts/localize-urls.ts --all [--dry-run]
+ *   npx tsx scripts/rewrite-urls.ts <locale> [--dry-run]
+ *   npx tsx scripts/rewrite-urls.ts --all [--dry-run]
  *
  * Exclusions (kept as-is):
  *   - URLs already containing /<locale>/
@@ -33,8 +33,8 @@ const allMode = args.includes("--all");
 const localeArg = args.find(a => a !== "--dry-run" && a !== "--all");
 
 if (!allMode && !localeArg) {
-  console.error("Usage: npx tsx scripts/localize-urls.ts <locale> [--dry-run]");
-  console.error("       npx tsx scripts/localize-urls.ts --all [--dry-run]");
+  console.error("Usage: npx tsx scripts/rewrite-urls.ts <locale> [--dry-run]");
+  console.error("       npx tsx scripts/rewrite-urls.ts --all [--dry-run]");
   process.exit(1);
 }
 

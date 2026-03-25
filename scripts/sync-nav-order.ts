@@ -1,7 +1,7 @@
 #!/usr/bin/env tsx
 /**
- * localize-nav-order.ts
- * Usage: npx tsx scripts/localize-nav-order.ts <locale> [--dry-run]
+ * sync-nav-order.ts
+ * Usage: npx tsx scripts/sync-nav-order.ts <locale> [--dry-run]
  *
  * Reads the EN nav order from `ob publish-site-options`, translates each path
  * to its locale equivalent using filenames.txt, then applies it via
@@ -19,7 +19,7 @@ const locale = process.argv[2];
 const dryRun = process.argv.includes("--dry-run");
 
 if (!locale) {
-  console.error("Usage: npx tsx scripts/localize-nav-order.ts <locale> [--dry-run]");
+  console.error("Usage: npx tsx scripts/sync-nav-order.ts <locale> [--dry-run]");
   process.exit(1);
 }
 

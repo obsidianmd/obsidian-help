@@ -41,20 +41,11 @@ After translation, `localized` and `needs-retranslation` are removed from frontm
 
 ```bash
 npx tsx scripts/check-links.ts <locale>          # broken wikilinks
-npx tsx scripts/lint-locale.ts <locale>          # unofficial terminology
-npx tsx scripts/lint-locale.ts <locale> --fix    # auto-correct terminology
+npx tsx scripts/check-terms.ts <locale>          # unofficial terminology
+npx tsx scripts/check-terms.ts <locale> --fix    # auto-correct terminology
 ```
 
-### Step 4 — Sync nav order (if EN nav order changed)
-
-Translates the EN site's `navigationOrdering` to locale paths using `filenames.txt` and applies it.
-
-```bash
-npx tsx scripts/localize-nav-order.ts <locale> --dry-run   # preview
-npx tsx scripts/localize-nav-order.ts <locale>             # apply
-```
-
-### Step 5 — Rebuild publish.js
+### Step 4 — Rebuild publish.js
 
 `en/publish.js` is the source of truth. Each locale's `publish.js` = switcher + its own `publish.strings.js`. Rebuild after any change to `en/publish.js` or a locale's strings file.
 
@@ -62,7 +53,7 @@ npx tsx scripts/localize-nav-order.ts <locale>             # apply
 npx tsx scripts/build-publish-js.ts [locale ...]   # omit locale to rebuild all
 ```
 
-### Step 6 — Publish
+### Step 5 — Publish
 
 ```bash
 ob publish --path <locale> --all --yes
@@ -102,7 +93,7 @@ When applying surgical link fixes: find the locale equivalent file by matching t
 
 **EN wikilinks/anchors corrected** → inspect each change, apply surgically to locale files. Check if the old pattern actually appears in locale files before assuming it does.
 
-**EN nav order changed** → run `localize-nav-order.ts` for affected locales.
+**EN nav order changed** → run `sync-nav-order.ts` for affected locales.
 
 **EN publish.js changed** → run `build-publish-js.ts` to rebuild all locale `publish.js` files.
 

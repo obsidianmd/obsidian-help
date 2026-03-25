@@ -3,7 +3,8 @@
  * publish-all.ts
  * Usage: npx tsx scripts/publish-all.ts [--dry-run] [locale ...]
  *
- * Publishes all active locales (or the ones specified) via `ob publish`.
+ * Publishes all active locales (or the ones specified) via `ob publish`,
+ * then syncs nav order for each non-EN locale.
  * Runs each locale sequentially and reports success/failure per locale.
  */
 
@@ -11,6 +12,7 @@ import { execSync } from "child_process";
 import path from "path";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
+const SCRIPTS_DIR = import.meta.dirname;
 
 const ACTIVE_LOCALES = ["en", "ar", "de", "ja", "pt-br", "es", "ko", "zh", "fr", "ru", "it"];
 
@@ -26,19 +28,32 @@ let failed = 0;
 
 for (const locale of locales) {
   const localePath = path.join(ROOT, locale);
-  const flags = ["--path", localePath, "--all", dryRun ? "--dry-run" : "--yes"].join(" ");
-  const cmd = `ob publish ${flags}`;
+  const publishFlags = ["--path", localePath, "--all", dryRun ? "--dry-run" : "--yes"].join(" ");
+  const publishCmd = `ob publish ${publishFlags}`;
 
   console.log(`── ${locale}`);
-  console.log(`   ${cmd}`);
+  console.log(`   ${publishCmd}`);
 
   try {
-    const out = execSync(cmd, { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
+    const out = execSync(publishCmd, { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
     if (out.trim()) {
       for (const line of out.trim().split("\n")) {
         console.log(`   ${line}`);
       }
     }
+
+    if (locale !== "en") {
+      const navArgs = [locale, ...(dryRun ? ["--dry-run"] : [])].join(" ");
+      const navCmd = `npx tsx ${path.join(SCRIPTS_DIR, "sync-nav-order.ts")} ${navArgs}`;
+      console.log(`   ${navCmd}`);
+      const navOut = execSync(navCmd, { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
+      if (navOut.trim()) {
+        for (const line of navOut.trim().split("\n")) {
+          console.log(`   ${line}`);
+        }
+      }
+    }
+
     console.log(`   ✓ done\n`);
     ok++;
   } catch (err: unknown) {

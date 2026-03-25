@@ -98,8 +98,8 @@ npx tsx scripts/translate-locale.ts <locale> --limit 20
 
 ```bash
 npx tsx scripts/check-links.ts <locale>         # broken wikilinks
-npx tsx scripts/lint-locale.ts <locale>         # unofficial terminology
-npx tsx scripts/lint-locale.ts <locale> --fix   # auto-correct
+npx tsx scripts/check-terms.ts <locale>         # unofficial terminology
+npx tsx scripts/check-terms.ts <locale> --fix   # auto-correct
 ```
 
 Fix any broken wikilinks before publishing. The lint script cross-references official plugin/feature names from obsidian-translations.
@@ -151,15 +151,7 @@ After publishing each locale, also publish `en/` — it hosts `publish.js` too:
 cd en && ob publish --all --yes
 ```
 
-### Step 6 — Sync nav order
-
-```bash
-npx tsx scripts/localize-nav-order.ts <locale>
-```
-
-This reads the EN nav order from Obsidian Publish site options and writes the translated equivalent for the locale. No publish needed — it updates site options directly via `ob publish-site-options`.
-
-### Step 7 — Publish
+### Step 6 — Publish
 
 ```bash
 cd <locale> && ob publish --all --yes
@@ -182,7 +174,7 @@ cd <locale> && ob publish --all --yes
 - `scripts/migrate-locale.ts` — adds redirect aliases from old locale paths
 - `scripts/translate-locale.ts` — LLM translation
 - `scripts/check-links.ts` — broken wikilink checker
-- `scripts/lint-locale.ts` — terminology checker
+- `scripts/check-terms.ts` — terminology checker
 - `<locale>/publish.strings.js` — locale UI strings for Publish site (search, footer, graph, outline, backlinks labels)
 - `scripts/build-publish-js.ts` — concatenates publish.strings.js into publish.js and syncs to all locales
-- `scripts/localize-nav-order.ts` — translates EN nav order to locale paths via Obsidian Publish site options
+- `scripts/sync-nav-order.ts` — translates EN nav order to locale paths; run automatically by `publish-all.ts`

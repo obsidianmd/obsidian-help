@@ -1,11 +1,11 @@
 #!/usr/bin/env tsx
 /**
- * lint-locale.ts
+ * check-terms.ts
  * Checks translated locale files for unofficial feature/plugin names by
  * cross-referencing against the obsidian-translations repo.
  *
  * Usage:
- *   npx tsx scripts/lint-locale.ts <locale> [--fix]
+ *   npx tsx scripts/check-terms.ts <locale> [--fix]
  *
  * Flags issues where:
  *   1. The English original appears in prose when an official translation exists
@@ -24,7 +24,7 @@ const locale = args[0];
 const fix = args.includes("--fix");
 
 if (!locale) {
-  console.error("Usage: npx tsx scripts/lint-locale.ts <locale> [--fix]");
+  console.error("Usage: npx tsx scripts/check-terms.ts <locale> [--fix]");
   process.exit(1);
 }
 
