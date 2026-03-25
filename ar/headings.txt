@@ -1,472 +1,1483 @@
-[file-formats]
-Embed files=تضمين الملفات
+[heading.file-formats/Embed files]
+original=Embed files
+translation=تضمين الملفات
 
-[sync/collaborate]
-Manage users=إدارة المستخدمين
-Add users=إضافة مستخدمين
-Remove users=إزالة المستخدمين
-Collaborate with your team=التعاون مع فريقك
-Permissions=الأذونات
-Live editing=التحرير المباشر
-Limitations=القيود
+[heading.sync/collaborate/Manage users]
+original=Manage users
+translation=إدارة المستخدمين
 
-[sync/faq]
-General=عام
-What operating systems does Obsidian Sync support?=ما أنظمة التشغيل التي يدعمها Obsidian Sync؟
-Does Obsidian work with Apple's Lockdown Mode?=هل يعمل Obsidian مع وضع القفل (Lockdown Mode) من Apple؟
-What type of data is synced?=ما نوع البيانات التي تتم مزامنتها؟
-How much storage do I have?=ما مقدار مساحة التخزين المتاحة لي؟
-How many remote vaults can I have?=كم عدد الخزنات البعيدة التي يمكنني امتلاكها؟
-How large can each remote vault be?=ما الحجم الأقصى لكل خزنة بعيدة؟
-How many people can I share a remote vault with?=كم عدد الأشخاص الذين يمكنني مشاركة خزنة بعيدة معهم؟
-How large can each file be?=ما الحجم الأقصى لكل ملف؟
-Is my data being synced in the background?=هل تتم مزامنة بياناتي في الخلفية؟
-Does Obsidian Sync live-reload my settings?=هل يقوم Obsidian Sync بإعادة تحميل إعداداتي تلقائيًا؟
-Can I use a third-party sync with Obsidian Sync?=هل يمكنني استخدام مزامنة طرف ثالث مع Obsidian Sync؟
-Data retention=الاحتفاظ بالبيانات
-How long do you keep the version history?=ما مدة الاحتفاظ بسجل الإصدارات؟
-How long do you keep my data after my subscription expires?=ما مدة الاحتفاظ ببياناتي بعد انتهاء اشتراكي؟
-Do you keep my data if I refund my subscription service?=هل تحتفظون ببياناتي إذا استرددت قيمة اشتراكي؟
+[heading.sync/collaborate/Add users]
+original=Add users
+translation=إضافة مستخدمين
 
-[sync/headless]
-Quick start=البدء السريع
-Commands=الأوامر
-Native modules=الوحدات الأصلية
+[heading.sync/collaborate/Remove users]
+original=Remove users
+translation=إزالة المستخدمين
 
-[sync]
-How to use Obsidian Sync=كيفية استخدام Obsidian Sync
-Important=هام
+[heading.sync/collaborate/Collaborate with your team]
+original=Collaborate with your team
+translation=التعاون مع فريقك
 
-[sync/vault-types]
-File-based sync services=خدمات المزامنة القائمة على الملفات
-Sync behavior=سلوك المزامنة
-Offline behavior=السلوك في وضع عدم الاتصال
-Next steps=الخطوات التالية
+[heading.sync/collaborate/Permissions]
+original=Permissions
+translation=الأذونات
 
-[sync/plans]
-Plans=الخطط
-Storage limits=حدود التخزين
-Identify and delete large files=تحديد الملفات الكبيرة وحذفها
-Create a new remote vault=إنشاء خزنة بعيدة جديدة
-Upgrade your plan=ترقية خطتك
-Downgrade your plan=تخفيض خطتك
-Preserve version history=الحفاظ على سجل الإصدارات
+[heading.sync/collaborate/Live editing]
+original=Live editing
+translation=التحرير المباشر
 
-[sync/security]
-Encryption=التشفير
-What does end-to-end encryption mean?=ماذا يعني التشفير من طرف إلى طرف؟
-What are the risks of using standard encryption?=ما هي مخاطر استخدام التعمية العادية؟
-What encryption do you use?=ما نوع التشفير المستخدم؟
-Can I verify that my data is end-to-end encrypted?=هل يمكنني التحقق من أن بياناتي مشفرة من طرف إلى طرف؟
-Has Obsidian completed a third-party security audit?=هل خضع Obsidian لتدقيق أمني من طرف ثالث؟
-What happens if I forget my encryption password?=ماذا يحدث إذا نسيت كلمة مرور التشفير الخاصة بي؟
-Hosting=الاستضافة
-Where do you host the servers for Obsidian Sync?=أين تستضيفون خوادم Obsidian Sync؟
-Where can I find my current Sync server and where is it hosted?=أين يمكنني العثور على خادم Sync الحالي وأين تتم استضافته؟
-Network and access=الشبكة والوصول
-Managing access to Obsidian Sync on your network=إدارة الوصول إلى Obsidian Sync على شبكتك
-Limitations=القيود
-Deterministic file-hash encryption=تشفير هاش الملفات بشكل حتمي
-No cryptographic binding between path and content=عدم وجود ربط تشفيري بين المسار والمحتوى
+[heading.sync/collaborate/Limitations]
+original=Limitations
+translation=القيود
 
-[sync/setup]
-Set up Obsidian Sync for the first time=إعداد Obsidian Sync لأول مرة
-Log in with your Obsidian account=تسجيل الدخول بحساب Obsidian الخاص بك
-Enable Obsidian Sync=تمكين Obsidian Sync
-Create a new remote vault=إنشاء خزنة بعيدة جديدة
-Connect to a remote vault=الاتصال بخزنة بعيدة
-Adjust Obsidian Sync settings=ضبط إعدادات Obsidian Sync
-Begin syncing with Obsidian Sync=بدء المزامنة مع Obsidian Sync
-Sync a remote vault on another device=مزامنة خزنة بعيدة على جهاز آخر
-Sync your vault from the vault switcher=مزامنة خزنتك من مبدّل الخزائن
-Sync your vault from Obsidian Settings=مزامنة خزنتك من إعدادات Obsidian
-Manage your remote vaults=إدارة الخزائن البعيدة
-Disconnect from a remote vault=قطع الاتصال بخزنة بعيدة
-Delete a remote vault=حذف خزنة بعيدة
-Regional sync servers=خوادم المزامنة الإقليمية
-Next steps=الخطوات التالية
+[heading.sync/faq/General]
+original=General
+translation=عام
 
-[sync/messages]
-Sync status icon=أيقونة حالة المزامنة
-Sync activity log=سجل نشاط المزامنة
-General messages=الرسائل العامة
-Error messages=رسائل الأخطاء
-Skipped messages=الرسائل المتخطاة
-Account messages=رسائل الحساب
-Network messages=رسائل الشبكة
+[heading.sync/faq/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=ما أنظمة التشغيل التي يدعمها Obsidian Sync؟
 
-[sync/switch]
-Move your vault out of your third-party syncing service or cloud storage=انقل خزنتك خارج خدمة مزامنة طرف ثالث أو التخزين السحابي
-Move your vault using Obsidian on desktop=انقل خزنتك باستخدام Obsidian على سطح المكتب
-Move your vault on mobile=انقل خزنتك على الهاتف المحمول
-iOS and iPadOS=iOS وiPadOS
-Next steps=الخطوات التالية
+[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=هل يعمل Obsidian مع وضع القفل (Lockdown Mode) من Apple؟
 
-[sync/region]
-Available regions=المناطق المتاحة
-Change Sync region=تغيير منطقة المزامنة
+[heading.sync/faq/What type of data is synced?]
+original=What type of data is synced?
+translation=ما نوع البيانات التي تتم مزامنتها؟
 
-[sync/settings]
-Sync settings=إعدادات المزامنة
-Conflict resolution=حل التعارضات
-Selective syncing=المزامنة الانتقائية
-Change the file types you want to sync=تغيير أنواع الملفات التي تريد مزامنتها
-Exclude a folder from syncing=استثناء مجلد من المزامنة
-Always excluded from sync=المستثنى دائمًا من المزامنة
-File recovery snapshots=لقطات استعادة الملفات
-Hidden files and folders=الملفات والمجلدات المخفية
-Updating your synced vault settings=تحديث إعدادات الخزنة المُزامنة
-Primary device=الجهاز الرئيسي
-Secondary device(s)=الجهاز (الأجهزة) الثانوي
-Reloading of settings=إعادة تحميل الإعدادات
-Settings profiles=ملفات تعريف الإعدادات
-Create a settings profile=إنشاء ملف تعريف إعدادات
+[heading.sync/faq/How much storage do I have?]
+original=How much storage do I have?
+translation=ما مقدار مساحة التخزين المتاحة لي؟
 
-[sync/troubleshoot]
-General=عام
-Conflict resolution=حل التعارضات
-How Obsidian Sync handles conflicts=كيف يتعامل Obsidian Sync مع التعارضات
-Conflict resolution options=خيارات حل التعارضات
-Sync deleted a note I just created on two devices=حذفت المزامنة ملاحظة أنشأتها للتو على جهازين
-Sync will not sync my plugins and settings updates=لا تقوم المزامنة بمزامنة تحديثات الإضافات والإعدادات الخاصة بي
-My files keep disappearing from Sync as soon as I restore it=ملفاتي تختفي باستمرار من المزامنة بمجرد استعادتها
+[heading.sync/faq/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=كم عدد الخزنات البعيدة التي يمكنني امتلاكها؟
 
-[sync/migrate]
-Encryption versions=إصدارات التشفير
-Upgrade encryption with the migration assistant=ترقية التشفير باستخدام مساعد الترحيل
+[heading.sync/faq/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=ما الحجم الأقصى لكل خزنة بعيدة؟
 
-[sync/version-history]
-Sync history=سجل المزامنة
-Show Sync history=إظهار سجل المزامنة
-Enable via Command palette=التمكين عبر لوحة الأوامر
-Enable via Hotkey=التمكين عبر اختصار لوحة المفاتيح
-Version history=سجل الإصدارات
-Notes and attachments=الملاحظات والمرفقات
-View version history of a file=عرض سجل إصدارات ملف
-View version history of a deleted or renamed file=عرض سجل إصدارات ملف محذوف أو مُعاد تسميته
-Restore a previous version of a file=استعادة إصدار سابق من ملف
-Restore a deleted file=استعادة ملف محذوف
-Settings history=سجل الإعدادات
-View version history of a setting=عرض سجل إصدارات إعداد
-Restore a previous version of a setting=استعادة إصدار سابق من إعداد
+[heading.sync/faq/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=كم عدد الأشخاص الذين يمكنني مشاركة خزنة بعيدة معهم؟
 
-[web-clipper/capture]
-Capture a page=التقاط صفحة
-Download images=تنزيل الصور
-Hotkeys=اختصارات لوحة المفاتيح
-Interface functionality=وظائف الواجهة
+[heading.sync/faq/How large can each file be?]
+original=How large can each file be?
+translation=ما الحجم الأقصى لكل ملف؟
 
-[web-clipper/filters]
-Dates=التواريخ
-Text conversion and capitalization=تحويل النصوص والأحرف الكبيرة
-Text formatting=تنسيق النصوص
-Numbers=الأرقام
-HTML processing=معالجة HTML
-Arrays and objects=المصفوفات والكائنات
+[heading.sync/faq/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=هل تتم مزامنة بياناتي في الخلفية؟
 
-[web-clipper/highlight]
-Turn on highlighter=تشغيل المظلل
-Highlighter settings=إعدادات المظلل
+[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=هل يقوم Obsidian Sync بإعادة تحميل إعداداتي تلقائيًا؟
 
-[web-clipper/interpreter]
-Examples of prompts=أمثلة على الأوامر النصية
-Get started=البدء
-How it works=كيف يعمل
-Context=السياق
-Models=النماذج
-Preset providers=المزودون المعدّون مسبقًا
-Choosing a model=اختيار نموذج
-Custom providers and models=المزودون والنماذج المخصصة
-Local models=النماذج المحلية
+[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=هل يمكنني استخدام مزامنة طرف ثالث مع Obsidian Sync؟
 
-[web-clipper]
-Install Web Clipper=تثبيت قاصّ الويب
-How to use Web Clipper=كيفية استخدام قاصّ الويب
-Privacy=الخصوصية
+[heading.sync/faq/Data retention]
+original=Data retention
+translation=الاحتفاظ بالبيانات
 
-[web-clipper/logic]
-Conditionals=الشروط
-Comparison operators=عوامل المقارنة
-Logical operators=العوامل المنطقية
-Truthiness=القيم الصدقية
-Assign a variable=تعيين متغير
-Fallbacks=القيم البديلة
-Chaining fallbacks=ربط القيم البديلة
-With filters=مع المرشحات
-Loops=الحلقات
-Loop sources=مصادر الحلقات
-Loop variables=متغيرات الحلقة
-Accessing array items by index=الوصول إلى عناصر المصفوفة بالفهرس
-Nested loops=الحلقات المتداخلة
-Combine logic=دمج المنطق
-Evaluation order=ترتيب التقييم
+[heading.sync/faq/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=ما مدة الاحتفاظ بسجل الإصدارات؟
 
-[web-clipper/reader]
-Activate reading mode=تفعيل وضع القراءة
-How it works=كيف يعمل
-Customize the reading view=تخصيص عرض القراءة
+[heading.sync/faq/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=ما مدة الاحتفاظ ببياناتي بعد انتهاء اشتراكي؟
 
-[web-clipper/templates]
-Create or edit a template=إنشاء قالب أو تحريره
-Import and export Web Clipper templates=استيراد وتصدير قوالب قاصّ أوبسيديان للويب
-Template settings=إعدادات القالب
-Behavior=السلوك
-Automatically trigger a template=تشغيل قالب تلقائيًا
-Simple URL matching=المطابقة البسيطة لعنوان URL
-Regular expression matching=المطابقة بالتعبير النمطي
-Schema.org matching=مطابقة Schema.org
-Interpreter context=سياق المفسر
+[heading.sync/faq/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=هل تحتفظون ببياناتي إذا استرددت قيمة اشتراكي؟
 
-[web-clipper/troubleshoot]
-General=عام
-Some content is missing=بعض المحتوى مفقود
-No content appears in Obsidian=لا يظهر أي محتوى في Obsidian
-Obsidian does not open=لا يُفتح Obsidian
-Obsidian opens but only the file name is saved=يُفتح Obsidian لكن يتم حفظ اسم الملف فقط
-iOS and iPadOS=iOS و iPadOS
+[heading.sync/headless/Quick start]
+original=Quick start
+translation=البدء السريع
 
-[web-clipper/variables]
-Preset variables=متغيرات الإعداد المسبق
-Prompt variables=متغيرات الطلب
-When to use prompt variables=متى تستخدم متغيرات الطلب
-Examples=أمثلة
-Meta variables=متغيرات Meta
-Selector variables=متغيرات المحدد
-Schema.org variables=متغيرات Schema.org
+[heading.sync/headless/Commands]
+original=Commands
+translation=الأوامر
 
-[import/notion]
-API import=الاستيراد عبر API
-Create a Notion API integration token=إنشاء رمز تكامل Notion API
-Import your Notion data via API=استيراد بيانات Notion عبر API
-Limitations=القيود
-File import=الاستيراد عبر الملفات
-Export your data from Notion=تصدير بياناتك من Notion
-Import your Notion .zip file=استيراد ملف .zip الخاص بـ Notion
-Troubleshooting=استكشاف الأخطاء وإصلاحها
-Importing large workspaces=استيراد مساحات العمل الكبيرة
+[heading.sync/headless/Native modules]
+original=Native modules
+translation=الوحدات الأصلية
 
-[import/apple-notes]
-Import Apple Notes data into Obsidian=استيراد بيانات Apple Notes إلى Obsidian
-Supported content=المحتوى المدعوم
-Scans=المسح الضوئي
-Alternate export methods=طرق تصدير بديلة
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=كيفية استخدام Obsidian Sync
 
-[import/evernote]
-Export your data from Evernote=تصدير بياناتك من Evernote
-Import your Evernote data into Obsidian=استيراد بيانات Evernote إلى Obsidian
-Advanced import options=خيارات الاستيراد المتقدمة
-Maintain tag hierarchy=الحفاظ على التسلسل الهرمي للوسوم
-Handling notebook stacks=التعامل مع مجموعات دفاتر الملاحظات
-More options=المزيد من الخيارات
+[heading.sync/Important]
+original=Important
+translation=هام
 
-[publish/setup]
-Prerequisites=المتطلبات الأساسية
-Log in with your Obsidian account=تسجيل الدخول بحساب Obsidian الخاص بك
-Enable Obsidian Publish=تمكين Obsidian Publish
-Open Publish=فتح Publish
-Open via Command palette=الفتح عبر لوحة الأوامر
-Open via hotkey=الفتح عبر اختصار لوحة المفاتيح
-Open via ribbon=الفتح عبر الشريط الجانبي
-Create a new site=إنشاء موقع جديد
-Set a site name=تعيين اسم الموقع
-Select notes to publish=اختيار الملاحظات للنشر
-Next steps=الخطوات التالية
+[heading.sync/vault-types/File-based sync services]
+original=File-based sync services
+translation=خدمات المزامنة القائمة على الملفات
 
-[sync-notes]
-Syncing methods=طرق المزامنة
-iPhone and iPad syncing=المزامنة على iPhone وiPad
-Frequently asked questions=الأسئلة الشائعة
+[heading.sync/vault-types/Sync behavior]
+original=Sync behavior
+translation=سلوك المزامنة
 
-[uri]
-URI format=تنسيق URI
-Open note=فتح ملاحظة
-Examples=أمثلة
-Parameters=المعاملات
-Create note=إنشاء ملاحظة
-Create or open daily note=إنشاء أو فتح الملاحظة اليومية
-Unique Note=ملاحظة فريدة
-Open search=فتح البحث
-Open Vault Manager=فتح مدير الخزنات
-Integrate with Hook=التكامل مع Hook
-Example=مثال
-Use x-callback-url parameters=استخدام معاملات x-callback-url
-Shorthand formats=التنسيقات المختصرة
-Troubleshooting=استكشاف الأخطاء وإصلاحها
-Register Obsidian URI=تسجيل Obsidian URI
+[heading.sync/vault-types/Offline behavior]
+original=Offline behavior
+translation=السلوك في وضع عدم الاتصال
 
-[snippets]
-Adding a snippet=إضافة مقتطف
-Writing CSS for Obsidian=كتابة CSS لـ Obsidian
-Learn more=تعلم المزيد
+[heading.sync/vault-types/Next steps]
+original=Next steps
+translation=الخطوات التالية
 
-[obsidian]
-What is Obsidian=ما هو Obsidian
-How we're different=كيف نختلف عن الآخرين
-You own and control your data=أنت تملك بياناتك وتتحكم فيها
-Links are first-class citizens=الروابط مواطنون من الدرجة الأولى
-Your own toolkit=مجموعة أدواتك الخاصة
-Follow our development=تابع تطويرنا
+[heading.sync/plans/Plans]
+original=Plans
+translation=الخطط
 
-[publish/sites]
-Create a new site=إنشاء موقع جديد
-Delete an existing site=حذف موقع موجود
-Switch between sites=التبديل بين المواقع
-Change the site ID=تغيير معرف الموقع
-View site options=عرض خيارات الموقع
-Site options=خيارات الموقع
-General=عام
-Appearance=المظهر
-Reading experience=تجربة القراءة
-Components=المكونات
-Other site settings=إعدادات الموقع الأخرى
+[heading.sync/plans/Storage limits]
+original=Storage limits
+translation=حدود التخزين
 
-[publish/customize]
-Static assets=الأصول الثابتة
-Use a community theme=استخدام سمة من المجتمع
-Enable UI features=تمكين ميزات واجهة المستخدم
-Customize navigation=تخصيص التنقل
-Accessing Customize navigation options=الوصول إلى خيارات تخصيص التنقل
-Adjust navigation items=ضبط عناصر التنقل
-Hide and unhide navigation items=إخفاء وإظهار عناصر التنقل
-FAQ=الأسئلة الشائعة
+[heading.sync/plans/Identify and delete large files]
+original=Identify and delete large files
+translation=تحديد الملفات الكبيرة وحذفها
 
-[catalyst]
-Catalyst tiers=مستويات Catalyst
-Access Catalyst benefits=الوصول إلى مزايا Catalyst
-Get your forum badge=الحصول على شارة المنتدى
-Get your Discord badge=الحصول على شارة Discord
-Join our Insider channels=الانضمام إلى قنوات Insider الحصرية
-Enable early access versions=تمكين إصدارات الوصول المبكر
+[heading.sync/plans/Create a new remote vault]
+original=Create a new remote vault
+translation=إنشاء خزنة بعيدة جديدة
 
-[credit]
-Add credit=إضافة رصيد
-Gifting=الإهداء
-Give Obsidian Credit=منح رصيد Obsidian
-Receiving Obsidian Credit=استلام رصيد Obsidian
+[heading.sync/plans/Upgrade your plan]
+original=Upgrade your plan
+translation=ترقية خطتك
 
-[/]
-Obsidian Help=مساعدة Obsidian
-Get started=ابدأ
-Extend Obsidian=وسّع Obsidian
-Add-on services=خدمات إضافية
-Contribute=ساهم
+[heading.sync/plans/Downgrade your plan]
+original=Downgrade your plan
+translation=تخفيض خطتك
 
-[plugins/file-recovery]
-Recover a snapshot=استعادة لقطة
-Clear snapshot history=مسح سجل اللقطات
-Storage and performance=التخزين والأداء
-Limitations=القيود
+[heading.sync/plans/Preserve version history]
+original=Preserve version history
+translation=الحفاظ على سجل الإصدارات
 
-[plugins/search]
-Search terms=مصطلحات البحث
-Search operators=عوامل البحث
-Search properties=البحث في الخصائص
-Change case sensitivity=تغيير حساسية حالة الأحرف
-Change result sort order=تغيير ترتيب فرز النتائج
-Copy search results=نسخ نتائج البحث
-Use regular expressions=استخدام التعبيرات النمطية
-Configure search settings=تهيئة إعدادات البحث
-Embed search results in a note=تضمين نتائج البحث في ملاحظة
+[heading.sync/security/Encryption]
+original=Encryption
+translation=التشفير
 
-[plugins/templates]
-Set your template folder=تعيين مجلد القوالب
-Template variables=متغيرات القوالب
-Create a template=إنشاء قالب
-Insert a template into the active note=إدراج قالب في الملاحظة النشطة
-Template properties=خصائص القوالب
+[heading.sync/security/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=ماذا يعني التشفير من طرف إلى طرف؟
 
-[plugins/canvas]
-Create a new canvas=إنشاء لوحة جديدة
-Add cards=إضافة بطاقات
-Add text cards=إضافة بطاقات نصية
-Add cards from notes=إضافة بطاقات من الملاحظات
-Add cards from media=إضافة بطاقات من الوسائط
-Add cards from web pages=إضافة بطاقات من صفحات الويب
-Add cards from folders=إضافة بطاقات من المجلدات
-Edit a card=تحرير بطاقة
-Delete a card=حذف بطاقة
-Swap cards=تبديل البطاقات
-Select cards=تحديد البطاقات
-Arrange cards=ترتيب البطاقات
-Resize a card=تغيير حجم بطاقة
-Connect cards=ربط البطاقات
-Connect two cards=ربط بطاقتين
-Disconnect two cards=فصل بطاقتين
-Connect a card to a different card=ربط بطاقة ببطاقة مختلفة
-Navigate a connection=التنقل عبر اتصال
-Add a label to a connection=إضافة تسمية إلى اتصال
-Change the color of a card or connection=تغيير لون بطاقة أو اتصال
-Group cards=تجميع البطاقات
-Group selected cards=تجميع البطاقات المحددة
-Navigate the canvas=التنقل في اللوحة
-Pan the canvas=تحريك اللوحة
-Zoom the canvas=تكبير اللوحة
-Zoom to fit=تكبير للملائمة
-Zoom to selection=تكبير للمحدد
-Reset zoom=إعادة ضبط التكبير
-Advanced tips=نصائح متقدمة
+[heading.sync/security/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=ما هي مخاطر استخدام التعمية العادية؟
 
-[plugins/format-converter]
-Supported formats=التنسيقات المدعومة
+[heading.sync/security/What encryption do you use?]
+original=What encryption do you use?
+translation=ما نوع التشفير المستخدم؟
 
-[plugins/file-explorer]
-Create a new note=إنشاء ملاحظة جديدة
-Create a new folder=إنشاء مجلد جديد
-Change sort order=تغيير ترتيب الفرز
-Auto-reveal active file=الكشف التلقائي عن الملف النشط
-Expand or collapse all folders=توسيع أو طي جميع المجلدات
-Delete a file or folder=حذف ملف أو مجلد
-Rename a file or folder=إعادة تسمية ملف أو مجلد
-Move a file or folder=نقل ملف أو مجلد
+[heading.sync/security/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=هل يمكنني التحقق من أن بياناتي مشفرة من طرف إلى طرف؟
 
-[updates]
-Check for updates and view version=التحقق من التحديثات وعرض الإصدار
-Disable automatic updates=تعطيل التحديثات التلقائية
-Installer updates=تحديثات المُثبّت
+[heading.sync/security/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=هل خضع Obsidian لتدقيق أمني من طرف ثالث؟
 
-[mobile]
-Widgets, shortcuts, and Siri=الودجات والاختصارات و Siri
-Mobile toolbar=شريط أدوات الهاتف
-Customize mobile toolbar=تخصيص شريط أدوات الهاتف
-Add command to mobile toolbar=إضافة أمر إلى شريط أدوات الهاتف
-Quick Action=الإجراء السريع
-Customize Quick Action=تخصيص الإجراء السريع
-Navigation bar=شريط التنقل
-Go back or forward=عودة للخلف أو إلى الأمام
-Create or find note=إنشاء أو البحث عن ملاحظة
-Tab management=إدارة علامات التبويب
-Ribbon actions=إجراءات الشريط الجانبي
-Sidebars=الأشرطة الجانبية
+[heading.sync/security/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=ماذا يحدث إذا نسيت كلمة مرور التشفير الخاصة بي؟
 
-[sidebar]
-Open hidden sidebars=فتح الأشرطة الجانبية المخفية
-Desktop and larger tablets=سطح المكتب والأجهزة اللوحية الأكبر حجمًا
-Mobile and smaller tablets=الهاتف المحمول والأجهزة اللوحية الأصغر حجمًا
-Tabs=علامات التبويب
-Open or reopen tabs=فتح أو إعادة فتح علامات التبويب
-Close tabs=إغلاق علامات التبويب
-Rearrange tabs=إعادة ترتيب علامات التبويب
-Pin tabs=تثبيت علامات التبويب
-Tab groups=مجموعات علامات التبويب
-Create tab groups=إنشاء مجموعات علامات التبويب
-Close tab groups=إغلاق مجموعات علامات التبويب
+[heading.sync/security/Hosting]
+original=Hosting
+translation=الاستضافة
 
-[appearance]
-Color scheme=نظام الألوان
-Custom themes=السمات المخصصة
-Custom app icon=أيقونة التطبيق المخصصة
-Translucency=الشفافية
+[heading.sync/security/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=أين تستضيفون خوادم Obsidian Sync؟
 
-[ribbon]
-Actions=الإجراءات
-Customize the ribbon=تخصيص الشريط
-Desktop=سطح المكتب
-Hide the ribbon=إخفاء الشريط
-Show the ribbon=إظهار الشريط
-Mobile=الهاتف المحمول
-Quick access=الوصول السريع
-Rearrange and visibility=إعادة الترتيب والرؤية
+[heading.sync/security/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=أين يمكنني العثور على خادم Sync الحالي وأين تتم استضافته؟
 
-[publish/headless]
-Quick start=البدء السريع
-Commands=الأوامر
+[heading.sync/security/Network and access]
+original=Network and access
+translation=الشبكة والوصول
+
+[heading.sync/security/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=إدارة الوصول إلى Obsidian Sync على شبكتك
+
+[heading.sync/security/Limitations]
+original=Limitations
+translation=القيود
+
+[heading.sync/security/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=تشفير هاش الملفات بشكل حتمي
+
+[heading.sync/security/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=عدم وجود ربط تشفيري بين المسار والمحتوى
+
+[heading.sync/setup/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=إعداد Obsidian Sync لأول مرة
+
+[heading.sync/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=تسجيل الدخول بحساب Obsidian الخاص بك
+
+[heading.sync/setup/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=تمكين Obsidian Sync
+
+[heading.sync/setup/Create a new remote vault]
+original=Create a new remote vault
+translation=إنشاء خزنة بعيدة جديدة
+
+[heading.sync/setup/Connect to a remote vault]
+original=Connect to a remote vault
+translation=الاتصال بخزنة بعيدة
+
+[heading.sync/setup/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=ضبط إعدادات Obsidian Sync
+
+[heading.sync/setup/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=بدء المزامنة مع Obsidian Sync
+
+[heading.sync/setup/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=مزامنة خزنة بعيدة على جهاز آخر
+
+[heading.sync/setup/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=مزامنة خزنتك من مبدّل الخزائن
+
+[heading.sync/setup/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=مزامنة خزنتك من إعدادات Obsidian
+
+[heading.sync/setup/Manage your remote vaults]
+original=Manage your remote vaults
+translation=إدارة الخزائن البعيدة
+
+[heading.sync/setup/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=قطع الاتصال بخزنة بعيدة
+
+[heading.sync/setup/Delete a remote vault]
+original=Delete a remote vault
+translation=حذف خزنة بعيدة
+
+[heading.sync/setup/Regional sync servers]
+original=Regional sync servers
+translation=خوادم المزامنة الإقليمية
+
+[heading.sync/setup/Next steps]
+original=Next steps
+translation=الخطوات التالية
+
+[heading.sync/messages/Sync status icon]
+original=Sync status icon
+translation=أيقونة حالة المزامنة
+
+[heading.sync/messages/Sync activity log]
+original=Sync activity log
+translation=سجل نشاط المزامنة
+
+[heading.sync/messages/General messages]
+original=General messages
+translation=الرسائل العامة
+
+[heading.sync/messages/Error messages]
+original=Error messages
+translation=رسائل الأخطاء
+
+[heading.sync/messages/Skipped messages]
+original=Skipped messages
+translation=الرسائل المتخطاة
+
+[heading.sync/messages/Account messages]
+original=Account messages
+translation=رسائل الحساب
+
+[heading.sync/messages/Network messages]
+original=Network messages
+translation=رسائل الشبكة
+
+[heading.sync/switch/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=انقل خزنتك خارج خدمة مزامنة طرف ثالث أو التخزين السحابي
+
+[heading.sync/switch/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=انقل خزنتك باستخدام Obsidian على سطح المكتب
+
+[heading.sync/switch/Move your vault on mobile]
+original=Move your vault on mobile
+translation=انقل خزنتك على الهاتف المحمول
+
+[heading.sync/switch/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS وiPadOS
+
+[heading.sync/switch/Next steps]
+original=Next steps
+translation=الخطوات التالية
+
+[heading.sync/region/Available regions]
+original=Available regions
+translation=المناطق المتاحة
+
+[heading.sync/region/Change Sync region]
+original=Change Sync region
+translation=تغيير منطقة المزامنة
+
+[heading.sync/settings/Sync settings]
+original=Sync settings
+translation=إعدادات المزامنة
+
+[heading.sync/settings/Conflict resolution]
+original=Conflict resolution
+translation=حل التعارضات
+
+[heading.sync/settings/Selective syncing]
+original=Selective syncing
+translation=المزامنة الانتقائية
+
+[heading.sync/settings/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=تغيير أنواع الملفات التي تريد مزامنتها
+
+[heading.sync/settings/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=استثناء مجلد من المزامنة
+
+[heading.sync/settings/Always excluded from sync]
+original=Always excluded from sync
+translation=المستثنى دائمًا من المزامنة
+
+[heading.sync/settings/File recovery snapshots]
+original=File recovery snapshots
+translation=لقطات استعادة الملفات
+
+[heading.sync/settings/Hidden files and folders]
+original=Hidden files and folders
+translation=الملفات والمجلدات المخفية
+
+[heading.sync/settings/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=تحديث إعدادات الخزنة المُزامنة
+
+[heading.sync/settings/Primary device]
+original=Primary device
+translation=الجهاز الرئيسي
+
+[heading.sync/settings/Secondary device(s)]
+original=Secondary device(s)
+translation=الجهاز (الأجهزة) الثانوي
+
+[heading.sync/settings/Reloading of settings]
+original=Reloading of settings
+translation=إعادة تحميل الإعدادات
+
+[heading.sync/settings/Settings profiles]
+original=Settings profiles
+translation=ملفات تعريف الإعدادات
+
+[heading.sync/settings/Create a settings profile]
+original=Create a settings profile
+translation=إنشاء ملف تعريف إعدادات
+
+[heading.sync/troubleshoot/General]
+original=General
+translation=عام
+
+[heading.sync/troubleshoot/Conflict resolution]
+original=Conflict resolution
+translation=حل التعارضات
+
+[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=كيف يتعامل Obsidian Sync مع التعارضات
+
+[heading.sync/troubleshoot/Conflict resolution options]
+original=Conflict resolution options
+translation=خيارات حل التعارضات
+
+[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=حذفت المزامنة ملاحظة أنشأتها للتو على جهازين
+
+[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=لا تقوم المزامنة بمزامنة تحديثات الإضافات والإعدادات الخاصة بي
+
+[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=ملفاتي تختفي باستمرار من المزامنة بمجرد استعادتها
+
+[heading.sync/migrate/Encryption versions]
+original=Encryption versions
+translation=إصدارات التشفير
+
+[heading.sync/migrate/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=ترقية التشفير باستخدام مساعد الترحيل
+
+[heading.sync/version-history/Sync history]
+original=Sync history
+translation=سجل المزامنة
+
+[heading.sync/version-history/Show Sync history]
+original=Show Sync history
+translation=إظهار سجل المزامنة
+
+[heading.sync/version-history/Enable via Command palette]
+original=Enable via Command palette
+translation=التمكين عبر لوحة الأوامر
+
+[heading.sync/version-history/Enable via Hotkey]
+original=Enable via Hotkey
+translation=التمكين عبر اختصار لوحة المفاتيح
+
+[heading.sync/version-history/Version history]
+original=Version history
+translation=سجل الإصدارات
+
+[heading.sync/version-history/Notes and attachments]
+original=Notes and attachments
+translation=الملاحظات والمرفقات
+
+[heading.sync/version-history/View version history of a file]
+original=View version history of a file
+translation=عرض سجل إصدارات ملف
+
+[heading.sync/version-history/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=عرض سجل إصدارات ملف محذوف أو مُعاد تسميته
+
+[heading.sync/version-history/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=استعادة إصدار سابق من ملف
+
+[heading.sync/version-history/Restore a deleted file]
+original=Restore a deleted file
+translation=استعادة ملف محذوف
+
+[heading.sync/version-history/Settings history]
+original=Settings history
+translation=سجل الإعدادات
+
+[heading.sync/version-history/View version history of a setting]
+original=View version history of a setting
+translation=عرض سجل إصدارات إعداد
+
+[heading.sync/version-history/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=استعادة إصدار سابق من إعداد
+
+[heading.web-clipper/capture/Capture a page]
+original=Capture a page
+translation=التقاط صفحة
+
+[heading.web-clipper/capture/Download images]
+original=Download images
+translation=تنزيل الصور
+
+[heading.web-clipper/capture/Hotkeys]
+original=Hotkeys
+translation=اختصارات لوحة المفاتيح
+
+[heading.web-clipper/capture/Interface functionality]
+original=Interface functionality
+translation=وظائف الواجهة
+
+[heading.web-clipper/filters/Dates]
+original=Dates
+translation=التواريخ
+
+[heading.web-clipper/filters/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=تحويل النصوص والأحرف الكبيرة
+
+[heading.web-clipper/filters/Text formatting]
+original=Text formatting
+translation=تنسيق النصوص
+
+[heading.web-clipper/filters/Numbers]
+original=Numbers
+translation=الأرقام
+
+[heading.web-clipper/filters/HTML processing]
+original=HTML processing
+translation=معالجة HTML
+
+[heading.web-clipper/filters/Arrays and objects]
+original=Arrays and objects
+translation=المصفوفات والكائنات
+
+[heading.web-clipper/highlight/Turn on highlighter]
+original=Turn on highlighter
+translation=تشغيل المظلل
+
+[heading.web-clipper/highlight/Highlighter settings]
+original=Highlighter settings
+translation=إعدادات المظلل
+
+[heading.web-clipper/interpreter/Examples of prompts]
+original=Examples of prompts
+translation=أمثلة على الأوامر النصية
+
+[heading.web-clipper/interpreter/Get started]
+original=Get started
+translation=البدء
+
+[heading.web-clipper/interpreter/How it works]
+original=How it works
+translation=كيف يعمل
+
+[heading.web-clipper/interpreter/Context]
+original=Context
+translation=السياق
+
+[heading.web-clipper/interpreter/Models]
+original=Models
+translation=النماذج
+
+[heading.web-clipper/interpreter/Preset providers]
+original=Preset providers
+translation=المزودون المعدّون مسبقًا
+
+[heading.web-clipper/interpreter/Choosing a model]
+original=Choosing a model
+translation=اختيار نموذج
+
+[heading.web-clipper/interpreter/Custom providers and models]
+original=Custom providers and models
+translation=المزودون والنماذج المخصصة
+
+[heading.web-clipper/interpreter/Local models]
+original=Local models
+translation=النماذج المحلية
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=تثبيت قاصّ الويب
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=كيفية استخدام قاصّ الويب
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=الخصوصية
+
+[heading.web-clipper/logic/Conditionals]
+original=Conditionals
+translation=الشروط
+
+[heading.web-clipper/logic/Comparison operators]
+original=Comparison operators
+translation=عوامل المقارنة
+
+[heading.web-clipper/logic/Logical operators]
+original=Logical operators
+translation=العوامل المنطقية
+
+[heading.web-clipper/logic/Truthiness]
+original=Truthiness
+translation=القيم الصدقية
+
+[heading.web-clipper/logic/Assign a variable]
+original=Assign a variable
+translation=تعيين متغير
+
+[heading.web-clipper/logic/Fallbacks]
+original=Fallbacks
+translation=القيم البديلة
+
+[heading.web-clipper/logic/Chaining fallbacks]
+original=Chaining fallbacks
+translation=ربط القيم البديلة
+
+[heading.web-clipper/logic/With filters]
+original=With filters
+translation=مع المرشحات
+
+[heading.web-clipper/logic/Loops]
+original=Loops
+translation=الحلقات
+
+[heading.web-clipper/logic/Loop sources]
+original=Loop sources
+translation=مصادر الحلقات
+
+[heading.web-clipper/logic/Loop variables]
+original=Loop variables
+translation=متغيرات الحلقة
+
+[heading.web-clipper/logic/Accessing array items by index]
+original=Accessing array items by index
+translation=الوصول إلى عناصر المصفوفة بالفهرس
+
+[heading.web-clipper/logic/Nested loops]
+original=Nested loops
+translation=الحلقات المتداخلة
+
+[heading.web-clipper/logic/Combine logic]
+original=Combine logic
+translation=دمج المنطق
+
+[heading.web-clipper/logic/Evaluation order]
+original=Evaluation order
+translation=ترتيب التقييم
+
+[heading.web-clipper/reader/Activate reading mode]
+original=Activate reading mode
+translation=تفعيل وضع القراءة
+
+[heading.web-clipper/reader/How it works]
+original=How it works
+translation=كيف يعمل
+
+[heading.web-clipper/reader/Customize the reading view]
+original=Customize the reading view
+translation=تخصيص عرض القراءة
+
+[heading.web-clipper/templates/Create or edit a template]
+original=Create or edit a template
+translation=إنشاء قالب أو تحريره
+
+[heading.web-clipper/templates/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=استيراد وتصدير قوالب قاصّ أوبسيديان للويب
+
+[heading.web-clipper/templates/Template settings]
+original=Template settings
+translation=إعدادات القالب
+
+[heading.web-clipper/templates/Behavior]
+original=Behavior
+translation=السلوك
+
+[heading.web-clipper/templates/Automatically trigger a template]
+original=Automatically trigger a template
+translation=تشغيل قالب تلقائيًا
+
+[heading.web-clipper/templates/Simple URL matching]
+original=Simple URL matching
+translation=المطابقة البسيطة لعنوان URL
+
+[heading.web-clipper/templates/Regular expression matching]
+original=Regular expression matching
+translation=المطابقة بالتعبير النمطي
+
+[heading.web-clipper/templates/Schema.org matching]
+original=Schema.org matching
+translation=مطابقة Schema.org
+
+[heading.web-clipper/templates/Interpreter context]
+original=Interpreter context
+translation=سياق المفسر
+
+[heading.web-clipper/troubleshoot/General]
+original=General
+translation=عام
+
+[heading.web-clipper/troubleshoot/Some content is missing]
+original=Some content is missing
+translation=بعض المحتوى مفقود
+
+[heading.web-clipper/troubleshoot/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=لا يظهر أي محتوى في Obsidian
+
+[heading.web-clipper/troubleshoot/Obsidian does not open]
+original=Obsidian does not open
+translation=لا يُفتح Obsidian
+
+[heading.web-clipper/troubleshoot/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=يُفتح Obsidian لكن يتم حفظ اسم الملف فقط
+
+[heading.web-clipper/troubleshoot/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS و iPadOS
+
+[heading.web-clipper/variables/Preset variables]
+original=Preset variables
+translation=متغيرات الإعداد المسبق
+
+[heading.web-clipper/variables/Prompt variables]
+original=Prompt variables
+translation=متغيرات الطلب
+
+[heading.web-clipper/variables/When to use prompt variables]
+original=When to use prompt variables
+translation=متى تستخدم متغيرات الطلب
+
+[heading.web-clipper/variables/Examples]
+original=Examples
+translation=أمثلة
+
+[heading.web-clipper/variables/Meta variables]
+original=Meta variables
+translation=متغيرات Meta
+
+[heading.web-clipper/variables/Selector variables]
+original=Selector variables
+translation=متغيرات المحدد
+
+[heading.web-clipper/variables/Schema.org variables]
+original=Schema.org variables
+translation=متغيرات Schema.org
+
+[heading.import/notion/API import]
+original=API import
+translation=الاستيراد عبر API
+
+[heading.import/notion/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=إنشاء رمز تكامل Notion API
+
+[heading.import/notion/Import your Notion data via API]
+original=Import your Notion data via API
+translation=استيراد بيانات Notion عبر API
+
+[heading.import/notion/Limitations]
+original=Limitations
+translation=القيود
+
+[heading.import/notion/File import]
+original=File import
+translation=الاستيراد عبر الملفات
+
+[heading.import/notion/Export your data from Notion]
+original=Export your data from Notion
+translation=تصدير بياناتك من Notion
+
+[heading.import/notion/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=استيراد ملف .zip الخاص بـ Notion
+
+[heading.import/notion/Troubleshooting]
+original=Troubleshooting
+translation=استكشاف الأخطاء وإصلاحها
+
+[heading.import/notion/Importing large workspaces]
+original=Importing large workspaces
+translation=استيراد مساحات العمل الكبيرة
+
+[heading.import/apple-notes/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=استيراد بيانات Apple Notes إلى Obsidian
+
+[heading.import/apple-notes/Supported content]
+original=Supported content
+translation=المحتوى المدعوم
+
+[heading.import/apple-notes/Scans]
+original=Scans
+translation=المسح الضوئي
+
+[heading.import/apple-notes/Alternate export methods]
+original=Alternate export methods
+translation=طرق تصدير بديلة
+
+[heading.import/evernote/Export your data from Evernote]
+original=Export your data from Evernote
+translation=تصدير بياناتك من Evernote
+
+[heading.import/evernote/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=استيراد بيانات Evernote إلى Obsidian
+
+[heading.import/evernote/Advanced import options]
+original=Advanced import options
+translation=خيارات الاستيراد المتقدمة
+
+[heading.import/evernote/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=الحفاظ على التسلسل الهرمي للوسوم
+
+[heading.import/evernote/Handling notebook stacks]
+original=Handling notebook stacks
+translation=التعامل مع مجموعات دفاتر الملاحظات
+
+[heading.import/evernote/More options]
+original=More options
+translation=المزيد من الخيارات
+
+[heading.publish/setup/Prerequisites]
+original=Prerequisites
+translation=المتطلبات الأساسية
+
+[heading.publish/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=تسجيل الدخول بحساب Obsidian الخاص بك
+
+[heading.publish/setup/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=تمكين Obsidian Publish
+
+[heading.publish/setup/Open Publish]
+original=Open Publish
+translation=فتح Publish
+
+[heading.publish/setup/Open via Command palette]
+original=Open via Command palette
+translation=الفتح عبر لوحة الأوامر
+
+[heading.publish/setup/Open via hotkey]
+original=Open via hotkey
+translation=الفتح عبر اختصار لوحة المفاتيح
+
+[heading.publish/setup/Open via ribbon]
+original=Open via ribbon
+translation=الفتح عبر الشريط الجانبي
+
+[heading.publish/setup/Create a new site]
+original=Create a new site
+translation=إنشاء موقع جديد
+
+[heading.publish/setup/Set a site name]
+original=Set a site name
+translation=تعيين اسم الموقع
+
+[heading.publish/setup/Select notes to publish]
+original=Select notes to publish
+translation=اختيار الملاحظات للنشر
+
+[heading.publish/setup/Next steps]
+original=Next steps
+translation=الخطوات التالية
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=طرق المزامنة
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=المزامنة على iPhone وiPad
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=الأسئلة الشائعة
+
+[heading.uri/URI format]
+original=URI format
+translation=تنسيق URI
+
+[heading.uri/Open note]
+original=Open note
+translation=فتح ملاحظة
+
+[heading.uri/Examples]
+original=Examples
+translation=أمثلة
+
+[heading.uri/Parameters]
+original=Parameters
+translation=المعاملات
+
+[heading.uri/Create note]
+original=Create note
+translation=إنشاء ملاحظة
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=إنشاء أو فتح الملاحظة اليومية
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=ملاحظة فريدة
+
+[heading.uri/Open search]
+original=Open search
+translation=فتح البحث
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=فتح مدير الخزنات
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=التكامل مع Hook
+
+[heading.uri/Example]
+original=Example
+translation=مثال
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=استخدام معاملات x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=التنسيقات المختصرة
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=استكشاف الأخطاء وإصلاحها
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=تسجيل Obsidian URI
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=إضافة مقتطف
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=كتابة CSS لـ Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=تعلم المزيد
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=ما هو Obsidian
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=كيف نختلف عن الآخرين
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=أنت تملك بياناتك وتتحكم فيها
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=الروابط مواطنون من الدرجة الأولى
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=مجموعة أدواتك الخاصة
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=تابع تطويرنا
+
+[heading.publish/sites/Create a new site]
+original=Create a new site
+translation=إنشاء موقع جديد
+
+[heading.publish/sites/Delete an existing site]
+original=Delete an existing site
+translation=حذف موقع موجود
+
+[heading.publish/sites/Switch between sites]
+original=Switch between sites
+translation=التبديل بين المواقع
+
+[heading.publish/sites/Change the site ID]
+original=Change the site ID
+translation=تغيير معرف الموقع
+
+[heading.publish/sites/View site options]
+original=View site options
+translation=عرض خيارات الموقع
+
+[heading.publish/sites/Site options]
+original=Site options
+translation=خيارات الموقع
+
+[heading.publish/sites/General]
+original=General
+translation=عام
+
+[heading.publish/sites/Appearance]
+original=Appearance
+translation=المظهر
+
+[heading.publish/sites/Reading experience]
+original=Reading experience
+translation=تجربة القراءة
+
+[heading.publish/sites/Components]
+original=Components
+translation=المكونات
+
+[heading.publish/sites/Other site settings]
+original=Other site settings
+translation=إعدادات الموقع الأخرى
+
+[heading.publish/customize/Static assets]
+original=Static assets
+translation=الأصول الثابتة
+
+[heading.publish/customize/Use a community theme]
+original=Use a community theme
+translation=استخدام سمة من المجتمع
+
+[heading.publish/customize/Enable UI features]
+original=Enable UI features
+translation=تمكين ميزات واجهة المستخدم
+
+[heading.publish/customize/Customize navigation]
+original=Customize navigation
+translation=تخصيص التنقل
+
+[heading.publish/customize/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=الوصول إلى خيارات تخصيص التنقل
+
+[heading.publish/customize/Adjust navigation items]
+original=Adjust navigation items
+translation=ضبط عناصر التنقل
+
+[heading.publish/customize/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=إخفاء وإظهار عناصر التنقل
+
+[heading.publish/customize/FAQ]
+original=FAQ
+translation=الأسئلة الشائعة
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=مستويات Catalyst
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=الوصول إلى مزايا Catalyst
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=الحصول على شارة المنتدى
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=الحصول على شارة Discord
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=الانضمام إلى قنوات Insider الحصرية
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=تمكين إصدارات الوصول المبكر
+
+[heading.credit/Add credit]
+original=Add credit
+translation=إضافة رصيد
+
+[heading.credit/Gifting]
+original=Gifting
+translation=الإهداء
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=منح رصيد Obsidian
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=استلام رصيد Obsidian
+
+[heading.//Obsidian Help]
+original=Obsidian Help
+translation=مساعدة Obsidian
+
+[heading.//Get started]
+original=Get started
+translation=ابدأ
+
+[heading.//Extend Obsidian]
+original=Extend Obsidian
+translation=وسّع Obsidian
+
+[heading.//Add-on services]
+original=Add-on services
+translation=خدمات إضافية
+
+[heading.//Contribute]
+original=Contribute
+translation=ساهم
+
+[heading.plugins/file-recovery/Recover a snapshot]
+original=Recover a snapshot
+translation=استعادة لقطة
+
+[heading.plugins/file-recovery/Clear snapshot history]
+original=Clear snapshot history
+translation=مسح سجل اللقطات
+
+[heading.plugins/file-recovery/Storage and performance]
+original=Storage and performance
+translation=التخزين والأداء
+
+[heading.plugins/file-recovery/Limitations]
+original=Limitations
+translation=القيود
+
+[heading.plugins/search/Search terms]
+original=Search terms
+translation=مصطلحات البحث
+
+[heading.plugins/search/Search operators]
+original=Search operators
+translation=عوامل البحث
+
+[heading.plugins/search/Search properties]
+original=Search properties
+translation=البحث في الخصائص
+
+[heading.plugins/search/Change case sensitivity]
+original=Change case sensitivity
+translation=تغيير حساسية حالة الأحرف
+
+[heading.plugins/search/Change result sort order]
+original=Change result sort order
+translation=تغيير ترتيب فرز النتائج
+
+[heading.plugins/search/Copy search results]
+original=Copy search results
+translation=نسخ نتائج البحث
+
+[heading.plugins/search/Use regular expressions]
+original=Use regular expressions
+translation=استخدام التعبيرات النمطية
+
+[heading.plugins/search/Configure search settings]
+original=Configure search settings
+translation=تهيئة إعدادات البحث
+
+[heading.plugins/search/Embed search results in a note]
+original=Embed search results in a note
+translation=تضمين نتائج البحث في ملاحظة
+
+[heading.plugins/templates/Set your template folder]
+original=Set your template folder
+translation=تعيين مجلد القوالب
+
+[heading.plugins/templates/Template variables]
+original=Template variables
+translation=متغيرات القوالب
+
+[heading.plugins/templates/Create a template]
+original=Create a template
+translation=إنشاء قالب
+
+[heading.plugins/templates/Insert a template into the active note]
+original=Insert a template into the active note
+translation=إدراج قالب في الملاحظة النشطة
+
+[heading.plugins/templates/Template properties]
+original=Template properties
+translation=خصائص القوالب
+
+[heading.plugins/canvas/Create a new canvas]
+original=Create a new canvas
+translation=إنشاء لوحة جديدة
+
+[heading.plugins/canvas/Add cards]
+original=Add cards
+translation=إضافة بطاقات
+
+[heading.plugins/canvas/Add text cards]
+original=Add text cards
+translation=إضافة بطاقات نصية
+
+[heading.plugins/canvas/Add cards from notes]
+original=Add cards from notes
+translation=إضافة بطاقات من الملاحظات
+
+[heading.plugins/canvas/Add cards from media]
+original=Add cards from media
+translation=إضافة بطاقات من الوسائط
+
+[heading.plugins/canvas/Add cards from web pages]
+original=Add cards from web pages
+translation=إضافة بطاقات من صفحات الويب
+
+[heading.plugins/canvas/Add cards from folders]
+original=Add cards from folders
+translation=إضافة بطاقات من المجلدات
+
+[heading.plugins/canvas/Edit a card]
+original=Edit a card
+translation=تحرير بطاقة
+
+[heading.plugins/canvas/Delete a card]
+original=Delete a card
+translation=حذف بطاقة
+
+[heading.plugins/canvas/Swap cards]
+original=Swap cards
+translation=تبديل البطاقات
+
+[heading.plugins/canvas/Select cards]
+original=Select cards
+translation=تحديد البطاقات
+
+[heading.plugins/canvas/Arrange cards]
+original=Arrange cards
+translation=ترتيب البطاقات
+
+[heading.plugins/canvas/Resize a card]
+original=Resize a card
+translation=تغيير حجم بطاقة
+
+[heading.plugins/canvas/Connect cards]
+original=Connect cards
+translation=ربط البطاقات
+
+[heading.plugins/canvas/Connect two cards]
+original=Connect two cards
+translation=ربط بطاقتين
+
+[heading.plugins/canvas/Disconnect two cards]
+original=Disconnect two cards
+translation=فصل بطاقتين
+
+[heading.plugins/canvas/Connect a card to a different card]
+original=Connect a card to a different card
+translation=ربط بطاقة ببطاقة مختلفة
+
+[heading.plugins/canvas/Navigate a connection]
+original=Navigate a connection
+translation=التنقل عبر اتصال
+
+[heading.plugins/canvas/Add a label to a connection]
+original=Add a label to a connection
+translation=إضافة تسمية إلى اتصال
+
+[heading.plugins/canvas/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=تغيير لون بطاقة أو اتصال
+
+[heading.plugins/canvas/Group cards]
+original=Group cards
+translation=تجميع البطاقات
+
+[heading.plugins/canvas/Group selected cards]
+original=Group selected cards
+translation=تجميع البطاقات المحددة
+
+[heading.plugins/canvas/Navigate the canvas]
+original=Navigate the canvas
+translation=التنقل في اللوحة
+
+[heading.plugins/canvas/Pan the canvas]
+original=Pan the canvas
+translation=تحريك اللوحة
+
+[heading.plugins/canvas/Zoom the canvas]
+original=Zoom the canvas
+translation=تكبير اللوحة
+
+[heading.plugins/canvas/Zoom to fit]
+original=Zoom to fit
+translation=تكبير للملائمة
+
+[heading.plugins/canvas/Zoom to selection]
+original=Zoom to selection
+translation=تكبير للمحدد
+
+[heading.plugins/canvas/Reset zoom]
+original=Reset zoom
+translation=إعادة ضبط التكبير
+
+[heading.plugins/canvas/Advanced tips]
+original=Advanced tips
+translation=نصائح متقدمة
+
+[heading.plugins/format-converter/Supported formats]
+original=Supported formats
+translation=التنسيقات المدعومة
+
+[heading.plugins/file-explorer/Create a new note]
+original=Create a new note
+translation=إنشاء ملاحظة جديدة
+
+[heading.plugins/file-explorer/Create a new folder]
+original=Create a new folder
+translation=إنشاء مجلد جديد
+
+[heading.plugins/file-explorer/Change sort order]
+original=Change sort order
+translation=تغيير ترتيب الفرز
+
+[heading.plugins/file-explorer/Auto-reveal active file]
+original=Auto-reveal active file
+translation=الكشف التلقائي عن الملف النشط
+
+[heading.plugins/file-explorer/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=توسيع أو طي جميع المجلدات
+
+[heading.plugins/file-explorer/Delete a file or folder]
+original=Delete a file or folder
+translation=حذف ملف أو مجلد
+
+[heading.plugins/file-explorer/Rename a file or folder]
+original=Rename a file or folder
+translation=إعادة تسمية ملف أو مجلد
+
+[heading.plugins/file-explorer/Move a file or folder]
+original=Move a file or folder
+translation=نقل ملف أو مجلد
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=التحقق من التحديثات وعرض الإصدار
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=تعطيل التحديثات التلقائية
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=تحديثات المُثبّت
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=الودجات والاختصارات و Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=شريط أدوات الهاتف
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=تخصيص شريط أدوات الهاتف
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=إضافة أمر إلى شريط أدوات الهاتف
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=الإجراء السريع
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=تخصيص الإجراء السريع
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=شريط التنقل
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=عودة للخلف أو إلى الأمام
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=إنشاء أو البحث عن ملاحظة
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=إدارة علامات التبويب
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=إجراءات الشريط الجانبي
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=الأشرطة الجانبية
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=فتح الأشرطة الجانبية المخفية
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=سطح المكتب والأجهزة اللوحية الأكبر حجمًا
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=الهاتف المحمول والأجهزة اللوحية الأصغر حجمًا
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=علامات التبويب
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=فتح أو إعادة فتح علامات التبويب
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=إغلاق علامات التبويب
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=إعادة ترتيب علامات التبويب
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=تثبيت علامات التبويب
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=مجموعات علامات التبويب
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=إنشاء مجموعات علامات التبويب
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=إغلاق مجموعات علامات التبويب
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=نظام الألوان
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=السمات المخصصة
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=أيقونة التطبيق المخصصة
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=الشفافية
+
+[heading.ribbon/Actions]
+original=Actions
+translation=الإجراءات
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=تخصيص الشريط
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=سطح المكتب
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=إخفاء الشريط
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=إظهار الشريط
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=الهاتف المحمول
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=الوصول السريع
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=إعادة الترتيب والرؤية
+
+[heading.publish/headless/Quick start]
+original=Quick start
+translation=البدء السريع
+
+[heading.publish/headless/Commands]
+original=Commands
+translation=الأوامر

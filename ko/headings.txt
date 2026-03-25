@@ -1,1315 +1,4111 @@
-[bases/views/list]
-Settings=설정
-Markers=마커
-Indent properties=속성 들여쓰기
-Separators=구분자
-
-[bases/views/map]
-Install the Maps plugin=Maps 플러그인 설치
-Example=예시
-Settings=설정
-Markers=마커
-Coordinates=좌표
-Icons=아이콘
-Use a formula to define icons=수식을 사용하여 아이콘 정의하기
-Colors=색상
-Background=배경
-Map tiles=지도 타일
-Useful links=유용한 링크
-Tips=팁
-Troubleshooting=문제 해결
-
-[bases/views/cards]
-Settings=설정
-Card size=카드 크기
-Image property=이미지 속성
-Image fit=이미지 맞춤
-Image aspect ratio=이미지 가로/세로 비율
-
-[bases/views/table]
-Settings=설정
-Row height=행 높이
-Summaries=요약
-Add a summary=요약 추가
-Built-in summaries=내장 요약
-All property types=모든 속성 유형
-Numbers=숫자
-Dates=날짜
-Checkbox=체크박스
-Custom summaries=커스텀 요약
-Shortcuts=단축키
-
-[bases/syntax]
-Example=예시
-Filters=필터
-Formulas=수식
-Properties=속성
-Summaries=요약
-Default Summary Formulas=기본 요약 수식
-Views=뷰
-Note properties=노트 속성
-File properties=파일 속성
-Access properties with `this`=`this`로 속성 접근하기
-Operators=연산자
-Arithmetic operators=산술 연산자
-Date arithmetic=날짜 산술
-Comparison operators=비교 연산자
-Boolean operators=불리언 연산자
-Functions=함수
-Types=유형
-Strings, numbers, and booleans=문자열, 숫자, 불리언
-Dates and durations=날짜와 기간
-Objects and lists=객체와 목록
-Files and links=파일과 링크
-
-[bases/create-base]
-Create a new base=새 베이스 생성하기
-Embed a base=베이스 임베드하기
-Embed a base file=베이스 파일 임베드하기
-Embed a base as a code block=코드 블록으로 베이스 임베드하기
-
-[bases]
-How to use bases=베이스 사용하기
-View types=뷰 유형
-
-[bases/views]
-Toolbar=툴바
-Add and switch views=보기 추가 및 전환
-View settings=보기 설정
-Layout=레이아웃
-Filters=필터
-Components of a filter=필터의 구성 요소
-Conjunctions=접속사
-Filter groups=필터 그룹
-Advanced filter editor=고급 필터 편집기
-Sort and group results=결과 정렬 및 그룹화
-Add a sort=정렬 추가
-Remove a sort=정렬 제거
-Limit, copy, and export results=결과 제한, 복사, 내보내기
-Limit results=결과 제한
-Copy to clipboard=클립보드에 복사
-Export CSV=CSV 내보내기
-Embed a view=보기 임베드
-
-[formulas]
-What formulas can do=수식으로 할 수 있는 것
-Create a formula property=수식 속성 생성
-Write a formula=수식 작성
-Reference properties=속성 참조
-Use operators=연산자 사용
-Use functions=함수 사용
-Formula examples=수식 예시
-Calculate a deadline=마감일 계산
-Display overdue status=기한 초과 상태 표시
-Format currency=통화 서식 지정
-Count list items=목록 항목 수 세기
-Calculate priority score=우선순위 점수 계산
-Combine text fields=텍스트 필드 결합
-Calculate total cost=총 비용 계산
-Data types=데이터 유형
-Reference other formulas=다른 수식 참조
-
-[bases/functions]
-Global=전역
-Date=날짜
-Fields=필드
-String=문자열
-Number=숫자
-List=목록
-Link=링크
-File=파일
-Object=객체
-Regular expression=정규 표현식
-
-[2fa]
-Enable 2FA=2FA 활성화
-Generate recovery codes=복구 코드 생성
-Disable 2FA=2FA 비활성화
-
-[android]
-Sync=동기화
-Vault location=보관함 위치
-Device storage=기기 저장소
-App storage=앱 저장소
-Widgets=위젯
-Quick Settings tiles=빠른 설정 타일
-Shortcuts=바로가기
-
-[obsidian]
-What is Obsidian=Obsidian이란
-How we're different=우리가 다른 점
-You own and control your data=데이터를 직접 소유하고 관리
-Links are first-class citizens=링크는 핵심 요소
-Your own toolkit=나만의 도구 모음
-Follow our development=개발 과정을 따라가세요
-
-[ios]
-Sync=동기화
-Widgets=위젯
-Lock Screen and Control Center widgets=잠금 화면 및 제어 센터 위젯
-Home Screen widgets=홈 화면 위젯
-Customizing widgets=위젯 사용자 지정
-Shortcuts=단축어
-Share Sheet Extension=공유 시트 확장
-Siri integration=Siri 통합
-Spotlight integration=Spotlight 통합
-
-[early-access]
-Enable early access versions for desktop=데스크톱에서 얼리 액세스 버전 활성화하기
-Install early access versions on mobile devices=모바일 기기에서 얼리 액세스 버전 설치하기
-Report issues and other feedback=문제 보고 및 기타 피드백
-Switch back to public versions on desktop=데스크톱에서 공개 버전으로 되돌리기
-Switch back to public versions on mobile=모바일에서 공개 버전으로 되돌리기
-
-[community-code-of-conduct]
-The rules=규칙
-Serious offenses=심각한 위반
-Harassment=괴롭힘
-Threats=위협
-Blatant -isms=노골적인 차별 발언
-Other offenses=기타 위반
-Belligerence=적대적 행동
-Being especially unpleasant=특별히 불쾌한 행동
-Unsolicited messages to community members=커뮤니티 회원에 대한 원치 않는 메시지
-Other behaviors=기타 행동
-Sea-lioning=시라이어닝(Sea-lioning)
-"Feed me"="대신 해주세요"
-Campaigning=반복적 요청
-Excessive self promotion=과도한 자기 홍보
-Spamming=스팸
-Encouraged behaviors=권장 행동
-Motivation=동기
-Report violations=위반 신고
-Report on Discord=Discord에서 신고
-Report on the forum=포럼에서 신고
-Enforcement=시행
-Appealing a ban=차단 이의 제기
-Credits=크레딧
-
-[credits]
-Team=팀
-Development=개발
-Product & Operations=제품 및 운영
-Moderators=모더레이터
-Retired=은퇴
-Plugin inspirations=플러그인 영감
-Builds=빌드
-Translators=번역자
-Documentation=문서
-Add your name=이름 추가하기
-Third party acknowledgements=타사 감사의 글
-Previous logo=이전 로고
-
-[publish/troubleshoot]
-General=일반
-Publishing notes=노트 게재
-CSS and themes=CSS 및 테마
-
-[publish/setup]
-Prerequisites=전제 조건
-Log in with your Obsidian account=Obsidian 계정으로 로그인
-Enable Obsidian Publish=Obsidian Publish 활성화
-Open Publish=Publish 열기
-Open via Command palette=명령어 팔레트로 열기
-Open via hotkey=키보드 단축키로 열기
-Open via ribbon=리본으로 열기
-Create a new site=새 사이트 생성
-Set a site name=사이트 이름 설정
-Select notes to publish=게재할 노트 선택
-Next steps=다음 단계
-
-[publish]
-How to use Obsidian Publish=Obsidian Publish 사용 방법
-
-[publish/collaborate]
-Add a collaborator to a site=사이트에 공동 작업자 추가
-Remove a collaborator from a site=사이트에서 공동 작업자 제거
-Sync changes between collaborators=공동 작업자 간 변경 사항 동기화
-Permissions=권한
-
-[publish/limitations]
-Community plugins=커뮤니티 플러그인
-Graph=그래프
-Media files=미디어 파일
-PDFs=PDF
-Search=검색
-
-[publish/seo]
-Sitemap=사이트맵
-Permalinks=고유 링크
-Metadata=메타데이터
-
-[publish/permalinks]
-Redirect old notes=이전 노트 리디렉션
-
-[publish/media]
-Images=이미지
-PDFs=PDF
-Videos and audio=동영상 및 오디오
-
-[publish/security]
-Password protection=비밀번호 보호
-Add a site password=사이트 비밀번호 추가
-Remove a site password=사이트 비밀번호 제거
-Data collection=데이터 수집
-Visitor data=방문자 데이터
-Access=접근
-Managing access to Obsidian Publish on your network=네트워크에서 Obsidian Publish 접근 관리
-
-[publish/analytics]
-Prerequisites=사전 준비
-Plausible, Fathom, and other analytics services=Plausible, Fathom 및 기타 분석 서비스
-Troubleshooting=문제 해결
-
-[publish/domains]
-Set up using CloudFlare=CloudFlare를 사용한 설정
-Set up using a proxy=프록시를 사용한 설정
-Supported HTTP X-Headers=지원되는 HTTP X-Headers
-Redirect old site to custom domain=이전 사이트를 사용자 지정 도메인으로 리디렉션
-Troubleshoot=문제 해결
-
-[publish/sites]
-Create a new site=새 사이트 만들기
-Delete an existing site=기존 사이트 삭제
-Switch between sites=사이트 간 전환
-Change the site ID=사이트 ID 변경
-View site options=사이트 옵션 보기
-Site options=사이트 옵션
-General=일반
-Appearance=외형
-Reading experience=읽는 방식
-Components=구성 요소
-Other site settings=기타 사이트 설정
-
-[publish/customize]
-Static assets=정적 에셋
-Use a community theme=커뮤니티 테마 사용
-Enable UI features=UI 기능 활성화
-Customize navigation=내비게이션 사용자 지정
-Accessing Customize navigation options=사용자 지정 내비게이션 옵션에 접근하기
-Adjust navigation items=내비게이션 항목 조정
-Hide and unhide navigation items=내비게이션 항목 숨기기 및 숨기기 해제
-
-[publish/social-share]
-Description=설명
-Image=이미지
-
-[publish/publish]
-Prerequisites=전제 조건
-Publish notes=노트 게재
-Unpublish notes=노트 게재 취소
-Update a published note=게재된 노트 업데이트
-Publish linked data=링크된 데이터 게재
-Automatically select data to publish=게재할 데이터 자동 선택
-Ignore data=데이터 무시
-
-[sync/troubleshoot]
-General=일반
-Conflict resolution=충돌 해결
-How Obsidian Sync handles conflicts=Obsidian Sync의 충돌 처리 방식
-Conflict resolution options=충돌 해결 옵션
-Sync deleted a note I just created on two devices=두 기기에서 방금 만든 노트를 Sync가 삭제했습니다
-Sync will not sync my plugins and settings updates=Sync가 플러그인 및 설정 업데이트를 동기화하지 않습니다
-My files keep disappearing from Sync as soon as I restore it=파일을 복원해도 Sync에서 계속 사라집니다
-
-[sync/setup]
-Set up Obsidian Sync for the first time=처음으로 Obsidian Sync 설정하기
-Log in with your Obsidian account=Obsidian 계정으로 로그인하기
-Enable Obsidian Sync=Obsidian Sync 활성화하기
-Create a new remote vault=새 원격 보관함 생성하기
-Connect to a remote vault=원격 보관함에 연결하기
-Adjust Obsidian Sync settings=Obsidian Sync 설정 조정하기
-Begin syncing with Obsidian Sync=Obsidian Sync로 동기화 시작하기
-Sync a remote vault on another device=다른 기기에서 원격 보관함 동기화하기
-Sync your vault from the vault switcher=보관함 전환기에서 보관함 동기화하기
-Sync your vault from Obsidian Settings=Obsidian 설정에서 보관함 동기화하기
-Manage your remote vaults=원격 보관함 관리하기
-Disconnect from a remote vault=원격 보관함에서 연결 해제하기
-Delete a remote vault=원격 보관함 삭제하기
-Regional sync servers=지역별 동기화 서버
-Next steps=다음 단계
-
-[sync]
-How to use Obsidian Sync=Obsidian Sync 사용 방법
-Important=중요
-
-[sync/switch]
-Move your vault out of your third-party syncing service or cloud storage=타사 동기화 서비스 또는 클라우드 저장소에서 보관함 이동하기
-Move your vault using Obsidian on desktop=데스크톱에서 Obsidian을 사용하여 보관함 이동하기
-Move your vault on mobile=모바일에서 보관함 이동하기
-iOS and iPadOS=iOS 및 iPadOS
-Next steps=다음 단계
-
-[sync/collaborate]
-Manage users=사용자 관리
-Add users=사용자 추가
-Remove users=사용자 제거
-Collaborate with your team=팀과 협업하기
-Permissions=권한
-Live editing=실시간 편집
-Limitations=제한 사항
-
-[sync/settings]
-Sync settings=동기화 설정
-Conflict resolution=충돌 해결
-Selective syncing=선택적 동기화
-Change the file types you want to sync=동기화할 파일 유형 변경
-Exclude a folder from syncing=동기화에서 폴더 제외
-Always excluded from sync=항상 동기화에서 제외되는 항목
-File recovery snapshots=파일 복원 스냅샷
-Hidden files and folders=숨김 파일 및 폴더
-Updating your synced vault settings=동기화된 보관함 설정 업데이트
-Primary device=주 기기
-Secondary device(s)=보조 기기
-Reloading of settings=설정 새로고침
-Settings profiles=설정 프로필
-Create a settings profile=설정 프로필 만들기
-
-[sync/region]
-Available regions=사용 가능한 지역
-Change Sync region=Sync 지역 변경
-
-[sync/vault-types]
-File-based sync services=파일 기반 동기화 서비스
-Sync behavior=동기화 동작
-Offline behavior=오프라인 동작
-Next steps=다음 단계
-
-[sync/version-history]
-Sync history=동기화 기록
-Show Sync history=동기화 기록 표시
-Enable via Command palette=명령어 팔레트를 통해 활성화
-Enable via Hotkey=키보드 단축키를 통해 활성화
-Version history=버전 기록
-Notes and attachments=노트 및 첨부 파일
-View version history of a file=파일의 버전 기록 보기
-View version history of a deleted or renamed file=삭제되거나 이름이 변경된 파일의 버전 기록 보기
-Restore a previous version of a file=파일의 이전 버전 복원
-Restore a deleted file=삭제된 파일 복원
-Settings history=설정 기록
-View version history of a setting=설정의 버전 기록 보기
-Restore a previous version of a setting=설정의 이전 버전 복원
-
-[sync/security]
-Encryption=암호화
-What does end-to-end encryption mean?=종단 간 암호화란 무엇인가요?
-What are the risks of using standard encryption?=표준 암호화의 위험성은 무엇인가요?
-What encryption do you use?=어떤 암호화를 사용하나요?
-Can I verify that my data is end-to-end encrypted?=내 데이터가 종단 간 암호화되었는지 확인할 수 있나요?
-Has Obsidian completed a third-party security audit?=Obsidian은 제3자 보안 감사를 완료했나요?
-What happens if I forget my encryption password?=암호화 비밀번호를 잊어버리면 어떻게 되나요?
-Hosting=호스팅
-Where do you host the servers for Obsidian Sync?=Obsidian Sync의 서버는 어디에서 호스팅하나요?
-Where can I find my current Sync server and where is it hosted?=현재 Sync 서버를 찾고 어디에서 호스팅되는지 확인하려면 어떻게 하나요?
-Network and access=네트워크 및 접근
-Managing access to Obsidian Sync on your network=네트워크에서 Obsidian Sync에 대한 접근 관리
-Limitations=제한 사항
-Deterministic file-hash encryption=결정적 파일 해시 암호화
-No cryptographic binding between path and content=경로와 콘텐츠 간의 암호학적 바인딩 없음
-
-[sync/messages]
-Sync status icon=Sync 상태 아이콘
-Sync activity log=Sync 활동 기록
-General messages=일반 메시지
-Error messages=에러 메시지
-Skipped messages=건너뜀 메시지
-Account messages=계정 메시지
-Network messages=네트워크 메시지
-
-[sync/migrate]
-Encryption versions=암호화 버전
-Upgrade encryption with the migration assistant=이동 도우미를 사용한 암호화 업그레이드
-
-[sync/faq]
-General=일반
-What operating systems does Obsidian Sync support?=Obsidian Sync는 어떤 운영 체제를 지원하나요?
-Does Obsidian work with Apple's Lockdown Mode?=Obsidian은 Apple의 잠금 모드에서 작동하나요?
-What type of data is synced?=어떤 유형의 데이터가 동기화되나요?
-How much storage do I have?=얼마나 많은 저장 공간이 있나요?
-How many remote vaults can I have?=원격 보관함은 몇 개까지 가질 수 있나요?
-How large can each remote vault be?=각 원격 보관함의 최대 크기는 얼마인가요?
-How many people can I share a remote vault with?=원격 보관함을 몇 명까지 공유할 수 있나요?
-How large can each file be?=각 파일의 최대 크기는 얼마인가요?
-Is my data being synced in the background?=백그라운드에서 데이터가 동기화되나요?
-Does Obsidian Sync live-reload my settings?=Obsidian Sync는 설정을 실시간으로 다시 불러오나요?
-Can I use a third-party sync with Obsidian Sync?=타사 동기화를 Obsidian Sync와 함께 사용할 수 있나요?
-Data retention=데이터 보존
-How long do you keep the version history?=버전 기록은 얼마나 오래 보관되나요?
-How long do you keep my data after my subscription expires?=구독이 만료된 후 데이터는 얼마나 오래 보관되나요?
-Do you keep my data if I refund my subscription service?=구독 서비스를 환불하면 데이터가 보관되나요?
-
-[sync/plans]
-Plans=플랜
-Storage limits=저장 용량 제한
-Identify and delete large files=큰 파일 식별 및 삭제
-Create a new remote vault=새 원격 보관함 생성
-Upgrade your plan=플랜 업그레이드
-Downgrade your plan=플랜 다운그레이드
-Preserve version history=버전 기록 보존
-
-[sync/headless]
-Quick start=빠른 시작
-Commands=명령
-Native modules=네이티브 모듈
-
-[web-clipper]
-Install Web Clipper=Web Clipper 설치
-How to use Web Clipper=Web Clipper 사용 방법
-Privacy=개인정보 보호
-
-[web-clipper/troubleshoot]
-General=일반
-Some content is missing=일부 콘텐츠가 누락됨
-No content appears in Obsidian=Obsidian에 콘텐츠가 표시되지 않음
-Obsidian does not open=Obsidian이 열리지 않음
-Obsidian opens but only the file name is saved=Obsidian이 열리지만 파일 이름만 저장됨
-iOS and iPadOS=iOS 및 iPadOS
-
-[web-clipper/logic]
-Conditionals=조건문
-Comparison operators=비교 연산자
-Logical operators=논리 연산자
-Truthiness=참 거짓 판별 (Truthiness)
-Assign a variable=변수 할당
-Fallbacks=대체값
-Chaining fallbacks=대체값 체이닝
-With filters=필터와 함께 사용
-Loops=반복문
-Loop sources=반복 소스
-Loop variables=반복 변수
-Accessing array items by index=인덱스로 배열 항목 접근
-Nested loops=중첩 반복문
-Combine logic=로직 결합
-Evaluation order=평가 순서
-
-[web-clipper/reader]
-Activate reading mode=읽기 모드 활성화
-How it works=작동 방식
-Customize the reading view=읽기 뷰 사용자 지정
-
-[web-clipper/variables]
-Preset variables=프리셋 변수
-Prompt variables=프롬프트 변수
-When to use prompt variables=프롬프트 변수를 사용할 때
-Examples=예시
-Meta variables=메타 변수
-Selector variables=선택자 변수
-Schema.org variables=Schema.org 변수
-
-[web-clipper/capture]
-Capture a page=페이지 캡처
-Download images=이미지 다운로드
-Hotkeys=단축키
-Interface functionality=인터페이스 기능
-
-[web-clipper/highlight]
-Turn on highlighter=하이라이터 켜기
-Highlighter settings=하이라이터 설정
-
-[web-clipper/interpreter]
-Examples of prompts=프롬프트 예시
-Get started=시작하기
-How it works=작동 방식
-Context=컨텍스트
-Models=모델
-Preset providers=프리셋 제공자
-Choosing a model=모델 선택하기
-Custom providers and models=커스텀 제공자 및 모델
-Local models=로컬 모델
-
-[web-clipper/templates]
-Create or edit a template=템플릿 생성 또는 편집
-Import and export Web Clipper templates=Web Clipper 템플릿 들여오기 및 내보내기
-Template settings=템플릿 설정
-Behavior=동작
-Automatically trigger a template=자동으로 템플릿 트리거
-Simple URL matching=단순 URL 매칭
-Regular expression matching=정규식 매칭
-Schema.org matching=Schema.org 매칭
-Interpreter context=인터프리터 컨텍스트
-
-[web-clipper/filters]
-Dates=날짜
-Text conversion and capitalization=텍스트 변환 및 대소문자
-Text formatting=텍스트 서식
-Numbers=숫자
-HTML processing=HTML 처리
-Arrays and objects=배열과 객체
-
-[snippets]
-Adding a snippet=스니펫 추가하기
-Writing CSS for Obsidian=Obsidian용 CSS 작성하기
-Learn more=더 알아보기
-
-[cli]
-Install Obsidian CLI=Obsidian CLI 설치
-Get started=시작하기
-Run a command=명령어 실행
-Use the terminal interface=터미널 인터페이스 사용
-Examples=예제
-Everyday use=일상적인 사용
-For developers=개발자용
-How to=사용법
-Use parameters and flags=매개변수와 플래그 사용
-Target a vault=보관함 지정
-Target a file=파일 지정
-Copy output=출력 복사
-General commands=일반 명령어
-Bases=베이스
-Bookmarks=북마크
-Command palette=명령어 팔레트
-Daily notes=일일 노트
-File history=파일 기록
-Files and folders=파일 및 폴더
-Links=링크
-Outline=개요
-Plugins=플러그인
-Properties=속성
-Random notes=무작위 노트
-Search=검색
-Tags=태그
-Tasks=작업
-Templates=템플릿
-Themes and snippets=테마 및 스니펫
-Unique notes=고유 노트
-Vault=보관함
-Web viewer=웹 뷰어
-Wordcount=단어 수
-Workspace=작업 공간
-Developer commands=개발자 명령어
-Keyboard shortcuts=키보드 단축키
-Navigation=내비게이션
-Editing=편집
-Autocomplete=자동 완성
-History=기록
-Other=기타
-Troubleshooting=문제 해결
-Alternate shells=대체 셸
-
-[headless]
-Install=설치
-Authentication=인증
-Log in=로그인
-Services=서비스
-
-[uri]
-URI format=URI 형식
-Open note=노트 열기
-Examples=예시
-Parameters=매개변수
-Create note=노트 생성
-Create or open daily note=일일 노트 생성 또는 열기
-Unique Note=고유 노트
-Open search=검색 열기
-Open Vault Manager=보관함 관리자 열기
-Integrate with Hook=Hook과 통합
-Example=예시
-Use x-callback-url parameters=x-callback-url 매개변수 사용
-Shorthand formats=단축 형식
-Troubleshooting=문제 해결
-Register Obsidian URI=Obsidian URI 등록
-
-[community-plugins]
-Browse community plugins=커뮤니티 플러그인 탐색
-Install a community plugin=커뮤니티 플러그인 설치
-Enable a community plugin=커뮤니티 플러그인 활성화
-Update plugins=플러그인 업데이트
-Uninstall a community plugin=커뮤니티 플러그인 삭제
-Manage installed plugins=설치된 플러그인 관리
-Learn more=더 알아보기
-
-[themes]
-Browse themes=테마 탐색
-Install a new theme=새 테마 설치
-Update themes=테마 업데이트
-Uninstall an existing theme=기존 테마 삭제
-Learn more=더 알아보기
-
-[plugin-security]
-Restricted mode=제한 모드
-Plugin capabilities=플러그인 기능
-Plugin review process=플러그인 검토 과정
-
-[developers]
-Plugins and themes=플러그인 및 테마
-Open source projects=오픈 소스 프로젝트
-Documentation=문서
-Community=커뮤니티
-
-[style-guide]
-Terminology and grammar=용어 및 문법
-Language style=언어 스타일
-Terms=용어
-Product names=제품 이름
-UI and interactions=UI 및 상호작용
-Notes, files, and folders=노트, 파일 및 폴더
-Reference documentation for settings=설정 참조 문서
-Directional terms=방향 용어
-Instructions=지침
-Sentence case=문장형 대소문자
-Examples=예시
-Key names and keyboard shortcuts=키 이름 및 키보드 단축키
-Images=이미지
-Information structure=정보 구조
-Callout types=콜아웃 유형
-Lists vs. prose=목록 vs. 산문
-Tables=표
-Cross-references=상호 참조
-Platform-specific content=플랫폼별 콘텐츠
-Icons and images=아이콘 및 이미지
-Icons=아이콘
-Image anchor tags=이미지 앵커 태그
-Optimization=최적화
-Layout=레이아웃
-Broken links=깨진 링크
-Descriptions=설명
-Directions=방향
-Translations=번역
-
-[plugins/canvas]
-Create a new canvas=새 캔버스 만들기
-Add cards=카드 추가
-Add text cards=텍스트 카드 추가
-Add cards from notes=노트에서 카드 추가
-Add cards from media=미디어에서 카드 추가
-Add cards from web pages=웹 페이지에서 카드 추가
-Add cards from folders=폴더에서 카드 추가
-Edit a card=카드 편집
-Delete a card=카드 삭제
-Swap cards=카드 교체
-Select cards=카드 선택
-Arrange cards=카드 배열
-Resize a card=카드 크기 조절
-Connect cards=카드 연결
-Connect two cards=두 카드 연결
-Disconnect two cards=두 카드 연결 끊기
-Connect a card to a different card=다른 카드에 연결
-Navigate a connection=연결 탐색
-Add a label to a connection=연결에 라벨 추가
-Change the color of a card or connection=카드 또는 연결의 색상 변경
-Group cards=카드 그룹화
-Group selected cards=선택한 카드 그룹화
-Navigate the canvas=캔버스 탐색
-Pan the canvas=캔버스 이동
-Zoom the canvas=캔버스 확대
-Zoom to fit=화면 맞춤 확대
-Zoom to selection=선택 맞춤 확대
-Reset zoom=화면 비율 초기화
-Advanced tips=고급 팁
-
-[plugins/search]
-Search terms=검색어
-Search operators=검색 연산자
-Search properties=속성 검색
-Change case sensitivity=대소문자 구분 변경
-Change result sort order=결과 정렬 순서 변경
-Copy search results=검색 결과 복사
-Use regular expressions=정규식 사용
-Configure search settings=검색 설정 구성
-Embed search results in a note=노트에 검색 결과 임베드
-
-[plugins/unique-note]
-Create a unique note=고유 노트 만들기
-Create unique notes from a template=템플릿으로 고유 노트 만들기
-
-[plugins/graph]
-Settings=설정
-Filters=필터
-Groups=그룹
-Display=표시
-Forces=장력
-Start a time-lapse animation=타임랩스 애니메이션 시작
-Local Graph=로컬 그래프
-
-[plugins/note-composer]
-Merge notes=노트 병합
-Extract note=노트 추출
-Template file=템플릿 파일
-
-[plugins/format-converter]
-Supported formats=지원되는 형식
-
-[plugins/command-palette]
-Pinned commands=즐겨찾기된 명령어
-Pin a command=명령 고정하기
-Unpin a command=명령 고정 해제하기
-
-[plugins/backlinks]
-Show backlinks=백링크 보기
-View backlinks for a note=노트의 백링크 보기
-See backlinks of a specific note=특정 노트의 백링크 보기
-Show backlinks in a note=노트에서 백링크 표시
-
-[plugins/bookmarks]
-Add a bookmark=북마크 추가
-Remove a bookmark=북마크 제거
-Add a bookmark group=북마크 그룹 추가
-Remove a bookmark group=북마크 그룹 제거
-Bookmark multiple files=여러 파일 북마크하기
-
-[plugins/quick-switcher]
-Open Quick switcher=빠른 전환기 열기
-Open a note with Quick switcher=빠른 전환기로 노트 열기
-
-[plugins/properties]
-All properties view=모든 속성 뷰
-
-[plugins/web-viewer]
-Reader view=리더 뷰
-Save to vault=보관함에 저장
-Ad blocking=광고 차단
-Security=보안
-
-[plugins/audio-recorder]
-Record audio in a note=노트에 오디오 녹음하기
-
-[plugins/daily-notes]
-Create a daily note from template=템플릿으로 일일 노트 생성
-Daily notes and properties=일일 노트와 속성
-
-[plugins/workspaces]
-Save a workspace=작업 공간 저장
-Load a workspace=작업 공간 불러오기
-Delete a workspace=작업 공간 삭제
-
-[plugins]
-All core plugins=모든 코어 플러그인
-Other plugins=기타 플러그인
-
-[plugins/templates]
-Set your template folder=템플릿 폴더 설정
-Template variables=템플릿 변수
-Create a template=템플릿 만들기
-Insert a template into the active note=활성 노트에 템플릿 삽입
-Template properties=템플릿 속성
-
-[plugins/file-recovery]
-Recover a snapshot=스냅샷 복원하기
-Clear snapshot history=스냅샷 기록 지우기
-Storage and performance=저장 공간과 성능
-Limitations=제한 사항
-
-[plugins/file-explorer]
-Create a new note=새 노트 만들기
-Create a new folder=새 폴더 만들기
-Change sort order=정렬 순서 변경
-Auto-reveal active file=활성 파일 자동 표시
-Expand or collapse all folders=모든 폴더 펼치기 또는 접기
-Delete a file or folder=파일 또는 폴더 삭제
-Rename a file or folder=파일 또는 폴더 이름 바꾸기
-Move a file or folder=파일 또는 폴더 이동
-
-[teams/license]
-Purchase a commercial license=상용 라이선스 구매
-Apply a commercial license=상용 라이선스 적용
-Supporting organizations=지원 조직
-Frequently asked questions=자주 묻는 질문
-
-[teams/deploy]
-Install and update Obsidian=Obsidian 설치 및 업데이트
-Customizing Obsidian=Obsidian 사용자 지정
-Configuration folders=설정 폴더
-Plugins=플러그인
-Themes and snippets=테마 및 스니펫
-Frequently asked questions=자주 묻는 질문
-Deployment=배포
-
-[teams]
-Use Obsidian with your team=팀과 함께 Obsidian 사용하기
-Important resources=중요 자료
-
-[teams/publish]
-Publishing tools and services=게재 도구 및 서비스
-Advanced collaboration for Obsidian Publish=Obsidian Publish를 위한 고급 협업
-Media=미디어
-Frequently asked questions=자주 묻는 질문
-
-[teams/sync]
-Syncing tools and services=동기화 도구 및 서비스
-Obsidian Sync for teams=팀을 위한 Obsidian Sync
-Security=보안
-Frequently asked questions=자주 묻는 질문
-
-[teams/security]
-Considerations=고려 사항
-Community plugins and themes=커뮤니티 플러그인 및 테마
-Network and access=네트워크 및 접근
-Obsidian-sourced connections=Obsidian 소스 연결
-GitHub-sourced connections=GitHub 소스 연결
-Other connections=기타 연결
-Frequently asked questions=자주 묻는 질문
-Account security=계정 보안
-Assessments and certifications=평가 및 인증
-
-[import/apple-journal]
-Export your data from Apple Journal=Apple Journal에서 데이터 내보내기
-On iPhone=iPhone에서
-On Mac (Tahoe)=Mac (Tahoe)에서
-Import Apple Journal data into Obsidian=Apple Journal 데이터를 Obsidian으로 들여오기
-Supported content=지원되는 콘텐츠
-
-[import/csv]
-Create notes from CSV data in Obsidian=Obsidian에서 CSV 데이터로 노트 생성하기
-Configure how CSV fields are imported=CSV 필드 들여오기 방식 설정하기
-
-[import/craft]
-Export your data from Craft=Craft에서 데이터 내보내기
-Import your Craft data into Obsidian=Craft 데이터를 Obsidian으로 들여오기
-Troubleshooting=문제 해결
-
-[plugins/importer]
-Install Importer=Importer 설치
-
-[import/textbundle]
-Import Textbundle files into Obsidian=Textbundle 파일을 Obsidian으로 들여오기
-Troubleshooting=문제 해결
-No files are selected for import=들여오기할 파일이 선택되지 않음
-
-[links]
-Supported formats for internal links=내부 링크의 지원 형식
-Link to a file=파일에 링크하기
-Link to a heading in a note=노트의 제목에 링크하기
-Link to a block in a note=노트의 블록에 링크하기
-Change the link display text=링크 표시 텍스트 변경하기
-Preview a linked file=링크된 파일 미리보기
-
-[aliases]
-Add an alias to a note=노트에 별칭 추가하기
-Link to a note using an alias=별칭을 사용하여 노트에 링크하기
-Find unlinked mentions for an alias=별칭에 대한 링크되지 않은 호출 찾기
-
-[embeds]
-Embed a note in another note=다른 노트에 노트 임베드하기
-Embed an image in a note=노트에 이미지 임베드하기
-Embed an audio file in a note=노트에 오디오 파일 임베드하기
-Embed a PDF in a note=노트에 PDF 임베드하기
-Embed a list in a note=노트에 목록 임베드하기
-Embed search results=검색 결과 임베드하기
-
-[resources]
-Questions and advice=질문 및 조언
-Report bugs and request features=버그 신고 및 기능 요청
-Collect debug information=디버그 정보 수집
-Check startup time=시작 시간 확인
-Capture console logs=콘솔 로그 캡처
-Contact Obsidian support=Obsidian 지원팀에 문의하기
-Report a security issue=보안 문제 신고
-Report a Code of Conduct violation=행동 강령 위반 신고
-Contributing to Obsidian=Obsidian에 기여하기
-
-[catalyst]
-Catalyst tiers=Catalyst 등급
-Access Catalyst benefits=Catalyst 혜택 이용
-Get your forum badge=포럼 배지 받기
-Get your Discord badge=Discord 배지 받기
-Join our Insider channels=Insider 채널 참여
-Enable early access versions=얼리 액세스 버전 활성화
-
-[credit]
-Add credit=크레딧 추가
-Gifting=선물하기
-Give Obsidian Credit=Obsidian 크레딧 보내기
-Receiving Obsidian Credit=Obsidian 크레딧 받기
-
-[discounts]
-How to apply=신청 방법
-How to renew=갱신 방법
-Frequently asked questions=자주 묻는 질문
-Refunds=환불
-
-[payment]
-Purchase a service or license=서비스 또는 라이선스 구매
-Generate an invoice=청구서 생성
-Editing an invoice=청구서 편집
-
-[sales-tax]
-Tax exemption=세금 면제
-Applying for an exemption=면제 신청
-
-[refunds]
-Request a refund=환불 요청
-Frequently asked questions=자주 묻는 질문
-
-[hotkeys]
-View hotkeys=단축키 보기
-Set a hotkey=단축키 설정하기
-Remove a hotkey=단축키 제거하기
-Filter hotkeys=단축키 필터링
-Non-US keyboard layouts=미국식이 아닌 키보드 레이아웃
-Default keyboard shortcuts=기본 키보드 단축키
-
-[drag-and-drop]
-Drag tabs=탭 드래그
-Drag sources=드래그 원본
-Drop destinations=놓기 대상
-Dragging from outside Obsidian=Obsidian 외부에서 드래그
-Dropping files outside Obsidian=Obsidian 외부로 파일 놓기
-
-[ribbon]
-Actions=동작
-Customize the ribbon=리본 사용자 지정
-Desktop=데스크톱
-Hide the ribbon=리본 숨기기
-Show the ribbon=리본 표시하기
-Mobile=모바일
-Quick access=빠른 접근
-Rearrange and visibility=재배열 및 표시 여부
-
-[sidebar]
-Open hidden sidebars=숨겨진 사이드바 열기
-Desktop and larger tablets=데스크톱 및 큰 태블릿
-Mobile and smaller tablets=모바일 및 작은 태블릿
-Tabs=탭
-Open or reopen tabs=탭 열기 또는 다시 열기
-Close tabs=탭 닫기
-Rearrange tabs=탭 재배열
-Pin tabs=탭 고정
-Tab groups=탭 그룹
-Create tab groups=탭 그룹 만들기
-Close tab groups=탭 그룹 닫기
-
-[settings]
-Open Settings=설정 열기
-Desktop=데스크톱
-Mobile=모바일
-Settings organization=설정 구성
-General=일반
-Version and updates=버전 및 업데이트
-Language=언어
-Help=도움말
-Account=계정
-Advanced=고급 설정
-Notify if startup takes longer than expected=앱 시작이 예상보다 느려질 경우 알리기
-Editor=편집기
-Always focus new tabs=항상 새 탭으로 전환
-Default view for new tabs=새 탭에 사용하는 기본 화면
-Default editing mode=기본 편집 모드
-Show editing mode in status bar=편집기 상태 보기
-Display=표시
-Readable line length=읽기 쉬운 행 길이
-Strict line breaks=엄격한 줄 바꿈
-Properties in document=문서 내 속성
-Fold heading=제목 접기
-Fold indent=들여쓰기 접기
-Show line numbers=줄 번호
-Show indentation guides=들여쓰기 가이드
-Right-to-left (RTL)=오른쪽-왼쪽 방향 (RTL)
-Auto-pair brackets=괄호 자동 닫기
-Auto-pair Markdown syntax=마크다운 문법 자동 닫기
-Smart lists=스마트 들여쓰기
-Indent using tabs=들여쓰기로 탭 사용
-Convert pasted HTML to Markdown=HTML 자동 변환
-Behavior=동작
-Spellcheck=맞춤법 검사
-Spellcheck languages=맞춤법 검사 언어
-Indent visual width=들여쓰기 크기
-Vim key bindings=Vim 키 바인딩 설정
-Files and links=파일 및 링크
-Default location for new notes=새 노트를 생성하는 위치
-Default location for new attachments=새 첨부 파일을 생성할 위치
-Links=링크
-New link format=새로 생성하는 링크 형식
-Automatically update internal links=항상 업데이트되는 내부 링크
-Use Wikilinks=위키 링크 사용
-Show all file types=모든 파일 형식 표시
-Trash=휴지통
-Confirm file deletion=파일 삭제 확인
-Deleted files=삭제된 파일
-Excluded files=제외하는 파일
-Override config folder=설정 폴더 우선순위 전환
-Allow URI callbacks=URI 콜백 허용
-Rebuild vault cache=보관함 캐시 다시 빌드하기
-Appearance=외형
-Base color scheme=기본 테마
-Accent color=강조 색상
-Themes=테마
-Current community themes=현재 커뮤니티 테마
-Font=폰트
-Interface font=인터페이스 폰트
-Text font=텍스트 폰트
-Monospace font=모노스페이스 폰트
-Font size=폰트 크기
-Quick font size adjustment=빠른 폰트 크기 조정
-Interface=인터페이스
-Show inline title=인라인 제목
-Show tab title bar=탭 타이틀바 표시
-Show ribbon=리본 표시하기
-Ribbon menu configuration=리본 메뉴 설정
-Zoom level=배율
-Native menus=네이티브 메뉴
-Window frame style=창 프레임 스타일
-Custom app icon=커스텀 앱 아이콘
-Translucent window=반투명 창
-Hardware acceleration=하드웨어 가속
-CSS snippets=CSS 스니펫
-Hotkeys=단축키
-Core plugins=코어 플러그인
-Community plugins=커뮤니티 플러그인
-Restricted mode=제한 모드
-Current plugins=현재 설치된 플러그인
-Installed plugins=설치된 플러그인
-
-[appearance]
-Color scheme=색상 구성표
-Custom themes=커스텀 테마
-Custom app icon=커스텀 앱 아이콘
-Translucency=반투명도
-
-[workspace]
-Desktop=데스크톱
-Mobile=모바일
-
-[tabs]
-Open a new tab=새 탭 열기
-Open a link=링크 열기
-Organize your tabs and windows=탭과 창 정리하기
-Arrange tabs=탭 배열하기
-Split a tab group=탭 그룹 분할하기
-Resize a tab group=탭 그룹 크기 조절하기
-Move tab to a new window=탭을 새 창으로 이동하기
-Move a tab to a different window=탭을 다른 창으로 이동하기
-Pin a tab=탭 고정하기
-Switch to a different tab=다른 탭으로 전환하기
-Stack tab groups=탭 그룹 스택하기
-Linked views=링크된 화면
-Save layouts=레이아웃 저장하기
-
-[pop-out-windows]
-Open a file in a new window=새 창에서 파일 열기
-Move a file to a different window=다른 창으로 파일 이동하기
-
-[install]
-Install Obsidian on Windows=Windows에서 Obsidian 설치하기
-Install Obsidian on macOS=macOS에서 Obsidian 설치하기
-Install Obsidian on Linux=Linux에서 Obsidian 설치하기
-Install Obsidian using Snap=Snap을 사용하여 Obsidian 설치하기
-Install Obsidian using AppImage=AppImage를 사용하여 Obsidian 설치하기
-Install Obsidian using Flatpak=Flatpak을 사용하여 Obsidian 설치하기
-Install Obsidian on Android=Android에서 Obsidian 설치하기
-Install Obsidian on iPhone and iPad=iPhone 및 iPad에서 Obsidian 설치하기
-
-[updates]
-Check for updates and view version=업데이트 확인 및 버전 보기
-Disable automatic updates=자동 업데이트 비활성화
-Installer updates=설치 프로그램 업데이트
-
-[backup]
-Syncing is not a backup=동기화는 백업이 아닙니다
-Use community plugins=커뮤니티 플러그인 사용
-Use cloud-based services=클라우드 기반 서비스 사용
-Use external drives=외장 드라이브 사용
-Use computer backups=컴퓨터 백업 사용
-Next steps=다음 단계
-
-[sync-notes]
-Syncing methods=동기화 방법
-iPhone and iPad syncing=iPhone 및 iPad 동기화
-Frequently asked questions=자주 묻는 질문
-
-[link-notes]
-Create a link=링크 만들기
-Create a link to a non-existing note=존재하지 않는 노트에 대한 링크 만들기
-Navigate between notes=노트 간 탐색
-Learn more=자세히 알아보기
-
-[mobile]
-Widgets, shortcuts, and Siri=위젯, 단축키 및 Siri
-Mobile toolbar=모바일 툴바
-Customize mobile toolbar=모바일 툴바 사용자 지정
-Add command to mobile toolbar=모바일 툴바에 명령 추가
-Quick Action=빠른 작업
-Customize Quick Action=빠른 작업 사용자 지정
-Navigation bar=내비게이션 바
-Go back or forward=뒤로 또는 앞으로
-Create or find note=노트 생성 또는 찾기
-Tab management=탭 관리
-Ribbon actions=리본 작업
-Sidebars=사이드바
-
-[vault]
-Create empty vault=빈 보관함 생성
-Open existing folder=기존 폴더 열기
-
-[sandbox]
-Opening the sandbox vault=샌드박스 보관함 열기
-Close the sandbox vault=샌드박스 보관함 닫기
-
-[glossary]
-Alias=별칭
-Attachment=첨부 파일
-Command=명령
-Embed=임베드
-Frontmatter=프런트매터
-Graph=그래프
-Hotkey=키보드 단축키
-Link=링크
-Main area=메인 영역
-Note=노트
-Plugin=플러그인
-Pop-out window=팝아웃 창
-Property=속성
-Ribbon=리본
-Sidebar=사이드바
-Snippet=스니펫
-Status bar=상태 표시줄
-Tab=탭
-Tab group=탭 그룹
-Tag=태그
-Theme=테마
-Vault=보관함
-Remote vault=원격 보관함
-View=뷰
-
-[create-note]
-Create a new note=새 노트 만들기
-Formatting text=텍스트 서식 지정
-Learn more=자세히 알아보기
-
-[data-storage]
-Vault settings=보관함 설정
-Global settings=전역 설정
-Metadata cache=메타데이터 캐시
-
-[manage-notes]
-Create a new note=새 노트 생성
-Rename a note=노트 이름 바꾸기
-Delete a note=노트 삭제
-
-[manage-vaults]
-Create new vault=새 보관함 생성
-Create vault from an existing folder=기존 폴더에서 보관함 생성
-Rename vault=보관함 이름 바꾸기
-Move vault to a different folder=보관함을 다른 폴더로 이동
-Remove vault=보관함 제거
-Transfer settings to another vault=다른 보관함으로 설정 전달
-
-[configuration-folder]
-Access your configuration folder=설정 폴더 접근하기
-Desktop=데스크톱
-Mobile=모바일
-Change your configuration folder=설정 폴더 변경하기
-
-[file-formats]
-Embed files=파일 임베드
-
-[html]
-HTML limitations=HTML 제한 사항
-No Markdown inside HTML=HTML 내부에서 Markdown 사용 불가
-HTML blocks must be self-contained=HTML 블록은 자체적으로 완결되어야 합니다
-When Markdown appears to work in HTML=HTML에서 Markdown이 작동하는 것처럼 보이는 경우
-Common HTML usage=일반적인 HTML 사용법
-Comments=주석
-Underline=밑줄
-Strikethrough=취소선
-
-[obsidian-flavored-markdown]
-Supported Markdown extensions=지원되는 Markdown 확장 기능
-
-[advanced-syntax]
-Tables=표
-Format content within a table=표 안의 콘텐츠 서식 지정
-Diagram=다이어그램
-Linking files in a diagram=다이어그램에서 파일 연결하기
-Math=수식
-
-[syntax]
-Paragraphs=문단
-Line breaks=줄 바꿈
-Headings=제목
-Bold, italics, highlights=굵게, 기울임꼴, 강조 표시
-Internal links=내부 링크
-External links=외부 링크
-Escape blank spaces in links=링크에서 공백 이스케이프
-External images=외부 이미지
-Quotes=인용
-Lists=목록
-Task lists=작업 목록
-Nesting lists=목록 중첩
-Horizontal rule=수평선
-Code=코드
-Inline code=인라인 코드
-Code blocks=코드 블록
-Nesting code blocks=코드 블록 중첩
-Footnotes=각주
-Comments=주석
-Escaping Markdown Syntax=Markdown 구문 이스케이프
-Learn more=자세히 알아보기
-
-[multiple-cursors]
-Rectangular selection=사각 선택
-
-[edit-and-read]
-Reading view=읽기 보기
-Editing view=편집기
-Live Preview=실시간 미리보기
-Source mode=원본 모드
-
-[properties]
-Add properties to a note=노트에 속성 추가하기
-Property types=속성 유형
-Advanced uses=고급 사용법
-Search properties=속성 검색
-Templates=템플릿
-Rename properties=속성 이름 바꾸기
-Display modes=표시 모드
-CSS snippets=CSS 스니펫
-Not supported=지원되지 않는 기능
-Hotkeys=키보드 단축키
-Add a property=속성 추가
-Navigate between properties=속성 간 이동
-Select properties=속성 선택
-Edit properties=속성 편집
-Vim (advanced)=Vim (고급)
-Property format=속성 형식
-Text=텍스트
-List=목록
-Number=숫자
-Checkbox=체크박스
-Date=날짜
-Date & time=날짜 및 시간
-Tags=태그
-JSON properties=JSON 속성
-Default properties=기본 속성
-Properties for Obsidian Publish=Obsidian Publish용 속성
-Deprecated properties=지원 중단된 속성
-
-[embed-web-pages]
-Embed a YouTube video=YouTube 동영상 삽입
-Embed a tweet=트윗 삽입
-
-[attachments]
-Add an attachment=첨부 파일 추가
-Change default attachment location=기본 첨부 파일 위치 변경
-
-[callouts]
-Change the title=제목 변경
-Foldable callouts=접을 수 있는 콜아웃
-Nested callouts=중첩 콜아웃
-Customize callouts=콜아웃 사용자 지정
-Supported types=지원 유형
-
-[tags]
-Add a tag to a note=노트에 태그 추가
-Find notes using tags=태그를 사용하여 노트 찾기
-Nested tags=중첩 태그
-Tag format=태그 형식
-
-[editing-shortcuts]
-Windows and Linux shortcuts=Windows 및 Linux 단축키
-Common actions=일반 동작
-Text editing=텍스트 편집
-Text navigation=텍스트 탐색
-Text selection=텍스트 선택
-macOS shortcuts=macOS 단축키
-Text formatting=텍스트 서식
-
-[/]
-Obsidian Help=Obsidian 도움말
-Get started=시작하기
-Extend Obsidian=Obsidian 확장하기
-Add-on services=부가 서비스
-Contribute=기여하기
-
-[publish/headless]
-Quick start=빠른 시작
-Commands=명령
+[heading.bases/views/list/Settings]
+original=Settings
+translation=설정
+
+[heading.bases/views/list/Markers]
+original=Markers
+translation=마커
+
+[heading.bases/views/list/Indent properties]
+original=Indent properties
+translation=속성 들여쓰기
+
+[heading.bases/views/list/Separators]
+original=Separators
+translation=구분자
+
+[heading.bases/views/map/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Maps 플러그인 설치
+
+[heading.bases/views/map/Example]
+original=Example
+translation=예시
+
+[heading.bases/views/map/Settings]
+original=Settings
+translation=설정
+
+[heading.bases/views/map/Markers]
+original=Markers
+translation=마커
+
+[heading.bases/views/map/Coordinates]
+original=Coordinates
+translation=좌표
+
+[heading.bases/views/map/Icons]
+original=Icons
+translation=아이콘
+
+[heading.bases/views/map/Use a formula to define icons]
+original=Use a formula to define icons
+translation=수식을 사용하여 아이콘 정의하기
+
+[heading.bases/views/map/Colors]
+original=Colors
+translation=색상
+
+[heading.bases/views/map/Background]
+original=Background
+translation=배경
+
+[heading.bases/views/map/Map tiles]
+original=Map tiles
+translation=지도 타일
+
+[heading.bases/views/map/Useful links]
+original=Useful links
+translation=유용한 링크
+
+[heading.bases/views/map/Tips]
+original=Tips
+translation=팁
+
+[heading.bases/views/map/Troubleshooting]
+original=Troubleshooting
+translation=문제 해결
+
+[heading.bases/views/cards/Settings]
+original=Settings
+translation=설정
+
+[heading.bases/views/cards/Card size]
+original=Card size
+translation=카드 크기
+
+[heading.bases/views/cards/Image property]
+original=Image property
+translation=이미지 속성
+
+[heading.bases/views/cards/Image fit]
+original=Image fit
+translation=이미지 맞춤
+
+[heading.bases/views/cards/Image aspect ratio]
+original=Image aspect ratio
+translation=이미지 가로/세로 비율
+
+[heading.bases/views/table/Settings]
+original=Settings
+translation=설정
+
+[heading.bases/views/table/Row height]
+original=Row height
+translation=행 높이
+
+[heading.bases/views/table/Summaries]
+original=Summaries
+translation=요약
+
+[heading.bases/views/table/Add a summary]
+original=Add a summary
+translation=요약 추가
+
+[heading.bases/views/table/Built-in summaries]
+original=Built-in summaries
+translation=내장 요약
+
+[heading.bases/views/table/All property types]
+original=All property types
+translation=모든 속성 유형
+
+[heading.bases/views/table/Numbers]
+original=Numbers
+translation=숫자
+
+[heading.bases/views/table/Dates]
+original=Dates
+translation=날짜
+
+[heading.bases/views/table/Checkbox]
+original=Checkbox
+translation=체크박스
+
+[heading.bases/views/table/Custom summaries]
+original=Custom summaries
+translation=커스텀 요약
+
+[heading.bases/views/table/Shortcuts]
+original=Shortcuts
+translation=단축키
+
+[heading.bases/syntax/Example]
+original=Example
+translation=예시
+
+[heading.bases/syntax/Filters]
+original=Filters
+translation=필터
+
+[heading.bases/syntax/Formulas]
+original=Formulas
+translation=수식
+
+[heading.bases/syntax/Properties]
+original=Properties
+translation=속성
+
+[heading.bases/syntax/Summaries]
+original=Summaries
+translation=요약
+
+[heading.bases/syntax/Default Summary Formulas]
+original=Default Summary Formulas
+translation=기본 요약 수식
+
+[heading.bases/syntax/Views]
+original=Views
+translation=뷰
+
+[heading.bases/syntax/Note properties]
+original=Note properties
+translation=노트 속성
+
+[heading.bases/syntax/File properties]
+original=File properties
+translation=파일 속성
+
+[heading.bases/syntax/Access properties with `this`]
+original=Access properties with `this`
+translation=`this`로 속성 접근하기
+
+[heading.bases/syntax/Operators]
+original=Operators
+translation=연산자
+
+[heading.bases/syntax/Arithmetic operators]
+original=Arithmetic operators
+translation=산술 연산자
+
+[heading.bases/syntax/Date arithmetic]
+original=Date arithmetic
+translation=날짜 산술
+
+[heading.bases/syntax/Comparison operators]
+original=Comparison operators
+translation=비교 연산자
+
+[heading.bases/syntax/Boolean operators]
+original=Boolean operators
+translation=불리언 연산자
+
+[heading.bases/syntax/Functions]
+original=Functions
+translation=함수
+
+[heading.bases/syntax/Types]
+original=Types
+translation=유형
+
+[heading.bases/syntax/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=문자열, 숫자, 불리언
+
+[heading.bases/syntax/Dates and durations]
+original=Dates and durations
+translation=날짜와 기간
+
+[heading.bases/syntax/Objects and lists]
+original=Objects and lists
+translation=객체와 목록
+
+[heading.bases/syntax/Files and links]
+original=Files and links
+translation=파일과 링크
+
+[heading.bases/create-base/Create a new base]
+original=Create a new base
+translation=새 베이스 생성하기
+
+[heading.bases/create-base/Embed a base]
+original=Embed a base
+translation=베이스 임베드하기
+
+[heading.bases/create-base/Embed a base file]
+original=Embed a base file
+translation=베이스 파일 임베드하기
+
+[heading.bases/create-base/Embed a base as a code block]
+original=Embed a base as a code block
+translation=코드 블록으로 베이스 임베드하기
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=베이스 사용하기
+
+[heading.bases/View types]
+original=View types
+translation=뷰 유형
+
+[heading.bases/views/Toolbar]
+original=Toolbar
+translation=툴바
+
+[heading.bases/views/Add and switch views]
+original=Add and switch views
+translation=보기 추가 및 전환
+
+[heading.bases/views/View settings]
+original=View settings
+translation=보기 설정
+
+[heading.bases/views/Layout]
+original=Layout
+translation=레이아웃
+
+[heading.bases/views/Filters]
+original=Filters
+translation=필터
+
+[heading.bases/views/Components of a filter]
+original=Components of a filter
+translation=필터의 구성 요소
+
+[heading.bases/views/Conjunctions]
+original=Conjunctions
+translation=접속사
+
+[heading.bases/views/Filter groups]
+original=Filter groups
+translation=필터 그룹
+
+[heading.bases/views/Advanced filter editor]
+original=Advanced filter editor
+translation=고급 필터 편집기
+
+[heading.bases/views/Sort and group results]
+original=Sort and group results
+translation=결과 정렬 및 그룹화
+
+[heading.bases/views/Add a sort]
+original=Add a sort
+translation=정렬 추가
+
+[heading.bases/views/Remove a sort]
+original=Remove a sort
+translation=정렬 제거
+
+[heading.bases/views/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=결과 제한, 복사, 내보내기
+
+[heading.bases/views/Limit results]
+original=Limit results
+translation=결과 제한
+
+[heading.bases/views/Copy to clipboard]
+original=Copy to clipboard
+translation=클립보드에 복사
+
+[heading.bases/views/Export CSV]
+original=Export CSV
+translation=CSV 내보내기
+
+[heading.bases/views/Embed a view]
+original=Embed a view
+translation=보기 임베드
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=수식으로 할 수 있는 것
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=수식 속성 생성
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=수식 작성
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=속성 참조
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=연산자 사용
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=함수 사용
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=수식 예시
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=마감일 계산
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=기한 초과 상태 표시
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=통화 서식 지정
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=목록 항목 수 세기
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=우선순위 점수 계산
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=텍스트 필드 결합
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=총 비용 계산
+
+[heading.formulas/Data types]
+original=Data types
+translation=데이터 유형
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=다른 수식 참조
+
+[heading.bases/functions/Global]
+original=Global
+translation=전역
+
+[heading.bases/functions/Date]
+original=Date
+translation=날짜
+
+[heading.bases/functions/Fields]
+original=Fields
+translation=필드
+
+[heading.bases/functions/String]
+original=String
+translation=문자열
+
+[heading.bases/functions/Number]
+original=Number
+translation=숫자
+
+[heading.bases/functions/List]
+original=List
+translation=목록
+
+[heading.bases/functions/Link]
+original=Link
+translation=링크
+
+[heading.bases/functions/File]
+original=File
+translation=파일
+
+[heading.bases/functions/Object]
+original=Object
+translation=객체
+
+[heading.bases/functions/Regular expression]
+original=Regular expression
+translation=정규 표현식
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=2FA 활성화
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=복구 코드 생성
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=2FA 비활성화
+
+[heading.android/Sync]
+original=Sync
+translation=동기화
+
+[heading.android/Vault location]
+original=Vault location
+translation=보관함 위치
+
+[heading.android/Device storage]
+original=Device storage
+translation=기기 저장소
+
+[heading.android/App storage]
+original=App storage
+translation=앱 저장소
+
+[heading.android/Widgets]
+original=Widgets
+translation=위젯
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=빠른 설정 타일
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=바로가기
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=Obsidian이란
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=우리가 다른 점
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=데이터를 직접 소유하고 관리
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=링크는 핵심 요소
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=나만의 도구 모음
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=개발 과정을 따라가세요
+
+[heading.ios/Sync]
+original=Sync
+translation=동기화
+
+[heading.ios/Widgets]
+original=Widgets
+translation=위젯
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=잠금 화면 및 제어 센터 위젯
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=홈 화면 위젯
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=위젯 사용자 지정
+
+[heading.ios/Shortcuts]
+original=Shortcuts
+translation=단축어
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=공유 시트 확장
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=Siri 통합
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=Spotlight 통합
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=데스크톱에서 얼리 액세스 버전 활성화하기
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=모바일 기기에서 얼리 액세스 버전 설치하기
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=문제 보고 및 기타 피드백
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=데스크톱에서 공개 버전으로 되돌리기
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=모바일에서 공개 버전으로 되돌리기
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=규칙
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=심각한 위반
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=괴롭힘
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=위협
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=노골적인 차별 발언
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=기타 위반
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=적대적 행동
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=특별히 불쾌한 행동
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=커뮤니티 회원에 대한 원치 않는 메시지
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=기타 행동
+
+[heading.community-code-of-conduct/Sea-lioning]
+original=Sea-lioning
+translation=시라이어닝(Sea-lioning)
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation="대신 해주세요"
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=반복적 요청
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=과도한 자기 홍보
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=스팸
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=권장 행동
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=동기
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=위반 신고
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=Discord에서 신고
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=포럼에서 신고
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=시행
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=차단 이의 제기
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=크레딧
+
+[heading.credits/Team]
+original=Team
+translation=팀
+
+[heading.credits/Development]
+original=Development
+translation=개발
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=제품 및 운영
+
+[heading.credits/Moderators]
+original=Moderators
+translation=모더레이터
+
+[heading.credits/Retired]
+original=Retired
+translation=은퇴
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=플러그인 영감
+
+[heading.credits/Builds]
+original=Builds
+translation=빌드
+
+[heading.credits/Translators]
+original=Translators
+translation=번역자
+
+[heading.credits/Documentation]
+original=Documentation
+translation=문서
+
+[heading.credits/Add your name]
+original=Add your name
+translation=이름 추가하기
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=타사 감사의 글
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=이전 로고
+
+[heading.publish/troubleshoot/General]
+original=General
+translation=일반
+
+[heading.publish/troubleshoot/Publishing notes]
+original=Publishing notes
+translation=노트 게재
+
+[heading.publish/troubleshoot/CSS and themes]
+original=CSS and themes
+translation=CSS 및 테마
+
+[heading.publish/setup/Prerequisites]
+original=Prerequisites
+translation=전제 조건
+
+[heading.publish/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Obsidian 계정으로 로그인
+
+[heading.publish/setup/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=Obsidian Publish 활성화
+
+[heading.publish/setup/Open Publish]
+original=Open Publish
+translation=Publish 열기
+
+[heading.publish/setup/Open via Command palette]
+original=Open via Command palette
+translation=명령어 팔레트로 열기
+
+[heading.publish/setup/Open via hotkey]
+original=Open via hotkey
+translation=키보드 단축키로 열기
+
+[heading.publish/setup/Open via ribbon]
+original=Open via ribbon
+translation=리본으로 열기
+
+[heading.publish/setup/Create a new site]
+original=Create a new site
+translation=새 사이트 생성
+
+[heading.publish/setup/Set a site name]
+original=Set a site name
+translation=사이트 이름 설정
+
+[heading.publish/setup/Select notes to publish]
+original=Select notes to publish
+translation=게재할 노트 선택
+
+[heading.publish/setup/Next steps]
+original=Next steps
+translation=다음 단계
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=Obsidian Publish 사용 방법
+
+[heading.publish/collaborate/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=사이트에 공동 작업자 추가
+
+[heading.publish/collaborate/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=사이트에서 공동 작업자 제거
+
+[heading.publish/collaborate/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=공동 작업자 간 변경 사항 동기화
+
+[heading.publish/collaborate/Permissions]
+original=Permissions
+translation=권한
+
+[heading.publish/limitations/Community plugins]
+original=Community plugins
+translation=커뮤니티 플러그인
+
+[heading.publish/limitations/Graph]
+original=Graph
+translation=그래프
+
+[heading.publish/limitations/Media files]
+original=Media files
+translation=미디어 파일
+
+[heading.publish/limitations/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/limitations/Search]
+original=Search
+translation=검색
+
+[heading.publish/seo/Sitemap]
+original=Sitemap
+translation=사이트맵
+
+[heading.publish/seo/Permalinks]
+original=Permalinks
+translation=고유 링크
+
+[heading.publish/seo/Metadata]
+original=Metadata
+translation=메타데이터
+
+[heading.publish/permalinks/Redirect old notes]
+original=Redirect old notes
+translation=이전 노트 리디렉션
+
+[heading.publish/media/Images]
+original=Images
+translation=이미지
+
+[heading.publish/media/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/media/Videos and audio]
+original=Videos and audio
+translation=동영상 및 오디오
+
+[heading.publish/security/Password protection]
+original=Password protection
+translation=비밀번호 보호
+
+[heading.publish/security/Add a site password]
+original=Add a site password
+translation=사이트 비밀번호 추가
+
+[heading.publish/security/Remove a site password]
+original=Remove a site password
+translation=사이트 비밀번호 제거
+
+[heading.publish/security/Data collection]
+original=Data collection
+translation=데이터 수집
+
+[heading.publish/security/Visitor data]
+original=Visitor data
+translation=방문자 데이터
+
+[heading.publish/security/Access]
+original=Access
+translation=접근
+
+[heading.publish/security/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=네트워크에서 Obsidian Publish 접근 관리
+
+[heading.publish/analytics/Prerequisites]
+original=Prerequisites
+translation=사전 준비
+
+[heading.publish/analytics/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible, Fathom 및 기타 분석 서비스
+
+[heading.publish/analytics/Troubleshooting]
+original=Troubleshooting
+translation=문제 해결
+
+[heading.publish/domains/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=CloudFlare를 사용한 설정
+
+[heading.publish/domains/Set up using a proxy]
+original=Set up using a proxy
+translation=프록시를 사용한 설정
+
+[heading.publish/domains/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=지원되는 HTTP X-Headers
+
+[heading.publish/domains/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=이전 사이트를 사용자 지정 도메인으로 리디렉션
+
+[heading.publish/domains/Troubleshoot]
+original=Troubleshoot
+translation=문제 해결
+
+[heading.publish/sites/Create a new site]
+original=Create a new site
+translation=새 사이트 만들기
+
+[heading.publish/sites/Delete an existing site]
+original=Delete an existing site
+translation=기존 사이트 삭제
+
+[heading.publish/sites/Switch between sites]
+original=Switch between sites
+translation=사이트 간 전환
+
+[heading.publish/sites/Change the site ID]
+original=Change the site ID
+translation=사이트 ID 변경
+
+[heading.publish/sites/View site options]
+original=View site options
+translation=사이트 옵션 보기
+
+[heading.publish/sites/Site options]
+original=Site options
+translation=사이트 옵션
+
+[heading.publish/sites/General]
+original=General
+translation=일반
+
+[heading.publish/sites/Appearance]
+original=Appearance
+translation=외형
+
+[heading.publish/sites/Reading experience]
+original=Reading experience
+translation=읽는 방식
+
+[heading.publish/sites/Components]
+original=Components
+translation=구성 요소
+
+[heading.publish/sites/Other site settings]
+original=Other site settings
+translation=기타 사이트 설정
+
+[heading.publish/customize/Static assets]
+original=Static assets
+translation=정적 에셋
+
+[heading.publish/customize/Use a community theme]
+original=Use a community theme
+translation=커뮤니티 테마 사용
+
+[heading.publish/customize/Enable UI features]
+original=Enable UI features
+translation=UI 기능 활성화
+
+[heading.publish/customize/Customize navigation]
+original=Customize navigation
+translation=내비게이션 사용자 지정
+
+[heading.publish/customize/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=사용자 지정 내비게이션 옵션에 접근하기
+
+[heading.publish/customize/Adjust navigation items]
+original=Adjust navigation items
+translation=내비게이션 항목 조정
+
+[heading.publish/customize/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=내비게이션 항목 숨기기 및 숨기기 해제
+
+[heading.publish/social-share/Description]
+original=Description
+translation=설명
+
+[heading.publish/social-share/Image]
+original=Image
+translation=이미지
+
+[heading.publish/publish/Prerequisites]
+original=Prerequisites
+translation=전제 조건
+
+[heading.publish/publish/Publish notes]
+original=Publish notes
+translation=노트 게재
+
+[heading.publish/publish/Unpublish notes]
+original=Unpublish notes
+translation=노트 게재 취소
+
+[heading.publish/publish/Update a published note]
+original=Update a published note
+translation=게재된 노트 업데이트
+
+[heading.publish/publish/Publish linked data]
+original=Publish linked data
+translation=링크된 데이터 게재
+
+[heading.publish/publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=게재할 데이터 자동 선택
+
+[heading.publish/publish/Ignore data]
+original=Ignore data
+translation=데이터 무시
+
+[heading.sync/troubleshoot/General]
+original=General
+translation=일반
+
+[heading.sync/troubleshoot/Conflict resolution]
+original=Conflict resolution
+translation=충돌 해결
+
+[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Obsidian Sync의 충돌 처리 방식
+
+[heading.sync/troubleshoot/Conflict resolution options]
+original=Conflict resolution options
+translation=충돌 해결 옵션
+
+[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=두 기기에서 방금 만든 노트를 Sync가 삭제했습니다
+
+[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync가 플러그인 및 설정 업데이트를 동기화하지 않습니다
+
+[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=파일을 복원해도 Sync에서 계속 사라집니다
+
+[heading.sync/setup/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=처음으로 Obsidian Sync 설정하기
+
+[heading.sync/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Obsidian 계정으로 로그인하기
+
+[heading.sync/setup/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=Obsidian Sync 활성화하기
+
+[heading.sync/setup/Create a new remote vault]
+original=Create a new remote vault
+translation=새 원격 보관함 생성하기
+
+[heading.sync/setup/Connect to a remote vault]
+original=Connect to a remote vault
+translation=원격 보관함에 연결하기
+
+[heading.sync/setup/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=Obsidian Sync 설정 조정하기
+
+[heading.sync/setup/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=Obsidian Sync로 동기화 시작하기
+
+[heading.sync/setup/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=다른 기기에서 원격 보관함 동기화하기
+
+[heading.sync/setup/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=보관함 전환기에서 보관함 동기화하기
+
+[heading.sync/setup/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=Obsidian 설정에서 보관함 동기화하기
+
+[heading.sync/setup/Manage your remote vaults]
+original=Manage your remote vaults
+translation=원격 보관함 관리하기
+
+[heading.sync/setup/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=원격 보관함에서 연결 해제하기
+
+[heading.sync/setup/Delete a remote vault]
+original=Delete a remote vault
+translation=원격 보관함 삭제하기
+
+[heading.sync/setup/Regional sync servers]
+original=Regional sync servers
+translation=지역별 동기화 서버
+
+[heading.sync/setup/Next steps]
+original=Next steps
+translation=다음 단계
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=Obsidian Sync 사용 방법
+
+[heading.sync/Important]
+original=Important
+translation=중요
+
+[heading.sync/switch/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=타사 동기화 서비스 또는 클라우드 저장소에서 보관함 이동하기
+
+[heading.sync/switch/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=데스크톱에서 Obsidian을 사용하여 보관함 이동하기
+
+[heading.sync/switch/Move your vault on mobile]
+original=Move your vault on mobile
+translation=모바일에서 보관함 이동하기
+
+[heading.sync/switch/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS 및 iPadOS
+
+[heading.sync/switch/Next steps]
+original=Next steps
+translation=다음 단계
+
+[heading.sync/collaborate/Manage users]
+original=Manage users
+translation=사용자 관리
+
+[heading.sync/collaborate/Add users]
+original=Add users
+translation=사용자 추가
+
+[heading.sync/collaborate/Remove users]
+original=Remove users
+translation=사용자 제거
+
+[heading.sync/collaborate/Collaborate with your team]
+original=Collaborate with your team
+translation=팀과 협업하기
+
+[heading.sync/collaborate/Permissions]
+original=Permissions
+translation=권한
+
+[heading.sync/collaborate/Live editing]
+original=Live editing
+translation=실시간 편집
+
+[heading.sync/collaborate/Limitations]
+original=Limitations
+translation=제한 사항
+
+[heading.sync/settings/Sync settings]
+original=Sync settings
+translation=동기화 설정
+
+[heading.sync/settings/Conflict resolution]
+original=Conflict resolution
+translation=충돌 해결
+
+[heading.sync/settings/Selective syncing]
+original=Selective syncing
+translation=선택적 동기화
+
+[heading.sync/settings/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=동기화할 파일 유형 변경
+
+[heading.sync/settings/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=동기화에서 폴더 제외
+
+[heading.sync/settings/Always excluded from sync]
+original=Always excluded from sync
+translation=항상 동기화에서 제외되는 항목
+
+[heading.sync/settings/File recovery snapshots]
+original=File recovery snapshots
+translation=파일 복원 스냅샷
+
+[heading.sync/settings/Hidden files and folders]
+original=Hidden files and folders
+translation=숨김 파일 및 폴더
+
+[heading.sync/settings/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=동기화된 보관함 설정 업데이트
+
+[heading.sync/settings/Primary device]
+original=Primary device
+translation=주 기기
+
+[heading.sync/settings/Secondary device(s)]
+original=Secondary device(s)
+translation=보조 기기
+
+[heading.sync/settings/Reloading of settings]
+original=Reloading of settings
+translation=설정 새로고침
+
+[heading.sync/settings/Settings profiles]
+original=Settings profiles
+translation=설정 프로필
+
+[heading.sync/settings/Create a settings profile]
+original=Create a settings profile
+translation=설정 프로필 만들기
+
+[heading.sync/region/Available regions]
+original=Available regions
+translation=사용 가능한 지역
+
+[heading.sync/region/Change Sync region]
+original=Change Sync region
+translation=Sync 지역 변경
+
+[heading.sync/vault-types/File-based sync services]
+original=File-based sync services
+translation=파일 기반 동기화 서비스
+
+[heading.sync/vault-types/Sync behavior]
+original=Sync behavior
+translation=동기화 동작
+
+[heading.sync/vault-types/Offline behavior]
+original=Offline behavior
+translation=오프라인 동작
+
+[heading.sync/vault-types/Next steps]
+original=Next steps
+translation=다음 단계
+
+[heading.sync/version-history/Sync history]
+original=Sync history
+translation=동기화 기록
+
+[heading.sync/version-history/Show Sync history]
+original=Show Sync history
+translation=동기화 기록 표시
+
+[heading.sync/version-history/Enable via Command palette]
+original=Enable via Command palette
+translation=명령어 팔레트를 통해 활성화
+
+[heading.sync/version-history/Enable via Hotkey]
+original=Enable via Hotkey
+translation=키보드 단축키를 통해 활성화
+
+[heading.sync/version-history/Version history]
+original=Version history
+translation=버전 기록
+
+[heading.sync/version-history/Notes and attachments]
+original=Notes and attachments
+translation=노트 및 첨부 파일
+
+[heading.sync/version-history/View version history of a file]
+original=View version history of a file
+translation=파일의 버전 기록 보기
+
+[heading.sync/version-history/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=삭제되거나 이름이 변경된 파일의 버전 기록 보기
+
+[heading.sync/version-history/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=파일의 이전 버전 복원
+
+[heading.sync/version-history/Restore a deleted file]
+original=Restore a deleted file
+translation=삭제된 파일 복원
+
+[heading.sync/version-history/Settings history]
+original=Settings history
+translation=설정 기록
+
+[heading.sync/version-history/View version history of a setting]
+original=View version history of a setting
+translation=설정의 버전 기록 보기
+
+[heading.sync/version-history/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=설정의 이전 버전 복원
+
+[heading.sync/security/Encryption]
+original=Encryption
+translation=암호화
+
+[heading.sync/security/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=종단 간 암호화란 무엇인가요?
+
+[heading.sync/security/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=표준 암호화의 위험성은 무엇인가요?
+
+[heading.sync/security/What encryption do you use?]
+original=What encryption do you use?
+translation=어떤 암호화를 사용하나요?
+
+[heading.sync/security/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=내 데이터가 종단 간 암호화되었는지 확인할 수 있나요?
+
+[heading.sync/security/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=Obsidian은 제3자 보안 감사를 완료했나요?
+
+[heading.sync/security/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=암호화 비밀번호를 잊어버리면 어떻게 되나요?
+
+[heading.sync/security/Hosting]
+original=Hosting
+translation=호스팅
+
+[heading.sync/security/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=Obsidian Sync의 서버는 어디에서 호스팅하나요?
+
+[heading.sync/security/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=현재 Sync 서버를 찾고 어디에서 호스팅되는지 확인하려면 어떻게 하나요?
+
+[heading.sync/security/Network and access]
+original=Network and access
+translation=네트워크 및 접근
+
+[heading.sync/security/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=네트워크에서 Obsidian Sync에 대한 접근 관리
+
+[heading.sync/security/Limitations]
+original=Limitations
+translation=제한 사항
+
+[heading.sync/security/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=결정적 파일 해시 암호화
+
+[heading.sync/security/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=경로와 콘텐츠 간의 암호학적 바인딩 없음
+
+[heading.sync/messages/Sync status icon]
+original=Sync status icon
+translation=Sync 상태 아이콘
+
+[heading.sync/messages/Sync activity log]
+original=Sync activity log
+translation=Sync 활동 기록
+
+[heading.sync/messages/General messages]
+original=General messages
+translation=일반 메시지
+
+[heading.sync/messages/Error messages]
+original=Error messages
+translation=에러 메시지
+
+[heading.sync/messages/Skipped messages]
+original=Skipped messages
+translation=건너뜀 메시지
+
+[heading.sync/messages/Account messages]
+original=Account messages
+translation=계정 메시지
+
+[heading.sync/messages/Network messages]
+original=Network messages
+translation=네트워크 메시지
+
+[heading.sync/migrate/Encryption versions]
+original=Encryption versions
+translation=암호화 버전
+
+[heading.sync/migrate/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=이동 도우미를 사용한 암호화 업그레이드
+
+[heading.sync/faq/General]
+original=General
+translation=일반
+
+[heading.sync/faq/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Obsidian Sync는 어떤 운영 체제를 지원하나요?
+
+[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Obsidian은 Apple의 잠금 모드에서 작동하나요?
+
+[heading.sync/faq/What type of data is synced?]
+original=What type of data is synced?
+translation=어떤 유형의 데이터가 동기화되나요?
+
+[heading.sync/faq/How much storage do I have?]
+original=How much storage do I have?
+translation=얼마나 많은 저장 공간이 있나요?
+
+[heading.sync/faq/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=원격 보관함은 몇 개까지 가질 수 있나요?
+
+[heading.sync/faq/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=각 원격 보관함의 최대 크기는 얼마인가요?
+
+[heading.sync/faq/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=원격 보관함을 몇 명까지 공유할 수 있나요?
+
+[heading.sync/faq/How large can each file be?]
+original=How large can each file be?
+translation=각 파일의 최대 크기는 얼마인가요?
+
+[heading.sync/faq/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=백그라운드에서 데이터가 동기화되나요?
+
+[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Obsidian Sync는 설정을 실시간으로 다시 불러오나요?
+
+[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=타사 동기화를 Obsidian Sync와 함께 사용할 수 있나요?
+
+[heading.sync/faq/Data retention]
+original=Data retention
+translation=데이터 보존
+
+[heading.sync/faq/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=버전 기록은 얼마나 오래 보관되나요?
+
+[heading.sync/faq/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=구독이 만료된 후 데이터는 얼마나 오래 보관되나요?
+
+[heading.sync/faq/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=구독 서비스를 환불하면 데이터가 보관되나요?
+
+[heading.sync/plans/Plans]
+original=Plans
+translation=플랜
+
+[heading.sync/plans/Storage limits]
+original=Storage limits
+translation=저장 용량 제한
+
+[heading.sync/plans/Identify and delete large files]
+original=Identify and delete large files
+translation=큰 파일 식별 및 삭제
+
+[heading.sync/plans/Create a new remote vault]
+original=Create a new remote vault
+translation=새 원격 보관함 생성
+
+[heading.sync/plans/Upgrade your plan]
+original=Upgrade your plan
+translation=플랜 업그레이드
+
+[heading.sync/plans/Downgrade your plan]
+original=Downgrade your plan
+translation=플랜 다운그레이드
+
+[heading.sync/plans/Preserve version history]
+original=Preserve version history
+translation=버전 기록 보존
+
+[heading.sync/headless/Quick start]
+original=Quick start
+translation=빠른 시작
+
+[heading.sync/headless/Commands]
+original=Commands
+translation=명령
+
+[heading.sync/headless/Native modules]
+original=Native modules
+translation=네이티브 모듈
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=Web Clipper 설치
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=Web Clipper 사용 방법
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=개인정보 보호
+
+[heading.web-clipper/troubleshoot/General]
+original=General
+translation=일반
+
+[heading.web-clipper/troubleshoot/Some content is missing]
+original=Some content is missing
+translation=일부 콘텐츠가 누락됨
+
+[heading.web-clipper/troubleshoot/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=Obsidian에 콘텐츠가 표시되지 않음
+
+[heading.web-clipper/troubleshoot/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian이 열리지 않음
+
+[heading.web-clipper/troubleshoot/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian이 열리지만 파일 이름만 저장됨
+
+[heading.web-clipper/troubleshoot/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS 및 iPadOS
+
+[heading.web-clipper/logic/Conditionals]
+original=Conditionals
+translation=조건문
+
+[heading.web-clipper/logic/Comparison operators]
+original=Comparison operators
+translation=비교 연산자
+
+[heading.web-clipper/logic/Logical operators]
+original=Logical operators
+translation=논리 연산자
+
+[heading.web-clipper/logic/Truthiness]
+original=Truthiness
+translation=참 거짓 판별 (Truthiness)
+
+[heading.web-clipper/logic/Assign a variable]
+original=Assign a variable
+translation=변수 할당
+
+[heading.web-clipper/logic/Fallbacks]
+original=Fallbacks
+translation=대체값
+
+[heading.web-clipper/logic/Chaining fallbacks]
+original=Chaining fallbacks
+translation=대체값 체이닝
+
+[heading.web-clipper/logic/With filters]
+original=With filters
+translation=필터와 함께 사용
+
+[heading.web-clipper/logic/Loops]
+original=Loops
+translation=반복문
+
+[heading.web-clipper/logic/Loop sources]
+original=Loop sources
+translation=반복 소스
+
+[heading.web-clipper/logic/Loop variables]
+original=Loop variables
+translation=반복 변수
+
+[heading.web-clipper/logic/Accessing array items by index]
+original=Accessing array items by index
+translation=인덱스로 배열 항목 접근
+
+[heading.web-clipper/logic/Nested loops]
+original=Nested loops
+translation=중첩 반복문
+
+[heading.web-clipper/logic/Combine logic]
+original=Combine logic
+translation=로직 결합
+
+[heading.web-clipper/logic/Evaluation order]
+original=Evaluation order
+translation=평가 순서
+
+[heading.web-clipper/reader/Activate reading mode]
+original=Activate reading mode
+translation=읽기 모드 활성화
+
+[heading.web-clipper/reader/How it works]
+original=How it works
+translation=작동 방식
+
+[heading.web-clipper/reader/Customize the reading view]
+original=Customize the reading view
+translation=읽기 뷰 사용자 지정
+
+[heading.web-clipper/variables/Preset variables]
+original=Preset variables
+translation=프리셋 변수
+
+[heading.web-clipper/variables/Prompt variables]
+original=Prompt variables
+translation=프롬프트 변수
+
+[heading.web-clipper/variables/When to use prompt variables]
+original=When to use prompt variables
+translation=프롬프트 변수를 사용할 때
+
+[heading.web-clipper/variables/Examples]
+original=Examples
+translation=예시
+
+[heading.web-clipper/variables/Meta variables]
+original=Meta variables
+translation=메타 변수
+
+[heading.web-clipper/variables/Selector variables]
+original=Selector variables
+translation=선택자 변수
+
+[heading.web-clipper/variables/Schema.org variables]
+original=Schema.org variables
+translation=Schema.org 변수
+
+[heading.web-clipper/capture/Capture a page]
+original=Capture a page
+translation=페이지 캡처
+
+[heading.web-clipper/capture/Download images]
+original=Download images
+translation=이미지 다운로드
+
+[heading.web-clipper/capture/Hotkeys]
+original=Hotkeys
+translation=단축키
+
+[heading.web-clipper/capture/Interface functionality]
+original=Interface functionality
+translation=인터페이스 기능
+
+[heading.web-clipper/highlight/Turn on highlighter]
+original=Turn on highlighter
+translation=하이라이터 켜기
+
+[heading.web-clipper/highlight/Highlighter settings]
+original=Highlighter settings
+translation=하이라이터 설정
+
+[heading.web-clipper/interpreter/Examples of prompts]
+original=Examples of prompts
+translation=프롬프트 예시
+
+[heading.web-clipper/interpreter/Get started]
+original=Get started
+translation=시작하기
+
+[heading.web-clipper/interpreter/How it works]
+original=How it works
+translation=작동 방식
+
+[heading.web-clipper/interpreter/Context]
+original=Context
+translation=컨텍스트
+
+[heading.web-clipper/interpreter/Models]
+original=Models
+translation=모델
+
+[heading.web-clipper/interpreter/Preset providers]
+original=Preset providers
+translation=프리셋 제공자
+
+[heading.web-clipper/interpreter/Choosing a model]
+original=Choosing a model
+translation=모델 선택하기
+
+[heading.web-clipper/interpreter/Custom providers and models]
+original=Custom providers and models
+translation=커스텀 제공자 및 모델
+
+[heading.web-clipper/interpreter/Local models]
+original=Local models
+translation=로컬 모델
+
+[heading.web-clipper/templates/Create or edit a template]
+original=Create or edit a template
+translation=템플릿 생성 또는 편집
+
+[heading.web-clipper/templates/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=Web Clipper 템플릿 들여오기 및 내보내기
+
+[heading.web-clipper/templates/Template settings]
+original=Template settings
+translation=템플릿 설정
+
+[heading.web-clipper/templates/Behavior]
+original=Behavior
+translation=동작
+
+[heading.web-clipper/templates/Automatically trigger a template]
+original=Automatically trigger a template
+translation=자동으로 템플릿 트리거
+
+[heading.web-clipper/templates/Simple URL matching]
+original=Simple URL matching
+translation=단순 URL 매칭
+
+[heading.web-clipper/templates/Regular expression matching]
+original=Regular expression matching
+translation=정규식 매칭
+
+[heading.web-clipper/templates/Schema.org matching]
+original=Schema.org matching
+translation=Schema.org 매칭
+
+[heading.web-clipper/templates/Interpreter context]
+original=Interpreter context
+translation=인터프리터 컨텍스트
+
+[heading.web-clipper/filters/Dates]
+original=Dates
+translation=날짜
+
+[heading.web-clipper/filters/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=텍스트 변환 및 대소문자
+
+[heading.web-clipper/filters/Text formatting]
+original=Text formatting
+translation=텍스트 서식
+
+[heading.web-clipper/filters/Numbers]
+original=Numbers
+translation=숫자
+
+[heading.web-clipper/filters/HTML processing]
+original=HTML processing
+translation=HTML 처리
+
+[heading.web-clipper/filters/Arrays and objects]
+original=Arrays and objects
+translation=배열과 객체
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=스니펫 추가하기
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=Obsidian용 CSS 작성하기
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=더 알아보기
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Obsidian CLI 설치
+
+[heading.cli/Get started]
+original=Get started
+translation=시작하기
+
+[heading.cli/Run a command]
+original=Run a command
+translation=명령어 실행
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=터미널 인터페이스 사용
+
+[heading.cli/Examples]
+original=Examples
+translation=예제
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=일상적인 사용
+
+[heading.cli/For developers]
+original=For developers
+translation=개발자용
+
+[heading.cli/How to]
+original=How to
+translation=사용법
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=매개변수와 플래그 사용
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=보관함 지정
+
+[heading.cli/Target a file]
+original=Target a file
+translation=파일 지정
+
+[heading.cli/Copy output]
+original=Copy output
+translation=출력 복사
+
+[heading.cli/General commands]
+original=General commands
+translation=일반 명령어
+
+[heading.cli/Bases]
+original=Bases
+translation=베이스
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=북마크
+
+[heading.cli/Command palette]
+original=Command palette
+translation=명령어 팔레트
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=일일 노트
+
+[heading.cli/File history]
+original=File history
+translation=파일 기록
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=파일 및 폴더
+
+[heading.cli/Links]
+original=Links
+translation=링크
+
+[heading.cli/Outline]
+original=Outline
+translation=개요
+
+[heading.cli/Plugins]
+original=Plugins
+translation=플러그인
+
+[heading.cli/Properties]
+original=Properties
+translation=속성
+
+[heading.cli/Random notes]
+original=Random notes
+translation=무작위 노트
+
+[heading.cli/Search]
+original=Search
+translation=검색
+
+[heading.cli/Tags]
+original=Tags
+translation=태그
+
+[heading.cli/Tasks]
+original=Tasks
+translation=작업
+
+[heading.cli/Templates]
+original=Templates
+translation=템플릿
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=테마 및 스니펫
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=고유 노트
+
+[heading.cli/Vault]
+original=Vault
+translation=보관함
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=웹 뷰어
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=단어 수
+
+[heading.cli/Workspace]
+original=Workspace
+translation=작업 공간
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=개발자 명령어
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=키보드 단축키
+
+[heading.cli/Navigation]
+original=Navigation
+translation=내비게이션
+
+[heading.cli/Editing]
+original=Editing
+translation=편집
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=자동 완성
+
+[heading.cli/History]
+original=History
+translation=기록
+
+[heading.cli/Other]
+original=Other
+translation=기타
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=문제 해결
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=대체 셸
+
+[heading.headless/Install]
+original=Install
+translation=설치
+
+[heading.headless/Authentication]
+original=Authentication
+translation=인증
+
+[heading.headless/Log in]
+original=Log in
+translation=로그인
+
+[heading.headless/Services]
+original=Services
+translation=서비스
+
+[heading.uri/URI format]
+original=URI format
+translation=URI 형식
+
+[heading.uri/Open note]
+original=Open note
+translation=노트 열기
+
+[heading.uri/Examples]
+original=Examples
+translation=예시
+
+[heading.uri/Parameters]
+original=Parameters
+translation=매개변수
+
+[heading.uri/Create note]
+original=Create note
+translation=노트 생성
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=일일 노트 생성 또는 열기
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=고유 노트
+
+[heading.uri/Open search]
+original=Open search
+translation=검색 열기
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=보관함 관리자 열기
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Hook과 통합
+
+[heading.uri/Example]
+original=Example
+translation=예시
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=x-callback-url 매개변수 사용
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=단축 형식
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=문제 해결
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Obsidian URI 등록
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=커뮤니티 플러그인 탐색
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=커뮤니티 플러그인 설치
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=커뮤니티 플러그인 활성화
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=플러그인 업데이트
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=커뮤니티 플러그인 삭제
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=설치된 플러그인 관리
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=더 알아보기
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=테마 탐색
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=새 테마 설치
+
+[heading.themes/Update themes]
+original=Update themes
+translation=테마 업데이트
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=기존 테마 삭제
+
+[heading.themes/Learn more]
+original=Learn more
+translation=더 알아보기
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=제한 모드
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=플러그인 기능
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=플러그인 검토 과정
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=플러그인 및 테마
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=오픈 소스 프로젝트
+
+[heading.developers/Documentation]
+original=Documentation
+translation=문서
+
+[heading.developers/Community]
+original=Community
+translation=커뮤니티
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=용어 및 문법
+
+[heading.style-guide/Language style]
+original=Language style
+translation=언어 스타일
+
+[heading.style-guide/Terms]
+original=Terms
+translation=용어
+
+[heading.style-guide/Product names]
+original=Product names
+translation=제품 이름
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=UI 및 상호작용
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=노트, 파일 및 폴더
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=설정 참조 문서
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=방향 용어
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=지침
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=문장형 대소문자
+
+[heading.style-guide/Examples]
+original=Examples
+translation=예시
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=키 이름 및 키보드 단축키
+
+[heading.style-guide/Images]
+original=Images
+translation=이미지
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=정보 구조
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=콜아웃 유형
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=목록 vs. 산문
+
+[heading.style-guide/Tables]
+original=Tables
+translation=표
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=상호 참조
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=플랫폼별 콘텐츠
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=아이콘 및 이미지
+
+[heading.style-guide/Icons]
+original=Icons
+translation=아이콘
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=이미지 앵커 태그
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=최적화
+
+[heading.style-guide/Layout]
+original=Layout
+translation=레이아웃
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=깨진 링크
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=설명
+
+[heading.style-guide/Directions]
+original=Directions
+translation=방향
+
+[heading.style-guide/Translations]
+original=Translations
+translation=번역
+
+[heading.plugins/canvas/Create a new canvas]
+original=Create a new canvas
+translation=새 캔버스 만들기
+
+[heading.plugins/canvas/Add cards]
+original=Add cards
+translation=카드 추가
+
+[heading.plugins/canvas/Add text cards]
+original=Add text cards
+translation=텍스트 카드 추가
+
+[heading.plugins/canvas/Add cards from notes]
+original=Add cards from notes
+translation=노트에서 카드 추가
+
+[heading.plugins/canvas/Add cards from media]
+original=Add cards from media
+translation=미디어에서 카드 추가
+
+[heading.plugins/canvas/Add cards from web pages]
+original=Add cards from web pages
+translation=웹 페이지에서 카드 추가
+
+[heading.plugins/canvas/Add cards from folders]
+original=Add cards from folders
+translation=폴더에서 카드 추가
+
+[heading.plugins/canvas/Edit a card]
+original=Edit a card
+translation=카드 편집
+
+[heading.plugins/canvas/Delete a card]
+original=Delete a card
+translation=카드 삭제
+
+[heading.plugins/canvas/Swap cards]
+original=Swap cards
+translation=카드 교체
+
+[heading.plugins/canvas/Select cards]
+original=Select cards
+translation=카드 선택
+
+[heading.plugins/canvas/Arrange cards]
+original=Arrange cards
+translation=카드 배열
+
+[heading.plugins/canvas/Resize a card]
+original=Resize a card
+translation=카드 크기 조절
+
+[heading.plugins/canvas/Connect cards]
+original=Connect cards
+translation=카드 연결
+
+[heading.plugins/canvas/Connect two cards]
+original=Connect two cards
+translation=두 카드 연결
+
+[heading.plugins/canvas/Disconnect two cards]
+original=Disconnect two cards
+translation=두 카드 연결 끊기
+
+[heading.plugins/canvas/Connect a card to a different card]
+original=Connect a card to a different card
+translation=다른 카드에 연결
+
+[heading.plugins/canvas/Navigate a connection]
+original=Navigate a connection
+translation=연결 탐색
+
+[heading.plugins/canvas/Add a label to a connection]
+original=Add a label to a connection
+translation=연결에 라벨 추가
+
+[heading.plugins/canvas/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=카드 또는 연결의 색상 변경
+
+[heading.plugins/canvas/Group cards]
+original=Group cards
+translation=카드 그룹화
+
+[heading.plugins/canvas/Group selected cards]
+original=Group selected cards
+translation=선택한 카드 그룹화
+
+[heading.plugins/canvas/Navigate the canvas]
+original=Navigate the canvas
+translation=캔버스 탐색
+
+[heading.plugins/canvas/Pan the canvas]
+original=Pan the canvas
+translation=캔버스 이동
+
+[heading.plugins/canvas/Zoom the canvas]
+original=Zoom the canvas
+translation=캔버스 확대
+
+[heading.plugins/canvas/Zoom to fit]
+original=Zoom to fit
+translation=화면 맞춤 확대
+
+[heading.plugins/canvas/Zoom to selection]
+original=Zoom to selection
+translation=선택 맞춤 확대
+
+[heading.plugins/canvas/Reset zoom]
+original=Reset zoom
+translation=화면 비율 초기화
+
+[heading.plugins/canvas/Advanced tips]
+original=Advanced tips
+translation=고급 팁
+
+[heading.plugins/search/Search terms]
+original=Search terms
+translation=검색어
+
+[heading.plugins/search/Search operators]
+original=Search operators
+translation=검색 연산자
+
+[heading.plugins/search/Search properties]
+original=Search properties
+translation=속성 검색
+
+[heading.plugins/search/Change case sensitivity]
+original=Change case sensitivity
+translation=대소문자 구분 변경
+
+[heading.plugins/search/Change result sort order]
+original=Change result sort order
+translation=결과 정렬 순서 변경
+
+[heading.plugins/search/Copy search results]
+original=Copy search results
+translation=검색 결과 복사
+
+[heading.plugins/search/Use regular expressions]
+original=Use regular expressions
+translation=정규식 사용
+
+[heading.plugins/search/Configure search settings]
+original=Configure search settings
+translation=검색 설정 구성
+
+[heading.plugins/search/Embed search results in a note]
+original=Embed search results in a note
+translation=노트에 검색 결과 임베드
+
+[heading.plugins/unique-note/Create a unique note]
+original=Create a unique note
+translation=고유 노트 만들기
+
+[heading.plugins/unique-note/Create unique notes from a template]
+original=Create unique notes from a template
+translation=템플릿으로 고유 노트 만들기
+
+[heading.plugins/graph/Settings]
+original=Settings
+translation=설정
+
+[heading.plugins/graph/Filters]
+original=Filters
+translation=필터
+
+[heading.plugins/graph/Groups]
+original=Groups
+translation=그룹
+
+[heading.plugins/graph/Display]
+original=Display
+translation=표시
+
+[heading.plugins/graph/Forces]
+original=Forces
+translation=장력
+
+[heading.plugins/graph/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=타임랩스 애니메이션 시작
+
+[heading.plugins/graph/Local Graph]
+original=Local Graph
+translation=로컬 그래프
+
+[heading.plugins/note-composer/Merge notes]
+original=Merge notes
+translation=노트 병합
+
+[heading.plugins/note-composer/Extract note]
+original=Extract note
+translation=노트 추출
+
+[heading.plugins/note-composer/Template file]
+original=Template file
+translation=템플릿 파일
+
+[heading.plugins/format-converter/Supported formats]
+original=Supported formats
+translation=지원되는 형식
+
+[heading.plugins/command-palette/Pinned commands]
+original=Pinned commands
+translation=즐겨찾기된 명령어
+
+[heading.plugins/command-palette/Pin a command]
+original=Pin a command
+translation=명령 고정하기
+
+[heading.plugins/command-palette/Unpin a command]
+original=Unpin a command
+translation=명령 고정 해제하기
+
+[heading.plugins/backlinks/Show backlinks]
+original=Show backlinks
+translation=백링크 보기
+
+[heading.plugins/backlinks/View backlinks for a note]
+original=View backlinks for a note
+translation=노트의 백링크 보기
+
+[heading.plugins/backlinks/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=특정 노트의 백링크 보기
+
+[heading.plugins/backlinks/Show backlinks in a note]
+original=Show backlinks in a note
+translation=노트에서 백링크 표시
+
+[heading.plugins/bookmarks/Add a bookmark]
+original=Add a bookmark
+translation=북마크 추가
+
+[heading.plugins/bookmarks/Remove a bookmark]
+original=Remove a bookmark
+translation=북마크 제거
+
+[heading.plugins/bookmarks/Add a bookmark group]
+original=Add a bookmark group
+translation=북마크 그룹 추가
+
+[heading.plugins/bookmarks/Remove a bookmark group]
+original=Remove a bookmark group
+translation=북마크 그룹 제거
+
+[heading.plugins/bookmarks/Bookmark multiple files]
+original=Bookmark multiple files
+translation=여러 파일 북마크하기
+
+[heading.plugins/quick-switcher/Open Quick switcher]
+original=Open Quick switcher
+translation=빠른 전환기 열기
+
+[heading.plugins/quick-switcher/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=빠른 전환기로 노트 열기
+
+[heading.plugins/properties/All properties view]
+original=All properties view
+translation=모든 속성 뷰
+
+[heading.plugins/web-viewer/Reader view]
+original=Reader view
+translation=리더 뷰
+
+[heading.plugins/web-viewer/Save to vault]
+original=Save to vault
+translation=보관함에 저장
+
+[heading.plugins/web-viewer/Ad blocking]
+original=Ad blocking
+translation=광고 차단
+
+[heading.plugins/web-viewer/Security]
+original=Security
+translation=보안
+
+[heading.plugins/audio-recorder/Record audio in a note]
+original=Record audio in a note
+translation=노트에 오디오 녹음하기
+
+[heading.plugins/daily-notes/Create a daily note from template]
+original=Create a daily note from template
+translation=템플릿으로 일일 노트 생성
+
+[heading.plugins/daily-notes/Daily notes and properties]
+original=Daily notes and properties
+translation=일일 노트와 속성
+
+[heading.plugins/workspaces/Save a workspace]
+original=Save a workspace
+translation=작업 공간 저장
+
+[heading.plugins/workspaces/Load a workspace]
+original=Load a workspace
+translation=작업 공간 불러오기
+
+[heading.plugins/workspaces/Delete a workspace]
+original=Delete a workspace
+translation=작업 공간 삭제
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=모든 코어 플러그인
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=기타 플러그인
+
+[heading.plugins/templates/Set your template folder]
+original=Set your template folder
+translation=템플릿 폴더 설정
+
+[heading.plugins/templates/Template variables]
+original=Template variables
+translation=템플릿 변수
+
+[heading.plugins/templates/Create a template]
+original=Create a template
+translation=템플릿 만들기
+
+[heading.plugins/templates/Insert a template into the active note]
+original=Insert a template into the active note
+translation=활성 노트에 템플릿 삽입
+
+[heading.plugins/templates/Template properties]
+original=Template properties
+translation=템플릿 속성
+
+[heading.plugins/file-recovery/Recover a snapshot]
+original=Recover a snapshot
+translation=스냅샷 복원하기
+
+[heading.plugins/file-recovery/Clear snapshot history]
+original=Clear snapshot history
+translation=스냅샷 기록 지우기
+
+[heading.plugins/file-recovery/Storage and performance]
+original=Storage and performance
+translation=저장 공간과 성능
+
+[heading.plugins/file-recovery/Limitations]
+original=Limitations
+translation=제한 사항
+
+[heading.plugins/file-explorer/Create a new note]
+original=Create a new note
+translation=새 노트 만들기
+
+[heading.plugins/file-explorer/Create a new folder]
+original=Create a new folder
+translation=새 폴더 만들기
+
+[heading.plugins/file-explorer/Change sort order]
+original=Change sort order
+translation=정렬 순서 변경
+
+[heading.plugins/file-explorer/Auto-reveal active file]
+original=Auto-reveal active file
+translation=활성 파일 자동 표시
+
+[heading.plugins/file-explorer/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=모든 폴더 펼치기 또는 접기
+
+[heading.plugins/file-explorer/Delete a file or folder]
+original=Delete a file or folder
+translation=파일 또는 폴더 삭제
+
+[heading.plugins/file-explorer/Rename a file or folder]
+original=Rename a file or folder
+translation=파일 또는 폴더 이름 바꾸기
+
+[heading.plugins/file-explorer/Move a file or folder]
+original=Move a file or folder
+translation=파일 또는 폴더 이동
+
+[heading.teams/license/Purchase a commercial license]
+original=Purchase a commercial license
+translation=상용 라이선스 구매
+
+[heading.teams/license/Apply a commercial license]
+original=Apply a commercial license
+translation=상용 라이선스 적용
+
+[heading.teams/license/Supporting organizations]
+original=Supporting organizations
+translation=지원 조직
+
+[heading.teams/license/Frequently asked questions]
+original=Frequently asked questions
+translation=자주 묻는 질문
+
+[heading.teams/deploy/Install and update Obsidian]
+original=Install and update Obsidian
+translation=Obsidian 설치 및 업데이트
+
+[heading.teams/deploy/Customizing Obsidian]
+original=Customizing Obsidian
+translation=Obsidian 사용자 지정
+
+[heading.teams/deploy/Configuration folders]
+original=Configuration folders
+translation=설정 폴더
+
+[heading.teams/deploy/Plugins]
+original=Plugins
+translation=플러그인
+
+[heading.teams/deploy/Themes and snippets]
+original=Themes and snippets
+translation=테마 및 스니펫
+
+[heading.teams/deploy/Frequently asked questions]
+original=Frequently asked questions
+translation=자주 묻는 질문
+
+[heading.teams/deploy/Deployment]
+original=Deployment
+translation=배포
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=팀과 함께 Obsidian 사용하기
+
+[heading.teams/Important resources]
+original=Important resources
+translation=중요 자료
+
+[heading.teams/publish/Publishing tools and services]
+original=Publishing tools and services
+translation=게재 도구 및 서비스
+
+[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=Obsidian Publish를 위한 고급 협업
+
+[heading.teams/publish/Media]
+original=Media
+translation=미디어
+
+[heading.teams/publish/Frequently asked questions]
+original=Frequently asked questions
+translation=자주 묻는 질문
+
+[heading.teams/sync/Syncing tools and services]
+original=Syncing tools and services
+translation=동기화 도구 및 서비스
+
+[heading.teams/sync/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=팀을 위한 Obsidian Sync
+
+[heading.teams/sync/Security]
+original=Security
+translation=보안
+
+[heading.teams/sync/Frequently asked questions]
+original=Frequently asked questions
+translation=자주 묻는 질문
+
+[heading.teams/security/Considerations]
+original=Considerations
+translation=고려 사항
+
+[heading.teams/security/Community plugins and themes]
+original=Community plugins and themes
+translation=커뮤니티 플러그인 및 테마
+
+[heading.teams/security/Network and access]
+original=Network and access
+translation=네트워크 및 접근
+
+[heading.teams/security/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=Obsidian 소스 연결
+
+[heading.teams/security/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=GitHub 소스 연결
+
+[heading.teams/security/Other connections]
+original=Other connections
+translation=기타 연결
+
+[heading.teams/security/Frequently asked questions]
+original=Frequently asked questions
+translation=자주 묻는 질문
+
+[heading.teams/security/Account security]
+original=Account security
+translation=계정 보안
+
+[heading.teams/security/Assessments and certifications]
+original=Assessments and certifications
+translation=평가 및 인증
+
+[heading.import/apple-journal/Export your data from Apple Journal]
+original=Export your data from Apple Journal
+translation=Apple Journal에서 데이터 내보내기
+
+[heading.import/apple-journal/On iPhone]
+original=On iPhone
+translation=iPhone에서
+
+[heading.import/apple-journal/On Mac (Tahoe)]
+original=On Mac (Tahoe)
+translation=Mac (Tahoe)에서
+
+[heading.import/apple-journal/Import Apple Journal data into Obsidian]
+original=Import Apple Journal data into Obsidian
+translation=Apple Journal 데이터를 Obsidian으로 들여오기
+
+[heading.import/apple-journal/Supported content]
+original=Supported content
+translation=지원되는 콘텐츠
+
+[heading.import/csv/Create notes from CSV data in Obsidian]
+original=Create notes from CSV data in Obsidian
+translation=Obsidian에서 CSV 데이터로 노트 생성하기
+
+[heading.import/csv/Configure how CSV fields are imported]
+original=Configure how CSV fields are imported
+translation=CSV 필드 들여오기 방식 설정하기
+
+[heading.import/craft/Export your data from Craft]
+original=Export your data from Craft
+translation=Craft에서 데이터 내보내기
+
+[heading.import/craft/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=Craft 데이터를 Obsidian으로 들여오기
+
+[heading.import/craft/Troubleshooting]
+original=Troubleshooting
+translation=문제 해결
+
+[heading.plugins/importer/Install Importer]
+original=Install Importer
+translation=Importer 설치
+
+[heading.import/textbundle/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=Textbundle 파일을 Obsidian으로 들여오기
+
+[heading.import/textbundle/Troubleshooting]
+original=Troubleshooting
+translation=문제 해결
+
+[heading.import/textbundle/No files are selected for import]
+original=No files are selected for import
+translation=들여오기할 파일이 선택되지 않음
+
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=내부 링크의 지원 형식
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=파일에 링크하기
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=노트의 제목에 링크하기
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=노트의 블록에 링크하기
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=링크 표시 텍스트 변경하기
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=링크된 파일 미리보기
+
+[heading.aliases/Add an alias to a note]
+original=Add an alias to a note
+translation=노트에 별칭 추가하기
+
+[heading.aliases/Link to a note using an alias]
+original=Link to a note using an alias
+translation=별칭을 사용하여 노트에 링크하기
+
+[heading.aliases/Find unlinked mentions for an alias]
+original=Find unlinked mentions for an alias
+translation=별칭에 대한 링크되지 않은 호출 찾기
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=다른 노트에 노트 임베드하기
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=노트에 이미지 임베드하기
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=노트에 오디오 파일 임베드하기
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=노트에 PDF 임베드하기
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=노트에 목록 임베드하기
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=검색 결과 임베드하기
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=질문 및 조언
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=버그 신고 및 기능 요청
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=디버그 정보 수집
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=시작 시간 확인
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=콘솔 로그 캡처
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=Obsidian 지원팀에 문의하기
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=보안 문제 신고
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=행동 강령 위반 신고
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Obsidian에 기여하기
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=Catalyst 등급
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=Catalyst 혜택 이용
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=포럼 배지 받기
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=Discord 배지 받기
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=Insider 채널 참여
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=얼리 액세스 버전 활성화
+
+[heading.credit/Add credit]
+original=Add credit
+translation=크레딧 추가
+
+[heading.credit/Gifting]
+original=Gifting
+translation=선물하기
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=Obsidian 크레딧 보내기
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=Obsidian 크레딧 받기
+
+[heading.discounts/How to apply]
+original=How to apply
+translation=신청 방법
+
+[heading.discounts/How to renew]
+original=How to renew
+translation=갱신 방법
+
+[heading.discounts/Frequently asked questions]
+original=Frequently asked questions
+translation=자주 묻는 질문
+
+[heading.discounts/Refunds]
+original=Refunds
+translation=환불
+
+[heading.payment/Purchase a service or license]
+original=Purchase a service or license
+translation=서비스 또는 라이선스 구매
+
+[heading.payment/Generate an invoice]
+original=Generate an invoice
+translation=청구서 생성
+
+[heading.payment/Editing an invoice]
+original=Editing an invoice
+translation=청구서 편집
+
+[heading.sales-tax/Tax exemption]
+original=Tax exemption
+translation=세금 면제
+
+[heading.sales-tax/Applying for an exemption]
+original=Applying for an exemption
+translation=면제 신청
+
+[heading.refunds/Request a refund]
+original=Request a refund
+translation=환불 요청
+
+[heading.refunds/Frequently asked questions]
+original=Frequently asked questions
+translation=자주 묻는 질문
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=단축키 보기
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=단축키 설정하기
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=단축키 제거하기
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=단축키 필터링
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=미국식이 아닌 키보드 레이아웃
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=기본 키보드 단축키
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=탭 드래그
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=드래그 원본
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=놓기 대상
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=Obsidian 외부에서 드래그
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=Obsidian 외부로 파일 놓기
+
+[heading.ribbon/Actions]
+original=Actions
+translation=동작
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=리본 사용자 지정
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=데스크톱
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=리본 숨기기
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=리본 표시하기
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=모바일
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=빠른 접근
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=재배열 및 표시 여부
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=숨겨진 사이드바 열기
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=데스크톱 및 큰 태블릿
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=모바일 및 작은 태블릿
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=탭
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=탭 열기 또는 다시 열기
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=탭 닫기
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=탭 재배열
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=탭 고정
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=탭 그룹
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=탭 그룹 만들기
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=탭 그룹 닫기
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=설정 열기
+
+[heading.settings/Desktop]
+original=Desktop
+translation=데스크톱
+
+[heading.settings/Mobile]
+original=Mobile
+translation=모바일
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=설정 구성
+
+[heading.settings/General]
+original=General
+translation=일반
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=버전 및 업데이트
+
+[heading.settings/Language]
+original=Language
+translation=언어
+
+[heading.settings/Help]
+original=Help
+translation=도움말
+
+[heading.settings/Account]
+original=Account
+translation=계정
+
+[heading.settings/Advanced]
+original=Advanced
+translation=고급 설정
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=앱 시작이 예상보다 느려질 경우 알리기
+
+[heading.settings/Editor]
+original=Editor
+translation=편집기
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=항상 새 탭으로 전환
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=새 탭에 사용하는 기본 화면
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=기본 편집 모드
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=편집기 상태 보기
+
+[heading.settings/Display]
+original=Display
+translation=표시
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=읽기 쉬운 행 길이
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=엄격한 줄 바꿈
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=문서 내 속성
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=제목 접기
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=들여쓰기 접기
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=줄 번호
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=들여쓰기 가이드
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=오른쪽-왼쪽 방향 (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=괄호 자동 닫기
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=마크다운 문법 자동 닫기
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=스마트 들여쓰기
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=들여쓰기로 탭 사용
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=HTML 자동 변환
+
+[heading.settings/Behavior]
+original=Behavior
+translation=동작
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=맞춤법 검사
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=맞춤법 검사 언어
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=들여쓰기 크기
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Vim 키 바인딩 설정
+
+[heading.settings/Files and links]
+original=Files and links
+translation=파일 및 링크
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=새 노트를 생성하는 위치
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=새 첨부 파일을 생성할 위치
+
+[heading.settings/Links]
+original=Links
+translation=링크
+
+[heading.settings/New link format]
+original=New link format
+translation=새로 생성하는 링크 형식
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=항상 업데이트되는 내부 링크
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=위키 링크 사용
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=모든 파일 형식 표시
+
+[heading.settings/Trash]
+original=Trash
+translation=휴지통
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=파일 삭제 확인
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=삭제된 파일
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=제외하는 파일
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=설정 폴더 우선순위 전환
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=URI 콜백 허용
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=보관함 캐시 다시 빌드하기
+
+[heading.settings/Appearance]
+original=Appearance
+translation=외형
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=기본 테마
+
+[heading.settings/Accent color]
+original=Accent color
+translation=강조 색상
+
+[heading.settings/Themes]
+original=Themes
+translation=테마
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=현재 커뮤니티 테마
+
+[heading.settings/Font]
+original=Font
+translation=폰트
+
+[heading.settings/Interface font]
+original=Interface font
+translation=인터페이스 폰트
+
+[heading.settings/Text font]
+original=Text font
+translation=텍스트 폰트
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=모노스페이스 폰트
+
+[heading.settings/Font size]
+original=Font size
+translation=폰트 크기
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=빠른 폰트 크기 조정
+
+[heading.settings/Interface]
+original=Interface
+translation=인터페이스
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=인라인 제목
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=탭 타이틀바 표시
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=리본 표시하기
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=리본 메뉴 설정
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=배율
+
+[heading.settings/Native menus]
+original=Native menus
+translation=네이티브 메뉴
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=창 프레임 스타일
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=커스텀 앱 아이콘
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=반투명 창
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=하드웨어 가속
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=CSS 스니펫
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=단축키
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=코어 플러그인
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=커뮤니티 플러그인
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=제한 모드
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=현재 설치된 플러그인
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=설치된 플러그인
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=색상 구성표
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=커스텀 테마
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=커스텀 앱 아이콘
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=반투명도
+
+[heading.workspace/Desktop]
+original=Desktop
+translation=데스크톱
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=모바일
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=새 탭 열기
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=링크 열기
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=탭과 창 정리하기
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=탭 배열하기
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=탭 그룹 분할하기
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=탭 그룹 크기 조절하기
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=탭을 새 창으로 이동하기
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=탭을 다른 창으로 이동하기
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=탭 고정하기
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=다른 탭으로 전환하기
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=탭 그룹 스택하기
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=링크된 화면
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=레이아웃 저장하기
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=새 창에서 파일 열기
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=다른 창으로 파일 이동하기
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=Windows에서 Obsidian 설치하기
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=macOS에서 Obsidian 설치하기
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=Linux에서 Obsidian 설치하기
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=Snap을 사용하여 Obsidian 설치하기
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=AppImage를 사용하여 Obsidian 설치하기
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=Flatpak을 사용하여 Obsidian 설치하기
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=Android에서 Obsidian 설치하기
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=iPhone 및 iPad에서 Obsidian 설치하기
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=업데이트 확인 및 버전 보기
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=자동 업데이트 비활성화
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=설치 프로그램 업데이트
+
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=동기화는 백업이 아닙니다
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=커뮤니티 플러그인 사용
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=클라우드 기반 서비스 사용
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=외장 드라이브 사용
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=컴퓨터 백업 사용
+
+[heading.backup/Next steps]
+original=Next steps
+translation=다음 단계
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=동기화 방법
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=iPhone 및 iPad 동기화
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=자주 묻는 질문
+
+[heading.link-notes/Create a link]
+original=Create a link
+translation=링크 만들기
+
+[heading.link-notes/Create a link to a non-existing note]
+original=Create a link to a non-existing note
+translation=존재하지 않는 노트에 대한 링크 만들기
+
+[heading.link-notes/Navigate between notes]
+original=Navigate between notes
+translation=노트 간 탐색
+
+[heading.link-notes/Learn more]
+original=Learn more
+translation=자세히 알아보기
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=위젯, 단축키 및 Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=모바일 툴바
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=모바일 툴바 사용자 지정
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=모바일 툴바에 명령 추가
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=빠른 작업
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=빠른 작업 사용자 지정
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=내비게이션 바
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=뒤로 또는 앞으로
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=노트 생성 또는 찾기
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=탭 관리
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=리본 작업
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=사이드바
+
+[heading.vault/Create empty vault]
+original=Create empty vault
+translation=빈 보관함 생성
+
+[heading.vault/Open existing folder]
+original=Open existing folder
+translation=기존 폴더 열기
+
+[heading.sandbox/Opening the sandbox vault]
+original=Opening the sandbox vault
+translation=샌드박스 보관함 열기
+
+[heading.sandbox/Close the sandbox vault]
+original=Close the sandbox vault
+translation=샌드박스 보관함 닫기
+
+[heading.glossary/Alias]
+original=Alias
+translation=별칭
+
+[heading.glossary/Attachment]
+original=Attachment
+translation=첨부 파일
+
+[heading.glossary/Command]
+original=Command
+translation=명령
+
+[heading.glossary/Embed]
+original=Embed
+translation=임베드
+
+[heading.glossary/Frontmatter]
+original=Frontmatter
+translation=프런트매터
+
+[heading.glossary/Graph]
+original=Graph
+translation=그래프
+
+[heading.glossary/Hotkey]
+original=Hotkey
+translation=키보드 단축키
+
+[heading.glossary/Link]
+original=Link
+translation=링크
+
+[heading.glossary/Main area]
+original=Main area
+translation=메인 영역
+
+[heading.glossary/Note]
+original=Note
+translation=노트
+
+[heading.glossary/Plugin]
+original=Plugin
+translation=플러그인
+
+[heading.glossary/Pop-out window]
+original=Pop-out window
+translation=팝아웃 창
+
+[heading.glossary/Property]
+original=Property
+translation=속성
+
+[heading.glossary/Ribbon]
+original=Ribbon
+translation=리본
+
+[heading.glossary/Sidebar]
+original=Sidebar
+translation=사이드바
+
+[heading.glossary/Snippet]
+original=Snippet
+translation=스니펫
+
+[heading.glossary/Status bar]
+original=Status bar
+translation=상태 표시줄
+
+[heading.glossary/Tab]
+original=Tab
+translation=탭
+
+[heading.glossary/Tab group]
+original=Tab group
+translation=탭 그룹
+
+[heading.glossary/Tag]
+original=Tag
+translation=태그
+
+[heading.glossary/Theme]
+original=Theme
+translation=테마
+
+[heading.glossary/Vault]
+original=Vault
+translation=보관함
+
+[heading.glossary/Remote vault]
+original=Remote vault
+translation=원격 보관함
+
+[heading.glossary/View]
+original=View
+translation=뷰
+
+[heading.create-note/Create a new note]
+original=Create a new note
+translation=새 노트 만들기
+
+[heading.create-note/Formatting text]
+original=Formatting text
+translation=텍스트 서식 지정
+
+[heading.create-note/Learn more]
+original=Learn more
+translation=자세히 알아보기
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=보관함 설정
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=전역 설정
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=메타데이터 캐시
+
+[heading.manage-notes/Create a new note]
+original=Create a new note
+translation=새 노트 생성
+
+[heading.manage-notes/Rename a note]
+original=Rename a note
+translation=노트 이름 바꾸기
+
+[heading.manage-notes/Delete a note]
+original=Delete a note
+translation=노트 삭제
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=새 보관함 생성
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=기존 폴더에서 보관함 생성
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=보관함 이름 바꾸기
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=보관함을 다른 폴더로 이동
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=보관함 제거
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=다른 보관함으로 설정 전달
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=설정 폴더 접근하기
+
+[heading.configuration-folder/Desktop]
+original=Desktop
+translation=데스크톱
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=모바일
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=설정 폴더 변경하기
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=파일 임베드
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=HTML 제한 사항
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=HTML 내부에서 Markdown 사용 불가
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=HTML 블록은 자체적으로 완결되어야 합니다
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=HTML에서 Markdown이 작동하는 것처럼 보이는 경우
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=일반적인 HTML 사용법
+
+[heading.html/Comments]
+original=Comments
+translation=주석
+
+[heading.html/Underline]
+original=Underline
+translation=밑줄
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=취소선
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=지원되는 Markdown 확장 기능
+
+[heading.advanced-syntax/Tables]
+original=Tables
+translation=표
+
+[heading.advanced-syntax/Format content within a table]
+original=Format content within a table
+translation=표 안의 콘텐츠 서식 지정
+
+[heading.advanced-syntax/Diagram]
+original=Diagram
+translation=다이어그램
+
+[heading.advanced-syntax/Linking files in a diagram]
+original=Linking files in a diagram
+translation=다이어그램에서 파일 연결하기
+
+[heading.advanced-syntax/Math]
+original=Math
+translation=수식
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=문단
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=줄 바꿈
+
+[heading.syntax/Headings]
+original=Headings
+translation=제목
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=굵게, 기울임꼴, 강조 표시
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=내부 링크
+
+[heading.syntax/External links]
+original=External links
+translation=외부 링크
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=링크에서 공백 이스케이프
+
+[heading.syntax/External images]
+original=External images
+translation=외부 이미지
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=인용
+
+[heading.syntax/Lists]
+original=Lists
+translation=목록
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=작업 목록
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=목록 중첩
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=수평선
+
+[heading.syntax/Code]
+original=Code
+translation=코드
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=인라인 코드
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=코드 블록
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=코드 블록 중첩
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=각주
+
+[heading.syntax/Comments]
+original=Comments
+translation=주석
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=Markdown 구문 이스케이프
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=자세히 알아보기
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=사각 선택
+
+[heading.edit-and-read/Reading view]
+original=Reading view
+translation=읽기 보기
+
+[heading.edit-and-read/Editing view]
+original=Editing view
+translation=편집기
+
+[heading.edit-and-read/Live Preview]
+original=Live Preview
+translation=실시간 미리보기
+
+[heading.edit-and-read/Source mode]
+original=Source mode
+translation=원본 모드
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=노트에 속성 추가하기
+
+[heading.properties/Property types]
+original=Property types
+translation=속성 유형
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=고급 사용법
+
+[heading.properties/Search properties]
+original=Search properties
+translation=속성 검색
+
+[heading.properties/Templates]
+original=Templates
+translation=템플릿
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=속성 이름 바꾸기
+
+[heading.properties/Display modes]
+original=Display modes
+translation=표시 모드
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=CSS 스니펫
+
+[heading.properties/Not supported]
+original=Not supported
+translation=지원되지 않는 기능
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=키보드 단축키
+
+[heading.properties/Add a property]
+original=Add a property
+translation=속성 추가
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=속성 간 이동
+
+[heading.properties/Select properties]
+original=Select properties
+translation=속성 선택
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=속성 편집
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim (고급)
+
+[heading.properties/Property format]
+original=Property format
+translation=속성 형식
+
+[heading.properties/Text]
+original=Text
+translation=텍스트
+
+[heading.properties/List]
+original=List
+translation=목록
+
+[heading.properties/Number]
+original=Number
+translation=숫자
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=체크박스
+
+[heading.properties/Date]
+original=Date
+translation=날짜
+
+[heading.properties/Date & time]
+original=Date & time
+translation=날짜 및 시간
+
+[heading.properties/Tags]
+original=Tags
+translation=태그
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=JSON 속성
+
+[heading.properties/Default properties]
+original=Default properties
+translation=기본 속성
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=Obsidian Publish용 속성
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=지원 중단된 속성
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=YouTube 동영상 삽입
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=트윗 삽입
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=첨부 파일 추가
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=기본 첨부 파일 위치 변경
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=제목 변경
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=접을 수 있는 콜아웃
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=중첩 콜아웃
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=콜아웃 사용자 지정
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=지원 유형
+
+[heading.tags/Add a tag to a note]
+original=Add a tag to a note
+translation=노트에 태그 추가
+
+[heading.tags/Find notes using tags]
+original=Find notes using tags
+translation=태그를 사용하여 노트 찾기
+
+[heading.tags/Nested tags]
+original=Nested tags
+translation=중첩 태그
+
+[heading.tags/Tag format]
+original=Tag format
+translation=태그 형식
+
+[heading.editing-shortcuts/Windows and Linux shortcuts]
+original=Windows and Linux shortcuts
+translation=Windows 및 Linux 단축키
+
+[heading.editing-shortcuts/Common actions]
+original=Common actions
+translation=일반 동작
+
+[heading.editing-shortcuts/Text editing]
+original=Text editing
+translation=텍스트 편집
+
+[heading.editing-shortcuts/Text navigation]
+original=Text navigation
+translation=텍스트 탐색
+
+[heading.editing-shortcuts/Text selection]
+original=Text selection
+translation=텍스트 선택
+
+[heading.editing-shortcuts/macOS shortcuts]
+original=macOS shortcuts
+translation=macOS 단축키
+
+[heading.editing-shortcuts/Text formatting]
+original=Text formatting
+translation=텍스트 서식
+
+[heading.//Obsidian Help]
+original=Obsidian Help
+translation=Obsidian 도움말
+
+[heading.//Get started]
+original=Get started
+translation=시작하기
+
+[heading.//Extend Obsidian]
+original=Extend Obsidian
+translation=Obsidian 확장하기
+
+[heading.//Add-on services]
+original=Add-on services
+translation=부가 서비스
+
+[heading.//Contribute]
+original=Contribute
+translation=기여하기
+
+[heading.publish/headless/Quick start]
+original=Quick start
+translation=빠른 시작
+
+[heading.publish/headless/Commands]
+original=Commands
+translation=명령

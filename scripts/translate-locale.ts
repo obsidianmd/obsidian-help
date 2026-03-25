@@ -90,26 +90,43 @@ function loadConfig(): LLMConfig {
 }
 
 // ─── headings.txt ─────────────────────────────────────────────────────────────
-// Format: INI-style, section = permalink, key=value = EN heading=translated heading
+// Format: INI-style, one section per heading entry.
+//   [heading.{permalink}/{EN heading}]
+//   original={EN heading}
+//   translation={translated heading}
 // Only stores headings that differ from EN.
 
 type HeadingsMap = Record<string, Record<string, string>>;
 
 function parseHeadingsTxt(content: string): HeadingsMap {
   const result: HeadingsMap = {};
-  let current = "";
+  let permalink = "";
+  let original = "";
   for (const line of content.split("\n")) {
     const trimmed = line.trim();
     if (!trimmed || trimmed.startsWith(";")) continue;
     if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
-      current = trimmed.slice(1, -1);
-      result[current] = {};
-    } else if (current) {
+      const name = trimmed.slice(1, -1);
+      if (name.startsWith("heading.")) {
+        const rest = name.slice("heading.".length);
+        const slash = rest.indexOf("/");
+        permalink = slash !== -1 ? rest.slice(0, slash) : rest;
+        original = slash !== -1 ? rest.slice(slash + 1) : "";
+        if (!result[permalink]) result[permalink] = {};
+      } else {
+        permalink = "";
+        original = "";
+      }
+    } else if (permalink) {
       const eq = trimmed.indexOf("=");
       if (eq !== -1) {
         const k = trimmed.slice(0, eq);
         const v = trimmed.slice(eq + 1);
-        result[current][k] = v;
+        if (k === "original") {
+          original = v;
+        } else if (k === "translation" && original) {
+          result[permalink][original] = v;
+        }
       }
     }
   }
@@ -117,12 +134,13 @@ function parseHeadingsTxt(content: string): HeadingsMap {
 }
 
 function serializeHeadingsTxt(data: HeadingsMap): string {
-  return Object.entries(data)
-    .filter(([, entries]) => Object.keys(entries).length > 0)
-    .map(([section, entries]) =>
-      `[${section}]\n` + Object.entries(entries).map(([k, v]) => `${k}=${v}`).join("\n")
-    )
-    .join("\n\n") + "\n";
+  const parts: string[] = [];
+  for (const [permalink, entries] of Object.entries(data)) {
+    for (const [original, translation] of Object.entries(entries)) {
+      parts.push(`[heading.${permalink}/${original}]\noriginal=${original}\ntranslation=${translation}`);
+    }
+  }
+  return parts.join("\n\n") + "\n";
 }
 
 function loadHeadingsTxt(): HeadingsMap {

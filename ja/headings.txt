@@ -1,1383 +1,4295 @@
-[bases]
-How to use bases=ベースの使い方
-View types=ビューの種類
-
-[bases/syntax]
-Example=例
-Filters=フィルター
-Formulas=数式
-Properties=プロパティ
-Summaries=要約
-Default Summary Formulas=デフォルトの要約数式
-Views=ビュー
-Note properties=ノートプロパティ
-File properties=ファイルプロパティ
-Access properties with `this`=`this`でプロパティにアクセスする
-Operators=演算子
-Arithmetic operators=算術演算子
-Date arithmetic=日付の算術
-Comparison operators=比較演算子
-Boolean operators=ブール演算子
-Functions=関数
-Types=型
-Strings, numbers, and booleans=文字列、数値、ブール値
-Dates and durations=日付と期間
-Objects and lists=オブジェクトとリスト
-Files and links=ファイルとリンク
-
-[bases/views]
-Toolbar=ツールバー
-Add and switch views=ビューの追加と切り替え
-View settings=ビュー設定
-Layout=レイアウト
-Filters=フィルター
-Components of a filter=フィルターのコンポーネント
-Conjunctions=結合条件
-Filter groups=フィルターグループ
-Advanced filter editor=詳細フィルターエディタ
-Sort and group results=結果の並べ替えとグループ化
-Add a sort=並べ替えの追加
-Remove a sort=並べ替えの削除
-Limit, copy, and export results=結果の制限、コピー、エクスポート
-Limit results=結果の制限
-Copy to clipboard=クリップボードにコピー
-Export CSV=CSVエクスポート
-Embed a view=ビューの埋め込み
-
-[bases/create-base]
-Create a new base=新規ベースを作成
-Embed a base=ベースを埋め込む
-Embed a base file=ベースファイルを埋め込む
-Embed a base as a code block=コードブロックとしてベースを埋め込む
-
-[bases/views/cards]
-Settings=設定
-Card size=カードサイズ
-Image property=画像プロパティ
-Image fit=画像のフィット
-Image aspect ratio=画像のアスペクト比
-
-[bases/views/table]
-Settings=設定
-Row height=行の高さ
-Summaries=要約
-Add a summary=要約の追加
-Built-in summaries=組み込みの要約
-All property types=すべてのプロパティタイプ
-Numbers=数値
-Dates=日付
-Checkbox=チェックボックス
-Custom summaries=カスタム要約
-Shortcuts=ショートカット
-
-[bases/views/map]
-Install the Maps plugin=Mapsプラグインのインストール
-Example=例
-Settings=設定
-Markers=マーカー
-Coordinates=座標
-Icons=アイコン
-Use a formula to define icons=数式を使ってアイコンを定義する
-Colors=色
-Background=背景
-Map tiles=マップタイル
-Useful links=便利なリンク
-Tips=ヒント
-Troubleshooting=トラブルシューティング
-
-[bases/views/list]
-Settings=設定
-Markers=マーカー
-Indent properties=プロパティをインデント
-Separators=区切り文字
-
-[formulas]
-What formulas can do=数式でできること
-Create a formula property=数式プロパティの作成
-Write a formula=数式を書く
-Reference properties=プロパティの参照
-Use operators=演算子を使う
-Use functions=関数を使う
-Formula examples=数式の例
-Calculate a deadline=期限を計算する
-Display overdue status=期限超過ステータスを表示する
-Format currency=通貨をフォーマットする
-Count list items=リスト項目を数える
-Calculate priority score=優先度スコアを計算する
-Combine text fields=テキストフィールドを結合する
-Calculate total cost=総コストを計算する
-Data types=データ型
-Reference other formulas=他の数式を参照する
-
-[bases/functions]
-Global=グローバル
-Date=日付
-Fields=フィールド
-String=文字列
-Number=数値
-List=リスト
-Link=リンク
-File=ファイル
-Object=オブジェクト
-Regular expression=正規表現
-
-[2fa]
-Enable 2FA=2FAの有効化
-Generate recovery codes=リカバリーコードの生成
-Disable 2FA=2FAの無効化
-FAQ=よくある質問
-
-[android]
-Sync=同期
-Vault location=保管庫の場所
-Device storage=デバイスストレージ
-App storage=アプリストレージ
-Widgets=ウィジェット
-Quick Settings tiles=クイック設定タイル
-Shortcuts=ショートカット
-
-[ios]
-Sync=同期
-Widgets=ウィジェット
-Lock Screen and Control Center widgets=ロック画面およびコントロールセンターのウィジェット
-Home Screen widgets=ホーム画面のウィジェット
-Customizing widgets=ウィジェットのカスタマイズ
-Shortcuts=ショートカット
-Share Sheet Extension=共有シート拡張
-Siri integration=Siri連携
-Spotlight integration=Spotlight連携
-
-[obsidian]
-What is Obsidian=Obsidianとは
-How we're different=Obsidianの特徴
-You own and control your data=データの所有と管理は自分自身で
-Links are first-class citizens=リンクは第一級市民
-Your own toolkit=自分だけのツールキット
-Follow our development=開発をフォローする
-
-[credits]
-Team=チーム
-Development=開発
-Product & Operations=プロダクト＆オペレーション
-Moderators=モデレーター
-Retired=退任
-Plugin inspirations=プラグインのインスピレーション
-Builds=ビルド
-Translators=翻訳者
-Documentation=ドキュメント
-Add your name=あなたの名前を追加する
-Third party acknowledgements=サードパーティの謝辞
-Previous logo=以前のロゴ
-
-[community-code-of-conduct]
-The rules=ルール
-Serious offenses=重大な違反
-Harassment=ハラスメント
-Threats=脅迫
-Blatant -isms=明白な差別的発言
-Other offenses=その他の違反
-Belligerence=好戦的な態度
-Being especially unpleasant=特に不快な行為
-Unsolicited messages to community members=コミュニティメンバーへの無断メッセージ
-Other behaviors=その他の行為
-Sea-lioning=シーライオニング
-"Feed me"=「教えてくん」
-Campaigning=しつこい要求
-Excessive self promotion=過度な自己宣伝
-Spamming=スパム行為
-Encouraged behaviors=推奨される行動
-Motivation=動機
-Report violations=違反の報告
-Report on Discord=Discordでの報告
-Report on the forum=フォーラムでの報告
-Enforcement=施行
-Appealing a ban=BANの異議申し立て
-Credits=クレジット
-
-[early-access]
-Enable early access versions for desktop=デスクトップで早期アクセスバージョンを有効にする
-Install early access versions on mobile devices=モバイルデバイスに早期アクセスバージョンをインストールする
-Report issues and other feedback=問題やその他のフィードバックを報告する
-Switch back to public versions on desktop=デスクトップでパブリックバージョンに戻す
-Switch back to public versions on mobile=モバイルでパブリックバージョンに戻す
-
-[publish/setup]
-Prerequisites=前提条件
-Log in with your Obsidian account=Obsidianアカウントでログインする
-Enable Obsidian Publish=Obsidian Publishを有効にする
-Open Publish=Publishを開く
-Open via Command palette=コマンドパレットから開く
-Open via hotkey=ショートカットキーから開く
-Open via ribbon=リボンメニューから開く
-Create a new site=新しいサイトを作成する
-Set a site name=サイト名を設定する
-Select notes to publish=公開するノートを選択する
-Next steps=次のステップ
-
-[publish/troubleshoot]
-General=一般
-Publishing notes=ノートの公開
-CSS and themes=CSSとテーマ
-
-[publish]
-How to use Obsidian Publish=Obsidian Publishの使い方
-
-[sync/troubleshoot]
-General=一般
-Conflict resolution=競合の解決
-How Obsidian Sync handles conflicts=Obsidian Syncの競合の処理方法
-Conflict resolution options=競合の解決オプション
-Sync deleted a note I just created on two devices=Syncが2台のデバイスで作成したノートを削除した
-Sync will not sync my plugins and settings updates=Syncがプラグインや設定のアップデートを同期しない
-My files keep disappearing from Sync as soon as I restore it=ファイルを復元してもSyncからすぐに消えてしまう
-
-[sync/messages]
-Sync status icon=Syncステータスアイコン
-Sync activity log=同期アクティビティログ
-General messages=一般メッセージ
-Error messages=エラーメッセージ
-Skipped messages=スキップメッセージ
-Account messages=アカウントメッセージ
-Network messages=ネットワークメッセージ
-
-[web-clipper/variables]
-Preset variables=プリセット変数
-Prompt variables=プロンプト変数
-When to use prompt variables=プロンプト変数を使用する場面
-Examples=例
-Meta variables=メタ変数
-Selector variables=セレクタ変数
-Schema.org variables=Schema.org変数
-
-[snippets]
-Adding a snippet=スニペットの追加
-Writing CSS for Obsidian=Obsidian向けCSSの記述
-Learn more=詳細を確認
-
-[publish/limitations]
-Community plugins=コミュニティプラグイン
-Graph=グラフ
-Media files=メディアファイル
-PDFs=PDF
-Search=検索
-
-[publish/collaborate]
-Add a collaborator to a site=サイトにコラボレーターを追加する
-Remove a collaborator from a site=サイトからコラボレーターを削除する
-Sync changes between collaborators=コラボレーター間で変更を同期する
-Permissions=権限
-
-[publish/seo]
-Sitemap=サイトマップ
-Permalinks=パーマリンク
-Metadata=メタデータ
-
-[publish/analytics]
-Prerequisites=前提条件
-Google Analytics=Googleアナリティクス
-Plausible, Fathom, and other analytics services=Plausible、Fathom、その他のアナリティクスサービス
-Troubleshooting=トラブルシューティング
-
-[publish/domains]
-Set up using CloudFlare=CloudFlareを使用した設定
-Set up using a proxy=プロキシを使用した設定
-Supported HTTP X-Headers=サポートされるHTTP X-Headers
-Redirect old site to custom domain=旧サイトからカスタムドメインへのリダイレクト
-Troubleshoot=トラブルシューティング
-
-[publish/publish]
-Prerequisites=前提条件
-Publish notes=ノートを公開する
-Unpublish notes=ノートの公開を取り消す
-Update a published note=公開済みノートを更新する
-Publish linked data=リンクされたデータを公開する
-Automatically select data to publish=公開するデータを自動的に選択する
-Ignore data=データを無視する
-
-[publish/customize]
-Static assets=静的アセット
-Use a community theme=コミュニティテーマを使用する
-Enable UI features=UI機能を有効にする
-Customize navigation=ナビゲーションをカスタマイズ
-Accessing Customize navigation options=ナビゲーションのカスタマイズオプションにアクセスする
-Adjust navigation items=ナビゲーションアイテムを調整する
-Hide and unhide navigation items=ナビゲーションアイテムの表示/非表示
-
-[publish/sites]
-Create a new site=新しいサイトの作成
-Delete an existing site=既存のサイトの削除
-Switch between sites=サイト間の切り替え
-Change the site ID=サイトIDの変更
-View site options=サイトオプションの表示
-Site options=サイトオプション
-General=一般
-Appearance=外観
-Reading experience=リーディングエクスペリエンス
-Components=コンポーネント
-Other site settings=他のサイト設定
-
-[publish/security]
-Password protection=パスワード保護
-Add a site password=サイトパスワードの追加
-Remove a site password=サイトパスワードの削除
-Data collection=データ収集
-Visitor data=訪問者データ
-Access=アクセス
-Managing access to Obsidian Publish on your network=ネットワーク上でのObsidian Publishへのアクセス管理
-
-[publish/social-share]
-Description=説明
-Image=画像
-
-[publish/permalinks]
-Redirect old notes=古いノートのリダイレクト
-
-[publish/media]
-Images=画像
-PDFs=PDF
-Videos and audio=動画とオーディオ
-
-[sync/setup]
-Set up Obsidian Sync for the first time=Obsidian Syncの初回セットアップ
-Log in with your Obsidian account=Obsidianアカウントでログインする
-Enable Obsidian Sync=Obsidian Syncを有効化する
-Create a new remote vault=新しいリモート保管庫を作成する
-Connect to a remote vault=リモート保管庫に接続する
-Adjust Obsidian Sync settings=Obsidian Syncの設定を調整する
-Begin syncing with Obsidian Sync=Obsidian Syncで同期を開始する
-Sync a remote vault on another device=別のデバイスでリモート保管庫を同期する
-Sync your vault from the vault switcher=保管庫スイッチャーから保管庫を同期する
-Sync your vault from Obsidian Settings=Obsidianの設定から保管庫を同期する
-Manage your remote vaults=リモート保管庫の管理
-Disconnect from a remote vault=リモート保管庫から切断する
-Delete a remote vault=リモート保管庫を削除する
-Regional sync servers=リージョン別同期サーバー
-Next steps=次のステップ
-
-[sync]
-How to use Obsidian Sync=Obsidian Syncの使い方
-Important=重要
-
-[sync/switch]
-Move your vault out of your third-party syncing service or cloud storage=サードパーティの同期サービスやクラウドストレージから保管庫を移動する
-Move your vault using Obsidian on desktop=デスクトップ版Obsidianで保管庫を移動する
-Move your vault on mobile=モバイルで保管庫を移動する
-iOS and iPadOS=iOSおよびiPadOS
-Next steps=次のステップ
-
-[sync/region]
-Available regions=利用可能なリージョン
-Change Sync region=Sync リージョンの変更
-
-[sync/migrate]
-Encryption versions=暗号化バージョン
-Upgrade encryption with the migration assistant=移行アシスタントで暗号化をアップグレードする
-
-[sync/settings]
-Sync settings=Sync設定
-Conflict resolution=競合の解決
-Selective syncing=選択的同期
-Change the file types you want to sync=同期するファイルタイプを変更する
-Exclude a folder from syncing=フォルダを同期から除外する
-Always excluded from sync=常に同期から除外されるもの
-File recovery snapshots=ファイルリカバリーのスナップショット
-Hidden files and folders=隠しファイルと隠しフォルダ
-Updating your synced vault settings=同期された保管庫の設定を更新する
-Primary device=プライマリデバイス
-Secondary device(s)=セカンダリデバイス
-Reloading of settings=設定の再読み込み
-Settings profiles=設定プロファイル
-Create a settings profile=設定プロファイルを作成する
-
-[sync/faq]
-General=一般
-What operating systems does Obsidian Sync support?=Obsidian Syncはどのオペレーティングシステムに対応していますか？
-Does Obsidian work with Apple's Lockdown Mode?=ObsidianはAppleのロックダウンモードで動作しますか？
-What type of data is synced?=どのような種類のデータが同期されますか？
-How much storage do I have?=どのくらいのストレージがありますか？
-How many remote vaults can I have?=リモート保管庫はいくつ持てますか？
-How large can each remote vault be?=各リモート保管庫の最大サイズはどのくらいですか？
-How many people can I share a remote vault with?=リモート保管庫は何人まで共有できますか？
-How large can each file be?=各ファイルの最大サイズはどのくらいですか？
-Is my data being synced in the background?=データはバックグラウンドで同期されますか？
-Does Obsidian Sync live-reload my settings?=Obsidian Syncは設定をライブリロードしますか？
-Can I use a third-party sync with Obsidian Sync?=サードパーティの同期サービスとObsidian Syncを併用できますか？
-Data retention=データ保持
-How long do you keep the version history?=バージョン履歴はどのくらいの期間保持されますか？
-How long do you keep my data after my subscription expires?=サブスクリプションが期限切れになった後、データはどのくらいの期間保持されますか？
-Do you keep my data if I refund my subscription service?=サブスクリプションサービスを返金した場合、データは保持されますか？
-
-[sync/security]
-Encryption=暗号化
-What does end-to-end encryption mean?=エンドツーエンド暗号化とは何ですか？
-What are the risks of using standard encryption?=標準の暗号化を使用するリスクは何ですか？
-What encryption do you use?=どのような暗号化を使用していますか？
-Can I verify that my data is end-to-end encrypted?=データがエンドツーエンド暗号化されていることを確認できますか？
-Has Obsidian completed a third-party security audit?=Obsidianは第三者によるセキュリティ監査を受けていますか？
-What happens if I forget my encryption password?=暗号化パスワードを忘れた場合はどうなりますか？
-Hosting=ホスティング
-Where do you host the servers for Obsidian Sync?=Obsidian Syncのサーバーはどこにホスティングされていますか？
-Where can I find my current Sync server and where is it hosted?=現在のSyncサーバーとそのホスティング場所はどこで確認できますか？
-Network and access=ネットワークとアクセス
-Managing access to Obsidian Sync on your network=ネットワーク上のObsidian Syncへのアクセス管理
-Limitations=制限事項
-Deterministic file-hash encryption=決定論的ファイルハッシュ暗号化
-No cryptographic binding between path and content=パスとコンテンツ間の暗号学的バインディングなし
-
-[sync/version-history]
-Sync history=Sync履歴
-Show Sync history=Sync履歴を表示する
-Enable via Command palette=コマンドパレットから有効化する
-Enable via Hotkey=ショートカットキーから有効化する
-Version history=バージョン履歴
-Notes and attachments=ノートと添付ファイル
-View version history of a file=ファイルのバージョン履歴を表示する
-View version history of a deleted or renamed file=削除またはリネームされたファイルのバージョン履歴を表示する
-Restore a previous version of a file=ファイルの以前のバージョンを復元する
-Restore a deleted file=削除されたファイルを復元する
-Settings history=設定履歴
-View version history of a setting=設定のバージョン履歴を表示する
-Restore a previous version of a setting=設定の以前のバージョンを復元する
-
-[sync/plans]
-Plans=プラン
-Storage limits=ストレージ制限
-Identify and delete large files=大きなファイルの特定と削除
-Create a new remote vault=新しいリモート保管庫の作成
-Upgrade your plan=プランのアップグレード
-Downgrade your plan=プランのダウングレード
-Preserve version history=バージョン履歴の保持
-
-[sync/headless]
-Quick start=クイックスタート
-Commands=コマンド
-Native modules=ネイティブモジュール
-
-[sync/vault-types]
-File-based sync services=ファイルベースの同期サービス
-Sync behavior=同期の挙動
-Offline behavior=オフライン時の挙動
-Next steps=次のステップ
-
-[sync/collaborate]
-Manage users=ユーザーの管理
-Add users=ユーザーの追加
-Remove users=ユーザーの削除
-Collaborate with your team=チームでの共同作業
-Permissions=権限
-Live editing=ライブ編集
-Limitations=制限事項
-
-[web-clipper]
-Install Web Clipper=Web Clipperのインストール
-How to use Web Clipper=Web Clipperの使い方
-Privacy=プライバシー
-
-[web-clipper/troubleshoot]
-General=一般
-Some content is missing=一部のコンテンツが欠落する
-No content appears in Obsidian=Obsidianにコンテンツが表示されない
-Obsidian does not open=Obsidianが開かない
-Obsidian opens but only the file name is saved=Obsidianは開くがファイル名のみが保存される
-iOS and iPadOS=iOSおよびiPadOS
-
-[web-clipper/capture]
-Capture a page=ページのキャプチャ
-Download images=画像のダウンロード
-Hotkeys=ショートカットキー
-Interface functionality=インターフェースの機能
-
-[web-clipper/highlight]
-Turn on highlighter=ハイライターをオンにする
-Highlighter settings=ハイライターの設定
-
-[web-clipper/interpreter]
-Examples of prompts=プロンプトの例
-Get started=はじめに
-How it works=仕組み
-Context=コンテキスト
-Models=モデル
-Preset providers=プリセットプロバイダー
-Choosing a model=モデルの選択
-Custom providers and models=カスタムプロバイダーとモデル
-Local models=ローカルモデル
-
-[web-clipper/templates]
-Create or edit a template=テンプレートの作成と編集
-Import and export Web Clipper templates=Web Clipperテンプレートのインポートとエクスポート
-Template settings=テンプレート設定
-Behavior=挙動
-Automatically trigger a template=テンプレートの自動トリガー
-Simple URL matching=シンプルURLマッチング
-Regular expression matching=正規表現マッチング
-Schema.org matching=Schema.orgマッチング
-Interpreter context=インタープリターコンテキスト
-
-[web-clipper/filters]
-Dates=日付
-Text conversion and capitalization=テキストの変換と大文字化
-Text formatting=テキストの書式設定
-Numbers=数値
-HTML processing=HTML処理
-Arrays and objects=配列とオブジェクト
-
-[web-clipper/reader]
-Activate reading mode=リーディングモードを有効にする
-How it works=仕組み
-Customize the reading view=リーディングビューをカスタマイズする
-
-[web-clipper/logic]
-Conditionals=条件分岐
-Comparison operators=比較演算子
-Logical operators=論理演算子
-Truthiness=真偽性
-Assign a variable=変数の代入
-Fallbacks=フォールバック
-Chaining fallbacks=フォールバックの連結
-With filters=フィルターとの組み合わせ
-Loops=ループ
-Loop sources=ループのソース
-Loop variables=ループ変数
-Accessing array items by index=インデックスによる配列アイテムへのアクセス
-Nested loops=ネストされたループ
-Combine logic=ロジックの組み合わせ
-Evaluation order=評価順序
-
-[cli]
-Install Obsidian CLI=Obsidian CLIのインストール
-Get started=はじめに
-Run a command=コマンドの実行
-Use the terminal interface=ターミナルインターフェースの使用
-Examples=使用例
-Everyday use=日常的な使用
-For developers=開発者向け
-How to=使い方
-Use parameters and flags=パラメータとフラグの使用
-Target a vault=保管庫の指定
-Target a file=ファイルの指定
-Copy output=出力のコピー
-General commands=一般コマンド
-Bases=ベース
-Bookmarks=ブックマーク
-Command palette=コマンドパレット
-Daily notes=デイリーノート
-File history=ファイル履歴
-Files and folders=ファイルとフォルダ
-Links=リンク
-Outline=アウトライン
-Plugins=プラグイン
-Properties=プロパティ
-Random notes=ランダムノート
-Search=検索
-Tags=タグ
-Tasks=タスク
-Templates=テンプレート
-Themes and snippets=テーマとスニペット
-Unique notes=ユニークノート
-Vault=保管庫
-Web viewer=Webビューア
-Wordcount=ワードカウント
-Workspace=ワークスペース
-Developer commands=開発者コマンド
-Keyboard shortcuts=キーボードショートカット
-Navigation=ナビゲーション
-Editing=編集
-Autocomplete=自動補完
-History=履歴
-Other=その他
-Troubleshooting=トラブルシューティング
-Alternate shells=代替シェル
-
-[headless]
-Install=インストール
-Authentication=認証
-Log in=ログイン
-Services=サービス
-
-[uri]
-URI format=URIフォーマット
-Open note=ノートを開く
-Examples=例
-Parameters=パラメータ
-Create note=ノートを作成する
-Create or open daily note=デイリーノートを作成または開く
-Unique Note=ユニークノート
-Open search=検索を開く
-Open Vault Manager=保管庫マネージャーを開く
-Integrate with Hook=Hookとの連携
-Example=例
-Use x-callback-url parameters=x-callback-urlパラメータを使用する
-Shorthand formats=短縮フォーマット
-Troubleshooting=トラブルシューティング
-Register Obsidian URI=Obsidian URIを登録する
-
-[community-plugins]
-Browse community plugins=コミュニティプラグインを閲覧する
-Install a community plugin=コミュニティプラグインをインストールする
-Enable a community plugin=コミュニティプラグインを有効化する
-Update plugins=プラグインをアップデートする
-Uninstall a community plugin=コミュニティプラグインをアンインストールする
-Manage installed plugins=インストール済みプラグインを管理する
-Learn more=さらに詳しく
-
-[themes]
-Browse themes=テーマを閲覧する
-Install a new theme=新しいテーマをインストールする
-Update themes=テーマをアップデートする
-Uninstall an existing theme=既存のテーマをアンインストールする
-Learn more=さらに詳しく
-
-[plugin-security]
-Restricted mode=制限モード
-Plugin capabilities=プラグインの機能
-Plugin review process=プラグインのレビュープロセス
-
-[style-guide]
-Terminology and grammar=用語と文法
-Language style=言語スタイル
-Terms=用語
-Product names=プロダクト名
-UI and interactions=UIとインタラクション
-Notes, files, and folders=ノート、ファイル、フォルダ
-Reference documentation for settings=設定のリファレンスドキュメント
-Directional terms=方向を示す用語
-Instructions=操作説明
-Sentence case=センテンスケース
-Examples=例
-Key names and keyboard shortcuts=キー名とキーボードショートカット
-Images=画像
-Information structure=情報構造
-Callout types=コールアウトの種類
-Lists vs. prose=リストと文章
-Tables=テーブル
-Cross-references=相互参照
-Platform-specific content=プラットフォーム固有のコンテンツ
-Icons and images=アイコンと画像
-Icons=アイコン
-Image anchor tags=画像アンカータグ
-Optimization=最適化
-Layout=レイアウト
-Broken links=リンク切れ
-Descriptions=説明
-Directions=方向
-Translations=翻訳
-
-[developers]
-Plugins and themes=プラグインとテーマ
-Open source projects=オープンソースプロジェクト
-Documentation=ドキュメント
-Community=コミュニティ
-
-[plugins/canvas]
-Create a new canvas=新しいキャンバスの作成
-Add cards=カードの追加
-Add text cards=テキストカードの追加
-Add cards from notes=ノートからカードを追加
-Add cards from media=メディアからカードを追加
-Add cards from web pages=ウェブページからカードを追加
-Add cards from folders=フォルダからカードを追加
-Edit a card=カードの編集
-Delete a card=カードの削除
-Swap cards=カードの入れ替え
-Select cards=カードの選択
-Arrange cards=カードの配置
-Resize a card=カードのリサイズ
-Connect cards=カードの接続
-Connect two cards=2つのカードを接続する
-Disconnect two cards=2つのカードの接続を解除する
-Connect a card to a different card=カードを別のカードに接続し直す
-Navigate a connection=接続先への移動
-Add a label to a connection=接続にラベルを追加する
-Change the color of a card or connection=カードまたは接続の色を変更する
-Group cards=カードのグループ化
-Group selected cards=選択したカードのグループ化
-Navigate the canvas=キャンバスの操作
-Pan the canvas=キャンバスのパン
-Zoom the canvas=キャンバスの拡大
-Zoom to fit=フィットするようにズーム
-Zoom to selection=選択対象にズーム
-Reset zoom=ズームをリセット
-Advanced tips=高度なヒント
-
-[plugins/web-viewer]
-Reader view=リーダービュー
-Save to vault=保管庫に保存
-Ad blocking=広告ブロック
-Security=セキュリティ
-
-[plugins/audio-recorder]
-Record audio in a note=ノートに音声を録音する
-
-[plugins/quick-switcher]
-Open Quick switcher=クイックスイッチャーを開く
-Open a note with Quick switcher=クイックスイッチャーでノートを開く
-
-[plugins/graph]
-Settings=設定
-Filters=フィルタ
-Groups=グループ
-Display=表示
-Forces=力の強さ
-Start a time-lapse animation=タイムラプスアニメーションの開始
-Local Graph=ローカルグラフ
-
-[plugins]
-All core plugins=すべてのコアプラグイン
-Other plugins=その他のプラグイン
-
-[plugins/command-palette]
-Pinned commands=ピン留めされたコマンド
-Pin a command=コマンドをピン留めする
-Unpin a command=コマンドのピン留めを解除する
-
-[plugins/templates]
-Set your template folder=テンプレートフォルダの設定
-Template variables=テンプレート変数
-Create a template=テンプレートの作成
-Insert a template into the active note=アクティブなノートにテンプレートを挿入する
-Template properties=テンプレートのプロパティ
-
-[plugins/daily-notes]
-Create a daily note from template=テンプレートからデイリーノートを作成する
-Daily notes and properties=デイリーノートとプロパティ
-
-[plugins/note-composer]
-Merge notes=ノートの統合
-Extract note=ノートの抽出
-Template file=テンプレートファイル
-
-[plugins/backlinks]
-Show backlinks=バックリンクを表示
-View backlinks for a note=ノートのバックリンクを表示する
-See backlinks of a specific note=特定のノートのバックリンクを確認する
-Show backlinks in a note=ノート内にバックリンクを表示する
-
-[plugins/file-explorer]
-Create a new note=新しいノートの作成
-Create a new folder=新しいフォルダの作成
-Change sort order=並べ替え順の変更
-Auto-reveal active file=アクティブファイルの自動表示
-Expand or collapse all folders=すべてのフォルダを展開または折りたたむ
-Delete a file or folder=ファイルまたはフォルダの削除
-Rename a file or folder=ファイルまたはフォルダのリネーム
-Move a file or folder=ファイルまたはフォルダの移動
-
-[plugins/file-recovery]
-Recover a snapshot=スナップショットを復元する
-Clear snapshot history=スナップショット履歴をクリアする
-Storage and performance=ストレージとパフォーマンス
-Limitations=制限事項
-
-[plugins/format-converter]
-Supported formats=対応フォーマット
-
-[plugins/bookmarks]
-Add a bookmark=ブックマークを追加
-Remove a bookmark=ブックマークを削除
-Add a bookmark group=ブックマークグループを追加
-Remove a bookmark group=ブックマークグループを削除
-Bookmark multiple files=複数のファイルをブックマーク
-
-[plugins/properties]
-All properties view=すべてのプロパティビュー
-
-[plugins/unique-note]
-Create a unique note=ユニークノートの作成
-Create unique notes from a template=テンプレートからユニークノートを作成する
-
-[plugins/workspaces]
-Save a workspace=ワークスペースを保存する
-Load a workspace=ワークスペースをロードする
-Delete a workspace=ワークスペースを削除する
-
-[plugins/search]
-Search terms=検索語
-Search operators=検索演算子
-Search properties=プロパティの検索
-Change case sensitivity=大文字/小文字の区別を変更する
-Change result sort order=結果の並べ替え順を変更する
-Copy search results=検索結果をコピーする
-Use regular expressions=正規表現を使用する
-Configure search settings=検索設定を設定する
-Embed search results in a note=ノートに検索結果を埋め込む
-
-[teams/security]
-Considerations=考慮事項
-Community plugins and themes=コミュニティプラグインとテーマ
-Network and access=ネットワークとアクセス
-Obsidian-sourced connections=Obsidianからの接続
-GitHub-sourced connections=GitHubからの接続
-Other connections=その他の接続
-Frequently asked questions=よくある質問
-Account security=アカウントセキュリティ
-Assessments and certifications=評価と認証
-
-[teams/deploy]
-Install and update Obsidian=Obsidianのインストールとアップデート
-Customizing Obsidian=Obsidianのカスタマイズ
-Configuration folders=設定フォルダ
-Plugins=プラグイン
-Themes and snippets=テーマとスニペット
-Frequently asked questions=よくある質問
-Deployment=展開
-
-[teams]
-Use Obsidian with your team=チームでObsidianを使用する
-Important resources=重要なリソース
-
-[teams/publish]
-Publishing tools and services=パブリッシュツールとサービス
-Advanced collaboration for Obsidian Publish=Obsidian Publishの高度なコラボレーション
-Media=メディア
-Frequently asked questions=よくある質問
-
-[teams/sync]
-Syncing tools and services=同期ツールとサービス
-Obsidian Sync for teams=チーム向けObsidian Sync
-Security=セキュリティ
-Frequently asked questions=よくある質問
-
-[teams/license]
-Purchase a commercial license=商用ライセンスの購入
-Apply a commercial license=商用ライセンスの適用
-Supporting organizations=サポート組織
-Frequently asked questions=よくある質問
-
-[updates]
-Check for updates and view version=アップデートの確認とバージョンの表示
-Disable automatic updates=自動更新を無効にする
-Installer updates=インストーラーのアップデート
-
-[install]
-Install Obsidian on Windows=WindowsへのObsidianのインストール
-Install Obsidian on macOS=macOSへのObsidianのインストール
-Install Obsidian on Linux=LinuxへのObsidianのインストール
-Install Obsidian using Snap=Snapを使用したObsidianのインストール
-Install Obsidian using AppImage=AppImageを使用したObsidianのインストール
-Install Obsidian using Flatpak=Flatpakを使用したObsidianのインストール
-Install Obsidian on Android=AndroidへのObsidianのインストール
-Install Obsidian on iPhone and iPad=iPhoneおよびiPadへのObsidianのインストール
-
-[backup]
-Syncing is not a backup=同期はバックアップではない
-Use community plugins=コミュニティプラグインを使用する
-Use cloud-based services=クラウドベースのサービスを使用する
-Use external drives=外付けドライブを使用する
-Use computer backups=コンピュータのバックアップを使用する
-Next steps=次のステップ
-
-[sandbox]
-Opening the sandbox vault=サンドボックス保管庫を開く
-Close the sandbox vault=サンドボックス保管庫を閉じる
-
-[sync-notes]
-Syncing methods=同期方法
-iPhone and iPad syncing=iPhoneとiPadの同期
-Frequently asked questions=よくある質問
-
-[import]
-Import from other apps and file formats=他のアプリやファイル形式からのインポート
-More formats=その他の形式
-
-[link-notes]
-Create a link=リンクを作成する
-Create a link to a non-existing note=存在しないノートへのリンクを作成する
-Navigate between notes=ノート間を移動する
-Learn more=さらに詳しく
-
-[mobile]
-Widgets, shortcuts, and Siri=ウィジェット、ショートカット、Siri
-Mobile toolbar=モバイルツールバー
-Customize mobile toolbar=モバイルツールバーのカスタマイズ
-Add command to mobile toolbar=モバイルツールバーにコマンドを追加する
-Quick Action=クイックアクション
-Customize Quick Action=クイックアクションのカスタマイズ
-Navigation bar=ナビゲーションバー
-Go back or forward=戻るまたは進む
-Create or find note=ノートの作成または検索
-Tab management=タブの管理
-Ribbon actions=リボンメニューのアクション
-Sidebars=サイドバー
-
-[vault]
-Create empty vault=空の保管庫を作成する
-Open existing folder=既存のフォルダを開く
-
-[create-note]
-Create a new note=新しいノートを作成する
-Formatting text=テキストのフォーマット
-Learn more=詳細を確認
-
-[glossary]
-Alias=エイリアス
-Attachment=添付ファイル
-Command=コマンド
-Embed=埋め込み
-Frontmatter=フロントマター
-Graph=グラフ
-Hotkey=ショートカットキー
-Link=リンク
-Main area=メインエリア
-Note=ノート
-Plugin=プラグイン
-Pop-out window=ポップアウトウィンドウ
-Property=プロパティ
-Ribbon=リボンメニュー
-Sidebar=サイドバー
-Snippet=スニペット
-Status bar=ステータスバー
-Tab=タブ
-Tab group=タブグループ
-Tag=タグ
-Theme=テーマ
-Vault=保管庫
-Remote vault=リモート保管庫
-View=ビュー
-
-[aliases]
-Add an alias to a note=ノートにエイリアスを追加する
-Link to a note using an alias=エイリアスを使ってノートにリンクする
-Find unlinked mentions for an alias=エイリアスのリンクされていないメンションを見つける
-
-[embeds]
-Embed a note in another note=別のノートにノートを埋め込む
-Embed an image in a note=ノートに画像を埋め込む
-Embed an audio file in a note=ノートに音声ファイルを埋め込む
-Embed a PDF in a note=ノートにPDFを埋め込む
-Embed a list in a note=ノートにリストを埋め込む
-Embed search results=検索結果を埋め込む
-
-[links]
-Supported formats for internal links=内部リンクの対応フォーマット
-Link to a file=ファイルへのリンク
-Link to a heading in a note=ノート内の見出しへのリンク
-Link to a block in a note=ノート内のブロックへのリンク
-Change the link display text=リンクの表示テキストを変更する
-Preview a linked file=リンクされたファイルをプレビューする
-
-[import/apple-journal]
-Export your data from Apple Journal=Apple Journalからデータをエクスポートする
-On iPhone=iPhoneの場合
-On Mac (Tahoe)=Mac（Tahoe）の場合
-Import Apple Journal data into Obsidian=Apple JournalのデータをObsidianにインポートする
-Supported content=サポートされるコンテンツ
-
-[import/apple-notes]
-Import Apple Notes data into Obsidian=Apple NotesのデータをObsidianにインポートする
-Supported content=サポートされるコンテンツ
-Scans=スキャン
-Alternate export methods=代替エクスポート方法
-
-[import/bear]
-Export your data from Bear=Bearからデータをエクスポートする
-Import your Bear data into Obsidian=BearのデータをObsidianにインポートする
-
-[import/csv]
-Create notes from CSV data in Obsidian=ObsidianでCSVデータからノートを作成する
-Configure how CSV fields are imported=CSVフィールドのインポート方法を設定する
-
-[import/craft]
-Export your data from Craft=Craftからデータをエクスポートする
-Import your Craft data into Obsidian=CraftのデータをObsidianにインポートする
-Troubleshooting=トラブルシューティング
-
-[import/evernote]
-Export your data from Evernote=Evernoteからデータをエクスポートする
-Import your Evernote data into Obsidian=EvernoteのデータをObsidianにインポートする
-Advanced import options=高度なインポートオプション
-Maintain tag hierarchy=タグ階層の維持
-Handling notebook stacks=ノートブックスタックの処理
-
-[import/google-keep]
-Export your data from Google Keep=Google Keepからデータをエクスポートする
-Import your Google Keep data into Obsidian=Google KeepのデータをObsidianにインポートする
-Supported features=サポートされている機能
-
-[import/html]
-Import HTML data into Obsidian=HTMLデータをObsidianにインポートする
-Import settings=インポート設定
-
-[import/markdown]
-Converting from other flavors of Markdown=他のMarkdownフレーバーからの変換
-
-[import/onenote]
-Import your OneNote data into Obsidian=OneNoteのデータをObsidianにインポートする
-Troubleshooting=トラブルシューティング
-No sections or notebooks appear=セクションやノートブックが表示されない
-Imported notes are empty or missing content=インポートしたノートが空またはコンテンツが欠落している
-Privacy=プライバシー
-
-[import/notion]
-API import=APIインポート
-Create a Notion API integration token=Notion APIインテグレーショントークンの作成
-Import your Notion data via API=API経由でNotionデータをインポートする
-Limitations=制限事項
-File import=ファイルインポート
-Export your data from Notion=Notionからデータをエクスポートする
-Import your Notion .zip file=Notionの.zipファイルをインポートする
-Troubleshooting=トラブルシューティング
-Importing large workspaces=大規模なワークスペースのインポート
-
-[import/roam]
-Export your data from Roam Research=Roam Researchからデータをエクスポートする
-Import your Roam Research data into Obsidian=Roam ResearchのデータをObsidianにインポートする
-
-[import/textbundle]
-Import Textbundle files into Obsidian=TextbundleファイルをObsidianにインポートする
-Troubleshooting=トラブルシューティング
-No files are selected for import=インポート対象のファイルが選択されない
-
-[plugins/importer]
-Install Importer=インポーターのインストール
-
-[data-storage]
-Vault settings=保管庫の設定
-Global settings=グローバル設定
-Metadata cache=メタデータキャッシュ
-
-[manage-notes]
-Create a new note=新規ノートの作成
-Rename a note=ノートのリネーム
-Delete a note=ノートの削除
-
-[manage-vaults]
-Create new vault=新規保管庫の作成
-Create vault from an existing folder=既存のフォルダから保管庫を作成
-Rename vault=保管庫のリネーム
-Move vault to a different folder=保管庫を別のフォルダに移動
-Remove vault=保管庫の削除
-Transfer settings to another vault=設定を別の保管庫に転送
-
-[file-formats]
-Embed files=ファイルの埋め込み
-
-[configuration-folder]
-Access your configuration folder=設定フォルダへのアクセス
-Desktop=デスクトップ
-Mobile=モバイル
-Change your configuration folder=設定フォルダの変更
-
-[resources]
-Questions and advice=質問とアドバイス
-Report bugs and request features=バグ報告と機能リクエスト
-Collect debug information=デバッグ情報の収集
-Check startup time=起動時間の確認
-Capture console logs=コンソールログの取得
-Contact Obsidian support=Obsidianサポートへの連絡
-Report a security issue=セキュリティの問題を報告する
-Report a Code of Conduct violation=行動規範違反の報告
-Contributing to Obsidian=Obsidianへの貢献
-
-[/]
-Obsidian Help=Obsidian ヘルプ
-Get started=はじめに
-Extend Obsidian=Obsidianを拡張する
-Add-on services=アドオンサービス
-Contribute=貢献する
-
-[sidebar]
-Open hidden sidebars=非表示のサイドバーを開く
-Desktop and larger tablets=デスクトップおよび大きなタブレット
-Mobile and smaller tablets=モバイルおよび小さなタブレット
-Tabs=タブ
-Open or reopen tabs=タブを開くまたは再度開く
-Close tabs=タブを閉じる
-Rearrange tabs=タブを並べ替える
-Pin tabs=タブをピンする
-Tab groups=タブグループ
-Create tab groups=タブグループを作成する
-Close tab groups=タブグループを閉じる
-
-[tabs]
-Open a new tab=新規タブを開く
-Open a link=リンクを開く
-Organize your tabs and windows=タブとウィンドウの整理
-Arrange tabs=タブの配置
-Split a tab group=タブグループの分割
-Resize a tab group=タブグループのサイズ変更
-Move tab to a new window=タブを新規ウィンドウに移動
-Move a tab to a different window=タブを別のウィンドウに移動
-Pin a tab=タブをピンする
-Switch to a different tab=別のタブに切り替える
-Stack tab groups=タブグループのスタック
-Linked views=リンクされたビュー
-Save layouts=レイアウトの保存
-
-[drag-and-drop]
-Drag tabs=タブのドラッグ
-Drag sources=ドラッグのソース
-Drop destinations=ドロップ先
-Dragging from outside Obsidian=Obsidianの外部からのドラッグ
-Dropping files outside Obsidian=Obsidianの外部へのファイルのドロップ
-
-[hotkeys]
-View hotkeys=ホットキーの表示
-Set a hotkey=ホットキーの設定
-Remove a hotkey=ホットキーの削除
-Filter hotkeys=ホットキーのフィルタリング
-Non-US keyboard layouts=US以外のキーボードレイアウト
-Default keyboard shortcuts=デフォルトのキーボードショートカット
-
-[pop-out-windows]
-Open a file in a new window=新しいウィンドウでファイルを開く
-Move a file to a different window=ファイルを別のウィンドウに移動する
-
-[ribbon]
-Actions=アクション
-Customize the ribbon=リボンのカスタマイズ
-Desktop=デスクトップ
-Hide the ribbon=リボンを非表示にする
-Show the ribbon=リボンを表示する
-Mobile=モバイル
-Quick access=クイックアクセス
-Rearrange and visibility=並べ替えと表示
-
-[workspace]
-Desktop=デスクトップ
-Mobile=モバイル
-
-[appearance]
-Color scheme=カラースキーム
-Custom themes=カスタムテーマ
-Custom app icon=カスタムアプリアイコン
-Translucency=半透明効果
-
-[settings]
-Open Settings=設定を開く
-Desktop=デスクトップ
-Mobile=モバイル
-Settings organization=設定の構成
-General=一般
-Version and updates=バージョンとアップデート
-Language=言語
-Help=ヘルプ
-Account=アカウント
-Advanced=高度な設定
-Notify if startup takes longer than expected=起動に時間がかかった場合に通知
-Editor=エディタ
-Always focus new tabs=常に新しいタブにフォーカス
-Default view for new tabs=新規タブのデフォルトビュー
-Default editing mode=デフォルト編集モード
-Show editing mode in status bar=エディタステータス
-Display=表示
-Readable line length=読みやすい行の長さ
-Strict line breaks=厳密な改行
-Properties in document=ドキュメント内プロパティ
-Fold heading=見出しのフォールド
-Fold indent=インデントのフォールド
-Show line numbers=行番号
-Show indentation guides=インデントガイド
-Right-to-left (RTL)=右横書き表示 (RTL)
-Auto-pair brackets=括弧を自動的にペアリング
-Auto-pair Markdown syntax=マークダウン記法を自動的にペアリング
-Smart lists=スマートインデント
-Indent using tabs=タブの使用
-Convert pasted HTML to Markdown=HTMLの自動変換
-Behavior=挙動
-Spellcheck=スペルチェック
-Spellcheck languages=スペルチェックの言語
-Indent visual width=タブの間隔
-Vim key bindings=Vimのキー設定
-Files and links=ファイルとリンク
-Default location for new notes=新規ノートの作成場所
-Default location for new attachments=新規添付ファイルの作成場所
-Links=リンク
-New link format=新規作成するリンクの形式
-Automatically update internal links=内部リンクを毎回更新する
-Use Wikilinks=ウィキリンクの使用
-Show all file types=すべての種類のファイルを表示
-Trash=ゴミ箱
-Confirm file deletion=ファイル削除の確認
-Deleted files=削除されたファイル
-Excluded files=除外ファイル
-Override config folder=設定フォルダの優先を切り替える
-Allow URI callbacks=URIコールバックを許可
-Rebuild vault cache=保管庫のキャッシュを再ビルドする
-Appearance=外観
-Base color scheme=ベーステーマ
-Accent color=アクセントカラー
-Themes=テーマ
-Current community themes=現在のコミュニティテーマ
-Font=フォント
-Interface font=インターフェースフォント
-Text font=テキストフォント
-Monospace font=モノスペースフォント
-Font size=フォントサイズ
-Quick font size adjustment=フォントサイズのクイック調整
-Interface=インターフェース
-Show inline title=インラインタイトルの表示
-Show tab title bar=タブタイトルバーの表示
-Show ribbon=リボンの表示
-Ribbon menu configuration=リボンメニュー
-Zoom level=ズームレベル
-Native menus=ネイティブメニュー
-Window frame style=ウィンドウフレームのスタイル
-Custom app icon=カスタムアプリアイコン
-Translucent window=半透明ウィンドウ
-Hardware acceleration=ハードウェアアクセラレーション
-CSS snippets=CSSスニペット
-Hotkeys=ホットキー
-Core plugins=コアプラグイン
-Community plugins=コミュニティプラグイン
-Restricted mode=制限モード
-Current plugins=現在インストールされているプラグイン
-Installed plugins=インストールされたプラグイン
-
-[catalyst]
-Catalyst tiers=Catalystティア
-Access Catalyst benefits=Catalystの特典へのアクセス
-Get your forum badge=フォーラムバッジの取得
-Get your Discord badge=Discordバッジの取得
-Join our Insider channels=インサイダーチャンネルへの参加
-Enable early access versions=早期アクセスバージョンを有効化する
-
-[credit]
-Add credit=クレジットの追加
-Gifting=ギフト
-Give Obsidian Credit=Obsidianクレジットを贈る
-Receiving Obsidian Credit=Obsidianクレジットの受け取り
-
-[payment]
-Purchase a service or license=サービスやライセンスの購入
-Generate an invoice=請求書の生成
-Editing an invoice=請求書の編集
-
-[discounts]
-How to apply=申請方法
-How to renew=更新方法
-Frequently asked questions=よくある質問
-Refunds=返金
-
-[sales-tax]
-Tax exemption=免税
-Applying for an exemption=免税の申請
-
-[refunds]
-Request a refund=返金のリクエスト
-Frequently asked questions=よくある質問
-
-[obsidian-flavored-markdown]
-Supported Markdown extensions=サポートされているMarkdown拡張機能
-
-[embed-web-pages]
-Embed a YouTube video=YouTube動画を埋め込む
-Embed a tweet=ツイートを埋め込む
-
-[plugins/slides]
-Presentations using Slides=スライドを使ったプレゼンテーション
-Formatting=書式設定
-Slides=スライド
-
-[callouts]
-Change the title=タイトルを変更する
-Foldable callouts=折りたたみ可能なコールアウト
-Nested callouts=ネストされたコールアウト
-Customize callouts=コールアウトのカスタマイズ
-Supported types=サポートされるタイプ
-
-[tags]
-Add a tag to a note=ノートにタグを追加する
-Find notes using tags=タグを使ってノートを検索する
-Nested tags=ネストされたタグ
-Tag format=タグの形式
-
-[edit-and-read]
-Reading view=リーディングビュー
-Editing view=編集ビュー
-Live Preview=ライブプレビュー
-Source mode=ソースモード
-
-[properties]
-Add properties to a note=ノートにプロパティを追加する
-Property types=プロパティタイプ
-Advanced uses=高度な使い方
-Search properties=プロパティを検索する
-Templates=テンプレート
-Rename properties=プロパティのリネーム
-Display modes=表示モード
-CSS snippets=CSSスニペット
-Not supported=未サポート
-Hotkeys=ショートカットキー
-Add a property=プロパティを追加する
-Navigate between properties=プロパティ間を移動する
-Select properties=プロパティを選択する
-Edit properties=プロパティを編集する
-Vim (advanced)=Vim（上級者向け）
-Property format=プロパティの形式
-Text=テキスト
-List=リスト
-Number=数値
-Checkbox=チェックボックス
-Date=日付
-Date & time=日付と時刻
-Tags=タグ
-JSON properties=JSONプロパティ
-Default properties=デフォルトプロパティ
-Properties for Obsidian Publish=Obsidian Publish用のプロパティ
-Deprecated properties=非推奨プロパティ
-
-[multiple-cursors]
-Rectangular selection=矩形選択
-
-[syntax]
-Paragraphs=段落
-Line breaks=改行
-Headings=見出し
-This is a heading 1=これは見出し1です
-This is a heading 2=これは見出し2です
-This is a heading 3=これは見出し3です
-This is a heading 4=これは見出し4です
-This is a heading 5=これは見出し5です
-This is a heading 6=これは見出し6です
-Bold, italics, highlights=ボールド、イタリック、ハイライト
-Internal links=内部リンク
-External links=外部リンク
-Escape blank spaces in links=リンク内の空白スペースのエスケープ
-External images=外部画像
-Quotes=引用
-Lists=リスト
-Task lists=タスクリスト
-Nesting lists=ネストされたリスト
-Horizontal rule=水平線
-Code=コード
-Inline code=インラインコード
-Code blocks=コードブロック
-Nesting code blocks=ネストされたコードブロック
-Footnotes=脚注
-Comments=コメント
-Escaping Markdown Syntax=Markdown構文のエスケープ
-Learn more=さらに詳しく
-
-[attachments]
-Add an attachment=添付ファイルを追加する
-Change default attachment location=デフォルトの添付ファイル保存場所を変更する
-
-[editing-shortcuts]
-Windows and Linux shortcuts=WindowsおよびLinuxのショートカット
-Common actions=一般的な操作
-Text editing=テキスト編集
-Text navigation=テキストナビゲーション
-Text selection=テキスト選択
-macOS shortcuts=macOSのショートカット
-Text formatting=テキスト書式設定
-
-[advanced-syntax]
-Tables=表
-Format content within a table=表内のコンテンツの書式設定
-Diagram=ダイアグラム
-Linking files in a diagram=ダイアグラム内でファイルをリンクする
-Math=数学
-
-[html]
-HTML limitations=HTMLの制限事項
-No Markdown inside HTML=HTML内でMarkdownは使えない
-HTML blocks must be self-contained=HTMLブロックは自己完結している必要がある
-When Markdown appears to work in HTML=HTML内でMarkdownが動作しているように見える場合
-Common HTML usage=HTMLの一般的な使用方法
-Comments=コメント
-Underline=下線
-Strikethrough=取り消し線
-
-[publish/headless]
-Quick start=クイックスタート
-Commands=コマンド
+[heading.bases/How to use bases]
+original=How to use bases
+translation=ベースの使い方
+
+[heading.bases/View types]
+original=View types
+translation=ビューの種類
+
+[heading.bases/syntax/Example]
+original=Example
+translation=例
+
+[heading.bases/syntax/Filters]
+original=Filters
+translation=フィルター
+
+[heading.bases/syntax/Formulas]
+original=Formulas
+translation=数式
+
+[heading.bases/syntax/Properties]
+original=Properties
+translation=プロパティ
+
+[heading.bases/syntax/Summaries]
+original=Summaries
+translation=要約
+
+[heading.bases/syntax/Default Summary Formulas]
+original=Default Summary Formulas
+translation=デフォルトの要約数式
+
+[heading.bases/syntax/Views]
+original=Views
+translation=ビュー
+
+[heading.bases/syntax/Note properties]
+original=Note properties
+translation=ノートプロパティ
+
+[heading.bases/syntax/File properties]
+original=File properties
+translation=ファイルプロパティ
+
+[heading.bases/syntax/Access properties with `this`]
+original=Access properties with `this`
+translation=`this`でプロパティにアクセスする
+
+[heading.bases/syntax/Operators]
+original=Operators
+translation=演算子
+
+[heading.bases/syntax/Arithmetic operators]
+original=Arithmetic operators
+translation=算術演算子
+
+[heading.bases/syntax/Date arithmetic]
+original=Date arithmetic
+translation=日付の算術
+
+[heading.bases/syntax/Comparison operators]
+original=Comparison operators
+translation=比較演算子
+
+[heading.bases/syntax/Boolean operators]
+original=Boolean operators
+translation=ブール演算子
+
+[heading.bases/syntax/Functions]
+original=Functions
+translation=関数
+
+[heading.bases/syntax/Types]
+original=Types
+translation=型
+
+[heading.bases/syntax/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=文字列、数値、ブール値
+
+[heading.bases/syntax/Dates and durations]
+original=Dates and durations
+translation=日付と期間
+
+[heading.bases/syntax/Objects and lists]
+original=Objects and lists
+translation=オブジェクトとリスト
+
+[heading.bases/syntax/Files and links]
+original=Files and links
+translation=ファイルとリンク
+
+[heading.bases/views/Toolbar]
+original=Toolbar
+translation=ツールバー
+
+[heading.bases/views/Add and switch views]
+original=Add and switch views
+translation=ビューの追加と切り替え
+
+[heading.bases/views/View settings]
+original=View settings
+translation=ビュー設定
+
+[heading.bases/views/Layout]
+original=Layout
+translation=レイアウト
+
+[heading.bases/views/Filters]
+original=Filters
+translation=フィルター
+
+[heading.bases/views/Components of a filter]
+original=Components of a filter
+translation=フィルターのコンポーネント
+
+[heading.bases/views/Conjunctions]
+original=Conjunctions
+translation=結合条件
+
+[heading.bases/views/Filter groups]
+original=Filter groups
+translation=フィルターグループ
+
+[heading.bases/views/Advanced filter editor]
+original=Advanced filter editor
+translation=詳細フィルターエディタ
+
+[heading.bases/views/Sort and group results]
+original=Sort and group results
+translation=結果の並べ替えとグループ化
+
+[heading.bases/views/Add a sort]
+original=Add a sort
+translation=並べ替えの追加
+
+[heading.bases/views/Remove a sort]
+original=Remove a sort
+translation=並べ替えの削除
+
+[heading.bases/views/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=結果の制限、コピー、エクスポート
+
+[heading.bases/views/Limit results]
+original=Limit results
+translation=結果の制限
+
+[heading.bases/views/Copy to clipboard]
+original=Copy to clipboard
+translation=クリップボードにコピー
+
+[heading.bases/views/Export CSV]
+original=Export CSV
+translation=CSVエクスポート
+
+[heading.bases/views/Embed a view]
+original=Embed a view
+translation=ビューの埋め込み
+
+[heading.bases/create-base/Create a new base]
+original=Create a new base
+translation=新規ベースを作成
+
+[heading.bases/create-base/Embed a base]
+original=Embed a base
+translation=ベースを埋め込む
+
+[heading.bases/create-base/Embed a base file]
+original=Embed a base file
+translation=ベースファイルを埋め込む
+
+[heading.bases/create-base/Embed a base as a code block]
+original=Embed a base as a code block
+translation=コードブロックとしてベースを埋め込む
+
+[heading.bases/views/cards/Settings]
+original=Settings
+translation=設定
+
+[heading.bases/views/cards/Card size]
+original=Card size
+translation=カードサイズ
+
+[heading.bases/views/cards/Image property]
+original=Image property
+translation=画像プロパティ
+
+[heading.bases/views/cards/Image fit]
+original=Image fit
+translation=画像のフィット
+
+[heading.bases/views/cards/Image aspect ratio]
+original=Image aspect ratio
+translation=画像のアスペクト比
+
+[heading.bases/views/table/Settings]
+original=Settings
+translation=設定
+
+[heading.bases/views/table/Row height]
+original=Row height
+translation=行の高さ
+
+[heading.bases/views/table/Summaries]
+original=Summaries
+translation=要約
+
+[heading.bases/views/table/Add a summary]
+original=Add a summary
+translation=要約の追加
+
+[heading.bases/views/table/Built-in summaries]
+original=Built-in summaries
+translation=組み込みの要約
+
+[heading.bases/views/table/All property types]
+original=All property types
+translation=すべてのプロパティタイプ
+
+[heading.bases/views/table/Numbers]
+original=Numbers
+translation=数値
+
+[heading.bases/views/table/Dates]
+original=Dates
+translation=日付
+
+[heading.bases/views/table/Checkbox]
+original=Checkbox
+translation=チェックボックス
+
+[heading.bases/views/table/Custom summaries]
+original=Custom summaries
+translation=カスタム要約
+
+[heading.bases/views/table/Shortcuts]
+original=Shortcuts
+translation=ショートカット
+
+[heading.bases/views/map/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Mapsプラグインのインストール
+
+[heading.bases/views/map/Example]
+original=Example
+translation=例
+
+[heading.bases/views/map/Settings]
+original=Settings
+translation=設定
+
+[heading.bases/views/map/Markers]
+original=Markers
+translation=マーカー
+
+[heading.bases/views/map/Coordinates]
+original=Coordinates
+translation=座標
+
+[heading.bases/views/map/Icons]
+original=Icons
+translation=アイコン
+
+[heading.bases/views/map/Use a formula to define icons]
+original=Use a formula to define icons
+translation=数式を使ってアイコンを定義する
+
+[heading.bases/views/map/Colors]
+original=Colors
+translation=色
+
+[heading.bases/views/map/Background]
+original=Background
+translation=背景
+
+[heading.bases/views/map/Map tiles]
+original=Map tiles
+translation=マップタイル
+
+[heading.bases/views/map/Useful links]
+original=Useful links
+translation=便利なリンク
+
+[heading.bases/views/map/Tips]
+original=Tips
+translation=ヒント
+
+[heading.bases/views/map/Troubleshooting]
+original=Troubleshooting
+translation=トラブルシューティング
+
+[heading.bases/views/list/Settings]
+original=Settings
+translation=設定
+
+[heading.bases/views/list/Markers]
+original=Markers
+translation=マーカー
+
+[heading.bases/views/list/Indent properties]
+original=Indent properties
+translation=プロパティをインデント
+
+[heading.bases/views/list/Separators]
+original=Separators
+translation=区切り文字
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=数式でできること
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=数式プロパティの作成
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=数式を書く
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=プロパティの参照
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=演算子を使う
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=関数を使う
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=数式の例
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=期限を計算する
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=期限超過ステータスを表示する
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=通貨をフォーマットする
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=リスト項目を数える
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=優先度スコアを計算する
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=テキストフィールドを結合する
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=総コストを計算する
+
+[heading.formulas/Data types]
+original=Data types
+translation=データ型
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=他の数式を参照する
+
+[heading.bases/functions/Global]
+original=Global
+translation=グローバル
+
+[heading.bases/functions/Date]
+original=Date
+translation=日付
+
+[heading.bases/functions/Fields]
+original=Fields
+translation=フィールド
+
+[heading.bases/functions/String]
+original=String
+translation=文字列
+
+[heading.bases/functions/Number]
+original=Number
+translation=数値
+
+[heading.bases/functions/List]
+original=List
+translation=リスト
+
+[heading.bases/functions/Link]
+original=Link
+translation=リンク
+
+[heading.bases/functions/File]
+original=File
+translation=ファイル
+
+[heading.bases/functions/Object]
+original=Object
+translation=オブジェクト
+
+[heading.bases/functions/Regular expression]
+original=Regular expression
+translation=正規表現
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=2FAの有効化
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=リカバリーコードの生成
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=2FAの無効化
+
+[heading.2fa/FAQ]
+original=FAQ
+translation=よくある質問
+
+[heading.android/Sync]
+original=Sync
+translation=同期
+
+[heading.android/Vault location]
+original=Vault location
+translation=保管庫の場所
+
+[heading.android/Device storage]
+original=Device storage
+translation=デバイスストレージ
+
+[heading.android/App storage]
+original=App storage
+translation=アプリストレージ
+
+[heading.android/Widgets]
+original=Widgets
+translation=ウィジェット
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=クイック設定タイル
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=ショートカット
+
+[heading.ios/Sync]
+original=Sync
+translation=同期
+
+[heading.ios/Widgets]
+original=Widgets
+translation=ウィジェット
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=ロック画面およびコントロールセンターのウィジェット
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=ホーム画面のウィジェット
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=ウィジェットのカスタマイズ
+
+[heading.ios/Shortcuts]
+original=Shortcuts
+translation=ショートカット
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=共有シート拡張
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=Siri連携
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=Spotlight連携
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=Obsidianとは
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=Obsidianの特徴
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=データの所有と管理は自分自身で
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=リンクは第一級市民
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=自分だけのツールキット
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=開発をフォローする
+
+[heading.credits/Team]
+original=Team
+translation=チーム
+
+[heading.credits/Development]
+original=Development
+translation=開発
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=プロダクト＆オペレーション
+
+[heading.credits/Moderators]
+original=Moderators
+translation=モデレーター
+
+[heading.credits/Retired]
+original=Retired
+translation=退任
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=プラグインのインスピレーション
+
+[heading.credits/Builds]
+original=Builds
+translation=ビルド
+
+[heading.credits/Translators]
+original=Translators
+translation=翻訳者
+
+[heading.credits/Documentation]
+original=Documentation
+translation=ドキュメント
+
+[heading.credits/Add your name]
+original=Add your name
+translation=あなたの名前を追加する
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=サードパーティの謝辞
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=以前のロゴ
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=ルール
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=重大な違反
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=ハラスメント
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=脅迫
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=明白な差別的発言
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=その他の違反
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=好戦的な態度
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=特に不快な行為
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=コミュニティメンバーへの無断メッセージ
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=その他の行為
+
+[heading.community-code-of-conduct/Sea-lioning]
+original=Sea-lioning
+translation=シーライオニング
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation=「教えてくん」
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=しつこい要求
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=過度な自己宣伝
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=スパム行為
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=推奨される行動
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=動機
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=違反の報告
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=Discordでの報告
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=フォーラムでの報告
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=施行
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=BANの異議申し立て
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=クレジット
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=デスクトップで早期アクセスバージョンを有効にする
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=モバイルデバイスに早期アクセスバージョンをインストールする
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=問題やその他のフィードバックを報告する
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=デスクトップでパブリックバージョンに戻す
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=モバイルでパブリックバージョンに戻す
+
+[heading.publish/setup/Prerequisites]
+original=Prerequisites
+translation=前提条件
+
+[heading.publish/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Obsidianアカウントでログインする
+
+[heading.publish/setup/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=Obsidian Publishを有効にする
+
+[heading.publish/setup/Open Publish]
+original=Open Publish
+translation=Publishを開く
+
+[heading.publish/setup/Open via Command palette]
+original=Open via Command palette
+translation=コマンドパレットから開く
+
+[heading.publish/setup/Open via hotkey]
+original=Open via hotkey
+translation=ショートカットキーから開く
+
+[heading.publish/setup/Open via ribbon]
+original=Open via ribbon
+translation=リボンメニューから開く
+
+[heading.publish/setup/Create a new site]
+original=Create a new site
+translation=新しいサイトを作成する
+
+[heading.publish/setup/Set a site name]
+original=Set a site name
+translation=サイト名を設定する
+
+[heading.publish/setup/Select notes to publish]
+original=Select notes to publish
+translation=公開するノートを選択する
+
+[heading.publish/setup/Next steps]
+original=Next steps
+translation=次のステップ
+
+[heading.publish/troubleshoot/General]
+original=General
+translation=一般
+
+[heading.publish/troubleshoot/Publishing notes]
+original=Publishing notes
+translation=ノートの公開
+
+[heading.publish/troubleshoot/CSS and themes]
+original=CSS and themes
+translation=CSSとテーマ
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=Obsidian Publishの使い方
+
+[heading.sync/troubleshoot/General]
+original=General
+translation=一般
+
+[heading.sync/troubleshoot/Conflict resolution]
+original=Conflict resolution
+translation=競合の解決
+
+[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Obsidian Syncの競合の処理方法
+
+[heading.sync/troubleshoot/Conflict resolution options]
+original=Conflict resolution options
+translation=競合の解決オプション
+
+[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Syncが2台のデバイスで作成したノートを削除した
+
+[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Syncがプラグインや設定のアップデートを同期しない
+
+[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=ファイルを復元してもSyncからすぐに消えてしまう
+
+[heading.sync/messages/Sync status icon]
+original=Sync status icon
+translation=Syncステータスアイコン
+
+[heading.sync/messages/Sync activity log]
+original=Sync activity log
+translation=同期アクティビティログ
+
+[heading.sync/messages/General messages]
+original=General messages
+translation=一般メッセージ
+
+[heading.sync/messages/Error messages]
+original=Error messages
+translation=エラーメッセージ
+
+[heading.sync/messages/Skipped messages]
+original=Skipped messages
+translation=スキップメッセージ
+
+[heading.sync/messages/Account messages]
+original=Account messages
+translation=アカウントメッセージ
+
+[heading.sync/messages/Network messages]
+original=Network messages
+translation=ネットワークメッセージ
+
+[heading.web-clipper/variables/Preset variables]
+original=Preset variables
+translation=プリセット変数
+
+[heading.web-clipper/variables/Prompt variables]
+original=Prompt variables
+translation=プロンプト変数
+
+[heading.web-clipper/variables/When to use prompt variables]
+original=When to use prompt variables
+translation=プロンプト変数を使用する場面
+
+[heading.web-clipper/variables/Examples]
+original=Examples
+translation=例
+
+[heading.web-clipper/variables/Meta variables]
+original=Meta variables
+translation=メタ変数
+
+[heading.web-clipper/variables/Selector variables]
+original=Selector variables
+translation=セレクタ変数
+
+[heading.web-clipper/variables/Schema.org variables]
+original=Schema.org variables
+translation=Schema.org変数
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=スニペットの追加
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=Obsidian向けCSSの記述
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=詳細を確認
+
+[heading.publish/limitations/Community plugins]
+original=Community plugins
+translation=コミュニティプラグイン
+
+[heading.publish/limitations/Graph]
+original=Graph
+translation=グラフ
+
+[heading.publish/limitations/Media files]
+original=Media files
+translation=メディアファイル
+
+[heading.publish/limitations/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/limitations/Search]
+original=Search
+translation=検索
+
+[heading.publish/collaborate/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=サイトにコラボレーターを追加する
+
+[heading.publish/collaborate/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=サイトからコラボレーターを削除する
+
+[heading.publish/collaborate/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=コラボレーター間で変更を同期する
+
+[heading.publish/collaborate/Permissions]
+original=Permissions
+translation=権限
+
+[heading.publish/seo/Sitemap]
+original=Sitemap
+translation=サイトマップ
+
+[heading.publish/seo/Permalinks]
+original=Permalinks
+translation=パーマリンク
+
+[heading.publish/seo/Metadata]
+original=Metadata
+translation=メタデータ
+
+[heading.publish/analytics/Prerequisites]
+original=Prerequisites
+translation=前提条件
+
+[heading.publish/analytics/Google Analytics]
+original=Google Analytics
+translation=Googleアナリティクス
+
+[heading.publish/analytics/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible、Fathom、その他のアナリティクスサービス
+
+[heading.publish/analytics/Troubleshooting]
+original=Troubleshooting
+translation=トラブルシューティング
+
+[heading.publish/domains/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=CloudFlareを使用した設定
+
+[heading.publish/domains/Set up using a proxy]
+original=Set up using a proxy
+translation=プロキシを使用した設定
+
+[heading.publish/domains/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=サポートされるHTTP X-Headers
+
+[heading.publish/domains/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=旧サイトからカスタムドメインへのリダイレクト
+
+[heading.publish/domains/Troubleshoot]
+original=Troubleshoot
+translation=トラブルシューティング
+
+[heading.publish/publish/Prerequisites]
+original=Prerequisites
+translation=前提条件
+
+[heading.publish/publish/Publish notes]
+original=Publish notes
+translation=ノートを公開する
+
+[heading.publish/publish/Unpublish notes]
+original=Unpublish notes
+translation=ノートの公開を取り消す
+
+[heading.publish/publish/Update a published note]
+original=Update a published note
+translation=公開済みノートを更新する
+
+[heading.publish/publish/Publish linked data]
+original=Publish linked data
+translation=リンクされたデータを公開する
+
+[heading.publish/publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=公開するデータを自動的に選択する
+
+[heading.publish/publish/Ignore data]
+original=Ignore data
+translation=データを無視する
+
+[heading.publish/customize/Static assets]
+original=Static assets
+translation=静的アセット
+
+[heading.publish/customize/Use a community theme]
+original=Use a community theme
+translation=コミュニティテーマを使用する
+
+[heading.publish/customize/Enable UI features]
+original=Enable UI features
+translation=UI機能を有効にする
+
+[heading.publish/customize/Customize navigation]
+original=Customize navigation
+translation=ナビゲーションをカスタマイズ
+
+[heading.publish/customize/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=ナビゲーションのカスタマイズオプションにアクセスする
+
+[heading.publish/customize/Adjust navigation items]
+original=Adjust navigation items
+translation=ナビゲーションアイテムを調整する
+
+[heading.publish/customize/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=ナビゲーションアイテムの表示/非表示
+
+[heading.publish/sites/Create a new site]
+original=Create a new site
+translation=新しいサイトの作成
+
+[heading.publish/sites/Delete an existing site]
+original=Delete an existing site
+translation=既存のサイトの削除
+
+[heading.publish/sites/Switch between sites]
+original=Switch between sites
+translation=サイト間の切り替え
+
+[heading.publish/sites/Change the site ID]
+original=Change the site ID
+translation=サイトIDの変更
+
+[heading.publish/sites/View site options]
+original=View site options
+translation=サイトオプションの表示
+
+[heading.publish/sites/Site options]
+original=Site options
+translation=サイトオプション
+
+[heading.publish/sites/General]
+original=General
+translation=一般
+
+[heading.publish/sites/Appearance]
+original=Appearance
+translation=外観
+
+[heading.publish/sites/Reading experience]
+original=Reading experience
+translation=リーディングエクスペリエンス
+
+[heading.publish/sites/Components]
+original=Components
+translation=コンポーネント
+
+[heading.publish/sites/Other site settings]
+original=Other site settings
+translation=他のサイト設定
+
+[heading.publish/security/Password protection]
+original=Password protection
+translation=パスワード保護
+
+[heading.publish/security/Add a site password]
+original=Add a site password
+translation=サイトパスワードの追加
+
+[heading.publish/security/Remove a site password]
+original=Remove a site password
+translation=サイトパスワードの削除
+
+[heading.publish/security/Data collection]
+original=Data collection
+translation=データ収集
+
+[heading.publish/security/Visitor data]
+original=Visitor data
+translation=訪問者データ
+
+[heading.publish/security/Access]
+original=Access
+translation=アクセス
+
+[heading.publish/security/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=ネットワーク上でのObsidian Publishへのアクセス管理
+
+[heading.publish/social-share/Description]
+original=Description
+translation=説明
+
+[heading.publish/social-share/Image]
+original=Image
+translation=画像
+
+[heading.publish/permalinks/Redirect old notes]
+original=Redirect old notes
+translation=古いノートのリダイレクト
+
+[heading.publish/media/Images]
+original=Images
+translation=画像
+
+[heading.publish/media/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/media/Videos and audio]
+original=Videos and audio
+translation=動画とオーディオ
+
+[heading.sync/setup/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=Obsidian Syncの初回セットアップ
+
+[heading.sync/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Obsidianアカウントでログインする
+
+[heading.sync/setup/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=Obsidian Syncを有効化する
+
+[heading.sync/setup/Create a new remote vault]
+original=Create a new remote vault
+translation=新しいリモート保管庫を作成する
+
+[heading.sync/setup/Connect to a remote vault]
+original=Connect to a remote vault
+translation=リモート保管庫に接続する
+
+[heading.sync/setup/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=Obsidian Syncの設定を調整する
+
+[heading.sync/setup/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=Obsidian Syncで同期を開始する
+
+[heading.sync/setup/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=別のデバイスでリモート保管庫を同期する
+
+[heading.sync/setup/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=保管庫スイッチャーから保管庫を同期する
+
+[heading.sync/setup/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=Obsidianの設定から保管庫を同期する
+
+[heading.sync/setup/Manage your remote vaults]
+original=Manage your remote vaults
+translation=リモート保管庫の管理
+
+[heading.sync/setup/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=リモート保管庫から切断する
+
+[heading.sync/setup/Delete a remote vault]
+original=Delete a remote vault
+translation=リモート保管庫を削除する
+
+[heading.sync/setup/Regional sync servers]
+original=Regional sync servers
+translation=リージョン別同期サーバー
+
+[heading.sync/setup/Next steps]
+original=Next steps
+translation=次のステップ
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=Obsidian Syncの使い方
+
+[heading.sync/Important]
+original=Important
+translation=重要
+
+[heading.sync/switch/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=サードパーティの同期サービスやクラウドストレージから保管庫を移動する
+
+[heading.sync/switch/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=デスクトップ版Obsidianで保管庫を移動する
+
+[heading.sync/switch/Move your vault on mobile]
+original=Move your vault on mobile
+translation=モバイルで保管庫を移動する
+
+[heading.sync/switch/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOSおよびiPadOS
+
+[heading.sync/switch/Next steps]
+original=Next steps
+translation=次のステップ
+
+[heading.sync/region/Available regions]
+original=Available regions
+translation=利用可能なリージョン
+
+[heading.sync/region/Change Sync region]
+original=Change Sync region
+translation=Sync リージョンの変更
+
+[heading.sync/migrate/Encryption versions]
+original=Encryption versions
+translation=暗号化バージョン
+
+[heading.sync/migrate/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=移行アシスタントで暗号化をアップグレードする
+
+[heading.sync/settings/Sync settings]
+original=Sync settings
+translation=Sync設定
+
+[heading.sync/settings/Conflict resolution]
+original=Conflict resolution
+translation=競合の解決
+
+[heading.sync/settings/Selective syncing]
+original=Selective syncing
+translation=選択的同期
+
+[heading.sync/settings/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=同期するファイルタイプを変更する
+
+[heading.sync/settings/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=フォルダを同期から除外する
+
+[heading.sync/settings/Always excluded from sync]
+original=Always excluded from sync
+translation=常に同期から除外されるもの
+
+[heading.sync/settings/File recovery snapshots]
+original=File recovery snapshots
+translation=ファイルリカバリーのスナップショット
+
+[heading.sync/settings/Hidden files and folders]
+original=Hidden files and folders
+translation=隠しファイルと隠しフォルダ
+
+[heading.sync/settings/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=同期された保管庫の設定を更新する
+
+[heading.sync/settings/Primary device]
+original=Primary device
+translation=プライマリデバイス
+
+[heading.sync/settings/Secondary device(s)]
+original=Secondary device(s)
+translation=セカンダリデバイス
+
+[heading.sync/settings/Reloading of settings]
+original=Reloading of settings
+translation=設定の再読み込み
+
+[heading.sync/settings/Settings profiles]
+original=Settings profiles
+translation=設定プロファイル
+
+[heading.sync/settings/Create a settings profile]
+original=Create a settings profile
+translation=設定プロファイルを作成する
+
+[heading.sync/faq/General]
+original=General
+translation=一般
+
+[heading.sync/faq/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Obsidian Syncはどのオペレーティングシステムに対応していますか？
+
+[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=ObsidianはAppleのロックダウンモードで動作しますか？
+
+[heading.sync/faq/What type of data is synced?]
+original=What type of data is synced?
+translation=どのような種類のデータが同期されますか？
+
+[heading.sync/faq/How much storage do I have?]
+original=How much storage do I have?
+translation=どのくらいのストレージがありますか？
+
+[heading.sync/faq/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=リモート保管庫はいくつ持てますか？
+
+[heading.sync/faq/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=各リモート保管庫の最大サイズはどのくらいですか？
+
+[heading.sync/faq/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=リモート保管庫は何人まで共有できますか？
+
+[heading.sync/faq/How large can each file be?]
+original=How large can each file be?
+translation=各ファイルの最大サイズはどのくらいですか？
+
+[heading.sync/faq/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=データはバックグラウンドで同期されますか？
+
+[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Obsidian Syncは設定をライブリロードしますか？
+
+[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=サードパーティの同期サービスとObsidian Syncを併用できますか？
+
+[heading.sync/faq/Data retention]
+original=Data retention
+translation=データ保持
+
+[heading.sync/faq/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=バージョン履歴はどのくらいの期間保持されますか？
+
+[heading.sync/faq/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=サブスクリプションが期限切れになった後、データはどのくらいの期間保持されますか？
+
+[heading.sync/faq/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=サブスクリプションサービスを返金した場合、データは保持されますか？
+
+[heading.sync/security/Encryption]
+original=Encryption
+translation=暗号化
+
+[heading.sync/security/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=エンドツーエンド暗号化とは何ですか？
+
+[heading.sync/security/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=標準の暗号化を使用するリスクは何ですか？
+
+[heading.sync/security/What encryption do you use?]
+original=What encryption do you use?
+translation=どのような暗号化を使用していますか？
+
+[heading.sync/security/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=データがエンドツーエンド暗号化されていることを確認できますか？
+
+[heading.sync/security/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=Obsidianは第三者によるセキュリティ監査を受けていますか？
+
+[heading.sync/security/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=暗号化パスワードを忘れた場合はどうなりますか？
+
+[heading.sync/security/Hosting]
+original=Hosting
+translation=ホスティング
+
+[heading.sync/security/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=Obsidian Syncのサーバーはどこにホスティングされていますか？
+
+[heading.sync/security/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=現在のSyncサーバーとそのホスティング場所はどこで確認できますか？
+
+[heading.sync/security/Network and access]
+original=Network and access
+translation=ネットワークとアクセス
+
+[heading.sync/security/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=ネットワーク上のObsidian Syncへのアクセス管理
+
+[heading.sync/security/Limitations]
+original=Limitations
+translation=制限事項
+
+[heading.sync/security/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=決定論的ファイルハッシュ暗号化
+
+[heading.sync/security/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=パスとコンテンツ間の暗号学的バインディングなし
+
+[heading.sync/version-history/Sync history]
+original=Sync history
+translation=Sync履歴
+
+[heading.sync/version-history/Show Sync history]
+original=Show Sync history
+translation=Sync履歴を表示する
+
+[heading.sync/version-history/Enable via Command palette]
+original=Enable via Command palette
+translation=コマンドパレットから有効化する
+
+[heading.sync/version-history/Enable via Hotkey]
+original=Enable via Hotkey
+translation=ショートカットキーから有効化する
+
+[heading.sync/version-history/Version history]
+original=Version history
+translation=バージョン履歴
+
+[heading.sync/version-history/Notes and attachments]
+original=Notes and attachments
+translation=ノートと添付ファイル
+
+[heading.sync/version-history/View version history of a file]
+original=View version history of a file
+translation=ファイルのバージョン履歴を表示する
+
+[heading.sync/version-history/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=削除またはリネームされたファイルのバージョン履歴を表示する
+
+[heading.sync/version-history/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=ファイルの以前のバージョンを復元する
+
+[heading.sync/version-history/Restore a deleted file]
+original=Restore a deleted file
+translation=削除されたファイルを復元する
+
+[heading.sync/version-history/Settings history]
+original=Settings history
+translation=設定履歴
+
+[heading.sync/version-history/View version history of a setting]
+original=View version history of a setting
+translation=設定のバージョン履歴を表示する
+
+[heading.sync/version-history/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=設定の以前のバージョンを復元する
+
+[heading.sync/plans/Plans]
+original=Plans
+translation=プラン
+
+[heading.sync/plans/Storage limits]
+original=Storage limits
+translation=ストレージ制限
+
+[heading.sync/plans/Identify and delete large files]
+original=Identify and delete large files
+translation=大きなファイルの特定と削除
+
+[heading.sync/plans/Create a new remote vault]
+original=Create a new remote vault
+translation=新しいリモート保管庫の作成
+
+[heading.sync/plans/Upgrade your plan]
+original=Upgrade your plan
+translation=プランのアップグレード
+
+[heading.sync/plans/Downgrade your plan]
+original=Downgrade your plan
+translation=プランのダウングレード
+
+[heading.sync/plans/Preserve version history]
+original=Preserve version history
+translation=バージョン履歴の保持
+
+[heading.sync/headless/Quick start]
+original=Quick start
+translation=クイックスタート
+
+[heading.sync/headless/Commands]
+original=Commands
+translation=コマンド
+
+[heading.sync/headless/Native modules]
+original=Native modules
+translation=ネイティブモジュール
+
+[heading.sync/vault-types/File-based sync services]
+original=File-based sync services
+translation=ファイルベースの同期サービス
+
+[heading.sync/vault-types/Sync behavior]
+original=Sync behavior
+translation=同期の挙動
+
+[heading.sync/vault-types/Offline behavior]
+original=Offline behavior
+translation=オフライン時の挙動
+
+[heading.sync/vault-types/Next steps]
+original=Next steps
+translation=次のステップ
+
+[heading.sync/collaborate/Manage users]
+original=Manage users
+translation=ユーザーの管理
+
+[heading.sync/collaborate/Add users]
+original=Add users
+translation=ユーザーの追加
+
+[heading.sync/collaborate/Remove users]
+original=Remove users
+translation=ユーザーの削除
+
+[heading.sync/collaborate/Collaborate with your team]
+original=Collaborate with your team
+translation=チームでの共同作業
+
+[heading.sync/collaborate/Permissions]
+original=Permissions
+translation=権限
+
+[heading.sync/collaborate/Live editing]
+original=Live editing
+translation=ライブ編集
+
+[heading.sync/collaborate/Limitations]
+original=Limitations
+translation=制限事項
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=Web Clipperのインストール
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=Web Clipperの使い方
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=プライバシー
+
+[heading.web-clipper/troubleshoot/General]
+original=General
+translation=一般
+
+[heading.web-clipper/troubleshoot/Some content is missing]
+original=Some content is missing
+translation=一部のコンテンツが欠落する
+
+[heading.web-clipper/troubleshoot/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=Obsidianにコンテンツが表示されない
+
+[heading.web-clipper/troubleshoot/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidianが開かない
+
+[heading.web-clipper/troubleshoot/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidianは開くがファイル名のみが保存される
+
+[heading.web-clipper/troubleshoot/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOSおよびiPadOS
+
+[heading.web-clipper/capture/Capture a page]
+original=Capture a page
+translation=ページのキャプチャ
+
+[heading.web-clipper/capture/Download images]
+original=Download images
+translation=画像のダウンロード
+
+[heading.web-clipper/capture/Hotkeys]
+original=Hotkeys
+translation=ショートカットキー
+
+[heading.web-clipper/capture/Interface functionality]
+original=Interface functionality
+translation=インターフェースの機能
+
+[heading.web-clipper/highlight/Turn on highlighter]
+original=Turn on highlighter
+translation=ハイライターをオンにする
+
+[heading.web-clipper/highlight/Highlighter settings]
+original=Highlighter settings
+translation=ハイライターの設定
+
+[heading.web-clipper/interpreter/Examples of prompts]
+original=Examples of prompts
+translation=プロンプトの例
+
+[heading.web-clipper/interpreter/Get started]
+original=Get started
+translation=はじめに
+
+[heading.web-clipper/interpreter/How it works]
+original=How it works
+translation=仕組み
+
+[heading.web-clipper/interpreter/Context]
+original=Context
+translation=コンテキスト
+
+[heading.web-clipper/interpreter/Models]
+original=Models
+translation=モデル
+
+[heading.web-clipper/interpreter/Preset providers]
+original=Preset providers
+translation=プリセットプロバイダー
+
+[heading.web-clipper/interpreter/Choosing a model]
+original=Choosing a model
+translation=モデルの選択
+
+[heading.web-clipper/interpreter/Custom providers and models]
+original=Custom providers and models
+translation=カスタムプロバイダーとモデル
+
+[heading.web-clipper/interpreter/Local models]
+original=Local models
+translation=ローカルモデル
+
+[heading.web-clipper/templates/Create or edit a template]
+original=Create or edit a template
+translation=テンプレートの作成と編集
+
+[heading.web-clipper/templates/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=Web Clipperテンプレートのインポートとエクスポート
+
+[heading.web-clipper/templates/Template settings]
+original=Template settings
+translation=テンプレート設定
+
+[heading.web-clipper/templates/Behavior]
+original=Behavior
+translation=挙動
+
+[heading.web-clipper/templates/Automatically trigger a template]
+original=Automatically trigger a template
+translation=テンプレートの自動トリガー
+
+[heading.web-clipper/templates/Simple URL matching]
+original=Simple URL matching
+translation=シンプルURLマッチング
+
+[heading.web-clipper/templates/Regular expression matching]
+original=Regular expression matching
+translation=正規表現マッチング
+
+[heading.web-clipper/templates/Schema.org matching]
+original=Schema.org matching
+translation=Schema.orgマッチング
+
+[heading.web-clipper/templates/Interpreter context]
+original=Interpreter context
+translation=インタープリターコンテキスト
+
+[heading.web-clipper/filters/Dates]
+original=Dates
+translation=日付
+
+[heading.web-clipper/filters/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=テキストの変換と大文字化
+
+[heading.web-clipper/filters/Text formatting]
+original=Text formatting
+translation=テキストの書式設定
+
+[heading.web-clipper/filters/Numbers]
+original=Numbers
+translation=数値
+
+[heading.web-clipper/filters/HTML processing]
+original=HTML processing
+translation=HTML処理
+
+[heading.web-clipper/filters/Arrays and objects]
+original=Arrays and objects
+translation=配列とオブジェクト
+
+[heading.web-clipper/reader/Activate reading mode]
+original=Activate reading mode
+translation=リーディングモードを有効にする
+
+[heading.web-clipper/reader/How it works]
+original=How it works
+translation=仕組み
+
+[heading.web-clipper/reader/Customize the reading view]
+original=Customize the reading view
+translation=リーディングビューをカスタマイズする
+
+[heading.web-clipper/logic/Conditionals]
+original=Conditionals
+translation=条件分岐
+
+[heading.web-clipper/logic/Comparison operators]
+original=Comparison operators
+translation=比較演算子
+
+[heading.web-clipper/logic/Logical operators]
+original=Logical operators
+translation=論理演算子
+
+[heading.web-clipper/logic/Truthiness]
+original=Truthiness
+translation=真偽性
+
+[heading.web-clipper/logic/Assign a variable]
+original=Assign a variable
+translation=変数の代入
+
+[heading.web-clipper/logic/Fallbacks]
+original=Fallbacks
+translation=フォールバック
+
+[heading.web-clipper/logic/Chaining fallbacks]
+original=Chaining fallbacks
+translation=フォールバックの連結
+
+[heading.web-clipper/logic/With filters]
+original=With filters
+translation=フィルターとの組み合わせ
+
+[heading.web-clipper/logic/Loops]
+original=Loops
+translation=ループ
+
+[heading.web-clipper/logic/Loop sources]
+original=Loop sources
+translation=ループのソース
+
+[heading.web-clipper/logic/Loop variables]
+original=Loop variables
+translation=ループ変数
+
+[heading.web-clipper/logic/Accessing array items by index]
+original=Accessing array items by index
+translation=インデックスによる配列アイテムへのアクセス
+
+[heading.web-clipper/logic/Nested loops]
+original=Nested loops
+translation=ネストされたループ
+
+[heading.web-clipper/logic/Combine logic]
+original=Combine logic
+translation=ロジックの組み合わせ
+
+[heading.web-clipper/logic/Evaluation order]
+original=Evaluation order
+translation=評価順序
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Obsidian CLIのインストール
+
+[heading.cli/Get started]
+original=Get started
+translation=はじめに
+
+[heading.cli/Run a command]
+original=Run a command
+translation=コマンドの実行
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=ターミナルインターフェースの使用
+
+[heading.cli/Examples]
+original=Examples
+translation=使用例
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=日常的な使用
+
+[heading.cli/For developers]
+original=For developers
+translation=開発者向け
+
+[heading.cli/How to]
+original=How to
+translation=使い方
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=パラメータとフラグの使用
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=保管庫の指定
+
+[heading.cli/Target a file]
+original=Target a file
+translation=ファイルの指定
+
+[heading.cli/Copy output]
+original=Copy output
+translation=出力のコピー
+
+[heading.cli/General commands]
+original=General commands
+translation=一般コマンド
+
+[heading.cli/Bases]
+original=Bases
+translation=ベース
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=ブックマーク
+
+[heading.cli/Command palette]
+original=Command palette
+translation=コマンドパレット
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=デイリーノート
+
+[heading.cli/File history]
+original=File history
+translation=ファイル履歴
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=ファイルとフォルダ
+
+[heading.cli/Links]
+original=Links
+translation=リンク
+
+[heading.cli/Outline]
+original=Outline
+translation=アウトライン
+
+[heading.cli/Plugins]
+original=Plugins
+translation=プラグイン
+
+[heading.cli/Properties]
+original=Properties
+translation=プロパティ
+
+[heading.cli/Random notes]
+original=Random notes
+translation=ランダムノート
+
+[heading.cli/Search]
+original=Search
+translation=検索
+
+[heading.cli/Tags]
+original=Tags
+translation=タグ
+
+[heading.cli/Tasks]
+original=Tasks
+translation=タスク
+
+[heading.cli/Templates]
+original=Templates
+translation=テンプレート
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=テーマとスニペット
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=ユニークノート
+
+[heading.cli/Vault]
+original=Vault
+translation=保管庫
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Webビューア
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=ワードカウント
+
+[heading.cli/Workspace]
+original=Workspace
+translation=ワークスペース
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=開発者コマンド
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=キーボードショートカット
+
+[heading.cli/Navigation]
+original=Navigation
+translation=ナビゲーション
+
+[heading.cli/Editing]
+original=Editing
+translation=編集
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=自動補完
+
+[heading.cli/History]
+original=History
+translation=履歴
+
+[heading.cli/Other]
+original=Other
+translation=その他
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=トラブルシューティング
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=代替シェル
+
+[heading.headless/Install]
+original=Install
+translation=インストール
+
+[heading.headless/Authentication]
+original=Authentication
+translation=認証
+
+[heading.headless/Log in]
+original=Log in
+translation=ログイン
+
+[heading.headless/Services]
+original=Services
+translation=サービス
+
+[heading.uri/URI format]
+original=URI format
+translation=URIフォーマット
+
+[heading.uri/Open note]
+original=Open note
+translation=ノートを開く
+
+[heading.uri/Examples]
+original=Examples
+translation=例
+
+[heading.uri/Parameters]
+original=Parameters
+translation=パラメータ
+
+[heading.uri/Create note]
+original=Create note
+translation=ノートを作成する
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=デイリーノートを作成または開く
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=ユニークノート
+
+[heading.uri/Open search]
+original=Open search
+translation=検索を開く
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=保管庫マネージャーを開く
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Hookとの連携
+
+[heading.uri/Example]
+original=Example
+translation=例
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=x-callback-urlパラメータを使用する
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=短縮フォーマット
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=トラブルシューティング
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Obsidian URIを登録する
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=コミュニティプラグインを閲覧する
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=コミュニティプラグインをインストールする
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=コミュニティプラグインを有効化する
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=プラグインをアップデートする
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=コミュニティプラグインをアンインストールする
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=インストール済みプラグインを管理する
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=さらに詳しく
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=テーマを閲覧する
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=新しいテーマをインストールする
+
+[heading.themes/Update themes]
+original=Update themes
+translation=テーマをアップデートする
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=既存のテーマをアンインストールする
+
+[heading.themes/Learn more]
+original=Learn more
+translation=さらに詳しく
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=制限モード
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=プラグインの機能
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=プラグインのレビュープロセス
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=用語と文法
+
+[heading.style-guide/Language style]
+original=Language style
+translation=言語スタイル
+
+[heading.style-guide/Terms]
+original=Terms
+translation=用語
+
+[heading.style-guide/Product names]
+original=Product names
+translation=プロダクト名
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=UIとインタラクション
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=ノート、ファイル、フォルダ
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=設定のリファレンスドキュメント
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=方向を示す用語
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=操作説明
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=センテンスケース
+
+[heading.style-guide/Examples]
+original=Examples
+translation=例
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=キー名とキーボードショートカット
+
+[heading.style-guide/Images]
+original=Images
+translation=画像
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=情報構造
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=コールアウトの種類
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=リストと文章
+
+[heading.style-guide/Tables]
+original=Tables
+translation=テーブル
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=相互参照
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=プラットフォーム固有のコンテンツ
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=アイコンと画像
+
+[heading.style-guide/Icons]
+original=Icons
+translation=アイコン
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=画像アンカータグ
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=最適化
+
+[heading.style-guide/Layout]
+original=Layout
+translation=レイアウト
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=リンク切れ
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=説明
+
+[heading.style-guide/Directions]
+original=Directions
+translation=方向
+
+[heading.style-guide/Translations]
+original=Translations
+translation=翻訳
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=プラグインとテーマ
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=オープンソースプロジェクト
+
+[heading.developers/Documentation]
+original=Documentation
+translation=ドキュメント
+
+[heading.developers/Community]
+original=Community
+translation=コミュニティ
+
+[heading.plugins/canvas/Create a new canvas]
+original=Create a new canvas
+translation=新しいキャンバスの作成
+
+[heading.plugins/canvas/Add cards]
+original=Add cards
+translation=カードの追加
+
+[heading.plugins/canvas/Add text cards]
+original=Add text cards
+translation=テキストカードの追加
+
+[heading.plugins/canvas/Add cards from notes]
+original=Add cards from notes
+translation=ノートからカードを追加
+
+[heading.plugins/canvas/Add cards from media]
+original=Add cards from media
+translation=メディアからカードを追加
+
+[heading.plugins/canvas/Add cards from web pages]
+original=Add cards from web pages
+translation=ウェブページからカードを追加
+
+[heading.plugins/canvas/Add cards from folders]
+original=Add cards from folders
+translation=フォルダからカードを追加
+
+[heading.plugins/canvas/Edit a card]
+original=Edit a card
+translation=カードの編集
+
+[heading.plugins/canvas/Delete a card]
+original=Delete a card
+translation=カードの削除
+
+[heading.plugins/canvas/Swap cards]
+original=Swap cards
+translation=カードの入れ替え
+
+[heading.plugins/canvas/Select cards]
+original=Select cards
+translation=カードの選択
+
+[heading.plugins/canvas/Arrange cards]
+original=Arrange cards
+translation=カードの配置
+
+[heading.plugins/canvas/Resize a card]
+original=Resize a card
+translation=カードのリサイズ
+
+[heading.plugins/canvas/Connect cards]
+original=Connect cards
+translation=カードの接続
+
+[heading.plugins/canvas/Connect two cards]
+original=Connect two cards
+translation=2つのカードを接続する
+
+[heading.plugins/canvas/Disconnect two cards]
+original=Disconnect two cards
+translation=2つのカードの接続を解除する
+
+[heading.plugins/canvas/Connect a card to a different card]
+original=Connect a card to a different card
+translation=カードを別のカードに接続し直す
+
+[heading.plugins/canvas/Navigate a connection]
+original=Navigate a connection
+translation=接続先への移動
+
+[heading.plugins/canvas/Add a label to a connection]
+original=Add a label to a connection
+translation=接続にラベルを追加する
+
+[heading.plugins/canvas/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=カードまたは接続の色を変更する
+
+[heading.plugins/canvas/Group cards]
+original=Group cards
+translation=カードのグループ化
+
+[heading.plugins/canvas/Group selected cards]
+original=Group selected cards
+translation=選択したカードのグループ化
+
+[heading.plugins/canvas/Navigate the canvas]
+original=Navigate the canvas
+translation=キャンバスの操作
+
+[heading.plugins/canvas/Pan the canvas]
+original=Pan the canvas
+translation=キャンバスのパン
+
+[heading.plugins/canvas/Zoom the canvas]
+original=Zoom the canvas
+translation=キャンバスの拡大
+
+[heading.plugins/canvas/Zoom to fit]
+original=Zoom to fit
+translation=フィットするようにズーム
+
+[heading.plugins/canvas/Zoom to selection]
+original=Zoom to selection
+translation=選択対象にズーム
+
+[heading.plugins/canvas/Reset zoom]
+original=Reset zoom
+translation=ズームをリセット
+
+[heading.plugins/canvas/Advanced tips]
+original=Advanced tips
+translation=高度なヒント
+
+[heading.plugins/web-viewer/Reader view]
+original=Reader view
+translation=リーダービュー
+
+[heading.plugins/web-viewer/Save to vault]
+original=Save to vault
+translation=保管庫に保存
+
+[heading.plugins/web-viewer/Ad blocking]
+original=Ad blocking
+translation=広告ブロック
+
+[heading.plugins/web-viewer/Security]
+original=Security
+translation=セキュリティ
+
+[heading.plugins/audio-recorder/Record audio in a note]
+original=Record audio in a note
+translation=ノートに音声を録音する
+
+[heading.plugins/quick-switcher/Open Quick switcher]
+original=Open Quick switcher
+translation=クイックスイッチャーを開く
+
+[heading.plugins/quick-switcher/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=クイックスイッチャーでノートを開く
+
+[heading.plugins/graph/Settings]
+original=Settings
+translation=設定
+
+[heading.plugins/graph/Filters]
+original=Filters
+translation=フィルタ
+
+[heading.plugins/graph/Groups]
+original=Groups
+translation=グループ
+
+[heading.plugins/graph/Display]
+original=Display
+translation=表示
+
+[heading.plugins/graph/Forces]
+original=Forces
+translation=力の強さ
+
+[heading.plugins/graph/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=タイムラプスアニメーションの開始
+
+[heading.plugins/graph/Local Graph]
+original=Local Graph
+translation=ローカルグラフ
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=すべてのコアプラグイン
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=その他のプラグイン
+
+[heading.plugins/command-palette/Pinned commands]
+original=Pinned commands
+translation=ピン留めされたコマンド
+
+[heading.plugins/command-palette/Pin a command]
+original=Pin a command
+translation=コマンドをピン留めする
+
+[heading.plugins/command-palette/Unpin a command]
+original=Unpin a command
+translation=コマンドのピン留めを解除する
+
+[heading.plugins/templates/Set your template folder]
+original=Set your template folder
+translation=テンプレートフォルダの設定
+
+[heading.plugins/templates/Template variables]
+original=Template variables
+translation=テンプレート変数
+
+[heading.plugins/templates/Create a template]
+original=Create a template
+translation=テンプレートの作成
+
+[heading.plugins/templates/Insert a template into the active note]
+original=Insert a template into the active note
+translation=アクティブなノートにテンプレートを挿入する
+
+[heading.plugins/templates/Template properties]
+original=Template properties
+translation=テンプレートのプロパティ
+
+[heading.plugins/daily-notes/Create a daily note from template]
+original=Create a daily note from template
+translation=テンプレートからデイリーノートを作成する
+
+[heading.plugins/daily-notes/Daily notes and properties]
+original=Daily notes and properties
+translation=デイリーノートとプロパティ
+
+[heading.plugins/note-composer/Merge notes]
+original=Merge notes
+translation=ノートの統合
+
+[heading.plugins/note-composer/Extract note]
+original=Extract note
+translation=ノートの抽出
+
+[heading.plugins/note-composer/Template file]
+original=Template file
+translation=テンプレートファイル
+
+[heading.plugins/backlinks/Show backlinks]
+original=Show backlinks
+translation=バックリンクを表示
+
+[heading.plugins/backlinks/View backlinks for a note]
+original=View backlinks for a note
+translation=ノートのバックリンクを表示する
+
+[heading.plugins/backlinks/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=特定のノートのバックリンクを確認する
+
+[heading.plugins/backlinks/Show backlinks in a note]
+original=Show backlinks in a note
+translation=ノート内にバックリンクを表示する
+
+[heading.plugins/file-explorer/Create a new note]
+original=Create a new note
+translation=新しいノートの作成
+
+[heading.plugins/file-explorer/Create a new folder]
+original=Create a new folder
+translation=新しいフォルダの作成
+
+[heading.plugins/file-explorer/Change sort order]
+original=Change sort order
+translation=並べ替え順の変更
+
+[heading.plugins/file-explorer/Auto-reveal active file]
+original=Auto-reveal active file
+translation=アクティブファイルの自動表示
+
+[heading.plugins/file-explorer/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=すべてのフォルダを展開または折りたたむ
+
+[heading.plugins/file-explorer/Delete a file or folder]
+original=Delete a file or folder
+translation=ファイルまたはフォルダの削除
+
+[heading.plugins/file-explorer/Rename a file or folder]
+original=Rename a file or folder
+translation=ファイルまたはフォルダのリネーム
+
+[heading.plugins/file-explorer/Move a file or folder]
+original=Move a file or folder
+translation=ファイルまたはフォルダの移動
+
+[heading.plugins/file-recovery/Recover a snapshot]
+original=Recover a snapshot
+translation=スナップショットを復元する
+
+[heading.plugins/file-recovery/Clear snapshot history]
+original=Clear snapshot history
+translation=スナップショット履歴をクリアする
+
+[heading.plugins/file-recovery/Storage and performance]
+original=Storage and performance
+translation=ストレージとパフォーマンス
+
+[heading.plugins/file-recovery/Limitations]
+original=Limitations
+translation=制限事項
+
+[heading.plugins/format-converter/Supported formats]
+original=Supported formats
+translation=対応フォーマット
+
+[heading.plugins/bookmarks/Add a bookmark]
+original=Add a bookmark
+translation=ブックマークを追加
+
+[heading.plugins/bookmarks/Remove a bookmark]
+original=Remove a bookmark
+translation=ブックマークを削除
+
+[heading.plugins/bookmarks/Add a bookmark group]
+original=Add a bookmark group
+translation=ブックマークグループを追加
+
+[heading.plugins/bookmarks/Remove a bookmark group]
+original=Remove a bookmark group
+translation=ブックマークグループを削除
+
+[heading.plugins/bookmarks/Bookmark multiple files]
+original=Bookmark multiple files
+translation=複数のファイルをブックマーク
+
+[heading.plugins/properties/All properties view]
+original=All properties view
+translation=すべてのプロパティビュー
+
+[heading.plugins/unique-note/Create a unique note]
+original=Create a unique note
+translation=ユニークノートの作成
+
+[heading.plugins/unique-note/Create unique notes from a template]
+original=Create unique notes from a template
+translation=テンプレートからユニークノートを作成する
+
+[heading.plugins/workspaces/Save a workspace]
+original=Save a workspace
+translation=ワークスペースを保存する
+
+[heading.plugins/workspaces/Load a workspace]
+original=Load a workspace
+translation=ワークスペースをロードする
+
+[heading.plugins/workspaces/Delete a workspace]
+original=Delete a workspace
+translation=ワークスペースを削除する
+
+[heading.plugins/search/Search terms]
+original=Search terms
+translation=検索語
+
+[heading.plugins/search/Search operators]
+original=Search operators
+translation=検索演算子
+
+[heading.plugins/search/Search properties]
+original=Search properties
+translation=プロパティの検索
+
+[heading.plugins/search/Change case sensitivity]
+original=Change case sensitivity
+translation=大文字/小文字の区別を変更する
+
+[heading.plugins/search/Change result sort order]
+original=Change result sort order
+translation=結果の並べ替え順を変更する
+
+[heading.plugins/search/Copy search results]
+original=Copy search results
+translation=検索結果をコピーする
+
+[heading.plugins/search/Use regular expressions]
+original=Use regular expressions
+translation=正規表現を使用する
+
+[heading.plugins/search/Configure search settings]
+original=Configure search settings
+translation=検索設定を設定する
+
+[heading.plugins/search/Embed search results in a note]
+original=Embed search results in a note
+translation=ノートに検索結果を埋め込む
+
+[heading.teams/security/Considerations]
+original=Considerations
+translation=考慮事項
+
+[heading.teams/security/Community plugins and themes]
+original=Community plugins and themes
+translation=コミュニティプラグインとテーマ
+
+[heading.teams/security/Network and access]
+original=Network and access
+translation=ネットワークとアクセス
+
+[heading.teams/security/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=Obsidianからの接続
+
+[heading.teams/security/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=GitHubからの接続
+
+[heading.teams/security/Other connections]
+original=Other connections
+translation=その他の接続
+
+[heading.teams/security/Frequently asked questions]
+original=Frequently asked questions
+translation=よくある質問
+
+[heading.teams/security/Account security]
+original=Account security
+translation=アカウントセキュリティ
+
+[heading.teams/security/Assessments and certifications]
+original=Assessments and certifications
+translation=評価と認証
+
+[heading.teams/deploy/Install and update Obsidian]
+original=Install and update Obsidian
+translation=Obsidianのインストールとアップデート
+
+[heading.teams/deploy/Customizing Obsidian]
+original=Customizing Obsidian
+translation=Obsidianのカスタマイズ
+
+[heading.teams/deploy/Configuration folders]
+original=Configuration folders
+translation=設定フォルダ
+
+[heading.teams/deploy/Plugins]
+original=Plugins
+translation=プラグイン
+
+[heading.teams/deploy/Themes and snippets]
+original=Themes and snippets
+translation=テーマとスニペット
+
+[heading.teams/deploy/Frequently asked questions]
+original=Frequently asked questions
+translation=よくある質問
+
+[heading.teams/deploy/Deployment]
+original=Deployment
+translation=展開
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=チームでObsidianを使用する
+
+[heading.teams/Important resources]
+original=Important resources
+translation=重要なリソース
+
+[heading.teams/publish/Publishing tools and services]
+original=Publishing tools and services
+translation=パブリッシュツールとサービス
+
+[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=Obsidian Publishの高度なコラボレーション
+
+[heading.teams/publish/Media]
+original=Media
+translation=メディア
+
+[heading.teams/publish/Frequently asked questions]
+original=Frequently asked questions
+translation=よくある質問
+
+[heading.teams/sync/Syncing tools and services]
+original=Syncing tools and services
+translation=同期ツールとサービス
+
+[heading.teams/sync/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=チーム向けObsidian Sync
+
+[heading.teams/sync/Security]
+original=Security
+translation=セキュリティ
+
+[heading.teams/sync/Frequently asked questions]
+original=Frequently asked questions
+translation=よくある質問
+
+[heading.teams/license/Purchase a commercial license]
+original=Purchase a commercial license
+translation=商用ライセンスの購入
+
+[heading.teams/license/Apply a commercial license]
+original=Apply a commercial license
+translation=商用ライセンスの適用
+
+[heading.teams/license/Supporting organizations]
+original=Supporting organizations
+translation=サポート組織
+
+[heading.teams/license/Frequently asked questions]
+original=Frequently asked questions
+translation=よくある質問
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=アップデートの確認とバージョンの表示
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=自動更新を無効にする
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=インストーラーのアップデート
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=WindowsへのObsidianのインストール
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=macOSへのObsidianのインストール
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=LinuxへのObsidianのインストール
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=Snapを使用したObsidianのインストール
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=AppImageを使用したObsidianのインストール
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=Flatpakを使用したObsidianのインストール
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=AndroidへのObsidianのインストール
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=iPhoneおよびiPadへのObsidianのインストール
+
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=同期はバックアップではない
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=コミュニティプラグインを使用する
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=クラウドベースのサービスを使用する
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=外付けドライブを使用する
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=コンピュータのバックアップを使用する
+
+[heading.backup/Next steps]
+original=Next steps
+translation=次のステップ
+
+[heading.sandbox/Opening the sandbox vault]
+original=Opening the sandbox vault
+translation=サンドボックス保管庫を開く
+
+[heading.sandbox/Close the sandbox vault]
+original=Close the sandbox vault
+translation=サンドボックス保管庫を閉じる
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=同期方法
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=iPhoneとiPadの同期
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=よくある質問
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=他のアプリやファイル形式からのインポート
+
+[heading.import/More formats]
+original=More formats
+translation=その他の形式
+
+[heading.link-notes/Create a link]
+original=Create a link
+translation=リンクを作成する
+
+[heading.link-notes/Create a link to a non-existing note]
+original=Create a link to a non-existing note
+translation=存在しないノートへのリンクを作成する
+
+[heading.link-notes/Navigate between notes]
+original=Navigate between notes
+translation=ノート間を移動する
+
+[heading.link-notes/Learn more]
+original=Learn more
+translation=さらに詳しく
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=ウィジェット、ショートカット、Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=モバイルツールバー
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=モバイルツールバーのカスタマイズ
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=モバイルツールバーにコマンドを追加する
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=クイックアクション
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=クイックアクションのカスタマイズ
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=ナビゲーションバー
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=戻るまたは進む
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=ノートの作成または検索
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=タブの管理
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=リボンメニューのアクション
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=サイドバー
+
+[heading.vault/Create empty vault]
+original=Create empty vault
+translation=空の保管庫を作成する
+
+[heading.vault/Open existing folder]
+original=Open existing folder
+translation=既存のフォルダを開く
+
+[heading.create-note/Create a new note]
+original=Create a new note
+translation=新しいノートを作成する
+
+[heading.create-note/Formatting text]
+original=Formatting text
+translation=テキストのフォーマット
+
+[heading.create-note/Learn more]
+original=Learn more
+translation=詳細を確認
+
+[heading.glossary/Alias]
+original=Alias
+translation=エイリアス
+
+[heading.glossary/Attachment]
+original=Attachment
+translation=添付ファイル
+
+[heading.glossary/Command]
+original=Command
+translation=コマンド
+
+[heading.glossary/Embed]
+original=Embed
+translation=埋め込み
+
+[heading.glossary/Frontmatter]
+original=Frontmatter
+translation=フロントマター
+
+[heading.glossary/Graph]
+original=Graph
+translation=グラフ
+
+[heading.glossary/Hotkey]
+original=Hotkey
+translation=ショートカットキー
+
+[heading.glossary/Link]
+original=Link
+translation=リンク
+
+[heading.glossary/Main area]
+original=Main area
+translation=メインエリア
+
+[heading.glossary/Note]
+original=Note
+translation=ノート
+
+[heading.glossary/Plugin]
+original=Plugin
+translation=プラグイン
+
+[heading.glossary/Pop-out window]
+original=Pop-out window
+translation=ポップアウトウィンドウ
+
+[heading.glossary/Property]
+original=Property
+translation=プロパティ
+
+[heading.glossary/Ribbon]
+original=Ribbon
+translation=リボンメニュー
+
+[heading.glossary/Sidebar]
+original=Sidebar
+translation=サイドバー
+
+[heading.glossary/Snippet]
+original=Snippet
+translation=スニペット
+
+[heading.glossary/Status bar]
+original=Status bar
+translation=ステータスバー
+
+[heading.glossary/Tab]
+original=Tab
+translation=タブ
+
+[heading.glossary/Tab group]
+original=Tab group
+translation=タブグループ
+
+[heading.glossary/Tag]
+original=Tag
+translation=タグ
+
+[heading.glossary/Theme]
+original=Theme
+translation=テーマ
+
+[heading.glossary/Vault]
+original=Vault
+translation=保管庫
+
+[heading.glossary/Remote vault]
+original=Remote vault
+translation=リモート保管庫
+
+[heading.glossary/View]
+original=View
+translation=ビュー
+
+[heading.aliases/Add an alias to a note]
+original=Add an alias to a note
+translation=ノートにエイリアスを追加する
+
+[heading.aliases/Link to a note using an alias]
+original=Link to a note using an alias
+translation=エイリアスを使ってノートにリンクする
+
+[heading.aliases/Find unlinked mentions for an alias]
+original=Find unlinked mentions for an alias
+translation=エイリアスのリンクされていないメンションを見つける
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=別のノートにノートを埋め込む
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=ノートに画像を埋め込む
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=ノートに音声ファイルを埋め込む
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=ノートにPDFを埋め込む
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=ノートにリストを埋め込む
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=検索結果を埋め込む
+
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=内部リンクの対応フォーマット
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=ファイルへのリンク
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=ノート内の見出しへのリンク
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=ノート内のブロックへのリンク
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=リンクの表示テキストを変更する
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=リンクされたファイルをプレビューする
+
+[heading.import/apple-journal/Export your data from Apple Journal]
+original=Export your data from Apple Journal
+translation=Apple Journalからデータをエクスポートする
+
+[heading.import/apple-journal/On iPhone]
+original=On iPhone
+translation=iPhoneの場合
+
+[heading.import/apple-journal/On Mac (Tahoe)]
+original=On Mac (Tahoe)
+translation=Mac（Tahoe）の場合
+
+[heading.import/apple-journal/Import Apple Journal data into Obsidian]
+original=Import Apple Journal data into Obsidian
+translation=Apple JournalのデータをObsidianにインポートする
+
+[heading.import/apple-journal/Supported content]
+original=Supported content
+translation=サポートされるコンテンツ
+
+[heading.import/apple-notes/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=Apple NotesのデータをObsidianにインポートする
+
+[heading.import/apple-notes/Supported content]
+original=Supported content
+translation=サポートされるコンテンツ
+
+[heading.import/apple-notes/Scans]
+original=Scans
+translation=スキャン
+
+[heading.import/apple-notes/Alternate export methods]
+original=Alternate export methods
+translation=代替エクスポート方法
+
+[heading.import/bear/Export your data from Bear]
+original=Export your data from Bear
+translation=Bearからデータをエクスポートする
+
+[heading.import/bear/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=BearのデータをObsidianにインポートする
+
+[heading.import/csv/Create notes from CSV data in Obsidian]
+original=Create notes from CSV data in Obsidian
+translation=ObsidianでCSVデータからノートを作成する
+
+[heading.import/csv/Configure how CSV fields are imported]
+original=Configure how CSV fields are imported
+translation=CSVフィールドのインポート方法を設定する
+
+[heading.import/craft/Export your data from Craft]
+original=Export your data from Craft
+translation=Craftからデータをエクスポートする
+
+[heading.import/craft/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=CraftのデータをObsidianにインポートする
+
+[heading.import/craft/Troubleshooting]
+original=Troubleshooting
+translation=トラブルシューティング
+
+[heading.import/evernote/Export your data from Evernote]
+original=Export your data from Evernote
+translation=Evernoteからデータをエクスポートする
+
+[heading.import/evernote/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=EvernoteのデータをObsidianにインポートする
+
+[heading.import/evernote/Advanced import options]
+original=Advanced import options
+translation=高度なインポートオプション
+
+[heading.import/evernote/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=タグ階層の維持
+
+[heading.import/evernote/Handling notebook stacks]
+original=Handling notebook stacks
+translation=ノートブックスタックの処理
+
+[heading.import/google-keep/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=Google Keepからデータをエクスポートする
+
+[heading.import/google-keep/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=Google KeepのデータをObsidianにインポートする
+
+[heading.import/google-keep/Supported features]
+original=Supported features
+translation=サポートされている機能
+
+[heading.import/html/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=HTMLデータをObsidianにインポートする
+
+[heading.import/html/Import settings]
+original=Import settings
+translation=インポート設定
+
+[heading.import/markdown/Converting from other flavors of Markdown]
+original=Converting from other flavors of Markdown
+translation=他のMarkdownフレーバーからの変換
+
+[heading.import/onenote/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=OneNoteのデータをObsidianにインポートする
+
+[heading.import/onenote/Troubleshooting]
+original=Troubleshooting
+translation=トラブルシューティング
+
+[heading.import/onenote/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=セクションやノートブックが表示されない
+
+[heading.import/onenote/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=インポートしたノートが空またはコンテンツが欠落している
+
+[heading.import/onenote/Privacy]
+original=Privacy
+translation=プライバシー
+
+[heading.import/notion/API import]
+original=API import
+translation=APIインポート
+
+[heading.import/notion/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=Notion APIインテグレーショントークンの作成
+
+[heading.import/notion/Import your Notion data via API]
+original=Import your Notion data via API
+translation=API経由でNotionデータをインポートする
+
+[heading.import/notion/Limitations]
+original=Limitations
+translation=制限事項
+
+[heading.import/notion/File import]
+original=File import
+translation=ファイルインポート
+
+[heading.import/notion/Export your data from Notion]
+original=Export your data from Notion
+translation=Notionからデータをエクスポートする
+
+[heading.import/notion/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=Notionの.zipファイルをインポートする
+
+[heading.import/notion/Troubleshooting]
+original=Troubleshooting
+translation=トラブルシューティング
+
+[heading.import/notion/Importing large workspaces]
+original=Importing large workspaces
+translation=大規模なワークスペースのインポート
+
+[heading.import/roam/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=Roam Researchからデータをエクスポートする
+
+[heading.import/roam/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=Roam ResearchのデータをObsidianにインポートする
+
+[heading.import/textbundle/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=TextbundleファイルをObsidianにインポートする
+
+[heading.import/textbundle/Troubleshooting]
+original=Troubleshooting
+translation=トラブルシューティング
+
+[heading.import/textbundle/No files are selected for import]
+original=No files are selected for import
+translation=インポート対象のファイルが選択されない
+
+[heading.plugins/importer/Install Importer]
+original=Install Importer
+translation=インポーターのインストール
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=保管庫の設定
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=グローバル設定
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=メタデータキャッシュ
+
+[heading.manage-notes/Create a new note]
+original=Create a new note
+translation=新規ノートの作成
+
+[heading.manage-notes/Rename a note]
+original=Rename a note
+translation=ノートのリネーム
+
+[heading.manage-notes/Delete a note]
+original=Delete a note
+translation=ノートの削除
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=新規保管庫の作成
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=既存のフォルダから保管庫を作成
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=保管庫のリネーム
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=保管庫を別のフォルダに移動
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=保管庫の削除
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=設定を別の保管庫に転送
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=ファイルの埋め込み
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=設定フォルダへのアクセス
+
+[heading.configuration-folder/Desktop]
+original=Desktop
+translation=デスクトップ
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=モバイル
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=設定フォルダの変更
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=質問とアドバイス
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=バグ報告と機能リクエスト
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=デバッグ情報の収集
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=起動時間の確認
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=コンソールログの取得
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=Obsidianサポートへの連絡
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=セキュリティの問題を報告する
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=行動規範違反の報告
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Obsidianへの貢献
+
+[heading.//Obsidian Help]
+original=Obsidian Help
+translation=Obsidian ヘルプ
+
+[heading.//Get started]
+original=Get started
+translation=はじめに
+
+[heading.//Extend Obsidian]
+original=Extend Obsidian
+translation=Obsidianを拡張する
+
+[heading.//Add-on services]
+original=Add-on services
+translation=アドオンサービス
+
+[heading.//Contribute]
+original=Contribute
+translation=貢献する
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=非表示のサイドバーを開く
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=デスクトップおよび大きなタブレット
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=モバイルおよび小さなタブレット
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=タブ
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=タブを開くまたは再度開く
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=タブを閉じる
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=タブを並べ替える
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=タブをピンする
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=タブグループ
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=タブグループを作成する
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=タブグループを閉じる
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=新規タブを開く
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=リンクを開く
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=タブとウィンドウの整理
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=タブの配置
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=タブグループの分割
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=タブグループのサイズ変更
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=タブを新規ウィンドウに移動
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=タブを別のウィンドウに移動
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=タブをピンする
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=別のタブに切り替える
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=タブグループのスタック
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=リンクされたビュー
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=レイアウトの保存
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=タブのドラッグ
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=ドラッグのソース
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=ドロップ先
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=Obsidianの外部からのドラッグ
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=Obsidianの外部へのファイルのドロップ
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=ホットキーの表示
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=ホットキーの設定
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=ホットキーの削除
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=ホットキーのフィルタリング
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=US以外のキーボードレイアウト
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=デフォルトのキーボードショートカット
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=新しいウィンドウでファイルを開く
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=ファイルを別のウィンドウに移動する
+
+[heading.ribbon/Actions]
+original=Actions
+translation=アクション
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=リボンのカスタマイズ
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=デスクトップ
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=リボンを非表示にする
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=リボンを表示する
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=モバイル
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=クイックアクセス
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=並べ替えと表示
+
+[heading.workspace/Desktop]
+original=Desktop
+translation=デスクトップ
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=モバイル
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=カラースキーム
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=カスタムテーマ
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=カスタムアプリアイコン
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=半透明効果
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=設定を開く
+
+[heading.settings/Desktop]
+original=Desktop
+translation=デスクトップ
+
+[heading.settings/Mobile]
+original=Mobile
+translation=モバイル
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=設定の構成
+
+[heading.settings/General]
+original=General
+translation=一般
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=バージョンとアップデート
+
+[heading.settings/Language]
+original=Language
+translation=言語
+
+[heading.settings/Help]
+original=Help
+translation=ヘルプ
+
+[heading.settings/Account]
+original=Account
+translation=アカウント
+
+[heading.settings/Advanced]
+original=Advanced
+translation=高度な設定
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=起動に時間がかかった場合に通知
+
+[heading.settings/Editor]
+original=Editor
+translation=エディタ
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=常に新しいタブにフォーカス
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=新規タブのデフォルトビュー
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=デフォルト編集モード
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=エディタステータス
+
+[heading.settings/Display]
+original=Display
+translation=表示
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=読みやすい行の長さ
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=厳密な改行
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=ドキュメント内プロパティ
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=見出しのフォールド
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=インデントのフォールド
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=行番号
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=インデントガイド
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=右横書き表示 (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=括弧を自動的にペアリング
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=マークダウン記法を自動的にペアリング
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=スマートインデント
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=タブの使用
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=HTMLの自動変換
+
+[heading.settings/Behavior]
+original=Behavior
+translation=挙動
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=スペルチェック
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=スペルチェックの言語
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=タブの間隔
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Vimのキー設定
+
+[heading.settings/Files and links]
+original=Files and links
+translation=ファイルとリンク
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=新規ノートの作成場所
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=新規添付ファイルの作成場所
+
+[heading.settings/Links]
+original=Links
+translation=リンク
+
+[heading.settings/New link format]
+original=New link format
+translation=新規作成するリンクの形式
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=内部リンクを毎回更新する
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=ウィキリンクの使用
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=すべての種類のファイルを表示
+
+[heading.settings/Trash]
+original=Trash
+translation=ゴミ箱
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=ファイル削除の確認
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=削除されたファイル
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=除外ファイル
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=設定フォルダの優先を切り替える
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=URIコールバックを許可
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=保管庫のキャッシュを再ビルドする
+
+[heading.settings/Appearance]
+original=Appearance
+translation=外観
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=ベーステーマ
+
+[heading.settings/Accent color]
+original=Accent color
+translation=アクセントカラー
+
+[heading.settings/Themes]
+original=Themes
+translation=テーマ
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=現在のコミュニティテーマ
+
+[heading.settings/Font]
+original=Font
+translation=フォント
+
+[heading.settings/Interface font]
+original=Interface font
+translation=インターフェースフォント
+
+[heading.settings/Text font]
+original=Text font
+translation=テキストフォント
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=モノスペースフォント
+
+[heading.settings/Font size]
+original=Font size
+translation=フォントサイズ
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=フォントサイズのクイック調整
+
+[heading.settings/Interface]
+original=Interface
+translation=インターフェース
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=インラインタイトルの表示
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=タブタイトルバーの表示
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=リボンの表示
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=リボンメニュー
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=ズームレベル
+
+[heading.settings/Native menus]
+original=Native menus
+translation=ネイティブメニュー
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=ウィンドウフレームのスタイル
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=カスタムアプリアイコン
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=半透明ウィンドウ
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=ハードウェアアクセラレーション
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=CSSスニペット
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=ホットキー
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=コアプラグイン
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=コミュニティプラグイン
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=制限モード
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=現在インストールされているプラグイン
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=インストールされたプラグイン
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=Catalystティア
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=Catalystの特典へのアクセス
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=フォーラムバッジの取得
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=Discordバッジの取得
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=インサイダーチャンネルへの参加
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=早期アクセスバージョンを有効化する
+
+[heading.credit/Add credit]
+original=Add credit
+translation=クレジットの追加
+
+[heading.credit/Gifting]
+original=Gifting
+translation=ギフト
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=Obsidianクレジットを贈る
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=Obsidianクレジットの受け取り
+
+[heading.payment/Purchase a service or license]
+original=Purchase a service or license
+translation=サービスやライセンスの購入
+
+[heading.payment/Generate an invoice]
+original=Generate an invoice
+translation=請求書の生成
+
+[heading.payment/Editing an invoice]
+original=Editing an invoice
+translation=請求書の編集
+
+[heading.discounts/How to apply]
+original=How to apply
+translation=申請方法
+
+[heading.discounts/How to renew]
+original=How to renew
+translation=更新方法
+
+[heading.discounts/Frequently asked questions]
+original=Frequently asked questions
+translation=よくある質問
+
+[heading.discounts/Refunds]
+original=Refunds
+translation=返金
+
+[heading.sales-tax/Tax exemption]
+original=Tax exemption
+translation=免税
+
+[heading.sales-tax/Applying for an exemption]
+original=Applying for an exemption
+translation=免税の申請
+
+[heading.refunds/Request a refund]
+original=Request a refund
+translation=返金のリクエスト
+
+[heading.refunds/Frequently asked questions]
+original=Frequently asked questions
+translation=よくある質問
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=サポートされているMarkdown拡張機能
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=YouTube動画を埋め込む
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=ツイートを埋め込む
+
+[heading.plugins/slides/Presentations using Slides]
+original=Presentations using Slides
+translation=スライドを使ったプレゼンテーション
+
+[heading.plugins/slides/Formatting]
+original=Formatting
+translation=書式設定
+
+[heading.plugins/slides/Slides]
+original=Slides
+translation=スライド
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=タイトルを変更する
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=折りたたみ可能なコールアウト
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=ネストされたコールアウト
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=コールアウトのカスタマイズ
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=サポートされるタイプ
+
+[heading.tags/Add a tag to a note]
+original=Add a tag to a note
+translation=ノートにタグを追加する
+
+[heading.tags/Find notes using tags]
+original=Find notes using tags
+translation=タグを使ってノートを検索する
+
+[heading.tags/Nested tags]
+original=Nested tags
+translation=ネストされたタグ
+
+[heading.tags/Tag format]
+original=Tag format
+translation=タグの形式
+
+[heading.edit-and-read/Reading view]
+original=Reading view
+translation=リーディングビュー
+
+[heading.edit-and-read/Editing view]
+original=Editing view
+translation=編集ビュー
+
+[heading.edit-and-read/Live Preview]
+original=Live Preview
+translation=ライブプレビュー
+
+[heading.edit-and-read/Source mode]
+original=Source mode
+translation=ソースモード
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=ノートにプロパティを追加する
+
+[heading.properties/Property types]
+original=Property types
+translation=プロパティタイプ
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=高度な使い方
+
+[heading.properties/Search properties]
+original=Search properties
+translation=プロパティを検索する
+
+[heading.properties/Templates]
+original=Templates
+translation=テンプレート
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=プロパティのリネーム
+
+[heading.properties/Display modes]
+original=Display modes
+translation=表示モード
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=CSSスニペット
+
+[heading.properties/Not supported]
+original=Not supported
+translation=未サポート
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=ショートカットキー
+
+[heading.properties/Add a property]
+original=Add a property
+translation=プロパティを追加する
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=プロパティ間を移動する
+
+[heading.properties/Select properties]
+original=Select properties
+translation=プロパティを選択する
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=プロパティを編集する
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim（上級者向け）
+
+[heading.properties/Property format]
+original=Property format
+translation=プロパティの形式
+
+[heading.properties/Text]
+original=Text
+translation=テキスト
+
+[heading.properties/List]
+original=List
+translation=リスト
+
+[heading.properties/Number]
+original=Number
+translation=数値
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=チェックボックス
+
+[heading.properties/Date]
+original=Date
+translation=日付
+
+[heading.properties/Date & time]
+original=Date & time
+translation=日付と時刻
+
+[heading.properties/Tags]
+original=Tags
+translation=タグ
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=JSONプロパティ
+
+[heading.properties/Default properties]
+original=Default properties
+translation=デフォルトプロパティ
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=Obsidian Publish用のプロパティ
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=非推奨プロパティ
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=矩形選択
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=段落
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=改行
+
+[heading.syntax/Headings]
+original=Headings
+translation=見出し
+
+[heading.syntax/This is a heading 1]
+original=This is a heading 1
+translation=これは見出し1です
+
+[heading.syntax/This is a heading 2]
+original=This is a heading 2
+translation=これは見出し2です
+
+[heading.syntax/This is a heading 3]
+original=This is a heading 3
+translation=これは見出し3です
+
+[heading.syntax/This is a heading 4]
+original=This is a heading 4
+translation=これは見出し4です
+
+[heading.syntax/This is a heading 5]
+original=This is a heading 5
+translation=これは見出し5です
+
+[heading.syntax/This is a heading 6]
+original=This is a heading 6
+translation=これは見出し6です
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=ボールド、イタリック、ハイライト
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=内部リンク
+
+[heading.syntax/External links]
+original=External links
+translation=外部リンク
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=リンク内の空白スペースのエスケープ
+
+[heading.syntax/External images]
+original=External images
+translation=外部画像
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=引用
+
+[heading.syntax/Lists]
+original=Lists
+translation=リスト
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=タスクリスト
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=ネストされたリスト
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=水平線
+
+[heading.syntax/Code]
+original=Code
+translation=コード
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=インラインコード
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=コードブロック
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=ネストされたコードブロック
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=脚注
+
+[heading.syntax/Comments]
+original=Comments
+translation=コメント
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=Markdown構文のエスケープ
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=さらに詳しく
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=添付ファイルを追加する
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=デフォルトの添付ファイル保存場所を変更する
+
+[heading.editing-shortcuts/Windows and Linux shortcuts]
+original=Windows and Linux shortcuts
+translation=WindowsおよびLinuxのショートカット
+
+[heading.editing-shortcuts/Common actions]
+original=Common actions
+translation=一般的な操作
+
+[heading.editing-shortcuts/Text editing]
+original=Text editing
+translation=テキスト編集
+
+[heading.editing-shortcuts/Text navigation]
+original=Text navigation
+translation=テキストナビゲーション
+
+[heading.editing-shortcuts/Text selection]
+original=Text selection
+translation=テキスト選択
+
+[heading.editing-shortcuts/macOS shortcuts]
+original=macOS shortcuts
+translation=macOSのショートカット
+
+[heading.editing-shortcuts/Text formatting]
+original=Text formatting
+translation=テキスト書式設定
+
+[heading.advanced-syntax/Tables]
+original=Tables
+translation=表
+
+[heading.advanced-syntax/Format content within a table]
+original=Format content within a table
+translation=表内のコンテンツの書式設定
+
+[heading.advanced-syntax/Diagram]
+original=Diagram
+translation=ダイアグラム
+
+[heading.advanced-syntax/Linking files in a diagram]
+original=Linking files in a diagram
+translation=ダイアグラム内でファイルをリンクする
+
+[heading.advanced-syntax/Math]
+original=Math
+translation=数学
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=HTMLの制限事項
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=HTML内でMarkdownは使えない
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=HTMLブロックは自己完結している必要がある
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=HTML内でMarkdownが動作しているように見える場合
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=HTMLの一般的な使用方法
+
+[heading.html/Comments]
+original=Comments
+translation=コメント
+
+[heading.html/Underline]
+original=Underline
+translation=下線
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=取り消し線
+
+[heading.publish/headless/Quick start]
+original=Quick start
+translation=クイックスタート
+
+[heading.publish/headless/Commands]
+original=Commands
+translation=コマンド
