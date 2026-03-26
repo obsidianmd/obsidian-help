@@ -1,78 +1,220 @@
-Nama tidak disusun berdasarkan jumlah kontribusi, tetapi secara Abjad (atau setidaknya kami mencobanya!).
+---
+permalink: credits
+aliases:
+  - Obsidian/Kredit
+---
+Nama-nama tidak dicantumkan berdasarkan jumlah kontribusi, tetapi secara abjad (atau setidaknya kami berusaha demikian!).
 
-### Tim pengembang
+## Tim
+
+### Pengembangan
 
 - Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
-- Silver (Erica Xu)<span class='flair mod-pop'>Team Little Silvers</span>
+- liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span> <span class='flair mod-pop'>Plugin API Master</span> <span class='flair mod-pop'>Volcano Veteran</span>
+- joethei ([Johannes Theiner](https://joethei.xyz/)) <span class='flair mod-pop'>Plugin API Master</span>
+- tgrosinger ([Tony Grosinger](https://grosinger.net))
+- mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
 
-### Moderator
+### Produk & Operasional
 
-- anthonyg ([Anthony Gold](https://www.anthonypgold.com/))<span class='flair mod-pop' style='background-color:#F1C40F;color:#000;'>Team Gold</span> <span class='flair mod-pop'>Think Tank</span>
+- Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
+- kepano ([Steph Ango](https://stephanango.com/))
+- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Sorcerous Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
+
+## Moderator
+
 - argentum<span class='flair mod-pop'>Team Little Silvers</span> <span class='flair mod-pop'>Linux master</span> <span class='flair mod-pop'>Zotero master</span> ^a4b3a2
 - cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
-- death_au ([website](https://about.me/death.au))<span class='flair mod-pop'>the Magician</span> <span class='flair mod-pop' style='background-color:#F1C40F;color:#000;'>Team Gold</span>
-- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
 - koala<span class='flair mod-pop'>Extreme Bug Finder</span>
 - Leah ([Leah Ferguson](http://leahferguson.com))<span class='flair mod-pop'>Roll for initiative!</span> <span class='flair mod-pop'>Non-techy Apple geek</span>
-- liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span> <span class='flair mod-pop'>Plugin API Master</span> <span class='flair mod-pop'>Volcano Veteran</span>
-- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
-- nickmilo ([Nick Milo](https://publish.obsidian.md/lyt-kit/_START+HERE))<span class='flair mod-pop'>Mappy McMapster</span>
-- Reggie<span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
 - rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair mod-pop'>Forum master</span>
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair mod-pop'>That funny guy</span> <span class='flair mod-pop'>Apple Fanboy</span> <span class='flair mod-pop'>Forum master</span>
-- Sam Baron ([website](https://sambaron.coach/))<span class='flair mod-pop'>Think Tank</span> <span class='flair mod-pop'>Forum master</span>
-- Santi Younger ([website](https://santiyounger.com/))<span class='flair mod-pop'>Forum master</span>
 - WhiteNoise<span class='flair mod-pop'>Think Tank</span> <span class='flair mod-pop'>Zotero master</span> <span class='flair mod-pop'>Bug report exterminator</span>
+- CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair mod-pop'>embedded-search ambassador</span>
+- Trainbuffer <span class='flair mod-pop'> ferroequinologist</span> <span class='flair mod-pop'>Travels by rail</span>
+- Roam ([Roman Soriano](https://leftovers.blog/)) <span class='flair mod-pop'>Not <i>that</i> one</span>
+- Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair mod-pop'>Templater Templar</span><span class='flair mod-pop'>Board Gamer</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
 
-### Inspirasi plugin
+### Pensiun
 
-Sebagai penghargaan terhadap pengembah plugin untuk kepeloporan fungsi yang diadaptasikan ke dalam Obsidian:
+- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
+- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
+
+## Inspirasi Plugin
+
+Penghargaan kepada para pengembang plugin ini yang telah merintis fungsionalitas yang diadaptasi ke dalam Obsidian:
+
 - pjeby untuk plugin Hotkey Helper
 - javalent untuk plugin Admonition
-- NothingIsLost untuk beberapa peningkatan CodeMirror 6
+- NothingIsLost untuk peningkatan CodeMirror 6
 - mgmeyers untuk plugin Indentation Guides
+- blacksmithgu untuk Dataview
 
-### Build
+## Build
 
-- jstone untuk mengelola build kami di flathub
-- adamgibbins dan ran-dall untuk mengelola build kami di homebrew
+- jstone untuk memelihara build kami di flathub
+- adamgibbins dan ran-dall untuk memelihara build kami di homebrew
 
-### Penerjemah
+## Penerjemah
 
-- Andrea Brandi (Italian)
-- bongudth (Vietnamese)
-- canzi-teacher, 蚕子 (Simplified Chinese)
-- Daniel Mathiot (French)
-- Diego Tres (Brazilian Portuguese)
-- Haitham Mohamed (Arabic)
-- Henrik Falk (Danish)
-- Joffrey Schroeder (French) 
-- JxhnnyUt8h (Russian)
-- k-andzhanovskii, Константин Анджановский (Russian)
-- lisachev, Сергей Лисачев (Russian)
-- mafsi, Patrick Danilevici (Romanian)
-- Manuel Arias Almada (Spanish)
-- Muhammad Mauli Mubassari (Indonesian)
-- Olivier Anthonioz (French) 
+- Andrea Brandi (Italia)
+- Anne-Katrin aka Mephi (Jerman)
+- bongudth (Vietnam)
+- canzi-teacher, 蚕子 (Tionghoa Sederhana)
+- cor-bee, Ілля Пишняк (Ukraina)
+- cvyl, Mikka (Belanda)
+- Daniel Mathiot (Prancis)
+- Diego Tres (Portugis Brasil)
+- Haitham Mohamed (Arab)
+- Henrik Falk (Denmark)
+- Joffrey Schroeder (Prancis) 
+- JxhnnyUt8h (Rusia)
+- k-andzhanovskii, Константин Анджановский (Rusia)
+- lisachev, Сергей Лисачев (Rusia)
+- mafsi, Patrick Danilevici (Rumania)
+- Manuel Arias Almada (Spanyol)
+- Muhammad Mauli Mubassari (Indonesia)
+- Olivier Anthonioz (Prancis) 
+- Ryooo，睿悠ryooo (Tionghoa Sederhana)
 - Sakvipubp Suy (Khmer)
-- smilorent, Silviu Lorenț (Romanian)
+- smilorent, Silviu Lorenț (Rumania)
 - Solyta Teng (Khmer)
-- taksas, 中山 拓海 (Japanese)
-- VKondakoff, Валерий Кондаков (Russian)
-- yo-goto, ぱだわん (Japanese)
-- Zachary Shirmohammadli (Persian) 
+- taksas, 中山 拓海 (Jepang)
+- VKondakoff, Валерий Кондаков (Rusia)
+- yo-goto, ぱだわん (Jepang)
+- Zachary Shirmohammadli (Persia) 
 
-### Dokumentasi
+## Dokumentasi
 
-Versi pertama dari vault bantuan ditulis oleh Silver. Bagian selanjutnya ditulis oleh [@mediapathic](http://mediapathic.net), dengan banyak bantuan dari Reggie. Kami juga mendapatkan koreksi dari banyak pasang mata di komunitas Discord dan forum.
+Versi pertama vault bantuan ditulis oleh Silver. Bagian selanjutnya ditulis oleh [@mediapathic](http://mediapathic.net), dengan bantuan besar dari Reggie. Kami juga mendapat koreksi dari banyak pasang mata di komunitas Discord dan forum.
 
-Dokumentasi sekarang dikelola oleh [Marcus Olsson](https://marcus.se.net/).
+Dokumentasi ini dipelihara oleh [Marcus Olsson](https://marcus.se.net/) untuk sementara waktu. Saat ini dipelihara oleh tim Obsidian.
 
-Kami sekarang menerima pull request untuk vault bantuan pada [repositori bantuan kami](https://github.com/obsidianmd/obsidian-docs/).
+Kami sekarang menerima pull request ke vault bantuan di [repositori dokumentasi kami](https://github.com/obsidianmd/obsidian-docs/). Isu juga diterima.
 
-##### Menambahkan nama Anda
+### Tambahkan nama Anda
 
-Jika Anda seorang penerjemah, harap membuat pull request untuk menambahkan "Nama Anda (bahasa yang dikontribusikan)" pada bagian di atas. Harap tetap mengurutkan nama secara abjad. terima kasih!
+Jika Anda seorang penerjemah, silakan buat pull request untuk menambahkan "Nama Anda (bahasa yang dikontribusikan)" ke bagian di atas. Harap pertahankan daftar nama secara abjad, terima kasih!
 
-Jika nama Anda bukan berbahasa Inggris dan tidak dapat diurutkan secara abjad, gunakan format ini: `nama-pengguna-github-anda, [nama Anda dalam bahasa Anda] (Nama Bahasa)`.
+Jika nama Anda tidak dalam bahasa Inggris dan tidak bisa diurutkan secara abjad, gunakan format ini: `nama-pengguna-github-anda, [nama Anda dalam bahasa Anda] (Nama Bahasa)`.
+
+## Penghargaan pihak ketiga
+
+Obsidian menggunakan pustaka sumber terbuka di bawah ini (dalam urutan abjad):
+
+### Capacitor
+
+Versi `5.x`
+MIT License
+Copyright (c) 2017-present Drifty Co.
+
+### CodeMirror
+
+Vim Versi `6.0.0`
+MIT License
+Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@adrianheine.de>, and others
+
+### DOMPurify
+
+https://github.com/cure53/DOMPurify
+Dilisensikan di bawah [Mozilla Public License versi 2.0](http://mozilla.org/MPL/2.0/)
+
+### Electron
+
+Versi `37.3.0`
+MIT License
+Copyright (c) Electron contributors
+Copyright (c) 2013-2020 GitHub Inc.
+
+### i18next
+
+MIT License
+Copyright (c) 2022 i18next
+
+### Lezer
+
+MIT License
+Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
+
+### Lucide
+
+Versi `0.446.0`
+ISC License
+Copyright (c) 2020, Lucide Contributors ^lucide
+
+### MathJax
+
+Apache License 2.0
+
+### Mermaid
+
+Versi `11.4.1`
+MIT License
+Copyright (c) 2014 - 2022 Knut Sveidqvist
+
+### Moment.js
+
+Versi `2.29.4`
+MIT License
+Copyright (c) JS Foundation and other contributors
+
+### pdf.js
+
+Apache License 2.0
+
+### PixiJS
+
+MIT License
+Copyright (c) 2013-2017 Mathew Groves, Chad Engler
+
+### Prism
+
+Versi `1.29.0`
+MIT License
+Copyright (c) 2012 Lea Verou
+
+### rbush
+
+MIT License
+Copyright (c) 2016 Vladimir Agafonkin
+
+### remark
+
+MIT License
+Copyright (c) 2014-2020 Titus Wormer <tituswormer@gmail.com>
+Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
+
+### reveal.js
+
+Versi `4.3.1`
+The MIT License
+Copyright (C) 2011-2022 Hakim El Hattab, http://hakim.se, and reveal.js contributors
+
+### scrypt
+
+Apache License 2.0
+
+### Turndown
+
+MIT License
+Copyright (c) 2017 Dom Christie
+
+### Webpack
+
+MIT License
+Copyright JS Foundation and other contributors
+
+### YAML
+
+Versi `2.7.0`
+ISC License
+Copyright Eemeli Aro <eemeli@gmail.com>
+
+## Logo sebelumnya
+
+Logo Obsidian yang digunakan sebelum v1.3.5 diadaptasi dari:
+
+[Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
+Oleh [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
+Lisensi: Attribution 3.0 Unported (CC BY 3.0)
