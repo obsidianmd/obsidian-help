@@ -46,6 +46,7 @@ You can use any of the following characters in your tags:
 - Underscore (`_`)
 - Hyphen (`-`)
 - Forward slash (`/`) for [[#Nested tags]]
+- Commonly accepted Unicode characters, including emojis and other symbols
 
 Tags must contain at least one non-numerical character. For example, #1984 isn't a valid tag, but #y1984 is.
 
