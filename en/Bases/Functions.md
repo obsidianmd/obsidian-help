@@ -145,7 +145,7 @@ Global functions are used without a type.
 `random(): number`
 
 - `random()` returns a random number between 0 and 1.
-- The number generation refreshes whenever a view is loaded, so navigating between views changes the random number.
+- The number generation refreshes whenever a view is loaded. Navigating between views changes the random number.
 
 ## Any
 
