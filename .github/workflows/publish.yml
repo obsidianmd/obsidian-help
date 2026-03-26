@@ -33,31 +33,24 @@ jobs:
         working-directory: scripts
 
       # Discover all help-* sites from the account and link any whose
-      # locale directory exists in the repo (help → en, help-<xx> → <xx>)
+      # locale directory exists in the repo (help → en, help-<xx> → <xx>).
+      # Uses a temp file instead of a pipe so ob publish-setup runs in the
+      # main shell and its config writes are visible to subsequent steps.
       - name: Link publish sites
         run: |
-          echo "Fetching site list..."
-          sites=$(ob publish-list-sites 2>&1) || true
-          echo "$sites"
-          [ -z "$sites" ] && echo "ERROR: ob publish-list-sites returned no output" && exit 1
+          ob publish-list-sites | grep -E '^\s+[0-9a-f]{32}\s+"help' > /tmp/sites.txt
+          cat /tmp/sites.txt
 
-          echo "$sites" | grep -E '^\s+[0-9a-f]{32}\s+"help' | while read -r siteId slug; do
+          while read -r siteId slug; do
             slug="${slug//\"/}"
-            if [ "$slug" = "help" ]; then
-              locale="en"
-            else
-              locale="${slug#help-}"
-            fi
+            locale=$( [ "$slug" = "help" ] && echo "en" || echo "${slug#help-}" )
             if [ -d "$GITHUB_WORKSPACE/$locale" ]; then
               echo "Linking $locale ($siteId)..."
               ob publish-setup --site "$siteId" --path "$GITHUB_WORKSPACE/$locale"
             else
               echo "Skipping $slug — no $locale/ directory"
             fi
-          done
-
-          echo "Configured sites:"
-          ls ~/.obsidian-headless/publish/ 2>/dev/null || echo "(none)"
+          done < /tmp/sites.txt
 
       - name: Update publish.js
         run: npx tsx scripts/build-publish-js.ts
