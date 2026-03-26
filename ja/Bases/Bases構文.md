@@ -62,6 +62,12 @@ views:
 デフォルトでは、ベースは保管庫内のすべてのファイルを含みます。SQLやDataviewのような`from`や`source`はありません。`filters`セクションでは、データセットを絞り込むための条件を定義できます。
 
 ```yaml
+# シンプルなフィルター:
+filters:
+  and:
+    - file.hasTag("tag")
+
+# 複雑なフィルター:
 filters:
   or:
     - file.hasTag("tag")

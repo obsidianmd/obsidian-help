@@ -71,6 +71,7 @@ Obsidianの各部分を簡単に変更できる多数の[CSS変数](https://docs
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 
