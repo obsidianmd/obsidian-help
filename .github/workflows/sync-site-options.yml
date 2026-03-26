@@ -1,0 +1,43 @@
+name: Sync site options
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      OBSIDIAN_AUTH_TOKEN: ${{ secrets.OB_AUTH_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install ob CLI
+        run: npm install -g obsidian-headless
+
+      - name: Install script dependencies
+        run: npm install
+        working-directory: scripts
+
+      - name: Link publish sites
+        run: |
+          ob publish-list-sites | grep -E '^\s+[0-9a-f]{32}\s+"help' > /tmp/sites.txt
+          cat /tmp/sites.txt
+
+          while read -r siteId slug; do
+            slug="${slug//\"/}"
+            locale=$( [ "$slug" = "help" ] && echo "en" || echo "${slug#help-}" )
+            if [ -d "$GITHUB_WORKSPACE/$locale" ]; then
+              echo "Linking $locale ($siteId)..."
+              ob publish-setup --site "$siteId" --path "$GITHUB_WORKSPACE/$locale"
+            else
+              echo "Skipping $slug — no $locale/ directory"
+            fi
+          done < /tmp/sites.txt
+
+      - name: Sync site options from EN
+        run: npx tsx scripts/sync-site-options.ts
