@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=خانه
+
+[file.2fa]
+original=2-factor authentication
+translation=احراز هویت دو مرحله‌ای
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=سینتکس قالب‌بندی پیشرفته
+
+[file.aliases]
+original=Aliases
+translation=دگرنام
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian برای Android
+
+[file.appearance]
+original=Appearance
+translation=چهره
+
+[file.attachments]
+original=Attachments
+translation=پیوست‌ها
+
+[file.backup]
+original=Back up your Obsidian files
+translation=پشتیبان‌گیری از فایل‌های Obsidian
+
+[file.bases]
+original=Introduction to Bases
+translation=معرفی پایگاه‌ها
+
+[file.bases/create-base]
+original=Create a base
+translation=ساختن یک پایگاه
+
+[file.bases/functions]
+original=Functions
+translation=توابع
+
+[file.bases/syntax]
+original=Bases syntax
+translation=سینتکس پایگاه‌ها
+
+[file.bases/views]
+original=Views
+translation=نماها
+
+[file.bases/views/cards]
+original=Cards view
+translation=نمای کارت‌ها
+
+[file.bases/views/list]
+original=List view
+translation=نمای فهرست
+
+[file.bases/views/map]
+original=Map view
+translation=نمای نقشه
+
+[file.bases/views/table]
+original=Table view
+translation=نمای جدول
+
+[file.callouts]
+original=Callouts
+translation=فراخوان‌ها
+
+[file.catalyst]
+original=Catalyst license
+translation=پروانه‌ی کاتالیست
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=آیین‌نامه‌ی رفتار جامعه
+
+[file.community-plugins]
+original=Community plugins
+translation=افزونه‌های انجمن
+
+[file.configuration-folder]
+original=Configuration folder
+translation=پوشه پیکربندی
+
+[file.create-note]
+original=Create your first note
+translation=ساختن اولین یادداشت
+
+[file.credit]
+original=Obsidian Credit
+translation=اعتبار Obsidian
+
+[file.credits]
+original=Credits
+translation=دست‌اندرکاران
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=نحوه ذخیره‌سازی داده‌ها در Obsidian
+
+[file.developers]
+original=Developers
+translation=توسعه‌دهندگان
+
+[file.discounts]
+original=Education and non-profit discount
+translation=تخفیف آموزشی و غیرانتفاعی
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=کشیدن و رها کردن
+
+[file.early-access]
+original=Early access versions
+translation=نسخه‌های دسترسی زودهنگام
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=نماها و حالت ویرایش
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=میانبرهای ویرایش
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=جاسازی صفحات وب
+
+[file.embeds]
+original=Embed files
+translation=جاسازی فایل‌ها
+
+[file.file-formats]
+original=Accepted file formats
+translation=قالب‌های فایل پذیرفته‌شده
+
+[file.financial-contributions]
+original=Financial contributions
+translation=مشارکت‌های مالی
+
+[file.folding]
+original=Folding
+translation=تا کردن
+
+[file.formulas]
+original=Formulas
+translation=فرمول‌ها
+
+[file.glossary]
+original=Glossary
+translation=واژه‌نامه
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=میانبرها
+
+[file.html]
+original=HTML content
+translation=محتوای HTML
+
+[file.import]
+original=Import notes
+translation=درج یادداشت‌ها
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=درج از Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=درج از Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=درج از Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=درج از Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=درج فایل‌های CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=درج از Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=درج از Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=درج فایل‌های HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=درج فایل‌های Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=درج از Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=درج از Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=درج از Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=درج فایل‌های Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=درج یادداشت‌های Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=بارگیری و نصب Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian برای iOS و iPadOS
+
+[file.language]
+original=Language settings
+translation=تنظیمات زبان
+
+[file.link-notes]
+original=Link notes
+translation=پیوند دادن یادداشت‌ها
+
+[file.links]
+original=Internal links
+translation=پیوندهای داخلی
+
+[file.manage-notes]
+original=Manage notes
+translation=مدیریت یادداشت‌ها
+
+[file.manage-vaults]
+original=Manage vaults
+translation=مدیریت گاوصندوق‌ها
+
+[file.mobile]
+original=Mobile app
+translation=برنامه موبایل
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=نشانگرهای چندگانه
+
+[file.obsidian]
+original=About Obsidian
+translation=درباره‌ی Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=وبگاه رسمی
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=مقدمه‌ای بر پروانه‌ها و پرداخت
+
+[file.plugin-security]
+original=Plugin security
+translation=امنیت افزونه‌ها
+
+[file.plugins]
+original=Core plugins
+translation=افزونه‌های اصلی
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=ضبط صوت
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=پشت‌وندها
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=نشانک‌ها
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=فرمان‌دان
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=روزنوشت‌ها
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=مرورگر فایل
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=بازیابی پرونده
+
+[file.plugins/format-converter]
+original=Format converter
+translation=واردکننده‌ی قالب مارک‌داون
+
+[file.plugins/graph]
+original=Graph view
+translation=نمای نمودار
+
+[file.plugins/importer]
+original=Importer
+translation=درج‌کننده
+
+[file.plugins/note-composer]
+original=Note composer
+translation=یادداشت‌ساز
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=پیوندهای برون‌رو
+
+[file.plugins/outline]
+original=Outline
+translation=نمای کلی
+
+[file.plugins/page-preview]
+original=Page preview
+translation=پیش‌نمایش صفحه
+
+[file.plugins/properties]
+original=Properties view
+translation=نمای ویژگی‌ها
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=پرش سریع
+
+[file.plugins/random-note]
+original=Random note
+translation=یادداشت تصادفی
+
+[file.plugins/search]
+original=Search
+translation=جستجو
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=فرمان‌های کج‌خط
+
+[file.plugins/slides]
+original=Slides
+translation=نمابرگ
+
+[file.plugins/tags]
+original=Tags view
+translation=برگ برچسب
+
+[file.plugins/templates]
+original=Templates
+translation=الگوها
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=یادداشت‌یکتاساز
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=نمایش‌گر وب
+
+[file.plugins/word-count]
+original=Word count
+translation=واژه‌شمار
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=فضاهای کاری
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=پنجره‌های بازشو
+
+[file.properties]
+original=Properties
+translation=ویژگی‌ها
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=مقدمه‌ای بر Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=تحلیل‌ها
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=همکاری در وبگاه Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=سفارشی‌سازی وبگاه
+
+[file.publish/domains]
+original=Custom domains
+translation=دامنه‌های دلخواه
+
+[file.publish/headless]
+original=Headless Publish
+translation=Publish بدون رابط کاربری
+
+[file.publish/limitations]
+original=Publish limitations
+translation=محدودیت‌های Publish
+
+[file.publish/media]
+original=Media files
+translation=فایل‌های رسانه‌ای
+
+[file.publish/permalinks]
+original=Permalinks
+translation=پیوندهای ثابت
+
+[file.publish/publish]
+original=Publish your content
+translation=انتشار محتوا
+
+[file.publish/security]
+original=Security and privacy
+translation=امنیت و حریم خصوصی
+
+[file.publish/seo]
+original=SEO
+translation=سئو
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=راه‌اندازی Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=مدیریت وبگاه‌ها
+
+[file.publish/social-share]
+original=Social media link previews
+translation=پیش‌نمایش پیوند در شبکه‌های اجتماعی
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=عیب‌یابی Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=سیاست بازپرداخت
+
+[file.resources]
+original=Help and support
+translation=راهنما و پشتیبانی
+
+[file.ribbon]
+original=Ribbon
+translation=روبان
+
+[file.sales-tax]
+original=Sales tax
+translation=مالیات بر فروش
+
+[file.sandbox]
+original=Sandbox vault
+translation=خزانه سندباکس
+
+[file.settings]
+original=Settings
+translation=تنظیمات
+
+[file.sidebar]
+original=Sidebar
+translation=نوار کناری
+
+[file.snippets]
+original=CSS snippets
+translation=تکه‌کدهای CSS
+
+[file.status-bar]
+original=Status bar
+translation=نوار وضعیت
+
+[file.style-guide]
+original=Style guide
+translation=راهنمای سبک
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=پیوندهای نمادین و اتصالات
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=معرفی Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=همگام‌سازی یادداشت‌ها در دستگاه‌ها
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=همکاری در خزانه مشترک
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=پرسش‌های متداول
+
+[file.sync/headless]
+original=Headless Sync
+translation=همگام‌سازی بدون رابط کاربری
+
+[file.sync/messages]
+original=Status icon and messages
+translation=نماد وضعیت و پیام‌ها
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=ارتقا رمزگذاری Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=طرح‌ها و محدودیت‌های فضای ذخیره‌سازی
+
+[file.sync/region]
+original=Sync regions
+translation=مناطق Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=امنیت و حریم خصوصی
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=تنظیمات همگام‌سازی و همگام‌سازی گزینشی
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=راه‌اندازی Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=مهاجرت به Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=عیب‌یابی Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=خزانه‌های محلی و راه‌دور
+
+[file.sync/version-history]
+original=Version history
+translation=تاریخچه‌ی نسخه‌ها
+
+[file.syntax]
+original=Basic formatting syntax
+translation=سینتکس قالب‌بندی پایه
+
+[file.tabs]
+original=Tabs
+translation=زبانه‌ها
+
+[file.tags]
+original=Tags
+translation=برچسب‌ها
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian برای تیم‌ها
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=استقرار Obsidian در تیم شما
+
+[file.teams/license]
+original=Commercial license
+translation=پروانه‌ی تجاری
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publish برای تیم‌ها
+
+[file.teams/security]
+original=Security considerations for teams
+translation=ملاحظات امنیتی برای تیم‌ها
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Sync برای تیم‌ها
+
+[file.themes]
+original=Themes
+translation=پوسته‌ها
+
+[file.translations]
+original=Translations
+translation=ترجمه‌ها
+
+[file.updates]
+original=Update Obsidian
+translation=به‌روزرساندن Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=ایجاد یک خزانه
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=معرفی Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=برش صفحات وب
+
+[file.web-clipper/filters]
+original=Filters
+translation=پالایه‌ها
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=هایلایت صفحات وب
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=تفسیر صفحات وب
+
+[file.web-clipper/logic]
+original=Logic
+translation=منطق
+
+[file.web-clipper/reader]
+original=Reader
+translation=خواننده
+
+[file.web-clipper/templates]
+original=Templates
+translation=الگوها
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=عیب‌یابی Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=متغیرها
+
+[file.workspace]
+original=Workspace
+translation=فضای کاری
+
+[folder.audio]
+original=audio
+translation=صوت
+
+[folder.Changelog]
+original=Changelog
+translation=تغییرات
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=مشارکت در Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=ویرایش و قالب‌بندی
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=گسترش Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=فایل‌ها و پوشه‌ها
+
+[folder.Getting started]
+original=Getting started
+translation=شروع به کار
+
+[folder.icons]
+original=icons
+translation=نمادها
+
+[folder.Import notes]
+original=Import notes
+translation=درج یادداشت‌ها
+
+[folder.Layouts]
+original=Layouts
+translation=چیدمان
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=پروانه و پرداخت
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=پیوند یادداشت‌ها و فایل‌ها
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Plugins
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=رابط کاربری
+
+[folder.video]
+original=video
+translation=ویدیو
