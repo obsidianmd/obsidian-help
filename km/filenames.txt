@@ -556,7 +556,7 @@ translation=សុវត្ថិភាព និងឯកជនភាព
 
 [file.sync/settings]
 original=Sync settings and selective syncing
-translation=ការកំណត់ Sync និងជ្រើសរើorg សមកាលកម្ម
+translation=ការកំណត់ Sync និងជ្រើសរើស សមកាលកម្ម
 
 [file.sync/setup]
 original=Set up Obsidian Sync

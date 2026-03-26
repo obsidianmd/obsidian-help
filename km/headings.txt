@@ -1042,6 +1042,62 @@ translation=កំណែការអ៊ិនគ្រីប
 original=Upgrade encryption with the migration assistant
 translation=អាប់ដេតការអ៊ិនគ្រីបដោយប្រើជំនួយការផ្ទេរ
 
+[heading.sync/Encryption]
+original=Encryption
+translation=ការអ៊ិនគ្រីប
+
+[heading.sync/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=តើការអ៊ិនគ្រីបពីចុងដល់ចុងមានន័យដូចម្តេច?
+
+[heading.sync/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=តើអ្វីជាហានិភ័យនៃការប្រើការអ៊ិនគ្រីបស្តង់ដារ?
+
+[heading.sync/What encryption do you use?]
+original=What encryption do you use?
+translation=តើអ្នកប្រើការអ៊ិនគ្រីបអ្វី?
+
+[heading.sync/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=តើខ្ញុំអាចផ្ទៀងផ្ទាត់ថាទិន្នន័យរបស់ខ្ញុំត្រូវបានអ៊ិនគ្រីបពីចុងដល់ចុងបានទេ?
+
+[heading.sync/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=តើ Obsidian បានបញ្ចប់ការត្រួតពិនិត្យសុវត្ថិភាពពីភាគីទីបីទេ?
+
+[heading.sync/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=តើមានអ្វីកើតឡើងប្រសិនបើខ្ញុំភ្លេចពាក្យសម្ងាត់អ៊ិនគ្រីបរបស់ខ្ញុំ?
+
+[heading.sync/Hosting]
+original=Hosting
+translation=ការបង្ហោះ
+
+[heading.sync/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=តើអ្នកបង្ហោះម៉ាស៊ីនបម្រើសម្រាប់ Obsidian Sync នៅទីណា?
+
+[heading.sync/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=តើខ្ញុំអាចស្វែងរកម៉ាស៊ីនបម្រើ Sync បច្ចុប្បន្នរបស់ខ្ញុំ និងទីតាំងរបស់វានៅទីណា?
+
+[heading.sync/Network and access]
+original=Network and access
+translation=បណ្ដាញ និងការចូលប្រើ
+
+[heading.sync/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=ការគ្រប់គ្រងការចូលប្រើ Obsidian Sync នៅលើបណ្ដាញរបស់អ្នក
+
+[heading.sync/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=ការអ៊ិនគ្រីប file-hash ប្រភេទ deterministic
+
+[heading.sync/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=គ្មានការចងគ្រីបតូក្រាហ្វិករវាងផ្លូវ និងមាតិកា
+
 [heading.web-clipper/Activate reading mode]
 original=Activate reading mode
 translation=បើកដំណើរការរបៀបអាន
@@ -1930,62 +1986,138 @@ translation=បញ្ជីភារកិច្ច
 original=Nesting lists
 translation=បញ្ជីដាក់ក្នុង
 
-[heading.sync/security/Encryption]
-original=Encryption
-translation=ការអ៊ិនគ្រីប
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=វាក្យបច្ចេកទេស និងវេយ្យាករណ៍
 
-[heading.sync/security/What does end-to-end encryption mean?]
-original=What does end-to-end encryption mean?
-translation=តើការអ៊ិនគ្រីបពីចុងដល់ចុងមានន័យដូចម្តេច?
+[heading.style-guide/Language style]
+original=Language style
+translation=រចនាប័ទ្មភាសា
 
-[heading.sync/security/What are the risks of using standard encryption?]
-original=What are the risks of using standard encryption?
-translation=តើអ្វីជាហានិភ័យនៃការប្រើការអ៊ិនគ្រីបស្តង់ដារ?
+[heading.style-guide/Terms]
+original=Terms
+translation=ពាក្យ
 
-[heading.sync/security/What encryption do you use?]
-original=What encryption do you use?
-translation=តើអ្នកប្រើការអ៊ិនគ្រីបអ្វី?
+[heading.style-guide/Product names]
+original=Product names
+translation=ឈ្មោះផលិតផល
 
-[heading.sync/security/Can I verify that my data is end-to-end encrypted?]
-original=Can I verify that my data is end-to-end encrypted?
-translation=តើខ្ញុំអាចផ្ទៀងផ្ទាត់ថាទិន្នន័យរបស់ខ្ញុំត្រូវបានអ៊ិនគ្រីបពីចុងដល់ចុងបានទេ?
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=ចំណុចប្រទាក់ និងការប្រព្រឹត្ត
 
-[heading.sync/security/Has Obsidian completed a third-party security audit?]
-original=Has Obsidian completed a third-party security audit?
-translation=តើ Obsidian បានបញ្ចប់ការត្រួតពិនិត្យសុវត្ថិភាពពីភាគីទីបីទេ?
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=កំណត់ត្រា ឯកសារ និងថត
 
-[heading.sync/security/What happens if I forget my encryption password?]
-original=What happens if I forget my encryption password?
-translation=តើមានអ្វីកើតឡើងប្រសិនបើខ្ញុំភ្លេចពាក្យសម្ងាត់អ៊ិនគ្រីបរបស់ខ្ញុំ?
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=ឯកសារយោងសម្រាប់ការកំណត់
 
-[heading.sync/security/Hosting]
-original=Hosting
-translation=ការបង្ហោះ
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=ពាក្យដែលបង្ហាញទិសដៅ
 
-[heading.sync/security/Where do you host the servers for Obsidian Sync?]
-original=Where do you host the servers for Obsidian Sync?
-translation=តើអ្នកបង្ហោះម៉ាស៊ីនបម្រើសម្រាប់ Obsidian Sync នៅទីណា?
+[heading.style-guide/Instructions]
+original=Instructions
+translation=ការណែនាំ
 
-[heading.sync/security/Where can I find my current Sync server and where is it hosted?]
-original=Where can I find my current Sync server and where is it hosted?
-translation=តើខ្ញុំអាចស្វែងរកម៉ាស៊ីនបម្រើ Sync បច្ចុប្បន្នរបស់ខ្ញុំ និងទីតាំងរបស់វានៅទីណា?
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=អក្សរធំ-តូច​ក្នុងប្រយោគ
 
-[heading.sync/security/Network and access]
-original=Network and access
-translation=បណ្ដាញ និងការចូលប្រើ
+[heading.style-guide/Examples]
+original=Examples
+translation=ឧទាហរណ៍
 
-[heading.sync/security/Managing access to Obsidian Sync on your network]
-original=Managing access to Obsidian Sync on your network
-translation=ការគ្រប់គ្រងការចូលប្រើ Obsidian Sync នៅលើបណ្ដាញរបស់អ្នក
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=ឈ្មោះគ្រាប់ចុច និងផ្លូវកាត់ក្តារចុច
 
-[heading.sync/security/Limitations]
-original=Limitations
-translation=ដែនកំណត់
+[heading.style-guide/Images]
+original=Images
+translation=រូបភាព
 
-[heading.sync/security/Deterministic file-hash encryption]
-original=Deterministic file-hash encryption
-translation=ការអ៊ិនគ្រីប file-hash ប្រភេទ deterministic
+[heading.style-guide/Information structure]
+original=Information structure
+translation=រចនាសម្ព័ន្ធព័ត៌មាន
 
-[heading.sync/security/No cryptographic binding between path and content]
-original=No cryptographic binding between path and content
-translation=គ្មានការចងគ្រីបតូក្រាហ្វិករវាងផ្លូវ និងមាតិកា
+[heading.style-guide/Callout types]
+original=Callout types
+translation=ប្រភេទ callout
+
+[heading.bases/functions/Global]
+original=Global
+translation=ជាសកល
+
+[heading.bases/functions/Any]
+original=Any
+translation=ណាមួយ
+
+[heading.bases/functions/Date]
+original=Date
+translation=កាលបរិច្ឆេទ
+
+[heading.bases/functions/Fields]
+original=Fields
+translation=វាល
+
+[heading.bases/functions/String]
+original=String
+translation=ខ្សែអក្សរ
+
+[heading.bases/functions/Number]
+original=Number
+translation=លេខ
+
+[heading.bases/functions/List]
+original=List
+translation=បញ្ជី
+
+[heading.bases/functions/Link]
+original=Link
+translation=តំណភ្ជាប់
+
+[heading.bases/functions/File]
+original=File
+translation=ឯកសារ
+
+[heading.bases/functions/Object]
+original=Object
+translation=វត្ថុ
+
+[heading.bases/functions/Regular expression]
+original=Regular expression
+translation=កន្សោមទៀងទាត់
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=ដែនកំណត់ HTML
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=គ្មាន Markdown នៅក្នុង HTML
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=ប្លុក HTML ត្រូវតែមានលក្ខណៈ self-contained
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=នៅពេល Markdown ហាក់ដូចជាដំណើរការនៅក្នុង HTML
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=ការប្រើប្រាស់ HTML ទូទៅ
+
+[heading.html/Comments]
+original=Comments
+translation=មតិយោបល់
+
+[heading.html/Underline]
+original=Underline
+translation=គូសបន្ទាត់ក្រោម
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=គូសបន្ទាត់កាត់
