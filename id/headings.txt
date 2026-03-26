@@ -1,0 +1,4035 @@
+[heading.ribbon/Actions]
+original=Actions
+translation=Aksi
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=Kustomisasi bilah alat
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=Menyembunyikan bilah alat
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=Menampilkan bilah alat
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=Seluler
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=Akses cepat
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=Mengatur ulang dan visibilitas
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=Buka bilah samping tersembunyi
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=Desktop dan tablet yang lebih besar
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=Perangkat seluler dan tablet yang lebih kecil
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=Tab
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=Buka atau buka kembali tab
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=Tutup tab
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=Atur ulang tab
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=Sematkan tab
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=Grup tab
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=Buat grup tab
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=Tutup grup tab
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=Membuka file di jendela baru
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=Memindahkan file ke jendela lain
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=Buka Pengaturan
+
+[heading.settings/Mobile]
+original=Mobile
+translation=Seluler
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=Organisasi pengaturan
+
+[heading.settings/General]
+original=General
+translation=Umum
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=Versi dan pembaruan
+
+[heading.settings/Language]
+original=Language
+translation=Bahasa
+
+[heading.settings/Help]
+original=Help
+translation=Bantuan
+
+[heading.settings/Account]
+original=Account
+translation=Akun
+
+[heading.settings/Advanced]
+original=Advanced
+translation=Lanjutan
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=Beri tahu jika startup lebih lama dari perkiraan
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=Selalu fokus ke tab baru
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=Tampilan bawaan untuk tab baru
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=Mode ubah bawaan
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=Status Pengubah
+
+[heading.settings/Display]
+original=Display
+translation=Tampilan
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=Panjang baris yang dapat dibaca
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=Pemisah baris ketat
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=Properti di dokumen
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=Lipat judul
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=Lipat indentasi
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=Nomor baris
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=Bantuan indentasi
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=Kanan-ke-Kiri (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=Pasangkan tanda kurung otomatis
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=Pasangkan sintaks Markdown otomatis
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=Daftar cerdas
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=Gunakan tab
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=Ubah HTML otomatis
+
+[heading.settings/Behavior]
+original=Behavior
+translation=Perilaku
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=Pemeriksa ejaan
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=Bahasa pemeriksa ejaan
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=Ukuran tab
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Key binding Vim
+
+[heading.settings/Files and links]
+original=Files and links
+translation=Berkas dan tautan
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=Lokasi bawaan untuk catatan baru
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=Lokasi bawaan untuk lampiran baru
+
+[heading.settings/Links]
+original=Links
+translation=Tautan
+
+[heading.settings/New link format]
+original=New link format
+translation=Format tautan baru
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=Secara otomatis perbarui tautan internal
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=Gunakan Wikilink
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=Tampilkan semua jenis berkas
+
+[heading.settings/Trash]
+original=Trash
+translation=Tempat sampah
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=Konfirmasi penghapusan file
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=Berkas terhapus
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=Berkas yang dikecualikan
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=Timpa folder konfigurasi
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=Izinkan callback URI
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=Bangun ulang cache brankas
+
+[heading.settings/Appearance]
+original=Appearance
+translation=Tampilan
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=Tema dasar
+
+[heading.settings/Accent color]
+original=Accent color
+translation=Warna aksen
+
+[heading.settings/Themes]
+original=Themes
+translation=Tema
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=Tema komunitas terkini
+
+[heading.settings/Interface font]
+original=Interface font
+translation=Font antarmuka
+
+[heading.settings/Text font]
+original=Text font
+translation=Font teks
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=Font monospace
+
+[heading.settings/Font size]
+original=Font size
+translation=Ukuran font
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=Pengaturan cepat ukuran font
+
+[heading.settings/Interface]
+original=Interface
+translation=Antarmuka
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=Judul sebaris
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=Tampilkan tab bilah judul
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=Tampilkan bilah alat
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=Menu ribbon
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=Tingkat pembesaran
+
+[heading.settings/Native menus]
+original=Native menus
+translation=Menu bawaan
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=Gaya bingkai jendela
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=Ikon aplikasi kustom
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=Jendela transparan
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=Akselerasi Perangkat Keras
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=Cuplikan CSS
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=Pintasan
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=Plugin inti
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=Plugin komunitas
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=Mode terbatas
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=Plugin saat ini
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=Plugin terpasang
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=Melihat pintasan keyboard
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=Menetapkan pintasan keyboard
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=Menghapus pintasan keyboard
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=Memfilter pintasan keyboard
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=Tata letak keyboard non-AS
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=Pintasan papan ketik bawaan
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=Seluler
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=Menyeret tab
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=Sumber penyeretan
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=Tujuan pelepasan
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=Menyeret dari luar Obsidian
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=Melepas file di luar Obsidian
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=Membuka tab baru
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=Membuka tautan
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=Mengatur tab dan jendela Anda
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=Mengatur tab
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=Memisahkan grup tab
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=Mengubah ukuran grup tab
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=Memindahkan tab ke jendela baru
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=Memindahkan tab ke jendela lain
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=Menyematkan tab
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=Beralih ke tab lain
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=Menumpuk grup tab
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=Tampilan tertaut
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=Menyimpan tata letak
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=Skema warna
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=Tema kustom
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=Ikon aplikasi kustom
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=Transparansi
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=Pertanyaan dan saran
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=Laporkan bug dan ajukan fitur
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=Kumpulkan informasi debug
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=Periksa waktu startup
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=Tangkap log konsol
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=Hubungi dukungan Obsidian
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=Laporkan masalah keamanan
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=Laporkan pelanggaran Kode Etik
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Berkontribusi untuk Obsidian
+
+[heading.bases/Create a new base]
+original=Create a new base
+translation=Buat basis baru
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=Sematkan basis
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=Sematkan file basis
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Sematkan basis sebagai blok kode
+
+[heading.bases/Fields]
+original=Fields
+translation=Field
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=Ekspresi reguler
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Cara menggunakan basis
+
+[heading.bases/View types]
+original=View types
+translation=Jenis tampilan
+
+[heading.bases/Example]
+original=Example
+translation=Contoh
+
+[heading.bases/Filters]
+original=Filters
+translation=Filter
+
+[heading.bases/Formulas]
+original=Formulas
+translation=Rumus
+
+[heading.bases/Properties]
+original=Properties
+translation=Properti
+
+[heading.bases/Summaries]
+original=Summaries
+translation=Ringkasan
+
+[heading.bases/Default Summary Formulas]
+original=Default Summary Formulas
+translation=Rumus Ringkasan Bawaan
+
+[heading.bases/Views]
+original=Views
+translation=Tampilan
+
+[heading.bases/Note properties]
+original=Note properties
+translation=Properti catatan
+
+[heading.bases/File properties]
+original=File properties
+translation=Properti file
+
+[heading.bases/Access properties with `this`]
+original=Access properties with `this`
+translation=Mengakses properti dengan `this`
+
+[heading.bases/Operators]
+original=Operators
+translation=Operator
+
+[heading.bases/Arithmetic operators]
+original=Arithmetic operators
+translation=Operator aritmatika
+
+[heading.bases/Date arithmetic]
+original=Date arithmetic
+translation=Aritmatika tanggal
+
+[heading.bases/Comparison operators]
+original=Comparison operators
+translation=Operator perbandingan
+
+[heading.bases/Boolean operators]
+original=Boolean operators
+translation=Operator boolean
+
+[heading.bases/Functions]
+original=Functions
+translation=Fungsi
+
+[heading.bases/Types]
+original=Types
+translation=Tipe
+
+[heading.bases/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=String, angka, dan boolean
+
+[heading.bases/Dates and durations]
+original=Dates and durations
+translation=Tanggal dan durasi
+
+[heading.bases/Objects and lists]
+original=Objects and lists
+translation=Objek dan daftar
+
+[heading.bases/Files and links]
+original=Files and links
+translation=File dan tautan
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=Bilah alat
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=Tambah dan beralih tampilan
+
+[heading.bases/View settings]
+original=View settings
+translation=Pengaturan tampilan
+
+[heading.bases/Layout]
+original=Layout
+translation=Tata letak
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=Komponen filter
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=Konjungsi
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=Grup filter
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=Editor filter lanjutan
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=Mengurutkan dan mengelompokkan hasil
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=Menambahkan pengurutan
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=Menghapus pengurutan
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Membatasi, menyalin, dan mengekspor hasil
+
+[heading.bases/Limit results]
+original=Limit results
+translation=Membatasi hasil
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=Salin ke papan klip
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=Ekspor CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=Menyematkan tampilan
+
+[heading.bases/Settings]
+original=Settings
+translation=Pengaturan
+
+[heading.bases/Markers]
+original=Markers
+translation=Penanda
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=Indentasi properti
+
+[heading.bases/Separators]
+original=Separators
+translation=Pemisah
+
+[heading.bases/Card size]
+original=Card size
+translation=Ukuran kartu
+
+[heading.bases/Image property]
+original=Image property
+translation=Properti gambar
+
+[heading.bases/Image fit]
+original=Image fit
+translation=Penyesuaian gambar
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=Rasio aspek gambar
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Memasang plugin Maps
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=Koordinat
+
+[heading.bases/Icons]
+original=Icons
+translation=Ikon
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Menggunakan rumus untuk mendefinisikan ikon
+
+[heading.bases/Colors]
+original=Colors
+translation=Warna
+
+[heading.bases/Background]
+original=Background
+translation=Latar belakang
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=Tile peta
+
+[heading.bases/Useful links]
+original=Useful links
+translation=Tautan berguna
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=Pemecahan masalah
+
+[heading.bases/Row height]
+original=Row height
+translation=Tinggi baris
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=Tambahkan ringkasan
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=Ringkasan bawaan
+
+[heading.bases/All property types]
+original=All property types
+translation=Semua tipe properti
+
+[heading.bases/Numbers]
+original=Numbers
+translation=Angka
+
+[heading.bases/Dates]
+original=Dates
+translation=Tanggal
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=Kotak centang
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=Ringkasan kustom
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=Pintasan
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=Apa yang bisa dilakukan rumus
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=Membuat properti rumus
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=Menulis rumus
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=Mereferensikan properti
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=Menggunakan operator
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=Menggunakan fungsi
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=Contoh rumus
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=Menghitung tenggat waktu
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=Menampilkan status terlambat
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=Memformat mata uang
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=Menghitung item daftar
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=Menghitung skor prioritas
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=Menggabungkan kolom teks
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=Menghitung total biaya
+
+[heading.formulas/Data types]
+original=Data types
+translation=Jenis data
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=Mereferensikan rumus lain
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=Terminologi dan tata bahasa
+
+[heading.style-guide/Language style]
+original=Language style
+translation=Gaya bahasa
+
+[heading.style-guide/Terms]
+original=Terms
+translation=Istilah
+
+[heading.style-guide/Product names]
+original=Product names
+translation=Nama produk
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=UI dan interaksi
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=Catatan, file, dan folder
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=Dokumentasi referensi untuk pengaturan
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=Istilah arah
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=Instruksi
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=Huruf kapital kalimat
+
+[heading.style-guide/Examples]
+original=Examples
+translation=Contoh
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=Nama tombol dan pintasan keyboard
+
+[heading.style-guide/Images]
+original=Images
+translation=Gambar
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=Struktur informasi
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=Jenis callout
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=Daftar vs. prosa
+
+[heading.style-guide/Tables]
+original=Tables
+translation=Tabel
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=Referensi silang
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=Konten khusus platform
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=Ikon dan gambar
+
+[heading.style-guide/Icons]
+original=Icons
+translation=Ikon
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=Tag anchor gambar
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=Optimisasi
+
+[heading.style-guide/Layout]
+original=Layout
+translation=Tata letak
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=Tautan rusak
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=Deskripsi
+
+[heading.style-guide/Directions]
+original=Directions
+translation=Arah
+
+[heading.style-guide/Translations]
+original=Translations
+translation=Terjemahan
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=Plugin dan tema
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=Proyek sumber terbuka
+
+[heading.developers/Documentation]
+original=Documentation
+translation=Dokumentasi
+
+[heading.developers/Community]
+original=Community
+translation=Komunitas
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=Pengaturan brankas
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=Pengaturan global
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=Cache metadata
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=Mengakses folder konfigurasi Anda
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=Seluler
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=Mengubah folder konfigurasi Anda
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=Sematkan file
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=Buat brankas baru
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=Buat brankas dari folder yang sudah ada
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=Ganti nama brankas
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=Pindahkan brankas ke folder lain
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=Hapus brankas
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=Transfer pengaturan ke brankas lain
+
+[heading.import/Export your data from Apple Journal]
+original=Export your data from Apple Journal
+translation=Ekspor data Anda dari Apple Journal
+
+[heading.import/On iPhone]
+original=On iPhone
+translation=Di iPhone
+
+[heading.import/On Mac (Tahoe)]
+original=On Mac (Tahoe)
+translation=Di Mac (Tahoe)
+
+[heading.import/Import Apple Journal data into Obsidian]
+original=Import Apple Journal data into Obsidian
+translation=Impor data Apple Journal ke Obsidian
+
+[heading.import/Supported content]
+original=Supported content
+translation=Konten yang didukung
+
+[heading.import/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=Impor data Apple Notes ke Obsidian
+
+[heading.import/Scans]
+original=Scans
+translation=Pindaian
+
+[heading.import/Alternate export methods]
+original=Alternate export methods
+translation=Metode ekspor alternatif
+
+[heading.import/Export your data from Bear]
+original=Export your data from Bear
+translation=Ekspor data Anda dari Bear
+
+[heading.import/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=Impor data Bear Anda ke Obsidian
+
+[heading.import/Export your data from Craft]
+original=Export your data from Craft
+translation=Ekspor data Anda dari Craft
+
+[heading.import/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=Impor data Craft Anda ke Obsidian
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Pemecahan masalah
+
+[heading.import/Export your data from Evernote]
+original=Export your data from Evernote
+translation=Ekspor data Anda dari Evernote
+
+[heading.import/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=Impor data Evernote Anda ke Obsidian
+
+[heading.import/Advanced import options]
+original=Advanced import options
+translation=Opsi impor lanjutan
+
+[heading.import/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=Mempertahankan hierarki tag
+
+[heading.import/Handling notebook stacks]
+original=Handling notebook stacks
+translation=Menangani tumpukan notebook
+
+[heading.import/More options]
+original=More options
+translation=Opsi lainnya
+
+[heading.import/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=Ekspor data Anda dari Google Keep
+
+[heading.import/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=Impor data Google Keep Anda ke Obsidian
+
+[heading.import/Supported features]
+original=Supported features
+translation=Fitur yang didukung
+
+[heading.import/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=Impor data OneNote Anda ke Obsidian
+
+[heading.import/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=Tidak ada bagian atau buku catatan yang muncul
+
+[heading.import/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=Catatan yang diimpor kosong atau konten hilang
+
+[heading.import/Privacy]
+original=Privacy
+translation=Privasi
+
+[heading.import/API import]
+original=API import
+translation=Impor API
+
+[heading.import/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=Buat token integrasi API Notion
+
+[heading.import/Import your Notion data via API]
+original=Import your Notion data via API
+translation=Impor data Notion Anda melalui API
+
+[heading.import/Limitations]
+original=Limitations
+translation=Batasan
+
+[heading.import/File import]
+original=File import
+translation=Impor file
+
+[heading.import/Export your data from Notion]
+original=Export your data from Notion
+translation=Ekspor data Anda dari Notion
+
+[heading.import/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=Impor file .zip Notion Anda
+
+[heading.import/Importing large workspaces]
+original=Importing large workspaces
+translation=Mengimpor ruang kerja besar
+
+[heading.import/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=Ekspor data Anda dari Roam Research
+
+[heading.import/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=Impor data Roam Research Anda ke Obsidian
+
+[heading.import/Create notes from CSV data in Obsidian]
+original=Create notes from CSV data in Obsidian
+translation=Buat catatan dari data CSV di Obsidian
+
+[heading.import/Configure how CSV fields are imported]
+original=Configure how CSV fields are imported
+translation=Konfigurasi cara bidang CSV diimpor
+
+[heading.import/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=Impor data HTML ke Obsidian
+
+[heading.import/Import settings]
+original=Import settings
+translation=Impor pengaturan
+
+[heading.import/Converting from other flavors of Markdown]
+original=Converting from other flavors of Markdown
+translation=Mengonversi dari varian Markdown lain
+
+[heading.import/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=Impor file Textbundle ke Obsidian
+
+[heading.import/No files are selected for import]
+original=No files are selected for import
+translation=Tidak ada file yang dipilih untuk diimpor
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=Impor dari aplikasi dan format file lain
+
+[heading.import/More formats]
+original=More formats
+translation=Format lainnya
+
+[heading.plugins/Install Importer]
+original=Install Importer
+translation=Pasang Importir
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=Semua plugin inti
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=Plugin lainnya
+
+[heading.plugins/Show backlinks]
+original=Show backlinks
+translation=Tampilkan backlink
+
+[heading.plugins/View backlinks for a note]
+original=View backlinks for a note
+translation=Lihat tautan balik untuk sebuah catatan
+
+[heading.plugins/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=Lihat tautan balik dari catatan tertentu
+
+[heading.plugins/Show backlinks in a note]
+original=Show backlinks in a note
+translation=Tampilkan tautan balik dalam catatan
+
+[heading.plugins/Create a new canvas]
+original=Create a new canvas
+translation=Membuat kanvas baru
+
+[heading.plugins/Add cards]
+original=Add cards
+translation=Menambahkan kartu
+
+[heading.plugins/Add text cards]
+original=Add text cards
+translation=Menambahkan kartu teks
+
+[heading.plugins/Add cards from notes]
+original=Add cards from notes
+translation=Menambahkan kartu dari catatan
+
+[heading.plugins/Add cards from media]
+original=Add cards from media
+translation=Menambahkan kartu dari media
+
+[heading.plugins/Add cards from web pages]
+original=Add cards from web pages
+translation=Menambahkan kartu dari halaman web
+
+[heading.plugins/Add cards from folders]
+original=Add cards from folders
+translation=Menambahkan kartu dari folder
+
+[heading.plugins/Edit a card]
+original=Edit a card
+translation=Mengedit kartu
+
+[heading.plugins/Delete a card]
+original=Delete a card
+translation=Menghapus kartu
+
+[heading.plugins/Swap cards]
+original=Swap cards
+translation=Menukar kartu
+
+[heading.plugins/Select cards]
+original=Select cards
+translation=Memilih kartu
+
+[heading.plugins/Arrange cards]
+original=Arrange cards
+translation=Mengatur kartu
+
+[heading.plugins/Resize a card]
+original=Resize a card
+translation=Mengubah ukuran kartu
+
+[heading.plugins/Connect cards]
+original=Connect cards
+translation=Menghubungkan kartu
+
+[heading.plugins/Connect two cards]
+original=Connect two cards
+translation=Menghubungkan dua kartu
+
+[heading.plugins/Disconnect two cards]
+original=Disconnect two cards
+translation=Memutuskan hubungan dua kartu
+
+[heading.plugins/Connect a card to a different card]
+original=Connect a card to a different card
+translation=Menghubungkan kartu ke kartu lain
+
+[heading.plugins/Navigate a connection]
+original=Navigate a connection
+translation=Menavigasi koneksi
+
+[heading.plugins/Add a label to a connection]
+original=Add a label to a connection
+translation=Menambahkan label ke koneksi
+
+[heading.plugins/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=Mengubah warna kartu atau koneksi
+
+[heading.plugins/Group cards]
+original=Group cards
+translation=Mengelompokkan kartu
+
+[heading.plugins/Group selected cards]
+original=Group selected cards
+translation=Mengelompokkan kartu yang dipilih
+
+[heading.plugins/Navigate the canvas]
+original=Navigate the canvas
+translation=Menavigasi kanvas
+
+[heading.plugins/Pan the canvas]
+original=Pan the canvas
+translation=Menggeser kanvas
+
+[heading.plugins/Zoom the canvas]
+original=Zoom the canvas
+translation=Memperbesar kanvas
+
+[heading.plugins/Zoom to fit]
+original=Zoom to fit
+translation=Perbesar untuk paskan
+
+[heading.plugins/Zoom to selection]
+original=Zoom to selection
+translation=Perbesar ke seleksi
+
+[heading.plugins/Reset zoom]
+original=Reset zoom
+translation=Atur ulang pembesaran
+
+[heading.plugins/Advanced tips]
+original=Advanced tips
+translation=Tips lanjutan
+
+[heading.plugins/Search terms]
+original=Search terms
+translation=Istilah pencarian
+
+[heading.plugins/Search operators]
+original=Search operators
+translation=Operator pencarian
+
+[heading.plugins/Search properties]
+original=Search properties
+translation=Mencari properti
+
+[heading.plugins/Change case sensitivity]
+original=Change case sensitivity
+translation=Mengubah sensitivitas huruf besar/kecil
+
+[heading.plugins/Change result sort order]
+original=Change result sort order
+translation=Mengubah urutan pengurutan hasil
+
+[heading.plugins/Copy search results]
+original=Copy search results
+translation=Salin hasil pencarian
+
+[heading.plugins/Use regular expressions]
+original=Use regular expressions
+translation=Menggunakan ekspresi reguler
+
+[heading.plugins/Configure search settings]
+original=Configure search settings
+translation=Mengonfigurasi pengaturan pencarian
+
+[heading.plugins/Embed search results in a note]
+original=Embed search results in a note
+translation=Menyematkan hasil pencarian di catatan
+
+[heading.plugins/Create a daily note from template]
+original=Create a daily note from template
+translation=Membuat catatan harian dari templat
+
+[heading.plugins/Daily notes and properties]
+original=Daily notes and properties
+translation=Catatan harian dan properti
+
+[heading.plugins/Supported formats]
+original=Supported formats
+translation=Format yang didukung
+
+[heading.plugins/[[Properties]]]
+original=[[Properties]]
+translation=[[Properti]]
+
+[heading.plugins/Merge notes]
+original=Merge notes
+translation=Gabungkan catatan
+
+[heading.plugins/Extract note]
+original=Extract note
+translation=Ekstrak catatan
+
+[heading.plugins/Template file]
+original=Template file
+translation=File templat
+
+[heading.plugins/Pinned commands]
+original=Pinned commands
+translation=Perintah tersemat
+
+[heading.plugins/Pin a command]
+original=Pin a command
+translation=Menyematkan perintah
+
+[heading.plugins/Unpin a command]
+original=Unpin a command
+translation=Melepas sematan perintah
+
+[heading.plugins/Create a unique note]
+original=Create a unique note
+translation=Buat catatan unik
+
+[heading.plugins/Create unique notes from a template]
+original=Create unique notes from a template
+translation=Buat catatan unik dari templat
+
+[heading.plugins/Recover a snapshot]
+original=Recover a snapshot
+translation=Memulihkan snapshot
+
+[heading.plugins/Clear snapshot history]
+original=Clear snapshot history
+translation=Menghapus riwayat snapshot
+
+[heading.plugins/Storage and performance]
+original=Storage and performance
+translation=Penyimpanan dan performa
+
+[heading.plugins/Limitations]
+original=Limitations
+translation=Batasan
+
+[heading.plugins/Reader view]
+original=Reader view
+translation=Tampilan pembaca
+
+[heading.plugins/Save to vault]
+original=Save to vault
+translation=Simpan ke brankas
+
+[heading.plugins/Ad blocking]
+original=Ad blocking
+translation=Pemblokiran iklan
+
+[heading.plugins/Security]
+original=Security
+translation=Keamanan
+
+[heading.plugins/Add a bookmark]
+original=Add a bookmark
+translation=Menambahkan penanda
+
+[heading.plugins/Remove a bookmark]
+original=Remove a bookmark
+translation=Menghapus penanda
+
+[heading.plugins/Add a bookmark group]
+original=Add a bookmark group
+translation=Menambahkan grup penanda
+
+[heading.plugins/Remove a bookmark group]
+original=Remove a bookmark group
+translation=Menghapus grup penanda
+
+[heading.plugins/Bookmark multiple files]
+original=Bookmark multiple files
+translation=Bookmark beberapa file
+
+[heading.plugins/Create a new note]
+original=Create a new note
+translation=Membuat catatan baru
+
+[heading.plugins/Create a new folder]
+original=Create a new folder
+translation=Membuat folder baru
+
+[heading.plugins/Change sort order]
+original=Change sort order
+translation=Mengubah urutan sortir
+
+[heading.plugins/Auto-reveal active file]
+original=Auto-reveal active file
+translation=Tampilkan otomatis file aktif
+
+[heading.plugins/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=Bentangkan atau lipat semua folder
+
+[heading.plugins/Delete a file or folder]
+original=Delete a file or folder
+translation=Menghapus file atau folder
+
+[heading.plugins/Rename a file or folder]
+original=Rename a file or folder
+translation=Mengganti nama file atau folder
+
+[heading.plugins/Move a file or folder]
+original=Move a file or folder
+translation=Memindahkan file atau folder
+
+[heading.plugins/Open Quick switcher]
+original=Open Quick switcher
+translation=Membuka Peralih cepat
+
+[heading.plugins/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=Membuka catatan dengan Peralih cepat
+
+[heading.plugins/Record audio in a note]
+original=Record audio in a note
+translation=Merekam audio di catatan
+
+[heading.plugins/Save a workspace]
+original=Save a workspace
+translation=Menyimpan ruang kerja
+
+[heading.plugins/Load a workspace]
+original=Load a workspace
+translation=Memuat ruang kerja
+
+[heading.plugins/Delete a workspace]
+original=Delete a workspace
+translation=Menghapus ruang kerja
+
+[heading.plugins/Settings]
+original=Settings
+translation=Pengaturan
+
+[heading.plugins/Filters]
+original=Filters
+translation=Filter
+
+[heading.plugins/Groups]
+original=Groups
+translation=Grup
+
+[heading.plugins/Display]
+original=Display
+translation=Tampilan
+
+[heading.plugins/Forces]
+original=Forces
+translation=Gaya
+
+[heading.plugins/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=Memulai animasi timelapse
+
+[heading.plugins/Local Graph]
+original=Local Graph
+translation=Grafik Lokal
+
+[heading.plugins/All properties view]
+original=All properties view
+translation=Tampilan semua properti
+
+[heading.discounts/How to apply]
+original=How to apply
+translation=Cara mendaftar
+
+[heading.discounts/How to renew]
+original=How to renew
+translation=Cara memperbarui
+
+[heading.discounts/Frequently asked questions]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan
+
+[heading.discounts/Refunds]
+original=Refunds
+translation=Pengembalian dana
+
+[heading.refunds/Request a refund]
+original=Request a refund
+translation=Mengajukan pengembalian dana
+
+[heading.refunds/Frequently asked questions]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan
+
+[heading.credit/Add credit]
+original=Add credit
+translation=Tambah kredit
+
+[heading.credit/Gifting]
+original=Gifting
+translation=Hadiah
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=Memberikan Kredit Obsidian
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=Menerima Kredit Obsidian
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=Tingkatan Catalyst
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=Akses manfaat Catalyst
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=Dapatkan lencana forum Anda
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=Dapatkan lencana Discord Anda
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=Bergabung ke kanal Insider kami
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=Aktifkan versi akses awal
+
+[heading.sales-tax/Tax exemption]
+original=Tax exemption
+translation=Pembebasan pajak
+
+[heading.sales-tax/Applying for an exemption]
+original=Applying for an exemption
+translation=Mengajukan pembebasan
+
+[heading.payment/Purchase a service or license]
+original=Purchase a service or license
+translation=Membeli layanan atau lisensi
+
+[heading.payment/Generate an invoice]
+original=Generate an invoice
+translation=Membuat faktur
+
+[heading.payment/Editing an invoice]
+original=Editing an invoice
+translation=Mengedit faktur
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=Menambahkan cuplikan
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=Menulis CSS untuk Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=Pelajari lebih lanjut
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=Mode terbatas
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=Kemampuan plugin
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=Proses peninjauan plugin
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Memasang Obsidian CLI
+
+[heading.cli/Get started]
+original=Get started
+translation=Memulai
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Menjalankan perintah
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=Menggunakan antarmuka terminal
+
+[heading.cli/Examples]
+original=Examples
+translation=Contoh
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Penggunaan sehari-hari
+
+[heading.cli/For developers]
+original=For developers
+translation=Untuk pengembang
+
+[heading.cli/How to]
+original=How to
+translation=Cara penggunaan
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Menggunakan parameter dan flag
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Menargetkan brankas
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Menargetkan file
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Menyalin output
+
+[heading.cli/General commands]
+original=General commands
+translation=Perintah umum
+
+[heading.cli/Bases]
+original=Bases
+translation=Basis
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Penanda
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Palet perintah
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Catatan harian
+
+[heading.cli/File history]
+original=File history
+translation=Riwayat file
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=File dan folder
+
+[heading.cli/Links]
+original=Links
+translation=Tautan
+
+[heading.cli/Outline]
+original=Outline
+translation=Kerangka
+
+[heading.cli/Plugins]
+original=Plugins
+translation=Plugin
+
+[heading.cli/Properties]
+original=Properties
+translation=Properti
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Catatan acak
+
+[heading.cli/Search]
+original=Search
+translation=Cari
+
+[heading.cli/Tags]
+original=Tags
+translation=Tag
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Tugas
+
+[heading.cli/Templates]
+original=Templates
+translation=Template
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Tema dan cuplikan
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Catatan unik
+
+[heading.cli/Vault]
+original=Vault
+translation=Brankas
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Penampil web
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Penghitung kata
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Ruang kerja
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Perintah pengembang
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Pintasan keyboard
+
+[heading.cli/Navigation]
+original=Navigation
+translation=Navigasi
+
+[heading.cli/Editing]
+original=Editing
+translation=Penyuntingan
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Lengkapi otomatis
+
+[heading.cli/History]
+original=History
+translation=Riwayat
+
+[heading.cli/Other]
+original=Other
+translation=Lainnya
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Pemecahan masalah
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Shell alternatif
+
+[heading.headless/Install]
+original=Install
+translation=Pasang
+
+[heading.headless/Authentication]
+original=Authentication
+translation=Autentikasi
+
+[heading.headless/Log in]
+original=Log in
+translation=Masuk
+
+[heading.headless/Services]
+original=Services
+translation=Layanan
+
+[heading.uri/URI format]
+original=URI format
+translation=Format URI
+
+[heading.uri/Open note]
+original=Open note
+translation=Buka catatan
+
+[heading.uri/Examples]
+original=Examples
+translation=Contoh
+
+[heading.uri/Parameters]
+original=Parameters
+translation=Parameter
+
+[heading.uri/Create note]
+original=Create note
+translation=Buat catatan
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=Buat atau buka catatan harian
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=Catatan Unik
+
+[heading.uri/Open search]
+original=Open search
+translation=Buka pencarian
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=Buka Pengelola Brankas
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Integrasi dengan Hook
+
+[heading.uri/Example]
+original=Example
+translation=Contoh
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=Gunakan parameter x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=Format singkat
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=Pemecahan masalah
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Daftarkan URI Obsidian
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=Menelusuri plugin komunitas
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=Memasang plugin komunitas
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=Mengaktifkan plugin komunitas
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=Memperbarui plugin
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=Menghapus pemasangan plugin komunitas
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=Mengelola plugin terpasang
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=Pelajari lebih lanjut
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=Telusuri tema
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=Pasang tema baru
+
+[heading.themes/Update themes]
+original=Update themes
+translation=Perbarui tema
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=Hapus pemasangan tema yang ada
+
+[heading.themes/Learn more]
+original=Learn more
+translation=Pelajari lebih lanjut
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=Widget, pintasan, dan Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=Bilah alat seluler
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=Kustomisasi bilah alat seluler
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=Tambahkan perintah ke bilah alat seluler
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=Aksi Cepat
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=Kustomisasi Aksi Cepat
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=Bilah navigasi
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=Kembali atau maju
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=Buat atau cari catatan
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=Manajemen tab
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=Aksi bilah alat
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=Bilah samping
+
+[heading.vault/Create empty vault]
+original=Create empty vault
+translation=Buat brankas kosong
+
+[heading.vault/Open existing folder]
+original=Open existing folder
+translation=Buka folder yang sudah ada
+
+[heading.create-note/Create a new note]
+original=Create a new note
+translation=Buat catatan baru
+
+[heading.create-note/Formatting text]
+original=Formatting text
+translation=Memformat teks
+
+[heading.create-note/Learn more]
+original=Learn more
+translation=Pelajari lebih lanjut
+
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=Sinkronisasi bukan cadangan
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=Menggunakan plugin komunitas
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=Menggunakan layanan berbasis cloud
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=Menggunakan drive eksternal
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=Menggunakan cadangan komputer
+
+[heading.backup/Next steps]
+original=Next steps
+translation=Langkah selanjutnya
+
+[heading.glossary/Attachment]
+original=Attachment
+translation=Lampiran
+
+[heading.glossary/Command]
+original=Command
+translation=Perintah
+
+[heading.glossary/Embed]
+original=Embed
+translation=Sematkan
+
+[heading.glossary/Frontmatter]
+original=Frontmatter
+translation=Metadata awal
+
+[heading.glossary/Graph]
+original=Graph
+translation=Grafik
+
+[heading.glossary/Hotkey]
+original=Hotkey
+translation=Pintasan keyboard
+
+[heading.glossary/Link]
+original=Link
+translation=Tautan
+
+[heading.glossary/Main area]
+original=Main area
+translation=Area utama
+
+[heading.glossary/Note]
+original=Note
+translation=Catatan
+
+[heading.glossary/Pop-out window]
+original=Pop-out window
+translation=Jendela pop-out
+
+[heading.glossary/Property]
+original=Property
+translation=Properti
+
+[heading.glossary/Ribbon]
+original=Ribbon
+translation=Bilah alat
+
+[heading.glossary/Sidebar]
+original=Sidebar
+translation=Bilah samping
+
+[heading.glossary/Snippet]
+original=Snippet
+translation=Cuplikan
+
+[heading.glossary/Status bar]
+original=Status bar
+translation=Bilah status
+
+[heading.glossary/Tab group]
+original=Tab group
+translation=Grup tab
+
+[heading.glossary/Theme]
+original=Theme
+translation=Tema
+
+[heading.glossary/Vault]
+original=Vault
+translation=Brankas
+
+[heading.glossary/Remote vault]
+original=Remote vault
+translation=Brankas jarak jauh
+
+[heading.glossary/View]
+original=View
+translation=Tampilan
+
+[heading.link-notes/Create a link]
+original=Create a link
+translation=Buat tautan
+
+[heading.link-notes/Create a link to a non-existing note]
+original=Create a link to a non-existing note
+translation=Buat tautan ke catatan yang belum ada
+
+[heading.link-notes/Navigate between notes]
+original=Navigate between notes
+translation=Navigasi antar catatan
+
+[heading.link-notes/Learn more]
+original=Learn more
+translation=Pelajari lebih lanjut
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=Cek pembaruan dan lihat versi
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=Menonaktifkan pembaruan otomatis
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=Pembaruan penginstal
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=Metode sinkronisasi
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=Sinkronisasi iPhone dan iPad
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=Memasang Obsidian di Windows
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=Memasang Obsidian di macOS
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=Memasang Obsidian di Linux
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=Memasang Obsidian menggunakan Snap
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=Memasang Obsidian menggunakan AppImage
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=Memasang Obsidian menggunakan Flatpak
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=Memasang Obsidian di Android
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=Memasang Obsidian di iPhone dan iPad
+
+[heading.sandbox/Opening the sandbox vault]
+original=Opening the sandbox vault
+translation=Membuka vault sandbox
+
+[heading.sandbox/Close the sandbox vault]
+original=Close the sandbox vault
+translation=Menutup vault sandbox
+
+[heading.aliases/Add an alias to a note]
+original=Add an alias to a note
+translation=Menambahkan alias ke catatan
+
+[heading.aliases/Link to a note using an alias]
+original=Link to a note using an alias
+translation=Menautkan ke catatan menggunakan alias
+
+[heading.aliases/Find unlinked mentions for an alias]
+original=Find unlinked mentions for an alias
+translation=Menemukan sebutan yang belum tertaut untuk alias
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=Menyematkan catatan di catatan lain
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=Menyematkan gambar di catatan
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=Menyematkan file audio di catatan
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=Menyematkan PDF di catatan
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=Menyematkan daftar di catatan
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=Menyematkan hasil pencarian
+
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=Format yang didukung untuk tautan internal
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=Menautkan ke file
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=Menautkan ke judul dalam catatan
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=Menautkan ke blok dalam catatan
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=Mengubah teks tampilan tautan
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=Pratinjau file yang ditautkan
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=Mengubah judul
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=Callout yang dapat dilipat
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=Callout bersarang
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=Kustomisasi callout
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=Tipe yang didukung
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=Batasan HTML
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=Tidak ada Markdown di dalam HTML
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=Blok HTML harus berdiri sendiri
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=Ketika Markdown tampak berfungsi di dalam HTML
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=Penggunaan HTML umum
+
+[heading.html/Comments]
+original=Comments
+translation=Komentar
+
+[heading.html/Underline]
+original=Underline
+translation=Garis bawah
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=Teks dicoret
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=Seleksi persegi panjang
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=Menambahkan lampiran
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=Mengubah lokasi lampiran bawaan
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=Ekstensi Markdown yang didukung
+
+[heading.editing-shortcuts/Windows and Linux shortcuts]
+original=Windows and Linux shortcuts
+translation=Pintasan Windows dan Linux
+
+[heading.editing-shortcuts/Common actions]
+original=Common actions
+translation=Tindakan umum
+
+[heading.editing-shortcuts/Text editing]
+original=Text editing
+translation=Penyuntingan teks
+
+[heading.editing-shortcuts/Text navigation]
+original=Text navigation
+translation=Navigasi teks
+
+[heading.editing-shortcuts/Text selection]
+original=Text selection
+translation=Pemilihan teks
+
+[heading.editing-shortcuts/macOS shortcuts]
+original=macOS shortcuts
+translation=Pintasan macOS
+
+[heading.editing-shortcuts/Text formatting]
+original=Text formatting
+translation=Pemformatan teks
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=Menambahkan properti ke catatan
+
+[heading.properties/Property types]
+original=Property types
+translation=Tipe properti
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=Penggunaan lanjutan
+
+[heading.properties/Search properties]
+original=Search properties
+translation=Mencari properti
+
+[heading.properties/Templates]
+original=Templates
+translation=Template
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=Mengganti nama properti
+
+[heading.properties/Display modes]
+original=Display modes
+translation=Mode tampilan
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=Cuplikan CSS
+
+[heading.properties/Not supported]
+original=Not supported
+translation=Tidak didukung
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=Pintasan keyboard
+
+[heading.properties/Add a property]
+original=Add a property
+translation=Menambahkan properti
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=Menavigasi antar properti
+
+[heading.properties/Select properties]
+original=Select properties
+translation=Memilih properti
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=Mengedit properti
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim (lanjutan)
+
+[heading.properties/Property format]
+original=Property format
+translation=Format properti
+
+[heading.properties/Text]
+original=Text
+translation=Teks
+
+[heading.properties/List]
+original=List
+translation=Daftar
+
+[heading.properties/Number]
+original=Number
+translation=Angka
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=Kotak centang
+
+[heading.properties/Date]
+original=Date
+translation=Tanggal
+
+[heading.properties/Date & time]
+original=Date & time
+translation=Tanggal & waktu
+
+[heading.properties/Tags]
+original=Tags
+translation=Tag
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=Properti JSON
+
+[heading.properties/Default properties]
+original=Default properties
+translation=Properti bawaan
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=Properti untuk Obsidian Publish
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=Properti yang tidak digunakan lagi
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=Menyematkan video YouTube
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=Menyematkan tweet
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=Paragraf
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=Pemisah baris
+
+[heading.syntax/Headings]
+original=Headings
+translation=Judul
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=Tebal, miring, sorotan
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=Tautan internal
+
+[heading.syntax/External links]
+original=External links
+translation=Tautan eksternal
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=Meloloskan spasi kosong dalam tautan
+
+[heading.syntax/External images]
+original=External images
+translation=Gambar eksternal
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=Kutipan
+
+[heading.syntax/Lists]
+original=Lists
+translation=Daftar
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=Daftar tugas
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=Daftar bersarang
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=Garis horizontal
+
+[heading.syntax/Code]
+original=Code
+translation=Kode
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=Kode inline
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=Blok kode
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=Blok kode bersarang
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=Catatan kaki
+
+[heading.syntax/Comments]
+original=Comments
+translation=Komentar
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=Meloloskan Sintaksis Markdown
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=Pelajari lebih lanjut
+
+[heading.advanced-syntax/Tables]
+original=Tables
+translation=Tabel
+
+[heading.advanced-syntax/Format content within a table]
+original=Format content within a table
+translation=Memformat konten di dalam tabel
+
+[heading.advanced-syntax/Linking files in a diagram]
+original=Linking files in a diagram
+translation=Menautkan file dalam diagram
+
+[heading.advanced-syntax/Math]
+original=Math
+translation=Matematika
+
+[heading.tags/Add a tag to a note]
+original=Add a tag to a note
+translation=Menambahkan tag ke catatan
+
+[heading.tags/Find notes using tags]
+original=Find notes using tags
+translation=Menemukan catatan menggunakan tag
+
+[heading.tags/Nested tags]
+original=Nested tags
+translation=Tag bertingkat
+
+[heading.tags/Tag format]
+original=Tag format
+translation=Format tag
+
+[heading.edit-and-read/Reading view]
+original=Reading view
+translation=Tampilan baca
+
+[heading.edit-and-read/Editing view]
+original=Editing view
+translation=Tampilan pengeditan
+
+[heading.edit-and-read/Live Preview]
+original=Live Preview
+translation=Pratinjau Langsung
+
+[heading.edit-and-read/Source mode]
+original=Source mode
+translation=Mode Sumber
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=Mengaktifkan 2FA
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=Membuat kode pemulihan
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=Menonaktifkan 2FA
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=Aturan
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=Pelanggaran serius
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=Pelecehan
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=Ancaman
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=-isme yang terang-terangan
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=Pelanggaran lainnya
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=Sikap bermusuhan
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=Bersikap sangat tidak menyenangkan
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=Pesan yang tidak diminta kepada anggota komunitas
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=Perilaku lainnya
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation="Suapi saya"
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=Kampanye
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=Promosi diri yang berlebihan
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=Spam
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=Perilaku yang dianjurkan
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=Motivasi
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=Laporkan pelanggaran
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=Laporkan di Discord
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=Laporkan di forum
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=Penegakan
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=Mengajukan banding atas pemblokiran
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=Kredit
+
+[heading.credits/Team]
+original=Team
+translation=Tim
+
+[heading.credits/Development]
+original=Development
+translation=Pengembangan
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=Produk & Operasional
+
+[heading.credits/Moderators]
+original=Moderators
+translation=Moderator
+
+[heading.credits/Retired]
+original=Retired
+translation=Pensiun
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=Inspirasi Plugin
+
+[heading.credits/Builds]
+original=Builds
+translation=Build
+
+[heading.credits/Translators]
+original=Translators
+translation=Penerjemah
+
+[heading.credits/Documentation]
+original=Documentation
+translation=Dokumentasi
+
+[heading.credits/Add your name]
+original=Add your name
+translation=Tambahkan nama Anda
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=Penghargaan pihak ketiga
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=Logo sebelumnya
+
+[heading.android/Sync]
+original=Sync
+translation=Sinkronisasi
+
+[heading.android/Vault location]
+original=Vault location
+translation=Lokasi brankas
+
+[heading.android/Device storage]
+original=Device storage
+translation=Penyimpanan perangkat
+
+[heading.android/App storage]
+original=App storage
+translation=Penyimpanan aplikasi
+
+[heading.android/Widgets]
+original=Widgets
+translation=Widget
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=Ubin Quick Settings
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=Pintasan
+
+[heading.ios/Sync]
+original=Sync
+translation=Sinkronisasi
+
+[heading.ios/Widgets]
+original=Widgets
+translation=Widget
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=Widget Layar Kunci dan Control Center
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=Widget Layar Utama
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=Menyesuaikan widget
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=Ekstensi Share Sheet
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=Integrasi Siri
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=Integrasi Spotlight
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=Apa itu Obsidian
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=Apa yang membedakan kami
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=Anda memiliki dan mengontrol data Anda
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=Tautan adalah warga kelas satu
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=Perangkat Anda sendiri
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=Ikuti perkembangan kami
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=Aktifkan versi akses awal untuk desktop
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=Pasang versi akses awal di perangkat seluler
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=Laporkan masalah dan masukan lainnya
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=Beralih kembali ke versi publik di desktop
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=Beralih kembali ke versi publik di seluler
+
+[heading.publish/Prerequisites]
+original=Prerequisites
+translation=Prasyarat
+
+[heading.publish/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible, Fathom, dan layanan analitik lainnya
+
+[heading.publish/Troubleshooting]
+original=Troubleshooting
+translation=Pemecahan masalah
+
+[heading.publish/Community plugins]
+original=Community plugins
+translation=Plugin komunitas
+
+[heading.publish/Graph]
+original=Graph
+translation=Grafik
+
+[heading.publish/Media files]
+original=Media files
+translation=File media
+
+[heading.publish/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/Search]
+original=Search
+translation=Pencarian
+
+[heading.publish/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=Menyiapkan menggunakan CloudFlare
+
+[heading.publish/Set up using a proxy]
+original=Set up using a proxy
+translation=Menyiapkan menggunakan proxy
+
+[heading.publish/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=Header HTTP X yang Didukung
+
+[heading.publish/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=Mengalihkan situs lama ke domain kustom
+
+[heading.publish/Troubleshoot]
+original=Troubleshoot
+translation=Pemecahan masalah
+
+[heading.publish/Images]
+original=Images
+translation=Gambar
+
+[heading.publish/Videos and audio]
+original=Videos and audio
+translation=Video dan audio
+
+[heading.publish/Quick start]
+original=Quick start
+translation=Memulai cepat
+
+[heading.publish/Commands]
+original=Commands
+translation=Perintah
+
+[heading.publish/Password protection]
+original=Password protection
+translation=Perlindungan kata sandi
+
+[heading.publish/Add a site password]
+original=Add a site password
+translation=Menambahkan kata sandi situs
+
+[heading.publish/Remove a site password]
+original=Remove a site password
+translation=Menghapus kata sandi situs
+
+[heading.publish/Data collection]
+original=Data collection
+translation=Pengumpulan data
+
+[heading.publish/Visitor data]
+original=Visitor data
+translation=Data pengunjung
+
+[heading.publish/Access]
+original=Access
+translation=Akses
+
+[heading.publish/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=Mengelola akses ke Obsidian Publish di jaringan Anda
+
+[heading.publish/Create a new site]
+original=Create a new site
+translation=Buat situs baru
+
+[heading.publish/Delete an existing site]
+original=Delete an existing site
+translation=Menghapus situs yang ada
+
+[heading.publish/Switch between sites]
+original=Switch between sites
+translation=Beralih antar situs
+
+[heading.publish/Change the site ID]
+original=Change the site ID
+translation=Mengubah ID situs
+
+[heading.publish/View site options]
+original=View site options
+translation=Melihat opsi situs
+
+[heading.publish/Site options]
+original=Site options
+translation=Opsi situs
+
+[heading.publish/General]
+original=General
+translation=Umum
+
+[heading.publish/Appearance]
+original=Appearance
+translation=Tampilan
+
+[heading.publish/Reading experience]
+original=Reading experience
+translation=Pengalaman membaca
+
+[heading.publish/Components]
+original=Components
+translation=Komponen
+
+[heading.publish/Other site settings]
+original=Other site settings
+translation=Pengaturan lain situs
+
+[heading.publish/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=Menambahkan kolaborator ke situs
+
+[heading.publish/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=Menghapus kolaborator dari situs
+
+[heading.publish/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=Sinkronisasi perubahan antar kolaborator
+
+[heading.publish/Permissions]
+original=Permissions
+translation=Izin
+
+[heading.publish/Static assets]
+original=Static assets
+translation=Aset statis
+
+[heading.publish/Use a community theme]
+original=Use a community theme
+translation=Menggunakan tema komunitas
+
+[heading.publish/Enable UI features]
+original=Enable UI features
+translation=Mengaktifkan fitur UI
+
+[heading.publish/Customize navigation]
+original=Customize navigation
+translation=Kustomisasi navigasi
+
+[heading.publish/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=Mengakses opsi Kustomisasi navigasi
+
+[heading.publish/Adjust navigation items]
+original=Adjust navigation items
+translation=Menyesuaikan item navigasi
+
+[heading.publish/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=Menyembunyikan dan menampilkan item navigasi
+
+[heading.publish/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Masuk dengan akun Obsidian Anda
+
+[heading.publish/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=Aktifkan Obsidian Publish
+
+[heading.publish/Open Publish]
+original=Open Publish
+translation=Buka Publish
+
+[heading.publish/Open via Command palette]
+original=Open via Command palette
+translation=Buka melalui Palet perintah
+
+[heading.publish/Open via hotkey]
+original=Open via hotkey
+translation=Buka melalui pintasan keyboard
+
+[heading.publish/Open via ribbon]
+original=Open via ribbon
+translation=Buka melalui bilah alat
+
+[heading.publish/Set a site name]
+original=Set a site name
+translation=Tetapkan nama situs
+
+[heading.publish/Select notes to publish]
+original=Select notes to publish
+translation=Pilih catatan untuk dipublikasikan
+
+[heading.publish/Next steps]
+original=Next steps
+translation=Langkah selanjutnya
+
+[heading.publish/Publishing notes]
+original=Publishing notes
+translation=Mempublikasikan catatan
+
+[heading.publish/CSS and themes]
+original=CSS and themes
+translation=CSS dan tema
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=Cara menggunakan Obsidian Publish
+
+[heading.publish/Redirect old notes]
+original=Redirect old notes
+translation=Mengalihkan catatan lama
+
+[heading.publish/Description]
+original=Description
+translation=Deskripsi
+
+[heading.publish/Image]
+original=Image
+translation=Gambar
+
+[heading.publish/Publish notes]
+original=Publish notes
+translation=Mempublikasikan catatan
+
+[heading.publish/Unpublish notes]
+original=Unpublish notes
+translation=Membatalkan publikasi catatan
+
+[heading.publish/Update a published note]
+original=Update a published note
+translation=Memperbarui catatan yang telah dipublikasikan
+
+[heading.publish/Publish linked data]
+original=Publish linked data
+translation=Mempublikasikan data yang tertaut
+
+[heading.publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=Memilih data untuk dipublikasikan secara otomatis
+
+[heading.publish/Ignore data]
+original=Ignore data
+translation=Abaikan data
+
+[heading.publish/Sitemap]
+original=Sitemap
+translation=Peta Situs
+
+[heading.publish/Permalinks]
+original=Permalinks
+translation=Permalink
+
+[heading.sync/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=Pindahkan brankas Anda keluar dari layanan sinkronisasi pihak ketiga atau penyimpanan cloud
+
+[heading.sync/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=Pindahkan brankas Anda menggunakan Obsidian di desktop
+
+[heading.sync/Move your vault on mobile]
+original=Move your vault on mobile
+translation=Pindahkan brankas Anda di seluler
+
+[heading.sync/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS dan iPadOS
+
+[heading.sync/Next steps]
+original=Next steps
+translation=Langkah berikutnya
+
+[heading.sync/Manage users]
+original=Manage users
+translation=Kelola pengguna
+
+[heading.sync/Add users]
+original=Add users
+translation=Tambah pengguna
+
+[heading.sync/Remove users]
+original=Remove users
+translation=Hapus pengguna
+
+[heading.sync/Collaborate with your team]
+original=Collaborate with your team
+translation=Berkolaborasi dengan tim Anda
+
+[heading.sync/Permissions]
+original=Permissions
+translation=Izin
+
+[heading.sync/Live editing]
+original=Live editing
+translation=Penyuntingan langsung
+
+[heading.sync/Limitations]
+original=Limitations
+translation=Batasan
+
+[heading.sync/Quick start]
+original=Quick start
+translation=Memulai cepat
+
+[heading.sync/Commands]
+original=Commands
+translation=Perintah
+
+[heading.sync/Native modules]
+original=Native modules
+translation=Modul native
+
+[heading.sync/Sync status icon]
+original=Sync status icon
+translation=Ikon status Sync
+
+[heading.sync/Sync activity log]
+original=Sync activity log
+translation=Log aktivitas Sync
+
+[heading.sync/General messages]
+original=General messages
+translation=Pesan umum
+
+[heading.sync/Error messages]
+original=Error messages
+translation=Pesan kesalahan
+
+[heading.sync/Skipped messages]
+original=Skipped messages
+translation=Pesan dilewati
+
+[heading.sync/Account messages]
+original=Account messages
+translation=Pesan akun
+
+[heading.sync/Network messages]
+original=Network messages
+translation=Pesan jaringan
+
+[heading.sync/Encryption]
+original=Encryption
+translation=Enkripsi
+
+[heading.sync/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=Apa yang dimaksud dengan enkripsi ujung-ke-ujung?
+
+[heading.sync/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=Apa risiko menggunakan enkripsi standar?
+
+[heading.sync/What encryption do you use?]
+original=What encryption do you use?
+translation=Enkripsi apa yang Anda gunakan?
+
+[heading.sync/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=Bisakah saya memverifikasi bahwa data saya dienkripsi ujung-ke-ujung?
+
+[heading.sync/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=Apakah Obsidian telah menyelesaikan audit keamanan pihak ketiga?
+
+[heading.sync/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=Apa yang terjadi jika saya lupa kata sandi enkripsi saya?
+
+[heading.sync/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=Di mana Anda menghosting server untuk Obsidian Sync?
+
+[heading.sync/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=Di mana saya dapat menemukan server Sync saya saat ini dan di mana server tersebut dihosting?
+
+[heading.sync/Network and access]
+original=Network and access
+translation=Jaringan dan akses
+
+[heading.sync/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=Mengelola akses ke Obsidian Sync di jaringan Anda
+
+[heading.sync/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=Enkripsi hash file deterministik
+
+[heading.sync/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=Tidak ada pengikatan kriptografi antara path dan konten
+
+[heading.sync/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=Menyiapkan Obsidian Sync untuk pertama kalinya
+
+[heading.sync/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Masuk dengan akun Obsidian Anda
+
+[heading.sync/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=Aktifkan Obsidian Sync
+
+[heading.sync/Create a new remote vault]
+original=Create a new remote vault
+translation=Buat brankas jarak jauh baru
+
+[heading.sync/Connect to a remote vault]
+original=Connect to a remote vault
+translation=Hubungkan ke brankas jarak jauh
+
+[heading.sync/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=Sesuaikan pengaturan Obsidian Sync
+
+[heading.sync/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=Mulai menyinkronkan dengan Obsidian Sync
+
+[heading.sync/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=Sinkronisasi brankas jarak jauh di perangkat lain
+
+[heading.sync/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=Sinkronkan brankas Anda dari pengalih brankas
+
+[heading.sync/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=Sinkronkan brankas Anda dari Pengaturan Obsidian
+
+[heading.sync/Manage your remote vaults]
+original=Manage your remote vaults
+translation=Kelola brankas jarak jauh Anda
+
+[heading.sync/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=Putuskan koneksi dari brankas jarak jauh
+
+[heading.sync/Delete a remote vault]
+original=Delete a remote vault
+translation=Hapus brankas jarak jauh
+
+[heading.sync/Regional sync servers]
+original=Regional sync servers
+translation=Server sinkronisasi regional
+
+[heading.sync/Plans]
+original=Plans
+translation=Paket
+
+[heading.sync/Storage limits]
+original=Storage limits
+translation=Batas penyimpanan
+
+[heading.sync/Identify and delete large files]
+original=Identify and delete large files
+translation=Identifikasi dan hapus file besar
+
+[heading.sync/Upgrade your plan]
+original=Upgrade your plan
+translation=Tingkatkan paket Anda
+
+[heading.sync/Downgrade your plan]
+original=Downgrade your plan
+translation=Turunkan paket Anda
+
+[heading.sync/Preserve version history]
+original=Preserve version history
+translation=Pertahankan riwayat versi
+
+[heading.sync/General]
+original=General
+translation=Umum
+
+[heading.sync/Conflict resolution]
+original=Conflict resolution
+translation=Resolusi konflik
+
+[heading.sync/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Cara Obsidian Sync menangani konflik
+
+[heading.sync/Conflict resolution options]
+original=Conflict resolution options
+translation=Opsi resolusi konflik
+
+[heading.sync/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync menghapus catatan yang baru saja saya buat di dua perangkat
+
+[heading.sync/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync tidak menyinkronkan pembaruan plugin dan pengaturan saya
+
+[heading.sync/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=File saya terus menghilang dari Sync segera setelah saya memulihkannya
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=Cara menggunakan Obsidian Sync
+
+[heading.sync/Important]
+original=Important
+translation=Penting
+
+[heading.sync/Sync settings]
+original=Sync settings
+translation=Pengaturan Sync
+
+[heading.sync/Selective syncing]
+original=Selective syncing
+translation=Sinkronisasi selektif
+
+[heading.sync/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=Mengubah jenis file yang ingin disinkronkan
+
+[heading.sync/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=Mengecualikan folder dari sinkronisasi
+
+[heading.sync/Always excluded from sync]
+original=Always excluded from sync
+translation=Selalu dikecualikan dari sinkronisasi
+
+[heading.sync/File recovery snapshots]
+original=File recovery snapshots
+translation=Snapshot pemulihan file
+
+[heading.sync/Hidden files and folders]
+original=Hidden files and folders
+translation=File dan folder tersembunyi
+
+[heading.sync/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=Memperbarui pengaturan brankas yang disinkronkan
+
+[heading.sync/Primary device]
+original=Primary device
+translation=Perangkat utama
+
+[heading.sync/Secondary device(s)]
+original=Secondary device(s)
+translation=Perangkat sekunder
+
+[heading.sync/Reloading of settings]
+original=Reloading of settings
+translation=Memuat ulang pengaturan
+
+[heading.sync/Settings profiles]
+original=Settings profiles
+translation=Profil pengaturan
+
+[heading.sync/Create a settings profile]
+original=Create a settings profile
+translation=Membuat profil pengaturan
+
+[heading.sync/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Sistem operasi apa saja yang didukung Obsidian Sync?
+
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Apakah Obsidian berfungsi dengan Lockdown Mode Apple?
+
+[heading.sync/What type of data is synced?]
+original=What type of data is synced?
+translation=Jenis data apa yang disinkronkan?
+
+[heading.sync/How much storage do I have?]
+original=How much storage do I have?
+translation=Berapa banyak penyimpanan yang saya miliki?
+
+[heading.sync/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=Berapa banyak brankas jarak jauh yang dapat saya miliki?
+
+[heading.sync/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=Seberapa besar setiap brankas jarak jauh?
+
+[heading.sync/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=Berapa banyak orang yang dapat saya ajak berbagi brankas jarak jauh?
+
+[heading.sync/How large can each file be?]
+original=How large can each file be?
+translation=Seberapa besar setiap file?
+
+[heading.sync/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=Apakah data saya disinkronkan di latar belakang?
+
+[heading.sync/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Apakah Obsidian Sync memuat ulang pengaturan saya secara langsung?
+
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=Bisakah saya menggunakan sinkronisasi pihak ketiga bersama Obsidian Sync?
+
+[heading.sync/Data retention]
+original=Data retention
+translation=Retensi data
+
+[heading.sync/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=Berapa lama Anda menyimpan riwayat versi?
+
+[heading.sync/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=Berapa lama Anda menyimpan data saya setelah langganan saya berakhir?
+
+[heading.sync/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=Apakah Anda menyimpan data saya jika saya mengembalikan dana layanan langganan?
+
+[heading.sync/Sync history]
+original=Sync history
+translation=Riwayat Sync
+
+[heading.sync/Show Sync history]
+original=Show Sync history
+translation=Tampilkan riwayat Sync
+
+[heading.sync/Enable via Command palette]
+original=Enable via Command palette
+translation=Aktifkan melalui Palet perintah
+
+[heading.sync/Enable via Hotkey]
+original=Enable via Hotkey
+translation=Aktifkan melalui Pintasan keyboard
+
+[heading.sync/Version history]
+original=Version history
+translation=Riwayat versi
+
+[heading.sync/Notes and attachments]
+original=Notes and attachments
+translation=Catatan dan lampiran
+
+[heading.sync/View version history of a file]
+original=View version history of a file
+translation=Lihat riwayat versi sebuah file
+
+[heading.sync/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=Lihat riwayat versi file yang dihapus atau diganti namanya
+
+[heading.sync/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=Pulihkan versi sebelumnya dari sebuah file
+
+[heading.sync/Restore a deleted file]
+original=Restore a deleted file
+translation=Pulihkan file yang dihapus
+
+[heading.sync/Settings history]
+original=Settings history
+translation=Riwayat pengaturan
+
+[heading.sync/View version history of a setting]
+original=View version history of a setting
+translation=Lihat riwayat versi sebuah pengaturan
+
+[heading.sync/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=Pulihkan versi sebelumnya dari sebuah pengaturan
+
+[heading.sync/Encryption versions]
+original=Encryption versions
+translation=Versi enkripsi
+
+[heading.sync/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=Tingkatkan enkripsi dengan asisten migrasi
+
+[heading.sync/File-based sync services]
+original=File-based sync services
+translation=Layanan sinkronisasi berbasis file
+
+[heading.sync/Sync behavior]
+original=Sync behavior
+translation=Perilaku sinkronisasi
+
+[heading.sync/Offline behavior]
+original=Offline behavior
+translation=Perilaku offline
+
+[heading.sync/Available regions]
+original=Available regions
+translation=Wilayah yang tersedia
+
+[heading.sync/Change Sync region]
+original=Change Sync region
+translation=Mengubah wilayah Sync
+
+[heading.web-clipper/Dates]
+original=Dates
+translation=Tanggal
+
+[heading.web-clipper/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=Konversi teks dan kapitalisasi
+
+[heading.web-clipper/Text formatting]
+original=Text formatting
+translation=Pemformatan teks
+
+[heading.web-clipper/Numbers]
+original=Numbers
+translation=Angka
+
+[heading.web-clipper/HTML processing]
+original=HTML processing
+translation=Pemrosesan HTML
+
+[heading.web-clipper/Arrays and objects]
+original=Arrays and objects
+translation=Array dan objek
+
+[heading.web-clipper/Examples of prompts]
+original=Examples of prompts
+translation=Contoh prompt
+
+[heading.web-clipper/Get started]
+original=Get started
+translation=Memulai
+
+[heading.web-clipper/How it works]
+original=How it works
+translation=Cara kerjanya
+
+[heading.web-clipper/Context]
+original=Context
+translation=Konteks
+
+[heading.web-clipper/Models]
+original=Models
+translation=Model
+
+[heading.web-clipper/Preset providers]
+original=Preset providers
+translation=Penyedia preset
+
+[heading.web-clipper/Choosing a model]
+original=Choosing a model
+translation=Memilih model
+
+[heading.web-clipper/Custom providers and models]
+original=Custom providers and models
+translation=Penyedia dan model kustom
+
+[heading.web-clipper/Local models]
+original=Local models
+translation=Model lokal
+
+[heading.web-clipper/Capture a page]
+original=Capture a page
+translation=Menangkap halaman
+
+[heading.web-clipper/Download images]
+original=Download images
+translation=Mengunduh gambar
+
+[heading.web-clipper/Hotkeys]
+original=Hotkeys
+translation=Pintasan keyboard
+
+[heading.web-clipper/Interface functionality]
+original=Interface functionality
+translation=Fungsionalitas antarmuka
+
+[heading.web-clipper/Conditionals]
+original=Conditionals
+translation=Kondisional
+
+[heading.web-clipper/Comparison operators]
+original=Comparison operators
+translation=Operator perbandingan
+
+[heading.web-clipper/Logical operators]
+original=Logical operators
+translation=Operator logika
+
+[heading.web-clipper/Truthiness]
+original=Truthiness
+translation=Kebenaran (Truthiness)
+
+[heading.web-clipper/Assign a variable]
+original=Assign a variable
+translation=Menetapkan variabel
+
+[heading.web-clipper/Fallbacks]
+original=Fallbacks
+translation=Nilai cadangan
+
+[heading.web-clipper/Chaining fallbacks]
+original=Chaining fallbacks
+translation=Merangkai nilai cadangan
+
+[heading.web-clipper/With filters]
+original=With filters
+translation=Dengan filter
+
+[heading.web-clipper/Loops]
+original=Loops
+translation=Perulangan
+
+[heading.web-clipper/Loop sources]
+original=Loop sources
+translation=Sumber perulangan
+
+[heading.web-clipper/Loop variables]
+original=Loop variables
+translation=Variabel perulangan
+
+[heading.web-clipper/Accessing array items by index]
+original=Accessing array items by index
+translation=Mengakses item array berdasarkan indeks
+
+[heading.web-clipper/Nested loops]
+original=Nested loops
+translation=Perulangan bersarang
+
+[heading.web-clipper/Combine logic]
+original=Combine logic
+translation=Menggabungkan logika
+
+[heading.web-clipper/Evaluation order]
+original=Evaluation order
+translation=Urutan evaluasi
+
+[heading.web-clipper/Activate reading mode]
+original=Activate reading mode
+translation=Mengaktifkan mode baca
+
+[heading.web-clipper/Customize the reading view]
+original=Customize the reading view
+translation=Menyesuaikan tampilan baca
+
+[heading.web-clipper/General]
+original=General
+translation=Umum
+
+[heading.web-clipper/Some content is missing]
+original=Some content is missing
+translation=Beberapa konten hilang
+
+[heading.web-clipper/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=Tidak ada konten yang muncul di Obsidian
+
+[heading.web-clipper/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian tidak terbuka
+
+[heading.web-clipper/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian terbuka tetapi hanya nama file yang tersimpan
+
+[heading.web-clipper/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS dan iPadOS
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=Pasang Web Clipper
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=Cara menggunakan Web Clipper
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=Privasi
+
+[heading.web-clipper/Turn on highlighter]
+original=Turn on highlighter
+translation=Mengaktifkan penyorot
+
+[heading.web-clipper/Highlighter settings]
+original=Highlighter settings
+translation=Pengaturan penyorot
+
+[heading.web-clipper/Create or edit a template]
+original=Create or edit a template
+translation=Buat atau ubah templat
+
+[heading.web-clipper/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=Impor dan ekspor templat Web Clipper
+
+[heading.web-clipper/Template settings]
+original=Template settings
+translation=Pengaturan templat
+
+[heading.web-clipper/Behavior]
+original=Behavior
+translation=Perilaku
+
+[heading.web-clipper/Automatically trigger a template]
+original=Automatically trigger a template
+translation=Secara otomatis memicu templat
+
+[heading.web-clipper/Simple URL matching]
+original=Simple URL matching
+translation=Pencocokan URL sederhana
+
+[heading.web-clipper/Regular expression matching]
+original=Regular expression matching
+translation=Pencocokan ekspresi reguler
+
+[heading.web-clipper/Schema.org matching]
+original=Schema.org matching
+translation=Pencocokan Schema.org
+
+[heading.web-clipper/Interpreter context]
+original=Interpreter context
+translation=Konteks interpreter
+
+[heading.web-clipper/Preset variables]
+original=Preset variables
+translation=Variabel preset
+
+[heading.web-clipper/Prompt variables]
+original=Prompt variables
+translation=Variabel prompt
+
+[heading.web-clipper/When to use prompt variables]
+original=When to use prompt variables
+translation=Kapan menggunakan variabel prompt
+
+[heading.web-clipper/Examples]
+original=Examples
+translation=Contoh
+
+[heading.web-clipper/Meta variables]
+original=Meta variables
+translation=Variabel meta
+
+[heading.web-clipper/Selector variables]
+original=Selector variables
+translation=Variabel selektor
+
+[heading.web-clipper/Schema.org variables]
+original=Schema.org variables
+translation=Variabel Schema.org
+
+[heading.plugins/templates/Set your template folder]
+original=Set your template folder
+translation=Mengatur folder template
+
+[heading.plugins/templates/Template variables]
+original=Template variables
+translation=Variabel template
+
+[heading.plugins/templates/Create a template]
+original=Create a template
+translation=Membuat template
+
+[heading.plugins/templates/Insert a template into the active note]
+original=Insert a template into the active note
+translation=Menyisipkan template ke dalam catatan aktif
+
+[heading.plugins/templates/Template properties]
+original=Template properties
+translation=Properti template
+
+[heading.teams/license/Purchase a commercial license]
+original=Purchase a commercial license
+translation=Membeli lisensi komersial
+
+[heading.teams/license/Apply a commercial license]
+original=Apply a commercial license
+translation=Menerapkan lisensi komersial
+
+[heading.teams/license/Supporting organizations]
+original=Supporting organizations
+translation=Organisasi pendukung
+
+[heading.teams/license/Frequently asked questions]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan
+
+[heading.teams/deploy/Install and update Obsidian]
+original=Install and update Obsidian
+translation=Memasang dan memperbarui Obsidian
+
+[heading.teams/deploy/Customizing Obsidian]
+original=Customizing Obsidian
+translation=Menyesuaikan Obsidian
+
+[heading.teams/deploy/Configuration folders]
+original=Configuration folders
+translation=Folder konfigurasi
+
+[heading.teams/deploy/Plugins]
+original=Plugins
+translation=Plugin
+
+[heading.teams/deploy/Themes and snippets]
+original=Themes and snippets
+translation=Tema dan cuplikan
+
+[heading.teams/deploy/Frequently asked questions]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan
+
+[heading.teams/deploy/Deployment]
+original=Deployment
+translation=Penerapan
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=Menggunakan Obsidian dengan tim Anda
+
+[heading.teams/Important resources]
+original=Important resources
+translation=Sumber daya penting
+
+[heading.teams/security/Considerations]
+original=Considerations
+translation=Pertimbangan
+
+[heading.teams/security/Community plugins and themes]
+original=Community plugins and themes
+translation=Plugin dan tema komunitas
+
+[heading.teams/security/Network and access]
+original=Network and access
+translation=Jaringan dan akses
+
+[heading.teams/security/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=Koneksi bersumber dari Obsidian
+
+[heading.teams/security/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=Koneksi bersumber dari GitHub
+
+[heading.teams/security/Other connections]
+original=Other connections
+translation=Koneksi lainnya
+
+[heading.teams/security/Frequently asked questions]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan
+
+[heading.teams/security/Account security]
+original=Account security
+translation=Keamanan akun
+
+[heading.teams/security/Assessments and certifications]
+original=Assessments and certifications
+translation=Penilaian dan sertifikasi
+
+[heading.teams/publish/Publishing tools and services]
+original=Publishing tools and services
+translation=Alat dan layanan publikasi
+
+[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=Kolaborasi lanjutan untuk Obsidian Publish
+
+[heading.teams/publish/Frequently asked questions]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan
+
+[heading.teams/sync/Syncing tools and services]
+original=Syncing tools and services
+translation=Alat dan layanan sinkronisasi
+
+[heading.teams/sync/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=Obsidian Sync untuk tim
+
+[heading.teams/sync/Security]
+original=Security
+translation=Keamanan
+
+[heading.teams/sync/Frequently asked questions]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan

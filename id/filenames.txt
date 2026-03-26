@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=Beranda
+
+[file.2fa]
+original=2-factor authentication
+translation=Autentikasi 2 faktor
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Sintaksis format lanjutan
+
+[file.aliases]
+original=Aliases
+translation=Alias
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian untuk Android
+
+[file.appearance]
+original=Appearance
+translation=Tampilan
+
+[file.attachments]
+original=Attachments
+translation=Lampiran
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Cadangkan file Obsidian Anda
+
+[file.bases]
+original=Introduction to Bases
+translation=Pengenalan Basis
+
+[file.bases/create-base]
+original=Create a base
+translation=Buat basis
+
+[file.bases/functions]
+original=Functions
+translation=Fungsi
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Sintaksis Basis
+
+[file.bases/views]
+original=Views
+translation=Tampilan
+
+[file.bases/views/cards]
+original=Cards view
+translation=Tampilan kartu
+
+[file.bases/views/list]
+original=List view
+translation=Tampilan daftar
+
+[file.bases/views/map]
+original=Map view
+translation=Tampilan peta
+
+[file.bases/views/table]
+original=Table view
+translation=Tampilan tabel
+
+[file.callouts]
+original=Callouts
+translation=Callout
+
+[file.catalyst]
+original=Catalyst license
+translation=Lisensi Catalyst
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Kode etik komunitas
+
+[file.community-plugins]
+original=Community plugins
+translation=Plugin komunitas
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Folder konfigurasi
+
+[file.create-note]
+original=Create your first note
+translation=Buat catatan pertama Anda
+
+[file.credit]
+original=Obsidian Credit
+translation=Kredit Obsidian
+
+[file.credits]
+original=Credits
+translation=Kredit
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Cara Obsidian menyimpan data
+
+[file.developers]
+original=Developers
+translation=Pengembang
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Diskon pendidikan dan nirlaba
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Seret dan lepas
+
+[file.early-access]
+original=Early access versions
+translation=Versi akses awal
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Tampilan dan mode penyuntingan
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Pintasan penyuntingan
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Sematkan halaman web
+
+[file.embeds]
+original=Embed files
+translation=Sematkan file
+
+[file.file-formats]
+original=Accepted file formats
+translation=Format file yang diterima
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Kontribusi finansial
+
+[file.folding]
+original=Folding
+translation=Melipat
+
+[file.formulas]
+original=Formulas
+translation=Rumus
+
+[file.glossary]
+original=Glossary
+translation=Glosarium
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Pintasan
+
+[file.html]
+original=HTML content
+translation=Konten HTML
+
+[file.import]
+original=Import notes
+translation=Impor catatan
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Impor dari Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Impor dari Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=Impor dari Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=Impor dari Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=Impor file CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Impor dari Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Impor dari Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=Impor file HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Impor file Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=Impor dari Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Impor dari Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Impor dari Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Impor file Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Impor catatan Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=Unduh dan pasang Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian untuk iOS dan iPadOS
+
+[file.language]
+original=Language settings
+translation=Pengaturan bahasa
+
+[file.link-notes]
+original=Link notes
+translation=Hubungkan catatan
+
+[file.links]
+original=Internal links
+translation=Tautan internal
+
+[file.manage-notes]
+original=Manage notes
+translation=Kelola catatan
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Kelola brankas
+
+[file.mobile]
+original=Mobile app
+translation=Aplikasi seluler
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Kursor ganda
+
+[file.obsidian]
+original=About Obsidian
+translation=Tentang Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Situs web resmi
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Pengantar lisensi dan pembayaran
+
+[file.plugin-security]
+original=Plugin security
+translation=Keamanan plugin
+
+[file.plugins]
+original=Core plugins
+translation=Plugin inti
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Perekam suara
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Backlink
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Penanda
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Palet perintah
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Catatan harian
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Penjelajah berkas
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Pemulih berkas
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Importir format Markdown
+
+[file.plugins/graph]
+original=Graph view
+translation=Tampilan grafik
+
+[file.plugins/importer]
+original=Importer
+translation=Importer
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Komposer catatan
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Tautan Keluar
+
+[file.plugins/outline]
+original=Outline
+translation=Kerangka
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Pratinjau halaman
+
+[file.plugins/properties]
+original=Properties view
+translation=Tampilan properti
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Peralih cepat
+
+[file.plugins/random-note]
+original=Random note
+translation=Catatan acak
+
+[file.plugins/search]
+original=Search
+translation=Cari
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Perintah garis miring
+
+[file.plugins/slides]
+original=Slides
+translation=Slide
+
+[file.plugins/tags]
+original=Tags view
+translation=Panel tag
+
+[file.plugins/templates]
+original=Templates
+translation=Template
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Pembuat catatan unik
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Penampil web
+
+[file.plugins/word-count]
+original=Word count
+translation=Penghitung kata
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Ruang kerja
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Jendela pop-out
+
+[file.properties]
+original=Properties
+translation=Properti
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Pengantar Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=Analitik
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Kolaborasi di situs Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=Kustomisasi situs Anda
+
+[file.publish/domains]
+original=Custom domains
+translation=Domain kustom
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Batasan Publish
+
+[file.publish/media]
+original=Media files
+translation=File media
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Permalink
+
+[file.publish/publish]
+original=Publish your content
+translation=Publikasikan konten Anda
+
+[file.publish/security]
+original=Security and privacy
+translation=Keamanan dan privasi
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Menyiapkan Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=Kelola situs
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Pratinjau tautan media sosial
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Pemecahan masalah Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=Kebijakan pengembalian dana
+
+[file.resources]
+original=Help and support
+translation=Bantuan dan dukungan
+
+[file.ribbon]
+original=Ribbon
+translation=Bilah alat
+
+[file.sales-tax]
+original=Sales tax
+translation=Pajak penjualan
+
+[file.sandbox]
+original=Sandbox vault
+translation=Vault sandbox
+
+[file.settings]
+original=Settings
+translation=Pengaturan
+
+[file.sidebar]
+original=Sidebar
+translation=Bilah samping
+
+[file.snippets]
+original=CSS snippets
+translation=Cuplikan CSS
+
+[file.status-bar]
+original=Status bar
+translation=Bilah status
+
+[file.style-guide]
+original=Style guide
+translation=Panduan gaya
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Tautan simbolis dan junction
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Pengantar Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Sinkronisasi catatan antar perangkat
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Berkolaborasi di vault bersama
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan
+
+[file.sync/headless]
+original=Headless Sync
+translation=Headless Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Ikon status dan pesan
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Tingkatkan enkripsi Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Paket dan batas penyimpanan
+
+[file.sync/region]
+original=Sync regions
+translation=Wilayah Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=Keamanan dan privasi
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Pengaturan Sync dan sinkronisasi selektif
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Menyiapkan Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Beralih ke Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Pemecahan masalah Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Vault lokal dan remote
+
+[file.sync/version-history]
+original=Version history
+translation=Riwayat versi
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Sintaksis format dasar
+
+[file.tabs]
+original=Tabs
+translation=Tab
+
+[file.tags]
+original=Tags
+translation=Tag
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian untuk tim
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Menerapkan Obsidian untuk tim Anda
+
+[file.teams/license]
+original=Commercial license
+translation=Lisensi Komersial
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publish untuk tim
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Pertimbangan keamanan untuk tim
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Sync untuk tim
+
+[file.themes]
+original=Themes
+translation=Tema
+
+[file.translations]
+original=Translations
+translation=Terjemahan
+
+[file.updates]
+original=Update Obsidian
+translation=Perbarui Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Buat brankas
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Pengantar Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Kliping halaman web
+
+[file.web-clipper/filters]
+original=Filters
+translation=Filter
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Sorot halaman web
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Interpretasi halaman web
+
+[file.web-clipper/logic]
+original=Logic
+translation=Logika
+
+[file.web-clipper/reader]
+original=Reader
+translation=Pembaca
+
+[file.web-clipper/templates]
+original=Templates
+translation=Template
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Pemecahan masalah Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=Variabel
+
+[file.workspace]
+original=Workspace
+translation=Ruang kerja
+
+[folder.audio]
+original=audio
+translation=audio
+
+[folder.Changelog]
+original=Changelog
+translation=Catatan perubahan
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Berkontribusi ke Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Mengubah dan memformat
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Memperluas Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=File dan folder
+
+[folder.Getting started]
+original=Getting started
+translation=Memulai
+
+[folder.icons]
+original=icons
+translation=ikon
+
+[folder.Import notes]
+original=Import notes
+translation=Impor catatan
+
+[folder.Layouts]
+original=Layouts
+translation=Tata letak
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Lisensi dan pembayaran
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Menghubungkan catatan dan file
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Plugins
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Antarmuka pengguna
+
+[folder.video]
+original=video
+translation=video
