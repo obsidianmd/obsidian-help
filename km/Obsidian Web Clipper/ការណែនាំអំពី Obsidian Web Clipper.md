@@ -1,0 +1,45 @@
+---
+permalink: web-clipper
+cssclasses:
+  - list-cards
+  - list-cards-mobile-full
+---
+Obsidian Web Clipper គឺជាផ្នែកបន្ថែមកម្មវិធីរុករកដោយឥតគិតថ្លៃដែលអនុញ្ញាតឱ្យអ្នកពណ៌ចំណាំទំព័រ និងរក្សាទុកមាតិកាបណ្ដាញទៅក្នុង vault របស់អ្នក។
+
+## ដំឡើង Web Clipper
+
+ទទួលយកផ្នែកបន្ថែម Obsidian Web Clipper ពីថតផ្លូវការសម្រាប់កម្មវិធីរុករករបស់អ្នក៖
+
+- [Chrome Web Store](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)
+	- សម្រាប់ Chrome, Brave, Arc, Orion និងកម្មវិធីរុករកផ្អែកលើ Chromium ផ្សេងទៀត។
+- [Firefox Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/web-clipper-obsidian/)
+	- សម្រាប់ Firefox និង Firefox Mobile។
+- [Safari Extensions](https://apps.apple.com/us/app/obsidian-web-clipper/id6720708363)
+	- សម្រាប់ macOS, iOS និង iPadOS។
+- [Edge Add-Ons](https://microsoftedge.microsoft.com/addons/detail/obsidian-web-clipper/eigdjhmgnaaeaonimdklocfekkaanfme)
+	- សម្រាប់ Microsoft Edge។
+
+## របៀបប្រើ Web Clipper
+
+- [[ចាប់យកទំព័របណ្តាញ]]
+	- ចាប់ផ្តើម និងរៀនពីរបៀបរក្សាទុកមាតិកាពីទំព័រ។
+- [[ពណ៌ចំណាំទំព័របណ្តាញ|ឧបករណ៍ពណ៌ចំណាំ]]
+	- ពណ៌ចំណាំអត្ថបទសំខាន់ៗ និងជ្រើសរើសធាតុដែលអ្នកចង់រក្សាទុក។
+- [[កម្មវិធីអាន|កម្មវិធីអាន]]
+	- អានទំព័របណ្ដាញក្នុងទិដ្ឋភាពស្អាត គ្មានការរំខាន។
+- [[បកស្រាយទំព័របណ្តាញ|អ្នកបកស្រាយ]]
+	- ប្រើពាក្យបញ្ជាភាសាធម្មជាតិដើម្បីចាប់យក និងកែប្រែទិន្នន័យនៅលើទំព័រ។
+- [[ដោះស្រាយបញ្ហា Web Clipper|ដោះស្រាយបញ្ហា]]
+	- ដោះស្រាយបញ្ហាទូទៅជាមួយ Web Clipper។
+- [[Obsidian Web Clipper/ពុម្ព|ពុម្ព]]
+	- បង្កើតពុម្ពផ្ទាល់ខ្លួនសម្រាប់គេហទំព័រជាក់លាក់។
+- [[អថេរ]]
+	- បំពេញទិន្នន័យទំព័រជាមុនក្នុងពុម្ពរបស់អ្នក។
+- [[តម្រង]]
+	- កែប្រែលទ្ធផលនៃអថេរពុម្ព។
+- [[តក្កវិទ្យា]]
+	- ប្រើលក្ខខណ្ឌ រង្វិលជុំ និងកំណត់អថេរក្នុងពុម្ព។
+
+## ឯកជនភាព
+
+Obsidian Web Clipper រក្សាទុកមាតិកាក្នុងស្រុកទៅក្នុង vault Obsidian របស់អ្នក និងអនុវត្តតាម[គោលនយោបាយឯកជនភាព](https://obsidian.md/privacy)របស់យើង។ ទិន្នន័យរបស់អ្នកមិនត្រូវបានប្រមូលទេ ហើយយើងមិនប្រមូលម៉ែត្រការប្រើប្រាស់ណាមួយឡើយ។ កូដគឺជា[កូដប្រភពបើកចំហ](https://github.com/obsidianmd/obsidian-clipper) និងអាចត្រួតពិនិត្យបាន។
