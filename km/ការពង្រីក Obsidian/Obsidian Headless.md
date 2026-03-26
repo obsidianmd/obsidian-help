@@ -1,52 +1,51 @@
 ---
-localized: false
 permalink: headless
-description: Obsidian Headless is a command line client for Obsidian services. Sync your vaults without the desktop app.
+description: Obsidian Headless គឺជាកម្មវិធីបន្ទាត់ពាក្យបញ្ជាសម្រាប់សេវាកម្ម Obsidian។ ធ្វើសមកាលកម្មឃ្លាំងទិន្នន័យរបស់អ្នកដោយមិនចាំបាច់ប្រើកម្មវិធីលើកុំព្យូទ័រ។
 ---
-Obsidian Headless **(open beta)** is a headless client for Obsidian services. It lets you [[Sync គ្មានក្បាល|sync vaults]] from the command line without the desktop app, with all the speed, privacy, and end-to-end encryption benefits of [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]].
+Obsidian Headless **(open beta)** គឺជា headless client សម្រាប់សេវាកម្ម Obsidian។ វាអនុញ្ញាតឱ្យអ្នក[[Sync គ្មានក្បាល|សមកាលកម្ម vault]] ពីបន្ទាត់ពាក្យបញ្ជាដោយមិនចាំបាច់មានកម្មវិធី desktop ជាមួយនឹងល្បឿន ឯកជនភាព និងអត្ថប្រយោជន៍នៃការអ៊ិនគ្រីបពីចុងដល់ចុងរបស់ [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]]។
 
-Reasons you might use Obsidian Headless:
+មូលហេតុដែលអ្នកអាចប្រើ Obsidian Headless៖
 
-- Automate remote backups.
-- Automate publishing a website.
-- Give agentic tools access to a vault without access to your full computer.
-- Sync a shared team vault to a server that feeds other tools.
-- Run scheduled automations e.g. aggregate daily notes into weekly summaries, auto-tag, etc.
+- ស្វ័យប្រវត្តិកម្មការបម្រុងទុកពីចម្ងាយ។
+- ស្វ័យប្រវត្តិកម្មការផ្សាយគេហទំព័រ។
+- ផ្តល់ឱ្យឧបករណ៍ agentic ចូលប្រើ vault ដោយមិនចាំបាច់ចូលប្រើកុំព្យូទ័រទាំងមូលរបស់អ្នក។
+- សមកាលកម្ម vault ក្រុមដែលចែករំលែកទៅម៉ាស៊ីនមេដែលផ្គត់ផ្គង់ឧបករណ៍ផ្សេងទៀត។
+- ដំណើរការស្វ័យប្រវត្តិកម្មតាមកាលវិភាគ ឧ។ រួមបញ្ចូលកំណត់ចំណាំប្រចាំថ្ងៃជាសេចក្តីសង្ខេបប្រចាំសប្តាហ៍ ដាក់ស្លាកដោយស្វ័យប្រវត្តិ ជាដើម។
 
-> [!info] Obsidian Headless vs Obsidian CLI
-> [[Obsidian CLI]] controls the Obsidian desktop app from your terminal. Obsidian Headless is a standalone client that runs independently, no desktop app required.
+> [!info] Obsidian Headless ទល់នឹង Obsidian CLI
+> [[Obsidian CLI]] គ្រប់គ្រងកម្មវិធី Obsidian desktop ពី terminal របស់អ្នក។ Obsidian Headless គឺជា standalone client ដែលដំណើរការដោយឯករាជ្យ មិនចាំបាច់មានកម្មវិធី desktop ទេ។
 
-## Install
+## ដំឡើង
 
-Obsidian Headless **(open beta)** requires Node.js 22 or later. Install it from [npm](https://www.npmjs.com/package/obsidian-headless):
+Obsidian Headless **(open beta)** ត្រូវការ Node.js 22 ឬក្រោយ។ ដំឡើងវាពី [npm](https://www.npmjs.com/package/obsidian-headless)៖
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-## Authentication
+## ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណ
 
-### Log in
+### ចូលគណនី
 
 ```shell
 ob login
 ```
 
-If already logged in, `ob login` displays your account info. To switch accounts, pass `--email` and/or `--password` to log in again.
+បើចូលគណនីរួចហើយ `ob login` បង្ហាញព័ត៌មានគណនីរបស់អ្នក។ ដើម្បីប្តូរគណនី សូមបញ្ជូន `--email` និង/ឬ `--password` ដើម្បីចូលគណនីម្តងទៀត។
 
 ```
 ob login [--email <email>] [--password <password>] [--mfa <code>]
 ```
 
-All options are interactive when omitted — email and password are prompted, and 2FA is requested automatically if enabled on the account.
+ជម្រើសទាំងអស់គឺអន្តរកម្មនៅពេលមិនបានបញ្ជាក់ — អ៊ីមែល និងពាក្យសម្ងាត់ត្រូវបានសួរ ហើយ 2FA ត្រូវបានស្នើដោយស្វ័យប្រវត្តិប្រសិនបើបើកនៅលើគណនី។
 
-To log out and clear stored credentials:
+ដើម្បីចេញពីគណនី និងសម្អាតព័ត៌មានសម្គាល់ដែលបានរក្សាទុក៖
 
 ```shell
 ob logout
 ```
 
-## Services
+## សេវាកម្ម
 
-- [[Sync គ្មានក្បាល]]: use [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]] from the command line without the desktop app.
-- [[Publish ដោយគ្មានចំណុចប្រទាក់]]: use [[ការណែនាំអំពី Obsidian Publish|Obsidian Publish]] from the command line without the desktop app.
+- [[Sync គ្មានក្បាល]]៖ ប្រើ [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]] ពីបន្ទាត់ពាក្យបញ្ជាដោយមិនចាំបាច់មានកម្មវិធី desktop។
+- [[Publish ដោយគ្មានចំណុចប្រទាក់]]៖ ប្រើ [[ការណែនាំអំពី Obsidian Publish|Obsidian Publish]] ពីបន្ទាត់ពាក្យបញ្ជាដោយមិនចាំបាច់មានកម្មវិធី desktop។

@@ -1,28 +1,27 @@
 ---
-localized: false
 permalink: sandbox
 ---
-**Obsidian’s sandbox vault** is a feature that lets you explore various functionalities without affecting your existing data. This vault is helpful both as a learning tool and for debugging issues. It helps determine if a problem is caused by a plugin, theme, or the application itself.
+**Vault sandbox របស់ Obsidian** គឺជាមុខងារមួយដែលអនុញ្ញាតឱ្យអ្នកស្វែងរកមុខងារផ្សេងៗដោយមិនប៉ះពាល់ដល់ទិន្នន័យដែលមានស្រាប់របស់អ្នក។ Vault នេះមានប្រយោជន៍ទាំងជាឧបករណ៍រៀនសូត្រ និងសម្រាប់ការស្វែងរកកំហុស។ វាជួយកំណត់ថាតើបញ្ហាមួយបណ្តាលមកពីកម្មវិធីជំនួយ រូបរាង ឬកម្មវិធីខ្លួនឯង។
 
-> [!note] The sandbox vault is not available on mobile devices. However, you can download a copy from the [Obsidian Help](https://github.com/obsidianmd/obsidian-help) repository for use on mobile.
+> [!note] Vault sandbox មិនមានទេនៅលើឧបករណ៍ទូរសព្ទ។ ទោះជាយ៉ាងណា អ្នកអាចទាញយកច្បាប់ចម្លងមួយពីឃ្លាំង [Obsidian Help](https://github.com/obsidianmd/obsidian-help) សម្រាប់ប្រើនៅលើទូរសព្ទ។
 
 
-## Opening the sandbox vault
+## បើក vault sandbox
 
-You can open the sandbox vault in multiple ways. In all cases, it opens separately from your current vault.
+អ្នកអាចបើក vault sandbox តាមវិធីជាច្រើន។ ក្នុងគ្រប់ករណីទាំងអស់ វានឹងបើកដាច់ដោយឡែកពី vault បច្ចុប្បន្នរបស់អ្នក។
 
-**Left Sidebar**
+**របារចំហៀងឆ្វេង**
 
-1. Expand the **left sidebar** ![[obsidian-icon-side-bar-left.svg#icon]].
-2. Next to the **vault switcher**, press the **Help** icon ![[obsidian-icon-help.svg#icon]].
-3. Select **Open** next to the **Sandbox vault** option.
+1. ពង្រីក **របារចំហៀងឆ្វេង** ![[obsidian-icon-side-bar-left.svg#icon]]។
+2. នៅជាប់នឹង **ឧបករណ៍ប្តូរ vault** សូមចុចរូបតំណាង **ជំនួយ** ![[obsidian-icon-help.svg#icon]]។
+3. ជ្រើសរើស **Open** នៅជាប់នឹងជម្រើស **Sandbox vault**។
 
-**Command Palette**
+**ក្ដារលាយពាក្យបញ្ជា**
 
-1. Enable the **command palette** core plugin.
-2. Open the **command palette**.
-3. Search for **Open sandbox vault**.
-4. Press **Enter** or select the item to open the sandbox vault.
-## Close the sandbox vault
+1. បើកដំណើរការកម្មវិធីជំនួយចម្បង **[[ក្ដារលាយពាក្យបញ្ជា]]**។
+2. បើក **ក្ដារលាយពាក្យបញ្ជា**។
+3. ស្វែងរក **Open sandbox vault**។
+4. ចុច **Enter** ឬជ្រើសរើសធាតុដើម្បីបើក vault sandbox។
+## បិទ vault sandbox
 
-To close the sandbox vault, close the **Obsidian Sandbox** vault window.
+ដើម្បីបិទ vault sandbox សូមបិទបង្អួច vault **Obsidian Sandbox**។

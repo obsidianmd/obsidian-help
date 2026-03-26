@@ -1,57 +1,56 @@
 ---
-localized: false
 permalink: snippets
 publish: true
 mobile: true
-description: Learn how to change parts of the Obsidian app’s appearance without creating a full theme.
+description: ស្វែងយល់អំពីរបៀបផ្លាស់ប្តូរផ្នែកនៃរូបរាងកម្មវិធី Obsidian ដោយមិនចាំបាច់បង្កើតរចនាប័ទ្មពេញលេញ។
 aliases:
   - Extending Obsidian/CSS snippets
 ---
-Learn how to modify aspects of the Obsidian application's appearance without needing to [build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme). 
+រៀនពីរបៀបកែប្រែផ្នែកនៃរូបរាងកម្មវិធី Obsidian ដោយមិនចាំបាច់ [បង្កើតរូបរាង](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)។
 
-> [!tip] If you're looking for guidance on handling CSS for [[ការណែនាំអំពី Obsidian Publish|Obsidian Publish]], be sure to review [[ប្ដូរគេហទំព័ររបស់អ្នកតាមតម្រូវការ]].
+> [!tip] ប្រសិនបើអ្នកកំពុងស្វែងរកការណែនាំអំពីការដោះស្រាយ CSS សម្រាប់ [[ការណែនាំអំពី Obsidian Publish|Obsidian Publish]] សូមពិនិត្យមើល [[ប្ដូរគេហទំព័ររបស់អ្នកតាមតម្រូវការ]]។
 
-CSS is a language that controls how HTML looks. By adding CSS snippets, you can change parts of the Obsidian user interface, like the size and color of headings. Obsidian has [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) that help you customize the interface easily.
+CSS គឺជាភាសាមួយដែលគ្រប់គ្រងរបៀបដែល HTML បង្ហាញ។ ដោយបន្ថែមស្នីប៉ែត CSS អ្នកអាចផ្លាស់ប្តូរផ្នែកនៃចំណុចប្រទាក់អ្នកប្រើ Obsidian ដូចជាទំហំ និងពណ៌នៃចំណងជើង។ Obsidian មាន [អថេរ CSS](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) ដែលជួយអ្នកប្ដូរចំណុចប្រទាក់តាមតម្រូវការបានយ៉ាងងាយ។
 
-Obsidian looks for CSS snippets inside the vault's [[ថតកំណត់រចនាសម្ព័ន្ធ|configuration folder]].
+Obsidian ស្វែងរកស្នីប៉ែត CSS នៅខាងក្នុង[[ថតកំណត់រចនាសម្ព័ន្ធ]]របស់ vault។
 
-## Adding a snippet
+## បន្ថែមស្នីប៉ែត
 
-To add a CSS snippet on **Desktop** ![[lucide-monitor-check.svg#icon]], follow these steps:
+ដើម្បីបន្ថែមស្នីប៉ែត CSS នៅលើ **Desktop** ![[lucide-monitor-check.svg#icon]] សូមអនុវត្តតាមជំហានទាំងនេះ៖
 
-1. Open **[[ការកំណត់]]** ![[lucide-settings.svg#icon]].
-2. Under **Appearance → CSS snippets**, select **Open snippets folder** ![[lucide-folder-open.svg#icon]].
-3. In the snippets folder, create a CSS file that contains your snippet.
-4. In Obsidian, under **Appearance → CSS snippets**, select **Reload snippets** ![[lucide-refresh-cw.svg#icon]] to see the snippet in the list.
-5. Enable snippet by clicking the toggle.
+1. បើក **[[ការកំណត់]]** ![[lucide-settings.svg#icon]]។
+2. នៅក្រោម **រូបរាង → ស្នីប៉ែត CSS** សូមជ្រើសរើស **បើកថតស្នីប៉ែត** ![[lucide-folder-open.svg#icon]]។
+3. នៅក្នុងថតស្នីប៉ែត បង្កើតឯកសារ CSS ដែលមានស្នីប៉ែតរបស់អ្នក។
+4. នៅក្នុង Obsidian នៅក្រោម **រូបរាង → ស្នីប៉ែត CSS** សូមជ្រើសរើស **ផ្ទុកស្នីប៉ែតឡើងវិញ** ![[lucide-refresh-cw.svg#icon]] ដើម្បីឃើញស្នីប៉ែតនៅក្នុងបញ្ជី។
+5. បើកស្នីប៉ែតដោយចុចលើប៊ូតុងបិទ/បើក។
 
-To add a CSS snippet on **Mobile/Tablet** ![[obsidian-icon-smartphone.svg#icon]], you can follow these steps:
+ដើម្បីបន្ថែមស្នីប៉ែត CSS នៅលើ **ទូរសព្ទ/ថេប្លេត** ![[obsidian-icon-smartphone.svg#icon]] អ្នកអាចអនុវត្តតាមជំហានទាំងនេះ៖
 
-1. Open a file manager and find your vault. You can check the vault’s location in _Manage vaults…_ by tapping your vault and looking at the path.
-2. Open the [[ថតកំណត់រចនាសម្ព័ន្ធ]] and create a folder called `snippets` if it doesn’t exist.
-3. Add your CSS snippet to this folder.
-4. Open Obsidian's **[[ការកំណត់]]** ![[lucide-settings.svg#icon]].
-5. Select **Appearance** on the left.
-6. Scroll down to the **CSS snippets** section.
-7. Tap **Reload snippets** ![[lucide-refresh-cw.svg#icon]] to refresh the list.
-8. Tap the toggle to enable the snippet.
+1. បើកកម្មវិធីគ្រប់គ្រងឯកសារ ហើយស្វែងរក vault របស់អ្នក។ អ្នកអាចពិនិត្យមើលទីតាំង vault នៅក្នុង _គ្រប់គ្រង​វ៉ាល់…_ ដោយចុចលើ vault របស់អ្នក ហើយមើលផ្លូវ។
+2. បើក[[ថតកំណត់រចនាសម្ព័ន្ធ]] ហើយបង្កើតថតមួយឈ្មោះ `snippets` ប្រសិនបើវាមិនទាន់មាន។
+3. បន្ថែមស្នីប៉ែត CSS របស់អ្នកទៅក្នុងថតនេះ។
+4. បើក **[[ការកំណត់]]** ![[lucide-settings.svg#icon]] របស់ Obsidian។
+5. ជ្រើសរើស **រូបរាង** នៅខាងឆ្វេង។
+6. រមូរចុះក្រោមទៅផ្នែក **ស្នីប៉ែត CSS**។
+7. ចុច **ផ្ទុកស្នីប៉ែតឡើងវិញ** ![[lucide-refresh-cw.svg#icon]] ដើម្បីធ្វើឱ្យបញ្ជីថ្មី។
+8. ចុចលើប៊ូតុងបិទ/បើក ដើម្បីបើកស្នីប៉ែត។
 
-Alternately, you can
-- [[សមកាលកម្មកំណត់ត្រារបស់អ្នកឆ្លងឧបករណ៍|Sync]] any changes with your syncing service.
-- Use a community plugin to create a snippet from within Obsidian. 
+ក្រៅពីនេះ អ្នកអាច៖
+- [[សមកាលកម្មកំណត់ត្រារបស់អ្នកឆ្លងឧបករណ៍|សមកាលកម្ម]]ការផ្លាស់ប្តូរណាមួយជាមួយសេវាកម្មសមកាលកម្មរបស់អ្នក។
+- ប្រើកម្មវិធីជំនួយសហគមន៍ដើម្បីបង្កើតស្នីប៉ែតពីក្នុង Obsidian។
 
-Once enabled, Obsidian will automatically detect changes to CSS snippets and apply them when you save the file. 
+នៅពេលបើកហើយ Obsidian នឹងរកឃើញការផ្លាស់ប្តូរស្នីប៉ែត CSS ដោយស្វ័យប្រវត្តិ ហើយអនុវត្តវានៅពេលអ្នករក្សាទុកឯកសារ។
 
-> [!tip] You don’t need to restart Obsidian for changes to take effect. However, you might need to use the [[ក្ដារលាយពាក្យបញ្ជា]] command to Reload Obsidian without saving to see changes in the current theme or note.
+> [!tip] អ្នកមិនចាំបាច់ចាប់ផ្តើម Obsidian ឡើងវិញដើម្បីឱ្យការផ្លាស់ប្តូរមានប្រសិទ្ធភាពទេ។ ទោះជាយ៉ាងណាក៏ដោយ អ្នកអាចត្រូវប្រើពាក្យបញ្ជា [[ក្ដារលាយពាក្យបញ្ជា]] ដើម្បីផ្ទុក Obsidian ឡើងវិញដោយមិនរក្សាទុក ដើម្បីឃើញការផ្លាស់ប្តូរនៅក្នុងរូបរាងបច្ចុប្បន្ន ឬកំណត់ត្រា។
 
-## Writing CSS for Obsidian
+## សរសេរ CSS សម្រាប់ Obsidian
 
-Obsidian offers several methods that make writing CSS easier and more powerful.
+Obsidian ផ្តល់នូវវិធីសាស្ត្រជាច្រើនដែលធ្វើឱ្យការសរសេរ CSS ងាយស្រួល និងមានប្រសិទ្ធភាពជាង។
 
-It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) to easily modify parts of Obsidian and a built-in [[លក្ខណៈសម្បត្តិ#Property types|property type]] to change the appearance of one or several notes.
+វាមាន [អថេរ CSS](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) ជាច្រើនដើម្បីកែប្រែផ្នែកនៃ Obsidian បានយ៉ាងងាយ និង[[លក្ខណៈសម្បត្តិ#ប្រភេទលក្ខណៈសម្បត្តិ|ប្រភេទលក្ខណៈសម្បត្តិ]]ដែលភ្ជាប់មកជាមួយ ដើម្បីផ្លាស់ប្តូររូបរាងនៃកំណត់ត្រាមួយ ឬច្រើន។
 
-> [!example] Variables
-> Create a file called `headers.css` with the following content to change the colors of the six [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Headings|heading levels]] to a rainbow:
+> [!example] អថេរ
+> បង្កើតឯកសារមួយឈ្មោះ `headers.css` ដែលមានមាតិកាខាងក្រោម ដើម្បីផ្លាស់ប្តូរពណ៌នៃ[[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#ចំណងជើង|កម្រិតចំណងជើង]]ទាំងប្រាំមួយទៅជាពណ៌ឥន្ទធនូ៖
 >
 > ```css
 > body {
@@ -64,8 +63,8 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > }
 > ```
 
-> [!example] CSS classes
-> Assign the name of a custom CSS class (or a list of CSS classes) to a predefined [[លក្ខណៈសម្បត្តិ|property]] `cssclasses` to make one or more notes look different from others.
+> [!example] ថ្នាក់ CSS
+> កំណត់ឈ្មោះថ្នាក់ CSS ផ្ទាល់ខ្លួន (ឬបញ្ជីនៃថ្នាក់ CSS) ទៅ[[លក្ខណៈសម្បត្តិ|លក្ខណៈសម្បត្តិ]]ដែលបានកំណត់ជាមុន `cssclasses` ដើម្បីធ្វើឱ្យកំណត់ត្រាមួយ ឬច្រើនមានរូបរាងខុសពីកំណត់ត្រាផ្សេង។
 > 
 > **CSS**:
 > ```css
@@ -74,21 +73,21 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > }
 > ```
 > 
-> **YAML/Properties**:
+> **YAML/លក្ខណៈសម្បត្តិ**:
 > ```yaml
 > cssclasses:
 >  - red-border
 > ```
 > 
-> In every note that contains the value `red-border` in the `cssclasses` property, images are displayed with a red border.
+> នៅក្នុងកំណត់ត្រាគ្រប់មួយដែលមានតម្លៃ `red-border` នៅក្នុងលក្ខណៈសម្បត្តិ `cssclasses` រូបភាពនឹងត្រូវបានបង្ហាញជាមួយស៊ុមពណ៌ក្រហម។
 
-To ensure that the CSS file is valid and formatted correctly, we advise validating it with a tool like [CSS Validation Service](https://jigsaw.w3.org/css-validator/), as invalid CSS will not work.
+ដើម្បីធានាថាឯកសារ CSS មានសុពលភាព និងទម្រង់ត្រឹមត្រូវ យើងសូមណែនាំឱ្យផ្ទៀងផ្ទាត់វាជាមួយឧបករណ៍ដូចជា [សេវាកម្មផ្ទៀងផ្ទាត់ CSS](https://jigsaw.w3.org/css-validator/) ព្រោះ CSS ដែលមិនត្រឹមត្រូវនឹងមិនដំណើរការទេ។
 
-## Learn more
+## ស្វែងយល់បន្ថែម
 
-- If you're new to CSS, check out [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
-- For more information about styling Obsidian, see:
-  - [About styling](https://docs.obsidian.md/Reference/CSS+variables/About+styling)
-  - [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
-  - [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme)
-  - [Obsidian CSS Inspector workflow](https://forum.obsidian.md/t/obsidian-css-inspector-workflow/58178)
+- ប្រសិនបើអ្នកថ្មីចំពោះ CSS សូមពិនិត្យមើល [រៀនរចនា HTML ដោយប្រើ CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) ដោយ Mozilla។
+- សម្រាប់ព័ត៌មានបន្ថែមអំពីការរចនា Obsidian សូមមើល៖
+  - [អំពីការរចនា](https://docs.obsidian.md/Reference/CSS+variables/About+styling)
+  - [បង្កើតរូបរាង](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
+  - [បង្កើតរូបរាង Publish](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme)
+  - [លំហូរការងារ CSS Inspector របស់ Obsidian](https://forum.obsidian.md/t/obsidian-css-inspector-workflow/58178)

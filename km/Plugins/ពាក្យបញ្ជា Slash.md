@@ -1,19 +1,18 @@
 ---
-localized: false
 permalink: plugins/slash-commands
 aliases:
   - Plugins/Slash commands
 ---
-Slash commands is a [[កម្មវិធីជំនួយចម្បង|core plugin]] that lets you perform commands in the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
+ពាក្យបញ្ជា Slash គឺជា[[កម្មវិធីជំនួយចម្បង|កម្មវិធីជំនួយចម្បង]]ដែលអនុញ្ញាតឱ្យអ្នកអនុវត្តពាក្យបញ្ជានៅក្នុងកម្មវិធីកែសម្រួលដោយវាយសញ្ញាស្លាស (`/`) នៅដើមបន្ទាត់ ឬបន្ទាប់ពីចន្លោះទំនេរណាមួយ។
 
-To run a command using Slash commands:
+ដើម្បីដំណើរការពាក្យបញ្ជាដោយប្រើពាក្យបញ្ជា Slash៖
 
-1. In the editor, type a forward slash (`/`).
-2. Enter the name of the command you want to run to search the list of available commands.
-3. Navigate to the command using the arrow keys.
-4. Press Enter.
+1. នៅក្នុងកម្មវិធីកែសម្រួល វាយសញ្ញាស្លាស (`/`)។
+2. បញ្ចូលឈ្មោះពាក្យបញ្ជាដែលអ្នកចង់ដំណើរការ ដើម្បីស្វែងរកក្នុងបញ្ជីពាក្យបញ្ជាដែលមាន។
+3. រុករកទៅពាក្យបញ្ជាដោយប្រើគ្រាប់ចុចព្រួញ។
+4. ចុច Enter។
 
-To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
+ដើម្បីចេញពីការស្វែងរកពាក្យបញ្ជា Slash ដោយមិនប្រតិបត្តិពាក្យបញ្ជា សូមចុច `Esc` ឬគ្រាប់ចុច `Space`។
 
-> [!TIP] Fuzzy matching
-> Like the [[ក្ដារលាយពាក្យបញ្ជា]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.
+> [!TIP] ការផ្គូផ្គងមិនច្បាស់លាស់
+> ដូចជា[[ក្ដារលាយពាក្យបញ្ជា]] ពាក្យបញ្ជា Slash គាំទ្រការផ្គូផ្គងមិនច្បាស់លាស់ដែលអនុញ្ញាតឱ្យអ្នកស្វែងរកពាក្យបញ្ជាទោះបីជាអ្នកមិនដឹងឈ្មោះពិតប្រាកដរបស់វាក៏ដោយ។ ឧទាហរណ៍ វាយ "scf" ដើម្បីស្វែងរកពាក្យបញ្ជា **Save current file**។

@@ -1,36 +1,35 @@
 ---
-localized: false
 permalink: teams
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-Obsidian can be used as a note-taking application for individuals, and as a collaboration tool for your team.
+Obsidian អាចប្រើជាកម្មវិធីកត់ត្រាសម្រាប់បុគ្គល និងជាឧបករណ៍សហការសម្រាប់ក្រុមរបស់អ្នក។
 
-## Use Obsidian with your team
+## ប្រើ Obsidian ជាមួយក្រុមរបស់អ្នក
 
 - [[អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម]]
-	- Support Obsidian by purchasing a commercial license.
-- [[ដាក់ពង្រាយ Obsidian នៅទូទាំងក្រុមរបស់អ្នក|Deploy Obsidian]]
-	- How to install, update, and customize Obsidian across your team.
+	- គាំទ្រ Obsidian ដោយទិញអាជ្ញាប័ណ្ណពាណិជ្ជកម្ម។
+- [[ដាក់ពង្រាយ Obsidian នៅទូទាំងក្រុមរបស់អ្នក|ដាក់ពង្រាយ Obsidian]]
+	- របៀបដំឡើង អាប់ដេត និងប្ដូរ Obsidian តាមតម្រូវការនៅទូទាំងក្រុមរបស់អ្នក។
 - [[សមកាលកម្មសម្រាប់ក្រុម]]
-	- How to sync data across your team.
+	- របៀបសមកាលកម្មទិន្នន័យនៅទូទាំងក្រុមរបស់អ្នក។
 - [[ការផ្សាយសម្រាប់ក្រុម]]
-	- How to publish data from your team's vault.
+	- របៀបផ្សាយទិន្នន័យពី vault របស់ក្រុមអ្នក។
 
-## Important resources
+## ធនធានសំខាន់ៗ
 
-Below are important links to relevant parts of our main website, and are listed here for quick access. 
+ខាងក្រោមនេះគឺជាតំណភ្ជាប់សំខាន់ៗទៅកាន់ផ្នែកពាក់ព័ន្ធនៃគេហទំព័រសំខាន់របស់យើង ហើយត្រូវបានរាយបញ្ជីនៅទីនេះសម្រាប់ការចូលប្រើរហ័ស។
 
-- [Purchase our products](https://obsidian.md/pricing)
-	- Purchase a Commercial license, Sync, or Publish
-- [Report a bug](https://forum.obsidian.md/c/bug-reports/7)
-	- Report an application issue
-- [Request a new feature](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
-	- Report a feature request
-- [License overview](https://obsidian.md/license)
-	- Review our license overview in plain English
-- [Terms of Service](https://obsidian.md/terms)
-	- Review our latest Terms of Service
-- [Privacy Policy](https://obsidian.md/privacy)
-	- Review our privacy policy
+- [ទិញផលិតផលរបស់យើង](https://obsidian.md/pricing)
+	- ទិញអាជ្ញាប័ណ្ណពាណិជ្ជកម្ម, Sync, ឬ Publish
+- [រាយការណ៍កំហុស](https://forum.obsidian.md/c/bug-reports/7)
+	- រាយការណ៍បញ្ហាកម្មវិធី
+- [ស្នើសុំមុខងារថ្មី](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
+	- រាយការណ៍សំណើមុខងារ
+- [ទិដ្ឋភាពទូទៅអាជ្ញាប័ណ្ណ](https://obsidian.md/license)
+	- ពិនិត្យទិដ្ឋភាពទូទៅអាជ្ញាប័ណ្ណរបស់យើងជាភាសាសាមញ្ញ
+- [លក្ខខណ្ឌនៃសេវាកម្ម](https://obsidian.md/terms)
+	- ពិនិត្យលក្ខខណ្ឌនៃសេវាកម្មថ្មីបំផុតរបស់យើង
+- [គោលការណ៍ឯកជនភាព](https://obsidian.md/privacy)
+	- ពិនិត្យគោលការណ៍ឯកជនភាពរបស់យើង

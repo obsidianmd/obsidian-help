@@ -1,68 +1,67 @@
 ---
-localized: false
 permalink: backup
 ---
-If you haven't backed up your computer yet, start now! Obsidian's [[ការស្តារឯកសារឡើងវិញ]] plugin is useful but limited. It can only recover a certain amount of data, and it stores recovery information per device. For more robust protection, we recommend that you implement a proper backup system.
+បើអ្នកមិនទាន់បានបម្រុងទុកកុំព្យូទ័ររបស់អ្នកទេ សូមចាប់ផ្ដើមឥឡូវនេះ! កម្មវិធីជំនួយ [[ការស្តារឯកសារឡើងវិញ]] របស់ Obsidian មានប្រយោជន៍ប៉ុន្តែមានកម្រិត។ វាអាចស្ដារទិន្នន័យបានតែចំនួនជាក់លាក់មួយប៉ុណ្ណោះ ហើយវារក្សាទុកព័ត៌មានស្ដារតាមឧបករណ៍នីមួយៗ។ សម្រាប់ការការពារដែលរឹងមាំជាងនេះ យើងណែនាំឱ្យអ្នកអនុវត្តប្រព័ន្ធបម្រុងទុកត្រឹមត្រូវមួយ។
 
-**Why back up your data?**
+**ហេតុអ្វីត្រូវបម្រុងទុកទិន្នន័យរបស់អ្នក?**
 
-By default, Obsidian stores your notes **locally** on your device, not in the cloud. This means the [data is fully yours](https://obsidian.md/about), giving you control over it. However, local storage can be affected by issues like corruption or data loss. It is never a matter of if, but when. Backing up your data protects against these inevitabilities and ensures you maintain control of your notes.
+តាមលំនាំដើម Obsidian រក្សាទុកកំណត់ត្រារបស់អ្នក **នៅក្នុងឧបករណ៍** មិនមែននៅក្នុង cloud ទេ។ នេះមានន័យថា [ទិន្នន័យជារបស់អ្នកទាំងស្រុង](https://obsidian.md/about) ដែលផ្ដល់ឱ្យអ្នកនូវការគ្រប់គ្រងលើវា។ ទោះជាយ៉ាងណា ការផ្ទុកក្នុងឧបករណ៍អាចរងផលប៉ះពាល់ពីបញ្ហាដូចជាការខូចឬការបាត់បង់ទិន្នន័យ។ វាមិនមែនជាបញ្ហាថាតើវានឹងកើតឡើងឬអត់ទេ ប៉ុន្តែជាបញ្ហាថានៅពេលណា។ ការបម្រុងទុកទិន្នន័យរបស់អ្នកការពារពីភាពជៀសមិនរួចទាំងនេះ ហើយធានាថាអ្នកនៅតែរក្សាការគ្រប់គ្រងលើកំណត់ត្រារបស់អ្នក។
 
-## Syncing is not a backup
+## សមកាលកម្មមិនមែនជាការបម្រុងទុកទេ
 
-Services like [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]], iCloud, OneDrive, and Dropbox help you sync your notes across different devices. While they may offer features like [[ប្រវត្តិកំណែ|note restoration]], **they are not designed for backups**. Syncing keeps your notes updated, but it doesn’t protect against data loss.
+សេវាកម្មដូចជា [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]], iCloud, OneDrive និង Dropbox ជួយអ្នកសមកាលកម្មកំណត់ត្រារបស់អ្នកឆ្លងឧបករណ៍ផ្សេងៗ។ ទោះបីជាពួកវាអាចផ្ដល់មុខងារដូចជា [[ប្រវត្តិកំណែ|ការស្ដារកំណត់ត្រា]] **ពួកវាមិនត្រូវបានរចនាសម្រាប់ការបម្រុងទុកទេ**។ សមកាលកម្មរក្សាកំណត់ត្រារបស់អ្នកឱ្យទាន់សម័យ ប៉ុន្តែវាមិនការពារពីការបាត់បង់ទិន្នន័យទេ។
 
-- **Sync:** Syncing ensures your files are the same on all devices. When you change a file on one device, it updates on all synced devices. Syncing services do not have a "primary" device.
-- **Backup:** A backup saves a copy of your data in a different location to help recover it in case of data loss or corruption. Backups are not meant for real-time updates or collaboration.
+- **សមកាលកម្ម:** សមកាលកម្មធានាថាឯកសាររបស់អ្នកដូចគ្នានៅគ្រប់ឧបករណ៍។ នៅពេលអ្នកផ្លាស់ប្ដូរឯកសារមួយនៅលើឧបករណ៍មួយ វាធ្វើបច្ចុប្បន្នភាពនៅគ្រប់ឧបករណ៍ដែលបានសមកាលកម្ម។ សេវាកម្មសមកាលកម្មមិនមានឧបករណ៍ "ចម្បង" ទេ។
+- **បម្រុងទុក:** ការបម្រុងទុករក្សាទុកច្បាប់ចម្លងនៃទិន្នន័យរបស់អ្នកនៅទីតាំងផ្សេងមួយដើម្បីជួយស្ដារវាក្នុងករណីបាត់បង់ឬខូចទិន្នន័យ។ ការបម្រុងទុកមិនមែនសម្រាប់ការធ្វើបច្ចុប្បន្នភាពភ្លាមៗឬការសហការទេ។
 
-To properly back up your vault, use a dedicated backup tool that creates a one-way copy of your data. This tool will send your data to a safe backup location without changing the data on your device.
+ដើម្បីបម្រុងទុក vault របស់អ្នកយ៉ាងត្រឹមត្រូវ សូមប្រើឧបករណ៍បម្រុងទុកពិសេសមួយដែលបង្កើតច្បាប់ចម្លងទិសដៅតែមួយនៃទិន្នន័យរបស់អ្នក។ ឧបករណ៍នេះនឹងផ្ញើទិន្នន័យរបស់អ្នកទៅទីតាំងបម្រុងទុកដែលមានសុវត្ថិភាពដោយមិនផ្លាស់ប្ដូរទិន្នន័យនៅលើឧបករណ៍របស់អ្នក។
 
-If you use multiple devices with syncing, choose **one device** to be your backup device. This is usually your main or "primary" device, the one you use the most. Note that most syncing services do not recognize any device as "primary"; this is just a concept to help you manage backups.
+បើអ្នកប្រើឧបករណ៍ច្រើនជាមួយសមកាលកម្ម សូមជ្រើសរើស **ឧបករណ៍មួយ** ធ្វើជាឧបករណ៍បម្រុងទុករបស់អ្នក។ ជាធម្មតានេះជាឧបករណ៍មេ ឬ "ចម្បង" របស់អ្នក ដែលអ្នកប្រើច្រើនបំផុត។ ចំណាំថាសេវាកម្មសមកាលកម្មភាគច្រើនមិនទទួលស្គាល់ឧបករណ៍ណាមួយជា "ចម្បង" ទេ; នេះគ្រាន់តែជាគោលគំនិតមួយដើម្បីជួយអ្នកគ្រប់គ្រងការបម្រុងទុក។
 
-> [!Example] You use Obsidian Sync on your laptop, tablet, phone, and work desktop. You mostly use your vault on your work desktop, sometimes on your laptop, and rarely on your tablet or phone. In this case, your work desktop would be your "primary device" for backup.
+> [!Example] អ្នកប្រើ Obsidian Sync នៅលើកុំព្យូទ័រយួរដៃ ថេប្លេត ទូរសព្ទ និងកុំព្យូទ័រលើតុការងារ។ អ្នកប្រើ vault របស់អ្នកភាគច្រើននៅលើកុំព្យូទ័រលើតុការងារ ពេលខ្លះនៅលើកុំព្យូទ័រយួរដៃ និងកម្រនៅលើថេប្លេតឬទូរសព្ទ។ ក្នុងករណីនេះ កុំព្យូទ័រលើតុការងាររបស់អ្នកនឹងជា "ឧបករណ៍ចម្បង" សម្រាប់ការបម្រុងទុក។
 
-## Use community plugins
+## ប្រើកម្មវិធីជំនួយសហគមន៍
 
-While the Obsidian Team cannot officially endorse any specific plugin, we recognize two community plugins that have become popular among users for backing up their files:
+ទោះបីជាក្រុម Obsidian មិនអាចបញ្ជាក់ផ្លូវការអំពីកម្មវិធីជំនួយជាក់លាក់ណាមួយក៏ដោយ យើងទទួលស្គាល់កម្មវិធីជំនួយសហគមន៍ពីរដែលបានក្លាយជាប្រជាប្រិយក្នុងចំណោមអ្នកប្រើប្រាស់សម្រាប់បម្រុងទុកឯកសាររបស់ពួកគេ:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Use this plugin to back up your vault by committing its contents to a [Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). It's an effective way to version control your notes and ensure their safety on a remote server. However, please be aware that your data may be stored on an [[#Use cloud-based services|external hosting platform]] using this method.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** This plugin lets you create local copies of your vault in a folder of your choice, with options for archival. You can even use a syncing folder, like a Dropbox folder, to combine local and cloud backups. This method **pairs well** with the backup options described below.
+- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** ប្រើកម្មវិធីជំនួយនេះដើម្បីបម្រុងទុក vault របស់អ្នកដោយ commit មាតិការបស់វាទៅ [Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)។ វាជាវិធីមានប្រសិទ្ធភាពក្នុងការគ្រប់គ្រងកំណែកំណត់ត្រារបស់អ្នក និងធានាសុវត្ថិភាពរបស់វានៅលើម៉ាស៊ីនមេពីចម្ងាយ។ ទោះជាយ៉ាងណា សូមដឹងថាទិន្នន័យរបស់អ្នកអាចត្រូវបានផ្ទុកនៅលើ [[#ប្រើសេវាកម្មផ្អែកលើ cloud|វេទិកាបង្ហោះខាងក្រៅ]] ដោយប្រើវិធីនេះ។
+- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** កម្មវិធីជំនួយនេះអនុញ្ញាតឱ្យអ្នកបង្កើតច្បាប់ចម្លងមូលដ្ឋាននៃ vault របស់អ្នកនៅក្នុងថតដែលអ្នកជ្រើសរើស ជាមួយជម្រើសសម្រាប់ការរក្សាទុកជាប្រវត្តិ។ អ្នកអាចប្រើថតសមកាលកម្ម ដូចជាថត Dropbox ដើម្បីរួមបញ្ចូលការបម្រុងទុកមូលដ្ឋាន និង cloud។ វិធីនេះ **ស៊ីគ្នាបានល្អ** ជាមួយជម្រើសបម្រុងទុកដែលបានពណ៌នាខាងក្រោម។
 
-## Use cloud-based services
+## ប្រើសេវាកម្មផ្អែកលើ cloud
 
-> [!info] It is not recommended that you keep your vault location in your chosen backup service.
+> [!info] វាមិនត្រូវបានណែនាំឱ្យរក្សាទុកទីតាំង vault របស់អ្នកនៅក្នុងសេវាកម្មបម្រុងទុកដែលអ្នកបានជ្រើសរើសទេ។
 
-Keeping your backup in the cloud is an alternative and a complement to physical data storage, instead of an external hard drive or USB stick. An external hard drive or USB stick can be lost or damaged. The biggest advantage of storing files in the cloud is that they are available anytime, anywhere. The downside is, most backup services are owned by a private company.
+ការរក្សាទុកការបម្រុងទុកនៅក្នុង cloud គឺជាជម្រើសជំនួស និងបន្ថែមលើការផ្ទុកទិន្នន័យរូបវន្ត ជំនួសឱ្យដ្រាយវ៍រឹងខាងក្រៅឬ USB stick។ ដ្រាយវ៍រឹងខាងក្រៅឬ USB stick អាចបាត់ឬខូច។ អត្ថប្រយោជន៍ធំបំផុតនៃការផ្ទុកឯកសារនៅក្នុង cloud គឺពួកវាអាចប្រើបាននៅគ្រប់ពេល គ្រប់ទីកន្លែង។ គុណវិបត្តិគឺ សេវាកម្មបម្រុងទុកភាគច្រើនត្រូវបានគ្រប់គ្រងដោយក្រុមហ៊ុនឯកជន។
 
-In terms of security, you should always pay close attention to access and security with cloud backups. [Worldbackupday](https://www.worldbackupday.com/en) keeps an up-to-date list of online backup services to consider using.
+ទាក់ទងនឹងសុវត្ថិភាព អ្នកគួរតែយកចិត្តទុកដាក់ជានិច្ចចំពោះការចូលប្រើ និងសុវត្ថិភាពជាមួយការបម្រុងទុក cloud។ [Worldbackupday](https://www.worldbackupday.com/en) រក្សាបញ្ជីទាន់សម័យនៃសេវាកម្មបម្រុងទុកអនឡាញដែលគួរពិចារណាប្រើ។
 
-## Use external drives
+## ប្រើដ្រាយវ៍ខាងក្រៅ
 
-**Hard drives and SSD drives**
-External hard drive backups are still valuable in an increasing cloud-based world, and are mainly used for data storage and computer backups. The biggest disadvantage of an external drive is that the drive can break down or get lost. The biggest advantage is that the storage space only needs to be purchased once. Using an external hard drive is often combined with a [[#Use computer backups|computer backup]].
+**ដ្រាយវ៍រឹង និងដ្រាយវ៍ SSD**
+ការបម្រុងទុកដ្រាយវ៍រឹងខាងក្រៅនៅតែមានតម្លៃក្នុងពិភពលោកដែលកាន់តែផ្អែកលើ cloud ហើយត្រូវបានប្រើជាចម្បងសម្រាប់ការផ្ទុកទិន្នន័យ និងការបម្រុងទុកកុំព្យូទ័រ។ គុណវិបត្តិធំបំផុតនៃដ្រាយវ៍ខាងក្រៅគឺថាដ្រាយវ៍អាចខូចឬបាត់។ អត្ថប្រយោជន៍ធំបំផុតគឺថាទំហំផ្ទុកត្រូវការទិញតែម្ដងគត់។ ការប្រើដ្រាយវ៍រឹងខាងក្រៅជារឿយៗត្រូវបានរួមបញ្ចូលជាមួយ [[#ប្រើការបម្រុងទុកកុំព្យូទ័រ|ការបម្រុងទុកកុំព្យូទ័រ]]។
 
-**USB flash drives**
-Flash drives (also called thumb drives, memory sticks, or pen drives) are a simple and effective method for quick backups.
+**ដ្រាយវ៍ USB flash**
+ដ្រាយវ៍ Flash (ហៅផងដែរថា thumb drives, memory sticks ឬ pen drives) គឺជាវិធីសាមញ្ញ និងមានប្រសិទ្ធភាពសម្រាប់ការបម្រុងទុករហ័ស។
 
-1. Insert the flash drive into your computer or laptop.
-2. Ensure the device is recognized and mounted in your file system. If necessary, format the flash drive to be compatible with your filesystem.
-3. Copy your vault folder from its current location onto the flash drive.
-4. Safely unmount the flash drive.
-5. Remove the flash drive from your device.
+1. ដោតដ្រាយវ៍ flash ទៅក្នុងកុំព្យូទ័រ ឬកុំព្យូទ័រយួរដៃរបស់អ្នក។
+2. ធានាថាឧបករណ៍ត្រូវបានទទួលស្គាល់ និងភ្ជាប់នៅក្នុងប្រព័ន្ធឯកសាររបស់អ្នក។ បើចាំបាច់ សូម format ដ្រាយវ៍ flash ឱ្យស៊ីគ្នាជាមួយប្រព័ន្ធឯកសាររបស់អ្នក។
+3. ចម្លងថត vault របស់អ្នកពីទីតាំងបច្ចុប្បន្នទៅលើដ្រាយវ៍ flash។
+4. ផ្ដាច់ដ្រាយវ៍ flash ដោយសុវត្ថិភាព។
+5. ដកដ្រាយវ៍ flash ចេញពីឧបករណ៍របស់អ្នក។
 
-**NAS backup**
-For experienced users, backing up data on a NAS (Network Attached Storage) server is a good and secure method, as it has multiple hard drives and additional recovery mechanisms.
+**ការបម្រុងទុក NAS**
+សម្រាប់អ្នកប្រើដែលមានបទពិសោធន៍ ការបម្រុងទុកទិន្នន័យនៅលើម៉ាស៊ីនមេ NAS (Network Attached Storage) គឺជាវិធីល្អ និងមានសុវត្ថិភាព ដោយសារវាមានដ្រាយវ៍រឹងច្រើន និងយន្តការស្ដារបន្ថែម។
 
-> [!tip] If your external drive contains sensitive information, it is recommended to keep the external drive secure, such as in a secured room.
+> [!tip] បើដ្រាយវ៍ខាងក្រៅរបស់អ្នកមានព័ត៌មានរសើប វាត្រូវបានណែនាំឱ្យរក្សាដ្រាយវ៍ខាងក្រៅឱ្យមានសុវត្ថិភាព ដូចជានៅក្នុងបន្ទប់ដែលមានសុវត្ថិភាព។
 
-## Use computer backups
+## ប្រើការបម្រុងទុកកុំព្យូទ័រ
 
-Your operating system itself offer the ability to help create backups, whether online in the cloud, or in an external drive.
+ប្រព័ន្ធប្រតិបត្តិការរបស់អ្នកផ្ទាល់ផ្ដល់សមត្ថភាពក្នុងការជួយបង្កើតការបម្រុងទុក ទាំងអនឡាញនៅក្នុង cloud ឬនៅក្នុងដ្រាយវ៍ខាងក្រៅ។
 
-- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Backup with OneDrive or an external drive.
-- **[Mac](https://support.apple.com/en-us/104984)**: Backup to an external device with Time Machine.
-- **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` to a directory or drive of choice.
+- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: បម្រុងទុកជាមួយ OneDrive ឬដ្រាយវ៍ខាងក្រៅ។
+- **[Mac](https://support.apple.com/en-us/104984)**: បម្រុងទុកទៅឧបករណ៍ខាងក្រៅជាមួយ Time Machine។
+- **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` ទៅថតឬដ្រាយវ៍ដែលអ្នកជ្រើសរើស។
 
-## Next steps
+## ជំហានបន្ទាប់
 
-This help page provides a brief overview of backup options, but it's not exhaustive. For more in-depth information, visit [Worldbackupday.com](https://www.worldbackupday.com/en) or ask other Obsidian users in [our community](https://obsidian.md/community) about their backup strategies!
+ទំព័រជំនួយនេះផ្ដល់ទិដ្ឋភាពទូទៅខ្លីអំពីជម្រើសបម្រុងទុក ប៉ុន្តែវាមិនពេញលេញទេ។ សម្រាប់ព័ត៌មានស៊ីជម្រៅបន្ថែម សូមចូលទៅ [Worldbackupday.com](https://www.worldbackupday.com/en) ឬសួរអ្នកប្រើ Obsidian ផ្សេងទៀតនៅក្នុង [សហគមន៍របស់យើង](https://obsidian.md/community) អំពីយុទ្ធសាស្ត្របម្រុងទុករបស់ពួកគេ!

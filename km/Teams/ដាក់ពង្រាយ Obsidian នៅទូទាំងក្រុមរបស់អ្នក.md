@@ -1,53 +1,52 @@
 ---
-localized: false
 permalink: teams/deploy
 cssclasses:
   - soft-embed
 ---
-Obsidian runs as a local application on each of your team member's devices. It is designed to work both online and offline, securely and privately, and give you total control over your team's data. Obsidian is not available as a web-based application, therefore you will need to deploy the app to your team members.
+Obsidian ដំណើរការជាកម្មវិធីមូលដ្ឋាននៅលើឧបករណ៍នីមួយៗរបស់សមាជិកក្រុមរបស់អ្នក។ វាត្រូវបានរចនាឡើងដើម្បីដំណើរការទាំងអនឡាញ និងអហ្វឡាញ ដោយសុវត្ថិភាព និងឯកជន ហើយផ្តល់ឱ្យអ្នកនូវការគ្រប់គ្រងពេញលេញលើទិន្នន័យរបស់ក្រុមអ្នក។ Obsidian មិនមានជាកម្មវិធីផ្អែកលើវេបទេ ដូច្នេះអ្នកនឹងត្រូវដាក់ពង្រាយកម្មវិធីទៅកាន់សមាជិកក្រុមរបស់អ្នក។
 
-## Install and update Obsidian
+## ដំឡើង និងអាប់ដេត Obsidian
 
-Your team can download Obsidian from our [Download page](https://obsidian.md/download). Releases are also available on our [GitHub releases page](https://github.com/obsidianmd/obsidian-releases/releases) which includes links to [the changelog](https://obsidian.md/changelog/).
+ក្រុមរបស់អ្នកអាចទាញយក Obsidian ពី [ទំព័រទាញយក](https://obsidian.md/download) របស់យើង។ កំណែផ្សេងៗក៏មាននៅលើ [ទំព័រ GitHub releases](https://github.com/obsidianmd/obsidian-releases/releases) របស់យើងដែលរួមបញ្ចូលតំណភ្ជាប់ទៅកាន់ [បញ្ជីផ្លាស់ប្តូរ](https://obsidian.md/changelog/)។
 
-> [!tip] For Windows users who need a system installer, the Universal `.exe` includes the option to install Obsidian for all users.
+> [!tip] សម្រាប់អ្នកប្រើប្រាស់ Windows ដែលត្រូវការកម្មវិធីដំឡើងប្រព័ន្ធ Universal `.exe` រួមបញ្ចូលជម្រើសដើម្បីដំឡើង Obsidian សម្រាប់អ្នកប្រើប្រាស់ទាំងអស់។
 
-If automatic updates are enabled in the app, future versions will be installed automatically when users restart Obsidian. Additionally, we recommend periodically performing [[អាប់ដេត Obsidian#Installer updates|installer updates]] to receive the latest updates to the Electron framework, including security fixes.
+ប្រសិនបើការអាប់ដេតដោយស្វ័យប្រវត្តិត្រូវបានបើកនៅក្នុងកម្មវិធី កំណែថ្មីៗនឹងត្រូវបានដំឡើងដោយស្វ័យប្រវត្តិនៅពេលអ្នកប្រើប្រាស់ចាប់ផ្តើម Obsidian ឡើងវិញ។ លើសពីនេះ យើងណែនាំឱ្យធ្វើ [[អាប់ដេត Obsidian#ការអាប់ដេតកម្មវិធីដំឡើង|ការអាប់ដេតកម្មវិធីដំឡើង]] ជាទៀងទាត់ ដើម្បីទទួលបានការអាប់ដេតចុងក្រោយបំផុតទៅកាន់ framework Electron រួមទាំងការជួសជុលសុវត្ថិភាព។
 
-If you are looking how to limit network access to Obsidian during this process, review [[ការពិចារណាសុវត្ថិភាពសម្រាប់ក្រុម#Network and access|network and access]].
+ប្រសិនបើអ្នកកំពុងស្វែងរកវិធីកំណត់ការចូលប្រើបណ្តាញទៅ Obsidian ក្នុងអំឡុងពេលដំណើរការនេះ សូមពិនិត្យមើល [[ការពិចារណាសុវត្ថិភាពសម្រាប់ក្រុម#បណ្តាញ និងការចូលប្រើ|បណ្តាញ និងការចូលប្រើ]]។
 
-## Customizing Obsidian
+## ការប្ដូរតាមបំណង Obsidian
 
-Obsidian is easy to modify to suit your team's needs. With an extensive API and a large ecosystem of users, Obsidian offers access to numerous plugins, themes, and complementary tools.
+Obsidian ងាយស្រួលកែប្រែឱ្យសមនឹងតម្រូវការក្រុមរបស់អ្នក។ ជាមួយ API ដ៏ទូលំទូលាយ និងប្រព័ន្ធអេកូដ៏ធំរបស់អ្នកប្រើប្រាស់ Obsidian ផ្តល់ការចូលប្រើកម្មវិធីជំនួយ រូបរាង និងឧបករណ៍បន្ថែមជាច្រើន។
 
-For security-related questions concerning these topics, please refer to [[ការពិចារណាសុវត្ថិភាពសម្រាប់ក្រុម]].
+សម្រាប់សំណួរទាក់ទងនឹងសុវត្ថិភាពអំពីប្រធានបទទាំងនេះ សូមយោងទៅ [[ការពិចារណាសុវត្ថិភាពសម្រាប់ក្រុម]]។
 
-### Configuration folders
+### ថតកំណត់រចនាសម្ព័ន្ធ
 
-The [[ថតកំណត់រចនាសម្ព័ន្ធ]] is where an Obsidian [[សទ្ទានុក្រម#Vault|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[ថតកំណត់រចនាសម្ព័ន្ធ#Change your configuration folder|change the configuration folder]] name according to your preference.
+[[ថតកំណត់រចនាសម្ព័ន្ធ]] គឺជាកន្លែងដែល [[សទ្ទានុក្រម#Vault|vault]] របស់ Obsidian រក្សាទុកការកំណត់កម្មវិធីរបស់វា។ តាមលំនាំដើម ថតនេះមានឈ្មោះ `.obsidian` ប៉ុន្តែអ្នកមានភាពបត់បែនក្នុងការ [[ថតកំណត់រចនាសម្ព័ន្ធ#ផ្លាស់ប្តូរថតកំណត់រចនាសម្ព័ន្ធរបស់អ្នក|ផ្លាស់ប្តូរថតកំណត់រចនាសម្ព័ន្ធ]] តាមចំណូលចិត្តរបស់អ្នក។
 
-We recommend creating a standardized template of the configuration folder to be deployed across your team's devices.
+យើងណែនាំឱ្យបង្កើតគំរូស្តង់ដារនៃថតកំណត់រចនាសម្ព័ន្ធដើម្បីដាក់ពង្រាយទូទាំងឧបករណ៍ក្រុមរបស់អ្នក។
 
-### Plugins
+### កម្មវិធីជំនួយ
 
-[[កម្មវិធីជំនួយចម្បង]] are optional features created by the Obsidian team. These features are integrated in the core application codebase and can be turned on or off.
+[[កម្មវិធីជំនួយចម្បង]] គឺជាមុខងារជម្រើសដែលបង្កើតដោយក្រុម Obsidian។ មុខងារទាំងនេះត្រូវបានដាក់បញ្ចូលក្នុងកូដកម្មវិធីស្នូល ហើយអាចបើក ឬបិទបាន។
 
-[[កម្មវិធីជំនួយសហគមន៍]] are third-party features added to the Obsidian application, and can be installed via the community directory. Third-party plugins leverage the [Obsidian API](https://github.com/obsidianmd/obsidian-api). Plugins are located in the `.obsidian/plugins` folder within a vault, and can be installed manually at this location.
+[[កម្មវិធីជំនួយសហគមន៍]] គឺជាមុខងារភាគីទីបីដែលបានបន្ថែមទៅកម្មវិធី Obsidian ហើយអាចដំឡើងតាមរយៈថតសហគមន៍។ កម្មវិធីជំនួយភាគីទីបីប្រើប្រាស់ [Obsidian API](https://github.com/obsidianmd/obsidian-api)។ កម្មវិធីជំនួយមានទីតាំងនៅក្នុងថត `.obsidian/plugins` នៅក្នុង vault ហើយអាចដំឡើងដោយដៃនៅទីតាំងនេះ។
 
-### Themes and snippets
+### រូបរាង និងស្នីប៉ែត
 
-[[រូបរាង]] visually alter the Obsidian interface. Like plugins, themes can be downloaded from our community directory. Themes are located in the `.obsidian/themes` folder within a vault.
+[[រូបរាង]] ផ្លាស់ប្តូរចំណុចប្រទាក់ Obsidian ជាមើលឃើញ។ ដូចកម្មវិធីជំនួយដែរ រូបរាងអាចទាញយកបានពីថតសហគមន៍របស់យើង។ រូបរាងមានទីតាំងនៅក្នុងថត `.obsidian/themes` នៅក្នុង vault។
 
-[[ស្នីប៉ែត CSS|Snippets]] are small `.css` files that visually modify aspects of the Obsidian interface. In some cases, it can also add functional enhancements. Snippets are located in the `.obsidian/snippets` folder within a vault.
+[[ស្នីប៉ែត CSS|ស្នីប៉ែត]] គឺជាឯកសារ `.css` តូចៗដែលកែប្រែទិដ្ឋភាពនៃចំណុចប្រទាក់ Obsidian ជាមើលឃើញ។ ក្នុងករណីខ្លះ វាក៏អាចបន្ថែមការកែលម្អមុខងារផងដែរ។ ស្នីប៉ែតមានទីតាំងនៅក្នុងថត `.obsidian/snippets` នៅក្នុង vault។
 
-## Frequently asked questions
+## សំណួរដែលគេសួរញឹកញាប់
 
-For questions about account management and security, please refer to [[ការពិចារណាសុវត្ថិភាពសម្រាប់ក្រុម#Account security|account security]].
+សម្រាប់សំណួរអំពីការគ្រប់គ្រងគណនី និងសុវត្ថិភាព សូមយោងទៅ [[ការពិចារណាសុវត្ថិភាពសម្រាប់ក្រុម#សុវត្ថិភាពគណនី|សុវត្ថិភាពគណនី]]។
 
-### Deployment
+### ការដាក់ពង្រាយ
 
-**Can I deploy licenses across multiple installations?**
-Currently, we do not support deploying licenses via a deployment script, such as in a `.json` file. If you're interested in this feature for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**តើខ្ញុំអាចដាក់ពង្រាយអាជ្ញាប័ណ្ណឆ្លងកាត់ការដំឡើងច្រើនបានទេ?**
+បច្ចុប្បន្ន យើងមិនគាំទ្រការដាក់ពង្រាយអាជ្ញាប័ណ្ណតាមរយៈស្គ្រីបដាក់ពង្រាយទេ ដូចជាក្នុងឯកសារ `.json`។ ប្រសិនបើអ្នកចាប់អារម្មណ៍នឹងមុខងារនេះសម្រាប់ក្រុមរបស់អ្នក សូមដាក់ស្នើ [សំណើមុខងារ](https://forum.obsidian.md/c/feature-requests/8)។
 
-**Can Obsidian lock certain features or configurations via a setting or an application flag?**
-Currently you can do this by blocking edit access to the `.obsidian` folder, or specific files and folders within it, described above. If you're interested in more access controls for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**តើ Obsidian អាចចាក់សោមុខងារ ឬការកំណត់រចនាសម្ព័ន្ធជាក់លាក់តាមរយៈការកំណត់ ឬទង់កម្មវិធីបានទេ?**
+បច្ចុប្បន្ន អ្នកអាចធ្វើវាបានដោយការរារាំងការចូលប្រើកែសម្រួលថត `.obsidian` ឬឯកសារ និងថតជាក់លាក់នៅក្នុងវា ដូចដែលបានពិពណ៌នាខាងលើ។ ប្រសិនបើអ្នកចាប់អារម្មណ៍នឹងការគ្រប់គ្រងការចូលប្រើបន្ថែមសម្រាប់ក្រុមរបស់អ្នក សូមដាក់ស្នើ [សំណើមុខងារ](https://forum.obsidian.md/c/feature-requests/8)។

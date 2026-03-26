@@ -1,58 +1,57 @@
 ---
-localized: false
 permalink: import/evernote
 ---
-Obsidian lets you easily migrate your notes from Evernote using the [[កម្មវិធីនាំចូល|Importer plugin]]. This will convert your Evernote data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian អនុញ្ញាតឱ្យអ្នកផ្ទេរកំណត់ត្រារបស់អ្នកពី Evernote បានយ៉ាងងាយស្រួលដោយប្រើ [[កម្មវិធីនាំចូល|កម្មវិធីជំនួយ Importer]]។ វានឹងបម្លែងទិន្នន័យ Evernote របស់អ្នកទៅជាឯកសារ Markdown ប្រើប្រាស់បានយូរ ដែលអ្នកអាចប្រើជាមួយ Obsidian និងកម្មវិធីជាច្រើនផ្សេងទៀត។
 
-## Export your data from Evernote
+## នាំចេញទិន្នន័យរបស់អ្នកពី Evernote
 
-Obsidian uses Evernote's export format `.enex` files.
+Obsidian ប្រើទម្រង់នាំចេញរបស់ Evernote ជាឯកសារ `.enex`។
 
-You can find Evernote's instructions for exporting your data [on Evernote's website](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). This method lets you export entire notebooks in the desktop client.
+អ្នកអាចរកការណែនាំរបស់ Evernote សម្រាប់នាំចេញទិន្នន័យរបស់អ្នក [នៅលើគេហទំព័ររបស់ Evernote](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML)។ វិធីនេះអនុញ្ញាតឱ្យអ្នកនាំចេញសៀវភៅកំណត់ទាំងមូលនៅក្នុងកម្មវិធីផ្ទៃតុ។
 
-1. Go to the Notebooks screen.
-2. Click on **More actions** ( `•••` ) and choose **Export Notebook...**
-3. Select **ENEX** as the file format.
-3. Choose a location for your exported `.enex` file.
+1. ចូលទៅអេក្រង់ Notebooks។
+2. ចុចលើ **More actions** ( `•••` ) ហើយជ្រើសរើស **Export Notebook...**
+3. ជ្រើសរើស **ENEX** ជាទម្រង់ឯកសារ។
+3. ជ្រើសរើសទីតាំងសម្រាប់ឯកសារ `.enex` ដែលបាននាំចេញរបស់អ្នក។
 
-## Import your Evernote data into Obsidian
+## នាំចូលទិន្នន័យ Evernote របស់អ្នកទៅក្នុង Obsidian
 
-You will need the official Obsidian [[កម្មវិធីនាំចូល]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+អ្នកនឹងត្រូវការកម្មវិធីជំនួយ [[កម្មវិធីនាំចូល]] ផ្លូវការរបស់ Obsidian ដែលអ្នកអាច [ដំឡើងនៅទីនេះ](obsidian://show-plugin?id=obsidian-importer)។
 
-1. Open **[[ការកំណត់]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Evernote (.enex)**.
-6. Select the location of your Evernote backup file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. បើក **[[ការកំណត់]]**។
+2. ចូលទៅ **កម្មវិធីជំនួយសហគមន៍** ហើយ [ដំឡើង Importer](obsidian://show-plugin?id=obsidian-importer)។
+3. បើកដំណើរការកម្មវិធីជំនួយ Importer។
+4. បើកកម្មវិធីជំនួយ **Importer** ដោយប្រើក្ដារលាយពាក្យបញ្ជា ឬរូបតំណាងរីបិន។
+5. នៅក្រោម **File format** ជ្រើសរើស **Evernote (.enex)**។
+6. ជ្រើសរើសទីតាំងនៃឯកសារបម្រុងទុក Evernote របស់អ្នក។
+7. ចុច **Import** ហើយរង់ចាំរហូតដល់ការនាំចូលបញ្ចប់។
+8. រួចរាល់ហើយ!
 
-## Advanced import options
+## ជម្រើសនាំចូលកម្រិតខ្ពស់
 
-### Maintain tag hierarchy
+### រក្សាឋានានុក្រមស្លាក
 
-Evernote export does not keep the tag hierarchy. To keep your tag hierarchy, you can "flatten" tags separated by "/". For example, assuming that you have the following tag structure: 
+ការនាំចេញ Evernote មិនរក្សាឋានានុក្រមស្លាកទេ។ ដើម្បីរក្សាឋានានុក្រមស្លាករបស់អ្នក អ្នកអាច "ធ្វើឱ្យសាមញ្ញ" ស្លាកដោយបំបែកដោយ "/"។ ឧទាហរណ៍ ឧបមាថាអ្នកមានរចនាសម្ព័ន្ធស្លាកដូចខាងក្រោម:
 
 ```
 ParentTag
     ChildTag
 ```
 
-What you need to do to keep tags related in Obsidian is:
+អ្វីដែលអ្នកត្រូវធ្វើដើម្បីរក្សាស្លាកដែលពាក់ព័ន្ធគ្នានៅក្នុង Obsidian គឺ:
 
-1. Right-click on the ChildTag.
-2. Select "Rename."
-3. Rename it as `ParentTag/ChildTag`.
+1. ចុចកណ្ដុរស្ដាំលើ ChildTag។
+2. ជ្រើសរើស "Rename"។
+3. ប្ដូរឈ្មោះវាជា `ParentTag/ChildTag`។
 
-### Handling notebook stacks
+### ការដោះស្រាយជង់សៀវភៅកំណត់
 
-Since the export process is limited to single notebooks, the default export file lacks information about notebook stacks. However, the importer can recognize patterns in the enex file name to recreate notebook stacks as folders.
+ដោយសារដំណើរការនាំចេញមានកម្រិតត្រឹមសៀវភៅកំណត់តែមួយ ឯកសារនាំចេញលំនាំដើមខ្វះព័ត៌មានអំពីជង់សៀវភៅកំណត់។ ទោះយ៉ាងណា កម្មវិធីនាំចូលអាចស្គាល់គំរូនៅក្នុងឈ្មោះឯកសារ enex ដើម្បីបង្កើតជង់សៀវភៅកំណត់ឡើងវិញជាថត។
 
-Assuming that you have a notebook called ```NotebookA``` in a stack called ```Stack1```, you can recreate a notebook stack by renaming the enex file to ```Stack1@@@NotebookA```.
+ឧបមាថាអ្នកមានសៀវភៅកំណត់ឈ្មោះ ```NotebookA``` នៅក្នុងជង់ឈ្មោះ ```Stack1``` អ្នកអាចបង្កើតជង់សៀវភៅកំណត់ឡើងវិញដោយប្ដូរឈ្មោះឯកសារ enex ទៅជា ```Stack1@@@NotebookA```។
 
-This results in the converted notes being generated within the Stack1/NotebookA folder.
+លទ្ធផលនឹងជាកំណត់ត្រាដែលបានបម្លែងត្រូវបានបង្កើតនៅក្នុងថត Stack1/NotebookA។
 
-### More options
+### ជម្រើសបន្ថែម
 
-For more advanced import options from Evernote you can also try [importing via Yarle](https://github.com/akosbalasko/yarle).
+សម្រាប់ជម្រើសនាំចូលកម្រិតខ្ពស់បន្ថែមពី Evernote អ្នកក៏អាចសាកល្បង [នាំចូលតាមរយៈ Yarle](https://github.com/akosbalasko/yarle) ផងដែរ។

@@ -37,7 +37,7 @@ description: Learn how to transition from your current syncing solution to Obsid
 
 ## ផ្លាស់ប្តូរ vault របស់អ្នកដោយប្រើ Obsidian នៅលើកុំព្យូទ័រ
 
-![[គ្រប់គ្រង​វ៉ាល់#Move vault to a different folder]]
+![[គ្រប់គ្រង​វ៉ាល់#ផ្លាស់ទី vault ទៅថតផ្សេង]]
 
 ## ផ្លាស់ប្តូរ vault របស់អ្នកនៅលើទូរសព្ទ
 

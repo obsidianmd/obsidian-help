@@ -1,54 +1,51 @@
 ---
-localized: false
 permalink: data-storage
 publish: true
 mobile: true
-description: This page explains how Obsidian stores its data on your device.
+description: ទំព័រនេះពន្យល់អំពីរបៀបដែល Obsidian រក្សាទុកទិន្នន័យរបស់វានៅលើឧបករណ៍របស់អ្នក។
 ---
+Obsidian រក្សាទុកកំណត់ត្រារបស់អ្នកជា [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន|ឯកសារអត្ថបទធម្មតាទម្រង់ Markdown]] នៅក្នុង _vault_។ Vault គឺជាថតមួយនៅលើប្រព័ន្ធឯកសារមូលដ្ឋានរបស់អ្នក រួមទាំងថតរងណាមួយក៏ដោយ។
 
-Obsidian stores your notes as [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន|Markdown-formatted]] plain text files in a _vault_. A vault is a folder on your local file system, including any subfolders.
+ដោយសារកំណត់ត្រាជាឯកសារអត្ថបទធម្មតា អ្នកអាចប្រើកម្មវិធីកែអត្ថបទ និងកម្មវិធីគ្រប់គ្រងឯកសារផ្សេងទៀតដើម្បីកែ និងគ្រប់គ្រងកំណត់ត្រា។ Obsidian ធ្វើបច្ចុប្បន្នភាព vault របស់អ្នកដោយស្វ័យប្រវត្តិដើម្បីតាមដានការផ្លាស់ប្តូរខាងក្រៅណាមួយ។
 
-Because notes are plain text files, you can use other text editors and file managers to edit and manage notes. Obsidian automatically refreshes your vault to keep up with any external changes.
+អ្នកអាចបង្កើត vault នៅកន្លែងណាមួយដែលប្រព័ន្ធប្រតិបត្តិការរបស់អ្នកអនុញ្ញាត។ Obsidian សមកាលកម្មជាមួយ [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git និងសេវាកម្មភាគីទីបីជាច្រើនផ្សេងទៀត។
 
-You can create a vault anywhere your operating system allows. Obsidian syncs with [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git, and many other third-party services.
+អ្នកអាចបើកថតច្រើនជា vault ដាច់ដោយឡែក ឧទាហរណ៍ ដើម្បីបែងចែកកំណត់ត្រាសម្រាប់ការងារ និងសាលារៀន។
 
-You can open multiple folders as individual vaults, for example to separate notes for work and school.
+> [!warning] Vault នៅក្នុង vault
+> ដោយសារ [[តំណភ្ជាប់ផ្ទៃក្នុង]] គឺជាមូលដ្ឋានក្នុង vault យើងណែនាំថាអ្នកមិនគួរបង្កើត vault នៅក្នុង vault ទេ។ តំណភ្ជាប់អាចនឹងមិនត្រូវបានធ្វើបច្ចុប្បន្នភាពត្រឹមត្រូវ។
 
-> [!warning] Vaults within vaults
-> Because [[តំណភ្ជាប់ផ្ទៃក្នុង]] are local to a vault, we recommend that you don't create vaults within vaults. Links may not be updated correctly.
+## ការកំណត់ vault
 
-## Vault settings
+Obsidian បង្កើត [[ថតកំណត់រចនាសម្ព័ន្ធ]] `.obsidian` នៅក្នុងថតឫសរបស់ vault ដែលមានចំណូលចិត្តជាក់លាក់សម្រាប់ vault នោះ ដូចជា [[ផ្លូវកាត់ក្តារចុច]], [[រូបរាង]] និង [[កម្មវិធីជំនួយសហគមន៍]]។
 
-Obsidian creates an `.obsidian` [[ថតកំណត់រចនាសម្ព័ន្ធ]] in the root folder of the vault, which contains preferences specific to that vault, such as [[ផ្លូវកាត់ក្តារចុច]], [[រូបរាង]], and [[កម្មវិធីជំនួយសហគមន៍]].
+តាមលំនាំដើម ប្រព័ន្ធប្រតិបត្តិការភាគច្រើនលាក់ថតដែលចាប់ផ្តើមដោយចំណុច (`.`) ដូច្នេះអ្នកប្រហែលជាត្រូវធ្វើបច្ចុប្បន្នភាពការកំណត់សម្រាប់កម្មវិធីគ្រប់គ្រងឯកសាររបស់អ្នកដើម្បីមើលវា។
 
-By default, most operating systems hide folders that start with a period (`.`), so you may need to update the settings for your file manager to see it.
+- **macOS**: នៅក្នុង Finder ចុច `Cmd+Shift+.` (ចំណុច) ដើម្បីបង្ហាញឯកសារដែលលាក់។
+- **Windows**: [បង្ហាញឯកសារដែលលាក់](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)
++ **GNU/Linux:** នៅក្នុង File Explorer ភាគច្រើន ចុច `Ctrl + h` ដើម្បីបង្ហាញឯកសារដែលលាក់។
 
-- **macOS**: In Finder, press `Cmd+Shift+.` (period) to show hidden files.
-- **Windows**: [Show hidden files](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)
-+ **GNU/Linux:** In most File Explorers, press `Ctrl + h` to show hidden files.
+> [!tip] ការបន្ថែម `.obsidian` ទៅ Git
+> ឯកសារ `.obsidian/workspace.json` និង `.obsidian/workspaces.json` រក្សាទុកប្លង់កន្លែងធ្វើការបច្ចុប្បន្ន និងធ្វើបច្ចុប្បន្នភាពរាល់ពេលអ្នកបើកឯកសារថ្មី។ ប្រសិនបើអ្នកប្រើ [Git](https://git-scm.com) ដើម្បីគ្រប់គ្រង vault របស់អ្នក អ្នកប្រហែលជាចង់បន្ថែមឯកសារទាំងនេះទៅ `.gitignore`។
 
-> [!tip] Adding `.obsidian` to Git
-> The `.obsidian/workspace.json` and `.obsidian/workspaces.json` files store the current workspace layout and update whenever you open a new file. If you use [Git](https://git-scm.com) to manage your vault, you might want to add these files to `.gitignore`.
+## ការកំណត់សកល
 
-## Global settings
-
-Obsidian stores global settings in a system folder. The location of the system folder depends on the operating system you're using.
+Obsidian រក្សាទុកការកំណត់សកលនៅក្នុងថតប្រព័ន្ធ។ ទីតាំងរបស់ថតប្រព័ន្ធអាស្រ័យលើប្រព័ន្ធប្រតិបត្តិការដែលអ្នកកំពុងប្រើ។
 
 - **macOS**: `/Users/yourusername/Library/Application Support/obsidian`
 - **Windows**: `%APPDATA%\Obsidian\`
-- **Linux**: `$XDG_CONFIG_HOME/obsidian/` or `~/.config/obsidian/`
+- **Linux**: `$XDG_CONFIG_HOME/obsidian/` ឬ `~/.config/obsidian/`
 
-> [!warning] Don't create a vault in the system folder. This may lead to corrupted data or data loss.
+> [!warning] កុំបង្កើត vault នៅក្នុងថតប្រព័ន្ធ។ នេះអាចនាំឱ្យទិន្នន័យខូច ឬបាត់បង់ទិន្នន័យ។
 
 ## IndexedDB
 
-IndexedDB is a low-level, client-side database that Obsidian uses for backend storage. It helps maintain the state of [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]] connections, and preserves the [[#Metadata cache]] when the application is closed. 
+IndexedDB គឺជាមូលដ្ឋានទិន្នន័យកម្រិតទាបផ្នែកម៉ាស៊ីនភ្ញៀវដែល Obsidian ប្រើសម្រាប់ការផ្ទុកខាងក្រោយ។ វាជួយរក្សាស្ថានភាពនៃការតភ្ជាប់ [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]] និងរក្សា [[#ឃ្លាំងផ្ទុកមេតាដាតា]] នៅពេលកម្មវិធីត្រូវបានបិទ។
 
-> [!warning] If Apple's [Lockdown Mode](<https://support.apple.com/en-us/105120>) is enabled and Obsidian is not excluded, these database files will not save, requiring reindexing each time the app starts.
+> [!warning] ប្រសិនបើ [Lockdown Mode](<https://support.apple.com/en-us/105120>) របស់ Apple ត្រូវបានបើក ហើយ Obsidian មិនត្រូវបានលើកលែង ឯកសារមូលដ្ឋានទិន្នន័យទាំងនេះនឹងមិនរក្សាទុកទេ ដែលតម្រូវឱ្យធ្វើលិបិក្រមឡើងវិញរាល់ពេលកម្មវិធីចាប់ផ្តើម។
 
-### Metadata cache
+### ឃ្លាំងផ្ទុកមេតាដាតា
 
-In order to provide a fast experience while using the app, Obsidian maintains a local record of metadata about the files in your vault called the **metadata cache**. This metadata powers many things across the app, from the Graph view to the Outline view.
+ដើម្បីផ្តល់បទពិសោធន៍រហ័សពេលប្រើកម្មវិធី Obsidian រក្សាកំណត់ត្រាមូលដ្ឋាននៃមេតាដាតាអំពីឯកសារនៅក្នុង vault របស់អ្នកដែលហៅថា **ឃ្លាំងផ្ទុកមេតាដាតា**។ មេតាដាតានេះផ្តល់ថាមពលដល់រឿងជាច្រើននៅទូទាំងកម្មវិធី ចាប់ពី Graph view រហូតដល់ Outline view។
 
-Obsidian keeps this cache in sync with the files in your vault, but it is possible for the data to get out of sync with the underlying files. In the event that this happens to your vault, you can rebuild your metadata cache from the app settings in the *Files and links* section.
-
+Obsidian រក្សាឃ្លាំងផ្ទុកនេះឱ្យសមកាលកម្មជាមួយឯកសារនៅក្នុង vault របស់អ្នក ប៉ុន្តែវាអាចទៅរួចដែលទិន្នន័យមិនសមកាលកម្មជាមួយឯកសារមូលដ្ឋាន។ ក្នុងករណីដែលវាកើតឡើងចំពោះ vault របស់អ្នក អ្នកអាចបង្កើតឡើងវិញនូវឃ្លាំងផ្ទុកមេតាដាតារបស់អ្នកពីការកំណត់កម្មវិធីនៅក្នុងផ្នែក *ឯកសារ និងតំណភ្ជាប់*។

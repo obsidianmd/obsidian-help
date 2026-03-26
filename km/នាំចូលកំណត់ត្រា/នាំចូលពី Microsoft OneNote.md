@@ -1,52 +1,51 @@
 ---
-localized: false
 permalink: import/onenote
 ---
-Obsidian lets you easily migrate your notes from Microsoft OneNote using the [[កម្មវិធីនាំចូល|Importer plugin]]. This will convert your OneNote data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian អនុញ្ញាតឱ្យអ្នកផ្ទេរកំណត់ត្រារបស់អ្នកពី Microsoft OneNote យ៉ាងងាយស្រួលដោយប្រើ [[កម្មវិធីនាំចូល|កម្មវិធីជំនួយ Importer]]។ វានឹងបម្លែងទិន្នន័យ OneNote របស់អ្នកទៅជាឯកសារ Markdown ដែលមានភាពប្រើប្រាស់បានយូរ ដែលអ្នកអាចប្រើជាមួយ Obsidian និងកម្មវិធីផ្សេងៗជាច្រើន។
 
 > [!Warning]
-> Only notebooks owned by your personal account can be imported. Shared notes, or accounts from work and school accounts are not supported.
+> មានតែសៀវភៅកត់ត្រាដែលជាកម្មសិទ្ធិរបស់គណនីផ្ទាល់ខ្លួនរបស់អ្នកប៉ុណ្ណោះដែលអាចនាំចូលបាន។ កំណត់ត្រាដែលចែករំលែក ឬគណនីពីគណនីការងារ និងសាលារៀនមិនត្រូវបានគាំទ្រទេ។
 
-## Import your OneNote data into Obsidian
+## នាំចូលទិន្នន័យ OneNote របស់អ្នកទៅ Obsidian
 
-You will need the official Obsidian [[កម្មវិធីនាំចូល]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+អ្នកត្រូវការកម្មវិធីជំនួយ [[កម្មវិធីនាំចូល|Importer]] ផ្លូវការរបស់ Obsidian ដែលអ្នកអាច [ដំឡើងនៅទីនេះ](obsidian://show-plugin?id=obsidian-importer)។
 
-1. Open **[[ការកំណត់]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Microsoft OneNote**.
-6. Click **Sign in** to open your web browser to the Microsoft sign-in page. Enter the credentials for your Microsoft account which contains your OneNote Notebooks. More information about the Microsoft sign-in process is available below.
-7. Click **Accept** to grant Obsidian permission to view your OneNote Notebooks.
-8. Click **Open Link** to allow your browser to redirect you to the Obsidian app.
-9. In the Obsidian app, the Importer dialog will now display that you are signed in and list your OneNote Notebooks and Sections. Check the sections you wish to import.
+1. បើក **[[ការកំណត់]]**។
+2. ចូលទៅ **កម្មវិធីជំនួយសហគមន៍** ហើយ [ដំឡើង Importer](obsidian://show-plugin?id=obsidian-importer)។
+3. បើកកម្មវិធីជំនួយ Importer។
+4. បើកកម្មវិធីជំនួយ **Importer** ដោយប្រើ command palette ឬរូបតំណាងរីបិន។
+5. នៅក្រោម **ទម្រង់ឯកសារ** ជ្រើសរើស **Microsoft OneNote**។
+6. ចុច **ចូល** ដើម្បីបើកកម្មវិធីរុករកវែបរបស់អ្នកទៅទំព័រចូល Microsoft។ បញ្ចូលព័ត៌មានអត្តសញ្ញាណសម្រាប់គណនី Microsoft របស់អ្នកដែលមានសៀវភៅកត់ត្រា OneNote។ ព័ត៌មានបន្ថែមអំពីដំណើរការចូល Microsoft មាននៅខាងក្រោម។
+7. ចុច **យល់ព្រម** ដើម្បីផ្តល់សិទ្ធិឱ្យ Obsidian មើលសៀវភៅកត់ត្រា OneNote របស់អ្នក។
+8. ចុច **បើកតំណភ្ជាប់** ដើម្បីអនុញ្ញាតឱ្យកម្មវិធីរុករករបស់អ្នកបញ្ជូនអ្នកទៅកម្មវិធី Obsidian។
+9. នៅក្នុងកម្មវិធី Obsidian ប្រអប់ Importer ឥឡូវនេះនឹងបង្ហាញថាអ្នកបានចូលហើយ ហើយរាយបញ្ជីសៀវភៅកត់ត្រា និងផ្នែក OneNote របស់អ្នក។ ធីកផ្នែកដែលអ្នកចង់នាំចូល។
 
 ![[OneNote-Importer-Select-Sections.png]]
 
-10. Click **Import** and wait until import is complete.
-11. You're done!
+10. ចុច **នាំចូល** ហើយរង់ចាំរហូតដល់ការនាំចូលបានបញ្ចប់។
+11. រួចរាល់!
 
-## Troubleshooting
+## ការដោះស្រាយបញ្ហា
 
-### No sections or notebooks appear
+### គ្មានផ្នែក ឬសៀវភៅកត់ត្រាបង្ហាញ
 
-Make sure that the notebooks you're trying to import are synced to OneDrive and visible in OneNote Web. They must be owned by you (shared notebooks written by others are unsupported).
+ត្រូវប្រាកដថាសៀវភៅកត់ត្រាដែលអ្នកកំពុងព្យាយាមនាំចូលត្រូវបានសមកាលកម្មទៅ OneDrive ហើយអាចមើលឃើញនៅក្នុង OneNote Web។ ពួកវាត្រូវតែជាកម្មសិទ្ធិរបស់អ្នក (សៀវភៅកត់ត្រាដែលចែករំលែកដែលសរសេរដោយអ្នកផ្សេងមិនត្រូវបានគាំទ្រទេ)។
 
-If a specific section is missing, make sure it's not a locked section — those are invisible without removing the lock first.
+ប្រសិនបើផ្នែកជាក់លាក់មួយបាត់ ត្រូវប្រាកដថាវាមិនមែនជាផ្នែកដែលចាក់សោទេ — ផ្នែកទាំងនោះមើលមិនឃើញដោយមិនដកសោចេញជាមុន។
 
-### Imported notes are empty or missing content
+### កំណត់ត្រាដែលបាននាំចូលទទេ ឬខ្វះមាតិកា
 
-This issue may occur on notebooks that you rarely use. To solve the issue follow these steps:
+បញ្ហានេះអាចកើតឡើងលើសៀវភៅកត់ត្រាដែលអ្នកកម្រប្រើ។ ដើម្បីដោះស្រាយបញ្ហានេះ សូមអនុវត្តតាមជំហានទាំងនេះ៖
 
-1. Open [OneNote Web](https://onenote.com/notebooks) in your browser.
-2. **Right click** on the Notebooks which are missing content.
-3. Select **Export Notebook** from the menu.
-4. **Unzip** the file you've just downloaded into a folder.
-5. Upload your OneNote notebooks [here](https://www.onenote.com/notebooks/exportimport?toImport=true).
-6. Open **Obsidian Importer** and try importing again
+1. បើក [OneNote Web](https://onenote.com/notebooks) នៅក្នុងកម្មវិធីរុករករបស់អ្នក។
+2. **ចុចកណ្ដុរស្ដាំ** លើសៀវភៅកត់ត្រាដែលខ្វះមាតិកា។
+3. ជ្រើសរើស **នាំចេញសៀវភៅកត់ត្រា** ពីម៉ឺនុយ។
+4. **ពន្លាទេ** ឯកសារដែលអ្នកទើបទាញយកទៅក្នុងថតមួយ។
+5. ផ្ទុកឡើងសៀវភៅកត់ត្រា OneNote របស់អ្នក [នៅទីនេះ](https://www.onenote.com/notebooks/exportimport?toImport=true)។
+6. បើក **Obsidian Importer** ហើយព្យាយាមនាំចូលម្តងទៀត
 
-If you've followed these tips and your issue remains unresolved, it's possible that there is a temporary problem with Microsoft servers. If that's the case, wait a few minutes and try again. If the problem persists, please open an issue on the [Obsidian Importer GitHub repository](https://github.com/obsidianmd/obsidian-importer/issues).
+ប្រសិនបើអ្នកបានអនុវត្តតាមគន្លឹះទាំងនេះហើយ ហើយបញ្ហារបស់អ្នកនៅតែមិនអាចដោះស្រាយបាន វាអាចមានបញ្ហាបណ្តោះអាសន្នជាមួយម៉ាស៊ីនមេ Microsoft។ ប្រសិនបើដូច្នេះ សូមរង់ចាំពីរបីនាទី ហើយព្យាយាមម្តងទៀត។ ប្រសិនបើបញ្ហានៅតែបន្ត សូមបើកបញ្ហានៅលើ [ឃ្លាំង GitHub របស់ Obsidian Importer](https://github.com/obsidianmd/obsidian-importer/issues)។
 
-## Privacy
+## ឯកជនភាព
 
-The Obsidian Importer plugin uses [OAuth](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) to authenticate with your Microsoft account and import your OneNote notebooks. This grants a short term access token to your account which is used only from your computer and is never stored. After the import completes you may optionally revoke the token from the [Microsoft apps & services page](https://account.live.com/consent/Manage). 
+កម្មវិធីជំនួយ Obsidian Importer ប្រើ [OAuth](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) ដើម្បីផ្ទៀងផ្ទាត់ជាមួយគណនី Microsoft របស់អ្នក ហើយនាំចូលសៀវភៅកត់ត្រា OneNote របស់អ្នក។ នេះផ្តល់ token ចូលប្រើរយៈពេលខ្លីទៅគណនីរបស់អ្នក ដែលត្រូវបានប្រើតែពីកុំព្យូទ័ររបស់អ្នកប៉ុណ្ណោះ ហើយមិនដែលត្រូវបានរក្សាទុកទេ។ បន្ទាប់ពីការនាំចូលបានបញ្ចប់ អ្នកអាចដកហូត token នៅ [ទំព័រកម្មវិធី និងសេវាកម្ម Microsoft](https://account.live.com/consent/Manage)។

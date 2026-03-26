@@ -1,25 +1,24 @@
 ---
-localized: false
 permalink: import/html
 ---
-Obsidian lets you easily import individual HTML files and entire folders of HTML files using the official [[កម្មវិធីនាំចូល|Importer plugin]]. This is useful if you want to save whole websites to [[Obsidian Flavored Markdown|Markdown]] format, or if you want to import data from a tool that exports to HTML. 
+Obsidian អនុញ្ញាតឱ្យអ្នកនាំចូលឯកសារ HTML ជាលក្ខណៈបុគ្គល និងថតទាំងមូលនៃឯកសារ HTML បានយ៉ាងងាយស្រួលដោយប្រើ[[កម្មវិធីនាំចូល|កម្មវិធីជំនួយ Importer]] ផ្លូវការ។ នេះមានប្រយោជន៍ប្រសិនបើអ្នកចង់រក្សាទុកគេហទំព័រទាំងមូលជាទម្រង់ [[Obsidian Flavored Markdown|Markdown]] ឬប្រសិនបើអ្នកចង់នាំចូលទិន្នន័យពីឧបករណ៍ដែលនាំចេញជា HTML។
 
-If you are importing notes from a specific app, you may want to first review the list of apps supported by [[កម្មវិធីនាំចូល|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.
+ប្រសិនបើអ្នកកំពុងនាំចូលកំណត់ត្រាពីកម្មវិធីជាក់លាក់មួយ អ្នកប្រហែលជាចង់ពិនិត្យមើលបញ្ជីកម្មវិធីដែលគាំទ្រដោយ[[កម្មវិធីនាំចូល|កម្មវិធីជំនួយ Importer]] ជាមុនសិន ដើម្បីពិនិត្យមើលថាតើមានកម្មវិធីបម្លែងជាក់លាក់ណាមួយដែលនឹងរក្សាទិន្នន័យដែលអ្នកកំពុងផ្ទេរបានប្រសើរជាងនេះដែរឬទេ។
 
-## Import HTML data into Obsidian
+## នាំចូលទិន្នន័យ HTML ទៅក្នុង Obsidian
 
-You will need the official Obsidian [[កម្មវិធីនាំចូល]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+អ្នកនឹងត្រូវការកម្មវិធីជំនួយ [[កម្មវិធីនាំចូល]] ផ្លូវការរបស់ Obsidian ដែលអ្នកអាច[ដំឡើងនៅទីនេះ](obsidian://show-plugin?id=obsidian-importer)។
 
-1. Open **[[ការកំណត់]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **HTML (.html).**
-6. Select the location of your HTML files or folders.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. បើក **[[ការកំណត់]]**។
+2. ចូលទៅ **កម្មវិធីជំនួយសហគមន៍** ហើយ [ដំឡើង Importer](obsidian://show-plugin?id=obsidian-importer)។
+3. បើកដំណើរការកម្មវិធីជំនួយ Importer។
+4. បើកកម្មវិធីជំនួយ **Importer** ដោយប្រើក្ដារលាយពាក្យបញ្ជា ឬរូបតំណាងរីបិន។
+5. ក្រោម **ទម្រង់ឯកសារ** ជ្រើសរើស **HTML (.html)។**
+6. ជ្រើសរើសទីតាំងនៃឯកសារ ឬថត HTML របស់អ្នក។
+7. ចុច **នាំចូល** ហើយរង់ចាំរហូតដល់ការនាំចូលបានបញ្ចប់។
+8. រួចរាល់ហើយ!
 
-### Import settings
+### ការកំណត់ការនាំចូល
 
-- **Attachment size limit**: Skip importing attachments larger than the specified size.
-- **Minimum image size**: Skip importing images smaller than the specified size in either dimension. Can be used to skip icons and logos.
+- **ដែនកំណត់ទំហំឯកសារភ្ជាប់**: រំលងការនាំចូលឯកសារភ្ជាប់ដែលធំជាងទំហំដែលបានបញ្ជាក់។
+- **ទំហំរូបភាពអប្បបរមា**: រំលងការនាំចូលរូបភាពដែលតូចជាងទំហំដែលបានបញ្ជាក់ក្នុងទិសណាមួយ។ អាចប្រើដើម្បីរំលងរូបតំណាង និងស្លាកសញ្ញា។

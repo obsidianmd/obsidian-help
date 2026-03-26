@@ -1,14 +1,13 @@
 ---
-localized: false
 permalink: import/markdown
 ---
-Obsidian uses Markdown `.md` files as the primary format for notes. This makes it easy to import Markdown files into Obsidian. Many apps can edit Markdown files or export to this format.
+Obsidian ប្រើឯកសារ Markdown `.md` ជាទម្រង់ចម្បងសម្រាប់កំណត់ត្រា។ នេះធ្វើឱ្យវាងាយស្រួលក្នុងការនាំចូលឯកសារ Markdown ទៅក្នុង Obsidian។ កម្មវិធីជាច្រើនអាចកែសម្រួលឯកសារ Markdown ឬនាំចេញទៅជាទម្រង់នេះ។
 
-There are several ways to add Markdown files to your Obsidian vault:
+មានវិធីជាច្រើនដើម្បីបន្ថែមឯកសារ Markdown ទៅក្នុង vault Obsidian របស់អ្នក៖
 
-1. Drag and drop files or folders into the [[កម្មវិធីរុករកឯកសារ]] window
-2. Use your system file browser (e.g. Windows Explorer or Finder on macOS), and move your files directly into the Obsidian vault folder.
+1. អូស និង ទម្លាក់ឯកសារ ឬថតទៅក្នុងបង្អួច [[កម្មវិធីរុករកឯកសារ]]
+2. ប្រើកម្មវិធីរុករកឯកសារប្រព័ន្ធរបស់អ្នក (ឧ. Windows Explorer ឬ Finder នៅលើ macOS) ហើយផ្លាស់ទីឯកសាររបស់អ្នកដោយផ្ទាល់ទៅក្នុងថត vault Obsidian។
 
-### Converting from other flavors of Markdown
+### ការបម្លែងពី Markdown ប្រភេទផ្សេងៗ
 
-Obsidian uses [[Obsidian Flavored Markdown]]. Some apps use slightly different Markdown syntax. You can use [[កម្មវិធីបម្លែងទ្រង់ទ្រាយ]] to convert your files to Obsidian's Markdown syntax. 
+Obsidian ប្រើ [[Obsidian Flavored Markdown]]។ កម្មវិធីខ្លះប្រើវាក្យសម្ពន្ធ Markdown ខុសគ្នាបន្តិច។ អ្នកអាចប្រើ [[កម្មវិធីបម្លែងទ្រង់ទ្រាយ]] ដើម្បីបម្លែងឯកសាររបស់អ្នកទៅជាវាក្យសម្ពន្ធ Markdown របស់ Obsidian។

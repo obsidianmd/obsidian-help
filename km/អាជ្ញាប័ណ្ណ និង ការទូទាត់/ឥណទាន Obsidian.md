@@ -1,46 +1,45 @@
 ---
-localized: false
 permalink: credit
 ---
-Obsidian Credit is a type of prepaid credit that can be bought in advance and applied toward purchases of any Obsidian service or license. Obsidian Credit can be [[#Gifting|gifted]] to other Obsidian users, such as friends, family, and coworkers.
+ឥណទាន Obsidian គឺជាប្រភេទឥណទានបង់មុនដែលអាចទិញជាមុន និងអនុវត្តចំពោះការទិញសេវាកម្ម ឬអាជ្ញាប័ណ្ណ Obsidian ណាមួយ។ ឥណទាន Obsidian អាច[[#ការផ្តល់ជាអំណោយ|ផ្តល់ជាអំណោយ]]ដល់អ្នកប្រើប្រាស់ Obsidian ផ្សេងទៀត ដូចជាមិត្តភក្តិ គ្រួសារ និងសហការី។
 
-Obsidian Credit will be applied before any payment is due, including auto-renewals. Obsidian Credit **is not** eligible for a refund per our [[គោលការណ៍សងប្រាក់វិញ]].
+ឥណទាន Obsidian នឹងត្រូវបានអនុវត្តមុនពេលការទូទាត់ណាមួយដល់កំណត់ រួមទាំងការបន្តដោយស្វ័យប្រវត្តិ។ ឥណទាន Obsidian **មិន** មានសិទ្ធិទទួលបានការសងប្រាក់វិញទេ តាម[[គោលការណ៍សងប្រាក់វិញ]]របស់យើង។
 
-## Add credit
+## បន្ថែមឥណទាន
 
-1. Log into [your Obsidian account](https://obsidian.md/account/billing).
-2. In the [Billing](https://obsidian.md/account/billing) section, go to **Obsidian Credit** and choose **Buy credit**.
-3. Enter the amount of Obsidian Credit you want to buy. The amount is in US dollars.
-4. Proceed to pay for the credit with any of the supported payment methods.
+1. ចូលទៅ[គណនី Obsidian របស់អ្នក](https://obsidian.md/account/billing)។
+2. នៅក្នុងផ្នែក [Billing](https://obsidian.md/account/billing) សូមទៅ **Obsidian Credit** ហើយជ្រើសរើស **Buy credit**។
+3. បញ្ចូលចំនួនឥណទាន Obsidian ដែលអ្នកចង់ទិញ។ ចំនួនគិតជាដុល្លារអាមេរិក។
+4. បន្តទូទាត់ឥណទានដោយប្រើវិធីទូទាត់ដែលគាំទ្រណាមួយ។
 
-> [!Note] Sales tax
-> Any applicable [[ពន្ធលើការលក់]] will be charged when you make a purchase of a product, such as Obsidian Sync, not when you buy Obsidian Credit.
+> [!Note] ពន្ធលើការលក់
+> [[ពន្ធលើការលក់]]ដែលអនុវត្តបាន នឹងត្រូវបានគិតប្រាក់នៅពេលអ្នកទិញផលិតផល ដូចជា Obsidian Sync មិនមែននៅពេលអ្នកទិញឥណទាន Obsidian ទេ។
 >
-> If you plan to cover auto-renewals with your credit, please keep this factor in mind.
+> ប្រសិនបើអ្នកមានគម្រោងគ្របដណ្តប់ការបន្តដោយស្វ័យប្រវត្តិជាមួយឥណទានរបស់អ្នក សូមចងចាំកត្តានេះ។
 
-## Gifting
+## ការផ្តល់ជាអំណោយ
 
-Although Obsidian is completely free to use, you can give the gift of Obsidian Credit to help someone get an add-on service like [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]] or a [[អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម|Commercial license]] for using Obsidian at work.
+ទោះបីជា Obsidian ឥតគិតថ្លៃទាំងស្រុងក្នុងការប្រើប្រាស់ក៏ដោយ អ្នកអាចផ្តល់អំណោយជាឥណទាន Obsidian ដើម្បីជួយនរណាម្នាក់ទទួលបានសេវាកម្មបន្ថែមដូចជា [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]] ឬ [[អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម|អាជ្ញាប័ណ្ណពាណិជ្ជកម្ម]] សម្រាប់ប្រើប្រាស់ Obsidian នៅកន្លែងធ្វើការ។
 
-Please note that Obsidian Credit **cannot** be re-gifted once claimed. The original recipient will not be able to transfer or share it with others.
+សូមចំណាំថាឥណទាន Obsidian **មិនអាច** ផ្តល់ជាអំណោយឡើងវិញបានទេ នៅពេលដែលបានទាមទារហើយ។ អ្នកទទួលដើមនឹងមិនអាចផ្ទេរ ឬចែករំលែកវាទៅអ្នកដទៃបានទេ។
 
-## Give Obsidian Credit
+## ផ្តល់ឥណទាន Obsidian
 
-In Obsidian, you don't gift a particular product, but rather Obsidian Credit that can be used towards anything. It's like an Obsidian gift card.
+នៅក្នុង Obsidian អ្នកមិនផ្តល់អំណោយជាផលិតផលជាក់លាក់ទេ ប៉ុន្តែជាឥណទាន Obsidian ដែលអាចប្រើសម្រាប់អ្វីក៏បាន។ វាដូចជាកាតអំណោយ Obsidian។
 
-1. If you don't already have [[ឥណទាន Obsidian]], you must first [[ឥណទាន Obsidian#Add credit|purchase credit]].
-2. Go to the [Billing](https://obsidian.md/account/billing) section of your account, and choose **Send credit**.
-3. Follow the instructions to either get a redeem link to send yourself, or have us send an anonymized email to the recipient.
-4. Click **Send gift** to complete the gifting. You will be sent an email confirmation.
-5. After you send out a gift, you can view it under **Billing → Gift history**. You can see the status of each gift, and cancel the ones that haven't been redeemed yet.
+1. ប្រសិនបើអ្នកមិនទាន់មាន[[ឥណទាន Obsidian]]ទេ អ្នកត្រូវ[[ឥណទាន Obsidian#បន្ថែមឥណទាន|ទិញឥណទាន]]ជាមុនសិន។
+2. ទៅផ្នែក [Billing](https://obsidian.md/account/billing) នៃគណនីរបស់អ្នក ហើយជ្រើសរើស **Send credit**។
+3. ធ្វើតាមការណែនាំដើម្បីទទួលបានតំណភ្ជាប់សម្រាប់ទាមទារ ដើម្បីផ្ញើទៅខ្លួនអ្នកផ្ទាល់ ឬឱ្យយើងផ្ញើអ៊ីមែលអនាមិកទៅអ្នកទទួល។
+4. ចុច **Send gift** ដើម្បីបញ្ចប់ការផ្តល់អំណោយ។ អ្នកនឹងទទួលបានអ៊ីមែលបញ្ជាក់។
+5. បន្ទាប់ពីអ្នកផ្ញើអំណោយ អ្នកអាចមើលវានៅក្រោម **Billing → Gift history**។ អ្នកអាចមើលស្ថានភាពនៃអំណោយនីមួយៗ និងលុបចោលអំណោយដែលមិនទាន់បានទាមទារ។
 
-## Receiving Obsidian Credit
+## ការទទួលឥណទាន Obsidian
 
-If you have received a redemption link or an anonymized email, follow these steps to redeem your Obsidian Credit:
+ប្រសិនបើអ្នកបានទទួលតំណភ្ជាប់សម្រាប់ទាមទារ ឬអ៊ីមែលអនាមិក សូមធ្វើតាមជំហានទាំងនេះដើម្បីទាមទារឥណទាន Obsidian របស់អ្នក៖
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account/billing).
-2. Open the redemption link or click the link in your email.
-3. Confirm that you want to receive the credits.
-4. The credits will be deposited within your account, ready to be used.
+1. ចូល ឬបង្កើត[គណនី Obsidian របស់អ្នក](https://obsidian.md/account/billing)។
+2. បើកតំណភ្ជាប់សម្រាប់ទាមទារ ឬចុចតំណភ្ជាប់នៅក្នុងអ៊ីមែលរបស់អ្នក។
+3. បញ្ជាក់ថាអ្នកចង់ទទួលឥណទាន។
+4. ឥណទាននឹងត្រូវបានដាក់ចូលក្នុងគណនីរបស់អ្នក រួចរាល់សម្រាប់ប្រើប្រាស់។
 
-The purchaser will be notified that you have redeemed the Obsidian Credit.
+អ្នកទិញនឹងត្រូវបានជូនដំណឹងថាអ្នកបានទាមទារឥណទាន Obsidian។

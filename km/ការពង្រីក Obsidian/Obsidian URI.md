@@ -1,192 +1,191 @@
 ---
-localized: false
 permalink: uri
 ---
-Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note. Obsidian URI enables automation and cross-app workflows.
+Obsidian URI គឺជាពិធីការ URI ផ្ទាល់ខ្លួនដែល Obsidian គាំទ្រ ដែលអនុញ្ញាតឱ្យអ្នកអនុវត្តសកម្មភាពផ្សេងៗ ដូចជាបើកកំណត់ត្រា ឬបង្កើតកំណត់ត្រា។ Obsidian URI អនុញ្ញាតឱ្យមានស្វ័យប្រវត្តិកម្ម និងលំហូរការងារឆ្លងកម្មវិធី។
 
-## URI format
+## ទម្រង់ URI
 
-Obsidian URIs use the following format:
+Obsidian URI ប្រើទម្រង់ដូចខាងក្រោម៖
 
 ```
 obsidian://action?param1=value&param2=value
 ```
 
-The `action` parameter is the action that you would like to perform. Available actions include:
+ប៉ារ៉ាម៉ែត្រ `action` គឺជាសកម្មភាពដែលអ្នកចង់អនុវត្ត។ សកម្មភាពដែលមានរួមមាន៖
 
-- `open` to open a note.
-- `new` to create or add to an existing note.
-- `daily` to create or open your daily note.
-- `unique` to create a new unique note.
-- `search` to open a search.
-- `choose-vault` to open the vault manager.
+- `open` ដើម្បីបើកកំណត់ត្រា។
+- `new` ដើម្បីបង្កើត ឬបន្ថែមទៅកំណត់ត្រាដែលមានស្រាប់។
+- `daily` ដើម្បីបង្កើត ឬបើកកំណត់ចំណាំប្រចាំថ្ងៃ។
+- `unique` ដើម្បីបង្កើតកំណត់ត្រាពិសេសថ្មី។
+- `search` ដើម្បីបើកការស្វែងរក។
+- `choose-vault` ដើម្បីបើកកម្មវិធីគ្រប់គ្រង vault។
 
-> [!warning] Encoding
-> Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+> [!warning] ការអ៊ិនកូដ
+> ត្រូវប្រាកដថាតម្លៃរបស់អ្នកត្រូវបានអ៊ិនកូដ URI យ៉ាងត្រឹមត្រូវ។ ឧទាហរណ៍ តួអក្សរ forward slash `/` ត្រូវតែអ៊ិនកូដជា `%2F` ហើយតួអក្សរដកឃ្លាត្រូវតែអ៊ិនកូដជា `%20`។
 > 
- This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding).
+ នេះមានសារៈសំខាន់ជាពិសេសព្រោះតួអក្សរ "reserved" ដែលអ៊ិនកូដមិនត្រឹមត្រូវអាចបំបែកការបកស្រាយ URI។ [សូមមើលនៅទីនេះសម្រាប់ព័ត៌មានលម្អិត](https://en.wikipedia.org/wiki/Percent-encoding)។
 
-## Open note
+## បើកកំណត់ត្រា
 
-The `open` action opens an Obsidian vault, or opens a file within that vault.
+សកម្មភាព `open` បើក vault Obsidian ឬបើកឯកសារនៅក្នុង vault នោះ។
 
-### Examples
+### ឧទាហរណ៍
 
 - `obsidian://open?vault=my%20vault`
-  This opens the vault `my vault`. If the vault is already open, focus on the window.
+  នេះបើក vault `my vault`។ ប្រសិនបើ vault ត្រូវបានបើករួចហើយ ផ្ដោតលើបង្អួច។
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-  This opens the vault identified by the ID `ef6ca3e3b524d22f`.
+  នេះបើក vault ដែលត្រូវបានកំណត់ដោយ ID `ef6ca3e3b524d22f`។
 - `obsidian://open?vault=my%20vault&file=my%20note`
-  This opens the note `my note.md` in the vault `my vault`, assuming the file exists.
+  នេះបើកកំណត់ត្រា `my note.md` នៅក្នុង vault `my vault` ដោយសន្មតថាឯកសារមាន។
 - `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-  This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
+  នេះនឹងស្វែងរក vault ណាមួយដែលមានផ្លូវ `/home/user/my vault/path/to/my note`។ បន្ទាប់មក ផ្លូវដែលនៅសល់ត្រូវបានបញ្ជូនទៅប៉ារ៉ាម៉ែត្រ `file`។ ឧទាហរណ៍ ប្រសិនបើ vault មាននៅ `/home/user/my vault` នោះវានឹងស្មើនឹងប៉ារ៉ាម៉ែត្រ `file` កំណត់ជា `path/to/my note`។
 
 
-> [!tip] Open a heading or block
-> With proper URI encoding, you can navigate to a heading or block within a note. `Note%23Heading` would navigate to the heading called "Heading", whereas `Note%23%5EBlock` would navigate to the block called "Block".
+> [!tip] បើកចំណងជើង ឬប្លុក
+> ជាមួយការអ៊ិនកូដ URI ត្រឹមត្រូវ អ្នកអាចរុករកទៅចំណងជើង ឬប្លុកនៅក្នុងកំណត់ត្រា។ `Note%23Heading` នឹងរុករកទៅចំណងជើងដែលមានឈ្មោះ "Heading" ខណៈដែល `Note%23%5EBlock` នឹងរុករកទៅប្លុកដែលមានឈ្មោះ "Block"។
 
-### Parameters
+### ប៉ារ៉ាម៉ែត្រ
 
-- `vault` can be either the vault name or the vault ID[^1].
-- `file` can be either a file name, or a path from the vault root to the specified file. If the file extension is `md`, the extension can be omitted.
-- `path` an absolute file system path to a file.
-  - Using this parameter will override both `vault` and `file`.
-  - This will cause the app to search for the most specific vault which contains the specified file path.
-  - Then the rest of the path replaces the `file` parameter.
-- `prepend` will add to the top of the file and attempt to merge properties.
-- `append` will add to the end of the file and also attempt to merge properties.
-- `paneType` (optional) determines where the note will be opened in the UI.
-  - if not present, the last active tab is replaced.
-  - `paneType=tab` open in a new tab.
-  - `paneType=split` open in a new tab group.
-  - `paneType=window` open in a pop-out window (Desktop only).
+- `vault` អាចជាឈ្មោះ vault ឬ ID vault[^1]។
+- `file` អាចជាឈ្មោះឯកសារ ឬផ្លូវពី vault root ទៅឯកសារដែលបានកំណត់។ ប្រសិនបើផ្នែកបន្ថែមឯកសារគឺ `md` ផ្នែកបន្ថែមអាចត្រូវបានរំលង។
+- `path` ផ្លូវប្រព័ន្ធឯកសារដាច់ខាតទៅឯកសារ។
+  - ការប្រើប៉ារ៉ាម៉ែត្រនេះនឹងបដិសេធទាំង `vault` និង `file`។
+  - នេះនឹងធ្វើឱ្យកម្មវិធីស្វែងរក vault ដែលជាក់លាក់បំផុតដែលមានផ្លូវឯកសារដែលបានកំណត់។
+  - បន្ទាប់មកផ្លូវដែលនៅសល់ជំនួសប៉ារ៉ាម៉ែត្រ `file`។
+- `prepend` នឹងបន្ថែមទៅផ្នែកខាងលើនៃឯកសារ ហើយព្យាយាមបញ្ចូលលក្ខណៈសម្បត្តិ។
+- `append` នឹងបន្ថែមទៅចុងបញ្ចប់នៃឯកសារ ហើយក៏ព្យាយាមបញ្ចូលលក្ខណៈសម្បត្តិផងដែរ។
+- `paneType` (ស្រេចចិត្ត) កំណត់កន្លែងដែលកំណត់ត្រានឹងត្រូវបានបើកនៅក្នុង UI។
+  - ប្រសិនបើមិនមាន ផ្ទាំងសកម្មចុងក្រោយត្រូវបានជំនួស។
+  - `paneType=tab` បើកនៅក្នុងផ្ទាំងថ្មី។
+  - `paneType=split` បើកនៅក្នុងក្រុមផ្ទាំងថ្មី។
+  - `paneType=window` បើកនៅក្នុងបង្អួចលេចចេញ (កុំព្យូទ័រតែប៉ុណ្ណោះ)។
 
-## Create note
+## បង្កើតកំណត់ត្រា
 
-The `new` action, creates a new note in the vault, optionally with some content.
+សកម្មភាព `new` បង្កើតកំណត់ត្រាថ្មីនៅក្នុង vault ដោយអាចមានមាតិកាមួយចំនួន។
 
-### Examples
+### ឧទាហរណ៍
 
 - `obsidian://new?vault=my%20vault&name=my%20note`
-  This opens the vault `my vault`, and creates a new note called `my note`.
+  នេះបើក vault `my vault` ហើយបង្កើតកំណត់ត្រាថ្មីដែលមានឈ្មោះ `my note`។
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-  This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+  នេះបើក vault `my vault` ហើយបង្កើតកំណត់ត្រាថ្មីនៅ `path/to/my note`។
 
-### Parameters
+### ប៉ារ៉ាម៉ែត្រ
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
-- `file` a vault absolute path, including the name. Will override `name` if specified.
-- `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `silent` (optional) include this parameter if you don't want to open the new note.
-- `append` (optional) include this parameter to append to an existing file if one exists.
-- `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` អាចជាឈ្មោះ vault ឬ ID vault[^1]។ ដូចគ្នានឹងសកម្មភាព `open`។
+- `name` ឈ្មោះឯកសារដែលត្រូវបង្កើត។ ប្រសិនបើបានកំណត់ ទីតាំងឯកសារនឹងត្រូវបានជ្រើសរើសដោយផ្អែកលើចំណូលចិត្ត "ទីតាំងលំនាំដើមសម្រាប់កំណត់ត្រាថ្មី" របស់អ្នក។
+- `file` ផ្លូវដាច់ខាតនៃ vault រួមទាំងឈ្មោះ។ នឹងបដិសេធ `name` ប្រសិនបើបានកំណត់។
+- `path` ផ្លូវដាច់ខាតសកល។ ដំណើរការស្រដៀងនឹងជម្រើស `path` នៅក្នុងសកម្មភាព `open` ដែលនឹងបដិសេធទាំង `vault` និង `file`។
+- `paneType` (ស្រេចចិត្ត) កំណត់កន្លែងដែលកំណត់ត្រានឹងត្រូវបានបើកនៅក្នុង UI។ ដូចគ្នានឹងសកម្មភាព `open`។
+- `content` (ស្រេចចិត្ត) មាតិកានៃកំណត់ត្រា។
+- `clipboard` (ស្រេចចិត្ត) ប្រើមាតិកានៃ clipboard ជំនួសឱ្យការកំណត់ `content`។
+- `silent` (ស្រេចចិត្ត) រួមបញ្ចូលប៉ារ៉ាម៉ែត្រនេះប្រសិនបើអ្នកមិនចង់បើកកំណត់ត្រាថ្មី។
+- `append` (ស្រេចចិត្ត) រួមបញ្ចូលប៉ារ៉ាម៉ែត្រនេះដើម្បីបន្ថែមទៅឯកសារដែលមានស្រាប់ ប្រសិនបើមាន។
+- `overwrite` (ស្រេចចិត្ត) សរសេរជាន់ឯកសារដែលមានស្រាប់ ប្រសិនបើមាន ប៉ុន្តែតែនៅពេលដែល `append` មិនត្រូវបានកំណត់។
+- `x-success` (ស្រេចចិត្ត) សូមមើល [[#ប្រើប៉ារ៉ាម៉ែត្រ x-callback-url]]។
 
-## Create or open daily note
+## បង្កើត ឬបើកកំណត់ចំណាំប្រចាំថ្ងៃ
 
-The `daily` action creates or opens your daily note. The [[កំណត់ចំណាំប្រចាំថ្ងៃ]] plugin must be enabled.
+សកម្មភាព `daily` បង្កើត ឬបើកកំណត់ចំណាំប្រចាំថ្ងៃរបស់អ្នក។ កម្មវិធីជំនួយ [[កំណត់ចំណាំប្រចាំថ្ងៃ]] ត្រូវតែបើកដំណើរការ។
 
-### Examples
+### ឧទាហរណ៍
 
 - `obsidian://daily?vault=my%20vault`
-  This opens the vault `my vault`, and creates or opens the daily note.
+  នេះបើក vault `my vault` ហើយបង្កើត ឬបើកកំណត់ចំណាំប្រចាំថ្ងៃ។
 
-### Parameters
+### ប៉ារ៉ាម៉ែត្រ
 
-The `daily` action accepts the same parameters as the `new` action.
+សកម្មភាព `daily` ទទួលយកប៉ារ៉ាម៉ែត្រដូចគ្នានឹងសកម្មភាព `new`។
 
-## Unique Note
+## កំណត់ត្រាពិសេស
 
-The `unique` action creates a new unique note in the vault. The [[en/Plugins/អ្នកបង្កើតកំណត់ចំណាំពិសេស|Unique note creator]] plugin must be enabled.
+សកម្មភាព `unique` បង្កើតកំណត់ត្រាពិសេសថ្មីនៅក្នុង vault។ កម្មវិធីជំនួយ [[អ្នកបង្កើតកំណត់ចំណាំពិសេស|អ្នកបង្កើតកំណត់ចំណាំពិសេស]] ត្រូវតែបើកដំណើរការ។
 
-### Examples
+### ឧទាហរណ៍
 
 - `obsidian://unique?vault=my%20vault`
-  This opens the vault `my vault`, and creates a new unique note.
+  នេះបើក vault `my vault` ហើយបង្កើតកំណត់ត្រាពិសេសថ្មី។
 - - `obsidian://unique?vault=my%20vault&content=Hello%20World`
-  This opens the vault `my vault`, and creates a new unique note with the content `Hello World`.
+  នេះបើក vault `my vault` ហើយបង្កើតកំណត់ត្រាពិសេសថ្មីដែលមានមាតិកា `Hello World`។
 
-### Parameters
+### ប៉ារ៉ាម៉ែត្រ
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` អាចជាឈ្មោះ vault ឬ ID vault[^1]។ ដូចគ្នានឹងសកម្មភាព `open`។
+- `paneType` (ស្រេចចិត្ត) កំណត់កន្លែងដែលកំណត់ត្រានឹងត្រូវបានបើកនៅក្នុង UI។ ដូចគ្នានឹងសកម្មភាព `open`។
+- `content` (ស្រេចចិត្ត) មាតិកានៃកំណត់ត្រា។
+- `clipboard` (ស្រេចចិត្ត) ប្រើមាតិកានៃ clipboard ជំនួសឱ្យការកំណត់ `content`។
+- `x-success` (ស្រេចចិត្ត) សូមមើល [[#ប្រើប៉ារ៉ាម៉ែត្រ x-callback-url]]។
 
-## Open search
+## បើកការស្វែងរក
 
-The `search` action opens [[ស្វែងរក]] in the specified vault, and optionally perform a search term.
+សកម្មភាព `search` បើក [[ស្វែងរក]] នៅក្នុង vault ដែលបានកំណត់ ហើយអាចអនុវត្តពាក្យស្វែងរកមួយ។
 
-### Examples
+### ឧទាហរណ៍
 
 - `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens [[ស្វែងរក]].
+  នេះបើក vault `my vault` ហើយបើក [[ស្វែងរក]]។
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  This opens the vault `my vault`, opens [[ស្វែងរក]], and performs a search for `Obsidian`.
+  នេះបើក vault `my vault` បើក [[ស្វែងរក]] ហើយស្វែងរក `Obsidian`។
 
-### Parameters
+### ប៉ារ៉ាម៉ែត្រ
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `query` (optional) The search term to perform.
+- `vault` អាចជាឈ្មោះ vault ឬ ID vault[^1]។ ដូចគ្នានឹងសកម្មភាព `open`។
+- `query` (ស្រេចចិត្ត) ពាក្យស្វែងរកដែលត្រូវអនុវត្ត។
 
-## Open Vault Manager
+## បើកកម្មវិធីគ្រប់គ្រង Vault
 
-The `choose-vault` action opens the [[គ្រប់គ្រង​វ៉ាល់|vault manager]].
+សកម្មភាព `choose-vault` បើក [[គ្រប់គ្រង​វ៉ាល់|កម្មវិធីគ្រប់គ្រង vault]]។
 
-### Examples
+### ឧទាហរណ៍
 
 - `obsidian://choose-vault`
 
-## Integrate with Hook
+## រួមបញ្ចូលជាមួយ Hook
 
-This Obsidian URI action is to be used with [Hook](https://hookproductivity.com/). 
+សកម្មភាព Obsidian URI នេះត្រូវបានប្រើជាមួយ [Hook](https://hookproductivity.com/)។
 
-### Example
+### ឧទាហរណ៍
 
 `obsidian://hook-get-address`
 
-### Parameters
+### ប៉ារ៉ាម៉ែត្រ
 
-- `vault` (optional) can be either the vault name, or the vault ID[^1]. If not provided, the current or last focused vault will be used.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
-- `x-error` (optional) see [[#Use x-callback-url parameters]].
+- `vault` (ស្រេចចិត្ត) អាចជាឈ្មោះ vault ឬ ID vault[^1]។ ប្រសិនបើមិនបានផ្ដល់ vault បច្ចុប្បន្ន ឬ vault ដែលផ្ដោតចុងក្រោយនឹងត្រូវបានប្រើ។
+- `x-success` (ស្រេចចិត្ត) សូមមើល [[#ប្រើប៉ារ៉ាម៉ែត្រ x-callback-url]]។
+- `x-error` (ស្រេចចិត្ត) សូមមើល [[#ប្រើប៉ារ៉ាម៉ែត្រ x-callback-url]]។
 
-If `x-success` is defined, this API will use it as the x-callback-url. Otherwise, it will copy a Markdown link of the current focused note to the clipboard, as an `obsidian://open` URL.
+ប្រសិនបើ `x-success` ត្រូវបានកំណត់ API នេះនឹងប្រើវាជា x-callback-url។ បើមិនដូច្នោះទេ វានឹងចម្លងតំណ Markdown នៃកំណត់ត្រាដែលផ្ដោតបច្ចុប្បន្នទៅ clipboard ជា URL `obsidian://open`។
 
-## Use x-callback-url parameters
+## ប្រើប៉ារ៉ាម៉ែត្រ x-callback-url
 
-Some endpoints will accept the x-callback-url parameters `x-success` and `x-error`. When it's provided, Obsidian will provide the following to the `x-success` callback:
+ចំណុចបញ្ចប់មួយចំនួននឹងទទួលយកប៉ារ៉ាម៉ែត្រ x-callback-url `x-success` និង `x-error`។ នៅពេលវាត្រូវបានផ្ដល់ Obsidian នឹងផ្ដល់ដូចខាងក្រោមទៅ callback `x-success`៖
 
-- `name` the name of the file, without the file extension.
-- `url` the `obsidian://` URI for this file.
-- `file` (desktop only) the `file://` URL for this file.
+- `name` ឈ្មោះឯកសារ ដោយគ្មានផ្នែកបន្ថែមឯកសារ។
+- `url` URI `obsidian://` សម្រាប់ឯកសារនេះ។
+- `file` (កុំព្យូទ័រតែប៉ុណ្ណោះ) URL `file://` សម្រាប់ឯកសារនេះ។
 
-For example, if Obsidian receives
-`obsidian://.....x-success=myapp://x-callback-url`, the response would be `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
+ឧទាហរណ៍ ប្រសិនបើ Obsidian ទទួលបាន
+`obsidian://.....x-success=myapp://x-callback-url` ការឆ្លើយតបនឹងជា `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
 
-## Shorthand formats
+## ទម្រង់កាត់
 
-In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+បន្ថែមពីលើទម្រង់ខាងលើ មានទម្រង់ "កាត់" ពីរបន្ថែមទៀតដែលអាចប្រើបានដើម្បីបើក vault និងឯកសារ៖
 
-1. `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`.
-2. `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
+1. `obsidian://vault/my vault/my note` ស្មើនឹង `obsidian://open?vault=my%20vault&file=my%20note`។
+2. `obsidian:///absolute/path/to/my note` ស្មើនឹង `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`។
 
-## Troubleshooting
+## ការដោះស្រាយបញ្ហា
 
-### Register Obsidian URI
+### ចុះឈ្មោះ Obsidian URI
 
-On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
+នៅលើ Windows និង macOS ការដំណើរការកម្មវិធីម្តងគួរតែគ្រប់គ្រាន់ដើម្បីចុះឈ្មោះពិធីការ Obsidian URI នៅលើកុំព្យូទ័ររបស់អ្នក។
 
-On Linux, it is a much more involved process:
+នៅលើ Linux វាជាដំណើរការដែលពាក់ព័ន្ធច្រើនជាង៖
 
-1. Ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
-2. Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-3. If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
+1. ត្រូវប្រាកដថាអ្នកបង្កើតឯកសារ `obsidian.desktop`។ [សូមមើលនៅទីនេះសម្រាប់ព័ត៌មានលម្អិត](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files)។
+2. ត្រូវប្រាកដថាឯកសារ desktop របស់អ្នកកំណត់វាល `Exec` ជា `Exec=executable %u`។ `%u` ត្រូវបានប្រើដើម្បីបញ្ជូន URI `obsidian://` ទៅកម្មវិធី។
+3. ប្រសិនបើអ្នកប្រើកម្មវិធីដំឡើង AppImage អ្នកប្រហែលជាត្រូវពន្លាវាដោយប្រើ `Obsidian-x.y.z.AppImage --appimage-extract`។ បន្ទាប់មកត្រូវប្រាកដថាការណែនាំ `Exec` ចង្អុលទៅកម្មវិធីដែលបានពន្លា។
 
 
-[^1]: Vault ID is the random 16-character code assigned to the vault, for example `ef6ca3e3b524d22f`. This ID is unique per folder on your computer. The ID can be found by opening the vault switcher and clicking "Copy vault ID" in the context menu for the desired vault.
+[^1]: ID Vault គឺជាកូដចៃដន្យ 16 តួអក្សរដែលបានកំណត់ឱ្យ vault ឧទាហរណ៍ `ef6ca3e3b524d22f`។ ID នេះមានតែមួយគត់ក្នុងមួយថតនៅលើកុំព្យូទ័ររបស់អ្នក។ ID អាចរកបានដោយបើកឧបករណ៍ប្ដូរ vault ហើយចុច "Copy vault ID" នៅក្នុងម៉ឺនុយបរិបទសម្រាប់ vault ដែលចង់បាន។

@@ -1,45 +1,44 @@
 ---
-localized: false
 permalink: import/apple-notes
 ---
-Obsidian lets you easily migrate your notes from Apple Notes using the [[កម្មវិធីនាំចូល|Importer plugin]]. This will convert your Apple Notes data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian អនុញ្ញាតឱ្យអ្នកផ្ទេរកំណត់ត្រារបស់អ្នកពី Apple Notes បានយ៉ាងងាយស្រួលដោយប្រើ [[កម្មវិធីនាំចូល|កម្មវិធីជំនួយ Importer]]។ វានឹងបម្លែងទិន្នន័យ Apple Notes របស់អ្នកទៅជាឯកសារ Markdown ដែលមានភាពប្រើប្រាស់បានយូរ ដែលអ្នកអាចប្រើជាមួយ Obsidian និងកម្មវិធីផ្សេងៗជាច្រើនទៀត។
 
-Currently, Importer only supports migrating from Apple Notes on macOS. It is not available on iOS yet.
+បច្ចុប្បន្ន Importer គាំទ្រតែការផ្ទេរពី Apple Notes នៅលើ macOS ប៉ុណ្ណោះ។ វាមិនទាន់មាននៅលើ iOS ទេ។
 
-## Import Apple Notes data into Obsidian
+## នាំចូលទិន្នន័យ Apple Notes ទៅ Obsidian
 
-You will need the official Obsidian [[កម្មវិធីនាំចូល]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+អ្នកនឹងត្រូវការកម្មវិធីជំនួយ [[កម្មវិធីនាំចូល|Importer]] ផ្លូវការរបស់ Obsidian ដែលអ្នកអាច[ដំឡើងនៅទីនេះ](obsidian://show-plugin?id=obsidian-importer)។
 
-1. Open **[[ការកំណត់]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Apple Notes**.
-6. Click **Import**.
-7. Click **Open** on the popup that appears titled `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
-8. Wait until import is complete. 
-9. You're done!
+1. បើក **[[ការកំណត់]]**។
+2. ចូលទៅ **កម្មវិធីជំនួយសហគមន៍** ហើយ[ដំឡើង Importer](obsidian://show-plugin?id=obsidian-importer)។
+3. បើកដំណើរការកម្មវិធីជំនួយ Importer។
+4. បើកកម្មវិធីជំនួយ **Importer** ដោយប្រើក្ដារលាយពាក្យបញ្ជា ឬរូបតំណាងរីបិន។
+5. នៅក្រោម **ទម្រង់ឯកសារ** ជ្រើសរើស **Apple Notes**។
+6. ចុច **នាំចូល**។
+7. ចុច **បើក** នៅលើផ្ទាំងលេចឡើងដែលមានចំណងជើង `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`។
+8. រង់ចាំរហូតដល់ការនាំចូលបានបញ្ចប់។
+9. រួចរាល់ហើយ!
 
-## Supported content
+## មាតិកាដែលគាំទ្រ
 
-The Obsidian Importer plugin supports virtually all Apple Notes content types. This includes tables, images, drawings, scans, PDFs, and links introduced in iOS 17.
+កម្មវិធីជំនួយ Obsidian Importer គាំទ្រប្រភេទមាតិកា Apple Notes ស្ទើរតែទាំងអស់។ នេះរួមបញ្ចូលតារាង រូបភាព គំនូរ ស្កេន PDFs និងតំណភ្ជាប់ដែលណែនាំនៅក្នុង iOS 17។
 
 > [!Warning]
-> Password-protected notes are encrypted by Apple, so must be unlocked before importing them. Any locked notes will be skipped.
+> កំណត់ត្រាដែលការពារដោយពាក្យសម្ងាត់ត្រូវបានអ៊ិនគ្រីបដោយ Apple ដូច្នេះត្រូវដោះសោមុនពេលនាំចូល។ កំណត់ត្រាដែលចាក់សោនឹងត្រូវបានរំលង។
 
-### Scans
+### ស្កេន
 
-Apple stores scans in a variety of formats depending on how they were created. To preserve the original data, this means they'll be exported differently.
+Apple រក្សាទុកស្កេនក្នុងទម្រង់ជាច្រើនអាស្រ័យលើរបៀបដែលវាត្រូវបានបង្កើត។ ដើម្បីរក្សាទុកទិន្នន័យដើម នេះមានន័យថាវានឹងត្រូវបានទាញចេញខុសគ្នា។
 
-* Scans created or viewed on older versions of macOS or iOS will be exported as a series of uncropped images.
-* Scans created or viewed on newer versions of macOS or iOS will usually be exported as cropped images.
-* Scans that have been edited using the features introduced in iOS 17 will usually be exported as PDFs.
+* ស្កេនដែលបង្កើត ឬមើលនៅលើកំណែចាស់របស់ macOS ឬ iOS នឹងត្រូវបានទាញចេញជារូបភាពមិនបានកាត់ជាបន្តបន្ទាប់។
+* ស្កេនដែលបង្កើត ឬមើលនៅលើកំណែថ្មីរបស់ macOS ឬ iOS ជាធម្មតានឹងត្រូវបានទាញចេញជារូបភាពដែលបានកាត់។
+* ស្កេនដែលត្រូវបានកែសម្រួលដោយប្រើមុខងារដែលណែនាំនៅក្នុង iOS 17 ជាធម្មតានឹងត្រូវបានទាញចេញជា PDFs។
 
-## Alternate export methods
+## វិធីសាស្ត្រទាញចេញផ្សេងទៀត
 
-Apple does not provide a native option to export your notes. However several third-party tools exist such as [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) by Chintan Ghate. Please be aware that most tools are limited in what data they will export from Apple Notes and might not provide the most compatible output data. These tools work best if your Apple Notes are primarily text-only, and have few attachments or special features such as drawings and scans.
+Apple មិនផ្តល់ជម្រើសដើមដើម្បីទាញចេញកំណត់ត្រារបស់អ្នកទេ។ ទោះជាយ៉ាងណា ឧបករណ៍ភាគីទីបីជាច្រើនមានដូចជា [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) ដោយ Chintan Ghate។ សូមដឹងថាឧបករណ៍ភាគច្រើនមានការកំណត់ក្នុងទិន្នន័យដែលពួកវានឹងទាញចេញពី Apple Notes ហើយប្រហែលជាមិនផ្តល់ទិន្នន័យលទ្ធផលដែលឆបគ្នាបំផុតទេ។ ឧបករណ៍ទាំងនេះដំណើរការល្អបំផុតប្រសិនបើ Apple Notes របស់អ្នកភាគច្រើនជាអក្សរតែប៉ុណ្ណោះ ហើយមានឯកសារភ្ជាប់ ឬមុខងារពិសេសតិចតួចដូចជាគំនូរ និងស្កេន។
 
-Depending on the tool you used, the export may be in Markdown format or HTML format. Follow instructions based on the file format you exported to: 
+អាស្រ័យលើឧបករណ៍ដែលអ្នកបានប្រើ ការទាញចេញអាចជាទម្រង់ Markdown ឬទម្រង់ HTML។ សូមអនុវត្តតាមការណែនាំផ្អែកលើទម្រង់ឯកសារដែលអ្នកបានទាញចេញ៖
 
 - [[នាំចូលឯកសារ HTML]]
 - [[នាំចូលឯកសារ Markdown]]

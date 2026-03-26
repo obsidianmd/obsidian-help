@@ -1,22 +1,21 @@
 ---
-localized: false
 permalink: import/zettelkasten
 ---
-If you've been using the Zettelkasten method to name and link your notes, you may need to convert links from `[[UID]]` to `[[UID My note title]]`.
+ប្រសិនបើអ្នកបានប្រើវិធីសាស្ត្រ Zettelkasten ដើម្បីដាក់ឈ្មោះ និងភ្ជាប់កំណត់ត្រារបស់អ្នក អ្នកប្រហែលជាត្រូវបម្លែងតំណភ្ជាប់ពី `[[UID]]` ទៅ `[[UID ចំណងជើងកំណត់ត្រារបស់ខ្ញុំ]]`។
 
-For example, if you have a note with the name `202301011230 My note title` and link to it from another note using only the UID, `[[202301011230]]`. Since Obsidian uses the full name of the note to resolve internal links, links like these will break.
+ឧទាហរណ៍ ប្រសិនបើអ្នកមានកំណត់ត្រាមួយដែលមានឈ្មោះ `202301011230 ចំណងជើងកំណត់ត្រារបស់ខ្ញុំ` ហើយភ្ជាប់ទៅវាពីកំណត់ត្រាផ្សេងដោយប្រើតែ UID គឺ `[[202301011230]]`។ ដោយសារ Obsidian ប្រើឈ្មោះពេញរបស់កំណត់ត្រាដើម្បីដោះស្រាយតំណភ្ជាប់ផ្ទៃក្នុង តំណភ្ជាប់បែបនេះនឹងខូច។
 
-To update all `[[UID]]` links in your vault to use the full name of the note instead, use the [[កម្មវិធីបម្លែងទ្រង់ទ្រាយ]].
+ដើម្បីអាប់ដេតតំណភ្ជាប់ `[[UID]]` ទាំងអស់នៅក្នុង vault របស់អ្នកឱ្យប្រើឈ្មោះពេញរបស់កំណត់ត្រាជំនួស សូមប្រើ [[កម្មវិធីបម្លែងទ្រង់ទ្រាយ]]។
 
-1. Open **[[ការកំណត់]]**.
-2. Under **Core plugins**, enable **Format converter** and close the Settings window.
-3. In the ribbon, on the left side of the app window, select **Open format convert** ![[lucide-binary.svg#icon]].
-4. Enable **Zettelkasten link fixer**.
-5. Select **Start conversion**. This will convert all the notes in your entire vault.
+1. បើក **[[ការកំណត់]]**។
+2. នៅក្រោម **កម្មវិធីជំនួយចម្បង** បើក **Format converter** រួចបិទបង្អួចការកំណត់។
+3. នៅក្នុងរីបិន នៅផ្នែកឆ្វេងនៃបង្អួចកម្មវិធី ជ្រើសរើស **Open format convert** ![[lucide-binary.svg#icon]]។
+4. បើក **Zettelkasten link fixer**។
+5. ជ្រើសរើស **Start conversion**។ វានឹងបម្លែងកំណត់ត្រាទាំងអស់នៅក្នុង vault ទាំងមូលរបស់អ្នក។
 
 > [!tip] Zettelkasten link beautifier
-> [[កម្មវិធីបម្លែងទ្រង់ទ្រាយ]] can also beautify your links by removing the UID from the display name. For example, `[[UID]]` converts to `[[UID My note title|My note title]]`.
+> [[កម្មវិធីបម្លែងទ្រង់ទ្រាយ]] ក៏អាចធ្វើឱ្យតំណភ្ជាប់របស់អ្នកស្រស់ស្អាតដោយដកយក UID ចេញពីឈ្មោះបង្ហាញ។ ឧទាហរណ៍ `[[UID]]` បម្លែងទៅ `[[UID ចំណងជើងកំណត់ត្រារបស់ខ្ញុំ|ចំណងជើងកំណត់ត្រារបស់ខ្ញុំ]]`។
 >
-> To beautify your Zettelkasten links, enable **Zettelkasten link beautifier** in the format converter window.
+> ដើម្បីធ្វើឱ្យតំណភ្ជាប់ Zettelkasten របស់អ្នកស្រស់ស្អាត សូមបើក **Zettelkasten link beautifier** នៅក្នុងបង្អួច format converter។
 
-You can also use the [[អ្នកបង្កើតកំណត់ចំណាំពិសេស]] to create Zettelkasten notes in Obsidian.
+អ្នកក៏អាចប្រើ [[អ្នកបង្កើតកំណត់ចំណាំពិសេស]] ដើម្បីបង្កើតកំណត់ត្រា Zettelkasten នៅក្នុង Obsidian ផងដែរ។

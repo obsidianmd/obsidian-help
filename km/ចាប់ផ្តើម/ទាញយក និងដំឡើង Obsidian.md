@@ -1,78 +1,77 @@
 ---
-localized: false
 permalink: install
 ---
-Obsidian is available for all major desktop and mobile platforms. These are all the supported ways to download and install Obsidian.
+Obsidian មានសម្រាប់វេទិកាកុំព្យូទ័រ និងទូរសព្ទធំៗទាំងអស់។ ខាងក្រោមនេះជាវិធីទាំងអស់ដែលគាំទ្រក្នុងការទាញយក និងដំឡើង Obsidian។
 
-## Install Obsidian on Windows
+## ដំឡើង Obsidian លើ Windows
 
-1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **Windows**, click **Universal** to download the installation file.
-3. Open the installation file and follow the instructions.
-4. Open Obsidian the same way you would open any other application.
+1. បើកកម្មវិធីរុករកអ៊ីនធឺណិតរបស់អ្នក ហើយចូលទៅកាន់ [ទាញយក Obsidian](https://obsidian.md/download)។
+2. នៅក្រោម **Windows** ចុច **Universal** ដើម្បីទាញយកឯកសារដំឡើង។
+3. បើកឯកសារដំឡើង ហើយធ្វើតាមការណែនាំ។
+4. បើក Obsidian ដូចការបើកកម្មវិធីផ្សេងៗទៀតដែរ។
 
-## Install Obsidian on macOS
+## ដំឡើង Obsidian លើ macOS
 
-1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **macOS**, click **Universal** to download the installation file.
-3. Open the installation file.
-4. In the window that opens, drag Obsidian to the Applications folder.
-5. Open Obsidian the same way you would open any other application.
+1. បើកកម្មវិធីរុករកអ៊ីនធឺណិតរបស់អ្នក ហើយចូលទៅកាន់ [ទាញយក Obsidian](https://obsidian.md/download)។
+2. នៅក្រោម **macOS** ចុច **Universal** ដើម្បីទាញយកឯកសារដំឡើង។
+3. បើកឯកសារដំឡើង។
+4. នៅក្នុងបង្អួចដែលបើកឡើង អូស Obsidian ទៅថតកម្មវិធី (Applications)។
+5. បើក Obsidian ដូចការបើកកម្មវិធីផ្សេងៗទៀតដែរ។
 
-## Install Obsidian on Linux
+## ដំឡើង Obsidian លើ Linux
 
-If you use Linux, you can install Obsidian in several ways. Follow the instructions for the packaging system that you're using.
+ប្រសិនបើអ្នកប្រើ Linux អ្នកអាចដំឡើង Obsidian តាមវិធីជាច្រើន។ សូមធ្វើតាមការណែនាំសម្រាប់ប្រព័ន្ធកញ្ចប់ដែលអ្នកកំពុងប្រើ។
 
-### Install Obsidian using Snap
+### ដំឡើង Obsidian ដោយប្រើ Snap
 
-1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **Linux**, click **Snap** to download the installation file.
-3. Open a terminal and navigate to the folder where you downloaded the installation file.
-4. In the terminal, run the following command to install the Snap package: (the `--dangerous` flag is required because Canonical, the company who created Snap, didn't review our package, the `--classic` flag allows Obsidian to access outside of the sandbox, where your notes are stored)
+1. បើកកម្មវិធីរុករកអ៊ីនធឺណិតរបស់អ្នក ហើយចូលទៅកាន់ [ទាញយក Obsidian](https://obsidian.md/download)។
+2. នៅក្រោម **Linux** ចុច **Snap** ដើម្បីទាញយកឯកសារដំឡើង។
+3. បើកស្ថានីយ (terminal) ហើយចូលទៅថតដែលអ្នកបានទាញយកឯកសារដំឡើង។
+4. នៅក្នុងស្ថានីយ សូមដំណើរការពាក្យបញ្ជាខាងក្រោមដើម្បីដំឡើងកញ្ចប់ Snap៖ (ទង់ `--dangerous` ត្រូវការព្រោះ Canonical ក្រុមហ៊ុនដែលបង្កើត Snap មិនបានពិនិត្យកញ្ចប់របស់យើងទេ ហើយទង់ `--classic` អនុញ្ញាតឱ្យ Obsidian ចូលប្រើក្រៅ sandbox ជាកន្លែងដែលកំណត់ត្រារបស់អ្នកត្រូវបានរក្សាទុក)
 
    ```bash
    snap install obsidian_<version>_<arch>.snap --dangerous --classic
    ```
 
-5. Open Obsidian the same way you would open any other application.
+5. បើក Obsidian ដូចការបើកកម្មវិធីផ្សេងៗទៀតដែរ។
 
-### Install Obsidian using AppImage
+### ដំឡើង Obsidian ដោយប្រើ AppImage
 
-1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **Linux**, click **AppImage** to download the installation file.
-3. Open a terminal and navigate to the folder where you downloaded the installation file.
-4. In the terminal, run the following command to open Obsidian:
+1. បើកកម្មវិធីរុករកអ៊ីនធឺណិតរបស់អ្នក ហើយចូលទៅកាន់ [ទាញយក Obsidian](https://obsidian.md/download)។
+2. នៅក្រោម **Linux** ចុច **AppImage** ដើម្បីទាញយកឯកសារដំឡើង។
+3. បើកស្ថានីយ ហើយចូលទៅថតដែលអ្នកបានទាញយកឯកសារដំឡើង។
+4. នៅក្នុងស្ថានីយ សូមដំណើរការពាក្យបញ្ជាខាងក្រោមដើម្បីបើក Obsidian៖
 
    ```bash
    chmod u+x Obsidian-<version>.AppImage
    ./Obsidian-<version>.AppImage --no-sandbox
    ```
-Note: On Chromebooks, the `libnss3-dev` package must be installed or you may receive the error `error while loading shared libraries: libnss3.so: cannot open shared object file: No such file or directory`.
+ចំណាំ៖ នៅលើ Chromebooks កញ្ចប់ `libnss3-dev` ត្រូវតែត្រូវបានដំឡើង បើមិនដូច្នេះទេ អ្នកអាចទទួលបានកំហុស `error while loading shared libraries: libnss3.so: cannot open shared object file: No such file or directory`។
 
-### Install Obsidian using Flatpak
+### ដំឡើង Obsidian ដោយប្រើ Flatpak
 
-1. In your terminal, run the following command to install Obsidian:
+1. នៅក្នុងស្ថានីយរបស់អ្នក សូមដំណើរការពាក្យបញ្ជាខាងក្រោមដើម្បីដំឡើង Obsidian៖
 
    ```bash
    flatpak install flathub md.obsidian.Obsidian
    ```
 
-2. Open Obsidian by running the following command:
+2. បើក Obsidian ដោយដំណើរការពាក្យបញ្ជាខាងក្រោម៖
 
    ```bash
    flatpak run md.obsidian.Obsidian
    ```
 
-## Install Obsidian on Android
+## ដំឡើង Obsidian លើ Android
 
-1. Find Obsidian on the [Play Store](https://play.google.com/store/apps/details?id=md.obsidian).
-2. Tap **Install** to download the app.
-3. Open Obsidian the same way you would open any other app.
+1. ស្វែងរក Obsidian នៅលើ [Play Store](https://play.google.com/store/apps/details?id=md.obsidian)។
+2. ចុច **Install** ដើម្បីទាញយកកម្មវិធី។
+3. បើក Obsidian ដូចការបើកកម្មវិធីផ្សេងៗទៀតដែរ។
 
-You can optionally download the APK for Android from the [Download Obsidian](https://obsidian.md/download) page.
+អ្នកអាចជ្រើសរើសទាញយក APK សម្រាប់ Android ពីទំព័រ [ទាញយក Obsidian](https://obsidian.md/download) ផងដែរ។
 
-## Install Obsidian on iPhone and iPad
+## ដំឡើង Obsidian លើ iPhone និង iPad
 
-1. Find Obsidian on the [App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
-2. Tap **Get** to download the app.
-3. Open Obsidian the same way you would open any other app.
+1. ស្វែងរក Obsidian នៅលើ [App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)។
+2. ចុច **Get** ដើម្បីទាញយកកម្មវិធី។
+3. បើក Obsidian ដូចការបើកកម្មវិធីផ្សេងៗទៀតដែរ។

@@ -1,33 +1,32 @@
 ---
-localized: false
 permalink: import/google-keep
 ---
-Obsidian lets you easily migrate your notes from Google Keep using the [[កម្មវិធីនាំចូល|Importer plugin]]. This will convert your Google Keep data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian អនុញ្ញាតឱ្យអ្នកផ្ទេរកំណត់ត្រារបស់អ្នកពី Google Keep បានយ៉ាងងាយស្រួលដោយប្រើ [[កម្មវិធីនាំចូល|កម្មវិធីជំនួយ Importer]]។ វានឹងបម្លែងទិន្នន័យ Google Keep របស់អ្នកទៅជាឯកសារ Markdown ដែលមានភាពប្រើប្រាស់បានយូរ ដែលអ្នកអាចប្រើជាមួយ Obsidian និងកម្មវិធីផ្សេងៗជាច្រើនទៀត។
 
-## Export your data from Google Keep
+## នាំចេញទិន្នន័យរបស់អ្នកពី Google Keep
 
-1. Go to [Google Takeout](https://takeout.google.com/settings/takeout) and log into your Google account.
-2. Click **Deselect all** in the top right corner.
-3. Scroll down and select **Keep** from the list. 
-4. Scroll down to the bottom of the page and click **Next step**.
-5. On the next screen, click the **Create export** button.
-6. Download the `.zip` file once it is available.
+1. ចូលទៅកាន់ [Google Takeout](https://takeout.google.com/settings/takeout) ហើយចូលគណនី Google របស់អ្នក។
+2. ចុច **Deselect all** នៅជ្រុងខាងស្ដាំខាងលើ។
+3. រំកិលចុះក្រោម ហើយជ្រើសរើស **Keep** ពីបញ្ជី។
+4. រំកិលចុះក្រោមទៅបាតទំព័រ ហើយចុច **Next step**។
+5. នៅលើអេក្រង់បន្ទាប់ ចុចប៊ូតុង **Create export**។
+6. ទាញយកឯកសារ `.zip` នៅពេលដែលវាអាចប្រើបាន។
 
-## Import your Google Keep data into Obsidian
+## នាំចូលទិន្នន័យ Google Keep របស់អ្នកទៅក្នុង Obsidian
 
-You will need the official Obsidian [[កម្មវិធីនាំចូល]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+អ្នកនឹងត្រូវការកម្មវិធីជំនួយ [[កម្មវិធីនាំចូល]] ផ្លូវការរបស់ Obsidian ដែលអ្នកអាច [ដំឡើងនៅទីនេះ](obsidian://show-plugin?id=obsidian-importer)។
 
-1. Open **[[ការកំណត់]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Google Keep (.zip).**
-6. Select the location of your `.zip` file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. បើក **[[ការកំណត់]]**។
+2. ចូលទៅ **កម្មវិធីជំនួយសហគមន៍** ហើយ [ដំឡើង Importer](obsidian://show-plugin?id=obsidian-importer)។
+3. បើកដំណើរការកម្មវិធីជំនួយ Importer។
+4. បើកកម្មវិធីជំនួយ **Importer** ដោយប្រើក្ដារលាយពាក្យបញ្ជា ឬរូបតំណាងរីបិន។
+5. នៅក្រោម **ទម្រង់ឯកសារ** ជ្រើសរើស **Google Keep (.zip)។**
+6. ជ្រើសរើសទីតាំងឯកសារ `.zip` របស់អ្នក។
+7. ចុច **នាំចូល** ហើយរង់ចាំរហូតដល់ការនាំចូលបានបញ្ចប់។
+8. រួចរាល់ហើយ!
 
-### Supported features
+### មុខងារដែលគាំទ្រ
 
-- All checklists will import as top-level items because Google Keep doesn't export indentation information.
-- Reminders and user assignments on notes will not be imported because these features are not supported by Obsidian.
-- All other information should import as a combination of content and tags.
+- បញ្ជីពិនិត្យទាំងអស់នឹងត្រូវបាននាំចូលជាធាតុកម្រិតខ្ពស់បំផុត ដោយសារ Google Keep មិនបាននាំចេញព័ត៌មានការចូលបន្ទាត់។
+- ការរំលឹក និងការកំណត់អ្នកប្រើប្រាស់លើកំណត់ត្រានឹងមិនត្រូវបាននាំចូលទេ ដោយសារមុខងារទាំងនេះមិនត្រូវបានគាំទ្រដោយ Obsidian។
+- ព័ត៌មានផ្សេងទៀតទាំងអស់គួរតែត្រូវបាននាំចូលជាការរួមបញ្ចូលគ្នានៃមាតិកា និងស្លាក។

@@ -46,6 +46,8 @@ const fileArgIdx = args.indexOf("--file");
 const singleFile = fileArgIdx !== -1 ? args[fileArgIdx + 1] : null;
 const limitArgIdx = args.indexOf("--limit");
 const limit = limitArgIdx !== -1 ? parseInt(args[limitArgIdx + 1], 10) : Infinity;
+const offsetArgIdx = args.indexOf("--offset");
+const offset = offsetArgIdx !== -1 ? parseInt(args[offsetArgIdx + 1], 10) : 0;
 
 if (!locale) {
   console.error("Usage: npx tsx scripts/translate-locale.ts <locale> [--fix-links] [--dry-run] [--file <path>]");
@@ -708,6 +710,7 @@ async function main() {
   // ── Filter to files needing translation ──
   // Includes stubs (localized: null) and manually flagged (needs-retranslation: true)
   let toTranslate = localeFiles.filter(f => f.frontmatter.localized === false || f.frontmatter.localized === null || f.frontmatter["needs-retranslation"]);
+  if (offset > 0) toTranslate = toTranslate.slice(offset);
   if (isFinite(limit)) toTranslate = toTranslate.slice(0, limit);
   if (singleFile) {
     toTranslate = toTranslate.filter(f => f.relPath === singleFile);

@@ -1,55 +1,54 @@
 ---
-localized: false
 permalink: catalyst
 ---
-The Catalyst license is a one-time purchase that gives you early access to beta versions and helps support continued development of Obsidian. You can support Obsidian by [purchasing a Catalyst license](https://obsidian.md/buy/catalyst). 
+អាជ្ញាប័ណ្ណ Catalyst គឺជាការទិញម្តងដែលផ្តល់ឱ្យអ្នកនូវការចូលប្រើមុនទៅកំណែបេតា និងជួយគាំទ្រការអភិវឌ្ឍន៍បន្តរបស់ Obsidian។ អ្នកអាចគាំទ្រ Obsidian ដោយ [ទិញអាជ្ញាប័ណ្ណ Catalyst](https://obsidian.md/buy/catalyst)។
 
-Benefits include:
+អត្ថប្រយោជន៍រួមមាន:
 
-- Early access to [[#Enable early access versions|new versions]] of Obsidian
-- Access to exclusive [[#Join our Insider channels|Insider channels]].
-- Exclusive [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
+- ការចូលប្រើមុនទៅ [[#បើកដំណើរការកំណែចូលប្រើមុន|កំណែថ្មី]] របស់ Obsidian
+- ការចូលប្រើទៅ [[#ចូលរួមឆានែល Insider របស់យើង|ឆានែល Insider]] ផ្តាច់មុខ។
+- [[#ទទួលផ្លាកសម្គាល់វេទិកា|ផ្លាកសម្គាល់វេទិកា]] និង [[#ទទួលផ្លាកសម្គាល់ Discord|ផ្លាកសម្គាល់ Discord]] ផ្តាច់មុខ។
 
-## Catalyst tiers
+## កម្រិត Catalyst
 
-There are three tiers of Catalyst based on the amount you contribute: *Insider*, *Supporter*, and *VIP*.
+មានកម្រិតបីនៃ Catalyst ដោយផ្អែកលើចំនួនទឹកប្រាក់ដែលអ្នករួមចំណែក: *Insider*, *Supporter*, និង *VIP*។
 
-| Benefits                                                                           | Insider | Supporter |   VIP    |
+| អត្ថប្រយោជន៍                                                                      | Insider | Supporter |   VIP    |
 | ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Early access to new versions                                                       |    ✓    |     ✓     |    ✓     |
-| Access to exclusive development channels, `#insider-desktop` and `#insider-mobile` |    ✓    |     ✓     |    ✓     |
-| Access to exclusive lounge channel, `#vip-lounge`                                  |         |     ✓     |    ✓     |
-| Insider badge                                                                      |    ✓    |           |          |
-| Supporter badge                                                                    |         |     ✓     |          |
-| VIP badge                                                                          |         |           |    ✓     |
-| **Contribution (USD)**                                                             | **$25** |  **$50**  | **$100** |
+| ការចូលប្រើមុនទៅកំណែថ្មី                                                            |    ✓    |     ✓     |    ✓     |
+| ចូលប្រើឆានែលអភិវឌ្ឍន៍ផ្តាច់មុខ `#insider-desktop` និង `#insider-mobile`            |    ✓    |     ✓     |    ✓     |
+| ចូលប្រើឆានែល lounge ផ្តាច់មុខ `#vip-lounge`                                        |         |     ✓     |    ✓     |
+| ផ្លាកសម្គាល់ Insider                                                               |    ✓    |           |          |
+| ផ្លាកសម្គាល់ Supporter                                                             |         |     ✓     |          |
+| ផ្លាកសម្គាល់ VIP                                                                   |         |           |    ✓     |
+| **ការរួមចំណែក (USD)**                                                              | **$25** |  **$50**  | **$100** |
 
 
-> [!info] Upgrade your Catalyst tier
-> If you already own a Catalyst license, you can upgrade to a higher Catalyst tier by paying the price difference between your current and the new tier.
+> [!info] ដំឡើងកម្រិត Catalyst របស់អ្នក
+> ប្រសិនបើអ្នកមានអាជ្ញាប័ណ្ណ Catalyst រួចហើយ អ្នកអាចដំឡើងទៅកម្រិត Catalyst ខ្ពស់ជាងដោយបង់តម្លៃផ្សេងគ្នារវាងកម្រិតបច្ចុប្បន្ន និងកម្រិតថ្មីរបស់អ្នក។
 
-## Access Catalyst benefits
+## ចូលប្រើអត្ថប្រយោជន៍ Catalyst
 
-Once you've purchased a Catalyst license, you can access a range of benefits. Learn how to enable them here.
+នៅពេលដែលអ្នកបានទិញអាជ្ញាប័ណ្ណ Catalyst អ្នកអាចចូលប្រើអត្ថប្រយោជន៍ជាច្រើន។ សិក្សាពីរបៀបបើកដំណើរការពួកវានៅទីនេះ។
 
-### Get your forum badge
+### ទទួលផ្លាកសម្គាល់វេទិកា
 
-**Note:** To connect your Obsidian account and your forum account, you must use the same email address for both accounts.
+**ចំណាំ:** ដើម្បីភ្ជាប់គណនី Obsidian របស់អ្នក និងគណនីវេទិការបស់អ្នក អ្នកត្រូវប្រើអាសយដ្ឋានអ៊ីមែលដូចគ្នាសម្រាប់គណនីទាំងពីរ។
 
-1. If you haven't already, join our [forum](https://forum.obsidian.md/).
-2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
-3. Under **Catalyst**, select **Get forum badge**.
+1. ប្រសិនបើអ្នកមិនទាន់បានចូលរួម សូមចូលរួម [វេទិកា](https://forum.obsidian.md/) របស់យើង។
+2. ចូលទៅ [ផ្ទាំងគ្រប់គ្រងគណនី Obsidian](https://obsidian.md/account/catalyst) របស់អ្នក។
+3. នៅក្រោម **Catalyst** សូមជ្រើសរើស **Get forum badge**។
 
-### Get your Discord badge
+### ទទួលផ្លាកសម្គាល់ Discord
 
-1. If you haven't already, join our [Discord server](https://discord.gg/veuWUTm).
-2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
-3. Under **Catalyst**, select **Get Discord badge**.
+1. ប្រសិនបើអ្នកមិនទាន់បានចូលរួម សូមចូលរួម [ម៉ាស៊ីនមេ Discord](https://discord.gg/veuWUTm) របស់យើង។
+2. ចូលទៅ [ផ្ទាំងគ្រប់គ្រងគណនី Obsidian](https://obsidian.md/account/catalyst) របស់អ្នក។
+3. នៅក្រោម **Catalyst** សូមជ្រើសរើស **Get Discord badge**។
 
-### Join our Insider channels
+### ចូលរួមឆានែល Insider របស់យើង
 
-Insiders can chat with the Obsidian team and other Insiders in our exclusive Discord channels. You automatically join the Insider channels after you [[#Get your Discord badge]].
+Insider អាចជជែកជាមួយក្រុម Obsidian និង Insider ផ្សេងទៀតនៅក្នុងឆានែល Discord ផ្តាច់មុខរបស់យើង។ អ្នកចូលរួមឆានែល Insider ដោយស្វ័យប្រវត្តិបន្ទាប់ពីអ្នក [[#ទទួលផ្លាកសម្គាល់ Discord]]។
 
-### Enable early access versions
+### បើកដំណើរការកំណែចូលប្រើមុន
 
-Learn how to receive [[កំណែចូលប្រើមុន]].
+សិក្សាពីរបៀបទទួលបាន [[កំណែចូលប្រើមុន]]។

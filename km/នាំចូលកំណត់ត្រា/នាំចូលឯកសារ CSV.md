@@ -1,29 +1,28 @@
 ---
-localized: false
 permalink: import/csv
 ---
-Obsidian lets you import data from CSV files using the official [[កម្មវិធីនាំចូល|Importer plugin]]. This is useful if you have data tabular stored in apps such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+Obsidian អនុញ្ញាតឱ្យអ្នកនាំចូលទិន្នន័យពីឯកសារ CSV ដោយប្រើ[[កម្មវិធីនាំចូល|កម្មវិធីជំនួយនាំចូល]]ផ្លូវការ។ នេះមានប្រយោជន៍ប្រសិនបើអ្នកមានទិន្នន័យជាតារាងដែលរក្សាទុកក្នុងកម្មវិធីដូចជា Excel, Google Sheets, Numbers, Notion ឬ Airtable។
 
-CSV import generates Markdown files for each row and a [[ការណែនាំអំពី Bases|Base]] file that displays all the imported files as a table.
+ការនាំចូល CSV បង្កើតឯកសារ Markdown សម្រាប់ជួរដេកនីមួយៗ និងឯកសារ [[ការណែនាំអំពី Bases|Base]] ដែលបង្ហាញឯកសារដែលបាននាំចូលទាំងអស់ជាតារាង។
 
-If you are importing notes from a specific app, you may want to first review the list of apps supported by [[កម្មវិធីនាំចូល|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.
+ប្រសិនបើអ្នកកំពុងនាំចូលកំណត់ត្រាពីកម្មវិធីជាក់លាក់មួយ អ្នកប្រហែលជាចង់ពិនិត្យមើលបញ្ជីកម្មវិធីដែលគាំទ្រដោយ[[កម្មវិធីនាំចូល|កម្មវិធីជំនួយនាំចូល]]ជាមុនសិន ដើម្បីពិនិត្យមើលថាតើមានកម្មវិធីបម្លែងជាក់លាក់ដែលនឹងរក្សាទិន្នន័យដែលអ្នកកំពុងផ្ទេរបានល្អជាងឬអត់។
 
-## Create notes from CSV data in Obsidian
+## បង្កើតកំណត់ត្រាពីទិន្នន័យ CSV ក្នុង Obsidian
 
-You will need the official Obsidian [[កម្មវិធីនាំចូល]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+អ្នកនឹងត្រូវការកម្មវិធីជំនួយ Obsidian ផ្លូវការ [[កម្មវិធីនាំចូល]] ដែលអ្នកអាច[ដំឡើងនៅទីនេះ](obsidian://show-plugin?id=obsidian-importer)។
 
-1. Open **[[ការកំណត់]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **CSV (.csv).**
-6. Select the location of your CSV file.
-7. Click **Import** to configure how data in your CSV file will be converted to notes with [[លក្ខណៈសម្បត្តិ]].
-8. Click **Continue** and wait until import is complete.
-9. You're done!
+1. បើក **[[ការកំណត់]]**។
+2. ទៅកាន់ **កម្មវិធីជំនួយសហគមន៍** ហើយ[ដំឡើង Importer](obsidian://show-plugin?id=obsidian-importer)។
+3. បើកដំណើរការកម្មវិធីជំនួយ Importer។
+4. បើកកម្មវិធីជំនួយ **Importer** ដោយប្រើក្ដារលាយពាក្យបញ្ជា ឬរូបតំណាងរីបិន។
+5. នៅក្រោម **ទម្រង់ឯកសារ** ជ្រើសរើស **CSV (.csv)។**
+6. ជ្រើសរើសទីតាំងនៃឯកសារ CSV របស់អ្នក។
+7. ចុច **នាំចូល** ដើម្បីកំណត់រចនាសម្ព័ន្ធរបៀបដែលទិន្នន័យក្នុងឯកសារ CSV របស់អ្នកនឹងត្រូវបំលែងទៅជាកំណត់ត្រាដែលមាន[[លក្ខណៈសម្បត្តិ]]។
+8. ចុច **បន្ត** ហើយរង់ចាំរហូតដល់ការនាំចូលបានបញ្ចប់។
+9. អ្នកបានបញ្ចប់ហើយ!
 
-## Configure how CSV fields are imported
+## កំណត់រចនាសម្ព័ន្ធរបៀបនាំចូលវាល CSV
 
-In the second step of the CSV import, you can choose how data is imported using a template.
+នៅជំហានទីពីរនៃការនាំចូល CSV អ្នកអាចជ្រើសរើសរបៀបនាំចូលទិន្នន័យដោយប្រើពុម្ព។
 
-Each column in your CSV file is attributed a variable called `{{column_name}}` which represents the name of the header in your file. You can use this variable to define the note's title, location, content, and [[លក្ខណៈសម្បត្តិ|properties]].
+ជួរឈរនីមួយៗក្នុងឯកសារ CSV របស់អ្នកត្រូវបានផ្ដល់អថេរមួយហៅថា `{{column_name}}` ដែលតំណាងឱ្យឈ្មោះនៃបឋមកថាក្នុងឯកសាររបស់អ្នក។ អ្នកអាចប្រើអថេរនេះដើម្បីកំណត់ចំណងជើងកំណត់ត្រា ទីតាំង មាតិកា និង[[លក្ខណៈសម្បត្តិ|លក្ខណៈសម្បត្តិ]]។

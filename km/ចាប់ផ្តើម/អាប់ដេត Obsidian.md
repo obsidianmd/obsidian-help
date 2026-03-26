@@ -1,47 +1,45 @@
 ---
-localized: false
 permalink: updates
 aliases:
   - Getting started/Update Obsidian
 ---
+ដំណើរការអាប់ដេត Obsidian មានភាពខុសគ្នារវាងឧបករណ៍ទូរសព្ទ និងកុំព្យូទ័រ។
 
-Obsidian's updating process is different on mobile and desktop devices.
+Obsidian នៅលើកុំព្យូទ័រពិនិត្យមើលការអាប់ដេតថ្មីជាប្រចាំ។ ប្រសិនបើការអាប់ដេតដោយស្វ័យប្រវត្តិត្រូវបានបើក កម្មវិធីនឹងអាប់ដេតនៅពេលចាប់ផ្តើមឡើងវិញ។ Obsidian ត្រូវការ[[#ការអាប់ដេតកម្មវិធីដំឡើង|ការអាប់ដេតកម្មវិធីដំឡើង]]ជាទៀងទាត់ ដែលតម្រូវឱ្យទាញយក និងដំណើរការកម្មវិធីដំឡើង។
 
-Obsidian on desktop devices regularly checks for new updates. If automatic updates are enabled, the application will update on restart. Obsidian needs periodic [[#Installer updates|installer updates]], which require downloading and running the installer.
+នៅលើឧបករណ៍ទូរសព្ទ Obsidian ត្រូវបានអាប់ដេតតាមរយៈកម្មវិធី app store របស់ឧបករណ៍។ កំណែកម្មវិធីដំឡើងគឺដូចគ្នានឹងកំណែកម្មវិធី។ Obsidian មិនមានមុខងារអាប់ដេតស្វ័យប្រវត្តិទេ។
 
-On mobile devices, Obsidian is updated through the device's app store. The installer version is the same as the app version. Obsidian does not feature auto-update.
+## ពិនិត្យមើលការអាប់ដេត និងមើលកំណែ
 
-## Check for updates and view version
+បើក **[[ការកំណត់]] → ទូទៅ**។
 
-Open **[[ការកំណត់]] → General**.
-
-You can find the current versions of the app and installer at the top of the page.
+អ្នកអាចរកកំណែបច្ចុប្បន្នរបស់កម្មវិធី និងកម្មវិធីដំឡើងនៅផ្នែកខាងលើនៃទំព័រ។
 
 ![[application-installer-current-version.png#interface]]
 
-To check for updates, select **Check for updates**. If there are new updates, Obsidian will offer to relaunch. Select **Relaunch** to apply any available updates.
+ដើម្បីពិនិត្យមើលការអាប់ដេត សូមជ្រើសរើស **ពិនិត្យមើលការអាប់ដេត**។ ប្រសិនបើមានការអាប់ដេតថ្មី Obsidian នឹងផ្តល់ជម្រើសឱ្យចាប់ផ្តើមឡើងវិញ។ សូមជ្រើសរើស **ចាប់ផ្តើមឡើងវិញ** ដើម្បីអនុវត្តការអាប់ដេតដែលមាន។
 
-## Disable automatic updates
+## បិទការអាប់ដេតស្វ័យប្រវត្តិ
 
-If you prefer to update Obsidian manually, you can disable automatic updates.
+ប្រសិនបើអ្នកចង់អាប់ដេត Obsidian ដោយដៃ អ្នកអាចបិទការអាប់ដេតស្វ័យប្រវត្តិ។
 
-1. Open **[[ការកំណត់]] → General**.
-2. Disable **Automatic updates**.
+1. បើក **[[ការកំណត់]] → ទូទៅ**។
+2. បិទ **ការអាប់ដេតស្វ័យប្រវត្តិ**។
 
-## Installer updates
+## ការអាប់ដេតកម្មវិធីដំឡើង
 
-On desktop, Obsidian's [release notes](https://obsidian.md/changelog/) will inform you when you need to update the installer version of Obsidian to keep things working. This is the version of Electron, the framework on which Obsidian is built, and it cannot be updated by the automatic update process. 
+នៅលើកុំព្យូទ័រ [កំណត់ចំណាំនៃការចេញផ្សាយ](https://obsidian.md/changelog/) របស់ Obsidian នឹងជូនដំណឹងអ្នកនៅពេលអ្នកត្រូវអាប់ដេតកំណែកម្មវិធីដំឡើងរបស់ Obsidian ដើម្បីរក្សាអ្វីៗឱ្យដំណើរការបាន។ នេះគឺជាកំណែរបស់ Electron ដែលជាក្របខ័ណ្ឌដែល Obsidian ត្រូវបានបង្កើតឡើង ហើយវាមិនអាចអាប់ដេតដោយដំណើរការអាប់ដេតស្វ័យប្រវត្តិបានទេ។
 
-A community plugin or theme may require an installer update to access newer features that are not available in older versions of Electron, and may ask you to update the installer version of Obsidian before Obsidian itself asks.
+កម្មវិធីជំនួយសហគមន៍ ឬរូបរាងអាចតម្រូវឱ្យមានការអាប់ដេតកម្មវិធីដំឡើងដើម្បីចូលប្រើមុខងារថ្មីៗដែលមិនមាននៅក្នុងកំណែចាស់របស់ Electron ហើយអាចសុំឱ្យអ្នកអាប់ដេតកំណែកម្មវិធីដំឡើងរបស់ Obsidian មុនពេល Obsidian ខ្លួនឯងសុំ។
 
-To update the installer version of Obsidian:
+ដើម្បីអាប់ដេតកំណែកម្មវិធីដំឡើងរបស់ Obsidian៖
 
-1. Navigate to https://obsidian.md/download.
-2. Select the **Download** button.
-3. Close Obsidian, if open.
-4. Proceed as detailed in [[ទាញយក និងដំឡើង Obsidian]].
+1. ចូលទៅកាន់ https://obsidian.md/download។
+2. ជ្រើសរើសប៊ូតុង **ទាញយក**។
+3. បិទ Obsidian ប្រសិនបើកំពុងបើក។
+4. បន្តតាមការណែនាំលម្អិតនៅក្នុង [[ទាញយក និងដំឡើង Obsidian]]។
 
-Your installer update is now complete.
+ការអាប់ដេតកម្មវិធីដំឡើងរបស់អ្នកបានបញ្ចប់ហើយ។
 
 > [!tip] 
-> You **do not** need to uninstall Obsidian to update the installer version.
+> អ្នក**មិនចាំបាច់**លុប Obsidian ចេញដើម្បីអាប់ដេតកំណែកម្មវិធីដំឡើងទេ។

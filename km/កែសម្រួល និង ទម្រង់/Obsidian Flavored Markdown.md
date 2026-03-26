@@ -1,21 +1,19 @@
 ---
-localized: false
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true
-description: 'Learn about Obsidian Flavored Markdown, including supported extensions and how Markdown interacts with HTML elements.'
+description: ស្វែងយល់អំពី Obsidian Flavored Markdown រួមទាំងផ្នែកបន្ថែមដែលគាំទ្រ និងរបៀបដែល Markdown ធ្វើអន្តរកម្មជាមួយធាតុ HTML។
 aliases:
   - Editing and formatting/Obsidian Flavored Markdown
 ---
+Obsidian ខិតខំប្រឹងដើម្បីសមត្ថភាពអតិបរមាដោយមិនបំបែកទម្រង់ដែលមានស្រាប់ណាមួយ។ ជាលទ្ធផល យើងប្រើការផ្សំនៃប្រភេទ [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន|Markdown]] ផ្សេងៗ។
 
-Obsidian strives for maximum capability without breaking any existing formats. As a result, we use a combination of flavors of [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន|Markdown]].
+Obsidian គាំទ្រ [CommonMark](https://commonmark.org/)​, [GitHub Flavored Markdown](https://github.github.com/gfm/) និង [LaTeX](https://www.latex-project.org/)។
 
-Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/), and [LaTeX](https://www.latex-project.org/). 
-
-> [!tip]- Markdown inside HTML
-> Obsidian does not render Markdown syntax inside HTML elements. This is an intentional design choice for performance optimization and to keep parser complexity low when managing large documents.
+> [!tip]- Markdown នៅក្នុង HTML
+> Obsidian មិន render វាក្យសម្ពន្ធ Markdown នៅក្នុងធាតុ HTML ទេ។ នេះជាការសម្រេចចិត្តរចនាដោយចេតនាសម្រាប់ការបង្កើនប្រសិទ្ធភាពដំណើរការ និងដើម្បីរក្សាភាពស្មុគស្មាញនៃ parser ឱ្យទាបនៅពេលគ្រប់គ្រងឯកសារធំៗ។
 >
-> For example, Markdown formatting like `**bold**` or `` `code` `` will not be processed inside `<div>`, `<span>`, `<table>`, or any other HTML tags.
+> ឧទាហរណ៍ ការធ្វើទម្រង់ Markdown ដូចជា `**bold**` ឬ `` `code` `` នឹងមិនត្រូវបានដំណើរការនៅក្នុង `<div>`, `<span>`, `<table>` ឬស្លាក HTML ផ្សេងទៀតឡើយ។
 >
 > ```md
 > <div>
@@ -23,20 +21,20 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 > </div>
 > ```
 
-### Supported Markdown extensions
+### ផ្នែកបន្ថែម Markdown ដែលគាំទ្រ
 
-| Syntax          | Description                                                           |
-| --------------- | --------------------------------------------------------------------- |
-| `[[Link]]`      | [[តំណភ្ជាប់ផ្ទៃក្នុង]]                                                    |
-| `![[Link]]`     | [[បង្កប់ឯកសារ]]                                                       |
-| `![[Link#^id]]` | [[តំណភ្ជាប់ផ្ទៃក្នុង#Link to a block in a note\|Block references]]        |
-| `^id`           | [[តំណភ្ជាប់ផ្ទៃក្នុង#Link to a block in a note\|Defining a block]]        |
-| `[^id]`         | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Footnotes\|Footnotes]]                      |
-| `%%Text%%`      | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Comments\|Comments]]                        |
-| `~~Text~~`      | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Bold, italics, highlights\|Strikethroughs]] |
-| `==Text==`      | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Bold, italics, highlights\|Highlights]]     |
-| `` ``` ``       | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Code blocks\|Code blocks]]                  |
-| `- [ ]`         | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Task lists\|Incomplete task]]               |
-| `- [x]`         | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Task lists\|Completed task]]                |
-| `> [!note]`     | [[ប្រអប់រំលេច]]                                                          |
-| (see link)      | [[វាក្យសម្ពន្ធទម្រង់កម្រិតខ្ពស់#Tables\|Tables]]                         |
+| វាក្យសម្ពន្ធ    | ការពិពណ៌នា                                                                   |
+| --------------- | --------------------------------------------------------------------------- |
+| `[[Link]]`      | [[តំណភ្ជាប់ផ្ទៃក្នុង]]                                                      |
+| `![[Link]]`     | [[បង្កប់ឯកសារ]]                                                             |
+| `![[Link#^id]]` | [[តំណភ្ជាប់ផ្ទៃក្នុង#Link to a block in a note\|សេចក្តីយោងប្លុក]]           |
+| `^id`           | [[តំណភ្ជាប់ផ្ទៃក្នុង#Link to a block in a note\|កំណត់ប្លុកមួយ]]             |
+| `[^id]`         | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Footnotes\|កំណត់ចំណាំលើបាត]]                 |
+| `%%Text%%`      | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Comments\|មតិយោបល់]]                          |
+| `~~Text~~`      | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Bold, italics, highlights\|អក្សរឆូតកាត់]]     |
+| `==Text==`      | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Bold, italics, highlights\|ការបន្លិចពណ៌]]     |
+| `` ``` ``       | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Code blocks\|ប្លុកកូដ]]                       |
+| `- [ ]`         | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Task lists\|កិច្ចការមិនទាន់បញ្ចប់]]           |
+| `- [x]`         | [[វាក្យសម្ពន្ធទម្រង់មូលដ្ឋាន#Task lists\|កិច្ចការបានបញ្ចប់]]               |
+| `> [!note]`     | [[ប្រអប់រំលេច]]                                                             |
+| (មើលតំណ)        | [[វាក្យសម្ពន្ធទម្រង់កម្រិតខ្ពស់#Tables\|តារាង]]                             |
