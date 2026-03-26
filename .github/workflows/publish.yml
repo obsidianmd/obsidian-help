@@ -1,0 +1,63 @@
+name: Publish
+
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - 'scripts/**'
+      - 'Sandbox/**'
+      - 'Release notes/**'
+      - '.github/**'
+      - 'node_modules/**'
+      - '*.md'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install ob CLI
+        run: npm install -g obsidian-headless
+
+      - name: Install script dependencies
+        run: npm install
+        working-directory: scripts
+
+      - name: Set up ob auth
+        env:
+          OB_AUTH_TOKEN: ${{ secrets.OB_AUTH_TOKEN }}
+        run: |
+          mkdir -p ~/.obsidian-headless
+          printf '%s' "$OB_AUTH_TOKEN" > ~/.obsidian-headless/auth_token
+
+      # Discover all help-* sites from the account and link any whose
+      # locale directory exists in the repo (help → en, help-<xx> → <xx>)
+      - name: Link publish sites
+        run: |
+          ob publish-list-sites 2>&1 | grep -E '^\s+[0-9a-f]{32}\s+"help' | while read -r siteId slug; do
+            slug="${slug//\"/}"
+            if [ "$slug" = "help" ]; then
+              locale="en"
+            else
+              locale="${slug#help-}"
+            fi
+            if [ -d "$GITHUB_WORKSPACE/$locale" ]; then
+              echo "Linking $locale → $siteId"
+              ob publish-setup --site "$siteId" --path "$GITHUB_WORKSPACE/$locale"
+            fi
+          done
+
+      - name: Update publish.js
+        run: npx tsx scripts/build-publish-js.ts
+
+      - name: Update publish.css
+        run: npx tsx scripts/build-publish-css.ts
+
+      - name: Publish all sites and update nav
+        run: npx tsx scripts/publish-all.ts
