@@ -46,8 +46,9 @@ jobs:
       - name: Link publish sites
         run: |
           echo "Fetching site list..."
-          sites=$(ob publish-list-sites 2>&1)
+          sites=$(ob publish-list-sites 2>&1) || true
           echo "$sites"
+          [ -z "$sites" ] && echo "ERROR: ob publish-list-sites returned no output" && exit 1
 
           echo "$sites" | grep -E '^\s+[0-9a-f]{32}\s+"help' | while read -r siteId slug; do
             slug="${slug//\"/}"
