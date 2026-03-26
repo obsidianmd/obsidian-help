@@ -40,7 +40,11 @@ jobs:
       # locale directory exists in the repo (help → en, help-<xx> → <xx>)
       - name: Link publish sites
         run: |
-          ob publish-list-sites 2>&1 | grep -E '^\s+[0-9a-f]{32}\s+"help' | while read -r siteId slug; do
+          echo "Fetching site list..."
+          sites=$(ob publish-list-sites 2>&1)
+          echo "$sites"
+
+          echo "$sites" | grep -E '^\s+[0-9a-f]{32}\s+"help' | while read -r siteId slug; do
             slug="${slug//\"/}"
             if [ "$slug" = "help" ]; then
               locale="en"
@@ -48,10 +52,15 @@ jobs:
               locale="${slug#help-}"
             fi
             if [ -d "$GITHUB_WORKSPACE/$locale" ]; then
-              echo "Linking $locale → $siteId"
+              echo "Linking $locale ($siteId)..."
               ob publish-setup --site "$siteId" --path "$GITHUB_WORKSPACE/$locale"
+            else
+              echo "Skipping $slug — no $locale/ directory"
             fi
           done
+
+          echo "Configured sites:"
+          ls ~/.obsidian-headless/publish/ 2>/dev/null || echo "(none)"
 
       - name: Update publish.js
         run: npx tsx scripts/build-publish-js.ts
