@@ -45,13 +45,13 @@ Starting in Obsidian 1.9.7, you can choose how to handle conflicts. To configure
 When you use the "Create conflict file" option, Obsidian creates a new file with this naming pattern:
 
 ```
-original-note-name.sync-conflict-YYYYMMDD-HHMMSS.md
+original-note-name (Conflicted copy device-name YYYYMMDDHHMM).md
 ```
 
 For example, if a conflict happens in a note called `Meeting notes.md`, the conflict file might be named:
 
 ```
-Meeting notes.sync-conflict-20241128-143022.md
+Meeting notes (Conflicted copy MyMacBook2 202411281430).md
 ```
 
 The conflict file contains the changes from the device where the conflict was detected. The original file keeps the remote version. You can compare both files and manually merge the content.
