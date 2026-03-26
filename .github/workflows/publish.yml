@@ -33,6 +33,10 @@ jobs:
         env:
           OB_AUTH_TOKEN: ${{ secrets.OB_AUTH_TOKEN }}
         run: |
+          if [ -z "$OB_AUTH_TOKEN" ]; then
+            echo "ERROR: OB_AUTH_TOKEN secret is not set"
+            exit 1
+          fi
           mkdir -p ~/.obsidian-headless
           printf '%s' "$OB_AUTH_TOKEN" > ~/.obsidian-headless/auth_token
 
