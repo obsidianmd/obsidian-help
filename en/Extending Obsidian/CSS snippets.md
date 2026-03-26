@@ -69,6 +69,7 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 
