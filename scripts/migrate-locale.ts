@@ -128,7 +128,7 @@ function findOldCommit(): string {
 
 function getOldPaths(commit: string): string[] {
   const out = execSync(
-    `git ls-tree -r --name-only ${commit} -- "${locale}/"`,
+    `git -c core.quotepath=false ls-tree -r --name-only ${commit} -- "${locale}/"`,
     { cwd: ROOT }
   ).toString().trim();
 

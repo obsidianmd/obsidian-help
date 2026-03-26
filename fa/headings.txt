@@ -1,0 +1,4147 @@
+[heading.bases/Global]
+original=Global
+translation=عمومی
+
+[heading.bases/Any]
+original=Any
+translation=هر نوع
+
+[heading.bases/Date]
+original=Date
+translation=تاریخ
+
+[heading.bases/Fields]
+original=Fields
+translation=فیلدها
+
+[heading.bases/String]
+original=String
+translation=رشته
+
+[heading.bases/Number]
+original=Number
+translation=عدد
+
+[heading.bases/List]
+original=List
+translation=فهرست
+
+[heading.bases/Link]
+original=Link
+translation=پیوند
+
+[heading.bases/File]
+original=File
+translation=فایل
+
+[heading.bases/Object]
+original=Object
+translation=شیء
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=عبارت باقاعده
+
+[heading.bases/Create a new base]
+original=Create a new base
+translation=ساختن یک پایگاه جدید
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=جاسازی یک پایگاه
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=جاسازی یک فایل پایگاه
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=جاسازی یک پایگاه به‌صورت بلوک کد
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=نحوه استفاده از پایگاه‌ها
+
+[heading.bases/View types]
+original=View types
+translation=انواع نما
+
+[heading.bases/Example]
+original=Example
+translation=نمونه
+
+[heading.bases/Filters]
+original=Filters
+translation=فیلترها
+
+[heading.bases/Formulas]
+original=Formulas
+translation=فرمول‌ها
+
+[heading.bases/Properties]
+original=Properties
+translation=ویژگی‌ها
+
+[heading.bases/Summaries]
+original=Summaries
+translation=خلاصه‌ها
+
+[heading.bases/Default Summary Formulas]
+original=Default Summary Formulas
+translation=فرمول‌های خلاصه پیش‌فرض
+
+[heading.bases/Views]
+original=Views
+translation=نماها
+
+[heading.bases/Note properties]
+original=Note properties
+translation=ویژگی‌های یادداشت
+
+[heading.bases/File properties]
+original=File properties
+translation=ویژگی‌های فایل
+
+[heading.bases/Access properties with `this`]
+original=Access properties with `this`
+translation=دسترسی به ویژگی‌ها با `this`
+
+[heading.bases/Operators]
+original=Operators
+translation=عملگرها
+
+[heading.bases/Arithmetic operators]
+original=Arithmetic operators
+translation=عملگرهای حسابی
+
+[heading.bases/Date arithmetic]
+original=Date arithmetic
+translation=محاسبات تاریخ
+
+[heading.bases/Comparison operators]
+original=Comparison operators
+translation=عملگرهای مقایسه‌ای
+
+[heading.bases/Boolean operators]
+original=Boolean operators
+translation=عملگرهای بولین
+
+[heading.bases/Functions]
+original=Functions
+translation=توابع
+
+[heading.bases/Types]
+original=Types
+translation=انواع داده
+
+[heading.bases/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=رشته‌ها، اعداد و بولین‌ها
+
+[heading.bases/Dates and durations]
+original=Dates and durations
+translation=تاریخ‌ها و مدت‌زمان‌ها
+
+[heading.bases/Objects and lists]
+original=Objects and lists
+translation=اشیاء و فهرست‌ها
+
+[heading.bases/Files and links]
+original=Files and links
+translation=فایل‌ها و پیوندها
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=نوار ابزار
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=افزودن و تعویض نماها
+
+[heading.bases/View settings]
+original=View settings
+translation=تنظیمات نما
+
+[heading.bases/Layout]
+original=Layout
+translation=چیدمان
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=سازه‌های یک فیلتر
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=حروف ربط
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=گروه‌های فیلتر
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=ویرایشگر فیلتر پیشرفته
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=مرتب‌سازی و گروه‌بندی نتایج
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=افزودن مرتب‌سازی
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=حذف مرتب‌سازی
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=محدود کردن، کپی و استخراج نتایج
+
+[heading.bases/Limit results]
+original=Limit results
+translation=محدود کردن نتایج
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=کپی در تخته‌یادداشت
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=استخراج CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=جاسازی یک نما
+
+[heading.bases/Settings]
+original=Settings
+translation=تنظیمات
+
+[heading.bases/Row height]
+original=Row height
+translation=ارتفاع ردیف
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=افزودن خلاصه
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=خلاصه‌های داخلی
+
+[heading.bases/All property types]
+original=All property types
+translation=همه انواع ویژگی
+
+[heading.bases/Numbers]
+original=Numbers
+translation=اعداد
+
+[heading.bases/Dates]
+original=Dates
+translation=تاریخ‌ها
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=کادر انتخاب
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=خلاصه‌های سفارشی
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=میانبرها
+
+[heading.bases/Markers]
+original=Markers
+translation=نشانگرها
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=تورفتگی ویژگی‌ها
+
+[heading.bases/Separators]
+original=Separators
+translation=جداکننده‌ها
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=نصب افزونه Maps
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=مختصات
+
+[heading.bases/Icons]
+original=Icons
+translation=آیکون‌ها
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=استفاده از فرمول برای تعریف آیکون‌ها
+
+[heading.bases/Colors]
+original=Colors
+translation=رنگ‌ها
+
+[heading.bases/Background]
+original=Background
+translation=پس‌زمینه
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=کاشی‌های نقشه
+
+[heading.bases/Useful links]
+original=Useful links
+translation=پیوندهای مفید
+
+[heading.bases/Tips]
+original=Tips
+translation=نکات
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=عیب‌یابی
+
+[heading.bases/Card size]
+original=Card size
+translation=اندازهٔ کارت
+
+[heading.bases/Image property]
+original=Image property
+translation=ویژگی تصویر
+
+[heading.bases/Image fit]
+original=Image fit
+translation=جای‌گیری تصویر
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=نسبت تصویر
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=فرمول‌ها چه کاری می‌توانند انجام دهند
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=ساختن یک ویژگی فرمول
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=نوشتن یک فرمول
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=ارجاع به ویژگی‌ها
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=استفاده از عملگرها
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=استفاده از توابع
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=نمونه‌های فرمول
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=محاسبه مهلت
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=نمایش وضعیت عقب‌افتادگی
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=قالب‌بندی ارز
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=شمارش آیتم‌های فهرست
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=محاسبه امتیاز اولویت
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=ترکیب فیلدهای متنی
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=محاسبه هزینه کل
+
+[heading.formulas/Data types]
+original=Data types
+translation=انواع داده
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=ارجاع به فرمول‌های دیگر
+
+[heading.android/Sync]
+original=Sync
+translation=همگام‌سازی
+
+[heading.android/Vault location]
+original=Vault location
+translation=مکان گاوصندوق
+
+[heading.android/Device storage]
+original=Device storage
+translation=حافظهٔ دستگاه
+
+[heading.android/App storage]
+original=App storage
+translation=حافظهٔ اپلیکیشن
+
+[heading.android/Widgets]
+original=Widgets
+translation=ویجت‌ها
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=کاشی‌های تنظیمات سریع
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=میانبرها
+
+[heading.ios/Sync]
+original=Sync
+translation=همگام‌سازی
+
+[heading.ios/Widgets]
+original=Widgets
+translation=ویجت‌ها
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=ویجت‌های صفحه قفل و مرکز کنترل
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=ویجت‌های صفحه اصلی
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=سفارشی‌سازی ویجت‌ها
+
+[heading.ios/Shortcuts]
+original=Shortcuts
+translation=میانبرها
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=افزونه Share Sheet
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=یکپارچگی با Siri
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=یکپارچگی با Spotlight
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=قوانین
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=تخلفات جدی
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=آزار و اذیت
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=تهدید
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=تبعیض‌های آشکار
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=سایر تخلفات
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=ستیزه‌جویی
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=رفتار بسیار ناخوشایند
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=پیام‌های ناخواسته به اعضای انجمن
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=سایر رفتارها
+
+[heading.community-code-of-conduct/Sea-lioning]
+original=Sea-lioning
+translation=شیرآب‌دریایی (Sea-lioning)
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation=«به من غذا بده»
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=تبلیغ مکرر
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=تبلیغ بیش از حد خود
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=اسپم
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=رفتارهای تشویق‌شده
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=انگیزه
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=گزارش تخلفات
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=گزارش در Discord
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=گزارش در انجمن
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=اجرا
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=اعتراض به محرومیت
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=دست‌اندرکاران
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=فعال کردن 2FA
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=ایجاد کدهای بازیابی
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=غیرفعال کردن 2FA
+
+[heading.2fa/FAQ]
+original=FAQ
+translation=پرسش‌های متداول
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=Obsidian چیست
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=تفاوت ما با دیگران
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=شما مالک و کنترل‌کننده داده‌هایتان هستید
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=پیوندها شهروندان درجه یک هستند
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=جعبه ابزار خودتان
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=توسعه ما را دنبال کنید
+
+[heading.credits/Team]
+original=Team
+translation=تیم
+
+[heading.credits/Development]
+original=Development
+translation=توسعه
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=محصول و عملیات
+
+[heading.credits/Moderators]
+original=Moderators
+translation=مدیران
+
+[heading.credits/Retired]
+original=Retired
+translation=بازنشسته
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=الهام‌بخش‌های افزونه
+
+[heading.credits/Builds]
+original=Builds
+translation=بیلدها
+
+[heading.credits/Translators]
+original=Translators
+translation=مترجمان
+
+[heading.credits/Documentation]
+original=Documentation
+translation=مستندات
+
+[heading.credits/Add your name]
+original=Add your name
+translation=نام خود را اضافه کنید
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=قدردانی از طرف‌های ثالث
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=نشان قبلی
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=فعال‌سازی نسخه‌های دسترسی زودهنگام برای دسکتاپ
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=نصب نسخه‌های دسترسی زودهنگام بر دستگاه‌های موبایل
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=گزارش مشکلات و بازخوردهای دیگر
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=بازگشت به نسخه‌های عمومی در دسکتاپ
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=بازگشت به نسخه‌های عمومی در موبایل
+
+[heading.publish/Quick start]
+original=Quick start
+translation=آغاز سریع
+
+[heading.publish/Commands]
+original=Commands
+translation=دستورها
+
+[heading.publish/Password protection]
+original=Password protection
+translation=محافظت با گذرواژه
+
+[heading.publish/Add a site password]
+original=Add a site password
+translation=افزودن گذرواژه‌ی وبگاه
+
+[heading.publish/Remove a site password]
+original=Remove a site password
+translation=حذف گذرواژه‌ی وبگاه
+
+[heading.publish/Data collection]
+original=Data collection
+translation=جمع‌آوری داده‌ها
+
+[heading.publish/Visitor data]
+original=Visitor data
+translation=داده‌های بازدیدکنندگان
+
+[heading.publish/Access]
+original=Access
+translation=دسترسی
+
+[heading.publish/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=مدیریت دسترسی به Obsidian Publish در شبکه‌ی شما
+
+[heading.publish/Prerequisites]
+original=Prerequisites
+translation=پیش‌نیازها
+
+[heading.publish/Publish notes]
+original=Publish notes
+translation=نشر یادداشت‌ها
+
+[heading.publish/Unpublish notes]
+original=Unpublish notes
+translation=لغو نشر یادداشت‌ها
+
+[heading.publish/Update a published note]
+original=Update a published note
+translation=به‌روزرسانی یادداشت منتشرشده
+
+[heading.publish/Publish linked data]
+original=Publish linked data
+translation=نشر داده‌های پیوندشده
+
+[heading.publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=انتخاب خودکار داده‌ها برای نشر
+
+[heading.publish/Ignore data]
+original=Ignore data
+translation=نادیده گرفتن داده‌ها
+
+[heading.publish/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible، Fathom و سایر سرویس‌های تحلیل
+
+[heading.publish/Troubleshooting]
+original=Troubleshooting
+translation=عیب‌یابی
+
+[heading.publish/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=راه‌اندازی با استفاده از CloudFlare
+
+[heading.publish/Set up using a proxy]
+original=Set up using a proxy
+translation=راه‌اندازی با استفاده از پراکسی
+
+[heading.publish/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=هدرهای HTTP X پشتیبانی‌شده
+
+[heading.publish/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=بازهدایت وبگاه قدیمی به دامنه‌ی دلخواه
+
+[heading.publish/Troubleshoot]
+original=Troubleshoot
+translation=عیب‌یابی
+
+[heading.publish/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=ورود با حساب Obsidian
+
+[heading.publish/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=فعال‌سازی Obsidian Publish
+
+[heading.publish/Open Publish]
+original=Open Publish
+translation=گشودن Publish
+
+[heading.publish/Open via Command palette]
+original=Open via Command palette
+translation=گشودن از طریق پالت فرمان‌ها
+
+[heading.publish/Open via hotkey]
+original=Open via hotkey
+translation=گشودن از طریق میانبر صفحه‌کلید
+
+[heading.publish/Open via ribbon]
+original=Open via ribbon
+translation=گشودن از طریق نوار ابزار
+
+[heading.publish/Create a new site]
+original=Create a new site
+translation=ساختن وبگاه جدید
+
+[heading.publish/Set a site name]
+original=Set a site name
+translation=تنظیم نام وبگاه
+
+[heading.publish/Select notes to publish]
+original=Select notes to publish
+translation=انتخاب یادداشت‌ها برای نشر
+
+[heading.publish/Next steps]
+original=Next steps
+translation=گام‌های بعدی
+
+[heading.publish/Sitemap]
+original=Sitemap
+translation=نقشه وبگاه
+
+[heading.publish/Permalinks]
+original=Permalinks
+translation=پیوندهای ثابت
+
+[heading.publish/Metadata]
+original=Metadata
+translation=فرادادهٔ صفحه
+
+[heading.publish/Static assets]
+original=Static assets
+translation=دارایی‌های ایستا
+
+[heading.publish/Use a community theme]
+original=Use a community theme
+translation=استفاده از پوسته‌ی انجمن
+
+[heading.publish/Enable UI features]
+original=Enable UI features
+translation=فعال کردن ویژگی‌های رابط کاربری
+
+[heading.publish/Customize navigation]
+original=Customize navigation
+translation=سفارشی‌سازی ناوبری
+
+[heading.publish/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=دسترسی به تنظیمات سفارشی‌سازی ناوبری
+
+[heading.publish/Adjust navigation items]
+original=Adjust navigation items
+translation=تنظیم آیتم‌های ناوبری
+
+[heading.publish/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=پنهان و آشکار کردن آیتم‌های ناوبری
+
+[heading.publish/FAQ]
+original=FAQ
+translation=پرسش‌های متداول
+
+[heading.publish/General]
+original=General
+translation=عمومی
+
+[heading.publish/Publishing notes]
+original=Publishing notes
+translation=انتشار یادداشت‌ها
+
+[heading.publish/CSS and themes]
+original=CSS and themes
+translation=CSS و پوسته‌ها
+
+[heading.publish/Images]
+original=Images
+translation=تصاویر
+
+[heading.publish/PDFs]
+original=PDFs
+translation=فایل‌های PDF
+
+[heading.publish/Videos and audio]
+original=Videos and audio
+translation=ویدئو و صوت
+
+[heading.publish/Community plugins]
+original=Community plugins
+translation=افزونه‌های انجمن
+
+[heading.publish/Graph]
+original=Graph
+translation=نمودار
+
+[heading.publish/Media files]
+original=Media files
+translation=فایل‌های رسانه‌ای
+
+[heading.publish/Search]
+original=Search
+translation=جستجو
+
+[heading.publish/Delete an existing site]
+original=Delete an existing site
+translation=حذف وبگاه موجود
+
+[heading.publish/Switch between sites]
+original=Switch between sites
+translation=جابه‌جایی بین وبگاه‌ها
+
+[heading.publish/Change the site ID]
+original=Change the site ID
+translation=تغییر شناسه‌ی وبگاه
+
+[heading.publish/View site options]
+original=View site options
+translation=مشاهده تنظیمات وبگاه
+
+[heading.publish/Site options]
+original=Site options
+translation=تنظیمات وبگاه
+
+[heading.publish/Appearance]
+original=Appearance
+translation=ظاهر
+
+[heading.publish/Reading experience]
+original=Reading experience
+translation=تجربه‌ی خواندن
+
+[heading.publish/Components]
+original=Components
+translation=سازه‌ها
+
+[heading.publish/Other site settings]
+original=Other site settings
+translation=دیگر تنظیمات وبگاه
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=نحوه استفاده از Obsidian Publish
+
+[heading.publish/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=افزودن مشارکت‌کننده به وبگاه
+
+[heading.publish/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=حذف مشارکت‌کننده از وبگاه
+
+[heading.publish/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=همگام‌سازی تغییرات بین مشارکت‌کنندگان
+
+[heading.publish/Permissions]
+original=Permissions
+translation=مجوزها
+
+[heading.publish/Description]
+original=Description
+translation=توضیحات
+
+[heading.publish/Image]
+original=Image
+translation=تصویر
+
+[heading.publish/Redirect old notes]
+original=Redirect old notes
+translation=بازهدایت یادداشت‌های قدیمی
+
+[heading.sync/Encryption versions]
+original=Encryption versions
+translation=نسخه‌های رمزگذاری
+
+[heading.sync/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=ارتقای رمزگذاری با دستیار مهاجرت
+
+[heading.sync/Encryption]
+original=Encryption
+translation=رمزگذاری
+
+[heading.sync/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=رمزگذاری سرتاسری به چه معناست؟
+
+[heading.sync/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=خطرات استفاده از رمزگذاری استاندارد چیست؟
+
+[heading.sync/What encryption do you use?]
+original=What encryption do you use?
+translation=از چه رمزگذاری‌ای استفاده می‌کنید؟
+
+[heading.sync/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=آیا می‌توانم تأیید کنم که داده‌هایم رمزگذاری سرتاسری شده‌اند؟
+
+[heading.sync/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=آیا Obsidian ممیزی امنیتی شخص ثالث را گذرانده است؟
+
+[heading.sync/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=اگر گذرواژه‌ی رمزگذاری‌شده خود را فراموش کنم چه اتفاقی می‌افتد؟
+
+[heading.sync/Hosting]
+original=Hosting
+translation=میزبانی
+
+[heading.sync/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=سرورهای Obsidian Sync را کجا میزبانی می‌کنید؟
+
+[heading.sync/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=سرور Sync فعلی من کجاست و کجا میزبانی می‌شود؟
+
+[heading.sync/Network and access]
+original=Network and access
+translation=شبکه و دسترسی
+
+[heading.sync/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=مدیریت دسترسی به Obsidian Sync در شبکه شما
+
+[heading.sync/Limitations]
+original=Limitations
+translation=محدودیت‌ها
+
+[heading.sync/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=رمزگذاری هش فایل به صورت قطعی
+
+[heading.sync/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=عدم پیوند رمزنگاری بین مسیر و محتوا
+
+[heading.sync/Sync history]
+original=Sync history
+translation=تاریخچه همگام‌سازی
+
+[heading.sync/Show Sync history]
+original=Show Sync history
+translation=نمایش تاریخچه همگام‌سازی
+
+[heading.sync/Enable via Command palette]
+original=Enable via Command palette
+translation=فعال‌سازی از طریق پالت فرمان‌ها
+
+[heading.sync/Enable via Hotkey]
+original=Enable via Hotkey
+translation=فعال‌سازی از طریق میانبر صفحه‌کلید
+
+[heading.sync/Version history]
+original=Version history
+translation=تاریخچه‌ی نسخه‌ها
+
+[heading.sync/Notes and attachments]
+original=Notes and attachments
+translation=یادداشت‌ها و پیوست‌ها
+
+[heading.sync/View version history of a file]
+original=View version history of a file
+translation=مشاهده تاریخچه‌ی نسخه‌های یک فایل
+
+[heading.sync/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=مشاهده تاریخچه‌ی نسخه‌های فایل حذف‌شده یا تغییرنام‌یافته
+
+[heading.sync/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=بازیابی نسخه قبلی یک فایل
+
+[heading.sync/Restore a deleted file]
+original=Restore a deleted file
+translation=بازیابی فایل حذف‌شده
+
+[heading.sync/Settings history]
+original=Settings history
+translation=تاریخچه تنظیمات
+
+[heading.sync/View version history of a setting]
+original=View version history of a setting
+translation=مشاهده تاریخچه‌ی نسخه‌های یک تنظیم
+
+[heading.sync/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=بازیابی نسخه قبلی یک تنظیم
+
+[heading.sync/Sync settings]
+original=Sync settings
+translation=تنظیمات همگام‌سازی
+
+[heading.sync/Conflict resolution]
+original=Conflict resolution
+translation=حل تعارض‌ها
+
+[heading.sync/Selective syncing]
+original=Selective syncing
+translation=همگام‌سازی گزینشی
+
+[heading.sync/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=تغییر انواع فایلی که می‌خواهید همگام‌سازی شوند
+
+[heading.sync/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=مستثنا کردن یک پوشه از همگام‌سازی
+
+[heading.sync/Always excluded from sync]
+original=Always excluded from sync
+translation=همیشه از همگام‌سازی مستثنا
+
+[heading.sync/File recovery snapshots]
+original=File recovery snapshots
+translation=پشتیبان‌های مقطعی بازیابی پرونده
+
+[heading.sync/Hidden files and folders]
+original=Hidden files and folders
+translation=فایل‌ها و پوشه‌های مخفی
+
+[heading.sync/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=به‌روزرسانی تنظیمات گاوصندوق همگام‌سازی‌شده
+
+[heading.sync/Primary device]
+original=Primary device
+translation=دستگاه اصلی
+
+[heading.sync/Secondary device(s)]
+original=Secondary device(s)
+translation=دستگاه(های) ثانویه
+
+[heading.sync/Reloading of settings]
+original=Reloading of settings
+translation=بارگذاری مجدد تنظیمات
+
+[heading.sync/Settings profiles]
+original=Settings profiles
+translation=پروفایل‌های تنظیمات
+
+[heading.sync/Create a settings profile]
+original=Create a settings profile
+translation=ایجاد یک پروفایل تنظیمات
+
+[heading.sync/File-based sync services]
+original=File-based sync services
+translation=سرویس‌های همگام‌سازی مبتنی بر فایل
+
+[heading.sync/Sync behavior]
+original=Sync behavior
+translation=رفتار همگام‌سازی
+
+[heading.sync/Offline behavior]
+original=Offline behavior
+translation=رفتار آفلاین
+
+[heading.sync/Next steps]
+original=Next steps
+translation=مراحل بعدی
+
+[heading.sync/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=راه‌اندازی Obsidian Sync برای اولین بار
+
+[heading.sync/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=ورود با حساب Obsidian
+
+[heading.sync/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=فعال‌سازی Obsidian Sync
+
+[heading.sync/Create a new remote vault]
+original=Create a new remote vault
+translation=ایجاد یک گاو صندوق راه دور جدید
+
+[heading.sync/Connect to a remote vault]
+original=Connect to a remote vault
+translation=اتصال به گاوصندوق راه‌دور
+
+[heading.sync/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=تنظیم تنظیمات Obsidian Sync
+
+[heading.sync/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=شروع همگام‌سازی با Obsidian Sync
+
+[heading.sync/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=همگام‌سازی گاوصندوق راه‌دور در دستگاه دیگر
+
+[heading.sync/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=همگام‌سازی گاوصندوق از طریق تعویض‌گر گاوصندوق
+
+[heading.sync/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=همگام‌سازی گاوصندوق از تنظیمات Obsidian
+
+[heading.sync/Manage your remote vaults]
+original=Manage your remote vaults
+translation=مدیریت گاوصندوق‌های راه‌دور
+
+[heading.sync/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=قطع اتصال از گاوصندوق راه‌دور
+
+[heading.sync/Delete a remote vault]
+original=Delete a remote vault
+translation=حذف گاوصندوق راه‌دور
+
+[heading.sync/Regional sync servers]
+original=Regional sync servers
+translation=سرورهای همگام‌سازی منطقه‌ای
+
+[heading.sync/Plans]
+original=Plans
+translation=طرح‌ها
+
+[heading.sync/Storage limits]
+original=Storage limits
+translation=محدودیت‌های فضای ذخیره‌سازی
+
+[heading.sync/Identify and delete large files]
+original=Identify and delete large files
+translation=شناسایی و حذف فایل‌های بزرگ
+
+[heading.sync/Upgrade your plan]
+original=Upgrade your plan
+translation=ارتقای طرح
+
+[heading.sync/Downgrade your plan]
+original=Downgrade your plan
+translation=تنزل طرح
+
+[heading.sync/Preserve version history]
+original=Preserve version history
+translation=حفظ تاریخچه‌ی نسخه‌ها
+
+[heading.sync/General]
+original=General
+translation=عمومی
+
+[heading.sync/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=نحوه مدیریت تعارض‌ها توسط Obsidian Sync
+
+[heading.sync/Conflict resolution options]
+original=Conflict resolution options
+translation=گزینه‌های حل تعارض
+
+[heading.sync/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync یادداشتی را که تازه در دو دستگاه ساخته بودم حذف کرد
+
+[heading.sync/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync تنظیمات و به‌روزرسانی‌های افزونه‌های من را همگام‌سازی نمی‌کند
+
+[heading.sync/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=فایل‌های من به محض بازیابی از Sync ناپدید می‌شوند
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=نحوه استفاده از Obsidian Sync
+
+[heading.sync/Important]
+original=Important
+translation=مهم
+
+[heading.sync/Available regions]
+original=Available regions
+translation=مناطق موجود
+
+[heading.sync/Change Sync region]
+original=Change Sync region
+translation=تغییر منطقه Sync
+
+[heading.sync/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=خزانه خود را از سرویس همگام‌سازی شخص ثالث یا فضای ذخیره‌سازی ابری خارج کنید
+
+[heading.sync/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=جابه‌جایی خزانه با استفاده از Obsidian در دسکتاپ
+
+[heading.sync/Move your vault on mobile]
+original=Move your vault on mobile
+translation=جابه‌جایی خزانه در موبایل
+
+[heading.sync/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS و iPadOS
+
+[heading.sync/Sync status icon]
+original=Sync status icon
+translation=آیکون وضعیت همگام‌سازی
+
+[heading.sync/Sync activity log]
+original=Sync activity log
+translation=گزارش فعالیت همگام‌سازی
+
+[heading.sync/General messages]
+original=General messages
+translation=پیام‌های عمومی
+
+[heading.sync/Error messages]
+original=Error messages
+translation=پیام‌های خطا
+
+[heading.sync/Skipped messages]
+original=Skipped messages
+translation=پیام‌های رد شده
+
+[heading.sync/Account messages]
+original=Account messages
+translation=پیام‌های حساب
+
+[heading.sync/Network messages]
+original=Network messages
+translation=پیام‌های شبکه
+
+[heading.sync/Manage users]
+original=Manage users
+translation=مدیریت کاربران
+
+[heading.sync/Add users]
+original=Add users
+translation=افزودن کاربران
+
+[heading.sync/Remove users]
+original=Remove users
+translation=حذف کاربران
+
+[heading.sync/Collaborate with your team]
+original=Collaborate with your team
+translation=همکاری با تیم شما
+
+[heading.sync/Permissions]
+original=Permissions
+translation=دسترسی‌ها
+
+[heading.sync/Live editing]
+original=Live editing
+translation=ویرایش زنده
+
+[heading.sync/Quick start]
+original=Quick start
+translation=آغاز سریع
+
+[heading.sync/Commands]
+original=Commands
+translation=دستورات
+
+[heading.sync/Native modules]
+original=Native modules
+translation=ماژول‌های بومی
+
+[heading.sync/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Obsidian Sync از چه سیستم‌عامل‌هایی پشتیبانی می‌کند؟
+
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=آیا Obsidian با حالت Lockdown اپل کار می‌کند؟
+
+[heading.sync/What type of data is synced?]
+original=What type of data is synced?
+translation=چه نوع داده‌هایی همگام‌سازی می‌شوند؟
+
+[heading.sync/How much storage do I have?]
+original=How much storage do I have?
+translation=چقدر فضای ذخیره‌سازی دارم؟
+
+[heading.sync/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=چند گاو صندوق راه دور می‌توانم داشته باشم؟
+
+[heading.sync/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=هر گاو صندوق راه دور چقدر می‌تواند بزرگ باشد؟
+
+[heading.sync/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=یک گاو صندوق راه دور را با چند نفر می‌توانم به اشتراک بگذارم؟
+
+[heading.sync/How large can each file be?]
+original=How large can each file be?
+translation=هر فایل چقدر می‌تواند بزرگ باشد؟
+
+[heading.sync/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=آیا داده‌های من در پس‌زمینه همگام‌سازی می‌شوند؟
+
+[heading.sync/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=آیا Obsidian Sync تنظیمات من را به صورت زنده بارگذاری مجدد می‌کند؟
+
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=آیا می‌توانم از همگام‌سازی شخص ثالث همراه با Obsidian Sync استفاده کنم؟
+
+[heading.sync/Data retention]
+original=Data retention
+translation=نگهداری داده‌ها
+
+[heading.sync/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=تاریخچه‌ی نسخه‌ها را چه مدت نگهداری می‌کنید؟
+
+[heading.sync/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=پس از انقضای اشتراک من، داده‌های من را چه مدت نگهداری می‌کنید؟
+
+[heading.sync/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=آیا در صورت بازپرداخت هزینه اشتراک، داده‌های من را نگهداری می‌کنید؟
+
+[heading.web-clipper/Create or edit a template]
+original=Create or edit a template
+translation=ساختن یا ویرایش قالب
+
+[heading.web-clipper/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=درج و استخراج قالب‌های Web Clipper
+
+[heading.web-clipper/Template settings]
+original=Template settings
+translation=تنظیمات قالب
+
+[heading.web-clipper/Behavior]
+original=Behavior
+translation=رفتار
+
+[heading.web-clipper/Automatically trigger a template]
+original=Automatically trigger a template
+translation=فعال‌سازی خودکار قالب
+
+[heading.web-clipper/Simple URL matching]
+original=Simple URL matching
+translation=تطبیق ساده URL
+
+[heading.web-clipper/Regular expression matching]
+original=Regular expression matching
+translation=تطبیق با عبارت باقاعده
+
+[heading.web-clipper/Schema.org matching]
+original=Schema.org matching
+translation=تطبیق Schema.org
+
+[heading.web-clipper/Interpreter context]
+original=Interpreter context
+translation=زمینه تفسیرگر
+
+[heading.web-clipper/Capture a page]
+original=Capture a page
+translation=ضبط یک صفحه
+
+[heading.web-clipper/Download images]
+original=Download images
+translation=بارگیری تصاویر
+
+[heading.web-clipper/Hotkeys]
+original=Hotkeys
+translation=میانبرها
+
+[heading.web-clipper/Interface functionality]
+original=Interface functionality
+translation=قابلیت‌های رابط کاربری
+
+[heading.web-clipper/Examples of prompts]
+original=Examples of prompts
+translation=نمونه‌هایی از دستورات
+
+[heading.web-clipper/Get started]
+original=Get started
+translation=شروع کار
+
+[heading.web-clipper/How it works]
+original=How it works
+translation=نحوه عملکرد
+
+[heading.web-clipper/Context]
+original=Context
+translation=زمینه
+
+[heading.web-clipper/Models]
+original=Models
+translation=مدل‌ها
+
+[heading.web-clipper/Preset providers]
+original=Preset providers
+translation=ارائه‌دهندگان پیش تنظیم شده
+
+[heading.web-clipper/Choosing a model]
+original=Choosing a model
+translation=انتخاب مدل
+
+[heading.web-clipper/Custom providers and models]
+original=Custom providers and models
+translation=ارائه‌دهندگان و مدل‌های سفارشی
+
+[heading.web-clipper/Local models]
+original=Local models
+translation=مدل‌های محلی
+
+[heading.web-clipper/Activate reading mode]
+original=Activate reading mode
+translation=فعال کردن حالت خواندن
+
+[heading.web-clipper/Customize the reading view]
+original=Customize the reading view
+translation=سفارشی‌سازی نمای خواندن
+
+[heading.web-clipper/General]
+original=General
+translation=عمومی
+
+[heading.web-clipper/Some content is missing]
+original=Some content is missing
+translation=برخی محتواها از دست رفته‌اند
+
+[heading.web-clipper/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=هیچ محتوایی در Obsidian ظاهر نمی‌شود
+
+[heading.web-clipper/Linux]
+original=Linux
+translation=لینوکس
+
+[heading.web-clipper/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian باز نمی‌شود
+
+[heading.web-clipper/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian باز می‌شود اما فقط نام فایل ذخیره می‌شود
+
+[heading.web-clipper/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS و iPadOS
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=نصب Web Clipper
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=نحوه استفاده از Web Clipper
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=حریم خصوصی
+
+[heading.web-clipper/Preset variables]
+original=Preset variables
+translation=متغیرهای پیش‌تنظیم‌شده
+
+[heading.web-clipper/Prompt variables]
+original=Prompt variables
+translation=متغیرهای پرامپت
+
+[heading.web-clipper/When to use prompt variables]
+original=When to use prompt variables
+translation=چه زمانی از متغیرهای پرامپت استفاده کنیم
+
+[heading.web-clipper/Examples]
+original=Examples
+translation=نمونه‌ها
+
+[heading.web-clipper/Meta variables]
+original=Meta variables
+translation=متغیرهای متا
+
+[heading.web-clipper/Selector variables]
+original=Selector variables
+translation=متغیرهای سلکتور
+
+[heading.web-clipper/Schema.org variables]
+original=Schema.org variables
+translation=متغیرهای Schema.org
+
+[heading.web-clipper/Conditionals]
+original=Conditionals
+translation=شرط‌ها
+
+[heading.web-clipper/Comparison operators]
+original=Comparison operators
+translation=عملگرهای مقایسه‌ای
+
+[heading.web-clipper/Logical operators]
+original=Logical operators
+translation=عملگرهای منطقی
+
+[heading.web-clipper/Truthiness]
+original=Truthiness
+translation=درستی (Truthiness)
+
+[heading.web-clipper/Assign a variable]
+original=Assign a variable
+translation=تخصیص متغیر
+
+[heading.web-clipper/Fallbacks]
+original=Fallbacks
+translation=مقادیر جایگزین
+
+[heading.web-clipper/Chaining fallbacks]
+original=Chaining fallbacks
+translation=زنجیره کردن مقادیر جایگزین
+
+[heading.web-clipper/With filters]
+original=With filters
+translation=با فیلترها
+
+[heading.web-clipper/Loops]
+original=Loops
+translation=حلقه‌ها
+
+[heading.web-clipper/Loop sources]
+original=Loop sources
+translation=منابع حلقه
+
+[heading.web-clipper/Loop variables]
+original=Loop variables
+translation=متغیرهای حلقه
+
+[heading.web-clipper/Accessing array items by index]
+original=Accessing array items by index
+translation=دسترسی به آیتم‌های آرایه با شاخص
+
+[heading.web-clipper/Nested loops]
+original=Nested loops
+translation=حلقه‌های تودرتو
+
+[heading.web-clipper/Combine logic]
+original=Combine logic
+translation=ترکیب منطق
+
+[heading.web-clipper/Evaluation order]
+original=Evaluation order
+translation=ترتیب ارزیابی
+
+[heading.web-clipper/Turn on highlighter]
+original=Turn on highlighter
+translation=فعال کردن مارکر
+
+[heading.web-clipper/Highlighter settings]
+original=Highlighter settings
+translation=تنظیمات مارکر
+
+[heading.web-clipper/Dates]
+original=Dates
+translation=تاریخ‌ها
+
+[heading.web-clipper/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=تبدیل متن و بزرگ‌نویسی
+
+[heading.web-clipper/Text formatting]
+original=Text formatting
+translation=قالب‌بندی متن
+
+[heading.web-clipper/Numbers]
+original=Numbers
+translation=اعداد
+
+[heading.web-clipper/HTML processing]
+original=HTML processing
+translation=پردازش HTML
+
+[heading.web-clipper/Arrays and objects]
+original=Arrays and objects
+translation=آرایه‌ها و اشیاء
+
+[heading.plugins/Create a new canvas]
+original=Create a new canvas
+translation=ساختن یک بوم جدید
+
+[heading.plugins/Add cards]
+original=Add cards
+translation=افزودن کارت‌ها
+
+[heading.plugins/Add text cards]
+original=Add text cards
+translation=افزودن کارت‌های متنی
+
+[heading.plugins/Add cards from notes]
+original=Add cards from notes
+translation=افزودن کارت از یادداشت‌ها
+
+[heading.plugins/Add cards from media]
+original=Add cards from media
+translation=افزودن کارت از رسانه‌ها
+
+[heading.plugins/Add cards from web pages]
+original=Add cards from web pages
+translation=افزودن کارت از صفحات وب
+
+[heading.plugins/Add cards from folders]
+original=Add cards from folders
+translation=افزودن کارت از پوشه‌ها
+
+[heading.plugins/Edit a card]
+original=Edit a card
+translation=ویرایش کارت
+
+[heading.plugins/Delete a card]
+original=Delete a card
+translation=حذف کارت
+
+[heading.plugins/Swap cards]
+original=Swap cards
+translation=جابه‌جایی کارت‌ها
+
+[heading.plugins/Select cards]
+original=Select cards
+translation=انتخاب کارت‌ها
+
+[heading.plugins/Arrange cards]
+original=Arrange cards
+translation=مرتب کردن کارت‌ها
+
+[heading.plugins/Resize a card]
+original=Resize a card
+translation=تغییر اندازه کارت
+
+[heading.plugins/Connect cards]
+original=Connect cards
+translation=اتصال کارت‌ها
+
+[heading.plugins/Connect two cards]
+original=Connect two cards
+translation=اتصال دو کارت
+
+[heading.plugins/Disconnect two cards]
+original=Disconnect two cards
+translation=قطع اتصال دو کارت
+
+[heading.plugins/Connect a card to a different card]
+original=Connect a card to a different card
+translation=اتصال کارت به کارت دیگر
+
+[heading.plugins/Navigate a connection]
+original=Navigate a connection
+translation=پیمایش یک اتصال
+
+[heading.plugins/Add a label to a connection]
+original=Add a label to a connection
+translation=افزودن برچسب به اتصال
+
+[heading.plugins/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=تغییر رنگ کارت یا اتصال
+
+[heading.plugins/Group cards]
+original=Group cards
+translation=گروه‌بندی کارت‌ها
+
+[heading.plugins/Group selected cards]
+original=Group selected cards
+translation=گروه‌بندی کارت‌های انتخاب‌شده
+
+[heading.plugins/Navigate the canvas]
+original=Navigate the canvas
+translation=پیمایش در بوم
+
+[heading.plugins/Pan the canvas]
+original=Pan the canvas
+translation=پیمایش در بوم
+
+[heading.plugins/Zoom the canvas]
+original=Zoom the canvas
+translation=بزرگ‌نمایی بوم
+
+[heading.plugins/Zoom to fit]
+original=Zoom to fit
+translation=زوم متناسب
+
+[heading.plugins/Zoom to selection]
+original=Zoom to selection
+translation=زوم بر بخش انتخاب‌شده
+
+[heading.plugins/Reset zoom]
+original=Reset zoom
+translation=بازنشانی زوم
+
+[heading.plugins/Advanced tips]
+original=Advanced tips
+translation=نکات پیشرفته
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=همه افزونه‌های اصلی
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=افزونه‌های دیگر
+
+[heading.plugins/Set your template folder]
+original=Set your template folder
+translation=تنظیم پوشه الگو
+
+[heading.plugins/Template variables]
+original=Template variables
+translation=متغیرهای الگو
+
+[heading.plugins/Create a template]
+original=Create a template
+translation=ساختن یک الگو
+
+[heading.plugins/Insert a template into the active note]
+original=Insert a template into the active note
+translation=درج یک الگو در یادداشت فعال
+
+[heading.plugins/Template properties]
+original=Template properties
+translation=ویژگی‌های الگو
+
+[heading.plugins/Recover a snapshot]
+original=Recover a snapshot
+translation=بازیابی یک اسنپ‌شات
+
+[heading.plugins/Clear snapshot history]
+original=Clear snapshot history
+translation=پاک کردن تاریخچه اسنپ‌شات
+
+[heading.plugins/Storage and performance]
+original=Storage and performance
+translation=فضای ذخیره‌سازی و عملکرد
+
+[heading.plugins/Limitations]
+original=Limitations
+translation=محدودیت‌ها
+
+[heading.plugins/Search terms]
+original=Search terms
+translation=عبارات جستجو
+
+[heading.plugins/Search operators]
+original=Search operators
+translation=عملگرهای جستجو
+
+[heading.plugins/Search properties]
+original=Search properties
+translation=جستجوی ویژگی‌ها
+
+[heading.plugins/Change case sensitivity]
+original=Change case sensitivity
+translation=تغییر حساسیت به بزرگ‌و‌کوچکی حرف
+
+[heading.plugins/Change result sort order]
+original=Change result sort order
+translation=تغییر ترتیب مرتب‌سازی نتایج
+
+[heading.plugins/Copy search results]
+original=Copy search results
+translation=کپی نتایج جستجو
+
+[heading.plugins/Use regular expressions]
+original=Use regular expressions
+translation=استفاده از عبارات باقاعده
+
+[heading.plugins/Configure search settings]
+original=Configure search settings
+translation=پیکربندی تنظیمات جستجو
+
+[heading.plugins/Embed search results in a note]
+original=Embed search results in a note
+translation=جاسازی نتایج جستجو در یادداشت
+
+[heading.plugins/Create a daily note from template]
+original=Create a daily note from template
+translation=ساختن روزنوشت از قالب
+
+[heading.plugins/Daily notes and properties]
+original=Daily notes and properties
+translation=روزنوشت‌ها و ویژگی‌ها
+
+[heading.plugins/Record audio in a note]
+original=Record audio in a note
+translation=ضبط صوت در یک یادداشت
+
+[heading.plugins/Pinned commands]
+original=Pinned commands
+translation=فرمان‌های سنجاق‌شده
+
+[heading.plugins/Pin a command]
+original=Pin a command
+translation=سنجاق کردن یک دستور
+
+[heading.plugins/Unpin a command]
+original=Unpin a command
+translation=برداشتن سنجاق یک دستور
+
+[heading.plugins/Save a workspace]
+original=Save a workspace
+translation=ذخیره یک فضای کاری
+
+[heading.plugins/Load a workspace]
+original=Load a workspace
+translation=بارگیری یک فضای کاری
+
+[heading.plugins/Delete a workspace]
+original=Delete a workspace
+translation=حذف یک فضای کاری
+
+[heading.plugins/Create a new note]
+original=Create a new note
+translation=ساختن یادداشت جدید
+
+[heading.plugins/Create a new folder]
+original=Create a new folder
+translation=ساختن پوشه‌ی جدید
+
+[heading.plugins/Change sort order]
+original=Change sort order
+translation=تغییر ترتیب چینش
+
+[heading.plugins/Auto-reveal active file]
+original=Auto-reveal active file
+translation=نمایش خودکار فایل فعال
+
+[heading.plugins/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=گستردن یا جمع کردن تمام پوشه‌ها
+
+[heading.plugins/Delete a file or folder]
+original=Delete a file or folder
+translation=حذف فایل یا پوشه
+
+[heading.plugins/Rename a file or folder]
+original=Rename a file or folder
+translation=تغییر نام فایل یا پوشه
+
+[heading.plugins/Move a file or folder]
+original=Move a file or folder
+translation=جابه‌جایی فایل یا پوشه
+
+[heading.plugins/Add a bookmark]
+original=Add a bookmark
+translation=افزودن نشانک
+
+[heading.plugins/Remove a bookmark]
+original=Remove a bookmark
+translation=حذف نشانک
+
+[heading.plugins/Add a bookmark group]
+original=Add a bookmark group
+translation=افزودن گروه نشانک
+
+[heading.plugins/Remove a bookmark group]
+original=Remove a bookmark group
+translation=حذف گروه نشانک
+
+[heading.plugins/Bookmark multiple files]
+original=Bookmark multiple files
+translation=نشانک‌گذاری چندین فایل
+
+[heading.plugins/Settings]
+original=Settings
+translation=تنظیمات
+
+[heading.plugins/Filters]
+original=Filters
+translation=پالایه‌ها
+
+[heading.plugins/Groups]
+original=Groups
+translation=گروه‌ها
+
+[heading.plugins/Display]
+original=Display
+translation=نمایش
+
+[heading.plugins/Forces]
+original=Forces
+translation=نیروها
+
+[heading.plugins/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=آغاز پویانمایی تایم‌لپس
+
+[heading.plugins/Local Graph]
+original=Local Graph
+translation=نمودار محلی
+
+[heading.plugins/All properties view]
+original=All properties view
+translation=نمای همه‌ی ویژگی‌ها
+
+[heading.plugins/Reader view]
+original=Reader view
+translation=نمای خواننده
+
+[heading.plugins/Save to vault]
+original=Save to vault
+translation=ذخیره در خزانه
+
+[heading.plugins/Ad blocking]
+original=Ad blocking
+translation=مسدود کردن تبلیغات
+
+[heading.plugins/Security]
+original=Security
+translation=امنیت
+
+[heading.plugins/Supported formats]
+original=Supported formats
+translation=قالب‌های پشتیبانی‌شده
+
+[heading.plugins/[[Properties]]]
+original=[[Properties]]
+translation=[[ویژگی‌ها]]
+
+[heading.plugins/Open Quick switcher]
+original=Open Quick switcher
+translation=گشودن تعویض‌گر سریع
+
+[heading.plugins/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=گشودن یک یادداشت با تعویض‌گر سریع
+
+[heading.plugins/Show backlinks]
+original=Show backlinks
+translation=نمایش پشت‌وندها
+
+[heading.plugins/View backlinks for a note]
+original=View backlinks for a note
+translation=مشاهده پشت‌وندهای یک یادداشت
+
+[heading.plugins/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=مشاهده پشت‌وندهای یک یادداشت خاص
+
+[heading.plugins/Show backlinks in a note]
+original=Show backlinks in a note
+translation=نمایش پشت‌وندها در یادداشت
+
+[heading.plugins/Merge notes]
+original=Merge notes
+translation=ادغام یادداشت‌ها
+
+[heading.plugins/Extract note]
+original=Extract note
+translation=استخراج یادداشت
+
+[heading.plugins/Template file]
+original=Template file
+translation=فایل قالب
+
+[heading.plugins/Create a unique note]
+original=Create a unique note
+translation=ساختن یادداشت یکتا
+
+[heading.plugins/Create unique notes from a template]
+original=Create unique notes from a template
+translation=ساختن یادداشت‌های یکتا از یک قالب
+
+[heading.plugins/Install Importer]
+original=Install Importer
+translation=نصب درج‌کننده
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=استفاده از Obsidian با تیم شما
+
+[heading.teams/Important resources]
+original=Important resources
+translation=منابع مهم
+
+[heading.teams/Publishing tools and services]
+original=Publishing tools and services
+translation=ابزارها و خدمات انتشار
+
+[heading.teams/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=همکاری پیشرفته برای Obsidian Publish
+
+[heading.teams/Media]
+original=Media
+translation=رسانه
+
+[heading.teams/Frequently asked questions]
+original=Frequently asked questions
+translation=پرسش‌های متداول
+
+[heading.teams/Syncing tools and services]
+original=Syncing tools and services
+translation=ابزارها و خدمات همگام‌سازی
+
+[heading.teams/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=Obsidian Sync برای تیم‌ها
+
+[heading.teams/Security]
+original=Security
+translation=امنیت
+
+[heading.teams/Install and update Obsidian]
+original=Install and update Obsidian
+translation=نصب و به‌روزرسانی Obsidian
+
+[heading.teams/Customizing Obsidian]
+original=Customizing Obsidian
+translation=سفارشی‌سازی Obsidian
+
+[heading.teams/Configuration folders]
+original=Configuration folders
+translation=پوشه‌های پیکربندی
+
+[heading.teams/Plugins]
+original=Plugins
+translation=افزونه‌ها
+
+[heading.teams/Themes and snippets]
+original=Themes and snippets
+translation=پوسته‌ها و تکه‌کدها
+
+[heading.teams/Deployment]
+original=Deployment
+translation=استقرار
+
+[heading.teams/Considerations]
+original=Considerations
+translation=ملاحظات
+
+[heading.teams/Community plugins and themes]
+original=Community plugins and themes
+translation=افزونه‌ها و پوسته‌های انجمن
+
+[heading.teams/Network and access]
+original=Network and access
+translation=شبکه و دسترسی
+
+[heading.teams/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=اتصالات منبع Obsidian
+
+[heading.teams/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=اتصالات منبع GitHub
+
+[heading.teams/Other connections]
+original=Other connections
+translation=اتصالات دیگر
+
+[heading.teams/Account security]
+original=Account security
+translation=امنیت حساب
+
+[heading.teams/Assessments and certifications]
+original=Assessments and certifications
+translation=ارزیابی‌ها و گواهینامه‌ها
+
+[heading.teams/Purchase a commercial license]
+original=Purchase a commercial license
+translation=خرید مجوز تجاری
+
+[heading.teams/Apply a commercial license]
+original=Apply a commercial license
+translation=اعمال مجوز تجاری
+
+[heading.teams/Supporting organizations]
+original=Supporting organizations
+translation=سازمان‌های حامی
+
+[heading.import/Export your data from Apple Journal]
+original=Export your data from Apple Journal
+translation=استخراج داده‌ها از Apple Journal
+
+[heading.import/On iPhone]
+original=On iPhone
+translation=در iPhone
+
+[heading.import/On Mac (Tahoe)]
+original=On Mac (Tahoe)
+translation=در Mac (Tahoe)
+
+[heading.import/Import Apple Journal data into Obsidian]
+original=Import Apple Journal data into Obsidian
+translation=درج داده‌های Apple Journal به Obsidian
+
+[heading.import/Supported content]
+original=Supported content
+translation=محتوای پشتیبانی‌شده
+
+[heading.import/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=درج داده‌های Apple Notes به Obsidian
+
+[heading.import/Scans]
+original=Scans
+translation=اسکن‌ها
+
+[heading.import/Alternate export methods]
+original=Alternate export methods
+translation=روش‌های جایگزین استخراج
+
+[heading.import/Export your data from Bear]
+original=Export your data from Bear
+translation=استخراج داده‌ها از Bear
+
+[heading.import/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=درج داده‌های Bear به Obsidian
+
+[heading.import/Export your data from Craft]
+original=Export your data from Craft
+translation=استخراج داده‌ها از Craft
+
+[heading.import/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=درج داده‌های Craft به Obsidian
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=عیب‌یابی
+
+[heading.import/Export your data from Evernote]
+original=Export your data from Evernote
+translation=استخراج داده‌ها از Evernote
+
+[heading.import/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=درج داده‌های Evernote به Obsidian
+
+[heading.import/Advanced import options]
+original=Advanced import options
+translation=تنظیمات پیشرفته درج
+
+[heading.import/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=حفظ سلسله‌مراتب برچسب‌ها
+
+[heading.import/Handling notebook stacks]
+original=Handling notebook stacks
+translation=مدیریت پشته‌های دفترچه
+
+[heading.import/More options]
+original=More options
+translation=گزینه‌های بیشتر
+
+[heading.import/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=استخراج داده‌ها از Google Keep
+
+[heading.import/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=درج داده‌های Google Keep به Obsidian
+
+[heading.import/Supported features]
+original=Supported features
+translation=قابلیت‌های پشتیبانی‌شده
+
+[heading.import/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=درج داده‌های OneNote به Obsidian
+
+[heading.import/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=هیچ بخش یا دفترچه‌ای نمایش داده نمی‌شود
+
+[heading.import/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=یادداشت‌های درج‌شده خالی هستند یا محتوا ندارند
+
+[heading.import/Privacy]
+original=Privacy
+translation=حریم خصوصی
+
+[heading.import/API import]
+original=API import
+translation=درج از طریق API
+
+[heading.import/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=ساخت توکن یکپارچه‌سازی API در Notion
+
+[heading.import/Import your Notion data via API]
+original=Import your Notion data via API
+translation=درج داده‌های Notion از طریق API
+
+[heading.import/Limitations]
+original=Limitations
+translation=محدودیت‌ها
+
+[heading.import/File import]
+original=File import
+translation=درج از طریق فایل
+
+[heading.import/Export your data from Notion]
+original=Export your data from Notion
+translation=استخراج داده‌ها از Notion
+
+[heading.import/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=درج فایل .zip از Notion
+
+[heading.import/Importing large workspaces]
+original=Importing large workspaces
+translation=درج فضاهای کاری بزرگ
+
+[heading.import/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=استخراج داده‌ها از Roam Research
+
+[heading.import/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=درج داده‌های Roam Research در Obsidian
+
+[heading.import/Create notes from CSV data in Obsidian]
+original=Create notes from CSV data in Obsidian
+translation=ساختن یادداشت‌ها از داده‌های CSV در Obsidian
+
+[heading.import/Configure how CSV fields are imported]
+original=Configure how CSV fields are imported
+translation=پیکربندی نحوه درج فیلدهای CSV
+
+[heading.import/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=درج داده‌های HTML به Obsidian
+
+[heading.import/Import settings]
+original=Import settings
+translation=وارد کردن تنظیمات
+
+[heading.import/Converting from other flavors of Markdown]
+original=Converting from other flavors of Markdown
+translation=تبدیل از سایر انواع Markdown
+
+[heading.import/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=درج فایل‌های Textbundle به Obsidian
+
+[heading.import/No files are selected for import]
+original=No files are selected for import
+translation=هیچ فایلی برای درج انتخاب نشده است
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=درج از اپلیکیشن‌ها و قالب‌های فایل دیگر
+
+[heading.import/More formats]
+original=More formats
+translation=قالب‌های بیشتر
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=گشودن تنظیمات
+
+[heading.settings/Desktop]
+original=Desktop
+translation=رومیزی
+
+[heading.settings/Mobile]
+original=Mobile
+translation=موبایل
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=سازماندهی تنظیمات
+
+[heading.settings/General]
+original=General
+translation=عمومی
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=نسخه و به‌روزرسانی‌ها
+
+[heading.settings/Language]
+original=Language
+translation=زبان
+
+[heading.settings/Help]
+original=Help
+translation=راهنما
+
+[heading.settings/Account]
+original=Account
+translation=حساب
+
+[heading.settings/Advanced]
+original=Advanced
+translation=پیشرفته
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=در صورت طولانی شدن زمان بارگذاری، اطلاع‌رسانی کن
+
+[heading.settings/Editor]
+original=Editor
+translation=ویرایشگر
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=تمرکز همیشه روی زبانه‌ی فعال باشد
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=نمای پیش‌فرض زبانه‌های نو
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=حالت ویرایش پیش‌فرض
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=وضعیت ویرایشگر
+
+[heading.settings/Display]
+original=Display
+translation=نمایش
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=خواناسازی طول خطوط
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=سخت‌گیری در نمایش شکست خطوط
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=ویژگی‌ها در سند
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=جمع کردن سرفصل‌ها
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=جمع کردن تورفتگی
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=نمایش شماره‌ی خطوط
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=نمایش راهنمای تورفتگی
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=راست‌به‌چپ (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=جفت‌سازی خودکار کمانک‌ها
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=جفت‌سازی خودکار نحو Markdown
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=تورفتگی هوشمند در فهرست‌ها
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=استفاده از کلید تب
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=تبدیل خودکار HTML چسبانده‌شده به Markdown
+
+[heading.settings/Behavior]
+original=Behavior
+translation=رفتار
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=بررسی املا
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=زبان‌های بررسی املایی
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=اندازه‌ی کلید تب
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=کلیدبندی ویم
+
+[heading.settings/Files and links]
+original=Files and links
+translation=پرونده‌ها و پیوندها
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=جای پیش‌فرض یادداشت‌های نو
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=جای پیش‌فرض پیوست‌های نو
+
+[heading.settings/Links]
+original=Links
+translation=پیوندها
+
+[heading.settings/New link format]
+original=New link format
+translation=قالب‌بندی پیوند نو
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=همیشه پیوندهای درونی به‌روز شوند
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=استفاده از پیوندهای ویکی
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=نمایش همه‌جور پرونده
+
+[heading.settings/Trash]
+original=Trash
+translation=زباله‌دان
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=تأیید حذف فایل
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=پرونده‌های حذف‌شده
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=پرونده‌های مستثنا
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=پایمالی پوشه‌ی پیکربندی
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=اجازه دادن به کالبک‌های یو‌آر‌آی
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=بازسازی کش (حافظه پنهان) خزانه
+
+[heading.settings/Appearance]
+original=Appearance
+translation=ظاهر
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=رنگ‌بندی پایه
+
+[heading.settings/Accent color]
+original=Accent color
+translation=رنگ برجسته
+
+[heading.settings/Themes]
+original=Themes
+translation=پوسته‌ها
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=پوسته‌های کنونی انجمن
+
+[heading.settings/Font]
+original=Font
+translation=قلم
+
+[heading.settings/Interface font]
+original=Interface font
+translation=قلم رابط‌ کاربری
+
+[heading.settings/Text font]
+original=Text font
+translation=قلم متن
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=قلم مونواِسپیس
+
+[heading.settings/Font size]
+original=Font size
+translation=اندازه‌ی قلم
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=تغییر سریع اندازه‌ی قلم
+
+[heading.settings/Interface]
+original=Interface
+translation=رابط کاربری
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=نمایش عنوان درون‌خطی
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=نمایش نوار عنوان زبانه
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=نمایش روبان
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=پیکربندی منوی روبان
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=سطح بزرگ‌نمایی
+
+[heading.settings/Native menus]
+original=Native menus
+translation=منوهای خود سیستم‌عامل
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=سبک قاب پنجره
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=نماد دلخواه برنامه
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=پنجره‌ی شفاف
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=شتاب‌دهی سخت‌افزاری
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=تکه‌کدهای CSS
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=میانبرها
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=افزونه‌های اصلی
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=افزونه‌های انجمن
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=حالت محدود
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=افزونه‌های کنونی
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=افزونه‌های نصب‌شده
+
+[heading.ribbon/Actions]
+original=Actions
+translation=عملکردها
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=سفارشی‌سازی نوار ابزار
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=دسکتاپ
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=پنهان کردن نوار ابزار
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=نمایش نوار ابزار
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=موبایل
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=دسترسی سریع
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=مرتب‌سازی و نمایش
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=باز کردن زبانه جدید
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=باز کردن یک پیوند
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=سازمان‌دهی زبانه‌ها و پنجره‌ها
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=مرتب کردن زبانه‌ها
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=تقسیم گروه زبانه
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=تغییر اندازه گروه زبانه
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=انتقال زبانه به پنجره جدید
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=انتقال زبانه به پنجره دیگر
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=سنجاق کردن زبانه
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=رفتن به زبانه دیگر
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=روی‌هم‌گذاری گروه‌های زبانه
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=نماهای پیوندشده
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=ذخیره چیدمان‌ها
+
+[heading.workspace/Desktop]
+original=Desktop
+translation=دسکتاپ
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=موبایل
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=مشاهده میانبرها
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=تنظیم یک میانبر
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=حذف یک میانبر
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=فیلتر کردن میانبرها
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=چیدمان‌های صفحه‌کلید غیر آمریکایی
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=میانبرهای صفحه‌کلید پیش‌فرض
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=گشودن نوارهای کناری پنهان
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=دسکتاپ و تبلت‌های بزرگ‌تر
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=موبایل و تبلت‌های کوچک‌تر
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=زبانه‌ها
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=گشودن یا بازگشودن زبانه‌ها
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=بستن زبانه‌ها
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=مرتب‌سازی مجدد زبانه‌ها
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=سنجاق کردن زبانه‌ها
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=گروه‌های زبانه
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=ایجاد گروه‌های زبانه
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=بستن گروه‌های زبانه
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=گشودن فایل در پنجره‌ی نو
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=انتقال فایل به پنجره‌ای دیگر
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=شمای رنگی
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=پوسته‌های سفارشی
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=نماد دلخواه برنامه
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=شفافیت
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=کشیدن زبانه‌ها
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=منابع قابل کشیدن
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=مقصدهای رها کردن
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=کشیدن از بیرون Obsidian
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=رها کردن فایل‌ها در بیرون از Obsidian
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=پرسش‌ها و مشاوره
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=گزارش باگ و درخواست ویژگی
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=جمع‌آوری اطلاعات اشکال‌زدایی
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=بررسی زمان راه‌اندازی
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=ضبط لاگ‌های کنسول
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=تماس با پشتیبانی Obsidian
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=گزارش مشکل امنیتی
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=گزارش نقض آیین‌نامه رفتار
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=مشارکت در Obsidian
+
+[heading.vault/Create empty vault]
+original=Create empty vault
+translation=ساختن گاوصندوق خالی
+
+[heading.vault/Open existing folder]
+original=Open existing folder
+translation=گشودن پوشه موجود
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=نصب Obsidian بر ویندوز
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=نصب Obsidian بر macOS
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=نصب Obsidian بر لینوکس
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=نصب Obsidian با Snap
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=نصب Obsidian با AppImage
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=نصب Obsidian با Flatpak
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=نصب Obsidian بر اندروید
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=نصب Obsidian بر آیفون و آیپد
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=ویجت‌ها، میانبرها و Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=نوار ابزار موبایل
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=سفارشی‌سازی نوار ابزار موبایل
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=افزودن دستور به نوار ابزار موبایل
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=کار سریع
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=سفارشی‌سازی کار سریع
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=نوار ناوبری
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=بازگشت یا جلو
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=ساختن یا یافتن یادداشت
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=مدیریت زبانه‌ها
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=اقدامات نوار ابزار
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=نوارهای کناری
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=بررسی به‌روزرسانی‌ها و مشاهده نسخه
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=غیرفعال کردن به‌روزرسانی خودکار
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=به‌روزرسانی نصب‌کننده
+
+[heading.sandbox/Opening the sandbox vault]
+original=Opening the sandbox vault
+translation=گشودن گاوصندوق سندباکس
+
+[heading.sandbox/Close the sandbox vault]
+original=Close the sandbox vault
+translation=بستن گاوصندوق سندباکس
+
+[heading.create-note/Create a new note]
+original=Create a new note
+translation=ساختن یک یادداشت نو
+
+[heading.create-note/Formatting text]
+original=Formatting text
+translation=قالب‌بندی متن
+
+[heading.create-note/Learn more]
+original=Learn more
+translation=اطلاعات بیشتر
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=روش‌های همگام‌سازی
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=همگام‌سازی iPhone و iPad
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=پرسش‌های متداول
+
+[heading.glossary/Alias]
+original=Alias
+translation=نام مستعار
+
+[heading.glossary/Attachment]
+original=Attachment
+translation=پیوست
+
+[heading.glossary/Command]
+original=Command
+translation=دستور
+
+[heading.glossary/Embed]
+original=Embed
+translation=جاسازی
+
+[heading.glossary/Frontmatter]
+original=Frontmatter
+translation=فرادادهٔ ابتدای فایل
+
+[heading.glossary/Graph]
+original=Graph
+translation=نمودار
+
+[heading.glossary/Hotkey]
+original=Hotkey
+translation=میانبر صفحه‌کلید
+
+[heading.glossary/Link]
+original=Link
+translation=پیوند
+
+[heading.glossary/Main area]
+original=Main area
+translation=ناحیه اصلی
+
+[heading.glossary/Note]
+original=Note
+translation=یادداشت
+
+[heading.glossary/Plugin]
+original=Plugin
+translation=افزونه
+
+[heading.glossary/Pop-out window]
+original=Pop-out window
+translation=پنجره بازشو
+
+[heading.glossary/Property]
+original=Property
+translation=ویژگی
+
+[heading.glossary/Ribbon]
+original=Ribbon
+translation=نوار ابزار
+
+[heading.glossary/Sidebar]
+original=Sidebar
+translation=نوار کناری
+
+[heading.glossary/Snippet]
+original=Snippet
+translation=قطعه
+
+[heading.glossary/Status bar]
+original=Status bar
+translation=نوار وضعیت
+
+[heading.glossary/Tab]
+original=Tab
+translation=زبانه
+
+[heading.glossary/Tab group]
+original=Tab group
+translation=گروه زبانه
+
+[heading.glossary/Tag]
+original=Tag
+translation=برچسب
+
+[heading.glossary/Theme]
+original=Theme
+translation=پوسته
+
+[heading.glossary/Vault]
+original=Vault
+translation=گاوصندوق
+
+[heading.glossary/Remote vault]
+original=Remote vault
+translation=گاو صندوق راه دور
+
+[heading.glossary/View]
+original=View
+translation=نما
+
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=همگام‌سازی پشتیبان نیست
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=استفاده از افزونه‌های انجمن
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=استفاده از سرویس‌های ابری
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=استفاده از درایوهای خارجی
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=استفاده از پشتیبان‌گیری رایانه
+
+[heading.backup/Next steps]
+original=Next steps
+translation=گام‌های بعدی
+
+[heading.link-notes/Create a link]
+original=Create a link
+translation=ساختن یک پیوند
+
+[heading.link-notes/Create a link to a non-existing note]
+original=Create a link to a non-existing note
+translation=ساختن پیوند به یادداشتی که هنوز وجود ندارد
+
+[heading.link-notes/Navigate between notes]
+original=Navigate between notes
+translation=ناوبری بین یادداشت‌ها
+
+[heading.link-notes/Learn more]
+original=Learn more
+translation=اطلاعات بیشتر
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=جاسازی فایل‌ها
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=ساخت گاوصندوق جدید
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=ساخت گاوصندوق از یک پوشه موجود
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=تغییر نام گاوصندوق
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=انتقال گاوصندوق به پوشه‌ای دیگر
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=حذف گاوصندوق
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=انتقال تنظیمات به گاوصندوق دیگر
+
+[heading.manage-notes/Create a new note]
+original=Create a new note
+translation=ساختن یادداشت نو
+
+[heading.manage-notes/Rename a note]
+original=Rename a note
+translation=تغییر نام یادداشت
+
+[heading.manage-notes/Delete a note]
+original=Delete a note
+translation=حذف یادداشت
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=تنظیمات گاوصندوق
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=تنظیمات سراسری
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=حافظه نهان فراداده
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=دسترسی به پوشه‌ی پیکربندی
+
+[heading.configuration-folder/Desktop]
+original=Desktop
+translation=دسکتاپ
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=موبایل
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=تغییر پوشه‌ی پیکربندی
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=افزونه‌ها و پوسته‌ها
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=پروژه‌های متن‌باز
+
+[heading.developers/Documentation]
+original=Documentation
+translation=مستندات
+
+[heading.developers/Community]
+original=Community
+translation=انجمن
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=اصطلاحات و دستور زبان
+
+[heading.style-guide/Language style]
+original=Language style
+translation=سبک زبانی
+
+[heading.style-guide/Terms]
+original=Terms
+translation=اصطلاحات
+
+[heading.style-guide/Product names]
+original=Product names
+translation=نام‌های محصول
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=رابط کاربری و تعاملات
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=یادداشت‌ها، فایل‌ها و پوشه‌ها
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=مستندات مرجع برای تنظیمات
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=اصطلاحات جهت‌دار
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=دستورالعمل‌ها
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=حروف بزرگ جمله‌ای
+
+[heading.style-guide/Examples]
+original=Examples
+translation=نمونه‌ها
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=نام کلیدها و میانبرهای صفحه‌کلید
+
+[heading.style-guide/Images]
+original=Images
+translation=تصاویر
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=ساختار اطلاعات
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=انواع کال‌اوت
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=فهرست در مقابل نثر
+
+[heading.style-guide/Tables]
+original=Tables
+translation=جداول
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=ارجاعات متقابل
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=محتوای خاص پلتفرم
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=آیکون‌ها و تصاویر
+
+[heading.style-guide/Icons]
+original=Icons
+translation=آیکون‌ها
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=تگ‌های لنگر تصویر
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=بهینه‌سازی
+
+[heading.style-guide/Layout]
+original=Layout
+translation=چیدمان
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=پیوندهای شکسته
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=توضیحات
+
+[heading.style-guide/Directions]
+original=Directions
+translation=جهت‌ها
+
+[heading.style-guide/Translations]
+original=Translations
+translation=ترجمه‌ها
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=افزونه‌های Markdown پشتیبانی‌شده
+
+[heading.tags/Add a tag to a note]
+original=Add a tag to a note
+translation=افزودن برچسب به یادداشت
+
+[heading.tags/Find notes using tags]
+original=Find notes using tags
+translation=یافتن یادداشت‌ها با استفاده از برچسب‌ها
+
+[heading.tags/Nested tags]
+original=Nested tags
+translation=برچسب‌های تودرتو
+
+[heading.tags/Tag format]
+original=Tag format
+translation=قالب برچسب
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=جاسازی یک ویدئوی YouTube
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=جاسازی یک توییت
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=پاراگراف‌ها
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=شکست خط
+
+[heading.syntax/Headings]
+original=Headings
+translation=سرفصل‌ها
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=پررنگ، مورب، برجسته‌سازی
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=پیوندهای داخلی
+
+[heading.syntax/External links]
+original=External links
+translation=پیوندهای خارجی
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=جایگزینی فاصله‌های خالی در پیوندها
+
+[heading.syntax/External images]
+original=External images
+translation=تصاویر خارجی
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=نقل‌قول‌ها
+
+[heading.syntax/Lists]
+original=Lists
+translation=فهرست‌ها
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=فهرست کارها
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=فهرست‌های تودرتو
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=خط افقی
+
+[heading.syntax/Code]
+original=Code
+translation=کد
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=کد درون‌خطی
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=بلوک‌های کد
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=بلوک‌های کد تودرتو
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=پانوشت‌ها
+
+[heading.syntax/Comments]
+original=Comments
+translation=یادداشت‌ها (کامنت)
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=گریز از سینتکس Markdown
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=اطلاعات بیشتر
+
+[heading.advanced-syntax/Tables]
+original=Tables
+translation=جدول‌ها
+
+[heading.advanced-syntax/Format content within a table]
+original=Format content within a table
+translation=قالب‌بندی محتوا در داخل جدول
+
+[heading.advanced-syntax/Diagram]
+original=Diagram
+translation=نمودار
+
+[heading.advanced-syntax/Linking files in a diagram]
+original=Linking files in a diagram
+translation=پیوند دادن فایل‌ها در نمودار
+
+[heading.advanced-syntax/Math]
+original=Math
+translation=ریاضی
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=تغییر عنوان
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=کال‌اوت‌های تاشو
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=کال‌اوت‌های تودرتو
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=سفارشی‌سازی کال‌اوت‌ها
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=انواع پشتیبانی‌شده
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=محدودیت‌های HTML
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=عدم پشتیبانی از Markdown درون HTML
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=بلوک‌های HTML باید مستقل باشند
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=زمانی که Markdown به نظر می‌رسد درون HTML کار می‌کند
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=کاربردهای رایج HTML
+
+[heading.html/Comments]
+original=Comments
+translation=یادداشت‌ها
+
+[heading.html/Underline]
+original=Underline
+translation=زیرخط
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=خط‌خورده
+
+[heading.editing-shortcuts/Windows and Linux shortcuts]
+original=Windows and Linux shortcuts
+translation=میانبرهای ویندوز و لینوکس
+
+[heading.editing-shortcuts/Common actions]
+original=Common actions
+translation=عملیات رایج
+
+[heading.editing-shortcuts/Text editing]
+original=Text editing
+translation=ویرایش متن
+
+[heading.editing-shortcuts/Text navigation]
+original=Text navigation
+translation=ناوبری متن
+
+[heading.editing-shortcuts/Text selection]
+original=Text selection
+translation=انتخاب متن
+
+[heading.editing-shortcuts/macOS shortcuts]
+original=macOS shortcuts
+translation=میانبرهای macOS
+
+[heading.editing-shortcuts/Text formatting]
+original=Text formatting
+translation=قالب‌بندی متن
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=انتخاب مستطیلی
+
+[heading.edit-and-read/Reading view]
+original=Reading view
+translation=نمای خواندن
+
+[heading.edit-and-read/Editing view]
+original=Editing view
+translation=ویرایشگر
+
+[heading.edit-and-read/Live Preview]
+original=Live Preview
+translation=پیش‌نمایش زنده
+
+[heading.edit-and-read/Source mode]
+original=Source mode
+translation=حالت منبع
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=افزودن ویژگی‌ها به یادداشت
+
+[heading.properties/Property types]
+original=Property types
+translation=نوع‌های ویژگی
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=کاربردهای پیشرفته
+
+[heading.properties/Search properties]
+original=Search properties
+translation=جستجوی ویژگی‌ها
+
+[heading.properties/Templates]
+original=Templates
+translation=الگوها
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=تغییر نام ویژگی‌ها
+
+[heading.properties/Display modes]
+original=Display modes
+translation=حالت‌های نمایش
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=تکه‌کدهای CSS
+
+[heading.properties/Not supported]
+original=Not supported
+translation=موارد پشتیبانی‌نشده
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=میانبرها
+
+[heading.properties/Add a property]
+original=Add a property
+translation=افزودن ویژگی
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=پیمایش بین ویژگی‌ها
+
+[heading.properties/Select properties]
+original=Select properties
+translation=انتخاب ویژگی‌ها
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=ویرایش ویژگی‌ها
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim (پیشرفته)
+
+[heading.properties/Property format]
+original=Property format
+translation=قالب ویژگی‌ها
+
+[heading.properties/Text]
+original=Text
+translation=متن
+
+[heading.properties/List]
+original=List
+translation=فهرست
+
+[heading.properties/Number]
+original=Number
+translation=شماره
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=کادر انتخاب
+
+[heading.properties/Date]
+original=Date
+translation=تاریخ
+
+[heading.properties/Date & time]
+original=Date & time
+translation=تاریخ و زمان
+
+[heading.properties/Tags]
+original=Tags
+translation=برچسب‌ها
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=ویژگی‌های JSON
+
+[heading.properties/Default properties]
+original=Default properties
+translation=ویژگی‌های پیش‌فرض
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=ویژگی‌ها برای Obsidian Publish
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=ویژگی‌های منسوخ‌شده
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=افزودن پیوست
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=تغییر جایگاه پیش‌فرض پیوست‌ها
+
+[heading.credit/Add credit]
+original=Add credit
+translation=افزودن اعتبار
+
+[heading.credit/Gifting]
+original=Gifting
+translation=هدیه دادن
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=دادن اعتبار Obsidian
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=دریافت اعتبار Obsidian
+
+[heading.discounts/How to apply]
+original=How to apply
+translation=نحوه درخواست
+
+[heading.discounts/How to renew]
+original=How to renew
+translation=نحوه تمدید
+
+[heading.discounts/Frequently asked questions]
+original=Frequently asked questions
+translation=پرسش‌های متداول
+
+[heading.discounts/Refunds]
+original=Refunds
+translation=بازپرداخت
+
+[heading.refunds/Request a refund]
+original=Request a refund
+translation=درخواست بازپرداخت
+
+[heading.refunds/Frequently asked questions]
+original=Frequently asked questions
+translation=پرسش‌های متداول
+
+[heading.sales-tax/Tax exemption]
+original=Tax exemption
+translation=معافیت مالیاتی
+
+[heading.sales-tax/Applying for an exemption]
+original=Applying for an exemption
+translation=درخواست معافیت
+
+[heading.payment/Purchase a service or license]
+original=Purchase a service or license
+translation=خرید یک سرویس یا پروانه
+
+[heading.payment/Generate an invoice]
+original=Generate an invoice
+translation=ایجاد فاکتور
+
+[heading.payment/Editing an invoice]
+original=Editing an invoice
+translation=ویرایش فاکتور
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=سطوح Catalyst
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=دسترسی به مزایای Catalyst
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=دریافت نشان انجمن
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=دریافت نشان Discord
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=پیوستن به کانال‌های Insider
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=فعال‌سازی نسخه‌های دسترسی زودهنگام
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=جاسازی یک یادداشت در یادداشت دیگر
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=جاسازی یک تصویر در یادداشت
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=جاسازی یک فایل صوتی در یادداشت
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=جاسازی یک PDF در یادداشت
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=جاسازی یک فهرست در یادداشت
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=جاسازی نتایج جستجو
+
+[heading.aliases/Add an alias to a note]
+original=Add an alias to a note
+translation=افزودن دگرنام به یادداشت
+
+[heading.aliases/Link to a note using an alias]
+original=Link to a note using an alias
+translation=پیوند دادن به یادداشت با استفاده از دگرنام
+
+[heading.aliases/Find unlinked mentions for an alias]
+original=Find unlinked mentions for an alias
+translation=یافتن یادکردهای پیوندنشده برای دگرنام
+
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=قالب‌های پشتیبانی‌شده برای پیوندهای داخلی
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=پیوند به یک فایل
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=پیوند به یک سرفصل در یادداشت
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=پیوند به یک بلوک در یادداشت
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=تغییر متن نمایش پیوند
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=پیش‌نمایش یک فایل پیوندشده
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=نصب رابط خط فرمان Obsidian
+
+[heading.cli/Get started]
+original=Get started
+translation=شروع کار
+
+[heading.cli/Run a command]
+original=Run a command
+translation=اجرای یک دستور
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=استفاده از رابط ترمینال
+
+[heading.cli/Examples]
+original=Examples
+translation=نمونه‌ها
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=استفاده روزمره
+
+[heading.cli/For developers]
+original=For developers
+translation=برای توسعه‌دهندگان
+
+[heading.cli/How to]
+original=How to
+translation=چگونه
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=استفاده از پارامترها و فلگ‌ها
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=هدف‌گیری یک گاوصندوق
+
+[heading.cli/Target a file]
+original=Target a file
+translation=هدف‌گیری یک فایل
+
+[heading.cli/Copy output]
+original=Copy output
+translation=کپی خروجی
+
+[heading.cli/General commands]
+original=General commands
+translation=دستورات عمومی
+
+[heading.cli/Bases]
+original=Bases
+translation=پایگاه‌ها
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=نشانک‌ها
+
+[heading.cli/Command palette]
+original=Command palette
+translation=پالت فرمان‌ها
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=روزنوشت‌ها
+
+[heading.cli/File history]
+original=File history
+translation=تاریخچه فایل
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=فایل‌ها و پوشه‌ها
+
+[heading.cli/Links]
+original=Links
+translation=پیوندها
+
+[heading.cli/Outline]
+original=Outline
+translation=طرح کلی
+
+[heading.cli/Plugins]
+original=Plugins
+translation=افزونه‌ها
+
+[heading.cli/Properties]
+original=Properties
+translation=ویژگی‌ها
+
+[heading.cli/Random notes]
+original=Random notes
+translation=یادداشت‌های تصادفی
+
+[heading.cli/Search]
+original=Search
+translation=جستجو
+
+[heading.cli/Tags]
+original=Tags
+translation=برچسب‌ها
+
+[heading.cli/Tasks]
+original=Tasks
+translation=وظایف
+
+[heading.cli/Templates]
+original=Templates
+translation=الگوها
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=پوسته‌ها و تکه‌کدها
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=یادداشت‌های یکتا
+
+[heading.cli/Vault]
+original=Vault
+translation=گاوصندوق
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=نمایشگر وب
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=واژه‌شمار
+
+[heading.cli/Workspace]
+original=Workspace
+translation=فضای کاری
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=دستورات توسعه‌دهنده
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=میانبرهای صفحه‌کلید
+
+[heading.cli/Navigation]
+original=Navigation
+translation=ناوبری
+
+[heading.cli/Editing]
+original=Editing
+translation=ویرایش
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=تکمیل خودکار
+
+[heading.cli/History]
+original=History
+translation=تاریخچه
+
+[heading.cli/Other]
+original=Other
+translation=سایر
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=عیب‌یابی
+
+[heading.cli/Windows]
+original=Windows
+translation=ویندوز
+
+[heading.headless/Install]
+original=Install
+translation=نصب
+
+[heading.headless/Authentication]
+original=Authentication
+translation=احراز هویت
+
+[heading.headless/Log in]
+original=Log in
+translation=ورود
+
+[heading.headless/Services]
+original=Services
+translation=سرویس‌ها
+
+[heading.uri/URI format]
+original=URI format
+translation=قالب URI
+
+[heading.uri/Open note]
+original=Open note
+translation=باز کردن یادداشت
+
+[heading.uri/Examples]
+original=Examples
+translation=نمونه‌ها
+
+[heading.uri/Parameters]
+original=Parameters
+translation=پارامترها
+
+[heading.uri/Create note]
+original=Create note
+translation=ایجاد یادداشت
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=ایجاد یا باز کردن یادداشت روزانه
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=یادداشت یکتا
+
+[heading.uri/Open search]
+original=Open search
+translation=باز کردن جستجو
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=باز کردن مدیریت گاوصندوق‌ها
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=یکپارچه‌سازی با Hook
+
+[heading.uri/Example]
+original=Example
+translation=نمونه
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=استفاده از پارامترهای x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=قالب‌های کوتاه‌شده
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=عیب‌یابی
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=ثبت Obsidian URI
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=مرور افزونه‌های انجمن
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=نصب یک افزونهٔ انجمن
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=فعال کردن یک افزونهٔ انجمن
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=به‌روزرسانی افزونه‌ها
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=حذف یک افزونهٔ انجمن
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=مدیریت افزونه‌های نصب‌شده
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=اطلاعات بیشتر
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=حالت محدود
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=قابلیت‌های افزونه
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=فرآیند بررسی افزونه
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=افزودن تکه‌کد
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=نوشتن CSS برای Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=اطلاعات بیشتر
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=مرور پوسته‌ها
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=نصب پوسته جدید
+
+[heading.themes/Update themes]
+original=Update themes
+translation=به‌روزرسانی پوسته‌ها
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=حذف یک پوسته موجود
+
+[heading.themes/Learn more]
+original=Learn more
+translation=اطلاعات بیشتر
