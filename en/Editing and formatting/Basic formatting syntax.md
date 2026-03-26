@@ -356,9 +356,9 @@ _ _ _
 
 ***
 
-## Code
+## 
 
-You can format code both inline within a sentence, or in its own block.
+You can format  both inline within a sentence, or in its own block.
 
 ### Inline code
 
@@ -374,7 +374,7 @@ If you want to put backticks in an inline code block, surround it with double ba
 
 ### Code blocks
 
-To format code as a block, enclose it with three backticks or three tildes.
+To format code as a block, enclose it with three or more backticks or three or more tildes.
 
 ~~~
 `````
