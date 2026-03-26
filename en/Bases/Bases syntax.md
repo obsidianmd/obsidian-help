@@ -66,7 +66,9 @@ By default a base includes every file in the vault. There is no `from` or `sourc
 
 ```yaml
 # Simple filter:
-filters: file.hasTag("tag")
+filters:
+  and:
+    - file.hasTag("tag")
 
 # Complex filter:
 filters:
