@@ -105,7 +105,7 @@ The `daily` action accepts the same parameters as the `new` action.
 
 ## Unique Note
 
-The `unique` action creates a new unique note in the vault. The [[en/Plugins/Unique note creator|Unique note creator]] plugin must be enabled.
+The `unique` action creates a new unique note in the vault. The [[Plugins/Unique note creator|Unique note creator]] plugin must be enabled.
 
 ### Examples
 
