@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=首頁
+
+[file.2fa]
+original=2-factor authentication
+translation=雙重驗證
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=進階格式語法
+
+[file.aliases]
+original=Aliases
+translation=別名
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian Android 版
+
+[file.appearance]
+original=Appearance
+translation=外觀
+
+[file.attachments]
+original=Attachments
+translation=附件
+
+[file.backup]
+original=Back up your Obsidian files
+translation=備份你的 Obsidian 檔案
+
+[file.bases]
+original=Introduction to Bases
+translation=資料庫介紹
+
+[file.bases/create-base]
+original=Create a base
+translation=建立資料庫
+
+[file.bases/functions]
+original=Functions
+translation=函式
+
+[file.bases/syntax]
+original=Bases syntax
+translation=資料庫語法
+
+[file.bases/views]
+original=Views
+translation=檢視
+
+[file.bases/views/cards]
+original=Cards view
+translation=卡片檢視
+
+[file.bases/views/list]
+original=List view
+translation=清單檢視
+
+[file.bases/views/map]
+original=Map view
+translation=地圖檢視
+
+[file.bases/views/table]
+original=Table view
+translation=表格檢視
+
+[file.callouts]
+original=Callouts
+translation=註標
+
+[file.catalyst]
+original=Catalyst license
+translation=Catalyst 授權
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=社群行為準則
+
+[file.community-plugins]
+original=Community plugins
+translation=社群外掛程式
+
+[file.configuration-folder]
+original=Configuration folder
+translation=設定資料夾
+
+[file.create-note]
+original=Create your first note
+translation=建立你的第一則筆記
+
+[file.credit]
+original=Obsidian Credit
+translation=Obsidian Credit
+
+[file.credits]
+original=Credits
+translation=致謝
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Obsidian 如何儲存資料
+
+[file.developers]
+original=Developers
+translation=開發者
+
+[file.discounts]
+original=Education and non-profit discount
+translation=教育與非營利組織折扣
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=拖放
+
+[file.early-access]
+original=Early access versions
+translation=搶先體驗版本
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=檢視與編輯模式
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=編輯快捷鍵
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=嵌入網頁
+
+[file.embeds]
+original=Embed files
+translation=嵌入檔案
+
+[file.file-formats]
+original=Accepted file formats
+translation=支援的檔案格式
+
+[file.financial-contributions]
+original=Financial contributions
+translation=財務贊助
+
+[file.folding]
+original=Folding
+translation=收合
+
+[file.formulas]
+original=Formulas
+translation=公式
+
+[file.glossary]
+original=Glossary
+translation=術語表
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=快速鍵
+
+[file.html]
+original=HTML content
+translation=HTML 內容
+
+[file.import]
+original=Import notes
+translation=匯入筆記
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=從 Apple Journal 匯入
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=從 Apple Notes 匯入
+
+[file.import/bear]
+original=Import from Bear
+translation=從 Bear 匯入
+
+[file.import/craft]
+original=Import from Craft
+translation=從 Craft 匯入
+
+[file.import/csv]
+original=Import CSV files
+translation=匯入 CSV 檔案
+
+[file.import/evernote]
+original=Import from Evernote
+translation=從 Evernote 匯入
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=從 Google Keep 匯入
+
+[file.import/html]
+original=Import HTML files
+translation=匯入 HTML 檔案
+
+[file.import/markdown]
+original=Import Markdown files
+translation=匯入 Markdown 檔案
+
+[file.import/notion]
+original=Import from Notion
+translation=從 Notion 匯入
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=從 Microsoft OneNote 匯入
+
+[file.import/roam]
+original=Import from Roam Research
+translation=從 Roam Research 匯入
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=匯入 Textbundle 檔案
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=匯入 Zettelkasten 筆記
+
+[file.install]
+original=Download and install Obsidian
+translation=下載並安裝 Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian iOS 與 iPadOS 版
+
+[file.language]
+original=Language settings
+translation=語言設定
+
+[file.link-notes]
+original=Link notes
+translation=連結筆記
+
+[file.links]
+original=Internal links
+translation=內部連結
+
+[file.manage-notes]
+original=Manage notes
+translation=管理筆記
+
+[file.manage-vaults]
+original=Manage vaults
+translation=管理保管庫
+
+[file.mobile]
+original=Mobile app
+translation=行動應用程式
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=多重游標
+
+[file.obsidian]
+original=About Obsidian
+translation=關於 Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian 風格 Markdown
+
+[file.official-site]
+original=Official website
+translation=官方網站
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=授權與付款介紹
+
+[file.plugin-security]
+original=Plugin security
+translation=外掛程式安全性
+
+[file.plugins]
+original=Core plugins
+translation=核心外掛程式
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=錄音機
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=反向連結
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=書籤
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=命令面板
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=每日筆記
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=檔案管理器
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=檔案還原
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Markdown 格式轉換器
+
+[file.plugins/graph]
+original=Graph view
+translation=關聯圖檢視
+
+[file.plugins/importer]
+original=Importer
+translation=匯入工具
+
+[file.plugins/note-composer]
+original=Note composer
+translation=筆記編排器
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=對外連結
+
+[file.plugins/outline]
+original=Outline
+translation=大綱
+
+[file.plugins/page-preview]
+original=Page preview
+translation=頁面預覽
+
+[file.plugins/properties]
+original=Properties view
+translation=屬性檢視
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=快速切換
+
+[file.plugins/random-note]
+original=Random note
+translation=漫遊筆記
+
+[file.plugins/search]
+original=Search
+translation=搜尋
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=斜線命令
+
+[file.plugins/slides]
+original=Slides
+translation=幻燈片
+
+[file.plugins/tags]
+original=Tags view
+translation=標籤窗格
+
+[file.plugins/templates]
+original=Templates
+translation=模板
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=唯一筆記建立工具
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=網頁檢視器
+
+[file.plugins/word-count]
+original=Word count
+translation=字數統計
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=工作區
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=彈出式視窗
+
+[file.properties]
+original=Properties
+translation=屬性
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Obsidian Publish 介紹
+
+[file.publish/analytics]
+original=Analytics
+translation=網站分析
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=在 Publish 網站上協作
+
+[file.publish/customize]
+original=Customize your site
+translation=自訂網站
+
+[file.publish/domains]
+original=Custom domains
+translation=自訂網域
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Publish 限制
+
+[file.publish/media]
+original=Media files
+translation=媒體檔案
+
+[file.publish/permalinks]
+original=Permalinks
+translation=永久連結
+
+[file.publish/publish]
+original=Publish your content
+translation=發佈內容
+
+[file.publish/security]
+original=Security and privacy
+translation=安全性與隱私
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=設定 Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=管理網站
+
+[file.publish/social-share]
+original=Social media link previews
+translation=社群媒體連結預覽
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Obsidian Publish 疑難排解
+
+[file.refunds]
+original=Refund policy
+translation=退款政策
+
+[file.resources]
+original=Help and support
+translation=說明與支援
+
+[file.ribbon]
+original=Ribbon
+translation=功能區選單
+
+[file.sales-tax]
+original=Sales tax
+translation=營業稅
+
+[file.sandbox]
+original=Sandbox vault
+translation=沙盒儲存庫
+
+[file.settings]
+original=Settings
+translation=設定
+
+[file.sidebar]
+original=Sidebar
+translation=側邊欄
+
+[file.snippets]
+original=CSS snippets
+translation=CSS 片段
+
+[file.status-bar]
+original=Status bar
+translation=狀態列
+
+[file.style-guide]
+original=Style guide
+translation=樣式指南
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=符號連結與目錄聯接
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Obsidian Sync 簡介
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=跨裝置同步筆記
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=在共享儲存庫中協作
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=常見問題
+
+[file.sync/headless]
+original=Headless Sync
+translation=無介面 Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=狀態圖示與訊息
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=升級同步加密
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=方案與儲存空間限制
+
+[file.sync/region]
+original=Sync regions
+translation=同步區域
+
+[file.sync/security]
+original=Security and privacy
+translation=安全性與隱私
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=同步設定與選擇性同步
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=設定 Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=切換至 Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Obsidian Sync 疑難排解
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=本機與遠端儲存庫
+
+[file.sync/version-history]
+original=Version history
+translation=版本歷史
+
+[file.syntax]
+original=Basic formatting syntax
+translation=基本格式語法
+
+[file.tabs]
+original=Tabs
+translation=標籤頁
+
+[file.tags]
+original=Tags
+translation=標籤
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian 團隊版
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=在團隊中部署 Obsidian
+
+[file.teams/license]
+original=Commercial license
+translation=商業授權
+
+[file.teams/publish]
+original=Publishing for teams
+translation=團隊發佈
+
+[file.teams/security]
+original=Security considerations for teams
+translation=團隊安全性考量
+
+[file.teams/sync]
+original=Syncing for teams
+translation=團隊同步
+
+[file.themes]
+original=Themes
+translation=佈景主題
+
+[file.translations]
+original=Translations
+translation=翻譯
+
+[file.updates]
+original=Update Obsidian
+translation=更新 Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=建立儲存庫
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Obsidian Web Clipper 簡介
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=擷取網頁
+
+[file.web-clipper/filters]
+original=Filters
+translation=過濾設定
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=反白網頁
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=解讀網頁
+
+[file.web-clipper/logic]
+original=Logic
+translation=邏輯
+
+[file.web-clipper/reader]
+original=Reader
+translation=閱讀器
+
+[file.web-clipper/templates]
+original=Templates
+translation=模板
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Web Clipper 疑難排解
+
+[file.web-clipper/variables]
+original=Variables
+translation=變數
+
+[file.workspace]
+original=Workspace
+translation=工作區
+
+[folder.audio]
+original=audio
+translation=音訊
+
+[folder.Changelog]
+original=Changelog
+translation=變動日誌
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=貢獻 Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=編輯與格式
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=擴充 Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=檔案與資料夾
+
+[folder.Getting started]
+original=Getting started
+translation=開始使用
+
+[folder.icons]
+original=icons
+translation=圖示
+
+[folder.Import notes]
+original=Import notes
+translation=匯入筆記
+
+[folder.Layouts]
+original=Layouts
+translation=佈局
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=授權與付款
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=連結筆記與檔案
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Plugins
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=使用者介面
+
+[folder.video]
+original=video
+translation=影片

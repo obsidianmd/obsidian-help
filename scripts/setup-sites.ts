@@ -19,6 +19,16 @@ import path from "path";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const SCRIPTS_DIR = import.meta.dirname;
 
+// Build a map from lowercase locale code → actual directory name from locales.json
+const localesJson: Array<{ code: string; dir?: string }> = JSON.parse(
+  fs.readFileSync(path.join(SCRIPTS_DIR, "locales.json"), "utf8")
+);
+const localeDir = new Map<string, string>();
+for (const entry of localesJson) {
+  const dir = entry.dir ?? entry.code;
+  localeDir.set(dir.toLowerCase(), dir);
+}
+
 const dryRun = process.argv.includes("--dry-run");
 
 // ── Parse ob publish-list-sites ───────────────────────────────────────────────
@@ -49,15 +59,17 @@ console.log(`Found ${sites.length} help site(s)${dryRun ? " [DRY RUN]" : ""}:\n`
 let linked = 0, skipped = 0;
 
 for (const { id, slug, locale } of sites) {
-  const localePath = path.join(ROOT, locale);
+  // Resolve actual directory name from locales.json (handles mixed-case like zh-TW)
+  const actualLocale = localeDir.get(locale.toLowerCase()) ?? locale;
+  const localePath = path.join(ROOT, actualLocale);
   if (!fs.existsSync(localePath)) {
-    console.log(`  SKIP  "${slug}" — no ${locale}/ directory`);
+    console.log(`  SKIP  "${slug}" — no ${actualLocale}/ directory`);
     skipped++;
     continue;
   }
 
   const cmd = `ob publish-setup --site ${id} --path ${JSON.stringify(localePath)}`;
-  console.log(`  LINK  "${slug}" (${id}) → ${locale}/`);
+  console.log(`  LINK  "${slug}" (${id}) → ${actualLocale}/`);
 
   if (!dryRun) {
     execSync(cmd, { stdio: "inherit" });

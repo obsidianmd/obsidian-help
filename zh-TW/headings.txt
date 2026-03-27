@@ -1,0 +1,4107 @@
+[heading.bases/Settings]
+original=Settings
+translation=設定
+
+[heading.bases/Card size]
+original=Card size
+translation=卡片大小
+
+[heading.bases/Image property]
+original=Image property
+translation=圖片屬性
+
+[heading.bases/Image fit]
+original=Image fit
+translation=圖片縮放方式
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=圖片長寬比
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=安裝 Maps 外掛程式
+
+[heading.bases/Example]
+original=Example
+translation=範例
+
+[heading.bases/Markers]
+original=Markers
+translation=標記
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=座標
+
+[heading.bases/Icons]
+original=Icons
+translation=圖示
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=使用公式定義圖示
+
+[heading.bases/Colors]
+original=Colors
+translation=顏色
+
+[heading.bases/Background]
+original=Background
+translation=背景
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=地圖圖磚
+
+[heading.bases/Useful links]
+original=Useful links
+translation=實用連結
+
+[heading.bases/Tips]
+original=Tips
+translation=小技巧
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=疑難排解
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=縮排屬性
+
+[heading.bases/Separators]
+original=Separators
+translation=分隔符號
+
+[heading.bases/Row height]
+original=Row height
+translation=列高
+
+[heading.bases/Summaries]
+original=Summaries
+translation=摘要
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=新增摘要
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=內建摘要
+
+[heading.bases/All property types]
+original=All property types
+translation=所有屬性類型
+
+[heading.bases/Numbers]
+original=Numbers
+translation=數字
+
+[heading.bases/Dates]
+original=Dates
+translation=日期
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=核取方塊
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=自訂摘要
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=快捷鍵
+
+[heading.bases/Global]
+original=Global
+translation=全域
+
+[heading.bases/Fields]
+original=Fields
+translation=欄位
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=正則表達式
+
+[heading.bases/Create a new base]
+original=Create a new base
+translation=建立新的資料庫
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=嵌入資料庫
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=嵌入資料庫檔案
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=以程式碼區塊嵌入資料庫
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=工具列
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=新增和切換檢視
+
+[heading.bases/View settings]
+original=View settings
+translation=檢視設定
+
+[heading.bases/Layout]
+original=Layout
+translation=佈局
+
+[heading.bases/Filters]
+original=Filters
+translation=過濾設定
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=過濾的組成元件
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=連接詞
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=過濾群組
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=進階過濾編輯器
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=排序和群組結果
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=新增排序
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=移除排序
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=限制、複製和匯出結果
+
+[heading.bases/Limit results]
+original=Limit results
+translation=限制結果
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=複製到系統剪貼簿
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=匯出 CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=嵌入檢視
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=如何使用資料庫
+
+[heading.bases/View types]
+original=View types
+translation=檢視類型
+
+[heading.bases/Formulas]
+original=Formulas
+translation=公式
+
+[heading.bases/Properties]
+original=Properties
+translation=屬性
+
+[heading.bases/Default Summary Formulas]
+original=Default Summary Formulas
+translation=預設摘要公式
+
+[heading.bases/Views]
+original=Views
+translation=檢視
+
+[heading.bases/Note properties]
+original=Note properties
+translation=筆記屬性
+
+[heading.bases/File properties]
+original=File properties
+translation=檔案屬性
+
+[heading.bases/Access properties with `this`]
+original=Access properties with `this`
+translation=使用 `this` 存取屬性
+
+[heading.bases/Operators]
+original=Operators
+translation=運算子
+
+[heading.bases/Arithmetic operators]
+original=Arithmetic operators
+translation=算術運算子
+
+[heading.bases/Date arithmetic]
+original=Date arithmetic
+translation=日期算術
+
+[heading.bases/Comparison operators]
+original=Comparison operators
+translation=比較運算子
+
+[heading.bases/Boolean operators]
+original=Boolean operators
+translation=布林運算子
+
+[heading.bases/Functions]
+original=Functions
+translation=函式
+
+[heading.bases/Types]
+original=Types
+translation=類型
+
+[heading.bases/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=字串、數字和布林值
+
+[heading.bases/Dates and durations]
+original=Dates and durations
+translation=日期和持續時間
+
+[heading.bases/Objects and lists]
+original=Objects and lists
+translation=物件和清單
+
+[heading.bases/Files and links]
+original=Files and links
+translation=檔案和連結
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=公式能做什麼
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=建立公式屬性
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=撰寫公式
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=參照屬性
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=使用運算子
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=使用函式
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=公式範例
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=計算截止日期
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=顯示逾期狀態
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=格式化貨幣
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=計算清單項目數量
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=計算優先順序分數
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=組合文字欄位
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=計算總費用
+
+[heading.formulas/Data types]
+original=Data types
+translation=資料類型
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=參照其他公式
+
+[heading.android/Sync]
+original=Sync
+translation=同步
+
+[heading.android/Vault location]
+original=Vault location
+translation=儲存庫位置
+
+[heading.android/Device storage]
+original=Device storage
+translation=裝置儲存空間
+
+[heading.android/App storage]
+original=App storage
+translation=應用程式儲存空間
+
+[heading.android/Widgets]
+original=Widgets
+translation=小工具
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=快速設定圖塊
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=捷徑
+
+[heading.ios/Sync]
+original=Sync
+translation=同步
+
+[heading.ios/Widgets]
+original=Widgets
+translation=小工具
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=鎖定畫面與控制中心小工具
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=主畫面小工具
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=自訂小工具
+
+[heading.ios/Shortcuts]
+original=Shortcuts
+translation=捷徑
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=分享表單擴充功能
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=Siri 整合
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=Spotlight 整合
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=在桌面版啟用搶先體驗版本
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=在行動裝置上安裝搶先體驗版本
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=回報問題與其他回饋
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=在桌面版切換回公開版本
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=在行動裝置上切換回公開版本
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=規範
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=嚴重違規
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=騷擾
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=威脅
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=明顯的歧視言論
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=其他違規
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=挑釁行為
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=特別令人不快
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=對社群成員發送未經請求的訊息
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=其他行為
+
+[heading.community-code-of-conduct/Sea-lioning]
+original=Sea-lioning
+translation=海獅式糾纏
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation=「餵我答案」
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=反覆要求
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=過度自我宣傳
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=垃圾訊息
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=鼓勵的行為
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=動機
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=舉報違規
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=在 Discord 上舉報
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=在論壇上舉報
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=執行方式
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=對封禁提出申訴
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=致謝
+
+[heading.credits/Team]
+original=Team
+translation=團隊
+
+[heading.credits/Development]
+original=Development
+translation=開發
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=產品與營運
+
+[heading.credits/Moderators]
+original=Moderators
+translation=版主
+
+[heading.credits/Retired]
+original=Retired
+translation=已退休
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=外掛靈感
+
+[heading.credits/Builds]
+original=Builds
+translation=建構
+
+[heading.credits/Translators]
+original=Translators
+translation=翻譯者
+
+[heading.credits/Documentation]
+original=Documentation
+translation=文件
+
+[heading.credits/Add your name]
+original=Add your name
+translation=新增你的名字
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=第三方致謝
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=舊版標誌
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=什麼是 Obsidian
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=我們的獨特之處
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=你擁有並掌控自己的資料
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=連結是第一等公民
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=你自己的工具組
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=關注我們的開發動態
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=啟用 2FA
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=產生復原碼
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=停用 2FA
+
+[heading.2fa/FAQ]
+original=FAQ
+translation=常見問題
+
+[heading.publish/Quick start]
+original=Quick start
+translation=快速開始
+
+[heading.publish/Commands]
+original=Commands
+translation=命令
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=如何使用 Obsidian Publish
+
+[heading.publish/General]
+original=General
+translation=一般
+
+[heading.publish/Publishing notes]
+original=Publishing notes
+translation=發佈筆記
+
+[heading.publish/CSS and themes]
+original=CSS and themes
+translation=CSS 與佈景主題
+
+[heading.publish/Community plugins]
+original=Community plugins
+translation=社群外掛程式
+
+[heading.publish/Graph]
+original=Graph
+translation=圖譜
+
+[heading.publish/Media files]
+original=Media files
+translation=媒體檔案
+
+[heading.publish/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/Search]
+original=Search
+translation=搜尋
+
+[heading.publish/Permalinks]
+original=Permalinks
+translation=永久連結
+
+[heading.publish/Metadata]
+original=Metadata
+translation=中繼資料
+
+[heading.publish/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=將協作者新增至網站
+
+[heading.publish/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=從網站移除協作者
+
+[heading.publish/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=在協作者之間同步變動
+
+[heading.publish/Permissions]
+original=Permissions
+translation=權限
+
+[heading.publish/Images]
+original=Images
+translation=圖片
+
+[heading.publish/Videos and audio]
+original=Videos and audio
+translation=影片與音訊
+
+[heading.publish/Password protection]
+original=Password protection
+translation=密碼保護
+
+[heading.publish/Add a site password]
+original=Add a site password
+translation=新增網站密碼
+
+[heading.publish/Remove a site password]
+original=Remove a site password
+translation=移除網站密碼
+
+[heading.publish/Data collection]
+original=Data collection
+translation=資料收集
+
+[heading.publish/Visitor data]
+original=Visitor data
+translation=訪客資料
+
+[heading.publish/Access]
+original=Access
+translation=存取
+
+[heading.publish/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=在你的網路上管理 Obsidian Publish 的存取
+
+[heading.publish/Redirect old notes]
+original=Redirect old notes
+translation=重新導向舊筆記
+
+[heading.publish/Prerequisites]
+original=Prerequisites
+translation=前置需求
+
+[heading.publish/Publish notes]
+original=Publish notes
+translation=發佈筆記
+
+[heading.publish/Unpublish notes]
+original=Unpublish notes
+translation=取消發佈筆記
+
+[heading.publish/Update a published note]
+original=Update a published note
+translation=更新已發佈的筆記
+
+[heading.publish/Publish linked data]
+original=Publish linked data
+translation=發佈連結的資料
+
+[heading.publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=自動選取要發佈的資料
+
+[heading.publish/Ignore data]
+original=Ignore data
+translation=忽略資料
+
+[heading.publish/Description]
+original=Description
+translation=描述
+
+[heading.publish/Image]
+original=Image
+translation=圖片
+
+[heading.publish/Create a new site]
+original=Create a new site
+translation=建立新網站
+
+[heading.publish/Delete an existing site]
+original=Delete an existing site
+translation=刪除現有網站
+
+[heading.publish/Switch between sites]
+original=Switch between sites
+translation=在網站之間切換
+
+[heading.publish/Change the site ID]
+original=Change the site ID
+translation=變更網站 ID
+
+[heading.publish/View site options]
+original=View site options
+translation=檢視網站選項
+
+[heading.publish/Site options]
+original=Site options
+translation=網站選項
+
+[heading.publish/Appearance]
+original=Appearance
+translation=外觀
+
+[heading.publish/Reading experience]
+original=Reading experience
+translation=閱讀體驗
+
+[heading.publish/Components]
+original=Components
+translation=元件
+
+[heading.publish/Other site settings]
+original=Other site settings
+translation=其他網站設定
+
+[heading.publish/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible、Fathom 及其他分析服務
+
+[heading.publish/Troubleshooting]
+original=Troubleshooting
+translation=疑難排解
+
+[heading.publish/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=使用 CloudFlare 設定
+
+[heading.publish/Set up using a proxy]
+original=Set up using a proxy
+translation=使用代理伺服器設定
+
+[heading.publish/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=支援的 HTTP X-Headers
+
+[heading.publish/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=將舊網站重新導向至自訂網域
+
+[heading.publish/Troubleshoot]
+original=Troubleshoot
+translation=疑難排解
+
+[heading.publish/Static assets]
+original=Static assets
+translation=靜態資源
+
+[heading.publish/Use a community theme]
+original=Use a community theme
+translation=使用社群佈景主題
+
+[heading.publish/Enable UI features]
+original=Enable UI features
+translation=啟用 UI 功能
+
+[heading.publish/Customize navigation]
+original=Customize navigation
+translation=自訂導覽
+
+[heading.publish/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=存取自訂導覽選項
+
+[heading.publish/Adjust navigation items]
+original=Adjust navigation items
+translation=調整導覽項目
+
+[heading.publish/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=隱藏與取消隱藏導覽項目
+
+[heading.publish/FAQ]
+original=FAQ
+translation=常見問題
+
+[heading.publish/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=使用 Obsidian 帳戶登入
+
+[heading.publish/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=啟用 Obsidian Publish
+
+[heading.publish/Open Publish]
+original=Open Publish
+translation=開啟 Publish
+
+[heading.publish/Open via Command palette]
+original=Open via Command palette
+translation=透過命令面板開啟
+
+[heading.publish/Open via hotkey]
+original=Open via hotkey
+translation=透過快捷鍵開啟
+
+[heading.publish/Open via ribbon]
+original=Open via ribbon
+translation=透過功能區開啟
+
+[heading.publish/Set a site name]
+original=Set a site name
+translation=設定網站名稱
+
+[heading.publish/Select notes to publish]
+original=Select notes to publish
+translation=選擇要發佈的筆記
+
+[heading.publish/Next steps]
+original=Next steps
+translation=後續步驟
+
+[heading.sync/General]
+original=General
+translation=一般問題
+
+[heading.sync/Conflict resolution]
+original=Conflict resolution
+translation=衝突解決
+
+[heading.sync/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Obsidian Sync 如何處理衝突
+
+[heading.sync/Conflict resolution options]
+original=Conflict resolution options
+translation=衝突解決選項
+
+[heading.sync/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync 刪除了我剛在兩個裝置上建立的筆記
+
+[heading.sync/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync 不會同步我的外掛和設定更新
+
+[heading.sync/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=我的檔案在還原後立即從 Sync 中消失
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=如何使用 Obsidian Sync
+
+[heading.sync/Important]
+original=Important
+translation=重要
+
+[heading.sync/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=將保管庫移出第三方同步服務或雲端儲存
+
+[heading.sync/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=在桌面版 Obsidian 中搬移保管庫
+
+[heading.sync/Move your vault on mobile]
+original=Move your vault on mobile
+translation=在行動裝置上搬移保管庫
+
+[heading.sync/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS 與 iPadOS
+
+[heading.sync/Next steps]
+original=Next steps
+translation=後續步驟
+
+[heading.sync/Encryption versions]
+original=Encryption versions
+translation=加密版本
+
+[heading.sync/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=使用遷移助手升級加密
+
+[heading.sync/Available regions]
+original=Available regions
+translation=可用區域
+
+[heading.sync/Change Sync region]
+original=Change Sync region
+translation=變更同步區域
+
+[heading.sync/Sync settings]
+original=Sync settings
+translation=同步設定
+
+[heading.sync/Selective syncing]
+original=Selective syncing
+translation=選擇性同步
+
+[heading.sync/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=變更要同步的檔案類型
+
+[heading.sync/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=從同步中排除資料夾
+
+[heading.sync/Always excluded from sync]
+original=Always excluded from sync
+translation=始終排除在同步之外
+
+[heading.sync/File recovery snapshots]
+original=File recovery snapshots
+translation=檔案還原快照
+
+[heading.sync/Hidden files and folders]
+original=Hidden files and folders
+translation=隱藏檔案與資料夾
+
+[heading.sync/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=更新已同步的保管庫設定
+
+[heading.sync/Primary device]
+original=Primary device
+translation=主要裝置
+
+[heading.sync/Secondary device(s)]
+original=Secondary device(s)
+translation=次要裝置
+
+[heading.sync/Reloading of settings]
+original=Reloading of settings
+translation=重新載入設定
+
+[heading.sync/Settings profiles]
+original=Settings profiles
+translation=設定檔案
+
+[heading.sync/Create a settings profile]
+original=Create a settings profile
+translation=建立設定檔案
+
+[heading.sync/Manage users]
+original=Manage users
+translation=管理使用者
+
+[heading.sync/Add users]
+original=Add users
+translation=新增使用者
+
+[heading.sync/Remove users]
+original=Remove users
+translation=移除使用者
+
+[heading.sync/Collaborate with your team]
+original=Collaborate with your team
+translation=與團隊協作
+
+[heading.sync/Permissions]
+original=Permissions
+translation=權限
+
+[heading.sync/Live editing]
+original=Live editing
+translation=即時編輯
+
+[heading.sync/Limitations]
+original=Limitations
+translation=限制
+
+[heading.sync/Encryption]
+original=Encryption
+translation=加密
+
+[heading.sync/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=端對端加密的意義是什麼？
+
+[heading.sync/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=使用標準加密有什麼風險？
+
+[heading.sync/What encryption do you use?]
+original=What encryption do you use?
+translation=你們使用什麼加密方式？
+
+[heading.sync/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=我能驗證我的資料是否已端對端加密嗎？
+
+[heading.sync/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=Obsidian 是否完成了第三方安全稽核？
+
+[heading.sync/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=如果我忘記加密密碼會怎樣？
+
+[heading.sync/Hosting]
+original=Hosting
+translation=主機託管
+
+[heading.sync/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=Obsidian Sync 的伺服器託管在哪裡？
+
+[heading.sync/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=我要如何找到目前的 Sync 伺服器以及它託管在哪裡？
+
+[heading.sync/Network and access]
+original=Network and access
+translation=網路與存取
+
+[heading.sync/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=在你的網路上管理 Obsidian Sync 的存取
+
+[heading.sync/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=確定性檔案雜湊加密
+
+[heading.sync/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=路徑與內容之間無加密綁定
+
+[heading.sync/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Obsidian Sync 支援哪些作業系統？
+
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Obsidian 是否支援 Apple 的封鎖模式？
+
+[heading.sync/What type of data is synced?]
+original=What type of data is synced?
+translation=哪些類型的資料會被同步？
+
+[heading.sync/How much storage do I have?]
+original=How much storage do I have?
+translation=我有多少儲存空間？
+
+[heading.sync/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=我可以擁有多少個遠端庫？
+
+[heading.sync/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=每個遠端庫可以多大？
+
+[heading.sync/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=我可以與多少人分享一個遠端庫？
+
+[heading.sync/How large can each file be?]
+original=How large can each file be?
+translation=每個檔案可以多大？
+
+[heading.sync/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=我的資料是否在背景同步？
+
+[heading.sync/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Obsidian Sync 是否會即時重新載入我的設定？
+
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=我可以將第三方同步與 Obsidian Sync 一起使用嗎？
+
+[heading.sync/Data retention]
+original=Data retention
+translation=資料保留
+
+[heading.sync/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=版本歷史會保留多久？
+
+[heading.sync/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=訂閱到期後，你們會保留我的資料多久？
+
+[heading.sync/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=如果我申請退款，你們還會保留我的資料嗎？
+
+[heading.sync/Plans]
+original=Plans
+translation=方案
+
+[heading.sync/Storage limits]
+original=Storage limits
+translation=儲存空間限制
+
+[heading.sync/Identify and delete large files]
+original=Identify and delete large files
+translation=識別並刪除大型檔案
+
+[heading.sync/Create a new remote vault]
+original=Create a new remote vault
+translation=建立新的遠端庫
+
+[heading.sync/Upgrade your plan]
+original=Upgrade your plan
+translation=升級方案
+
+[heading.sync/Downgrade your plan]
+original=Downgrade your plan
+translation=降級方案
+
+[heading.sync/Preserve version history]
+original=Preserve version history
+translation=保留版本歷史
+
+[heading.sync/File-based sync services]
+original=File-based sync services
+translation=檔案型同步服務
+
+[heading.sync/Sync behavior]
+original=Sync behavior
+translation=同步行為
+
+[heading.sync/Offline behavior]
+original=Offline behavior
+translation=離線行為
+
+[heading.sync/Quick start]
+original=Quick start
+translation=快速開始
+
+[heading.sync/Commands]
+original=Commands
+translation=命令
+
+[heading.sync/Native modules]
+original=Native modules
+translation=原生模組
+
+[heading.sync/Sync history]
+original=Sync history
+translation=同步歷史
+
+[heading.sync/Show Sync history]
+original=Show Sync history
+translation=顯示同步歷史
+
+[heading.sync/Enable via Command palette]
+original=Enable via Command palette
+translation=透過命令面板啟用
+
+[heading.sync/Enable via Hotkey]
+original=Enable via Hotkey
+translation=透過快捷鍵啟用
+
+[heading.sync/Version history]
+original=Version history
+translation=版本歷史
+
+[heading.sync/Notes and attachments]
+original=Notes and attachments
+translation=筆記與附件
+
+[heading.sync/View version history of a file]
+original=View version history of a file
+translation=檢視檔案的版本歷史
+
+[heading.sync/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=檢視已刪除或重新命名檔案的版本歷史
+
+[heading.sync/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=還原檔案的先前版本
+
+[heading.sync/Restore a deleted file]
+original=Restore a deleted file
+translation=還原已刪除的檔案
+
+[heading.sync/Settings history]
+original=Settings history
+translation=設定歷史
+
+[heading.sync/View version history of a setting]
+original=View version history of a setting
+translation=檢視設定的版本歷史
+
+[heading.sync/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=還原先前版本的設定
+
+[heading.sync/Sync status icon]
+original=Sync status icon
+translation=同步狀態圖示
+
+[heading.sync/Sync activity log]
+original=Sync activity log
+translation=同步活動記錄
+
+[heading.sync/General messages]
+original=General messages
+translation=一般訊息
+
+[heading.sync/Error messages]
+original=Error messages
+translation=錯誤訊息
+
+[heading.sync/Skipped messages]
+original=Skipped messages
+translation=已跳過的訊息
+
+[heading.sync/Account messages]
+original=Account messages
+translation=帳戶訊息
+
+[heading.sync/Network messages]
+original=Network messages
+translation=網路訊息
+
+[heading.sync/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=首次設定 Obsidian Sync
+
+[heading.sync/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=使用您的 Obsidian 帳戶登入
+
+[heading.sync/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=啟用 Obsidian Sync
+
+[heading.sync/Connect to a remote vault]
+original=Connect to a remote vault
+translation=連接到遠端庫
+
+[heading.sync/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=調整 Obsidian Sync 設定
+
+[heading.sync/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=開始使用 Obsidian Sync 進行同步
+
+[heading.sync/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=在其他裝置上同步遠端庫
+
+[heading.sync/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=從保管庫切換器同步您的保管庫
+
+[heading.sync/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=從 Obsidian 設定同步您的保管庫
+
+[heading.sync/Manage your remote vaults]
+original=Manage your remote vaults
+translation=管理您的遠端庫
+
+[heading.sync/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=從遠端庫斷線
+
+[heading.sync/Delete a remote vault]
+original=Delete a remote vault
+translation=刪除遠端庫
+
+[heading.sync/Regional sync servers]
+original=Regional sync servers
+translation=區域同步伺服器
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=安裝 Web Clipper
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=如何使用 Web Clipper
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=隱私權
+
+[heading.web-clipper/General]
+original=General
+translation=一般問題
+
+[heading.web-clipper/Some content is missing]
+original=Some content is missing
+translation=部分內容遺失
+
+[heading.web-clipper/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=Obsidian 中沒有顯示任何內容
+
+[heading.web-clipper/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian 無法開啟
+
+[heading.web-clipper/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian 開啟了但只儲存了檔案名稱
+
+[heading.web-clipper/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS 與 iPadOS
+
+[heading.web-clipper/Turn on highlighter]
+original=Turn on highlighter
+translation=開啟反白標記工具
+
+[heading.web-clipper/Highlighter settings]
+original=Highlighter settings
+translation=反白標記設定
+
+[heading.web-clipper/Capture a page]
+original=Capture a page
+translation=擷取頁面
+
+[heading.web-clipper/Download images]
+original=Download images
+translation=下載圖片
+
+[heading.web-clipper/Hotkeys]
+original=Hotkeys
+translation=快捷鍵
+
+[heading.web-clipper/Interface functionality]
+original=Interface functionality
+translation=介面功能
+
+[heading.web-clipper/Create or edit a template]
+original=Create or edit a template
+translation=建立或編輯範本
+
+[heading.web-clipper/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=匯入與匯出 Web Clipper 範本
+
+[heading.web-clipper/Template settings]
+original=Template settings
+translation=範本設定
+
+[heading.web-clipper/Behavior]
+original=Behavior
+translation=行為
+
+[heading.web-clipper/Automatically trigger a template]
+original=Automatically trigger a template
+translation=自動觸發範本
+
+[heading.web-clipper/Simple URL matching]
+original=Simple URL matching
+translation=簡單 URL 比對
+
+[heading.web-clipper/Regular expression matching]
+original=Regular expression matching
+translation=正則表達式比對
+
+[heading.web-clipper/Schema.org matching]
+original=Schema.org matching
+translation=Schema.org 比對
+
+[heading.web-clipper/Interpreter context]
+original=Interpreter context
+translation=解讀器上下文
+
+[heading.web-clipper/Examples of prompts]
+original=Examples of prompts
+translation=提示詞範例
+
+[heading.web-clipper/Get started]
+original=Get started
+translation=開始使用
+
+[heading.web-clipper/How it works]
+original=How it works
+translation=運作方式
+
+[heading.web-clipper/Context]
+original=Context
+translation=上下文
+
+[heading.web-clipper/Models]
+original=Models
+translation=模型
+
+[heading.web-clipper/Preset providers]
+original=Preset providers
+translation=預設提供者
+
+[heading.web-clipper/Choosing a model]
+original=Choosing a model
+translation=選擇模型
+
+[heading.web-clipper/Custom providers and models]
+original=Custom providers and models
+translation=自訂提供者與模型
+
+[heading.web-clipper/Local models]
+original=Local models
+translation=本機模型
+
+[heading.web-clipper/Preset variables]
+original=Preset variables
+translation=預設變數
+
+[heading.web-clipper/Prompt variables]
+original=Prompt variables
+translation=提示變數
+
+[heading.web-clipper/When to use prompt variables]
+original=When to use prompt variables
+translation=何時使用提示變數
+
+[heading.web-clipper/Examples]
+original=Examples
+translation=範例
+
+[heading.web-clipper/Meta variables]
+original=Meta variables
+translation=Meta 變數
+
+[heading.web-clipper/Selector variables]
+original=Selector variables
+translation=選擇器變數
+
+[heading.web-clipper/Schema.org variables]
+original=Schema.org variables
+translation=Schema.org 變數
+
+[heading.web-clipper/Dates]
+original=Dates
+translation=日期
+
+[heading.web-clipper/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=文字轉換與大小寫
+
+[heading.web-clipper/Text formatting]
+original=Text formatting
+translation=文字格式化
+
+[heading.web-clipper/Numbers]
+original=Numbers
+translation=數字
+
+[heading.web-clipper/HTML processing]
+original=HTML processing
+translation=HTML 處理
+
+[heading.web-clipper/Arrays and objects]
+original=Arrays and objects
+translation=陣列與物件
+
+[heading.web-clipper/Conditionals]
+original=Conditionals
+translation=條件判斷
+
+[heading.web-clipper/Comparison operators]
+original=Comparison operators
+translation=比較運算子
+
+[heading.web-clipper/Logical operators]
+original=Logical operators
+translation=邏輯運算子
+
+[heading.web-clipper/Truthiness]
+original=Truthiness
+translation=真值判斷
+
+[heading.web-clipper/Assign a variable]
+original=Assign a variable
+translation=賦值變數
+
+[heading.web-clipper/Fallbacks]
+original=Fallbacks
+translation=備用值
+
+[heading.web-clipper/Chaining fallbacks]
+original=Chaining fallbacks
+translation=串聯備用值
+
+[heading.web-clipper/With filters]
+original=With filters
+translation=搭配過濾器
+
+[heading.web-clipper/Loops]
+original=Loops
+translation=迴圈
+
+[heading.web-clipper/Loop sources]
+original=Loop sources
+translation=迴圈來源
+
+[heading.web-clipper/Loop variables]
+original=Loop variables
+translation=迴圈變數
+
+[heading.web-clipper/Accessing array items by index]
+original=Accessing array items by index
+translation=透過索引存取陣列項目
+
+[heading.web-clipper/Nested loops]
+original=Nested loops
+translation=巢狀迴圈
+
+[heading.web-clipper/Combine logic]
+original=Combine logic
+translation=組合邏輯
+
+[heading.web-clipper/Evaluation order]
+original=Evaluation order
+translation=執行順序
+
+[heading.web-clipper/Activate reading mode]
+original=Activate reading mode
+translation=啟用閱讀模式
+
+[heading.web-clipper/Customize the reading view]
+original=Customize the reading view
+translation=自訂閱讀檢視
+
+[heading.plugins/Create a new canvas]
+original=Create a new canvas
+translation=建立新畫布
+
+[heading.plugins/Add cards]
+original=Add cards
+translation=新增卡片
+
+[heading.plugins/Add text cards]
+original=Add text cards
+translation=新增文字卡片
+
+[heading.plugins/Add cards from notes]
+original=Add cards from notes
+translation=從筆記新增卡片
+
+[heading.plugins/Add cards from media]
+original=Add cards from media
+translation=從媒體新增卡片
+
+[heading.plugins/Add cards from web pages]
+original=Add cards from web pages
+translation=從網頁新增卡片
+
+[heading.plugins/Add cards from folders]
+original=Add cards from folders
+translation=從資料夾新增卡片
+
+[heading.plugins/Edit a card]
+original=Edit a card
+translation=編輯卡片
+
+[heading.plugins/Delete a card]
+original=Delete a card
+translation=刪除卡片
+
+[heading.plugins/Swap cards]
+original=Swap cards
+translation=替換卡片
+
+[heading.plugins/Select cards]
+original=Select cards
+translation=選取卡片
+
+[heading.plugins/Arrange cards]
+original=Arrange cards
+translation=排列卡片
+
+[heading.plugins/Resize a card]
+original=Resize a card
+translation=調整卡片大小
+
+[heading.plugins/Connect cards]
+original=Connect cards
+translation=連接卡片
+
+[heading.plugins/Connect two cards]
+original=Connect two cards
+translation=連接兩張卡片
+
+[heading.plugins/Disconnect two cards]
+original=Disconnect two cards
+translation=斷開兩張卡片的連接
+
+[heading.plugins/Connect a card to a different card]
+original=Connect a card to a different card
+translation=將卡片連接到不同的卡片
+
+[heading.plugins/Navigate a connection]
+original=Navigate a connection
+translation=沿連接導航
+
+[heading.plugins/Add a label to a connection]
+original=Add a label to a connection
+translation=為連接新增標籤
+
+[heading.plugins/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=變更卡片或連接的顏色
+
+[heading.plugins/Group cards]
+original=Group cards
+translation=群組卡片
+
+[heading.plugins/Group selected cards]
+original=Group selected cards
+translation=將選取的卡片分組
+
+[heading.plugins/Navigate the canvas]
+original=Navigate the canvas
+translation=導航畫布
+
+[heading.plugins/Pan the canvas]
+original=Pan the canvas
+translation=平移畫布
+
+[heading.plugins/Zoom the canvas]
+original=Zoom the canvas
+translation=縮放畫布
+
+[heading.plugins/Zoom to fit]
+original=Zoom to fit
+translation=縮放至適當比例
+
+[heading.plugins/Zoom to selection]
+original=Zoom to selection
+translation=縮放至選取範圍
+
+[heading.plugins/Reset zoom]
+original=Reset zoom
+translation=重設縮放等級
+
+[heading.plugins/Advanced tips]
+original=Advanced tips
+translation=進階技巧
+
+[heading.plugins/Supported formats]
+original=Supported formats
+translation=支援的格式
+
+[heading.plugins/[[Properties]]]
+original=[[Properties]]
+translation=[[屬性]]
+
+[heading.plugins/Pinned commands]
+original=Pinned commands
+translation=已釘選命令
+
+[heading.plugins/Pin a command]
+original=Pin a command
+translation=釘選命令
+
+[heading.plugins/Unpin a command]
+original=Unpin a command
+translation=取消釘選命令
+
+[heading.plugins/Create a unique note]
+original=Create a unique note
+translation=建立唯一筆記
+
+[heading.plugins/Create unique notes from a template]
+original=Create unique notes from a template
+translation=從範本建立唯一筆記
+
+[heading.plugins/All properties view]
+original=All properties view
+translation=所有屬性檢視
+
+[heading.plugins/Save a workspace]
+original=Save a workspace
+translation=儲存工作區
+
+[heading.plugins/Load a workspace]
+original=Load a workspace
+translation=載入工作區
+
+[heading.plugins/Delete a workspace]
+original=Delete a workspace
+translation=刪除工作區
+
+[heading.plugins/Open Quick switcher]
+original=Open Quick switcher
+translation=開啟快速切換
+
+[heading.plugins/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=使用快速切換開啟筆記
+
+[heading.plugins/Search terms]
+original=Search terms
+translation=搜尋詞
+
+[heading.plugins/Search operators]
+original=Search operators
+translation=搜尋運算子
+
+[heading.plugins/Search properties]
+original=Search properties
+translation=搜尋屬性
+
+[heading.plugins/Change case sensitivity]
+original=Change case sensitivity
+translation=變更大小寫敏感度
+
+[heading.plugins/Change result sort order]
+original=Change result sort order
+translation=變更結果排序方式
+
+[heading.plugins/Copy search results]
+original=Copy search results
+translation=複製搜尋結果
+
+[heading.plugins/Use regular expressions]
+original=Use regular expressions
+translation=使用正則表達式
+
+[heading.plugins/Configure search settings]
+original=Configure search settings
+translation=設定搜尋設定
+
+[heading.plugins/Embed search results in a note]
+original=Embed search results in a note
+translation=在筆記中嵌入搜尋結果
+
+[heading.plugins/Add a bookmark]
+original=Add a bookmark
+translation=新增書籤
+
+[heading.plugins/Remove a bookmark]
+original=Remove a bookmark
+translation=移除書籤
+
+[heading.plugins/Add a bookmark group]
+original=Add a bookmark group
+translation=新增書籤群組
+
+[heading.plugins/Remove a bookmark group]
+original=Remove a bookmark group
+translation=移除書籤群組
+
+[heading.plugins/Bookmark multiple files]
+original=Bookmark multiple files
+translation=同時將多個檔案加入書籤
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=所有核心外掛程式
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=其他外掛程式
+
+[heading.plugins/Set your template folder]
+original=Set your template folder
+translation=設定模板資料夾
+
+[heading.plugins/Template variables]
+original=Template variables
+translation=模板變數
+
+[heading.plugins/Create a template]
+original=Create a template
+translation=建立模板
+
+[heading.plugins/Insert a template into the active note]
+original=Insert a template into the active note
+translation=將模板插入目前筆記
+
+[heading.plugins/Template properties]
+original=Template properties
+translation=模板屬性
+
+[heading.plugins/Inserting current date and time into the active note]
+original=Inserting current date and time into the active note
+translation=在目前筆記中插入目前日期和時間
+
+[heading.plugins/Create a new note]
+original=Create a new note
+translation=建立新筆記
+
+[heading.plugins/Create a new folder]
+original=Create a new folder
+translation=建立新資料夾
+
+[heading.plugins/Change sort order]
+original=Change sort order
+translation=變更排序
+
+[heading.plugins/Auto-reveal active file]
+original=Auto-reveal active file
+translation=自動顯示啟用中的檔案
+
+[heading.plugins/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=展開或摺疊所有資料夾
+
+[heading.plugins/Delete a file or folder]
+original=Delete a file or folder
+translation=刪除檔案或資料夾
+
+[heading.plugins/Rename a file or folder]
+original=Rename a file or folder
+translation=重新命名檔案或資料夾
+
+[heading.plugins/Move a file or folder]
+original=Move a file or folder
+translation=搬移檔案或資料夾
+
+[heading.plugins/Recover a snapshot]
+original=Recover a snapshot
+translation=還原快照
+
+[heading.plugins/Clear snapshot history]
+original=Clear snapshot history
+translation=清除快照歷史
+
+[heading.plugins/Storage and performance]
+original=Storage and performance
+translation=儲存空間與效能
+
+[heading.plugins/Limitations]
+original=Limitations
+translation=限制
+
+[heading.plugins/Create a daily note from template]
+original=Create a daily note from template
+translation=從範本建立每日筆記
+
+[heading.plugins/Daily notes and properties]
+original=Daily notes and properties
+translation=每日筆記與屬性
+
+[heading.plugins/Merge notes]
+original=Merge notes
+translation=合併筆記
+
+[heading.plugins/Extract note]
+original=Extract note
+translation=擷取筆記
+
+[heading.plugins/Template file]
+original=Template file
+translation=範本檔案
+
+[heading.plugins/Reader view]
+original=Reader view
+translation=閱讀檢視
+
+[heading.plugins/Save to vault]
+original=Save to vault
+translation=存入儲存庫
+
+[heading.plugins/Ad blocking]
+original=Ad blocking
+translation=廣告封鎖
+
+[heading.plugins/Security]
+original=Security
+translation=安全性
+
+[heading.plugins/Record audio in a note]
+original=Record audio in a note
+translation=在筆記中錄製音訊
+
+[heading.plugins/Settings]
+original=Settings
+translation=設定
+
+[heading.plugins/Filters]
+original=Filters
+translation=過濾設定
+
+[heading.plugins/Groups]
+original=Groups
+translation=群組
+
+[heading.plugins/Display]
+original=Display
+translation=外觀設定
+
+[heading.plugins/Forces]
+original=Forces
+translation=強度設定
+
+[heading.plugins/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=啟動縮時動畫
+
+[heading.plugins/Local Graph]
+original=Local Graph
+translation=區域圖譜
+
+[heading.plugins/Install Importer]
+original=Install Importer
+translation=安裝匯入工具
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=與團隊一起使用 Obsidian
+
+[heading.teams/Important resources]
+original=Important resources
+translation=重要資源
+
+[heading.teams/Purchase a commercial license]
+original=Purchase a commercial license
+translation=購買商業授權
+
+[heading.teams/Apply a commercial license]
+original=Apply a commercial license
+translation=套用商業授權
+
+[heading.teams/Supporting organizations]
+original=Supporting organizations
+translation=支持組織
+
+[heading.teams/Frequently asked questions]
+original=Frequently asked questions
+translation=常見問題
+
+[heading.teams/Syncing tools and services]
+original=Syncing tools and services
+translation=同步工具與服務
+
+[heading.teams/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=Obsidian Sync 團隊方案
+
+[heading.teams/Security]
+original=Security
+translation=安全性
+
+[heading.teams/Considerations]
+original=Considerations
+translation=注意事項
+
+[heading.teams/Community plugins and themes]
+original=Community plugins and themes
+translation=社群外掛程式和佈景主題
+
+[heading.teams/Network and access]
+original=Network and access
+translation=網路與存取
+
+[heading.teams/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=Obsidian 來源的連線
+
+[heading.teams/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=GitHub 來源的連線
+
+[heading.teams/Other connections]
+original=Other connections
+translation=其他連線
+
+[heading.teams/Account security]
+original=Account security
+translation=帳戶安全
+
+[heading.teams/Assessments and certifications]
+original=Assessments and certifications
+translation=評估與認證
+
+[heading.teams/Publishing tools and services]
+original=Publishing tools and services
+translation=發佈工具與服務
+
+[heading.teams/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=Obsidian Publish 的進階協作
+
+[heading.teams/Media]
+original=Media
+translation=媒體
+
+[heading.teams/Install and update Obsidian]
+original=Install and update Obsidian
+translation=安裝與更新 Obsidian
+
+[heading.teams/Customizing Obsidian]
+original=Customizing Obsidian
+translation=自訂 Obsidian
+
+[heading.teams/Configuration folders]
+original=Configuration folders
+translation=設定資料夾
+
+[heading.teams/Plugins]
+original=Plugins
+translation=外掛程式
+
+[heading.teams/Themes and snippets]
+original=Themes and snippets
+translation=佈景主題與程式碼片段
+
+[heading.teams/Deployment]
+original=Deployment
+translation=部署
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=開啟隱藏的側邊欄
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=桌面版和較大的平板裝置
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=行動裝置和較小的平板裝置
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=分頁
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=開啟或重新開啟分頁
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=關閉分頁
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=重新排列分頁
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=釘選分頁
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=分頁群組
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=建立分頁群組
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=關閉分頁群組
+
+[heading.ribbon/Actions]
+original=Actions
+translation=操作
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=自訂功能區
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=桌面版
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=隱藏功能區
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=顯示功能區
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=行動裝置
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=快速存取
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=重新排列與可見性
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=色彩配置
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=自訂主題
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=自訂應用程式圖示
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=透明效果
+
+[heading.workspace/Desktop]
+original=Desktop
+translation=桌面版
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=行動版
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=在新視窗中開啟檔案
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=將檔案移動到其他視窗
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=檢視快捷鍵
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=設定快捷鍵
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=移除快捷鍵
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=篩選快捷鍵
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=非美式鍵盤佈局
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=預設鍵盤快捷鍵
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=拖曳分頁
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=拖曳來源
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=放下目標
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=從 Obsidian 外部拖曳
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=將檔案放到 Obsidian 外部
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=開啟新分頁
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=開啟連結
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=整理你的分頁和視窗
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=排列分頁
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=分割分頁群組
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=調整分頁群組大小
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=將分頁移至新視窗
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=將分頁移至其他視窗
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=釘選分頁
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=切換至其他分頁
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=堆疊分頁群組
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=連結化檢視
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=儲存佈局
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=開啟設定
+
+[heading.settings/Desktop]
+original=Desktop
+translation=桌面版
+
+[heading.settings/Mobile]
+original=Mobile
+translation=行動版
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=設定架構
+
+[heading.settings/General]
+original=General
+translation=一般
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=版本與更新
+
+[heading.settings/Language]
+original=Language
+translation=語言
+
+[heading.settings/Help]
+original=Help
+translation=說明
+
+[heading.settings/Account]
+original=Account
+translation=帳戶
+
+[heading.settings/Advanced]
+original=Advanced
+translation=進階
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=當啟動花費較預期為多的時間時警示
+
+[heading.settings/Editor]
+original=Editor
+translation=編輯器
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=一律聚焦於新分頁
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=新分頁的預設檢視模式
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=預設編輯模式
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=編輯器狀態
+
+[heading.settings/Display]
+original=Display
+translation=外觀設定
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=縮減行寬
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=精確的換行符號
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=文件內屬性
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=收合標題
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=收合縮排
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=行號
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=縮排指示
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=右至左 (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=自動補全雙括號
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=自動補全 Markdown 語法
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=智慧列表
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=使用 Tab 鍵縮排
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=自動轉換 HTML
+
+[heading.settings/Behavior]
+original=Behavior
+translation=行為
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=拼寫檢查
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=檢查語言拼字
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=Tab 大小
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Vim 鍵綁定
+
+[heading.settings/Files and links]
+original=Files and links
+translation=檔案與連結
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=新建筆記儲存位置
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=新附件的預設位置
+
+[heading.settings/Links]
+original=Links
+translation=連結
+
+[heading.settings/New link format]
+original=New link format
+translation=內部連結格式
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=始終更新內部連結
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=使用 Wiki 連結
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=顯示所有檔案類型
+
+[heading.settings/Trash]
+original=Trash
+translation=垃圾桶
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=確認檔案刪除
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=已刪除檔案
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=已排除的檔案
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=覆蓋設定資料夾
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=允許回呼網址
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=重建儲存庫快取
+
+[heading.settings/Appearance]
+original=Appearance
+translation=外觀
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=基本佈景主題
+
+[heading.settings/Accent color]
+original=Accent color
+translation=輔色
+
+[heading.settings/Themes]
+original=Themes
+translation=佈景主題
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=目前的社群主題
+
+[heading.settings/Font]
+original=Font
+translation=字型
+
+[heading.settings/Interface font]
+original=Interface font
+translation=介面字型
+
+[heading.settings/Text font]
+original=Text font
+translation=文字字型
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=等寬字型
+
+[heading.settings/Font size]
+original=Font size
+translation=字型大小
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=快速字型大小調整
+
+[heading.settings/Interface]
+original=Interface
+translation=介面
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=行內標題
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=顯示分頁標題列
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=顯示功能區選單
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=功能區選單設定
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=縮放比例
+
+[heading.settings/Native menus]
+original=Native menus
+translation=原生選單
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=視窗框架樣式
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=自訂應用程式圖示
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=半透明視窗
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=硬體加速
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=CSS 片段
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=快速鍵
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=核心外掛程式
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=社群外掛程式
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=受限模式
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=目前的外掛程式
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=已安裝外掛程式
+
+[heading.import/Create notes from CSV data in Obsidian]
+original=Create notes from CSV data in Obsidian
+translation=在 Obsidian 中從 CSV 資料建立筆記
+
+[heading.import/Configure how CSV fields are imported]
+original=Configure how CSV fields are imported
+translation=設定 CSV 欄位的匯入方式
+
+[heading.import/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=將 HTML 資料匯入 Obsidian
+
+[heading.import/Import settings]
+original=Import settings
+translation=匯入設定
+
+[heading.import/Converting from other flavors of Markdown]
+original=Converting from other flavors of Markdown
+translation=從其他 Markdown 風格轉換
+
+[heading.import/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=將 Textbundle 檔案匯入 Obsidian
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=疑難排解
+
+[heading.import/No files are selected for import]
+original=No files are selected for import
+translation=沒有選取任何檔案進行匯入
+
+[heading.import/Export your data from Apple Journal]
+original=Export your data from Apple Journal
+translation=從 Apple Journal 匯出資料
+
+[heading.import/On iPhone]
+original=On iPhone
+translation=在 iPhone 上
+
+[heading.import/On Mac (Tahoe)]
+original=On Mac (Tahoe)
+translation=在 Mac 上（Tahoe）
+
+[heading.import/Import Apple Journal data into Obsidian]
+original=Import Apple Journal data into Obsidian
+translation=將 Apple Journal 資料匯入 Obsidian
+
+[heading.import/Supported content]
+original=Supported content
+translation=支援的內容
+
+[heading.import/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=將 Apple Notes 資料匯入 Obsidian
+
+[heading.import/Scans]
+original=Scans
+translation=掃描件
+
+[heading.import/Alternate export methods]
+original=Alternate export methods
+translation=替代匯出方法
+
+[heading.import/Export your data from Bear]
+original=Export your data from Bear
+translation=從 Bear 匯出資料
+
+[heading.import/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=將 Bear 資料匯入 Obsidian
+
+[heading.import/Export your data from Craft]
+original=Export your data from Craft
+translation=從 Craft 匯出資料
+
+[heading.import/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=將 Craft 資料匯入 Obsidian
+
+[heading.import/Export your data from Evernote]
+original=Export your data from Evernote
+translation=從 Evernote 匯出資料
+
+[heading.import/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=將 Evernote 資料匯入 Obsidian
+
+[heading.import/Advanced import options]
+original=Advanced import options
+translation=進階匯入選項
+
+[heading.import/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=維持標籤層級結構
+
+[heading.import/Handling notebook stacks]
+original=Handling notebook stacks
+translation=處理筆記本堆疊
+
+[heading.import/More options]
+original=More options
+translation=更多選項
+
+[heading.import/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=從 Google Keep 匯出資料
+
+[heading.import/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=將 Google Keep 資料匯入 Obsidian
+
+[heading.import/Supported features]
+original=Supported features
+translation=支援的功能
+
+[heading.import/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=將 OneNote 資料匯入 Obsidian
+
+[heading.import/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=沒有顯示任何分區或筆記本
+
+[heading.import/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=匯入的筆記為空白或缺少內容
+
+[heading.import/Privacy]
+original=Privacy
+translation=隱私權
+
+[heading.import/API import]
+original=API import
+translation=API 匯入
+
+[heading.import/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=建立 Notion API 整合權杖
+
+[heading.import/Import your Notion data via API]
+original=Import your Notion data via API
+translation=透過 API 匯入你的 Notion 資料
+
+[heading.import/Limitations]
+original=Limitations
+translation=限制
+
+[heading.import/File import]
+original=File import
+translation=檔案匯入
+
+[heading.import/Export your data from Notion]
+original=Export your data from Notion
+translation=從 Notion 匯出你的資料
+
+[heading.import/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=匯入你的 Notion .zip 檔案
+
+[heading.import/Importing large workspaces]
+original=Importing large workspaces
+translation=匯入大型工作區
+
+[heading.import/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=從 Roam Research 匯出資料
+
+[heading.import/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=將 Roam Research 資料匯入 Obsidian
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=從其他應用程式和檔案格式匯入
+
+[heading.import/More formats]
+original=More formats
+translation=更多格式
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=Catalyst 等級
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=使用 Catalyst 權益
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=取得論壇徽章
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=取得 Discord 徽章
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=加入我們的 Insider 頻道
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=啟用搶先體驗版本
+
+[heading.credit/Add credit]
+original=Add credit
+translation=新增點數
+
+[heading.credit/Gifting]
+original=Gifting
+translation=贈送
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=贈送 Obsidian Credit
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=接收 Obsidian Credit
+
+[heading.payment/Purchase a service or license]
+original=Purchase a service or license
+translation=購買服務或授權
+
+[heading.payment/Generate an invoice]
+original=Generate an invoice
+translation=產生發票
+
+[heading.payment/Editing an invoice]
+original=Editing an invoice
+translation=編輯發票
+
+[heading.discounts/How to apply]
+original=How to apply
+translation=如何申請
+
+[heading.discounts/How to renew]
+original=How to renew
+translation=如何續期
+
+[heading.discounts/Frequently asked questions]
+original=Frequently asked questions
+translation=常見問題
+
+[heading.discounts/Refunds]
+original=Refunds
+translation=退款
+
+[heading.sales-tax/Tax exemption]
+original=Tax exemption
+translation=免稅申請
+
+[heading.sales-tax/Applying for an exemption]
+original=Applying for an exemption
+translation=申請免稅
+
+[heading.refunds/Request a refund]
+original=Request a refund
+translation=申請退款
+
+[heading.refunds/Frequently asked questions]
+original=Frequently asked questions
+translation=常見問題
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=新增片段
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=為 Obsidian 撰寫 CSS
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=深入了解
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=安裝 Obsidian CLI
+
+[heading.cli/Get started]
+original=Get started
+translation=開始使用
+
+[heading.cli/Run a command]
+original=Run a command
+translation=執行命令
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=使用終端機介面
+
+[heading.cli/Examples]
+original=Examples
+translation=範例
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=日常使用
+
+[heading.cli/For developers]
+original=For developers
+translation=開發者用途
+
+[heading.cli/How to]
+original=How to
+translation=操作方式
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=使用參數和旗標
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=指定保管庫
+
+[heading.cli/Target a file]
+original=Target a file
+translation=指定檔案
+
+[heading.cli/Copy output]
+original=Copy output
+translation=複製輸出
+
+[heading.cli/General commands]
+original=General commands
+translation=一般命令
+
+[heading.cli/Bases]
+original=Bases
+translation=資料庫
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=書籤
+
+[heading.cli/Command palette]
+original=Command palette
+translation=命令面板
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=每日筆記
+
+[heading.cli/File history]
+original=File history
+translation=檔案歷史
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=檔案和資料夾
+
+[heading.cli/Links]
+original=Links
+translation=連結
+
+[heading.cli/Outline]
+original=Outline
+translation=大綱
+
+[heading.cli/Plugins]
+original=Plugins
+translation=外掛程式
+
+[heading.cli/Properties]
+original=Properties
+translation=屬性
+
+[heading.cli/Random notes]
+original=Random notes
+translation=漫遊筆記
+
+[heading.cli/Search]
+original=Search
+translation=搜尋
+
+[heading.cli/Tags]
+original=Tags
+translation=標籤
+
+[heading.cli/Tasks]
+original=Tasks
+translation=任務
+
+[heading.cli/Templates]
+original=Templates
+translation=範本
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=主題和程式碼片段
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=唯一筆記
+
+[heading.cli/Vault]
+original=Vault
+translation=保管庫
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=網頁檢視器
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=字數統計
+
+[heading.cli/Workspace]
+original=Workspace
+translation=工作區
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=開發者命令
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=鍵盤快捷鍵
+
+[heading.cli/Navigation]
+original=Navigation
+translation=導覽
+
+[heading.cli/Editing]
+original=Editing
+translation=編輯
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=自動完成
+
+[heading.cli/History]
+original=History
+translation=歷史
+
+[heading.cli/Other]
+original=Other
+translation=其他
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=疑難排解
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=替代 Shell
+
+[heading.headless/Install]
+original=Install
+translation=安裝
+
+[heading.headless/Authentication]
+original=Authentication
+translation=驗證
+
+[heading.headless/Log in]
+original=Log in
+translation=登入
+
+[heading.headless/Services]
+original=Services
+translation=服務
+
+[heading.uri/URI format]
+original=URI format
+translation=URI 格式
+
+[heading.uri/Open note]
+original=Open note
+translation=開啟筆記
+
+[heading.uri/Examples]
+original=Examples
+translation=範例
+
+[heading.uri/Parameters]
+original=Parameters
+translation=參數
+
+[heading.uri/Create note]
+original=Create note
+translation=建立筆記
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=建立或開啟每日筆記
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=唯一筆記
+
+[heading.uri/Open search]
+original=Open search
+translation=開啟搜尋
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=開啟保管庫管理器
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=與 Hook 整合
+
+[heading.uri/Example]
+original=Example
+translation=範例
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=使用 x-callback-url 參數
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=簡寫格式
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=疑難排解
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=註冊 Obsidian URI
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=瀏覽佈景主題
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=安裝新的佈景主題
+
+[heading.themes/Update themes]
+original=Update themes
+translation=更新佈景主題
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=移除已安裝的佈景主題
+
+[heading.themes/Learn more]
+original=Learn more
+translation=深入了解
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=受限模式
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=外掛程式功能
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=外掛程式審查流程
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=瀏覽社群外掛程式
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=安裝社群外掛程式
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=啟用社群外掛程式
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=更新外掛程式
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=移除安裝社群外掛程式
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=管理已安裝的外掛程式
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=深入了解
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=保管庫設定
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=全域設定
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=中繼資料快取
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=嵌入檔案
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=建立新的保管庫
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=從現有資料夾建立保管庫
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=重新命名保管庫
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=將保管庫搬移到其他資料夾
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=移除保管庫
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=將設定轉移到另一個保管庫
+
+[heading.manage-notes/Create a new note]
+original=Create a new note
+translation=建立新筆記
+
+[heading.manage-notes/Rename a note]
+original=Rename a note
+translation=重新命名筆記
+
+[heading.manage-notes/Delete a note]
+original=Delete a note
+translation=刪除筆記
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=存取你的設定資料夾
+
+[heading.configuration-folder/Desktop]
+original=Desktop
+translation=桌面版
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=行動裝置
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=變更你的設定資料夾
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=HTML 限制
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=HTML 內不支援 Markdown
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=HTML 區塊必須是獨立完整的
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=當 Markdown 看似在 HTML 中運作時
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=常見 HTML 用法
+
+[heading.html/Comments]
+original=Comments
+translation=註解
+
+[heading.html/Underline]
+original=Underline
+translation=底線
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=刪除線
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=支援的 Markdown 延伸語法
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=段落
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=換行
+
+[heading.syntax/Headings]
+original=Headings
+translation=標題
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=粗體、斜體、反白
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=內部連結
+
+[heading.syntax/External links]
+original=External links
+translation=外部連結
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=跳脫連結中的空格
+
+[heading.syntax/External images]
+original=External images
+translation=外部圖片
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=引用
+
+[heading.syntax/Lists]
+original=Lists
+translation=清單
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=待辦清單
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=巢狀清單
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=水平橫線
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=程式碼
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=行內程式碼
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=程式碼區塊
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=巢狀程式碼區塊
+
+[heading.syntax/Comments]
+original=Comments
+translation=腳註
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=註解
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=跳脫 Markdown 語法
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=矩形選取
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=為筆記新增屬性
+
+[heading.properties/Property types]
+original=Property types
+translation=屬性類型
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=進階用法
+
+[heading.properties/Search properties]
+original=Search properties
+translation=搜尋屬性
+
+[heading.properties/Templates]
+original=Templates
+translation=範本
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=重新命名屬性
+
+[heading.properties/Display modes]
+original=Display modes
+translation=顯示模式
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=CSS 片段
+
+[heading.properties/Not supported]
+original=Not supported
+translation=尚未支援
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=快捷鍵
+
+[heading.properties/Add a property]
+original=Add a property
+translation=新增屬性
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=在屬性之間瀏覽
+
+[heading.properties/Select properties]
+original=Select properties
+translation=選取屬性
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=編輯屬性
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim（進階）
+
+[heading.properties/Property format]
+original=Property format
+translation=屬性格式
+
+[heading.properties/Text]
+original=Text
+translation=文字
+
+[heading.properties/List]
+original=List
+translation=清單
+
+[heading.properties/Number]
+original=Number
+translation=數字
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=核取方塊
+
+[heading.properties/Date]
+original=Date
+translation=日期
+
+[heading.properties/Date & time]
+original=Date & time
+translation=日期 & 時間
+
+[heading.properties/Tags]
+original=Tags
+translation=標籤
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=JSON 屬性
+
+[heading.properties/Default properties]
+original=Default properties
+translation=預設屬性
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=Obsidian Publish 的屬性
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=已棄用的屬性
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=嵌入 YouTube 影片
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=嵌入推文
+
+[heading.edit-and-read/Reading view]
+original=Reading view
+translation=閱讀檢視
+
+[heading.edit-and-read/Editing view]
+original=Editing view
+translation=編輯檢視
+
+[heading.edit-and-read/Live Preview]
+original=Live Preview
+translation=即時預覽
+
+[heading.edit-and-read/Source mode]
+original=Source mode
+translation=原始碼模式
+
+[heading.editing-shortcuts/Windows and Linux shortcuts]
+original=Windows and Linux shortcuts
+translation=Windows 和 Linux 快捷鍵
+
+[heading.editing-shortcuts/Common actions]
+original=Common actions
+translation=常用操作
+
+[heading.editing-shortcuts/Text editing]
+original=Text editing
+translation=文字編輯
+
+[heading.editing-shortcuts/Text navigation]
+original=Text navigation
+translation=文字導覽
+
+[heading.editing-shortcuts/Text selection]
+original=Text selection
+translation=文字選取
+
+[heading.editing-shortcuts/macOS shortcuts]
+original=macOS shortcuts
+translation=macOS 快捷鍵
+
+[heading.editing-shortcuts/Text formatting]
+original=Text formatting
+translation=文字格式
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=變更標題
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=可摺疊的標註塊
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=巢狀標註塊
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=自訂標註塊
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=支援的類型
+
+[heading.advanced-syntax/Tables]
+original=Tables
+translation=表格
+
+[heading.advanced-syntax/Format content within a table]
+original=Format content within a table
+translation=在表格內設定內容格式
+
+[heading.advanced-syntax/Diagram]
+original=Diagram
+translation=圖表
+
+[heading.advanced-syntax/Linking files in a diagram]
+original=Linking files in a diagram
+translation=在圖表中連結檔案
+
+[heading.advanced-syntax/Math]
+original=Math
+translation=公式
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=新增附件
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=變更預設附件位置
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=問題與建議
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=回報錯誤與請求功能
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=收集除錯資訊
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=檢查啟動時間
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=擷取主控台日誌
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=聯繫 Obsidian 支援
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=回報安全性問題
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=回報行為準則違規
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=為 Obsidian 做出貢獻
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=術語與文法
+
+[heading.style-guide/Language style]
+original=Language style
+translation=語言風格
+
+[heading.style-guide/Terms]
+original=Terms
+translation=用語
+
+[heading.style-guide/Product names]
+original=Product names
+translation=產品名稱
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=使用者介面與互動
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=筆記、檔案和資料夾
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=設定的參考文件
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=方位用語
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=操作說明
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=大小寫
+
+[heading.style-guide/Examples]
+original=Examples
+translation=範例
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=按鍵名稱與鍵盤快捷鍵
+
+[heading.style-guide/Images]
+original=Images
+translation=圖片
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=資訊結構
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=標註塊類型
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=清單與段落文字
+
+[heading.style-guide/Tables]
+original=Tables
+translation=表格
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=交叉引用
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=平台特定內容
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=圖示與圖片
+
+[heading.style-guide/Icons]
+original=Icons
+translation=圖示
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=圖片錨點標籤
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=最佳化
+
+[heading.style-guide/Layout]
+original=Layout
+translation=版面配置
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=失效連結
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=描述
+
+[heading.style-guide/Directions]
+original=Directions
+translation=操作方向
+
+[heading.style-guide/Translations]
+original=Translations
+translation=翻譯
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=外掛程式與佈景主題
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=開放原始碼專案
+
+[heading.developers/Documentation]
+original=Documentation
+translation=文件
+
+[heading.developers/Community]
+original=Community
+translation=社群
+
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=內部連結支援的格式
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=連結到檔案
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=連結到筆記中的標題
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=連結到筆記中的區塊
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=變更連結顯示文字
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=預覽連結的檔案
+
+[heading.aliases/Add an alias to a note]
+original=Add an alias to a note
+translation=為筆記新增別名
+
+[heading.aliases/Link to a note using an alias]
+original=Link to a note using an alias
+translation=使用別名連結到筆記
+
+[heading.aliases/Find unlinked mentions for an alias]
+original=Find unlinked mentions for an alias
+translation=尋找別名的未連結提及
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=在筆記中嵌入另一則筆記
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=在筆記中嵌入圖片
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=在筆記中嵌入音訊檔案
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=在筆記中嵌入 PDF
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=在筆記中嵌入清單
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=嵌入搜尋結果
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=在 Windows 上安裝 Obsidian
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=在 macOS 上安裝 Obsidian
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=在 Linux 上安裝 Obsidian
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=使用 Snap 安裝 Obsidian
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=使用 AppImage 安裝 Obsidian
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=使用 Flatpak 安裝 Obsidian
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=在 Android 上安裝 Obsidian
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=在 iPhone 和 iPad 上安裝 Obsidian
+
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=同步不是備份
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=使用社群外掛程式
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=使用雲端服務
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=使用外接磁碟機
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=使用電腦備份
+
+[heading.backup/Next steps]
+original=Next steps
+translation=接下來的步驟
+
+[heading.create-note/Create a new note]
+original=Create a new note
+translation=建立新筆記
+
+[heading.create-note/Formatting text]
+original=Formatting text
+translation=格式化文字
+
+[heading.create-note/Learn more]
+original=Learn more
+translation=深入了解
+
+[heading.vault/Create empty vault]
+original=Create empty vault
+translation=建立空白保管庫
+
+[heading.vault/Open existing folder]
+original=Open existing folder
+translation=開啟現有資料夾
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=檢查更新與查看版本
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=停用自動更新
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=安裝程式更新
+
+[heading.sandbox/Opening the sandbox vault]
+original=Opening the sandbox vault
+translation=開啟沙盒庫
+
+[heading.sandbox/Close the sandbox vault]
+original=Close the sandbox vault
+translation=關閉沙盒庫
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=小工具、捷徑與 Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=行動版工具列
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=自訂行動版工具列
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=新增命令到行動版工具列
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=快速操作
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=自訂快速操作
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=導覽列
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=返回或到下頁
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=建立或尋找筆記
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=分頁管理
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=功能區操作
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=側邊欄
+
+[heading.glossary/Alias]
+original=Alias
+translation=別名
+
+[heading.glossary/Attachment]
+original=Attachment
+translation=附件
+
+[heading.glossary/Command]
+original=Command
+translation=命令
+
+[heading.glossary/Embed]
+original=Embed
+translation=嵌入
+
+[heading.glossary/Frontmatter]
+original=Frontmatter
+translation=前置中繼資料
+
+[heading.glossary/Graph]
+original=Graph
+translation=圖譜
+
+[heading.glossary/Hotkey]
+original=Hotkey
+translation=快捷鍵
+
+[heading.glossary/Link]
+original=Link
+translation=連結
+
+[heading.glossary/Main area]
+original=Main area
+translation=主要區域
+
+[heading.glossary/Note]
+original=Note
+translation=筆記
+
+[heading.glossary/Plugin]
+original=Plugin
+translation=外掛
+
+[heading.glossary/Pop-out window]
+original=Pop-out window
+translation=彈出式視窗
+
+[heading.glossary/Property]
+original=Property
+translation=屬性
+
+[heading.glossary/Ribbon]
+original=Ribbon
+translation=功能區
+
+[heading.glossary/Sidebar]
+original=Sidebar
+translation=側邊欄
+
+[heading.glossary/Snippet]
+original=Snippet
+translation=程式碼片段
+
+[heading.glossary/Status bar]
+original=Status bar
+translation=狀態列
+
+[heading.glossary/Tab]
+original=Tab
+translation=分頁
+
+[heading.glossary/Tab group]
+original=Tab group
+translation=分頁群組
+
+[heading.glossary/Tag]
+original=Tag
+translation=標籤
+
+[heading.glossary/Theme]
+original=Theme
+translation=主題
+
+[heading.glossary/Vault]
+original=Vault
+translation=保管庫
+
+[heading.glossary/Remote vault]
+original=Remote vault
+translation=遠端庫
+
+[heading.glossary/View]
+original=View
+translation=檢視
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=同步方式
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=iPhone 和 iPad 同步
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=常見問題
+
+[heading.link-notes/Create a link]
+original=Create a link
+translation=建立連結
+
+[heading.link-notes/Create a link to a non-existing note]
+original=Create a link to a non-existing note
+translation=建立連結到尚不存在的筆記
+
+[heading.link-notes/Navigate between notes]
+original=Navigate between notes
+translation=在筆記之間瀏覽
+
+[heading.link-notes/Learn more]
+original=Learn more
+translation=深入了解
+
+[heading.plugins/backlinks/Show backlinks]
+original=Show backlinks
+translation=顯示反向連結
+
+[heading.plugins/backlinks/View backlinks for a note]
+original=View backlinks for a note
+translation=檢視筆記的反向連結
+
+[heading.plugins/backlinks/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=查看特定筆記的反向連結
+
+[heading.plugins/backlinks/Show backlinks in a note]
+original=Show backlinks in a note
+translation=在筆記中顯示反向連結
+
+[heading.tags/Add a tag to a note]
+original=Add a tag to a note
+translation=在筆記中新增標籤
+
+[heading.tags/Find notes using tags]
+original=Find notes using tags
+translation=使用標籤尋找筆記
+
+[heading.tags/Nested tags]
+original=Nested tags
+translation=巢狀標籤
+
+[heading.tags/Tag format]
+original=Tag format
+translation=標籤格式

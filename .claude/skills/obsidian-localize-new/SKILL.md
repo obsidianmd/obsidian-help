@@ -151,21 +151,25 @@ npx tsx scripts/build-publish-js.ts            # sync to all locales (also regen
 
 Label conventions: use the native language name, e.g. `Português (Brasil)` for pt-BR, `Español` for es. Use the correct locale code (e.g. `pt-BR` not `pt-br`) to match the Obsidian Publish URL.
 
-### Step 6 — Publish
+### Step 6 — Link Publish site
 
-Publish the new locale, then republish **all other active locales** (so they pick up the updated language switcher in `publish.js`), and also publish `en/`:
+Before publishing, link the locale to its Obsidian Publish site. The site slug is `help-<locale-slug>` where the slug is the lowercase version of the locale code (e.g. `zh-TW` → `help-zh-tw`, `pt-BR` → `help-pt-br`):
 
 ```bash
-cd <locale> && ob publish --all --yes
-cd ../en && ob publish --all --yes
-# Republish all other locales to push the updated language switcher:
-for locale in ar de ja pt-br es ko zh fr ru it; do cd ../$locale && ob publish --all --yes; done
+cd <locale> && ob publish-setup --site help-<locale-slug>
 ```
 
-Or use the publish-all script (it handles nav order too):
+This writes the Obsidian Publish credentials into the locale's `.obsidian/publish.json` with the correct path. Without this step, `ob publish` will report "No publish configuration found".
+
+> **Note:** `setup-sites.ts` (run automatically by `publish-all.ts`) re-runs `ob publish-setup` for every locale before publishing. It uses `locales.json` to resolve the correct directory name, so mixed-case locales like `zh-TW` are handled correctly.
+
+### Step 7 — Publish
+
+Publish the new locale using the publish-all script (it handles nav order and site options too):
 
 ```bash
-npx tsx scripts/publish-all.ts
+npx tsx scripts/publish-all.ts <locale>        # publish just this locale
+npx tsx scripts/publish-all.ts                 # publish all locales (to push updated language switcher)
 ```
 
 ## Notes

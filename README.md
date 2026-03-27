@@ -11,15 +11,49 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 | `en`     | https://obsidian.md/help/       |
 | `ar`     | https://obsidian.md/ar/help/    |
 | `da`     | https://obsidian.md/da/help/    |
+| `de`     | https://obsidian.md/de/help/    |
 | `es`     | https://obsidian.md/es/help/    |
+| `fa`     | https://obsidian.md/fa/help/    |
 | `fr`     | https://obsidian.md/fr/help/    |
+| `id`     | https://obsidian.md/id/help/    |
 | `it`     | https://obsidian.md/it/help/    |
 | `ja`     | https://obsidian.md/ja/help/    |
+| `km`     | https://obsidian.md/km/help/    |
 | `ko`     | https://obsidian.md/ko/help/    |
 | `pt-BR`  | https://obsidian.md/pt-BR/help/ |
 | `ru`     | https://obsidian.md/ru/help/    |
 | `vi`     | https://obsidian.md/vi/help/    |
 | `zh`     | https://obsidian.md/zh/help/    |
+| `zh-TW`     | https://obsidian.md/zh-TW/help/ |
+
+## Guidelines
+
+- The English locale (`en`) is considered the source of truth. All changes should be made to the English locale first.
+- For any Obsidian app text (such as buttons, features, etc), use [obsidian-translations](https://github.com/obsidianmd/obsidian-translations) as the source of truth for all locales.
+- Every page uses the same `permalink` value across locales. The permalink functions as a unique ID and path, for cross-locale links to the same content. For example, `obsidian.md/help/resources` (for English) has the same content as `obsidian.md/fr/help/resources` (French).
+- All pages from the English locale exist 1:1 on all other locales.
+
+## Workflow
+
+### Add a new language
+
+To add a new translation, please [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new).
+
+When bootstrapping a new translation, we use `/scripts` to copy the entire `en` content to the new locale and create an initial automatic translation.
+
+### Update the English version first
+
+All additions and removals should be made to the English locale first. Changes are applied automatically to other locales using `/scripts`. The scripts use diffs to determine if the changes can be made deterministically (e.g. removing entire sections), can be processed in chunks (e.g. adding a bullet point to an exsiting list), or need an entirely new page.
+
+### Refine other languages
+
+Refinements to translations should be done on top of the automatic translations generated in previous steps.
+
+Focus on look for content that could be made to sound more native and natural, while retaining the meaning from the English locale.
+
+### Publishing
+
+All commits to `main` branch are automatically published.
 
 ## Contribute
 
@@ -31,32 +65,11 @@ To contribute to Obsidian Help docs:
 
 You can contribute in several ways:
 
+- **Native tone**: Automatic translations don't read as naturally as human translation from native speakers. Look for content that seems directly generated from English to make it read more natively.
 - **Fix typos and mistakes**: If you want to fix a typo or other small modifications, you can submit a pull request. For smaller edits, you can use the GitHub web interface instead of cloning the repository.
 - **Add missing or outdated content**: If you want to contribute missing or outdated content, please [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new) before you start working on it.
 
 Any contributions to the English docs must follow our [Style guide](https://obsidian.md/help/style-guide).
-
-## Translations
-
-### Adding a new translation
-
-To add a new translation, copy the entire `en` folder and rename it to the corresponding [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code in lowercase.
-
-Each translation should follow the English docs (en) as closely as possible.
-
-### Staying up-to-date
-
-As we add more features and continue to improve the English docs, translations will eventually become out-of-date.
-
-To see all changes to the English docs since the last update to the translation, run the following in your terminal:
-
-```bash
-git diff <COMMIT_SHA> HEAD -- en/
-```
-
-Replace `<COMMIT_SHA>` with the commit containing the latest changes for the translation.
-
-> **Note**: If a translation falls too far behind the English version, we may eventually remove it.
 
 ## Credits
 
