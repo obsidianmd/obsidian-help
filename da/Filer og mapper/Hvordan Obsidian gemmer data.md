@@ -1,8 +1,11 @@
 ---
 description: Denne side forklarer hvordan Obsidian gemmer data på din enhed.
 mobile: true
-permalink: dataformat
+permalink: data-storage
 publish: true
+aliases:
+  - dataformat
+  - Filer og mapper/Hvordan Obsidian gemmer data
 ---
 Obsidian gemmer dine noter som [[Grundlæggende formaterings syntaks|Markdown formatterede]] tekstfiler i en _boks_. En boks er en mappe, inklusiv undermapper, i dit lokale filsystem.
 

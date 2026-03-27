@@ -1,5 +1,10 @@
 ---
-permalink: plugins/søg
+permalink: plugins/search
+aliases:
+  - plugins/søg
+  - Plugins/Søg
+publish: true
+mobile: true
 ---
 Du kan benytte søge pluginnet til at finde filer i din boks.
 
@@ -50,9 +55,9 @@ Nogle operatorer tillader dig endda at indlejre søgetermer i parenteser, fx. `t
 | `line:`         | Søg efter tekst på samme linje.<p/>Eksempel: `line:(blandet mel)`.                                                                                                                                                       |
 | `block:`        | Søg efter tekst i samme blok.<p/>Eksempel: `block:(hund kat)`.<p/>**Note**: Da `block:` kræver at der søges i Markdown indhold i hver eneste fil i boksen, kan det resultere i en søgning som tager længere tid. |
 | `section:`      | Søg efter tekst i samme sektion (Tekst mellem to overskrifter).<p/>Eksempel: `section:(hund kat)`.                                                                                                                         |
-| `task:`         | Søg efter tekst i en opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste|opgave]].<p/>Eksempel: `task:opkald`.                                                                                                          |
-| `task-todo:`    | Søg efter tekst i en uafsluttet opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste]].<p/>Eksempel: `task-todo:opkald`.                                                                                      |
-| `task-done:`    | Søg efter tekst i en afsluttet opgave, blok for blok. Se: [[Formater dine noter#Opgaveliste]].<p/>Eksempel: `task-done:opkald`.                                                                                         |
+| `task:`         | Søg efter tekst i en opgave, blok for blok. Se: [[Grundlæggende formateringssyntaks#Opgavelister|opgave]].<p/>Eksempel: `task:opkald`.                                                                                                          |
+| `task-todo:`    | Søg efter tekst i en uafsluttet opgave, blok for blok. Se: [[Grundlæggende formateringssyntaks#Opgavelister]].<p/>Eksempel: `task-todo:opkald`.                                                                                      |
+| `task-done:`    | Søg efter tekst i en afsluttet opgave, blok for blok. Se: [[Grundlæggende formateringssyntaks#Opgavelister]].<p/>Eksempel: `task-done:opkald`.                                                                                         |
 
 ## Søg efter egenskaber
 
@@ -95,7 +100,7 @@ indlejer OR søg
 Fx.
 
 > [!note]
-> [[Introduction to Obsidian Publish|Obsidian Publish]] inderstøtter ikke indlejrede søgeresultater. For at se et eksempel skal du åbne Obsidian hjælpen lokalt i Obsidian.
+> [[Introduktion til Obsidian Publish|Obsidian Publish]] inderstøtter ikke indlejrede søgeresultater. For at se et eksempel skal du åbne Obsidian hjælpen lokalt i Obsidian.
 
 ```query
 indlejr OR søg

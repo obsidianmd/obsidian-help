@@ -1,0 +1,1199 @@
+[heading.settings/Open Settings]
+original=Open Settings
+translation=Åbn Indstillinger
+
+[heading.settings/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=Organisering af indstillinger
+
+[heading.settings/General]
+original=General
+translation=Generelt
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=Version og opdateringer
+
+[heading.settings/Language]
+original=Language
+translation=Sprog
+
+[heading.settings/Help]
+original=Help
+translation=Hjælp
+
+[heading.settings/Account]
+original=Account
+translation=Konto
+
+[heading.settings/Advanced]
+original=Advanced
+translation=Avanceret
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=Notificer hvis opstarten tager længere tid end forventet
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=Fokuser altid på nye faner
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=Standardview for nye faner
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=Standard redigeringstilstand
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=Vis redigeringstilstand i statusbar
+
+[heading.settings/Display]
+original=Display
+translation=Visning
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=Læsbar linjelængde
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=Strikse linjeskift
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=Egenskaber i dokument
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=Fold overskrift
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=Fold indrykning
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=Vis linjenumre
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=Vis indrykningshjælpelinjer
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=Højre-til-venstre (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=Auto-par paranteser
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=Auto-par Markdown-syntaks
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=Smart listeindrykning
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=Brug tabulatorer
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=Auto-konverter HTML
+
+[heading.settings/Behavior]
+original=Behavior
+translation=Adfærd
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=Stavekontrol
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=Stavekontrolsprog
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=Tabulatorstørrelse
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Vim-tastaturgenveje
+
+[heading.settings/Files and links]
+original=Files and links
+translation=Filer og links
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=Standardplacering for nye noter
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=Standardplacering for nye vedhæftninger
+
+[heading.settings/New link format]
+original=New link format
+translation=Nyt linkformat
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=Opdater altid interne links
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=Brug Wikilinks
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=Vis alle filtyper
+
+[heading.settings/Trash]
+original=Trash
+translation=Papirkurv
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=Bekræft filsletning
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=Slettede filer
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=Ekskluderede filer
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=Tilsidesæt konfigurationsmappe
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=Tillad URI callbacks
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=Genopbyg boks cache
+
+[heading.settings/Appearance]
+original=Appearance
+translation=Udseende
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=Basistema
+
+[heading.settings/Accent color]
+original=Accent color
+translation=Accentfarve
+
+[heading.settings/Themes]
+original=Themes
+translation=Temaer
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=Nuværende fællesskabstemaer
+
+[heading.settings/Font]
+original=Font
+translation=Skrifttype
+
+[heading.settings/Interface font]
+original=Interface font
+translation=Grænsefladeskrifttype
+
+[heading.settings/Text font]
+original=Text font
+translation=Tekstskrifttype
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=Monospace-skrifttype
+
+[heading.settings/Font size]
+original=Font size
+translation=Skriftstørrelse
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=Hurtig justering af skriftstørrelse
+
+[heading.settings/Interface]
+original=Interface
+translation=Grænseflade
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=Vis indlejret titel
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=Vis fanens titellinje
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=Vis båndmenu
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=Båndkonfiguration
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=Zoomniveau
+
+[heading.settings/Native menus]
+original=Native menus
+translation=Styresystemets menuer
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=Vinduesrammestil
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=Brugerdefineret applikationsikon
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=Gennemsigtigt vindue
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=Hardwareacceleration
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=CSS-kodestykker
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=Genvejstaster
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=Kerneplugins
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=Fællesskabsplugins
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=Begrænset tilstand
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=Nuværende plugins
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=Installerede plugins
+
+[heading.import/Create notes from CSV data in Obsidian]
+original=Create notes from CSV data in Obsidian
+translation=Opret noter fra CSV-data i Obsidian
+
+[heading.import/Configure how CSV fields are imported]
+original=Configure how CSV fields are imported
+translation=Konfigurér, hvordan CSV-felter importeres
+
+[heading.import/Export your data from Apple Journal]
+original=Export your data from Apple Journal
+translation=Eksportér dine data fra Apple Journal
+
+[heading.import/On iPhone]
+original=On iPhone
+translation=På iPhone
+
+[heading.import/On Mac (Tahoe)]
+original=On Mac (Tahoe)
+translation=På Mac (Tahoe)
+
+[heading.import/Import Apple Journal data into Obsidian]
+original=Import Apple Journal data into Obsidian
+translation=Importér Apple Journal-data til Obsidian
+
+[heading.import/Supported content]
+original=Supported content
+translation=Understøttet indhold
+
+[heading.payment/Purchase a service or license]
+original=Purchase a service or license
+translation=Køb en tjeneste eller licens
+
+[heading.payment/Generate an invoice]
+original=Generate an invoice
+translation=Generér en faktura
+
+[heading.payment/Editing an invoice]
+original=Editing an invoice
+translation=Redigering af en faktura
+
+[heading.sales-tax/Tax exemption]
+original=Tax exemption
+translation=Momsfritagelse
+
+[heading.sales-tax/Applying for an exemption]
+original=Applying for an exemption
+translation=Ansøgning om fritagelse
+
+[heading.discounts/How to apply]
+original=How to apply
+translation=Sådan ansøger du
+
+[heading.discounts/How to renew]
+original=How to renew
+translation=Sådan fornyer du
+
+[heading.discounts/Frequently asked questions]
+original=Frequently asked questions
+translation=Ofte stillede spørgsmål
+
+[heading.discounts/Refunds]
+original=Refunds
+translation=Refusioner
+
+[heading.publish/General]
+original=General
+translation=Generelt
+
+[heading.publish/Publishing notes]
+original=Publishing notes
+translation=Udgivelse af noter
+
+[heading.publish/CSS and themes]
+original=CSS and themes
+translation=CSS og temaer
+
+[heading.publish/Description]
+original=Description
+translation=Beskrivelse
+
+[heading.publish/Image]
+original=Image
+translation=Billede
+
+[heading.publish/Quick start]
+original=Quick start
+translation=Hurtig start
+
+[heading.publish/Commands]
+original=Commands
+translation=Kommandoer
+
+[heading.publish/Redirect old notes]
+original=Redirect old notes
+translation=Omdiriger gamle noter
+
+[heading.publish/Community plugins]
+original=Community plugins
+translation=Fællesskabsplugins
+
+[heading.publish/Graph]
+original=Graph
+translation=Graf
+
+[heading.publish/Media files]
+original=Media files
+translation=Mediefiler
+
+[heading.publish/PDFs]
+original=PDFs
+translation=PDF'er
+
+[heading.publish/Search]
+original=Search
+translation=Søgning
+
+[heading.sync/Quick start]
+original=Quick start
+translation=Hurtig start
+
+[heading.sync/Commands]
+original=Commands
+translation=Kommandoer
+
+[heading.sync/Native modules]
+original=Native modules
+translation=Native moduler
+
+[heading.sync/General]
+original=General
+translation=Generelt
+
+[heading.sync/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Hvilke operativsystemer understøtter Obsidian Sync?
+
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Virker Obsidian med Apples låsetilstand?
+
+[heading.sync/What type of data is synced?]
+original=What type of data is synced?
+translation=Hvilken type data synkroniseres?
+
+[heading.sync/How much storage do I have?]
+original=How much storage do I have?
+translation=Hvor meget lagerplads har jeg?
+
+[heading.sync/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=Hvor mange fjernbokse kan jeg have?
+
+[heading.sync/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=Hvor stor kan hver fjernboks være?
+
+[heading.sync/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=Hvor mange personer kan jeg dele en fjernboks med?
+
+[heading.sync/How large can each file be?]
+original=How large can each file be?
+translation=Hvor stor kan hver fil være?
+
+[heading.sync/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=Synkroniseres mine data i baggrunden?
+
+[heading.sync/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Genindlæser Obsidian Sync mine indstillinger automatisk?
+
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=Kan jeg bruge tredjepartssynkronisering sammen med Obsidian Sync?
+
+[heading.sync/Data retention]
+original=Data retention
+translation=Dataopbevaring
+
+[heading.sync/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=Hvor længe opbevarer I versionshistorikken?
+
+[heading.sync/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=Hvor længe opbevarer I mine data efter mit abonnement udløber?
+
+[heading.sync/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=Opbevarer I mine data, hvis jeg anmoder om refusion af mit abonnement?
+
+[heading.sync/Encryption versions]
+original=Encryption versions
+translation=Krypteringsversioner
+
+[heading.sync/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=Opgrader kryptering med migreringsassistenten
+
+[heading.sync/Sync status icon]
+original=Sync status icon
+translation=Sync-statusikon
+
+[heading.sync/Sync activity log]
+original=Sync activity log
+translation=Synkroniseringsaktivitetslog
+
+[heading.sync/General messages]
+original=General messages
+translation=Generelle meddelelser
+
+[heading.sync/Error messages]
+original=Error messages
+translation=Fejlmeddelelser
+
+[heading.sync/Skipped messages]
+original=Skipped messages
+translation=Sprunget over-meddelelser
+
+[heading.sync/Account messages]
+original=Account messages
+translation=Kontomeddelelser
+
+[heading.sync/Network messages]
+original=Network messages
+translation=Netværksmeddelelser
+
+[heading.sync/Available regions]
+original=Available regions
+translation=Tilgængelige regioner
+
+[heading.sync/Change Sync region]
+original=Change Sync region
+translation=Skift Sync region
+
+[heading.web-clipper/General]
+original=General
+translation=Generelt
+
+[heading.web-clipper/Some content is missing]
+original=Some content is missing
+translation=Noget indhold mangler
+
+[heading.web-clipper/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=Intet indhold vises i Obsidian
+
+[heading.web-clipper/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian åbner ikke
+
+[heading.web-clipper/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian åbner, men kun filnavnet gemmes
+
+[heading.web-clipper/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS og iPadOS
+
+[heading.web-clipper/Dates]
+original=Dates
+translation=Datoer
+
+[heading.web-clipper/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=Tekstkonvertering og brug af store bogstaver
+
+[heading.web-clipper/Text formatting]
+original=Text formatting
+translation=Tekstformatering
+
+[heading.web-clipper/Numbers]
+original=Numbers
+translation=Tal
+
+[heading.web-clipper/HTML processing]
+original=HTML processing
+translation=HTML-behandling
+
+[heading.web-clipper/Arrays and objects]
+original=Arrays and objects
+translation=Arrays og objekter
+
+[heading.web-clipper/Examples of prompts]
+original=Examples of prompts
+translation=Eksempler på prompts
+
+[heading.web-clipper/Get started]
+original=Get started
+translation=Kom i gang
+
+[heading.web-clipper/How it works]
+original=How it works
+translation=Sådan fungerer det
+
+[heading.web-clipper/Context]
+original=Context
+translation=Kontekst
+
+[heading.web-clipper/Models]
+original=Models
+translation=Modeller
+
+[heading.web-clipper/Preset providers]
+original=Preset providers
+translation=Forudindstillede udbydere
+
+[heading.web-clipper/Choosing a model]
+original=Choosing a model
+translation=Valg af model
+
+[heading.web-clipper/Custom providers and models]
+original=Custom providers and models
+translation=Brugerdefinerede udbydere og modeller
+
+[heading.web-clipper/Local models]
+original=Local models
+translation=Lokale modeller
+
+[heading.web-clipper/Turn on highlighter]
+original=Turn on highlighter
+translation=Slå fremhævning til
+
+[heading.web-clipper/Highlighter settings]
+original=Highlighter settings
+translation=Indstillinger for fremhævning
+
+[heading.web-clipper/Capture a page]
+original=Capture a page
+translation=Indfang en side
+
+[heading.web-clipper/Download images]
+original=Download images
+translation=Hent billeder
+
+[heading.web-clipper/Hotkeys]
+original=Hotkeys
+translation=Genvejstaster
+
+[heading.web-clipper/Interface functionality]
+original=Interface functionality
+translation=Grænsefladefunktionalitet
+
+[heading.web-clipper/Conditionals]
+original=Conditionals
+translation=Betingelser
+
+[heading.web-clipper/Comparison operators]
+original=Comparison operators
+translation=Sammenligningsoperatorer
+
+[heading.web-clipper/Logical operators]
+original=Logical operators
+translation=Logiske operatorer
+
+[heading.web-clipper/Truthiness]
+original=Truthiness
+translation=Sandhedsværdi
+
+[heading.web-clipper/Assign a variable]
+original=Assign a variable
+translation=Tildel en variabel
+
+[heading.web-clipper/Fallbacks]
+original=Fallbacks
+translation=Reserveværdier
+
+[heading.web-clipper/Chaining fallbacks]
+original=Chaining fallbacks
+translation=Kæde reserveværdier
+
+[heading.web-clipper/With filters]
+original=With filters
+translation=Med filtre
+
+[heading.web-clipper/Loops]
+original=Loops
+translation=Løkker
+
+[heading.web-clipper/Loop sources]
+original=Loop sources
+translation=Løkkekilder
+
+[heading.web-clipper/Loop variables]
+original=Loop variables
+translation=Løkkevariabler
+
+[heading.web-clipper/Accessing array items by index]
+original=Accessing array items by index
+translation=Adgang til arrayelementer via indeks
+
+[heading.web-clipper/Nested loops]
+original=Nested loops
+translation=Indlejrede løkker
+
+[heading.web-clipper/Combine logic]
+original=Combine logic
+translation=Kombiner logik
+
+[heading.web-clipper/Evaluation order]
+original=Evaluation order
+translation=Evalueringsrækkefølge
+
+[heading.web-clipper/Activate reading mode]
+original=Activate reading mode
+translation=Aktivér læsetilstand
+
+[heading.web-clipper/Customize the reading view]
+original=Customize the reading view
+translation=Tilpas læsevisningen
+
+[heading.web-clipper/Create or edit a template]
+original=Create or edit a template
+translation=Opret eller rediger en skabelon
+
+[heading.web-clipper/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=Importér og eksportér Web Clipper-skabeloner
+
+[heading.web-clipper/Template settings]
+original=Template settings
+translation=Skabelonindstillinger
+
+[heading.web-clipper/Behavior]
+original=Behavior
+translation=Adfærd
+
+[heading.web-clipper/Automatically trigger a template]
+original=Automatically trigger a template
+translation=Udløs automatisk en skabelon
+
+[heading.web-clipper/Simple URL matching]
+original=Simple URL matching
+translation=Simpel URL-matching
+
+[heading.web-clipper/Regular expression matching]
+original=Regular expression matching
+translation=Matching med regulære udtryk
+
+[heading.web-clipper/Schema.org matching]
+original=Schema.org matching
+translation=Schema.org-matching
+
+[heading.web-clipper/Interpreter context]
+original=Interpreter context
+translation=Fortolkerkontekst
+
+[heading.web-clipper/Preset variables]
+original=Preset variables
+translation=Forudindstillede variabler
+
+[heading.web-clipper/Prompt variables]
+original=Prompt variables
+translation=Prompt-variabler
+
+[heading.web-clipper/When to use prompt variables]
+original=When to use prompt variables
+translation=Hvornår du bør bruge prompt-variabler
+
+[heading.web-clipper/Examples]
+original=Examples
+translation=Eksempler
+
+[heading.web-clipper/Meta variables]
+original=Meta variables
+translation=Meta-variabler
+
+[heading.web-clipper/Selector variables]
+original=Selector variables
+translation=Selektor-variabler
+
+[heading.web-clipper/Schema.org variables]
+original=Schema.org variables
+translation=Schema.org-variabler
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=Brug Obsidian med dit team
+
+[heading.teams/Important resources]
+original=Important resources
+translation=Vigtige ressourcer
+
+[heading.teams/Publishing tools and services]
+original=Publishing tools and services
+translation=Publiceringsværktøjer og -tjenester
+
+[heading.teams/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=Avanceret samarbejde for Obsidian Publish
+
+[heading.teams/Media]
+original=Media
+translation=Medier
+
+[heading.teams/Frequently asked questions]
+original=Frequently asked questions
+translation=Ofte stillede spørgsmål
+
+[heading.teams/Considerations]
+original=Considerations
+translation=Overvejelser
+
+[heading.teams/Community plugins and themes]
+original=Community plugins and themes
+translation=Fællesskabsplugins og temaer
+
+[heading.teams/Network and access]
+original=Network and access
+translation=Netværk og adgang
+
+[heading.teams/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=Obsidian-baserede forbindelser
+
+[heading.teams/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=GitHub-baserede forbindelser
+
+[heading.teams/Other connections]
+original=Other connections
+translation=Andre forbindelser
+
+[heading.teams/Account security]
+original=Account security
+translation=Kontosikkerhed
+
+[heading.teams/Assessments and certifications]
+original=Assessments and certifications
+translation=Vurderinger og certificeringer
+
+[heading.teams/Syncing tools and services]
+original=Syncing tools and services
+translation=Synkroniseringsværktøjer og -tjenester
+
+[heading.teams/Security]
+original=Security
+translation=Sikkerhed
+
+[heading.teams/Install and update Obsidian]
+original=Install and update Obsidian
+translation=Installér og opdatér Obsidian
+
+[heading.teams/Customizing Obsidian]
+original=Customizing Obsidian
+translation=Tilpasning af Obsidian
+
+[heading.teams/Configuration folders]
+original=Configuration folders
+translation=Konfigurationsmapper
+
+[heading.teams/Themes and snippets]
+original=Themes and snippets
+translation=Temaer og uddrag
+
+[heading.teams/Deployment]
+original=Deployment
+translation=Udrulning
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Installér Obsidian CLI
+
+[heading.cli/Get started]
+original=Get started
+translation=Kom i gang
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Kør en kommando
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=Brug terminalgrænsefladen
+
+[heading.cli/Examples]
+original=Examples
+translation=Eksempler
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Daglig brug
+
+[heading.cli/For developers]
+original=For developers
+translation=For udviklere
+
+[heading.cli/How to]
+original=How to
+translation=Sådan gør du
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Brug parametre og flag
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Målret en boks
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Målret en fil
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Kopiér output
+
+[heading.cli/General commands]
+original=General commands
+translation=Generelle kommandoer
+
+[heading.cli/Bases]
+original=Bases
+translation=Baser
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Bogmærker
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Kommandopalet
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Daglige noter
+
+[heading.cli/File history]
+original=File history
+translation=Filhistorik
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Filer og mapper
+
+[heading.cli/Outline]
+original=Outline
+translation=Disposition
+
+[heading.cli/Properties]
+original=Properties
+translation=Egenskaber
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Tilfældige noter
+
+[heading.cli/Search]
+original=Search
+translation=Søgning
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Opgaver
+
+[heading.cli/Templates]
+original=Templates
+translation=Skabeloner
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Temaer og kodestykker
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Unikke noter
+
+[heading.cli/Vault]
+original=Vault
+translation=Boks
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Webviser
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Ordtælling
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Arbejdsområde
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Udviklerkommandoer
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Tastaturgenveje
+
+[heading.cli/Editing]
+original=Editing
+translation=Redigering
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Autofuldførelse
+
+[heading.cli/History]
+original=History
+translation=Historik
+
+[heading.cli/Other]
+original=Other
+translation=Andet
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Fejlfinding
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Alternative shells
+
+[heading.headless/Install]
+original=Install
+translation=Installer
+
+[heading.headless/Authentication]
+original=Authentication
+translation=Godkendelse
+
+[heading.headless/Log in]
+original=Log in
+translation=Log ind
+
+[heading.headless/Services]
+original=Services
+translation=Tjenester
+
+[heading.plugins/importer/Install Importer]
+original=Install Importer
+translation=Installér Importer
+
+[heading.import/html/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=Importér HTML-data til Obsidian
+
+[heading.import/html/Import settings]
+original=Import settings
+translation=Importér indstillinger
+
+[heading.import/markdown/Converting from other flavors of Markdown]
+original=Converting from other flavors of Markdown
+translation=Konvertering fra andre varianter af Markdown
+
+[heading.import/textbundle/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=Importér Textbundle-filer til Obsidian
+
+[heading.import/textbundle/Troubleshooting]
+original=Troubleshooting
+translation=Fejlfinding
+
+[heading.import/textbundle/No files are selected for import]
+original=No files are selected for import
+translation=Ingen filer er valgt til import
+
+[heading.import/apple-notes/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=Importér Apple Notes-data til Obsidian
+
+[heading.import/apple-notes/Supported content]
+original=Supported content
+translation=Understøttet indhold
+
+[heading.import/apple-notes/Scans]
+original=Scans
+translation=Scanninger
+
+[heading.import/apple-notes/Alternate export methods]
+original=Alternate export methods
+translation=Alternative eksportmetoder
+
+[heading.import/bear/Export your data from Bear]
+original=Export your data from Bear
+translation=Eksportér dine data fra Bear
+
+[heading.import/bear/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=Importér dine Bear-data til Obsidian
+
+[heading.import/craft/Export your data from Craft]
+original=Export your data from Craft
+translation=Eksportér dine data fra Craft
+
+[heading.import/craft/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=Importér dine Craft-data til Obsidian
+
+[heading.import/craft/Troubleshooting]
+original=Troubleshooting
+translation=Fejlfinding
+
+[heading.import/evernote/Export your data from Evernote]
+original=Export your data from Evernote
+translation=Eksportér dine data fra Evernote
+
+[heading.import/evernote/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=Importér dine Evernote-data til Obsidian
+
+[heading.import/evernote/Advanced import options]
+original=Advanced import options
+translation=Avancerede importindstillinger
+
+[heading.import/evernote/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=Bevar taghierarki
+
+[heading.import/evernote/Handling notebook stacks]
+original=Handling notebook stacks
+translation=Håndtering af notesbogstakke
+
+[heading.import/evernote/More options]
+original=More options
+translation=Flere muligheder
+
+[heading.import/google-keep/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=Eksportér dine data fra Google Keep
+
+[heading.import/google-keep/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=Importér dine Google Keep-data til Obsidian
+
+[heading.import/google-keep/Supported features]
+original=Supported features
+translation=Understøttede funktioner
+
+[heading.import/onenote/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=Importér dine OneNote-data til Obsidian
+
+[heading.import/onenote/Troubleshooting]
+original=Troubleshooting
+translation=Fejlfinding
+
+[heading.import/onenote/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=Ingen sektioner eller notesbøger vises
+
+[heading.import/onenote/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=Importerede noter er tomme eller mangler indhold
+
+[heading.import/onenote/Privacy]
+original=Privacy
+translation=Privatliv
+
+[heading.import/notion/API import]
+original=API import
+translation=API-import
+
+[heading.import/notion/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=Opret et Notion API-integrationstoken
+
+[heading.import/notion/Import your Notion data via API]
+original=Import your Notion data via API
+translation=Importér dine Notion-data via API
+
+[heading.import/notion/Limitations]
+original=Limitations
+translation=Begrænsninger
+
+[heading.import/notion/File import]
+original=File import
+translation=Filimport
+
+[heading.import/notion/Export your data from Notion]
+original=Export your data from Notion
+translation=Eksportér dine data fra Notion
+
+[heading.import/notion/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=Importér din Notion .zip-fil
+
+[heading.import/notion/Troubleshooting]
+original=Troubleshooting
+translation=Fejlfinding
+
+[heading.import/notion/Importing large workspaces]
+original=Importing large workspaces
+translation=Import af store arbejdsområder
+
+[heading.import/roam/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=Eksportér dine data fra Roam Research
+
+[heading.import/roam/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=Importér dine Roam Research-data til Obsidian

@@ -3,8 +3,11 @@ cssclasses:
   - soft-embed
 description: Sådan opretter du din første note.
 mobile: false
-permalink: opret-note
+permalink: create-note
 publish: true
+aliases:
+  - opret-note
+  - Kom i gang/Opret din første note
 ---
 Noter i Obsidian bliver gemt i almindelige tekstfiler. Det betyder at de er holdbare og ikke låst i et proprietært format. Når du skriver dine noter i almindelig tekst vil de overleve enhver applikations levetid - selv Obsidians.
 
@@ -34,7 +37,7 @@ Obsidian understøtter [Markdown](https://en.wikipedia.org/wiki/Markdown), der e
 
 2. Vælg teksten "videnbase" i din note og tryk `Ctrl+B` (eller `Cmd+B` på macOS) for at ændre teksten til fed skrift
 
-Du kan lære mere om at formatere dine noter ved hjælp af Markdown i guiden: [[Formater dine noter]].
+Du kan lære mere om at formatere dine noter ved hjælp af Markdown i guiden: [[Grundlæggende formateringssyntaks]].
 
 ## Lær mere
 Lær hvordan du kan [[Link noter|linke noter]], så du kan skabe et netværk af sammenhængende tanker.

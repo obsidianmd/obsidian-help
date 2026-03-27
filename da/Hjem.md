@@ -4,6 +4,8 @@ cssclasses:
   - hide-title
   - list-cards-mobile-full
 permalink: /
+aliases:
+  - Hjem
 ---
 # Obsidian Hjælp
 

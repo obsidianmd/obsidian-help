@@ -1,7 +1,9 @@
 ---
-description: Tilføj et sprog, som ikke findes blandt de eksisterende sprog til Obsidian.
-publish: true
-permalink: oversættelser
+description: 'Tilføj et sprog, som ikke findes blandt de eksisterende sprog til Obsidian.'
+permalink: translations
+aliases:
+  - oversættelser
+  - Bidrag til Obsidian/Oversættelser
 ---
 Hvis du har kendskab til et andet sprog, helst perfekt, kan du hjælpe med at oversætte Obsidians brugergrænseflade eller dokumentationen.
 

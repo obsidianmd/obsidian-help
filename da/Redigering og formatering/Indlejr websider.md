@@ -1,5 +1,8 @@
 ---
-permalink: indlejr-websider
+permalink: embed-web-pages
+aliases:
+  - indlejr-websider
+  - Redigering og formatering/Indlejr websider
 ---
 I denne guide kan du lære at indlejre websider i dine noter ved at benytte [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) HTML elementet.
 

@@ -1,5 +1,7 @@
 ---
 permalink: tags
+aliases:
+  - Redigering og formatering/Tags
 ---
 Tags er nøgleord eller emneord, som kan hjælpe dig hurtigt til at finde de noter, du leder efter.
 

@@ -4,7 +4,7 @@
  * Usage: npx tsx scripts/publish-all.ts [--dry-run] [locale ...]
  *
  * Publishes all active locales (or the ones specified) via `ob publish`,
- * then syncs nav order for each non-EN locale.
+ * then syncs site options (nav order, display flags, etc.) for each non-EN locale.
  * Runs each locale sequentially and reports success/failure per locale.
  */
 
@@ -23,6 +23,25 @@ const cliArgs = process.argv.slice(2);
 const dryRun = cliArgs.includes("--dry-run");
 const rest = cliArgs.filter(a => a !== "--dry-run");
 const locales = rest.length > 0 ? rest : ACTIVE_LOCALES;
+
+// ─── Auto-link publish sites ──────────────────────────────────────────────────
+
+{
+  const setupArgs = dryRun ? "--dry-run" : "";
+  const setupCmd = `npx tsx ${path.join(SCRIPTS_DIR, "setup-sites.ts")} ${setupArgs}`.trim();
+  console.log(`Setup: ${setupCmd}\n`);
+  try {
+    const out = execSync(setupCmd, { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
+    if (out.trim()) for (const line of out.trim().split("\n")) console.log(`  ${line}`);
+    console.log();
+  } catch (err: unknown) {
+    const e = err as { stdout?: string; stderr?: string; message?: string };
+    console.warn(`  Warning: setup-sites failed — ${(e.stdout ?? e.stderr ?? e.message ?? "").trim().split("\n")[0]}`);
+    console.warn("  Continuing anyway — sites that were already linked will still publish.\n");
+  }
+}
+
+// ─── Publish ──────────────────────────────────────────────────────────────────
 
 console.log(`Publishing ${locales.join(", ")}${dryRun ? " [DRY RUN]" : ""}\n`);
 
@@ -46,12 +65,12 @@ for (const locale of locales) {
     }
 
     if (locale !== "en") {
-      const navArgs = [locale, ...(dryRun ? ["--dry-run"] : [])].join(" ");
-      const navCmd = `npx tsx ${path.join(SCRIPTS_DIR, "sync-nav-order.ts")} ${navArgs}`;
-      console.log(`   ${navCmd}`);
-      const navOut = execSync(navCmd, { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
-      if (navOut.trim()) {
-        for (const line of navOut.trim().split("\n")) {
+      const siteArgs = [locale, ...(dryRun ? ["--dry-run"] : [])].join(" ");
+      const siteCmd = `npx tsx ${path.join(SCRIPTS_DIR, "sync-site-options.ts")} ${siteArgs}`;
+      console.log(`   ${siteCmd}`);
+      const siteOut = execSync(siteCmd, { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
+      if (siteOut.trim()) {
+        for (const line of siteOut.trim().split("\n")) {
           console.log(`   ${line}`);
         }
       }

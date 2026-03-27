@@ -1,4 +1,11 @@
-Af sikkerhedshensyn krypterer [[Introduktion til Obsidian Sync|Obsidian Sync]] din [[[Lokal- og fjernbokse|fjernbokse]]] og al kommunikation med Obsidian servere. Før nogen kan tilgå din fjernboks, skal de først dekryptere den med et _Krypterings kodeord_.
+---
+permalink: sync/security
+publish: true
+mobile: false
+aliases:
+  - Obsidian Sync/Sikkerhed og privatliv
+---
+Af sikkerhedshensyn krypterer [[Introduktion til Obsidian Sync|Obsidian Sync]] din [[Lokale og fjernbokse|fjernbokse]] og al kommunikation med Obsidian servere. Før nogen kan tilgå din fjernboks, skal de først dekryptere den med et _Krypterings kodeord_.
 
 Når du oprette en ny fjernboks, har du to muligheder:
 

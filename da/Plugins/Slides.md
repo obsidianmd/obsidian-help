@@ -1,5 +1,7 @@
 ---
 permalink: plugins/slides
+aliases:
+  - Plugins/Slides
 ---
 Med **Slides** kan du oprette præsentationer fra dine noter. Start en præsentation:
 
@@ -20,7 +22,7 @@ Du kan også gå til næste slide ved at trykke på mellemrumstasten.
 For at afslutte en præstentation kan du trykke på `Esc` tasten eller klikke på krydsikonet i øverste højre hjørne af præsentationen.
 
 > [!tip]
-> Prøv [[Slide demo]] for at se dette plugin i aktion.
+> Prøv Slide demo for at se dette plugin i aktion.
 
 Du kan anvende enhver gyldig Markdown fil som en præsentation. For at adskille slides i noten skal du efter en tom linje skrive `---` og derefter trykke `Retur`.
 

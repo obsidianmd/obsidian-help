@@ -1,3 +1,10 @@
+---
+permalink: resources
+publish: true
+mobile: true
+aliases:
+  - Hjælp og support
+---
 Lær hvordan du kan få hjælp og support, når du bruger Obsidian eller en af vores betalingsløsninger.
 
 ## Kontakt Obsidian support

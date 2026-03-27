@@ -1,5 +1,10 @@
 ---
-permalink: plugins/tilbagelinks
+permalink: plugins/backlinks
+aliases:
+  - plugins/tilbagelinks
+  - Plugins/Tilbagelinks
+publish: true
+mobile: false
 ---
 Med tilbagelinks pluginnet kan du se alle _tilbagelinks_ i det aktive dokument.
 

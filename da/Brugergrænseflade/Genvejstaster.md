@@ -1,13 +1,15 @@
 ---
 description: Sådan anvender du genvejstaster i Obsidian.
-publish: true
-permalink: genvejstaster
+permalink: hotkeys
+aliases:
+  - genvejstaster
+  - Brugergrænseflade/Genvejstaster
 ---
 De fleste genvejstaster i Obsidian kan tilpasses.
 
 Standard genvejstaster er kun defineret til de mest anvendte kommandoer, men hvis du ofte bruger en bestemt kommando, så vil det spare dig tid, hvis du tilføjer en genvejstast til den.
 
-Du kan se en liste med standard genvejstaster [[Gamle sider/Sådan gør du/Tastaturgenveje|her]].
+Du kan se en liste med standard genvejstaster [[Genvejstaster|her]].
 
 ### Vise genvejstaster
 

@@ -1,5 +1,12 @@
 ---
 permalink: plugins
+cssclasses:
+  - list-cards
+  - list-cards-mobile-full
+publish: true
+mobile: true
+aliases:
+  - Plugins/Kerneplugins
 ---
 
 Denne side lister de kerneplugins som installeres sammen med Obsidian. Kerneplugins er officielt udviklet og supporteret af Obsidian teamet, og er inkluderet i applikationen.

@@ -1,3 +1,12 @@
+---
+permalink: sync/version-history
+cssclasses:
+  - soft-embed
+publish: true
+mobile: true
+aliases:
+  - Obsidian Sync/Versionshistorik
+---
 [[Introduktion til Obsidian Sync|Obsidian Sync]] gemmer en historik af alle ændinger du har foretaget af dine noter. Sync tjekker regelmæssigt om der er sket ændringer i dine noter og opretter nye version.
 
 Hvis du ved en fejl sletter en note, eller du har brug for at komme tilbage til en tidligere verision af din note, så kan du gendanne noten fra versionshistorikken.

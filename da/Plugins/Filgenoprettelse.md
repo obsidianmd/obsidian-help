@@ -1,5 +1,10 @@
 ---
-permalink: plugins/filgenoprettelse
+permalink: plugins/file-recovery
+aliases:
+  - plugins/filgenoprettelse
+  - Plugins/Filgenoprettelse
+publish: true
+mobile: true
 ---
 Filgenoprettelse er et kerne plugin som kan hjælpe dig med at genoprette dine data i tilfælde af uforsætlig datatab ved at tage øjebliksbilleder af dine noter.
 

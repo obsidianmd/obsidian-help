@@ -1,8 +1,11 @@
 ---
 description: Denne side beskriver i detaljer de regler som gælder i alle Obsidian online fællesskaber.
 mobile: true
-permalink: fællesskabets-adfærdkodeks
+permalink: community-code-of-conduct
 publish: true
+aliases:
+  - fællesskabets-adfærdkodeks
+  - Obsidian/Fællesskabets adfærdskodeks
 ---
 
 ## Reglerne

@@ -159,7 +159,10 @@ function buildArgs(opts: Partial<SiteOptions>): string[] {
   flag("show-backlinks",     opts.showBacklinks);
   flag("show-hover-preview", opts.showHoverPreview);
   flag("show-theme-toggle",  opts.showThemeToggle);
-  flag("default-theme",      opts.defaultTheme);
+  // "system" is not a valid CLI value; only "light" / "dark" are accepted
+  if (opts.defaultTheme === "light" || opts.defaultTheme === "dark") {
+    flag("default-theme", opts.defaultTheme);
+  }
   flag("readable-line-length", opts.readableLineLength);
   flag("strict-line-breaks", opts.strictLineBreaks);
   flag("hide-title",         opts.hideTitle);

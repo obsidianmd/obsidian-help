@@ -1,10 +1,13 @@
 ---
 cssclasses:
   - soft-embed
-description: Egenskaber tillader dig at organisere noters metainformation. Egenskaber kan indeholde struktureret data såsom tekst, links, datoer, afkrydsningsfelter og tal.
+description: 'Egenskaber tillader dig at organisere noters metainformation. Egenskaber kan indeholde struktureret data såsom tekst, links, datoer, afkrydsningsfelter og tal.'
 mobile: false
-permalink: egenskaber
+permalink: properties
 publish: true
+aliases:
+  - egenskaber
+  - Redigering og formatering/Egenskaber
 ---
 Egenskaber tillader sig at organisere information om en note. Egenskaber er en notes metainformation. Egenskaber indholder struktureret data, såsom tekst, links, datoer, afkrydsningsfelter og tal. Egenskaber kan opgså benyttes i kombination med [[Fællesskabsplugins|plugins]], som kan anvende metainformationen til brugbare funktioner.
 
@@ -256,11 +259,11 @@ Følgende standardegenskaber kan anvendes sammen med [[Introduktion til Obsidian
 
 | Egenskab      | Beskrivelse                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
-| `publish`     | Se [[Publish your content#Automatically select notes to publish\|Automatically select notes to publish]]. |
+| `publish`     | Se [[Udgiv dit indhold#Automatically select notes to publish\|Automatically select notes to publish]]. |
 | `permalink`   | Se [[Permalinks\|Permalinks]].                                                                            |
-| `description` | Se [[Social media link previews#Description\|Description]].                                               |
-| `image`       | Se [[Social media link previews#Image\|Image]].                                                           |
-| `cover`       | Se [[Social media link previews#Image\|Image]].                                                           |
+| `description` | Se [[Forhåndsvisning af links på sociale medier#Description\|Description]].                                               |
+| `image`       | Se [[Forhåndsvisning af links på sociale medier#Image\|Image]].                                                           |
+| `cover`       | Se [[Forhåndsvisning af links på sociale medier#Image\|Image]].                                                           |
 
 ### Udfasede egenskaber
 
