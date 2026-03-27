@@ -12,14 +12,27 @@ on:
       - 'en/**'
 
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      locales: ${{ steps.get-locales.outputs.locales }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Discover locale directories
+        id: get-locales
+        run: |
+          locales=$(ls -d */ | sed 's|/||' | grep -vE '^(en|scripts|node_modules|Release notes|Sandbox)$' | jq -R -s -c '[split("\n") | .[] | select(length > 0)]')
+          echo "locales=$locales" >> $GITHUB_OUTPUT
+
   apply-diff:
+    needs: setup
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     strategy:
       matrix:
-        locale: [ar, da, de, es, fa, fr, id, it, ja, km, ko, pt-br, ru, vi, zh, zh-TW]
+        locale: ${{ fromJson(needs.setup.outputs.locales) }}
       fail-fast: false
 
     steps:
