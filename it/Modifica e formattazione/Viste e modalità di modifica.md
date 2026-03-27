@@ -18,7 +18,7 @@ La *vista lettura* mostra la nota senza la sintassi Markdown, offrendo un format
 Per passare alla *vista lettura*:
 
 - Fai clic sul selettore vista ![[lucide-book-icon.svg#icon]] nell'angolo in alto a destra dell'editor.
-- Oppure fai clic sull'icona interattiva di stato ( ![[lucide-edit-3.svg#icon]] o ![[lucide-code-xml.svg#icon]] ) nella barra di stato e seleziona **Vista lettura**.
+- Oppure fai clic sull'icona interattiva di stato ![[lucide-edit-3.svg#icon]] o ![[lucide-code-xml.svg#icon]] nella barra di stato e seleziona **Vista lettura**.
 - Oppure premi `Ctrl+E` (`Cmd+E` su macOS).
 
 > [!note] Nota
@@ -42,7 +42,7 @@ L'*Anteprima dal vivo* mostra il testo formattato in linea nascondendo la maggio
 Per passare all'*Anteprima dal vivo*:
 
 - Fai clic sul selettore vista ![[lucide-edit-3.svg#icon]] nell'angolo in alto a destra dell'editor.
-- Oppure fai clic sull'icona interattiva di stato ( ![[lucide-book-icon.svg#icon]] o ![[lucide-code-xml.svg#icon]] ) nella barra di stato e seleziona **Anteprima dal vivo**.
+- Oppure fai clic sull'icona interattiva di stato ![[lucide-book-icon.svg#icon]] o ![[lucide-code-xml.svg#icon]] nella barra di stato e seleziona **Anteprima dal vivo**.
 - Oppure premi `Ctrl+E` (`Cmd+E` su macOS).
 - Oppure usa il [[Riquadro comandi|comando]] **Passa a modalità Modifica/Lettura**.
 
@@ -56,7 +56,7 @@ Per passare all'*Anteprima dal vivo*:
 La *Modalità sorgente* mostra tutta la sintassi Markdown esattamente come scritta. Usala se preferisci il testo normale o hai bisogno di un controllo preciso sulla formattazione.
 
 Per passare alla *Modalità sorgente*:
-- Fai clic sull'icona interattiva di stato ( ![[lucide-book-icon.svg#icon]] o ![[lucide-edit-3.svg#icon]] ) nella barra di stato e seleziona **Modalità sorgente**.
+- Fai clic sull'icona interattiva di stato ![[lucide-book-icon.svg#icon]] o ![[lucide-edit-3.svg#icon]]  nella barra di stato e seleziona **Modalità sorgente**.
 
 > [!note] Nota
 > Per impostazione predefinita, la vista di modifica è impostata su *Anteprima dal vivo*. Cambiala in *Modalità sorgente* in **[[Impostazioni]] → Editor → Modalità di modifica predefinita**.

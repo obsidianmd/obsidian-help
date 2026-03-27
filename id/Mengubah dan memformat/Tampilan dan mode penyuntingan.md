@@ -18,7 +18,7 @@ Obsidian memungkinkan Anda mengontrol cara membaca dan mengedit catatan yang dit
 Untuk beralih ke *Tampilan baca*:
 
 - Klik peralih tampilan ![[lucide-book-icon.svg#icon]] di pojok kanan atas editor.
-- Atau klik ikon status interaktif ( ![[lucide-edit-3.svg#icon]] atau ![[lucide-code-xml.svg#icon]] ) di bilah status dan pilih **Tampilan baca**.
+- Atau klik ikon status interaktif ![[lucide-edit-3.svg#icon]] atau ![[lucide-code-xml.svg#icon]] di bilah status dan pilih **Tampilan baca**.
 - Atau tekan `Ctrl+E` (`Cmd+E` di macOS).
 
 > [!note] Catatan
@@ -42,7 +42,7 @@ Saat dalam *Tampilan pengeditan*, *Mode pengeditan* menentukan bagaimana Markdow
 Untuk beralih ke *Pratinjau Langsung*:
 
 - Klik peralih tampilan ![[lucide-edit-3.svg#icon]] di pojok kanan atas editor.
-- Atau klik ikon status interaktif ( ![[lucide-book-icon.svg#icon]] atau ![[lucide-code-xml.svg#icon]] ) di bilah status dan pilih **Pratinjau Langsung**.
+- Atau klik ikon status interaktif ![[lucide-book-icon.svg#icon]] atau ![[lucide-code-xml.svg#icon]] di bilah status dan pilih **Pratinjau Langsung**.
 - Atau tekan `Ctrl+E` (`Cmd+E` di macOS).
 - Atau gunakan [[Palet perintah|perintah]] **Ubah mode pengubah/pratinjau**.
 
@@ -56,7 +56,7 @@ Untuk beralih ke *Pratinjau Langsung*:
 *Mode Sumber* menampilkan semua sintaksis Markdown persis seperti yang ditulis. Gunakan ini jika Anda lebih suka teks biasa atau membutuhkan kontrol format yang presisi.
 
 Untuk beralih ke *Mode Sumber*:
-- Klik ikon status interaktif ( ![[lucide-book-icon.svg#icon]] atau ![[lucide-edit-3.svg#icon]] ) di bilah status dan pilih **Mode Sumber**.
+- Klik ikon status interaktif ![[lucide-book-icon.svg#icon]] atau ![[lucide-edit-3.svg#icon]]  di bilah status dan pilih **Mode Sumber**.
 
 > [!note] Catatan
 > Secara bawaan, tampilan pengeditan diatur ke *Pratinjau Langsung*. Ubah ini ke *Mode Sumber* di **[[Pengaturan]] → Editor → Mode ubah bawaan**.

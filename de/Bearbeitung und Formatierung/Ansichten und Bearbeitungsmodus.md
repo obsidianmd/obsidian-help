@@ -16,7 +16,7 @@ Der *Lesemodus* zeigt deine Notiz ohne Markdown-Syntax an und bietet ein saubere
 Um in den *Lesemodus* zu wechseln:
 
 - Klicke auf den Ansichtsumschalter ![[lucide-book-icon.svg#icon]] in der oberen rechten Ecke des Editors.
-- Oder klicke auf das interaktive Statussymbol ( ![[lucide-edit-3.svg#icon]] oder ![[lucide-code-xml.svg#icon]] ) in der Statusleiste und wähle **Lesemodus**.
+- Oder klicke auf das interaktive Statussymbol ![[lucide-edit-3.svg#icon]] oder ![[lucide-code-xml.svg#icon]] in der Statusleiste und wähle **Lesemodus**.
 - Oder drücke `Strg+E` (`Cmd+E` unter macOS).
 
 > [!note] Hinweis
@@ -40,7 +40,7 @@ Die *Live-Vorschau* zeigt formatierten Text inline an und verbirgt dabei den Gro
 Um zur *Live-Vorschau* zu wechseln:
 
 - Klicke auf den Ansichtsumschalter ![[lucide-edit-3.svg#icon]] in der oberen rechten Ecke des Editors.
-- Oder klicke auf das interaktive Statussymbol ( ![[lucide-book-icon.svg#icon]] oder ![[lucide-code-xml.svg#icon]] ) in der Statusleiste und wähle **Live-Vorschau**.
+- Oder klicke auf das interaktive Statussymbol ![[lucide-book-icon.svg#icon]] oder ![[lucide-code-xml.svg#icon]] in der Statusleiste und wähle **Live-Vorschau**.
 - Oder drücke `Strg+E` (`Cmd+E` unter macOS).
 - Oder verwende den [[Befehlspalette|Befehl]] **Editor/Vorschau Modus wechseln**.
 
@@ -54,7 +54,7 @@ Um zur *Live-Vorschau* zu wechseln:
 Die *Quellcode-Ansicht* zeigt die gesamte Markdown-Syntax genau so an, wie sie geschrieben wurde. Verwende sie, wenn du reinen Text bevorzugst oder präzise Kontrolle über die Formatierung benötigst.
 
 Um zur *Quellcode-Ansicht* zu wechseln:
-- Klicke auf das interaktive Statussymbol ( ![[lucide-book-icon.svg#icon]] oder ![[lucide-edit-3.svg#icon]] ) in der Statusleiste und wähle **Quellcode-Ansicht**.
+- Klicke auf das interaktive Statussymbol ![[lucide-book-icon.svg#icon]] oder ![[lucide-edit-3.svg#icon]]  in der Statusleiste und wähle **Quellcode-Ansicht**.
 
 > [!note] Hinweis
 > Standardmäßig ist der Editor auf *Live-Vorschau* eingestellt. Ändere dies unter **[[Einstellungen]] → Editor → Standardmodus zum Bearbeiten** auf *Quellcode-Ansicht*.

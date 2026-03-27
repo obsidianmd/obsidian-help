@@ -19,7 +19,7 @@ Le *mode lecture* affiche votre note sans la syntaxe Markdown, offrant un format
 Pour basculer en *mode lecture* :
 
 - Cliquez sur le sélecteur de vue ![[lucide-book-icon.svg#icon]] dans le coin supérieur droit de l'éditeur.
-- Ou cliquez sur l'icône interactive de statut ( ![[lucide-edit-3.svg#icon]] ou ![[lucide-code-xml.svg#icon]] ) dans la barre d'état et sélectionnez **Mode lecture**.
+- Ou cliquez sur l'icône interactive de statut ![[lucide-edit-3.svg#icon]] ou ![[lucide-code-xml.svg#icon]] dans la barre d'état et sélectionnez **Mode lecture**.
 - Ou appuyez sur `Ctrl+E` (`Cmd+E` sur macOS).
 
 > [!note] Note
@@ -43,7 +43,7 @@ L'*aperçu en direct* affiche le texte formaté en ligne tout en masquant la plu
 Pour basculer en *aperçu en direct* :
 
 - Cliquez sur le sélecteur de vue ![[lucide-edit-3.svg#icon]] dans le coin supérieur droit de l'éditeur.
-- Ou cliquez sur l'icône interactive de statut ( ![[lucide-book-icon.svg#icon]] ou ![[lucide-code-xml.svg#icon]] ) dans la barre d'état et sélectionnez **Aperçu en direct**.
+- Ou cliquez sur l'icône interactive de statut ![[lucide-book-icon.svg#icon]] ou ![[lucide-code-xml.svg#icon]] dans la barre d'état et sélectionnez **Aperçu en direct**.
 - Ou appuyez sur `Ctrl+E` (`Cmd+E` sur macOS).
 - Ou utilisez la [[Palette de commandes|commande]] **Basculer le mode lecture**.
 
@@ -57,7 +57,7 @@ Pour basculer en *aperçu en direct* :
 Le *mode source* affiche toute la syntaxe Markdown exactement telle qu'elle est écrite. Utilisez-le si vous préférez le texte brut ou si vous avez besoin d'un contrôle précis de la mise en forme.
 
 Pour basculer en *mode source* :
-- Cliquez sur l'icône interactive de statut ( ![[lucide-book-icon.svg#icon]] ou ![[lucide-edit-3.svg#icon]] ) dans la barre d'état et sélectionnez **Mode source**.
+- Cliquez sur l'icône interactive de statut ![[lucide-book-icon.svg#icon]] ou ![[lucide-edit-3.svg#icon]]  dans la barre d'état et sélectionnez **Mode source**.
 
 > [!note] Note
 > Par défaut, le mode d'édition est réglé sur *Aperçu en direct*. Modifiez-le en *Mode source* sous **[[Paramètres]] → Éditeur → Mode d'édition par défaut**.

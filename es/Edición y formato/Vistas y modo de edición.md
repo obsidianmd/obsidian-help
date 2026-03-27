@@ -16,7 +16,7 @@ La *vista de lectura* muestra tu nota sin la sintaxis Markdown, ofreciendo un fo
 Para cambiar a la *vista de lectura*:
 
 - Haz clic en el selector de vista ![[lucide-book-icon.svg#icon]] en la esquina superior derecha del editor.
-- O haz clic en el icono de estado interactivo ( ![[lucide-edit-3.svg#icon]] o ![[lucide-code-xml.svg#icon]] ) en la barra de estado y selecciona **Vista de lectura**.
+- O haz clic en el icono de estado interactivo ![[lucide-edit-3.svg#icon]] o ![[lucide-code-xml.svg#icon]] en la barra de estado y selecciona **Vista de lectura**.
 - O presiona `Ctrl+E` (`Cmd+E` en macOS).
 
 > [!note] Nota
@@ -40,7 +40,7 @@ La *vista previa en vivo* muestra texto formateado en línea mientras oculta la 
 Para cambiar a *vista previa en vivo*:
 
 - Haz clic en el selector de vista ![[lucide-edit-3.svg#icon]] en la esquina superior derecha del editor.
-- O haz clic en el icono de estado interactivo ( ![[lucide-book-icon.svg#icon]] o ![[lucide-code-xml.svg#icon]] ) en la barra de estado y selecciona **Vista previa en vivo**.
+- O haz clic en el icono de estado interactivo ![[lucide-book-icon.svg#icon]] o ![[lucide-code-xml.svg#icon]] en la barra de estado y selecciona **Vista previa en vivo**.
 - O presiona `Ctrl+E` (`Cmd+E` en macOS).
 - O usa el [[Paleta de comandos|comando]] **Alternar entre modo edición y vista previa**.
 
@@ -54,7 +54,7 @@ Para cambiar a *vista previa en vivo*:
 El *modo de código fuente* muestra toda la sintaxis Markdown exactamente como fue escrita. Úsalo si prefieres texto sin formato o necesitas un control preciso del formato.
 
 Para cambiar al *modo de código fuente*:
-- Haz clic en el icono de estado interactivo ( ![[lucide-book-icon.svg#icon]] o ![[lucide-edit-3.svg#icon]] ) en la barra de estado y selecciona **Modo de código fuente**.
+- Haz clic en el icono de estado interactivo ![[lucide-book-icon.svg#icon]] o ![[lucide-edit-3.svg#icon]]  en la barra de estado y selecciona **Modo de código fuente**.
 
 > [!note] Nota
 > De forma predeterminada, la vista de edición está configurada en *vista previa en vivo*. Cámbiala a *modo de código fuente* en **[[Configuración]] → Editor → Modo de edición predeterminado**.
