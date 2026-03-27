@@ -1,0 +1,54 @@
+name: Apply EN diff to locales
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_ref:
+        description: 'Git ref to diff from (e.g. HEAD~1, a commit SHA)'
+        required: true
+  push:
+    branches: [master]
+    paths:
+      - 'en/**'
+
+jobs:
+  apply-diff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    strategy:
+      matrix:
+        locale: [ar, de, es, fa, fr, id, it, ja, km, ko, pt-br, ru, vi, zh, da]
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install script dependencies
+        run: npm install
+        working-directory: scripts
+
+      - name: Apply diff to ${{ matrix.locale }}
+        run: |
+          FROM=${{ github.event.inputs.from_ref || github.event.before }}
+          echo "Diffing from: $FROM"
+          npx tsx scripts/apply-diff-locale.ts "${{ matrix.locale }}" --from "$FROM"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: apply EN diff to ${{ matrix.locale }}"
+          git pull --rebase
+          git push
