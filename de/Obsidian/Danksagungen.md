@@ -72,6 +72,7 @@ Anerkennung an diese Erweiterungsentwickler, die Funktionen entwickelt haben, di
 - lisachev, Сергей Лисачев (Russisch)
 - mafsi, Patrick Danilevici (Rumänisch)
 - Manuel Arias Almada (Spanisch)
+- Moyf, 墨一 (Vereinfachtes Chinesisch)
 - Muhammad Mauli Mubassari (Indonesisch)
 - Olivier Anthonioz (Französisch) 
 - Ryooo，睿悠ryooo (Vereinfachtes Chinesisch)
