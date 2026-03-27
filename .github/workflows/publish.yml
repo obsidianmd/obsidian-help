@@ -63,11 +63,43 @@ jobs:
             fi
           done < /tmp/sites.txt
 
+      - name: Determine changed locales
+        id: changed
+        run: |
+          # Manual trigger or first-ever push → publish all
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] ||
+             [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            echo "locales=" >> $GITHUB_OUTPUT
+            echo "Publishing all locales"
+            exit 0
+          fi
+
+          # If en/publish.js or en/publish.css changed, all locales are affected
+          if git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" \
+              | grep -qE '^en/publish\.(js|css)$'; then
+            echo "locales=" >> $GITHUB_OUTPUT
+            echo "EN publish assets changed — publishing all locales"
+            exit 0
+          fi
+
+          # Otherwise publish only the locale dirs that have changed files
+          LOCALES=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" \
+            | cut -d/ -f1 | sort -u \
+            | node -e "
+                const fs = require('fs');
+                const defs = JSON.parse(fs.readFileSync('scripts/locales.json', 'utf8'));
+                const valid = new Set(defs.map(l => l.dir ?? l.code));
+                const lines = fs.readFileSync('/dev/stdin', 'utf8').trim().split('\n');
+                process.stdout.write(lines.filter(l => valid.has(l)).join(' '));
+              ")
+          echo "locales=$LOCALES" >> $GITHUB_OUTPUT
+          echo "Publishing locales: $LOCALES"
+
       - name: Update publish.js
-        run: npx tsx scripts/build-publish-js.ts
+        run: npx tsx scripts/build-publish-js.ts ${{ steps.changed.outputs.locales }}
 
       - name: Update publish.css
-        run: npx tsx scripts/build-publish-css.ts
+        run: npx tsx scripts/build-publish-css.ts ${{ steps.changed.outputs.locales }}
 
-      - name: Publish all sites and update nav
-        run: npx tsx scripts/publish-all.ts
+      - name: Publish and update nav
+        run: npx tsx scripts/publish-all.ts ${{ steps.changed.outputs.locales }}
