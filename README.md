@@ -32,6 +32,7 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 - For any Obsidian app text (such as buttons, features, etc), use [obsidian-translations](https://github.com/obsidianmd/obsidian-translations) as the source of truth for all locales.
 - Every page uses the same `permalink` value across locales. This permalink functions as a unique ID and path for cross-locale access to the same content. For example, `obsidian.md/help/resources` (for English) points to the same content as `obsidian.md/fr/help/resources` (French).
 - All pages from the English locale should exist 1:1 on all other locales to ensure all permalinks work across locales. It is better to have untranslated English text at the locale URL than a broken URL.
+- See the [Style Guide](https://obsidian.md/help/style-guide) for guidelines on writing style.
 
 ## Workflow
 
