@@ -72,6 +72,7 @@ Créditos a estos desarrolladores de complementos por ser pioneros en funcionali
 - lisachev, Сергей Лисачев (ruso)
 - mafsi, Patrick Danilevici (rumano)
 - Manuel Arias Almada (español)
+- Moyf, 墨一 (chino simplificado)
 - Muhammad Mauli Mubassari (indonesio)
 - Olivier Anthonioz (francés)
 - Ryooo，睿悠ryooo (chino simplificado)
