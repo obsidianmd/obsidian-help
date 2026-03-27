@@ -74,6 +74,7 @@ Penghargaan kepada para pengembang plugin ini yang telah merintis fungsionalitas
 - lisachev, Сергей Лисачев (Rusia)
 - mafsi, Patrick Danilevici (Rumania)
 - Manuel Arias Almada (Spanyol)
+- Moyf, 墨一 (Chinese Simplified)
 - Muhammad Mauli Mubassari (Indonesia)
 - Olivier Anthonioz (Prancis) 
 - Ryooo，睿悠ryooo (Tionghoa Sederhana)

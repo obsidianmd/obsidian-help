@@ -74,6 +74,7 @@ Ghi công các nhà phát triển plugin đã tiên phong các chức năng đư
 - lisachev, Сергей Лисачев (Tiếng Nga)
 - mafsi, Patrick Danilevici (Tiếng Romania)
 - Manuel Arias Almada (Tiếng Tây Ban Nha)
+- Moyf, 墨一 (Chinese Simplified)
 - Muhammad Mauli Mubassari (Tiếng Indonesia)
 - Olivier Anthonioz (Tiếng Pháp)
 - Ryooo，睿悠ryooo (Tiếng Trung Giản thể)

@@ -72,6 +72,7 @@ Créditos a estes desenvolvedores de plugins por terem sido pioneiros em funcion
 - lisachev, Сергей Лисачев (Russo)
 - mafsi, Patrick Danilevici (Romeno)
 - Manuel Arias Almada (Espanhol)
+- Moyf, 墨一 (Chinese Simplified)
 - Muhammad Mauli Mubassari (Indonésio)
 - Olivier Anthonioz (Francês) 
 - Ryooo，睿悠ryooo (Chinês Simplificado)
