@@ -15,8 +15,6 @@ jobs:
   apply-diff:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    permissions:
-      contents: write
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     strategy:
@@ -43,12 +41,46 @@ jobs:
           echo "Diffing from: $FROM"
           npx tsx scripts/apply-diff-locale.ts "${{ matrix.locale }}" --from "$FROM"
 
-      - name: Commit changes
+      - name: Upload changes as patch
+        run: |
+          git diff > /tmp/${{ matrix.locale }}.patch
+          echo "Patch size: $(wc -c < /tmp/${{ matrix.locale }}.patch) bytes"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: patch-${{ matrix.locale }}
+          path: /tmp/${{ matrix.locale }}.patch
+          if-no-files-found: ignore
+
+  commit:
+    needs: apply-diff
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download all patches
+        uses: actions/download-artifact@v4
+        with:
+          pattern: patch-*
+          path: /tmp/patches
+
+      - name: Apply patches and commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          for patch in /tmp/patches/patch-*/*.patch; do
+            [ -s "$patch" ] || continue  # skip empty patches
+            echo "Applying $patch"
+            git apply "$patch"
+          done
+
+          git diff --staged --quiet && git diff --quiet && echo "No changes to commit" && exit 0
           git add .
-          git diff --staged --quiet && exit 0
-          git commit -m "chore: apply EN diff to ${{ matrix.locale }}"
-          git pull --rebase
+          git commit -m "chore: apply EN diff to locales"
           git push

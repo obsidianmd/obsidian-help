@@ -2,9 +2,16 @@ name: Publish
 
 on:
   workflow_dispatch:
+  # When EN content changes, wait for apply-diff to commit translations first
+  workflow_run:
+    workflows: ["Apply EN diff to locales"]
+    types: [completed]
+    branches: [master]
+  # Locale-only changes publish directly (no translation step needed)
   push:
     branches: [master]
     paths-ignore:
+      - 'en/**'
       - 'scripts/**'
       - 'Sandbox/**'
       - 'Release notes/**'
