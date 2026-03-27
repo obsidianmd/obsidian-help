@@ -75,6 +75,7 @@ Vi krediterer følgende plugin udviklere for deres banebrydende funktioner som e
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, Patrick Danilevici (Romanian)
 - Manuel Arias Almada (Spanish)
+- Moyf, 墨一 (Chinese Simplified)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
 - Ryooo，睿悠ryooo (Chinese Simplified)
@@ -90,11 +91,9 @@ Vi krediterer følgende plugin udviklere for deres banebrydende funktioner som e
 
 Den først version af hjælpeboksen var skrevet af Silver. Senere tilføjelser er skrevet af [@mediapathic](http://mediapathic.net), med stor hjælp fra Reggie. Vi har også fået rettelser fra de mange øjne på Discord og i forumfællesskabet.
 
-Reference dokumentationen på engelsk vedligeholdes på nuværende tidspunkt af [Marcus Olsson](https://marcus.se.net/).
+Reference dokumentationen blev vedligeholdt af [Marcus Olsson](https://marcus.se.net/) i en periode. På nuværende tidspunkt vedligeholdes den af Obsidian teamet.
 
-Vi accepterer nu "pull requests" af hjælpeboksen i [vores dokumentations GIT repository](https://github.com/obsidianmd/obsidian-docs/).
-
-Denne danske version er opdateret: 1. marts 2026
+Vi accepterer nu "pull requests" af hjælpeboksen i [vores dokumentations GIT repository](https://github.com/obsidianmd/obsidian-docs/). Fejlrapporter er velkomne.
 
 ### Tilføj dit navn
 
@@ -104,39 +103,35 @@ Hvis dit navn ikke er på engelsk eller kan listes alfabetisk, så benyt formate
 
 ## Tredjeparts krediteringer
 
-Obsidian logoet er tilpaset ud fra:
-
-[Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
-By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
-License: Attribution 3.0 Unported (CC BY 3.0)
-
 Obsidian benytter nedenstående open source biblioteker (i alfabetisk rækkefølge):
 
 ### Capacitor
 
+Version `5.x`
 MIT License
 Copyright (c) 2017-present Drifty Co.
 
 ### CodeMirror
 
+Vim Version `6.0.0`
 MIT License
 Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@adrianheine.de>, and others
 
 ### DOMPurify
 
 https://github.com/cure53/DOMPurify
-Licensed under the Mozilla Public License version 2.0
-http://mozilla.org/MPL/2.0/
+Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2.0/)
 
 ### Electron
 
+Version `37.3.0`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
 
 ### i18next
 
-The MIT License (MIT)
+MIT License
 Copyright (c) 2022 i18next
 
 ### Lezer
@@ -146,8 +141,9 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
+Version `0.446.0`
 ISC License
-Copyright (c) 2020, Lucide Contributors
+Copyright (c) 2020, Lucide Contributors ^lucide
 
 ### MathJax
 
@@ -155,18 +151,15 @@ Apache License 2.0
 
 ### Mermaid
 
-The MIT License (MIT)
+Version `11.4.1`
+MIT License
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
+Version `2.29.4`
 MIT License
 Copyright (c) JS Foundation and other contributors
-
-### nspell
-
-The MIT License
-Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>
 
 ### pdf.js
 
@@ -174,12 +167,13 @@ Apache License 2.0
 
 ### PixiJS
 
-The MIT License
+MIT License
 Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
 ### Prism
 
-MIT LICENSE
+Version `1.29.0`
+MIT License
 Copyright (c) 2012 Lea Verou
 
 ### rbush
@@ -189,12 +183,13 @@ Copyright (c) 2016 Vladimir Agafonkin
 
 ### remark
 
-The MIT License
+MIT License
 Copyright (c) 2014-2020 Titus Wormer <tituswormer@gmail.com>
 Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
 
 ### reveal.js
 
+Version `4.3.1`
 The MIT License
 Copyright (C) 2011-2022 Hakim El Hattab, http://hakim.se, and reveal.js contributors
 
@@ -214,6 +209,7 @@ Copyright JS Foundation and other contributors
 
 ### YAML
 
+Version `2.7.0`
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>
 
@@ -223,4 +219,4 @@ Obsidian logo før version v1.3.5 blev tilpasset fra:
 
 [Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
 By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
-License: Attribution 3.0 Unported (CC BY 3.0)
+License: Attribution 3.0 Unported (CC BY 3.0)

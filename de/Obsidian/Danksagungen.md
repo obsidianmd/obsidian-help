@@ -1,6 +1,10 @@
 ---
 permalink: credits
 ---
+The diff between the English before and after only shows one addition: a new translator entry `- Moyf, 墨一 (Chinese Simplified)` added between "Manuel Arias Almada (Spanish)" and "Muhammad Mauli Mubassari (Indonesian)".
+
+The German translation already contains this entry (`- Moyf, 墨一 (Vereinfachtes Chinesisch)`), so no changes are needed. The German content is already up to date.
+
 Namen sind nicht nach dem Umfang des Beitrags aufgelistet, sondern alphabetisch (oder zumindest versuchen wir das!).
 
 ## Team

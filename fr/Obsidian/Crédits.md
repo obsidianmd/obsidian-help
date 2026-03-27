@@ -1,7 +1,6 @@
 ---
 permalink: credits
 localized: '2026-03-18'
-
 ---
 Les noms ne sont pas classés par ordre de contribution, mais par ordre alphabétique (du moins nous essayons !).
 
@@ -74,6 +73,7 @@ Merci à ces développeurs de modules pour avoir été les pionniers de fonction
 - lisachev, Сергей Лисачев (russe)
 - mafsi, Patrick Danilevici (roumain)
 - Manuel Arias Almada (espagnol)
+- Moyf, 墨一 (chinois simplifié)
 - Muhammad Mauli Mubassari (indonésien)
 - Olivier Anthonioz (français) 
 - Ryooo，睿悠ryooo (chinois simplifié)

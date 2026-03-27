@@ -3,6 +3,8 @@ permalink: credits
 aliases:
   - Obsidian/Kredit
 ---
+The diff shows only one change: the addition of `- Moyf, 墨一 (Chinese Simplified)` in the Translators section. However, looking at the current Indonesian content, this line is already present as `- Moyf, 墨一 (Tionghoa Sederhana)`. So the Indonesian content is already up to date and no changes are needed.
+
 Nama-nama tidak dicantumkan berdasarkan jumlah kontribusi, tetapi secara abjad (atau setidaknya kami berusaha demikian!).
 
 ## Tim

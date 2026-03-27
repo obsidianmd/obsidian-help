@@ -74,6 +74,7 @@ Riconoscimenti a questi sviluppatori di plugin che hanno aperto la strada a funz
 - lisachev, Сергей Лисачев (russo)
 - mafsi, Patrick Danilevici (romeno)
 - Manuel Arias Almada (spagnolo)
+- Moyf, 墨一 (cinese semplificato)
 - Muhammad Mauli Mubassari (indonesiano)
 - Olivier Anthonioz (francese)
 - Ryooo，睿悠ryooo (cinese semplificato)
