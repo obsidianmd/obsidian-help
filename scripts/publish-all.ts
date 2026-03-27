@@ -5,10 +5,10 @@
  *
  * Publishes all active locales (or the ones specified) via `ob publish`,
  * then syncs site options (nav order, display flags, etc.) for each non-EN locale.
- * Runs each locale sequentially and reports success/failure per locale.
+ * Runs all locales in parallel and reports success/failure per locale.
  */
 
-import { execSync } from "child_process";
+import { execSync, spawn } from "child_process";
 import fs from "fs";
 import path from "path";
 
@@ -41,52 +41,64 @@ const locales = rest.length > 0 ? rest : ACTIVE_LOCALES;
   }
 }
 
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+function run(cmd: string, args: string[]): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const chunks: Buffer[] = [];
+    const errChunks: Buffer[] = [];
+    const child = spawn(cmd, args, { stdio: ["ignore", "pipe", "pipe"] });
+    child.stdout.on("data", (d: Buffer) => chunks.push(d));
+    child.stderr.on("data", (d: Buffer) => errChunks.push(d));
+    child.on("close", code => {
+      const stdout = Buffer.concat(chunks).toString();
+      const stderr = Buffer.concat(errChunks).toString();
+      if (code === 0) resolve(stdout);
+      else reject(new Error((stdout + stderr).trim() || `exit code ${code}`));
+    });
+  });
+}
+
 // ─── Publish ──────────────────────────────────────────────────────────────────
 
 console.log(`Publishing ${locales.join(", ")}${dryRun ? " [DRY RUN]" : ""}\n`);
 
-let ok = 0;
-let failed = 0;
-
-for (const locale of locales) {
+const results = await Promise.all(locales.map(async locale => {
   const localePath = path.join(ROOT, locale);
-  const publishFlags = ["--path", localePath, "--all", dryRun ? "--dry-run" : "--yes"].join(" ");
-  const publishCmd = `ob publish ${publishFlags}`;
-
-  console.log(`── ${locale}`);
-  console.log(`   ${publishCmd}`);
+  const lines: string[] = [];
+  const log = (s: string) => lines.push(s);
 
   try {
-    const out = execSync(publishCmd, { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
-    if (out.trim()) {
-      for (const line of out.trim().split("\n")) {
-        console.log(`   ${line}`);
-      }
-    }
+    const publishArgs = ["publish", "--path", localePath, "--all", dryRun ? "--dry-run" : "--yes"];
+    log(`ob ${publishArgs.join(" ")}`);
+    const out = await run("ob", publishArgs);
+    if (out.trim()) for (const line of out.trim().split("\n")) log(line);
 
     if (locale !== "en") {
-      const siteArgs = [locale, ...(dryRun ? ["--dry-run"] : [])].join(" ");
-      const siteCmd = `npx tsx ${path.join(SCRIPTS_DIR, "sync-site-options.ts")} ${siteArgs}`;
-      console.log(`   ${siteCmd}`);
-      const siteOut = execSync(siteCmd, { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
-      if (siteOut.trim()) {
-        for (const line of siteOut.trim().split("\n")) {
-          console.log(`   ${line}`);
-        }
-      }
+      const siteArgs = ["tsx", path.join(SCRIPTS_DIR, "sync-site-options.ts"), locale, ...(dryRun ? ["--dry-run"] : [])];
+      log(`npx ${siteArgs.join(" ")}`);
+      const siteOut = await run("npx", siteArgs);
+      if (siteOut.trim()) for (const line of siteOut.trim().split("\n")) log(line);
     }
 
-    console.log(`   ✓ done\n`);
-    ok++;
+    return { locale, ok: true, lines };
   } catch (err: unknown) {
-    const e = err as { stdout?: string; stderr?: string; message?: string };
-    const detail = (e.stdout ?? "") + (e.stderr ?? e.message ?? "");
-    for (const line of detail.trim().split("\n")) {
-      if (line.trim()) console.error(`   ${line}`);
+    const e = err as { message?: string };
+    for (const line of (e.message ?? "").split("\n")) {
+      if (line.trim()) log(line);
     }
-    console.error(`   ✗ failed\n`);
-    failed++;
+    return { locale, ok: false, lines };
   }
+}));
+
+// ─── Print results in locale order ────────────────────────────────────────────
+
+let ok = 0, failed = 0;
+for (const { locale, ok: success, lines } of results) {
+  console.log(`── ${locale}`);
+  for (const line of lines) console.log(`   ${line}`);
+  if (success) { console.log(`   ✓ done\n`); ok++; }
+  else { console.error(`   ✗ failed\n`); failed++; }
 }
 
 console.log(`--- Summary ---`);
