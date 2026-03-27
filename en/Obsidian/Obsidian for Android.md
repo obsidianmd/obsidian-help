@@ -51,6 +51,9 @@ Obsidian for Android offers several widget options to quickly access your vaults
 
 > [!note] Note
 > These widgets are static, and do not show any previews of the selected note or vault.
+> See below for dynamic preview widgets.
+
+- **View Note** - View a specific note (a dynamic widget that shows a preview of the selected note)
 
 To add widgets to your home screen:
 1. Tap and hold anywhere on your home screen
