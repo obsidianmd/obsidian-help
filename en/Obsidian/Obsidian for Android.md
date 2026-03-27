@@ -6,7 +6,7 @@ aliases:
 ---
 
 The Obsidian mobile app for Android brings powerful note-taking capabilities to your Android device. You can download it from [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) or as an [APK file](https://obsidian.md/download).
-It supports Android versions 5.1 and above.
+It currently supports Android versions 5.1 and above.
 
 This page covers Android-specific features including widgets, Quick Settings integration, and shortcuts.
 
@@ -96,3 +96,174 @@ Obsidian provides app shortcuts that can be accessed in several ways:
 - Long-press the Obsidian app icon
 - Drag the shortcut icon to your home screen
 - Access via the search bar on your launcher (available on most device vendors)
+
+## Intent API
+
+Obsidian for Android exposes an Intent API that lets other apps send content to Obsidian, and lets automation tools (such as [Tasker](https://tasker.joaoapps.com) or [MacroDroid](https://www.macrodroid.com)) trigger captures without any user interaction.
+
+There are two integration points:
+
+- **Share sheet** — any app using the standard Android share intent will appear in Obsidian Capture's share sheet. This is the recommended path for most integrations.
+- **Direct service call** — automation apps can bypass the share sheet UI entirely and invoke the capture service directly.
+
+---
+
+### Share sheet integration
+
+Obsidian registers `CaptureShareHandlerActivity` for the following intent filters. Any app that fires one of these intents will offer Obsidian Capture as a share target.
+
+#### Share text
+
+```
+Action:   android.intent.action.SEND
+MIME:     text/plain
+Extra:    android.intent.extra.TEXT  (String — the text to capture)
+```
+
+Example (Kotlin):
+
+```kotlin
+val intent = Intent(Intent.ACTION_SEND).apply {
+    type = "text/plain"
+    putExtra(Intent.EXTRA_TEXT, "My captured note")
+}
+startActivity(Intent.createChooser(intent, null))
+```
+
+#### Share a single image
+
+```
+Action:   android.intent.action.SEND
+MIME:     image/*
+Extra:    android.intent.extra.STREAM  (Uri — content URI of the image)
+```
+
+The sharing app must grant `FLAG_GRANT_READ_URI_PERMISSION` on the URI. Android does this automatically when using `Intent.createChooser`.
+
+Example (Kotlin):
+
+```kotlin
+val intent = Intent(Intent.ACTION_SEND).apply {
+    type = "image/jpeg"
+    putExtra(Intent.EXTRA_STREAM, imageUri)
+    addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+}
+startActivity(Intent.createChooser(intent, null))
+```
+
+#### Share multiple images
+
+```
+Action:   android.intent.action.SEND_MULTIPLE
+MIME:     image/*
+Extra:    android.intent.extra.STREAM  (ArrayList<Uri> — content URIs of the images)
+```
+
+Example (Kotlin):
+
+```kotlin
+val intent = Intent(Intent.ACTION_SEND_MULTIPLE).apply {
+    type = "image/jpeg"
+    putParcelableArrayListExtra(Intent.EXTRA_STREAM, arrayListOf(uri1, uri2))
+    addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+}
+startActivity(Intent.createChooser(intent, null))
+```
+
+Shared images are copied into the `attachments/` folder inside your vault. Obsidian wiki-links (`![[attachments/filename.jpg]]`) are inserted into the target note.
+
+---
+
+### Capture Service (e.g. for automation)
+
+The capture service can be started directly, bypassing the UI. This is useful for automations in apps such as Tasker.
+
+**Component:** `md.obsidian/md.obsidian.entrypoints.share.service.UpdatingCaptureTextService`
+
+
+#### Required extras
+
+Every direct service call must include these extras:
+
+| Extra key | Type | Description |
+|---|---|---|
+| `android.intent.extra.TEXT` or `android.intent.extra.STREAM` | String or Uri | The content to capture |
+| `capture_destination` | String | Storage location. See [Storage](#storage) |
+| `capture_destination_type` | String | Where in the vault to write. See [Destination type](#destination-type) |
+| `vault_name` | String | Name of the target vault |
+
+#### Storage
+
+| Value | Description |
+|---|---|
+| `APP_STORAGE` | Obsidian's private app storage |
+| `DEVICE_STORAGE` | Shared device storage (requires SAF URI) |
+
+When using `DEVICE_STORAGE`, also include:
+
+| Extra key | Type | Description |
+|---|---|---|
+| `saf_uri_string` | String | SAF tree URI for the vault root, e.g. `content://com.android.externalstorage.documents/tree/primary%3AObsidian` |
+
+#### Destination type
+
+| Value | Description | Additional extras required |
+|---|---|---|
+| `BOOKMARK` | Append/prepend to a bookmark file | `file_or_path` |
+| `NOTE` | Append/prepend to a specific note | `file_or_path` |
+| `VAULT` | Write to a note resolved at capture time | `note_capture_destination` |
+
+| Extra key | Type | Description |
+|---|---|---|
+| `file_or_path` | String | Path to the note or bookmark file relative to the vault root, e.g. `inbox/capture.md` |
+| `note_capture_destination` | String | `DAILY_NOTE` or `NEW_NOTE` (only for `VAULT` destination type) |
+| `new_note_name` | String | Filename for the new note including `.md` extension (only when `note_capture_destination = NEW_NOTE`) |
+
+#### Capture position
+
+| Extra key | Type | Default | Description |
+|---|---|---|---|
+| `capture_position` | String | `append` | `append` — add content after existing body. `prepend` — add content before existing body, after front matter. |
+
+#### Example: append text to a daily note (Kotlin)
+
+```kotlin
+val intent = Intent(Intent.ACTION_SEND).apply {
+    type = "text/plain"
+    putExtra(Intent.EXTRA_TEXT, "My automated note")
+    putExtra("capture_destination", "APP_STORAGE")
+    putExtra("capture_destination_type", "VAULT")
+    putExtra("vault_name", "My Vault")
+    putExtra("note_capture_destination", "DAILY_NOTE")
+    putExtra("capture_position", "append")
+    setClassName(
+        "md.obsidian",
+        "md.obsidian.entrypoints.share.service.UpdatingCaptureTextService"
+    )
+}
+ContextCompat.startForegroundService(context, intent)
+```
+
+#### Example: append text to a specific note on device storage (Kotlin)
+
+```kotlin
+val intent = Intent(Intent.ACTION_SEND).apply {
+    type = "text/plain"
+    putExtra(Intent.EXTRA_TEXT, "Meeting notes")
+    putExtra("capture_destination", "DEVICE_STORAGE")
+    putExtra("saf_uri_string", "content://com.android.externalstorage.documents/tree/primary%3AObsidian")
+    putExtra("capture_destination_type", "NOTE")
+    putExtra("vault_name", "My Vault")
+    putExtra("file_or_path", "inbox/meetings.md")
+    putExtra("capture_position", "append")
+    setClassName(
+        "md.obsidian",
+        "md.obsidian.entrypoints.share.service.UpdatingCaptureTextService"
+    )
+}
+ContextCompat.startForegroundService(context, intent)
+```
+
+> [!note] Permission required
+> To start the Obsidian capture service from another app, your custom app needs the `android.permission.FOREGROUND_SERVICE` permission in its manifest. On Android 14 and higher, `android.permission.FOREGROUND_SERVICE_DATA_SYNC` is also required.
+
