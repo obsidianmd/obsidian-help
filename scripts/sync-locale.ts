@@ -167,7 +167,7 @@ function frontmatterChanged(
 }
 
 function writeFile(filePath: string, fm: Record<string, unknown>, content: string) {
-  const newContent = matter.stringify(content, fm, { lineWidth: -1 });
+  const newContent = matter.stringify(content, fm, { lineWidth: -1 } as any);
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, newContent, "utf8");
 }

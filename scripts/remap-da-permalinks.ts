@@ -174,7 +174,7 @@ for (const { full, basename, parsed } of toRemap) {
     if (!existing.includes(oldPermalink)) {
       newFm.aliases = [oldPermalink, ...existing];
     }
-    fs.writeFileSync(full, matter.stringify(parsed.content, newFm, { lineWidth: -1 }), "utf8");
+    fs.writeFileSync(full, matter.stringify(parsed.content, newFm, { lineWidth: -1 } as any), "utf8");
   }
   matched++;
 }

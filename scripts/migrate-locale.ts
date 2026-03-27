@@ -354,7 +354,7 @@ for (const [permalink, newAliases] of aliasByPermalink) {
 
   const rel = path.relative(localeDir, localeFile.absPath);
   const newFm = { ...localeFile.frontmatter, aliases: [...existing, ...toAdd] };
-  fs.writeFileSync(localeFile.absPath, matter.stringify(localeFile.content, newFm, { lineWidth: -1 }), "utf8");
+  fs.writeFileSync(localeFile.absPath, matter.stringify(localeFile.content, newFm, { lineWidth: -1 } as any), "utf8");
   console.log(`  APPLIED  ${locale}/${rel}`);
   for (const a of toAdd) console.log(`             + "${a}"`);
   applied++;

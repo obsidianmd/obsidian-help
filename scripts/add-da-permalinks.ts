@@ -85,7 +85,7 @@ for (const [relPath, permalink] of Object.entries(MAP)) {
 
   if (APPLY) {
     const newFm: Record<string, unknown> = { permalink, ...parsed.data as Record<string, unknown> };
-    fs.writeFileSync(fullPath, matter.stringify(parsed.content, newFm, { lineWidth: -1 }), "utf8");
+    fs.writeFileSync(fullPath, matter.stringify(parsed.content, newFm, { lineWidth: -1 } as any), "utf8");
   }
   applied++;
 }

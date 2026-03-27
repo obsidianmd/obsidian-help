@@ -137,8 +137,10 @@ interface Rule {
   fixPattern: RegExp;  // pre-compiled with gi, for replacement
 }
 
+type RuleDraft = Omit<Rule, "scanPattern" | "fixPattern">;
+
 function buildRules(terms: Term[], filenames: FilenamesMap): Rule[] {
-  const rules: Rule[] = [];
+  const rules: RuleDraft[] = [];
   const officialLower = new Map<string, string>(); // official translation (lower) → official
 
   // From obsidian-translations: flag EN originals that have an official translation
@@ -165,7 +167,7 @@ function buildRules(terms: Term[], filenames: FilenamesMap): Rule[] {
   }
 
   // Deduplicate: keep longest match wins per wrong string
-  const seen = new Map<string, Rule>();
+  const seen = new Map<string, RuleDraft>();
   for (const rule of rules) {
     const key = rule.wrong.toLowerCase();
     const existing = seen.get(key);
@@ -294,7 +296,7 @@ function applyFixes(absPath: string, issues: Issue[], parsedData: Record<string,
   }
 
   if (changed) {
-    const newContent = matter.stringify(lines.join("\n"), parsedData, { lineWidth: -1 });
+    const newContent = matter.stringify(lines.join("\n"), parsedData, { lineWidth: -1 } as any);
     fs.writeFileSync(absPath, newContent, "utf8");
   }
   return changed;

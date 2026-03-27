@@ -567,7 +567,7 @@ async function saveTranslated(
   const newFm = { ...file.frontmatter };
   delete newFm["localized"];
   delete newFm["needs-retranslation"];
-  const newContent = matter.stringify(fixed, newFm, { lineWidth: -1 });
+  const newContent = matter.stringify(fixed, newFm, { lineWidth: -1 } as any);
   fs.writeFileSync(file.absPath, newContent, "utf8");
 
   console.log(`    ✓ saved (${Object.keys(newEntries).length} heading(s) mapped)`);
@@ -587,7 +587,7 @@ function runFixLinks(headingsMap: HeadingsMap, basenameToPermalink: Map<string, 
         const headingFixed = fixHeadingLinks(parsed.content, headingsMap, basenameToPermalink);
         const updated = fixFilenameLinks(headingFixed, enToLocale);
         if (updated !== parsed.content) {
-          const newContent = matter.stringify(updated, parsed.data, { lineWidth: -1 });
+          const newContent = matter.stringify(updated, parsed.data, { lineWidth: -1 } as any);
           if (!dryRun) fs.writeFileSync(full, newContent, "utf8");
           const rel = path.relative(localeDir, full);
           console.log(`  FIX-LINKS  ${rel}`);
@@ -630,7 +630,7 @@ async function translateDescriptionFields(files: FileInfo[], config: LLMConfig):
       const f = entries[i].file;
       const parsed = matter(fs.readFileSync(f.absPath, "utf8"));
       const newFm = { ...parsed.data, description: frDesc };
-      fs.writeFileSync(f.absPath, matter.stringify(parsed.content, newFm, { lineWidth: -1 }), "utf8");
+      fs.writeFileSync(f.absPath, matter.stringify(parsed.content, newFm, { lineWidth: -1 } as any), "utf8");
       console.log(`  DESC  ${f.relPath}`);
       updated++;
     }
@@ -683,7 +683,7 @@ async function main() {
       if (dryRun) { done++; continue; }
       try {
         const raw = await callLLM(config, editPrompt, file.content.trim());
-        const newRaw = matter.stringify("\n" + raw.trim() + "\n", file.frontmatter, { lineWidth: -1 });
+        const newRaw = matter.stringify("\n" + raw.trim() + "\n", file.frontmatter, { lineWidth: -1 } as any);
         fs.writeFileSync(file.absPath, newRaw, "utf8");
         done++;
       } catch (err) {
