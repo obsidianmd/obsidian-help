@@ -55,9 +55,10 @@ jobs:
           while read -r siteId slug; do
             slug="${slug//\"/}"
             locale=$( [ "$slug" = "help" ] && echo "en" || echo "${slug#help-}" )
-            if [ -d "$GITHUB_WORKSPACE/$locale" ]; then
-              echo "Linking $locale ($siteId)..."
-              ob publish-setup --site "$siteId" --path "$GITHUB_WORKSPACE/$locale"
+            dir=$(find "$GITHUB_WORKSPACE" -maxdepth 1 -type d -iname "$locale" | head -1)
+            if [ -n "$dir" ]; then
+              echo "Linking $locale ($siteId) → $dir"
+              ob publish-setup --site "$siteId" --path "$dir"
             else
               echo "Skipping $slug — no $locale/ directory"
             fi
