@@ -2,7 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: 'Learn how to use HTML in Obsidian, including limitations with Markdown rendering, and HTML block requirements.'
+description: Markdown 렌더링의 제한 사항과 HTML 블록 요구 사항을 포함하여 Obsidian에서 HTML을 사용하는 방법을 알아보세요.
 ---
 
 Obsidian은 노트를 원하는 방식으로 표시하거나 [[웹 페이지 삽입|웹 페이지를 삽입]]할 수 있도록 HTML을 지원해요. 노트 내에서 HTML을 허용하면 위험이 따라요. 악성 코드가 피해를 주는 것을 방지하기 위해 Obsidian은 노트의 모든 HTML을 _살균(sanitize)_ 해요.

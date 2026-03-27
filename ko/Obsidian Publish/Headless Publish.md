@@ -2,7 +2,7 @@
 permalink: publish/headless
 cssclasses:
   - reference
-description: Obsidian Publish offers a headless client to publish vaults without using the desktop app. Useful for CI pipelines and automated workflows.
+description: Obsidian Publish는 데스크톱 앱을 사용하지 않고 보관함을 게시할 수 있는 헤드리스 클라이언트를 제공합니다. CI 파이프라인 및 자동화된 워크플로에 유용합니다.
 ---
 [[Obsidian Publish 소개|Obsidian Publish]]는 데스크톱 앱 없이 보관함을 게재할 수 있는 헤드리스 클라이언트를 제공해요. CI 파이프라인이나 자동화 워크플로에 유용해요. 일정에 따라 또는 빌드 파이프라인의 일부로 최신 변경 사항을 게재할 수 있어요.
 

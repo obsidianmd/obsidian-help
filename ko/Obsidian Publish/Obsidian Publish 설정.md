@@ -1,7 +1,7 @@
 ---
 permalink: publish/setup
 mobile: true
-description: 'In this guide, you''ll enable Obsidian Publish for your vault, create a site, and publish your notes to it.'
+description: '이 가이드에서는 보관함에 Obsidian Publish를 활성화하고, 사이트를 만들고, 노트를 게시합니다.'
 ---
 
 이 가이드에서는 보관함에 [[Obsidian Publish 소개|Obsidian Publish]]를 활성화하고, 사이트를 생성하고, 노트를 게재하는 방법을 안내해요.

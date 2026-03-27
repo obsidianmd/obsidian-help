@@ -5,7 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: Obsidian Sync is an add-on service that allows you to privately sync your notes across devices.
+description: Obsidian Sync는 기기 간에 노트를 비공개로 동기화할 수 있는 부가 서비스입니다.
 ---
 
 [Obsidian Sync](https://obsidian.md/ko/sync)는 기기 간에 노트를 비공개로 동기화할 수 있는 부가 서비스예요.

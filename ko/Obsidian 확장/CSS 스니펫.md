@@ -2,7 +2,7 @@
 permalink: snippets
 publish: true
 mobile: true
-description: Learn how to change parts of the Obsidian app’s appearance without creating a full theme.
+description: 전체 테마를 만들지 않고 Obsidian 앱의 외관 일부를 변경하는 방법을 알아보세요.
 ---
 [테마를 빌드](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)하지 않고도 Obsidian 앱의 외형을 수정하는 방법을 알아보세요.
 

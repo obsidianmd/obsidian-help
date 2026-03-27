@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+description: Obsidian Sync를 구매하셨고 시작할 준비가 되셨습니다. 이 가이드는 일상적인 사용을 위해 Obsidian Sync를 설정하고 조정하는 데 도움을 줍니다.
 ---
 
 Obsidian Sync를 구매하고 시작할 준비가 되었어요. 이 가이드는 Obsidian Sync를 설정하고 일상적으로 사용할 수 있도록 설정을 조정하는 방법을 안내해요.

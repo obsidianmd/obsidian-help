@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Learn how to transition from your current syncing solution to Obsidian Sync.
+description: 현재 사용 중인 동기화 솔루션에서 Obsidian Sync로 전환하는 방법을 알아보세요.
 ---
 
 현재 사용 중인 동기화 솔루션에서 Obsidian Sync로 전환하는 방법을 알아보세요.

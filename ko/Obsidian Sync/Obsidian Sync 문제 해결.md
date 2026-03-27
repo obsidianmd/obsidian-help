@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: This page lists uncommon issues you may encounter with Obsidian Sync and how to resolve them.
+description: 이 페이지는 Obsidian Sync에서 발생할 수 있는 드문 문제와 해결 방법을 나열합니다.
 ---
 
 이 페이지에서는 [[Obsidian Sync 소개|Obsidian Sync]]에서 발생할 수 있는 드문 문제와 해결 방법을 안내해요. 진행하기 전에 [[상태 아이콘 및 메시지]]와 [[자주 묻는 질문]] 페이지를 먼저 확인하는 것을 권장해요.

@@ -2,7 +2,7 @@
 permalink: data-storage
 publish: true
 mobile: true
-description: This page explains how Obsidian stores its data on your device.
+description: 이 페이지는 Obsidian이 기기에 데이터를 저장하는 방식을 설명합니다.
 ---
 
 Obsidian은 노트를 [[기본 서식 구문|Markdown 형식의]] 일반 텍스트 파일로 _보관함_에 저장해요. 보관함은 하위 폴더를 포함하여 로컬 파일 시스템의 폴더예요.

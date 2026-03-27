@@ -1,6 +1,6 @@
 ---
 permalink: headless
-description: Obsidian Headless is a command line client for Obsidian services. Sync your vaults without the desktop app.
+description: Obsidian Headless는 Obsidian 서비스를 위한 명령줄 클라이언트입니다. 데스크톱 앱 없이 보관함을 동기화하세요.
 ---
 
 Obsidian Headless **(오픈 베타)**는 Obsidian 서비스를 위한 헤드리스 클라이언트예요. 데스크톱 앱 없이 명령줄에서 [[헤드리스 Sync|보관함을 동기화]]할 수 있으며, [[Obsidian Sync 소개|Obsidian Sync]]의 빠른 속도, 개인정보 보호, 종단 간 암호화의 모든 이점을 제공해요.
