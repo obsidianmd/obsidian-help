@@ -85,7 +85,7 @@ To add a quick settings tile to your notification shade:
 3. Find and select an Obsidian Quick Settings tile, then rearrange it to your liking.
 4. To configure a Quick Settings tile, tap and hold it to bring up the configuration screen.
 
-See this  [Google Support article](https://support.google.com/android/answer/9083864?hl=en) for more information on Android Quick Settings.
+See this [Google Support article](https://support.google.com/android/answer/9083864?hl=en) for more information on Android Quick Settings.
 
 ## Shortcuts
 
