@@ -19,6 +19,17 @@ jobs:
       - name: Install ob CLI
         run: npm install -g obsidian-headless
 
+      - name: Set up ob auth
+        run: |
+          node -e "
+            const os = require('os'), path = require('path'), fs = require('fs');
+            const dir = os.platform() === 'linux'
+              ? path.join(process.env.XDG_CONFIG_HOME || path.join(os.homedir(), '.config'), 'obsidian-headless')
+              : path.join(os.homedir(), '.obsidian-headless');
+            fs.mkdirSync(dir, { recursive: true });
+            fs.writeFileSync(path.join(dir, 'auth_token'), process.env.OBSIDIAN_AUTH_TOKEN);
+          "
+
       - name: Install script dependencies
         run: npm install
         working-directory: scripts
