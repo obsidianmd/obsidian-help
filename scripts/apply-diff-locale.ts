@@ -575,7 +575,8 @@ async function main() {
         `- For removals: identify and remove the equivalent ${langName} passage`,
         `- For additions: translate the new English content and insert it at the correct position`,
         `- For modifications: update the corresponding ${langName} passage`,
-        `Return ONLY the updated ${langName} markdown content. No frontmatter, no code fences, no explanation.`,
+        `- If the change is already reflected in the ${langName} content, return the content unchanged`,
+        `Your response must be ONLY the raw markdown content — no frontmatter, no code fences, no commentary, no explanation. Do not describe what you did. Output the content and nothing else.`,
         glossary ? `\nGLOSSARY (use these translations for Obsidian UI terms):\n${glossary}` : "",
       ].filter(Boolean).join("\n");
 

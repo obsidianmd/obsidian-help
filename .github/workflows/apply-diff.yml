@@ -19,7 +19,7 @@ jobs:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     strategy:
       matrix:
-        locale: [ar, de, es, fa, fr, id, it, ja, km, ko, pt-br, ru, vi, zh, da]
+        locale: [ar, da, de, es, fa, fr, id, it, ja, km, ko, pt-br, ru, vi, zh, zh-TW]
       fail-fast: false
 
     steps:
