@@ -163,7 +163,17 @@ This writes the Obsidian Publish credentials into the locale's `.obsidian/publis
 
 > **Note:** `setup-sites.ts` (run automatically by `publish-all.ts`) re-runs `ob publish-setup` for every locale before publishing. It uses `locales.json` to resolve the correct directory name, so mixed-case locales like `zh-TW` are handled correctly.
 
-### Step 7 — Publish
+### Step 7 — Update README
+
+Add the new locale to the language table in `README.md`. The table is sorted alphabetically by locale code, with `en` first and `zh`/`zh-TW` last. Insert the new row in the correct alphabetical position:
+
+```markdown
+| `<locale>` | https://obsidian.md/<locale>/help/ |
+```
+
+Use the same locale code casing as in `locales.json` (e.g. `pt-BR`, `zh-TW`).
+
+### Step 8 — Publish
 
 Publish the new locale using the publish-all script (it handles nav order and site options too):
 
