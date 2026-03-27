@@ -1,5 +1,8 @@
 ---
-permalink: plugins/bogmærker
+permalink: plugins/bookmarks
+aliases:
+  - plugins/bogmærker
+  - Plugins/Bogmærker
 ---
 "Bogmærker" er et [[Kerneplugins|kerneplugin]], som gør dig i stand til hurtigt, at kunne tilgå noget information, som du ofte anvender. Et bogmærke er en "genvej", som øjblikkelig fører dig til den bogmærkede infomration.
 

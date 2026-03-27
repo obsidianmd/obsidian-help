@@ -1,5 +1,10 @@
 ---
-permalink: faner
+permalink: tabs
+aliases:
+  - faner
+  - Brugergrænseflade/Faner
+publish: true
+mobile: true
 ---
 
 I Obsidian fungerer faner på samme måde, som i andre applikationer fx. internet browsere.

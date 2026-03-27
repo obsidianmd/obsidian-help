@@ -1,7 +1,9 @@
 ---
 description: Sådan kan du ændre Obsidians grundlæggende udseende.
-publish: true
-permalink: udseende
+permalink: appearance
+aliases:
+  - udseende
+  - Brugergrænseflade/Udseende
 ---
 ### Farveskema
 

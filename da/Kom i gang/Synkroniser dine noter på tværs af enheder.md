@@ -3,8 +3,11 @@ cssclasses:
   - soft-embed
 description: Hvordan du synkroniserer dine Obsidian noter på tværs af enheder og platforme.
 mobile: true
-permalink: synkroniser-noter
+permalink: sync-notes
 publish: true
+aliases:
+  - synkroniser-noter
+  - Kom i gang/Synkroniser dine noter på tværs af enheder
 ---
 
 Obsidian gemmer dine noter lokalt på din enhed, så du altid kan tilgå dem selvom du ikke er online. For at tilgå dine noter på flere enheder skal du benytte en synkroniseringsmetode.
@@ -15,7 +18,7 @@ Vi anbefaler, at du også læser vores [[Lav backup af dine Obsidian filer|guide
 
 ## Synkroniseringsmetoder
 
-Med Obsidian er dine data blot gemt som filer i en mappe kaldet en [[Lokal- og fjernbokse|boks]]. Dette betyder, at du har mange måder at kunne synkronisere dine data.
+Med Obsidian er dine data blot gemt som filer i en mappe kaldet en [[Lokale og fjernbokse|boks]]. Dette betyder, at du har mange måder at kunne synkronisere dine data.
 
 Her er beskrevet nogle få almindelige synkroniseringsmetoder som er rapporteret af medlemmer i [Obsidian fællesskabet](https://obsidian.md/community):
 
@@ -113,7 +116,7 @@ iCloud kan benyttes til at synkronisere bokse mellem iOS og macOS. Bemærk at **
 
 > [!Tip] Bedste praksis:
 > - Sæt boks filer til **Tilgængelig Offline** på Google Drive for at hindre at de flyttes offline, hvilket giver synkroniseringsproblemer
-> - Overvej alternative metoder for iOS, som fx. [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]], eller benyt **Remotely Save** pluginnet.
+> - Overvej alternative metoder for iOS, som fx. [[Introduktion til Obsidian Sync|Obsidian Sync]], [[#iCloud]], eller benyt **Remotely Save** pluginnet.
 
 ## Syncthing
 

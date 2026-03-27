@@ -1,5 +1,8 @@
 ---
-permalink: plugins/tilfældig-note
+permalink: plugins/random-note
+aliases:
+  - plugins/tilfældig-note
+  - Plugins/Tilfældig note
 ---
 Dette plugin åbner en tilfældig note i din boks. Genopdag noter og få nye indsigter, eller lav links til nyligt tilføjede noter.
 

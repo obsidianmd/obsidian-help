@@ -1,5 +1,8 @@
 ---
-permalink: plugins/lydoptager
+permalink: plugins/audio-recorder
+aliases:
+  - plugins/lydoptager
+  - Plugins/Lydoptager
 ---
 Optag og gem lydoptagelser direkte i en note. med **Lyd optager** pluginnet kan du optage detaljer fra en forelæsning, et møde eller fra andre vigtige situationer, hvor du ikke kan skrive hurtigt nok.
 
@@ -12,7 +15,7 @@ Optag og gem lydoptagelser direkte i en note. med **Lyd optager** pluginnet kan 
 2. Klik på **Start/stop lydoptagelse** i venstre båndmenu for at starte en optagelse. Optagelsen starter, så snart ikonet skifter farve
 3. Klik på ikonet igen for at stoppe optagelsen og tilføje den til din note
 
-Obsidian gemmer optagelsen som en lydfil i din boks og [[Indlejre filer|indlejrer]] den i slutningen af den aktive note.
+Obsidian gemmer optagelsen som en lydfil i din boks og [[Indlejr filer|indlejrer]] den i slutningen af den aktive note.
 
 > [!note]
 > Lydoptagelser forbliver i din boks, hvis du sletter noten. Hvis du ønsker at slette selve optagelsen, så kan du benytte [[Stifinder|stifinderen]] til at slette den.

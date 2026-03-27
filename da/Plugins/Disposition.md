@@ -1,5 +1,8 @@
 ---
-permalink: plugins/disposition
+permalink: plugins/outline
+aliases:
+  - plugins/disposition
+  - Plugins/Disposition
 ---
 Dispositionspluginet viser en indholdsfortegnelse af overskrifter for den aktive note.
 

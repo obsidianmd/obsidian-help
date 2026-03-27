@@ -3,8 +3,10 @@
   const LOCALES = [
     { code: 'en',    label: 'English',            base: 'https://obsidian.md/help' },
     { code: 'ar',    label: 'العربية',            base: 'https://obsidian.md/ar/help' },
+    { code: 'da',    label: 'Dansk',              base: 'https://obsidian.md/da/help' },
     { code: 'de',    label: 'Deutsch',            base: 'https://obsidian.md/de/help' },
     { code: 'es',    label: 'Español',            base: 'https://obsidian.md/es/help' },
+    { code: 'fa',    label: 'فارسی',              base: 'https://obsidian.md/fa/help' },
     { code: 'fr',    label: 'Français',           base: 'https://obsidian.md/fr/help' },
     { code: 'id',    label: 'Bahasa Indonesia',   base: 'https://obsidian.md/id/help' },
     { code: 'it',    label: 'Italiano',           base: 'https://obsidian.md/it/help' },

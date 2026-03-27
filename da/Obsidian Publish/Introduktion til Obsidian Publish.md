@@ -1,5 +1,12 @@
 ---
-alias: [Obsidian Publish]
+permalink: publish
+alias:
+  - Obsidian Publish
+cssclasses:
+  - list-cards
+  - list-cards-mobile-full
+aliases:
+  - Obsidian Publish/Introduktion til Obsidian Publish
 ---
 
 Obsidian Publish er en cloudbaseret service, hvor du kan udgive dine noter på internettet.

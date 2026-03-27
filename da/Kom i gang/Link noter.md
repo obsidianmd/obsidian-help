@@ -1,5 +1,8 @@
 ---
-permalink: link-noter
+permalink: link-notes
+aliases:
+  - link-noter
+  - Kom i gang/Link noter
 ---
 Selvom Obsidian er fantastisk til at tage noter i, så ligger dens store styrke i at den kan linke dine noter sammen. Ved at forstå hvordan en bid information relaterer til en anden kan du øge din færdighed til at huske dem og få større indsigter.
 

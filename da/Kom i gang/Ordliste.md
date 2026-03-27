@@ -1,5 +1,8 @@
 ---
-permalink: ordliste
+permalink: glossary
+aliases:
+  - ordliste
+  - Kom i gang/Ordliste
 ---
 Denne ordbog indeholder almen Obsidian terminologi.
 
@@ -37,7 +40,7 @@ En **Fane gruppe** er en samling af [[#Fane|faner]] i [[#Hovedvinduet|hovedvindu
 
 `Alias: fjerndata`
 
-En [[Lokal- og fjernbokse|fjernboks]] er en kopi af din lokale boks, som er håndteret af [[Introduktion til Obsidian Sync|Obsidian Sync]]. Fjernboksens data bliver opdateret baseret på ændringer på de lokale data.
+En [[Lokale og fjernbokse|fjernboks]] er en kopi af din lokale boks, som er håndteret af [[Introduktion til Obsidian Sync|Obsidian Sync]]. Fjernboksens data bliver opdateret baseret på ændringer på de lokale data.
 
 ## Frontmatter
 
@@ -57,15 +60,15 @@ En **graf** er en visualisering, der viser forbindelser mellem [[#Note|noter]]. 
 
 ## Indlejre
 
-At **indlejre** betyder at en reference til noget eksternt indhold bliver erstattet med indholdet fra det eksterne sted. Et eksempel er at inkludere et billede i din note. Se også: [[Indlejre filer]].
+At **indlejre** betyder at en reference til noget eksternt indhold bliver erstattet med indholdet fra det eksterne sted. Et eksempel er at inkludere et billede i din note. Se også: [[Indlejr filer]].
 
 ## Kodestykker
 
-Et **kodestykke**, eller [[Tilpas med CSS|CSS kodestykke]], ændrer udseendet af Obsidian, ligesom et [[#Tema]]. Til forskel fra temaer kan du tilføje mange kodestykker på samme tid.
+Et **kodestykke**, eller [[CSS-kodestykker|CSS kodestykke]], ændrer udseendet af Obsidian, ligesom et [[#Tema]]. Til forskel fra temaer kan du tilføje mange kodestykker på samme tid.
 
 ## Kommando
 
-En **kommando** er en funktion, som kan udføres enten ved at vælge den fra [[Komandopalette|kommandopaletten]] eller ved at tildele den til en [[#Genvejstaster|genvejstast]].
+En **kommando** er en funktion, som kan udføres enten ved at vælge den fra [[Fastgjorte kommandoer|kommandopaletten]] eller ved at tildele den til en [[#Genvejstaster|genvejstast]].
 
 ## Link
 
@@ -98,7 +101,7 @@ Se også: [[Pop-op vinduer]].
 
 Et område som indeholder understøttede [[#View|views]] organiseret som [[#Fane|faner]]. En sidebar kan splittes i flere [[#Fane gruppe|fane grupper]].
 
-Desktop udgaven af Obsidian har to sidepaneler, en på hver side af [[Hovedvinduet|hovedvinduet]]. Begge sidepaneler kan tilgås af ikoner i øverste venstre og højre hjørne i Obsidian applikationen udover at der kan stryges til venstre og højre.
+Desktop udgaven af Obsidian har to sidepaneler, en på hver side af [[Arbejdsområde|hovedvinduet]]. Begge sidepaneler kan tilgås af ikoner i øverste venstre og højre hjørne i Obsidian applikationen udover at der kan stryges til venstre og højre.
 Det øverste ikon til højre skal holdes for at åbne vinduet.
 
 ## Statusbar

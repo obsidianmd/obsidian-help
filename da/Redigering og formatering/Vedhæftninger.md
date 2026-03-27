@@ -1,5 +1,8 @@
 ---
-permalink: vedhæftninger
+permalink: attachments
+aliases:
+  - vedhæftninger
+  - Redigering og formatering/Vedhæftninger
 ---
 Du kan inmporterede alle [[Accepterede filformater|accepterede filformater]], kaldet _vedhæftniger_, til din boks, såsom billeder, lydfiler eller PDF dokumenter. Vedhæftniger er almindelige filer, som du kan tilgå i dit filsystem. Vedhæftninger kan [[Indlejr filer|indlejres]].
 

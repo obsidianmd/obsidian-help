@@ -1,5 +1,8 @@
 ---
-permalink: plugins/arbejdsområder
+permalink: plugins/workspaces
+aliases:
+  - plugins/arbejdsområder
+  - Plugins/Arbejdsområder
 ---
 Pluginnet "Arbejdsområder" lader dig håndtere og skifte mellem forskellige layoutopsætninger afhændig af dine opgaver, fx. journalskrivning, læsning og skrivning.
 

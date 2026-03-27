@@ -1,3 +1,8 @@
+---
+permalink: publish/security
+aliases:
+  - Obsidian Publish/Sikkerhed og privatliv
+---
 Du vælger selv hvilke noter, som du vil udgive med [[Introduktion til Obsidian Publish|Obsidian Publish]]. Resten af dine noter forbliver sikre i din boks.
 
 Kun noter, du vælger at udgive, sendes til Obsidians servere, og alle noter, du fjerner fra udgivelse, vil vblive fjernet fra webstedet.

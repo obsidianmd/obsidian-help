@@ -1,7 +1,9 @@
 ---
 description: Sådan skifter du sproget i Obsidian.
-publish: true
-permalink: sprog
+permalink: language
+aliases:
+  - sprog
+  - Brugergrænseflade/Sprogindstillinger
 ---
 Obsidian brugergrænsefladen er blevet oversat til mange sprog af vores oversættere.
 

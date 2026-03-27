@@ -1,8 +1,11 @@
 ---
-description: Denne side beskriver, hvordan du kan anvende bobler til at tilføje yderligere information uden at disse afbryder dine noters læseflow.
+description: 'Denne side beskriver, hvordan du kan anvende bobler til at tilføje yderligere information uden at disse afbryder dine noters læseflow.'
 mobile: true
-permalink: bobler
+permalink: callouts
 publish: true
+aliases:
+  - bobler
+  - Redigering og formatering/Bobler
 ---
 
 Brug bobler til at inkludere yderligere indhold i dine noter uden af afbryde læseflowet.

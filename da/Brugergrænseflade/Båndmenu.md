@@ -1,7 +1,11 @@
 ---
 description: Om hvordan båndmenuen fungerer i Obsidian.
 publish: true
-permalink: båndmenu
+permalink: ribbon
+aliases:
+  - båndmenu
+  - Brugergrænseflade/Båndmenu
+mobile: true
 ---
 
 Båndmenuen er det lodrette område helt til venstre i Obsdian og anvendes til almindelige kommandoer.

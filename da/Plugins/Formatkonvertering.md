@@ -1,8 +1,11 @@
 ---
-description: Formatkonvertering er et kerneplugin, som lader dig konvertere Markdown fra andre applikationer til Obsidians Markdownformat.
+description: 'Formatkonvertering er et kerneplugin, som lader dig konvertere Markdown fra andre applikationer til Obsidians Markdownformat.'
 mobile: true
-permalink: plugins/formatkonvertering
+permalink: plugins/format-converter
 publish: true
+aliases:
+  - plugins/formatkonvertering
+  - Plugins/Formatkonvertering
 ---
 
 "Formatkonvertering" er et [[Kerneplugins|kerneplugin]], som lader dig konvertere Markdown fra andre applikationer til Obsidians Markdownformat. Det tillader sig også, at konvertere bestemte [[Egenskaber|egenskaber]] til Obsidians format. 

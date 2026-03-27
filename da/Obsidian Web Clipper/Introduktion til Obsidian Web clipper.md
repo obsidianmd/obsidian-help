@@ -3,6 +3,9 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: web-clipper
+aliases:
+  - Introduktion til Obsidian Web clipper
+  - Obsidian Web Clipper/Introduktion til Obsidian Web clipper
 ---
 Obsidian Web Clipper er en gratis browser udvidelse, som gør dig i stand til at markere websider og gemme dens indhold i din boks.
 

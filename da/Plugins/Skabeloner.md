@@ -1,5 +1,12 @@
 ---
-permalink: plugins/skabeloner
+permalink: plugins/templates
+aliases:
+  - plugins/skabeloner
+  - Plugins/Skabeloner
+cssclasses:
+  - soft-embed
+publish: true
+mobile: true
 ---
 Du kan benytte skabeloner til at indsætte foruddefineredet tekst ind i din aktive note.
 

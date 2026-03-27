@@ -1,8 +1,11 @@
 ---
 description: Denne side beskriver de filformater som Obsidian accepterer.
 mobile: true
-permalink: filformater
+permalink: file-formats
 publish: true
+aliases:
+  - filformater
+  - Filer og mapper/Accepterede filformater
 ---
 Obsidian supporterer følgende filformater:
 

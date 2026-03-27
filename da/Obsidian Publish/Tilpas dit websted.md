@@ -1,3 +1,9 @@
+---
+permalink: publish/customize
+publish: true
+aliases:
+  - Obsidian Publish/Tilpas dit websted
+---
 Denne side forklarer, hvordan du kan tilpasse udseendet og oplevelsen af dit [[Introduktion til Obsidian Publish|Obsidian Publish]] websted.
 
 ## Statiske aktiver

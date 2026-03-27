@@ -83,18 +83,26 @@ const files = collectFiles(localeDir);
 // Known placeholder targets used in syntax documentation (not real pages)
 const PLACEHOLDER_TARGETS = new Set(["example", "exemple"]);
 
+// Obsidian resolves wikilinks by ignoring hyphens/underscores (treats them as spaces)
+function slugNormalize(s: string): string {
+  return s.toLowerCase().replace(/[-_]/g, " ").replace(/\s+/g, " ").trim();
+}
+
 const validByBasename = new Map<string, string>();
+const validBySlug = new Map<string, string>();   // hyphen/underscore-insensitive
 // locale-relative path without extension (case-insensitive) → true
 const validByRelPath = new Map<string, string>();
 
 for (const f of files) {
   validByBasename.set(f.basename.toLowerCase(), f.basename);
+  validBySlug.set(slugNormalize(f.basename), f.basename);
   validByRelPath.set(f.relPath.slice(0, -3).toLowerCase(), f.relPath);
   // path with forward slashes (links use /)
   const fwdPath = f.relPath.slice(0, -3).replace(/\\/g, "/");
   validByRelPath.set(fwdPath.toLowerCase(), f.relPath);
   for (const a of f.aliases) {
     validByBasename.set(a.toLowerCase(), a);
+    validBySlug.set(slugNormalize(a), a);
   }
 }
 
@@ -112,7 +120,7 @@ function isValidTarget(raw: string): boolean {
     return validByRelPath.has(lower);
   }
 
-  return validByBasename.has(lower);
+  return validByBasename.has(lower) || validBySlug.has(slugNormalize(target));
 }
 
 // ─── Scan for broken wikilinks ────────────────────────────────────────────────

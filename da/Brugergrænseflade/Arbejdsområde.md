@@ -1,5 +1,10 @@
 ---
-permalink: arbejdsområde
+permalink: workspace
+aliases:
+  - arbejdsområde
+  - Brugergrænseflade/Arbejdsområde
+publish: true
+mobile: true
 ---
 ## Desktop
 
