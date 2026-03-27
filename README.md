@@ -28,28 +28,30 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 
 ## Guidelines
 
-- The English locale (`en`) is considered the source of truth. All changes should be made to the English locale first.
+- The English locale `en` is considered the source of truth. All changes should be made to the English locale first.
 - For any Obsidian app text (such as buttons, features, etc), use [obsidian-translations](https://github.com/obsidianmd/obsidian-translations) as the source of truth for all locales.
-- Every page uses the same `permalink` value across locales. The permalink functions as a unique ID and path, for cross-locale links to the same content. For example, `obsidian.md/help/resources` (for English) has the same content as `obsidian.md/fr/help/resources` (French).
-- All pages from the English locale exist 1:1 on all other locales.
+- Every page uses the same `permalink` value across locales. This permalink functions as a unique ID and path for cross-locale access to the same content. For example, `obsidian.md/help/resources` (for English) points to the same content as `obsidian.md/fr/help/resources` (French).
+- All pages from the English locale should exist 1:1 on all other locales to ensure all permalinks work across locales. It is better to have untranslated English text at the locale URL than a broken URL.
 
 ## Workflow
 
 ### Add a new language
 
-To add a new translation, please [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new).
+To add a new language, please [submit an issue](https://github.com/obsidianmd/obsidian-help/issues/new).
 
-When bootstrapping a new translation, we use `/scripts` to copy the entire `en` content to the new locale and create an initial automatic translation.
+When bootstrapping a new translation, we use [/scripts](/scripts) to copy the entire `en` content to the new locale and create an initial automatic translation.
 
-### Update the English version first
+### Update English first
 
-All additions and removals should be made to the English locale first. Changes are applied automatically to other locales using `/scripts`. The scripts use diffs to determine if the changes can be made deterministically (e.g. removing entire sections), can be processed in chunks (e.g. adding a bullet point to an exsiting list), or need an entirely new page.
+All additions and removals should be made to the `en` locale first. Changes are applied automatically to other locales using [/scripts](/scripts). 
+
+The scripts use diffs to determine if the changes can be made deterministically (e.g. removing entire sections), can be processed in chunks (e.g. adding a bullet point to an exsiting list), or need an entirely new page translation.
 
 ### Refine other languages
 
 Refinements to translations should be done on top of the automatic translations generated in previous steps.
 
-Focus on look for content that could be made to sound more native and natural, while retaining the meaning from the English locale.
+Focus on sentences that could be made to sound more native and natural, while retaining the meaning from the original English content.
 
 ### Publishing
 
