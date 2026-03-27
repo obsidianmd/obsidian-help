@@ -62,6 +62,12 @@ views:
 De forma predeterminada, una base incluye todos los archivos de la bóveda. No existe un `from` o `source` como en SQL o Dataview. La sección `filters` te permite definir condiciones para reducir el conjunto de datos.
 
 ```yaml
+# Filtro simple:
+filters:
+  and:
+    - file.hasTag("tag")
+
+# Filtro complejo:
 filters:
   or:
     - file.hasTag("tag")

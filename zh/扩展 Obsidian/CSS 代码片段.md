@@ -71,6 +71,7 @@ Obsidian 提供了多种方法，使编写 CSS 更加简便和强大。
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 

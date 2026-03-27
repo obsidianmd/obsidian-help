@@ -62,6 +62,12 @@ views:
 Por padrão, uma base inclui todos os arquivos do cofre. Não há `from` ou `source` como em SQL ou Dataview. A seção `filters` permite definir condições para refinar o conjunto de dados.
 
 ```yaml
+# Filtro simples:
+filters:
+  and:
+    - file.hasTag("tag")
+
+# Filtro complexo:
 filters:
   or:
     - file.hasTag("tag")

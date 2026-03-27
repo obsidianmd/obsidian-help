@@ -4,7 +4,6 @@ publish: true
 mobile: true
 description: Learn how to change parts of the Obsidian app’s appearance without creating a full theme.
 ---
-
 [테마를 빌드](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)하지 않고도 Obsidian 앱의 외형을 수정하는 방법을 알아보세요.
 
 > [!tip] [[Obsidian Publish 소개|Obsidian Publish]]의 CSS 처리에 대한 안내를 찾고 있다면 [[사이트 사용자 지정]]를 확인하세요.
@@ -69,6 +68,7 @@ Obsidian의 일부를 쉽게 수정할 수 있는 다양한 [CSS 변수](https:/
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 

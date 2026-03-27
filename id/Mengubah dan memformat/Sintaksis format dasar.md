@@ -354,7 +354,7 @@ _ _ _
 
 ***
 
-## Kode
+## 
 
 Anda dapat memformat kode baik secara inline di dalam kalimat, maupun dalam blok terpisah.
 
@@ -372,7 +372,7 @@ Jika Anda ingin menempatkan backtick dalam blok kode inline, apitlah dengan back
 
 ### Blok kode
 
-Untuk memformat kode sebagai blok, apitlah dengan tiga backtick atau tiga tilde.
+Untuk memformat kode sebagai blok, apitlah dengan tiga atau lebih backtick atau tiga atau lebih tilde.
 
 ~~~
 `````

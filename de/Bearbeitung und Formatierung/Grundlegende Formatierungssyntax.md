@@ -2,7 +2,7 @@
 permalink: syntax
 publish: true
 mobile: true
-description: Lerne, wie du grundlegende Formatierungen auf deine Notizen in Obsidian anwendest, unter Verwendung von Markdown.
+description: 'Lerne, wie du grundlegende Formatierungen auf deine Notizen in Obsidian anwendest, unter Verwendung von Markdown.'
 ---
 Lerne, wie du grundlegende Formatierungen auf deine Notizen anwendest, unter Verwendung von [Markdown](https://daringfireball.net/projects/markdown/). Für erweiterte Formatierungssyntax, siehe [[Erweiterte Formatierungssyntax]].
 
@@ -352,7 +352,7 @@ _ _ _
 
 ***
 
-## Quelltext
+## 
 
 Du kannst Quelltext sowohl inline innerhalb eines Satzes als auch in einem eigenen Block formatieren.
 
@@ -370,7 +370,7 @@ Wenn du Backticks in einem Inline-Quelltext-Block verwenden möchtest, umschlie�
 
 ### Quelltext-Blöcke
 
-Um Quelltext als Block zu formatieren, umschließe ihn mit drei Backticks oder drei Tilden.
+Um Quelltext als Block zu formatieren, umschließe ihn mit drei oder mehr Backticks oder drei oder mehr Tilden.
 
 ~~~
 `````

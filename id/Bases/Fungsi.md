@@ -138,6 +138,13 @@ Fungsi global digunakan tanpa tipe.
 
 - `today()` mengembalikan objek tanggal yang merepresentasikan tanggal saat ini. Bagian waktu diatur ke nol.
 
+### `random()`
+
+`random(): number`
+
+- `random()` mengembalikan angka acak antara 0 dan 1.
+- Pembangkitan angka diperbarui setiap kali tampilan dimuat. Berpindah antar tampilan mengubah angka acak.
+
 ## Any
 
 Fungsi yang dapat Anda gunakan dengan nilai apa pun. Ini termasuk string (misalnya `"hello"`), angka (misalnya `42`), daftar (misalnya `[1,2,3]`), objek, dan lainnya.

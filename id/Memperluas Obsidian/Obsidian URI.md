@@ -102,7 +102,7 @@ Tindakan `daily` menerima parameter yang sama seperti tindakan `new`.
 
 ## Catatan Unik
 
-Tindakan `unique` membuat catatan unik baru di brankas. Plugin [[Pembuat catatan unik]] harus diaktifkan.
+Tindakan `unique` membuat catatan unik baru di brankas. Plugin [[Plugins/Unique note creator|Pembuat catatan unik]] harus diaktifkan.
 
 ### Contoh
 

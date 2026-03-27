@@ -31,7 +31,7 @@ Para definir uma string de formato, adicione dois-pontos (`:`) seguidos de uma s
 
 Você pode usar `{{date}}` e `{{time}}` de forma intercambiável com strings de formato, por exemplo `{{time:YYYY-MM-DD}}`.
 
-Você pode alterar os formatos padrão de data e hora em **[[Configurações]] → Modelos → Formato da data** e **[[Configurações]] → Modelos → Formato do horário**.
+Você pode alterar os formatos padrão de data e hora em **[[Configurações]] → Modelos → Formato da data** e **[[Configurações]] → Modelos → Formato do horário**. ^template-settings-date-time-formatting
 
 > [!tip] Dica
 > Você também pode usar as variáveis de modelo `{{date}}` e `{{time}}` nos plugins [[Notas diárias]] e [[Criador de nota única]].
@@ -79,6 +79,16 @@ tags:
 1. No menu lateral, clique em **Inserir modelo**.
 2. Selecione o modelo para inserir na posição do cursor na nota ativa.
 
-## Propriedades de modelo
+Para inserir um modelo usando a [[Paleta de comandos]] ou [[Atalhos#Definir um atalho|um atalho de teclado personalizado]], use o comando `Modelos: Inserir modelo`.
+
+O conteúdo do modelo é inserido na posição atual do cursor. Se o cursor não estiver no corpo da nota, o conteúdo é inserido na última posição do cursor.
+
+### Propriedades de modelo
 
 ![[Propriedades#^templates-properties]]
+
+## Inserindo data e hora atuais na nota ativa
+
+Use os comandos `Modelos: Inserir a data atual` e `Modelos: Inserir a hora atual` para inserir a data e hora atuais na posição atual do cursor. Assim como o comando `Inserir modelo`, isso pode ser feito com a [[Paleta de comandos]] ou [[Atalhos#Definir um atalho|um atalho de teclado personalizado]].
+
+A data e hora inseridas utilizam a [[#^template-settings-date-time-formatting|formatação definida nas configurações do plugin]].

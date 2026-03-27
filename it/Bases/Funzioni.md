@@ -140,6 +140,13 @@ Le funzioni globali vengono utilizzate senza un tipo.
 
 - `today()` restituisce un oggetto data che rappresenta la data corrente. La parte relativa all'ora è impostata a zero.
 
+### `random()`
+
+`random(): number`
+
+- `random()` restituisce un numero casuale compreso tra 0 e 1.
+- La generazione del numero viene aggiornata ogni volta che una vista viene caricata. Navigare tra le viste cambia il numero casuale.
+
 ## Qualsiasi
 
 Funzioni che puoi utilizzare con qualsiasi valore. Questo include stringhe (es. `"ciao"`), numeri (es. `42`), elenchi (es. `[1,2,3]`), oggetti e altro.

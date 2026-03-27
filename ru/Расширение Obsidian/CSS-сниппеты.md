@@ -2,7 +2,7 @@
 permalink: snippets
 publish: true
 mobile: true
-description: Узнайте, как изменить отдельные элементы внешнего вида приложения Obsidian без создания полноценной темы.
+description: 'Узнайте, как изменить отдельные элементы внешнего вида приложения Obsidian без создания полноценной темы.'
 aliases:
   - CSS snippets
 ---
@@ -70,6 +70,7 @@ Obsidian предлагает несколько методов, которые 
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 

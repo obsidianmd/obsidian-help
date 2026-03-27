@@ -31,7 +31,7 @@ Per impostare una stringa di formato, aggiungere i due punti (`:`) seguiti da un
 
 È possibile usare `{{date}}` e `{{time}}` in modo intercambiabile con le stringhe di formato, ad esempio `{{time:YYYY-MM-DD}}`.
 
-È possibile modificare i formati predefiniti di data e ora in **[[Impostazioni|Impostazioni]] → Modelli → Formato data** e **[[Impostazioni|Impostazioni]] → Modelli → Formato ora**.
+È possibile modificare i formati predefiniti di data e ora in **[[Impostazioni|Impostazioni]] → Modelli → Formato data** e **[[Impostazioni|Impostazioni]] → Modelli → Formato ora**. ^template-settings-date-time-formatting
 
 > [!tip] Suggerimento
 > È possibile utilizzare le variabili dei modelli `{{date}}` e `{{time}}` anche nei plugin [[Note del giorno|Note del giorno]] e [[Note univoche|Note univoche]].
@@ -79,6 +79,16 @@ tags:
 1. Nella barra degli strumenti, fare clic su **Inserisci modello**.
 2. Selezionare il modello da inserire nella posizione del cursore nella nota attiva.
 
-## Proprietà dei modelli
+Per inserire un modello utilizzando la [[Tavolozza dei comandi|tavolozza dei comandi]] o [[Scorciatoie da tastiera#Impostare una scorciatoia|una scorciatoia da tastiera personalizzata]], usare il comando `Modelli: Inserisci modello`.
+
+Il contenuto del modello viene inserito nella posizione corrente del cursore. Se il cursore non si trova nel corpo della nota, il contenuto viene inserito nell'ultima posizione del cursore.
+
+### Proprietà dei modelli
 
 ![[Proprietà#^templates-properties]]
+
+## Inserire la data e l'ora correnti nella nota attiva
+
+Usare i comandi `Modelli: Inserisci data corrente` e `Modelli: Inserisci ora corrente` per inserire la data e l'ora correnti nella posizione attuale del cursore. Come il comando `Inserisci modello`, è possibile farlo con la [[Tavolozza dei comandi|tavolozza dei comandi]] o [[Scorciatoie da tastiera#Impostare una scorciatoia|una scorciatoia da tastiera personalizzata]].
+
+La data e l'ora inserite utilizzano la [[#^template-settings-date-time-formatting|formattazione impostata nelle impostazioni del plugin]].

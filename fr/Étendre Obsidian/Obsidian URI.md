@@ -101,7 +101,7 @@ L'action `daily` accepte les mêmes paramètres que l'action `new`.
 
 ## Note unique
 
-L'action `unique` crée une nouvelle note unique dans le coffre. Le module [[Créateur de note unique]] doit être activé.
+L'action `unique` crée une nouvelle note unique dans le coffre. Le module [[Plugins/Unique note creator|Créateur de note unique]] doit être activé.
 
 ### Exemples
 

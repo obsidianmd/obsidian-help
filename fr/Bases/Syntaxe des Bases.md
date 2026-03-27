@@ -4,7 +4,6 @@ description: Cette page fournit une introduction à la syntaxe de Bases dans Obs
 publish: true
 mobile: true
 localized: '2026-03-18'
-
 ---
 Lorsque vous [[Créer une base|créez une base]] dans Obsidian, elle est enregistrée sous forme de fichier `.base`. Les bases sont généralement éditées via l'interface de l'application, mais la syntaxe peut aussi être modifiée manuellement et intégrée dans un bloc de code.
 
@@ -64,6 +63,12 @@ views:
 Par défaut, une base inclut tous les fichiers du coffre. Il n'y a pas de `from` ou `source` comme en SQL ou Dataview. La section `filters` vous permet de définir des conditions pour affiner l'ensemble de données.
 
 ```yaml
+# Filtre simple :
+filters:
+  and:
+    - file.hasTag("tag")
+
+# Filtre complexe :
 filters:
   or:
     - file.hasTag("tag")

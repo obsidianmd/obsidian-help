@@ -1,7 +1,6 @@
 ---
 permalink: uri
 ---
-
 Obsidian URI는 Obsidian이 지원하는 사용자 지정 URI 프로토콜로, 노트 열기 또는 노트 생성 등 다양한 작업을 트리거할 수 있어요. Obsidian URI를 사용하면 자동화 및 앱 간 워크플로우를 구현할 수 있어요.
 
 ## URI 형식
@@ -101,7 +100,7 @@ obsidian://action?param1=value&param2=value
 
 ## 고유 노트
 
-`unique` 작업은 보관함에 새 고유 노트를 생성해요. [[고유 노트 생성]] 플러그인이 활성화되어 있어야 해요.
+`unique` 작업은 보관함에 새 고유 노트를 생성해요. [[Plugins/Unique note creator|고유 노트 생성]] 플러그인이 활성화되어 있어야 해요.
 
 ### 예시
 

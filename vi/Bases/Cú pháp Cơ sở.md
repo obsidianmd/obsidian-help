@@ -62,6 +62,12 @@ views:
 Theo mặc định, một cơ sở bao gồm mọi tệp trong kho. Không có `from` hoặc `source` như trong SQL hoặc Dataview. Phần `filters` cho phép bạn định nghĩa các điều kiện để thu hẹp tập dữ liệu.
 
 ```yaml
+# Bộ lọc đơn giản:
+filters:
+  and:
+    - file.hasTag("tag")
+
+# Bộ lọc phức tạp:
 filters:
   or:
     - file.hasTag("tag")

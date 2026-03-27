@@ -354,7 +354,7 @@ _ _ _
 
 ***
 
-## Codice
+## 
 
 Puoi formattare il codice sia inline all'interno di una frase, sia in un blocco dedicato.
 
@@ -372,7 +372,7 @@ Se vuoi inserire apici inversi in un blocco di codice inline, circondalo con dop
 
 ### Blocchi di codice
 
-Per formattare il codice come blocco, racchiudilo con tre apici inversi o tre tilde.
+Per formattare il codice come blocco, racchiudilo con tre o più apici inversi o tre o più tilde.
 
 ~~~
 `````

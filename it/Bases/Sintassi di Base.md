@@ -64,6 +64,12 @@ views:
 Per impostazione predefinita una base include ogni file nella cassaforte. Non esiste un `from` o `source` come in SQL o Dataview. La sezione `filters` consente di definire condizioni per restringere il set di dati.
 
 ```yaml
+# Filtro semplice:
+filters:
+  and:
+    - file.hasTag("tag")
+
+# Filtro complesso:
 filters:
   or:
     - file.hasTag("tag")

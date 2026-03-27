@@ -352,7 +352,7 @@ _ _ _
 
 ***
 
-## Mã
+## 
 
 Bạn có thể định dạng mã cả nội dòng trong một câu, hoặc trong khối riêng.
 
@@ -370,7 +370,7 @@ Nếu bạn muốn đặt dấu backtick trong khối mã nội dòng, hãy bao 
 
 ### Khối mã
 
-Để định dạng mã dưới dạng khối, hãy bao quanh nó bằng ba dấu backtick hoặc ba dấu ngã.
+Để định dạng mã dưới dạng khối, hãy bao quanh nó bằng ba hoặc nhiều dấu backtick hoặc ba hoặc nhiều dấu ngã.
 
 ~~~
 `````

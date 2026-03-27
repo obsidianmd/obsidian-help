@@ -71,6 +71,7 @@ Obsidian memiliki banyak [variabel CSS](https://docs.obsidian.md/Reference/CSS+v
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 

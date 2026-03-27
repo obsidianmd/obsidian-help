@@ -2,7 +2,7 @@
 permalink: bases/functions
 publish: true
 mobile: true
-description: Diese Seite beschreibt die Funktionen, die in Obsidian Bases verwendet werden, um Daten aus Eigenschaften in Filtern und Formeln zu manipulieren.
+description: 'Diese Seite beschreibt die Funktionen, die in Obsidian Bases verwendet werden, um Daten aus Eigenschaften in Filtern und Formeln zu manipulieren.'
 ---
 Funktionen werden in [[Einführung in Bases|Bases]] verwendet, um Daten aus [[Eigenschaften]] in [[Ansichten#Filter|Filtern]] und [[Formeln]] zu manipulieren. Weitere Informationen zur Verwendung von Funktionen findest du in der [[Bases-Syntax|Bases-Syntax]]-Referenz.
 
@@ -137,6 +137,13 @@ Globale Funktionen werden ohne einen Typ verwendet.
 `today(): date`
 
 - `today()` gibt ein Datumsobjekt zurück, das das aktuelle Datum darstellt. Der Zeitanteil wird auf null gesetzt.
+
+### `random()`
+
+`random(): number`
+
+- `random()` gibt eine Zufallszahl zwischen 0 und 1 zurück.
+- Die Zahlengenerierung wird bei jedem Laden einer Sicht aktualisiert. Das Navigieren zwischen Sichten ändert die Zufallszahl.
 
 ## Any
 

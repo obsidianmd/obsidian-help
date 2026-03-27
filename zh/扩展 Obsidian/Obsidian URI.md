@@ -103,7 +103,7 @@ obsidian://action?param1=value&param2=value
 
 ## 时间戳笔记
 
-`unique` 操作在仓库中创建一篇新的唯一笔记。必须启用[[时间戳笔记生成器]]插件。
+`unique` 操作在仓库中创建一篇新的唯一笔记。必须启用[[Plugins/Unique note creator|时间戳笔记生成器]]插件。
 
 ### 示例
 

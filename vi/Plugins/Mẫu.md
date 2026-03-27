@@ -29,7 +29,7 @@ Cả `{{date}}` và `{{time}}` đều cho phép bạn thay đổi định dạng
 
 Bạn có thể sử dụng `{{date}}` và `{{time}}` thay thế cho nhau với chuỗi định dạng, ví dụ `{{time:YYYY-MM-DD}}`.
 
-Bạn có thể thay đổi định dạng ngày và thời gian mặc định trong **[[Cài đặt]] → Mẫu → Định dạng ngày** và **[[Cài đặt]] → Mẫu → Định dạng thời gian**.
+Bạn có thể thay đổi định dạng ngày và thời gian mặc định trong **[[Cài đặt]] → Mẫu → Định dạng ngày** và **[[Cài đặt]] → Mẫu → Định dạng thời gian**. ^template-settings-date-time-formatting
 
 > [!tip] Mẹo
 > Bạn cũng có thể sử dụng biến mẫu `{{date}}` và `{{time}}` trong plugin [[Ghi chú hàng ngày]] và [[Tạo ghi chú duy nhất]].
@@ -77,6 +77,16 @@ tags:
 1. Trên thanh công cụ, nhấp vào **Chèn mẫu**.
 2. Chọn mẫu để chèn tại vị trí con trỏ trong ghi chú đang hoạt động.
 
-## Thuộc tính mẫu
+Để chèn mẫu bằng [[Bảng lệnh]] hoặc [[Phím tắt#Đặt phím tắt|phím tắt tùy chỉnh]], sử dụng lệnh `Mẫu: Chèn mẫu`.
+
+Nội dung của mẫu được chèn tại vị trí con trỏ hiện tại. Nếu con trỏ của bạn không ở trong phần nội dung ghi chú, nội dung sẽ được chèn tại vị trí con trỏ cuối cùng.
+
+### Thuộc tính mẫu
 
 ![[Thuộc tính#^templates-properties]]
+
+## Chèn ngày và thời gian hiện tại vào ghi chú đang hoạt động
+
+Sử dụng lệnh `Mẫu: Chèn ngày hiện tại` và `Mẫu: Chèn thời gian hiện tại` để chèn ngày và thời gian hiện tại tại vị trí con trỏ hiện tại. Giống như lệnh `Chèn mẫu`, điều này có thể thực hiện bằng [[Bảng lệnh]] hoặc [[Phím tắt#Đặt phím tắt|phím tắt tùy chỉnh]].
+
+Ngày và thời gian được chèn sử dụng [[#^template-settings-date-time-formatting|định dạng được thiết lập trong cài đặt plugin]].

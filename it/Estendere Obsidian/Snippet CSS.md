@@ -70,6 +70,7 @@ Dispone di numerose [variabili CSS](https://docs.obsidian.md/Reference/CSS+varia
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 

@@ -4,13 +4,14 @@ publish: true
 mobile: true
 description: ទំព័រនេះផ្តល់នូវការណែនាំអំពីវាក្យសម្ពន្ធ Bases នៅក្នុង Obsidian។
 ---
-នៅពេលអ្នក[[បង្កើត base|បង្កើត base]] នៅក្នុង Obsidian វាត្រូវបានរក្សាទុកជាឯកសារ `.base`។ Bases ជាធម្មតាត្រូវបានកែសម្រួលដោយប្រើចំណុចប្រទាក់កម្មវិធី ប៉ុន្តែវាក្យសម្ពន្ធក៏អាចកែសម្រួលដោយដៃ និងបង្កប់ក្នុងប្លុកកូដបានផងដែរ។
+```yaml
+នៅពេលអ្នក [[បង្កើត base|បង្កើត base]] នៅក្នុង Obsidian វាត្រូវបានរក្សាទុកជាឯកសារ `.base`។ Bases ជាធម្មតាត្រូវបានកែសម្រួលដោយប្រើចំណុចប្រទាក់កម្មវិធី ប៉ុន្តែវាក្យសម្ព័ន្ធក៏អាចត្រូវបានកែដោយដៃ និងបង្កប់នៅក្នុងប្លុកកូដផងដែរ។
 
-វាក្យសម្ពន្ធ [[ការណែនាំអំពី Bases|Bases]] កំណត់[[ទិដ្ឋភាព]] តម្រង និង[[រូបមន្ត]]។ Bases ត្រូវតែជា YAML ត្រឹមត្រូវដែលអនុលោមតាមស្គីមាដែលកំណត់ខាងក្រោម។
+[[ការណែនាំអំពី Bases|Bases]] វាក្យសម្ព័ន្ធកំណត់ [[ទិដ្ឋភាព]], តម្រង និង [[រូបមន្ត|រូបមន្ត]]។ Bases ត្រូវតែជា YAML ត្រឹមត្រូវដែលអនុលោមតាមគ្រោងការណ៍ដែលបានកំណត់ខាងក្រោម។
 
 ## ឧទាហរណ៍
 
-នេះជាឧទាហរណ៍នៃឯកសារ base។ យើងនឹងពន្យល់ផ្នែកនីមួយៗយ៉ាងលម្អិត។
+នេះជាឧទាហរណ៍នៃឯកសារ base។ យើងនឹងពន្យល់លម្អិតនីមួយៗ។
 
 ```yaml
 filters:
@@ -59,9 +60,15 @@ views:
 
 ### តម្រង
 
-តាមលំនាំដើម base រួមបញ្ចូលរាល់ឯកសារទាំងអស់នៅក្នុង vault។ មិនមាន `from` ឬ `source` ដូចនៅក្នុង SQL ឬ Dataview ទេ។ ផ្នែក `filters` អនុញ្ញាតឱ្យអ្នកកំណត់លក្ខខណ្ឌដើម្បីបង្រួមសំណុំទិន្នន័យ។
+តាមលំនាំដើម base មួយរួមបញ្ចូលគ្រប់ឯកសារទាំងអស់នៅក្នុង vault។ មិនមាន `from` ឬ `source` ដូចនៅក្នុង SQL ឬ Dataview ទេ។ ផ្នែក `filters` អនុញ្ញាតឱ្យអ្នកកំណត់លក្ខខណ្ឌដើម្បីបំណែងចែកទិន្នន័យ។
 
 ```yaml
+# តម្រងសាមញ្ញ៖
+filters:
+  and:
+    - file.hasTag("tag")
+
+# តម្រងស្មុគស្មាញ៖
 filters:
   or:
     - file.hasTag("tag")
@@ -75,48 +82,49 @@ filters:
 
 មានឱកាសពីរដើម្បីអនុវត្តតម្រង៖
 
-1. នៅកម្រិតសកល `filters` (បង្ហាញខាងលើ) ដែលវាអនុវត្តទៅកាន់ទិដ្ឋភាពទាំងអស់នៅក្នុង base។
-2. នៅកម្រិត `view` ដែលវាអនុវត្តតែចំពោះទិដ្ឋភាពជាក់លាក់មួយប៉ុណ្ណោះ។
+1. នៅកម្រិត `filters` សកល (បង្ហាញខាងលើ) ដែលវាអនុវត្តទៅ view ទាំងអស់នៅក្នុង base។
+2. នៅកម្រិត `view` ដែលអនុវត្តតែទៅ view ជាក់លាក់មួយ។
 
-ផ្នែកទាំងពីរនេះមានមុខងារស្មើគ្នា ហើយនៅពេលវាយតម្លៃសម្រាប់ទិដ្ឋភាពមួយ វានឹងត្រូវបានភ្ជាប់ជាមួយ `AND`។
+ផ្នែកទាំងពីរនេះមានមុខងារស្មើគ្នា ហើយពេលវាយតម្លៃសម្រាប់ view វានឹងត្រូវបានភ្ជាប់ជាមួយ `AND`។
 
-ផ្នែក `filters` មានទាំងសេចក្តីថ្លែងតម្រងតែមួយជាខ្សែអក្សរ ឬវត្ថុតម្រងដែលកំណត់ជាវិលវិល។ វត្ថុតម្រងអាចមានមួយក្នុងចំណោម `and`, `or`, ឬ `not`។ គន្លឹះទាំងនេះជាបញ្ជីចម្រុះនៃវត្ថុតម្រងផ្សេងទៀត ឬសេចក្តីថ្លែងតម្រងក្នុងខ្សែអក្សរ។ សេចក្តីថ្លែងតម្រងគឺជាបន្ទាត់មួយដែលវាយតម្លៃទៅជាពិត ឬមិនពិតនៅពេលអនុវត្តទៅកាន់កំណត់ត្រាមួយ។ វាអាចជាមួយក្នុងចំណោមខាងក្រោម៖
+ផ្នែក `filters` មានទាំងលំដាប់តម្រងតែមួយជា string ឬ object តម្រងដែលកំណត់ដោយខ្លួនឯងម្តងហើយម្តងទៀត។ object តម្រងអាចមានមួយក្នុងចំណោម `and`, `or`, ឬ `not`។ គ្រាប់ចុចទាំងនេះជាបញ្ជីចម្រុះនៃ object តម្រងផ្សេងទៀត ឬកំណត់ហេតុតម្រងក្នុង string។ កំណត់ហេតុតម្រងគឺជាបន្ទាត់ដែលវាយតម្លៃទៅជា truthy ឬ falsey នៅពេលអនុវត្តទៅកំណត់ចំណាំ។ វាអាចជាមួយក្នុងចំណោមខាងក្រោម៖
 
 - ការប្រៀបធៀបមូលដ្ឋានដោយប្រើប្រតិបត្តិករគណិតវិទ្យាស្តង់ដារ។
-- អនុគមន៍។ [[អនុគមន៍]]ជាច្រើនត្រូវបានបង្កើតស្រាប់ ហើយកម្មវិធីជំនួយអាចបន្ថែមអនុគមន៍បន្ថែមទៀត។
+- អនុគមន៍។ [[អនុគមន៍|អនុគមន៍]] ជាច្រើនត្រូវបានបង្កើតឡើងរួចហើយ ហើយ plugin អាចបន្ថែមអនុគមន៍ផ្សេងទៀត។
 
-វាក្យសម្ពន្ធ និងអនុគមន៍ដែលមានសម្រាប់តម្រង និងរូបមន្តគឺដូចគ្នា។
+វាក្យសម្ព័ន្ធ និងអនុគមន៍ដែលអាចប្រើបានសម្រាប់តម្រង និងរូបមន្តគឺដូចគ្នា។
 
 ### រូបមន្ត
 
-ផ្នែក `formulas` កំណត់[[រូបមន្ត|លក្ខណៈសម្បត្តិរូបមន្ត]]ដែលអាចបង្ហាញឆ្លងកាត់ទិដ្ឋភាពទាំងអស់នៅក្នុងឯកសារ base។
+ផ្នែក `formulas` កំណត់ [[រូបមន្ត|លក្ខណសម្បត្តិរូបមន្ត]] ដែលអាចបង្ហាញនៅ view ទាំងអស់ក្នុងឯកសារ base។
 
 ```yaml
 formulas:
   formatted_price: 'if(price, price.toFixed(2) + " dollars")'
   ppu: "(price / age).toFixed(2)"
 ```
+```
 
-លក្ខណៈសម្បត្តិរូបមន្តគាំទ្រប្រតិបត្តិករគណិតវិទ្យាមូលដ្ឋាន និង[[អនុគមន៍]]ស្រាប់ជាច្រើន។ នាពេលអនាគត កម្មវិធីជំនួយនឹងអាចបន្ថែមអនុគមន៍សម្រាប់ប្រើក្នុងរូបមន្ត។
+លក្ខណៈសម្បត្តិរូបមន្តគាំទ្រប្រតិបត្តិករនព្វន្ធមូលដ្ឋាន និងមុខងារដែលភ្ជាប់មកជាមួយជាច្រើន [[អនុគមន៍]]។ នៅពេលអនាគត កម្មវិធីជំនួយនឹងអាចបន្ថែមមុខងារសម្រាប់ប្រើប្រាស់ក្នុងរូបមន្ត។
 
-អ្នកអាចយោងលក្ខណៈសម្បត្តិតាមវិធីផ្សេងៗអាស្រ័យលើប្រភេទរបស់វា៖
+អ្នកអាចយោងលក្ខណៈសម្បត្តិតាមវិធីផ្សេងៗគ្នា អាស្រ័យលើប្រភេទរបស់វា៖
 
-- **លក្ខណៈសម្បត្តិកំណត់ត្រា** គឺជាលក្ខណៈសម្បត្តិដែលកំណត់នៅក្នុង frontmatter របស់កំណត់ត្រា។ ឧទាហរណ៍ `note.price` ឬ `note["price"]`។
-  ប្រសិនបើមិនបានបញ្ជាក់បុព្វបទទេ លក្ខណៈសម្បត្តិត្រូវបានសន្មតថាជាលក្ខណៈសម្បត្តិ `note`។
-- **លក្ខណៈសម្បត្តិឯកសារ** ពិពណ៌នាអំពីឯកសារខ្លួនឯង។
-  ឧទាហរណ៍ `file.size` ឬ `file.ext`។ អ្នកក៏អាចយោងទៅវត្ថុឯកសារដោយផ្ទាល់បានដែរ ឧ. `file.hasLink()`។
-- **លក្ខណៈសម្បត្តិរូបមន្ត** គឺជារូបមន្តផ្សេងទៀតនៅក្នុង base។
+- **លក្ខណៈសម្បត្តិចំណាំ** គឺជាលក្ខណៈសម្បត្តិដែលកំណត់ក្នុង frontmatter របស់ចំណាំ។ ឧទាហរណ៍ `note.price` ឬ `note["price"]`។  
+  ប្រសិនបើមិនបញ្ជាក់បុព្វបទ លក្ខណៈសម្បត្តិនឹងត្រូវបានចាត់ទុកថាជាលក្ខណៈសម្បត្តិ `note`។
+- **លក្ខណៈសម្បត្តិឯកសារ** ពិពណ៌នាអំពីឯកសារខ្លួនឯង។  
+  ឧទាហរណ៍ `file.size` ឬ `file.ext`។ អ្នកក៏អាចយោងវត្ថុឯកសារដោយផ្ទាល់ ឧ. `file.hasLink()`។
+- **លក្ខណៈសម្បត្តិរូបមន្ត** គឺជារូបមន្តផ្សេងទៀតក្នុង base។  
   ឧទាហរណ៍ `formula.formatted_price`។
 
-រូបមន្តអាចប្រើតម្លៃពីលក្ខណៈសម្បត្តិរូបមន្តផ្សេងទៀត ដរាបណាមិនមានការយោងវិលជុំ។
+រូបមន្តអាចប្រើតម្លៃពីលក្ខណៈសម្បត្តិរូបមន្តផ្សេងទៀត ដរាបណាមិនមានការយោងជារង្វង់។  
 
-លក្ខណៈសម្បត្តិរូបមន្តត្រូវបានរក្សាទុកជាខ្សែអក្សរក្នុង YAML ជានិច្ច ប៉ុន្តែ**ប្រភេទទិន្នន័យលទ្ធផល**ពិតប្រាកដរបស់វាត្រូវបានកំណត់ដោយប្រភេទនៃទិន្នន័យមូលដ្ឋាន និងតម្លៃត្រឡប់នៃអនុគមន៍ដែលបានប្រើ។
+លក្ខណៈសម្បត្តិរូបមន្តតែងតែរក្សាទុកជាខ្សែអក្សរក្នុង YAML ប៉ុន្តែ **ប្រភេទទិន្នន័យលទ្ធផល** ពិតប្រាកដរបស់វាត្រូវបានកំណត់ដោយប្រភេទទិន្នន័យមូលដ្ឋាន និងតម្លៃត្រឡប់មកវិញរបស់មុខងារណាមួយដែលបានប្រើ។
 
-សូមកត់សម្គាល់ថាការប្រើសម្រង់ដែលដាក់ក្នុងគ្នាគឺចាំបាច់ដើម្បីរួមបញ្ចូលអក្សរផ្ទាល់នៅក្នុងវាល YAML។ អក្សរផ្ទាល់ត្រូវតែដាក់ក្នុងសម្រង់តែមួយ ឬពីរ។
+សូមកត់សម្គាល់ថា ការប្រើសញ្ញាសម្រង់ដែលជាប់គ្នាគឺចាំបាច់ដើម្បីបញ្ចូលអក្សរអត្ថបទក្នុងវាល YAML។ អក្សរអត្ថបទត្រូវតែភ្ជាប់ក្នុងសញ្ញាសម្រង់តែ ឬសញ្ញាសម្រង់ទ្វេ។
 
 ### លក្ខណៈសម្បត្តិ
 
-ផ្នែក `properties` អនុញ្ញាតឱ្យរក្សាទុកព័ត៌មានកំណត់រចនាសម្ព័ន្ធអំពីលក្ខណៈសម្បត្តិនីមួយៗ។ វាអាស្រ័យលើទិដ្ឋភាពនីមួយៗអំពីរបៀបប្រើតម្លៃកំណត់រចនាសម្ព័ន្ធទាំងនេះ។ ឧទាហរណ៍ ក្នុងតារាង ឈ្មោះបង្ហាញត្រូវបានប្រើសម្រាប់បឋមកថាជួរឈរ។
+ផ្នែក `properties` អនុញ្ញាតឱ្យរក្សាទុកព័ត៌មានការកំណត់រចនាសម្ព័ន្ធអំពីលក្ខណៈសម្បត្តិនីមួយៗ។ វាអាស្រ័យលើទិដ្ឋភាពនីមួយៗ ថាតើត្រូវប្រើតម្លៃការកំណត់រចនាសម្ព័ន្ធទាំងនេះយ៉ាងដូចម្តេច។ ឧទាហរណ៍ ក្នុងតារាង ឈ្មោះបង្ហាញត្រូវបានប្រើសម្រាប់ក្បាលជួរឈរ។
 
 ```yaml
 properties:
@@ -132,24 +140,225 @@ properties:
 
 ### សង្ខេប
 
-ផ្នែក `summaries` អាចប្រើដើម្បីកំណត់រូបមន្តសង្ខេបផ្ទាល់ខ្លួន។ បន្ថែមពីលើការកំណត់រូបមន្តសង្ខេបនៅទីនេះ មានរូបមន្តសង្ខេបលំនាំដើមជាច្រើនដែលមានស្រាប់។
+ផ្នែក `summaries` អាចប្រើដើម្បីកំណត់រូបមន្តសង្ខេបផ្ទាល់ខ្លួន។ បន្ថែមពីលើការកំណត់រូបមន្តសង្ខេបនៅទីនេះ មានរូបមន្តសង្ខេបលំនាំដើមមួយចំនួនដែលអាចប្រើបាន។
 
 ```yaml
 summaries:
   customAverage: 'values.mean().round(3)'
 ```
 
-ក្នុងឧទាហរណ៍នេះ រូបមន្ត `customAverage` គឺដូចគ org នឹង `Average` លំនាំដើម លើកលែងតែតម្លៃត្រូវបានបង្គត់ទៅចំនួនខ្ទង់ផ្សេង។ ក្នុងរូបមន្តសង្ខេប ពាក្យគន្លឹះ `values` គឺជាបញ្ជីមួយដែលមានតម្លៃទាំងអស់សម្រាប់លក្ខណៈសម្បត្តិនោះឆ្លងកាត់រាល់កំណត់ត្រាទាំងអស់នៅក្នុងសំណុំលទ្ធផល។ រូបមន្តសង្ខេបគួរត្រឡប់ `Value` តែមួយ។
+ក្នុងឧទាហរណ៍នេះ រូបមន្ត `customAverage` ដូចគ្នានឹង `Average` លំនាំដើម លើកលែងតែតម្លៃត្រូវបានបង្គត់ទៅចំនួនខ្ទង់ផ្សេងគ្នា។ ក្នុងរូបមន្តសង្ខេប ពាក្យគន្លឹះ `values` គឺជាបញ្ជីដែលមានតម្លៃទាំងអស់សម្រាប់លក្ខណៈសម្បត្តិនោះ នៅទូទាំងចំណាំទាំងអស់ក្នុងសំណុំលទ្ធផល។ រូបមន្តសង្ខេបគួរត្រឡប់ `Value` តែមួយ។
 
-សូមកត់សម្គាល់ថាផ្នែក `summaries` នេះខុសពីផ្នែក `summaries` នៅក្នុងកំណត់រចនាសម្ព័ន្ធទិដ្ឋភាព (ពន្យល់ខាងក្រោម) ដែលរូបមន្តសង្ខេបត្រូវបានកំណត់ទៅលក្ខណៈសម្បត្តិជាក់លាក់។
+សូមកត់សម្គាល់ថា ផ្នែក `summaries` នេះខុសពីផ្នែក `summaries` ក្នុងការកំណត់រចនាសម្ព័ន្ធទិដ្ឋភាព (ពន្យល់ខាងក្រោម) ដែលរូបមន្តសង្ខេបត្រូវបានកំណត់ទៅលក្ខណៈសម្បត្តិជាក់លាក់។
 
 #### រូបមន្តសង្ខេបលំនាំដើម
 
-| ឈ្មោះ      | ប្រភេទធាតុចូល | ការពិពណ org នា                                                   |
-| --------- | ---------- | ------------------------------------------------------------- |
-| Average   | Number     | មធ្យមគណិតវិទ org្យានៃលេខទាំងអស់ពីតម្លៃធាតុចូល។   |
-| Min       | Number     | លេខតូចបំផុតពីតម្លៃធាតុចូល។                    |
-| Max       | Number     | លេខធំបំផុតពីតម្លៃធាតុចូល org។                     |
-| Sum       | Number     | ផលបូកនៃលេខទាំងអស org់នៅក្នុងធាតុចូល org។                          |
-| Range     | Number     | ភាពខុសគ org្នារវាង `Max` និង `Min`។                       |
-| Median    | Number     | មធ org្យមគណិតវិទ org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org
+| ឈ្មោះ     | ប្រភេទបញ្ចូល | ការពិពណ៌នា                                                          |
+| --------- | ------------ | -------------------------------------------------------------------- |
+| Average   | Number       | មធ្យមភាគគណិតវិទ្យានៃលេខទាំងអស់ពីតម្លៃបញ្ចូល។                       |
+| Min       | Number       | លេខតូចបំផុតពីតម្លៃបញ្ចូល។                                           |
+| Max       | Number       | លេខធំបំផុតពីតម្លៃបញ្ចូល។                                            |
+| Sum       | Number       | ផលបូកនៃលេខទាំងអស់ក្នុងការបញ្ចូល។                                    |
+| Range     | Number       | ភាពខុសគ្នារវាង `Max` និង `Min`។                                      |
+| Median    | Number       | មធ្យានគណិតវិទ្យានៃលេខទាំងអស់ពីតម្លៃបញ្ចូល។                         |
+| Stddev    | Number       | គម្លាតស្តង់ដារនៃលេខទាំងអស់ពីតម្លៃបញ្ចូល។                           |
+| Earliest  | Date         | កាលបរិច្ឆេទដំបូងបំផុតពីតម្លៃបញ្ចូល។                                 |
+| Latest    | Date         | កាលបរិច្ឆេទចុងក្រោយបំផុតពីតម្លៃបញ្ចូល។                              |
+| Range     | Date         | ភាពខុសគ្នារវាង `Latest` និង `Earliest`។                              |
+| Checked   | Boolean      | ចំនួននៃតម្លៃ `true`។                                                 |
+| Unchecked | Boolean      | ចំនួននៃតម្លៃ `false`។                                                |
+| Empty     | Any          | ចំនួននៃតម្លៃក្នុងការបញ្ចូលដែលទទេ។                                   |
+| Filled    | Any          | ចំនួននៃតម្លៃក្នុងការបញ្ចូលដែលមិនទទេ។                                |
+| Unique    | Any          | ចំនួននៃតម្លៃតែមួយគត់ក្នុងការបញ្ចូល។                                  |
+
+### ទិដ្ឋភាព
+
+ផ្នែក `views` កំណត់ថាតើទិន្នន័យអាចត្រូវបានបង្ហាញយ៉ាងដូចម្តេច។ ធាតុនីមួយៗក្នុងបញ្ជី `views` កំណត់ទិដ្ឋភាពដាច់ដោយឡែកនៃទិន្នន័យដូចគ្នា ហើយអាចមានទិដ្ឋភាពផ្សេងៗគ្នាតាមតម្រូវការ។
+
+```yaml
+views:
+  - type: table
+    name: "My table"
+    limit: 10
+    groupBy:
+      property: note.age
+      direction: DESC
+    filters:
+      and:
+        - 'status != "done"'
+        - or:
+            - "formula.ppu > 5"
+            - "price > 2.1"
+    order:
+      - file.name
+      - file.ext
+      - note.age
+      - formula.ppu
+      - formula.formatted_price
+    summaries:
+      formula.ppu: Average
+```
+
+- `type` ជ្រើសរើសពីប្រភេទទិដ្ឋភាពដែលភ្ជាប់មកជាមួយ និងបន្ថែមដោយកម្មវិធីជំនួយ។
+- `name` គឺជាឈ្មោះបង្ហាញ ហើយអាចប្រើដើម្បីកំណត់ទិដ្ឋភាពលំនាំដើម។
+- `filters` ដូចគ្នាបេះបិទនឹងការពិពណ៌នាខាងលើ ប៉ុន្តែអនុវត្តតែចំពោះទិដ្ឋភាពប៉ុណ្ណោះ។
+- `groupBy` បញ្ជាក់លក្ខណៈសម្បត្តិ និងទិសដៅតម្រៀប។ តម្លៃនៃលក្ខណៈសម្បត្តិដែលបញ្ជាក់សម្រាប់ជួរនីមួយៗ ត្រូវបានប្រើដើម្បីដាក់ជួរទៅក្នុងក្រុម។
+- `summaries` ផ្ទៀងផ្ទាត់ឈ្មោះលក្ខណៈសម្បត្តិទៅសង្ខេបដែលមានឈ្មោះ។ សង្ខេបអនុវត្តការបូករួមលើលក្ខណៈសម្បត្តិ នៅទូទាំងជួរទាំងអស់។
+
+[[ទិដ្ឋភាព]] អាចបន្ថែមទិន្នន័យបន្ថែមដើម្បីរក្សាព័ត៌មានណាមួយដែលចាំបាច់ដើម្បីរក្សាស្ថានភាព ឬបង្ហាញឱ្យបានត្រឹមត្រូវ ប៉ុន្តែអ្នកនិពន្ធកម្មវិធីជំនួយគួរតែប្រយ័ត្នកុំប្រើគ្រាប់ចុចដែលកម្មវិធីជំនួយ Bases មូលដ្ឋានកំពុងប្រើរួចហើយ។ ជាឧទាហរណ៍ ទិដ្ឋភាពតារាងអាចប្រើវានេះដើម្បីកំណត់ចំនួនជួរ ឬជ្រើសរើសជួរឈរដែលប្រើដើម្បីតម្រៀបជួរ និងក្នុងទិសដៅណា។ ប្រភេទទិដ្ឋភាពផ្សេងដូចជាផែនទីអាចប្រើវានេះ សម្រាប់ការផ្ទៀងផ្ទាត់ លក្ខណៈសម្បត្តិណាក្នុងចំណាំដែលត្រូវគ្នានឹងរយៈទទឹង និងរយៈបណ្តោយ និងលក្ខណៈសម្បត្តិណាគួរត្រូវបានបង្ហាញជាចំណងជើង pin។
+
+នៅពេលអនាគត API នឹងអនុញ្ញាតឱ្យទិដ្ឋភាពអាន និងសរសេរតម្លៃទាំងនេះ ដែលអនុញ្ញាតឱ្យទិដ្ឋភាពបង្កើតចំណុចប្រទាក់ផ្ទាល់ខ្លួនរបស់វាសម្រាប់ការកំណត់រចនាសម្ព័ន្ធ។
+
+## លក្ខណៈសម្បត្តិ
+
+មានលក្ខណៈសម្បត្តិបីប្រភេទដែលប្រើក្នុង bases៖
+
+1. **លក្ខណៈសម្បត្តិចំណាំ** ដែលរក្សាទុកក្នុង frontmatter នៃឯកសារ Markdown។
+2. **លក្ខណៈសម្បត្តិឯកសារ** ដែលអាចចូលប្រើបានសម្រាប់ប្រភេទឯកសារទាំងអស់។
+3. **លក្ខណៈសម្បត្តិរូបមន្ត** ដែលកំណត់ក្នុងឯកសារ `.base` ខ្លួនឯង (មើលខាងលើ)។
+### លក្ខណៈសម្បត្តិនៃកំណត់ត្រា
+
+[[លក្ខណៈសម្បត្តិ|លក្ខណៈសម្បត្តិនៃកំណត់ត្រា]] មានតែសម្រាប់ឯកសារ Markdown ប៉ុណ្ណោះ ហើយត្រូវបានរក្សាទុកក្នុង YAML frontmatter នៃកំណត់ត្រានីមួយៗ។ លក្ខណៈសម្បត្តិទាំងនេះអាចចូលប្រើបានដោយប្រើទម្រង់ `note.author` ឬ `author` សាមញ្ញជាការសង្ខេប។
+
+### លក្ខណៈសម្បត្តិឯកសារ
+
+លក្ខណៈសម្បត្តិឯកសារសំដៅទៅឯកសារដែលកំពុងត្រូវបានសាកល្បង ឬវាយតម្លៃ។ លក្ខណៈសម្បត្តិឯកសារអាចប្រើបានសម្រាប់[[ទម្រង់ឯកសារដែលទទួលយក|ប្រភេទឯកសារ]]ទាំងអស់ រួមទាំងឯកសារភ្ជាប់ផងដែរ។
+
+ឧទាហរណ៍ តម្រង `file.ext == "md"` នឹងជាពិតសម្រាប់ឯកសារ Markdown ទាំងអស់ ហើយមិនពិតក្នុងករណីផ្សេង។
+
+| លក្ខណៈសម្បត្តិ | ប្រភេទ | ការពិពណ៌នា |
+| ------------- | ------ | ------------------------------------------------------------- |
+| `file.backlinks`  | បញ្ជី   | បញ្ជីឯកសារ backlink ។ ចំណាំ៖ លក្ខណៈសម្បត្តិនេះប្រើទ្រព្យសម្បត្តិប្រព័ន្ធច្រើន។ នៅពេលអាចធ្វើបាន សូមបញ្ច្រាសការស្វែងរក ហើយប្រើ `file.links` ។ មិនធ្វើការបន្ទាន់សម័យលទ្ធផលដោយស្វ័យប្រវត្តិ នៅពេល vault ផ្លាស់ប្តូរ។ |
+| `file.ctime`  | កាលបរិច្ឆេទ   | ពេលវេលាបង្កើត |
+| `file.embeds` | បញ្ជី   | បញ្ជីនៃការបង្កប់ទាំងអស់ក្នុងកំណត់ត្រា |
+| `file.ext`    | អក្សរ | កម្រិតបន្ថែមឯកសារ |
+| `file.file`   | ឯកសារ   | វត្ថុឯកសារ អាចប្រើបានតែក្នុងមុខងារជាក់លាក់ប៉ុណ្ណោះ |
+| `file.folder` | អក្សរ | ផ្លូវនៃថតឯកសារ |
+| `file.links`  | បញ្ជី   | បញ្ជីនៃតំណខាងក្នុងទាំងអស់ក្នុងកំណត់ត្រា រួមទាំង frontmatter |
+| `file.mtime`  | កាលបរិច្ឆេទ   | ពេលវេលាកែប្រែ |
+| `file.name`   | អក្សរ | ឈ្មោះឯកសារ |
+| `file.path`   | អក្សរ | ផ្លូវនៃឯកសារ |
+| `file.properties`   | វត្ថុ | លក្ខណៈសម្បត្តិទាំងអស់នៅលើឯកសារ។ ចំណាំ៖ មិនធ្វើការបន្ទាន់សម័យលទ្ធផលដោយស្វ័យប្រវត្តិ នៅពេល vault ផ្លាស់ប្តូរ។ |
+| `file.size`   | លេខ | ទំហំឯកសារ |
+| `file.tags`   | បញ្ជី   | បញ្ជីនៃស្លាកទាំងអស់ក្នុងមាតិកាឯកសារ និង frontmatter |
+
+### ចូលប្រើលក្ខណៈសម្បត្តិដោយប្រើ `this`
+
+ប្រើវត្ថុ `this` ដើម្បីចូលប្រើលក្ខណៈសម្បត្តិឯកសារ។ `this` សំដៅទៅអ្វី នឹងអាស្រ័យលើកន្លែងដែល base ត្រូវបានបង្ហាញ។
+
+នៅពេល base ត្រូវបានបើកក្នុងតំបន់មាតិកាចម្បង `this` ចង្អុលទៅលក្ខណៈសម្បត្តិនៃឯកសារ base ខ្លួនឯង។ ឧទាហរណ៍ ការប្រើ `this.file.folder` ត្រឡប់ផ្លូវថតដែល base ស្ថិតនៅ។
+
+នៅពេល base ត្រូវបានបង្កប់ក្នុងឯកសារផ្សេង `this` ចង្អុលទៅលក្ខណៈសម្បត្តិនៃឯកសារ _ដែលបង្កប់_ (កំណត់ត្រា ឬ Canvas ដែលមាន base)។ ឧទាហរណ៍ ការប្រើ `this.file.name` ត្រឡប់ឈ្មោះឯកសារដែលបង្កប់ មិនមែន base ទេ។
+
+នៅពេល base នៅក្នុងរបារចំហៀង `this` សំដៅទៅឯកសារដែលសកម្មក្នុងតំបន់មាតិកាចម្បង។ វាអនុញ្ញាតឱ្យអ្នកបង្កើតសំណួរដោយផ្អែកលើឯកសារដែលសកម្ម។ ឧទាហរណ៍ អ្នកអាចប្រើ `file.hasLink(this.file)` ដើម្បីចម្លងផ្ទាំង backlinks ។
+
+## ប្រតិបត្តិករ
+
+### ប្រតិបត្តិករនព្វន្ថ
+
+ប្រតិបត្តិករនព្វន្ថ អនុវត្តនព្វន្ថលើលេខ។ ឧទាហរណ៍ `radius * (2 * 3.14)`។
+
+| ប្រតិបត្តិករ | ការពិពណ៌នា |
+| -------- | ----------- |
+| `+`      | បូក        |
+| `-`      | ដក       |
+| `*`      | គុណ    |
+| `/`      | ចែក      |
+| `%`      | modulo      |
+| `( )`    | វង់ក្រចក |
+
+### នព្វន្ថកាលបរិច្ឆេទ
+
+កាលបរិច្ឆេទអាចត្រូវបានកែប្រែដោយបន្ថែម និងដករយៈពេល។ ឯកតារយៈពេលទទួលយកទម្រង់ច្រើន៖
+
+| ឯកតា | រយៈពេល |
+| ------------------------ | -------- |
+| `y`, `year`, `years`     | ឆ្នាំ     |
+| `M`, `month`, `months`   | ខែ    |
+| `d`, `day`, `days`       | ថ្ងៃ      |
+| `w`, `week`, `weeks`     | សប្តាហ៍     |
+| `h`, `hour`, `hours`     | ម៉ោង     |
+| `m`, `minute`, `minutes` | នាទី   |
+| `s`, `second`, `seconds` | វិនាទី   |
+
+ដើម្បីកែប្រែ ឬផ្លាស់ប្តូរវត្ថុ Date សូមប្រើប្រតិបត្តិករ `+` ឬ `-` ជាមួយអក្សររយៈពេល។ ឧទាហរណ៍ `date + "1M"` បន្ថែម ១ ខែទៅកាលបរិច្ឆេទ ខណៈ `date - "2h"` ដក ២ ម៉ោងពីកាលបរិច្ឆេទ។
+
+[[អនុគមន៍|មុខងារ]]ទូទៅ `today()` អាចប្រើដើម្បីទទួលបានកាលបរិច្ឆេទបច្ចុប្បន្ន ហើយ `now()` អាចប្រើដើម្បីទទួលបានកាលបរិច្ឆេទបច្ចុប្បន្នជាមួយពេលវេលា។
+
+- `now() + "1 day"` ត្រឡប់ datetime ពិតប្រាកដ ២៤ ម៉ោងចាប់ពីពេលប្រតិបត្តិ។
+- `file.mtime > now() - "1 week"` ត្រឡប់ `true` ប្រសិនបើឯកសារត្រូវបានកែប្រែក្នុងសប្តាហ៍ចុងក្រោយ។
+- `date("2024-12-01") + "1M" + "4h" + "3m"` ត្រឡប់វត្ថុ Date តំណាងឱ្យ `2025-01-01 04:03:00`។
+- ដករយៈពេលពីកាលបរិច្ឆេទពីរ ដើម្បីទទួលបានភាពខុសគ្នាជាមិល្លីវិនាទី ឧទាហរណ៍ `now() - file.ctime`។
+- ដើម្បីទទួលបានផ្នែកកាលបរិច្ឆេទនៃ Date ជាមួយពេលវេលា សូមប្រើ `datetime.date()`។
+- ដើម្បីធ្វើទ្រង់ទ្រាយវត្ថុ Date សូមប្រើមុខងារ `format()` ឧទាហរណ៍ `datetime.format("YYYY-MM-DD")`។
+
+### ប្រតិបត្តិករប្រៀបធៀប
+
+ប្រតិបត្តិករប្រៀបធៀបអាចប្រើដើម្បីប្រៀបធៀបលេខ ឬវត្ថុ Date។ ស្មើ និងមិនស្មើអាចប្រើជាមួយតម្លៃប្រភេទណាមួយ មិនត្រឹមតែលេខ និងកាលបរិច្ឆេទទេ។
+
+| ប្រតិបត្តិករ | ការពិពណ៌នា |
+| -------- | ------------------------ |
+| `==`     | ស្មើ                   |
+| `!=`     | មិនស្មើ                |
+| `>`      | ធំជាង             |
+| `<`      | តូចជាង             |
+| `>=`     | ធំជាង ឬស្មើ |
+| `<=`     | តូចជាង ឬស្មើ    |
+
+### ប្រតិបត្តិករប៊ូលីន
+
+ប្រតិបត្តិករប៊ូលីនអាចប្រើដើម្បីបន្សំ ឬបញ្ច្រាសតម្លៃតក្កវិជ្ជា ដែលបង្ហាញលទ្ធផលជាពិត ឬមិនពិត។
+
+| ប្រតិបត្តិករ | ការពិពណ៌នា |
+| -------- | ----------- |
+| `!`      | NOT តក្កវិជ្ជា |
+| `&&`     | AND តក្កវិជ្ជា |
+| \|\|     | OR តក្កវិជ្ជា  |
+
+## មុខងារ
+
+សូមមើល[[អនុគមន៍|បញ្ជីមុខងារ]]ដែលអាចប្រើបានក្នុងរូបមន្ត និង[[ទិដ្ឋភាព|តម្រង]]។
+
+## ប្រភេទ
+
+Bases មានប្រព័ន្ធប្រភេទដែលត្រូវបានប្រើដោយរូបមន្ត និងតម្រង ដើម្បីអនុវត្តមុខងារទៅលើលក្ខណៈសម្បត្តិ។
+
+### អក្សរ លេខ និងប៊ូលីន
+
+អក្សរ លេខ និងប៊ូលីន គឺជាតម្លៃ "primitive" ដែលមិនត្រូវការមុខងារដើម្បីបង្កើត។
+
+- អក្សរត្រូវបានព័ទ្ធដោយសញ្ញាសម្រង់តែ ឬទ្វេ ឧទាហរណ៍ `"message"`។
+- លេខត្រូវបានសរសេរជាលេខ ហើយអាចជ្រើសរើសព័ទ្ធដោយវង់ក្រចកដើម្បីភាពច្បាស់លាស់។ ឧទាហរណ៍ `1` ឬ `(2.5)`។
+- ប៊ូលីនត្រូវបានសរសេរជា `true` ឬ `false` ដោយគ្មានសញ្ញាសម្រង់។
+
+### កាលបរិច្ឆេទ និងរយៈពេល
+
+កាលបរិច្ឆេទតំណាងឱ្យកាលបរិច្ឆេទជាក់លាក់ ឬកាលបរិច្ឆេទ និងពេលវេលា អាស្រ័យលើមុខងារដែលប្រើដើម្បីបង្កើតវា ឬប្រភេទដែលត្រូវបានកំណត់ទៅ[[លក្ខណៈសម្បត្តិ|លក្ខណៈសម្បត្តិ]]។
+
+- ដើម្បីបង្កើតកាលបរិច្ឆេទ សូមប្រើមុខងារ `date` ឧទាហរណ៍ `date("2025-01-01 12:00:00")`
+- ដើម្បីកែប្រែកាលបរិច្ឆេទ បន្ថែម ឬដករយៈពេល ឧទាហរណ៍ `now() + "1 hour"` ឬ `today() + "7d"`
+- ប្រៀបធៀបកាលបរិច្ឆេទដោយប្រើប្រតិបត្តិករប្រៀបធៀប (ឧ. `>` ឬ `<`) និងប្រតិបត្តិករនព្វន្ថ (ឧទាហរណ៍ `(now() + "1d") - now()` ត្រឡប់ `86400000` មិល្លីវិនាទី។)
+- ដើម្បីស្រង់ផ្នែកនៃកាលបរិច្ឆេទ សូមប្រើវាលដែលអាចប្រើបាន (`now().hour`) ឬមុខងារជំនួយ (`now.time()`)។
+- [[អនុគមន៍|វាល និងមុខងារ]]ជាច្រើនទៀតអាចប្រើបាននៅលើវត្ថុ date។
+
+### វត្ថុ និងបញ្ជី
+
+- បំប្លែងធាតុតែមួយទៅជាបញ្ជីដោយប្រើមុខងារ `list()`។ នេះមានប្រយោជន៍ជាពិសេសសម្រាប់លក្ខណៈសម្បត្តិដែលអាចមានការប្រផ្សំបញ្ជី ឬតម្លៃតែ។
+- ចូលប្រើធាតុបញ្ជីដោយប្រើវង់ក្រចកការ៉េ និងលិបិក្រម 0-based។ ឧទាហរណ៍ `property[0]` ត្រឡប់ធាតុដំបូងពីបញ្ជី។
+- ចូលប្រើធាតុវត្ថុដោយប្រើវង់ក្រចកការ៉េ និងឈ្មោះធាតុ ឬសញ្ញា dot។ ឧទាហរណ៍ `property.subprop` ឬ `property["subprop"]`។
+
+### ឯកសារ និងតំណ
+
+[[តំណភ្ជាប់កំណត់ត្រា|Wikilinks]] ក្នុង[[លក្ខណៈសម្បត្តិ|លក្ខណៈសម្បត្តិ frontmatter]] ត្រូវបានទទួលស្គាល់ដោយស្វ័យប្រវត្តិជាវត្ថុ Link។ តំណនឹងបង្ហាញជាតំណដែលអាចចុចបានក្នុង[[ទិដ្ឋភាព|view]]។
+
+- ដើម្បីបង្កើតតំណ សូមប្រើ[[អនុគមន៍|មុខងារ]] `link` ទូទៅ ឧទាហរណ៍ `link("filename")` ឬ `link("https://obsidian.md")`។
+- អ្នកអាចបង្កើតតំណពីអក្សរណាមួយ ឧទាហរណ៍ `link(file.ctime.date().toString())`។
+- ដើម្បីកំណត់អត្ថបទបង្ហាញ សូមបញ្ចូលអក្សរ ឬរូបតំណាងជ្រើស ជាប៉ារ៉ាម៉ែត្រទីពីរ ឧទាហរណ៍ `link("filename", "display")` ឬ `link("filename", icon("plus"))`។
+
+វត្ថុ File អាចប្រែក្លាយទៅជាតំណដោយប្រើ `file.asLink()` ជាមួយអត្ថបទបង្ហាញជ្រើស។
+
+តំណអាចប្រៀបធៀបដោយ `==` និង `!=`។ វាស្មើគ្នា ប្រសិនបើវាចង្អុលទៅឯកសារដូចគ្នា ឬប្រសិនបើឯកសារមិនមាន នៅពេលស្វែងរក អត្ថបទតំណរបស់វាត្រូវតែដូចគ្នា។
+
+តំណអាចប្រៀបធៀបជាមួយឯកសារ ដូចជា `file` ឬ `this`។ វានឹងស្មើ ប្រសិនបើតំណទៅដល់ឯកសារ។ ឧទាហរណ៍ `author == this`។
+
+តំណក៏អាចពិនិត្យក្នុងបញ្ជីផ្ទុក ឧទាហរណ៍ `authors.contains(this)`។

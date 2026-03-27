@@ -62,6 +62,12 @@ views:
 Standardmäßig enthält eine Basis jede Datei im Vault. Es gibt kein `from` oder `source` wie in SQL oder Dataview. Der Abschnitt `filters` ermöglicht es dir, Bedingungen zu definieren, um den Datensatz einzugrenzen.
 
 ```yaml
+# Einfacher Filter:
+filters:
+  and:
+    - file.hasTag("tag")
+
+# Komplexer Filter:
 filters:
   or:
     - file.hasTag("tag")

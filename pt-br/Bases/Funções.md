@@ -138,6 +138,13 @@ Funções globais são usadas sem um tipo.
 
 - `today()` retorna um objeto de data representando a data atual. A parte do horário é definida como zero.
 
+### `random()`
+
+`random(): number`
+
+- `random()` retorna um número aleatório entre 0 e 1.
+- A geração do número é atualizada sempre que uma visualização é carregada. Navegar entre visualizações altera o número aleatório.
+
 ## Qualquer
 
 Funções que você pode usar com qualquer valor. Isso inclui strings (ex.: `"hello"`), números (ex.: `42`), listas (ex.: `[1,2,3]`), objetos e mais.

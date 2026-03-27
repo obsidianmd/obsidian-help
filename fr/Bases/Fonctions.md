@@ -4,7 +4,6 @@ description: Cette page détaille les fonctions utilisées dans Obsidian Bases p
 publish: true
 mobile: true
 localized: '2026-03-18'
-
 ---
 Les fonctions sont utilisées dans les [[Introduction aux Bases|Bases]] pour manipuler les données des [[Propriétés|propriétés]] dans les [[Vues#Filtres|filtres]] et les [[Formules|formules]]. Consultez la référence de la [[Syntaxe des Bases|syntaxe des bases]] pour en savoir plus sur l'utilisation des fonctions.
 
@@ -139,6 +138,13 @@ Les fonctions globales s'utilisent sans type.
 `today(): date`
 
 - `today()` retourne un objet date représentant la date actuelle. La partie horaire est mise à zéro.
+
+### `random()`
+
+`random(): number`
+
+- `random()` retourne un nombre aléatoire entre 0 et 1.
+- La génération du nombre est actualisée à chaque chargement d'une vue. Naviguer entre les vues change le nombre aléatoire.
 
 ## Quelconque
 

@@ -138,6 +138,13 @@ Các hàm toàn cục được sử dụng mà không cần kiểu.
 
 - `today()` trả về đối tượng ngày đại diện cho ngày hiện tại. Phần thời gian được đặt về không.
 
+### `random()`
+
+`random(): number`
+
+- `random()` trả về một số ngẫu nhiên từ 0 đến 1.
+- Việc tạo số được làm mới mỗi khi một chế độ xem được tải. Điều hướng giữa các chế độ xem sẽ thay đổi số ngẫu nhiên.
+
 ## Bất kỳ
 
 Các hàm bạn có thể sử dụng với bất kỳ giá trị nào. Bao gồm chuỗi (ví dụ: `"hello"`), số (ví dụ: `42`), danh sách (ví dụ: `[1,2,3]`), đối tượng, v.v.

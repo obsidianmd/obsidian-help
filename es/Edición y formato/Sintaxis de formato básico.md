@@ -354,7 +354,7 @@ _ _ _
 
 ***
 
-## Código
+## 
 
 Puedes formatear código tanto en línea dentro de una oración, como en su propio bloque.
 
@@ -372,7 +372,7 @@ Si quieres poner comillas invertidas en un bloque de código en línea, rodéalo
 
 ### Bloques de código
 
-Para formatear código como un bloque, enciérralo con tres comillas invertidas o tres tildes.
+Para formatear código como un bloque, enciérralo con tres o más comillas invertidas o tres o más tildes.
 
 ~~~
 `````

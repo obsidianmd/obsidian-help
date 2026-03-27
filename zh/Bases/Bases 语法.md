@@ -65,6 +65,12 @@ views:
 默认情况下，数据库包含仓库中的所有文件。不像 SQL 或 Dataview 那样有 `from` 或 `source`。`filters` 部分允许你定义条件来缩小数据集。
 
 ```yaml
+# 简单筛选：
+filters:
+  and:
+    - file.hasTag("tag")
+
+# 复杂筛选：
 filters:
   or:
     - file.hasTag("tag")

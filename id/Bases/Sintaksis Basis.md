@@ -62,6 +62,12 @@ views:
 Secara bawaan, sebuah basis mencakup setiap file dalam brankas. Tidak ada `from` atau `source` seperti di SQL atau Dataview. Bagian `filters` memungkinkan Anda mendefinisikan kondisi untuk mempersempit kumpulan data.
 
 ```yaml
+# Filter sederhana:
+filters:
+  and:
+    - file.hasTag("tag")
+
+# Filter kompleks:
 filters:
   or:
     - file.hasTag("tag")

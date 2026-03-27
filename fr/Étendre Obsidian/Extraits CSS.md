@@ -72,6 +72,7 @@ Il dispose d'un ensemble de [variables CSS](https://docs.obsidian.md/Reference/C
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 

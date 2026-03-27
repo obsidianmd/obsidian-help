@@ -100,7 +100,7 @@ Hành động `daily` chấp nhận các tham số giống như hành động `n
 
 ## Ghi chú duy nhất
 
-Hành động `unique` tạo một ghi chú duy nhất mới trong kho. Plugin [[Tạo ghi chú duy nhất|Tạo ghi chú duy nhất]] phải được bật.
+Hành động `unique` tạo một ghi chú duy nhất mới trong kho. Plugin [[Plugins/Unique note creator|Tạo ghi chú duy nhất]] phải được bật.
 
 ### Ví dụ
 

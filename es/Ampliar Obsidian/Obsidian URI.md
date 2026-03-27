@@ -102,7 +102,7 @@ La acción `daily` acepta los mismos parámetros que la acción `new`.
 
 ## Nota única
 
-La acción `unique` crea una nueva nota única en la bóveda. El complemento [[Creador de nota única]] debe estar habilitado.
+La acción `unique` crea una nueva nota única en la bóveda. El complemento [[Plugins/Unique note creator|Creador de nota única]] debe estar habilitado.
 
 ### Ejemplos
 

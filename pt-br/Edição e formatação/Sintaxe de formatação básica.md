@@ -2,7 +2,7 @@
 permalink: syntax
 publish: true
 mobile: true
-description: Aprenda como aplicar formatação básica às suas notas no Obsidian, usando Markdown.
+description: 'Aprenda como aplicar formatação básica às suas notas no Obsidian, usando Markdown.'
 ---
 Aprenda como aplicar formatação básica às suas notas, usando [Markdown](https://daringfireball.net/projects/markdown/). Para sintaxe de formatação mais avançada, consulte [[Sintaxe de formatação avançada]].
 
@@ -352,7 +352,7 @@ _ _ _
 
 ***
 
-## Código
+## 
 
 Você pode formatar código tanto inline dentro de uma frase, quanto em seu próprio bloco.
 
@@ -370,7 +370,7 @@ Se você quiser colocar crases em um bloco de código inline, envolva-o com cras
 
 ### Blocos de código
 
-Para formatar código como um bloco, envolva-o com três crases ou três tils.
+Para formatar código como um bloco, envolva-o com três ou mais crases ou três ou mais tils.
 
 ~~~
 `````

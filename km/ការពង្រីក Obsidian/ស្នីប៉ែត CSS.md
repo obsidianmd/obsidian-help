@@ -70,6 +70,7 @@ Obsidian ផ្តល់នូវវិធីសាស្ត្រជាច្�
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 

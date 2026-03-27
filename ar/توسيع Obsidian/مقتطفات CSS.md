@@ -71,6 +71,7 @@ CSS هي لغة تتحكم في مظهر HTML. بإضافة مقتطفات CSS،
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 

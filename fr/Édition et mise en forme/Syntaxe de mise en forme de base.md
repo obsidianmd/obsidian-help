@@ -1,6 +1,6 @@
 ---
 permalink: syntax
-description: Apprenez à appliquer la mise en forme de base à vos notes dans Obsidian, en utilisant Markdown.
+description: 'Apprenez à appliquer la mise en forme de base à vos notes dans Obsidian, en utilisant Markdown.'
 publish: true
 mobile: true
 aliases:
@@ -355,7 +355,7 @@ _ _ _
 
 ***
 
-## Code
+## 
 
 Vous pouvez mettre en forme du code soit en ligne au sein d'une phrase, soit dans son propre bloc.
 
@@ -373,7 +373,7 @@ Si vous souhaitez mettre des accents graves dans un bloc de code en ligne, entou
 
 ### Blocs de code
 
-Pour mettre en forme du code sous forme de bloc, encadrez-le de trois accents graves ou de trois tildes.
+Pour mettre en forme du code sous forme de bloc, encadrez-le de trois accents graves ou plus ou de trois tildes ou plus.
 
 ~~~
 `````

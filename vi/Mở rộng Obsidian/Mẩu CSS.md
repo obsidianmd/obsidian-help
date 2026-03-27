@@ -68,6 +68,7 @@ Nó có nhiều [biến CSS](https://docs.obsidian.md/Reference/CSS+variables/CS
 > ```css
 > .red-border img {
 >    border-color: #ff0000;
+>    border-style: solid;
 > }
 > ```
 > 
