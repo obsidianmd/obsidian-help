@@ -26,7 +26,7 @@ Obsidian lets you control how you read and edit notes written in Markdown using 
 To switch to *Reading view*:
 
 - Click the view switcher ![[lucide-book-icon.svg#icon]] in the upper-right corner of the editor.
-- Or click the interactive status icon ( ![[lucide-edit-3.svg#icon]] or ![[lucide-code-xml.svg#icon]] ) in the status bar and select **Reading view**.
+- Or click the interactive status icon ![[lucide-edit-3.svg#icon]] or ![[lucide-code-xml.svg#icon]] in the status bar and select **Reading view**.
 - Or press `Ctrl+E` (`Cmd+E` on macOS).
 
 > [!note] Note
@@ -50,7 +50,7 @@ While in *Editing view*, the *Editing mode* defines, how Markdown is displayed. 
 To switch to *Live Preview*:
 
 - Click the view switcher ![[lucide-edit-3.svg#icon]] in the upper-right corner of the editor.
-- Or click the interactive status icon ( ![[lucide-book-icon.svg#icon]] or ![[lucide-code-xml.svg#icon]] ) in the status bar and select **Live Preview**.
+- Or click the interactive status icon ![[lucide-book-icon.svg#icon]] or ![[lucide-code-xml.svg#icon]] in the status bar and select **Live Preview**.
 - Or press `Ctrl+E` (`Cmd+E` on macOS).
 - Or use the [[Command palette|command]] **Toggle Reading view**.
 
@@ -64,7 +64,7 @@ To switch to *Live Preview*:
 *Source mode* displays all Markdown syntax exactly as written. Use it if you prefer plain text or need precise formatting control.
 
 To switch to *Source mode*:
-- Click the interactive status icon ( ![[lucide-book-icon.svg#icon]] or ![[lucide-edit-3.svg#icon]] ) in the status bar and select **Source mode**.
+- Click the interactive status icon ![[lucide-book-icon.svg#icon]] or ![[lucide-edit-3.svg#icon]]  in the status bar and select **Source mode**.
 
 > [!note] Note
 > By default, editing view is set to *Live Preview*. Change this to *Source mode* under **[[Settings]] → Editor → Default editing mode**.
