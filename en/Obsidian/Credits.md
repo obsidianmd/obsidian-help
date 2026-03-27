@@ -72,6 +72,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, Patrick Danilevici (Romanian)
 - Manuel Arias Almada (Spanish)
+- Moyf, 墨一 (Chinese Simplified)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
 - Ryooo，睿悠ryooo (Chinese Simplified)
