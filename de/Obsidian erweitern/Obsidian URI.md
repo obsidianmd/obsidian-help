@@ -100,7 +100,7 @@ Die Aktion `daily` akzeptiert dieselben Parameter wie die Aktion `new`.
 
 ## Eindeutige Notiz
 
-Die Aktion `unique` erstellt eine neue eindeutige Notiz im Vault. Die Erweiterung [[Plugins/Unique note creator|Eindeutige Notizen]] muss aktiviert sein.
+Die Aktion `unique` erstellt eine neue eindeutige Notiz im Vault. Die Erweiterung [[Eindeutige Notizen]] muss aktiviert sein.
 
 ### Beispiele
 

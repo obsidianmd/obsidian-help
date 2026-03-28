@@ -22,7 +22,7 @@ Standardmäßig erstellt Obsidian eine neue leere Notiz, die nach dem heutigen D
 
 ## Eine Tägliche Notiz aus einer Vorlage erstellen
 
-Wenn deine Täglichen Notizen die gleiche Struktur haben, kannst du eine [[Plugins/Vorlagen|Vorlage]] verwenden, um beim Erstellen vordefinierte Inhalte zu deinen Täglichen Notizen hinzuzufügen.
+Wenn deine Täglichen Notizen die gleiche Struktur haben, kannst du eine [[Erweiterungen/Vorlagen|Vorlage]] verwenden, um beim Erstellen vordefinierte Inhalte zu deinen Täglichen Notizen hinzuzufügen.
 
 1. Erstelle eine neue Notiz mit dem Namen „Tägliche Vorlage" mit dem folgenden Text (oder was auch immer für dich sinnvoll ist!):
 

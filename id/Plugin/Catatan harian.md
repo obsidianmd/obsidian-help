@@ -24,7 +24,7 @@ Secara bawaan, Obsidian membuat catatan kosong baru dengan nama sesuai tanggal h
 
 ## Membuat catatan harian dari templat
 
-Jika catatan harian Anda memiliki struktur yang sama, Anda dapat menggunakan [[Plugins/Template|templat]] untuk menambahkan konten yang sudah ditentukan ke catatan harian saat Anda membuatnya.
+Jika catatan harian Anda memiliki struktur yang sama, Anda dapat menggunakan [[Plugin/Template|templat]] untuk menambahkan konten yang sudah ditentukan ke catatan harian saat Anda membuatnya.
 
 1. Buat catatan baru bernama "Templat harian" dengan teks berikut (atau apa pun yang sesuai untuk Anda!):
 

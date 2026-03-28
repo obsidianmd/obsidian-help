@@ -732,7 +732,7 @@ translation=Obsidian Web Clipper
 
 [folder.Plugins]
 original=Plugins
-translation=Plugins
+translation=Erweiterungen
 
 [folder.Teams]
 original=Teams

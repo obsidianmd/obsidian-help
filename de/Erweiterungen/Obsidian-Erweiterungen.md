@@ -66,7 +66,7 @@ Das Obsidian-Team pflegt auch die Entwicklung bestimmter [[#Weitere Erweiterunge
 	- Deine Notizen geräteübergreifend synchronisieren.
 - [[Tag-Übersicht|Tag-Übersicht]]
 	- Alle Tags in deinem Vault auflisten.
-- [[Plugins/Vorlagen|Vorlagen]]
+- [[Erweiterungen/Vorlagen|Vorlagen]]
 	- Vordefinierte Inhalte in deine Notizen einfügen.
 - [[Eindeutige Notizen]]
 	- Eine eindeutige Notiz mit einem zeitcodierten Titel erstellen.

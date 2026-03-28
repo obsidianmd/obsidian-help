@@ -148,7 +148,7 @@ translation=Contributi finanziari
 
 [file.folding]
 original=Folding
-translation=Comprimi/espandi
+translation=Comprimi e espandi
 
 [file.formulas]
 original=Formulas
@@ -732,11 +732,11 @@ translation=Obsidian Web Clipper
 
 [folder.Plugins]
 original=Plugins
-translation=Plugins
+translation=Plugin
 
 [folder.Teams]
 original=Teams
-translation=Teams
+translation=Team
 
 [folder.User interface]
 original=User interface

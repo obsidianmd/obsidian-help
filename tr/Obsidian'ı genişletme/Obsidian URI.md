@@ -100,7 +100,7 @@ obsidian://action?param1=value&param2=value
 
 ## Benzersiz Not
 
-`unique` eylemi kasada yeni bir benzersiz not oluşturur. [[Plugins/Benzersiz not oluşturucu|Benzersiz not oluşturucu]] eklentisinin etkinleştirilmiş olması gerekir.
+`unique` eylemi kasada yeni bir benzersiz not oluşturur. [[Eklentiler/Benzersiz not oluşturucu|Benzersiz not oluşturucu]] eklentisinin etkinleştirilmiş olması gerekir.
 
 ### Örnekler
 

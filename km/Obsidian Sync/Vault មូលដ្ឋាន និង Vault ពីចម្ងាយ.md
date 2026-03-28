@@ -98,7 +98,7 @@ graph TD
 
 ![[ដោះស្រាយបញ្ហា Obsidian Sync#ការដោះស្រាយជម្លោះ|Conflict resolution]]
 
-![[ការកំណត់ Sync និងជ្រើសរើស សមកាលកម្ម#Selective syncing#Exclude a folder from syncing]]
+![[ការកំណត់ Sync និងជ្រើសរើសសមកាលកម្ម#Selective syncing#Exclude a folder from syncing]]
 
 ### អាកប្បកិរិយានៅក្រៅបណ្តាញ
 

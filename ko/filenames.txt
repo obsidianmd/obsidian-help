@@ -732,11 +732,11 @@ translation=Obsidian Web Clipper
 
 [folder.Plugins]
 original=Plugins
-translation=Plugins
+translation=플러그인
 
 [folder.Teams]
 original=Teams
-translation=Teams
+translation=팀
 
 [folder.User interface]
 original=User interface

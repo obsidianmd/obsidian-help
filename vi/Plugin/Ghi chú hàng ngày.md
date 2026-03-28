@@ -24,7 +24,7 @@ Theo mặc định, Obsidian tạo một ghi chú trống mới được đặt 
 
 ## Tạo ghi chú hàng ngày từ mẫu
 
-Nếu các ghi chú hàng ngày của bạn có cùng cấu trúc, bạn có thể sử dụng [[Plugins/Mẫu|mẫu]] để thêm nội dung được định nghĩa trước vào ghi chú hàng ngày khi bạn tạo chúng.
+Nếu các ghi chú hàng ngày của bạn có cùng cấu trúc, bạn có thể sử dụng [[Plugin/Mẫu|mẫu]] để thêm nội dung được định nghĩa trước vào ghi chú hàng ngày khi bạn tạo chúng.
 
 1. Tạo một ghi chú mới có tên "Mẫu hàng ngày" với nội dung sau (hoặc bất cứ gì phù hợp với bạn!):
 

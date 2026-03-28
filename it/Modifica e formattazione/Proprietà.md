@@ -50,7 +50,7 @@ Le proprietà hanno una propria [[Cerca|sintassi di ricerca]] che può essere ut
 
 ### Modelli
 
-È possibile aggiungere proprietà ai [[Plugins/Modelli|Modelli]].
+È possibile aggiungere proprietà ai [[Plugin/Modelli|Modelli]].
 
 Quando si inserisce un modello nella nota attiva, tutte le proprietà del modello verranno aggiunte alla nota. Obsidian unirà anche tutte le proprietà esistenti nella nota con le proprietà del modello. ^templates-properties
 

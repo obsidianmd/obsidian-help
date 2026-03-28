@@ -736,7 +736,7 @@ translation=المكوّنات الإضافية
 
 [folder.Teams]
 original=Teams
-translation=Teams
+translation=الفرق
 
 [folder.User interface]
 original=User interface

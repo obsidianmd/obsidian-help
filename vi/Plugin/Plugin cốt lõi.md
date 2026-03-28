@@ -68,7 +68,7 @@ Một số plugin cốt lõi bị vô hiệu hóa theo mặc định. Bạn có 
 	- Đồng bộ ghi chú của bạn giữa các thiết bị.
 - [[Cửa sổ thẻ|Cửa sổ thẻ]]
 	- Liệt kê tất cả thẻ trong kho của bạn.
-- [[Plugins/Mẫu|Mẫu]]
+- [[Plugin/Mẫu|Mẫu]]
 	- Chèn nội dung được định nghĩa trước vào ghi chú của bạn.
 - [[Tạo ghi chú duy nhất]]
 	- Tạo ghi chú duy nhất sử dụng tiêu đề được mã hóa theo thời gian.

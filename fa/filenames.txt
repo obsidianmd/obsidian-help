@@ -736,11 +736,11 @@ translation=Obsidian Web Clipper
 
 [folder.Plugins]
 original=Plugins
-translation=Plugins
+translation=افزونه‌ها
 
 [folder.Teams]
 original=Teams
-translation=Teams
+translation=تیم‌ها
 
 [folder.User interface]
 original=User interface

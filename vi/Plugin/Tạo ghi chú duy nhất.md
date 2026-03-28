@@ -27,4 +27,4 @@ Theo mặc định, các ghi chú duy nhất mới sẽ trống. Để sử dụ
 - Trong thanh bên, nhấp **Plugin cốt lõi → Tạo ghi chú duy nhất**.
 - Trong **Vị trí tập tin mẫu**, nhập tệp bạn muốn sử dụng làm mẫu.
 
-Để biết thêm thông tin về cách viết mẫu, hãy tham khảo [[Plugins/Mẫu|Mẫu]].
+Để biết thêm thông tin về cách viết mẫu, hãy tham khảo [[Plugin/Mẫu|Mẫu]].

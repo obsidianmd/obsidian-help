@@ -81,7 +81,12 @@ const files = collectFiles(localeDir);
 
 // basename (case-insensitive) → canonical basename
 // Known placeholder targets used in syntax documentation (not real pages)
-const PLACEHOLDER_TARGETS = new Set(["example", "exemple"]);
+const PLACEHOLDER_TARGETS = new Set([
+  "example",   // en
+  "exemple",   // fr
+  "beispiel",  // de
+  "örnek",     // tr
+]);
 
 // Obsidian resolves wikilinks by ignoring hyphens/underscores (treats them as spaces)
 function slugNormalize(s: string): string {

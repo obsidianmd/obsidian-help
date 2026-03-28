@@ -3,7 +3,7 @@
   function apply() {
     var el;
     el = document.querySelector('.search-bar');
-    if (\!el) return false;
+    if (!el) return false;
     el.placeholder = 'ค้นหา...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'สร้างด้วย Obsidian Publish'; el.href = 'https://obsidian.md/th/publish'; }
@@ -17,10 +17,10 @@
     if (el) el.textContent = 'ในหน้านี้';
     return true;
   }
-  function poll() { if (\!apply()) requestAnimationFrame(poll); }
+  function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
   var blText = 'ลิงก์ไปยังหน้านี้';
-  function applyBl() { document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { if (e.textContent \!== blText) e.textContent = blText; }); }
+  function applyBl() { document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { if (e.textContent !== blText) e.textContent = blText; }); }
   new MutationObserver(applyBl).observe(document.body, { childList: true, subtree: true });
   applyBl();
 })();

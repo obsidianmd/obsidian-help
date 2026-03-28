@@ -39,7 +39,7 @@ Der Web Clipper enthält Tastaturkürzel, mit denen du deinen Arbeitsablauf besc
 
 Die Web Clipper-Bedienung ist in vier Bereiche unterteilt:
 
-1. **Kopfzeile**, in der du Vorlagen wechseln, [[Webseiten hervorheben|Hervorhebung]], [[Leser|Lesemodus]] aktivieren und auf die Einstellungen zugreifen kannst.
+1. **Kopfzeile**, in der du Vorlagen wechseln, [[Webseiten hervorheben|Hervorhebung]], [[Reader|Lesemodus]] aktivieren und auf die Einstellungen zugreifen kannst.
 2. **Eigenschaften** zeigt die von der Seite extrahierten [[Eigenschaften|Metadaten]], die als [[Eigenschaften]] in Obsidian gespeichert werden.
 3. **Notizinhalt**, der in Obsidian gespeichert wird.
 4. **Fußzeile** ermöglicht dir, den Vault und Ordner auszuwählen und zu Obsidian hinzuzufügen.

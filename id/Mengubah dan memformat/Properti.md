@@ -49,7 +49,7 @@ Properti memiliki [[Cari|sintaksis pencarian]] tersendiri yang dapat Anda gunaka
 
 ### Template
 
-Anda dapat menambahkan properti ke [[Plugins/Template|Template]].
+Anda dapat menambahkan properti ke [[Plugin/Template|Template]].
 
 Ketika Anda menyisipkan templat ke catatan aktif, semua properti dari templat akan ditambahkan ke catatan. Obsidian juga akan menggabungkan properti yang sudah ada di catatan Anda dengan properti di templat. ^templates-properties
 

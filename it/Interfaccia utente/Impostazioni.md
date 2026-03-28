@@ -111,11 +111,11 @@ Scegli come vengono visualizzate le [[Proprietà|proprietà]] nella parte superi
 
 #### Comprimi intestazioni
 
-[[Comprimi/espandi|Comprimi]] tutto il contenuto sotto un'intestazione selezionando l'icona di compressione accanto ad essa.
+[[Comprimi e espandi|Comprimi]] tutto il contenuto sotto un'intestazione selezionando l'icona di compressione accanto ad essa.
 
 ### Comprimi indentazioni
 
-[[Comprimi/espandi|Comprimi]] parte di un'indentazione, come gli elenchi, selezionando l'icona di compressione.
+[[Comprimi e espandi|Comprimi]] parte di un'indentazione, come gli elenchi, selezionando l'icona di compressione.
 
 #### Numeri di riga
 

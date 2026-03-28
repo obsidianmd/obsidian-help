@@ -47,7 +47,7 @@ Eigenschaften haben ihre eigene [[Suchen|Suchsyntax]], die du zusammen mit ander
 
 ### Vorlagen
 
-Du kannst Eigenschaften zu [[Plugins/Vorlagen|Vorlagen]] hinzufügen.
+Du kannst Eigenschaften zu [[Erweiterungen/Vorlagen|Vorlagen]] hinzufügen.
 
 Wenn du eine Vorlage in die aktive Notiz einfügst, werden alle Eigenschaften der Vorlage zur Notiz hinzugefügt. Obsidian führt auch alle Eigenschaften, die bereits in deiner Notiz vorhanden sind, mit den Eigenschaften der Vorlage zusammen. ^templates-properties
 
@@ -270,7 +270,7 @@ Obsidian wird mit einer Reihe von Standardeigenschaften ausgeliefert:
 
 | Eigenschaft  | Typ  | Beschreibung                                                 |
 | ------------ | ---- | ------------------------------------------------------------ |
-| `tags`       | Liste | Siehe [[Editing and formatting/Tags\|Tags]].                |
+| `tags`       | Liste | Siehe [[Tags]].                |
 | `aliases`    | Liste | Siehe [[Aliasse]].                                          |
 | `cssclasses` | Liste | Ermöglicht es, einzelne Notizen mit [[CSS-Bausteine]] zu gestalten. |
 

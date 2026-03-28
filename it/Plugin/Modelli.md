@@ -79,7 +79,7 @@ tags:
 1. Nella barra degli strumenti, fare clic su **Inserisci modello**.
 2. Selezionare il modello da inserire nella posizione del cursore nella nota attiva.
 
-Per inserire un modello utilizzando la [[Tavolozza dei comandi|tavolozza dei comandi]] o [[Scorciatoie da tastiera#Impostare una scorciatoia|una scorciatoia da tastiera personalizzata]], usare il comando `Modelli: Inserisci modello`.
+Per inserire un modello utilizzando la [[Riquadro comandi|tavolozza dei comandi]] o [[Tasti di scelta rapida#Impostare una scorciatoia da tastiera|una scorciatoia da tastiera personalizzata]], usare il comando `Modelli: Inserisci modello`.
 
 Il contenuto del modello viene inserito nella posizione corrente del cursore. Se il cursore non si trova nel corpo della nota, il contenuto viene inserito nell'ultima posizione del cursore.
 
@@ -89,6 +89,6 @@ Il contenuto del modello viene inserito nella posizione corrente del cursore. Se
 
 ## Inserire la data e l'ora correnti nella nota attiva
 
-Usare i comandi `Modelli: Inserisci data corrente` e `Modelli: Inserisci ora corrente` per inserire la data e l'ora correnti nella posizione attuale del cursore. Come il comando `Inserisci modello`, è possibile farlo con la [[Tavolozza dei comandi|tavolozza dei comandi]] o [[Scorciatoie da tastiera#Impostare una scorciatoia|una scorciatoia da tastiera personalizzata]].
+Usare i comandi `Modelli: Inserisci data corrente` e `Modelli: Inserisci ora corrente` per inserire la data e l'ora correnti nella posizione attuale del cursore. Come il comando `Inserisci modello`, è possibile farlo con la [[Riquadro comandi|tavolozza dei comandi]] o [[Tasti di scelta rapida#Impostare una scorciatoia da tastiera|una scorciatoia da tastiera personalizzata]].
 
 La data e l'ora inserite utilizzano la [[#^template-settings-date-time-formatting|formattazione impostata nelle impostazioni del plugin]].

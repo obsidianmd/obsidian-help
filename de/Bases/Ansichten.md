@@ -41,10 +41,10 @@ Ansichten können mit verschiedenen Layouts angezeigt werden, darunter ![[lucide
 
 | Layout                            | Beschreibung                                                                                                                          | App-Version |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [[Tabellenansicht\|Tabelle]]      | Dateien als Zeilen in einer Tabelle anzeigen. Spalten werden aus [[Eigenschaften]] in deinen Notizen befüllt.                         | 1.9         |
-| [[Galerieansicht\|Galerie]]       | Dateien als Raster anzeigen. Ermöglicht galerieartige Ansichten mit Bildern.                                                          | 1.9         |
-| [[Listenansicht\|Liste]]          | Dateien als [[Grundlegende Formatierungssyntax#Listen\|Liste]] mit Aufzählungszeichen oder nummerierten Markern anzeigen.             | 1.10        |
-| [[Kartenansicht\|Karte]]          | Dateien als Pins auf einer interaktiven Karte anzeigen. Erfordert die Karten-Erweiterung.                                             | 1.10        |
+| [[Tabelle]]      | Dateien als Zeilen in einer Tabelle anzeigen. Spalten werden aus [[Eigenschaften]] in deinen Notizen befüllt.                         | 1.9         |
+| [[Galerie]]       | Dateien als Raster anzeigen. Ermöglicht galerieartige Ansichten mit Bildern.                                                          | 1.9         |
+| [[Liste]]          | Dateien als [[Grundlegende Formatierungssyntax#Listen\|Liste]] mit Aufzählungszeichen oder nummerierten Markern anzeigen.             | 1.10        |
+| [[Karte]]          | Dateien als Pins auf einer interaktiven Karte anzeigen. Erfordert die Karten-Erweiterung.                                             | 1.10        |
 
 ## Filter
 

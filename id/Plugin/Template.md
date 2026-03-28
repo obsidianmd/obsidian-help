@@ -79,7 +79,7 @@ tags:
 1. Di bilah alat, klik **Masukkan template**.
 2. Pilih template untuk disisipkan pada posisi kursor di catatan aktif.
 
-Untuk menyisipkan template menggunakan [[Palet perintah]] atau [[Pintasan keyboard#Mengatur pintasan keyboard|pintasan keyboard kustom]], gunakan perintah `Template: Masukkan template`.
+Untuk menyisipkan template menggunakan [[Palet perintah]] atau [[Pintasan#Menetapkan pintasan keyboard|pintasan keyboard kustom]], gunakan perintah `Template: Masukkan template`.
 
 Konten template disisipkan pada posisi kursor Anda saat ini. Jika kursor Anda tidak berada di badan catatan, konten akan disisipkan pada posisi kursor terakhir Anda.
 
@@ -89,6 +89,6 @@ Konten template disisipkan pada posisi kursor Anda saat ini. Jika kursor Anda ti
 
 ## Menyisipkan tanggal dan waktu saat ini ke dalam catatan aktif
 
-Gunakan perintah `Template: Masukkan tanggal sekarang` dan `Template: Masukkan waktu sekarang` untuk menyisipkan tanggal dan waktu saat ini pada posisi kursor Anda saat ini. Seperti perintah `Masukkan template`, ini dapat dilakukan dengan [[Palet perintah]] atau [[Pintasan keyboard#Mengatur pintasan keyboard|pintasan keyboard kustom]].
+Gunakan perintah `Template: Masukkan tanggal sekarang` dan `Template: Masukkan waktu sekarang` untuk menyisipkan tanggal dan waktu saat ini pada posisi kursor Anda saat ini. Seperti perintah `Masukkan template`, ini dapat dilakukan dengan [[Palet perintah]] atau [[Pintasan#Menetapkan pintasan keyboard|pintasan keyboard kustom]].
 
 Tanggal dan waktu yang disisipkan menggunakan [[#^template-settings-date-time-formatting|format yang diatur dalam pengaturan plugin]].

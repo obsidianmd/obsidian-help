@@ -68,7 +68,7 @@ Tim Obsidian juga memelihara pengembangan beberapa [[#Plugin lainnya|plugin komu
 	- Sinkronisasi catatan Anda antar perangkat.
 - [[Panel tag|Panel tag]]
 	- Daftar semua tag di brankas Anda.
-- [[Plugins/Template|Template]]
+- [[Plugin/Template|Template]]
 	- Sisipkan konten yang sudah ditentukan sebelumnya ke dalam catatan Anda.
 - [[Pembuat catatan unik]]
 	- Buat catatan unik menggunakan judul berkode waktu.

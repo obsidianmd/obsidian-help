@@ -27,4 +27,4 @@ Secara bawaan, catatan unik baru kosong. Untuk menggunakan file lain sebagai tem
 - Di bilah samping, klik **Plugin inti → Pembuat catatan unik**.
 - Di **Lokasi berkas template**, masukkan file yang ingin Anda gunakan sebagai templat.
 
-Untuk informasi lebih lanjut tentang cara menulis templat, lihat [[Plugins/Template]].
+Untuk informasi lebih lanjut tentang cara menulis templat, lihat [[Plugin/Template]].

@@ -25,4 +25,4 @@ Standardmäßig sind neue eindeutige Notizen leer. Um eine andere Datei als Vorl
 - Klicke in der Seitenleiste auf **Obsidian-Erweiterungen → Eindeutige Notizen**.
 - Gib unter **Speicherort der Vorlagendatei** die Datei ein, die du als Vorlage verwenden möchtest.
 
-Weitere Informationen zum Erstellen von Vorlagen findest du unter [[Plugins/Vorlagen]].
+Weitere Informationen zum Erstellen von Vorlagen findest du unter [[Erweiterungen/Vorlagen]].

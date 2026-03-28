@@ -70,4 +70,4 @@ Sådan skifter du til *Kildetilstand*:
 > - Eller anvende [[Kommandopaletten|kommandoen]] **Skift mellem læsning og redigering**.
 
 > [!tip] Skift *redigeringstilstand*
-> For hurtigt at skifte mellem *Live forhåndsvisning* og *Kildetilstand* kan du indstille en [[Hotkeys|tastaturgenvej]] for [[Kommandopaletten|kommandoen]] **Skift mellem forhåndsvisning og kildetilstand**.
+> For hurtigt at skifte mellem *Live forhåndsvisning* og *Kildetilstand* kan du indstille en [[Genvejstaster|tastaturgenvej]] for [[Kommandopaletten|kommandoen]] **Skift mellem forhåndsvisning og kildetilstand**.

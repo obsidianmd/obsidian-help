@@ -22,7 +22,7 @@ Varsayılan olarak Obsidian, YYYY-MM-DD biçiminde bugünün tarihiyle adlandır
 
 ## Şablondan günlük not oluşturma
 
-Günlük notlarınız aynı yapıya sahipse, oluşturduğunuzda günlük notlarınıza önceden tanımlanmış içerik eklemek için bir [[Plugins/Şablonlar|şablon]] kullanabilirsiniz.
+Günlük notlarınız aynı yapıya sahipse, oluşturduğunuzda günlük notlarınıza önceden tanımlanmış içerik eklemek için bir [[Eklentiler/Şablonlar|şablon]] kullanabilirsiniz.
 
 1. Aşağıdaki metinle (veya size uygun ne varsa!) "Günlük şablon" adında yeni bir not oluşturun:
 
