@@ -36,11 +36,6 @@ pre[class*="language-md"] code {
 	text-align: right;
 }
 
-.theme-dark {
-	--color-base-00: #151515;
-	--color-base-20: #222222;
-}
-
 .markdown-embed-link,
 .file-embed-link {
 	left: 4px;

@@ -50,11 +50,36 @@
     });
   }
 
+  function detectSystemLocale() {
+    const langs = navigator.languages || [navigator.language || ''];
+    for (const lang of langs) {
+      const exact = LOCALES.find(l => l.code.toLowerCase() === lang.toLowerCase());
+      if (exact) return exact.code;
+      const base = lang.toLowerCase().split('-')[0];
+      const match = LOCALES.find(l => l.code.toLowerCase().split('-')[0] === base);
+      if (match) return match.code;
+    }
+    return null;
+  }
+
   function buildMenu() {
     const menu = document.createElement('ul');
     menu.className = 'lang-switcher-menu';
     menu.style.display = 'none';
-    for (const locale of LOCALES) {
+
+    const systemCode = detectSystemLocale();
+    const systemLocale = systemCode ? LOCALES.find(l => l.code === systemCode) : null;
+    const enLocale = LOCALES.find(l => l.code === 'en');
+    const rest = LOCALES
+      .filter(l => l !== systemLocale && l !== enLocale)
+      .sort((a, b) => a.code.localeCompare(b.code));
+
+    const ordered = [];
+    if (systemLocale) ordered.push(systemLocale);
+    if (enLocale && enLocale !== systemLocale) ordered.push(enLocale);
+    ordered.push(...rest);
+
+    for (const locale of ordered) {
       const li = document.createElement('li');
       const a = document.createElement('a');
       a.dataset.locale = locale.code;
@@ -102,7 +127,7 @@
     const btn = document.createElement('button');
     btn.className = 'lang-switcher-btn';
     btn.type = 'button';
-    btn.innerHTML = GLOBE_SVG + '<span>' + currentLocale.toUpperCase() + '</span>' + CHEVRON_SVG;
+    btn.innerHTML = GLOBE_SVG + '<span>' + currentLocale.toUpperCase() + '</span>';
     const menu = buildMenu();
     attachToggle(btn, menu);
     div.appendChild(btn);
