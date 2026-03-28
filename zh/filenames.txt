@@ -292,7 +292,7 @@ translation=插件安全
 
 [file.plugins]
 original=Core plugins
-translation=核心插件
+translation=插件
 
 [file.plugins/audio-recorder]
 original=Audio recorder
@@ -744,11 +744,11 @@ translation=Obsidian Web Clipper
 
 [folder.Plugins]
 original=Plugins
-translation=核心插件
+translation=插件
 
 [folder.Teams]
 original=Teams
-translation=团队与协作
+translation=团队
 
 [folder.User interface]
 original=User interface

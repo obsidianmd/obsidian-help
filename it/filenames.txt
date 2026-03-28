@@ -736,7 +736,7 @@ translation=Plugin
 
 [folder.Teams]
 original=Teams
-translation=Squadre
+translation=Team
 
 [folder.User interface]
 original=User interface

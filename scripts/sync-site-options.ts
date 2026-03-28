@@ -70,7 +70,14 @@ function parseSiteOptions(raw: string): SiteOptions {
 
 function getSiteOptions(localePath: string): SiteOptions {
   const raw = execSync(`ob publish-site-options --path ${JSON.stringify(localePath)}`, { encoding: "utf8" });
-  return parseSiteOptions(raw);
+  const opts = parseSiteOptions(raw);
+  // Fall back to site-options.json if the CLI returned empty options (e.g. EN)
+  const jsonPath = path.join(localePath, "site-options.json");
+  if (!opts.navigationOrdering && fs.existsSync(jsonPath)) {
+    const json = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
+    return { ...json, ...opts };
+  }
+  return opts;
 }
 
 // ── Path translation (shared with sync-nav-order.ts logic) ───────────────────
