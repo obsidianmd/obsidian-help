@@ -159,10 +159,11 @@
     if (el) el.setAttribute('aria-label', '전체 그래프');
     el = document.querySelector('.outline-view-outer span:last-child');
     if (el) el.textContent = '이 페이지에서';
-    el = document.querySelector('.backlinks span:last-child');
-    if (el) el.textContent = '백링크';
+    document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { e.textContent = '백링크'; });
     return true;
   }
   function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
+  setTimeout(apply, 1000);
+  setTimeout(apply, 3000);
 })();

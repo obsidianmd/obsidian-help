@@ -15,10 +15,11 @@
     if (el) el.setAttribute('aria-label', 'Grafik global');
     el = document.querySelector('.outline-view-outer span:last-child');
     if (el) el.textContent = 'Di halaman ini';
-    el = document.querySelector('.backlinks span:last-child');
-    if (el) el.textContent = 'Tautan ke halaman ini';
+    document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { e.textContent = 'Tautan ke halaman ini'; });
     return true;
   }
   function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
+  setTimeout(apply, 1000);
+  setTimeout(apply, 3000);
 })();

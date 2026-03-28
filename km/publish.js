@@ -159,10 +159,11 @@
     if (el) el.setAttribute('aria-label', 'ក្រាហ្វសកល');
     el = document.querySelector('.outline-view-outer span:last-child');
     if (el) el.textContent = 'នៅលើទំព័រនេះ';
-    el = document.querySelector('.backlinks span:last-child');
-    if (el) el.textContent = 'តំណភ្ជាប់ខាងក្រោយ';
+    document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { e.textContent = 'តំណភ្ជាប់ខាងក្រោយ'; });
     return true;
   }
   function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
+  setTimeout(apply, 1000);
+  setTimeout(apply, 3000);
 })();

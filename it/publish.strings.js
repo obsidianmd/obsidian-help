@@ -15,10 +15,11 @@
     if (el) el.setAttribute('aria-label', 'Grafo globale');
     el = document.querySelector('.outline-view-outer span:last-child');
     if (el) el.textContent = 'In questa pagina';
-    el = document.querySelector('.backlinks span:last-child');
-    if (el) el.textContent = 'Riferimenti';
+    document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { e.textContent = 'Riferimenti'; });
     return true;
   }
   function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
+  setTimeout(apply, 1000);
+  setTimeout(apply, 3000);
 })();
