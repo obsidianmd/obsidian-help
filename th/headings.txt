@@ -1,0 +1,4191 @@
+[heading.bases/functions/Fields]
+original=Fields
+translation=ฟิลด์
+
+[heading.bases/functions/Regular expression]
+original=Regular expression
+translation=นิพจน์ทั่วไป
+
+[heading.bases/views/Toolbar]
+original=Toolbar
+translation=แถบเครื่องมือ
+
+[heading.bases/views/Add and switch views]
+original=Add and switch views
+translation=เพิ่มและสลับมุมมอง
+
+[heading.bases/views/View settings]
+original=View settings
+translation=การตั้งค่ามุมมอง
+
+[heading.bases/views/Layout]
+original=Layout
+translation=เลย์เอาต์
+
+[heading.bases/views/Filters]
+original=Filters
+translation=ตัวกรอง
+
+[heading.bases/views/Components of a filter]
+original=Components of a filter
+translation=ส่วนประกอบของตัวกรอง
+
+[heading.bases/views/Conjunctions]
+original=Conjunctions
+translation=ตัวเชื่อม
+
+[heading.bases/views/Filter groups]
+original=Filter groups
+translation=กลุ่มตัวกรอง
+
+[heading.bases/views/Advanced filter editor]
+original=Advanced filter editor
+translation=เอดิเตอร์ตัวกรองขั้นสูง
+
+[heading.bases/views/Sort and group results]
+original=Sort and group results
+translation=จัดเรียงและจัดกลุ่มผลลัพธ์
+
+[heading.bases/views/Add a sort]
+original=Add a sort
+translation=เพิ่มการจัดเรียง
+
+[heading.bases/views/Remove a sort]
+original=Remove a sort
+translation=ลบการจัดเรียง
+
+[heading.bases/views/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=จำกัด คัดลอก และส่งออกผลลัพธ์
+
+[heading.bases/views/Limit results]
+original=Limit results
+translation=จำกัดผลลัพธ์
+
+[heading.bases/views/Copy to clipboard]
+original=Copy to clipboard
+translation=คัดลอกลงคลิปบอร์ด
+
+[heading.bases/views/Export CSV]
+original=Export CSV
+translation=ส่งออก CSV
+
+[heading.bases/views/Embed a view]
+original=Embed a view
+translation=ฝังมุมมอง
+
+[heading.bases/create-base/Create a new base]
+original=Create a new base
+translation=สร้างฐานใหม่
+
+[heading.bases/create-base/Embed a base]
+original=Embed a base
+translation=ฝังฐาน
+
+[heading.bases/create-base/Embed a base file]
+original=Embed a base file
+translation=ฝังไฟล์ฐาน
+
+[heading.bases/create-base/Embed a base as a code block]
+original=Embed a base as a code block
+translation=ฝังฐานเป็นบล็อกโค้ด
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=สิ่งที่สูตรทำได้
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=สร้างคุณสมบัติสูตร
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=เขียนสูตร
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=อ้างอิงคุณสมบัติ
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=ใช้ตัวดำเนินการ
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=ใช้ฟังก์ชัน
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=ตัวอย่างสูตร
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=คำนวณเส้นตาย
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=แสดงสถานะเกินกำหนด
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=จัดรูปแบบสกุลเงิน
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=นับรายการในลิสต์
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=คำนวณคะแนนลำดับความสำคัญ
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=รวมฟิลด์ข้อความ
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=คำนวณค่าใช้จ่ายทั้งหมด
+
+[heading.formulas/Data types]
+original=Data types
+translation=ประเภทข้อมูล
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=อ้างอิงสูตรอื่น
+
+[heading.bases/views/cards/Settings]
+original=Settings
+translation=การตั้งค่า
+
+[heading.bases/views/cards/Card size]
+original=Card size
+translation=ขนาดการ์ด
+
+[heading.bases/views/cards/Image property]
+original=Image property
+translation=คุณสมบัติรูปภาพ
+
+[heading.bases/views/cards/Image fit]
+original=Image fit
+translation=การจัดพอดีรูปภาพ
+
+[heading.bases/views/cards/Image aspect ratio]
+original=Image aspect ratio
+translation=อัตราส่วนภาพ
+
+[heading.bases/views/table/Settings]
+original=Settings
+translation=การตั้งค่า
+
+[heading.bases/views/table/Row height]
+original=Row height
+translation=ความสูงของแถว
+
+[heading.bases/views/table/Summaries]
+original=Summaries
+translation=สรุป
+
+[heading.bases/views/table/Add a summary]
+original=Add a summary
+translation=เพิ่มสรุป
+
+[heading.bases/views/table/Built-in summaries]
+original=Built-in summaries
+translation=สรุปในตัว
+
+[heading.bases/views/table/All property types]
+original=All property types
+translation=ทุกประเภทคุณสมบัติ
+
+[heading.bases/views/table/Numbers]
+original=Numbers
+translation=ตัวเลข
+
+[heading.bases/views/table/Dates]
+original=Dates
+translation=วันที่
+
+[heading.bases/views/table/Checkbox]
+original=Checkbox
+translation=กล่องกาเครื่องหมาย
+
+[heading.bases/views/table/Custom summaries]
+original=Custom summaries
+translation=สรุปกำหนดเอง
+
+[heading.bases/views/table/Shortcuts]
+original=Shortcuts
+translation=ทางลัด
+
+[heading.bases/views/list/Settings]
+original=Settings
+translation=การตั้งค่า
+
+[heading.bases/views/list/Markers]
+original=Markers
+translation=สัญลักษณ์แสดงหัวข้อย่อย
+
+[heading.bases/views/list/Indent properties]
+original=Indent properties
+translation=เยื้องคุณสมบัติ
+
+[heading.bases/views/list/Separators]
+original=Separators
+translation=ตัวคั่น
+
+[heading.bases/views/map/Install the Maps plugin]
+original=Install the Maps plugin
+translation=ติดตั้งปลั๊กอิน Maps
+
+[heading.bases/views/map/Example]
+original=Example
+translation=ตัวอย่าง
+
+[heading.bases/views/map/Settings]
+original=Settings
+translation=การตั้งค่า
+
+[heading.bases/views/map/Markers]
+original=Markers
+translation=สัญลักษณ์แสดงหัวข้อย่อย
+
+[heading.bases/views/map/Coordinates]
+original=Coordinates
+translation=พิกัด
+
+[heading.bases/views/map/Icons]
+original=Icons
+translation=ไอคอน
+
+[heading.bases/views/map/Use a formula to define icons]
+original=Use a formula to define icons
+translation=ใช้สูตรเพื่อกำหนดไอคอน
+
+[heading.bases/views/map/Colors]
+original=Colors
+translation=สี
+
+[heading.bases/views/map/Background]
+original=Background
+translation=พื้นหลัง
+
+[heading.bases/views/map/Map tiles]
+original=Map tiles
+translation=ไทล์แผนที่
+
+[heading.bases/views/map/Useful links]
+original=Useful links
+translation=ลิงก์ที่มีประโยชน์
+
+[heading.bases/views/map/Tips]
+original=Tips
+translation=เคล็ดลับ
+
+[heading.bases/views/map/Troubleshooting]
+original=Troubleshooting
+translation=การแก้ไขปัญหา
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=วิธีใช้งานฐาน
+
+[heading.bases/View types]
+original=View types
+translation=ประเภทมุมมอง
+
+[heading.bases/syntax/Example]
+original=Example
+translation=ตัวอย่าง
+
+[heading.bases/syntax/Filters]
+original=Filters
+translation=ตัวกรอง
+
+[heading.bases/syntax/Formulas]
+original=Formulas
+translation=สูตร
+
+[heading.bases/syntax/Properties]
+original=Properties
+translation=คุณสมบัติ
+
+[heading.bases/syntax/Summaries]
+original=Summaries
+translation=การสรุป
+
+[heading.bases/syntax/Default Summary Formulas]
+original=Default Summary Formulas
+translation=สูตรสรุปค่าเริ่มต้น
+
+[heading.bases/syntax/Views]
+original=Views
+translation=มุมมอง
+
+[heading.bases/syntax/Note properties]
+original=Note properties
+translation=คุณสมบัติของโน้ต
+
+[heading.bases/syntax/File properties]
+original=File properties
+translation=คุณสมบัติของไฟล์
+
+[heading.bases/syntax/Access properties with `this`]
+original=Access properties with `this`
+translation=เข้าถึงคุณสมบัติด้วย `this`
+
+[heading.bases/syntax/Operators]
+original=Operators
+translation=ตัวดำเนินการ
+
+[heading.bases/syntax/Arithmetic operators]
+original=Arithmetic operators
+translation=ตัวดำเนินการทางคณิตศาสตร์
+
+[heading.bases/syntax/Date arithmetic]
+original=Date arithmetic
+translation=การคำนวณวันที่
+
+[heading.bases/syntax/Comparison operators]
+original=Comparison operators
+translation=ตัวดำเนินการเปรียบเทียบ
+
+[heading.bases/syntax/Boolean operators]
+original=Boolean operators
+translation=ตัวดำเนินการบูลีน
+
+[heading.bases/syntax/Functions]
+original=Functions
+translation=ฟังก์ชัน
+
+[heading.bases/syntax/Types]
+original=Types
+translation=ชนิดข้อมูล
+
+[heading.bases/syntax/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=สตริง ตัวเลข และบูลีน
+
+[heading.bases/syntax/Dates and durations]
+original=Dates and durations
+translation=วันที่และช่วงเวลา
+
+[heading.bases/syntax/Objects and lists]
+original=Objects and lists
+translation=อ็อบเจกต์และรายการ
+
+[heading.bases/syntax/Files and links]
+original=Files and links
+translation=ไฟล์และลิงก์
+
+[heading.android/Sync]
+original=Sync
+translation=ซิงค์
+
+[heading.android/Vault location]
+original=Vault location
+translation=ตำแหน่งห้องนิรภัย
+
+[heading.android/Device storage]
+original=Device storage
+translation=ที่เก็บข้อมูลของอุปกรณ์
+
+[heading.android/App storage]
+original=App storage
+translation=ที่เก็บข้อมูลของแอป
+
+[heading.android/Widgets]
+original=Widgets
+translation=วิดเจ็ต
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=ไทล์ Quick Settings
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=ทางลัด
+
+[heading.ios/Sync]
+original=Sync
+translation=ซิงค์
+
+[heading.ios/Widgets]
+original=Widgets
+translation=วิดเจ็ต
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=วิดเจ็ตหน้าจอล็อคและศูนย์ควบคุม
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=วิดเจ็ตหน้าจอหลัก
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=การปรับแต่งวิดเจ็ต
+
+[heading.ios/Shortcuts]
+original=Shortcuts
+translation=คำสั่งลัด
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=ส่วนขยาย Share Sheet
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=การรวมกับ Siri
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=การรวมกับ Spotlight
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=เปิดใช้งาน 2FA
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=สร้างรหัสกู้คืน
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=ปิดใช้งาน 2FA
+
+[heading.2fa/FAQ]
+original=FAQ
+translation=คำถามที่พบบ่อย
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=กฎ
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=การกระทำผิดร้ายแรง
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=การคุกคาม
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=การข่มขู่
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=การเหยียดอย่างชัดเจน
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=การกระทำผิดอื่นๆ
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=ความก้าวร้าว
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=การประพฤติตัวไม่น่าคบอย่างยิ่ง
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=ข้อความที่ไม่ได้รับเชิญถึงสมาชิกชุมชน
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=พฤติกรรมอื่นๆ
+
+[heading.community-code-of-conduct/Sea-lioning]
+original=Sea-lioning
+translation=การตั้งคำถามรุกราน (Sea-lioning)
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation="ป้อนให้ฉัน"
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=การรณรงค์
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=การโปรโมตตัวเองมากเกินไป
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=สแปม
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=พฤติกรรมที่สนับสนุน
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=แรงจูงใจ
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=รายงานการละเมิด
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=รายงานบน Discord
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=รายงานบนฟอรัม
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=การบังคับใช้
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=การอุทธรณ์การแบน
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=เครดิต
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=Obsidian คืออะไร
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=เราแตกต่างอย่างไร
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=คุณเป็นเจ้าของและควบคุมข้อมูลของคุณ
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=ลิงก์เป็นพลเมืองชั้นหนึ่ง
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=ชุดเครื่องมือของคุณเอง
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=ติดตามการพัฒนาของเรา
+
+[heading.credits/Team]
+original=Team
+translation=ทีม
+
+[heading.credits/Development]
+original=Development
+translation=การพัฒนา
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=ผลิตภัณฑ์ & ปฏิบัติการ
+
+[heading.credits/Moderators]
+original=Moderators
+translation=ผู้ดูแล
+
+[heading.credits/Retired]
+original=Retired
+translation=เกษียณแล้ว
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=แรงบันดาลใจจากปลั๊กอิน
+
+[heading.credits/Builds]
+original=Builds
+translation=การสร้างแอป
+
+[heading.credits/Translators]
+original=Translators
+translation=นักแปล
+
+[heading.credits/Documentation]
+original=Documentation
+translation=เอกสารประกอบ
+
+[heading.credits/Add your name]
+original=Add your name
+translation=เพิ่มชื่อของคุณ
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=การขอบคุณบุคคลที่สาม
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=โลโก้เวอร์ชั่นก่อนหน้า
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=เปิดใช้งานเวอร์ชั่นเข้าถึงก่อนสำหรับเดสก์ท็อป
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=ติดตั้งเวอร์ชั่นเข้าถึงก่อนบนอุปกรณ์มือถือ
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=รายงานปัญหาและข้อเสนอแนะอื่นๆ
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=สลับกลับไปใช้เวอร์ชั่นสาธารณะบนเดสก์ท็อป
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=สลับกลับไปใช้เวอร์ชั่นสาธารณะบนมือถือ
+
+[heading.publish/headless/Quick start]
+original=Quick start
+translation=เริ่มอย่างรวดเร็ว
+
+[heading.publish/headless/Commands]
+original=Commands
+translation=คำสั่ง
+
+[heading.publish/seo/Permalinks]
+original=Permalinks
+translation=ลิงค์ถาวร
+
+[heading.publish/seo/Metadata]
+original=Metadata
+translation=เมทาดาทา
+
+[heading.publish/analytics/Prerequisites]
+original=Prerequisites
+translation=ข้อกำหนดเบื้องต้น
+
+[heading.publish/analytics/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible, Fathom และบริการวิเคราะห์อื่นๆ
+
+[heading.publish/analytics/Troubleshooting]
+original=Troubleshooting
+translation=การแก้ไขปัญหา
+
+[heading.publish/limitations/Community plugins]
+original=Community plugins
+translation=ปลั๊กอินโดยชุมชน
+
+[heading.publish/limitations/Graph]
+original=Graph
+translation=กราฟ
+
+[heading.publish/limitations/Media files]
+original=Media files
+translation=ไฟล์มีเดีย
+
+[heading.publish/limitations/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/limitations/Search]
+original=Search
+translation=ค้นหา
+
+[heading.publish/security/Password protection]
+original=Password protection
+translation=การป้องกันด้วยรหัสผ่าน
+
+[heading.publish/security/Add a site password]
+original=Add a site password
+translation=เพิ่มรหัสผ่านเว็บไซต์
+
+[heading.publish/security/Remove a site password]
+original=Remove a site password
+translation=ลบรหัสผ่านเว็บไซต์
+
+[heading.publish/security/Data collection]
+original=Data collection
+translation=การรวบรวมข้อมูล
+
+[heading.publish/security/Visitor data]
+original=Visitor data
+translation=ข้อมูลผู้เยี่ยมชม
+
+[heading.publish/security/Access]
+original=Access
+translation=การเข้าถึง
+
+[heading.publish/security/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=การจัดการการเข้าถึง Obsidian Publish บนเครือข่ายของคุณ
+
+[heading.publish/sites/Create a new site]
+original=Create a new site
+translation=สร้างเว็บไซต์ใหม่
+
+[heading.publish/sites/Delete an existing site]
+original=Delete an existing site
+translation=ลบเว็บไซต์ที่มีอยู่
+
+[heading.publish/sites/Switch between sites]
+original=Switch between sites
+translation=สลับระหว่างเว็บไซต์
+
+[heading.publish/sites/Change the site ID]
+original=Change the site ID
+translation=เปลี่ยน Site ID
+
+[heading.publish/sites/View site options]
+original=View site options
+translation=ดูตัวเลือกเว็บไซต์
+
+[heading.publish/sites/Site options]
+original=Site options
+translation=ตัวเลือกเว็บไซต์
+
+[heading.publish/sites/General]
+original=General
+translation=ทั่วไป
+
+[heading.publish/sites/Appearance]
+original=Appearance
+translation=ลักษณะ
+
+[heading.publish/sites/Reading experience]
+original=Reading experience
+translation=ประสบการณ์การอ่าน
+
+[heading.publish/sites/Components]
+original=Components
+translation=ส่วนประกอบ
+
+[heading.publish/sites/Other site settings]
+original=Other site settings
+translation=เปิดหน้าต่างการตั้งค่าเว็บไซต์
+
+[heading.publish/setup/Prerequisites]
+original=Prerequisites
+translation=ข้อกำหนดเบื้องต้น
+
+[heading.publish/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=เข้าสู่ระบบด้วยบัญชี Obsidian ของคุณ
+
+[heading.publish/setup/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=เปิดใช้งาน Obsidian Publish
+
+[heading.publish/setup/Open Publish]
+original=Open Publish
+translation=เปิด Publish
+
+[heading.publish/setup/Open via Command palette]
+original=Open via Command palette
+translation=เปิดผ่านกระดานคำสั่ง
+
+[heading.publish/setup/Open via hotkey]
+original=Open via hotkey
+translation=เปิดผ่านฮ็อตคีย์
+
+[heading.publish/setup/Open via ribbon]
+original=Open via ribbon
+translation=เปิดผ่านริบบอน
+
+[heading.publish/setup/Create a new site]
+original=Create a new site
+translation=สร้างเว็บไซต์ใหม่
+
+[heading.publish/setup/Set a site name]
+original=Set a site name
+translation=ตั้งชื่อเว็บไซต์
+
+[heading.publish/setup/Select notes to publish]
+original=Select notes to publish
+translation=เลือกโน้ตที่จะเผยแพร่
+
+[heading.publish/setup/Next steps]
+original=Next steps
+translation=ขั้นตอนถัดไป
+
+[heading.publish/customize/Static assets]
+original=Static assets
+translation=ไฟล์สแตติก
+
+[heading.publish/customize/Use a community theme]
+original=Use a community theme
+translation=ใช้ธีมโดยชุมชน
+
+[heading.publish/customize/Enable UI features]
+original=Enable UI features
+translation=เปิดใช้งานฟีเจอร์ UI
+
+[heading.publish/customize/Customize navigation]
+original=Customize navigation
+translation=ปรับแต่งการนำทาง
+
+[heading.publish/customize/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=การเข้าถึงตัวเลือกปรับแต่งการนำทาง
+
+[heading.publish/customize/Adjust navigation items]
+original=Adjust navigation items
+translation=ปรับรายการนำทาง
+
+[heading.publish/customize/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=ซ่อนและยกเลิกการซ่อนรายการนำทาง
+
+[heading.publish/customize/FAQ]
+original=FAQ
+translation=คำถามที่พบบ่อย
+
+[heading.publish/social-share/Description]
+original=Description
+translation=คำอธิบาย
+
+[heading.publish/social-share/Image]
+original=Image
+translation=รูปภาพ
+
+[heading.publish/collaborate/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=เพิ่มผู้ร่วมงานในเว็บไซต์
+
+[heading.publish/collaborate/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=ลบผู้ร่วมงานออกจากเว็บไซต์
+
+[heading.publish/collaborate/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=ซิงค์การเปลี่ยนแปลงระหว่างผู้ร่วมงาน
+
+[heading.publish/collaborate/Permissions]
+original=Permissions
+translation=สิทธิ์การเข้าถึง
+
+[heading.publish/permalinks/Redirect old notes]
+original=Redirect old notes
+translation=เปลี่ยนเส้นทางโน้ตเก่า
+
+[heading.publish/publish/Prerequisites]
+original=Prerequisites
+translation=ข้อกำหนดเบื้องต้น
+
+[heading.publish/publish/Publish notes]
+original=Publish notes
+translation=เผยแพร่โน้ต
+
+[heading.publish/publish/Unpublish notes]
+original=Unpublish notes
+translation=ยกเลิกการเผยแพร่โน้ต
+
+[heading.publish/publish/Update a published note]
+original=Update a published note
+translation=อัปเดตโน้ตที่เผยแพร่แล้ว
+
+[heading.publish/publish/Publish linked data]
+original=Publish linked data
+translation=เผยแพร่ข้อมูลที่เชื่อมโยง
+
+[heading.publish/publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=เลือกข้อมูลที่จะเผยแพร่โดยอัตโนมัติ
+
+[heading.publish/publish/Ignore data]
+original=Ignore data
+translation=ละเว้นข้อมูล
+
+[heading.publish/troubleshoot/General]
+original=General
+translation=ทั่วไป
+
+[heading.publish/troubleshoot/Publishing notes]
+original=Publishing notes
+translation=การเผยแพร่โน้ต
+
+[heading.publish/troubleshoot/CSS and themes]
+original=CSS and themes
+translation=CSS และธีม
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=วิธีใช้ Obsidian Publish
+
+[heading.publish/domains/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=ตั้งค่าโดยใช้ CloudFlare
+
+[heading.publish/domains/Set up using a proxy]
+original=Set up using a proxy
+translation=ตั้งค่าโดยใช้ proxy
+
+[heading.publish/domains/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=HTTP X-Headers ที่รองรับ
+
+[heading.publish/domains/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=เปลี่ยนเส้นทางเว็บไซต์เดิมไปยังโดเมนกำหนดเอง
+
+[heading.publish/domains/Troubleshoot]
+original=Troubleshoot
+translation=แก้ไขปัญหา
+
+[heading.publish/media/Images]
+original=Images
+translation=รูปภาพ
+
+[heading.publish/media/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/media/Videos and audio]
+original=Videos and audio
+translation=วิดีโอและเสียง
+
+[heading.sync/headless/Quick start]
+original=Quick start
+translation=เริ่มอย่างรวดเร็ว
+
+[heading.sync/headless/Commands]
+original=Commands
+translation=คำสั่ง
+
+[heading.sync/headless/Native modules]
+original=Native modules
+translation=โมดูลเนทีฟ
+
+[heading.sync/settings/Sync settings]
+original=Sync settings
+translation=การตั้งค่า Sync
+
+[heading.sync/settings/Conflict resolution]
+original=Conflict resolution
+translation=การแก้ไขข้อขัดแย้ง
+
+[heading.sync/settings/Selective syncing]
+original=Selective syncing
+translation=เลือกซิงค์บางไฟล์
+
+[heading.sync/settings/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=เปลี่ยนประเภทไฟล์ที่คุณต้องการซิงค์
+
+[heading.sync/settings/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=ยกเว้นโฟลเดอร์จากการซิงค์
+
+[heading.sync/settings/Always excluded from sync]
+original=Always excluded from sync
+translation=สิ่งที่ถูกยกเว้นจากการซิงค์เสมอ
+
+[heading.sync/settings/File recovery snapshots]
+original=File recovery snapshots
+translation=ชุดข้อมูลสแนปชอตของการกู้คืนข้อมูล
+
+[heading.sync/settings/Hidden files and folders]
+original=Hidden files and folders
+translation=ไฟล์และโฟลเดอร์ที่ซ่อน
+
+[heading.sync/settings/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=อัปเดตการตั้งค่าห้องนิรภัยที่ซิงค์
+
+[heading.sync/settings/Primary device]
+original=Primary device
+translation=อุปกรณ์หลัก
+
+[heading.sync/settings/Secondary device(s)]
+original=Secondary device(s)
+translation=อุปกรณ์รอง
+
+[heading.sync/settings/Reloading of settings]
+original=Reloading of settings
+translation=การโหลดการตั้งค่าใหม่
+
+[heading.sync/settings/Settings profiles]
+original=Settings profiles
+translation=โปรไฟล์การตั้งค่า
+
+[heading.sync/settings/Create a settings profile]
+original=Create a settings profile
+translation=สร้างโปรไฟล์การตั้งค่า
+
+[heading.sync/vault-types/File-based sync services]
+original=File-based sync services
+translation=บริการซิงค์แบบไฟล์
+
+[heading.sync/vault-types/Sync behavior]
+original=Sync behavior
+translation=พฤติกรรมการซิงค์
+
+[heading.sync/vault-types/Offline behavior]
+original=Offline behavior
+translation=พฤติกรรมขณะออฟไลน์
+
+[heading.sync/vault-types/Next steps]
+original=Next steps
+translation=ขั้นตอนถัดไป
+
+[heading.sync/security/Encryption]
+original=Encryption
+translation=การเข้ารหัส
+
+[heading.sync/security/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=การเข้ารหัสแบบต้นทางถึงปลายทางหมายความว่าอย่างไร?
+
+[heading.sync/security/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=ความเสี่ยงของการใช้การเข้ารหัสมาตรฐานมีอะไรบ้าง?
+
+[heading.sync/security/What encryption do you use?]
+original=What encryption do you use?
+translation=คุณใช้การเข้ารหัสแบบใด?
+
+[heading.sync/security/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=ฉันสามารถตรวจสอบได้หรือไม่ว่าข้อมูลของฉันถูกเข้ารหัสแบบต้นทางถึงปลายทาง?
+
+[heading.sync/security/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=Obsidian ผ่านการตรวจสอบความปลอดภัยจากบุคคลที่สามหรือไม่?
+
+[heading.sync/security/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=จะเกิดอะไรขึ้นถ้าฉันลืมรหัสผ่านการเข้ารหัส?
+
+[heading.sync/security/Hosting]
+original=Hosting
+translation=การโฮสต์
+
+[heading.sync/security/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=เซิร์ฟเวอร์สำหรับ Obsidian Sync โฮสต์อยู่ที่ไหน?
+
+[heading.sync/security/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=ฉันจะหาเซิร์ฟเวอร์ Sync ปัจจุบันของฉันได้ที่ไหนและโฮสต์อยู่ที่ไหน?
+
+[heading.sync/security/Network and access]
+original=Network and access
+translation=เครือข่ายและการเข้าถึง
+
+[heading.sync/security/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=การจัดการการเข้าถึง Obsidian Sync บนเครือข่ายของคุณ
+
+[heading.sync/security/Limitations]
+original=Limitations
+translation=ข้อจำกัด
+
+[heading.sync/security/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=การเข้ารหัสแฮชไฟล์แบบกำหนดได้
+
+[heading.sync/security/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=ไม่มีการผูกเข้ารหัสระหว่าง path และเนื้อหา
+
+[heading.sync/faq/General]
+original=General
+translation=ทั่วไป
+
+[heading.sync/faq/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Obsidian Sync รองรับระบบปฏิบัติการใดบ้าง?
+
+[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Obsidian ทำงานร่วมกับ Lockdown Mode ของ Apple ได้หรือไม่?
+
+[heading.sync/faq/What type of data is synced?]
+original=What type of data is synced?
+translation=ข้อมูลประเภทใดบ้างที่ถูกซิงค์?
+
+[heading.sync/faq/How much storage do I have?]
+original=How much storage do I have?
+translation=ฉันมีพื้นที่จัดเก็บเท่าไหร่?
+
+[heading.sync/faq/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=ฉันสามารถมีห้องนิรภัยบนคลาวด์ได้กี่รายการ?
+
+[heading.sync/faq/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=ห้องนิรภัยบนคลาวด์แต่ละรายการสามารถมีขนาดเท่าไหร่?
+
+[heading.sync/faq/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=ฉันสามารถแชร์ห้องนิรภัยบนคลาวด์กับคนได้กี่คน?
+
+[heading.sync/faq/How large can each file be?]
+original=How large can each file be?
+translation=ไฟล์แต่ละไฟล์สามารถมีขนาดเท่าไหร่?
+
+[heading.sync/faq/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=ข้อมูลของฉันถูกซิงค์ในเบื้องหลังหรือไม่?
+
+[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Obsidian Sync โหลดการตั้งค่าของฉันใหม่แบบสดหรือไม่?
+
+[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=ฉันสามารถใช้ซิงค์ของบุคคลที่สามร่วมกับ Obsidian Sync ได้หรือไม่?
+
+[heading.sync/faq/Data retention]
+original=Data retention
+translation=การเก็บรักษาข้อมูล
+
+[heading.sync/faq/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=คุณเก็บประวัติเวอร์ชันไว้นานเท่าไหร่?
+
+[heading.sync/faq/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=คุณเก็บข้อมูลของฉันไว้นานเท่าไหร่หลังจากสมาชิกหมดอายุ?
+
+[heading.sync/faq/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=คุณเก็บข้อมูลของฉันไว้หรือไม่หากฉันขอคืนเงินบริการสมาชิก?
+
+[heading.sync/setup/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=ตั้งค่า Obsidian Sync เป็นครั้งแรก
+
+[heading.sync/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=ล็อกอินด้วยบัญชี Obsidian ของคุณ
+
+[heading.sync/setup/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=เปิดใช้งาน Obsidian Sync
+
+[heading.sync/setup/Create a new remote vault]
+original=Create a new remote vault
+translation=สร้างห้องนิรภัยบนคลาวด์ใหม่
+
+[heading.sync/setup/Connect to a remote vault]
+original=Connect to a remote vault
+translation=เชื่อมต่อกับห้องนิรภัยบนคลาวด์
+
+[heading.sync/setup/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=ปรับการตั้งค่า Obsidian Sync
+
+[heading.sync/setup/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=เริ่มซิงค์ด้วย Obsidian Sync
+
+[heading.sync/setup/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=ซิงค์ห้องนิรภัยบนคลาวด์บนอุปกรณ์อื่น
+
+[heading.sync/setup/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=ซิงค์คลังจากตัวสลับคลัง
+
+[heading.sync/setup/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=ซิงค์คลังจากการตั้งค่า Obsidian
+
+[heading.sync/setup/Manage your remote vaults]
+original=Manage your remote vaults
+translation=จัดการห้องนิรภัยบนคลาวด์ของคุณ
+
+[heading.sync/setup/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=หยุดการเชื่อมต่อจากห้องนิรภัยบนคลาวด์
+
+[heading.sync/setup/Delete a remote vault]
+original=Delete a remote vault
+translation=ลบห้องนิรภัยบนคลาวด์
+
+[heading.sync/setup/Regional sync servers]
+original=Regional sync servers
+translation=เซิร์ฟเวอร์ซิงค์ระดับภูมิภาค
+
+[heading.sync/setup/Next steps]
+original=Next steps
+translation=ขั้นตอนถัดไป
+
+[heading.sync/collaborate/Manage users]
+original=Manage users
+translation=จัดการผู้ใช้
+
+[heading.sync/collaborate/Add users]
+original=Add users
+translation=เพิ่มผู้ใช้
+
+[heading.sync/collaborate/Remove users]
+original=Remove users
+translation=นำผู้ใช้ออก
+
+[heading.sync/collaborate/Collaborate with your team]
+original=Collaborate with your team
+translation=ทำงานร่วมกับทีมของคุณ
+
+[heading.sync/collaborate/Permissions]
+original=Permissions
+translation=สิทธิ์
+
+[heading.sync/collaborate/Live editing]
+original=Live editing
+translation=การแก้ไขแบบเรียลไทม์
+
+[heading.sync/collaborate/Limitations]
+original=Limitations
+translation=ข้อจำกัด
+
+[heading.sync/version-history/Sync history]
+original=Sync history
+translation=ประวัติ Sync
+
+[heading.sync/version-history/Show Sync history]
+original=Show Sync history
+translation=แสดงประวัติ Sync
+
+[heading.sync/version-history/Enable via Command palette]
+original=Enable via Command palette
+translation=เปิดใช้งานผ่านกระดานคำสั่ง
+
+[heading.sync/version-history/Enable via Hotkey]
+original=Enable via Hotkey
+translation=เปิดใช้งานผ่านฮ็อตคีย์
+
+[heading.sync/version-history/Version history]
+original=Version history
+translation=ประวัติเวอร์ชัน
+
+[heading.sync/version-history/Notes and attachments]
+original=Notes and attachments
+translation=โน้ตและไฟล์แนบ
+
+[heading.sync/version-history/View version history of a file]
+original=View version history of a file
+translation=ดูประวัติเวอร์ชันของไฟล์
+
+[heading.sync/version-history/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=ดูประวัติเวอร์ชันของไฟล์ที่ถูกลบหรือเปลี่ยนชื่อ
+
+[heading.sync/version-history/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=คืนค่าเวอร์ชันก่อนหน้าของไฟล์
+
+[heading.sync/version-history/Restore a deleted file]
+original=Restore a deleted file
+translation=คืนค่าไฟล์ที่ถูกลบ
+
+[heading.sync/version-history/Settings history]
+original=Settings history
+translation=ประวัติการตั้งค่า
+
+[heading.sync/version-history/View version history of a setting]
+original=View version history of a setting
+translation=ดูประวัติเวอร์ชันของการตั้งค่า
+
+[heading.sync/version-history/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=คืนค่าเวอร์ชันก่อนหน้าของการตั้งค่า
+
+[heading.sync/region/Available regions]
+original=Available regions
+translation=ภูมิภาคที่ใช้ได้
+
+[heading.sync/region/Change Sync region]
+original=Change Sync region
+translation=เปลี่ยนภูมิภาคของ Sync
+
+[heading.sync/migrate/Encryption versions]
+original=Encryption versions
+translation=เวอร์ชันการเข้ารหัส
+
+[heading.sync/migrate/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=อัปเกรดการเข้ารหัสด้วยตัวช่วยย้ายข้อมูล
+
+[heading.sync/switch/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=ย้ายห้องนิรภัยของคุณออกจากบริการซิงค์ของบุคคลที่สามหรือที่จัดเก็บบนคลาวด์
+
+[heading.sync/switch/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=ย้ายห้องนิรภัยของคุณโดยใช้ Obsidian บนเดสก์ท็อป
+
+[heading.sync/switch/Move your vault on mobile]
+original=Move your vault on mobile
+translation=ย้ายห้องนิรภัยของคุณบนมือถือ
+
+[heading.sync/switch/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS และ iPadOS
+
+[heading.sync/switch/Next steps]
+original=Next steps
+translation=ขั้นตอนถัดไป
+
+[heading.sync/troubleshoot/General]
+original=General
+translation=ทั่วไป
+
+[heading.sync/troubleshoot/Conflict resolution]
+original=Conflict resolution
+translation=การแก้ไขข้อขัดแย้ง
+
+[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=วิธีที่ Obsidian Sync จัดการข้อขัดแย้ง
+
+[heading.sync/troubleshoot/Conflict resolution options]
+original=Conflict resolution options
+translation=ตัวเลือกการแก้ไขข้อขัดแย้ง
+
+[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync ลบโน้ตที่ฉันเพิ่งสร้างบนสองอุปกรณ์
+
+[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync ไม่ซิงค์การอัปเดตปลั๊กอินและการตั้งค่าของฉัน
+
+[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=ไฟล์ของฉันหายจาก Sync ทันทีที่กู้คืน
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=วิธีใช้ Obsidian Sync
+
+[heading.sync/Important]
+original=Important
+translation=สำคัญ
+
+[heading.sync/plans/Plans]
+original=Plans
+translation=แผน
+
+[heading.sync/plans/Storage limits]
+original=Storage limits
+translation=ขีดจำกัดพื้นที่จัดเก็บ
+
+[heading.sync/plans/Identify and delete large files]
+original=Identify and delete large files
+translation=ระบุและลบไฟล์ขนาดใหญ่
+
+[heading.sync/plans/Create a new remote vault]
+original=Create a new remote vault
+translation=สร้างห้องนิรภัยบนคลาวด์ใหม่
+
+[heading.sync/plans/Upgrade your plan]
+original=Upgrade your plan
+translation=อัปเกรดแผนของคุณ
+
+[heading.sync/plans/Downgrade your plan]
+original=Downgrade your plan
+translation=ดาวน์เกรดแผนของคุณ
+
+[heading.sync/plans/Preserve version history]
+original=Preserve version history
+translation=รักษาประวัติเวอร์ชัน
+
+[heading.sync/messages/Sync status icon]
+original=Sync status icon
+translation=ไอคอนสถานะการซิงค์
+
+[heading.sync/messages/Sync activity log]
+original=Sync activity log
+translation=บันทึกกิจกรรมการซิงค์
+
+[heading.sync/messages/General messages]
+original=General messages
+translation=ข้อความทั่วไป
+
+[heading.sync/messages/Error messages]
+original=Error messages
+translation=ข้อความแสดงข้อผิดพลาด
+
+[heading.sync/messages/Skipped messages]
+original=Skipped messages
+translation=ข้อความที่ข้ามแล้ว
+
+[heading.sync/messages/Account messages]
+original=Account messages
+translation=ข้อความเกี่ยวกับบัญชี
+
+[heading.sync/messages/Network messages]
+original=Network messages
+translation=ข้อความเกี่ยวกับเครือข่าย
+
+[heading.web-clipper/capture/Capture a page]
+original=Capture a page
+translation=จับภาพหน้าเว็บ
+
+[heading.web-clipper/capture/Download images]
+original=Download images
+translation=ดาวน์โหลดรูปภาพ
+
+[heading.web-clipper/capture/Hotkeys]
+original=Hotkeys
+translation=ฮ็อตคีย์
+
+[heading.web-clipper/capture/Interface functionality]
+original=Interface functionality
+translation=ฟังก์ชันการทำงานของอินเทอร์เฟซ
+
+[heading.web-clipper/filters/Dates]
+original=Dates
+translation=วันที่
+
+[heading.web-clipper/filters/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=การแปลงและการใช้ตัวพิมพ์ของข้อความ
+
+[heading.web-clipper/filters/Text formatting]
+original=Text formatting
+translation=การจัดรูปแบบข้อความ
+
+[heading.web-clipper/filters/Numbers]
+original=Numbers
+translation=ตัวเลข
+
+[heading.web-clipper/filters/HTML processing]
+original=HTML processing
+translation=การประมวลผล HTML
+
+[heading.web-clipper/filters/Arrays and objects]
+original=Arrays and objects
+translation=อาร์เรย์และอ็อบเจกต์
+
+[heading.web-clipper/variables/Preset variables]
+original=Preset variables
+translation=ตัวแปรที่ตั้งไว้ล่วงหน้า
+
+[heading.web-clipper/variables/Prompt variables]
+original=Prompt variables
+translation=ตัวแปรพรอมต์
+
+[heading.web-clipper/variables/When to use prompt variables]
+original=When to use prompt variables
+translation=เมื่อใดควรใช้ตัวแปรพรอมต์
+
+[heading.web-clipper/variables/Examples]
+original=Examples
+translation=ตัวอย่าง
+
+[heading.web-clipper/variables/Meta variables]
+original=Meta variables
+translation=ตัวแปรเมตา
+
+[heading.web-clipper/variables/Selector variables]
+original=Selector variables
+translation=ตัวแปรตัวเลือก
+
+[heading.web-clipper/variables/Schema.org variables]
+original=Schema.org variables
+translation=ตัวแปร Schema.org
+
+[heading.web-clipper/logic/Conditionals]
+original=Conditionals
+translation=เงื่อนไข
+
+[heading.web-clipper/logic/Comparison operators]
+original=Comparison operators
+translation=ตัวดำเนินการเปรียบเทียบ
+
+[heading.web-clipper/logic/Logical operators]
+original=Logical operators
+translation=ตัวดำเนินการเชิงตรรกะ
+
+[heading.web-clipper/logic/Truthiness]
+original=Truthiness
+translation=ความเป็นจริง (Truthiness)
+
+[heading.web-clipper/logic/Assign a variable]
+original=Assign a variable
+translation=กำหนดค่าตัวแปร
+
+[heading.web-clipper/logic/Fallbacks]
+original=Fallbacks
+translation=ค่าสำรอง
+
+[heading.web-clipper/logic/Chaining fallbacks]
+original=Chaining fallbacks
+translation=เชื่อมต่อค่าสำรอง
+
+[heading.web-clipper/logic/With filters]
+original=With filters
+translation=กับตัวกรอง
+
+[heading.web-clipper/logic/Loops]
+original=Loops
+translation=ลูป
+
+[heading.web-clipper/logic/Loop sources]
+original=Loop sources
+translation=แหล่งข้อมูลของลูป
+
+[heading.web-clipper/logic/Loop variables]
+original=Loop variables
+translation=ตัวแปรในลูป
+
+[heading.web-clipper/logic/Accessing array items by index]
+original=Accessing array items by index
+translation=เข้าถึงรายการในอาร์เรย์ตามดัชนี
+
+[heading.web-clipper/logic/Nested loops]
+original=Nested loops
+translation=ลูปซ้อน
+
+[heading.web-clipper/logic/Combine logic]
+original=Combine logic
+translation=รวมลอจิก
+
+[heading.web-clipper/logic/Evaluation order]
+original=Evaluation order
+translation=ลำดับการประเมินผล
+
+[heading.web-clipper/reader/Activate reading mode]
+original=Activate reading mode
+translation=เปิดใช้งานโหมดอ่าน
+
+[heading.web-clipper/reader/How it works]
+original=How it works
+translation=วิธีการทำงาน
+
+[heading.web-clipper/reader/Customize the reading view]
+original=Customize the reading view
+translation=ปรับแต่งมุมมองการอ่าน
+
+[heading.web-clipper/templates/Create or edit a template]
+original=Create or edit a template
+translation=สร้างหรือแก้ไขเทมเพลต
+
+[heading.web-clipper/templates/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=นำเข้าและส่งออกเทมเพลต Web Clipper
+
+[heading.web-clipper/templates/Template settings]
+original=Template settings
+translation=การตั้งค่าเทมเพลต
+
+[heading.web-clipper/templates/Behavior]
+original=Behavior
+translation=การทำงาน
+
+[heading.web-clipper/templates/Automatically trigger a template]
+original=Automatically trigger a template
+translation=กระตุ้นเทมเพลตโดยอัตโนมัติ
+
+[heading.web-clipper/templates/Simple URL matching]
+original=Simple URL matching
+translation=การจับคู่ URL แบบง่าย
+
+[heading.web-clipper/templates/Regular expression matching]
+original=Regular expression matching
+translation=การจับคู่ด้วยนิพจน์ทั่วไป
+
+[heading.web-clipper/templates/Schema.org matching]
+original=Schema.org matching
+translation=การจับคู่ Schema.org
+
+[heading.web-clipper/templates/Interpreter context]
+original=Interpreter context
+translation=บริบทตัวแปล
+
+[heading.web-clipper/troubleshoot/General]
+original=General
+translation=ทั่วไป
+
+[heading.web-clipper/troubleshoot/Some content is missing]
+original=Some content is missing
+translation=เนื้อหาบางส่วนหายไป
+
+[heading.web-clipper/troubleshoot/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=ไม่มีเนื้อหาปรากฏใน Obsidian
+
+[heading.web-clipper/troubleshoot/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian ไม่เปิดขึ้น
+
+[heading.web-clipper/troubleshoot/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian เปิดขึ้นแต่บันทึกเฉพาะชื่อไฟล์เท่านั้น
+
+[heading.web-clipper/troubleshoot/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS และ iPadOS
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=ติดตั้ง Web Clipper
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=วิธีใช้ Web Clipper
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=ความเป็นส่วนตัว
+
+[heading.web-clipper/interpreter/Examples of prompts]
+original=Examples of prompts
+translation=ตัวอย่างพรอมต์
+
+[heading.web-clipper/interpreter/Get started]
+original=Get started
+translation=เริ่มต้นใช้งาน
+
+[heading.web-clipper/interpreter/How it works]
+original=How it works
+translation=วิธีการทำงาน
+
+[heading.web-clipper/interpreter/Context]
+original=Context
+translation=บริบท
+
+[heading.web-clipper/interpreter/Models]
+original=Models
+translation=โมเดล
+
+[heading.web-clipper/interpreter/Preset providers]
+original=Preset providers
+translation=ผู้ให้บริการที่ตั้งไว้ล่วงหน้า
+
+[heading.web-clipper/interpreter/Choosing a model]
+original=Choosing a model
+translation=การเลือกโมเดล
+
+[heading.web-clipper/interpreter/Custom providers and models]
+original=Custom providers and models
+translation=ผู้ให้บริการและโมเดลกำหนดเอง
+
+[heading.web-clipper/interpreter/Local models]
+original=Local models
+translation=โมเดลในเครื่อง
+
+[heading.web-clipper/highlight/Turn on highlighter]
+original=Turn on highlighter
+translation=เปิดตัวไฮไลต์
+
+[heading.web-clipper/highlight/Highlighter settings]
+original=Highlighter settings
+translation=การตั้งค่าตัวไฮไลต์
+
+[heading.plugins/canvas/Create a new canvas]
+original=Create a new canvas
+translation=สร้างผืนผ้าใบใหม่
+
+[heading.plugins/canvas/Add cards]
+original=Add cards
+translation=เพิ่มการ์ด
+
+[heading.plugins/canvas/Add text cards]
+original=Add text cards
+translation=เพิ่มการ์ดข้อความ
+
+[heading.plugins/canvas/Add cards from notes]
+original=Add cards from notes
+translation=เพิ่มการ์ดจากโน้ต
+
+[heading.plugins/canvas/Add cards from media]
+original=Add cards from media
+translation=เพิ่มการ์ดจากสื่อ
+
+[heading.plugins/canvas/Add cards from web pages]
+original=Add cards from web pages
+translation=เพิ่มการ์ดจากหน้าเว็บ
+
+[heading.plugins/canvas/Add cards from folders]
+original=Add cards from folders
+translation=เพิ่มการ์ดจากโฟลเดอร์
+
+[heading.plugins/canvas/Edit a card]
+original=Edit a card
+translation=แก้ไขการ์ด
+
+[heading.plugins/canvas/Delete a card]
+original=Delete a card
+translation=ลบการ์ด
+
+[heading.plugins/canvas/Swap cards]
+original=Swap cards
+translation=สลับการ์ด
+
+[heading.plugins/canvas/Select cards]
+original=Select cards
+translation=เลือกการ์ด
+
+[heading.plugins/canvas/Arrange cards]
+original=Arrange cards
+translation=จัดเรียงการ์ด
+
+[heading.plugins/canvas/Resize a card]
+original=Resize a card
+translation=ปรับขนาดการ์ด
+
+[heading.plugins/canvas/Connect cards]
+original=Connect cards
+translation=เชื่อมต่อการ์ด
+
+[heading.plugins/canvas/Connect two cards]
+original=Connect two cards
+translation=เชื่อมต่อสองการ์ด
+
+[heading.plugins/canvas/Disconnect two cards]
+original=Disconnect two cards
+translation=ยกเลิกการเชื่อมต่อสองการ์ด
+
+[heading.plugins/canvas/Connect a card to a different card]
+original=Connect a card to a different card
+translation=เชื่อมต่อการ์ดกับการ์ดอื่น
+
+[heading.plugins/canvas/Navigate a connection]
+original=Navigate a connection
+translation=นำทางไปตามเส้นเชื่อมต่อ
+
+[heading.plugins/canvas/Add a label to a connection]
+original=Add a label to a connection
+translation=เพิ่มป้ายกำกับให้เส้นเชื่อมต่อ
+
+[heading.plugins/canvas/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=เปลี่ยนสีของการ์ดหรือเส้นเชื่อมต่อ
+
+[heading.plugins/canvas/Group cards]
+original=Group cards
+translation=จัดกลุ่มการ์ด
+
+[heading.plugins/canvas/Group selected cards]
+original=Group selected cards
+translation=จัดกลุ่มการ์ดที่เลือก
+
+[heading.plugins/canvas/Navigate the canvas]
+original=Navigate the canvas
+translation=นำทางในผืนผ้าใบ
+
+[heading.plugins/canvas/Pan the canvas]
+original=Pan the canvas
+translation=เลื่อนมุมมองผืนผ้าใบ
+
+[heading.plugins/canvas/Zoom the canvas]
+original=Zoom the canvas
+translation=ซูมผืนผ้าใบ
+
+[heading.plugins/canvas/Zoom to fit]
+original=Zoom to fit
+translation=ซูมให้พอดี
+
+[heading.plugins/canvas/Zoom to selection]
+original=Zoom to selection
+translation=ซูมไปยังสิ่งที่เลือก
+
+[heading.plugins/canvas/Reset zoom]
+original=Reset zoom
+translation=รีเซ็ตการซูม
+
+[heading.plugins/canvas/Advanced tips]
+original=Advanced tips
+translation=เคล็ดลับขั้นสูง
+
+[heading.plugins/note-composer/Merge notes]
+original=Merge notes
+translation=ผสานโน้ต
+
+[heading.plugins/note-composer/Extract note]
+original=Extract note
+translation=แยกโน้ต
+
+[heading.plugins/note-composer/Template file]
+original=Template file
+translation=ไฟล์เทมเพลต
+
+[heading.plugins/quick-switcher/Open Quick switcher]
+original=Open Quick switcher
+translation=เปิด Quick switcher
+
+[heading.plugins/quick-switcher/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=เปิดโน้ตด้วย Quick switcher
+
+[heading.plugins/command-palette/Pinned commands]
+original=Pinned commands
+translation=คำสั่งที่ถูกปักหมุดไว้
+
+[heading.plugins/command-palette/Pin a command]
+original=Pin a command
+translation=ปักหมุดคำสั่ง
+
+[heading.plugins/command-palette/Unpin a command]
+original=Unpin a command
+translation=ถอดหมุดคำสั่ง
+
+[heading.plugins/file-recovery/Recover a snapshot]
+original=Recover a snapshot
+translation=คืนค่าชุดข้อมูล
+
+[heading.plugins/file-recovery/Clear snapshot history]
+original=Clear snapshot history
+translation=ล้างประวัติชุดข้อมูล
+
+[heading.plugins/file-recovery/Storage and performance]
+original=Storage and performance
+translation=พื้นที่จัดเก็บและประสิทธิภาพ
+
+[heading.plugins/file-recovery/Limitations]
+original=Limitations
+translation=ข้อจำกัด
+
+[heading.plugins/search/Search terms]
+original=Search terms
+translation=คำค้นหา
+
+[heading.plugins/search/Search operators]
+original=Search operators
+translation=ตัวดำเนินการค้นหา
+
+[heading.plugins/search/Search properties]
+original=Search properties
+translation=ค้นหาคุณสมบัติ
+
+[heading.plugins/search/Change case sensitivity]
+original=Change case sensitivity
+translation=เปลี่ยนความไวต่อขนาดตัวพิมพ์
+
+[heading.plugins/search/Change result sort order]
+original=Change result sort order
+translation=เปลี่ยนลำดับการจัดเรียงผลลัพธ์
+
+[heading.plugins/search/Copy search results]
+original=Copy search results
+translation=คัดลอกผลการค้นหา
+
+[heading.plugins/search/Use regular expressions]
+original=Use regular expressions
+translation=ใช้นิพจน์ทั่วไป
+
+[heading.plugins/search/Configure search settings]
+original=Configure search settings
+translation=ตั้งค่าการค้นหา
+
+[heading.plugins/search/Embed search results in a note]
+original=Embed search results in a note
+translation=ฝังผลการค้นหาในโน้ต
+
+[heading.plugins/file-explorer/Create a new note]
+original=Create a new note
+translation=สร้างโน้ตใหม่
+
+[heading.plugins/file-explorer/Create a new folder]
+original=Create a new folder
+translation=สร้างโฟลเดอร์ใหม่
+
+[heading.plugins/file-explorer/Change sort order]
+original=Change sort order
+translation=เปลี่ยนวิธีการเรียงลำดับ
+
+[heading.plugins/file-explorer/Auto-reveal active file]
+original=Auto-reveal active file
+translation=แสดงไฟล์ที่ใช้งานอยู่โดยอัตโนมัติ
+
+[heading.plugins/file-explorer/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=ขยายหรือยุบโฟลเดอร์ทั้งหมด
+
+[heading.plugins/file-explorer/Delete a file or folder]
+original=Delete a file or folder
+translation=ลบไฟล์หรือโฟลเดอร์
+
+[heading.plugins/file-explorer/Rename a file or folder]
+original=Rename a file or folder
+translation=เปลี่ยนชื่อไฟล์หรือโฟลเดอร์
+
+[heading.plugins/file-explorer/Move a file or folder]
+original=Move a file or folder
+translation=ย้ายไฟล์หรือโฟลเดอร์
+
+[heading.plugins/web-viewer/Reader view]
+original=Reader view
+translation=มุมมองการอ่าน
+
+[heading.plugins/web-viewer/Save to vault]
+original=Save to vault
+translation=บันทึกไปยังห้องนิรภัย
+
+[heading.plugins/web-viewer/Ad blocking]
+original=Ad blocking
+translation=การบล็อกโฆษณา
+
+[heading.plugins/web-viewer/Security]
+original=Security
+translation=ความปลอดภัย
+
+[heading.plugins/unique-note/Create a unique note]
+original=Create a unique note
+translation=สร้างโน้ตแบบไม่ซ้ำ
+
+[heading.plugins/unique-note/Create unique notes from a template]
+original=Create unique notes from a template
+translation=สร้างโน้ตแบบไม่ซ้ำจากเทมเพลต
+
+[heading.plugins/format-converter/Supported formats]
+original=Supported formats
+translation=รูปแบบที่รองรับ
+
+[heading.plugins/format-converter/[[Properties]]]
+original=[[Properties]]
+translation=[[คุณสมบัติ]]
+
+[heading.plugins/audio-recorder/Record audio in a note]
+original=Record audio in a note
+translation=บันทึกเสียงในโน้ต
+
+[heading.plugins/bookmarks/Add a bookmark]
+original=Add a bookmark
+translation=เพิ่มบุ๊กมาร์ก
+
+[heading.plugins/bookmarks/Remove a bookmark]
+original=Remove a bookmark
+translation=ลบบุ๊กมาร์ก
+
+[heading.plugins/bookmarks/Add a bookmark group]
+original=Add a bookmark group
+translation=เพิ่มกลุ่มบุ๊กมาร์ก
+
+[heading.plugins/bookmarks/Remove a bookmark group]
+original=Remove a bookmark group
+translation=ลบกลุ่มบุ๊กมาร์ก
+
+[heading.plugins/bookmarks/Bookmark multiple files]
+original=Bookmark multiple files
+translation=บุ๊กมาร์กหลายไฟล์
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=ปลั๊กอินหลักทั้งหมด
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=ปลั๊กอินอื่นๆ
+
+[heading.plugins/workspaces/Save a workspace]
+original=Save a workspace
+translation=บันทึกพื้นที่ทำงาน
+
+[heading.plugins/workspaces/Load a workspace]
+original=Load a workspace
+translation=โหลดพื้นที่ทำงาน
+
+[heading.plugins/workspaces/Delete a workspace]
+original=Delete a workspace
+translation=ลบพื้นที่ทำงาน
+
+[heading.plugins/graph/Settings]
+original=Settings
+translation=การตั้งค่า
+
+[heading.plugins/graph/Filters]
+original=Filters
+translation=ตัวกรอง
+
+[heading.plugins/graph/Groups]
+original=Groups
+translation=กลุ่ม
+
+[heading.plugins/graph/Display]
+original=Display
+translation=การแสดงผล
+
+[heading.plugins/graph/Forces]
+original=Forces
+translation=แรงกระทำ
+
+[heading.plugins/graph/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=เริ่มแอนิเมชันไทม์แลปส์
+
+[heading.plugins/graph/Local Graph]
+original=Local Graph
+translation=กราฟภายใน
+
+[heading.plugins/properties/All properties view]
+original=All properties view
+translation=มุมมองคุณสมบัติทั้งหมด
+
+[heading.plugins/templates/Set your template folder]
+original=Set your template folder
+translation=ตั้งค่าโฟลเดอร์เทมเพลต
+
+[heading.plugins/templates/Template variables]
+original=Template variables
+translation=ตัวแปรเทมเพลต
+
+[heading.plugins/templates/Create a template]
+original=Create a template
+translation=สร้างเทมเพลต
+
+[heading.plugins/templates/Insert a template into the active note]
+original=Insert a template into the active note
+translation=แทรกเทมเพลตลงในโน้ตที่ใช้งานอยู่
+
+[heading.plugins/templates/Template properties]
+original=Template properties
+translation=คุณสมบัติของเทมเพลต
+
+[heading.plugins/templates/Inserting current date and time into the active note]
+original=Inserting current date and time into the active note
+translation=แทรกวันที่และเวลาปัจจุบันลงในโน้ตที่ใช้งานอยู่
+
+[heading.plugins/backlinks/Show backlinks]
+original=Show backlinks
+translation=แสดงแบ็คลิงค์
+
+[heading.plugins/backlinks/View backlinks for a note]
+original=View backlinks for a note
+translation=ดูแบ็คลิงค์ของโน้ต
+
+[heading.plugins/backlinks/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=ดูแบ็คลิงค์ของโน้ตเฉพาะ
+
+[heading.plugins/backlinks/Show backlinks in a note]
+original=Show backlinks in a note
+translation=แสดงแบ็คลิงค์ในโน้ต
+
+[heading.plugins/daily-notes/Create a daily note from template]
+original=Create a daily note from template
+translation=สร้างโน้ตประจำวันจากเทมเพลต
+
+[heading.plugins/daily-notes/Daily notes and properties]
+original=Daily notes and properties
+translation=โน้ตประจำวันและคุณสมบัติ
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=ใช้ Obsidian กับทีมของคุณ
+
+[heading.teams/Important resources]
+original=Important resources
+translation=แหล่งข้อมูลสำคัญ
+
+[heading.teams/sync/Syncing tools and services]
+original=Syncing tools and services
+translation=เครื่องมือและบริการการซิงค์
+
+[heading.teams/sync/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=Obsidian Sync สำหรับทีม
+
+[heading.teams/sync/Security]
+original=Security
+translation=ความปลอดภัย
+
+[heading.teams/sync/Frequently asked questions]
+original=Frequently asked questions
+translation=คำถามที่พบบ่อย
+
+[heading.teams/publish/Publishing tools and services]
+original=Publishing tools and services
+translation=เครื่องมือและบริการเผยแพร่
+
+[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=การร่วมงานขั้นสูงสำหรับ Obsidian Publish
+
+[heading.teams/publish/Media]
+original=Media
+translation=สื่อ
+
+[heading.teams/publish/Frequently asked questions]
+original=Frequently asked questions
+translation=คำถามที่พบบ่อย
+
+[heading.teams/security/Considerations]
+original=Considerations
+translation=ข้อควรพิจารณา
+
+[heading.teams/security/Community plugins and themes]
+original=Community plugins and themes
+translation=ปลั๊กอินชุมชนและธีม
+
+[heading.teams/security/Network and access]
+original=Network and access
+translation=เครือข่ายและการเข้าถึง
+
+[heading.teams/security/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=การเชื่อมต่อจาก Obsidian
+
+[heading.teams/security/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=การเชื่อมต่อจาก GitHub
+
+[heading.teams/security/Other connections]
+original=Other connections
+translation=การเชื่อมต่ออื่นๆ
+
+[heading.teams/security/Frequently asked questions]
+original=Frequently asked questions
+translation=คำถามที่พบบ่อย
+
+[heading.teams/security/Account security]
+original=Account security
+translation=ความปลอดภัยของบัญชี
+
+[heading.teams/security/Assessments and certifications]
+original=Assessments and certifications
+translation=การประเมินและการรับรอง
+
+[heading.teams/deploy/Install and update Obsidian]
+original=Install and update Obsidian
+translation=ติดตั้งและอัปเดต Obsidian
+
+[heading.teams/deploy/Customizing Obsidian]
+original=Customizing Obsidian
+translation=การปรับแต่ง Obsidian
+
+[heading.teams/deploy/Configuration folders]
+original=Configuration folders
+translation=โฟลเดอร์การตั้งค่า
+
+[heading.teams/deploy/Plugins]
+original=Plugins
+translation=ปลั๊กอิน
+
+[heading.teams/deploy/Themes and snippets]
+original=Themes and snippets
+translation=ธีมและ snippet
+
+[heading.teams/deploy/Frequently asked questions]
+original=Frequently asked questions
+translation=คำถามที่พบบ่อย
+
+[heading.teams/deploy/Deployment]
+original=Deployment
+translation=การติดตั้ง
+
+[heading.teams/license/Purchase a commercial license]
+original=Purchase a commercial license
+translation=สมัครบริการใบอนุญาตเชิงพาณิชย์
+
+[heading.teams/license/Apply a commercial license]
+original=Apply a commercial license
+translation=ใช้งานใบอนุญาตเชิงพาณิชย์
+
+[heading.teams/license/Supporting organizations]
+original=Supporting organizations
+translation=องค์กรผู้สนับสนุน
+
+[heading.teams/license/Frequently asked questions]
+original=Frequently asked questions
+translation=คำถามที่พบบ่อย
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=ติดตั้ง Obsidian CLI
+
+[heading.cli/Get started]
+original=Get started
+translation=เริ่มต้นใช้งาน
+
+[heading.cli/Run a command]
+original=Run a command
+translation=รันคำสั่ง
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=ใช้ terminal interface
+
+[heading.cli/Examples]
+original=Examples
+translation=ตัวอย่าง
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=การใช้งานทั่วไป
+
+[heading.cli/For developers]
+original=For developers
+translation=สำหรับนักพัฒนา
+
+[heading.cli/How to]
+original=How to
+translation=วิธีการ
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=ใช้พารามิเตอร์และแฟล็ก
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=ระบุห้องนิรภัย
+
+[heading.cli/Target a file]
+original=Target a file
+translation=ระบุไฟล์
+
+[heading.cli/Copy output]
+original=Copy output
+translation=คัดลอกผลลัพธ์
+
+[heading.cli/General commands]
+original=General commands
+translation=คำสั่งทั่วไป
+
+[heading.cli/Bases]
+original=Bases
+translation=ฐาน
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=บุ๊กมาร์ก
+
+[heading.cli/Command palette]
+original=Command palette
+translation=กระดานคำสั่ง
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=โน้ตประจำวัน
+
+[heading.cli/File history]
+original=File history
+translation=ประวัติไฟล์
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=ไฟล์และโฟลเดอร์
+
+[heading.cli/Links]
+original=Links
+translation=ลิงก์
+
+[heading.cli/Outline]
+original=Outline
+translation=เค้าโครง
+
+[heading.cli/Plugins]
+original=Plugins
+translation=ปลั๊กอิน
+
+[heading.cli/Properties]
+original=Properties
+translation=คุณสมบัติ
+
+[heading.cli/Random notes]
+original=Random notes
+translation=สุ่มโน้ค
+
+[heading.cli/Search]
+original=Search
+translation=ค้นหา
+
+[heading.cli/Tags]
+original=Tags
+translation=แท็ก
+
+[heading.cli/Tasks]
+original=Tasks
+translation=งาน
+
+[heading.cli/Templates]
+original=Templates
+translation=เทมเพลต
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=ธีมและ snippet
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=โน้ตแบบไม่ซ้ำ
+
+[heading.cli/Vault]
+original=Vault
+translation=ห้องนิรภัย
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=ตัวดูเว็บ
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=การนับคำ
+
+[heading.cli/Workspace]
+original=Workspace
+translation=พื้นที่ทำงาน
+
+[heading.headless/Install]
+original=Install
+translation=ติดตั้ง
+
+[heading.headless/Authentication]
+original=Authentication
+translation=การยืนยันตัวตน
+
+[heading.headless/Log in]
+original=Log in
+translation=ล็อกอิน
+
+[heading.headless/Services]
+original=Services
+translation=บริการ
+
+[heading.uri/URI format]
+original=URI format
+translation=รูปแบบ URI
+
+[heading.uri/Open note]
+original=Open note
+translation=เปิดโน้ต
+
+[heading.uri/Examples]
+original=Examples
+translation=ตัวอย่าง
+
+[heading.uri/Parameters]
+original=Parameters
+translation=พารามิเตอร์
+
+[heading.uri/Create note]
+original=Create note
+translation=สร้างโน้ต
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=สร้างหรือเปิดโน้ตรายวัน
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=โน้ตที่ไม่ซ้ำ
+
+[heading.uri/Open search]
+original=Open search
+translation=เปิดการค้นหา
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=เปิดตัวจัดการห้องนิรภัย
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=เชื่อมต่อกับ Hook
+
+[heading.uri/Example]
+original=Example
+translation=ตัวอย่าง
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=ใช้พารามิเตอร์ x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=รูปแบบย่อ
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=การแก้ไขปัญหา
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=ลงทะเบียน Obsidian URI
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=การเพิ่ม snippet
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=การเขียน CSS สำหรับ Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=ข้อมูลเพิ่มเติม
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=โหมดจำกัด
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=ความสามารถของปลั๊กอิน
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=กระบวนการตรวจสอบปลั๊กอิน
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=เลือกดูธีม
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=ติดตั้งธีมใหม่
+
+[heading.themes/Update themes]
+original=Update themes
+translation=อัปเดตธีม
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=ถอนการติดตั้งธีมที่มีอยู่
+
+[heading.themes/Learn more]
+original=Learn more
+translation=ข้อมูลเพิ่มเติม
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=เลือกดูปลั๊กอินชุมชน
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=ติดตั้งปลั๊กอินชุมชน
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=เปิดใช้งานปลั๊กอินชุมชน
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=อัปเดตปลั๊กอิน
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=ถอนการติดตั้งปลั๊กอินชุมชน
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=จัดการปลั๊กอินที่ติดตั้งแล้ว
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=ข้อมูลเพิ่มเติม
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=คำศัพท์และไวยากรณ์
+
+[heading.style-guide/Language style]
+original=Language style
+translation=สไตล์ภาษา
+
+[heading.style-guide/Terms]
+original=Terms
+translation=คำศัพท์
+
+[heading.style-guide/Product names]
+original=Product names
+translation=ชื่อผลิตภัณฑ์
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=UI และการโต้ตอบ
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=โน้ต ไฟล์ และโฟลเดอร์
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=เอกสารอ้างอิงสำหรับการตั้งค่า
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=คำที่ระบุทิศทาง
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=คำแนะนำ
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=การใช้ตัวพิมพ์แบบประโยค
+
+[heading.style-guide/Examples]
+original=Examples
+translation=ตัวอย่าง
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=ชื่อปุ่มและแป้นพิมพ์ลัด
+
+[heading.style-guide/Images]
+original=Images
+translation=รูปภาพ
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=โครงสร้างข้อมูล
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=ประเภทบล็อกเน้น
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=รายการ vs. ร้อยแก้ว
+
+[heading.style-guide/Tables]
+original=Tables
+translation=ตาราง
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=การอ้างอิงข้าม
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=เนื้อหาเฉพาะแพลตฟอร์ม
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=ไอคอนและรูปภาพ
+
+[heading.style-guide/Icons]
+original=Icons
+translation=ไอคอน
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=แท็ก anchor ของรูปภาพ
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=การปรับปรุงประสิทธิภาพ
+
+[heading.style-guide/Layout]
+original=Layout
+translation=เลย์เอาต์
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=ลิงก์เสีย
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=คำอธิบาย
+
+[heading.style-guide/Directions]
+original=Directions
+translation=ทิศทาง
+
+[heading.style-guide/Translations]
+original=Translations
+translation=การแปลภาษา
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=ปลั๊กอินและธีม
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=โปรเจกต์โอเพนซอร์ส
+
+[heading.developers/Documentation]
+original=Documentation
+translation=เอกสารประกอบ
+
+[heading.developers/Community]
+original=Community
+translation=ชุมชน
+
+[heading.aliases/Add an alias to a note]
+original=Add an alias to a note
+translation=เพิ่มนามแฝงให้โน้ต
+
+[heading.aliases/Link to a note using an alias]
+original=Link to a note using an alias
+translation=ลิงก์ไปยังโน้ตโดยใช้นามแฝง
+
+[heading.aliases/Find unlinked mentions for an alias]
+original=Find unlinked mentions for an alias
+translation=ค้นหาการอ้างอิงถึงโดยไม่ผ่านลิงค์สำหรับนามแฝง
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=ฝังโน้ตในโน้ตอื่น
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=ฝังรูปภาพในโน้ต
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=ฝังไฟล์เสียงในโน้ต
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=ฝัง PDF ในโน้ต
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=ฝังรายการในโน้ต
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=ฝังผลการค้นหา
+
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=รูปแบบที่รองรับสำหรับลิงก์ภายใน
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=ลิงก์ไปยังไฟล์
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=ลิงก์ไปยังหัวเรื่องในโน้ต
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=ลิงก์ไปยังบล็อกในโน้ต
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=เปลี่ยนข้อความที่แสดงของลิงก์
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=พรีวิวไฟล์ที่ลิงก์ไว้
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=ส่วนขยาย Markdown ที่รองรับ
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=เพิ่มคุณสมบัติให้โน้ต
+
+[heading.properties/Property types]
+original=Property types
+translation=ประเภทคุณสมบัติ
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=การใช้งานขั้นสูง
+
+[heading.properties/Search properties]
+original=Search properties
+translation=ค้นหาคุณสมบัติ
+
+[heading.properties/Templates]
+original=Templates
+translation=เทมเพลต
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=เปลี่ยนชื่อคุณสมบัติ
+
+[heading.properties/Display modes]
+original=Display modes
+translation=โหมดการแสดงผล
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=snippet CSS
+
+[heading.properties/Not supported]
+original=Not supported
+translation=สิ่งที่ยังไม่รองรับ
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=ฮ็อตคีย์
+
+[heading.properties/Add a property]
+original=Add a property
+translation=เพิ่มคุณสมบัติ
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=นำทางระหว่างคุณสมบัติ
+
+[heading.properties/Select properties]
+original=Select properties
+translation=เลือกคุณสมบัติ
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=แก้ไขคุณสมบัติ
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim (ขั้นสูง)
+
+[heading.properties/Property format]
+original=Property format
+translation=รูปแบบคุณสมบัติ
+
+[heading.properties/Text]
+original=Text
+translation=ข้อความ
+
+[heading.properties/List]
+original=List
+translation=รายการ
+
+[heading.properties/Number]
+original=Number
+translation=ตัวเลข
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=กล่องกาเครื่องหมาย
+
+[heading.properties/Date]
+original=Date
+translation=วันที่
+
+[heading.properties/Date & time]
+original=Date & time
+translation=วันที่และเวลา
+
+[heading.properties/Tags]
+original=Tags
+translation=แท็ก
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=คุณสมบัติ JSON
+
+[heading.properties/Default properties]
+original=Default properties
+translation=คุณสมบัติเริ่มต้น
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=คุณสมบัติสำหรับ Obsidian Publish
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=คุณสมบัติที่เลิกใช้แล้ว
+
+[heading.editing-shortcuts/Windows and Linux shortcuts]
+original=Windows and Linux shortcuts
+translation=แป้นพิมพ์ลัดสำหรับ Windows และ Linux
+
+[heading.editing-shortcuts/Common actions]
+original=Common actions
+translation=การดำเนินการทั่วไป
+
+[heading.editing-shortcuts/Text editing]
+original=Text editing
+translation=การแก้ไขข้อความ
+
+[heading.editing-shortcuts/Text navigation]
+original=Text navigation
+translation=การนำทางข้อความ
+
+[heading.editing-shortcuts/Text selection]
+original=Text selection
+translation=การเลือกข้อความ
+
+[heading.editing-shortcuts/macOS shortcuts]
+original=macOS shortcuts
+translation=แป้นพิมพ์ลัดสำหรับ macOS
+
+[heading.editing-shortcuts/Text formatting]
+original=Text formatting
+translation=การจัดรูปแบบข้อความ
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=เปลี่ยนชื่อเรื่อง
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=บล็อกเน้นแบบพับได้
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=บล็อกเน้นซ้อนกัน
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=ปรับแต่งบล็อกเน้น
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=ประเภทที่รองรับ
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=ฝังวิดีโอ YouTube
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=ฝังทวีต
+
+[heading.edit-and-read/Reading view]
+original=Reading view
+translation=มุมมองการอ่าน
+
+[heading.edit-and-read/Editing view]
+original=Editing view
+translation=มุมมองแก้ไข
+
+[heading.edit-and-read/Live Preview]
+original=Live Preview
+translation=แสดงตัวอย่างแบบสด
+
+[heading.edit-and-read/Source mode]
+original=Source mode
+translation=โหมดซอร์ส
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=การเลือกแบบสี่เหลี่ยม
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=ข้อจำกัดของ HTML
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=ไม่สามารถใช้ Markdown ภายใน HTML ได้
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=บล็อก HTML ต้องสมบูรณ์ในตัวเอง
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=เมื่อ Markdown ดูเหมือนทำงานได้ภายใน HTML
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=การใช้งาน HTML ที่พบบ่อย
+
+[heading.html/Comments]
+original=Comments
+translation=ความคิดเห็น
+
+[heading.html/Underline]
+original=Underline
+translation=ขีดเส้นใต้
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=ขีดทับ
+
+[heading.tags/Add a tag to a note]
+original=Add a tag to a note
+translation=เพิ่มแท็กลงในโน้ต
+
+[heading.tags/Find notes using tags]
+original=Find notes using tags
+translation=ค้นหาโน้ตโดยใช้แท็ก
+
+[heading.tags/Nested tags]
+original=Nested tags
+translation=แท็กซ้อน
+
+[heading.tags/Tag format]
+original=Tag format
+translation=รูปแบบแท็ก
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=เพิ่มไฟล์แนบ
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=เปลี่ยนตำแหน่งไฟล์แนบเริ่มต้น
+
+[heading.advanced-syntax/Tables]
+original=Tables
+translation=ตาราง
+
+[heading.advanced-syntax/Format content within a table]
+original=Format content within a table
+translation=จัดรูปแบบเนื้อหาภายในตาราง
+
+[heading.advanced-syntax/Diagram]
+original=Diagram
+translation=ไดอะแกรม
+
+[heading.advanced-syntax/Linking files in a diagram]
+original=Linking files in a diagram
+translation=ลิงก์ไฟล์ในไดอะแกรม
+
+[heading.advanced-syntax/Math]
+original=Math
+translation=คณิตศาสตร์
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=ย่อหน้า
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=การขึ้นบรรทัดใหม่
+
+[heading.syntax/Headings]
+original=Headings
+translation=หัวเรื่อง
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=ตัวหนา ตัวเอียง ไฮไลต์
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=ลิงก์ภายใน
+
+[heading.syntax/External links]
+original=External links
+translation=ลิงก์ภายนอก
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=การ Escape ช่องว่างในลิงก์
+
+[heading.syntax/External images]
+original=External images
+translation=รูปภาพภายนอก
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=คำคม
+
+[heading.syntax/Lists]
+original=Lists
+translation=รายการ
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=รายการงาน
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=รายการซ้อน
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=เส้นแนวนอน
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=โค้ด
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=โค้ดอินไลน์
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=บล็อกโค้ด
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=การซ้อนบล็อกโค้ด
+
+[heading.syntax/Comments]
+original=Comments
+translation=เชิงอรรถ
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=ความคิดเห็น
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=การ Escape ไวยากรณ์ Markdown
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=คำถามและคำแนะนำ
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=รายงานบั๊กและร้องขอฟีเจอร์
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=รวบรวมข้อมูลการดีบั๊ก
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=ตรวจสอบเวลาเริ่มต้น
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=บันทึกบันทึกคอนโซล
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=ติดต่อการสนับสนุน Obsidian
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=รายงานปัญหาด้านความปลอดภัย
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=รายงานการละเมิดจรรยาบรรณ
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=มีส่วนร่วมกับ Obsidian
+
+[heading.plugins/importer/Install Importer]
+original=Install Importer
+translation=ติดตั้งตัวนำเข้า
+
+[heading.import/apple-journal/Export your data from Apple Journal]
+original=Export your data from Apple Journal
+translation=ส่งออกข้อมูลของคุณจาก Apple Journal
+
+[heading.import/apple-journal/On iPhone]
+original=On iPhone
+translation=บน iPhone
+
+[heading.import/apple-journal/On Mac (Tahoe)]
+original=On Mac (Tahoe)
+translation=บน Mac (Tahoe)
+
+[heading.import/apple-journal/Import Apple Journal data into Obsidian]
+original=Import Apple Journal data into Obsidian
+translation=นำเข้าข้อมูล Apple Journal เข้าสู่ Obsidian
+
+[heading.import/apple-journal/Supported content]
+original=Supported content
+translation=เนื้อหาที่รองรับ
+
+[heading.import/apple-notes/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=นำเข้าข้อมูล Apple Notes เข้าสู่ Obsidian
+
+[heading.import/apple-notes/Supported content]
+original=Supported content
+translation=เนื้อหาที่รองรับ
+
+[heading.import/apple-notes/Scans]
+original=Scans
+translation=การสแกน
+
+[heading.import/apple-notes/Alternate export methods]
+original=Alternate export methods
+translation=วิธีการส่งออกทางเลือก
+
+[heading.import/bear/Export your data from Bear]
+original=Export your data from Bear
+translation=ส่งออกข้อมูลของคุณจาก Bear
+
+[heading.import/bear/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=นำเข้าข้อมูล Bear ของคุณไปยัง Obsidian
+
+[heading.import/craft/Export your data from Craft]
+original=Export your data from Craft
+translation=ส่งออกข้อมูลจาก Craft
+
+[heading.import/craft/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=นำเข้าข้อมูล Craft เข้าสู่ Obsidian
+
+[heading.import/craft/Troubleshooting]
+original=Troubleshooting
+translation=การแก้ไขปัญหา
+
+[heading.import/evernote/Export your data from Evernote]
+original=Export your data from Evernote
+translation=ส่งออกข้อมูลจาก Evernote
+
+[heading.import/evernote/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=นำเข้าข้อมูล Evernote ไปยัง Obsidian
+
+[heading.import/evernote/Advanced import options]
+original=Advanced import options
+translation=ตัวเลือกการนำเข้าขั้นสูง
+
+[heading.import/evernote/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=รักษาลำดับชั้นของแท็ก
+
+[heading.import/evernote/Handling notebook stacks]
+original=Handling notebook stacks
+translation=การจัดการกลุ่มสมุดบันทึก
+
+[heading.import/evernote/More options]
+original=More options
+translation=ตัวเลือกเพิ่มเติม
+
+[heading.import/google-keep/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=ส่งออกข้อมูลของคุณจาก Google Keep
+
+[heading.import/google-keep/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=นำเข้าข้อมูล Google Keep ของคุณเข้าสู่ Obsidian
+
+[heading.import/google-keep/Supported features]
+original=Supported features
+translation=ฟีเจอร์ที่รองรับ
+
+[heading.import/onenote/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=นำเข้าข้อมูล OneNote ของคุณเข้าสู่ Obsidian
+
+[heading.import/onenote/Troubleshooting]
+original=Troubleshooting
+translation=การแก้ไขปัญหา
+
+[heading.import/onenote/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=ไม่มีส่วนหรือสมุดบันทึกปรากฏ
+
+[heading.import/onenote/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=โน้ตที่นำเข้าว่างเปล่าหรือเนื้อหาหายไป
+
+[heading.import/onenote/Privacy]
+original=Privacy
+translation=ความเป็นส่วนตัว
+
+[heading.import/notion/API import]
+original=API import
+translation=นำเข้าผ่าน API
+
+[heading.import/notion/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=สร้างโทเค็นการผสาน API ของ Notion
+
+[heading.import/notion/Import your Notion data via API]
+original=Import your Notion data via API
+translation=นำเข้าข้อมูล Notion ของคุณผ่าน API
+
+[heading.import/notion/Limitations]
+original=Limitations
+translation=ข้อจำกัด
+
+[heading.import/notion/File import]
+original=File import
+translation=นำเข้าผ่านไฟล์
+
+[heading.import/notion/Export your data from Notion]
+original=Export your data from Notion
+translation=ส่งออกข้อมูลของคุณจาก Notion
+
+[heading.import/notion/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=นำเข้าไฟล์ .zip ของ Notion
+
+[heading.import/notion/Troubleshooting]
+original=Troubleshooting
+translation=การแก้ไขปัญหา
+
+[heading.import/notion/Importing large workspaces]
+original=Importing large workspaces
+translation=การนำเข้าพื้นที่ทำงานขนาดใหญ่
+
+[heading.import/roam/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=ส่งออกข้อมูลจาก Roam Research
+
+[heading.import/roam/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=นำเข้าข้อมูล Roam Research เข้าสู่ Obsidian
+
+[heading.import/csv/Create notes from CSV data in Obsidian]
+original=Create notes from CSV data in Obsidian
+translation=สร้างโน้ตจากข้อมูล CSV ใน Obsidian
+
+[heading.import/csv/Configure how CSV fields are imported]
+original=Configure how CSV fields are imported
+translation=ตั้งค่าวิธีการนำเข้าฟิลด์ CSV
+
+[heading.import/html/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=นำเข้าข้อมูล HTML เข้าสู่ Obsidian
+
+[heading.import/html/Import settings]
+original=Import settings
+translation=นำเข้าการตั้งค่า
+
+[heading.import/markdown/Converting from other flavors of Markdown]
+original=Converting from other flavors of Markdown
+translation=การแปลงจาก Markdown รูปแบบอื่น
+
+[heading.import/textbundle/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=นำเข้าไฟล์ Textbundle ไปยัง Obsidian
+
+[heading.import/textbundle/Troubleshooting]
+original=Troubleshooting
+translation=การแก้ไขปัญหา
+
+[heading.import/textbundle/No files are selected for import]
+original=No files are selected for import
+translation=ไม่มีไฟล์ถูกเลือกสำหรับการนำเข้า
+
+[heading.//Obsidian Help]
+original=Obsidian Help
+translation=วิธีใช้ Obsidian
+
+[heading.//Get started]
+original=Get started
+translation=เริ่มต้นใช้งาน
+
+[heading.//Extend Obsidian]
+original=Extend Obsidian
+translation=ขยายความสามารถของ Obsidian
+
+[heading.//Add-on services]
+original=Add-on services
+translation=บริการเสริม
+
+[heading.//Contribute]
+original=Contribute
+translation=มีส่วนร่วม
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=เปิดการตั้งค่า
+
+[heading.settings/Desktop]
+original=Desktop
+translation=เดสก์ท็อป
+
+[heading.settings/Mobile]
+original=Mobile
+translation=มือถือ
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=การจัดระเบียบการตั้งค่า
+
+[heading.settings/General]
+original=General
+translation=ทั่วไป
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=เวอร์ชั่นและการอัปเดต
+
+[heading.settings/Language]
+original=Language
+translation=ภาษา
+
+[heading.settings/Help]
+original=Help
+translation=วิธีใช้
+
+[heading.settings/Account]
+original=Account
+translation=บัญชี
+
+[heading.settings/Advanced]
+original=Advanced
+translation=ขั้นสูง
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=แจ้งเตือนหากการเริ่มต้นทำงานนานกว่าที่คาดไว้
+
+[heading.settings/Editor]
+original=Editor
+translation=เอดิเตอร์
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=โฟกัสแท็บใหม่เสมอ
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=มุมมองพื้นฐานสำหรับแท็บใหม่
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=โหมดปรับแก้เริ่มต้น
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=สถานะเอดิเตอร์
+
+[heading.settings/Display]
+original=Display
+translation=การแสดงผล
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=ความยาวบรรทัดที่เหมาะกับการอ่าน
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=การตัดบรรทัดแบบเข้มงวด
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=คุณสมบัติในเอกสาร
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=ยุบหัวข้อ
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=ยุบลิสต์รายการ
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=แสดงหมายเลขบรรทัด
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=ตัวช่วยบอกระดับการเยื้อง
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=อ่าน-เขียนจากขวาไปซ้าย (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=เติมวงเล็บปิดโดยอัตโนมัติ
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=เติมไวยากรณ์ภาษา Markdown โดยอัตโนมัติ
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=ลิสต์รายการแบบสมาร์ต
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=ใช้งานย่อหน้า
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=แปลงไวยากรณ์ HTML โดยอัตโนมัติ
+
+[heading.settings/Behavior]
+original=Behavior
+translation=การทำงาน
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=การพิสูจน์อักษร
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=ภาษาการพิสูจน์อักษร
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=ขนาดย่อหน้า
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=ใช้คีย์ลัดเหมือนโปรแกรม Vim
+
+[heading.settings/Files and links]
+original=Files and links
+translation=ไฟล์และลิงค์
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=ตำแหน่งเริ่มต้นโน้ตใหม่
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=ตำแหน่งเริ่มต้นสำหรับไฟล์แนบใหม่
+
+[heading.settings/Links]
+original=Links
+translation=ลิงค์
+
+[heading.settings/New link format]
+original=New link format
+translation=รูปแบบลิงค์ใหม่
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=อัพเดตลิงค์ภายในโดยอัตโนมัติ
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=ใช้ลิงก์วิกิ
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=แสดงไฟล์ทุกชนิด
+
+[heading.settings/Trash]
+original=Trash
+translation=ถังขยะ
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=ยืนยันการลบไฟล์
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=ไฟล์ที่ถูกลบ
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=ไฟล์ที่ไม่รวม
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=โฟลเดอร์การตั้งค่าอื่น
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=อนุญาต URI callbacks
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=สร้างแคชห้องนิรภัยใหม่
+
+[heading.settings/Appearance]
+original=Appearance
+translation=ลักษณะ
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=ชุดสีหลัก
+
+[heading.settings/Accent color]
+original=Accent color
+translation=สี Accent
+
+[heading.settings/Themes]
+original=Themes
+translation=ธีม
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=ธีมปัจจุบัน
+
+[heading.settings/Font]
+original=Font
+translation=ฟอนต์
+
+[heading.settings/Interface font]
+original=Interface font
+translation=ฟอนต์อินเทอร์เฟซ
+
+[heading.settings/Text font]
+original=Text font
+translation=ฟอนต์สำหรับตัวอักษร
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=ฟอนต์ Monospace
+
+[heading.settings/Font size]
+original=Font size
+translation=ขนาดตัวอักษร
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=ปรับขนาดตัวอักษรแบบรวดเร็ว
+
+[heading.settings/Interface]
+original=Interface
+translation=อินเทอร์เฟซ
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=ชื่อเรื่องแบบอินไลน์
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=แสดงชื่อแท็บ
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=แสดงริบบอน
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=Ribbon menu
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=ระดับการขยาย
+
+[heading.settings/Native menus]
+original=Native menus
+translation=เมนูแบบ Native
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=สไตล์กรอบหน้าต่าง
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=ไอคอนแอปแบบกำหนดเอง
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=หน้าต่างโปร่งแสง
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=Hardware Acceleration
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=snippet CSS
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=ฮ็อตคีย์
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=ปลั๊กอินหลัก
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=ปลั๊กอินโดยชุมชน
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=โหมดจำกัด
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=ปลั๊กอินปัจจุบัน
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=ปลั๊กอินที่ติดตั้งแล้ว
+
+[heading.workspace/Desktop]
+original=Desktop
+translation=เดสก์ท็อป
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=มือถือ
+
+[heading.ribbon/Actions]
+original=Actions
+translation=การทำงาน
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=ปรับแต่งริบบอน
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=เดสก์ท็อป
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=ซ่อนริบบอน
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=แสดงริบบอน
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=มือถือ
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=เข้าถึงด่วน
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=การจัดเรียงและการมองเห็น
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=ลากแท็บ
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=แหล่งที่ลากได้
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=จุดหมายปลายทางที่วางได้
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=ลากจากภายนอก Obsidian
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=วางไฟล์นอก Obsidian
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=รูปแบบสี
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=ธีมกำหนดเอง
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=ไอคอนแอปแบบกำหนดเอง
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=ความโปร่งแสง
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=เปิดไฟล์ในหน้าต่างใหม่
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=ย้ายไฟล์ไปยังหน้าต่างอื่น
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=ดูฮ็อตคีย์
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=ตั้งค่าฮ็อตคีย์
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=ลบฮ็อตคีย์
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=กรองฮ็อตคีย์
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=เลย์เอาต์แป้นพิมพ์ที่ไม่ใช่ US
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=แป้นพิมพ์ลัดเริ่มต้น
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=เปิดแถบด้านข้างที่ซ่อนอยู่
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=เดสก์ท็อปและแท็บเล็ตขนาดใหญ่
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=มือถือและแท็บเล็ตขนาดเล็ก
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=แท็บ
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=เปิดหรือเปิดแท็บอีกครั้ง
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=ปิดแท็บ
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=จัดเรียงแท็บ
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=ปักหมุดแท็บ
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=กลุ่มแท็บ
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=สร้างกลุ่มแท็บ
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=ปิดกลุ่มแท็บ
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=เปิดแท็บใหม่
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=เปิดลิงก์
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=จัดระเบียบแท็บและหน้าต่าง
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=จัดเรียงแท็บ
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=แบ่งกลุ่มแท็บ
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=ปรับขนาดกลุ่มแท็บ
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=ย้ายแท็บไปหน้าต่างใหม่
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=ย้ายแท็บไปหน้าต่างอื่น
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=ปักหมุดแท็บ
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=สลับไปแท็บอื่น
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=ซ้อนกลุ่มแท็บ
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=มุมมองที่ลิงก์
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=บันทึกเลย์เอาต์
+
+[heading.sandbox/Opening the sandbox vault]
+original=Opening the sandbox vault
+translation=เปิดคลัง sandbox
+
+[heading.sandbox/Close the sandbox vault]
+original=Close the sandbox vault
+translation=ปิดคลัง sandbox
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=วิธีการซิงค์
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=การซิงค์บน iPhone และ iPad
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=คำถามที่พบบ่อย
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=ติดตั้ง Obsidian บน Windows
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=ติดตั้ง Obsidian บน macOS
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=ติดตั้ง Obsidian บน Linux
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=ติดตั้ง Obsidian โดยใช้ Snap
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=ติดตั้ง Obsidian โดยใช้ AppImage
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=ติดตั้ง Obsidian โดยใช้ Flatpak
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=ติดตั้ง Obsidian บน Android
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=ติดตั้ง Obsidian บน iPhone และ iPad
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=นำเข้าจากแอปอื่นและรูปแบบไฟล์อื่น
+
+[heading.import/More formats]
+original=More formats
+translation=รูปแบบเพิ่มเติม
+
+[heading.vault/Create empty vault]
+original=Create empty vault
+translation=สร้างห้องนิรภัยเปล่า
+
+[heading.vault/Open existing folder]
+original=Open existing folder
+translation=เปิดโฟลเดอร์ที่มีอยู่
+
+[heading.create-note/Create a new note]
+original=Create a new note
+translation=สร้างโน้ตใหม่
+
+[heading.create-note/Formatting text]
+original=Formatting text
+translation=การจัดรูปแบบข้อความ
+
+[heading.create-note/Learn more]
+original=Learn more
+translation=ข้อมูลเพิ่มเติม
+
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=การซิงค์ไม่ใช่การสำรองข้อมูล
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=ใช้ปลั๊กอินชุมชน
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=ใช้บริการบนคลาวด์
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=ใช้ไดรฟ์ภายนอก
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=ใช้การสำรองข้อมูลจากคอมพิวเตอร์
+
+[heading.backup/Next steps]
+original=Next steps
+translation=ขั้นตอนถัดไป
+
+[heading.glossary/Alias]
+original=Alias
+translation=นามแฝง
+
+[heading.glossary/Attachment]
+original=Attachment
+translation=ไฟล์แนบ
+
+[heading.glossary/Command]
+original=Command
+translation=คำสั่ง
+
+[heading.glossary/Embed]
+original=Embed
+translation=ฝัง
+
+[heading.glossary/Frontmatter]
+original=Frontmatter
+translation=เมทาดาทาตอนต้น
+
+[heading.glossary/Graph]
+original=Graph
+translation=กราฟ
+
+[heading.glossary/Hotkey]
+original=Hotkey
+translation=ฮ็อตคีย์
+
+[heading.glossary/Link]
+original=Link
+translation=ลิงก์
+
+[heading.glossary/Main area]
+original=Main area
+translation=พื้นที่หลัก
+
+[heading.glossary/Note]
+original=Note
+translation=โน้ต
+
+[heading.glossary/Plugin]
+original=Plugin
+translation=ปลั๊กอิน
+
+[heading.glossary/Pop-out window]
+original=Pop-out window
+translation=หน้าต่างแยก
+
+[heading.glossary/Property]
+original=Property
+translation=คุณสมบัติ
+
+[heading.glossary/Ribbon]
+original=Ribbon
+translation=ริบบอน
+
+[heading.glossary/Sidebar]
+original=Sidebar
+translation=แถบด้านข้าง
+
+[heading.glossary/Status bar]
+original=Status bar
+translation=แถบสถานะ
+
+[heading.glossary/Tab]
+original=Tab
+translation=แท็บ
+
+[heading.glossary/Tab group]
+original=Tab group
+translation=กลุ่มแท็บ
+
+[heading.glossary/Tag]
+original=Tag
+translation=แท็ก
+
+[heading.glossary/Theme]
+original=Theme
+translation=ธีม
+
+[heading.glossary/Vault]
+original=Vault
+translation=ห้องนิรภัย
+
+[heading.glossary/Remote vault]
+original=Remote vault
+translation=ห้องนิรภัยบนคลาวด์
+
+[heading.glossary/View]
+original=View
+translation=มุมมอง
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=ตรวจสอบรุ่นเพื่ออัพเดตและดูเวอร์ชั่น
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=ปิดใช้งานการอัพเดตรุ่นโดยอัตโนมัติ
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=การอัปเดตตัวติดตั้ง
+
+[heading.link-notes/Create a link]
+original=Create a link
+translation=สร้างลิงก์
+
+[heading.link-notes/Create a link to a non-existing note]
+original=Create a link to a non-existing note
+translation=สร้างลิงก์ไปยังโน้ตที่ยังไม่มี
+
+[heading.link-notes/Navigate between notes]
+original=Navigate between notes
+translation=นำทางระหว่างโน้ต
+
+[heading.link-notes/Learn more]
+original=Learn more
+translation=ข้อมูลเพิ่มเติม
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=วิดเจ็ต ทางลัด และ Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=แถบเครื่องมือบนมือถือ
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=ปรับแต่งแถบเครื่องมือบนมือถือ
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=เพิ่มคำสั่งลงแถบเครื่องมือบนมือถือ
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=ควิกแอคชั่น
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=ปรับแต่งควิกแอคชั่น
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=แถบนำทาง
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=กลับไปหรือไปข้างหน้า
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=สร้างหรือค้นหาโน้ต
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=การจัดการแท็บ
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=แอคชั่นริบบอน
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=แถบด้านข้าง
+
+[heading.refunds/Request a refund]
+original=Request a refund
+translation=ขอคืนเงิน
+
+[heading.refunds/Frequently asked questions]
+original=Frequently asked questions
+translation=คำถามที่พบบ่อย
+
+[heading.sales-tax/Tax exemption]
+original=Tax exemption
+translation=การยกเว้นภาษี
+
+[heading.sales-tax/Applying for an exemption]
+original=Applying for an exemption
+translation=การยื่นขอยกเว้น
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=ระดับ Catalyst
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=เข้าถึงสิทธิประโยชน์ Catalyst
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=รับตราฟอรัมของคุณ
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=รับตรา Discord ของคุณ
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=เข้าร่วมช่องทาง Insider ของเรา
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=เปิดใช้งานเวอร์ชันเข้าถึงก่อน
+
+[heading.discounts/How to apply]
+original=How to apply
+translation=วิธีสมัคร
+
+[heading.discounts/How to renew]
+original=How to renew
+translation=วิธีต่ออายุ
+
+[heading.discounts/Frequently asked questions]
+original=Frequently asked questions
+translation=คำถามที่พบบ่อย
+
+[heading.discounts/Refunds]
+original=Refunds
+translation=การคืนเงิน
+
+[heading.credit/Add credit]
+original=Add credit
+translation=เพิ่มเครดิต
+
+[heading.credit/Gifting]
+original=Gifting
+translation=การมอบเป็นของขวัญ
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=มอบเครดิต Obsidian
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=การรับเครดิต Obsidian
+
+[heading.payment/Purchase a service or license]
+original=Purchase a service or license
+translation=สมัครบริการหรือใบอนุญาต
+
+[heading.payment/Generate an invoice]
+original=Generate an invoice
+translation=สร้างใบแจ้งหนี้
+
+[heading.payment/Editing an invoice]
+original=Editing an invoice
+translation=แก้ไขใบแจ้งหนี้
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=สร้างห้องนิรภัยใหม่
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=สร้างห้องนิรภัยจากโฟลเดอร์ที่มีอยู่
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=เปลี่ยนชื่อห้องนิรภัย
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=ย้ายห้องนิรภัยไปยังโฟลเดอร์อื่น
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=ลบห้องนิรภัย
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=ถ่ายโอนการตั้งค่าไปยังห้องนิรภัยอื่น
+
+[heading.manage-notes/Create a new note]
+original=Create a new note
+translation=สร้างโน้ตใหม่
+
+[heading.manage-notes/Rename a note]
+original=Rename a note
+translation=เปลี่ยนชื่อโน้ต
+
+[heading.manage-notes/Delete a note]
+original=Delete a note
+translation=ลบโน้ต
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=ฝังไฟล์
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=การตั้งค่าห้องนิรภัย
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=การตั้งค่าแบบทั่วไป
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=แคชเมทาดาทา
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=เข้าถึงโฟลเดอร์การตั้งค่าของคุณ
+
+[heading.configuration-folder/Desktop]
+original=Desktop
+translation=เดสก์ท็อป
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=มือถือ
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=เปลี่ยนโฟลเดอร์การตั้งค่าของคุณ

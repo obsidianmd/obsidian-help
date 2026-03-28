@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=หน้าหลัก
+
+[file.2fa]
+original=2-factor authentication
+translation=การยืนยันตัวตนสองขั้นตอน
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=ไวยากรณ์การจัดรูปแบบขั้นสูง
+
+[file.aliases]
+original=Aliases
+translation=นามแฝง
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian สำหรับ Android
+
+[file.appearance]
+original=Appearance
+translation=หน้าตา
+
+[file.attachments]
+original=Attachments
+translation=ไฟล์แนบ
+
+[file.backup]
+original=Back up your Obsidian files
+translation=สำรองข้อมูลไฟล์ Obsidian ของคุณ
+
+[file.bases]
+original=Introduction to Bases
+translation=แนะนำฐาน
+
+[file.bases/create-base]
+original=Create a base
+translation=สร้างฐาน
+
+[file.bases/functions]
+original=Functions
+translation=ฟังก์ชัน
+
+[file.bases/syntax]
+original=Bases syntax
+translation=ไวยากรณ์ฐาน
+
+[file.bases/views]
+original=Views
+translation=มุมมอง
+
+[file.bases/views/cards]
+original=Cards view
+translation=มุมมองการ์ด
+
+[file.bases/views/list]
+original=List view
+translation=มุมมองรายการ
+
+[file.bases/views/map]
+original=Map view
+translation=มุมมองแผนที่
+
+[file.bases/views/table]
+original=Table view
+translation=มุมมองตาราง
+
+[file.callouts]
+original=Callouts
+translation=บล็อกเน้น
+
+[file.catalyst]
+original=Catalyst license
+translation=สิทธิ์การใช้งาน Catalyst
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=จรรยาบรรณชุมชน
+
+[file.community-plugins]
+original=Community plugins
+translation=ปลั๊กอินโดยชุมชน
+
+[file.configuration-folder]
+original=Configuration folder
+translation=โฟลเดอร์การตั้งค่า
+
+[file.create-note]
+original=Create your first note
+translation=สร้างโน้ตแรกของคุณ
+
+[file.credit]
+original=Obsidian Credit
+translation=เครดิต Obsidian
+
+[file.credits]
+original=Credits
+translation=เครดิต
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=วิธีที่ Obsidian จัดเก็บข้อมูล
+
+[file.developers]
+original=Developers
+translation=นักพัฒนา
+
+[file.discounts]
+original=Education and non-profit discount
+translation=ส่วนลดสำหรับการศึกษาและองค์กรไม่แสวงหากำไร
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=ลากและวาง
+
+[file.early-access]
+original=Early access versions
+translation=เวอร์ชั่นเข้าถึงก่อน
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=มุมมองและโหมดแก้ไข
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=ทางลัดการแก้ไข
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=ฝังหน้าเว็บ
+
+[file.embeds]
+original=Embed files
+translation=ฝังไฟล์
+
+[file.file-formats]
+original=Accepted file formats
+translation=รูปแบบไฟล์ที่รองรับ
+
+[file.financial-contributions]
+original=Financial contributions
+translation=การสนับสนุนทางการเงิน
+
+[file.folding]
+original=Folding
+translation=การพับ
+
+[file.formulas]
+original=Formulas
+translation=สูตร
+
+[file.glossary]
+original=Glossary
+translation=อภิธานศัพท์
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=ฮ็อตคีย์
+
+[file.html]
+original=HTML content
+translation=เนื้อหา HTML
+
+[file.import]
+original=Import notes
+translation=นำเข้าโน้ต
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=นำเข้าจาก Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=นำเข้าจาก Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=นำเข้าจาก Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=นำเข้าจาก Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=นำเข้าไฟล์ CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=นำเข้าจาก Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=นำเข้าจาก Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=นำเข้าไฟล์ HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=นำเข้าไฟล์ Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=นำเข้าจาก Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=นำเข้าจาก Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=นำเข้าจาก Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=นำเข้าไฟล์ Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=นำเข้าโน้ต Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=ดาวน์โหลดและติดตั้ง Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian สำหรับ iOS และ iPadOS
+
+[file.language]
+original=Language settings
+translation=การตั้งค่าภาษา
+
+[file.link-notes]
+original=Link notes
+translation=เชื่อมโยงโน้ต
+
+[file.links]
+original=Internal links
+translation=ลิงค์ภายใน
+
+[file.manage-notes]
+original=Manage notes
+translation=จัดการโน้ต
+
+[file.manage-vaults]
+original=Manage vaults
+translation=จัดการห้องนิรภัย
+
+[file.mobile]
+original=Mobile app
+translation=แอปมือถือ
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=เคอร์เซอร์หลายตัว
+
+[file.obsidian]
+original=About Obsidian
+translation=เกี่ยวกับ Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=เว็บไซต์ทางการ
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=แนะนำใบอนุญาตและการชำระเงิน
+
+[file.plugin-security]
+original=Plugin security
+translation=ความปลอดภัยของปลั๊กอิน
+
+[file.plugins]
+original=Core plugins
+translation=ปลั๊กอินหลัก
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=บันทึกเสียง
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=แบ็คลิงค์
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=บุ๊กมาร์ก
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=กระดานคำสั่ง
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=โน้ตประจำวัน
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=ตัวจัดการไฟล์
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=การกู้คืนข้อมูล
+
+[file.plugins/format-converter]
+original=Format converter
+translation=นำเข้า Markdown
+
+[file.plugins/graph]
+original=Graph view
+translation=มุมมองกราฟ
+
+[file.plugins/importer]
+original=Importer
+translation=ตัวนำเข้า
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Note composer
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=ลิงค์ขาออก
+
+[file.plugins/outline]
+original=Outline
+translation=โครงเรื่อง
+
+[file.plugins/page-preview]
+original=Page preview
+translation=พรีวิวโน้ต
+
+[file.plugins/properties]
+original=Properties view
+translation=มุมมองคุณสมบัติ
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Quick switcher
+
+[file.plugins/random-note]
+original=Random note
+translation=สุ่มโน้ค
+
+[file.plugins/search]
+original=Search
+translation=ค้นหา
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=คำสั่งสแลช
+
+[file.plugins/slides]
+original=Slides
+translation=สไลด์
+
+[file.plugins/tags]
+original=Tags view
+translation=หน้าต่างแท็ก
+
+[file.plugins/templates]
+original=Templates
+translation=เทมเพลต
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=ตัวสร้างโน้ตแบบไม่ซ้ำ
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=ตัวดูเว็บ
+
+[file.plugins/word-count]
+original=Word count
+translation=การนับคำ
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=พื้นที่ทำงาน
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=หน้าต่างแยก
+
+[file.properties]
+original=Properties
+translation=คุณสมบัติ
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=แนะนำ Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=การวิเคราะห์
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=ร่วมงานบนเว็บไซต์ Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=ปรับแต่งเว็บไซต์ของคุณ
+
+[file.publish/domains]
+original=Custom domains
+translation=โดเมนกำหนดเอง
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=ข้อจำกัดของ Publish
+
+[file.publish/media]
+original=Media files
+translation=ไฟล์มีเดีย
+
+[file.publish/permalinks]
+original=Permalinks
+translation=ลิงค์ถาวร
+
+[file.publish/publish]
+original=Publish your content
+translation=เผยแพร่เนื้อหาของคุณ
+
+[file.publish/security]
+original=Security and privacy
+translation=ความปลอดภัยและความเป็นส่วนตัว
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=ตั้งค่า Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=จัดการเว็บไซต์
+
+[file.publish/social-share]
+original=Social media link previews
+translation=พรีวิวลิงค์สื่อสังคม
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=แก้ไขปัญหา Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=นโยบายการคืนเงิน
+
+[file.resources]
+original=Help and support
+translation=ความช่วยเหลือและการสนับสนุน
+
+[file.ribbon]
+original=Ribbon
+translation=ริบบอน
+
+[file.sales-tax]
+original=Sales tax
+translation=ภาษีการขาย
+
+[file.sandbox]
+original=Sandbox vault
+translation=คลัง sandbox
+
+[file.settings]
+original=Settings
+translation=การตั้งค่า
+
+[file.sidebar]
+original=Sidebar
+translation=แถบด้านข้าง
+
+[file.snippets]
+original=CSS snippets
+translation=snippet CSS
+
+[file.status-bar]
+original=Status bar
+translation=แถบสถานะ
+
+[file.style-guide]
+original=Style guide
+translation=คู่มือสไตล์
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=ลิงค์สัญลักษณ์และจุดเชื่อมต่อ
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=แนะนำ Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=ซิงค์โน้ตของคุณข้ามอุปกรณ์
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=ทำงานร่วมกันบนคลังที่แชร์
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=คำถามที่พบบ่อย
+
+[file.sync/headless]
+original=Headless Sync
+translation=Headless Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=ไอคอนสถานะและข้อความ
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=อัปเกรดการเข้ารหัสของ Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=แผนและขีดจำกัดพื้นที่จัดเก็บ
+
+[file.sync/region]
+original=Sync regions
+translation=ภูมิภาคของ Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=ความปลอดภัยและความเป็นส่วนตัว
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=การตั้งค่า Sync และเลือกซิงค์บางไฟล์
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=ตั้งค่า Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=เปลี่ยนมาใช้ Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=แก้ไขปัญหา Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=คลังในเครื่องและห้องนิรภัยบนคลาวด์
+
+[file.sync/version-history]
+original=Version history
+translation=ประวัติเวอร์ชัน
+
+[file.syntax]
+original=Basic formatting syntax
+translation=ไวยากรณ์การจัดรูปแบบพื้นฐาน
+
+[file.tabs]
+original=Tabs
+translation=แท็บ
+
+[file.tags]
+original=Tags
+translation=แท็ก
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian สำหรับทีม
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=ติดตั้ง Obsidian ให้ทั่วทีมของคุณ
+
+[file.teams/license]
+original=Commercial license
+translation=ใบอนุญาตเชิงพาณิชย์
+
+[file.teams/publish]
+original=Publishing for teams
+translation=การเผยแพร่สำหรับทีม
+
+[file.teams/security]
+original=Security considerations for teams
+translation=ข้อควรพิจารณาด้านความปลอดภัยสำหรับทีม
+
+[file.teams/sync]
+original=Syncing for teams
+translation=การซิงค์สำหรับทีม
+
+[file.themes]
+original=Themes
+translation=ธีม
+
+[file.translations]
+original=Translations
+translation=การแปลภาษา
+
+[file.updates]
+original=Update Obsidian
+translation=อัพเดต Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=สร้างห้องนิรภัย
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=แนะนำ Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=คลิปหน้าเว็บ
+
+[file.web-clipper/filters]
+original=Filters
+translation=ตัวกรอง
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=ไฮไลต์หน้าเว็บ
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=แปลหน้าเว็บ
+
+[file.web-clipper/logic]
+original=Logic
+translation=ลอจิก
+
+[file.web-clipper/reader]
+original=Reader
+translation=อ่าน
+
+[file.web-clipper/templates]
+original=Templates
+translation=เทมเพลต
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=แก้ไขปัญหา Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=ตัวแปร
+
+[file.workspace]
+original=Workspace
+translation=พื้นที่ทำงาน
+
+[folder.audio]
+original=audio
+translation=เสียง
+
+[folder.Changelog]
+original=Changelog
+translation=บันทึกการเปลี่ยนแปลง
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=การมีส่วนร่วมกับ Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=การแก้ไขและการจัดรูปแบบ
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=การขยาย Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=ไฟล์และโฟลเดอร์
+
+[folder.Getting started]
+original=Getting started
+translation=เริ่มต้นใช้งาน
+
+[folder.icons]
+original=icons
+translation=ไอคอน
+
+[folder.Import notes]
+original=Import notes
+translation=นำเข้าโน้ต
+
+[folder.Layouts]
+original=Layouts
+translation=เลย์เอาต์
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=ใบอนุญาตและการชำระเงิน
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=การลิงค์โน้ตและไฟล์
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=ปลั๊กอิน
+
+[folder.Teams]
+original=Teams
+translation=ทีม
+
+[folder.User interface]
+original=User interface
+translation=อินเทอร์เฟซผู้ใช้
+
+[folder.video]
+original=video
+translation=วิดีโอ

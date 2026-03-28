@@ -23,6 +23,7 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 | `pl`     | https://obsidian.md/pl/help/    |
 | `pt-BR`  | https://obsidian.md/pt-BR/help/ |
 | `ru`     | https://obsidian.md/ru/help/    |
+| `th`     | https://obsidian.md/th/help/    |
 | `tr`     | https://obsidian.md/tr/help/    |
 | `vi`     | https://obsidian.md/vi/help/    |
 | `zh`     | https://obsidian.md/zh/help/    |
