@@ -1084,7 +1084,7 @@ task daily line=3 done              # Markér daglig note-opgave som færdig
 
 ## Skabeloner
 
-Kommandoer til [[Plugins/Skabeloner|Skabeloner]].
+Kommandoer til [[Skabeloner]].
 
 ### `templates`
 

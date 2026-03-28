@@ -592,7 +592,7 @@ translation=Tags
 
 [file.teams]
 original=Obsidian for teams
-translation=Obsidian for teams
+translation=Obsidian for hold
 
 [file.teams/deploy]
 original=Deploy Obsidian across your team
@@ -604,15 +604,15 @@ translation=Kommerciel licens
 
 [file.teams/publish]
 original=Publishing for teams
-translation=Publish for teams
+translation=Publish for hold
 
 [file.teams/security]
 original=Security considerations for teams
-translation=Sikkerhedsovervejelser for teams
+translation=Sikkerhedsovervejelser for hold
 
 [file.teams/sync]
 original=Syncing for teams
-translation=Sync for teams
+translation=Sync for hold
 
 [file.themes]
 original=Themes

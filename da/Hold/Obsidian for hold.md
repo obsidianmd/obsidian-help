@@ -12,9 +12,9 @@ Obsidian kan bruges som en notatapplikation for enkeltpersoner og som et samarbe
 	- Støt Obsidian ved at købe en kommerciel licens.
 - [[Udrulning af Obsidian på tværs af dit team|Udrulning af Obsidian]]
 	- Sådan installerer, opdaterer og tilpasser du Obsidian på tværs af dit team.
-- [[Sync for teams]]
+- [[Sync for hold]]
 	- Sådan synkroniserer du data på tværs af dit team.
-- [[Publish for teams]]
+- [[Publish for hold]]
 	- Sådan udgiver du data fra dit teams boks.
 
 ## Vigtige ressourcer

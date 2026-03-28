@@ -52,7 +52,7 @@ Nogle kerneplugins er som standar deaktiveret. Du kan aktivere dem under **Indst
 	- Viser antallet af ord og tegn
 - [[Introduktion til Obsidian Publish|Publish]]
 	- Host dine noter på et websted eller en wiki
-- [[Plugins/Skabeloner|Skabeloner]]
+- [[Skabeloner]]
 	- Indsætter prædefineret indhold i dine noter
 - [[Slash kommandoer]]
 	- Udfører komandoer direkte i editoren ved brug af `/` tasten.

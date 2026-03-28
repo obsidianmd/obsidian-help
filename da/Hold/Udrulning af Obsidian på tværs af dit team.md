@@ -13,13 +13,13 @@ Dit team kan hente Obsidian fra vores [Hent-side](https://obsidian.md/download).
 
 Hvis automatiske opdateringer er aktiveret i applikationen, vil fremtidige versioner automatisk blive installeret, når brugerne genstarter Obsidian. Derudover anbefaler vi periodisk at udføre [[Opdatér Obsidian#Installationsprogramopdateringer|installationsprogramopdateringer]] for at modtage de seneste opdateringer til Electron-frameworket, herunder sikkerhedsrettelser.
 
-Hvis du vil vide, hvordan du begrænser netværksadgang til Obsidian under denne proces, kan du gennemgå [[Sikkerhedsovervejelser for teams#Netværk og adgang|netværk og adgang]].
+Hvis du vil vide, hvordan du begrænser netværksadgang til Obsidian under denne proces, kan du gennemgå [[Sikkerhedsovervejelser for hold#Netværk og adgang|netværk og adgang]].
 
 ## Tilpasning af Obsidian
 
 Obsidian er nem at tilpasse til dit teams behov. Med en omfattende API og et stort økosystem af brugere tilbyder Obsidian adgang til talrige plugins, temaer og supplerende værktøjer.
 
-For sikkerhedsrelaterede spørgsmål vedrørende disse emner, se venligst [[Sikkerhedsovervejelser for teams]].
+For sikkerhedsrelaterede spørgsmål vedrørende disse emner, se venligst [[Sikkerhedsovervejelser for hold]].
 
 ### Konfigurationsmapper
 
@@ -41,7 +41,7 @@ Vi anbefaler at oprette en standardiseret skabelon af konfigurationsmappen, der 
 
 ## Ofte stillede spørgsmål
 
-For spørgsmål om kontoadministration og sikkerhed, se venligst [[Sikkerhedsovervejelser for teams#Kontosikkerhed|kontosikkerhed]].
+For spørgsmål om kontoadministration og sikkerhed, se venligst [[Sikkerhedsovervejelser for hold#Kontosikkerhed|kontosikkerhed]].
 
 ### Udrulning
 
