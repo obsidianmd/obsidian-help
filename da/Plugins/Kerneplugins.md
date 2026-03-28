@@ -84,6 +84,5 @@ Obsidian teamet vedligeholder også nogle plugins gennem fælleskabsplugin butik
 
 - [[Importer]]
 	- Konverterer filer fra forskellige applikationer og formater, og importerer dem til Obsidian.
-
 - [[Landkort|Maps]]
 	- Tilføjer en kortvisning til Obsidian Baser.
