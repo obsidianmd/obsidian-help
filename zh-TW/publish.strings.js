@@ -4,7 +4,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = '搜尋頁面或標題…';
+    el.placeholder = '搜尋...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = '由 Obsidian Publish 驅動'; el.href = 'https://obsidian.md/zh-TW/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

@@ -148,7 +148,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'Cerca pagine o intestazioni...';
+    el.placeholder = 'Ricerca...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'Realizzato con Obsidian Publish'; el.href = 'https://obsidian.md/it/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

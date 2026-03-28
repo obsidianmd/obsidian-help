@@ -4,7 +4,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'Tìm kiếm trang hoặc tiêu đề...';
+    el.placeholder = 'Tìm kiếm...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'Được tạo bởi Obsidian Publish'; el.href = 'https://obsidian.md/vi/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

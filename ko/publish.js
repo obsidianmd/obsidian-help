@@ -148,7 +148,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = '페이지 또는 제목 검색...';
+    el.placeholder = '검색...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'Obsidian Publish 기반'; el.href = 'https://obsidian.md/ko/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

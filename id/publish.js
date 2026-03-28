@@ -148,7 +148,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'Cari halaman atau judul...';
+    el.placeholder = 'Penelusuran...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'Dibuat dengan Obsidian Publish'; el.href = 'https://obsidian.md/id/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

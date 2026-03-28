@@ -4,7 +4,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'Buscar páginas o encabezados...';
+    el.placeholder = 'Buscar...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'Desarrollado con Obsidian Publish'; el.href = 'https://obsidian.md/es/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

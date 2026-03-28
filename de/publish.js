@@ -148,7 +148,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'Seiten oder Überschriften suchen...';
+    el.placeholder = 'Suchen...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'Erstellt mit Obsidian Publish'; el.href = 'https://obsidian.md/de/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

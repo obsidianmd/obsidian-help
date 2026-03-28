@@ -4,7 +4,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'جست‌وجوی صفحه‌ها یا عنوان‌ها...';
+    el.placeholder = 'جست‌وجو...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'ساخته‌شده با Obsidian Publish'; el.href = 'https://obsidian.md/fa/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

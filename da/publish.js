@@ -148,7 +148,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'Søg efter sider eller overskrifter...';
+    el.placeholder = 'Søg...';
     el = document.querySelector('.site-footer a');
     if (el) el.textContent = 'Drevet af Obsidian Publish';
     el = document.querySelector('.graph-view-outer span:last-child');

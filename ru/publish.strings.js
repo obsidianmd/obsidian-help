@@ -4,7 +4,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'Поиск страниц или заголовков...';
+    el.placeholder = 'Поиск...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'Создано с помощью Obsidian Publish'; el.href = 'https://obsidian.md/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

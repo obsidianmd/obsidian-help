@@ -4,7 +4,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'ស្វែងរកទំព័រ ឬក្បាលរឿង...';
+    el.placeholder = 'ស្វែងរក...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'ដំណើរការដោយ Obsidian Publish'; el.href = 'https://obsidian.md/km/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');
