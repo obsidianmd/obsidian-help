@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=Ana sayfa
+
+[file.2fa]
+original=2-factor authentication
+translation=2 faktörlü kimlik doğrulama
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Gelişmiş biçimlendirme söz dizimi
+
+[file.aliases]
+original=Aliases
+translation=Takma adlar
+
+[file.android]
+original=Obsidian for Android
+translation=Android için Obsidian
+
+[file.appearance]
+original=Appearance
+translation=Görünüm
+
+[file.attachments]
+original=Attachments
+translation=Ekler
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Obsidian dosyalarınızı yedekleyin
+
+[file.bases]
+original=Introduction to Bases
+translation=Tabanlara giriş
+
+[file.bases/create-base]
+original=Create a base
+translation=Bir taban oluştur
+
+[file.bases/functions]
+original=Functions
+translation=Fonksiyonlar
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Tabanlar söz dizimi
+
+[file.bases/views]
+original=Views
+translation=Görünümler
+
+[file.bases/views/cards]
+original=Cards view
+translation=Kartlar görünümü
+
+[file.bases/views/list]
+original=List view
+translation=Liste görünümü
+
+[file.bases/views/map]
+original=Map view
+translation=Harita görünümü
+
+[file.bases/views/table]
+original=Table view
+translation=Tablo görünümü
+
+[file.callouts]
+original=Callouts
+translation=Belirtme çizgileri
+
+[file.catalyst]
+original=Catalyst license
+translation=Katalizör lisansı
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Topluluk davranış kuralları
+
+[file.community-plugins]
+original=Community plugins
+translation=Topluluk Eklentileri
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Yapılandırma klasörü
+
+[file.create-note]
+original=Create your first note
+translation=İlk notunuzu oluşturun
+
+[file.credit]
+original=Obsidian Credit
+translation=Obsidian Kredisi
+
+[file.credits]
+original=Credits
+translation=Katkıda bulunanlar
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Obsidian verileri nasıl saklar
+
+[file.developers]
+original=Developers
+translation=Geliştiriciler
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Eğitim ve kar amacı gütmeyen kuruluş indirimi
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Sürükle ve bırak
+
+[file.early-access]
+original=Early access versions
+translation=Erken erişim sürümleri
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Görünümler ve düzenleme modu
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Düzenleme kısayolları
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Web sayfalarını göm
+
+[file.embeds]
+original=Embed files
+translation=Dosya gömme
+
+[file.file-formats]
+original=Accepted file formats
+translation=Kabul edilen dosya biçimleri
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Finansal katkılar
+
+[file.folding]
+original=Folding
+translation=Katlama
+
+[file.formulas]
+original=Formulas
+translation=Formüller
+
+[file.glossary]
+original=Glossary
+translation=Sözlük
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Kısayol tuşları
+
+[file.html]
+original=HTML content
+translation=HTML içeriği
+
+[file.import]
+original=Import notes
+translation=Notları içe aktar
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Apple Journal'dan içe aktar
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Apple Notes'tan içe aktar
+
+[file.import/bear]
+original=Import from Bear
+translation=Bear'dan içe aktar
+
+[file.import/craft]
+original=Import from Craft
+translation=Craft'tan içe aktar
+
+[file.import/csv]
+original=Import CSV files
+translation=CSV dosyalarını içe aktar
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Evernote'tan içe aktar
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Google Keep'ten içe aktar
+
+[file.import/html]
+original=Import HTML files
+translation=HTML dosyalarını içe aktar
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Markdown dosyalarını içe aktar
+
+[file.import/notion]
+original=Import from Notion
+translation=Notion'dan içe aktar
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Microsoft OneNote'tan içe aktar
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Roam Research'ten içe aktar
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Textbundle dosyalarını içe aktar
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Zettelkasten notlarını içe aktar
+
+[file.install]
+original=Download and install Obsidian
+translation=Obsidian'ı indirin ve kurun
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=iOS ve iPadOS için Obsidian
+
+[file.language]
+original=Language settings
+translation=Dil ayarları
+
+[file.link-notes]
+original=Link notes
+translation=Notları bağla
+
+[file.links]
+original=Internal links
+translation=Dahili bağlantılar
+
+[file.manage-notes]
+original=Manage notes
+translation=Notları yönet
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Kasaları yönet
+
+[file.mobile]
+original=Mobile app
+translation=Mobil uygulama
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Çoklu imleçler
+
+[file.obsidian]
+original=About Obsidian
+translation=Obsidian hakkında
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Resmi web sitesi
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Lisanslar ve ödemeye giriş
+
+[file.plugin-security]
+original=Plugin security
+translation=Eklenti güvenliği
+
+[file.plugins]
+original=Core plugins
+translation=Yerleşik Eklentiler
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Ses kaydedicisi
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Geri Bağlantılar
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Yer İmleri
+
+[file.plugins/canvas]
+original=Canvas
+translation=Tuval
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Komut Paleti
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Günlük Notlar
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Dosya Gezgini
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Dosya Kurtarma
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Markdown formatı içe aktarıcı
+
+[file.plugins/graph]
+original=Graph view
+translation=Grafik Görünümü
+
+[file.plugins/importer]
+original=Importer
+translation=İçe aktarıcı
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Not Oluşturucu
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Giden bağlantılar
+
+[file.plugins/outline]
+original=Outline
+translation=Anahat
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Sayfa Önizlemesi
+
+[file.plugins/properties]
+original=Properties view
+translation=Özellikler görünümü
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Hızlı Geçiş
+
+[file.plugins/random-note]
+original=Random note
+translation=Rastgele Not
+
+[file.plugins/search]
+original=Search
+translation=Ara
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Eğik çizgi komutları
+
+[file.plugins/slides]
+original=Slides
+translation=Slaytlar
+
+[file.plugins/tags]
+original=Tags view
+translation=Etiket paneli
+
+[file.plugins/templates]
+original=Templates
+translation=Şablonlar
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Benzersiz not oluşturucu
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Web görüntüleyici
+
+[file.plugins/word-count]
+original=Word count
+translation=Kelime sayısı
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Çalışma Alanları
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Açılır pencereler
+
+[file.properties]
+original=Properties
+translation=Özellikler
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Obsidian Publish'e giriş
+
+[file.publish/analytics]
+original=Analytics
+translation=Analitik
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Bir Publish sitesinde iş birliği yapma
+
+[file.publish/customize]
+original=Customize your site
+translation=Sitenizi özelleştirin
+
+[file.publish/domains]
+original=Custom domains
+translation=Özel alan adları
+
+[file.publish/headless]
+original=Headless Publish
+translation=Başsız Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Publish sınırlamaları
+
+[file.publish/media]
+original=Media files
+translation=Medya dosyaları
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Kalıcı bağlantılar
+
+[file.publish/publish]
+original=Publish your content
+translation=İçeriğinizi yayınlayın
+
+[file.publish/security]
+original=Security and privacy
+translation=Güvenlik ve gizlilik
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Obsidian Publish'i kurma
+
+[file.publish/sites]
+original=Manage sites
+translation=Siteleri yönet
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Sosyal medya bağlantı önizlemeleri
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Obsidian Publish sorun giderme
+
+[file.refunds]
+original=Refund policy
+translation=İade politikası
+
+[file.resources]
+original=Help and support
+translation=Yardım ve destek
+
+[file.ribbon]
+original=Ribbon
+translation=Araç çubuğu
+
+[file.sales-tax]
+original=Sales tax
+translation=Satış vergisi
+
+[file.sandbox]
+original=Sandbox vault
+translation=Sandbox kasası
+
+[file.settings]
+original=Settings
+translation=Ayarlar
+
+[file.sidebar]
+original=Sidebar
+translation=Kenar çubuğu
+
+[file.snippets]
+original=CSS snippets
+translation=CSS kod parçaları
+
+[file.status-bar]
+original=Status bar
+translation=Durum çubuğu
+
+[file.style-guide]
+original=Style guide
+translation=Stil rehberi
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Sembolik bağlantılar ve kavşaklar
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Obsidian Sync'e giriş
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Notlarınızı cihazlar arasında senkronize edin
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Paylaşılan kasada iş birliği yapma
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular
+
+[file.sync/headless]
+original=Headless Sync
+translation=Başsız Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Durum simgesi ve mesajlar
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Sync şifrelemeyi yükseltme
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Planlar ve depolama limitleri
+
+[file.sync/region]
+original=Sync regions
+translation=Sync bölgeleri
+
+[file.sync/security]
+original=Security and privacy
+translation=Güvenlik ve gizlilik
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Sync ayarları ve seçici senkronizasyon
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Obsidian Sync kurulumu
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Obsidian Sync'e geçiş
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Obsidian Sync sorun giderme
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Yerel ve uzak kasalar
+
+[file.sync/version-history]
+original=Version history
+translation=Sürüm geçmişi
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Temel biçimlendirme söz dizimi
+
+[file.tabs]
+original=Tabs
+translation=Sekmeler
+
+[file.tags]
+original=Tags
+translation=Etiketler
+
+[file.teams]
+original=Obsidian for teams
+translation=Ekipler için Obsidian
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Obsidian'ı ekibinize dağıtma
+
+[file.teams/license]
+original=Commercial license
+translation=Ticari lisans
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Ekipler için Publish
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Ekipler için güvenlik değerlendirmeleri
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Ekipler için Sync
+
+[file.themes]
+original=Themes
+translation=Temalar
+
+[file.translations]
+original=Translations
+translation=Çeviriler
+
+[file.updates]
+original=Update Obsidian
+translation=Obsidian'ı Güncelle
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Bir kasa oluştur
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Obsidian Web Kırpıcı'ya giriş
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Web sayfalarını kırpma
+
+[file.web-clipper/filters]
+original=Filters
+translation=Filtreler
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Web sayfalarını vurgulama
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Web sayfalarını yorumlama
+
+[file.web-clipper/logic]
+original=Logic
+translation=Mantık
+
+[file.web-clipper/reader]
+original=Reader
+translation=Okuyucu
+
+[file.web-clipper/templates]
+original=Templates
+translation=Şablonlar
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Web Kırpıcı sorun giderme
+
+[file.web-clipper/variables]
+original=Variables
+translation=Değişkenler
+
+[file.workspace]
+original=Workspace
+translation=Çalışma alanı
+
+[folder.audio]
+original=audio
+translation=ses
+
+[folder.Changelog]
+original=Changelog
+translation=Değişiklik günlüğü
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Obsidian'a katkıda bulunma
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Düzenleme ve biçimlendirme
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Obsidian'ı genişletme
+
+[folder.Files and folders]
+original=Files and folders
+translation=Dosyalar ve klasörler
+
+[folder.Getting started]
+original=Getting started
+translation=Başlarken
+
+[folder.icons]
+original=icons
+translation=simgeler
+
+[folder.Import notes]
+original=Import notes
+translation=Notları içe aktar
+
+[folder.Layouts]
+original=Layouts
+translation=Düzenler
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Lisanslar ve ödeme
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Notları ve dosyaları bağlama
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Plugins
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Kullanıcı arayüzü
+
+[folder.video]
+original=video
+translation=video

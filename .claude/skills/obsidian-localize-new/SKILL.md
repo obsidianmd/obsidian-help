@@ -131,12 +131,14 @@ Create `<locale>/publish.strings.js` with translated UI strings for the Publish 
     if (el) el.setAttribute('aria-label', '<Global graph>');
     el = document.querySelector('.outline-view-outer span:last-child');
     if (el) el.textContent = '<On this page>';
-    el = document.querySelector('.backlinks span:last-child');
-    if (el) el.textContent = '<Backlinks>';
     return true;
   }
   function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
+  var blText = '<Backlinks>';
+  function applyBl() { document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { e.textContent = blText; }); }
+  new MutationObserver(applyBl).observe(document.body, { childList: true, subtree: true });
+  applyBl();
 })();
 ```
 

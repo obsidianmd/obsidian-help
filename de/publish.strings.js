@@ -15,11 +15,12 @@
     if (el) el.setAttribute('aria-label', 'Globaler Graph');
     el = document.querySelector('.outline-view-outer span:last-child');
     if (el) el.textContent = 'Auf dieser Seite';
-    document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { e.textContent = 'Rückverweise'; });
     return true;
   }
   function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
-  setTimeout(apply, 1000);
-  setTimeout(apply, 3000);
+  var blText = 'Rückverweise';
+  function applyBl() { document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { if (e.textContent !== blText) e.textContent = blText; }); }
+  new MutationObserver(applyBl).observe(document.body, { childList: true, subtree: true });
+  applyBl();
 })();

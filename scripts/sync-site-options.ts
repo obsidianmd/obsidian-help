@@ -178,6 +178,11 @@ const enDir = path.join(ROOT, "en");
 const enOptions = getSiteOptions(enDir);
 const permalinkMap = buildPermalinkMap(enDir);
 
+// Fallback: logo is stable and can be hardcoded if EN returns empty
+if (!enOptions.logo) {
+  enOptions.logo = "Attachments/obsidian-lockup-help.svg";
+}
+
 if (dryRun) console.log("[DRY RUN] No changes will be applied.\n");
 
 let ok = 0, failed = 0;

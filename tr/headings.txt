@@ -1,0 +1,4231 @@
+[heading.//Obsidian Help]
+original=Obsidian Help
+translation=Obsidian Yardım
+
+[heading.//Get started]
+original=Get started
+translation=Başlarken
+
+[heading.//Extend Obsidian]
+original=Extend Obsidian
+translation=Obsidian'ı genişletin
+
+[heading.//Add-on services]
+original=Add-on services
+translation=Ek hizmetler
+
+[heading.//Contribute]
+original=Contribute
+translation=Katkıda bulunun
+
+[heading.bases/create-base/Create a new base]
+original=Create a new base
+translation=Yeni bir taban oluşturma
+
+[heading.bases/create-base/Embed a base]
+original=Embed a base
+translation=Bir tabanı gömme
+
+[heading.bases/create-base/Embed a base file]
+original=Embed a base file
+translation=Bir taban dosyasını gömme
+
+[heading.bases/create-base/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Bir tabanı kod bloğu olarak gömme
+
+[heading.bases/views/map/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Maps eklentisini yükleme
+
+[heading.bases/views/map/Example]
+original=Example
+translation=Örnek
+
+[heading.bases/views/map/Settings]
+original=Settings
+translation=Ayarlar
+
+[heading.bases/views/map/Markers]
+original=Markers
+translation=İşaretçiler
+
+[heading.bases/views/map/Coordinates]
+original=Coordinates
+translation=Koordinatlar
+
+[heading.bases/views/map/Icons]
+original=Icons
+translation=Simgeler
+
+[heading.bases/views/map/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Simgeleri tanımlamak için formül kullanma
+
+[heading.bases/views/map/Colors]
+original=Colors
+translation=Renkler
+
+[heading.bases/views/map/Background]
+original=Background
+translation=Arka plan
+
+[heading.bases/views/map/Map tiles]
+original=Map tiles
+translation=Harita karoları
+
+[heading.bases/views/map/Useful links]
+original=Useful links
+translation=Faydalı bağlantılar
+
+[heading.bases/views/map/Tips]
+original=Tips
+translation=İpuçları
+
+[heading.bases/views/map/Troubleshooting]
+original=Troubleshooting
+translation=Sorun giderme
+
+[heading.bases/views/cards/Settings]
+original=Settings
+translation=Ayarlar
+
+[heading.bases/views/cards/Card size]
+original=Card size
+translation=Kart boyutu
+
+[heading.bases/views/cards/Image property]
+original=Image property
+translation=Görsel özelliği
+
+[heading.bases/views/cards/Image fit]
+original=Image fit
+translation=Görseli sığdırma
+
+[heading.bases/views/cards/Image aspect ratio]
+original=Image aspect ratio
+translation=Görsel en-boy oranı
+
+[heading.bases/views/list/Settings]
+original=Settings
+translation=Ayarlar
+
+[heading.bases/views/list/Markers]
+original=Markers
+translation=İşaretçiler
+
+[heading.bases/views/list/Indent properties]
+original=Indent properties
+translation=Özellikleri girintile
+
+[heading.bases/views/list/Separators]
+original=Separators
+translation=Ayırıcılar
+
+[heading.bases/views/table/Settings]
+original=Settings
+translation=Ayarlar
+
+[heading.bases/views/table/Row height]
+original=Row height
+translation=Satır yüksekliği
+
+[heading.bases/views/table/Summaries]
+original=Summaries
+translation=Özetler
+
+[heading.bases/views/table/Add a summary]
+original=Add a summary
+translation=Özet ekleme
+
+[heading.bases/views/table/Built-in summaries]
+original=Built-in summaries
+translation=Yerleşik özetler
+
+[heading.bases/views/table/All property types]
+original=All property types
+translation=Tüm özellik tipleri
+
+[heading.bases/views/table/Numbers]
+original=Numbers
+translation=Sayılar
+
+[heading.bases/views/table/Dates]
+original=Dates
+translation=Tarihler
+
+[heading.bases/views/table/Checkbox]
+original=Checkbox
+translation=Onay kutusu
+
+[heading.bases/views/table/Custom summaries]
+original=Custom summaries
+translation=Özel özetler
+
+[heading.bases/views/table/Shortcuts]
+original=Shortcuts
+translation=Kısayollar
+
+[heading.bases/functions/Fields]
+original=Fields
+translation=Alanlar
+
+[heading.bases/functions/Regular expression]
+original=Regular expression
+translation=Düzenli ifade
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=Formüller neler yapabilir
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=Formül özelliği oluşturma
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=Formül yazma
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=Özelliklere başvurma
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=Operatörleri kullanma
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=Fonksiyonları kullanma
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=Formül örnekleri
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=Son tarih hesaplama
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=Gecikmiş durumu görüntüleme
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=Para birimi biçimlendirme
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=Liste öğelerini sayma
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=Öncelik puanı hesaplama
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=Metin alanlarını birleştirme
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=Toplam maliyet hesaplama
+
+[heading.formulas/Data types]
+original=Data types
+translation=Veri türleri
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=Diğer formüllere başvurma
+
+[heading.bases/views/Toolbar]
+original=Toolbar
+translation=Araç çubuğu
+
+[heading.bases/views/Add and switch views]
+original=Add and switch views
+translation=Görünüm ekleme ve değiştirme
+
+[heading.bases/views/View settings]
+original=View settings
+translation=Görünüm ayarları
+
+[heading.bases/views/Layout]
+original=Layout
+translation=Düzen
+
+[heading.bases/views/Filters]
+original=Filters
+translation=Filtreler
+
+[heading.bases/views/Components of a filter]
+original=Components of a filter
+translation=Bir filtrenin bileşenleri
+
+[heading.bases/views/Conjunctions]
+original=Conjunctions
+translation=Bağlaçlar
+
+[heading.bases/views/Filter groups]
+original=Filter groups
+translation=Filtre grupları
+
+[heading.bases/views/Advanced filter editor]
+original=Advanced filter editor
+translation=Gelişmiş filtre düzenleyicisi
+
+[heading.bases/views/Sort and group results]
+original=Sort and group results
+translation=Sonuçları sıralama ve gruplama
+
+[heading.bases/views/Add a sort]
+original=Add a sort
+translation=Sıralama ekleme
+
+[heading.bases/views/Remove a sort]
+original=Remove a sort
+translation=Sıralamayı kaldırma
+
+[heading.bases/views/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Sonuçları sınırlama, kopyalama ve dışa aktarma
+
+[heading.bases/views/Limit results]
+original=Limit results
+translation=Sonuçları sınırlama
+
+[heading.bases/views/Copy to clipboard]
+original=Copy to clipboard
+translation=Panoya kopyala
+
+[heading.bases/views/Export CSV]
+original=Export CSV
+translation=CSV olarak dışa aktar
+
+[heading.bases/views/Embed a view]
+original=Embed a view
+translation=Bir görünümü gömme
+
+[heading.bases/syntax/Example]
+original=Example
+translation=Örnek
+
+[heading.bases/syntax/Filters]
+original=Filters
+translation=Filtreler
+
+[heading.bases/syntax/Formulas]
+original=Formulas
+translation=Formüller
+
+[heading.bases/syntax/Properties]
+original=Properties
+translation=Özellikler
+
+[heading.bases/syntax/Summaries]
+original=Summaries
+translation=Özetler
+
+[heading.bases/syntax/Default Summary Formulas]
+original=Default Summary Formulas
+translation=Varsayılan Özet Formülleri
+
+[heading.bases/syntax/Views]
+original=Views
+translation=Görünümler
+
+[heading.bases/syntax/Note properties]
+original=Note properties
+translation=Not özellikleri
+
+[heading.bases/syntax/File properties]
+original=File properties
+translation=Dosya özellikleri
+
+[heading.bases/syntax/Access properties with `this`]
+original=Access properties with `this`
+translation=`this` ile özelliklere erişim
+
+[heading.bases/syntax/Operators]
+original=Operators
+translation=Operatörler
+
+[heading.bases/syntax/Arithmetic operators]
+original=Arithmetic operators
+translation=Aritmetik operatörler
+
+[heading.bases/syntax/Date arithmetic]
+original=Date arithmetic
+translation=Tarih aritmetiği
+
+[heading.bases/syntax/Comparison operators]
+original=Comparison operators
+translation=Karşılaştırma operatörleri
+
+[heading.bases/syntax/Boolean operators]
+original=Boolean operators
+translation=Mantıksal operatörler
+
+[heading.bases/syntax/Functions]
+original=Functions
+translation=Fonksiyonlar
+
+[heading.bases/syntax/Types]
+original=Types
+translation=Türler
+
+[heading.bases/syntax/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=Dizeler, sayılar ve boolean'lar
+
+[heading.bases/syntax/Dates and durations]
+original=Dates and durations
+translation=Tarihler ve süreler
+
+[heading.bases/syntax/Objects and lists]
+original=Objects and lists
+translation=Nesneler ve listeler
+
+[heading.bases/syntax/Files and links]
+original=Files and links
+translation=Dosyalar ve bağlantılar
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Tabanlar nasıl kullanılır
+
+[heading.bases/View types]
+original=View types
+translation=Görünüm türleri
+
+[heading.vault/Create empty vault]
+original=Create empty vault
+translation=Boş kasa oluşturma
+
+[heading.vault/Open existing folder]
+original=Open existing folder
+translation=Mevcut klasörü açma
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=Widget'lar, kısayollar ve Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=Mobil araç çubuğu
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=Mobil araç çubuğunu özelleştirme
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=Mobil araç çubuğuna komut ekleme
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=Hızlı Eylem
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=Hızlı Eylemi özelleştirme
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=Navigasyon çubuğu
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=Geri veya ileri gitme
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=Not oluşturma veya bulma
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=Sekme yönetimi
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=Araç çubuğu eylemleri
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=Kenar çubukları
+
+[heading.link-notes/Create a link]
+original=Create a link
+translation=Bağlantı oluşturma
+
+[heading.link-notes/Create a link to a non-existing note]
+original=Create a link to a non-existing note
+translation=Var olmayan bir nota bağlantı oluşturma
+
+[heading.link-notes/Navigate between notes]
+original=Navigate between notes
+translation=Notlar arasında gezinme
+
+[heading.link-notes/Learn more]
+original=Learn more
+translation=Daha fazlasını öğrenin
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=Diğer uygulamalardan ve dosya biçimlerinden içe aktarma
+
+[heading.import/More formats]
+original=More formats
+translation=Daha fazla biçim
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=Senkronizasyon yöntemleri
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=iPhone ve iPad senkronizasyonu
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular
+
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=Senkronizasyon bir yedekleme değildir
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=Topluluk eklentilerini kullanın
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=Bulut tabanlı hizmetleri kullanın
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=Harici sürücüleri kullanın
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=Bilgisayar yedeklemelerini kullanın
+
+[heading.backup/Next steps]
+original=Next steps
+translation=Sonraki adımlar
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=Güncellemeleri kontrol etme ve sürümü görüntüleme
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=Otomatik güncellemeleri devre dışı bırakma
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=Yükleyici güncellemeleri
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=Obsidian'ı Windows'a kurma
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=Obsidian'ı macOS'a kurma
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=Obsidian'ı Linux'a kurma
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=Obsidian'ı Snap ile kurma
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=Obsidian'ı AppImage ile kurma
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=Obsidian'ı Flatpak ile kurma
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=Obsidian'ı Android'e kurma
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=Obsidian'ı iPhone ve iPad'e kurma
+
+[heading.sandbox/Opening the sandbox vault]
+original=Opening the sandbox vault
+translation=Sandbox kasasını açma
+
+[heading.sandbox/Close the sandbox vault]
+original=Close the sandbox vault
+translation=Sandbox kasasını kapatma
+
+[heading.glossary/Alias]
+original=Alias
+translation=Takma ad
+
+[heading.glossary/Attachment]
+original=Attachment
+translation=Ek
+
+[heading.glossary/Command]
+original=Command
+translation=Komut
+
+[heading.glossary/Embed]
+original=Embed
+translation=Gömme
+
+[heading.glossary/Frontmatter]
+original=Frontmatter
+translation=Başlangıç meta verileri
+
+[heading.glossary/Graph]
+original=Graph
+translation=Graf
+
+[heading.glossary/Hotkey]
+original=Hotkey
+translation=Klavye kısayolu
+
+[heading.glossary/Link]
+original=Link
+translation=Bağlantı
+
+[heading.glossary/Main area]
+original=Main area
+translation=Ana alan
+
+[heading.glossary/Note]
+original=Note
+translation=Not
+
+[heading.glossary/Plugin]
+original=Plugin
+translation=Eklenti
+
+[heading.glossary/Pop-out window]
+original=Pop-out window
+translation=Açılır pencere
+
+[heading.glossary/Property]
+original=Property
+translation=Özellik
+
+[heading.glossary/Ribbon]
+original=Ribbon
+translation=Araç çubuğu
+
+[heading.glossary/Sidebar]
+original=Sidebar
+translation=Kenar çubuğu
+
+[heading.glossary/Snippet]
+original=Snippet
+translation=Parçacık
+
+[heading.glossary/Status bar]
+original=Status bar
+translation=Durum çubuğu
+
+[heading.glossary/Tab]
+original=Tab
+translation=Sekme
+
+[heading.glossary/Tab group]
+original=Tab group
+translation=Sekme grubu
+
+[heading.glossary/Tag]
+original=Tag
+translation=Etiket
+
+[heading.glossary/Theme]
+original=Theme
+translation=Tema
+
+[heading.glossary/Vault]
+original=Vault
+translation=Kasa
+
+[heading.glossary/Remote vault]
+original=Remote vault
+translation=Uzak kasa
+
+[heading.glossary/View]
+original=View
+translation=Görünüm
+
+[heading.create-note/Create a new note]
+original=Create a new note
+translation=Yeni bir not oluşturma
+
+[heading.create-note/Formatting text]
+original=Formatting text
+translation=Metin biçimlendirme
+
+[heading.create-note/Learn more]
+original=Learn more
+translation=Daha fazlasını öğrenin
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=Dosya gömme
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=Yeni kasa oluştur
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=Mevcut bir klasörden kasa oluştur
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=Kasayı yeniden adlandır
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=Kasayı farklı bir klasöre taşı
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=Kasayı kaldır
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=Ayarları başka bir kasaya aktarma
+
+[heading.manage-notes/Create a new note]
+original=Create a new note
+translation=Yeni bir not oluşturma
+
+[heading.manage-notes/Rename a note]
+original=Rename a note
+translation=Bir notu yeniden adlandırma
+
+[heading.manage-notes/Delete a note]
+original=Delete a note
+translation=Bir notu silme
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=Kasa ayarları
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=Genel ayarlar
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=Meta veri önbelleği
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=Yapılandırma klasörünüze erişim
+
+[heading.configuration-folder/Desktop]
+original=Desktop
+translation=Masaüstü
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=Yapılandırma klasörünüzü değiştirme
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=Başlığı değiştirme
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=Katlanabilir belirtme çizgileri
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=İç içe belirtme çizgileri
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=Belirtme çizgilerini özelleştirme
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=Desteklenen türler
+
+[heading.editing-shortcuts/Windows and Linux shortcuts]
+original=Windows and Linux shortcuts
+translation=Windows ve Linux kısayolları
+
+[heading.editing-shortcuts/Common actions]
+original=Common actions
+translation=Genel eylemler
+
+[heading.editing-shortcuts/Text editing]
+original=Text editing
+translation=Metin düzenleme
+
+[heading.editing-shortcuts/Text navigation]
+original=Text navigation
+translation=Metin gezinme
+
+[heading.editing-shortcuts/Text selection]
+original=Text selection
+translation=Metin seçme
+
+[heading.editing-shortcuts/macOS shortcuts]
+original=macOS shortcuts
+translation=macOS kısayolları
+
+[heading.editing-shortcuts/Text formatting]
+original=Text formatting
+translation=Metin biçimlendirme
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=Ek ekleme
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=Varsayılan ek konumunu değiştirme
+
+[heading.tags/Add a tag to a note]
+original=Add a tag to a note
+translation=Bir nota etiket ekleme
+
+[heading.tags/Find notes using tags]
+original=Find notes using tags
+translation=Etiketleri kullanarak not bulma
+
+[heading.tags/Nested tags]
+original=Nested tags
+translation=İç içe etiketler
+
+[heading.tags/Tag format]
+original=Tag format
+translation=Etiket biçimi
+
+[heading.advanced-syntax/Tables]
+original=Tables
+translation=Tablolar
+
+[heading.advanced-syntax/Format content within a table]
+original=Format content within a table
+translation=Tablo içindeki içeriği biçimlendirme
+
+[heading.advanced-syntax/Diagram]
+original=Diagram
+translation=Diyagram
+
+[heading.advanced-syntax/Linking files in a diagram]
+original=Linking files in a diagram
+translation=Diyagramda dosyaları bağlama
+
+[heading.advanced-syntax/Math]
+original=Math
+translation=Matematik
+
+[heading.edit-and-read/Reading view]
+original=Reading view
+translation=Okuma görünümü
+
+[heading.edit-and-read/Editing view]
+original=Editing view
+translation=Düzenleme görünümü
+
+[heading.edit-and-read/Live Preview]
+original=Live Preview
+translation=Canlı Önizleme
+
+[heading.edit-and-read/Source mode]
+original=Source mode
+translation=Kaynak modu
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=HTML sınırlamaları
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=HTML içinde Markdown kullanılamaz
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=HTML blokları bağımsız olmalıdır
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=Markdown'ın HTML içinde çalışıyor gibi göründüğü durumlar
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=Yaygın HTML kullanımı
+
+[heading.html/Comments]
+original=Comments
+translation=Yorumlar
+
+[heading.html/Underline]
+original=Underline
+translation=Altı çizili
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=Üstü çizili
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=Desteklenen Markdown uzantıları
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=Paragraflar
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=Satır sonları
+
+[heading.syntax/Headings]
+original=Headings
+translation=Başlıklar
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=Kalın, italik, vurgulama
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=Dahili bağlantılar
+
+[heading.syntax/External links]
+original=External links
+translation=Harici bağlantılar
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=Bağlantılarda boşlukları kaçırma
+
+[heading.syntax/External images]
+original=External images
+translation=Harici görseller
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=Alıntılar
+
+[heading.syntax/Lists]
+original=Lists
+translation=Listeler
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=Görev listeleri
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=İç içe listeler
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=Yatay çizgi
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=Kod
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=Satır içi kod
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=Kod blokları
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=İç içe kod blokları
+
+[heading.syntax/Comments]
+original=Comments
+translation=Dipnotlar
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=Yorumlar
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=Markdown Söz Dizimini Kaçırma
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=Bir YouTube videosu gömme
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=Bir tweet gömme
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=Dikdörtgen seçim
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=Bir nota özellik ekleme
+
+[heading.properties/Property types]
+original=Property types
+translation=Özellik tipleri
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=Gelişmiş kullanımlar
+
+[heading.properties/Search properties]
+original=Search properties
+translation=Özelliklerde arama
+
+[heading.properties/Templates]
+original=Templates
+translation=Şablonlar
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=Özellikleri yeniden adlandırma
+
+[heading.properties/Display modes]
+original=Display modes
+translation=Görüntüleme modları
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=CSS kod parçaları
+
+[heading.properties/Not supported]
+original=Not supported
+translation=Desteklenmeyen özellikler
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=Klavye kısayolları
+
+[heading.properties/Add a property]
+original=Add a property
+translation=Özellik ekleme
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=Özellikler arasında gezinme
+
+[heading.properties/Select properties]
+original=Select properties
+translation=Özellikleri seçme
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=Özellikleri düzenleme
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim (gelişmiş)
+
+[heading.properties/Property format]
+original=Property format
+translation=Özellik biçimi
+
+[heading.properties/Text]
+original=Text
+translation=Metin
+
+[heading.properties/List]
+original=List
+translation=Liste
+
+[heading.properties/Number]
+original=Number
+translation=Sayı
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=Onay kutusu
+
+[heading.properties/Date]
+original=Date
+translation=Tarih
+
+[heading.properties/Date & time]
+original=Date & time
+translation=Tarih ve zaman
+
+[heading.properties/Tags]
+original=Tags
+translation=Etiketler
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=JSON özellikleri
+
+[heading.properties/Default properties]
+original=Default properties
+translation=Varsayılan özellikler
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=Obsidian Publish için özellikler
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=Kullanımdan kaldırılan özellikler
+
+[heading.ribbon/Actions]
+original=Actions
+translation=Eylemler
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=Araç çubuğunu özelleştirme
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=Masaüstü
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=Araç çubuğunu gizleme
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=Araç çubuğunu gösterme
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=Hızlı erişim
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=Yeniden sıralama ve görünürlük
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=Ayarları açma
+
+[heading.settings/Desktop]
+original=Desktop
+translation=Masaüstü
+
+[heading.settings/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=Ayarlar düzeni
+
+[heading.settings/General]
+original=General
+translation=Genel
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=Sürüm ve güncellemeler
+
+[heading.settings/Language]
+original=Language
+translation=Dil
+
+[heading.settings/Help]
+original=Help
+translation=Yardım
+
+[heading.settings/Account]
+original=Account
+translation=Hesap
+
+[heading.settings/Advanced]
+original=Advanced
+translation=Gelişmiş
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=Başlangıç beklenenden uzun sürerse bildir
+
+[heading.settings/Editor]
+original=Editor
+translation=Düzenleyici
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=Her zaman yeni sekmelere odaklanın
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=Yeni sekmeler için varsayılan görünüm
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=Varsayılan düzenleme modu
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=Düzenleyici durumu
+
+[heading.settings/Display]
+original=Display
+translation=Göster
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=Okunabilir satır uzunluğu
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=Katı kurallı yeni satırlar
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=Dosyadaki özellikler
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=Başlıkları katla
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=İçerlemeleri katla
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=Satır numaraları
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=Girinti kılavuzları
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=Sağdan sola (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=Parantezleri otomatik eşle
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=Markdown işaretlerini otomatik eşle
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=Listeleri akıllıca içerle
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=Boşluklar için tab kullan
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=HTML'e otomatik olarak çevir
+
+[heading.settings/Behavior]
+original=Behavior
+translation=Davranış
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=İmla denetimi
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=İmla denetimi yapılan diller
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=Tab boyutu
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Vim tuş ayarları
+
+[heading.settings/Files and links]
+original=Files and links
+translation=Dosyalar ve bağlantılar
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=Yeni notlar için varsayılan yer
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=Yeni eklentiler için varsayılan klasör
+
+[heading.settings/Links]
+original=Links
+translation=Bağlantılar
+
+[heading.settings/New link format]
+original=New link format
+translation=Yeni bağlantı formatı
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=Bağlantıları hep güncelle
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=Wiki bağlantılarını kullan
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=Tüm dosya tiplerini göster
+
+[heading.settings/Trash]
+original=Trash
+translation=Çöp Kutusu
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=Dosya silme onayı
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=Silinen dosyalar
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=Hariç tutulan dosyalar
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=Konfigürasyon dosyasını değiştir
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=URI geri çağrılarına izin ver
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=Kasa önbelleğini yeniden oluştur
+
+[heading.settings/Appearance]
+original=Appearance
+translation=Görünüm
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=Temel tema
+
+[heading.settings/Accent color]
+original=Accent color
+translation=Vurgu rengi
+
+[heading.settings/Themes]
+original=Themes
+translation=Temalar
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=Güncel topluluk temaları
+
+[heading.settings/Font]
+original=Font
+translation=Yazı Tipi
+
+[heading.settings/Interface font]
+original=Interface font
+translation=Arayüz yazı tipi
+
+[heading.settings/Text font]
+original=Text font
+translation=Metin yazı tipi
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=Tek aralıklı yazı tipi
+
+[heading.settings/Font size]
+original=Font size
+translation=Yazı tipi boyutu
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=Hızlı font boyutu ayarlama
+
+[heading.settings/Interface]
+original=Interface
+translation=Arayüz
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=Satır içi başlık
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=Sekme başlık çubuğunu göster
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=Şeridi göster
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=Şerit menüsü
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=Yakınlaştırma seviyesi
+
+[heading.settings/Native menus]
+original=Native menus
+translation=Yerel menüler
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=Pencere çerçeve stili
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=Özel uygulama simgesi
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=yarı saydam pencere
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=Donanım İvmelendirici
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=CSS kod parçaları
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=Kısayol tuşları
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=Yerleşik Eklentiler
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=Topluluk Eklentileri
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=Kısıtlı mod
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=Yüklü eklentiler
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=Yüklü eklentiler
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=Bir dosyayı yeni pencerede açma
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=Bir dosyayı farklı bir pencereye taşıma
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=Renk şeması
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=Özel temalar
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=Özel uygulama simgesi
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=Saydamlık
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=Gizli kenar çubuklarını açma
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=Masaüstü ve daha büyük tabletler
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=Mobil ve daha küçük tabletler
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=Sekmeler
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=Sekmeleri açma veya yeniden açma
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=Sekmeleri kapatma
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=Sekmeleri yeniden düzenleme
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=Sekmeleri sabitleme
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=Sekme grupları
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=Sekme grupları oluşturma
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=Sekme gruplarını kapatma
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=Klavye kısayollarını görüntüleme
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=Klavye kısayolu ayarlama
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=Klavye kısayolunu kaldırma
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=Klavye kısayollarını filtreleme
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=ABD dışı klavye düzenleri
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=Varsayılan klavye kısayolları
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=Yeni bir sekme açma
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=Bir bağlantı açma
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=Sekmelerinizi ve pencerelerinizi düzenleme
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=Sekmeleri sıralama
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=Bir sekme grubunu bölme
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=Bir sekme grubunu yeniden boyutlandırma
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=Sekmeyi yeni bir pencereye taşıma
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=Bir sekmeyi farklı bir pencereye taşıma
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=Bir sekmeyi sabitleme
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=Farklı bir sekmeye geçme
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=Sekme gruplarını yığınlama
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=Bağlantılı görünümler
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=Düzenleri kaydetme
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=Sekmeleri sürükleme
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=Sürükleme kaynakları
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=Bırakma hedefleri
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=Obsidian dışından sürükleme
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=Dosyaları Obsidian dışına bırakma
+
+[heading.workspace/Desktop]
+original=Desktop
+translation=Masaüstü
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.discounts/How to apply]
+original=How to apply
+translation=Nasıl başvurulur
+
+[heading.discounts/How to renew]
+original=How to renew
+translation=Nasıl yenilenir
+
+[heading.discounts/Frequently asked questions]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular
+
+[heading.discounts/Refunds]
+original=Refunds
+translation=İadeler
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=Catalyst kademeleri
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=Catalyst avantajlarına erişin
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=Forum rozetinizi alın
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=Discord rozetinizi alın
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=Insider kanallarımıza katılın
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=Erken erişim sürümlerini etkinleştirin
+
+[heading.payment/Purchase a service or license]
+original=Purchase a service or license
+translation=Bir hizmet veya lisans satın alma
+
+[heading.payment/Generate an invoice]
+original=Generate an invoice
+translation=Fatura oluşturma
+
+[heading.payment/Editing an invoice]
+original=Editing an invoice
+translation=Fatura düzenleme
+
+[heading.credit/Add credit]
+original=Add credit
+translation=Kredi ekleme
+
+[heading.credit/Gifting]
+original=Gifting
+translation=Hediye etme
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=Obsidian Kredisi hediye etme
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=Obsidian Kredisi alma
+
+[heading.sales-tax/Tax exemption]
+original=Tax exemption
+translation=Vergi muafiyeti
+
+[heading.sales-tax/Applying for an exemption]
+original=Applying for an exemption
+translation=Muafiyet başvurusu yapma
+
+[heading.refunds/Request a refund]
+original=Request a refund
+translation=İade talep etme
+
+[heading.refunds/Frequently asked questions]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular
+
+[heading.import/apple-journal/Export your data from Apple Journal]
+original=Export your data from Apple Journal
+translation=Verilerinizi Apple Journal'dan dışa aktarın
+
+[heading.import/apple-journal/On iPhone]
+original=On iPhone
+translation=iPhone'da
+
+[heading.import/apple-journal/On Mac (Tahoe)]
+original=On Mac (Tahoe)
+translation=Mac'te (Tahoe)
+
+[heading.import/apple-journal/Import Apple Journal data into Obsidian]
+original=Import Apple Journal data into Obsidian
+translation=Apple Journal verilerini Obsidian'a içe aktarın
+
+[heading.import/apple-journal/Supported content]
+original=Supported content
+translation=Desteklenen içerik
+
+[heading.import/apple-notes/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=Apple Notes verilerini Obsidian'a içe aktarma
+
+[heading.import/apple-notes/Supported content]
+original=Supported content
+translation=Desteklenen içerik
+
+[heading.import/apple-notes/Scans]
+original=Scans
+translation=Taramalar
+
+[heading.import/apple-notes/Alternate export methods]
+original=Alternate export methods
+translation=Alternatif dışa aktarma yöntemleri
+
+[heading.import/bear/Export your data from Bear]
+original=Export your data from Bear
+translation=Verilerinizi Bear'dan dışa aktarın
+
+[heading.import/bear/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=Bear verilerinizi Obsidian'a içe aktarın
+
+[heading.import/csv/Create notes from CSV data in Obsidian]
+original=Create notes from CSV data in Obsidian
+translation=Obsidian'da CSV verilerinden notlar oluşturma
+
+[heading.import/csv/Configure how CSV fields are imported]
+original=Configure how CSV fields are imported
+translation=CSV alanlarının nasıl içe aktarılacağını yapılandırma
+
+[heading.import/craft/Export your data from Craft]
+original=Export your data from Craft
+translation=Verilerinizi Craft'tan dışa aktarın
+
+[heading.import/craft/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=Craft verilerinizi Obsidian'a içe aktarın
+
+[heading.import/craft/Troubleshooting]
+original=Troubleshooting
+translation=Sorun giderme
+
+[heading.import/evernote/Export your data from Evernote]
+original=Export your data from Evernote
+translation=Verilerinizi Evernote'tan dışa aktarın
+
+[heading.import/evernote/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=Evernote verilerinizi Obsidian'a içe aktarın
+
+[heading.import/evernote/Advanced import options]
+original=Advanced import options
+translation=Gelişmiş içe aktarma seçenekleri
+
+[heading.import/evernote/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=Etiket hiyerarşisini koruma
+
+[heading.import/evernote/Handling notebook stacks]
+original=Handling notebook stacks
+translation=Not defteri yığınlarını yönetme
+
+[heading.import/google-keep/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=Verilerinizi Google Keep'ten dışa aktarın
+
+[heading.import/google-keep/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=Google Keep verilerinizi Obsidian'a içe aktarın
+
+[heading.import/google-keep/Supported features]
+original=Supported features
+translation=Desteklenen özellikler
+
+[heading.import/html/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=HTML verilerini Obsidian'a içe aktarma
+
+[heading.import/html/Import settings]
+original=Import settings
+translation=Ayarları içe aktar
+
+[heading.import/markdown/Converting from other flavors of Markdown]
+original=Converting from other flavors of Markdown
+translation=Diğer Markdown çeşitlerinden dönüştürme
+
+[heading.import/onenote/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=OneNote verilerinizi Obsidian'a içe aktarma
+
+[heading.import/onenote/Troubleshooting]
+original=Troubleshooting
+translation=Sorun giderme
+
+[heading.import/onenote/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=Bölüm veya not defteri görünmüyor
+
+[heading.import/onenote/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=İçe aktarılan notlar boş veya eksik içerikli
+
+[heading.import/onenote/Privacy]
+original=Privacy
+translation=Gizlilik
+
+[heading.import/notion/API import]
+original=API import
+translation=API ile içe aktarma
+
+[heading.import/notion/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=Notion API entegrasyon belirteci oluşturma
+
+[heading.import/notion/Import your Notion data via API]
+original=Import your Notion data via API
+translation=Notion verilerinizi API üzerinden içe aktarma
+
+[heading.import/notion/Limitations]
+original=Limitations
+translation=Sınırlamalar
+
+[heading.import/notion/File import]
+original=File import
+translation=Dosya ile içe aktarma
+
+[heading.import/notion/Export your data from Notion]
+original=Export your data from Notion
+translation=Verilerinizi Notion'dan dışa aktarma
+
+[heading.import/notion/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=Notion .zip dosyanızı içe aktarma
+
+[heading.import/notion/Troubleshooting]
+original=Troubleshooting
+translation=Sorun giderme
+
+[heading.import/notion/Importing large workspaces]
+original=Importing large workspaces
+translation=Büyük çalışma alanlarını içe aktarma
+
+[heading.import/roam/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=Verilerinizi Roam Research'ten dışa aktarın
+
+[heading.import/roam/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=Roam Research verilerinizi Obsidian'a içe aktarın
+
+[heading.import/textbundle/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=Textbundle dosyalarını Obsidian'a içe aktarma
+
+[heading.import/textbundle/Troubleshooting]
+original=Troubleshooting
+translation=Sorun Giderme
+
+[heading.import/textbundle/No files are selected for import]
+original=No files are selected for import
+translation=İçe aktarma için dosya seçilmedi
+
+[heading.plugins/importer/Install Importer]
+original=Install Importer
+translation=İçe aktarıcıyı yükleme
+
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=Dahili bağlantılar için desteklenen biçimler
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=Bir dosyaya bağlantı verme
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=Bir nottaki başlığa bağlantı verme
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=Bir nottaki bloğa bağlantı verme
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=Bağlantı görüntüleme metnini değiştirme
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=Bağlantılı bir dosyayı önizleme
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=Bir notu başka bir nota gömme
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=Bir nota görsel gömme
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=Bir nota ses dosyası gömme
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=Bir nota PDF gömme
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=Bir nota liste gömme
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=Arama sonuçlarını gömme
+
+[heading.aliases/Add an alias to a note]
+original=Add an alias to a note
+translation=Bir nota takma ad ekleme
+
+[heading.aliases/Link to a note using an alias]
+original=Link to a note using an alias
+translation=Takma ad kullanarak bir nota bağlantı verme
+
+[heading.aliases/Find unlinked mentions for an alias]
+original=Find unlinked mentions for an alias
+translation=Bir takma ad için bağlantısız bahsetmeleri bulma
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=2FA'yı Etkinleştir
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=Kurtarma kodları oluşturma
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=2FA'yı Devre Dışı Bırakma
+
+[heading.2fa/FAQ]
+original=FAQ
+translation=SSS
+
+[heading.android/Sync]
+original=Sync
+translation=Senkronizasyon
+
+[heading.android/Vault location]
+original=Vault location
+translation=Kasa konumu
+
+[heading.android/Device storage]
+original=Device storage
+translation=Cihaz depolaması
+
+[heading.android/App storage]
+original=App storage
+translation=Uygulama depolaması
+
+[heading.android/Widgets]
+original=Widgets
+translation=Widget'lar
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=Hızlı Ayarlar kutucukları
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=Kısayollar
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=Masaüstünde erken erişim sürümlerini etkinleştirme
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=Mobil cihazlarda erken erişim sürümlerini yükleme
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=Sorunları ve diğer geri bildirimleri bildirme
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=Masaüstünde genel sürümlere geri dönme
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=Mobilde genel sürümlere geri dönme
+
+[heading.credits/Team]
+original=Team
+translation=Ekip
+
+[heading.credits/Development]
+original=Development
+translation=Geliştirme
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=Ürün & Operasyonlar
+
+[heading.credits/Moderators]
+original=Moderators
+translation=Moderatörler
+
+[heading.credits/Retired]
+original=Retired
+translation=Emekliye Ayrılanlar
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=Eklenti İlham Kaynakları
+
+[heading.credits/Builds]
+original=Builds
+translation=Derlemeler
+
+[heading.credits/Translators]
+original=Translators
+translation=Çevirmenler
+
+[heading.credits/Documentation]
+original=Documentation
+translation=Belgelendirme
+
+[heading.credits/Add your name]
+original=Add your name
+translation=İsminizi ekleyin
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=Üçüncü taraf teşekkürler
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=Önceki Logo
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=Obsidian nedir
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=Nasıl farklıyız
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=Verilerinize siz sahipsiniz ve kontrol sizde
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=Bağlantılar birinci sınıf vatandaşlardır
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=Kendi araç setiniz
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=Geliştirme sürecimizi takip edin
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=Kurallar
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=Ciddi ihlaller
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=Taciz
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=Tehditler
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=Açık ayrımcılık
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=Diğer ihlaller
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=Saldırganlık
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=Aşırı nahoş olmak
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=Topluluk üyelerine istenmeyen mesajlar
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=Diğer davranışlar
+
+[heading.community-code-of-conduct/Sea-lioning]
+original=Sea-lioning
+translation=Deniz aslanı davranışı
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation="Beni besle"
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=Kampanya yürütme
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=Aşırı öz tanıtım
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=Spam
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=Teşvik edilen davranışlar
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=Motivasyon
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=İhlalleri bildirin
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=Discord'da bildirin
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=Forumda bildirin
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=Uygulama
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=Yasağa itiraz etme
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=Katkıda bulunanlar
+
+[heading.ios/Sync]
+original=Sync
+translation=Senkronizasyon
+
+[heading.ios/Widgets]
+original=Widgets
+translation=Widget'lar
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=Kilit Ekranı ve Kontrol Merkezi widget'ları
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=Ana Ekran widget'ları
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=Widget'ları özelleştirme
+
+[heading.ios/Shortcuts]
+original=Shortcuts
+translation=Kısayollar
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=Paylaş Sayfası Uzantısı
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=Siri entegrasyonu
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=Spotlight entegrasyonu
+
+[heading.publish/analytics/Prerequisites]
+original=Prerequisites
+translation=Ön koşullar
+
+[heading.publish/analytics/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible, Fathom ve diğer analitik hizmetleri
+
+[heading.publish/analytics/Troubleshooting]
+original=Troubleshooting
+translation=Sorun giderme
+
+[heading.publish/headless/Quick start]
+original=Quick start
+translation=Hızlı başlangıç
+
+[heading.publish/headless/Commands]
+original=Commands
+translation=Komutlar
+
+[heading.publish/collaborate/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=Siteye iş birlikçi ekleme
+
+[heading.publish/collaborate/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=Siteden iş birlikçi kaldırma
+
+[heading.publish/collaborate/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=İş birlikçiler arasında değişiklikleri senkronize etme
+
+[heading.publish/collaborate/Permissions]
+original=Permissions
+translation=İzinler
+
+[heading.publish/security/Password protection]
+original=Password protection
+translation=Parola koruması
+
+[heading.publish/security/Add a site password]
+original=Add a site password
+translation=Site parolası ekleme
+
+[heading.publish/security/Remove a site password]
+original=Remove a site password
+translation=Site parolasını kaldırma
+
+[heading.publish/security/Data collection]
+original=Data collection
+translation=Veri toplama
+
+[heading.publish/security/Visitor data]
+original=Visitor data
+translation=Ziyaretçi verileri
+
+[heading.publish/security/Access]
+original=Access
+translation=Erişim
+
+[heading.publish/security/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=Ağınızda Obsidian Publish'e erişimi yönetme
+
+[heading.publish/permalinks/Redirect old notes]
+original=Redirect old notes
+translation=Eski notları yönlendirme
+
+[heading.publish/media/Images]
+original=Images
+translation=Görseller
+
+[heading.publish/media/PDFs]
+original=PDFs
+translation=PDF'ler
+
+[heading.publish/media/Videos and audio]
+original=Videos and audio
+translation=Videolar ve ses dosyaları
+
+[heading.publish/troubleshoot/General]
+original=General
+translation=Genel
+
+[heading.publish/troubleshoot/Publishing notes]
+original=Publishing notes
+translation=Notları yayınlama
+
+[heading.publish/troubleshoot/CSS and themes]
+original=CSS and themes
+translation=CSS ve temalar
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=Obsidian Publish nasıl kullanılır
+
+[heading.publish/setup/Prerequisites]
+original=Prerequisites
+translation=Ön koşullar
+
+[heading.publish/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Obsidian hesabınızla giriş yapın
+
+[heading.publish/setup/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=Obsidian Publish'i etkinleştirin
+
+[heading.publish/setup/Open Publish]
+original=Open Publish
+translation=Publish'i açın
+
+[heading.publish/setup/Open via Command palette]
+original=Open via Command palette
+translation=Komut paleti ile açma
+
+[heading.publish/setup/Open via hotkey]
+original=Open via hotkey
+translation=Klavye kısayolu ile açma
+
+[heading.publish/setup/Open via ribbon]
+original=Open via ribbon
+translation=Araç çubuğu ile açma
+
+[heading.publish/setup/Create a new site]
+original=Create a new site
+translation=Yeni bir site oluşturun
+
+[heading.publish/setup/Set a site name]
+original=Set a site name
+translation=Bir site adı belirleyin
+
+[heading.publish/setup/Select notes to publish]
+original=Select notes to publish
+translation=Yayınlanacak notları seçin
+
+[heading.publish/setup/Next steps]
+original=Next steps
+translation=Sonraki adımlar
+
+[heading.publish/limitations/Community plugins]
+original=Community plugins
+translation=Topluluk eklentileri
+
+[heading.publish/limitations/Graph]
+original=Graph
+translation=Graf
+
+[heading.publish/limitations/Media files]
+original=Media files
+translation=Medya dosyaları
+
+[heading.publish/limitations/PDFs]
+original=PDFs
+translation=PDF'ler
+
+[heading.publish/limitations/Search]
+original=Search
+translation=Arama
+
+[heading.publish/seo/Sitemap]
+original=Sitemap
+translation=Site haritası
+
+[heading.publish/seo/Permalinks]
+original=Permalinks
+translation=Kalıcı bağlantılar
+
+[heading.publish/seo/Metadata]
+original=Metadata
+translation=Meta veriler
+
+[heading.publish/sites/Create a new site]
+original=Create a new site
+translation=Yeni bir site oluşturma
+
+[heading.publish/sites/Delete an existing site]
+original=Delete an existing site
+translation=Mevcut bir siteyi silme
+
+[heading.publish/sites/Switch between sites]
+original=Switch between sites
+translation=Siteler arasında geçiş yapma
+
+[heading.publish/sites/Change the site ID]
+original=Change the site ID
+translation=Site kimliğini değiştirme
+
+[heading.publish/sites/View site options]
+original=View site options
+translation=Site seçeneklerini görüntüleme
+
+[heading.publish/sites/Site options]
+original=Site options
+translation=Site seçenekleri
+
+[heading.publish/sites/General]
+original=General
+translation=Genel
+
+[heading.publish/sites/Appearance]
+original=Appearance
+translation=Görünüm
+
+[heading.publish/sites/Reading experience]
+original=Reading experience
+translation=Okuma deneyimi
+
+[heading.publish/sites/Components]
+original=Components
+translation=Bileşenler
+
+[heading.publish/sites/Other site settings]
+original=Other site settings
+translation=Diğer site ayarları
+
+[heading.publish/customize/Static assets]
+original=Static assets
+translation=Statik varlıklar
+
+[heading.publish/customize/Use a community theme]
+original=Use a community theme
+translation=Topluluk teması kullanma
+
+[heading.publish/customize/Enable UI features]
+original=Enable UI features
+translation=Arayüz özelliklerini etkinleştirme
+
+[heading.publish/customize/Customize navigation]
+original=Customize navigation
+translation=Navigasyonu özelleştirme
+
+[heading.publish/customize/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=Navigasyonu özelleştirme seçeneklerine erişim
+
+[heading.publish/customize/Adjust navigation items]
+original=Adjust navigation items
+translation=Gezinti öğelerini düzenleme
+
+[heading.publish/customize/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=Gezinti öğelerini gizleme ve gösterme
+
+[heading.publish/customize/FAQ]
+original=FAQ
+translation=SSS
+
+[heading.publish/social-share/Description]
+original=Description
+translation=Açıklama
+
+[heading.publish/social-share/Image]
+original=Image
+translation=Görsel
+
+[heading.publish/domains/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=CloudFlare kullanarak kurulum
+
+[heading.publish/domains/Set up using a proxy]
+original=Set up using a proxy
+translation=Proxy kullanarak kurulum
+
+[heading.publish/domains/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=Desteklenen HTTP X-Header'ları
+
+[heading.publish/domains/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=Eski siteyi özel alan adına yönlendirme
+
+[heading.publish/domains/Troubleshoot]
+original=Troubleshoot
+translation=Sorun giderme
+
+[heading.publish/publish/Prerequisites]
+original=Prerequisites
+translation=Ön koşullar
+
+[heading.publish/publish/Publish notes]
+original=Publish notes
+translation=Notları yayınlama
+
+[heading.publish/publish/Unpublish notes]
+original=Unpublish notes
+translation=Notları yayından kaldırma
+
+[heading.publish/publish/Update a published note]
+original=Update a published note
+translation=Yayınlanmış bir notu güncelleme
+
+[heading.publish/publish/Publish linked data]
+original=Publish linked data
+translation=Bağlantılı verileri yayınlama
+
+[heading.publish/publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=Yayınlanacak verileri otomatik olarak seçme
+
+[heading.publish/publish/Ignore data]
+original=Ignore data
+translation=Verileri yoksayma
+
+[heading.sync/headless/Quick start]
+original=Quick start
+translation=Hızlı başlangıç
+
+[heading.sync/headless/Commands]
+original=Commands
+translation=Komutlar
+
+[heading.sync/headless/Native modules]
+original=Native modules
+translation=Yerel modüller
+
+[heading.sync/messages/Sync status icon]
+original=Sync status icon
+translation=Sync durum simgesi
+
+[heading.sync/messages/Sync activity log]
+original=Sync activity log
+translation=Sync etkinlik günlüğü
+
+[heading.sync/messages/General messages]
+original=General messages
+translation=Genel mesajlar
+
+[heading.sync/messages/Error messages]
+original=Error messages
+translation=Hata mesajları
+
+[heading.sync/messages/Skipped messages]
+original=Skipped messages
+translation=Atlanan mesajlar
+
+[heading.sync/messages/Account messages]
+original=Account messages
+translation=Hesap mesajları
+
+[heading.sync/messages/Network messages]
+original=Network messages
+translation=Ağ mesajları
+
+[heading.sync/security/Encryption]
+original=Encryption
+translation=Şifreleme
+
+[heading.sync/security/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=Uçtan uca şifreleme ne anlama gelir?
+
+[heading.sync/security/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=Standart şifreleme kullanmanın riskleri nelerdir?
+
+[heading.sync/security/What encryption do you use?]
+original=What encryption do you use?
+translation=Hangi şifrelemeyi kullanıyorsunuz?
+
+[heading.sync/security/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=Verilerimin uçtan uca şifrelendiğini doğrulayabilir miyim?
+
+[heading.sync/security/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=Obsidian üçüncü taraf güvenlik denetiminden geçti mi?
+
+[heading.sync/security/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=Şifreleme parolamı unutursam ne olur?
+
+[heading.sync/security/Hosting]
+original=Hosting
+translation=Barındırma
+
+[heading.sync/security/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=Obsidian Sync sunucularını nerede barındırıyorsunuz?
+
+[heading.sync/security/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=Mevcut Sync sunucumu nasıl bulurum ve nerede barındırılıyor?
+
+[heading.sync/security/Network and access]
+original=Network and access
+translation=Ağ ve erişim
+
+[heading.sync/security/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=Ağınızda Obsidian Sync erişimini yönetme
+
+[heading.sync/security/Limitations]
+original=Limitations
+translation=Sınırlamalar
+
+[heading.sync/security/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=Deterministik dosya özeti şifreleme
+
+[heading.sync/security/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=Yol ve içerik arasında kriptografik bağlama yok
+
+[heading.sync/setup/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=Obsidian Sync'i ilk kez kurma
+
+[heading.sync/setup/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=Obsidian hesabınızla giriş yapın
+
+[heading.sync/setup/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=Obsidian Sync'i etkinleştirme
+
+[heading.sync/setup/Create a new remote vault]
+original=Create a new remote vault
+translation=Yeni bir uzak kasa oluşturma
+
+[heading.sync/setup/Connect to a remote vault]
+original=Connect to a remote vault
+translation=Uzak kasaya bağlanma
+
+[heading.sync/setup/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=Obsidian Sync ayarlarını düzenleme
+
+[heading.sync/setup/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=Obsidian Sync ile senkronizasyonu başlatma
+
+[heading.sync/setup/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=Başka bir cihazda uzak kasayı senkronize etme
+
+[heading.sync/setup/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=Kasa değiştiriciden kasanızı senkronize etme
+
+[heading.sync/setup/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=Obsidian Ayarlarından kasanızı senkronize etme
+
+[heading.sync/setup/Manage your remote vaults]
+original=Manage your remote vaults
+translation=Uzak kasalarınızı yönetme
+
+[heading.sync/setup/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=Uzak kasadan bağlantıyı kesme
+
+[heading.sync/setup/Delete a remote vault]
+original=Delete a remote vault
+translation=Uzak kasayı silme
+
+[heading.sync/setup/Regional sync servers]
+original=Regional sync servers
+translation=Bölgesel senkronizasyon sunucuları
+
+[heading.sync/setup/Next steps]
+original=Next steps
+translation=Sonraki adımlar
+
+[heading.sync/troubleshoot/General]
+original=General
+translation=Genel
+
+[heading.sync/troubleshoot/Conflict resolution]
+original=Conflict resolution
+translation=Çakışma çözümleme
+
+[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Obsidian Sync çakışmaları nasıl ele alır
+
+[heading.sync/troubleshoot/Conflict resolution options]
+original=Conflict resolution options
+translation=Çakışma çözümleme seçenekleri
+
+[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync, iki cihazda yeni oluşturduğum bir notu sildi
+
+[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync eklenti ve ayar güncellemelerimi senkronize etmiyor
+
+[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=Dosyalarım geri yükler yüklemez Sync'ten kayboluyor
+
+[heading.sync/switch/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=Kasanızı üçüncü taraf senkronizasyon hizmetinizden veya bulut depolamadan taşıyın
+
+[heading.sync/switch/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=Masaüstünde Obsidian kullanarak kasanızı taşıyın
+
+[heading.sync/switch/Move your vault on mobile]
+original=Move your vault on mobile
+translation=Kasanızı mobilde taşıyın
+
+[heading.sync/switch/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS ve iPadOS
+
+[heading.sync/switch/Next steps]
+original=Next steps
+translation=Sonraki adımlar
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=Obsidian Sync nasıl kullanılır
+
+[heading.sync/Important]
+original=Important
+translation=Önemli
+
+[heading.sync/collaborate/Manage users]
+original=Manage users
+translation=Kullanıcıları yönet
+
+[heading.sync/collaborate/Add users]
+original=Add users
+translation=Kullanıcı ekleme
+
+[heading.sync/collaborate/Remove users]
+original=Remove users
+translation=Kullanıcıları kaldırma
+
+[heading.sync/collaborate/Collaborate with your team]
+original=Collaborate with your team
+translation=Ekibinizle iş birliği yapma
+
+[heading.sync/collaborate/Permissions]
+original=Permissions
+translation=İzinler
+
+[heading.sync/collaborate/Live editing]
+original=Live editing
+translation=Canlı düzenleme
+
+[heading.sync/collaborate/Limitations]
+original=Limitations
+translation=Sınırlamalar
+
+[heading.sync/plans/Plans]
+original=Plans
+translation=Planlar
+
+[heading.sync/plans/Storage limits]
+original=Storage limits
+translation=Depolama limitleri
+
+[heading.sync/plans/Identify and delete large files]
+original=Identify and delete large files
+translation=Büyük dosyaları belirleme ve silme
+
+[heading.sync/plans/Create a new remote vault]
+original=Create a new remote vault
+translation=Yeni bir uzak kasa oluşturma
+
+[heading.sync/plans/Upgrade your plan]
+original=Upgrade your plan
+translation=Planınızı yükseltme
+
+[heading.sync/plans/Downgrade your plan]
+original=Downgrade your plan
+translation=Planınızı düşürme
+
+[heading.sync/plans/Preserve version history]
+original=Preserve version history
+translation=Sürüm geçmişini koruma
+
+[heading.sync/settings/Sync settings]
+original=Sync settings
+translation=Sync ayarları
+
+[heading.sync/settings/Conflict resolution]
+original=Conflict resolution
+translation=Çakışma çözümleme
+
+[heading.sync/settings/Selective syncing]
+original=Selective syncing
+translation=Seçici senkronizasyon
+
+[heading.sync/settings/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=Senkronize etmek istediğiniz dosya türlerini değiştirme
+
+[heading.sync/settings/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=Bir klasörü senkronizasyondan hariç tutma
+
+[heading.sync/settings/Always excluded from sync]
+original=Always excluded from sync
+translation=Her zaman senkronizasyondan hariç tutulanlar
+
+[heading.sync/settings/File recovery snapshots]
+original=File recovery snapshots
+translation=Dosya kurtarma anlık görüntüleri
+
+[heading.sync/settings/Hidden files and folders]
+original=Hidden files and folders
+translation=Gizli dosya ve klasörler
+
+[heading.sync/settings/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=Senkronize edilen kasa ayarlarınızı güncelleme
+
+[heading.sync/settings/Primary device]
+original=Primary device
+translation=Birincil cihaz
+
+[heading.sync/settings/Secondary device(s)]
+original=Secondary device(s)
+translation=İkincil cihaz(lar)
+
+[heading.sync/settings/Reloading of settings]
+original=Reloading of settings
+translation=Ayarların yeniden yüklenmesi
+
+[heading.sync/settings/Settings profiles]
+original=Settings profiles
+translation=Ayar profilleri
+
+[heading.sync/settings/Create a settings profile]
+original=Create a settings profile
+translation=Bir ayar profili oluşturma
+
+[heading.sync/region/Available regions]
+original=Available regions
+translation=Mevcut bölgeler
+
+[heading.sync/region/Change Sync region]
+original=Change Sync region
+translation=Sync bölgesini değiştirme
+
+[heading.sync/migrate/Encryption versions]
+original=Encryption versions
+translation=Şifreleme versiyonları
+
+[heading.sync/migrate/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=Taşıma asistanı ile şifrelemeyi yükseltme
+
+[heading.sync/version-history/Sync history]
+original=Sync history
+translation=Senkronizasyon geçmişi
+
+[heading.sync/version-history/Show Sync history]
+original=Show Sync history
+translation=Senkronizasyon geçmişini göster
+
+[heading.sync/version-history/Enable via Command palette]
+original=Enable via Command palette
+translation=Komut Paleti aracılığıyla etkinleştirme
+
+[heading.sync/version-history/Enable via Hotkey]
+original=Enable via Hotkey
+translation=Klavye kısayolu ile etkinleştirme
+
+[heading.sync/version-history/Version history]
+original=Version history
+translation=Sürüm geçmişi
+
+[heading.sync/version-history/Notes and attachments]
+original=Notes and attachments
+translation=Notlar ve ekler
+
+[heading.sync/version-history/View version history of a file]
+original=View version history of a file
+translation=Bir dosyanın sürüm geçmişini görüntüleme
+
+[heading.sync/version-history/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=Silinen veya yeniden adlandırılan bir dosyanın sürüm geçmişini görüntüleme
+
+[heading.sync/version-history/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=Bir dosyanın önceki sürümünü geri yükleme
+
+[heading.sync/version-history/Restore a deleted file]
+original=Restore a deleted file
+translation=Silinen bir dosyayı geri yükleme
+
+[heading.sync/version-history/Settings history]
+original=Settings history
+translation=Ayarlar geçmişi
+
+[heading.sync/version-history/View version history of a setting]
+original=View version history of a setting
+translation=Bir ayarın sürüm geçmişini görüntüleme
+
+[heading.sync/version-history/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=Bir ayarın önceki sürümünü geri yükleme
+
+[heading.sync/faq/General]
+original=General
+translation=Genel
+
+[heading.sync/faq/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Obsidian Sync hangi işletim sistemlerini destekler?
+
+[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Obsidian, Apple'ın Kilit Modu ile çalışır mı?
+
+[heading.sync/faq/What type of data is synced?]
+original=What type of data is synced?
+translation=Ne tür veriler senkronize edilir?
+
+[heading.sync/faq/How much storage do I have?]
+original=How much storage do I have?
+translation=Ne kadar depolama alanım var?
+
+[heading.sync/faq/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=Kaç uzak kasam olabilir?
+
+[heading.sync/faq/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=Her uzak kasa ne kadar büyük olabilir?
+
+[heading.sync/faq/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=Bir uzak kasayı kaç kişiyle paylaşabilirim?
+
+[heading.sync/faq/How large can each file be?]
+original=How large can each file be?
+translation=Her dosya ne kadar büyük olabilir?
+
+[heading.sync/faq/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=Verilerim arka planda senkronize ediliyor mu?
+
+[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Obsidian Sync ayarlarımı canlı olarak yeniden yükler mi?
+
+[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=Obsidian Sync ile birlikte üçüncü taraf senkronizasyon hizmeti kullanabilir miyim?
+
+[heading.sync/faq/Data retention]
+original=Data retention
+translation=Veri saklama
+
+[heading.sync/faq/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=Sürüm geçmişini ne kadar süre saklıyorsunuz?
+
+[heading.sync/faq/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=Aboneliğim sona erdikten sonra verilerimi ne kadar süre saklıyorsunuz?
+
+[heading.sync/faq/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=Abonelik hizmetimi iade edersem verilerimi saklıyor musunuz?
+
+[heading.sync/vault-types/File-based sync services]
+original=File-based sync services
+translation=Dosya tabanlı senkronizasyon hizmetleri
+
+[heading.sync/vault-types/Sync behavior]
+original=Sync behavior
+translation=Senkronizasyon davranışı
+
+[heading.sync/vault-types/Offline behavior]
+original=Offline behavior
+translation=Çevrimdışı davranış
+
+[heading.sync/vault-types/Next steps]
+original=Next steps
+translation=Sonraki adımlar
+
+[heading.web-clipper/variables/Preset variables]
+original=Preset variables
+translation=Ön ayar değişkenleri
+
+[heading.web-clipper/variables/Prompt variables]
+original=Prompt variables
+translation=İstem değişkenleri
+
+[heading.web-clipper/variables/When to use prompt variables]
+original=When to use prompt variables
+translation=İstem değişkenleri ne zaman kullanılır
+
+[heading.web-clipper/variables/Examples]
+original=Examples
+translation=Örnekler
+
+[heading.web-clipper/variables/Meta variables]
+original=Meta variables
+translation=Meta değişkenler
+
+[heading.web-clipper/variables/Selector variables]
+original=Selector variables
+translation=Seçici değişkenler
+
+[heading.web-clipper/variables/Schema.org variables]
+original=Schema.org variables
+translation=Schema.org değişkenleri
+
+[heading.web-clipper/filters/Dates]
+original=Dates
+translation=Tarihler
+
+[heading.web-clipper/filters/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=Metin dönüştürme ve büyük/küçük harf
+
+[heading.web-clipper/filters/Text formatting]
+original=Text formatting
+translation=Metin biçimlendirme
+
+[heading.web-clipper/filters/Numbers]
+original=Numbers
+translation=Sayılar
+
+[heading.web-clipper/filters/HTML processing]
+original=HTML processing
+translation=HTML işleme
+
+[heading.web-clipper/filters/Arrays and objects]
+original=Arrays and objects
+translation=Diziler ve nesneler
+
+[heading.web-clipper/logic/Conditionals]
+original=Conditionals
+translation=Koşullar
+
+[heading.web-clipper/logic/Comparison operators]
+original=Comparison operators
+translation=Karşılaştırma operatörleri
+
+[heading.web-clipper/logic/Logical operators]
+original=Logical operators
+translation=Mantıksal operatörler
+
+[heading.web-clipper/logic/Truthiness]
+original=Truthiness
+translation=Doğruluk değeri
+
+[heading.web-clipper/logic/Assign a variable]
+original=Assign a variable
+translation=Değişken atama
+
+[heading.web-clipper/logic/Fallbacks]
+original=Fallbacks
+translation=Yedek değerler
+
+[heading.web-clipper/logic/Chaining fallbacks]
+original=Chaining fallbacks
+translation=Yedek değerleri zincirleme
+
+[heading.web-clipper/logic/With filters]
+original=With filters
+translation=Filtrelerle birlikte
+
+[heading.web-clipper/logic/Loops]
+original=Loops
+translation=Döngüler
+
+[heading.web-clipper/logic/Loop sources]
+original=Loop sources
+translation=Döngü kaynakları
+
+[heading.web-clipper/logic/Loop variables]
+original=Loop variables
+translation=Döngü değişkenleri
+
+[heading.web-clipper/logic/Accessing array items by index]
+original=Accessing array items by index
+translation=Dizi öğelerine dizine göre erişim
+
+[heading.web-clipper/logic/Nested loops]
+original=Nested loops
+translation=İç içe döngüler
+
+[heading.web-clipper/logic/Combine logic]
+original=Combine logic
+translation=Mantığı birleştirme
+
+[heading.web-clipper/logic/Evaluation order]
+original=Evaluation order
+translation=Değerlendirme sırası
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=Web Kırpıcı'yı yükleme
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=Web Kırpıcı nasıl kullanılır
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=Gizlilik
+
+[heading.web-clipper/reader/Activate reading mode]
+original=Activate reading mode
+translation=Okuma modunu etkinleştirme
+
+[heading.web-clipper/reader/How it works]
+original=How it works
+translation=Nasıl çalışır
+
+[heading.web-clipper/reader/Customize the reading view]
+original=Customize the reading view
+translation=Okuma görünümünü özelleştirme
+
+[heading.web-clipper/troubleshoot/General]
+original=General
+translation=Genel
+
+[heading.web-clipper/troubleshoot/Some content is missing]
+original=Some content is missing
+translation=Bazı içerikler eksik
+
+[heading.web-clipper/troubleshoot/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=Obsidian'da içerik görünmüyor
+
+[heading.web-clipper/troubleshoot/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian açılmıyor
+
+[heading.web-clipper/troubleshoot/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian açılıyor ancak yalnızca dosya adı kaydediliyor
+
+[heading.web-clipper/troubleshoot/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS ve iPadOS
+
+[heading.web-clipper/capture/Capture a page]
+original=Capture a page
+translation=Bir sayfayı yakalama
+
+[heading.web-clipper/capture/Download images]
+original=Download images
+translation=Görselleri indirme
+
+[heading.web-clipper/capture/Hotkeys]
+original=Hotkeys
+translation=Klavye kısayolları
+
+[heading.web-clipper/capture/Interface functionality]
+original=Interface functionality
+translation=Arayüz işlevselliği
+
+[heading.web-clipper/highlight/Turn on highlighter]
+original=Turn on highlighter
+translation=Vurgulayıcıyı açma
+
+[heading.web-clipper/highlight/Highlighter settings]
+original=Highlighter settings
+translation=Vurgulayıcı ayarları
+
+[heading.web-clipper/interpreter/Examples of prompts]
+original=Examples of prompts
+translation=İstem örnekleri
+
+[heading.web-clipper/interpreter/Get started]
+original=Get started
+translation=Başlarken
+
+[heading.web-clipper/interpreter/How it works]
+original=How it works
+translation=Nasıl çalışır
+
+[heading.web-clipper/interpreter/Context]
+original=Context
+translation=Bağlam
+
+[heading.web-clipper/interpreter/Models]
+original=Models
+translation=Modeller
+
+[heading.web-clipper/interpreter/Preset providers]
+original=Preset providers
+translation=Ön ayar sağlayıcılar
+
+[heading.web-clipper/interpreter/Choosing a model]
+original=Choosing a model
+translation=Model seçimi
+
+[heading.web-clipper/interpreter/Custom providers and models]
+original=Custom providers and models
+translation=Özel sağlayıcılar ve modeller
+
+[heading.web-clipper/interpreter/Local models]
+original=Local models
+translation=Yerel modeller
+
+[heading.web-clipper/templates/Create or edit a template]
+original=Create or edit a template
+translation=Şablon oluşturma veya düzenleme
+
+[heading.web-clipper/templates/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=Web Kırpıcı şablonlarını içe ve dışa aktarma
+
+[heading.web-clipper/templates/Template settings]
+original=Template settings
+translation=Şablon ayarları
+
+[heading.web-clipper/templates/Behavior]
+original=Behavior
+translation=Davranış
+
+[heading.web-clipper/templates/Automatically trigger a template]
+original=Automatically trigger a template
+translation=Otomatik olarak bir şablon tetikleme
+
+[heading.web-clipper/templates/Simple URL matching]
+original=Simple URL matching
+translation=Basit URL eşleştirme
+
+[heading.web-clipper/templates/Regular expression matching]
+original=Regular expression matching
+translation=Düzenli ifade eşleştirme
+
+[heading.web-clipper/templates/Schema.org matching]
+original=Schema.org matching
+translation=Schema.org eşleştirme
+
+[heading.web-clipper/templates/Interpreter context]
+original=Interpreter context
+translation=Yorumlayıcı bağlamı
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=Eklentiler ve temalar
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=Açık kaynak projeler
+
+[heading.developers/Documentation]
+original=Documentation
+translation=Belgelendirme
+
+[heading.developers/Community]
+original=Community
+translation=Topluluk
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=Terminoloji ve dil bilgisi
+
+[heading.style-guide/Language style]
+original=Language style
+translation=Dil stili
+
+[heading.style-guide/Terms]
+original=Terms
+translation=Terimler
+
+[heading.style-guide/Product names]
+original=Product names
+translation=Ürün adları
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=Kullanıcı arayüzü ve etkileşimler
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=Notlar, dosyalar ve klasörler
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=Ayarlar için referans belgelendirmesi
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=Yön terimleri
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=Talimatlar
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=Cümle stili büyük harf kullanımı
+
+[heading.style-guide/Examples]
+original=Examples
+translation=Örnekler
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=Tuş adları ve klavye kısayolları
+
+[heading.style-guide/Images]
+original=Images
+translation=Görseller
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=Bilgi yapısı
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=Vurgulu blok türleri
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=Listeler ve düzyazı karşılaştırması
+
+[heading.style-guide/Tables]
+original=Tables
+translation=Tablolar
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=Çapraz referanslar
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=Platforma özgü içerik
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=Simgeler ve görseller
+
+[heading.style-guide/Icons]
+original=Icons
+translation=Simgeler
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=Görsel çapa etiketleri
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=Optimizasyon
+
+[heading.style-guide/Layout]
+original=Layout
+translation=Düzen
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=Bozuk bağlantılar
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=Açıklamalar
+
+[heading.style-guide/Directions]
+original=Directions
+translation=Yönlendirmeler
+
+[heading.style-guide/Translations]
+original=Translations
+translation=Çeviriler
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=Kod parçası ekleme
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=Obsidian için CSS yazma
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=Daha fazlasını öğrenin
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=Kısıtlı mod
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=Eklenti yetenekleri
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=Eklenti inceleme süreci
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Obsidian CLI'ı Kurma
+
+[heading.cli/Get started]
+original=Get started
+translation=Başlarken
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Komut çalıştırma
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=Terminal arayüzünü kullanma
+
+[heading.cli/Examples]
+original=Examples
+translation=Örnekler
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Günlük kullanım
+
+[heading.cli/For developers]
+original=For developers
+translation=Geliştiriciler için
+
+[heading.cli/How to]
+original=How to
+translation=Nasıl Yapılır
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Parametreler ve bayraklar kullanma
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Bir kasayı hedefleme
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Bir dosyayı hedefleme
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Çıktıyı kopyalama
+
+[heading.cli/General commands]
+original=General commands
+translation=Genel komutlar
+
+[heading.cli/Bases]
+original=Bases
+translation=Tabanlar
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Yer İmleri
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Komut paleti
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Günlük notlar
+
+[heading.cli/File history]
+original=File history
+translation=Dosya geçmişi
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Dosyalar ve klasörler
+
+[heading.cli/Links]
+original=Links
+translation=Bağlantılar
+
+[heading.cli/Outline]
+original=Outline
+translation=Anahat
+
+[heading.cli/Plugins]
+original=Plugins
+translation=Eklentiler
+
+[heading.cli/Properties]
+original=Properties
+translation=Özellikler
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Rastgele notlar
+
+[heading.cli/Search]
+original=Search
+translation=Arama
+
+[heading.cli/Tags]
+original=Tags
+translation=Etiketler
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Görevler
+
+[heading.cli/Templates]
+original=Templates
+translation=Şablonlar
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Temalar ve parçacıklar
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Benzersiz notlar
+
+[heading.cli/Vault]
+original=Vault
+translation=Kasa
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Web görüntüleyici
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Kelime sayısı
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Çalışma alanı
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Geliştirici komutları
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Klavye kısayolları
+
+[heading.cli/Navigation]
+original=Navigation
+translation=Gezinme
+
+[heading.cli/Editing]
+original=Editing
+translation=Düzenleme
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Otomatik tamamlama
+
+[heading.cli/History]
+original=History
+translation=Geçmiş
+
+[heading.cli/Other]
+original=Other
+translation=Diğer
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Sorun Giderme
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Alternatif kabuklar
+
+[heading.headless/Install]
+original=Install
+translation=Kurulum
+
+[heading.headless/Authentication]
+original=Authentication
+translation=Kimlik Doğrulama
+
+[heading.headless/Log in]
+original=Log in
+translation=Giriş yap
+
+[heading.headless/Services]
+original=Services
+translation=Hizmetler
+
+[heading.uri/URI format]
+original=URI format
+translation=URI biçimi
+
+[heading.uri/Open note]
+original=Open note
+translation=Not açma
+
+[heading.uri/Examples]
+original=Examples
+translation=Örnekler
+
+[heading.uri/Parameters]
+original=Parameters
+translation=Parametreler
+
+[heading.uri/Create note]
+original=Create note
+translation=Not oluşturma
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=Günlük not oluşturma veya açma
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=Benzersiz Not
+
+[heading.uri/Open search]
+original=Open search
+translation=Arama açma
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=Kasa Yöneticisini Açma
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Hook ile Entegrasyon
+
+[heading.uri/Example]
+original=Example
+translation=Örnek
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=x-callback-url parametrelerini kullanma
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=Kısaltılmış biçimler
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=Sorun giderme
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Obsidian URI'yi kaydetme
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=Temaları tara
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=Yeni bir tema yükleme
+
+[heading.themes/Update themes]
+original=Update themes
+translation=Temaları güncelleme
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=Mevcut bir temayı kaldırma
+
+[heading.themes/Learn more]
+original=Learn more
+translation=Daha fazlasını öğrenin
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=Topluluk eklentilerine göz atma
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=Topluluk eklentisi yükleme
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=Topluluk eklentisini etkinleştirme
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=Eklentileri güncelleme
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=Topluluk eklentisini kaldırma
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=Yüklü eklentileri yönetme
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=Daha fazlasını öğrenin
+
+[heading.plugins/search/Search terms]
+original=Search terms
+translation=Arama terimleri
+
+[heading.plugins/search/Search operators]
+original=Search operators
+translation=Arama operatörleri
+
+[heading.plugins/search/Search properties]
+original=Search properties
+translation=Arama özellikleri
+
+[heading.plugins/search/Change case sensitivity]
+original=Change case sensitivity
+translation=Büyük-küçük harf duyarlılığını değiştirme
+
+[heading.plugins/search/Change result sort order]
+original=Change result sort order
+translation=Sonuç sıralama düzenini değiştirme
+
+[heading.plugins/search/Copy search results]
+original=Copy search results
+translation=Arama sonuçlarını kopyalama
+
+[heading.plugins/search/Use regular expressions]
+original=Use regular expressions
+translation=Düzenli ifadeleri kullanma
+
+[heading.plugins/search/Configure search settings]
+original=Configure search settings
+translation=Arama ayarlarını yapılandırma
+
+[heading.plugins/search/Embed search results in a note]
+original=Embed search results in a note
+translation=Arama sonuçlarını bir nota gömme
+
+[heading.plugins/unique-note/Create a unique note]
+original=Create a unique note
+translation=Benzersiz not oluşturma
+
+[heading.plugins/unique-note/Create unique notes from a template]
+original=Create unique notes from a template
+translation=Şablondan benzersiz not oluşturma
+
+[heading.plugins/file-explorer/Create a new note]
+original=Create a new note
+translation=Yeni bir not oluşturma
+
+[heading.plugins/file-explorer/Create a new folder]
+original=Create a new folder
+translation=Yeni bir klasör oluşturma
+
+[heading.plugins/file-explorer/Change sort order]
+original=Change sort order
+translation=Sıralamayı değiştirme
+
+[heading.plugins/file-explorer/Auto-reveal active file]
+original=Auto-reveal active file
+translation=Etkin dosyayı otomatik gösterme
+
+[heading.plugins/file-explorer/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=Tüm klasörleri genişletme veya daraltma
+
+[heading.plugins/file-explorer/Delete a file or folder]
+original=Delete a file or folder
+translation=Dosya veya klasör silme
+
+[heading.plugins/file-explorer/Rename a file or folder]
+original=Rename a file or folder
+translation=Dosya veya klasörü yeniden adlandırma
+
+[heading.plugins/file-explorer/Move a file or folder]
+original=Move a file or folder
+translation=Dosya veya klasörü taşıma
+
+[heading.plugins/file-recovery/Recover a snapshot]
+original=Recover a snapshot
+translation=Bir anlık görüntüyü kurtarma
+
+[heading.plugins/file-recovery/Clear snapshot history]
+original=Clear snapshot history
+translation=Anlık görüntü geçmişini temizleme
+
+[heading.plugins/file-recovery/Storage and performance]
+original=Storage and performance
+translation=Depolama ve performans
+
+[heading.plugins/file-recovery/Limitations]
+original=Limitations
+translation=Sınırlamalar
+
+[heading.plugins/backlinks/Show backlinks]
+original=Show backlinks
+translation=Geri bağlantıları göster
+
+[heading.plugins/backlinks/View backlinks for a note]
+original=View backlinks for a note
+translation=Bir not için geri bağlantıları görüntüle
+
+[heading.plugins/backlinks/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=Belirli bir notun geri bağlantılarını görme
+
+[heading.plugins/backlinks/Show backlinks in a note]
+original=Show backlinks in a note
+translation=Bir notta geri bağlantıları göster
+
+[heading.plugins/graph/Settings]
+original=Settings
+translation=Ayarlar
+
+[heading.plugins/graph/Filters]
+original=Filters
+translation=Filtreler
+
+[heading.plugins/graph/Groups]
+original=Groups
+translation=Gruplar
+
+[heading.plugins/graph/Display]
+original=Display
+translation=Göster
+
+[heading.plugins/graph/Forces]
+original=Forces
+translation=Güçler
+
+[heading.plugins/graph/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=Hızlandırılmış animasyon başlatma
+
+[heading.plugins/graph/Local Graph]
+original=Local Graph
+translation=Yerel Grafik
+
+[heading.plugins/daily-notes/Create a daily note from template]
+original=Create a daily note from template
+translation=Şablondan günlük not oluşturma
+
+[heading.plugins/daily-notes/Daily notes and properties]
+original=Daily notes and properties
+translation=Günlük notlar ve özellikler
+
+[heading.plugins/quick-switcher/Open Quick switcher]
+original=Open Quick switcher
+translation=Hızlı Geçişi açma
+
+[heading.plugins/quick-switcher/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=Hızlı Geçiş ile bir not açma
+
+[heading.plugins/command-palette/Pinned commands]
+original=Pinned commands
+translation=Sabitlenmiş komutlar
+
+[heading.plugins/command-palette/Pin a command]
+original=Pin a command
+translation=Bir komutu sabitleme
+
+[heading.plugins/command-palette/Unpin a command]
+original=Unpin a command
+translation=Bir komutun sabitlemesini kaldırma
+
+[heading.plugins/format-converter/Supported formats]
+original=Supported formats
+translation=Desteklenen biçimler
+
+[heading.plugins/format-converter/[[Properties]]]
+original=[[Properties]]
+translation=[[Özellikler]]
+
+[heading.plugins/note-composer/Merge notes]
+original=Merge notes
+translation=Notları birleştir
+
+[heading.plugins/note-composer/Extract note]
+original=Extract note
+translation=Notu çıkar
+
+[heading.plugins/note-composer/Template file]
+original=Template file
+translation=Şablon dosyası
+
+[heading.plugins/audio-recorder/Record audio in a note]
+original=Record audio in a note
+translation=Bir notta ses kaydetme
+
+[heading.plugins/canvas/Create a new canvas]
+original=Create a new canvas
+translation=Yeni bir tuval oluşturma
+
+[heading.plugins/canvas/Add cards]
+original=Add cards
+translation=Kart ekleme
+
+[heading.plugins/canvas/Add text cards]
+original=Add text cards
+translation=Metin kartları ekleme
+
+[heading.plugins/canvas/Add cards from notes]
+original=Add cards from notes
+translation=Notlardan kart ekleme
+
+[heading.plugins/canvas/Add cards from media]
+original=Add cards from media
+translation=Medyadan kart ekleme
+
+[heading.plugins/canvas/Add cards from web pages]
+original=Add cards from web pages
+translation=Web sayfalarından kart ekleme
+
+[heading.plugins/canvas/Add cards from folders]
+original=Add cards from folders
+translation=Klasörlerden kart ekleme
+
+[heading.plugins/canvas/Edit a card]
+original=Edit a card
+translation=Bir kartı düzenleme
+
+[heading.plugins/canvas/Delete a card]
+original=Delete a card
+translation=Bir kartı silme
+
+[heading.plugins/canvas/Swap cards]
+original=Swap cards
+translation=Kartları değiştirme
+
+[heading.plugins/canvas/Select cards]
+original=Select cards
+translation=Kart seçme
+
+[heading.plugins/canvas/Arrange cards]
+original=Arrange cards
+translation=Kartları düzenleme
+
+[heading.plugins/canvas/Resize a card]
+original=Resize a card
+translation=Bir kartı yeniden boyutlandırma
+
+[heading.plugins/canvas/Connect cards]
+original=Connect cards
+translation=Kartları bağlama
+
+[heading.plugins/canvas/Connect two cards]
+original=Connect two cards
+translation=İki kartı bağlama
+
+[heading.plugins/canvas/Disconnect two cards]
+original=Disconnect two cards
+translation=İki kartın bağlantısını kesme
+
+[heading.plugins/canvas/Connect a card to a different card]
+original=Connect a card to a different card
+translation=Bir kartı farklı bir karta bağlama
+
+[heading.plugins/canvas/Navigate a connection]
+original=Navigate a connection
+translation=Bir bağlantıda gezinme
+
+[heading.plugins/canvas/Add a label to a connection]
+original=Add a label to a connection
+translation=Bir bağlantıya etiket ekleme
+
+[heading.plugins/canvas/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=Bir kartın veya bağlantının rengini değiştirme
+
+[heading.plugins/canvas/Group cards]
+original=Group cards
+translation=Kartları gruplama
+
+[heading.plugins/canvas/Group selected cards]
+original=Group selected cards
+translation=Seçili kartları gruplama
+
+[heading.plugins/canvas/Navigate the canvas]
+original=Navigate the canvas
+translation=Tuvalde gezinme
+
+[heading.plugins/canvas/Pan the canvas]
+original=Pan the canvas
+translation=Tuvali kaydırma
+
+[heading.plugins/canvas/Zoom the canvas]
+original=Zoom the canvas
+translation=Tuvali yakınlaştırma
+
+[heading.plugins/canvas/Zoom to fit]
+original=Zoom to fit
+translation=Sığdırmak için yakınlaştır
+
+[heading.plugins/canvas/Zoom to selection]
+original=Zoom to selection
+translation=Seçime yakınlaştır
+
+[heading.plugins/canvas/Reset zoom]
+original=Reset zoom
+translation=Yakınlaştırmayı sıfırla
+
+[heading.plugins/canvas/Advanced tips]
+original=Advanced tips
+translation=Gelişmiş ipuçları
+
+[heading.plugins/web-viewer/Reader view]
+original=Reader view
+translation=Okuyucu görünümü
+
+[heading.plugins/web-viewer/Save to vault]
+original=Save to vault
+translation=Kasaya kaydet
+
+[heading.plugins/web-viewer/Ad blocking]
+original=Ad blocking
+translation=Reklam engelleme
+
+[heading.plugins/web-viewer/Security]
+original=Security
+translation=Güvenlik
+
+[heading.plugins/bookmarks/Add a bookmark]
+original=Add a bookmark
+translation=Yer imi ekleme
+
+[heading.plugins/bookmarks/Remove a bookmark]
+original=Remove a bookmark
+translation=Yer imi kaldırma
+
+[heading.plugins/bookmarks/Add a bookmark group]
+original=Add a bookmark group
+translation=Yer imi grubu ekleme
+
+[heading.plugins/bookmarks/Remove a bookmark group]
+original=Remove a bookmark group
+translation=Yer imi grubunu kaldırma
+
+[heading.plugins/bookmarks/Bookmark multiple files]
+original=Bookmark multiple files
+translation=Birden fazla dosyaya yer imi ekleme
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=Tüm çekirdek eklentiler
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=Diğer eklentiler
+
+[heading.plugins/workspaces/Save a workspace]
+original=Save a workspace
+translation=Bir çalışma alanını kaydetme
+
+[heading.plugins/workspaces/Load a workspace]
+original=Load a workspace
+translation=Bir çalışma alanını yükleme
+
+[heading.plugins/workspaces/Delete a workspace]
+original=Delete a workspace
+translation=Bir çalışma alanını silme
+
+[heading.plugins/properties/All properties view]
+original=All properties view
+translation=Tüm özellikler görünümü
+
+[heading.plugins/templates/Set your template folder]
+original=Set your template folder
+translation=Şablon klasörünüzü ayarlayın
+
+[heading.plugins/templates/Template variables]
+original=Template variables
+translation=Şablon değişkenleri
+
+[heading.plugins/templates/Create a template]
+original=Create a template
+translation=Şablon oluşturun
+
+[heading.plugins/templates/Insert a template into the active note]
+original=Insert a template into the active note
+translation=Etkin nota şablon ekleme
+
+[heading.plugins/templates/Template properties]
+original=Template properties
+translation=Şablon özellikleri
+
+[heading.plugins/templates/Inserting current date and time into the active note]
+original=Inserting current date and time into the active note
+translation=Etkin nota geçerli tarih ve saati ekleme
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=Obsidian'ı ekibinizle kullanma
+
+[heading.teams/Important resources]
+original=Important resources
+translation=Önemli kaynaklar
+
+[heading.teams/publish/Publishing tools and services]
+original=Publishing tools and services
+translation=Yayınlama araçları ve hizmetleri
+
+[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=Obsidian Publish için gelişmiş iş birliği
+
+[heading.teams/publish/Media]
+original=Media
+translation=Medya
+
+[heading.teams/publish/Frequently asked questions]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular
+
+[heading.teams/sync/Syncing tools and services]
+original=Syncing tools and services
+translation=Senkronizasyon araçları ve hizmetleri
+
+[heading.teams/sync/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=Ekipler için Obsidian Sync
+
+[heading.teams/sync/Security]
+original=Security
+translation=Güvenlik
+
+[heading.teams/sync/Frequently asked questions]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular
+
+[heading.teams/security/Considerations]
+original=Considerations
+translation=Değerlendirmeler
+
+[heading.teams/security/Community plugins and themes]
+original=Community plugins and themes
+translation=Topluluk eklentileri ve temaları
+
+[heading.teams/security/Network and access]
+original=Network and access
+translation=Ağ ve erişim
+
+[heading.teams/security/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=Obsidian kaynaklı bağlantılar
+
+[heading.teams/security/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=GitHub kaynaklı bağlantılar
+
+[heading.teams/security/Other connections]
+original=Other connections
+translation=Diğer bağlantılar
+
+[heading.teams/security/Frequently asked questions]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular
+
+[heading.teams/security/Account security]
+original=Account security
+translation=Hesap güvenliği
+
+[heading.teams/security/Assessments and certifications]
+original=Assessments and certifications
+translation=Değerlendirmeler ve sertifikalar
+
+[heading.teams/deploy/Install and update Obsidian]
+original=Install and update Obsidian
+translation=Obsidian'ı kurun ve güncelleyin
+
+[heading.teams/deploy/Customizing Obsidian]
+original=Customizing Obsidian
+translation=Obsidian'ı özelleştirme
+
+[heading.teams/deploy/Configuration folders]
+original=Configuration folders
+translation=Yapılandırma klasörleri
+
+[heading.teams/deploy/Plugins]
+original=Plugins
+translation=Eklentiler
+
+[heading.teams/deploy/Themes and snippets]
+original=Themes and snippets
+translation=Temalar ve parçacıklar
+
+[heading.teams/deploy/Frequently asked questions]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular
+
+[heading.teams/deploy/Deployment]
+original=Deployment
+translation=Dağıtım
+
+[heading.teams/license/Purchase a commercial license]
+original=Purchase a commercial license
+translation=Ticari lisans satın alma
+
+[heading.teams/license/Apply a commercial license]
+original=Apply a commercial license
+translation=Ticari lisans uygulama
+
+[heading.teams/license/Supporting organizations]
+original=Supporting organizations
+translation=Destekleyen kuruluşlar
+
+[heading.teams/license/Frequently asked questions]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=Sorular ve tavsiyeler
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=Hata bildirin ve özellik talep edin
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=Hata ayıklama bilgilerini toplama
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=Başlangıç süresini kontrol etme
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=Konsol günlüklerini yakalama
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=Obsidian desteğiyle iletişime geçin
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=Güvenlik sorunu bildirme
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=Davranış Kuralları ihlali bildirme
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Obsidian'a katkıda bulunma

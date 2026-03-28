@@ -16,6 +16,7 @@
     { code: 'pl',    label: 'Polski',             base: 'https://obsidian.md/pl/help' },
     { code: 'pt-BR', label: 'Português (Brasil)', base: 'https://obsidian.md/pt-BR/help' },
     { code: 'ru',    label: 'Русский',            base: 'https://obsidian.md/ru/help' },
+    { code: 'tr',    label: 'Türkçe',             base: 'https://obsidian.md/tr/help' },
     { code: 'vi',    label: 'Tiếng Việt',         base: 'https://obsidian.md/vi/help' },
     { code: 'zh-TW', label: '繁體中文',               base: 'https://obsidian.md/zh-TW/help' },
     { code: 'zh',    label: '中文',                 base: 'https://obsidian.md/zh/help' },
@@ -159,11 +160,12 @@
     if (el) el.setAttribute('aria-label', 'Глобальный граф');
     el = document.querySelector('.outline-view-outer span:last-child');
     if (el) el.textContent = 'На этой странице';
-    document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { e.textContent = 'Обратные ссылки'; });
     return true;
   }
   function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
-  setTimeout(apply, 1000);
-  setTimeout(apply, 3000);
+  var blText = 'Обратные ссылки';
+  function applyBl() { document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { if (e.textContent !== blText) e.textContent = blText; }); }
+  new MutationObserver(applyBl).observe(document.body, { childList: true, subtree: true });
+  applyBl();
 })();
