@@ -52,7 +52,7 @@ translation=Visninger
 
 [file.bases/views/cards]
 original=Cards view
-translation=Kortvisning
+translation=Galleri
 
 [file.bases/views/list]
 original=List view
@@ -60,7 +60,7 @@ translation=Listevisning
 
 [file.bases/views/map]
 original=Map view
-translation=Kortvisning (map)
+translation=Landkort
 
 [file.bases/views/table]
 original=Table view

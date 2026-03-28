@@ -4,14 +4,15 @@ aliases:
   - baser/views/kort
   - Kort view
   - Baser/Layouts/Kort view
+  - Kortvisning
 ---
-Kort er en [[Visninger|viewtype]], som du kan anvende i [[Introduktion til Baser|Baser]].
+Galleri er en [[Visninger|viewtype]], som du kan anvende i [[Introduktion til Baser|Baser]].
 
 Vælg ![[lucide-layout-grid.svg#icon]] **Kort** fra viewmenuen for at vise filer, som et gallerilignende gitterlayout med valgfri omslagsbilleder.
 
 ## Indstillinger
 
-Indstillingerne for kortviewet kan konfigureres i [[Visninger#View indstillinger|View indstillingerne]].
+Indstillingerne for gallerivisningen kan konfigureres i [[Visninger#View indstillinger|View indstillingerne]].
 
 - Kort størrelse
 - Billedegenskaber
@@ -24,7 +25,7 @@ Definerer kortets bredde.
 
 ### Billedegenskaber
 
-Kort understøtter et valgfrit omslagsbillede, som er en [[Egenskaber|egenskab]], som vises som et billede ovenpå kortet. Egenskaben kan være én af følgende:
+Galleri understøtter et valgfrit omslagsbillede, som er en [[Egenskaber|egenskab]], som vises som et billede ovenpå kortet. Egenskaben kan være én af følgende:
 
 - Et link til en lokal [[Vedhæftninger|vedhæftning]] `"[[link/til/vedhæftning.jpg]]"`
 - Et eksternt link (URL)

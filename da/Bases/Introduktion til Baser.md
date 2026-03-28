@@ -30,16 +30,16 @@ Obsidian baser gemmer alt data i dine lokale [[Grundlæggende formaterings synta
 - [[Basesyntaks]]
   - Sådan er baser formatteret
 
-## View typer
+## Layouttyper
 
-View can be displayed with different layouts. Additional layouts can be added by [[Fællesskabsplugins]].
+Views kan vises med forskellige layouts. Yderligere layouts kan tilføjes af [[Fællesskabsplugins]].
 
 - [[Tabel view|Tabel]]
   - Viser filer som rækker med kolonner, der viser filers egenskaber
 - [[Liste view|Liste]]
   - Viser filer som en liste med punkttegn eller nummereret
-- [[Kort view|Kort]]
-  - Viser filer som et gitter. Lader dig oprette gallerillignende views med billeder
-- [[Landkort view|Landkort]]
+- [[Galleri]]
+  - Viser filer som et gitter. Lader dig oprette gallerilignende views med billeder
+- [[Landkort]]
   - Viser filer som markører på et interaktivt kort
   

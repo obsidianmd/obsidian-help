@@ -1,27 +1,53 @@
 ---
 permalink: sync
-alias:
+aliases:
   - Obsidian Sync
+  - Obsidian Sync/Introduktion til Obsidian Sync
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-publish: true
+description: Obsidian Sync er en tilkøbsservice, der lader dig synkronisere dine noter privat på tværs af enheder.
 mobile: true
-aliases:
-  - Obsidian Sync/Introduktion til Obsidian Sync
+publish: true
 ---
 
-Obsidian Sync er en cloudbaseret service, der giver dig mulighed for at gemme dine noter på Obsidians servere og synkronisere dem på tværs af dine enheder.
+[Obsidian Sync](https://obsidian.md/sync) er en tilkøbsservice, der lader dig synkronisere dine noter privat på tværs af enheder.
 
-> [!important]
-> Hvis du anvender Obsidian Sync sammen med andre cloud løsninger, såsom Dropbox, Google Drive eller OneDrive, så læs [[Introduktion til Obsidian Sync|Obsidian Sync]] for at undgå synkroniseringskonflikter.
+## Sådan bruger du Obsidian Sync
 
-Lær mere om Obsidian Sync her:
+- [[Opsæt Obsidian Sync]]
+	- Opsæt Sync på alle dine enheder.
+- [[Skift til Obsidian Sync]]
+	- Forbered din Obsidian-boks til at bruge Sync.
+- [[Sync indstillinger og selektiv synkronisering|Selektiv synkronisering]]
+	- Konfigurer hvilke filer og indstillinger der synkroniseres.
+- [[Abonnementer og lagergrænser]]
+	- Lær om Sync-abonnementsplaner.
+- [[Abonnementer og lagergrænser|Fjernboks-lager]]
+	- Administrer dit fjernboks-lager.
+- [[Versionshistorik]]
+	- Vis eller gendan tidligere versioner af en note.
+- [[Statusikon og meddelelser]]
+	- Oversigt over Sync-loggen og statusikonerne.
+- [[Obsidian Sync/Sikkerhed og privatliv|Sikkerhed og privatliv]]
+	- Hvordan Obsidian holder dine Sync-data sikre.
+- [[Samarbejd i en delt boks|Samarbejde]]
+	- Tilføj teammedlemmer til en delt boks.
+- [[Sikkerhedskopiér dine Obsidian-filer]]
+	- Sikkerhedskopiér din boks med tredjepartsværktøjer.
+- [[Sync regioner]]
+	- Flyt din Sync-boks til en anden regional server.
+- [[Headless Sync]]
+	- Synkroniser dine bokse fra kommandolinjen uden desktopappen.
+- [[Fejlfinding af Obsidian Sync]]
+	- Almindelige synkroniseringsproblemer og løsninger.
 
-- Lær at [[Opsætning af Obsidian Sync|opsætte Obsidian Sync]], hvis du er en ny Obsidian Sync bruger
-- Læs om at [[Vælge filer og indstillinger til Sync|vælge filer og se indtillinger til Obsidian Sync]], hvis du vil konfigurere, hvad som skal synkroniseres
-- Hvis du allerede har Obsidian Sync aktiveret på en enhed, så lær hvordan du kan [[Opsætning af Obsidian Sync på en anden enhed|opsætte Obsidian Sync på en anden enhed]]
-- Du kan læse mere om [[Versionshistorik|versionshistorik]], hvis du vil lære om, hvordan du kan se og gendanne tidligere versioner af en note
-- Du kan læse om [[Obsidian Sync/Sikkerhed og privatliv|sikkerhed og privatliv]], hvis du vil vide, hvordan vi holder dine noter sikre
-- Læs om [[Introduktion til Obsidian Sync|Obsidian Sync]], hvis du overvejer at anvende tredjeparts services til at tage backup af din boks
-- Læs [[Fejlsøg Obsidian Sync]], hvis du har et problem med Obsidian Sync
+## Vigtigt
+
+Hvis du bruger Obsidian Sync sammen med andre cloud-lagringstjenester som Dropbox, Google Drive eller OneDrive, bedes du [[Sikkerhedskopiér dine Obsidian-filer|sikkerhedskopiere dine filer]] for at undgå synkroniseringskonflikter. Vi anbefaler kraftigt at [[Skift til Obsidian Sync|migrere fuldt ud til Obsidian Sync]].
+
+Se [[Ofte stillede spørgsmål]] for hyppigt stillede spørgsmål og yderligere detaljer om Obsidian Sync.
+
+> [\!warning] Denne funktion er ikke tilgængelig på Apple-enheder med [Lockdown-tilstand](https://support.apple.com/en-us/105120) aktiveret, medmindre Obsidian er undtaget.
+
+Oplever du uventede afbrydelser i din Sync-service? Tjek [serverstatus](https://status.obsidian.md) her.

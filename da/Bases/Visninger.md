@@ -45,9 +45,9 @@ Views kan vises med forskellige layouts, såsom en ![[lucide-table.svg#icon]] **
 | Layout                | Beskrivelse                                                                                   | App&nbsp;version |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
 | [[Tabel view\|Tabel]] | Viser filer som rækker i en tabel. Kolonner udfyldes ud fra dine noters [[Egenskaber\|egenskaber]].    | 1.9              |
-| [[Kort view\|kort]] | Viser filer som et gitter af kort. Lader dig oprette gallerilignende views med billeder.             | 1.9              |
+| [[Galleri]]         | Viser filer som et gitter af kort. Lader dig oprette gallerilignende views med billeder.             | 1.9              |
 | [[Liste view\|Liste]]   | Viser filer som [[Grundlæggende formaterings syntaks#Lister\|lister]] med punkttegn eller nummereret. | 1.10             |
-| [[Landkort view\|Landkort]]     | DViser filer som nåle på et interaktivt kort. Kræver "Maps" pluginet.                        | 1.10             |
+| [[Landkort]]        | Viser filer som nåle på et interaktivt kort. Kræver "Maps" pluginet.                        | 1.10             |
 
 
 ## Filtre
