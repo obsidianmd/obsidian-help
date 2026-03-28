@@ -20,64 +20,64 @@ Il team di Obsidian mantiene anche lo sviluppo di alcuni [[#Altri plugin|plugin 
 
 ### Tutti i plugin principali
 
+- [[Anteprima pagina|Anteprima pagina]]
+	- Visualizza in anteprima il contenuto di una nota passando il mouse sui collegamenti.
+- [[Aree di lavoro|Aree di lavoro]]
+	- Salva i layout e passa da uno all'altro.
+- [[Introduzione a Base|Base]]
+	- Crea basi utilizzando le proprietà delle note.
+- [[Canvas]]
+	- Organizza le note visivamente con uno spazio infinito per disporre le idee.
+- [[Cerca|Cerca]]
+	- Trova file nella tua cassaforte.
+- [[Collegamenti in uscita|Collegamenti in uscita]]
+	- Mostra tutti i collegamenti per la nota attiva.
+- [[Comandi Slash|Comandi slash]]
+	- Esegui comandi all'interno dell'editor usando il tasto `/`.
+- [[Conteggio parole|Conteggio parole]]
+	- Mostra il numero di parole e caratteri.
+- [[Diapositive|Diapositive]]
+	- Crea una presentazione dalle tue note.
+- [[Esplora file|Esplora file]]
+	- Sfoglia file e cartelle all'interno della tua cassaforte.
+- [[Gestione note|Gestione note]]
+	- Unisce, divide e riformatta le note.
+- [[Modelli|Modelli]]
+	- Inserisci contenuti predefiniti nelle tue note.
+- [[Note casuali|Note casuali]]
+	- Apre una nota casuale nella tua cassaforte.
+- [[Note del giorno|Note del giorno]]
+	- Crea e apri note basate sulla data corrente.
+- [[Note univoche|Note univoche]]
+	- Crea una nota univoca usando un titolo con codice temporale.
+- [[Pannello delle etichette|Pannello delle etichette]]
+	- Elenca tutte le etichette nella tua cassaforte.
+- [[Introduzione a Obsidian Publish|Pubblica]]
+	- Ospita le tue note come sito web, wiki o documentazione.
+- [[Recupero file|Recupero file]]
+	- Recupera il tuo lavoro da istantanee regolari.
 - [[Registratore audio|Registratore audio]]
 	- Registra e salva registrazioni audio direttamente in una nota.
 - [[Riferimenti|Riferimenti]]
 	- Visualizza tutti i collegamenti e le menzioni scollegate di una nota.
-- [[Introduzione a Base|Base]]
-	- Crea basi utilizzando le proprietà delle note.
 - [[Segnalibri|Segnalibri]]
 	- Salva collegamenti a note, intestazioni, ricerche e altro.
-- [[Canvas]]
-	- Organizza le note visivamente con uno spazio infinito per disporre le idee.
-- [[Riquadro comandi|Tavolozza dei comandi]]
-	- Accedi rapidamente ai comandi dalla tastiera.
-- [[Note del giorno|Note del giorno]]
-	- Crea e apri note basate sulla data corrente.
-- [[Esplora file|Esplora file]]
-	- Sfoglia file e cartelle all'interno della tua cassaforte.
-- [[Recupero file|Recupero file]]
-	- Recupera il tuo lavoro da istantanee regolari.
-- [[Strumento importazione Markdown|Strumento importazione Markdown]]
-	- Converte Markdown da altre app al formato di Obsidian.
-- [[Vista grafo|Vista grafo]]
-	- Visualizza le relazioni tra le note nella tua cassaforte.
-- [[Gestione note|Gestione note]]
-	- Unisce, divide e riformatta le note.
-- [[Collegamenti in uscita|Collegamenti in uscita]]
-	- Mostra tutti i collegamenti per la nota attiva.
-- [[Struttura|Struttura]]
-	- Mostra l'indice della nota attiva.
-- [[Anteprima pagina|Anteprima pagina]]
-	- Visualizza in anteprima il contenuto di una nota passando il mouse sui collegamenti.
-- [[Vista proprietà|Vista proprietà]]
-	- Elenca tutte le proprietà nella tua cassaforte e mostra le proprietà della nota attiva.
-- [[Introduzione a Obsidian Publish|Pubblica]]
-	- Ospita le tue note come sito web, wiki o documentazione.
 - [[Selezione rapida|Selettore rapido]]
 	- Cerca, crea e apri note dalla tastiera.
-- [[Note casuali|Note casuali]]
-	- Apre una nota casuale nella tua cassaforte.
-- [[Cerca|Cerca]]
-	- Trova file nella tua cassaforte.
-- [[Comandi Slash|Comandi slash]]
-	- Esegui comandi all'interno dell'editor usando il tasto `/`.
-- [[Diapositive|Diapositive]]
-	- Crea una presentazione dalle tue note.
+- [[Strumento importazione Markdown|Strumento importazione Markdown]]
+	- Converte Markdown da altre app al formato di Obsidian.
+- [[Struttura|Struttura]]
+	- Mostra l'indice della nota attiva.
 - [[Introduzione a Obsidian Sync|Sync]]
 	- Sincronizza le tue note tra i dispositivi.
-- [[Pannello delle etichette|Pannello delle etichette]]
-	- Elenca tutte le etichette nella tua cassaforte.
-- [[Modelli|Modelli]]
-	- Inserisci contenuti predefiniti nelle tue note.
-- [[Note univoche|Note univoche]]
-	- Crea una nota univoca usando un titolo con codice temporale.
+- [[Riquadro comandi|Tavolozza dei comandi]]
+	- Accedi rapidamente ai comandi dalla tastiera.
+- [[Vista grafo|Vista grafo]]
+	- Visualizza le relazioni tra le note nella tua cassaforte.
+- [[Vista proprietà|Vista proprietà]]
+	- Elenca tutte le proprietà nella tua cassaforte e mostra le proprietà della nota attiva.
 - [[Visualizzatore web|Visualizzatore web]]
 	- Apri collegamenti esterni in Obsidian.
-- [[Conteggio parole|Conteggio parole]]
-	- Mostra il numero di parole e caratteri.
-- [[Aree di lavoro|Aree di lavoro]]
-	- Salva i layout e passa da uno all'altro.
 
 ### Altri plugin
 

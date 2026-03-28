@@ -146,6 +146,37 @@ function translatePaths(paths: string[], fm: FilenamesMap, pm: Record<string, st
   return paths.map(p => translatePath(p, fm, pm));
 }
 
+/**
+ * After translation, re-sort file entries within the Plugins folder section
+ * alphabetically by filename, keeping the overview page (Core plugins) first.
+ */
+function sortPluginsSection(paths: string[], fm: FilenamesMap): string[] {
+  const pluginsFolder = fm.folders["Plugins"] ?? "Plugins";
+  const prefix = pluginsFolder + "/";
+
+  // Find the contiguous run of `prefix + *.md` entries
+  let start = -1, end = -1;
+  for (let i = 0; i < paths.length; i++) {
+    if (paths[i].startsWith(prefix) && paths[i].endsWith(".md")) {
+      if (start === -1) start = i;
+      end = i;
+    } else if (start !== -1) {
+      break;
+    }
+  }
+  if (start === -1) return paths;
+
+  const section = paths.slice(start, end + 1);
+  const [first, ...rest] = section; // keep overview page (Core plugins) first
+  rest.sort((a, b) => {
+    const nameA = a.slice(prefix.length, -3).toLowerCase();
+    const nameB = b.slice(prefix.length, -3).toLowerCase();
+    return nameA.localeCompare(nameB);
+  });
+
+  return [...paths.slice(0, start), first, ...rest, ...paths.slice(end + 1)];
+}
+
 // ── Build ob publish-site-options command args ────────────────────────────────
 
 function buildArgs(opts: Partial<SiteOptions>): string[] {
@@ -238,9 +269,9 @@ for (const locale of locales) {
       hideTitle:          enOptions.hideTitle,
       slidingWindow:      enOptions.slidingWindow,
 
-      // Translate nav paths
+      // Translate nav paths, then sort the plugins section by locale display name
       navigationOrdering:    enOptions.navigationOrdering
-        ? translatePaths(enOptions.navigationOrdering, fm, permalinkMap)
+        ? sortPluginsSection(translatePaths(enOptions.navigationOrdering, fm, permalinkMap), fm)
         : undefined,
       navigationHiddenItems: enOptions.navigationHiddenItems
         ? translatePaths(enOptions.navigationHiddenItems, fm, permalinkMap)

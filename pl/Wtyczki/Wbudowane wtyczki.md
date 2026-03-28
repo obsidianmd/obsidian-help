@@ -18,64 +18,64 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 
 ### Wszystkie wbudowane wtyczki
 
-- [[Dyktafon]]
-	- Nagrywaj i zapisuj nagrania audio bezpośrednio w notatce.
-- [[Linki zwrotne]]
-	- Przeglądaj wszystkie linki i niepowiązane wzmianki notatki.
 - [[Wprowadzenie do Baz danych|Bazy danych]]
 	- Twórz niestandardowe podglądy, które umożliwiają edycję, sortowanie i filtrowanie plików na podstawie ich atrybutów.
-- [[Ulubione]]
-	- Zapisuj linki do notatek, nagłówków, wyszukiwań i nie tylko.
-- [[Tablica]]
-	- Organizuj notatki wizualnie na nieskończonej przestrzeni do rozmieszczania pomysłów.
-- [[Lista poleceń]]
-	- Szybki dostęp do poleceń z poziomu klawiatury.
+- [[Dyktafon]]
+	- Nagrywaj i zapisuj nagrania audio bezpośrednio w notatce.
 - [[Dziennik]]
 	- Twórz i otwieraj notatki na podstawie bieżącej daty.
 - [[Eksplorator plików]]
 	- Przeglądaj pliki i foldery w swoim skarbcu.
-- [[Odzyskiwanie plików]]
-	- Odzyskuj swoją pracę z regularnych migawek.
-- [[Konwerter formatowania]]
-	- Dostosuj format Markdown z innych aplikacji do formatu Obsidian.
-- [[Podgląd grafu]]
-	- Wizualizuj relacje między notatkami w swoim skarbcu.
 - [[Kompozytor notatek]]
 	- Połącz dwie notatki lub podziel jedną na dwie.
-- [[Łącza wychodzące]]
-	- Wyświetlaj wszystkie linki dla aktywnej notatki.
 - [[Konspekt]]
 	- Wyświetlaj spis treści dla aktywnej notatki.
-- [[Podgląd notatki]]
-	- Wyświetlaj podgląd zawartości notatki po najechaniu na linki.
-- [[Panel atrybutów]]
-	- Wyświetlaj listę wszystkich atrybutów w skarbcu oraz atrybuty aktywnej notatki.
-- [[Wprowadzenie do Obsidian Publish|Publish]]
-	- Publikuj swoje notatki jako stronę internetową, wiki lub dokumentację.
-- [[Okno szybkiego wyboru]]
-	- Wyszukuj, twórz i otwieraj notatki z poziomu klawiatury.
+- [[Konwerter formatowania]]
+	- Dostosuj format Markdown z innych aplikacji do formatu Obsidian.
+- [[Kreator niepowtarzalnych notatek]]
+	- Twórz niepowtarzalne notatki z tytułem opartym na kodzie czasowym.
+- [[Liczba słów]]
+	- Wyświetlaj liczbę słów i znaków.
+- [[Linki zwrotne]]
+	- Przeglądaj wszystkie linki i niepowiązane wzmianki notatki.
+- [[Lista poleceń]]
+	- Szybki dostęp do poleceń z poziomu klawiatury.
 - [[Losowa notatka]]
 	- Otwiera losową notatkę w Twoim skarbcu.
-- [[Szukaj]]
-	- Znajduj pliki w swoim skarbcu.
-- [[Ukośnik komend]]
-	- Wykonuj polecenia w edytorze za pomocą klawisza `/`.
+- [[Obszary robocze]]
+	- Zapisuj układy i przełączaj się między nimi.
+- [[Odzyskiwanie plików]]
+	- Odzyskuj swoją pracę z regularnych migawek.
+- [[Okno szybkiego wyboru]]
+	- Wyszukuj, twórz i otwieraj notatki z poziomu klawiatury.
+- [[Panel atrybutów]]
+	- Wyświetlaj listę wszystkich atrybutów w skarbcu oraz atrybuty aktywnej notatki.
+- [[Panel tagów|Panel tagów]]
+	- Wyświetlaj listę wszystkich tagów w skarbcu.
+- [[Podgląd grafu]]
+	- Wizualizuj relacje między notatkami w swoim skarbcu.
+- [[Podgląd notatki]]
+	- Wyświetlaj podgląd zawartości notatki po najechaniu na linki.
+- [[Przeglądarka internetowa]]
+	- Otwieraj łącza zewnętrzne w Obsidian.
+- [[Wprowadzenie do Obsidian Publish|Publish]]
+	- Publikuj swoje notatki jako stronę internetową, wiki lub dokumentację.
 - [[Slajdy]]
 	- Twórz prezentacje ze swoich notatek.
 - [[Wprowadzenie do Obsidian Sync|Sync]]
 	- Synchronizuj notatki między urządzeniami.
-- [[Panel tagów|Panel tagów]]
-	- Wyświetlaj listę wszystkich tagów w skarbcu.
 - [[Wtyczki/Szablony|Szablony]]
 	- Wstawiaj predefiniowaną zawartość do swoich notatek.
-- [[Kreator niepowtarzalnych notatek]]
-	- Twórz niepowtarzalne notatki z tytułem opartym na kodzie czasowym.
-- [[Przeglądarka internetowa]]
-	- Otwieraj łącza zewnętrzne w Obsidian.
-- [[Liczba słów]]
-	- Wyświetlaj liczbę słów i znaków.
-- [[Obszary robocze]]
-	- Zapisuj układy i przełączaj się między nimi.
+- [[Szukaj]]
+	- Znajduj pliki w swoim skarbcu.
+- [[Tablica]]
+	- Organizuj notatki wizualnie na nieskończonej przestrzeni do rozmieszczania pomysłów.
+- [[Ukośnik komend]]
+	- Wykonuj polecenia w edytorze za pomocą klawisza `/`.
+- [[Ulubione]]
+	- Zapisuj linki do notatek, nagłówków, wyszukiwań i nie tylko.
+- [[Łącza wychodzące]]
+	- Wyświetlaj wszystkie linki dla aktywnej notatki.
 
 ### Inne wtyczki
 
