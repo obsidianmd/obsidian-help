@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=Hem
+
+[file.2fa]
+original=2-factor authentication
+translation=Tvåfaktorsautentisering
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Avancerad formateringssyntax
+
+[file.aliases]
+original=Aliases
+translation=Aliaser
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian för Android
+
+[file.appearance]
+original=Appearance
+translation=Utseende
+
+[file.attachments]
+original=Attachments
+translation=Bilagor
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Säkerhetskopiera dina Obsidian-filer
+
+[file.bases]
+original=Introduction to Bases
+translation=Introduktion till baser
+
+[file.bases/create-base]
+original=Create a base
+translation=Skapa en bas
+
+[file.bases/functions]
+original=Functions
+translation=Funktioner
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Baser-syntax
+
+[file.bases/views]
+original=Views
+translation=Vyer
+
+[file.bases/views/cards]
+original=Cards view
+translation=Kortvy
+
+[file.bases/views/list]
+original=List view
+translation=Listvy
+
+[file.bases/views/map]
+original=Map view
+translation=Kartvy
+
+[file.bases/views/table]
+original=Table view
+translation=Tabellvy
+
+[file.callouts]
+original=Callouts
+translation=Notiser
+
+[file.catalyst]
+original=Catalyst license
+translation=Catalyst-licens
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Gemenskapens uppförandekod
+
+[file.community-plugins]
+original=Community plugins
+translation=Gemenskapstillägg
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Konfigurationsmapp
+
+[file.create-note]
+original=Create your first note
+translation=Skapa din första anteckning
+
+[file.credit]
+original=Obsidian Credit
+translation=Obsidian-kredit
+
+[file.credits]
+original=Credits
+translation=Medverkande
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Hur Obsidian lagrar data
+
+[file.developers]
+original=Developers
+translation=Utvecklare
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Utbildnings- och ideell rabatt
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Dra och släpp
+
+[file.early-access]
+original=Early access versions
+translation=Tidig åtkomst-versioner
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Vyer och redigeringsläge
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Redigeringsgenvägar
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Bädda in webbsidor
+
+[file.embeds]
+original=Embed files
+translation=Bädda in filer
+
+[file.file-formats]
+original=Accepted file formats
+translation=Accepterade filformat
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Ekonomiska bidrag
+
+[file.folding]
+original=Folding
+translation=Vikning
+
+[file.formulas]
+original=Formulas
+translation=Formler
+
+[file.glossary]
+original=Glossary
+translation=Ordlista
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Snabbkommandon
+
+[file.html]
+original=HTML content
+translation=HTML-innehåll
+
+[file.import]
+original=Import notes
+translation=Importera anteckningar
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Importera från Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Importera från Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=Importera från Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=Importera från Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=Importera CSV-filer
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Importera från Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Importera från Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=Importera HTML-filer
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Importera Markdown-filer
+
+[file.import/notion]
+original=Import from Notion
+translation=Importera från Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Importera från Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Importera från Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Importera Textbundle-filer
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Importera Zettelkasten-anteckningar
+
+[file.install]
+original=Download and install Obsidian
+translation=Ladda ner och installera Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian för iOS och iPadOS
+
+[file.language]
+original=Language settings
+translation=Språkinställningar
+
+[file.link-notes]
+original=Link notes
+translation=Länka anteckningar
+
+[file.links]
+original=Internal links
+translation=Interna länkar
+
+[file.manage-notes]
+original=Manage notes
+translation=Hantera anteckningar
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Hantera valv
+
+[file.mobile]
+original=Mobile app
+translation=Mobilapp
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Flera markörer
+
+[file.obsidian]
+original=About Obsidian
+translation=Om Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Officiell webbplats
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Introduktion till licenser och betalning
+
+[file.plugin-security]
+original=Plugin security
+translation=Tilläggssäkerhet
+
+[file.plugins]
+original=Core plugins
+translation=Kärntillägg
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Ljudinspelare
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Bakåtlänkar
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Bokmärken
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Kommandopalett
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Dagliga anteckningar
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Filutforskare
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Filåterställning
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Markdown-formatimportör
+
+[file.plugins/graph]
+original=Graph view
+translation=Grafvy
+
+[file.plugins/importer]
+original=Importer
+translation=Importerare
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Anteckningskompositör
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Utgående länkar
+
+[file.plugins/outline]
+original=Outline
+translation=Disposition
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Sidförhandsvisning
+
+[file.plugins/properties]
+original=Properties view
+translation=Egenskapsvy
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Snabbväxlare
+
+[file.plugins/random-note]
+original=Random note
+translation=Slumpmässig anteckning
+
+[file.plugins/search]
+original=Search
+translation=Sök
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Snedstreckskommandon
+
+[file.plugins/slides]
+original=Slides
+translation=Bildspel
+
+[file.plugins/tags]
+original=Tags view
+translation=Taggpanel
+
+[file.plugins/templates]
+original=Templates
+translation=Mallar
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Unik anteckningsskapare
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Webbvisare
+
+[file.plugins/word-count]
+original=Word count
+translation=Ordräkning
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Arbetsytor
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Fristående fönster
+
+[file.properties]
+original=Properties
+translation=Egenskaper
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Introduktion till Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=Analys
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Samarbeta på en Publish-webbplats
+
+[file.publish/customize]
+original=Customize your site
+translation=Anpassa din webbplats
+
+[file.publish/domains]
+original=Custom domains
+translation=Anpassade domäner
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Publish-begränsningar
+
+[file.publish/media]
+original=Media files
+translation=Mediefiler
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Permalänkar
+
+[file.publish/publish]
+original=Publish your content
+translation=Publicera ditt innehåll
+
+[file.publish/security]
+original=Security and privacy
+translation=Säkerhet och integritet
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Konfigurera Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=Hantera webbplatser
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Förhandsvisning av länkar på sociala medier
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Felsök Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=Återbetalningspolicy
+
+[file.resources]
+original=Help and support
+translation=Hjälp och support
+
+[file.ribbon]
+original=Ribbon
+translation=Ribbon
+
+[file.sales-tax]
+original=Sales tax
+translation=Moms
+
+[file.sandbox]
+original=Sandbox vault
+translation=Sandlådevvalv
+
+[file.settings]
+original=Settings
+translation=Inställningar
+
+[file.sidebar]
+original=Sidebar
+translation=Sidofält
+
+[file.snippets]
+original=CSS snippets
+translation=CSS-instick
+
+[file.status-bar]
+original=Status bar
+translation=Statusfält
+
+[file.style-guide]
+original=Style guide
+translation=Stilguide
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Symboliska länkar och korsningar
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Introduktion till Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Synkronisera dina anteckningar mellan enheter
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Samarbeta i ett delat valv
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Vanliga frågor
+
+[file.sync/headless]
+original=Headless Sync
+translation=Headless Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Statusikon och meddelanden
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Uppgradera synkroniseringskryptering
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Planer och lagringsgränser
+
+[file.sync/region]
+original=Sync regions
+translation=Sync-regioner
+
+[file.sync/security]
+original=Security and privacy
+translation=Säkerhet och integritet
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Synkroniseringsinställningar och selektiv synkronisering
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Konfigurera Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Byt till Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Felsök Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Lokala och fjärrvalv
+
+[file.sync/version-history]
+original=Version history
+translation=Versionshistorik
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Grundläggande formateringssyntax
+
+[file.tabs]
+original=Tabs
+translation=Flikar
+
+[file.tags]
+original=Tags
+translation=Taggar
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian för team
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Distribuera Obsidian till ditt team
+
+[file.teams/license]
+original=Commercial license
+translation=Kommersiell licens
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publicera för team
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Säkerhetsöverväganden för team
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Synkronisera för team
+
+[file.themes]
+original=Themes
+translation=Teman
+
+[file.translations]
+original=Translations
+translation=Översättningar
+
+[file.updates]
+original=Update Obsidian
+translation=Uppdatera Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Skapa ett valv
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Introduktion till Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Klipp webbsidor
+
+[file.web-clipper/filters]
+original=Filters
+translation=Filter
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Markera webbsidor
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Tolka webbsidor
+
+[file.web-clipper/logic]
+original=Logic
+translation=Logik
+
+[file.web-clipper/reader]
+original=Reader
+translation=Läsare
+
+[file.web-clipper/templates]
+original=Templates
+translation=Mallar
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Felsök Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=Variabler
+
+[file.workspace]
+original=Workspace
+translation=Arbetsyta
+
+[folder.audio]
+original=audio
+translation=ljud
+
+[folder.Changelog]
+original=Changelog
+translation=Ändringslogg
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Bidra till Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Redigera och formatera
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Utöka Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=Filer och mappar
+
+[folder.Getting started]
+original=Getting started
+translation=Kom igång
+
+[folder.icons]
+original=icons
+translation=ikoner
+
+[folder.Import notes]
+original=Import notes
+translation=Importera anteckningar
+
+[folder.Layouts]
+original=Layouts
+translation=Layout
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Licenser och betalning
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Länka anteckningar och filer
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Tillägg
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Användargränssnitt
+
+[folder.video]
+original=video
+translation=video

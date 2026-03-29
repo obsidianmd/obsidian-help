@@ -1,0 +1,895 @@
+[heading.workspace/Desktop]
+original=Desktop
+translation=Skrivbord
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=Dra flikar
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=Dra källor
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=Släppdestinationer
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=Dra från utanför Obsidian
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=Släppa filer utanför Obsidian
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=Öppna en ny flik
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=Öppna en länk
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=Organisera dina flikar och fönster
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=Ordna flikar
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=Dela en flikgrupp
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=Ändra storlek på en flikgrupp
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=Flytta flik till ett nytt fönster
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=Flytta en flik till ett annat fönster
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=Fäst en flik
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=Växla till en annan flik
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=Stapla flikgrupper
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=Länkade vyer
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=Spara layouter
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=Öppna en fil i ett nytt fönster
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=Flytta en fil till ett annat fönster
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=Öppna inställningar
+
+[heading.settings/Desktop]
+original=Desktop
+translation=Dator
+
+[heading.settings/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=Organisation av inställningar
+
+[heading.settings/General]
+original=General
+translation=Allmänt
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=Version och uppdateringar
+
+[heading.settings/Language]
+original=Language
+translation=Språk
+
+[heading.settings/Help]
+original=Help
+translation=Hjälp
+
+[heading.settings/Account]
+original=Account
+translation=Konto
+
+[heading.settings/Advanced]
+original=Advanced
+translation=Avancerat
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=Meddela om uppstarten tar längre tid än väntat
+
+[heading.settings/Editor]
+original=Editor
+translation=Redigerare
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=Fokusera alltid nya tabbar
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=Standardvy för nya tabbar
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=Normala skrivläget
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=Redigerarstatus
+
+[heading.settings/Display]
+original=Display
+translation=Visa
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=Läsbar radlängd
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=Stränga radbyten
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=Egenskaper i dokument
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=Vik in rubrik
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=Vik in förskjutningar
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=Radnummer
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=Förskjutningsmarkörer
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=Skriv högerifrån (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=Para ihop paranteser automatiskt
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=Para ihop Markdown syntax
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=Flytta fram listpunkter på ett smart sätt
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=Använd tabbar
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=Konvertera HTML automatiskt
+
+[heading.settings/Behavior]
+original=Behavior
+translation=Beteende
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=Stavningskontroll
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=Stavningskontrollsspråk
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=Tabbstorlek
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Vim tangentbindningar
+
+[heading.settings/Files and links]
+original=Files and links
+translation=Filer och länkar
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=Stället där nya anteckningar hamnar
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=Stället där nya bilagor hamnar
+
+[heading.settings/Links]
+original=Links
+translation=Länkar
+
+[heading.settings/New link format]
+original=New link format
+translation=Nytt länkformat
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=Uppdatera interna länkar
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=Använd wikilänkar
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=Visa alla filtyper
+
+[heading.settings/Trash]
+original=Trash
+translation=Papperskorg
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=Bekräfta filradering
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=Raderade filer
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=Exkluderade filer
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=Överstyr konfigurationsmappen
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=Tillåt URI-callbacks
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=Bygg om valvets cache
+
+[heading.settings/Appearance]
+original=Appearance
+translation=Utseende
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=Bastema
+
+[heading.settings/Accent color]
+original=Accent color
+translation=Accentfärg
+
+[heading.settings/Themes]
+original=Themes
+translation=Teman
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=Nuvarande community-teman
+
+[heading.settings/Font]
+original=Font
+translation=Typsnitt
+
+[heading.settings/Interface font]
+original=Interface font
+translation=Gränssnittstypsnitt
+
+[heading.settings/Text font]
+original=Text font
+translation=Texttypsnitt
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=Typsnitt där alla bokstäver är lika breda
+
+[heading.settings/Font size]
+original=Font size
+translation=Typsnittsstorlek
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=Snabb typsnittsstorleksändring
+
+[heading.settings/Interface]
+original=Interface
+translation=Gränssnitt
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=Inbäddad rubrik
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=Visa tabbars titel-bar
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=Visa ribbon
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=Ribbon-meny
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=Inzoomningsnivå
+
+[heading.settings/Native menus]
+original=Native menus
+translation=Native-menyer
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=Fönsterramens stil
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=Anpassad appikon
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=Genomskinligt fönster
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=Hårdvaruacceleration
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=CSS-instick
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=Snabbkommandon
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=Kärntillägg
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=Gemenskapstillägg
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=Begränsat läge
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=Nuvarande tillägg
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=Installerade tillägg
+
+[heading.ribbon/Actions]
+original=Actions
+translation=Åtgärder
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=Anpassa ribbon
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=Skrivbord
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=Dölj ribbon
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=Visa ribbon
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=Snabbåtkomst
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=Ordna om och synlighet
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=Öppna dolda sidofält
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=Datorer och större surfplattor
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=Mobiler och mindre surfplattor
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=Flikar
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=Öppna eller återöppna flikar
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=Stäng flikar
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=Ordna om flikar
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=Fäst flikar
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=Flikgrupper
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=Skapa flikgrupper
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=Stäng flikgrupper
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=Visa tangentbordsgenvägar
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=Ställa in en tangentbordsgenväg
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=Ta bort en tangentbordsgenväg
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=Filtrera tangentbordsgenvägar
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=Icke-amerikanska tangentbordslayouter
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=Standardkortkommandon
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=Färgschema
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=Anpassade teman
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=Anpassad appikon
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=Genomskinlighet
+
+[heading.bases/syntax/Example]
+original=Example
+translation=Exempel
+
+[heading.bases/syntax/Filters]
+original=Filters
+translation=Filter
+
+[heading.bases/syntax/Formulas]
+original=Formulas
+translation=Formler
+
+[heading.bases/syntax/Properties]
+original=Properties
+translation=Egenskaper
+
+[heading.bases/syntax/Summaries]
+original=Summaries
+translation=Sammanfattningar
+
+[heading.bases/syntax/Default Summary Formulas]
+original=Default Summary Formulas
+translation=Standardsammanfattningsformler
+
+[heading.bases/syntax/Views]
+original=Views
+translation=Vyer
+
+[heading.bases/syntax/Note properties]
+original=Note properties
+translation=Anteckningsegenskaper
+
+[heading.bases/syntax/File properties]
+original=File properties
+translation=Filegenskaper
+
+[heading.bases/syntax/Access properties with `this`]
+original=Access properties with `this`
+translation=Åtkomst till egenskaper med `this`
+
+[heading.bases/syntax/Operators]
+original=Operators
+translation=Operatorer
+
+[heading.bases/syntax/Arithmetic operators]
+original=Arithmetic operators
+translation=Aritmetiska operatorer
+
+[heading.bases/syntax/Date arithmetic]
+original=Date arithmetic
+translation=Datumaritmetik
+
+[heading.bases/syntax/Comparison operators]
+original=Comparison operators
+translation=Jämförelseoperatorer
+
+[heading.bases/syntax/Boolean operators]
+original=Boolean operators
+translation=Booleska operatorer
+
+[heading.bases/syntax/Functions]
+original=Functions
+translation=Funktioner
+
+[heading.bases/syntax/Types]
+original=Types
+translation=Typer
+
+[heading.bases/syntax/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=Strängar, tal och booleska värden
+
+[heading.bases/syntax/Dates and durations]
+original=Dates and durations
+translation=Datum och varaktigheter
+
+[heading.bases/syntax/Objects and lists]
+original=Objects and lists
+translation=Objekt och listor
+
+[heading.bases/syntax/Files and links]
+original=Files and links
+translation=Filer och länkar
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=Vad formler kan göra
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=Skapa en formelegenskap
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=Skriv en formel
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=Referera egenskaper
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=Använd operatorer
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=Använd funktioner
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=Formelexempel
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=Beräkna en deadline
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=Visa förseningsstatus
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=Formatera valuta
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=Räkna listobjekt
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=Beräkna prioritetspoäng
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=Kombinera textfält
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=Beräkna totalkostnad
+
+[heading.formulas/Data types]
+original=Data types
+translation=Datatyper
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=Referera andra formler
+
+[heading.bases/functions/Global]
+original=Global
+translation=Globala
+
+[heading.bases/functions/Fields]
+original=Fields
+translation=Fält
+
+[heading.bases/functions/Regular expression]
+original=Regular expression
+translation=Reguljärt uttryck
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Hur du använder baser
+
+[heading.bases/View types]
+original=View types
+translation=Vytyper
+
+[heading.bases/views/map/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Installera Maps-tillägget
+
+[heading.bases/views/map/Example]
+original=Example
+translation=Exempel
+
+[heading.bases/views/map/Settings]
+original=Settings
+translation=Inställningar
+
+[heading.bases/views/map/Markers]
+original=Markers
+translation=Markörer
+
+[heading.bases/views/map/Coordinates]
+original=Coordinates
+translation=Koordinater
+
+[heading.bases/views/map/Icons]
+original=Icons
+translation=Ikoner
+
+[heading.bases/views/map/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Använd en formel för att definiera ikoner
+
+[heading.bases/views/map/Colors]
+original=Colors
+translation=Färger
+
+[heading.bases/views/map/Background]
+original=Background
+translation=Bakgrund
+
+[heading.bases/views/map/Map tiles]
+original=Map tiles
+translation=Kartrutor
+
+[heading.bases/views/map/Useful links]
+original=Useful links
+translation=Användbara länkar
+
+[heading.bases/views/map/Troubleshooting]
+original=Troubleshooting
+translation=Felsökning
+
+[heading.bases/views/cards/Settings]
+original=Settings
+translation=Inställningar
+
+[heading.bases/views/cards/Card size]
+original=Card size
+translation=Kortstorlek
+
+[heading.bases/views/cards/Image property]
+original=Image property
+translation=Bildegenskap
+
+[heading.bases/views/cards/Image fit]
+original=Image fit
+translation=Bildanpassning
+
+[heading.bases/views/cards/Image aspect ratio]
+original=Image aspect ratio
+translation=Bildförhållande
+
+[heading.bases/views/list/Settings]
+original=Settings
+translation=Inställningar
+
+[heading.bases/views/list/Markers]
+original=Markers
+translation=Markörer
+
+[heading.bases/views/list/Indent properties]
+original=Indent properties
+translation=Gör indrag för egenskaper
+
+[heading.bases/views/list/Separators]
+original=Separators
+translation=Avgränsare
+
+[heading.bases/views/table/Settings]
+original=Settings
+translation=Inställningar
+
+[heading.bases/views/table/Row height]
+original=Row height
+translation=Radhöjd
+
+[heading.bases/views/table/Summaries]
+original=Summaries
+translation=Sammanfattningar
+
+[heading.bases/views/table/Add a summary]
+original=Add a summary
+translation=Lägg till en sammanfattning
+
+[heading.bases/views/table/Built-in summaries]
+original=Built-in summaries
+translation=Inbyggda sammanfattningar
+
+[heading.bases/views/table/All property types]
+original=All property types
+translation=Alla egenskapstyper
+
+[heading.bases/views/table/Numbers]
+original=Numbers
+translation=Nummer
+
+[heading.bases/views/table/Dates]
+original=Dates
+translation=Datum
+
+[heading.bases/views/table/Checkbox]
+original=Checkbox
+translation=Kryssruta
+
+[heading.bases/views/table/Custom summaries]
+original=Custom summaries
+translation=Anpassade sammanfattningar
+
+[heading.bases/views/table/Shortcuts]
+original=Shortcuts
+translation=Genvägar
+
+[heading.bases/create-base/Create a new base]
+original=Create a new base
+translation=Skapa en ny bas
+
+[heading.bases/create-base/Embed a base]
+original=Embed a base
+translation=Bädda in en bas
+
+[heading.bases/create-base/Embed a base file]
+original=Embed a base file
+translation=Bädda in en basfil
+
+[heading.bases/create-base/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Bädda in en bas som ett kodblock
+
+[heading.bases/views/Toolbar]
+original=Toolbar
+translation=Verktygsfält
+
+[heading.bases/views/Add and switch views]
+original=Add and switch views
+translation=Lägg till och växla vyer
+
+[heading.bases/views/View settings]
+original=View settings
+translation=Vyinställningar
+
+[heading.bases/views/Filters]
+original=Filters
+translation=Filter
+
+[heading.bases/views/Components of a filter]
+original=Components of a filter
+translation=Komponenter i ett filter
+
+[heading.bases/views/Conjunctions]
+original=Conjunctions
+translation=Konjunktioner
+
+[heading.bases/views/Filter groups]
+original=Filter groups
+translation=Filtergrupper
+
+[heading.bases/views/Advanced filter editor]
+original=Advanced filter editor
+translation=Avancerad filterredigerare
+
+[heading.bases/views/Sort and group results]
+original=Sort and group results
+translation=Sortera och gruppera resultat
+
+[heading.bases/views/Add a sort]
+original=Add a sort
+translation=Lägg till en sortering
+
+[heading.bases/views/Remove a sort]
+original=Remove a sort
+translation=Ta bort en sortering
+
+[heading.bases/views/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Begränsa, kopiera och exportera resultat
+
+[heading.bases/views/Limit results]
+original=Limit results
+translation=Begränsa resultat
+
+[heading.bases/views/Copy to clipboard]
+original=Copy to clipboard
+translation=Kopiera till urklipp
+
+[heading.bases/views/Export CSV]
+original=Export CSV
+translation=Exportera CSV
+
+[heading.bases/views/Embed a view]
+original=Embed a view
+translation=Bädda in en vy
