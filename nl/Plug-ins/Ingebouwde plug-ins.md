@@ -18,64 +18,64 @@ Het Obsidian-team onderhoudt ook de ontwikkeling van bepaalde [[#Overige plug-in
 
 ### Alle kernplug-ins
 
-- [[Geluidsrecorder]]
-	- Neem audio op en sla opnames direct op in een notitie.
-- [[Terugverwijzing]]
-	- Bekijk alle koppelingen en niet-gekoppelde vermeldingen van een notitie.
 - [[Introductie tot Bases|Bases]]
 	- Maak aangepaste weergaven waarmee je bestanden kunt bewerken, sorteren en filteren op basis van hun eigenschappen.
-- [[Bladwijzers]]
-	- Sla koppelingen op naar notities, koppen, zoekopdrachten en meer.
-- [[Doek]]
-	- Organiseer notities visueel met een oneindig canvas om ideeën uit te werken.
-- [[Opdrachtenpaneel]]
-	- Voer snel opdrachten uit vanuit je toetsenbord.
-- [[Dagnotities]]
-	- Maak en open notities op basis van de huidige datum.
-- [[Bestandsverkenner]]
-	- Blader door bestanden en mappen in je kluis.
 - [[Bestanden herstellen]]
 	- Herstel je werk vanuit reguliere momentopnames.
-- [[Markdown-indeling importeren]]
-	- Converteer Markdown van andere apps naar de Obsidian-indeling.
+- [[Bestandsverkenner]]
+	- Blader door bestanden en mappen in je kluis.
+- [[Bladwijzers]]
+	- Sla koppelingen op naar notities, koppen, zoekopdrachten en meer.
+- [[Dagnotities]]
+	- Maak en open notities op basis van de huidige datum.
+- [[Dia's]]
+	- Maak een presentatie van je notities.
+- [[Doek]]
+	- Organiseer notities visueel met een oneindig canvas om ideeën uit te werken.
+- [[Eigenschappenvenster]]
+	- Toon alle eigenschappen in je kluis en bekijk eigenschappen voor de actieve notitie.
+- [[Geluidsrecorder]]
+	- Neem audio op en sla opnames direct op in een notitie.
 - [[Grafiek weergave]]
 	- Visualiseer relaties tussen notities in je kluis.
+- [[Labelvenster|Labelvenster]]
+	- Toon alle labels in je kluis.
+- [[Markdown-indeling importeren]]
+	- Converteer Markdown van andere apps naar de Obsidian-indeling.
 - [[Notitiesamensteller]]
 	- Splits, refactor en voeg notities samen.
-- [[Uitgaande verwijzingen]]
-	- Toon alle koppelingen voor de actieve notitie.
+- [[Opdrachtenpaneel]]
+	- Voer snel opdrachten uit vanuit je toetsenbord.
 - [[Overzicht]]
 	- Toon de inhoudsopgave voor de actieve notitie.
 - [[Paginavoorbeeld]]
 	- Bekijk een voorbeeld van de inhoud van een notitie door over koppelingen te zweven.
-- [[Eigenschappenvenster]]
-	- Toon alle eigenschappen in je kluis en bekijk eigenschappen voor de actieve notitie.
 - [[Inleiding tot Obsidian Publish|Publiceren]]
 	- Host je notities als website, wiki of documentatie.
-- [[Snel wisselen]]
-	- Zoek, maak en open notities vanuit je toetsenbord.
-- [[Willekeurige notitie]]
-	- Opent een willekeurige notitie in je kluis.
-- [[Zoeken]]
-	- Zoek bestanden in je kluis.
-- [[Slash-opdrachten]]
-	- Voer opdrachten uit in de editor met behulp van de `/`-toets.
-- [[Dia's]]
-	- Maak een presentatie van je notities.
-- [[Introductie tot Obsidian Sync|Synchronisatie]]
-	- Synchroniseer je notities tussen apparaten.
-- [[Labelvenster|Labelvenster]]
-	- Toon alle labels in je kluis.
 - [[Plug-ins/Sjablonen|Sjablonen]]
 	- Voeg vooraf gedefinieerde inhoud in je notities in.
+- [[Slash-opdrachten]]
+	- Voer opdrachten uit in de editor met behulp van de `/`-toets.
+- [[Snel wisselen]]
+	- Zoek, maak en open notities vanuit je toetsenbord.
+- [[Introductie tot Obsidian Sync|Synchronisatie]]
+	- Synchroniseer je notities tussen apparaten.
+- [[Terugverwijzing]]
+	- Bekijk alle koppelingen en niet-gekoppelde vermeldingen van een notitie.
+- [[Uitgaande verwijzingen]]
+	- Toon alle koppelingen voor de actieve notitie.
 - [[Uniekenotitiesmaker]]
 	- Maak een unieke notitie met een op tijd gebaseerde titel.
 - [[Webviewer]]
 	- Open externe koppelingen in Obsidian.
-- [[Woordenaantal]]
-	- Toon het aantal woorden en tekens.
 - [[Werkbladen]]
 	- Sla lay-outs op en wissel ertussen.
+- [[Willekeurige notitie]]
+	- Opent een willekeurige notitie in je kluis.
+- [[Woordenaantal]]
+	- Toon het aantal woorden en tekens.
+- [[Zoeken]]
+	- Zoek bestanden in je kluis.
 
 ### Overige plug-ins
 

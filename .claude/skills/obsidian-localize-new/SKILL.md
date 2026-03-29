@@ -105,6 +105,7 @@ npx tsx scripts/translate-locale.ts <locale> --limit 20
 npx tsx scripts/check-links.ts <locale>         # broken wikilinks
 npx tsx scripts/check-terms.ts <locale>         # unofficial terminology
 npx tsx scripts/check-terms.ts <locale> --fix   # auto-correct
+npx tsx scripts/sort-core-plugins.ts <locale>   # sort core plugins page alphabetically
 ```
 
 Fix any broken wikilinks before publishing. The lint script cross-references official plugin/feature names from obsidian-translations.
@@ -120,7 +121,7 @@ Create `<locale>/publish.strings.js` with translated UI strings for the Publish 
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = '<Search pages or headings...>';
+    el.placeholder = '<Search...>';  // short form — match other locales (e.g. "Suchen...", "Поиск...")
     el = document.querySelector('.site-footer a');
     if (el) el.textContent = '<Powered by Obsidian Publish>';
     el = document.querySelector('.graph-view-outer span:last-child');
