@@ -925,3 +925,39 @@ translation=Ενσωμάτωση βίντεο YouTube
 [heading.embed-web-pages/Embed a tweet]
 original=Embed a tweet
 translation=Ενσωμάτωση tweet
+
+[heading.plugins/search/Search terms]
+original=Search terms
+translation=Όροι αναζήτησης
+
+[heading.plugins/search/Search operators]
+original=Search operators
+translation=Τελεστές αναζήτησης
+
+[heading.plugins/search/Search properties]
+original=Search properties
+translation=Αναζήτηση ιδιοτήτων
+
+[heading.plugins/search/Change case sensitivity]
+original=Change case sensitivity
+translation=Αλλαγή διάκρισης πεζών-κεφαλαίων
+
+[heading.plugins/search/Change result sort order]
+original=Change result sort order
+translation=Αλλαγή σειράς ταξινόμησης αποτελεσμάτων
+
+[heading.plugins/search/Copy search results]
+original=Copy search results
+translation=Αντιγραφή αποτελεσμάτων αναζήτησης
+
+[heading.plugins/search/Use regular expressions]
+original=Use regular expressions
+translation=Χρήση κανονικών εκφράσεων
+
+[heading.plugins/search/Configure search settings]
+original=Configure search settings
+translation=Ρύθμιση παραμέτρων αναζήτησης
+
+[heading.plugins/search/Embed search results in a note]
+original=Embed search results in a note
+translation=Ενσωμάτωση αποτελεσμάτων αναζήτησης σε μια σημείωση

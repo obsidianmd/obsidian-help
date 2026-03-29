@@ -1,6 +1,6 @@
 ---
 permalink: cli
-description: Anything you can do in Obsidian can be done from the command line.
+description: Οτιδήποτε μπορείτε να κάνετε στο Obsidian μπορεί να γίνει από τη γραμμή εντολών.
 ---
 Το Obsidian CLI είναι μια διεπαφή γραμμής εντολών που σας επιτρέπει να ελέγχετε το Obsidian από το τερματικό σας για scripting, αυτοματισμό και ενσωμάτωση με εξωτερικά εργαλεία.
 
