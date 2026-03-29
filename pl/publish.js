@@ -13,6 +13,7 @@
     { code: 'ja',    label: '日本語',                base: 'https://obsidian.md/ja/help' },
     { code: 'km',    label: 'ខ្មែរ',              base: 'https://obsidian.md/km/help' },
     { code: 'ko',    label: '한국어',                base: 'https://obsidian.md/ko/help' },
+    { code: 'nl',    label: 'Nederlands',         base: 'https://obsidian.md/nl/help' },
     { code: 'pl',    label: 'Polski',             base: 'https://obsidian.md/pl/help' },
     { code: 'pt-BR', label: 'Português (Brasil)', base: 'https://obsidian.md/pt-BR/help' },
     { code: 'ru',    label: 'Русский',            base: 'https://obsidian.md/ru/help' },

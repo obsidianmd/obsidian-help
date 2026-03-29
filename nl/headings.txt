@@ -1,0 +1,1339 @@
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=Synchroniseren is geen back-up
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=Gebruik communityplug-ins
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=Gebruik cloudgebaseerde services
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=Gebruik externe schijven
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=Gebruik computerback-ups
+
+[heading.backup/Next steps]
+original=Next steps
+translation=Volgende stappen
+
+[heading.vault/Create empty vault]
+original=Create empty vault
+translation=Lege kluis aanmaken
+
+[heading.vault/Open existing folder]
+original=Open existing folder
+translation=Bestaande map openen
+
+[heading.create-note/Create a new note]
+original=Create a new note
+translation=Een nieuwe notitie aanmaken
+
+[heading.create-note/Formatting text]
+original=Formatting text
+translation=Tekst opmaken
+
+[heading.create-note/Learn more]
+original=Learn more
+translation=Meer informatie
+
+[heading.mobile/Widgets, shortcuts, and Siri]
+original=Widgets, shortcuts, and Siri
+translation=Widgets, snelkoppelingen en Siri
+
+[heading.mobile/Mobile toolbar]
+original=Mobile toolbar
+translation=Mobiele werkbalk
+
+[heading.mobile/Customize mobile toolbar]
+original=Customize mobile toolbar
+translation=Mobiele werkbalk aanpassen
+
+[heading.mobile/Add command to mobile toolbar]
+original=Add command to mobile toolbar
+translation=Opdracht toevoegen aan mobiele werkbalk
+
+[heading.mobile/Quick Action]
+original=Quick Action
+translation=Snelle actie
+
+[heading.mobile/Customize Quick Action]
+original=Customize Quick Action
+translation=Snelle actie aanpassen
+
+[heading.mobile/Navigation bar]
+original=Navigation bar
+translation=Navigatiebalk
+
+[heading.mobile/Go back or forward]
+original=Go back or forward
+translation=Ga terug of vooruit
+
+[heading.mobile/Create or find note]
+original=Create or find note
+translation=Notitie aanmaken of zoeken
+
+[heading.mobile/Tab management]
+original=Tab management
+translation=Tabbladbeheer
+
+[heading.mobile/Ribbon actions]
+original=Ribbon actions
+translation=Werkbalkacties
+
+[heading.mobile/Sidebars]
+original=Sidebars
+translation=Zijbalken
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=Importeren vanuit andere apps en bestandsformaten
+
+[heading.import/More formats]
+original=More formats
+translation=Meer formaten
+
+[heading.import/Export your data from Craft]
+original=Export your data from Craft
+translation=Je gegevens exporteren vanuit Craft
+
+[heading.import/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=Je Craft-gegevens importeren in Obsidian
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Probleemoplossing
+
+[heading.link-notes/Create a link]
+original=Create a link
+translation=Een koppeling maken
+
+[heading.link-notes/Create a link to a non-existing note]
+original=Create a link to a non-existing note
+translation=Een koppeling naar een niet-bestaande notitie maken
+
+[heading.link-notes/Navigate between notes]
+original=Navigate between notes
+translation=Navigeren tussen notities
+
+[heading.link-notes/Learn more]
+original=Learn more
+translation=Meer informatie
+
+[heading.sync-notes/Syncing methods]
+original=Syncing methods
+translation=Synchronisatiemethoden
+
+[heading.sync-notes/iPhone and iPad syncing]
+original=iPhone and iPad syncing
+translation=Synchronisatie op iPhone en iPad
+
+[heading.sync-notes/Frequently asked questions]
+original=Frequently asked questions
+translation=Veelgestelde vragen
+
+[heading.updates/Check for updates and view version]
+original=Check for updates and view version
+translation=Controleer op updates en bekijk de versie
+
+[heading.updates/Disable automatic updates]
+original=Disable automatic updates
+translation=Automatisch bijwerken uitschakelen
+
+[heading.updates/Installer updates]
+original=Installer updates
+translation=Installatieprogramma-updates
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=Obsidian installeren op Windows
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=Obsidian installeren op macOS
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=Obsidian installeren op Linux
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=Obsidian installeren met Snap
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=Obsidian installeren met AppImage
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=Obsidian installeren met Flatpak
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=Obsidian installeren op Android
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=Obsidian installeren op iPhone en iPad
+
+[heading.sandbox/Opening the sandbox vault]
+original=Opening the sandbox vault
+translation=De sandboxkluis openen
+
+[heading.sandbox/Close the sandbox vault]
+original=Close the sandbox vault
+translation=De sandboxkluis sluiten
+
+[heading.glossary/Attachment]
+original=Attachment
+translation=Bijlage
+
+[heading.glossary/Command]
+original=Command
+translation=Opdracht
+
+[heading.glossary/Embed]
+original=Embed
+translation=Insluiten
+
+[heading.glossary/Frontmatter]
+original=Frontmatter
+translation=Voormetadata
+
+[heading.glossary/Graph]
+original=Graph
+translation=Grafiek
+
+[heading.glossary/Hotkey]
+original=Hotkey
+translation=Sneltoets
+
+[heading.glossary/Link]
+original=Link
+translation=Koppeling
+
+[heading.glossary/Main area]
+original=Main area
+translation=Hoofdgebied
+
+[heading.glossary/Note]
+original=Note
+translation=Notitie
+
+[heading.glossary/Plugin]
+original=Plugin
+translation=Plug-in
+
+[heading.glossary/Pop-out window]
+original=Pop-out window
+translation=Losstaand venster
+
+[heading.glossary/Property]
+original=Property
+translation=Eigenschap
+
+[heading.glossary/Ribbon]
+original=Ribbon
+translation=Werkbalk
+
+[heading.glossary/Sidebar]
+original=Sidebar
+translation=Zijbalk
+
+[heading.glossary/Status bar]
+original=Status bar
+translation=Statusbalk
+
+[heading.glossary/Tab]
+original=Tab
+translation=Tabblad
+
+[heading.glossary/Tab group]
+original=Tab group
+translation=Tabbladgroep
+
+[heading.glossary/Theme]
+original=Theme
+translation=Thema
+
+[heading.glossary/Vault]
+original=Vault
+translation=Kluis
+
+[heading.glossary/Remote vault]
+original=Remote vault
+translation=Externe kluis
+
+[heading.glossary/View]
+original=View
+translation=Weergave
+
+[heading.sync/Manage users]
+original=Manage users
+translation=Gebruikers beheren
+
+[heading.sync/Add users]
+original=Add users
+translation=Gebruikers toevoegen
+
+[heading.sync/Remove users]
+original=Remove users
+translation=Gebruikers verwijderen
+
+[heading.sync/Collaborate with your team]
+original=Collaborate with your team
+translation=Samenwerken met je team
+
+[heading.sync/Permissions]
+original=Permissions
+translation=Rechten
+
+[heading.sync/Live editing]
+original=Live editing
+translation=Live bewerken
+
+[heading.sync/Limitations]
+original=Limitations
+translation=Beperkingen
+
+[heading.sync/Sync status icon]
+original=Sync status icon
+translation=Synchronisatiestatuspictogram
+
+[heading.sync/Sync activity log]
+original=Sync activity log
+translation=Synchronisatieactiviteitenlogboek
+
+[heading.sync/General messages]
+original=General messages
+translation=Algemene berichten
+
+[heading.sync/Error messages]
+original=Error messages
+translation=Foutberichten
+
+[heading.sync/Skipped messages]
+original=Skipped messages
+translation=Overgeslagen berichten
+
+[heading.sync/Account messages]
+original=Account messages
+translation=Accountberichten
+
+[heading.sync/Network messages]
+original=Network messages
+translation=Netwerkberichten
+
+[heading.sync/Sync settings]
+original=Sync settings
+translation=Sync-instellingen
+
+[heading.sync/Conflict resolution]
+original=Conflict resolution
+translation=Conflictoplossing
+
+[heading.sync/Selective syncing]
+original=Selective syncing
+translation=Selectieve synchronisatie
+
+[heading.sync/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=De bestandstypen wijzigen die je wilt synchroniseren
+
+[heading.sync/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=Een map uitsluiten van synchronisatie
+
+[heading.sync/Always excluded from sync]
+original=Always excluded from sync
+translation=Altijd uitgesloten van synchronisatie
+
+[heading.sync/File recovery snapshots]
+original=File recovery snapshots
+translation=Momentopnames van bestandsherstel
+
+[heading.sync/Hidden files and folders]
+original=Hidden files and folders
+translation=Verborgen bestanden en mappen
+
+[heading.sync/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=Je gesynchroniseerde kluisinstellingen bijwerken
+
+[heading.sync/Primary device]
+original=Primary device
+translation=Primair apparaat
+
+[heading.sync/Secondary device(s)]
+original=Secondary device(s)
+translation=Secundair(e) apparaat(en)
+
+[heading.sync/Reloading of settings]
+original=Reloading of settings
+translation=Herladen van instellingen
+
+[heading.sync/Settings profiles]
+original=Settings profiles
+translation=Instellingenprofielen
+
+[heading.sync/Create a settings profile]
+original=Create a settings profile
+translation=Een instellingenprofiel aanmaken
+
+[heading.sync/Available regions]
+original=Available regions
+translation=Beschikbare regio's
+
+[heading.sync/Change Sync region]
+original=Change Sync region
+translation=Sync-regio wijzigen
+
+[heading.sync/Encryption versions]
+original=Encryption versions
+translation=Versleutelingsversies
+
+[heading.sync/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=Versleuteling upgraden met de migratieassistent
+
+[heading.sync/General]
+original=General
+translation=Algemeen
+
+[heading.sync/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Welke besturingssystemen ondersteunt Obsidian Sync?
+
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Werkt Obsidian met de Lockdown-modus van Apple?
+
+[heading.sync/What type of data is synced?]
+original=What type of data is synced?
+translation=Welk type gegevens wordt gesynchroniseerd?
+
+[heading.sync/How much storage do I have?]
+original=How much storage do I have?
+translation=Hoeveel opslagruimte heb ik?
+
+[heading.sync/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=Hoeveel externe kluizen kan ik hebben?
+
+[heading.sync/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=Hoe groot kan elke externe kluis zijn?
+
+[heading.sync/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=Met hoeveel mensen kan ik een externe kluis delen?
+
+[heading.sync/How large can each file be?]
+original=How large can each file be?
+translation=Hoe groot kan elk bestand zijn?
+
+[heading.sync/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=Worden mijn gegevens op de achtergrond gesynchroniseerd?
+
+[heading.sync/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Herlaadt Obsidian Sync mijn instellingen live?
+
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=Kan ik synchronisatie van derden gebruiken samen met Obsidian Sync?
+
+[heading.sync/Data retention]
+original=Data retention
+translation=Gegevensbewaring
+
+[heading.sync/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=Hoe lang bewaren jullie de versiegeschiedenis?
+
+[heading.sync/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=Hoe lang bewaren jullie mijn gegevens nadat mijn abonnement verloopt?
+
+[heading.sync/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=Bewaren jullie mijn gegevens als ik mijn abonnement laat restitueren?
+
+[heading.sync/Sync history]
+original=Sync history
+translation=Synchronisatiegeschiedenis
+
+[heading.sync/Show Sync history]
+original=Show Sync history
+translation=Synchronisatiegeschiedenis tonen
+
+[heading.sync/Enable via Command palette]
+original=Enable via Command palette
+translation=Activeren via opdrachtenpalet
+
+[heading.sync/Enable via Hotkey]
+original=Enable via Hotkey
+translation=Activeren via sneltoets
+
+[heading.sync/Version history]
+original=Version history
+translation=Versiegeschiedenis
+
+[heading.sync/Notes and attachments]
+original=Notes and attachments
+translation=Notities en bijlagen
+
+[heading.sync/View version history of a file]
+original=View version history of a file
+translation=Versiegeschiedenis van een bestand bekijken
+
+[heading.sync/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=Versiegeschiedenis van een verwijderd of hernoemd bestand bekijken
+
+[heading.sync/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=Een eerdere versie van een bestand herstellen
+
+[heading.sync/Restore a deleted file]
+original=Restore a deleted file
+translation=Een verwijderd bestand herstellen
+
+[heading.sync/Settings history]
+original=Settings history
+translation=Instellingengeschiedenis
+
+[heading.sync/View version history of a setting]
+original=View version history of a setting
+translation=Versiegeschiedenis van een instelling bekijken
+
+[heading.sync/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=Een eerdere versie van een instelling herstellen
+
+[heading.web-clipper/Dates]
+original=Dates
+translation=Datums
+
+[heading.web-clipper/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=Tekstconversie en hoofdlettergebruik
+
+[heading.web-clipper/Text formatting]
+original=Text formatting
+translation=Tekstopmaak
+
+[heading.web-clipper/Numbers]
+original=Numbers
+translation=Getallen
+
+[heading.web-clipper/HTML processing]
+original=HTML processing
+translation=HTML-verwerking
+
+[heading.web-clipper/Arrays and objects]
+original=Arrays and objects
+translation=Arrays en objecten
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=Web Clipper installeren
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=Web Clipper gebruiken
+
+[heading.web-clipper/Activate reading mode]
+original=Activate reading mode
+translation=Leesmodus activeren
+
+[heading.web-clipper/How it works]
+original=How it works
+translation=Hoe het werkt
+
+[heading.web-clipper/Customize the reading view]
+original=Customize the reading view
+translation=De leesweergave aanpassen
+
+[heading.web-clipper/Conditionals]
+original=Conditionals
+translation=Voorwaarden
+
+[heading.web-clipper/Comparison operators]
+original=Comparison operators
+translation=Vergelijkingsoperatoren
+
+[heading.web-clipper/Logical operators]
+original=Logical operators
+translation=Logische operatoren
+
+[heading.web-clipper/Truthiness]
+original=Truthiness
+translation=Waarheidsgetrouwheid
+
+[heading.web-clipper/Assign a variable]
+original=Assign a variable
+translation=Een variabele toewijzen
+
+[heading.web-clipper/Fallbacks]
+original=Fallbacks
+translation=Terugvalwaarden
+
+[heading.web-clipper/Chaining fallbacks]
+original=Chaining fallbacks
+translation=Terugvalwaarden koppelen
+
+[heading.web-clipper/With filters]
+original=With filters
+translation=Met filters
+
+[heading.web-clipper/Loops]
+original=Loops
+translation=Lussen
+
+[heading.web-clipper/Loop sources]
+original=Loop sources
+translation=Lusbronnen
+
+[heading.web-clipper/Loop variables]
+original=Loop variables
+translation=Lusvariabelen
+
+[heading.web-clipper/Accessing array items by index]
+original=Accessing array items by index
+translation=Array-items benaderen via index
+
+[heading.web-clipper/Nested loops]
+original=Nested loops
+translation=Geneste lussen
+
+[heading.web-clipper/Combine logic]
+original=Combine logic
+translation=Logica combineren
+
+[heading.web-clipper/Evaluation order]
+original=Evaluation order
+translation=Evaluatievolgorde
+
+[heading.web-clipper/General]
+original=General
+translation=Algemeen
+
+[heading.web-clipper/Some content is missing]
+original=Some content is missing
+translation=Er ontbreekt inhoud
+
+[heading.web-clipper/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=Er verschijnt geen inhoud in Obsidian
+
+[heading.web-clipper/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian opent niet
+
+[heading.web-clipper/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian opent maar alleen de bestandsnaam wordt opgeslagen
+
+[heading.web-clipper/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS en iPadOS
+
+[heading.web-clipper/Create or edit a template]
+original=Create or edit a template
+translation=Een sjabloon aanmaken of bewerken
+
+[heading.web-clipper/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=Web Clipper-sjablonen importeren en exporteren
+
+[heading.web-clipper/Template settings]
+original=Template settings
+translation=Sjablooninstellingen
+
+[heading.web-clipper/Behavior]
+original=Behavior
+translation=Gedrag
+
+[heading.web-clipper/Automatically trigger a template]
+original=Automatically trigger a template
+translation=Automatisch een sjabloon activeren
+
+[heading.web-clipper/Simple URL matching]
+original=Simple URL matching
+translation=Eenvoudige URL-matching
+
+[heading.web-clipper/Regular expression matching]
+original=Regular expression matching
+translation=Reguliere-expressiematching
+
+[heading.web-clipper/Schema.org matching]
+original=Schema.org matching
+translation=Schema.org-matching
+
+[heading.web-clipper/Preset variables]
+original=Preset variables
+translation=Vooringestelde variabelen
+
+[heading.web-clipper/Prompt variables]
+original=Prompt variables
+translation=Promptvariabelen
+
+[heading.web-clipper/When to use prompt variables]
+original=When to use prompt variables
+translation=Wanneer promptvariabelen gebruiken
+
+[heading.web-clipper/Examples]
+original=Examples
+translation=Voorbeelden
+
+[heading.web-clipper/Meta variables]
+original=Meta variables
+translation=Metavariabelen
+
+[heading.web-clipper/Selector variables]
+original=Selector variables
+translation=Selectorvariabelen
+
+[heading.web-clipper/Schema.org variables]
+original=Schema.org variables
+translation=Schema.org-variabelen
+
+[heading.web-clipper/Turn on highlighter]
+original=Turn on highlighter
+translation=Markeerder inschakelen
+
+[heading.web-clipper/Highlighter settings]
+original=Highlighter settings
+translation=Markeerderinstellingen
+
+[heading.web-clipper/Examples of prompts]
+original=Examples of prompts
+translation=Voorbeelden van prompts
+
+[heading.web-clipper/Get started]
+original=Get started
+translation=Aan de slag
+
+[heading.web-clipper/Models]
+original=Models
+translation=Modellen
+
+[heading.web-clipper/Preset providers]
+original=Preset providers
+translation=Vooraf ingestelde providers
+
+[heading.web-clipper/Choosing a model]
+original=Choosing a model
+translation=Een model kiezen
+
+[heading.web-clipper/Custom providers and models]
+original=Custom providers and models
+translation=Aangepaste providers en modellen
+
+[heading.web-clipper/Local models]
+original=Local models
+translation=Lokale modellen
+
+[heading.web-clipper/Capture a page]
+original=Capture a page
+translation=Een pagina vastleggen
+
+[heading.web-clipper/Download images]
+original=Download images
+translation=Afbeeldingen downloaden
+
+[heading.web-clipper/Hotkeys]
+original=Hotkeys
+translation=Sneltoetsen
+
+[heading.web-clipper/Interface functionality]
+original=Interface functionality
+translation=Interfacefunctionaliteit
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=Een fragment toevoegen
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=CSS schrijven voor Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=Meer informatie
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=Door communityplug-ins bladeren
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=Een communityplug-in installeren
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=Een communityplug-in activeren
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=Plug-ins bijwerken
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=Een communityplug-in verwijderen
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=Geïnstalleerde plug-ins beheren
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=Meer informatie
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Obsidian CLI installeren
+
+[heading.cli/Get started]
+original=Get started
+translation=Aan de slag
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Een opdracht uitvoeren
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=De terminalinterface gebruiken
+
+[heading.cli/Examples]
+original=Examples
+translation=Voorbeelden
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Dagelijks gebruik
+
+[heading.cli/For developers]
+original=For developers
+translation=Voor ontwikkelaars
+
+[heading.cli/How to]
+original=How to
+translation=Instructies
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Parameters en vlaggen gebruiken
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Een kluis targeten
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Een bestand targeten
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Uitvoer kopiëren
+
+[heading.cli/General commands]
+original=General commands
+translation=Algemene opdrachten
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Bladwijzers
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Opdrachtenpalet
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Dagnotities
+
+[heading.cli/File history]
+original=File history
+translation=Bestandsgeschiedenis
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Bestanden en mappen
+
+[heading.cli/Links]
+original=Links
+translation=Koppelingen
+
+[heading.cli/Outline]
+original=Outline
+translation=Overzicht
+
+[heading.cli/Plugins]
+original=Plugins
+translation=Plug-ins
+
+[heading.cli/Properties]
+original=Properties
+translation=Eigenschappen
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Willekeurige notities
+
+[heading.cli/Search]
+original=Search
+translation=Zoeken
+
+[heading.cli/Tags]
+original=Tags
+translation=Labels
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Taken
+
+[heading.cli/Templates]
+original=Templates
+translation=Sjablonen
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Thema's en snippets
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Unieke notities
+
+[heading.cli/Vault]
+original=Vault
+translation=Kluis
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Webviewer
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Woordenaantal
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Werkruimte
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Ontwikkelaarsopdrachten
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Sneltoetsen
+
+[heading.cli/Navigation]
+original=Navigation
+translation=Navigatie
+
+[heading.cli/Editing]
+original=Editing
+translation=Bewerken
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Automatisch aanvullen
+
+[heading.cli/History]
+original=History
+translation=Geschiedenis
+
+[heading.cli/Other]
+original=Other
+translation=Overig
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Probleemoplossing
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Alternatieve shells
+
+[heading.bases/views/Toolbar]
+original=Toolbar
+translation=Werkbalk
+
+[heading.bases/views/Add and switch views]
+original=Add and switch views
+translation=Weergaven toevoegen en wisselen
+
+[heading.bases/views/View settings]
+original=View settings
+translation=Weergave-instellingen
+
+[heading.bases/views/Layout]
+original=Layout
+translation=Lay-out
+
+[heading.bases/views/Components of a filter]
+original=Components of a filter
+translation=Onderdelen van een filter
+
+[heading.bases/views/Conjunctions]
+original=Conjunctions
+translation=Voegwoorden
+
+[heading.bases/views/Filter groups]
+original=Filter groups
+translation=Filtergroepen
+
+[heading.bases/views/Advanced filter editor]
+original=Advanced filter editor
+translation=Geavanceerde filtereditor
+
+[heading.bases/views/Sort and group results]
+original=Sort and group results
+translation=Resultaten sorteren en groeperen
+
+[heading.bases/views/Add a sort]
+original=Add a sort
+translation=Een sortering toevoegen
+
+[heading.bases/views/Remove a sort]
+original=Remove a sort
+translation=Een sortering verwijderen
+
+[heading.bases/views/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Resultaten beperken, kopiëren en exporteren
+
+[heading.bases/views/Limit results]
+original=Limit results
+translation=Resultaten beperken
+
+[heading.bases/views/Copy to clipboard]
+original=Copy to clipboard
+translation=Naar klembord kopiëren
+
+[heading.bases/views/Export CSV]
+original=Export CSV
+translation=CSV exporteren
+
+[heading.bases/views/Embed a view]
+original=Embed a view
+translation=Een weergave insluiten
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=Toegang tot je configuratiemap
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=Mobiel
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=Je configuratiemap wijzigen
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=Bestanden insluiten
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=Kluisinstellingen
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=Algemene instellingen
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=Metadatacache
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=Nieuwe kluis aanmaken
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=Kluis aanmaken vanuit een bestaande map
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=Kluis hernoemen
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=Kluis verplaatsen naar een andere map
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=Kluis verwijderen
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=Instellingen overzetten naar een andere kluis
+
+[heading.manage-notes/Create a new note]
+original=Create a new note
+translation=Een nieuwe notitie aanmaken
+
+[heading.manage-notes/Rename a note]
+original=Rename a note
+translation=Naam van een notitie wijzigen
+
+[heading.manage-notes/Delete a note]
+original=Delete a note
+translation=Een notitie verwijderen
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=Alinea's
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=Regeleinden
+
+[heading.syntax/Headings]
+original=Headings
+translation=Koppen
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=Vet, cursief, markeringen
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=Interne koppelingen
+
+[heading.syntax/External links]
+original=External links
+translation=Externe koppelingen
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=Spaties escapen in koppelingen
+
+[heading.syntax/External images]
+original=External images
+translation=Externe afbeeldingen
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=Citaten
+
+[heading.syntax/Lists]
+original=Lists
+translation=Lijsten
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=Takenlijsten
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=Geneste lijsten
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=Horizontale lijn
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=Code
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=Inline code
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=Codeblokken
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=Geneste codeblokken
+
+[heading.syntax/Comments]
+original=Comments
+translation=Voetnoten
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=Opmerkingen
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=Markdown-syntaxis escapen
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=Een bijlage toevoegen
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=Standaard bijlagelocatie wijzigen
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=De titel wijzigen
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=Invouwbare infoblokken
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=Geneste infoblokken
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=Infoblokken aanpassen
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=Ondersteunde types
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=Eigenschappen toevoegen aan een notitie
+
+[heading.properties/Property types]
+original=Property types
+translation=Eigenschapstypen
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=Geavanceerd gebruik
+
+[heading.properties/Search properties]
+original=Search properties
+translation=Eigenschappen zoeken
+
+[heading.properties/Templates]
+original=Templates
+translation=Sjablonen
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=Eigenschappen hernoemen
+
+[heading.properties/Display modes]
+original=Display modes
+translation=Weergavemodi
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=CSS-fragmenten
+
+[heading.properties/Not supported]
+original=Not supported
+translation=Niet ondersteund
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=Sneltoetsen
+
+[heading.properties/Add a property]
+original=Add a property
+translation=Een eigenschap toevoegen
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=Navigeren tussen eigenschappen
+
+[heading.properties/Select properties]
+original=Select properties
+translation=Eigenschappen selecteren
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=Eigenschappen bewerken
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim (geavanceerd)
+
+[heading.properties/Property format]
+original=Property format
+translation=Eigenschapindeling
+
+[heading.properties/Text]
+original=Text
+translation=Tekst
+
+[heading.properties/List]
+original=List
+translation=Lijst
+
+[heading.properties/Number]
+original=Number
+translation=Getal
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=Selectievakje
+
+[heading.properties/Date]
+original=Date
+translation=Datum
+
+[heading.properties/Date & time]
+original=Date & time
+translation=Datum & tijd
+
+[heading.properties/Tags]
+original=Tags
+translation=Labels
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=JSON-eigenschappen
+
+[heading.properties/Default properties]
+original=Default properties
+translation=Standaardeigenschappen
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=Eigenschappen voor Obsidian Publish
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=Verouderde eigenschappen
+
+[heading.sync/troubleshoot/General]
+original=General
+translation=Algemeen
+
+[heading.sync/troubleshoot/Conflict resolution]
+original=Conflict resolution
+translation=Conflictoplossing
+
+[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Hoe Obsidian Sync conflicten afhandelt
+
+[heading.sync/troubleshoot/Conflict resolution options]
+original=Conflict resolution options
+translation=Opties voor conflictoplossing
+
+[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync heeft een notitie verwijderd die ik net op twee apparaten heb aangemaakt
+
+[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync synchroniseert mijn plug-ins en instellingenupdates niet
+
+[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=Mijn bestanden blijven verdwijnen uit Sync zodra ik ze herstel
