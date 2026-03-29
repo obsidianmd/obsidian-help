@@ -781,3 +781,147 @@ translation=Αίτημα επιστροφής χρημάτων
 [heading.refunds/Frequently asked questions]
 original=Frequently asked questions
 translation=Συχνές ερωτήσεις
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Εγκατάσταση του Obsidian CLI
+
+[heading.cli/Get started]
+original=Get started
+translation=Ξεκινήστε
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Εκτέλεση εντολής
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=Χρήση της διεπαφής τερματικού
+
+[heading.cli/Examples]
+original=Examples
+translation=Παραδείγματα
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Καθημερινή χρήση
+
+[heading.cli/For developers]
+original=For developers
+translation=Για προγραμματιστές
+
+[heading.cli/How to]
+original=How to
+translation=Οδηγίες
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Χρήση παραμέτρων και σημαιών
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Στόχευση θησαυροφυλακίου
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Στόχευση αρχείου
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Αντιγραφή εξόδου
+
+[heading.cli/General commands]
+original=General commands
+translation=Γενικές εντολές
+
+[heading.cli/Bases]
+original=Bases
+translation=Βάσεις
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Σελιδοδείκτες
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Παλέτα εντολών
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Ημερήσιες σημειώσεις
+
+[heading.cli/File history]
+original=File history
+translation=Ιστορικό αρχείων
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Αρχεία και φάκελοι
+
+[heading.cli/Links]
+original=Links
+translation=Σύνδεσμοι
+
+[heading.cli/Outline]
+original=Outline
+translation=Διάρθρωση
+
+[heading.cli/Plugins]
+original=Plugins
+translation=Πρόσθετα
+
+[heading.cli/Properties]
+original=Properties
+translation=Ιδιότητες
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Τυχαίες σημειώσεις
+
+[heading.cli/Search]
+original=Search
+translation=Αναζήτηση
+
+[heading.cli/Tags]
+original=Tags
+translation=Ετικέτες
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Εργασίες
+
+[heading.cli/Templates]
+original=Templates
+translation=Πρότυπα
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Θέματα και αποσπάσματα
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Μοναδικές σημειώσεις
+
+[heading.cli/Vault]
+original=Vault
+translation=Θησαυροφυλάκιο
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Πρόγραμμα προβολής ιστού
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Αρίθμηση λέξεων
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Χώρος εργασίας
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=Ενσωμάτωση βίντεο YouTube
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=Ενσωμάτωση tweet

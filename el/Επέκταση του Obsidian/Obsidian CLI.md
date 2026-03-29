@@ -1,169 +1,168 @@
 ---
-localized: false
 permalink: cli
 description: Anything you can do in Obsidian can be done from the command line.
 ---
-Obsidian CLI is a command line interface that lets you control Obsidian from your terminal for scripting, automation, and integration with external tools.
+Το Obsidian CLI είναι μια διεπαφή γραμμής εντολών που σας επιτρέπει να ελέγχετε το Obsidian από το τερματικό σας για scripting, αυτοματισμό και ενσωμάτωση με εξωτερικά εργαλεία.
 
-Anything you can do in Obsidian you can do from the command line. Obsidian CLI even includes [[#Developer commands|developer commands]] to access developer tools, inspect elements, take screenshots, reload plugins, and more.
+Οτιδήποτε μπορείτε να κάνετε στο Obsidian μπορείτε να το κάνετε από τη γραμμή εντολών. Το Obsidian CLI περιλαμβάνει ακόμη και [[#Εντολές προγραμματιστή|εντολές προγραμματιστή]] για πρόσβαση σε εργαλεία ανάπτυξης, επιθεώρηση στοιχείων, λήψη στιγμιότυπων οθόνης, επαναφόρτωση προσθέτων και πολλά άλλα.
 
 ![[obsidian-cli.mp4#interface]]
 
-> [!warning] Requires Obsidian 1.12 installer
-> Using the CLI requires the Obsidian 1.12 installer. See the [[Ενημέρωση Obsidian#Ενημερώσεις προγράμματος εγκατάστασης|installer version update guide]].
+> [!warning] Απαιτείται πρόγραμμα εγκατάστασης Obsidian 1.12
+> Η χρήση του CLI απαιτεί το πρόγραμμα εγκατάστασης Obsidian 1.12. Δείτε τον [[Ενημέρωση Obsidian#Ενημερώσεις προγράμματος εγκατάστασης|οδηγό ενημέρωσης έκδοσης προγράμματος εγκατάστασης]].
 
-## Install Obsidian CLI
+## Εγκατάσταση του Obsidian CLI
 
-Upgrade to the latest [[Ενημέρωση Obsidian|Obsidian installer version]] (1.11.7) and the latest [[Εκδόσεις πρώιμης πρόσβασης|early access version]] (1.12.x).
+Αναβαθμίστε στην τελευταία [[Ενημέρωση Obsidian|έκδοση προγράμματος εγκατάστασης Obsidian]] (1.11.7) και στην τελευταία [[Εκδόσεις πρώιμης πρόσβασης|έκδοση πρώιμης πρόσβασης]] (1.12.x).
 
-Enable Obsidian CLI in Obsidian:
+Ενεργοποιήστε το Obsidian CLI στο Obsidian:
 
-1. Go to **Settings** → **General**.
-2. Enable **Command line interface**.
-3. Follow the prompt to register Obsidian CLI.
+1. Μεταβείτε στις **Ρυθμίσεις** → **Γενικά**.
+2. Ενεργοποιήστε τη **Διεπαφή γραμμής εντολών**.
+3. Ακολουθήστε την οδηγία για να καταχωρίσετε το Obsidian CLI.
 
-If you run into issues installing Obsidian CLI see [[#Troubleshooting]].
+Αν αντιμετωπίζετε προβλήματα με την εγκατάσταση του Obsidian CLI δείτε [[#Αντιμετώπιση προβλημάτων]].
 
-## Get started
+## Ξεκινήστε
 
-Obsidian CLI supports both single commands and a terminal user interface (TUI) with interactive help and autocomplete.
+Το Obsidian CLI υποστηρίζει τόσο μεμονωμένες εντολές όσο και μια διεπαφή χρήστη τερματικού (TUI) με διαδραστική βοήθεια και αυτόματη συμπλήρωση.
 
-> [!info] Obsidian app must be running
-> Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
+> [!info] Η εφαρμογή Obsidian πρέπει να εκτελείται
+> Το Obsidian CLI απαιτεί η εφαρμογή Obsidian να εκτελείται. Αν το Obsidian δεν εκτελείται, η πρώτη εντολή που θα εκτελέσετε θα ξεκινήσει το Obsidian.
 >
-> Looking to sync without the desktop app? See [[Obsidian Headless|Obsidian Headless]].
+> Θέλετε να συγχρονίσετε χωρίς την εφαρμογή επιφάνειας εργασίας; Δείτε [[Obsidian Headless|Obsidian Headless]].
 
-### Run a command
+### Εκτέλεση εντολής
 
-Run an individual command without opening the TUI:
+Εκτελέστε μια μεμονωμένη εντολή χωρίς να ανοίξετε το TUI:
 
 ```shell
-# Run the help command
+# Εκτέλεση της εντολής βοήθειας
 obsidian help
 ```
 
-### Use the terminal interface
+### Χρήση της διεπαφής τερματικού
 
-Use the TUI by entering `obsidian`. Subsequent commands can be entered without `obsidian`.
+Χρησιμοποιήστε το TUI εισάγοντας `obsidian`. Οι επόμενες εντολές μπορούν να εισαχθούν χωρίς `obsidian`.
 
 ```shell
-# Open the TUI, then run help
+# Άνοιγμα του TUI, μετά εκτέλεση βοήθειας
 obsidian
 help
 ```
 
-The TUI supports autocomplete, command history, and reverse search. Use `Ctrl+R` to search your command history. See [[#Keyboard shortcuts]] for all available shortcuts.
+Το TUI υποστηρίζει αυτόματη συμπλήρωση, ιστορικό εντολών και αντίστροφη αναζήτηση. Χρησιμοποιήστε `Ctrl+R` για αναζήτηση στο ιστορικό εντολών σας. Δείτε [[#Συντομεύσεις πληκτρολογίου]] για όλες τις διαθέσιμες συντομεύσεις.
 
-## Examples
+## Παραδείγματα
 
-Here are a few examples of what Obsidian CLI can do.
+Ακολουθούν μερικά παραδείγματα του τι μπορεί να κάνει το Obsidian CLI.
 
-### Everyday use
+### Καθημερινή χρήση
 
 ```shell
-# Open today's daily note
+# Άνοιγμα σημερινής ημερήσιας σημείωσης
 obsidian daily
 
-# Add a task to your daily note
-obsidian daily:append content="- [ ] Buy groceries"
+# Προσθήκη εργασίας στην ημερήσια σημείωσή σας
+obsidian daily:append content="- [ ] Αγορά τροφίμων"
 
-# Search your vault
-obsidian search query="meeting notes"
+# Αναζήτηση στο θησαυροφυλάκιό σας
+obsidian search query="σημειώσεις συνάντησης"
 
-# Read the active file
+# Ανάγνωση του ενεργού αρχείου
 obsidian read
 
-# List all tasks from your daily note
+# Λίστα όλων των εργασιών από την ημερήσια σημείωσή σας
 obsidian tasks daily
 
-# Create a new note from a template
-obsidian create name="Trip to Paris" template=Travel
+# Δημιουργία νέας σημείωσης από πρότυπο
+obsidian create name="Ταξίδι στο Παρίσι" template=Travel
 
-# List all tags in your vault with counts
+# Λίστα όλων των ετικετών στο θησαυροφυλάκιό σας με μετρήσεις
 obsidian tags counts
 
-# Compare two versions of a file
+# Σύγκριση δύο εκδόσεων ενός αρχείου
 obsidian diff file=README from=1 to=3
 ```
 
-### For developers
+### Για προγραμματιστές
 
-Many [[#Developer commands]] are available for plugin and theme development. These commands allow agentic coding tools to automatically test and debug.
+Πολλές [[#Εντολές προγραμματιστή]] είναι διαθέσιμες για ανάπτυξη προσθέτων και θεμάτων. Αυτές οι εντολές επιτρέπουν σε εργαλεία αυτόνομου κώδικα να δοκιμάζουν και να αποσφαλματώνουν αυτόματα.
 
 ```shell
-# Open developer tools
+# Άνοιγμα εργαλείων ανάπτυξης
 obsidian devtools
 
-# Reload a community plugin you're developing
+# Επαναφόρτωση ενός πρόσθετου κοινότητας που αναπτύσσετε
 obsidian plugin:reload id=my-plugin
 
-# Take a screenshot of the app
+# Λήψη στιγμιότυπου οθόνης της εφαρμογής
 obsidian dev:screenshot path=screenshot.png
 
-# Run JavaScript in the app console
+# Εκτέλεση JavaScript στην κονσόλα της εφαρμογής
 obsidian eval code="app.vault.getFiles().length"
 ```
 
-## How to
+## Οδηγίες
 
-### Use parameters and flags
+### Χρήση παραμέτρων και σημαιών
 
-Commands can use **parameters** and **flags**. Most commands do not require any parameters or flags. Required parameters are marked as `required`. For example:
+Οι εντολές μπορούν να χρησιμοποιούν **παραμέτρους** και **σημαίες**. Οι περισσότερες εντολές δεν απαιτούν παραμέτρους ή σημαίες. Οι απαιτούμενες παράμετροι σημειώνονται ως `required`. Για παράδειγμα:
 
 ```shell
-# Create a new note using the default "Untitled" name
+# Δημιουργία νέας σημείωσης χρησιμοποιώντας το προεπιλεγμένο όνομα "Χωρίς τίτλο"
 obsidian create
 ```
 
-A **parameter** takes a value, written as `parameter=value`. If the value has spaces, wrap it in quotes:
+Μια **παράμετρος** λαμβάνει μια τιμή, γραμμένη ως `parameter=value`. Αν η τιμή περιέχει κενά, περικλείστε τη σε εισαγωγικά:
 
 ```shell
-# Create a new note called "Note" with content "Hello world"
+# Δημιουργία νέας σημείωσης με όνομα "Note" με περιεχόμενο "Hello world"
 obsidian create name=Note content="Hello world"
 ```
 
-A **flag** is a boolean switch with no value. Include it to turn it on, for example `open` and `overwrite` are flags:
+Μια **σημαία** είναι ένας λογικός διακόπτης χωρίς τιμή. Συμπεριλάβετέ τη για να την ενεργοποιήσετε, για παράδειγμα `open` και `overwrite` είναι σημαίες:
 
 ```shell
-# Create a note and open it
+# Δημιουργία σημείωσης και άνοιγμά της
 obsidian create name=Note content="Hello" open overwrite
 ```
 
-For multiline content use `\n` for newline. Use `\t` for tab.
+Για περιεχόμενο πολλαπλών γραμμών χρησιμοποιήστε `\n` για νέα γραμμή. Χρησιμοποιήστε `\t` για στηλοθέτη.
 
 ```bash
-obsidian create name=Note content="# Title\n\nBody text"
+obsidian create name=Note content="# Τίτλος\n\nΚείμενο σώματος"
 ```
 
-### Target a vault
+### Στόχευση θησαυροφυλακίου
 
-If your terminal's current working directory is a vault folder, that vault is used by default. Otherwise, the currently active vault is used.
+Αν ο τρέχων κατάλογος εργασίας του τερματικού σας είναι ένας φάκελος θησαυροφυλακίου, χρησιμοποιείται αυτό το θησαυροφυλάκιο από προεπιλογή. Διαφορετικά, χρησιμοποιείται το τρέχον ενεργό θησαυροφυλάκιο.
 
-Use `vault=<name>` or `vault=<id>` to target a specific vault. This must be the first parameter before your command:
+Χρησιμοποιήστε `vault=<name>` ή `vault=<id>` για να στοχεύσετε ένα συγκεκριμένο θησαυροφυλάκιο. Αυτό πρέπει να είναι η πρώτη παράμετρος πριν από την εντολή σας:
 
 ```shell
 obsidian vault=Notes daily
 obsidian vault="My Vault" search query="test"
 ```
 
-In the TUI, use `vault:open <name>` or `<id>` to switch to a different vault.
+Στο TUI, χρησιμοποιήστε `vault:open <name>` ή `<id>` για εναλλαγή σε διαφορετικό θησαυροφυλάκιο.
 
-### Target a file
+### Στόχευση αρχείου
 
-Many commands accept `file` and `path` parameters to target a specific file. If neither is provided, the command defaults to the active file.
+Πολλές εντολές δέχονται παραμέτρους `file` και `path` για να στοχεύσουν ένα συγκεκριμένο αρχείο. Αν δεν παρέχεται κανένα, η εντολή χρησιμοποιεί από προεπιλογή το ενεργό αρχείο.
 
-- `file=<name>` resolves the file using the same link resolution as [[Εσωτερικοί σύνδεσμοι|wikilinks]], matching by file name without requiring the full path or extension.
-- `path=<path>` requires the exact path from the vault root, e.g. `folder/note.md`.
+- `file=<name>` επιλύει το αρχείο χρησιμοποιώντας την ίδια επίλυση συνδέσμων με τους [[Εσωτερικοί σύνδεσμοι|συνδέσμους wiki]], ταιριάζοντας με το όνομα αρχείου χωρίς να απαιτείται η πλήρης διαδρομή ή επέκταση.
+- `path=<path>` απαιτεί την ακριβή διαδρομή από τη ρίζα του θησαυροφυλακίου, π.χ. `folder/note.md`.
 
 ```shell
-# These are equivalent if "Recipe.md" is the only file with that name
+# Αυτά είναι ισοδύναμα αν το "Recipe.md" είναι το μοναδικό αρχείο με αυτό το όνομα
 obsidian read file=Recipe
 obsidian read path="Templates/Recipe.md"
 ```
 
-### Copy output
+### Αντιγραφή εξόδου
 
-Add `--copy` to any command to copy the output to the clipboard:
+Προσθέστε `--copy` σε οποιαδήποτε εντολή για αντιγραφή της εξόδου στο πρόχειρο:
 
 ```shell
 read --copy
@@ -171,265 +170,265 @@ search query="TODO" --copy
 ```
 
 
-## General commands
+## Γενικές εντολές
 
 ### `help`
 
-Show list of all available commands.
+Εμφάνιση λίστας όλων των διαθέσιμων εντολών.
 
-| Parameter   | Description                       |
-| ----------- | --------------------------------- |
-| `<command>` | Show help for a specific command. |
+| Παράμετρος  | Περιγραφή                                        |
+| ----------- | ------------------------------------------------ |
+| `<command>` | Εμφάνιση βοήθειας για μια συγκεκριμένη εντολή.  |
 
 ### `version`
 
-Show Obsidian version.
+Εμφάνιση έκδοσης Obsidian.
 
 ### `reload`
 
-Reload the app window.
+Επαναφόρτωση του παραθύρου εφαρμογής.
 
 ### `restart`
 
-Restart the app.
+Επανεκκίνηση της εφαρμογής.
 
 
-## Bases
+## Βάσεις
 
-Commands for [[Εισαγωγή στις Βάσεις|Bases]].
+Εντολές για τις [[Εισαγωγή στις Βάσεις|Βάσεις]].
 
 ### `bases`
 
-List all `.base` files in the vault.
+Λίστα όλων των αρχείων `.base` στο θησαυροφυλάκιο.
 
 ### `base:views`
 
-List views in the current base file.
+Λίστα προβολών στο τρέχον αρχείο βάσης.
 
 ### `base:create`
 
-Create a new item in a base. Defaults to the active base view if no file is specified.
+Δημιουργία νέου στοιχείου σε μια βάση. Χρησιμοποιεί την ενεργή προβολή βάσης από προεπιλογή αν δεν καθοριστεί αρχείο.
 
 ```bash
-file=<name>        # base file name
-path=<path>        # base file path
-view=<name>        # view name
-name=<name>        # new file name
-content=<text>     # initial content
+file=<name>        # όνομα αρχείου βάσης
+path=<path>        # διαδρομή αρχείου βάσης
+view=<name>        # όνομα προβολής
+name=<name>        # νέο όνομα αρχείου
+content=<text>     # αρχικό περιεχόμενο
 
-open               # open file after creating
-newtab             # open in new tab
+open               # άνοιγμα αρχείου μετά τη δημιουργία
+newtab             # άνοιγμα σε νέα καρτέλα
 ```
 
 ### `base:query`
 
-Query a base and return results.
+Ερώτημα σε βάση και επιστροφή αποτελεσμάτων.
 
 ```bash
-file=<name>                    # base file name
-path=<path>                    # base file path
-view=<name>                    # view name to query
-format=json|csv|tsv|md|paths   # output format (default: json)
+file=<name>                    # όνομα αρχείου βάσης
+path=<path>                    # διαδρομή αρχείου βάσης
+view=<name>                    # όνομα προβολής για ερώτημα
+format=json|csv|tsv|md|paths   # μορφή εξόδου (προεπιλογή: json)
 ```
 
-## Bookmarks
+## Σελιδοδείκτες
 
-Commands for [[Σελιδοδείκτες]].
+Εντολές για τους [[Σελιδοδείκτες]].
 
 ### `bookmarks`
 
-List bookmarks.
+Λίστα σελιδοδεικτών.
 
 ```bash
-total              # return bookmark count
-verbose            # include bookmark types
-format=json|tsv|csv  # output format (default: tsv)
+total              # επιστροφή αριθμού σελιδοδεικτών
+verbose            # συμπερίληψη τύπων σελιδοδεικτών
+format=json|tsv|csv  # μορφή εξόδου (προεπιλογή: tsv)
 ```
 
 ### `bookmark`
 
-Add a bookmark.
+Προσθήκη σελιδοδείκτη.
 
 ```bash
-file=<path>        # file to bookmark
-subpath=<subpath>  # subpath (heading or block) within file
-folder=<path>      # folder to bookmark
-search=<query>     # search query to bookmark
-url=<url>          # URL to bookmark
-title=<title>      # bookmark title
+file=<path>        # αρχείο για σελιδοδείκτη
+subpath=<subpath>  # υποδιαδρομή (επικεφαλίδα ή μπλοκ) εντός αρχείου
+folder=<path>      # φάκελος για σελιδοδείκτη
+search=<query>     # ερώτημα αναζήτησης για σελιδοδείκτη
+url=<url>          # URL για σελιδοδείκτη
+title=<title>      # τίτλος σελιδοδείκτη
 ```
 
-## Command palette
+## Παλέτα εντολών
 
-Commands for [[Παλέτα εντολών]] and [[Συντομεύσεις]]. This includes all commands registered by plugins.
+Εντολές για την [[Παλέτα εντολών]] και τις [[Συντομεύσεις]]. Αυτό περιλαμβάνει όλες τις εντολές που καταχωρούνται από πρόσθετα.
 
 ### `commands`
 
-List available command IDs.
+Λίστα διαθέσιμων αναγνωριστικών εντολών.
 
 ```bash
-filter=<prefix>    # filter by ID prefix
+filter=<prefix>    # φιλτράρισμα κατά πρόθεμα αναγνωριστικού
 ```
 
 ### `command`
 
-Execute an Obsidian command.
+Εκτέλεση εντολής Obsidian.
 
 ```bash
-id=<command-id>    # (required) command ID to execute
+id=<command-id>    # (απαιτείται) αναγνωριστικό εντολής προς εκτέλεση
 ```
 
 ### `hotkeys`
 
-List hotkeys for all commands.
+Λίστα συντομεύσεων πληκτρολογίου για όλες τις εντολές.
 
 ```bash
-total              # return hotkey count
-verbose            # show if hotkey is custom
-format=json|tsv|csv  # output format (default: tsv)
+total              # επιστροφή αριθμού συντομεύσεων
+verbose            # εμφάνιση αν η συντόμευση είναι προσαρμοσμένη
+format=json|tsv|csv  # μορφή εξόδου (προεπιλογή: tsv)
 ```
 
 ### `hotkey`
 
-Get hotkey for a command.
+Λήψη συντόμευσης πληκτρολογίου για μια εντολή.
 
 ```bash
-id=<command-id>    # (required) command ID
+id=<command-id>    # (απαιτείται) αναγνωριστικό εντολής
 
-verbose            # show if custom or default
+verbose            # εμφάνιση αν είναι προσαρμοσμένη ή προεπιλεγμένη
 ```
 
-## Daily notes
+## Ημερήσιες σημειώσεις
 
-Commands for [[Ημερήσιες σημειώσεις]].
+Εντολές για τις [[Ημερήσιες σημειώσεις]].
 
 ### `daily`
 
-Open daily note.
+Άνοιγμα ημερήσιας σημείωσης.
 
 ```bash
-paneType=tab|split|window    # pane type to open in
+paneType=tab|split|window    # τύπος πλαισίου για άνοιγμα
 ```
 
 ### `daily:path`
 
-Get daily note path. Returns the expected path even if the file hasn't been created yet.
+Λήψη διαδρομής ημερήσιας σημείωσης. Επιστρέφει την αναμενόμενη διαδρομή ακόμα κι αν το αρχείο δεν έχει δημιουργηθεί ακόμα.
 
 ### `daily:read`
 
-Read daily note contents.
+Ανάγνωση περιεχομένων ημερήσιας σημείωσης.
 
 ### `daily:append`
 
-Append content to daily note.
+Προσάρτηση περιεχομένου στην ημερήσια σημείωση.
 
 ```bash
-content=<text>     # (required) content to append
-paneType=tab|split|window    # pane type to open in
+content=<text>     # (απαιτείται) περιεχόμενο για προσάρτηση
+paneType=tab|split|window    # τύπος πλαισίου για άνοιγμα
 
-inline             # append without newline
-open               # open file after adding
+inline             # προσάρτηση χωρίς νέα γραμμή
+open               # άνοιγμα αρχείου μετά την προσθήκη
 ```
 
 ### `daily:prepend`
 
-Prepend content to daily note.
+Εισαγωγή περιεχομένου στην αρχή της ημερήσιας σημείωσης.
 
 ```bash
-content=<text>     # (required) content to prepend
-paneType=tab|split|window    # pane type to open in
+content=<text>     # (απαιτείται) περιεχόμενο για εισαγωγή στην αρχή
+paneType=tab|split|window    # τύπος πλαισίου για άνοιγμα
 
-inline             # prepend without newline
-open               # open file after adding
+inline             # εισαγωγή χωρίς νέα γραμμή
+open               # άνοιγμα αρχείου μετά την προσθήκη
 ```
 
-## File history
+## Ιστορικό αρχείων
 
 ### `diff`
 
-List or compare versions from local [[Ανάκτηση αρχείων]] and [[Εισαγωγή στο Obsidian Sync|Sync]]. Versions are numbered from newest to oldest.
+Λίστα ή σύγκριση εκδόσεων από τοπική [[Ανάκτηση αρχείων]] και [[Εισαγωγή στο Obsidian Sync|Sync]]. Οι εκδόσεις αριθμούνται από τη νεότερη στην παλαιότερη.
 
 ```bash
-file=<name>          # file name
-path=<path>          # file path
-from=<n>             # version number to diff from
-to=<n>               # version number to diff to
-filter=local|sync    # filter by version source
+file=<name>          # όνομα αρχείου
+path=<path>          # διαδρομή αρχείου
+from=<n>             # αριθμός έκδοσης αφετηρίας σύγκρισης
+to=<n>               # αριθμός έκδοσης προορισμού σύγκρισης
+filter=local|sync    # φιλτράρισμα κατά πηγή έκδοσης
 ```
 
-**Examples:**
+**Παραδείγματα:**
 
 ```shell
-# List all versions of the active file
+# Λίστα όλων των εκδόσεων του ενεργού αρχείου
 diff
 
-# List all versions of a specific file
+# Λίστα όλων των εκδόσεων ενός συγκεκριμένου αρχείου
 diff file=Recipe
 
-# Compare the latest version to the current file
+# Σύγκριση τελευταίας έκδοσης με το τρέχον αρχείο
 diff file=Recipe from=1
 
-# Compare two versions
+# Σύγκριση δύο εκδόσεων
 diff file=Recipe from=2 to=1
 
-# Only show Sync versions
+# Εμφάνιση μόνο εκδόσεων Sync
 diff filter=sync
 ```
 
 ### `history`
 
-List versions from [[Ανάκτηση αρχείων]] only. See [[#Sync|sync:history]] for the equivalent Sync command.
+Λίστα εκδόσεων μόνο από την [[Ανάκτηση αρχείων]]. Δείτε [[#Sync|sync:history]] για την αντίστοιχη εντολή Sync.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 ```
 
 ### `history:list`
 
-List all files with local history.
+Λίστα όλων των αρχείων με τοπικό ιστορικό.
 
 ### `history:read`
 
-Read a local history version.
+Ανάγνωση μιας τοπικής έκδοσης ιστορικού.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # version number (default: 1)
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+version=<n>        # αριθμός έκδοσης (προεπιλογή: 1)
 ```
 
 ### `history:restore`
 
-Restore a local history version.
+Επαναφορά τοπικής έκδοσης ιστορικού.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # (required) version number
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+version=<n>        # (απαιτείται) αριθμός έκδοσης
 ```
 
 ### `history:open`
 
-Open file recovery.
+Άνοιγμα ανάκτησης αρχείων.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 ```
 
-## Files and folders
+## Αρχεία και φάκελοι
 
 ### `file`
 
-Show file info (default: active file).
+Εμφάνιση πληροφοριών αρχείου (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 ```
 
-Example:
+Παράδειγμα:
 
 ```
 path       Notes/Recipe.md
@@ -442,1119 +441,829 @@ modified   1700001000000
 
 ### `files`
 
-List files in the vault.
+Λίστα αρχείων στο θησαυροφυλάκιο.
 
 ```bash
-folder=<path>      # filter by folder
-ext=<extension>    # filter by extension
+folder=<path>      # φιλτράρισμα κατά φάκελο
+ext=<extension>    # φιλτράρισμα κατά επέκταση
 
-total              # return file count
+total              # επιστροφή αριθμού αρχείων
 ```
 
 ### `folder`
 
-Show folder info.
+Εμφάνιση πληροφοριών φακέλου.
 
 ```bash
-path=<path>              # (required) folder path
-info=files|folders|size  # return specific info only
+path=<path>              # (απαιτείται) διαδρομή φακέλου
+info=files|folders|size  # επιστροφή μόνο συγκεκριμένων πληροφοριών
 ```
 
 ### `folders`
 
-List folders in the vault.
+Λίστα φακέλων στο θησαυροφυλάκιο.
 
 ```bash
-folder=<path>      # filter by parent folder
+folder=<path>      # φιλτράρισμα κατά γονικό φάκελο
 
-total              # return folder count
+total              # επιστροφή αριθμού φακέλων
 ```
 
 ### `open`
 
-Open a file.
+Άνοιγμα αρχείου.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 
-newtab             # open in new tab
+newtab             # άνοιγμα σε νέα καρτέλα
 ```
 
 ### `create`
 
-Create or overwrite a file.
+Δημιουργία ή αντικατάσταση αρχείου.
 
 ```bash
-name=<name>        # file name
-path=<path>        # file path
-content=<text>     # initial content
-template=<name>    # template to use
+name=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+content=<text>     # αρχικό περιεχόμενο
+template=<name>    # πρότυπο προς χρήση
 
-overwrite          # overwrite if file exists
-open               # open file after creating
-newtab             # open in new tab
+overwrite          # αντικατάσταση αν υπάρχει το αρχείο
+open               # άνοιγμα αρχείου μετά τη δημιουργία
+newtab             # άνοιγμα σε νέα καρτέλα
 ```
 
 ### `read`
 
-Read file contents (default: active file).
+Ανάγνωση περιεχομένων αρχείου (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 ```
 
 ### `append`
 
-Append content to a file (default: active file).
+Προσάρτηση περιεχομένου σε αρχείο (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-content=<text>     # (required) content to append
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+content=<text>     # (απαιτείται) περιεχόμενο για προσάρτηση
 
-inline             # append without newline
+inline             # προσάρτηση χωρίς νέα γραμμή
 ```
 
 ### `prepend`
 
-Prepend content after frontmatter (default: active file).
+Εισαγωγή περιεχομένου μετά τα μεταδεδομένα αρχής (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-content=<text>     # (required) content to prepend
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+content=<text>     # (απαιτείται) περιεχόμενο για εισαγωγή στην αρχή
 
-inline             # prepend without newline
+inline             # εισαγωγή χωρίς νέα γραμμή
 ```
 
 ### `move`
 
-Move or rename a file (default: active file). This will automatically update [[Εσωτερικοί σύνδεσμοι]] if turned on in your [[Ρυθμίσεις#Διαρκής ενημέρωση εσωτερικών συνδέσμων|vault settings]].
+Μετακίνηση ή μετονομασία αρχείου (προεπιλογή: ενεργό αρχείο). Αυτό θα ενημερώσει αυτόματα τους [[Εσωτερικοί σύνδεσμοι|εσωτερικούς συνδέσμους]] αν είναι ενεργοποιημένο στις [[Ρυθμίσεις#Αυτόματη ενημέρωση εσωτερικών συνδέσμων|ρυθμίσεις θησαυροφυλακίου σας]].
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-to=<path>          # (required) destination folder or path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+to=<path>          # (απαιτείται) φάκελος ή διαδρομή προορισμού
 ```
 
 ### `rename`
 
-Rename a file (default: active file). The file extension is preserved automatically if omitted from the new name. Use [[#`move`|move]] to rename and move a file at the same time. This will automatically update [[Εσωτερικοί σύνδεσμοι]] if turned on in your [[Ρυθμίσεις#Διαρκής ενημέρωση εσωτερικών συνδέσμων|vault settings]].
+Μετονομασία αρχείου (προεπιλογή: ενεργό αρχείο). Η επέκταση αρχείου διατηρείται αυτόματα αν παραλειφθεί από το νέο όνομα. Χρησιμοποιήστε [[#`move`|move]] για μετονομασία και μετακίνηση ενός αρχείου ταυτόχρονα. Αυτό θα ενημερώσει αυτόματα τους [[Εσωτερικοί σύνδεσμοι|εσωτερικούς συνδέσμους]] αν είναι ενεργοποιημένο στις [[Ρυθμίσεις#Αυτόματη ενημέρωση εσωτερικών συνδέσμων|ρυθμίσεις θησαυροφυλακίου σας]].
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-name=<name>        # (required) new file name
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+name=<name>        # (απαιτείται) νέο όνομα αρχείου
 ```
 
 ### `delete`
 
-Delete a file (default: active file, trash by default).
+Διαγραφή αρχείου (προεπιλογή: ενεργό αρχείο, κάδος απορριμμάτων από προεπιλογή).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 
-permanent          # skip trash, delete permanently
+permanent          # παράκαμψη κάδου, μόνιμη διαγραφή
 ```
 
-## Links
+## Σύνδεσμοι
 
-Commands for [[Οπισθοσύνδεσμοι]] and [[Εξερχόμενοι σύνδεσμοι]].
+Εντολές για τους [[Οπισθοσύνδεσμοι|Οπισθοσυνδέσμους]] και τους [[Εξερχόμενοι σύνδεσμοι|Εξερχόμενους συνδέσμους]].
 
 ### `backlinks`
 
-List backlinks to a file (default: active file).
+Λίστα οπισθοσυνδέσμων προς ένα αρχείο (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # target file name
-path=<path>        # target file path
+file=<name>        # όνομα αρχείου στόχου
+path=<path>        # διαδρομή αρχείου στόχου
 
-counts             # include link counts
-total              # return backlink count
-format=json|tsv|csv  # output format (default: tsv)
+counts             # συμπερίληψη μετρήσεων συνδέσμων
+total              # επιστροφή αριθμού οπισθοσυνδέσμων
+format=json|tsv|csv  # μορφή εξόδου (προεπιλογή: tsv)
 ```
 
 ### `links`
 
-List outgoing links from a file (default: active file).
+Λίστα εξερχόμενων συνδέσμων από ένα αρχείο (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 
-total              # return link count
+total              # επιστροφή αριθμού συνδέσμων
 ```
 
 ### `unresolved`
 
-List unresolved links in vault.
+Λίστα μη επιλυμένων συνδέσμων στο θησαυροφυλάκιο.
 
 ```bash
-total              # return unresolved link count
-counts             # include link counts
-verbose            # include source files
-format=json|tsv|csv  # output format (default: tsv)
+total              # επιστροφή αριθμού μη επιλυμένων συνδέσμων
+counts             # συμπερίληψη μετρήσεων συνδέσμων
+verbose            # συμπερίληψη αρχείων πηγής
+format=json|tsv|csv  # μορφή εξόδου (προεπιλογή: tsv)
 ```
 
 ### `orphans`
 
-List files with no incoming links.
+Λίστα αρχείων χωρίς εισερχόμενους συνδέσμους.
 
 ```bash
-total              # return orphan count
+total              # επιστροφή αριθμού ορφανών
 ```
 
 ### `deadends`
 
-List files with no outgoing links.
+Λίστα αρχείων χωρίς εξερχόμενους συνδέσμους.
 
 ```bash
-total              # return dead-end count
+total              # επιστροφή αριθμού αδιέξοδων
 ```
 
-## Outline
+## Διάρθρωση
 
-Commands for [[Περίγραμμα]].
+Εντολές για τη [[Περίγραμμα|Διάρθρωση]].
 
 ### `outline`
 
-Show headings for the current file.
+Εμφάνιση επικεφαλίδων για το τρέχον αρχείο.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-format=tree|md|json  # output format (default: tree)
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+format=tree|md|json  # μορφή εξόδου (προεπιλογή: tree)
 
-total              # return heading count
+total              # επιστροφή αριθμού επικεφαλίδων
 ```
 
-## Plugins
+## Πρόσθετα
 
-Commands for [[Κύρια πρόσθετα]] and [[Πρόσθετα κοινότητας]].
+Εντολές για τα [[Κύρια πρόσθετα]] και τα [[Πρόσθετα κοινότητας]].
 
 ### `plugins`
 
-List installed plugins.
+Λίστα εγκατεστημένων προσθέτων.
 
 ```bash
-filter=core|community  # filter by plugin type
+filter=core|community  # φιλτράρισμα κατά τύπο πρόσθετου
 
-versions               # include version numbers
-format=json|tsv|csv    # output format (default: tsv)
+versions               # συμπερίληψη αριθμών έκδοσης
+format=json|tsv|csv    # μορφή εξόδου (προεπιλογή: tsv)
 ```
 
 ### `plugins:enabled`
 
-List enabled plugins.
+Λίστα ενεργοποιημένων προσθέτων.
 
 ```bash
-filter=core|community  # filter by plugin type
+filter=core|community  # φιλτράρισμα κατά τύπο πρόσθετου
 
-versions               # include version numbers
-format=json|tsv|csv    # output format (default: tsv)
+versions               # συμπερίληψη αριθμών έκδοσης
+format=json|tsv|csv    # μορφή εξόδου (προεπιλογή: tsv)
 ```
 
 ### `plugins:restrict`
 
-Toggle or check restricted mode.
+Εναλλαγή ή έλεγχος περιορισμένης λειτουργίας.
 
 ```bash
-on                 # enable restricted mode
-off                # disable restricted mode
+on                 # ενεργοποίηση περιορισμένης λειτουργίας
+off                # απενεργοποίηση περιορισμένης λειτουργίας
 ```
 
 ### `plugin`
 
-Get plugin info.
+Λήψη πληροφοριών πρόσθετου.
 
 ```bash
-id=<plugin-id>     # (required) plugin ID
+id=<plugin-id>     # (απαιτείται) αναγνωριστικό πρόσθετου
 ```
 
 ### `plugin:enable`
 
-Enable a plugin.
+Ενεργοποίηση πρόσθετου.
 
 ```bash
-id=<id>                # (required) plugin ID
-filter=core|community  # plugin type
+id=<id>                # (απαιτείται) αναγνωριστικό πρόσθετου
+filter=core|community  # τύπος πρόσθετου
 ```
 
 ### `plugin:disable`
 
-Disable a plugin.
+Απενεργοποίηση πρόσθετου.
 
 ```bash
-id=<id>                # (required) plugin ID
-filter=core|community  # plugin type
+id=<id>                # (απαιτείται) αναγνωριστικό πρόσθετου
+filter=core|community  # τύπος πρόσθετου
 ```
 
 ### `plugin:install`
 
-Install a community plugin.
+Εγκατάσταση πρόσθετου κοινότητας.
 
 ```bash
-id=<id>            # (required) plugin ID
+id=<id>            # (απαιτείται) αναγνωριστικό πρόσθετου
 
-enable             # enable after install
+enable             # ενεργοποίηση μετά την εγκατάσταση
 ```
 
 ### `plugin:uninstall`
 
-Uninstall a community plugin.
+Απεγκατάσταση πρόσθετου κοινότητας.
 
 ```bash
-id=<id>            # (required) plugin ID
+id=<id>            # (απαιτείται) αναγνωριστικό πρόσθετου
 ```
 
 ### `plugin:reload`
 
-Reload a plugin (for developers).
+Επαναφόρτωση πρόσθετου (για προγραμματιστές).
 
 ```bash
-id=<id>            # (required) plugin ID
+id=<id>            # (απαιτείται) αναγνωριστικό πρόσθετου
 ```
 
-## Properties
+## Ιδιότητες
 
-Commands related to [[Ιδιότητες]].
+Εντολές σχετικές με τις [[Ιδιότητες]].
 
 ### `aliases`
 
-List aliases in the vault. Use `active` or `file`/`path` to show aliases for a specific file.
+Λίστα ψευδωνύμων στο θησαυροφυλάκιο. Χρησιμοποιήστε `active` ή `file`/`path` για εμφάνιση ψευδωνύμων συγκεκριμένου αρχείου.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 
-total              # return alias count
-verbose            # include file paths
-active             # show aliases for active file
+total              # επιστροφή αριθμού ψευδωνύμων
+verbose            # συμπερίληψη διαδρομών αρχείων
+active             # εμφάνιση ψευδωνύμων για το ενεργό αρχείο
 ```
 
 ### `properties`
 
-List properties in the vault. Use `active` or `file`/`path` to show properties for a specific file.
+Λίστα ιδιοτήτων στο θησαυροφυλάκιο. Χρησιμοποιήστε `active` ή `file`/`path` για εμφάνιση ιδιοτήτων συγκεκριμένου αρχείου.
 
 ```bash
-file=<name>        # show properties for file
-path=<path>        # show properties for path
-name=<name>        # get specific property count
-sort=count         # sort by count (default: name)
-format=yaml|json|tsv  # output format (default: yaml)
+file=<name>        # εμφάνιση ιδιοτήτων για αρχείο
+path=<path>        # εμφάνιση ιδιοτήτων για διαδρομή
+name=<name>        # λήψη αριθμού συγκεκριμένης ιδιότητας
+sort=count         # ταξινόμηση κατά αριθμό (προεπιλογή: όνομα)
+format=yaml|json|tsv  # μορφή εξόδου (προεπιλογή: yaml)
 
-total              # return property count
-counts             # include occurrence counts
-active             # show properties for active file
+total              # επιστροφή αριθμού ιδιοτήτων
+counts             # συμπερίληψη μετρήσεων εμφανίσεων
+active             # εμφάνιση ιδιοτήτων για ενεργό αρχείο
 ```
 
 ### `property:set`
 
-Set a property on a file (default: active file).
+Ορισμός ιδιότητας σε αρχείο (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-name=<name>                                    # (required) property name
-value=<value>                                  # (required) property value
-type=text|list|number|checkbox|date|datetime   # property type
-file=<name>                                    # file name
-path=<path>                                    # file path
+name=<name>                                    # (απαιτείται) όνομα ιδιότητας
+value=<value>                                  # (απαιτείται) τιμή ιδιότητας
+type=text|list|number|checkbox|date|datetime   # τύπος ιδιότητας
+file=<name>                                    # όνομα αρχείου
+path=<path>                                    # διαδρομή αρχείου
 ```
 
 ### `property:remove`
 
-Remove a property from a file (default: active file).
+Αφαίρεση ιδιότητας από αρχείο (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-name=<name>        # (required) property name
-file=<name>        # file name
-path=<path>        # file path
+name=<name>        # (απαιτείται) όνομα ιδιότητας
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 ```
 
 ### `property:read`
 
-Read a property value from a file (default: active file).
+Ανάγνωση τιμής ιδιότητας από αρχείο (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-name=<name>        # (required) property name
-file=<name>        # file name
-path=<path>        # file path
+name=<name>        # (απαιτείται) όνομα ιδιότητας
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 ```
 
 ## Publish
 
-Commands for [[Εισαγωγή στο Obsidian Publish|Obsidian Publish]].
+Εντολές για το [[Εισαγωγή στο Obsidian Publish|Obsidian Publish]].
 
 ### `publish:site`
 
-Show publish site info (slug, URL).
+Εμφάνιση πληροφοριών ιστοσελίδας publish (slug, URL).
 
 ### `publish:list`
 
-List published files.
+Λίστα δημοσιευμένων αρχείων.
 
 ```bash
-total              # return published file count
+total              # επιστροφή αριθμού δημοσιευμένων αρχείων
 ```
 
 ### `publish:status`
 
-List publish changes.
+Λίστα αλλαγών δημοσίευσης.
 
 ```bash
-total              # return change count
-new                # show new files only
-changed            # show changed files only
-deleted            # show deleted files only
+total              # επιστροφή αριθμού αλλαγών
+new                # εμφάνιση μόνο νέων αρχείων
+changed            # εμφάνιση μόνο τροποποιημένων αρχείων
+deleted            # εμφάνιση μόνο διαγραμμένων αρχείων
 ```
 
 ### `publish:add`
 
-Publish a file or all changed files (default: active file).
+Δημοσίευση αρχείου ή όλων των τροποποιημένων αρχείων (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 
-changed            # publish all changed files
+changed            # δημοσίευση όλων των τροποποιημένων αρχείων
 ```
 
 ### `publish:remove`
 
-Unpublish a file (default: active file).
+Κατάργηση δημοσίευσης αρχείου (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 ```
 
 ### `publish:open`
 
-Open file on published site (default: active file).
+Άνοιγμα αρχείου στη δημοσιευμένη ιστοσελίδα (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 ```
 
-## Random notes
+## Τυχαίες σημειώσεις
 
-Commands for [[Τυχαία σημείωση]].
+Εντολές για την [[Τυχαία σημείωση]].
 
 ### `random`
 
-Open a random note.
+Άνοιγμα τυχαίας σημείωσης.
 
 ```bash
-folder=<path>      # limit to folder
+folder=<path>      # περιορισμός σε φάκελο
 
-newtab             # open in new tab
+newtab             # άνοιγμα σε νέα καρτέλα
 ```
 
 ### `random:read`
 
-Read a random note (includes path).
+Ανάγνωση τυχαίας σημείωσης (περιλαμβάνει διαδρομή).
 
 ```bash
-folder=<path>      # limit to folder
+folder=<path>      # περιορισμός σε φάκελο
 ```
 
-## Search
+## Αναζήτηση
 
-Commands for [[Αναζήτηση]].
+Εντολές για την [[Αναζήτηση]].
 
 ### `search`
 
-Search vault for text. Returns matching file paths.
+Αναζήτηση κειμένου στο θησαυροφυλάκιο. Επιστρέφει διαδρομές αρχείων που ταιριάζουν.
 
 ```bash
-query=<text>       # (required) search query
-path=<folder>      # limit to folder
-limit=<n>          # max files
-format=text|json   # output format (default: text)
+query=<text>       # (απαιτείται) ερώτημα αναζήτησης
+path=<folder>      # περιορισμός σε φάκελο
+limit=<n>          # μέγιστος αριθμός αρχείων
+format=text|json   # μορφή εξόδου (προεπιλογή: text)
 
-total              # return match count
-case               # case sensitive
+total              # επιστροφή αριθμού αποτελεσμάτων
+case               # διάκριση πεζών-κεφαλαίων
 ```
 
 ### `search:context`
 
-Search with matching line context. Returns grep-style `path:line: text` output.
+Αναζήτηση με πλαίσιο γραμμής που ταιριάζει. Επιστρέφει έξοδο τύπου grep `path:line: text`.
 
 ```bash
-query=<text>       # (required) search query
-path=<folder>      # limit to folder
-limit=<n>          # max files
-format=text|json   # output format (default: text)
+query=<text>       # (απαιτείται) ερώτημα αναζήτησης
+path=<folder>      # περιορισμός σε φάκελο
+limit=<n>          # μέγιστος αριθμός αρχείων
+format=text|json   # μορφή εξόδου (προεπιλογή: text)
 
-case               # case sensitive
+case               # διάκριση πεζών-κεφαλαίων
 ```
 
 ### `search:open`
 
-Open search view.
+Άνοιγμα προβολής αναζήτησης.
 
 ```bash
-query=<text>       # initial search query
+query=<text>       # αρχικό ερώτημα αναζήτησης
 ```
 
 ## Sync
 
-Commands for [[Εισαγωγή στο Obsidian Sync|Obsidian Sync]].
+Εντολές για το [[Εισαγωγή στο Obsidian Sync|Obsidian Sync]].
 
-> [!tip] Sync without the desktop app
-> These commands control Sync within the running Obsidian app. To sync vaults from the command line without the desktop app, see [[Headless Sync]].
+> [!tip] Συγχρονισμός χωρίς την εφαρμογή επιφάνειας εργασίας
+> Αυτές οι εντολές ελέγχουν το Sync εντός της εφαρμογής Obsidian που εκτελείται. Για συγχρονισμό θησαυροφυλακίων από τη γραμμή εντολών χωρίς την εφαρμογή επιφάνειας εργασίας, δείτε [[Headless Sync]].
 
 ### `sync`
 
-Pause or resume sync.
+Παύση ή συνέχεια συγχρονισμού.
 
 ```bash
-on                 # resume sync
-off                # pause sync
+on                 # συνέχεια συγχρονισμού
+off                # παύση συγχρονισμού
 ```
 
 ### `sync:status`
 
-Show sync status and usage.
+Εμφάνιση κατάστασης και χρήσης συγχρονισμού.
 
 ### `sync:history`
 
-List sync version history for a file (default: active file).
+Λίστα ιστορικού εκδόσεων sync για ένα αρχείο (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 
-total              # return version count
+total              # επιστροφή αριθμού εκδόσεων
 ```
 
 ### `sync:read`
 
-Read a sync version (default: active file).
+Ανάγνωση έκδοσης sync (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # (required) version number
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+version=<n>        # (απαιτείται) αριθμός έκδοσης
 ```
 
 ### `sync:restore`
 
-Restore a sync version (default: active file).
+Επαναφορά έκδοσης sync (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # (required) version number
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+version=<n>        # (απαιτείται) αριθμός έκδοσης
 ```
 
 ### `sync:open`
 
-Open sync history (default: active file).
+Άνοιγμα ιστορικού sync (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 ```
 
 ### `sync:deleted`
 
-List deleted files in sync.
+Λίστα διαγραμμένων αρχείων στο sync.
 
 ```bash
-total              # return deleted file count
+total              # επιστροφή αριθμού διαγραμμένων αρχείων
 ```
 
-## Tags
+## Ετικέτες
 
-Commands for [[Ετικέτες]].
+Εντολές για τις [[Ετικέτες]].
 
 ### `tags`
 
-List tags in the vault. Use `active` or `file`/`path` to show tags for a specific file.
+Λίστα ετικετών στο θησαυροφυλάκιο. Χρησιμοποιήστε `active` ή `file`/`path` για εμφάνιση ετικετών συγκεκριμένου αρχείου.
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-sort=count         # sort by count (default: name)
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+sort=count         # ταξινόμηση κατά αριθμό (προεπιλογή: όνομα)
 
-total              # return tag count
-counts             # include tag counts
-format=json|tsv|csv  # output format (default: tsv)
-active             # show tags for active file
+total              # επιστροφή αριθμού ετικετών
+counts             # συμπερίληψη μετρήσεων ετικετών
+format=json|tsv|csv  # μορφή εξόδου (προεπιλογή: tsv)
+active             # εμφάνιση ετικετών για ενεργό αρχείο
 ```
 
 ### `tag`
 
-Get tag info.
+Λήψη πληροφοριών ετικέτας.
 
 ```bash
-name=<tag>         # (required) tag name
+name=<tag>         # (απαιτείται) όνομα ετικέτας
 
-total              # return occurrence count
-verbose            # include file list and count
+total              # επιστροφή αριθμού εμφανίσεων
+verbose            # συμπερίληψη λίστας αρχείων και αριθμού
 ```
 
-## Tasks
+## Εργασίες
 
-Commands for task management.
+Εντολές για διαχείριση εργασιών.
 
 ### `tasks`
 
-List tasks in the vault. Use `active` or `file`/`path` to show tasks for a specific file.
+Λίστα εργασιών στο θησαυροφυλάκιο. Χρησιμοποιήστε `active` ή `file`/`path` για εμφάνιση εργασιών συγκεκριμένου αρχείου.
 
 ```bash
-file=<name>        # filter by file name
-path=<path>        # filter by file path
-status="<char>"    # filter by status character
+file=<name>        # φιλτράρισμα κατά όνομα αρχείου
+path=<path>        # φιλτράρισμα κατά διαδρομή αρχείου
+status="<char>"    # φιλτράρισμα κατά χαρακτήρα κατάστασης
 
-total              # return task count
-done               # show completed tasks
-todo               # show incomplete tasks
-verbose            # group by file with line numbers
-format=json|tsv|csv  # output format (default: text)
-active             # show tasks for active file
-daily              # show tasks from daily note
+total              # επιστροφή αριθμού εργασιών
+done               # εμφάνιση ολοκληρωμένων εργασιών
+todo               # εμφάνιση μη ολοκληρωμένων εργασιών
+verbose            # ομαδοποίηση κατά αρχείο με αριθμούς γραμμής
+format=json|tsv|csv  # μορφή εξόδου (προεπιλογή: text)
+active             # εμφάνιση εργασιών για ενεργό αρχείο
+daily              # εμφάνιση εργασιών από ημερήσια σημείωση
 ```
 
-**Examples:**
+**Παραδείγματα:**
 
 ```bash
-# List all tasks in the vault
+# Λίστα όλων των εργασιών στο θησαυροφυλάκιο
 tasks
 
-# List incomplete tasks in the vault
+# Λίστα μη ολοκληρωμένων εργασιών στο θησαυροφυλάκιο
 tasks todo
 
-# List completed tasks from a specific file
+# Λίστα ολοκληρωμένων εργασιών από συγκεκριμένο αρχείο
 tasks file=Recipe done
 
-# List tasks from today's daily note
+# Λίστα εργασιών από τη σημερινή ημερήσια σημείωση
 tasks daily
 
-# Count tasks in daily note
+# Μέτρηση εργασιών στην ημερήσια σημείωση
 tasks daily total
 
-# List tasks with file paths and line numbers
+# Λίστα εργασιών με διαδρομές αρχείων και αριθμούς γραμμής
 tasks verbose
 
-# Filter by custom status (quote special chars)
+# Φιλτράρισμα κατά προσαρμοσμένη κατάσταση (εισαγωγικά σε ειδικούς χαρακτήρες)
 tasks 'status=?'
 ```
 
 ### `task`
 
-Show or update a task.
+Εμφάνιση ή ενημέρωση εργασίας.
 
 ```bash
-ref=<path:line>    # task reference (path:line)
-file=<name>        # file name
-path=<path>        # file path
-line=<n>           # line number
-status="<char>"    # set status character
+ref=<path:line>    # αναφορά εργασίας (path:line)
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
+line=<n>           # αριθμός γραμμής
+status="<char>"    # ορισμός χαρακτήρα κατάστασης
 
-toggle             # toggle task status
-daily              # daily note
-done               # mark as done
-todo               # mark as todo
+toggle             # εναλλαγή κατάστασης εργασίας
+daily              # ημερήσια σημείωση
+done               # σήμανση ως ολοκληρωμένη
+todo               # σήμανση ως εκκρεμής
 ```
 
-**Examples:**
+**Παραδείγματα:**
 
 ```bash
-# Show task info
+# Εμφάνιση πληροφοριών εργασίας
 task file=Recipe line=8
 task ref="Recipe.md:8"
 
-# Toggle task completion
+# Εναλλαγή ολοκλήρωσης εργασίας
 task ref="Recipe.md:8" toggle
 
-# Toggle task in daily note
+# Εναλλαγή εργασίας σε ημερήσια σημείωση
 task daily line=3 toggle
 
-# Set task status
+# Ορισμός κατάστασης εργασίας
 task file=Recipe line=8 done      # → [x]
 task file=Recipe line=8 todo      # → [ ]
 task file=Recipe line=8 status=-  # → [-]
-task daily line=3 done            # Mark daily note task as done
+task daily line=3 done            # Σήμανση εργασίας ημερήσιας σημείωσης ως ολοκληρωμένη
 ```
 
 
-## Templates
+## Πρότυπα
 
-Commands for [[Plugins/Πρότυπα|Templates]].
+Εντολές για τα [[Πρότυπα]].
 
 ### `templates`
 
-List templates.
+Λίστα προτύπων.
 
 ```bash
-total              # return template count
+total              # επιστροφή αριθμού προτύπων
 ```
 
 ### `template:read`
 
-Read template content.
+Ανάγνωση περιεχομένου προτύπου.
 
 ```bash
-name=<template>    # (required) template name
-title=<title>      # title for variable resolution
+name=<template>    # (απαιτείται) όνομα προτύπου
+title=<title>      # τίτλος για επίλυση μεταβλητών
 
-resolve            # resolve template variables
+resolve            # επίλυση μεταβλητών προτύπου
 ```
 
 ### `template:insert`
 
-Insert template into active file.
+Εισαγωγή προτύπου στο ενεργό αρχείο.
 
 ```bash
-name=<template>    # (required) template name
+name=<template>    # (απαιτείται) όνομα προτύπου
 ```
 
-**Notes:**
-- `resolve` option processes `{{date}}`, `{{time}}`, `{{title}}` variables
-- Use `create path=<path> template=<name>` to create a file with a template
+**Σημειώσεις:**
+- Η επιλογή `resolve` επεξεργάζεται τις μεταβλητές `{{date}}`, `{{time}}`, `{{title}}`
+- Χρησιμοποιήστε `create path=<path> template=<name>` για δημιουργία αρχείου με πρότυπο
 
-## Themes and snippets
+## Θέματα και αποσπάσματα
 
-Commands for [[Θέματα]] and [[CSS αποσπάσματα]].
+Εντολές για τα [[Θέματα]] και τα [[CSS αποσπάσματα]].
 
 ### `themes`
 
-List installed themes.
+Λίστα εγκατεστημένων θεμάτων.
 
 ```bash
-versions           # include version numbers
+versions           # συμπερίληψη αριθμών έκδοσης
 ```
 
 ### `theme`
 
-Show active theme or get info.
+Εμφάνιση ενεργού θέματος ή λήψη πληροφοριών.
 
 ```bash
-name=<name>        # theme name for details
+name=<name>        # όνομα θέματος για λεπτομέρειες
 ```
 
 ### `theme:set`
 
-Set active theme.
+Ορισμός ενεργού θέματος.
 
 ```bash
-name=<name>        # (required) theme name (empty for default)
+name=<name>        # (απαιτείται) όνομα θέματος (κενό για προεπιλογή)
 ```
 
 ### `theme:install`
 
-Install a community theme.
+Εγκατάσταση θέματος κοινότητας.
 
 ```bash
-name=<name>        # (required) theme name
+name=<name>        # (απαιτείται) όνομα θέματος
 
-enable             # activate after install
+enable             # ενεργοποίηση μετά την εγκατάσταση
 ```
 
 ### `theme:uninstall`
 
-Uninstall a theme.
+Απεγκατάσταση θέματος.
 
 ```bash
-name=<name>        # (required) theme name
+name=<name>        # (απαιτείται) όνομα θέματος
 ```
 
 ### `snippets`
 
-List installed CSS snippets.
+Λίστα εγκατεστημένων CSS αποσπασμάτων.
 
 ### `snippets:enabled`
 
-List enabled CSS snippets.
+Λίστα ενεργοποιημένων CSS αποσπασμάτων.
 
 ### `snippet:enable`
 
-Enable a CSS snippet.
+Ενεργοποίηση CSS αποσπάσματος.
 
 ```bash
-name=<name>        # (required) snippet name
+name=<name>        # (απαιτείται) όνομα αποσπάσματος
 ```
 
 ### `snippet:disable`
 
-Disable a CSS snippet.
+Απενεργοποίηση CSS αποσπάσματος.
 
 ```bash
-name=<name>        # (required) snippet name
+name=<name>        # (απαιτείται) όνομα αποσπάσματος
 ```
 
-## Unique notes
+## Μοναδικές σημειώσεις
 
-Commands for [[Δημιουργός μοναδικής σημείωσης]].
+Εντολές για τον [[Δημιουργός μοναδικής σημείωσης]].
 
 ### `unique`
 
-Create unique note.
+Δημιουργία μοναδικής σημείωσης.
 
 ```bash
-name=<text>        # note name
-content=<text>     # initial content
-paneType=tab|split|window    # pane type to open in
+name=<text>        # όνομα σημείωσης
+content=<text>     # αρχικό περιεχόμενο
+paneType=tab|split|window    # τύπος πλαισίου για άνοιγμα
 
-open               # open file after creating
+open               # άνοιγμα αρχείου μετά τη δημιουργία
 ```
 
-## Vault
+## Θησαυροφυλάκιο
 
 ### `vault`
 
-Show vault info.
+Εμφάνιση πληροφοριών θησαυροφυλακίου.
 
 ```bash
-info=name|path|files|folders|size  # return specific info only
+info=name|path|files|folders|size  # επιστροφή μόνο συγκεκριμένων πληροφοριών
 ```
 
 ### `vaults`
 
-List known vaults.
+Λίστα γνωστών θησαυροφυλακίων.
 
 ```bash
-total              # return vault count
-verbose            # include vault paths
+total              # επιστροφή αριθμού θησαυροφυλακίων
+verbose            # συμπερίληψη διαδρομών θησαυροφυλακίων
 ```
 
 ### `vault:open`
 
-Switch to a different vault (TUI only).
+Εναλλαγή σε διαφορετικό θησαυροφυλάκιο (μόνο TUI).
 
 ```bash
-name=<name>        # (required) vault name
+name=<name>        # (απαιτείται) όνομα θησαυροφυλακίου
 ```
 
-## Web viewer
+## Πρόγραμμα προβολής ιστού
 
-Commands for [[Πρόγραμμα προβολής ιστού]].
+Εντολές για το [[Πρόγραμμα προβολής ιστού]].
 
 ### `web`
 
-Open URL in web viewer.
+Άνοιγμα URL στο πρόγραμμα προβολής ιστού.
 
 ```bash
-url=<url>          # (required) URL to open
+url=<url>          # (απαιτείται) URL για άνοιγμα
 
-newtab             # open in new tab
+newtab             # άνοιγμα σε νέα καρτέλα
 ```
 
-## Wordcount
+## Αρίθμηση λέξεων
 
-Commands for [[Αρίθμηση λέξεων]].
+Εντολές για την [[Αρίθμηση λέξεων]].
 
 ### `wordcount`
 
-Count words and characters (default: active file).
+Μέτρηση λέξεων και χαρακτήρων (προεπιλογή: ενεργό αρχείο).
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # όνομα αρχείου
+path=<path>        # διαδρομή αρχείου
 
-words              # return word count only
-characters         # return character count only
+words              # επιστροφή μόνο αριθμού λέξεων
+characters         # επιστροφή μόνο αριθμού χαρακτήρων
 ```
 
-## Workspace
+## Χώρος εργασίας
 
-Commands for [[Χώρος εργασίας]] and the [[Χώροι Εργασίας]] plugin.
+Εντολές για τον [[Χώρος εργασίας]] και το πρόσθετο [[Χώροι Εργασίας]].
 
 ### `workspace`
 
-Show workspace tree.
-
-```bash
-ids                # include workspace item IDs
-```
-
-### `workspaces`
-
-List saved workspaces.
-
-```bash
-total              # return workspace count
-```
-
-### `workspace:save`
-
-Save current layout as workspace.
-
-```bash
-name=<name>        # workspace name
-```
-
-### `workspace:load`
-
-Load a saved workspace.
-
-```bash
-name=<name>        # (required) workspace name
-```
-
-### `workspace:delete`
-
-Delete a saved workspace.
-
-```bash
-name=<name>        # (required) workspace name
-```
-
-### `tabs`
-
-List open tabs.
-
-```bash
-ids                # include tab IDs
-```
-
-### `tab:open`
-
-Open a new tab.
-
-```bash
-group=<id>         # tab group ID
-file=<path>        # file to open
-view=<type>        # view type to open
-```
-
-### `recents`
-
-List recently opened files.
-
-```bash
-total              # return recent file count
-```
-
-## Developer commands
-
-Commands to help you develop [[Πρόσθετα κοινότητας]] and [[Θέματα]]. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
-
-### `devtools`
-
-Toggle Electron dev tools.
-
-### `dev:debug`
-
-Attach/detach Chrome DevTools Protocol debugger.
-
-```bash
-on                 # attach debugger
-off                # detach debugger
-```
-
-### `dev:cdp`
-
-Run a Chrome DevTools Protocol command.
-
-```bash
-method=<CDP.method>  # (required) CDP method to call
-params=<json>        # method parameters as JSON
-```
-
-### `dev:errors`
-
-Show captured JavaScript errors.
-
-```bash
-clear              # clear the error buffer
-```
-
-### `dev:screenshot`
-
-Take a screenshot (returns base64 PNG).
-
-```bash
-path=<filename>    # output file path
-```
-
-### `dev:console`
-
-Show captured console messages.
-
-```bash
-limit=<n>                        # max messages to show (default 50)
-level=log|warn|error|info|debug  # filter by log level
-
-clear                            # clear the console buffer
-```
-
-### `dev:css`
-
-Inspect CSS with source locations.
-
-```bash
-selector=<css>     # (required) CSS selector
-prop=<name>        # filter by property name
-```
-
-### `dev:dom`
-
-Query DOM elements.
-
-```bash
-selector=<css>     # (required) CSS selector
-attr=<name>        # get attribute value
-css=<prop>         # get CSS property value
-
-total              # return element count
-text               # return text content
-inner              # return innerHTML instead of outerHTML
-all                # return all matches instead of first
-```
-
-### `dev:mobile`
-
-Toggle mobile emulation.
-
-```bash
-on                 # enable mobile emulation
-off                # disable mobile emulation
-```
-
-### `eval`
-
-Execute JavaScript and return result.
-
-```bash
-code=<javascript>  # (required) JavaScript code to execute
-```
-
-## Keyboard shortcuts
-
-These shortcuts are available in the [[#Use the terminal interface|TUI]].
-
-### Navigation
-
-| Action                                                | Shortcut       |
-| ----------------------------------------------------- | -------------- |
-| Move cursor left                                      | `←` / `Ctrl+B` |
-| Move cursor right (accepts suggestion at end of line) | `→` / `Ctrl+F` |
-| Jump to start of line                                 | `Ctrl+A`       |
-| Jump to end of line                                   | `Ctrl+E`       |
-| Move back one word                                    | `Alt+B`        |
-| Move forward one word                                 | `Alt+F`        |
-
-### Editing
-
-| Action                  | Shortcut                   |
-| ----------------------- | -------------------------- |
-| Delete to start of line | `Ctrl+U`                   |
-| Delete to end of line   | `Ctrl+K`                   |
-| Delete previous word    | `Ctrl+W` / `Alt+Backspace` |
-
-### Autocomplete
-
-| Action                                             | Shortcut    |
-| -------------------------------------------------- | ----------- |
-| Enter suggestion mode / accept selected suggestion | `Tab`       |
-| Exit suggestion mode                               | `Shift+Tab` |
-| Enter suggestion mode (from fresh input)           | `↓`         |
-| Accept first/selected suggestion (at end of line)  | `→`         |
-
-### History
-
-| Action                                                     | Shortcut       |
-| ---------------------------------------------------------- | -------------- |
-| Previous history entry / navigate suggestions up           | `↑` / `Ctrl+P` |
-| Next history entry / navigate suggestions down             | `↓` / `Ctrl+N` |
-| Reverse history search (type to filter, `Ctrl+R` to cycle) | `Ctrl+R`       |
-
-### Other
-
-| Action                                                 | Shortcut            |
-| ------------------------------------------------------ | ------------------- |
-| Execute command or accept suggestion                   | `Enter`             |
-| Undo autocomplete / exit suggestion mode / clear input | `Escape`            |
-| Clear screen                                           | `Ctrl+L`            |
-| Exit                                                   | `Ctrl+C` / `Ctrl+D` |
-
-## Troubleshooting
-
-If you are having trouble running Obsidian CLI:
-
-- Make sure you are using the latest [[Ενημέρωση Obsidian|Obsidian installer version]] (1.12.4 or above).
-- Restart your terminal after registering the CLI for the PATH changes to take effect.
-- Obsidian must be running. The CLI connects to the running Obsidian instance. If Obsidian is not running, the first CLI command should launch the app.
-
-### Windows
-
-Obsidian CLI on Windows requires the Obsidian 1.12.4+ installer. See [[Ενημέρωση Obsidian|Installer version update]].
-
-Windows uses a terminal redirector that connects Obsidian to stdin/stdout properly. This is necessary because Obsidian normally runs as a GUI app which is incompatible with terminal outputs on Windows. When you install Obsidian 1.12.4+ the `Obsidian.com` terminal redirector will be added in the folder where you installed the `Obsidian.exe` file.
-
-### macOS
-
-The CLI registration adds the Obsidian binary directory to your PATH via `~/.zprofile`. If you are having trouble, check the following:
-
-Your `~/.zprofile` file should contain the following line. If it's missing, you can add it manually:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Alternate shells
-
-The CLI registration only modifies `~/.zprofile`, which is used by zsh (the default macOS shell). If you use a different shell, add the Obsidian binary directory to your shell's configuration file manually:
-
-- Bash: add `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` to `~/.bash_profile`
-- Fish: run `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
-
-
-### Linux
-
-The CLI registration creates a symlink at `/usr/local/bin/obsidian` pointing to the Obsidian binary (requires sudo). 
-
-#### AppImage
-
-For AppImage installs, the symlink points to the `.AppImage` file instead of the internal binary, since the mount path changes each launch. If sudo fails, the symlink is created at `~/.local/bin/obsidian` as a fallback. If you are having trouble, check the following.
-
-Check that the symlink exists and points to the correct binary:
-
-```
-ls -l /usr/local/bin/obsidian
-```
-
-If the symlink is missing, create it manually:
-
-```
-sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
-```
-
-I the symlink was created in `~/.local/bin/` instead, make sure that directory is in your PATH. Add the following to your `~/.bashrc` or `~/.zshrc`:
-
-```
-export PATH="$PATH:$HOME/.local/bin"
-```
-
-If the symlink breaks after moving or renaming the `.AppImage` file, re-register the CLI or update the symlink manually.
-
-#### Snap
-
-The Snap package stores insider build data in its own user data directory. If the CLI doesn't detect the insider `.asar`, set `XDG_CONFIG_HOME` to point to the Snap config path:
-
-```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
-```
-
-Add this to your `~/.bashrc` or `~/.zshrc` to make it persistent.
-
-
-#### Flatpak
-
-Obsidian tries to do this automatically, but below are the manual instructions. If it is a system install:
-
-```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-If it is a user install:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
+Ε
