@@ -15,6 +15,7 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 | `es`     | https://obsidian.md/es/help/    |
 | `fa`     | https://obsidian.md/fa/help/    |
 | `fr`     | https://obsidian.md/fr/help/    |
+| `he`     | https://obsidian.md/he/help/    |
 | `id`     | https://obsidian.md/id/help/    |
 | `it`     | https://obsidian.md/it/help/    |
 | `ja`     | https://obsidian.md/ja/help/    |

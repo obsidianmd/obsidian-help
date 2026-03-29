@@ -1,0 +1,939 @@
+[heading.bases/Create a new base]
+original=Create a new base
+translation=יצירת בסיס חדש
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=הטמעת בסיס
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=הטמעת קובץ בסיס
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=הטמעת בסיס כבלוק קוד
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=כיצד להשתמש ב-Bases
+
+[heading.bases/View types]
+original=View types
+translation=סוגי תצוגה
+
+[heading.bases/Global]
+original=Global
+translation=גלובליות
+
+[heading.bases/Any]
+original=Any
+translation=כל סוג
+
+[heading.bases/Date]
+original=Date
+translation=תאריך
+
+[heading.bases/Fields]
+original=Fields
+translation=שדות
+
+[heading.bases/String]
+original=String
+translation=מחרוזת
+
+[heading.bases/Number]
+original=Number
+translation=מספר
+
+[heading.bases/List]
+original=List
+translation=רשימה
+
+[heading.bases/Link]
+original=Link
+translation=קישור
+
+[heading.bases/File]
+original=File
+translation=קובץ
+
+[heading.bases/Object]
+original=Object
+translation=אובייקט
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=ביטוי רגולרי
+
+[heading.bases/Settings]
+original=Settings
+translation=הגדרות
+
+[heading.bases/Row height]
+original=Row height
+translation=גובה שורה
+
+[heading.bases/Summaries]
+original=Summaries
+translation=סיכומים
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=הוספת סיכום
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=סיכומים מובנים
+
+[heading.bases/All property types]
+original=All property types
+translation=כל סוגי המאפיינים
+
+[heading.bases/Numbers]
+original=Numbers
+translation=מספרים
+
+[heading.bases/Dates]
+original=Dates
+translation=תאריכים
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=תיבת סימון
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=סיכומים מותאמים אישית
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=קיצורי דרך
+
+[heading.bases/Card size]
+original=Card size
+translation=גודל כרטיס
+
+[heading.bases/Image property]
+original=Image property
+translation=מאפיין תמונה
+
+[heading.bases/Image fit]
+original=Image fit
+translation=התאמת תמונה
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=יחס גובה-רוחב של התמונה
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=התקנת תוסף Maps
+
+[heading.bases/Example]
+original=Example
+translation=דוגמא
+
+[heading.bases/Markers]
+original=Markers
+translation=סימנים
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=קואורדינטות
+
+[heading.bases/Icons]
+original=Icons
+translation=סמלים
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=שימוש בנוסחה להגדרת סמלים
+
+[heading.bases/Colors]
+original=Colors
+translation=צבעים
+
+[heading.bases/Background]
+original=Background
+translation=רקע
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=אריחי מפה
+
+[heading.bases/Useful links]
+original=Useful links
+translation=קישורים שימושיים
+
+[heading.bases/Tips]
+original=Tips
+translation=טיפים
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=פתרון בעיות
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=הזחת מאפיינים
+
+[heading.bases/Separators]
+original=Separators
+translation=מפרידים
+
+[heading.bases/Filters]
+original=Filters
+translation=מסננים
+
+[heading.bases/Formulas]
+original=Formulas
+translation=נוסחאות
+
+[heading.bases/Properties]
+original=Properties
+translation=מאפיינים
+
+[heading.bases/Default Summary Formulas]
+original=Default Summary Formulas
+translation=נוסחאות סיכום ברירת מחדל
+
+[heading.bases/Views]
+original=Views
+translation=תצוגות
+
+[heading.bases/Note properties]
+original=Note properties
+translation=מאפייני הערה
+
+[heading.bases/File properties]
+original=File properties
+translation=מאפייני קובץ
+
+[heading.bases/Access properties with `this`]
+original=Access properties with `this`
+translation=גישה למאפיינים עם `this`
+
+[heading.bases/Operators]
+original=Operators
+translation=אופרטורים
+
+[heading.bases/Arithmetic operators]
+original=Arithmetic operators
+translation=אופרטורים אריתמטיים
+
+[heading.bases/Date arithmetic]
+original=Date arithmetic
+translation=אריתמטיקת תאריכים
+
+[heading.bases/Comparison operators]
+original=Comparison operators
+translation=אופרטורי השוואה
+
+[heading.bases/Boolean operators]
+original=Boolean operators
+translation=אופרטורים בוליאניים
+
+[heading.bases/Functions]
+original=Functions
+translation=פונקציות
+
+[heading.bases/Types]
+original=Types
+translation=סוגים
+
+[heading.bases/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=מחרוזות, מספרים ובוליאניים
+
+[heading.bases/Dates and durations]
+original=Dates and durations
+translation=תאריכים ומשכי זמן
+
+[heading.bases/Objects and lists]
+original=Objects and lists
+translation=אובייקטים ורשימות
+
+[heading.bases/Files and links]
+original=Files and links
+translation=קבצים וקישורים
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=סרגל כלים
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=הוספה ומעבר בין תצוגות
+
+[heading.bases/View settings]
+original=View settings
+translation=הגדרות תצוגה
+
+[heading.bases/Layout]
+original=Layout
+translation=פריסה
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=רכיבי מסנן
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=צירופים
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=קבוצות מסננים
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=עורך מסנן מתקדם
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=מיון וקיבוץ תוצאות
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=הוספת מיון
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=הסרת מיון
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=הגבלה, העתקה וייצוא תוצאות
+
+[heading.bases/Limit results]
+original=Limit results
+translation=הגבלת תוצאות
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=העתק ללוח
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=ייצוא CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=הטמעת תצוגה
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=מה נוסחאות יכולות לעשות
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=יצירת מאפיין נוסחה
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=כתיבת נוסחה
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=הפניה למאפיינים
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=שימוש באופרטורים
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=שימוש בפונקציות
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=דוגמאות נוסחאות
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=חישוב מועד אחרון
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=הצגת סטטוס איחור
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=עיצוב מטבע
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=ספירת פריטי רשימה
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=חישוב ציון עדיפות
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=שילוב שדות טקסט
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=חישוב עלות כוללת
+
+[heading.formulas/Data types]
+original=Data types
+translation=סוגי נתונים
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=הפניה לנוסחאות אחרות
+
+[heading.ios/Sync]
+original=Sync
+translation=סנכרון
+
+[heading.ios/Widgets]
+original=Widgets
+translation=ווידג׳טים
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=ווידג׳טים למסך נעילה ומרכז בקרה
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=ווידג׳טים למסך הבית
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=התאמה אישית של ווידג׳טים
+
+[heading.ios/Shortcuts]
+original=Shortcuts
+translation=קיצורים
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=תוסף Share Sheet
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=שילוב עם Siri
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=שילוב עם Spotlight
+
+[heading.android/Sync]
+original=Sync
+translation=סנכרון
+
+[heading.android/Vault location]
+original=Vault location
+translation=מיקום הכספת
+
+[heading.android/Device storage]
+original=Device storage
+translation=אחסון במכשיר
+
+[heading.android/App storage]
+original=App storage
+translation=אחסון האפליקציה
+
+[heading.android/Widgets]
+original=Widgets
+translation=ווידג'טים
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=אריחי הגדרות מהירות
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=קיצורי דרך
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=מהו Obsidian
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=במה אנחנו שונים
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=הנתונים שלכם בשליטתכם
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=קישורים הם אזרחים מהשורה הראשונה
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=ערכת הכלים שלכם
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=עקבו אחרי הפיתוח שלנו
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=הפעלת 2FA
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=יצירת קודי שחזור
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=השבתת 2FA
+
+[heading.2fa/FAQ]
+original=FAQ
+translation=שאלות נפוצות
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=הפעלת גרסאות גישה מוקדמת לשולחן העבודה
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=התקנת גרסאות גישה מוקדמת במכשירים ניידים
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=דיווח על בעיות ומשוב נוסף
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=חזרה לגרסאות ציבוריות בשולחן העבודה
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=חזרה לגרסאות ציבוריות בנייד
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=הכללים
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=עבירות חמורות
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=הטרדה
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=איומים
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=גזענות ואפליה גלויה
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=עבירות אחרות
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=תוקפנות
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=להיות לא נעים במיוחד
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=הודעות לא מבוקשות לחברי קהילה
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=התנהגויות אחרות
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation="תאכילו אותי"
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=קמפיינינג
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=קידום עצמי מוגזם
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=ספאם
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=התנהגויות מעודדות
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=מוטיבציה
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=דיווח על הפרות
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=דיווח ב-Discord
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=דיווח בפורום
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=אכיפה
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=ערעור על הרחקה
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=קרדיטים
+
+[heading.credits/Team]
+original=Team
+translation=צוות
+
+[heading.credits/Development]
+original=Development
+translation=פיתוח
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=מוצר ותפעול
+
+[heading.credits/Moderators]
+original=Moderators
+translation=מנחים
+
+[heading.credits/Retired]
+original=Retired
+translation=בדימוס
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=השראה מתוספים
+
+[heading.credits/Builds]
+original=Builds
+translation=בנייה
+
+[heading.credits/Translators]
+original=Translators
+translation=מתרגמים
+
+[heading.credits/Documentation]
+original=Documentation
+translation=תיעוד
+
+[heading.credits/Add your name]
+original=Add your name
+translation=הוסף את שמך
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=הכרת תודה לצדדים שלישיים
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=סמל קודם
+
+[heading.publish/Quick start]
+original=Quick start
+translation=התחלה מהירה
+
+[heading.publish/Commands]
+original=Commands
+translation=פקודות
+
+[heading.publish/Sitemap]
+original=Sitemap
+translation=מפת אתר
+
+[heading.publish/Permalinks]
+original=Permalinks
+translation=קישורים קבועים
+
+[heading.publish/Metadata]
+original=Metadata
+translation=מטא-נתונים
+
+[heading.publish/Password protection]
+original=Password protection
+translation=הגנה באמצעות סיסמה
+
+[heading.publish/Add a site password]
+original=Add a site password
+translation=הוספת סיסמת אתר
+
+[heading.publish/Remove a site password]
+original=Remove a site password
+translation=הסרת סיסמת אתר
+
+[heading.publish/Data collection]
+original=Data collection
+translation=איסוף נתונים
+
+[heading.publish/Visitor data]
+original=Visitor data
+translation=נתוני מבקרים
+
+[heading.publish/Access]
+original=Access
+translation=גישה
+
+[heading.publish/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=ניהול גישה ל-Obsidian Publish ברשת שלכם
+
+[heading.publish/Prerequisites]
+original=Prerequisites
+translation=דרישות מוקדמות
+
+[heading.publish/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible, Fathom ושירותי אנליטיקה אחרים
+
+[heading.publish/Troubleshooting]
+original=Troubleshooting
+translation=פתרון בעיות
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=התקנת Obsidian CLI
+
+[heading.cli/Get started]
+original=Get started
+translation=תחילת עבודה
+
+[heading.cli/Run a command]
+original=Run a command
+translation=הרצת פקודה
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=שימוש בממשק הטרמינל
+
+[heading.cli/Examples]
+original=Examples
+translation=דוגמאות
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=שימוש יומיומי
+
+[heading.cli/For developers]
+original=For developers
+translation=למפתחים
+
+[heading.cli/How to]
+original=How to
+translation=כיצד לבצע
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=שימוש בפרמטרים ודגלים
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=מיקוד כספת
+
+[heading.cli/Target a file]
+original=Target a file
+translation=מיקוד קובץ
+
+[heading.cli/Copy output]
+original=Copy output
+translation=העתקת פלט
+
+[heading.cli/General commands]
+original=General commands
+translation=פקודות כלליות
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=סימניות
+
+[heading.cli/Command palette]
+original=Command palette
+translation=לוח פקודות
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=הערות יומיות
+
+[heading.cli/File history]
+original=File history
+translation=היסטוריית קבצים
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=קבצים ותיקיות
+
+[heading.cli/Links]
+original=Links
+translation=קישורים
+
+[heading.cli/Outline]
+original=Outline
+translation=מתאר
+
+[heading.cli/Plugins]
+original=Plugins
+translation=תוספים
+
+[heading.cli/Properties]
+original=Properties
+translation=מאפיינים
+
+[heading.cli/Random notes]
+original=Random notes
+translation=הערות אקראיות
+
+[heading.cli/Search]
+original=Search
+translation=חיפוש
+
+[heading.cli/Tags]
+original=Tags
+translation=תגיות
+
+[heading.cli/Tasks]
+original=Tasks
+translation=משימות
+
+[heading.cli/Templates]
+original=Templates
+translation=תבניות
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=ערכות נושא וקטעים
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=הערות ייחודיות
+
+[heading.cli/Vault]
+original=Vault
+translation=כספת
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=מציג אינטרנט
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=ספירת מילים
+
+[heading.cli/Workspace]
+original=Workspace
+translation=מרחב עבודה
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=פקודות למפתחים
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=קיצורי מקלדת
+
+[heading.cli/Navigation]
+original=Navigation
+translation=ניווט
+
+[heading.cli/Editing]
+original=Editing
+translation=עריכה
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=השלמה אוטומטית
+
+[heading.cli/History]
+original=History
+translation=היסטוריה
+
+[heading.cli/Other]
+original=Other
+translation=אחר
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=פתרון בעיות
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=מעטפות חלופיות
+
+[heading.plugins/format-converter/Supported formats]
+original=Supported formats
+translation=פורמטים נתמכים
+
+[heading.plugins/format-converter/[[Properties]]]
+original=[[Properties]]
+translation=[[מאפיינים]]
+
+[heading.backup/Syncing is not a backup]
+original=Syncing is not a backup
+translation=סנכרון אינו גיבוי
+
+[heading.backup/Use community plugins]
+original=Use community plugins
+translation=שימוש בתוספים קהילתיים
+
+[heading.backup/Use cloud-based services]
+original=Use cloud-based services
+translation=שימוש בשירותי ענן
+
+[heading.backup/Use external drives]
+original=Use external drives
+translation=שימוש בכוננים חיצוניים
+
+[heading.backup/Use computer backups]
+original=Use computer backups
+translation=שימוש בגיבוי מחשב
+
+[heading.backup/Next steps]
+original=Next steps
+translation=צעדים הבאים
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=התקנת Obsidian ב-Windows
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=התקנת Obsidian ב-macOS
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=התקנת Obsidian ב-Linux
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=התקנת Obsidian באמצעות Snap
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=התקנת Obsidian באמצעות AppImage
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=התקנת Obsidian באמצעות Flatpak
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=התקנת Obsidian ב-Android
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=התקנת Obsidian ב-iPhone וב-iPad

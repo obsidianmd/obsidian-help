@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=דף הבית
+
+[file.2fa]
+original=2-factor authentication
+translation=אימות דו-שלבי
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=תחביר עיצוב מתקדם
+
+[file.aliases]
+original=Aliases
+translation=כינויים
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian לאנדרואיד
+
+[file.appearance]
+original=Appearance
+translation=מראה חיצוני
+
+[file.attachments]
+original=Attachments
+translation=קבצים מצורפים
+
+[file.backup]
+original=Back up your Obsidian files
+translation=גיבוי קבצי Obsidian
+
+[file.bases]
+original=Introduction to Bases
+translation=מבוא ל-Bases
+
+[file.bases/create-base]
+original=Create a base
+translation=יצירת base
+
+[file.bases/functions]
+original=Functions
+translation=פונקציות
+
+[file.bases/syntax]
+original=Bases syntax
+translation=תחביר Bases
+
+[file.bases/views]
+original=Views
+translation=תצוגות
+
+[file.bases/views/cards]
+original=Cards view
+translation=תצוגת כרטיסים
+
+[file.bases/views/list]
+original=List view
+translation=תצוגת רשימה
+
+[file.bases/views/map]
+original=Map view
+translation=תצוגת מפה
+
+[file.bases/views/table]
+original=Table view
+translation=תצוגת טבלה
+
+[file.callouts]
+original=Callouts
+translation=ציטוטים
+
+[file.catalyst]
+original=Catalyst license
+translation=רישיון Catalyst
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=כללי התנהגות קהילתיים
+
+[file.community-plugins]
+original=Community plugins
+translation=תוספים קהילתיים
+
+[file.configuration-folder]
+original=Configuration folder
+translation=תיקיית תצורה
+
+[file.create-note]
+original=Create your first note
+translation=צור את ההערה הראשונה שלך
+
+[file.credit]
+original=Obsidian Credit
+translation=קרדיט Obsidian
+
+[file.credits]
+original=Credits
+translation=קרדיטים
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=כיצד Obsidian מאחסן נתונים
+
+[file.developers]
+original=Developers
+translation=מפתחים
+
+[file.discounts]
+original=Education and non-profit discount
+translation=הנחות לחינוך ולמלכ"רים
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=גרור ושחרר
+
+[file.early-access]
+original=Early access versions
+translation=גרסאות גישה מוקדמת
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=תצוגות ומצב עריכה
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=קיצורי עריכה
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=הטמעת דפי אינטרנט
+
+[file.embeds]
+original=Embed files
+translation=הטמעת קבצים
+
+[file.file-formats]
+original=Accepted file formats
+translation=פורמטי קבצים נתמכים
+
+[file.financial-contributions]
+original=Financial contributions
+translation=תרומות כספיות
+
+[file.folding]
+original=Folding
+translation=מתקפל
+
+[file.formulas]
+original=Formulas
+translation=נוסחאות
+
+[file.glossary]
+original=Glossary
+translation=מילון מונחים
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=מקשי קיצור
+
+[file.html]
+original=HTML content
+translation=תוכן HTML
+
+[file.import]
+original=Import notes
+translation=ייבוא הערות
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=ייבא מ-Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=ייבא מ-Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=ייבא מ-Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=ייבא מ-Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=ייבא קבצי CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=ייבא מ-Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=ייבא מ-Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=ייבא קבצי HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=ייבא קבצי Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=ייבא מ-Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=ייבא מ-Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=ייבא מ-Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=ייבא קבצי Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=ייבא רשימות Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=הורדה והתקנה של Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian ל-iOS ו-iPadOS
+
+[file.language]
+original=Language settings
+translation=הגדרות שפה
+
+[file.link-notes]
+original=Link notes
+translation=קישור הערות
+
+[file.links]
+original=Internal links
+translation=קישורים פנימיים
+
+[file.manage-notes]
+original=Manage notes
+translation=ניהול הערות
+
+[file.manage-vaults]
+original=Manage vaults
+translation=נהל כספות
+
+[file.mobile]
+original=Mobile app
+translation=אפליקציה לנייד
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=סמנים מרובים
+
+[file.obsidian]
+original=About Obsidian
+translation=אודות Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=אתר רשמי
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=מבוא לרישיונות ותשלום
+
+[file.plugin-security]
+original=Plugin security
+translation=אבטחת תוספים
+
+[file.plugins]
+original=Core plugins
+translation=תוספי ליבה
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=מקליט אודיו
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=קישורים נכנסים
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=סימניות
+
+[file.plugins/canvas]
+original=Canvas
+translation=קנבס
+
+[file.plugins/command-palette]
+original=Command palette
+translation=לוח פקודות
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=הערות יומיות
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=סייר קבצים
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=שחזור קובץ
+
+[file.plugins/format-converter]
+original=Format converter
+translation=יבואן פורמט Markdown
+
+[file.plugins/graph]
+original=Graph view
+translation=תצוגת גרף
+
+[file.plugins/importer]
+original=Importer
+translation=ייבוא
+
+[file.plugins/note-composer]
+original=Note composer
+translation=מחבר הערות
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=קישורים יוצאים
+
+[file.plugins/outline]
+original=Outline
+translation=מתווה
+
+[file.plugins/page-preview]
+original=Page preview
+translation=תצוגה מקדימה של הדף
+
+[file.plugins/properties]
+original=Properties view
+translation=תצוגת מאפיינים
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=מחליף מהיר
+
+[file.plugins/random-note]
+original=Random note
+translation=הערה אקראית
+
+[file.plugins/search]
+original=Search
+translation=חיפוש
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=פקודות סלאש
+
+[file.plugins/slides]
+original=Slides
+translation=שקופיות
+
+[file.plugins/tags]
+original=Tags view
+translation=חלונית תגים
+
+[file.plugins/templates]
+original=Templates
+translation=תבניות
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=יוצר פתק ייחודי
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=מציג אינטרנט
+
+[file.plugins/word-count]
+original=Word count
+translation=ספירת מילים
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=חללי עבודה
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=חלונות צפים
+
+[file.properties]
+original=Properties
+translation=מאפיינים
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=מבוא ל-Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=אנליטיקה
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=שיתוף פעולה באתר Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=התאמה אישית של האתר
+
+[file.publish/domains]
+original=Custom domains
+translation=תחומים מותאמים אישית
+
+[file.publish/headless]
+original=Headless Publish
+translation=Publish ללא ממשק
+
+[file.publish/limitations]
+original=Publish limitations
+translation=מגבלות Publish
+
+[file.publish/media]
+original=Media files
+translation=קבצי מדיה
+
+[file.publish/permalinks]
+original=Permalinks
+translation=קישורים קבועים
+
+[file.publish/publish]
+original=Publish your content
+translation=פרסום התוכן שלך
+
+[file.publish/security]
+original=Security and privacy
+translation=אבטחה ופרטיות
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=הגדרת Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=ניהול אתרים
+
+[file.publish/social-share]
+original=Social media link previews
+translation=תצוגות מקדימות של קישורים ברשתות חברתיות
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=פתרון בעיות ב-Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=מדיניות החזרים
+
+[file.resources]
+original=Help and support
+translation=עזרה ותמיכה
+
+[file.ribbon]
+original=Ribbon
+translation=סרגל כלים
+
+[file.sales-tax]
+original=Sales tax
+translation=מס מכירות
+
+[file.sandbox]
+original=Sandbox vault
+translation=כספת ארגז חול
+
+[file.settings]
+original=Settings
+translation=הגדרות
+
+[file.sidebar]
+original=Sidebar
+translation=סרגל צד
+
+[file.snippets]
+original=CSS snippets
+translation=קטעי CSS
+
+[file.status-bar]
+original=Status bar
+translation=שורת מצב
+
+[file.style-guide]
+original=Style guide
+translation=מדריך סגנון
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=קישורים סמליים וצמתים
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=מבוא ל-Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=סנכרון ההערות שלך בין מכשירים
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=שיתוף פעולה בכספת משותפת
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=שאלות נפוצות
+
+[file.sync/headless]
+original=Headless Sync
+translation=סנכרון ללא ממשק
+
+[file.sync/messages]
+original=Status icon and messages
+translation=סמל סטטוס והודעות
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=שדרוג הצפנת סנכרון
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=מסלולים ומגבלות אחסון
+
+[file.sync/region]
+original=Sync regions
+translation=אזורי סנכרון
+
+[file.sync/security]
+original=Security and privacy
+translation=אבטחה ופרטיות
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=הגדרות סנכרון וסנכרון סלקטיבי
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=הגדרת Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=מעבר ל-Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=פתרון בעיות ב-Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=כספות מקומיות ומרוחקות
+
+[file.sync/version-history]
+original=Version history
+translation=היסטוריית גרסאות
+
+[file.syntax]
+original=Basic formatting syntax
+translation=תחביר עיצוב בסיסי
+
+[file.tabs]
+original=Tabs
+translation=לשוניות
+
+[file.tags]
+original=Tags
+translation=תגים
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian לצוותים
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=פריסת Obsidian עבור הצוות שלך
+
+[file.teams/license]
+original=Commercial license
+translation=רישיון פרסומי
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publish לצוותים
+
+[file.teams/security]
+original=Security considerations for teams
+translation=שיקולי אבטחה לצוותים
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Sync לצוותים
+
+[file.themes]
+original=Themes
+translation=ערכות נושא
+
+[file.translations]
+original=Translations
+translation=תרגומים
+
+[file.updates]
+original=Update Obsidian
+translation=עדכון Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=צור כספת
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=מבוא ל-Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=גזירת דפי אינטרנט
+
+[file.web-clipper/filters]
+original=Filters
+translation=מסננים
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=הדגשת דפי אינטרנט
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=פרש דפי אינטרנט
+
+[file.web-clipper/logic]
+original=Logic
+translation=לוגיקה
+
+[file.web-clipper/reader]
+original=Reader
+translation=קורא
+
+[file.web-clipper/templates]
+original=Templates
+translation=תבניות
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=פתרון בעיות ב-Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=משתנים
+
+[file.workspace]
+original=Workspace
+translation=חלל עבודה
+
+[folder.audio]
+original=audio
+translation=שמע
+
+[folder.Changelog]
+original=Changelog
+translation=יומן שינויים
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=תרומה ל-Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=עריכה ועיצוב
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=הרחבת Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=קבצים ותיקיות
+
+[folder.Getting started]
+original=Getting started
+translation=תחילת העבודה
+
+[folder.icons]
+original=icons
+translation=סמלים
+
+[folder.Import notes]
+original=Import notes
+translation=ייבוא הערות
+
+[folder.Layouts]
+original=Layouts
+translation=פריסה
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=רישיונות ותשלום
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=קישור הערות וקבצים
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=תוספים
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=ממשק משתמש
+
+[folder.video]
+original=video
+translation=וידאו

@@ -8,6 +8,7 @@
     { code: 'es',    label: 'Español',            base: 'https://obsidian.md/es/help' },
     { code: 'fa',    label: 'فارسی',              base: 'https://obsidian.md/fa/help' },
     { code: 'fr',    label: 'Français',           base: 'https://obsidian.md/fr/help' },
+    { code: 'he',    label: 'עברית',              base: 'https://obsidian.md/he/help' },
     { code: 'id',    label: 'Bahasa Indonesia',   base: 'https://obsidian.md/id/help' },
     { code: 'it',    label: 'Italiano',           base: 'https://obsidian.md/it/help' },
     { code: 'ja',    label: '日本語',                base: 'https://obsidian.md/ja/help' },
