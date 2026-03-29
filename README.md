@@ -26,6 +26,7 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 | `ru`     | https://obsidian.md/ru/help/    |
 | `th`     | https://obsidian.md/th/help/    |
 | `tr`     | https://obsidian.md/tr/help/    |
+| `uk`     | https://obsidian.md/uk/help/    |
 | `vi`     | https://obsidian.md/vi/help/    |
 | `zh`     | https://obsidian.md/zh/help/    |
 | `zh-TW`     | https://obsidian.md/zh-TW/help/ |

@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=Головна
+
+[file.2fa]
+original=2-factor authentication
+translation=Двофакторна автентифікація
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Розширений синтаксис форматування
+
+[file.aliases]
+original=Aliases
+translation=Псевдоніми
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian для Android
+
+[file.appearance]
+original=Appearance
+translation=Оформлення
+
+[file.attachments]
+original=Attachments
+translation=Вкладення
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Резервне копіювання файлів Obsidian
+
+[file.bases]
+original=Introduction to Bases
+translation=Вступ до Баз
+
+[file.bases/create-base]
+original=Create a base
+translation=Створити базу
+
+[file.bases/functions]
+original=Functions
+translation=Функції
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Синтаксис Бази
+
+[file.bases/views]
+original=Views
+translation=Подання
+
+[file.bases/views/cards]
+original=Cards view
+translation=Подання картками
+
+[file.bases/views/list]
+original=List view
+translation=Подання списком
+
+[file.bases/views/map]
+original=Map view
+translation=Подання картою
+
+[file.bases/views/table]
+original=Table view
+translation=Подання таблицею
+
+[file.callouts]
+original=Callouts
+translation=Виноски
+
+[file.catalyst]
+original=Catalyst license
+translation=Ліцензія Catalyst
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Кодекс поведінки спільноти
+
+[file.community-plugins]
+original=Community plugins
+translation=Додатки спільноти
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Тека конфігурації
+
+[file.create-note]
+original=Create your first note
+translation=Створіть свою першу нотатку
+
+[file.credit]
+original=Obsidian Credit
+translation=Кредит Obsidian
+
+[file.credits]
+original=Credits
+translation=Подяки
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Як Obsidian зберігає дані
+
+[file.developers]
+original=Developers
+translation=Розробникам
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Знижки для освіти та некомерційних організацій
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Перетягування
+
+[file.early-access]
+original=Early access versions
+translation=Версії раннього доступу
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Подання та режими редагування
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Гарячі клавіші редагування
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Вбудовування вебсторінок
+
+[file.embeds]
+original=Embed files
+translation=Вбудовування файлів
+
+[file.file-formats]
+original=Accepted file formats
+translation=Підтримувані формати файлів
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Фінансова підтримка
+
+[file.folding]
+original=Folding
+translation=Складання
+
+[file.formulas]
+original=Formulas
+translation=Формули
+
+[file.glossary]
+original=Glossary
+translation=Глосарій
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Сполучення клавіш
+
+[file.html]
+original=HTML content
+translation=HTML-вміст
+
+[file.import]
+original=Import notes
+translation=Імпорт нотаток
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Імпорт з Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Імпорт з Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=Імпорт з Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=Імпорт з Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=Імпорт файлів CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Імпорт з Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Імпорт з Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=Імпорт файлів HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Імпорт файлів Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=Імпорт з Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Імпорт з Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Імпорт з Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Імпорт файлів Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Імпорт нотаток Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=Завантажити та встановити Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian для iOS та iPadOS
+
+[file.language]
+original=Language settings
+translation=Налаштування мови
+
+[file.link-notes]
+original=Link notes
+translation=Зв'язування нотаток
+
+[file.links]
+original=Internal links
+translation=Внутрішні посилання
+
+[file.manage-notes]
+original=Manage notes
+translation=Керування нотатками
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Керувати сховищами
+
+[file.mobile]
+original=Mobile app
+translation=Мобільний застосунок
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Множинні курсори
+
+[file.obsidian]
+original=About Obsidian
+translation=Про Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Офіційний вебсайт
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Вступ до ліцензій та оплати
+
+[file.plugin-security]
+original=Plugin security
+translation=Безпека додатків
+
+[file.plugins]
+original=Core plugins
+translation=Вбудовані додатки
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Диктофон
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Зворотні посилання
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Закладки
+
+[file.plugins/canvas]
+original=Canvas
+translation=Полотно
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Меню команд
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Щоденні нотатки
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Файловий провідник
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Відновлення файлів
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Імпорт Markdown-файлів
+
+[file.plugins/graph]
+original=Graph view
+translation=Граф
+
+[file.plugins/importer]
+original=Importer
+translation=Імпортер
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Компонувальник нотаток
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Вихідні посилання
+
+[file.plugins/outline]
+original=Outline
+translation=Вміст
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Попередній перегляд
+
+[file.plugins/properties]
+original=Properties view
+translation=Перегляд властивостей
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Швидкий перехід
+
+[file.plugins/random-note]
+original=Random note
+translation=Випадкова нотатка
+
+[file.plugins/search]
+original=Search
+translation=Пошук
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Слеш команди
+
+[file.plugins/slides]
+original=Slides
+translation=Слайди
+
+[file.plugins/tags]
+original=Tags view
+translation=Панель міток
+
+[file.plugins/templates]
+original=Templates
+translation=Шаблони
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Конструктор унікальних нотаток
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Вебпереглядач
+
+[file.plugins/word-count]
+original=Word count
+translation=Лічильник слів
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Простори
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Спливні вікна
+
+[file.properties]
+original=Properties
+translation=Властивості
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Вступ до Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=Аналітика
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Співпраця на сайті Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=Налаштування вашого сайту
+
+[file.publish/domains]
+original=Custom domains
+translation=Особисті домени
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Обмеження Publish
+
+[file.publish/media]
+original=Media files
+translation=Медіафайли
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Постійні посилання
+
+[file.publish/publish]
+original=Publish your content
+translation=Публікація вашого контенту
+
+[file.publish/security]
+original=Security and privacy
+translation=Безпека та конфіденційність
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Налаштування Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=Управління сайтами
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Попередній перегляд посилань у соціальних мережах
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Вирішення проблем Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=Політика повернення коштів
+
+[file.resources]
+original=Help and support
+translation=Довідка та підтримка
+
+[file.ribbon]
+original=Ribbon
+translation=Стрічкове меню
+
+[file.sales-tax]
+original=Sales tax
+translation=Податок з продажу
+
+[file.sandbox]
+original=Sandbox vault
+translation=Сховище-пісочниця
+
+[file.settings]
+original=Settings
+translation=Налаштування
+
+[file.sidebar]
+original=Sidebar
+translation=Бічна панель
+
+[file.snippets]
+original=CSS snippets
+translation=Сніпети CSS
+
+[file.status-bar]
+original=Status bar
+translation=Рядок стану
+
+[file.style-guide]
+original=Style guide
+translation=Посібник зі стилю
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Символічні посилання та з'єднання
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Вступ до Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Синхронізація нотаток між пристроями
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Спільна робота у спільному сховищі
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Часті запитання
+
+[file.sync/headless]
+original=Headless Sync
+translation=Автономна синхронізація
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Іконка стану та повідомлення
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Підвищити шифрування Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Плани та обмеження сховища
+
+[file.sync/region]
+original=Sync regions
+translation=Регіони Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=Безпека та конфіденційність
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Налаштування Sync та вибіркова синхронізація
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Налаштування Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Перехід на Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Вирішення проблем Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Локальні та віддалені сховища
+
+[file.sync/version-history]
+original=Version history
+translation=Історія версій
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Базовий синтаксис форматування
+
+[file.tabs]
+original=Tabs
+translation=Вкладки
+
+[file.tags]
+original=Tags
+translation=Мітки
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian для команд
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Розгортання Obsidian для команди
+
+[file.teams/license]
+original=Commercial license
+translation=Комерційна ліцензія
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publish для команд
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Безпека для команд
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Sync для команд
+
+[file.themes]
+original=Themes
+translation=Теми
+
+[file.translations]
+original=Translations
+translation=Переклади
+
+[file.updates]
+original=Update Obsidian
+translation=Оновлення Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Створити сховище
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Вступ до Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Збереження вебсторінок
+
+[file.web-clipper/filters]
+original=Filters
+translation=Фільтри
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Виділення вебсторінок
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Інтерпретація вебсторінок
+
+[file.web-clipper/logic]
+original=Logic
+translation=Логіка
+
+[file.web-clipper/reader]
+original=Reader
+translation=Читач
+
+[file.web-clipper/templates]
+original=Templates
+translation=Шаблони
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Вирішення проблем Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=Змінні
+
+[file.workspace]
+original=Workspace
+translation=Робочий простір
+
+[folder.audio]
+original=audio
+translation=аудіо
+
+[folder.Changelog]
+original=Changelog
+translation=Список змін
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Внесок у Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Редагування і форматування
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Розширення Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=Файли і теки
+
+[folder.Getting started]
+original=Getting started
+translation=Початок роботи
+
+[folder.icons]
+original=icons
+translation=іконки
+
+[folder.Import notes]
+original=Import notes
+translation=Імпорт нотаток
+
+[folder.Layouts]
+original=Layouts
+translation=Макети
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Ліцензії та оплата
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Зв'язування нотаток і файлів
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Додатки
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Інтерфейс користувача
+
+[folder.video]
+original=video
+translation=відео
