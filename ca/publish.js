@@ -1,0 +1,209 @@
+// Language switcher
+(function () {
+  const LOCALES = [
+    { code: 'en',    label: 'English',            base: 'https://obsidian.md/help' },
+    { code: 'ar',    label: 'العربية',            base: 'https://obsidian.md/ar/help' },
+    { code: 'ca',    label: 'Català',             base: 'https://obsidian.md/ca/help' },
+    { code: 'cs',    label: 'Čeština',            base: 'https://obsidian.md/cs/help' },
+    { code: 'da',    label: 'Dansk',              base: 'https://obsidian.md/da/help' },
+    { code: 'de',    label: 'Deutsch',            base: 'https://obsidian.md/de/help' },
+    { code: 'el',    label: 'Ελληνικά',           base: 'https://obsidian.md/el/help' },
+    { code: 'es',    label: 'Español',            base: 'https://obsidian.md/es/help' },
+    { code: 'fa',    label: 'فارسی',              base: 'https://obsidian.md/fa/help' },
+    { code: 'fi',    label: 'Suomi',              base: 'https://obsidian.md/fi/help' },
+    { code: 'fr',    label: 'Français',           base: 'https://obsidian.md/fr/help' },
+    { code: 'he',    label: 'עברית',              base: 'https://obsidian.md/he/help' },
+    { code: 'hu',    label: 'Magyar',             base: 'https://obsidian.md/hu/help' },
+    { code: 'id',    label: 'Bahasa Indonesia',   base: 'https://obsidian.md/id/help' },
+    { code: 'it',    label: 'Italiano',           base: 'https://obsidian.md/it/help' },
+    { code: 'ja',    label: '日本語',                base: 'https://obsidian.md/ja/help' },
+    { code: 'km',    label: 'ខ្មែរ',              base: 'https://obsidian.md/km/help' },
+    { code: 'ko',    label: '한국어',                base: 'https://obsidian.md/ko/help' },
+    { code: 'no',    label: 'Norsk',              base: 'https://obsidian.md/no/help' },
+    { code: 'nl',    label: 'Nederlands',         base: 'https://obsidian.md/nl/help' },
+    { code: 'pl',    label: 'Polski',             base: 'https://obsidian.md/pl/help' },
+    { code: 'pt',    label: 'Português',          base: 'https://obsidian.md/pt/help' },
+    { code: 'pt-BR', label: 'Português (Brasil)', base: 'https://obsidian.md/pt-BR/help' },
+    { code: 'sk',    label: 'Slovenčina',         base: 'https://obsidian.md/sk/help' },
+    { code: 'ru',    label: 'Русский',            base: 'https://obsidian.md/ru/help' },
+    { code: 'sv',    label: 'Svenska',            base: 'https://obsidian.md/sv/help' },
+    { code: 'th',    label: 'ภาษาไทย',            base: 'https://obsidian.md/th/help' },
+    { code: 'tr',    label: 'Türkçe',             base: 'https://obsidian.md/tr/help' },
+    { code: 'uk',    label: 'Українська',         base: 'https://obsidian.md/uk/help' },
+    { code: 'vi',    label: 'Tiếng Việt',         base: 'https://obsidian.md/vi/help' },
+    { code: 'zh-TW', label: '繁體中文',               base: 'https://obsidian.md/zh-TW/help' },
+    { code: 'zh',    label: '中文',                 base: 'https://obsidian.md/zh/help' },
+  ];
+
+  function detectLocale() {
+    const p = window.location.pathname;
+    for (const loc of LOCALES) {
+      if (loc.code === 'en') continue;
+      const prefix = '/' + loc.code + '/help';
+      if (p.startsWith(prefix)) {
+        return { currentLocale: loc.code, cleanPath: p.slice(prefix.length) || '/' };
+      }
+    }
+    return { currentLocale: 'en', cleanPath: p.slice('/help'.length) || '/' };
+  }
+
+  const { currentLocale } = detectLocale();
+  const current = LOCALES.find(l => l.code === currentLocale);
+
+  const GLOBE_SVG = '<svg class="lang-switcher-globe" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>';
+  const CHEVRON_SVG = '<svg class="lang-switcher-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+
+  function updateMenuLinks(menu) {
+    const { cleanPath } = detectLocale();
+    const hash = window.location.hash;
+    menu.querySelectorAll('a[data-locale]').forEach(function (a) {
+      const loc = LOCALES.find(l => l.code === a.dataset.locale);
+      if (loc) a.href = loc.base + cleanPath + hash;
+    });
+  }
+
+  function detectSystemLocale() {
+    const langs = navigator.languages || [navigator.language || ''];
+    for (const lang of langs) {
+      const exact = LOCALES.find(l => l.code.toLowerCase() === lang.toLowerCase());
+      if (exact) return exact.code;
+      const base = lang.toLowerCase().split('-')[0];
+      const match = LOCALES.find(l => l.code.toLowerCase().split('-')[0] === base);
+      if (match) return match.code;
+    }
+    return null;
+  }
+
+  function buildMenu() {
+    const menu = document.createElement('ul');
+    menu.className = 'lang-switcher-menu';
+    menu.style.display = 'none';
+
+    const systemCode = detectSystemLocale();
+    const systemLocale = systemCode ? LOCALES.find(l => l.code === systemCode) : null;
+    const enLocale = LOCALES.find(l => l.code === 'en');
+    const rest = LOCALES
+      .filter(l => l !== systemLocale && l !== enLocale)
+      .sort((a, b) => a.code.localeCompare(b.code));
+
+    const ordered = [];
+    if (systemLocale) ordered.push(systemLocale);
+    if (enLocale && enLocale !== systemLocale) ordered.push(enLocale);
+    ordered.push(...rest);
+
+    for (const locale of ordered) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.dataset.locale = locale.code;
+      a.textContent = locale.label;
+      if (locale.code === currentLocale) a.className = 'is-active';
+      li.appendChild(a);
+      menu.appendChild(li);
+    }
+    updateMenuLinks(menu);
+    return menu;
+  }
+
+  function attachToggle(btn, menu) {
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (menu.style.display === 'none') {
+        updateMenuLinks(menu);
+        menu.style.display = 'flex';
+      } else {
+        menu.style.display = 'none';
+      }
+    });
+    document.addEventListener('click', function () {
+      menu.style.display = 'none';
+    });
+  }
+
+  function buildSidebarSwitcher() {
+    const div = document.createElement('div');
+    div.className = 'lang-switcher';
+    const btn = document.createElement('button');
+    btn.className = 'lang-switcher-btn';
+    btn.type = 'button';
+    btn.innerHTML = GLOBE_SVG + '<span>' + current.label + '</span>' + CHEVRON_SVG;
+    const menu = buildMenu();
+    attachToggle(btn, menu);
+    div.appendChild(btn);
+    div.appendChild(menu);
+    return div;
+  }
+
+  function buildHeaderSwitcher() {
+    const div = document.createElement('div');
+    div.className = 'lang-switcher lang-switcher-header';
+    const btn = document.createElement('button');
+    btn.className = 'lang-switcher-btn';
+    btn.type = 'button';
+    btn.innerHTML = GLOBE_SVG + '<span>' + currentLocale.toUpperCase() + '</span>';
+    const menu = buildMenu();
+    attachToggle(btn, menu);
+    div.appendChild(btn);
+    div.appendChild(menu);
+    return div;
+  }
+
+  // Skip switcher injection for locales not in the dropdown
+  let sidebarDone = !current;
+  let headerDone = !current;
+
+  function inject() {
+    if (!sidebarDone) {
+      const col = document.querySelector('.site-body-left-column-inner');
+      if (col && !col.querySelector('.lang-switcher')) {
+        const search = col.querySelector('.search-view-outer');
+        const switcher = buildSidebarSwitcher();
+        if (search) col.insertBefore(switcher, search);
+        else col.appendChild(switcher);
+        sidebarDone = true;
+      }
+    }
+    if (!headerDone) {
+      const header = document.querySelector('.site-header');
+      if (header && !header.querySelector('.lang-switcher-header')) {
+        header.appendChild(buildHeaderSwitcher());
+        headerDone = true;
+      }
+    }
+    return sidebarDone && headerDone;
+  }
+
+  function poll() {
+    if (!inject()) {
+      requestAnimationFrame(poll);
+    }
+  }
+
+  poll();
+})();
+
+// Locale UI strings — Catalan
+(function () {
+  function apply() {
+    var el;
+    el = document.querySelector('.search-bar');
+    if (!el) return false;
+    el.placeholder = 'Cerca...';
+    el = document.querySelector('.site-footer a');
+    if (el) { el.textContent = 'Impulsat per Obsidian Publish'; el.href = 'https://obsidian.md/ca/publish'; }
+    el = document.querySelector('.graph-view-outer span:last-child');
+    if (el) el.textContent = 'Graf interactiu';
+    el = document.querySelector('.graph-expand');
+    if (el) el.setAttribute('aria-label', 'Amplia');
+    el = document.querySelector('.graph-global');
+    if (el) el.setAttribute('aria-label', 'Graf global');
+    el = document.querySelector('.outline-view-outer span:last-child');
+    if (el) el.textContent = 'En aquesta pàgina';
+    return true;
+  }
+  function poll() { if (!apply()) requestAnimationFrame(poll); }
+  poll();
+  var blText = 'Retroenllaços';
+  function applyBl() { document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { if (e.textContent !== blText) e.textContent = blText; }); }
+  new MutationObserver(applyBl).observe(document.body, { childList: true, subtree: true });
+  applyBl();
+})();

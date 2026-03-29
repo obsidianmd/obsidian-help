@@ -10,6 +10,7 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 | -------- | --------------------------------|
 | `en`     | https://obsidian.md/help/       |
 | `ar`     | https://obsidian.md/ar/help/    |
+| `ca`     | https://obsidian.md/ca/help/    |
 | `cs`     | https://obsidian.md/cs/help/    |
 | `da`     | https://obsidian.md/da/help/    |
 | `de`     | https://obsidian.md/de/help/    |
@@ -19,14 +20,18 @@ The docs for each language are stand-alone vaults with a corresponding [Obsidian
 | `fi`     | https://obsidian.md/fi/help/    |
 | `fr`     | https://obsidian.md/fr/help/    |
 | `he`     | https://obsidian.md/he/help/    |
+| `hu`     | https://obsidian.md/hu/help/    |
 | `id`     | https://obsidian.md/id/help/    |
 | `it`     | https://obsidian.md/it/help/    |
 | `ja`     | https://obsidian.md/ja/help/    |
 | `km`     | https://obsidian.md/km/help/    |
 | `ko`     | https://obsidian.md/ko/help/    |
+| `no`     | https://obsidian.md/no/help/    |
 | `nl`     | https://obsidian.md/nl/help/    |
 | `pl`     | https://obsidian.md/pl/help/    |
+| `pt`     | https://obsidian.md/pt/help/    |
 | `pt-BR`  | https://obsidian.md/pt-BR/help/ |
+| `sk`     | https://obsidian.md/sk/help/    |
 | `ru`     | https://obsidian.md/ru/help/    |
 | `sv`     | https://obsidian.md/sv/help/    |
 | `th`     | https://obsidian.md/th/help/    |

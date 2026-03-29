@@ -1,0 +1,16 @@
+---
+permalink: symlinks
+---
+Podeu utilitzar [enllaços simbòlics](https://en.wikipedia.org/wiki/Symbolic_link) (symlinks) i [unions](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions) a la vostra cambra forta per emmagatzemar fitxers fora de la cambra forta i la [[Com Obsidian emmagatzema les dades#Configuració global|carpeta del sistema]].
+
+> [!danger] Utilitzeu-ho sota la vostra responsabilitat
+> Desaconsellem fermament l'ús d'enllaços simbòlics. En utilitzar enllaços simbòlics i unions a la vostra cambra forta, correu el risc de perdre o corrompre les vostres dades, o de fer que Obsidian falli. Assegureu-vos de fer còpies de seguretat regulars de la vostra cambra forta i configuració.
+
+A continuació es mostren algunes limitacions o problemes coneguts que potser voldreu tenir en compte:
+
+- Els bucles d'enllaços simbòlics no estan permesos, per evitar que Obsidian falli a causa d'un bucle infinit.
+- Les destinacions dels enllaços simbòlics han de ser completament disjuntes de l'arrel de la cambra forta o de qualsevol altra destinació d'enllaç simbòlic. Disjunt significa que una carpeta no conté l'altra, o viceversa. Obsidian ignora qualsevol enllaç simbòlic a una carpeta mare de la cambra forta, o d'una carpeta de la cambra forta a una altra carpeta de la mateixa cambra forta. És una mesura de seguretat per assegurar que no acabeu amb fitxers duplicats a la vostra cambra forta, cosa que podria fer que els enllaços es tornessin ambigus.
+- Els enllaços simbòlics poden no funcionar bé amb Obsidian Sync, ni amb _cap altre tipus de sincronització_. Si la destinació d'un enllaç simbòlic és en si mateixa una carpeta sincronitzada per una cambra forta d'Obsidian diferent, podríeu (potencialment) acabar amb conflictes de sincronització o pèrdua de dades. Algunes eines de sincronització, com Git, no segueixen els enllaços simbòlics, sinó que sincronitzen la _ruta_ a la qual apunta l'enllaç simbòlic, cosa que pot produir resultats indesitjats si compartiu la vostra cambra forta amb altres persones d'aquesta manera.
+- El gestor de fitxers d'Obsidian no pot moure fitxers entre límits de dispositius, de manera que si feu un enllaç simbòlic a una carpeta en una unitat diferent de la vostra cambra forta, no podreu arrossegar fitxers entre aquesta carpeta i altres carpetes utilitzant l'explorador de fitxers d'Obsidian. (Haureu d'utilitzar l'explorador del vostre sistema operatiu per a aquests moviments, i Obsidian veurà el moviment com una supressió i la creació d'un fitxer nou. Tampoc _no_ actualitzarà cap enllaç que depengués de la ruta d'aquest fitxer.)
+- Els enllaços simbòlics de fitxers (a diferència dels enllaços simbòlics de carpetes) _poden_ funcionar, però no estan oficialment suportats en aquest moment. Els canvis realitzats fora d'Obsidian no es monitoritzen, de manera que si canvieu el fitxer directament, Obsidian no detectarà el canvi, no actualitzarà els índexs de cerca, etc.
+- Crear enllaços simbòlics dins la carpeta `.obsidian/` per compartir-los entre cambres fortes **té una alta probabilitat de corrompre la vostra configuració**, tret que _realment_ sapigueu el que esteu fent. Si decidiu fer-ho, almenys tingueu còpies de seguretat.

@@ -1,0 +1,751 @@
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=Terminologia e gramática
+
+[heading.style-guide/Language style]
+original=Language style
+translation=Estilo de linguagem
+
+[heading.style-guide/Terms]
+original=Terms
+translation=Termos
+
+[heading.style-guide/Product names]
+original=Product names
+translation=Nomes de produtos
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=Interface e interações
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=Notas, ficheiros e pastas
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=Documentação de referência para definições
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=Termos direcionais
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=Instruções
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=Capitalização de frases
+
+[heading.style-guide/Examples]
+original=Examples
+translation=Exemplos
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=Nomes de teclas e atalhos de teclado
+
+[heading.style-guide/Images]
+original=Images
+translation=Imagens
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=Estrutura de informação
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=Tipos de blocos de destaque
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=Listas vs. prosa
+
+[heading.style-guide/Tables]
+original=Tables
+translation=Tabelas
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=Referências cruzadas
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=Conteúdo específico por plataforma
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=Ícones e imagens
+
+[heading.style-guide/Icons]
+original=Icons
+translation=Ícones
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=Etiquetas de âncora de imagem
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=Otimização
+
+[heading.style-guide/Layout]
+original=Layout
+translation=Disposição
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=Ligações quebradas
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=Descrições
+
+[heading.style-guide/Directions]
+original=Directions
+translation=Direções
+
+[heading.style-guide/Translations]
+original=Translations
+translation=Traduções
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=Plugins e temas
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=Projetos de código aberto
+
+[heading.developers/Documentation]
+original=Documentation
+translation=Documentação
+
+[heading.developers/Community]
+original=Community
+translation=Comunidade
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=Adicionar um anexo
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=Alterar a localização predefinida de anexos
+
+[heading.editing-shortcuts/Windows and Linux shortcuts]
+original=Windows and Linux shortcuts
+translation=Atalhos para Windows e Linux
+
+[heading.editing-shortcuts/Common actions]
+original=Common actions
+translation=Ações comuns
+
+[heading.editing-shortcuts/Text editing]
+original=Text editing
+translation=Edição de texto
+
+[heading.editing-shortcuts/Text navigation]
+original=Text navigation
+translation=Navegação de texto
+
+[heading.editing-shortcuts/Text selection]
+original=Text selection
+translation=Seleção de texto
+
+[heading.editing-shortcuts/macOS shortcuts]
+original=macOS shortcuts
+translation=Atalhos para macOS
+
+[heading.editing-shortcuts/Text formatting]
+original=Text formatting
+translation=Formatação de texto
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=Alterar o título
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=Blocos de destaque recolhíveis
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=Blocos de destaque aninhados
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=Personalizar blocos de destaque
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=Tipos suportados
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=Limitações do HTML
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=Sem Markdown dentro de HTML
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=Blocos HTML devem ser autocontidos
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=Quando o Markdown parece funcionar em HTML
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=Utilização comum de HTML
+
+[heading.html/Comments]
+original=Comments
+translation=Comentários
+
+[heading.html/Underline]
+original=Underline
+translation=Sublinhado
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=Rasurado
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=Seleção retangular
+
+[heading.tags/Add a tag to a note]
+original=Add a tag to a note
+translation=Adicionar uma etiqueta a uma nota
+
+[heading.tags/Find notes using tags]
+original=Find notes using tags
+translation=Encontrar notas usando etiquetas
+
+[heading.tags/Nested tags]
+original=Nested tags
+translation=Etiquetas aninhadas
+
+[heading.tags/Tag format]
+original=Tag format
+translation=Formato de etiquetas
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=Incorporar um vídeo do YouTube
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=Incorporar um tweet
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=Extensões Markdown suportadas
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=Adicionar propriedades a uma nota
+
+[heading.properties/Property types]
+original=Property types
+translation=Tipos de propriedade
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=Utilizações avançadas
+
+[heading.properties/Search properties]
+original=Search properties
+translation=Pesquisar propriedades
+
+[heading.properties/Templates]
+original=Templates
+translation=Modelos
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=Renomear propriedades
+
+[heading.properties/Display modes]
+original=Display modes
+translation=Modos de exibição
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=Fragmentos CSS
+
+[heading.properties/Not supported]
+original=Not supported
+translation=Funcionalidades não suportadas
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=Atalhos de teclado
+
+[heading.properties/Add a property]
+original=Add a property
+translation=Adicionar uma propriedade
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=Navegar entre propriedades
+
+[heading.properties/Select properties]
+original=Select properties
+translation=Selecionar propriedades
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=Editar propriedades
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim (avançado)
+
+[heading.properties/Property format]
+original=Property format
+translation=Formato das propriedades
+
+[heading.properties/Text]
+original=Text
+translation=Texto
+
+[heading.properties/List]
+original=List
+translation=Lista
+
+[heading.properties/Number]
+original=Number
+translation=Número
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=Caixa de seleção
+
+[heading.properties/Date]
+original=Date
+translation=Data
+
+[heading.properties/Date & time]
+original=Date & time
+translation=Data e hora
+
+[heading.properties/Tags]
+original=Tags
+translation=Etiquetas
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=Propriedades JSON
+
+[heading.properties/Default properties]
+original=Default properties
+translation=Propriedades predefinidas
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=Propriedades para o Obsidian Publish
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=Propriedades descontinuadas
+
+[heading.advanced-syntax/Tables]
+original=Tables
+translation=Tabelas
+
+[heading.advanced-syntax/Format content within a table]
+original=Format content within a table
+translation=Formatar conteúdo dentro de uma tabela
+
+[heading.advanced-syntax/Diagram]
+original=Diagram
+translation=Diagramas
+
+[heading.advanced-syntax/Linking files in a diagram]
+original=Linking files in a diagram
+translation=Ligar ficheiros num diagrama
+
+[heading.advanced-syntax/Math]
+original=Math
+translation=Matemática
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=Parágrafos
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=Quebras de linha
+
+[heading.syntax/Headings]
+original=Headings
+translation=Cabeçalhos
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=Negrito, itálico, realces
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=Ligações internas
+
+[heading.syntax/External links]
+original=External links
+translation=Ligações externas
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=Escapar espaços em branco nas ligações
+
+[heading.syntax/External images]
+original=External images
+translation=Imagens externas
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=Citações
+
+[heading.syntax/Lists]
+original=Lists
+translation=Listas
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=Listas de tarefas
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=Aninhar listas
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=Regra horizontal
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=Código
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=Código em linha
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=Blocos de código
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=Aninhar blocos de código
+
+[heading.syntax/Comments]
+original=Comments
+translation=Notas de rodapé
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=Comentários
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=Escapar sintaxe Markdown
+
+[heading.edit-and-read/Reading view]
+original=Reading view
+translation=Vista de leitura
+
+[heading.edit-and-read/Editing view]
+original=Editing view
+translation=Vista de edição
+
+[heading.edit-and-read/Live Preview]
+original=Live Preview
+translation=Pré-visualização em direto
+
+[heading.edit-and-read/Source mode]
+original=Source mode
+translation=Modo de origem
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=Adicionar um excerto
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=Escrever CSS para o Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=Saber mais
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Instalar a CLI do Obsidian
+
+[heading.cli/Get started]
+original=Get started
+translation=Começar
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Executar um comando
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=Usar a interface de terminal
+
+[heading.cli/Examples]
+original=Examples
+translation=Exemplos
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Uso diário
+
+[heading.cli/For developers]
+original=For developers
+translation=Para programadores
+
+[heading.cli/How to]
+original=How to
+translation=Como fazer
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Usar parâmetros e flags
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Direcionar para um cofre
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Direcionar para um ficheiro
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Copiar saída
+
+[heading.cli/General commands]
+original=General commands
+translation=Comandos gerais
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Marcadores
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Paleta de comandos
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Notas diárias
+
+[heading.cli/File history]
+original=File history
+translation=Histórico de ficheiros
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Ficheiros e pastas
+
+[heading.cli/Links]
+original=Links
+translation=Ligações
+
+[heading.cli/Outline]
+original=Outline
+translation=Esquema
+
+[heading.cli/Properties]
+original=Properties
+translation=Propriedades
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Notas aleatórias
+
+[heading.cli/Search]
+original=Search
+translation=Pesquisa
+
+[heading.cli/Tags]
+original=Tags
+translation=Etiquetas
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Tarefas
+
+[heading.cli/Templates]
+original=Templates
+translation=Modelos
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Temas e excertos
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Notas únicas
+
+[heading.cli/Vault]
+original=Vault
+translation=Cofre
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Visualizador web
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Contagem de palavras
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Área de trabalho
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Comandos para programadores
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Atalhos de teclado
+
+[heading.cli/Navigation]
+original=Navigation
+translation=Navegação
+
+[heading.cli/Editing]
+original=Editing
+translation=Edição
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Preenchimento automático
+
+[heading.cli/History]
+original=History
+translation=Histórico
+
+[heading.cli/Other]
+original=Other
+translation=Outros
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Resolução de problemas
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Shells alternativos
+
+[heading.headless/Install]
+original=Install
+translation=Instalar
+
+[heading.headless/Authentication]
+original=Authentication
+translation=Autenticação
+
+[heading.headless/Log in]
+original=Log in
+translation=Iniciar sessão
+
+[heading.headless/Services]
+original=Services
+translation=Serviços
+
+[heading.uri/URI format]
+original=URI format
+translation=Formato do URI
+
+[heading.uri/Open note]
+original=Open note
+translation=Abrir nota
+
+[heading.uri/Examples]
+original=Examples
+translation=Exemplos
+
+[heading.uri/Parameters]
+original=Parameters
+translation=Parâmetros
+
+[heading.uri/Create note]
+original=Create note
+translation=Criar nota
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=Criar ou abrir nota diária
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=Nota Única
+
+[heading.uri/Open search]
+original=Open search
+translation=Abrir pesquisa
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=Abrir o Gestor de Cofres
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Integrar com Hook
+
+[heading.uri/Example]
+original=Example
+translation=Exemplo
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=Usar parâmetros x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=Formatos abreviados
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=Resolução de problemas
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Registar o URI do Obsidian
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=Explorar plugins da comunidade
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=Instalar um plugin da comunidade
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=Ativar um plugin da comunidade
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=Atualizar plugins
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=Desinstalar um plugin da comunidade
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=Gerir plugins instalados
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=Saber mais

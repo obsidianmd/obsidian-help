@@ -1,0 +1,899 @@
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=Preguntes i consells
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=Informar d'errors i sol·licitar funcionalitats
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=Recollir informació de depuració
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=Comprovar el temps d'inici
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=Capturar registres de consola
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=Contactar amb el suport d'Obsidian
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=Informar d'un problema de seguretat
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=Informar d'una infracció del Codi de Conducta
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Contribuir a Obsidian
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=Navegar pels connectors de la comunitat
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=Instal·lar un connector de la comunitat
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=Habilitar un connector de la comunitat
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=Actualitzar connectors
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=Desinstal·lar un connector de la comunitat
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=Gestionar connectors instal·lats
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=Aprèn'n més
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Instal·lar la CLI d'Obsidian
+
+[heading.cli/Get started]
+original=Get started
+translation=Primers passos
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Executar una ordre
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=Utilitzar la interfície de terminal
+
+[heading.cli/Examples]
+original=Examples
+translation=Exemples
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Ús quotidià
+
+[heading.cli/For developers]
+original=For developers
+translation=Per a desenvolupadors
+
+[heading.cli/How to]
+original=How to
+translation=Com fer-ho
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Utilitzar paràmetres i indicadors
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Apuntar a una cambra forta
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Apuntar a un fitxer
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Copiar la sortida
+
+[heading.cli/General commands]
+original=General commands
+translation=Ordres generals
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Marcadors
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Paleta d'ordres
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Notes diàries
+
+[heading.cli/File history]
+original=File history
+translation=Historial de fitxers
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Fitxers i carpetes
+
+[heading.cli/Links]
+original=Links
+translation=Enllaços
+
+[heading.cli/Outline]
+original=Outline
+translation=Esquema
+
+[heading.cli/Plugins]
+original=Plugins
+translation=Connectors
+
+[heading.cli/Properties]
+original=Properties
+translation=Propietats
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Notes aleatòries
+
+[heading.cli/Search]
+original=Search
+translation=Cerca
+
+[heading.cli/Tags]
+original=Tags
+translation=Etiquetes
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Tasques
+
+[heading.cli/Templates]
+original=Templates
+translation=Plantilles
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Temes i fragments
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Notes úniques
+
+[heading.cli/Vault]
+original=Vault
+translation=Cambra forta
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Visor web
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Comptador de paraules
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Espai de treball
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Ordres per a desenvolupadors
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Dreceres de teclat
+
+[heading.cli/Navigation]
+original=Navigation
+translation=Navegació
+
+[heading.cli/Editing]
+original=Editing
+translation=Edició
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Compleció automàtica
+
+[heading.cli/History]
+original=History
+translation=Historial
+
+[heading.cli/Other]
+original=Other
+translation=Altres
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Resolució de problemes
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Shells alternatius
+
+[heading.headless/Install]
+original=Install
+translation=Instal·lació
+
+[heading.headless/Authentication]
+original=Authentication
+translation=Autenticació
+
+[heading.headless/Log in]
+original=Log in
+translation=Inicia sessió
+
+[heading.headless/Services]
+original=Services
+translation=Serveis
+
+[heading.uri/URI format]
+original=URI format
+translation=Format URI
+
+[heading.uri/Open note]
+original=Open note
+translation=Obrir nota
+
+[heading.uri/Examples]
+original=Examples
+translation=Exemples
+
+[heading.uri/Parameters]
+original=Parameters
+translation=Paràmetres
+
+[heading.uri/Create note]
+original=Create note
+translation=Crear nota
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=Crear o obrir nota diària
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=Nota única
+
+[heading.uri/Open search]
+original=Open search
+translation=Obrir cerca
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=Obrir el gestor de cambres fortes
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Integrar amb Hook
+
+[heading.uri/Example]
+original=Example
+translation=Exemple
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=Ús de paràmetres x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=Formats abreujats
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=Resolució de problemes
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Registrar l'URI d'Obsidian
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=Afegir un fragment
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=Escriure CSS per a Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=Aprèn'n més
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=Mode restringit
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=Capacitats dels connectors
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=Procés de revisió dels connectors
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=Navegar pels temes
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=Instal·lar un tema nou
+
+[heading.themes/Update themes]
+original=Update themes
+translation=Actualitzar temes
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=Desinstal·lar un tema existent
+
+[heading.themes/Learn more]
+original=Learn more
+translation=Aprèn'n més
+
+[heading.bases/Create a new base]
+original=Create a new base
+translation=Crear una base nova
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=Incrustar una base
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=Incrustar un fitxer de base
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Incrustar una base com a bloc de codi
+
+[heading.bases/Settings]
+original=Settings
+translation=Configuració
+
+[heading.bases/Markers]
+original=Markers
+translation=Marcadors
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=Sagnar propietats
+
+[heading.bases/Separators]
+original=Separators
+translation=Separadors
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Instal·lar el connector Maps
+
+[heading.bases/Example]
+original=Example
+translation=Exemple
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=Coordenades
+
+[heading.bases/Icons]
+original=Icons
+translation=Icones
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Utilitzar una fórmula per definir icones
+
+[heading.bases/Background]
+original=Background
+translation=Fons
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=Rajoles de mapa
+
+[heading.bases/Useful links]
+original=Useful links
+translation=Enllaços útils
+
+[heading.bases/Tips]
+original=Tips
+translation=Consells
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=Resolució de problemes
+
+[heading.bases/Card size]
+original=Card size
+translation=Mida de la targeta
+
+[heading.bases/Image property]
+original=Image property
+translation=Propietat d'imatge
+
+[heading.bases/Image fit]
+original=Image fit
+translation=Ajust de la imatge
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=Relació d'aspecte de la imatge
+
+[heading.bases/Row height]
+original=Row height
+translation=Alçada de la fila
+
+[heading.bases/Summaries]
+original=Summaries
+translation=Resums
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=Afegir un resum
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=Resums integrats
+
+[heading.bases/All property types]
+original=All property types
+translation=Tots els tipus de propietat
+
+[heading.bases/Numbers]
+original=Numbers
+translation=Números
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=Casella de selecció
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=Resums personalitzats
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=Dreceres
+
+[heading.bases/Global]
+original=Global
+translation=Globals
+
+[heading.bases/Any]
+original=Any
+translation=Qualsevol
+
+[heading.bases/Date]
+original=Date
+translation=Data
+
+[heading.bases/Fields]
+original=Fields
+translation=Camps
+
+[heading.bases/String]
+original=String
+translation=Cadena de text
+
+[heading.bases/Number]
+original=Number
+translation=Número
+
+[heading.bases/List]
+original=List
+translation=Llista
+
+[heading.bases/Link]
+original=Link
+translation=Enllaç
+
+[heading.bases/File]
+original=File
+translation=Fitxer
+
+[heading.bases/Object]
+original=Object
+translation=Objecte
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=Expressió regular
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Com utilitzar bases
+
+[heading.bases/View types]
+original=View types
+translation=Tipus de vista
+
+[heading.bases/Filters]
+original=Filters
+translation=Filtres
+
+[heading.bases/Formulas]
+original=Formulas
+translation=Fórmules
+
+[heading.bases/Properties]
+original=Properties
+translation=Propietats
+
+[heading.bases/Default Summary Formulas]
+original=Default Summary Formulas
+translation=Fórmules de resum per defecte
+
+[heading.bases/Views]
+original=Views
+translation=Vistes
+
+[heading.bases/Note properties]
+original=Note properties
+translation=Propietats de nota
+
+[heading.bases/File properties]
+original=File properties
+translation=Propietats de fitxer
+
+[heading.bases/Access properties with `this`]
+original=Access properties with `this`
+translation=Accedir a propietats amb `this`
+
+[heading.bases/Operators]
+original=Operators
+translation=Operadors
+
+[heading.bases/Arithmetic operators]
+original=Arithmetic operators
+translation=Operadors aritmètics
+
+[heading.bases/Date arithmetic]
+original=Date arithmetic
+translation=Aritmètica de dates
+
+[heading.bases/Comparison operators]
+original=Comparison operators
+translation=Operadors de comparació
+
+[heading.bases/Boolean operators]
+original=Boolean operators
+translation=Operadors booleans
+
+[heading.bases/Functions]
+original=Functions
+translation=Funcions
+
+[heading.bases/Types]
+original=Types
+translation=Tipus
+
+[heading.bases/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=Cadenes, números i booleans
+
+[heading.bases/Dates and durations]
+original=Dates and durations
+translation=Dates i durades
+
+[heading.bases/Objects and lists]
+original=Objects and lists
+translation=Objectes i llistes
+
+[heading.bases/Files and links]
+original=Files and links
+translation=Fitxers i enllaços
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=Què poden fer les fórmules
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=Crear una propietat de fórmula
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=Escriure una fórmula
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=Referència a propietats
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=Utilitzar operadors
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=Utilitzar funcions
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=Exemples de fórmules
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=Calcular un termini
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=Mostrar l'estat de retard
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=Formatar moneda
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=Comptar elements d'una llista
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=Calcular puntuació de prioritat
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=Combinar camps de text
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=Calcular cost total
+
+[heading.formulas/Data types]
+original=Data types
+translation=Tipus de dades
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=Fer referència a altres fórmules
+
+[heading.plugins/Create a new canvas]
+original=Create a new canvas
+translation=Crear un nou llenç
+
+[heading.plugins/Add cards]
+original=Add cards
+translation=Afegir targetes
+
+[heading.plugins/Add text cards]
+original=Add text cards
+translation=Afegir targetes de text
+
+[heading.plugins/Add cards from notes]
+original=Add cards from notes
+translation=Afegir targetes des de notes
+
+[heading.plugins/Add cards from media]
+original=Add cards from media
+translation=Afegir targetes des de mitjans
+
+[heading.plugins/Add cards from web pages]
+original=Add cards from web pages
+translation=Afegir targetes des de pàgines web
+
+[heading.plugins/Add cards from folders]
+original=Add cards from folders
+translation=Afegir targetes des de carpetes
+
+[heading.plugins/Edit a card]
+original=Edit a card
+translation=Editar una targeta
+
+[heading.plugins/Delete a card]
+original=Delete a card
+translation=Suprimir una targeta
+
+[heading.plugins/Swap cards]
+original=Swap cards
+translation=Intercanviar targetes
+
+[heading.plugins/Select cards]
+original=Select cards
+translation=Seleccionar targetes
+
+[heading.plugins/Arrange cards]
+original=Arrange cards
+translation=Disposar targetes
+
+[heading.plugins/Resize a card]
+original=Resize a card
+translation=Redimensionar una targeta
+
+[heading.plugins/Connect cards]
+original=Connect cards
+translation=Connectar targetes
+
+[heading.plugins/Connect two cards]
+original=Connect two cards
+translation=Connectar dues targetes
+
+[heading.plugins/Disconnect two cards]
+original=Disconnect two cards
+translation=Desconnectar dues targetes
+
+[heading.plugins/Connect a card to a different card]
+original=Connect a card to a different card
+translation=Connectar una targeta a una targeta diferent
+
+[heading.plugins/Navigate a connection]
+original=Navigate a connection
+translation=Navegar una connexió
+
+[heading.plugins/Add a label to a connection]
+original=Add a label to a connection
+translation=Afegir una etiqueta a una connexió
+
+[heading.plugins/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=Canviar el color d'una targeta o connexió
+
+[heading.plugins/Group cards]
+original=Group cards
+translation=Agrupar targetes
+
+[heading.plugins/Group selected cards]
+original=Group selected cards
+translation=Agrupar targetes seleccionades
+
+[heading.plugins/Navigate the canvas]
+original=Navigate the canvas
+translation=Navegar pel llenç
+
+[heading.plugins/Pan the canvas]
+original=Pan the canvas
+translation=Arrossegar el llenç
+
+[heading.plugins/Zoom the canvas]
+original=Zoom the canvas
+translation=Ampliar el llenç
+
+[heading.plugins/Zoom to fit]
+original=Zoom to fit
+translation=Ajustar al zoom
+
+[heading.plugins/Zoom to selection]
+original=Zoom to selection
+translation=Ajustar a la selecció
+
+[heading.plugins/Reset zoom]
+original=Reset zoom
+translation=Restablir el zoom
+
+[heading.plugins/Advanced tips]
+original=Advanced tips
+translation=Consells avançats
+
+[heading.plugins/Search terms]
+original=Search terms
+translation=Termes de cerca
+
+[heading.plugins/Search operators]
+original=Search operators
+translation=Operadors de cerca
+
+[heading.plugins/Search properties]
+original=Search properties
+translation=Cercar propietats
+
+[heading.plugins/Change case sensitivity]
+original=Change case sensitivity
+translation=Canviar la distinció de majúscules i minúscules
+
+[heading.plugins/Change result sort order]
+original=Change result sort order
+translation=Canviar l'ordre dels resultats
+
+[heading.plugins/Copy search results]
+original=Copy search results
+translation=Copiar els resultats de la cerca
+
+[heading.plugins/Use regular expressions]
+original=Use regular expressions
+translation=Utilitzar expressions regulars
+
+[heading.plugins/Configure search settings]
+original=Configure search settings
+translation=Configurar la configuració de cerca
+
+[heading.plugins/Embed search results in a note]
+original=Embed search results in a note
+translation=Incrustar resultats de cerca en una nota
+
+[heading.plugins/Merge notes]
+original=Merge notes
+translation=Fusionar notes
+
+[heading.plugins/Extract note]
+original=Extract note
+translation=Extreure nota
+
+[heading.plugins/Template file]
+original=Template file
+translation=Fitxer de plantilla
+
+[heading.bases/views/Toolbar]
+original=Toolbar
+translation=Barra d'eines
+
+[heading.bases/views/Add and switch views]
+original=Add and switch views
+translation=Afegir i canviar de vista
+
+[heading.bases/views/View settings]
+original=View settings
+translation=Configuració de la vista
+
+[heading.bases/views/Layout]
+original=Layout
+translation=Disposició
+
+[heading.bases/views/Filters]
+original=Filters
+translation=Filtres
+
+[heading.bases/views/Components of a filter]
+original=Components of a filter
+translation=Components d'un filtre
+
+[heading.bases/views/Conjunctions]
+original=Conjunctions
+translation=Conjuncions
+
+[heading.bases/views/Filter groups]
+original=Filter groups
+translation=Grups de filtres
+
+[heading.bases/views/Advanced filter editor]
+original=Advanced filter editor
+translation=Editor de filtres avançat
+
+[heading.bases/views/Sort and group results]
+original=Sort and group results
+translation=Ordenar i agrupar resultats
+
+[heading.bases/views/Add a sort]
+original=Add a sort
+translation=Afegir una ordenació
+
+[heading.bases/views/Remove a sort]
+original=Remove a sort
+translation=Eliminar una ordenació
+
+[heading.bases/views/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Limitar, copiar i exportar resultats
+
+[heading.bases/views/Limit results]
+original=Limit results
+translation=Limitar resultats
+
+[heading.bases/views/Copy to clipboard]
+original=Copy to clipboard
+translation=Copia-ho al porta-retalls
+
+[heading.bases/views/Export CSV]
+original=Export CSV
+translation=Exportar CSV
+
+[heading.bases/views/Embed a view]
+original=Embed a view
+translation=Incrustar una vista

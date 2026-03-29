@@ -1,0 +1,1771 @@
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=Otvorenie novej karty
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=Otvorenie odkazu
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=Organizácia kariet a okien
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=Usporiadanie kariet
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=Rozdelenie skupiny kariet
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=Zmena veľkosti skupiny kariet
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=Presunutie karty do nového okna
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=Presunutie karty do iného okna
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=Pripnutie karty
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=Prepnutie na inú kartu
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=Navrstviť skupiny kariet
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=Prepojené zobrazenia
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=Uloženie rozložení
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=Zobrazenie klávesových skratiek
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=Nastavenie klávesovej skratky
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=Odstránenie klávesovej skratky
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=Filtrovanie klávesových skratiek
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=Rozloženia klávesnice mimo USA
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=Predvolené klávesové skratky
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=Otvorenie nastavení
+
+[heading.settings/Desktop]
+original=Desktop
+translation=Počítač
+
+[heading.settings/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=Organizácia nastavení
+
+[heading.settings/General]
+original=General
+translation=Všeobecné
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=Verzia a aktualizácie
+
+[heading.settings/Language]
+original=Language
+translation=Jazyk
+
+[heading.settings/Help]
+original=Help
+translation=Pomocník
+
+[heading.settings/Account]
+original=Account
+translation=Účet
+
+[heading.settings/Advanced]
+original=Advanced
+translation=Rozšírené
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=Upozorniť ak spustenie trvá príliš dlho
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=Otvoriť novú kartu v popredí
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=Predvolené zobrazenie pre nové karty
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=Predvolený režim úprav
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=Stav editora
+
+[heading.settings/Display]
+original=Display
+translation=Zobrazenie
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=Čitateľná dĺžka riadku
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=Prísne zalomenia riadkov
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=Vlastnosti v dokumente
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=Zrolovateľné nadpisy
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=Zrolovateľné odsadenie
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=Čísla riadkov
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=Vodiace čiary odsadenia
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=Sprava doľava (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=Automatické párovanie zátvoriek
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=Automatické párovanie Markdown syntaxe
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=Inteligentné odsadzovanie zoznamov
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=Používať tabulátor
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=Automaticky konvertovať HTML
+
+[heading.settings/Behavior]
+original=Behavior
+translation=Správanie
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=Kontrola pravopisu
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=Jazyky kontroly pravopisu
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=Veľkosť tabulátora
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Klávesové skratky Vim
+
+[heading.settings/Files and links]
+original=Files and links
+translation=Súbory a odkazy
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=Predvolené umiestnenie novej poznámky
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=Predvolené umiestnenie pre nové prílohy
+
+[heading.settings/Links]
+original=Links
+translation=Odkazy
+
+[heading.settings/New link format]
+original=New link format
+translation=Formát automaticky generovaných odkazov
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=Vždy aktualizovať interné odkazy
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=Používať wiki odkazy
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=Zobraziť všetky typy súborov
+
+[heading.settings/Trash]
+original=Trash
+translation=Kôš
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=Potvrdenie odstránenia súboru
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=Odstránené súbory
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=Vylúčené súbory
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=Prepísanie priečinka konfigurácie
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=Povoliť URI callbacky
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=Obnoviť vyrovnávaciu pamäť trezoru
+
+[heading.settings/Appearance]
+original=Appearance
+translation=Vzhľad
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=Základná téma
+
+[heading.settings/Accent color]
+original=Accent color
+translation=Farba akcentu
+
+[heading.settings/Themes]
+original=Themes
+translation=Témy
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=Aktuálne komunitné témy
+
+[heading.settings/Font]
+original=Font
+translation=Písmo
+
+[heading.settings/Interface font]
+original=Interface font
+translation=Písmo používateľského rozhrania
+
+[heading.settings/Text font]
+original=Text font
+translation=Písmo textu
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=Monospace písmo
+
+[heading.settings/Font size]
+original=Font size
+translation=Veľkosť písma
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=Rýchla zmena veľkosti písma
+
+[heading.settings/Interface]
+original=Interface
+translation=Rozhranie
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=Vložený názov
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=Zobraziť nadpis karty
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=Zobraziť panel nástrojov
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=Konfigurácia panelu nástrojov
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=Veľkosť priblíženia
+
+[heading.settings/Native menus]
+original=Native menus
+translation=Predvolené menu
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=Štýl rámčeku
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=Vlastná ikona aplikácie
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=Priehľadné okno
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=Hardvérová akcelerácia
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=CSS snippety
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=Klávesové skratky
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=Vstavané pluginy
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=Komunitné pluginy
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=Obmedzený režim
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=Aktuálne pluginy
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=Nainštalované pluginy
+
+[heading.ribbon/Actions]
+original=Actions
+translation=Akcie
+
+[heading.ribbon/Customize the ribbon]
+original=Customize the ribbon
+translation=Prispôsobenie panelu nástrojov
+
+[heading.ribbon/Desktop]
+original=Desktop
+translation=Počítač
+
+[heading.ribbon/Hide the ribbon]
+original=Hide the ribbon
+translation=Skrytie panelu nástrojov
+
+[heading.ribbon/Show the ribbon]
+original=Show the ribbon
+translation=Zobrazenie panelu nástrojov
+
+[heading.ribbon/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.ribbon/Quick access]
+original=Quick access
+translation=Rýchly prístup
+
+[heading.ribbon/Rearrange and visibility]
+original=Rearrange and visibility
+translation=Zmena poradia a viditeľnosť
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=Otvorenie súboru v novom okne
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=Presunutie súboru do iného okna
+
+[heading.appearance/Color scheme]
+original=Color scheme
+translation=Farebná schéma
+
+[heading.appearance/Custom themes]
+original=Custom themes
+translation=Vlastné témy
+
+[heading.appearance/Custom app icon]
+original=Custom app icon
+translation=Vlastná ikona aplikácie
+
+[heading.appearance/Translucency]
+original=Translucency
+translation=Priehľadnosť
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=Presúvanie kariet
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=Zdroje presúvania
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=Cieľové miesta pustenia
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=Presúvanie zvonka Obsidian
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=Pustenie súborov mimo Obsidian
+
+[heading.aliases/Add an alias to a note]
+original=Add an alias to a note
+translation=Pridanie aliasu k poznámke
+
+[heading.aliases/Link to a note using an alias]
+original=Link to a note using an alias
+translation=Odkazovanie na poznámku pomocou aliasu
+
+[heading.aliases/Find unlinked mentions for an alias]
+original=Find unlinked mentions for an alias
+translation=Nájdenie neprepojených zmienok pre alias
+
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=Podporované formáty pre interné odkazy
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=Odkaz na súbor
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=Odkaz na nadpis v poznámke
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=Odkaz na blok v poznámke
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=Zmena zobrazovaného textu odkazu
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=Náhľad prepojeného súboru
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=Vloženie poznámky do inej poznámky
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=Vloženie obrázka do poznámky
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=Vloženie zvukového súboru do poznámky
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=Vloženie PDF do poznámky
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=Vloženie zoznamu do poznámky
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=Vloženie výsledkov vyhľadávania
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=Terminológia a gramatika
+
+[heading.style-guide/Language style]
+original=Language style
+translation=Jazykový štýl
+
+[heading.style-guide/Terms]
+original=Terms
+translation=Pojmy
+
+[heading.style-guide/Product names]
+original=Product names
+translation=Názvy produktov
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=Používateľské rozhranie a interakcie
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=Poznámky, súbory a priečinky
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=Referenčná dokumentácia pre nastavenia
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=Smerové výrazy
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=Inštrukcie
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=Veľkosť písmen vo vetách
+
+[heading.style-guide/Examples]
+original=Examples
+translation=Príklady
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=Názvy kláves a klávesové skratky
+
+[heading.style-guide/Images]
+original=Images
+translation=Obrázky
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=Štruktúra informácií
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=Typy zvýraznených blokov
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=Zoznamy vs. súvislý text
+
+[heading.style-guide/Tables]
+original=Tables
+translation=Tabuľky
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=Krížové odkazy
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=Obsah špecifický pre platformu
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=Ikony a obrázky
+
+[heading.style-guide/Icons]
+original=Icons
+translation=Ikony
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=Kotviace značky obrázkov
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=Optimalizácia
+
+[heading.style-guide/Layout]
+original=Layout
+translation=Rozloženie
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=Nefunkčné odkazy
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=Popisy
+
+[heading.style-guide/Directions]
+original=Directions
+translation=Smery
+
+[heading.style-guide/Translations]
+original=Translations
+translation=Preklady
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=Pluginy a témy
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=Projekty s otvoreným zdrojovým kódom
+
+[heading.developers/Documentation]
+original=Documentation
+translation=Dokumentácia
+
+[heading.developers/Community]
+original=Community
+translation=Komunita
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=Obmedzený režim
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=Schopnosti pluginov
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=Proces kontroly pluginov
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=Pridanie snippetu
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=Písanie CSS pre Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=Viac informácií
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=Prehliadanie komunitných pluginov
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=Inštalácia komunitného pluginu
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=Zapnutie komunitného pluginu
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=Aktualizácia pluginov
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=Odinštalovanie komunitného pluginu
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=Správa nainštalovaných pluginov
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=Viac informácií
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Inštalácia Obsidian CLI
+
+[heading.cli/Get started]
+original=Get started
+translation=Začíname
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Spustenie príkazu
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=Používanie terminálového rozhrania
+
+[heading.cli/Examples]
+original=Examples
+translation=Príklady
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Každodenné použitie
+
+[heading.cli/For developers]
+original=For developers
+translation=Pre vývojárov
+
+[heading.cli/How to]
+original=How to
+translation=Ako na to
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Používanie parametrov a príznakov
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Zacielenie trezoru
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Zacielenie súboru
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Kopírovanie výstupu
+
+[heading.cli/General commands]
+original=General commands
+translation=Všeobecné príkazy
+
+[heading.cli/Bases]
+original=Bases
+translation=Databázy
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Záložky
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Paleta príkazov
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Každodenné poznámky
+
+[heading.cli/File history]
+original=File history
+translation=História súborov
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Súbory a priečinky
+
+[heading.cli/Links]
+original=Links
+translation=Odkazy
+
+[heading.cli/Outline]
+original=Outline
+translation=Osnova
+
+[heading.cli/Plugins]
+original=Plugins
+translation=Pluginy
+
+[heading.cli/Properties]
+original=Properties
+translation=Vlastnosti
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Náhodné poznámky
+
+[heading.cli/Search]
+original=Search
+translation=Hľadanie
+
+[heading.cli/Tags]
+original=Tags
+translation=Značky
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Úlohy
+
+[heading.cli/Templates]
+original=Templates
+translation=Šablóny
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Témy a snippety
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Unikátne poznámky
+
+[heading.cli/Vault]
+original=Vault
+translation=Trezor
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Webový prehliadač
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Počet slov
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Pracovný priestor
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Príkazy pre vývojárov
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Klávesové skratky
+
+[heading.cli/Navigation]
+original=Navigation
+translation=Navigácia
+
+[heading.cli/Editing]
+original=Editing
+translation=Úpravy
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Automatické dopĺňanie
+
+[heading.cli/History]
+original=History
+translation=História
+
+[heading.cli/Other]
+original=Other
+translation=Ostatné
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Riešenie problémov
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Alternatívne shelly
+
+[heading.headless/Install]
+original=Install
+translation=Inštalácia
+
+[heading.headless/Authentication]
+original=Authentication
+translation=Autentifikácia
+
+[heading.headless/Log in]
+original=Log in
+translation=Prihlásenie
+
+[heading.headless/Services]
+original=Services
+translation=Služby
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=Čo vzorce dokážu
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=Vytvorenie vlastnosti vzorca
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=Napísanie vzorca
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=Odkazovanie na vlastnosti
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=Používanie operátorov
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=Používanie funkcií
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=Príklady vzorcov
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=Výpočet termínu
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=Zobrazenie stavu oneskorenia
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=Formátovanie meny
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=Počítanie položiek zoznamu
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=Výpočet skóre priority
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=Kombinácia textových polí
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=Výpočet celkových nákladov
+
+[heading.formulas/Data types]
+original=Data types
+translation=Dátové typy
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=Odkazovanie na iné vzorce
+
+[heading.import/onenote/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=Import dát z OneNote do Obsidian
+
+[heading.import/onenote/Troubleshooting]
+original=Troubleshooting
+translation=Riešenie problémov
+
+[heading.import/onenote/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=Nezobrazujú sa žiadne sekcie ani zápisníky
+
+[heading.import/onenote/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=Importované poznámky sú prázdne alebo im chýba obsah
+
+[heading.import/onenote/Privacy]
+original=Privacy
+translation=Súkromie
+
+[heading.import/notion/API import]
+original=API import
+translation=Import cez API
+
+[heading.import/notion/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=Vytvorenie integračného tokenu Notion API
+
+[heading.import/notion/Import your Notion data via API]
+original=Import your Notion data via API
+translation=Import vašich dát z Notion cez API
+
+[heading.import/notion/Limitations]
+original=Limitations
+translation=Obmedzenia
+
+[heading.import/notion/File import]
+original=File import
+translation=Import zo súboru
+
+[heading.import/notion/Export your data from Notion]
+original=Export your data from Notion
+translation=Export vašich dát z Notion
+
+[heading.import/notion/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=Import vášho .zip súboru z Notion
+
+[heading.import/notion/Troubleshooting]
+original=Troubleshooting
+translation=Riešenie problémov
+
+[heading.import/notion/Importing large workspaces]
+original=Importing large workspaces
+translation=Import veľkých pracovných priestorov
+
+[heading.credit/Add credit]
+original=Add credit
+translation=Pridanie kreditu
+
+[heading.credit/Gifting]
+original=Gifting
+translation=Darovanie
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=Odoslanie Obsidian kreditu
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=Prijatie Obsidian kreditu
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=Otázky a rady
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=Nahlásiť chyby a požiadať o funkcie
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=Zhromaždenie ladiacich informácií
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=Kontrola času spustenia
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=Zachytenie konzolových záznamov
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=Kontaktovať podporu Obsidian
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=Nahlásiť bezpečnostný problém
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=Nahlásiť porušenie kódexu správania
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Prispievanie do Obsidian
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=Pravidlá
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=Závažné priestupky
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=Obťažovanie
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=Vyhrážky
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=Otvorené -izmy
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=Ostatné priestupky
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=Agresivita
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=Mimoriadne nepríjemné správanie
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=Nevyžiadané správy členom komunity
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=Ďalšie správanie
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation=„Nakŕmte ma"
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=Kampaňovanie
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=Nadmerná sebapropagácia
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=Spamovanie
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=Povzbudzované správanie
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=Motivácia
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=Nahlásenie porušení
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=Nahlásenie na Discorde
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=Nahlásenie na fóre
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=Vynucovanie
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=Odvolanie proti zákazu
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=Zásluhy
+
+[heading.publish/media/Images]
+original=Images
+translation=Obrázky
+
+[heading.publish/media/PDFs]
+original=PDFs
+translation=PDF
+
+[heading.publish/media/Videos and audio]
+original=Videos and audio
+translation=Videá a zvuk
+
+[heading.publish/social-share/Description]
+original=Description
+translation=Popis
+
+[heading.publish/social-share/Image]
+original=Image
+translation=Obrázok
+
+[heading.publish/customize/Static assets]
+original=Static assets
+translation=Statické zdroje
+
+[heading.publish/customize/Use a community theme]
+original=Use a community theme
+translation=Použitie komunitnej témy
+
+[heading.publish/customize/Enable UI features]
+original=Enable UI features
+translation=Povolenie funkcií používateľského rozhrania
+
+[heading.publish/customize/Customize navigation]
+original=Customize navigation
+translation=Prispôsobenie navigácie
+
+[heading.publish/customize/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=Prístup k možnostiam prispôsobenia navigácie
+
+[heading.publish/customize/Adjust navigation items]
+original=Adjust navigation items
+translation=Úprava položiek navigácie
+
+[heading.publish/customize/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=Skrytie a zobrazenie položiek navigácie
+
+[heading.publish/customize/FAQ]
+original=FAQ
+translation=Často kladené otázky
+
+[heading.publish/publish/Prerequisites]
+original=Prerequisites
+translation=Predpoklady
+
+[heading.publish/publish/Publish notes]
+original=Publish notes
+translation=Publikovanie poznámok
+
+[heading.publish/publish/Unpublish notes]
+original=Unpublish notes
+translation=Zrušenie publikovania poznámok
+
+[heading.publish/publish/Update a published note]
+original=Update a published note
+translation=Aktualizácia publikovanej poznámky
+
+[heading.publish/publish/Publish linked data]
+original=Publish linked data
+translation=Publikovanie prepojených dát
+
+[heading.publish/publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=Automatický výber dát na publikovanie
+
+[heading.publish/publish/Ignore data]
+original=Ignore data
+translation=Ignorovanie dát
+
+[heading.publish/troubleshoot/General]
+original=General
+translation=Všeobecné
+
+[heading.publish/troubleshoot/Publishing notes]
+original=Publishing notes
+translation=Publikovanie poznámok
+
+[heading.publish/troubleshoot/CSS and themes]
+original=CSS and themes
+translation=CSS a témy
+
+[heading.sync/settings/Sync settings]
+original=Sync settings
+translation=Nastavenia Sync
+
+[heading.sync/settings/Conflict resolution]
+original=Conflict resolution
+translation=Riešenie konfliktov
+
+[heading.sync/settings/Selective syncing]
+original=Selective syncing
+translation=Selektívna synchronizácia
+
+[heading.sync/settings/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=Zmena typov súborov na synchronizáciu
+
+[heading.sync/settings/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=Vylúčenie priečinka zo synchronizácie
+
+[heading.sync/settings/Always excluded from sync]
+original=Always excluded from sync
+translation=Vždy vylúčené zo synchronizácie
+
+[heading.sync/settings/File recovery snapshots]
+original=File recovery snapshots
+translation=Snímky obnovy súborov
+
+[heading.sync/settings/Hidden files and folders]
+original=Hidden files and folders
+translation=Skryté súbory a priečinky
+
+[heading.sync/settings/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=Aktualizácia nastavení synchronizovaného trezora
+
+[heading.sync/settings/Primary device]
+original=Primary device
+translation=Primárne zariadenie
+
+[heading.sync/settings/Secondary device(s)]
+original=Secondary device(s)
+translation=Sekundárne zariadenie(-a)
+
+[heading.sync/settings/Reloading of settings]
+original=Reloading of settings
+translation=Opätovné načítanie nastavení
+
+[heading.sync/settings/Settings profiles]
+original=Settings profiles
+translation=Profily nastavení
+
+[heading.sync/settings/Create a settings profile]
+original=Create a settings profile
+translation=Vytvorenie profilu nastavení
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=Ako používať Obsidian Sync
+
+[heading.sync/Important]
+original=Important
+translation=Dôležité
+
+[heading.sync/faq/General]
+original=General
+translation=Všeobecné
+
+[heading.sync/faq/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Aké operačné systémy Obsidian Sync podporuje?
+
+[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Funguje Obsidian s režimom uzamknutia (Lockdown Mode) od Apple?
+
+[heading.sync/faq/What type of data is synced?]
+original=What type of data is synced?
+translation=Aký typ dát sa synchronizuje?
+
+[heading.sync/faq/How much storage do I have?]
+original=How much storage do I have?
+translation=Koľko úložiska mám k dispozícii?
+
+[heading.sync/faq/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=Koľko vzdialených trezorov môžem mať?
+
+[heading.sync/faq/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=Aký veľký môže byť každý vzdialený trezor?
+
+[heading.sync/faq/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=S koľkými ľuďmi môžem zdieľať vzdialený trezor?
+
+[heading.sync/faq/How large can each file be?]
+original=How large can each file be?
+translation=Aký veľký môže byť každý súbor?
+
+[heading.sync/faq/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=Synchronizujú sa moje dáta na pozadí?
+
+[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Načítava Obsidian Sync moje nastavenia v reálnom čase?
+
+[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=Môžem používať synchronizáciu treťou stranou s Obsidian Sync?
+
+[heading.sync/faq/Data retention]
+original=Data retention
+translation=Uchovávanie dát
+
+[heading.sync/faq/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=Ako dlho uchovávate históriu verzií?
+
+[heading.sync/faq/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=Ako dlho uchovávate moje dáta po vypršaní predplatného?
+
+[heading.sync/faq/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=Uchovávate moje dáta, ak požiadam o vrátenie peňazí za predplatné?
+
+[heading.web-clipper/capture/Capture a page]
+original=Capture a page
+translation=Zachytenie stránky
+
+[heading.web-clipper/capture/Download images]
+original=Download images
+translation=Stiahnutie obrázkov
+
+[heading.web-clipper/capture/Hotkeys]
+original=Hotkeys
+translation=Klávesové skratky
+
+[heading.web-clipper/capture/Interface functionality]
+original=Interface functionality
+translation=Funkcie rozhrania
+
+[heading.web-clipper/templates/Create or edit a template]
+original=Create or edit a template
+translation=Vytvorenie alebo úprava šablóny
+
+[heading.web-clipper/templates/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=Import a export šablón Web Clipper
+
+[heading.web-clipper/templates/Template settings]
+original=Template settings
+translation=Nastavenia šablóny
+
+[heading.web-clipper/templates/Behavior]
+original=Behavior
+translation=Správanie
+
+[heading.web-clipper/templates/Automatically trigger a template]
+original=Automatically trigger a template
+translation=Automatické spustenie šablóny
+
+[heading.web-clipper/templates/Simple URL matching]
+original=Simple URL matching
+translation=Jednoduché porovnávanie URL
+
+[heading.web-clipper/templates/Regular expression matching]
+original=Regular expression matching
+translation=Porovnávanie regulárnymi výrazmi
+
+[heading.web-clipper/templates/Schema.org matching]
+original=Schema.org matching
+translation=Porovnávanie Schema.org
+
+[heading.web-clipper/templates/Interpreter context]
+original=Interpreter context
+translation=Kontext interpretera
+
+[heading.plugins/file-recovery/Recover a snapshot]
+original=Recover a snapshot
+translation=Obnovenie snímky
+
+[heading.plugins/file-recovery/Clear snapshot history]
+original=Clear snapshot history
+translation=Vymazanie histórie snímok
+
+[heading.plugins/file-recovery/Storage and performance]
+original=Storage and performance
+translation=Úložisko a výkon
+
+[heading.plugins/file-recovery/Limitations]
+original=Limitations
+translation=Obmedzenia
+
+[heading.plugins/file-explorer/Create a new note]
+original=Create a new note
+translation=Vytvorenie novej poznámky
+
+[heading.plugins/file-explorer/Create a new folder]
+original=Create a new folder
+translation=Vytvorenie nového priečinka
+
+[heading.plugins/file-explorer/Change sort order]
+original=Change sort order
+translation=Zmena zoradenia
+
+[heading.plugins/file-explorer/Auto-reveal active file]
+original=Auto-reveal active file
+translation=Automatické odhalenie aktívneho súboru
+
+[heading.plugins/file-explorer/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=Rozbalenie alebo zbalenie všetkých priečinkov
+
+[heading.plugins/file-explorer/Delete a file or folder]
+original=Delete a file or folder
+translation=Odstránenie súboru alebo priečinka
+
+[heading.plugins/file-explorer/Rename a file or folder]
+original=Rename a file or folder
+translation=Premenovanie súboru alebo priečinka
+
+[heading.plugins/file-explorer/Move a file or folder]
+original=Move a file or folder
+translation=Presunutie súboru alebo priečinka
+
+[heading.plugins/quick-switcher/Open Quick switcher]
+original=Open Quick switcher
+translation=Otvorenie rýchleho prepínača
+
+[heading.plugins/quick-switcher/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=Otvorenie poznámky pomocou rýchleho prepínača
+
+[heading.plugins/unique-note/Create a unique note]
+original=Create a unique note
+translation=Vytvorenie unikátnej poznámky
+
+[heading.plugins/unique-note/Create unique notes from a template]
+original=Create unique notes from a template
+translation=Vytvorenie unikátnych poznámok zo šablóny
+
+[heading.plugins/properties/All properties view]
+original=All properties view
+translation=Zobrazenie všetkých vlastností
+
+[heading.plugins/templates/Set your template folder]
+original=Set your template folder
+translation=Nastavenie priečinka šablón
+
+[heading.plugins/templates/Template variables]
+original=Template variables
+translation=Premenné šablón
+
+[heading.plugins/templates/Create a template]
+original=Create a template
+translation=Vytvorenie šablóny
+
+[heading.plugins/templates/Insert a template into the active note]
+original=Insert a template into the active note
+translation=Vloženie šablóny do aktívnej poznámky
+
+[heading.plugins/templates/Template properties]
+original=Template properties
+translation=Vlastnosti šablóny
+
+[heading.plugins/templates/Inserting current date and time into the active note]
+original=Inserting current date and time into the active note
+translation=Vloženie aktuálneho dátumu a času do aktívnej poznámky
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=Otvorenie skrytých bočných panelov
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=Desktop a väčšie tablety
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=Mobily a menšie tablety
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=Karty
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=Otváranie alebo opätovné otváranie kariet
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=Zatváranie kariet
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=Preusporiadanie kariet
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=Pripnutie kariet
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=Skupiny kariet
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=Vytváranie skupín kariet
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=Zatváranie skupín kariet
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.uri/URI format]
+original=URI format
+translation=Formát URI
+
+[heading.uri/Open note]
+original=Open note
+translation=Otvorenie poznámky
+
+[heading.uri/Examples]
+original=Examples
+translation=Príklady
+
+[heading.uri/Parameters]
+original=Parameters
+translation=Parametre
+
+[heading.uri/Create note]
+original=Create note
+translation=Vytvorenie poznámky
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=Vytvorenie alebo otvorenie dennej poznámky
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=Jedinečná poznámka
+
+[heading.uri/Open search]
+original=Open search
+translation=Otvorenie vyhľadávania
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=Otvorenie správcu trezorov
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Integrácia s Hook
+
+[heading.uri/Example]
+original=Example
+translation=Príklad
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=Použitie parametrov x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=Skrátené formáty
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=Riešenie problémov
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Registrácia Obsidian URI
+
+[heading.teams/security/Considerations]
+original=Considerations
+translation=Zváženia
+
+[heading.teams/security/Community plugins and themes]
+original=Community plugins and themes
+translation=Komunitné pluginy a témy
+
+[heading.teams/security/Network and access]
+original=Network and access
+translation=Sieť a prístup
+
+[heading.teams/security/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=Pripojenia z Obsidian
+
+[heading.teams/security/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=Pripojenia z GitHub
+
+[heading.teams/security/Other connections]
+original=Other connections
+translation=Ostatné pripojenia
+
+[heading.teams/security/Frequently asked questions]
+original=Frequently asked questions
+translation=Často kladené otázky
+
+[heading.teams/security/Account security]
+original=Account security
+translation=Bezpečnosť účtu
+
+[heading.teams/security/Assessments and certifications]
+original=Assessments and certifications
+translation=Hodnotenia a certifikácie
+
+[heading.teams/publish/Publishing tools and services]
+original=Publishing tools and services
+translation=Publikačné nástroje a služby
+
+[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=Rozšírená spolupráca pre Obsidian Publish
+
+[heading.teams/publish/Media]
+original=Media
+translation=Médiá
+
+[heading.teams/publish/Frequently asked questions]
+original=Frequently asked questions
+translation=Často kladené otázky
+
+[heading.teams/sync/Syncing tools and services]
+original=Syncing tools and services
+translation=Synchronizačné nástroje a služby
+
+[heading.teams/sync/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=Obsidian Sync pre tímy
+
+[heading.teams/sync/Security]
+original=Security
+translation=Bezpečnosť
+
+[heading.teams/sync/Frequently asked questions]
+original=Frequently asked questions
+translation=Často kladené otázky
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=Import z iných aplikácií a formátov súborov
+
+[heading.import/More formats]
+original=More formats
+translation=Ďalšie formáty
+
+[heading.install/Install Obsidian on Windows]
+original=Install Obsidian on Windows
+translation=Inštalácia Obsidian na Windows
+
+[heading.install/Install Obsidian on macOS]
+original=Install Obsidian on macOS
+translation=Inštalácia Obsidian na macOS
+
+[heading.install/Install Obsidian on Linux]
+original=Install Obsidian on Linux
+translation=Inštalácia Obsidian na Linux
+
+[heading.install/Install Obsidian using Snap]
+original=Install Obsidian using Snap
+translation=Inštalácia Obsidian pomocou Snap
+
+[heading.install/Install Obsidian using AppImage]
+original=Install Obsidian using AppImage
+translation=Inštalácia Obsidian pomocou AppImage
+
+[heading.install/Install Obsidian using Flatpak]
+original=Install Obsidian using Flatpak
+translation=Inštalácia Obsidian pomocou Flatpak
+
+[heading.install/Install Obsidian on Android]
+original=Install Obsidian on Android
+translation=Inštalácia Obsidian na Android
+
+[heading.install/Install Obsidian on iPhone and iPad]
+original=Install Obsidian on iPhone and iPad
+translation=Inštalácia Obsidian na iPhone a iPad
+
+[heading.callouts/Change the title]
+original=Change the title
+translation=Zmena názvu
+
+[heading.callouts/Foldable callouts]
+original=Foldable callouts
+translation=Zbaliteľné zvýraznené bloky
+
+[heading.callouts/Nested callouts]
+original=Nested callouts
+translation=Vnorené zvýraznené bloky
+
+[heading.callouts/Customize callouts]
+original=Customize callouts
+translation=Prispôsobenie zvýraznených blokov
+
+[heading.callouts/Supported types]
+original=Supported types
+translation=Podporované typy
+
+[heading.attachments/Add an attachment]
+original=Add an attachment
+translation=Pridanie prílohy
+
+[heading.attachments/Change default attachment location]
+original=Change default attachment location
+translation=Zmena predvoleného umiestnenia príloh
+
+[heading.multiple-cursors/Rectangular selection]
+original=Rectangular selection
+translation=Obdĺžnikový výber
+
+[heading.embed-web-pages/Embed a YouTube video]
+original=Embed a YouTube video
+translation=Vloženie YouTube videa
+
+[heading.embed-web-pages/Embed a tweet]
+original=Embed a tweet
+translation=Vloženie tweetu

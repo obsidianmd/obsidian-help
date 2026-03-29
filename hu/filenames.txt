@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=Kezdőlap
+
+[file.2fa]
+original=2-factor authentication
+translation=Kétfaktoros hitelesítés
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Haladó formázási szintaxis
+
+[file.aliases]
+original=Aliases
+translation=Alternatív nevek
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian Androidra
+
+[file.appearance]
+original=Appearance
+translation=Megjelenés
+
+[file.attachments]
+original=Attachments
+translation=Csatolmányok
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Obsidian fájlok biztonsági mentése
+
+[file.bases]
+original=Introduction to Bases
+translation=Bevezetés a Bázisokba
+
+[file.bases/create-base]
+original=Create a base
+translation=Bázis létrehozása
+
+[file.bases/functions]
+original=Functions
+translation=Függvények
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Bázisok szintaxisa
+
+[file.bases/views]
+original=Views
+translation=Nézetek
+
+[file.bases/views/cards]
+original=Cards view
+translation=Kártyák nézet
+
+[file.bases/views/list]
+original=List view
+translation=Lista nézet
+
+[file.bases/views/map]
+original=Map view
+translation=Térkép nézet
+
+[file.bases/views/table]
+original=Table view
+translation=Táblázat nézet
+
+[file.callouts]
+original=Callouts
+translation=Felhívások
+
+[file.catalyst]
+original=Catalyst license
+translation=Catalyst licenc
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Közösségi magatartási kódex
+
+[file.community-plugins]
+original=Community plugins
+translation=Közösségi bővítmények
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Konfigurációs mappa
+
+[file.create-note]
+original=Create your first note
+translation=Első jegyzet létrehozása
+
+[file.credit]
+original=Obsidian Credit
+translation=Obsidian kredit
+
+[file.credits]
+original=Credits
+translation=Közreműködők
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Hogyan tárolja az Obsidian az adatokat
+
+[file.developers]
+original=Developers
+translation=Fejlesztők
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Oktatási és nonprofit kedvezmény
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Fogd és vidd
+
+[file.early-access]
+original=Early access versions
+translation=Korai hozzáférésű verziók
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Nézetek és szerkesztési mód
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Szerkesztési gyorsbillentyűk
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Weboldalak beágyazása
+
+[file.embeds]
+original=Embed files
+translation=Fájlok beágyazása
+
+[file.file-formats]
+original=Accepted file formats
+translation=Elfogadott fájlformátumok
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Anyagi hozzájárulások
+
+[file.folding]
+original=Folding
+translation=Összecsukás
+
+[file.formulas]
+original=Formulas
+translation=Képletek
+
+[file.glossary]
+original=Glossary
+translation=Szószedet
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Gyorsbillentyűk
+
+[file.html]
+original=HTML content
+translation=HTML tartalom
+
+[file.import]
+original=Import notes
+translation=Jegyzetek importálása
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Importálás az Apple Journalből
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Importálás az Apple Jegyzetekből
+
+[file.import/bear]
+original=Import from Bear
+translation=Importálás a Bearből
+
+[file.import/craft]
+original=Import from Craft
+translation=Importálás a Craftből
+
+[file.import/csv]
+original=Import CSV files
+translation=CSV fájlok importálása
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Importálás az Evernote-ból
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Importálás a Google Keepből
+
+[file.import/html]
+original=Import HTML files
+translation=HTML fájlok importálása
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Markdown fájlok importálása
+
+[file.import/notion]
+original=Import from Notion
+translation=Importálás a Notionből
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Importálás a Microsoft OneNote-ból
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Importálás a Roam Research-ből
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Textbundle fájlok importálása
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Zettelkasten jegyzetek importálása
+
+[file.install]
+original=Download and install Obsidian
+translation=Obsidian letöltése és telepítése
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian iOS-re és iPadOS-re
+
+[file.language]
+original=Language settings
+translation=Nyelvi beállítások
+
+[file.link-notes]
+original=Link notes
+translation=Jegyzetek összekapcsolása
+
+[file.links]
+original=Internal links
+translation=Belső hivatkozások
+
+[file.manage-notes]
+original=Manage notes
+translation=Jegyzetek kezelése
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Széfek kezelése
+
+[file.mobile]
+original=Mobile app
+translation=Mobilalkalmazás
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Több kurzor
+
+[file.obsidian]
+original=About Obsidian
+translation=Az Obsidianről
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Hivatalos weboldal
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Bevezetés a licencekbe és fizetésbe
+
+[file.plugin-security]
+original=Plugin security
+translation=Bővítmények biztonsága
+
+[file.plugins]
+original=Core plugins
+translation=Alap bővítmények
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Hangrögzítő
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Visszahivatkozások
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Könyvjelzők
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Parancspaletta
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Napi jegyzetek
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Fájlkezelő
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Fájl-visszaállítás
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Formátum-konvertáló
+
+[file.plugins/graph]
+original=Graph view
+translation=Gráf nézet
+
+[file.plugins/importer]
+original=Importer
+translation=Importáló
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Jegyzet-szerkesztő
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Kimenő kapcsolatok
+
+[file.plugins/outline]
+original=Outline
+translation=Vázlat
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Oldal előnézet
+
+[file.plugins/properties]
+original=Properties view
+translation=Tulajdonságok nézet
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Gyors váltó
+
+[file.plugins/random-note]
+original=Random note
+translation=Véletlenszerű jegyzet
+
+[file.plugins/search]
+original=Search
+translation=Keresés
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Perjel-parancsok
+
+[file.plugins/slides]
+original=Slides
+translation=Diák
+
+[file.plugins/tags]
+original=Tags view
+translation=Címke panel
+
+[file.plugins/templates]
+original=Templates
+translation=Sablonok
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Egyedi jegyzet készítő
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Webes megjelenítő
+
+[file.plugins/word-count]
+original=Word count
+translation=Szavak száma
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Munkaterületek
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Kiugró ablakok
+
+[file.properties]
+original=Properties
+translation=Tulajdonságok
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Bevezetés az Obsidian Publish-be
+
+[file.publish/analytics]
+original=Analytics
+translation=Analitika
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Együttműködés egy Publish webhelyen
+
+[file.publish/customize]
+original=Customize your site
+translation=Webhely testreszabása
+
+[file.publish/domains]
+original=Custom domains
+translation=Egyedi tartományok
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Publish korlátozások
+
+[file.publish/media]
+original=Media files
+translation=Médiafájlok
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Állandó hivatkozások
+
+[file.publish/publish]
+original=Publish your content
+translation=Tartalom publikálása
+
+[file.publish/security]
+original=Security and privacy
+translation=Biztonság és adatvédelem
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Az Obsidian Publish beállítása
+
+[file.publish/sites]
+original=Manage sites
+translation=Webhelyek kezelése
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Közösségi média hivatkozás-előnézetek
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Obsidian Publish hibaelhárítás
+
+[file.refunds]
+original=Refund policy
+translation=Visszatérítési szabályzat
+
+[file.resources]
+original=Help and support
+translation=Súgó és támogatás
+
+[file.ribbon]
+original=Ribbon
+translation=Szalag
+
+[file.sales-tax]
+original=Sales tax
+translation=Forgalmi adó
+
+[file.sandbox]
+original=Sandbox vault
+translation=Homokozó széf
+
+[file.settings]
+original=Settings
+translation=Beállítások
+
+[file.sidebar]
+original=Sidebar
+translation=Oldalsáv
+
+[file.snippets]
+original=CSS snippets
+translation=CSS kódrészletek
+
+[file.status-bar]
+original=Status bar
+translation=Állapotsor
+
+[file.style-guide]
+original=Style guide
+translation=Stílus útmutató
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Szimbolikus hivatkozások és csomópontok
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Bevezetés az Obsidian Sync használatába
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Jegyzetek szinkronizálása eszközök között
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Együttműködés megosztott széfen
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Gyakran ismételt kérdések
+
+[file.sync/headless]
+original=Headless Sync
+translation=Fej nélküli Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Állapotikon és üzenetek
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Sync titkosítás frissítése
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Csomagok és tárhelykorlátok
+
+[file.sync/region]
+original=Sync regions
+translation=Sync régiók
+
+[file.sync/security]
+original=Security and privacy
+translation=Biztonság és adatvédelem
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Sync beállítások és szelektív szinkronizálás
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Az Obsidian Sync beállítása
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Váltás az Obsidian Sync-re
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Obsidian Sync hibaelhárítás
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Helyi és távoli széfek
+
+[file.sync/version-history]
+original=Version history
+translation=Verziótörténet
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Alapvető formázási szintaxis
+
+[file.tabs]
+original=Tabs
+translation=Lapok
+
+[file.tags]
+original=Tags
+translation=Címkék
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian csapatok számára
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Obsidian telepítése a csapat számára
+
+[file.teams/license]
+original=Commercial license
+translation=Kereskedelmi licenc
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publikálás csapatok számára
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Biztonsági szempontok csapatok számára
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Szinkronizálás csapatok számára
+
+[file.themes]
+original=Themes
+translation=Témák
+
+[file.translations]
+original=Translations
+translation=Fordítások
+
+[file.updates]
+original=Update Obsidian
+translation=Az Obsidian frissítése
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Széf létrehozása
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Bevezetés az Obsidian Web Clipper használatába
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Weboldalak kivágása
+
+[file.web-clipper/filters]
+original=Filters
+translation=Szűrők
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Weboldalak kiemelése
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Weboldalak értelmezése
+
+[file.web-clipper/logic]
+original=Logic
+translation=Logika
+
+[file.web-clipper/reader]
+original=Reader
+translation=Olvasó
+
+[file.web-clipper/templates]
+original=Templates
+translation=Sablonok
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Web Clipper hibaelhárítás
+
+[file.web-clipper/variables]
+original=Variables
+translation=Változók
+
+[file.workspace]
+original=Workspace
+translation=Munkaterület
+
+[folder.audio]
+original=audio
+translation=audió
+
+[folder.Changelog]
+original=Changelog
+translation=Változásnapló
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Közreműködés az Obsidian-ben
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Szerkesztés és formázás
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Az Obsidian bővítése
+
+[folder.Files and folders]
+original=Files and folders
+translation=Fájlok és mappák
+
+[folder.Getting started]
+original=Getting started
+translation=Első lépések
+
+[folder.icons]
+original=icons
+translation=ikonok
+
+[folder.Import notes]
+original=Import notes
+translation=Jegyzetek importálása
+
+[folder.Layouts]
+original=Layouts
+translation=Elrendezések
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Licencek és fizetés
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Jegyzetek és fájlok hivatkozása
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Bővítmények
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Felhasználói felület
+
+[folder.video]
+original=video
+translation=videó

@@ -1,0 +1,1011 @@
+[heading.bases/syntax/Example]
+original=Example
+translation=Eksempel
+
+[heading.bases/syntax/Filters]
+original=Filters
+translation=Filtre
+
+[heading.bases/syntax/Formulas]
+original=Formulas
+translation=Formler
+
+[heading.bases/syntax/Properties]
+original=Properties
+translation=Egenskaper
+
+[heading.bases/syntax/Summaries]
+original=Summaries
+translation=Sammendrag
+
+[heading.bases/syntax/Default Summary Formulas]
+original=Default Summary Formulas
+translation=Standard sammendragsformler
+
+[heading.bases/syntax/Views]
+original=Views
+translation=Visninger
+
+[heading.bases/syntax/Note properties]
+original=Note properties
+translation=Notategenskaper
+
+[heading.bases/syntax/File properties]
+original=File properties
+translation=Filegenskaper
+
+[heading.bases/syntax/Access properties with `this`]
+original=Access properties with `this`
+translation=Tilgang til egenskaper med `this`
+
+[heading.bases/syntax/Operators]
+original=Operators
+translation=Operatorer
+
+[heading.bases/syntax/Arithmetic operators]
+original=Arithmetic operators
+translation=Aritmetiske operatorer
+
+[heading.bases/syntax/Date arithmetic]
+original=Date arithmetic
+translation=Datoaritmetikk
+
+[heading.bases/syntax/Comparison operators]
+original=Comparison operators
+translation=Sammenligningsoperatorer
+
+[heading.bases/syntax/Boolean operators]
+original=Boolean operators
+translation=Boolske operatorer
+
+[heading.bases/syntax/Functions]
+original=Functions
+translation=Funksjoner
+
+[heading.bases/syntax/Types]
+original=Types
+translation=Typer
+
+[heading.bases/syntax/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=Strenger, tall og boolske verdier
+
+[heading.bases/syntax/Dates and durations]
+original=Dates and durations
+translation=Datoer og varigheter
+
+[heading.bases/syntax/Objects and lists]
+original=Objects and lists
+translation=Objekter og lister
+
+[heading.bases/syntax/Files and links]
+original=Files and links
+translation=Filer og lenker
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=Hva formler kan gjøre
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=Opprett en formelegenskap
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=Skriv en formel
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=Referer til egenskaper
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=Bruk operatorer
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=Bruk funksjoner
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=Formeleksempler
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=Beregn en tidsfrist
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=Vis forfalt-status
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=Formater valuta
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=Tell listeelementer
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=Beregn prioritetspoeng
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=Kombiner tekstfelt
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=Beregn totalkostnad
+
+[heading.formulas/Data types]
+original=Data types
+translation=Datatyper
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=Referer til andre formler
+
+[heading.bases/functions/Global]
+original=Global
+translation=Globale
+
+[heading.bases/functions/Any]
+original=Any
+translation=Alle typer
+
+[heading.bases/functions/Date]
+original=Date
+translation=Dato
+
+[heading.bases/functions/Fields]
+original=Fields
+translation=Felter
+
+[heading.bases/functions/String]
+original=String
+translation=Streng
+
+[heading.bases/functions/Number]
+original=Number
+translation=Tall
+
+[heading.bases/functions/List]
+original=List
+translation=Liste
+
+[heading.bases/functions/Link]
+original=Link
+translation=Lenke
+
+[heading.bases/functions/File]
+original=File
+translation=Fil
+
+[heading.bases/functions/Object]
+original=Object
+translation=Objekt
+
+[heading.bases/functions/Regular expression]
+original=Regular expression
+translation=Regulært uttrykk
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Slik bruker du Bases
+
+[heading.bases/View types]
+original=View types
+translation=Visningstyper
+
+[heading.bases/create-base/Create a new base]
+original=Create a new base
+translation=Opprett en ny base
+
+[heading.bases/create-base/Embed a base]
+original=Embed a base
+translation=Bygg inn en base
+
+[heading.bases/create-base/Embed a base file]
+original=Embed a base file
+translation=Bygg inn en basefil
+
+[heading.bases/create-base/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Bygg inn en base som en kodeblokk
+
+[heading.bases/views/map/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Installer Maps-utvidelsen
+
+[heading.bases/views/map/Example]
+original=Example
+translation=Eksempel
+
+[heading.bases/views/map/Settings]
+original=Settings
+translation=Innstillinger
+
+[heading.bases/views/map/Markers]
+original=Markers
+translation=Markører
+
+[heading.bases/views/map/Coordinates]
+original=Coordinates
+translation=Koordinater
+
+[heading.bases/views/map/Icons]
+original=Icons
+translation=Ikoner
+
+[heading.bases/views/map/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Bruk en formel for å definere ikoner
+
+[heading.bases/views/map/Colors]
+original=Colors
+translation=Farger
+
+[heading.bases/views/map/Background]
+original=Background
+translation=Bakgrunn
+
+[heading.bases/views/map/Map tiles]
+original=Map tiles
+translation=Kartfliser
+
+[heading.bases/views/map/Useful links]
+original=Useful links
+translation=Nyttige lenker
+
+[heading.bases/views/map/Troubleshooting]
+original=Troubleshooting
+translation=Feilsøking
+
+[heading.bases/views/cards/Settings]
+original=Settings
+translation=Innstillinger
+
+[heading.bases/views/cards/Card size]
+original=Card size
+translation=Kortstørrelse
+
+[heading.bases/views/cards/Image property]
+original=Image property
+translation=Bildeegenskap
+
+[heading.bases/views/cards/Image fit]
+original=Image fit
+translation=Bildetilpasning
+
+[heading.bases/views/cards/Image aspect ratio]
+original=Image aspect ratio
+translation=Bildets størrelsesforhold
+
+[heading.bases/views/list/Settings]
+original=Settings
+translation=Innstillinger
+
+[heading.bases/views/list/Markers]
+original=Markers
+translation=Markører
+
+[heading.bases/views/list/Indent properties]
+original=Indent properties
+translation=Egenskapsinnrykk
+
+[heading.bases/views/list/Separators]
+original=Separators
+translation=Skilletegn
+
+[heading.bases/views/table/Settings]
+original=Settings
+translation=Innstillinger
+
+[heading.bases/views/table/Row height]
+original=Row height
+translation=Radhøyde
+
+[heading.bases/views/table/Summaries]
+original=Summaries
+translation=Sammendrag
+
+[heading.bases/views/table/Add a summary]
+original=Add a summary
+translation=Legg til et sammendrag
+
+[heading.bases/views/table/Built-in summaries]
+original=Built-in summaries
+translation=Innebygde sammendrag
+
+[heading.bases/views/table/All property types]
+original=All property types
+translation=Alle egenskapstyper
+
+[heading.bases/views/table/Numbers]
+original=Numbers
+translation=Tall
+
+[heading.bases/views/table/Dates]
+original=Dates
+translation=Datoer
+
+[heading.bases/views/table/Checkbox]
+original=Checkbox
+translation=Avkrysningsboks
+
+[heading.bases/views/table/Custom summaries]
+original=Custom summaries
+translation=Egendefinerte sammendrag
+
+[heading.bases/views/table/Shortcuts]
+original=Shortcuts
+translation=Snarveier
+
+[heading.bases/views/Toolbar]
+original=Toolbar
+translation=Verktøylinje
+
+[heading.bases/views/Add and switch views]
+original=Add and switch views
+translation=Legg til og bytt visninger
+
+[heading.bases/views/View settings]
+original=View settings
+translation=Visningsinnstillinger
+
+[heading.bases/views/Layout]
+original=Layout
+translation=Oppsett
+
+[heading.bases/views/Filters]
+original=Filters
+translation=Filtre
+
+[heading.bases/views/Components of a filter]
+original=Components of a filter
+translation=Komponenter i et filter
+
+[heading.bases/views/Conjunctions]
+original=Conjunctions
+translation=Konjunksjoner
+
+[heading.bases/views/Filter groups]
+original=Filter groups
+translation=Filtergrupper
+
+[heading.bases/views/Advanced filter editor]
+original=Advanced filter editor
+translation=Avansert filterredigering
+
+[heading.bases/views/Sort and group results]
+original=Sort and group results
+translation=Sorter og grupper resultater
+
+[heading.bases/views/Add a sort]
+original=Add a sort
+translation=Legg til en sortering
+
+[heading.bases/views/Remove a sort]
+original=Remove a sort
+translation=Fjern en sortering
+
+[heading.bases/views/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Begrens, kopier og eksporter resultater
+
+[heading.bases/views/Limit results]
+original=Limit results
+translation=Begrens resultater
+
+[heading.bases/views/Copy to clipboard]
+original=Copy to clipboard
+translation=Kopier til utklippstavlen
+
+[heading.bases/views/Export CSV]
+original=Export CSV
+translation=Eksporter CSV
+
+[heading.bases/views/Embed a view]
+original=Embed a view
+translation=Bygg inn en visning
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=Terminologi og grammatikk
+
+[heading.style-guide/Language style]
+original=Language style
+translation=Språkstil
+
+[heading.style-guide/Terms]
+original=Terms
+translation=Begreper
+
+[heading.style-guide/Product names]
+original=Product names
+translation=Produktnavn
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=Brukergrensesnitt og interaksjoner
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=Notater, filer og mapper
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=Referansedokumentasjon for innstillinger
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=Retningsbetegnelser
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=Instruksjoner
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=Stor/liten bokstav i overskrifter
+
+[heading.style-guide/Examples]
+original=Examples
+translation=Eksempler
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=Tastenavn og hurtigtaster
+
+[heading.style-guide/Images]
+original=Images
+translation=Bilder
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=Informasjonsstruktur
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=Typer uthevede blokker
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=Lister vs. prosa
+
+[heading.style-guide/Tables]
+original=Tables
+translation=Tabeller
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=Kryssreferanser
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=Plattformspesifikt innhold
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=Ikoner og bilder
+
+[heading.style-guide/Icons]
+original=Icons
+translation=Ikoner
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=Bilde-ankertagger
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=Optimalisering
+
+[heading.style-guide/Layout]
+original=Layout
+translation=Oppsett
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=Ødelagte lenker
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=Beskrivelser
+
+[heading.style-guide/Directions]
+original=Directions
+translation=Retningsanvisninger
+
+[heading.style-guide/Translations]
+original=Translations
+translation=Oversettelser
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=Utvidelser og temaer
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=Åpen kildekode-prosjekter
+
+[heading.developers/Documentation]
+original=Documentation
+translation=Dokumentasjon
+
+[heading.developers/Community]
+original=Community
+translation=Fellesskap
+
+[heading.workspace/Desktop]
+original=Desktop
+translation=Skrivebord
+
+[heading.workspace/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.drag-and-drop/Drag tabs]
+original=Drag tabs
+translation=Dra faner
+
+[heading.drag-and-drop/Drag sources]
+original=Drag sources
+translation=Dra-kilder
+
+[heading.drag-and-drop/Drop destinations]
+original=Drop destinations
+translation=Slipp-destinasjoner
+
+[heading.drag-and-drop/Dragging from outside Obsidian]
+original=Dragging from outside Obsidian
+translation=Dra fra utenfor Obsidian
+
+[heading.drag-and-drop/Dropping files outside Obsidian]
+original=Dropping files outside Obsidian
+translation=Slippe filer utenfor Obsidian
+
+[heading.tabs/Open a new tab]
+original=Open a new tab
+translation=Åpne en ny fane
+
+[heading.tabs/Open a link]
+original=Open a link
+translation=Åpne en lenke
+
+[heading.tabs/Organize your tabs and windows]
+original=Organize your tabs and windows
+translation=Organiser faner og vinduer
+
+[heading.tabs/Arrange tabs]
+original=Arrange tabs
+translation=Ordne faner
+
+[heading.tabs/Split a tab group]
+original=Split a tab group
+translation=Del en fanegruppe
+
+[heading.tabs/Resize a tab group]
+original=Resize a tab group
+translation=Endre størrelse på en fanegruppe
+
+[heading.tabs/Move tab to a new window]
+original=Move tab to a new window
+translation=Flytt fane til et nytt vindu
+
+[heading.tabs/Move a tab to a different window]
+original=Move a tab to a different window
+translation=Flytt en fane til et annet vindu
+
+[heading.tabs/Pin a tab]
+original=Pin a tab
+translation=Fest en fane
+
+[heading.tabs/Switch to a different tab]
+original=Switch to a different tab
+translation=Bytt til en annen fane
+
+[heading.tabs/Stack tab groups]
+original=Stack tab groups
+translation=Stable fanegrupper
+
+[heading.tabs/Linked views]
+original=Linked views
+translation=Lenkede visninger
+
+[heading.tabs/Save layouts]
+original=Save layouts
+translation=Lagre oppsett
+
+[heading.hotkeys/View hotkeys]
+original=View hotkeys
+translation=Vis hurtigtaster
+
+[heading.hotkeys/Set a hotkey]
+original=Set a hotkey
+translation=Sett en hurtigtast
+
+[heading.hotkeys/Remove a hotkey]
+original=Remove a hotkey
+translation=Fjern en hurtigtast
+
+[heading.hotkeys/Filter hotkeys]
+original=Filter hotkeys
+translation=Filtrer hurtigtaster
+
+[heading.hotkeys/Non-US keyboard layouts]
+original=Non-US keyboard layouts
+translation=Ikke-amerikanske tastaturoppsett
+
+[heading.hotkeys/Default keyboard shortcuts]
+original=Default keyboard shortcuts
+translation=Standard tastatursnarveier
+
+[heading.settings/Open Settings]
+original=Open Settings
+translation=Åpne Innstillinger
+
+[heading.settings/Desktop]
+original=Desktop
+translation=Skrivebord
+
+[heading.settings/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.settings/Settings organization]
+original=Settings organization
+translation=Organisering av innstillinger
+
+[heading.settings/General]
+original=General
+translation=Generelt
+
+[heading.settings/Version and updates]
+original=Version and updates
+translation=Versjon og oppdateringer
+
+[heading.settings/Language]
+original=Language
+translation=Språk
+
+[heading.settings/Help]
+original=Help
+translation=Hjelp
+
+[heading.settings/Account]
+original=Account
+translation=Konto
+
+[heading.settings/Advanced]
+original=Advanced
+translation=Avansert
+
+[heading.settings/Notify if startup takes longer than expected]
+original=Notify if startup takes longer than expected
+translation=Varsle ved treg oppstart
+
+[heading.settings/Editor]
+original=Editor
+translation=Redigeringsprogram
+
+[heading.settings/Always focus new tabs]
+original=Always focus new tabs
+translation=Alltid fokuser på nye tabs
+
+[heading.settings/Default view for new tabs]
+original=Default view for new tabs
+translation=Standardvisning for nye faner
+
+[heading.settings/Default editing mode]
+original=Default editing mode
+translation=Standard redigeringsmodus
+
+[heading.settings/Show editing mode in status bar]
+original=Show editing mode in status bar
+translation=Editor status
+
+[heading.settings/Display]
+original=Display
+translation=Visning
+
+[heading.settings/Readable line length]
+original=Readable line length
+translation=Lesbar linjelengde
+
+[heading.settings/Strict line breaks]
+original=Strict line breaks
+translation=Nøye linjeskift
+
+[heading.settings/Properties in document]
+original=Properties in document
+translation=Egenskaper i dokument
+
+[heading.settings/Fold heading]
+original=Fold heading
+translation=Skjul under overskrift
+
+[heading.settings/Fold indent]
+original=Fold indent
+translation=Skjul under innrykk
+
+[heading.settings/Show line numbers]
+original=Show line numbers
+translation=Linjenumre
+
+[heading.settings/Show indentation guides]
+original=Show indentation guides
+translation=Innrykksguider
+
+[heading.settings/Right-to-left (RTL)]
+original=Right-to-left (RTL)
+translation=Høyre-til-venstre (RTL)
+
+[heading.settings/Auto-pair brackets]
+original=Auto-pair brackets
+translation=Automatiske parenteser
+
+[heading.settings/Auto-pair Markdown syntax]
+original=Auto-pair Markdown syntax
+translation=Automatisk Markdown syntaks
+
+[heading.settings/Smart lists]
+original=Smart lists
+translation=Smarte lister
+
+[heading.settings/Indent using tabs]
+original=Indent using tabs
+translation=Bruk tab-er
+
+[heading.settings/Convert pasted HTML to Markdown]
+original=Convert pasted HTML to Markdown
+translation=Auto-konverter HTML
+
+[heading.settings/Behavior]
+original=Behavior
+translation=Atferd
+
+[heading.settings/Spellcheck]
+original=Spellcheck
+translation=Stavekontroll
+
+[heading.settings/Spellcheck languages]
+original=Spellcheck languages
+translation=Språk for stavekontroll
+
+[heading.settings/Indent visual width]
+original=Indent visual width
+translation=Tab size
+
+[heading.settings/Vim key bindings]
+original=Vim key bindings
+translation=Vim-hurtigtaster
+
+[heading.settings/Files and links]
+original=Files and links
+translation=Filer og lenker
+
+[heading.settings/Default location for new notes]
+original=Default location for new notes
+translation=Standard plassering av nytt notat
+
+[heading.settings/Default location for new attachments]
+original=Default location for new attachments
+translation=Standard plassering for nye vedlegg
+
+[heading.settings/Links]
+original=Links
+translation=Lenker
+
+[heading.settings/New link format]
+original=New link format
+translation=Format på nye lenker
+
+[heading.settings/Automatically update internal links]
+original=Automatically update internal links
+translation=Alltid oppdater lenker
+
+[heading.settings/Use Wikilinks]
+original=Use Wikilinks
+translation=Bruk wiki-lenker
+
+[heading.settings/Show all file types]
+original=Show all file types
+translation=Vis alle filtyper
+
+[heading.settings/Trash]
+original=Trash
+translation=Papirkurv
+
+[heading.settings/Confirm file deletion]
+original=Confirm file deletion
+translation=Bekreft filsletting
+
+[heading.settings/Deleted files]
+original=Deleted files
+translation=Slettede filer
+
+[heading.settings/Excluded files]
+original=Excluded files
+translation=Ekskluderte filer
+
+[heading.settings/Override config folder]
+original=Override config folder
+translation=Overstyr konfigurasjonsmappe
+
+[heading.settings/Allow URI callbacks]
+original=Allow URI callbacks
+translation=Tillat URI-callbacker
+
+[heading.settings/Rebuild vault cache]
+original=Rebuild vault cache
+translation=Bygg hvelvbuffer på nytt
+
+[heading.settings/Appearance]
+original=Appearance
+translation=Utseende
+
+[heading.settings/Base color scheme]
+original=Base color scheme
+translation=Base theme
+
+[heading.settings/Accent color]
+original=Accent color
+translation=Aksentfarge
+
+[heading.settings/Themes]
+original=Themes
+translation=Temaer
+
+[heading.settings/Current community themes]
+original=Current community themes
+translation=Nåværende community-temaer
+
+[heading.settings/Font]
+original=Font
+translation=Skrifttype
+
+[heading.settings/Interface font]
+original=Interface font
+translation=Skrifttype for grensesnitt
+
+[heading.settings/Text font]
+original=Text font
+translation=Tekstskrift
+
+[heading.settings/Monospace font]
+original=Monospace font
+translation=Fastbredde-skrift
+
+[heading.settings/Font size]
+original=Font size
+translation=Skriftstørrelse
+
+[heading.settings/Quick font size adjustment]
+original=Quick font size adjustment
+translation=Rask justering av skriftstørrelse
+
+[heading.settings/Interface]
+original=Interface
+translation=Grensesnitt
+
+[heading.settings/Show inline title]
+original=Show inline title
+translation=Innebygd tittel
+
+[heading.settings/Show tab title bar]
+original=Show tab title bar
+translation=Vis tittellinje for fane
+
+[heading.settings/Show ribbon]
+original=Show ribbon
+translation=Vis verktøylinje
+
+[heading.settings/Ribbon menu configuration]
+original=Ribbon menu configuration
+translation=Ribbon menu
+
+[heading.settings/Zoom level]
+original=Zoom level
+translation=Zoomnivå
+
+[heading.settings/Native menus]
+original=Native menus
+translation=Native menyer
+
+[heading.settings/Window frame style]
+original=Window frame style
+translation=Vindusrammestil
+
+[heading.settings/Custom app icon]
+original=Custom app icon
+translation=Tilpasset app-ikon
+
+[heading.settings/Translucent window]
+original=Translucent window
+translation=Gjennomsiktig vindu
+
+[heading.settings/Hardware acceleration]
+original=Hardware acceleration
+translation=Hardware Acceleration
+
+[heading.settings/CSS snippets]
+original=CSS snippets
+translation=CSS-utdrag
+
+[heading.settings/Hotkeys]
+original=Hotkeys
+translation=Hurtigtaster
+
+[heading.settings/Core plugins]
+original=Core plugins
+translation=Kjerneutvidelser
+
+[heading.settings/Community plugins]
+original=Community plugins
+translation=Community-utvidelser
+
+[heading.settings/Restricted mode]
+original=Restricted mode
+translation=Begrenset modus
+
+[heading.settings/Current plugins]
+original=Current plugins
+translation=Gjeldende tillegg
+
+[heading.settings/Installed plugins]
+original=Installed plugins
+translation=Installerte tillegg
+
+[heading.pop-out-windows/Open a file in a new window]
+original=Open a file in a new window
+translation=Åpne en fil i et nytt vindu
+
+[heading.pop-out-windows/Move a file to a different window]
+original=Move a file to a different window
+translation=Flytt en fil til et annet vindu
+
+[heading.sidebar/Open hidden sidebars]
+original=Open hidden sidebars
+translation=Åpne skjulte sidefelt
+
+[heading.sidebar/Desktop and larger tablets]
+original=Desktop and larger tablets
+translation=Skrivebord og større nettbrett
+
+[heading.sidebar/Mobile and smaller tablets]
+original=Mobile and smaller tablets
+translation=Mobil og mindre nettbrett
+
+[heading.sidebar/Tabs]
+original=Tabs
+translation=Faner
+
+[heading.sidebar/Open or reopen tabs]
+original=Open or reopen tabs
+translation=Åpne eller gjenåpne faner
+
+[heading.sidebar/Close tabs]
+original=Close tabs
+translation=Lukke faner
+
+[heading.sidebar/Rearrange tabs]
+original=Rearrange tabs
+translation=Omorganisere faner
+
+[heading.sidebar/Pin tabs]
+original=Pin tabs
+translation=Feste faner
+
+[heading.sidebar/Tab groups]
+original=Tab groups
+translation=Fanegrupper
+
+[heading.sidebar/Create tab groups]
+original=Create tab groups
+translation=Opprette fanegrupper
+
+[heading.sidebar/Close tab groups]
+original=Close tab groups
+translation=Lukke fanegrupper
