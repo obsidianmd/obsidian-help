@@ -1,0 +1,643 @@
+[heading.links/Supported formats for internal links]
+original=Supported formats for internal links
+translation=Podporované formáty interních odkazů
+
+[heading.links/Link to a file]
+original=Link to a file
+translation=Odkaz na soubor
+
+[heading.links/Link to a heading in a note]
+original=Link to a heading in a note
+translation=Odkaz na nadpis v poznámce
+
+[heading.links/Link to a block in a note]
+original=Link to a block in a note
+translation=Odkaz na blok v poznámce
+
+[heading.links/Change the link display text]
+original=Change the link display text
+translation=Změna zobrazovaného textu odkazu
+
+[heading.links/Preview a linked file]
+original=Preview a linked file
+translation=Náhled odkazovaného souboru
+
+[heading.embeds/Embed a note in another note]
+original=Embed a note in another note
+translation=Vložení poznámky do jiné poznámky
+
+[heading.embeds/Embed an image in a note]
+original=Embed an image in a note
+translation=Vložení obrázku do poznámky
+
+[heading.embeds/Embed an audio file in a note]
+original=Embed an audio file in a note
+translation=Vložení zvukového souboru do poznámky
+
+[heading.embeds/Embed a PDF in a note]
+original=Embed a PDF in a note
+translation=Vložení PDF do poznámky
+
+[heading.embeds/Embed a list in a note]
+original=Embed a list in a note
+translation=Vložení seznamu do poznámky
+
+[heading.embeds/Embed search results]
+original=Embed search results
+translation=Vložení výsledků vyhledávání
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=Terminologie a gramatika
+
+[heading.style-guide/Language style]
+original=Language style
+translation=Jazykový styl
+
+[heading.style-guide/Terms]
+original=Terms
+translation=Termíny
+
+[heading.style-guide/Product names]
+original=Product names
+translation=Názvy produktů
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=Uživatelské rozhraní a interakce
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=Poznámky, soubory a složky
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=Referenční dokumentace pro nastavení
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=Směrové termíny
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=Instrukce
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=Velká a malá písmena ve větách
+
+[heading.style-guide/Examples]
+original=Examples
+translation=Příklady
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=Názvy kláves a klávesové zkratky
+
+[heading.style-guide/Images]
+original=Images
+translation=Obrázky
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=Struktura informací
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=Typy zvýrazněných bloků
+
+[heading.style-guide/Lists vs. prose]
+original=Lists vs. prose
+translation=Seznamy vs. souvislý text
+
+[heading.style-guide/Tables]
+original=Tables
+translation=Tabulky
+
+[heading.style-guide/Cross-references]
+original=Cross-references
+translation=Křížové odkazy
+
+[heading.style-guide/Platform-specific content]
+original=Platform-specific content
+translation=Obsah specifický pro platformu
+
+[heading.style-guide/Icons and images]
+original=Icons and images
+translation=Ikony a obrázky
+
+[heading.style-guide/Icons]
+original=Icons
+translation=Ikony
+
+[heading.style-guide/Image anchor tags]
+original=Image anchor tags
+translation=Kotvící značky obrázků
+
+[heading.style-guide/Optimization]
+original=Optimization
+translation=Optimalizace
+
+[heading.style-guide/Layout]
+original=Layout
+translation=Rozvržení
+
+[heading.style-guide/Broken links]
+original=Broken links
+translation=Nefunkční odkazy
+
+[heading.style-guide/Descriptions]
+original=Descriptions
+translation=Popisy
+
+[heading.style-guide/Directions]
+original=Directions
+translation=Směry
+
+[heading.style-guide/Translations]
+original=Translations
+translation=Překlady
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=Pluginy a motivy
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=Open source projekty
+
+[heading.developers/Documentation]
+original=Documentation
+translation=Dokumentace
+
+[heading.developers/Community]
+original=Community
+translation=Komunita
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=Omezený režim
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=Schopnosti pluginů
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=Proces kontroly pluginů
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=Přidání úryvku
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=Psaní CSS pro Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=Zjistit více
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=Procházení komunitních pluginů
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=Instalace komunitního pluginu
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=Zapnutí komunitního pluginu
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=Aktualizace pluginů
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=Odinstalace komunitního pluginu
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=Správa nainstalovaných pluginů
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=Zjistit více
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=Procházení motivů
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=Instalace nového motivu
+
+[heading.themes/Update themes]
+original=Update themes
+translation=Aktualizace motivů
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=Odinstalace existujícího motivu
+
+[heading.themes/Learn more]
+original=Learn more
+translation=Zjistit více
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Instalace Obsidian CLI
+
+[heading.cli/Get started]
+original=Get started
+translation=Začínáme
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Spuštění příkazu
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=Použití terminálového rozhraní
+
+[heading.cli/Examples]
+original=Examples
+translation=Příklady
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Každodenní použití
+
+[heading.cli/For developers]
+original=For developers
+translation=Pro vývojáře
+
+[heading.cli/How to]
+original=How to
+translation=Jak na to
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Použití parametrů a příznaků
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Zacílení na trezor
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Zacílení na soubor
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Kopírování výstupu
+
+[heading.cli/General commands]
+original=General commands
+translation=Obecné příkazy
+
+[heading.cli/Bases]
+original=Bases
+translation=Základny
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Záložky
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Paleta příkazů
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Každodenní poznámky
+
+[heading.cli/File history]
+original=File history
+translation=Historie souborů
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Soubory a složky
+
+[heading.cli/Links]
+original=Links
+translation=Odkazy
+
+[heading.cli/Outline]
+original=Outline
+translation=Osnova
+
+[heading.cli/Plugins]
+original=Plugins
+translation=Pluginy
+
+[heading.cli/Properties]
+original=Properties
+translation=Vlastnosti
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Náhodné poznámky
+
+[heading.cli/Search]
+original=Search
+translation=Hledání
+
+[heading.cli/Tags]
+original=Tags
+translation=Štítky
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Úkoly
+
+[heading.cli/Templates]
+original=Templates
+translation=Šablony
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Motivy a úryvky
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Jedinečné poznámky
+
+[heading.cli/Vault]
+original=Vault
+translation=Trezor
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Webový prohlížeč
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Počet slov
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Pracovní prostor
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Příkazy pro vývojáře
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Klávesové zkratky
+
+[heading.cli/Navigation]
+original=Navigation
+translation=Navigace
+
+[heading.cli/Editing]
+original=Editing
+translation=Úpravy
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Automatické doplňování
+
+[heading.cli/History]
+original=History
+translation=Historie
+
+[heading.cli/Other]
+original=Other
+translation=Ostatní
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Řešení problémů
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Alternativní shelly
+
+[heading.headless/Install]
+original=Install
+translation=Instalace
+
+[heading.headless/Authentication]
+original=Authentication
+translation=Ověření
+
+[heading.headless/Log in]
+original=Log in
+translation=Přihlášení
+
+[heading.headless/Services]
+original=Services
+translation=Služby
+
+[heading.uri/URI format]
+original=URI format
+translation=Formát URI
+
+[heading.uri/Open note]
+original=Open note
+translation=Otevření poznámky
+
+[heading.uri/Examples]
+original=Examples
+translation=Příklady
+
+[heading.uri/Parameters]
+original=Parameters
+translation=Parametry
+
+[heading.uri/Create note]
+original=Create note
+translation=Vytvoření poznámky
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=Vytvoření nebo otevření denní poznámky
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=Jedinečná poznámka
+
+[heading.uri/Open search]
+original=Open search
+translation=Otevření vyhledávání
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=Otevření správce trezorů
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Integrace s Hook
+
+[heading.uri/Example]
+original=Example
+translation=Příklad
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=Použití parametrů x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=Zkrácené formáty
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=Řešení problémů
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Registrace Obsidian URI
+
+[heading.data-storage/Vault settings]
+original=Vault settings
+translation=Nastavení trezoru
+
+[heading.data-storage/Global settings]
+original=Global settings
+translation=Globální nastavení
+
+[heading.data-storage/Metadata cache]
+original=Metadata cache
+translation=Mezipaměť metadat
+
+[heading.configuration-folder/Access your configuration folder]
+original=Access your configuration folder
+translation=Přístup ke konfigurační složce
+
+[heading.configuration-folder/Desktop]
+original=Desktop
+translation=Počítač
+
+[heading.configuration-folder/Mobile]
+original=Mobile
+translation=Mobilní zařízení
+
+[heading.configuration-folder/Change your configuration folder]
+original=Change your configuration folder
+translation=Změna konfigurační složky
+
+[heading.file-formats/Embed files]
+original=Embed files
+translation=Vkládání souborů
+
+[heading.manage-vaults/Create new vault]
+original=Create new vault
+translation=Vytvoření nového trezoru
+
+[heading.manage-vaults/Create vault from an existing folder]
+original=Create vault from an existing folder
+translation=Vytvoření trezoru z existující složky
+
+[heading.manage-vaults/Rename vault]
+original=Rename vault
+translation=Přejmenování trezoru
+
+[heading.manage-vaults/Move vault to a different folder]
+original=Move vault to a different folder
+translation=Přesunutí trezoru do jiné složky
+
+[heading.manage-vaults/Remove vault]
+original=Remove vault
+translation=Odstranění trezoru
+
+[heading.manage-vaults/Transfer settings to another vault]
+original=Transfer settings to another vault
+translation=Přenesení nastavení do jiného trezoru
+
+[heading.manage-notes/Create a new note]
+original=Create a new note
+translation=Vytvoření nové poznámky
+
+[heading.manage-notes/Rename a note]
+original=Rename a note
+translation=Přejmenování poznámky
+
+[heading.manage-notes/Delete a note]
+original=Delete a note
+translation=Smazání poznámky
+
+[heading.teams/security/Considerations]
+original=Considerations
+translation=Aspekty k zvážení
+
+[heading.teams/security/Community plugins and themes]
+original=Community plugins and themes
+translation=Komunitní pluginy a motivy
+
+[heading.teams/security/Network and access]
+original=Network and access
+translation=Síť a přístup
+
+[heading.teams/security/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=Připojení ze zdrojů Obsidian
+
+[heading.teams/security/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=Připojení ze zdrojů GitHub
+
+[heading.teams/security/Other connections]
+original=Other connections
+translation=Další připojení
+
+[heading.teams/security/Frequently asked questions]
+original=Frequently asked questions
+translation=Často kladené otázky
+
+[heading.teams/security/Account security]
+original=Account security
+translation=Zabezpečení účtu
+
+[heading.teams/security/Assessments and certifications]
+original=Assessments and certifications
+translation=Posouzení a certifikace
+
+[heading.teams/license/Purchase a commercial license]
+original=Purchase a commercial license
+translation=Zakoupení komerční licence
+
+[heading.teams/license/Apply a commercial license]
+original=Apply a commercial license
+translation=Aplikování komerční licence
+
+[heading.teams/license/Supporting organizations]
+original=Supporting organizations
+translation=Podporující organizace
+
+[heading.teams/license/Frequently asked questions]
+original=Frequently asked questions
+translation=Často kladené otázky
+
+[heading.teams/deploy/Install and update Obsidian]
+original=Install and update Obsidian
+translation=Instalace a aktualizace Obsidian
+
+[heading.teams/deploy/Customizing Obsidian]
+original=Customizing Obsidian
+translation=Přizpůsobení Obsidian
+
+[heading.teams/deploy/Configuration folders]
+original=Configuration folders
+translation=Konfigurační složky
+
+[heading.teams/deploy/Plugins]
+original=Plugins
+translation=Pluginy
+
+[heading.teams/deploy/Themes and snippets]
+original=Themes and snippets
+translation=Motivy a úryvky
+
+[heading.teams/deploy/Frequently asked questions]
+original=Frequently asked questions
+translation=Často kladené otázky
+
+[heading.teams/deploy/Deployment]
+original=Deployment
+translation=Nasazení

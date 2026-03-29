@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=Domů
+
+[file.2fa]
+original=2-factor authentication
+translation=Dvoufaktorové ověření
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Rozšířená syntaxe formátování
+
+[file.aliases]
+original=Aliases
+translation=Aliasy
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian pro Android
+
+[file.appearance]
+original=Appearance
+translation=Vzhled
+
+[file.attachments]
+original=Attachments
+translation=Přílohy
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Zálohování souborů Obsidian
+
+[file.bases]
+original=Introduction to Bases
+translation=Úvod do Základen
+
+[file.bases/create-base]
+original=Create a base
+translation=Vytvoření základny
+
+[file.bases/functions]
+original=Functions
+translation=Funkce
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Syntaxe Základen
+
+[file.bases/views]
+original=Views
+translation=Zobrazení
+
+[file.bases/views/cards]
+original=Cards view
+translation=Zobrazení Karty
+
+[file.bases/views/list]
+original=List view
+translation=Zobrazení Seznam
+
+[file.bases/views/map]
+original=Map view
+translation=Zobrazení Mapa
+
+[file.bases/views/table]
+original=Table view
+translation=Zobrazení Tabulka
+
+[file.callouts]
+original=Callouts
+translation=Zvýrazněné bloky
+
+[file.catalyst]
+original=Catalyst license
+translation=Catalyst licence
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Kodex chování komunity
+
+[file.community-plugins]
+original=Community plugins
+translation=Komunitní pluginy
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Konfigurační složka
+
+[file.create-note]
+original=Create your first note
+translation=Vytvoření první poznámky
+
+[file.credit]
+original=Obsidian Credit
+translation=Obsidian kredit
+
+[file.credits]
+original=Credits
+translation=Zásluhy
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Jak Obsidian ukládá data
+
+[file.developers]
+original=Developers
+translation=Vývojáři
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Slevy pro vzdělávání a neziskové organizace
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Přetažení
+
+[file.early-access]
+original=Early access versions
+translation=Verze s předběžným přístupem
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Zobrazení a režim úprav
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Klávesové zkratky pro úpravy
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Vkládání webových stránek
+
+[file.embeds]
+original=Embed files
+translation=Vkládání souborů
+
+[file.file-formats]
+original=Accepted file formats
+translation=Podporované formáty souborů
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Finanční příspěvky
+
+[file.folding]
+original=Folding
+translation=Sbalování
+
+[file.formulas]
+original=Formulas
+translation=Vzorce
+
+[file.glossary]
+original=Glossary
+translation=Slovníček pojmů
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Klávesové zkratky
+
+[file.html]
+original=HTML content
+translation=HTML obsah
+
+[file.import]
+original=Import notes
+translation=Importovat poznámky
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Importovat z Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Importovat z Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=Importovat z Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=Importovat z Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=Importovat soubory CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Importovat z Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Importovat z Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=Importovat soubory HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Importovat soubory Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=Importovat z Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Importovat z Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Importovat z Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Importovat soubory Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Importovat poznámky Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=Stažení a instalace Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian pro iOS a iPadOS
+
+[file.language]
+original=Language settings
+translation=Nastavení jazyka
+
+[file.link-notes]
+original=Link notes
+translation=Propojení poznámek
+
+[file.links]
+original=Internal links
+translation=Interní odkazy
+
+[file.manage-notes]
+original=Manage notes
+translation=Správa poznámek
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Spravovat trezory
+
+[file.mobile]
+original=Mobile app
+translation=Mobilní aplikace
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Více kurzorů
+
+[file.obsidian]
+original=About Obsidian
+translation=O aplikaci Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Oficiální webové stránky
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Úvod do licencí a plateb
+
+[file.plugin-security]
+original=Plugin security
+translation=Bezpečnost pluginů
+
+[file.plugins]
+original=Core plugins
+translation=Základní pluginy
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Diktafon
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Zpětné odkazy
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Záložky
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Paleta příkazů
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Každodenní poznámky
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Průzkumník souborů
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Obnovení souborů
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Importér Markdown formátu
+
+[file.plugins/graph]
+original=Graph view
+translation=Graf
+
+[file.plugins/importer]
+original=Importer
+translation=Importér
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Kompozitor poznámek
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Odchozí odkazy
+
+[file.plugins/outline]
+original=Outline
+translation=Přehled
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Náhled poznámky
+
+[file.plugins/properties]
+original=Properties view
+translation=Zobrazení vlastností
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Rychlé přepínání
+
+[file.plugins/random-note]
+original=Random note
+translation=Náhodná poznámka
+
+[file.plugins/search]
+original=Search
+translation=Hledat
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Příkazy se lomítkem
+
+[file.plugins/slides]
+original=Slides
+translation=Snímky
+
+[file.plugins/tags]
+original=Tags view
+translation=Panel tagů
+
+[file.plugins/templates]
+original=Templates
+translation=Šablony
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Tvůrce jedinečných poznámek
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Webový prohlížeč
+
+[file.plugins/word-count]
+original=Word count
+translation=Počet slov
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Pracovní prostory
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Vyskakovací okna
+
+[file.properties]
+original=Properties
+translation=Vlastnosti
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Úvod do Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=Analytika
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Spolupráce na Publish stránce
+
+[file.publish/customize]
+original=Customize your site
+translation=Přizpůsobení stránky
+
+[file.publish/domains]
+original=Custom domains
+translation=Vlastní domény
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Omezení Publish
+
+[file.publish/media]
+original=Media files
+translation=Mediální soubory
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Trvalé odkazy
+
+[file.publish/publish]
+original=Publish your content
+translation=Publikování obsahu
+
+[file.publish/security]
+original=Security and privacy
+translation=Zabezpečení a soukromí
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Nastavení Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=Správa stránek
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Náhledy odkazů na sociálních sítích
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Řešení problémů s Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=Zásady vracení peněz
+
+[file.resources]
+original=Help and support
+translation=Nápověda a podpora
+
+[file.ribbon]
+original=Ribbon
+translation=Postranní panel nástrojů
+
+[file.sales-tax]
+original=Sales tax
+translation=Daň z prodeje
+
+[file.sandbox]
+original=Sandbox vault
+translation=Trezor pískoviště
+
+[file.settings]
+original=Settings
+translation=Nastavení
+
+[file.sidebar]
+original=Sidebar
+translation=Postranní panel
+
+[file.snippets]
+original=CSS snippets
+translation=CSS úryvky
+
+[file.status-bar]
+original=Status bar
+translation=Stavový řádek
+
+[file.style-guide]
+original=Style guide
+translation=Průvodce stylem
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Symbolické odkazy a spojení
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Úvod do Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Synchronizace poznámek mezi zařízeními
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Spolupráce na sdíleném trezoru
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Často kladené otázky
+
+[file.sync/headless]
+original=Headless Sync
+translation=Bezobslužný Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Stavová ikona a zprávy
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Upgradovat šifrování Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Plány a limity úložiště
+
+[file.sync/region]
+original=Sync regions
+translation=Oblasti Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=Zabezpečení a soukromí
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Nastavení Sync a selektivní synchronizace
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Nastavení Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Přechod na Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Řešení problémů s Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Místní a vzdálené trezory
+
+[file.sync/version-history]
+original=Version history
+translation=Historie verzí
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Základní syntaxe formátování
+
+[file.tabs]
+original=Tabs
+translation=Karty
+
+[file.tags]
+original=Tags
+translation=Tagy
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian pro týmy
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Nasazení Obsidian pro váš tým
+
+[file.teams/license]
+original=Commercial license
+translation=Komerční licence
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publikování pro týmy
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Bezpečnostní aspekty pro týmy
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Synchronizace pro týmy
+
+[file.themes]
+original=Themes
+translation=Motivy
+
+[file.translations]
+original=Translations
+translation=Překlady
+
+[file.updates]
+original=Update Obsidian
+translation=Aktualizace Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Vytvořit trezor
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Úvod do Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Oříznutí webových stránek
+
+[file.web-clipper/filters]
+original=Filters
+translation=Filtry
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Zvýraznění webových stránek
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Interpretovat webové stránky
+
+[file.web-clipper/logic]
+original=Logic
+translation=Logika
+
+[file.web-clipper/reader]
+original=Reader
+translation=Čtečka
+
+[file.web-clipper/templates]
+original=Templates
+translation=Šablony
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Řešení problémů s Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=Proměnné
+
+[file.workspace]
+original=Workspace
+translation=Pracovní prostor
+
+[folder.audio]
+original=audio
+translation=audio
+
+[folder.Changelog]
+original=Changelog
+translation=Seznam změn
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Přispívání do Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Úpravy a formátování
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Rozšíření Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=Soubory a složky
+
+[folder.Getting started]
+original=Getting started
+translation=Začínáme
+
+[folder.icons]
+original=icons
+translation=ikony
+
+[folder.Import notes]
+original=Import notes
+translation=Importovat poznámky
+
+[folder.Layouts]
+original=Layouts
+translation=Rozvržení
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Licence a platby
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Propojování poznámek a souborů
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Pluginy
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Uživatelské rozhraní
+
+[folder.video]
+original=video
+translation=video
