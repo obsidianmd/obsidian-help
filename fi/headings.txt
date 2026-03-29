@@ -1,0 +1,651 @@
+[heading.sync/troubleshoot/General]
+original=General
+translation=Yleiset
+
+[heading.sync/troubleshoot/Conflict resolution]
+original=Conflict resolution
+translation=Ristiriitojen ratkaiseminen
+
+[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Miten Obsidian Sync käsittelee ristiriitoja
+
+[heading.sync/troubleshoot/Conflict resolution options]
+original=Conflict resolution options
+translation=Ristiriitojen ratkaisuvaihtoehdot
+
+[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync poisti muistiinpanon, jonka juuri loin kahdella laitteella
+
+[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync ei synkronoi lisäosien ja asetusten päivityksiä
+
+[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=Tiedostoni katoavat jatkuvasti Syncistä heti kun palautan ne
+
+[heading.sync/vault-types/File-based sync services]
+original=File-based sync services
+translation=Tiedostopohjaiset synkronointipalvelut
+
+[heading.sync/vault-types/Sync behavior]
+original=Sync behavior
+translation=Synkronoinnin toiminta
+
+[heading.sync/vault-types/Offline behavior]
+original=Offline behavior
+translation=Toiminta ilman verkkoyhteyttä
+
+[heading.sync/vault-types/Next steps]
+original=Next steps
+translation=Seuraavat vaiheet
+
+[heading.sync/migrate/Encryption versions]
+original=Encryption versions
+translation=Salausversiot
+
+[heading.sync/migrate/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=Päivitä salaus uudennusavustajalla
+
+[heading.sync/switch/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=Siirrä holvi pois ulkoisesta synkronointipalvelusta tai pilvitallennuksesta
+
+[heading.sync/switch/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=Siirrä holvi Obsidianin työpöytäversiolla
+
+[heading.sync/switch/Move your vault on mobile]
+original=Move your vault on mobile
+translation=Siirrä holvi mobiililaitteella
+
+[heading.sync/switch/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS ja iPadOS
+
+[heading.sync/switch/Next steps]
+original=Next steps
+translation=Seuraavat vaiheet
+
+[heading.sync/region/Available regions]
+original=Available regions
+translation=Käytettävissä olevat alueet
+
+[heading.sync/region/Change Sync region]
+original=Change Sync region
+translation=Sync-alueen vaihtaminen
+
+[heading.sync/settings/Sync settings]
+original=Sync settings
+translation=Synkronoinnin asetukset
+
+[heading.sync/settings/Conflict resolution]
+original=Conflict resolution
+translation=Ristiriitojen ratkaiseminen
+
+[heading.sync/settings/Selective syncing]
+original=Selective syncing
+translation=Valikoiva synkronointi
+
+[heading.sync/settings/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=Synkronoitavien tiedostotyyppien muuttaminen
+
+[heading.sync/settings/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=Kansion jättäminen pois synkronoinnista
+
+[heading.sync/settings/Always excluded from sync]
+original=Always excluded from sync
+translation=Aina synkronoinnista pois jätetyt
+
+[heading.sync/settings/File recovery snapshots]
+original=File recovery snapshots
+translation=Tiedoston palautuksen tilannevedokset
+
+[heading.sync/settings/Hidden files and folders]
+original=Hidden files and folders
+translation=Piilotetut tiedostot ja kansiot
+
+[heading.sync/settings/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=Synkronoidun holvin asetusten päivittäminen
+
+[heading.sync/settings/Primary device]
+original=Primary device
+translation=Ensisijainen laite
+
+[heading.sync/settings/Secondary device(s)]
+original=Secondary device(s)
+translation=Toissijainen laite (tai laitteet)
+
+[heading.sync/settings/Reloading of settings]
+original=Reloading of settings
+translation=Asetusten uudelleenlataus
+
+[heading.sync/settings/Settings profiles]
+original=Settings profiles
+translation=Asetusprofiilit
+
+[heading.sync/settings/Create a settings profile]
+original=Create a settings profile
+translation=Asetusprofiilin luominen
+
+[heading.sync/messages/Sync status icon]
+original=Sync status icon
+translation=Syncin tilakuvake
+
+[heading.sync/messages/Sync activity log]
+original=Sync activity log
+translation=Syncin sisäinen loki
+
+[heading.sync/messages/General messages]
+original=General messages
+translation=Yleiset viestit
+
+[heading.sync/messages/Error messages]
+original=Error messages
+translation=Virheviestit
+
+[heading.sync/messages/Skipped messages]
+original=Skipped messages
+translation=Ohitetut viestit
+
+[heading.sync/messages/Account messages]
+original=Account messages
+translation=Tiliviestit
+
+[heading.sync/messages/Network messages]
+original=Network messages
+translation=Verkkoviestit
+
+[heading.sync/plans/Plans]
+original=Plans
+translation=Tilaukset
+
+[heading.sync/plans/Storage limits]
+original=Storage limits
+translation=Tallennustilan rajoitukset
+
+[heading.sync/plans/Identify and delete large files]
+original=Identify and delete large files
+translation=Suurten tiedostojen tunnistaminen ja poistaminen
+
+[heading.sync/plans/Create a new remote vault]
+original=Create a new remote vault
+translation=Uuden etäholvin luominen
+
+[heading.sync/plans/Upgrade your plan]
+original=Upgrade your plan
+translation=Tilauksen päivittäminen
+
+[heading.sync/plans/Downgrade your plan]
+original=Downgrade your plan
+translation=Tilauksen pienentäminen
+
+[heading.sync/plans/Preserve version history]
+original=Preserve version history
+translation=Versiohistorian säilyttäminen
+
+[heading.sync/security/Encryption]
+original=Encryption
+translation=Salaus
+
+[heading.sync/security/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=Mitä päästä päähän -salaus tarkoittaa?
+
+[heading.sync/security/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=Mitkä ovat tavallisen salauksen riskit?
+
+[heading.sync/security/What encryption do you use?]
+original=What encryption do you use?
+translation=Mitä salausta käytätte?
+
+[heading.sync/security/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=Voinko varmistaa, että tietoni on päästä päähän -salattu?
+
+[heading.sync/security/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=Onko Obsidian läpäissyt kolmannen osapuolen tietoturvatarkastuksen?
+
+[heading.sync/security/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=Mitä tapahtuu, jos unohdan salaussalasanani?
+
+[heading.sync/security/Hosting]
+original=Hosting
+translation=Isännöinti
+
+[heading.sync/security/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=Missä isännöitte Obsidian Syncin palvelimia?
+
+[heading.sync/security/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=Mistä löydän nykyisen Sync-palvelimeni ja missä se on isännöity?
+
+[heading.sync/security/Network and access]
+original=Network and access
+translation=Verkko ja käyttöoikeudet
+
+[heading.sync/security/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=Obsidian Syncin käyttöoikeuksien hallinta verkossasi
+
+[heading.sync/security/Limitations]
+original=Limitations
+translation=Rajoitukset
+
+[heading.sync/security/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=Deterministinen tiedostotiivisteen salaus
+
+[heading.sync/security/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=Ei kryptografista sidontaa polun ja sisällön välillä
+
+[heading.sync/faq/General]
+original=General
+translation=Yleiset
+
+[heading.sync/faq/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Mitä käyttöjärjestelmiä Obsidian Sync tukee?
+
+[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Toimiiko Obsidian Applen Lockdown-tilassa?
+
+[heading.sync/faq/What type of data is synced?]
+original=What type of data is synced?
+translation=Minkä tyyppistä tietoa synkronoidaan?
+
+[heading.sync/faq/How much storage do I have?]
+original=How much storage do I have?
+translation=Kuinka paljon tallennustilaa minulla on?
+
+[heading.sync/faq/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=Kuinka monta etäholvia voin luoda?
+
+[heading.sync/faq/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=Kuinka suuri kukin etäholvi voi olla?
+
+[heading.sync/faq/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=Kuinka monen henkilön kanssa voin jakaa etäholvin?
+
+[heading.sync/faq/How large can each file be?]
+original=How large can each file be?
+translation=Kuinka suuri kukin tiedosto voi olla?
+
+[heading.sync/faq/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=Synkronoidaanko tietojani taustalla?
+
+[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Lataako Obsidian Sync asetukset automaattisesti uudelleen?
+
+[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=Voinko käyttää ulkoista synkronointipalvelua yhdessä Obsidian Syncin kanssa?
+
+[heading.sync/faq/Data retention]
+original=Data retention
+translation=Tietojen säilyttäminen
+
+[heading.sync/faq/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=Kuinka kauan versiohistoriaa säilytetään?
+
+[heading.sync/faq/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=Kuinka kauan tietojani säilytetään tilauksen päättymisen jälkeen?
+
+[heading.sync/faq/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=Säilytättekö tietoni, jos pyydän hyvitystä tilauksestani?
+
+[heading.sync/version-history/Sync history]
+original=Sync history
+translation=Sync-historia
+
+[heading.sync/version-history/Show Sync history]
+original=Show Sync history
+translation=Näytä Sync-historia
+
+[heading.sync/version-history/Enable via Command palette]
+original=Enable via Command palette
+translation=Ota käyttöön komentovalikon kautta
+
+[heading.sync/version-history/Enable via Hotkey]
+original=Enable via Hotkey
+translation=Ota käyttöön pikanäppäimellä
+
+[heading.sync/version-history/Version history]
+original=Version history
+translation=Versiohistoria
+
+[heading.sync/version-history/Notes and attachments]
+original=Notes and attachments
+translation=Muistiinpanot ja liitteet
+
+[heading.sync/version-history/View version history of a file]
+original=View version history of a file
+translation=Tiedoston versiohistorian tarkasteleminen
+
+[heading.sync/version-history/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=Poistetun tai uudelleennimetyn tiedoston versiohistorian tarkasteleminen
+
+[heading.sync/version-history/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=Tiedoston aiemman version palauttaminen
+
+[heading.sync/version-history/Restore a deleted file]
+original=Restore a deleted file
+translation=Poistetun tiedoston palauttaminen
+
+[heading.sync/version-history/Settings history]
+original=Settings history
+translation=Asetusten historia
+
+[heading.sync/version-history/View version history of a setting]
+original=View version history of a setting
+translation=Asetuksen versiohistorian tarkasteleminen
+
+[heading.sync/version-history/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=Asetuksen aiemman version palauttaminen
+
+[heading.sync/collaborate/Manage users]
+original=Manage users
+translation=Käyttäjien hallinta
+
+[heading.sync/collaborate/Add users]
+original=Add users
+translation=Käyttäjien lisääminen
+
+[heading.sync/collaborate/Remove users]
+original=Remove users
+translation=Käyttäjien poistaminen
+
+[heading.sync/collaborate/Collaborate with your team]
+original=Collaborate with your team
+translation=Yhteistyö tiimisi kanssa
+
+[heading.sync/collaborate/Permissions]
+original=Permissions
+translation=Käyttöoikeudet
+
+[heading.sync/collaborate/Live editing]
+original=Live editing
+translation=Reaaliaikainen muokkaus
+
+[heading.sync/collaborate/Limitations]
+original=Limitations
+translation=Rajoitukset
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=Asenna Web Clipper
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=Web Clipperin käyttö
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=Yksityisyys
+
+[heading.web-clipper/logic/Conditionals]
+original=Conditionals
+translation=Ehdolliset rakenteet
+
+[heading.web-clipper/logic/Comparison operators]
+original=Comparison operators
+translation=Vertailuoperaattorit
+
+[heading.web-clipper/logic/Logical operators]
+original=Logical operators
+translation=Loogiset operaattorit
+
+[heading.web-clipper/logic/Truthiness]
+original=Truthiness
+translation=Totuusarvon tulkinta
+
+[heading.web-clipper/logic/Assign a variable]
+original=Assign a variable
+translation=Muuttujan määrittäminen
+
+[heading.web-clipper/logic/Fallbacks]
+original=Fallbacks
+translation=Varavaihtoehdot
+
+[heading.web-clipper/logic/Chaining fallbacks]
+original=Chaining fallbacks
+translation=Varavaihtoehtojen ketjuttaminen
+
+[heading.web-clipper/logic/With filters]
+original=With filters
+translation=Suodattimien kanssa
+
+[heading.web-clipper/logic/Loops]
+original=Loops
+translation=Silmukat
+
+[heading.web-clipper/logic/Loop sources]
+original=Loop sources
+translation=Silmukoiden lähteet
+
+[heading.web-clipper/logic/Loop variables]
+original=Loop variables
+translation=Silmukkamuuttujat
+
+[heading.web-clipper/logic/Accessing array items by index]
+original=Accessing array items by index
+translation=Taulukon kohteiden käyttö indeksillä
+
+[heading.web-clipper/logic/Nested loops]
+original=Nested loops
+translation=Sisäkkäiset silmukat
+
+[heading.web-clipper/logic/Combine logic]
+original=Combine logic
+translation=Logiikan yhdistäminen
+
+[heading.web-clipper/logic/Evaluation order]
+original=Evaluation order
+translation=Suoritusjärjestys
+
+[heading.web-clipper/reader/Activate reading mode]
+original=Activate reading mode
+translation=Lukutilan aktivointi
+
+[heading.web-clipper/reader/How it works]
+original=How it works
+translation=Miten se toimii
+
+[heading.web-clipper/reader/Customize the reading view]
+original=Customize the reading view
+translation=Lukunäkymän mukauttaminen
+
+[heading.web-clipper/templates/Create or edit a template]
+original=Create or edit a template
+translation=Mallin luominen tai muokkaaminen
+
+[heading.web-clipper/templates/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=Web Clipper -mallien tuonti ja vienti
+
+[heading.web-clipper/templates/Template settings]
+original=Template settings
+translation=Malliasetukset
+
+[heading.web-clipper/templates/Behavior]
+original=Behavior
+translation=Toiminnot
+
+[heading.web-clipper/templates/Automatically trigger a template]
+original=Automatically trigger a template
+translation=Mallin automaattinen laukaisu
+
+[heading.web-clipper/templates/Simple URL matching]
+original=Simple URL matching
+translation=Yksinkertainen URL-täsmäytys
+
+[heading.web-clipper/templates/Regular expression matching]
+original=Regular expression matching
+translation=Säännölliseen lausekkeeseen perustuva täsmäytys
+
+[heading.web-clipper/templates/Schema.org matching]
+original=Schema.org matching
+translation=Schema.org-täsmäytys
+
+[heading.web-clipper/templates/Interpreter context]
+original=Interpreter context
+translation=Tulkkauksen konteksti
+
+[heading.web-clipper/variables/Preset variables]
+original=Preset variables
+translation=Esiasetetut muuttujat
+
+[heading.web-clipper/variables/Prompt variables]
+original=Prompt variables
+translation=Kehoitemuuttujat
+
+[heading.web-clipper/variables/When to use prompt variables]
+original=When to use prompt variables
+translation=Milloin kehoitemuuttujia kannattaa käyttää
+
+[heading.web-clipper/variables/Examples]
+original=Examples
+translation=Esimerkit
+
+[heading.web-clipper/variables/Meta variables]
+original=Meta variables
+translation=Meta-muuttujat
+
+[heading.web-clipper/variables/Selector variables]
+original=Selector variables
+translation=Valitsinmuuttujat
+
+[heading.web-clipper/variables/Schema.org variables]
+original=Schema.org variables
+translation=Schema.org-muuttujat
+
+[heading.web-clipper/filters/Dates]
+original=Dates
+translation=Päivämäärät
+
+[heading.web-clipper/filters/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=Tekstin muunnos ja kirjainkoko
+
+[heading.web-clipper/filters/Text formatting]
+original=Text formatting
+translation=Tekstin muotoilu
+
+[heading.web-clipper/filters/Numbers]
+original=Numbers
+translation=Numerot
+
+[heading.web-clipper/filters/HTML processing]
+original=HTML processing
+translation=HTML-käsittely
+
+[heading.web-clipper/filters/Arrays and objects]
+original=Arrays and objects
+translation=Taulukot ja objektit
+
+[heading.web-clipper/highlight/Turn on highlighter]
+original=Turn on highlighter
+translation=Korostustyökalun käyttöönotto
+
+[heading.web-clipper/highlight/Highlighter settings]
+original=Highlighter settings
+translation=Korostustyökalun asetukset
+
+[heading.web-clipper/capture/Capture a page]
+original=Capture a page
+translation=Sivun kaappaaminen
+
+[heading.web-clipper/capture/Download images]
+original=Download images
+translation=Kuvien lataaminen
+
+[heading.web-clipper/capture/Hotkeys]
+original=Hotkeys
+translation=Pikanäppäimet
+
+[heading.web-clipper/capture/Interface functionality]
+original=Interface functionality
+translation=Käyttöliittymän toiminnot
+
+[heading.web-clipper/interpreter/Examples of prompts]
+original=Examples of prompts
+translation=Esimerkkejä kehotteista
+
+[heading.web-clipper/interpreter/Get started]
+original=Get started
+translation=Aloittaminen
+
+[heading.web-clipper/interpreter/How it works]
+original=How it works
+translation=Miten se toimii
+
+[heading.web-clipper/interpreter/Context]
+original=Context
+translation=Konteksti
+
+[heading.web-clipper/interpreter/Models]
+original=Models
+translation=Mallit
+
+[heading.web-clipper/interpreter/Preset providers]
+original=Preset providers
+translation=Esiasetettavat tarjoajat
+
+[heading.web-clipper/interpreter/Choosing a model]
+original=Choosing a model
+translation=Mallin valitseminen
+
+[heading.web-clipper/interpreter/Custom providers and models]
+original=Custom providers and models
+translation=Mukautetut tarjoajat ja mallit
+
+[heading.web-clipper/interpreter/Local models]
+original=Local models
+translation=Paikalliset mallit
+
+[heading.web-clipper/troubleshoot/General]
+original=General
+translation=Yleistä
+
+[heading.web-clipper/troubleshoot/Some content is missing]
+original=Some content is missing
+translation=Osa sisällöstä puuttuu
+
+[heading.web-clipper/troubleshoot/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=Obsidianiin ei ilmesty sisältöä
+
+[heading.web-clipper/troubleshoot/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian ei avaudu
+
+[heading.web-clipper/troubleshoot/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian avautuu, mutta vain tiedostonimi tallentuu
+
+[heading.web-clipper/troubleshoot/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS ja iPadOS

@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=Etusivu
+
+[file.2fa]
+original=2-factor authentication
+translation=Kaksivaiheinen todennus
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Muotoilun lisäsyntaksi
+
+[file.aliases]
+original=Aliases
+translation=Aliakset
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian Androidille
+
+[file.appearance]
+original=Appearance
+translation=Ulkoasu
+
+[file.attachments]
+original=Attachments
+translation=Liitteet
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Varmuuskopioi Obsidian-tiedostosi
+
+[file.bases]
+original=Introduction to Bases
+translation=Johdanto kantoihin
+
+[file.bases/create-base]
+original=Create a base
+translation=Luo kanta
+
+[file.bases/functions]
+original=Functions
+translation=Funktiot
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Kantojen syntaksi
+
+[file.bases/views]
+original=Views
+translation=Näkymät
+
+[file.bases/views/cards]
+original=Cards view
+translation=Korttinäkymä
+
+[file.bases/views/list]
+original=List view
+translation=Luettelonäkymä
+
+[file.bases/views/map]
+original=Map view
+translation=Karttanäkymä
+
+[file.bases/views/table]
+original=Table view
+translation=Taulukkonäkymä
+
+[file.callouts]
+original=Callouts
+translation=Nostolaatikot
+
+[file.catalyst]
+original=Catalyst license
+translation=Catalyst-lisenssi
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Yhteisön käyttäytymissäännöt
+
+[file.community-plugins]
+original=Community plugins
+translation=Yhteisön lisäosat
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Asetuskansio
+
+[file.create-note]
+original=Create your first note
+translation=Luo ensimmäinen muistiinpanosi
+
+[file.credit]
+original=Obsidian Credit
+translation=Obsidian-saldo
+
+[file.credits]
+original=Credits
+translation=Tekijät
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Miten Obsidian tallentaa tietoja
+
+[file.developers]
+original=Developers
+translation=Kehittäjät
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Koulutus- ja voittoa tavoittelemattomien alennus
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Vedä ja pudota
+
+[file.early-access]
+original=Early access versions
+translation=Ennakkojulkaisuversiot
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Näkymät ja muokkaustila
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Muokkauksen pikanäppäimet
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Verkkosivujen upottaminen
+
+[file.embeds]
+original=Embed files
+translation=Upota tiedostoja
+
+[file.file-formats]
+original=Accepted file formats
+translation=Hyväksytyt tiedostomuodot
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Taloudelliset lahjoitukset
+
+[file.folding]
+original=Folding
+translation=Kutistus
+
+[file.formulas]
+original=Formulas
+translation=Kaavat
+
+[file.glossary]
+original=Glossary
+translation=Sanasto
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Pikanäppäimet
+
+[file.html]
+original=HTML content
+translation=HTML-sisältö
+
+[file.import]
+original=Import notes
+translation=Tuo muistiinpanoja
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Tuo Apple Journalista
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Tuo Apple Notesista
+
+[file.import/bear]
+original=Import from Bear
+translation=Tuo Bearista
+
+[file.import/craft]
+original=Import from Craft
+translation=Tuo Craftista
+
+[file.import/csv]
+original=Import CSV files
+translation=Tuo CSV-tiedostoja
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Tuo Evernotesta
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Tuo Google Keepistä
+
+[file.import/html]
+original=Import HTML files
+translation=Tuo HTML-tiedostoja
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Tuo Markdown-tiedostoja
+
+[file.import/notion]
+original=Import from Notion
+translation=Tuo Notionista
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Tuo Microsoft OneNotesta
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Tuo Roam Researchista
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Tuo Textbundle-tiedostoja
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Tuo Zettelkasten-muistiinpanoja
+
+[file.install]
+original=Download and install Obsidian
+translation=Lataa ja asenna Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian iOS:lle ja iPadOS:lle
+
+[file.language]
+original=Language settings
+translation=Kieliasetukset
+
+[file.link-notes]
+original=Link notes
+translation=Linkitä muistiinpanoja
+
+[file.links]
+original=Internal links
+translation=Sisäiset linkit
+
+[file.manage-notes]
+original=Manage notes
+translation=Muistiinpanojen hallinta
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Hallinnoi holveja
+
+[file.mobile]
+original=Mobile app
+translation=Mobiilisovellus
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Useita kohdistimia
+
+[file.obsidian]
+original=About Obsidian
+translation=Tietoa Obsidianista
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Virallinen verkkosivusto
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Johdanto lisensseihin ja maksamiseen
+
+[file.plugin-security]
+original=Plugin security
+translation=Lisäosien turvallisuus
+
+[file.plugins]
+original=Core plugins
+translation=Sisäänrakennetut lisäosat
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Äänitys
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Paluulinkit
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Kirjanmerkit
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Komentovalikko
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Päivittäiset muistiinpanot
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Tiedostoselain
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Tiedoston palautus
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Muotoilumuunnin
+
+[file.plugins/graph]
+original=Graph view
+translation=Verkkonäkymä
+
+[file.plugins/importer]
+original=Importer
+translation=Tuontityökalu
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Muistiinpanojen koostin
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Lähtevät linkit
+
+[file.plugins/outline]
+original=Outline
+translation=Sisällysluettelo
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Sivun esikatselu
+
+[file.plugins/properties]
+original=Properties view
+translation=Määrenäkymä
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Pikavaihdin
+
+[file.plugins/random-note]
+original=Random note
+translation=Satunnainen muistiinpano
+
+[file.plugins/search]
+original=Search
+translation=Hae
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Vinoviivakomennot
+
+[file.plugins/slides]
+original=Slides
+translation=Diaesitys
+
+[file.plugins/tags]
+original=Tags view
+translation=Tunnistenäkymä
+
+[file.plugins/templates]
+original=Templates
+translation=Mallineet
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Uniikkien muistiinpanojen luonti
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Sisäinen verkkoselain
+
+[file.plugins/word-count]
+original=Word count
+translation=Sanamäärä
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Työtilat
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Irtoikkunat
+
+[file.properties]
+original=Properties
+translation=Määreet
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Johdanto Obsidian Publishiin
+
+[file.publish/analytics]
+original=Analytics
+translation=Analytiikka
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Yhteistyö Publish-sivustolla
+
+[file.publish/customize]
+original=Customize your site
+translation=Mukauta sivustoasi
+
+[file.publish/domains]
+original=Custom domains
+translation=Mukautetut verkkotunnukset
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Publish-rajoitukset
+
+[file.publish/media]
+original=Media files
+translation=Mediatiedostot
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Pysyvät linkit
+
+[file.publish/publish]
+original=Publish your content
+translation=Julkaise sisältösi
+
+[file.publish/security]
+original=Security and privacy
+translation=Turvallisuus ja yksityisyys
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Obsidian Publishin käyttöönotto
+
+[file.publish/sites]
+original=Manage sites
+translation=Hallinnoi sivustoja
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Sosiaalisen median linkkien esikatselut
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Obsidian Publishin vianmääritys
+
+[file.refunds]
+original=Refund policy
+translation=Palautuskäytäntö
+
+[file.resources]
+original=Help and support
+translation=Apua ja tuki
+
+[file.ribbon]
+original=Ribbon
+translation=Nauha
+
+[file.sales-tax]
+original=Sales tax
+translation=Arvonlisävero
+
+[file.sandbox]
+original=Sandbox vault
+translation=Leikkiholvi
+
+[file.settings]
+original=Settings
+translation=Asetukset
+
+[file.sidebar]
+original=Sidebar
+translation=Sivupalkki
+
+[file.snippets]
+original=CSS snippets
+translation=CSS-pätkät
+
+[file.status-bar]
+original=Status bar
+translation=Tilarivi
+
+[file.style-guide]
+original=Style guide
+translation=Tyyliopas
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Symboliset linkit ja liitoskohdat
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Johdanto Obsidian Synciin
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Synkronoi muistiinpanosi laitteiden välillä
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Yhteistyö jaetussa holvissa
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Usein kysytyt kysymykset
+
+[file.sync/headless]
+original=Headless Sync
+translation=Headless Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Tilakuvake ja viestit
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Päivitä synkronoinnin salaus
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Tilaukset ja tallennustilan rajoitukset
+
+[file.sync/region]
+original=Sync regions
+translation=Sync-alueet
+
+[file.sync/security]
+original=Security and privacy
+translation=Turvallisuus ja yksityisyys
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Synkronoinnin asetukset ja valikoiva synkronointi
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Obsidian Syncin käyttöönotto
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Siirtyminen Obsidian Synciin
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Obsidian Syncin vianmääritys
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Paikalliset ja etäholvit
+
+[file.sync/version-history]
+original=Version history
+translation=Versiohistoria
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Muotoilun perussyntaksi
+
+[file.tabs]
+original=Tabs
+translation=Välilehdet
+
+[file.tags]
+original=Tags
+translation=Tunnisteet
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian tiimeille
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Obsidianin käyttöönotto tiimille
+
+[file.teams/license]
+original=Commercial license
+translation=Kaupallinen lisenssi
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publish tiimeille
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Tietoturvanäkökohdat tiimeille
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Sync tiimeille
+
+[file.themes]
+original=Themes
+translation=Teemat
+
+[file.translations]
+original=Translations
+translation=Käännökset
+
+[file.updates]
+original=Update Obsidian
+translation=Päivitä Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Luo uusi holvi
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Johdanto Obsidian Web Clipperiin
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Verkkosivujen leikkaaminen
+
+[file.web-clipper/filters]
+original=Filters
+translation=Suodattimet
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Verkkosivujen korostaminen
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Verkkosivujen tulkinta
+
+[file.web-clipper/logic]
+original=Logic
+translation=Logiikka
+
+[file.web-clipper/reader]
+original=Reader
+translation=Lukija
+
+[file.web-clipper/templates]
+original=Templates
+translation=Mallineet
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Web Clipperin vianmääritys
+
+[file.web-clipper/variables]
+original=Variables
+translation=Muuttujat
+
+[file.workspace]
+original=Workspace
+translation=Työtila
+
+[folder.audio]
+original=audio
+translation=ääni
+
+[folder.Changelog]
+original=Changelog
+translation=Muutosloki
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Obsidianin kehitykseen osallistuminen
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Muokkaus ja muotoilu
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Obsidianin laajentaminen
+
+[folder.Files and folders]
+original=Files and folders
+translation=Tiedostot ja kansiot
+
+[folder.Getting started]
+original=Getting started
+translation=Aloittaminen
+
+[folder.icons]
+original=icons
+translation=kuvakkeet
+
+[folder.Import notes]
+original=Import notes
+translation=Tuo muistiinpanoja
+
+[folder.Layouts]
+original=Layouts
+translation=Asettelu
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Lisenssit ja maksaminen
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Muistiinpanojen ja tiedostojen linkittäminen
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Lisäosat
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Käyttöliittymä
+
+[folder.video]
+original=video
+translation=video
