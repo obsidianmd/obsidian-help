@@ -5,6 +5,7 @@
     { code: 'ar',    label: 'العربية',            base: 'https://obsidian.md/ar/help' },
     { code: 'da',    label: 'Dansk',              base: 'https://obsidian.md/da/help' },
     { code: 'de',    label: 'Deutsch',            base: 'https://obsidian.md/de/help' },
+    { code: 'el',    label: 'Ελληνικά',           base: 'https://obsidian.md/el/help' },
     { code: 'es',    label: 'Español',            base: 'https://obsidian.md/es/help' },
     { code: 'fa',    label: 'فارسی',              base: 'https://obsidian.md/fa/help' },
     { code: 'fr',    label: 'Français',           base: 'https://obsidian.md/fr/help' },
@@ -178,7 +179,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'חפש דפים או כותרות...';
+    el.placeholder = 'חיפוש...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'מופעל על ידי Obsidian Publish'; el.href = 'https://obsidian.md/he/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

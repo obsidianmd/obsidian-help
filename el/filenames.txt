@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=Αρχική
+
+[file.2fa]
+original=2-factor authentication
+translation=Έλεγχος ταυτότητας δύο παραγόντων
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Σύνθετη σύνταξη μορφοποίησης
+
+[file.aliases]
+original=Aliases
+translation=Ψευδώνυμα
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian για Android
+
+[file.appearance]
+original=Appearance
+translation=Εμφάνιση
+
+[file.attachments]
+original=Attachments
+translation=Επισυνάψεις
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Δημιουργία αντιγράφων ασφαλείας των αρχείων Obsidian
+
+[file.bases]
+original=Introduction to Bases
+translation=Εισαγωγή στις Βάσεις
+
+[file.bases/create-base]
+original=Create a base
+translation=Δημιουργία βάσης
+
+[file.bases/functions]
+original=Functions
+translation=Συναρτήσεις
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Σύνταξη Βάσεων
+
+[file.bases/views]
+original=Views
+translation=Προβολές
+
+[file.bases/views/cards]
+original=Cards view
+translation=Προβολή καρτών
+
+[file.bases/views/list]
+original=List view
+translation=Προβολή λίστας
+
+[file.bases/views/map]
+original=Map view
+translation=Προβολή χάρτη
+
+[file.bases/views/table]
+original=Table view
+translation=Προβολή πίνακα
+
+[file.callouts]
+original=Callouts
+translation=Επεξηγήσεις
+
+[file.catalyst]
+original=Catalyst license
+translation=Καταλυτική άδεια
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Κώδικας δεοντολογίας κοινότητας
+
+[file.community-plugins]
+original=Community plugins
+translation=Πρόσθετα κοινότητας
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Φάκελος ρυθμίσεων
+
+[file.create-note]
+original=Create your first note
+translation=Δημιουργήστε την πρώτη σας σημείωση
+
+[file.credit]
+original=Obsidian Credit
+translation=Πίστωση Obsidian
+
+[file.credits]
+original=Credits
+translation=Συντελεστές
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Πώς αποθηκεύει δεδομένα το Obsidian
+
+[file.developers]
+original=Developers
+translation=Προγραμματιστές
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Έκπτωση για εκπαίδευση και μη κερδοσκοπικούς οργανισμούς
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Μεταφορά και απόθεση
+
+[file.early-access]
+original=Early access versions
+translation=Εκδόσεις πρώιμης πρόσβασης
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Προβολές και λειτουργία επεξεργασίας
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Συντομεύσεις επεξεργασίας
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Ενσωμάτωση ιστοσελίδων
+
+[file.embeds]
+original=Embed files
+translation=Ενσωμάτωση αρχείων
+
+[file.file-formats]
+original=Accepted file formats
+translation=Αποδεκτές μορφές αρχείων
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Οικονομικές συνεισφορές
+
+[file.folding]
+original=Folding
+translation=Σύμπτυξη
+
+[file.formulas]
+original=Formulas
+translation=Τύποι
+
+[file.glossary]
+original=Glossary
+translation=Γλωσσάρι
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Συντομεύσεις
+
+[file.html]
+original=HTML content
+translation=Περιεχόμενο HTML
+
+[file.import]
+original=Import notes
+translation=Εισαγωγή σημειώσεων
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Εισαγωγή από Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Εισαγωγή από Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=Εισαγωγή από Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=Εισαγωγή από Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=Εισαγωγή αρχείων CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Εισαγωγή από Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Εισαγωγή από Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=Εισαγωγή αρχείων HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Εισαγωγή αρχείων Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=Εισαγωγή από Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Εισαγωγή από Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Εισαγωγή από Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Εισαγωγή αρχείων Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Εισαγωγή σημειώσεων Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=Λήψη και εγκατάσταση του Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian για iOS και iPadOS
+
+[file.language]
+original=Language settings
+translation=Ρυθμίσεις γλώσσας
+
+[file.link-notes]
+original=Link notes
+translation=Σύνδεση σημειώσεων
+
+[file.links]
+original=Internal links
+translation=Εσωτερικοί σύνδεσμοι
+
+[file.manage-notes]
+original=Manage notes
+translation=Διαχείριση σημειώσεων
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Διαχείριση θησαυροφυλακίων
+
+[file.mobile]
+original=Mobile app
+translation=Εφαρμογή κινητού
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Πολλαπλοί δρομείς
+
+[file.obsidian]
+original=About Obsidian
+translation=Σχετικά με το Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=Επίσημη ιστοσελίδα
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Εισαγωγή στις άδειες και πληρωμές
+
+[file.plugin-security]
+original=Plugin security
+translation=Ασφάλεια πρόσθετων
+
+[file.plugins]
+original=Core plugins
+translation=Κύρια πρόσθετα
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Εγγραφή ήχου
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Οπισθοσύνδεσμοι
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Σελιδοδείκτες
+
+[file.plugins/canvas]
+original=Canvas
+translation=Καμβάς
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Παλέτα εντολών
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Ημερήσιες σημειώσεις
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Εξερεύνηση αρχείων
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Ανάκτηση αρχείων
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Εισαγωγέας μορφής Markdown
+
+[file.plugins/graph]
+original=Graph view
+translation=Προβολή Γράφου
+
+[file.plugins/importer]
+original=Importer
+translation=Εισαγωγέας
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Συνθέτης σημειώσεων
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Εξερχόμενοι σύνδεσμοι
+
+[file.plugins/outline]
+original=Outline
+translation=Περίγραμμα
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Προεπισκόπισης σελίδας
+
+[file.plugins/properties]
+original=Properties view
+translation=Προβολή ιδιοτήτων
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Γρήγορη αλλαγή
+
+[file.plugins/random-note]
+original=Random note
+translation=Τυχαία σημείωση
+
+[file.plugins/search]
+original=Search
+translation=Αναζήτηση
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Κάθετες εντολές
+
+[file.plugins/slides]
+original=Slides
+translation=Διαφάνειες
+
+[file.plugins/tags]
+original=Tags view
+translation=Παράθυρο ετικετών
+
+[file.plugins/templates]
+original=Templates
+translation=Πρότυπα
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Δημιουργός μοναδικής σημείωσης
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Πρόγραμμα προβολής ιστού
+
+[file.plugins/word-count]
+original=Word count
+translation=Αρίθμηση λέξεων
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Χώροι Εργασίας
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Αναδυόμενα παράθυρα
+
+[file.properties]
+original=Properties
+translation=Ιδιότητες
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Εισαγωγή στο Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=Αναλυτικά στοιχεία
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Συνεργασία σε ιστοσελίδα Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=Προσαρμογή της ιστοσελίδας σας
+
+[file.publish/domains]
+original=Custom domains
+translation=Προσαρμοσμένα domains
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Περιορισμοί Publish
+
+[file.publish/media]
+original=Media files
+translation=Αρχεία πολυμέσων
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Μόνιμοι σύνδεσμοι
+
+[file.publish/publish]
+original=Publish your content
+translation=Δημοσίευση του περιεχομένου σας
+
+[file.publish/security]
+original=Security and privacy
+translation=Ασφάλεια και απόρρητο
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Ρύθμιση Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=Διαχείριση ιστοσελίδων
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Προεπισκοπήσεις συνδέσμων κοινωνικών δικτύων
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Αντιμετώπιση προβλημάτων Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=Πολιτική επιστροφής χρημάτων
+
+[file.resources]
+original=Help and support
+translation=Βοήθεια και υποστήριξη
+
+[file.ribbon]
+original=Ribbon
+translation=Κορδέλα
+
+[file.sales-tax]
+original=Sales tax
+translation=Φόρος πωλήσεων
+
+[file.sandbox]
+original=Sandbox vault
+translation=Φυλάκιο δοκιμών
+
+[file.settings]
+original=Settings
+translation=Ρυθμίσεις
+
+[file.sidebar]
+original=Sidebar
+translation=Πλαϊνή μπάρα
+
+[file.snippets]
+original=CSS snippets
+translation=CSS αποσπάσματα
+
+[file.status-bar]
+original=Status bar
+translation=Γραμμή κατάστασης
+
+[file.style-guide]
+original=Style guide
+translation=Οδηγός στυλ
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Συμβολικοί σύνδεσμοι και συνδέσεις
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Εισαγωγή στο Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Συγχρονισμός σημειώσεων μεταξύ συσκευών
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Συνεργασία σε κοινόχρηστο θησαυροφυλάκιο
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Συχνές ερωτήσεις
+
+[file.sync/headless]
+original=Headless Sync
+translation=Headless Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Εικονίδιο κατάστασης και μηνύματα
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Αναβάσθμιση κρυπτογράφησης Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Πλάνα και όρια αποθήκευσης
+
+[file.sync/region]
+original=Sync regions
+translation=Περιοχές Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=Ασφάλεια και απόρρητο
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Ρυθμίσεις Sync και επιλεκτικός συγχρονισμός
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Ρύθμιση Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Μετάβαση στο Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Αντιμετώπιση προβλημάτων Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Τοπικά και απομακρυσμένα θησαυροφυλάκια
+
+[file.sync/version-history]
+original=Version history
+translation=Ιστορικό έκδοσης
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Βασική σύνταξη μορφοποίησης
+
+[file.tabs]
+original=Tabs
+translation=Καρτέλες
+
+[file.tags]
+original=Tags
+translation=Ετικέτες
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian για ομάδες
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Ανάπτυξη του Obsidian στην ομάδα σας
+
+[file.teams/license]
+original=Commercial license
+translation=Εμπορική άδεια
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Δημοσίευση για ομάδες
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Ζητήματα ασφαλείας για ομάδες
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Συγχρονισμός για ομάδες
+
+[file.themes]
+original=Themes
+translation=Θέματα
+
+[file.translations]
+original=Translations
+translation=Μεταφράσεις
+
+[file.updates]
+original=Update Obsidian
+translation=Ενημέρωση Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Δημιουργία θησαυροφυλακίου
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Εισαγωγή στο Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Αποκοπή ιστοσελίδων
+
+[file.web-clipper/filters]
+original=Filters
+translation=Φίλτρα
+
+[file.web-clipper/highlight]
+original=Highlight web pages
+translation=Υπογράμμιση ιστοσελίδων
+
+[file.web-clipper/interpreter]
+original=Interpret web pages
+translation=Ερμηνεία ιστοσελίδων
+
+[file.web-clipper/logic]
+original=Logic
+translation=Λογική
+
+[file.web-clipper/reader]
+original=Reader
+translation=Αναγνώστης
+
+[file.web-clipper/templates]
+original=Templates
+translation=Πρότυπα
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Αντιμετώπιση προβλημάτων Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=Μεταβλητές
+
+[file.workspace]
+original=Workspace
+translation=Χώρος εργασίας
+
+[folder.audio]
+original=audio
+translation=ήχος
+
+[folder.Changelog]
+original=Changelog
+translation=Αρχείο αλλαγών
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Συνεισφορά στο Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Επεξεργασία και μορφοποίηση
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Επέκταση του Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=Αρχεία και φάκελοι
+
+[folder.Getting started]
+original=Getting started
+translation=Ξεκινώντας
+
+[folder.icons]
+original=icons
+translation=εικονίδια
+
+[folder.Import notes]
+original=Import notes
+translation=Εισαγωγή σημειώσεων
+
+[folder.Layouts]
+original=Layouts
+translation=Διατάξεις
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Άδειες και πληρωμή
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Σύνδεση σημειώσεων και αρχείων
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Πρόσθετα
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Διεπαφή χρήστη
+
+[folder.video]
+original=video
+translation=βίντεο

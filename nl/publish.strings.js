@@ -4,7 +4,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = "Pagina's of koppen zoeken...";
+    el.placeholder = 'Zoeken...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'Aangedreven door Obsidian Publish'; el.href = 'https://obsidian.md/nl/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');

@@ -1,0 +1,783 @@
+[heading.bases/Create a new base]
+original=Create a new base
+translation=Δημιουργία νέας βάσης
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=Ενσωμάτωση βάσης
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=Ενσωμάτωση αρχείου βάσης
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Ενσωμάτωση βάσης ως μπλοκ κώδικα
+
+[heading.bases/Settings]
+original=Settings
+translation=Ρυθμίσεις
+
+[heading.bases/Card size]
+original=Card size
+translation=Μέγεθος κάρτας
+
+[heading.bases/Image property]
+original=Image property
+translation=Ιδιότητα εικόνας
+
+[heading.bases/Image fit]
+original=Image fit
+translation=Προσαρμογή εικόνας
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=Αναλογία διαστάσεων εικόνας
+
+[heading.bases/Markers]
+original=Markers
+translation=Δείκτες
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=Εσοχή ιδιοτήτων
+
+[heading.bases/Separators]
+original=Separators
+translation=Διαχωριστικά
+
+[heading.bases/Row height]
+original=Row height
+translation=Ύψος γραμμής
+
+[heading.bases/Summaries]
+original=Summaries
+translation=Συνόψεις
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=Προσθήκη σύνοψης
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=Ενσωματωμένες συνόψεις
+
+[heading.bases/All property types]
+original=All property types
+translation=Όλοι οι τύποι ιδιοτήτων
+
+[heading.bases/Numbers]
+original=Numbers
+translation=Αριθμοί
+
+[heading.bases/Dates]
+original=Dates
+translation=Ημερομηνίες
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=Πλαίσιο ελέγχου
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=Προσαρμοσμένες συνόψεις
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=Συντομεύσεις
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Εγκατάσταση του πρόσθετου Maps
+
+[heading.bases/Example]
+original=Example
+translation=Παράδειγμα
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=Συντεταγμένες
+
+[heading.bases/Icons]
+original=Icons
+translation=Εικονίδια
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Χρήση τύπου για ορισμό εικονιδίων
+
+[heading.bases/Colors]
+original=Colors
+translation=Χρώματα
+
+[heading.bases/Background]
+original=Background
+translation=Φόντο
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=Πλακίδια χάρτη
+
+[heading.bases/Useful links]
+original=Useful links
+translation=Χρήσιμοι σύνδεσμοι
+
+[heading.bases/Tips]
+original=Tips
+translation=Συμβουλές
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=Αντιμετώπιση προβλημάτων
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Πώς να χρησιμοποιήσετε τις βάσεις
+
+[heading.bases/View types]
+original=View types
+translation=Τύποι προβολών
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=Γραμμή εργαλείων
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=Προσθήκη και εναλλαγή προβολών
+
+[heading.bases/View settings]
+original=View settings
+translation=Ρυθμίσεις προβολής
+
+[heading.bases/Layout]
+original=Layout
+translation=Διάταξη
+
+[heading.bases/Filters]
+original=Filters
+translation=Φίλτρα
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=Συστατικά ενός φίλτρου
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=Σύνδεσμοι
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=Ομάδες φίλτρων
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=Σύνθετος επεξεργαστής φίλτρων
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=Ταξινόμηση και ομαδοποίηση αποτελεσμάτων
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=Προσθήκη ταξινόμησης
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=Αφαίρεση ταξινόμησης
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Περιορισμός, αντιγραφή και εξαγωγή αποτελεσμάτων
+
+[heading.bases/Limit results]
+original=Limit results
+translation=Περιορισμός αποτελεσμάτων
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=Αντιγραφή στο πρόχειρο
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=Εξαγωγή CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=Ενσωμάτωση μιας προβολής
+
+[heading.bases/Global]
+original=Global
+translation=Καθολικές
+
+[heading.bases/Any]
+original=Any
+translation=Οποιοσδήποτε
+
+[heading.bases/Date]
+original=Date
+translation=Ημερομηνία
+
+[heading.bases/Fields]
+original=Fields
+translation=Πεδία
+
+[heading.bases/String]
+original=String
+translation=Συμβολοσειρά
+
+[heading.bases/Number]
+original=Number
+translation=Αριθμός
+
+[heading.bases/List]
+original=List
+translation=Λίστα
+
+[heading.bases/Link]
+original=Link
+translation=Σύνδεσμος
+
+[heading.bases/File]
+original=File
+translation=Αρχείο
+
+[heading.bases/Object]
+original=Object
+translation=Αντικείμενο
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=Κανονική έκφραση
+
+[heading.bases/Formulas]
+original=Formulas
+translation=Τύποι
+
+[heading.bases/Properties]
+original=Properties
+translation=Ιδιότητες
+
+[heading.bases/Default Summary Formulas]
+original=Default Summary Formulas
+translation=Προεπιλεγμένοι τύποι σύνοψης
+
+[heading.bases/Views]
+original=Views
+translation=Προβολές
+
+[heading.bases/Note properties]
+original=Note properties
+translation=Ιδιότητες σημείωσης
+
+[heading.bases/File properties]
+original=File properties
+translation=Ιδιότητες αρχείου
+
+[heading.bases/Access properties with `this`]
+original=Access properties with `this`
+translation=Πρόσβαση σε ιδιότητες με `this`
+
+[heading.bases/Operators]
+original=Operators
+translation=Τελεστές
+
+[heading.bases/Arithmetic operators]
+original=Arithmetic operators
+translation=Αριθμητικοί τελεστές
+
+[heading.bases/Date arithmetic]
+original=Date arithmetic
+translation=Αριθμητική ημερομηνιών
+
+[heading.bases/Comparison operators]
+original=Comparison operators
+translation=Τελεστές σύγκρισης
+
+[heading.bases/Boolean operators]
+original=Boolean operators
+translation=Λογικοί τελεστές
+
+[heading.bases/Functions]
+original=Functions
+translation=Συναρτήσεις
+
+[heading.bases/Types]
+original=Types
+translation=Τύποι δεδομένων
+
+[heading.bases/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=Συμβολοσειρές, αριθμοί και booleans
+
+[heading.bases/Dates and durations]
+original=Dates and durations
+translation=Ημερομηνίες και χρονικές διάρκειες
+
+[heading.bases/Objects and lists]
+original=Objects and lists
+translation=Αντικείμενα και λίστες
+
+[heading.bases/Files and links]
+original=Files and links
+translation=Αρχεία και σύνδεσμοι
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=Τι μπορούν να κάνουν οι τύποι
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=Δημιουργία ιδιότητας τύπου
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=Σύνταξη τύπου
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=Αναφορά σε ιδιότητες
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=Χρήση τελεστών
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=Χρήση συναρτήσεων
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=Παραδείγματα τύπων
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=Υπολογισμός προθεσμίας
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=Εμφάνιση κατάστασης εκπρόθεσμου
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=Μορφοποίηση νομίσματος
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=Μέτρηση στοιχείων λίστας
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=Υπολογισμός βαθμολογίας προτεραιότητας
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=Συνδυασμός πεδίων κειμένου
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=Υπολογισμός συνολικού κόστους
+
+[heading.formulas/Data types]
+original=Data types
+translation=Τύποι δεδομένων
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=Αναφορά σε άλλους τύπους
+
+[heading.android/Sync]
+original=Sync
+translation=Συγχρονισμός
+
+[heading.android/Vault location]
+original=Vault location
+translation=Τοποθεσία θησαυροφυλακίου
+
+[heading.android/Device storage]
+original=Device storage
+translation=Αποθήκευση συσκευής
+
+[heading.android/App storage]
+original=App storage
+translation=Αποθήκευση εφαρμογής
+
+[heading.android/Quick Settings tiles]
+original=Quick Settings tiles
+translation=Πλακίδια Γρήγορων Ρυθμίσεων
+
+[heading.android/Shortcuts]
+original=Shortcuts
+translation=Συντομεύσεις
+
+[heading.ios/Sync]
+original=Sync
+translation=Συγχρονισμός
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=Widgets Οθόνης Κλειδώματος και Κέντρου Ελέγχου
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=Widgets Αρχικής Οθόνης
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=Προσαρμογή widgets
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=Επέκταση Share Sheet
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=Ενσωμάτωση Siri
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=Ενσωμάτωση Spotlight
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=Ενεργοποίηση 2FA
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=Δημιουργία κωδικών ανάκτησης
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=Απενεργοποίηση 2FA
+
+[heading.2fa/FAQ]
+original=FAQ
+translation=Συχνές ερωτήσεις
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=Ενεργοποίηση εκδόσεων πρώιμης πρόσβασης για υπολογιστή
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=Εγκατάσταση εκδόσεων πρώιμης πρόσβασης σε κινητές συσκευές
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=Αναφορά προβλημάτων και άλλα σχόλια
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=Επιστροφή σε δημόσιες εκδόσεις σε υπολογιστή
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=Επιστροφή σε δημόσιες εκδόσεις σε κινητό
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=Οι κανόνες
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=Σοβαρές παραβάσεις
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=Παρενόχληση
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=Απειλές
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=Προφανείς διακρίσεις
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=Άλλες παραβάσεις
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=Επιθετικότητα
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=Ιδιαίτερα δυσάρεστη συμπεριφορά
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=Αυθαίρετα μηνύματα σε μέλη της κοινότητας
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=Άλλες συμπεριφορές
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation="Τάισέ με"
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=Εκστρατεία
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=Υπερβολική αυτοπροβολή
+
+[heading.community-code-of-conduct/Spamming]
+original=Spamming
+translation=Ανεπιθύμητα μηνύματα (Spam)
+
+[heading.community-code-of-conduct/Encouraged behaviors]
+original=Encouraged behaviors
+translation=Ενθαρρυνόμενες συμπεριφορές
+
+[heading.community-code-of-conduct/Motivation]
+original=Motivation
+translation=Κίνητρα
+
+[heading.community-code-of-conduct/Report violations]
+original=Report violations
+translation=Αναφορά παραβάσεων
+
+[heading.community-code-of-conduct/Report on Discord]
+original=Report on Discord
+translation=Αναφορά στο Discord
+
+[heading.community-code-of-conduct/Report on the forum]
+original=Report on the forum
+translation=Αναφορά στο φόρουμ
+
+[heading.community-code-of-conduct/Enforcement]
+original=Enforcement
+translation=Επιβολή
+
+[heading.community-code-of-conduct/Appealing a ban]
+original=Appealing a ban
+translation=Έφεση κατά αποκλεισμού
+
+[heading.community-code-of-conduct/Credits]
+original=Credits
+translation=Συντελεστές
+
+[heading.credits/Team]
+original=Team
+translation=Ομάδα
+
+[heading.credits/Development]
+original=Development
+translation=Ανάπτυξη
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=Προϊόν & Λειτουργίες
+
+[heading.credits/Moderators]
+original=Moderators
+translation=Συντονιστές
+
+[heading.credits/Retired]
+original=Retired
+translation=Αποσυρμένοι
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=Εμπνεύσεις πρόσθετων
+
+[heading.credits/Builds]
+original=Builds
+translation=Εκδόσεις
+
+[heading.credits/Translators]
+original=Translators
+translation=Μεταφραστές
+
+[heading.credits/Documentation]
+original=Documentation
+translation=Τεκμηρίωση
+
+[heading.credits/Add your name]
+original=Add your name
+translation=Προσθέστε το όνομά σας
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=Αναγνώριση τρίτων
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=Προηγούμενο λογότυπο
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=Τι είναι το Obsidian
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=Σε τι διαφέρουμε
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=Κατέχετε και ελέγχετε τα δεδομένα σας
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=Οι σύνδεσμοι είναι πολίτες πρώτης κατηγορίας
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=Η δική σας εργαλειοθήκη
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=Ακολουθήστε την ανάπτυξή μας
+
+[heading.publish/Quick start]
+original=Quick start
+translation=Γρήγορη εκκίνηση
+
+[heading.publish/Commands]
+original=Commands
+translation=Εντολές
+
+[heading.publish/Sitemap]
+original=Sitemap
+translation=Χάρτης ιστοτόπου
+
+[heading.publish/Permalinks]
+original=Permalinks
+translation=Μόνιμοι σύνδεσμοι
+
+[heading.publish/Metadata]
+original=Metadata
+translation=Μεταδεδομένα
+
+[heading.publish/Prerequisites]
+original=Prerequisites
+translation=Προαπαιτούμενα
+
+[heading.publish/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible, Fathom και άλλες υπηρεσίες αναλυτικών στοιχείων
+
+[heading.publish/Troubleshooting]
+original=Troubleshooting
+translation=Αντιμετώπιση προβλημάτων
+
+[heading.publish/General]
+original=General
+translation=Γενικά
+
+[heading.publish/Publishing notes]
+original=Publishing notes
+translation=Δημοσίευση σημειώσεων
+
+[heading.publish/CSS and themes]
+original=CSS and themes
+translation=CSS και θέματα
+
+[heading.sync/settings/Sync settings]
+original=Sync settings
+translation=Ρυθμίσεις Sync
+
+[heading.sync/settings/Conflict resolution]
+original=Conflict resolution
+translation=Επίλυση διενέξεων
+
+[heading.sync/settings/Selective syncing]
+original=Selective syncing
+translation=Επιλεκτικός συγχρονισμός
+
+[heading.sync/settings/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=Αλλαγή των τύπων αρχείων που θέλετε να συγχρονίσετε
+
+[heading.sync/settings/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=Εξαίρεση φακέλου από τον συγχρονισμό
+
+[heading.sync/settings/Always excluded from sync]
+original=Always excluded from sync
+translation=Πάντα εξαιρούνται από τον συγχρονισμό
+
+[heading.sync/settings/File recovery snapshots]
+original=File recovery snapshots
+translation=Στιγμιότυπα ανάκτησης αρχείων
+
+[heading.sync/settings/Hidden files and folders]
+original=Hidden files and folders
+translation=Κρυφά αρχεία και φάκελοι
+
+[heading.sync/settings/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=Ενημέρωση των ρυθμίσεων του συγχρονισμένου θησαυροφυλακίου σας
+
+[heading.sync/settings/Primary device]
+original=Primary device
+translation=Κύρια συσκευή
+
+[heading.sync/settings/Secondary device(s)]
+original=Secondary device(s)
+translation=Δευτερεύουσα(-ες) συσκευή(-ές)
+
+[heading.sync/settings/Reloading of settings]
+original=Reloading of settings
+translation=Επαναφόρτωση ρυθμίσεων
+
+[heading.sync/settings/Settings profiles]
+original=Settings profiles
+translation=Προφίλ ρυθμίσεων
+
+[heading.sync/settings/Create a settings profile]
+original=Create a settings profile
+translation=Δημιουργία προφίλ ρυθμίσεων
+
+[heading.catalyst/Catalyst tiers]
+original=Catalyst tiers
+translation=Βαθμίδες Catalyst
+
+[heading.catalyst/Access Catalyst benefits]
+original=Access Catalyst benefits
+translation=Πρόσβαση στα οφέλη Catalyst
+
+[heading.catalyst/Get your forum badge]
+original=Get your forum badge
+translation=Λήψη σήματος φόρουμ
+
+[heading.catalyst/Get your Discord badge]
+original=Get your Discord badge
+translation=Λήψη σήματος Discord
+
+[heading.catalyst/Join our Insider channels]
+original=Join our Insider channels
+translation=Συμμετοχή στα κανάλια Insider
+
+[heading.catalyst/Enable early access versions]
+original=Enable early access versions
+translation=Ενεργοποίηση εκδόσεων πρώιμης πρόσβασης
+
+[heading.credit/Add credit]
+original=Add credit
+translation=Προσθήκη πίστωσης
+
+[heading.credit/Gifting]
+original=Gifting
+translation=Δωροδοκία
+
+[heading.credit/Give Obsidian Credit]
+original=Give Obsidian Credit
+translation=Αποστολή Πίστωσης Obsidian
+
+[heading.credit/Receiving Obsidian Credit]
+original=Receiving Obsidian Credit
+translation=Λήψη Πίστωσης Obsidian
+
+[heading.refunds/Request a refund]
+original=Request a refund
+translation=Αίτημα επιστροφής χρημάτων
+
+[heading.refunds/Frequently asked questions]
+original=Frequently asked questions
+translation=Συχνές ερωτήσεις

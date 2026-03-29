@@ -4,7 +4,7 @@
     var el;
     el = document.querySelector('.search-bar');
     if (!el) return false;
-    el.placeholder = 'חפש דפים או כותרות...';
+    el.placeholder = 'חיפוש...';
     el = document.querySelector('.site-footer a');
     if (el) { el.textContent = 'מופעל על ידי Obsidian Publish'; el.href = 'https://obsidian.md/he/publish'; }
     el = document.querySelector('.graph-view-outer span:last-child');
