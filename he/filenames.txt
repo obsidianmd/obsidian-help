@@ -112,7 +112,7 @@ translation=מפתחים
 
 [file.discounts]
 original=Education and non-profit discount
-translation=הנחות לחינוך ולמלכ"רים
+translation=הנחות לחינוך ולמלכ״רים
 
 [file.drag-and-drop]
 original=Drag and drop

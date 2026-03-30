@@ -236,7 +236,7 @@ translation=Lataa ja asenna Obsidian
 
 [file.ios]
 original=Obsidian for iOS and iPadOS
-translation=Obsidian iOS:lle ja iPadOS:lle
+translation=Obsidian iOS ja iPadOS
 
 [file.language]
 original=Language settings

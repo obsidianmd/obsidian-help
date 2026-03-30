@@ -6,7 +6,7 @@ publish: true
 mobile: true
 description: 'Tutustu Obsidianin mobiilikohtaisiin ominaisuuksiin, kuten mobiilityökalupalkkiin, pikatoimintoihin ja navigointipalkkiin.'
 ---
-Obsidianin mobiilisovellukset ovat saatavilla [[Obsidian iOS:lle ja iPadOS:lle|iOS:lle ja iPadOS:lle]] sekä [[Obsidian Androidille|Androidille]]. Voit ladata ne [Apple App Storesta](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) ja [Google Playsta](https://play.google.com/store/apps/details?id=md.obsidian).
+Obsidianin mobiilisovellukset ovat saatavilla [[Obsidian iOS ja iPadOS|iOS:lle ja iPadOS:lle]] sekä [[Obsidian Androidille|Androidille]]. Voit ladata ne [Apple App Storesta](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) ja [Google Playsta](https://play.google.com/store/apps/details?id=md.obsidian).
 
 Obsidian toimii mobiilissa samankaltaisesti kuin työpöydällä, mutta siinä on muutamia ainutlaatuisia ominaisuuksia, kuten widgetit, työkalurivi ja pikavalinta.
 
@@ -14,7 +14,7 @@ Obsidian toimii mobiilissa samankaltaisesti kuin työpöydällä, mutta siinä o
 
 Käyttöjärjestelmäkohtaisista ominaisuuksista lisätietoja seuraavilla sivuilla:
 
-- [[Obsidian iOS:lle ja iPadOS:lle|iOS ja iPadOS]]
+- [[Obsidian iOS ja iPadOS|iOS ja iPadOS]]
 - [[Obsidian Androidille|Android]]
 
 
