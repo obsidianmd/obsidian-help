@@ -371,6 +371,9 @@ async function main() {
     console.log(`Translating ${missingFolders.length} folder names...`);
     const translated = await translateFolders(config, missingFolders, langName, glossary);
     for (const [en, fr] of Object.entries(translated)) {
+      if (fr.includes("/")) {
+        console.warn(`  ⚠ Folder "${en}" → "${fr}" contains "/" — slashes are not allowed in folder names. Fix this before syncing.`);
+      }
       existing.folders[en] = fr;
       console.log(`  ${en} → ${fr}`);
     }
@@ -386,6 +389,9 @@ async function main() {
       console.log(`\nTranslating files ${i + 1}–${i + batch.length} of ${missingFiles.length}...`);
       const translated = await translateFiles(config, batch, langName, glossary);
       for (const [permalink, frName] of Object.entries(translated)) {
+        if (frName.includes("/")) {
+          console.warn(`  ⚠ File [${permalink}] → "${frName}" contains "/" — slashes are not allowed in file names. Fix this in filenames.txt before syncing.`);
+        }
         existing.files[permalink] = frName;
         const enName = batch.find(f => f.permalink === permalink)?.basename ?? permalink;
         existing.fileOriginals[permalink] = enName;

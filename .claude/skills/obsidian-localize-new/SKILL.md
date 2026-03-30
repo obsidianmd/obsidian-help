@@ -54,6 +54,8 @@ The sync script places files at locale paths (using filenames.txt), adds EN base
 
 ### Step 2b — Add redirect aliases for old locale paths
 
+**Skip this step entirely if the locale has no prior history in this repo** (i.e. `git log -- <locale>/` returns nothing). This step only applies to locales that previously had files under a different structure.
+
 If the locale previously had old-format files (before this migration), add backward-compat redirect aliases so old Obsidian Publish URLs continue to resolve.
 
 ```bash
@@ -94,10 +96,24 @@ To re-translate descriptions for already-localized files (e.g. after EN descript
 npx tsx scripts/translate-locale.ts <locale> --translate-descriptions
 ```
 
-Translate in batches if the locale is large:
+For large locales (~170 files), run 8 parallel batches then a final cleanup pass:
 ```bash
-npx tsx scripts/translate-locale.ts <locale> --limit 20
+# Run all 8 in parallel (adjust --limit to cover all files across 8 batches):
+npx tsx scripts/translate-locale.ts <locale> --limit 22 --offset 0   &
+npx tsx scripts/translate-locale.ts <locale> --limit 22 --offset 22  &
+npx tsx scripts/translate-locale.ts <locale> --limit 22 --offset 44  &
+npx tsx scripts/translate-locale.ts <locale> --limit 22 --offset 66  &
+npx tsx scripts/translate-locale.ts <locale> --limit 22 --offset 88  &
+npx tsx scripts/translate-locale.ts <locale> --limit 22 --offset 110 &
+npx tsx scripts/translate-locale.ts <locale> --limit 22 --offset 132 &
+npx tsx scripts/translate-locale.ts <locale> --limit 22 --offset 154 &
+wait
+
+# Always follow with a final pass (no --limit) to catch any stragglers:
+npx tsx scripts/translate-locale.ts <locale>
 ```
+
+Parallel batches can claim overlapping work and leave some files untranslated — the final pass without `--limit` is not optional.
 
 ### Step 4 — Validate
 
@@ -109,6 +125,10 @@ npx tsx scripts/sort-core-plugins.ts <locale>   # sort core plugins page alphabe
 ```
 
 Fix any broken wikilinks before publishing. The lint script cross-references official plugin/feature names from obsidian-translations.
+
+Two broken-link patterns recur in nearly every locale — look for these specifically after check-links:
+- `[[Plugins/X]]` — if the Plugins folder was renamed (e.g. to "Πρόσθετα", "Plugins"), any hardcoded EN path in content won't match. Do a grep for `[[Plugins/` and update to the locale path.
+- `[[Editing and formatting/Tags\|...]]` in the Properties page — this EN path is hardcoded in the source. Update to `[[<locale-folder>/Tags-translation\|...]]`.
 
 ### Step 5 — Add publish UI strings and language switcher
 
@@ -137,7 +157,7 @@ Create `<locale>/publish.strings.js` with translated UI strings for the Publish 
   function poll() { if (!apply()) requestAnimationFrame(poll); }
   poll();
   var blText = '<Backlinks>';
-  function applyBl() { document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { e.textContent = blText; }); }
+  function applyBl() { document.querySelectorAll('.backlinks span:last-child').forEach(function(e) { if (e.textContent !== blText) e.textContent = blText; }); }
   new MutationObserver(applyBl).observe(document.body, { childList: true, subtree: true });
   applyBl();
 })();
