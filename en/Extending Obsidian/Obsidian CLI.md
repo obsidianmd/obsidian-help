@@ -1525,7 +1525,7 @@ If the symlink is missing, create it manually:
 sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
 ```
 
-I the symlink was created in `~/.local/bin/` instead, make sure that directory is in your PATH. Add the following to your `~/.bashrc` or `~/.zshrc`:
+If the symlink was created in `~/.local/bin/` instead, make sure that directory is in your PATH. Add the following to your `~/.bashrc` or `~/.zshrc`:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
