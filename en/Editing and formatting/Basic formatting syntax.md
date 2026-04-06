@@ -356,7 +356,7 @@ _ _ _
 
 ***
 
-## 
+## Code formatting
 
 You can format  both inline within a sentence, or in its own block.
 
