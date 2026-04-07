@@ -13,7 +13,7 @@ Obsidian'da yapabileceğiniz her şeyi komut satırından da yapabilirsiniz. Obs
 
 ## Obsidian CLI'ı Kurma
 
-En son [[Obsidian'ı Güncelle|Obsidian yükleyici sürümüne]] (1.11.7) ve en son [[Erken erişim sürümleri|erken erişim sürümüne]] (1.12.x) yükseltin.
+En son [[Obsidian'ı Güncelle|Obsidian yükleyici sürümüne]] (1.12.7+) yükseltin.
 
 Obsidian'da Obsidian CLI'ı etkinleştirin:
 
@@ -1477,41 +1477,22 @@ Bu kısayollar [[#Terminal arayüzünü kullanma|TUI]]'de kullanılabilir.
 
 Obsidian CLI'ı çalıştırmakta sorun yaşıyorsanız:
 
-- En son [[Obsidian'ı Güncelle|Obsidian yükleyici sürümünü]] (1.12.4 veya üstü) kullandığınızdan emin olun.
+- En son [[Obsidian'ı Güncelle|Obsidian yükleyici sürümünü]] (1.12.7 veya üstü) kullandığınızdan emin olun.
+- Obsidian'ı eski bir sürümden güncellediyseniz, CLI ayarını kapatıp tekrar açın ve ardından Obsidian'ın otomatik PATH kaydını yapmasına izin verin.
 - PATH değişikliklerinin etkili olması için CLI'ı kaydettikten sonra terminalinizi yeniden başlatın.
-- Obsidian çalışıyor olmalıdır. CLI, çalışan Obsidian örneğine bağlanır. Obsidian çalışmıyorsa, ilk CLI komutu uygulamayı başlatmalıdır.
+- Obsidian çalışıyor olmalıdır. CLI, çalışan Obsidian örneğine bağlanır.
 
 ### Windows
 
-Windows'ta Obsidian CLI, Obsidian 1.12.4+ yükleyicisini gerektirir. [[Obsidian'ı Güncelle|Yükleyici sürümü güncellemesine]] bakın.
+Windows'ta Obsidian CLI, Obsidian 1.12.7+ yükleyicisini gerektirir. [[Obsidian'ı Güncelle|Yükleyici sürümü güncellemesine]] bakın.
 
-Windows, Obsidian'ı stdin/stdout'a düzgün şekilde bağlayan bir terminal yönlendiricisi kullanır. Bu gereklidir çünkü Obsidian normalde Windows'ta terminal çıktılarıyla uyumsuz olan bir GUI uygulaması olarak çalışır. Obsidian 1.12.4+ yüklediğinizde, `Obsidian.exe` dosyasını yüklediğiniz klasöre `Obsidian.com` terminal yönlendiricisi eklenecektir.
+Windows, Obsidian'ı stdin/stdout'a düzgün şekilde bağlayan bir terminal yönlendiricisi kullanır. Bu gereklidir çünkü Obsidian normalde Windows'ta terminal çıktılarıyla uyumsuz olan bir GUI uygulaması olarak çalışır. Obsidian 1.12.7+ yüklediğinizde, `Obsidian.exe` dosyasını yüklediğiniz klasöre `Obsidian.com` terminal yönlendiricisi eklenecektir.
+
+CLI kaydı, Obsidian'ı kullanıcınızın PATH değişkenine ekler; bu yalnızca terminali yeniden başlattıktan sonra etkili olur.
 
 ### macOS
 
-CLI kaydı, `~/.zprofile` aracılığıyla Obsidian ikili dosya dizinini PATH'inize ekler. Sorun yaşıyorsanız aşağıdakileri kontrol edin:
-
-`~/.zprofile` dosyanız aşağıdaki satırı içermelidir. Eksikse elle ekleyebilirsiniz:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Alternatif kabuklar
-
-CLI kaydı yalnızca `~/.zprofile`'ı değiştirir; bu, zsh (varsayılan macOS kabuğu) tarafından kullanılır. Farklı bir kabuk kullanıyorsanız, Obsidian ikili dosya dizinini kabuğunuzun yapılandırma dosyasına elle ekleyin:
-
-- Bash: `~/.bash_profile`'a `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` ekleyin
-- Fish: `fish_add_path /Applications/Obsidian.app/Contents/MacOS` komutunu çalıştırın
-
-
-### Linux
-
-CLI kaydı, Obsidian ikili dosyasına işaret eden `/usr/local/bin/obsidian` konumunda bir sembolik bağlantı oluşturur (sudo gerektirir).
-
-#### AppImage
-
-AppImage kurulumları için, bağlama yolu her başlatmada değiştiğinden, sembolik bağlantı dahili ikili dosya yerine `.AppImage` dosyasına işaret eder. Sudo başarısız olursa, sembolik bağlantı yedek olarak `~/.local/bin/obsidian` konumunda oluşturulur. Sorun yaşıyorsanız aşağıdakileri kontrol edin.
+CLI kaydı, uygulama içinde paketlenmiş CLI ikili dosyasına işaret eden `/usr/local/bin/obsidian` konumunda bir sembolik bağlantı oluşturur. Bu, yönetici ayrıcalıkları gerektirir — bir sistem iletişim kutusu aracılığıyla sizden izin istenecektir.
 
 Sembolik bağlantının var olduğunu ve doğru ikili dosyaya işaret ettiğini kontrol edin:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 Sembolik bağlantı eksikse elle oluşturun:
 
 ```
-sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-Sembolik bağlantı `/usr/local/bin/` yerine `~/.local/bin/` içinde oluşturulduysa, bu dizinin PATH'inizde olduğundan emin olun. Aşağıdakini `~/.bashrc` veya `~/.zshrc` dosyanıza ekleyin:
+> [!note] Daha önce Obsidian'ın eski bir sürümüyle CLI'ı kaydettiyseniz, `~/.zprofile` dosyanızda kalan bir PATH girişi olabilir. Yeni kayıt işlemi bunu otomatik olarak kaldırır, ancak kalırsa `~/.zprofile` dosyasından `# Added by Obsidian` ile başlayan satırları güvenle silebilirsiniz.
+
+### Linux
+
+CLI kaydı, CLI ikili dosyasını `~/.local/bin/obsidian` konumuna kopyalar. Bu, bazı Linux kurulum yöntemlerinin kalıcı olarak sembolik bağlantı oluşturulamayan geçici dizinlerden çalışması nedeniyle yapılır.
+
+`~/.local/bin` dizininin PATH'inizde olduğundan emin olun. Değilse aşağıdakini `~/.bashrc` veya `~/.zshrc` dosyanıza ekleyin:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-`.AppImage` dosyasını taşıdıktan veya yeniden adlandırdıktan sonra sembolik bağlantı bozulursa, CLI'ı yeniden kaydedin veya sembolik bağlantıyı elle güncelleyin.
-
-#### Snap
-
-Snap paketi, Insider derlemesi verilerini kendi kullanıcı veri dizininde saklar. CLI insider `.asar` dosyasını algılayamazsa, `XDG_CONFIG_HOME`'u Snap yapılandırma yoluna işaret edecek şekilde ayarlayın:
+İkili dosyanın var olduğunu kontrol edin:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-Kalıcı hale getirmek için bunu `~/.bashrc` veya `~/.zshrc` dosyanıza ekleyin.
-
-
-#### Flatpak
-
-Obsidian bunu otomatik olarak yapmaya çalışır, ancak aşağıda elle yapma talimatları verilmiştir. Sistem kurulumuysa:
+İkili dosya eksikse, Obsidian kurulum dizininden elle kopyalayın:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-Kullanıcı kurulumuysa:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

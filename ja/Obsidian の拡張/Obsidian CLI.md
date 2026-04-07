@@ -13,7 +13,7 @@ Obsidianで行えることはすべてコマンドラインから実行できま
 
 ## Obsidian CLIのインストール
 
-最新の[[Obsidianのアップデート|Obsidianインストーラーバージョン]]（1.11.7）および最新の[[早期アクセスバージョン|早期アクセスバージョン]]（1.12.x）にアップグレードしてください。
+最新の[[Obsidianのアップデート|Obsidianインストーラーバージョン]]（1.12.7+）にアップグレードしてください。
 
 ObsidianでObsidian CLIを有効にします：
 
@@ -1477,41 +1477,22 @@ code=<javascript>  # （必須）実行するJavaScriptコード
 
 Obsidian CLIの実行に問題がある場合：
 
-- 最新の[[Obsidianのアップデート|Obsidianインストーラーバージョン]]（1.12.4以上）を使用していることを確認してください。
+- 最新の[[Obsidianのアップデート|Obsidianインストーラーバージョン]]（1.12.7以上）を使用していることを確認してください。
+- 以前のバージョンからObsidianをアップデートした場合は、CLI設定をオフにしてから再度オンにし、Obsidianが自動PATH登録を実行できるようにしてください。
 - CLIを登録した後、PATHの変更を反映させるためにターミナルを再起動してください。
-- Obsidianが起動している必要があります。CLIは実行中のObsidianインスタンスに接続します。Obsidianが起動していない場合、最初のCLIコマンドがアプリを起動します。
+- Obsidianが起動している必要があります。CLIは実行中のObsidianインスタンスに接続します。
 
 ### Windows
 
-WindowsでのObsidian CLIにはObsidian 1.12.4+インストーラーが必要です。[[Obsidianのアップデート|インストーラーバージョンのアップデート]]をご覧ください。
+WindowsでのObsidian CLIにはObsidian 1.12.7+インストーラーが必要です。[[Obsidianのアップデート|インストーラーバージョンのアップデート]]をご覧ください。
 
-Windowsでは、Obsidianをstdin/stdoutに適切に接続するターミナルリダイレクターを使用します。これは、ObsidianがWindows上のターミナル出力と互換性のないGUIアプリとして通常実行されるためです。Obsidian 1.12.4+をインストールすると、`Obsidian.exe`ファイルをインストールしたフォルダに`Obsidian.com`ターミナルリダイレクターが追加されます。
+Windowsでは、Obsidianをstdin/stdoutに適切に接続するターミナルリダイレクターを使用します。これは、ObsidianがWindows上のターミナル出力と互換性のないGUIアプリとして通常実行されるためです。Obsidian 1.12.7+をインストールすると、`Obsidian.exe`ファイルをインストールしたフォルダに`Obsidian.com`ターミナルリダイレクターが追加されます。
+
+CLI登録はObsidianをユーザーのPATH変数に追加します。これはターミナルを再起動した後にのみ有効になります。
 
 ### macOS
 
-CLI登録は`~/.zprofile`を介してObsidianバイナリディレクトリをPATHに追加します。問題が発生した場合は、以下を確認してください：
-
-`~/.zprofile`ファイルに以下の行が含まれている必要があります。見つからない場合は手動で追加できます：
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### 代替シェル
-
-CLI登録は`~/.zprofile`のみを変更します。これはzsh（macOSのデフォルトシェル）で使用されます。別のシェルを使用している場合は、シェルの設定ファイルにObsidianバイナリディレクトリを手動で追加してください：
-
-- Bash：`~/.bash_profile`に`export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"`を追加
-- Fish：`fish_add_path /Applications/Obsidian.app/Contents/MacOS`を実行
-
-
-### Linux
-
-CLI登録は`/usr/local/bin/obsidian`にObsidianバイナリを指すシンボリックリンクを作成します（sudo権限が必要）。
-
-#### AppImage
-
-AppImageインストールの場合、内部バイナリではなく`.AppImage`ファイルを指すシンボリックリンクが作成されます。マウントパスは起動ごとに変わるためです。sudoが失敗した場合、フォールバックとして`~/.local/bin/obsidian`にシンボリックリンクが作成されます。問題が発生した場合は、以下を確認してください。
+CLI登録はアプリ内にバンドルされたCLIバイナリを指す`/usr/local/bin/obsidian`にシンボリックリンクを作成します。これには管理者権限が必要で、システムダイアログでプロンプトが表示されます。
 
 シンボリックリンクが存在し、正しいバイナリを指していることを確認します：
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 シンボリックリンクが見つからない場合は手動で作成します：
 
 ```
-sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-シンボリックリンクが`~/.local/bin/`に作成された場合は、そのディレクトリがPATHに含まれていることを確認してください。`~/.bashrc`または`~/.zshrc`に以下を追加します：
+> [!note] 以前のバージョンのObsidianでCLIを登録した場合、`~/.zprofile`に残存するPATHエントリがある可能性があります。新しい登録プロセスではこれが自動的に削除されますが、残っている場合は`~/.zprofile`から`# Added by Obsidian`で始まる行を安全に削除できます。
+
+### Linux
+
+CLI登録はCLIバイナリを`~/.local/bin/obsidian`にコピーします。これは、一部のLinuxインストール方法が永続的にシンボリックリンクできない一時ディレクトリから実行されるためです。
+
+`~/.local/bin`がPATHに含まれていることを確認してください。含まれていない場合は、`~/.bashrc`または`~/.zshrc`に以下を追加します：
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-`.AppImage`ファイルを移動またはリネームした後にシンボリックリンクが壊れた場合は、CLIを再登録するかシンボリックリンクを手動で更新してください。
-
-#### Snap
-
-Snapパッケージはインサイダービルドのデータを独自のユーザーデータディレクトリに保存します。CLIがインサイダー`.asar`を検出しない場合は、`XDG_CONFIG_HOME`をSnapの設定パスに設定してください：
+バイナリが存在することを確認します：
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-永続的に設定するには、`~/.bashrc`または`~/.zshrc`に追加してください。
-
-
-#### Flatpak
-
-Obsidianはこれを自動的に行おうとしますが、以下は手動での手順です。システムインストールの場合：
+バイナリが見つからない場合は、Obsidianのインストールディレクトリから手動でコピーします：
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-ユーザーインストールの場合：
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

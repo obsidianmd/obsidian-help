@@ -13,7 +13,7 @@ Apa pun yang bisa Anda lakukan di Obsidian, bisa Anda lakukan dari baris perinta
 
 ## Pasang Obsidian CLI
 
-Tingkatkan ke [[Perbarui Obsidian|versi penginstal Obsidian]] terbaru (1.11.7) dan [[Versi akses awal|versi akses awal]] terbaru (1.12.x).
+Tingkatkan ke [[Perbarui Obsidian|versi penginstal Obsidian]] terbaru (1.12.7+).
 
 Aktifkan Obsidian CLI di Obsidian:
 
@@ -1477,41 +1477,22 @@ Pintasan ini tersedia di [[#Gunakan antarmuka terminal|TUI]].
 
 Jika Anda mengalami kesulitan menjalankan Obsidian CLI:
 
-- Pastikan Anda menggunakan [[Perbarui Obsidian|versi penginstal Obsidian]] terbaru (1.12.4 atau lebih baru).
+- Pastikan Anda menggunakan [[Perbarui Obsidian|versi penginstal Obsidian]] terbaru (1.12.7 atau lebih baru).
+- Jika Anda baru saja memperbarui Obsidian dari versi sebelumnya, matikan pengaturan CLI lalu aktifkan kembali, kemudian izinkan Obsidian melakukan pendaftaran PATH otomatis.
 - Mulai ulang terminal Anda setelah mendaftarkan CLI agar perubahan PATH berlaku.
-- Obsidian harus berjalan. CLI terhubung ke instance Obsidian yang sedang berjalan. Jika Obsidian tidak berjalan, perintah CLI pertama seharusnya meluncurkan aplikasi.
+- Obsidian harus berjalan. CLI terhubung ke instance Obsidian yang sedang berjalan.
 
 ### Windows
 
-Obsidian CLI di Windows memerlukan penginstal Obsidian 1.12.4+. Lihat [[Perbarui Obsidian|Pembaruan versi penginstal]].
+Obsidian CLI di Windows memerlukan penginstal Obsidian 1.12.7+. Lihat [[Perbarui Obsidian|Pembaruan versi penginstal]].
 
-Windows menggunakan redirector terminal yang menghubungkan Obsidian ke stdin/stdout dengan benar. Ini diperlukan karena Obsidian biasanya berjalan sebagai aplikasi GUI yang tidak kompatibel dengan output terminal di Windows. Ketika Anda memasang Obsidian 1.12.4+, redirector terminal `Obsidian.com` akan ditambahkan di folder tempat Anda memasang file `Obsidian.exe`.
+Windows menggunakan redirector terminal yang menghubungkan Obsidian ke stdin/stdout dengan benar. Ini diperlukan karena Obsidian biasanya berjalan sebagai aplikasi GUI yang tidak kompatibel dengan output terminal di Windows. Ketika Anda memasang Obsidian 1.12.7+, redirector terminal `Obsidian.com` akan ditambahkan di folder tempat Anda memasang file `Obsidian.exe`.
+
+Pendaftaran CLI menambahkan Obsidian ke variabel PATH pengguna Anda, yang hanya berlaku setelah Anda memulai ulang terminal.
 
 ### macOS
 
-Pendaftaran CLI menambahkan direktori biner Obsidian ke PATH Anda melalui `~/.zprofile`. Jika Anda mengalami kesulitan, periksa hal berikut:
-
-File `~/.zprofile` Anda harus berisi baris berikut. Jika tidak ada, Anda bisa menambahkannya secara manual:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Shell alternatif
-
-Pendaftaran CLI hanya memodifikasi `~/.zprofile`, yang digunakan oleh zsh (shell bawaan macOS). Jika Anda menggunakan shell berbeda, tambahkan direktori biner Obsidian ke file konfigurasi shell Anda secara manual:
-
-- Bash: tambahkan `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` ke `~/.bash_profile`
-- Fish: jalankan `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
-
-
-### Linux
-
-Pendaftaran CLI membuat symlink di `/usr/local/bin/obsidian` yang menunjuk ke biner Obsidian (memerlukan sudo).
-
-#### AppImage
-
-Untuk instalasi AppImage, symlink menunjuk ke file `.AppImage` alih-alih biner internal, karena path mount berubah setiap peluncuran. Jika sudo gagal, symlink dibuat di `~/.local/bin/obsidian` sebagai alternatif. Jika Anda mengalami kesulitan, periksa hal berikut.
+Pendaftaran CLI membuat symlink di `/usr/local/bin/obsidian` yang menunjuk ke biner CLI yang dibundel di dalam aplikasi. Ini memerlukan hak administrator — Anda akan diminta melalui dialog sistem.
 
 Periksa bahwa symlink ada dan menunjuk ke biner yang benar:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 Jika symlink tidak ada, buat secara manual:
 
 ```
-sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-Jika symlink dibuat di `~/.local/bin/` sebagai gantinya, pastikan direktori tersebut ada di PATH Anda. Tambahkan yang berikut ke `~/.bashrc` atau `~/.zshrc` Anda:
+> [!note] Jika Anda sebelumnya mendaftarkan CLI dengan versi Obsidian yang lebih lama, Anda mungkin memiliki entri PATH yang tersisa di `~/.zprofile`. Proses pendaftaran baru menghapus ini secara otomatis, tetapi jika masih ada, Anda bisa dengan aman menghapus baris yang dimulai dengan `# Added by Obsidian` dari `~/.zprofile`.
+
+### Linux
+
+Pendaftaran CLI menyalin biner CLI ke `~/.local/bin/obsidian`. Ini dilakukan karena beberapa metode instalasi Linux berjalan dari direktori sementara yang tidak bisa di-symlink secara persisten.
+
+Pastikan `~/.local/bin` ada di PATH Anda. Tambahkan yang berikut ke `~/.bashrc` atau `~/.zshrc` Anda jika belum ada:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Jika symlink rusak setelah memindahkan atau mengganti nama file `.AppImage`, daftarkan ulang CLI atau perbarui symlink secara manual.
-
-#### Snap
-
-Paket Snap menyimpan data build Insider di direktori data pengguna miliknya sendiri. Jika CLI tidak mendeteksi `.asar` insider, atur `XDG_CONFIG_HOME` untuk menunjuk ke path konfigurasi Snap:
+Periksa bahwa biner ada:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-Tambahkan ini ke `~/.bashrc` atau `~/.zshrc` Anda agar bersifat persisten.
-
-
-#### Flatpak
-
-Obsidian mencoba melakukan ini secara otomatis, tetapi berikut adalah instruksi manualnya. Jika ini adalah instalasi sistem:
+Jika biner tidak ada, salin secara manual dari direktori instalasi Obsidian:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-Jika ini adalah instalasi pengguna:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

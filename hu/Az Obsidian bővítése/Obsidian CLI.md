@@ -13,7 +13,7 @@ Bármit, amit az Obsidianban meg tudsz csinálni, megteheted a parancssorból is
 
 ## Az Obsidian CLI telepítése
 
-Frissíts a legújabb [[Az Obsidian frissítése|Obsidian telepítőverzióra]] (1.11.7) és a legújabb [[Korai hozzáférésű verziók|korai hozzáférésű verzióra]] (1.12.x).
+Frissíts a legújabb [[Az Obsidian frissítése|Obsidian telepítőverzióra]] (1.12.7+).
 
 Engedélyezd az Obsidian CLI-t az Obsidianban:
 
@@ -1477,41 +1477,22 @@ Ezek a billentyűparancsok a [[#A terminál felület használata|TUI-ban]] érhe
 
 Ha problémáid vannak az Obsidian CLI futtatásával:
 
-- Győződj meg róla, hogy a legújabb [[Az Obsidian frissítése|Obsidian telepítőverziót]] használod (1.12.4 vagy újabb).
+- Győződj meg róla, hogy a legújabb [[Az Obsidian frissítése|Obsidian telepítőverziót]] használod (1.12.7 vagy újabb).
+- Ha éppen egy korábbi verzióról frissítetted az Obsidiant, kapcsold ki a CLI beállítást, majd kapcsold vissza, és hagyd, hogy az Obsidian elvégezze az automatikus PATH regisztrációt.
 - Indítsd újra a terminált a CLI regisztrálása után, hogy a PATH változások érvénybe lépjenek.
-- Az Obsidiannak futnia kell. A CLI a futó Obsidian példányhoz csatlakozik. Ha az Obsidian nem fut, az első CLI parancsnak el kell indítania az alkalmazást.
+- Az Obsidiannak futnia kell. A CLI a futó Obsidian példányhoz csatlakozik.
 
 ### Windows
 
-Az Obsidian CLI Windowson az Obsidian 1.12.4+ telepítőt igényli. Lásd: [[Az Obsidian frissítése|Telepítőverzió frissítése]].
+Az Obsidian CLI Windowson az Obsidian 1.12.7+ telepítőt igényli. Lásd: [[Az Obsidian frissítése|Telepítőverzió frissítése]].
 
-A Windows egy terminál átirányítót használ, amely megfelelően csatlakoztatja az Obsidiant az stdin/stdout-hoz. Ez szükséges, mert az Obsidian normál esetben GUI alkalmazásként fut, ami inkompatibilis a terminál kimenetekkel Windowson. Amikor telepíted az Obsidian 1.12.4+ verziót, az `Obsidian.com` terminál átirányító az `Obsidian.exe` fájl mappájában lesz hozzáadva.
+A Windows egy terminál átirányítót használ, amely megfelelően csatlakoztatja az Obsidiant az stdin/stdout-hoz. Ez szükséges, mert az Obsidian normál esetben GUI alkalmazásként fut, ami inkompatibilis a terminál kimenetekkel Windowson. Amikor telepíted az Obsidian 1.12.7+ verziót, az `Obsidian.com` terminál átirányító az `Obsidian.exe` fájl mappájában lesz hozzáadva.
+
+A CLI regisztráció hozzáadja az Obsidiant a felhasználó PATH változójához, ami csak a terminál újraindítása után lép érvénybe.
 
 ### macOS
 
-A CLI regisztráció hozzáadja az Obsidian bináris könyvtárat a PATH-hoz a `~/.zprofile` fájlon keresztül. Ha problémáid vannak, ellenőrizd a következőket:
-
-A `~/.zprofile` fájlnak a következő sort kell tartalmaznia. Ha hiányzik, manuálisan is hozzáadhatod:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Alternatív shellek
-
-A CLI regisztráció csak a `~/.zprofile` fájlt módosítja, amelyet a zsh (a macOS alapértelmezett shellje) használ. Ha más shellt használsz, manuálisan add hozzá az Obsidian bináris könyvtárat a shelled konfigurációs fájljához:
-
-- Bash: add hozzá az `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` sort a `~/.bash_profile` fájlhoz
-- Fish: futtasd a `fish_add_path /Applications/Obsidian.app/Contents/MacOS` parancsot
-
-
-### Linux
-
-A CLI regisztráció egy szimbolikus hivatkozást hoz létre a `/usr/local/bin/obsidian` helyen, amely az Obsidian binárisra mutat (sudo szükséges).
-
-#### AppImage
-
-AppImage telepítéseknél a szimbolikus hivatkozás az `.AppImage` fájlra mutat a belső bináris helyett, mivel a csatolási útvonal minden indításkor változik. Ha a sudo sikertelen, a szimbolikus hivatkozás a `~/.local/bin/obsidian` helyen jön létre tartalékként. Ha problémáid vannak, ellenőrizd a következőket.
+A CLI regisztráció egy szimbolikus hivatkozást hoz létre a `/usr/local/bin/obsidian` helyen, amely az alkalmazásba csomagolt CLI binárisra mutat. Ehhez rendszergazdai jogosultság szükséges — egy rendszerpárbeszédablak fogja kérni a hitelesítést.
 
 Ellenőrizd, hogy a szimbolikus hivatkozás létezik és a megfelelő binárisra mutat:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 Ha a szimbolikus hivatkozás hiányzik, hozd létre manuálisan:
 
 ```
-sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-Ha a szimbolikus hivatkozás a `~/.local/bin/` könyvtárban jött létre, győződj meg róla, hogy ez a könyvtár szerepel a PATH-ban. Add hozzá a következőt a `~/.bashrc` vagy `~/.zshrc` fájlhoz:
+> [!note] Ha korábban az Obsidian egy régebbi verziójával regisztráltad a CLI-t, lehet, hogy maradt egy PATH bejegyzés a `~/.zprofile` fájlban. Az új regisztrációs folyamat ezt automatikusan eltávolítja, de ha megmarad, nyugodtan törölheted a `# Added by Obsidian` kezdetű sorokat a `~/.zprofile` fájlból.
+
+### Linux
+
+A CLI regisztráció a CLI binárist a `~/.local/bin/obsidian` helyre másolja. Erre azért van szükség, mert egyes Linux telepítési módszerek ideiglenes könyvtárakból futnak, amelyekre nem lehet tartósan szimbolikus hivatkozást létrehozni.
+
+Győződj meg róla, hogy a `~/.local/bin` szerepel a PATH-ban. Ha nem, add hozzá a következőt a `~/.bashrc` vagy `~/.zshrc` fájlhoz:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Ha a szimbolikus hivatkozás elromlik az `.AppImage` fájl áthelyezése vagy átnevezése után, regisztráld újra a CLI-t vagy frissítsd manuálisan a szimbolikus hivatkozást.
-
-#### Snap
-
-A Snap csomag saját felhasználói adatkönyvtárban tárolja az Insider build adatokat. Ha a CLI nem észleli az insider `.asar` fájlt, állítsd be az `XDG_CONFIG_HOME` változót a Snap konfigurációs útvonalra:
+Ellenőrizd, hogy a bináris létezik:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-Add hozzá ezt a `~/.bashrc` vagy `~/.zshrc` fájlhoz a tartós beállításhoz.
-
-
-#### Flatpak
-
-Az Obsidian megpróbálja ezt automatikusan elvégezni, de alább találod a manuális utasításokat. Ha rendszerszintű telepítés:
+Ha a bináris hiányzik, másold manuálisan az Obsidian telepítési könyvtárából:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-Ha felhasználói szintű telepítés:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

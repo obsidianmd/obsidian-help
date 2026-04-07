@@ -13,7 +13,7 @@ Obsidian CLI הוא ממשק שורת פקודה שמאפשר לשלוט ב-Obsi
 
 ## התקנת Obsidian CLI
 
-שדרגו לגרסה האחרונה של [[עדכון Obsidian|תוכנית ההתקנה של Obsidian]] (1.11.7) ולגרסת [[גרסאות גישה מוקדמת|גישה מוקדמת]] (1.12.x) האחרונה.
+שדרגו לגרסה האחרונה של [[עדכון Obsidian|תוכנית ההתקנה של Obsidian]] (1.12.7+).
 
 הפעילו את Obsidian CLI ב-Obsidian:
 
@@ -1477,41 +1477,22 @@ code=<javascript>  # (חובה) קוד JavaScript להרצה
 
 אם אתם נתקלים בבעיות בהרצת Obsidian CLI:
 
-- ודאו שאתם משתמשים בגרסה האחרונה של [[עדכון Obsidian|תוכנית ההתקנה של Obsidian]] (1.12.4 או מעלה).
+- ודאו שאתם משתמשים בגרסה האחרונה של [[עדכון Obsidian|תוכנית ההתקנה של Obsidian]] (1.12.7 או מעלה).
+- אם זה עתה עדכנתם את Obsidian מגרסה מוקדמת יותר, כבו את הגדרת ה-CLI והפעילו אותה מחדש, ואז אפשרו ל-Obsidian לבצע את רישום ה-PATH האוטומטי.
 - הפעילו מחדש את הטרמינל לאחר רישום ה-CLI כדי ששינויי ה-PATH ייכנסו לתוקף.
-- Obsidian חייב לפעול. ה-CLI מתחבר למופע Obsidian הפועל. אם Obsidian לא פועל, פקודת ה-CLI הראשונה אמורה להפעיל את האפליקציה.
+- Obsidian חייב לפעול. ה-CLI מתחבר למופע Obsidian הפועל.
 
 ### Windows
 
-Obsidian CLI ב-Windows דורש תוכנית התקנה של Obsidian 1.12.4+. ראו [[עדכון Obsidian|עדכון גרסת תוכנית ההתקנה]].
+Obsidian CLI ב-Windows דורש תוכנית התקנה של Obsidian 1.12.7+. ראו [[עדכון Obsidian|עדכון גרסת תוכנית ההתקנה]].
 
-Windows משתמש במפנה טרמינל שמחבר את Obsidian ל-stdin/stdout כראוי. זה הכרחי מכיוון ש-Obsidian בדרך כלל פועל כאפליקציית GUI שאינה תואמת לפלטי טרמינל ב-Windows. כאשר אתם מתקינים Obsidian 1.12.4+ מפנה הטרמינל `Obsidian.com` יתווסף לתיקייה בה התקנתם את קובץ `Obsidian.exe`.
+Windows משתמש במפנה טרמינל שמחבר את Obsidian ל-stdin/stdout כראוי. זה הכרחי מכיוון ש-Obsidian בדרך כלל פועל כאפליקציית GUI שאינה תואמת לפלטי טרמינל ב-Windows. כאשר אתם מתקינים Obsidian 1.12.7+ מפנה הטרמינל `Obsidian.com` יתווסף לתיקייה בה התקנתם את קובץ `Obsidian.exe`.
+
+רישום ה-CLI מוסיף את Obsidian למשתנה PATH של המשתמש שלכם, מה שנכנס לתוקף רק לאחר הפעלה מחדש של הטרמינל.
 
 ### macOS
 
-רישום ה-CLI מוסיף את ספריית הבינארי של Obsidian ל-PATH שלכם דרך `~/.zprofile`. אם אתם נתקלים בבעיות, בדקו את הדברים הבאים:
-
-קובץ `~/.zprofile` שלכם צריך להכיל את השורה הבאה. אם היא חסרה, תוכלו להוסיף אותה ידנית:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### מעטפות חלופיות
-
-רישום ה-CLI משנה רק את `~/.zprofile`, שמשמש את zsh (מעטפת ברירת המחדל של macOS). אם אתם משתמשים במעטפת אחרת, הוסיפו את ספריית הבינארי של Obsidian לקובץ התצורה של המעטפת שלכם ידנית:
-
-- Bash: הוסיפו `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` ל-`~/.bash_profile`
-- Fish: הריצו `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
-
-
-### Linux
-
-רישום ה-CLI יוצר קישור סמלי ב-`/usr/local/bin/obsidian` שמצביע לבינארי של Obsidian (דורש sudo).
-
-#### AppImage
-
-להתקנות AppImage, הקישור הסמלי מצביע לקובץ `.AppImage` במקום לבינארי הפנימי, מכיוון שנתיב ההרכבה משתנה בכל הפעלה. אם sudo נכשל, הקישור הסמלי נוצר ב-`~/.local/bin/obsidian` כגיבוי. אם אתם נתקלים בבעיות, בדקו את הדברים הבאים.
+רישום ה-CLI יוצר קישור סמלי ב-`/usr/local/bin/obsidian` שמצביע לבינארי ה-CLI המצורף בתוך האפליקציה. פעולה זו דורשת הרשאות מנהל — תוצג לכם בקשה באמצעות דו-שיח מערכתי.
 
 בדקו שהקישור הסמלי קיים ומצביע לבינארי הנכון:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 אם הקישור הסמלי חסר, צרו אותו ידנית:
 
 ```
-sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-אם הקישור הסמלי נוצר ב-`~/.local/bin/` במקום, ודאו שספרייה זו נמצאת ב-PATH שלכם. הוסיפו את הדברים הבאים ל-`~/.bashrc` או `~/.zshrc`:
+> [!note] אם רשמתם את ה-CLI בעבר עם גרסה ישנה יותר של Obsidian, ייתכן שנשאר ערך PATH ב-`~/.zprofile`. תהליך הרישום החדש מסיר זאת אוטומטית, אך אם הוא נשאר, תוכלו למחוק בביטחון את השורות שמתחילות ב-`# Added by Obsidian` מ-`~/.zprofile`.
+
+### Linux
+
+רישום ה-CLI מעתיק את בינארי ה-CLI ל-`~/.local/bin/obsidian`. פעולה זו נעשית מכיוון שחלק משיטות ההתקנה ב-Linux פועלות מספריות זמניות שלא ניתן ליצור אליהן קישורים סמליים באופן קבוע.
+
+ודאו ש-`~/.local/bin` נמצא ב-PATH שלכם. הוסיפו את הדברים הבאים ל-`~/.bashrc` או `~/.zshrc` אם הוא לא שם:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-אם הקישור הסמלי נשבר לאחר העברה או שינוי שם של קובץ `.AppImage`, רשמו מחדש את ה-CLI או עדכנו את הקישור הסמלי ידנית.
-
-#### Snap
-
-חבילת Snap מאחסנת נתוני בניות Insider בספריית נתוני המשתמש שלה. אם ה-CLI לא מזהה את ה-`.asar` של Insider, הגדירו `XDG_CONFIG_HOME` שיצביע לנתיב התצורה של Snap:
+בדקו שהבינארי קיים:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-הוסיפו זאת ל-`~/.bashrc` או `~/.zshrc` שלכם כדי שיהיה קבוע.
-
-
-#### Flatpak
-
-Obsidian מנסה לעשות זאת אוטומטית, אך להלן ההוראות הידניות. אם זו התקנת מערכת:
+אם הבינארי חסר, העתיקו אותו ידנית מספריית ההתקנה של Obsidian:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-אם זו התקנת משתמש:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

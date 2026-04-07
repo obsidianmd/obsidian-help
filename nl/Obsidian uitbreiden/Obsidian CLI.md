@@ -13,7 +13,7 @@ Alles wat je in Obsidian kunt doen, kun je ook vanaf de opdrachtregel doen. Obsi
 
 ## Obsidian CLI installeren
 
-Upgrade naar de nieuwste [[Obsidian bijwerken|Obsidian installatieprogrammaversie]] (1.11.7) en de nieuwste [[Vroege-toegangsversies|vroege-toegangsversie]] (1.12.x).
+Upgrade naar de nieuwste [[Obsidian bijwerken|Obsidian installatieprogrammaversie]] (1.12.7+).
 
 Schakel Obsidian CLI in binnen Obsidian:
 
@@ -1477,41 +1477,22 @@ Deze sneltoetsen zijn beschikbaar in de [[#De terminalinterface gebruiken|TUI]].
 
 Als je problemen hebt met het uitvoeren van Obsidian CLI:
 
-- Zorg ervoor dat je de nieuwste [[Obsidian bijwerken|Obsidian installatieprogrammaversie]] (1.12.4 of hoger) gebruikt.
+- Zorg ervoor dat je de nieuwste [[Obsidian bijwerken|Obsidian installatieprogrammaversie]] (1.12.7 of hoger) gebruikt.
+- Als je Obsidian net hebt bijgewerkt vanuit een eerdere versie, schakel dan de CLI-instelling uit en weer in, en laat Obsidian vervolgens de automatische PATH-registratie uitvoeren.
 - Herstart je terminal na het registreren van de CLI zodat de PATH-wijzigingen van kracht worden.
-- Obsidian moet actief zijn. De CLI maakt verbinding met de actieve Obsidian-instantie. Als Obsidian niet actief is, zou de eerste CLI-opdracht de app moeten starten.
+- Obsidian moet actief zijn. De CLI maakt verbinding met de actieve Obsidian-instantie.
 
 ### Windows
 
-Obsidian CLI op Windows vereist het Obsidian 1.12.4+ installatieprogramma. Zie [[Obsidian bijwerken|Installatieprogrammaversie-update]].
+Obsidian CLI op Windows vereist het Obsidian 1.12.7+ installatieprogramma. Zie [[Obsidian bijwerken|Installatieprogrammaversie-update]].
 
-Windows gebruikt een terminal-redirector die Obsidian correct verbindt met stdin/stdout. Dit is nodig omdat Obsidian normaal als GUI-app draait, wat incompatibel is met terminaluitvoer op Windows. Wanneer je Obsidian 1.12.4+ installeert, wordt de `Obsidian.com` terminal-redirector toegevoegd in de map waar je het `Obsidian.exe`-bestand hebt geïnstalleerd.
+Windows gebruikt een terminal-redirector die Obsidian correct verbindt met stdin/stdout. Dit is nodig omdat Obsidian normaal als GUI-app draait, wat incompatibel is met terminaluitvoer op Windows. Wanneer je Obsidian 1.12.7+ installeert, wordt de `Obsidian.com` terminal-redirector toegevoegd in de map waar je het `Obsidian.exe`-bestand hebt geïnstalleerd.
+
+De CLI-registratie voegt Obsidian toe aan de PATH-variabele van je gebruiker, wat pas van kracht wordt nadat je de terminal opnieuw hebt gestart.
 
 ### macOS
 
-De CLI-registratie voegt de Obsidian-binaire map toe aan je PATH via `~/.zprofile`. Als je problemen ondervindt, controleer het volgende:
-
-Je `~/.zprofile`-bestand zou de volgende regel moeten bevatten. Als deze ontbreekt, kun je deze handmatig toevoegen:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Alternatieve shells
-
-De CLI-registratie wijzigt alleen `~/.zprofile`, dat wordt gebruikt door zsh (de standaard macOS-shell). Als je een andere shell gebruikt, voeg dan de Obsidian-binaire map handmatig toe aan het configuratiebestand van je shell:
-
-- Bash: voeg `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` toe aan `~/.bash_profile`
-- Fish: voer `fish_add_path /Applications/Obsidian.app/Contents/MacOS` uit
-
-
-### Linux
-
-De CLI-registratie maakt een symlink aan op `/usr/local/bin/obsidian` die verwijst naar het Obsidian-binaire bestand (vereist sudo).
-
-#### AppImage
-
-Bij AppImage-installaties verwijst de symlink naar het `.AppImage`-bestand in plaats van het interne binaire bestand, omdat het koppelingspad bij elke start verandert. Als sudo mislukt, wordt de symlink als terugval aangemaakt op `~/.local/bin/obsidian`. Als je problemen ondervindt, controleer het volgende.
+De CLI-registratie maakt een symlink aan op `/usr/local/bin/obsidian` die verwijst naar het CLI-binaire bestand dat bij de app is gebundeld. Hiervoor zijn beheerdersbevoegdheden vereist — je wordt gevraagd via een systeemvenster.
 
 Controleer of de symlink bestaat en naar het juiste binaire bestand verwijst:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 Als de symlink ontbreekt, maak deze dan handmatig aan:
 
 ```
-sudo ln -s /pad/naar/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-Als de symlink in `~/.local/bin/` is aangemaakt, zorg er dan voor dat die map in je PATH staat. Voeg het volgende toe aan je `~/.bashrc` of `~/.zshrc`:
+> [!note] Als je de CLI eerder hebt geregistreerd met een oudere versie van Obsidian, heb je mogelijk een overgebleven PATH-vermelding in `~/.zprofile`. Het nieuwe registratieproces verwijdert deze automatisch, maar als deze blijft staan, kun je de regels die beginnen met `# Added by Obsidian` veilig verwijderen uit `~/.zprofile`.
+
+### Linux
+
+De CLI-registratie kopieert het CLI-binaire bestand naar `~/.local/bin/obsidian`. Dit wordt gedaan omdat sommige Linux-installatiemethoden vanuit tijdelijke mappen draaien die niet persistent gesymlinkt kunnen worden.
+
+Zorg ervoor dat `~/.local/bin` in je PATH staat. Voeg het volgende toe aan je `~/.bashrc` of `~/.zshrc` als dat niet het geval is:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Als de symlink breekt na het verplaatsen of hernoemen van het `.AppImage`-bestand, registreer de CLI opnieuw of werk de symlink handmatig bij.
-
-#### Snap
-
-Het Snap-pakket slaat insider-buildgegevens op in zijn eigen gebruikersgegevensmap. Als de CLI het insider `.asar`-bestand niet detecteert, stel `XDG_CONFIG_HOME` in om naar het Snap-configuratiepad te verwijzen:
+Controleer of het binaire bestand bestaat:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-Voeg dit toe aan je `~/.bashrc` of `~/.zshrc` om het permanent te maken.
-
-
-#### Flatpak
-
-Obsidian probeert dit automatisch te doen, maar hieronder staan de handmatige instructies. Als het een systeeminstallatie is:
+Als het binaire bestand ontbreekt, kopieer het dan handmatig vanuit de Obsidian-installatiemap:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-Als het een gebruikersinstallatie is:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /pad/naar/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

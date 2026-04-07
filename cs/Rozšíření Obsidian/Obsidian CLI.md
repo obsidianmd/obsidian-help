@@ -13,7 +13,7 @@ Cokoli můžete udělat v Obsidian, můžete udělat i z příkazového řádku.
 
 ## Instalace Obsidian CLI
 
-Aktualizujte na nejnovější [[Aktualizace Obsidian|verzi instalátoru Obsidian]] (1.11.7) a nejnovější [[Verze s předběžným přístupem|verzi s předběžným přístupem]] (1.12.x).
+Aktualizujte na nejnovější [[Aktualizace Obsidian|verzi instalátoru Obsidian]] (1.12.7+).
 
 Zapněte Obsidian CLI v Obsidian:
 
@@ -1477,41 +1477,22 @@ Tyto zkratky jsou dostupné v [[#Použití terminálového rozhraní|TUI]].
 
 Pokud máte problémy se spuštěním Obsidian CLI:
 
-- Ujistěte se, že používáte nejnovější [[Aktualizace Obsidian|verzi instalátoru Obsidian]] (1.12.4 nebo vyšší).
+- Ujistěte se, že používáte nejnovější [[Aktualizace Obsidian|verzi instalátoru Obsidian]] (1.12.7 nebo vyšší).
+- Pokud jste právě aktualizovali Obsidian ze starší verze, vypněte nastavení CLI a znovu ho zapněte, poté nechte Obsidian provést automatickou registraci PATH.
 - Po zaregistrování CLI restartujte terminál, aby se změny PATH projevily.
-- Obsidian musí být spuštěn. CLI se připojuje k běžící instanci Obsidian. Pokud Obsidian neběží, první příkaz CLI by měl aplikaci spustit.
+- Obsidian musí být spuštěn. CLI se připojuje k běžící instanci Obsidian.
 
 ### Windows
 
-Obsidian CLI na Windows vyžaduje instalátor Obsidian 1.12.4+. Viz [[Aktualizace Obsidian|aktualizace verze instalátoru]].
+Obsidian CLI na Windows vyžaduje instalátor Obsidian 1.12.7+. Viz [[Aktualizace Obsidian|aktualizace verze instalátoru]].
 
-Windows používá terminálový přesměrovač, který správně propojuje Obsidian se stdin/stdout. To je nutné, protože Obsidian normálně běží jako GUI aplikace, která je na Windows nekompatibilní s terminálovými výstupy. Při instalaci Obsidian 1.12.4+ bude terminálový přesměrovač `Obsidian.com` přidán do složky, kde jste nainstalovali soubor `Obsidian.exe`.
+Windows používá terminálový přesměrovač, který správně propojuje Obsidian se stdin/stdout. To je nutné, protože Obsidian normálně běží jako GUI aplikace, která je na Windows nekompatibilní s terminálovými výstupy. Při instalaci Obsidian 1.12.7+ bude terminálový přesměrovač `Obsidian.com` přidán do složky, kde jste nainstalovali soubor `Obsidian.exe`.
+
+Registrace CLI přidá Obsidian do uživatelské proměnné PATH, která se projeví až po restartování terminálu.
 
 ### macOS
 
-Registrace CLI přidá adresář binárního souboru Obsidian do vaší PATH přes `~/.zprofile`. Pokud máte problémy, zkontrolujte následující:
-
-Váš soubor `~/.zprofile` by měl obsahovat následující řádek. Pokud chybí, můžete ho přidat ručně:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Alternativní shelly
-
-Registrace CLI upravuje pouze `~/.zprofile`, který používá zsh (výchozí macOS shell). Pokud používáte jiný shell, přidejte adresář binárního souboru Obsidian do konfiguračního souboru vašeho shellu ručně:
-
-- Bash: přidejte `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` do `~/.bash_profile`
-- Fish: spusťte `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
-
-
-### Linux
-
-Registrace CLI vytvoří symbolický odkaz na `/usr/local/bin/obsidian` směřující na binární soubor Obsidian (vyžaduje sudo).
-
-#### AppImage
-
-Pro instalace AppImage směřuje symbolický odkaz na soubor `.AppImage` místo interního binárního souboru, protože připojovací cesta se mění při každém spuštění. Pokud sudo selže, symbolický odkaz je vytvořen na `~/.local/bin/obsidian` jako záložní varianta. Pokud máte problémy, zkontrolujte následující.
+Registrace CLI vytvoří symbolický odkaz na `/usr/local/bin/obsidian` směřující na binární soubor CLI přibalený uvnitř aplikace. To vyžaduje oprávnění správce — budete vyzváni přes systémový dialog.
 
 Ověřte, že symbolický odkaz existuje a směřuje na správný binární soubor:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 Pokud symbolický odkaz chybí, vytvořte ho ručně:
 
 ```
-sudo ln -s /cesta/k/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-Pokud byl symbolický odkaz vytvořen v `~/.local/bin/` místo toho, ujistěte se, že tento adresář je ve vaší PATH. Přidejte následující do vašeho `~/.bashrc` nebo `~/.zshrc`:
+> [!note] Pokud jste dříve zaregistrovali CLI se starší verzí Obsidian, může vám v `~/.zprofile` zůstat záznam PATH. Nový proces registrace ho odstraní automaticky, ale pokud zůstane, můžete bezpečně smazat řádky začínající `# Added by Obsidian` z `~/.zprofile`.
+
+### Linux
+
+Registrace CLI zkopíruje binární soubor CLI do `~/.local/bin/obsidian`. To se provádí proto, že některé metody instalace na Linuxu běží z dočasných adresářů, které nelze trvale propojit symbolickými odkazy.
+
+Ujistěte se, že `~/.local/bin` je ve vaší PATH. Pokud není, přidejte následující do vašeho `~/.bashrc` nebo `~/.zshrc`:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Pokud se symbolický odkaz přeruší po přesunutí nebo přejmenování souboru `.AppImage`, znovu zaregistrujte CLI nebo aktualizujte symbolický odkaz ručně.
-
-#### Snap
-
-Balíček Snap ukládá data sestavení Insider ve svém vlastním adresáři uživatelských dat. Pokud CLI nedetekuje insider `.asar`, nastavte `XDG_CONFIG_HOME` tak, aby směřoval na konfigurační cestu Snap:
+Ověřte, že binární soubor existuje:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-Přidejte toto do vašeho `~/.bashrc` nebo `~/.zshrc` pro trvalé nastavení.
-
-
-#### Flatpak
-
-Obsidian se to pokusí provést automaticky, ale níže jsou manuální instrukce. Pokud se jedná o systémovou instalaci:
+Pokud binární soubor chybí, zkopírujte ho ručně z instalačního adresáře Obsidian:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-Pokud se jedná o uživatelskou instalaci:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /cesta/k/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

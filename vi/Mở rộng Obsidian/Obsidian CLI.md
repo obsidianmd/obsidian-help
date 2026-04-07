@@ -13,7 +13,7 @@ Mọi thứ bạn có thể làm trong Obsidian đều có thể thực hiện t
 
 ## Cài đặt Obsidian CLI
 
-Nâng cấp lên [[Cập nhật Obsidian|phiên bản trình cài đặt Obsidian]] mới nhất (1.11.7) và [[Phiên bản truy cập sớm|phiên bản truy cập sớm]] mới nhất (1.12.x).
+Nâng cấp lên [[Cập nhật Obsidian|phiên bản trình cài đặt Obsidian]] mới nhất (1.12.7+).
 
 Kích hoạt Obsidian CLI trong Obsidian:
 
@@ -1477,41 +1477,22 @@ Các phím tắt này có sẵn trong [[#Sử dụng giao diện terminal|TUI]].
 
 Nếu bạn gặp khó khăn khi chạy Obsidian CLI:
 
-- Đảm bảo bạn đang sử dụng [[Cập nhật Obsidian|phiên bản trình cài đặt Obsidian]] mới nhất (1.12.4 trở lên).
+- Đảm bảo bạn đang sử dụng [[Cập nhật Obsidian|phiên bản trình cài đặt Obsidian]] mới nhất (1.12.7 trở lên).
+- Nếu bạn vừa cập nhật Obsidian từ phiên bản cũ hơn, hãy tắt cài đặt CLI và bật lại, sau đó cho phép Obsidian thực hiện đăng ký PATH tự động.
 - Khởi động lại terminal sau khi đăng ký CLI để thay đổi PATH có hiệu lực.
-- Obsidian phải đang chạy. CLI kết nối đến phiên bản Obsidian đang chạy. Nếu Obsidian chưa chạy, lệnh CLI đầu tiên sẽ khởi chạy ứng dụng.
+- Obsidian phải đang chạy. CLI kết nối đến phiên bản Obsidian đang chạy.
 
 ### Windows
 
-Obsidian CLI trên Windows yêu cầu trình cài đặt Obsidian 1.12.4+. Xem [[Cập nhật Obsidian|Cập nhật phiên bản trình cài đặt]].
+Obsidian CLI trên Windows yêu cầu trình cài đặt Obsidian 1.12.7+. Xem [[Cập nhật Obsidian|Cập nhật phiên bản trình cài đặt]].
 
-Windows sử dụng trình chuyển hướng terminal kết nối Obsidian với stdin/stdout đúng cách. Điều này là cần thiết vì Obsidian thường chạy như ứng dụng GUI, không tương thích với đầu ra terminal trên Windows. Khi bạn cài đặt Obsidian 1.12.4+, trình chuyển hướng terminal `Obsidian.com` sẽ được thêm vào thư mục nơi bạn cài đặt tệp `Obsidian.exe`.
+Windows sử dụng trình chuyển hướng terminal kết nối Obsidian với stdin/stdout đúng cách. Điều này là cần thiết vì Obsidian thường chạy như ứng dụng GUI, không tương thích với đầu ra terminal trên Windows. Khi bạn cài đặt Obsidian 1.12.7+, trình chuyển hướng terminal `Obsidian.com` sẽ được thêm vào thư mục nơi bạn cài đặt tệp `Obsidian.exe`.
+
+Việc đăng ký CLI thêm Obsidian vào biến PATH của người dùng, chỉ có hiệu lực sau khi bạn khởi động lại terminal.
 
 ### macOS
 
-Việc đăng ký CLI thêm thư mục nhị phân Obsidian vào PATH thông qua `~/.zprofile`. Nếu bạn gặp khó khăn, hãy kiểm tra những điều sau:
-
-Tệp `~/.zprofile` của bạn nên chứa dòng sau. Nếu thiếu, bạn có thể thêm thủ công:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Shell thay thế
-
-Việc đăng ký CLI chỉ sửa đổi `~/.zprofile`, được sử dụng bởi zsh (shell mặc định trên macOS). Nếu bạn sử dụng shell khác, hãy thêm thư mục nhị phân Obsidian vào tệp cấu hình shell của bạn thủ công:
-
-- Bash: thêm `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` vào `~/.bash_profile`
-- Fish: chạy `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
-
-
-### Linux
-
-Việc đăng ký CLI tạo liên kết tượng trưng tại `/usr/local/bin/obsidian` trỏ đến nhị phân Obsidian (yêu cầu sudo).
-
-#### AppImage
-
-Đối với cài đặt AppImage, liên kết tượng trưng trỏ đến tệp `.AppImage` thay vì nhị phân bên trong, vì đường dẫn mount thay đổi mỗi lần khởi chạy. Nếu sudo thất bại, liên kết tượng trưng được tạo tại `~/.local/bin/obsidian` như phương án dự phòng. Nếu bạn gặp khó khăn, hãy kiểm tra những điều sau.
+Việc đăng ký CLI tạo liên kết tượng trưng tại `/usr/local/bin/obsidian` trỏ đến nhị phân CLI được đóng gói bên trong ứng dụng. Điều này yêu cầu quyền quản trị — bạn sẽ được nhắc qua hộp thoại hệ thống.
 
 Kiểm tra liên kết tượng trưng tồn tại và trỏ đến nhị phân đúng:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 Nếu liên kết tượng trưng bị thiếu, tạo thủ công:
 
 ```
-sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-Nếu liên kết tượng trưng được tạo trong `~/.local/bin/` thay vào đó, hãy đảm bảo thư mục đó nằm trong PATH. Thêm dòng sau vào `~/.bashrc` hoặc `~/.zshrc`:
+> [!note] Nếu trước đây bạn đã đăng ký CLI với phiên bản Obsidian cũ hơn, bạn có thể có mục PATH còn sót lại trong `~/.zprofile`. Quy trình đăng ký mới sẽ tự động xóa mục này, nhưng nếu nó vẫn còn, bạn có thể an toàn xóa các dòng bắt đầu bằng `# Added by Obsidian` khỏi `~/.zprofile`.
+
+### Linux
+
+Việc đăng ký CLI sao chép nhị phân CLI vào `~/.local/bin/obsidian`. Điều này được thực hiện vì một số phương thức cài đặt Linux chạy từ các thư mục tạm thời không thể tạo liên kết tượng trưng bền vững.
+
+Đảm bảo `~/.local/bin` nằm trong PATH. Thêm dòng sau vào `~/.bashrc` hoặc `~/.zshrc` nếu chưa có:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Nếu liên kết tượng trưng bị hỏng sau khi di chuyển hoặc đổi tên tệp `.AppImage`, hãy đăng ký lại CLI hoặc cập nhật liên kết tượng trưng thủ công.
-
-#### Snap
-
-Gói Snap lưu trữ dữ liệu bản dựng Insider trong thư mục dữ liệu người dùng riêng. Nếu CLI không phát hiện tệp insider `.asar`, hãy đặt `XDG_CONFIG_HOME` trỏ đến đường dẫn cấu hình Snap:
+Kiểm tra nhị phân tồn tại:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-Thêm dòng này vào `~/.bashrc` hoặc `~/.zshrc` để duy trì.
-
-
-#### Flatpak
-
-Obsidian cố gắng thực hiện tự động, nhưng dưới đây là hướng dẫn thủ công. Nếu là cài đặt hệ thống:
+Nếu nhị phân bị thiếu, sao chép thủ công từ thư mục cài đặt Obsidian:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-Nếu là cài đặt người dùng:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

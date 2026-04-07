@@ -13,7 +13,7 @@ Alt hvad du kan gøre i Obsidian, kan du gøre fra kommandolinjen. Obsidian CLI 
 
 ## Installér Obsidian CLI
 
-Opgrader til den seneste [[Opdatér Obsidian|Obsidian installationsversion]] (1.11.7) og den seneste [[Tidlig adgang-versioner|tidlig adgang-version]] (1.12.x).
+Opgrader til den seneste [[Opdatér Obsidian|Obsidian installationsversion]] (1.12.7+).
 
 Aktivér Obsidian CLI i Obsidian:
 
@@ -1477,41 +1477,22 @@ Disse genveje er tilgængelige i [[#Brug terminalgrænsefladen|TUI]].
 
 Hvis du har problemer med at køre Obsidian CLI:
 
-- Sørg for at du bruger den seneste [[Opdatér Obsidian|Obsidian installationsversion]] (1.12.4 eller nyere).
+- Sørg for at du bruger den seneste [[Opdatér Obsidian|Obsidian installationsversion]] (1.12.7 eller nyere).
+- Hvis du lige har opdateret Obsidian fra en tidligere version, slå CLI-indstillingen fra og tænd den igen, og lad derefter Obsidian udføre den automatiske PATH-registrering.
 - Genstart din terminal efter registrering af CLI, for at PATH-ændringerne træder i kraft.
-- Obsidian skal køre. CLI forbinder til den kørende Obsidian-instans. Hvis Obsidian ikke kører, bør den første CLI-kommando starte applikationen.
+- Obsidian skal køre. CLI forbinder til den kørende Obsidian-instans.
 
 ### Windows
 
-Obsidian CLI på Windows kræver Obsidian 1.12.4+ installationsprogrammet. Se [[Opdatér Obsidian|Opdatering af installationsversion]].
+Obsidian CLI på Windows kræver Obsidian 1.12.7+ installationsprogrammet. Se [[Opdatér Obsidian|Opdatering af installationsversion]].
 
-Windows bruger en terminal-redirector, der forbinder Obsidian korrekt til stdin/stdout. Dette er nødvendigt, fordi Obsidian normalt kører som en GUI-applikation, der er inkompatibel med terminaloutput på Windows. Når du installerer Obsidian 1.12.4+, vil `Obsidian.com` terminal-redirectoren blive tilføjet i mappen, hvor du installerede `Obsidian.exe`-filen.
+Windows bruger en terminal-redirector, der forbinder Obsidian korrekt til stdin/stdout. Dette er nødvendigt, fordi Obsidian normalt kører som en GUI-applikation, der er inkompatibel med terminaloutput på Windows. Når du installerer Obsidian 1.12.7+, vil `Obsidian.com` terminal-redirectoren blive tilføjet i mappen, hvor du installerede `Obsidian.exe`-filen.
+
+CLI-registreringen tilføjer Obsidian til din brugers PATH-variabel, hvilket først træder i kraft, efter du genstarter terminalen.
 
 ### macOS
 
-CLI-registreringen tilføjer Obsidian-binærmappen til din PATH via `~/.zprofile`. Hvis du har problemer, tjek følgende:
-
-Din `~/.zprofile`-fil bør indeholde følgende linje. Hvis den mangler, kan du tilføje den manuelt:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Alternative shells
-
-CLI-registreringen ændrer kun `~/.zprofile`, som bruges af zsh (standard macOS-shell). Hvis du bruger en anden shell, tilføj Obsidian-binærmappen til din shells konfigurationsfil manuelt:
-
-- Bash: tilføj `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` til `~/.bash_profile`
-- Fish: kør `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
-
-
-### Linux
-
-CLI-registreringen opretter et symbolsk link på `/usr/local/bin/obsidian`, der peger på Obsidian-binæren (kræver sudo).
-
-#### AppImage
-
-For AppImage-installationer peger det symbolske link på `.AppImage`-filen i stedet for den interne binær, da monteringsstien ændres ved hver opstart. Hvis sudo fejler, oprettes det symbolske link på `~/.local/bin/obsidian` som alternativ. Hvis du har problemer, tjek følgende.
+CLI-registreringen opretter et symbolsk link på `/usr/local/bin/obsidian`, der peger på CLI-binæren, som er bundlet inde i applikationen. Dette kræver administratorrettigheder — du vil blive bedt om det via en systemdialog.
 
 Tjek at det symbolske link eksisterer og peger på den korrekte binær:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 Hvis det symbolske link mangler, opret det manuelt:
 
 ```
-sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-Hvis det symbolske link blev oprettet i `~/.local/bin/` i stedet, sørg for at den mappe er i din PATH. Tilføj følgende til din `~/.bashrc` eller `~/.zshrc`:
+> [!note] Hvis du tidligere har registreret CLI med en ældre version af Obsidian, kan du have en tilbageværende PATH-post i `~/.zprofile`. Den nye registreringsproces fjerner dette automatisk, men hvis det forbliver, kan du trygt slette linjerne der starter med `# Added by Obsidian` fra `~/.zprofile`.
+
+### Linux
+
+CLI-registreringen kopierer CLI-binæren til `~/.local/bin/obsidian`. Dette gøres, fordi nogle Linux-installationsmetoder kører fra midlertidige mapper, der ikke kan oprettes symbolske links til permanent.
+
+Sørg for at `~/.local/bin` er i din PATH. Tilføj følgende til din `~/.bashrc` eller `~/.zshrc`, hvis det ikke er:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Hvis det symbolske link går i stykker efter flytning eller omdøbning af `.AppImage`-filen, genregistrér CLI eller opdatér det symbolske link manuelt.
-
-#### Snap
-
-Snap-pakken gemmer insiderversionsdata i sin egen brugerdatamappe. Hvis CLI ikke registrerer insider `.asar`-filen, sæt `XDG_CONFIG_HOME` til at pege på Snap-konfigurationsstien:
+Tjek at binæren eksisterer:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-Tilføj dette til din `~/.bashrc` eller `~/.zshrc` for at gøre det permanent.
-
-
-#### Flatpak
-
-Obsidian forsøger at gøre dette automatisk, men herunder er de manuelle instruktioner. Hvis det er en systeminstallation:
+Hvis binæren mangler, kopiér den manuelt fra Obsidian-installationsmappen:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-Hvis det er en brugerinstallation:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

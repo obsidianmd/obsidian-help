@@ -1,6 +1,6 @@
 ---
 permalink: cli
-description: Alles, was du in Obsidian tun kannst, lässt sich auch über die Befehlszeile erledigen.
+description: 'Alles, was du in Obsidian tun kannst, lässt sich auch über die Befehlszeile erledigen.'
 ---
 Obsidian CLI ist eine Befehlszeilenschnittstelle, mit der du Obsidian von deinem Terminal aus steuern kannst – für Skripte, Automatisierung und Integration mit externen Werkzeugen.
 
@@ -13,7 +13,7 @@ Alles, was du in Obsidian tun kannst, lässt sich auch über die Befehlszeile er
 
 ## Obsidian CLI installieren
 
-Aktualisiere auf die neueste [[Obsidian aktualisieren|Obsidian-Installationsversion]] (1.11.7) und die neueste [[Vorabversionen|Vorabversion]] (1.12.x).
+Aktualisiere auf die neueste [[Obsidian aktualisieren|Obsidian-Installationsversion]] (1.12.7+).
 
 Aktiviere Obsidian CLI in Obsidian:
 
@@ -1477,41 +1477,22 @@ Diese Tastenkürzel sind in der [[#Die Terminal-Oberfläche verwenden|TUI]] verf
 
 Falls du Probleme beim Ausführen von Obsidian CLI hast:
 
-- Stelle sicher, dass du die neueste [[Obsidian aktualisieren|Obsidian-Installationsversion]] (1.12.4 oder höher) verwendest.
+- Stelle sicher, dass du die neueste [[Obsidian aktualisieren|Obsidian-Installationsversion]] (1.12.7 oder höher) verwendest.
+- Wenn du Obsidian gerade von einer älteren Version aktualisiert hast, deaktiviere die CLI-Einstellung und aktiviere sie erneut, und erlaube Obsidian dann die automatische PATH-Registrierung durchzuführen.
 - Starte dein Terminal nach der CLI-Registrierung neu, damit die PATH-Änderungen wirksam werden.
-- Obsidian muss laufen. Die CLI verbindet sich mit der laufenden Obsidian-Instanz. Wenn Obsidian nicht läuft, sollte der erste CLI-Befehl die App starten.
+- Obsidian muss laufen. Die CLI verbindet sich mit der laufenden Obsidian-Instanz.
 
 ### Windows
 
-Obsidian CLI unter Windows erfordert das Obsidian 1.12.4+ Installationsprogramm. Siehe [[Obsidian aktualisieren|Installationsversion aktualisieren]].
+Obsidian CLI unter Windows erfordert das Obsidian 1.12.7+ Installationsprogramm. Siehe [[Obsidian aktualisieren|Installationsversion aktualisieren]].
 
-Windows verwendet einen Terminal-Redirector, der Obsidian korrekt mit stdin/stdout verbindet. Dies ist notwendig, da Obsidian normalerweise als GUI-App läuft, die mit Terminal-Ausgaben unter Windows inkompatibel ist. Wenn du Obsidian 1.12.4+ installierst, wird der Terminal-Redirector `Obsidian.com` im Ordner hinzugefügt, in dem du die Datei `Obsidian.exe` installiert hast.
+Windows verwendet einen Terminal-Redirector, der Obsidian korrekt mit stdin/stdout verbindet. Dies ist notwendig, da Obsidian normalerweise als GUI-App läuft, die mit Terminal-Ausgaben unter Windows inkompatibel ist. Wenn du Obsidian 1.12.7+ installierst, wird der Terminal-Redirector `Obsidian.com` im Ordner hinzugefügt, in dem du die Datei `Obsidian.exe` installiert hast.
+
+Die CLI-Registrierung fügt Obsidian in die PATH-Variable deines Benutzers ein, die erst nach einem Neustart des Terminals wirksam wird.
 
 ### macOS
 
-Die CLI-Registrierung fügt das Obsidian-Binärverzeichnis über `~/.zprofile` zu deinem PATH hinzu. Falls du Probleme hast, überprüfe Folgendes:
-
-Deine `~/.zprofile`-Datei sollte die folgende Zeile enthalten. Falls sie fehlt, kannst du sie manuell hinzufügen:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Alternative Shells
-
-Die CLI-Registrierung ändert nur `~/.zprofile`, das von zsh (der Standard-macOS-Shell) verwendet wird. Wenn du eine andere Shell verwendest, füge das Obsidian-Binärverzeichnis manuell zur Konfigurationsdatei deiner Shell hinzu:
-
-- Bash: füge `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` zu `~/.bash_profile` hinzu
-- Fish: führe `fish_add_path /Applications/Obsidian.app/Contents/MacOS` aus
-
-
-### Linux
-
-Die CLI-Registrierung erstellt einen symbolischen Link unter `/usr/local/bin/obsidian`, der auf die Obsidian-Binärdatei zeigt (erfordert sudo).
-
-#### AppImage
-
-Bei AppImage-Installationen zeigt der symbolische Link auf die `.AppImage`-Datei statt auf die interne Binärdatei, da sich der Einhängepfad bei jedem Start ändert. Falls sudo fehlschlägt, wird der symbolische Link als Fallback unter `~/.local/bin/obsidian` erstellt. Falls du Probleme hast, überprüfe Folgendes:
+Die CLI-Registrierung erstellt einen symbolischen Link unter `/usr/local/bin/obsidian`, der auf die im App-Bundle enthaltene CLI-Binärdatei zeigt. Dies erfordert Administratorrechte – du wirst über einen Systemdialog aufgefordert.
 
 Überprüfe, ob der symbolische Link existiert und auf die richtige Binärdatei zeigt:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 Falls der symbolische Link fehlt, erstelle ihn manuell:
 
 ```
-sudo ln -s /pfad/zu/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-Falls der symbolische Link stattdessen in `~/.local/bin/` erstellt wurde, stelle sicher, dass dieses Verzeichnis in deinem PATH ist. Füge Folgendes zu deiner `~/.bashrc` oder `~/.zshrc` hinzu:
+> [!note] Falls du die CLI zuvor mit einer älteren Version von Obsidian registriert hast, hast du möglicherweise einen verbleibenden PATH-Eintrag in `~/.zprofile`. Der neue Registrierungsprozess entfernt diesen automatisch, aber falls er bestehen bleibt, kannst du die Zeilen, die mit `# Added by Obsidian` beginnen, sicher aus `~/.zprofile` löschen.
+
+### Linux
+
+Die CLI-Registrierung kopiert die CLI-Binärdatei nach `~/.local/bin/obsidian`. Dies geschieht, weil einige Linux-Installationsmethoden aus temporären Verzeichnissen ausgeführt werden, die nicht dauerhaft verlinkt werden können.
+
+Stelle sicher, dass `~/.local/bin` in deinem PATH ist. Füge Folgendes zu deiner `~/.bashrc` oder `~/.zshrc` hinzu, falls es nicht vorhanden ist:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Falls der symbolische Link nach dem Verschieben oder Umbenennen der `.AppImage`-Datei nicht mehr funktioniert, registriere die CLI erneut oder aktualisiere den symbolischen Link manuell.
-
-#### Snap
-
-Das Snap-Paket speichert Insider-Build-Daten in seinem eigenen Benutzerdatenverzeichnis. Falls die CLI das Insider-`.asar` nicht erkennt, setze `XDG_CONFIG_HOME` so, dass es auf den Snap-Konfigurationspfad zeigt:
+Überprüfe, ob die Binärdatei existiert:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-Füge dies zu deiner `~/.bashrc` oder `~/.zshrc` hinzu, um es dauerhaft zu machen.
-
-
-#### Flatpak
-
-Obsidian versucht dies automatisch durchzuführen, aber nachfolgend findest du die manuellen Anweisungen. Bei einer Systeminstallation:
+Falls die Binärdatei fehlt, kopiere sie manuell aus dem Obsidian-Installationsverzeichnis:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-Bei einer Benutzerinstallation:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```

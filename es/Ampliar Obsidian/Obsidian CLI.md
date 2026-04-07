@@ -13,7 +13,7 @@ Todo lo que puedes hacer en Obsidian lo puedes hacer desde la línea de comandos
 
 ## Instalar Obsidian CLI
 
-Actualiza a la última [[Actualizar Obsidian|versión del instalador de Obsidian]] (1.11.7) y a la última [[Versiones de acceso anticipado|versión de acceso anticipado]] (1.12.x).
+Actualiza a la última [[Actualizar Obsidian|versión del instalador de Obsidian]] (1.12.7+).
 
 Habilita Obsidian CLI en Obsidian:
 
@@ -1477,41 +1477,22 @@ Estos atajos están disponibles en la [[#Usar la interfaz de terminal|TUI]].
 
 Si tienes problemas ejecutando Obsidian CLI:
 
-- Asegúrate de estar usando la última [[Actualizar Obsidian|versión del instalador de Obsidian]] (1.12.4 o superior).
+- Asegúrate de estar usando la última [[Actualizar Obsidian|versión del instalador de Obsidian]] (1.12.7 o superior).
+- Si acabas de actualizar Obsidian desde una versión anterior, desactiva el ajuste de la CLI y vuelve a activarlo, luego permite que Obsidian realice el registro automático del PATH.
 - Reinicia tu terminal después de registrar la CLI para que los cambios en el PATH surtan efecto.
-- Obsidian debe estar en ejecución. La CLI se conecta a la instancia de Obsidian en ejecución. Si Obsidian no está en ejecución, el primer comando de la CLI debería iniciar la aplicación.
+- Obsidian debe estar en ejecución. La CLI se conecta a la instancia de Obsidian en ejecución.
 
 ### Windows
 
-Obsidian CLI en Windows requiere el instalador de Obsidian 1.12.4+. Consulta [[Actualizar Obsidian|Actualización de la versión del instalador]].
+Obsidian CLI en Windows requiere el instalador de Obsidian 1.12.7+. Consulta [[Actualizar Obsidian|Actualización de la versión del instalador]].
 
-Windows usa un redirector de terminal que conecta Obsidian a stdin/stdout correctamente. Esto es necesario porque Obsidian normalmente se ejecuta como una aplicación GUI que es incompatible con las salidas de terminal en Windows. Cuando instalas Obsidian 1.12.4+, el redirector de terminal `Obsidian.com` se agregará en la carpeta donde instalaste el archivo `Obsidian.exe`.
+Windows usa un redirector de terminal que conecta Obsidian a stdin/stdout correctamente. Esto es necesario porque Obsidian normalmente se ejecuta como una aplicación GUI que es incompatible con las salidas de terminal en Windows. Cuando instalas Obsidian 1.12.7+, el redirector de terminal `Obsidian.com` se agregará en la carpeta donde instalaste el archivo `Obsidian.exe`.
+
+El registro de la CLI agrega Obsidian a la variable PATH de tu usuario, lo cual solo surte efecto después de reiniciar la terminal.
 
 ### macOS
 
-El registro de la CLI agrega el directorio binario de Obsidian a tu PATH a través de `~/.zprofile`. Si tienes problemas, verifica lo siguiente:
-
-Tu archivo `~/.zprofile` debería contener la siguiente línea. Si falta, puedes agregarla manualmente:
-
-```
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-```
-
-#### Shells alternativos
-
-El registro de la CLI solo modifica `~/.zprofile`, que es usado por zsh (el shell predeterminado de macOS). Si usas un shell diferente, agrega el directorio binario de Obsidian al archivo de configuración de tu shell manualmente:
-
-- Bash: agrega `export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"` a `~/.bash_profile`
-- Fish: ejecuta `fish_add_path /Applications/Obsidian.app/Contents/MacOS`
-
-
-### Linux
-
-El registro de la CLI crea un enlace simbólico en `/usr/local/bin/obsidian` que apunta al binario de Obsidian (requiere sudo).
-
-#### AppImage
-
-Para instalaciones AppImage, el enlace simbólico apunta al archivo `.AppImage` en lugar del binario interno, ya que la ruta de montaje cambia con cada inicio. Si sudo falla, el enlace simbólico se crea en `~/.local/bin/obsidian` como alternativa. Si tienes problemas, verifica lo siguiente.
+El registro de la CLI crea un enlace simbólico en `/usr/local/bin/obsidian` que apunta al binario de la CLI incluido dentro de la aplicación. Esto requiere privilegios de administrador — se te solicitará mediante un diálogo del sistema.
 
 Comprueba que el enlace simbólico existe y apunta al binario correcto:
 
@@ -1522,38 +1503,30 @@ ls -l /usr/local/bin/obsidian
 Si el enlace simbólico falta, créalo manualmente:
 
 ```
-sudo ln -s /path/to/obsidian /usr/local/bin/obsidian
+sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-Si el enlace simbólico fue creado en `~/.local/bin/` en su lugar, asegúrate de que ese directorio esté en tu PATH. Agrega lo siguiente a tu `~/.bashrc` o `~/.zshrc`:
+> [!note] Si previamente registraste la CLI con una versión anterior de Obsidian, es posible que tengas una entrada de PATH residual en `~/.zprofile`. El nuevo proceso de registro la elimina automáticamente, pero si permanece, puedes eliminar de forma segura las líneas que comienzan con `# Added by Obsidian` de `~/.zprofile`.
+
+### Linux
+
+El registro de la CLI copia el binario de la CLI a `~/.local/bin/obsidian`. Esto se hace porque algunos métodos de instalación de Linux se ejecutan desde directorios temporales que no pueden enlazarse simbólicamente de forma persistente.
+
+Asegúrate de que `~/.local/bin` esté en tu PATH. Agrega lo siguiente a tu `~/.bashrc` o `~/.zshrc` si no lo está:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Si el enlace simbólico se rompe después de mover o renombrar el archivo `.AppImage`, vuelve a registrar la CLI o actualiza el enlace simbólico manualmente.
-
-#### Snap
-
-El paquete Snap almacena los datos de las compilaciones Insider en su propio directorio de datos de usuario. Si la CLI no detecta el `.asar` de la versión Insider, establece `XDG_CONFIG_HOME` para apuntar a la ruta de configuración de Snap:
+Comprueba que el binario existe:
 
 ```
-export XDG_CONFIG_HOME="$HOME/snap/obsidian/current/.config"
+ls -l ~/.local/bin/obsidian
 ```
 
-Agrega esto a tu `~/.bashrc` o `~/.zshrc` para hacerlo persistente.
-
-
-#### Flatpak
-
-Obsidian intenta hacer esto automáticamente, pero a continuación están las instrucciones manuales. Si es una instalación del sistema:
+Si el binario falta, cópialo manualmente desde el directorio de instalación de Obsidian:
 
 ```
-ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
-```
-
-Si es una instalación de usuario:
-
-```
-ln -s ~/.local/share/flatpak/exports/bin/md.obsidian.Obsidian ~/.local/bin/obsidian
+cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
+chmod 755 ~/.local/bin/obsidian
 ```
