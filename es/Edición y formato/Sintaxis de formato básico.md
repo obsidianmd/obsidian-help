@@ -354,7 +354,7 @@ _ _ _
 
 ***
 
-## 
+## Código
 
 Puedes formatear código tanto en línea dentro de una oración, como en su propio bloque.
 

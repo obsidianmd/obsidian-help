@@ -352,7 +352,7 @@ _ _ _
 
 ***
 
-## 
+## Código
 
 Você pode formatar código tanto inline dentro de uma frase, quanto em seu próprio bloco.
 

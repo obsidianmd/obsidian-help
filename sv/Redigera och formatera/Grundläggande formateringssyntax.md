@@ -352,7 +352,7 @@ _ _ _
 
 ***
 
-## 
+## Kod
 
 Du kan formatera kod både inline inom en mening eller i ett eget block.
 

@@ -355,7 +355,7 @@ _ _ _
 
 ***
 
-## 
+## Code
 
 Vous pouvez mettre en forme du code soit en ligne au sein d'une phrase, soit dans son propre bloc.
 

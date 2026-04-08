@@ -354,7 +354,7 @@ _ _ _
 
 ***
 
-## 
+## Codice
 
 Puoi formattare il codice sia inline all'interno di una frase, sia in un blocco dedicato.
 

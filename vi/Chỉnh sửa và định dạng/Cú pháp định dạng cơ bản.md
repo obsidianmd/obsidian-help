@@ -352,7 +352,7 @@ _ _ _
 
 ***
 
-## 
+## Mã
 
 Bạn có thể định dạng mã cả nội dòng trong một câu, hoặc trong khối riêng.
 

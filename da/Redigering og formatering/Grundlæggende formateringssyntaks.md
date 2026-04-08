@@ -8,7 +8,6 @@ aliases:
   - Grundlæggende formaterings syntaks
   - Redigering og formatering/Grundlæggende formaterings syntaks
 ---
-
 Lær hvordan du kan formatere dine noter ved at anvende [Markdown](https://daringfireball.net/projects/markdown/) syntaks. Har du brug for mere avanceret syntaks, så læs guiden: [[Avanceret formaterings syntaks]].
 
 ## Afsnit
@@ -45,7 +44,7 @@ En tom linje i en tekst opretter separate afsnit. Dette er en stardardopførsel 
 > > 
 > > og mange tomme linjer mellem afsnit.
 > 
-> Hvis du vil undgå at mellemrum eller tomme linjer fjernes, kan du anvende `&nbsp;` (tvunget mellemrum) eller `<br>` (linjeskift) HTML kode.
+> Hvis du vil undgå at mellemrum eller tomme linjer fjernes, kan du anvende `&nbsp;` (tvunget mellemrum) eller `<br>` (linjeskift) HTML kode.
 
 ### Linjeskift
 
@@ -62,7 +61,7 @@ Obsidian har mulighed for en **striks linjeskift** indstilling, som gør at Obsi
 For at aktivere denne funktion, skal du:
 
 1. Åbne **Indstillinger**
-2. Gå til **Editor** fanen
+2. Gå til **Editor** fanen
 3. Slå **Striks linjeskift** til
 
 Når **strikse linjeskift** er aktiveret i Obsidian, har linjeskift tre forskelige adfærd, afhængig af hvordan linjer deles:
@@ -78,7 +77,7 @@ Vises som:
 
 linje et linje to
 
-**Enkelt `Retur` med to eller flere efterfølgende mellemrum i slutningen af linjen**: Hvis du tilføjer to eller flere mellemrum i slutningen af første linje før du trykker `Retur`, vil de to linjer blive del af det samme afsnit, men blive brudt af et linjeskift (Et HTML `<br>` element). Vi benytter to understreger i stedet for mellemrum i det følgende eksempel:
+**Enkelt `Retur` med to eller flere efterfølgende mellemrum i slutningen af linjen**: Hvis du tilføjer to eller flere mellemrum i slutningen af første linje før du trykker `Retur`, vil de to linjer blive del af det samme afsnit, men blive brudt af et linjeskift (Et HTML `<br>` element). Vi benytter to understreger i stedet for mellemrum i det følgende eksempel:
 
 ```md
 linje tre__  
@@ -92,7 +91,7 @@ linje fire
 
 
 **Dobbelt `Retur` (med eller uden efterfølgende mellemrum i slutningen af linjen)**:
-Trykkes der `Retur` to (eller flere) gange vil linjerne deles i to separate afsnit (HTML `<p>` elementer), uanset om du tilføler mellemrum i slutningen af den første linje.
+Trykkes der `Retur` to (eller flere) gange vil linjerne deles i to separate afsnit (HTML `<p>` elementer), uanset om du tilføler mellemrum i slutningen af den første linje.
 
 ```md
 linje fem
@@ -350,7 +349,7 @@ På samme måde kan du oprette opgave underlister ved at indrykke en eller liste
 - [ ] Opgave element 2
 	- [ ] Underopgave 1
 
-Benyt `Tab` eller `Skift+Tab` for at indrykke eller udrykke listelementer.
+Benyt `Tab` eller `Skift+Tab` for at indrykke eller udrykke listelementer.
 
 ## Vandret streg
 
@@ -392,51 +391,78 @@ Hvis du har brug for at anvende backtics inden i en kodeblok, så start og slut 
 For at formatere en blok som kode skal startlinjen og slutlinjen bestå af tre backtics (```) eller tre tilder (~~~):
 
 ~~~
-```
+`````
 cd ~/Skrivebord
-```
+`````
 ~~~
-
-```
+`````
 ~~~
 cd ~/Skrivebord
 ~~~
-```
-
-```md
+`````
+`````md
 cd ~/Skrivebord
-```
+`````
 
 Du kan også oprette kodeblokke ved at indrykke en teks med `Tab` eller benytte fire mellemrum:
 
-```md
+`````md
     cd ~/Skrivebord
-```
+`````
 
 Du kan tilføje syntaksfremhævning til en kodeblok ved at tilføje en kode for programmeringssproget efter det første sæt af backtics.
 
 ~~~md
-```js
+`````js
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
-```
+`````
 ~~~
-
-```js
+`````js
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
-```
+`````
 
 Obsidien anvender Prism til syntaksfremhævning. Læs denne guide for at se hvilke [sprog som er understøttet](https://prismjs.com/#supported-languages).
 
-> [!note]
-> [[Views og redigeringstilstand|Redigeringstilstand]] og [[Views og redigeringstilstand#Læsning|læsningstilstand]] understøtter ikke PrismJS og vil vise synktaktfremhævning anderledes.
+> [!info]+ PrismJS og redigeringsvisninger
+> [[Views og redigeringstilstand#Kildetilstand|Kildetilstand]] og [[Views og redigeringstilstand#Live forhåndsvisning|Live forhåndsvisning]] understøtter ikke PrismJS og vil vise synktaktfremhævning anderledes.
+
+#### Indlejring af kodeblokke
+
+Når du har brug for at inkludere en kodeblok inden i en anden kodeblok (f.eks. når du dokumenterer hvordan man bruger kodeblokke), kan du bruge mere end tre backticks eller tilder til den ydre kodeblok.
+
+For at indlejre kodeblokke skal du bruge fire eller flere backticks (eller tilder) til den ydre blok, mens den indre blok bruger tre:
+`````md
+````md
+Sådan opretter du en kodeblok:
+```js
+console.log("Hello world")
+```
+````
+`````
+
+Du kan også blande backticks og tilder. Dette er særligt nyttigt, når du arbejder med kode, der genererer andre kodeblokke:
+`````md
+````md
+```dataviewjs
+dv.paragraph(`
+~~~mermaid
+graph TD
+    A --> B
+~~~
+`)
+```
+````
+`````
+
+Det vigtigste princip er, at den ydre kodeblok skal bruge **flere** hegntegn (backticks eller tilder) end nogen indre kodeblok, eller bruge en anden type hegntegn.
 
 ## Fodnoter
 
@@ -478,16 +504,16 @@ Kommentarblokke kan spænde over flere linjer.
 
 ## Anvendelse af specialtegn i Markdown
 
-I nogle tilfælde har du måske brug for at vise specialtegn i Markdown, såsom `*`, `_`, eller `#` uden at det trigger en formattering. For at vise tegnene som de er, så placer en baglæns skråstreg (`\`) før tegnet.
+I nogle tilfælde har du måske brug for at vise specialtegn i Markdown, såsom `*`, `_`, eller `#` uden at det trigger en formattering. For at vise tegnene som de er, så placer en baglæns skråstreg (`\`) før tegnet.
 
 > [!example] Nogle almindelige tegn som man fx. vil vise
 > 
-> - Gangetegn: `\*`
-> - Understreg: `\_`
-> - Havelåge/Hashtag: `\#`
-> - Backtick: `` \` ``
-> - Lodret streg/Pipe (brugt i tabeller): `\|`
-> - Tilde: `\~`
+> - Gangetegn: `\*`
+> - Understreg: `\_`
+> - Havelåge/Hashtag: `\#`
+> - Backtick: `` \` ``
+> - Lodret streg/Pipe (brugt i tabeller): `\|`
+> - Tilde: `\~`
 
 ```md
 \*Denne tekst kommer ikke til at stå i kursiv\*.
