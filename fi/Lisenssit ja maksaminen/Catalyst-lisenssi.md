@@ -13,15 +13,15 @@ Etuja ovat:
 
 Catalyst-tasoissa on kolme tasoa lahjoituksen suuruuden mukaan: *Insider*, *Supporter* ja *VIP*.
 
-| Edut                                                                                 | Insider | Supporter |   VIP    |
-| ------------------------------------------------------------------------------------ | :-----: | :-------: | :------: |
-| Ennakkopääsy uusiin versioihin                                                       |    ✓    |     ✓     |    ✓     |
-| Pääsy suljettuihin kehityskanaviin, `#insider-desktop` ja `#insider-mobile`          |    ✓    |     ✓     |    ✓     |
-| Pääsy suljetulle lounge-kanavalle, `#vip-lounge`                                     |         |     ✓     |    ✓     |
-| Insider-merkki                                                                       |    ✓    |           |          |
-| Supporter-merkki                                                                     |         |     ✓     |          |
-| VIP-merkki                                                                           |         |           |    ✓     |
-| **Lahjoitus (USD)**                                                                  | **$25** |  **$50**  | **$100** |
+| Edut                                     | Insider | Supporter |   VIP    |
+| ---------------------------------------- | :-----: | :-------: | :------: |
+| Ennakkopääsy uusiin versioihin           |    ✓    |     ✓     |    ✓     |
+| Pääsy suljettuihin kehityskanaviin       |    ✓    |     ✓     |    ✓     |
+| Pääsy suljetulle lounge-kanavalle        |         |     ✓     |    ✓     |
+| Insider-merkki                           |    ✓    |           |          |
+| Supporter-merkki                         |         |     ✓     |          |
+| VIP-merkki                               |         |           |    ✓     |
+| **Lahjoitus (USD)**                      | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Päivitä Catalyst-tasosi
@@ -48,6 +48,10 @@ Kun olet ostanut Catalyst-lisenssin, saat käyttöösi useita etuja. Lue täält
 ### Liity Insider-kanavillemme
 
 Insider-jäsenet voivat keskustella Obsidian-tiimin ja muiden Insider-jäsenten kanssa suljetuilla Discord-kanavillamme. Pääset Insider-kanaville automaattisesti sen jälkeen, kun olet [[#Hanki Discord-merkki|hankkinut Discord-merkkisi]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) keskusteluihin Catalyst-jäsenten kanssa.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) uusimmat ennakkojulkaisut työpöytäversiolla.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) uusimmat ennakkojulkaisut mobiiliversiolla.
 
 ### Ota käyttöön ennakkojulkaisuversiot
 

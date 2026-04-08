@@ -13,15 +13,15 @@ Výhody zahŕňajú:
 
 Existujú tri úrovne Catalyst podľa výšky vášho príspevku: *Insider*, *Supporter* a *VIP*.
 
-| Výhody                                                                             | Insider | Supporter |   VIP    |
-| ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Predčasný prístup k novým verziám                                                 |    ✓    |     ✓     |    ✓     |
-| Prístup k exkluzívnym vývojovým kanálom, `#insider-desktop` a `#insider-mobile`   |    ✓    |     ✓     |    ✓     |
-| Prístup k exkluzívnemu kanálu, `#vip-lounge`                                      |         |     ✓     |    ✓     |
-| Odznak Insider                                                                     |    ✓    |           |          |
-| Odznak Supporter                                                                   |         |     ✓     |          |
-| Odznak VIP                                                                         |         |           |    ✓     |
-| **Príspevok (USD)**                                                                | **$25** |  **$50**  | **$100** |
+| Výhody                                    | Insider | Supporter |   VIP    |
+| ------------------------------------------ | :-----: | :-------: | :------: |
+| Predčasný prístup k novým verziám         |    ✓    |     ✓     |    ✓     |
+| Prístup k exkluzívnym vývojovým kanálom   |    ✓    |     ✓     |    ✓     |
+| Prístup k exkluzívnemu kanálu             |         |     ✓     |    ✓     |
+| Odznak Insider                             |    ✓    |           |          |
+| Odznak Supporter                           |         |     ✓     |          |
+| Odznak VIP                                 |         |           |    ✓     |
+| **Príspevok (USD)**                        | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Inovácia úrovne Catalyst
@@ -48,6 +48,10 @@ Po zakúpení licencie Catalyst máte prístup k rôznym výhodám. Tu sa dozvie
 ### Pripojte sa k našim Insider kanálom
 
 Insideri môžu komunikovať s tímom Obsidian a ostatnými Insidermi v našich exkluzívnych Discord kanáloch. K Insider kanálom sa automaticky pripojíte po [[#Získajte svoj Discord odznak|získaní vášho Discord odznaku]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) pre diskusie s členmi Catalyst.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) pre najnovšie vydania s predčasným prístupom na desktope.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) pre najnovšie vydania s predčasným prístupom na mobile.
 
 ### Zapnutie verzií s predčasným prístupom
 

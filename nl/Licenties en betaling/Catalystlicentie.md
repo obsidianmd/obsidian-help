@@ -13,15 +13,15 @@ Voordelen zijn onder andere:
 
 Er zijn drie niveaus van Catalyst op basis van het bedrag dat je bijdraagt: *Insider*, *Supporter* en *VIP*.
 
-| Voordelen                                                                                      | Insider | Supporter |   VIP    |
-| ---------------------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Vroegtijdige toegang tot nieuwe versies                                                        |    ✓    |     ✓     |    ✓     |
-| Toegang tot exclusieve ontwikkelkanalen, `#insider-desktop` en `#insider-mobile`               |    ✓    |     ✓     |    ✓     |
-| Toegang tot exclusief loungekanaal, `#vip-lounge`                                              |         |     ✓     |    ✓     |
-| Insider-badge                                                                                  |    ✓    |           |          |
-| Supporter-badge                                                                                |         |     ✓     |          |
-| VIP-badge                                                                                      |         |           |    ✓     |
-| **Bijdrage (USD)**                                                                             | **$25** |  **$50**  | **$100** |
+| Voordelen                                    | Insider | Supporter |   VIP    |
+| -------------------------------------------- | :-----: | :-------: | :------: |
+| Vroegtijdige toegang tot nieuwe versies      |    ✓    |     ✓     |    ✓     |
+| Toegang tot exclusieve ontwikkelkanalen      |    ✓    |     ✓     |    ✓     |
+| Toegang tot exclusief loungekanaal           |         |     ✓     |    ✓     |
+| Insider-badge                                |    ✓    |           |          |
+| Supporter-badge                              |         |     ✓     |          |
+| VIP-badge                                    |         |           |    ✓     |
+| **Bijdrage (USD)**                           | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Upgrade je Catalyst-niveau
@@ -48,6 +48,10 @@ Zodra je een Catalyst-licentie hebt aangeschaft, krijg je toegang tot een reeks 
 ### Word lid van onze Insider-kanalen
 
 Insiders kunnen chatten met het Obsidian-team en andere Insiders in onze exclusieve Discord-kanalen. Je wordt automatisch lid van de Insider-kanalen nadat je [[#Ontvang je Discord-badge]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) voor discussies met Catalyst-leden.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) voor de nieuwste vroege-toegangsversies op desktop.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) voor de nieuwste vroege-toegangsversies op mobiel.
 
 ### Vroege-toegangsversies activeren
 

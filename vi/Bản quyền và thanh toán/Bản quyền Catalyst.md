@@ -13,15 +13,15 @@ Các lợi ích bao gồm:
 
 Có ba cấp bậc Catalyst dựa trên số tiền bạn đóng góp: *Insider*, *Supporter*, và *VIP*.
 
-| Lợi ích                                                                           | Insider | Supporter |   VIP    |
-| ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Truy cập sớm vào phiên bản mới                                                   |    ✓    |     ✓     |    ✓     |
-| Truy cập kênh phát triển độc quyền, `#insider-desktop` và `#insider-mobile`       |    ✓    |     ✓     |    ✓     |
-| Truy cập kênh phòng chờ độc quyền, `#vip-lounge`                                 |         |     ✓     |    ✓     |
-| Huy hiệu Insider                                                                  |    ✓    |           |          |
-| Huy hiệu Supporter                                                                |         |     ✓     |          |
-| Huy hiệu VIP                                                                      |         |           |    ✓     |
-| **Đóng góp (USD)**                                                                | **$25** |  **$50**  | **$100** |
+| Lợi ích                                 | Insider | Supporter |   VIP    |
+| ---------------------------------------- | :-----: | :-------: | :------: |
+| Truy cập sớm vào phiên bản mới          |    ✓    |     ✓     |    ✓     |
+| Truy cập kênh phát triển độc quyền      |    ✓    |     ✓     |    ✓     |
+| Truy cập kênh phòng chờ độc quyền       |         |     ✓     |    ✓     |
+| Huy hiệu Insider                        |    ✓    |           |          |
+| Huy hiệu Supporter                      |         |     ✓     |          |
+| Huy hiệu VIP                            |         |           |    ✓     |
+| **Đóng góp (USD)**                       | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Nâng cấp cấp bậc Catalyst của bạn
@@ -48,6 +48,10 @@ Sau khi mua giấy phép Catalyst, bạn có thể truy cập nhiều lợi ích
 ### Tham gia kênh Insider
 
 Insider có thể trò chuyện với đội ngũ Obsidian và các Insider khác trong các kênh Discord độc quyền. Bạn sẽ tự động tham gia các kênh Insider sau khi [[#Nhận huy hiệu Discord]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) để thảo luận với các thành viên Catalyst.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) cho các bản phát hành truy cập sớm mới nhất trên desktop.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) cho các bản phát hành truy cập sớm mới nhất trên mobile.
 
 ### Kích hoạt phiên bản truy cập sớm
 

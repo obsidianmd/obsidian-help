@@ -13,15 +13,15 @@ Os benefícios incluem:
 
 Existem três níveis de Catalyst com base no montante que contribui: *Insider*, *Supporter* e *VIP*.
 
-| Benefícios                                                                                    | Insider | Supporter |   VIP    |
-| --------------------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Acesso antecipado a novas versões                                                             |    ✓    |     ✓     |    ✓     |
-| Acesso a canais exclusivos de desenvolvimento, `#insider-desktop` e `#insider-mobile`         |    ✓    |     ✓     |    ✓     |
-| Acesso ao canal exclusivo lounge, `#vip-lounge`                                               |         |     ✓     |    ✓     |
-| Emblema Insider                                                                               |    ✓    |           |          |
-| Emblema Supporter                                                                             |         |     ✓     |          |
-| Emblema VIP                                                                                   |         |           |    ✓     |
-| **Contribuição (USD)**                                                                        | **$25** |  **$50**  | **$100** |
+| Benefícios                                       | Insider | Supporter |   VIP    |
+| ------------------------------------------------ | :-----: | :-------: | :------: |
+| Acesso antecipado a novas versões                |    ✓    |     ✓     |    ✓     |
+| Acesso a canais exclusivos de desenvolvimento    |    ✓    |     ✓     |    ✓     |
+| Acesso ao canal exclusivo lounge                 |         |     ✓     |    ✓     |
+| Emblema Insider                                  |    ✓    |           |          |
+| Emblema Supporter                                |         |     ✓     |          |
+| Emblema VIP                                      |         |           |    ✓     |
+| **Contribuição (USD)**                           | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Atualizar o seu nível Catalyst
@@ -48,6 +48,10 @@ Depois de ter comprado uma licença Catalyst, pode aceder a uma variedade de ben
 ### Junte-se aos nossos canais Insider
 
 Os Insiders podem conversar com a equipa do Obsidian e outros Insiders nos nossos canais exclusivos do Discord. Junta-se automaticamente aos canais Insider depois de [[#Obter o seu emblema no Discord]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) para discussões com membros Catalyst.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) para as últimas versões de acesso antecipado no desktop.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) para as últimas versões de acesso antecipado no mobile.
 
 ### Ativar versões de acesso antecipado
 

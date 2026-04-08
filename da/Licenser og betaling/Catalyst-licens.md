@@ -4,50 +4,58 @@ aliases:
   - Catalyst licens
   - Licenser og betaling/Catalyst licens
 ---
-Obsidian er gratis til personlig brug. En Catalyst licens er en valgfri licens der giver følgende fodele:
+Catalyst licensen er et engangskøb, der giver dig tidlig adgang til betaversioner og hjælper med at støtte den fortsatte udvikling af Obsidian. Du kan støtte Obsidian ved at [købe en Catalyst licens](https://obsidian.md/buy/catalyst).
 
-1. Den giver dig tidlig adgang til kommende versioner af Obsidian;
-2. Giver dig specielle badges på vores fællesskabsserver Discord og på vores internetforum og
-3. Den støtter udviklingen af Obsidian (Tak 💜!)
+Fordelene inkluderer:
 
-Der er tre Catalyst licens niveauer: Insider ($25), Supporter($50), og VIP ($100) - og hver af dem giver dig [[Tidlig adgang-versioner|adgang til insider builds]].
- 
-Bemærk at Catalyst er valgfri og ==giver dig ikke yderligere funktioner i applikationen==
+- Tidlig adgang til [[#Aktivér tidlig adgang-versioner|nye versioner]] af Obsidian
+- Adgang til eksklusive [[#Tilmeld dig vores Insider kanaler|Insider kanaler]].
+- Eksklusive [[#Få dit forum badge|forum badges]] og [[#Få dit Discord badge|Discord badges]].
 
-Besøg [vores prisside](https://obsidian.md/pricing) for at opgradere til Catalyst. 
+## Catalyst niveauer
 
-Hvis du benytter Obsidian til arbejdsrelaterede aktiviteter kan det blive nødvendigt med en [[Kommerciel licens|kommerciel licens]].
+Der er tre Catalyst niveauer baseret på det beløb du bidrager med: *Insider*, *Supporter*, og *VIP*.
 
-## Ofte stillede spørgsmål
+| Fordele                                  | Insider | Supporter |   VIP    |
+| ---------------------------------------- | :-----: | :-------: | :------: |
+| Tidlig adgang til nye versioner          |    ✓    |     ✓     |    ✓     |
+| Adgang til eksklusive udviklingskanaler  |    ✓    |     ✓     |    ✓     |
+| Adgang til eksklusiv lounge kanal        |         |     ✓     |    ✓     |
+| Insider badge                            |    ✓    |           |          |
+| Supporter badge                          |         |     ✓     |          |
+| VIP badge                                |         |           |    ✓     |
+| **Bidrag (USD)**                         | **$25** |  **$50**  | **$100** |
 
-### Hvordan får jeg mine skinnende badges efter at jeg har opgraderet?
 
-Tillykke! Efter du har opgraderet kan du finde to knapper i "Catalyst" sektionen på "Indstillinger → Konto" fanen.
+> [!info] Opgrader dit Catalyst niveau
+> Hvis du allerede har en Catalyst licens, kan du opgradere til et højere Catalyst niveau ved at betale prisforskellen mellem dit nuværende og det nye niveau.
 
-#### Discord badge
+## Få adgang til Catalyst fordele
 
-==Du skal være tilmeldt [vores Discord server](https://discord.gg/veuWUTm) først.==
+Når du har købt en Catalyst licens, kan du få adgang til en række fordele. Lær hvordan du aktiverer dem her.
 
-På din [konto side](https://obsidian.md/account) på Obsidians hjemmeside skal du klikke på "Få Discord badge", hvilket vil godkende dig på Discord og tilføje dit badge automatisk.
+### Få dit forum badge
 
-#### Forum badge
+**Bemærk:** For at forbinde din Obsidian konto og din forum konto, skal du bruge den samme email adresse til begge konti.
 
-==Du skal have registreret en konto på [vores forum](https://forum.obsidian.md) med den samme email, som din Obsidian konto.==
+1. Hvis du ikke allerede har gjort det, tilmeld dig vores [forum](https://forum.obsidian.md/).
+2. Gå til dit [Obsidian konto dashboard](https://obsidian.md/account/catalyst).
+3. Under **Catalyst**, vælg **Get forum badge**.
 
-På din [konto side](https://obsidian.md/account) på Obsidians hjemmeside skal du klikke på "Få Forum badge", hvilket vil tilføje dit badge til din forum konto.
+### Få dit Discord badge
 
-Hvis din email ikke er den samme som din Obsidian konto email, vil dit badge ikke kunne tilføjes. Hvis det er tilfældet, så skift din email på forummet, så det er det samme som til din Obsidian konto.
+1. Hvis du ikke allerede har gjort det, tilmeld dig vores [Discord server](https://discord.gg/veuWUTm).
+2. Gå til dit [Obsidian konto dashboard](https://obsidian.md/account/catalyst).
+3. Under **Catalyst**, vælg **Get Discord badge**.
 
-Bemærk at dit forum badge ikke er et "badge" i forum systemet, men et skinnende guld tag ved siden af dit navn i alle dine indlæg.
+### Tilmeld dig vores Insider kanaler
 
-### Hvad får jeg, når jeg betaler for en Catalyst licens?
+Insiders kan chatte med Obsidian teamet og andre Insiders i vores eksklusive Discord kanaler. Du tilmelder dig automatisk Insider kanalerne efter du [[#Få dit Discord badge|får dit Discord badge]].
 
-Du får adgang til vores [[Tidlig adgang-versioner]]. Ud over det , hvis du får Supprter eller VIP niveauet får du adgang til en eksklusiv Discord kanal, hvor du kan skrive med udviklerne.
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) til diskussioner med Catalyst medlemmer.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) til de seneste tidlig adgang-udgivelser på desktop.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) til de seneste tidlig adgang-udgivelser på mobil.
 
-Når vi laver en lukket beta med en ny feature (såsom mobil apps eller en Typora-lignende WYSIWYM redigeringstilstand), vil vi frigive betaen til VIPs, Supporters, Insiders, og bagefter alle andre, mens vi retter fejl og problemer undervejs.
+### Aktivér tidlig adgang-versioner
 
-### Hvilke betalingsmetoder accepterer i?
-
-Vores hjemmeside accepterer kreditkort og nogle debitkort. Dette er den hurtigste og nemmeste metode.
-
-Hvis du ønsker at betale med PayPal eller Wechat er det også muligt. Find instruktionerne ved at logge på vores hjemmeside og vælg "Catalyst" licensen.
+Lær hvordan du modtager [[Tidlig adgang-versioner]].

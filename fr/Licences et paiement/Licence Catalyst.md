@@ -16,15 +16,15 @@ Les avantages incluent :
 
 Il existe trois niveaux de Catalyst en fonction du montant de votre contribution : *Insider*, *Supporter* et *VIP*.
 
-| Avantages                                                                                       | Insider | Supporter |   VIP    |
-| ----------------------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Accès anticipé aux nouvelles versions                                                           |    ✓    |     ✓     |    ✓     |
-| Accès aux canaux de développement exclusifs, `#insider-desktop` et `#insider-mobile`            |    ✓    |     ✓     |    ✓     |
-| Accès au canal salon exclusif, `#vip-lounge`                                                    |         |     ✓     |    ✓     |
-| Badge Insider                                                                                   |    ✓    |           |          |
-| Badge Supporter                                                                                 |         |     ✓     |          |
-| Badge VIP                                                                                       |         |           |    ✓     |
-| **Contribution (USD)**                                                                          | **25$** |  **50$**  | **100$** |
+| Avantages                                        | Insider | Supporter |   VIP    |
+| ------------------------------------------------ | :-----: | :-------: | :------: |
+| Accès anticipé aux nouvelles versions            |    ✓    |     ✓     |    ✓     |
+| Accès aux canaux de développement exclusifs      |    ✓    |     ✓     |    ✓     |
+| Accès au canal salon exclusif                    |         |     ✓     |    ✓     |
+| Badge Insider                                    |    ✓    |           |          |
+| Badge Supporter                                  |         |     ✓     |          |
+| Badge VIP                                        |         |           |    ✓     |
+| **Contribution (USD)**                           | **25$** |  **50$**  | **100$** |
 
 
 > [!info] Mettre à niveau votre niveau Catalyst
@@ -51,6 +51,10 @@ Une fois que vous avez acheté une licence Catalyst, vous pouvez accéder à une
 ### Rejoindre nos canaux Insider
 
 Les Insiders peuvent discuter avec l'équipe Obsidian et d'autres Insiders dans nos canaux Discord exclusifs. Vous rejoignez automatiquement les canaux Insider après avoir [[#Obtenir votre badge Discord|obtenu votre badge Discord]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) pour les discussions avec les membres Catalyst.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) pour les dernières versions en accès anticipé sur bureau.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) pour les dernières versions en accès anticipé sur mobile.
 
 ### Activer les versions en accès anticipé
 

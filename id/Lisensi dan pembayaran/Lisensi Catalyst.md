@@ -15,15 +15,15 @@ Manfaat yang didapatkan:
 
 Ada tiga tingkatan Catalyst berdasarkan jumlah kontribusi Anda: *Insider*, *Supporter*, dan *VIP*.
 
-| Manfaat                                                                                    | Insider | Supporter |   VIP    |
-| ------------------------------------------------------------------------------------------ | :-----: | :-------: | :------: |
-| Akses awal ke versi baru                                                                   |    ✓    |     ✓     |    ✓     |
-| Akses ke kanal pengembangan eksklusif, `#insider-desktop` dan `#insider-mobile`             |    ✓    |     ✓     |    ✓     |
-| Akses ke kanal lounge eksklusif, `#vip-lounge`                                             |         |     ✓     |    ✓     |
-| Lencana Insider                                                                            |    ✓    |           |          |
-| Lencana Supporter                                                                          |         |     ✓     |          |
-| Lencana VIP                                                                                |         |           |    ✓     |
-| **Kontribusi (USD)**                                                                       | **$25** |  **$50**  | **$100** |
+| Manfaat                                  | Insider | Supporter |   VIP    |
+| ---------------------------------------- | :-----: | :-------: | :------: |
+| Akses awal ke versi baru                |    ✓    |     ✓     |    ✓     |
+| Akses ke kanal pengembangan eksklusif    |    ✓    |     ✓     |    ✓     |
+| Akses ke kanal lounge eksklusif          |         |     ✓     |    ✓     |
+| Lencana Insider                          |    ✓    |           |          |
+| Lencana Supporter                        |         |     ✓     |          |
+| Lencana VIP                              |         |           |    ✓     |
+| **Kontribusi (USD)**                     | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Tingkatkan tingkatan Catalyst Anda
@@ -50,6 +50,10 @@ Setelah Anda membeli lisensi Catalyst, Anda dapat mengakses berbagai manfaat. Pe
 ### Gabung ke kanal Insider kami
 
 Insider dapat mengobrol dengan tim Obsidian dan Insider lainnya di kanal Discord eksklusif kami. Anda secara otomatis bergabung ke kanal Insider setelah Anda [[#Dapatkan lencana Discord Anda]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) untuk diskusi dengan anggota Catalyst.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) untuk rilis akses awal terbaru di desktop.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) untuk rilis akses awal terbaru di mobile.
 
 ### Aktifkan versi akses awal
 

@@ -13,15 +13,15 @@ Fordelene inkluderer:
 
 Det finnes tre nivåer av Catalyst basert på beløpet du bidrar med: *Insider*, *Supporter* og *VIP*.
 
-| Fordeler                                                                           | Insider | Supporter |   VIP    |
-| ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Tidlig tilgang til nye versjoner                                                   |    ✓    |     ✓     |    ✓     |
-| Tilgang til eksklusive utviklingskanaler, `#insider-desktop` og `#insider-mobile`  |    ✓    |     ✓     |    ✓     |
-| Tilgang til eksklusiv loungekanal, `#vip-lounge`                                  |         |     ✓     |    ✓     |
-| Insider-merke                                                                      |    ✓    |           |          |
-| Supporter-merke                                                                    |         |     ✓     |          |
-| VIP-merke                                                                          |         |           |    ✓     |
-| **Bidrag (USD)**                                                                   | **$25** |  **$50**  | **$100** |
+| Fordeler                                 | Insider | Supporter |   VIP    |
+| ---------------------------------------- | :-----: | :-------: | :------: |
+| Tidlig tilgang til nye versjoner         |    ✓    |     ✓     |    ✓     |
+| Tilgang til eksklusive utviklingskanaler |    ✓    |     ✓     |    ✓     |
+| Tilgang til eksklusiv loungekanal        |         |     ✓     |    ✓     |
+| Insider-merke                            |    ✓    |           |          |
+| Supporter-merke                          |         |     ✓     |          |
+| VIP-merke                                |         |           |    ✓     |
+| **Bidrag (USD)**                         | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Oppgrader Catalyst-nivået ditt
@@ -48,6 +48,10 @@ Når du har kjøpt en Catalyst-lisens, kan du få tilgang til en rekke fordeler.
 ### Bli med i våre Insider-kanaler
 
 Insidere kan chatte med Obsidian-teamet og andre Insidere i våre eksklusive Discord-kanaler. Du blir automatisk med i Insider-kanalene etter at du [[#Få ditt Discord-merke|får ditt Discord-merke]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) for diskusjoner med Catalyst-medlemmer.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) for de nyeste tidlig tilgang-utgivelsene på desktop.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) for de nyeste tidlig tilgang-utgivelsene på mobil.
 
 ### Aktiver tidlig tilgang-versjoner
 

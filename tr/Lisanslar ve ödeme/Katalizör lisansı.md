@@ -13,15 +13,15 @@ Avantajlar şunlardır:
 
 Katkıda bulunduğunuz miktara göre üç Catalyst kademesi vardır: *Insider*, *Supporter* ve *VIP*.
 
-| Avantajlar                                                                         | Insider | Supporter |   VIP    |
-| ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Yeni sürümlere erken erişim                                                       |    ✓    |     ✓     |    ✓     |
-| Özel geliştirme kanallarına erişim, `#insider-desktop` ve `#insider-mobile`        |    ✓    |     ✓     |    ✓     |
-| Özel salon kanalına erişim, `#vip-lounge`                                          |         |     ✓     |    ✓     |
-| Insider rozeti                                                                     |    ✓    |           |          |
-| Supporter rozeti                                                                   |         |     ✓     |          |
-| VIP rozeti                                                                         |         |           |    ✓     |
-| **Katkı (USD)**                                                                    | **$25** |  **$50**  | **$100** |
+| Avantajlar                               | Insider | Supporter |   VIP    |
+| ---------------------------------------- | :-----: | :-------: | :------: |
+| Yeni sürümlere erken erişim              |    ✓    |     ✓     |    ✓     |
+| Özel geliştirme kanallarına erişim       |    ✓    |     ✓     |    ✓     |
+| Özel salon kanalına erişim               |         |     ✓     |    ✓     |
+| Insider rozeti                           |    ✓    |           |          |
+| Supporter rozeti                         |         |     ✓     |          |
+| VIP rozeti                               |         |           |    ✓     |
+| **Katkı (USD)**                          | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Catalyst kademenizi yükseltin
@@ -48,6 +48,10 @@ Catalyst lisansı satın aldıktan sonra çeşitli avantajlara erişebilirsiniz.
 ### Insider kanallarımıza katılın
 
 Insider'lar, özel Discord kanallarımızda Obsidian ekibi ve diğer Insider'larla sohbet edebilir. [[#Discord rozetinizi alın|Discord rozetinizi aldıktan]] sonra Insider kanallarına otomatik olarak katılırsınız.
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) Catalyst üyeleriyle tartışmalar için.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) masaüstünde en son erken erişim sürümleri için.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) mobilde en son erken erişim sürümleri için.
 
 ### Erken erişim sürümlerini etkinleştirin
 

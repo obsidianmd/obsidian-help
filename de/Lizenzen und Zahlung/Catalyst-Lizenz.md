@@ -13,15 +13,15 @@ Zu den Vorteilen gehören:
 
 Es gibt drei Catalyst-Stufen, basierend auf der Höhe deines Beitrags: *Insider*, *Supporter* und *VIP*.
 
-| Vorteile                                                                           | Insider | Supporter |   VIP    |
-| ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Frühzeitiger Zugang zu neuen Versionen                                             |    ✓    |     ✓     |    ✓     |
-| Zugang zu exklusiven Entwicklungskanälen, `#insider-desktop` und `#insider-mobile` |    ✓    |     ✓     |    ✓     |
-| Zugang zum exklusiven Lounge-Kanal, `#vip-lounge`                                 |         |     ✓     |    ✓     |
-| Insider-Badge                                                                      |    ✓    |           |          |
-| Supporter-Badge                                                                    |         |     ✓     |          |
-| VIP-Badge                                                                          |         |           |    ✓     |
-| **Beitrag (USD)**                                                                  | **$25** |  **$50**  | **$100** |
+| Vorteile                                 | Insider | Supporter |   VIP    |
+| ---------------------------------------- | :-----: | :-------: | :------: |
+| Frühzeitiger Zugang zu neuen Versionen   |    ✓    |     ✓     |    ✓     |
+| Zugang zu exklusiven Entwicklungskanälen |    ✓    |     ✓     |    ✓     |
+| Zugang zum exklusiven Lounge-Kanal       |         |     ✓     |    ✓     |
+| Insider-Badge                            |    ✓    |           |          |
+| Supporter-Badge                          |         |     ✓     |          |
+| VIP-Badge                                |         |           |    ✓     |
+| **Beitrag (USD)**                        | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Catalyst-Stufe upgraden
@@ -48,6 +48,10 @@ Sobald du eine Catalyst-Lizenz erworben hast, kannst du auf eine Reihe von Vorte
 ### Unseren Insider-Kanälen beitreten
 
 Insider können mit dem Obsidian-Team und anderen Insidern in unseren exklusiven Discord-Kanälen chatten. Du trittst den Insider-Kanälen automatisch bei, nachdem du deinen [[#Discord-Badge erhalten|Discord-Badge erhalten]] hast.
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) für Diskussionen mit Catalyst-Mitgliedern.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) für die neuesten Vorabversionen auf dem Desktop.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) für die neuesten Vorabversionen auf Mobilgeräten.
 
 ### Vorabversionen aktivieren
 

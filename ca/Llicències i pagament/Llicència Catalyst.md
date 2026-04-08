@@ -13,15 +13,15 @@ Els beneficis inclouen:
 
 Hi ha tres nivells de Catalyst basats en la quantitat que contribuïu: *Insider*, *Supporter* i *VIP*.
 
-| Beneficis                                                                                     | Insider | Supporter |   VIP    |
-| --------------------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Accés anticipat a noves versions                                                              |    ✓    |     ✓     |    ✓     |
-| Accés a canals de desenvolupament exclusius, `#insider-desktop` i `#insider-mobile`            |    ✓    |     ✓     |    ✓     |
-| Accés al canal exclusiu de sala VIP, `#vip-lounge`                                            |         |     ✓     |    ✓     |
-| Insígnia Insider                                                                               |    ✓    |           |          |
-| Insígnia Supporter                                                                             |         |     ✓     |          |
-| Insígnia VIP                                                                                   |         |           |    ✓     |
-| **Contribució (USD)**                                                                          | **$25** |  **$50**  | **$100** |
+| Beneficis                                | Insider | Supporter |   VIP    |
+| ---------------------------------------- | :-----: | :-------: | :------: |
+| Accés anticipat a noves versions         |    ✓    |     ✓     |    ✓     |
+| Accés a canals de desenvolupament exclusius |    ✓    |     ✓     |    ✓     |
+| Accés al canal exclusiu de sala VIP      |         |     ✓     |    ✓     |
+| Insígnia Insider                         |    ✓    |           |          |
+| Insígnia Supporter                       |         |     ✓     |          |
+| Insígnia VIP                             |         |           |    ✓     |
+| **Contribució (USD)**                    | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Actualitza el teu nivell de Catalyst
@@ -48,6 +48,10 @@ Un cop hàgiu comprat una llicència Catalyst, podeu accedir a una sèrie de ben
 ### Uneix-te als nostres canals Insider
 
 Els Insiders poden xatejar amb l'equip d'Obsidian i altres Insiders als nostres canals exclusius de Discord. Us uniu automàticament als canals Insider després d'[[#Obtén la teva insígnia de Discord]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) per a discussions amb membres de Catalyst.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) per a les últimes versions d'accés anticipat a escriptori.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) per a les últimes versions d'accés anticipat a mòbil.
 
 ### Habilitar versions d'accés anticipat
 

@@ -13,15 +13,15 @@ Az előnyök közé tartozik:
 
 A Catalyst három szintje a hozzájárulás mértékén alapul: *Insider*, *Supporter* és *VIP*.
 
-| Előnyök                                                                            | Insider | Supporter |   VIP    |
-| ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Korai hozzáférés az új verziókhoz                                                  |    ✓    |     ✓     |    ✓     |
-| Hozzáférés az exkluzív fejlesztői csatornákhoz: `#insider-desktop` és `#insider-mobile` |    ✓    |     ✓     |    ✓     |
-| Hozzáférés az exkluzív társalgó csatornához: `#vip-lounge`                         |         |     ✓     |    ✓     |
-| Insider jelvény                                                                    |    ✓    |           |          |
-| Supporter jelvény                                                                  |         |     ✓     |          |
-| VIP jelvény                                                                        |         |           |    ✓     |
-| **Hozzájárulás (USD)**                                                             | **$25** |  **$50**  | **$100** |
+| Előnyök                                      | Insider | Supporter |   VIP    |
+| -------------------------------------------- | :-----: | :-------: | :------: |
+| Korai hozzáférés az új verziókhoz            |    ✓    |     ✓     |    ✓     |
+| Hozzáférés az exkluzív fejlesztői csatornákhoz |    ✓    |     ✓     |    ✓     |
+| Hozzáférés az exkluzív társalgó csatornához  |         |     ✓     |    ✓     |
+| Insider jelvény                              |    ✓    |           |          |
+| Supporter jelvény                            |         |     ✓     |          |
+| VIP jelvény                                  |         |           |    ✓     |
+| **Hozzájárulás (USD)**                       | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Catalyst szint frissítése
@@ -48,6 +48,10 @@ A Catalyst-licenc megvásárlása után számos előnyhöz férhet hozzá. Ismer
 ### Csatlakozás az Insider csatornákhoz
 
 Az Insiderek az Obsidian csapatával és más Insiderekkel beszélgethetnek exkluzív Discord csatornáinkon. Az Insider csatornákhoz automatikusan csatlakozik, miután [[#Discord jelvény beszerzése|beszerezte a Discord jelvényét]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) Catalyst tagok közötti beszélgetésekhez.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) a legújabb korai hozzáférésű kiadásokhoz asztali gépen.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) a legújabb korai hozzáférésű kiadásokhoz mobilon.
 
 ### Korai hozzáférésű verziók engedélyezése
 
