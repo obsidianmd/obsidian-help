@@ -4,8 +4,8 @@
  * Usage: npx tsx scripts/publish-all.ts [--dry-run] [locale ...]
  *
  * Publishes all active locales (or the ones specified) via `ob publish`,
- * then syncs site options (nav order, display flags, etc.) for each non-EN locale.
- * Runs all locales in parallel and reports success/failure per locale.
+ * then syncs site options (nav order, display flags, etc.) for all locales
+ * in a single pass (reads EN options once, applies to EN + translated locales).
  */
 
 import { execSync, spawn } from "child_process";
@@ -63,7 +63,9 @@ function run(cmd: string, args: string[]): Promise<string> {
 
 console.log(`Publishing ${locales.join(", ")}${dryRun ? " [DRY RUN]" : ""}\n`);
 
-const results = await Promise.all(locales.map(async locale => {
+// ─── Phase 1: Publish all locales in parallel ────────────────────────────────
+
+const publishResults = await Promise.all(locales.map(async locale => {
   const localePath = path.join(ROOT, locale);
   const lines: string[] = [];
   const log = (s: string) => lines.push(s);
@@ -73,14 +75,6 @@ const results = await Promise.all(locales.map(async locale => {
     log(`ob ${publishArgs.join(" ")}`);
     const out = await run("ob", publishArgs);
     if (out.trim()) for (const line of out.trim().split("\n")) log(line);
-
-    if (locale !== "en") {
-      const siteArgs = ["tsx", path.join(SCRIPTS_DIR, "sync-site-options.ts"), locale, ...(dryRun ? ["--dry-run"] : [])];
-      log(`npx ${siteArgs.join(" ")}`);
-      const siteOut = await run("npx", siteArgs);
-      if (siteOut.trim()) for (const line of siteOut.trim().split("\n")) log(line);
-    }
-
     return { locale, ok: true, lines };
   } catch (err: unknown) {
     const e = err as { message?: string };
@@ -91,14 +85,30 @@ const results = await Promise.all(locales.map(async locale => {
   }
 }));
 
-// ─── Print results in locale order ────────────────────────────────────────────
-
 let ok = 0, failed = 0;
-for (const { locale, ok: success, lines } of results) {
-  console.log(`── ${locale}`);
+for (const { locale, ok: success, lines } of publishResults) {
+  console.log(`── ${locale} (publish)`);
   for (const line of lines) console.log(`   ${line}`);
   if (success) { console.log(`   ✓ done\n`); ok++; }
   else { console.error(`   ✗ failed\n`); failed++; }
+}
+
+// ─── Phase 2: Sync site options in a single run (reads EN once) ──────────────
+
+const nonEnLocales = locales.filter(l => l !== "en");
+if (nonEnLocales.length > 0) {
+  console.log("Syncing site options…\n");
+  try {
+    const siteArgs = ["tsx", path.join(SCRIPTS_DIR, "sync-site-options.ts"), ...nonEnLocales, ...(dryRun ? ["--dry-run"] : [])];
+    console.log(`npx ${siteArgs.join(" ")}`);
+    const siteOut = await run("npx", siteArgs);
+    if (siteOut.trim()) for (const line of siteOut.trim().split("\n")) console.log(`  ${line}`);
+    console.log();
+  } catch (err: unknown) {
+    const e = err as { message?: string };
+    console.error(`Site options sync failed: ${(e.message ?? "").split("\n")[0]}`);
+    failed++;
+  }
 }
 
 console.log(`--- Summary ---`);
