@@ -15,15 +15,15 @@ Benefits include:
 
 There are three tiers of Catalyst based on the amount you contribute: *Insider*, *Supporter*, and *VIP*.
 
-| Benefits                                                                           | Insider | Supporter |   VIP    |
-| ---------------------------------------------------------------------------------- | :-----: | :-------: | :------: |
-| Early access to new versions                                                       |    ✓    |     ✓     |    ✓     |
-| Access to exclusive development channels, `#insider-desktop` and `#insider-mobile` |    ✓    |     ✓     |    ✓     |
-| Access to exclusive lounge channel, `#vip-lounge`                                  |         |     ✓     |    ✓     |
-| Insider badge                                                                      |    ✓    |           |          |
-| Supporter badge                                                                    |         |     ✓     |          |
-| VIP badge                                                                          |         |           |    ✓     |
-| **Contribution (USD)**                                                             | **$25** |  **$50**  | **$100** |
+| Benefits                                 | Insider | Supporter |   VIP    |
+| ---------------------------------------- | :-----: | :-------: | :------: |
+| Early access to new versions             |    ✓    |     ✓     |    ✓     |
+| Access to exclusive development channels |    ✓    |     ✓     |    ✓     |
+| Access to exclusive lounge channel       |         |     ✓     |    ✓     |
+| Insider badge                            |    ✓    |           |          |
+| Supporter badge                          |         |     ✓     |          |
+| VIP badge                                |         |           |    ✓     |
+| **Contribution (USD)**                   | **$25** |  **$50**  | **$100** |
 
 
 > [!info] Upgrade your Catalyst tier
@@ -50,6 +50,10 @@ Once you've purchased a Catalyst license, you can access a range of benefits. Le
 ### Join our Insider channels
 
 Insiders can chat with the Obsidian team and other Insiders in our exclusive Discord channels. You automatically join the Insider channels after you [[#Get your Discord badge]].
+
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) for discussions with Catalyst members.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) for the latest early access releases on desktop.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) for the latest early access releases on mobile.
 
 ### Enable early access versions
 
