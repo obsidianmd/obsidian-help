@@ -1,7 +1,5 @@
 ---
 permalink: ios
-aliases:
-  - Obsidian/iOS app
 ---
 កម្មវិធីទូរសព្ទ Obsidian សម្រាប់ iOS និង iPadOS នាំយកសមត្ថភាពកត់ត្រាខ្លាំងមកកាន់ iPhone និង iPad របស់អ្នក។ អ្នកអាចទាញយកវាពី [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)។
 

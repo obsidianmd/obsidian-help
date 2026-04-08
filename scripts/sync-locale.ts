@@ -1,7 +1,7 @@
 #!/usr/bin/env tsx
 /**
  * sync-locale.ts
- * Usage: npx tsx scripts/sync-locale.ts <locale> [--dry-run]
+ * Usage: npx tsx scripts/sync-locale.ts <locale|--all> [--dry-run]
  *
  * Syncs a locale directory with en/ — same set of files, same frontmatter
  * fields (except `aliases`), matched by `permalink`.
@@ -16,6 +16,11 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 // Locales that use right-to-left text direction.
 // sync-locale appends scripts/rtl.css to publish.css for these locales.
 const RTL_LOCALES = new Set(["ar", "he", "fa", "ur"]);
+
+// Fields to always copy from EN (never locale-specific)
+const EN_FIELDS = ["permalink", "cssclasses", "publish", "mobile"];
+// Fields copied from EN into new stubs (but owned by locale once translated)
+const STUB_FIELDS = [...EN_FIELDS, "description"];
 
 // ─── filenames.txt ────────────────────────────────────────────────────────────
 
@@ -62,32 +67,7 @@ function resolveLocalePath(enRelPath: string, permalink: string, map: FilenamesM
   return [...localeFolders, `${localeBasename}.md`].join(path.sep);
 }
 
-const args = process.argv.slice(2);
-const locale = args[0];
-const dryRun = args.includes("--dry-run");
-
-if (!locale) {
-  console.error("Usage: npx tsx scripts/sync-locale.ts <locale> [--dry-run]");
-  process.exit(1);
-}
-
-const enDir = path.join(ROOT, "en");
-const localeDir = path.join(ROOT, locale);
-
-if (!fs.existsSync(enDir)) {
-  console.error(`en/ directory not found at ${enDir}`);
-  process.exit(1);
-}
-
-if (!fs.existsSync(localeDir)) {
-  console.error(`Locale directory not found at ${localeDir}`);
-  process.exit(1);
-}
-
-// Fields to always copy from EN (never locale-specific)
-const EN_FIELDS = ["permalink", "cssclasses", "publish", "mobile"];
-// Fields copied from EN into new stubs (but owned by locale once translated)
-const STUB_FIELDS = [...EN_FIELDS, "description"];
+// ─── Shared types & helpers ──────────────────────────────────────────────────
 
 interface FileInfo {
   absPath: string;
@@ -172,6 +152,51 @@ function writeFile(filePath: string, fm: Record<string, unknown>, content: strin
   fs.writeFileSync(filePath, newContent, "utf8");
 }
 
+// ─── Main ────────────────────────────────────────────────────────────────────
+
+const args = process.argv.slice(2);
+const dryRun = args.includes("--dry-run");
+const allFlag = args.includes("--all");
+
+const enDir = path.join(ROOT, "en");
+if (!fs.existsSync(enDir)) {
+  console.error(`en/ directory not found at ${enDir}`);
+  process.exit(1);
+}
+
+// BCP 47 pattern: 2-3 letter language, optional region/script subtag
+const BCP47 = /^[a-z]{2,3}(-[A-Za-z]{2,4})?$/;
+
+let locales: string[];
+if (allFlag) {
+  locales = fs.readdirSync(ROOT, { withFileTypes: true })
+    .filter(e => e.isDirectory() && e.name !== "en" && BCP47.test(e.name))
+    .map(e => e.name)
+    .sort();
+} else {
+  const locale = args.find(a => !a.startsWith("--"));
+  if (!locale) {
+    console.error("Usage: npx tsx scripts/sync-locale.ts <locale|--all> [--dry-run]");
+    process.exit(1);
+  }
+  locales = [locale];
+}
+
+const enFiles = collectFiles(enDir);
+
+for (const loc of locales) {
+  const localeDir = path.join(ROOT, loc);
+  if (!fs.existsSync(localeDir)) {
+    console.error(`Locale directory not found: ${loc}/`);
+    continue;
+  }
+  syncLocale(loc, localeDir, enFiles);
+}
+
+// ─── Per-locale sync ─────────────────────────────────────────────────────────
+
+function syncLocale(locale: string, localeDir: string, enFiles: Map<string, FileInfo>) {
+
 console.log(`Syncing ${locale}/ with en/ (dry-run: ${dryRun})\n`);
 
 const filenamesTxtPath = path.join(localeDir, "filenames.txt");
@@ -180,7 +205,6 @@ if (Object.keys(filenamesMap.files).length > 0) {
   console.log(`Loaded filenames.txt (${Object.keys(filenamesMap.files).length} files, ${Object.keys(filenamesMap.folders).length} folders)\n`);
 }
 
-const enFiles = collectFiles(enDir);
 const localeFiles = collectFiles(localeDir);
 
 let synced = 0;
@@ -312,7 +336,7 @@ const LOCALE_CUSTOM_SENTINEL = "/* LOCALE-CUSTOM */";
 
 for (const entry of fs.readdirSync(enDir, { withFileTypes: true })) {
   if (!entry.isFile() || entry.name.endsWith(".md") || entry.name.startsWith(".")) continue;
-  if (entry.name === "publish.js") continue;
+  if (entry.name === "publish.js" || entry.name === "site-options.json") continue;
 
   const src = path.join(enDir, entry.name);
   const dest = path.join(localeDir, entry.name);
@@ -359,6 +383,7 @@ for (const entry of fs.readdirSync(enDir, { withFileTypes: true })) {
 const enAttachDir = path.join(enDir, "Attachments");
 const localeAttachDir = path.join(localeDir, "Attachments");
 let attachCopied = 0;
+let attachDeleted = 0;
 
 if (fs.existsSync(enAttachDir)) {
   function syncAttachments(srcDir: string, destDir: string) {
@@ -379,6 +404,28 @@ if (fs.existsSync(enAttachDir)) {
     }
   }
   syncAttachments(enAttachDir, localeAttachDir);
+
+  // Prune locale attachments that no longer exist in en/Attachments/
+  function pruneAttachments(locDir: string, enDir: string) {
+    if (!fs.existsSync(locDir)) return;
+    for (const entry of fs.readdirSync(locDir, { withFileTypes: true })) {
+      const locPath = path.join(locDir, entry.name);
+      const enPath = path.join(enDir, entry.name);
+      if (entry.isDirectory()) {
+        pruneAttachments(locPath, enPath);
+        // Remove empty directories left after pruning
+        if (!dryRun && fs.existsSync(locPath) && fs.readdirSync(locPath).length === 0) {
+          fs.rmdirSync(locPath);
+        }
+      } else if (entry.isFile() && !fs.existsSync(enPath)) {
+        const rel = path.relative(localeDir, locPath);
+        console.log(`  ATTACH-DEL  ${rel}`);
+        if (!dryRun) fs.rmSync(locPath);
+        attachDeleted++;
+      }
+    }
+  }
+  pruneAttachments(localeAttachDir, enAttachDir);
 }
 
 // ─── Unknown folder detection ─────────────────────────────────────────────────
@@ -444,8 +491,10 @@ console.log(`  Synced (frontmatter updated): ${synced}`);
 console.log(`  Created (new stubs):          ${created}`);
 console.log(`  Unchanged:                    ${unchanged}`);
 console.log(`  Attachments copied:           ${attachCopied}`);
+console.log(`  Attachments deleted:          ${attachDeleted}`);
 console.log(`  Deleted (orphans):            ${deleted}`);
 console.log(`  Deleted (empty dirs):         ${deletedDirs}`);
 if (dryRun) {
   console.log("\n[DRY RUN] No files were written.");
 }
+} // end syncLocale

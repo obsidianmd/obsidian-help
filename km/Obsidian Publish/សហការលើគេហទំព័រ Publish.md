@@ -3,8 +3,6 @@ permalink: publish/collaborate
 publish: true
 mobile: true
 description: រៀនពីរបៀបសហការជាមួយអ្នកប្រើប្រាស់ Obsidian ផ្សេងទៀតនៅលើគេហទំព័រ Obsidian Publish របស់អ្នក។
-aliases:
-  - Obsidian Publish/Collaborating
 ---
 រៀនពីរបៀបសហការលើគេហទំព័រ [[ការណែនាំអំពី Obsidian Publish|Obsidian Publish]] របស់អ្នកជាមួយអ្នកប្រើប្រាស់ Obsidian ផ្សេងទៀត។ តាមរយៈការបន្ថែមមិត្តភក្តិ និងសហការីរបស់អ្នកជាអ្នកសហការ ពួកគេអាចផ្សាយការផ្លាស់ប្ដូរទៅគេហទំព័ររបស់អ្នក។
 

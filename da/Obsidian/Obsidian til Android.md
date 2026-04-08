@@ -2,7 +2,6 @@
 permalink: android
 aliases:
   - Android app
-  - Obsidian/Android app
 ---
 For at synkronisere dine noter på Android kan du læse guiden: [[Synkroniser dine noter på tværs af enheder]].
 

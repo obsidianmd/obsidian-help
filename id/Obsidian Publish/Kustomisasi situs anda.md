@@ -4,6 +4,7 @@ publish: true
 description: Pelajari cara menyesuaikan tampilan dan gaya situs Obsidian Publish Anda.
 aliases:
   - Obsidian Publish/Kustomisasi situs anda
+  - Kustomisasi situs anda
 ---
 Halaman ini menjelaskan bagaimana Anda dapat menyesuaikan tampilan dan nuansa situs [[Pengantar Obsidian Publish|Obsidian Publish]] Anda.
 

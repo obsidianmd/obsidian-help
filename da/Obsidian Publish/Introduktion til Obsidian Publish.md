@@ -1,7 +1,6 @@
 ---
 permalink: publish
 aliases:
-  - Obsidian Publish
   - Obsidian Publish/Introduktion til Obsidian Publish
 cssclasses:
   - list-cards

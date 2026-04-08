@@ -6,7 +6,6 @@ publish: true
 mobile: true
 description: អ្នកបានទិញ Obsidian Sync និងត្រៀមខ្លួនរួចរាល់ហើយ។ មគ្គុទ្ទេសក៍នេះនឹងជួយអ្នកក្នុងការដំឡើង និងកែសម្រួលការកំណត់ Obsidian Sync របស់អ្នកសម្រាប់ការប្រើប្រាស់ប្រចាំថ្ងៃ។
 aliases:
-  - Obsidian Sync/Set up Obsidian Sync on another device
   - Obsidian Sync/Set up Obsidian Sync
 ---
 អ្នកបានទិញ Obsidian Sync ហើយត្រៀមខ្លួនរួចរាល់ដើម្បីចាប់ផ្តើម។ មគ្គុទ្ទេសក៍នេះនឹងជួយអ្នករៀបចំ និងកែប្រែការកំណត់ Obsidian Sync របស់អ្នកសម្រាប់ការប្រើប្រាស់ប្រចាំថ្ងៃ។

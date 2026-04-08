@@ -3,8 +3,6 @@ permalink: sync/collaborate
 publish: true
 mobile: true
 description: This page details how you can collaborate with other Obsidian Sync users.
-aliases:
-  - Obsidian Sync/Share remote vaults
 ---
 ជាមួយ [[ការណែនាំអំពី Obsidian Sync|Obsidian Sync]] អ្នកអាចសហការលើ vault ដែលចែករំលែកជាមួយក្រុមរបស់អ្នក។
 

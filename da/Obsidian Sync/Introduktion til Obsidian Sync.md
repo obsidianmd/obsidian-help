@@ -1,12 +1,11 @@
 ---
 permalink: sync
 aliases:
-  - Obsidian Sync
   - Obsidian Sync/Introduktion til Obsidian Sync
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: Obsidian Sync er en tilkøbsservice, der lader dig synkronisere dine noter privat på tværs af enheder.
+description: 'Obsidian Sync er en tilkøbsservice, der lader dig synkronisere dine noter privat på tværs af enheder.'
 mobile: true
 publish: true
 ---
