@@ -356,9 +356,9 @@ _ _ _
 
 ***
 
-## 
+## Code
 
-You can format  both inline within a sentence, or in its own block.
+You can format code both inline within a sentence, or in its own block.
 
 ### Inline code
 
