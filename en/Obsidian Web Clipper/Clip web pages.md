@@ -19,7 +19,7 @@ By default Web Clipper attempts to intelligently extract only the main article c
 
 - If a custom template is present it uses your template.
 - If a selection is present, it uses the selection. You can use `Ctrl/Cmd+A` to select the entire page.
-- If any [[Highlight web pages|highlights]] are present, it uses the highlights.
+- If any [[Highlighter|highlights]] are present, it uses the highlights.
 
 ## Download images
 
@@ -31,32 +31,35 @@ You can download images for any file in Obsidian using the [[Command palette|com
 
 Web Clipper includes keyboard shortcuts you can use to speed up your workflow. To change key mappings go to **Web Clipper Settings** → **General** and follow the instructions for your browser. Mappings can be changed for all browsers except Safari which does not support editing hotkeys.
 
-| Action                  | macOS         | Windows/Linux  |
-| ----------------------- | ------------- | -------------- |
-| Open clipper            | `Cmd+Shift+O` | `Ctrl+Shift+O` |
-| Quick clip              | `Opt+Shift+O` | `Alt+Shift+O`  |
-| Toggle highlighter mode | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Action             | macOS         | Windows/Linux  |
+| ------------------ | ------------- | -------------- |
+| Open clipper       | `Cmd+Shift+O` | `Ctrl+Shift+O` |
+| Quick clip         | `Opt+Shift+O` | `Alt+Shift+O`  |
+| Toggle highlighter | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Toggle reader      | `Opt+Shift+R` | `Alt+Shift+R`  |
 
 ## Interface functionality
 
 The Web Clipper interface is divided into four sections:
 
-1. **Header** where you can switch templates, turn on [[Highlight web pages|highlighting]], [[Reader|read mode]],  and access settings.
+1. **Header** where you can switch templates, turn on [[Highlighter|highlighting]], [[Reader|read mode]],  and access settings.
 2. **Properties** shows the [[Properties|metadata]] extracted from the page that will be saved as [[Properties]] in Obsidian.
 3. **Note content** that will be saved to Obsidian.
 4. **Footer** allows you select the vault and folder, and add to Obsidian.
 
 Header functionality includes:
 
-- **Template** dropdown to switch between your saved [[Obsidian Web Clipper/Templates|templates]] added in Web Clipper settings.
-- **More (...)** button to display page variables you can use in templates.
-- **Highlighter** button to turn on [[Highlight web pages|highlighting]].
-- **Cog** button to open Web Clipper settings.
+- ![[lucide-chevrons-up-down.svg#icon]] **Template** switcher to use saved [[Obsidian Web Clipper/Templates|templates]] added in the extension settings.
+- ![[lucide-more-horizontal.svg#icon]] **More** button to display page variables you can use in templates.
+- ![[lucide-highlighter.svg#icon]] **Highlighter** button to turn on [[Highlighter|highlighting]].
+- ![[lucide-book-icon.svg#icon]] **Reader** button to turn on [[Reader|reading view]].
+- ![[lucide-picture-in-picture-2.svg#icon]] **Embed** button to move Web Clipper from the popup into the page.
+- ![[lucide-settings.svg#icon]] **Settings** button to open the extension settings.
 
 Footer functionality includes:
 
 - **Add to Obsidian** button to save data to Obsidian.
 - **Vault** dropdown to switch between saved vaults added in Web Clipper settings.
 - **Folder** field to define which folder to save to.
-- **Interpreter** to run [[Interpret web pages|natural language prompts]] on the page.
+- **Interpreter** to run [[Interpreter|natural language prompts]] on the page.
 

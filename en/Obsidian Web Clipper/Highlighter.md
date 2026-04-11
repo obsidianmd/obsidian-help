@@ -12,9 +12,9 @@ Highlights can be [[Clip web pages|captured]] and saved to Obsidian when you ope
 
 You can turn on highlighting in several ways, depending on your browser:
 
-- The highlighter icon in the extension panel.
-- Hotkeys, to activate the extension from your keyboard.
-- Context menu, by right-clicking the web page you are visiting.
+- ![[lucide-highlighter.svg#icon]] **Highlighter icon** in the extension panel.
+- **Keyboard shortcut** customizable in the extension settings.
+- **Context menu** by right-clicking the web page you are visiting.
 
 Once highlighting is on, you can select text, images, and elements you want to highlight.
 

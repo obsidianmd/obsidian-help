@@ -15,19 +15,19 @@ Use the `...` icon in the [[Introduction to Obsidian Web Clipper|Web Clipper]] e
 
 Preset variables are automatically generated based on the page content. These typically work for most websites.
 
-The main content variable is `{{content}}`, which contains the article content, or the [[Highlight web pages|highlights]], or the selection if there is any selected text on the page. Note that `{{content}}` attempts to extract the main content of the page, which may not always be what you want. In that case, you can use other preset variables or selector variables to extract the content you need.
+The main content variable is `{{content}}`, which contains the article content, or the [[Highlighter|highlights]], or the selection if there is any selected text on the page. Note that `{{content}}` attempts to extract the main content of the page, which may not always be what you want. In that case, you can use other preset variables or selector variables to extract the content you need.
 
 | Variable            | Description                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Author of the page                                                                     |
-| `{{content}}`       | Article content, [[Highlight web pages\|highlights]], or selection, in Markdown format |
-| `{{contentHtml}}`   | Article content, [[Highlight web pages\|highlights]], or selection, in HTML format     |
+| `{{content}}`       | Article content, [[Highlighter\|highlights]], or selection, in Markdown format |
+| `{{contentHtml}}`   | Article content, [[Highlighter\|highlights]], or selection, in HTML format     |
 | `{{date}}`          | Current date, can be formatted using the `date` filter                                 |
 | `{{description}}`   | Description or excerpt                                                                 |
 | `{{domain}}`        | Domain                                                                                 |
 | `{{favicon}}`       | Favicon URL                                                                            |
 | `{{fullHtml}}`      | Unprocessed HTML for the full page content                                             |
-| `{{highlights}}`    | [[Highlight web pages\|Highlights]] with text and timestamps                           |
+| `{{highlights}}`    | [[Highlighter\|Highlights]] with text and timestamps                           |
 | `{{image}}`         | Social share image URL                                                                 |
 | `{{published}}`     | Published date, can be formatted using the `date` filter                               |
 | `{{selection}}`     | Selection in Markdown format                                                           |
@@ -40,15 +40,15 @@ The main content variable is `{{content}}`, which contains the article content, 
 
 ## Prompt variables
 
-Prompt variables leverage language models to extract and modify data using natural language. Prompt variables require [[Interpret web pages|Interpreter]] to be enabled and configured.
+Prompt variables leverage language models to extract and modify data using natural language. Prompt variables require [[Interpreter|Interpreter]] to be enabled and configured.
 
 Prompt variables use the syntax `{{"a summary of the page"}}`. The double quotes around the prompt are important and distinguish prompts from preset variables. Prompt responses can be post-processed with [[filters]], e.g. `{{"a summary of the page"|blockquote}}`.
 
 ### When to use prompt variables
 
-Prompt variables have the benefit of being extremely flexible and easy to write, however they come with several tradeoffs: they are slower to run, and may have cost and privacy considerations depending on the [[Interpret web pages#Models|provider]] you choose.
+Prompt variables have the benefit of being extremely flexible and easy to write, however they come with several tradeoffs: they are slower to run, and may have cost and privacy considerations depending on the [[Interpreter#Models|provider]] you choose.
 
-Unlike other variable types, prompt variables need to be processed by an external language model, so they are replaced only once [[Interpret web pages|Interpreter]] has run.
+Unlike other variable types, prompt variables need to be processed by an external language model, so they are replaced only once [[Interpreter|Interpreter]] has run.
 
 It is best to *not* use prompt variables if the data you want to extract is in a consistent format that could be extracted with other variable types. 
 

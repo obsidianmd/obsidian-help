@@ -30,7 +30,7 @@ Interpreter works with almost any language model provider, including options tha
 
 1. Go to the **Interpreter** section in Web Clipper settings.
 2. Toggle on **Enable Interpreter**.
-3. Configure your provider and model, see [[Interpret web pages#Models|models]] section below.
+3. Configure your provider and model, see [[Interpreter#Models|models]] section below.
 4. Add [[Variables|prompt variables]] to your [[Obsidian Web Clipper/Templates|templates]].
 5. If your template includes prompt variables, the Interpreter section will be visible when you [[Clip web pages|clip a page]]. Click **interpret** to process the prompt variables.
 
