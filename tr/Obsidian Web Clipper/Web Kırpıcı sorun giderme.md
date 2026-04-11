@@ -14,7 +14,7 @@ Web Kırpıcı, sayfanın yalnızca ana içeriğini yakalamak için [Defuddle](h
 Web Kırpıcı'da Defuddle'ı atlamak için aşağıdaki yöntemleri kullanın:
 
 - Metin seçin veya tüm metni seçmek için `Cmd/Ctrl+A` kullanın.
-- Tam olarak neyi yakalamak istediğinizi seçmek için [[Web sayfalarını vurgulama|içeriği vurgulayın]].
+- Tam olarak neyi yakalamak istediğinizi seçmek için [[Vurgulayıcı|içeriği vurgulayın]].
 - Site için [[Obsidian Web Clipper/Şablonlar|özel şablon]] kullanın.
 
 ### Obsidian'da içerik görünmüyor

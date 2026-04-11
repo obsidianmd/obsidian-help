@@ -17,7 +17,7 @@ Som standard försöker Web Clipper att intelligent extrahera enbart det huvudsa
 
 - Om en anpassad mall finns använder den din mall.
 - Om en markering finns använder den markeringen. Du kan använda `Ctrl/Cmd+A` för att markera hela sidan.
-- Om några [[Markera webbsidor|markeringar]] finns använder den markeringarna.
+- Om några [[Överstrykningspenna|markeringar]] finns använder den markeringarna.
 
 ## Ladda ner bilder
 
@@ -29,31 +29,34 @@ Du kan ladda ner bilder för valfri fil i Obsidian med [[Kommandopalett|kommando
 
 Web Clipper inkluderar tangentbordsgenvägar som du kan använda för att snabba upp ditt arbetsflöde. För att ändra tangentmappningar gå till **Web Clipper-inställningar** → **Allmänt** och följ instruktionerna för din webbläsare. Mappningar kan ändras för alla webbläsare utom Safari som inte stöder redigering av tangentbordsgenvägar.
 
-| Åtgärd                  | macOS         | Windows/Linux  |
-| ----------------------- | ------------- | -------------- |
-| Öppna clipper            | `Cmd+Shift+O` | `Ctrl+Shift+O` |
-| Snabbklipp              | `Opt+Shift+O` | `Alt+Shift+O`  |
-| Växla markeringsläge | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Åtgärd              | macOS         | Windows/Linux  |
+| -------------------- | ------------- | -------------- |
+| Öppna clipper        | `Cmd+Shift+O` | `Ctrl+Shift+O` |
+| Snabbklipp           | `Opt+Shift+O` | `Alt+Shift+O`  |
+| Växla markering      | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Växla läsare         | `Opt+Shift+R` | `Alt+Shift+R`  |
 
 ## Gränssnittsfunktionalitet
 
 Web Clipper-gränssnittet är indelat i fyra sektioner:
 
-1. **Sidhuvud** där du kan byta mallar, aktivera [[Markera webbsidor|markering]], [[Läsare|läsläge]] och komma åt inställningar.
+1. **Sidhuvud** där du kan byta mallar, aktivera [[Överstrykningspenna|markering]], [[Läsare|läsläge]] och komma åt inställningar.
 2. **Egenskaper** visar den [[Egenskaper|metadata]] som extraherats från sidan och som sparas som [[Egenskaper]] i Obsidian.
 3. **Anteckningsinnehåll** som sparas till Obsidian.
 4. **Sidfot** låter dig välja valv och mapp samt lägga till i Obsidian.
 
 Sidhuvudets funktionalitet inkluderar:
 
-- **Mall**-rullgardinsmeny för att växla mellan dina sparade [[Obsidian Web Clipper/Mallar|mallar]] som lagts till i Web Clipper-inställningar.
-- **Mer (...)**-knapp för att visa sidvariabler som du kan använda i mallar.
-- **Markering**-knapp för att aktivera [[Markera webbsidor|markering]].
-- **Kugghjul**-knapp för att öppna Web Clipper-inställningar.
+- ![[lucide-chevrons-up-down.svg#icon]] **Mall**-väljare för att använda sparade [[Obsidian Web Clipper/Mallar|mallar]] som lagts till i tilläggsinställningarna.
+- ![[lucide-more-horizontal.svg#icon]] **Mer**-knapp för att visa sidvariabler som du kan använda i mallar.
+- ![[lucide-highlighter.svg#icon]] **Markering**-knapp för att aktivera [[Överstrykningspenna|markering]].
+- ![[lucide-book-icon.svg#icon]] **Läsare**-knapp för att aktivera [[Läsare|läsvy]].
+- ![[lucide-picture-in-picture-2.svg#icon]] **Bädda in**-knapp för att flytta Web Clipper från popupen till sidan.
+- ![[lucide-settings.svg#icon]] **Inställningar**-knapp för att öppna tilläggsinställningarna.
 
 Sidfotens funktionalitet inkluderar:
 
 - **Lägg till i Obsidian**-knapp för att spara data till Obsidian.
 - **Valv**-rullgardinsmeny för att växla mellan sparade valv som lagts till i Web Clipper-inställningar.
 - **Mapp**-fält för att definiera vilken mapp att spara till.
-- **Tolk** för att köra [[Tolka webbsidor|naturliga språkpromptar]] på sidan.
+- **Tolk** för att köra [[Tolk|naturliga språkpromptar]] på sidan.

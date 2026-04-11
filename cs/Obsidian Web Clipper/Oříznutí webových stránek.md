@@ -17,7 +17,7 @@ Ve výchozím nastavení se Web Clipper pokouší inteligentně extrahovat pouze
 
 - Pokud existuje vlastní šablona, použije vaši šablonu.
 - Pokud je přítomen výběr, použije výběr. Pomocí `Ctrl/Cmd+A` můžete vybrat celou stránku.
-- Pokud jsou přítomna nějaká [[Zvýraznění webových stránek|zvýraznění]], použije zvýraznění.
+- Pokud jsou přítomna nějaká [[Zvýrazňovač|zvýraznění]], použije zvýraznění.
 
 ## Stahování obrázků
 
@@ -33,27 +33,30 @@ Web Clipper obsahuje klávesové zkratky, které můžete použít k urychlení 
 | ------------------------- | -------------- | --------------- |
 | Otevřít clipper            | `Cmd+Shift+O` | `Ctrl+Shift+O` |
 | Rychlé zachycení           | `Opt+Shift+O` | `Alt+Shift+O`  |
-| Přepnout režim zvýrazňovače | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Přepnout zvýrazňovač       | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Přepnout čtečku            | `Opt+Shift+R` | `Alt+Shift+R`  |
 
 ## Funkce rozhraní
 
 Rozhraní Web Clipper je rozděleno do čtyř částí:
 
-1. **Záhlaví**, kde můžete přepínat šablony, zapnout [[Zvýraznění webových stránek|zvýrazňování]], [[Čtečka|režim čtení]] a přistupovat k nastavení.
+1. **Záhlaví**, kde můžete přepínat šablony, zapnout [[Zvýrazňovač|zvýrazňování]], [[Čtečka|režim čtení]] a přistupovat k nastavení.
 2. **Vlastnosti** zobrazují [[Vlastnosti|metadata]] extrahovaná ze stránky, která budou uložena jako [[Vlastnosti]] v Obsidian.
 3. **Obsah poznámky**, který bude uložen do Obsidian.
 4. **Zápatí** umožňuje vybrat trezor a složku a přidat do Obsidianu.
 
 Funkce záhlaví zahrnují:
 
-- Rozbalovací nabídku **Šablona** pro přepínání mezi uloženými [[Obsidian Web Clipper/Šablony|šablonami]] přidanými v nastavení Web Clipper.
-- Tlačítko **Více (...)** pro zobrazení proměnných stránky, které můžete použít v šablonách.
-- Tlačítko **Zvýrazňovač** pro zapnutí [[Zvýraznění webových stránek|zvýrazňování]].
-- Tlačítko **Ozubené kolečko** pro otevření nastavení Web Clipper.
+- ![[lucide-chevrons-up-down.svg#icon]] Přepínač **Šablona** pro použití uložených [[Obsidian Web Clipper/Šablony|šablon]] přidaných v nastavení rozšíření.
+- ![[lucide-more-horizontal.svg#icon]] Tlačítko **Více** pro zobrazení proměnných stránky, které můžete použít v šablonách.
+- ![[lucide-highlighter.svg#icon]] Tlačítko **Zvýrazňovač** pro zapnutí [[Zvýrazňovač|zvýrazňování]].
+- ![[lucide-book-icon.svg#icon]] Tlačítko **Čtečka** pro zapnutí [[Čtečka|režimu čtení]].
+- ![[lucide-picture-in-picture-2.svg#icon]] Tlačítko **Vložit** pro přesunutí Web Clipper z vyskakovacího okna do stránky.
+- ![[lucide-settings.svg#icon]] Tlačítko **Nastavení** pro otevření nastavení rozšíření.
 
 Funkce zápatí zahrnují:
 
 - Tlačítko **Přidat do Obsidianu** pro uložení dat do Obsidian.
 - Rozbalovací nabídku **Trezor** pro přepínání mezi uloženými trezory přidanými v nastavení Web Clipper.
 - Pole **Složka** pro definování složky, do které se má uložit.
-- **Překladač** pro spouštění [[Interpretovat webové stránky|výzev v přirozeném jazyce]] na stránce.
+- **Překladač** pro spouštění [[Překladač|výzev v přirozeném jazyce]] na stránce.

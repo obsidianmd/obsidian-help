@@ -17,7 +17,7 @@ Som standard forsøker Web Clipper å intelligent hente ut kun hovedinnholdet i 
 
 - Hvis en egendefinert mal er til stede, bruker den malen din.
 - Hvis et utvalg er til stede, bruker den utvalget. Du kan bruke `Ctrl/Cmd+A` for å velge hele siden.
-- Hvis noen [[Uthev nettsider|uthevinger]] er til stede, bruker den uthevingene.
+- Hvis noen [[Uthever|uthevinger]] er til stede, bruker den uthevingene.
 
 ## Last ned bilder
 
@@ -34,26 +34,29 @@ Web Clipper inkluderer tastatursnarveier du kan bruke for å effektivisere arbei
 | Åpne klipperen          | `Cmd+Shift+O`  | `Ctrl+Shift+O`  |
 | Hurtigklipp             | `Opt+Shift+O`  | `Alt+Shift+O`   |
 | Veksle uthever          | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Veksle lesevisning      | `Opt+Shift+R`  | `Alt+Shift+R`   |
 
 ## Grensesnittfunksjonalitet
 
 Web Clipper-grensesnittet er delt inn i fire seksjoner:
 
-1. **Topptekst** der du kan bytte maler, slå på [[Uthev nettsider|utheving]], [[Lesevisning|lesemodus]], og få tilgang til innstillinger.
+1. **Topptekst** der du kan bytte maler, slå på [[Uthever|utheving]], [[Lesevisning|lesemodus]], og få tilgang til innstillinger.
 2. **Egenskaper** viser [[Egenskaper|metadataene]] hentet fra siden som vil bli lagret som [[Egenskaper]] i Obsidian.
 3. **Notatinnhold** som vil bli lagret i Obsidian.
 4. **Bunntekst** lar deg velge hvelv og mappe, og legge til i Obsidian.
 
 Topptekstfunksjonalitet inkluderer:
 
-- **Mal**-nedtrekksmeny for å bytte mellom lagrede [[Obsidian Web Clipper/Maler|maler]] lagt til i Web Clipper-innstillinger.
-- **Mer (...)**-knapp for å vise sidevariabler du kan bruke i maler.
-- **Uthever**-knapp for å slå på [[Uthev nettsider|utheving]].
-- **Tannhjul**-knapp for å åpne Web Clipper-innstillinger.
+- ![[lucide-chevrons-up-down.svg#icon]] **Mal**-velger for å bruke lagrede [[Obsidian Web Clipper/Maler|maler]] lagt til i utvidelsesinnstillingene.
+- ![[lucide-more-horizontal.svg#icon]] **Mer**-knapp for å vise sidevariabler du kan bruke i maler.
+- ![[lucide-highlighter.svg#icon]] **Uthever**-knapp for å slå på [[Uthever|utheving]].
+- ![[lucide-book-icon.svg#icon]] **Lesevisning**-knapp for å slå på [[Lesevisning|lesevisning]].
+- ![[lucide-picture-in-picture-2.svg#icon]] **Bygg inn**-knapp for å flytte Web Clipper fra popup-vinduet inn i siden.
+- ![[lucide-settings.svg#icon]] **Innstillinger**-knapp for å åpne utvidelsesinnstillingene.
 
 Bunntekstfunksjonalitet inkluderer:
 
 - **Legg til i Obsidian**-knapp for å lagre data til Obsidian.
 - **Hvelv**-nedtrekksmeny for å bytte mellom lagrede hvelv lagt til i Web Clipper-innstillinger.
 - **Mappe**-felt for å definere hvilken mappe det skal lagres til.
-- **Tolk** for å kjøre [[Tolk nettsider|naturlige språkforespørsler]] på siden.
+- **Tolk** for å kjøre [[Tolk|naturlige språkforespørsler]] på siden.

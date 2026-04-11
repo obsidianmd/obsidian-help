@@ -25,11 +25,11 @@ Ottieni l'estensione Obsidian Web Clipper dalla directory ufficiale del tuo brow
 
 - [[Acquisire pagine web|Catturare pagine web]]
 	- Inizia e scopri come salvare contenuti dalle pagine.
-- [[Evidenziare pagine web|Evidenziatore]]
+- [[Evidenziatore|Evidenziatore]]
 	- Evidenzia passaggi importanti e seleziona gli elementi che desideri salvare.
 - [[Lettore|Lettore]]
 	- Leggi le pagine web in una vista pulita e priva di distrazioni.
-- [[Interpretare pagine web|Interprete]]
+- [[Interprete|Interprete]]
 	- Usa prompt in linguaggio naturale per catturare e modificare i dati di una pagina.
 - [[Risoluzione problemi di Web Clipper|Risoluzione dei problemi]]
 	- Risolvi problemi comuni con Web Clipper.

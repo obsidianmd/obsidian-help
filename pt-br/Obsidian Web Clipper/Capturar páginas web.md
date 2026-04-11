@@ -17,7 +17,7 @@ Por padrão, o Web Clipper tenta extrair de forma inteligente apenas o conteúdo
 
 - Se um modelo personalizado estiver presente, ele usa seu modelo.
 - Se uma seleção estiver presente, ele usa a seleção. Você pode usar `Ctrl/Cmd+A` para selecionar a página inteira.
-- Se algum [[Destacar páginas web|destaque]] estiver presente, ele usa os destaques.
+- Se algum [[Marcador|destaque]] estiver presente, ele usa os destaques.
 
 ## Baixar imagens
 
@@ -29,31 +29,34 @@ Você pode baixar imagens de qualquer arquivo no Obsidian usando o [[Paleta de c
 
 O Web Clipper inclui atalhos de teclado que você pode usar para agilizar seu fluxo de trabalho. Para alterar os mapeamentos de teclas, vá em **Configurações do Web Clipper** → **Geral** e siga as instruções para o seu navegador. Os mapeamentos podem ser alterados em todos os navegadores, exceto o Safari, que não suporta edição de teclas de atalho.
 
-| Ação                           | macOS          | Windows/Linux   |
-| ------------------------------ | -------------- | --------------- |
-| Abrir o clipper                | `Cmd+Shift+O`  | `Ctrl+Shift+O`  |
-| Captura rápida                 | `Opt+Shift+O`  | `Alt+Shift+O`   |
-| Alternar modo de destaque      | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Ação                      | macOS          | Windows/Linux   |
+| ------------------------- | -------------- | --------------- |
+| Abrir o clipper           | `Cmd+Shift+O`  | `Ctrl+Shift+O`  |
+| Captura rápida            | `Opt+Shift+O`  | `Alt+Shift+O`   |
+| Alternar marcador         | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Alternar leitor           | `Opt+Shift+R`  | `Alt+Shift+R`   |
 
 ## Funcionalidade da interface
 
 A interface do Web Clipper é dividida em quatro seções:
 
-1. **Cabeçalho** onde você pode alternar modelos, ativar o [[Destacar páginas web|destaque]], o [[Leitor|modo de leitura]] e acessar configurações.
+1. **Cabeçalho** onde você pode alternar modelos, ativar o [[Marcador|destaque]], o [[Leitor|modo de leitura]] e acessar configurações.
 2. **Propriedades** mostra os [[Propriedades|metadados]] extraídos da página que serão salvos como [[Propriedades]] no Obsidian.
 3. **Conteúdo da nota** que será salvo no Obsidian.
 4. **Rodapé** permite selecionar o cofre e a pasta, e adicionar ao Obsidian.
 
 As funcionalidades do cabeçalho incluem:
 
-- Menu suspenso de **Modelo** para alternar entre seus [[Obsidian Web Clipper/Modelos|modelos]] salvos adicionados nas configurações do Web Clipper.
-- Botão **Mais (...)** para exibir variáveis da página que você pode usar em modelos.
-- Botão **Marcador** para ativar o [[Destacar páginas web|destaque]].
-- Botão de **Engrenagem** para abrir as configurações do Web Clipper.
+- ![[lucide-chevrons-up-down.svg#icon]] Alternador de **Modelo** para usar [[Obsidian Web Clipper/Modelos|modelos]] salvos adicionados nas configurações da extensão.
+- ![[lucide-more-horizontal.svg#icon]] Botão **Mais** para exibir variáveis da página que você pode usar em modelos.
+- ![[lucide-highlighter.svg#icon]] Botão **Marcador** para ativar o [[Marcador|destaque]].
+- ![[lucide-book-icon.svg#icon]] Botão **Leitor** para ativar a [[Leitor|visualização de leitura]].
+- ![[lucide-picture-in-picture-2.svg#icon]] Botão **Incorporar** para mover o Web Clipper do popup para a página.
+- ![[lucide-settings.svg#icon]] Botão **Configurações** para abrir as configurações da extensão.
 
 As funcionalidades do rodapé incluem:
 
 - Botão **Adicionar ao Obsidian** para salvar dados no Obsidian.
 - Menu suspenso de **Cofre** para alternar entre cofres salvos adicionados nas configurações do Web Clipper.
 - Campo de **Pasta** para definir em qual pasta salvar.
-- **Interpretador** para executar [[Interpretar páginas web|prompts em linguagem natural]] na página.
+- **Interpretador** para executar [[Interpretador|prompts em linguagem natural]] na página.

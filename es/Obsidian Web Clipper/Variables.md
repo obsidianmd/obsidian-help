@@ -15,19 +15,19 @@ Usa el icono `...` en la extensión [[Introducción a Obsidian Web Clipper|Web C
 
 Las variables predefinidas se generan automáticamente basándose en el contenido de la página. Estas funcionan generalmente en la mayoría de los sitios web.
 
-La variable de contenido principal es `{{content}}`, que contiene el contenido del artículo, los [[Resaltar páginas web|resaltados]], o la selección si hay texto seleccionado en la página. Ten en cuenta que `{{content}}` intenta extraer el contenido principal de la página, lo que puede no ser siempre lo que deseas. En ese caso, puedes usar otras variables predefinidas o variables de selector para extraer el contenido que necesitas.
+La variable de contenido principal es `{{content}}`, que contiene el contenido del artículo, los [[Resaltador|resaltados]], o la selección si hay texto seleccionado en la página. Ten en cuenta que `{{content}}` intenta extraer el contenido principal de la página, lo que puede no ser siempre lo que deseas. En ese caso, puedes usar otras variables predefinidas o variables de selector para extraer el contenido que necesitas.
 
 | Variable            | Descripción                                                                             |
 | ------------------- | --------------------------------------------------------------------------------------- |
 | `{{author}}`        | Autor de la página                                                                      |
-| `{{content}}`       | Contenido del artículo, [[Resaltar páginas web\|resaltados]], o selección, en formato Markdown |
-| `{{contentHtml}}`   | Contenido del artículo, [[Resaltar páginas web\|resaltados]], o selección, en formato HTML     |
+| `{{content}}`       | Contenido del artículo, [[Resaltador\|resaltados]], o selección, en formato Markdown |
+| `{{contentHtml}}`   | Contenido del artículo, [[Resaltador\|resaltados]], o selección, en formato HTML     |
 | `{{date}}`          | Fecha actual, se puede formatear usando el filtro `date`                                |
 | `{{description}}`   | Descripción o extracto                                                                  |
 | `{{domain}}`        | Dominio                                                                                 |
 | `{{favicon}}`       | URL del favicon                                                                         |
 | `{{fullHtml}}`      | HTML sin procesar del contenido completo de la página                                   |
-| `{{highlights}}`    | [[Resaltar páginas web\|Resaltados]] con texto y marcas de tiempo                       |
+| `{{highlights}}`    | [[Resaltador\|Resaltados]] con texto y marcas de tiempo                       |
 | `{{image}}`         | URL de la imagen para compartir en redes sociales                                       |
 | `{{published}}`     | Fecha de publicación, se puede formatear usando el filtro `date`                        |
 | `{{selection}}`     | Selección en formato Markdown                                                           |
@@ -40,15 +40,15 @@ La variable de contenido principal es `{{content}}`, que contiene el contenido d
 
 ## Variables de prompt
 
-Las variables de prompt aprovechan modelos de lenguaje para extraer y modificar datos usando lenguaje natural. Las variables de prompt requieren que [[Interpretar páginas web|Intérprete]] esté habilitado y configurado.
+Las variables de prompt aprovechan modelos de lenguaje para extraer y modificar datos usando lenguaje natural. Las variables de prompt requieren que [[Intérprete|Intérprete]] esté habilitado y configurado.
 
 Las variables de prompt usan la sintaxis `{{"un resumen de la página"}}`. Las comillas dobles alrededor del prompt son importantes y distinguen los prompts de las variables predefinidas. Las respuestas de los prompts se pueden post-procesar con [[Filtros|filtros]], por ejemplo `{{"un resumen de la página"|blockquote}}`.
 
 ### Cuándo usar variables de prompt
 
-Las variables de prompt tienen la ventaja de ser extremadamente flexibles y fáciles de escribir, sin embargo conllevan varias desventajas: son más lentas de ejecutar, y pueden tener consideraciones de costo y privacidad dependiendo del [[Interpretar páginas web#Modelos|proveedor]] que elijas.
+Las variables de prompt tienen la ventaja de ser extremadamente flexibles y fáciles de escribir, sin embargo conllevan varias desventajas: son más lentas de ejecutar, y pueden tener consideraciones de costo y privacidad dependiendo del [[Intérprete#Modelos|proveedor]] que elijas.
 
-A diferencia de otros tipos de variables, las variables de prompt necesitan ser procesadas por un modelo de lenguaje externo, por lo que se reemplazan solo una vez que [[Interpretar páginas web|Intérprete]] se ha ejecutado.
+A diferencia de otros tipos de variables, las variables de prompt necesitan ser procesadas por un modelo de lenguaje externo, por lo que se reemplazan solo una vez que [[Intérprete|Intérprete]] se ha ejecutado.
 
 Es mejor *no* usar variables de prompt si los datos que deseas extraer están en un formato consistente que podría extraerse con otros tipos de variables.
 

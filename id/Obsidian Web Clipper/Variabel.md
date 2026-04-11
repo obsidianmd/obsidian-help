@@ -15,19 +15,19 @@ Gunakan ikon `...` di ekstensi [[Pengantar Obsidian Web Clipper|Web Clipper]] un
 
 Variabel preset dihasilkan secara otomatis berdasarkan konten halaman. Variabel ini biasanya berfungsi untuk sebagian besar situs web.
 
-Variabel konten utama adalah `{{content}}`, yang berisi konten artikel, atau [[Sorot halaman web|sorotan]], atau seleksi jika ada teks yang dipilih pada halaman. Perlu diperhatikan bahwa `{{content}}` mencoba mengekstrak konten utama halaman, yang mungkin tidak selalu sesuai keinginan Anda. Dalam hal ini, Anda dapat menggunakan variabel preset lain atau variabel selektor untuk mengekstrak konten yang Anda butuhkan.
+Variabel konten utama adalah `{{content}}`, yang berisi konten artikel, atau [[Penyorot|sorotan]], atau seleksi jika ada teks yang dipilih pada halaman. Perlu diperhatikan bahwa `{{content}}` mencoba mengekstrak konten utama halaman, yang mungkin tidak selalu sesuai keinginan Anda. Dalam hal ini, Anda dapat menggunakan variabel preset lain atau variabel selektor untuk mengekstrak konten yang Anda butuhkan.
 
 | Variabel            | Deskripsi                                                                              |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Penulis halaman                                                                        |
-| `{{content}}`       | Konten artikel, [[Sorot halaman web\|sorotan]], atau seleksi, dalam format Markdown    |
-| `{{contentHtml}}`   | Konten artikel, [[Sorot halaman web\|sorotan]], atau seleksi, dalam format HTML        |
+| `{{content}}`       | Konten artikel, [[Penyorot\|sorotan]], atau seleksi, dalam format Markdown    |
+| `{{contentHtml}}`   | Konten artikel, [[Penyorot\|sorotan]], atau seleksi, dalam format HTML        |
 | `{{date}}`          | Tanggal saat ini, dapat diformat menggunakan filter `date`                             |
 | `{{description}}`   | Deskripsi atau kutipan                                                                 |
 | `{{domain}}`        | Domain                                                                                 |
 | `{{favicon}}`       | URL favicon                                                                            |
 | `{{fullHtml}}`      | HTML yang belum diproses untuk konten halaman penuh                                    |
-| `{{highlights}}`    | [[Sorot halaman web\|Sorotan]] dengan teks dan stempel waktu                          |
+| `{{highlights}}`    | [[Penyorot\|Sorotan]] dengan teks dan stempel waktu                          |
 | `{{image}}`         | URL gambar berbagi sosial                                                              |
 | `{{published}}`     | Tanggal terbit, dapat diformat menggunakan filter `date`                               |
 | `{{selection}}`     | Seleksi dalam format Markdown                                                          |
@@ -40,15 +40,15 @@ Variabel konten utama adalah `{{content}}`, yang berisi konten artikel, atau [[S
 
 ## Variabel prompt
 
-Variabel prompt memanfaatkan model bahasa untuk mengekstrak dan memodifikasi data menggunakan bahasa alami. Variabel prompt memerlukan [[Interpretasi halaman web|Interpreter]] untuk diaktifkan dan dikonfigurasi.
+Variabel prompt memanfaatkan model bahasa untuk mengekstrak dan memodifikasi data menggunakan bahasa alami. Variabel prompt memerlukan [[Interpreter|Interpreter]] untuk diaktifkan dan dikonfigurasi.
 
 Variabel prompt menggunakan sintaksis `{{"ringkasan halaman"}}`. Tanda kutip ganda di sekitar prompt penting dan membedakan prompt dari variabel preset. Respons prompt dapat diproses lanjutan dengan [[Filter|filter]], misalnya `{{"ringkasan halaman"|blockquote}}`.
 
 ### Kapan menggunakan variabel prompt
 
-Variabel prompt memiliki keuntungan sangat fleksibel dan mudah ditulis, namun ada beberapa pertukaran: lebih lambat dijalankan, dan mungkin memiliki pertimbangan biaya dan privasi tergantung pada [[Interpretasi halaman web#Model|penyedia]] yang Anda pilih.
+Variabel prompt memiliki keuntungan sangat fleksibel dan mudah ditulis, namun ada beberapa pertukaran: lebih lambat dijalankan, dan mungkin memiliki pertimbangan biaya dan privasi tergantung pada [[Interpreter#Model|penyedia]] yang Anda pilih.
 
-Berbeda dengan jenis variabel lain, variabel prompt perlu diproses oleh model bahasa eksternal, sehingga variabel ini baru diganti setelah [[Interpretasi halaman web|Interpreter]] dijalankan.
+Berbeda dengan jenis variabel lain, variabel prompt perlu diproses oleh model bahasa eksternal, sehingga variabel ini baru diganti setelah [[Interpreter|Interpreter]] dijalankan.
 
 Sebaiknya *jangan* menggunakan variabel prompt jika data yang ingin Anda ekstrak memiliki format konsisten yang dapat diekstrak dengan jenis variabel lain.
 

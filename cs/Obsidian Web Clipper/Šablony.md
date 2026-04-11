@@ -62,4 +62,4 @@ Hodnoty schema.org lze také použít k [[Proměnné#Proměnné Schema.org|před
 
 ### Kontext překladače
 
-Když je [[Interpretovat webové stránky|Překladač]] zapnutý, můžete pomocí [[Proměnné#Promptové proměnné|proměnných výzev]] extrahovat obsah stránky přirozeným jazykem. Pro každou šablonu můžete definovat [[Interpretovat webové stránky#Kontext|kontext]], ke kterému má Překladač přístup.
+Když je [[Překladač|Překladač]] zapnutý, můžete pomocí [[Proměnné#Promptové proměnné|proměnných výzev]] extrahovat obsah stránky přirozeným jazykem. Pro každou šablonu můžete definovat [[Překladač#Kontext|kontext]], ke kterému má Překladač přístup.

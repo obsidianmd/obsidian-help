@@ -1,7 +1,6 @@
 ---
 permalink: web-clipper/troubleshoot
 localized: '2026-03-18'
-
 ---
 Si vous rencontrez des problèmes avec [[Introduction à Obsidian Web Clipper|Web Clipper]], vous pouvez obtenir de l'aide via le [canal Discord officiel](https://discord.com/channels/686053708261228577/1285652864089198672). Vous pouvez également signaler des bugs sur le [dépôt GitHub](https://github.com/obsidianmd/obsidian-clipper).
 
@@ -16,7 +15,7 @@ Web Clipper utilise [Defuddle](https://github.com/kepano/defuddle) pour capturer
 Pour contourner Defuddle dans Web Clipper, utilisez les méthodes suivantes :
 
 - Sélectionnez du texte, ou utilisez `Cmd/Ctrl+A` pour sélectionner tout le texte.
-- [[Surligner des pages web|Surlignez du contenu]] pour choisir exactement ce que vous souhaitez capturer.
+- [[Surligneur|Surlignez du contenu]] pour choisir exactement ce que vous souhaitez capturer.
 - Utilisez un [[Obsidian Web Clipper/Modèles|modèle personnalisé]] pour le site.
 
 ### Aucun contenu n'apparaît dans Obsidian

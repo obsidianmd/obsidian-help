@@ -17,7 +17,7 @@ Oletuksena Web Clipper pyrkii älykkäästi poimimaan vain pääartikkelin sisä
 
 - Jos mukautettu pohjatiedosto on käytössä, se käyttää pohjatiedostoasi.
 - Jos valinta on olemassa, se käyttää valintaa. Voit käyttää `Ctrl/Cmd+A` valitaksesi koko sivun.
-- Jos [[Verkkosivujen korostaminen|korostuksia]] on olemassa, se käyttää korostuksia.
+- Jos [[Korostustyökalu|korostuksia]] on olemassa, se käyttää korostuksia.
 
 ## Kuvien lataaminen
 
@@ -29,31 +29,34 @@ Voit ladata kuvat mille tahansa tiedostolle Obsidianissa käyttämällä [[Komen
 
 Web Clipper sisältää pikanäppäimiä, joilla voit nopeuttaa työnkulkuasi. Muuttaaksesi näppäinyhdistelmiä siirry kohtaan **Web Clipper -asetukset** → **Yleiset** ja seuraa selaimesi ohjeita. Yhdistelmiä voidaan muuttaa kaikissa selaimissa paitsi Safarissa, joka ei tue pikanäppäinten muokkaamista.
 
-| Toiminto                | macOS         | Windows/Linux  |
-| ----------------------- | ------------- | -------------- |
-| Avaa leikkuri           | `Cmd+Shift+O` | `Ctrl+Shift+O` |
-| Pikaleikkaus            | `Opt+Shift+O` | `Alt+Shift+O`  |
-| Vaihda korostustila     | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Toiminto               | macOS         | Windows/Linux  |
+| ---------------------- | ------------- | -------------- |
+| Avaa leikkuri          | `Cmd+Shift+O` | `Ctrl+Shift+O` |
+| Pikaleikkaus           | `Opt+Shift+O` | `Alt+Shift+O`  |
+| Vaihda korostustyökalu | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Vaihda lukutila        | `Opt+Shift+R` | `Alt+Shift+R`  |
 
 ## Käyttöliittymän toiminnot
 
 Web Clipperin käyttöliittymä on jaettu neljään osaan:
 
-1. **Ylätunniste**, jossa voit vaihtaa pohjatiedostoja, ottaa käyttöön [[Verkkosivujen korostaminen|korostuksen]], [[Lukija|lukutilan]] ja käyttää asetuksia.
+1. **Ylätunniste**, jossa voit vaihtaa pohjatiedostoja, ottaa käyttöön [[Korostustyökalu|korostuksen]], [[Lukija|lukutilan]] ja käyttää asetuksia.
 2. **Määreet** näyttää sivulta poimitut [[Määreet|metatiedot]], jotka tallennetaan [[Määreet|määreinä]] Obsidianiin.
 3. **Muistiinpanon sisältö**, joka tallennetaan Obsidianiin.
 4. **Alatunniste**, jossa voit valita holvin ja kansion sekä lisätä Obsidianiin.
 
 Ylätunnisteen toiminnot:
 
-- **Pohjatiedosto**-pudotusvalikko vaihtaaksesi Web Clipperin asetuksiin tallennettujen [[Obsidian Web Clipper/Mallineet|pohjatiedostojen]] välillä.
-- **Lisää (...)** -painike näyttääksesi sivun muuttujat, joita voit käyttää pohjatiedostoissa.
-- **Korostustyökalu**-painike ottaaksesi käyttöön [[Verkkosivujen korostaminen|korostuksen]].
-- **Hammaspyörä**-painike avaa Web Clipperin asetukset.
+- ![[lucide-chevrons-up-down.svg#icon]] **Pohjatiedosto**-vaihtaja käyttääksesi laajennuksen asetuksiin tallennettuja [[Obsidian Web Clipper/Mallineet|pohjatiedostoja]].
+- ![[lucide-more-horizontal.svg#icon]] **Lisää**-painike näyttääksesi sivun muuttujat, joita voit käyttää pohjatiedostoissa.
+- ![[lucide-highlighter.svg#icon]] **Korostustyökalu**-painike ottaaksesi käyttöön [[Korostustyökalu|korostuksen]].
+- ![[lucide-book-icon.svg#icon]] **Lukija**-painike ottaaksesi käyttöön [[Lukija|lukutilan]].
+- ![[lucide-picture-in-picture-2.svg#icon]] **Upota**-painike siirtääksesi Web Clipperin ponnahdusikkunasta sivulle.
+- ![[lucide-settings.svg#icon]] **Asetukset**-painike avaa laajennuksen asetukset.
 
 Alatunnisteen toiminnot:
 
 - **Lisää Obsidianiin** -painike tallentaa tiedot Obsidianiin.
 - **Holvi**-pudotusvalikko vaihtaaksesi Web Clipperin asetuksiin tallennettujen holvien välillä.
 - **Kansio**-kenttä määrittääksesi, mihin kansioon tallennetaan.
-- **Tulkki** suorittaaksesi [[Verkkosivujen tulkinta|luonnollisen kielen kehotteita]] sivulla.
+- **Tulkki** suorittaaksesi [[Tulkki|luonnollisen kielen kehotteita]] sivulla.

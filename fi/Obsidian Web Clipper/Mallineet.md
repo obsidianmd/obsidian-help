@@ -62,4 +62,4 @@ Schema.org-arvoja voidaan myös käyttää [[Muuttujat#Schema.org-muuttujat|mall
 
 ### Tulkkauksen konteksti
 
-Kun [[Verkkosivujen tulkinta|tulkki]] on käytössä, voit käyttää [[Muuttujat#Kehotemuuttujat|kehotemuuttujia]] sivun sisällön poimimiseen luonnollisella kielellä. Kullekin mallille voit määrittää [[Verkkosivujen tulkinta#Konteksti|kontekstin]], johon tulkilla on pääsy.
+Kun [[Tulkki|tulkki]] on käytössä, voit käyttää [[Muuttujat#Kehotemuuttujat|kehotemuuttujia]] sivun sisällön poimimiseen luonnollisella kielellä. Kullekin mallille voit määrittää [[Tulkki#Konteksti|kontekstin]], johon tulkilla on pääsy.

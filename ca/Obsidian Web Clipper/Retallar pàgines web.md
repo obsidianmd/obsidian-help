@@ -17,7 +17,7 @@ Per defecte, el Web Clipper intenta extreure intel·ligentment només el conting
 
 - Si hi ha una plantilla personalitzada, utilitza la teva plantilla.
 - Si hi ha una selecció, utilitza la selecció. Pots fer servir `Ctrl/Cmd+A` per seleccionar tota la pàgina.
-- Si hi ha [[Ressaltar pàgines web|ressaltats]], utilitza els ressaltats.
+- Si hi ha [[Ressaltador|ressaltats]], utilitza els ressaltats.
 
 ## Descarregar imatges
 
@@ -33,27 +33,30 @@ El Web Clipper inclou dreceres de teclat que pots utilitzar per accelerar el teu
 | --------------------------- | -------------- | --------------- |
 | Obrir el clipper             | `Cmd+Shift+O`  | `Ctrl+Shift+O`  |
 | Guardat ràpid                | `Opt+Shift+O`  | `Alt+Shift+O`   |
-| Alternar el mode de ressaltat | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Alternar el ressaltador      | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Alternar el lector           | `Opt+Shift+R`  | `Alt+Shift+R`   |
 
 ## Funcionalitat de la interfície
 
 La interfície del Web Clipper es divideix en quatre seccions:
 
-1. **Capçalera** on pots canviar de plantilla, activar el [[Ressaltar pàgines web|ressaltat]], el [[Lector|mode de lectura]] i accedir a la configuració.
+1. **Capçalera** on pots canviar de plantilla, activar el [[Ressaltador|ressaltat]], el [[Lector|mode de lectura]] i accedir a la configuració.
 2. **Propietats** mostra les [[Propietats|metadades]] extretes de la pàgina que es desaran com a [[Propietats]] a Obsidian.
 3. **Contingut de la nota** que es desarà a Obsidian.
 4. **Peu de pàgina** et permet seleccionar la cambra forta i la carpeta, i agregar a Obsidian.
 
 La funcionalitat de la capçalera inclou:
 
-- Desplegable de **Plantilla** per canviar entre les teves [[Obsidian Web Clipper/Plantilles|plantilles]] desades afegides a la configuració del Web Clipper.
-- Botó **Més (...)** per mostrar les variables de pàgina que pots utilitzar a les plantilles.
-- Botó **Ressaltador** per activar el [[Ressaltar pàgines web|ressaltat]].
-- Botó de **Roda dentada** per obrir la configuració del Web Clipper.
+- ![[lucide-chevrons-up-down.svg#icon]] Commutador de **Plantilla** per utilitzar les [[Obsidian Web Clipper/Plantilles|plantilles]] desades afegides a la configuració de l'extensió.
+- ![[lucide-more-horizontal.svg#icon]] Botó **Més** per mostrar les variables de pàgina que pots utilitzar a les plantilles.
+- ![[lucide-highlighter.svg#icon]] Botó **Ressaltador** per activar el [[Ressaltador|ressaltat]].
+- ![[lucide-book-icon.svg#icon]] Botó **Lector** per activar la [[Lector|vista de lectura]].
+- ![[lucide-picture-in-picture-2.svg#icon]] Botó **Incrustar** per moure el Web Clipper de la finestra emergent a la pàgina.
+- ![[lucide-settings.svg#icon]] Botó **Configuració** per obrir la configuració de l'extensió.
 
 La funcionalitat del peu de pàgina inclou:
 
 - Botó **Agregar a Obsidian** per desar les dades a Obsidian.
 - Desplegable de **Cambra forta** per canviar entre les cambres fortes desades afegides a la configuració del Web Clipper.
 - Camp de **Carpeta** per definir a quina carpeta desar.
-- **Intèrpret** per executar [[Interpretar pàgines web|indicacions en llenguatge natural]] a la pàgina.
+- **Intèrpret** per executar [[Intèrpret|indicacions en llenguatge natural]] a la pàgina.

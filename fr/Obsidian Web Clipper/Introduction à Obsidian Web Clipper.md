@@ -27,11 +27,11 @@ Obtenez l'extension Obsidian Web Clipper depuis le répertoire officiel de votre
 
 - [[Capturer des pages web]]
 	- Commencez et apprenez à sauvegarder du contenu depuis des pages.
-- [[Surligner des pages web|Surligneur]]
+- [[Surligneur|Surligneur]]
 	- Surlignez les passages importants et sélectionnez les éléments que vous souhaitez sauvegarder.
 - [[Lecteur|Lecteur]]
 	- Lisez des pages web dans une vue épurée, sans distraction.
-- [[Interpréter des pages web|Interpréteur]]
+- [[Interpréteur|Interpréteur]]
 	- Utilisez des instructions en langage naturel pour capturer et modifier les données d'une page.
 - [[Résoudre les problèmes de Web Clipper|Dépannage]]
 	- Résolvez les problèmes courants avec Web Clipper.

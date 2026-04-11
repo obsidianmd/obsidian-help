@@ -14,7 +14,7 @@ Obsidian Web Clipper používá [Defuddle](https://github.com/kepano/defuddle) k
 Chcete-li v Obsidian Web Clipper obejít Defuddle, použijte následující metody:
 
 - Vyberte text, nebo použijte `Cmd/Ctrl+A` pro výběr veškerého textu.
-- [[Zvýraznění webových stránek|Zvýrazněte obsah]] a vyberte přesně to, co chcete zachytit.
+- [[Zvýrazňovač|Zvýrazněte obsah]] a vyberte přesně to, co chcete zachytit.
 - Použijte [[Obsidian Web Clipper/Šablony|vlastní šablonu]] pro danou stránku.
 
 ### V Obsidianu se nezobrazuje žádný obsah

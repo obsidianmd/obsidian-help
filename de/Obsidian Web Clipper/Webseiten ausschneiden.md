@@ -17,7 +17,7 @@ Standardmäßig versucht der Web Clipper, intelligent nur den Hauptartikelinhalt
 
 - Wenn eine benutzerdefinierte Vorlage vorhanden ist, wird deine Vorlage verwendet.
 - Wenn eine Auswahl vorhanden ist, wird die Auswahl verwendet. Du kannst `Strg/Cmd+A` verwenden, um die gesamte Seite auszuwählen.
-- Wenn [[Webseiten hervorheben|Hervorhebungen]] vorhanden sind, werden die Hervorhebungen verwendet.
+- Wenn [[Highlighter|Hervorhebungen]] vorhanden sind, werden die Hervorhebungen verwendet.
 
 ## Bilder herunterladen
 
@@ -33,27 +33,30 @@ Der Web Clipper enthält Tastaturkürzel, mit denen du deinen Arbeitsablauf besc
 | -------------------------- | -------------- | --------------- |
 | Clipper öffnen             | `Cmd+Shift+O`  | `Ctrl+Shift+O`  |
 | Schnelles Ausschneiden     | `Opt+Shift+O`  | `Alt+Shift+O`   |
-| Markiermodus umschalten    | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Marker umschalten          | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Reader umschalten          | `Opt+Shift+R`  | `Alt+Shift+R`   |
 
 ## Funktionalität der Bedienung
 
 Die Web Clipper-Bedienung ist in vier Bereiche unterteilt:
 
-1. **Kopfzeile**, in der du Vorlagen wechseln, [[Webseiten hervorheben|Hervorhebung]], [[Reader|Lesemodus]] aktivieren und auf die Einstellungen zugreifen kannst.
+1. **Kopfzeile**, in der du Vorlagen wechseln, [[Highlighter|Hervorhebung]], [[Reader|Lesemodus]] aktivieren und auf die Einstellungen zugreifen kannst.
 2. **Eigenschaften** zeigt die von der Seite extrahierten [[Eigenschaften|Metadaten]], die als [[Eigenschaften]] in Obsidian gespeichert werden.
 3. **Notizinhalt**, der in Obsidian gespeichert wird.
 4. **Fußzeile** ermöglicht dir, den Vault und Ordner auszuwählen und zu Obsidian hinzuzufügen.
 
 Funktionen der Kopfzeile:
 
-- **Vorlagen**-Dropdown zum Wechseln zwischen deinen gespeicherten [[Obsidian Web Clipper/Vorlagen|Vorlagen]], die in den Web Clipper-Einstellungen hinzugefügt wurden.
-- **Mehr (...)**-Schaltfläche zur Anzeige von Seitenvariablen, die du in Vorlagen verwenden kannst.
-- **Marker**-Schaltfläche zum Aktivieren der [[Webseiten hervorheben|Hervorhebung]].
-- **Zahnrad**-Schaltfläche zum Öffnen der Web Clipper-Einstellungen.
+- ![[lucide-chevrons-up-down.svg#icon]] **Vorlagen**-Umschalter zur Verwendung gespeicherter [[Obsidian Web Clipper/Vorlagen|Vorlagen]], die in den Erweiterungseinstellungen hinzugefügt wurden.
+- ![[lucide-more-horizontal.svg#icon]] **Mehr**-Schaltfläche zur Anzeige von Seitenvariablen, die du in Vorlagen verwenden kannst.
+- ![[lucide-highlighter.svg#icon]] **Marker**-Schaltfläche zum Aktivieren der [[Highlighter|Hervorhebung]].
+- ![[lucide-book-icon.svg#icon]] **Reader**-Schaltfläche zum Aktivieren der [[Reader|Leseansicht]].
+- ![[lucide-picture-in-picture-2.svg#icon]] **Einbetten**-Schaltfläche zum Verschieben des Web Clippers vom Popup in die Seite.
+- ![[lucide-settings.svg#icon]] **Einstellungen**-Schaltfläche zum Öffnen der Erweiterungseinstellungen.
 
 Funktionen der Fußzeile:
 
 - **Zu Obsidian hinzufügen**-Schaltfläche zum Speichern von Daten in Obsidian.
 - **Vault**-Dropdown zum Wechseln zwischen gespeicherten Vaults, die in den Web Clipper-Einstellungen hinzugefügt wurden.
 - **Ordner**-Feld zur Festlegung, in welchem Ordner gespeichert werden soll.
-- **Interpreter** zum Ausführen von [[Webseiten interpretieren|natürlichsprachlichen Eingabeaufforderungen]] auf der Seite.
+- **Interpreter** zum Ausführen von [[Interpreter|natürlichsprachlichen Eingabeaufforderungen]] auf der Seite.

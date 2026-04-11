@@ -62,4 +62,4 @@ Schema.org değerleri ayrıca [[Değişkenler#Schema.org değişkenleri|şablonl
 
 ### Yorumlayıcı bağlamı
 
-[[Web sayfalarını yorumlama|Yorumlayıcı]] etkinleştirildiğinde, sayfa içeriğini doğal dil ile çıkarmak için [[Değişkenler#Prompt değişkenleri|prompt değişkenlerini]] kullanabilirsiniz. Her şablon için Yorumlayıcının erişebildiği [[Web sayfalarını yorumlama#Bağlam|bağlamı]] tanımlayabilirsiniz.
+[[Yorumlayıcı|Yorumlayıcı]] etkinleştirildiğinde, sayfa içeriğini doğal dil ile çıkarmak için [[Değişkenler#Prompt değişkenleri|prompt değişkenlerini]] kullanabilirsiniz. Her şablon için Yorumlayıcının erişebildiği [[Yorumlayıcı#Bağlam|bağlamı]] tanımlayabilirsiniz.

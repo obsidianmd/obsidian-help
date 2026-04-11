@@ -17,7 +17,7 @@ Por predefinição, o Web Clipper tenta extrair inteligentemente apenas o conte�
 
 - Se um modelo personalizado estiver presente, utiliza o seu modelo.
 - Se uma seleção estiver presente, utiliza a seleção. Pode usar `Ctrl/Cmd+A` para selecionar a página inteira.
-- Se existirem [[Destacar páginas web|destaques]], utiliza os destaques.
+- Se existirem [[Marcador|destaques]], utiliza os destaques.
 
 ## Transferir imagens
 
@@ -33,27 +33,30 @@ O Web Clipper inclui atalhos de teclado que pode usar para acelerar o seu fluxo 
 | ----------------------------- | -------------- | --------------- |
 | Abrir clipper                 | `Cmd+Shift+O`  | `Ctrl+Shift+O`  |
 | Recorte rápido                | `Opt+Shift+O`  | `Alt+Shift+O`   |
-| Alternar modo de realce       | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Alternar marcador             | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Alternar leitor               | `Opt+Shift+R`  | `Alt+Shift+R`   |
 
 ## Funcionalidade da interface
 
 A interface do Web Clipper está dividida em quatro secções:
 
-1. **Cabeçalho** onde pode alternar modelos, ativar o [[Destacar páginas web|realce]], o [[Leitor|modo de leitura]] e aceder às definições.
+1. **Cabeçalho** onde pode alternar modelos, ativar o [[Marcador|realce]], o [[Leitor|modo de leitura]] e aceder às definições.
 2. **Propriedades** mostra os [[Propriedades|metadados]] extraídos da página que serão guardados como [[Propriedades]] no Obsidian.
 3. **Conteúdo da nota** que será guardado no Obsidian.
 4. **Rodapé** permite selecionar o cofre e a pasta, e adicionar ao Obsidian.
 
 A funcionalidade do cabeçalho inclui:
 
-- Menu suspenso de **Modelo** para alternar entre os seus [[Obsidian Web Clipper/Modelos|modelos]] guardados, adicionados nas definições do Web Clipper.
-- Botão **Mais (...)** para apresentar variáveis da página que pode usar nos modelos.
-- Botão **Marcador** para ativar o [[Destacar páginas web|realce]].
-- Botão **Engrenagem** para abrir as definições do Web Clipper.
+- ![[lucide-chevrons-up-down.svg#icon]] **Modelo** alternador para usar os [[Obsidian Web Clipper/Modelos|modelos]] guardados, adicionados nas definições da extensão.
+- ![[lucide-more-horizontal.svg#icon]] Botão **Mais** para apresentar variáveis da página que pode usar nos modelos.
+- ![[lucide-highlighter.svg#icon]] Botão **Marcador** para ativar o [[Marcador|realce]].
+- ![[lucide-book-icon.svg#icon]] Botão **Leitor** para ativar a [[Leitor|vista de leitura]].
+- ![[lucide-picture-in-picture-2.svg#icon]] Botão **Incorporar** para mover o Web Clipper do popup para a página.
+- ![[lucide-settings.svg#icon]] Botão **Definições** para abrir as definições da extensão.
 
 A funcionalidade do rodapé inclui:
 
 - Botão **Adicionar ao Obsidian** para guardar dados no Obsidian.
 - Menu suspenso de **Cofre** para alternar entre cofres guardados, adicionados nas definições do Web Clipper.
 - Campo **Pasta** para definir em que pasta guardar.
-- **Interpretador** para executar [[Interpretar páginas web|pedidos em linguagem natural]] na página.
+- **Interpretador** para executar [[Interpretador|pedidos em linguagem natural]] na página.

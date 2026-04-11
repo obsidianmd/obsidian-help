@@ -62,4 +62,4 @@ Schema.org-värden kan också användas för att [[Variabler#Schema.org-variable
 
 ### Tolkkontext
 
-När [[Tolka webbsidor|Tolk]] är aktiverad kan du använda [[Variabler#Prompt-variabler|prompt-variabler]] för att extrahera sidinnehåll med naturligt språk. För varje mall kan du definiera den [[Tolka webbsidor#Kontext|kontext]] som Tolk har tillgång till.
+När [[Tolk|Tolk]] är aktiverad kan du använda [[Variabler#Prompt-variabler|prompt-variabler]] för att extrahera sidinnehåll med naturligt språk. För varje mall kan du definiera den [[Tolk#Kontext|kontext]] som Tolk har tillgång till.

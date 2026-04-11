@@ -62,4 +62,4 @@ Els valors de schema.org també es poden utilitzar per [[Variables#Variables Sch
 
 ### Context de l'intèrpret
 
-Quan l'[[Interpretar pàgines web|Intèrpret]] està activat, podeu utilitzar [[Variables#Variables de sol·licitud|variables de petició]] per extreure contingut de la pàgina amb llenguatge natural. Per a cada plantilla podeu definir el [[Interpretar pàgines web#Context|context]] al qual l'intèrpret té accés.
+Quan l'[[Intèrpret|Intèrpret]] està activat, podeu utilitzar [[Variables#Variables de sol·licitud|variables de petició]] per extreure contingut de la pàgina amb llenguatge natural. Per a cada plantilla podeu definir el [[Intèrpret#Context|context]] al qual l'intèrpret té accés.

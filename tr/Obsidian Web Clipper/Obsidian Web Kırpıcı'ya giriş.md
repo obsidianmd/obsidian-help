@@ -23,11 +23,11 @@ Obsidian Web Kırpıcı uzantısını tarayıcınız için resmi dizinden edinin
 
 - [[Web sayfalarını kırpma]]
 	- Başlayın ve sayfalardan içerik kaydetmeyi öğrenin.
-- [[Web sayfalarını vurgulama|Vurgulayıcı]]
+- [[Vurgulayıcı|Vurgulayıcı]]
 	- Önemli bölümleri vurgulayın ve kaydetmek istediğiniz öğeleri seçin.
 - [[Okuyucu|Okuyucu]]
 	- Web sayfalarını temiz, dikkat dağıtmayan bir görünümde okuyun.
-- [[Web sayfalarını yorumlama|Yorumlayıcı]]
+- [[Yorumlayıcı|Yorumlayıcı]]
 	- Bir sayfadaki verileri yakalamak ve değiştirmek için doğal dil komutları kullanın.
 - [[Web Kırpıcı sorun giderme|Sorun Giderme]]
 	- Web Kırpıcı ile ilgili yaygın sorunları çözün.

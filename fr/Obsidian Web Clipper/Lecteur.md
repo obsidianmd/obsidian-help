@@ -1,17 +1,20 @@
 ---
 permalink: web-clipper/reader
 localized: '2026-03-18'
-
 ---
-[[Introduction à Obsidian Web Clipper|Web Clipper]] inclut un mode lecture intégré appelé Lecteur qui élimine les éléments superflus des pages web, présentant uniquement le contenu principal de l'article dans un format propre et lisible.
+[[Introduction à Obsidian Web Clipper|Web Clipper]] inclut un mode lecture intégré appelé **Lecteur** qui élimine les éléments superflus des pages web, présentant uniquement le contenu principal de l'article dans un format propre et lisible.
 
 ## Activer le mode lecture
 
 Vous pouvez activer le Lecteur de plusieurs manières :
 
-- L'**icône de livre** dans l'en-tête du panneau de l'extension.
-- Le raccourci clavier `Alt+Shift+R`, personnalisable dans les paramètres de l'extension.
-- Activer à nouveau le mode lecture restaure la page originale.
+- ![[lucide-book-icon.svg#icon]] **Icône de livre** dans le panneau de l'extension.
+- **Raccourci clavier** personnalisable dans les paramètres de l'extension.
+- **Menu contextuel** en faisant un clic droit sur la page web que vous visitez.
+
+Vous pouvez également configurer le bouton de l'extension ![[obsidian.svg#icon|20]] pour ouvrir le Lecteur en un clic. Dans les paramètres de Web Clipper, allez dans **Général** → **Comportement** → **Comportement à l'ouverture** et choisissez **Lecteur**.
+
+Toutes les options ci-dessus vous permettent également de quitter le Lecteur et de restaurer la page originale.
 
 ## Comment ça fonctionne
 
@@ -23,14 +26,16 @@ Le Lecteur extrait le contenu principal de la page. La page originale est rempla
 - La coloration syntaxique pour les blocs de code.
 - Des fenêtres contextuelles pour les notes de bas de page qui s'affichent en ligne lorsqu'on clique dessus.
 
-## Personnaliser la vue de lecture
+## Personnaliser votre vue de lecture
 
-Le mode Lecteur comprend une barre de paramètres masquée que vous pouvez afficher en survolant le coin supérieur droit de la page, avec des contrôles pour personnaliser l'expérience de lecture.
+Personnalisez votre expérience du Lecteur dans les paramètres de l'extension. Certaines options sont également disponibles dans le mode Lecteur en cliquant sur l'icône ![[lucide-case-sensitive.svg#icon]].
 
-| Paramètre              | Description                                                                                                     |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Taille de police        | Ajuster la taille du texte.                                                                                     |
-| Largeur de ligne        | Largeur maximale de la zone de contenu.                                                                         |
-| Hauteur de ligne        | Espacement entre les lignes.                                                                                    |
-| Jeu&nbsp;de&nbsp;couleurs |                                                                                                              |
-| Thème                   | Automatique suit les préférences de votre système. Ou choisissez de toujours utiliser le mode clair ou sombre. |
+| Paramètre                | Description                                        |
+| ------------------------ | -------------------------------------------------- |
+| Police                   | Ajouter des polices installées sur votre système.  |
+| Taille de police         | Ajuster la taille du texte.                        |
+| Hauteur&nbsp;de&nbsp;ligne | Espacement entre les lignes.                     |
+| Largeur&nbsp;de&nbsp;ligne | Largeur maximale de la zone de contenu.          |
+| Apparence                | Choisir l'apparence claire ou sombre.              |
+| Thème                    | Choisir les couleurs.                              |
+| CSS personnalisé         | CSS supplémentaire appliqué à la page.             |

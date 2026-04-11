@@ -1,6 +1,6 @@
 ---
 permalink: web-clipper/templates
-description: Erfahre, wie du Vorlagen erstellst, die Metadaten von Webseiten automatisch mit Web Clipper erfassen und organisieren.
+description: 'Erfahre, wie du Vorlagen erstellst, die Metadaten von Webseiten automatisch mit Web Clipper erfassen und organisieren.'
 ---
 [[Einführung in Obsidian Web Clipper|Web Clipper]] ermöglicht es dir, Vorlagen zu erstellen, die automatisch Metadaten von Webseiten erfassen und organisieren. Beispielvorlagen sind im [clipper-templates Repo](https://github.com/kepano/clipper-templates) verfügbar.
 
@@ -62,4 +62,4 @@ Schema.org-Werte können auch verwendet werden, um [[Variablen#Schema.org-Variab
 
 ### Interpreter-Kontext
 
-Wenn der [[Webseiten interpretieren|Interpreter]] aktiviert ist, kannst du [[Variablen#Prompt-Variablen|Prompt-Variablen]] verwenden, um Seiteninhalte mit natürlicher Sprache zu extrahieren. Für jede Vorlage kannst du den [[Webseiten interpretieren#Kontext|Kontext]] definieren, auf den der Interpreter Zugriff hat.
+Wenn der [[Interpreter|Interpreter]] aktiviert ist, kannst du [[Variablen#Prompt-Variablen|Prompt-Variablen]] verwenden, um Seiteninhalte mit natürlicher Sprache zu extrahieren. Für jede Vorlage kannst du den [[Interpreter#Kontext|Kontext]] definieren, auf den der Interpreter Zugriff hat.

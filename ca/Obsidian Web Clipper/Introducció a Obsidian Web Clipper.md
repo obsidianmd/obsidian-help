@@ -23,11 +23,11 @@ Obtén l'extensió Obsidian Web Clipper des del directori oficial per al teu nav
 
 - [[Retallar pàgines web]]
 	- Comença i aprèn com desar contingut de les pàgines.
-- [[Ressaltar pàgines web|Ressaltador]]
+- [[Ressaltador|Ressaltador]]
 	- Ressalta passatges importants i selecciona elements que vulguis desar.
 - [[Lector|Lector]]
 	- Llegeix pàgines web en una vista neta i sense distraccions.
-- [[Interpretar pàgines web|Intèrpret]]
+- [[Intèrpret|Intèrpret]]
 	- Utilitza indicacions en llenguatge natural per capturar i modificar dades d'una pàgina.
 - [[Resolució de problemes del Web Clipper|Resolució de problemes]]
 	- Resol problemes habituals amb Web Clipper.

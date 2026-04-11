@@ -23,11 +23,11 @@ Tải tiện ích mở rộng Obsidian Web Clipper từ thư mục chính thức
 
 - [[Cắt trang web]]
 	- Bắt đầu và tìm hiểu cách lưu nội dung từ các trang web.
-- [[Tô Màu trang web|Đánh dấu]]
+- [[Đánh dấu|Đánh dấu]]
 	- Đánh dấu các đoạn quan trọng và chọn các phần tử bạn muốn lưu.
 - [[Đọc|Đọc]]
 	- Đọc trang web trong chế độ xem sạch sẽ, không bị phân tâm.
-- [[Thông dịch trang web|Thông dịch]]
+- [[Thông dịch|Thông dịch]]
 	- Sử dụng các lời nhắc ngôn ngữ tự nhiên để thu thập và chỉnh sửa dữ liệu trên trang.
 - [[Khắc phục sự cố Web Clipper|Khắc phục sự cố]]
 	- Giải quyết các vấn đề thường gặp với Web Clipper.

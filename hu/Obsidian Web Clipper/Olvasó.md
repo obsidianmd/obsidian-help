@@ -1,15 +1,19 @@
 ---
 permalink: web-clipper/reader
 ---
-Az [[Bevezetés az Obsidian Web Clipper használatába|Web Clipper]] tartalmaz egy beépített olvasási módot, az [[Olvasó|Olvasó]]t, amely eltávolítja a felesleges elemeket a weboldalakról, és csak a fő cikktartalmat jeleníti meg egy letisztult, olvasható formátumban.
+Az [[Bevezetés az Obsidian Web Clipper használatába|Web Clipper]] tartalmaz egy beépített olvasási módot, az **Olvasó**t, amely eltávolítja a felesleges elemeket a weboldalakról, és csak a fő cikktartalmat jeleníti meg egy letisztult, olvasható formátumban.
 
 ## Olvasási mód aktiválása
 
 Az Olvasót többféleképpen aktiválhatja:
 
-- A **könyv ikon** a bővítmény panel fejlécében.
-- Az `Alt+Shift+R` billentyűkombinációval, amely a bővítmény beállításaiban testreszabható.
-- Az olvasási mód újbóli átkapcsolásával visszaállíthatja az eredeti oldalt.
+- ![[lucide-book-icon.svg#icon]] **Könyv ikon** a bővítmény panelben.
+- **Billentyűkombináció**, amely a bővítmény beállításaiban testreszabható.
+- **Helyi menü** a meglátogatott weboldalra jobb egérgombbal kattintva.
+
+Beállíthatja az ![[obsidian.svg#icon|20]] bővítmény gombot is, hogy az Olvasót nyissa meg egyetlen kattintással. A Web Clipper beállításaiban navigáljon az **Általános** → **Viselkedés** → **Megnyitási viselkedés** menüpontra, és válassza az **Olvasó** lehetőséget.
+
+A fenti lehetőségek mindegyike lehetővé teszi az Olvasóból való kilépést és az eredeti oldal visszaállítását is.
 
 ## Hogyan működik
 
@@ -23,12 +27,14 @@ Az Olvasó kivonja a fő tartalmat az oldalról. Az eredeti oldalt egy letisztul
 
 ## Az olvasási nézet testreszabása
 
-Az Olvasó mód tartalmaz egy rejtett beállítási sávot, amelyet az oldal jobb felső sarkára történő rámutatással jeleníthet meg, és amely vezérlőket tartalmaz az olvasási élmény testreszabásához.
+Szabja testre Olvasó élményét a bővítmény beállításaiban. Néhány lehetőség az Olvasó módban is elérhető a ![[lucide-case-sensitive.svg#icon]] ikonra kattintva.
 
-| Beállítás              | Leírás                                                                                                          |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Betűméret              | A szöveg méretének beállítása.                                                                                  |
-| Sorhossz               | A tartalomterület maximális szélessége.                                                                         |
-| Sormagasság            | A sorok közötti távolság.                                                                                       |
-| Színséma               |                                                                                                                 |
-| Téma                   | Az Automatikus a rendszer beállításait követi. Vagy válassza a mindig Világos mód vagy Sötét mód használatát. |
+| Beállítás              | Leírás                                                |
+| ---------------------- | ----------------------------------------------------- |
+| Betűtípus              | A rendszerre telepített betűtípusok hozzáadása.       |
+| Betűméret              | A szöveg méretének beállítása.                        |
+| Sormagasság            | A sorok közötti távolság.                             |
+| Sorhossz               | A tartalomterület maximális szélessége.               |
+| Megjelenés             | Világos vagy sötét megjelenés választása.             |
+| Téma                   | A színek kiválasztása.                                |
+| Egyéni CSS             | Az oldalra alkalmazott további CSS.                   |

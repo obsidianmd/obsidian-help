@@ -15,19 +15,19 @@ permalink: web-clipper/variables
 
 Ön ayar değişkenleri, sayfa içeriğine göre otomatik olarak oluşturulur. Bunlar genellikle çoğu web sitesinde çalışır.
 
-Ana içerik değişkeni `{{content}}`'tir; bu değişken makale içeriğini, [[Web sayfalarını vurgulama|vurguları]] veya sayfada seçili metin varsa seçimi içerir. `{{content}}`'in sayfanın ana içeriğini çıkarmaya çalıştığını unutmayın; bu her zaman istediğiniz sonuç olmayabilir. Bu durumda, ihtiyacınız olan içeriği çıkarmak için diğer ön ayar değişkenlerini veya seçici değişkenleri kullanabilirsiniz.
+Ana içerik değişkeni `{{content}}`'tir; bu değişken makale içeriğini, [[Vurgulayıcı|vurguları]] veya sayfada seçili metin varsa seçimi içerir. `{{content}}`'in sayfanın ana içeriğini çıkarmaya çalıştığını unutmayın; bu her zaman istediğiniz sonuç olmayabilir. Bu durumda, ihtiyacınız olan içeriği çıkarmak için diğer ön ayar değişkenlerini veya seçici değişkenleri kullanabilirsiniz.
 
 | Değişken            | Açıklama                                                                               |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Sayfanın yazarı                                                                        |
-| `{{content}}`       | Makale içeriği, [[Web sayfalarını vurgulama\|vurgular]] veya seçim, Markdown biçiminde |
-| `{{contentHtml}}`   | Makale içeriği, [[Web sayfalarını vurgulama\|vurgular]] veya seçim, HTML biçiminde     |
+| `{{content}}`       | Makale içeriği, [[Vurgulayıcı\|vurgular]] veya seçim, Markdown biçiminde |
+| `{{contentHtml}}`   | Makale içeriği, [[Vurgulayıcı\|vurgular]] veya seçim, HTML biçiminde     |
 | `{{date}}`          | Geçerli tarih, `date` filtresi kullanılarak biçimlendirilebilir                        |
 | `{{description}}`   | Açıklama veya özet                                                                     |
 | `{{domain}}`        | Alan adı                                                                               |
 | `{{favicon}}`       | Favicon URL'si                                                                         |
 | `{{fullHtml}}`      | Tam sayfa içeriğinin işlenmemiş HTML'si                                                |
-| `{{highlights}}`    | Metin ve zaman damgalarıyla [[Web sayfalarını vurgulama\|vurgular]]                    |
+| `{{highlights}}`    | Metin ve zaman damgalarıyla [[Vurgulayıcı\|Vurgular]]                    |
 | `{{image}}`         | Sosyal paylaşım görseli URL'si                                                         |
 | `{{published}}`     | Yayınlanma tarihi, `date` filtresi kullanılarak biçimlendirilebilir                    |
 | `{{selection}}`     | Seçim, Markdown biçiminde                                                              |
@@ -40,15 +40,15 @@ Ana içerik değişkeni `{{content}}`'tir; bu değişken makale içeriğini, [[W
 
 ## İstem değişkenleri
 
-İstem değişkenleri, doğal dil kullanarak verileri çıkarmak ve değiştirmek için dil modellerinden yararlanır. İstem değişkenleri, [[Web sayfalarını yorumlama|Yorumlayıcı]]'nın etkinleştirilmiş ve yapılandırılmış olmasını gerektirir.
+İstem değişkenleri, doğal dil kullanarak verileri çıkarmak ve değiştirmek için dil modellerinden yararlanır. İstem değişkenleri, [[Yorumlayıcı|Yorumlayıcı]]'nın etkinleştirilmiş ve yapılandırılmış olmasını gerektirir.
 
 İstem değişkenleri `{{"sayfanın bir özeti"}}` söz dizimini kullanır. İstemin etrafındaki çift tırnak işaretleri önemlidir ve istemleri ön ayar değişkenlerinden ayırır. İstem yanıtları [[Filtreler|filtreler]] ile sonradan işlenebilir, örneğin `{{"sayfanın bir özeti"|blockquote}}`.
 
 ### İstem değişkenleri ne zaman kullanılır
 
-İstem değişkenleri son derece esnek olma ve yazılması kolay olma avantajına sahiptir, ancak birçok ödünleşim içerir: çalışmaları daha yavaştır ve seçtiğiniz [[Web sayfalarını yorumlama#Modeller|sağlayıcıya]] bağlı olarak maliyet ve gizlilik değerlendirmeleri olabilir.
+İstem değişkenleri son derece esnek olma ve yazılması kolay olma avantajına sahiptir, ancak birçok ödünleşim içerir: çalışmaları daha yavaştır ve seçtiğiniz [[Yorumlayıcı#Modeller|sağlayıcıya]] bağlı olarak maliyet ve gizlilik değerlendirmeleri olabilir.
 
-Diğer değişken türlerinin aksine, istem değişkenlerinin harici bir dil modeli tarafından işlenmesi gerekir, bu nedenle yalnızca [[Web sayfalarını yorumlama|Yorumlayıcı]] çalıştırıldıktan sonra değiştirilirler.
+Diğer değişken türlerinin aksine, istem değişkenlerinin harici bir dil modeli tarafından işlenmesi gerekir, bu nedenle yalnızca [[Yorumlayıcı|Yorumlayıcı]] çalıştırıldıktan sonra değiştirilirler.
 
 Çıkarmak istediğiniz veriler diğer değişken türleriyle çıkarılabilecek tutarlı bir biçimdeyse istem değişkenlerini *kullanmamanız* en iyisidir.
 

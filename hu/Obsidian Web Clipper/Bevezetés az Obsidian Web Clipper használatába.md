@@ -23,11 +23,11 @@ Szerezd be az Obsidian Web Clipper bővítményt a böngésződ hivatalos könyv
 
 - [[Weboldalak kivágása]]
 	- Kezdő lépések és hogyan menthetsz el tartalmat weboldalakról.
-- [[Weboldalak kiemelése|Kiemelő]]
+- [[Kiemelő|Kiemelő]]
 	- Fontos részletek kiemelése és menteni kívánt elemek kijelölése.
 - [[Olvasó|Olvasó]]
 	- Weboldalak olvasása letisztult, figyelemelterelés-mentes nézetben.
-- [[Weboldalak értelmezése|Értelmező]]
+- [[Értelmező|Értelmező]]
 	- Természetes nyelvű utasítások használata az oldalon lévő adatok rögzítéséhez és módosításához.
 - [[Web Clipper hibaelhárítás|Hibaelhárítás]]
 	- Gyakori Web Clipper problémák megoldása.

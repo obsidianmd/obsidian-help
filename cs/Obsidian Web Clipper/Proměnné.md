@@ -15,19 +15,19 @@ Pomocí ikony `...` v rozšíření [[Úvod do Obsidian Web Clipper|Web Clipper]
 
 Přednastavené proměnné jsou automaticky generovány na základě obsahu stránky. Obvykle fungují na většině webových stránek.
 
-Hlavní obsahová proměnná je `{{content}}`, která obsahuje obsah článku, nebo [[Zvýraznění webových stránek|zvýrazněné části]], nebo výběr, pokud je na stránce vybraný text. Upozorňujeme, že `{{content}}` se pokouší extrahovat hlavní obsah stránky, což nemusí vždy odpovídat vašim potřebám. V takovém případě můžete použít jiné přednastavené proměnné nebo selektorové proměnné k extrakci požadovaného obsahu.
+Hlavní obsahová proměnná je `{{content}}`, která obsahuje obsah článku, nebo [[Zvýrazňovač|zvýrazněné části]], nebo výběr, pokud je na stránce vybraný text. Upozorňujeme, že `{{content}}` se pokouší extrahovat hlavní obsah stránky, což nemusí vždy odpovídat vašim potřebám. V takovém případě můžete použít jiné přednastavené proměnné nebo selektorové proměnné k extrakci požadovaného obsahu.
 
 | Proměnná            | Popis                                                                                  |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Autor stránky                                                                          |
-| `{{content}}`       | Obsah článku, [[Zvýraznění webových stránek\|zvýrazněné části]] nebo výběr ve formátu Markdown |
-| `{{contentHtml}}`   | Obsah článku, [[Zvýraznění webových stránek\|zvýrazněné části]] nebo výběr ve formátu HTML |
+| `{{content}}`       | Obsah článku, [[Zvýrazňovač\|zvýrazněné části]] nebo výběr ve formátu Markdown |
+| `{{contentHtml}}`   | Obsah článku, [[Zvýrazňovač\|zvýrazněné části]] nebo výběr ve formátu HTML |
 | `{{date}}`          | Aktuální datum, lze formátovat pomocí filtru `date`                                    |
 | `{{description}}`   | Popis nebo výňatek                                                                     |
 | `{{domain}}`        | Doména                                                                                 |
 | `{{favicon}}`       | URL faviconu                                                                           |
 | `{{fullHtml}}`      | Nezpracované HTML celého obsahu stránky                                                |
-| `{{highlights}}`    | [[Zvýraznění webových stránek\|Zvýrazněné části]] s textem a časovými značkami         |
+| `{{highlights}}`    | [[Zvýrazňovač\|Zvýrazněné části]] s textem a časovými značkami         |
 | `{{image}}`         | URL obrázku pro sdílení na sociálních sítích                                           |
 | `{{published}}`     | Datum publikování, lze formátovat pomocí filtru `date`                                 |
 | `{{selection}}`     | Výběr ve formátu Markdown                                                              |
@@ -40,15 +40,15 @@ Hlavní obsahová proměnná je `{{content}}`, která obsahuje obsah článku, n
 
 ## Promptové proměnné
 
-Promptové proměnné využívají jazykové modely k extrakci a úpravě dat pomocí přirozeného jazyka. Promptové proměnné vyžadují, aby byl [[Interpretovat webové stránky|Překladač]] zapnutý a nakonfigurovaný.
+Promptové proměnné využívají jazykové modely k extrakci a úpravě dat pomocí přirozeného jazyka. Promptové proměnné vyžadují, aby byl [[Překladač|Překladač]] zapnutý a nakonfigurovaný.
 
 Promptové proměnné používají syntaxi `{{"shrnutí stránky"}}`. Dvojité uvozovky kolem promptu jsou důležité a odlišují prompty od přednastavených proměnných. Odpovědi na prompty lze následně zpracovat pomocí [[Filtry|filtrů]], např. `{{"shrnutí stránky"|blockquote}}`.
 
 ### Kdy používat promptové proměnné
 
-Promptové proměnné mají výhodu extrémní flexibility a snadného zápisu, ale přinášejí i několik kompromisů: jsou pomalejší, a v závislosti na zvoleném [[Interpretovat webové stránky#Modely|poskytovateli]] mohou mít dopady na náklady a soukromí.
+Promptové proměnné mají výhodu extrémní flexibility a snadného zápisu, ale přinášejí i několik kompromisů: jsou pomalejší, a v závislosti na zvoleném [[Překladač#Modely|poskytovateli]] mohou mít dopady na náklady a soukromí.
 
-Na rozdíl od ostatních typů proměnných musí být promptové proměnné zpracovány externím jazykovým modelem, takže jsou nahrazeny až po spuštění [[Interpretovat webové stránky|Překladače]].
+Na rozdíl od ostatních typů proměnných musí být promptové proměnné zpracovány externím jazykovým modelem, takže jsou nahrazeny až po spuštění [[Překladač|Překladače]].
 
 Nejlepší je *nepoužívat* promptové proměnné, pokud jsou data, která chcete extrahovat, v konzistentním formátu, který by bylo možné extrahovat pomocí jiných typů proměnných.
 

@@ -23,11 +23,11 @@ Hent Obsidian Web Clipper-utvidelsen fra den offisielle katalogen for din nettle
 
 - [[Klipp ut nettsider]]
 	- Kom i gang og lær hvordan du lagrer innhold fra sider.
-- [[Uthev nettsider|Uthever]]
+- [[Uthever|Uthever]]
 	- Uthev viktige avsnitt og velg elementer du vil lagre.
 - [[Lesevisning|Lesevisning]]
 	- Les nettsider i en ren, distraksjonsfri visning.
-- [[Tolk nettsider|Tolk]]
+- [[Tolk|Tolk]]
 	- Bruk naturlige språkforespørsler for å fange opp og endre data på en side.
 - [[Feilsøk Web Clipper|Feilsøking]]
 	- Løs vanlige problemer med Web Clipper.

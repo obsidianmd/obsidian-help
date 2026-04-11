@@ -1,15 +1,19 @@
 ---
 permalink: web-clipper/reader
 ---
-[[Introduktion till Obsidian Web Clipper|Web Clipper]] inkluderar ett inbyggt läsläge kallat Läsare som rensar bort visuellt brus från webbsidor och presenterar enbart det huvudsakliga artikelinnehållet i ett rent, lättläst format.
+[[Introduktion till Obsidian Web Clipper|Web Clipper]] inkluderar ett inbyggt läsläge kallat **Läsare** som rensar bort visuellt brus från webbsidor och presenterar enbart det huvudsakliga artikelinnehållet i ett rent, lättläst format.
 
 ## Aktivera läsläge
 
 Du kan aktivera Läsare på flera sätt:
 
-- **Bokikonen** i tilläggspanelens rubrikfält.
-- Tangentbordsgenvägen `Alt+Shift+R`, anpassningsbar i tilläggsinställningarna.
-- Att växla läsläge igen återställer den ursprungliga sidan.
+- ![[lucide-book-icon.svg#icon]] **Bokikonen** i tilläggspanelen.
+- **Tangentbordsgenväg** anpassningsbar i tilläggsinställningarna.
+- **Kontextmeny** genom att högerklicka på webbsidan du besöker.
+
+Du kan också ställa in ![[obsidian.svg#icon|20]] tilläggsknappen för att öppna Läsare med ett klick. I Web Clipper-inställningarna gå till **Allmänt** → **Beteende** → **Öppningsbeteende** och välj **Läsare**.
+
+Alla alternativ ovan låter dig även avsluta Läsare och återställa den ursprungliga sidan.
 
 ## Hur det fungerar
 
@@ -21,14 +25,16 @@ Läsaren extraherar det huvudsakliga innehållet från sidan. Den ursprungliga s
 - Syntaxmarkering för kodblock.
 - Fotnotspopovers som visas inline vid klick.
 
-## Anpassa läsvyn
+## Anpassa din läsvy
 
-Läsläget inkluderar ett dolt inställningsfält som du kan visa genom att hovra över sidans övre högra hörn, med kontroller för att anpassa läsupplevelsen.
+Anpassa din Läsare-upplevelse i tilläggsinställningarna. Vissa alternativ är också tillgängliga i läsläget genom att klicka på ikonen ![[lucide-case-sensitive.svg#icon]].
 
-| Inställning        | Beskrivning                                                                                   |
-| ------------------- | --------------------------------------------------------------------------------------------- |
-| Typsnittsstorlek    | Justera textstorleken.                                                                        |
-| Radbredd            | Maximal bredd på innehållsområdet.                                                            |
-| Radhöjd             | Avstånd mellan rader.                                                                         |
-| Färg&nbsp;schema    |                                                                                               |
-| Tema                | Automatisk följer din systeminställning. Eller välj att alltid använda ljust eller mörkt läge. |
+| Inställning          | Beskrivning                                |
+| -------------------- | ------------------------------------------ |
+| Typsnitt             | Lägg till typsnitt installerade på ditt system. |
+| Typsnittsstorlek     | Justera textstorleken.                     |
+| Rad&nbsp;höjd        | Avstånd mellan rader.                      |
+| Rad&nbsp;bredd       | Maximal bredd på innehållsområdet.         |
+| Utseende             | Välj ljust eller mörkt utseende.           |
+| Tema                 | Välj färgerna.                             |
+| Anpassad CSS         | Ytterligare CSS som tillämpas på sidan.    |

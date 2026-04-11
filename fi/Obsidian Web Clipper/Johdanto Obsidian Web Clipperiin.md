@@ -23,11 +23,11 @@ Hanki Obsidian Web Clipper -laajennus selaimesi virallisesta hakemistosta:
 
 - [[Verkkosivujen leikkaaminen|Verkkosivujen leikkaaminen]]
 	- Aloita käyttö ja opi tallentamaan sisältöä verkkosivuilta.
-- [[Verkkosivujen korostaminen|Korostustyökalu]]
+- [[Korostustyökalu|Korostustyökalu]]
 	- Korosta tärkeitä kohtia ja valitse elementit, jotka haluat tallentaa.
 - [[Lukija|Lukija]]
 	- Lue verkkosivuja selkeässä, häiriöttömässä näkymässä.
-- [[Verkkosivujen tulkinta|Tulkki]]
+- [[Tulkki|Tulkki]]
 	- Käytä luonnollisen kielen kehotteita sivun tietojen kaappaamiseen ja muokkaamiseen.
 - [[Web Clipperin vianmääritys|Vianmääritys]]
 	- Ratkaise Web Clipperin yleisiä ongelmia.

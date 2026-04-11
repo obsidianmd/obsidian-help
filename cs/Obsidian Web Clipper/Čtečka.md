@@ -1,15 +1,19 @@
 ---
 permalink: web-clipper/reader
 ---
-[[Úvod do Obsidian Web Clipper|Web Clipper]] obsahuje vestavěný režim čtení nazvaný Čtečka, který z webových stránek odstraňuje rušivé prvky a zobrazuje pouze hlavní obsah článku v čistém, čitelném formátu.
+[[Úvod do Obsidian Web Clipper|Web Clipper]] obsahuje vestavěný režim čtení nazvaný **Čtečka**, který z webových stránek odstraňuje rušivé prvky a zobrazuje pouze hlavní obsah článku v čistém, čitelném formátu.
 
 ## Aktivace režimu čtení
 
 Čtečku můžete aktivovat několika způsoby:
 
-- **Ikonou knihy** v záhlaví panelu rozšíření.
-- Klávesovou zkratkou `Alt+Shift+R`, kterou lze přizpůsobit v nastavení rozšíření.
-- Opětovným přepnutím režimu čtení se obnoví původní stránka.
+- ![[lucide-book-icon.svg#icon]] **Ikona knihy** v panelu rozšíření.
+- **Klávesová zkratka** přizpůsobitelná v nastavení rozšíření.
+- **Kontextové menu** kliknutím pravým tlačítkem na webovou stránku, kterou navštěvujete.
+
+Můžete také nastavit tlačítko rozšíření ![[obsidian.svg#icon|20]] tak, aby Čtečku otevřelo jedním kliknutím. V nastavení Web Clipperu přejděte na **General** → **Behavior** → **Open behavior** a zvolte **Reader**.
+
+Všechny výše uvedené možnosti také umožňují ukončit Čtečku a obnovit původní stránku.
 
 ## Jak to funguje
 
@@ -23,12 +27,14 @@ permalink: web-clipper/reader
 
 ## Přizpůsobení zobrazení pro čtení
 
-Režim čtečky obsahuje skrytý panel nastavení, který můžete zobrazit najetím myší na pravý horní roh stránky. Obsahuje ovládací prvky pro přizpůsobení zážitku ze čtení.
+Přizpůsobte si zážitek ze Čtečky v nastavení rozšíření. Některé možnosti jsou také dostupné přímo v režimu Čtečky kliknutím na ikonu ![[lucide-case-sensitive.svg#icon]].
 
-| Nastavení              | Popis                                                                                                      |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Velikost písma         | Úprava velikosti textu.                                                                                    |
-| Šířka řádku            | Maximální šířka oblasti obsahu.                                                                            |
-| Výška řádku            | Mezery mezi řádky.                                                                                         |
-| Barevné&nbsp;schéma    |                                                                                                            |
-| Motiv                  | Automaticky sleduje vaše systémové preference. Nebo zvolte vždy světlý režim nebo tmavý režim. |
+| Nastavení              | Popis                                        |
+| ---------------------- | -------------------------------------------- |
+| Písmo                  | Přidejte písma nainstalovaná ve vašem systému. |
+| Velikost písma         | Úprava velikosti textu.                      |
+| Výška&nbsp;řádku       | Mezery mezi řádky.                           |
+| Šířka&nbsp;řádku       | Maximální šířka oblasti obsahu.              |
+| Vzhled                 | Zvolte světlý nebo tmavý vzhled.             |
+| Motiv                  | Zvolte barvy.                                |
+| Vlastní CSS            | Další CSS aplikované na stránku.             |

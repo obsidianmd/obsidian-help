@@ -19,7 +19,7 @@ Per impostazione predefinita, Web Clipper tenta di estrarre in modo intelligente
 
 - Se è presente un modello personalizzato, viene utilizzato il modello.
 - Se è presente una selezione, viene utilizzata la selezione. È possibile usare `Ctrl/Cmd+A` per selezionare l'intera pagina.
-- Se sono presenti delle [[Evidenziare pagine web|evidenziazioni]], vengono utilizzate le evidenziazioni.
+- Se sono presenti delle [[Evidenziatore|evidenziazioni]], vengono utilizzate le evidenziazioni.
 
 ## Scaricare le immagini
 
@@ -35,27 +35,30 @@ Web Clipper include scorciatoie da tastiera utilizzabili per velocizzare il flus
 | ----------------------------------- | -------------- | --------------- |
 | Apri clipper                        | `Cmd+Shift+O`  | `Ctrl+Shift+O`  |
 | Clip veloce                         | `Opt+Shift+O`  | `Alt+Shift+O`   |
-| Attiva/disattiva modalità evidenziatore | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Attiva/disattiva evidenziatore      | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Attiva/disattiva lettore            | `Opt+Shift+R`  | `Alt+Shift+R`   |
 
 ## Funzionalità dell'interfaccia
 
 L'interfaccia di Web Clipper è divisa in quattro sezioni:
 
-1. **Intestazione** dove è possibile cambiare modello, attivare l'[[Evidenziare pagine web|evidenziazione]], la [[Lettore|modalità lettura]] e accedere alle impostazioni.
+1. **Intestazione** dove è possibile cambiare modello, attivare l'[[Evidenziatore|evidenziazione]], la [[Lettore|modalità lettura]] e accedere alle impostazioni.
 2. **Proprietà** mostra i [[Proprietà|metadati]] estratti dalla pagina che verranno salvati come [[Proprietà|Proprietà]] in Obsidian.
 3. **Contenuto della nota** che verrà salvato in Obsidian.
 4. **Piè di pagina** consente di selezionare la cassaforte e la cartella e di aggiungere a Obsidian.
 
 Le funzionalità dell'intestazione includono:
 
-- Menu a tendina **Modello** per passare tra i [[Modelli|modelli]] salvati aggiunti nelle impostazioni di Web Clipper.
-- Pulsante **Più (...)** per visualizzare le variabili della pagina utilizzabili nei modelli.
-- Pulsante **Evidenziatore** per attivare l'[[Evidenziare pagine web|evidenziazione]].
-- Pulsante **Ingranaggio** per aprire le impostazioni di Web Clipper.
+- ![[lucide-chevrons-up-down.svg#icon]] Selettore **Modello** per utilizzare i [[Modelli|modelli]] salvati aggiunti nelle impostazioni dell'estensione.
+- ![[lucide-more-horizontal.svg#icon]] Pulsante **Più** per visualizzare le variabili della pagina utilizzabili nei modelli.
+- ![[lucide-highlighter.svg#icon]] Pulsante **Evidenziatore** per attivare l'[[Evidenziatore|evidenziazione]].
+- ![[lucide-book-icon.svg#icon]] Pulsante **Lettore** per attivare la [[Lettore|modalità lettura]].
+- ![[lucide-picture-in-picture-2.svg#icon]] Pulsante **Incorpora** per spostare Web Clipper dal popup nella pagina.
+- ![[lucide-settings.svg#icon]] Pulsante **Impostazioni** per aprire le impostazioni dell'estensione.
 
 Le funzionalità del piè di pagina includono:
 
 - Pulsante **Aggiungi a Obsidian** per salvare i dati in Obsidian.
 - Menu a tendina **Vault** per passare tra le cassaforti salvate aggiunte nelle impostazioni di Web Clipper.
 - Campo **Cartella** per definire in quale cartella salvare.
-- **Interprete** per eseguire [[Interpretare pagine web|prompt in linguaggio naturale]] sulla pagina.
+- **Interprete** per eseguire [[Interprete|prompt in linguaggio naturale]] sulla pagina.

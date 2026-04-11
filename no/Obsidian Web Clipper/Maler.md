@@ -62,4 +62,4 @@ Schema.org-verdier kan også brukes til å [[Variabler#Schema.org-variabler|forh
 
 ### Tolkningskontekst
 
-Når [[Tolk nettsider|Tolk]] er aktivert, kan du bruke [[Variabler#Ledetekstvariabler|ledetekstvariabler]] for å trekke ut sideinnhold med naturlig språk. For hver mal kan du definere [[Tolk nettsider#Kontekst|konteksten]] som Tolk har tilgang til.
+Når [[Tolk|Tolk]] er aktivert, kan du bruke [[Variabler#Ledetekstvariabler|ledetekstvariabler]] for å trekke ut sideinnhold med naturlig språk. For hver mal kan du definere [[Tolk#Kontekst|konteksten]] som Tolk har tilgang til.

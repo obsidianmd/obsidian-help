@@ -14,7 +14,7 @@ O Web Clipper usa o [Defuddle](https://github.com/kepano/defuddle) para capturar
 Para contornar o Defuddle no Web Clipper, use os seguintes métodos:
 
 - Selecione texto, ou use `Cmd/Ctrl+A` para selecionar todo o texto.
-- [[Destacar páginas web|Destaque conteúdo]] para escolher exatamente o que deseja capturar.
+- [[Marcador|Destaque conteúdo]] para escolher exatamente o que deseja capturar.
 - Use um [[Obsidian Web Clipper/Modelos|modelo personalizado]] para o site.
 
 ### Nenhum conteúdo aparece no Obsidian

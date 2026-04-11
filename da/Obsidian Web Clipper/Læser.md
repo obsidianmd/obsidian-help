@@ -1,15 +1,19 @@
 ---
 permalink: web-clipper/reader
 ---
-[[Introduktion til Obsidian Web Clipper|Web Clipper]] inkluderer en indbygget læsetilstand kaldet Læser, der fjerner rod fra websider og kun præsenterer artiklens hovedindhold i et rent og læsbart format.
+[[Introduktion til Obsidian Web Clipper|Web Clipper]] inkluderer en indbygget læsetilstand kaldet **Læser**, der fjerner rod fra websider og kun præsenterer artiklens hovedindhold i et rent og læsbart format.
 
 ## Aktivér læsetilstand
 
 Du kan aktivere Læser på flere måder:
 
-- **Bogikonen** i udvidelsespanelets overskrift.
-- Tastaturgenvejen `Alt+Shift+R`, som kan tilpasses i udvidelsens indstillinger.
-- Skift til læsetilstand igen for at gendanne den originale side.
+- ![[lucide-book-icon.svg#icon]] **Bogikon** i udvidelsespanelet.
+- **Tastaturgenvej** som kan tilpasses i udvidelsens indstillinger.
+- **Kontekstmenu** ved at højreklikke på den webside, du besøger.
+
+Du kan også indstille ![[obsidian.svg#icon|20]] udvidelsesknappen til at åbne Læser med ét klik. I Web Clipper-indstillingerne gå til **Generelt** → **Adfærd** → **Åbningsadfærd** og vælg **Læser**.
+
+Alle ovenstående muligheder giver dig også mulighed for at afslutte Læser og gendanne den originale side.
 
 ## Sådan fungerer det
 
@@ -21,14 +25,16 @@ Læser udtrækker hovedindholdet fra siden. Den originale side erstattes med en 
 - Syntaksfremhævning for kodeblokke.
 - Fodnote-popovers, der vises inline, når der klikkes på dem.
 
-## Tilpas læsevisningen
+## Tilpas din læsevisning
 
-Læsetilstand inkluderer en skjult indstillingslinje, som du kan vise ved at holde markøren over det øverste højre hjørne af siden, med kontroller til at tilpasse læseoplevelsen.
+Tilpas din Læser-oplevelse i udvidelsens indstillinger. Nogle muligheder er også tilgængelige i Læser-tilstand ved at klikke på ![[lucide-case-sensitive.svg#icon]] ikonet.
 
-| Indstilling          | Beskrivelse                                                                                          |
-| -------------------- | ---------------------------------------------------------------------------------------------------- |
-| Skriftstørrelse      | Justér tekststørrelsen.                                                                              |
-| Linjebredde          | Maksimal bredde af indholdsområdet.                                                                  |
-| Linjehøjde           | Afstand mellem linjer.                                                                               |
-| Farve&nbsp;skema     |                                                                                                      |
-| Tema                 | Automatisk følger din systempræference. Eller vælg altid at bruge lys tilstand eller mørk tilstand.  |
+| Indstilling          | Beskrivelse                                    |
+| -------------------- | ---------------------------------------------- |
+| Skrifttype           | Tilføj skrifttyper installeret på dit system.  |
+| Skriftstørrelse      | Justér tekststørrelsen.                        |
+| Linje&nbsp;højde     | Afstand mellem linjer.                         |
+| Linje&nbsp;bredde    | Maksimal bredde af indholdsområdet.            |
+| Udseende             | Vælg lyst eller mørkt udseende.               |
+| Tema                 | Vælg farverne.                                 |
+| Brugerdefineret CSS  | Yderligere CSS anvendt på siden.               |

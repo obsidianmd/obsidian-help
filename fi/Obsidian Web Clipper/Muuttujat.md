@@ -15,19 +15,19 @@ Käytä `...`-kuvaketta [[Johdanto Obsidian Web Clipperiin|Web Clipper]] -laajen
 
 Esiasetetut muuttujat luodaan automaattisesti sivun sisällön perusteella. Ne toimivat tyypillisesti useimmilla verkkosivustoilla.
 
-Pääsisältömuuttuja on `{{content}}`, joka sisältää artikkelin sisällön, [[Verkkosivujen korostaminen|korostukset]] tai valinnan, jos sivulla on valittua tekstiä. Huomaa, että `{{content}}` yrittää poimia sivun pääsisällön, mikä ei aina välttämättä ole sitä mitä haluat. Tässä tapauksessa voit käyttää muita esiasettuja muuttujia tai valitsinmuuttujia tarvitsemasi sisällön poimimiseen.
+Pääsisältömuuttuja on `{{content}}`, joka sisältää artikkelin sisällön, [[Korostustyökalu|korostukset]] tai valinnan, jos sivulla on valittua tekstiä. Huomaa, että `{{content}}` yrittää poimia sivun pääsisällön, mikä ei aina välttämättä ole sitä mitä haluat. Tässä tapauksessa voit käyttää muita esiasettuja muuttujia tai valitsinmuuttujia tarvitsemasi sisällön poimimiseen.
 
 | Muuttuja            | Kuvaus                                                                                 |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Sivun tekijä                                                                           |
-| `{{content}}`       | Artikkelin sisältö, [[Verkkosivujen korostaminen\|korostukset]] tai valinta, Markdown-muodossa |
-| `{{contentHtml}}`   | Artikkelin sisältö, [[Verkkosivujen korostaminen\|korostukset]] tai valinta, HTML-muodossa |
+| `{{content}}`       | Artikkelin sisältö, [[Korostustyökalu\|korostukset]] tai valinta, Markdown-muodossa |
+| `{{contentHtml}}`   | Artikkelin sisältö, [[Korostustyökalu\|korostukset]] tai valinta, HTML-muodossa |
 | `{{date}}`          | Nykyinen päivämäärä, voidaan muotoilla `date`-suodattimella                            |
 | `{{description}}`   | Kuvaus tai ote                                                                         |
 | `{{domain}}`        | Verkkotunnus                                                                           |
 | `{{favicon}}`       | Faviconin URL                                                                          |
 | `{{fullHtml}}`      | Koko sivun sisällön käsittelemätön HTML                                                |
-| `{{highlights}}`    | [[Verkkosivujen korostaminen\|Korostukset]] tekstin ja aikaleimojen kanssa             |
+| `{{highlights}}`    | [[Korostustyökalu\|Korostukset]] tekstin ja aikaleimojen kanssa             |
 | `{{image}}`         | Sosiaalisen jakamisen kuvan URL                                                        |
 | `{{published}}`     | Julkaisupäivä, voidaan muotoilla `date`-suodattimella                                  |
 | `{{selection}}`     | Valinta Markdown-muodossa                                                              |
@@ -40,15 +40,15 @@ Pääsisältömuuttuja on `{{content}}`, joka sisältää artikkelin sisällön,
 
 ## Kehoitemuuttujat
 
-Kehoitemuuttujat hyödyntävät kielimalleja tietojen poimimiseen ja muokkaamiseen luonnollisella kielellä. Kehoitemuuttujat edellyttävät, että [[Verkkosivujen tulkinta|Tulkki]] on käytössä ja määritetty.
+Kehoitemuuttujat hyödyntävät kielimalleja tietojen poimimiseen ja muokkaamiseen luonnollisella kielellä. Kehoitemuuttujat edellyttävät, että [[Tulkki|Tulkki]] on käytössä ja määritetty.
 
 Kehoitemuuttujissa käytetään syntaksia `{{"yhteenveto sivusta"}}`. Kehotteen ympärillä olevat lainausmerkit ovat tärkeitä ja erottavat kehotteen esiasetetuista muuttujista. Kehotevastauksia voidaan jälkikäsitellä [[Suodattimet|suodattimilla]], esim. `{{"yhteenveto sivusta"|blockquote}}`.
 
 ### Milloin kehoitemuuttujia kannattaa käyttää
 
-Kehoitemuuttujien etuna on äärimmäinen joustavuus ja helppous kirjoittaa, mutta niihin liittyy useita kompromisseja: ne ovat hitaampia suorittaa, ja niistä voi aiheutua kustannus- ja yksityisyysnäkökohtia valitsemastasi [[Verkkosivujen tulkinta#Mallit|tarjoajasta]] riippuen.
+Kehoitemuuttujien etuna on äärimmäinen joustavuus ja helppous kirjoittaa, mutta niihin liittyy useita kompromisseja: ne ovat hitaampia suorittaa, ja niistä voi aiheutua kustannus- ja yksityisyysnäkökohtia valitsemastasi [[Tulkki#Mallit|tarjoajasta]] riippuen.
 
-Toisin kuin muut muuttujatyypit, kehoitemuuttujat täytyy käsitellä ulkoisella kielimallilla, joten ne korvataan vasta kun [[Verkkosivujen tulkinta|Tulkki]] on suoritettu.
+Toisin kuin muut muuttujatyypit, kehoitemuuttujat täytyy käsitellä ulkoisella kielimallilla, joten ne korvataan vasta kun [[Tulkki|Tulkki]] on suoritettu.
 
 On parasta *olla käyttämättä* kehoitemuuttujia, jos haluamasi tieto on yhtenäisessä muodossa, joka voitaisiin poimia muilla muuttujatyypeillä.
 

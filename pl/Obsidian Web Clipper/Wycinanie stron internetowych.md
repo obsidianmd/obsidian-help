@@ -17,7 +17,7 @@ Domyślnie Web Clipper próbuje inteligentnie wyodrębnić jedynie główną tre
 
 - Jeśli istnieje niestandardowy szablon, zostanie użyty Twój szablon.
 - Jeśli jest zaznaczony fragment tekstu, zostanie użyte zaznaczenie. Możesz użyć `Ctrl/Cmd+A`, aby zaznaczyć całą stronę.
-- Jeśli istnieją jakiekolwiek [[Wyróżnianie stron internetowych|wyróżnienia]], zostaną one użyte.
+- Jeśli istnieją jakiekolwiek [[Highlighter|wyróżnienia]], zostaną one użyte.
 
 ## Pobieranie obrazów
 
@@ -33,27 +33,30 @@ Web Clipper zawiera skróty klawiszowe, których możesz używać, aby przyspies
 | ----------------------- | ------------- | -------------- |
 | Otwórz clipper          | `Cmd+Shift+O` | `Ctrl+Shift+O` |
 | Przechwyć               | `Opt+Shift+O` | `Alt+Shift+O`  |
-| Tryb zakreślacza        | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Przełącz zakreślacz     | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Przełącz czytnik        | `Opt+Shift+R` | `Alt+Shift+R`  |
 
 ## Funkcje interfejsu
 
 Interfejs Web Clipper jest podzielony na cztery sekcje:
 
-1. **Nagłówek**, w którym możesz przełączać szablony, włączać [[Wyróżnianie stron internetowych|wyróżnianie]], [[Czytnik|tryb czytania]] oraz uzyskać dostęp do ustawień.
+1. **Nagłówek**, w którym możesz przełączać szablony, włączać [[Highlighter|wyróżnianie]], [[Czytnik|tryb czytania]] oraz uzyskać dostęp do ustawień.
 2. **Atrybuty** pokazują [[Atrybuty|metadane]] wyodrębnione ze strony, które zostaną zapisane jako [[Atrybuty]] w Obsidian.
 3. **Treść notatki**, która zostanie zapisana w Obsidian.
 4. **Stopka** pozwala wybrać skarbiec i folder oraz zapisać w Obsidian.
 
 Funkcje nagłówka obejmują:
 
-- Rozwijane menu **Szablon** do przełączania między zapisanymi [[Szablony|szablonami]] dodanymi w ustawieniach Web Clipper.
-- Przycisk **Więcej (...)** do wyświetlania zmiennych strony, których możesz użyć w szablonach.
-- Przycisk **Zakreślacz** do włączania [[Wyróżnianie stron internetowych|wyróżniania]].
-- Przycisk **Koło zębate** do otwierania ustawień Web Clipper.
+- ![[lucide-chevrons-up-down.svg#icon]] **Szablon** — przełącznik do korzystania z zapisanych [[Szablony|szablonów]] dodanych w ustawieniach rozszerzenia.
+- ![[lucide-more-horizontal.svg#icon]] Przycisk **Więcej** do wyświetlania zmiennych strony, których możesz użyć w szablonach.
+- ![[lucide-highlighter.svg#icon]] Przycisk **Zakreślacz** do włączania [[Highlighter|wyróżniania]].
+- ![[lucide-book-icon.svg#icon]] Przycisk **Czytnik** do włączania [[Czytnik|widoku czytania]].
+- ![[lucide-picture-in-picture-2.svg#icon]] Przycisk **Osadź** do przeniesienia Web Clipper z wyskakującego okna na stronę.
+- ![[lucide-settings.svg#icon]] Przycisk **Ustawienia** do otwierania ustawień rozszerzenia.
 
 Funkcje stopki obejmują:
 
 - Przycisk **Zapisz w Obsidian** do zapisywania danych w Obsidian.
 - Rozwijane menu **Sejf** do przełączania między zapisanymi sejfami dodanymi w ustawieniach Web Clipper.
 - Pole **Folder** do określenia folderu, w którym ma zostać zapisany plik.
-- **Tłumacz** do uruchamiania [[Interpretowanie stron internetowych|zapytań w języku naturalnym]] na stronie.
+- **Tłumacz** do uruchamiania [[Interpreter|zapytań w języku naturalnym]] na stronie.

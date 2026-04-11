@@ -1,15 +1,19 @@
 ---
 permalink: web-clipper/reader
 ---
-[[Introduksjon til Obsidian Web Clipper|Web Clipper]] inkluderer en innebygd lesemodus kalt Lesevisning som fjerner rot fra nettsider, og presenterer kun hovedinnholdet i artikkelen i et rent, lesbart format.
+[[Introduksjon til Obsidian Web Clipper|Web Clipper]] inkluderer en innebygd lesemodus kalt **Lesevisning** som fjerner rot fra nettsider, og presenterer kun hovedinnholdet i artikkelen i et rent, lesbart format.
 
 ## Aktiver lesemodus
 
 Du kan aktivere Lesevisning på flere måter:
 
-- **Bokikonet** i utvidelsespanelets topptekst.
-- Tastatursnarvei `Alt+Shift+R`, kan tilpasses i utvidelsesinnstillingene.
-- Å veksle lesemodus igjen vil gjenopprette den opprinnelige siden.
+- ![[lucide-book-icon.svg#icon]] **Bokikon** i utvidelsespanelet.
+- **Tastatursnarvei** kan tilpasses i utvidelsesinnstillingene.
+- **Kontekstmeny** ved å høyreklikke på nettsiden du besøker.
+
+Du kan også sette ![[obsidian.svg#icon|20]] utvidelsesknappen til å åpne Lesevisning med ett klikk. I Web Clipper-innstillingene gå til **Generelt** → **Oppførsel** → **Åpne-oppførsel** og velg **Lesevisning**.
+
+Alle alternativene ovenfor lar deg også avslutte Lesevisning og gjenopprette den opprinnelige siden.
 
 ## Hvordan det fungerer
 
@@ -21,14 +25,16 @@ Lesevisning henter hovedinnholdet fra siden. Den opprinnelige siden erstattes me
 - Syntaksutheving for kodeblokker.
 - Fotnote-popovere som vises innebygd når de klikkes.
 
-## Tilpass lesevisningen
+## Tilpass lesevisningen din
 
-Lesemodus inkluderer en skjult innstillingslinje som du kan vise ved å holde musepekeren over øvre høyre hjørne av siden, med kontroller for å tilpasse leseopplevelsen.
+Tilpass Lesevisning-opplevelsen din i utvidelsesinnstillingene. Noen alternativer er også tilgjengelige i Lesevisning ved å klikke på ![[lucide-case-sensitive.svg#icon]]-ikonet.
 
-| Innstilling         | Beskrivelse                                                                                        |
-| ------------------- | -------------------------------------------------------------------------------------------------- |
-| Skriftstørrelse     | Juster tekststørrelsen.                                                                            |
-| Linjebredde         | Maksimal bredde på innholdsområdet.                                                                |
-| Linjehøyde          | Avstand mellom linjer.                                                                             |
-| Farge&nbsp;skjema   |                                                                                                    |
-| Tema                | Automatisk følger systeminnstillingen din. Eller velg å alltid bruke lys modus eller mørk modus.  |
+| Innstilling          | Beskrivelse                                  |
+| -------------------- | -------------------------------------------- |
+| Skrifttype           | Legg til skrifttyper installert på systemet. |
+| Skriftstørrelse      | Juster tekststørrelsen.                      |
+| Linje&nbsp;høyde     | Avstand mellom linjer.                       |
+| Linje&nbsp;bredde    | Maksimal bredde på innholdsområdet.          |
+| Utseende             | Velg lyst eller mørkt utseende.              |
+| Tema                 | Velg fargene.                                |
+| Egendefinert CSS     | Ekstra CSS som brukes på siden.              |

@@ -62,4 +62,4 @@ Nilai Schema.org juga dapat digunakan untuk [[Variabel#Variabel Schema.org|mengi
 
 ### Konteks interpreter
 
-Ketika [[Interpretasi halaman web|Interpreter]] diaktifkan, Anda dapat menggunakan [[Variabel#Variabel prompt|variabel prompt]] untuk mengekstrak konten halaman dengan bahasa alami. Untuk setiap templat, Anda dapat menentukan [[Interpretasi halaman web#Konteks|konteks]] yang dapat diakses oleh Interpreter.
+Ketika [[Interpreter|Interpreter]] diaktifkan, Anda dapat menggunakan [[Variabel#Variabel prompt|variabel prompt]] untuk mengekstrak konten halaman dengan bahasa alami. Untuk setiap templat, Anda dapat menentukan [[Interpreter#Konteks|konteks]] yang dapat diakses oleh Interpreter.

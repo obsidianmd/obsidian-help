@@ -23,11 +23,11 @@ Dapatkan ekstensi Obsidian Web Clipper dari direktori resmi untuk peramban Anda:
 
 - [[Kliping halaman web]]
 	- Mulai dan pelajari cara menyimpan konten dari halaman.
-- [[Sorot halaman web|Penyorot]]
+- [[Penyorot|Penyorot]]
 	- Sorot bagian penting dan pilih elemen yang ingin Anda simpan.
 - [[Pembaca|Pembaca]]
 	- Baca halaman web dalam tampilan bersih dan bebas gangguan.
-- [[Interpretasi halaman web|Interpreter]]
+- [[Interpreter|Interpreter]]
 	- Gunakan perintah bahasa alami untuk menangkap dan memodifikasi data pada halaman.
 - [[Pemecahan masalah Web Clipper|Pemecahan Masalah]]
 	- Atasi masalah umum dengan Web Clipper.

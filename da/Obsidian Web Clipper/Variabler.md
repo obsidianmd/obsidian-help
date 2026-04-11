@@ -15,19 +15,19 @@ Brug `...`-ikonet i [[Introduktion til Obsidian Web Clipper|Web Clipper]]-udvide
 
 Forudindstillede variabler genereres automatisk baseret på sidens indhold. Disse fungerer typisk på de fleste hjemmesider.
 
-Den primære indholdsvariabel er `{{content}}`, som indeholder artikelindholdet, eller [[Fremhæv websider|fremhævningerne]], eller markeringen hvis der er markeret tekst på siden. Bemærk at `{{content}}` forsøger at udtrække sidens hovedindhold, hvilket ikke altid er det, du ønsker. I så fald kan du bruge andre forudindstillede variabler eller selektor-variabler til at udtrække det indhold, du har brug for.
+Den primære indholdsvariabel er `{{content}}`, som indeholder artikelindholdet, eller [[Fremhæver|fremhævningerne]], eller markeringen hvis der er markeret tekst på siden. Bemærk at `{{content}}` forsøger at udtrække sidens hovedindhold, hvilket ikke altid er det, du ønsker. I så fald kan du bruge andre forudindstillede variabler eller selektor-variabler til at udtrække det indhold, du har brug for.
 
 | Variabel            | Beskrivelse                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Sidens forfatter                                                                       |
-| `{{content}}`       | Artikelindhold, [[Fremhæv websider\|fremhævninger]] eller markering, i Markdown-format |
-| `{{contentHtml}}`   | Artikelindhold, [[Fremhæv websider\|fremhævninger]] eller markering, i HTML-format     |
+| `{{content}}`       | Artikelindhold, [[Fremhæver\|fremhævninger]] eller markering, i Markdown-format |
+| `{{contentHtml}}`   | Artikelindhold, [[Fremhæver\|fremhævninger]] eller markering, i HTML-format     |
 | `{{date}}`          | Aktuel dato, kan formateres med `date`-filteret                                        |
 | `{{description}}`   | Beskrivelse eller uddrag                                                               |
 | `{{domain}}`        | Domæne                                                                                 |
 | `{{favicon}}`       | Favicon-URL                                                                            |
 | `{{fullHtml}}`      | Ubehandlet HTML for hele sidens indhold                                                |
-| `{{highlights}}`    | [[Fremhæv websider\|Fremhævninger]] med tekst og tidsstempler                          |
+| `{{highlights}}`    | [[Fremhæver\|Fremhævninger]] med tekst og tidsstempler                          |
 | `{{image}}`         | URL til socialt delingsbillede                                                         |
 | `{{published}}`     | Udgivelsesdato, kan formateres med `date`-filteret                                     |
 | `{{selection}}`     | Markering i Markdown-format                                                            |
@@ -40,15 +40,15 @@ Den primære indholdsvariabel er `{{content}}`, som indeholder artikelindholdet,
 
 ## Prompt-variabler
 
-Prompt-variabler udnytter sprogmodeller til at udtrække og modificere data ved hjælp af naturligt sprog. Prompt-variabler kræver, at [[Fortolk websider|Fortolker]] er aktiveret og konfigureret.
+Prompt-variabler udnytter sprogmodeller til at udtrække og modificere data ved hjælp af naturligt sprog. Prompt-variabler kræver, at [[Fortolker|Fortolker]] er aktiveret og konfigureret.
 
 Prompt-variabler bruger syntaksen `{{"et resumé af siden"}}`. Anførselstegnene omkring prompten er vigtige og adskiller prompts fra forudindstillede variabler. Prompt-svar kan efterbehandles med [[Filtre|filtre]], f.eks. `{{"et resumé af siden"|blockquote}}`.
 
 ### Hvornår du bør bruge prompt-variabler
 
-Prompt-variabler har fordelen af at være ekstremt fleksible og nemme at skrive, men de har flere kompromiser: de er langsommere at køre og kan have omkostnings- og privatlivsovervejelser afhængigt af den [[Fortolk websider#Modeller|udbyder]], du vælger.
+Prompt-variabler har fordelen af at være ekstremt fleksible og nemme at skrive, men de har flere kompromiser: de er langsommere at køre og kan have omkostnings- og privatlivsovervejelser afhængigt af den [[Fortolker#Modeller|udbyder]], du vælger.
 
-I modsætning til andre variabeltyper skal prompt-variabler behandles af en ekstern sprogmodel, så de erstattes først, når [[Fortolk websider|Fortolker]] er kørt.
+I modsætning til andre variabeltyper skal prompt-variabler behandles af en ekstern sprogmodel, så de erstattes først, når [[Fortolker|Fortolker]] er kørt.
 
 Det er bedst *ikke* at bruge prompt-variabler, hvis de data, du vil udtrække, er i et konsistent format, der kan udtrækkes med andre variabeltyper.
 

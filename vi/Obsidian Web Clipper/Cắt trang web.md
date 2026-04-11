@@ -17,7 +17,7 @@ Theo mặc định, Web Clipper cố gắng trích xuất thông minh chỉ nộ
 
 - Nếu có mẫu tùy chỉnh, nó sử dụng mẫu của bạn.
 - Nếu có vùng chọn, nó sử dụng vùng chọn. Bạn có thể sử dụng `Ctrl/Cmd+A` để chọn toàn bộ trang.
-- Nếu có bất kỳ [[Tô Màu trang web|phần tô sáng]] nào, nó sử dụng các phần tô sáng.
+- Nếu có bất kỳ [[Bút tô sáng|phần tô sáng]] nào, nó sử dụng các phần tô sáng.
 
 ## Tải xuống hình ảnh
 
@@ -29,31 +29,34 @@ Bạn có thể tải xuống hình ảnh cho bất kỳ tệp nào trong Obsidi
 
 Web Clipper bao gồm các phím tắt bạn có thể sử dụng để tăng tốc quy trình làm việc. Để thay đổi ánh xạ phím, vào **Cài đặt Web Clipper** → **Chung** và làm theo hướng dẫn cho trình duyệt của bạn. Ánh xạ có thể thay đổi cho tất cả trình duyệt ngoại trừ Safari vì Safari không hỗ trợ chỉnh sửa phím tắt.
 
-| Hành động               | macOS         | Windows/Linux  |
-| ----------------------- | ------------- | -------------- |
-| Mở clipper              | `Cmd+Shift+O` | `Ctrl+Shift+O` |
-| Lưu nhanh              | `Opt+Shift+O` | `Alt+Shift+O`  |
-| Bật/tắt chế độ đánh dấu | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Hành động              | macOS         | Windows/Linux  |
+| ---------------------- | ------------- | -------------- |
+| Mở clipper             | `Cmd+Shift+O` | `Ctrl+Shift+O` |
+| Lưu nhanh             | `Opt+Shift+O` | `Alt+Shift+O`  |
+| Bật/tắt bút tô sáng   | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Bật/tắt chế độ đọc    | `Opt+Shift+R` | `Alt+Shift+R`  |
 
 ## Chức năng giao diện
 
 Giao diện Web Clipper được chia thành bốn phần:
 
-1. **Tiêu đề** nơi bạn có thể chuyển đổi mẫu, bật [[Tô Màu trang web|tô sáng]], [[Đọc|chế độ đọc]], và truy cập cài đặt.
+1. **Tiêu đề** nơi bạn có thể chuyển đổi mẫu, bật [[Bút tô sáng|tô sáng]], [[Đọc|chế độ đọc]], và truy cập cài đặt.
 2. **Thuộc tính** hiển thị [[Thuộc tính|siêu dữ liệu]] được trích xuất từ trang sẽ được lưu dưới dạng [[Thuộc tính]] trong Obsidian.
 3. **Nội dung ghi chú** sẽ được lưu vào Obsidian.
 4. **Chân trang** cho phép bạn chọn kho và thư mục, và thêm vào Obsidian.
 
 Chức năng tiêu đề bao gồm:
 
-- Danh sách thả xuống **Mẫu** để chuyển đổi giữa các [[Obsidian Web Clipper/Mẫu|mẫu]] đã lưu được thêm trong cài đặt Web Clipper.
-- Nút **Thêm (...)** để hiển thị biến trang bạn có thể sử dụng trong mẫu.
-- Nút **Đánh dấu** để bật [[Tô Màu trang web|tô sáng]].
-- Nút **Bánh răng** để mở cài đặt Web Clipper.
+- ![[lucide-chevrons-up-down.svg#icon]] Bộ chuyển **Mẫu** để sử dụng các [[Obsidian Web Clipper/Mẫu|mẫu]] đã lưu được thêm trong cài đặt tiện ích mở rộng.
+- ![[lucide-more-horizontal.svg#icon]] Nút **Thêm** để hiển thị biến trang bạn có thể sử dụng trong mẫu.
+- ![[lucide-highlighter.svg#icon]] Nút **Bút tô sáng** để bật [[Bút tô sáng|tô sáng]].
+- ![[lucide-book-icon.svg#icon]] Nút **Đọc** để bật [[Đọc|chế độ đọc]].
+- ![[lucide-picture-in-picture-2.svg#icon]] Nút **Nhúng** để chuyển Web Clipper từ cửa sổ bật lên vào trang.
+- ![[lucide-settings.svg#icon]] Nút **Cài đặt** để mở cài đặt tiện ích mở rộng.
 
 Chức năng chân trang bao gồm:
 
 - Nút **Thêm vào Obsidian** để lưu dữ liệu vào Obsidian.
 - Danh sách thả xuống **Kho** để chuyển đổi giữa các kho đã lưu được thêm trong cài đặt Web Clipper.
 - Trường **Thư mục** để xác định thư mục lưu trữ.
-- **Thông dịch** để chạy [[Thông dịch trang web|lời nhắc ngôn ngữ tự nhiên]] trên trang.
+- **Thông dịch** để chạy [[Thông dịch|lời nhắc ngôn ngữ tự nhiên]] trên trang.

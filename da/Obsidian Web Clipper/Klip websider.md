@@ -17,7 +17,7 @@ Som standard forsøger Web Clipper intelligent kun at udtrække det primære art
 
 - Hvis en brugerdefineret skabelon er til stede, bruger den din skabelon.
 - Hvis en markering er til stede, bruger den markeringen. Du kan bruge `Ctrl/Cmd+A` til at markere hele siden.
-- Hvis der er [[Fremhæv websider|fremhævninger]] til stede, bruger den fremhævningerne.
+- Hvis der er [[Fremhævning|fremhævninger]] til stede, bruger den fremhævningerne.
 
 ## Hent billeder
 
@@ -34,26 +34,29 @@ Web Clipper inkluderer tastaturgenveje, du kan bruge til at fremskynde dit workf
 | Åbn clipper             | `Cmd+Shift+O` | `Ctrl+Shift+O` |
 | Hurtigklip              | `Opt+Shift+O` | `Alt+Shift+O`  |
 | Skift fremhævning       | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Skift læser             | `Opt+Shift+R` | `Alt+Shift+R`  |
 
 ## Grænsefladefunktionalitet
 
 Web Clipper-grænsefladen er opdelt i fire sektioner:
 
-1. **Overskrift** hvor du kan skifte skabeloner, slå [[Fremhæv websider|fremhævning]] til, [[Læser|læsetilstand]], og tilgå indstillinger.
+1. **Overskrift** hvor du kan skifte skabeloner, slå [[Fremhævning|fremhævning]] til, [[Læser|læsetilstand]], og tilgå indstillinger.
 2. **Egenskaber** viser de [[Egenskaber|metadata]], der er udtrukket fra siden, som vil blive gemt som [[Egenskaber]] i Obsidian.
 3. **Noteindhold** der vil blive gemt i Obsidian.
 4. **Sidefod** giver dig mulighed for at vælge boks og mappe, og tilføje til Obsidian.
 
 Overskriftsfunktionalitet inkluderer:
 
-- **Skabelon**-rullemenu til at skifte mellem dine gemte [[Obsidian Web Clipper/Skabeloner|skabeloner]] tilføjet i Web Clipper-indstillinger.
-- **Mere (...)**-knap til at vise sidevariabler, du kan bruge i skabeloner.
-- **Fremhævning**-knap til at slå [[Fremhæv websider|fremhævning]] til.
-- **Tandhjul**-knap til at åbne Web Clipper-indstillinger.
+- ![[lucide-chevrons-up-down.svg#icon]] **Skabelon**-skifter til at bruge gemte [[Obsidian Web Clipper/Skabeloner|skabeloner]] tilføjet i udvidelsesindstillingerne.
+- ![[lucide-more-horizontal.svg#icon]] **Mere**-knap til at vise sidevariabler, du kan bruge i skabeloner.
+- ![[lucide-highlighter.svg#icon]] **Fremhævning**-knap til at slå [[Fremhævning|fremhævning]] til.
+- ![[lucide-book-icon.svg#icon]] **Læser**-knap til at slå [[Læser|læsevisning]] til.
+- ![[lucide-picture-in-picture-2.svg#icon]] **Indlejr**-knap til at flytte Web Clipper fra popup'en ind i siden.
+- ![[lucide-settings.svg#icon]] **Indstillinger**-knap til at åbne udvidelsesindstillingerne.
 
 Sidefodsfunktionalitet inkluderer:
 
 - **Tilføj til Obsidian**-knap til at gemme data i Obsidian.
 - **Boks**-rullemenu til at skifte mellem gemte bokse tilføjet i Web Clipper-indstillinger.
 - **Mappe**-felt til at definere, hvilken mappe der skal gemmes i.
-- **Fortolker** til at køre [[Fortolk websider|naturlige sprogprompter]] på siden.
+- **Fortolker** til at køre [[Fortolker|naturlige sprogprompter]] på siden.

@@ -15,19 +15,19 @@ Utilitzeu la icona `...` a l'extensió [[Introducció a Obsidian Web Clipper|Web
 
 Les variables preestablertes es generen automàticament basant-se en el contingut de la pàgina. Normalment funcionen per a la majoria de llocs web.
 
-La variable de contingut principal és `{{content}}`, que conté el contingut de l'article, o els [[Ressaltar pàgines web|ressaltats]], o la selecció si hi ha text seleccionat a la pàgina. Tingueu en compte que `{{content}}` intenta extreure el contingut principal de la pàgina, que pot no ser sempre el que voleu. En aquest cas, podeu utilitzar altres variables preestablertes o variables de selector per extreure el contingut que necessiteu.
+La variable de contingut principal és `{{content}}`, que conté el contingut de l'article, o els [[Ressaltador|ressaltats]], o la selecció si hi ha text seleccionat a la pàgina. Tingueu en compte que `{{content}}` intenta extreure el contingut principal de la pàgina, que pot no ser sempre el que voleu. En aquest cas, podeu utilitzar altres variables preestablertes o variables de selector per extreure el contingut que necessiteu.
 
 | Variable            | Descripció                                                                             |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Autor de la pàgina                                                                     |
-| `{{content}}`       | Contingut de l'article, [[Ressaltar pàgines web\|ressaltats]], o selecció, en format Markdown |
-| `{{contentHtml}}`   | Contingut de l'article, [[Ressaltar pàgines web\|ressaltats]], o selecció, en format HTML     |
+| `{{content}}`       | Contingut de l'article, [[Ressaltador\|ressaltats]], o selecció, en format Markdown |
+| `{{contentHtml}}`   | Contingut de l'article, [[Ressaltador\|ressaltats]], o selecció, en format HTML     |
 | `{{date}}`          | Data actual, es pot formatar utilitzant el filtre `date`                                |
 | `{{description}}`   | Descripció o extracte                                                                  |
 | `{{domain}}`        | Domini                                                                                 |
 | `{{favicon}}`       | URL del favicon                                                                        |
 | `{{fullHtml}}`      | HTML sense processar del contingut complet de la pàgina                                 |
-| `{{highlights}}`    | [[Ressaltar pàgines web\|Ressaltats]] amb text i marques de temps                      |
+| `{{highlights}}`    | [[Ressaltador\|Ressaltats]] amb text i marques de temps                      |
 | `{{image}}`         | URL de la imatge de compartició social                                                  |
 | `{{published}}`     | Data de publicació, es pot formatar utilitzant el filtre `date`                         |
 | `{{selection}}`     | Selecció en format Markdown                                                            |
@@ -40,15 +40,15 @@ La variable de contingut principal és `{{content}}`, que conté el contingut de
 
 ## Variables de sol·licitud
 
-Les variables de sol·licitud aprofiten models de llenguatge per extreure i modificar dades utilitzant llenguatge natural. Les variables de sol·licitud requereixen que l'[[Interpretar pàgines web|Intèrpret]] estigui activat i configurat.
+Les variables de sol·licitud aprofiten models de llenguatge per extreure i modificar dades utilitzant llenguatge natural. Les variables de sol·licitud requereixen que l'[[Intèrpret|Intèrpret]] estigui activat i configurat.
 
 Les variables de sol·licitud utilitzen la sintaxi `{{"un resum de la pàgina"}}`. Les cometes dobles al voltant de la sol·licitud són importants i distingeixen les sol·licituds de les variables preestablertes. Les respostes de les sol·licituds es poden postprocessar amb [[Filtres|filtres]], p. ex. `{{"un resum de la pàgina"|blockquote}}`.
 
 ### Quan utilitzar variables de sol·licitud
 
-Les variables de sol·licitud tenen l'avantatge de ser extremadament flexibles i fàcils d'escriure, però comporten diversos compromisos: són més lentes d'executar i poden tenir consideracions de cost i privacitat depenent del [[Interpretar pàgines web#Models|proveïdor]] que trieu.
+Les variables de sol·licitud tenen l'avantatge de ser extremadament flexibles i fàcils d'escriure, però comporten diversos compromisos: són més lentes d'executar i poden tenir consideracions de cost i privacitat depenent del [[Intèrpret#Models|proveïdor]] que trieu.
 
-A diferència d'altres tipus de variables, les variables de sol·licitud necessiten ser processades per un model de llenguatge extern, de manera que es substitueixen només un cop l'[[Interpretar pàgines web|Intèrpret]] s'ha executat.
+A diferència d'altres tipus de variables, les variables de sol·licitud necessiten ser processades per un model de llenguatge extern, de manera que es substitueixen només un cop l'[[Intèrpret|Intèrpret]] s'ha executat.
 
 És millor *no* utilitzar variables de sol·licitud si les dades que voleu extreure estan en un format consistent que es podria extreure amb altres tipus de variables.
 

@@ -23,11 +23,11 @@ Obtén la extensión Obsidian Web Clipper desde el directorio oficial para tu na
 
 - [[Recortar páginas web]]
 	- Comienza y aprende cómo guardar contenido de páginas.
-- [[Resaltar páginas web|Resaltador]]
+- [[Resaltador|Resaltador]]
 	- Resalta pasajes importantes y selecciona elementos que deseas guardar.
 - [[Lector|Lector]]
 	- Lee páginas web en una vista limpia y sin distracciones.
-- [[Interpretar páginas web|Intérprete]]
+- [[Intérprete|Intérprete]]
 	- Usa indicaciones en lenguaje natural para capturar y modificar datos en una página.
 - [[Solución de problemas de Web Clipper|Solución de problemas]]
 	- Resuelve problemas comunes con Web Clipper.

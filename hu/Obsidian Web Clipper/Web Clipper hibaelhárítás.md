@@ -14,7 +14,7 @@ A Web Clipper a [Defuddle](https://github.com/kepano/defuddle) eszközt használ
 A Defuddle megkerüléséhez a Web Clipperben használd a következő módszereket:
 
 - Jelölj ki szöveget, vagy használd a `Cmd/Ctrl+A` billentyűkombinációt az összes szöveg kijelöléséhez.
-- [[Weboldalak kiemelése|Emeld ki a tartalmat]], hogy pontosan kiválaszd, mit szeretnél rögzíteni.
+- [[Kiemelő|Emeld ki a tartalmat]], hogy pontosan kiválaszd, mit szeretnél rögzíteni.
 - Használj [[Obsidian Web Clipper/Sablonok|egyéni sablont]] az adott weboldalhoz.
 
 ### Nem jelenik meg tartalom az Obsidianben

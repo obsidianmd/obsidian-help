@@ -14,7 +14,7 @@ Web Clipper käyttää [Defuddlea](https://github.com/kepano/defuddle) kaapattaa
 Ohittaaksesi Defuddlen Web Clipperissä käytä seuraavia menetelmiä:
 
 - Valitse teksti tai käytä `Cmd/Ctrl+A` valitaksesi kaiken tekstin.
-- [[Verkkosivujen korostaminen|Korosta sisältöä]] valitaksesi tarkalleen, mitä haluat kaapata.
+- [[Korostustyökalu|Korosta sisältöä]] valitaksesi tarkalleen, mitä haluat kaapata.
 - Käytä [[Obsidian Web Clipper/Mallineet|mukautettua pohjaa]] sivustolle.
 
 ### Obsidianiin ei ilmesty sisältöä

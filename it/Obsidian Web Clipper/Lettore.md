@@ -3,15 +3,19 @@ permalink: web-clipper/reader
 aliases:
   - Reader
 ---
-[[Introduzione a Obsidian Web Clipper|Web Clipper]] include una modalità di lettura integrata chiamata Lettore che rimuove gli elementi superflui dalle pagine web, presentando solo il contenuto principale dell'articolo in un formato pulito e leggibile.
+[[Introduzione a Obsidian Web Clipper|Web Clipper]] include una modalità di lettura integrata chiamata **Lettore** che rimuove gli elementi superflui dalle pagine web, presentando solo il contenuto principale dell'articolo in un formato pulito e leggibile.
 
 ## Attivare la modalità di lettura
 
 È possibile attivare il Lettore in diversi modi:
 
-- L'**icona libro** nell'intestazione del pannello dell'estensione.
-- La scorciatoia da tastiera `Alt+Shift+R`, personalizzabile nelle impostazioni dell'estensione.
-- Attivando nuovamente la modalità lettore si ripristinerà la pagina originale.
+- ![[lucide-book-icon.svg#icon]] **Icona libro** nel pannello dell'estensione.
+- **Scorciatoia da tastiera** personalizzabile nelle impostazioni dell'estensione.
+- **Menu contestuale** facendo clic destro sulla pagina web che si sta visitando.
+
+È anche possibile impostare il pulsante dell'estensione ![[obsidian.svg#icon|20]] per aprire il Lettore con un solo clic. Nelle impostazioni di Web Clipper andare su **Generale** → **Comportamento** → **Comportamento di apertura** e scegliere **Lettore**.
+
+Tutte le opzioni sopra indicate consentono anche di uscire dal Lettore e ripristinare la pagina originale.
 
 ## Come funziona
 
@@ -25,12 +29,14 @@ Il Lettore estrae il contenuto principale dalla pagina. La pagina originale vien
 
 ## Personalizzare la vista di lettura
 
-La modalità Lettore include una barra delle impostazioni nascosta che è possibile visualizzare passando il mouse sull'angolo in alto a destra della pagina, con controlli per personalizzare l'esperienza di lettura.
+Personalizza la tua esperienza di lettura nelle impostazioni dell'estensione. Alcune opzioni sono disponibili anche all'interno della modalità Lettore cliccando sull'icona ![[lucide-case-sensitive.svg#icon]].
 
-| Impostazione              | Descrizione                                                                                                        |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Dimensione carattere      | Regola la dimensione del testo.                                                                                    |
-| Larghezza riga            | Larghezza massima dell'area del contenuto.                                                                         |
-| Altezza riga              | Spaziatura tra le righe.                                                                                           |
-| Schema&nbsp;colori        |                                                                                                                    |
-| Tema                      | Automatica segue le preferenze del sistema. O scegli di usare sempre la modalità chiara o la modalità scura.       |
+| Impostazione              | Descrizione                                        |
+| ------------------------- | -------------------------------------------------- |
+| Carattere                 | Aggiungi font installati sul tuo sistema.          |
+| Dimensione carattere      | Regola la dimensione del testo.                    |
+| Altezza&nbsp;riga         | Spaziatura tra le righe.                           |
+| Larghezza&nbsp;riga       | Larghezza massima dell'area del contenuto.         |
+| Aspetto                   | Scegli l'aspetto chiaro o scuro.                   |
+| Tema                      | Scegli i colori.                                   |
+| CSS personalizzato        | CSS aggiuntivo applicato alla pagina.              |

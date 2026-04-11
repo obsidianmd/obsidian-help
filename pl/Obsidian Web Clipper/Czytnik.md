@@ -1,15 +1,19 @@
 ---
 permalink: web-clipper/reader
 ---
-[[Wprowadzenie do Obsidian Web Clipper|Web Clipper]] zawiera wbudowany tryb czytania o nazwie Czytnik, który usuwa zbędne elementy ze stron internetowych, prezentując jedynie główną treść artykułu w czystym, czytelnym formacie.
+[[Wprowadzenie do Obsidian Web Clipper|Web Clipper]] zawiera wbudowany tryb czytania o nazwie **Czytnik**, który usuwa zbędne elementy ze stron internetowych, prezentując jedynie główną treść artykułu w czystym, czytelnym formacie.
 
 ## Aktywowanie trybu czytania
 
 Czytnik można aktywować na kilka sposobów:
 
-- **Ikona książki** w nagłówku panelu rozszerzenia.
-- Skrót klawiszowy `Alt+Shift+R`, konfigurowalny w ustawieniach rozszerzenia.
-- Ponowne przełączenie trybu czytnika przywróci oryginalną stronę.
+- ![[lucide-book-icon.svg#icon]] **Ikona książki** w panelu rozszerzenia.
+- **Skrót klawiszowy** konfigurowalny w ustawieniach rozszerzenia.
+- **Menu kontekstowe** po kliknięciu prawym przyciskiem myszy na odwiedzanej stronie.
+
+Możesz również ustawić przycisk rozszerzenia ![[obsidian.svg#icon|20]] tak, aby otwierał Czytnik jednym kliknięciem. W ustawieniach Web Clippera przejdź do **Ogólne** → **Zachowanie** → **Zachowanie przy otwarciu** i wybierz **Czytnik**.
+
+Wszystkie powyższe opcje pozwalają również wyjść z Czytnika i przywrócić oryginalną stronę.
 
 ## Jak to działa
 
@@ -23,12 +27,14 @@ Czytnik wyodrębnia główną treść ze strony. Oryginalna strona zostaje zast�
 
 ## Dostosowywanie widoku czytania
 
-Tryb Czytnika zawiera ukryty pasek ustawień, który można wyświetlić, najeżdżając kursorem na prawy górny róg strony, z kontrolkami pozwalającymi dostosować przeglądanie strony.
+Dostosuj Czytnik w ustawieniach rozszerzenia. Niektóre opcje są również dostępne w trybie Czytnika po kliknięciu ikony ![[lucide-case-sensitive.svg#icon]].
 
-| Ustawienie             | Opis                                                                                                           |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Rozmiar czcionki       | Dostosuj rozmiar tekstu.                                                                                       |
-| Szerokość linii        | Maksymalna szerokość obszaru treści.                                                                           |
-| Wysokość linii         | Odstęp między liniami.                                                                                         |
-| Schemat&nbsp;kolorów   |                                                                                                                |
-| Motyw                  | Automatycznie podąża za preferencjami systemowymi. Możesz też wybrać stały tryb jasny lub ciemny. |
+| Ustawienie              | Opis                                          |
+| ----------------------- | --------------------------------------------- |
+| Czcionka                | Dodaj czcionki zainstalowane w systemie.       |
+| Rozmiar czcionki        | Dostosuj rozmiar tekstu.                       |
+| Wysokość&nbsp;linii     | Odstęp między liniami.                         |
+| Szerokość&nbsp;linii    | Maksymalna szerokość obszaru treści.           |
+| Wygląd                  | Wybierz jasny lub ciemny wygląd.               |
+| Motyw                   | Wybierz kolory.                                |
+| Własny CSS              | Dodatkowy CSS stosowany do strony.             |

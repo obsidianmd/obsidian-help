@@ -14,7 +14,7 @@ Web Clipper usa [Defuddle](https://github.com/kepano/defuddle) para capturar sol
 Para omitir Defuddle en Web Clipper usa los siguientes métodos:
 
 - Selecciona texto, o usa `Cmd/Ctrl+A` para seleccionar todo el texto.
-- [[Resaltar páginas web|Resalta contenido]] para elegir exactamente lo que deseas capturar.
+- [[Resaltador|Resalta contenido]] para elegir exactamente lo que deseas capturar.
 - Usa una [[Obsidian Web Clipper/Plantillas|plantilla personalizada]] para el sitio.
 
 ### No aparece contenido en Obsidian

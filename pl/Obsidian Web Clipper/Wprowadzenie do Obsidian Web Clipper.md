@@ -23,11 +23,11 @@ Pobierz rozszerzenie Obsidian Web Clipper z oficjalnego katalogu dla Twojej prze
 
 - [[Wycinanie stron internetowych]]
 	- Rozpocznij i dowiedz się, jak zapisywać treści ze stron.
-- [[Wyróżnianie stron internetowych|Zakreślacz]]
+- [[Zakreślacz|Zakreślacz]]
 	- Wyróżniaj ważne fragmenty i wybieraj elementy, które chcesz zapisać.
 - [[Czytnik|Czytnik]]
 	- Czytaj strony internetowe w przejrzystym widoku bez rozpraszających elementów.
-- [[Interpretowanie stron internetowych|Tłumacz]]
+- [[Tłumacz|Tłumacz]]
 	- Używaj zapytań w języku naturalnym, aby przechwytywać i modyfikować dane na stronie.
 - [[Rozwiązywanie problemów z Web Clipper|Rozwiązywanie problemów]]
 	- Rozwiąż typowe problemy z Web Clipper.

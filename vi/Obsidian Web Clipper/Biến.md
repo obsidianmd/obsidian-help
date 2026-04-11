@@ -15,19 +15,19 @@ Sử dụng biểu tượng `...` trong tiện ích mở rộng [[Giới thiệu
 
 Biến cài đặt trước được tạo tự động dựa trên nội dung trang. Chúng thường hoạt động với hầu hết các trang web.
 
-Biến nội dung chính là `{{content}}`, chứa nội dung bài viết, hoặc [[Tô Màu trang web|phần tô sáng]], hoặc phần chọn nếu có văn bản được chọn trên trang. Lưu ý rằng `{{content}}` cố gắng trích xuất nội dung chính của trang, điều này không phải lúc nào cũng đúng ý bạn. Trong trường hợp đó, bạn có thể sử dụng các biến cài đặt trước khác hoặc biến bộ chọn để trích xuất nội dung bạn cần.
+Biến nội dung chính là `{{content}}`, chứa nội dung bài viết, hoặc [[Bút tô sáng|phần tô sáng]], hoặc phần chọn nếu có văn bản được chọn trên trang. Lưu ý rằng `{{content}}` cố gắng trích xuất nội dung chính của trang, điều này không phải lúc nào cũng đúng ý bạn. Trong trường hợp đó, bạn có thể sử dụng các biến cài đặt trước khác hoặc biến bộ chọn để trích xuất nội dung bạn cần.
 
 | Biến                | Mô tả                                                                                  |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Tác giả của trang                                                                      |
-| `{{content}}`       | Nội dung bài viết, [[Tô Màu trang web\|phần tô sáng]], hoặc phần chọn, ở định dạng Markdown |
-| `{{contentHtml}}`   | Nội dung bài viết, [[Tô Màu trang web\|phần tô sáng]], hoặc phần chọn, ở định dạng HTML |
+| `{{content}}`       | Nội dung bài viết, [[Bút tô sáng\|phần tô sáng]], hoặc phần chọn, ở định dạng Markdown |
+| `{{contentHtml}}`   | Nội dung bài viết, [[Bút tô sáng\|phần tô sáng]], hoặc phần chọn, ở định dạng HTML |
 | `{{date}}`          | Ngày hiện tại, có thể định dạng bằng bộ lọc `date`                                    |
 | `{{description}}`   | Mô tả hoặc trích đoạn                                                                 |
 | `{{domain}}`        | Tên miền                                                                               |
 | `{{favicon}}`       | URL favicon                                                                            |
 | `{{fullHtml}}`      | HTML chưa xử lý của toàn bộ nội dung trang                                            |
-| `{{highlights}}`    | [[Tô Màu trang web\|Phần tô sáng]] với văn bản và dấu thời gian                      |
+| `{{highlights}}`    | [[Bút tô sáng\|Phần tô sáng]] với văn bản và dấu thời gian                      |
 | `{{image}}`         | URL hình ảnh chia sẻ mạng xã hội                                                      |
 | `{{published}}`     | Ngày xuất bản, có thể định dạng bằng bộ lọc `date`                                    |
 | `{{selection}}`     | Phần chọn ở định dạng Markdown                                                        |
@@ -40,15 +40,15 @@ Biến nội dung chính là `{{content}}`, chứa nội dung bài viết, hoặ
 
 ## Biến gợi ý
 
-Biến gợi ý tận dụng các mô hình ngôn ngữ để trích xuất và chỉnh sửa dữ liệu bằng ngôn ngữ tự nhiên. Biến gợi ý yêu cầu [[Thông dịch trang web|Thông dịch]] phải được kích hoạt và cấu hình.
+Biến gợi ý tận dụng các mô hình ngôn ngữ để trích xuất và chỉnh sửa dữ liệu bằng ngôn ngữ tự nhiên. Biến gợi ý yêu cầu [[Thông dịch|Thông dịch]] phải được kích hoạt và cấu hình.
 
 Biến gợi ý sử dụng cú pháp `{{"tóm tắt của trang"}}`. Dấu ngoặc kép quanh gợi ý rất quan trọng và giúp phân biệt gợi ý với biến cài đặt trước. Phản hồi gợi ý có thể được xử lý sau với [[Bộ lọc|bộ lọc]], ví dụ `{{"tóm tắt của trang"|blockquote}}`.
 
 ### Khi nào sử dụng biến gợi ý
 
-Biến gợi ý có lợi thế là cực kỳ linh hoạt và dễ viết, tuy nhiên chúng đi kèm với một số đánh đổi: chúng chạy chậm hơn, và có thể có các vấn đề về chi phí và quyền riêng tư tùy thuộc vào [[Thông dịch trang web#Mô hình|nhà cung cấp]] bạn chọn.
+Biến gợi ý có lợi thế là cực kỳ linh hoạt và dễ viết, tuy nhiên chúng đi kèm với một số đánh đổi: chúng chạy chậm hơn, và có thể có các vấn đề về chi phí và quyền riêng tư tùy thuộc vào [[Thông dịch#Mô hình|nhà cung cấp]] bạn chọn.
 
-Không giống các loại biến khác, biến gợi ý cần được xử lý bởi một mô hình ngôn ngữ bên ngoài, nên chúng chỉ được thay thế sau khi [[Thông dịch trang web|Thông dịch]] đã chạy.
+Không giống các loại biến khác, biến gợi ý cần được xử lý bởi một mô hình ngôn ngữ bên ngoài, nên chúng chỉ được thay thế sau khi [[Thông dịch|Thông dịch]] đã chạy.
 
 Tốt nhất *không nên* sử dụng biến gợi ý nếu dữ liệu bạn muốn trích xuất có định dạng nhất quán có thể được trích xuất bằng các loại biến khác.
 

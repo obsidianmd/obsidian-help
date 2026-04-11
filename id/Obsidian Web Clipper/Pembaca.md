@@ -1,15 +1,19 @@
 ---
 permalink: web-clipper/reader
 ---
-[[Pengantar Obsidian Web Clipper|Web Clipper]] menyertakan mode baca bawaan yang disebut Pembaca yang menghilangkan elemen-elemen yang mengganggu dari halaman web, menyajikan hanya konten artikel utama dalam format yang bersih dan mudah dibaca.
+[[Pengantar Obsidian Web Clipper|Web Clipper]] menyertakan mode baca bawaan yang disebut **Pembaca** yang menghilangkan elemen-elemen yang mengganggu dari halaman web, menyajikan hanya konten artikel utama dalam format yang bersih dan mudah dibaca.
 
 ## Mengaktifkan mode baca
 
 Anda dapat mengaktifkan Pembaca dengan beberapa cara:
 
-- **Ikon buku** di header panel ekstensi.
-- Pintasan keyboard `Alt+Shift+R`, dapat disesuaikan di pengaturan ekstensi.
-- Mengaktifkan mode pembaca lagi akan mengembalikan halaman asli.
+- ![[lucide-book-icon.svg#icon]] **Ikon buku** di panel ekstensi.
+- **Pintasan keyboard** dapat disesuaikan di pengaturan ekstensi.
+- **Menu konteks** dengan mengklik kanan halaman web yang sedang Anda kunjungi.
+
+Anda juga dapat mengatur tombol ekstensi ![[obsidian.svg#icon|20]] untuk membuka Pembaca dalam satu klik. Di pengaturan Web Clipper, buka **General** → **Behavior** → **Open behavior** dan pilih **Reader**.
+
+Semua opsi di atas juga memungkinkan Anda keluar dari Pembaca dan mengembalikan halaman asli.
 
 ## Cara kerjanya
 
@@ -21,14 +25,16 @@ Pembaca mengekstrak konten utama dari halaman. Halaman asli diganti dengan tampi
 - Penyorotan sintaksis untuk blok kode.
 - Popover catatan kaki yang ditampilkan secara inline saat diklik.
 
-## Menyesuaikan tampilan baca
+## Menyesuaikan tampilan baca Anda
 
-Mode Pembaca menyertakan bilah pengaturan tersembunyi yang dapat Anda tampilkan dengan mengarahkan kursor ke pojok kanan atas halaman, dengan kontrol untuk menyesuaikan pengalaman membaca.
+Sesuaikan pengalaman Pembaca Anda di pengaturan ekstensi. Beberapa opsi juga tersedia dalam mode Pembaca dengan mengklik ikon ![[lucide-case-sensitive.svg#icon]].
 
-| Pengaturan              | Deskripsi                                                                                                |
-| ----------------------- | -------------------------------------------------------------------------------------------------------- |
-| Ukuran font             | Menyesuaikan ukuran teks.                                                                               |
-| Lebar baris             | Lebar maksimum area konten.                                                                             |
-| Tinggi baris            | Jarak antar baris.                                                                                       |
-| Skema&nbsp;warna        |                                                                                                          |
-| Tema                    | Otomatis mengikuti preferensi sistem Anda. Atau pilih untuk selalu menggunakan mode terang atau mode gelap. |
+| Pengaturan          | Deskripsi                                      |
+| ------------------- | ---------------------------------------------- |
+| Font                | Menambahkan font yang terinstal di sistem Anda. |
+| Ukuran font         | Menyesuaikan ukuran teks.                      |
+| Tinggi&nbsp;baris   | Jarak antar baris.                              |
+| Lebar&nbsp;baris    | Lebar maksimum area konten.                     |
+| Tampilan            | Memilih tampilan terang atau gelap.             |
+| Tema                | Memilih warna.                                  |
+| CSS Kustom          | CSS tambahan yang diterapkan ke halaman.         |

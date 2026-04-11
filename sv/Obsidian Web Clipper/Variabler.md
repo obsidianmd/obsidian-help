@@ -15,19 +15,19 @@ Använd ikonen `...` i tillägget [[Introduktion till Obsidian Web Clipper|Web C
 
 Förinställda variabler genereras automatiskt baserat på sidinnehållet. Dessa fungerar vanligtvis för de flesta webbplatser.
 
-Den huvudsakliga innehållsvariabeln är `{{content}}`, som innehåller artikelinnehållet, eller [[Markera webbsidor|markeringarna]], eller markeringen om det finns vald text på sidan. Observera att `{{content}}` försöker extrahera sidans huvudinnehåll, vilket kanske inte alltid är vad du vill ha. I så fall kan du använda andra förinställda variabler eller selektor-variabler för att extrahera det innehåll du behöver.
+Den huvudsakliga innehållsvariabeln är `{{content}}`, som innehåller artikelinnehållet, eller [[Markeringsverktyg|markeringarna]], eller markeringen om det finns vald text på sidan. Observera att `{{content}}` försöker extrahera sidans huvudinnehåll, vilket kanske inte alltid är vad du vill ha. I så fall kan du använda andra förinställda variabler eller selektor-variabler för att extrahera det innehåll du behöver.
 
 | Variabel            | Beskrivning                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Sidans författare                                                                      |
-| `{{content}}`       | Artikelinnehåll, [[Markera webbsidor\|markeringar]] eller markering, i Markdown-format |
-| `{{contentHtml}}`   | Artikelinnehåll, [[Markera webbsidor\|markeringar]] eller markering, i HTML-format     |
+| `{{content}}`       | Artikelinnehåll, [[Markeringsverktyg\|markeringar]] eller markering, i Markdown-format |
+| `{{contentHtml}}`   | Artikelinnehåll, [[Markeringsverktyg\|markeringar]] eller markering, i HTML-format     |
 | `{{date}}`          | Aktuellt datum, kan formateras med filtret `date`                                      |
 | `{{description}}`   | Beskrivning eller utdrag                                                               |
 | `{{domain}}`        | Domän                                                                                  |
 | `{{favicon}}`       | Favicon-URL                                                                            |
 | `{{fullHtml}}`      | Obearbetad HTML för hela sidinnehållet                                                 |
-| `{{highlights}}`    | [[Markera webbsidor\|Markeringar]] med text och tidsstämplar                           |
+| `{{highlights}}`    | [[Markeringsverktyg\|Markeringar]] med text och tidsstämplar                           |
 | `{{image}}`         | URL för social delningsbild                                                            |
 | `{{published}}`     | Publiceringsdatum, kan formateras med filtret `date`                                   |
 | `{{selection}}`     | Markering i Markdown-format                                                            |
@@ -40,15 +40,15 @@ Den huvudsakliga innehållsvariabeln är `{{content}}`, som innehåller artikeli
 
 ## Prompt-variabler
 
-Prompt-variabler använder språkmodeller för att extrahera och modifiera data med naturligt språk. Prompt-variabler kräver att [[Tolka webbsidor|Tolk]] är aktiverad och konfigurerad.
+Prompt-variabler använder språkmodeller för att extrahera och modifiera data med naturligt språk. Prompt-variabler kräver att [[Tolk|Tolk]] är aktiverad och konfigurerad.
 
 Prompt-variabler använder syntaxen `{{"a summary of the page"}}`. De dubbla citattecknen runt prompten är viktiga och skiljer prompter från förinställda variabler. Prompt-svar kan efterbearbetas med [[Filter|filter]], t.ex. `{{"a summary of the page"|blockquote}}`.
 
 ### När du ska använda prompt-variabler
 
-Prompt-variabler har fördelen av att vara extremt flexibla och enkla att skriva, men de kommer med flera avvägningar: de är långsammare att köra och kan ha kostnads- och integritetsöverväganden beroende på vilken [[Tolka webbsidor#Modeller|leverantör]] du väljer.
+Prompt-variabler har fördelen av att vara extremt flexibla och enkla att skriva, men de kommer med flera avvägningar: de är långsammare att köra och kan ha kostnads- och integritetsöverväganden beroende på vilken [[Tolk#Modeller|leverantör]] du väljer.
 
-Till skillnad från andra variabeltyper behöver prompt-variabler bearbetas av en extern språkmodell, så de ersätts först när [[Tolka webbsidor|Tolk]] har körts.
+Till skillnad från andra variabeltyper behöver prompt-variabler bearbetas av en extern språkmodell, så de ersätts först när [[Tolk|Tolk]] har körts.
 
 Det är bäst att *inte* använda prompt-variabler om datan du vill extrahera är i ett konsekvent format som kan extraheras med andra variabeltyper.
 

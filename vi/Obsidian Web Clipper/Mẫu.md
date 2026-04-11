@@ -64,4 +64,4 @@ Các giá trị schema.org cũng có thể được sử dụng để [[Biến#B
 
 ### Ngữ cảnh thông dịch
 
-Khi [[Thông dịch trang web|Thông dịch]] được bật, bạn có thể sử dụng [[Biến#Biến gợi ý|biến prompt]] để trích xuất nội dung trang bằng ngôn ngữ tự nhiên. Cho mỗi mẫu, bạn có thể định nghĩa [[Thông dịch trang web#Ngữ cảnh|ngữ cảnh]] mà Thông dịch có quyền truy cập.
+Khi [[Thông dịch|Thông dịch]] được bật, bạn có thể sử dụng [[Biến#Biến gợi ý|biến prompt]] để trích xuất nội dung trang bằng ngôn ngữ tự nhiên. Cho mỗi mẫu, bạn có thể định nghĩa [[Thông dịch#Ngữ cảnh|ngữ cảnh]] mà Thông dịch có quyền truy cập.

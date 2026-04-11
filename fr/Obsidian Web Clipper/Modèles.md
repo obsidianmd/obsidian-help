@@ -65,4 +65,4 @@ Les valeurs schema.org peuvent également être utilisées pour [[Variables#Vari
 
 ### Contexte de l'interpréteur
 
-Lorsque l'[[Interpréter des pages web|interpréteur]] est activé, vous pouvez utiliser les [[Variables#Variables de prompt|variables de prompt]] pour extraire le contenu des pages en langage naturel. Pour chaque modèle, vous pouvez définir le [[Interpréter des pages web#Contexte|contexte]] auquel l'interpréteur a accès.
+Lorsque l'[[Interpréteur|interpréteur]] est activé, vous pouvez utiliser les [[Variables#Variables de prompt|variables de prompt]] pour extraire le contenu des pages en langage naturel. Pour chaque modèle, vous pouvez définir le [[Interpréteur#Contexte|contexte]] auquel l'interpréteur a accès.

@@ -15,19 +15,19 @@ Pomocou ikony `...` v rozšírení [[Úvod do Obsidian Web Clipper|Web Clipper]]
 
 Prednastavené premenné sú automaticky generované na základe obsahu stránky. Tieto zvyčajne fungujú na väčšine webových stránok.
 
-Hlavná obsahová premenná je `{{content}}`, ktorá obsahuje obsah článku, alebo [[Zvýrazňovanie webových stránok|zvýraznenia]], alebo výber, ak je na stránke nejaký vybraný text. Všimnite si, že `{{content}}` sa pokúša extrahovať hlavný obsah stránky, čo nemusí vždy zodpovedať vašim potrebám. V takom prípade môžete použiť iné prednastavené premenné alebo selektorové premenné na extrakciu požadovaného obsahu.
+Hlavná obsahová premenná je `{{content}}`, ktorá obsahuje obsah článku, alebo [[Zvýrazňovač|zvýraznenia]], alebo výber, ak je na stránke nejaký vybraný text. Všimnite si, že `{{content}}` sa pokúša extrahovať hlavný obsah stránky, čo nemusí vždy zodpovedať vašim potrebám. V takom prípade môžete použiť iné prednastavené premenné alebo selektorové premenné na extrakciu požadovaného obsahu.
 
 | Premenná            | Popis                                                                                  |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Autor stránky                                                                          |
-| `{{content}}`       | Obsah článku, [[Zvýrazňovanie webových stránok\|zvýraznenia]] alebo výber vo formáte Markdown |
-| `{{contentHtml}}`   | Obsah článku, [[Zvýrazňovanie webových stránok\|zvýraznenia]] alebo výber vo formáte HTML |
+| `{{content}}`       | Obsah článku, [[Zvýrazňovač\|zvýraznenia]] alebo výber vo formáte Markdown |
+| `{{contentHtml}}`   | Obsah článku, [[Zvýrazňovač\|zvýraznenia]] alebo výber vo formáte HTML |
 | `{{date}}`          | Aktuálny dátum, možno formátovať pomocou filtra `date`                                 |
 | `{{description}}`   | Popis alebo výňatok                                                                    |
 | `{{domain}}`        | Doména                                                                                 |
 | `{{favicon}}`       | URL favicon                                                                            |
 | `{{fullHtml}}`      | Nespracované HTML celého obsahu stránky                                                |
-| `{{highlights}}`    | [[Zvýrazňovanie webových stránok\|Zvýraznenia]] s textom a časovými značkami           |
+| `{{highlights}}`    | [[Zvýrazňovač\|Zvýraznenia]] s textom a časovými značkami           |
 | `{{image}}`         | URL obrázka na zdieľanie na sociálnych sieťach                                         |
 | `{{published}}`     | Dátum publikovania, možno formátovať pomocou filtra `date`                             |
 | `{{selection}}`     | Výber vo formáte Markdown                                                              |
@@ -40,15 +40,15 @@ Hlavná obsahová premenná je `{{content}}`, ktorá obsahuje obsah článku, al
 
 ## Promptové premenné
 
-Promptové premenné využívajú jazykové modely na extrakciu a úpravu údajov pomocou prirodzeného jazyka. Promptové premenné vyžadujú, aby bol [[Interpretácia webových stránok|Interpret]] zapnutý a nakonfigurovaný.
+Promptové premenné využívajú jazykové modely na extrakciu a úpravu údajov pomocou prirodzeného jazyka. Promptové premenné vyžadujú, aby bol [[Interpret|Interpret]] zapnutý a nakonfigurovaný.
 
 Promptové premenné používajú syntax `{{"súhrn stránky"}}`. Dvojité úvodzovky okolo promptu sú dôležité a odlišujú prompty od prednastavených premenných. Odpovede promptov je možné dodatočne spracovať pomocou [[Filtre|filtrov]], napr. `{{"súhrn stránky"|blockquote}}`.
 
 ### Kedy použiť promptové premenné
 
-Promptové premenné majú výhodu extrémnej flexibility a jednoduchosti písania, avšak prichádzajú s niekoľkými kompromismi: sú pomalšie na spustenie a môžu mať nákladové a súkromné dôsledky v závislosti od [[Interpretácia webových stránok#Modely|poskytovateľa]], ktorého si vyberiete.
+Promptové premenné majú výhodu extrémnej flexibility a jednoduchosti písania, avšak prichádzajú s niekoľkými kompromismi: sú pomalšie na spustenie a môžu mať nákladové a súkromné dôsledky v závislosti od [[Interpret#Modely|poskytovateľa]], ktorého si vyberiete.
 
-Na rozdiel od iných typov premenných potrebujú promptové premenné spracovanie externým jazykovým modelom, takže sú nahradené až po spustení [[Interpretácia webových stránok|Interpreta]].
+Na rozdiel od iných typov premenných potrebujú promptové premenné spracovanie externým jazykovým modelom, takže sú nahradené až po spustení [[Interpret|Interpreta]].
 
 Najlepšie je *nepoužívať* promptové premenné, ak sú údaje, ktoré chcete extrahovať, v konzistentnom formáte, ktorý by sa dal extrahovať inými typmi premenných.
 

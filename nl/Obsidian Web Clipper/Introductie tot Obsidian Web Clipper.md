@@ -23,11 +23,11 @@ Download de Obsidian Web Clipper-extensie uit de officiële directory voor jouw 
 
 - [[Webpagina's knippen]]
 	- Aan de slag en leer hoe je inhoud van pagina's opslaat.
-- [[Webpagina's arceren|Markeerder]]
+- [[Markeerder|Markeerder]]
 	- Markeer belangrijke passages en selecteer elementen die je wilt opslaan.
 - [[Lezer|Lezer]]
 	- Lees webpagina's in een schone, afleidingsvrije weergave.
-- [[Webpagina's interpreteren|Interpreter]]
+- [[Interpreter|Interpreter]]
 	- Gebruik natuurlijke taalprompts om gegevens op een pagina vast te leggen en te wijzigen.
 - [[Problemen oplossen met Web Clipper|Probleemoplossing]]
 	- Los veelvoorkomende problemen met Web Clipper op.

@@ -16,19 +16,19 @@ Utilisez l'icône `...` dans l'extension [[Introduction à Obsidian Web Clipper|
 
 Les variables prédéfinies sont automatiquement générées à partir du contenu de la page. Elles fonctionnent généralement pour la plupart des sites web.
 
-La variable de contenu principale est `{{content}}`, qui contient le contenu de l'article, ou les [[Surligner des pages web|surlignages]], ou la sélection s'il y a du texte sélectionné sur la page. Notez que `{{content}}` tente d'extraire le contenu principal de la page, ce qui peut ne pas toujours correspondre à ce que vous souhaitez. Dans ce cas, vous pouvez utiliser d'autres variables prédéfinies ou des variables de sélecteur pour extraire le contenu dont vous avez besoin.
+La variable de contenu principale est `{{content}}`, qui contient le contenu de l'article, ou les [[Surligneur|surlignages]], ou la sélection s'il y a du texte sélectionné sur la page. Notez que `{{content}}` tente d'extraire le contenu principal de la page, ce qui peut ne pas toujours correspondre à ce que vous souhaitez. Dans ce cas, vous pouvez utiliser d'autres variables prédéfinies ou des variables de sélecteur pour extraire le contenu dont vous avez besoin.
 
 | Variable            | Description                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Auteur de la page                                                                      |
-| `{{content}}`       | Contenu de l'article, [[Surligner des pages web\|surlignages]] ou sélection, au format Markdown |
-| `{{contentHtml}}`   | Contenu de l'article, [[Surligner des pages web\|surlignages]] ou sélection, au format HTML |
+| `{{content}}`       | Contenu de l'article, [[Surligneur\|surlignages]] ou sélection, au format Markdown |
+| `{{contentHtml}}`   | Contenu de l'article, [[Surligneur\|surlignages]] ou sélection, au format HTML |
 | `{{date}}`          | Date actuelle, peut être formatée à l'aide du filtre `date`                            |
 | `{{description}}`   | Description ou extrait                                                                 |
 | `{{domain}}`        | Domaine                                                                                |
 | `{{favicon}}`       | URL du favicon                                                                         |
 | `{{fullHtml}}`      | HTML non traité du contenu complet de la page                                          |
-| `{{highlights}}`    | [[Surligner des pages web\|Surlignages]] avec texte et horodatages                    |
+| `{{highlights}}`    | [[Surligneur\|Surlignages]] avec texte et horodatages                    |
 | `{{image}}`         | URL de l'image de partage social                                                       |
 | `{{published}}`     | Date de publication, peut être formatée à l'aide du filtre `date`                      |
 | `{{selection}}`     | Sélection au format Markdown                                                           |
@@ -41,15 +41,15 @@ La variable de contenu principale est `{{content}}`, qui contient le contenu de 
 
 ## Variables d'invite
 
-Les variables d'invite exploitent les modèles de langage pour extraire et modifier des données en langage naturel. Les variables d'invite nécessitent que l'[[Interpréter des pages web|Interpréteur]] soit activé et configuré.
+Les variables d'invite exploitent les modèles de langage pour extraire et modifier des données en langage naturel. Les variables d'invite nécessitent que l'[[Interpréteur|Interpréteur]] soit activé et configuré.
 
 Les variables d'invite utilisent la syntaxe `{{"un résumé de la page"}}`. Les guillemets doubles autour de l'invite sont importants et distinguent les invites des variables prédéfinies. Les réponses des invites peuvent être post-traitées avec des [[Filtres|filtres]], par ex. `{{"un résumé de la page"|blockquote}}`.
 
 ### Quand utiliser les variables d'invite
 
-Les variables d'invite ont l'avantage d'être extrêmement flexibles et faciles à écrire, cependant elles comportent plusieurs compromis : elles sont plus lentes à exécuter et peuvent avoir des implications en termes de coût et de confidentialité selon le [[Interpréter des pages web#Modèles|fournisseur]] que vous choisissez.
+Les variables d'invite ont l'avantage d'être extrêmement flexibles et faciles à écrire, cependant elles comportent plusieurs compromis : elles sont plus lentes à exécuter et peuvent avoir des implications en termes de coût et de confidentialité selon le [[Interpréteur#Modèles|fournisseur]] que vous choisissez.
 
-Contrairement aux autres types de variables, les variables d'invite doivent être traitées par un modèle de langage externe, elles ne sont donc remplacées qu'une fois que l'[[Interpréter des pages web|Interpréteur]] a été exécuté.
+Contrairement aux autres types de variables, les variables d'invite doivent être traitées par un modèle de langage externe, elles ne sont donc remplacées qu'une fois que l'[[Interpréteur|Interpréteur]] a été exécuté.
 
 Il est préférable de *ne pas* utiliser les variables d'invite si les données que vous souhaitez extraire sont dans un format cohérent qui pourrait être extrait avec d'autres types de variables.
 

@@ -23,11 +23,11 @@ Lade die Obsidian Web Clipper-Erweiterung aus dem offiziellen Verzeichnis für d
 
 - [[Webseiten ausschneiden]]
 	- Erste Schritte und wie du Inhalte von Seiten speicherst.
-- [[Webseiten hervorheben|Marker]]
+- [[Marker|Marker]]
 	- Markiere wichtige Passagen und wähle Elemente aus, die du speichern möchtest.
-- [[Web-Viewer|Leser]]
+- [[Leser|Leser]]
 	- Lies Webseiten in einer sauberen, ablenkungsfreien Ansicht.
-- [[Webseiten interpretieren|Interpreter]]
+- [[Interpreter|Interpreter]]
 	- Verwende natürlichsprachliche Eingaben, um Daten auf einer Seite zu erfassen und zu verändern.
 - [[Web Clipper Fehlerbehebung|Fehlerbehebung]]
 	- Behebe häufige Probleme mit Obsidian Web Clipper.

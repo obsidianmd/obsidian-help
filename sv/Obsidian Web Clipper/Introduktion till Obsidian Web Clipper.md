@@ -23,11 +23,11 @@ Hämta tillägget Obsidian Web Clipper från den officiella katalogen för din w
 
 - [[Klipp webbsidor]]
 	- Kom igång och lär dig hur du sparar innehåll från sidor.
-- [[Markera webbsidor|Markering]]
+- [[Highlighter|Markering]]
 	- Markera viktiga passager och välj element du vill spara.
-- [[Läsare|Läsare]]
+- [[Reader|Läsare]]
 	- Läs webbsidor i en ren, distraktionsfri vy.
-- [[Tolka webbsidor|Tolk]]
+- [[Interpreter|Tolk]]
 	- Använd naturliga språkpromptar för att fånga och modifiera data på en sida.
 - [[Felsök Web Clipper|Felsökning]]
 	- Lös vanliga problem med Web Clipper.

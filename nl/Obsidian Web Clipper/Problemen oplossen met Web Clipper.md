@@ -14,7 +14,7 @@ Web Clipper gebruikt [Defuddle](https://github.com/kepano/defuddle) om alleen de
 Om Defuddle in Web Clipper te omzeilen, gebruik je de volgende methoden:
 
 - Selecteer tekst, of gebruik `Cmd/Ctrl+A` om alle tekst te selecteren.
-- [[Webpagina's arceren|Markeer inhoud]] om precies te kiezen wat je wilt vastleggen.
+- [[Highlighter|Markeer inhoud]] om precies te kiezen wat je wilt vastleggen.
 - Gebruik een [[Obsidian Web Clipper/Sjablonen|aangepast sjabloon]] voor de site.
 
 ### Er verschijnt geen inhoud in Obsidian

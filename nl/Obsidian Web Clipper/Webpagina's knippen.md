@@ -17,7 +17,7 @@ Standaard probeert Web Clipper op intelligente wijze alleen de hoofdinhoud van h
 
 - Als een aangepast sjabloon aanwezig is, wordt je sjabloon gebruikt.
 - Als een selectie aanwezig is, wordt de selectie gebruikt. Je kunt `Ctrl/Cmd+A` gebruiken om de hele pagina te selecteren.
-- Als er [[Webpagina's arceren|markeringen]] aanwezig zijn, worden de markeringen gebruikt.
+- Als er [[Markeerder|markeringen]] aanwezig zijn, worden de markeringen gebruikt.
 
 ## Afbeeldingen downloaden
 
@@ -34,26 +34,29 @@ Web Clipper bevat sneltoetsen die je kunt gebruiken om je workflow te versnellen
 | Clipper openen              | `Cmd+Shift+O`  | `Ctrl+Shift+O`  |
 | Snel knippen                | `Opt+Shift+O`  | `Alt+Shift+O`   |
 | Markeerder in-/uitschakelen | `Opt+Shift+H`  | `Alt+Shift+H`   |
+| Lezer in-/uitschakelen      | `Opt+Shift+R`  | `Alt+Shift+R`   |
 
 ## Interfacefunctionaliteit
 
 De Web Clipper-interface is verdeeld in vier secties:
 
-1. **Koptekst** waar je van sjabloon kunt wisselen, [[Webpagina's arceren|markering]] en [[Lezer|leesmodus]] kunt inschakelen, en instellingen kunt openen.
+1. **Koptekst** waar je van sjabloon kunt wisselen, [[Markeerder|markering]] en [[Lezer|leesmodus]] kunt inschakelen, en instellingen kunt openen.
 2. **Eigenschappen** toont de [[Eigenschappen|metadata]] die uit de pagina zijn geëxtraheerd en als [[Eigenschappen]] in Obsidian worden opgeslagen.
 3. **Notitie-inhoud** die naar Obsidian wordt opgeslagen.
 4. **Voettekst** waarmee je de kluis en map kunt selecteren, en kunt toevoegen aan Obsidian.
 
 Koptekstfunctionaliteit omvat:
 
-- **Sjabloon**-dropdown om te wisselen tussen je opgeslagen [[Obsidian Web Clipper/Sjablonen|sjablonen]] die zijn toegevoegd in de Web Clipper-instellingen.
-- **Meer (...)**-knop om paginavariabelen weer te geven die je in sjablonen kunt gebruiken.
-- **Markeerder**-knop om [[Webpagina's arceren|markering]] in te schakelen.
-- **Tandwiel**-knop om de Web Clipper-instellingen te openen.
+- ![[lucide-chevrons-up-down.svg#icon]] **Sjabloon**-schakelaar om opgeslagen [[Obsidian Web Clipper/Sjablonen|sjablonen]] te gebruiken die zijn toegevoegd in de extensie-instellingen.
+- ![[lucide-more-horizontal.svg#icon]] **Meer**-knop om paginavariabelen weer te geven die je in sjablonen kunt gebruiken.
+- ![[lucide-highlighter.svg#icon]] **Markeerder**-knop om [[Markeerder|markering]] in te schakelen.
+- ![[lucide-book-icon.svg#icon]] **Lezer**-knop om [[Lezer|leesweergave]] in te schakelen.
+- ![[lucide-picture-in-picture-2.svg#icon]] **Insluiten**-knop om Web Clipper van de pop-up naar de pagina te verplaatsen.
+- ![[lucide-settings.svg#icon]] **Instellingen**-knop om de extensie-instellingen te openen.
 
 Voettekstfunctionaliteit omvat:
 
 - **Toevoegen aan Obsidian**-knop om gegevens naar Obsidian op te slaan.
 - **Kluis**-dropdown om te wisselen tussen opgeslagen kluizen die zijn toegevoegd in de Web Clipper-instellingen.
 - **Map**-veld om te bepalen in welke map wordt opgeslagen.
-- **Interpreter** om [[Webpagina's interpreteren|prompts in natuurlijke taal]] op de pagina uit te voeren.
+- **Interpreter** om [[Interpreter|prompts in natuurlijke taal]] op de pagina uit te voeren.

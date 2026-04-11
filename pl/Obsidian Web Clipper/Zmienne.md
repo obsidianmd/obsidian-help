@@ -15,19 +15,19 @@ Użyj ikony `...` w rozszerzeniu [[Wprowadzenie do Obsidian Web Clipper|Web Clip
 
 Zmienne wstępnie zdefiniowane są automatycznie generowane na podstawie zawartości strony. Zazwyczaj działają na większości stron internetowych.
 
-Główną zmienną treści jest `{{content}}`, która zawiera treść artykułu, [[Wyróżnianie stron internetowych|wyróżnienia]] lub zaznaczenie, jeśli na stronie jest zaznaczony tekst. Należy pamiętać, że `{{content}}` próbuje wyodrębnić główną treść strony, co nie zawsze może odpowiadać Twoim potrzebom. W takim przypadku możesz użyć innych zmiennych wstępnie zdefiniowanych lub zmiennych selektorów, aby wyodrębnić potrzebną treść.
+Główną zmienną treści jest `{{content}}`, która zawiera treść artykułu, [[Zakreślacz|wyróżnienia]] lub zaznaczenie, jeśli na stronie jest zaznaczony tekst. Należy pamiętać, że `{{content}}` próbuje wyodrębnić główną treść strony, co nie zawsze może odpowiadać Twoim potrzebom. W takim przypadku możesz użyć innych zmiennych wstępnie zdefiniowanych lub zmiennych selektorów, aby wyodrębnić potrzebną treść.
 
 | Zmienna             | Opis                                                                                   |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Autor strony                                                                           |
-| `{{content}}`       | Treść artykułu, [[Wyróżnianie stron internetowych\|wyróżnienia]] lub zaznaczenie, w formacie Markdown |
-| `{{contentHtml}}`   | Treść artykułu, [[Wyróżnianie stron internetowych\|wyróżnienia]] lub zaznaczenie, w formacie HTML |
+| `{{content}}`       | Treść artykułu, [[Zakreślacz\|wyróżnienia]] lub zaznaczenie, w formacie Markdown |
+| `{{contentHtml}}`   | Treść artykułu, [[Zakreślacz\|wyróżnienia]] lub zaznaczenie, w formacie HTML |
 | `{{date}}`          | Bieżąca data, może być formatowana za pomocą filtra `date`                             |
 | `{{description}}`   | Opis lub fragment                                                                      |
 | `{{domain}}`        | Domena                                                                                 |
 | `{{favicon}}`       | URL favicony                                                                           |
 | `{{fullHtml}}`      | Nieprzetworzony HTML pełnej zawartości strony                                          |
-| `{{highlights}}`    | [[Wyróżnianie stron internetowych\|Wyróżnienia]] z tekstem i znacznikami czasu         |
+| `{{highlights}}`    | [[Zakreślacz\|Wyróżnienia]] z tekstem i znacznikami czasu         |
 | `{{image}}`         | URL obrazu udostępniania społecznościowego                                             |
 | `{{published}}`     | Data publikacji, może być formatowana za pomocą filtra `date`                          |
 | `{{selection}}`     | Zaznaczenie w formacie Markdown                                                        |
@@ -40,15 +40,15 @@ Główną zmienną treści jest `{{content}}`, która zawiera treść artykułu,
 
 ## Zmienne promptów
 
-Zmienne promptów wykorzystują modele językowe do wyodrębniania i modyfikowania danych za pomocą języka naturalnego. Zmienne promptów wymagają włączenia i skonfigurowania [[Interpretowanie stron internetowych|Tłumacza]].
+Zmienne promptów wykorzystują modele językowe do wyodrębniania i modyfikowania danych za pomocą języka naturalnego. Zmienne promptów wymagają włączenia i skonfigurowania [[Tłumacz|Tłumacza]].
 
 Zmienne promptów używają składni `{{"podsumowanie strony"}}`. Cudzysłowy wokół promptu są ważne i odróżniają prompty od zmiennych wstępnie zdefiniowanych. Odpowiedzi promptów mogą być przetwarzane za pomocą [[Filtry|filtrów]], np. `{{"podsumowanie strony"|blockquote}}`.
 
 ### Kiedy używać zmiennych promptów
 
-Zmienne promptów mają tę zaletę, że są niezwykle elastyczne i łatwe do napisania, jednak wiążą się z kilkoma kompromisami: wolniej się wykonują i mogą wiązać się z kosztami oraz kwestiami prywatności w zależności od wybranego [[Interpretowanie stron internetowych#Modele|operatora]].
+Zmienne promptów mają tę zaletę, że są niezwykle elastyczne i łatwe do napisania, jednak wiążą się z kilkoma kompromisami: wolniej się wykonują i mogą wiązać się z kosztami oraz kwestiami prywatności w zależności od wybranego [[Tłumacz#Modele|operatora]].
 
-W przeciwieństwie do innych typów zmiennych, zmienne promptów muszą być przetworzone przez zewnętrzny model językowy, więc są zastępowane dopiero po uruchomieniu [[Interpretowanie stron internetowych|Tłumacza]].
+W przeciwieństwie do innych typów zmiennych, zmienne promptów muszą być przetworzone przez zewnętrzny model językowy, więc są zastępowane dopiero po uruchomieniu [[Tłumacz|Tłumacza]].
 
 Najlepiej *nie* używać zmiennych promptów, jeśli dane, które chcesz wyodrębnić, mają spójny format, który można wyodrębnić za pomocą innych typów zmiennych.
 

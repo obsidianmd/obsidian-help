@@ -23,11 +23,11 @@ Získajte rozšírenie Obsidian Web Clipper z oficiálneho adresára pre váš p
 
 - [[Zachytávanie webových stránok]]
 	- Začnite a naučte sa, ako ukladať obsah zo stránok.
-- [[Zvýrazňovanie webových stránok|Zvýrazňovač]]
+- [[Zvýrazňovač|Zvýrazňovač]]
 	- Zvýraznite dôležité pasáže a vyberte prvky, ktoré chcete uložiť.
 - [[Čítačka|Čítačka]]
 	- Čítajte webové stránky v čistom zobrazení bez rušivých prvkov.
-- [[Interpretácia webových stránok|Interpret]]
+- [[Interpret|Interpret]]
 	- Použite výzvy v prirodzenom jazyku na zachytenie a úpravu dát na stránke.
 - [[Riešenie problémov s Web Clipper|Riešenie problémov]]
 	- Vyriešte bežné problémy s Web Clipper.

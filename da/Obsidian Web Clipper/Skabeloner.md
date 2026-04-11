@@ -62,4 +62,4 @@ Schema.org-værdier kan også bruges til at [[Variabler#Schema.org-variabler|for
 
 ### Fortolkerkontekst
 
-Når [[Fortolk websider|Fortolker]] er aktiveret, kan du bruge [[Variabler#Prompt-variabler|prompt-variabler]] til at udtrække sideindhold med naturligt sprog. For hver skabelon kan du definere den [[Fortolk websider#Kontekst|kontekst]], som fortolkeren har adgang til.
+Når [[Fortolker|Fortolker]] er aktiveret, kan du bruge [[Variabler#Prompt-variabler|prompt-variabler]] til at udtrække sideindhold med naturligt sprog. For hver skabelon kan du definere den [[Fortolker#Kontekst|kontekst]], som fortolkeren har adgang til.

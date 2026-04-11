@@ -15,19 +15,19 @@ Verwende das `...`-Symbol in der [[Einführung in Obsidian Web Clipper|Web Clipp
 
 Voreingestellte Variablen werden automatisch basierend auf dem Seiteninhalt generiert. Diese funktionieren in der Regel für die meisten Websites.
 
-Die Hauptinhaltsvariable ist `{{content}}`, die den Artikelinhalt, die [[Webseiten hervorheben|Hervorhebungen]] oder die Auswahl enthält, falls Text auf der Seite markiert ist. Beachte, dass `{{content}}` versucht, den Hauptinhalt der Seite zu extrahieren, was nicht immer dem entsprechen muss, was du möchtest. In diesem Fall kannst du andere voreingestellte Variablen oder Selektor-Variablen verwenden, um den benötigten Inhalt zu extrahieren.
+Die Hauptinhaltsvariable ist `{{content}}`, die den Artikelinhalt, die [[Highlighter|Hervorhebungen]] oder die Auswahl enthält, falls Text auf der Seite markiert ist. Beachte, dass `{{content}}` versucht, den Hauptinhalt der Seite zu extrahieren, was nicht immer dem entsprechen muss, was du möchtest. In diesem Fall kannst du andere voreingestellte Variablen oder Selektor-Variablen verwenden, um den benötigten Inhalt zu extrahieren.
 
 | Variable            | Beschreibung                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Autor der Seite                                                                     |
-| `{{content}}`       | Artikelinhalt, [[Webseiten hervorheben\|Hervorhebungen]] oder Auswahl, im Markdown-Format |
-| `{{contentHtml}}`   | Artikelinhalt, [[Webseiten hervorheben\|Hervorhebungen]] oder Auswahl, im HTML-Format     |
+| `{{content}}`       | Artikelinhalt, [[Highlighter\|Hervorhebungen]] oder Auswahl, im Markdown-Format |
+| `{{contentHtml}}`   | Artikelinhalt, [[Highlighter\|Hervorhebungen]] oder Auswahl, im HTML-Format     |
 | `{{date}}`          | Aktuelles Datum, kann mit dem `date`-Filter formatiert werden                                 |
 | `{{description}}`   | Beschreibung oder Auszug                                                                 |
 | `{{domain}}`        | Domain                                                                                 |
 | `{{favicon}}`       | Favicon-URL                                                                            |
 | `{{fullHtml}}`      | Unverarbeitetes HTML des vollständigen Seiteninhalts                                             |
-| `{{highlights}}`    | [[Webseiten hervorheben\|Hervorhebungen]] mit Text und Zeitstempeln                           |
+| `{{highlights}}`    | [[Highlighter\|Hervorhebungen]] mit Text und Zeitstempeln                           |
 | `{{image}}`         | URL des Social-Share-Bildes                                                                 |
 | `{{published}}`     | Veröffentlichungsdatum, kann mit dem `date`-Filter formatiert werden                               |
 | `{{selection}}`     | Auswahl im Markdown-Format                                                           |
@@ -40,15 +40,15 @@ Die Hauptinhaltsvariable ist `{{content}}`, die den Artikelinhalt, die [[Webseit
 
 ## Prompt-Variablen
 
-Prompt-Variablen nutzen Sprachmodelle, um Daten mithilfe natürlicher Sprache zu extrahieren und zu modifizieren. Prompt-Variablen erfordern, dass der [[Webseiten interpretieren|Interpreter]] aktiviert und konfiguriert ist.
+Prompt-Variablen nutzen Sprachmodelle, um Daten mithilfe natürlicher Sprache zu extrahieren und zu modifizieren. Prompt-Variablen erfordern, dass der [[Interpreter|Interpreter]] aktiviert und konfiguriert ist.
 
 Prompt-Variablen verwenden die Syntax `{{"eine Zusammenfassung der Seite"}}`. Die doppelten Anführungszeichen um den Prompt sind wichtig und unterscheiden Prompts von voreingestellten Variablen. Prompt-Antworten können mit [[Filter|Filtern]] nachbearbeitet werden, z. B. `{{"eine Zusammenfassung der Seite"|blockquote}}`.
 
 ### Wann Prompt-Variablen verwenden
 
-Prompt-Variablen haben den Vorteil, extrem flexibel und einfach zu schreiben zu sein, bringen jedoch einige Kompromisse mit sich: Sie sind langsamer in der Ausführung und können je nach gewähltem [[Webseiten interpretieren#Modelle|Anbieter]] Kosten- und Datenschutzaspekte haben.
+Prompt-Variablen haben den Vorteil, extrem flexibel und einfach zu schreiben zu sein, bringen jedoch einige Kompromisse mit sich: Sie sind langsamer in der Ausführung und können je nach gewähltem [[Interpreter#Modelle|Anbieter]] Kosten- und Datenschutzaspekte haben.
 
-Im Gegensatz zu anderen Variablentypen müssen Prompt-Variablen von einem externen Sprachmodell verarbeitet werden, daher werden sie erst ersetzt, nachdem der [[Webseiten interpretieren|Interpreter]] ausgeführt wurde.
+Im Gegensatz zu anderen Variablentypen müssen Prompt-Variablen von einem externen Sprachmodell verarbeitet werden, daher werden sie erst ersetzt, nachdem der [[Interpreter|Interpreter]] ausgeführt wurde.
 
 Es ist am besten, Prompt-Variablen *nicht* zu verwenden, wenn die zu extrahierenden Daten in einem konsistenten Format vorliegen, das mit anderen Variablentypen extrahiert werden könnte.
 

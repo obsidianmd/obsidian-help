@@ -62,4 +62,4 @@ Schema.org-waarden kunnen ook worden gebruikt om [[Variabelen#Schema.org-variabe
 
 ### Interpreter context
 
-Wanneer [[Webpagina's interpreteren|Interpreter]] is ingeschakeld, kun je [[Variabelen#Promptvariabelen|promptvariabelen]] gebruiken om pagina-inhoud te extraheren met natuurlijke taal. Voor elk sjabloon kun je de [[Webpagina's interpreteren#Context|context]] definiëren waartoe Interpreter toegang heeft.
+Wanneer [[Interpreter|Interpreter]] is ingeschakeld, kun je [[Variabelen#Promptvariabelen|promptvariabelen]] gebruiken om pagina-inhoud te extraheren met natuurlijke taal. Voor elk sjabloon kun je de [[Interpreter#Context|context]] definiëren waartoe Interpreter toegang heeft.

@@ -17,7 +17,7 @@ Alapértelmezés szerint a Web Clipper intelligensen megkísérli kizárólag a 
 
 - Ha egyéni sablon van megadva, a sablonodat használja.
 - Ha van kijelölés, a kijelölést használja. A `Ctrl/Cmd+A` billentyűkombinációval kijelölheted a teljes oldalt.
-- Ha vannak [[Weboldalak kiemelése|kiemelések]], a kiemeléseket használja.
+- Ha vannak [[Kiemelő|kiemelések]], a kiemeléseket használja.
 
 ## Képek letöltése
 
@@ -33,27 +33,30 @@ A Web Clipper billentyűparancsokat tartalmaz, amelyekkel felgyorsíthatod a mun
 | ----------------------- | ------------- | -------------- |
 | Clipper megnyitása       | `Cmd+Shift+O` | `Ctrl+Shift+O` |
 | Gyors kivágás           | `Opt+Shift+O` | `Alt+Shift+O`  |
-| Kiemelő mód ki/be       | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Kiemelő ki/be           | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Olvasó ki/be            | `Opt+Shift+R` | `Alt+Shift+R`  |
 
 ## Felület funkciói
 
 A Web Clipper felülete négy részre oszlik:
 
-1. **Fejléc**, ahol sablonokat válthatsz, bekapcsolhatod a [[Weboldalak kiemelése|kiemelést]], az [[Olvasó|olvasási módot]], és elérheted a beállításokat.
+1. **Fejléc**, ahol sablonokat válthatsz, bekapcsolhatod a [[Kiemelő|kiemelést]], az [[Olvasó|olvasási módot]], és elérheted a beállításokat.
 2. **Tulajdonságok** mutatja az oldalból kinyert [[Tulajdonságok|metaadatokat]], amelyek [[Tulajdonságok|tulajdonságokként]] kerülnek mentésre az Obsidianben.
 3. **Jegyzet tartalom**, amely az Obsidianbe kerül mentésre.
 4. **Lábléc**, ahol kiválaszthatod a széfet és mappát, és hozzáadhatod az Obsidianhez.
 
 A fejléc funkciói:
 
-- **Sablon** legördülő menü a Web Clipper beállításaiban mentett [[Obsidian Web Clipper/Sablonok|sablonok]] közötti váltáshoz.
-- **Továbbiak (...)** gomb az oldal változóinak megjelenítéséhez, amelyeket sablonokban használhatsz.
-- **Kiemelő** gomb a [[Weboldalak kiemelése|kiemelés]] bekapcsolásához.
-- **Fogaskerék** gomb a Web Clipper beállítások megnyitásához.
+- ![[lucide-chevrons-up-down.svg#icon]] **Sablon** váltó a bővítmény beállításaiban mentett [[Obsidian Web Clipper/Sablonok|sablonok]] használatához.
+- ![[lucide-more-horizontal.svg#icon]] **Továbbiak** gomb az oldal változóinak megjelenítéséhez, amelyeket sablonokban használhatsz.
+- ![[lucide-highlighter.svg#icon]] **Kiemelő** gomb a [[Kiemelő|kiemelés]] bekapcsolásához.
+- ![[lucide-book-icon.svg#icon]] **Olvasó** gomb az [[Olvasó|olvasási nézet]] bekapcsolásához.
+- ![[lucide-picture-in-picture-2.svg#icon]] **Beágyazás** gomb a Web Clipper áthelyezéséhez a felugró ablakból az oldalra.
+- ![[lucide-settings.svg#icon]] **Beállítások** gomb a bővítmény beállításainak megnyitásához.
 
 A lábléc funkciói:
 
 - **Hozzáadás az Obsidianhez** gomb az adatok Obsidianbe mentéséhez.
 - **Széf** legördülő menü a Web Clipper beállításaiban mentett széfek közötti váltáshoz.
 - **Mappa** mező a mentési mappa megadásához.
-- **Értelmező** [[Weboldalak értelmezése|természetes nyelvű promptok]] futtatásához az oldalon.
+- **Értelmező** [[Értelmező|természetes nyelvű promptok]] futtatásához az oldalon.

@@ -14,7 +14,7 @@ El Web Clipper utilitza [Defuddle](https://github.com/kepano/defuddle) per captu
 Per evitar Defuddle al Web Clipper utilitza els mètodes següents:
 
 - Selecciona text, o utilitza `Cmd/Ctrl+A` per seleccionar tot el text.
-- [[Ressaltar pàgines web|Ressalta contingut]] per triar exactament el que vols capturar.
+- [[Ressaltador|Ressalta contingut]] per triar exactament el que vols capturar.
 - Utilitza una [[Obsidian Web Clipper/Plantilles|plantilla personalitzada]] per al lloc.
 
 ### No apareix contingut a Obsidian

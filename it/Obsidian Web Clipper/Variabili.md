@@ -17,19 +17,19 @@ Usa l'icona `...` nell'estensione [[Introduzione a Obsidian Web Clipper|Web Clip
 
 Le variabili preset vengono generate automaticamente in base al contenuto della pagina. Generalmente funzionano per la maggior parte dei siti web.
 
-La variabile principale per il contenuto è `{{content}}`, che contiene il contenuto dell'articolo, o le [[Evidenziare pagine web|evidenziazioni]], o la selezione se è presente del testo selezionato nella pagina. Nota che `{{content}}` tenta di estrarre il contenuto principale della pagina, che potrebbe non essere sempre ciò che desideri. In tal caso, puoi utilizzare altre variabili preset o variabili selettore per estrarre il contenuto necessario.
+La variabile principale per il contenuto è `{{content}}`, che contiene il contenuto dell'articolo, o le [[Evidenziatore|evidenziazioni]], o la selezione se è presente del testo selezionato nella pagina. Nota che `{{content}}` tenta di estrarre il contenuto principale della pagina, che potrebbe non essere sempre ciò che desideri. In tal caso, puoi utilizzare altre variabili preset o variabili selettore per estrarre il contenuto necessario.
 
 | Variabile            | Descrizione                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Autore della pagina                                                                     |
-| `{{content}}`       | Contenuto dell'articolo, [[Highlight web pages\|evidenziazioni]] o selezione, in formato Markdown |
-| `{{contentHtml}}`   | Contenuto dell'articolo, [[Highlight web pages\|evidenziazioni]] o selezione, in formato HTML     |
+| `{{content}}`       | Contenuto dell'articolo, [[Highlighter\|evidenziazioni]] o selezione, in formato Markdown |
+| `{{contentHtml}}`   | Contenuto dell'articolo, [[Highlighter\|evidenziazioni]] o selezione, in formato HTML     |
 | `{{date}}`          | Data corrente, può essere formattata utilizzando il filtro `date`                                 |
 | `{{description}}`   | Descrizione o estratto                                                                 |
 | `{{domain}}`        | Dominio                                                                                 |
 | `{{favicon}}`       | URL della favicon                                                                            |
 | `{{fullHtml}}`      | HTML non elaborato per il contenuto completo della pagina                                             |
-| `{{highlights}}`    | [[Highlight web pages\|Evidenziazioni]] con testo e marcature temporali                           |
+| `{{highlights}}`    | [[Highlighter\|Evidenziazioni]] con testo e marcature temporali                           |
 | `{{image}}`         | URL dell'immagine di condivisione social                                                                 |
 | `{{published}}`     | Data di pubblicazione, può essere formattata utilizzando il filtro `date`                               |
 | `{{selection}}`     | Selezione in formato Markdown                                                           |
@@ -42,15 +42,15 @@ La variabile principale per il contenuto è `{{content}}`, che contiene il conte
 
 ## Variabili prompt
 
-Le variabili prompt sfruttano i modelli linguistici per estrarre e modificare i dati utilizzando il linguaggio naturale. Le variabili prompt richiedono che l'[[Interpretare pagine web|Interprete]] sia abilitato e configurato.
+Le variabili prompt sfruttano i modelli linguistici per estrarre e modificare i dati utilizzando il linguaggio naturale. Le variabili prompt richiedono che l'[[Interprete|Interprete]] sia abilitato e configurato.
 
 Le variabili prompt utilizzano la sintassi `{{"un riepilogo della pagina"}}`. Le virgolette doppie attorno al prompt sono importanti e distinguono i prompt dalle variabili preset. Le risposte dei prompt possono essere post-elaborate con i [[Filtri|filtri]], ad esempio `{{"un riepilogo della pagina"|blockquote}}`.
 
 ### Quando utilizzare le variabili prompt
 
-Le variabili prompt hanno il vantaggio di essere estremamente flessibili e facili da scrivere, tuttavia presentano diversi compromessi: sono più lente da eseguire e possono avere considerazioni di costo e privacy a seconda del [[Interpretare pagine web#Modelli|fornitore]] scelto.
+Le variabili prompt hanno il vantaggio di essere estremamente flessibili e facili da scrivere, tuttavia presentano diversi compromessi: sono più lente da eseguire e possono avere considerazioni di costo e privacy a seconda del [[Interprete#Modelli|fornitore]] scelto.
 
-A differenza di altri tipi di variabili, le variabili prompt devono essere elaborate da un modello linguistico esterno, quindi vengono sostituite solo dopo che l'[[Interpretare pagine web|Interprete]] è stato eseguito.
+A differenza di altri tipi di variabili, le variabili prompt devono essere elaborate da un modello linguistico esterno, quindi vengono sostituite solo dopo che l'[[Interprete|Interprete]] è stato eseguito.
 
 È preferibile *non* utilizzare le variabili prompt se i dati che si desidera estrarre sono in un formato coerente che potrebbe essere estratto con altri tipi di variabili.
 

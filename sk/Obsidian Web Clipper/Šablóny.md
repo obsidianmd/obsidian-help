@@ -62,4 +62,4 @@ Hodnoty schema.org sa dajú tiež použiť na [[Premenné#Schema.org variables|p
 
 ### Kontext interpretera
 
-Keď je povolená [[Interpretácia webových stránok|Interpretácia]], môžete použiť [[Premenné#Prompt variables|premenné výziev]] na extrahovanie obsahu stránky pomocou prirodzeného jazyka. Pre každú šablónu môžete definovať [[Interpretácia webových stránok#Kontext|kontext]], ku ktorému má interpreter prístup.
+Keď je povolená [[Interpreter|Interpretácia]], môžete použiť [[Premenné#Prompt variables|premenné výziev]] na extrahovanie obsahu stránky pomocou prirodzeného jazyka. Pre každú šablónu môžete definovať [[Interpreter#Context|kontext]], ku ktorému má interpreter prístup.

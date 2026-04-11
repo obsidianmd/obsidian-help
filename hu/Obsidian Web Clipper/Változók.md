@@ -15,19 +15,19 @@ Használd a `...` ikont az [[Bevezetés az Obsidian Web Clipper használatába|W
 
 Az előre beállított változók automatikusan generálódnak az oldal tartalma alapján. Ezek jellemzően a legtöbb webhelyen működnek.
 
-A fő tartalomváltozó a `{{content}}`, amely a cikk tartalmát, a [[Weboldalak kiemelése|kiemeléseket]], vagy a kijelölést tartalmazza, ha van kijelölt szöveg az oldalon. Vedd figyelembe, hogy a `{{content}}` megpróbálja kinyerni az oldal fő tartalmát, ami nem mindig az, amit szeretnél. Ebben az esetben más előre beállított változókat vagy szelektor változókat használhatsz a szükséges tartalom kinyeréséhez.
+A fő tartalomváltozó a `{{content}}`, amely a cikk tartalmát, a [[Kiemelő|kiemeléseket]], vagy a kijelölést tartalmazza, ha van kijelölt szöveg az oldalon. Vedd figyelembe, hogy a `{{content}}` megpróbálja kinyerni az oldal fő tartalmát, ami nem mindig az, amit szeretnél. Ebben az esetben más előre beállított változókat vagy szelektor változókat használhatsz a szükséges tartalom kinyeréséhez.
 
 | Változó             | Leírás                                                                                 |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Az oldal szerzője                                                                      |
-| `{{content}}`       | Cikk tartalma, [[Weboldalak kiemelése\|kiemelések]], vagy kijelölés, Markdown formátumban |
-| `{{contentHtml}}`   | Cikk tartalma, [[Weboldalak kiemelése\|kiemelések]], vagy kijelölés, HTML formátumban |
+| `{{content}}`       | Cikk tartalma, [[Kiemelő\|kiemelések]], vagy kijelölés, Markdown formátumban |
+| `{{contentHtml}}`   | Cikk tartalma, [[Kiemelő\|kiemelések]], vagy kijelölés, HTML formátumban |
 | `{{date}}`          | Aktuális dátum, formázható a `date` szűrővel                                          |
 | `{{description}}`   | Leírás vagy kivonat                                                                    |
 | `{{domain}}`        | Tartomány                                                                              |
 | `{{favicon}}`       | Favicon URL                                                                            |
 | `{{fullHtml}}`      | Feldolgozatlan HTML a teljes oldaltartalomhoz                                          |
-| `{{highlights}}`    | [[Weboldalak kiemelése\|Kiemelések]] szöveggel és időbélyegekkel                      |
+| `{{highlights}}`    | [[Kiemelő\|Kiemelések]] szöveggel és időbélyegekkel                      |
 | `{{image}}`         | Közösségi megosztási kép URL-je                                                        |
 | `{{published}}`     | Publikálás dátuma, formázható a `date` szűrővel                                       |
 | `{{selection}}`     | Kijelölés Markdown formátumban                                                         |
@@ -40,15 +40,15 @@ A fő tartalomváltozó a `{{content}}`, amely a cikk tartalmát, a [[Weboldalak
 
 ## Prompt változók
 
-A prompt változók nyelvi modelleket használnak adatok kinyerésére és módosítására természetes nyelv segítségével. A prompt változókhoz a [[Weboldalak értelmezése|Értelmező]] engedélyezése és konfigurálása szükséges.
+A prompt változók nyelvi modelleket használnak adatok kinyerésére és módosítására természetes nyelv segítségével. A prompt változókhoz az [[Értelmező|Értelmező]] engedélyezése és konfigurálása szükséges.
 
 A prompt változók szintaxisa: `{{"az oldal összefoglalása"}}`. Az idézőjelek a prompt körül fontosak, és megkülönböztetik a promptokat az előre beállított változóktól. A prompt válaszok utólag feldolgozhatók [[Szűrők|szűrőkkel]], pl. `{{"az oldal összefoglalása"|blockquote}}`.
 
 ### Mikor használj prompt változókat
 
-A prompt változók előnye, hogy rendkívül rugalmasak és könnyen írhatók, ugyanakkor több kompromisszummal járnak: lassabban futnak, és a választott [[Weboldalak értelmezése#Modellek|szolgáltatótól]] függően költség- és adatvédelmi szempontokat is figyelembe kell venni.
+A prompt változók előnye, hogy rendkívül rugalmasak és könnyen írhatók, ugyanakkor több kompromisszummal járnak: lassabban futnak, és a választott [[Értelmező#Modellek|szolgáltatótól]] függően költség- és adatvédelmi szempontokat is figyelembe kell venni.
 
-Más változótípusokkal ellentétben a prompt változókat egy külső nyelvi modellnek kell feldolgoznia, így csak akkor kerülnek behelyettesítésre, amikor az [[Weboldalak értelmezése|Értelmező]] lefutott.
+Más változótípusokkal ellentétben a prompt változókat egy külső nyelvi modellnek kell feldolgoznia, így csak akkor kerülnek behelyettesítésre, amikor az [[Értelmező|Értelmező]] lefutott.
 
 A legjobb, ha *nem* használsz prompt változókat, ha a kinyerni kívánt adat következetes formátumban van, és más változótípusokkal is kinyerhető.
 
