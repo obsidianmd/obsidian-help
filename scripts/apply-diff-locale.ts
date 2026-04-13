@@ -436,6 +436,57 @@ function tryStructuralRemovals(localeContent: string, hunks: HunkLine[][]): stri
   return current;
 }
 
+// ─── filenames.txt ───────────────────────────────────────────────────────────
+
+/** Build a map of lowercased EN basename → locale basename from filenames.txt */
+function buildEnToLocaleBasename(): Map<string, string> {
+  const p = path.join(localeDir, "filenames.txt");
+  if (!fs.existsSync(p)) return new Map();
+  const map = new Map<string, string>();
+  let sectionType: "file" | "folder" | null = null;
+  let original = "";
+  let translation = "";
+  function flush() {
+    if (sectionType === "file" && original && translation && translation !== original) {
+      map.set(original.toLowerCase(), translation);
+    }
+    original = "";
+    translation = "";
+  }
+  for (const line of fs.readFileSync(p, "utf8").split("\n")) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith(";")) continue;
+    if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
+      flush();
+      const name = trimmed.slice(1, -1);
+      sectionType = name.startsWith("file.") ? "file" : name.startsWith("folder.") ? "folder" : null;
+      continue;
+    }
+    const eq = trimmed.indexOf("=");
+    if (eq === -1 || sectionType !== "file") continue;
+    const k = trimmed.slice(0, eq);
+    const v = trimmed.slice(eq + 1);
+    if (k === "original") original = v;
+    else if (k === "translation") translation = v;
+  }
+  flush();
+  return map;
+}
+
+/** Rewrite [[EN filename]] → [[locale filename]] in content, including escaped pipes in tables */
+function fixFilenameLinks(content: string, enToLocale: Map<string, string>): string {
+  if (enToLocale.size === 0) return content;
+  return content.replace(/(!?\[\[)([^\]#|]+)(#[^\]|\\]+)?((?:\\\||[|])[^\]]+)?(\]\])/g, (match, open, target, anchor, display, close) => {
+    const trimmedTarget = target.trim();
+    const lastSlash = trimmedTarget.lastIndexOf("/");
+    const prefix = lastSlash >= 0 ? trimmedTarget.slice(0, lastSlash + 1) : "";
+    const basename = lastSlash >= 0 ? trimmedTarget.slice(lastSlash + 1) : trimmedTarget;
+    const localeBasename = enToLocale.get(basename.toLowerCase());
+    if (!localeBasename) return match;
+    return `${open}${prefix}${localeBasename}${anchor ?? ""}${display ?? ""}${close}`;
+  });
+}
+
 // ─── Locale file index ────────────────────────────────────────────────────────
 
 /** permalink → { absPath, parsed } for every translated .md file in the locale */
@@ -479,6 +530,7 @@ async function main() {
 
   const llmConfig = tryLoadConfig();
   const localeIndex = buildLocaleIndex();
+  const enToLocale = buildEnToLocaleBasename();
   let applied = 0;
   let skipped = 0;
 
@@ -593,7 +645,8 @@ async function main() {
         `Apply the equivalent changes to the ${langName} content.`,
       ].join("\n");
 
-      const updatedContent = await callLLM(llmConfig, systemPrompt, userMessage);
+      const rawContent = await callLLM(llmConfig, systemPrompt, userMessage);
+      const updatedContent = fixFilenameLinks(rawContent, enToLocale);
       fs.writeFileSync(
         localeAbsPath,
         matter.stringify(updatedContent.trim() + "\n", localeParsed.data, { lineWidth: -1 } as any),

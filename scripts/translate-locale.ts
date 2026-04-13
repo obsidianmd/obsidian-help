@@ -368,8 +368,8 @@ function buildLinkReference(
 // Rewrite [[EN filename]] → [[FR filename]] in translated content
 function fixFilenameLinks(content: string, enToLocale: Map<string, string>): string {
   if (enToLocale.size === 0) return content;
-  // Match [[target]], [[target|display]], ![[target]], also with #anchors
-  return content.replace(/(!?\[\[)([^\]#|]+)(#[^\]|]+)?(\|[^\]]+)?(\]\])/g, (match, open, target, anchor, display, close) => {
+  // Match [[target]], [[target|display]], [[target\|display]] (escaped pipe in tables), ![[target]], also with #anchors
+  return content.replace(/(!?\[\[)([^\]#|]+)(#[^\]|\\]+)?((?:\\\||[|])[^\]]+)?(\]\])/g, (match, open, target, anchor, display, close) => {
     const trimmedTarget = target.trim();
     // Preserve path prefix if any (e.g. folder/file)
     const lastSlash = trimmedTarget.lastIndexOf("/");
