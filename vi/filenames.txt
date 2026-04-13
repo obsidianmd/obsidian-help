@@ -532,7 +532,7 @@ translation=Câu hỏi thường gặp
 
 [file.sync/headless]
 original=Headless Sync
-translation=Đồng bộ hóa không giao diện
+translation=Headless Sync
 
 [file.sync/messages]
 original=Status icon and messages

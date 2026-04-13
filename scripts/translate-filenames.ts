@@ -192,10 +192,10 @@ const LOCALE_TO_TRANSLATIONS_FILE: Record<string, string> = {
   "km": "kh",
 };
 
-const PRESERVE_EN = new Set([
-  "Obsidian", "Sync", "Publish", "Canvas", "Markdown", "CSS", "API",
-  "Zettelkasten", "URI", "CLI", "Bases",
-]);
+const PRESERVE_EN = new Set(
+  ["Obsidian", "Sync", "Publish", "Canvas", "Markdown", "CSS", "API",
+   "Zettelkasten", "URI", "CLI", "Bases"].map(s => s.toLowerCase())
+);
 
 /**
  * Load official UI string translations from obsidian-translations + obsidian-clipper.

@@ -516,4 +516,4 @@ Cuando trabajas con listas numeradas, puede que necesites escapar el punto despu
 
 Para aprender más sobre la sintaxis de formato avanzado, como tablas, diagramas y expresiones matemáticas, consulta [[Sintaxis de formato avanzado]].
 
-Para aprender más sobre cómo Obsidian interpreta Markdown, consulta [[Obsidian Flavored Markdown]].
+Para aprender más sobre cómo Obsidian interpreta Markdown, consulta [[Markdown con formato Obsidian]].

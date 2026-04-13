@@ -219,7 +219,7 @@ Procesa contenido HTML y convierte HTML a Markdown. Ten en cuenta que tu [[Varia
 
 ### `markdown`
 
-Convierte una cadena a una cadena formateada en [[Obsidian Flavored Markdown]].
+Convierte una cadena a una cadena formateada en [[Markdown con formato Obsidian]].
 
 - Útil cuando se combina con variables que devuelven HTML como `{{contentHtml}}`, `{{fullHtml}}` y variables de selector como `{{selectorHtml:cssSelector}}`.
 

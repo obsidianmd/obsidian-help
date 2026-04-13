@@ -532,7 +532,7 @@ translation=Часті запитання
 
 [file.sync/headless]
 original=Headless Sync
-translation=Автономна синхронізація
+translation=Headless Sync
 
 [file.sync/messages]
 original=Status icon and messages

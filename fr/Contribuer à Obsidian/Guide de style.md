@@ -4,7 +4,6 @@ description: Cette page explique le guide de style pour la rédaction de notre d
 publish: true
 mobile: true
 localized: '2026-03-18'
-
 ---
 La documentation d'Obsidian suit les directives de style listées sur cette page. Ces directives sont basées sur les meilleures pratiques de l'industrie, en particulier le [guide de style de documentation pour développeurs de Google](<https://developers.google.com/style>) et le [guide de style de Microsoft](https://learn.microsoft.com/en-us/style-guide/). Pour les cas particuliers non couverts ci-dessous, consultez ces guides externes comme références secondaires.
 
@@ -340,7 +339,7 @@ Incluez des icônes et des images lorsqu'elles facilitent l'explication de chose
 
 - Les images doivent être au format `.png` ou `.svg`.
 - Si une image semble trop grande dans la note, réduisez-la en dehors d'Obsidian, ou ajustez ses dimensions comme expliqué dans [[Incorporer des fichiers#Intégrer une image dans une note|l'intégration d'une image dans une note]].
-- Dans de rares cas, vous pouvez placer des images particulièrement grandes ou complexes dans un [[Callouts#Encadrés pliables|encadré replié]].
+- Dans de rares cas, vous pouvez placer des images particulièrement grandes ou complexes dans un [[Mises en avant (callouts)#Encadrés pliables|encadré replié]].
 - Pour les fenêtres pop-up ou les modales, l'image doit montrer l'intégralité de la fenêtre de l'application Obsidian.
  ![[Style-guide-modal-example.png#interface]]
 

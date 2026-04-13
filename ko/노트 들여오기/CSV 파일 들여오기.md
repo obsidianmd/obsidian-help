@@ -2,15 +2,15 @@
 permalink: import/csv
 ---
 
-Obsidian은 공식 [[Importer|Importer 플러그인]]을 사용하여 CSV 파일에서 데이터를 들여올 수 있어요. 이 기능은 Excel, Google Sheets, Numbers, Notion, Airtable 등의 앱에 표 형태로 저장된 데이터가 있을 때 유용해요.
+Obsidian은 공식 [[들여오기|Importer 플러그인]]을 사용하여 CSV 파일에서 데이터를 들여올 수 있어요. 이 기능은 Excel, Google Sheets, Numbers, Notion, Airtable 등의 앱에 표 형태로 저장된 데이터가 있을 때 유용해요.
 
 CSV 들여오기는 각 행에 대해 Markdown 파일을 생성하고, 들여온 모든 파일을 표로 표시하는 [[베이스 소개|베이스]] 파일을 생성해요.
 
-특정 앱에서 노트를 들여오는 경우, [[Importer|Importer 플러그인]]이 지원하는 앱 목록을 먼저 확인하여 마이그레이션할 데이터를 더 잘 보존하는 전용 변환기가 있는지 확인하는 것이 좋아요.
+특정 앱에서 노트를 들여오는 경우, [[들여오기|Importer 플러그인]]이 지원하는 앱 목록을 먼저 확인하여 마이그레이션할 데이터를 더 잘 보존하는 전용 변환기가 있는지 확인하는 것이 좋아요.
 
 ## Obsidian에서 CSV 데이터로 노트 생성하기
 
-공식 Obsidian [[Importer]] 플러그인이 필요하며, [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)할 수 있어요.
+공식 Obsidian [[들여오기]] 플러그인이 필요하며, [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)할 수 있어요.
 
 1. **[[설정]]**을 열어요.
 2. **커뮤니티 플러그인**으로 이동하여 [Importer를 설치](obsidian://show-plugin?id=obsidian-importer)해요.

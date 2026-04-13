@@ -4,11 +4,11 @@ aliases:
   - Microsoft OneNote에서 노트 가져오기
 ---
 
-Obsidian을 사용하면 Microsoft OneNote에서 노트를 쉽게 마이그레이션할 수 있어요. 이를 위해서 [[Importer|Importer 플러그인]]을 사용해요.
+Obsidian을 사용하면 Microsoft OneNote에서 노트를 쉽게 마이그레이션할 수 있어요. 이를 위해서 [[들여오기|Importer 플러그인]]을 사용해요.
 
 ## OneNote 데이터를 Obsidian으로 들여오기
 
-공식 Obsidian [[Importer]] 플러그인이 필요하며, 이를 [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)할 수 있어요.
+공식 Obsidian [[들여오기]] 플러그인이 필요하며, 이를 [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)할 수 있어요.
 
 1. **설정(Settings)** 을 열어요.
 2. **커뮤니티 플러그인**으로 이동하고 [Importer를 설치](obsidian://show-plugin?id=obsidian-importer)해요.

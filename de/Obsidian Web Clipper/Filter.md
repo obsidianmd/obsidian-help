@@ -123,7 +123,7 @@ Fügt jeder Zeile der Eingabe ein Markdown-Zitat-Präfix (`> `) hinzu.
 
 ### `callout`
 
-Erstellt einen [[Callouts|Hinweisblock]] mit optionalen Parametern: `{{variable|callout:("type", "title", foldState)}}`
+Erstellt einen [[Hinweisblöcke|Hinweisblock]] mit optionalen Parametern: `{{variable|callout:("type", "title", foldState)}}`
 
 - `type` ist der Callout-Typ und standardmäßig „info"
 - `title` ist der Titel des Hinweisblocks und standardmäßig leer

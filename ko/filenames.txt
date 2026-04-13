@@ -428,7 +428,7 @@ translation=사용자 지정 도메인
 
 [file.publish/headless]
 original=Headless Publish
-translation=Headless 게재
+translation=Headless Publish
 
 [file.publish/limitations]
 original=Publish limitations

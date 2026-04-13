@@ -5,6 +5,8 @@ cssclasses:
 description: Obsidian Sync 提供了一个无头客户端，可以在不使用桌面应用的情况下同步仓库。适用于 CI 流水线、代理程序和自动化工作流。同步最新更改或持续保持文件为最新状态。
 aliases:
   - Obsidian 同步服务/Headless Sync
+  - Headless Sync
+  - Headless 同步
 ---
 [[Obsidian 官方同步简介|Obsidian Sync]] 提供了一个无头客户端，可以在不使用桌面应用的情况下同步仓库。适用于 CI 流水线、代理程序和自动化工作流。同步最新更改或持续保持文件为最新状态。
 

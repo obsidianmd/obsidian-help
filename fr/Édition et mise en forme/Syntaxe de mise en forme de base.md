@@ -225,7 +225,7 @@ Vous pouvez citer du texte en ajoutant un symbole `>` avant le texte.
 \- Doug Engelbart, 1961
 
 > [!tip]- Astuce
-> Vous pouvez transformer votre citation en [[Callouts|encadré]] en ajoutant `[!info]` comme première ligne d'une citation.
+> Vous pouvez transformer votre citation en [[Mises en avant (callouts)|encadré]] en ajoutant `[!info]` comme première ligne d'une citation.
 
 ## Listes
 

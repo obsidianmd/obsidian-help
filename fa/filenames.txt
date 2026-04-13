@@ -532,7 +532,7 @@ translation=پرسش‌های متداول
 
 [file.sync/headless]
 original=Headless Sync
-translation=همگام‌سازی بدون رابط کاربری
+translation=Headless Sync
 
 [file.sync/messages]
 original=Status icon and messages

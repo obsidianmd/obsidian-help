@@ -1,6 +1,6 @@
 ---
 permalink: obsidian-flavored-markdown
-description: Découvrez le Markdown à la sauce Obsidian, y compris les extensions prises en charge et la manière dont le Markdown interagit avec les éléments HTML.
+description: 'Découvrez le Markdown à la sauce Obsidian, y compris les extensions prises en charge et la manière dont le Markdown interagit avec les éléments HTML.'
 publish: true
 mobile: true
 localized: '2026-03-18'
@@ -35,5 +35,5 @@ Obsidian prend en charge [CommonMark](https://commonmark.org/), [GitHub Flavored
 | `` ``` ``       | [[Syntaxe de mise en forme de base#Blocs de code\|Blocs de code]]                    |
 | `- [ ]`         | [[Syntaxe de mise en forme de base#Listes de tâches\|Tâche incomplète]]              |
 | `- [x]`         | [[Syntaxe de mise en forme de base#Listes de tâches\|Tâche complétée]]               |
-| `> [!note]`     | [[Callouts]]                                                                         |
+| `> [!note]`     | [[Mises en avant (callouts)]]                                                                         |
 | (voir le lien)  | [[Syntaxe de mise en forme avancée#Tableaux\|Tableaux]]                              |

@@ -222,7 +222,7 @@ Du kannst Text zitieren, indem du `>`-Symbole vor den Text setzt.
 \- Doug Engelbart, 1961
 
 > [!tip]- Tipp
-> Du kannst dein Zitat in einen [[Callouts|Hinweisblock]] umwandeln, indem du `[!info]` als erste Zeile in einem Zitat hinzufügst.
+> Du kannst dein Zitat in einen [[Hinweisblöcke|Hinweisblock]] umwandeln, indem du `[!info]` als erste Zeile in einem Zitat hinzufügst.
 
 ## Listen
 

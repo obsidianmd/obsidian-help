@@ -428,7 +428,7 @@ translation=نطاقات مخصصة
 
 [file.publish/headless]
 original=Headless Publish
-translation=نشر Headless
+translation=Headless Publish
 
 [file.publish/limitations]
 original=Publish limitations

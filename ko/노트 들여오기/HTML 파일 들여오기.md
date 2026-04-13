@@ -4,13 +4,13 @@ aliases:
   - HTML 파일에서 노트 가져오기
 ---
 
-Obsidian을 사용하면 공식 [[Importer|Importer 플러그인]]을 사용하여 개별 HTML 파일 및 전체 폴더의 HTML 파일을 쉽게 가져올 수 있어요. 이 기능은 웹 사이트 전체를 [[Obsidian 스타일 Markdown|Markdown]] 형식으로 저장하거나 HTML로 내보내는 도구에서 데이터를 가져오려는 경우 유용해요.
+Obsidian을 사용하면 공식 [[들여오기|Importer 플러그인]]을 사용하여 개별 HTML 파일 및 전체 폴더의 HTML 파일을 쉽게 가져올 수 있어요. 이 기능은 웹 사이트 전체를 [[Obsidian 스타일 Markdown|Markdown]] 형식으로 저장하거나 HTML로 내보내는 도구에서 데이터를 가져오려는 경우 유용해요.
 
-특정 앱에서 노트를 가져온다면 먼저 [[Importer|Importer 플러그인]]에서 지원하는 앱 목록을 검토하여 이전하려는 데이터를 더 잘 보존하는 특정 변환기가 있는지 확인하는 것이 좋아요.
+특정 앱에서 노트를 가져온다면 먼저 [[들여오기|Importer 플러그인]]에서 지원하는 앱 목록을 검토하여 이전하려는 데이터를 더 잘 보존하는 특정 변환기가 있는지 확인하는 것이 좋아요.
 
 ## HTML 데이터를 Obsidian으로 들여오기
 
-공식 Obsidian [[Importer]] 플러그인이 필요하며, [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)할 수 있어요.
+공식 Obsidian [[들여오기]] 플러그인이 필요하며, [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)할 수 있어요.
 
 1. **설정**을 열어요.
 2. **커뮤니티 플러그인**으로 이동하고 [Importer를 설치](obsidian://show-plugin?id=obsidian-importer)해요.

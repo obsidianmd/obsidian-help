@@ -436,7 +436,7 @@ translation=自定义域名
 
 [file.publish/headless]
 original=Headless Publish
-translation=Headless 发布
+translation=Headless Publish
 
 [file.publish/limitations]
 original=Publish limitations
@@ -540,7 +540,7 @@ translation=同步常见问题
 
 [file.sync/headless]
 original=Headless Sync
-translation=Headless 同步
+translation=Headless Sync
 
 [file.sync/messages]
 original=Status icon and messages

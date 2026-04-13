@@ -14,7 +14,7 @@ Web Clipper verwendet [Defuddle](https://github.com/kepano/defuddle), um nur den
 Um Defuddle in Web Clipper zu umgehen, verwende die folgenden Methoden:
 
 - Wähle Text aus oder verwende `Cmd/Strg+A`, um den gesamten Text auszuwählen.
-- [[Highlighter|Hebe Inhalte hervor]], um genau auszuwählen, was du erfassen möchtest.
+- [[Marker|Hebe Inhalte hervor]], um genau auszuwählen, was du erfassen möchtest.
 - Verwende eine [[Obsidian Web Clipper/Vorlagen|benutzerdefinierte Vorlage]] für die Website.
 
 ### Kein Inhalt erscheint in Obsidian

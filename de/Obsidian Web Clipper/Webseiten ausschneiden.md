@@ -17,7 +17,7 @@ Standardmäßig versucht der Web Clipper, intelligent nur den Hauptartikelinhalt
 
 - Wenn eine benutzerdefinierte Vorlage vorhanden ist, wird deine Vorlage verwendet.
 - Wenn eine Auswahl vorhanden ist, wird die Auswahl verwendet. Du kannst `Strg/Cmd+A` verwenden, um die gesamte Seite auszuwählen.
-- Wenn [[Highlighter|Hervorhebungen]] vorhanden sind, werden die Hervorhebungen verwendet.
+- Wenn [[Marker|Hervorhebungen]] vorhanden sind, werden die Hervorhebungen verwendet.
 
 ## Bilder herunterladen
 
@@ -40,7 +40,7 @@ Der Web Clipper enthält Tastaturkürzel, mit denen du deinen Arbeitsablauf besc
 
 Die Web Clipper-Bedienung ist in vier Bereiche unterteilt:
 
-1. **Kopfzeile**, in der du Vorlagen wechseln, [[Highlighter|Hervorhebung]], [[Reader|Lesemodus]] aktivieren und auf die Einstellungen zugreifen kannst.
+1. **Kopfzeile**, in der du Vorlagen wechseln, [[Marker|Hervorhebung]], [[Leser|Lesemodus]] aktivieren und auf die Einstellungen zugreifen kannst.
 2. **Eigenschaften** zeigt die von der Seite extrahierten [[Eigenschaften|Metadaten]], die als [[Eigenschaften]] in Obsidian gespeichert werden.
 3. **Notizinhalt**, der in Obsidian gespeichert wird.
 4. **Fußzeile** ermöglicht dir, den Vault und Ordner auszuwählen und zu Obsidian hinzuzufügen.
@@ -49,8 +49,8 @@ Funktionen der Kopfzeile:
 
 - ![[lucide-chevrons-up-down.svg#icon]] **Vorlagen**-Umschalter zur Verwendung gespeicherter [[Obsidian Web Clipper/Vorlagen|Vorlagen]], die in den Erweiterungseinstellungen hinzugefügt wurden.
 - ![[lucide-more-horizontal.svg#icon]] **Mehr**-Schaltfläche zur Anzeige von Seitenvariablen, die du in Vorlagen verwenden kannst.
-- ![[lucide-highlighter.svg#icon]] **Marker**-Schaltfläche zum Aktivieren der [[Highlighter|Hervorhebung]].
-- ![[lucide-book-icon.svg#icon]] **Reader**-Schaltfläche zum Aktivieren der [[Reader|Leseansicht]].
+- ![[lucide-highlighter.svg#icon]] **Marker**-Schaltfläche zum Aktivieren der [[Marker|Hervorhebung]].
+- ![[lucide-book-icon.svg#icon]] **Reader**-Schaltfläche zum Aktivieren der [[Leser|Leseansicht]].
 - ![[lucide-picture-in-picture-2.svg#icon]] **Einbetten**-Schaltfläche zum Verschieben des Web Clippers vom Popup in die Seite.
 - ![[lucide-settings.svg#icon]] **Einstellungen**-Schaltfläche zum Öffnen der Erweiterungseinstellungen.
 

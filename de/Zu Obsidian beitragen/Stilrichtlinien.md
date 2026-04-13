@@ -338,7 +338,7 @@ Füge Symbole und Bilder ein, wenn sie es einfacher machen, Dinge zu erklären, 
 
 - Bilder sollten im `.png`- oder `.svg`-Format sein.
 - Wenn ein Bild in der Notiz zu groß erscheint, verkleinere es außerhalb von Obsidian oder passe seine Abmessungen an, wie unter [[Dateien einbetten#Ein Bild in eine Notiz einbetten|Ein Bild in eine Notiz einbetten]] erklärt.
-- In seltenen Fällen möchtest du besonders große oder komplexe Bilder möglicherweise in einem [[Callouts#Einklappbare Hinweisblöcke|eingeklappten Hinweisblock]] platzieren.
+- In seltenen Fällen möchtest du besonders große oder komplexe Bilder möglicherweise in einem [[Hinweisblöcke#Einklappbare Hinweisblöcke|eingeklappten Hinweisblock]] platzieren.
 - Bei Pop-up-Fenstern oder Modalen sollte das Bild das gesamte Obsidian-Anwendungsfenster zeigen.
  ![[Style-guide-modal-example.png#interface]]
 

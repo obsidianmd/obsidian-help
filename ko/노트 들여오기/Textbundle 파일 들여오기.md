@@ -2,15 +2,15 @@
 permalink: import/textbundle
 ---
 
-Obsidian에서는 공식 [[Importer|Importer 플러그인]]을 사용하여 [Textbundle](https://textbundle.org/) 파일을 쉽게 들여올 수 있어요.
+Obsidian에서는 공식 [[들여오기|Importer 플러그인]]을 사용하여 [Textbundle](https://textbundle.org/) 파일을 쉽게 들여올 수 있어요.
 
-특정 앱에서 노트를 들여오는 경우, 먼저 [[Importer|Importer 플러그인]]이 지원하는 앱 목록을 검토하여 마이그레이션하려는 데이터를 더 잘 보존할 수 있는 전용 변환기가 있는지 확인하는 것이 좋아요.
+특정 앱에서 노트를 들여오는 경우, 먼저 [[들여오기|Importer 플러그인]]이 지원하는 앱 목록을 검토하여 마이그레이션하려는 데이터를 더 잘 보존할 수 있는 전용 변환기가 있는지 확인하는 것이 좋아요.
 
 Textbundle 형식은 Markdown 텍스트와 모든 참조 이미지를 단일 파일로 묶어, 샌드박스 앱에서 데이터를 이동하는 더 원활한 방법을 제공해요. Textbundle 내보내기는 Agenda, Craft, Taio, Ulysses, Zettlr 등 [많은 앱](https://textbundle.org/)에서 지원돼요.
 
 ## Textbundle 파일을 Obsidian으로 들여오기
 
-공식 Obsidian [[Importer]] 플러그인이 필요하며, [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)할 수 있어요.
+공식 Obsidian [[들여오기]] 플러그인이 필요하며, [여기에서 설치](obsidian://show-plugin?id=obsidian-importer)할 수 있어요.
 
 1. **[[설정]]**을 열어요.
 2. **커뮤니티 플러그인**으로 이동하여 [Importer를 설치](obsidian://show-plugin?id=obsidian-importer)해요.
