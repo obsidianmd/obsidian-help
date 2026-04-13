@@ -304,7 +304,7 @@ translation=Segnalibri
 
 [file.plugins/canvas]
 original=Canvas
-translation=Canvas
+translation=Lavagna
 
 [file.plugins/command-palette]
 original=Command palette
@@ -425,6 +425,10 @@ translation=Personalizzare il sito
 [file.publish/domains]
 original=Custom domains
 translation=Domini personalizzati
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
 
 [file.publish/limitations]
 original=Publish limitations
@@ -643,12 +647,12 @@ original=Filters
 translation=Filtri
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Evidenziare pagine web
+original=Highlighter
+translation=Evidenziatore
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Interpretare pagine web
+original=Interpreter
+translation=Interprete
 
 [file.web-clipper/logic]
 original=Logic

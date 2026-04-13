@@ -16,7 +16,7 @@ translation=エイリアス
 
 [file.android]
 original=Obsidian for Android
-translation=Obsidian for Android
+translation=Android版Obsidian
 
 [file.appearance]
 original=Appearance
@@ -96,7 +96,7 @@ translation=最初のノートを作成する
 
 [file.credit]
 original=Obsidian Credit
-translation=Obsidian Credit
+translation=Obsidianクレジット
 
 [file.credits]
 original=Credits
@@ -165,6 +165,10 @@ translation=Obsidian Headless
 [file.hotkeys]
 original=Hotkeys
 translation=ホットキー
+
+[file.html]
+original=HTML content
+translation=HTMLコンテンツ
 
 [file.import]
 original=Import notes
@@ -422,6 +426,10 @@ translation=サイトのカスタマイズ
 original=Custom domains
 translation=カスタムドメイン
 
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
 [file.publish/limitations]
 original=Publish limitations
 translation=Publishの制限事項
@@ -639,12 +647,12 @@ original=Filters
 translation=フィルター
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=ウェブページのハイライト
+original=Highlighter
+translation=ハイライト
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=ウェブページの解釈
+original=Interpreter
+translation=インタープリター
 
 [file.web-clipper/logic]
 original=Logic
@@ -672,7 +680,7 @@ translation=ワークスペース
 
 [folder.audio]
 original=audio
-translation=audio
+translation=オーディオ
 
 [folder.Changelog]
 original=Changelog
@@ -700,7 +708,7 @@ translation=はじめに
 
 [folder.icons]
 original=icons
-translation=icons
+translation=アイコン
 
 [folder.Import notes]
 original=Import notes
@@ -718,14 +726,6 @@ translation=ライセンスと支払い
 original=Linking notes and files
 translation=ノートとファイルのリンク
 
-[folder.Plugins]
-original=Plugins
-translation=プラグイン
-
-[folder.Teams]
-original=Teams
-translation=チーム
-
 [folder.Obsidian]
 original=Obsidian
 translation=Obsidian
@@ -734,10 +734,18 @@ translation=Obsidian
 original=Obsidian Web Clipper
 translation=Obsidian Web Clipper
 
+[folder.Plugins]
+original=Plugins
+translation=プラグイン
+
+[folder.Teams]
+original=Teams
+translation=チーム
+
 [folder.User interface]
 original=User interface
 translation=ユーザーインターフェイス
 
 [folder.video]
 original=video
-translation=video
+translation=ビデオ

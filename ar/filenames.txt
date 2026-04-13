@@ -272,7 +272,7 @@ translation=Obsidian
 
 [file.obsidian-flavored-markdown]
 original=Obsidian Flavored Markdown
-translation=Obsidian Flavored Markdown
+translation=Markdown بنكهة Obsidian
 
 [file.official-site]
 original=Official website
@@ -425,6 +425,10 @@ translation=تخصيص موقعك
 [file.publish/domains]
 original=Custom domains
 translation=نطاقات مخصصة
+
+[file.publish/headless]
+original=Headless Publish
+translation=نشر Headless
 
 [file.publish/limitations]
 original=Publish limitations
@@ -643,12 +647,12 @@ original=Filters
 translation=تصفية
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=تظليل صفحات الويب
+original=Highlighter
+translation=المظلل
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=تفسير صفحات الويب
+original=Interpreter
+translation=المفسر
 
 [file.web-clipper/logic]
 original=Logic

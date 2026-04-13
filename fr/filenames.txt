@@ -72,7 +72,7 @@ translation=Tableau
 
 [file.callouts]
 original=Callouts
-translation=Callouts
+translation=Mises en avant (callouts)
 
 [file.catalyst]
 original=Catalyst license
@@ -169,6 +169,10 @@ translation=Obsidian Headless
 [file.hotkeys]
 original=Hotkeys
 translation=Raccourcis clavier
+
+[file.html]
+original=HTML content
+translation=Contenu HTML
 
 [file.html-content]
 original=HTML content
@@ -430,6 +434,10 @@ translation=Personnaliser votre site
 original=Custom domains
 translation=Domaines personnalisés
 
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
 [file.publish/limitations]
 original=Publish limitations
 translation=Limitations de Publish
@@ -534,10 +542,6 @@ translation=Questions fréquentes
 original=Headless Sync
 translation=Sync sans interface
 
-[file.sync/version-history]
-original=Version history
-translation=Historique des versions
-
 [file.sync/messages]
 original=Status icon and messages
 translation=Icône de statut et messages
@@ -577,6 +581,10 @@ translation=Résoudre les problèmes d'Obsidian Sync
 [file.sync/vault-types]
 original=Local and remote vaults
 translation=Coffres locaux et distants
+
+[file.sync/version-history]
+original=Version history
+translation=Historique des versions
 
 [file.syntax]
 original=Basic formatting syntax
@@ -647,12 +655,12 @@ original=Filters
 translation=Filtres
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Surligner des pages web
+original=Highlighter
+translation=Surligneur
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Interpréter des pages web
+original=Interpreter
+translation=Interpréteur
 
 [file.web-clipper/logic]
 original=Logic

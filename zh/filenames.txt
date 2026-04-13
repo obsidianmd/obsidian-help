@@ -170,6 +170,10 @@ translation=Obsidian Headless
 original=Hotkeys
 translation=快捷键
 
+[file.html]
+original=HTML content
+translation=HTML 内容
+
 [file.html-content]
 original=HTML content
 translation=HTML 内容
@@ -430,6 +434,10 @@ translation=自定义网站界面
 original=Custom domains
 translation=自定义域名
 
+[file.publish/headless]
+original=Headless Publish
+translation=Headless 发布
+
 [file.publish/limitations]
 original=Publish limitations
 translation=发布功能展望
@@ -532,7 +540,7 @@ translation=同步常见问题
 
 [file.sync/headless]
 original=Headless Sync
-translation=Headless Sync
+translation=Headless 同步
 
 [file.sync/messages]
 original=Status icon and messages
@@ -647,12 +655,12 @@ original=Filters
 translation=过滤器
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=高亮网页
+original=Highlighter
+translation=高亮
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=解析网页
+original=Interpreter
+translation=解释器
 
 [file.web-clipper/logic]
 original=Logic

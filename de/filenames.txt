@@ -68,7 +68,7 @@ translation=Tabelle
 
 [file.callouts]
 original=Callouts
-translation=Callouts
+translation=Hinweisblöcke
 
 [file.catalyst]
 original=Catalyst license
@@ -426,6 +426,10 @@ translation=Website anpassen
 original=Custom domains
 translation=Benutzerdefinierte Domains
 
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
 [file.publish/limitations]
 original=Publish limitations
 translation=Publish-Einschränkungen
@@ -643,12 +647,12 @@ original=Filters
 translation=Filter
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Webseiten hervorheben
+original=Highlighter
+translation=Marker
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Webseiten interpretieren
+original=Interpreter
+translation=Interpreter
 
 [file.web-clipper/logic]
 original=Logic
@@ -656,7 +660,7 @@ translation=Logik
 
 [file.web-clipper/reader]
 original=Reader
-translation=Reader
+translation=Leser
 
 [file.web-clipper/templates]
 original=Templates
@@ -676,7 +680,7 @@ translation=Arbeitsbereich
 
 [folder.audio]
 original=audio
-translation=audio
+translation=Audio
 
 [folder.Changelog]
 original=Changelog
@@ -704,7 +708,7 @@ translation=Erste Schritte
 
 [folder.icons]
 original=icons
-translation=icons
+translation=Symbole
 
 [folder.Import notes]
 original=Import notes
@@ -744,4 +748,4 @@ translation=Benutzeroberfläche
 
 [folder.video]
 original=video
-translation=video
+translation=Video

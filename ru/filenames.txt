@@ -304,7 +304,7 @@ translation=Закладки
 
 [file.plugins/canvas]
 original=Canvas
-translation=Canvas
+translation=Холст
 
 [file.plugins/command-palette]
 original=Command palette
@@ -426,6 +426,10 @@ translation=Настройка сайта
 original=Custom domains
 translation=Пользовательские домены
 
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
 [file.publish/limitations]
 original=Publish limitations
 translation=Ограничения Publish
@@ -528,7 +532,7 @@ translation=Часто задаваемые вопросы
 
 [file.sync/headless]
 original=Headless Sync
-translation=Headless Sync
+translation=Headless Синхронизация
 
 [file.sync/messages]
 original=Status icon and messages
@@ -643,12 +647,12 @@ original=Filters
 translation=Фильтры
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Выделение на веб-страницах
+original=Highlighter
+translation=Маркер
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Интерпретация веб-страниц
+original=Interpreter
+translation=Интерпретатор
 
 [file.web-clipper/logic]
 original=Logic
@@ -676,11 +680,11 @@ translation=Рабочее пространство
 
 [folder.audio]
 original=audio
-translation=audio
+translation=Аудио
 
 [folder.Changelog]
 original=Changelog
-translation=Changelog
+translation=История изменений
 
 [folder.Contributing to Obsidian]
 original=Contributing to Obsidian
@@ -704,7 +708,7 @@ translation=Начало работы
 
 [folder.icons]
 original=icons
-translation=icons
+translation=Иконки
 
 [folder.Import notes]
 original=Import notes
@@ -744,4 +748,4 @@ translation=Интерфейс пользователя
 
 [folder.video]
 original=video
-translation=video
+translation=Видео

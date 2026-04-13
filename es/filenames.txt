@@ -272,7 +272,7 @@ translation=Acerca de Obsidian
 
 [file.obsidian-flavored-markdown]
 original=Obsidian Flavored Markdown
-translation=Obsidian Flavored Markdown
+translation=Markdown con formato Obsidian
 
 [file.official-site]
 original=Official website
@@ -425,6 +425,10 @@ translation=Personalizar tu sitio
 [file.publish/domains]
 original=Custom domains
 translation=Dominios personalizados
+
+[file.publish/headless]
+original=Headless Publish
+translation=Publish Headless
 
 [file.publish/limitations]
 original=Publish limitations
@@ -643,12 +647,12 @@ original=Filters
 translation=Filtros
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Resaltar páginas web
+original=Highlighter
+translation=Resaltador
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Interpretar páginas web
+original=Interpreter
+translation=Intérprete
 
 [file.web-clipper/logic]
 original=Logic
@@ -726,6 +730,10 @@ translation=Enlazar notas y archivos
 original=Obsidian
 translation=Obsidian
 
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
 [folder.Plugins]
 original=Plugins
 translation=Complementos
@@ -734,14 +742,10 @@ translation=Complementos
 original=Teams
 translation=Equipos
 
-[folder.Obsidian Web Clipper]
-original=Obsidian Web Clipper
-translation=Obsidian Web Clipper
-
 [folder.User interface]
 original=User interface
 translation=Interfaz de usuario
 
 [folder.video]
 original=video
-translation=video
+translation=vídeo

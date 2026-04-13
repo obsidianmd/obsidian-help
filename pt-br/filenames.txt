@@ -68,7 +68,7 @@ translation=Visualização de tabela
 
 [file.callouts]
 original=Callouts
-translation=Callouts
+translation=Frases de Destaque
 
 [file.catalyst]
 original=Catalyst license
@@ -426,6 +426,10 @@ translation=Personalizar seu site
 original=Custom domains
 translation=Domínios personalizados
 
+[file.publish/headless]
+original=Headless Publish
+translation=Publish Headless
+
 [file.publish/limitations]
 original=Publish limitations
 translation=Limitações do Publish
@@ -436,7 +440,7 @@ translation=Arquivos de mídia
 
 [file.publish/permalinks]
 original=Permalinks
-translation=Permalinks
+translation=Links permanentes
 
 [file.publish/publish]
 original=Publish your content
@@ -584,7 +588,7 @@ translation=Abas
 
 [file.tags]
 original=Tags
-translation=Tags
+translation=Etiquetas
 
 [file.teams]
 original=Obsidian for teams
@@ -643,12 +647,12 @@ original=Filters
 translation=Filtros
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Destacar páginas web
+original=Highlighter
+translation=Marcador
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Interpretar páginas web
+original=Interpreter
+translation=Intérprete
 
 [file.web-clipper/logic]
 original=Logic
@@ -712,7 +716,7 @@ translation=Importar notas
 
 [folder.Layouts]
 original=Layouts
-translation=Layouts
+translation=Leiautes
 
 [folder.Licenses and payment]
 original=Licenses and payment

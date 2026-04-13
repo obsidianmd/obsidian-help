@@ -355,13 +355,25 @@ async function main() {
   const missingFolders = folders.filter(f => !existing.folders[f] || existing.folders[f] === f);
   const missingFiles = files.filter(f => !existing.files[f.permalink] || existing.files[f.permalink] === f.basename);
 
+  // Detect renamed EN files: original recorded in filenames.txt no longer matches current EN basename
+  const renamedFiles = files.filter(f =>
+    existing.files[f.permalink] &&
+    existing.fileOriginals[f.permalink] &&
+    existing.fileOriginals[f.permalink] !== f.basename &&
+    existing.files[f.permalink] !== f.basename // not already matching new name
+  );
+
   console.log(`${folders.length} folders (${missingFolders.length} untranslated)`);
-  console.log(`${files.length} files (${missingFiles.length} untranslated)\n`);
+  console.log(`${files.length} files (${missingFiles.length} untranslated, ${renamedFiles.length} renamed)\n`);
 
   if (dryRun) {
     console.log("Missing folders:", missingFolders);
     console.log("\nMissing files (permalink: EN name):");
     for (const f of missingFiles) console.log(`  ${f.permalink}: ${f.basename}`);
+    if (renamedFiles.length > 0) {
+      console.log("\nRenamed files (permalink: old EN name → new EN name):");
+      for (const f of renamedFiles) console.log(`  ${f.permalink}: ${existing.fileOriginals[f.permalink]} → ${f.basename}`);
+    }
     console.log("\n[DRY RUN] No changes written.");
     return;
   }
@@ -401,6 +413,26 @@ async function main() {
       }
       saveFilenamesTxt(existing);
       if (i + BATCH < missingFiles.length) await new Promise(r => setTimeout(r, config.delayMs ?? 1000));
+    }
+  }
+
+  // Re-translate renamed files
+  if (renamedFiles.length > 0) {
+    const BATCH = 50;
+    for (let i = 0; i < renamedFiles.length; i += BATCH) {
+      const batch = renamedFiles.slice(i, i + BATCH);
+      console.log(`\nRe-translating renamed files ${i + 1}–${i + batch.length} of ${renamedFiles.length}...`);
+      const translated = await translateFiles(config, batch, langName, glossary);
+      for (const [permalink, newName] of Object.entries(translated)) {
+        const oldOriginal = existing.fileOriginals[permalink];
+        const oldTranslation = existing.files[permalink];
+        const enName = batch.find(f => f.permalink === permalink)?.basename ?? permalink;
+        existing.files[permalink] = newName;
+        existing.fileOriginals[permalink] = enName;
+        console.log(`  [${permalink}] ${oldOriginal} (${oldTranslation}) → ${enName} (${newName})`);
+      }
+      saveFilenamesTxt(existing);
+      if (i + BATCH < renamedFiles.length) await new Promise(r => setTimeout(r, config.delayMs ?? 1000));
     }
   }
 

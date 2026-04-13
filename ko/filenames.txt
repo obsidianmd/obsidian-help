@@ -332,7 +332,7 @@ translation=그래프 뷰
 
 [file.plugins/importer]
 original=Importer
-translation=Importer
+translation=들여오기
 
 [file.plugins/note-composer]
 original=Note composer
@@ -425,6 +425,10 @@ translation=사이트 사용자 지정
 [file.publish/domains]
 original=Custom domains
 translation=사용자 지정 도메인
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless 게재
 
 [file.publish/limitations]
 original=Publish limitations
@@ -643,12 +647,12 @@ original=Filters
 translation=필터
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=웹 페이지 하이라이트
+original=Highlighter
+translation=하이라이터
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=웹 페이지 해석
+original=Interpreter
+translation=인터프리터
 
 [file.web-clipper/logic]
 original=Logic
