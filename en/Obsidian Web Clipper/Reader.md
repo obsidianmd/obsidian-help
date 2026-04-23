@@ -11,7 +11,7 @@ You can activate Reader in several ways:
 - **Keyboard shortcut** customizable in the extension settings.
 - **Context menu** by right-clicking the web page you are visiting.
 
-You can also set the ![[obsidian.svg#icon|20]] extension button to open Reader in one click. In the Web Clipper settings go to **General** → **Behavior** → **Open behavior** and choose **Reader**.
+You can also set the ![[obsidian.svg#icon]] extension button to open Reader in one click. In the Web Clipper settings go to **General** → **Behavior** → **Open behavior** and choose **Reader**.
 
 All of the options above also allow you to exit Reader and restore the original page.
 
