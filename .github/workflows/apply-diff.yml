@@ -76,22 +76,37 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install script dependencies
+        run: npm install
+        working-directory: scripts
+
       - name: Download all patches
         uses: actions/download-artifact@v4
         with:
           pattern: patch-*
           path: /tmp/patches
 
-      - name: Apply patches and commit
+      - name: Apply patches
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
           for patch in /tmp/patches/patch-*/*.patch; do
             [ -s "$patch" ] || continue  # skip empty patches
             echo "Applying $patch"
             git apply "$patch"
           done
+
+      - name: Rebuild locale publish.css and publish.js
+        run: |
+          npx tsx scripts/build-publish-css.ts
+          npx tsx scripts/build-publish-js.ts
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git diff --staged --quiet && git diff --quiet && echo "No changes to commit" && exit 0
           git add .
