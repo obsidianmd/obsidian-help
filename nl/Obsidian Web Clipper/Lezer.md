@@ -11,7 +11,7 @@ Je kunt de Lezer op verschillende manieren activeren:
 - **Sneltoets** aanpasbaar in de extensie-instellingen.
 - **Contextmenu** door met de rechtermuisknop te klikken op de webpagina die je bezoekt.
 
-Je kunt ook de ![[obsidian.svg#icon|20]] extensieknop instellen om de Lezer met één klik te openen. Ga in de Web Clipper-instellingen naar **Algemeen** → **Gedrag** → **Opengedrag** en kies **Lezer**.
+Je kunt ook de ![[obsidian.svg#icon]] extensieknop instellen om de Lezer met één klik te openen. Ga in de Web Clipper-instellingen naar **Algemeen** → **Gedrag** → **Opengedrag** en kies **Lezer**.
 
 Alle bovenstaande opties stellen je ook in staat om de Lezer te verlaten en de oorspronkelijke pagina te herstellen.
 

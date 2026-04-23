@@ -13,7 +13,8 @@ L'Interprete è una funzionalità di [[Introduzione a Obsidian Web Clipper|Web C
 
 L'Interprete sfrutta modelli linguistici per elaborare le informazioni su una pagina web e restituire risultati utilizzando le [[Variabili|Variabili]] che puoi aggiungere ai tuoi [[Modelli|Modelli di Web Clipper]].
 
-![[web-clipper-interpreter-demo.mp4#interface]]
+<div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/8j5qu8twj1?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
+
 
 ## Esempi di prompt
 

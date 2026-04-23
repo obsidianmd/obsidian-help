@@ -10,7 +10,8 @@ Thông dịch là tính năng của [[Giới thiệu về Obsidian Web Clipper|W
 
 Thông dịch tận dụng các mô hình ngôn ngữ để xử lý thông tin trên trang web và trả về kết quả bằng [[Biến]] mà bạn có thể thêm vào [[Obsidian Web Clipper/Mẫu|Mẫu Web Clipper]] của mình.
 
-![[web-clipper-interpreter-demo.mp4#interface]]
+<div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/8j5qu8twj1?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
+
 
 ## Ví dụ về câu lệnh
 

@@ -1,32 +1,42 @@
 ---
 permalink: web-clipper/highlight
 ---
-[[Obsidian Web Kırpıcı'ya giriş|Web Kırpıcı]], web sayfalarındaki metinleri vurgulamanıza ve Obsidian'a kaydetmek istediğiniz öğeleri seçmenize olanak tanır. Vurgularınız kaydedilir, böylece bir sayfaya geri döndüğünüzde bunları tekrar inceleyebilirsiniz.
+[[Obsidian Web Kırpıcı'ya giriş|Web Kırpıcı]], web sayfalarındaki metinleri vurgulamanıza ve Obsidian'a kaydetmek istediğiniz öğeleri seçmenize olanak tanır. Vurgular kaydedilir, böylece bir sayfaya geri döndüğünüzde bunları görebilirsiniz.
 
-Vurgular, uzantıyı açtığınızda [[Web sayfalarını kırpma|yakalanabilir]] ve Obsidian'a kaydedilebilir.
+Vurgular uzantı kullanılarak Obsidian'a kaydedilebilir. Vurgulayıcı seçeneklerini uzantı ayarlarında tanımlayabilirsiniz.
 
-## Vurgulayıcıyı açma
+<div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/f2674kdaot?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
 
-Tarayıcınıza bağlı olarak vurgulamayı birkaç yolla açabilirsiniz:
+## Vurgulayıcıyı kullanma
 
-- Uzantı panelindeki vurgulayıcı simgesi.
-- Kısayol tuşları, klavyenizden uzantıyı etkinleştirmek için.
-- Bağlam menüsü, ziyaret ettiğiniz web sayfasına sağ tıklayarak.
+Vurgulayıcı canlı web sayfalarında veya [[Okuyucu|Okuyucu]]'da kullanılabilir. Okuyucu görünümünde metin seçimi oluşturmak size onu vurgulama seçeneği sunar.
 
-Vurgulama açıldığında, vurgulamak istediğiniz metni, görselleri ve öğeleri seçebilirsiniz.
+Ayrıca vurgulayıcıyı etkinleştirerek seçimleri otomatik olarak vurgularınıza ekleyebilirsiniz:
 
-## Vurgulayıcı ayarları
+- Uzantı panelindeki veya Okuyucu araç çubuğundaki ![[lucide-highlighter.svg#icon]] **Vurgulayıcı simgesi**.
+- Uzantı ayarlarında özelleştirilebilir **kısayol tuşları**.
+- Ziyaret ettiğiniz web sayfasına sağ tıklayarak **bağlam menüsü**.
 
-Web Kırpıcı ayarlarına giderek vurgulayıcı davranışını değiştirebilirsiniz. Burada ayrıca vurgularınızı bir `.json` dosyasına dışa aktarabilirsiniz.
+Vurgulayıcı açıldığında, seçilen herhangi bir metin, görsel ve öğe vurgularınıza eklenecektir. Yukarıdaki tüm yöntemler ayrıca vurgulayıcıdan çıkmanıza da olanak tanır.
 
-Vurguların `{{content}}` [[Değişkenler|değişkeni]] aracılığıyla kırpılmış notunuza eklenmesi için üç seçenek vardır:
+## Notlara vurgu ekleme
+
+Vurguların kırpılmış notlarınıza nasıl ekleneceğine dair üç seçenek vardır:
 
 - **Sayfa içeriğini vurgula** — vurguları doğrudan metne `==vurgu==` [[Obsidian Flavored Markdown|söz dizimi]] ile ekler.
 - **Sayfa içeriğini değiştir** — sayfa içeriği olmadan yalnızca vurguların bir listesini döndürür.
 - **Hiçbir şey yapma** — orijinal içeriği vurgular olmadan döndürür.
-
-`{{highlights}}` değişkenini kullanarak vurguları doğrudan şablonunuza ekleyebilirsiniz, örneğin:
+ 
+Bu seçenekler şablonunuzdaki `{{content}}` [[Değişkenler|değişkenini]] değiştirir. Ayrıca `{{highlights}}` değişkenini kullanarak vurguları doğrudan şablonunuza ekleyebilirsiniz, örneğin:
 
 ```
 {{highlights|map: item => item.text|join:"\n\n"}}
 ```
+
+## Vurguları görüntüleme ve arama
+
+Oluşturduğunuz tüm vurgular Vurgular sayfanızda görüntülenebilir. Bu sayfayı **Ayarlar** → **Vurgulayıcı** yolunu izleyerek açabilirsiniz.
+
+## Vurguları dışa aktarma
+
+Vurgular, Ayarlar sayfasında veya Vurgular sayfasında bir `.json` dosyasına dışa aktarılabilir.

@@ -1,32 +1,42 @@
 ---
 permalink: web-clipper/highlight
 ---
-[[Introduktion til Obsidian Web Clipper|Web Clipper]] lader dig fremhæve tekst på websider og vælge de elementer, du vil gemme til Obsidian. Dine fremhævninger gemmes, så du kan genbesøge dem, når du vender tilbage til en side.
+[[Introduktion til Obsidian Web Clipper|Web Clipper]] lader dig fremhæve tekst på websider og vælge de elementer, du vil gemme til Obsidian. Fremhævninger gemmes, så du kan se dem, når du vender tilbage til en side.
 
-Fremhævninger kan [[Klip websider|klippes]] og gemmes til Obsidian, når du åbner udvidelsen.
+Fremhævninger kan gemmes til Obsidian ved hjælp af udvidelsen. Du kan definere fremhævningsindstillinger i udvidelsens indstillinger.
 
-## Slå fremhævning til
+<div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/f2674kdaot?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
 
-Du kan slå fremhævning til på flere måder, afhængigt af din browser:
+## Brug fremhævningsværktøjet
 
-- Fremhævningsikonet i udvidelsespanelet.
-- Genvejstaster, for at aktivere udvidelsen fra dit tastatur.
-- Kontekstmenuen, ved at højreklikke på den webside, du besøger.
+Fremhævningsværktøjet kan bruges på live websider eller i [[Læser]]. I Reader-visningen giver oprettelse af en tekstmarkering dig mulighed for at fremhæve den.
 
-Når fremhævning er slået til, kan du markere tekst, billeder og elementer, du vil fremhæve.
+Du kan også automatisk tilføje markeringer til dine fremhævninger ved at aktivere fremhævningsværktøjet:
 
-## Indstillinger for fremhævning
+- ![[lucide-highlighter.svg#icon]] **Fremhævningsikonet** i udvidelsespanelet eller Reader-værktøjslinjen.
+- **Genvejstaster**, der kan tilpasses i udvidelsens indstillinger.
+- **Kontekstmenuen**, ved at højreklikke på den webside, du besøger.
 
-Du kan ændre fremhævningens adfærd ved at gå til Web Clipper-indstillinger. Her kan du også eksportere dine fremhævninger til en `.json`-fil.
+Når fremhævningsværktøjet er slået til, vil al markeret tekst, billeder og elementer blive tilføjet til dine fremhævninger. Alle ovenstående metoder giver dig også mulighed for at forlade fremhævningsværktøjet.
 
-Der er tre muligheder for, hvordan fremhævninger indsættes i din klippede note via `{{content}}`-[[Variabler|variablen]]:
+## Tilføj fremhævninger til noter
+
+Der er tre muligheder for, hvordan fremhævninger kan indsættes i dine klippede noter:
 
 - **Fremhæv indhold på siden** — tilføjer fremhævninger direkte i teksten med [[Obsidian Flavored Markdown|syntaksen]] `==highlight==`.
 - **Erstat noteindhold** — returnerer en liste af fremhævninger uden noget af sidens indhold.
 - **Ingen fremhævninger** — returnerer det originale indhold uden fremhævninger.
-
-Du kan tilføje fremhævninger direkte til din skabelon ved hjælp af `{{highlights}}`-variablen, for eksempel:
+ 
+Disse muligheder ændrer `{{content}}`-[[Variabler|variablen]] i din skabelon. Du kan også tilføje fremhævninger direkte til din skabelon ved hjælp af `{{highlights}}`-variablen, for eksempel:
 
 ```
 {{highlights|map: item => item.text|join:"\n\n"}}
 ```
+
+## Se og søg i fremhævninger
+
+Alle de fremhævninger, du opretter, kan ses på din Fremhævninger-side. Du kan åbne denne side ved at gå til **Indstillinger** → **Fremhævning**.
+
+## Eksportér fremhævninger
+
+Fremhævninger kan eksporteres til en `.json`-fil, enten på Indstillinger-siden eller på Fremhævninger-siden.

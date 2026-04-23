@@ -11,7 +11,7 @@ Voit aktivoida Lukijan useilla tavoilla:
 - **Pikanäppäin**, muokattavissa laajennuksen asetuksissa.
 - **Kontekstivalikko** napsauttamalla hiiren oikealla painikkeella vierailemaasi verkkosivua.
 
-Voit myös asettaa ![[obsidian.svg#icon|20]] laajennuspainikkeen avaamaan Lukijan yhdellä napsautuksella. Siirry Web Clipperin asetuksissa kohtaan **General** → **Behavior** → **Open behavior** ja valitse **Reader**.
+Voit myös asettaa ![[obsidian.svg#icon]] laajennuspainikkeen avaamaan Lukijan yhdellä napsautuksella. Siirry Web Clipperin asetuksissa kohtaan **General** → **Behavior** → **Open behavior** ja valitse **Reader**.
 
 Kaikilla yllä mainituilla tavoilla voit myös poistua Lukijasta ja palauttaa alkuperäisen sivun.
 

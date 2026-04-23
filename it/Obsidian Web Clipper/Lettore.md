@@ -13,7 +13,7 @@ aliases:
 - **Scorciatoia da tastiera** personalizzabile nelle impostazioni dell'estensione.
 - **Menu contestuale** facendo clic destro sulla pagina web che si sta visitando.
 
-È anche possibile impostare il pulsante dell'estensione ![[obsidian.svg#icon|20]] per aprire il Lettore con un solo clic. Nelle impostazioni di Web Clipper andare su **Generale** → **Comportamento** → **Comportamento di apertura** e scegliere **Lettore**.
+È anche possibile impostare il pulsante dell'estensione ![[obsidian.svg#icon]] per aprire il Lettore con un solo clic. Nelle impostazioni di Web Clipper andare su **Generale** → **Comportamento** → **Comportamento di apertura** e scegliere **Lettore**.
 
 Tutte le opzioni sopra indicate consentono anche di uscire dal Lettore e ripristinare la pagina originale.
 

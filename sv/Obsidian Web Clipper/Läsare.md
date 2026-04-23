@@ -11,7 +11,7 @@ Du kan aktivera Läsare på flera sätt:
 - **Tangentbordsgenväg** anpassningsbar i tilläggsinställningarna.
 - **Kontextmeny** genom att högerklicka på webbsidan du besöker.
 
-Du kan också ställa in ![[obsidian.svg#icon|20]] tilläggsknappen för att öppna Läsare med ett klick. I Web Clipper-inställningarna gå till **Allmänt** → **Beteende** → **Öppningsbeteende** och välj **Läsare**.
+Du kan också ställa in ![[obsidian.svg#icon]] tilläggsknappen för att öppna Läsare med ett klick. I Web Clipper-inställningarna gå till **Allmänt** → **Beteende** → **Öppningsbeteende** och välj **Läsare**.
 
 Alla alternativ ovan låter dig även avsluta Läsare och återställa den ursprungliga sidan.
 

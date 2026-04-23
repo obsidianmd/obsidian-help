@@ -11,7 +11,7 @@ Az Olvasót többféleképpen aktiválhatja:
 - **Billentyűkombináció**, amely a bővítmény beállításaiban testreszabható.
 - **Helyi menü** a meglátogatott weboldalra jobb egérgombbal kattintva.
 
-Beállíthatja az ![[obsidian.svg#icon|20]] bővítmény gombot is, hogy az Olvasót nyissa meg egyetlen kattintással. A Web Clipper beállításaiban navigáljon az **Általános** → **Viselkedés** → **Megnyitási viselkedés** menüpontra, és válassza az **Olvasó** lehetőséget.
+Beállíthatja az ![[obsidian.svg#icon]] bővítmény gombot is, hogy az Olvasót nyissa meg egyetlen kattintással. A Web Clipper beállításaiban navigáljon az **Általános** → **Viselkedés** → **Megnyitási viselkedés** menüpontra, és válassza az **Olvasó** lehetőséget.
 
 A fenti lehetőségek mindegyike lehetővé teszi az Olvasóból való kilépést és az eredeti oldal visszaállítását is.
 

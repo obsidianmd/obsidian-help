@@ -11,7 +11,7 @@ Czytnik można aktywować na kilka sposobów:
 - **Skrót klawiszowy** konfigurowalny w ustawieniach rozszerzenia.
 - **Menu kontekstowe** po kliknięciu prawym przyciskiem myszy na odwiedzanej stronie.
 
-Możesz również ustawić przycisk rozszerzenia ![[obsidian.svg#icon|20]] tak, aby otwierał Czytnik jednym kliknięciem. W ustawieniach Web Clippera przejdź do **Ogólne** → **Zachowanie** → **Zachowanie przy otwarciu** i wybierz **Czytnik**.
+Możesz również ustawić przycisk rozszerzenia ![[obsidian.svg#icon]] tak, aby otwierał Czytnik jednym kliknięciem. W ustawieniach Web Clippera przejdź do **Ogólne** → **Zachowanie** → **Zachowanie przy otwarciu** i wybierz **Czytnik**.
 
 Wszystkie powyższe opcje pozwalają również wyjść z Czytnika i przywrócić oryginalną stronę.
 

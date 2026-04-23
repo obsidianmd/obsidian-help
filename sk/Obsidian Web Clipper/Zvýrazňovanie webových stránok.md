@@ -1,32 +1,42 @@
 ---
 permalink: web-clipper/highlight
 ---
-[[Úvod do Obsidian Web Clipper|Web Clipper]] vám umožňuje zvýrazňovať text na webových stránkach a vyberať prvky, ktoré chcete uložiť do Obsidian. Vaše zvýraznenia sa ukladajú, takže sa k nim môžete vrátiť, keď znova navštívite stránku.
+[[Úvod do Obsidian Web Clipper|Web Clipper]] vám umožňuje zvýrazňovať text na webových stránkach a vyberať prvky, ktoré chcete uložiť do Obsidian. Zvýraznenia sa ukladajú, takže ich môžete vidieť, keď znova navštívite stránku.
 
-Zvýraznenia je možné [[Zachytávanie webových stránok|zachytiť]] a uložiť do Obsidian, keď otvoríte rozšírenie.
+Zvýraznenia je možné uložiť do Obsidian pomocou rozšírenia. Možnosti zvýrazňovača môžete definovať v nastaveniach rozšírenia.
 
-## Zapnutie zvýrazňovača
+<div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/f2674kdaot?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
 
-Zvýrazňovanie môžete zapnúť niekoľkými spôsobmi, v závislosti od vášho prehliadača:
+## Používanie zvýrazňovača
 
-- Ikona zvýrazňovača v paneli rozšírenia.
-- Klávesové skratky na aktiváciu rozšírenia z klávesnice.
-- Kontextové menu kliknutím pravým tlačidlom myši na webovú stránku, ktorú navštevujete.
+Zvýrazňovač je možné používať na živých webových stránkach alebo v [[Čítačka|Čítačke]]. V zobrazení Čítačky vám vytvorenie výberu textu ponúkne možnosť ho zvýrazniť.
 
-Po zapnutí zvýrazňovania môžete vyberať text, obrázky a prvky, ktoré chcete zvýrazniť.
+Môžete tiež automaticky pridávať výbery do svojich zvýraznení aktivovaním zvýrazňovača:
 
-## Nastavenia zvýrazňovača
+- ![[lucide-highlighter.svg#icon]] **Ikona zvýrazňovača** v paneli rozšírenia alebo na paneli nástrojov Čítačky.
+- **Klávesová skratka** prispôsobiteľná v nastaveniach rozšírenia.
+- **Kontextové menu** kliknutím pravým tlačidlom myši na webovú stránku, ktorú navštevujete.
 
-Správanie zvýrazňovača môžete zmeniť v nastaveniach Web Clipper. Tu môžete tiež exportovať vaše zvýraznenia do súboru `.json`.
+Po zapnutí zvýrazňovača sa každý vybraný text, obrázky a prvky pridajú do vašich zvýraznení. Všetky vyššie uvedené metódy vám tiež umožňujú zvýrazňovač vypnúť.
 
-Existujú tri možnosti, ako sa zvýraznenia vložia do vašej zachytenej poznámky prostredníctvom [[Premenné|premennej]] `{{content}}`:
+## Pridávanie zvýraznení do poznámok
+
+Existujú tri možnosti, ako sa zvýraznenia vložia do vašich zachytených poznámok:
 
 - **Zvýrazniť obsah stránky** — pridá zvýraznenia priamo do textu so [[Obsidian Flavored Markdown|syntaxou]] `==zvýraznenie==`.
 - **Nahradiť obsah stránky** — vráti zoznam zvýraznení bez obsahu stránky.
 - **Nerobiť nič** — vráti pôvodný obsah bez zvýraznení.
-
-Zvýraznenia môžete pridať priamo do vašej šablóny pomocou premennej `{{highlights}}`, napríklad:
+ 
+Tieto možnosti menia [[Premenné|premennú]] `{{content}}` vo vašej šablóne. Zvýraznenia môžete pridať priamo do vašej šablóny aj pomocou premennej `{{highlights}}`, napríklad:
 
 ```
 {{highlights|map: item => item.text|join:"\n\n"}}
 ```
+
+## Zobrazenie a vyhľadávanie zvýraznení
+
+Všetky zvýraznenia, ktoré vytvoríte, si môžete zobraziť na stránke Zvýraznenia. Túto stránku otvoríte cez **Nastavenia** → **Zvýrazňovač**.
+
+## Export zvýraznení
+
+Zvýraznenia je možné exportovať do súboru `.json`, a to buď na stránke Nastavenia, alebo na stránke Zvýraznenia.

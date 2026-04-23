@@ -11,7 +11,7 @@ Pode ativar o Leitor de várias formas:
 - **Atalho de teclado** personalizável nas definições da extensão.
 - **Menu de contexto** clicando com o botão direito na página web que está a visitar.
 
-Também pode definir o botão da extensão ![[obsidian.svg#icon|20]] para abrir o Leitor com um clique. Nas definições do Web Clipper, vá a **Geral** → **Comportamento** → **Comportamento ao abrir** e escolha **Leitor**.
+Também pode definir o botão da extensão ![[obsidian.svg#icon]] para abrir o Leitor com um clique. Nas definições do Web Clipper, vá a **Geral** → **Comportamento** → **Comportamento ao abrir** e escolha **Leitor**.
 
 Todas as opções acima também permitem sair do Leitor e restaurar a página original.
 

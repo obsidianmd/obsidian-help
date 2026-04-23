@@ -11,7 +11,7 @@ Anda dapat mengaktifkan Pembaca dengan beberapa cara:
 - **Pintasan keyboard** dapat disesuaikan di pengaturan ekstensi.
 - **Menu konteks** dengan mengklik kanan halaman web yang sedang Anda kunjungi.
 
-Anda juga dapat mengatur tombol ekstensi ![[obsidian.svg#icon|20]] untuk membuka Pembaca dalam satu klik. Di pengaturan Web Clipper, buka **General** → **Behavior** → **Open behavior** dan pilih **Reader**.
+Anda juga dapat mengatur tombol ekstensi ![[obsidian.svg#icon]] untuk membuka Pembaca dalam satu klik. Di pengaturan Web Clipper, buka **General** → **Behavior** → **Open behavior** dan pilih **Reader**.
 
 Semua opsi di atas juga memungkinkan Anda keluar dari Pembaca dan mengembalikan halaman asli.
 

@@ -11,7 +11,7 @@ Du kan aktivere Læser på flere måder:
 - **Tastaturgenvej** som kan tilpasses i udvidelsens indstillinger.
 - **Kontekstmenu** ved at højreklikke på den webside, du besøger.
 
-Du kan også indstille ![[obsidian.svg#icon|20]] udvidelsesknappen til at åbne Læser med ét klik. I Web Clipper-indstillingerne gå til **Generelt** → **Adfærd** → **Åbningsadfærd** og vælg **Læser**.
+Du kan også indstille ![[obsidian.svg#icon]] udvidelsesknappen til at åbne Læser med ét klik. I Web Clipper-indstillingerne gå til **Generelt** → **Adfærd** → **Åbningsadfærd** og vælg **Læser**.
 
 Alle ovenstående muligheder giver dig også mulighed for at afslutte Læser og gendanne den originale side.
 

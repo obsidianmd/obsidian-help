@@ -11,7 +11,7 @@ permalink: web-clipper/reader
 - **Klávesová zkratka** přizpůsobitelná v nastavení rozšíření.
 - **Kontextové menu** kliknutím pravým tlačítkem na webovou stránku, kterou navštěvujete.
 
-Můžete také nastavit tlačítko rozšíření ![[obsidian.svg#icon|20]] tak, aby Čtečku otevřelo jedním kliknutím. V nastavení Web Clipperu přejděte na **General** → **Behavior** → **Open behavior** a zvolte **Reader**.
+Můžete také nastavit tlačítko rozšíření ![[obsidian.svg#icon]] tak, aby Čtečku otevřelo jedním kliknutím. V nastavení Web Clipperu přejděte na **General** → **Behavior** → **Open behavior** a zvolte **Reader**.
 
 Všechny výše uvedené možnosti také umožňují ukončit Čtečku a obnovit původní stránku.
 

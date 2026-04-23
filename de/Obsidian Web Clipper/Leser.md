@@ -13,7 +13,7 @@ Der Leser kann auf verschiedene Weisen aktiviert werden:
 - **Tastenkürzel**, anpassbar in den Erweiterungseinstellungen.
 - **Kontextmenü** durch Rechtsklick auf die besuchte Webseite.
 
-Du kannst auch die ![[obsidian.svg#icon|20]] Erweiterungsschaltfläche so einstellen, dass der Leser mit einem Klick geöffnet wird. Gehe in den Web Clipper-Einstellungen zu **Allgemein** → **Verhalten** → **Öffnungsverhalten** und wähle **Leser**.
+Du kannst auch die ![[obsidian.svg#icon]] Erweiterungsschaltfläche so einstellen, dass der Leser mit einem Klick geöffnet wird. Gehe in den Web Clipper-Einstellungen zu **Allgemein** → **Verhalten** → **Öffnungsverhalten** und wähle **Leser**.
 
 Alle oben genannten Optionen ermöglichen es auch, den Leser zu beenden und die Originalseite wiederherzustellen.
 

@@ -11,7 +11,7 @@ Okuyucu'yu birkaç yolla etkinleştirebilirsiniz:
 - Eklenti ayarlarından özelleştirilebilir **klavye kısayolu**.
 - Ziyaret ettiğiniz web sayfasına sağ tıklayarak **bağlam menüsü**.
 
-Ayrıca ![[obsidian.svg#icon|20]] eklenti düğmesini tek tıklamayla Okuyucu'yu açacak şekilde ayarlayabilirsiniz. Web Kırpıcı ayarlarında **Genel** → **Davranış** → **Açma davranışı** bölümüne gidin ve **Okuyucu** seçeneğini belirleyin.
+Ayrıca ![[obsidian.svg#icon]] eklenti düğmesini tek tıklamayla Okuyucu'yu açacak şekilde ayarlayabilirsiniz. Web Kırpıcı ayarlarında **Genel** → **Davranış** → **Açma davranışı** bölümüne gidin ve **Okuyucu** seçeneğini belirleyin.
 
 Yukarıdaki seçeneklerin tümü ayrıca Okuyucu'dan çıkmanıza ve orijinal sayfayı geri yüklemenize olanak tanır.
 

@@ -11,7 +11,7 @@ Du kan aktivere Lesevisning på flere måter:
 - **Tastatursnarvei** kan tilpasses i utvidelsesinnstillingene.
 - **Kontekstmeny** ved å høyreklikke på nettsiden du besøker.
 
-Du kan også sette ![[obsidian.svg#icon|20]] utvidelsesknappen til å åpne Lesevisning med ett klikk. I Web Clipper-innstillingene gå til **Generelt** → **Oppførsel** → **Åpne-oppførsel** og velg **Lesevisning**.
+Du kan også sette ![[obsidian.svg#icon]] utvidelsesknappen til å åpne Lesevisning med ett klikk. I Web Clipper-innstillingene gå til **Generelt** → **Oppførsel** → **Åpne-oppførsel** og velg **Lesevisning**.
 
 Alle alternativene ovenfor lar deg også avslutte Lesevisning og gjenopprette den opprinnelige siden.
 

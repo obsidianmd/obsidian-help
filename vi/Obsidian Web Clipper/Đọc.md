@@ -11,7 +11,7 @@ Bạn có thể kích hoạt Đọc bằng nhiều cách:
 - **Phím tắt** có thể tùy chỉnh trong cài đặt tiện ích mở rộng.
 - **Menu ngữ cảnh** bằng cách nhấp chuột phải vào trang web bạn đang truy cập.
 
-Bạn cũng có thể đặt nút tiện ích mở rộng ![[obsidian.svg#icon|20]] để mở Đọc chỉ với một cú nhấp. Trong cài đặt Web Clipper, vào **Chung** → **Hành vi** → **Hành vi mở** và chọn **Đọc**.
+Bạn cũng có thể đặt nút tiện ích mở rộng ![[obsidian.svg#icon]] để mở Đọc chỉ với một cú nhấp. Trong cài đặt Web Clipper, vào **Chung** → **Hành vi** → **Hành vi mở** và chọn **Đọc**.
 
 Tất cả các tùy chọn trên cũng cho phép bạn thoát Đọc và khôi phục trang gốc.
 
