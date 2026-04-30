@@ -473,6 +473,8 @@ You can also use inline footnotes. ^[This is an inline footnote.]
 > [!note] Note
 > Inline footnotes only work in reading view, not in Live Preview.
 
+Use the [[Footnotes view]] to see all footnotes in a note.
+
 ## Comments
 
 You can add comments by wrapping text with `%%`. Comments are only visible in Editing view.

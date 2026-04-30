@@ -39,6 +39,8 @@ The Obsidian team also maintains the development of certain [[#Other plugins|ope
 	- Browse files and folders inside your vault.
 - [[File recovery]]
 	-  Recover your work from regular snapshots.
+- [[Footnotes view]]
+	- Show a list of footnotes from the current note.
 - [[Format converter]]
 	- Convert Markdown from other apps to Obsidian format.
 - [[Graph view]]
