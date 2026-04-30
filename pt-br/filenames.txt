@@ -272,7 +272,7 @@ translation=Sobre o Obsidian
 
 [file.obsidian-flavored-markdown]
 original=Obsidian Flavored Markdown
-translation=Obsidian Flavored Markdown
+translation=Markdown do Obsidian
 
 [file.official-site]
 original=Official website
@@ -321,6 +321,10 @@ translation=Explorador de arquivos
 [file.plugins/file-recovery]
 original=File recovery
 translation=Recuperação de arquivos
+
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Visualização de notas de rodapé
 
 [file.plugins/format-converter]
 original=Format converter

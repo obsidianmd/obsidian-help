@@ -322,6 +322,10 @@ translation=Dosya Gezgini
 original=File recovery
 translation=Dosya Kurtarma
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Dipnot görünümü
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Markdown formatı içe aktarıcı
@@ -647,12 +651,12 @@ original=Filters
 translation=Filtreler
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Web sayfalarını vurgulama
+original=Highlighter
+translation=Vurgulayıcı
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Web sayfalarını yorumlama
+original=Interpreter
+translation=Yorumlayıcı
 
 [file.web-clipper/logic]
 original=Logic

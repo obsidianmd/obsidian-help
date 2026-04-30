@@ -322,6 +322,10 @@ translation=Fájlkezelő
 original=File recovery
 translation=Fájl-visszaállítás
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Lábjegyzet nézet
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Formátum-konvertáló
@@ -647,12 +651,12 @@ original=Filters
 translation=Szűrők
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Weboldalak kiemelése
+original=Highlighter
+translation=Kiemelő
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Weboldalak értelmezése
+original=Interpreter
+translation=Interpreter
 
 [file.web-clipper/logic]
 original=Logic

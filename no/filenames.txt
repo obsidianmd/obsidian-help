@@ -148,7 +148,7 @@ translation=Økonomiske bidrag
 
 [file.folding]
 original=Folding
-translation=Folding
+translation=Fold/skjul
 
 [file.formulas]
 original=Formulas
@@ -321,6 +321,10 @@ translation=Filutforsker
 [file.plugins/file-recovery]
 original=File recovery
 translation=Filgjenoppretting
+
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Fotnotevisning
 
 [file.plugins/format-converter]
 original=Format converter
@@ -647,12 +651,12 @@ original=Filters
 translation=Filtre
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Uthev nettsider
+original=Highlighter
+translation=Uthever
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Tolk nettsider
+original=Interpreter
+translation=Tolk
 
 [file.web-clipper/logic]
 original=Logic

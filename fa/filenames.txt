@@ -160,7 +160,7 @@ translation=واژه‌نامه
 
 [file.headless]
 original=Obsidian Headless
-translation=Obsidian Headless
+translation=Obsidian بدون رابط کاربری
 
 [file.hotkeys]
 original=Hotkeys
@@ -272,7 +272,7 @@ translation=درباره‌ی Obsidian
 
 [file.obsidian-flavored-markdown]
 original=Obsidian Flavored Markdown
-translation=Obsidian Flavored Markdown
+translation=Markdown به سبک Obsidian
 
 [file.official-site]
 original=Official website
@@ -321,6 +321,10 @@ translation=مرورگر فایل
 [file.plugins/file-recovery]
 original=File recovery
 translation=بازیابی پرونده
+
+[file.plugins/footnotes]
+original=Footnotes view
+translation=نمای پانویس‌ها
 
 [file.plugins/format-converter]
 original=Format converter
@@ -532,7 +536,7 @@ translation=پرسش‌های متداول
 
 [file.sync/headless]
 original=Headless Sync
-translation=Headless Sync
+translation=Sync بدون رابط کاربری
 
 [file.sync/messages]
 original=Status icon and messages
@@ -647,12 +651,12 @@ original=Filters
 translation=پالایه‌ها
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=هایلایت صفحات وب
+original=Highlighter
+translation=مارکر
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=تفسیر صفحات وب
+original=Interpreter
+translation=تفسیرگر
 
 [file.web-clipper/logic]
 original=Logic

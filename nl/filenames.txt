@@ -100,7 +100,7 @@ translation=Obsidian-tegoed
 
 [file.credits]
 original=Credits
-translation=Credits
+translation=Erkenningen
 
 [file.data-storage]
 original=How Obsidian stores data
@@ -322,6 +322,10 @@ translation=Bestandsverkenner
 original=File recovery
 translation=Bestanden herstellen
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Voetnotenweergave
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Markdown-indeling importeren
@@ -332,7 +336,7 @@ translation=Grafiek weergave
 
 [file.plugins/importer]
 original=Importer
-translation=Importer
+translation=Importeren
 
 [file.plugins/note-composer]
 original=Note composer
@@ -647,12 +651,12 @@ original=Filters
 translation=Filters
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Webpagina's arceren
+original=Highlighter
+translation=Markeerder
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Webpagina's interpreteren
+original=Interpreter
+translation=Interpreter
 
 [file.web-clipper/logic]
 original=Logic

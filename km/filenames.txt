@@ -322,6 +322,10 @@ translation=កម្មវិធីរុករកឯកសារ
 original=File recovery
 translation=ការស្តារឯកសារឡើងវិញ
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=ទិដ្ឋភាពកំណត់ចំណាំជើងទំព័រ
+
 [file.plugins/format-converter]
 original=Format converter
 translation=កម្មវិធីបម្លែងទ្រង់ទ្រាយ
@@ -647,12 +651,12 @@ original=Filters
 translation=តម្រង
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=ពណ៌ចំណាំទំព័របណ្តាញ
+original=Highlighter
+translation=ឧបករណ៍រំលេច
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=បកស្រាយទំព័របណ្តាញ
+original=Interpreter
+translation=Interpreter
 
 [file.web-clipper/logic]
 original=Logic

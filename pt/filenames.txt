@@ -322,6 +322,10 @@ translation=Explorador de ficheiros
 original=File recovery
 translation=Recuperação de ficheiros
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Vista de notas de rodapé
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Importador de formato Markdown
@@ -647,12 +651,12 @@ original=Filters
 translation=Filtros
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Destacar páginas web
+original=Highlighter
+translation=Realçador
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Interpretar páginas web
+original=Interpreter
+translation=Intérprete
 
 [file.web-clipper/logic]
 original=Logic

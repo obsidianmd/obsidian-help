@@ -14,7 +14,7 @@ Web Clipper menggunakan [Defuddle](https://github.com/kepano/defuddle) untuk men
 Untuk melewati Defuddle di Web Clipper, gunakan metode berikut:
 
 - Pilih teks, atau gunakan `Cmd/Ctrl+A` untuk memilih semua teks.
-- [[Highlighter|Sorot konten]] untuk memilih secara tepat apa yang ingin Anda tangkap.
+- [[Sorot halaman web|Sorot konten]] untuk memilih secara tepat apa yang ingin Anda tangkap.
 - Gunakan [[Obsidian Web Clipper/Template|templat kustom]] untuk situs tersebut.
 
 ### Tidak ada konten yang muncul di Obsidian

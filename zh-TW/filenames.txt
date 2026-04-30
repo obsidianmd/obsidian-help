@@ -96,7 +96,7 @@ translation=建立你的第一則筆記
 
 [file.credit]
 original=Obsidian Credit
-translation=Obsidian Credit
+translation=Obsidian 點數
 
 [file.credits]
 original=Credits
@@ -321,6 +321,10 @@ translation=檔案管理器
 [file.plugins/file-recovery]
 original=File recovery
 translation=檔案還原
+
+[file.plugins/footnotes]
+original=Footnotes view
+translation=註腳檢視
 
 [file.plugins/format-converter]
 original=Format converter
@@ -647,12 +651,12 @@ original=Filters
 translation=過濾設定
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=反白網頁
+original=Highlighter
+translation=反白工具
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=解讀網頁
+original=Interpreter
+translation=解譯器
 
 [file.web-clipper/logic]
 original=Logic

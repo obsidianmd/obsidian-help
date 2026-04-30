@@ -96,7 +96,7 @@ translation=Stwórz swoją pierwszą notatkę
 
 [file.credit]
 original=Obsidian Credit
-translation=Obsidian Credit
+translation=Środki Obsidian
 
 [file.credits]
 original=Credits
@@ -321,6 +321,10 @@ translation=Eksplorator plików
 [file.plugins/file-recovery]
 original=File recovery
 translation=Odzyskiwanie plików
+
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Panel przypisów
 
 [file.plugins/format-converter]
 original=Format converter
@@ -647,12 +651,12 @@ original=Filters
 translation=Filtry
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Wyróżnianie stron internetowych
+original=Highlighter
+translation=Zakreślacz
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Interpretowanie stron internetowych
+original=Interpreter
+translation=Tłumacz
 
 [file.web-clipper/logic]
 original=Logic

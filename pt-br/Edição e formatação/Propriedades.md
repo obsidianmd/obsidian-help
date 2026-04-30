@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: Propriedades permitem organizar informações sobre uma nota. Propriedades contêm dados estruturados como texto, links, datas, caixas de seleção e números.
+description: 'Propriedades permitem organizar informações sobre uma nota. Propriedades contêm dados estruturados como texto, links, datas, caixas de seleção e números.'
 ---
 Propriedades permitem organizar informações sobre uma nota. Propriedades contêm dados estruturados como texto, links, datas, caixas de seleção e números. Propriedades também podem ser usadas em combinação com [[Plugins da comunidade]] que podem fazer coisas úteis com seus dados estruturados.
 
@@ -247,7 +247,7 @@ tags:
 ---
 ```
 
-A propriedade `tags` é uma das [[#Propriedades padrão]] do Obsidian. Veja [[Tags|Tags]] para mais informações sobre o uso de tags no Obsidian.
+A propriedade `tags` é uma das [[#Propriedades padrão]] do Obsidian. Veja [[Etiquetas|Tags]] para mais informações sobre o uso de tags no Obsidian.
 
 ### Propriedades JSON
 

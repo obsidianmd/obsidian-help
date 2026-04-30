@@ -340,7 +340,7 @@ Inclua ícones e imagens quando eles tornarem mais fácil explicar coisas que s�
 
 - As imagens devem estar no formato `.png` ou `.svg`.
 - Se uma imagem parecer muito grande na nota, reduza-a fora do Obsidian ou ajuste suas dimensões conforme explicado em [[Incorporar arquivos#Incorporar uma imagem em uma nota|incorporando uma imagem em uma nota]].
-- Em casos raros, você pode querer colocar imagens especialmente grandes ou complexas em um [[Callouts#Frases de destaque dobráveis|callout recolhível]].
+- Em casos raros, você pode querer colocar imagens especialmente grandes ou complexas em um [[Frases de Destaque#Frases de destaque dobráveis|callout recolhível]].
 - Para janelas pop-up ou modais, a imagem deve mostrar toda a janela do aplicativo Obsidian.
  ![[Style-guide-modal-example.png#interface]]
 

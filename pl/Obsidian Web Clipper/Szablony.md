@@ -62,4 +62,4 @@ Wartości schema.org mogą być również używane do [[Zmienne#Zmienne Schema.o
 
 ### Kontekst zapytania
 
-Gdy [[Interpreter|Tłumacz]] jest włączony, możesz używać [[Zmienne#Zmienne promptów|zmiennych promptów]] do wyodrębniania treści strony za pomocą języka naturalnego. Dla każdego szablonu możesz zdefiniować [[Interpreter#Kontekst|kontekst]], do którego Tłumacz ma dostęp.
+Gdy [[Interpretowanie stron internetowych|Tłumacz]] jest włączony, możesz używać [[Zmienne#Zmienne promptów|zmiennych promptów]] do wyodrębniania treści strony za pomocą języka naturalnego. Dla każdego szablonu możesz zdefiniować [[Interpretowanie stron internetowych#Kontekst|kontekst]], do którego Tłumacz ma dostęp.

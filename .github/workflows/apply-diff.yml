@@ -48,6 +48,15 @@ jobs:
         run: npm install
         working-directory: scripts
 
+      - name: Translate filenames for new EN pages in ${{ matrix.locale }}
+        run: npx tsx scripts/translate-filenames.ts "${{ matrix.locale }}"
+
+      - name: Sync structure to ${{ matrix.locale }} (stubs for new EN pages, remove deleted)
+        run: npx tsx scripts/sync-locale.ts "${{ matrix.locale }}"
+
+      - name: Translate stubs and flagged files in ${{ matrix.locale }}
+        run: npx tsx scripts/translate-locale.ts "${{ matrix.locale }}"
+
       - name: Apply diff to ${{ matrix.locale }}
         run: |
           FROM=${{ github.event.inputs.from_ref || github.event.before }}

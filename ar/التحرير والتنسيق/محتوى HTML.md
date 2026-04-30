@@ -61,7 +61,7 @@ This **will not** be bold and this `will not` be code.
 
 بعض وسوم HTML المضمّنة مثل `<span>` أو `<a>` لديها وظائف محدودة وقد تبدو وكأنها تعرض Markdown، لكن هذا ليس ما يحدث فعليًا. يتم معالجة Markdown خارج سياق HTML.
 
-لمزيد من التفاصيل حول كيفية تعامل Obsidian مع Markdown، انظر [[Obsidian Flavored Markdown]].
+لمزيد من التفاصيل حول كيفية تعامل Obsidian مع Markdown، انظر [[Markdown بنكهة Obsidian]].
 
 ## استخدامات HTML الشائعة
 

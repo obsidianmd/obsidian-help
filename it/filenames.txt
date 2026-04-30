@@ -272,7 +272,7 @@ translation=Informazioni su Obsidian
 
 [file.obsidian-flavored-markdown]
 original=Obsidian Flavored Markdown
-translation=Obsidian Flavored Markdown
+translation=Markdown stile Obsidian
 
 [file.official-site]
 original=Official website
@@ -321,6 +321,10 @@ translation=Esplora file
 [file.plugins/file-recovery]
 original=File recovery
 translation=Recupero file
+
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Vista note a piè di pagina
 
 [file.plugins/format-converter]
 original=Format converter
@@ -428,7 +432,7 @@ translation=Domini personalizzati
 
 [file.publish/headless]
 original=Headless Publish
-translation=Headless Publish
+translation=Publish Headless
 
 [file.publish/limitations]
 original=Publish limitations

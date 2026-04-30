@@ -15,7 +15,7 @@ Per incorporare una pagina web, aggiungi quanto segue nella tua nota e sostituis
 > Alcuni siti web non consentono di incorporarli. Potrebbero invece fornire URL specifici pensati per l'incorporamento. Se il sito web non supporta l'incorporamento, prova a cercare il nome del sito web seguito da "embed iframe". Ad esempio, "youtube embed iframe".
 
 > [!tip] Suggerimento
-> Se stai usando [[Canvas]], puoi incorporare una pagina web in una scheda. Per maggiori informazioni, consulta [[Canvas#Aggiungere schede da pagine web]].
+> Se stai usando [[Lavagna]], puoi incorporare una pagina web in una scheda. Per maggiori informazioni, consulta [[Lavagna#Aggiungere schede da pagine web]].
 
 ## Incorporare un video di YouTube
 

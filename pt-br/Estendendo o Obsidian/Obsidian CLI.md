@@ -969,7 +969,7 @@ total              # retornar contagem de arquivos deletados
 
 ## Etiquetas
 
-Comandos para [[Tags]].
+Comandos para [[Etiquetas]].
 
 ### `tags`
 

@@ -5,7 +5,7 @@ aliases:
 ---
 Il visualizzatore web è un [[Plugin principali|plugin principale]] che consente di aprire collegamenti esterni all'interno di Obsidian su desktop. Questo permette di leggere il contenuto dei collegamenti senza uscire dall'app e facilita il multitasking nei progetti di ricerca web.
 
-I collegamenti esterni si aprono come [[Schede|schede]] che puoi riorganizzare, dividere e aprire in una [[Finestre pop-out|finestra esterna]]. Qualsiasi scheda di pagine web incorporata nei file [[Canvas]] può essere aperta come scheda del visualizzatore web.
+I collegamenti esterni si aprono come [[Schede|schede]] che puoi riorganizzare, dividere e aprire in una [[Finestre pop-out|finestra esterna]]. Qualsiasi scheda di pagine web incorporata nei file [[Lavagna]] può essere aperta come scheda del visualizzatore web.
 
 Il visualizzatore web non sostituisce il tuo browser principale. Il visualizzatore web offre un modo rapido per accedere alle pagine web per la ricerca all'interno di Obsidian. Tuttavia, non offre la piena funzionalità, i controlli di sicurezza o l'estensibilità di un browser dedicato.
 
@@ -25,6 +25,6 @@ Il visualizzatore web blocca la pubblicità per impostazione predefinita. Puoi p
 
 Se utilizzi plugin di Obsidian di terze parti, ti consigliamo di usare il tuo browser principale per attività sensibili e siti web protetti da password invece del visualizzatore web.
 
-Il visualizzatore web è basato sulla stessa funzionalità [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) che consente di incorporare pagine web in [[Canvas]]. Il visualizzatore web è stato [sottoposto a un audit indipendente](https://obsidian.md/it/blog/cure53-second-client-audit/) per verificare che sia stato implementato in modo sicuro.
+Il visualizzatore web è basato sulla stessa funzionalità [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) che consente di incorporare pagine web in [[Lavagna]]. Il visualizzatore web è stato [sottoposto a un audit indipendente](https://obsidian.md/it/blog/cure53-second-client-audit/) per verificare che sia stato implementato in modo sicuro.
 
 I plugin di Obsidian [[Sicurezza dei plugin#Funzionalità dei plugin|non sono isolati in sandbox]] e hanno un controllo profondo sull'app. Questo design consente funzionalità potenti ma comporta anche compromessi in termini di sicurezza. Mentre Obsidian è in esecuzione, i plugin di terze parti hanno pieno accesso ai cookie nel visualizzatore web.

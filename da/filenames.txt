@@ -322,6 +322,10 @@ translation=Filstifinder
 original=File recovery
 translation=Filgenoprettelse
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Fodnotevisning
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Formatkonvertering
@@ -332,7 +336,7 @@ translation=Grafvisning
 
 [file.plugins/importer]
 original=Importer
-translation=Importer
+translation=Importér
 
 [file.plugins/note-composer]
 original=Note composer
@@ -647,12 +651,12 @@ original=Filters
 translation=Filtre
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Fremhæv websider
+original=Highlighter
+translation=Fremhævning
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Fortolk websider
+original=Interpreter
+translation=Fortolker
 
 [file.web-clipper/logic]
 original=Logic

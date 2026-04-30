@@ -322,6 +322,10 @@ translation=Penjelajah berkas
 original=File recovery
 translation=Pemulih berkas
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Tampilan catatan kaki
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Importir format Markdown
@@ -332,7 +336,7 @@ translation=Tampilan grafik
 
 [file.plugins/importer]
 original=Importer
-translation=Importer
+translation=Impor
 
 [file.plugins/note-composer]
 original=Note composer
@@ -647,12 +651,12 @@ original=Filters
 translation=Filter
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Sorot halaman web
+original=Highlighter
+translation=Penyorot
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Interpretasi halaman web
+original=Interpreter
+translation=Interpreter
 
 [file.web-clipper/logic]
 original=Logic

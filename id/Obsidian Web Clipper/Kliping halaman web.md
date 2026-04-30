@@ -17,7 +17,7 @@ Secara bawaan, Web Clipper berupaya mengekstrak secara cerdas hanya konten artik
 
 - Jika templat kustom tersedia, Web Clipper menggunakan templat Anda.
 - Jika ada seleksi teks, Web Clipper menggunakan seleksi tersebut. Anda dapat menggunakan `Ctrl/Cmd+A` untuk memilih seluruh halaman.
-- Jika ada [[Highlighter|sorotan]], Web Clipper menggunakan sorotan tersebut.
+- Jika ada [[Sorot halaman web|sorotan]], Web Clipper menggunakan sorotan tersebut.
 
 ## Mengunduh gambar
 
@@ -40,7 +40,7 @@ Web Clipper menyertakan pintasan keyboard yang dapat Anda gunakan untuk memperce
 
 Antarmuka Web Clipper dibagi menjadi empat bagian:
 
-1. **Header** tempat Anda dapat beralih templat, mengaktifkan [[Highlighter|penyorotan]], [[Pembaca|mode baca]], dan mengakses pengaturan.
+1. **Header** tempat Anda dapat beralih templat, mengaktifkan [[Sorot halaman web|penyorotan]], [[Pembaca|mode baca]], dan mengakses pengaturan.
 2. **Properti** menampilkan [[Properti|metadata]] yang diekstrak dari halaman yang akan disimpan sebagai [[Properti]] di Obsidian.
 3. **Konten catatan** yang akan disimpan ke Obsidian.
 4. **Footer** memungkinkan Anda memilih brankas dan folder, serta menambahkan ke Obsidian.
@@ -49,7 +49,7 @@ Fungsionalitas header meliputi:
 
 - ![[lucide-chevrons-up-down.svg#icon]] **Templat** pengalih untuk menggunakan [[Obsidian Web Clipper/Template|templat]] tersimpan yang ditambahkan di pengaturan ekstensi.
 - ![[lucide-more-horizontal.svg#icon]] Tombol **Lainnya** untuk menampilkan variabel halaman yang dapat Anda gunakan dalam templat.
-- ![[lucide-highlighter.svg#icon]] Tombol **Penyorot** untuk mengaktifkan [[Highlighter|penyorotan]].
+- ![[lucide-highlighter.svg#icon]] Tombol **Penyorot** untuk mengaktifkan [[Sorot halaman web|penyorotan]].
 - ![[lucide-book-icon.svg#icon]] Tombol **Pembaca** untuk mengaktifkan [[Pembaca|tampilan baca]].
 - ![[lucide-picture-in-picture-2.svg#icon]] Tombol **Sematkan** untuk memindahkan Web Clipper dari popup ke dalam halaman.
 - ![[lucide-settings.svg#icon]] Tombol **Pengaturan** untuk membuka pengaturan ekstensi.
@@ -59,4 +59,4 @@ Fungsionalitas footer meliputi:
 - Tombol **Tambah ke Obsidian** untuk menyimpan data ke Obsidian.
 - Dropdown **Vault** untuk beralih antara vault tersimpan yang ditambahkan di pengaturan Web Clipper.
 - Kolom **Folder** untuk menentukan folder tujuan penyimpanan.
-- **Interpreter** untuk menjalankan [[Interpreter|perintah bahasa alami]] pada halaman.
+- **Interpreter** untuk menjalankan [[Interpretasi halaman web|perintah bahasa alami]] pada halaman.

@@ -322,6 +322,10 @@ translation=ファイルエクスプローラー
 original=File recovery
 translation=ファイルリカバリー
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=脚注ビュー
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Markdownフォーマットインポーター

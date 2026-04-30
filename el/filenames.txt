@@ -322,6 +322,10 @@ translation=Εξερεύνηση αρχείων
 original=File recovery
 translation=Ανάκτηση αρχείων
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Προβολή υποσημειώσεων
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Εισαγωγέας μορφής Markdown
@@ -647,12 +651,12 @@ original=Filters
 translation=Φίλτρα
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Υπογράμμιση ιστοσελίδων
+original=Highlighter
+translation=Επισημαντής
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Ερμηνεία ιστοσελίδων
+original=Interpreter
+translation=Διερμηνέας
 
 [file.web-clipper/logic]
 original=Logic

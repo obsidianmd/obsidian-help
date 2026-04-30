@@ -330,6 +330,10 @@ translation=文件列表
 original=File recovery
 translation=文件恢复
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=脚注视图
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Markdown 格式转换器
@@ -748,7 +752,7 @@ translation=Obsidian Sync
 
 [folder.Obsidian Web Clipper]
 original=Obsidian Web Clipper
-translation=Obsidian Web Clipper
+translation=Obsidian 网页剪藏器
 
 [folder.Plugins]
 original=Plugins

@@ -22,7 +22,7 @@ Se você está lendo isso em [help.obsidian.md](https://help.obsidian.md), você
 	- Personalize seu site Publish.
 - [[Domínios personalizados|Domínios personalizados]]
 	- Configure o Publish com seu próprio domínio.
-- [[Permalinks]]
+- [[Links permanentes]]
 	- Defina URLs permanentes para páginas.
 - [[Análises]]
 	- Configure análises para seu site.

@@ -14,7 +14,7 @@ Web Clipper bruger [Defuddle](https://github.com/kepano/defuddle) til kun at ind
 For at omgå Defuddle i Web Clipper kan du bruge følgende metoder:
 
 - Markér tekst, eller brug `Cmd/Ctrl+A` for at vælge al tekst.
-- [[Highlighter|Fremhæv indhold]] for at vælge præcis, hvad du vil indfange.
+- [[Fremhæv websider|Fremhæv indhold]] for at vælge præcis, hvad du vil indfange.
 - Brug en [[Obsidian Web Clipper/Skabeloner|brugerdefineret skabelon]] til siden.
 
 ### Intet indhold vises i Obsidian

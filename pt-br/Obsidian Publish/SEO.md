@@ -19,7 +19,7 @@ https://help.obsidian.md/rss.xml
 
 ### Permalinks
 
-Considere usar [[Permalinks]] para definir URLs permanentes no seu site.
+Considere usar [[Links permanentes]] para definir URLs permanentes no seu site.
 
 ### Metadados
 

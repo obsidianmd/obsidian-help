@@ -14,4 +14,4 @@ aliases:
 
 ### التحويل من تنسيقات Markdown الأخرى
 
-Obsidian يستخدم [[Obsidian Flavored Markdown]]. تستخدم بعض التطبيقات تنسيق Markdown بصيغ قليلة مختلفة. يمكنك استخدام [[الإعدادات]] لتحويل ملفاتك إلى صيغ Markdown خاصة بـ Obsidian.
+Obsidian يستخدم [[Markdown بنكهة Obsidian]]. تستخدم بعض التطبيقات تنسيق Markdown بصيغ قليلة مختلفة. يمكنك استخدام [[الإعدادات]] لتحويل ملفاتك إلى صيغ Markdown خاصة بـ Obsidian.

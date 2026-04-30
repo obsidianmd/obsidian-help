@@ -123,7 +123,7 @@ Adiciona um prefixo de citação Markdown (`> `) a cada linha da entrada.
 
 ### `callout`
 
-Cria uma [[Callouts|frase de destaque]] com parâmetros opcionais: `{{variable|callout:("type", "title", foldState)}}`
+Cria uma [[Frases de Destaque|frase de destaque]] com parâmetros opcionais: `{{variable|callout:("type", "title", foldState)}}`
 
 - `type` é o tipo da frase de destaque, e o padrão é "info"
 - `title` é o título da frase de destaque, e o padrão é vazio

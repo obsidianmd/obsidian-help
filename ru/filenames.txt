@@ -322,6 +322,10 @@ translation=Файловый менеджер
 original=File recovery
 translation=Восстановление файлов
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Просмотр сносок
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Конвертер форматов

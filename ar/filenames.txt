@@ -322,6 +322,10 @@ translation=مستكشف الملفات
 original=File recovery
 translation=استرداد الملف
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=عرض الحواشي
+
 [file.plugins/format-converter]
 original=Format converter
 translation=محول التنسيقات

@@ -322,6 +322,10 @@ translation=Dateiexplorer
 original=File recovery
 translation=Datenwiederherstellung
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Fußnoten-Ansicht
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Importprogramm für Markdown Format

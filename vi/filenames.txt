@@ -322,6 +322,10 @@ translation=Trình quản lý tệp
 original=File recovery
 translation=Khôi phục tập tin
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Chế độ xem chú thích
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Bộ chuyển đổi định dạng Markdown
@@ -647,12 +651,12 @@ original=Filters
 translation=Bộ lọc
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Tô Màu trang web
+original=Highlighter
+translation=Đánh dấu
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Thông dịch trang web
+original=Interpreter
+translation=Thông dịch
 
 [file.web-clipper/logic]
 original=Logic

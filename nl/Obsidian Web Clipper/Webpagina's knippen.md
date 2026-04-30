@@ -59,4 +59,4 @@ Voettekstfunctionaliteit omvat:
 - **Toevoegen aan Obsidian**-knop om gegevens naar Obsidian op te slaan.
 - **Kluis**-dropdown om te wisselen tussen opgeslagen kluizen die zijn toegevoegd in de Web Clipper-instellingen.
 - **Map**-veld om te bepalen in welke map wordt opgeslagen.
-- **Interpreter** om [[Interpreter|prompts in natuurlijke taal]] op de pagina uit te voeren.
+- **Interpreter** om [[Webpagina's interpreteren|prompts in natuurlijke taal]] op de pagina uit te voeren.

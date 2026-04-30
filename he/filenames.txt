@@ -322,6 +322,10 @@ translation=סייר קבצים
 original=File recovery
 translation=שחזור קובץ
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=תצוגת הערות שוליים
+
 [file.plugins/format-converter]
 original=Format converter
 translation=יבואן פורמט Markdown
@@ -647,12 +651,12 @@ original=Filters
 translation=מסננים
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=הדגשת דפי אינטרנט
+original=Highlighter
+translation=מסמן
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=פרש דפי אינטרנט
+original=Interpreter
+translation=מתרגם
 
 [file.web-clipper/logic]
 original=Logic

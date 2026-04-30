@@ -322,6 +322,10 @@ translation=파일 탐색기
 original=File recovery
 translation=파일 복원
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=각주 뷰
+
 [file.plugins/format-converter]
 original=Format converter
 translation=마크다운 형식 불러오기

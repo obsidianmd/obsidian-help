@@ -14,7 +14,7 @@ Web Clipper bruker [Defuddle](https://github.com/kepano/defuddle) til å fange k
 For å omgå Defuddle i Web Clipper kan du bruke følgende metoder:
 
 - Velg tekst, eller bruk `Cmd/Ctrl+A` for å velge all tekst.
-- [[Highlighter|Uthev innhold]] for å velge nøyaktig hva du vil fange.
+- [[Uthev nettsider|Uthev innhold]] for å velge nøyaktig hva du vil fange.
 - Bruk en [[Obsidian Web Clipper/Maler|egendefinert mal]] for nettstedet.
 
 ### Ingen innhold vises i Obsidian

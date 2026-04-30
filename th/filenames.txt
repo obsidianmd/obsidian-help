@@ -322,6 +322,10 @@ translation=ตัวจัดการไฟล์
 original=File recovery
 translation=การกู้คืนข้อมูล
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=มุมมองเชิงอรรถ
+
 [file.plugins/format-converter]
 original=Format converter
 translation=นำเข้า Markdown
@@ -647,12 +651,12 @@ original=Filters
 translation=ตัวกรอง
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=ไฮไลต์หน้าเว็บ
+original=Highlighter
+translation=ตัวไฮไลต์
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=แปลหน้าเว็บ
+original=Interpreter
+translation=ตัวแปล
 
 [file.web-clipper/logic]
 original=Logic

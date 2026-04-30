@@ -40,15 +40,15 @@ De belangrijkste inhoudsvariabele is `{{content}}`, die de artikelinhoud bevat, 
 
 ## Promptvariabelen
 
-Promptvariabelen maken gebruik van taalmodellen om gegevens te extraheren en te wijzigen met behulp van natuurlijke taal. Promptvariabelen vereisen dat [[Interpreter|Interpreter]] is ingeschakeld en geconfigureerd.
+Promptvariabelen maken gebruik van taalmodellen om gegevens te extraheren en te wijzigen met behulp van natuurlijke taal. Promptvariabelen vereisen dat [[Webpagina's interpreteren|Interpreter]] is ingeschakeld en geconfigureerd.
 
 Promptvariabelen gebruiken de syntaxis `{{"een samenvatting van de pagina"}}`. De dubbele aanhalingstekens rond de prompt zijn belangrijk en onderscheiden prompts van vooringestelde variabelen. Promptreacties kunnen worden nabewerkt met [[Filters|filters]], bijv. `{{"een samenvatting van de pagina"|blockquote}}`.
 
 ### Wanneer promptvariabelen gebruiken
 
-Promptvariabelen hebben het voordeel dat ze extreem flexibel en eenvoudig te schrijven zijn, maar ze brengen verschillende afwegingen met zich mee: ze zijn langzamer om uit te voeren en kunnen kosten- en privacyoverwegingen hebben, afhankelijk van de [[Interpreter#Modellen|provider]] die je kiest.
+Promptvariabelen hebben het voordeel dat ze extreem flexibel en eenvoudig te schrijven zijn, maar ze brengen verschillende afwegingen met zich mee: ze zijn langzamer om uit te voeren en kunnen kosten- en privacyoverwegingen hebben, afhankelijk van de [[Webpagina's interpreteren#Modellen|provider]] die je kiest.
 
-In tegenstelling tot andere variabeletypen moeten promptvariabelen worden verwerkt door een extern taalmodel, waardoor ze pas worden vervangen zodra de [[Interpreter|Interpreter]] is uitgevoerd.
+In tegenstelling tot andere variabeletypen moeten promptvariabelen worden verwerkt door een extern taalmodel, waardoor ze pas worden vervangen zodra de [[Webpagina's interpreteren|Interpreter]] is uitgevoerd.
 
 Het is het beste om promptvariabelen *niet* te gebruiken als de gegevens die je wilt extraheren een consistent formaat hebben dat met andere variabeletypen kan worden geëxtraheerd.
 

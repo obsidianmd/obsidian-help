@@ -322,6 +322,10 @@ translation=Explorador de archivos
 original=File recovery
 translation=Recuperación de archivos
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Vista de notas al pie
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Conversor de formato

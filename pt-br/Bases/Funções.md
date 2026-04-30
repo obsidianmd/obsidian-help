@@ -577,7 +577,7 @@ Os seguintes campos estão disponíveis para arquivos:
 
 - `values` são um ou mais nomes de tags.
 - Retorna verdadeiro se o arquivo tiver alguma das tags em `values`.
-- Exemplo: `file.hasTag("tag1", "tag2")` retorna `true` se o arquivo tiver a tag `#tag1` ou `#tag2`. Também inclui quaisquer [[Tags#Tags aninhadas|tags aninhadas]], como `#tag1/a` ou `#tag2/b`.
+- Exemplo: `file.hasTag("tag1", "tag2")` retorna `true` se o arquivo tiver a tag `#tag1` ou `#tag2`. Também inclui quaisquer [[Etiquetas#Tags aninhadas|tags aninhadas]], como `#tag1/a` ou `#tag2/b`.
 
 ### `inFolder()`
 

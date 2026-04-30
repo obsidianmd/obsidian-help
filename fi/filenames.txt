@@ -322,6 +322,10 @@ translation=Tiedostoselain
 original=File recovery
 translation=Tiedoston palautus
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Alaviitenäkymä
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Muotoilumuunnin
@@ -647,12 +651,12 @@ original=Filters
 translation=Suodattimet
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Verkkosivujen korostaminen
+original=Highlighter
+translation=Korostustyökalu
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Verkkosivujen tulkinta
+original=Interpreter
+translation=Tulkki
 
 [file.web-clipper/logic]
 original=Logic

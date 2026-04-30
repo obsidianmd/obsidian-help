@@ -100,7 +100,7 @@ A ação `daily` aceita os mesmos parâmetros que a ação `new`.
 
 ## Nota Única
 
-A ação `unique` cria uma nova nota única no cofre. O plugin [[Plugins/Unique note creator|Criador de nota única]] deve estar ativado.
+A ação `unique` cria uma nova nota única no cofre. O plugin [[Plugins/Criador de nota única|Criador de nota única]] deve estar ativado.
 
 ### Exemplos
 

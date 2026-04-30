@@ -40,15 +40,15 @@ Variabel konten utama adalah `{{content}}`, yang berisi konten artikel, atau [[P
 
 ## Variabel prompt
 
-Variabel prompt memanfaatkan model bahasa untuk mengekstrak dan memodifikasi data menggunakan bahasa alami. Variabel prompt memerlukan [[Interpreter|Interpreter]] untuk diaktifkan dan dikonfigurasi.
+Variabel prompt memanfaatkan model bahasa untuk mengekstrak dan memodifikasi data menggunakan bahasa alami. Variabel prompt memerlukan [[Interpretasi halaman web|Interpreter]] untuk diaktifkan dan dikonfigurasi.
 
 Variabel prompt menggunakan sintaksis `{{"ringkasan halaman"}}`. Tanda kutip ganda di sekitar prompt penting dan membedakan prompt dari variabel preset. Respons prompt dapat diproses lanjutan dengan [[Filter|filter]], misalnya `{{"ringkasan halaman"|blockquote}}`.
 
 ### Kapan menggunakan variabel prompt
 
-Variabel prompt memiliki keuntungan sangat fleksibel dan mudah ditulis, namun ada beberapa pertukaran: lebih lambat dijalankan, dan mungkin memiliki pertimbangan biaya dan privasi tergantung pada [[Interpreter#Model|penyedia]] yang Anda pilih.
+Variabel prompt memiliki keuntungan sangat fleksibel dan mudah ditulis, namun ada beberapa pertukaran: lebih lambat dijalankan, dan mungkin memiliki pertimbangan biaya dan privasi tergantung pada [[Interpretasi halaman web#Model|penyedia]] yang Anda pilih.
 
-Berbeda dengan jenis variabel lain, variabel prompt perlu diproses oleh model bahasa eksternal, sehingga variabel ini baru diganti setelah [[Interpreter|Interpreter]] dijalankan.
+Berbeda dengan jenis variabel lain, variabel prompt perlu diproses oleh model bahasa eksternal, sehingga variabel ini baru diganti setelah [[Interpretasi halaman web|Interpreter]] dijalankan.
 
 Sebaiknya *jangan* menggunakan variabel prompt jika data yang ingin Anda ekstrak memiliki format konsisten yang dapat diekstrak dengan jenis variabel lain.
 

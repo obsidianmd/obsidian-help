@@ -322,6 +322,10 @@ translation=Prieskumník súborov
 original=File recovery
 translation=Obnova súboru
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Zobrazenie poznámok pod čiarou
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Prevodník formátov
@@ -647,12 +651,12 @@ original=Filters
 translation=Filtre
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Zvýrazňovanie webových stránok
+original=Highlighter
+translation=Zvýrazňovač
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Interpretácia webových stránok
+original=Interpreter
+translation=Tlmočník
 
 [file.web-clipper/logic]
 original=Logic

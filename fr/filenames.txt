@@ -330,6 +330,10 @@ translation=Explorateur de fichiers
 original=File recovery
 translation=Récupération de fichier
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Vue des notes de bas de page
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Importateur depuis des fichiers Markdown

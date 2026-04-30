@@ -322,6 +322,10 @@ translation=Файловий провідник
 original=File recovery
 translation=Відновлення файлів
 
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Подання виносок
+
 [file.plugins/format-converter]
 original=Format converter
 translation=Імпорт Markdown-файлів
@@ -647,12 +651,12 @@ original=Filters
 translation=Фільтри
 
 [file.web-clipper/highlight]
-original=Highlight web pages
-translation=Виділення вебсторінок
+original=Highlighter
+translation=Виділення
 
 [file.web-clipper/interpreter]
-original=Interpret web pages
-translation=Інтерпретація вебсторінок
+original=Interpreter
+translation=Інтерпретатор
 
 [file.web-clipper/logic]
 original=Logic
