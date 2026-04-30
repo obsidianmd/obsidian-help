@@ -471,6 +471,8 @@ Puoi anche usare note a piè di pagina inline. ^[Questa è una nota a piè di pa
 > [!note] Nota
 > Le note a piè di pagina inline funzionano solo nella vista lettura, non nell'anteprima dal vivo.
 
+Usa la [[Footnotes view|vista Note a piè di pagina]] per vedere tutte le note a piè di pagina in una nota.
+
 ## Commenti
 
 Puoi aggiungere commenti racchiudendo il testo con `%%`. I commenti sono visibili solo nella vista di modifica.

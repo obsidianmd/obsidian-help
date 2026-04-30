@@ -469,6 +469,8 @@ Também pode utilizar notas de rodapé em linha. ^[Esta é uma nota de rodapé e
 > [!note] Nota
 > As notas de rodapé em linha apenas funcionam na vista de leitura, não na Pré-visualização em direto.
 
+Utilize a [[Footnotes view|vista de notas de rodapé]] para ver todas as notas de rodapé numa nota.
+
 ## Comentários
 
 Pode adicionar comentários envolvendo texto com `%%`. Os comentários só são visíveis na vista de edição.

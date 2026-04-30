@@ -472,6 +472,8 @@ Vous pouvez également utiliser des notes de bas de page en ligne. ^[Ceci est un
 > [!note] Note
 > Les notes de bas de page en ligne fonctionnent uniquement en mode lecture, pas en aperçu en direct.
 
+Utilisez la [[Vue des notes de bas de page]] pour voir toutes les notes de bas de page d'une note.
+
 ## Commentaires
 
 Vous pouvez ajouter des commentaires en entourant le texte avec `%%`. Les commentaires ne sont visibles qu'en mode d'édition.

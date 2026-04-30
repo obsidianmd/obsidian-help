@@ -8,7 +8,6 @@ mobile: true
 aliases:
   - Plugins/Kerneplugins
 ---
-
 Denne side lister de kerneplugins som installeres sammen med Obsidian. Kerneplugins er officielt udviklet og supporteret af Obsidian teamet, og er inkluderet i applikationen.
 
 Nogle kerneplugins er som standar deaktiveret. Du kan aktivere dem under **Indstillinger → Kerneplugins**.
@@ -32,6 +31,8 @@ Nogle kerneplugins er som standar deaktiveret. Du kan aktivere dem under **Indst
 	- Lister alle egenskaberne i din boks og se egenskaber for den aktive note
 - [[Filgenoprettelse]]
 	-  Gendanner dit arbejde ved hjælp af regelmæssige snapshots af boksens indhold
+- [[Fodnotervisning]]
+	- Viser en liste over fodnoter fra den aktive note
 - [[Forhåndsvisning af note]]
 	- Forhåndsviser indholdet af en note ved at føre musemarkøren over linket
 - [[Formatkonvertering]]

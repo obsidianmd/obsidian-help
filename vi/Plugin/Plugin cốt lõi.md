@@ -30,6 +30,8 @@ Một số plugin cốt lõi bị vô hiệu hóa theo mặc định. Bạn có 
 	- Tạo các chế độ xem tùy chỉnh cho phép bạn chỉnh sửa, sắp xếp và lọc tệp bằng thuộc tính của chúng.
 - [[Cửa sổ thẻ|Cửa sổ thẻ]]
 	- Liệt kê tất cả thẻ trong kho của bạn.
+- [[Chế độ xem chú thích cuối trang]]
+	- Hiển thị danh sách chú thích cuối trang từ ghi chú hiện tại.
 - [[Ghi chú hàng ngày]]
 	- Tạo và mở ghi chú dựa trên ngày hiện tại.
 - [[Ghi chú ngẫu nhiên]]

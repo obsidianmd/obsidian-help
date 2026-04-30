@@ -5,7 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: Diese Seite listet die integrierten Erweiterungen auf, die mit Obsidian vorinstalliert sind, sowie Community-Erweiterungen, die ebenfalls vom Team gepflegt werden.
+description: 'Diese Seite listet die integrierten Erweiterungen auf, die mit Obsidian vorinstalliert sind, sowie Community-Erweiterungen, die ebenfalls vom Team gepflegt werden.'
 ---
 Diese Seite listet die integrierten Erweiterungen auf, die mit Obsidian vorinstalliert sind. Integrierte Erweiterungen werden offiziell vom Obsidian-Team entwickelt und unterstützt und sind in der Anwendung enthalten.
 
@@ -40,6 +40,8 @@ Das Obsidian-Team pflegt auch die Entwicklung bestimmter [[#Weitere Erweiterunge
 	- Alle Eigenschaften in deinem Vault auflisten und Eigenschaften der aktiven Notiz anzeigen.
 - [[Eindeutige Notizen]]
 	- Eine eindeutige Notiz mit einem zeitcodierten Titel erstellen.
+- [[Fußnoten-Ansicht]]
+	- Eine Liste der Fußnoten aus der aktuellen Notiz anzeigen.
 - [[Gliederung]]
 	- Das Inhaltsverzeichnis der aktiven Notiz anzeigen.
 - [[Graph-Ansicht]]

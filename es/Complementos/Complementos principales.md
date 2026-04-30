@@ -5,7 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: Esta página lista los complementos principales que vienen instalados con Obsidian, y los complementos de la comunidad que también mantienen.
+description: 'Esta página lista los complementos principales que vienen instalados con Obsidian, y los complementos de la comunidad que también mantienen.'
 aliases:
   - Plugins/Lista de complementos
 ---
@@ -74,6 +74,8 @@ El equipo de Obsidian también mantiene el desarrollo de ciertos [[#Otros comple
 	- Lista todas las etiquetas en tu bóveda.
 - [[Vista de grafo]]
 	- Visualiza las relaciones entre notas en tu bóveda.
+- [[Vista de notas al pie]]
+	- Muestra una lista de notas al pie de la nota actual.
 - [[Vista de propiedades]]
 	- Lista todas las propiedades en tu bóveda, y muestra las propiedades de la nota activa.
 - [[Vista previa de página]]

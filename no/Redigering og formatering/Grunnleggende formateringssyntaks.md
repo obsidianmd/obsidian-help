@@ -469,6 +469,8 @@ Du kan også bruke innebygde fotnoter. ^[Dette er en innebygd fotnote.]
 > [!note] Merk
 > Innebygde fotnoter fungerer bare i lesevisning, ikke i Live-forhåndsvisning.
 
+Bruk [[Fotnoter-visning|Fotnoter-visningen]] for å se alle fotnoter i et notat.
+
 ## Kommentarer
 
 Du kan legge til kommentarer ved å omslutte tekst med `%%`. Kommentarer er bare synlige i redigeringsvisning.

@@ -42,6 +42,8 @@ Obsidian-teamet underhåller även utvecklingen av vissa [[#Andra tillägg|gemen
 	- Återställ ditt arbete från regelbundna ögonblicksbilder.
 - [[Filutforskare]]
 	- Bläddra bland filer och mappar i ditt valv.
+- [[Fotnotsvy]]
+	- Visa en lista över fotnoter från den aktuella anteckningen.
 - [[Grafvy]]
 	- Visualisera relationer mellan anteckningar i ditt valv.
 - [[Kommandopalett]]

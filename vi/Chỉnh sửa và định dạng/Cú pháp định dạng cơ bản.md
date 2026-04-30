@@ -469,6 +469,8 @@ You can also use inline footnotes. ^[This is an inline footnote.]
 > [!note] Lưu ý
 > Chú thích nội dòng chỉ hoạt động trong chế độ đọc, không hoạt động trong Xem trước trực tiếp.
 
+Sử dụng [[Chế độ xem chú thích]] để xem tất cả chú thích trong một ghi chú.
+
 ## Bình luận
 
 Bạn có thể thêm bình luận bằng cách bao quanh văn bản với `%%`. Bình luận chỉ hiển thị trong chế độ Chỉnh sửa.

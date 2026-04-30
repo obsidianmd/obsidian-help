@@ -50,6 +50,8 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 	- Wyszukuj, twórz i otwieraj notatki z poziomu klawiatury.
 - [[Panel atrybutów]]
 	- Wyświetlaj listę wszystkich atrybutów w skarbcu oraz atrybuty aktywnej notatki.
+- [[Panel przypisów]]
+	- Wyświetlaj listę przypisów z bieżącej notatki.
 - [[Panel tagów|Panel tagów]]
 	- Wyświetlaj listę wszystkich tagów w skarbcu.
 - [[Podgląd grafu]]

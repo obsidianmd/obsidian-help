@@ -26,7 +26,7 @@ Il team di Obsidian mantiene anche lo sviluppo di alcuni [[#Altri plugin|plugin 
 	- Salva i layout e passa da uno all'altro.
 - [[Introduzione a Base|Base]]
 	- Crea basi utilizzando le proprietà delle note.
-- [[Canvas]]
+- [[Lavagna]]
 	- Organizza le note visivamente con uno spazio infinito per disporre le idee.
 - [[Cerca|Cerca]]
 	- Trova file nella tua cassaforte.
@@ -74,6 +74,8 @@ Il team di Obsidian mantiene anche lo sviluppo di alcuni [[#Altri plugin|plugin 
 	- Accedi rapidamente ai comandi dalla tastiera.
 - [[Vista grafo|Vista grafo]]
 	- Visualizza le relazioni tra le note nella tua cassaforte.
+- [[Vista note a piè di pagina|Vista note a piè di pagina]]
+	- Mostra un elenco delle note a piè di pagina dalla nota corrente.
 - [[Vista proprietà|Vista proprietà]]
 	- Elenca tutte le proprietà nella tua cassaforte e mostra le proprietà della nota attiva.
 - [[Visualizzatore web|Visualizzatore web]]

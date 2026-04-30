@@ -469,6 +469,8 @@ Je kunt ook inline voetnoten gebruiken. ^[Dit is een inline voetnoot.]
 > [!note] Opmerking
 > Inline voetnoten werken alleen in de leesweergave, niet in Live voorbeeld.
 
+Gebruik de [[Voetnotenweergave]] om alle voetnoten in een notitie te bekijken.
+
 ## Opmerkingen
 
 Je kunt opmerkingen toevoegen door tekst te omgeven met `%%`. Opmerkingen zijn alleen zichtbaar in de bewerkingsweergave.

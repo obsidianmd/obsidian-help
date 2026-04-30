@@ -40,6 +40,8 @@ Obsidian-teamet vedlikeholder også utviklingen av visse [[#Andre utvidelser|åp
 	- Bla gjennom filer og mapper i hvelvet ditt.
 - [[Forhåndsvisning av notat]]
 	- Forhåndsvis innholdet i et notat ved å holde musepekeren over lenker.
+- [[Fotnoter-visning]]
+	- Vis en liste over fotnoter fra det gjeldende notatet.
 - [[Grafvisnining]]
 	- Visualiser relasjoner mellom notater i hvelvet ditt.
 - [[Hurtigåpner]]

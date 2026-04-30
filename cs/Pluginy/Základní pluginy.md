@@ -72,6 +72,8 @@ Tým Obsidian rovněž udržuje vývoj některých [[#Další pluginy|komunitní
 	- Vytvářejte vlastní zobrazení, která umožňují upravovat, řadit a filtrovat soubory pomocí jejich vlastností.
 - [[Záložky]]
 	- Ukládejte odkazy na poznámky, nadpisy, vyhledávání a další.
+- [[Zobrazení poznámek pod čarou]]
+	- Zobrazí seznam poznámek pod čarou z aktuální poznámky.
 - [[Zobrazení vlastností]]
 	- Vypíše všechny vlastnosti ve vašem trezoru a zobrazí vlastnosti aktivní poznámky.
 - [[Zpětné odkazy]]

@@ -469,6 +469,8 @@ Du kan också använda inline-fotnoter. ^[Detta är en inline-fotnot.]
 > [!note] Notera
 > Inline-fotnoter fungerar bara i läsvy, inte i live-förhandsvisning.
 
+Använd [[Fotnotsvy|fotnotsvyn]] för att se alla fotnoter i en anteckning.
+
 ## Kommentarer
 
 Du kan lägga till kommentarer genom att omsluta text med `%%`. Kommentarer är bara synliga i redigeringsvyn.

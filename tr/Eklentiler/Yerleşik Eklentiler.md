@@ -24,6 +24,8 @@ Obsidian ekibi ayrıca belirli [[#Diğer eklentiler|açık kaynaklı topluluk ek
 	- Kasanızdaki dosyaları bulun.
 - [[Benzersiz not oluşturucu]]
 	- Zaman kodlu bir başlıkla benzersiz bir not oluşturun.
+- [[Dipnot görünümü]]
+	- Geçerli nottaki dipnotların listesini gösterin.
 - [[Dosya Gezgini]]
 	- Kasanızdaki dosya ve klasörlere göz atın.
 - [[Dosya Kurtarma]]

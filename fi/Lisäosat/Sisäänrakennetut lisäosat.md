@@ -74,6 +74,8 @@ Obsidian-tiimi ylläpitää myös tiettyjen [[#Muut lisäosat|avoimen lähdekood
 	- Luo uniikki muistiinpano aikakoodatulla otsikolla.
 - [[Verkkonäkymä]]
 	- Visualisoi muistiinpanojen välisiä suhteita holvissasi.
+- [[Viitteet-näkymä]]
+	- Näytä luettelo nykyisen muistiinpanon viitteistä.
 - [[Vinoviivakomennot]]
 	- Suorita komentoja muokkaimessa `/`-näppäimellä.
 

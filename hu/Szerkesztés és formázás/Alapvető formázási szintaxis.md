@@ -469,6 +469,8 @@ Beágyazott lábjegyzeteket is használhat. ^[Ez egy beágyazott lábjegyzet.]
 > [!note] Megjegyzés
 > A beágyazott lábjegyzetek csak olvasási nézetben működnek, élő előnézetben nem.
 
+Használja a [[Lábjegyzetek nézet]]et a jegyzetben található összes lábjegyzet megtekintéséhez.
+
 ## Megjegyzések
 
 Megjegyzéseket adhat hozzá úgy, hogy a szöveget `%%` közé zárja. A megjegyzések csak szerkesztési nézetben láthatók.

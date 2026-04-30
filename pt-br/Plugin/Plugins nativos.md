@@ -5,7 +5,7 @@ cssclasses:
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: Esta página lista os plugins nativos que vêm instalados com o Obsidian, e plugins da comunidade que eles também mantêm.
+description: 'Esta página lista os plugins nativos que vêm instalados com o Obsidian, e plugins da comunidade que eles também mantêm.'
 aliases:
   - Plugins/Plugins essenciais
 ---
@@ -70,6 +70,8 @@ A equipe do Obsidian também mantém o desenvolvimento de certos [[#Outros plugi
 	- Mostre o índice da nota ativa.
 - [[Introdução ao Obsidian Sync|Sync]]
 	- Sincronize suas notas entre dispositivos.
+- [[Visão de notas de rodapé]]
+	- Mostre uma lista de notas de rodapé da nota atual.
 - [[Visualizador web]]
 	- Abra links externos no Obsidian.
 - [[Visão de grafo]]

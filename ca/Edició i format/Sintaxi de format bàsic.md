@@ -469,6 +469,8 @@ També podeu utilitzar notes a peu de pàgina en línia. ^[Això és una nota a 
 > [!note] Nota
 > Les notes a peu de pàgina en línia només funcionen a la vista de lectura, no a la previsualització en viu.
 
+Utilitzeu la [[Vista de notes a peu de pàgina]] per veure totes les notes a peu de pàgina d'una nota.
+
 ## Comentaris
 
 Podeu afegir comentaris envoltant el text amb `%%`. Els comentaris només són visibles a la vista d'edició.

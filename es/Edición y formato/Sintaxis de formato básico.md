@@ -471,6 +471,8 @@ También puedes usar notas al pie en línea. ^[Esta es una nota al pie en línea
 > [!note] Nota
 > Las notas al pie en línea solo funcionan en la vista de lectura, no en la vista previa en vivo.
 
+Usa la [[Vista de notas al pie]] para ver todas las notas al pie en una nota.
+
 ## Comentarios
 
 Puedes añadir comentarios envolviendo el texto con `%%`. Los comentarios solo son visibles en la vista de edición.

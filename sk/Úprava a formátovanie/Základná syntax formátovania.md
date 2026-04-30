@@ -469,6 +469,8 @@ Môžete tiež použiť inline poznámky pod čiarou. ^[Toto je inline poznámka
 > [!note] Poznámka
 > Inline poznámky pod čiarou fungujú iba v režime čítania, nie v živom náhľade.
 
+Pomocou [[Zobrazenie poznámok pod čiarou]] môžete zobraziť všetky poznámky pod čiarou v poznámke.
+
 ## Komentáre
 
 Komentáre môžete pridať obalením textu znakmi `%%`. Komentáre sú viditeľné iba v zobrazení editora.

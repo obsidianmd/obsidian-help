@@ -469,6 +469,8 @@ Możesz również używać przypisów inline. ^[To jest przypis inline.]
 > [!note] Uwaga
 > Przypisy inline działają tylko w widoku czytania, nie w podglądzie na żywo.
 
+Użyj [[Widok przypisów]], aby zobaczyć wszystkie przypisy w notatce.
+
 ## Komentarze
 
 Możesz dodawać komentarze, otaczając tekst symbolami `%%`. Komentarze są widoczne tylko w trybie edycji.

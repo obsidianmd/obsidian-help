@@ -469,6 +469,8 @@ Voit myös käyttää tekstinsisäisiä alaviitteitä. ^[Tämä on tekstinsisäi
 > [!note] Huomautus
 > Tekstinsisäiset alaviitteet toimivat vain lukutilassa, eivät visuaalisessa muokkauksessa.
 
+Käytä [[Alaviitteet-näkymä|alaviitteet-näkymää]] nähdäksesi kaikki muistiinpanon alaviitteet.
+
 ## Kommentit
 
 Voit lisätä kommentteja ympäröimällä tekstin `%%`-merkeillä. Kommentit näkyvät vain muokkausnäkymässä.

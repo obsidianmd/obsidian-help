@@ -70,6 +70,8 @@ Tim Obsidian juga memelihara pengembangan beberapa [[#Plugin lainnya|plugin komu
 	- Buat presentasi dari catatan Anda.
 - [[Pengantar Obsidian Sync|Sync]]
 	- Sinkronisasi catatan Anda antar perangkat.
+- [[Tampilan catatan kaki]]
+	- Tampilkan daftar catatan kaki dari catatan saat ini.
 - [[Tampilan grafik]]
 	- Visualisasikan hubungan antar catatan di dalam brankas Anda.
 - [[Tampilan properti]]

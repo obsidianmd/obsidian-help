@@ -70,6 +70,8 @@ A equipa do Obsidian também mantém o desenvolvimento de certos [[#Outros plugi
 	- Recupere o seu trabalho a partir de cópias instantâneas regulares.
 - [[Introdução ao Obsidian Sync|Sync]]
 	- Sincronize as suas notas entre dispositivos.
+- [[Vista de notas de rodapé]]
+	- Mostre uma lista de notas de rodapé da nota atual.
 - [[Vista de propriedades]]
 	- Liste todas as propriedades no seu cofre e veja as propriedades da nota ativa.
 - [[Visualização de diagrama de grafo]]

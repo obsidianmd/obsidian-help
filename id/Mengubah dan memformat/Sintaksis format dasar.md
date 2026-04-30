@@ -471,6 +471,8 @@ Anda juga dapat menggunakan catatan kaki inline. ^[Ini adalah catatan kaki inlin
 > [!note] Catatan
 > Catatan kaki inline hanya berfungsi di tampilan baca, tidak di Pratinjau Langsung.
 
+Gunakan [[Tampilan catatan kaki]] untuk melihat semua catatan kaki dalam sebuah catatan.
+
 ## Komentar
 
 Anda dapat menambahkan komentar dengan mengapit teks menggunakan `%%`. Komentar hanya terlihat di tampilan pengeditan.

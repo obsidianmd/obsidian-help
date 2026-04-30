@@ -222,7 +222,7 @@ Você pode citar texto adicionando um símbolo `>` antes do texto.
 \- Doug Engelbart, 1961
 
 > [!tip]- Dica
-> Você pode transformar sua citação em uma [[Callouts|frase de destaque]] adicionando `[!info]` como a primeira linha em uma citação.
+> Você pode transformar sua citação em uma [[Frases de Destaque|frase de destaque]] adicionando `[!info]` como a primeira linha em uma citação.
 
 ## Listas
 
@@ -468,6 +468,8 @@ Você também pode usar notas de rodapé inline. ^[Esta é uma nota de rodapé i
 
 > [!note] Nota
 > Notas de rodapé inline funcionam apenas na visualização de leitura, não na Visualização ao vivo.
+
+Use a [[Footnotes view|Visualização de notas de rodapé]] para ver todas as notas de rodapé em uma nota.
 
 ## Comentários
 

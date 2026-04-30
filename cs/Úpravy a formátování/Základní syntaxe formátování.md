@@ -469,6 +469,8 @@ Můžete také použít inline poznámky pod čarou. ^[Toto je inline poznámka 
 > [!note] Poznámka
 > Inline poznámky pod čarou fungují pouze v režimu čtení, ne v živém náhledu.
 
+Použijte [[Zobrazení poznámek pod čarou]] pro zobrazení všech poznámek pod čarou v poznámce.
+
 ## Komentáře
 
 Komentáře můžete přidat obalením textu pomocí `%%`. Komentáře jsou viditelné pouze v režimu úprav.

@@ -66,6 +66,8 @@ Het Obsidian-team onderhoudt ook de ontwikkeling van bepaalde [[#Overige plug-in
 	- Toon alle koppelingen voor de actieve notitie.
 - [[Uniekenotitiesmaker]]
 	- Maak een unieke notitie met een op tijd gebaseerde titel.
+- [[Voetnotenvenster]]
+	- Toon een lijst met voetnoten uit de huidige notitie.
 - [[Webviewer]]
 	- Open externe koppelingen in Obsidian.
 - [[Werkbladen]]

@@ -3,7 +3,7 @@ permalink: plugins
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: Cette page répertorie les plugins principaux installés avec Obsidian, ainsi que les plugins communautaires qu'ils maintiennent également.
+description: 'Cette page répertorie les plugins principaux installés avec Obsidian, ainsi que les plugins communautaires qu''ils maintiennent également.'
 publish: true
 mobile: true
 aliases:
@@ -76,6 +76,8 @@ L'équipe d'Obsidian assure également le développement de certains [[#Autres m
 	- Recherchez, créez et ouvrez des notes depuis votre clavier.
 - [[Volet de mots-clés|Vue des mots-clés]]
 	- Listez tous les mots-clés de votre coffre.
+- [[Vue des notes de bas de page]]
+	- Affichez une liste des notes de bas de page de la note active.
 - [[Vue des propriétés]]
 	- Listez toutes les propriétés de votre coffre, et consultez les propriétés de la note active.
 - [[Vue graphique]]

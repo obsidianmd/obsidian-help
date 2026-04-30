@@ -469,6 +469,8 @@ Satır içi dipnotlar da kullanabilirsiniz. ^[Bu bir satır içi dipnottur.]
 > [!note] Not
 > Satır içi dipnotlar yalnızca okuma görünümünde çalışır, Canlı Önizlemede çalışmaz.
 
+Bir nottaki tüm dipnotları görmek için [[Dipnotlar görünümü]]nü kullanın.
+
 ## Yorumlar
 
 Metni `%%` ile çevreleyerek yorum ekleyebilirsiniz. Yorumlar yalnızca Düzenleme görünümünde görünür.
