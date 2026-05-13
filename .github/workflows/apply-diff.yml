@@ -48,6 +48,9 @@ jobs:
         run: npm install
         working-directory: scripts
 
+      - name: Clone obsidian-translations (glossary)
+        run: git clone --depth 1 https://github.com/obsidianmd/obsidian-translations.git ../obsidian-translations
+
       - name: Translate filenames for new EN pages in ${{ matrix.locale }}
         run: npx tsx scripts/translate-filenames.ts "${{ matrix.locale }}"
 
