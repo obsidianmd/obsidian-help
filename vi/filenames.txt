@@ -752,4 +752,4 @@ translation=Giao diện người dùng
 
 [folder.video]
 original=video
-translation=Video
+translation=video

@@ -221,7 +221,7 @@ Elabora contenuto HTML e converti HTML in Markdown. Nota che la [[Variabili|vari
 
 ### `markdown`
 
-Converte una stringa in una stringa formattata in [[Markdown stile Obsidian]].
+Converte una stringa in una stringa formattata in [[Obsidian Flavored Markdown]].
 
 - Utile quando combinato con variabili che restituiscono HTML come `{{contentHtml}}`, `{{fullHtml}}` e variabili selettore come `{{selectorHtml:cssSelector}}`.
 

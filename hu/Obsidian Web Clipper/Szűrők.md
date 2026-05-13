@@ -219,7 +219,7 @@ HTML tartalom feldolgozása és HTML átalakítása Markdown formátumra. Megjeg
 
 ### `markdown`
 
-Karakterláncot [[Obsidian ízesítésű Markdown]] formátumú karakterlánccá alakít.
+Karakterláncot [[Obsidian Flavored Markdown]] formátumú karakterlánccá alakít.
 
 - Hasznos olyan változókkal kombinálva, amelyek HTML-t adnak vissza, mint a `{{contentHtml}}`, `{{fullHtml}}` és a szelektor változók, mint a `{{selectorHtml:cssSelector}}`.
 

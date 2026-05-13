@@ -516,4 +516,4 @@ Számozott listák esetén szükség lehet a szám utáni pont elkerülésére a
 
 A haladóbb formázási szintaxisról, például táblázatokról, diagramokról és matematikai kifejezésekről a [[Haladó formázási szintaxis]] oldalon olvashat.
 
-Az Obsidian Markdown-értelmezéséről bővebben az [[Obsidian ízesítésű Markdown]] oldalon tájékozódhat.
+Az Obsidian Markdown-értelmezéséről bővebben az [[Obsidian Flavored Markdown]] oldalon tájékozódhat.

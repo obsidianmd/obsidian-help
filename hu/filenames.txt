@@ -272,7 +272,7 @@ translation=Az Obsidianről
 
 [file.obsidian-flavored-markdown]
 original=Obsidian Flavored Markdown
-translation=Obsidian ízesítésű Markdown
+translation=Obsidian Flavored Markdown
 
 [file.official-site]
 original=Official website
@@ -656,7 +656,7 @@ translation=Kiemelő
 
 [file.web-clipper/interpreter]
 original=Interpreter
-translation=Értelmező
+translation=Interpreter
 
 [file.web-clipper/logic]
 original=Logic

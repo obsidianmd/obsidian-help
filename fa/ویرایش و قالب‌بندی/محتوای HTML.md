@@ -61,7 +61,7 @@ This **will not** be bold and this `will not` be code.
 
 برخی تگ‌های درون‌خطی HTML مانند `<span>` یا `<a>` عملکرد محدودی دارند و ممکن است به نظر برسد Markdown را پردازش می‌کنند، اما در واقع این اتفاق نمی‌افتد. Markdown خارج از زمینه HTML پردازش می‌شود.
 
-برای جزئیات بیشتر درباره نحوه مدیریت Markdown توسط Obsidian، به [[Markdown به سبک Obsidian]] مراجعه کنید.
+برای جزئیات بیشتر درباره نحوه مدیریت Markdown توسط Obsidian، به [[Obsidian Flavored Markdown]] مراجعه کنید.
 
 ## کاربردهای رایج HTML
 

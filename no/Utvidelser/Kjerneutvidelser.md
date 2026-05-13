@@ -83,7 +83,7 @@ Obsidian-teamet vedlikeholder også utviklingen av visse [[#Andre utvidelser|åp
 
 Obsidian-teamet vedlikeholder også utvidelser tilgjengelige gjennom Community-utvidelsesbutikken:
 
-- [[Importør]]
+- [[Importer]]
 	- Konverter filer fra ulike apper og formater til Obsidian.
 - [[Kart-visning|Kart]]
 	- Legg til en kartvisning i Obsidian Bases.

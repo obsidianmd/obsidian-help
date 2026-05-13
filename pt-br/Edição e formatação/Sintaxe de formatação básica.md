@@ -469,7 +469,7 @@ Você também pode usar notas de rodapé inline. ^[Esta é uma nota de rodapé i
 > [!note] Nota
 > Notas de rodapé inline funcionam apenas na visualização de leitura, não na Visualização ao vivo.
 
-Use a [[Visualização de notas de rodapé|Visualização de notas de rodapé]] para ver todas as notas de rodapé em uma nota.
+Use a [[Footnotes view|Visualização de notas de rodapé]] para ver todas as notas de rodapé em uma nota.
 
 ## Comentários
 
@@ -516,4 +516,4 @@ Ao trabalhar com listas numeradas, você pode precisar escapar o ponto após o n
 
 Para aprender mais sobre sintaxe de formatação avançada, como tabelas, diagramas e expressões matemáticas, consulte [[Sintaxe de formatação avançada]].
 
-Para aprender mais sobre como o Obsidian processa Markdown, consulte [[Markdown do Obsidian]].
+Para aprender mais sobre como o Obsidian processa Markdown, consulte [[Obsidian Flavored Markdown]].

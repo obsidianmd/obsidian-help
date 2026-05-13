@@ -1,13 +1,13 @@
 ---
 permalink: import/html
 ---
-Obsidian stelt je in staat om eenvoudig individuele HTML-bestanden en hele mappen met HTML-bestanden te importeren met behulp van de officiële [[Importeren|Importer-plug-in]]. Dit is handig als je hele websites wilt opslaan in [[Obsidian Flavored Markdown|Markdown]]-formaat, of als je gegevens wilt importeren vanuit een tool die naar HTML exporteert.
+Obsidian stelt je in staat om eenvoudig individuele HTML-bestanden en hele mappen met HTML-bestanden te importeren met behulp van de officiële [[Importer|Importer-plug-in]]. Dit is handig als je hele websites wilt opslaan in [[Obsidian Flavored Markdown|Markdown]]-formaat, of als je gegevens wilt importeren vanuit een tool die naar HTML exporteert.
 
-Als je notities importeert vanuit een specifieke app, wil je misschien eerst de lijst met apps bekijken die worden ondersteund door de [[Importeren|Importer-plug-in]] om te controleren of er een specifieke converter is die de gegevens die je migreert beter behoudt.
+Als je notities importeert vanuit een specifieke app, wil je misschien eerst de lijst met apps bekijken die worden ondersteund door de [[Importer|Importer-plug-in]] om te controleren of er een specifieke converter is die de gegevens die je migreert beter behoudt.
 
 ## HTML-gegevens importeren in Obsidian
 
-Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
+Je hebt de officiële Obsidian [[Importer]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).

@@ -1,15 +1,15 @@
 ---
 permalink: import/csv
 ---
-Obsidian laat je gegevens importeren uit CSV-bestanden met behulp van de officiële [[Importeren|Importer-plug-in]]. Dit is handig als je tabelgegevens hebt opgeslagen in apps zoals Excel, Google Sheets, Numbers, Notion of Airtable.
+Obsidian laat je gegevens importeren uit CSV-bestanden met behulp van de officiële [[Importer|Importer-plug-in]]. Dit is handig als je tabelgegevens hebt opgeslagen in apps zoals Excel, Google Sheets, Numbers, Notion of Airtable.
 
 CSV-import genereert Markdown-bestanden voor elke rij en een [[Introductie tot Bases|Basis]]-bestand dat alle geïmporteerde bestanden als tabel weergeeft.
 
-Als je notities importeert vanuit een specifieke app, wil je misschien eerst de lijst met apps bekijken die worden ondersteund door de [[Importeren|Importer-plug-in]] om te controleren of er een specifieke converter is die de gegevens die je migreert beter behoudt.
+Als je notities importeert vanuit een specifieke app, wil je misschien eerst de lijst met apps bekijken die worden ondersteund door de [[Importer|Importer-plug-in]] om te controleren of er een specifieke converter is die de gegevens die je migreert beter behoudt.
 
 ## Notities aanmaken van CSV-gegevens in Obsidian
 
-Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
+Je hebt de officiële Obsidian [[Importer]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).

@@ -12,7 +12,7 @@ Oferujemy pełny zwrot kosztów w ciągu 7 dni od zakupu, bez zadawania pytań, 
 > Niektóre zakupy **nie** podlegają zwrotowi:
 > 
 > - [[Licencja Catalyst|Licencje Catalyst]] i [[Licencja komercyjna|Licencje komercyjne]] nie podlegają zwrotowi. Mają na celu wspieranie rozwoju Obsidian i nie są usługami.
-> - [[Środki Obsidian]] nie podlega zwrotowi, ponieważ kredyt można przenieść na inne konto.
+> - [[Obsidian Credit]] nie podlega zwrotowi, ponieważ kredyt można przenieść na inne konto.
 
 > [!tip] Porozmawiaj z człowiekiem
 > Jeśli masz jakiekolwiek problemy z transakcją lub potrzebujesz zwrotu po upływie 7 dni od zakupu z powodu wyjątkowych okoliczności, [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|skontaktuj się z pomocą Obsidian]].

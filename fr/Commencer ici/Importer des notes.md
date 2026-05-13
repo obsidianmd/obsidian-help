@@ -27,7 +27,7 @@ Les applications vont et viennent, mais vos données doivent perdurer. Obsidian 
 
 ## Autres formats
 
-Vous ne voyez pas votre application ? Vous pouvez en faire la demande ou contribuer au [dépôt open source](https://github.com/obsidianmd/obsidian-importer) du module [[Importateur]].
+Vous ne voyez pas votre application ? Vous pouvez en faire la demande ou contribuer au [dépôt open source](https://github.com/obsidianmd/obsidian-importer) du module [[Importer]].
 
 Des guides supplémentaires ont été partagés par notre communauté pour vous aider à migrer vers Obsidian :
 

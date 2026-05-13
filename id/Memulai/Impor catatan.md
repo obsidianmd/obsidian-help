@@ -24,7 +24,7 @@ Aplikasi datang dan pergi, tetapi data Anda harus bertahan. Obsidian menggunakan
 
 ## Format lainnya
 
-Tidak melihat aplikasi Anda? Anda dapat mengajukan permintaan atau berkontribusi ke [repositori sumber terbuka](https://github.com/obsidianmd/obsidian-importer) untuk plugin [[Impor]].
+Tidak melihat aplikasi Anda? Anda dapat mengajukan permintaan atau berkontribusi ke [repositori sumber terbuka](https://github.com/obsidianmd/obsidian-importer) untuk plugin [[Importer]].
 
 Panduan tambahan telah dibagikan oleh komunitas kami yang dapat membantu Anda bermigrasi ke Obsidian:
 

@@ -29,7 +29,7 @@ Pamiętaj, że Obsidian Credit **nie może** zostać ponownie podarowany po odeb
 
 W Obsidian nie podarowujesz konkretnego produktu, lecz Obsidian Credit, który można wykorzystać na cokolwiek. Działa to jak karta podarunkowa Obsidian.
 
-1. Jeśli nie masz jeszcze [[Środki Obsidian]], musisz najpierw [[Środki Obsidian#Dodawanie kredytu|zakupić kredyt]].
+1. Jeśli nie masz jeszcze [[Obsidian Credit]], musisz najpierw [[Obsidian Credit#Dodawanie kredytu|zakupić kredyt]].
 2. Przejdź do sekcji [Billing](https://obsidian.md/account/billing) swojego konta i wybierz **Send credit**.
 3. Postępuj zgodnie z instrukcjami, aby uzyskać link do realizacji i wysłać go samodzielnie, lub poprosić nas o wysłanie zanonimizowanego e-maila do odbiorcy.
 4. Kliknij **Send gift**, aby zakończyć proces podarunku. Otrzymasz e-mail z potwierdzeniem.

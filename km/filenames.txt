@@ -656,7 +656,7 @@ translation=ឧបករណ៍រំលេច
 
 [file.web-clipper/interpreter]
 original=Interpreter
-translation=កម្មវិធីបកស្រាយ
+translation=Interpreter
 
 [file.web-clipper/logic]
 original=Logic

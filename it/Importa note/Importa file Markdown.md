@@ -12,4 +12,4 @@ Esistono diversi modi per aggiungere file Markdown alla tua cassaforte di Obsidi
 
 ### Conversione da altre varianti di Markdown
 
-Obsidian utilizza [[Markdown stile Obsidian]]. Alcune app utilizzano una sintassi Markdown leggermente diversa. Puoi usare lo [[Strumento importazione Markdown]] per convertire i tuoi file nella sintassi Markdown di Obsidian.
+Obsidian utilizza [[Obsidian Flavored Markdown]]. Alcune app utilizzano una sintassi Markdown leggermente diversa. Puoi usare lo [[Strumento importazione Markdown]] per convertire i tuoi file nella sintassi Markdown di Obsidian.

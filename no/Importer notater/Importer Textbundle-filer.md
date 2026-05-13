@@ -1,15 +1,15 @@
 ---
 permalink: import/textbundle
 ---
-Obsidian lar deg enkelt importere [Textbundle](https://textbundle.org/)-filer ved hjelp av den offisielle [[Importør|Importer-utvidelsen]].
+Obsidian lar deg enkelt importere [Textbundle](https://textbundle.org/)-filer ved hjelp av den offisielle [[Importer|Importer-utvidelsen]].
 
-Hvis du importerer notater fra en spesifikk app, kan det være lurt å først se gjennom listen over apper som støttes av [[Importør|Importer-utvidelsen]] for å sjekke om det finnes en spesifikk konverterer som bedre ivaretar dataene du migrerer.
+Hvis du importerer notater fra en spesifikk app, kan det være lurt å først se gjennom listen over apper som støttes av [[Importer|Importer-utvidelsen]] for å sjekke om det finnes en spesifikk konverterer som bedre ivaretar dataene du migrerer.
 
 Textbundle-formatet pakker Markdown-tekst og alle refererte bilder inn i én enkelt fil, og gir en mer sømløs måte å flytte ut av en sandkasseapplikasjon. Textbundle-eksport støttes av [mange apper](https://textbundle.org/), inkludert Agenda, Craft, Taio, Ulysses, Zettlr og flere.
 
 ## Importer Textbundle-filer til Obsidian
 
-Du trenger den offisielle Obsidian [[Importør]]-utvidelsen, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+Du trenger den offisielle Obsidian [[Importer]]-utvidelsen, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
 
 1. Åpne **[[Innstillinger]]**.
 2. Gå til **Community-utvidelser** og [installer Importer](obsidian://show-plugin?id=obsidian-importer).

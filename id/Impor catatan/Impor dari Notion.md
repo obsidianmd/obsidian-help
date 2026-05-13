@@ -1,7 +1,7 @@
 ---
 permalink: import/notion
 ---
-Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Notion menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data Notion Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan secara offline dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Notion menggunakan [[Importer|plugin Importer]]. Ini akan mengonversi data Notion Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan secara offline dengan Obsidian dan banyak aplikasi lainnya.
 
 Obsidian menawarkan dua cara untuk mengimpor data Notion Anda:
 
@@ -40,7 +40,7 @@ Sekarang Anda dapat mengonversi data Anda menggunakan Obsidian Importer.
 
 ### Mengimpor data Notion Anda melalui API
 
-Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
+Anda memerlukan plugin resmi Obsidian [[Importer]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
 
 1. Buka **[[Pengaturan]]**.
 2. Buka **Plugin komunitas** dan [pasang Importer](obsidian://show-plugin?id=obsidian-importer).
@@ -94,7 +94,7 @@ Untuk mempersiapkan data Anda untuk impor, Anda perlu mengekspor seluruh ruang k
 
 ### Mengimpor file .zip Notion Anda
 
-Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
+Anda memerlukan plugin resmi Obsidian [[Importer]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
 
 1. Buka **[[Pengaturan]]**.
 2. Buka **Plugin komunitas** dan [pasang Importer](obsidian://show-plugin?id=obsidian-importer).

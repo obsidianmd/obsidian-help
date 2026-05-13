@@ -3,7 +3,7 @@ permalink: import/html
 aliases:
   - Import HTML files
 ---
-Obsidian ti permette di importare facilmente singoli file HTML e intere cartelle di file HTML utilizzando il [[Importatore|plugin Importer]] ufficiale. Questo è utile se vuoi salvare interi siti web in formato [[Markdown stile Obsidian|Markdown]], o se vuoi importare dati da uno strumento che esporta in HTML.
+Obsidian ti permette di importare facilmente singoli file HTML e intere cartelle di file HTML utilizzando il [[Importatore|plugin Importer]] ufficiale. Questo è utile se vuoi salvare interi siti web in formato [[Obsidian Flavored Markdown|Markdown]], o se vuoi importare dati da uno strumento che esporta in HTML.
 
 Se stai importando note da un'app specifica, potresti voler prima consultare l'elenco delle app supportate dal [[Importatore|plugin Importer]] per verificare se esiste un convertitore specifico che preserverà meglio i dati che stai migrando.
 

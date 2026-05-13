@@ -1,13 +1,13 @@
 ---
 permalink: import/html
 ---
-Obsidian lar deg enkelt importere individuelle HTML-filer og hele mapper med HTML-filer ved hjelp av den offisielle [[Importør|Importer-utvidelsen]]. Dette er nyttig hvis du vil lagre hele nettsteder i [[Obsidian Flavored Markdown|Markdown]]-format, eller hvis du vil importere data fra et verktøy som eksporterer til HTML.
+Obsidian lar deg enkelt importere individuelle HTML-filer og hele mapper med HTML-filer ved hjelp av den offisielle [[Importer|Importer-utvidelsen]]. Dette er nyttig hvis du vil lagre hele nettsteder i [[Obsidian Flavored Markdown|Markdown]]-format, eller hvis du vil importere data fra et verktøy som eksporterer til HTML.
 
-Hvis du importerer notater fra en bestemt app, kan det være lurt å først se gjennom listen over apper som støttes av [[Importør|Importer-utvidelsen]] for å sjekke om det finnes en spesifikk konvertering som bedre vil bevare dataene du migrerer.
+Hvis du importerer notater fra en bestemt app, kan det være lurt å først se gjennom listen over apper som støttes av [[Importer|Importer-utvidelsen]] for å sjekke om det finnes en spesifikk konvertering som bedre vil bevare dataene du migrerer.
 
 ## Importer HTML-data til Obsidian
 
-Du trenger den offisielle Obsidian [[Importør]]-utvidelsen, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+Du trenger den offisielle Obsidian [[Importer]]-utvidelsen, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
 
 1. Åpne **[[Innstillinger]]**.
 2. Gå til **Community-utvidelser** og [installer Importer](obsidian://show-plugin?id=obsidian-importer).

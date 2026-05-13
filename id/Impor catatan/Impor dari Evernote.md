@@ -1,7 +1,7 @@
 ---
 permalink: import/evernote
 ---
-Obsidian memudahkan Anda untuk memigrasikan catatan dari Evernote menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data Evernote Anda ke file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memudahkan Anda untuk memigrasikan catatan dari Evernote menggunakan [[Importer|plugin Importer]]. Ini akan mengonversi data Evernote Anda ke file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
 
 ## Ekspor data Anda dari Evernote
 
@@ -16,7 +16,7 @@ Anda dapat menemukan instruksi Evernote untuk mengekspor data Anda [di situs web
 
 ## Impor data Evernote Anda ke Obsidian
 
-Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
+Anda memerlukan plugin resmi Obsidian [[Importer]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
 
 1. Buka **[[Pengaturan]]**.
 2. Buka **Plugin komunitas** dan [pasang Importer](obsidian://show-plugin?id=obsidian-importer).

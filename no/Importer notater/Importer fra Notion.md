@@ -1,7 +1,7 @@
 ---
 permalink: import/notion
 ---
-Obsidian lar deg enkelt migrere notatene dine fra Notion ved hjelp av [[Importør|Importer-tillegget]]. Dette vil konvertere Notion-dataene dine til holdbare Markdown-filer som du kan bruke frakoblet med Obsidian og mange andre apper.
+Obsidian lar deg enkelt migrere notatene dine fra Notion ved hjelp av [[Importer|Importer-tillegget]]. Dette vil konvertere Notion-dataene dine til holdbare Markdown-filer som du kan bruke frakoblet med Obsidian og mange andre apper.
 
 Obsidian tilbyr to måter å importere Notion-dataene dine på:
 
@@ -40,7 +40,7 @@ Du kan nå konvertere dataene dine med Obsidian Importer.
 
 ### Importer Notion-dataene dine via API
 
-Du trenger det offisielle Obsidian [[Importør]]-tillegget, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+Du trenger det offisielle Obsidian [[Importer]]-tillegget, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
 
 1. Åpne **[[Innstillinger]]**.
 2. Gå til **Community-utvidelser** og [installer Importer](obsidian://show-plugin?id=obsidian-importer).
@@ -94,7 +94,7 @@ For å klargjøre dataene dine for import, må du eksportere hele arbeidsområde
 
 ### Importer Notion .zip-filen din
 
-Du trenger det offisielle Obsidian [[Importør]]-tillegget, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+Du trenger det offisielle Obsidian [[Importer]]-tillegget, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
 
 1. Åpne **[[Innstillinger]]**.
 2. Gå til **Community-utvidelser** og [installer Importer](obsidian://show-plugin?id=obsidian-importer).

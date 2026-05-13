@@ -25,7 +25,7 @@ Uma vez que o marcador esteja ativado, qualquer texto, imagem e elemento selecio
 
 Existem três opções para como os destaques podem ser inseridos nas suas notas capturadas:
 
-- **Destacar o conteúdo da página** — adiciona destaques diretamente ao texto com a [[Markdown do Obsidian|sintaxe]] `==destaque==`.
+- **Destacar o conteúdo da página** — adiciona destaques diretamente ao texto com a [[Obsidian Flavored Markdown|sintaxe]] `==destaque==`.
 - **Substituir o conteúdo da página** — retorna uma lista de destaques, sem nenhum conteúdo da página.
 - **Não fazer nada** — retorna o conteúdo original sem destaques.
  

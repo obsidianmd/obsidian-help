@@ -95,7 +95,7 @@ De waarde van het `data-callout`-attribuut is de type-identificatie die je wilt 
 
 > [!warning] Opmerking over lucide-pictogramversies
 > Obsidian werkt Lucide-pictogrammen periodiek bij. De huidige meegeleverde versie wordt hieronder weergegeven; gebruik deze of eerdere pictogrammen in aangepaste infoblokken.
-> ![[Erkenningen#^lucide]]
+> ![[Credits#^lucide]]
 
 > [!tip] SVG-pictogrammen
 > In plaats van een Lucide-pictogram te gebruiken, kun je ook een SVG-element als infoblokpictogram gebruiken.

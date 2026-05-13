@@ -6,11 +6,11 @@ description: Obsidian Publish یک کلاینت بدون رابط کاربری (
 ---
 [[Obsidian Publish/مقدمه‌ای بر Obsidian Publish|Obsidian Publish]] یک کلاینت بدون رابط کاربری برای نشر گاوصندوق‌ها بدون استفاده از اپلیکیشن دسکتاپ ارائه می‌دهد. مناسب برای خطوط لوله CI و گردش‌کارهای خودکار. آخرین تغییرات خود را بر اساس زمان‌بندی یا به عنوان بخشی از خط لوله ساخت نشر دهید.
 
-[[Obsidian بدون رابط کاربری]] **(بتای باز)** را نصب کنید تا از طریق خط فرمان و بدون اپلیکیشن دسکتاپ Obsidian با [[Obsidian Publish/مقدمه‌ای بر Obsidian Publish|Obsidian Publish]] تعامل داشته باشید.
+[[Obsidian Headless]] **(بتای باز)** را نصب کنید تا از طریق خط فرمان و بدون اپلیکیشن دسکتاپ Obsidian با [[Obsidian Publish/مقدمه‌ای بر Obsidian Publish|Obsidian Publish]] تعامل داشته باشید.
 
 ## آغاز سریع
 
-[[Obsidian بدون رابط کاربری|Obsidian Headless]] **(بتای باز)** را نصب کنید:
+[[Obsidian Headless|Obsidian Headless]] **(بتای باز)** را نصب کنید:
 
 ```shell
 npm install -g obsidian-headless

@@ -1,7 +1,7 @@
 ---
 permalink: import/apple-journal
 ---
-Obsidian memudahkan Anda untuk memigrasikan entri jurnal dari Apple Journal menggunakan [[Impor|plugin Importer]].
+Obsidian memudahkan Anda untuk memigrasikan entri jurnal dari Apple Journal menggunakan [[Importer|plugin Importer]].
 Ini akan mengonversi jurnal Anda menjadi file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
 
 ## Ekspor data Anda dari Apple Journal
@@ -23,7 +23,7 @@ Ikuti petunjuk untuk [Mencetak dan mengekspor entri di Journal pada Mac](https:/
 
 ## Impor data Apple Journal ke Obsidian
 
-Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
+Anda memerlukan plugin resmi Obsidian [[Importer]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
 
 1. Buka **[[Pengaturan]]**.
 2. Buka **Plugin komunitas** dan [pasang Importer](obsidian://show-plugin?id=obsidian-importer).

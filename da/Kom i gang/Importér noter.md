@@ -25,4 +25,4 @@ Applikationer kommer og går, men dine data burde blive ved med at eksistere. Ob
 
 ## Flere formater
 
-Findes den applikation ikke i listen, som du anvender? Du kan spørge efter nye formater eller bidrage til [[Importér]] pluginnet på GitHub: [open-source repository](https://github.com/obsidianmd/obsidian-importer).
+Findes den applikation ikke i listen, som du anvender? Du kan spørge efter nye formater eller bidrage til [[Importer]] pluginnet på GitHub: [open-source repository](https://github.com/obsidianmd/obsidian-importer).

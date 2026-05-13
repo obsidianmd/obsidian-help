@@ -24,7 +24,7 @@ Apps komen en gaan, maar je gegevens zouden moeten blijven. Obsidian gebruikt ni
 
 ## Meer formaten
 
-Zie je je app niet? Je kunt een verzoek indienen of bijdragen aan de [open-source repository](https://github.com/obsidianmd/obsidian-importer) voor de [[Importeren]]-plug-in.
+Zie je je app niet? Je kunt een verzoek indienen of bijdragen aan de [open-source repository](https://github.com/obsidianmd/obsidian-importer) voor de [[Importer]]-plug-in.
 
 Er zijn aanvullende handleidingen gedeeld door onze community die je kunnen helpen bij het migreren naar Obsidian:
 

@@ -1,13 +1,13 @@
 ---
 permalink: import/html
 ---
-Obsidian memungkinkan Anda mengimpor file HTML individual maupun seluruh folder berisi file HTML dengan mudah menggunakan [[Impor|plugin Importer]] resmi. Ini berguna jika Anda ingin menyimpan seluruh situs web ke format [[Obsidian Flavored Markdown|Markdown]], atau jika Anda ingin mengimpor data dari alat yang mengekspor ke HTML.
+Obsidian memungkinkan Anda mengimpor file HTML individual maupun seluruh folder berisi file HTML dengan mudah menggunakan [[Importer|plugin Importer]] resmi. Ini berguna jika Anda ingin menyimpan seluruh situs web ke format [[Obsidian Flavored Markdown|Markdown]], atau jika Anda ingin mengimpor data dari alat yang mengekspor ke HTML.
 
-Jika Anda mengimpor catatan dari aplikasi tertentu, Anda mungkin ingin terlebih dahulu meninjau daftar aplikasi yang didukung oleh [[Impor|plugin Importer]] untuk memeriksa apakah ada konverter khusus yang lebih baik dalam mempertahankan data yang Anda migrasikan.
+Jika Anda mengimpor catatan dari aplikasi tertentu, Anda mungkin ingin terlebih dahulu meninjau daftar aplikasi yang didukung oleh [[Importer|plugin Importer]] untuk memeriksa apakah ada konverter khusus yang lebih baik dalam mempertahankan data yang Anda migrasikan.
 
 ## Impor data HTML ke Obsidian
 
-Anda memerlukan plugin [[Impor]] resmi Obsidian, yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
+Anda memerlukan plugin [[Importer]] resmi Obsidian, yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
 
 1. Buka **[[Pengaturan]]**.
 2. Pergi ke **Plugin komunitas** dan [pasang Importer](obsidian://show-plugin?id=obsidian-importer).

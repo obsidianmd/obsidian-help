@@ -4,13 +4,13 @@ aliases:
   - Import af HTML filer
   - Import af noter/Import af HTML filer
 ---
-Obsidian giver dig mulighed for nemt at importere individuelle HTML-filer og hele mapper med HTML-filer ved hjælp af det officielle [[Importér|Importer-plugin]]. Dette er nyttigt, hvis du vil gemme hele hjemmesider i [[Obsidian Flavored Markdown|Markdown]]-format, eller hvis du vil importere data fra et værktøj, der eksporterer til HTML.
+Obsidian giver dig mulighed for nemt at importere individuelle HTML-filer og hele mapper med HTML-filer ved hjælp af det officielle [[Importer|Importer-plugin]]. Dette er nyttigt, hvis du vil gemme hele hjemmesider i [[Obsidian Flavored Markdown|Markdown]]-format, eller hvis du vil importere data fra et værktøj, der eksporterer til HTML.
 
-Hvis du importerer noter fra en specifik applikation, vil du måske først gennemgå listen over applikationer understøttet af [[Importér|Importer-plugin]] for at kontrollere, om der er en specifik konvertering, der bedre kan bevare de data, du migrerer.
+Hvis du importerer noter fra en specifik applikation, vil du måske først gennemgå listen over applikationer understøttet af [[Importer|Importer-plugin]] for at kontrollere, om der er en specifik konvertering, der bedre kan bevare de data, du migrerer.
 
 ## Importér HTML-data til Obsidian
 
-Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+Du skal bruge det officielle Obsidian [[Importer]]-plugin, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
 
 1. Åbn **[[Indstillinger]]**.
 2. Gå til **Fællesskabsplugins** og [installér Importer](obsidian://show-plugin?id=obsidian-importer).

@@ -4,7 +4,7 @@ aliases:
   - Import fra Evernote
   - Import af noter/Import fra Evernote
 ---
-Obsidian giver dig mulighed for nemt at migrere dine noter fra Evernote ved hjælp af [[Importér|Importer-pluginet]]. Dette vil konvertere dine Evernote-data til holdbare Markdown-filer, som du kan bruge med Obsidian og mange andre applikationer.
+Obsidian giver dig mulighed for nemt at migrere dine noter fra Evernote ved hjælp af [[Importer|Importer-pluginet]]. Dette vil konvertere dine Evernote-data til holdbare Markdown-filer, som du kan bruge med Obsidian og mange andre applikationer.
 
 ## Eksportér dine data fra Evernote
 
@@ -19,7 +19,7 @@ Du kan finde Evernotes instruktioner til eksport af dine data [på Evernotes hje
 
 ## Importér dine Evernote-data til Obsidian
 
-Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+Du skal bruge det officielle Obsidian [[Importer]]-plugin, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
 
 1. Åbn **[[Indstillinger]]**.
 2. Gå til **Fællesskabsplugins** og [installér Importer](obsidian://show-plugin?id=obsidian-importer).

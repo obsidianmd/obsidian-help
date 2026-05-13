@@ -83,7 +83,7 @@ Het Obsidian-team onderhoudt ook de ontwikkeling van bepaalde [[#Overige plug-in
 
 Het Obsidian-team onderhoudt ook plug-ins die beschikbaar zijn via de Community-plug-inwinkel:
 
-- [[Importeren]]
+- [[Importer]]
 	- Converteer bestanden van verschillende apps en formaten naar Obsidian.
 - [[Kaartweergave|Kaarten]]
 	- Voeg een kaartweergave toe aan Obsidian Bases.

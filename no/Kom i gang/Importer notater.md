@@ -24,7 +24,7 @@ Apper kommer og går, men dataene dine bør vare. Obsidian bruker ikke-propriet�
 
 ## Flere formater
 
-Ser du ikke appen din? Du kan be om den eller bidra til det [åpne kildekode-repositoriet](https://github.com/obsidianmd/obsidian-importer) for [[Importør]]-tillegget.
+Ser du ikke appen din? Du kan be om den eller bidra til det [åpne kildekode-repositoriet](https://github.com/obsidianmd/obsidian-importer) for [[Importer]]-tillegget.
 
 Fellesskapet vårt har delt flere veiledninger som kan hjelpe deg med å migrere til Obsidian:
 

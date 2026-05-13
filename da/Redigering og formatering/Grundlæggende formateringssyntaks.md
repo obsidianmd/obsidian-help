@@ -488,7 +488,7 @@ Du kan også anvende fodnoter i sætninger. ^[Dette er en fodnote.]
 > [!note]
 > Fodnoter i sætninger virker kun i læsningstilstand og ikke i live forhåndvisning.
 
-Brug [[Fodnotevisning|Fodnotevisningen]] til at se alle fodnoter i en note.
+Brug [[Footnotes view|Fodnotevisningen]] til at se alle fodnoter i en note.
 
 ## Kommentarer
 

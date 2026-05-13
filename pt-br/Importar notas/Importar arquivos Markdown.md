@@ -10,4 +10,4 @@ Existem várias maneiras de adicionar arquivos Markdown ao seu cofre do Obsidian
 
 ### Convertendo de outras variantes de Markdown
 
-O Obsidian usa [[Markdown do Obsidian]]. Alguns aplicativos usam uma sintaxe Markdown ligeiramente diferente. Você pode usar o [[Conversor de formato]] para converter seus arquivos para a sintaxe Markdown do Obsidian.
+O Obsidian usa [[Obsidian Flavored Markdown]]. Alguns aplicativos usam uma sintaxe Markdown ligeiramente diferente. Você pode usar o [[Conversor de formato]] para converter seus arquivos para a sintaxe Markdown do Obsidian.
