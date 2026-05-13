@@ -317,7 +317,11 @@ for (const absPath of collectAllMd(localeDir)) {
   } else if (!enFiles.has(permalink)) {
     reason = `permalink not in en: ${permalink}`;
   } else if (!canonicalPaths.has(absPath)) {
-    reason = `duplicate: not at canonical locale path`;
+    // The file has a valid EN permalink but isn't at the path filenames.txt expects.
+    // Don't delete — that risks nuking real translations when filenames.txt is updated
+    // (the move loop above should have handled real renames). Just warn so it can be inspected.
+    console.log(`  WARN    ${relPath} not at canonical path (permalink ${permalink}); leaving in place`);
+    continue;
   }
   if (reason) {
     console.log(`  DELETE  ${relPath} (${reason})`);

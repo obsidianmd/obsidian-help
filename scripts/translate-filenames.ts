@@ -351,9 +351,12 @@ async function main() {
     }
   }
 
-  // Consider an entry untranslated if it's missing OR if translation still equals the EN original
-  const missingFolders = folders.filter(f => !existing.folders[f] || existing.folders[f] === f);
-  const missingFiles = files.filter(f => !existing.files[f.permalink] || existing.files[f.permalink] === f.basename);
+  // Only consider entries untranslated if they are missing from filenames.txt.
+  // A recorded translation that happens to equal the EN original (e.g. fr "Importer", "Markdown")
+  // is a valid translation, not a placeholder — re-translating it can rewrite stable filenames
+  // and orphan existing locale files during sync.
+  const missingFolders = folders.filter(f => !existing.folders[f]);
+  const missingFiles = files.filter(f => !existing.files[f.permalink]);
 
   // Detect renamed EN files: original recorded in filenames.txt no longer matches current EN basename
   const renamedFiles = files.filter(f =>
