@@ -1,9 +1,8 @@
 ---
 permalink: import/apple-journal
 localized: '2026-03-18'
-
 ---
-Obsidian vous permet de migrer facilement vos entrées de journal depuis Apple Journal en utilisant le [[Importer|module Importer]].
+Obsidian vous permet de migrer facilement vos entrées de journal depuis Apple Journal en utilisant le [[Importateur|module Importer]].
 Cela convertira vos journaux en fichiers Markdown durables, que vous pouvez utiliser avec Obsidian et de nombreuses autres applications.
 
 ## Exporter vos données depuis Apple Journal
@@ -25,7 +24,7 @@ Suivez les instructions pour [Imprimer et exporter des entrées dans Journal sur
 
 ## Importer les données Apple Journal dans Obsidian
 
-Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du module officiel Obsidian [[Importateur]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).

@@ -1,13 +1,13 @@
 ---
 permalink: import/apple-notes
 ---
-Obsidian lar deg enkelt migrere notatene dine fra Apple Notes ved hjelp av [[Importer|Importer-tillegget]]. Dette vil konvertere Apple Notes-dataene dine til varige Markdown-filer som du kan bruke med Obsidian og mange andre apper.
+Obsidian lar deg enkelt migrere notatene dine fra Apple Notes ved hjelp av [[Importør|Importer-tillegget]]. Dette vil konvertere Apple Notes-dataene dine til varige Markdown-filer som du kan bruke med Obsidian og mange andre apper.
 
 For øyeblikket støtter Importer kun migrering fra Apple Notes på macOS. Det er ikke tilgjengelig på iOS ennå.
 
 ## Importer Apple Notes-data til Obsidian
 
-Du trenger det offisielle Obsidian [[Importer]]-tillegget, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+Du trenger det offisielle Obsidian [[Importør]]-tillegget, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
 
 1. Åpne **[[Innstillinger]]**.
 2. Gå til **Community-utvidelser** og [installer Importer](obsidian://show-plugin?id=obsidian-importer).

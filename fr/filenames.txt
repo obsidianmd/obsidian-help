@@ -344,7 +344,7 @@ translation=Vue graphique
 
 [file.plugins/importer]
 original=Importer
-translation=Importer
+translation=Importateur
 
 [file.plugins/note-composer]
 original=Note composer

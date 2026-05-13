@@ -1,9 +1,8 @@
 ---
 permalink: import/notion
 localized: '2026-03-18'
-
 ---
-Obsidian vous permet de migrer facilement vos notes depuis Notion en utilisant le [[Importer|module Importer]]. Cela convertira vos données Notion en fichiers Markdown durables que vous pouvez utiliser hors ligne avec Obsidian et de nombreuses autres applications.
+Obsidian vous permet de migrer facilement vos notes depuis Notion en utilisant le [[Importateur|module Importer]]. Cela convertira vos données Notion en fichiers Markdown durables que vous pouvez utiliser hors ligne avec Obsidian et de nombreuses autres applications.
 
 Obsidian propose deux façons d'importer vos données Notion :
 
@@ -42,7 +41,7 @@ Vous pouvez maintenant convertir vos données à l'aide d'Obsidian Importer.
 
 ### Importer vos données Notion via l'API
 
-Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du module officiel Obsidian [[Importateur]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
@@ -96,7 +95,7 @@ Pour préparer vos données à l'import, vous devrez exporter l'ensemble de votr
 
 ### Importer votre fichier .zip Notion
 
-Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du module officiel Obsidian [[Importateur]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).

@@ -1,7 +1,7 @@
 ---
 permalink: import/html
 ---
-Az Obsidian lehetővé teszi egyedi HTML fájlok és teljes HTML mappák egyszerű importálását a hivatalos [[Importáló|Importáló bővítmény]] segítségével. Ez akkor hasznos, ha teljes weboldalakat szeretne [[Obsidian Flavored Markdown|Markdown]] formátumban menteni, vagy ha olyan eszközből szeretne adatokat importálni, amely HTML formátumba exportál.
+Az Obsidian lehetővé teszi egyedi HTML fájlok és teljes HTML mappák egyszerű importálását a hivatalos [[Importáló|Importáló bővítmény]] segítségével. Ez akkor hasznos, ha teljes weboldalakat szeretne [[Obsidian ízesítésű Markdown|Markdown]] formátumban menteni, vagy ha olyan eszközből szeretne adatokat importálni, amely HTML formátumba exportál.
 
 Ha egy adott alkalmazásból importál jegyzeteket, érdemes először átnéznie az [[Importáló|Importáló bővítmény]] által támogatott alkalmazások listáját, hogy ellenőrizze, létezik-e olyan specifikus konverter, amely jobban megőrzi az áttelepítendő adatokat.
 

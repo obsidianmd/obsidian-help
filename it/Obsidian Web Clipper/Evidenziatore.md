@@ -26,7 +26,7 @@ Una volta attivato l'evidenziatore, qualsiasi testo, immagine ed elemento selezi
 
 Ci sono tre opzioni per inserire le evidenziazioni nelle note ritagliate:
 
-- **Evidenzia il contenuto della pagina** — aggiunge le evidenziazioni direttamente nel testo con la [[Obsidian Flavored Markdown|sintassi]] `==highlight==`.
+- **Evidenzia il contenuto della pagina** — aggiunge le evidenziazioni direttamente nel testo con la [[Markdown stile Obsidian|sintassi]] `==highlight==`.
 - **Sostituisci il contenuto della pagina** — restituisce un elenco di evidenziazioni, senza alcun contenuto della pagina.
 - **Non fare nulla** — restituisce il contenuto originale senza evidenziazioni.
  

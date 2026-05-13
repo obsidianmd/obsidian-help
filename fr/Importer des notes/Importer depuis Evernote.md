@@ -1,9 +1,8 @@
 ---
 permalink: import/evernote
 localized: '2026-03-18'
-
 ---
-Obsidian vous permet de migrer facilement vos notes depuis Evernote en utilisant le [[Importer|module Importer]]. Celui-ci convertira vos données Evernote en fichiers Markdown durables, que vous pourrez utiliser avec Obsidian et de nombreuses autres applications.
+Obsidian vous permet de migrer facilement vos notes depuis Evernote en utilisant le [[Importateur|module Importer]]. Celui-ci convertira vos données Evernote en fichiers Markdown durables, que vous pourrez utiliser avec Obsidian et de nombreuses autres applications.
 
 ## Exporter vos données depuis Evernote
 
@@ -18,7 +17,7 @@ Vous pouvez trouver les instructions d'Evernote pour exporter vos données [sur 
 
 ## Importer vos données Evernote dans Obsidian
 
-Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du module officiel Obsidian [[Importateur]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).

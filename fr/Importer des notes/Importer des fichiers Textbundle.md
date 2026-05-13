@@ -1,17 +1,16 @@
 ---
 permalink: import/textbundle
 localized: '2026-03-18'
-
 ---
-Obsidian vous permet d'importer facilement des fichiers [Textbundle](https://textbundle.org/) à l'aide du [[Importer|module Importer]] officiel.
+Obsidian vous permet d'importer facilement des fichiers [Textbundle](https://textbundle.org/) à l'aide du [[Importateur|module Importer]] officiel.
 
-Si vous importez des notes depuis une application spécifique, vous pouvez d'abord consulter la liste des applications prises en charge par le [[Importer|module Importer]] pour vérifier s'il existe un convertisseur spécifique qui préservera mieux les données que vous migrez.
+Si vous importez des notes depuis une application spécifique, vous pouvez d'abord consulter la liste des applications prises en charge par le [[Importateur|module Importer]] pour vérifier s'il existe un convertisseur spécifique qui préservera mieux les données que vous migrez.
 
 Le format Textbundle regroupe du texte Markdown et toutes les images référencées dans un seul fichier, offrant un moyen plus fluide de sortir d'une application sandboxée. L'export Textbundle est pris en charge par [de nombreuses applications](https://textbundle.org/), notamment Agenda, Craft, Taio, Ulysses, Zettlr, et bien d'autres.
 
 ## Importer des fichiers Textbundle dans Obsidian
 
-Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
+Vous aurez besoin du module officiel Obsidian [[Importateur]], que vous pouvez [installer ici](obsidian://show-plugin?id=obsidian-importer).
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).

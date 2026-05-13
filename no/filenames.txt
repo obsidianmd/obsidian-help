@@ -336,7 +336,7 @@ translation=Grafvisnining
 
 [file.plugins/importer]
 original=Importer
-translation=Importer
+translation=Importør
 
 [file.plugins/note-composer]
 original=Note composer

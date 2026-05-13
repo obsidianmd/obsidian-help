@@ -1,7 +1,7 @@
 ---
 permalink: import/bear
 ---
-Met Obsidian kun je eenvoudig je notities migreren vanuit Bear met behulp van de [[Importer|Importer-plug-in]]. Hiermee worden je Bear-gegevens geconverteerd naar duurzame Markdown-bestanden, die je kunt gebruiken met Obsidian en veel andere apps.
+Met Obsidian kun je eenvoudig je notities migreren vanuit Bear met behulp van de [[Importeren|Importer-plug-in]]. Hiermee worden je Bear-gegevens geconverteerd naar duurzame Markdown-bestanden, die je kunt gebruiken met Obsidian en veel andere apps.
 
 ## Je gegevens exporteren vanuit Bear
 
@@ -17,7 +17,7 @@ Obsidian gebruikt Bear's back-upformaat `.bear2bk`-bestanden. Je vindt Bear's in
 
 ## Je Bear-gegevens importeren in Obsidian
 
-Je hebt de officiële Obsidian [[Importer]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
+Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).

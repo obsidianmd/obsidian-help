@@ -2,7 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: Aprenda como usar HTML no Obsidian, incluindo limitações com a renderização Markdown, e requisitos de blocos HTML.
+description: 'Aprenda como usar HTML no Obsidian, incluindo limitações com a renderização Markdown, e requisitos de blocos HTML.'
 ---
 O Obsidian suporta HTML para permitir que você exiba suas notas da maneira que quiser, ou até mesmo [[Incorporar páginas web|incorporar páginas web]]. Permitir HTML dentro das suas notas traz riscos. Para impedir que código malicioso cause danos, o Obsidian _sanitiza_ qualquer HTML nas suas notas.
 
@@ -59,7 +59,7 @@ Isso não funcionará corretamente:
 
 Algumas tags HTML inline como `<span>` ou `<a>` têm funcionalidade limitada e podem parecer renderizar Markdown, mas isso não é realmente o que está acontecendo. O Markdown está sendo processado fora do contexto HTML.
 
-Para mais detalhes sobre como o Obsidian lida com Markdown, veja [[Obsidian Flavored Markdown]].
+Para mais detalhes sobre como o Obsidian lida com Markdown, veja [[Markdown do Obsidian]].
 
 ## Uso comum de HTML
 

@@ -1,13 +1,13 @@
 ---
 permalink: import/apple-notes
 ---
-Obsidian maakt het eenvoudig om je notities vanuit Apple Notities te migreren met behulp van de [[Importer|Importer-plug-in]]. Hiermee worden je Apple Notities-gegevens geconverteerd naar duurzame Markdown-bestanden die je kunt gebruiken met Obsidian en vele andere apps.
+Obsidian maakt het eenvoudig om je notities vanuit Apple Notities te migreren met behulp van de [[Importeren|Importer-plug-in]]. Hiermee worden je Apple Notities-gegevens geconverteerd naar duurzame Markdown-bestanden die je kunt gebruiken met Obsidian en vele andere apps.
 
 Momenteel ondersteunt Importer alleen het migreren vanuit Apple Notities op macOS. Het is nog niet beschikbaar op iOS.
 
 ## Apple Notities-gegevens importeren in Obsidian
 
-Je hebt de officiële Obsidian [[Importer]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
+Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).

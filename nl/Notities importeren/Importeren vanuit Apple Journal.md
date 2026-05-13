@@ -1,7 +1,7 @@
 ---
 permalink: import/apple-journal
 ---
-Obsidian laat je eenvoudig je dagboeknotities migreren vanuit Apple Journal met behulp van de [[Importer|Importer-plug-in]].
+Obsidian laat je eenvoudig je dagboeknotities migreren vanuit Apple Journal met behulp van de [[Importeren|Importer-plug-in]].
 Hiermee worden je dagboeknotities omgezet naar duurzame Markdown-bestanden, die je kunt gebruiken met Obsidian en vele andere apps.
 
 ## Je gegevens exporteren vanuit Apple Journal
@@ -23,7 +23,7 @@ Volg de instructies voor [Print and export entries in Journal on Mac](https://su
 
 ## Apple Journal-gegevens importeren in Obsidian
 
-Je hebt de officiële Obsidian [[Importer]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
+Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).

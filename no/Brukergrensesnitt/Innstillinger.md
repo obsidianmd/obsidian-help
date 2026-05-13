@@ -109,11 +109,11 @@ Velg hvordan [[Egenskaper|egenskaper]] vises øverst i notater. Velg **kilde** f
 
 #### Skjul under overskrift
 
-[[Folding|Fold]] alt innhold under en overskrift ved å velge skjul-ikonet ved siden av den.
+[[Fold/skjul|Fold]] alt innhold under en overskrift ved å velge skjul-ikonet ved siden av den.
 
 ### Skjul under innrykk
 
-[[Folding|Fold]] deler av et innrykk, som lister, ved å velge skjul-ikonet.
+[[Fold/skjul|Fold]] deler av et innrykk, som lister, ved å velge skjul-ikonet.
 
 #### Linjenumre
 

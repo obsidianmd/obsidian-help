@@ -1,7 +1,7 @@
 ---
 permalink: import/roam
 ---
-Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Roam Research menggunakan [[Importer|plugin Importer]]. Ini akan mengonversi data Roam Anda menjadi file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Roam Research menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data Roam Anda menjadi file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
 
 ## Ekspor data Anda dari Roam Research
 
@@ -12,7 +12,7 @@ Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Roam Research 
 
 ## Impor data Roam Research Anda ke Obsidian
 
-Anda memerlukan plugin resmi Obsidian [[Importer]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
+Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
 
 1. Buka **[[Pengaturan]]**.
 2. Buka **Plugin komunitas** dan [pasang Importer](obsidian://show-plugin?id=obsidian-importer).

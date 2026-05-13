@@ -684,7 +684,7 @@ translation=Pracovní prostor
 
 [folder.audio]
 original=audio
-translation=audio
+translation=zvuk
 
 [folder.Changelog]
 original=Changelog

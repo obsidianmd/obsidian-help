@@ -59,7 +59,7 @@ Ez nem fog helyesen működni:
 
 Egyes inline HTML címkék, mint a `<span>` vagy az `<a>`, korlátozott funkcionalitással rendelkeznek, és úgy tűnhet, hogy renderelnek Markdownt, de valójában nem ez történik. A Markdown a HTML kontextuson kívül kerül feldolgozásra.
 
-A Markdown Obsidian általi kezelésével kapcsolatos további részletekért lásd: [[Obsidian Flavored Markdown]].
+A Markdown Obsidian általi kezelésével kapcsolatos további részletekért lásd: [[Obsidian ízesítésű Markdown]].
 
 ## Gyakori HTML-használat
 

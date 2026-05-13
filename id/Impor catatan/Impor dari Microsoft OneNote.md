@@ -1,14 +1,14 @@
 ---
 permalink: import/onenote
 ---
-Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Microsoft OneNote menggunakan [[Importer|plugin Importer]]. Ini akan mengonversi data OneNote Anda menjadi file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Microsoft OneNote menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data OneNote Anda menjadi file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
 
 > [!Warning]
 > Hanya buku catatan yang dimiliki oleh akun pribadi Anda yang dapat diimpor. Catatan bersama, atau akun dari akun kerja dan sekolah tidak didukung.
 
 ## Impor data OneNote Anda ke Obsidian
 
-Anda memerlukan plugin resmi Obsidian [[Importer]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
+Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
 
 1. Buka **[[Pengaturan]]**.
 2. Pergi ke **Plugin komunitas** dan [pasang Importer](obsidian://show-plugin?id=obsidian-importer).

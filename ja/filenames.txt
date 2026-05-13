@@ -272,7 +272,7 @@ translation=Obsidianについて
 
 [file.obsidian-flavored-markdown]
 original=Obsidian Flavored Markdown
-translation=Obsidian Flavored Markdown
+translation=Obsidian フレーバー Markdown
 
 [file.official-site]
 original=Official website

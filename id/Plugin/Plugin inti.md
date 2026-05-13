@@ -85,7 +85,7 @@ Tim Obsidian juga memelihara pengembangan beberapa [[#Plugin lainnya|plugin komu
 
 Tim Obsidian juga memelihara plugin yang tersedia melalui toko Plugin komunitas:
 
-- [[Importer]]
+- [[Impor]]
 	- Konversi file dari berbagai aplikasi dan format ke Obsidian.
 - [[Tampilan peta|Maps]]
 	- Tambahkan tampilan peta ke Obsidian Basis.

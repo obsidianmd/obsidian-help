@@ -10,4 +10,4 @@ Többféleképpen adhat hozzá Markdown fájlokat az Obsidian széfjéhez:
 
 ### Konvertálás más Markdown változatokból
 
-Az Obsidian az [[Obsidian Flavored Markdown]] formátumot használja. Egyes alkalmazások kissé eltérő Markdown szintaxist használnak. A [[Formátum-konvertáló]] segítségével átalakíthatja fájljait az Obsidian Markdown szintaxisára.
+Az Obsidian az [[Obsidian ízesítésű Markdown]] formátumot használja. Egyes alkalmazások kissé eltérő Markdown szintaxist használnak. A [[Formátum-konvertáló]] segítségével átalakíthatja fájljait az Obsidian Markdown szintaxisára.
