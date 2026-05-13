@@ -9,7 +9,6 @@ mobile: true
 permalink: sync-notes
 publish: true
 ---
-
 Obsidian stores notes locally on your device so you always have access to them, even offline. To access your notes on multiple devices you need to set up a sync method.
 
 This guide covers common sync methods, including tips to avoid data loss and ensure a smooth experience.
@@ -20,12 +19,14 @@ We also recommend reading our [[Back up your Obsidian files|backup guide]] to pr
 
 With Obsidian your data is simply stored as files in a folder called a [[Local and remote vaults|vault]]. This means there are many ways to sync your data.
 
-These are a few commonly used sync methods reported by members of the [Obsidian Community](https://obsidian.md/community):
+These are a few commonly used sync methods reported by members of the Obsidian community:
 
 1. **First-party sync**: [[#Obsidian Sync]]
 2. **Third-party cloud sync**: [[#iCloud]], [[#OneDrive]], and [[#Google Drive]]
 3. **Local sync**: [[#Syncthing]]
 4. **Version control**: [[#Git]] and [[#Working Copy]]
+
+Dozens of alternative syncing options can be found in the [Community plugins directory](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

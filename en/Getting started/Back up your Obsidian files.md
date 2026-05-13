@@ -26,10 +26,12 @@ If you use multiple devices with syncing, choose **one device** to be your bac
 
 ## Use community plugins
 
-While the Obsidian Team cannot officially endorse any specific plugin, we recognize two community plugins that have become popular among users for backing up their files:
+While the Obsidian Team cannot officially endorse any specific plugin, we recognize two [community plugins](https://community.obsidian.md/search?type=plugin&categories=backup) that have become popular among users for backing up their files:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Use this plugin to back up your vault by committing its contents to a [Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). It's an effective way to version control your notes and ensure their safety on a remote server. However, please be aware that your data may be stored on an [[#Use cloud-based services|external hosting platform]] using this method.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** This plugin lets you create local copies of your vault in a folder of your choice, with options for archival. You can even use a syncing folder, like a Dropbox folder, to combine local and cloud backups. This method **pairs well** with the backup options described below.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Use this plugin to back up your vault by committing its contents to a [Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). It's an effective way to version control your notes and ensure their safety on a remote server. However, please be aware that your data may be stored on an [[#Use cloud-based services|external hosting platform]] using this method.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** This plugin lets you create local copies of your vault in a folder of your choice, with options for archival. You can even use a syncing folder, like a Dropbox folder, to combine local and cloud backups. This method **pairs well** with the backup options described below.
+
+See the [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) category for more community plugin options.
 
 ## Use cloud-based services
 

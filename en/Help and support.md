@@ -73,7 +73,7 @@ Once you've opened the developer console:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Mobile console access
-> Mobile devices and tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) to automatically generate the console log data in a markdown note.
+> Mobile devices and tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) to automatically generate the console log data in a markdown note.
 
 ### Contact Obsidian support
 

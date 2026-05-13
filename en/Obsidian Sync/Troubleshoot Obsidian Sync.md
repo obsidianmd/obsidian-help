@@ -95,4 +95,4 @@ Finally, this can happen when you restore a file on one device, but then it is r
 This issue is likely due to Google or Android Photos managing your attachments. To prevent the system from changing files received via Sync, add a `.nomedia` [file to your vault](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) on your Android device.
 
 > [!tip]- Use a plugin
-> The community plugin [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) makes this easier. Install it on your Android phone. Note that `.nomedia` files are not synced across devices through Obsidian Sync.
+> The community plugin [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) makes this easier. Install it on your Android phone. Note that `.nomedia` files are not synced across devices through Obsidian Sync.
