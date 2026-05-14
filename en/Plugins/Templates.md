@@ -2,7 +2,7 @@
 aliases:
 cssclasses:
   - soft-embed
-description: Templates is a Core plugins|core plugin that lets you insert pre-defined snippets of text into your active note.
+description: Templates is a core plugin that lets you insert pre-defined snippets of text into your active note.
 mobile: true
 permalink: plugins/templates
 publish: true
@@ -12,7 +12,7 @@ Templates is a [[Core plugins|core plugin]] that lets you insert pre-defined sni
 
 ## Set your template folder
 
-1. In the bottom-left corner, click **[[Settings]]** ![[lucide-cog.svg#icon]].
+1. In the bottom-left corner, select **[[Settings]]** ![[lucide-cog.svg#icon]].
 2. Under **Core plugins → Templates → Template folder location**, enter the folder containing your templates.
 
 ## Template variables
@@ -29,11 +29,11 @@ Both `{{date}}` and `{{time}}` allow you to change the default format using a _f
 
 To set a format string, add a colon (`:`) followed by a string of [Moment.js format tokens](https://momentjs.com/docs/#/displaying/format/), for example `{{date:YYYY-MM-DD}}`.
 
-You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
+You can use `{{date}}` and `{{time}}` with format strings in the same way, for example `{{time:YYYY-MM-DD}}`.
 
-You can change the default date and time formats under **[[Settings]] → Templates → Date format** and **[[Settings]] → Templates → Time format**. ^template-settings-date-time-formatting
+You can change the default date and time formats under **[[Settings]] → Core plugins → Templates → Date format** and **[[Settings]] → Core plugins → Templates → Time format**. ^template-settings-date-time-formatting
 
-> [!tip] Tip
+> [!tip]- Use date and time variables in other plugins
 > You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
 
 ## Create a template
@@ -72,11 +72,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Edit templates in Source mode
+> In [[Views and editing mode#Live Preview|Live Preview]], the **Properties in document** panel can overwrite template variables that do not have quotation marks.
+>
+> To avoid this, edit templates in [[Views and editing mode#Source mode|Source mode]], or set **[[Settings]] → Editor → [[Settings#Properties in document|Properties in document]]** to **Source**.
+
 ## Insert a template into the active note
 
-**Important:**  To insert a template, you need to first [[#Set your template folder]].
+> [!todo] [[#Set your template folder]] before inserting a template.
 
-1. In the ribbon, click **Insert template**.
+1. In the ribbon, select **Insert template**.
 2. Select the template to insert at the cursor position in the active note.
 
 To insert a template using the [[Command palette]] or [[Hotkeys#Set a hotkey|a custom keyboard shortcut]], use the command `Templates: Insert template`.
@@ -87,8 +92,8 @@ The content of the template is inserted at your current cursor position. If your
 
 ![[Properties#^templates-properties]]
 
-## Inserting current date and time into the active note
+## Insert current date and time into the active note
 
-Use the commands `Templates: Insert current date` and `Templates: Insert current time` to insert the current date and time at your current cursor position. Like the `Insert template` command this can be done with the [[Command palette]] or [[Hotkeys#Set a hotkey|a custom keyboard shortcut]].
+Use the commands `Templates: Insert current date` and `Templates: Insert current time` to insert the current date and time at your current cursor position. Like the `Insert template` command, you can also perform these with the Command palette or a custom keyboard shortcut.
 
 The inserted date and time uses the [[#^template-settings-date-time-formatting|formatting set in the plugin settings]].
