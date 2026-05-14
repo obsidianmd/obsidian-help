@@ -34,11 +34,9 @@ Due to technical limitations, Obsidian cannot reliably restrict plugins to speci
 
 ## Plugin review process
 
-Community plugins undergo an initial review when they're submitted to the plugin store. All plugins must adhere to [Obsidian Developer Policies](https://docs.obsidian.md/Developer+policies).
+All community plugins must adhere to [Obsidian Developer Policies](https://docs.obsidian.md/Developer+policies). Obsidian automatically scans every plugin version for security vulnerabilities, code quality issues, and malware. Each plugin's page in the [plugin directory](https://community.obsidian.md) displays the results as a safety scorecard.
 
-The Obsidian team is small and unable to manually review every new release of community plugins. Instead, we rely on the help of the community to identify and report issues with plugins.
+Manual reviews continue for popular, featured, and flagged plugins.
 
-- If you discover any minor security vulnerabilities in a community plugin, refer to the plugin author's `security.md` or `readme.md` for how to report those. For Critical category flaws, please report the issue to [[Help and support#Contact Obsidian support|Obsidian support]] as well. 
-- If you suspect that a community plugin is malicious, report it to [[Help and support#Contact Obsidian support|Obsidian support]], or by sending a DM to our moderators.
-
-
+- If you discover a security vulnerability in a community plugin, refer to the plugin author's `security.md` or `readme.md` for how to report it. For critical flaws, also report the issue to [[Help and support#Contact Obsidian support|Obsidian support]].
+- If you suspect that a community plugin is malicious, you can flag it directly from its plugin directory page, report it to [[Help and support#Contact Obsidian support|Obsidian support]], or send a DM to our moderators.

@@ -15,7 +15,7 @@ If you do not intend to use community plugins or themes, or [[Introduction to Ob
 
 Please review the [[Plugin security]] page in addition to this section. 
 
-The Obsidian teams reviews all community plugins and themes submitted to the official directory, via our [releases repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). We do not review community items which have not been submitted to the official directory.
+Obsidian automatically scans every version of a community plugin or theme in the [official directory](https://obsidian.md/plugins) for security vulnerabilities, code quality issues, and malware. Each project's directory page displays the results as a safety scorecard. Manual reviews continue for popular, featured, and flagged items. We do not review community items which have not been submitted to the official directory.
 
 We do not have a community store for [[CSS snippets]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
 
@@ -41,7 +41,7 @@ The following is a list of network connections Obsidian makes.
 
 ### GitHub-sourced connections
 
-Obsidian makes network requests to both `github.com` and `raw.githubusercontent.com`.
+Obsidian makes network requests to both `github.com` and `raw.githubusercontent.com`.
 
 - **Public releases**: If automatic updates are enabled, Obsidian checks GitHub for public releases.
 - **Third-party themes and plugins**:
