@@ -8,17 +8,19 @@ publish: true
 
 Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[properties]] in [[Views#Filters|filters]] and [[formulas]]. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
 
+Bases functions follow JavaScript behavior. For complete reference documentation, refer to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Aside from [[Functions#Global|Global]] functions, most functions depend on the type of value you want to modify:
 
-- [[Functions#Any|Any]]
-- [[Functions#Date|Date]]
-- [[Functions#String|String]]
-- [[Functions#Number|Number]]
-- [[Functions#List|List]]
-- [[Functions#Link|Link]]
-- [[Functions#File|File]]
-- [[Functions#Object|Object]]
-- [[Functions#Regular expression|Regular expression]]
+- [[Functions#Any type|Any]]
+- [[Functions#Date type|Date]]
+- [[Functions#String type|String]]
+- [[Functions#Number type|Number]]
+- [[Functions#List type|List]]
+- [[Functions#Link type|Link]]
+- [[Functions#File type|File]]
+- [[Functions#Object type|Object]]
+- [[Functions#Regular expression type|Regular expression]]
 
 ## Global
 
@@ -41,8 +43,8 @@ Global functions are used without a type.
 
 `duration(value: string): duration`
 
-- Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
-- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but they do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
+- Parses a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
+- Explicit parsing is not needed for date arithmetic (for example, `now() + '1d'`), but is needed when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
 - When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
 
 ### `file()`
@@ -62,18 +64,18 @@ Global functions are used without a type.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` is the condition to be evaluated.
-- `trueResult` is the output if condition is true.
-- `falseResult` is the optional output if the condition is false. If it is not given, then it is assumed to be `null`.
-- Returns the `trueResult` if `condition` is true, or is a truthy value, or `falseResult` otherwise.
+- `condition` is the expression to evaluate.
+- `trueResult` is the output if `condition` is true.
+- `falseResult` is the optional output if `condition` is false. If omitted, defaults to `null`.
+- Returns `trueResult` if `condition` is true or truthy, otherwise returns `falseResult`.
 - Example: `if(isModified, "Modified", "Unmodified")`
 
 ### `image()`
 
 `image(path: string | file | url): image`
 
-- Returns an image object which will render the image in the view.
-- Example: `image(image-property)` or `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Returns an image object that renders the image in the view.
+- Example: `image(image-property)` or `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -86,16 +88,16 @@ Global functions are used without a type.
 
 `link(path: string | file, display?: value): Link`
 
-- Parses a string `path` and returns a Link object that renders as a link to the path given.
-- Optionally provide the `display` parameter to change what text the link says.
+- Parses a string `path` and returns a Link object that renders as a link to the given path.
+- Optionally provide the `display` parameter to set the link display text.
 
 ### `list()`
 
 `list(element: any): List`
 
-- If the provided element is a list, return it unmodified.
+- If the provided element is a list, returns it unmodified.
 - Otherwise, wraps the provided `element` in a list, creating a list with a single element.
-- This function can be helpful when a property contains a mixture of strings or lists across the vault.
+- Use this function when a property contains a mix of strings or lists across the vault.
 - Example: `list("value")` returns `["value"]`.
 
 ### `max()`
@@ -114,40 +116,32 @@ Global functions are used without a type.
 
 `now(): date`
 
-- `now()` returns a date object representing the current moment.
+- Returns a date object for the current moment.
 
 ### `number()`
 
 `number(input: any): number`
 
-- Attempt to return the provided value as a number.
-- Date objects will be returned as milliseconds since the unix epoch.
-- Booleans will return a 1 or 0.
-- Strings will be parsed into a number and return an error if the result is invalid.
-- Example, `number("3.4")` returns `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Parse a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
-- Durations do not need to be explicitly parsed when performing date arithmetic (for example, `now() + '1d'`), but they do when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
-- When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
+- Attempts to return the provided value as a number.
+- Returns date objects as milliseconds since the Unix epoch.
+- Returns booleans as `1` or `0`.
+- Parses strings as numbers, and returns an error if the string is not a valid number.
+- Example: `number("3.4")` returns `3.4`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` returns a date object representing the current date. The time portion is set to zero.
+- Returns a date object for the current date. The time portion is set to midnight.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` returns a random number between 0 and 1.
+- Returns a random number between 0 and 1.
 - The number generation refreshes whenever a view is loaded. Navigating between views changes the random number.
 
-## Any
+## Any type
 
 Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), lists (e.g. `[1,2,3]`), objects, and more.
 
@@ -155,7 +149,7 @@ Functions you can use with any value. This includes strings (e.g. `"hello"`), nu
 
 `any.isTruthy(): boolean`
 
-- Return the value coerced into a boolean.
+- Returns the value coerced into a boolean.
 - Example: `1.isTruthy()` returns `true`.
 
 ### `isType()`
@@ -172,7 +166,7 @@ Functions you can use with any value. This includes strings (e.g. `"hello"`), nu
 - Returns the string representation of any value.
 - Example: `123.toString()` returns `"123"`.
 
-## Date
+## Date type
 
 Functions you can use with a date and time such as `date("2025-05-27")`. Date comparisons can be done using [[Bases syntax#Date arithmetic|date arithmetic]].
 
@@ -195,7 +189,7 @@ The following fields are available for dates:
 `date.date(): date`
 
 - Returns a date object with the time removed.
-- Example: `now().date().format("YYYY-MM-DD HH:mm:ss")` returns a string such as "2025-12-31 00:00:00"
+- Example: `now().date().format("YYYY-MM-DD HH:mm:ss")` returns a string such as "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -209,8 +203,8 @@ The following fields are available for dates:
 
 `date.time(): string`
 
-- Returns the time.
-- Example: `now().time()` returns a string such as "23:59:59"
+- Returns the time portion as a string.
+- Example: `now().time()` returns a string such as "23:59:59".
 
 ### `relative()`
 
@@ -225,7 +219,7 @@ The following fields are available for dates:
 
 - Returns false.
 
-## String
+## String type
 
 Functions you can use with a sequence of characters such as `"hello"`.
 
@@ -286,17 +280,18 @@ Functions you can use with a sequence of characters such as `"hello"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` is the value to search for in the target string.
-- `replacement` is the value to replace found patterns with.
+- `replacement` is the value to replace found patterns with. When `pattern` is a Regexp, you can reference capture groups in `replacement` using `$1`, `$2`, and so on.
 - If `pattern` is a string, all occurrences of the pattern will be replaced.
 - If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
-- Example: `""a:b:c:d".replace(/:/, "-")` returns `"a-b,c,d"`, where as `"a:b:c:d".replace(/:/g, "-")` returns `"a-b-c-d"`.
+- Example: `"a:b:c:d".replace(/:/, "-")` returns `"a-b:c:d"`, whereas `"a:b:c:d".replace(/:/g, "-")` returns `"a-b-c-d"`.
+- Example with capture groups: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` returns `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` is the number of times to repeat the string.
-- Example: `"123".repeat(2)` returns `"123123"`
+- Example: `"123".repeat(2)` returns `"123123"`.
 
 ### `reverse()`
 
@@ -321,7 +316,7 @@ Functions you can use with a sequence of characters such as `"hello"`.
 
 - `separator` is the delimiter for splitting the string.
 - `n` is an optional number. If provided, the result will have the first `n` elements.
-- Returns an list of substrings.
+- Returns a list of substrings.
 - Example: `"a,b,c,d".split(",", 3)` or `"a,b,c,d".split(/,/, 3)` returns `["a", "b", "c"]`.
 
 ### `startsWith()`
@@ -346,7 +341,7 @@ Functions you can use with a sequence of characters such as `"hello"`.
 - Removes whitespace from both ends of the string.
 - Example: `"  hi  ".trim()` returns `"hi"`.
 
-## Number
+## Number type
 
 Functions you can use with numeric values such as `42`, `3.14`.
 
@@ -383,7 +378,7 @@ Functions you can use with numeric values such as `42`, `3.14`.
 `number.round(digits: number): number`
 
 - Rounds the number to the nearest integer.
-- Optionally, provided a `digits` parameter to round to that number of decimal digits.
+- Optionally, provide a `digits` parameter to round to that number of decimal places.
 - Example: `(2.5).round()` returns `3`, and `(2.3333).round(2)` returns `2.33`.
 
 ### `toFixed()`
@@ -394,7 +389,7 @@ Functions you can use with numeric values such as `42`, `3.14`.
 - Returns a string with the number in fixed-point notation.
 - Example: `(3.14159).toFixed(2)` returns `"3.14"`.
 
-## List
+## List type
 
 Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
@@ -432,7 +427,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
 `list.filter(value: Boolean): list`
 
-- Filter the elements of this list by calling a filter function, which uses the variables `index` and `value`, and returns a boolean value for whether the element should be kept.
+- Filters the list and keeps only elements where the expression is true.
 - `value` is the value of an item in the list.
 - `index` is the index of the current value.
 - Example: `[1,2,3,4].filter(value > 2)` returns `[3,4]`.
@@ -441,7 +436,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
 `list.flat(): list`
 
-- Flattens nested list into a single list.
+- Flattens a nested list into a single list.
 - Example: `[1,[2,3]].flat()` returns `[1,2,3]`.
 
 ### `isEmpty()`
@@ -463,7 +458,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
 `list.map(value: Any): list`
 
-- Transform each element of this list by calling a conversion function, which uses the variables `index` and `value`, and returns the new value to be placed in the list.
+- Transforms each element of the list using an expression.
 - `value` is the value of an item in the list.
 - `index` is the index of the current value.
 - Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
@@ -472,7 +467,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Reduce the elements of this list into a single value by running an expression for each element. The expression can use the variables `index`, `value`, and `acc` (the accumulator), and should return the next accumulator value.
+- Reduces the list to a single value by running an expression for each element. The expression must return the next value of `acc`. Use `value` for the current element, `index` for its position, and `acc` for the accumulated result so far.
 - `expression` is evaluated for every element in the list.
 - `value` is the value of the current item in the list.
 - `index` is the index of the current item.
@@ -512,7 +507,7 @@ Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
 - Removes duplicate elements.
 - Example: `[1,2,2,3].unique()` returns `[1,2,3]`.
 
-## Link
+## Link type
 
 Functions you can use on a link. Links can be created from a file (`file.asLink()`) or a path (`link("path")`).
 
@@ -521,17 +516,17 @@ Functions you can use on a link. Links can be created from a file (`file.asLink(
 `link.asFile(): file`
 
 - Returns a file object if the link refers to a valid local file.
-- Example: `link("[[filename]]").asFile()`
+- Example: `link("[[filename]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Returns whether the file represented by the `link` has a link to `file`.
+- Returns `true` if the file represented by `link` has a link to `file`.
 
-## File
+## File type
 
-Functions you can use with file in the vault.
+Functions you can use with a file in the vault.
 
 ### Fields
 
@@ -555,7 +550,7 @@ The following fields are available for files:
 
 `file.asLink(display?: string): Link`
 
-- `display` optional display text for the link.
+- `display` is optional display text for the link.
 - Returns a Link object that renders as a functioning link.
 - Example: `file.asLink()`
 
@@ -571,7 +566,7 @@ The following fields are available for files:
 
 `file.hasProperty(name: string): boolean`
 
-- Returns true if the note has the given file property.
+- Returns `true` if the file has the given property.
 
 ### `hasTag()`
 
@@ -589,7 +584,7 @@ The following fields are available for files:
 - Returns true if the file is in the specified folder or one of its sub-folders.
 - Example: `file.inFolder("notes")` returns `true`.
 
-## Object
+## Object type
 
 Functions you can use with a collection of key-value pairs such as `{"a": 1, "b": 2}`.
 
@@ -612,7 +607,7 @@ Functions you can use with a collection of key-value pairs such as `{"a": 1, "b"
 
 - Returns a list containing the values of the object.
 
-## Regular expression
+## Regular expression type
 
 Functions you can use with a regular expression pattern. Example: `/abc/`.
 
