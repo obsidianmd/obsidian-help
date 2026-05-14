@@ -6,17 +6,19 @@ description: 'Bu sayfa, Obsidian Bases''te filtrelerde ve formüllerde özellikl
 ---
 Fonksiyonlar, [[Tabanlara giriş|Tabanlar]]'da [[özellikler]]'den gelen verileri [[Görünümler#Filtreler|filtreler]] ve [[Formüller|formüller]] içinde işlemek için kullanılır. Fonksiyonları nasıl kullanabileceğiniz hakkında daha fazla bilgi edinmek için [[Tabanlar söz dizimi|tabanlar söz dizimi]] referansına bakın.
 
+Tabanlar fonksiyonları JavaScript davranışını takip eder. Tam referans belgelendirmesi için [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) sayfasına bakın.
+
 [[Fonksiyonlar#Global|Global]] fonksiyonlar dışında, çoğu fonksiyon değiştirmek istediğiniz değerin türüne bağlıdır:
 
-- [[Fonksiyonlar#Any|Any]]
-- [[Fonksiyonlar#Date|Date]]
-- [[Fonksiyonlar#String|String]]
-- [[Fonksiyonlar#Number|Number]]
-- [[Fonksiyonlar#List|List]]
-- [[Fonksiyonlar#Link|Link]]
-- [[Fonksiyonlar#File|File]]
-- [[Fonksiyonlar#Object|Object]]
-- [[Fonksiyonlar#Düzenli ifade|Düzenli ifade]]
+- [[Fonksiyonlar#Any türü|Any]]
+- [[Fonksiyonlar#Date türü|Date]]
+- [[Fonksiyonlar#String türü|String]]
+- [[Fonksiyonlar#Number türü|Number]]
+- [[Fonksiyonlar#List türü|List]]
+- [[Fonksiyonlar#Link türü|Link]]
+- [[Fonksiyonlar#File türü|File]]
+- [[Fonksiyonlar#Object türü|Object]]
+- [[Fonksiyonlar#Düzenli ifade türü|Düzenli ifade]]
 
 ## Global
 
@@ -40,7 +42,7 @@ Global fonksiyonlar tür belirtmeden kullanılır.
 `duration(value: string): duration`
 
 - Bir dizeyi süre olarak ayrıştırır. `value` dizesinin biçimi için [[Tabanlar söz dizimi#Tarih aritmetiği|tarih aritmetiği bölümüne]] bakın.
-- Tarih aritmetiği yaparken sürelerin açıkça ayrıştırılması gerekmez (örneğin, `now() + '1d'`), ancak süreler üzerinde aritmetik işlem yaparken gereklidir (örneğin, `now() + (duration('1d') * 2)`).
+- Tarih aritmetiği için açık ayrıştırma gerekmez (örneğin, `now() + '1d'`), ancak süreler üzerinde aritmetik işlem yaparken gereklidir (örneğin, `now() + (duration('1d') * 2)`).
 - Sürelerle skaler değerler arasında aritmetik işlem yaparken süre solda olmalıdır. Örneğin `2 * duration('5h')` yerine `duration('5h') * 2`.
 
 ### `file()`
@@ -60,9 +62,9 @@ Global fonksiyonlar tür belirtmeden kullanılır.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` değerlendirilecek koşuldur.
-- `trueResult` koşul doğruysa çıktıdır.
-- `falseResult` koşul yanlışsa isteğe bağlı çıktıdır. Verilmezse `null` olarak kabul edilir.
+- `condition` değerlendirilecek ifadedir.
+- `trueResult` `condition` doğruysa çıktıdır.
+- `falseResult` `condition` yanlışsa isteğe bağlı çıktıdır. Atlanırsa varsayılan olarak `null` olur.
 - `condition` doğruysa veya doğrumsu bir değerse `trueResult` döndürür, aksi halde `falseResult` döndürür.
 - Örnek: `if(isModified, "Değiştirildi", "Değiştirilmedi")`
 
@@ -70,8 +72,8 @@ Global fonksiyonlar tür belirtmeden kullanılır.
 
 `image(path: string | file | url): image`
 
-- Görünümde görseli işleyecek bir görsel nesnesi döndürür.
-- Örnek: `image(gorsel-ozelligi)` veya `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Görünümde görseli işleyen bir görsel nesnesi döndürür.
+- Örnek: `image(gorsel-ozelligi)` veya `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Global fonksiyonlar tür belirtmeden kullanılır.
 `link(path: string | file, display?: value): Link`
 
 - Bir `path` dizesini ayrıştırır ve verilen yola bağlantı olarak işlenen bir Link nesnesi döndürür.
-- Bağlantının göstereceği metni değiştirmek için isteğe bağlı olarak `display` parametresini sağlayın.
+- Bağlantı görüntüleme metnini ayarlamak için isteğe bağlı olarak `display` parametresini sağlayın.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Global fonksiyonlar tür belirtmeden kullanılır.
 
 - Sağlanan eleman bir listeyse, değiştirilmeden döndürür.
 - Aksi halde, sağlanan `element`'i bir listeye sararak tek elemanlı bir liste oluşturur.
-- Bu fonksiyon, bir özelliğin kasa genelinde dizeler veya listeler karışımı içerdiği durumlarda faydalı olabilir.
+- Bir özelliğin kasa genelinde dizeler veya listeler karışımı içerdiği durumlarda bu fonksiyonu kullanın.
 - Örnek: `list("değer")` `["değer"]` döndürür.
 
 ### `max()`
@@ -112,40 +114,32 @@ Global fonksiyonlar tür belirtmeden kullanılır.
 
 `now(): date`
 
-- `now()` şu anı temsil eden bir tarih nesnesi döndürür.
+- Şu anı temsil eden bir tarih nesnesi döndürür.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Sağlanan değeri bir sayı olarak döndürmeye çalışır.
-- Tarih nesneleri unix epoch'undan bu yana milisaniye olarak döndürülür.
-- Boolean değerler 1 veya 0 döndürür.
-- Dizeler bir sayıya ayrıştırılır ve sonuç geçersizse hata döndürür.
+- Tarih nesnelerini Unix epoch'undan bu yana milisaniye olarak döndürür.
+- Boolean değerleri `1` veya `0` olarak döndürür.
+- Dizeleri sayı olarak ayrıştırır ve dize geçerli bir sayı değilse hata döndürür.
 - Örnek: `number("3.4")` `3.4` döndürür.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Bir dizeyi süre olarak ayrıştırır. `value` dizesinin biçimi için [[Tabanlar söz dizimi#Tarih aritmetiği|tarih aritmetiği bölümüne]] bakın.
-- Tarih aritmetiği yaparken sürelerin açıkça ayrıştırılması gerekmez (örneğin, `now() + '1d'`), ancak süreler üzerinde aritmetik işlem yaparken gereklidir (örneğin, `now() + (duration('1d') * 2)`).
-- Sürelerle skaler değerler arasında aritmetik işlem yaparken süre solda olmalıdır. Örneğin `2 * duration('5h')` yerine `duration('5h') * 2`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` bugünün tarihini temsil eden bir tarih nesnesi döndürür. Saat kısmı sıfıra ayarlanır.
+- Bugünün tarihini temsil eden bir tarih nesnesi döndürür. Saat kısmı gece yarısına ayarlanır.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` 0 ile 1 arasında rastgele bir sayı döndürür.
+- 0 ile 1 arasında rastgele bir sayı döndürür.
 - Sayı üretimi, bir görünüm yüklendiğinde yenilenir. Görünümler arasında gezinmek rastgele sayıyı değiştirir.
 
-## Any
+## Any türü
 
 Herhangi bir değerle kullanabileceğiniz fonksiyonlar. Buna dizeler (ör. `"merhaba"`), sayılar (ör. `42`), listeler (ör. `[1,2,3]`), nesneler ve daha fazlası dahildir.
 
@@ -170,7 +164,7 @@ Herhangi bir değerle kullanabileceğiniz fonksiyonlar. Buna dizeler (ör. `"mer
 - Herhangi bir değerin dize temsilini döndürür.
 - Örnek: `123.toString()` `"123"` döndürür.
 
-## Date
+## Date türü
 
 `date("2025-05-27")` gibi tarih ve saat ile kullanabileceğiniz fonksiyonlar. Tarih karşılaştırmaları [[Tabanlar söz dizimi#Tarih aritmetiği|tarih aritmetiği]] kullanılarak yapılabilir.
 
@@ -193,7 +187,7 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 `date.date(): date`
 
 - Saat kısmı kaldırılmış bir tarih nesnesi döndürür.
-- Örnek: `now().date().format("YYYY-MM-DD HH:mm:ss")` "2025-12-31 00:00:00" gibi bir dize döndürür
+- Örnek: `now().date().format("YYYY-MM-DD HH:mm:ss")` "2025-12-31 00:00:00" gibi bir dize döndürür.
 
 ### `format()`
 
@@ -207,8 +201,8 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 
 `date.time(): string`
 
-- Saati döndürür.
-- Örnek: `now().time()` "23:59:59" gibi bir dize döndürür
+- Saat kısmını bir dize olarak döndürür.
+- Örnek: `now().time()` "23:59:59" gibi bir dize döndürür.
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 
 - false döndürür.
 
-## String
+## String türü
 
 `"merhaba"` gibi bir karakter dizisiyle kullanabileceğiniz fonksiyonlar.
 
@@ -284,17 +278,18 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` hedef dizede aranacak değerdir.
-- `replacement` bulunan kalıpların yerine konacak değerdir.
+- `replacement` bulunan kalıpların yerine konacak değerdir. `pattern` bir Regexp olduğunda, `replacement` içinde `$1`, `$2` vb. kullanarak yakalama gruplarına başvurabilirsiniz.
 - `pattern` bir dizeyse, kalıbın tüm oluşumları değiştirilir.
 - `pattern` bir Regexp ise, `g` bayrağı yalnızca ilkinin mi yoksa tüm oluşumların mı değiştirileceğini belirler.
-- Örnek: `"a:b:c:d".replace(/:/, "-")` `"a-b,c,d"` döndürürken, `"a:b:c:d".replace(/:/g, "-")` `"a-b-c-d"` döndürür.
+- Örnek: `"a:b:c:d".replace(/:/, "-")` `"a-b:c:d"` döndürürken, `"a:b:c:d".replace(/:/g, "-")` `"a-b-c-d"` döndürür.
+- Yakalama gruplu örnek: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` `"Smith, John"` döndürür.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` dizenin tekrarlanma sayısıdır.
-- Örnek: `"123".repeat(2)` `"123123"` döndürür
+- Örnek: `"123".repeat(2)` `"123123"` döndürür.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 - Dizenin her iki ucundan boşlukları kaldırır.
 - Örnek: `"  hi  ".trim()` `"hi"` döndürür.
 
-## Number
+## Number türü
 
 `42`, `3.14` gibi sayısal değerlerle kullanabileceğiniz fonksiyonlar.
 
@@ -392,7 +387,7 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 - Sayıyı sabit noktalı gösterimle bir dize olarak döndürür.
 - Örnek: `(3.14159).toFixed(2)` `"3.14"` döndürür.
 
-## List
+## List türü
 
 `[1, 2, 3]` gibi sıralı bir eleman listesiyle kullanabileceğiniz fonksiyonlar.
 
@@ -430,7 +425,7 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 
 `list.filter(value: Boolean): list`
 
-- `index` ve `value` değişkenlerini kullanan ve elemanın tutulup tutulmaması gerektiğini belirten bir boolean değer döndüren bir filtre fonksiyonu çağırarak bu listenin elemanlarını filtreler.
+- Listeyi filtreler ve yalnızca ifadenin doğru olduğu elemanları tutar.
 - `value` listedeki bir öğenin değeridir.
 - `index` mevcut değerin indeksidir.
 - Örnek: `[1,2,3,4].filter(value > 2)` `[3,4]` döndürür.
@@ -461,7 +456,7 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 
 `list.map(value: Any): list`
 
-- `index` ve `value` değişkenlerini kullanan ve listeye yerleştirilecek yeni değeri döndüren bir dönüştürme fonksiyonu çağırarak bu listenin her elemanını dönüştürür.
+- Listenin her elemanını bir ifade kullanarak dönüştürür.
 - `value` listedeki bir öğenin değeridir.
 - `index` mevcut değerin indeksidir.
 - Örnek: `[1,2,3,4].map(value + 1)` `[2,3,4,5]` döndürür.
@@ -470,7 +465,7 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Her eleman için bir ifade çalıştırarak bu listenin elemanlarını tek bir değere indirger. İfade `index`, `value` ve `acc` (biriktirici) değişkenlerini kullanabilir ve bir sonraki biriktirici değerini döndürmelidir.
+- Her eleman için bir ifade çalıştırarak listeyi tek bir değere indirger. İfade `acc`'nin bir sonraki değerini döndürmelidir. Mevcut eleman için `value`, konumu için `index` ve şu ana kadar biriktirilmiş sonuç için `acc` kullanın.
 - `expression` listedeki her eleman için değerlendirilir.
 - `value` listedeki mevcut öğenin değeridir.
 - `index` mevcut öğenin indeksidir.
@@ -510,7 +505,7 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 - Yinelenen elemanları kaldırır.
 - Örnek: `[1,2,2,3].unique()` `[1,2,3]` döndürür.
 
-## Link
+## Link türü
 
 Bir bağlantı üzerinde kullanabileceğiniz fonksiyonlar. Bağlantılar bir dosyadan (`file.asLink()`) veya bir yoldan (`link("yol")`) oluşturulabilir.
 
@@ -519,17 +514,17 @@ Bir bağlantı üzerinde kullanabileceğiniz fonksiyonlar. Bağlantılar bir dos
 `link.asFile(): file`
 
 - Bağlantı geçerli bir yerel dosyaya işaret ediyorsa bir dosya nesnesi döndürür.
-- Örnek: `link("[[dosya-adı]]").asFile()`
+- Örnek: `link("[[dosya-adı]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- `link` tarafından temsil edilen dosyanın `file`'a bir bağlantısı olup olmadığını döndürür.
+- `link` tarafından temsil edilen dosyanın `file`'a bir bağlantısı varsa `true` döndürür.
 
-## File
+## File türü
 
-Kasadaki dosyalarla kullanabileceğiniz fonksiyonlar.
+Kasadaki bir dosyayla kullanabileceğiniz fonksiyonlar.
 
 ### Alanlar
 
@@ -553,7 +548,7 @@ Dosyalar için aşağıdaki alanlar mevcuttur:
 
 `file.asLink(display?: string): Link`
 
-- `display` bağlantı için isteğe bağlı görüntüleme metni.
+- `display` bağlantı için isteğe bağlı görüntüleme metnidir.
 - İşlevsel bir bağlantı olarak işlenen bir Link nesnesi döndürür.
 - Örnek: `file.asLink()`
 
@@ -569,7 +564,7 @@ Dosyalar için aşağıdaki alanlar mevcuttur:
 
 `file.hasProperty(name: string): boolean`
 
-- Notun verilen dosya özelliğine sahip olup olmadığını döndürür.
+- Dosyanın verilen özelliğe sahip olup olmadığını `true` olarak döndürür.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ Dosyalar için aşağıdaki alanlar mevcuttur:
 - Dosya belirtilen klasörde veya alt klasörlerinden birindeyse true döndürür.
 - Örnek: `file.inFolder("notlar")` `true` döndürür.
 
-## Object
+## Object türü
 
 `{"a": 1, "b": 2}` gibi anahtar-değer çiftleri koleksiyonuyla kullanabileceğiniz fonksiyonlar.
 
@@ -610,7 +605,7 @@ Dosyalar için aşağıdaki alanlar mevcuttur:
 
 - Nesnenin değerlerini içeren bir liste döndürür.
 
-## Düzenli ifade
+## Düzenli ifade türü
 
 Düzenli ifade kalıbıyla kullanabileceğiniz fonksiyonlar. Örnek: `/abc/`.
 

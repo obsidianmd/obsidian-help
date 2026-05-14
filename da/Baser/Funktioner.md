@@ -8,20 +8,21 @@ mobile: true
 permalink: bases/functions
 publish: true
 ---
-
 Funktioner anvendes i [[Introduktion til Baser|baser]] til at manipulere data fra [[Egenskaber|egenskaber]] med [[Visninger#Filtre|filtre]] og [[Formler|formler]]. Læs reference guiden: [[Basesyntaks]], for at lære mere om, hvordan du kan benytte funktioner.
+
+Bases funktioner følger JavaScript adfærd. For komplet referencedokumentation, se [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
 
 Udover [[Funktioner#Globale|globale]] funktioner, afhænger de fleste funktioner på de værdityper, som du vil modificere:
 
-- [[Funktioner#Alle|Alle]]
-- [[Funktioner#Date|Date]]
-- [[Funktioner#Tekststrenge|Tekststrenge]]
-- [[Funktioner#Tal|Tal]]
-- [[Funktioner#Lister|Lister]]
-- [[Funktioner#Links|Links]]
-- [[Funktioner#Filer|Filer]]
-- [[Funktioner#Objekter|Objekter]]
-- [[Funktioner#Regulære udtryk|Regulære udtryk]]
+- [[Funktioner#Alle typer|Alle]]
+- [[Funktioner#Dato type|Date]]
+- [[Funktioner#Streng type|Tekststrenge]]
+- [[Funktioner#Tal type|Tal]]
+- [[Funktioner#Liste type|Lister]]
+- [[Funktioner#Link type|Links]]
+- [[Funktioner#Fil type|Filer]]
+- [[Funktioner#Objekt type|Objekter]]
+- [[Funktioner#Regulært udtryk type|Regulære udtryk]]
 
 ## Globale
 
@@ -45,7 +46,7 @@ Globale funktioner anvendes uden en type.
 `duration(værdi: streng): periode`
 
 - Parser en tekststreng som en periode. Se the [[Basesyntaks#Dato aritmetik|dato aritmetik sektionen]] for hvordan `værdi` strengformatet skal angives
-- Perioder behøver ikke at blive eksplicit skrevet, når der anvendes dato aritmetik (fx. `now() + '1d'`), men skal eksplicit skrives, når der udføres aritmetik (Fx. `now() + (duration('1d') * 2)`)
+- Eksplicit parsing er ikke nødvendig for dato aritmetik (fx. `now() + '1d'`), men er nødvendig, når der udføres aritmetik på perioder (fx. `now() + (duration('1d') * 2)`)
 - Når der udføres aritmetik på perioder med tal skal duration stå til venstre. Fx. `duration('5h') * 2`, i stedet for `2 * duration('5h')`
 
 ### `file()`
@@ -65,18 +66,18 @@ Globale funktioner anvendes uden en type.
 
 `if(betingelse: alle, sandtResultat: alle, falskResultat?: alle): alle`
 
-- `betingelse` er den betingelse, som skal evalueres
-- `sandtResultat` er outputtet, hvis betingelsen er sand
-- `falskResultat` er det valgfri output, hvis betingelsen er falsk. Hvis det ikke er angivet, is the optional output if the condition is false. If it is not given, antages det at være `null`
-- Returnerer `sandtResultat` hvis `betingelsen` er sand, eller er en sand værdi, eller `falskResultat` hvis ikke
+- `betingelse` er det udtryk, som skal evalueres
+- `sandtResultat` er outputtet, hvis `betingelse` er sand
+- `falskResultat` er det valgfri output, hvis `betingelse` er falsk. Hvis det ikke er angivet, antages det at være `null`
+- Returnerer `sandtResultat` hvis `betingelse` er sand eller en sand værdi, ellers returneres `falskResultat`
 - Eksempel: `if(isModified, "Modificeret", "Ikke modificeret")`
 
 ### `image()`
 
 `image(sti: streng | fil | url): billede`
 
-- Returnerer et billedobjekt, som vil blive gengivet i viewet
-- Eksempel: `image(image-property)` or `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Returnerer et billedobjekt, som gengiver billedet i viewet
+- Eksempel: `image(image-property)` eller `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -90,15 +91,15 @@ Globale funktioner anvendes uden en type.
 `link(sti: streng | fil, vis?: værdi): Link`
 
 - Parser `sti` som streng og returnerer et Link objekt, som gengives som et link til den angivne sti
-- `vis` er en valgfri parameter, som angiver en tekst for linket
+- `vis` er en valgfri parameter, som angiver linkets visningstekst
 
 ### `list()`
 
 `list(element: alle): List`
 
-- Hvis `element` er en liste, vil funktionen returnere listen umodificeret
+- Hvis `element` er en liste, returneres listen umodificeret
 - Ellers omdannes det angivne `element` til en liste med et enkelt element, nemlig `element`
-- Denne funktion er nyttig, når en egenskab indholder en blanding af strenge eller lister over hele boksen
+- Brug denne funktion, når en egenskab indeholder en blanding af strenge eller lister over hele boksen
 - Eksempel: `list("værdi")` returnerer `["værdi"]`
 
 ### `max()`
@@ -117,25 +118,32 @@ Globale funktioner anvendes uden en type.
 
 `now(): dato`
 
-- `now()` returnerer et datoobjekt, der repræsenterer det nuværende tidspunkt
+- Returnerer et datoobjekt for det nuværende tidspunkt
 
 ### `number()`
 
 `number(værdi: alle): tal`
 
 - Forsøger at returnere den angivne værdi som et tal
-- Datoobjekter returneres i millisekunder siden Unix æraen
-- Boolske værdier returnerer 1 eller 0
-- Strenge vil blive parset til tal og returhnere en fejl, hvis resultatet er ugyldigt
+- Returnerer datoobjekter i millisekunder siden Unix æraen
+- Returnerer boolske værdier som `1` eller `0`
+- Parser strenge som tal og returnerer en fejl, hvis strengen ikke er et gyldigt tal
 - Eksempel: `number("3.4")` returnerer `3.4`
 
 ### `today()`
 
 `today(): dato`
 
-- `today()` returnerer et datoobjekt, der repræsenterer den nuværende dato, hvor tidspunktet er sat til nul
+- Returnerer et datoobjekt for den nuværende dato. Tidspunktet er sat til midnat
 
-## Alle
+### `random()`
+
+`random(): tal`
+
+- Returnerer et tilfældigt tal mellem 0 og 1
+- Talgenereringen opdateres, når et view indlæses. Navigation mellem views ændrer det tilfældige tal
+
+## Alle typer
 
 Funktioner, som du kan anvende med alle værdier. Det inkluderer tekststrenge (fx. `"hej"`), tal (fx. `42`), lister (fx. `[1,2,3]`), objekter osv.
 
@@ -160,7 +168,7 @@ Funktioner, som du kan anvende med alle værdier. Det inkluderer tekststrenge (f
 - Returnerer enhver værdi som en tekststreng
 - Eksempel: `123.toString()` returnerer `"123"`
 
-## Dato
+## Dato type
 
 Funktioner, som du kan anvende med en dato og tid, såsom `date("2026-05-03")`. Datosammenligninger kan udføres ved brug af [[Basesyntaks#Dato aritmetik|dato aritmetik]].
 
@@ -183,7 +191,7 @@ De følgende felter kan anvendes som datoer:
 `dato.date(): dato`
 
 - Returnerer et datoobjekt, hvor tidspunktet er fjernet
-- Eksempel: `now().date().format("YYYY-MM-DD HH:mm:ss")` returnerer en streng såsom "2026-05-03 00:00:00"
+- Eksempel: `now().date().format("YYYY-MM-DD HH:mm:ss")` returnerer en streng såsom "2026-05-03 00:00:00".
 
 ### `format()`
 
@@ -197,8 +205,8 @@ De følgende felter kan anvendes som datoer:
 
 `dato.time(): string`
 
-- Returnerer tidspunktet
-- Eksempel: `now().time()` returnerer en streng såsom "23:59:59"
+- Returnerer tidsdelen som en streng
+- Eksempel: `now().time()` returnerer en streng såsom "23:59:59".
 
 ### `relative()`
 
@@ -213,7 +221,7 @@ De følgende felter kan anvendes som datoer:
 
 - returnerer falsk
 
-## Streng
+## Streng type
 
 Funktioner du kan anvende med en sekvens af tegn såsom `"hej"`.
 
@@ -274,17 +282,18 @@ Funktioner du kan anvende med en sekvens af tegn såsom `"hej"`.
 `streng.replace(mønster: streng | regulært-udtryk, erstatning: streng): streng`
 
 - `mønster` er den værdi, som der skal søges efter
-- `erstatning` er den værdi, som skal erstatte `mønster` værdien
+- `erstatning` er den værdi, som skal erstatte `mønster` værdien. Når `mønster` er et regulært udtryk, kan du referere til indfangningsgrupper i `erstatning` ved hjælp af `$1`, `$2` osv.
 - Hvis `mønster` er en streng, vil alle forekomster af mønsteret blive erstattet
 - Hvis `mønster` er et regulært udtryk, vil flaget `g` bestemme om det kun er den første eller alle forekomster, som skal erstattes
-- Eksempel: `""a:b:c:d".replace(/:/, "-")` returnerer `"a-b,c,d"`, mens `"a:b:c:d".replace(/:/g, "-")` returnerer `"a-b-c-d"`
+- Eksempel: `"a:b:c:d".replace(/:/, "-")` returnerer `"a-b:c:d"`, mens `"a:b:c:d".replace(/:/g, "-")` returnerer `"a-b-c-d"`
+- Eksempel med indfangningsgrupper: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` returnerer `"Smith, John"`
 
 ### `repeat()`
 
 `streng.repeat(antal: tal): streng`
 
 - `antal` er antallet af gange som strengen skal gentages
-- Eksempel: `"123".repeat(2)` returnerer `"123123"`
+- Eksempel: `"123".repeat(2)` returnerer `"123123"`.
 
 ### `reverse()`
 
@@ -334,7 +343,7 @@ Funktioner du kan anvende med en sekvens af tegn såsom `"hej"`.
 - Fjerner mellemrum fra begge ender af strengen
 - Eksempel: `"  hej  ".trim()` returnerer `"hej"`
 
-## Tal
+## Tal type
 
 Funktioner du kan anvende med numeriske tal sådom `42`, `3.14`.
 
@@ -371,7 +380,7 @@ Funktioner du kan anvende med numeriske tal sådom `42`, `3.14`.
 `tal.round(cifre: tal): tal`
 
 - Afrunder tallet til nærmeste heltal
-- Den valgfri parameter `cifre` afrunder tallet med det antal cifre
+- Den valgfri parameter `cifre` afrunder tallet med det antal decimaler
 - Eksempel: `(2.5).round()` returnerer `3`, og `(2.3333).round(2)` returnerer `2.33`
 
 ### `toFixed()`
@@ -382,7 +391,7 @@ Funktioner du kan anvende med numeriske tal sådom `42`, `3.14`.
 - Returnerer en streng med tallet i fast kommanotation
 - Eksempel: `(3.14159).toFixed(2)` returnerer `"3.14"`
 
-## Lister
+## Liste type
 
 Funktioner, som du kan anvende med en ordnet liste af elementer, såsom `[1, 2, 3]`.
 
@@ -420,7 +429,7 @@ Funktioner, som du kan anvende med en ordnet liste af elementer, såsom `[1, 2, 
 
 `liste.filter(værdi: Boolsk): liste`
 
-- Filtrerer elementerne fra listen ved at kalde en filterfunktion, som benytter variablene `indeks` og `værdi`, og returnerer en boolsk værdi, der fortæller om elementet skal forblive i listen
+- Filtrerer listen og beholder kun elementer, hvor udtrykket er sandt
 - `værdi` er værdien af et element i listen
 - `indeks` er indekset af den nuværende værdi
 - Eksempel: `[1,2,3,4].filter(værdi > 2)` returnerer `[3,4]`
@@ -429,7 +438,7 @@ Funktioner, som du kan anvende med en ordnet liste af elementer, såsom `[1, 2, 
 
 `liste.flat(): liste`
 
-- Omdanner indlejrede lister til en enkelt liste
+- Omdanner en indlejret liste til en enkelt liste
 - Eksempel: `[1,[2,3]].flat()` returnerer `[1,2,3]`
 
 ### `isEmpty()`
@@ -451,7 +460,7 @@ Funktioner, som du kan anvende med en ordnet liste af elementer, såsom `[1, 2, 
 
 `liste.map(værdi: Alle): liste`
 
-- Kalder en konverteringsfunktions, som benytter variablene `indeks` og `værdi` , og som så transformerer hvert element i listen, og returnerer den nye værdi placeret i listen
+- Transformerer hvert element i listen ved hjælp af et udtryk
 - `værdi` er værdien af et element i listen
 - `indeks` er indekset af den nuværende værdi
 - Eksempel: `[1,2,3,4].map(værdi + 1)` returnerer `[2,3,4,5]`
@@ -460,10 +469,11 @@ Funktioner, som du kan anvende med en ordnet liste af elementer, såsom `[1, 2, 
 
 `liste.reduce(udtryk: Alle, akk: Alle): Alle`
 
-- Reducerer elementerne i listen til et enkelt element ved at anvende et udtryk for hvert element. UDtrykket kan anvende variablene `indeks`, `værdi`, og `akk` (akkumulatoren), og bør returnere den næste akkumulerede værdi
+- Reducerer listen til en enkelt værdi ved at anvende et udtryk for hvert element. Udtrykket skal returnere den næste værdi af `akk`. Brug `value` for det nuværende element, `index` for dets position, og `acc` for det akkumulerede resultat indtil videre
 - `udtryk` evalueres for hvert udtryk i listen
 - `værdi` er værdien af det nuværende element i listen
 - `indeks` er det nuværende elements indeks
+- `akk` er den akkumulerede værdi indtil videre
 - Eksempel (sum): `[1,2,3].reduce(akk + værdi, 0)` returnerer `6`.
 - Eksempel (maksimum): `værdier.filter(værdier.isType("number")).reduce(if(akk == null || værdi > akk, værdi, akk), null)` returnerer det største tal eller `null`, hvis der ikke er nogen
 
@@ -499,7 +509,7 @@ Funktioner, som du kan anvende med en ordnet liste af elementer, såsom `[1, 2, 
 - Fjernes dubletter i listen
 - Eksempel: `[1,2,2,3].unique()` returnerer `[1,2,3]`
 
-## Links
+## Link type
 
 Funktioner du kan anvende på links. Links kan oprettes fra en fil (`file.asLink()`) eller en sti (`link("path")`).
 
@@ -508,17 +518,17 @@ Funktioner du kan anvende på links. Links kan oprettes fra en fil (`file.asLink
 `link.asFile(): fil`
 
 - Returnerer et fil objekt, hvilket linket refererer til en gyldig lokal fil
-- Eksempel: `link("[[filenavn]]").asFile()`
+- Eksempel: `link("[[filenavn]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(fil): boolsk`
 
-- Returnerer hvorvidt filen, der er repræsenteret af `link` har et link til  `fil`
+- Returnerer `true`, hvis filen repræsenteret af `link` har et link til `fil`
 
-## Filer
+## Fil type
 
-Funktioner som du kan envende med filer i boksen.
+Funktioner som du kan anvende med filer i boksen.
 
 ### Felter
 
@@ -542,7 +552,7 @@ De følgende fleter er tilgængelige for filer:
 
 `fil.asLink(vis?: streng): Link`
 
-- `vis` valgfri tekst, som kan vises i stedet for linket
+- `vis` er valgfri tekst, som kan vises i stedet for linket
 - Returnerer et Link object som gengives som et fungerende link
 - Eksempel: `fil.asLink()`
 
@@ -558,7 +568,7 @@ De følgende fleter er tilgængelige for filer:
 
 `fil.hasProperty(navn: streng): boolsk`
 
-- Returnerer sandt, hvis noten har den angivne filegenskab
+- Returnerer `true`, hvis filen har den angivne egenskab
 
 ### `hasTag()`
 
@@ -576,7 +586,7 @@ De følgende fleter er tilgængelige for filer:
 - Returnerer sandt, hvis filen er i den specificerede mappe eller en af dens undermapper
 - Eksempel: `fil.inFolder("noter")` returnerer `true`
 
-## Objekt
+## Objekt type
 
 Funktioner, som du kan anvende med en samling af nøgle-værdi par, såsom `{"a": 1, "b": 2}`.
 
@@ -599,7 +609,7 @@ Funktioner, som du kan anvende med en samling af nøgle-værdi par, såsom `{"a"
 
 - Returnerer en liste indeholdende objektets værdier
 
-## Regulære udtryk
+## Regulært udtryk type
 
 Funktioner, som du kan anvende med regulære udtryk, såsom `/abc/`.
 

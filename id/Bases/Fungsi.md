@@ -6,17 +6,19 @@ description: Halaman ini merinci fungsi-fungsi yang digunakan dalam Obsidian Bas
 ---
 Fungsi digunakan dalam [[Pengenalan Basis|Basis]] untuk memanipulasi data dari [[Properti|properti]] di [[Tampilan#Filter|filter]] dan [[Rumus|rumus]]. Lihat referensi [[Sintaksis Basis|sintaksis basis]] untuk mempelajari lebih lanjut tentang cara menggunakan fungsi.
 
+Fungsi Basis mengikuti perilaku JavaScript. Untuk dokumentasi referensi lengkap, lihat [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Selain fungsi [[Fungsi#Global|Global]], sebagian besar fungsi bergantung pada tipe nilai yang ingin Anda modifikasi:
 
-- [[Fungsi#Any|Any]]
-- [[Fungsi#Date|Date]]
-- [[Fungsi#String|String]]
-- [[Fungsi#Number|Number]]
-- [[Fungsi#List|List]]
-- [[Fungsi#Link|Link]]
-- [[Fungsi#File|File]]
-- [[Fungsi#Object|Object]]
-- [[Fungsi#Ekspresi reguler|Ekspresi reguler]]
+- [[Fungsi#Tipe Any|Any]]
+- [[Fungsi#Tipe Date|Date]]
+- [[Fungsi#Tipe String|String]]
+- [[Fungsi#Tipe Number|Number]]
+- [[Fungsi#Tipe List|List]]
+- [[Fungsi#Tipe Link|Link]]
+- [[Fungsi#Tipe File|File]]
+- [[Fungsi#Tipe Object|Object]]
+- [[Fungsi#Tipe ekspresi reguler|Ekspresi reguler]]
 
 ## Global
 
@@ -40,7 +42,7 @@ Fungsi global digunakan tanpa tipe.
 `duration(value: string): duration`
 
 - Menguraikan string sebagai durasi. Lihat [[Sintaksis Basis#Aritmetika tanggal|bagian aritmetika tanggal]] untuk format string `value`.
-- Durasi tidak perlu diuraikan secara eksplisit saat melakukan aritmetika tanggal (misalnya, `now() + '1d'`), tetapi perlu diuraikan saat melakukan aritmetika pada durasi (misalnya, `now() + (duration('1d') * 2)`).
+- Penguraian eksplisit tidak diperlukan untuk aritmetika tanggal (misalnya, `now() + '1d'`), tetapi diperlukan saat melakukan aritmetika pada durasi (misalnya, `now() + (duration('1d') * 2)`).
 - Saat melakukan aritmetika pada durasi dengan skalar, durasi harus berada di sisi kiri. Misalnya `duration('5h') * 2`, bukan `2 * duration('5h')`.
 
 ### `file()`
@@ -60,18 +62,18 @@ Fungsi global digunakan tanpa tipe.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` adalah kondisi yang akan dievaluasi.
-- `trueResult` adalah output jika kondisi bernilai benar.
-- `falseResult` adalah output opsional jika kondisi bernilai salah. Jika tidak diberikan, maka diasumsikan sebagai `null`.
-- Mengembalikan `trueResult` jika `condition` bernilai benar, atau merupakan nilai truthy, atau `falseResult` sebaliknya.
+- `condition` adalah ekspresi yang akan dievaluasi.
+- `trueResult` adalah output jika `condition` bernilai benar.
+- `falseResult` adalah output opsional jika `condition` bernilai salah. Jika dihilangkan, default ke `null`.
+- Mengembalikan `trueResult` jika `condition` bernilai benar atau truthy, sebaliknya mengembalikan `falseResult`.
 - Contoh: `if(isModified, "Modified", "Unmodified")`
 
 ### `image()`
 
 `image(path: string | file | url): image`
 
-- Mengembalikan objek gambar yang akan merender gambar dalam tampilan.
-- Contoh: `image(image-property)` atau `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Mengembalikan objek gambar yang merender gambar dalam tampilan.
+- Contoh: `image(image-property)` atau `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Fungsi global digunakan tanpa tipe.
 `link(path: string | file, display?: value): Link`
 
 - Menguraikan string `path` dan mengembalikan objek Link yang dirender sebagai tautan ke path yang diberikan.
-- Secara opsional berikan parameter `display` untuk mengubah teks yang ditampilkan tautan.
+- Secara opsional berikan parameter `display` untuk mengatur teks tampilan tautan.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Fungsi global digunakan tanpa tipe.
 
 - Jika elemen yang diberikan adalah daftar, mengembalikannya tanpa modifikasi.
 - Jika tidak, membungkus `element` yang diberikan dalam daftar, membuat daftar dengan satu elemen.
-- Fungsi ini dapat berguna ketika properti berisi campuran string atau daftar di seluruh brankas.
+- Gunakan fungsi ini ketika properti berisi campuran string atau daftar di seluruh brankas.
 - Contoh: `list("value")` mengembalikan `["value"]`.
 
 ### `max()`
@@ -112,40 +114,32 @@ Fungsi global digunakan tanpa tipe.
 
 `now(): date`
 
-- `now()` mengembalikan objek tanggal yang merepresentasikan momen saat ini.
+- Mengembalikan objek tanggal untuk momen saat ini.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Mencoba mengembalikan nilai yang diberikan sebagai angka.
-- Objek tanggal akan dikembalikan sebagai milidetik sejak epoch unix.
-- Boolean akan mengembalikan 1 atau 0.
-- String akan diuraikan menjadi angka dan mengembalikan kesalahan jika hasilnya tidak valid.
-- Contoh, `number("3.4")` mengembalikan `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Menguraikan string sebagai durasi. Lihat [[Sintaksis Basis#Aritmetika tanggal|bagian aritmetika tanggal]] untuk format string `value`.
-- Durasi tidak perlu diuraikan secara eksplisit saat melakukan aritmetika tanggal (misalnya, `now() + '1d'`), tetapi perlu diuraikan saat melakukan aritmetika pada durasi (misalnya, `now() + (duration('1d') * 2)`).
-- Saat melakukan aritmetika pada durasi dengan skalar, durasi harus berada di sisi kiri. Misalnya `duration('5h') * 2`, bukan `2 * duration('5h')`.
+- Mengembalikan objek tanggal sebagai milidetik sejak epoch Unix.
+- Mengembalikan boolean sebagai `1` atau `0`.
+- Menguraikan string sebagai angka, dan mengembalikan kesalahan jika string bukan angka yang valid.
+- Contoh: `number("3.4")` mengembalikan `3.4`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` mengembalikan objek tanggal yang merepresentasikan tanggal saat ini. Bagian waktu diatur ke nol.
+- Mengembalikan objek tanggal untuk tanggal saat ini. Bagian waktu diatur ke tengah malam.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` mengembalikan angka acak antara 0 dan 1.
+- Mengembalikan angka acak antara 0 dan 1.
 - Pembangkitan angka diperbarui setiap kali tampilan dimuat. Berpindah antar tampilan mengubah angka acak.
 
-## Any
+## Tipe Any
 
 Fungsi yang dapat Anda gunakan dengan nilai apa pun. Ini termasuk string (misalnya `"hello"`), angka (misalnya `42`), daftar (misalnya `[1,2,3]`), objek, dan lainnya.
 
@@ -170,7 +164,7 @@ Fungsi yang dapat Anda gunakan dengan nilai apa pun. Ini termasuk string (misaln
 - Mengembalikan representasi string dari nilai apa pun.
 - Contoh: `123.toString()` mengembalikan `"123"`.
 
-## Date
+## Tipe Date
 
 Fungsi yang dapat Anda gunakan dengan tanggal dan waktu seperti `date("2025-05-27")`. Perbandingan tanggal dapat dilakukan menggunakan [[Sintaksis Basis#Aritmetika tanggal|aritmetika tanggal]].
 
@@ -193,7 +187,7 @@ Field berikut tersedia untuk tanggal:
 `date.date(): date`
 
 - Mengembalikan objek tanggal dengan waktu dihapus.
-- Contoh: `now().date().format("YYYY-MM-DD HH:mm:ss")` mengembalikan string seperti "2025-12-31 00:00:00"
+- Contoh: `now().date().format("YYYY-MM-DD HH:mm:ss")` mengembalikan string seperti "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -207,8 +201,8 @@ Field berikut tersedia untuk tanggal:
 
 `date.time(): string`
 
-- Mengembalikan waktu.
-- Contoh: `now().time()` mengembalikan string seperti "23:59:59"
+- Mengembalikan bagian waktu sebagai string.
+- Contoh: `now().time()` mengembalikan string seperti "23:59:59".
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ Field berikut tersedia untuk tanggal:
 
 - Mengembalikan false.
 
-## String
+## Tipe String
 
 Fungsi yang dapat Anda gunakan dengan urutan karakter seperti `"hello"`.
 
@@ -284,17 +278,18 @@ Fungsi yang dapat Anda gunakan dengan urutan karakter seperti `"hello"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` adalah nilai yang dicari dalam string target.
-- `replacement` adalah nilai untuk menggantikan pola yang ditemukan.
+- `replacement` adalah nilai untuk menggantikan pola yang ditemukan. Ketika `pattern` adalah Regexp, Anda dapat mereferensikan grup tangkapan dalam `replacement` menggunakan `$1`, `$2`, dan seterusnya.
 - Jika `pattern` adalah string, semua kemunculan pola akan diganti.
 - Jika `pattern` adalah Regexp, flag `g` menentukan apakah hanya kemunculan pertama atau semua kemunculan yang diganti.
-- Contoh: `""a:b:c:d".replace(/:/, "-")` mengembalikan `"a-b,c,d"`, sedangkan `"a:b:c:d".replace(/:/g, "-")` mengembalikan `"a-b-c-d"`.
+- Contoh: `"a:b:c:d".replace(/:/, "-")` mengembalikan `"a-b:c:d"`, sedangkan `"a:b:c:d".replace(/:/g, "-")` mengembalikan `"a-b-c-d"`.
+- Contoh dengan grup tangkapan: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` mengembalikan `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` adalah jumlah kali string diulang.
-- Contoh: `"123".repeat(2)` mengembalikan `"123123"`
+- Contoh: `"123".repeat(2)` mengembalikan `"123123"`.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Fungsi yang dapat Anda gunakan dengan urutan karakter seperti `"hello"`.
 - Menghapus spasi dari kedua ujung string.
 - Contoh: `"  hi  ".trim()` mengembalikan `"hi"`.
 
-## Number
+## Tipe Number
 
 Fungsi yang dapat Anda gunakan dengan nilai numerik seperti `42`, `3.14`.
 
@@ -381,7 +376,7 @@ Fungsi yang dapat Anda gunakan dengan nilai numerik seperti `42`, `3.14`.
 `number.round(digits: number): number`
 
 - Membulatkan angka ke bilangan bulat terdekat.
-- Secara opsional, berikan parameter `digits` untuk membulatkan ke jumlah digit desimal tersebut.
+- Secara opsional, berikan parameter `digits` untuk membulatkan ke jumlah tempat desimal tersebut.
 - Contoh: `(2.5).round()` mengembalikan `3`, dan `(2.3333).round(2)` mengembalikan `2.33`.
 
 ### `toFixed()`
@@ -392,7 +387,7 @@ Fungsi yang dapat Anda gunakan dengan nilai numerik seperti `42`, `3.14`.
 - Mengembalikan string dengan angka dalam notasi titik tetap.
 - Contoh: `(3.14159).toFixed(2)` mengembalikan `"3.14"`.
 
-## List
+## Tipe List
 
 Fungsi yang dapat Anda gunakan dengan daftar elemen yang terurut seperti `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Fungsi yang dapat Anda gunakan dengan daftar elemen yang terurut seperti `[1, 2,
 
 `list.filter(value: Boolean): list`
 
-- Menyaring elemen daftar ini dengan memanggil fungsi filter, yang menggunakan variabel `index` dan `value`, dan mengembalikan nilai boolean apakah elemen harus dipertahankan.
+- Menyaring daftar dan hanya mempertahankan elemen yang ekspresinya bernilai benar.
 - `value` adalah nilai dari item dalam daftar.
 - `index` adalah indeks dari nilai saat ini.
 - Contoh: `[1,2,3,4].filter(value > 2)` mengembalikan `[3,4]`.
@@ -461,7 +456,7 @@ Fungsi yang dapat Anda gunakan dengan daftar elemen yang terurut seperti `[1, 2,
 
 `list.map(value: Any): list`
 
-- Mengubah setiap elemen daftar ini dengan memanggil fungsi konversi, yang menggunakan variabel `index` dan `value`, dan mengembalikan nilai baru yang akan ditempatkan dalam daftar.
+- Mengubah setiap elemen daftar menggunakan ekspresi.
 - `value` adalah nilai dari item dalam daftar.
 - `index` adalah indeks dari nilai saat ini.
 - Contoh: `[1,2,3,4].map(value + 1)` mengembalikan `[2,3,4,5]`.
@@ -470,7 +465,7 @@ Fungsi yang dapat Anda gunakan dengan daftar elemen yang terurut seperti `[1, 2,
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Mereduksi elemen daftar ini menjadi satu nilai dengan menjalankan ekspresi untuk setiap elemen. Ekspresi dapat menggunakan variabel `index`, `value`, dan `acc` (akumulator), dan harus mengembalikan nilai akumulator berikutnya.
+- Mereduksi daftar menjadi satu nilai dengan menjalankan ekspresi untuk setiap elemen. Ekspresi harus mengembalikan nilai `acc` berikutnya. Gunakan `value` untuk elemen saat ini, `index` untuk posisinya, dan `acc` untuk hasil yang diakumulasi sejauh ini.
 - `expression` dievaluasi untuk setiap elemen dalam daftar.
 - `value` adalah nilai dari item saat ini dalam daftar.
 - `index` adalah indeks dari item saat ini.
@@ -510,7 +505,7 @@ Fungsi yang dapat Anda gunakan dengan daftar elemen yang terurut seperti `[1, 2,
 - Menghapus elemen duplikat.
 - Contoh: `[1,2,2,3].unique()` mengembalikan `[1,2,3]`.
 
-## Link
+## Tipe Link
 
 Fungsi yang dapat Anda gunakan pada tautan. Tautan dapat dibuat dari file (`file.asLink()`) atau path (`link("path")`).
 
@@ -519,15 +514,15 @@ Fungsi yang dapat Anda gunakan pada tautan. Tautan dapat dibuat dari file (`file
 `link.asFile(): file`
 
 - Mengembalikan objek file jika tautan merujuk ke file lokal yang valid.
-- Contoh: `link("[[namafile]]").asFile()`
+- Contoh: `link("[[namafile]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Mengembalikan apakah file yang direpresentasikan oleh `link` memiliki tautan ke `file`.
+- Mengembalikan `true` jika file yang direpresentasikan oleh `link` memiliki tautan ke `file`.
 
-## File
+## Tipe File
 
 Fungsi yang dapat Anda gunakan dengan file di brankas.
 
@@ -553,7 +548,7 @@ Field berikut tersedia untuk file:
 
 `file.asLink(display?: string): Link`
 
-- `display` teks tampilan opsional untuk tautan.
+- `display` adalah teks tampilan opsional untuk tautan.
 - Mengembalikan objek Link yang dirender sebagai tautan yang berfungsi.
 - Contoh: `file.asLink()`
 
@@ -569,7 +564,7 @@ Field berikut tersedia untuk file:
 
 `file.hasProperty(name: string): boolean`
 
-- Mengembalikan true jika catatan memiliki properti file yang diberikan.
+- Mengembalikan `true` jika file memiliki properti yang diberikan.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ Field berikut tersedia untuk file:
 - Mengembalikan true jika file berada di folder yang ditentukan atau salah satu sub-foldernya.
 - Contoh: `file.inFolder("notes")` mengembalikan `true`.
 
-## Object
+## Tipe Object
 
 Fungsi yang dapat Anda gunakan dengan kumpulan pasangan kunci-nilai seperti `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Fungsi yang dapat Anda gunakan dengan kumpulan pasangan kunci-nilai seperti `{"a
 
 - Mengembalikan daftar yang berisi nilai-nilai dari objek.
 
-## Ekspresi reguler
+## Tipe ekspresi reguler
 
 Fungsi yang dapat Anda gunakan dengan pola ekspresi reguler. Contoh: `/abc/`.
 

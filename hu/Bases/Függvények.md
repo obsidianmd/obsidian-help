@@ -6,17 +6,19 @@ description: 'Ez az oldal részletezi az Obsidian Bases-ben használt függvény
 ---
 A függvényeket a [[Bevezetés a Bázisokba|Bázisokban]] használjuk a [[Tulajdonságok|tulajdonságokból]] származó adatok manipulálására [[Nézetek#Szűrők|szűrőkben]] és [[Képletek|képletekben]]. Tekintsd meg a [[Bázisok szintaxisa|bázisok szintaxisa]] referenciát, hogy többet megtudj a függvények használatáról.
 
+A Bázisok függvényei a JavaScript viselkedését követik. A teljes referencia dokumentációért tekintsd meg az [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) oldalt.
+
 A [[Függvények#Globális|Globális]] függvényeken kívül a legtöbb függvény az érték típusától függ, amelyet módosítani szeretnél:
 
-- [[Függvények#Bármely|Bármely]]
-- [[Függvények#Dátum|Dátum]]
-- [[Függvények#Szöveg|Szöveg]]
-- [[Függvények#Szám|Szám]]
-- [[Függvények#Lista|Lista]]
-- [[Függvények#Hivatkozás|Hivatkozás]]
-- [[Függvények#Fájl|Fájl]]
-- [[Függvények#Objektum|Objektum]]
-- [[Függvények#Reguláris kifejezés|Reguláris kifejezés]]
+- [[Függvények#Bármely típus|Bármely]]
+- [[Függvények#Dátum típus|Dátum]]
+- [[Függvények#Szöveg típus|Szöveg]]
+- [[Függvények#Szám típus|Szám]]
+- [[Függvények#Lista típus|Lista]]
+- [[Függvények#Hivatkozás típus|Hivatkozás]]
+- [[Függvények#Fájl típus|Fájl]]
+- [[Függvények#Objektum típus|Objektum]]
+- [[Függvények#Reguláris kifejezés típus|Reguláris kifejezés]]
 
 ## Globális
 
@@ -40,7 +42,7 @@ A globális függvények típus nélkül használhatók.
 `duration(value: string): duration`
 
 - Egy szöveget időtartamként értelmez. Lásd a [[Bázisok szintaxisa#Dátumaritmetika|dátumaritmetika szekciót]] a `value` szöveg formátumához.
-- Az időtartamokat nem szükséges kifejezetten feldolgozni dátumaritmetika végrehajtásakor (például `now() + '1d'`), de szükséges, amikor időtartamokon végzünk aritmetikát (például `now() + (duration('1d') * 2)`).
+- A kifejezett feldolgozás nem szükséges dátumaritmetika végrehajtásakor (például `now() + '1d'`), de szükséges, amikor időtartamokon végzünk aritmetikát (például `now() + (duration('1d') * 2)`).
 - Amikor időtartamokon skalárokkal végzünk aritmetikát, az időtartamnak kell bal oldalon lennie. Például `duration('5h') * 2`, a `2 * duration('5h')` helyett.
 
 ### `file()`
@@ -60,10 +62,10 @@ A globális függvények típus nélkül használhatók.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` a kiértékelendő feltétel.
-- `trueResult` a kimenet, ha a feltétel igaz.
-- `falseResult` az opcionális kimenet, ha a feltétel hamis. Ha nincs megadva, `null` értéket vesz fel.
-- Visszaadja a `trueResult` értéket, ha a `condition` igaz, vagy igaznak kiértékelhető érték, ellenkező esetben a `falseResult` értéket.
+- `condition` a kiértékelendő kifejezés.
+- `trueResult` a kimenet, ha a `condition` igaz.
+- `falseResult` az opcionális kimenet, ha a `condition` hamis. Ha nincs megadva, alapértelmezetten `null`.
+- Visszaadja a `trueResult` értéket, ha a `condition` igaz vagy igaznak kiértékelhető, ellenkező esetben a `falseResult` értéket.
 - Példa: `if(isModified, "Módosított", "Nem módosított")`
 
 ### `image()`
@@ -71,7 +73,7 @@ A globális függvények típus nélkül használhatók.
 `image(path: string | file | url): image`
 
 - Visszaad egy kép objektumot, amely megjeleníti a képet a nézetben.
-- Példa: `image(kep-tulajdonsag)` vagy `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Példa: `image(kep-tulajdonsag)` vagy `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ A globális függvények típus nélkül használhatók.
 `link(path: string | file, display?: value): Link`
 
 - Feldolgozza a `path` szöveget és visszaad egy Link objektumot, amely a megadott útvonalra mutató hivatkozásként jelenik meg.
-- Opcionálisan add meg a `display` paramétert a hivatkozás megjelenített szövegének módosításához.
+- Opcionálisan add meg a `display` paramétert a hivatkozás megjelenített szövegének beállításához.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ A globális függvények típus nélkül használhatók.
 
 - Ha a megadott elem egy lista, módosítás nélkül adja vissza.
 - Ellenkező esetben becsomagolja a megadott `element` elemet egy listába, egyetlen elemet tartalmazó listát hozva létre.
-- Ez a függvény hasznos lehet, amikor egy tulajdonság szövegek vagy listák keverékét tartalmazza a széfben.
+- Használd ezt a függvényt, amikor egy tulajdonság szövegek vagy listák keverékét tartalmazza a széfben.
 - Példa: `list("érték")` visszaadja: `["érték"]`.
 
 ### `max()`
@@ -112,40 +114,32 @@ A globális függvények típus nélkül használhatók.
 
 `now(): date`
 
-- `now()` visszaad egy dátum objektumot, amely az aktuális pillanatot képviseli.
+- Visszaad egy dátum objektumot az aktuális pillanathoz.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Megpróbálja a megadott értéket számként visszaadni.
-- A dátum objektumok a Unix-korszak óta eltelt ezredmásodpercekként kerülnek visszaadásra.
-- A logikai értékek 1-et vagy 0-t adnak vissza.
-- A szövegek számként kerülnek feldolgozásra, és hibát adnak vissza, ha az eredmény érvénytelen.
+- A dátum objektumokat a Unix-korszak óta eltelt ezredmásodpercekként adja vissza.
+- A logikai értékeket `1` vagy `0` értékként adja vissza.
+- A szövegeket számként értelmezi, és hibát ad vissza, ha a szöveg nem érvényes szám.
 - Példa: `number("3.4")` visszaadja: `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Egy szöveget időtartamként értelmez. Lásd a [[Bázisok szintaxisa#Dátumaritmetika|dátumaritmetika szekciót]] a `value` szöveg formátumához.
-- Az időtartamokat nem szükséges kifejezetten feldolgozni dátumaritmetika végrehajtásakor (például `now() + '1d'`), de szükséges, amikor időtartamokon végzünk aritmetikát (például `now() + (duration('1d') * 2)`).
-- Amikor időtartamokon skalárokkal végzünk aritmetikát, az időtartamnak kell bal oldalon lennie. Például `duration('5h') * 2`, a `2 * duration('5h')` helyett.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` visszaad egy dátum objektumot, amely az aktuális dátumot képviseli. Az idő rész nullára van állítva.
+- Visszaad egy dátum objektumot az aktuális dátumhoz. Az idő rész éjfélre van állítva.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` visszaad egy véletlenszerű számot 0 és 1 között.
+- Visszaad egy véletlenszerű számot 0 és 1 között.
 - A számgenerálás minden nézet betöltésekor frissül. A nézetek közötti navigálás megváltoztatja a véletlenszerű számot.
 
-## Bármely
+## Bármely típus
 
 Bármely értékkel használható függvények. Ide tartoznak a szövegek (pl. `"hello"`), számok (pl. `42`), listák (pl. `[1,2,3]`), objektumok és egyebek.
 
@@ -170,7 +164,7 @@ Bármely értékkel használható függvények. Ide tartoznak a szövegek (pl. `
 - Bármely érték szöveges reprezentációját adja vissza.
 - Példa: `123.toString()` visszaadja: `"123"`.
 
-## Dátum
+## Dátum típus
 
 Dátummal és idővel használható függvények, mint például `date("2025-05-27")`. A dátum-összehasonlítások [[Bázisok szintaxisa#Dátumaritmetika|dátumaritmetikával]] végezhetők.
 
@@ -193,7 +187,7 @@ A következő mezők érhetők el dátumokhoz:
 `date.date(): date`
 
 - Visszaad egy dátum objektumot az idő rész nélkül.
-- Példa: `now().date().format("YYYY-MM-DD HH:mm:ss")` egy ilyen szöveget ad vissza: "2025-12-31 00:00:00"
+- Példa: `now().date().format("YYYY-MM-DD HH:mm:ss")` egy ilyen szöveget ad vissza: "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -207,8 +201,8 @@ A következő mezők érhetők el dátumokhoz:
 
 `date.time(): string`
 
-- Visszaadja az időt.
-- Példa: `now().time()` egy ilyen szöveget ad vissza: "23:59:59"
+- Visszaadja az idő részt szövegként.
+- Példa: `now().time()` egy ilyen szöveget ad vissza: "23:59:59".
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ A következő mezők érhetők el dátumokhoz:
 
 - Hamisat ad vissza.
 
-## Szöveg
+## Szöveg típus
 
 Karaktersorozatokkal használható függvények, mint például `"hello"`.
 
@@ -284,17 +278,18 @@ Karaktersorozatokkal használható függvények, mint például `"hello"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` a keresendő érték a célszövegben.
-- `replacement` az az érték, amelyre a talált mintákat cseréljük.
+- `replacement` az az érték, amelyre a talált mintákat cseréljük. Ha a `pattern` reguláris kifejezés, a `replacement` szövegben hivatkozhatsz a csoportokra `$1`, `$2` stb. használatával.
 - Ha a `pattern` szöveg, a minta összes előfordulása cserélésre kerül.
 - Ha a `pattern` reguláris kifejezés, a `g` jelző határozza meg, hogy csak az első vagy az összes előfordulás kerül cserélésre.
-- Példa: `"a:b:c:d".replace(/:/, "-")` visszaadja: `"a-b,c,d"`, míg `"a:b:c:d".replace(/:/g, "-")` visszaadja: `"a-b-c-d"`.
+- Példa: `"a:b:c:d".replace(/:/, "-")` visszaadja: `"a-b:c:d"`, míg `"a:b:c:d".replace(/:/g, "-")` visszaadja: `"a-b-c-d"`.
+- Példa csoportokkal: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` visszaadja: `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` a szöveg ismétlésének száma.
-- Példa: `"123".repeat(2)` visszaadja: `"123123"`
+- Példa: `"123".repeat(2)` visszaadja: `"123123"`.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Karaktersorozatokkal használható függvények, mint például `"hello"`.
 - Eltávolítja a szóközöket a szöveg mindkét végéről.
 - Példa: `"  hi  ".trim()` visszaadja: `"hi"`.
 
-## Szám
+## Szám típus
 
 Numerikus értékekkel használható függvények, mint például `42`, `3.14`.
 
@@ -392,7 +387,7 @@ Numerikus értékekkel használható függvények, mint például `42`, `3.14`.
 - Visszaadja a számot fixpontos jelöléssel szövegként.
 - Példa: `(3.14159).toFixed(2)` visszaadja: `"3.14"`.
 
-## Lista
+## Lista típus
 
 Elemek rendezett listájával használható függvények, mint például `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Elemek rendezett listájával használható függvények, mint például `[1, 2,
 
 `list.filter(value: Boolean): list`
 
-- Szűri a lista elemeit egy szűrőfüggvény meghívásával, amely az `index` és `value` változókat használja, és logikai értéket ad vissza arról, hogy az elemet meg kell-e tartani.
+- Szűri a listát, és csak azokat az elemeket tartja meg, ahol a kifejezés igaz.
 - `value` a lista egy elemének értéke.
 - `index` az aktuális érték indexe.
 - Példa: `[1,2,3,4].filter(value > 2)` visszaadja: `[3,4]`.
@@ -439,7 +434,7 @@ Elemek rendezett listájával használható függvények, mint például `[1, 2,
 
 `list.flat(): list`
 
-- Az egymásba ágyazott listákat egyetlen listává simítja.
+- Az egymásba ágyazott listát egyetlen listává simítja.
 - Példa: `[1,[2,3]].flat()` visszaadja: `[1,2,3]`.
 
 ### `isEmpty()`
@@ -461,7 +456,7 @@ Elemek rendezett listájával használható függvények, mint például `[1, 2,
 
 `list.map(value: Any): list`
 
-- Átalakítja a lista minden elemét egy konverziós függvény meghívásával, amely az `index` és `value` változókat használja, és visszaadja a listába helyezendő új értéket.
+- A lista minden elemét átalakítja egy kifejezés segítségével.
 - `value` a lista egy elemének értéke.
 - `index` az aktuális érték indexe.
 - Példa: `[1,2,3,4].map(value + 1)` visszaadja: `[2,3,4,5]`.
@@ -470,7 +465,7 @@ Elemek rendezett listájával használható függvények, mint például `[1, 2,
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- A lista elemeit egyetlen értékre redukálja egy kifejezés futtatásával minden elemre. A kifejezés használhatja az `index`, `value` és `acc` (akkumulátor) változókat, és a következő akkumulátor értéket kell visszaadnia.
+- A listát egyetlen értékre redukálja egy kifejezés futtatásával minden elemre. A kifejezésnek az `acc` következő értékét kell visszaadnia. Használd a `value` változót az aktuális elemhez, az `index` változót a pozícióhoz, és az `acc` változót az eddig felhalmozott eredményhez.
 - `expression` a lista minden elemére kiértékelődik.
 - `value` a lista aktuális elemének értéke.
 - `index` az aktuális elem indexe.
@@ -510,7 +505,7 @@ Elemek rendezett listájával használható függvények, mint például `[1, 2,
 - Eltávolítja a duplikált elemeket.
 - Példa: `[1,2,2,3].unique()` visszaadja: `[1,2,3]`.
 
-## Hivatkozás
+## Hivatkozás típus
 
 Hivatkozásokon használható függvények. Hivatkozások létrehozhatók fájlból (`file.asLink()`) vagy útvonalból (`link("útvonal")`).
 
@@ -519,15 +514,15 @@ Hivatkozásokon használható függvények. Hivatkozások létrehozhatók fájlb
 `link.asFile(): file`
 
 - Visszaad egy fájl objektumot, ha a hivatkozás érvényes helyi fájlra mutat.
-- Példa: `link("[[fájlnév]]").asFile()`
+- Példa: `link("[[fájlnév]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Visszaadja, hogy a `link` által képviselt fájl tartalmaz-e hivatkozást a `file` fájlra.
+- `true` értéket ad vissza, ha a `link` által képviselt fájl tartalmaz hivatkozást a `file` fájlra.
 
-## Fájl
+## Fájl típus
 
 A széfben lévő fájlokkal használható függvények.
 
@@ -569,7 +564,7 @@ A következő mezők érhetők el fájlokhoz:
 
 `file.hasProperty(name: string): boolean`
 
-- Igazat ad vissza, ha a jegyzet rendelkezik az adott fájltulajdonsággal.
+- `true` értéket ad vissza, ha a fájl rendelkezik az adott tulajdonsággal.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ A következő mezők érhetők el fájlokhoz:
 - Igazat ad vissza, ha a fájl a megadott mappában vagy annak almappáiban található.
 - Példa: `file.inFolder("notes")` visszaadja: `true`.
 
-## Objektum
+## Objektum típus
 
 Kulcs-érték párok gyűjteményével használható függvények, mint például `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Kulcs-érték párok gyűjteményével használható függvények, mint példáu
 
 - Visszaadja az objektum értékeit tartalmazó listát.
 
-## Reguláris kifejezés
+## Reguláris kifejezés típus
 
 Reguláris kifejezés mintával használható függvények. Példa: `/abc/`.
 

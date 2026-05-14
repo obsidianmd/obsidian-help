@@ -6,17 +6,19 @@ description: 'Diese Seite beschreibt die Funktionen, die in Obsidian Bases verwe
 ---
 Funktionen werden in [[Einführung in Bases|Bases]] verwendet, um Daten aus [[Eigenschaften]] in [[Ansichten#Filter|Filtern]] und [[Formeln]] zu manipulieren. Weitere Informationen zur Verwendung von Funktionen findest du in der [[Bases-Syntax|Bases-Syntax]]-Referenz.
 
+Bases-Funktionen folgen dem JavaScript-Verhalten. Eine vollständige Referenzdokumentation findest du in den [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Abgesehen von [[Funktionen#Global|Globalen]] Funktionen hängen die meisten Funktionen vom Typ des zu ändernden Wertes ab:
 
-- [[Funktionen#Any|Any]]
-- [[Funktionen#Date|Date]]
-- [[Funktionen#String|String]]
-- [[Funktionen#Number|Number]]
-- [[Funktionen#List|List]]
-- [[Funktionen#Link|Link]]
-- [[Funktionen#File|File]]
-- [[Funktionen#Object|Object]]
-- [[Funktionen#Reguläre Ausdrücke|Reguläre Ausdrücke]]
+- [[Funktionen#Any-Typ|Any]]
+- [[Funktionen#Date-Typ|Date]]
+- [[Funktionen#String-Typ|String]]
+- [[Funktionen#Number-Typ|Number]]
+- [[Funktionen#List-Typ|List]]
+- [[Funktionen#Link-Typ|Link]]
+- [[Funktionen#File-Typ|File]]
+- [[Funktionen#Object-Typ|Object]]
+- [[Funktionen#Reguläre-Ausdrücke-Typ|Reguläre Ausdrücke]]
 
 ## Global
 
@@ -40,7 +42,7 @@ Globale Funktionen werden ohne einen Typ verwendet.
 `duration(value: string): duration`
 
 - Analysiert eine Zeichenkette als Dauer. Siehe den Abschnitt [[Bases-Syntax#Datumsarithmetik|Datumsarithmetik]] für das Format der `value`-Zeichenkette.
-- Dauern müssen bei der Datumsarithmetik nicht explizit analysiert werden (zum Beispiel `now() + '1d'`), aber sie müssen es bei der Arithmetik mit Dauern (zum Beispiel `now() + (duration('1d') * 2)`).
+- Explizites Analysieren ist bei der Datumsarithmetik nicht erforderlich (zum Beispiel `now() + '1d'`), aber bei der Arithmetik mit Dauern (zum Beispiel `now() + (duration('1d') * 2)`).
 - Bei Arithmetik von Dauern mit Skalaren muss die Dauer links stehen. Zum Beispiel `duration('5h') * 2` statt `2 * duration('5h')`.
 
 ### `file()`
@@ -60,9 +62,9 @@ Globale Funktionen werden ohne einen Typ verwendet.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` ist die zu bewertende Bedingung.
-- `trueResult` ist die Ausgabe, wenn die Bedingung wahr ist.
-- `falseResult` ist die optionale Ausgabe, wenn die Bedingung falsch ist. Wenn nicht angegeben, wird `null` angenommen.
+- `condition` ist der zu bewertende Ausdruck.
+- `trueResult` ist die Ausgabe, wenn `condition` wahr ist.
+- `falseResult` ist die optionale Ausgabe, wenn `condition` falsch ist. Wenn weggelassen, wird `null` als Standard verwendet.
 - Gibt `trueResult` zurück, wenn `condition` wahr ist oder einen wahren Wert hat, andernfalls `falseResult`.
 - Beispiel: `if(isModified, "Modified", "Unmodified")`
 
@@ -71,7 +73,7 @@ Globale Funktionen werden ohne einen Typ verwendet.
 `image(path: string | file | url): image`
 
 - Gibt ein Bildobjekt zurück, das das Bild in der Sicht rendert.
-- Beispiel: `image(image-property)` oder `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Beispiel: `image(image-property)` oder `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Globale Funktionen werden ohne einen Typ verwendet.
 `link(path: string | file, display?: value): Link`
 
 - Analysiert eine Zeichenkette `path` und gibt ein Link-Objekt zurück, das als Link zum angegebenen Pfad gerendert wird.
-- Optional kann der Parameter `display` angegeben werden, um den Anzeigetext des Links zu ändern.
+- Optional kann der Parameter `display` angegeben werden, um den Anzeigetext des Links festzulegen.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Globale Funktionen werden ohne einen Typ verwendet.
 
 - Wenn das übergebene Element eine Liste ist, wird es unverändert zurückgegeben.
 - Andernfalls wird das übergebene `element` in eine Liste verpackt, wodurch eine Liste mit einem einzelnen Element entsteht.
-- Diese Funktion kann hilfreich sein, wenn eine Eigenschaft im Vault eine Mischung aus Zeichenketten oder Listen enthält.
+- Verwende diese Funktion, wenn eine Eigenschaft im Vault eine Mischung aus Zeichenketten oder Listen enthält.
 - Beispiel: `list("value")` gibt `["value"]` zurück.
 
 ### `max()`
@@ -112,40 +114,32 @@ Globale Funktionen werden ohne einen Typ verwendet.
 
 `now(): date`
 
-- `now()` gibt ein Datumsobjekt zurück, das den aktuellen Zeitpunkt darstellt.
+- Gibt ein Datumsobjekt für den aktuellen Zeitpunkt zurück.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Versucht, den übergebenen Wert als Zahl zurückzugeben.
-- Datumsobjekte werden als Millisekunden seit der Unix-Epoche zurückgegeben.
-- Boolesche Werte geben 1 oder 0 zurück.
-- Zeichenketten werden in eine Zahl umgewandelt und geben einen Fehler zurück, wenn das Ergebnis ungültig ist.
+- Gibt Datumsobjekte als Millisekunden seit der Unix-Epoche zurück.
+- Gibt boolesche Werte als `1` oder `0` zurück.
+- Analysiert Zeichenketten als Zahlen und gibt einen Fehler zurück, wenn die Zeichenkette keine gültige Zahl ist.
 - Beispiel: `number("3.4")` gibt `3.4` zurück.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Analysiert eine Zeichenkette als Dauer. Siehe den Abschnitt [[Bases-Syntax#Datumsarithmetik|Datumsarithmetik]] für das Format der `value`-Zeichenkette.
-- Dauern müssen bei der Datumsarithmetik nicht explizit analysiert werden (zum Beispiel `now() + '1d'`), aber sie müssen es bei der Arithmetik mit Dauern (zum Beispiel `now() + (duration('1d') * 2)`).
-- Bei Arithmetik von Dauern mit Skalaren muss die Dauer links stehen. Zum Beispiel `duration('5h') * 2` statt `2 * duration('5h')`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` gibt ein Datumsobjekt zurück, das das aktuelle Datum darstellt. Der Zeitanteil wird auf null gesetzt.
+- Gibt ein Datumsobjekt für das aktuelle Datum zurück. Der Zeitanteil wird auf Mitternacht gesetzt.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` gibt eine Zufallszahl zwischen 0 und 1 zurück.
+- Gibt eine Zufallszahl zwischen 0 und 1 zurück.
 - Die Zahlengenerierung wird bei jedem Laden einer Sicht aktualisiert. Das Navigieren zwischen Sichten ändert die Zufallszahl.
 
-## Any
+## Any-Typ
 
 Funktionen, die mit jedem Wert verwendet werden können. Dazu gehören Zeichenketten (z. B. `"hello"`), Zahlen (z. B. `42`), Listen (z. B. `[1,2,3]`), Objekte und mehr.
 
@@ -170,7 +164,7 @@ Funktionen, die mit jedem Wert verwendet werden können. Dazu gehören Zeichenke
 - Gibt die Zeichenkettendarstellung eines beliebigen Wertes zurück.
 - Beispiel: `123.toString()` gibt `"123"` zurück.
 
-## Date
+## Date-Typ
 
 Funktionen, die mit einem Datum und einer Uhrzeit verwendet werden können, z. B. `date("2025-05-27")`. Datumsvergleiche können mit [[Bases-Syntax#Datumsarithmetik|Datumsarithmetik]] durchgeführt werden.
 
@@ -207,7 +201,7 @@ Die folgenden Felder sind für Daten verfügbar:
 
 `date.time(): string`
 
-- Gibt die Uhrzeit zurück.
+- Gibt den Zeitanteil als Zeichenkette zurück.
 - Beispiel: `now().time()` gibt eine Zeichenkette wie "23:59:59" zurück.
 
 ### `relative()`
@@ -223,7 +217,7 @@ Die folgenden Felder sind für Daten verfügbar:
 
 - Gibt false zurück.
 
-## String
+## String-Typ
 
 Funktionen, die mit einer Zeichenfolge verwendet werden können, z. B. `"hello"`.
 
@@ -284,10 +278,11 @@ Funktionen, die mit einer Zeichenfolge verwendet werden können, z. B. `"hello"`
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` ist der in der Zielzeichenkette zu suchende Wert.
-- `replacement` ist der Wert, durch den gefundene Muster ersetzt werden.
+- `replacement` ist der Wert, durch den gefundene Muster ersetzt werden. Wenn `pattern` ein Regexp ist, können Erfassungsgruppen in `replacement` mit `$1`, `$2` usw. referenziert werden.
 - Wenn `pattern` eine Zeichenkette ist, werden alle Vorkommen des Musters ersetzt.
 - Wenn `pattern` ein Regexp ist, bestimmt das `g`-Flag, ob nur das erste oder alle Vorkommen ersetzt werden.
-- Beispiel: `"a:b:c:d".replace(/:/, "-")` gibt `"a-b,c,d"` zurück, wohingegen `"a:b:c:d".replace(/:/g, "-")` `"a-b-c-d"` zurückgibt.
+- Beispiel: `"a:b:c:d".replace(/:/, "-")` gibt `"a-b:c:d"` zurück, wohingegen `"a:b:c:d".replace(/:/g, "-")` `"a-b-c-d"` zurückgibt.
+- Beispiel mit Erfassungsgruppen: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` gibt `"Smith, John"` zurück.
 
 ### `repeat()`
 
@@ -344,7 +339,7 @@ Funktionen, die mit einer Zeichenfolge verwendet werden können, z. B. `"hello"`
 - Entfernt Leerzeichen an beiden Enden der Zeichenkette.
 - Beispiel: `"  hi  ".trim()` gibt `"hi"` zurück.
 
-## Number
+## Number-Typ
 
 Funktionen, die mit numerischen Werten verwendet werden können, z. B. `42`, `3.14`.
 
@@ -392,7 +387,7 @@ Funktionen, die mit numerischen Werten verwendet werden können, z. B. `42`, `3.
 - Gibt eine Zeichenkette mit der Zahl in Festkommanotation zurück.
 - Beispiel: `(3.14159).toFixed(2)` gibt `"3.14"` zurück.
 
-## List
+## List-Typ
 
 Funktionen, die mit einer geordneten Liste von Elementen verwendet werden können, z. B. `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Funktionen, die mit einer geordneten Liste von Elementen verwendet werden könne
 
 `list.filter(value: Boolean): list`
 
-- Filtert die Elemente dieser Liste durch Aufruf einer Filterfunktion, die die Variablen `index` und `value` verwendet und einen booleschen Wert zurückgibt, ob das Element beibehalten werden soll.
+- Filtert die Liste und behält nur Elemente, bei denen der Ausdruck wahr ist.
 - `value` ist der Wert eines Elements in der Liste.
 - `index` ist der Index des aktuellen Werts.
 - Beispiel: `[1,2,3,4].filter(value > 2)` gibt `[3,4]` zurück.
@@ -439,7 +434,7 @@ Funktionen, die mit einer geordneten Liste von Elementen verwendet werden könne
 
 `list.flat(): list`
 
-- Flacht verschachtelte Listen in eine einzelne Liste ab.
+- Flacht eine verschachtelte Liste in eine einzelne Liste ab.
 - Beispiel: `[1,[2,3]].flat()` gibt `[1,2,3]` zurück.
 
 ### `isEmpty()`
@@ -461,7 +456,7 @@ Funktionen, die mit einer geordneten Liste von Elementen verwendet werden könne
 
 `list.map(value: Any): list`
 
-- Transformiert jedes Element dieser Liste durch Aufruf einer Konvertierungsfunktion, die die Variablen `index` und `value` verwendet und den neuen Wert zurückgibt, der in die Liste eingefügt werden soll.
+- Transformiert jedes Element der Liste mithilfe eines Ausdrucks.
 - `value` ist der Wert eines Elements in der Liste.
 - `index` ist der Index des aktuellen Werts.
 - Beispiel: `[1,2,3,4].map(value + 1)` gibt `[2,3,4,5]` zurück.
@@ -470,7 +465,7 @@ Funktionen, die mit einer geordneten Liste von Elementen verwendet werden könne
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Reduziert die Elemente dieser Liste auf einen einzelnen Wert, indem für jedes Element ein Ausdruck ausgeführt wird. Der Ausdruck kann die Variablen `index`, `value` und `acc` (der Akkumulator) verwenden und sollte den nächsten Akkumulatorwert zurückgeben.
+- Reduziert die Liste auf einen einzelnen Wert, indem für jedes Element ein Ausdruck ausgeführt wird. Der Ausdruck muss den nächsten Wert von `acc` zurückgeben. Verwende `value` für das aktuelle Element, `index` für dessen Position und `acc` für das bisherige akkumulierte Ergebnis.
 - `expression` wird für jedes Element in der Liste ausgewertet.
 - `value` ist der Wert des aktuellen Elements in der Liste.
 - `index` ist der Index des aktuellen Elements.
@@ -510,7 +505,7 @@ Funktionen, die mit einer geordneten Liste von Elementen verwendet werden könne
 - Entfernt doppelte Elemente.
 - Beispiel: `[1,2,2,3].unique()` gibt `[1,2,3]` zurück.
 
-## Link
+## Link-Typ
 
 Funktionen, die auf einen Link angewendet werden können. Links können aus einer Datei (`file.asLink()`) oder einem Pfad (`link("path")`) erstellt werden.
 
@@ -519,17 +514,17 @@ Funktionen, die auf einen Link angewendet werden können. Links können aus eine
 `link.asFile(): file`
 
 - Gibt ein Dateiobjekt zurück, wenn der Link auf eine gültige lokale Datei verweist.
-- Beispiel: `link("[[filename]]").asFile()`
+- Beispiel: `link("[[filename]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Gibt zurück, ob die durch den `link` dargestellte Datei einen Link zu `file` hat.
+- Gibt `true` zurück, wenn die durch `link` dargestellte Datei einen Link zu `file` hat.
 
-## File
+## File-Typ
 
-Funktionen, die mit Dateien im Vault verwendet werden können.
+Funktionen, die mit einer Datei im Vault verwendet werden können.
 
 ### Felder
 
@@ -553,7 +548,7 @@ Die folgenden Felder sind für Dateien verfügbar:
 
 `file.asLink(display?: string): Link`
 
-- `display` optionaler Anzeigetext für den Link.
+- `display` ist ein optionaler Anzeigetext für den Link.
 - Gibt ein Link-Objekt zurück, das als funktionierender Link gerendert wird.
 - Beispiel: `file.asLink()`
 
@@ -569,7 +564,7 @@ Die folgenden Felder sind für Dateien verfügbar:
 
 `file.hasProperty(name: string): boolean`
 
-- Gibt true zurück, wenn die Notiz die angegebene Dateieigenschaft hat.
+- Gibt `true` zurück, wenn die Datei die angegebene Eigenschaft hat.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ Die folgenden Felder sind für Dateien verfügbar:
 - Gibt true zurück, wenn sich die Datei im angegebenen Ordner oder einem seiner Unterordner befindet.
 - Beispiel: `file.inFolder("notes")` gibt `true` zurück.
 
-## Object
+## Object-Typ
 
 Funktionen, die mit einer Sammlung von Schlüssel-Wert-Paaren verwendet werden können, z. B. `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Funktionen, die mit einer Sammlung von Schlüssel-Wert-Paaren verwendet werden k
 
 - Gibt eine Liste zurück, die die Werte des Objekts enthält.
 
-## Reguläre Ausdrücke
+## Reguläre-Ausdrücke-Typ
 
 Funktionen, die mit einem regulären Ausdrucksmuster verwendet werden können. Beispiel: `/abc/`.
 

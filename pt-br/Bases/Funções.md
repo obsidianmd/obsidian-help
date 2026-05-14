@@ -6,17 +6,19 @@ description: Esta página detalha as funções usadas no Obsidian Bases para man
 ---
 Funções são usadas no [[Introdução ao Bases|Bases]] para manipular dados de [[Propriedades|propriedades]] em [[Visualizações#Filtros|filtros]] e [[Fórmulas|fórmulas]]. Consulte a referência de [[Sintaxe de Bases|sintaxe do Bases]] para saber mais sobre como você pode usar funções.
 
+As funções do Bases seguem o comportamento do JavaScript. Para documentação de referência completa, consulte o [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Além das funções [[Funções#Global|Globais]], a maioria das funções depende do tipo de valor que você deseja modificar:
 
-- [[Funções#Qualquer|Qualquer]]
-- [[Funções#Data|Data]]
-- [[Funções#String|String]]
-- [[Funções#Número|Número]]
-- [[Funções#Lista|Lista]]
-- [[Funções#Link|Link]]
-- [[Funções#Arquivo|Arquivo]]
-- [[Funções#Objeto|Objeto]]
-- [[Funções#Expressão regular|Expressão regular]]
+- [[Funções#Tipo qualquer|Qualquer]]
+- [[Funções#Tipo data|Data]]
+- [[Funções#Tipo string|String]]
+- [[Funções#Tipo número|Número]]
+- [[Funções#Tipo lista|Lista]]
+- [[Funções#Tipo link|Link]]
+- [[Funções#Tipo arquivo|Arquivo]]
+- [[Funções#Tipo objeto|Objeto]]
+- [[Funções#Tipo expressão regular|Expressão regular]]
 
 ## Global
 
@@ -40,7 +42,7 @@ Funções globais são usadas sem um tipo.
 `duration(value: string): duration`
 
 - Analisa uma string como uma duração. Consulte a [[Sintaxe de Bases#Aritmética de datas|seção de aritmética de datas]] para o formato da string `value`.
-- Durações não precisam ser explicitamente analisadas ao realizar aritmética de datas (por exemplo, `now() + '1d'`), mas precisam ao realizar aritmética com durações (por exemplo, `now() + (duration('1d') * 2)`).
+- A análise explícita não é necessária para aritmética de datas (por exemplo, `now() + '1d'`), mas é necessária ao realizar aritmética com durações (por exemplo, `now() + (duration('1d') * 2)`).
 - Ao realizar aritmética de durações com escalares, a duração deve estar à esquerda. Por exemplo `duration('5h') * 2`, em vez de `2 * duration('5h')`.
 
 ### `file()`
@@ -60,18 +62,18 @@ Funções globais são usadas sem um tipo.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` é a condição a ser avaliada.
-- `trueResult` é a saída se a condição for verdadeira.
-- `falseResult` é a saída opcional se a condição for falsa. Se não for fornecida, assume-se como `null`.
-- Retorna o `trueResult` se `condition` for verdadeira, ou for um valor truthy, ou `falseResult` caso contrário.
+- `condition` é a expressão a ser avaliada.
+- `trueResult` é a saída se `condition` for verdadeira.
+- `falseResult` é a saída opcional se `condition` for falsa. Se omitido, assume o valor `null`.
+- Retorna `trueResult` se `condition` for verdadeira ou truthy, caso contrário retorna `falseResult`.
 - Exemplo: `if(isModified, "Modified", "Unmodified")`
 
 ### `image()`
 
 `image(path: string | file | url): image`
 
-- Retorna um objeto de imagem que renderizará a imagem na visualização.
-- Exemplo: `image(image-property)` ou `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Retorna um objeto de imagem que renderiza a imagem na visualização.
+- Exemplo: `image(image-property)` ou `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Funções globais são usadas sem um tipo.
 `link(path: string | file, display?: value): Link`
 
 - Analisa uma string `path` e retorna um objeto Link que é renderizado como um link para o caminho fornecido.
-- Opcionalmente, forneça o parâmetro `display` para alterar o texto exibido pelo link.
+- Opcionalmente, forneça o parâmetro `display` para definir o texto de exibição do link.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Funções globais são usadas sem um tipo.
 
 - Se o elemento fornecido for uma lista, retorna-o sem modificação.
 - Caso contrário, envolve o `element` fornecido em uma lista, criando uma lista com um único elemento.
-- Esta função pode ser útil quando uma propriedade contém uma mistura de strings ou listas no cofre.
+- Use esta função quando uma propriedade contém uma mistura de strings ou listas no cofre.
 - Exemplo: `list("value")` retorna `["value"]`.
 
 ### `max()`
@@ -112,40 +114,32 @@ Funções globais são usadas sem um tipo.
 
 `now(): date`
 
-- `now()` retorna um objeto de data representando o momento atual.
+- Retorna um objeto de data para o momento atual.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Tenta retornar o valor fornecido como um número.
-- Objetos de data serão retornados como milissegundos desde a época unix.
-- Booleanos retornarão 1 ou 0.
-- Strings serão analisadas como número e retornarão um erro se o resultado for inválido.
-- Exemplo, `number("3.4")` retorna `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Analisa uma string como uma duração. Consulte a [[Sintaxe de Bases#Aritmética de datas|seção de aritmética de datas]] para o formato da string `value`.
-- Durações não precisam ser explicitamente analisadas ao realizar aritmética de datas (por exemplo, `now() + '1d'`), mas precisam ao realizar aritmética com durações (por exemplo, `now() + (duration('1d') * 2)`).
-- Ao realizar aritmética de durações com escalares, a duração deve estar à esquerda. Por exemplo `duration('5h') * 2`, em vez de `2 * duration('5h')`.
+- Retorna objetos de data como milissegundos desde a época Unix.
+- Retorna booleanos como `1` ou `0`.
+- Analisa strings como números e retorna um erro se a string não for um número válido.
+- Exemplo: `number("3.4")` retorna `3.4`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` retorna um objeto de data representando a data atual. A parte do horário é definida como zero.
+- Retorna um objeto de data para a data atual. A parte do horário é definida como meia-noite.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` retorna um número aleatório entre 0 e 1.
+- Retorna um número aleatório entre 0 e 1.
 - A geração do número é atualizada sempre que uma visualização é carregada. Navegar entre visualizações altera o número aleatório.
 
-## Qualquer
+## Tipo qualquer
 
 Funções que você pode usar com qualquer valor. Isso inclui strings (ex.: `"hello"`), números (ex.: `42`), listas (ex.: `[1,2,3]`), objetos e mais.
 
@@ -170,7 +164,7 @@ Funções que você pode usar com qualquer valor. Isso inclui strings (ex.: `"he
 - Retorna a representação em string de qualquer valor.
 - Exemplo: `123.toString()` retorna `"123"`.
 
-## Data
+## Tipo data
 
 Funções que você pode usar com data e hora, como `date("2025-05-27")`. Comparações de datas podem ser feitas usando [[Sintaxe de Bases#Aritmética de datas|aritmética de datas]].
 
@@ -193,7 +187,7 @@ Os seguintes campos estão disponíveis para datas:
 `date.date(): date`
 
 - Retorna um objeto de data com o horário removido.
-- Exemplo: `now().date().format("YYYY-MM-DD HH:mm:ss")` retorna uma string como "2025-12-31 00:00:00"
+- Exemplo: `now().date().format("YYYY-MM-DD HH:mm:ss")` retorna uma string como "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -207,8 +201,8 @@ Os seguintes campos estão disponíveis para datas:
 
 `date.time(): string`
 
-- Retorna o horário.
-- Exemplo: `now().time()` retorna uma string como "23:59:59"
+- Retorna a parte do horário como uma string.
+- Exemplo: `now().time()` retorna uma string como "23:59:59".
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ Os seguintes campos estão disponíveis para datas:
 
 - Retorna falso.
 
-## String
+## Tipo string
 
 Funções que você pode usar com uma sequência de caracteres como `"hello"`.
 
@@ -284,17 +278,18 @@ Funções que você pode usar com uma sequência de caracteres como `"hello"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` é o valor a ser procurado na string alvo.
-- `replacement` é o valor para substituir os padrões encontrados.
+- `replacement` é o valor para substituir os padrões encontrados. Quando `pattern` for um Regexp, você pode referenciar grupos de captura em `replacement` usando `$1`, `$2`, e assim por diante.
 - Se `pattern` for uma string, todas as ocorrências do padrão serão substituídas.
 - Se `pattern` for um Regexp, a flag `g` determina se apenas a primeira ou todas as ocorrências são substituídas.
-- Exemplo: `""a:b:c:d".replace(/:/, "-")` retorna `"a-b,c,d"`, enquanto `"a:b:c:d".replace(/:/g, "-")` retorna `"a-b-c-d"`.
+- Exemplo: `"a:b:c:d".replace(/:/, "-")` retorna `"a-b:c:d"`, enquanto `"a:b:c:d".replace(/:/g, "-")` retorna `"a-b-c-d"`.
+- Exemplo com grupos de captura: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` retorna `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` é o número de vezes para repetir a string.
-- Exemplo: `"123".repeat(2)` retorna `"123123"`
+- Exemplo: `"123".repeat(2)` retorna `"123123"`.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Funções que você pode usar com uma sequência de caracteres como `"hello"`.
 - Remove espaços em branco de ambas as extremidades da string.
 - Exemplo: `"  hi  ".trim()` retorna `"hi"`.
 
-## Número
+## Tipo número
 
 Funções que você pode usar com valores numéricos como `42`, `3.14`.
 
@@ -392,7 +387,7 @@ Funções que você pode usar com valores numéricos como `42`, `3.14`.
 - Retorna uma string com o número em notação de ponto fixo.
 - Exemplo: `(3.14159).toFixed(2)` retorna `"3.14"`.
 
-## Lista
+## Tipo lista
 
 Funções que você pode usar com uma lista ordenada de elementos como `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Funções que você pode usar com uma lista ordenada de elementos como `[1, 2, 3
 
 `list.filter(value: Boolean): list`
 
-- Filtra os elementos desta lista chamando uma função de filtro, que usa as variáveis `index` e `value`, e retorna um valor booleano indicando se o elemento deve ser mantido.
+- Filtra a lista e mantém apenas os elementos onde a expressão é verdadeira.
 - `value` é o valor de um item na lista.
 - `index` é o índice do valor atual.
 - Exemplo: `[1,2,3,4].filter(value > 2)` retorna `[3,4]`.
@@ -439,7 +434,7 @@ Funções que você pode usar com uma lista ordenada de elementos como `[1, 2, 3
 
 `list.flat(): list`
 
-- Achata listas aninhadas em uma única lista.
+- Achata uma lista aninhada em uma única lista.
 - Exemplo: `[1,[2,3]].flat()` retorna `[1,2,3]`.
 
 ### `isEmpty()`
@@ -461,7 +456,7 @@ Funções que você pode usar com uma lista ordenada de elementos como `[1, 2, 3
 
 `list.map(value: Any): list`
 
-- Transforma cada elemento desta lista chamando uma função de conversão, que usa as variáveis `index` e `value`, e retorna o novo valor a ser colocado na lista.
+- Transforma cada elemento da lista usando uma expressão.
 - `value` é o valor de um item na lista.
 - `index` é o índice do valor atual.
 - Exemplo: `[1,2,3,4].map(value + 1)` retorna `[2,3,4,5]`.
@@ -470,7 +465,7 @@ Funções que você pode usar com uma lista ordenada de elementos como `[1, 2, 3
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Reduz os elementos desta lista em um único valor executando uma expressão para cada elemento. A expressão pode usar as variáveis `index`, `value` e `acc` (o acumulador), e deve retornar o próximo valor do acumulador.
+- Reduz a lista a um único valor executando uma expressão para cada elemento. A expressão deve retornar o próximo valor de `acc`. Use `value` para o elemento atual, `index` para sua posição e `acc` para o resultado acumulado até o momento.
 - `expression` é avaliada para cada elemento na lista.
 - `value` é o valor do item atual na lista.
 - `index` é o índice do item atual.
@@ -510,7 +505,7 @@ Funções que você pode usar com uma lista ordenada de elementos como `[1, 2, 3
 - Remove elementos duplicados.
 - Exemplo: `[1,2,2,3].unique()` retorna `[1,2,3]`.
 
-## Link
+## Tipo link
 
 Funções que você pode usar em um link. Links podem ser criados a partir de um arquivo (`file.asLink()`) ou um caminho (`link("path")`).
 
@@ -519,17 +514,17 @@ Funções que você pode usar em um link. Links podem ser criados a partir de um
 `link.asFile(): file`
 
 - Retorna um objeto de arquivo se o link se referir a um arquivo local válido.
-- Exemplo: `link("[[filename]]").asFile()`
+- Exemplo: `link("[[filename]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Retorna se o arquivo representado pelo `link` possui um link para `file`.
+- Retorna `true` se o arquivo representado pelo `link` possuir um link para `file`.
 
-## Arquivo
+## Tipo arquivo
 
-Funções que você pode usar com arquivos no cofre.
+Funções que você pode usar com um arquivo no cofre.
 
 ### Campos
 
@@ -553,7 +548,7 @@ Os seguintes campos estão disponíveis para arquivos:
 
 `file.asLink(display?: string): Link`
 
-- `display` texto de exibição opcional para o link.
+- `display` é o texto de exibição opcional para o link.
 - Retorna um objeto Link que é renderizado como um link funcional.
 - Exemplo: `file.asLink()`
 
@@ -569,7 +564,7 @@ Os seguintes campos estão disponíveis para arquivos:
 
 `file.hasProperty(name: string): boolean`
 
-- Retorna verdadeiro se a nota tiver a propriedade de arquivo fornecida.
+- Retorna `true` se o arquivo tiver a propriedade fornecida.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ Os seguintes campos estão disponíveis para arquivos:
 - Retorna verdadeiro se o arquivo estiver na pasta especificada ou em uma de suas subpastas.
 - Exemplo: `file.inFolder("notes")` retorna `true`.
 
-## Objeto
+## Tipo objeto
 
 Funções que você pode usar com uma coleção de pares chave-valor como `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Funções que você pode usar com uma coleção de pares chave-valor como `{"a":
 
 - Retorna uma lista contendo os valores do objeto.
 
-## Expressão regular
+## Tipo expressão regular
 
 Funções que você pode usar com um padrão de expressão regular. Exemplo: `/abc/`.
 

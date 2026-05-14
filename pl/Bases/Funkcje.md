@@ -6,17 +6,19 @@ description: Ta strona opisuje funkcje używane w Obsidian Bases do manipulowani
 ---
 Funkcje są używane w [[Wprowadzenie do Baz danych|Bazach danych]] do manipulowania danymi z [[Atrybuty|właściwości]] w [[Podglądy#Filtry|filtrach]] i [[Wzory|wzorach]]. Zapoznaj się z referencją [[Składnia Baz danych|składni baz danych]], aby dowiedzieć się więcej o tym, jak możesz używać funkcji.
 
+Funkcje Baz danych zachowują się zgodnie z JavaScript. Pełną dokumentację referencyjną znajdziesz na stronie [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Poza funkcjami [[Funkcje#Globalne|Globalnymi]], większość funkcji zależy od typu wartości, którą chcesz zmodyfikować:
 
-- [[Funkcje#Dowolne|Dowolne]]
-- [[Funkcje#Data|Data]]
-- [[Funkcje#Ciąg znaków|Ciąg znaków]]
-- [[Funkcje#Liczba|Liczba]]
-- [[Funkcje#Lista|Lista]]
-- [[Funkcje#Link|Link]]
-- [[Funkcje#Plik|Plik]]
-- [[Funkcje#Obiekt|Obiekt]]
-- [[Funkcje#Wyrażenie regularne|Wyrażenie regularne]]
+- [[Funkcje#Typ dowolny|Dowolne]]
+- [[Funkcje#Typ data|Data]]
+- [[Funkcje#Typ ciąg znaków|Ciąg znaków]]
+- [[Funkcje#Typ liczba|Liczba]]
+- [[Funkcje#Typ lista|Lista]]
+- [[Funkcje#Typ link|Link]]
+- [[Funkcje#Typ plik|Plik]]
+- [[Funkcje#Typ obiekt|Obiekt]]
+- [[Funkcje#Typ wyrażenie regularne|Wyrażenie regularne]]
 
 ## Globalne
 
@@ -40,7 +42,7 @@ Funkcje globalne są używane bez typu.
 `duration(value: string): duration`
 
 - Parsuje ciąg znaków jako czas trwania. Zobacz [[Składnia Baz danych#Arytmetyka dat|sekcję arytmetyki dat]] dla formatu ciągu `value`.
-- Czasy trwania nie muszą być jawnie parsowane podczas wykonywania arytmetyki dat (na przykład `now() + '1d'`), ale muszą być parsowane podczas wykonywania arytmetyki na czasach trwania (na przykład `now() + (duration('1d') * 2)`).
+- Jawne parsowanie nie jest potrzebne podczas wykonywania arytmetyki dat (na przykład `now() + '1d'`), ale jest potrzebne podczas wykonywania arytmetyki na czasach trwania (na przykład `now() + (duration('1d') * 2)`).
 - Podczas wykonywania arytmetyki na czasach trwania ze skalarami, czas trwania musi być po lewej stronie. Na przykład `duration('5h') * 2`, zamiast `2 * duration('5h')`.
 
 ### `file()`
@@ -60,9 +62,9 @@ Funkcje globalne są używane bez typu.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` to warunek do oceny.
-- `trueResult` to wynik, jeśli warunek jest prawdziwy.
-- `falseResult` to opcjonalny wynik, jeśli warunek jest fałszywy. Jeśli nie zostanie podany, przyjmowana jest wartość `null`.
+- `condition` to wyrażenie do oceny.
+- `trueResult` to wynik, jeśli `condition` jest prawdziwy.
+- `falseResult` to opcjonalny wynik, jeśli `condition` jest fałszywy. Jeśli zostanie pominięty, domyślnie przyjmuje wartość `null`.
 - Zwraca `trueResult`, jeśli `condition` jest prawdziwy lub jest wartością prawdziwą (truthy), w przeciwnym razie zwraca `falseResult`.
 - Przykład: `if(isModified, "Modified", "Unmodified")`
 
@@ -71,7 +73,7 @@ Funkcje globalne są używane bez typu.
 `image(path: string | file | url): image`
 
 - Zwraca obiekt obrazu, który renderuje obraz w podglądzie.
-- Przykład: `image(image-property)` lub `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Przykład: `image(image-property)` lub `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Funkcje globalne są używane bez typu.
 `link(path: string | file, display?: value): Link`
 
 - Parsuje ciąg znaków `path` i zwraca obiekt Link, który renderuje się jako link do podanej ścieżki.
-- Opcjonalnie podaj parametr `display`, aby zmienić tekst wyświetlany przez link.
+- Opcjonalnie podaj parametr `display`, aby ustawić tekst wyświetlany przez link.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Funkcje globalne są używane bez typu.
 
 - Jeśli podany element jest listą, zwraca go bez zmian.
 - W przeciwnym razie opakowuje podany `element` w listę, tworząc listę z jednym elementem.
-- Ta funkcja może być przydatna, gdy właściwość zawiera mieszankę ciągów znaków lub list w całym skarbcu.
+- Użyj tej funkcji, gdy właściwość zawiera mieszankę ciągów znaków lub list w całym skarbcu.
 - Przykład: `list("value")` zwraca `["value"]`.
 
 ### `max()`
@@ -112,40 +114,32 @@ Funkcje globalne są używane bez typu.
 
 `now(): date`
 
-- `now()` zwraca obiekt daty reprezentujący bieżący moment.
+- Zwraca obiekt daty dla bieżącego momentu.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Próbuje zwrócić podaną wartość jako liczbę.
-- Obiekty dat zostaną zwrócone jako milisekundy od epoki uniksowej.
-- Wartości logiczne zwrócą 1 lub 0.
-- Ciągi znaków zostaną sparsowane na liczbę i zwrócą błąd, jeśli wynik jest nieprawidłowy.
+- Zwraca obiekty dat jako milisekundy od epoki uniksowej.
+- Zwraca wartości logiczne jako `1` lub `0`.
+- Parsuje ciągi znaków jako liczby i zwraca błąd, jeśli ciąg nie jest prawidłową liczbą.
 - Przykład: `number("3.4")` zwraca `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Parsuje ciąg znaków jako czas trwania. Zobacz [[Składnia Baz danych#Arytmetyka dat|sekcję arytmetyki dat]] dla formatu ciągu `value`.
-- Czasy trwania nie muszą być jawnie parsowane podczas wykonywania arytmetyki dat (na przykład `now() + '1d'`), ale muszą być parsowane podczas wykonywania arytmetyki na czasach trwania (na przykład `now() + (duration('1d') * 2)`).
-- Podczas wykonywania arytmetyki na czasach trwania ze skalarami, czas trwania musi być po lewej stronie. Na przykład `duration('5h') * 2`, zamiast `2 * duration('5h')`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` zwraca obiekt daty reprezentujący bieżącą datę. Część czasowa jest ustawiona na zero.
+- Zwraca obiekt daty dla bieżącej daty. Część czasowa jest ustawiona na północ.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` zwraca losową liczbę między 0 a 1.
+- Zwraca losową liczbę między 0 a 1.
 - Generowanie liczb odświeża się za każdym razem, gdy podgląd jest ładowany. Nawigacja między podglądami zmienia losową liczbę.
 
-## Dowolne
+## Typ dowolny
 
 Funkcje, których możesz używać z dowolną wartością. Obejmuje to ciągi znaków (np. `"hello"`), liczby (np. `42`), listy (np. `[1,2,3]`), obiekty i inne.
 
@@ -170,7 +164,7 @@ Funkcje, których możesz używać z dowolną wartością. Obejmuje to ciągi zn
 - Zwraca reprezentację tekstową dowolnej wartości.
 - Przykład: `123.toString()` zwraca `"123"`.
 
-## Data
+## Typ data
 
 Funkcje, których możesz używać z datą i czasem, takim jak `date("2025-05-27")`. Porównania dat można wykonywać za pomocą [[Składnia Baz danych#Arytmetyka dat|arytmetyki dat]].
 
@@ -193,7 +187,7 @@ Następujące pola są dostępne dla dat:
 `date.date(): date`
 
 - Zwraca obiekt daty z usuniętym czasem.
-- Przykład: `now().date().format("YYYY-MM-DD HH:mm:ss")` zwraca ciąg znaków taki jak "2025-12-31 00:00:00"
+- Przykład: `now().date().format("YYYY-MM-DD HH:mm:ss")` zwraca ciąg znaków taki jak "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -207,8 +201,8 @@ Następujące pola są dostępne dla dat:
 
 `date.time(): string`
 
-- Zwraca czas.
-- Przykład: `now().time()` zwraca ciąg znaków taki jak "23:59:59"
+- Zwraca część czasową jako ciąg znaków.
+- Przykład: `now().time()` zwraca ciąg znaków taki jak "23:59:59".
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ Następujące pola są dostępne dla dat:
 
 - Zwraca false.
 
-## Ciąg znaków
+## Typ ciąg znaków
 
 Funkcje, których możesz używać z sekwencją znaków, taką jak `"hello"`.
 
@@ -284,17 +278,18 @@ Funkcje, których możesz używać z sekwencją znaków, taką jak `"hello"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` to wartość do wyszukania w docelowym ciągu.
-- `replacement` to wartość, którą zostaną zastąpione znalezione wzorce.
+- `replacement` to wartość, którą zostaną zastąpione znalezione wzorce. Gdy `pattern` jest wyrażeniem regularnym, możesz odwoływać się do grup przechwytywania w `replacement` za pomocą `$1`, `$2` itd.
 - Jeśli `pattern` jest ciągiem znaków, wszystkie wystąpienia wzorca zostaną zastąpione.
 - Jeśli `pattern` jest wyrażeniem regularnym, flaga `g` określa, czy zostanie zastąpione tylko pierwsze, czy wszystkie wystąpienia.
-- Przykład: `""a:b:c:d".replace(/:/, "-")` zwraca `"a-b,c,d"`, natomiast `"a:b:c:d".replace(/:/g, "-")` zwraca `"a-b-c-d"`.
+- Przykład: `"a:b:c:d".replace(/:/, "-")` zwraca `"a-b:c:d"`, natomiast `"a:b:c:d".replace(/:/g, "-")` zwraca `"a-b-c-d"`.
+- Przykład z grupami przechwytywania: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` zwraca `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` to liczba powtórzeń ciągu.
-- Przykład: `"123".repeat(2)` zwraca `"123123"`
+- Przykład: `"123".repeat(2)` zwraca `"123123"`.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Funkcje, których możesz używać z sekwencją znaków, taką jak `"hello"`.
 - Usuwa białe znaki z obu końców ciągu.
 - Przykład: `"  hi  ".trim()` zwraca `"hi"`.
 
-## Liczba
+## Typ liczba
 
 Funkcje, których możesz używać z wartościami liczbowymi, takimi jak `42`, `3.14`.
 
@@ -392,7 +387,7 @@ Funkcje, których możesz używać z wartościami liczbowymi, takimi jak `42`, `
 - Zwraca ciąg znaków z liczbą w notacji stałoprzecinkowej.
 - Przykład: `(3.14159).toFixed(2)` zwraca `"3.14"`.
 
-## Lista
+## Typ lista
 
 Funkcje, których możesz używać z uporządkowaną listą elementów, taką jak `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Funkcje, których możesz używać z uporządkowaną listą elementów, taką ja
 
 `list.filter(value: Boolean): list`
 
-- Filtruje elementy tej listy, wywołując funkcję filtrującą, która używa zmiennych `index` i `value`, i zwraca wartość logiczną określającą, czy element powinien zostać zachowany.
+- Filtruje listę i zachowuje tylko elementy, dla których wyrażenie jest prawdziwe.
 - `value` to wartość elementu na liście.
 - `index` to indeks bieżącej wartości.
 - Przykład: `[1,2,3,4].filter(value > 2)` zwraca `[3,4]`.
@@ -461,7 +456,7 @@ Funkcje, których możesz używać z uporządkowaną listą elementów, taką ja
 
 `list.map(value: Any): list`
 
-- Przekształca każdy element tej listy, wywołując funkcję konwersji, która używa zmiennych `index` i `value`, i zwraca nową wartość do umieszczenia na liście.
+- Przekształca każdy element listy za pomocą wyrażenia.
 - `value` to wartość elementu na liście.
 - `index` to indeks bieżącej wartości.
 - Przykład: `[1,2,3,4].map(value + 1)` zwraca `[2,3,4,5]`.
@@ -470,7 +465,7 @@ Funkcje, których możesz używać z uporządkowaną listą elementów, taką ja
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Redukuje elementy tej listy do pojedynczej wartości, uruchamiając wyrażenie dla każdego elementu. Wyrażenie może używać zmiennych `index`, `value` i `acc` (akumulator) i powinno zwracać następną wartość akumulatora.
+- Redukuje listę do pojedynczej wartości, uruchamiając wyrażenie dla każdego elementu. Wyrażenie musi zwracać następną wartość `acc`. Użyj `value` dla bieżącego elementu, `index` dla jego pozycji i `acc` dla dotychczasowego skumulowanego wyniku.
 - `expression` jest obliczane dla każdego elementu na liście.
 - `value` to wartość bieżącego elementu na liście.
 - `index` to indeks bieżącego elementu.
@@ -510,7 +505,7 @@ Funkcje, których możesz używać z uporządkowaną listą elementów, taką ja
 - Usuwa zduplikowane elementy.
 - Przykład: `[1,2,2,3].unique()` zwraca `[1,2,3]`.
 
-## Link
+## Typ link
 
 Funkcje, których możesz używać na linku. Linki mogą być tworzone z pliku (`file.asLink()`) lub ścieżki (`link("path")`).
 
@@ -519,17 +514,17 @@ Funkcje, których możesz używać na linku. Linki mogą być tworzone z pliku (
 `link.asFile(): file`
 
 - Zwraca obiekt pliku, jeśli link odnosi się do prawidłowego pliku lokalnego.
-- Przykład: `link("[[filename]]").asFile()`
+- Przykład: `link("[[filename]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Zwraca, czy plik reprezentowany przez `link` ma link do `file`.
+- Zwraca `true`, jeśli plik reprezentowany przez `link` ma link do `file`.
 
-## Plik
+## Typ plik
 
-Funkcje, których możesz używać z plikami w skarbcu.
+Funkcje, których możesz używać z plikiem w skarbcu.
 
 ### Pola
 
@@ -553,7 +548,7 @@ Następujące pola są dostępne dla plików:
 
 `file.asLink(display?: string): Link`
 
-- `display` opcjonalny tekst wyświetlany dla linku.
+- `display` to opcjonalny tekst wyświetlany dla linku.
 - Zwraca obiekt Link, który renderuje się jako działający link.
 - Przykład: `file.asLink()`
 
@@ -569,7 +564,7 @@ Następujące pola są dostępne dla plików:
 
 `file.hasProperty(name: string): boolean`
 
-- Zwraca true, jeśli notatka posiada daną właściwość pliku.
+- Zwraca `true`, jeśli plik posiada daną właściwość.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ Następujące pola są dostępne dla plików:
 - Zwraca true, jeśli plik znajduje się w określonym folderze lub jednym z jego podfolderów.
 - Przykład: `file.inFolder("notes")` zwraca `true`.
 
-## Obiekt
+## Typ obiekt
 
 Funkcje, których możesz używać z kolekcją par klucz-wartość, taką jak `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Funkcje, których możesz używać z kolekcją par klucz-wartość, taką jak `{
 
 - Zwraca listę zawierającą wartości obiektu.
 
-## Wyrażenie regularne
+## Typ wyrażenie regularne
 
 Funkcje, których możesz używać ze wzorcem wyrażenia regularnego. Przykład: `/abc/`.
 

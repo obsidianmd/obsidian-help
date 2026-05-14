@@ -7,17 +7,19 @@ localized: '2026-03-18'
 ---
 Les fonctions sont utilisées dans les [[Introduction aux Bases|Bases]] pour manipuler les données des [[Propriétés|propriétés]] dans les [[Vues#Filtres|filtres]] et les [[Formules|formules]]. Consultez la référence de la [[Syntaxe des Bases|syntaxe des bases]] pour en savoir plus sur l'utilisation des fonctions.
 
+Les fonctions des Bases suivent le comportement de JavaScript. Pour une documentation de référence complète, consultez [MDN Web Docs](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference).
+
 En dehors des fonctions [[Fonctions#Globales|Globales]], la plupart des fonctions dépendent du type de valeur que vous souhaitez modifier :
 
-- [[Fonctions#Quelconque|Quelconque]]
-- [[Fonctions#Date|Date]]
-- [[Fonctions#Chaîne de caractères|Chaîne de caractères]]
-- [[Fonctions#Nombre|Nombre]]
-- [[Fonctions#Liste|Liste]]
-- [[Fonctions#Lien|Lien]]
-- [[Fonctions#Fichier|Fichier]]
-- [[Fonctions#Objet|Objet]]
-- [[Fonctions#Expression régulière|Expression régulière]]
+- [[Fonctions#Type quelconque|Quelconque]]
+- [[Fonctions#Type date|Date]]
+- [[Fonctions#Type chaîne de caractères|Chaîne de caractères]]
+- [[Fonctions#Type nombre|Nombre]]
+- [[Fonctions#Type liste|Liste]]
+- [[Fonctions#Type lien|Lien]]
+- [[Fonctions#Type fichier|Fichier]]
+- [[Fonctions#Type objet|Objet]]
+- [[Fonctions#Type expression régulière|Expression régulière]]
 
 ## Globales
 
@@ -41,7 +43,7 @@ Les fonctions globales s'utilisent sans type.
 `duration(value: string): duration`
 
 - Analyse une chaîne de caractères en tant que durée. Consultez la [[Syntaxe des Bases#Arithmétique des dates|section sur l'arithmétique des dates]] pour le format de la chaîne `value`.
-- Les durées n'ont pas besoin d'être explicitement analysées lors de l'arithmétique des dates (par exemple, `now() + '1d'`), mais elles doivent l'être lors de l'arithmétique sur les durées (par exemple, `now() + (duration('1d') * 2)`).
+- L'analyse explicite n'est pas nécessaire pour l'arithmétique des dates (par exemple, `now() + '1d'`), mais elle l'est lors de l'arithmétique sur les durées (par exemple, `now() + (duration('1d') * 2)`).
 - Lors de l'arithmétique entre durées et scalaires, la durée doit être à gauche. Par exemple `duration('5h') * 2`, au lieu de `2 * duration('5h')`.
 
 ### `file()`
@@ -61,10 +63,10 @@ Les fonctions globales s'utilisent sans type.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` est la condition à évaluer.
-- `trueResult` est le résultat si la condition est vraie.
-- `falseResult` est le résultat optionnel si la condition est fausse. S'il n'est pas fourni, la valeur `null` est utilisée.
-- Retourne `trueResult` si `condition` est vraie, ou est une valeur évaluée comme vraie, ou `falseResult` dans le cas contraire.
+- `condition` est l'expression à évaluer.
+- `trueResult` est le résultat si `condition` est vraie.
+- `falseResult` est le résultat optionnel si `condition` est fausse. S'il est omis, la valeur par défaut est `null`.
+- Retourne `trueResult` si `condition` est vraie ou évaluée comme vraie, sinon retourne `falseResult`.
 - Exemple : `if(isModified, "Modified", "Unmodified")`
 
 ### `image()`
@@ -72,7 +74,7 @@ Les fonctions globales s'utilisent sans type.
 `image(path: string | file | url): image`
 
 - Retourne un objet image qui affiche l'image dans la vue.
-- Exemple : `image(image-property)` ou `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Exemple : `image(image-property)` ou `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -86,7 +88,7 @@ Les fonctions globales s'utilisent sans type.
 `link(path: string | file, display?: value): Link`
 
 - Analyse une chaîne `path` et retourne un objet Link qui s'affiche comme un lien vers le chemin donné.
-- Fournissez optionnellement le paramètre `display` pour modifier le texte affiché par le lien.
+- Fournissez optionnellement le paramètre `display` pour définir le texte d'affichage du lien.
 
 ### `list()`
 
@@ -94,7 +96,7 @@ Les fonctions globales s'utilisent sans type.
 
 - Si l'élément fourni est une liste, le retourne sans modification.
 - Sinon, enveloppe l'`element` fourni dans une liste, créant une liste avec un seul élément.
-- Cette fonction peut être utile lorsqu'une propriété contient un mélange de chaînes de caractères ou de listes à travers le coffre.
+- Utilisez cette fonction lorsqu'une propriété contient un mélange de chaînes de caractères ou de listes à travers le coffre.
 - Exemple : `list("value")` retourne `["value"]`.
 
 ### `max()`
@@ -113,40 +115,32 @@ Les fonctions globales s'utilisent sans type.
 
 `now(): date`
 
-- `now()` retourne un objet date représentant l'instant présent.
+- Retourne un objet date pour l'instant présent.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Tente de retourner la valeur fournie sous forme de nombre.
-- Les objets date sont retournés en millisecondes depuis l'époque Unix.
-- Les booléens retournent 1 ou 0.
-- Les chaînes de caractères sont analysées en nombre et retournent une erreur si le résultat est invalide.
+- Retourne les objets date en millisecondes depuis l'époque Unix.
+- Retourne les booléens sous forme de `1` ou `0`.
+- Analyse les chaînes de caractères en nombres, et retourne une erreur si la chaîne n'est pas un nombre valide.
 - Exemple : `number("3.4")` retourne `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Analyse une chaîne de caractères en tant que durée. Consultez la [[Syntaxe des Bases#Arithmétique des dates|section sur l'arithmétique des dates]] pour le format de la chaîne `value`.
-- Les durées n'ont pas besoin d'être explicitement analysées lors de l'arithmétique des dates (par exemple, `now() + '1d'`), mais elles doivent l'être lors de l'arithmétique sur les durées (par exemple, `now() + (duration('1d') * 2)`).
-- Lors de l'arithmétique entre durées et scalaires, la durée doit être à gauche. Par exemple `duration('5h') * 2`, au lieu de `2 * duration('5h')`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` retourne un objet date représentant la date actuelle. La partie horaire est mise à zéro.
+- Retourne un objet date pour la date actuelle. La partie horaire est mise à minuit.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` retourne un nombre aléatoire entre 0 et 1.
+- Retourne un nombre aléatoire entre 0 et 1.
 - La génération du nombre est actualisée à chaque chargement d'une vue. Naviguer entre les vues change le nombre aléatoire.
 
-## Quelconque
+## Type quelconque
 
 Fonctions utilisables avec n'importe quelle valeur. Cela inclut les chaînes de caractères (par ex. `"hello"`), les nombres (par ex. `42`), les listes (par ex. `[1,2,3]`), les objets, et plus encore.
 
@@ -171,7 +165,7 @@ Fonctions utilisables avec n'importe quelle valeur. Cela inclut les chaînes de 
 - Retourne la représentation sous forme de chaîne de caractères de n'importe quelle valeur.
 - Exemple : `123.toString()` retourne `"123"`.
 
-## Date
+## Type date
 
 Fonctions utilisables avec une date et une heure telles que `date("2025-05-27")`. Les comparaisons de dates peuvent être effectuées en utilisant l'[[Syntaxe des Bases#Arithmétique des dates|arithmétique des dates]].
 
@@ -194,7 +188,7 @@ Les champs suivants sont disponibles pour les dates :
 `date.date(): date`
 
 - Retourne un objet date sans la partie horaire.
-- Exemple : `now().date().format("YYYY-MM-DD HH:mm:ss")` retourne une chaîne telle que "2025-12-31 00:00:00"
+- Exemple : `now().date().format("YYYY-MM-DD HH:mm:ss")` retourne une chaîne telle que "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -208,8 +202,8 @@ Les champs suivants sont disponibles pour les dates :
 
 `date.time(): string`
 
-- Retourne l'heure.
-- Exemple : `now().time()` retourne une chaîne telle que "23:59:59"
+- Retourne la partie horaire sous forme de chaîne.
+- Exemple : `now().time()` retourne une chaîne telle que "23:59:59".
 
 ### `relative()`
 
@@ -224,7 +218,7 @@ Les champs suivants sont disponibles pour les dates :
 
 - Retourne false.
 
-## Chaîne de caractères
+## Type chaîne de caractères
 
 Fonctions utilisables avec une séquence de caractères telle que `"hello"`.
 
@@ -285,17 +279,18 @@ Fonctions utilisables avec une séquence de caractères telle que `"hello"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` est la valeur à rechercher dans la chaîne cible.
-- `replacement` est la valeur par laquelle remplacer les correspondances trouvées.
+- `replacement` est la valeur par laquelle remplacer les correspondances trouvées. Lorsque `pattern` est une Regexp, vous pouvez référencer les groupes de capture dans `replacement` en utilisant `$1`, `$2`, et ainsi de suite.
 - Si `pattern` est une chaîne de caractères, toutes les occurrences du motif seront remplacées.
 - Si `pattern` est une Regexp, le drapeau `g` détermine si seule la première ou toutes les occurrences sont remplacées.
-- Exemple : `""a:b:c:d".replace(/:/, "-")` retourne `"a-b,c,d"`, tandis que `"a:b:c:d".replace(/:/g, "-")` retourne `"a-b-c-d"`.
+- Exemple : `"a:b:c:d".replace(/:/, "-")` retourne `"a-b:c:d"`, tandis que `"a:b:c:d".replace(/:/g, "-")` retourne `"a-b-c-d"`.
+- Exemple avec des groupes de capture : `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` retourne `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` est le nombre de fois que la chaîne doit être répétée.
-- Exemple : `"123".repeat(2)` retourne `"123123"`
+- Exemple : `"123".repeat(2)` retourne `"123123"`.
 
 ### `reverse()`
 
@@ -345,7 +340,7 @@ Fonctions utilisables avec une séquence de caractères telle que `"hello"`.
 - Supprime les espaces aux deux extrémités de la chaîne.
 - Exemple : `"  hi  ".trim()` retourne `"hi"`.
 
-## Nombre
+## Type nombre
 
 Fonctions utilisables avec des valeurs numériques telles que `42`, `3.14`.
 
@@ -393,7 +388,7 @@ Fonctions utilisables avec des valeurs numériques telles que `42`, `3.14`.
 - Retourne une chaîne avec le nombre en notation à virgule fixe.
 - Exemple : `(3.14159).toFixed(2)` retourne `"3.14"`.
 
-## Liste
+## Type liste
 
 Fonctions utilisables avec une liste ordonnée d'éléments telle que `[1, 2, 3]`.
 
@@ -431,7 +426,7 @@ Fonctions utilisables avec une liste ordonnée d'éléments telle que `[1, 2, 3]
 
 `list.filter(value: Boolean): list`
 
-- Filtre les éléments de cette liste en appelant une fonction de filtre, qui utilise les variables `index` et `value`, et retourne une valeur booléenne indiquant si l'élément doit être conservé.
+- Filtre la liste et ne conserve que les éléments pour lesquels l'expression est vraie.
 - `value` est la valeur d'un élément de la liste.
 - `index` est l'index de la valeur courante.
 - Exemple : `[1,2,3,4].filter(value > 2)` retourne `[3,4]`.
@@ -462,7 +457,7 @@ Fonctions utilisables avec une liste ordonnée d'éléments telle que `[1, 2, 3]
 
 `list.map(value: Any): list`
 
-- Transforme chaque élément de cette liste en appelant une fonction de conversion, qui utilise les variables `index` et `value`, et retourne la nouvelle valeur à placer dans la liste.
+- Transforme chaque élément de la liste en utilisant une expression.
 - `value` est la valeur d'un élément de la liste.
 - `index` est l'index de la valeur courante.
 - Exemple : `[1,2,3,4].map(value + 1)` retourne `[2,3,4,5]`.
@@ -471,7 +466,7 @@ Fonctions utilisables avec une liste ordonnée d'éléments telle que `[1, 2, 3]
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Réduit les éléments de cette liste en une seule valeur en exécutant une expression pour chaque élément. L'expression peut utiliser les variables `index`, `value`, et `acc` (l'accumulateur), et doit retourner la valeur suivante de l'accumulateur.
+- Réduit la liste en une seule valeur en exécutant une expression pour chaque élément. L'expression doit retourner la valeur suivante de `acc`. Utilisez `value` pour l'élément courant, `index` pour sa position, et `acc` pour le résultat accumulé jusqu'à présent.
 - `expression` est évaluée pour chaque élément de la liste.
 - `value` est la valeur de l'élément courant dans la liste.
 - `index` est l'index de l'élément courant.
@@ -511,7 +506,7 @@ Fonctions utilisables avec une liste ordonnée d'éléments telle que `[1, 2, 3]
 - Supprime les éléments en double.
 - Exemple : `[1,2,2,3].unique()` retourne `[1,2,3]`.
 
-## Lien
+## Type lien
 
 Fonctions utilisables sur un lien. Les liens peuvent être créés à partir d'un fichier (`file.asLink()`) ou d'un chemin (`link("path")`).
 
@@ -520,15 +515,15 @@ Fonctions utilisables sur un lien. Les liens peuvent être créés à partir d'u
 `link.asFile(): file`
 
 - Retourne un objet fichier si le lien fait référence à un fichier local valide.
-- Exemple : `link("[[filename]]").asFile()`
+- Exemple : `link("[[filename]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Retourne si le fichier représenté par le `link` possède un lien vers `file`.
+- Retourne `true` si le fichier représenté par `link` possède un lien vers `file`.
 
-## Fichier
+## Type fichier
 
 Fonctions utilisables avec un fichier dans le coffre.
 
@@ -554,7 +549,7 @@ Les champs suivants sont disponibles pour les fichiers :
 
 `file.asLink(display?: string): Link`
 
-- `display` texte d'affichage optionnel pour le lien.
+- `display` est le texte d'affichage optionnel pour le lien.
 - Retourne un objet Link qui s'affiche comme un lien fonctionnel.
 - Exemple : `file.asLink()`
 
@@ -570,7 +565,7 @@ Les champs suivants sont disponibles pour les fichiers :
 
 `file.hasProperty(name: string): boolean`
 
-- Retourne true si la note possède la propriété de fichier donnée.
+- Retourne `true` si le fichier possède la propriété donnée.
 
 ### `hasTag()`
 
@@ -588,7 +583,7 @@ Les champs suivants sont disponibles pour les fichiers :
 - Retourne true si le fichier se trouve dans le dossier spécifié ou dans l'un de ses sous-dossiers.
 - Exemple : `file.inFolder("notes")` retourne `true`.
 
-## Objet
+## Type objet
 
 Fonctions utilisables avec une collection de paires clé-valeur telle que `{"a": 1, "b": 2}`.
 
@@ -611,7 +606,7 @@ Fonctions utilisables avec une collection de paires clé-valeur telle que `{"a":
 
 - Retourne une liste contenant les valeurs de l'objet.
 
-## Expression régulière
+## Type expression régulière
 
 Fonctions utilisables avec un motif d'expression régulière. Exemple : `/abc/`.
 

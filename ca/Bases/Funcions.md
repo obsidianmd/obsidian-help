@@ -6,17 +6,19 @@ description: Aquesta pàgina detalla les funcions utilitzades a Obsidian Bases p
 ---
 Les funcions s'utilitzen a [[Introducció a Bases|Bases]] per manipular dades de les [[Propietats|propietats]] en [[Vistes#Filtres|filtres]] i [[Fórmules|fórmules]]. Consulta la referència de [[Sintaxi de Bases|sintaxi de Bases]] per aprendre més sobre com pots utilitzar les funcions.
 
+Les funcions de Bases segueixen el comportament de JavaScript. Per a documentació de referència completa, consulta [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 A part de les funcions [[Funcions#Globals|Globals]], la majoria de funcions depenen del tipus de valor que vols modificar:
 
-- [[Funcions#Qualsevol|Qualsevol]]
-- [[Funcions#Data|Data]]
-- [[Funcions#Cadena de text|Cadena de text]]
-- [[Funcions#Número|Número]]
-- [[Funcions#Llista|Llista]]
-- [[Funcions#Enllaç|Enllaç]]
-- [[Funcions#Fitxer|Fitxer]]
-- [[Funcions#Objecte|Objecte]]
-- [[Funcions#Expressió regular|Expressió regular]]
+- [[Funcions#Tipus qualsevol|Qualsevol]]
+- [[Funcions#Tipus data|Data]]
+- [[Funcions#Tipus cadena de text|Cadena de text]]
+- [[Funcions#Tipus número|Número]]
+- [[Funcions#Tipus llista|Llista]]
+- [[Funcions#Tipus enllaç|Enllaç]]
+- [[Funcions#Tipus fitxer|Fitxer]]
+- [[Funcions#Tipus objecte|Objecte]]
+- [[Funcions#Tipus expressió regular|Expressió regular]]
 
 ## Globals
 
@@ -40,7 +42,7 @@ Les funcions globals s'utilitzen sense un tipus.
 `duration(value: string): duration`
 
 - Analitza una cadena com a durada. Consulta la [[Sintaxi de Bases#Aritmètica de dates|secció d'aritmètica de dates]] per al format de la cadena `value`.
-- Les durades no necessiten ser analitzades explícitament quan es fa aritmètica de dates (per exemple, `now() + '1d'`), però sí quan es fa aritmètica amb durades (per exemple, `now() + (duration('1d') * 2)`).
+- L'anàlisi explícita no és necessària per a l'aritmètica de dates (per exemple, `now() + '1d'`), però sí quan es fa aritmètica amb durades (per exemple, `now() + (duration('1d') * 2)`).
 - Quan es fa aritmètica amb durades i escalars, la durada ha d'estar a l'esquerra. Per exemple `duration('5h') * 2`, en lloc de `2 * duration('5h')`.
 
 ### `file()`
@@ -60,10 +62,10 @@ Les funcions globals s'utilitzen sense un tipus.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` és la condició a avaluar.
-- `trueResult` és el resultat si la condició és certa.
-- `falseResult` és el resultat opcional si la condició és falsa. Si no es proporciona, s'assumeix que és `null`.
-- Retorna `trueResult` si `condition` és cert, o és un valor vertader, o `falseResult` en cas contrari.
+- `condition` és l'expressió a avaluar.
+- `trueResult` és el resultat si `condition` és cert.
+- `falseResult` és el resultat opcional si `condition` és fals. Si s'omet, el valor per defecte és `null`.
+- Retorna `trueResult` si `condition` és cert o és un valor vertader, en cas contrari retorna `falseResult`.
 - Exemple: `if(isModified, "Modificat", "No modificat")`
 
 ### `image()`
@@ -71,7 +73,7 @@ Les funcions globals s'utilitzen sense un tipus.
 `image(path: string | file | url): image`
 
 - Retorna un objecte d'imatge que renderitza la imatge a la vista.
-- Exemple: `image(propietat-imatge)` o `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Exemple: `image(propietat-imatge)` o `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Les funcions globals s'utilitzen sense un tipus.
 `link(path: string | file, display?: value): Link`
 
 - Analitza una cadena `path` i retorna un objecte Link que es renderitza com un enllaç a la ruta donada.
-- Opcionalment proporciona el paràmetre `display` per canviar el text que mostra l'enllaç.
+- Opcionalment proporciona el paràmetre `display` per establir el text de visualització de l'enllaç.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Les funcions globals s'utilitzen sense un tipus.
 
 - Si l'element proporcionat és una llista, el retorna sense modificar.
 - En cas contrari, embolcalla l'`element` proporcionat en una llista, creant una llista amb un sol element.
-- Aquesta funció pot ser útil quan una propietat conté una barreja de cadenes o llistes a la cambra forta.
+- Utilitza aquesta funció quan una propietat conté una barreja de cadenes o llistes a la cambra forta.
 - Exemple: `list("valor")` retorna `["valor"]`.
 
 ### `max()`
@@ -112,40 +114,32 @@ Les funcions globals s'utilitzen sense un tipus.
 
 `now(): date`
 
-- `now()` retorna un objecte de data que representa el moment actual.
+- Retorna un objecte de data per al moment actual.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Intenta retornar el valor proporcionat com un número.
-- Els objectes de data es retornaran com a mil·lisegons des de l'epoch Unix.
-- Els booleans retornaran 1 o 0.
-- Les cadenes s'analitzaran com a número i retornaran un error si el resultat és invàlid.
-- Exemple, `number("3.4")` retorna `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Analitza una cadena com a durada. Consulta la [[Sintaxi de Bases#Aritmètica de dates|secció d'aritmètica de dates]] per al format de la cadena `value`.
-- Les durades no necessiten ser analitzades explícitament quan es fa aritmètica de dates (per exemple, `now() + '1d'`), però sí quan es fa aritmètica amb durades (per exemple, `now() + (duration('1d') * 2)`).
-- Quan es fa aritmètica amb durades i escalars, la durada ha d'estar a l'esquerra. Per exemple `duration('5h') * 2`, en lloc de `2 * duration('5h')`.
+- Retorna els objectes de data com a mil·lisegons des de l'epoch Unix.
+- Retorna els booleans com a `1` o `0`.
+- Analitza les cadenes com a números i retorna un error si la cadena no és un número vàlid.
+- Exemple: `number("3.4")` retorna `3.4`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` retorna un objecte de data que representa la data actual. La part de l'hora s'estableix a zero.
+- Retorna un objecte de data per a la data actual. La part de l'hora s'estableix a mitjanit.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` retorna un número aleatori entre 0 i 1.
+- Retorna un número aleatori entre 0 i 1.
 - La generació del número s'actualitza cada cop que es carrega una vista. Navegar entre vistes canvia el número aleatori.
 
-## Qualsevol
+## Tipus qualsevol
 
 Funcions que pots utilitzar amb qualsevol valor. Això inclou cadenes de text (p. ex. `"hola"`), números (p. ex. `42`), llistes (p. ex. `[1,2,3]`), objectes, i més.
 
@@ -170,7 +164,7 @@ Funcions que pots utilitzar amb qualsevol valor. Això inclou cadenes de text (p
 - Retorna la representació en cadena de text de qualsevol valor.
 - Exemple: `123.toString()` retorna `"123"`.
 
-## Data
+## Tipus data
 
 Funcions que pots utilitzar amb una data i hora com `date("2025-05-27")`. Les comparacions de dates es poden fer utilitzant l'[[Sintaxi de Bases#Aritmètica de dates|aritmètica de dates]].
 
@@ -193,7 +187,7 @@ Els camps següents estan disponibles per a dates:
 `date.date(): date`
 
 - Retorna un objecte de data amb l'hora eliminada.
-- Exemple: `now().date().format("YYYY-MM-DD HH:mm:ss")` retorna una cadena com "2025-12-31 00:00:00"
+- Exemple: `now().date().format("YYYY-MM-DD HH:mm:ss")` retorna una cadena com "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -207,8 +201,8 @@ Els camps següents estan disponibles per a dates:
 
 `date.time(): string`
 
-- Retorna l'hora.
-- Exemple: `now().time()` retorna una cadena com "23:59:59"
+- Retorna la part de l'hora com a cadena.
+- Exemple: `now().time()` retorna una cadena com "23:59:59".
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ Els camps següents estan disponibles per a dates:
 
 - Retorna fals.
 
-## Cadena de text
+## Tipus cadena de text
 
 Funcions que pots utilitzar amb una seqüència de caràcters com `"hola"`.
 
@@ -284,17 +278,18 @@ Funcions que pots utilitzar amb una seqüència de caràcters com `"hola"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` és el valor a cercar a la cadena objectiu.
-- `replacement` és el valor amb el qual substituir els patrons trobats.
+- `replacement` és el valor amb el qual substituir els patrons trobats. Quan `pattern` és una Regexp, pots referenciar grups de captura a `replacement` utilitzant `$1`, `$2`, etc.
 - Si `pattern` és una cadena, totes les ocurrències del patró seran substituïdes.
 - Si `pattern` és una Regexp, el flag `g` determina si només la primera o totes les ocurrències són substituïdes.
-- Exemple: `""a:b:c:d".replace(/:/, "-")` retorna `"a-b,c,d"`, mentre que `"a:b:c:d".replace(/:/g, "-")` retorna `"a-b-c-d"`.
+- Exemple: `"a:b:c:d".replace(/:/, "-")` retorna `"a-b:c:d"`, mentre que `"a:b:c:d".replace(/:/g, "-")` retorna `"a-b-c-d"`.
+- Exemple amb grups de captura: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` retorna `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` és el nombre de vegades que es repeteix la cadena.
-- Exemple: `"123".repeat(2)` retorna `"123123"`
+- Exemple: `"123".repeat(2)` retorna `"123123"`.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Funcions que pots utilitzar amb una seqüència de caràcters com `"hola"`.
 - Elimina els espais en blanc dels dos extrems de la cadena.
 - Exemple: `"  hi  ".trim()` retorna `"hi"`.
 
-## Número
+## Tipus número
 
 Funcions que pots utilitzar amb valors numèrics com `42`, `3.14`.
 
@@ -381,7 +376,7 @@ Funcions que pots utilitzar amb valors numèrics com `42`, `3.14`.
 `number.round(digits: number): number`
 
 - Arrodoneix el número al nombre enter més proper.
-- Opcionalment, proporciona un paràmetre `digits` per arrodonir a aquest nombre de dígits decimals.
+- Opcionalment, proporciona un paràmetre `digits` per arrodonir a aquest nombre de decimals.
 - Exemple: `(2.5).round()` retorna `3`, i `(2.3333).round(2)` retorna `2.33`.
 
 ### `toFixed()`
@@ -392,7 +387,7 @@ Funcions que pots utilitzar amb valors numèrics com `42`, `3.14`.
 - Retorna una cadena amb el número en notació de punt fix.
 - Exemple: `(3.14159).toFixed(2)` retorna `"3.14"`.
 
-## Llista
+## Tipus llista
 
 Funcions que pots utilitzar amb una llista ordenada d'elements com `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Funcions que pots utilitzar amb una llista ordenada d'elements com `[1, 2, 3]`.
 
 `list.filter(value: Boolean): list`
 
-- Filtra els elements d'aquesta llista cridant una funció de filtre, que utilitza les variables `index` i `value`, i retorna un valor booleà indicant si l'element s'ha de mantenir.
+- Filtra la llista i manté només els elements on l'expressió és certa.
 - `value` és el valor d'un element de la llista.
 - `index` és l'índex del valor actual.
 - Exemple: `[1,2,3,4].filter(value > 2)` retorna `[3,4]`.
@@ -439,7 +434,7 @@ Funcions que pots utilitzar amb una llista ordenada d'elements com `[1, 2, 3]`.
 
 `list.flat(): list`
 
-- Aplana llistes imbricades en una sola llista.
+- Aplana una llista imbricada en una sola llista.
 - Exemple: `[1,[2,3]].flat()` retorna `[1,2,3]`.
 
 ### `isEmpty()`
@@ -461,7 +456,7 @@ Funcions que pots utilitzar amb una llista ordenada d'elements com `[1, 2, 3]`.
 
 `list.map(value: Any): list`
 
-- Transforma cada element d'aquesta llista cridant una funció de conversió, que utilitza les variables `index` i `value`, i retorna el nou valor a col·locar a la llista.
+- Transforma cada element de la llista utilitzant una expressió.
 - `value` és el valor d'un element de la llista.
 - `index` és l'índex del valor actual.
 - Exemple: `[1,2,3,4].map(value + 1)` retorna `[2,3,4,5]`.
@@ -470,7 +465,7 @@ Funcions que pots utilitzar amb una llista ordenada d'elements com `[1, 2, 3]`.
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Redueix els elements d'aquesta llista a un sol valor executant una expressió per a cada element. L'expressió pot utilitzar les variables `index`, `value` i `acc` (l'acumulador), i ha de retornar el següent valor de l'acumulador.
+- Redueix la llista a un sol valor executant una expressió per a cada element. L'expressió ha de retornar el següent valor d'`acc`. Utilitza `value` per a l'element actual, `index` per a la seva posició, i `acc` per al resultat acumulat fins ara.
 - `expression` s'avalua per a cada element de la llista.
 - `value` és el valor de l'element actual de la llista.
 - `index` és l'índex de l'element actual.
@@ -510,7 +505,7 @@ Funcions que pots utilitzar amb una llista ordenada d'elements com `[1, 2, 3]`.
 - Elimina els elements duplicats.
 - Exemple: `[1,2,2,3].unique()` retorna `[1,2,3]`.
 
-## Enllaç
+## Tipus enllaç
 
 Funcions que pots utilitzar en un enllaç. Els enllaços es poden crear a partir d'un fitxer (`file.asLink()`) o una ruta (`link("ruta")`).
 
@@ -519,17 +514,17 @@ Funcions que pots utilitzar en un enllaç. Els enllaços es poden crear a partir
 `link.asFile(): file`
 
 - Retorna un objecte de fitxer si l'enllaç fa referència a un fitxer local vàlid.
-- Exemple: `link("[[nom_fitxer]]").asFile()`
+- Exemple: `link("[[nom_fitxer]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Retorna si el fitxer representat per l'`link` té un enllaç cap a `file`.
+- Retorna `true` si el fitxer representat per `link` té un enllaç cap a `file`.
 
-## Fitxer
+## Tipus fitxer
 
-Funcions que pots utilitzar amb fitxers de la cambra forta.
+Funcions que pots utilitzar amb un fitxer de la cambra forta.
 
 ### Camps
 
@@ -553,7 +548,7 @@ Els camps següents estan disponibles per a fitxers:
 
 `file.asLink(display?: string): Link`
 
-- `display` text de visualització opcional per a l'enllaç.
+- `display` és el text de visualització opcional per a l'enllaç.
 - Retorna un objecte Link que es renderitza com un enllaç funcional.
 - Exemple: `file.asLink()`
 
@@ -569,7 +564,7 @@ Els camps següents estan disponibles per a fitxers:
 
 `file.hasProperty(name: string): boolean`
 
-- Retorna cert si la nota té la propietat de fitxer donada.
+- Retorna `true` si el fitxer té la propietat donada.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ Els camps següents estan disponibles per a fitxers:
 - Retorna cert si el fitxer es troba a la carpeta especificada o en una de les seves subcarpetes.
 - Exemple: `file.inFolder("notes")` retorna `true`.
 
-## Objecte
+## Tipus objecte
 
 Funcions que pots utilitzar amb una col·lecció de parells clau-valor com `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Funcions que pots utilitzar amb una col·lecció de parells clau-valor com `{"a"
 
 - Retorna una llista que conté els valors de l'objecte.
 
-## Expressió regular
+## Tipus expressió regular
 
 Funcions que pots utilitzar amb un patró d'expressió regular. Exemple: `/abc/`.
 

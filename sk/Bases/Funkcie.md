@@ -6,17 +6,19 @@ description: Táto stránka podrobne opisuje funkcie používané v Obsidian Bas
 ---
 Funkcie sa používajú v [[Úvod do Databáz|Databázach]] na manipuláciu s dátami z [[Vlastnosti|vlastností]] vo [[Zobrazenia#Filtre|filtroch]] a [[Vzorce|vzorcoch]]. Pozrite si referenciu [[Syntax Databáz|syntaxe databáz]], kde sa dozviete viac o tom, ako môžete funkcie používať.
 
+Funkcie databáz sa riadia správaním JavaScriptu. Kompletnú referenčnú dokumentáciu nájdete na [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Okrem [[Funkcie#Globálne|globálnych]] funkcií väčšina funkcií závisí od typu hodnoty, ktorú chcete upraviť:
 
-- [[Funkcie#Any|Any]]
-- [[Funkcie#Dátum|Dátum]]
-- [[Funkcie#Reťazec|Reťazec]]
-- [[Funkcie#Číslo|Číslo]]
-- [[Funkcie#Zoznam|Zoznam]]
-- [[Funkcie#Odkaz|Odkaz]]
-- [[Funkcie#Súbor|Súbor]]
-- [[Funkcie#Objekt|Objekt]]
-- [[Funkcie#Regulárny výraz|Regulárny výraz]]
+- [[Funkcie#Typ Any|Any]]
+- [[Funkcie#Typ Dátum|Dátum]]
+- [[Funkcie#Typ Reťazec|Reťazec]]
+- [[Funkcie#Typ Číslo|Číslo]]
+- [[Funkcie#Typ Zoznam|Zoznam]]
+- [[Funkcie#Typ Odkaz|Odkaz]]
+- [[Funkcie#Typ Súbor|Súbor]]
+- [[Funkcie#Typ Objekt|Objekt]]
+- [[Funkcie#Typ Regulárny výraz|Regulárny výraz]]
 
 ## Globálne
 
@@ -40,7 +42,7 @@ Globálne funkcie sa používajú bez typu.
 `duration(value: string): duration`
 
 - Parsuje reťazec ako trvanie. Pozrite si [[Syntax Databáz#Dátumová aritmetika|sekciu dátumovej aritmetiky]] pre formát reťazca `value`.
-- Trvanie nemusí byť explicitne parsované pri vykonávaní dátumovej aritmetiky (napríklad `now() + '1d'`), ale musí byť parsované pri vykonávaní aritmetiky s trvaniami (napríklad `now() + (duration('1d') * 2)`).
+- Explicitné parsovanie nie je potrebné pri dátumovej aritmetike (napríklad `now() + '1d'`), ale je potrebné pri vykonávaní aritmetiky s trvaniami (napríklad `now() + (duration('1d') * 2)`).
 - Pri vykonávaní aritmetiky trvaní so skalármi musí byť trvanie na ľavej strane. Napríklad `duration('5h') * 2` namiesto `2 * duration('5h')`.
 
 ### `file()`
@@ -60,10 +62,10 @@ Globálne funkcie sa používajú bez typu.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` je podmienka na vyhodnotenie.
-- `trueResult` je výstup, ak je podmienka pravdivá.
-- `falseResult` je voliteľný výstup, ak je podmienka nepravdivá. Ak nie je zadaný, predpokladá sa `null`.
-- Vráti `trueResult`, ak je `condition` pravdivá, alebo je pravdivá hodnota, inak `falseResult`.
+- `condition` je výraz na vyhodnotenie.
+- `trueResult` je výstup, ak je `condition` pravdivá.
+- `falseResult` je voliteľný výstup, ak je `condition` nepravdivá. Ak je vynechaný, predvolená hodnota je `null`.
+- Vráti `trueResult`, ak je `condition` pravdivá alebo je pravdivá hodnota, inak vráti `falseResult`.
 - Príklad: `if(isModified, "Modified", "Unmodified")`
 
 ### `image()`
@@ -71,7 +73,7 @@ Globálne funkcie sa používajú bez typu.
 `image(path: string | file | url): image`
 
 - Vráti objekt obrázka, ktorý vykreslí obrázok v zobrazení.
-- Príklad: `image(image-property)` alebo `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Príklad: `image(image-property)` alebo `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Globálne funkcie sa používajú bez typu.
 `link(path: string | file, display?: value): Link`
 
 - Parsuje reťazec `path` a vráti objekt Link, ktorý sa vykreslí ako odkaz na danú cestu.
-- Voliteľne zadajte parameter `display` na zmenu zobrazeného textu odkazu.
+- Voliteľne zadajte parameter `display` na nastavenie zobrazeného textu odkazu.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Globálne funkcie sa používajú bez typu.
 
 - Ak je poskytnutý element zoznam, vráti ho bez zmeny.
 - Inak zabalí poskytnutý `element` do zoznamu, čím vytvorí zoznam s jedným prvkom.
-- Táto funkcia môže byť užitočná, keď vlastnosť obsahuje v trezore zmes reťazcov alebo zoznamov.
+- Použite túto funkciu, keď vlastnosť obsahuje v trezore zmes reťazcov alebo zoznamov.
 - Príklad: `list("value")` vráti `["value"]`.
 
 ### `max()`
@@ -112,40 +114,32 @@ Globálne funkcie sa používajú bez typu.
 
 `now(): date`
 
-- `now()` vráti objekt dátumu predstavujúci aktuálny moment.
+- Vráti objekt dátumu pre aktuálny moment.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Pokúsi sa vrátiť poskytnutú hodnotu ako číslo.
-- Objekty dátumu budú vrátené ako milisekundy od unixovej epochy.
-- Booleovské hodnoty vrátia 1 alebo 0.
-- Reťazce budú parsované na číslo a vrátia chybu, ak je výsledok neplatný.
+- Vráti objekty dátumu ako milisekundy od unixovej epochy.
+- Vráti booleovské hodnoty ako `1` alebo `0`.
+- Parsuje reťazce ako čísla a vráti chybu, ak reťazec nie je platné číslo.
 - Príklad: `number("3.4")` vráti `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Parsuje reťazec ako trvanie. Pozrite si [[Syntax Databáz#Dátumová aritmetika|sekciu dátumovej aritmetiky]] pre formát reťazca `value`.
-- Trvanie nemusí byť explicitne parsované pri vykonávaní dátumovej aritmetiky (napríklad `now() + '1d'`), ale musí byť parsované pri vykonávaní aritmetiky s trvaniami (napríklad `now() + (duration('1d') * 2)`).
-- Pri vykonávaní aritmetiky trvaní so skalármi musí byť trvanie na ľavej strane. Napríklad `duration('5h') * 2` namiesto `2 * duration('5h')`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` vráti objekt dátumu predstavujúci aktuálny dátum. Časová časť je nastavená na nulu.
+- Vráti objekt dátumu pre aktuálny dátum. Časová časť je nastavená na polnoc.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` vráti náhodné číslo medzi 0 a 1.
+- Vráti náhodné číslo medzi 0 a 1.
 - Generovanie čísla sa obnoví vždy, keď sa načíta zobrazenie. Navigácia medzi zobrazeniami zmení náhodné číslo.
 
-## Any
+## Typ Any
 
 Funkcie, ktoré môžete použiť s akoukoľvek hodnotou. To zahŕňa reťazce (napr. `"hello"`), čísla (napr. `42`), zoznamy (napr. `[1,2,3]`), objekty a ďalšie.
 
@@ -170,7 +164,7 @@ Funkcie, ktoré môžete použiť s akoukoľvek hodnotou. To zahŕňa reťazce (
 - Vráti reťazcovú reprezentáciu akejkoľvek hodnoty.
 - Príklad: `123.toString()` vráti `"123"`.
 
-## Dátum
+## Typ Dátum
 
 Funkcie, ktoré môžete použiť s dátumom a časom, ako napríklad `date("2025-05-27")`. Porovnávanie dátumov je možné pomocou [[Syntax Databáz#Dátumová aritmetika|dátumovej aritmetiky]].
 
@@ -193,7 +187,7 @@ Pre dátumy sú dostupné nasledujúce polia:
 `date.date(): date`
 
 - Vráti objekt dátumu s odstráneným časom.
-- Príklad: `now().date().format("YYYY-MM-DD HH:mm:ss")` vráti reťazec ako "2025-12-31 00:00:00"
+- Príklad: `now().date().format("YYYY-MM-DD HH:mm:ss")` vráti reťazec ako "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -207,8 +201,8 @@ Pre dátumy sú dostupné nasledujúce polia:
 
 `date.time(): string`
 
-- Vráti čas.
-- Príklad: `now().time()` vráti reťazec ako "23:59:59"
+- Vráti časovú časť ako reťazec.
+- Príklad: `now().time()` vráti reťazec ako "23:59:59".
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ Pre dátumy sú dostupné nasledujúce polia:
 
 - Vráti false.
 
-## Reťazec
+## Typ Reťazec
 
 Funkcie, ktoré môžete použiť s postupnosťou znakov, ako napríklad `"hello"`.
 
@@ -284,17 +278,18 @@ Funkcie, ktoré môžete použiť s postupnosťou znakov, ako napríklad `"hello
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` je hodnota na vyhľadanie v cieľovom reťazci.
-- `replacement` je hodnota, ktorou sa nahradia nájdené vzory.
+- `replacement` je hodnota, ktorou sa nahradia nájdené vzory. Keď je `pattern` Regexp, môžete v `replacement` odkazovať na zachytené skupiny pomocou `$1`, `$2` atď.
 - Ak je `pattern` reťazec, budú nahradené všetky výskyty vzoru.
 - Ak je `pattern` Regexp, príznak `g` určuje, či sa nahradí iba prvý alebo všetky výskyty.
-- Príklad: `""a:b:c:d".replace(/:/, "-")` vráti `"a-b,c,d"`, zatiaľ čo `"a:b:c:d".replace(/:/g, "-")` vráti `"a-b-c-d"`.
+- Príklad: `"a:b:c:d".replace(/:/, "-")` vráti `"a-b:c:d"`, zatiaľ čo `"a:b:c:d".replace(/:/g, "-")` vráti `"a-b-c-d"`.
+- Príklad so zachytenými skupinami: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` vráti `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` je počet opakovaní reťazca.
-- Príklad: `"123".repeat(2)` vráti `"123123"`
+- Príklad: `"123".repeat(2)` vráti `"123123"`.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Funkcie, ktoré môžete použiť s postupnosťou znakov, ako napríklad `"hello
 - Odstráni medzery z oboch koncov reťazca.
 - Príklad: `"  hi  ".trim()` vráti `"hi"`.
 
-## Číslo
+## Typ Číslo
 
 Funkcie, ktoré môžete použiť s číselnými hodnotami, ako napríklad `42`, `3.14`.
 
@@ -392,7 +387,7 @@ Funkcie, ktoré môžete použiť s číselnými hodnotami, ako napríklad `42`,
 - Vráti reťazec s číslom v zápise s pevnou desatinnou čiarkou.
 - Príklad: `(3.14159).toFixed(2)` vráti `"3.14"`.
 
-## Zoznam
+## Typ Zoznam
 
 Funkcie, ktoré môžete použiť s usporiadaným zoznamom prvkov, ako napríklad `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Funkcie, ktoré môžete použiť s usporiadaným zoznamom prvkov, ako napríkla
 
 `list.filter(value: Boolean): list`
 
-- Filtruje prvky tohto zoznamu volaním filtrovacej funkcie, ktorá používa premenné `index` a `value` a vracia booleovskú hodnotu, či má byť prvok ponechaný.
+- Filtruje zoznam a ponechá iba prvky, kde je výraz pravdivý.
 - `value` je hodnota položky v zozname.
 - `index` je index aktuálnej hodnoty.
 - Príklad: `[1,2,3,4].filter(value > 2)` vráti `[3,4]`.
@@ -461,7 +456,7 @@ Funkcie, ktoré môžete použiť s usporiadaným zoznamom prvkov, ako napríkla
 
 `list.map(value: Any): list`
 
-- Transformuje každý prvok tohto zoznamu volaním konverznej funkcie, ktorá používa premenné `index` a `value` a vracia novú hodnotu, ktorá sa umiestni do zoznamu.
+- Transformuje každý prvok zoznamu pomocou výrazu.
 - `value` je hodnota položky v zozname.
 - `index` je index aktuálnej hodnoty.
 - Príklad: `[1,2,3,4].map(value + 1)` vráti `[2,3,4,5]`.
@@ -470,7 +465,7 @@ Funkcie, ktoré môžete použiť s usporiadaným zoznamom prvkov, ako napríkla
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Redukuje prvky tohto zoznamu na jednu hodnotu spustením výrazu pre každý prvok. Výraz môže používať premenné `index`, `value` a `acc` (akumulátor) a mal by vrátiť nasledujúcu hodnotu akumulátora.
+- Redukuje zoznam na jednu hodnotu spustením výrazu pre každý prvok. Výraz musí vrátiť nasledujúcu hodnotu `acc`. Použite `value` pre aktuálny prvok, `index` pre jeho pozíciu a `acc` pre doteraz akumulovaný výsledok.
 - `expression` sa vyhodnotí pre každý prvok v zozname.
 - `value` je hodnota aktuálnej položky v zozname.
 - `index` je index aktuálnej položky.
@@ -510,7 +505,7 @@ Funkcie, ktoré môžete použiť s usporiadaným zoznamom prvkov, ako napríkla
 - Odstráni duplicitné prvky.
 - Príklad: `[1,2,2,3].unique()` vráti `[1,2,3]`.
 
-## Odkaz
+## Typ Odkaz
 
 Funkcie, ktoré môžete použiť na odkaz. Odkazy je možné vytvoriť zo súboru (`file.asLink()`) alebo z cesty (`link("path")`).
 
@@ -519,15 +514,15 @@ Funkcie, ktoré môžete použiť na odkaz. Odkazy je možné vytvoriť zo súbo
 `link.asFile(): file`
 
 - Vráti objekt súboru, ak odkaz odkazuje na platný lokálny súbor.
-- Príklad: `link("[[filename]]").asFile()`
+- Príklad: `link("[[filename]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Vráti, či súbor reprezentovaný `link` má odkaz na `file`.
+- Vráti `true`, ak súbor reprezentovaný `link` má odkaz na `file`.
 
-## Súbor
+## Typ Súbor
 
 Funkcie, ktoré môžete použiť so súborom v trezore.
 
@@ -553,7 +548,7 @@ Pre súbory sú dostupné nasledujúce polia:
 
 `file.asLink(display?: string): Link`
 
-- `display` voliteľný zobrazený text pre odkaz.
+- `display` je voliteľný zobrazený text pre odkaz.
 - Vráti objekt Link, ktorý sa vykreslí ako funkčný odkaz.
 - Príklad: `file.asLink()`
 
@@ -569,7 +564,7 @@ Pre súbory sú dostupné nasledujúce polia:
 
 `file.hasProperty(name: string): boolean`
 
-- Vráti true, ak poznámka má danú vlastnosť súboru.
+- Vráti `true`, ak súbor má danú vlastnosť.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ Pre súbory sú dostupné nasledujúce polia:
 - Vráti true, ak sa súbor nachádza v zadanom priečinku alebo v jednom z jeho podpriečinkov.
 - Príklad: `file.inFolder("notes")` vráti `true`.
 
-## Objekt
+## Typ Objekt
 
 Funkcie, ktoré môžete použiť s kolekciou párov kľúč-hodnota, ako napríklad `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Funkcie, ktoré môžete použiť s kolekciou párov kľúč-hodnota, ako naprí
 
 - Vráti zoznam obsahujúci hodnoty objektu.
 
-## Regulárny výraz
+## Typ Regulárny výraz
 
 Funkcie, ktoré môžete použiť so vzorom regulárneho výrazu. Príklad: `/abc/`.
 

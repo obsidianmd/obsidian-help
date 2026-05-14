@@ -8,17 +8,19 @@ aliases:
 ---
 Le funzioni vengono utilizzate in [[Introduzione a Base|Base]] per manipolare i dati dalle [[Proprietà|proprietà]] nei [[Viste#Filtri|filtri]] e nelle [[Formule|formule]]. Consulta il riferimento alla [[Sintassi di Base|sintassi delle Base]] per scoprire di più su come puoi utilizzare le funzioni.
 
+Le funzioni di Base seguono il comportamento di JavaScript. Per la documentazione di riferimento completa, consulta [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Oltre alle funzioni [[Funzioni#Globali|Globali]], la maggior parte delle funzioni dipende dal tipo di valore che vuoi modificare:
 
-- [[Funzioni#Qualsiasi|Qualsiasi]]
-- [[Funzioni#Data|Data]]
-- [[Funzioni#Stringa|Stringa]]
-- [[Funzioni#Numero|Numero]]
-- [[Funzioni#Elenco|Elenco]]
-- [[Funzioni#Collegamento|Collegamento]]
-- [[Funzioni#File|File]]
-- [[Funzioni#Oggetto|Oggetto]]
-- [[Funzioni#Espressione regolare|Espressione regolare]]
+- [[Funzioni#Tipo qualsiasi|Qualsiasi]]
+- [[Funzioni#Tipo data|Data]]
+- [[Funzioni#Tipo stringa|Stringa]]
+- [[Funzioni#Tipo numero|Numero]]
+- [[Funzioni#Tipo elenco|Elenco]]
+- [[Funzioni#Tipo collegamento|Collegamento]]
+- [[Funzioni#Tipo file|File]]
+- [[Funzioni#Tipo oggetto|Oggetto]]
+- [[Funzioni#Tipo espressione regolare|Espressione regolare]]
 
 ## Globali
 
@@ -42,7 +44,7 @@ Le funzioni globali vengono utilizzate senza un tipo.
 `duration(value: string): duration`
 
 - Analizza una stringa come durata. Consulta la [[Sintassi di Base#Aritmetica delle date|sezione sull'aritmetica delle date]] per il formato della stringa `value`.
-- Le durate non devono essere analizzate esplicitamente quando si eseguono operazioni aritmetiche sulle date (ad esempio, `now() + '1d'`), ma devono esserlo quando si eseguono operazioni aritmetiche sulle durate (ad esempio, `now() + (duration('1d') * 2)`).
+- L'analisi esplicita non è necessaria per l'aritmetica delle date (ad esempio, `now() + '1d'`), ma è necessaria quando si eseguono operazioni aritmetiche sulle durate (ad esempio, `now() + (duration('1d') * 2)`).
 - Quando si eseguono operazioni aritmetiche sulle durate con scalari, la durata deve essere a sinistra. Ad esempio `duration('5h') * 2`, anziché `2 * duration('5h')`.
 
 ### `file()`
@@ -62,18 +64,18 @@ Le funzioni globali vengono utilizzate senza un tipo.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` è la condizione da valutare.
-- `trueResult` è il risultato se la condizione è vera.
-- `falseResult` è il risultato opzionale se la condizione è falsa. Se non viene fornito, viene considerato `null`.
-- Restituisce `trueResult` se `condition` è vera, o è un valore truthy, altrimenti restituisce `falseResult`.
+- `condition` è l'espressione da valutare.
+- `trueResult` è il risultato se `condition` è vera.
+- `falseResult` è il risultato opzionale se `condition` è falsa. Se omesso, il valore predefinito è `null`.
+- Restituisce `trueResult` se `condition` è vera o truthy, altrimenti restituisce `falseResult`.
 - Esempio: `if(isModified, "Modificato", "Non modificato")`
 
 ### `image()`
 
 `image(path: string | file | url): image`
 
-- Restituisce un oggetto immagine che renderizzerà l'immagine nella vista.
-- Esempio: `image(proprietà-immagine)` oppure `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Restituisce un oggetto immagine che renderizza l'immagine nella vista.
+- Esempio: `image(proprietà-immagine)` oppure `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -87,7 +89,7 @@ Le funzioni globali vengono utilizzate senza un tipo.
 `link(path: string | file, display?: value): Link`
 
 - Analizza una stringa `path` e restituisce un oggetto Link che viene renderizzato come collegamento al percorso specificato.
-- Opzionalmente fornisci il parametro `display` per modificare il testo visualizzato dal collegamento.
+- Opzionalmente fornisci il parametro `display` per impostare il testo visualizzato dal collegamento.
 
 ### `list()`
 
@@ -95,7 +97,7 @@ Le funzioni globali vengono utilizzate senza un tipo.
 
 - Se l'elemento fornito è un elenco, lo restituisce senza modifiche.
 - Altrimenti, racchiude l'`element` fornito in un elenco, creando un elenco con un singolo elemento.
-- Questa funzione può essere utile quando una proprietà contiene un mix di stringhe o elenchi nella cassaforte.
+- Usa questa funzione quando una proprietà contiene un mix di stringhe o elenchi nel vault.
 - Esempio: `list("valore")` restituisce `["valore"]`.
 
 ### `max()`
@@ -114,40 +116,32 @@ Le funzioni globali vengono utilizzate senza un tipo.
 
 `now(): date`
 
-- `now()` restituisce un oggetto data che rappresenta il momento corrente.
+- Restituisce un oggetto data per il momento corrente.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Tenta di restituire il valore fornito come numero.
-- Gli oggetti data vengono restituiti come millisecondi dall'epoca unix.
-- I booleani restituiscono 1 o 0.
-- Le stringhe vengono analizzate come numero e restituiscono un errore se il risultato non è valido.
+- Restituisce gli oggetti data come millisecondi dall'epoca Unix.
+- Restituisce i booleani come `1` o `0`.
+- Analizza le stringhe come numeri e restituisce un errore se la stringa non è un numero valido.
 - Esempio: `number("3.4")` restituisce `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Analizza una stringa come durata. Consulta la [[Sintassi di Base#Aritmetica delle date|sezione sull'aritmetica delle date]] per il formato della stringa `value`.
-- Le durate non devono essere analizzate esplicitamente quando si eseguono operazioni aritmetiche sulle date (ad esempio, `now() + '1d'`), ma devono esserlo quando si eseguono operazioni aritmetiche sulle durate (ad esempio, `now() + (duration('1d') * 2)`).
-- Quando si eseguono operazioni aritmetiche sulle durate con scalari, la durata deve essere a sinistra. Ad esempio `duration('5h') * 2`, anziché `2 * duration('5h')`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` restituisce un oggetto data che rappresenta la data corrente. La parte relativa all'ora è impostata a zero.
+- Restituisce un oggetto data per la data corrente. La parte relativa all'ora è impostata a mezzanotte.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` restituisce un numero casuale compreso tra 0 e 1.
+- Restituisce un numero casuale compreso tra 0 e 1.
 - La generazione del numero viene aggiornata ogni volta che una vista viene caricata. Navigare tra le viste cambia il numero casuale.
 
-## Qualsiasi
+## Tipo qualsiasi
 
 Funzioni che puoi utilizzare con qualsiasi valore. Questo include stringhe (es. `"ciao"`), numeri (es. `42`), elenchi (es. `[1,2,3]`), oggetti e altro.
 
@@ -172,7 +166,7 @@ Funzioni che puoi utilizzare con qualsiasi valore. Questo include stringhe (es. 
 - Restituisce la rappresentazione come stringa di qualsiasi valore.
 - Esempio: `123.toString()` restituisce `"123"`.
 
-## Data
+## Tipo data
 
 Funzioni che puoi utilizzare con una data e ora come `date("2025-05-27")`. I confronti tra date possono essere effettuati utilizzando l'[[Sintassi di Base#Aritmetica delle date|aritmetica delle date]].
 
@@ -195,7 +189,7 @@ I seguenti campi sono disponibili per le date:
 `date.date(): date`
 
 - Restituisce un oggetto data con l'ora rimossa.
-- Esempio: `now().date().format("YYYY-MM-DD HH:mm:ss")` restituisce una stringa come "2025-12-31 00:00:00"
+- Esempio: `now().date().format("YYYY-MM-DD HH:mm:ss")` restituisce una stringa come "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -209,8 +203,8 @@ I seguenti campi sono disponibili per le date:
 
 `date.time(): string`
 
-- Restituisce l'ora.
-- Esempio: `now().time()` restituisce una stringa come "23:59:59"
+- Restituisce la parte relativa all'ora come stringa.
+- Esempio: `now().time()` restituisce una stringa come "23:59:59".
 
 ### `relative()`
 
@@ -225,7 +219,7 @@ I seguenti campi sono disponibili per le date:
 
 - Restituisce false.
 
-## Stringa
+## Tipo stringa
 
 Funzioni che puoi utilizzare con una sequenza di caratteri come `"ciao"`.
 
@@ -286,17 +280,18 @@ Funzioni che puoi utilizzare con una sequenza di caratteri come `"ciao"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` è il valore da cercare nella stringa di destinazione.
-- `replacement` è il valore con cui sostituire i pattern trovati.
+- `replacement` è il valore con cui sostituire i pattern trovati. Quando `pattern` è una Regexp, è possibile fare riferimento ai gruppi di cattura in `replacement` usando `$1`, `$2` e così via.
 - Se `pattern` è una stringa, tutte le occorrenze del pattern verranno sostituite.
 - Se `pattern` è una Regexp, il flag `g` determina se vengono sostituite solo la prima o tutte le occorrenze.
-- Esempio: `""a:b:c:d".replace(/:/, "-")` restituisce `"a-b,c,d"`, mentre `"a:b:c:d".replace(/:/g, "-")` restituisce `"a-b-c-d"`.
+- Esempio: `"a:b:c:d".replace(/:/, "-")` restituisce `"a-b:c:d"`, mentre `"a:b:c:d".replace(/:/g, "-")` restituisce `"a-b-c-d"`.
+- Esempio con gruppi di cattura: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` restituisce `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` è il numero di volte in cui ripetere la stringa.
-- Esempio: `"123".repeat(2)` restituisce `"123123"`
+- Esempio: `"123".repeat(2)` restituisce `"123123"`.
 
 ### `reverse()`
 
@@ -346,7 +341,7 @@ Funzioni che puoi utilizzare con una sequenza di caratteri come `"ciao"`.
 - Rimuove gli spazi bianchi da entrambe le estremità della stringa.
 - Esempio: `"  hi  ".trim()` restituisce `"hi"`.
 
-## Numero
+## Tipo numero
 
 Funzioni che puoi utilizzare con valori numerici come `42`, `3.14`.
 
@@ -394,7 +389,7 @@ Funzioni che puoi utilizzare con valori numerici come `42`, `3.14`.
 - Restituisce una stringa con il numero in notazione a virgola fissa.
 - Esempio: `(3.14159).toFixed(2)` restituisce `"3.14"`.
 
-## Elenco
+## Tipo elenco
 
 Funzioni che puoi utilizzare con un elenco ordinato di elementi come `[1, 2, 3]`.
 
@@ -432,7 +427,7 @@ Funzioni che puoi utilizzare con un elenco ordinato di elementi come `[1, 2, 3]`
 
 `list.filter(value: Boolean): list`
 
-- Filtra gli elementi di questo elenco chiamando una funzione filtro, che utilizza le variabili `index` e `value`, e restituisce un valore booleano che indica se l'elemento deve essere mantenuto.
+- Filtra l'elenco e mantiene solo gli elementi per cui l'espressione è vera.
 - `value` è il valore di un elemento nell'elenco.
 - `index` è l'indice del valore corrente.
 - Esempio: `[1,2,3,4].filter(value > 2)` restituisce `[3,4]`.
@@ -441,7 +436,7 @@ Funzioni che puoi utilizzare con un elenco ordinato di elementi come `[1, 2, 3]`
 
 `list.flat(): list`
 
-- Appiattisce elenchi annidati in un singolo elenco.
+- Appiattisce un elenco annidato in un singolo elenco.
 - Esempio: `[1,[2,3]].flat()` restituisce `[1,2,3]`.
 
 ### `isEmpty()`
@@ -463,7 +458,7 @@ Funzioni che puoi utilizzare con un elenco ordinato di elementi come `[1, 2, 3]`
 
 `list.map(value: Any): list`
 
-- Trasforma ogni elemento di questo elenco chiamando una funzione di conversione, che utilizza le variabili `index` e `value`, e restituisce il nuovo valore da inserire nell'elenco.
+- Trasforma ogni elemento dell'elenco utilizzando un'espressione.
 - `value` è il valore di un elemento nell'elenco.
 - `index` è l'indice del valore corrente.
 - Esempio: `[1,2,3,4].map(value + 1)` restituisce `[2,3,4,5]`.
@@ -472,7 +467,7 @@ Funzioni che puoi utilizzare con un elenco ordinato di elementi come `[1, 2, 3]`
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Riduce gli elementi di questo elenco in un singolo valore eseguendo un'espressione per ogni elemento. L'espressione può utilizzare le variabili `index`, `value` e `acc` (l'accumulatore), e deve restituire il valore successivo dell'accumulatore.
+- Riduce l'elenco a un singolo valore eseguendo un'espressione per ogni elemento. L'espressione deve restituire il valore successivo di `acc`. Usa `value` per l'elemento corrente, `index` per la sua posizione e `acc` per il risultato accumulato finora.
 - `expression` viene valutato per ogni elemento nell'elenco.
 - `value` è il valore dell'elemento corrente nell'elenco.
 - `index` è l'indice dell'elemento corrente.
@@ -512,7 +507,7 @@ Funzioni che puoi utilizzare con un elenco ordinato di elementi come `[1, 2, 3]`
 - Rimuove gli elementi duplicati.
 - Esempio: `[1,2,2,3].unique()` restituisce `[1,2,3]`.
 
-## Collegamento
+## Tipo collegamento
 
 Funzioni che puoi utilizzare su un collegamento. I collegamenti possono essere creati da un file (`file.asLink()`) o da un percorso (`link("percorso")`).
 
@@ -521,17 +516,17 @@ Funzioni che puoi utilizzare su un collegamento. I collegamenti possono essere c
 `link.asFile(): file`
 
 - Restituisce un oggetto file se il collegamento si riferisce a un file locale valido.
-- Esempio: `link("[[nome file]]").asFile()`
+- Esempio: `link("[[nome file]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Restituisce se il file rappresentato dal `link` ha un collegamento verso `file`.
+- Restituisce `true` se il file rappresentato dal `link` ha un collegamento verso `file`.
 
-## File
+## Tipo file
 
-Funzioni che puoi utilizzare con i file nella cassaforte.
+Funzioni che puoi utilizzare con un file nel vault.
 
 ### Campi
 
@@ -541,7 +536,7 @@ I seguenti campi sono disponibili per i file:
 | ----------------- | -------- | -------------------------------------------------------------------- |
 | `file.name`       | `string` | Il nome di questo file.                                              |
 | `file.basename`   | `string` | Il nome di questo file senza l'estensione.                           |
-| `file.path`       | `string` | Il percorso completo di questo file, relativo alla radice della cassaforte. |
+| `file.path`       | `string` | Il percorso completo di questo file, relativo alla radice del vault. |
 | `file.folder`     | `string` | Il percorso completo della cartella principale.                      |
 | `file.ext`        | `string` | L'estensione di questo file.                                         |
 | `file.size`       | `number` | La dimensione di questo file, in byte.                               |
@@ -555,7 +550,7 @@ I seguenti campi sono disponibili per i file:
 
 `file.asLink(display?: string): Link`
 
-- `display` testo di visualizzazione opzionale per il collegamento.
+- `display` è il testo di visualizzazione opzionale per il collegamento.
 - Restituisce un oggetto Link che viene renderizzato come collegamento funzionante.
 - Esempio: `file.asLink()`
 
@@ -571,7 +566,7 @@ I seguenti campi sono disponibili per i file:
 
 `file.hasProperty(name: string): boolean`
 
-- Restituisce true se la nota ha la proprietà file specificata.
+- Restituisce `true` se il file ha la proprietà specificata.
 
 ### `hasTag()`
 
@@ -589,7 +584,7 @@ I seguenti campi sono disponibili per i file:
 - Restituisce true se il file si trova nella cartella specificata o in una delle sue sottocartelle.
 - Esempio: `file.inFolder("notes")` restituisce `true`.
 
-## Oggetto
+## Tipo oggetto
 
 Funzioni che puoi utilizzare con una raccolta di coppie chiave-valore come `{"a": 1, "b": 2}`.
 
@@ -612,7 +607,7 @@ Funzioni che puoi utilizzare con una raccolta di coppie chiave-valore come `{"a"
 
 - Restituisce un elenco contenente i valori dell'oggetto.
 
-## Espressione regolare
+## Tipo espressione regolare
 
 Funzioni che puoi utilizzare con un pattern di espressione regolare. Esempio: `/abc/`.
 

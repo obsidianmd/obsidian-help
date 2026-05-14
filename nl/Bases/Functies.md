@@ -6,17 +6,19 @@ description: Deze pagina beschrijft de functies die in Obsidian Bases worden geb
 ---
 Functies worden gebruikt in [[Introductie tot Bases|Bases]] om gegevens uit [[Eigenschappen|eigenschappen]] te bewerken in [[Weergaven#Filters|filters]] en [[Formules|formules]]. Raadpleeg de [[Bases-syntaxis|bases-syntaxis]] referentie voor meer informatie over hoe je functies kunt gebruiken.
 
+Bases-functies volgen JavaScript-gedrag. Raadpleeg voor volledige referentiedocumentatie [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Afgezien van [[Functies#Globaal|Globale]] functies zijn de meeste functies afhankelijk van het type waarde dat je wilt wijzigen:
 
-- [[Functies#Elke waarde|Elke waarde]]
-- [[Functies#Datum|Datum]]
-- [[Functies#Tekenreeks|Tekenreeks]]
-- [[Functies#Getal|Getal]]
-- [[Functies#Lijst|Lijst]]
-- [[Functies#Koppeling|Koppeling]]
-- [[Functies#Bestand|Bestand]]
-- [[Functies#Object|Object]]
-- [[Functies#Reguliere expressie|Reguliere expressie]]
+- [[Functies#Type Elke waarde|Elke waarde]]
+- [[Functies#Type Datum|Datum]]
+- [[Functies#Type Tekenreeks|Tekenreeks]]
+- [[Functies#Type Getal|Getal]]
+- [[Functies#Type Lijst|Lijst]]
+- [[Functies#Type Koppeling|Koppeling]]
+- [[Functies#Type Bestand|Bestand]]
+- [[Functies#Type Object|Object]]
+- [[Functies#Type Reguliere expressie|Reguliere expressie]]
 
 ## Globaal
 
@@ -40,7 +42,7 @@ Globale functies worden zonder type gebruikt.
 `duration(value: string): duration`
 
 - Ontleedt een tekenreeks als een duur. Zie de [[Bases-syntaxis#Datumberekeningen|sectie datumberekeningen]] voor de indeling van de `value`-tekenreeks.
-- Duren hoeven niet expliciet te worden ontleed bij datumberekeningen (bijvoorbeeld `now() + '1d'`), maar wel bij berekeningen met duren (bijvoorbeeld `now() + (duration('1d') * 2)`).
+- Expliciet ontleden is niet nodig bij datumberekeningen (bijvoorbeeld `now() + '1d'`), maar wel bij berekeningen met duren (bijvoorbeeld `now() + (duration('1d') * 2)`).
 - Bij berekeningen van duren met scalaire waarden moet de duur links staan. Bijvoorbeeld `duration('5h') * 2`, in plaats van `2 * duration('5h')`.
 
 ### `file()`
@@ -60,10 +62,10 @@ Globale functies worden zonder type gebruikt.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` is de voorwaarde die wordt geëvalueerd.
-- `trueResult` is de uitvoer als de voorwaarde waar is.
-- `falseResult` is de optionele uitvoer als de voorwaarde onwaar is. Als deze niet wordt opgegeven, wordt `null` aangenomen.
-- Retourneert `trueResult` als `condition` waar is, of een waarde heeft die als waar wordt beschouwd, anders `falseResult`.
+- `condition` is de expressie die wordt geëvalueerd.
+- `trueResult` is de uitvoer als `condition` waar is.
+- `falseResult` is de optionele uitvoer als `condition` onwaar is. Indien weggelaten, is de standaardwaarde `null`.
+- Retourneert `trueResult` als `condition` waar is of een waarde heeft die als waar wordt beschouwd, anders `falseResult`.
 - Voorbeeld: `if(isModified, "Gewijzigd", "Niet gewijzigd")`
 
 ### `image()`
@@ -71,7 +73,7 @@ Globale functies worden zonder type gebruikt.
 `image(path: string | file | url): image`
 
 - Retourneert een afbeeldingsobject dat de afbeelding in de weergave toont.
-- Voorbeeld: `image(afbeelding-eigenschap)` of `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Voorbeeld: `image(afbeelding-eigenschap)` of `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Globale functies worden zonder type gebruikt.
 `link(path: string | file, display?: value): Link`
 
 - Ontleedt een tekenreeks `path` en retourneert een Link-object dat wordt weergegeven als een koppeling naar het opgegeven pad.
-- Geef optioneel de parameter `display` op om de weergavetekst van de koppeling te wijzigen.
+- Geef optioneel de parameter `display` op om de weergavetekst van de koppeling in te stellen.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Globale functies worden zonder type gebruikt.
 
 - Als het opgegeven element een lijst is, wordt deze ongewijzigd geretourneerd.
 - Anders wordt het opgegeven `element` in een lijst gewikkeld, waardoor een lijst met één element ontstaat.
-- Deze functie kan handig zijn wanneer een eigenschap in de kluis een mix van tekenreeksen of lijsten bevat.
+- Gebruik deze functie wanneer een eigenschap in de kluis een mix van tekenreeksen of lijsten bevat.
 - Voorbeeld: `list("waarde")` retourneert `["waarde"]`.
 
 ### `max()`
@@ -112,40 +114,32 @@ Globale functies worden zonder type gebruikt.
 
 `now(): date`
 
-- `now()` retourneert een datumobject dat het huidige moment vertegenwoordigt.
+- Retourneert een datumobject voor het huidige moment.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Probeert de opgegeven waarde als getal te retourneren.
-- Datumobjecten worden geretourneerd als milliseconden sinds het Unix-tijdperk.
-- Booleans retourneren 1 of 0.
-- Tekenreeksen worden naar een getal ontleed en retourneren een fout als het resultaat ongeldig is.
+- Retourneert datumobjecten als milliseconden sinds het Unix-tijdperk.
+- Retourneert booleans als `1` of `0`.
+- Ontleedt tekenreeksen als getallen en retourneert een fout als de tekenreeks geen geldig getal is.
 - Voorbeeld: `number("3.4")` retourneert `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Ontleedt een tekenreeks als een duur. Zie de [[Bases-syntaxis#Datumberekeningen|sectie datumberekeningen]] voor de indeling van de `value`-tekenreeks.
-- Duren hoeven niet expliciet te worden ontleed bij datumberekeningen (bijvoorbeeld `now() + '1d'`), maar wel bij berekeningen met duren (bijvoorbeeld `now() + (duration('1d') * 2)`).
-- Bij berekeningen van duren met scalaire waarden moet de duur links staan. Bijvoorbeeld `duration('5h') * 2`, in plaats van `2 * duration('5h')`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` retourneert een datumobject dat de huidige datum vertegenwoordigt. Het tijdgedeelte wordt op nul gezet.
+- Retourneert een datumobject voor de huidige datum. Het tijdgedeelte wordt op middernacht gezet.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` retourneert een willekeurig getal tussen 0 en 1.
+- Retourneert een willekeurig getal tussen 0 en 1.
 - De getalsgeneratie wordt vernieuwd wanneer een weergave wordt geladen. Wisselen tussen weergaven verandert het willekeurige getal.
 
-## Elke waarde
+## Type Elke waarde
 
 Functies die je met elke waarde kunt gebruiken. Dit omvat tekenreeksen (bijv. `"hello"`), getallen (bijv. `42`), lijsten (bijv. `[1,2,3]`), objecten, en meer.
 
@@ -170,7 +164,7 @@ Functies die je met elke waarde kunt gebruiken. Dit omvat tekenreeksen (bijv. `"
 - Retourneert de tekenreeksrepresentatie van elke waarde.
 - Voorbeeld: `123.toString()` retourneert `"123"`.
 
-## Datum
+## Type Datum
 
 Functies die je kunt gebruiken met een datum en tijd zoals `date("2025-05-27")`. Datumvergelijkingen kunnen worden uitgevoerd met [[Bases-syntaxis#Datumberekeningen|datumberekeningen]].
 
@@ -193,7 +187,7 @@ De volgende velden zijn beschikbaar voor datums:
 `date.date(): date`
 
 - Retourneert een datumobject waarvan het tijdgedeelte is verwijderd.
-- Voorbeeld: `now().date().format("YYYY-MM-DD HH:mm:ss")` retourneert een tekenreeks zoals "2025-12-31 00:00:00"
+- Voorbeeld: `now().date().format("YYYY-MM-DD HH:mm:ss")` retourneert een tekenreeks zoals "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -207,8 +201,8 @@ De volgende velden zijn beschikbaar voor datums:
 
 `date.time(): string`
 
-- Retourneert de tijd.
-- Voorbeeld: `now().time()` retourneert een tekenreeks zoals "23:59:59"
+- Retourneert het tijdgedeelte als een tekenreeks.
+- Voorbeeld: `now().time()` retourneert een tekenreeks zoals "23:59:59".
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ De volgende velden zijn beschikbaar voor datums:
 
 - Retourneert false.
 
-## Tekenreeks
+## Type Tekenreeks
 
 Functies die je kunt gebruiken met een reeks tekens zoals `"hello"`.
 
@@ -284,17 +278,18 @@ Functies die je kunt gebruiken met een reeks tekens zoals `"hello"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` is de waarde waarnaar wordt gezocht in de doeltekenreeks.
-- `replacement` is de waarde waarmee gevonden patronen worden vervangen.
+- `replacement` is de waarde waarmee gevonden patronen worden vervangen. Wanneer `pattern` een Regexp is, kun je in `replacement` naar vanggroepen verwijzen met `$1`, `$2`, enzovoort.
 - Als `pattern` een tekenreeks is, worden alle voorkomens van het patroon vervangen.
 - Als `pattern` een Regexp is, bepaalt de `g`-vlag of alleen het eerste of alle voorkomens worden vervangen.
-- Voorbeeld: `"a:b:c:d".replace(/:/, "-")` retourneert `"a-b,c,d"`, terwijl `"a:b:c:d".replace(/:/g, "-")` retourneert `"a-b-c-d"`.
+- Voorbeeld: `"a:b:c:d".replace(/:/, "-")` retourneert `"a-b:c:d"`, terwijl `"a:b:c:d".replace(/:/g, "-")` retourneert `"a-b-c-d"`.
+- Voorbeeld met vanggroepen: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` retourneert `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` is het aantal keren dat de tekenreeks wordt herhaald.
-- Voorbeeld: `"123".repeat(2)` retourneert `"123123"`
+- Voorbeeld: `"123".repeat(2)` retourneert `"123123"`.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Functies die je kunt gebruiken met een reeks tekens zoals `"hello"`.
 - Verwijdert witruimte aan beide uiteinden van de tekenreeks.
 - Voorbeeld: `"  hi  ".trim()` retourneert `"hi"`.
 
-## Getal
+## Type Getal
 
 Functies die je kunt gebruiken met numerieke waarden zoals `42`, `3.14`.
 
@@ -392,7 +387,7 @@ Functies die je kunt gebruiken met numerieke waarden zoals `42`, `3.14`.
 - Retourneert een tekenreeks met het getal in vaste-kommanotatie.
 - Voorbeeld: `(3.14159).toFixed(2)` retourneert `"3.14"`.
 
-## Lijst
+## Type Lijst
 
 Functies die je kunt gebruiken met een geordende lijst van elementen zoals `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Functies die je kunt gebruiken met een geordende lijst van elementen zoals `[1, 
 
 `list.filter(value: Boolean): list`
 
-- Filtert de elementen van deze lijst door een filterfunctie aan te roepen die de variabelen `index` en `value` gebruikt en een booleaanse waarde retourneert voor of het element behouden moet worden.
+- Filtert de lijst en behoudt alleen elementen waarvoor de expressie waar is.
 - `value` is de waarde van een item in de lijst.
 - `index` is de index van de huidige waarde.
 - Voorbeeld: `[1,2,3,4].filter(value > 2)` retourneert `[3,4]`.
@@ -439,7 +434,7 @@ Functies die je kunt gebruiken met een geordende lijst van elementen zoals `[1, 
 
 `list.flat(): list`
 
-- Vlakt geneste lijsten af tot een enkele lijst.
+- Vlakt een geneste lijst af tot een enkele lijst.
 - Voorbeeld: `[1,[2,3]].flat()` retourneert `[1,2,3]`.
 
 ### `isEmpty()`
@@ -461,7 +456,7 @@ Functies die je kunt gebruiken met een geordende lijst van elementen zoals `[1, 
 
 `list.map(value: Any): list`
 
-- Transformeert elk element van deze lijst door een conversiefunctie aan te roepen die de variabelen `index` en `value` gebruikt en de nieuwe waarde retourneert die in de lijst wordt geplaatst.
+- Transformeert elk element van de lijst met behulp van een expressie.
 - `value` is de waarde van een item in de lijst.
 - `index` is de index van de huidige waarde.
 - Voorbeeld: `[1,2,3,4].map(value + 1)` retourneert `[2,3,4,5]`.
@@ -470,7 +465,7 @@ Functies die je kunt gebruiken met een geordende lijst van elementen zoals `[1, 
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Reduceert de elementen van deze lijst tot een enkele waarde door voor elk element een expressie uit te voeren. De expressie kan de variabelen `index`, `value` en `acc` (de accumulator) gebruiken en moet de volgende accumulatorwaarde retourneren.
+- Reduceert de lijst tot een enkele waarde door voor elk element een expressie uit te voeren. De expressie moet de volgende waarde van `acc` retourneren. Gebruik `value` voor het huidige element, `index` voor de positie, en `acc` voor het tot nu toe opgebouwde resultaat.
 - `expression` wordt voor elk element in de lijst geëvalueerd.
 - `value` is de waarde van het huidige item in de lijst.
 - `index` is de index van het huidige item.
@@ -510,7 +505,7 @@ Functies die je kunt gebruiken met een geordende lijst van elementen zoals `[1, 
 - Verwijdert dubbele elementen.
 - Voorbeeld: `[1,2,2,3].unique()` retourneert `[1,2,3]`.
 
-## Koppeling
+## Type Koppeling
 
 Functies die je kunt gebruiken op een koppeling. Koppelingen kunnen worden gemaakt vanuit een bestand (`file.asLink()`) of een pad (`link("pad")`).
 
@@ -519,17 +514,17 @@ Functies die je kunt gebruiken op een koppeling. Koppelingen kunnen worden gemaa
 `link.asFile(): file`
 
 - Retourneert een bestandsobject als de koppeling verwijst naar een geldig lokaal bestand.
-- Voorbeeld: `link("[[bestandsnaam]]").asFile()`
+- Voorbeeld: `link("[[bestandsnaam]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Retourneert of het bestand dat door de `link` wordt vertegenwoordigd een koppeling naar `file` heeft.
+- Retourneert `true` als het bestand dat door `link` wordt vertegenwoordigd een koppeling naar `file` heeft.
 
-## Bestand
+## Type Bestand
 
-Functies die je kunt gebruiken met bestanden in de kluis.
+Functies die je kunt gebruiken met een bestand in de kluis.
 
 ### Velden
 
@@ -553,7 +548,7 @@ De volgende velden zijn beschikbaar voor bestanden:
 
 `file.asLink(display?: string): Link`
 
-- `display` optionele weergavetekst voor de koppeling.
+- `display` is optionele weergavetekst voor de koppeling.
 - Retourneert een Link-object dat als werkende koppeling wordt weergegeven.
 - Voorbeeld: `file.asLink()`
 
@@ -569,7 +564,7 @@ De volgende velden zijn beschikbaar voor bestanden:
 
 `file.hasProperty(name: string): boolean`
 
-- Retourneert true als de notitie de opgegeven bestandseigenschap heeft.
+- Retourneert `true` als het bestand de opgegeven eigenschap heeft.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ De volgende velden zijn beschikbaar voor bestanden:
 - Retourneert true als het bestand zich in de opgegeven map of een van de submappen bevindt.
 - Voorbeeld: `file.inFolder("notes")` retourneert `true`.
 
-## Object
+## Type Object
 
 Functies die je kunt gebruiken met een verzameling sleutel-waardeparen zoals `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Functies die je kunt gebruiken met een verzameling sleutel-waardeparen zoals `{"
 
 - Retourneert een lijst met de waarden van het object.
 
-## Reguliere expressie
+## Type Reguliere expressie
 
 Functies die je kunt gebruiken met een reguliere-expressiepatroon. Voorbeeld: `/abc/`.
 

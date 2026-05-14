@@ -6,17 +6,19 @@ description: Tato stránka popisuje funkce používané v Obsidian Bases pro man
 ---
 Funkce se v [[Úvod do Základen|Základnách]] používají k manipulaci s daty z [[Vlastnosti|vlastností]] ve [[Zobrazení#Filtry|filtrech]] a [[Vzorce|vzorcích]]. Podrobnosti o tom, jak funkce používat, naleznete v referenci [[Syntaxe Základen|syntaxe základen]].
 
+Funkce základen se řídí chováním JavaScriptu. Kompletní referenční dokumentaci naleznete na [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Kromě [[Funkce#Globální|globálních]] funkcí závisí většina funkcí na typu hodnoty, kterou chcete upravit:
 
 - [[Funkce#Libovolný typ|Libovolný typ]]
-- [[Funkce#Datum|Datum]]
-- [[Funkce#Řetězec|Řetězec]]
-- [[Funkce#Číslo|Číslo]]
-- [[Funkce#Seznam|Seznam]]
-- [[Funkce#Odkaz|Odkaz]]
-- [[Funkce#Soubor|Soubor]]
-- [[Funkce#Objekt|Objekt]]
-- [[Funkce#Regulární výraz|Regulární výraz]]
+- [[Funkce#Typ datum|Datum]]
+- [[Funkce#Typ řetězec|Řetězec]]
+- [[Funkce#Typ číslo|Číslo]]
+- [[Funkce#Typ seznam|Seznam]]
+- [[Funkce#Typ odkaz|Odkaz]]
+- [[Funkce#Typ soubor|Soubor]]
+- [[Funkce#Typ objekt|Objekt]]
+- [[Funkce#Typ regulární výraz|Regulární výraz]]
 
 ## Globální
 
@@ -40,7 +42,7 @@ Globální funkce se používají bez typu.
 `duration(value: string): duration`
 
 - Zpracuje řetězec jako dobu trvání. Formát řetězce `value` naleznete v sekci [[Syntaxe Základen#Datová aritmetika|datová aritmetika]].
-- Doby trvání nemusí být explicitně zpracovány při provádění datové aritmetiky (například `now() + '1d'`), ale musí být zpracovány při provádění aritmetiky s dobami trvání (například `now() + (duration('1d') * 2)`).
+- Explicitní zpracování není potřeba při datové aritmetice (například `now() + '1d'`), ale je potřeba při provádění aritmetiky s dobami trvání (například `now() + (duration('1d') * 2)`).
 - Při provádění aritmetiky dob trvání se skaláry musí být doba trvání vlevo. Například `duration('5h') * 2`, nikoli `2 * duration('5h')`.
 
 ### `file()`
@@ -60,9 +62,9 @@ Globální funkce se používají bez typu.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` je podmínka, která se vyhodnotí.
-- `trueResult` je výstup, pokud je podmínka pravdivá.
-- `falseResult` je volitelný výstup, pokud je podmínka nepravdivá. Pokud není zadán, předpokládá se `null`.
+- `condition` je výraz, který se vyhodnotí.
+- `trueResult` je výstup, pokud je `condition` pravdivá.
+- `falseResult` je volitelný výstup, pokud je `condition` nepravdivá. Pokud je vynechán, výchozí hodnota je `null`.
 - Vrátí `trueResult`, pokud je `condition` pravdivá nebo má pravdivou hodnotu, jinak vrátí `falseResult`.
 - Příklad: `if(isModified, "Modified", "Unmodified")`
 
@@ -71,7 +73,7 @@ Globální funkce se používají bez typu.
 `image(path: string | file | url): image`
 
 - Vrátí objekt obrázku, který vykreslí obrázek v zobrazení.
-- Příklad: `image(image-property)` nebo `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Příklad: `image(image-property)` nebo `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Globální funkce se používají bez typu.
 `link(path: string | file, display?: value): Link`
 
 - Zpracuje řetězec `path` a vrátí objekt odkazu, který se vykreslí jako odkaz na zadanou cestu.
-- Volitelně zadejte parametr `display` pro změnu textu, který odkaz zobrazí.
+- Volitelně zadejte parametr `display` pro nastavení zobrazeného textu odkazu.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Globální funkce se používají bez typu.
 
 - Pokud je zadaný prvek seznam, vrátí jej beze změny.
 - V opačném případě zabalí zadaný `element` do seznamu a vytvoří seznam s jedním prvkem.
-- Tato funkce může být užitečná, když vlastnost obsahuje směs řetězců nebo seznamů v rámci trezoru.
+- Tuto funkci použijte, když vlastnost obsahuje směs řetězců nebo seznamů v rámci trezoru.
 - Příklad: `list("value")` vrátí `["value"]`.
 
 ### `max()`
@@ -112,37 +114,29 @@ Globální funkce se používají bez typu.
 
 `now(): date`
 
-- `now()` vrátí objekt data reprezentující aktuální okamžik.
+- Vrátí objekt data pro aktuální okamžik.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Pokusí se vrátit zadanou hodnotu jako číslo.
-- Objekty data budou vráceny jako milisekundy od unixové epochy.
-- Booleovské hodnoty vrátí 1 nebo 0.
-- Řetězce budou zpracovány na číslo a v případě neplatného výsledku vrátí chybu.
+- Vrátí objekty data jako milisekundy od unixové epochy.
+- Vrátí booleovské hodnoty jako `1` nebo `0`.
+- Zpracuje řetězce jako čísla a v případě, že řetězec není platné číslo, vrátí chybu.
 - Příklad: `number("3.4")` vrátí `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Zpracuje řetězec jako dobu trvání. Formát řetězce `value` naleznete v sekci [[Syntaxe Základen#Datová aritmetika|datová aritmetika]].
-- Doby trvání nemusí být explicitně zpracovány při provádění datové aritmetiky (například `now() + '1d'`), ale musí být zpracovány při provádění aritmetiky s dobami trvání (například `now() + (duration('1d') * 2)`).
-- Při provádění aritmetiky dob trvání se skaláry musí být doba trvání vlevo. Například `duration('5h') * 2`, nikoli `2 * duration('5h')`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` vrátí objekt data reprezentující aktuální datum. Časová část je nastavena na nulu.
+- Vrátí objekt data pro aktuální datum. Časová část je nastavena na půlnoc.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` vrátí náhodné číslo mezi 0 a 1.
+- Vrátí náhodné číslo mezi 0 a 1.
 - Generování čísel se obnoví při každém načtení zobrazení. Přepínání mezi zobrazeními změní náhodné číslo.
 
 ## Libovolný typ
@@ -170,7 +164,7 @@ Funkce, které můžete použít s jakoukoliv hodnotou. To zahrnuje řetězce (n
 - Vrátí řetězcovou reprezentaci jakékoliv hodnoty.
 - Příklad: `123.toString()` vrátí `"123"`.
 
-## Datum
+## Typ datum
 
 Funkce, které můžete použít s datem a časem, jako je `date("2025-05-27")`. Porovnání dat lze provádět pomocí [[Syntaxe Základen#Datová aritmetika|datové aritmetiky]].
 
@@ -193,7 +187,7 @@ Pro data jsou k dispozici následující pole:
 `date.date(): date`
 
 - Vrátí objekt data s odstraněným časem.
-- Příklad: `now().date().format("YYYY-MM-DD HH:mm:ss")` vrátí řetězec jako "2025-12-31 00:00:00"
+- Příklad: `now().date().format("YYYY-MM-DD HH:mm:ss")` vrátí řetězec jako "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -207,8 +201,8 @@ Pro data jsou k dispozici následující pole:
 
 `date.time(): string`
 
-- Vrátí čas.
-- Příklad: `now().time()` vrátí řetězec jako "23:59:59"
+- Vrátí časovou část jako řetězec.
+- Příklad: `now().time()` vrátí řetězec jako "23:59:59".
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ Pro data jsou k dispozici následující pole:
 
 - Vrátí false.
 
-## Řetězec
+## Typ řetězec
 
 Funkce, které můžete použít s posloupností znaků, jako je `"hello"`.
 
@@ -284,17 +278,18 @@ Funkce, které můžete použít s posloupností znaků, jako je `"hello"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` je hodnota k vyhledání v cílovém řetězci.
-- `replacement` je hodnota, kterou se nalezené vzory nahradí.
+- `replacement` je hodnota, kterou se nalezené vzory nahradí. Pokud je `pattern` regulární výraz, můžete v `replacement` odkazovat na zachycené skupiny pomocí `$1`, `$2` atd.
 - Pokud je `pattern` řetězec, budou nahrazeny všechny výskyty vzoru.
 - Pokud je `pattern` regulární výraz, příznak `g` určuje, zda se nahradí pouze první nebo všechny výskyty.
-- Příklad: `""a:b:c:d".replace(/:/, "-")` vrátí `"a-b,c,d"`, zatímco `"a:b:c:d".replace(/:/g, "-")` vrátí `"a-b-c-d"`.
+- Příklad: `"a:b:c:d".replace(/:/, "-")` vrátí `"a-b:c:d"`, zatímco `"a:b:c:d".replace(/:/g, "-")` vrátí `"a-b-c-d"`.
+- Příklad se zachycenými skupinami: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` vrátí `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` je počet opakování řetězce.
-- Příklad: `"123".repeat(2)` vrátí `"123123"`
+- Příklad: `"123".repeat(2)` vrátí `"123123"`.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Funkce, které můžete použít s posloupností znaků, jako je `"hello"`.
 - Odstraní mezery z obou konců řetězce.
 - Příklad: `"  hi  ".trim()` vrátí `"hi"`.
 
-## Číslo
+## Typ číslo
 
 Funkce, které můžete použít s číselnými hodnotami jako `42`, `3.14`.
 
@@ -392,7 +387,7 @@ Funkce, které můžete použít s číselnými hodnotami jako `42`, `3.14`.
 - Vrátí řetězec s číslem v zápisu s pevnou desetinnou čárkou.
 - Příklad: `(3.14159).toFixed(2)` vrátí `"3.14"`.
 
-## Seznam
+## Typ seznam
 
 Funkce, které můžete použít s uspořádaným seznamem prvků jako `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Funkce, které můžete použít s uspořádaným seznamem prvků jako `[1, 2, 3
 
 `list.filter(value: Boolean): list`
 
-- Filtruje prvky tohoto seznamu voláním filtrovací funkce, která používá proměnné `index` a `value` a vrací booleovskou hodnotu, zda má být prvek zachován.
+- Filtruje seznam a ponechá pouze prvky, kde je výraz pravdivý.
 - `value` je hodnota položky v seznamu.
 - `index` je index aktuální hodnoty.
 - Příklad: `[1,2,3,4].filter(value > 2)` vrátí `[3,4]`.
@@ -439,7 +434,7 @@ Funkce, které můžete použít s uspořádaným seznamem prvků jako `[1, 2, 3
 
 `list.flat(): list`
 
-- Zploští vnořené seznamy do jednoho seznamu.
+- Zploští vnořený seznam do jednoho seznamu.
 - Příklad: `[1,[2,3]].flat()` vrátí `[1,2,3]`.
 
 ### `isEmpty()`
@@ -461,7 +456,7 @@ Funkce, které můžete použít s uspořádaným seznamem prvků jako `[1, 2, 3
 
 `list.map(value: Any): list`
 
-- Transformuje každý prvek tohoto seznamu voláním konverzní funkce, která používá proměnné `index` a `value` a vrací novou hodnotu, která bude umístěna do seznamu.
+- Transformuje každý prvek seznamu pomocí výrazu.
 - `value` je hodnota položky v seznamu.
 - `index` je index aktuální hodnoty.
 - Příklad: `[1,2,3,4].map(value + 1)` vrátí `[2,3,4,5]`.
@@ -470,7 +465,7 @@ Funkce, které můžete použít s uspořádaným seznamem prvků jako `[1, 2, 3
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Redukuje prvky tohoto seznamu na jedinou hodnotu spuštěním výrazu pro každý prvek. Výraz může používat proměnné `index`, `value` a `acc` (akumulátor) a měl by vrátit další hodnotu akumulátoru.
+- Redukuje seznam na jedinou hodnotu spuštěním výrazu pro každý prvek. Výraz musí vrátit další hodnotu `acc`. Použijte `value` pro aktuální prvek, `index` pro jeho pozici a `acc` pro dosud akumulovaný výsledek.
 - `expression` se vyhodnotí pro každý prvek v seznamu.
 - `value` je hodnota aktuální položky v seznamu.
 - `index` je index aktuální položky.
@@ -510,7 +505,7 @@ Funkce, které můžete použít s uspořádaným seznamem prvků jako `[1, 2, 3
 - Odstraní duplicitní prvky.
 - Příklad: `[1,2,2,3].unique()` vrátí `[1,2,3]`.
 
-## Odkaz
+## Typ odkaz
 
 Funkce, které můžete použít na odkaz. Odkazy lze vytvořit ze souboru (`file.asLink()`) nebo cesty (`link("path")`).
 
@@ -519,17 +514,17 @@ Funkce, které můžete použít na odkaz. Odkazy lze vytvořit ze souboru (`fil
 `link.asFile(): file`
 
 - Vrátí objekt souboru, pokud odkaz odkazuje na platný lokální soubor.
-- Příklad: `link("[[filename]]").asFile()`
+- Příklad: `link("[[filename]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Vrátí, zda soubor reprezentovaný `link` má odkaz na `file`.
+- Vrátí `true`, pokud soubor reprezentovaný `link` má odkaz na `file`.
 
-## Soubor
+## Typ soubor
 
-Funkce, které můžete použít se soubory v trezoru.
+Funkce, které můžete použít se souborem v trezoru.
 
 ### Pole
 
@@ -553,7 +548,7 @@ Pro soubory jsou k dispozici následující pole:
 
 `file.asLink(display?: string): Link`
 
-- `display` volitelný zobrazený text pro odkaz.
+- `display` je volitelný zobrazený text pro odkaz.
 - Vrátí objekt odkazu, který se vykreslí jako funkční odkaz.
 - Příklad: `file.asLink()`
 
@@ -569,7 +564,7 @@ Pro soubory jsou k dispozici následující pole:
 
 `file.hasProperty(name: string): boolean`
 
-- Vrátí true, pokud poznámka má danou vlastnost souboru.
+- Vrátí `true`, pokud soubor má danou vlastnost.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ Pro soubory jsou k dispozici následující pole:
 - Vrátí true, pokud je soubor v zadané složce nebo jedné z jejích podsložek.
 - Příklad: `file.inFolder("notes")` vrátí `true`.
 
-## Objekt
+## Typ objekt
 
 Funkce, které můžete použít s kolekcí párů klíč-hodnota jako `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Funkce, které můžete použít s kolekcí párů klíč-hodnota jako `{"a": 1,
 
 - Vrátí seznam obsahující hodnoty objektu.
 
-## Regulární výraz
+## Typ regulární výraz
 
 Funkce, které můžete použít se vzorem regulárního výrazu. Příklad: `/abc/`.
 

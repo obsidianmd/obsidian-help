@@ -6,17 +6,19 @@ description: Den här sidan beskriver de funktioner som används i Obsidian Base
 ---
 Funktioner används i [[Introduktion till baser|baser]] för att manipulera data från [[Egenskaper|egenskaper]] i [[Vyer#Filter|filter]] och [[Formler|formler]]. Se referensen för [[Baser-syntax|baser-syntax]] för att läsa mer om hur du kan använda funktioner.
 
+Basers funktioner följer JavaScript-beteende. För fullständig referensdokumentation, se [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+
 Förutom [[Funktioner#Globala|Globala]] funktioner beror de flesta funktioner på vilken typ av värde du vill modifiera:
 
-- [[Funktioner#Any|Any]]
-- [[Funktioner#Date|Date]]
-- [[Funktioner#String|String]]
-- [[Funktioner#Number|Number]]
-- [[Funktioner#List|List]]
-- [[Funktioner#Link|Link]]
-- [[Funktioner#File|File]]
-- [[Funktioner#Object|Object]]
-- [[Funktioner#Reguljärt uttryck|Reguljärt uttryck]]
+- [[Funktioner#Any-typ|Any]]
+- [[Funktioner#Date-typ|Date]]
+- [[Funktioner#String-typ|String]]
+- [[Funktioner#Number-typ|Number]]
+- [[Funktioner#List-typ|List]]
+- [[Funktioner#Link-typ|Link]]
+- [[Funktioner#File-typ|File]]
+- [[Funktioner#Object-typ|Object]]
+- [[Funktioner#Reguljärt uttryck-typ|Reguljärt uttryck]]
 
 ## Globala
 
@@ -40,7 +42,7 @@ Globala funktioner används utan en typ.
 `duration(value: string): duration`
 
 - Tolkar en sträng som en varaktighet. Se [[Baser-syntax#Datumaritmetik|avsnittet om datumaritmetik]] för strängformatet för `value`.
-- Varaktigheter behöver inte explicit tolkas vid datumaritmetik (till exempel `now() + '1d'`), men det krävs vid aritmetik på varaktigheter (till exempel `now() + (duration('1d') * 2)`).
+- Explicit tolkning behövs inte vid datumaritmetik (till exempel `now() + '1d'`), men krävs vid aritmetik på varaktigheter (till exempel `now() + (duration('1d') * 2)`).
 - Vid aritmetik på varaktigheter med skalärer måste varaktigheten stå till vänster. Till exempel `duration('5h') * 2`, istället för `2 * duration('5h')`.
 
 ### `file()`
@@ -60,10 +62,10 @@ Globala funktioner används utan en typ.
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` är villkoret som ska utvärderas.
-- `trueResult` är utdata om villkoret är sant.
-- `falseResult` är den valfria utdatan om villkoret är falskt. Om det inte anges antas det vara `null`.
-- Returnerar `trueResult` om `condition` är sant, eller är ett truthy-värde, annars `falseResult`.
+- `condition` är uttrycket som ska utvärderas.
+- `trueResult` är utdata om `condition` är sant.
+- `falseResult` är den valfria utdatan om `condition` är falskt. Om det utelämnas antas `null`.
+- Returnerar `trueResult` om `condition` är sant eller truthy, annars returneras `falseResult`.
 - Exempel: `if(isModified, "Modified", "Unmodified")`
 
 ### `image()`
@@ -71,7 +73,7 @@ Globala funktioner används utan en typ.
 `image(path: string | file | url): image`
 
 - Returnerar ett bildobjekt som renderar bilden i vyn.
-- Exempel: `image(image-property)` eller `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`
+- Exempel: `image(image-property)` eller `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
@@ -85,7 +87,7 @@ Globala funktioner används utan en typ.
 `link(path: string | file, display?: value): Link`
 
 - Tolkar en sträng `path` och returnerar ett Link-objekt som renderas som en länk till den angivna sökvägen.
-- Ange valfritt parametern `display` för att ändra vilken text länken visar.
+- Ange valfritt parametern `display` för att ställa in länkens visningstext.
 
 ### `list()`
 
@@ -93,7 +95,7 @@ Globala funktioner används utan en typ.
 
 - Om det angivna elementet är en lista, returneras den oförändrad.
 - Annars packas det angivna `element` in i en lista, vilket skapar en lista med ett enda element.
-- Denna funktion kan vara hjälpsam när en egenskap innehåller en blandning av strängar eller listor i valvet.
+- Använd denna funktion när en egenskap innehåller en blandning av strängar eller listor i valvet.
 - Exempel: `list("value")` returnerar `["value"]`.
 
 ### `max()`
@@ -112,40 +114,32 @@ Globala funktioner används utan en typ.
 
 `now(): date`
 
-- `now()` returnerar ett datumobjekt som representerar det aktuella ögonblicket.
+- Returnerar ett datumobjekt för det aktuella ögonblicket.
 
 ### `number()`
 
 `number(input: any): number`
 
 - Försöker returnera det angivna värdet som ett nummer.
-- Datumobjekt returneras som millisekunder sedan unix-epoken.
-- Booleska värden returnerar 1 eller 0.
-- Strängar tolkas till ett nummer och returnerar ett fel om resultatet är ogiltigt.
+- Returnerar datumobjekt som millisekunder sedan Unix-epoken.
+- Returnerar booleska värden som `1` eller `0`.
+- Tolkar strängar som nummer och returnerar ett fel om strängen inte är ett giltigt nummer.
 - Exempel: `number("3.4")` returnerar `3.4`.
-
-### `duration()`
-
-`duration(value: string): duration`
-
-- Tolkar en sträng som en varaktighet. Se [[Baser-syntax#Datumaritmetik|avsnittet om datumaritmetik]] för strängformatet för `value`.
-- Varaktigheter behöver inte explicit tolkas vid datumaritmetik (till exempel `now() + '1d'`), men det krävs vid aritmetik på varaktigheter (till exempel `now() + (duration('1d') * 2)`).
-- Vid aritmetik på varaktigheter med skalärer måste varaktigheten stå till vänster. Till exempel `duration('5h') * 2`, istället för `2 * duration('5h')`.
 
 ### `today()`
 
 `today(): date`
 
-- `today()` returnerar ett datumobjekt som representerar dagens datum. Tidsdelen sätts till noll.
+- Returnerar ett datumobjekt för dagens datum. Tidsdelen sätts till midnatt.
 
 ### `random()`
 
 `random(): number`
 
-- `random()` returnerar ett slumpmässigt nummer mellan 0 och 1.
+- Returnerar ett slumpmässigt nummer mellan 0 och 1.
 - Nummergenereringen uppdateras varje gång en vy laddas. Att navigera mellan vyer ändrar det slumpmässiga numret.
 
-## Any
+## Any-typ
 
 Funktioner du kan använda med valfritt värde. Detta inkluderar strängar (t.ex. `"hello"`), nummer (t.ex. `42`), listor (t.ex. `[1,2,3]`), objekt och mer.
 
@@ -170,7 +164,7 @@ Funktioner du kan använda med valfritt värde. Detta inkluderar strängar (t.ex
 - Returnerar strängrepresentationen av valfritt värde.
 - Exempel: `123.toString()` returnerar `"123"`.
 
-## Date
+## Date-typ
 
 Funktioner du kan använda med datum och tid som `date("2025-05-27")`. Datumjämförelser kan göras med [[Baser-syntax#Datumaritmetik|datumaritmetik]].
 
@@ -193,7 +187,7 @@ Följande fält är tillgängliga för datum:
 `date.date(): date`
 
 - Returnerar ett datumobjekt med tiden borttagen.
-- Exempel: `now().date().format("YYYY-MM-DD HH:mm:ss")` returnerar en sträng som "2025-12-31 00:00:00"
+- Exempel: `now().date().format("YYYY-MM-DD HH:mm:ss")` returnerar en sträng som "2025-12-31 00:00:00".
 
 ### `format()`
 
@@ -207,8 +201,8 @@ Följande fält är tillgängliga för datum:
 
 `date.time(): string`
 
-- Returnerar tiden.
-- Exempel: `now().time()` returnerar en sträng som "23:59:59"
+- Returnerar tidsdelen som en sträng.
+- Exempel: `now().time()` returnerar en sträng som "23:59:59".
 
 ### `relative()`
 
@@ -223,7 +217,7 @@ Följande fält är tillgängliga för datum:
 
 - Returnerar false.
 
-## String
+## String-typ
 
 Funktioner du kan använda med en sekvens av tecken som `"hello"`.
 
@@ -284,17 +278,18 @@ Funktioner du kan använda med en sekvens av tecken som `"hello"`.
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
 - `pattern` är värdet att söka efter i målsträngen.
-- `replacement` är värdet att ersätta hittade mönster med.
+- `replacement` är värdet att ersätta hittade mönster med. När `pattern` är ett Regexp kan du referera till fångstgrupper i `replacement` med `$1`, `$2` och så vidare.
 - Om `pattern` är en sträng ersätts alla förekomster av mönstret.
 - Om `pattern` är ett Regexp avgör `g`-flaggan om bara den första eller alla förekomster ersätts.
-- Exempel: `""a:b:c:d".replace(/:/, "-")` returnerar `"a-b,c,d"`, medan `"a:b:c:d".replace(/:/g, "-")` returnerar `"a-b-c-d"`.
+- Exempel: `"a:b:c:d".replace(/:/, "-")` returnerar `"a-b:c:d"`, medan `"a:b:c:d".replace(/:/g, "-")` returnerar `"a-b-c-d"`.
+- Exempel med fångstgrupper: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` returnerar `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
 - `count` är antalet gånger strängen ska upprepas.
-- Exempel: `"123".repeat(2)` returnerar `"123123"`
+- Exempel: `"123".repeat(2)` returnerar `"123123"`.
 
 ### `reverse()`
 
@@ -344,7 +339,7 @@ Funktioner du kan använda med en sekvens av tecken som `"hello"`.
 - Tar bort blanksteg från båda ändarna av strängen.
 - Exempel: `"  hi  ".trim()` returnerar `"hi"`.
 
-## Number
+## Number-typ
 
 Funktioner du kan använda med numeriska värden som `42`, `3.14`.
 
@@ -392,7 +387,7 @@ Funktioner du kan använda med numeriska värden som `42`, `3.14`.
 - Returnerar en sträng med numret i fixpunktsnotation.
 - Exempel: `(3.14159).toFixed(2)` returnerar `"3.14"`.
 
-## List
+## List-typ
 
 Funktioner du kan använda med en ordnad lista av element som `[1, 2, 3]`.
 
@@ -430,7 +425,7 @@ Funktioner du kan använda med en ordnad lista av element som `[1, 2, 3]`.
 
 `list.filter(value: Boolean): list`
 
-- Filtrera elementen i denna lista genom att anropa en filterfunktion som använder variablerna `index` och `value`, och returnerar ett booleskt värde för om elementet ska behållas.
+- Filtrerar listan och behåller bara element där uttrycket är sant.
 - `value` är värdet av ett objekt i listan.
 - `index` är indexet för det aktuella värdet.
 - Exempel: `[1,2,3,4].filter(value > 2)` returnerar `[3,4]`.
@@ -439,7 +434,7 @@ Funktioner du kan använda med en ordnad lista av element som `[1, 2, 3]`.
 
 `list.flat(): list`
 
-- Plattar ut nästlade listor till en enda lista.
+- Plattar ut en nästlad lista till en enda lista.
 - Exempel: `[1,[2,3]].flat()` returnerar `[1,2,3]`.
 
 ### `isEmpty()`
@@ -461,7 +456,7 @@ Funktioner du kan använda med en ordnad lista av element som `[1, 2, 3]`.
 
 `list.map(value: Any): list`
 
-- Transformerar varje element i denna lista genom att anropa en konverteringsfunktion som använder variablerna `index` och `value`, och returnerar det nya värdet som ska placeras i listan.
+- Transformerar varje element i listan med ett uttryck.
 - `value` är värdet av ett objekt i listan.
 - `index` är indexet för det aktuella värdet.
 - Exempel: `[1,2,3,4].map(value + 1)` returnerar `[2,3,4,5]`.
@@ -470,7 +465,7 @@ Funktioner du kan använda med en ordnad lista av element som `[1, 2, 3]`.
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Reducerar elementen i denna lista till ett enda värde genom att köra ett uttryck för varje element. Uttrycket kan använda variablerna `index`, `value` och `acc` (ackumulatorn), och ska returnera nästa ackumulatorvärde.
+- Reducerar listan till ett enda värde genom att köra ett uttryck för varje element. Uttrycket måste returnera nästa värde av `acc`. Använd `value` för det aktuella elementet, `index` för dess position och `acc` för det ackumulerade resultatet hittills.
 - `expression` utvärderas för varje element i listan.
 - `value` är värdet av det aktuella objektet i listan.
 - `index` är indexet för det aktuella objektet.
@@ -510,7 +505,7 @@ Funktioner du kan använda med en ordnad lista av element som `[1, 2, 3]`.
 - Tar bort duplicerade element.
 - Exempel: `[1,2,2,3].unique()` returnerar `[1,2,3]`.
 
-## Link
+## Link-typ
 
 Funktioner du kan använda på en länk. Länkar kan skapas från en fil (`file.asLink()`) eller en sökväg (`link("path")`).
 
@@ -519,17 +514,17 @@ Funktioner du kan använda på en länk. Länkar kan skapas från en fil (`file.
 `link.asFile(): file`
 
 - Returnerar ett filobjekt om länken refererar till en giltig lokal fil.
-- Exempel: `link("[[filnamn]]").asFile()`
+- Exempel: `link("[[filnamn]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Returnerar om filen som representeras av `link` har en länk till `file`.
+- Returnerar `true` om filen som representeras av `link` har en länk till `file`.
 
-## File
+## File-typ
 
-Funktioner du kan använda med filer i valvet.
+Funktioner du kan använda med en fil i valvet.
 
 ### Fält
 
@@ -553,7 +548,7 @@ Följande fält är tillgängliga för filer:
 
 `file.asLink(display?: string): Link`
 
-- `display` valfri visningstext för länken.
+- `display` är valfri visningstext för länken.
 - Returnerar ett Link-objekt som renderas som en fungerande länk.
 - Exempel: `file.asLink()`
 
@@ -569,7 +564,7 @@ Följande fält är tillgängliga för filer:
 
 `file.hasProperty(name: string): boolean`
 
-- Returnerar true om anteckningen har den angivna filegenskapen.
+- Returnerar `true` om filen har den angivna egenskapen.
 
 ### `hasTag()`
 
@@ -587,7 +582,7 @@ Följande fält är tillgängliga för filer:
 - Returnerar true om filen finns i den angivna mappen eller en av dess undermappar.
 - Exempel: `file.inFolder("notes")` returnerar `true`.
 
-## Object
+## Object-typ
 
 Funktioner du kan använda med en samling nyckel-värdepar som `{"a": 1, "b": 2}`.
 
@@ -610,7 +605,7 @@ Funktioner du kan använda med en samling nyckel-värdepar som `{"a": 1, "b": 2}
 
 - Returnerar en lista som innehåller objektets värden.
 
-## Reguljärt uttryck
+## Reguljärt uttryck-typ
 
 Funktioner du kan använda med ett reguljärt uttrycksmönster. Exempel: `/abc/`.
 
