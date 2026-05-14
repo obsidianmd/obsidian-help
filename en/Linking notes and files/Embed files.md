@@ -4,14 +4,15 @@ aliases:
   - Linking notes and files/Embedding files
 cssclasses:
   - soft-embed
+description: Learn how to embed files from your vault in your notes to reuse content across multiple places.
 permalink: embeds
 ---
 
-Learn how you can embed other notes and media into your notes. By embedding files in your notes, you can reuse content across your vault.
+Embedded files display their content inline in a note and stay up to date when the source file changes.
 
 To embed a file in your vault, add an exclamation mark (`!`) in front of an [[Internal links|Internal link]]. You can embed files in any of the [[Accepted file formats]].
 
-> [!tip] Drag and Drop embed  
+> [!tip]- Drag and drop embed
 > On desktop, you can also drag and drop supported files directly into your note to embed them automatically.
 
 ## Embed a note in another note
@@ -22,7 +23,7 @@ To embed a note:
 ![[Internal links]]
 ```
 
-You can also embed links to [[Internal links#Link to a heading in a note|headings]] and [[Internal links#Link to a block in a note|blocks]].
+You can also embed specific [[Internal links#Link to a heading in a note|headings]] and [[Internal links#Link to a block in a note|blocks]].
 
 ```md
 ![[Internal links#^b15695]]
@@ -42,17 +43,17 @@ To embed an image:
 
 ![[Engelbart.jpg#outline]]
 
-You can change the image dimensions, by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
+You can change the image dimensions by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
 
 ```md
 ![[Engelbart.jpg|100x145]]
 ```
 
-If you only specify the width, the image scales according to its original aspect ratio. For example, `![[Engelbart.jpg|100]]`.
+If you only specify the width, the image scales proportionally. For example, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-You can also embed an externally hosted image by using a markdown link. You can control the width and height the same way as a wikilink. 
+You can also embed an externally hosted image by using a Markdown link. You can control the width and height using the same syntax as a wikilink.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -78,17 +79,28 @@ To embed a PDF:
 ![[Document.pdf]]
 ```
 
-You can also open a specific page in the PDF, by adding `#page=N` to the link destination, where `N` is the number of the page:
+You can also open a specific page in the PDF by adding `#page=N` to the link destination, where `N` is the number of the page:
 
 ```md
 ![[Document.pdf#page=3]]
 ```
 
-You can also specify the height in pixels for the embedded PDF viewer, by adding `#height=[number]` to the link. For example:
+You can also specify the height in pixels for the embedded PDF viewer by adding `#height=[number]` to the link. For example:
 
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Embed a canvas in a note
+
+To embed a [[Canvas|canvas]]:
+
+```md
+![[My canvas.canvas]]
+```
+
+> [!info]+ Canvas embeds show shapes only
+> Embedded canvases display shapes but not the text inside cards. To view the full canvas, open it directly.
 
 ## Embed a list in a note
 
@@ -108,6 +120,6 @@ Then link to the list using the block identifier:
 ![[My note#^my-list-id]]
 ```
 
-## Embed search results 
+## Embed search results
 
 ![[Search#Embed search results in a note]]
