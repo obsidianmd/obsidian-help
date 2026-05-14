@@ -15,7 +15,7 @@ Nếu bạn không có ý định sử dụng plugin cộng đồng hoặc chủ
 
 Vui lòng xem trang [[Bảo mật plugin]] cùng với phần này.
 
-Đội ngũ Obsidian xem xét tất cả plugin cộng đồng và chủ đề được gửi đến thư mục chính thức, thông qua [kho phát hành](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) của chúng tôi. Chúng tôi không xem xét các mục cộng đồng chưa được gửi đến thư mục chính thức.
+Obsidian tự động quét mọi phiên bản của plugin cộng đồng hoặc chủ đề trong [thư mục chính thức](https://obsidian.md/plugins) để tìm lỗ hổng bảo mật, vấn đề chất lượng mã và phần mềm độc hại. Trang thư mục của mỗi dự án hiển thị kết quả dưới dạng bảng điểm an toàn. Việc xem xét thủ công vẫn tiếp tục cho các mục phổ biến, nổi bật và bị đánh dấu. Chúng tôi không xem xét các mục cộng đồng chưa được gửi đến thư mục chính thức.
 
 Chúng tôi không có cửa hàng cộng đồng cho [[Mẩu CSS]]. Các tệp này thường được lấy từ [Cộng đồng Obsidian](https://obsidian.md/community) hoặc từ các kho GitHub công khai.
 

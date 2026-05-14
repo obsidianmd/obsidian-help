@@ -15,7 +15,7 @@ Jika Anda tidak berencana menggunakan plugin atau tema komunitas, atau [[Pengant
 
 Silakan tinjau halaman [[Keamanan plugin]] selain bagian ini.
 
-Tim Obsidian meninjau semua plugin dan tema komunitas yang diajukan ke direktori resmi, melalui [repositori rilis](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) kami. Kami tidak meninjau item komunitas yang belum diajukan ke direktori resmi.
+Obsidian secara otomatis memindai setiap versi plugin atau tema komunitas di [direktori resmi](https://obsidian.md/plugins) untuk kerentanan keamanan, masalah kualitas kode, dan malware. Setiap halaman direktori proyek menampilkan hasilnya sebagai kartu skor keamanan. Peninjauan manual tetap dilakukan untuk item yang populer, unggulan, dan yang ditandai. Kami tidak meninjau item komunitas yang belum diajukan ke direktori resmi.
 
 Kami tidak memiliki toko komunitas untuk [[Cuplikan CSS]]. File-file ini biasanya diperoleh dari dalam [Komunitas Obsidian](https://obsidian.md/community) kami atau dari repositori GitHub publik.
 

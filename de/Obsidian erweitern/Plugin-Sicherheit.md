@@ -34,9 +34,9 @@ Aufgrund technischer Einschränkungen kann Obsidian Erweiterungen nicht zuverlä
 
 ## Überprüfungsprozess für Erweiterungen
 
-Community-Erweiterungen durchlaufen eine erste Überprüfung, wenn sie im Erweiterungs-Store eingereicht werden. Alle Erweiterungen müssen den [Obsidian-Entwicklerrichtlinien](https://docs.obsidian.md/Developer+policies) entsprechen.
+Alle Community-Erweiterungen müssen den [Obsidian-Entwicklerrichtlinien](https://docs.obsidian.md/Developer+policies) entsprechen. Obsidian scannt automatisch jede Erweiterungsversion auf Sicherheitslücken, Code-Qualitätsprobleme und Malware. Die Seite jeder Erweiterung im [Erweiterungsverzeichnis](https://community.obsidian.md) zeigt die Ergebnisse als Sicherheits-Scorecard an.
 
-Das Obsidian-Team ist klein und kann nicht jede neue Version von Community-Erweiterungen manuell überprüfen. Stattdessen verlassen wir uns auf die Hilfe der Community, um Probleme mit Erweiterungen zu identifizieren und zu melden.
+Manuelle Überprüfungen werden weiterhin für beliebte, empfohlene und gemeldete Erweiterungen durchgeführt.
 
-- Wenn du kleinere Sicherheitslücken in einer Community-Erweiterung entdeckst, schau in der `security.md` oder `readme.md` des Erweiterungsautors nach, wie du diese melden kannst. Bei Schwachstellen der Kategorie „Kritisch" melde das Problem bitte auch dem [[Hilfe und Support#Obsidian-Support kontaktieren|Obsidian-Support]].
-- Wenn du den Verdacht hast, dass eine Community-Erweiterung bösartig ist, melde dies dem [[Hilfe und Support#Obsidian-Support kontaktieren|Obsidian-Support]] oder sende eine Direktnachricht an unsere Moderatoren.
+- Wenn du eine Sicherheitslücke in einer Community-Erweiterung entdeckst, schau in der `security.md` oder `readme.md` des Erweiterungsautors nach, wie du diese melden kannst. Bei kritischen Schwachstellen melde das Problem bitte auch dem [[Hilfe und Support#Obsidian-Support kontaktieren|Obsidian-Support]].
+- Wenn du den Verdacht hast, dass eine Community-Erweiterung bösartig ist, kannst du sie direkt über ihre Seite im Erweiterungsverzeichnis melden, dies dem [[Hilfe und Support#Obsidian-Support kontaktieren|Obsidian-Support]] melden oder eine Direktnachricht an unsere Moderatoren senden.

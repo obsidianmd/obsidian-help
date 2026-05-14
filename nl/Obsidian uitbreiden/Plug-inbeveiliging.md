@@ -34,9 +34,9 @@ Vanwege technische beperkingen kan Obsidian plug-ins niet betrouwbaar beperken t
 
 ## Beoordelingsproces van plug-ins
 
-Communityplug-ins ondergaan een initiële beoordeling wanneer ze worden ingediend bij de plug-inwinkel. Alle plug-ins moeten voldoen aan het [Obsidian-ontwikkelaarsbeleid](https://docs.obsidian.md/Developer+policies).
+Alle communityplug-ins moeten voldoen aan het [Obsidian-ontwikkelaarsbeleid](https://docs.obsidian.md/Developer+policies). Obsidian scant automatisch elke plug-inversie op beveiligingskwetsbaarheden, codekwaliteitsproblemen en malware. Op de pagina van elke plug-in in de [plug-indirectory](https://community.obsidian.md) worden de resultaten weergegeven als een veiligheidsscorekaart.
 
-Het Obsidian-team is klein en kan niet elke nieuwe release van communityplug-ins handmatig beoordelen. In plaats daarvan vertrouwen we op de hulp van de community om problemen met plug-ins te identificeren en te melden.
+Handmatige beoordelingen worden voortgezet voor populaire, uitgelichte en gemarkeerde plug-ins.
 
-- Als je kleine beveiligingskwetsbaarheden ontdekt in een community-plug-in, raadpleeg dan de `security.md` of `readme.md` van de plug-inauteur voor informatie over hoe je deze kunt melden. Meld kritieke kwetsbaarheden ook bij [[Hulp en ondersteuning#Contact opnemen met Obsidian-ondersteuning|Obsidian-ondersteuning]].
-- Als je vermoedt dat een community-plug-in kwaadaardig is, meld dit dan bij [[Hulp en ondersteuning#Contact opnemen met Obsidian-ondersteuning|Obsidian-ondersteuning]], of stuur een privébericht naar onze moderatoren.
+- Als je een beveiligingskwetsbaarheid ontdekt in een community-plug-in, raadpleeg dan de `security.md` of `readme.md` van de plug-inauteur voor informatie over hoe je deze kunt melden. Meld kritieke kwetsbaarheden ook bij [[Hulp en ondersteuning#Contact opnemen met Obsidian-ondersteuning|Obsidian-ondersteuning]].
+- Als je vermoedt dat een community-plug-in kwaadaardig is, kun je deze rechtstreeks markeren via de plug-indirectorypagina, melden bij [[Hulp en ondersteuning#Contact opnemen met Obsidian-ondersteuning|Obsidian-ondersteuning]], of een privébericht sturen naar onze moderatoren.

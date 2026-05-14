@@ -16,7 +16,7 @@ Lär dig hur du utökar Obsidian med tillägg byggda av gemenskapen. Använd til
 
 Använd textfältet för att filtrera tillägg baserat på namn, författare och beskrivning.
 
-Du kan också bläddra bland tillgängliga tillägg i din webbläsare genom att gå till [obsidian.md/plugins](https://obsidian.md/plugins).
+Du kan också bläddra bland tillgängliga tillägg i din webbläsare genom att gå till [community.obsidian.md](https://community.obsidian.md).
 
 ## Installera ett gemenskapstillägg
 

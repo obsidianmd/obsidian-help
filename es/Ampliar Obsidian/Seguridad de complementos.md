@@ -34,9 +34,9 @@ Debido a limitaciones técnicas, Obsidian no puede restringir de forma fiable lo
 
 ## Proceso de revisión de complementos
 
-Los complementos de la comunidad pasan por una revisión inicial cuando se envían a la tienda de complementos. Todos los complementos deben cumplir con las [Políticas para desarrolladores de Obsidian](https://docs.obsidian.md/Developer+policies).
+Todos los complementos de la comunidad deben cumplir con las [Políticas para desarrolladores de Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian analiza automáticamente cada versión de los complementos en busca de vulnerabilidades de seguridad, problemas de calidad de código y malware. La página de cada complemento en el [directorio de complementos](https://community.obsidian.md) muestra los resultados como una tarjeta de puntuación de seguridad.
 
-El equipo de Obsidian es pequeño y no puede revisar manualmente cada nueva versión de los complementos de la comunidad. En su lugar, contamos con la ayuda de la comunidad para identificar y reportar problemas con los complementos.
+Las revisiones manuales continúan para los complementos populares, destacados y marcados.
 
-- Si descubre alguna vulnerabilidad de seguridad menor en un complemento de la comunidad, consulte el archivo `security.md` o `readme.md` del autor del complemento para saber cómo reportarla. Para fallos de categoría Crítica, por favor reporte el problema también al [[Ayuda y soporte#Contactar con el soporte de Obsidian|soporte de Obsidian]].
-- Si sospecha que un complemento de la comunidad es malicioso, repórtelo al [[Ayuda y soporte#Contactar con el soporte de Obsidian|soporte de Obsidian]], o enviando un mensaje directo a nuestros moderadores.
+- Si descubre una vulnerabilidad de seguridad en un complemento de la comunidad, consulte el archivo `security.md` o `readme.md` del autor del complemento para saber cómo reportarla. Para fallos críticos, reporte el problema también al [[Ayuda y soporte#Contactar con el soporte de Obsidian|soporte de Obsidian]].
+- Si sospecha que un complemento de la comunidad es malicioso, puede marcarlo directamente desde su página en el directorio de complementos, reportarlo al [[Ayuda y soporte#Contactar con el soporte de Obsidian|soporte de Obsidian]], o enviar un mensaje directo a nuestros moderadores.

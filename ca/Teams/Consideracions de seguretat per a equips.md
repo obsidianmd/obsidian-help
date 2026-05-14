@@ -15,7 +15,7 @@ Si no teniu intenció d'utilitzar connectors o temes de la comunitat, ni [[Intro
 
 Si us plau, reviseu la pàgina [[Seguretat dels connectors]] a més d'aquesta secció.
 
-L'equip d'Obsidian revisa tots els connectors i temes de la comunitat enviats al directori oficial, a través del nostre [repositori de versions](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). No revisem elements de la comunitat que no hagin estat enviats al directori oficial.
+Obsidian analitza automàticament cada versió d'un connector o tema de la comunitat al [directori oficial](https://obsidian.md/plugins) per detectar vulnerabilitats de seguretat, problemes de qualitat del codi i programari maliciós. La pàgina del directori de cada projecte mostra els resultats com una targeta de puntuació de seguretat. Les revisions manuals continuen per als elements populars, destacats i marcats. No revisem elements de la comunitat que no hagin estat enviats al directori oficial.
 
 No disposem d'una botiga comunitària per a [[Pedaços de CSS]]. Aquests fitxers s'obtenen normalment des de la nostra [Comunitat Obsidian](https://obsidian.md/community) o des de repositoris públics de GitHub.
 

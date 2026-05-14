@@ -16,7 +16,7 @@ Lær hvordan du kan utvide Obsidian med tillegg bygget av fellesskapet. Bruk til
 
 Bruk tekstfeltet til å filtrere tillegg basert på navn, forfatter og beskrivelse.
 
-Du kan også bla gjennom tilgjengelige tillegg i nettleseren din ved å gå til [obsidian.md/plugins](https://obsidian.md/plugins).
+Du kan også bla gjennom tilgjengelige tillegg i nettleseren din ved å gå til [community.obsidian.md](https://community.obsidian.md).
 
 ## Installer en community-utvidelse
 

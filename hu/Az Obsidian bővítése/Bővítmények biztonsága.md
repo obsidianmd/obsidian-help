@@ -34,9 +34,9 @@ Technikai korlátok miatt az Obsidian nem tudja megbízhatóan korlátozni a bő
 
 ## Bővítmények felülvizsgálati folyamata
 
-A közösségi bővítmények a bővítménytárba való beküldéskor esnek át egy kezdeti felülvizsgálaton. Minden bővítménynek meg kell felelnie az [Obsidian fejlesztői irányelveknek](https://docs.obsidian.md/Developer+policies).
+Minden közösségi bővítménynek meg kell felelnie az [Obsidian fejlesztői irányelveknek](https://docs.obsidian.md/Developer+policies). Az Obsidian automatikusan átvizsgálja minden bővítmény minden verzióját biztonsági sebezhetőségek, kódminőségi problémák és kártevők szempontjából. Minden bővítmény oldala a [bővítménytárban](https://community.obsidian.md) megjeleníti az eredményeket egy biztonsági értékelőlapon.
 
-Az Obsidian csapata kicsi, és nem tudja manuálisan felülvizsgálni a közösségi bővítmények minden új kiadását. Ehelyett a közösség segítségére támaszkodunk a bővítményekkel kapcsolatos problémák azonosításában és jelentésében.
+A manuális felülvizsgálat a népszerű, kiemelt és megjelölt bővítmények esetében továbbra is folytatódik.
 
-- Ha kisebb biztonsági sebezhetőséget fedez fel egy közösségi bővítményben, tekintse meg a bővítmény szerzőjének `security.md` vagy `readme.md` fájlját a jelentés módjáról. Kritikus kategóriájú hibák esetén kérjük, jelezze a problémát az [[Súgó és támogatás#Kapcsolatfelvétel az Obsidian támogatással|Obsidian támogatásnak]] is.
-- Ha azt gyanítja, hogy egy közösségi bővítmény rosszindulatú, jelentse az [[Súgó és támogatás#Kapcsolatfelvétel az Obsidian támogatással|Obsidian támogatásnak]], vagy küldjön privát üzenetet moderátorainknak.
+- Ha biztonsági sebezhetőséget fedez fel egy közösségi bővítményben, tekintse meg a bővítmény szerzőjének `security.md` vagy `readme.md` fájlját a jelentés módjáról. Kritikus hibák esetén jelezze a problémát az [[Súgó és támogatás#Kapcsolatfelvétel az Obsidian támogatással|Obsidian támogatásnak]] is.
+- Ha azt gyanítja, hogy egy közösségi bővítmény rosszindulatú, megjelölheti közvetlenül a bővítménytár oldalán, jelentheti az [[Súgó és támogatás#Kapcsolatfelvétel az Obsidian támogatással|Obsidian támogatásnak]], vagy küldhet privát üzenetet moderátorainknak.

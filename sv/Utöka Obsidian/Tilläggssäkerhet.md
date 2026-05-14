@@ -34,9 +34,9 @@ På grund av tekniska begränsningar kan Obsidian inte på ett tillförlitligt s
 
 ## Granskningsprocess för tillägg
 
-Gemenskapstillägg genomgår en inledande granskning när de skickas in till tilläggsbutiken. Alla tillägg måste följa [Obsidians utvecklarpolicyer](https://docs.obsidian.md/Developer+policies).
+Alla gemenskapstillägg måste följa [Obsidians utvecklarpolicyer](https://docs.obsidian.md/Developer+policies). Obsidian skannar automatiskt varje tilläggsversion efter säkerhetsbrister, kodkvalitetsproblem och skadlig programvara. Varje tilläggs sida i [tilläggskatalogen](https://community.obsidian.md) visar resultaten som ett säkerhetskort.
 
-Obsidian-teamet är litet och kan inte manuellt granska varje ny version av gemenskapstillägg. Istället förlitar vi oss på gemenskapens hjälp för att identifiera och rapportera problem med tillägg.
+Manuella granskningar fortsätter för populära, utvalda och flaggade tillägg.
 
-- Om du upptäcker mindre säkerhetsbrister i ett gemenskapstillägg, se tilläggsförfattarens `security.md` eller `readme.md` för hur du rapporterar dessa. För kritiska brister, rapportera även problemet till [[Hjälp och support#Kontakta Obsidians support|Obsidians support]].
-- Om du misstänker att ett gemenskapstillägg är skadligt, rapportera det till [[Hjälp och support#Kontakta Obsidians support|Obsidians support]], eller genom att skicka ett direktmeddelande till våra moderatorer.
+- Om du upptäcker en säkerhetsbrist i ett gemenskapstillägg, se tilläggsförfattarens `security.md` eller `readme.md` för hur du rapporterar den. För kritiska brister, rapportera även problemet till [[Hjälp och support#Kontakta Obsidians support|Obsidians support]].
+- Om du misstänker att ett gemenskapstillägg är skadligt kan du flagga det direkt från dess sida i tilläggskatalogen, rapportera det till [[Hjälp och support#Kontakta Obsidians support|Obsidians support]], eller skicka ett direktmeddelande till våra moderatorer.

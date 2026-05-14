@@ -34,9 +34,9 @@ På grunn av tekniske begrensninger kan ikke Obsidian pålitelig begrense utvide
 
 ## Gjennomgangsprosess for utvidelser
 
-Community-utvidelser gjennomgår en innledende vurdering når de sendes inn til utvidelsesbutikken. Alle utvidelser må overholde [Obsidians utviklerpolicyer](https://docs.obsidian.md/Developer+policies).
+Alle community-utvidelser må overholde [Obsidians utviklerpolicyer](https://docs.obsidian.md/Developer+policies). Obsidian skanner automatisk hver utvidelsesversjon for sikkerhetssårbarheter, kodekvalitetsproblemer og skadevare. Hver utvidelsesside i [utvidelseskatalogen](https://community.obsidian.md) viser resultatene som et sikkerhetsvurderingskort.
 
-Obsidian-teamet er lite og kan ikke manuelt gjennomgå hver nye utgivelse av community-utvidelser. I stedet er vi avhengige av hjelp fra fellesskapet til å identifisere og rapportere problemer med utvidelser.
+Manuelle gjennomganger fortsetter for populære, fremhevede og flaggede utvidelser.
 
-- Hvis du oppdager mindre sikkerhetssårbarheter i en community-utvidelse, se utvidelsesforfatternes `security.md` eller `readme.md` for hvordan du rapporterer disse. For kritiske feil, vennligst rapporter problemet til [[Hjelp og støtte#Contact Obsidian support|Obsidian-støtte]] også.
-- Hvis du mistenker at en community-utvidelse er ondsinnet, rapporter det til [[Hjelp og støtte#Contact Obsidian support|Obsidian-støtte]], eller ved å sende en direktemelding til våre moderatorer.
+- Hvis du oppdager en sikkerhetssårbarhet i en community-utvidelse, se utvidelsesforfatternes `security.md` eller `readme.md` for hvordan du rapporterer den. For kritiske feil, rapporter også problemet til [[Hjelp og støtte#Contact Obsidian support|Obsidian-støtte]].
+- Hvis du mistenker at en community-utvidelse er ondsinnet, kan du flagge den direkte fra utvidelseskatalogsiden, rapportere det til [[Hjelp og støtte#Contact Obsidian support|Obsidian-støtte]], eller sende en direktemelding til våre moderatorer.

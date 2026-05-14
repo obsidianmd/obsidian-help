@@ -16,7 +16,7 @@ Dowiedz się, jak rozszerzyć Obsidian za pomocą wtyczek stworzonych przez spo�
 
 Użyj pola tekstowego, aby filtrować wtyczki na podstawie nazwy, autora i opisu.
 
-Możesz również przeglądać dostępne wtyczki w przeglądarce, odwiedzając stronę [obsidian.md/plugins](https://obsidian.md/plugins).
+Możesz również przeglądać dostępne wtyczki w przeglądarce, odwiedzając stronę [community.obsidian.md](https://community.obsidian.md).
 
 ## Instalowanie wtyczki społeczności
 

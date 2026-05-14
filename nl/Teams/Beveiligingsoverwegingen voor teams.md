@@ -15,7 +15,7 @@ Als je niet van plan bent community-plug-ins of thema's te gebruiken, of [[Intro
 
 Bekijk de pagina [[Plug-inbeveiliging]] naast dit gedeelte.
 
-Het Obsidian-team beoordeelt alle communityplug-ins en thema's die zijn ingediend bij de officiële lijst, via onze [releases-repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). We beoordelen geen community-items die niet bij de officiële lijst zijn ingediend.
+Obsidian scant automatisch elke versie van een communityplug-in of thema in de [officiële lijst](https://obsidian.md/plugins) op beveiligingskwetsbaarheden, codekwaliteitsproblemen en malware. De lijstpagina van elk project toont de resultaten als een veiligheidsscorekaart. Handmatige beoordelingen worden voortgezet voor populaire, uitgelichte en gemarkeerde items. We beoordelen geen community-items die niet bij de officiële lijst zijn ingediend.
 
 We hebben geen communitywinkel voor [[CSS-fragmenten]]. Deze bestanden worden doorgaans verkregen vanuit onze [Obsidian Community](https://obsidian.md/community) of vanuit openbare GitHub-repository's.
 

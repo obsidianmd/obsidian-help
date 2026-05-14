@@ -17,7 +17,7 @@ Se non si intende utilizzare plugin o temi della community, né [[Introduzione a
 
 Si prega di consultare la pagina [[Sicurezza dei plugin|Sicurezza dei plugin]] oltre a questa sezione.
 
-Il team di Obsidian esamina tutti i plugin e i temi della community inviati alla directory ufficiale, tramite il nostro [repository delle release](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Non esaminiamo elementi della community che non sono stati inviati alla directory ufficiale.
+Obsidian analizza automaticamente ogni versione di un plugin o tema della community nella [directory ufficiale](https://obsidian.md/plugins) per individuare vulnerabilità di sicurezza, problemi di qualità del codice e malware. La pagina della directory di ogni progetto mostra i risultati sotto forma di scheda di valutazione della sicurezza. Le revisioni manuali continuano per gli elementi popolari, in evidenza e segnalati. Non esaminiamo elementi della community che non sono stati inviati alla directory ufficiale.
 
 Non disponiamo di uno store della community per i [[Snippet CSS|frammenti CSS]]. Questi file vengono tipicamente ottenuti dalla nostra [Community di Obsidian](https://obsidian.md/it/community) o da repository pubblici su GitHub.
 

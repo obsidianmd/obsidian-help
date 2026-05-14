@@ -15,7 +15,7 @@ Jos et aio käyttää yhteisön lisäosia tai teemoja tai [[Johdanto Obsidian Sy
 
 Tutustu [[Lisäosien turvallisuus]]-sivuun tämän osion lisäksi.
 
-Obsidianin tiimi tarkistaa kaikki viralliseen hakemistoon lähetetyt yhteisön lisäosat ja teemat [julkaisuvarastomme](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) kautta. Emme tarkista yhteisön kohteita, joita ei ole lähetetty viralliseen hakemistoon.
+Obsidian skannaa automaattisesti jokaisen yhteisön lisäosan tai teeman version [virallisessa hakemistossa](https://obsidian.md/plugins) tietoturva-aukkojen, koodin laatuongelmien ja haittaohjelmien varalta. Jokaisen projektin hakemistosivulla näytetään tulokset turvallisuustuloskorttina. Manuaalisia tarkistuksia tehdään edelleen suosituille, esitellyille ja merkityille kohteille. Emme tarkista yhteisön kohteita, joita ei ole lähetetty viralliseen hakemistoon.
 
 Meillä ei ole yhteisökauppaa [[CSS-pätkät|CSS-pätkille]]. Nämä tiedostot hankitaan tyypillisesti [Obsidian-yhteisöstämme](https://obsidian.md/community) tai julkisista GitHub-varastoista.
 

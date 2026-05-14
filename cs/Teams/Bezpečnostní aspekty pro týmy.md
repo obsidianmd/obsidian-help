@@ -15,7 +15,7 @@ Pokud nemáte v úmyslu používat komunitní pluginy nebo motivy, ani [[Úvod d
 
 Kromě této části si prosím prostudujte stránku [[Bezpečnost pluginů]].
 
-Tým Obsidian kontroluje všechny komunitní pluginy a motivy odeslané do oficiálního adresáře prostřednictvím našeho [repozitáře vydání](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Nekontrolujeme komunitní položky, které nebyly odeslány do oficiálního adresáře.
+Obsidian automaticky skenuje každou verzi komunitního pluginu nebo motivu v [oficiálním adresáři](https://obsidian.md/plugins) na bezpečnostní zranitelnosti, problémy s kvalitou kódu a malware. Na stránce každého projektu v adresáři se zobrazují výsledky jako bezpečnostní přehled. Ruční kontroly pokračují u populárních, doporučených a označených položek. Nekontrolujeme komunitní položky, které nebyly odeslány do oficiálního adresáře.
 
 Nemáme komunitní obchod pro [[CSS úryvky]]. Tyto soubory se obvykle získávají z naší [komunity Obsidian](https://obsidian.md/community) nebo z veřejných repozitářů na GitHubu.
 

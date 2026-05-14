@@ -3,7 +3,6 @@ permalink: community-plugins
 description: Découvrez comment étendre Obsidian avec des modules créés par la communauté.
 mobile: false
 localized: '2026-03-18'
-
 ---
 Découvrez comment étendre Obsidian avec des modules créés par la communauté. Utilisez des modules pour adapter Obsidian à vos besoins spécifiques, comme la prise en charge de formats de fichiers supplémentaires ou l'intégration avec un service tiers.
 
@@ -18,7 +17,7 @@ Découvrez comment étendre Obsidian avec des modules créés par la communauté
 
 Utilisez la zone de texte pour filtrer les modules en fonction de leur nom, auteur et description.
 
-Vous pouvez également parcourir les modules disponibles dans votre navigateur en vous rendant sur [obsidian.md/plugins](https://obsidian.md/fr/plugins).
+Vous pouvez également parcourir les modules disponibles dans votre navigateur en vous rendant sur [community.obsidian.md](https://community.obsidian.md).
 
 ## Installer un module complémentaire
 

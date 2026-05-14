@@ -34,9 +34,9 @@ A causa de limitacions tècniques, Obsidian no pot restringir de manera fiable e
 
 ## Procés de revisió dels connectors
 
-Els connectors de la comunitat passen per una revisió inicial quan s'envien a la botiga de connectors. Tots els connectors han de complir les [Polítiques per a desenvolupadors d'Obsidian](https://docs.obsidian.md/Developer+policies).
+Tots els connectors de la comunitat han de complir les [Polítiques per a desenvolupadors d'Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian analitza automàticament cada versió dels connectors per detectar vulnerabilitats de seguretat, problemes de qualitat del codi i programari maliciós. La pàgina de cada connector al [directori de connectors](https://community.obsidian.md) mostra els resultats com una targeta de puntuació de seguretat.
 
-L'equip d'Obsidian és petit i no pot revisar manualment cada nova versió dels connectors de la comunitat. En canvi, comptem amb l'ajuda de la comunitat per identificar i informar de problemes amb els connectors.
+Les revisions manuals continuen per als connectors populars, destacats i marcats.
 
-- Si descobriu vulnerabilitats de seguretat menors en un connector de la comunitat, consulteu el fitxer `security.md` o `readme.md` de l'autor del connector per saber com informar-ne. Per a errors de categoria crítica, si us plau, informeu també del problema al [[Ajuda i suport#Contactar amb el suport d'Obsidian|suport d'Obsidian]].
-- Si sospiteu que un connector de la comunitat és maliciós, informeu-ne al [[Ajuda i suport#Contactar amb el suport d'Obsidian|suport d'Obsidian]], o enviant un missatge directe als nostres moderadors.
+- Si descobriu una vulnerabilitat de seguretat en un connector de la comunitat, consulteu el fitxer `security.md` o `readme.md` de l'autor del connector per saber com informar-ne. Per a errors crítics, informeu també del problema al [[Ajuda i suport#Contactar amb el suport d'Obsidian|suport d'Obsidian]].
+- Si sospiteu que un connector de la comunitat és maliciós, podeu marcar-lo directament des de la seva pàgina al directori de connectors, informar-ne al [[Ajuda i suport#Contactar amb el suport d'Obsidian|suport d'Obsidian]], o enviar un missatge directe als nostres moderadors.

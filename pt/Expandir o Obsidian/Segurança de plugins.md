@@ -34,9 +34,9 @@ Devido a limitações técnicas, o Obsidian não consegue restringir de forma fi
 
 ## Processo de revisão de plugins
 
-Os plugins da comunidade passam por uma revisão inicial quando são submetidos à loja de plugins. Todos os plugins devem aderir às [Políticas para Programadores do Obsidian](https://docs.obsidian.md/Developer+policies).
+Todos os plugins da comunidade devem aderir às [Políticas para Programadores do Obsidian](https://docs.obsidian.md/Developer+policies). O Obsidian analisa automaticamente cada versão de plugin em busca de vulnerabilidades de segurança, problemas de qualidade de código e malware. A página de cada plugin no [diretório de plugins](https://community.obsidian.md) apresenta os resultados como um painel de segurança.
 
-A equipa do Obsidian é pequena e não consegue rever manualmente cada nova versão dos plugins da comunidade. Em vez disso, contamos com a ajuda da comunidade para identificar e reportar problemas com plugins.
+As revisões manuais continuam para plugins populares, em destaque e sinalizados.
 
-- Se descobrir vulnerabilidades de segurança menores num plugin da comunidade, consulte o ficheiro `security.md` ou `readme.md` do autor do plugin para saber como as reportar. Para falhas de categoria Crítica, por favor reporte também o problema ao [[Ajuda e suporte#Contactar o suporte do Obsidian|suporte do Obsidian]].
-- Se suspeitar que um plugin da comunidade é malicioso, reporte-o ao [[Ajuda e suporte#Contactar o suporte do Obsidian|suporte do Obsidian]], ou enviando uma mensagem direta aos nossos moderadores.
+- Se descobrir uma vulnerabilidade de segurança num plugin da comunidade, consulte o ficheiro `security.md` ou `readme.md` do autor do plugin para saber como a reportar. Para falhas críticas, reporte também o problema ao [[Ajuda e suporte#Contactar o suporte do Obsidian|suporte do Obsidian]].
+- Se suspeitar que um plugin da comunidade é malicioso, pode sinalizá-lo diretamente a partir da sua página no diretório de plugins, reportá-lo ao [[Ajuda e suporte#Contactar o suporte do Obsidian|suporte do Obsidian]], ou enviar uma mensagem direta aos nossos moderadores.

@@ -15,7 +15,7 @@ Topluluk eklentilerini veya temalarını ya da [[Obsidian Sync'e giriş|Obsidian
 
 Bu bölüme ek olarak lütfen [[Eklenti güvenliği]] sayfasını inceleyin.
 
-Obsidian ekipleri, resmi dizine gönderilen tüm topluluk eklentilerini ve temalarını [yayın deposu](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) üzerinden inceler. Resmi dizine gönderilmemiş topluluk öğelerini incelemiyoruz.
+Obsidian, [resmi dizindeki](https://obsidian.md/plugins) her topluluk eklentisi veya temasının her sürümünü güvenlik açıkları, kod kalitesi sorunları ve kötü amaçlı yazılımlar açısından otomatik olarak tarar. Her projenin dizin sayfası, sonuçları bir güvenlik puan kartı olarak gösterir. Popüler, öne çıkan ve işaretlenen öğeler için manuel incelemeler devam etmektedir. Resmi dizine gönderilmemiş topluluk öğelerini incelemiyoruz.
 
 [[CSS kod parçaları]] için bir topluluk mağazamız yoktur. Bu dosyalar genellikle [Obsidian Topluluğu](https://obsidian.md/community) içinden veya herkese açık GitHub depolarından elde edilir.
 

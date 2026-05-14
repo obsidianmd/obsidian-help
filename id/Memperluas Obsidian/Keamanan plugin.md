@@ -34,9 +34,9 @@ Karena keterbatasan teknis, Obsidian tidak dapat secara andal membatasi plugin p
 
 ## Proses peninjauan plugin
 
-Plugin komunitas menjalani peninjauan awal saat dikirimkan ke toko plugin. Semua plugin harus mematuhi [Kebijakan Pengembang Obsidian](https://docs.obsidian.md/Developer+policies).
+Semua plugin komunitas harus mematuhi [Kebijakan Pengembang Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian secara otomatis memindai setiap versi plugin untuk kerentanan keamanan, masalah kualitas kode, dan malware. Halaman setiap plugin di [direktori plugin](https://community.obsidian.md) menampilkan hasilnya sebagai kartu skor keamanan.
 
-Tim Obsidian berukuran kecil dan tidak dapat meninjau secara manual setiap rilis baru dari plugin komunitas. Sebagai gantinya, kami mengandalkan bantuan komunitas untuk mengidentifikasi dan melaporkan masalah pada plugin.
+Peninjauan manual tetap dilakukan untuk plugin yang populer, direkomendasikan, dan ditandai.
 
-- Jika Anda menemukan kerentanan keamanan kecil dalam plugin komunitas, lihat `security.md` atau `readme.md` pembuat plugin untuk cara melaporkannya. Untuk kerentanan kategori Kritis, harap laporkan juga masalah tersebut ke [[Bantuan dan dukungan#Hubungi dukungan Obsidian|dukungan Obsidian]].
-- Jika Anda mencurigai bahwa plugin komunitas bersifat berbahaya, laporkan ke [[Bantuan dan dukungan#Hubungi dukungan Obsidian|dukungan Obsidian]], atau dengan mengirim DM ke moderator kami.
+- Jika Anda menemukan kerentanan keamanan dalam plugin komunitas, lihat `security.md` atau `readme.md` pembuat plugin untuk cara melaporkannya. Untuk kerentanan kritis, harap laporkan juga masalah tersebut ke [[Bantuan dan dukungan#Hubungi dukungan Obsidian|dukungan Obsidian]].
+- Jika Anda mencurigai bahwa plugin komunitas bersifat berbahaya, Anda dapat menandainya langsung dari halaman direktori plugin, melaporkan ke [[Bantuan dan dukungan#Hubungi dukungan Obsidian|dukungan Obsidian]], atau mengirim DM ke moderator kami.

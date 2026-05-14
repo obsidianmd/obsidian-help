@@ -38,9 +38,9 @@ Obsidian kan ikke på en pålidelig måde begrænse pluins til specifikke tillad
 
 ## Plugin review processen
 
-Fællesskabssplugins gennemgår et indledende review, når de indsendes til plugin arkivet. Alle plugins skal overholde [Obsidians udviklingspolitikker](https://docs.obsidian.md/Developer+policies).
+Alle fællesskabsplugins skal overholde [Obsidians udviklingspolitikker](https://docs.obsidian.md/Developer+policies). Obsidian scanner automatisk hver plugin-version for sikkerhedssårbarheder, kodekvalitetsproblemer og skadelig software. Hver plugins side i [plugin-kataloget](https://community.obsidian.md) viser resultaterne som et sikkerhedsvurderingskort.
 
-Da Obsidian teamet er lille, har de ikke mulighed for at reviewe enhver ny udgave af et fællesskabsplugin. Teamet stoler på, at fællesskabet hjælper til med at identificere og rapportere problemer med plugins.
+Manuelle reviews fortsætter for populære, fremhævede og markerede plugins.
 
-- Hvis du oplever den mindste sårbarhed i relation til sikkerhed i et fællesskabsplugin, så læs pluginudviklerens `security.md` eller `readme.md`, om hvrodan du rapporterer dem. Kritiske fejl skal også rapporteres til [[Hjælp og support#Kontakt Obsidian support|Obsidian supporten]]. 
-- Hvis du mistænker, at et fællesskabsplugin er skadeligt, så rapporter det til [[Hjælp og support#Kontakt Obsidian support|Obsidian supporten]], eller sende en besked direkte til en af vores moderatorer.
+- Hvis du oplever en sikkerhedssårbarhed i et fællesskabsplugin, så læs pluginudviklerens `security.md` eller `readme.md`, om hvordan du rapporterer den. Kritiske fejl skal også rapporteres til [[Hjælp og support#Kontakt Obsidian support|Obsidian supporten]].
+- Hvis du mistænker, at et fællesskabsplugin er skadeligt, kan du markere det direkte fra dets side i plugin-kataloget, rapportere det til [[Hjælp og support#Kontakt Obsidian support|Obsidian supporten]], eller sende en besked direkte til en af vores moderatorer.

@@ -3,7 +3,6 @@ permalink: teams/security
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-
 ---
 Notre page [Sécurité](https://obsidian.md/fr/security) compile les informations sur la manière dont Obsidian aborde la protection de vos données. C'est également le lieu où sont publiés les audits de sécurité réalisés par des tiers.
 
@@ -17,7 +16,7 @@ Si vous n'avez pas l'intention d'utiliser des modules complémentaires ou des th
 
 Veuillez consulter la page [[Sécurité des plugins]] en complément de cette section.
 
-L'équipe Obsidian examine tous les modules complémentaires et thèmes soumis au répertoire officiel, via notre [dépôt de publications](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Nous n'examinons pas les éléments communautaires qui n'ont pas été soumis au répertoire officiel.
+Obsidian analyse automatiquement chaque version d'un module complémentaire ou d'un thème du [répertoire officiel](https://obsidian.md/plugins) pour détecter les vulnérabilités de sécurité, les problèmes de qualité du code et les logiciels malveillants. La page de chaque projet dans le répertoire affiche les résultats sous forme d'une fiche de sécurité. Les examens manuels se poursuivent pour les éléments populaires, mis en avant ou signalés. Nous n'examinons pas les éléments communautaires qui n'ont pas été soumis au répertoire officiel.
 
 Nous ne disposons pas d'une boutique communautaire pour les [[Extraits CSS]]. Ces fichiers sont généralement obtenus au sein de notre [Communauté Obsidian](https://obsidian.md/fr/community) ou à partir de dépôts GitHub publics.
 

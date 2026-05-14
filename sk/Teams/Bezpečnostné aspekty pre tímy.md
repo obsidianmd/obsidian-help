@@ -15,7 +15,7 @@ Ak nemáte v pláne používať komunitné pluginy alebo témy, ani [[Úvod do O
 
 Okrem tejto sekcie si prečítajte aj stránku [[Bezpečnosť pluginov]].
 
-Tím Obsidian kontroluje všetky komunitné pluginy a témy odoslané do oficiálneho adresára prostredníctvom nášho [repozitára vydaní](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Nekontrolujeme komunitné položky, ktoré neboli odoslané do oficiálneho adresára.
+Obsidian automaticky skenuje každú verziu komunitného pluginu alebo témy v [oficiálnom adresári](https://obsidian.md/plugins) na bezpečnostné zraniteľnosti, problémy s kvalitou kódu a malvér. Na stránke každého projektu v adresári sa zobrazujú výsledky ako bezpečnostná hodnotiaca karta. Manuálne kontroly pokračujú pre populárne, odporúčané a označené položky. Nekontrolujeme komunitné položky, ktoré neboli odoslané do oficiálneho adresára.
 
 Nemáme komunitný obchod pre [[CSS snippety]]. Tieto súbory sa zvyčajne získavajú z našej [Obsidian komunity](https://obsidian.md/community) alebo z verejných GitHub repozitárov.
 

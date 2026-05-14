@@ -15,7 +15,7 @@ Hvis du ikke har tenkt å bruke community-utvidelser eller temaer, eller [[Intro
 
 Vennligst se gjennom siden for [[Utvidelsessikkerhet]] i tillegg til denne delen.
 
-Obsidian-teamet gjennomgår alle community-utvidelser og temaer som sendes inn til den offisielle katalogen, via vårt [utgivelsesrepositorium](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Vi gjennomgår ikke community-elementer som ikke er sendt inn til den offisielle katalogen.
+Obsidian skanner automatisk hver versjon av en community-utvidelse eller et tema i den [offisielle katalogen](https://obsidian.md/plugins) for sikkerhetssårbarheter, kodekvalitetsproblemer og skadevare. Hver prosjektside i katalogen viser resultatene som et sikkerhetsscorekort. Manuelle gjennomganger fortsetter for populære, fremhevede og flaggede elementer. Vi gjennomgår ikke community-elementer som ikke er sendt inn til den offisielle katalogen.
 
 Vi har ikke en community-butikk for [[CSS-utdrag]]. Disse filene hentes vanligvis fra vårt [Obsidian-fellesskap](https://obsidian.md/community) eller fra offentlige GitHub-repositorier.
 

@@ -1,7 +1,7 @@
 ---
 permalink: community-plugins
 mobile: false
-description: Erfahre, wie du Obsidian mit von der Community erstellten Erweiterungen erweitern kannst.
+description: 'Erfahre, wie du Obsidian mit von der Community erstellten Erweiterungen erweitern kannst.'
 ---
 Erfahre, wie du Obsidian mit von der Community erstellten Erweiterungen erweitern kannst. Verwende Erweiterungen, um Obsidian an deine spezifischen Bedürfnisse anzupassen, z. B. für die Unterstützung zusätzlicher Dateiformate oder die Integration mit einem Drittanbieterdienst.
 
@@ -16,7 +16,7 @@ Erfahre, wie du Obsidian mit von der Community erstellten Erweiterungen erweiter
 
 Verwende das Textfeld, um Erweiterungen nach Name, Autor und Beschreibung zu filtern.
 
-Du kannst verfügbare Erweiterungen auch in deinem Browser durchsuchen, indem du [obsidian.md/plugins](https://obsidian.md/plugins) besuchst.
+Du kannst verfügbare Erweiterungen auch in deinem Browser durchsuchen, indem du [community.obsidian.md](https://community.obsidian.md) besuchst.
 
 ## Eine Community-Erweiterung installieren
 

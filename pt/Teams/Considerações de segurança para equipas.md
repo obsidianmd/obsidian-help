@@ -15,7 +15,7 @@ Se não pretende utilizar plugins da comunidade ou temas, nem o [[Introdução a
 
 Por favor, reveja a página [[Segurança de plugins]] para além desta secção.
 
-A equipa do Obsidian revê todos os plugins da comunidade e temas submetidos ao diretório oficial, através do nosso [repositório de lançamentos](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Não revemos itens da comunidade que não tenham sido submetidos ao diretório oficial.
+O Obsidian analisa automaticamente cada versão de um plugin da comunidade ou tema no [diretório oficial](https://obsidian.md/plugins) para vulnerabilidades de segurança, problemas de qualidade de código e malware. A página de cada projeto no diretório apresenta os resultados como um cartão de pontuação de segurança. As revisões manuais continuam para itens populares, destacados e sinalizados. Não revemos itens da comunidade que não tenham sido submetidos ao diretório oficial.
 
 Não temos uma loja comunitária para [[Fragmentos CSS]]. Estes ficheiros são tipicamente obtidos dentro da nossa [Comunidade Obsidian](https://obsidian.md/community) ou a partir de repositórios públicos do GitHub.
 

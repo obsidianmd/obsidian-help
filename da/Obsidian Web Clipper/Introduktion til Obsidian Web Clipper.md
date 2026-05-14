@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Web Clipper
   - Udvidelse af Obsidian/Obsidian Web Clipper
   - Introduktion til Obsidian Web clipper
   - Obsidian Web Clipper/Introduktion til Obsidian Web clipper

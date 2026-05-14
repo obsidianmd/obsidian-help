@@ -15,7 +15,7 @@ Se você não pretende usar plugins da comunidade ou temas, nem o [[Introdução
 
 Por favor, revise a página [[Segurança de plugins]] além desta seção.
 
-A equipe do Obsidian revisa todos os plugins da comunidade e temas enviados ao diretório oficial, por meio do nosso [repositório de lançamentos](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Não revisamos itens da comunidade que não foram enviados ao diretório oficial.
+O Obsidian verifica automaticamente cada versão de um plugin da comunidade ou tema no [diretório oficial](https://obsidian.md/plugins) em busca de vulnerabilidades de segurança, problemas de qualidade de código e malware. A página de cada projeto no diretório exibe os resultados como um cartão de pontuação de segurança. Revisões manuais continuam sendo feitas para itens populares, em destaque e sinalizados. Não revisamos itens da comunidade que não foram enviados ao diretório oficial.
 
 Não temos uma loja comunitária para [[Trechos CSS]]. Esses arquivos são normalmente obtidos dentro da nossa [Comunidade Obsidian](https://obsidian.md/pt-BR/community) ou de repositórios públicos no GitHub.
 

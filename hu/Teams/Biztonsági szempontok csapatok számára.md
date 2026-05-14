@@ -15,7 +15,7 @@ Ha nem tervezi közösségi bővítmények vagy témák, illetve az [[Bevezetés
 
 Kérjük, tekintse át a [[Bővítmények biztonsága]] oldalt ezen szakasz mellett.
 
-Az Obsidian csapata áttekinti az összes, a hivatalos könyvtárba benyújtott közösségi bővítményt és témát a [kiadások adattárunkon](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) keresztül. Nem vizsgáljuk felül azokat a közösségi elemeket, amelyeket nem nyújtottak be a hivatalos könyvtárba.
+Az Obsidian automatikusan átvizsgálja a [hivatalos könyvtárban](https://obsidian.md/plugins) található közösségi bővítmények és témák minden verzióját biztonsági sebezhetőségek, kódminőségi problémák és kártékony szoftverek szempontjából. Minden projekt könyvtároldala megjeleníti az eredményeket egy biztonsági értékelőlapon. A népszerű, kiemelt és megjelölt elemek esetében továbbra is történik manuális felülvizsgálat. Nem vizsgáljuk felül azokat a közösségi elemeket, amelyeket nem nyújtottak be a hivatalos könyvtárba.
 
 Nem rendelkezünk közösségi áruházzal a [[CSS kódrészletek]] számára. Ezeket a fájlokat jellemzően az [Obsidian közösségen](https://obsidian.md/community) belül vagy nyilvános GitHub adattárakból szerzik be.
 

@@ -34,9 +34,9 @@ Ze względu na ograniczenia techniczne Obsidian nie może w niezawodny sposób o
 
 ## Proces recenzji wtyczek
 
-Wtyczki społeczności przechodzą wstępną recenzję przy zgłaszaniu ich do sklepu z wtyczkami. Wszystkie wtyczki muszą być zgodne z [Zasadami dla deweloperów Obsidian](https://docs.obsidian.md/Developer+policies).
+Wszystkie wtyczki społeczności muszą być zgodne z [Zasadami dla deweloperów Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian automatycznie skanuje każdą wersję wtyczki pod kątem luk bezpieczeństwa, problemów z jakością kodu i złośliwego oprogramowania. Na stronie każdej wtyczki w [katalogu wtyczek](https://community.obsidian.md) wyniki są wyświetlane jako karta oceny bezpieczeństwa.
 
-Zespół Obsidian jest mały i nie jest w stanie ręcznie przeglądać każdego nowego wydania wtyczek społeczności. Zamiast tego polegamy na pomocy społeczności w identyfikowaniu i zgłaszaniu problemów z wtyczkami.
+Ręczne recenzje są nadal przeprowadzane dla popularnych, wyróżnionych i oznaczonych wtyczek.
 
-- Jeśli odkryjesz drobne luki bezpieczeństwa we wtyczce społeczności, sprawdź plik `security.md` lub `readme.md` autora wtyczki, aby dowiedzieć się, jak je zgłaszać. W przypadku krytycznych błędów zgłoś problem również do [[Pomoc i wsparcie#Kontakt z pomocą techniczną Obsidian|pomocy technicznej Obsidian]].
-- Jeśli podejrzewasz, że wtyczka społeczności jest złośliwa, zgłoś to do [[Pomoc i wsparcie#Kontakt z pomocą techniczną Obsidian|pomocy technicznej Obsidian]] lub wyślij prywatną wiadomość do naszych moderatorów.
+- Jeśli odkryjesz lukę bezpieczeństwa we wtyczce społeczności, sprawdź plik `security.md` lub `readme.md` autora wtyczki, aby dowiedzieć się, jak ją zgłosić. W przypadku krytycznych błędów zgłoś problem również do [[Pomoc i wsparcie#Kontakt z pomocą techniczną Obsidian|pomocy technicznej Obsidian]].
+- Jeśli podejrzewasz, że wtyczka społeczności jest złośliwa, możesz ją oznaczyć bezpośrednio na stronie katalogu wtyczek, zgłosić to do [[Pomoc i wsparcie#Kontakt z pomocą techniczną Obsidian|pomocy technicznej Obsidian]] lub wysłać prywatną wiadomość do naszych moderatorów.

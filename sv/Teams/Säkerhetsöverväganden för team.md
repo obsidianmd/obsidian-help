@@ -15,7 +15,7 @@ Om du inte avser att använda gemenskapstillägg eller teman, eller [[Introdukti
 
 Vänligen granska sidan [[Tilläggssäkerhet]] utöver denna sektion.
 
-Obsidian-teamet granskar alla gemenskapstillägg och teman som skickas in till den officiella katalogen, via vårt [releases-arkiv](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Vi granskar inte gemenskapsobjekt som inte har skickats in till den officiella katalogen.
+Obsidian skannar automatiskt varje version av ett gemenskapstillägg eller tema i den [officiella katalogen](https://obsidian.md/plugins) efter säkerhetssårbarheter, kodkvalitetsproblem och skadlig programvara. Varje projekts katalogsida visar resultaten som ett säkerhetsbetyg. Manuella granskningar fortsätter för populära, utvalda och flaggade objekt. Vi granskar inte gemenskapsobjekt som inte har skickats in till den officiella katalogen.
 
 Vi har ingen gemenskapsbutik för [[CSS-instick]]. Dessa filer erhålls vanligtvis från vår [Obsidian-gemenskap](https://obsidian.md/community) eller från publika GitHub-arkiv.
 

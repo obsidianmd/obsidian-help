@@ -15,7 +15,7 @@ Hvis du ikke har til hensigt at bruge fællesskabsplugins eller temaer, eller [[
 
 Gennemgå venligst siden [[Pluginsikkerhed]] ud over dette afsnit.
 
-Obsidian-teamet gennemgår alle fællesskabsplugins og temaer, der indsendes til det officielle katalog, via vores [releases-repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Vi gennemgår ikke fællesskabselementer, som ikke er indsendt til det officielle katalog.
+Obsidian scanner automatisk hver version af et fællesskabsplugin eller tema i det [officielle katalog](https://obsidian.md/plugins) for sikkerhedssårbarheder, kodekvalitetsproblemer og malware. Hver projekts katalogside viser resultaterne som et sikkerhedsscorekort. Manuelle gennemgange fortsætter for populære, fremhævede og markerede elementer. Vi gennemgår ikke fællesskabselementer, som ikke er indsendt til det officielle katalog.
 
 Vi har ikke en fællesskabsbutik for [[CSS-kodestykker]]. Disse filer hentes typisk fra vores [Obsidian-fællesskab](https://obsidian.md/community) eller fra offentlige GitHub-repositories.
 

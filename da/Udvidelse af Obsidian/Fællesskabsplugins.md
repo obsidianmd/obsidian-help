@@ -19,7 +19,7 @@ Lær at udvide Obsidians funktionalitet med plugins udviklet af fællesskabet. D
 
 Du kan benytte tekstfeltet til at  filtrere plugins efter navn, udvikler og beskrivelse.
 
-Du kan også gennemse tilgængelige plugins i din internet browser ved at gå til [obsidian.md/plugins](https://obsidian.md/plugins).
+Du kan også gennemse tilgængelige plugins i din internet browser ved at gå til [community.obsidian.md](https://community.obsidian.md).
 
 ## Sådan installerer du et fællesskabsplugin
 

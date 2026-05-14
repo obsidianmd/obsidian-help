@@ -36,9 +36,9 @@ A causa di limitazioni tecniche, Obsidian non può limitare in modo affidabile i
 
 ## Processo di revisione dei plugin
 
-I plugin della community vengono sottoposti a una revisione iniziale quando vengono inviati allo store dei plugin. Tutti i plugin devono rispettare le [Politiche per sviluppatori di Obsidian](https://docs.obsidian.md/Developer+policies).
+Tutti i plugin della community devono rispettare le [Politiche per sviluppatori di Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian analizza automaticamente ogni versione dei plugin alla ricerca di vulnerabilità di sicurezza, problemi di qualità del codice e malware. La pagina di ogni plugin nella [directory dei plugin](https://community.obsidian.md) mostra i risultati sotto forma di scheda di valutazione della sicurezza.
 
-Il team di Obsidian è piccolo e non è in grado di revisionare manualmente ogni nuova versione dei plugin della community. Ci affidiamo invece all'aiuto della community per identificare e segnalare problemi con i plugin.
+Le revisioni manuali continuano per i plugin popolari, in evidenza e segnalati.
 
-- Se si scoprono vulnerabilità di sicurezza minori in un plugin della community, fare riferimento al file `security.md` o `readme.md` dell'autore del plugin per sapere come segnalarle. Per falle di categoria critica, segnalare il problema anche al [[Aiuto e supporto#Contattare il supporto Obsidian|supporto Obsidian]].
-- Se si sospetta che un plugin della community sia malevolo, segnalarlo al [[Aiuto e supporto#Contattare il supporto Obsidian|supporto Obsidian]], o inviando un messaggio diretto ai nostri moderatori.
+- Se si scopre una vulnerabilità di sicurezza in un plugin della community, fare riferimento al file `security.md` o `readme.md` dell'autore del plugin per sapere come segnalarla. Per falle critiche, segnalare il problema anche al [[Aiuto e supporto#Contattare il supporto Obsidian|supporto Obsidian]].
+- Se si sospetta che un plugin della community sia malevolo, è possibile segnalarlo direttamente dalla sua pagina nella directory dei plugin, al [[Aiuto e supporto#Contattare il supporto Obsidian|supporto Obsidian]], o inviando un messaggio diretto ai nostri moderatori.

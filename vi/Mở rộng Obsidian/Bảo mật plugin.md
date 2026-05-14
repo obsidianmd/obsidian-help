@@ -34,9 +34,9 @@ Do hạn chế kỹ thuật, Obsidian không thể giới hạn plugin một cá
 
 ## Quy trình xét duyệt plugin
 
-Plugin cộng đồng trải qua quá trình xét duyệt ban đầu khi được gửi lên cửa hàng plugin. Tất cả plugin phải tuân thủ [Chính sách dành cho nhà phát triển Obsidian](https://docs.obsidian.md/Developer+policies).
+Tất cả plugin cộng đồng phải tuân thủ [Chính sách dành cho nhà phát triển Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian tự động quét mọi phiên bản plugin để tìm lỗ hổng bảo mật, vấn đề chất lượng mã và phần mềm độc hại. Trang của mỗi plugin trong [thư mục plugin](https://community.obsidian.md) hiển thị kết quả dưới dạng bảng điểm an toàn.
 
-Đội ngũ Obsidian có quy mô nhỏ và không thể xét duyệt thủ công mọi bản phát hành mới của plugin cộng đồng. Thay vào đó, chúng tôi dựa vào sự giúp đỡ của cộng đồng để xác định và báo cáo các vấn đề với plugin.
+Việc xét duyệt thủ công vẫn tiếp tục được thực hiện cho các plugin phổ biến, được giới thiệu và bị gắn cờ.
 
-- Nếu bạn phát hiện bất kỳ lỗ hổng bảo mật nhỏ nào trong plugin cộng đồng, hãy tham khảo tệp `security.md` hoặc `readme.md` của tác giả plugin để biết cách báo cáo. Đối với các lỗ hổng ở mức Nghiêm trọng, vui lòng báo cáo vấn đề tới [[Trợ giúp và hỗ trợ#Liên hệ hỗ trợ Obsidian|hỗ trợ Obsidian]] cũng như vậy.
-- Nếu bạn nghi ngờ rằng một plugin cộng đồng có tính chất độc hại, hãy báo cáo tới [[Trợ giúp và hỗ trợ#Liên hệ hỗ trợ Obsidian|hỗ trợ Obsidian]], hoặc gửi tin nhắn riêng cho các quản trị viên của chúng tôi.
+- Nếu bạn phát hiện lỗ hổng bảo mật trong plugin cộng đồng, hãy tham khảo tệp `security.md` hoặc `readme.md` của tác giả plugin để biết cách báo cáo. Đối với các lỗ hổng nghiêm trọng, vui lòng báo cáo vấn đề tới [[Trợ giúp và hỗ trợ#Liên hệ hỗ trợ Obsidian|hỗ trợ Obsidian]] cũng như vậy.
+- Nếu bạn nghi ngờ rằng một plugin cộng đồng có tính chất độc hại, bạn có thể gắn cờ trực tiếp từ trang thư mục plugin của nó, báo cáo tới [[Trợ giúp và hỗ trợ#Liên hệ hỗ trợ Obsidian|hỗ trợ Obsidian]], hoặc gửi tin nhắn riêng cho các quản trị viên của chúng tôi.

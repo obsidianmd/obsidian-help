@@ -34,9 +34,9 @@ Z technických důvodů nemůže Obsidian spolehlivě omezit pluginy na konkrét
 
 ## Proces kontroly pluginů
 
-Komunitní pluginy procházejí počáteční kontrolou při odeslání do obchodu s pluginy. Všechny pluginy musí dodržovat [Zásady pro vývojáře Obsidian](https://docs.obsidian.md/Developer+policies).
+Všechny komunitní pluginy musí dodržovat [Zásady pro vývojáře Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian automaticky skenuje každou verzi pluginu na bezpečnostní zranitelnosti, problémy s kvalitou kódu a malware. Stránka každého pluginu v [adresáři pluginů](https://community.obsidian.md) zobrazuje výsledky jako bezpečnostní přehled.
 
-Tým Obsidian je malý a nemůže ručně kontrolovat každé nové vydání komunitních pluginů. Místo toho se spoléháme na pomoc komunity při identifikaci a hlášení problémů s pluginy.
+Ruční kontroly pokračují u populárních, doporučených a označených pluginů.
 
-- Pokud objevíte drobné bezpečnostní zranitelnosti v komunitním pluginu, podívejte se do souboru `security.md` nebo `readme.md` autora pluginu, kde najdete informace o tom, jak je nahlásit. V případě kritických chyb prosím nahlaste problém také [[Nápověda a podpora#Kontaktování podpory Obsidian|podpoře Obsidian]].
-- Pokud máte podezření, že komunitní plugin je škodlivý, nahlaste to [[Nápověda a podpora#Kontaktování podpory Obsidian|podpoře Obsidian]] nebo pošlete přímou zprávu našim moderátorům.
+- Pokud objevíte bezpečnostní zranitelnost v komunitním pluginu, podívejte se do souboru `security.md` nebo `readme.md` autora pluginu, kde najdete informace o tom, jak ji nahlásit. V případě kritických chyb nahlaste problém také [[Nápověda a podpora#Kontaktování podpory Obsidian|podpoře Obsidian]].
+- Pokud máte podezření, že komunitní plugin je škodlivý, můžete jej nahlásit přímo ze stránky v adresáři pluginů, nahlásit to [[Nápověda a podpora#Kontaktování podpory Obsidian|podpoře Obsidian]] nebo poslat přímou zprávu našim moderátorům.

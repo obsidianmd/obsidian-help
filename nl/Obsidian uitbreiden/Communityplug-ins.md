@@ -16,7 +16,7 @@ Leer hoe je Obsidian kunt uitbreiden met plug-ins die door de community zijn geb
 
 Gebruik het tekstveld om plug-ins te filteren op naam, auteur en beschrijving.
 
-Je kunt ook door beschikbare plug-ins bladeren in je browser door naar [obsidian.md/plugins](https://obsidian.md/plugins) te gaan.
+Je kunt ook door beschikbare plug-ins bladeren in je browser door naar [community.obsidian.md](https://community.obsidian.md) te gaan.
 
 ## Een communityplug-in installeren
 

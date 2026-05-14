@@ -15,7 +15,7 @@ Wenn du nicht vorhast, Community-Erweiterungen oder -Themen zu verwenden, oder [
 
 Bitte lies zusätzlich zu diesem Abschnitt die Seite [[Plugin-Sicherheit]].
 
-Das Obsidian-Team überprüft alle Community-Erweiterungen und Themen, die im offiziellen Verzeichnis eingereicht werden, über unser [Releases-Repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Wir überprüfen keine Community-Beiträge, die nicht im offiziellen Verzeichnis eingereicht wurden.
+Obsidian scannt automatisch jede Version einer Community-Erweiterung oder eines Themas im [offiziellen Verzeichnis](https://obsidian.md/plugins) auf Sicherheitslücken, Code-Qualitätsprobleme und Malware. Auf der Verzeichnisseite jedes Projekts werden die Ergebnisse als Sicherheits-Scorecard angezeigt. Manuelle Überprüfungen werden weiterhin für beliebte, vorgestellte und gemeldete Einträge durchgeführt. Wir überprüfen keine Community-Beiträge, die nicht im offiziellen Verzeichnis eingereicht wurden.
 
 Wir haben keinen Community-Store für [[CSS-Bausteine]]. Diese Dateien werden typischerweise innerhalb unserer [Obsidian-Community](https://obsidian.md/community) oder aus öffentlichen GitHub-Repositories bezogen.
 

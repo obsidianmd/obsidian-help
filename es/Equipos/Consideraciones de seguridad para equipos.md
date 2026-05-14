@@ -15,7 +15,7 @@ Si no tienes intención de usar complementos de la comunidad o temas, ni [[Intro
 
 Por favor, revisa la página de [[Seguridad de complementos]] además de esta sección.
 
-El equipo de Obsidian revisa todos los complementos de la comunidad y temas enviados al directorio oficial, a través de nuestro [repositorio de lanzamientos](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). No revisamos elementos de la comunidad que no hayan sido enviados al directorio oficial.
+Obsidian escanea automáticamente cada versión de un complemento de la comunidad o tema en el [directorio oficial](https://obsidian.md/plugins) en busca de vulnerabilidades de seguridad, problemas de calidad de código y malware. La página del directorio de cada proyecto muestra los resultados como una tarjeta de puntuación de seguridad. Las revisiones manuales continúan para los elementos populares, destacados y marcados. No revisamos elementos de la comunidad que no hayan sido enviados al directorio oficial.
 
 No tenemos una tienda comunitaria para [[Fragmentos CSS]]. Estos archivos se obtienen típicamente desde nuestra [Comunidad de Obsidian](https://obsidian.md/es/community) o desde repositorios públicos de GitHub.
 

@@ -15,7 +15,7 @@ Jeśli nie zamierzasz korzystać z wtyczek społeczności ani motywów, ani z [[
 
 Zapoznaj się ze stroną [[Bezpieczeństwo wtyczek]] oprócz tej sekcji.
 
-Zespół Obsidian przegląda wszystkie wtyczki społeczności i motywy przesłane do oficjalnego katalogu za pośrednictwem naszego [repozytorium wydań](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). Nie przeglądamy elementów społeczności, które nie zostały przesłane do oficjalnego katalogu.
+Obsidian automatycznie skanuje każdą wersję wtyczki społeczności lub motywu w [oficjalnym katalogu](https://obsidian.md/plugins) pod kątem luk bezpieczeństwa, problemów z jakością kodu i złośliwego oprogramowania. Na stronie każdego projektu w katalogu wyświetlane są wyniki w formie karty bezpieczeństwa. Ręczne przeglądy są kontynuowane dla popularnych, wyróżnionych i oznaczonych elementów. Nie przeglądamy elementów społeczności, które nie zostały przesłane do oficjalnego katalogu.
 
 Nie mamy sklepu społeczności dla [[Snippety CSS|snippetów CSS]]. Pliki te są zazwyczaj pozyskiwane z naszej [Społeczności Obsidian](https://obsidian.md/community) lub z publicznych repozytoriów GitHub.
 

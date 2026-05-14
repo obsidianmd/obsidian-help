@@ -34,9 +34,9 @@ Teknisistä rajoituksista johtuen Obsidian ei pysty luotettavasti rajoittamaan l
 
 ## Lisäosien tarkistusprosessi
 
-Yhteisön lisäosat käyvät läpi alustavan tarkistuksen, kun ne lähetetään lisäosakauppaan. Kaikkien lisäosien on noudatettava [Obsidianin kehittäjäkäytäntöjä](https://docs.obsidian.md/Developer+policies).
+Kaikkien yhteisön lisäosien on noudatettava [Obsidianin kehittäjäkäytäntöjä](https://docs.obsidian.md/Developer+policies). Obsidian skannaa automaattisesti jokaisen lisäosaversion tietoturva-aukkojen, koodin laatuongelmien ja haittaohjelmien varalta. Jokaisen lisäosan sivulla [lisäosahakemistossa](https://community.obsidian.md) näytetään tulokset turvallisuusarviointina.
 
-Obsidian-tiimi on pieni eikä pysty manuaalisesti tarkistamaan jokaista yhteisön lisäosien uutta julkaisua. Sen sijaan luotamme yhteisön apuun lisäosiin liittyvien ongelmien tunnistamisessa ja raportoinnissa.
+Manuaalisia tarkistuksia tehdään edelleen suosituille, esitellyille ja merkityille lisäosille.
 
-- Jos havaitset yhteisön lisäosassa pieniä tietoturva-aukkoja, tarkista lisäosan tekijän `security.md`- tai `readme.md`-tiedostosta ohjeet niiden raportointiin. Kriittisten haavoittuvuuksien osalta ilmoita ongelmasta myös [[Apua ja tuki#Ota yhteyttä Obsidianin tukeen|Obsidianin tukeen]].
-- Jos epäilet, että yhteisön lisäosa on haitallinen, ilmoita siitä [[Apua ja tuki#Ota yhteyttä Obsidianin tukeen|Obsidianin tukeen]] tai lähettämällä yksityisviesti moderaattoreillemme.
+- Jos havaitset yhteisön lisäosassa tietoturva-aukon, tarkista lisäosan tekijän `security.md`- tai `readme.md`-tiedostosta ohjeet sen raportointiin. Kriittisten haavoittuvuuksien osalta ilmoita ongelmasta myös [[Apua ja tuki#Ota yhteyttä Obsidianin tukeen|Obsidianin tukeen]].
+- Jos epäilet, että yhteisön lisäosa on haitallinen, voit merkitä sen suoraan lisäosahakemiston sivulta, ilmoittaa siitä [[Apua ja tuki#Ota yhteyttä Obsidianin tukeen|Obsidianin tukeen]] tai lähettämällä yksityisviesti moderaattoreillemme.

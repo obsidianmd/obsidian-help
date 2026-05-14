@@ -34,9 +34,9 @@ Teknik sınırlamalar nedeniyle, Obsidian eklentileri belirli izinler veya eriş
 
 ## Eklenti inceleme süreci
 
-Topluluk eklentileri, eklenti mağazasına gönderildiklerinde ilk incelemeden geçer. Tüm eklentiler [Obsidian Geliştirici Politikaları](https://docs.obsidian.md/Developer+policies)'na uygun olmalıdır.
+Tüm topluluk eklentileri [Obsidian Geliştirici Politikaları](https://docs.obsidian.md/Developer+policies)'na uygun olmalıdır. Obsidian, her eklenti sürümünü güvenlik açıkları, kod kalitesi sorunları ve kötü amaçlı yazılımlar için otomatik olarak tarar. [Eklenti dizinindeki](https://community.obsidian.md) her eklentinin sayfası, sonuçları bir güvenlik puan kartı olarak görüntüler.
 
-Obsidian ekibi küçüktür ve topluluk eklentilerinin her yeni sürümünü manuel olarak inceleyemez. Bunun yerine, eklentilerle ilgili sorunları tespit etmek ve bildirmek için topluluğun yardımına güveniyoruz.
+Manuel incelemeler popüler, öne çıkan ve işaretlenen eklentiler için devam etmektedir.
 
-- Bir topluluk eklentisinde küçük güvenlik açıkları keşfederseniz, bunları nasıl bildireceğiniz konusunda eklenti yazarının `security.md` veya `readme.md` dosyasına başvurun. Kritik kategorideki kusurlar için lütfen sorunu [[Yardım ve destek#Obsidian desteğiyle iletişime geçin|Obsidian desteğine]] de bildirin.
-- Bir topluluk eklentisinin kötü amaçlı olduğundan şüpheleniyorsanız, bunu [[Yardım ve destek#Obsidian desteğiyle iletişime geçin|Obsidian desteğine]] bildirin veya moderatörlerimize DM gönderin.
+- Bir topluluk eklentisinde güvenlik açığı keşfederseniz, bunu nasıl bildireceğiniz konusunda eklenti yazarının `security.md` veya `readme.md` dosyasına başvurun. Kritik kusurlar için sorunu [[Yardım ve destek#Obsidian desteğiyle iletişime geçin|Obsidian desteğine]] de bildirin.
+- Bir topluluk eklentisinin kötü amaçlı olduğundan şüpheleniyorsanız, eklenti dizini sayfasından doğrudan işaretleyebilir, [[Yardım ve destek#Obsidian desteğiyle iletişime geçin|Obsidian desteğine]] bildirebilir veya moderatörlerimize DM gönderebilirsiniz.
