@@ -12,17 +12,8 @@ Du kan benytte skabeloner til at indsætte foruddefineredet tekst ind i din akti
 
 ## Indstil din skabelonmappe
 
-1. Klik på **indstillinger** (tandhjulsikonet) nederst i båndmenuen til venstre
+1. Vælg **indstillinger** (tandhjulsikonet) nederst i båndmenuen til venstre
 2. Under **Kerne plugins → Skabeloner → Placering af skabelonmappe** angiver du den mappe, som skal indeholde dine skabeloner
-
-## Indsæt en skabelon i den aktive note
-
-**Vigtigt:** For at indsætte en skabelon skal du først [[#Indstil din skabelonmappe|indstille din skabelonmappe]].
-
-1. I venstre båndmenu skal du vælge **Indsæt skabelon**
-2. Vælg den skabelon, som du vil indsætte på makørpositionen i den aktive note
-
-Hvis din skabelonmappe kun indeholder en noteskabelon, vil denne blive indsat med det samme i den aktive note.
 
 ## Skabelon variabler
 
@@ -38,9 +29,71 @@ Både `{{date}}` og `{{time}}` variablerne tillader dig at kunne ændre standard
 
 For at angive en formattering skal du tilføje et kolon efterfulgt af en tekst [formatteret i Moment.js formatet](https://momentjs.com/docs/#/displaying/format/), fx. `{{date:YYYY-MM-DD}}`.
 
-Du kan anvende `{{date}}` og `{{time}}` med formattering uafhængigt af hinanden, fx. `{{time:YYYY-MM-DD}}`.
+Du kan anvende `{{date}}` og `{{time}}` med formattering på samme måde, fx. `{{time:YYYY-MM-DD}}`.
 
-Du kan ændre standard dato- og tidsformaterne under **Indstillinger → Skabeloner → Datoformat** og **Indstillinger → Skabeloner → Tidsformat**.
+Du kan ændre standard dato- og tidsformaterne under **[[Indstillinger]] → Kerneplugins → Skabeloner → Datoformat** og **[[Indstillinger]] → Kerneplugins → Skabeloner → Tidsformat**. ^template-settings-date-time-formatting
 
-> [!tip]
+> [!tip]- Brug dato- og tidsvariabler i andre plugins
 > Du kan også benytte `{{date}}` og `{{time}}` skabelon variable i de to plugins [[Daglige noter]] og [[Unik note opretter]].
+
+## Opret en skabelon
+
+I [[#Indstil din skabelonmappe|skabelonmappen]] skal du [[Administrer noter#Create a new note|oprette en note]], der indeholder den tekst, du ønsker skal vises, når du bruger skabelonen. Du kan bruge [[#Skabelon variabler|skabelonvariabler]] til dynamisk tekst som den aktuelle dato.
+
+For eksempel, her er en skabelon til studienoter:
+
+```markdown
+---
+topic: 
+date: "{{date}}"
+course: 
+tags:
+  - studies
+---
+
+# {{title}}
+
+## Key Concepts
+
+
+## Important Details
+
+
+## Examples
+
+
+## Questions
+- 
+
+## Summary
+
+
+## Related Topics
+- [[]]
+```
+
+> [!warning]+ Rediger skabeloner i kildetilstand
+> I [[Visninger og redigeringstilstand#Live Preview|Live-forhåndsvisning]] kan panelet **Egenskaber i dokument** overskrive skabelonvariabler, der ikke har anførselstegn.
+>
+> For at undgå dette skal du redigere skabeloner i [[Visninger og redigeringstilstand#Source mode|kildetilstand]], eller indstille **[[Indstillinger]] → Editor → [[Indstillinger#Properties in document|Egenskaber i dokument]]** til **Kilde**.
+
+## Indsæt en skabelon i den aktive note
+
+> [!todo] [[#Indstil din skabelonmappe]] før du indsætter en skabelon.
+
+1. I båndmenuen skal du vælge **Indsæt skabelon**
+2. Vælg den skabelon, som du vil indsætte på markørpositionen i den aktive note
+
+For at indsætte en skabelon ved hjælp af [[Kommandopalet|kommandopaletten]] eller [[Genvejstaster#Set a hotkey|en brugerdefineret tastaturgenvej]], brug kommandoen `Skabeloner: Indsæt skabelon`.
+
+Skabelonens indhold indsættes ved din nuværende markørposition. Hvis din markør ikke er i noteteksten, indsættes indholdet ved din seneste markørposition.
+
+### Skabelon egenskaber
+
+![[Egenskaber#^templates-properties]]
+
+## Indsæt aktuel dato og tid i den aktive note
+
+Brug kommandoerne `Skabeloner: Indsæt dags dato` og `Skabeloner: Indsæt nuværende tidspunkt` for at indsætte den aktuelle dato og tid ved din nuværende markørposition. Ligesom kommandoen `Indsæt skabelon` kan du også udføre disse med kommandopaletten eller en brugerdefineret tastaturgenvej.
+
+Den indsatte dato og tid bruger den [[#^template-settings-date-time-formatting|formattering, der er angivet i plugin-indstillingerne]].

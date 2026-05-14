@@ -12,7 +12,7 @@ Modelli è un [[Plugin principali|plugin principale]] che consente di inserire f
 
 ## Impostare la cartella dei modelli
 
-1. Nell'angolo in basso a sinistra, fare clic su **[[Impostazioni|Impostazioni]]** ![[lucide-cog.svg#icon]].
+1. Nell'angolo in basso a sinistra, selezionare **[[Impostazioni|Impostazioni]]** ![[lucide-cog.svg#icon]].
 2. In **Plugin principali → Modelli → Posizione cartella dei modelli**, inserire la cartella contenente i modelli.
 
 ## Variabili dei modelli
@@ -29,11 +29,11 @@ Sia `{{date}}` che `{{time}}` consentono di modificare il formato predefinito ut
 
 Per impostare una stringa di formato, aggiungere i due punti (`:`) seguiti da una stringa di [token di formato Moment.js](https://momentjs.com/docs/#/displaying/format/), ad esempio `{{date:YYYY-MM-DD}}`.
 
-È possibile usare `{{date}}` e `{{time}}` in modo intercambiabile con le stringhe di formato, ad esempio `{{time:YYYY-MM-DD}}`.
+È possibile usare `{{date}}` e `{{time}}` con le stringhe di formato allo stesso modo, ad esempio `{{time:YYYY-MM-DD}}`.
 
-È possibile modificare i formati predefiniti di data e ora in **[[Impostazioni|Impostazioni]] → Modelli → Formato data** e **[[Impostazioni|Impostazioni]] → Modelli → Formato ora**. ^template-settings-date-time-formatting
+È possibile modificare i formati predefiniti di data e ora in **[[Impostazioni|Impostazioni]] → Plugin principali → Modelli → Formato data** e **[[Impostazioni|Impostazioni]] → Plugin principali → Modelli → Formato ora**. ^template-settings-date-time-formatting
 
-> [!tip] Suggerimento
+> [!tip]- Usare le variabili di data e ora in altri plugin
 > È possibile utilizzare le variabili dei modelli `{{date}}` e `{{time}}` anche nei plugin [[Note del giorno|Note del giorno]] e [[Note univoche|Note univoche]].
 
 ## Creare un modello
@@ -72,11 +72,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Modificare i modelli in modalità Sorgente
+> In [[Viste e modalità di modifica#Anteprima dinamica|Anteprima dinamica]], il pannello **Proprietà nel documento** può sovrascrivere le variabili dei modelli che non hanno virgolette.
+>
+> Per evitare questo problema, modificare i modelli in [[Viste e modalità di modifica#Modalità sorgente|modalità sorgente]], oppure impostare **[[Impostazioni|Impostazioni]] → Editor → [[Impostazioni#Proprietà nel documento|Proprietà nel documento]]** su **Sorgente**.
+
 ## Inserire un modello nella nota attiva
 
-**Importante:** Per inserire un modello, è necessario prima [[#Impostare la cartella dei modelli]].
+> [!todo] [[#Impostare la cartella dei modelli]] prima di inserire un modello.
 
-1. Nella barra degli strumenti, fare clic su **Inserisci modello**.
+1. Nella barra degli strumenti, selezionare **Inserisci modello**.
 2. Selezionare il modello da inserire nella posizione del cursore nella nota attiva.
 
 Per inserire un modello utilizzando la [[Riquadro comandi|tavolozza dei comandi]] o [[Tasti di scelta rapida#Impostare una scorciatoia da tastiera|una scorciatoia da tastiera personalizzata]], usare il comando `Modelli: Inserisci modello`.
@@ -89,6 +94,6 @@ Il contenuto del modello viene inserito nella posizione corrente del cursore. Se
 
 ## Inserire la data e l'ora correnti nella nota attiva
 
-Usare i comandi `Modelli: Inserisci data corrente` e `Modelli: Inserisci ora corrente` per inserire la data e l'ora correnti nella posizione attuale del cursore. Come il comando `Inserisci modello`, è possibile farlo con la [[Riquadro comandi|tavolozza dei comandi]] o [[Tasti di scelta rapida#Impostare una scorciatoia da tastiera|una scorciatoia da tastiera personalizzata]].
+Usare i comandi `Modelli: Inserisci data corrente` e `Modelli: Inserisci ora corrente` per inserire la data e l'ora correnti nella posizione attuale del cursore. Come il comando `Inserisci modello`, è possibile eseguirli anche con il riquadro comandi o una scorciatoia da tastiera personalizzata.
 
 La data e l'ora inserite utilizzano la [[#^template-settings-date-time-formatting|formattazione impostata nelle impostazioni del plugin]].

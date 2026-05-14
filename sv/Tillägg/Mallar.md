@@ -10,7 +10,7 @@ Mallar är ett [[Kärntillägg|kärntillägg]] som låter dig infoga fördefinie
 
 ## Ställ in din mallmapp
 
-1. I det nedre vänstra hörnet, klicka på **[[Inställningar]]** ![[lucide-cog.svg#icon]].
+1. I det nedre vänstra hörnet, välj **[[Inställningar]]** ![[lucide-cog.svg#icon]].
 2. Under **Kärntillägg → Mallar → Mallmappens plats**, ange mappen som innehåller dina mallar.
 
 ## Mallvariabler
@@ -27,11 +27,11 @@ Både `{{date}}` och `{{time}}` låter dig ändra standardformatet med en _forma
 
 För att ställa in en formatsträng, lägg till ett kolon (`:`) följt av en sträng med [Moment.js-formattoken](https://momentjs.com/docs/#/displaying/format/), till exempel `{{date:YYYY-MM-DD}}`.
 
-Du kan använda `{{date}}` och `{{time}}` omväxlande med formatsträngar, till exempel `{{time:YYYY-MM-DD}}`.
+Du kan använda `{{date}}` och `{{time}}` med formatsträngar på samma sätt, till exempel `{{time:YYYY-MM-DD}}`.
 
-Du kan ändra standardformaten för datum och tid under **[[Inställningar]] → Mallar → Datumformat** och **[[Inställningar]] → Mallar → Tidsformat**. ^template-settings-date-time-formatting
+Du kan ändra standardformaten för datum och tid under **[[Inställningar]] → Kärntillägg → Mallar → Datumformat** och **[[Inställningar]] → Kärntillägg → Mallar → Tidsformat**. ^template-settings-date-time-formatting
 
-> [!tip] Tips
+> [!tip]- Använd datum- och tidsvariabler i andra tillägg
 > Du kan också använda mallvariablerna `{{date}}` och `{{time}}` i tilläggen [[Dagliga anteckningar]] och [[Unik anteckningsskapare]].
 
 ## Skapa en mall
@@ -70,11 +70,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Redigera mallar i källkodsläge
+> I [[Vyer och redigeringsläge#Live-förhandsvisning|live-förhandsvisning]] kan panelen **Egenskaper i dokument** skriva över mallvariabler som inte har citattecken.
+>
+> För att undvika detta, redigera mallar i [[Vyer och redigeringsläge#Källkodsläge|källkodsläge]], eller ställ in **[[Inställningar]] → Redigerare → [[Inställningar#Egenskaper i dokument|Egenskaper i dokument]]** till **Källkod**.
+
 ## Infoga en mall i den aktiva anteckningen
 
-**Viktigt:** För att infoga en mall måste du först [[#Ställ in din mallmapp]].
+> [!todo] [[#Ställ in din mallmapp]] innan du infogar en mall.
 
-1. I ribbonen, klicka på **Infoga mall**.
+1. I ribbonen, välj **Infoga mall**.
 2. Välj mallen som ska infogas vid markörens position i den aktiva anteckningen.
 
 För att infoga en mall med [[Kommandopalett|kommandopaletten]] eller [[Snabbkommandon#Ställ in ett snabbkommando|en anpassad tangentbordsgenväg]], använd kommandot `Mallar: Infoga mall`.
@@ -87,6 +92,6 @@ Mallens innehåll infogas vid din aktuella markörposition. Om din markör inte 
 
 ## Infoga aktuellt datum och tid i den aktiva anteckningen
 
-Använd kommandona `Mallar: Infoga aktuellt datum` och `Mallar: Infoga aktuell tid` för att infoga aktuellt datum och tid vid din aktuella markörposition. Precis som kommandot `Infoga mall` kan detta göras med [[Kommandopalett|kommandopaletten]] eller [[Snabbkommandon#Ställ in ett snabbkommando|en anpassad tangentbordsgenväg]].
+Använd kommandona `Mallar: Infoga aktuellt datum` och `Mallar: Infoga aktuell tid` för att infoga aktuellt datum och tid vid din aktuella markörposition. Precis som kommandot `Infoga mall` kan du också utföra dessa med kommandopaletten eller en anpassad tangentbordsgenväg.
 
 Det infogade datumet och tiden använder den [[#^template-settings-date-time-formatting|formatering som ställts in i tilläggsinställningarna]].

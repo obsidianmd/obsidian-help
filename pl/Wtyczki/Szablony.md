@@ -10,7 +10,7 @@ Szablony to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala wstawiać wc
 
 ## Ustawianie folderu szablonów
 
-1. W lewym dolnym rogu kliknij **[[Ustawienia]]** ![[lucide-cog.svg#icon]].
+1. W lewym dolnym rogu wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]].
 2. W sekcji **Wbudowane wtyczki → Szablony → Lokalizacja folderu szablonów** wprowadź folder zawierający twoje szablony.
 
 ## Zmienne szablonów
@@ -27,11 +27,11 @@ Zarówno `{{date}}`, jak i `{{time}}` pozwalają zmienić domyślny format za po
 
 Aby ustawić ciąg formatujący, dodaj dwukropek (`:`) a następnie ciąg [tokenów formatu Moment.js](https://momentjs.com/docs/#/displaying/format/), na przykład `{{date:YYYY-MM-DD}}`.
 
-Możesz używać `{{date}}` i `{{time}}` zamiennie z ciągami formatującymi, na przykład `{{time:YYYY-MM-DD}}`.
+Możesz używać `{{date}}` i `{{time}}` z ciągami formatującymi w ten sam sposób, na przykład `{{time:YYYY-MM-DD}}`.
 
-Domyślne formaty daty i godziny możesz zmienić w sekcji **[[Ustawienia]] → Szablony → Format daty** oraz **[[Ustawienia]] → Szablony → Format godziny**. ^template-settings-date-time-formatting
+Domyślne formaty daty i godziny możesz zmienić w sekcji **[[Ustawienia]] → Wbudowane wtyczki → Szablony → Format daty** oraz **[[Ustawienia]] → Wbudowane wtyczki → Szablony → Format godziny**. ^template-settings-date-time-formatting
 
-> [!tip] Wskazówka
+> [!tip]- Używanie zmiennych daty i godziny w innych wtyczkach
 > Możesz również używać zmiennych szablonów `{{date}}` i `{{time}}` we wtyczkach [[Dziennik]] i [[Kreator niepowtarzalnych notatek]].
 
 ## Tworzenie szablonu
@@ -70,11 +70,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Edytuj szablony w trybie źródłowym
+> W trybie [[Widoki i tryby edycji#Podgląd na żywo|podglądu na żywo]] panel **Atrybuty pliku** może nadpisać zmienne szablonów, które nie mają cudzysłowów.
+>
+> Aby tego uniknąć, edytuj szablony w [[Widoki i tryby edycji#Tryb źródłowy|trybie źródłowym]] lub ustaw **[[Ustawienia]] → Edytor → [[Ustawienia#Atrybuty pliku|Atrybuty pliku]]** na **Kod**.
+
 ## Wstawianie szablonu do aktywnej notatki
 
-**Ważne:** Aby wstawić szablon, musisz najpierw [[#Ustawianie folderu szablonów|ustawić folder szablonów]].
+> [!todo] [[#Ustawianie folderu szablonów|Ustaw folder szablonów]] przed wstawieniem szablonu.
 
-1. Na wstążce kliknij **Wstaw szablon**.
+1. Na wstążce wybierz **Wstaw szablon**.
 2. Wybierz szablon do wstawienia w pozycji kursora w aktywnej notatce.
 
 Aby wstawić szablon za pomocą [[Lista poleceń|palety poleceń]] lub [[Skróty klawiszowe#Ustawianie skrótu klawiszowego|niestandardowego skrótu klawiszowego]], użyj polecenia `Szablony: Wstaw szablon`.
@@ -87,6 +92,6 @@ Zawartość szablonu jest wstawiana w bieżącej pozycji kursora. Jeśli kursor 
 
 ## Wstawianie bieżącej daty i godziny do aktywnej notatki
 
-Użyj poleceń `Szablony: Wstaw bieżącą datę` i `Szablony: Wstaw bieżącą godzinę`, aby wstawić bieżącą datę i godzinę w bieżącej pozycji kursora. Podobnie jak polecenie `Wstaw szablon`, można to zrobić za pomocą [[Lista poleceń|palety poleceń]] lub [[Skróty klawiszowe#Ustawianie skrótu klawiszowego|niestandardowego skrótu klawiszowego]].
+Użyj poleceń `Szablony: Wstaw bieżącą datę` i `Szablony: Wstaw bieżącą godzinę`, aby wstawić bieżącą datę i godzinę w bieżącej pozycji kursora. Podobnie jak polecenie `Wstaw szablon`, można to również zrobić za pomocą palety poleceń lub niestandardowego skrótu klawiszowego.
 
 Wstawiane data i godzina używają [[#^template-settings-date-time-formatting|formatowania ustawionego w ustawieniach wtyczki]].

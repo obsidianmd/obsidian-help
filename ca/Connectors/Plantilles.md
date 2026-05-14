@@ -10,7 +10,7 @@ Plantilles és un [[Connectors principals|connector principal]] que et permet in
 
 ## Configura la carpeta de plantilles
 
-1. A la cantonada inferior esquerra, fes clic a **[[Configuració]]** ![[lucide-cog.svg#icon]].
+1. A la cantonada inferior esquerra, selecciona **[[Configuració]]** ![[lucide-cog.svg#icon]].
 2. A **Connectors principals → Plantilles → Ubicació de la carpeta de plantilles**, introdueix la carpeta que conté les teves plantilles.
 
 ## Variables de plantilla
@@ -27,11 +27,11 @@ Tant `{{date}}` com `{{time}}` et permeten canviar el format per defecte utilitz
 
 Per establir una cadena de format, afegeix dos punts (`:`) seguits d'una cadena de [tokens de format de Moment.js](https://momentjs.com/docs/#/displaying/format/), per exemple `{{date:YYYY-MM-DD}}`.
 
-Pots utilitzar `{{date}}` i `{{time}}` indistintament amb cadenes de format, per exemple `{{time:YYYY-MM-DD}}`.
+Pots utilitzar `{{date}}` i `{{time}}` amb cadenes de format de la mateixa manera, per exemple `{{time:YYYY-MM-DD}}`.
 
-Pots canviar els formats de data i hora per defecte a **[[Configuració]] → Plantilles → Format de data** i **[[Configuració]] → Plantilles → Format d'hora**. ^template-settings-date-time-formatting
+Pots canviar els formats de data i hora per defecte a **[[Configuració]] → Connectors principals → Plantilles → Format de data** i **[[Configuració]] → Connectors principals → Plantilles → Format d'hora**. ^template-settings-date-time-formatting
 
-> [!tip] Consell
+> [!tip]- Utilitza variables de data i hora en altres connectors
 > També pots utilitzar les variables de plantilla `{{date}}` i `{{time}}` als connectors [[Notes diàries]] i [[Creador de notes úniques]].
 
 ## Crear una plantilla
@@ -70,11 +70,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Edita les plantilles en mode de codi font
+> A la [[Vistes i mode d'edició#Live Preview|previsualització en viu]], el panell **Propietats en el document** pot sobreescriure les variables de plantilla que no tinguin cometes.
+>
+> Per evitar-ho, edita les plantilles en [[Vistes i mode d'edició#Source mode|mode de codi font]], o estableix **[[Configuració]] → Editor → [[Configuració#Properties in document|Propietats en el document]]** a **Font**.
+
 ## Inserir una plantilla a la nota activa
 
-**Important:** Per inserir una plantilla, primer has de [[#Configura la carpeta de plantilles]].
+> [!todo] [[#Configura la carpeta de plantilles]] abans d'inserir una plantilla.
 
-1. A la barra d'eines, fes clic a **Inserir plantilla**.
+1. A la barra d'eines, selecciona **Inserir plantilla**.
 2. Selecciona la plantilla per inserir-la a la posició del cursor a la nota activa.
 
 Per inserir una plantilla utilitzant la [[Paleta d'ordres]] o [[Tecles d'accés ràpid#Establir una drecera de teclat|una drecera de teclat personalitzada]], utilitza l'ordre `Plantilles: Inserir plantilla`.
@@ -87,6 +92,6 @@ El contingut de la plantilla s'insereix a la posició actual del cursor. Si el c
 
 ## Inserir la data i hora actuals a la nota activa
 
-Utilitza les ordres `Plantilles: Inserir data actual` i `Plantilles: Inserir hora actual` per inserir la data i hora actuals a la posició actual del cursor. Com l'ordre `Inserir plantilla`, això es pot fer amb la [[Paleta d'ordres]] o [[Tecles d'accés ràpid#Establir una drecera de teclat|una drecera de teclat personalitzada]].
+Utilitza les ordres `Plantilles: Inserir data actual` i `Plantilles: Inserir hora actual` per inserir la data i hora actuals a la posició actual del cursor. Com l'ordre `Inserir plantilla`, també pots fer-ho amb la paleta d'ordres o una drecera de teclat personalitzada.
 
 La data i hora inserides utilitzen el [[#^template-settings-date-time-formatting|format establert a la configuració del connector]].

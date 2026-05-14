@@ -10,7 +10,7 @@ Modelos é um [[Plugins Base|plugin principal]] que permite inserir excertos de 
 
 ## Definir a pasta de modelos
 
-1. No canto inferior esquerdo, clique em **[[Definições]]** ![[lucide-cog.svg#icon]].
+1. No canto inferior esquerdo, selecione **[[Definições]]** ![[lucide-cog.svg#icon]].
 2. Em **Plugins Base → Modelos → Localização da pasta de templates**, introduza a pasta que contém os seus modelos.
 
 ## Variáveis de modelo
@@ -27,11 +27,11 @@ Tanto `{{date}}` como `{{time}}` permitem alterar o formato predefinido usando u
 
 Para definir uma cadeia de formato, adicione dois pontos (`:`) seguidos de uma cadeia de [tokens de formato Moment.js](https://momentjs.com/docs/#/displaying/format/), por exemplo `{{date:YYYY-MM-DD}}`.
 
-Pode usar `{{date}}` e `{{time}}` de forma intercambiável com cadeias de formato, por exemplo `{{time:YYYY-MM-DD}}`.
+Pode usar `{{date}}` e `{{time}}` com cadeias de formato da mesma forma, por exemplo `{{time:YYYY-MM-DD}}`.
 
-Pode alterar os formatos predefinidos de data e hora em **[[Definições]] → Modelos → Formato da data** e **[[Definições]] → Modelos → Formato do horário**. ^template-settings-date-time-formatting
+Pode alterar os formatos predefinidos de data e hora em **[[Definições]] → Plugins Base → Modelos → Formato da data** e **[[Definições]] → Plugins Base → Modelos → Formato do horário**. ^template-settings-date-time-formatting
 
-> [!tip] Dica
+> [!tip]- Usar variáveis de data e hora noutros plugins
 > Também pode usar as variáveis de modelo `{{date}}` e `{{time}}` nos plugins [[Notas diárias]] e [[Criador de notas únicas]].
 
 ## Criar um modelo
@@ -70,11 +70,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Editar modelos no modo de origem
+> Na [[Vistas e modo de edição#Pré-visualização em direto|pré-visualização em direto]], o painel **Propriedades no documento** pode sobrescrever variáveis de modelo que não tenham aspas.
+>
+> Para evitar isto, edite os modelos no [[Vistas e modo de edição#Modo de origem|modo de origem]], ou defina **[[Definições]] → Editor → [[Definições#Propriedades no documento|Propriedades no documento]]** para **Origem**.
+
 ## Inserir um modelo na nota ativa
 
-**Importante:** Para inserir um modelo, primeiro precisa de [[#Definir a pasta de modelos]].
+> [!todo] [[#Definir a pasta de modelos]] antes de inserir um modelo.
 
-1. Na barra de ferramentas, clique em **Inserir templates**.
+1. Na barra de ferramentas, selecione **Inserir templates**.
 2. Selecione o modelo a inserir na posição do cursor na nota ativa.
 
 Para inserir um modelo usando a [[Paleta de comando]] ou [[Atalhos de teclado#Definir um atalho de teclado|um atalho de teclado personalizado]], use o comando `Modelos: Inserir templates`.
@@ -87,6 +92,6 @@ O conteúdo do modelo é inserido na posição atual do cursor. Se o cursor não
 
 ## Inserir data e hora atuais na nota ativa
 
-Use os comandos `Modelos: Inserir data atual` e `Modelos: Inserir hora atual` para inserir a data e hora atuais na posição atual do cursor. Tal como o comando `Inserir templates`, isto pode ser feito com a [[Paleta de comando]] ou [[Atalhos de teclado#Definir um atalho de teclado|um atalho de teclado personalizado]].
+Use os comandos `Modelos: Inserir data atual` e `Modelos: Inserir hora atual` para inserir a data e hora atuais na posição atual do cursor. Tal como o comando `Inserir templates`, também pode executá-los com a paleta de comandos ou um atalho de teclado personalizado.
 
 A data e hora inseridas utilizam a [[#^template-settings-date-time-formatting|formatação definida nas definições do plugin]].

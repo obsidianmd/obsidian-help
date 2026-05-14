@@ -10,7 +10,7 @@ Mallineet on [[Sisäänrakennetut lisäosat|sisäänrakennettu lisäosa]], jonka
 
 ## Aseta mallinekansio
 
-1. Napsauta vasemmassa alakulmassa **[[Asetukset]]** ![[lucide-cog.svg#icon]].
+1. Valitse vasemmassa alakulmassa **[[Asetukset]]** ![[lucide-cog.svg#icon]].
 2. Aseta kohdassa **Sisäänrakennetut lisäosat → Mallineet → Mallinetiedostojen sijainti** kansio, joka sisältää mallineesi.
 
 ## Mallinemuuttujat
@@ -27,11 +27,11 @@ Sekä `{{date}}` että `{{time}}` sallivat oletusmuodon muuttamisen _muotomerkki
 
 Aseta muotomerkkijono lisäämällä kaksoispiste (`:`) ja sen jälkeen [Moment.js-muotomääritteistä](https://momentjs.com/docs/#/displaying/format/) koostuva merkkijono, esimerkiksi `{{date:YYYY-MM-DD}}`.
 
-Voit käyttää muuttujia `{{date}}` ja `{{time}}` vaihdellen muotomerkkijonojen kanssa, esimerkiksi `{{time:YYYY-MM-DD}}`.
+Voit käyttää muuttujia `{{date}}` ja `{{time}}` muotomerkkijonojen kanssa samalla tavalla, esimerkiksi `{{time:YYYY-MM-DD}}`.
 
-Voit muuttaa päivämäärän ja kellonajan oletusmuotoja kohdassa **[[Asetukset]] → Mallineet → Päiväyksen muoto** ja **[[Asetukset]] → Mallineet → Ajan muoto**. ^template-settings-date-time-formatting
+Voit muuttaa päivämäärän ja kellonajan oletusmuotoja kohdassa **[[Asetukset]] → Sisäänrakennetut lisäosat → Mallineet → Päiväyksen muoto** ja **[[Asetukset]] → Sisäänrakennetut lisäosat → Mallineet → Ajan muoto**. ^template-settings-date-time-formatting
 
-> [!tip] Vinkki
+> [!tip]- Käytä päivämäärä- ja aikamuuttujia muissa lisäosissa
 > Voit käyttää mallinemuuttujia `{{date}}` ja `{{time}}` myös lisäosissa [[Päivittäiset muistiinpanot]] ja [[Uniikkien muistiinpanojen luonti]].
 
 ## Luo malline
@@ -70,11 +70,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Muokkaa mallineita lähdekooditilassa
+> [[Näkymät ja muokkaustila#Visuaalinen muokkaus|Visuaalisessa muokkauksessa]] **Tiedoston määreet** -paneeli voi ylikirjoittaa mallinemuuttujat, joita ei ole ympäröity lainausmerkeillä.
+>
+> Välttääksesi tämän, muokkaa mallineita [[Näkymät ja muokkaustila#Lähdekooditila|lähdekooditilassa]] tai aseta **[[Asetukset]] → Muokkain → [[Asetukset#Tiedoston määreet|Tiedoston määreet]]** arvoon **Lähdekoodi**.
+
 ## Lisää malline aktiiviseen muistiinpanoon
 
-**Tärkeää:** Jotta voit lisätä mallineen, sinun on ensin [[#Aseta mallinekansio|asetettava mallinekansio]].
+> [!todo] [[#Aseta mallinekansio]] ennen mallineen lisäämistä.
 
-1. Napsauta nauhavalikossa **Lisää malline**.
+1. Valitse nauhavalikossa **Lisää malline**.
 2. Valitse malline, joka lisätään kohdistimen kohtaan aktiivisessa muistiinpanossa.
 
 Voit lisätä mallineen [[Komentovalikko|komentovalikon]] tai [[Pikanäppäimet#Aseta pikanäppäin|mukautetun pikanäppäimen]] avulla käyttämällä komentoa `Mallineet: Lisää malline`.
@@ -87,6 +92,6 @@ Mallineen sisältö lisätään kohdistimen nykyiseen sijaintiin. Jos kohdistin 
 
 ## Nykyisen päivämäärän ja kellonajan lisääminen aktiiviseen muistiinpanoon
 
-Käytä komentoja `Mallineet: Lisää nykyinen päivämäärä` ja `Mallineet: Lisää nykyinen kellonaika` lisätäksesi nykyisen päivämäärän ja kellonajan kohdistimen nykyiseen sijaintiin. Kuten `Lisää malline` -komento, tämä voidaan tehdä [[Komentovalikko|komentovalikon]] tai [[Pikanäppäimet#Aseta pikanäppäin|mukautetun pikanäppäimen]] avulla.
+Käytä komentoja `Mallineet: Lisää nykyinen päivämäärä` ja `Mallineet: Lisää nykyinen kellonaika` lisätäksesi nykyisen päivämäärän ja kellonajan kohdistimen nykyiseen sijaintiin. Kuten `Lisää malline` -komento, myös nämä voidaan suorittaa komentovalikon tai mukautetun pikanäppäimen avulla.
 
 Lisätty päivämäärä ja kellonaika käyttävät [[#^template-settings-date-time-formatting|lisäosan asetuksissa määritettyä muotoilua]].

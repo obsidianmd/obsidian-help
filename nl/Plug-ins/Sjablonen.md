@@ -10,7 +10,7 @@ Sjablonen is een [[Ingebouwde plug-ins|kernplug-in]] waarmee je vooraf gedefinie
 
 ## Je sjabloonmap instellen
 
-1. Klik linksonder op **[[Instellingen]]** ![[lucide-cog.svg#icon]].
+1. Selecteer linksonder **[[Instellingen]]** ![[lucide-cog.svg#icon]].
 2. Voer onder **Ingebouwde plug-ins → Sjablonen → Sjabloonmaplocatie** de map in die je sjablonen bevat.
 
 ## Sjabloonvariabelen
@@ -27,11 +27,11 @@ Zowel `{{date}}` als `{{time}}` stellen je in staat om de standaardindeling te w
 
 Om een indelingsreeks in te stellen, voeg je een dubbele punt (`:`) toe gevolgd door een reeks [Moment.js-indelingstokens](https://momentjs.com/docs/#/displaying/format/), bijvoorbeeld `{{date:YYYY-MM-DD}}`.
 
-Je kunt `{{date}}` en `{{time}}` onderling uitwisselen met indelingsreeksen, bijvoorbeeld `{{time:YYYY-MM-DD}}`.
+Je kunt `{{date}}` en `{{time}}` op dezelfde manier gebruiken met indelingsreeksen, bijvoorbeeld `{{time:YYYY-MM-DD}}`.
 
-Je kunt de standaard datum- en tijdsindeling wijzigen onder **[[Instellingen]] → Sjablonen → Datumindeling** en **[[Instellingen]] → Sjablonen → Tijdsindeling**. ^template-settings-date-time-formatting
+Je kunt de standaard datum- en tijdsindeling wijzigen onder **[[Instellingen]] → Ingebouwde plug-ins → Sjablonen → Datumindeling** en **[[Instellingen]] → Ingebouwde plug-ins → Sjablonen → Tijdsindeling**. ^template-settings-date-time-formatting
 
-> [!tip] Tip
+> [!tip]- Datum- en tijdvariabelen gebruiken in andere plug-ins
 > Je kunt de sjabloonvariabelen `{{date}}` en `{{time}}` ook gebruiken in de plug-ins [[Dagnotities]] en [[Uniekenotitiesmaker]].
 
 ## Een sjabloon aanmaken
@@ -70,11 +70,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Bewerk sjablonen in bronmodus
+> In [[Weergaven en bewerkingsmodus#Live voorbeeld|Live voorbeeld]] kan het paneel **Eigenschappen in het document** sjabloonvariabelen overschrijven die geen aanhalingstekens hebben.
+>
+> Om dit te voorkomen, bewerk je sjablonen in [[Weergaven en bewerkingsmodus#Bronmodus|bronmodus]], of stel je **[[Instellingen]] → Editor → [[Instellingen#Eigenschappen in het document|Eigenschappen in het document]]** in op **Bron**.
+
 ## Een sjabloon invoegen in de actieve notitie
 
-**Belangrijk:** Om een sjabloon in te voegen, moet je eerst [[#Je sjabloonmap instellen]].
+> [!todo] [[#Je sjabloonmap instellen]] voordat je een sjabloon invoegt.
 
-1. Klik in de werkbalk op **Sjabloon invoegen**.
+1. Selecteer in de werkbalk **Sjabloon invoegen**.
 2. Selecteer het sjabloon dat je wilt invoegen op de cursorpositie in de actieve notitie.
 
 Om een sjabloon in te voegen met het [[Opdrachtenpaneel]] of [[Sneltoetsen#Een sneltoets instellen|een aangepaste sneltoets]], gebruik je de opdracht `Sjablonen: Sjabloon invoegen`.
@@ -87,6 +92,6 @@ De inhoud van het sjabloon wordt ingevoegd op je huidige cursorpositie. Als je c
 
 ## Huidige datum en tijd invoegen in de actieve notitie
 
-Gebruik de opdrachten `Sjablonen: Voeg huidige datum in` en `Sjablonen: Voeg huidige tijd in` om de huidige datum en tijd in te voegen op je huidige cursorpositie. Net als de opdracht `Sjabloon invoegen` kan dit worden gedaan met het [[Opdrachtenpaneel]] of [[Sneltoetsen#Een sneltoets instellen|een aangepaste sneltoets]].
+Gebruik de opdrachten `Sjablonen: Voeg huidige datum in` en `Sjablonen: Voeg huidige tijd in` om de huidige datum en tijd in te voegen op je huidige cursorpositie. Net als de opdracht `Sjabloon invoegen` kun je dit ook doen met het opdrachtenpalet of een aangepaste sneltoets.
 
 De ingevoegde datum en tijd gebruiken de [[#^template-settings-date-time-formatting|indeling die is ingesteld in de plug-ininstellingen]].

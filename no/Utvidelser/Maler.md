@@ -10,7 +10,7 @@ Maler er en [[Kjerneutvidelser|kjerneutvidelse]] som lar deg sette inn forhånds
 
 ## Angi malmappen din
 
-1. I nedre venstre hjørne, klikk **[[Innstillinger]]** ![[lucide-cog.svg#icon]].
+1. I nedre venstre hjørne, velg **[[Innstillinger]]** ![[lucide-cog.svg#icon]].
 2. Under **Kjerneutvidelser → Maler → Søkesti til malmappe**, skriv inn mappen som inneholder malene dine.
 
 ## Malvariabler
@@ -27,11 +27,11 @@ Både `{{date}}` og `{{time}}` lar deg endre standardformatet ved hjelp av en _f
 
 For å angi en formatstreng, legg til et kolon (`:`) etterfulgt av en streng med [Moment.js-formatmerker](https://momentjs.com/docs/#/displaying/format/), for eksempel `{{date:YYYY-MM-DD}}`.
 
-Du kan bruke `{{date}}` og `{{time}}` om hverandre med formatstrenger, for eksempel `{{time:YYYY-MM-DD}}`.
+Du kan bruke `{{date}}` og `{{time}}` med formatstrenger på samme måte, for eksempel `{{time:YYYY-MM-DD}}`.
 
-Du kan endre standard dato- og tidsformater under **[[Innstillinger]] → Maler → Dato-format** og **[[Innstillinger]] → Maler → Tidsformat**. ^template-settings-date-time-formatting
+Du kan endre standard dato- og tidsformater under **[[Innstillinger]] → Kjerneutvidelser → Maler → Dato-format** og **[[Innstillinger]] → Kjerneutvidelser → Maler → Tidsformat**. ^template-settings-date-time-formatting
 
-> [!tip] Tips
+> [!tip]- Bruk dato- og tidsvariabler i andre utvidelser
 > Du kan også bruke malvariablene `{{date}}` og `{{time}}` i utvidelsene [[Daglige notater]] og [[Unik notatoppretter]].
 
 ## Opprett en mal
@@ -70,11 +70,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Rediger maler i kildemodus
+> I [[Visninger og redigeringsmodus#Live-forhåndsvisning|Live-forhåndsvisning]] kan panelet **Egenskaper i dokument** overskrive malvariabler som ikke har anførselstegn.
+>
+> For å unngå dette, rediger maler i [[Visninger og redigeringsmodus#Kildemodus|kildemodus]], eller sett **[[Innstillinger]] → Redigeringsprogram → [[Innstillinger#Egenskaper i dokument|Egenskaper i dokument]]** til **Kilde**.
+
 ## Sett inn en mal i det aktive notatet
 
-**Viktig:** For å sette inn en mal, må du først [[#Angi malmappen din]].
+> [!todo] [[#Angi malmappen din]] før du setter inn en mal.
 
-1. I verktøylinjen, klikk **Sett inn mal**.
+1. I verktøylinjen, velg **Sett inn mal**.
 2. Velg malen som skal settes inn ved markørposisjonen i det aktive notatet.
 
 For å sette inn en mal med [[Kommandovelger|kommandopaletten]] eller [[Hurtigtaster#Sett en hurtigtast|en egendefinert hurtigtast]], bruk kommandoen `Maler: Sett inn mal`.
@@ -87,6 +92,6 @@ Innholdet i malen settes inn ved gjeldende markørposisjon. Hvis markøren ikke 
 
 ## Sett inn gjeldende dato og tid i det aktive notatet
 
-Bruk kommandoene `Maler: Sett inn dagens dato` og `Maler: Sett inn gjeldende tid` for å sette inn gjeldende dato og tid ved gjeldende markørposisjon. I likhet med kommandoen `Sett inn mal` kan dette gjøres med [[Kommandovelger|kommandopaletten]] eller [[Hurtigtaster#Sett en hurtigtast|en egendefinert hurtigtast]].
+Bruk kommandoene `Maler: Sett inn dagens dato` og `Maler: Sett inn gjeldende tid` for å sette inn gjeldende dato og tid ved gjeldende markørposisjon. I likhet med kommandoen `Sett inn mal` kan du også utføre disse med kommandopaletten eller en egendefinert hurtigtast.
 
 Den innsatte datoen og tiden bruker [[#^template-settings-date-time-formatting|formateringen angitt i utvidelsesinnstillingene]].

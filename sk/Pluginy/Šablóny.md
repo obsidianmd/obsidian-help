@@ -10,7 +10,7 @@ description: 'Šablóny sú základný doplnok, ktorý vám umožňuje vkladať 
 
 ## Nastavenie priečinka šablón
 
-1. V ľavom dolnom rohu kliknite na **[[Nastavenia]]** ![[lucide-cog.svg#icon]].
+1. V ľavom dolnom rohu vyberte **[[Nastavenia]]** ![[lucide-cog.svg#icon]].
 2. V časti **Vstavané pluginy → Šablóny → Umiestnenie priečinku šablón** zadajte priečinok obsahujúci vaše šablóny.
 
 ## Premenné šablón
@@ -27,11 +27,11 @@ Obe premenné `{{date}}` a `{{time}}` umožňujú zmeniť predvolený formát po
 
 Na nastavenie formátovacieho reťazca pridajte dvojbodku (`:`) nasledovanú reťazcom [formátovacích tokenov Moment.js](https://momentjs.com/docs/#/displaying/format/), napríklad `{{date:YYYY-MM-DD}}`.
 
-Premenné `{{date}}` a `{{time}}` môžete používať vzájomne zameniteľne s formátovacími reťazcami, napríklad `{{time:YYYY-MM-DD}}`.
+Premenné `{{date}}` a `{{time}}` môžete používať s formátovacími reťazcami rovnakým spôsobom, napríklad `{{time:YYYY-MM-DD}}`.
 
-Predvolené formáty dátumu a času môžete zmeniť v časti **[[Nastavenia]] → Šablóny → Formát dátumu** a **[[Nastavenia]] → Šablóny → Formát času**. ^template-settings-date-time-formatting
+Predvolené formáty dátumu a času môžete zmeniť v časti **[[Nastavenia]] → Vstavané pluginy → Šablóny → Formát dátumu** a **[[Nastavenia]] → Vstavané pluginy → Šablóny → Formát času**. ^template-settings-date-time-formatting
 
-> [!tip] Tip
+> [!tip]- Použitie premenných dátumu a času v iných pluginoch
 > Premenné šablón `{{date}}` a `{{time}}` môžete používať aj v pluginoch [[Každodenné poznámky]] a [[Unikátny tvorca poznámok]].
 
 ## Vytvorenie šablóny
@@ -70,11 +70,16 @@ tags:
 - [[]]
 ```
 
+> [!warning]+ Upravujte šablóny v režime zdroja
+> V [[Zobrazenia a režim úprav#Živý náhľad|živom náhľade]] môže panel **Vlastnosti v dokumente** prepísať premenné šablón, ktoré nemajú úvodzovky.
+>
+> Aby ste tomu predišli, upravujte šablóny v [[Zobrazenia a režim úprav#Režim zdroja|režime zdroja]], alebo nastavte **[[Nastavenia]] → Editor → [[Nastavenia#Vlastnosti v dokumente|Vlastnosti v dokumente]]** na **Zdroj**.
+
 ## Vloženie šablóny do aktívnej poznámky
 
-**Dôležité:** Na vloženie šablóny musíte najprv [[#Nastavenie priečinka šablón|nastaviť priečinok šablón]].
+> [!todo] Pred vložením šablóny najprv [[#Nastavenie priečinka šablón|nastavte priečinok šablón]].
 
-1. Na paneli nástrojov kliknite na **Vložiť šablónu**.
+1. Na paneli nástrojov vyberte **Vložiť šablónu**.
 2. Vyberte šablónu, ktorá sa vloží na pozíciu kurzora v aktívnej poznámke.
 
 Na vloženie šablóny pomocou [[Paleta príkazov|palety príkazov]] alebo [[Klávesové skratky#Nastavenie klávesovej skratky|vlastnej klávesovej skratky]] použite príkaz `Šablóny: Vložiť šablónu`.
@@ -87,6 +92,6 @@ Obsah šablóny sa vloží na aktuálnu pozíciu kurzora. Ak kurzor nie je v tel
 
 ## Vloženie aktuálneho dátumu a času do aktívnej poznámky
 
-Pomocou príkazov `Šablóny: Vložiť aktuálny dátum` a `Šablóny: Vložiť aktuálny čas` vložíte aktuálny dátum a čas na aktuálnu pozíciu kurzora. Rovnako ako príkaz `Vložiť šablónu` to môžete urobiť pomocou [[Paleta príkazov|palety príkazov]] alebo [[Klávesové skratky#Nastavenie klávesovej skratky|vlastnej klávesovej skratky]].
+Pomocou príkazov `Šablóny: Vložiť aktuálny dátum` a `Šablóny: Vložiť aktuálny čas` vložíte aktuálny dátum a čas na aktuálnu pozíciu kurzora. Rovnako ako príkaz `Vložiť šablónu`, aj tieto môžete vykonať pomocou palety príkazov alebo vlastnej klávesovej skratky.
 
 Vložený dátum a čas používa [[#^template-settings-date-time-formatting|formátovanie nastavené v nastaveniach pluginu]].
